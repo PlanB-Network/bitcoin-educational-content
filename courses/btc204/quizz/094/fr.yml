@@ -1,0 +1,13 @@
+question: Parmi les réponses suivantes, laquelle n'est pas une pratique conseillée pour gérer son doxxic change ?
+
+answer: Fusionner les UTXOs doxxic entre eux.
+
+wrong_answers:
+  - Mixer les UTXOs doxxic dans une pool plus petite.
+  - Faire donation de ses UTXOs doxxic.
+  - Marquer ses UTXOs doxxic comme non dépensables.
+
+explanation: |
+  Il est déconseillé de fusionner des UTXOs doxxic entre eux, car cela permet de faire un lien entre les différentes entrées de l'utilisateur dans Whirlpool.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel est le rôle principal de PBKDF2 dans Bitcoin ?
+answer: Générer la graine d'un portefeuille HD
+wrong_answers:
+  - Authentifier les transactions
+  - Chiffrer les clés privées
+  - Créer des adresses Bitcoin
+explanation: |
+  PBKDF2 est utilisé pour dériver une graine à partir d'une phrase mnémonique et d'une passphrase optionnelle.
+reviewed: false

@@ -1,0 +1,8 @@
+question: O que reflete uma transação de compromisso em um canal Lightning?
+answer: A nova distribuição de fundos entre as duas partes
+wrong_answers:
+  - O número total de transações realizadas
+  - A quantidade de taxas a serem pagas pela transação
+  - A abertura de um novo canal de pagamento
+explanation: |
+  Uma transação de compromisso representa a distribuição atual de fundos no canal após cada transação Lightning, mas não é publicada na blockchain enquanto o canal permanecer aberto.

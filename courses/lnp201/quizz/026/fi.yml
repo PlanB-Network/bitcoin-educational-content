@@ -1,0 +1,8 @@
+question: Mikä kanavan sulkemismenetelmä on taloudellisin ja nopein?
+answer: Yhteistyöllinen sulkeminen
+wrong_answers:
+  - Pakotettu sulkeminen
+  - Huijaamalla sulkeminen
+  - Mikään ei ole taloudellisempi ja nopeampi
+explanation: |
+  Yhteistyöllinen sulkeminen on nopein ja taloudellisin menetelmä, koska molemmat osapuolet suostuvat sulkemaan kanavan, säätäen maksuja markkinaolosuhteiden mukaan.

@@ -1,0 +1,12 @@
+question: Jaký je hlavní důvod, proč centrálně plánovaná ekonomika nevyhnutelně
+  zažívá špatné alokace kapitálu?
+answer: Neexistují tržní ceny ani bankroty, které by odhalily a napravily špatné alokace.
+wrong_answers:
+  - Centrální plánovači nejsou efektivní.
+  - Centrální plánovači nemají dostatek informací.
+  - Centrální plánovači nejsou motivováni efektivně alokovat zdroje.
+explanation: |
+  V centrálně plánované ekonomice neexistují tržní ceny ani bankroty,
+  které by odhalily a napravily špatné alokace. V důsledku toho se chyby budou hromadit, dokud
+  plýtvání nestane zjevným prostřednictvím významného poklesu životních podmínek.
+reviewed: false

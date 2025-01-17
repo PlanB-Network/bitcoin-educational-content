@@ -1,0 +1,12 @@
+question: Mikä on nykyisen rahoitusjärjestelmän pääongelma suhteessa ympäristöön?
+answer: Se kannustaa ylikulutukseen ja velkaantumiseen.
+wrong_answers:
+  - Se edistää fossiilisten polttoaineiden käyttöä.
+  - Se ei investoi uusiutuvaan energiaan.
+  - Se ei säätele tavaroiden tuotantoa.
+explanation: |
+  Nykyistä rahoitusjärjestelmää kritisoidaan siitä, että se kannustaa
+  ylikulutukseen ja velkaantumiseen, mikä aiheuttaa vakavia
+  ympäristöongelmia. Tämä johtuu helpon luoton saatavuudesta,
+  pankkien rahalaitoksesta ja osittaisvarantopankkitoiminnan käytöstä.
+reviewed: true

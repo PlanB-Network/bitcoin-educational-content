@@ -1,0 +1,13 @@
+question: Quelle méthode cryptographique est utilisée pour éviter que le coordinateur puisse lier les inputs et les outputs dans un coinjoin ?
+
+answer: Les signatures aveugles de Chaum.
+
+wrong_answers:
+  - Les signatures Schnorr.
+  - Les adresses P2SH.
+  - Les adresses P2TR.
+
+explanation: |
+  Dans les coinjoins dits chaumiens, on combine l'utilisation de Tor et des signatures aveugles de David Chaum pour garantir que le coordinateur ne puisse pas savoir quel output appartient à quel utilisateur.
+
+reviewed: false

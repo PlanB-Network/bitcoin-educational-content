@@ -1,0 +1,9 @@
+question: What process is the eCash electronic money model based on?
+answer: Blind signatures
+wrong_answers:
+  - Group signatures
+  - Ring signatures
+  - Threshold signatures
+explanation: |
+  eCash is based on the blind signature process, which allows a signer to sign something without seeing what they are signing.
+reviewed: false

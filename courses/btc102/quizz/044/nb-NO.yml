@@ -1,0 +1,11 @@
+question: Hva er hovedrollen til gruvearbeidere i Bitcoin-nettverket?
+answer: De sikrer nettverket ved å utføre Bitcoins proof-of-work prosesser
+wrong_answers:
+  - De skaper nye bitcoins
+  - De regulerer prisen på Bitcoin
+  - De kontrollerer Bitcoin-nettverket
+explanation: |
+  Kapittelinnholdet forklarer at gruvearbeidere er ansvarlige for å sikre
+  Bitcoin-nettverket. De bruker elektrisitet for å utføre Bitcoins proof-of-work prosesser,
+  som skaper en ny blokk.
+reviewed: false

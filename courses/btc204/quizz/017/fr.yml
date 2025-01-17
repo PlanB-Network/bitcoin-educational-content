@@ -1,0 +1,9 @@
+question: Comment appelle-t-on une information qui permet de rattacher un faisceau d'activités on-chain à une forme d'identité réelle ?
+answer: Un point d'entrée.
+wrong_answers:
+  - Une clé de rattachement.
+  - Un lien d'empreinte.
+  - Un marqueur d'analyse.
+explanation: |
+  Les comportements et informations qui risquent de lier une identité réelle à une activité on-chain sont appelés des “points d'entrée”.
+reviewed: false

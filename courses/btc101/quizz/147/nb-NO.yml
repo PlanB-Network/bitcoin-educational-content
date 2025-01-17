@@ -1,0 +1,13 @@
+question: Hva ville konsekvensene være hvis blokkene var 100 ganger tyngre?
+answer: Å kjøre en Bitcoin-node ville ikke være tilgjengelig for gjennomsnittspersonen, noe som kompromitterer desentraliseringen av protokollen og uforanderligheten av transaksjoner og konsensusregler.
+wrong_answers:
+  - Å kjøre en Bitcoin-node ville være mer tilgjengelig for gjennomsnittspersonen, noe som forbedrer desentraliseringen av protokollen og uforanderligheten av transaksjoner og konsensusregler.
+  - Transaksjonskapasiteten til nettverket ville reduseres.
+  - Blokkbelønningen for gruvearbeidere ville øke.
+explanation: |
+  Hvis blokkene var 100 ganger tyngre, ville kjøring av en Bitcoin-node kreve
+  en 50TB harddisk, en båndbredde på over 500GB/måned, og maskinvare i stand til å validere
+  hundretusener av transaksjoner på mindre enn 10 minutter. Dette ville gjøre kjøring
+  av en Bitcoin-node utilgjengelig for gjennomsnittspersonen, noe som kompromitterer desentraliseringen
+  av protokollen og uforanderligheten av transaksjoner og konsensusregler.
+reviewed: false

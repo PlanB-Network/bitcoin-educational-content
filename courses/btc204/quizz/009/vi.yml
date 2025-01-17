@@ -1,0 +1,9 @@
+question: Hai yếu tố nào tạo nên phần thưởng khối trong một giao dịch coinbase?
+answer: Phần thưởng khối và phí giao dịch.
+wrong_answers:
+  - Phần thưởng khối và tiền thưởng tốc độ.
+  - Quyền phát hành và phí bảo mật.
+  - Cổ tức khai thác và thuế mạng.
+explanation:
+  Khi một thợ mỏ tìm thấy một khối hợp lệ, họ được quyền nhận một phần thưởng bao gồm, một mặt là phần thưởng khối, và mặt khác là phí của các giao dịch mà họ đã bao gồm trong khối của mình.
+reviewed: false

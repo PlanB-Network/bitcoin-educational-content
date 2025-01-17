@@ -1,9 +1,0 @@
-question: Quelle est une façon de faciliter l'utilisation du Bitcoin dans les transactions quotidiennes ?
-answer: Listez tous les commerçants qui acceptent le Bitcoin
-wrong_answers:
-  - Augmenter le prix du Bitcoin
-  - Diminuer le nombre de Bitcoins
-  - Limiter l'utilisation du Bitcoin
-explanation: |
-  Une façon de faciliter l'utilisation du Bitcoin dans les transactions quotidiennes est de lister tous les commerçants qui acceptent le Bitcoin. Cela peut être fait grâce à des plateformes comme BTCMap.
-reviewed: false

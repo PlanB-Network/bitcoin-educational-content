@@ -1,9 +1,0 @@
-question: Was ist eine häufige Ursache für Sicherheitslücken?
-answer: Menschliches Versagen.
-wrong_answers:
-  - Stromausfälle.
-  - Langsame Internetgeschwindigkeit.
-  - Veraltete Hardware.
-explanation: |
-  Sicherheitslücken sind oft das Ergebnis von menschlichem Versagen, wie z.B. der Verwendung von Standardpasswörtern oder dem Aufschreiben von Passwörtern an unsicheren Orten. Es sind nicht immer ausgeklügelte Angriffe erforderlich, um die Computersicherheit zu gefährden.
-reviewed: false

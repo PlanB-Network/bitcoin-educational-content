@@ -1,0 +1,8 @@
+question: 比特币中Taproot更新引入了哪种签名算法？
+answer: Schnorr签名方案
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Schnorr签名方案是在2021年11月随Taproot更新引入的。

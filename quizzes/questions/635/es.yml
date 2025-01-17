@@ -1,9 +1,0 @@
-question: ¿Qué cambia la distribución de la capacidad en un canal de pago de Lightning?
-answer: Transacciones dentro del canal
-wrong_answers:
-  - Cambios en la tasa de cambio de Bitcoin
-  - Cambios en la capacidad total del canal
-  - Cambios en la red de Bitcoin
-explanation: |
-  Las transacciones dentro del canal no cambian la capacidad total del canal, pero sí cambian la distribución de esa capacidad entre los usuarios.
-reviewed: false

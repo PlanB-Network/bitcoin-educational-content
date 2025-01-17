@@ -1,0 +1,11 @@
+question: Es gibt einen historischen Fall einer täglichen Inflationsrate, die 100% entspricht; wo und wann ist das passiert?
+answer: In Simbabwe, 2007.
+wrong_answers:
+  - In Ungarn, 1945.
+  - In China, 1940.
+  - Dies ist tatsächlich ein unrealistischer Fall, der nicht eintreten kann.
+explanation: |
+  Eine Inflationsrate von 100% pro Tag ist ein realistisches Szenario, das
+  in Simbabwe im Jahr 2007 stattfand, wo der Geldwert ungefähr
+  alle 24 Stunden sich verdoppelte.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Thuật ngữ toán học nào được sử dụng cho các phép tính liên quan đến phép toán modulo?
+answer: Số học modulo
+wrong_answers:
+  - Đại số tuyến tính
+  - Lượng giác
+  - Hình học rời rạc
+explanation: |
+  Số học modulo là nhánh của toán học xử lý các phép toán trên các số trong một khuôn khổ hữu hạn, sử dụng phép toán modulo.

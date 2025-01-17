@@ -1,0 +1,9 @@
+question: Která z následujících vlastností není charakteristická pro Bitcoin?
+answer: Je snadno cenzurovatelný.
+wrong_answers:
+  - Je okamžitě přenosný.
+  - Má zanedbatelné náklady na ověření.
+  - Má pevnou měnovou politiku.
+explanation: |
+  Bitcoin má všechny nezbytné vlastnosti, aby byl efektivní a zdravou měnou: dělitelný, okamžitě přenosný, necenzurovatelný, s zanedbatelnými náklady na ověření a s měnovou politikou, která je již nastavena na stovky let dopředu s 21 miliony jednotek.
+reviewed: true

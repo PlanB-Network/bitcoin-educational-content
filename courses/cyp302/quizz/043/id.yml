@@ -1,0 +1,9 @@
+question: Jenis kelompok apa yang terutama menggunakan kriptografi?
+answer: Kelompok yang didefinisikan pada bilangan bulat atau elemen yang dijelaskan oleh bilangan bulat
+wrong_answers:
+  - Kelompok bilangan kompleks atau elemen yang dijelaskan oleh bilangan kompleks
+  - Kelompok transformasi geometri atau elemen yang dijelaskan oleh transformasi geometri
+  - Kelompok bilangan rasional atau elemen yang dijelaskan oleh bilangan rasional
+explanation: |
+  Kriptografi menggunakan kelompok berbasis bilangan bulat, atau elemen yang dijelaskan oleh bilangan bulat seperti titik pada kurva eliptik, untuk operasi enkripsi dan penandatanganan.
+reviewed: false

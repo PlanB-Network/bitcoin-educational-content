@@ -1,0 +1,9 @@
+question: Quelle est la principale fonction d'une invoice Lightning ?
+answer: Demander un paiement au nœud émetteur
+wrong_answers:
+  - Envoyer des fonds sans transaction on-chain
+  - Activer les HTLC sur un canal
+  - Ouvrir un nouveau canal Lightning
+explanation: |
+  Une invoice Lightning est une demande de paiement, transmise par le nœud destinataire au nœud émetteur pour initier un paiement sur le Lightning Network.
+reviewed: false

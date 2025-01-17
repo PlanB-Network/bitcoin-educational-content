@@ -1,9 +1,0 @@
-question: ¿Cuál es una posible desventaja de las monedas digitales de los bancos centrales (CBDC)?
-answer: Podrían obstaculizar la libertad financiera de las personas y facilitar abusos autoritarios.
-wrong_answers:
-  - Podrían llevar a una disminución en la oferta monetaria.
-  - Podrían llevar a una disminución en el valor de Bitcoin.
-  - Podrían llevar a una disminución en el valor del oro.
-explanation: |
-  Las monedas digitales de los bancos centrales (CBDC) podrían potencialmente obstaculizar la libertad financiera de las personas y facilitar abusos autoritarios. Esto se debe a que ofrecerían una economía más planificada centralmente, con el banco central teniendo aún más control sobre la oferta monetaria.
-reviewed: false

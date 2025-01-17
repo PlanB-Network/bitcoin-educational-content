@@ -1,0 +1,64 @@
+id: 13c777ee-7d69-47f0-bca7-1a58e9c099a5
+chapterId: 684e31f9-ebd1-51b6-91c0-1e6a315f1141
+difficulty: easy
+duration: 15
+author: DecouvreBitcoin
+tags:
+  - Lightning Network
+  - Bitcoin
+  - Micro-transactions
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2658
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2579
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1289
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2618
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2658
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2579
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2618
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2737
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2579
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2737

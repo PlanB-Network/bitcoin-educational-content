@@ -1,0 +1,9 @@
+question: Giao dịch cam kết trong một kênh Lightning phản ánh điều gì?
+answer: Sự phân bổ mới của quỹ giữa hai bên
+wrong_answers:
+  - Tổng số giao dịch đã thực hiện
+  - Số tiền phí phải trả cho giao dịch
+  - Việc mở một kênh thanh toán mới
+explanation: |
+  Một giao dịch cam kết đại diện cho sự phân bổ hiện tại của quỹ trong kênh sau mỗi giao dịch Lightning, nhưng không được công bố trên blockchain miễn là kênh vẫn mở.
+reviewed: false

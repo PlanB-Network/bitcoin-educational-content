@@ -1,0 +1,11 @@
+question: Cosa accadrebbe se un utente del nodo decidesse di seguire regole diverse che contraddicono le attuali regole di consenso?
+answer: Il nodo non farà più parte della rete Bitcoin.
+wrong_answers:
+  - Il nodo diventerà parte di una diversa rete Bitcoin.
+  - Il nodo verrà penalizzato dalla rete Bitcoin.
+  - Il nodo verrà premiato dalla rete Bitcoin.
+explanation: |
+  Se un utente del nodo decidesse di seguire altre regole che
+  invalidano le attuali regole di consenso, allora questo nodo
+  non farebbe più parte della rete Bitcoin.
+reviewed: true

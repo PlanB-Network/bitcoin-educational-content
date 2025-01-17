@@ -1,0 +1,8 @@
+question: Která služba umožňuje přesunout likviditu na opačnou stranu kanálu při získávání prostředků na-chain?
+answer: Loop Out
+wrong_answers:
+  - Keysend
+  - LNURL
+  - CoinSwap
+explanation: |
+  Služba Loop Out od Lightning Labs umožňuje převod prostředků z Lightning kanálu na on-chain blockchain, čímž optimalizuje kapacitu pro příjem při získávání bitcoinů na hlavním řetězci.

@@ -1,0 +1,14 @@
+question: Co je dust v kontextu UTXO?
+
+answer: UTXO, jejichž hodnota je příliš nízká na to, aby pokryla potřebné poplatky pro jejich utracení.
+
+wrong_answers:
+  - UTXO generované chybami transakce, které nemohou být potvrzeny na blockchainu.
+  - UTXO, které jsou označeny jako podezřelé nebo spojené s nelegálními aktivitami v síti.
+  - UTXO, které jsou uloženy na adresách, jež nebyly dlouho používány a jsou považovány za ztracené.
+
+explanation: |
+  Dust se vztahuje na UTXO, jejichž hodnota v sats je tak nízká, že nestačí na pokrytí transakčních poplatků potřebných k jejich utracení.
+
+reviewed: false
+

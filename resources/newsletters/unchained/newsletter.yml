@@ -1,0 +1,21 @@
+id: b99e1485-a584-4a99-8357-537593ba0261
+title: "Unchained"
+author: Tom Honzik, Stephen Hall
+level: expert
+publication_date: 2017-11-30
+link:
+  - website: https://unchained.com/blog/
+language: en
+description: |
+  Receive the latest on a wide amount of topics spacing from Bitcoin protocol
+  to pieces of advice on how to protect your bitcoins from modern threats. All of
+  this inside the blog from Unchained Capital, a Texan company focused on
+  the protection of your funds with cold storage that you control and use to get access to
+  trading, inheritance, loans, and IRAs.
+tags:
+  - protocols
+  - network-security
+  - keys
+  - good-practice
+contributors:
+  - hunt-wood

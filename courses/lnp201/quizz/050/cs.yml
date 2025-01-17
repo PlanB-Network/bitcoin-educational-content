@@ -1,0 +1,9 @@
+question: Proč by prodejce mohl provést fiktivní platbu v kanálu?
+answer: Aby přesunul likviditu na opačnou stranu
+wrong_answers:
+  - Aby snížil poplatky za směrování
+  - Aby zvýšil celkovou kapacitu svých kanálů
+  - Aby dlouhodobě uzamkl finanční prostředky
+explanation: |
+  Provedením fiktivní platby prodejce přesune likviditu ze své strany na opačnou stranu kanálu, čímž uvolní příchozí kapacitu pro přijímání plateb.
+reviewed: false

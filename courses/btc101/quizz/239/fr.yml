@@ -1,0 +1,9 @@
+question: Lequel des éléments suivants n'est pas une caractéristique clé des micro-transactions sur le Lightning Network ?
+answer: Temps de paiement longs.
+wrong_answers:
+  - Frais faibles.
+  - Paiements instantanés.
+  - Scalabilité.
+explanation: |
+  Avec les micro-transactions sur le Lightning Network, les utilisateurs peuvent bénéficier de frais de transaction faibles, ce qui rend économique l'envoi de très petites quantités de Bitcoin. Ils peuvent également avoir des paiements instantanés, permettant des transactions en temps réel. Enfin, ils peuvent obtenir une scalabilité, permettant de gérer un grand nombre de transactions simultanément. Ainsi, la mauvaise réponse est les temps de paiement longs.
+reviewed: true

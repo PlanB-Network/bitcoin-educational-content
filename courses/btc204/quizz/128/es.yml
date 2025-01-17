@@ -1,0 +1,13 @@
+question: ¿Cuál es la utilidad de un contrato inteligente en un intercambio secreto de propiedades?
+
+answer: Revelar simultánea y sistemáticamente información permitiendo a ambas partes recuperar los fondos de la otra.
+
+wrong_answers:
+  - Asegurar la confidencialidad cifrando la información de la propiedad de modo que solo el destinatario legítimo pueda descifrarla.
+  - Automatizar el proceso de transferencia para minimizar las interacciones humanas y reducir errores.
+  - Facilitar la resolución de disputas reteniendo los bitcoins de ambas partes en caso de intentos de engaño.
+
+explanation: |
+  Para posibilitar intercambios entre partes que no confían entre sí, se utilizan sistemas de contratos inteligentes. Un contrato inteligente es un programa que se ejecuta automáticamente cuando se cumplen condiciones predefinidas, lo cual, en nuestro caso, asegura que el intercambio de propiedades se lleve a cabo automáticamente sin requerir confianza mutua. El contrato inteligente permite la revelación simultánea de dos piezas de información sensible entre los participantes. O se ejecuta normalmente, y cada parte recupera los fondos de la otra, o falla, y todos conservan sus fondos originales.
+
+reviewed: false

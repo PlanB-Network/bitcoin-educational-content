@@ -1,0 +1,9 @@
+question: Mis on üks peamisi Bitcoin'i omadusi?
+answer: Seda saab vahetada üle kogu maailma ilma ühegi asutuse loata.
+wrong_answers:
+  - Seda saab kasutada ainult valitud inimeste poolt.
+  - Selle kasutamiseks on vajalik keskasutuse luba.
+  - Seda saab kasutada ainult teatud riikides.
+explanation: >-
+  Tekstis mainitakse, et Bitcoin on pseudonüümne ja seda saab vahetada üle kogu maailma ilma ühegi asutuse loata.
+reviewed: false

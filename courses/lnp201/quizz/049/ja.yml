@@ -1,0 +1,8 @@
+question: Lightningインボイスの主な機能は何ですか？
+answer: 送信ノードからの支払いを要求する
+wrong_answers:
+  - オンチェーン取引なしで資金を送る
+  - チャネル上でHTLCをアクティブにする
+  - 新しいLightningチャネルを開く
+explanation: |
+  Lightningインボイスは、支払いをLightningネットワーク上で開始するために、受信ノードが送信ノードに送信する支払い要求です。

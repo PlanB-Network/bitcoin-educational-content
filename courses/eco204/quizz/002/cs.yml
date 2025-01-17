@@ -1,0 +1,9 @@
+question: Jaká je definice inflace podle Roberta?
+answer: Inflace je nadměrný nárůst platebních prostředků vedoucí k růstu cen a k devalvaci měny.
+wrong_answers:
+  - Inflace je pokles platebních prostředků vedoucí k růstu cen a k devalvaci měny.
+  - Inflace je nadměrný nárůst platebních prostředků vedoucí k poklesu cen a k devalvaci měny.
+  - Inflace je nadměrný nárůst platebních prostředků vedoucí k růstu cen a k apreciaci měny.
+explanation: |
+  Podle Roberta je inflace definována jako nadměrný nárůst platebních prostředků (bankovky, kapitál) vedoucí k růstu cen a k devalvaci měny.
+reviewed: false

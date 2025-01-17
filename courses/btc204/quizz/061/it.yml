@@ -1,0 +1,13 @@
+question: Qual è lo scopo dell'opzione controllo moneta nel software del portafoglio Bitcoin?
+
+answer: Scegliere quali UTXO consumare come input per le transazioni.
+
+wrong_answers:
+  - Criptare gli UTXO per aumentare la sicurezza del portafoglio.
+  - Rilevare e bloccare gli UTXO da fonti sospette.
+  - Etichettare ogni UTXO nel portafoglio.
+
+explanation: |
+  Il controllo moneta è una funzionalità presente nei buoni software di portafoglio Bitcoin, che ti dà la possibilità di selezionare manualmente specifici UTXO da utilizzare come input quando si effettua una transazione.
+
+reviewed: false

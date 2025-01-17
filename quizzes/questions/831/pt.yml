@@ -1,9 +1,0 @@
-question: Qual é o objetivo de implementar a autenticação de dois fatores (2FA)?
-answer: Para proteger suas contas online contra acesso não autorizado.
-wrong_answers:
-  - Para dificultar o acesso à sua própria conta
-  - Para rastrear suas atividades online
-  - Para aumentar a velocidade da sua conexão com a internet
-explanation: |
-  A 2FA adiciona uma camada extra de segurança às suas contas online. Mesmo que um hacker obtenha sua senha, eles não conseguirão acessar sua conta sem o segundo fator de verificação.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on Hayekin pääteesi teoksessa Orjuuden tiellä?
+answer: Valtion interventio johtaa väistämättä orjuuteen.
+wrong_answers:
+  - Sosialismi ja natsismi ovat perustavanlaatuisesti erilaisia ideologioita.
+  - Yksityisomaisuus on oikeudenmukaista, jos se on rajoitettua.
+  - Orjuuden tiellä nopeusrajoitus on 80 km/h.
+explanation: |
+  Teoksessa Orjuuden tiellä Hayek väittää, että valtion puuttuminen talouteen johtaa asteittain vapauden menetykseen, sillä keskitetty suunnittelu johtaa väistämättä yksilön vapauden rajoituksiin.
+reviewed: false

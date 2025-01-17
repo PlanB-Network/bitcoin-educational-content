@@ -1,0 +1,9 @@
+question: Mikä osa HMAC-SHA512 tulosteen lopusta käytetään lapsiketjun koodina?
+answer: Viimeiset 32 tavua
+wrong_answers:
+  - Ensimmäiset 32 tavua
+  - Koko 64 tavua
+  - SHA256-tiiviste keskimmäisestä 32 tavusta
+explanation: |
+  HMAC-SHA512 tulosteen viimeiset 32 tavua toimivat lapsiavaimen ketjukoodina.
+reviewed: false

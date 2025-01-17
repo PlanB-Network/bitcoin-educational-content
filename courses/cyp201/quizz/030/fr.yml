@@ -1,0 +1,9 @@
+question: À quoi sert SIGHASH_SINGLE ?
+answer: Couvrir un input et son output correspondant
+wrong_answers:
+  - Couvrir tous les inputs et outputs
+  - Couvrir uniquement les inputs
+  - Couvrir tous les outputs sauf un
+explanation: |
+  SIGHASH_SINGLE couvre un seul input et un seul output correspondant à l'index de l'input signé, laissant le reste modifiable.
+reviewed: false

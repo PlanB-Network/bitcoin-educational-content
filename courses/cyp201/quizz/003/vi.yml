@@ -1,0 +1,9 @@
+question: Sự khác biệt chính giữa SHA256 và RIPEMD160 là gì?
+answer: RIPEMD160 tạo ra các băm ngắn hơn so với SHA256
+wrong_answers:
+  - SHA256 đã lỗi thời khác với RIPEMD160
+  - RIPEMD160 chỉ được sử dụng trong cơ chế Chứng minh Công việc
+  - SHA256 không bao giờ được kết hợp với các hàm băm khác
+explanation: |
+  RIPEMD160 tạo ra các băm 160-bit, trong khi SHA256 tạo ra các băm 256-bit.
+reviewed: false

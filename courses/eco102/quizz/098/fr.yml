@@ -1,0 +1,9 @@
+question: Quel doit être le but de la Loi selon Bastiat ?
+answer: Mettre fin à toutes les spoliations.
+wrong_answers:
+  - Rééquilibrer les relations de pouvoir.
+  - Générer du lien social.
+  - Favoriser l'égalité par des droits redistributifs.
+explanation: |
+  Pour Bastiat, la Loi doit simplement protéger les droits naturels en empêchant toute forme de spoliation, assurant ainsi une justice équitable pour tous.
+reviewed: false

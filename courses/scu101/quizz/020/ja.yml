@@ -1,0 +1,9 @@
+question: Windowsに組み込まれているアンチウイルスは何ですか？
+answer: Windows Defender
+wrong_answers:
+  - カスペルスキー
+  - ノートン
+  - マカフィー
+explanation: |
+  Windows DefenderはWindowsに組み込まれているアンチウイルスです。システムを脅威から保護するための安全かつ効果的な解決策です。
+reviewed: true

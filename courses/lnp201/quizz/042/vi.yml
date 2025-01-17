@@ -1,0 +1,9 @@
+question: Tiêu chí nào có thể giúp một nút chọn một lộ trình thanh toán hiệu quả?
+answer: Xác suất thành công dựa trên tổng dung lượng của các kênh
+wrong_answers:
+  - Khoảng cách địa lý giữa các nút
+  - Sự hiện diện của các nút với mức phí thấp
+  - Số lượng thanh toán được thực hiện bởi nút đích
+explanation: |
+  Tổng dung lượng của các kênh có thể chỉ ra một xác suất thành công cao hơn, vì nó cho thấy sự khả dụng lớn hơn của thanh khoản cho các giao dịch.
+reviewed: false

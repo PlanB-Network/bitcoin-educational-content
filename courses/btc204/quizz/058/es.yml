@@ -1,0 +1,13 @@
+question: ¿Cuál es la diferencia entre la reutilización de direcciones externas e internas en una transacción?
+
+answer: La reutilización externa se observa a través de múltiples transacciones, mientras que la reutilización interna se observa dentro de la misma transacción.
+
+wrong_answers:
+  - La reutilización externa concierne a direcciones públicas, mientras que la reutilización interna concierne a direcciones privadas utilizadas en scripts de transacción.
+  - La reutilización interna se observa a través de múltiples transacciones, mientras que la reutilización externa se observa dentro de la misma transacción.
+  - La reutilización interna concierne a direcciones públicas, mientras que la reutilización externa concierne a direcciones privadas utilizadas en scripts de transacción.
+
+explanation: |
+  La reutilización de direcciones externas se observa cuando una dirección se reutiliza en varias transacciones diferentes, mientras que la reutilización interna concierne a una dirección que se utiliza tanto en las entradas como en las salidas de la misma transacción.
+
+reviewed: false

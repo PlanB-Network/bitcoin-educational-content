@@ -1,0 +1,10 @@
+question: Quanti paesi nel mondo limitano le donne dall'aprire conti bancari a loro nome?
+answer: 72
+wrong_answers:
+  - 36
+  - 75
+  - 100
+explanation: |
+  In 72 paesi nel mondo, alle donne non è permesso aprire 
+  conti bancari a loro nome.
+reviewed: false

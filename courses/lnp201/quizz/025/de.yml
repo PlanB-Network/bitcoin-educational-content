@@ -1,0 +1,8 @@
+question: Welche drei Methoden gibt es, um einen Kanal im Lightning-Netzwerk zu schließen?
+answer: Kooperativer Abschluss, erzwungener Abschluss, Abschluss mit Betrug
+wrong_answers:
+  - Schneller Abschluss, langsamer Abschluss, Abschluss mit Doppelsignatur
+  - Sicherer Abschluss, automatisierter Abschluss, Abschluss mit Verlust von Geldern
+  - Direkter Abschluss, indirekter Abschluss, Abschluss mit Anspruch
+explanation: |
+  Es gibt drei Methoden: kooperativer Abschluss, bei dem die Parteien zustimmen, erzwungener Abschluss ohne eine Antwort von einer Partei und Abschluss mit Betrug, bei dem eine Partei versucht, eine alte Transaktion zu veröffentlichen.

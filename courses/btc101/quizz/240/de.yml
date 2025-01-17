@@ -1,0 +1,13 @@
+question: Was ist einer der potenziellen Vorteile des Lightning-Netzwerks für Inhaltsproduzenten?
+answer: Sie wären motiviert, qualitativ hochwertige Inhalte zu erstellen, um die Aufmerksamkeit der Nutzer zu behalten.
+wrong_answers:
+  - Sie könnten mehr für ihre Inhalte verlangen.
+  - Sie könnten ein breiteres Publikum erreichen.
+  - Sie könnten Inhalte schneller produzieren, um die Aufmerksamkeit der Nutzer zu behalten.
+explanation: |
+  Mit dem Lightning-Netzwerk würden Inhaltsproduzenten
+  motiviert, qualitativ hochwertige Inhalte zu erstellen, um
+  die Aufmerksamkeit der Nutzer zu behalten. Die Nutzer wiederum
+  würden nur für die Inhalte bezahlen, die sie konsumieren, wodurch
+  Vorauszahlungen für Abonnements entfallen würden.
+reviewed: true

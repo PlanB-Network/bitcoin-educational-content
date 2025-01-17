@@ -1,0 +1,12 @@
+question: O que Milton Friedman previu em 1999?
+answer: O desenvolvimento de um e-cash confiável.
+wrong_answers:
+  - O fim do dinheiro físico.
+  - A ascensão do Bitcoin.
+  - O fim do controle governamental sobre o dinheiro.
+explanation: |
+  Milton Friedman, um economista renomado, previu em 1999
+  que um e-cash confiável seria desenvolvido em breve, um método
+  pelo qual na Internet você pode transferir fundos de A para B,
+  sem A conhecer B ou vice-versa.
+reviewed: true

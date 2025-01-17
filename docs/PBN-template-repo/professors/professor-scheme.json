@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Professor",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Full name of the professor"
+    },
+    "contributor_id": {
+      "type": "string",
+      "description": "Unique identifier using two words from the BIP39 dictionary"
+    },
+    "links": {
+      "type": "object",
+      "description": "Online presence of the professor",
+      "properties": {
+        "twitter": {
+          "type": "string",
+          "format": "url",
+          "description": "Twitter URL of the professor"
+        },
+        "website": {
+          "type": "string",
+          "format": "url",
+          "description": "Personal or professional website of the professor"
+        }
+      },
+      "additionalProperties": false
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of tags associated with the professor's expertise and interests",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tips": {
+      "type": "object",
+      "description": "Information for direct tips to the professor",
+      "properties": {
+        "lightning_address": {
+          "type": "string",
+          "description": "Lightning network address for tips"
+        }
+      },
+      "additionalProperties": false
+    },
+    "company": {
+      "type": "string",
+      "description": "Name of the company the professor is affiliated with"
+    },
+    "affiliations": {
+      "type": "array",
+      "description": "List of affiliations the professor has within the industry or elsewhere",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": ["name", "contributor_id", "links", "tags", "tips", "company", "affiliations"],
+  "additionalProperties": false
+}
+

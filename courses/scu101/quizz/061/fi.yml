@@ -1,0 +1,10 @@
+question: Mitä ohjelmointikieliä käytetään kyberturvallisuudessa?
+answer: Python, C, Java
+wrong_answers:
+  - HTML, CSS, JavaScript
+  - Swift, Kotlin, Ruby
+  - PHP, Perl, Lua
+explanation: |
+  Luvussa listataan Python, C ja Java esimerkkeinä
+  ohjelmointikielistä, joita käytetään kyberturvallisuudessa.
+reviewed: true

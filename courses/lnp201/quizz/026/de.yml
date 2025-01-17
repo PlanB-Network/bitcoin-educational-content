@@ -1,0 +1,9 @@
+question: Welche Methode zum Schließen eines Kanals ist die wirtschaftlichste und schnellste?
+answer: Kooperativer Abschluss
+wrong_answers:
+  - Erzwungener Abschluss
+  - Abschluss mit Betrug
+  - Keine ist wirtschaftlicher und schneller
+explanation: |
+  Der kooperative Abschluss ist die schnellste und wirtschaftlichste Methode, da beide Parteien zustimmen, den Kanal zu schließen, wobei die Gebühren entsprechend den Marktbedingungen angepasst werden.
+reviewed: false

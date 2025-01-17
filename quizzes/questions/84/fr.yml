@@ -1,9 +1,0 @@
-question: Quelle est l'analogie utilisée pour expliquer comment vous pouvez recevoir des Bitcoins sans permettre à l'expéditeur de voler vos fonds ?
-answer: Une boîte aux lettres
-wrong_answers:
-  - Un compte bancaire
-  - Un coffre-fort
-  - Une maison
-explanation: |
-  L'analogie utilisée pour expliquer comment vous pouvez recevoir des Bitcoins sans permettre à l'expéditeur de voler vos fonds est une boîte aux lettres. Les gens y déposent de l'argent, mais vous êtes le seul à pouvoir l'ouvrir.
-reviewed: false

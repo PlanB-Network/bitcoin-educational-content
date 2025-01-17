@@ -1,0 +1,13 @@
+question: Cosa succede alla ricompensa di mining nella rete Bitcoin circa ogni quattro anni?
+answer: Subisce un dimezzamento
+wrong_answers:
+  - Raddoppia
+  - Triplica
+  - Rimane invariata
+explanation: |
+  La ricompensa di mining nella rete Bitcoin subisce un
+  dimezzamento ogni 210.000 blocchi, circa ogni quattro
+  anni. Questa remunerazione funge da potente incentivo per
+  incoraggiare i minatori a partecipare al processo di mining
+  nonostante il suo costo energetico.
+reviewed: true

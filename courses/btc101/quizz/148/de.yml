@@ -1,0 +1,8 @@
+question: Was war das Ergebnis des Blockkriegs im Jahr 2017?
+answer: Benutzer und Knoten lehnten die vorgeschlagene Änderung zur Erhöhung der Blockgröße ab und aktivierten ein Update namens SegWit.
+wrong_answers:
+  - Benutzer und Knoten akzeptierten die vorgeschlagene Änderung zur Erhöhung der Blockgröße und aktivierten ein Update namens SegWit.
+  - Benutzer und Knoten lehnten die vorgeschlagene Änderung zur Erhöhung der Blockgröße ab und aktivierten keine Updates.
+  - Benutzer und Knoten akzeptierten die vorgeschlagene Änderung zur Erhöhung der Blockgröße und aktivierten keine Updates.
+explanation: Im Blockkrieg im Jahr 2017 triumphierten die Benutzer und Knoten, indem sie die vorgeschlagene Änderung zur Erhöhung der Blockgröße ablehnten und ein Update namens SegWit aktivierten.
+reviewed: true

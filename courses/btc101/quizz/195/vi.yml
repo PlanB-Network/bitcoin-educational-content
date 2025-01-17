@@ -1,0 +1,11 @@
+question: Những hành động nào sau đây có thể giúp những người muốn sử dụng Bitcoin trong cuộc sống hàng ngày?
+answer: Có một danh sách tất cả các nhà bán lẻ chấp nhận Bitcoin.
+wrong_answers:
+  - Tăng giá của Bitcoin.
+  - Giảm số lượng Bitcoin.
+  - Hạn chế việc sử dụng Bitcoin.
+explanation: >-
+  Một cách để tạo điều kiện thuận lợi cho việc sử dụng Bitcoin trong các giao dịch hàng ngày
+  là liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin. Điều này có thể được thực hiện thông qua các nền tảng
+  như BTCMap.
+reviewed: true

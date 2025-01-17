@@ -1,0 +1,9 @@
+question: Một trong những hậu quả chính của Bitcoin đối với hệ thống ngân hàng là gì?
+answer: Nó cho phép giải phóng khỏi hệ thống ngân hàng.
+wrong_answers:
+  - Nó cho phép kiểm soát hệ thống ngân hàng.
+  - Nó cho phép loại bỏ hệ thống ngân hàng.
+  - Nó cho phép làm hỏng hệ thống ngân hàng.
+explanation: >-
+  Văn bản đề cập rằng Bitcoin cho phép giải phóng khỏi hệ thống ngân hàng.
+reviewed: true

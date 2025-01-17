@@ -1,0 +1,9 @@
+question: Trong tình huống nào việc đóng kênh một cách cưỡng bức được sử dụng?
+answer: Khi một trong các bên không còn phản hồi
+wrong_answers:
+  - Khi dung lượng của kênh cần được tăng lên
+  - Khi thời gian khóa không đủ
+  - Khi phí giao dịch quá cao
+explanation: |
+  Việc đóng kênh một cách cưỡng bức được sử dụng như một biện pháp cuối cùng nếu một trong các bên, ví dụ do một vấn đề kỹ thuật, không còn phản hồi lại tin nhắn của bên kia.
+reviewed: false

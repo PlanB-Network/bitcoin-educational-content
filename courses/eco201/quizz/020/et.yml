@@ -1,0 +1,8 @@
+question: Milline on Austria majandusteadlaste sõnul tulemus, kui inimesed spetsialiseeruvad oma tööle ja tegelevad vahetustehingutega?
+answer: Inimesed on alati paremas olukorras.
+wrong_answers:
+  - Inimesed on alati halvemas olukorras.
+  - Inimeste olukord ei muutu.
+  - Tulemus sõltub individuaalist.
+explanation: |
+  Austria majandusteadlaste sõnul on tulemus, kui inimesed spetsialiseeruvad oma tööle ja tegelevad vahetustehingutega, see, et nad on alati paremas olukorras. See on seetõttu, et spetsialiseerumine ja vahetus võimaldavad inimestel maksimeerida oma subjektiivset kasulikkust.

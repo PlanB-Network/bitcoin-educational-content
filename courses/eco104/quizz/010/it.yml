@@ -1,0 +1,11 @@
+question: Qual è lo scopo dei nodi nella rete Bitcoin?
+answer: Mantenere e proteggere la blockchain
+wrong_answers:
+  - Elaborare transazioni
+  - Proporre e implementare modifiche al codice sorgente di Bitcoin
+  - Competere con altri miner
+explanation: |
+  I nodi sono essenziali per l'integrità e la sicurezza della rete Bitcoin.
+  Funzionano come custodi del sistema, assicurando che le transazioni
+  vengano elaborate accuratamente e secondo le regole.
+reviewed: false

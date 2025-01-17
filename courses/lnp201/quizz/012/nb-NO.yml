@@ -1,0 +1,8 @@
+question: Når er en Lightning-kanal offisielt åpen?
+answer: Når innskuddstransaksjonen er bekreftet på Bitcoin-blockchainen
+wrong_answers:
+  - Så snart de offentlige nøklene er utvekslet mellom deltakerne
+  - Når uttakstransaksjonen er signert av begge parter
+  - Så snart 2/2 multisignaturadressen er opprettet
+explanation: |
+  Kanalen anses som åpen når innskuddstransaksjonen har blitt inkludert i en Bitcoin-blokk og har nådd et visst antall bekreftelser.

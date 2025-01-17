@@ -1,9 +1,0 @@
-question: Was ist der Zweck einer digitalen Signatur im Zusammenhang mit Bitcoin-Transaktionen?
-answer: Um zu beweisen, dass Sie der Inhaber eines privaten Schlüssels sind, ohne ihn preiszugeben.
-wrong_answers:
-  - Um die Transaktionsdaten zu verschlüsseln.
-  - Um die Transaktionsdaten zu speichern.
-  - Um die Transaktionsdaten zu übertragen.
-explanation: |
-  Im Zusammenhang mit Bitcoin-Transaktionen wird eine digitale Signatur verwendet, um zu beweisen, dass Sie der Inhaber eines privaten Schlüssels sind, ohne ihn preiszugeben. Dies wird mithilfe des ECDSA-Algorithmus erreicht.
-reviewed: false

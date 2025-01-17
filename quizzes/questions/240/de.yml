@@ -1,9 +1,0 @@
-question: Wie könnte das Lightning Network potenziell Zahlungsmodelle verändern?
-answer: Benutzer könnten pro Minute oder sogar pro Sekunde für die Zeit, die sie mit der Nutzung eines Dienstes verbringen, berechnet werden.
-wrong_answers:
-  - Benutzer könnten eine Pauschalgebühr für die Nutzung eines Dienstes zahlen.
-  - Benutzer könnten basierend auf der Menge der von ihnen genutzten Daten berechnet werden.
-  - Benutzer könnten basierend auf der Anzahl der von ihnen getätigten Transaktionen berechnet werden.
-explanation: |
-  Mit dem Lightning Network könnten Benutzer anstelle eines monatlichen Abonnements für einen Dienst pro Minute oder sogar pro Sekunde für die Zeit, die sie mit der Nutzung des Dienstes verbringen, berechnet werden.
-reviewed: false

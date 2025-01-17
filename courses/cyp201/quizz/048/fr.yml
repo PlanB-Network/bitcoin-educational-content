@@ -1,0 +1,9 @@
+question: Pourquoi une phrase mnémonique de 24 mots est-elle souvent jugée superflue pour un portefeuille Bitcoin ?
+answer: Les clés dérivées n'offrent que 128 bits de sécurité
+wrong_answers:
+  - Les logiciels ne prennent pas en charge les phrases de 24 mots
+  - Elle ne permet pas de dériver des clés publiques
+  - Les phrases plus courtes ne sont pas standardisées
+explanation: |
+  Bien qu'une phrase de 24 mots offre 256 bits de sécurité, les clés privées Bitcoin dérivées ne garantissent que 128 bits de sécurité, rendant l'excès inutile.
+reviewed: false

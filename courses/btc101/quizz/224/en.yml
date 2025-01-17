@@ -1,0 +1,10 @@
+question: What does the Lightning Network allow for?
+answer: Instant, low-cost Bitcoin transactions.
+wrong_answers:
+  - Instant, high-cost Bitcoin transactions.
+  - Delayed, low-cost Bitcoin transactions.
+  - Delayed, high-cost Bitcoin transactions.
+explanation: >-
+  The Lightning Network allows for instant, low-cost Bitcoin transactions,
+  thus solving the scalability problem of Bitcoin.
+reviewed: true

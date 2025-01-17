@@ -1,0 +1,13 @@
+question: Miksi XOR-operaattoria käytetään BIP47; ssä?
+
+answer: Symmetriseen salaamiseen lähettäjän maksukoodin sisällön osalta.
+
+wrong_answers:
+  - Asymmetriseen salaamiseen lähettäjän maksukoodin sisällön osalta.
+  - Symmetriseen salaamiseen lähettäjän maksukoodin metatiedon osalta.
+  - Asymmetriseen salaamiseen lähettäjän maksukoodin metatiedon osalta.
+
+explanation: |
+  XOR-operaattoria käytetään symmetriseen salaamiseen lähettäjän maksukoodin sisällön osalta BIP47: ssä.
+
+reviewed: false

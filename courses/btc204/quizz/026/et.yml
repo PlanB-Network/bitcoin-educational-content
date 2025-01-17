@@ -1,0 +1,8 @@
+question: Nende vastuste hulgas, milline ei ole üks kolmest peamisest riskist, mis kasutajal on KYC läbimisel?
+answer: Ostetud bitcoinide mittelikviidsus
+wrong_answers:
+  - Riikliku järelevalve all oleku risk
+  - Onchain jälgimise hõlbustamine
+  - Andmelekkimise risk
+explanation: |
+  KYC-ga kaasneb andmelekkimise risk, kuna teie teave salvestatakse, riikliku järelevalve all oleku risk, kuna teie teavet võidakse edastada või konfiskeerida, ning jälgimise risk, kuna KYC võib olla sisenemispunktiks. Siiski ei vähenda KYC ostetud bitcoinide likviidsust.

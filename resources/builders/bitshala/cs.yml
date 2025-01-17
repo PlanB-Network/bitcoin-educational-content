@@ -1,0 +1,7 @@
+description: |
+  Bitshala je vzdělávací iniciativa (nebo pathshala) vedená indickými bitcoinisty, která má za cíl poskytnout vedení a zdroje pro nové vývojáře začínající svou cestu s bitcoinem.
+  I když existuje mnoho kurzů o Blockchainu, které nabízejí povrchní lekce o API pro EVM, jako jsou "chytré kontrakty", technické znalosti potřebné pro vývoj Bitcoinu jsou mnohem širší a nuancovanější.
+  Bitcoin je multidisciplinární obor zahrnující Softwarové Inženýrství, Systémové Inženýrství, Návrh Síťového Protokolu, Teorii Her, Kryptografii, Ekonomii a Sociální Dynamiku Komplexních Systémů jako je Trh. Vytvoření komplexního kurzu o bitcoinu je tedy pravděpodobně nemožné v jeho celistvosti a nic v existující akademii a programovacích bootcampech takové požadavky nesplňuje. Noví lidé, kteří se snaží vstoupit do vývoje Bitcoinu, tak musí procházet velkou sadou paralelních oborů, které nejsou dobře organizované a jsou rozptýlené po internetu.
+  Bitshala si tedy klade za cíl poskytnout základ pro vytváření, produkci a publikování různých kategorií obsahu v Open Source, aby uspokojila různorodé vzdělávací potřeby aspirujícího vývojáře Bitcoinu.
+contributors:
+  - rabbit-hole

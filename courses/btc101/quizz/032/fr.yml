@@ -1,0 +1,11 @@
+question: Comment est créée la monnaie saine ?
+answer: La monnaie saine doit émerger naturellement du marché et du consensus volontaire.
+wrong_answers:
+  - La monnaie saine doit être imposée par le gouvernement par l'émission de lois monétaires.
+  - La monnaie saine doit être imposée par les entreprises à travers l'utilisation de la violence.
+  - La monnaie saine ne peut pas être créée.
+explanation: |
+  La monnaie saine est un phénomène social naturel qui doit émerger
+  du marché et du consensus volontaire. Aucun humain ou
+  groupe d'humains ne peut créer de la monnaie.
+reviewed: true

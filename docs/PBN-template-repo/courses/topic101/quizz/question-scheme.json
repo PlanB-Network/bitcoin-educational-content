@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "quiz-question",
+  "type": "object",
+  "properties": {
+    "chapterId": {
+      "type": "string",
+      "description": "Defines the chapter this question is related to, using the chapterId."
+    },
+    "difficulty": {
+      "type": "string",
+      "description": "Difficulty level of the question.",
+      "enum": ["easy", "intermediate", "hard", "expert"]
+    },
+    "author": {
+      "type": "string",
+      "description": "The contribution-id of the author of the question."
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of tags associated with the question.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    }
+  },
+  "required": ["chapterId", "difficulty", "author", "tags"],
+  "additionalProperties": false
+}
+

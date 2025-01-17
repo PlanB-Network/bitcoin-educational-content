@@ -1,0 +1,62 @@
+id: d8dd45a0-2392-476c-8bfb-003c7ea4b7a6
+chapterId: b7561082-8943-519d-95d1-a5f60dd2686d
+difficulty: intermediate
+duration: 30
+author: DecouvreBitcoin
+tags:
+  - Bitcoin Protocol
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2560
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2530
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1265
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2545
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2560
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2530
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2545
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2590
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2530
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2590

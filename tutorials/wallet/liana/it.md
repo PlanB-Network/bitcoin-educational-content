@@ -4,7 +4,7 @@ name: Liana
 description: Come configurare il tuo portafoglio Liana
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 La rete di sicurezza per le tue monete, Liana è un semplice portafoglio Bitcoin che utilizza i contratti di tempo on-chain per garantire sicurezza e recupero.
 

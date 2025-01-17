@@ -1,9 +1,0 @@
-question: Qual è il principale strumento utilizzato dai minatori nella rete Bitcoin oggi?
-answer: ASIC
-wrong_answers:
-  - CPU
-  - GPU
-  - FPGA
-explanation: |
-  Oggi, i minatori utilizzano esclusivamente ASIC dedicati a questa operazione, ottimizzati per testare il massimo numero di combinazioni con il consumo energetico più ridotto possibile e nel minor tempo possibile.
-reviewed: false

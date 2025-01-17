@@ -1,0 +1,13 @@
+question: ¿Cuál es el propósito de la opción control de monedas en el software de monedero Bitcoin?
+
+answer: Elegir qué UTXOs consumir como entradas para las transacciones.
+
+wrong_answers:
+  - Encriptar los UTXOs para mejorar la seguridad del monedero.
+  - Detectar y bloquear UTXOs de fuentes sospechosas.
+  - Etiquetar cada UTXO en el monedero.
+
+explanation: |
+  El control de monedas es una característica que se encuentra en el buen software de monedero Bitcoin, que te da la capacidad de seleccionar manualmente UTXOs específicos para usar como entradas al realizar una transacción.
+
+reviewed: false

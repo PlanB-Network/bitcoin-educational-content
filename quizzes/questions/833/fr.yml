@@ -1,9 +1,0 @@
-question: Pourquoi les SMS ne sont-ils pas considérés comme la meilleure option pour la 2FA ?
-answer: Ils ne fournissent qu'une preuve de possession d'un numéro de téléphone.
-wrong_answers:
-  - Ils sont trop chers
-  - Ils sont trop lents
-  - Ils sont trop compliqués à configurer
-explanation: |
-  Les SMS ne sont pas considérés comme la meilleure option pour la 2FA car ils ne fournissent qu'une preuve de possession d'un numéro de téléphone, et non une preuve d'identité.
-reviewed: false

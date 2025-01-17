@@ -1,0 +1,9 @@
+question: Pourquoi la réutilisation d'une adresse Bitcoin est-elle déconseillée ?
+answer: Elle facilite le traçage des transactions par des tiers
+wrong_answers:
+  - Elle révèle la clé privée à cause du nonce
+  - Elle rend les transactions plus coûteuses
+  - Elle invalide les signatures numériques
+explanation: |
+  Réutiliser une adresse permet à des observateurs de relier facilement différentes transactions à un même utilisateur, nuisant à sa confidentialité.
+reviewed: false

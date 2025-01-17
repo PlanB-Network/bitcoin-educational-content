@@ -1,0 +1,11 @@
+question: Mikä on Bitcoinin pääetu yksilöille, jotka elävät taloudellisen sortovallan tai diktatuuristen hallintojen alaisuudessa?
+answer: Mahdollisuus välttää sensuuria ja pankkirajoituksia.
+wrong_answers:
+  - Käyttämällä vakaata valuuttaa, jolla on kiinteä arvo.
+  - Mahdollistamalla nimettömät transaktiot.
+  - Saamalla suuria tuottoja sijoitukselle.
+explanation: >-
+  Bitcoin tarjoaa taloudellisen vapauden muodon välttämällä sensuuria ja
+  pankkirajoituksia. Tämä on erityisen hyödyllistä yksilöille, jotka elävät
+  taloudellisen sortovallan tai diktatuuristen hallintojen alaisuudessa.
+reviewed: true

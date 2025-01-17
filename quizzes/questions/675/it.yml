@@ -1,9 +1,0 @@
-question: Cosa succede quando Alice cerca di imbrogliare pubblicando una vecchia transazione di impegno?
-answer: Bob usa la chiave di revoca per punire Alice e prendere tutti i SAT dal canale.
-wrong_answers:
-  - Alice viene premiata per la sua astuzia.
-  - Alice e Bob dividono i SAT dal canale.
-  - La transazione viene rifiutata e non succede nulla.
-explanation: |
-  La Lightning Network ha un meccanismo per prevenire l'imbroglio. Se Alice cerca di imbrogliare pubblicando una vecchia transazione di impegno, Bob può usare la chiave di revoca per punire Alice e prendere tutti i SAT dal canale.
-reviewed: false

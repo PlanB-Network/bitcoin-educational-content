@@ -1,0 +1,9 @@
+question: Kuka keksi työn todistamisen konseptin?
+answer: Cynthia Dwork ja Moni Naor
+wrong_answers:
+  - Markus Jakobsson ja Ari Juels
+  - Adam Back
+  - Satoshi Nakamoto
+explanation: |
+  He kuvasivat konseptin vuonna 1992. Markus Jakobsson ja Ari Juels keksivät termin proof of work. Adam Back myöhemmin omaksui konseptin Hashcashia varten.
+reviewed: false

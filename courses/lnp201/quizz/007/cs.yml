@@ -1,0 +1,8 @@
+question: Proč se UTXO často srovnávají s bankovkami?
+answer: Musí být utraceny v celku
+wrong_answers:
+  - Mohou být použity vícekrát až do vyčerpání
+  - Jsou použitelné pouze v určitých specifických transakcích
+  - Představují malé pevné částky bitcoinů
+explanation: |
+  Podobně jako bankovka musí být UTXO utraceno celé v jedné transakci a jakýkoli přebytek je vrácen odesílateli jako drobné.

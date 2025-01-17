@@ -1,0 +1,10 @@
+question: Mục đích chính của việc sử dụng các công cụ như Signal, Tor và ProtonMail là gì?
+answer: Để coi trọng và bảo vệ quyền riêng tư của bạn
+wrong_answers:
+  - Để tăng tốc độ kết nối internet của bạn
+  - Để bảo vệ máy tính của bạn khỏi virus
+  - Để cung cấp quyền truy cập miễn phí vào các dịch vụ trả phí
+explanation: |
+  Các công cụ như Signal, Tor và ProtonMail được sử dụng để coi trọng và bảo vệ
+
+  quyền riêng tư của bạn. Chúng là một phần của các biện pháp nhằm cải thiện thói quen bảo mật trực tuyến.

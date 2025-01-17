@@ -1,0 +1,9 @@
+question: What is the construction used by SHA256 to process messages of arbitrary length?
+answer: The Merkle-Damgård construction
+wrong_answers:
+  - The Euclidean construction
+  - The Rivest-Shamir-Adleman construction
+  - The Knuth-Morris-Pratt construction
+explanation: |
+  The Merkle-Damgård construction allows transforming a compression function into a hash function for variable-length messages.
+reviewed: false

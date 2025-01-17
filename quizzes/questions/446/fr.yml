@@ -1,9 +1,0 @@
-question: Sur quoi repose la sécurité des clés publiques et privées ?
-answer: Le problème du logarithme discret
-wrong_answers:
-  - Le problème de factorisation des nombres premiers
-  - Le problème du sac à dos
-  - Le problème du voyageur de commerce
-explanation: |
-  La sécurité des clés publiques et privées repose sur le problème du logarithme discret, une question mathématique complexe.
-reviewed: false

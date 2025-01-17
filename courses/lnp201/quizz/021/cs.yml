@@ -1,0 +1,9 @@
+question: Jak timelock chrání před podváděním v transakcích s předchozím závazkem?
+answer: Zabraňuje straně, která se dopustila podvodu, v okamžitém získání jejích prostředků
+wrong_answers:
+  - Automaticky vrací prostředky podvodníkovi
+  - V případě pokusu o podvod zruší transakci
+  - Blokuje použití klíče pro zrušení
+explanation: |
+  Timelock ukládá zpoždění, během kterého nemůže podvodník získat své prostředky, čímž dává druhé straně příležitost reagovat.
+reviewed: false

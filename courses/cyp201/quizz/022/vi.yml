@@ -1,0 +1,9 @@
+question: Làm thế nào để tính được khóa công khai từ khóa riêng tư?
+answer: Bằng cách sử dụng phép nhân vô hướng trên đường cong elliptic
+wrong_answers:
+  - Bằng cách áp dụng hàm băm lên khóa riêng tư
+  - Thông qua mã hóa bất đối xứng
+  - Với việc cộng lặp đi lặp lại các giá trị số
+explanation: |
+  Khóa công khai được thu được bằng cách nhân vô hướng khóa riêng tư với điểm sinh G trên đường cong elliptic.
+reviewed: false

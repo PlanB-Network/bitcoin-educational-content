@@ -1,9 +1,0 @@
-question: Quelle est la récompense pour les mineurs dans le réseau Bitcoin?
-answer: Nouveaux bitcoins et frais de transaction.
-wrong_answers:
-  - Seulement de nouveaux bitcoins.
-  - Seulement des frais de transaction.
-  - Il n'y a pas de récompense pour les mineurs.
-explanation: |
-  Les mineurs dans le réseau Bitcoin sont récompensés par de nouveaux bitcoins et des frais de transaction pour leur travail de validation et de création de blocs.
-reviewed: false

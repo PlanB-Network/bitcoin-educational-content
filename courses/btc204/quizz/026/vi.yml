@@ -1,0 +1,9 @@
+question: Trong những câu trả lời sau, đâu không phải là một trong ba rủi ro chính đối với người dùng khi thực hiện KYC?
+answer: Tính không thể thay thế của bitcoin đã mua
+wrong_answers:
+  - Nguy cơ tiếp xúc với giám sát của nhà nước
+  - Hỗ trợ việc truy vết trên chuỗi
+  - Rủi ro rò rỉ dữ liệu
+explanation: |
+  KYC mang lại rủi ro rò rỉ dữ liệu vì thông tin của bạn được lưu trữ, rủi ro tiếp xúc với giám sát của nhà nước vì thông tin của bạn có thể được truyền đi hoặc bị tịch thu, và rủi ro truy vết, vì KYC có thể phục vụ như một điểm nhập cảnh. Tuy nhiên, KYC không làm giảm tính có thể thay thế của bitcoin đã mua.
+reviewed: false

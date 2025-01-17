@@ -1,0 +1,8 @@
+title: "《实用程序员》"
+publication_year: 1999
+cover: cover_en.webp
+original: true
+description: |
+  《实用程序员》是一本关于软件开发和编程的书籍，提供了如何成为更好的程序员的建议。该书由Andy Hunt和Dave Thomas编写，提供了如何处理软件开发、编写更好的代码以及如何作为一个团队更高效工作的建议。它涵盖了广泛的主题，包括编码实践、测试、调试和设计模式，并包含了实际例子和案例研究。这本书面向希望提高自己技能并在工作中变得更有效率的中级程序员。
+contributors:
+  - rabbit-hole

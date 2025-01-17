@@ -1,0 +1,9 @@
+question: Who discovered the heuristic of address reuse?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  The first person to discuss this concept was Satoshi Nakamoto in part 10 of the Bitcoin White Paper.
+reviewed: false

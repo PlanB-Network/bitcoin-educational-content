@@ -1,9 +1,0 @@
-question: O que é a Lightning Network?
-answer: Um protocolo de camada 2 em cima do Bitcoin que permite transações mais rápidas.
-wrong_answers:
-  - Um tipo de criptomoeda.
-  - Um explorador de blockchain.
-  - Uma carteira digital para armazenar bitcoins.
-explanation: |
-  A Lightning Network é um protocolo de camada 2 em cima do Bitcoin. Ela é projetada para permitir transações mais rápidas, criando canais de pagamento fora da cadeia.
-reviewed: false

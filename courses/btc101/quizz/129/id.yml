@@ -1,0 +1,9 @@
+question: Apa itu blockchain Bitcoin?
+answer: Sebuah buku besar publik dan tidak dapat diubah dari semua transaksi Bitcoin.
+wrong_answers:
+  - Sebuah buku besar pribadi dan dapat diubah dari semua transaksi Bitcoin.
+  - Sebuah buku besar publik dan dapat diubah dari semua transaksi Bitcoin.
+  - Sebuah buku besar pribadi dan tidak dapat diubah dari semua transaksi Bitcoin.
+explanation: >-
+  Blockchain Bitcoin adalah sebuah buku besar publik dan tidak dapat diubah dari semua transaksi Bitcoin. Ini adalah buku besar bersama untuk semua pengguna Bitcoin.
+reviewed: false

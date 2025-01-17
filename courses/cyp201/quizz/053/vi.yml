@@ -1,0 +1,9 @@
+question: Điều gì xảy ra nếu bạn mất cụm mật khẩu liên kết với ví HD của mình?
+answer: Bạn sẽ mất quyền truy cập vào các bitcoin liên kết với ví đó
+wrong_answers:
+  - Bạn vẫn có thể truy cập ví chỉ với cụm từ ghi nhớ
+  - Bạn có thể đặt lại cụm mật khẩu bằng cách liên hệ với hỗ trợ Bitcoin
+  - Bạn chỉ mất các giao dịch chưa được xác nhận
+explanation: |
+  Cụm mật khẩu là một thành phần thiết yếu trong việc tạo khóa. Không có nó, việc tái tạo các khóa và do đó truy cập vào các bitcoin là không thể.
+reviewed: false

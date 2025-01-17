@@ -1,0 +1,8 @@
+question: Mikä rooli tavun korvausoperaatiolla (S-Box) on AES-salauksessa?
+answer: Se tuo sekaannusta korvaamalla jokaisen tavun toisella
+wrong_answers:
+  - Se varmistaa eheyden tarkistamalla viestin tavut
+  - Se sekoittaa sarakkeita lisätäkseen diffuusiota
+  - Se jakaa selkotekstin 128-bittisiin lohkoihin
+explanation: |
+  Tavun korvausoperaatio (S-Box) AES: ssä tuo sekaannusta korvaamalla jokaisen tavun eri arvolla taulukon mukaan, mikä tekee salatusta tekstistä vaikeammin analysoitavaa.

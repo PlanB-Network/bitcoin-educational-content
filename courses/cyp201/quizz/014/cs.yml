@@ -1,0 +1,9 @@
+question: Kolik iterací používá PBKDF2 v Bitcoinu?
+answer: 2048
+wrong_answers:
+  - 1024
+  - 4096
+  - 512
+explanation: |
+  PBKDF2 opakuje proces HMAC-SHA512 2048krát, aby zvýšil bezpečnost.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Qual é o propósito da opção controle de moedas em softwares de carteira Bitcoin?
+
+answer: Escolher quais UTXOs consumir como entradas para transações.
+
+wrong_answers:
+  - Criptografar UTXOs para aumentar a segurança da carteira.
+  - Detectar e bloquear UTXOs de fontes suspeitas.
+  - Rotular cada UTXO na carteira.
+
+explanation: |
+  Controle de moedas é uma funcionalidade encontrada em bons softwares de carteira Bitcoin, que te dá a capacidade de selecionar manualmente UTXOs específicos para usar como entradas ao realizar uma transação.
+
+reviewed: false

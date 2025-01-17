@@ -1,0 +1,9 @@
+question: When searching for a pattern, which part of the transaction will we study?
+answer: Its structure
+wrong_answers:
+  - Its metadata
+  - Its scripts
+  - Its signature
+explanation: |
+  A transaction pattern is simply a model or an overall structure of a typical transaction that can be found on the blockchain, whose likely interpretation is known.
+reviewed: false

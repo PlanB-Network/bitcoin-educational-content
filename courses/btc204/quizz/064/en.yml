@@ -1,0 +1,13 @@
+question: How are labels associated with a Bitcoin wallet stored?
+
+answer: Locally on the wallet software.
+
+wrong_answers:
+  - In a centralized database controlled by the developer.
+  - On the Bitcoin blockchain through an OP_RETURN.
+  - In RAM only during the software's execution.
+
+explanation: |
+  Labels are stored locally by the wallet software and are never transmitted over the Bitcoin network. Labeling is thus a personal management tool.
+
+reviewed: false

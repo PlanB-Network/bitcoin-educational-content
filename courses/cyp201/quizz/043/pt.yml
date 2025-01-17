@@ -1,0 +1,8 @@
+question: Quantos bits de entropia são usados para uma frase mnemônica de 24 palavras?
+answer: 256 bits
+wrong_answers:
+  - 128 bits
+  - 512 bits
+  - 64 bits
+explanation: |
+  Uma frase mnemônica de 24 palavras é baseada em 256 bits de entropia, garantindo uma segurança muito alta.

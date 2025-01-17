@@ -1,0 +1,9 @@
+question: Which combination of hash functions is used to generate shorter fingerprints in Bitcoin?
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160 combines SHA256 and RIPEMD160 to generate 160-bit fingerprints, notably for Bitcoin addresses.
+reviewed: false

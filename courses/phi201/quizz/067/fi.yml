@@ -1,0 +1,9 @@
+question: Mikä on Voltairin käsittelyn keskeinen ajatus Lontoon pörssistä?
+answer: Kaiken uskonnon liikemiehet sivuuttavat erimielisyytensä keskittyäkseen yhteiseen voittoon.
+wrong_answers:
+  - Maailman eri uskonnot kokoontuvat pörssiin harjoittamaan uskoaan rauhassa.
+  - Lontoon pörssi on spekulaation ja korruption paikka, jossa moraaliset arvot unohdetaan.
+  - Uskonnolla ei ole sijaa liike-elämässä, jota hallitsee kilpailun henki ja individualismi.
+explanation: |
+  Voltaire korostaa, että Lontoon pörssissä liikemiehet ylittävät uskonnolliset erimielisyytensä tehdäkseen yhteistyötä yhteisen taloudellisen tavoitteen eteen, mikä osoittaa aineellisen edun ensisijaisuuden uskonnollisiin jakoihin nähden.
+reviewed: false

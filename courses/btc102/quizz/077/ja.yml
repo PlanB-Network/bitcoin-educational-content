@@ -1,0 +1,9 @@
+question: Bitcoinの文脈でsatoshiとは何ですか？
+answer: Bitcoinの最小単位
+wrong_answers:
+  - Bitcoinウォレットの一種
+  - Bitcoinを購入する方法
+  - Bitcoin交換プラットフォーム
+explanation: |
+  Bitcoinの文脈において、satoshi（またはSAT）はBitcoinの最小単位です。Bitcoinの積み立てを目指す人々は、できるだけ多くのsatoshiを蓄積しようとします。
+reviewed: false

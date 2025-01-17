@@ -1,0 +1,9 @@
+question: Welcher Schlüsseltyp ist mit dem Präfix zpub verbunden?
+answer: Ein erweiterter öffentlicher Schlüssel für SegWit V0 im Mainnet
+wrong_answers:
+  - Ein erweiterter privater Schlüssel für SegWit V1 im Mainnet
+  - Ein erweiterter öffentlicher Schlüssel für Legacy im Testnet
+  - Ein erweiterter öffentlicher Schlüssel für SegWit V2 im Testnet
+explanation: |
+  Das Präfix zpub kennzeichnet einen erweiterten öffentlichen Schlüssel für SegWit V0-Skripte im Mainnet.
+reviewed: false

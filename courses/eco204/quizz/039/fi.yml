@@ -1,0 +1,10 @@
+question: Mikä on hyperinflaation vaikutus rahan arvoon?
+answer: Se aiheuttaa rahan arvon nopean heikkenemisen.
+wrong_answers:
+  - Se aiheuttaa rahan arvon kasvamisen.
+  - Sillä ei ole vaikutusta rahan arvoon.
+  - Se aiheuttaa rahan arvon ennustamattoman vaihtelun.
+explanation: |
+  Hyperinflaation aikana raha menettää nopeasti arvonsa, mikä tekee
+  pitkän aikavälin suunnittelusta vaikeaa.
+reviewed: false

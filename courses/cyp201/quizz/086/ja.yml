@@ -1,0 +1,8 @@
+question: SegWit v0アドレスのチェックサムは、bech32でエンコードされる際、どのように計算されますか？
+answer: BCHコードを使用して
+wrong_answers:
+  - HASH256を2回適用することで
+  - RIPEMD160ハッシュを加えることで
+  - 直接base64でエンコードすることで
+explanation: |
+  Bech32アドレスは、チェックサムを計算するためにBCHコードを使用します。

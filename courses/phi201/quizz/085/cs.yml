@@ -1,0 +1,9 @@
+question: Jaký je limit státní suverenity podle Johna Stuarta Milla?
+answer: Stát může zasahovat pouze tehdy, když činy jednotlivce škodí ostatním.
+wrong_answers:
+  - Stát je suverénní za všech okolností a nemůže být omezen žádným jednotlivcem nebo skupinou jednotlivců.
+  - Státní suverenita je omezena ekonomickými prostředky.
+  - Státní suverenita je omezena zákony přírody.
+explanation: |
+  John Stuart Mill tvrdí, že zásah státu je legitimní pouze tehdy, když činy jednotlivce způsobují škodu ostatním, aby se chránila osobní svoboda v oblastech, které neškodí ostatním.
+reviewed: false

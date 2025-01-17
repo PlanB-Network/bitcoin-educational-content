@@ -1,0 +1,8 @@
+question: ¿Qué paso precede la aplicación de HASH160 en la generación de una dirección SegWit v0?
+answer: La compresión de la clave pública
+wrong_answers:
+  - Agregar el checksum
+  - Conversión al formato bech32
+  - Codificación en base58check
+explanation: |
+  La clave pública debe ser comprimida para reducir su tamaño antes de pasar por la función hash HASH160.

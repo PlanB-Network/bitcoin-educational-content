@@ -1,0 +1,9 @@
+question: Tra le seguenti risposte, quale non fa parte delle 3 categorie principali di euristiche e caratteristiche utilizzate nell'analisi delle catene?
+answer: Modelli di crittografia.
+wrong_answers:
+  - Modelli di transazione.
+  - Euristiche di transazione interna.
+  - Euristiche di transazione esterna.
+explanation: |
+  Le euristiche utilizzate nell'analisi delle catene possono essere raggruppate in tre categorie; modelli di transazione (o modelli di transazione), euristiche di transazione interna ed euristiche di transazione esterna.
+reviewed: false

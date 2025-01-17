@@ -1,0 +1,8 @@
+question: Miksi Bastiat uskoo, että on olennaista valaista kansalaisia taloudellisella moraalilla?
+answer: Vähentääkseen huijareiden ja väärän talousopin vaikutusta
+wrong_answers:
+  - Opettaakseen hyväntekeväisyyttä ja altruismia
+  - Tehdäkseen verotusjärjestelmästä oikeudenmukaisemman
+  - Poistaakseen köyhyyden talouden avulla
+explanation: |
+  Bastiat näkee taloudellisessa moraalissa keinon vähentää manipulaatiota ja väärän opetuksen vaikutusta valistamalla yleisöä todellisista taloudellisista seurauksista.

@@ -1,0 +1,11 @@
+question: Hva bør være hovedbekymringen når du eier bitcoins?
+answer: Sikkerheten til dine midler
+wrong_answers:
+  - Verdien i dollar av dine bitcoins
+  - Lovligheten av å eie bitcoins
+  - Tillatelsen til å bruke dine bitcoins
+explanation: |
+  Når du eier bitcoins, er hovedbekymringen sikkerheten til dine midler.
+  Dette er fordi bitcoins, som enhver annen form for valuta, kan bli stjålet eller tapt
+  hvis de ikke er skikkelig sikret.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mis riigist on pärit Gavin Andresen, kes lõi esimese Bitcoin'i kraani (Bitcoin Faucet) juunis 2010 ja aitas Satoshil tarkvara arendamisel?
+answer: Austraalia
+wrong_answers:
+  - Ameerika Ühendriigid
+  - Prantsusmaa
+  - Holland
+explanation: |
+  Ta [sündis](https: //gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) Austraalias, kuid sai Ameerika kodakondsuse 2004. aastal.
+reviewed: false

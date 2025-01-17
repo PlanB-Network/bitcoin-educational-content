@@ -1,0 +1,9 @@
+question: Qual é o principal papel do nó de envio no roteamento na Lightning Network?
+answer: Calcular a rota completa até o destinatário
+wrong_answers:
+  - Armazenar a informação de liquidez de todos os canais da rede
+  - Determinar as taxas de transação para cada nó intermediário
+  - Comunicar diretamente com todos os nós intermediários
+explanation: |
+  O nó de envio é responsável por calcular toda a rota até o destinatário, pois os nós intermediários só conhecem seu vizinho imediato.
+reviewed: false

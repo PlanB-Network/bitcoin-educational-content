@@ -1,0 +1,9 @@
+question: Quelle est la construction utilisée par SHA256 pour traiter des messages de longueur arbitraire ?
+answer: La construction de Merkle-Damgård
+wrong_answers:
+  - La construction d'Euclide
+  - La construction de Rivest-Shamir-Adleman
+  - La construction de Knuth-Morris-Pratt
+explanation: |
+  La construction de Merkle-Damgård permet de transformer une fonction de compression en une fonction de hachage pour des messages de longueur variable.
+reviewed: false

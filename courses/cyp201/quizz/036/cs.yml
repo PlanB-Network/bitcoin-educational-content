@@ -1,0 +1,9 @@
+question: Co umožňuje HD peněženka ve srovnání s JBOK peněženkou?
+answer: Generovat všechny soukromé klíče z jediného seedu
+wrong_answers:
+  - Zvýšit bezpečnost digitálních podpisů
+  - Používat stejnou adresu pro více transakcí
+  - Zcela se vyhnout používání veřejných klíčů
+explanation: |
+  HD peněženky odvozují všechny soukromé klíče z unikátního seedu, což zjednodušuje zálohování a nepřímo zlepšuje soukromí.
+reviewed: false

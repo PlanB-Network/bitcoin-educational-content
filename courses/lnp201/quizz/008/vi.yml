@@ -1,0 +1,9 @@
+question: Địa chỉ chữ ký đa 2/2 trong Bitcoin hoạt động như thế nào?
+answer: Nó yêu cầu hai chữ ký để mở khóa và chi tiêu tiền.
+wrong_answers:
+  - Nó cho phép chi tiêu tiền chỉ với một trong hai chìa khóa.
+  - Nó chỉ ủy quyền giao dịch trong các trường hợp cụ thể của việc khóa.
+  - Nó chỉ được sử dụng để gửi tiền đến các địa chỉ công cộng.
+explanation: |
+  Một địa chỉ chữ ký đa 2/2 yêu cầu chữ ký của cả hai bên liên quan để tiền có thể được chi tiêu, điều này được sử dụng cho việc bảo mật của các kênh Lightning.
+reviewed: false

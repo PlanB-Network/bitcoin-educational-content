@@ -1,0 +1,12 @@
+question: Bagaimana berbagai stablecoin Tether berkontribusi pada kebebasan finansial bagi individu di ekonomi yang tidak stabil?
+answer: Dengan menyediakan akses ke mata uang dengan nilai tukar yang stabil
+wrong_answers:
+  - Dengan menghilangkan kebutuhan akan uang tunai fisik
+  - Dengan menawarkan suku bunga lebih tinggi pada tabungan
+  - Dengan memungkinkan transaksi global secara instan
+explanation: |
+  Berbagai stablecoin Tether diikat pada aset stabil seperti dolar AS 
+  atau emas. Stabilitas ini memungkinkan individu di ekonomi yang tidak stabil 
+  untuk memindahkan uang mereka ke mata uang yang tidak terpengaruh oleh tingkat 
+  inflasi yang sama, membantu mereka menjaga nilai tabungan mereka.
+reviewed: true

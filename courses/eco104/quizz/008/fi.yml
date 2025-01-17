@@ -1,0 +1,12 @@
+question: Miten uudet bitcoinit luodaan ja otetaan käyttöön kierrossa?
+answer: Louhimalla palkkiona uusien tapahtumien lisäämisestä lohkoketjuun
+wrong_answers:
+  - Keskusviranomaisen liikkeeseenlaskun kautta
+  - Ostamalla niitä Bitcoin-pörsseistä
+  - Vastaanottamalla niitä transaktiomaksuina
+explanation: |
+  Uudet bitcoinit otetaan käyttöön kierrossa prosessin kautta, jota kutsutaan louhinnaksi. 
+  Louhijat kilpailevat keskenään uusien tapahtumien lisäämisestä lohkoketjuun. 
+  Työstään palkkioksi louhijat saavat vastikään luotuja bitcoineja. 
+  Tämä prosessi myös varmentaa ja turvaa tapahtumia Bitcoin-verkossa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What type of liquidity must a seller on the Lightning Network primarily manage to accept payments?
+answer: Incoming liquidity
+wrong_answers:
+  - Outgoing liquidity
+  - A high total channel capacity
+  - A high on-chain balance
+explanation: |
+  To receive payments, a seller needs to have incoming liquidity, meaning that funds must be available on the opposite side of the channel for them to accept payments.
+reviewed: false

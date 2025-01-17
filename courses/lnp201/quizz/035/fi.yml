@@ -1,0 +1,9 @@
+question: Mikä on HTLC; ien päämäärä Lightning-verkossa?
+answer: Mahdollistaa turvalliset maksusiirrot välityspalvelimien kautta ilman, että niiden luotettavuuteen tarvitsee luottaa
+wrong_answers:
+  - Vähentää transaktiomaksuja jokaisesta maksusta välityspalvelimien kautta
+  - Lisätä jokaisen maksukanavan kapasiteettia
+  - Luoda suorat yhteydet kaikkien verkon solmujen välille niiden luottamuksen avulla
+explanation: |
+  HTLC: t (Hashed Time-Locked Contracts) varmistavat, että jokainen välityssolmu siirtää maksun pitämättä varoja, sillä se voi avata ne vain suorittamalla transaktion loppusaajaan asti.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é o nome do padrão que consiste em um único UTXO na entrada e um único UTXO na saída?
+answer: Sweeping
+wrong_answers:
+  - Consolidação
+  - Coinjoin
+  - Gasto em lote
+explanation: |
+  A interpretação dessa estrutura é que estamos diante de um sweeping, significando uma auto-transferência de bitcoins.
+reviewed: false

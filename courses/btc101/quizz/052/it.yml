@@ -1,0 +1,9 @@
+question: Qual è l'impatto di un'inflazione del 20% sul potere d'acquisto in 3 anni?
+answer: Si perde il 50% del proprio potere d'acquisto.
+wrong_answers:
+  - Si perde il 100% del proprio potere d'acquisto.
+  - Si perde il 60% del proprio potere d'acquisto.
+  - Si perde il 30% del proprio potere d'acquisto.
+explanation: |
+  Con un'inflazione del 20%, si perde quasi la metà del proprio potere d'acquisto in 3 anni.
+reviewed: true

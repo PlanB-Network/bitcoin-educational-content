@@ -1,9 +1,0 @@
-question: ¿Qué función cumple la Red Lightning?
-answer: Una red de canales de pago.
-wrong_answers:
-  - Una red de nodos mineros.
-  - Una red de nodos de blockchain.
-  - Una red de intercambios de criptomonedas.
-explanation: |
-  La Red Lightning actúa como una red de canales de pago, permitiendo transacciones instantáneas con bajos costos para el remitente.
-reviewed: false

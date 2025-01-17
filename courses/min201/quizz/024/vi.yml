@@ -1,0 +1,10 @@
+question: Sự kiện khi phần thưởng cho việc đào Bitcoin được giảm một nửa được gọi là gì?
+answer: Halving
+wrong_answers:
+  - Doubling
+  - Quartering
+  - Tripling
+explanation: |
+  Sự giảm lập trình của phần thưởng đào mỏ, halving mỗi
+  bốn năm, là một sự kiện được biết đến với tên gọi halving.
+reviewed: true

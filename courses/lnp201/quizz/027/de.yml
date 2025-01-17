@@ -1,0 +1,9 @@
+question: Warum ist eine erzwungene Schließung weniger wünschenswert?
+answer: Sie ist langsamer und die Gebühren können unangemessen sein
+wrong_answers:
+  - Es erfordert eine Autorisierung von Satoshi Nakamoto
+  - Es zwingt zur Neuerstellung eines Kanals später
+  - Es verhindert die Nutzung des Widerrufsschlüssels
+explanation: |
+  Eine erzwungene Schließung ist weniger wünschenswert, weil sie eine Zeitverzögerung beinhaltet, die den Prozess verlangsamt, und die Gebühren können unangemessen sein, da sie zum Zeitpunkt der Erstellung des Kanals festgelegt wurden.
+reviewed: false

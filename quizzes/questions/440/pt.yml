@@ -1,9 +1,0 @@
-question: O que é a multiplicação escalar de um ponto por n em uma curva elíptica?
-answer: Equivalente a adicionar esse ponto a si mesmo n vezes
-wrong_answers:
-  - Equivalente a subtrair esse ponto de si mesmo n vezes
-  - Equivalente a multiplicar esse ponto por si mesmo n vezes
-  - Equivalente a dividir esse ponto por si mesmo n vezes
-explanation: |
-  A multiplicação escalar de um ponto por n em uma curva elíptica é equivalente a adicionar esse ponto a si mesmo n vezes. Essa operação é a base para calcular chaves públicas no sistema Bitcoin.
-reviewed: false

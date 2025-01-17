@@ -1,0 +1,9 @@
+question: Jos transaktiossa on 2 UTXO; a, joissa kummassakin on 5 000 satoshia syötteinä, ja 3 UTXO; a, joissa kussakin on 3 000 satoshia ulostuloina, paljonko transaktiomaksut ovat?
+answer: 1 000 satoshia
+wrong_answers:
+  - 1 500 satoshia
+  - 2 500 satoshia
+  - 3 000 satoshia
+explanation: |
+  Transaktion maksut edustavat eroa kokonaissyötteiden ja kokonaisulostulojen välillä. Se on se, mikä jää jäljelle kaikkien syötteiden kuluttamisen ja kaikkien ulostulojen luomisen jälkeen. Laskelma on siis seuraava; maksut = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

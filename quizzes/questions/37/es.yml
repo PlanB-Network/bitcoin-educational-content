@@ -1,9 +1,0 @@
-question: ¿Qué significa el término 'fiduciario' en el contexto de las monedas?
-answer: Se refiere a las monedas que no tienen valor intrínseco y dependen de la confianza en las instituciones que las regulan.
-wrong_answers:
-  - Se refiere a las monedas respaldadas por oro.
-  - Se refiere a las monedas que se utilizan solo para transacciones fiduciarias.
-  - Se refiere a las monedas que se utilizan solo dentro de una institución específica.
-explanation: |
-  Las monedas fiduciarias son aquellas que no están respaldadas por una mercancía física como el oro o la plata. Su valor se deriva de la confianza y la confianza que las personas tienen en las instituciones que las emiten y regulan.
-reviewed: false

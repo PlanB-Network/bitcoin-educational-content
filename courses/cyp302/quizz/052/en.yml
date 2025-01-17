@@ -1,0 +1,9 @@
+question: In a finite field, what is the role of an irreducible polynomial?
+answer: Define the multiplication operations in the field
+wrong_answers:
+  - Define the additive inverse of each element
+  - Ensure the closure of the field
+  - Determine the multiplicative identity
+explanation: |
+  Irreducible polynomials are used to structure multiplication in finite fields, ensuring that each element remains within the field.
+reviewed: false

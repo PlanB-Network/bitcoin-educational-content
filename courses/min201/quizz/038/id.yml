@@ -1,0 +1,14 @@
+question: Apa itu inisiatif Attakai dalam konteks penambangan Bitcoin?
+answer: Sebuah inisiatif yang bertujuan untuk membuat penambangan lebih mudah diakses dan kurang berbahaya sambil berkontribusi pada jaringan
+wrong_answers:
+  - Sebuah inisiatif yang bertujuan untuk meningkatkan harga Bitcoin
+  - Sebuah inisiatif yang bertujuan untuk menurunkan hashrate dari jaringan
+  - Sebuah inisiatif yang bertujuan untuk memusatkan kekuatan hashing
+explanation: |
+  Inisiatif Attakai bertujuan untuk membuat penambangan Bitcoin
+  lebih mudah diakses dan kurang berbahaya. Ini mendorong orang untuk menambang
+  di rumah dengan perangkat keras yang lebih terjangkau dan solusi untuk
+  mengurangi polusi suara. Inisiatif ini juga menekankan pentingnya
+  kontribusi terhadap keamanan dan
+  desentralisasi dari jaringan Bitcoin.
+reviewed: true

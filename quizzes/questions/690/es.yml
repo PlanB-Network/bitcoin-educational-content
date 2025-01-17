@@ -1,9 +1,0 @@
-question: ¿Qué es la liquidez de un canal en la Red Lightning?
-answer: La cantidad de satoshis que se pueden transferir a través del canal.
-wrong_answers:
-  - El número de transacciones que se pueden realizar a través del canal.
-  - La velocidad a la que se pueden realizar transacciones a través del canal.
-  - El costo de realizar una transacción a través del canal.
-explanation: |
-  En la Red Lightning, la liquidez de un canal se refiere a la cantidad de satoshis que se pueden transferir a través del canal. La liquidez de estos canales no se puede transferir a otros canales de liquidez.
-reviewed: false

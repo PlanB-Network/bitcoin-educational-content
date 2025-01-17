@@ -1,0 +1,9 @@
+question: Bitcoinプロトコルにおいて、2つのブロックが生成される平均時間間隔は何分ですか？
+answer: 10分。
+wrong_answers:
+  - 5分。
+  - 15分。
+  - 20分。
+explanation: |
+  Bitcoinプロトコルにおいて、2つのブロックが生成される平均時間間隔は10分です。
+reviewed: true

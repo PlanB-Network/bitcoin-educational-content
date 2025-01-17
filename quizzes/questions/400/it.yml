@@ -1,9 +1,0 @@
-question: Qual è un comune svantaggio delle soluzioni LNP2PBot e RoboSat P2P?
-answer: Richiedono conoscenze tecniche e una comprensione della privacy.
-wrong_answers:
-  - Non facilitano l'acquisto e la vendita di Bitcoin.
-  - Non utilizzano la Lightning Network.
-  - Non sono open source.
-explanation: |
-  Secondo il capitolo, sia LNP2PBot che RoboSat richiedono conoscenze tecniche e una comprensione della privacy.
-reviewed: false

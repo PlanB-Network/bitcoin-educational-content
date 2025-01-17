@@ -1,0 +1,13 @@
+question: Jaký je rozdíl mezi externím a interním opětovným použitím adresy v transakci?
+
+answer: Externí opětovné použití je pozorováno napříč několika transakcemi, zatímco interní opětovné použití je pozorováno uvnitř téže transakce.
+
+wrong_answers:
+  - Externí opětovné použití se týká veřejných adres, zatímco interní opětovné použití se týká soukromých adres použitých ve skriptech transakcí.
+  - Interní opětovné použití je pozorováno napříč několika transakcemi, zatímco externí opětovné použití je pozorováno uvnitř téže transakce.
+  - Interní opětovné použití se týká veřejných adres, zatímco externí opětovné použití se týká soukromých adres použitých ve skriptech transakcí.
+
+explanation: |
+  Externí opětovné použití adresy je pozorováno, když je adresa znovu použita v několika různých transakcích, zatímco interní opětovné použití se týká adresy, která je použita jak ve vstupech, tak ve výstupech téže transakce.
+
+reviewed: false

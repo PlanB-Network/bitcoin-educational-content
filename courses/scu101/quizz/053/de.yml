@@ -1,0 +1,13 @@
+question: Warum werden biometrische Daten als weniger sicher angesehen als die Kombination aus Wissen und Besitz für die Zwei-Faktor-Authentifizierung (2FA)?
+
+answer: Biometrische Daten sollten auf dem Authentifizierungsgerät verbleiben und nicht online preisgegeben werden.
+
+wrong_answers:
+  - Biometrische Daten lassen sich leichter extrahieren, selbst wenn sie offline auf dem Authentifizierungsgerät gespeichert sind.
+  - Biometrische Daten sind sowohl schwerer zu merken als auch zu verwenden, wenn man ein Authentifizierungsgerät benutzt.
+  - Biometrische Datenwerkzeuge sind teurer in der Implementierung und daher im Vergleich zu anderen Lösungen nicht kosteneffektiv.
+
+explanation:
+  Biometrische Daten sind weniger sicher, weil sie auf dem Authentifizierungsgerät verbleiben sollten und nicht online preisgegeben werden dürfen. Werden sie online preisgegeben, können sie gestohlen und für unbefugten Zugriff verwendet werden.
+
+reviewed: true

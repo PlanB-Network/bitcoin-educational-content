@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de la transacción de retiro en el proceso de apertura de un canal en la Lightning Network?
-answer: Permite a Alice recuperar sus fondos si algo sale mal.
-wrong_answers:
-  - Permite a Bob reclamar su parte de los fondos.
-  - Se utiliza para finalizar el proceso de apertura del canal.
-  - Se utiliza para transferir fondos de Alice a Bob.
-explanation: |
-  La transacción de retiro es creada por Alice antes de publicar el depósito de fondos en el multi-sig. Esta transacción permite a Alice gastar los fondos de la dirección multi-sig a una dirección propia. Esto se hace para asegurarse de que pueda recuperar sus fondos si algo sale mal.
-reviewed: false

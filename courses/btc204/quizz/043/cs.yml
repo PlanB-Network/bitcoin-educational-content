@@ -1,0 +1,9 @@
+question: Jaká je hlavní výhoda online P2P směnáren oproti fyzickým hotovostním transakcím?
+answer: Menší riziko pro osobní bezpečnost.
+wrong_answers:
+  - Menší riziko krádeže.
+  - Větší soukromí pro kupujícího.
+  - Nižší transakční poplatky.
+explanation: |
+  Online P2P směnárny zanechávají více stop a jsou více vystaveny riziku krádeže než hotovostní P2P směnárny. Pokud jde o transakční poplatky, jsou obecně ekvivalentní nebo dokonce vyšší, zejména pokud proces vyžaduje více kroků. Hlavní výhoda online P2P směnáren však spočívá ve snížení rizik pro osobní bezpečnost uživatelů ve srovnání s hotovostními transakcemi.
+reviewed: false

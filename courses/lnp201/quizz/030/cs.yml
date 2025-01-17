@@ -1,0 +1,9 @@
+question: Jak umožňuje Lightning Network posílání prostředků uzlu, který není přímo propojen?
+answer: Přesměrováním platby přes prostředníkové uzly
+wrong_answers:
+  - Použitím on-chain transakcí mezi jednotlivými uzly
+  - Automatickým vytvořením dočasného kanálu
+  - Přímým posláním prostředků s adresami s více podpisy
+explanation: |
+  Lightning Network umožňuje přesměrování platby přes několik prostředníkových uzlů, aniž by vyžadoval přímý kanál mezi odesílatelem a příjemcem.
+reviewed: false

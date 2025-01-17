@@ -1,0 +1,9 @@
+question: Co může Bob udělat, pokud zjistí pokus Alice podvádět při uzavírání kanálu?
+answer: Použít revokační klíč k získání všech prostředků
+wrong_answers:
+  - Zrušit transakci závazku Alice
+  - Trvale uzavřít kanál bez možnosti znovuotevření
+  - Nárokovat pouze polovinu dostupných prostředků
+explanation: |
+  V případě podvodu může Bob použít revokační klíč k získání všech prostředků z kanálu, čímž potrestá Alice za její pokus.
+reviewed: false

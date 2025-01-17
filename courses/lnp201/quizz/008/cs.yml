@@ -1,0 +1,9 @@
+question: Jak funguje 2/2 multisignature adresa v Bitcoinu?
+answer: Vyžaduje dva podpisy pro odemčení a utracení prostředků.
+wrong_answers:
+  - Umožňuje utratit prostředky pouze s jedním ze dvou klíčů.
+  - Autorizuje transakce pouze ve specifických případech uzamčení.
+  - Používá se pouze k odesílání prostředků na veřejné adresy.
+explanation: |
+  2/2 multisignature adresa vyžaduje podpisy obou zúčastněných stran, aby bylo možné prostředky utratit, což se používá pro zabezpečení Lightning kanálů.
+reviewed: false

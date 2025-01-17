@@ -1,0 +1,9 @@
+question: Näistä vastauksista, mikä ei ole yksi kolmesta pääriskistä käyttäjälle, joka suorittaa KYC; tä?
+answer: Ostettujen bitcoinien ei-vaihdettavuus
+wrong_answers:
+  - Altistuminen valtion valvonnalle
+  - Onchain-jäljityksen mahdollistaminen
+  - Tietovuodon riski
+explanation: |
+  KYC sisältää tietovuodon riskin, koska tietosi tallennetaan, valtion valvonnan altistumisen riskin, koska tietosi voidaan siirtää tai takavarikoida, ja jäljityksen riskin, koska KYC voi toimia sisäänkäyntipisteenä. KYC ei kuitenkaan vähennä ostettujen bitcoinien vaihdettavuutta.
+reviewed: false

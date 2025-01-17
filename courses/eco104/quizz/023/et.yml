@@ -1,0 +1,9 @@
+question: Mitmes riigis üle maailma on naistel keelatud avada pangakontosid oma nimele?
+answer: 72
+wrong_answers:
+  - 36
+  - 75
+  - 100
+explanation: |
+  72 riigis üle maailma ei ole naistel lubatud avada pangakontosid oma nimele.
+reviewed: true

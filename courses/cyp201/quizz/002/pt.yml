@@ -1,0 +1,8 @@
+question: Qual propriedade das funções de hash é demonstrada por uma mudança completa no hash quando uma mensagem muda levemente?
+answer: O efeito avalanche
+wrong_answers:
+  - Resistência a colisões
+  - Resistência à segunda pré-imagem
+  - Comprimento
+explanation: |
+  Uma pequena mudança na entrada resulta em uma mudança radical no hash, isso é o que é chamado de efeito avalanche.

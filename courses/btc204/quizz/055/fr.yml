@@ -1,0 +1,13 @@
+question: Qu'est-ce qu'une adresse de réception Bitcoin ?
+
+answer: Une chaîne de caractères utilisée pour recevoir des bitcoins.
+
+wrong_answers:
+  - Un code utilisé pour envoyer des bitcoins.
+  - Un algorithme pour miner des bitcoins.
+  - Un contrat intelligent.
+
+explanation: |
+  Une adresse de réception est utilisée pour recevoir des bitcoins sur un portefeuille.
+
+reviewed: false

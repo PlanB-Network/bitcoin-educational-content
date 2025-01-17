@@ -1,0 +1,9 @@
+question: Lightning Networkとは何ですか？
+answer: Bitcoinプロトコルを使用して、稲妻のように速い取引を可能にする支払いネットワークです。
+wrong_answers:
+  - 新しいタイプの暗号通貨です。
+  - 将来的にBitcoinを置き換える新しいブロックチェーン技術です。
+  - Bitcoinを採掘する方法です。
+explanation: |
+  Lightning Networkは、Bitcoinプロトコルを使用して高速な取引を可能にする支払いネットワークです。別の暗号通貨ではなく、Bitcoinを採掘する方法でもありません。
+reviewed: true

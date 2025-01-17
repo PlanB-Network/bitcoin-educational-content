@@ -1,0 +1,11 @@
+question: Wie heißt das Ereignis, bei dem die Belohnung für das Mining halbiert wird?
+answer: Halving
+wrong_answers:
+  - Verdopplung
+  - Viertelung
+  - Verdreifachung
+explanation: |
+  Das Ereignis, bei dem die Belohnung für das Mining halbiert wird, wird
+  Halving genannt. Dieses Ereignis verleiht der Kurve der Geldausgabe
+  eine treppenartige Form.
+reviewed: true

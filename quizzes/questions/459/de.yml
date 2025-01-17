@@ -1,9 +1,0 @@
-question: Was ist die Bedeutung von BIP32 im Bitcoin-Ökosystem?
-answer: Es hat die Art und Weise, wie Schlüssel generiert und gespeichert werden, revolutioniert und das Konzept der deterministisch und hierarchisch abgeleiteten Schlüssel eingeführt.
-wrong_answers:
-  - Es hat die 24-Wort Mnemonik-Phrase eingeführt.
-  - Es schlug vor, eine zusätzliche Passphrase hinzuzufügen, um die Sicherheit der einzelnen Schlüssel zu verstärken.
-  - Es standardisierte die Struktur und Hierarchie von HD-Wallets.
-explanation: |
-  BIP32, das 2012 eingeführt wurde, revolutionierte die Art und Weise, wie diese Schlüssel generiert und gespeichert werden, indem es das Konzept der deterministisch und hierarchisch abgeleiteten Schlüssel einführte. Dies vereinfacht den Prozess des Speicherns dieser Schlüssel erheblich, während ihre Sicherheit gewährleistet bleibt.
-reviewed: false

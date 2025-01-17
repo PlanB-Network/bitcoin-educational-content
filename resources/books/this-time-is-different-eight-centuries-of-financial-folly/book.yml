@@ -1,6 +1,81 @@
 author: Carmen M. Reinhart and Kenneth S. Rogoff
-level: expert
+level: advanced
 tags:
   - history
   - finance
   - economy
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3340
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2920
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1460
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3130
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3340
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2920
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3130
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3760
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2920
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3340
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3760
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3550
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3550
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3340

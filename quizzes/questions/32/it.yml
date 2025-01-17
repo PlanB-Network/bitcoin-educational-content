@@ -1,9 +1,0 @@
-question: Quali di questi non sono un vantaggio di Bitcoin come valuta?
-answer: Viene utilizzato per pagare le tasse
-wrong_answers:
-  - È divisibile
-  - È trasportabile
-  - È denaro senza permessi
-explanation: |
-  Bitcoin, grazie alle sue proprietà come la sua divisibilità, verificabilità, aspetto senza permessi e trasportabilità, offre un eccellente conservatore di valore. Inoltre, come valuta neutrale su Internet, rappresenta un buon mezzo di scambio che non conosce confini.
-reviewed: false

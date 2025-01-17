@@ -1,0 +1,9 @@
+question: Bagaimana sebuah cipher blok dapat diubah menjadi cipher aliran?
+answer: Dengan menggunakan mode seperti OFB yang menghasilkan aliran kunci dari cipher blok
+wrong_answers:
+  - Dengan membagi teks asli menjadi byte dan mengenkripsinya satu per satu
+  - Dengan menerapkan padding pada pesan sebelum enkripsi
+  - Dengan meningkatkan panjang kunci untuk setiap blok yang dienkripsi
+explanation: |
+  Mode seperti OFB memungkinkan cipher blok bertindak sebagai cipher aliran dengan menghasilkan aliran kunci, yang kemudian digunakan untuk setiap bagian dari teks asli.
+reviewed: false

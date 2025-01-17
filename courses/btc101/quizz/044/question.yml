@@ -1,0 +1,63 @@
+id: 74924708-6284-4aa8-9594-bc6b0af4059d
+chapterId: 25151d46-7db1-5b48-8bba-cbde1944555a
+difficulty: hard
+duration: 45
+author: DecouvreBitcoin
+tags:
+  - Monetary Policy
+  - Fiat Currencies
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2690
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2595
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1297
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2642
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2690
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2595
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2642
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2785
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2595
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2785

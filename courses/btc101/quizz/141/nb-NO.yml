@@ -1,0 +1,11 @@
+question:
+  Hva er kostnaden ved å kjøre en Bitcoin-node på en Raspberry Pi 4 når det gjelder strømforbruk per år?
+answer: Litt mindre enn 10€ per år
+wrong_answers:
+  - Omtrent 50€ per år
+  - Omtrent 100€ per år
+  - Omtrent 200€ per år
+explanation: >-
+  Å kjøre en Bitcoin-node på en Raspberry Pi 4 koster litt mindre enn\
+  10€ per år i form av strømforbruk.
+reviewed: false

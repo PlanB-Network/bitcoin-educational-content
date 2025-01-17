@@ -1,9 +1,0 @@
-question: ¿Cuál es el elemento más alto en la jerarquía de la billetera HD?
-answer: La clave privada maestra y el código de cadena maestro
-wrong_answers:
-  - La frase mnemotécnica y la frase de contraseña
-  - Las claves hijas
-  - La semilla de la billetera
-explanation: |
-  La clave privada maestra y el código de cadena maestro se derivan de la semilla de la billetera y son los elementos más altos en la jerarquía de la billetera HD. Se utilizan para derivar claves hijas.
-reviewed: false

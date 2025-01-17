@@ -1,9 +1,0 @@
-question: Que prédisait Milton Friedman en 1999 ?
-answer: Le développement d'une monnaie électronique fiable
-wrong_answers:
-  - La disparition de l'argent physique
-  - L'émergence du Bitcoin
-  - La fin du contrôle gouvernemental sur la monnaie
-explanation: |
-  Milton Friedman, un économiste renommé, prédisait en 1999 qu'une monnaie électronique fiable serait bientôt développée, une méthode permettant de transférer des fonds d'un point A à un point B sur Internet sans que A ne connaisse B ou que B ne connaisse A.
-reviewed: false

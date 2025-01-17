@@ -1,0 +1,9 @@
+question: Mengapa enkripsi shift rentan terhadap serangan brute force?
+answer: Karena hanya memiliki 26 kunci yang mungkin
+wrong_answers:
+  - Karena menggunakan kunci publik
+  - Karena didasarkan pada enkripsi simetris
+  - Karena menggunakan angka acak
+explanation: |
+  Enkripsi shift mudah rentan terhadap serangan brute force karena hanya memiliki 26 kunci yang mungkin, dari 0 hingga 25, karena penggunaan modulo 26 yang sendiri bergantung pada ukuran alfabet. Anda tidak dapat menggunakan kunci yang lebih besar, karena mereka dalam setiap kasus akan setara dengan kunci antara 0 dan 25. Oleh karena itu, cukup untuk menguji masing-masing dari mereka untuk menemukan pesan. 
+reviewed: false

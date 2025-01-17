@@ -1,9 +1,0 @@
-question: Qual foi a taxa de inflação no Zimbábue em novembro de 2008?
-answer: 79.600.000.000%
-wrong_answers:
-  - 796%
-  - 79.600.000.000.000.000%
-  - 100%
-explanation: |
-  Em novembro de 2008, a taxa de inflação mensal da moeda do Zimbábue atingiu o pico de 79.600.000.000%, o que aniquilou o valor do dólar zimbabuano.
-reviewed: false

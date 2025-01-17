@@ -1,0 +1,9 @@
+question: Quelle est la fonction de hachage utilisée par HMAC dans le cadre de Bitcoin ?
+answer: SHA512
+wrong_answers:
+  - SHA256
+  - RIPEMD160
+  - HASH160
+explanation: |
+  HMAC utilise SHA512 pour produire un hash sécurisé de 512 bits.
+reviewed: false

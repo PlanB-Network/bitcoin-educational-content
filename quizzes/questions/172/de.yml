@@ -1,9 +1,0 @@
-question: Wie gewährleistet das Bitcoin-Protokoll seine Unzensierbarkeit und Unaufhaltsamkeit?
-answer: Jede Komponente des Protokolls ist geografisch über den gesamten Globus verteilt.
-wrong_answers:
-  - Es verwendet ein dezentralisiertes Netzwerk von Knotenpunkten.
-  - Es verwendet einen komplexen Algorithmus zur Validierung von Transaktionen.
-  - Es verwendet eine hohe Verschlüsselungsstufe.
-explanation: |
-  Das Bitcoin-Protokoll gewährleistet seine Unzensierbarkeit und Unaufhaltsamkeit, da jede Komponente des Protokolls geografisch über den gesamten Globus verteilt ist. Zum Beispiel gibt es etwa 40.000 Bitcoin-Knotenpunkte auf allen Kontinenten.
-reviewed: false

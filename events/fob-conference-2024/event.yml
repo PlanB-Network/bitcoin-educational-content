@@ -1,0 +1,23 @@
+- start_date: 2024-10-06
+  end_date: 2024-10-06 
+  address_line_1: Antwerpen, Belgium
+  address_line_2: Handelsbeurs in Antwerpen
+  address_line_3: 
+  name: Future of Bitcoin Conference
+  builder: 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description:  Does the future of Bitcoin look promising? Or are there limits to its growth? Discover it on October 5th at the Handelsbeurs in Antwerp
+  language: 
+    - de
+  links:
+    website: https://start2bitcoin.com/conference-2024/
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - general
+
+

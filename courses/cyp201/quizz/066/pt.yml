@@ -1,0 +1,9 @@
+question: Qual parte da saída HMAC-SHA512 é usada como o código da cadeia filial?
+answer: Os últimos 32 bytes
+wrong_answers:
+  - Os primeiros 32 bytes
+  - Os 64 bytes inteiros
+  - O hash SHA256 dos 32 bytes do meio
+explanation: |
+  Os últimos 32 bytes da saída HMAC-SHA512 servem como o código da cadeia para a chave filial.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on vabaduse ja vastutuse vaheline seos?
+answer: Vastutus tuleneb individuaalsete valikute vabadusest
+wrong_answers:
+  - Vabadus on piiratud teiste vastutusega
+  - Vabadus ja vastutus on kaks sõltumatut kontseptsiooni
+  - Vastutus on takistuseks vabadusele
+explanation: |
+  Vabaduse ja vastutuse vaheline seos on lahutamatu, kuna valikute tegemise vabadus tähendab ka vastutust nende valikute tagajärgede eest, rõhutades seega, et iga vaba tegu käib käsikäes moraalse kohustusega.
+reviewed: false

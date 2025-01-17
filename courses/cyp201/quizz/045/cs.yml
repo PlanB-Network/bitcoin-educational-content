@@ -1,0 +1,9 @@
+question: Jaká hashovací funkce se používá pro výpočet kontrolního součtu mnemonické fráze?
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+explanation: |
+  Kontrolní součet mnemonické fráze je vypočítán aplikací jednoduchého hashu SHA256 na entropii.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Tracy sõnul, mis on ühiskonna ajendav jõud?
+answer: Kaubandus
+wrong_answers:
+  - Perekond
+  - Poliitika
+  - Haridus
+explanation: |
+  Destutt de Tracy jaoks on kaubandus tsiviliseeriv ja rahustav jõud, mis toimib ühiskonna ajendava jõuna.
+reviewed: false

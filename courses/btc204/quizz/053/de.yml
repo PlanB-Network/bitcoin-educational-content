@@ -1,0 +1,13 @@
+question: Was ist der Zweck von Labels bei Silent Payments?
+
+answer: Mehrere verschiedene statische Adressen zu verwenden, ohne die Scan-Arbeitslast unangemessen zu erhöhen.
+
+wrong_answers:
+  - Um Silent Payments-Transaktionen zu verschlüsseln, um den wahren Empfänger der Transaktion zu verbergen.
+  - Mehrere verschiedene statische Adressen zu verwenden, die von einem externen Beobachter nicht verknüpft werden können.
+  - Ein sichtbares Label auf der Blockchain zu platzieren, um Silent Payments in der Art einer Zahlungsreferenz zu identifizieren.
+
+explanation: |
+  Labels werden verwendet, um mehrere statische Adressen aus der Hauptstatikadresse zu generieren, was die Organisation der Wallet erleichtert. Allerdings könnte ein externer Beobachter leicht eine Verbindung zwischen diesen gelabelten statischen Adressen herstellen, da der öffentliche Scan-Schlüssel für alle gleich ist.
+
+reviewed: false

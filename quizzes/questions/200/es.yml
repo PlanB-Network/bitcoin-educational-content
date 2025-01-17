@@ -1,9 +1,0 @@
-question: ¿Qué es el Promedio de Costo en Dólares?
-answer: Comprar pequeñas cantidades de Bitcoin a intervalos regulares.
-wrong_answers:
-  - Comprar una gran cantidad de Bitcoin de una sola vez.
-  - Comprar Bitcoin solo cuando el precio baja.
-  - Comprar Bitcoin solo cuando el precio sube.
-explanation: |
-  El texto explica que el Promedio de Costo en Dólares implica comprar pequeñas cantidades de Bitcoin a intervalos regulares. Este método suaviza el precio a lo largo del tiempo y proporciona un crecimiento continuo en la cantidad de Bitcoin poseído.
-reviewed: false

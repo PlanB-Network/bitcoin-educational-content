@@ -1,0 +1,28 @@
+- start_date: 2024-09-14  02:00:00
+  end_date: 2024-09-15  10:00:00
+  timezone: Asia/Bangkok
+  address_line_1: Bangkok, Thailand
+  address_line_2: True Digital Park [West], Grand Hall [3rd FL]
+  address_line_3: 
+  name: Thailand Bitcoin Conference 2024
+  builder: 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: We invite you to join us in exploring diverse solutions to societal challenges and struggles that may seem insurmountable; revitalizing them with the empowerment, hope, and prosperity of people through the robust, antifragile, and decentralized digital currency and saving technology of the future at the "Thailand Bitcoin Conference 2024" (TBC2024).
+  language: 
+    - en
+  links:
+    website: https://www.eventpop.me/e/17031
+    replay_url:
+    live_url :
+  tags: 
+    - Bitcoin
+    - technology
+    - education
+
+
+
+
+

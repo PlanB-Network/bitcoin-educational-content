@@ -1,0 +1,8 @@
+question: Qual é a restrição para derivar uma chave pública filha de uma chave pública pai?
+answer: A chave filha deve ser normal
+wrong_answers:
+  - A chave filha deve ser endurecida
+  - O código da cadeia deve ser idêntico ao da chave pai
+  - O processo deve incluir a chave privada pai
+explanation: |
+  Uma chave pública filha só pode ser derivada de uma chave pública pai se ela for normal, não endurecida.

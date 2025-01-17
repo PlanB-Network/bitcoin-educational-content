@@ -1,0 +1,9 @@
+question: Co je komutativní vlastnost operace XOR?
+answer: Pořadí operandů neovlivňuje výsledek operace
+wrong_answers:
+  - XOR funguje pouze se sudými čísly
+  - XOR vyžaduje operandy stejné délky
+  - Pozice bitů v operandezích neovlivňuje výsledek operace
+explanation: |
+  XOR je komutativní, což znamená, že a XOR b je rovno b XOR a.
+reviewed: false

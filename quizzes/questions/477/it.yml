@@ -1,9 +1,0 @@
-question: Qual è lo standard più comunemente utilizzato per una frase di recupero di 24 parole in un portafoglio Bitcoin?
-answer: Un'entropia di 256 bit.
-wrong_answers:
-  - Un'entropia di 128 bit.
-  - Un'entropia di 160 bit.
-  - Un'entropia di 512 bit.
-explanation: |
-  Lo standard più comunemente utilizzato per una frase di recupero di 24 parole è un'entropia di 256 bit.
-reviewed: false

@@ -1,0 +1,8 @@
+question: Bao nhiêu bit entropy được sử dụng cho một cụm từ ghi nhớ 24 từ?
+answer: 256 bit
+wrong_answers:
+  - 128 bit
+  - 512 bit
+  - 64 bit
+explanation: |
+  Một cụm từ ghi nhớ 24 từ dựa trên 256 bit entropy, đảm bảo độ an toàn rất cao.

@@ -1,0 +1,14 @@
+question: Was ist das Byzantinische Generäle-Problem?
+answer: Es ist ein Problem der Koordination von Informationen in einem System, in dem den verschiedenen Akteuren nicht vertraut werden kann.
+wrong_answers:
+  - Es ist ein Problem der Verifizierung von Transaktionen in einem dezentralisierten Netzwerk.
+  - Es ist ein Problem der Verhinderung von Doppelausgaben bei einer digitalen Währung.
+  - Es ist ein Problem der Aufrechterhaltung eines Konsenses in einem zentralisierten Netzwerk.
+explanation: |
+  Das Byzantinische Generäle-Problem ist ein klassisches Problem in
+  der verteilten Datenverarbeitung, das das Erreichen eines Konsenses
+  in einem Netzwerk betrifft, in dem einige der Knoten fehlerhaft oder
+  bösartig sein können. Bitcoin löst dieses Problem durch die Verwendung einer
+  Blockchain basierend auf dem Proof of Work, was sicherstellt, dass alle
+  Knoten über den Zustand der Transaktionshistorie übereinstimmen.
+reviewed: true

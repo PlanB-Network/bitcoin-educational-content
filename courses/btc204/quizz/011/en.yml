@@ -1,0 +1,9 @@
+question: What is the most difficult characteristic to achieve with a digital currency like bitcoin?
+answer: The absence of double spending
+wrong_answers:
+  - Integrity
+  - Authenticity
+  - Veracity
+explanation: |
+  For digital currencies, ensuring the absence of double spending is more complex, since any digital good is essentially information. Unlike physical goods, information does not divide during exchanges but propagates by multiplying.
+reviewed: false

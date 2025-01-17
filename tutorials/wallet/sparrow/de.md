@@ -4,7 +4,7 @@ name: Sparrow
 description: Vollständiger Leitfaden zu Sparrow
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 ## Eine Serie von Videos über die Sparrow Bitcoin Wallet. Anleitungen für Anfänger und fortgeschrittene Benutzer.
 
@@ -39,6 +39,16 @@ Die Sparrow Wallet ist für fortgeschrittene Benutzer entwickelt und kann anfang
 ![Wie man Bitcoin einrichtet, sendet und empfängt - bewährte Verfahren](https://youtu.be/7QCKSPIq0Ac)
 
 ## Wie man mit der Sparrow Wallet CoinJoin durchführt.
+
+---
+
+***WARNUNG:** Nach der Verhaftung der Gründer von Samourai Wallet und der Beschlagnahme ihrer Server am 24. April funktioniert das Whirlpool-Tool nicht mehr, selbst für Benutzer, die es auf Sparrow Wallet verwenden. Es besteht jedoch die Möglichkeit, dass dieses Tool in den kommenden Wochen wieder in Betrieb genommen oder auf eine andere Weise neu gestartet wird.*
+
+_Wir verfolgen die Entwicklungen in diesem Fall sowie die Entwicklungen bezüglich der zugehörigen Tools genau. Seien Sie versichert, dass wir dieses Tutorial aktualisieren werden, sobald neue Informationen verfügbar sind._
+
+_Dieses Tutorial wird nur zu Bildungs- und Informationszwecken bereitgestellt. Wir befürworten oder ermutigen die Verwendung dieser Tools zu kriminellen Zwecken nicht. Es liegt in der Verantwortung jedes Benutzers, die Gesetze in seiner Gerichtsbarkeit zu beachten._
+
+---
 
 Die Blockchain von Bitcoin ist vollständig transparent, und die Verwendung schlechter Praktiken kann sich negativ auf deine finanzielle Privatsphäre auswirken. Eine der besten Möglichkeiten, deine Privatsphäre zurückzugewinnen, ist die Verwendung von CoinJoin. Hier erfährst du, wie du Samourai Whirlpool CoinJoin in der Sparrow Wallet verwendest.
 

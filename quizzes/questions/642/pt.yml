@@ -1,9 +1,0 @@
-question: Qual é o papel de uma chave privada em uma transação de Bitcoin?
-answer: Ela é usada para assinar a transação e desbloquear os bitcoins do endereço.
-wrong_answers:
-  - É usada para gerar a chave pública.
-  - É usada para criar um endereço de Bitcoin.
-  - É usada para criptografar os dados da transação.
-explanation: |
-  Em uma transação de Bitcoin, o remetente usa sua chave privada para assinar a transação, o que efetivamente desbloqueia os bitcoins do endereço em que estão armazenados. Isso é uma parte crucial do processo de transação, pois garante que apenas o proprietário dos bitcoins possa gastá-los.
-reviewed: false

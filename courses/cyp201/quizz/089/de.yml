@@ -1,0 +1,8 @@
+question: Welcher Schritt geht der Anwendung von HASH160 bei der Erzeugung einer SegWit v0-Adresse voraus?
+answer: Die Komprimierung des öffentlichen Schlüssels
+wrong_answers:
+  - Hinzufügen der Prüfsumme
+  - Umwandlung in das bech32-Format
+  - Kodierung in base58check
+explanation: |
+  Der öffentliche Schlüssel muss komprimiert werden, um seine Größe zu reduzieren, bevor er durch die HASH160-Hashfunktion geht.

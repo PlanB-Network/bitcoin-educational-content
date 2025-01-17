@@ -1,0 +1,8 @@
+question: Kuka oli päähenkilö PayPalin luomisen takana?
+answer: Peter Thiel
+wrong_answers:
+  - Elon Musk
+  - Marc Andreessen
+  - Mark Zuckerberg
+explanation: |
+  PayPal-tuote kehitettiin vuonna 1999 Confinity Inc.; ssä, jonka perustivat yhdessä Peter Thiel ja Max Levchin joulukuussa 1998 San Franciscossa.

@@ -1,9 +1,0 @@
-question: Was bedeutet es, dass Bitcoin eine neutrale Währung ist?
-answer: Es wird von keiner Einheit oder Institution kontrolliert.
-wrong_answers:
-  - Es wird von einer einzigen Einheit oder Institution kontrolliert.
-  - Es wird von der Regierung reguliert.
-  - Es wird nur für neutrale Transaktionen verwendet.
-explanation: |
-  Bitcoin ist eine neutrale Währung, was bedeutet, dass es von keiner Einheit oder Institution kontrolliert wird und jeder Benutzer die gleichen Rechte hat. Dies ist ein wesentlicher Aspekt seiner Dezentralisierung.
-reviewed: false

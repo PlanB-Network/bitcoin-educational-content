@@ -1,0 +1,9 @@
+question: ¿Cuál es el papel principal del nodo emisor en el enrutamiento en la Red Lightning?
+answer: Calcular la ruta completa hasta el destinatario
+wrong_answers:
+  - Almacenar la información de liquidez de todos los canales de la red
+  - Determinar las tarifas de transacción para cada nodo intermediario
+  - Comunicarse directamente con todos los nodos intermediarios
+explanation: |
+  El nodo emisor es responsable de calcular toda la ruta hasta el destinatario, ya que los nodos intermediarios solo conocen a su vecino inmediato.
+reviewed: false

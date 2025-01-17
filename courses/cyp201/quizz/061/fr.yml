@@ -1,0 +1,9 @@
+question: Quelle est la taille totale d'une clé étendue avec la checksum ?
+answer: 82 octets
+wrong_answers:
+  - 78 octets
+  - 64 octets
+  - 128 octets
+explanation: |
+  Une clé étendue mesure 78 octets sans la checksum et 82 octets avec la checksum incluse.
+reviewed: false

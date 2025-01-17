@@ -1,0 +1,12 @@
+question: Perché si raccomanda di scaricare il software dal sito ufficiale del produttore piuttosto che da siti generici?
+answer: Per garantire che il software sia libero da software malevoli.
+wrong_answers:
+  - Per sostenere finanziariamente il produttore.
+  - Perché il software di solito costa meno sul sito ufficiale.
+  - Perché il software sui siti generici è di solito obsoleto.
+explanation: |
+  Scaricare il software dal sito ufficiale del produttore
+  garantisce che si sta ottenendo la versione legittima del
+  software, che è libera da qualsiasi software malevolo che
+  potrebbe danneggiare il tuo dispositivo o rubare i tuoi dati.
+reviewed: true

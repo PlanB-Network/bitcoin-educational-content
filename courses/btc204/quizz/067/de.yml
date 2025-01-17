@@ -1,0 +1,13 @@
+question: Welche Heuristik kann verwendet werden, um alle Eingaben einer Konsolidierung zu verknüpfen?
+
+answer: Die CIOH.
+
+wrong_answers:
+  - Adresswiederverwendung.
+  - Der größte Ausgang.
+  - Rundenzahlung.
+
+explanation: |
+  Ein externer Beobachter kann die CIOH anwenden, um zu hypothetisieren, dass alle Eingaben einer Konsolidierung der gleichen Entität gehören.
+
+reviewed: false

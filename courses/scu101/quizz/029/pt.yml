@@ -1,0 +1,11 @@
+question: Qual é uma solução simples para proteger seus dados contra ataques de ransomware?
+answer: Faça backup regular dos seus dados importantes em um dispositivo de armazenamento externo ou em um serviço de armazenamento online seguro.
+wrong_answers:
+  - Instale vários softwares antivírus no seu computador e realize varreduras periódicas.
+  - Mude regularmente seu computador ou reinstale seu sistema operacional (OS).
+  - Você pode usar uma rede Wi-Fi pública se não tiver nada a esconder no seu dispositivo.
+explanation: |
+  Fazer backup regular dos seus dados permite que você recupere seus
+  dados no caso de um ataque cibernético ou falha de hardware
+  sem perder informações cruciais.
+reviewed: true

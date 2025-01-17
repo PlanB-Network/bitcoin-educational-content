@@ -1,0 +1,9 @@
+question: Mis on peamine põhjus, miks valitsused ja keskpangad uurivad võimalust luua oma fiat-valuutast digitaalne versioon?
+answer: Kontrolli tagamiseks ja kohalike regulatsioonidega kooskõlas olemiseks
+wrong_answers:
+  - Konkureerimiseks Bitcoiniga
+  - Privaatsuskaitse pakkumiseks
+  - Massjälgimise suurendamiseks
+explanation: |
+  Peatüki sisu selgitab, et kuigi need projektid väidavad, et konkureerivad Bitcoiniga, jäävad nad tsentraliseerituks, et tagada kontroll ja olla kooskõlas kohalike regulatsioonidega.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist die Hauptfunktion einer Hash-Funktion?
+answer: Sie wandelt Informationen beliebiger Länge in einen Fingerabdruck fester Größe um.
+wrong_answers:
+  - Sie verschlüsselt Nachrichten, um sie unlesbar zu machen.
+  - Sie wird nur verwendet, um die Integrität der Bitcoin-Software zu überprüfen.
+  - Sie generiert private Schlüssel für Bitcoin-Wallets.
+explanation: |
+  Eine Hash-Funktion transformiert Daten beliebiger Größe in einen Hash fester Größe, was für viele Anwendungen in Bitcoin entscheidend ist.
+reviewed: false

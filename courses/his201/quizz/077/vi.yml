@@ -1,0 +1,9 @@
+question: Danh sách gửi thư phát triển bitcoin được tạo vào ngày nào?
+answer: 12 tháng 6, 2011
+wrong_answers:
+  - 13 tháng 1, 2011
+  - 7 tháng 3, 2011
+  - 19 tháng 9, 2011
+explanation: |
+  Nó được tạo ra bởi nhà phát triển Jeff Garzik, và nó cho phép thảo luận chính thức về các thay đổi sẽ được thực hiện đối với Bitcoin.
+reviewed: false

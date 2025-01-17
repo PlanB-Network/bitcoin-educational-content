@@ -1,0 +1,10 @@
+question: Apa itu dompet panas dalam konteks Bitcoin?
+answer: Dompet digital yang digunakan untuk menyimpan, mengirim, dan menerima Bitcoin
+wrong_answers:
+  - Dompet fisik yang digunakan untuk menyimpan Bitcoin
+  - Metode membeli Bitcoin
+  - Platform pertukaran Bitcoin
+explanation: |
+  Dalam konteks Bitcoin, dompet panas adalah dompet digital yang digunakan untuk
+  menyimpan, mengirim, dan menerima Bitcoin. Biasanya terhubung ke internet
+  dan oleh karena itu kurang aman dibandingkan dengan dompet dingin.

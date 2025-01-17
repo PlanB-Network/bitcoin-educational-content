@@ -1,0 +1,8 @@
+question: Cờ sighash nào cho phép gây quỹ cộng đồng bằng cách bao gồm một đầu vào duy nhất và tất cả các đầu ra?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL kết hợp với SIGHASH_ANYONECANPAY cho phép thêm đầu vào mà không thay đổi các đầu ra.

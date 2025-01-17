@@ -1,0 +1,9 @@
+question: Trong bối cảnh của hệ thống mã hóa RSA, tích của hai số nguyên tố p và q tương ứng với điều gì?
+answer: Nó tạo thành số nguyên N được sử dụng làm mô-đun cho các phép toán
+wrong_answers:
+  - Nó tạo thành khóa công khai
+  - Nó được sử dụng như khóa giải mã
+  - Nó chỉ được sử dụng để tạo số mũ e
+explanation: |
+  Trong RSA, số nguyên N là tích của hai số nguyên tố lớn p và q, và nó được sử dụng làm mô-đun cho các phép toán mã hóa và giải mã.
+reviewed: false

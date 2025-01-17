@@ -1,9 +1,0 @@
-question: Was ist der Rhythmus des Bitcoin-Netzwerks?
-answer: 10 Minuten pro Block
-wrong_answers:
-  - 10 Sekunden pro Block
-  - 10 Minuten pro Transaktion
-  - 10 Sekunden pro Transaktion
-explanation: |
-  Der Rhythmus des Bitcoin-Netzwerks beträgt 10 Minuten pro Block. Dies ist vergleichbar mit dem Herzschlag des Bitcoin-Währungssystems.
-reviewed: false

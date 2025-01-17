@@ -1,0 +1,14 @@
+question: Quel est le but du mécanisme d'ajustement de la difficulté dans le réseau Bitcoin ?
+answer: Assurer que les blocs soient minés en moyenne toutes les 10 minutes
+wrong_answers:
+  - Augmenter la difficulté du minage au fil du temps
+  - Diminuer la difficulté du minage au fil du temps
+  - Assurer que le même mineur ne mine pas des blocs consécutifs
+explanation: |
+  L'ajustement de la difficulté est un mécanisme crucial dans le
+  fonctionnement du réseau Bitcoin, assurant que les blocs soient
+  minés en moyenne toutes les 10 minutes. Ce mécanisme d'ajustement
+  garantit que le temps de minage pour les nouveaux blocs
+  reste constant au fil du temps, indépendamment du nombre de
+  mineurs ou de la puissance de calcul globale du réseau.
+reviewed: true

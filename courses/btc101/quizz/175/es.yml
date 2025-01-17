@@ -1,0 +1,11 @@
+question: ¿Cuál es una forma de mitigar la volatilidad del Bitcoin?
+answer: Coberturas financieras (stablecoins).
+wrong_answers:
+  - Invertir todo tu dinero en Bitcoin.
+  - Ignorar las tendencias del mercado.
+  - Comprar más Bitcoin cuando el precio baja.
+explanation: >-
+  La volatilidad del Bitcoin puede ser mitigada por varias soluciones tales
+  como coberturas financieras (stablecoins), una fuerte creencia a largo plazo (hodling), o simplemente
+  no poner el 100% de tu dinero en Bitcoin sin entender nada.
+reviewed: true

@@ -1,9 +1,0 @@
-question: Comment les mineurs sont-ils rémunérés pour leur travail ?
-answer: Les mineurs sont rémunérés par le biais de la récompense incluse dans le bloc et des frais de transaction.
-wrong_answers:
-  - Les mineurs sont payés par le réseau Bitcoin.
-  - Les mineurs reçoivent un salaire fixe pour leur travail.
-  - Les mineurs sont rémunérés avec de nouveaux bitcoins.
-explanation: |
-  Lorsqu'un mineur réussit à miner un bloc, il reçoit une récompense sous forme de nouveaux bitcoins. Cette récompense est incluse dans le bloc qu'il a miné. De plus, les mineurs reçoivent également des frais de transaction provenant des transactions incluses dans le bloc.
-reviewed: false

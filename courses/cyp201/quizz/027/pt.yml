@@ -1,0 +1,8 @@
+question: Qual vulnerabilidade da assinatura ECDSA foi corrigida pelo SegWit?
+answer: Maleabilidade
+wrong_answers:
+  - Verificação em lote
+  - Falta de agregação
+  - Tamanho excessivo das assinaturas
+explanation: |
+  O SegWit corrigiu a maleabilidade das assinaturas ECDSA, possibilitando usos como a Lightning Network.

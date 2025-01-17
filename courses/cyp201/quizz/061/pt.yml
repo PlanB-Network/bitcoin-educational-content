@@ -1,0 +1,8 @@
+question: Qual é o tamanho total de uma chave estendida com o checksum?
+answer: 82 bytes
+wrong_answers:
+  - 78 bytes
+  - 64 bytes
+  - 128 bytes
+explanation: |
+  Uma chave estendida tem 78 bytes sem o checksum e 82 bytes com o checksum incluído.

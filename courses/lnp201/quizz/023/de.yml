@@ -1,0 +1,9 @@
+question: Warum tauschen Alice und Bob ihre Geheimnisse für vorherige Commitment-Transaktionen aus?
+answer: Um jedem zu ermöglichen, sich zu schützen, falls der andere eine alte Transaktion veröffentlicht
+wrong_answers:
+  - Um die Kapazität des Kanals zu erhöhen
+  - Um den Zugang des anderen zu den Mitteln zu blockieren
+  - Um die Mittel gleichmäßig aufzuteilen
+explanation: |
+  Der Austausch von Geheimnissen für vorherige Transaktionen ermöglicht es jedem Teilnehmer, den anderen zu bestrafen, falls ein Versuch unternommen wird, durch Veröffentlichung einer alten Transaktion zu betrügen.
+reviewed: false

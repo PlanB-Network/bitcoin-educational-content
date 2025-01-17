@@ -1,0 +1,11 @@
+question: Mengapa seringkali kompleks untuk menggunakan payjoin untuk sebuah pembayaran?
+
+answer: Ini memerlukan kerjasama aktif dari penerima dalam konstruksi
+
+wrong_answers:
+  - Ini memerlukan jumlah tetap untuk setiap transaksi
+  - Ini memaksa kedua belah pihak untuk menggunakan jenis perangkat lunak yang sama
+  - Ini memerlukan pembayar untuk memiliki setidaknya 2 UTXO yang lebih besar dari nilai pembayaran
+
+explanation: |
+  Kesulitan menggunakan payjoin terletak pada ketergantungannya pada partisipasi pedagang. Sebagai pelanggan, menggunakan payjoin tidak mungkin jika pedagang tidak mendukungnya.

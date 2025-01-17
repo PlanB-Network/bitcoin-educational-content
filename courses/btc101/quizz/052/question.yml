@@ -1,0 +1,63 @@
+id: 1a172593-ffda-4de9-8a34-b7d7480b6069
+chapterId: b04c024c-54f3-50cb-997f-58721cfc74be
+difficulty: intermediate
+duration: 30
+author: DecouvreBitcoin
+tags:
+  - Inflation
+  - Purchasing Power
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2630
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2565
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1282
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2597
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2630
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2565
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2597
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2695
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2565
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2695

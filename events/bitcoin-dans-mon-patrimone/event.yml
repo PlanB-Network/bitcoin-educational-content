@@ -1,0 +1,24 @@
+- start_date: 2024-09-25
+  end_date: 2024-09-25
+  timezone: Europe/Paris
+  address_line_1: Lyon, France
+  address_line_2: 
+  address_line_3: 
+  name: Bitcoin Dans Mon Patrimone
+  builder: 
+  type: meetup
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: we are organizing a meeting to discuss the place of Bitcoin in its heritage
+  language: 
+    - fr
+  links:
+    website: https://x.com/aurore_btc/status/1836432265955389945
+    replay_url:
+    live_url :
+  tags: 
+    - Bitcoin
+    - community
+
+

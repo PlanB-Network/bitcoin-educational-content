@@ -1,0 +1,8 @@
+question: Apa fungsi utama dari kunci ekstensi dalam dompet HD?
+answer: Untuk memungkinkan derivasi kunci anak
+wrong_answers:
+  - Menyimpan transaksi dompet
+  - Langsung menghasilkan UTXOs
+  - Mengenkripsi kunci publik
+explanation: |
+  Kunci ekstensi menggabungkan sebuah kunci (baik itu privat atau publik) dengan kode rantai yang terkait, yaitu, dua elemen yang diperlukan untuk derivasi kunci anak.

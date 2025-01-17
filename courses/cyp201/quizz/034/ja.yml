@@ -1,0 +1,8 @@
+question: Bitcoin取引で最も一般的に使用されるsighashフラグは何ですか？
+answer: SIGHASH_ALL
+wrong_answers:
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
+explanation: |
+  SIGHASH_ALLはデフォルトのsighashフラグで、取引のすべての入力と出力をカバーし、いかなる変更も防ぎます。

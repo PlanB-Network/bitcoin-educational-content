@@ -1,0 +1,8 @@
+question: Apa yang dijamin oleh Kode Otentikasi Pesan (MAC) dalam skema kriptografi?
+answer: Integritas dan keaslian pesan
+wrong_answers:
+  - Kerahasiaan pesan
+  - Kompresi pesan
+  - Konversi pesan menjadi biner
+explanation: |
+  Kode Otentikasi Pesan (MAC) digunakan untuk memastikan bahwa pesan tidak telah diubah dan memang berasal dari pengirim yang diasumsikan.

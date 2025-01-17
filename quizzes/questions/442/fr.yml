@@ -1,9 +1,0 @@
-question: Quelle est la taille d'une clé publique Bitcoin ?
-answer: Un nombre de 512 bits
-wrong_answers:
-  - Un nombre de 256 bits
-  - Un nombre de 128 bits
-  - Un nombre de 1024 bits
-explanation: |
-  La clé privée unique est utilisée pour dériver une clé publique de 512 bits dans le système Bitcoin.
-reviewed: false

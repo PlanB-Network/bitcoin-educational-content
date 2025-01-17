@@ -1,9 +1,0 @@
-question: Was ist der Hauptgrund dafür, eine Empfangsadresse anstelle eines öffentlichen Schlüssels in Bitcoin-Transaktionen zu verwenden?
-answer: Es reduziert die Größe der öffentlichen Schlüsselinformationen.
-wrong_answers:
-  - Es ermöglicht das Zurückverfolgen von einer Adresse zum öffentlichen Schlüssel.
-  - Es spart Platz in den Blöcken.
-  - Es ist einfacher zu merken als ein öffentlicher Schlüssel.
-explanation: |
-  Der Hauptgrund dafür, eine Empfangsadresse anstelle eines öffentlichen Schlüssels in Bitcoin-Transaktionen zu verwenden, besteht darin, die Größe der öffentlichen Schlüsselinformationen zu reduzieren, die anfangs 512 Bits beträgt. Dies dient nicht dazu, Platz in den Blöcken zu sparen, sondern um die Transaktionsdaten besser handhabbar zu machen.
-reviewed: false

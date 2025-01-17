@@ -1,0 +1,9 @@
+question: ¿Qué investigadores fueron citados por Satoshi Nakamoto en el documento técnico de Bitcoin por su trabajo en la certificación de estampas de tiempo?
+answer: Stuart Haber y Scott Stornetta
+wrong_answers:
+  - Leslie Lamport, Robert Shostak y Marshall Pease
+  - Cynthia Dwork y Moni Naor
+  - Ronald Rivest y Adi Shamir
+explanation: |
+  Tres artículos de Haber y Stornetta de los 90 fueron citados en el documento técnico. Son conocidos por crear [la primera cadena de bloques con estampas de tiempo](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), publicada en el New York Times a partir de 1992.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Mitkä ovat 2 yksityisyyteen liittyvää riskiä kolikoiden valinnassa?
+
+answer: CIOH ja yhteys syötteiden / henkilöllisyyden välillä vastaanottajan toimesta.
+
+wrong_answers:
+  - IP-osoitteen seuranta ja toiminnan korrelointi.
+  - Aikajakson seuranta ja osoitteen uudelleenkäyttö.
+  - Osoitteen uudelleenkäyttö ja yhteys syötteiden / henkilöllisyyden välillä ulkopuolisen tarkkailijan toimesta.
+
+explanation: |
+  Kolikoita valittaessa on otettava huomioon kaksi riskiä: maksun vastaanottajan mahdollisuus yhdistää osa henkilöllisyydestäsi käytettyihin UTXOihin syötteinä ja ulkopuolisen tarkkailijan kyky luoda yhteyksiä kaikkien syötteinä kulutettujen UTXOjen välille (CIOH).
+
+reviewed: false

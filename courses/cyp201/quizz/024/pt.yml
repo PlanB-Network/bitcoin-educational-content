@@ -1,0 +1,9 @@
+question: Qual é o tamanho de uma chave privada bruta usada no Bitcoin?
+answer: 256 bits
+wrong_answers:
+  - 128 bits
+  - 512 bits
+  - 1024 bits
+explanation: |
+  Uma chave privada no Bitcoin é um inteiro aleatório de 256 bits, garantindo um espaço de chave grande o suficiente para garantir segurança.
+reviewed: false

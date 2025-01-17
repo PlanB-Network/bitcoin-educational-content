@@ -1,0 +1,9 @@
+question: What conclusion does Bastiat draw from the impact of destruction on the economy?
+answer: It is harmful to the economy
+wrong_answers:
+  - It is beneficial to the economy
+  - It is neutral to the economy
+  - It depends on the economic situation
+explanation: |
+  Bastiat demonstrates that destruction is an economic burden because it diverts precious resources and creates no added value.
+reviewed: false

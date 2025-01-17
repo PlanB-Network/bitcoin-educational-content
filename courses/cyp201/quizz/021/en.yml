@@ -1,0 +1,9 @@
+question: What is the main characteristic of scalar multiplication on elliptic curves?
+answer: One-way function
+wrong_answers:
+  - Easily reversible
+  - Based on the factorization of prime numbers
+  - Very long to calculate
+explanation: |
+  Scalar multiplication on elliptic curves is a one-way function, making it impossible to retrieve the private key from the public key.
+reviewed: false

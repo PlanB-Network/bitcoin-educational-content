@@ -1,0 +1,9 @@
+question: Hvordan forbedrer Lightning Network skalerbarheten for Bitcoin-transaksjoner?
+answer: Den bruker et p2p-nettverk av betalingskanaler for å opprette transaksjoner utenfor kjeden.
+wrong_answers:
+  - Den bruker en pålitelig sentralisert part for å behandle transaksjoner effektivt.
+  - Den bruker en annen blokkjede for å aggregere transaksjoner i store blokker.
+  - Den bruker pålitelige brukere for å opprette en føderal reserve av bitcoin.
+explanation: |
+  Lightning Network kan med bruk av betalingskanaler rute transaksjoner utenfor kjeden til en lavere kostnad og raskere.
+reviewed: true

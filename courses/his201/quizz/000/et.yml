@@ -1,0 +1,8 @@
+question: Mis aastal avastati ametlikult asümmeetriline krüptograafia?
+answer: 1976
+wrong_answers:
+  - 1676
+  - 1776
+  - 1876
+explanation: |
+  Selle tutvustasid Whitfield Diffie ja Martin Hellman, kaks krüptograafi Stanfordi Ülikoolist, artiklis, mis avaldati novembris 1976.

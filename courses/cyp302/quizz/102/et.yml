@@ -1,0 +1,9 @@
+question: Mis on õige järjestus autentitud krüpteerimisel?
+answer: Esiteks krüpteeri, seejärel loo märgend krüpteeritud tekstil
+wrong_answers:
+  - Esiteks loo märgend, seejärel krüpteeri sõnum ja märgend
+  - Ühenda lihttekst märgendiga, seejärel krüpteeri
+  - Loo märgend, seejärel kasuta avalikku võtit selle krüpteerimiseks
+explanation: |
+  Turvalisuse tagamiseks peab autentitud krüpteerimine esmalt sõnumi krüpteerima, seejärel genereerima märgendi krüpteeritud tekstil. Teised järjestused on potentsiaalselt haavatavad.
+reviewed: false

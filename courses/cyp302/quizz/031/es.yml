@@ -1,0 +1,9 @@
+question: ¿Cómo se define una cadena aleatoria en este capítulo?
+answer: Como una cadena elegida uniformemente de entre todas las cadenas de la misma longitud
+wrong_answers:
+  - Como una cadena creada solo con bits 0 y 1
+  - Como una cadena obtenida de una selección manual
+  - Como una cadena de longitud variable resultante de un proceso de cifrado
+explanation: |
+  Una cadena aleatoria se define como proveniente de una selección uniforme entre todas las posibles cadenas de la misma longitud.
+reviewed: false

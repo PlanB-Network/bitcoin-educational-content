@@ -1,0 +1,12 @@
+question: ¿Cuál es el enfoque principal de este curso de Bitcoin?
+answer: Los aspectos monetarios de Bitcoin.
+wrong_answers:
+  - Los aspectos de codificación de Bitcoin.
+  - El impacto ecológico de Bitcoin.
+  - Los aspectos regulatorios de Bitcoin.
+explanation: |
+  Este curso de Bitcoin se centra en los aspectos monetarios de
+  Bitcoin, incluyendo cómo comprar y vender bitcoins, almacenarlos de manera segura
+  en carteras digitales y usarlos para
+  transacciones.
+reviewed: true

@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de las Propuestas de Mejora de Bitcoin (BIPs)?
-answer: Son propuestas de actualización que mejoran la funcionalidad y seguridad de las billeteras HD.
-wrong_answers:
-  - Son propuestas para aumentar el valor de Bitcoin.
-  - Son propuestas para cambiar el proceso de minería de Bitcoin.
-  - Son propuestas para regular el uso de Bitcoin.
-explanation: |
-  Las Propuestas de Mejora de Bitcoin (BIPs) son protocolos que tienen como objetivo mejorar la funcionalidad y seguridad de las billeteras HD. Por ejemplo, BIP32 introdujo el concepto de claves derivadas de manera determinista y jerárquica.
-reviewed: false

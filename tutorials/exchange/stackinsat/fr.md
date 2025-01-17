@@ -1,10 +1,10 @@
 ---
-name: StackingSat
+name: StackinSat
 
 description: How to use Stackinsat
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 StackinSat (https://stackinsat.com/) est une solution française de DCA Bitcoin avec un retrait automatique vers votre portefeuille
 

@@ -1,0 +1,12 @@
+question: Lequel des suivants est une méthode sûre et efficace dans l'authentification 2FA ?
+answer: Un code généré par une application comme Google Authenticator ou Authy.
+wrong_answers:
+  - Un appel téléphonique ou un code SMS envoyé au détenteur du compte
+  - Un email contenant un code expirant après 10 minutes envoyé au détenteur du compte
+  - Une lettre envoyée à l'adresse personnelle du détenteur du compte
+explanation: |
+  La deuxième étape dans le 2FA peut être un code temporaire envoyé via
+  SMS, email, un code généré par une application, ou une
+  clé de sécurité physique. Cependant, toutes ces méthodes
+  ne nous permettent pas de maintenir le même niveau de sécurité.
+reviewed: true

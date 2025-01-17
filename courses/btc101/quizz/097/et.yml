@@ -1,0 +1,9 @@
+question: Mis juhtub, kui teie privaatvõti paljastatakse kolmandale osapoolele?
+answer: Seotud vahendid ei ole enam turvalised
+wrong_answers:
+  - Kolmas osapool saab vaadata ainult teie tehingute ajalugu
+  - Kolmas osapool saab muuta teie privaatvõtit
+  - Kolmas osapool saab juurdepääsu teie isiklikule teabele
+explanation: |
+  Kui teie privaatvõti paljastatakse kolmandale osapoolele, ei ole seotud vahendid enam turvalised. See on seetõttu, et privaatvõti esindab juurdepääsu teie vahenditele.
+reviewed: true

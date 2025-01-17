@@ -1,0 +1,9 @@
+question: Mikä rakenne on käytössä SHA256 ssa käsittelemään mielivaltaisen pituisia viestejä?
+answer: Merkle-Damgårdin rakenne
+wrong_answers:
+  - Euklidinen rakenne
+  - Rivest-Shamir-Adlemanin rakenne
+  - Knuth-Morris-Prattin rakenne
+explanation: |
+  Merkle-Damgårdin rakenne mahdollistaa tiivistysfunktion muuntamisen hajautusfunktioksi muuttuvan pituisille viesteille.
+reviewed: false

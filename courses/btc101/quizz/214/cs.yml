@@ -1,0 +1,12 @@
+question: Co předpověděl Milton Friedman v roce 1999?
+answer: Vývoj spolehlivého elektronického peněžního systému (e-cash).
+wrong_answers:
+  - Zánik fyzických peněz.
+  - Nástup Bitcoinu.
+  - Konec vládní kontroly nad penězi.
+explanation: |
+  Milton Friedman, renomovaný ekonom, předpověděl v roce 1999,
+  že brzy bude vyvinut spolehlivý elektronický peněžní systém (e-cash), metoda,
+  pomocí které můžete na internetu převádět finanční prostředky z bodu A do bodu B,
+  aniž by A znal B nebo naopak.
+reviewed: true

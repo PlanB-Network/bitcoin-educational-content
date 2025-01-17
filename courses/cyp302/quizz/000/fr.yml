@@ -1,0 +1,9 @@
+question: Qui a confié une boîte de fer à l'aubergiste Robert Morriss pour la garder en sécurité ?
+answer: Thomas J. Beale
+wrong_answers:
+  - J.B. Ward
+  - Simon Singh
+  - Andrew Allen
+explanation: |
+  C'est Thomas J. Beale qui a remis une boîte de fer contenant des documents chiffrés et une note à Robert Morriss, en lui donnant des instructions en cas de non-retour.
+reviewed: false

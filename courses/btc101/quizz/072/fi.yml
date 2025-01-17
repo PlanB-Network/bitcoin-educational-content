@@ -1,0 +1,9 @@
+question: Mitkä ovat kolme päätoimintoa Bitcoin-lompakossa?
+answer: Bitcoinien vastaanottaminen, bitcoinien lähettäminen, niiden suojaaminen hakkerointi- ja varkausyrityksiltä.
+wrong_answers:
+  - Bitcoinien säilyttäminen, bitcoinien lähettäminen, niiden suojaaminen hakkerointi- ja varkausyrityksiltä.
+  - Mahdollistaa bitcoinien vastaanottamisen, bitcoinien säilyttämisen, niiden suojaaminen hakkerointi- ja varkausyrityksiltä.
+  - Mahdollistaa bitcoinien vastaanottamisen, mahdollistaa bitcoinien lähettämisen, bitcoinien myyminen.
+explanation: |
+  Bitcoin-lompakkoa käytetään vuorovaikutuksessa Bitcoin-verkon kanssa. Sen kolme päätoimintoa ovat mahdollistaa bitcoinien vastaanottaminen, mahdollistaa bitcoinien lähettäminen ja niiden suojaaminen hakkerointi- ja varkausyrityksiltä.
+reviewed: true

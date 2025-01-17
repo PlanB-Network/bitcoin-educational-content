@@ -1,0 +1,12 @@
+question: What are the main characteristics an effective currency?
+answer: Fungible, Divisible, Liquid.
+wrong_answers:
+  - Fungible, Divisible, Perishable.
+  - Fungible, Indivisible, Liquid.
+  - Non-fungible, Divisible, Liquid.
+explanation: |
+  An effective currency must be fungible (interchangeable
+  without loss of value), divisible (separable into small
+  parts to facilitate transactions of different volumes), and
+  liquid (easily convertible into goods or services).
+reviewed: true

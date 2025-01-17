@@ -1,0 +1,9 @@
+question: Why must a router maintain good liquidity distribution in its channels?
+answer: To maximize the number of payments it can route
+wrong_answers:
+  - To reduce transaction fees
+  - To avoid opening new channels
+  - To limit the use of the Bitcoin blockchain
+explanation: |
+  A router aims to route as many payments as possible to collect fees, which requires a good distribution of liquidity on both sides of the channels to ensure routing capacity.
+reviewed: false

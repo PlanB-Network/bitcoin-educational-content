@@ -1,0 +1,9 @@
+question: Giới hạn của chủ quyền nhà nước theo John Stuart Mill là gì?
+answer: Nhà nước chỉ có thể can thiệp khi hành động của một cá nhân gây hại cho người khác.
+wrong_answers:
+  - Nhà nước có chủ quyền trong mọi hoàn cảnh và không thể bị giới hạn bởi bất kỳ cá nhân hoặc nhóm cá nhân nào.
+  - Chủ quyền nhà nước bị giới hạn bởi phương tiện kinh tế.
+  - Chủ quyền nhà nước bị giới hạn bởi các quy luật của tự nhiên.
+explanation: |
+  John Stuart Mill cho rằng sự can thiệp của nhà nước chỉ hợp lệ khi hành động của một cá nhân gây hại cho người khác, nhằm bảo vệ tự do cá nhân trong các lĩnh vực không gây hại cho người khác.
+reviewed: false

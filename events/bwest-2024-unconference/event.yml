@@ -1,0 +1,22 @@
+- start_date: 2024-11-16 10:00:00
+  end_date: 2024-11-16 17:00:00
+  timezone: Europe/London
+  address_line_1: bristol, England
+  address_line_2:
+  address_line_3:
+  name: BWEST 2024 Mini Unconference
+  builder:
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Empowering individuals & communities with Bitcoin.
+  language:
+    - en
+  links:
+    website: https://bitcoinbristol.org/#conference
+    replay_url:
+    live_url:
+  tags:
+    - decentralization
+    - keys

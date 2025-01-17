@@ -1,0 +1,12 @@
+question: V jakých oborech vyvolává Bitcoin otázky?
+answer: Kryptografie, teorie her, ekonomie a měnová politika, informatika, filozofie, energetika, právo a regulace.
+wrong_answers:
+  - Pouze informatika a ekonomie
+  - Pouze kryptografie a teorie her.
+  - Pouze filozofie a energetika.
+explanation: |
+  Bitcoin je multidisciplinární téma, které vyvolává
+  otázky související s různými obory, včetně
+  kryptografie, teorie her, ekonomie a měnové politiky,
+  informatiky, filozofie, energetiky, práva a regulace.
+reviewed: true

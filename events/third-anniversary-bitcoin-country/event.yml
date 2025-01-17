@@ -1,0 +1,25 @@
+- start_date: 2024-09-08
+  end_date: 2024-09-08
+  address_line_1:  El Zonte, El Salvador
+  address_line_2: Palo Verde Sustainable Hotel
+  address_line_3: 
+  name: 3er Anniversary Bitcoin Country
+  builder: Bitcoin Beach
+  type: meetup
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Join us in celebrating the 3rd anniversary of Bitcoin Country! On September 7th at 5:00 pm
+  language: 
+    - en
+    - es
+  links:
+    website: https://www.eventbrite.com/e/3er-anniversary-bitcoin-country-tickets-995424791347
+    replay_url:
+    live_url :
+  tags: 
+    - El Salvador
+    - bitcoiner
+    - mining
+
+

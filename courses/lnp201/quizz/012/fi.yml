@@ -1,0 +1,9 @@
+question: Milloin Lightning-kanava on virallisesti avattu?
+answer: Kun talletustransaktio on vahvistettu Bitcoin-lohkoketjussa
+wrong_answers:
+  - Heti kun osapuolten välillä on vaihdettu julkiset avaimet
+  - Kun molemmat osapuolet ovat allekirjoittaneet nostotransaktion
+  - Heti kun 2/2 multisignature-osoite on luotu
+explanation: |
+  Kanava katsotaan avatuksi, kun talletustransaktio on sisällytetty Bitcoin-lohkoon ja se on saavuttanut tietyn määrän vahvistuksia.
+reviewed: false

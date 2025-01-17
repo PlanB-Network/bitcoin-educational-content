@@ -1,9 +1,0 @@
-question: ¿Cuál es el uso recomendado de una billetera móvil?
-answer: Para gastos diarios
-wrong_answers:
-  - Para ahorros a largo plazo
-  - Para ahorros a mediano plazo
-  - Para grandes cantidades
-explanation: |
-  Se recomienda utilizar una billetera móvil para gastos diarios debido a que es fácil realizar transacciones con ella. Sin embargo, no se recomienda para almacenar grandes cantidades o para ahorros a largo plazo, ya que potencialmente es vulnerable a amenazas en línea.
-reviewed: false

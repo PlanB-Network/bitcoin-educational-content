@@ -1,0 +1,9 @@
+question: Mis on sotsiaalse korralduse peamine ajend Bastiati järgi?
+answer: Turg
+wrong_answers:
+  - Riik
+  - Religioon
+  - Traditsioon
+explanation: |
+  Bastiat usub, et vaba turg on tõeline sotsiaalse korralduse ajend, kuna see võimaldab spontaanset ja tõhusat koordineerimist inimeste vahel.
+reviewed: false

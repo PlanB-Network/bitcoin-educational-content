@@ -1,0 +1,13 @@
+question: Co je to platforma DCA?
+answer: Služba, která umožňuje uživatelům investovat pevnou částku peněz do aktiva v pravidelných intervalech.
+wrong_answers:
+  - Typ kryptoměnové burzy, která umožňuje obchodování pouze s Bitcoinem.
+  - Finanční služba, která poskytuje půjčky investorům pro obchodování s marží.
+  - Softwarový nástroj, který sleduje ceny akcií v reálném čase bez jakýchkoli investičních funkcí.
+explanation: |
+  Platforma DCA odkazuje na platformu, která usnadňuje
+  Průměrování nákladů v dolarech (DCA), investiční strategii, kde
+  jednotlivec investuje pevnou částku peněz do
+  konkrétního aktiva v pravidelných intervalech, bez ohledu na
+  cenu aktiva.
+reviewed: true

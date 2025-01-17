@@ -1,0 +1,64 @@
+id: 7fff3c2b-1d95-4fdc-b0c4-13dbb41ec3b3
+chapterId: 9d9a5908-2acc-501e-906b-a6fce9ecfebd
+difficulty: hard
+duration: 45
+author: DecouvreBitcoin
+tags:
+  - Bitcoin
+  - Mining
+  - Challenges
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2684
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2592
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1296
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2638
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2684
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2592
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2638
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2776
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2592
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2776

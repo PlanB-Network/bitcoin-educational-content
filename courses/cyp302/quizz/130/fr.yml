@@ -1,0 +1,9 @@
+question: Quel rôle jouent les autorités de certification dans le processus de distribution de clés publiques ?
+answer: Elles émettent des certificats qui garantissent l'authenticité des clés publiques
+wrong_answers:
+  - Elles génèrent les clés privées pour les utilisateurs
+  - Elles stockent les clés publiques pour tous les utilisateurs
+  - Elles assurent le chiffrement des messages entre utilisateurs
+explanation: |
+  Les autorités de certification délivrent des certificats qui lient une clé publique à son propriétaire, permettant aux utilisateurs de vérifier l'authenticité des clés publiques qu'ils utilisent.
+reviewed: false

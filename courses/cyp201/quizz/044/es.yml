@@ -1,0 +1,9 @@
+question: ¿Qué es la entropía en el contexto de la criptografía?
+answer: Una medida de imprevisibilidad asociada con un proceso aleatorio
+wrong_answers:
+  - Un método para encriptar datos sensibles
+  - Un algoritmo para calcular claves públicas
+  - Una técnica de compresión de datos
+explanation: |
+  En criptografía, la entropía cuantifica el nivel de incertidumbre o caos en una fuente aleatoria, esencial para generar claves seguras.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Apa penggunaan dompet seluler yang disarankan?
+answer: Untuk pengeluaran sehari-hari
+wrong_answers:
+  - Untuk tabungan jangka panjang
+  - Untuk tabungan jangka menengah
+  - Untuk jumlah besar
+explanation: |
+  Dompet seluler disarankan untuk pengeluaran sehari-hari karena mudah
+  untuk melakukan transaksi dengannya. Namun, tidak disarankan untuk menyimpan jumlah besar
+  atau untuk tabungan jangka panjang karena berpotensi rentan terhadap ancaman online.
+reviewed: true

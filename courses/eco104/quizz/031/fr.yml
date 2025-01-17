@@ -1,0 +1,11 @@
+question: Quelle est la raison principale de la volatilité à court terme des prix des stablecoins ?
+answer: Faibles niveaux de liquidité sur les échanges
+wrong_answers:
+  - Manque de réserves pour répondre aux demandes de retrait
+  - Piratages compromettant le stablecoin
+  - Décrochage des stablecoins
+explanation: |
+  La volatilité à court terme des prix des stablecoins est souvent le résultat
+  de problèmes de liquidité, où les petites bourses peuvent manquer de capacité
+  pour répondre aux demandes des clients, causant des fluctuations temporaires des prix.
+reviewed: true

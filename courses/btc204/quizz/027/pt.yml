@@ -1,0 +1,9 @@
+question: Qual técnica ajuda a proteger contra o risco de rastreamento induzido por KYC?
+answer: Transações Coinjoin
+wrong_answers:
+  - O uso de VPN
+  - O uso de um nó completo
+  - Validação por meio de prova de trabalho
+explanation: |
+  Coinjoins têm o efeito de quebrar o histórico de uma moeda, o que ajuda a contrapor o risco de rastreamento associado ao KYC.
+reviewed: false

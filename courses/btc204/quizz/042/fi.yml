@@ -1,0 +1,9 @@
+question: Näistä riskeistä, mikä ei liity käteisen P2P-vaihtoihin?
+answer: Riski tietovuodosta.
+wrong_answers:
+  - Riski henkilökohtaiseen turvallisuuteen.
+  - Varkauden riski.
+  - Lainmukaisuusriski.
+explanation: |
+  Käteisen P2P-vaihdot sisältävät monia riskejä, mutta niissä ei vaadita KYC: n suorittamista. Siksi tietovuodon riskiä ei ole.
+reviewed: false

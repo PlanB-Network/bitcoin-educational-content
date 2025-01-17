@@ -1,0 +1,63 @@
+id: 66fc2e8e-271c-4518-999f-9e9e0c8d8bda
+chapterId: c81cdb45-6aa9-5462-9835-c4852084b2cc
+difficulty: easy
+duration: 15
+author: DecouvreBitcoin
+tags:
+  - Bitcoin
+  - Characteristics
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2666
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2583
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1291
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2624
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2666
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2583
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2624
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2749
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2583
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2749

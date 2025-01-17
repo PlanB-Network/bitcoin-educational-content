@@ -1,0 +1,9 @@
+question: Quel algorithme de dérivation est utilisé pour calculer un code d'authentification basé sur une clé secrète ?
+answer: HMAC-SHA512
+wrong_answers:
+  - SHA512
+  - SHA256
+  - RIPEMD160
+explanation: |
+  HMAC-SHA512 est un algorithme combinant une fonction de hachage et une clé secrète pour calculer un code d'authentification.
+reviewed: false

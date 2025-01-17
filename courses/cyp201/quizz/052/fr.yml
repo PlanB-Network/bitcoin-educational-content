@@ -1,0 +1,9 @@
+question: Quel est l'intérêt d'un portefeuille d'appât utilisant une passphrase ?
+answer: Simuler un portefeuille avec une petite somme en cas de contrainte physique
+wrong_answers:
+  - Ajouter une sauvegarde automatique des transactions
+  - Générer une phrase mnémonique supplémentaire
+  - Protéger les UTXOs d'une double dépense
+explanation: |
+  Un portefeuille d'appât permet de détourner l'attention d'un agresseur en fournissant un accès à un portefeuille contenant une petite quantité de bitcoins.
+reviewed: false

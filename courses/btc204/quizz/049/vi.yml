@@ -1,0 +1,13 @@
+question: Tại sao toán tử XOR được sử dụng trong BIP47?
+
+answer: Để mã hóa đối xứng phần dữ liệu của mã thanh toán của người gửi.
+
+wrong_answers:
+  - Để mã hóa không đối xứng phần dữ liệu của mã thanh toán của người gửi.
+  - Để mã hóa đối xứng metadata của mã thanh toán của người gửi.
+  - Để mã hóa không đối xứng metadata của mã thanh toán của người gửi.
+
+explanation: |
+  Toán tử XOR được sử dụng để mã hóa đối xứng phần dữ liệu của mã thanh toán của người gửi trong BIP47.
+
+reviewed: false

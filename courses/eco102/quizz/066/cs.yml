@@ -1,0 +1,9 @@
+question: Jaké jsou dvě cesty k osvícení úsudku občanů podle Bastiata?
+answer: Filozofická morálka a ekonomická morálka
+wrong_answers:
+  - Zákon a vzdělání
+  - Náboženství a věda
+  - Osobní zkušenost a knihy
+explanation: |
+  Bastiat rozlišuje mezi filozofickou morálkou, která se dotýká srdce, a ekonomickou morálkou, která osvětluje intelekt tím, že ukazuje důsledky činů.
+reviewed: false

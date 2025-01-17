@@ -1,0 +1,9 @@
+question: Wie ermöglicht die Keysend-Technologie eine Geldüberweisung ohne Rechnung?
+answer: Der Sender generiert ein Geheimnis in den HTLCs, um die Mittel freizuschalten.
+wrong_answers:
+  - Der Empfänger generiert einen Hash, um die Überweisung zu validieren.
+  - Die Zahlung wird durch einen direkten Kanal zwischen Sender und Empfänger validiert.
+  - Die Mittel werden direkt ohne zusätzliche Sicherheit gutgeschrieben.
+explanation:
+  Keysend ermöglicht es dem Sender, ein Geheimnis in den HTLCs zu generieren, das es dem Empfänger ermöglicht, die Mittel freizuschalten, ohne eine Rechnung ausgestellt zu haben.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Was ist eine Standardmethode, um Ihr Wallet wiederherzustellen?
+answer: Eingabe Ihrer mnemonischen Phrase in eine beliebige Wallet-Software.
+wrong_answers:
+  - Speichern Ihrer mnemonischen Phrase in einer digitalen Datei.
+  - Schreiben Ihrer mnemonischen Phrase auf ein Whiteboard.
+  - Teilen Ihrer mnemonischen Phrase mit einem vertrauenswürdigen Freund.
+explanation: |
+  Die Standardmethode zum Sichern des privaten Schlüssels in einem
+  Bitcoin-Wallet besteht darin, Ihre mnemonische Phrase in eine
+  beliebige Wallet-Software einzugeben. Dies ermöglicht es Ihnen,
+  Ihr Wallet wiederherzustellen.
+reviewed: false

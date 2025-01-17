@@ -1,0 +1,9 @@
+question: Mitä sighash-lippu SIGHASH_NONE sallii?
+answer: Lähtöjen muokkaamisen allekirjoittamisen jälkeen
+wrong_answers:
+  - Syötteiden muokkaamisen allekirjoittamisen jälkeen
+  - Kaikkien syötteiden ja lähtöjen kattamisen
+  - Rajoittaa muokkaukset vain yhteen lähtöön
+explanation: |
+  SIGHASH_NONE kattaa vain syötteet, jättäen lähdöt muokattaviksi allekirjoittamisen jälkeen.
+reviewed: false

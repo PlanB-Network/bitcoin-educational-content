@@ -1,0 +1,9 @@
+question: Was ermöglicht die Dreiecksöffnungstechnik den teilnehmenden Knotenpunkten zu erreichen?
+answer: Eingehende und ausgehende Liquidität in jedem Kanal
+wrong_answers:
+  - Reduzierte Routing-Gebühren
+  - Eine unbegrenzte Anzahl von Transaktionen ohne Bestätigung
+  - Eine direkte Verbindung mit jedem anderen Netzwerkknoten
+explanation: |
+  Die Dreiecksöffnungstechnik ermöglicht es jedem Knotenpunkt, ausgeglichene Liquidität, sowohl eingehend als auch ausgehend, zu erreichen, indem ein Kreislauf von Kanälen unter mehreren Teilnehmern gebildet wird.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Quel est l'avantage principal de l'utilisation de portefeuilles non-custodial pour le stockage de bitcoin ?
+answer: Sécurité et confidentialité accrues
+wrong_answers:
+  - Accès facile au bitcoin
+  - Frais de transaction plus bas
+  - Pas besoin de mot de passe
+explanation: |
+  Les portefeuilles non-custodial sont ceux dont vous êtes le seul gardien de vos fonds,
+  ce qui signifie que vous avez un contrôle complet sur vos clés privées. Par conséquent,
+  les portefeuilles non-custodial offrent un niveau de sécurité et de confidentialité 
+  supérieur par rapport aux portefeuilles custodial puisque vous êtes le seul responsable de la sécurité de vos fonds.
+reviewed: true

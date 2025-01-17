@@ -1,0 +1,9 @@
+question: ¿Cuál es la regla principal respecto a los fondos que un participante puede enviar en un canal de pago?
+answer: Solo pueden enviar los fondos de su propio lado del canal.
+wrong_answers:
+  - Pueden enviar hasta la mitad de la capacidad total del canal.
+  - Pueden enviar cualquier cantidad, siempre y cuando haya un acuerdo previo.
+  - Pueden tomar prestados fondos del lado del otro participante si es necesario.
+explanation: |
+  Cada participante está limitado por la cantidad de satoshis que poseen en el canal para sus transacciones, asegurando que los fondos siempre estén cubiertos.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er en inndata i en transaksjon?
+answer: En referanse til en tidligere ubrukt UTXO.
+wrong_answers:
+  - Et bekreftelsessignal fra minerne.
+  - En ny blokk lagt til i blokkjeden.
+  - En verifiseringskode for å sikre transaksjonen.
+explanation: |
+  Hver transaksjonsinndata er en referanse til en UTXO, som betyr utdataen fra en tidligere transaksjon.
+reviewed: false

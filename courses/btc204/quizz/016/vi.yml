@@ -1,0 +1,9 @@
+question: Trong các câu trả lời dưới đây, đâu là một trong những mục tiêu chính của phân tích chuỗi?
+answer: Nhóm các hoạt động trên Bitcoin để xác định tính độc đáo của người dùng.
+wrong_answers:
+  - Tối ưu hiệu suất đào trên mạng lưới.
+  - Thực thi công lý trên giao thức để áp dụng luật pháp theo quy định của từng khu vực.
+  - Tăng tính bảo mật của các giao dịch Bitcoin.
+explanation: |
+  Một trong những mục tiêu của phân tích chuỗi là nhóm các hoạt động trên Bitcoin để xác định tính độc đáo của người dùng thực hiện chúng. Sau đó, có thể cố gắng liên kết nhóm hoạt động này với một danh tính thực.
+reviewed: false

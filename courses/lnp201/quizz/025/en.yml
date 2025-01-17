@@ -1,0 +1,9 @@
+question: What are the three methods of closing a channel on the Lightning Network?
+answer: Cooperative closure, forced closure, closure with cheating
+wrong_answers:
+  - Rapid closure, slow closure, closure with dual signature
+  - Secure closure, automated closure, closure with loss of funds
+  - Direct closure, indirect closure, closure with claim
+explanation: |
+  There are three methods: cooperative closure where the parties agree, forced closure without a response from one party, and closure with cheating where a party attempts to publish an old transaction.
+reviewed: false

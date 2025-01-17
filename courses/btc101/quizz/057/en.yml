@@ -1,0 +1,9 @@
+question: What was the inflation rate in Zimbabwe in November 2008?
+answer: 79,600,000,000%
+wrong_answers:
+  - 796%
+  - 79,600,000,000,000,000%
+  - 100%
+explanation: | 
+  In November 2008, Zimbabwe currency montly rate inflation peaked to 79,600,000,000%, which crushed the value of the Zimbabwian dollar to 0.
+reviewed: true

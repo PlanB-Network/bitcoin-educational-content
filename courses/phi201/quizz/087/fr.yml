@@ -1,0 +1,9 @@
+question: Selon Constant, quels sont les domaines dans lesquels le pouvoir politique n'a aucune influence ?
+answer: Tous les domaines mentionnés ci-dessus (religion, sciences, industrie).
+wrong_answers:
+  - La religion
+  - Les sciences
+  - L'industrie
+explanation: |
+  Constant estime que le pouvoir politique ne doit pas intervenir dans des domaines comme la religion, les sciences et l'industrie, afin de préserver la liberté individuelle et l'autonomie des activités humaines qui relèvent de la sphère privée.
+reviewed: false

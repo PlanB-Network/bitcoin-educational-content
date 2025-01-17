@@ -1,0 +1,13 @@
+question: Was ist das Hauptziel der Ricochet-Technik?
+
+answer: Die Spuren der Vergangenheit einer Münze zu verwischen
+
+wrong_answers:
+  - Das potenzielle Anonset von Transaktionen zu erhöhen
+  - Die Entropie einer Transaktion zu erhöhen
+  - In Zukunft weniger an Transaktionsgebühren zu zahlen
+
+explanation: |
+  Das Ziel eines Ricochets ist es, einen Eigentumswechsel einer Bitcoin-Münze zu simulieren, um deren Fungibilität wiederherzustellen, indem die Spuren ihrer Vergangenheit verwischt werden.
+
+reviewed: false

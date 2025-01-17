@@ -1,0 +1,9 @@
+question: Jaký je hlavní cíl kurzu?
+answer: Kurz si klade za cíl prozkoumat základní koncepty rakouské ekonomie.
+wrong_answers:
+  - Kurz si klade za cíl propagovat Keynesovu doktrínu.
+  - Kurz si klade za cíl vysvětlit fungování centrálních bank.
+  - Kurz si klade za cíl propagovat centralizaci měnové moci.
+explanation: |
+  Kapitola uvádí, že kurz si klade za cíl prozkoumat základní koncepty rakouské ekonomie.
+reviewed: false

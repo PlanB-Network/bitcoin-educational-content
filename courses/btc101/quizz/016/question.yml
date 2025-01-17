@@ -1,0 +1,63 @@
+id: 23566294-ed60-4167-a990-f57d2cce3e7f
+chapterId: 9a94b627-5b69-5d81-9125-f1fa9b0aa6ad
+difficulty: hard
+duration: 45
+author: DecouvreBitcoin
+tags:
+  - Bitcoin History
+  - Bitcoin Whitepaper
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2696
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2598
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1299
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2647
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2696
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2598
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2647
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2794
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2598
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2794

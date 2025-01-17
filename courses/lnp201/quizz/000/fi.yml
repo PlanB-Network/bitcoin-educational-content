@@ -1,0 +1,9 @@
+question: Mikä on Lightning Networkin päätavoite?
+answer: Parantaa Bitcoinin skaalautuvuutta mahdollistamalla nopeat ja edulliset maksut
+wrong_answers:
+  - Poistaa transaktiomaksut Bitcoin-lohkoketjussa
+  - Luoda vaihtoehto Bitcoinille suurten arvojen maksuihin
+  - Yksinkertaistaa vaihtoja eri kryptovaluuttojen välillä
+explanation: |
+  Lightning Network pyrkii parantamaan Bitcoinin skaalautuvuutta mahdollistamalla nopeat ja edulliset transaktiot off-chain maksukanavien kautta.
+reviewed: false

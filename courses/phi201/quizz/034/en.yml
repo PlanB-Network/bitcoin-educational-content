@@ -1,0 +1,9 @@
+question: What is the difference between natural law and positive law according to Roman thought?
+answer: Natural law is universal and immutable, while positive law is variable and depends on human laws.
+wrong_answers:
+  - Natural law is the law of the powerful while positive law is the law of the weak.
+  - Natural law is based on religion while positive law is based on reason.
+  - Natural law applies only to Roman citizens while positive law applies to all inhabitants of the Empire.
+explanation: |
+  In Roman thought, natural law is considered universal and unalterable, stemming from immutable principles, whereas positive law is a set of rules established by humans and subject to change according to social and political contexts.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Který německý těžař držel několik měsíců v roce 2010 20% hash rate sítě Bitcoin?
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+  Během léta 2010 si zřídil farmu na těžbu složenou z grafických karet (nazvanou ArtFarm), čímž získal významný náskok před svými konkurenty na podzim.

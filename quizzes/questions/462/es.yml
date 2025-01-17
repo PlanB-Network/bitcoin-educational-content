@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de BIP43 y BIP44 en el ecosistema de Bitcoin?
-answer: Estandarizaron la estructura y jerarquía de las carteras HD.
-wrong_answers:
-  - Introdujeron la frase mnemotécnica de 24 palabras.
-  - Revolucionaron la forma en que se generan y almacenan las claves.
-  - Propusieron agregar una frase de contraseña adicional para reforzar la seguridad de las claves individuales.
-explanation: |
-  BIP43 y BIP44 estandarizaron la estructura y jerarquía de las carteras HD, haciéndolas más accesibles y fáciles de usar para el público en general.
-reviewed: false

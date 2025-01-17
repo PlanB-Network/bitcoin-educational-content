@@ -1,0 +1,9 @@
+question: Which sighash flag allows for crowdfunding by covering a single input and all outputs?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL combined with SIGHASH_ANYONECANPAY allows adding inputs without modifying the outputs.
+reviewed: false

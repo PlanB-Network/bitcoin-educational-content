@@ -1,0 +1,12 @@
+question: Was ist der Status von Bitcoin in El Salvador?
+answer: Gesetzliches Zahlungsmittel.
+wrong_answers:
+  - Kriminalisiert.
+  - Unbekannt.
+  - Unreguliert.
+explanation: |
+  Der Kursinhalt erwähnt, dass einige Länder die Verwendung von Bitcoin verboten
+  und kriminalisiert haben, was die Komplexität der Bitcoin-Adoption basierend auf Kulturen, Epochen und
+  Nationen erhöht. El Salvador war jedoch mutig genug, es
+  als gesetzliches Zahlungsmittel zu adoptieren.
+reviewed: true

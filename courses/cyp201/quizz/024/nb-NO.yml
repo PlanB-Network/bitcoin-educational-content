@@ -1,0 +1,9 @@
+question: Hva er størrelsen på en rå privatnøkkel brukt i Bitcoin?
+answer: 256 bits
+wrong_answers:
+  - 128 bits
+  - 512 bits
+  - 1024 bits
+explanation: |
+  En privatnøkkel i Bitcoin er et 256-bits tilfeldig heltall, noe som sikrer et nøkkelrom stort nok til å garantere sikkerhet.
+reviewed: false

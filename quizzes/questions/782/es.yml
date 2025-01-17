@@ -1,9 +1,0 @@
-question: ¿Cuál es la principal ventaja de minar bitcoins vírgenes?
-answer: Nunca han sido gastados y no tienen historial asociado a ellos.
-wrong_answers:
-  - Pueden ser vendidos a un precio más alto.
-  - Pueden ser utilizados para actividades ilegales.
-  - Pueden ser almacenados durante mucho tiempo sin perder valor.
-explanation: |
-  La principal ventaja de minar bitcoins vírgenes es que nunca han sido gastados y no tienen historial asociado a ellos. Estos bitcoins a menudo se consideran más valiosos porque nunca han sido "contaminados", lo que proporciona cierta garantía contra el rechazo por parte de reguladores o plataformas de intercambio importantes.
-reviewed: false

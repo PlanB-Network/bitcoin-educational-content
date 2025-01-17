@@ -1,9 +1,0 @@
-question: Was ist die Bedeutung der Energiekosten beim Bitcoin-Mining?
-answer: Der Energieverbrauch ist notwendig, um die Informationen zu produzieren, aber die Überprüfung der Informationen hat nur geringe Kosten. Diese Asymmetrie gewährleistet die Sicherheit des Netzwerks.
-wrong_answers:
-  - Die Energiekosten sind notwendig, um die im Mining verwendeten ASIC-Maschinen mit Strom zu versorgen.
-  - Die Energiekosten sind notwendig, um das Bitcoin-Netzwerk aufrechtzuerhalten.
-  - Die Energiekosten sind notwendig, um neue Bitcoins zu erstellen.
-explanation: |
-  Die Energiekosten beim Bitcoin-Mining sind ein entscheidender Aspekt der Netzwerksicherheit. Die hohen Energiekosten beim Mining machen es extrem teuer für einen bösartigen Akteur, die Blockchain zu manipulieren, während die geringen Kosten für die Überprüfung von Transaktionen sicherstellen, dass jeder am Netzwerk teilnehmen kann.
-reviewed: false

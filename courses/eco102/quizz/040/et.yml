@@ -1,0 +1,9 @@
+question: Mis on protektsionism Bastiati järgi?
+answer: Majandusliku rahvusluse vorm, mille eesmärk on piirata väliskonkurentsi
+wrong_answers:
+  - Majanduspoliitika, mille eesmärk on edendada rahvusvahelist kaubandust
+  - Strateegia tarbija ostujõu suurendamiseks
+  - Meede väikeste kohalike ettevõtete toetamiseks
+explanation: |
+  Bastiat kirjeldab protektsionismi kui majanduslikku rahvuslust, mis püüab kaitsta rahvuslikke huve, piirates väliskonkurentsi.
+reviewed: false

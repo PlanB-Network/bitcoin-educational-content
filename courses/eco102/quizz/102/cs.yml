@@ -1,0 +1,9 @@
+question: Jaké funkce by měl stát plnit podle Bastiata?
+answer: Vnitřní bezpečnost, vnější bezpečnost a spravedlnost
+wrong_answers:
+  - Regulace, redistribuce a spravedlnost
+  - Bezpečnost, spravedlnost a rovnost
+  - Vzdělávání, zdravotnictví a spravedlnost
+explanation: |
+  Bastiat obhajuje omezenou roli státu na funkce vnitřní a vnější bezpečnosti a spravedlnosti, aby chránil přirozená práva jednotlivců.
+reviewed: false

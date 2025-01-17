@@ -1,0 +1,9 @@
+question: Quais são as práticas recomendadas para uma segurança ótima com autenticação forte?
+answer: Use um endereço de email seguro, um gerenciador de senhas seguro e adote 2FA usando YubiKeys.
+wrong_answers:
+  - Use uma senha comum para todas as contas e evite 2FA
+  - Use uma senha simples e confie em dados biométricos para 2FA
+  - Use um endereço de email seguro, mas evite gerenciadores de senhas e 2FA
+explanation: |
+  Para uma segurança ótima, é recomendado usar um endereço de email seguro, um gerenciador de senhas seguro e adotar 2FA usando YubiKeys. Também é aconselhável adquirir dois YubiKeys para antecipar perda ou roubo.
+reviewed: true

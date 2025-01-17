@@ -1,0 +1,9 @@
+question: How many bits is the checksum for an entropy of 128 bits?
+answer: 4 bits
+wrong_answers:
+  - 8 bits
+  - 16 bits
+  - 6 bits
+explanation: |
+  The length of the checksum is calculated using the formula CS = ENT / 32, which equals 4 bits for an entropy of 128 bits.
+reviewed: false

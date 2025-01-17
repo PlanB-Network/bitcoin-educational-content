@@ -1,0 +1,9 @@
+question: Kuinka monta bittiä entropiaa käytetään 24 sanan muistilauseessa?
+answer: 256 bittiä
+wrong_answers:
+  - 128 bittiä
+  - 512 bittiä
+  - 64 bittiä
+explanation: |
+  24 sanan muistilause perustuu 256 bittiin entropiaa, varmistaen erittäin korkean turvallisuuden.
+reviewed: false

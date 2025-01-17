@@ -1,0 +1,9 @@
+question: Mis on hüperinflatsiooni lävi Philip Cagan'i definitsiooni järgi?
+answer: Kuine inflatsioon ületab 50%
+wrong_answers:
+  - Kuine inflatsioon ületab 40%
+  - Kuine inflatsioon ületab 60%
+  - Kuine inflatsioon ületab 70%
+explanation: |
+  Philip Cagan'i definitsiooni järgi algab hüperinflatsioon, kui kuu inflatsioon ületab 50%.
+reviewed: false

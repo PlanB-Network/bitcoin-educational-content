@@ -1,9 +1,0 @@
-question: Quais são alguns dos aspectos do conhecimento de rede necessários em cibersegurança?
-answer: TCP/IP, VPN, firewall
-wrong_answers:
-  - HTTP, FTP, SMTP
-  - POP3, IMAP, SSH
-  - DHCP, DNS, ARP
-explanation: |
-  O capítulo menciona TCP/IP, VPN e firewall como alguns dos aspectos do conhecimento de rede necessários em cibersegurança.
-reviewed: false

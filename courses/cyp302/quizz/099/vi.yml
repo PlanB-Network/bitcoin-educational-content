@@ -1,0 +1,9 @@
+question: Chức năng chính của Mã Xác Thực Tin Nhắn (MAC) là gì?
+answer: Đảm bảo tính xác thực và toàn vẹn của tin nhắn
+wrong_answers:
+  - Mã hóa tin nhắn để đảm bảo tính bảo mật
+  - Ngăn chặn việc nghe trộm tin nhắn
+  - Tạo khóa riêng cho mỗi lần giao tiếp
+explanation: |
+  MAC là một phương pháp mã hóa cho phép xác minh rằng một tin nhắn thực sự đến từ người gửi hợp pháp và không bị thay đổi, từ đó đảm bảo tính xác thực và toàn vẹn của tin nhắn.
+reviewed: false

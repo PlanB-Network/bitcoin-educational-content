@@ -1,0 +1,9 @@
+question: In which unit is the network's hash rate measured during the second half of the year 2010?
+answer: In GH/s
+wrong_answers:
+  - In MH/s
+  - In TH/s
+  - In PH/s
+explanation: |
+  The hash rate increased from 1.35 GH/s on July 13 to 120 GH/s on December 31, 2010.
+reviewed: false

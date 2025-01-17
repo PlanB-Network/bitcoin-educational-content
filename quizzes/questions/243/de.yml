@@ -1,9 +1,0 @@
-question: Wie könnte das Lightning-Netzwerk potenziell für die Vermietung von Gütern verwendet werden?
-answer: Benutzer könnten pro Minute oder sogar pro Sekunde für die Zeit, in der sie die Güter nutzen, berechnet werden.
-wrong_answers:
-  - Benutzer könnten eine Pauschalgebühr für die Vermietung der Güter zahlen.
-  - Benutzer könnten basierend auf dem Wert der Güter berechnet werden.
-  - Benutzer könnten basierend auf dem Zustand der Güter berechnet werden.
-explanation: |
-  Mit dem Lightning-Netzwerk ist es denkbar, dieses System für die Vermietung von Gütern zu verwenden. Benutzer könnten pro Minute oder sogar pro Sekunde für die Zeit, in der sie die Güter nutzen, berechnet werden.
-reviewed: false

@@ -1,0 +1,12 @@
+question: What is the strategy used by central entities to devalue a fiat currency?
+answer: They increase the monetary mass by a few percent each year.
+wrong_answers:
+  - They decrease monetary mass by a few percent each year.
+  - They keep its monetary mass constant compared to the initial mass.
+  - They have its monetary mass randomly fluctuate in comparison to the initial mass.
+explanation: |
+  Central entities often devalue a currency by increasing its
+  monetary mass compared to the initial one by a few percent
+  each year. This silent devaluation is often justified as
+  being in the interest of the people.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Qual é a diferença entre phusis e nomos?
+answer: Phusis é a lei da natureza, nomos é a lei humana.
+wrong_answers:
+  - Phusis é a lei dos deuses, nomos é a lei dos homens.
+  - Phusis é a lei dos fracos, nomos é a lei dos fortes.
+  - Phusis é a lei da antiguidade, nomos é a lei dos tempos modernos.
+explanation: |
+  Na filosofia grega, phusis refere-se às leis naturais ou aquelas inerentes à natureza, independentes das ações humanas, enquanto nomos refere-se às leis humanas, criadas pelas sociedades para regular a vida em comunidade.
+reviewed: false

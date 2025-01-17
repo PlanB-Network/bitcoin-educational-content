@@ -1,0 +1,9 @@
+question: Quel est l'impact d'une augmentation de la masse monétaire sur l'inflation et la déflation dans une économie où la production augmente ?
+answer: Une augmentation de la masse monétaire annule la déflation potentielle causée par une augmentation de la production.
+wrong_answers:
+  - Une augmentation de la masse monétaire entraîne une déflation.
+  - Une augmentation de la masse monétaire n'a aucun impact sur l'inflation ou la déflation.
+  - Une augmentation de la masse monétaire entraîne une diminution de la production.
+explanation: |
+  Le chapitre explique que dans un système à offre monétaire fixe, une augmentation de la production devrait théoriquement entraîner une déflation, c'est-à-dire une baisse des prix, car il y aurait plus de biens et de services disponibles. Cependant, dans le système monétaire fiduciaire actuel, une augmentation de la masse monétaire annule la déflation potentielle causée par une augmentation de la production.
+reviewed: false

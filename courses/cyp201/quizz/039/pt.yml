@@ -1,0 +1,9 @@
+question: Qual é a principal função de uma carteira Bitcoin?
+answer: Gerenciar e proteger chaves privadas
+wrong_answers:
+  - Armazenar os bitcoins do usuário
+  - Garantir automaticamente a confidencialidade das transações
+  - Gerar bitcoins para cada usuário
+explanation: |
+  Uma carteira Bitcoin não armazena diretamente os bitcoins, mas gerencia as chaves privadas necessárias para desbloquear os UTXOs que representam os bitcoins.
+reviewed: false

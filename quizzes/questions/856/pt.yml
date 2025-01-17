@@ -1,9 +1,0 @@
-question: Qual é a prática recomendada para gerenciar a senha mestra de um gerenciador de senhas?
-answer: Anote-a em papel e mantenha em um local oculto e seguro.
-wrong_answers:
-  - Armazene-a em seu e-mail.
-  - Use a mesma senha para todas as contas.
-  - Memorize-a.
-explanation: |
-  É recomendado anotar a senha mestra de um gerenciador de senhas em papel, mas ela deve ser mantida em um local oculto e seguro. Isso ocorre porque, se o disco rígido estiver criptografado e o computador estiver bloqueado, a senha não será acessível, mesmo em caso de roubo.
-reviewed: false

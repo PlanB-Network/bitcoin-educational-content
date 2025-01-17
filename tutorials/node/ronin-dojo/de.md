@@ -3,7 +3,13 @@ name: RoninDojo
 
 description: Installieren und nutzen Sie Ihren eigenen Bitcoin RoninDojo-Knoten.
 ---
-**ACHTUNG: Obwohl dieses Tutorial für die Installation von RoninDojo v1 noch funktioniert, ermöglicht es nicht, Ihren Knoten auf RoninDojo v2 zu aktualisieren. Obwohl diese Version noch funktioniert, wird sie nicht mehr aktualisiert. Um von den neuesten Verbesserungen und Funktionen zu profitieren, empfehle ich Ihnen dringend, unser spezielles Tutorial für die direkte Installation von RoninDojo v2 auf Ihrem Raspberry Pi zu konsultieren:** [https://planb.network/tutorials/privacy/ronin-dojo-v2](https://planb.network/tutorials/privacy/ronin-dojo-v2)
+***WARNUNG:** Nach der Verhaftung der Gründer von Samourai Wallet und der Beschlagnahme ihrer Server am 24. April sind bestimmte Funktionen von RoninDojo, wie Whirlpool, nicht mehr funktionsfähig. Es besteht jedoch die Möglichkeit, dass diese Werkzeuge in den kommenden Wochen wieder in Betrieb genommen oder anders neu gestartet werden. Da der Code von RoninDojo auf dem GitLab von Samourai gehostet wurde, das ebenfalls beschlagnahmt wurde, ist es derzeit nicht möglich, den Code aus der Ferne herunterzuladen. Die Teams von RoninDojo arbeiten wahrscheinlich an einer erneuten Veröffentlichung des Codes.*
+
+_Wir verfolgen die Entwicklungen in diesem Fall sowie die Entwicklungen bezüglich der zugehörigen Tools genau. Seien Sie versichert, dass wir dieses Tutorial aktualisieren werden, sobald neue Informationen verfügbar sind._
+
+_Dieses Tutorial wird nur zu Bildungs- und Informationszwecken bereitgestellt. Wir befürworten oder ermutigen die Verwendung dieser Tools zu kriminellen Zwecken nicht. Es liegt in der Verantwortung jedes Benutzers, die Gesetze in seiner Gerichtsbarkeit zu beachten._
+
+_Dieses Tutorial ist der Installation von RoninDojo v1 gewidmet. Um die neuesten Verbesserungen und Funktionen zu nutzen, empfehle ich Ihnen dringend, unser Tutorial zur direkten Installation von RoninDojo v2 auf Ihrem Raspberry Pi zu konsultieren:_ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 
@@ -426,7 +432,7 @@ Mit anderen Worten, dieser Indikator repräsentiert die Anzahl möglicher Interp
 
 ![Schema einer Coinjoin-Transaktion auf kycp.org](assets/32.webp)
 
-Quelle: https://kycp.org/#/fe5e5abab7ea452f87603f7ebc2fa4e77380eafcc927e1cb51e1a72401ab073d
+Quelle: KYCP
 
 2. Der zweite berechnete Indikator ist die Entropie einer Transaktion ("Entropy"). Da die Anzahl möglicher Kombinationen für eine Transaktion sehr hoch sein kann, kann man sich entscheiden, stattdessen die Entropie zu verwenden. Die Entropie repräsentiert den binären Logarithmus der Anzahl möglicher Kombinationen. Die Formel lautet wie folgt:
 
@@ -459,7 +465,7 @@ Nehmen wir ein weiteres Beispiel. Hier ist eine "klassische" Transaktion mit ein
 
 ![Bitcoin-Transaktionsschema auf oxt.me](assets/34.webp)
 
-Quelle: https://oxt.me/graph/transaction/tiid/9815286
+Quelle: OXT
 
 Diese Transaktion hat nur eine mögliche Interpretation:
 
@@ -518,12 +524,14 @@ Die fünfte Information, die vom Boltzmann-Rechner bereitgestellt wird, ist die 
 
 Wenn wir unser Beispiel mit einem Whirlpool Coinjoin nehmen, sieht die Wahrscheinlichkeitstabelle wie folgt aus:
 
-| Eingang | Ausgang 0 | Ausgang 1 | Ausgang 2 | Ausgang 3 | Ausgang 4 |
-| ------- | --------- | --------- | --------- | --------- | --------- | --- | --- | --- | --- | --- | --- | --- |
-| 0       | 34%       | 34%       | 34%       | 34%       | 34%       |
-| 1       | 34%       | 34%       | 34%       | 34%       | 34%       |
-| 2       | 34%       | 34%       | 34%       | 34%       | 34%       |
-| 3       | 34%       | 34%       | 34%       | 34%       | 34%       |     | 4   | 34% | 34% | 34% | 34% | 34% |
+| %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
+|---------|----------|----------|----------|----------|----------|
+| Input 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 1 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
 
 Hier sehen wir, dass jeder Input die gleiche Wahrscheinlichkeit hat, mit jedem Output verbunden zu sein.
 
@@ -666,14 +674,11 @@ Um mehr über RoninDojo zu erfahren, empfehle ich Ihnen, die unten stehenden ext
 
 ### Externe Ressourcen:
 
-- https://samouraiwallet.com/dojo
 - https://ronindojo.io/index.html
 - https://wiki.ronindojo.io/en/home
-- https://code.samourai.io/ronindojo/RoninDojo
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
-- https://oxt.me/
-- https://kycp.org/#/
 - https://fr.wikipedia.org/wiki/Formule_de_Boltzmann
 - https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/
+

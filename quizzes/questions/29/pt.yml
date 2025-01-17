@@ -1,9 +1,0 @@
-question: Qual é a evolução da moeda?
-answer: Pedra bruta -> Moeda -> Nota bancária -> Cartão bancário -> Blockchain -> Lightning Network
-wrong_answers:
-  - Pedra bruta -> Moeda -> Nota bancária -> Blockchain -> Lightning Network
-  - Pedra bruta -> Moeda -> Nota bancária -> Cartão bancário -> Lightning Network
-  - Pedra bruta -> Moeda -> Nota bancária -> Cartão bancário -> Blockchain
-explanation: |
-  A moeda, como qualquer tecnologia, evoluiu da pedra bruta para a moeda metálica, depois para a nota bancária, o cartão bancário e, finalmente, as redes peer-to-peer com a blockchain do Bitcoin e a Lightning Network.
-reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuándo se publica una transacción de compromiso en la blockchain de Bitcoin?
+answer: Eventualmente cuando el canal se cierra
+wrong_answers:
+  - Inmediatamente después de cada transferencia en el canal
+  - Antes de cada nueva transacción de compromiso
+  - Cuando los fondos disponibles se agotan
+explanation: |
+  Las transacciones de compromiso se construyen y firman para cada cambio en la asignación, pero solo se publican eventualmente en la blockchain en el evento de cierre del canal.
+reviewed: false

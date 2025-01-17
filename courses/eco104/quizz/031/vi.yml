@@ -1,0 +1,9 @@
+question: Nguyên nhân chính gây ra biến động giá ngắn hạn ở stablecoin là gì?
+answer: Mức độ thanh khoản thấp trên các sàn giao dịch
+wrong_answers:
+  - Thiếu dự trữ để đáp ứng nhu cầu rút tiền
+  - Các cuộc tấn công làm ảnh hưởng đến stablecoin
+  - Stablecoin mất giá
+explanation: |
+  Biến động giá ngắn hạn ở stablecoin thường là kết quả của vấn đề thanh khoản, nơi mà các sàn giao dịch nhỏ hơn có thể không có khả năng đáp ứng nhu cầu của khách hàng, gây ra sự biến động giá tạm thời.
+reviewed: false

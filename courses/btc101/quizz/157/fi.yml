@@ -1,0 +1,14 @@
+question: Mikä on Bysantin kenraalien ongelma?
+answer: Se on ongelma tiedon koordinoinnissa järjestelmässä, jossa eri toimijoita ei voida luottaa.
+wrong_answers:
+  - Se on ongelma transaktioiden vahvistamisessa hajautetussa verkossa.
+  - Se on ongelma estää kaksoiskulutus digitaalisessa valuutassa.
+  - Se on ongelma yhteisymmärryksen ylläpitämisessä keskitetyssä verkossa.
+explanation: |
+  Bysantin kenraalien ongelma on klassinen ongelma
+  hajautetussa laskennassa, joka käsittää yhteisymmärryksen
+  saavuttamisen verkossa, jossa jotkut solmuista voivat olla viallisia tai
+  ilkeämielisiä. Bitcoin ratkaisee tämän ongelman käyttämällä
+  lohkoketjua, joka perustuu Proof of Work -menetelmään, mikä varmistaa, että kaikki
+  solmut ovat yhtä mieltä transaktiohistorian tilasta.
+reviewed: true

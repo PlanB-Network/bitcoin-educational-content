@@ -1,0 +1,11 @@
+question: Hva var den opprinnelige vekslingskursen for den zimbabwiske dollaren da den ble
+  introdusert i 1980?
+answer: To zimbabwiske dollar var verdt omtrent 1.60 amerikanske dollar
+wrong_answers:
+  - En zimbabwisk dollar var verdt omtrent 1 amerikansk dollar
+  - En zimbabwisk dollar var verdt omtrent 2 amerikanske dollar
+  - To zimbabwiske dollar var verdt omtrent 2 amerikanske dollar
+explanation: |
+  Zimbabwe oppnådde uavhengighet i 1980 og introduserte den zimbabwiske dollaren.
+  Opprinnelig var to zimbabwiske dollar verdt omtrent 1.60 amerikanske dollar.
+reviewed: false

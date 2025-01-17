@@ -1,0 +1,10 @@
+question: Hva er hovedårsaken til at man mister bitcoins ifølge kapittelet?
+answer: Dårlig håndtering av nettsikkerhet
+wrong_answers:
+  - Kryptovalutasvindel
+  - Finansielle svindler
+  - Datamaskinfeil
+explanation: |
+  Kapittelet nevner at i tillegg til kryptovalutasvindel og finansielle
+
+  svindler, er hovedårsaken til at man mister bitcoins relatert til dårlig håndtering av nettsikkerhet.

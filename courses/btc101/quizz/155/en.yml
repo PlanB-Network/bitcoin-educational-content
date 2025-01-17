@@ -1,0 +1,9 @@
+question: What is the coinbase transaction?
+answer: The first transaction of the block that includes the miner's reward.
+wrong_answers:
+  - A transaction carried out on the exchange Coinbase.
+  - The second transaction of the block that includes the highest fees.
+  - A transaction carried out by the miner after he receives the reward.
+explanation: >-
+  The coinbase transaction is always the first transaction of a block. It includes the miner's reward for performing the validator's work.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Was ist eine praktische Methode, um Bitcoins zu erhalten?
+answer: Durch den Kauf über regulierte oder unregulierte Plattformen.
+wrong_answers:
+  - Sie durch den Einsatz eines Laptops zu minen.
+  - Sie in der physischen Welt zu finden.
+  - Sie mit einer speziellen Software zu erstellen.
+explanation: |
+  Der Text erwähnt, dass Nutzer Bitcoins erhalten können,
+  indem sie diese für Handel akzeptieren oder durch den Kauf
+  über regulierte oder unregulierte Plattformen.
+reviewed: true

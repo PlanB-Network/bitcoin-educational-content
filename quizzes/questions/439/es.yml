@@ -1,9 +1,0 @@
-question: ¿Cuál es la importancia de la irreversibilidad de la función ECDSA en la seguridad de las billeteras de Bitcoin?
-answer: Es imposible recuperar la clave privada a partir de la clave pública.
-wrong_answers:
-  - Es posible recuperar la clave privada a partir de la clave pública.
-  - Es posible recuperar la clave pública a partir de la clave privada.
-  - Es imposible recuperar la clave pública a partir de la clave privada.
-explanation: |
-  La función ECDSA es irreversible, lo que significa que es imposible recuperar la clave privada a partir de la clave pública. Esta irreversibilidad es la piedra angular de la seguridad de las billeteras de Bitcoin.
-reviewed: false

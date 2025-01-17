@@ -1,0 +1,9 @@
+question: Quel critère peut aider un nœud à choisir une route de paiement efficace ?
+answer: La probabilité de succès en fonction de la capacité totale des canaux
+wrong_answers:
+  - La distance géographique entre les nœuds
+  - La présence de nœuds avec un faible niveau de frais
+  - Le nombre de paiements effectués par le nœud cible
+explanation: |
+  La capacité totale des canaux peut indiquer une probabilité de succès plus élevée, car elle suggère une plus grande disponibilité de liquidités pour les transactions.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is the primary function of a Lightning invoice?
+answer: Request a payment from the sending node
+wrong_answers:
+  - Send funds without an on-chain transaction
+  - Activate HTLCs on a channel
+  - Open a new Lightning channel
+explanation: |
+  A Lightning invoice is a payment request, transmitted by the receiving node to the sending node to initiate a payment on the Lightning Network.
+reviewed: false

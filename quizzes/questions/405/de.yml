@@ -1,9 +1,0 @@
-question: Warum gelten SHA0, SHA1 und MD5 als veraltete Hash-Funktionen?
-answer: Sie haben ihre Kollisionsresistenz verloren.
-wrong_answers:
-  - Sie sind zu langsam in der Berechnung.
-  - Sie erzeugen zu große Fingerabdrücke.
-  - Sie sind nicht umkehrbar.
-explanation: |
-  SHA0, SHA1 und MD5 gelten als veraltete Hash-Funktionen, weil sie ihre Kollisionsresistenz verloren haben. Das bedeutet, dass es relativ einfach ist, zwei verschiedene Eingaben zu finden, die den gleichen Ausgabewert erzeugen, was ein erheblicher Sicherheitsmangel ist.
-reviewed: false

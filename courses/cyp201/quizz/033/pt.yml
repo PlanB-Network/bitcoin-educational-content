@@ -1,0 +1,9 @@
+question: O que a bandeira sighash SIGHASH_NONE permite?
+answer: Modificar as saídas após a assinatura
+wrong_answers:
+  - Modificar as entradas após a assinatura
+  - Cobrir todas as entradas e saídas
+  - Restringir modificações a apenas uma saída
+explanation: |
+  SIGHASH_NONE cobre apenas as entradas, deixando as saídas modificáveis após a assinatura.
+reviewed: false

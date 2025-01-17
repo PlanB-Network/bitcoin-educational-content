@@ -1,0 +1,9 @@
+question: Giai đoạn đầu tiên của hiện tượng lạm phát cực đoan là gì?
+answer: Mất niềm tin.
+wrong_answers:
+  - Sụp đổ của tiền tệ & tăng giá.
+  - Vòng luẩn quẩn của việc in tiền.
+  - Một đồng tiền mới xuất hiện.
+explanation: |
+  Giai đoạn đầu tiên của lạm phát cực đoan là sự mất niềm tin vào một đồng tiền.
+reviewed: true

@@ -1,9 +1,0 @@
-question: Wie oft wird die Belohnung für das Mining halbiert?
-answer: Alle 210.000 Blöcke
-wrong_answers:
-  - Alle 120.000 Blöcke
-  - Alle 540.000 Blöcke
-  - Alle 2.100.000 Blöcke
-explanation: |
-  Die Belohnung für das Mining ist so programmiert, dass sie alle 210.000 Blöcke halbiert wird, was ungefähr alle vier Jahre geschieht. Dieses Ereignis wird als "Halbierung" bezeichnet.
-reviewed: false

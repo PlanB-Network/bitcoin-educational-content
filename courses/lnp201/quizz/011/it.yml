@@ -1,0 +1,9 @@
+question: Perché Alice crea una transazione di prelievo prima di pubblicare la transazione di deposito?
+answer: Per recuperare i suoi fondi in caso di problemi con Bob
+wrong_answers:
+  - Per aumentare la capacità del canale con ogni transazione
+  - Per eseguire una transazione Lightning immediatamente dopo l'apertura
+  - Per permettere a Bob di spendere direttamente i fondi
+explanation: |
+  Alice crea una transazione di prelievo per recuperare i suoi fondi se si verifica un problema con Bob, garantendo così la sicurezza del suo deposito.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quais são os 3 principais passos de uma análise de blockchain?
+answer: Observar o blockchain, identificar características e deduzir hipóteses.
+wrong_answers:
+  - Coleta de dados, armazenamento seguro e relatório.
+  - Identificar usuários, regular trocas e proteger contra fraude.
+  - Coleta de dados, seleção aleatória e denúncia.
+explanation: |
+  A análise de blockchain envolve primeiramente acessar os dados do blockchain do Bitcoin, depois tentar identificar características nestes dados e, finalmente, fazer interpretações plausíveis.
+reviewed: false

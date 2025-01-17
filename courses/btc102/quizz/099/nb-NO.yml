@@ -1,0 +1,9 @@
+question: Hva er tankesettet til en paranoid Bitcoin-bruker når det kommer til å bruke Bitcoin?
+answer: Forsiktighet, sikkerhet og anonymitet er av største viktighet
+wrong_answers:
+  - Tillit, åpenhet og gjennomsiktighet er av største viktighet
+  - Risikotaking, tillit og åpenhet er av største viktighet
+  - Uvitenhet, tillit og gjennomsiktighet er av største viktighet
+explanation: |
+  Kapittelet beskriver tankesettet til en paranoid Bitcoin-bruker som ett hvor
+  forsiktighet, sikkerhet og anonymitet er av største viktighet.

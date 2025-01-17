@@ -1,9 +1,0 @@
-question: Qual è il ruolo di un Loop nella Lightning Network?
-answer: Un Loop è un nodo speciale che offre un servizio per riequilibrare LN/BTC.
-wrong_answers:
-  - Un Loop è un nodo che collega acquirenti e commercianti.
-  - Un Loop è un nodo che aiuta ad aprire canali.
-  - Un Loop è un nodo che memorizza tutte le transazioni.
-explanation: |
-  Nella Lightning Network, un Loop è un nodo speciale che offre un servizio professionale per riequilibrare LN/BTC. Ciò viene fatto inviando liquidità al Loop tramite un altro nodo, che poi invia il saldo on-chain al nodo originale.
-reviewed: false

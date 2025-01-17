@@ -1,9 +1,0 @@
-question: Comment le protocole Bitcoin garantit-il son impossibilité de censure et son impossibilité d'arrêt ?
-answer: Chaque composant du protocole est réparti géographiquement à travers le monde.
-wrong_answers:
-  - Il utilise un réseau décentralisé de nœuds.
-  - Il utilise un algorithme complexe pour valider les transactions.
-  - Il utilise un niveau élevé de chiffrement.
-explanation: |
-  Le protocole Bitcoin garantit son impossibilité de censure et son impossibilité d'arrêt car chaque composant du protocole est réparti géographiquement à travers le monde. Par exemple, il existe environ 40 000 nœuds Bitcoin sur tous les continents.
-reviewed: false

@@ -1,0 +1,9 @@
+question: O que a profundidade 0 representa na hierarquia das carteiras HD?
+answer: A chave mestre e o código de cadeia mestre
+wrong_answers:
+  - A cadeia externa de endereços
+  - A conta padrão
+  - O tipo de moeda
+explanation: |
+  A profundidade 0 corresponde à chave mestre e ao código de cadeia mestre, que são os pontos de partida para todas as derivações em uma carteira HD.
+reviewed: false

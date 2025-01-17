@@ -1,10 +1,20 @@
 ---
-name: Samouraï
+name: Samourai
 
 description: Récupérez votre vie privée avec Samourai
 ---
 
-![Samourai Wallet](assets/cover.jpeg)
+![Samourai Wallet](assets/cover.webp)
+
+---
+
+***ATTENTION :** Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leurs serveurs le 24 avril dernier, l'application Samourai fonctionne toujours, mais **il faut obligatoirement utiliser son propre Dojo** pour pouvoir avoir les informations de la blockchain et diffuser des transactions.*
+
+_Nous suivons de près l'évolution de cette affaire ainsi que les développements concernant les outils associés. Soyez assuré que nous mettrons ce tutoriel à jour au fur et à mesure que de nouvelles informations seront disponibles._
+
+_Ce tutoriel est fourni à des fins éducatives et informatives uniquement. Nous ne cautionnons ni n'encourageons l'utilisation de ces outils à des fins criminelles. Il est de la responsabilité de chaque utilisateur de respecter les lois en vigueur dans sa juridiction._
+
+---
 
 **Samourai Wallet** est un portefeuille dédié à la confidentialité. Malgré son interface conviviale, il offre une grande flexibilité dans son utilisation et sa sécurité.
 

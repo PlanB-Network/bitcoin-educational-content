@@ -1,0 +1,11 @@
+question: Trong các câu trả lời sau, đâu không phải là lợi ích của việc sử dụng node của riêng bạn?
+
+answer: Giảm phí giao dịch.
+
+wrong_answers:
+  - Tham gia vào quá trình đồng thuận.
+  - Độc lập khỏi bên thứ ba.
+  - Có khả năng chống lại sự kiểm duyệt giao dịch.
+
+explanation: |
+  Dưới đây là lý do tại sao việc sở hữu node của riêng bạn là rất quan trọng để sử dụng Bitcoin một cách hoàn toàn chủ quyền: Khả năng chống kiểm duyệt; Giao dịch của bạn không thể bị bất kỳ ai chặn lại; Độc lập khỏi bên thứ ba; Bạn không còn phụ thuộc vào bất kỳ dịch vụ bên ngoài nào để xác minh dữ liệu blockchain; Tham gia tích cực; Bạn có khả năng thiết lập các quy tắc xác thực của riêng mình và tham gia trực tiếp vào quá trình đồng thuận; Đóng góp cho mạng lưới; Bằng cách chạy một node, bạn giúp tăng cường và phân phối mạng lưới Bitcoin; Giáo dục kỹ thuật; Quản lý một node đầy đủ là cách tuyệt vời để nâng cao kiến thức kỹ thuật của bạn về Bitcoin.

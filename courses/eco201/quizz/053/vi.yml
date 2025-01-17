@@ -1,0 +1,9 @@
+question: Cherry-picking trong bối cảnh kinh tế học là gì?
+answer: Cherry-picking bao gồm việc lựa chọn một cách có chọn lọc dữ liệu để thiết lập mối quan hệ giữa các biến.
+wrong_answers:
+  - Cherry-picking bao gồm việc bỏ qua tất cả dữ liệu và chỉ dựa vào giả thuyết.
+  - Cherry-picking bao gồm việc sử dụng tất cả dữ liệu có sẵn mà không có sự lựa chọn nào.
+  - Cherry-picking bao gồm việc chỉ sử dụng dữ liệu ủng hộ chính sách của chính phủ.
+explanation: |
+  Trong kinh tế học, cherry-picking bao gồm việc lựa chọn một cách có chọn lọc dữ liệu để thiết lập mối quan hệ giữa các biến. Đây được coi là một phương pháp không khoa học và không nghiêm ngặt.
+reviewed: false

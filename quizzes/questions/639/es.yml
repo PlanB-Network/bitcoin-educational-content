@@ -1,9 +1,0 @@
-question: ¿Son bidireccionales los canales de pago de Lightning?
-answer: Sí
-wrong_answers:
-  - "No"
-  - Solo en algunos casos
-  - Depende de la red de Bitcoin
-explanation: |
-  Los canales de pago son bidireccionales, lo que significa que tienen dos "lados". Por ejemplo, si Alice y Bob abren un canal de pago, Alice puede enviar Bitcoin a Bob y Bob puede enviar Bitcoin a Alice.
-reviewed: false

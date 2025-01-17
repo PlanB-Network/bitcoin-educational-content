@@ -1,0 +1,9 @@
+question: Bitcoinにおける簡易支払いのパターンは何ですか？
+answer: 入力に1つ以上のUTXO、出力に2つのUTXO。
+wrong_answers:
+  - 入力に1つのUTXO、出力に1つのUTXO
+  - 入力に複数のUTXO、出力に1つのUTXO
+  - 入力に5つのUTXO、出力に5つのUTXO
+explanation: |
+  簡易支払いでは、ユーザーは入力として1つ以上のUTXOを消費し、出力として支払いUTXOとお釣りUTXO（したがって2つのUTXO）を満たします。
+reviewed: false

@@ -1,0 +1,13 @@
+question: Comment peut-on minimiser les impacts de la CIOH lors de la consolidation des UTXOs ?
+
+answer: En consolidant uniquement des UTXOs provenant de la même source.
+
+wrong_answers:
+  - En envoyant les UTXOs à des adresses tierces.
+  - En sélectionnant des UTXOs au hasard pour éviter des patterns reconnaissables.
+  - En consolidant les UTXOs lors des périodes de faible activité.
+
+explanation: |
+  Si vous vous trouvez dans l'obligation de consolider vos bitcoins, privilégiez d'abord la consolidation d'UTXOs provenant d'une même source.
+
+reviewed: false

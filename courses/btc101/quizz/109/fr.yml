@@ -1,0 +1,11 @@
+question: Quelle est l'importance de la responsabilité individuelle dans Bitcoin ?
+answer: Elle est cruciale parce que vous êtes responsable des sauvegardes.
+wrong_answers:
+  - Elle est essentielle parce que vous devez miner des bitcoins.
+  - Elle est essentielle pour acheter des bitcoins.
+  - Elle est cruciale parce que vous êtes responsable du thème du portefeuille.
+explanation: |
+  Dans Bitcoin, la souveraineté financière va de pair avec
+  la responsabilité individuelle, car vous devez prendre en charge
+  la garde de vos fonds en suivant les procédures de sauvegarde recommandées.
+reviewed: true

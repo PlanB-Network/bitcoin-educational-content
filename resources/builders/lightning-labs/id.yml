@@ -1,0 +1,9 @@
+description: |
+  Lightning Labs adalah perusahaan teknologi yang fokus pada pengembangan Lightning Network, protokol lapis kedua yang dibangun di atas Bitcoin yang memungkinkan transaksi cepat dengan biaya rendah. Perusahaan ini menawarkan solusi open-source, aman, dan dapat diskalakan yang memungkinkan pengguna untuk mengirim dan menerima uang dengan efisiensi yang belum pernah ada sebelumnya.
+
+  Salah satu produk utama mereka adalah Lightning Terminal, antarmuka yang ramah pengguna yang mempermudah manajemen node Lightning. Alat ini menawarkan dashboard berbasis web, eksplorer jaringan, dan serangkaian alat manajemen likuiditas, membuatnya lebih mudah untuk melakukan transaksi Bitcoin instan dengan volume tinggi dengan biaya minimal.
+
+  Selain Lightning Terminal, Lightning Labs juga menyediakan berbagai layanan keuangan yang dapat diverifikasi, non-custodial berbasis Lightning Network, menjembatani kesenjangan antara perangkat lunak open-source dan aplikasi keuangan Bitcoin generasi berikutnya.
+
+contributors:
+  - rabbit-hole

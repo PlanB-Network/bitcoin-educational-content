@@ -1,0 +1,13 @@
+question: 哪种启发式方法可以用来链接一次整合的所有输入？
+
+answer: CIOH。
+
+wrong_answers:
+  - 地址重用。
+  - 最大输出。
+  - 固定支付。
+
+explanation:
+  外部观察者可以应用CIOH来假设一次整合的所有输入属于同一个实体。
+
+reviewed: true

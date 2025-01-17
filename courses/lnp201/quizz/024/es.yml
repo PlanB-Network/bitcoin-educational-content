@@ -1,0 +1,8 @@
+question: ¿Cuál es el efecto combinado del timelock y la llave de revocación en las transacciones de compromiso?
+answer: Disuaden a los participantes de hacer trampa al ofrecer un castigo inmediato
+wrong_answers:
+  - Reducen la capacidad del canal en caso de hacer trampa
+  - Bloquean automáticamente los fondos de la parte culpable
+  - Fuerzan la apertura de un nuevo canal si la transacción es incorrecta
+explanation: |
+  El timelock y la llave de revocación disuaden a los participantes de hacer trampa asegurando que cualquier intento de hacer trampa resulte en una pérdida inmediata de fondos para la parte culpable.

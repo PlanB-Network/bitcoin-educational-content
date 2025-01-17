@@ -1,0 +1,9 @@
+question: Mitä Bob voi tehdä, jos hän havaitsee Alicen yrittävän huijata kanavan sulkemisen aikana?
+answer: Käyttää peruutusavainta palauttaakseen kaikki varat
+wrong_answers:
+  - Peruuttaa Alicen sitoumustapahtuman
+  - Sulkea kanavan pysyvästi ilman mahdollisuutta avata uudelleen
+  - Vaatia vain puolet saatavilla olevista varoista
+explanation: |
+  Huijausyrityksen tapahtuessa Bob voi käyttää peruutusavainta palauttaakseen kaikki kanavan varat, näin rankaisten Alicea hänen yrityksestään.
+reviewed: false

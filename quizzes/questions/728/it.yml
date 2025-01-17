@@ -1,9 +1,0 @@
-question: Qual è un modo per aumentare la capacità di ricezione sulla Lightning Network?
-answer: Effettuare pagamenti
-wrong_answers:
-  - Aprire canali
-  - Connettersi ad altri nodi
-  - Mantenere un equilibrio di liquidità su entrambi i lati
-explanation: |
-  Sulla Lightning Network, un modo per aumentare la capacità di ricezione è quello di effettuare pagamenti. Ad esempio, se paghi 100.000 per una determinata ragione, puoi ora ricevere 100.000.
-reviewed: false

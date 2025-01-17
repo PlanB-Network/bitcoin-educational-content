@@ -1,0 +1,11 @@
+question: Tiền tệ vững chắc được tạo ra như thế nào?
+answer: Tiền tệ vững chắc phải tự nhiên xuất hiện từ thị trường và sự đồng thuận tự nguyện.
+wrong_answers:
+  - Tiền tệ vững chắc cần được chính phủ thực thi bằng cách ban hành các luật tiền tệ.
+  - Tiền tệ vững chắc phải được các công ty áp đặt thông qua việc sử dụng bạo lực.
+  - Tiền tệ vững chắc không thể được tạo ra.
+explanation: |
+  Tiền tệ vững chắc là một hiện tượng xã hội tự nhiên phải xuất hiện
+  từ thị trường và sự đồng thuận tự nguyện. Không có con người hay
+  nhóm người nào có thể tạo ra tiền tệ.
+reviewed: true

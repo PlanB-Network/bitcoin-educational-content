@@ -1,0 +1,11 @@
+question: Mikä on Bitcoinin omaksumisen luonne tässä kurssissa kuvattuna?
+answer: Viruksen kaltainen.
+wrong_answers:
+  - Hidas ja tasainen.
+  - Nopea ja hallitsematon.
+  - Satunnainen ja ennustamaton.
+explanation: |
+  Kurssiteksti kuvailee Bitcoinin omaksumista viruksen kaltaisena,
+  mikä viittaa siihen, että se leviää nopeasti ja laajalti henkilöstä
+  toiseen, paljon kuin virus, mutta hyvässä mielessä.
+reviewed: true

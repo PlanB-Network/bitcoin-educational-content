@@ -1,0 +1,10 @@
+question: Qual país declarou o Bitcoin como moeda legal?
+answer: El Salvador.
+wrong_answers:
+  - Estados Unidos.
+  - China.
+  - Índia.
+explanation: >-
+  El Salvador tomou a ousada decisão de adotar o Bitcoin integralmente,
+  declarando-o como moeda legal.
+reviewed: true

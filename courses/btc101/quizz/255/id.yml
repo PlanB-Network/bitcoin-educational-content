@@ -1,0 +1,10 @@
+question: Apa salah satu alasan utama mengapa Bitcoin diciptakan?
+answer: Untuk mengusulkan upaya mengubah sistem keuangan.
+wrong_answers:
+  - Untuk mengusulkan upaya menghilangkan uang.
+  - Untuk mengusulkan upaya menciptakan bentuk teknologi AI baru.
+  - Untuk mengusulkan upaya mengontrol populasi dunia.
+explanation: >-
+  Teks menyebutkan bahwa Satoshi menciptakan Bitcoin pada tahun 2008 untuk mengusulkan
+  upaya mengubah sistem keuangan.
+reviewed: false

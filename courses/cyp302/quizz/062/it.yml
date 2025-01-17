@@ -1,0 +1,9 @@
+question: Quale tipo di crittografia simmetrica viene utilizzata principalmente per comunicazioni continue, come flussi audio o video?
+answer: Crittografia di flusso
+wrong_answers:
+  - Crittografia a blocchi
+  - Codice di verifica
+  - Hashing del messaggio
+explanation: |
+  La crittografia di flusso è particolarmente adatta alle comunicazioni continue perché cripta i dati in modo continuo, a differenza della crittografia a blocchi, che li divide in blocchi.
+reviewed: false

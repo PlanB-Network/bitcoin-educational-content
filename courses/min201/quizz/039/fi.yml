@@ -1,0 +1,13 @@
+question: Mikä on louhinnan mahdollinen haittapuoli verkoston kannalta?
+answer: Ilman riittävää taloudellista kannustinta louhijoiden voi olla vaikea jatkaa verkoston tukemista
+wrong_answers:
+  - Se voi johtaa Bitcoinin hinnan laskuun
+  - Se voi johtaa verkoston hashraten kasvuun
+  - Se voi johtaa aktiivisten solmujen määrän vähenemiseen verkostossa
+explanation: |
+  Louhinta verkoston hyväksi on jalo aloite, joka
+  edistää Bitcoin-verkoston turvallisuutta ja hajauttamista.
+  Kuitenkaan ilman riittävää taloudellista kannustinta louhijoiden
+  voi olla vaikea jatkaa verkoston tukemista, erityisesti jos he
+  toimivat tappiolla.
+reviewed: true

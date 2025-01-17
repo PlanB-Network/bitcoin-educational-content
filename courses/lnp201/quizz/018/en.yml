@@ -1,0 +1,9 @@
+question: How is a new channel state created after each transfer?
+answer: By creating a new commitment transaction with the updated distribution
+wrong_answers:
+  - By posting an on-chain transaction after each transfer
+  - By increasing the total capacity of the channel
+  - By closing and reopening the channel after each transaction
+explanation: |
+  Each transaction within the channel updates the channel's state with a new commitment transaction, reflecting the current distribution of funds between the two participants.
+reviewed: false

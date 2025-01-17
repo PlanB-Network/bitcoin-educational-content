@@ -1,0 +1,23 @@
+- start_date: 2024-09-08 
+  end_date: 2024-09-08
+  address_line_1: Berlengas, Portugal
+  address_line_2: Port of Peniche
+  address_line_3: 
+  name: Satoshi Sea Citadel 2024
+  builder: 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Explore the place, discusse Bitcoin and enjoy great food.
+  language: 
+    - pt
+    - en
+  links:
+    website: https://primal.net/p/npub1va4vvlyfwnqss496f3dc4rsa4gtpfdx6crr8ppp8sz82uf9fczxq4wda00
+    replay_url:
+    live_url :
+  tags: 
+    - International
+    - bitcoiner
+    - General

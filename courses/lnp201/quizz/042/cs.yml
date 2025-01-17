@@ -1,0 +1,9 @@
+question: Jaké kritérium může uzlu pomoci vybrat efektivní platební trasu?
+answer: Pravděpodobnost úspěchu na základě celkové kapacity kanálů
+wrong_answers:
+  - Geografická vzdálenost mezi uzly
+  - Přítomnost uzlů s nízkou úrovní poplatků
+  - Počet plateb provedených cílovým uzlem
+explanation: |
+  Celková kapacita kanálů může naznačovat vyšší pravděpodobnost úspěchu, protože naznačuje větší dostupnost likvidity pro transakce.
+reviewed: false

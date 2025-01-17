@@ -1,0 +1,9 @@
+question: Mikä Marxin mukaan selittää Euroopan poikkeuksellisen kasvun?
+answer: Teknisen edistyksen ja muiden kansojen hyväksikäytön yhdistelmä
+wrong_answers:
+  - Tekniikan edistyminen ja pääoman kertyminen
+  - Imperialismi, orjuus ja muiden kansojen hyväksikäyttö
+  - Yksilön vapauksien ja demokratian kehittyminen
+explanation: |
+  Marx katsoo Euroopan poikkeuksellisen kasvun johtuvan teknisen edistyksen ja muiden kansojen hyväksikäytön liitosta, korostaen, että Euroopan taloudellinen kehitys saavutettiin hallitsemalla ja omimalla resursseja muilta kansakunnilta.
+reviewed: false

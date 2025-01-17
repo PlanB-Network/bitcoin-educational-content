@@ -1,9 +1,0 @@
-question: Was bedeutet der Begriff "fiduziär" im Zusammenhang mit Währungen?
-answer: Er bezieht sich auf Währungen, die keinen inneren Wert haben und auf das Vertrauen in die Institutionen angewiesen sind, die sie regulieren.
-wrong_answers:
-  - Er bezieht sich auf Währungen, die durch Gold gedeckt sind.
-  - Er bezieht sich auf Währungen, die nur für fiduziäre Transaktionen verwendet werden.
-  - Er bezieht sich auf Währungen, die nur innerhalb einer bestimmten Institution verwendet werden.
-explanation: |
-  Fiduziäre Währungen sind solche, die nicht durch eine physische Ware wie Gold oder Silber gedeckt sind. Ihr Wert ergibt sich aus dem Vertrauen und der Zuversicht, die die Menschen in die Institutionen haben, die sie ausgeben und regulieren.
-reviewed: false

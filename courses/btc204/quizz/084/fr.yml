@@ -1,0 +1,13 @@
+question: Quel est le rôle du portefeuille de post-mix dans le protocole Zerolink ?
+
+answer: Stocker les UTXOs après le mixage.
+
+wrong_answers:
+  - Stocker les UTXOs avant le mixage.
+  - Stocker les UTXOs de change.
+  - Stocker les UTXOs de consolidation.
+
+explanation: |
+  Le portefeuille “post-mix” est réservé aux pièces ayant été mixées.
+
+reviewed: false

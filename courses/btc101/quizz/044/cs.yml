@@ -1,0 +1,9 @@
+question: Jaký je možný výsledek prudkého oslabení nebo ztráty důvěry ve fiduciární měnu?
+answer: Hyperinflace.
+wrong_answers:
+  - Deflace.
+  - Stabilní ekonomika.
+  - Zvýšení hodnoty měny.
+explanation: |
+  Prudké oslabení nebo ztráta důvěry ve fiduciární měnu může vést k hyperinflaci. Jedná se o situaci, kdy ceny zboží a služeb rostou extrémně vysokou rychlostí, což často vede k ekonomické nestabilitě.
+reviewed: true

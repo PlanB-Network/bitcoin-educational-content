@@ -1,9 +1,0 @@
-question: Qu'est-ce que les "bitcoins vierges" ?
-answer: Il s'agit de bitcoins fraîchement minés qui n'ont jamais été dépensés et qui n'ont aucune historique associée.
-wrong_answers:
-  - Des bitcoins qui ont été utilisés dans des activités illégales.
-  - Des bitcoins qui ont été perdus ou oubliés.
-  - Des bitcoins qui ont été stockés dans un portefeuille pendant une longue période.
-explanation: |
-  Les bitcoins vierges sont des bitcoins fraîchement minés qui n'ont jamais été dépensés et qui n'ont aucune historique associée. Ces bitcoins sont souvent considérés comme plus précieux car ils n'ont jamais été souillés, offrant ainsi une certaine garantie contre le rejet par les régulateurs ou les principales plateformes d'échange.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Mitä Bitcoin-hana, jonka Gavin Andresen loi kesäkuussa 2010, tarjosi?
+answer: Bitcoineja
+wrong_answers:
+  - Ostoskuponkeja
+  - Maksualennuksia Bitcoin-markkinapaikalle
+  - Mahdollisuuksia louhia lohko
+explanation: |
+  Tämä palvelu jakoi alun perin 5 bitcoinia per pyyntö, jotta ihmiset voisivat kokeilla järjestelmää. Tämä määrä väheni ajan myötä, ja hana suljettiin vuonna 2012.
+reviewed: false

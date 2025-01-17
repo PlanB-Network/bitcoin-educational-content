@@ -1,0 +1,8 @@
+question: Milline on Bitcoin tehingu mõju väljundites olevatele UTXO-dele?
+answer: See loob need, kasutades sisendites tarbitud UTXO-sid.
+wrong_answers:
+  - See tarbib neid sisendite rahuldamiseks.
+  - See krüpteerib need, et varjata saaja isikut.
+  - See ajutiselt jagab neid verifitseerimiseks.
+explanation: |
+  Tehingu väljundites olevad UTXO-d luuakse, tarbides sisendites olevaid UTXO-sid. See on omamoodi raha sihtkoht.

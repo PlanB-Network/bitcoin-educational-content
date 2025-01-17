@@ -1,0 +1,9 @@
+question: Welche Bedingung muss erfüllt sein, damit der Empfänger eines HTLC die Mittel erhält?
+answer: Er muss ein Geheimnis (Preimage) bereitstellen, um die Zahlung freizuschalten.
+wrong_answers:
+  - Sie müssen die Routing-Gebühren jedes Zwischenknotens akzeptieren.
+  - Sie müssen eine neue Commitment-Transaktion unterschreiben.
+  - Sie müssen warten, bis das Zeitfenster abgelaufen ist, bevor sie die Mittel abrufen können.
+explanation: |
+  Um die Mittel in einem HTLC zu erhalten, muss der Empfänger ein spezifisches Geheimnis bereitstellen, das das Freischalten der durch den Hash gesicherten Zahlung ermöglicht.
+reviewed: false

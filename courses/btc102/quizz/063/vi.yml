@@ -1,0 +1,10 @@
+question: Rủi ro của việc không sở hữu khóa riêng tư cho ví Bitcoin của bạn là gì?
+answer: Bitcoin của bạn có thể gặp phải các rủi ro như bị hack, tịch thu, quy định pháp luật, hoặc phá sản
+wrong_answers:
+  - Bitcoin của bạn sẽ tự động được chuyển đổi sang một loại tiền mã hóa khác
+  - Bitcoin của bạn sẽ mất giá trị
+  - Bitcoin của bạn sẽ được chuyển sang một ví khác
+explanation: |
+  Nếu bạn không sở hữu khóa riêng tư cho ví Bitcoin của mình, Bitcoin của bạn
+  có thể gặp phải các rủi ro như bị hack, tịch thu, quy định pháp luật, hoặc phá sản.
+reviewed: false

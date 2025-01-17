@@ -1,0 +1,8 @@
+question: Når man søker etter et mønster, hvilken del av transaksjonen vil vi studere?
+answer: Dens struktur
+wrong_answers:
+  - Dens metadata
+  - Dens skript
+  - Dens signatur
+explanation: |
+  Et transaksjonsmønster er rett og slett en modell eller en overordnet struktur av en typisk transaksjon som kan finnes på blokkjeden, hvis sannsynlige tolkning er kjent.

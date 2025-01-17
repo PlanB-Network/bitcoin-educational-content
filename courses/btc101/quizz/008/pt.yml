@@ -1,0 +1,11 @@
+question: O que significa o Bitcoin ser uma moeda neutra?
+answer: Não é controlado por nenhuma entidade ou instituição.
+wrong_answers:
+  - É controlado por uma única entidade ou instituição.
+  - É regulado pelo governo.
+  - É usado apenas para transações grandes.
+explanation: |
+  O Bitcoin é uma moeda neutra, o que significa que não é controlado
+  por nenhuma entidade ou instituição, então todos os usuários têm os mesmos
+  direitos. Esse é um aspecto chave da sua descentralização.
+reviewed: true

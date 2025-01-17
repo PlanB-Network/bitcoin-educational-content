@@ -1,0 +1,9 @@
+question: What is the starting point for calculating an ECDSA signature?
+answer: The message hash
+wrong_answers:
+  - The public key
+  - A fixed nonce
+  - A custom elliptical curve
+explanation: |
+  An ECDSA signature starts with calculating the hash of the message to be signed, often with SHA256.
+reviewed: false

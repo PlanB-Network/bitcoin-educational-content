@@ -1,0 +1,9 @@
+question: Jaký je jeden z možných důsledků nedodržování předpisů vaší země při nákupu Bitcoinu?
+answer: Můžete se vystavit riziku.
+wrong_answers:
+  - Můžete zvýšit cenu Bitcoinu.
+  - Můžete ovládat nabídku Bitcoinu.
+  - Můžete zabránit ostatním v nákupu Bitcoinu.
+explanation: |
+  Text kurzu uvádí, že nedodržování předpisů vaší země při nákupu Bitcoinu vás může vystavit riziku.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mitä sitoumustapahtuma Lightning-kanavassa heijastaa?
+answer: Uusi varojen jakautuminen kahden osapuolen välillä
+wrong_answers:
+  - Tehdyn transaktioiden kokonaismäärä
+  - Transaktiosta maksettavien maksujen määrä
+  - Uuden maksukanavan avaaminen
+explanation: |
+  Sitoumustapahtuma edustaa nykyistä varojen jakautumista kanavassa jokaisen Lightning-transaktion jälkeen, mutta sitä ei julkaista lohkoketjussa niin kauan kuin kanava pysyy avoimena.
+reviewed: false

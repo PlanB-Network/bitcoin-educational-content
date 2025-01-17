@@ -1,9 +1,0 @@
-question: Qual é uma desvantagem da solução RoboSat P2P?
-answer: O protocolo é frágil com um único coordenador.
-wrong_answers:
-  - Requer uma conta para operar.
-  - Não utiliza a Lightning Network.
-  - Não é de código aberto.
-explanation: |
-  O capítulo menciona que uma das desvantagens do RoboSat é que seu protocolo é frágil com um único coordenador.
-reviewed: false

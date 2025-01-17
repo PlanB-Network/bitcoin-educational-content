@@ -1,0 +1,8 @@
+question: ¿Cuál es el principal riesgo en las transacciones de compromiso en la Red Lightning?
+answer: Publicar una transacción antigua para reclamar más fondos
+wrong_answers:
+  - Olvidar firmar la transacción de compromiso
+  - Enviar fondos accidentalmente a otro canal
+  - Bloquear la transacción con un timelock inapropiado
+explanation: |
+  El principal riesgo es que una de las partes puede intentar engañar publicando una transacción de compromiso antigua, lo que podría permitirles reclamar fondos que ya no poseen.

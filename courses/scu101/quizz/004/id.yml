@@ -1,0 +1,12 @@
+question: Mengapa disarankan untuk menghapus cookie setelah setiap kunjungan ke sebuah situs?
+answer: Untuk mencegah situs pihak ketiga melacak aktivitas online Anda.
+wrong_answers:
+  - Untuk menghemat ruang penyimpanan pada perangkat Anda.
+  - Untuk mencegah situs mengingat informasi login Anda.
+  - Untuk mencegah situs menampilkan iklan yang ditargetkan kepada Anda.
+explanation: |
+  Cookie adalah file yang dibuat oleh situs web untuk menyimpan informasi pada perangkat Anda.
+  Meskipun beberapa situs memerlukan cookie ini untuk berfungsi dengan baik, mereka juga dapat dimanfaatkan
+  oleh situs pihak ketiga, terutama untuk tujuan pelacakan iklan. Menghapus cookie
+  setelah setiap kunjungan ke sebuah situs dapat membantu mencegah hal ini.
+reviewed: false

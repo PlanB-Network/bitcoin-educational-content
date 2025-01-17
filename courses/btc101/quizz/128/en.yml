@@ -1,0 +1,11 @@
+question: When you create an inheritance plan, what is not necessary to include?
+answer: The name of the Bitcoin wallet you usually use.
+wrong_answers:
+  - An handwritten letter listing your assets.
+  - A description of how to access your funds.
+  - The contact information of trusted individuals.
+explanation: |
+  creating an inheritance plan is a crucial step to ensure that your bitcoins will be properly managed after your death. 
+  This plan can include a handwritten letter listing your assets, 
+  their access methods, and the contact information of trusted individuals to be contacted
+reviewed: true

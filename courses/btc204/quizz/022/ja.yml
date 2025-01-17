@@ -1,0 +1,9 @@
+question: 入力に単一のUTXO、出力に単一のUTXOを持つパターンの名前は何ですか？
+answer: Sweeping
+wrong_answers:
+  - Consolidation
+  - Coinjoin
+  - Batch spending
+explanation: |
+  この構造の解釈は、ビットコインの自己転送、つまりsweepの存在を意味しています。
+reviewed: false

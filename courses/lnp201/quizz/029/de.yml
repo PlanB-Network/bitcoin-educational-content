@@ -1,0 +1,9 @@
+question: In welcher Situation wird eine erzwungene Schließung eines Kanals verwendet?
+answer: Wenn eine der Parteien nicht mehr antwortet
+wrong_answers:
+  - Wenn die Kapazität des Kanals erhöht werden muss
+  - Wenn der Zeitraum der Zeitverriegelung unzureichend ist
+  - Wenn die Transaktionsgebühren zu hoch sind
+explanation: |
+  Die erzwungene Schließung wird als letztes Mittel verwendet, wenn eine der Parteien, beispielsweise aufgrund eines technischen Problems, nicht mehr auf die Nachrichten der anderen Partei reagiert.
+reviewed: false

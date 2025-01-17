@@ -1,0 +1,11 @@
+question: Jaký je běžný znak Ponziho schémat v oblasti kryptoměn?
+answer: Používají peníze nových investorů na vyplacení starších účastníků.
+wrong_answers:
+  - Vždy se týkají Bitcoinu.
+  - Vždy jsou legální a regulované.
+  - Vždy zahrnují fyzická aktiva.
+explanation: |
+  Ponziho schémata v oblasti kryptoměn často fungují tak, že používají peníze
+  nových investorů na vyplacení starších účastníků. Tato neudržitelná povaha a závislost
+  na nových příchozích je činí pravděpodobně nevyhnutelně kolabujícími.
+reviewed: false

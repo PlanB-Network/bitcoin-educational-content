@@ -1,0 +1,13 @@
+question: Mis on OP_RETURN Bitcoin'i tehingus?
+
+answer: Opcodes, mis märgib väljundi kehtetuks ja võimaldab andmete salvestamist.
+
+wrong_answers:
+  - Opcodes, mis kontrollib allkirja kehtivust Bitcoin'i tehingus.
+  - Opcodes, mis sisaldab hüperlinki failile, mis on salvestatud IPFS-s.
+  - Käsk, mis kustutab tehingu Bitcoin'i plokiahelast.
+
+explanation: |
+  OP_RETURN on opcode, mis annab märku kehtetust skriptist, muutes sisalduva väljundi tõendatavalt kulutamatuks. Seega võivad võrgu sõlmed selle väljundi oma UTXO komplektist eemaldada. OP_RETURN-i kasutatakse sageli suvaliste andmete salvestamiseks plokiahelasse.
+
+reviewed: false

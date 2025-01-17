@@ -1,0 +1,13 @@
+question: Tại sao lại không khuyến khích việc gộp nhiều UTXO sau các chu kỳ coinjoin?
+
+answer: Điều này có thể làm lộ thông tin riêng tư do Heuristic Sở Hữu Đầu Vào Chung (CIOH).
+
+wrong_answers:
+  - Điều này làm giảm tốc độ của giao dịch.
+  - Điều này tiết lộ hoạt động đáng ngờ cho người điều phối.
+  - Điều này có thể làm lộ thông tin riêng tư do heuristic thanh toán vòng.
+
+explanation: |
+  Việc tránh kết hợp các UTXO đã được trộn với những UTXO chưa được trộn trong cùng một giao dịch là quan trọng, nhưng cũng cần tránh trộn lẫn các UTXO với nhau, nhằm tránh Heuristic Sở Hữu Đầu Vào Chung (CIOH).
+
+reviewed: false

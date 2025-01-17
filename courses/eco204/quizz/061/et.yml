@@ -1,0 +1,15 @@
+question: Mis oli tagajärg, kui Inglise Pank alandas era-panku rahandussüsteemis teisejärgulisele positsioonile?
+answer: Loodi kolmas valuutakiht
+wrong_answers:
+  - Inglise Pank läks pankrotti
+  - Kulla väärtus tõusis
+  - Amsterdami Pank sai globaalseks majanduskeskuseks
+explanation: |
+  Kui Inglise Pank alandas era-panku rahandussüsteemis teisejärgulisele positsioonile,
+
+  loodi kolmas valuutakiht. Era-pankade väljastatud märkmed ei olnud enam vahetatavad
+
+  kulla vastu, vaid Inglise Panga väljastatud paberraha vastu, mis omakorda oli
+
+  vahetatav kulla vastu.
+reviewed: false

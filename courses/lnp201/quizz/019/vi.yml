@@ -1,0 +1,9 @@
+question: Hệ thống giao dịch cam kết đảm bảo điều gì cho các bên tham gia kênh Lightning?
+answer: Mỗi bên có thể thu hồi quỹ của mình bằng cách công bố giao dịch đã ký cuối cùng
+wrong_answers:
+  - Các giao dịch được hiển thị trên blockchain Bitcoin
+  - Dung lượng của kênh tăng lên với mỗi giao dịch
+  - Phí được chia sẻ giữa hai bên tham gia
+explanation: |
+  Các giao dịch cam kết đã ký đảm bảo rằng mỗi bên tham gia có thể thu hồi quỹ của mình bằng cách công bố phiên bản mới nhất trong trường hợp kênh đóng lại.
+reviewed: false

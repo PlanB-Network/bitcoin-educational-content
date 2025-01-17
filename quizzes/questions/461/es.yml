@@ -1,9 +1,0 @@
-question: ¿Cuál es la longitud de las claves privadas en una billetera de Bitcoin?
-answer: 256 bits
-wrong_answers:
-  - 128 bits
-  - 512 bits
-  - 1024 bits
-explanation: |
-  Las claves privadas en una billetera de Bitcoin, que son esenciales para la propiedad de criptomonedas, tienen una longitud fija de 256 bits.
-reviewed: false

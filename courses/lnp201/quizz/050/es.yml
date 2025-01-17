@@ -1,0 +1,8 @@
+question: ¿Por qué un vendedor podría realizar un pago ficticio en un canal?
+answer: Para mover liquidez al lado opuesto
+wrong_answers:
+  - Para disminuir las tarifas de enrutamiento
+  - Para aumentar la capacidad total de sus canales
+  - Para bloquear fondos a largo plazo
+explanation: |
+  Al realizar un pago ficticio, un vendedor mueve liquidez de su lado al lado opuesto del canal, liberando así capacidad entrante para recibir pagos.

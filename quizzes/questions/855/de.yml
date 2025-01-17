@@ -1,9 +1,0 @@
-question: Was ist der Zweck der Lightning-Authentifizierung?
-answer: Sie generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen.
-wrong_answers:
-  - Sie beschleunigt den Authentifizierungsprozess.
-  - Sie ermöglicht die Verwendung des gleichen Passworts für alle Dienste.
-  - Sie sendet Erinnerungen, das Passwort jeden Monat zu ändern.
-explanation: |
-  Die Lightning-Authentifizierung generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen. Dadurch kann die Privatsphäre und Sicherheit verbessert werden, indem die Menge an persönlichen Informationen reduziert wird, die mit jedem Dienst geteilt werden.
-reviewed: false

@@ -1,0 +1,11 @@
+question: Mikä on historiallinen polku, jota instituutiot ovat seuranneet fiat-valuuttojen käyttöönotossa?
+answer: Johtajat keskittävät kullan ja esittelevät uuden valuutan, joka on arvoltaan vastaava kullan kanssa, ja jota sitten vähitellen aliarvostetaan.
+wrong_answers:
+  - Johtajat esittelevät uuden valuutan, joka on tuettu kullalla, ja jonka arvoa sitten vähitellen kasvatetaan.
+  - Johtajat esittelevät uuden valuutan, jolla ei ole sisäistä arvoa, ja jonka arvoa sitten vähitellen kasvatetaan.
+  - Johtajat esittelevät uuden valuutan, joka on tuettu hyödykekorilla, ja jonka arvoa pidetään vakiona.
+explanation: |
+  Historiallisesti johtajat ovat keskittäneet kullan ja esitelleet
+  uuden valuutan, joka on arvoltaan vastaava kullan kanssa. Tämä uusi
+  valuutta sitten vähitellen aliarvostetaan, usein kansan edun nimissä.
+reviewed: true

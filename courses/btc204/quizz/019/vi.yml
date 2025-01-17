@@ -1,0 +1,9 @@
+question: Các phương pháp phân tích chuỗi được Satoshi Nakamoto đề cập trong Bản Thảo Bitcoin là gì? (chỉ một câu trả lời đúng)
+answer: CIOH và tái sử dụng địa chỉ.
+wrong_answers:
+  - Phân cụm theo chữ ký và tương quan thời gian.
+  - Các khoản thanh toán số tròn và output lớn.
+  - Phân tích khối lượng và sự tương đồng của script.
+explanation: |
+  Trong phần 10 của Bản Thảo Bitcoin, Satoshi Nakamoto cảnh báo người dùng về CIOH (Common Input Ownership Heuristic) và việc tái sử dụng cùng một cặp khóa.
+reviewed: false

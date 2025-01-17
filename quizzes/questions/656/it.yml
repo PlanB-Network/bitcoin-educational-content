@@ -1,9 +1,0 @@
-question: Cosa fa Alice con l'UTXO di 0,0007 BTC quando apre un canale con Bob?
-answer: Lo invia a uno dei suoi indirizzi di cambio.
-wrong_answers:
-  - Lo invia all'indirizzo pubblico di Bob.
-  - Lo invia all'indirizzo multi-sig 2/2.
-  - Lo tiene nel suo stesso indirizzo.
-explanation: |
-  Quando Alice apre un canale con Bob, crea una transazione con 2 UTXO come output. Un UTXO di 0,0013 BTC va all'indirizzo multi-sig 2/2, mentre l'altro UTXO di 0,0007 BTC va a uno dei suoi indirizzi di cambio.
-reviewed: false

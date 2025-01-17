@@ -1,0 +1,9 @@
+question: 谁在2010年11月建议联系组织WikiLeaks，鼓励他们接受比特币？
+answer: Amir Taaki
+wrong_answers:
+  - Wladimir van der Laan
+  - Robert Horning
+  - Satoshi Nakamoto
+explanation:
+  他的理由是该组织的资金被冻结了多次。值得注意的是，Moneybookers在10月份冻结了WikiLeaks的账户。
+reviewed: true

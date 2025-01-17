@@ -1,0 +1,8 @@
+question: Quais informações Bob pode incluir em uma fatura para facilitar o roteamento?
+answer: Canais próximos com liquidez suficiente ou a existência de canais privados
+wrong_answers:
+  - A chave privada dos nós intermediários
+  - O mapa completo de todos os canais da rede
+  - A quantidade exata de liquidez disponível para cada canal
+explanation: |
+  Ao indicar canais próximos com liquidez ou revelar canais privados, Bob ajuda Alice a escolher rotas com uma melhor probabilidade de sucesso.

@@ -1,0 +1,10 @@
+question: Qual è il ruolo della chiave pubblica in un portafoglio Bitcoin?
+answer: Viene utilizzata per generare indirizzi Bitcoin e quindi ricevere denaro.
+wrong_answers:
+  - Viene utilizzata per criptare le transazioni Bitcoin.
+  - Viene utilizzata per accedere al portafoglio Bitcoin.
+  - Viene utilizzata per fare il backup del portafoglio Bitcoin.
+explanation: |
+  La chiave pubblica deriva dalla chiave privata ed è utilizzata
+  per generare indirizzi Bitcoin al fine di ricevere denaro.
+reviewed: vero

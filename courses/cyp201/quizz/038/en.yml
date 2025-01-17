@@ -1,0 +1,9 @@
+question: Why is reusing a Bitcoin address not recommended?
+answer: It facilitates the tracking of transactions by third parties
+wrong_answers:
+  - It reveals the private key because of the nonce
+  - It makes transactions more expensive
+  - It invalidates digital signatures
+explanation: |
+  Reusing an address allows observers to easily link different transactions to the same user, compromising their privacy.
+reviewed: false

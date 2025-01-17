@@ -4,7 +4,7 @@ name: Liana
 description: How to set up your Liana Wallet
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 The safety net for your coins, Liana is a simple Bitcoin wallet that uses on-chain time locks to ensure security and recovery.
 

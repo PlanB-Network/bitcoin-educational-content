@@ -1,0 +1,13 @@
+question: ¿Cómo se utilizan las direcciones para bloquear los UTXOs?
+
+answer: Se integran en el ScriptPubKey
+
+wrong_answers:
+  - Se integran en el ScriptSig
+  - Se integran en el coinbase.
+  - No se integran en ningún lugar.
+
+explanation: |
+  Cuando se realiza un pago, la transacción crea un nuevo UTXO como salida de los UTXOs consumidos como entradas. En esta salida, se coloca un script que define cómo se puede gastar este UTXO más tarde. Este script es conocido como el ScriptPubKey. La dirección de recepción se integra en este script.
+
+reviewed: false

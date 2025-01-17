@@ -1,0 +1,9 @@
+question: Que signifie une apostrophe (') ou le h dans un chemin de dérivation ?
+answer: Une dérivation endurcie
+wrong_answers:
+  - Une dérivation normale
+  - Une dérivation externe
+  - Une dérivation non standard
+explanation: |
+  Une apostrophe indique que la dérivation est endurcie, nécessitant une clé privée parent pour générer la clé enfant.
+reviewed: false

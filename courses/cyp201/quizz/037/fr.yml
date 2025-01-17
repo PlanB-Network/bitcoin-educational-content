@@ -1,0 +1,9 @@
+question: Quelle est la principale limitation des portefeuilles JBOK ?
+answer: Ils nécessitent un sauvegarde indépendante pour chaque clé privée
+wrong_answers:
+  - Ils ne permettent pas de générer de nouvelles adresses
+  - Ils sont incompatibles avec les signatures numériques
+  - Ils utilisent des clés publiques non compressées
+explanation: |
+  Les portefeuilles JBOK obligent l'utilisateur à sauvegarder chaque clé privée individuellement, ce qui complique leur gestion.
+reviewed: false

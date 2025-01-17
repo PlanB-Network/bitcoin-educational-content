@@ -1,9 +1,0 @@
-question: Quel est le rôle d'une Boucle dans le Lightning Network?
-answer: Une Boucle est un nœud spécial qui offre un service de rééquilibrage LN/BTC.
-wrong_answers:
-  - Une Boucle est un nœud qui connecte les acheteurs et les commerçants.
-  - Une Boucle est un nœud qui aide à ouvrir des canaux.
-  - Une Boucle est un nœud qui stocke toutes les transactions.
-explanation: |
-  Dans le Lightning Network, une Boucle est un nœud spécial qui offre un service professionnel de rééquilibrage LN/BTC. Cela se fait en envoyant de la liquidité à la Boucle via un autre nœud, qui renvoie ensuite l'équilibre on-chain au nœud d'origine.
-reviewed: false

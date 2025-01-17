@@ -1,0 +1,9 @@
+question: ShRとRotR操作の主な違いは何ですか？
+answer: ShRはゼロを加えてビットをシフトし、RotRはシフトしたビットを再挿入します
+wrong_answers:
+  - ShRはシフトしたビットを削除し、RotRはその値を乗算します
+  - ShRは左にシフトし、RotRは右にシフトします
+  - ShRは論理演算で、RotRは算術演算です
+explanation: |
+  ShRはゼロを加えてビットを右にシフトする一方で、RotRはビットの循環回転を行います。
+reviewed: false

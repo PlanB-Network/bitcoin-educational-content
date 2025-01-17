@@ -1,9 +1,0 @@
-question: Cosa indica l'indice in un percorso di derivazione nel contesto di un portafoglio HD?
-answer: Il valore utilizzato nella funzione HMAC
-wrong_answers:
-  - Il valore utilizzato nella funzione SHA-256
-  - Il valore utilizzato nella funzione RSA
-  - Il valore utilizzato nella funzione AES
-explanation: |
-  Nel contesto di un portafoglio HD, l'indice in un percorso di derivazione indica il valore utilizzato nella funzione HMAC. Questo viene utilizzato per differenziare tra diverse coppie di chiavi figlie alla stessa profondità.
-reviewed: false

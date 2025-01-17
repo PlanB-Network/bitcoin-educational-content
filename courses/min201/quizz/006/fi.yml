@@ -1,0 +1,14 @@
+question: Mikä on louhijoiden päätehtävä Bitcoin-verkossa?
+answer: Ratkaista digitaalinen pulma ja vahvistaa uusi lohko
+wrong_answers:
+  - Luoda uusia bitcoineja
+  - Hallita Bitcoinin hintaa
+  - Tarkistaa Bitcoin-käyttäjien identiteetti
+explanation: |
+  Bitcoin-louhinnan kontekstissa louhijat pyrkivät nopeasti
+  ratkaisemaan digitaalisen pulman. Ensimmäinen pulman ratkaissut louhija
+  esittää ratkaisunsa koko verkostolle, joka voi
+  sitten helposti varmistaa sen pätevyyden. Tämä onnistunut
+  vahvistus mahdollistaa louhijan vahvistaa uuden lohkon ja
+  lisätä sen Bitcoin-aikaketjuun.
+reviewed: true

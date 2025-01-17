@@ -1,0 +1,9 @@
+question: Miks on autentitud krüpteering vastupidav valitud šifreeritud teksti rünnakutele?
+answer: Kuna ründaja poolt šifreeritud tekstis tehtud muudatus muudab märgendi kehtetuks
+wrong_answers:
+  - Kuna see kasutab ühtset krüpteerimisalgoritmi
+  - Kuna ründaja poolt šifreeritud tekstis tehtud muudatus muudab võtme kehtetuks
+  - Kuna see krüpteerib ainult sõnumit ilma märgendita
+explanation: |
+  Autentitud krüpteerimisskeem on loodud tuvastama šifreeritud tekstis tehtud muudatusi, mis muudab märgendi kehtetuks, kui toimub manipuleerimiskatse, ja tagab vastupidavuse valitud šifreeritud teksti rünnakutele.
+reviewed: false

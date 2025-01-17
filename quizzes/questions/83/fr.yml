@@ -1,9 +1,0 @@
-question: Quelle est la technologie utilisée dans le portefeuille Bitcoin pour sécuriser les fonds dépensés dans le portefeuille Bitcoin?
-answer: Cryptographie à courbes elliptiques
-wrong_answers:
-  - Cryptographie symétrique
-  - Cryptographie quantique
-  - Cryptographie RSA
-explanation: |
-  La dépense de Bitcoins nécessite que le propriétaire utilise des courbes elliptiques pour créer une signature pour une transaction Bitcoin.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Dans une transaction Bitcoin, quelle technologie est généralement utilisée pour prouver la propriété des fonds en débloquant le script ?
+answer: Les signatures numériques
+wrong_answers:
+  - Les certificats numériques
+  - Le chiffrement symétrique
+  - Les codes d'authentification de message (MAC)
+explanation: |
+  Les signatures numériques dans Bitcoin permettent de prouver la possession des fonds en signant les transactions avec une clé privée afin de débloquer le script qui sécurise un UTXO.
+reviewed: false

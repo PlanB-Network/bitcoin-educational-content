@@ -1,0 +1,9 @@
+question: Hva er hovedgrunnen til at en sentralt planlagt økonomi uunngåelig vil oppleve feilallokering av kapital?
+answer: Det finnes ingen markedspriser eller konkurser for å avdekke og korrigere feilallokeringer.
+wrong_answers:
+  - Sentralplanleggere er ikke effektive.
+  - Sentralplanleggere har ikke nok informasjon.
+  - Sentralplanleggere er ikke motiverte til å allokere ressurser effektivt.
+explanation: |
+  I en sentralt planlagt økonomi finnes det ingen markedspriser eller konkurser for å avdekke og korrigere feilallokeringer. Som et resultat vil feil akkumuleres til sløseriet blir tydelig gjennom et betydelig fall i levestandarden.
+reviewed: false

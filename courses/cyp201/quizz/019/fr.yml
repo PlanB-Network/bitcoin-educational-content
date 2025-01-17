@@ -1,0 +1,9 @@
+question: Quelle opération mathématique est à la base de la sécurité de la cryptographie sur les courbes elliptiques ?
+answer: Problème du logarithme discret
+wrong_answers:
+  - Factorisation de nombres premiers
+  - Calcul des résidus quadratiques
+  - Problème du cube discret
+explanation: |
+  La sécurité de la cryptographie sur courbes elliptiques repose sur la difficulté de résoudre le problème du logarithme discret sur ces courbes.
+reviewed: false

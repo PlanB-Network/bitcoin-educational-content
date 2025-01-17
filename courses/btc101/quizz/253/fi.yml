@@ -1,0 +1,10 @@
+question: Mikä on yksi Bitcoin-protokollan pääominaisuuksista?
+answer: Se on neutraali kaikkia käyttäjiään kohtaan.
+wrong_answers:
+  - Se suosii tiettyjä käyttäjiä muiden yli.
+  - Se on puolueellinen tiettyjen käyttäjien suhteen.
+  - Se hyödyttää vain valikoitua käyttäjäryhmää.
+explanation: >-
+  Tekstissä mainitaan, että Bitcoin-protokolla on neutraali kaikkia sen
+  käyttäjiä kohtaan.
+reviewed: true

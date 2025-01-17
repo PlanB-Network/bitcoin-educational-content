@@ -1,0 +1,8 @@
+question: BitcoinのコンテキストにおけるUTXOとは何ですか？
+answer: スクリプトに関連付けられた未使用のビットコインの一部
+wrong_answers:
+  - ブロックチェーン上で完全に確認されたトランザクション
+  - Bitcoinアドレスを生成する公開鍵
+  - 複数の部分に分割されたビットコインの量
+explanation: |
+  UTXO、またはUnspent Transaction Outputは、未使用のトランザクション出力を指し、保持者が使用できる特定の量のビットコインを表します。

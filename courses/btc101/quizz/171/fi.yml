@@ -1,0 +1,13 @@
+question: Kuinka Bitcoin-protokolla varmistaa sensuurinestokykynsä ja joustavuutensa?
+answer: Protokollan jokainen osa on maantieteellisesti hajautettu ympäri maailmaa.
+wrong_answers:
+  - Se käyttää paikallista solmujen verkostoa, joka on hajautettu Eurooppaan.
+  - Se käyttää monimutkaista algoritmia transaktioiden vahvistamiseen.
+  - Se käyttää korkean tason salausta.
+explanation: |
+  Bitcoin-protokolla varmistaa sensuurinestokykynsä ja
+  joustavuutensa, koska protokollan jokainen osa on
+  maantieteellisesti hajautettu ympäri maailmaa. Esimerkiksi,
+  maailmanlaajuisesti on noin 40 000 Bitcoin-solmua kaikilla
+  mantereilla.
+reviewed: true

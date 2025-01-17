@@ -1,0 +1,10 @@
+question: Jaký je jeden z důvodů, proč Bitcoin zažívá tolik spekulativních bublin?
+answer: Protože Bitcoin je měna, která se používá po celém světě.
+wrong_answers:
+  - Protože Bitcoin se ve skutečnosti nikde nepoužívá.
+  - Protože Bitcoin je bublina, která zmizí.
+  - Protože Bitcoin není podléhající ekonomickým cyklům.
+explanation: >-
+  Bitcoin zažívá mnoho spekulativních bublin, protože je to měna,
+  která se skutečně používá po celém světě.
+reviewed: true

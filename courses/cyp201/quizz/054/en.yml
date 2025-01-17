@@ -1,0 +1,9 @@
+question: What is the main role of the passphrase in a Bitcoin HD wallet?
+answer: To modify key derivation to enhance security
+wrong_answers:
+  - Decrypt pending transactions
+  - Generate the wallet's UTXOs
+  - Protect wallet access with face ID
+explanation: |
+  The passphrase acts as a second factor of security, altering the key derivation seed to prevent access to the wallet in case the mnemonic phrase is compromised.
+reviewed: false

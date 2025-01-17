@@ -1,0 +1,13 @@
+question: Unter den folgenden Antworten, welche stellt kein Risiko dar, wenn Bitcoins, die einem CoinJoin unterzogen wurden, an eine regulierte Plattform gesendet werden?
+
+answer: Die Plattform könnte die Transaktionsgebühren erhöhen
+
+wrong_answers:
+  - Die Plattform könnte die Mittel einfrieren
+  - Die Plattform könnte das Konto des Benutzers sperren
+  - Die Plattform könnte verdächtiges Verhalten den Behörden melden
+
+explanation: |
+  Wenn Sie Ihre Coins an eine regulierte Austauschplattform senden, die kürzlich einem CoinJoin unterzogen wurden, wird das Chain-Analyse-Tool der Plattform diesen Umstand erkennen. Die Plattform könnte dann die Annahme Ihres UTXO, der einem CoinJoin unterzogen wurde, verweigern oder sogar Erklärungen von Ihnen verlangen, mit dem Risiko, dass Ihr Konto gesperrt oder Ihre Mittel eingefroren werden. In einigen Fällen könnte die Plattform auch Ihr Verhalten den staatlichen Behörden melden.
+
+reviewed: false

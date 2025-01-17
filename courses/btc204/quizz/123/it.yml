@@ -1,0 +1,13 @@
+question: Qual è il principale svantaggio nell'uso di Tor per un nodo Bitcoin?
+
+answer: Riduzione della velocità di comunicazione
+
+wrong_answers:
+  - Aumento delle commissioni di transazione
+  - Rischio di censura delle transazioni
+  - Rischio di attacco Eclipse sul nodo
+
+explanation: |
+  Le comunicazioni tramite Tor sono più lente. Questa latenza è particolarmente problematica durante il lancio iniziale di un nodo, poiché l'IBD (Initial Block Download) richiede molte comunicazioni.
+
+reviewed: false

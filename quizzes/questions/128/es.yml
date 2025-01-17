@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de las comisiones de transacción en las transacciones de Bitcoin?
-answer: Son un incentivo para que los mineros incluyan la transacción en el siguiente bloque.
-wrong_answers:
-  - Son un impuesto impuesto por el gobierno.
-  - Son una tarifa cobrada por la red de Bitcoin por utilizar sus servicios.
-  - Son una tarifa cobrada por el proveedor de billetera.
-explanation: |
-  Las comisiones de transacción en las transacciones de Bitcoin sirven como un incentivo para que los mineros incluyan la transacción en el siguiente bloque. Las comisiones crean un mercado libre para incluir transacciones en bloques.
-reviewed: false

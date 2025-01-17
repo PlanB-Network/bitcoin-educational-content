@@ -1,0 +1,9 @@
+question: サトシ・ナカモトはいつ姿を消しましたか？
+answer: 2010年
+wrong_answers:
+  - 2008年
+  - 2009年
+  - 2023年
+explanation: |
+  サトシ・ナカモトは2010年に姿を消し、彼の創造物をコミュニティの手に委ねました。
+reviewed: true

@@ -1,9 +1,0 @@
-question: Qu'est-ce que les "makers" et les "takers" dans le contexte des carnets de commandes ?
-answer: Les "makers" sont les fournisseurs de commandes et les "takers" sont les preneurs de commandes.
-wrong_answers:
-  - Les "makers" sont les preneurs de commandes et les "takers" sont les fournisseurs de commandes.
-  - Les "makers" sont les créateurs de commandes et les "takers" sont les preneurs de commandes.
-  - Les "makers" sont les preneurs de commandes et les "takers" sont les créateurs de commandes.
-explanation: |
-  Dans le contexte des carnets de commandes, les "makers" sont ceux qui fournissent des commandes et les "takers" sont ceux qui prennent des commandes.
-reviewed: false

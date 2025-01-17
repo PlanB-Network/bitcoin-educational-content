@@ -1,0 +1,9 @@
+question: Quelle est la fonction principale des output script descriptors ?
+answer: Décrire intégralement un script de sortie et fournir les informations pour restaurer un portefeuille
+wrong_answers:
+  - Générer automatiquement des adresses multisignatures
+  - Remplacer la phrase mnémonique dans la sauvegarde des portefeuilles
+  - Simplifier les calculs des signatures numériques
+explanation: |
+  Les descriptors encapsulent toutes les informations nécessaires pour suivre un script particulier, incluant le chemin de dérivation et les clés utilisées, mais pas la phrase de récupération.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hvilken informasjon bør angis på en etikett?
+
+answer: Opprinnelsen til en UTXO.
+
+wrong_answers:
+  - Opprettelsesdatoen for en UTXO.
+  - Størrelsen på en UTXO.
+  - Mengden gebyrer knyttet til opprettelsen av en UTXO.
+
+explanation: |
+  Merking er en god praksis som hjelper til med å huske opprinnelsen til en UTXO.

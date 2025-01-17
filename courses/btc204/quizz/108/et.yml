@@ -1,0 +1,13 @@
+question: Millist heuristilist analüüsi kasutab payjoin tehing, et toimida pettusena analüüsi jaoks?
+
+answer: CIOH
+
+wrong_answers:
+  - Aadressi taaskasutus
+  - Rahakoti sõrmejälje tuvastamine
+  - Versiooni taaskasutus
+
+explanation: |
+  Kui analüütik uurib payjoin tehingut, viib CIOH teda uskuma, et kõik sisendid pärinevad samalt isikult. Siiski on see taju ekslik, kuna makse saaja panustab samuti sisenditesse koos tegeliku maksjaga. Seetõttu suunatakse ahela analüüs tõlgendusele, mis osutub valeks.
+
+reviewed: false

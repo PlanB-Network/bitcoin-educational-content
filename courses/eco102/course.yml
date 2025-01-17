@@ -1,0 +1,74 @@
+topic: social studies
+subtopic: economy
+level: beginner
+hours: 5
+
+professors:
+  - rebel-space
+
+contributors:
+  - rabbit-hole
+  - another-satoshi
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 39734
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 21117
+  - language: en
+    last_contribution_date: 2024-11-28
+    urgency: 1
+    contributors_id:
+      - Bitpreto
+    reward: 21117
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 30425
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 39734
+  - language: fr
+    last_contribution_date: 2024-11-28
+    urgency: 1
+    contributors_id:
+      - Bitpreto
+    reward: 10558
+  - language: it
+    last_contribution_date: 2024-11-16
+    urgency: 1
+    contributors_id:
+      - TinF0ilHat1
+    reward: 15224
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 58351
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 21117
+  - language: ru
+    last_contribution_date: 2024-11-16
+    urgency: 1
+    contributors_id:
+      - Reshetenko
+    reward: 19883
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 58351

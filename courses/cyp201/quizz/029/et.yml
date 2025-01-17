@@ -1,0 +1,9 @@
+question: Millist digitaalallkirja algoritmi kasutati Bitcoini käivitamisel?
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  Bitcoin kasutas algselt ECDSA-d, allkirjaprotokolli, mis põhineb elliptilistel kõveratel, enne Schnorri allkirjade tutvustamist 2021. aastal.
+reviewed: false

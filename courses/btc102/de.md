@@ -21,7 +21,11 @@ Um Ihnen den Einstieg in dieses Abenteuer zu erleichtern, habe ich diesen kosten
 
 # Einführung und Voraussetzungen zum Verständnis von Bitcoin
 
+<partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
+
 ## Einführung in den BTC102-Kurs
+
+<chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
 Willkommen bei BTC 102! Ein praxisorientierter Kurs, der Sie bei der Einrichtung Ihres Bitcoin-Plans begleiten wird! In diesem Kurs werden wir uns also darauf vorbereiten, Ihre ersten Bitcoins zu erhalten, sie ordnungsgemäß zu sichern und einen guten Einstieg in diese neue Branche zu gewährleisten.
 
@@ -42,6 +46,8 @@ Sie haben verstanden, dass dieses Training wirklich dazu dient, Sie von Anfang a
 Viel Glück :)
 
 ## Betrug und finanzielle Betrügereien
+
+<chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
 Wir befinden uns in einer Branche, in der zwei Hauptzweige im Bereich "Kryptowährungen" entstehen:
 
@@ -146,6 +152,8 @@ Behalten Sie immer im Hinterkopf, dass nicht jeder transparent über seine Absic
 
 ## Online-Sicherheit
 
+<chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
+
 Neben Betrügereien mit Kryptowährungen und Finanzangelegenheiten ist der Hauptgrund für den Verlust von Bitcoins eine schlechte Online-Sicherheitspraxis. Es kommt häufig vor, dass Menschen dasselbe Passwort für alle ihre Konten verwenden, vergessen, ihren Computer zu aktualisieren, und es versäumen, regelmäßig ihre Daten zu sichern. Wenn Sie sich von diesen Praktiken betroffen fühlen, machen Sie sich keine Sorgen, es ist immer möglich, Ihre Online-Sicherheitsgewohnheiten zu verbessern. Hier sind einige grundlegende Maßnahmen, die Sie ergreifen können:
 
 - Verwenden Sie einen Passwort-Manager (siehe das LastPass-Tutorial),
@@ -188,6 +196,8 @@ Online-Anonymität ist für eine freie und wohlhabende Gesellschaft von entschei
 Wenn Sie sich für dieses Thema interessieren, steht Ihnen das SECU 101-Training zur Verfügung, um Sie zu begleiten.
 
 ## Tipps für Anfänger
+
+<chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
 Die formale Bildung lehrt uns nur wenig über Investitionen. Daher betreten wir oft alleine diese neue und komplexe Investitionslandschaft.
 
@@ -281,7 +291,11 @@ Viel Glück! Ich hoffe, du begleitest mich in die Welt von Bitcoin und erlaubst 
 
 # Verständnis dessen, worauf wir uns einlassen
 
+<partId>a42355a3-9dd8-57ed-b590-32a333fe09ea</partId>
+
 ## Bitcoin in 5 Minuten
+
+<chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
 In diesem Kurs möchten wir uns auf den Aktionsplan konzentrieren, um deine ersten Bitcoins zu erhalten. Wenn du eine ausführliche Erklärung der Grundlagen von Bitcoin wünschst, empfehlen wir dir BTC 101, das kostenlos auf dieser Plattform verfügbar ist.
 
@@ -313,6 +327,8 @@ Wenn dies für Sie neu ist, empfehle ich Ihnen dringend, BTC 101 zu verfolgen, b
 ![in a nutshell](assets/section2/10.webp)
 
 ## Warum ist Bitcoin wichtig?
+
+<chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
 Warum ist die Bedeutung von Bitcoin so entscheidend? Das ist die zentrale Frage dieser Universität. Ob es um Ihr Studium oder Ihre Anlagestrategie geht, ohne ein klares Verständnis der Bedeutung von Bitcoin besteht die Gefahr, von Ihrem Aktionsplan abzuweichen. Das Ziel ist es daher, die Grundlagen von Bitcoin immer im Hinterkopf zu behalten, um sicherzustellen, dass Ihre Strategie mit Ihren Überzeugungen im Einklang bleibt.
 
@@ -384,6 +400,8 @@ Die Hauptbefürworter von Bitcoin heute sind immer noch hauptsächlich Cyberpunk
 Bitcoin hat eine hochphilosophische, ethische und politische Dimension, ist aber völlig gleichgültig gegenüber diesen Überlegungen. Tatsächlich ist Bitcoin ein einfaches Protokoll, das den gleichen Prozess immer wieder reproduziert. Es sind seine Benutzer, die ihn zu einer Waffe der Befreiung gegen das aktuelle Finanzsystem gemacht haben. Aus der Sicht des Cyberpunk steht Bitcoin im Gegensatz zu einer bargeldlosen Gesellschaft. Es ermöglicht vollständig private und intermediärfreie digitale Finanztransaktionen. Für die Cyberpunk-Bewegung ist Bitcoin das elektronische Äquivalent von Bargeld.
 
 ## Die Bitcoin-Industrie verstehen
+
+<chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
 Mit der Einführung von Bitcoin im Jahr 2009 durch Satoshi Nakamoto entstand eine Milliarden-Dollar-Industrie. Diese Industrie hat trotz ihrer Jugend in den letzten zehn Jahren ein exponentielles Wachstum erlebt. Jeden Tag kommen neue Akteure mit großen Geldsummen hinzu und sind bereit, in diese neue Branche einzusteigen. Heute hat die Industrie einen Punkt erreicht, an dem Regierungen, Banken, Internetgiganten und andere mit allen möglichen Eingriffen in die Bewegung eingetreten sind.
 
@@ -508,6 +526,8 @@ Unbegrenzte Macht? Nein. Die Hauptentwickler haben keine unbegrenzte Macht und k
 
 ## Die Schichtenarchitektur von Bitcoin
 
+<chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
+
 Bitcoin, als Open-Source-Protokoll, kann von jedem mit zusätzlichen Protokoll-/Anwendungs-Schichten ergänzt und erweitert werden. Einige dieser Funktionen sind bedeutender als andere und schaffen ein dynamisches Ökosystem mit einer Vielzahl von Unternehmen, die zur Entwicklung der Infrastruktur beitragen. Beispiele für solche Projekte sind Sidechains (z.B. Liquid Chain von Blockstream), das Lightning Network von Lightning Labs und Identitätskonzepte (z.B. Microsoft ION). Diese Projekte sind wie zusätzliche Schichten, die dem ursprünglichen Bitcoin-Protokoll hinzugefügt werden.
 
 Wussten Sie schon? Das Internet wurde nicht als Ganzes gebaut. Es ist vielmehr das Ergebnis mehrerer übereinander gestapelter Protokollschichten - HTTP, TCP, IP. Auf diese Weise ist jede Schicht äußerst effizient darin, die ihr spezifisch zugewiesene Aufgabe zu erfüllen, während die anderen Ebenen anderen Bedürfnissen gerecht werden.
@@ -536,7 +556,11 @@ Das ist, glaube ich, die Idee, die Andreas Antonopoulos mir vorgestellt hat. @aa
 
 # Umsetzung Ihres Plans
 
+<partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
+
 ## Wählen Sie Ihr Profil
+
+<chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
 Jetzt, da wir die grundlegenden Grundlagen überprüft und gelernt haben, wie man Betrügereien und Geldverluste vermeidet, können wir unseren Plan ausarbeiten. Der Plan wird zu Beginn recht einfach sein, aber es ist wichtig, loszulegen. Sie können ihn immer anpassen, während die Zeit vergeht.
 
@@ -564,6 +588,8 @@ Damit sollten Sie Ihren Bedürfnissen gerecht werden, den passenden Plan auswäh
 
 ## Der Hodler
 
+<chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
+
 Ob in Investitionen oder in Bitcoin, langfristige Anlagen sind in der Regel die Norm. Statistisch gesehen sind sie langfristig am rentabelsten und am einfachsten umzusetzen:
 
 Man kauft und tut dann nichts mehr. (Beachten Sie, dass nichts zu tun der schwierigste Teil ist)
@@ -585,16 +611,16 @@ Für diesen Anlegertyp wird empfohlen, zu Beginn eine Cold Wallet wie den Bitbox
 
 Relevante Wallet-Tutorials:
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Handelsplattformen:
 
-- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
-- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 Wenn der Hodler weiter gehen möchte: Einrichtung eines DCA-Plans wie Stacker und eines Hot Wallets LN für den Gebrauch, um etwas Bitcoin auszugeben.
 
@@ -621,6 +647,8 @@ Insgesamt ist der Hodler ein geduldiger, disziplinierter und visionärer Investo
 
 ## Der Stacker
 
+<chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
+
 In Bitcoin ist das Konzept des "Stackers" ziemlich bekannt. Die Idee ist einfach: Es gibt nur 21 Millionen Bitcoins, und jeder kleine Bitcoin zählt! Dieser kleine Bitcoin wird tatsächlich Satoshi (oder SAT) genannt. Der Stacker hat es sich zum Ziel gesetzt, so viele wie möglich anzusammeln.
 
 ![image](assets/tuto/11.webp)
@@ -639,21 +667,21 @@ Andere Lösungen könnten darin bestehen, damit zu beginnen, Waren oder Dienstle
 
 Eine Hot Wallet, um schnell anzusammeln.
 
-- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
-- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Eine Cold Wallet für langfristige Sicherheit.
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Eine DCA-Plattform zum Anhäufen von Bitcoin.
 
-- [Relai](https://planb.network/tutorials/exchange/relai)
-- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 Ein solches Profil kann natürlich auch einen Broker nutzen, um einen großen Kauf auf einmal zu tätigen, wie ein Hodler, aber im Allgemeinen besteht das Stacking-Konzept darin, regelmäßig Satoshis zu seinem Portfolio hinzuzufügen. Ein häufigerer Ansatz wäre also, Bitcoin peer-to-peer zu nutzen und Bitcoin direkt mit Bargeld von Freunden oder Mitgliedern der Bitcoin-Community zu kaufen.
 
@@ -677,6 +705,8 @@ Der Stacker ist eine methodische und fokussierte Person mit einem klaren Plan, u
 
 ## Der Benutzer
 
+<chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
+
 Schließlich ist der letzte Typ von Bitcoiner, der in einem Einführungskurs erwähnt werden kann, der Bitcoiner, der Bitcoin regelmäßig nutzen muss. Ob aus beruflichen Verpflichtungen oder einfach aus dem Wunsch, das Ökosystem zu unterstützen, es ist notwendig, Lösungen für den häufigen Gebrauch vorzusehen.
 
 ![image](assets/tuto/12.webp)
@@ -699,22 +729,21 @@ Um sich Bitcoin auszusetzen, hat dieser Profiltyp mehrere Optionen:
 
 Hot Wallet LN
 
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
-- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
-- [Breez](https://planb.network/tutorials/wallet/breez)
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 Cold Wallet
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Kaufplattform
 
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
-
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 ### Ist dies für Sie?
 
@@ -730,6 +759,8 @@ Kaufplattform
 Der Benutzer ist technisch versiert und aktiv in der Nutzung von Bitcoin engagiert. Er sucht ständig nach Möglichkeiten, die Effizienz und Sicherheit seiner Transaktionen und Bitcoin-Bestände zu verbessern. Seine Flexibilität und sein Engagement für das Ökosystem spiegeln sich in seiner Bereitschaft wider, verschiedene Lösungen von Lightning-Wallets bis hin zu schnellen Austauschlösungen zu nutzen. Obwohl er aktiv in Bitcoin-Transaktionen involviert ist, vernachlässigt er nicht die Sicherheit und achtet darauf, eine klare Trennung zwischen seinen Bitcoins für den täglichen Gebrauch und denen, die langfristig aufbewahrt werden, aufrechtzuerhalten.
 
 ## Der Paranoide
+
+<chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 
 An dieser Stelle möchte ich den paranoiden Bitcoin-Nutzer hinzufügen. Diese Art von Person möchte sich nicht dem KYC (Know Your Customer) aussetzen, bevorzugt Anonymität und legt großen Wert auf ihre Privatsphäre. Der Paranoide wird auch LN über seinen eigenen Knoten verwenden und an seiner Sicherheit arbeiten.
 
@@ -747,19 +778,19 @@ Anschließend muss er lernen, seine Coins zu mischen, seine UTXOs (Unspent Trans
 
 ### Tutorial:
 
-Hot Wallet: 
-- [Samourai Wallet](https://planb.network/tutorials/wallet/samourai)
+Hot Wallet:
+https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956
 
-Cold Wallet: 
-- [Coldcard](https://planb.network/tutorials/wallet/coldcard)  
-- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (DIY-Wallet)
+Cold Wallet:
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
 
 Nicht-KYC-Kauf zwischen Privatpersonen:
 
-- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [Bisq](https://planb.network/tutorials/exchange/bisq)
-- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 ### Ist es für Sie?
 
@@ -782,7 +813,11 @@ Im Geiste des Paranoikers sind Vorsicht, Sicherheit und Anonymität von größte
 
 # Die Zukunft mit Bitcoin
 
+<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
+
 ## Erstellung eines Nachlassplans
+
+<chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 
 Stellen Sie sich das folgende dramatische Szenario vor.
 Ein Autounfall, BOOM, und du bist nicht mehr in dieser Welt. Du verschwindest und lässt deine Familie ohne ihren Bitcoin-Experten zurück. Sie wissen nicht, wo das Geld ist, erinnern sich aber daran, dass du ständig von Begriffen wie Schlüssel, Wortliste und der Unumkehrbarkeit von Bitcoin-Transaktionen gesprochen hast. Sie sind am Boden zerstört, verwirrt und müssen nun alles selbst verstehen. Obwohl diese Situation beängstigend erscheinen mag, ist sie eine reale Möglichkeit, die nicht vernachlässigt werden kann. Du hast dann zwei Möglichkeiten: Entweder widmest du 15 Minuten bis 1 Stunde, um einen Nachfolgeplan zu erstellen, oder du tust nichts. Niemand wird dich dafür verurteilen, aber wenn Menschen von dir abhängig sind, könnten diese 15 Minuten einen großen Unterschied an einem Tag machen. Die Entscheidung liegt bei dir.
@@ -845,13 +880,12 @@ Es wird immer einen Kompromiss zwischen technischer Expertise, Verfügbarkeit un
 
 Aufteilung der Verantwortlichkeiten: Die Vertrauensperson sollte NIEMALS Zugriff auf Ihren privaten Schlüssel haben. Ihre einzige Aufgabe besteht darin, Ihren Angehörigen dabei zu helfen, das Sicherheitssystem Ihrer Bitcoins zu verstehen und Vertrauen aufzubauen. Deshalb wählen Sie zwei vertrauenswürdige Personen aus. Bei Bedarf können Sie auch auf eine Drittpartei (spezialisierter Anwalt oder Nachlassplanungsdienste) zurückgreifen.
 
-| Vertrauensperson         | Vertrauen      | BTC-Kenntnisse  | Vertrauenswürdige Informationen | Hinweis                                                                                      |
-|--------------------------|----------------|-----------------|---------------------------------|---------------------------------------------------------------------------------------------|
-| Mein Bruder Bob          | Sehr groß      | Niedrig         | Telefon & E-Mail                | "Bob weiß nicht viel über BTC, aber wir können ihm zu 100% vertrauen, um zu helfen."        |
-| Mein Cousin Nathan       | Groß           | Durchschnittlich| Telefon & Instagram             | "Die Nummer 1 der Personen, mit denen man sprechen kann. Er kann Ihnen helfen. Er ist informiert." |
-| Ricco (Crypto-Kumpel)    | Durchschnittlich| Sehr groß       | Twitter & E-Mail & Foto         | "Vertrauen Sie ihm bei technischen Fragen. Niemals mit Geld. Sie müssen ihn kontaktieren."  |
-| YouTuber & Influencer    | Niedrig        | Groß            | YouTube-Link                    | "Bilden Sie sich weiter, indem Sie ihm folgen. Er kann Ihnen nicht direkt helfen."          |
-
+| Vertrauensperson      | Vertrauen        | BTC-Kenntnisse   | Vertrauenswürdige Informationen | Hinweis                                                                                            |
+| --------------------- | ---------------- | ---------------- | ------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Mein Bruder Bob       | Sehr groß        | Niedrig          | Telefon & E-Mail                | "Bob weiß nicht viel über BTC, aber wir können ihm zu 100% vertrauen, um zu helfen."               |
+| Mein Cousin Nathan    | Groß             | Durchschnittlich | Telefon & Instagram             | "Die Nummer 1 der Personen, mit denen man sprechen kann. Er kann Ihnen helfen. Er ist informiert." |
+| Ricco (Crypto-Kumpel) | Durchschnittlich | Sehr groß        | Twitter & E-Mail & Foto         | "Vertrauen Sie ihm bei technischen Fragen. Niemals mit Geld. Sie müssen ihn kontaktieren."         |
+| YouTuber & Influencer | Niedrig          | Groß             | YouTube-Link                    | "Bilden Sie sich weiter, indem Sie ihm folgen. Er kann Ihnen nicht direkt helfen."                 |
 
 ### Schritt 2: Machen Sie eine einfache und schnelle Bestandsaufnahme
 
@@ -944,7 +978,11 @@ Sie sind die Besten :D Mein Team und meine Schüler danken Ihnen ebenfalls!
 
 # Dankeschön und weiterhin den Kaninchenbau erkunden
 
+<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
+
 ## Herzlichen Glückwunsch! SIE GEHÖREN ZU DEN TOP 0,1%
+
+<chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 Wenn Sie unserem Inhalt von Anfang an gefolgt sind, sind Sie jetzt ein echter Bürger des 21. Jahrhunderts und einer der erfahrensten im Bereich Bitcoin! Sie verwenden einen Passwort-Manager und die Zwei-Faktor-Authentifizierung (2FA). Sie verstehen, was Bitcoin ist und warum es wichtig ist. Sie besitzen Bitcoins und haben eine sichere Möglichkeit, mehr zu kaufen oder zu verdienen. Sie haben Ihre Bitcoins in einer "kalten" Brieftasche gespeichert und eine angemessene Schlüsselverwaltung eingerichtet. Sie haben einen Nachlassplan für Ihre Angehörigen erstellt. Sie sind jetzt sicher und können sich entspannen! Genießen Sie ein Bier und seien Sie stolz auf sich!
 
@@ -960,6 +998,21 @@ Ich bin wirklich stolz, dass Sie diesen Meilenstein erreicht haben. Ich meine es
 
 In jedem Fall bleiben alle unsere Schulungen kostenlos, und es stehen viele Ressourcen oder Tutorials auf unserer Plattform zur Verfügung, um Sie zu begleiten. Viel Erfolg bei Ihren Studien!## Beachten Sie die Schulung!
 
-## Unterstützen Sie die Schulung!
+# Abschluss
 
-Dieser Kurs sowie der gesamte Inhalt dieser Universität werden Ihnen kostenlos von unserer Community zur Verfügung gestellt. Um uns zu unterstützen, können Sie ihn mit anderen teilen, Mitglied der Universität werden und sogar über GitHub zu ihrer Entwicklung beitragen. Im Namen des gesamten Teams, vielen Dank!
+<partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
+
+## Bewertungen & Noten
+
+<chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Abschlussprüfung
+
+<chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Abschluss
+
+<chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

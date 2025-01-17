@@ -1,0 +1,9 @@
+question: Tính chất nào của Schnorr cho phép kết hợp nhiều khóa công khai thành một?
+answer: Tích hợp Khóa
+wrong_answers:
+  - Xác minh Đợt
+  - Tính Dễ Biến Dạng
+  - Nén Chữ Ký
+explanation: |
+  Schnorr cho phép tích hợp nhiều khóa công khai vào một khóa duy nhất.
+reviewed: false

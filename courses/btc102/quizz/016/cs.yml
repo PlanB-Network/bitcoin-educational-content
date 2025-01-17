@@ -1,0 +1,12 @@
+question: Jaké je jedno z opatření pro udržení vašeho počítače v optimálním pracovním stavu?
+answer: Pravidelně zálohujte svá data
+wrong_answers:
+  - Sdílejte svá hesla
+  - Používejte pro všechny účty stejné heslo
+  - Zanedbávejte aktualizaci vašeho počítače
+explanation: |
+  Pravidelná záloha dat je jedním z opatření pro udržení vašeho počítače
+
+  v optimálním pracovním stavu. Je to také základní opatření pro zlepšení
+
+  návyků v oblasti online bezpečnosti.

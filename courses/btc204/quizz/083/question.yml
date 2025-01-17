@@ -1,0 +1,17 @@
+id: 5f0aecfb-e17f-45f2-974e-c285252e5da0
+chapterId: 326c9654-b359-4906-b23d-d6518dd5dc3e
+difficulty: intermediate
+duration: 15
+author: pretty-private
+tags:
+  - Bitcoin
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 1296

@@ -1,0 +1,9 @@
+question: O que envolve a Heurística de Propriedade Comum de Entrada (CIOH)?
+answer: Quando uma transação inclui múltiplas entradas, é provável que todas sejam de uma única entidade.
+wrong_answers:
+  - Quando uma transação inclui múltiplas entradas, provavelmente todas vêm de entidades diferentes.
+  - Quando uma transação inclui múltiplas saídas, é provável que todas estejam indo para uma única entidade.
+  - Quando uma transação inclui múltiplas saídas, é provável que todas estejam indo para entidades diferentes.
+explanation: |
+  A CIOH é uma heurística que sugere que, quando uma transação inclui múltiplas entradas, essas entradas provavelmente todas se originam de uma única entidade. Consequentemente, a propriedade é comum.
+reviewed: false

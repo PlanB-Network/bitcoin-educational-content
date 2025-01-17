@@ -1,0 +1,9 @@
+question: What does the triangle opening technique allow participating nodes to achieve?
+answer: Incoming and outgoing liquidity in each channel
+wrong_answers:
+  - Reduced routing fees
+  - An unlimited number of transactions without confirmation
+  - A direct link with every other network node
+explanation: |
+  The triangle opening technique allows each node to achieve balanced liquidity, both incoming and outgoing, by forming a loop of channels among several participants.
+reviewed: false

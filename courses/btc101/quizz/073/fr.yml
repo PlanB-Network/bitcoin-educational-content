@@ -1,0 +1,11 @@
+question: Qu'est-ce que la clé privée dans un portefeuille Bitcoin ?
+answer: Une clé secrète qui vous permet de signer vos transactions.
+wrong_answers:
+  - Une clé publique utilisée pour générer des adresses Bitcoin.
+  - Une liste secrète de mots pour détruire un portefeuille en cas de besoin.
+  - Une clé secrète pour chiffrer les transactions Bitcoin.
+explanation: >-
+  Lors de l'initialisation d'un portefeuille Bitcoin, une liste secrète de mots, appelée graine mnémonique, est générée.
+  Cette liste de récupération est très importante car elle représente la propriété
+  des Bitcoins et donc le droit de les envoyer.
+reviewed: true

@@ -1,0 +1,15 @@
+question: Which of the following is not a key feature of micro-transactions on the Lightning Network?
+answer: Long payment times.
+wrong_answers:
+  - Low Fees.
+  - Instant Payments.
+  - Scalability.
+explanation: |
+  With the Lightning Network micro-transactions, users can
+  have low transaction fees, making it economical to send
+  very small amounts of Bitcoin. They also can have instant
+  payments, allowing for real-time transactions. At last they
+  can get scalability, enabling the handling of a large
+  number of transactions simultaneously. Thus, the wrong
+  answer is long payment times.
+reviewed: true

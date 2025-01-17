@@ -1,0 +1,9 @@
+question: Vấn đề quản lý khóa chính là gì?
+answer: Sự phức tạp của việc bảo mật và lưu trữ một cặp khóa cho mỗi khách hàng
+wrong_answers:
+  - Sự không thể tái tạo khóa bị mất của khách hàng
+  - Nhu cầu phải giải mã mỗi khóa trước khi sử dụng bởi khách hàng
+  - Sự cần thiết phải truyền khóa cho mỗi lần giao tiếp
+explanation: |
+  Vấn đề quản lý khóa nằm ở khó khăn trong việc lưu trữ và bảo mật một cặp khóa cho mỗi người dùng, đặc biệt là khi số lượng khách hàng đạt tới hàng triệu.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Jaký modifikátor lze kombinovat se základními příznaky sighash?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY modifikuje příznaky sighash tak, aby pokrývaly pouze jediný vstup, zatímco zbytek zůstává modifikovatelný.

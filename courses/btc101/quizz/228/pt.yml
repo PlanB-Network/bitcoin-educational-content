@@ -1,0 +1,10 @@
+question: As taxas para transações na Lightning Network são extremamente baixas, frequentemente menos de...?
+answer: 0,5%.
+wrong_answers:
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+  As taxas para transações na Lightning Network são extremamente baixas, frequentemente
+  menos de 0,5%.
+reviewed: true

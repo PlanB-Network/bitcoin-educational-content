@@ -1,0 +1,64 @@
+id: 21f38dcc-685a-456c-b0ff-45e11d6d4731
+chapterId: 0455ffe3-9d45-5a67-ac96-3f815dc507a1
+difficulty: easy
+duration: 15
+author: DecouvreBitcoin
+tags:
+  - Bitcoin
+  - Monetary History
+  - Time Value of Money
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2682
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2591
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1295
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2636
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2682
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2591
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2636
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2773
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2591
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2773

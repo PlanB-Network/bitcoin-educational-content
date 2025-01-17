@@ -1,0 +1,12 @@
+question: Quais são as características de uma boa senha?
+answer: Longa, complexa, única e não baseada em informações pessoais.
+wrong_answers:
+  - Curta, simples e fácil de lembrar.
+  - Baseada em informações pessoais como datas de nascimento e nomes.
+  - A mesma senha para todas as contas.
+explanation: |
+  Uma boa senha é longa (pelo menos 12 caracteres), complexa
+  (uma mistura de letras maiúsculas e minúsculas, números e
+  símbolos), única (não reutilizada para diferentes contas) e
+  não baseada em informações pessoais.
+reviewed: true

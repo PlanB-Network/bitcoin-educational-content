@@ -1,0 +1,8 @@
+question: Was spiegelt eine Commitment-Transaktion in einem Lightning-Kanal wider?
+answer: Die neue Verteilung der Gelder zwischen den beiden Parteien
+wrong_answers:
+  - Die Gesamtanzahl der getätigten Transaktionen
+  - Die Höhe der Gebühren, die für die Transaktion zu zahlen sind
+  - Die Eröffnung eines neuen Zahlungskanals
+explanation: |
+  Eine Commitment-Transaktion repräsentiert die aktuelle Verteilung der Gelder im Kanal nach jeder Lightning-Transaktion, wird jedoch nicht auf der Blockchain veröffentlicht, solange der Kanal offen bleibt.

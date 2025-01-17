@@ -1,0 +1,10 @@
+question: Hva er hovedkarakteristikken til en Hodler i sammenheng med Bitcoin-investering?
+answer: De holder på Bitcoin over lang tid.
+wrong_answers:
+  - De handler ofte med Bitcoin.
+  - De investerer kun i Bitcoin når prisen er lav.
+  - De selger Bitcoin så snart prisen øker.
+explanation: |
+  En Hodler, i sammenheng med Bitcoin-investering, er noen som holder
+  på Bitcoin over lang tid, i troen på at bruken og sjeldenheten vil øke over
+  tid.

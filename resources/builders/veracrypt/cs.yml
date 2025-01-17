@@ -1,0 +1,5 @@
+description: |
+  VeraCrypt je open-source software pro šifrování disků, který umožňuje chránit vaše citlivá data. Nástupce TrueCryptu, nabízí robustní šifrování pomocí algoritmů, jako jsou AES, Serpent nebo Twofish, což umožňuje vytvářet šifrované svazky nebo šifrovat celé oddíly a disky, interní i externí.
+
+contributors:
+  - pretty-private

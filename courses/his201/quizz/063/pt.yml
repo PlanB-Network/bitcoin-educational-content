@@ -1,0 +1,9 @@
+question: Qual idioma foi dedicado ao primeiro sub-fórum não inglês do fórum Bitcoin em julho de 2010?
+answer: Russo
+wrong_answers:
+  - Francês
+  - Alemão
+  - Italiano
+explanation: |
+  Foi [estabelecido](https: //bitcointalk.org/index.php?topic=151.msg6241#msg6241) por Martti Malmi em 28 de julho. Outros idiomas foram adicionados nos meses seguintes.
+reviewed: false

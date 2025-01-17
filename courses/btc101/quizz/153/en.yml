@@ -1,0 +1,13 @@
+question: What is the purpose of the difficulty adjustment in Bitcoin mining?
+answer: It rebalances the global mining game based on the number of participants.
+wrong_answers:
+  - It increases the reward for mining.
+  - It decreases the number of bitcoins in circulation.
+  - It increases the security of the Bitcoin network.
+explanation: >-
+  The difficulty adjustment in Bitcoin mining is designed to ensure that
+  the time it takes to mine a block remains approximately constant, regardless of
+  the total computational power of the network. It adjusts the difficulty of the mathematical
+  problem that miners must solve, based on the number of miners participating in the
+  network.
+reviewed: true

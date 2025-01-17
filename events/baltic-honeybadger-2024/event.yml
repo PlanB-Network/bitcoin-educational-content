@@ -1,0 +1,24 @@
+- start_date: 2024-08-24
+  end_date: 2024-08-25
+  address_line_1:  Riga, Latvia
+  address_line_2:
+  address_line_3: 
+  name: Baltic HoneyBadger 2024
+  builder: Baltic HoneyBadger
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: The most OG Bitcoin conference in the world
+  language: 
+    - en
+  links:
+    website: https://baltichoneybadger.com/
+    replay_url:
+    live_url :
+  tags: 
+    - International
+    - bitcoiner
+    - General
+
+

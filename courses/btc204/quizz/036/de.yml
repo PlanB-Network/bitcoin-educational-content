@@ -1,0 +1,9 @@
+question: Warum könnten weniger häufig verwendete Skripttypen leichter identifizierbar sein als weit verbreitete Skripte?
+answer: Weil die Gruppe von Transaktionen mit dem gleichen Skripttyp kleiner ist.
+wrong_answers:
+  - Weil sie mehr Validierungen durch Miner erfordern.
+  - Weil sie schwächere Verschlüsselungsalgorithmen verwenden.
+  - Weil sie häufiger von den Knoten des Bitcoin-Netzwerks abgelehnt werden.
+explanation: |
+  Wenn die Gesamtgruppe von Transaktionen mit dem gleichen Skripttyp, in dem wir uns verstecken, klein ist, sind wir leichter identifizierbar als in einer sehr großen Gruppe von Transaktionen.
+reviewed: false

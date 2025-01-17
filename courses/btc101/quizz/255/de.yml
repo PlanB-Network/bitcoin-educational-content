@@ -1,0 +1,10 @@
+question: Was ist einer der Hauptgründe für die Schaffung von Bitcoin?
+answer: Den Vorschlag zur Veränderung des Finanzsystems zu unterbreiten.
+wrong_answers:
+  - Den Vorschlag zur Abschaffung des Geldes zu unterbreiten.
+  - Den Vorschlag zur Schaffung einer neuen Form von KI-Technologie zu unterbreiten.
+  - Den Vorschlag zur Kontrolle der Weltbevölkerung zu unterbreiten.
+explanation: |
+  Im Text wird erwähnt, dass Satoshi Nakamoto Bitcoin im
+  Jahr 2008 erschuf, um den Vorschlag zur Veränderung des Finanzsystems zu unterbreiten.
+reviewed: true

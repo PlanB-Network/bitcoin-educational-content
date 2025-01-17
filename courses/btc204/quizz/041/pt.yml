@@ -1,0 +1,9 @@
+question: Qual é a principal desvantagem dos Caixas Eletrônicos Automáticos (ATM)?
+answer: Frequentemente, taxas muito altas.
+wrong_answers:
+  - Necessidade de uma conexão rápida com a internet.
+  - Falta de suporte para moedas locais.
+  - Segurança da transação não garantida.
+explanation: |
+  Comprar bitcoins através de ATMs é uma solução interessante para a privacidade do usuário, mas sua principal desvantagem é que eles frequentemente cobram taxas exorbitantes.
+reviewed: false

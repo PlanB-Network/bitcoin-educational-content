@@ -1,0 +1,9 @@
+question: Was passiert, wenn Alice nicht Bobs Unterschrift für die Auszahlungstransaktion erhält?
+answer: Sie riskiert den Verlust des Zugangs zu ihren in der Multisignatur-Adresse hinterlegten Geldern.
+wrong_answers:
+  - Sie kann nicht länger mit Bob im Lightning-Netzwerk kommunizieren
+  - Der Kanal öffnet sich mit begrenzter Kapazität
+  - Bob erhält automatisch die Gelder im Kanal
+explanation: |
+  Ohne Bobs Unterschrift auf der Auszahlungstransaktion kann Alice die Wiederherstellung ihrer Gelder im Falle eines Problems nicht sicherstellen, was ein Verlustrisiko darstellt.
+reviewed: false

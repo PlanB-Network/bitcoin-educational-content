@@ -1,0 +1,12 @@
+question: Apa perbedaan antara LastPass dan Dashlane?
+answer: Keduanya adalah layanan pihak ketiga, tetapi Dashlane menawarkan fitur tambahan seperti pelacakan informasi kartu kredit dan catatan aman.
+wrong_answers:
+  - LastPass adalah layanan pihak ketiga, sementara Dashlane adalah layanan yang dihosting sendiri.
+  - Dashlane adalah layanan pihak ketiga, sementara LastPass adalah layanan yang dihosting sendiri.
+  - Tidak ada perbedaan, mereka menawarkan fitur yang sama.
+explanation: |
+  Baik LastPass maupun Dashlane adalah layanan pihak ketiga, yang berarti kata sandi Anda
+
+  disimpan di server mereka. Namun, Dashlane menawarkan fitur tambahan seperti pelacakan
+
+  informasi kartu kredit dan catatan aman.

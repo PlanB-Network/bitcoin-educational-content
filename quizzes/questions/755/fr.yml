@@ -1,9 +1,0 @@
-question: Quelle est la couche de base du réseau Bitcoin souvent appelée?
-answer: La couche de règlement
-wrong_answers:
-  - La couche de transaction
-  - La couche de sécurité
-  - La couche de consensus
-explanation: |
-  La couche de base du réseau Bitcoin, sur laquelle le Lightning Network s'appuie pour ouvrir et fermer les canaux de paiement, est souvent appelée la "couche de règlement".
-reviewed: false

@@ -1,0 +1,9 @@
+question: Tên của mẫu gồm một UTXO đầu vào và một UTXO đầu ra là gì?
+answer: Sweeping
+wrong_answers:
+  - Consolidation
+  - Coinjoin
+  - Batch spending
+explanation: |
+  Cấu trúc này được hiểu là chúng ta đang thấy một hành động sweeping, nghĩa là việc tự chuyển bitcoin cho chính mình.
+reviewed: false

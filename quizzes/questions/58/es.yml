@@ -1,9 +1,0 @@
-question: ¿Cuál fue la tasa de inflación en Zimbabwe en noviembre de 2008?
-answer: 79,600,000,000%
-wrong_answers:
-  - 796%
-  - 79,600,000,000,000,000%
-  - 100%
-explanation: |
-  En noviembre de 2008, la tasa de inflación mensual de la moneda de Zimbabwe alcanzó un máximo del 79,600,000,000%, lo que hizo que el valor del dólar zimbabuense se redujera a cero.
-reviewed: false

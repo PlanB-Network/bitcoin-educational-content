@@ -1,9 +1,0 @@
-question: Wer entscheidet über die Route, bevor die Zahlung im Lightning Network gesendet wird?
-answer: Die Node des Absenders.
-wrong_answers:
-  - Die Node des Empfängers.
-  - Die Node des Vermittlers.
-  - Das Netzwerk selbst.
-explanation: |
-  Im Lightning Network ist es die Node des Absenders, die über die Route entscheidet, bevor die Zahlung gesendet wird. Daher wird nach der besten Route gesucht und nur der Absender kennt die Route und den Preis.
-reviewed: false

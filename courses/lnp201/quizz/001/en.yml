@@ -1,0 +1,9 @@
+question: In a payment channel, what is the capacity of the channel?
+answer: The total amount of funds that the two participants can exchange
+wrong_answers:
+  - The time limit for which the channel can remain open
+  - The maximum amount one participant can send in a single transaction
+  - The number of transactions a channel can support per day
+explanation: |
+  The capacity of the channel corresponds to the total funds of the two participants and remains fixed to determine the possible exchanges.
+reviewed: false

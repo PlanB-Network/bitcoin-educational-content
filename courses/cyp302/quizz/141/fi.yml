@@ -1,0 +1,9 @@
+question: Miksi kahden suuren alkuluvun tuloksen tekijöihin jakaminen on pidetty vaikeana ongelmana?
+answer: Koska se vaatii kohtuuttoman paljon laskentaaikaa, jopa supertietokoneille.
+wrong_answers:
+  - Koska se vaatii julkisen avaimen kullekin tekijälle.
+  - Koska se sisältää vain peruslaskutoimituksia.
+  - Koska se perustuu kertolaskuun eikä jakolaskuun.
+explanation: |
+  Suuren luvun, kahden suuren alkuluvun tuloksen, tekijöihin jakaminen vaatii laskentatehoa, joka ylittää nykyisten tietokoneiden kapasiteetin, tehden tästä tehtävästä käytännössä mahdottoman.
+reviewed: false

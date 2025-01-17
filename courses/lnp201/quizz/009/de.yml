@@ -1,0 +1,9 @@
+question: Was macht das Locking-Script bei einer Bitcoin-Transaktion?
+answer: Es legt spezifische Bedingungen fest, um die zugehörigen Mittel auszugeben
+wrong_answers:
+  - Es sendet automatisch die Mittel an mehrere Adressen
+  - Es bestimmt den Wert des zu erstellenden UTXO
+  - Es sperrt die Mittel temporär, um übermäßiges Ausgeben zu verhindern
+explanation: |
+  Das Locking-Script legt Bedingungen fest, wie zum Beispiel die Signierung mit einem privaten Schlüssel, um die Mittel in einer Transaktion freizugeben und zu verwenden.
+reviewed: false

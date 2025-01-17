@@ -1,9 +1,0 @@
-question: Cosa succede in un attacco del 51% sulla rete Bitcoin?
-answer: Un agente possiede più della metà della potenza di calcolo e può tentare di modificare la blockchain.
-wrong_answers:
-  - Un agente prende il controllo di più della metà dei bitcoin in circolazione.
-  - Un agente prende il controllo di più della metà dei nodi nella rete Bitcoin.
-  - Un agente prende il controllo di più della metà dei pool di mining nella rete Bitcoin.
-explanation: |
-  In un attacco del 51%, un agente con più della metà della potenza di calcolo della rete potrebbe potenzialmente manipolare la blockchain creando una catena alternativa di blocchi. Tuttavia, un tale attacco sarebbe estremamente costoso e improbabile che sia redditizio, rendendolo uno scenario improbabile.
-reviewed: false

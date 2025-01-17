@@ -1,0 +1,9 @@
+question: What is the role of the seed in a Bitcoin HD wallet?
+answer: To serve as the starting point for the derivation of all keys
+wrong_answers:
+  - Store the wallet's transactions
+  - Directly generate the master public key
+  - Ensure transaction confidentiality
+explanation: |
+  The seed is a 512-bit sequence derived from the mnemonic phrase and the passphrase. It forms the basis of all the keys in the wallet.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaká je definice hyperinflace podle Bernholze?
+answer: Hyperinflace je rozšířením vysoké inflace, charakterizovaná velkými rozpočtovými schodky financovanými tvorbou peněz.
+wrong_answers:
+  - Hyperinflace je pokles množství peněz.
+  - Hyperinflace je mírný nárůst množství peněz.
+  - Hyperinflace je pokles produkce.
+explanation: |
+  Kapitola vysvětluje, že podle Bernholze je hyperinflace rozšířením vysoké inflace, charakterizovaná velkými rozpočtovými schodky financovanými tvorbou peněz.
+reviewed: false

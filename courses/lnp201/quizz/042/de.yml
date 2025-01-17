@@ -1,0 +1,9 @@
+question: Welches Kriterium kann einem Knoten helfen, eine effiziente Zahlungsroute zu wählen?
+answer: Die Erfolgswahrscheinlichkeit basierend auf der Gesamtkapazität der Kanäle
+wrong_answers:
+  - Die geografische Entfernung zwischen den Knoten
+  - Die Anwesenheit von Knoten mit einem niedrigen Gebührenniveau
+  - Die Anzahl der Zahlungen, die vom Zielknoten gemacht wurden
+explanation: |
+  Die Gesamtkapazität der Kanäle kann auf eine höhere Erfolgswahrscheinlichkeit hinweisen, da sie eine größere Verfügbarkeit von Liquidität für Transaktionen suggeriert.
+reviewed: false

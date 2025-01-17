@@ -1,0 +1,9 @@
+question: Chi ha stabilito il primo servizio di scambio tra bitcoin e dollaro nell'ottobre 2009?
+answer: NewLibertyStandard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+explanation: |
+  Questo servizio era rudimentale: gli scambi venivano negoziati via email, e i pagamenti venivano effettuati tramite PayPal. Il tasso di cambio si basava sui costi di mining di NewLibertyStandard stesso.
+reviewed: false

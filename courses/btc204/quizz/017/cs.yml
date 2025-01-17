@@ -1,0 +1,9 @@
+question: Jak se nazývá informace, která spojuje svazek aktivit na řetězci s formou skutečné identity?
+answer: Vstupní bod.
+wrong_answers:
+  - Klíč propojení.
+  - Otiskové spojení.
+  - Analytický marker.
+explanation: |
+  Chování a informace, které mohou spojit skutečnou identitu s aktivitou na řetězci, se nazývají vstupní body.
+reviewed: false

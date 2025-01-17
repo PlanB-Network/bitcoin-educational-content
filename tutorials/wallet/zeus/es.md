@@ -1,10 +1,11 @@
 ---
-name: ZEUS
+name: Zeus
 
 description: Configuración de la billetera Zeus
 ---
 
-![Zeus](assets/zeus_intro.jpg)
+![Zeus](assets/cover.webp)
+
 
 Zeus es una aplicación móvil de administración de billetones y nodos de bitcoin con funcionalidades completas de una billetera Lightning de bitcoin que simplifica los pagos de bitcoin, les brinda a los usuarios un control completo de sus finanzas y permite a los usuarios más avanzados administrar sus nodos de rayos desde la palma de su mano.
 
@@ -135,7 +136,9 @@ Simplemente ingrese su dirección NIP-05 legible por Nostr o NPUB, y Zeus consul
 
 Aquí hay un video corto cómo configurar y usar sus contactos Zeus:
 
-![Zeus](assets/zeus-contacts.mp4)
+
+![Zeus](https://peertube.planb.network/w/aYvG1sq71s6ZyPPR4MtM57)
+
 
 **D - Respaldo de la billetera**
 
@@ -258,7 +261,9 @@ Dentro de esta configuración, encontrará varias opciones para configurar su PO
 
 Aquí hay un video de demostración en vivo Cómo usar Zeus POS:
 
-![Zeus](assets/zeus-pos.mp4)
+
+![Zeus](https://peertube.planb.network/w/abqSAn2jGQuu3jncGH3rUj)
+
 
 **R - Merch y Suporte**
 
@@ -308,7 +313,9 @@ Para obtener más información, gastará de este canal, más liquidez entrante t
 
 Aquí hay una agradable demostración visual simple (de Rene Pickhardt) sobre cómo funcionan los canales LN:
 
-![Zeus](assets/zeus-ln-explained.mp4)
+
+![Zeus](https://peertube.planb.network/w/w7nBwgn3tBs8q9o5Mb8RCW)
+
 
 En este momento, considerando la pantalla de demostración para canales, haga clic en el nombre del canal y verá más detalles al respecto.
 

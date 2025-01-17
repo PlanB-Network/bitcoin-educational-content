@@ -1,0 +1,9 @@
+question: Mikä vaihtopalvelu, joka perustettiin maaliskuussa 2010, oli suosituin ennen Mt. Goxin esiinmarssia heinäkuussa?
+answer: Bitcoin Market
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  Kyseessä oli vertaisverkkomarkkinapaikka, joka käytti PayPalia ja joka käynnistettiin 16. maaliskuuta 2010 henkilön nimeltä dwdollar toimesta, ja se oli pääasiallinen alusta ennen Mt. Goxia.
+reviewed: false

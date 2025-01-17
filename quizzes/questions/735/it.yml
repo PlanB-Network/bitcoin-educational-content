@@ -1,9 +1,0 @@
-question: Qual è il compito principale dei minatori nella rete Bitcoin?
-answer: Risolvere un enigma digitale e convalidare un nuovo blocco
-wrong_answers:
-  - Creare nuovi bitcoin
-  - Controllare il prezzo di Bitcoin
-  - Verificare l'identità degli utenti di Bitcoin
-explanation: |
-  Nel contesto del mining di Bitcoin, i minatori si sforzano di risolvere rapidamente un enigma digitale. Il primo minatore a risolvere l'enigma presenta la sua soluzione all'intera rete, che può quindi facilmente verificare la sua validità. Questa verifica di successo consente al minatore di convalidare un nuovo blocco e aggiungerlo alla Timechain di Bitcoin.
-reviewed: false

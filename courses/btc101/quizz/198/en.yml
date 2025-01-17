@@ -1,0 +1,10 @@
+question: What is one of the things you should have before buying Bitcoin?
+answer: A secure wallet.
+wrong_answers:
+  - A physical safe.
+  - A bank account.
+  - A credit card.
+explanation: |
+  The course text mentions that before buying Bitcoin, you
+  should have a secure wallet where you will store your keys.
+reviewed: true

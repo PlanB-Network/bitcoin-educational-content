@@ -1,0 +1,9 @@
+question: Tác động của một giao dịch Bitcoin đối với UTXOs trong outputs là gì?
+answer: Nó tạo ra chúng bằng cách sử dụng UTXOs được tiêu thụ trong inputs.
+wrong_answers:
+  - Nó tiêu thụ chúng để thỏa mãn các inputs.
+  - Nó mã hóa chúng để ẩn danh người nhận.
+  - Nó tạm thời chia chúng để xác minh.
+explanation: |
+  Các UTXOs trong outputs của giao dịch được tạo ra bằng cách tiêu thụ các UTXOs trong inputs. Nó, theo một cách nào đó, là điểm đến của số tiền.
+reviewed: false

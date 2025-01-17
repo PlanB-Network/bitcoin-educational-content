@@ -1,0 +1,62 @@
+id: f7939655-eae6-43ef-ad6e-935d6c5641ad
+chapterId: 00c1afea-e54a-511f-bab3-2efc2fbfa6a1
+difficulty: easy
+duration: 15
+author: DecouvreBitcoin
+tags:
+  - Bitcoin Wallet
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2698
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2599
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1299
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2648
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2698
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2599
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2648
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2797
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2599
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2797

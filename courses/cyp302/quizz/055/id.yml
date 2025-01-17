@@ -1,0 +1,9 @@
+question: Apa pentingnya grup siklik dalam kriptografi?
+answer: Mereka memungkinkan pembuatan sistem kriptografi berbasis generator
+wrong_answers:
+  - Mereka menyederhanakan perkalian kunci enkripsi
+  - Mereka meningkatkan keamanan saluran komunikasi publik
+  - Mereka digunakan untuk meng-hash pesan secara langsung untuk menjaga integritasnya
+explanation: |
+  Dalam kriptografi, grup siklik, yang memiliki generator, sangat penting untuk menetapkan dasar bagi kunci enkripsi, terutama dalam sistem kunci publik.
+reviewed: false

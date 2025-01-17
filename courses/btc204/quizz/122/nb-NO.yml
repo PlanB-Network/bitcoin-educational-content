@@ -1,0 +1,13 @@
+question: Hvordan forbedrer P2P transport V2 personvernet og sikkerheten i kommunikasjonen mellom noder?
+
+answer: Ved å integrere opportunistisk kryptering
+
+wrong_answers:
+  - Ved å integrere autentisering
+  - Ved å bruke ekstra retransmisjonsledd
+  - Ved å bruke Tor
+
+explanation: |
+  P2P transport V2 inkorporerer et lag med opportunistisk kryptering for å forbedre personvernet og sikkerheten i kommunikasjonen mellom noder.
+
+reviewed: false

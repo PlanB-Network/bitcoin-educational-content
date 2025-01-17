@@ -1,0 +1,9 @@
+question: Hvorfor er det tryggere å bruke europeiske Wi-Fi-tilgangspunktleverandører, som SNCF?
+answer: De selger ikke videre brukerforbindelsesdata på grunn av GDPR-regelverket.
+wrong_answers:
+  - De tilbyr raskere internett-hastigheter.
+  - De lar brukere omgå geografiske restriksjoner.
+  - De blokkerer nettannonser.
+explanation: |
+  I Den europeiske union er databeskyttelse regulert av General Data Protection Regulation (GDPR). Derfor selger ikke europeiske Wi-Fi-tilgangspunktleverandører, som SNCF, videre brukerforbindelsesdata, noe som gjør dem tryggere å bruke.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel est le rôle principal d'une adresse Bitcoin dans une transaction ?
+answer: Verrouiller des UTXOs dans le scriptPubKey
+wrong_answers:
+  - Déverrouiller les UTXOs dans le scriptSig
+  - Signaler la fin de la transaction
+  - Identifier le bloc de confirmation
+explanation: |
+  Une adresse Bitcoin est intégrée dans le scriptPubKey pour verrouiller les UTXOs. Elle détermine les conditions nécessaires pour déverrouiller les fonds.
+reviewed: false

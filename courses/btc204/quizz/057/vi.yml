@@ -1,0 +1,13 @@
+question: Mối đe dọa chính liên quan đến việc tái sử dụng địa chỉ là gì?
+
+answer: Nó cho phép thiết lập các liên kết xác định giữa các giao dịch khác nhau và sở hữu chung của các UTXO liên quan.
+
+wrong_answers:
+  - Nó tiết lộ địa chỉ IP của người dùng cho các bên tham gia mạng khác trong quá trình xác thực giao dịch.
+  - Nó làm giảm hiệu quả của cơ chế chữ ký số, làm suy yếu bảo mật của các giao dịch.
+  - Nó dẫn đến việc tăng phí giao dịch do tắc nghẽn gây ra bởi việc tái sử dụng địa chỉ.
+
+explanation: |
+  Nếu cùng một địa chỉ được sử dụng cho nhiều giao dịch, việc suy luận rằng tất cả bitcoin liên quan đến địa chỉ đó thuộc về cùng một người trở nên khả thi.
+
+reviewed: false

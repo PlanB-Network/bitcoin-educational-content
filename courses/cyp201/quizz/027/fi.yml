@@ -1,0 +1,9 @@
+question: Mikä ECDSA-allekirjoituksen haavoittuvuus korjattiin SegWitillä?
+answer: Muunneltavuus
+wrong_answers:
+  - Erän varmennus
+  - Aggregoinnin puute
+  - Allekirjoitusten liiallinen koko
+explanation: |
+  SegWit korjasi ECDSA-allekirjoitusten muunneltavuuden, mahdollistaen käyttötapauksia kuten Lightning Networkin.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Was ist die historische Verbindung zwischen Geld und Rohstoffen wie Gold?
+answer: Gold ist knapp und wird weitgehend als Wertspeicher akzeptiert
+wrong_answers:
+  - Gold macht Geld optisch ansprechender
+  - Gold lässt sich leicht teilen
+  - Gold ist einzigartig
+explanation: |
+  Angesichts der globalen Knappheit von Gold in der Natur und der erheblichen Investitionen, die erforderlich sind,
+  um es zu fördern, zu verfeinern und zu lagern, hat Gold konsequent einen höheren Wert im Vergleich zu
+  anderen Geldformen gehandelt.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hvorfor er ikke Bitcoin bredt akseptert i handel i dag?
+answer: Fordi det ikke er bredt adoptert av enkeltpersoner
+wrong_answers:
+  - Fordi det ikke er transportabelt
+  - Fordi det ikke er delelig
+  - Fordi det ikke er likvid
+explanation: |
+  Til tross for egenskapene, som dens strengt begrensede tilbud, er Bitcoin
+  fortsatt ikke bredt akseptert i handel i dag. Dette skyldes mangel på
+  adopsjon blant enkeltpersoner, noe som skaper en situasjon som biter sin egen hale ettersom handelsfolk også er enkeltpersoner.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Kes kirjeldas Bitcoini kui Šveitsi panka sinu taskus?
+answer: Barack Obama
+wrong_answers:
+  - Donald Trump
+  - Bill Gates
+  - Elon Musk
+explanation: |
+  Peatükis mainitakse, et Barack Obama kirjeldas kord Bitcoini kui Šveitsi panka sinu taskus.
+reviewed: false

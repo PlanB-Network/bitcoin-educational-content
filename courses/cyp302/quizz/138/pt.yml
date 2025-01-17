@@ -1,0 +1,8 @@
+question: Qual propriedade uma função de hash deve ter para garantir segurança durante a verificação de software?
+answer: Resistência a colisões
+wrong_answers:
+  - Reversibilidade
+  - Operabilidade com chaves assimétricas
+  - Gerabilidade em tempo real
+explanation: |
+  A resistência a colisões garante que é praticamente impossível encontrar duas entradas diferentes que produzam o mesmo hash, o que é importante para verificar que o software não foi adulterado.

@@ -1,0 +1,9 @@
+question: Nếu Alice gửi 40,000 satoshis cho Bob từ một kênh thanh toán nơi cô ấy ban đầu có 100,000 satoshis, sau giao dịch cô ấy còn lại bao nhiêu tiền?
+answer: 60,000 satoshis
+wrong_answers:
+  - 30,000 satoshis
+  - 40,000 satoshis
+  - 140,000 satoshis
+explanation: |
+  Sau khi gửi 40,000 satoshis, số dư của Alice trong kênh là 60,000 satoshis.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Miks võib müüja teha kanalis fiktiivse makse?
+answer: Likviidsuse viimiseks vastassuunda
+wrong_answers:
+  - Marsruudi tasude vähendamiseks
+  - Oma kanalite kogumahutavuse suurendamiseks
+  - Vahendite pikaajaliseks lukustamiseks
+explanation: |
+  Fiktiivse makse tegemisega liigutab müüja likviidsust oma poolelt kanali vastassuunda, vabastades seeläbi sissetuleva mahutavuse maksete vastuvõtmiseks.

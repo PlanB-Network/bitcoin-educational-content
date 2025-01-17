@@ -1,0 +1,14 @@
+question: Was ist die Hauptaufgabe von Minern im Bitcoin-Netzwerk?
+answer: Ein digitales Rätsel lösen und einen neuen Block validieren
+wrong_answers:
+  - Neue Bitcoins erschaffen
+  - Den Preis von Bitcoin kontrollieren
+  - Die Identität von Bitcoin-Nutzern verifizieren
+explanation: |
+  Im Kontext des Bitcoin-Minings bemühen sich Miner, schnell
+  ein digitales Rätsel zu lösen. Der erste Miner, der das Rätsel
+  löst, präsentiert seine Lösung dem gesamten Netzwerk, welches
+  dann leicht dessen Gültigkeit überprüfen kann. Diese erfolgreiche
+  Überprüfung ermöglicht es dem Miner, einen neuen Block zu validieren
+  und ihn zur Bitcoin-Zeitkette hinzuzufügen.
+reviewed: true

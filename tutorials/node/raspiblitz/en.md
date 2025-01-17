@@ -64,16 +64,16 @@ Before proceeding, if you don’t know your way around the file system on the co
 
 Here is a useful video for Linux, but applies to Mac as well.
 
-For windows, here’s a simple tutorial.
+For Windows, here’s a simple tutorial.
+
 Mac/Linux
 
-Wait for the file to finish downloading (important!), and then open terminal, navigate to where you downloaded the file, and type the following command…
-
+Wait for the file to finish downloading (important!), then with terminal open, navigate to where you downloaded the file, and type the following command:
 ```bash
 shasum -a 256 xxxxxxxxxxxxxx
 ```
 
-where xxxxxxxxxxxxxx is the name of the file you just downloaded. If you are not in the directory where that file is, you have to type the full path.
+where `xxxxxxxxxxxxxx` is the name of the file you just downloaded. If you are not in the directory where that file is, you have to type the full path.
 
 The computer thinks for 20 seconds or so. Check that the output hashfile matches the one downloaded from the website in the previous step. If it’s identical, you can proceed.
 Windows
@@ -84,7 +84,7 @@ Open the command prompt and navigate to where the file is downloaded, and type t
 certUtil -hashfile xxxxxxxxxxxxxxx SHA256
 ```
 
-where xxxxxxxxxxxxxx is the name of the file you just downloaded. If you are not in the director where that file is, you have to type the full path.
+where `xxxxxxxxxxxxxx` is the name of the file you just downloaded. If you are not in the director where that file is, you have to type the full path.
 
 The computer thinks for 20 seconds or so. Check that the output hashfile matches the one downloaded from the website in the previous step. If it’s identical, you can proceed.
 
@@ -134,7 +134,7 @@ I typed 192.168.0.1 in the Browser (instructions that came with my router), logg
 
 Finding the IP is crucial.
 
-> UPDATE: you can use the terminal on a Mac or Linux machine to find the IP address of all Ethernet connected devices on the home network using the command “arp -a”. The output is not as pretty as what the router will display, but all the information you need is there. If it’s not obvious which is the Pi, perform trial and error.
+**Note:** you can use the terminal on a Mac or Linux machine to find the IP address of all Ethernet connected devices on the home network using the command “arp -a”. The output is not as pretty as what the router will display, but all the information you need is there. If it’s not obvious which is the Pi, perform trial and error.
 
 ## Step 7: SSH into the Pi
 

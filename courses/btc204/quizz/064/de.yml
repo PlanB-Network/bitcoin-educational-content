@@ -1,0 +1,13 @@
+question: Wie werden Bezeichnungen mit einem Bitcoin-Wallet verknüpft gespeichert?
+
+answer: Lokal in der Wallet-Software.
+
+wrong_answers:
+  - In einer zentralisierten Datenbank, die vom Entwickler kontrolliert wird.
+  - Auf der Bitcoin-Blockchain durch ein OP_RETURN.
+  - Nur im RAM während der Ausführung der Software.
+
+explanation: |
+  Bezeichnungen werden lokal von der Wallet-Software gespeichert und niemals über das Bitcoin-Netzwerk übertragen. Die Beschriftung ist somit ein persönliches Verwaltungswerkzeug.
+
+reviewed: false

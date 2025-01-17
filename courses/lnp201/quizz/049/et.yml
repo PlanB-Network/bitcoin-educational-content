@@ -1,0 +1,9 @@
+question: Mis on Lightning arve peamine funktsioon?
+answer: Taotleda makset saatvalt noodilt
+wrong_answers:
+  - Saata vahendeid ilma on-chain tehinguta
+  - Aktiveerida HTLCsid kanalil
+  - Avada uus Lightning kanal
+explanation: |
+  Lightning arve on maksetaotlus, mida edastab vastuvõttev noot saatvale noodile, et algatada makse Lightning võrgustikus.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Which technique helps to protect against the risk of tracking induced by KYC?
+answer: Coinjoin transactions
+wrong_answers:
+  - The use of VPN
+  - The use of a full node
+  - Validation through proof of work
+explanation: |
+  Coinjoins have the effect of breaking the history of a coin, which helps you counteract the risk of tracking associated with KYC.
+reviewed: false

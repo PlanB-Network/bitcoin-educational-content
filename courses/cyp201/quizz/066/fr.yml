@@ -1,0 +1,9 @@
+question: Quelle partie de la sortie de HMAC-SHA512 est utilisée comme code de chaîne enfant ?
+answer: Les 32 derniers octets
+wrong_answers:
+  - Les 32 premiers octets
+  - L'intégralité des 64 octets
+  - Le hash SHA256 des 32 octets du milieu
+explanation: |
+  Les 32 derniers octets de la sortie de HMAC-SHA512 servent de code de chaîne pour la clé enfant.
+reviewed: false

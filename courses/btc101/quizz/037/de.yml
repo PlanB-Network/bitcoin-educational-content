@@ -1,0 +1,11 @@
+question: Welche Einrichtungen sind für die Ausgabe von Fiatwährungen zuständig?
+answer: Zentralbanken.
+wrong_answers:
+  - Geschäftsbanken.
+  - Regierungen.
+  - Private Institutionen.
+explanation: |
+  Zentralbanken sind die Einrichtungen, die für die Ausgabe einer
+  Fiatwährung zuständig sind. Sie entscheiden über die Geldpolitik und
+  bestimmen, wie viel Geld in Umlauf gebracht oder gedruckt werden soll.
+reviewed: true

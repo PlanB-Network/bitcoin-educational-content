@@ -1,0 +1,9 @@
+question: Hva er den største ulempen med fiatvalutaer?
+answer: Verdien deres blir stadig erodert av monetær inflasjon
+wrong_answers:
+  - De er ikke lett transportable
+  - Verdien deres blir stadig verdsatt av monetær inflasjon
+  - De er ikke delbare
+explanation: |
+  Den største ulempen med fiatvalutaer, som dollar og euro, er at verdien deres stadig blir erodert av monetær inflasjon. Dette skyldes at enhetene som kontrollerer dem (konge, sentralbank, keiser, diktator) stadig devaluerer dem.
+reviewed: true

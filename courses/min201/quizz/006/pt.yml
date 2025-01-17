@@ -1,0 +1,14 @@
+question: Qual é a principal tarefa dos mineradores na rede Bitcoin?
+answer: Resolver um quebra-cabeça digital e validar um novo bloco
+wrong_answers:
+  - Criar novos bitcoins
+  - Controlar o preço do Bitcoin
+  - Verificar a identidade dos usuários do Bitcoin
+explanation: |
+  No contexto da mineração de Bitcoin, os mineradores se esforçam para resolver rapidamente
+  um quebra-cabeça digital. O primeiro minerador a resolver o quebra-cabeça
+  apresenta sua solução para toda a rede, que pode
+  então verificar facilmente sua validade. Esta verificação bem-sucedida
+  permite ao minerador validar um novo bloco e
+  adicioná-lo à Timechain do Bitcoin.
+reviewed: true

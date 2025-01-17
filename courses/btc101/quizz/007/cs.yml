@@ -1,0 +1,12 @@
+question: Jaké je hlavní zaměření tohoto kurzu o Bitcoinu?
+answer: Měnové aspekty Bitcoinu.
+wrong_answers:
+  - Programovací aspekty Bitcoinu.
+  - Ekologický dopad Bitcoinu.
+  - Regulační aspekty Bitcoinu.
+explanation: |
+  Tento kurz o Bitcoinu se zaměřuje na měnové aspekty
+  Bitcoinu, včetně toho, jak nakupovat a prodávat bitcoiny,
+  bezpečně je ukládat v digitálních peněženkách a používat je
+  pro transakce.
+reviewed: true

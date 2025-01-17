@@ -1,0 +1,9 @@
+question: Apa tanggal lahir yang tercantum oleh Satoshi Nakamoto di forum P2P Foundation?
+answer: 5 April 1975
+wrong_answers:
+  - 3 April 1973
+  - 5 April 1973
+  - 3 April 1975
+explanation: |
+  Tanggal gabungan ini merujuk pada larangan bagi warga negara Amerika untuk memiliki emas antara tahun 1933 dan 1975: 5 April adalah hari ketika larangan ini diberlakukan pada tahun 1933 (Perintah Eksekutif 6102) dan tahun 1975 adalah ketika larangan ini dicabut (Undang-Undang Publik 93-373).
+reviewed: false

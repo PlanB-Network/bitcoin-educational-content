@@ -1,0 +1,9 @@
+question: Why do Alice and Bob exchange their secrets for previous commitment transactions?
+answer: To allow each to protect themselves if the other publishes an old transaction
+wrong_answers:
+  - To increase the channel's capacity
+  - To block each other's access to the funds
+  - To divide the funds equally
+explanation: |
+  Exchanging secrets for previous transactions allows each participant to punish the other in case of an attempt to cheat by publishing an old transaction.
+reviewed: false

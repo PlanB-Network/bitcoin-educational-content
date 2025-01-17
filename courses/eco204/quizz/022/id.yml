@@ -1,0 +1,8 @@
+question: Apa ciri utama hiperinflasi menurut definisi Cagan?
+answer: Tingkat inflasi bulanan yang sangat tinggi
+wrong_answers:
+  - Tingkat inflasi tahunan yang sangat tinggi
+  - Tingkat inflasi mingguan yang sangat tinggi
+  - Tingkat inflasi harian yang sangat tinggi
+explanation: |
+  Menurut definisi Cagan, hiperinflasi dicirikan oleh tingkat inflasi bulanan yang sangat tinggi yang melebihi 50%.

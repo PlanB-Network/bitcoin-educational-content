@@ -1,9 +1,0 @@
-question: ¿Cuál es el mensaje contenido en el primer bloque de la cadena de bloques de Bitcoin?
-answer: 03/ene/2009 El canciller al borde del segundo rescate para los bancos.
-wrong_answers:
-  - Podemos ganar una gran batalla en la carrera armamentista y obtener un nuevo territorio de libertad durante varios años.
-  - Los gobiernos son buenos cortando las cabezas de redes controladas centralmente como Napster, pero las redes P2P puras como Gnutella y Tor parecen mantenerse firmes.
-  - Ninguna de las anteriores.
-explanation: |
-  El primer bloque de la cadena de bloques de Bitcoin, también conocido como el bloque génesis, contiene el mensaje 03/ene/2009 El canciller al borde del segundo rescate para los bancos, que es el título del Time de ese día para marcar la fecha y hora del bloque génesis.
-reviewed: false

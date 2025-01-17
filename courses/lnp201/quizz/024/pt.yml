@@ -1,0 +1,9 @@
+question: Qual é o efeito combinado do timelock e da chave de revogação nas transações de compromisso?
+answer: Eles desencorajam os participantes de trapacear ao oferecer uma punição imediata
+wrong_answers:
+  - Eles reduzem a capacidade do canal em caso de trapaça
+  - Eles automaticamente bloqueiam os fundos da parte culpada
+  - Eles forçam a abertura de um novo canal se a transação estiver incorreta
+explanation: |
+  O timelock e a chave de revogação desencorajam os participantes de trapacear, garantindo que qualquer tentativa de trapaça resulte em uma perda imediata de fundos para a parte culpada.
+reviewed: false

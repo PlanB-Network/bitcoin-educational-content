@@ -1,0 +1,10 @@
+question: Miksi valtavirran taloustieteilijät ja keskussuunnittelijat usein eivät pidä itävaltalaisista taloustieteilijöistä?
+answer: Itävaltalaiset taloustieteilijät korostavat tulevaisuuden epävarmuutta, kvantitatiivisen talousennusteen harhaluuloa ja taloudellisen intervention haitallisia vaikutuksia.
+wrong_answers:
+  - Itävaltalaiset taloustieteilijät kannattavat sosialismia.
+  - Itävaltalaiset taloustieteilijät eivät usko markkinoiden voimaan.
+  - Itävaltalaiset taloustieteilijät eivät käytä matemaattisia malleja.
+explanation: |
+  Itävaltalaiset taloustieteilijät korostavat tulevaisuuden epävarmuutta, kvantitatiivisen talousennusteen harhaluuloa ja taloudellisen intervention haitallisia vaikutuksia,
+  mikä on ristiriidassa valtavirran taloustieteilijöiden ja keskussuunnittelijoiden uskomusten ja käytäntöjen kanssa.
+reviewed: false

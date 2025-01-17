@@ -1,0 +1,64 @@
+id: 21cbb38b-c024-4b79-8d64-54cf0e0c29c4
+chapterId: 419129c1-82ba-54e3-b385-95d4d89a447e
+difficulty: easy
+duration: 15
+author: DecouvreBitcoin
+tags:
+  - Austrian economics
+  - Keynesian economics
+  - Monetarist economics
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2760
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2630
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1315
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2695
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2760
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2630
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2695
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2890
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2630
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2890

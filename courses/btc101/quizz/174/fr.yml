@@ -1,0 +1,10 @@
+question: Quels sont les coûts typiques pour un mineur ?
+answer: Consommation d'électricité et achat de matériel.
+wrong_answers:
+  - Achat de matériel uniquement.
+  - Frais de transaction.
+  - Consommation d'électricité et frais de transaction.
+explanation: >-
+  Miner du Bitcoin nécessite une puissance de calcul substantielle, ce qui, à son tour, consomme de l'électricité.
+  De plus, les mineurs doivent investir dans du matériel spécialisé pour miner efficacement.
+reviewed: false

@@ -1,0 +1,9 @@
+question: GoogleのエンジニアであるMike HearnがBitcoinを発見する前に興味を持っていたデジタル通貨システムは何ですか？
+answer: Ripple
+wrong_answers:
+  - Liberty Reserve
+  - eLD
+  - RPOW
+explanation: |
+  彼がBitcoinについて初めて耳にしたのは2009年4月、Ryan FuggerのプロジェクトのGoogleグループでのことでした。彼はすぐにSatoshiに連絡を取り、質問をしました。
+  レビュー済み: false

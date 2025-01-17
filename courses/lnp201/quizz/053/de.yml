@@ -1,0 +1,9 @@
+question: Warum muss ein Router eine gute Liquiditätsverteilung in seinen Kanälen aufrechterhalten?
+answer: Um die Anzahl der Zahlungen, die er routen kann, zu maximieren
+wrong_answers:
+  - Um Transaktionsgebühren zu reduzieren
+  - Um das Öffnen neuer Kanäle zu vermeiden
+  - Um die Nutzung der Bitcoin-Blockchain zu begrenzen
+explanation: |
+  Ein Router zielt darauf ab, so viele Zahlungen wie möglich zu routen, um Gebühren zu sammeln, was eine gute Verteilung der Liquidität auf beiden Seiten der Kanäle erfordert, um die Routingkapazität zu gewährleisten.
+reviewed: false

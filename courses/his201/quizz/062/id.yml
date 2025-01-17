@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan mengestimasi hash rate anggota koperasi melalui bukti kerja parsial?
+answer: Mengambil bukti kerja berderajat lebih rendah daripada kesulitan jaringan yang dihasilkan oleh hasher
+wrong_answers:
+  - Mengambil cap dari stempel yang mencakup byte pertama dari setiap blok hash yang dihasilkan oleh hasher
+  - Mengambil tagihan listrik hasher setiap bulan
+  - Mengambil bukti kerja yang dihasilkan pada jaringan dengan kesulitan lebih rendah, seperti BitDNS
+explanation: |
+  Metode sederhana ini diusulkan oleh ribuck, Nils Schneider, dan Gavin Andresen [di forum](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) pada 14 Oktober 2010. ()
+reviewed: false

@@ -1,0 +1,13 @@
+question: Mikä on ero ulkoisen ja sisäisen osoitteen uudelleenkäytön välillä transaktiossa?
+
+answer: Ulkoinen uudelleenkäyttö havaitaan useiden transaktioiden yli, kun taas sisäinen uudelleenkäyttö havaitaan saman transaktion sisällä.
+
+wrong_answers:
+  - Ulkoinen uudelleenkäyttö koskee julkisia osoitteita, kun taas sisäinen uudelleenkäyttö koskee yksityisiä osoitteita, joita käytetään transaktioskripteissä.
+  - Sisäinen uudelleenkäyttö havaitaan useiden transaktioiden yli, kun taas ulkoinen uudelleenkäyttö havaitaan saman transaktion sisällä.
+  - Sisäinen uudelleenkäyttö koskee julkisia osoitteita, kun taas ulkoinen uudelleenkäyttö koskee yksityisiä osoitteita, joita käytetään transaktioskripteissä.
+
+explanation: |
+  Ulkoinen osoitteen uudelleenkäyttö havaitaan, kun osoitetta käytetään uudelleen useissa eri transaktioissa, kun taas sisäinen uudelleenkäyttö koskee osoitetta, jota käytetään sekä saman transaktion syötteissä että tulosteissa.
+
+reviewed: false

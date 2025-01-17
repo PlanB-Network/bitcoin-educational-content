@@ -1,0 +1,9 @@
+question: 2010年2月に最初の本物のビットコインロゴ（金色の大文字のBに2本の垂直バーが交差するデザイン）をデザインしたのは誰ですか？
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  彼はNewLibertyStandardの提案を受けて、タイのバーツ記号（฿）を使用しました。オレンジのロゴは後にbitboyとして知られる人物によって作成されました。
+reviewed: false

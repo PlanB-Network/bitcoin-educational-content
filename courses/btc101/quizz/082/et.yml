@@ -1,0 +1,10 @@
+question: Millist tehnoloogiat kasutatakse Bitcoin'i rahakotis vahendite kulutamise turvamiseks Bitcoin'i rahakotis?
+answer: Elliptilise kõvera krüptograafia
+wrong_answers:
+  - Sümmeetriline krüptograafia
+  - Kvantkrüptograafia
+  - RSA krüptograafia
+explanation: |
+  Bitcoin'ide kulutamiseks peab omanik kasutama elliptilisi kõveraid, et luua allkiri
+  Bitcoin'i tehingu jaoks.
+reviewed: true

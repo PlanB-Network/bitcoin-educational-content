@@ -1,9 +1,0 @@
-question: ¿Qué es la Red Lightning?
-answer: Una red de pagos que utiliza el protocolo Bitcoin para permitir transacciones ultrarrápidas.
-wrong_answers:
-  - Un nuevo tipo de criptomoneda.
-  - Una tecnología blockchain separada de Bitcoin.
-  - Un método para minar Bitcoin.
-explanation: |
-  La Red Lightning es una red de pagos que utiliza el protocolo Bitcoin para permitir transacciones rápidas. No es una criptomoneda separada ni un método para minar Bitcoin.
-reviewed: false

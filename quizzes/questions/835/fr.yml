@@ -1,9 +1,0 @@
-question: Quelle est la règle d'or de la cybersécurité ?
-answer: La cybersécurité est une cible mouvante qui s'adaptera à votre parcours d'apprentissage.
-wrong_answers:
-  - La cybersécurité nécessite une configuration unique
-  - La cybersécurité n'est pas nécessaire pour les comptes personnels
-  - La cybersécurité est réservée aux personnes compétentes en technologie
-explanation: |
-  La cybersécurité est une cible mouvante car les menaces et les mesures de sécurité évoluent constamment. Il est important de continuer à apprendre et à adapter vos pratiques.
-reviewed: false

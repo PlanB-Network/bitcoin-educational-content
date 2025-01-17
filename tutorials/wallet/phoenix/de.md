@@ -4,7 +4,7 @@ name: Phoenix
 description: Einrichtung Ihrer Pheonix-Brieftasche
 ---
 
-![phoenix](assets/cover.jpeg)
+![phoenix](assets/cover.webp)
 
 Phoenix ist eine nicht verwahrte Lightning-Brieftasche, die von Acind, dem Team hinter der Lightning-Eclair-Implementierung, entwickelt wurde.
 

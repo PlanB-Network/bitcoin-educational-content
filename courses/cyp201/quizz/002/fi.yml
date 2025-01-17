@@ -1,0 +1,8 @@
+question: Mikä hajautusfunktioiden ominaisuus ilmenee, kun viestissä tapahtuu pieni muutos ja hajautusarvo muuttuu täysin?
+answer: Lumivyöryefekti
+wrong_answers:
+  - Yhteentörmäyksenesto
+  - Toisen esikuvan vastustuskyky
+  - Pituus
+explanation: |
+  Pieni muutos syötteessä johtaa radikaaliin muutokseen hajautusarvossa, tätä kutsutaan lumivyöryefektiksi.

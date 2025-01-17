@@ -1,0 +1,13 @@
+question: Welche Art von Skript wird ausschließlich von Silent Payments verwendet?
+
+answer: P2TR
+
+wrong_answers:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+
+explanation: |
+  Um die Implementierung dieses Protokolls zu erleichtern und die Anonymitätsgruppe seiner Nutzer zu verbessern, setzen Silent Payments ausschließlich auf P2TR (Pay to Taproot) Skripte.
+
+reviewed: false

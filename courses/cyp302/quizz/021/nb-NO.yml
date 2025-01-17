@@ -1,0 +1,9 @@
+question: Hva er det matematiske uttrykket for beregninger som involverer modulo-operasjoner?
+answer: Modulær aritmetikk
+wrong_answers:
+  - Lineær algebra
+  - Trigonometri
+  - Diskret geometri
+explanation: |
+  Modulær aritmetikk er grenen av matematikk som omhandler operasjoner på tall innenfor et endelig rammeverk, ved bruk av modulo-operasjonen.
+reviewed: false

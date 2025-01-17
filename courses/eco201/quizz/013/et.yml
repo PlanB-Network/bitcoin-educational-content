@@ -1,0 +1,12 @@
+question: Mis on fraktsionaalreservsüsteemi peamine probleem?
+answer: Fraktsionaalreservsüsteemi peamine probleem on see, et olulised väljavõtmised konkreetsest pangast võivad potentsiaalselt viia selle pankrotini.
+wrong_answers:
+  - Fraktsionaalreservsüsteemi peamine probleem on see, et see takistab pankadel raha laenamist.
+  - Fraktsionaalreservsüsteemi peamine probleem on see, et see nõuab pankadelt rohkem reservide hoidmist, kui nad hoiustena saavad.
+  - Fraktsionaalreservsüsteemi peamine probleem on see, et see takistab pankadel uue raha loomist.
+explanation: |
+  Fraktsionaalreservsüsteemis hoiavad pangad vaid osa oma hoiustajate
+  vahenditest reservis, laenates ülejäänud osa välja. Kui paljud kliendid korraga kiirustavad
+  oma vahendeid välja võtma, ei pruugi pangal olla piisavalt reserve nende nõudmiste rahuldamiseks,
+  mis võib potentsiaalselt viia pankrotini.
+reviewed: false

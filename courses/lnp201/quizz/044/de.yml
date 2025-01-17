@@ -1,0 +1,9 @@
+question: Was macht ein sendender Knoten, wenn eine Zahlungsroute aufgrund unzureichender Liquidität fehlschlägt?
+answer: Er versucht eine andere Route, bis er eine funktionierende findet.
+wrong_answers:
+  - Er sendet automatisch eine Rückerstattungsanfrage an den Empfänger.
+  - Er schließt den Kanal und erstellt einen neuen direkten Kanal.
+  - Er bittet die Zwischenknoten, ihre Liquidität zu erhöhen.
+explanation: |
+  Wenn eine Route fehlschlägt, versucht der sendende Knoten andere alternative Routen, bis ein funktionierender Weg gefunden wird oder alle Optionen erschöpft sind.
+reviewed: false

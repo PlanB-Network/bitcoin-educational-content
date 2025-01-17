@@ -1,0 +1,13 @@
+question: Mikä oli digitaalisen bolivarin vaihtokurssi Venezuelassa vuonna 2021?
+answer: Miljoona yhteen.
+wrong_answers:
+  - Tuhat yhteen.
+  - Kymmenen tuhatta yhteen.
+  - Sata tuhatta yhteen.
+explanation: |
+  Vuonna 2021 Venezuelassa digitaalinen bolivar korvattiin uudella
+
+  uudelleenarvostuksella
+
+  suhteessa miljoona yhteen.
+reviewed: false

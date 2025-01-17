@@ -1,9 +1,0 @@
-question: Ist die Kapazität eines Lightning-Zahlungskanals festgelegt?
-answer: Ja
-wrong_answers:
-  - Nein
-  - Nur in einigen Fällen
-  - Es hängt vom Bitcoin-Netzwerk ab
-explanation: |
-  Wenn ein Kanal geöffnet wird, erhält er eine feste Kapazität, die im Voraus von den Benutzern festgelegt wird.
-reviewed: false

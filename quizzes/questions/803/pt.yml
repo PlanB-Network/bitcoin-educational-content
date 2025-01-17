@@ -1,9 +1,0 @@
-question: Qual é o antivírus integrado no Windows?
-answer: Windows Defender
-wrong_answers:
-  - Kaspersky
-  - Norton
-  - McAfee
-explanation: |
-  O Windows Defender é o antivírus integrado no Windows. É uma solução segura e eficaz para proteger o sistema contra ameaças.
-reviewed: false

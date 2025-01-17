@@ -1,9 +1,0 @@
-question: Qu'est-ce qu'une phrase mnémonique dans le contexte d'un portefeuille Bitcoin ?
-answer: C'est une sauvegarde du portefeuille.
-wrong_answers:
-  - C'est un mot de passe pour le portefeuille.
-  - C'est l'historique des transactions du portefeuille.
-  - C'est une signature numérique du portefeuille.
-explanation: |
-  Une phrase mnémonique est générée pour assurer la sauvegarde du portefeuille Bitcoin.
-reviewed: false

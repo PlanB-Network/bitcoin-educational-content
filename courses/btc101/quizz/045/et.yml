@@ -1,0 +1,11 @@
+question: Mis on Bitcoin'i peamine omadus, mis eristab seda fiatrhadest?
+answer: Selle rahapoliitikat rakendatakse üldise konsensuse alusel.
+wrong_answers:
+  - Seda saab keskpankade poolt piiramatutes kogustes trükkida.
+  - See on tagatud füüsilise kaubaga nagu kuld või hõbe.
+  - Seda reguleerib keskpank.
+explanation: |
+  Bitcoin, oma detsentraliseeritud ja krüptograafilise olemuse tõttu, ei saa muuhulgas
+  võltsida ja on piiratud 21 miljoni ühikuga. See on peamine omadus, mis eristab
+  seda fiatrhadest, mille rahapoliitikat saavad muuta keskpangad.
+reviewed: true

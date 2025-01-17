@@ -1,0 +1,9 @@
+question: Wenn eine Transaktion 2 UTXOs von je 5.000 Sats als Eingaben und 3 UTXOs von je 3.000 Sats als Ausgaben hat, wie hoch sind die Transaktionsgebühren?
+answer: 1.000 Sats
+wrong_answers:
+  - 1.500 Sats
+  - 2.500 Sats
+  - 3.000 Sats
+explanation: |
+  Die Gebühren einer Transaktion repräsentieren die Differenz zwischen den gesamten Eingaben und den gesamten Ausgaben. Es ist das, was nach dem Verbrauch aller Eingaben und der Erstellung aller Ausgaben übrig bleibt. Die Berechnung ist daher; Gebühren = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

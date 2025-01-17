@@ -1,0 +1,8 @@
+question: Qual é o caminho de derivação usado para uma conta SegWit v0 em um descritor padrão?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  O caminho 84h/0h/0h é definido no BIP84 para uma conta que deriva endereços SegWit v0 com P2WPKH.

@@ -1,0 +1,10 @@
+question: Mikä on yksi syy siihen, miksi Bitcoinin hinta voi laskea 10%, 20% tai jopa 50% vain muutamassa päivässä?
+answer: Härkä- ja karhumarkkinavaiheet.
+wrong_answers:
+  - Internetin käyttäjien määrä.
+  - Sää.
+  - Kullan hinta.
+explanation: >-
+  Bitcoinin hinta on usein merkittävän volatiliteetin leimaamaa,
+  johon voi vaikuttaa markkinavaihtelut sekä härkä- ja karhumarkkinavaiheet.
+reviewed: true

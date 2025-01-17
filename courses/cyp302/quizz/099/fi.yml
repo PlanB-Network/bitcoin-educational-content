@@ -1,0 +1,9 @@
+question: Mikä on viestin todennuskoodin (MAC) ensisijainen tehtävä?
+answer: Varmistaa viestin aitouden ja eheyden
+wrong_answers:
+  - Viestien salaaminen luottamuksellisuuden takaamiseksi
+  - Viestien välityksen estäminen
+  - Yksityisten avainten luominen kullekin viestinnälle
+explanation: |
+  MAC on kryptografinen järjestelmä, joka mahdollistaa varmistuksen siitä, että viesti todella tulee lailliselta lähettäjältä eikä sitä ole muutettu, näin ollen varmistaen viestin aitouden ja eheyden.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Mida näitab tulevane anonüümsuskomplekt?
+
+answer: Erinevusetute UTXO-de grupi suurus tsüklite väljundis.
+
+wrong_answers:
+  - Erinevusetute UTXO-de grupi suurus tsüklite sisendis.
+  - Erinevusetute UTXO-de grupi suurus basseinis.
+  - Tehingute arv, mis on vajalik anonüümsuse saavutamiseks.
+
+explanation: |
+  Tulevane anonüümsuskomplekt näitab grupi suurust, mille seas uuritav UTXO tsükli väljundis peitub, teades UTXO-d sisendis, see tähendab, selle grupi sees olevate eristamatute müntide arvu.
+
+reviewed: false

@@ -1,0 +1,13 @@
+question: Qual è l'obiettivo principale alla base della creazione di Bitcoin?
+answer: Separare lo Stato dal denaro.
+wrong_answers:
+  - Eliminare lo standard oro.
+  - Rendere le transazioni più veloci ed economiche.
+  - Arricchire tutti.
+explanation: |
+  Bitcoin è stato creato con l'obiettivo di separare lo Stato
+  dal denaro. È una risposta alle sfide sistemiche
+  dell'attuale sistema finanziario, dove lo Stato ha il pieno
+  controllo sull'offerta di denaro e può manipolarla a proprio
+  vantaggio.
+reviewed: true

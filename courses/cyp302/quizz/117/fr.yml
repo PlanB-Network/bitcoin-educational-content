@@ -1,0 +1,9 @@
+question: À quelle étape du chiffrement AES les Galois Fields (corps de Galois) sont-ils utilisés ?
+answer: Dans la substitution d'octets et l'opération de mélange de colonnes
+wrong_answers:
+  - Dans la génération de la clé privée
+  - Lors de la division du texte en blocs de 128 bits
+  - À chaque étape de l'opération XOR
+explanation: |
+  Les Galois Fields sont utilisés dans la substitution d'octets pour calculer l'inverse multiplicatif et dans l'opération de mélange de colonnes pour réaliser les multiplications modulo un polynôme irréductible.
+reviewed: false

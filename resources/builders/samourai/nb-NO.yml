@@ -1,0 +1,6 @@
+description: |
+  Samourai er en Bitcoin-lommebok dedikert til personvern og sikkerhet.
+  
+  Den bruker avanserte teknologier for å forhindre overvåking basert på blockchain og tillater offline transaksjoner. Den ikke-forvaringsbaserte lommeboken gir full kontroll over private nøkler. Den tilbyr også RoninDojo, en høytytende, selvhostet full node, og Whirlpool, en implementasjon av Chaumian CoinJoin, designet for å forstyrre koblingen mellom bitcoins og deres transaksjonshistorikk. Teamet bak Samourai består av personvernsaktivister som er forpliktet til å skape programvare som prioriterer personvern og sikkerhet i Bitcoin-økosystemet.
+contributors:
+  - rabbit-hole

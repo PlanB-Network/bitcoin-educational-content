@@ -1,0 +1,12 @@
+question: ¿Qué es el trilema de la blockchain en el ámbito de las criptomonedas?
+answer: El compromiso entre escalabilidad, seguridad y descentralización en las criptomonedas
+wrong_answers:
+  - Una característica de Bitcoin que prioriza la descentralización y seguridad sobre la escalabilidad
+  - La dificultad para determinar la trayectoria y valores de las criptomonedas
+  - La limitación de la tecnología de Bitcoin en comparación con otras criptomonedas
+explanation: |
+  El concepto del trilema de la blockchain es la idea de que las criptomonedas
+  deben priorizar dos de tres características importantes; escalabilidad,
+  seguridad y descentralización. Bitcoin prioriza la descentralización y la seguridad,
+  lo que afecta su escalabilidad, pero aún así lo logra por medios alternativos.
+reviewed: true

@@ -1,0 +1,9 @@
+question: What criterion can help a node choose an efficient payment route?
+answer: The probability of success based on the total capacity of the channels
+wrong_answers:
+  - The geographical distance between the nodes
+  - The presence of nodes with a low fee level
+  - The number of payments made by the target node
+explanation: |
+  The total capacity of the channels can indicate a higher probability of success, as it suggests a greater availability of liquidity for transactions.
+reviewed: false

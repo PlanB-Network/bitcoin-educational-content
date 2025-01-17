@@ -1,0 +1,9 @@
+question: Hvem etablerte den første vekslingsstjenesten mellom bitcoin og dollar i oktober 2009?
+answer: NewLibertyStandard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+explanation: |
+  Denne tjenesten var rudimentær: utvekslinger ble forhandlet via e-post, og betalinger ble gjort gjennom PayPal. Vekslingskursen var basert på gruvekostnadene til NewLibertyStandard selv.
+reviewed: false

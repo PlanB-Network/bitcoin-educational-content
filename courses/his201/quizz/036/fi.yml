@@ -1,0 +1,9 @@
+question: Kuka suunnitteli ensimmäisen oikean Bitcoin-logon (kultainen iso B, jonka läpi kulkee kaksi pystysuoraa viivaa) helmikuussa 2010?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  Hän käytti NewLibertyStandardin ehdotusta käyttää Thaimaan bahtin symbolia (฿). Oranssin logon loi myöhemmin henkilö, joka tunnetaan nimellä bitboy.
+reviewed: false

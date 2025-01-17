@@ -1,0 +1,13 @@
+question: Quel est l'objectif principal de la technique du ricochet ?
+
+answer: Estomper les traces du passé d'une pièce
+
+wrong_answers:
+  - Augmenter l'anonset prospectif des transactions
+  - Augmenter l'entropie d'une transaction
+  - Payer moins de frais de transactions dans le futur
+
+explanation: |
+  L'objectif d'un ricochet est de simuler un changement de propriétaire d'une pièce Bitcoin afin de restaurer sa fongibilité en estompant ses marques du passé.
+
+reviewed: false

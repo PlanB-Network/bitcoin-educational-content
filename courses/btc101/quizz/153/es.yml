@@ -1,0 +1,12 @@
+question: ¿Cuál es el propósito del ajuste de dificultad en la minería de Bitcoin?
+answer: Reequilibra el juego global de minería basado en el número de participantes.
+wrong_answers:
+  - Aumenta la recompensa por minar.
+  - Disminuye el número de bitcoins en circulación.
+  - Aumenta la seguridad de la red Bitcoin.
+explanation: >-
+  El ajuste de dificultad en la minería de Bitcoin está diseñado para asegurar que
+  el tiempo que toma minar un bloque permanezca aproximadamente constante, independientemente del
+  poder computacional total de la red. Ajusta la dificultad del problema matemático que los mineros deben resolver, basado en el número de mineros participando en la
+  red.
+reviewed: true

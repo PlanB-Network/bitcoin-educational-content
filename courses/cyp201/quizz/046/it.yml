@@ -1,0 +1,9 @@
+question: Quanti bit ha il checksum per un'entropia di 128 bit?
+answer: 4 bit
+wrong_answers:
+  - 8 bit
+  - 16 bit
+  - 6 bit
+explanation: |
+  La lunghezza del checksum è calcolata usando la formula CS = ENT / 32, che equivale a 4 bit per un'entropia di 128 bit.
+reviewed: false

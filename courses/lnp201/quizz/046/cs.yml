@@ -1,0 +1,9 @@
+question: Co znamená prefix lnbc v čitelné části Lightning faktury?
+answer: Značí transakci Lightning na blockchainu Bitcoinu
+wrong_answers:
+  - Že faktura je platná pouze na testnetu Bitcoinu
+  - Že faktura je zakódována v bech32
+  - Že jde o transakci na řetězci
+explanation: |
+  Prefix lnbc označuje, že faktura je pro transakci Lightning na síti Bitcoin, a ne na jiné síti.
+reviewed: false

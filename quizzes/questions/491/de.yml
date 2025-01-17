@@ -1,9 +1,0 @@
-question: Wird empfohlen, eine Passphrase oder mnemonische Phrase für eine Bitcoin-Wallet auswendig zu lernen?
-answer: Nein
-wrong_answers:
-  - Ja
-  - Es hängt von der Länge der Passphrase oder mnemonischen Phrase ab
-  - Es hängt von der Komplexität der Passphrase oder mnemonischen Phrase ab
-explanation: |
-  Es wird nicht empfohlen, eine Passphrase oder mnemonische Phrase auswendig zu lernen. Es ist entscheidend, sich um Sicherungskopien der Passphrase zu kümmern, um den Zugriff auf die Wallet nicht zu verlieren.
-reviewed: false

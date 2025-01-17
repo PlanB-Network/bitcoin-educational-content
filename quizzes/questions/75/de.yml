@@ -1,9 +1,0 @@
-question: Wo werden die Bitcoins tatsächlich gespeichert?
-answer: In der Bitcoin-Blockchain
-wrong_answers:
-  - In der Bitcoin-Wallet
-  - Auf dem Gerät, auf dem die Wallet installiert ist
-  - In der Federal Reserve
-explanation: |
-  Obwohl Ihre privaten Schlüssel in Ihrer Wallet gespeichert sind, werden die Bitcoins selbst tatsächlich in der Bitcoin-Blockchain gespeichert, die das öffentliche verteilte Hauptbuch im Bitcoin-Peer-to-Peer-Netzwerk ist.
-reviewed: false

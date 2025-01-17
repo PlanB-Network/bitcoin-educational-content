@@ -1,0 +1,11 @@
+question: Miten inflaatio vaikuttaa palkansaajien ostovoimaan ajan myötä?
+answer: Inflaatio heikentää ostovoimaa, koska palkat yleensä laahaavat todellisen inflaatiovauhdin perässä.
+wrong_answers:
+  - Inflaatio lisää ostovoimaa, koska palkat nousevat nopeammin kuin hinnat.
+  - Inflaatiolla ei ole vaikutusta ostovoimaan.
+  - Inflaatio vaikuttaa vain niiden ostovoimaan, jotka sijoittavat rahoitusmarkkinoille.
+explanation: |
+  Inflaatio johtaa jatkuvaan kuluttajahintojen nousuun, mikä heikentää palkansaajien ostovoimaa, sillä heidän palkkansa yleensä laahaavat todellisen inflaatiovauhdin perässä.
+  Tämä tekee palkansaajien pitkän aikavälin säästötavoitteiden saavuttamisesta vaikeaa
+  ja heidän elintasonsa ylläpitämisestä haastavaa.
+reviewed: true

@@ -1,9 +1,0 @@
-question: Warum gelten Hardware-Token wie USB-Sticks oder Smartcards als optimale Sicherheit für 2FA?
-answer: Sie generieren für jede Website einen eindeutigen privaten Schlüssel und überprüfen die URL, bevor sie die Verbindung zulassen.
-wrong_answers:
-  - Sie sind physisch schwerer zu stehlen.
-  - Sie sind teurer, also müssen sie besser sein.
-  - Sie sind neuere Technologie, also müssen sie besser sein.
-explanation: |
-  Hardware-Token bieten optimale Sicherheit, da sie für jede Website einen eindeutigen privaten Schlüssel generieren und die URL überprüfen, bevor sie die Verbindung zulassen. Dadurch wird es für einen Hacker viel schwieriger, unbefugten Zugriff zu erlangen.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Wie wird die Prüfsumme für SegWit v0-Adressen berechnet, die in bech32 kodiert sind?
+answer: Mit BCH-Codes
+wrong_answers:
+  - Durch zweimaliges Anwenden von HASH256
+  - Durch Hinzufügen eines RIPEMD160-Hashs
+  - Durch direkte Kodierung in base64
+explanation: |
+  Bech32-Adressen verwenden BCH-Codes, um die Prüfsumme zu berechnen.
+reviewed: false

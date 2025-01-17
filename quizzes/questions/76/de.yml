@@ -1,9 +1,0 @@
-question: Was ist die Mnemonik-Phrase in einer Bitcoin-Wallet?
-answer: Eine Liste von 12 oder 24 Wörtern, die eine Sicherungskopie Ihrer Bitcoin-Wallet ist.
-wrong_answers:
-  - Ein ausgewähltes Passwort, um auf die Bitcoin-Wallet zuzugreifen.
-  - Ein Code zur Verschlüsselung der Bitcoin-Transaktionen.
-  - Eine geheime Wiederherstellungsphrase, die die Bitcoin-Wallet zerstört.
-explanation: |
-  Seit 2017 kann der private Schlüssel in einer einfachen Liste von 12 oder 24 Wörtern codiert werden, die als Mnemonik-Phrase bezeichnet wird. Diese Phrase ist eine Sicherungskopie Ihrer Bitcoin-Wallet und ermöglicht es Ihnen, Ihre Wallet mit jeder Bitcoin-Wallet-Software/App wiederherzustellen.
-reviewed: false

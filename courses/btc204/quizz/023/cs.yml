@@ -1,0 +1,9 @@
+question: Pokud pozorujeme transakci se 6 UTXO jako vstupy a pouze jedním UTXO jako výstupem, jaký pravděpodobný závěr můžeme vyvodit?
+answer: Všechna UTXO na vstupu patřila stejnému uživateli a tento uživatel stále vlastní UTXO na výstupu.
+wrong_answers:
+  - UTXO na vstupu pocházely od různých uživatelů, kteří spolupracovali na jedné transakci.
+  - Všechna UTXO na vstupu patřila stejnému uživateli a to na výstupu nyní patří jinému uživateli.
+  - UTXO na vstupu pocházely od 2 různých uživatelů a to na výstupu stále patří těmto 2 uživatelům.
+explanation: |
+  Pravděpodobně jsme svědky konsolidace. Proto existuje společné vlastnictví vstupů a výstupu.
+reviewed: false

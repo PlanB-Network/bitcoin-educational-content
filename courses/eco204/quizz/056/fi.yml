@@ -1,0 +1,10 @@
+question: Mikä oli Zimbabwen dollarin alkuperäinen vaihtokurssi, kun se otettiin käyttöön vuonna 1980?
+answer: Kaksi Zimbabwen dollaria oli noin 1,60 Yhdysvaltain dollaria arvoinen
+wrong_answers:
+  - Yksi Zimbabwen dollari oli noin 1 Yhdysvaltain dollari arvoinen
+  - Yksi Zimbabwen dollari oli noin 2 Yhdysvaltain dollaria arvoinen
+  - Kaksi Zimbabwen dollaria oli noin 2 Yhdysvaltain dollaria arvoinen
+explanation: |
+  Zimbabwe saavutti itsenäisyyden vuonna 1980 ja otti käyttöön Zimbabwen dollarin.
+  Alun perin kaksi Zimbabwen dollaria oli noin 1,60 Yhdysvaltain dollaria arvoinen.
+reviewed: false

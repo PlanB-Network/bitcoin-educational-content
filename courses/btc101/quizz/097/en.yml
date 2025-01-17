@@ -1,0 +1,11 @@
+question: What happens if your private key is revealed to a third party?
+answer: The third party can spend your bitcoins.
+wrong_answers:
+  - The third party can only view your transaction history.
+  - The third party can change your private key.
+  - The third party can access your personal information.
+explanation: |
+  If your private key is revealed to a third party, the
+  associated funds are no longer secure, because the private
+  key allows them to access to your funds.
+reviewed: true

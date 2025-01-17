@@ -1,0 +1,9 @@
+question: Al buscar un patrón, ¿qué parte de la transacción estudiaremos?
+answer: Su estructura
+wrong_answers:
+  - Sus metadatos
+  - Sus scripts
+  - Su firma
+explanation: |
+  Un patrón de transacción es simplemente un modelo o una estructura general de una transacción típica que se puede encontrar en la blockchain, cuya interpretación probable es conocida.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quais informações o nó remetente deve conhecer para realizar um pagamento através do roteamento onion?
+answer: A topologia da rede e a rota completa até o destinatário
+wrong_answers:
+  - Apenas o próximo nó intermediário
+  - A capacidade de cada canal
+  - A assinatura criptográfica de cada nó no caminho
+explanation: |
+  O nó remetente deve conhecer a topologia da rede para calcular a rota até o destinatário, permitindo que escolha o melhor caminho.
+reviewed: false

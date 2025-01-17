@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de las regulaciones KYC?
-answer: Para combatir el financiamiento del terrorismo, la evasión fiscal y el lavado de dinero.
-wrong_answers:
-  - Para aumentar el precio de Bitcoin.
-  - Para controlar la oferta de Bitcoin.
-  - Para evitar que las personas compren Bitcoin.
-explanation: |
-  El texto explica que las regulaciones Know Your Customer (KYC) requieren que los usuarios proporcionen identificación para combatir el financiamiento del terrorismo, la evasión fiscal y el lavado de dinero.
-reviewed: false

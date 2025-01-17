@@ -1,0 +1,9 @@
+question: Co omezuje výši nepřímé platby v síti Lightning Network?
+answer: Nejmenší dostupná likvidita v kanálu zvolené cesty
+wrong_answers:
+  - Počet zprostředkujících uzlů
+  - Celková kapacita sítě Lightning Network
+  - Poplatky za směrování stanovené každým uzlem
+explanation: |
+  Maximální částka, kterou může nepřímá platba převést, závisí na nejnižší dostupné likviditě v použitých kanálech, protože každý kanál musí upravit finanční prostředky na každé straně.
+reviewed: false

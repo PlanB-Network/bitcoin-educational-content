@@ -1,0 +1,11 @@
+question: Mikä on tapahtuman nimi, kun louhinnan palkkio puolittuu?
+answer: Puolittuminen
+wrong_answers:
+  - Kahdentuminen
+  - Neljännekseksi jakaminen
+  - Kolminkertaistuminen
+explanation: |
+  Tapahtuma, jossa louhinnan palkkio puolittuu, on nimeltään
+  puolittuminen. Tämä tapahtuma antaa rahajulkaisun käyrälle
+  portaita muistuttavan muodon.
+reviewed: true

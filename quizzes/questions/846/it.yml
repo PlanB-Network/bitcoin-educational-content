@@ -1,9 +1,0 @@
-question: Quali sono alcuni degli aspetti della conoscenza di rete necessari per la sicurezza informatica?
-answer: TCP/IP, VPN, firewall
-wrong_answers:
-  - HTTP, FTP, SMTP
-  - POP3, IMAP, SSH
-  - DHCP, DNS, ARP
-explanation: |
-  Il capitolo menziona TCP/IP, VPN e firewall come alcuni degli aspetti della conoscenza di rete necessari per la sicurezza informatica.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er det sentrale spørsmålet om selvforvaltning når man velger en Bitcoin-lommebok?
+answer: Er du eieren av midlene eller overlater du kontrollen over pengene dine til en tredjepart?
+wrong_answers:
+  - Er lommeboken sikret med en passfrase?
+  - Tillater lommeboken å motta og sende bitcoins?
+  - Kan jeg dele lommeboken min med en annen person?
+explanation: |
+  Når man velger en Bitcoin-lommebok, er det sentrale spørsmålet: Er du eieren av midlene eller overlater du kontrollen over pengene dine til en tredjepart? Dette er fordi innehaveren av den private nøkkelen er eieren av Bitcoins.
+reviewed: true

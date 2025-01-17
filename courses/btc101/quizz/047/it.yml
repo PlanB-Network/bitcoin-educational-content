@@ -1,0 +1,12 @@
+question: Cos'è l'iperinflazione?
+answer: Un aumento drastico della massa monetaria.
+wrong_answers:
+  - Un piccolo aumento della massa monetaria.
+  - Una diminuzione drastica della massa monetaria.
+  - Una piccola diminuzione della massa monetaria.
+explanation: |
+  L'iperinflazione è un fenomeno monetario caratterizzato da un
+  aumento drastico dell'inflazione attraverso la stampa di moneta
+  da parte delle autorità, che porta a una completa perdita di
+  fiducia in una valuta.
+reviewed: true

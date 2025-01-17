@@ -1,9 +1,0 @@
-question: Was ist ein Lightning-Zahlungskanal?
-answer: Eine Art "private Spur" zwischen zwei Benutzern, die schnelle und wiederholte Bitcoin-Transaktionen ermöglicht.
-wrong_answers:
-  - Eine Art Bitcoin-Wallet
-  - Eine Methode zum Mining von Bitcoin
-  - Eine Art Bitcoin-Börse
-explanation: |
-  Ein Lightning-Zahlungskanal ist eine Art "private Spur" zwischen zwei Benutzern, die schnelle und wiederholte Bitcoin-Transaktionen ermöglicht.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Quel est le but de HMAC dans le protocole Bitcoin?
-answer: Il est utilisé pour contrer les attaques d'extension de longueur lors de la dérivation des portefeuilles déterministes hiérarchiques (HD).
-wrong_answers:
-  - Il est utilisé pour convertir une phrase mnémonique en une graine (seed).
-  - Il est utilisé pour générer une sortie de taille fixe.
-  - Il est utilisé pour ajouter une source supplémentaire d'entropie lors de la dérivation de clé.
-explanation: |
-  HMAC est principalement utilisé pour contrer les attaques d'extension de longueur lors de la dérivation des portefeuilles déterministes hiérarchiques (HD). Il prend un message et une clé en entrée et génère une sortie de taille fixe.
-reviewed: false

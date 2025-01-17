@@ -1,0 +1,9 @@
+question: Proč si Alice a Bob vyměňují svá tajemství za předchozí transakce závazků?
+answer: Aby se každý z nich mohl ochránit, pokud druhý zveřejní starou transakci
+wrong_answers:
+  - Aby zvýšili kapacitu kanálu
+  - Aby zablokovali přístup druhého k finančním prostředkům
+  - Aby rozdělili finanční prostředky rovným dílem
+explanation: |
+  Výměna tajemství za předchozí transakce umožňuje každému účastníkovi potrestat druhého v případě pokusu o podvod zveřejněním staré transakce.
+reviewed: false

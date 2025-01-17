@@ -1,0 +1,10 @@
+question: Qual è una delle principali questioni sollevate riguardo al futuro della finanza?
+answer: Chi dovrebbe detenere, autorizzare e tracciare il denaro che utilizziamo?
+wrong_answers:
+  - Come possiamo eliminare completamente il denaro?
+  - Come possiamo garantire che tutti abbiano la stessa quantità di denaro?
+  - Come possiamo rendere il denaro obsoleto?
+explanation: >-
+  Il testo solleva diverse questioni sul futuro della finanza, una delle
+  quali è chi dovrebbe detenere, autorizzare e tracciare il denaro che utilizziamo.
+reviewed: vero

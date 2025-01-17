@@ -1,0 +1,9 @@
+question: Lightning Network上のトランザクションはどのようにして保護されていますか？
+answer: 暗号技術を通じて、および間接的にはBitcoin上のマイナーによって消費されるエネルギーを通じて。
+wrong_answers:
+  - 私的鍵のみを使用して。
+  - 公開鍵のみを使用して。
+  - 私的鍵と公開鍵の両方のみを使用して。
+explanation: >-
+  Lightning Network上のトランザクションは、暗号技術を通じて、および間接的にはBitcoin上のマイナーによって消費されるエネルギーを通じて保護されています。
+reviewed: true

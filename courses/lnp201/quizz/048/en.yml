@@ -1,0 +1,9 @@
+question: How does the Keysend technology enable a fund transfer without an invoice?
+answer: The sender generates a secret in the HTLCs to unlock the funds
+wrong_answers:
+  - The recipient generates a hash to validate the transfer
+  - The payment is validated through a direct channel between sender and recipient
+  - The funds are directly credited without additional security
+explanation: |
+  Keysend allows the sender to generate a secret embedded in the HTLCs, enabling the recipient to unlock the funds without having issued an invoice.
+reviewed: false

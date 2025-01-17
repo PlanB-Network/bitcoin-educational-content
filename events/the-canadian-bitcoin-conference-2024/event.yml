@@ -1,0 +1,23 @@
+- start_date: 2024-05-16 
+  end_date: 2024-05-18
+  address_line_1: Montreal, Canada
+  address_line_2: 
+  address_line_3: 
+  name: The Canadian Bitcoin Conference 2024
+  builder:
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: High signal, low noise. 
+  language: 
+    - en
+  links:
+    website: www.canadianbitcoinconf.com
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - General
+
+

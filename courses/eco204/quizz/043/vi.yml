@@ -1,0 +1,8 @@
+question: Mệnh giá tiền giấy cao nhất ở Brazil trước đợt tái định giá cuối cùng vào năm 1994 là bao nhiêu?
+answer: 500,000
+wrong_answers:
+  - 1,000,000
+  - 250,000
+  - 100,000
+explanation: |
+  Mệnh giá tiền giấy cao nhất ở Brazil đã đạt 500,000, và đợt tái định giá cuối cùng vào năm 1994 được thực hiện với tỷ lệ 2,750 đối 1.

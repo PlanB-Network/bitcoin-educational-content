@@ -1,9 +1,0 @@
-question: ¿Qué es la Red Lightning?
-answer: Una infraestructura de pago de segunda capa construida sobre la red de Bitcoin que permite transacciones rápidas y de bajo costo.
-wrong_answers:
-  - Un tipo de billetera Bitcoin
-  - Un método de minería de Bitcoin
-  - Un tipo de intercambio de Bitcoin
-explanation: |
-  La Red Lightning es una infraestructura de pago de segunda capa construida sobre la red de Bitcoin que permite transacciones rápidas y de bajo costo.
-reviewed: false

@@ -1,0 +1,12 @@
+question: Apa arti istilah Burner-preneurs dalam konteks hiperinflasi?
+answer: Ini merujuk pada para pengusaha yang berkembang dengan meminjam mata uang yang telah terdepresiasi untuk berinvestasi dalam aset nyata, dan kemudian membayar kembali hutang mereka dengan mata uang yang lebih terdepresiasi lagi.
+wrong_answers:
+  - Ini merujuk pada individu yang membakar mata uang yang telah terdepresiasi untuk keperluan pemanasan.
+  - Ini merujuk pada individu yang memulai bisnis terkait dengan produksi uang kertas.
+  - Ini merujuk pada individu yang melakukan perdagangan mata uang asing secara ilegal.
+explanation: |
+  Selama periode hiperinflasi, nilai mata uang menurun dengan cepat.
+  Ini menciptakan peluang bagi para pengusaha, sering disebut Burner-preneurs, yang
+  meminjam mata uang yang telah terdepresiasi untuk berinvestasi dalam aset nyata, dan kemudian membayar kembali
+  hutang mereka dengan mata uang yang lebih terdepresiasi lagi.
+reviewed: false

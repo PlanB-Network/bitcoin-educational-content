@@ -1,0 +1,12 @@
+question: Co to znamená, pokud nemáte soukromý klíč k vaší Bitcoin peněžence?
+answer: Třetí strana je zodpovědná za bezpečnost vašich bitcoinů
+wrong_answers:
+  - Ztratili jste všechny své bitcoiny
+  - Již nemůžete provádět transakce se svými bitcoiny
+  - Vaše bitcoiny jsou automaticky převedeny na jinou kryptoměnu
+explanation: |
+  Pokud nemáte soukromý klíč k vaší Bitcoin peněžence, znamená to,
+  že za bezpečnost vašich bitcoinů je zodpovědná třetí strana. Jsou vystaveni
+  stejným rizikům jako burzovní platformy, například hacking, zabavení, regulace nebo
+  bankrot.
+reviewed: false

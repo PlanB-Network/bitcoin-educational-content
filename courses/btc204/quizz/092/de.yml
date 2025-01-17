@@ -1,0 +1,13 @@
+question: Wie lautet der Name des Kontos, das für UTXOs verwendet wird, die nicht in einen Whirlpool-Coinjoin-Pool eingehen können?
+
+answer: Doxxic-Change-Konto.
+
+wrong_answers:
+  - Postmix-Konto.
+  - Premix-Konto.
+  - Einzahlungskonto.
+
+explanation: |
+  Das Wechselgeld, das nicht dem Pool beitreten konnte, wird auf dem Doxxic-Change-Konto isoliert, um eine strikte Trennung von den anderen UTXOs im Wallet zu gewährleisten.
+
+reviewed: false

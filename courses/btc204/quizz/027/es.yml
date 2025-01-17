@@ -1,0 +1,9 @@
+question: ¿Qué técnica ayuda a proteger contra el riesgo de seguimiento inducido por el KYC?
+answer: Transacciones Coinjoin
+wrong_answers:
+  - El uso de VPN
+  - El uso de un nodo completo
+  - Validación mediante prueba de trabajo
+explanation: |
+  Las Coinjoins tienen el efecto de romper el historial de una moneda, lo que te ayuda a contrarrestar el riesgo de seguimiento asociado con el KYC.
+reviewed: false

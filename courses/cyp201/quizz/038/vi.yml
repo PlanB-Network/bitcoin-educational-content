@@ -1,0 +1,9 @@
+question: Tại sao không nên tái sử dụng địa chỉ Bitcoin?
+answer: Nó tạo điều kiện cho việc theo dõi giao dịch bởi bên thứ ba
+wrong_answers:
+  - Nó tiết lộ khóa riêng do nonce
+  - Nó làm cho giao dịch trở nên đắt đỏ hơn
+  - Nó làm mất hiệu lực của chữ ký số
+explanation: |
+  Việc tái sử dụng một địa chỉ cho phép người quan sát dễ dàng liên kết các giao dịch khác nhau với cùng một người dùng, làm ảnh hưởng đến quyền riêng tư của họ.
+reviewed: false

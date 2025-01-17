@@ -1,9 +1,0 @@
-question: Wie viele Runden führt PBKDF2 mit HMAC SHA512 durch?
-answer: 2048 Runden
-wrong_answers:
-  - 1024 Runden
-  - 512 Runden
-  - 4096 Runden
-explanation: |
-  PBKDF2 wird verwendet, um eine mnemonische Phrase in einen Seed umzuwandeln. Dieser Algorithmus führt 2048 Runden mit HMAC SHA512 durch.
-reviewed: false

@@ -1,0 +1,12 @@
+question: Apa itu dompet panas?
+answer: Dompet Bitcoin di ponsel atau komputer Anda yang terhubung ke internet
+wrong_answers:
+  - Dompet yang secara fisik panas saat disentuh
+  - Dompet yang populer di kalangan pengguna Bitcoin
+  - Dompet yang direkomendasikan untuk menyimpan jumlah bitcoin yang besar
+explanation: |
+  Dompet panas adalah istilah yang digunakan untuk menggambarkan dompet Bitcoin yang disimpan
+  pada perangkat dengan akses internet, seperti ponsel atau komputer. Ini memudahkan
+  untuk melakukan transaksi, tetapi ini juga berarti bahwa dompet tersebut berpotensi rentan
+  terhadap ancaman online.
+reviewed: true

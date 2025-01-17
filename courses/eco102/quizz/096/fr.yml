@@ -1,0 +1,9 @@
+question: Quelle est la caractéristique d'une justice négative selon Bastiat ?
+answer: Empêche que les droits des uns soient usurpés par les autres.
+wrong_answers:
+  - Ne fait rien et laisse se régler les différends.
+  - Mauvaise pour les droits des uns et des autres.
+  - Crée un déséquilibre entre les droits individuels et collectifs.
+explanation: |
+  La justice négative, selon Bastiat, consiste à empêcher les usurpations de droits, se limitant ainsi à protéger les droits naturels sans imposer des actions positives aux individus.
+reviewed: false

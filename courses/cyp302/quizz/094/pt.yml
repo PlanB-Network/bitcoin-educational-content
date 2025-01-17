@@ -1,0 +1,9 @@
+question: Qual é a principal fonte de confusão entre os termos cifra de bloco e cifra de fluxo?
+answer: As cifras de bloco são, às vezes, entendidas apenas como algoritmos que utilizam modos de bloco como ECB ou CBC.
+wrong_answers:
+  - As cifras de fluxo são sempre menos seguras que as cifras de bloco.
+  - As cifras de bloco operam em um bit de cada vez.
+  - As cifras de fluxo sempre requerem preenchimento.
+explanation: |
+  A confusão surge do fato de que alguns consideram as cifras de bloco apenas como algoritmos que usam modos de bloqueio específicos, enquanto na realidade, elas podem incluir esquemas de criptografia como o modo OFB.
+reviewed: false

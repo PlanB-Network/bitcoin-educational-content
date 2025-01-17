@@ -1,0 +1,10 @@
+question: Trong những chức năng sau đây, đâu KHÔNG phải là một trong ba chức năng cơ bản của tiền tệ?
+answer: Nguồn Năng Lượng
+wrong_answers:
+  - Kho Bảo Trữ Giá Trị
+  - Phương Tiện Trao Đổi
+  - Đơn Vị Tính Toán
+explanation: |
+  Ba chức năng cơ bản của tiền tệ là kho bảo trữ giá trị, phương tiện trao đổi, 
+  và đơn vị tính toán. Nguồn năng lượng không phải là một chức năng của tiền tệ.
+reviewed: false

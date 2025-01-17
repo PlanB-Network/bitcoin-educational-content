@@ -1,0 +1,9 @@
+question: What is the common point used by all participants to calculate a public key in Bitcoin?
+answer: The generator point G
+wrong_answers:
+  - The SHA256 hash
+  - A mnemonic phrase
+  - The compressed public key
+explanation: |
+  The generator point G of the elliptic curve secp256k1 is used to calculate public keys from private keys.
+reviewed: false

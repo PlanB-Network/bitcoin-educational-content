@@ -1,0 +1,11 @@
+question: Apa risiko yang terkait dengan penyimpanan Bitcoin di platform pertukaran?
+answer: Platform tersebut bisa bangkrut, Bitcoin Anda bisa disita, atau platform tersebut bisa diretas.
+wrong_answers:
+  - Platform tersebut bisa meningkatkan biayanya, Bitcoin Anda bisa kehilangan nilai, atau platform tersebut bisa diretas.
+  - Platform tersebut bisa bangkrut, Bitcoin Anda bisa meningkat nilainya, atau platform tersebut bisa diretas.
+  - Platform tersebut bisa bangkrut, Bitcoin Anda bisa disita, atau platform tersebut bisa meningkatkan biayanya.
+explanation: |
+  Menyimpan Bitcoin di platform pertukaran membawa risiko seperti platform tersebut
+  bangkrut, penyitaan Bitcoin Anda, atau peretasan platform.
+  Inilah mengapa penting untuk memiliki kontrol atas kunci privat Anda.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What currency based on gold and silver was created by Bernard von NotHaus in 1998?
+answer: The Liberty Dollar
+wrong_answers:
+  - Liberty Reserve
+  - e-gold
+  - GoldMoney
+explanation: |
+  This currency was available in the form of silver coins and representative notes, and then in digital form starting from 2003.
+reviewed: false

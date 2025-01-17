@@ -1,0 +1,9 @@
+question: Co se stane, pokud ztratíte heslovou frázi spojenou s vaší HD peněženkou?
+answer: Přijdete o přístup k bitcoinům spojeným s touto peněženkou
+wrong_answers:
+  - Stále můžete přistupovat k peněžence pouze s mnemonickou frází
+  - Heslovou frázi můžete resetovat kontaktováním podpory Bitcoinu
+  - Přijdete pouze o nepotvrzené transakce
+explanation: |
+  Heslová fráze je zásadní součástí odvození klíčů. Bez ní je nemožné klíče znovu vytvořit a tím pádem získat přístup k bitcoinům.
+reviewed: false

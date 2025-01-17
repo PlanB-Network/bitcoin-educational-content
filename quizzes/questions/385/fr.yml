@@ -1,9 +1,0 @@
-question: Quelle est l'alternative au KYC complet en Suisse?
-answer: KYC léger
-wrong_answers:
-  - KYC lourd
-  - KYC moyen
-  - KYC sombre
-explanation: |
-  En Suisse, une alternative au KYC complet est le "KYC léger" qui permet l'achat et la vente de bitcoins sans fournir d'identification, tant que le montant d'achat ne dépasse pas 1000 euros par jour.
-reviewed: false

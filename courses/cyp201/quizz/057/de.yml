@@ -1,0 +1,9 @@
+question: Wie groß ist der von PBKDF2 generierte Seed?
+answer: 512 Bits
+wrong_answers:
+  - 128 Bits
+  - 256 Bits
+  - Variabel, abhängig von der Länge der mnemonischen Phrase
+explanation: |
+  Unabhängig von der Länge der mnemonischen Phrase generiert PBKDF2 immer einen 512-Bit-Seed.
+reviewed: false

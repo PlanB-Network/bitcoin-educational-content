@@ -1,0 +1,9 @@
+question: Mikä on Bitcoin-siirron vaikutus syötteen UTXOihin?
+answer: Se kuluttaa ne täyttääkseen lähdöt.
+wrong_answers:
+  - Se arkistoi ne lohkoketjuun tulevaa viittausta varten.
+  - Se salaa ne varmistaakseen siirron turvallisuuden.
+  - Se duplikoi ne luodakseen uusia UTXOja.
+explanation: |
+  Siirron syötteen UTXOt kulutetaan rahoittamaan lähdöt. Se on tavallaan rahan lähde.
+reviewed: false

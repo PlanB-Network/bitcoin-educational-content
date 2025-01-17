@@ -1,9 +1,0 @@
-question: Was ist die erste aufgezeichnete Bitcoin-Transaktion?
-answer: Eine Transaktion von 10 BTC zwischen Satoshi und Hal Finney
-wrong_answers:
-  - Eine Transaktion von 10.000 BTC für 2 Pizzen
-  - Eine Transaktion von 1 BTC zwischen Satoshi und Hal Finney
-  - Eine Transaktion von 10.000 BTC zwischen Laszlo Hanyecz und Hal Finney
-explanation: |
-  Die erste aufgezeichnete Bitcoin-Transaktion war eine Transaktion von 10 BTC zwischen Satoshi Nakamoto und Hal Finney.
-reviewed: false

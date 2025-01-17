@@ -1,0 +1,12 @@
+question: ¿Cuáles son algunas oportunidades de negocio potenciales proporcionadas por la Lightning Network?
+answer: Nuevos modelos económicos donde los consumidores pagan por contenido basado en lo que consumen.
+wrong_answers:
+  - Nuevos modelos económicos donde los consumidores pagan usando diferentes criptomonedas.
+  - Nuevos modelos económicos donde los consumidores usan blockchains personalizadas.
+  - Nuevos modelos económicos donde los consumidores no pagan por ningún contenido.
+explanation: >-
+  La Lightning Network abre una multitud de casos de uso emocionantes para
+  los usuarios de Bitcoin. Los modelos económicos resultantes y las oportunidades de negocio son numerosos
+  y variados, incluyendo nuevos modelos económicos donde los consumidores pagan por contenido basado
+  en lo que consumen.
+reviewed: true

@@ -1,9 +1,0 @@
-question: Qual é a prática recomendada para armazenar a senha para criptografia de dados?
-answer: Anote a senha em um papel e guarde em um local seguro.
-wrong_answers:
-  - Armazene a senha em um arquivo de texto no computador.
-  - Compartilhe a senha com amigos confiáveis.
-  - Use uma senha comum que seja fácil de lembrar.
-explanation: |
-  É recomendado anotar a senha para criptografia de dados em um papel e mantê-la em um local seguro. Isso é para evitar a perda de acesso aos dados criptografados.
-reviewed: false

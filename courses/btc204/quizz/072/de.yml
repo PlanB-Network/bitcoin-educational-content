@@ -1,0 +1,13 @@
+question: Welches Skriptmodell wird im Jahr 2024 für verbesserte Privatsphäre bei Bitcoin am meisten empfohlen?
+
+answer: P2TR
+
+wrong_answers:
+  - P2PK
+  - P2PKH
+  - P2SH
+
+explanation: |
+  Um in der größtmöglichen Menge unterzutauchen, wird empfohlen, das am weitesten verbreitete Skriptmodell zu verwenden. P2TR-Skripte sind derzeit die am meisten verwendeten in Bitcoin-Transaktionen.
+
+reviewed: false

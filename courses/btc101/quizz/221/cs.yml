@@ -1,0 +1,11 @@
+question: Co je Lightning Network?
+answer: Platební síť, která využívá protokol Bitcoinu pro umožnění bleskově rychlých transakcí.
+wrong_answers:
+  - Nový typ kryptoměny.
+  - Nová technologie blockchainu, která v budoucnu nahradí Bitcoin.
+  - Metoda pro těžbu Bitcoinu.
+explanation: |
+  Lightning Network je platební síť, která využívá protokol
+  Bitcoinu pro umožnění rychlých transakcí. Nejedná se
+  o samostatnou kryptoměnu, ani o metodu pro těžbu Bitcoinu.
+reviewed: true

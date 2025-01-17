@@ -1,9 +1,0 @@
-question: Quelle est une option supplémentaire pour renforcer la sécurité d'un portefeuille Bitcoin?
-answer: Ajouter une phrase secrète.
-wrong_answers:
-  - Ajouter une deuxième phrase mnémonique.
-  - Ajouter une signature numérique.
-  - Ajouter un historique des transactions.
-explanation: |
-  Ajouter une phrase secrète est une option supplémentaire pour renforcer la sécurité du portefeuille Bitcoin.
-reviewed: false

@@ -1,9 +1,0 @@
-question: ¿Cuál es la tecnología que se utiliza en la billetera de Bitcoin para asegurar los fondos de gasto en la billetera de Bitcoin?
-answer: Criptografía de curva elíptica
-wrong_answers:
-  - Criptografía simétrica
-  - Criptografía cuántica
-  - Criptografía RSA
-explanation: |
-  Gastar Bitcoins requiere que el propietario utilice Curvas Elípticas para crear una firma para una transacción de Bitcoin.
-reviewed: false

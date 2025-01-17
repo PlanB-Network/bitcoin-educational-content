@@ -1,9 +1,0 @@
-question: ¿Cuál es el ritmo de la red de Bitcoin?
-answer: 10 minutos por bloque
-wrong_answers:
-  - 10 segundos por bloque
-  - 10 minutos por transacción
-  - 10 segundos por transacción
-explanation: |
-  El ritmo de la red de Bitcoin es de 10 minutos por bloque. Esto es como el latido del sistema monetario de Bitcoin.
-reviewed: false

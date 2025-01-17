@@ -1,0 +1,9 @@
+question: Jaká je funkce úpravy obtížnosti v síti Bitcoin?
+answer: Zajišťuje, že blok je přidán do blockchainu přibližně každých deset minut.
+wrong_answers:
+  - Určuje cenu Bitcoinu.
+  - Reguluje počet bitcoinů, které mohou být vytěženy v blockchainu.
+  - Určuje velikost bloku.
+explanation: >-
+  Úprava obtížnosti v síti Bitcoin zajišťuje, že blok je přidán přibližně každých deset minut. To je součástí pravidel protokolu sítě Bitcoin.
+reviewed: true

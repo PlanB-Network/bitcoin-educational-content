@@ -1,0 +1,9 @@
+question: Mis on entroopia krüptograafia kontekstis?
+answer: Ettearvamatuse mõõt, mis on seotud juhusliku protsessiga
+wrong_answers:
+  - Meetod tundlike andmete krüpteerimiseks
+  - Algoritm avalike võtmete arvutamiseks
+  - Andmete kokkusurumise tehnika
+explanation: |
+  Krüptograafias kvantifitseerib entroopia ebakindluse või kaose taset juhuslikus allikas, mis on oluline turvaliste võtmete genereerimiseks.
+reviewed: false

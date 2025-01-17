@@ -1,0 +1,43 @@
+## Characteristics of the podcast
+
+# Name
+# Write podcast's complete name
+name: PBN podcast 2
+
+# Host
+# Write the names of all hosts
+host: Host 3
+
+# Language
+# Insert 2-digits ISO 639 language code (E.g. en for English, es for Spanish, th for Thai, etc...)
+language: it
+
+# Links
+# Please, specify the following complete links (including https://):
+# - podcast: direct link to audio feed via the streaming service platform used (E.g.: apple podcast, spotify, fountain, etc...) 
+# - twitter: link to twitter profile
+# - website: link to podcast's website if any
+links:
+  podcast: https://podcasts.apple.com/...
+  twitter: https://x.com/planb_network
+  website: https://planb.network
+
+# Description
+# Write the main description of the podcast
+description:
+  The journey from Normie to Bitcoiner.
+  Normal people tell the story of how they found the greatest money ever invented. Contact www.twitter.com/2BitIdiots if you'd like to come on as a guest.
+
+# Tags
+# List the associated tags to the podcast
+# The list of tags is composed of 21 items that can be found here (list not yet available)
+tags:
+  - bitcoin
+  - technology
+
+# Contributors
+# List all the contributors who help format, review and translate the course.
+# They are identified by their UUID
+# Currently, there are no shared record of these UUIDs
+contributors:
+  - another-satoshi

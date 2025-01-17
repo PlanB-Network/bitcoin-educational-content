@@ -1,0 +1,13 @@
+question: Mis on rišee kontekstis Bitcoin?
+
+answer: Tehnika, mis hõlmab mitme tehingu tegemist iseendale
+
+wrong_answers:
+  - Koostööd nõudev tehing, mis hõlmab mitut osalejat
+  - Meetod bitcoinide segamiseks, et suurendada potentsiaalset anonüümsust
+  - Teatud vahetusplatvormidele spetsiifiline coinjoin tüüp
+
+explanation: |
+  Rišee on tehnika, mis hõlmab mitme fiktiivse tehingu tegemist iseendale (puhastamine).
+
+reviewed: false

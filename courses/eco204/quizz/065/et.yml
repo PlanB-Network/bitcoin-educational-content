@@ -1,0 +1,15 @@
+question: Mis on peamine mõte raha ajaväärtuse kontseptsiooni taga?
+answer: Aeg omab väärtust
+wrong_answers:
+  - Raha kaotab aja jooksul väärtuse
+  - Raha saab aja vastu vahetada
+  - Aega saab raha vastu vahetada
+explanation: |
+  Peamine mõte raha ajaväärtuse kontseptsiooni taga on see, et
+  
+  aeg
+  
+  omab väärtust. Kui keegi otsustab maksta võlakirja, mille väärtus on $100, ühe kuu võrra ette,
+  
+  võivad nad selle saada näiteks $98 eest ja saada due date'il $100.
+reviewed: false

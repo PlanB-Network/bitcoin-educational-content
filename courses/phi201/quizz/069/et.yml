@@ -1,0 +1,9 @@
+question: Mis oli Turgot'i suhtumine religioossetesse tõdedesse?
+answer: Religioosne tõde on iga inimese isikliku südametunnistuse küsimus ja seda ei saa peale suruda ühegi autoriteedi poolt.
+wrong_answers:
+  - Religioosne tõde on suhteline ja sõltub kultuurist ning ajastust, milles keegi elab.
+  - Religioosne tõde on inimesele kättesaamatu ja ei saa olla ühegi kindluse teema.
+  - Religioosse tõe peab määrama poliitiline võim ja see tuleb peale suruda kõikidele kodanikele.
+explanation: |
+  Turgot pidas religioosset tõde isiklikuks asjaks, mis kuulub iga üksikisiku südametunnistusele, väites, et autoriteedil ei ole õigust peale suruda religioosseid uskumusi inimestele.
+reviewed: false

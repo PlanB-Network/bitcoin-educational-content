@@ -1,0 +1,8 @@
+question: BitcoinにおけるPBKDF2の主な役割は何ですか？
+answer: HDウォレットのシードを生成する
+wrong_answers:
+  - トランザクションを認証する
+  - 私的キーを暗号化する
+  - Bitcoinアドレスを作成する
+explanation: |
+  PBKDF2は、ニーモニックフレーズとオプショナルなパスフレーズからシードを導出するために使用されます。

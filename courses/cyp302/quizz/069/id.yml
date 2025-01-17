@@ -1,0 +1,8 @@
+question: Apa perbedaan antara menggunakan algoritma Salsa20 dengan kunci 128-bit dan kunci 256-bit?
+answer: Panjang kunci mempengaruhi jumlah ronde dalam algoritma.
+wrong_answers:
+  - Panjang kunci mengubah jenis enkripsi.
+  - Kunci 128-bit digunakan untuk enkripsi aliran dan kunci 256-bit untuk enkripsi blok.
+  - Panjang kunci tidak memiliki dampak pada Salsa20.
+explanation: |
+  Dalam skema enkripsi simetris Salsa20, panjang kunci (128 atau 256 bit) mempengaruhi jumlah ronde dalam algoritma, tanpa mengubah inti dari algoritma itu sendiri.

@@ -1,0 +1,9 @@
+question: Co dělá odesílající uzel, když selže platební trasa kvůli nedostatečné likviditě?
+answer: Zkusí jinou trasu, dokud nenajde funkční
+wrong_answers:
+  - Automaticky pošle žádost o vrácení peněz příjemci
+  - Uzavře kanál a vytvoří nový přímý kanál
+  - Požádá prostředníkovy uzly o zvýšení jejich likvidity
+explanation: |
+  Když trasa selže, odesílající uzel zkouší jiné alternativní trasy, dokud nenajde funkční cestu, nebo dokud nejsou vyčerpány všechny možnosti.
+reviewed: false

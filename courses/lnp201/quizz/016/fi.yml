@@ -1,0 +1,9 @@
+question: Milloin sitoumustapahtuma julkaistaan Bitcoin-lohkoketjussa?
+answer: Lopulta kun kanava suljetaan
+wrong_answers:
+  - Välittömästi jokaisen siirron jälkeen kanavassa
+  - Ennen jokaista uutta sitoumustapahtumaa
+  - Kun käytettävissä olevat varat on käytetty loppuun
+explanation: |
+  Sitoumustapahtumat rakennetaan ja allekirjoitetaan jokaisen allokaation muutoksen yhteydessä, mutta ne julkaistaan lopulta lohkoketjussa vain kanavan sulkemisen yhteydessä.
+reviewed: false

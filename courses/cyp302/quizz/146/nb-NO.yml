@@ -1,0 +1,8 @@
+question: Hva er betingelsen for at et heltall a skal ha en invers modulo N?
+answer: a og N må være relativt primiske
+wrong_answers:
+  - N må være partall
+  - a må være oddetall
+  - a må være et primtall
+explanation: |
+  Et heltall a har en invers modulo N hvis og bare hvis de er relativt primiske, noe som betyr at deres største felles divisor er 1.

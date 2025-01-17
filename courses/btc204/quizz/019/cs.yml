@@ -1,0 +1,9 @@
+question: Jaké heuristiky analýzy řetězce jsou zmíněny Satoshi Nakamotem v Bílé knize o Bitcoinu? (možná pouze jedna odpověď)
+answer: CIOH a opakované použití adresy.
+wrong_answers:
+  - Klastrace podle podpisu a časové korelace.
+  - Platby zaokrouhlenými částkami a velký výstup.
+  - Analýza objemu a podobnosti skriptů.
+explanation: |
+  V části 10 Bílé knihy o Bitcoinu Satoshi Nakamoto varuje uživatele před CIOH (Common Input Ownership Heuristic) a opakovaným používáním stejného páru klíčů.
+reviewed: false

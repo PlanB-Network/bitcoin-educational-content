@@ -1,0 +1,9 @@
+question: Jaká je celková velikost rozšířeného klíče s kontrolním součtem?
+answer: 82 bajtů
+wrong_answers:
+  - 78 bajtů
+  - 64 bajtů
+  - 128 bajtů
+explanation: |
+  Rozšířený klíč je bez kontrolního součtu 78 bajtů a s kontrolním součtem 82 bajtů.
+reviewed: false

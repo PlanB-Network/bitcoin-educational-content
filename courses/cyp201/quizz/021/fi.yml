@@ -1,0 +1,9 @@
+question: Mikä on skalaarikertolaskun pääominaisuus elliptisillä käyrillä?
+answer: Yksisuuntainen funktio
+wrong_answers:
+  - Helposti peruutettavissa
+  - Perustuu alkulukujen tekijöihin jakamiseen
+  - Erittäin pitkä laskettava
+explanation: |
+  Skalaarikertolasku elliptisillä käyrillä on yksisuuntainen funktio, mikä tekee yksityisen avaimen palauttamisen julkisesta avaimesta mahdottomaksi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on kursuse peamine eesmärk?
+answer: Kursuse eesmärk on uurida Austria majanduse põhimõisteid.
+wrong_answers:
+  - Kursuse eesmärk on edendada Keynes'i doktriini.
+  - Kursuse eesmärk on selgitada keskpankade toimimist.
+  - Kursuse eesmärk on edendada rahandusliku võimu tsentraliseerimist.
+explanation: |
+  Peatükk mainib, et kursuse eesmärk on uurida Austria majanduse põhimõisteid.
+reviewed: false

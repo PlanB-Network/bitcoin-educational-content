@@ -1,0 +1,9 @@
+question: Tại sao mã hóa một lần (one-time pad) được coi là một phương pháp mã hóa an toàn?
+answer: Bởi vì mỗi bit của khóa là ngẫu nhiên và không có phần nào được tái sử dụng
+wrong_answers:
+  - Bởi vì nó sử dụng một khóa công khai và khóa riêng tư ngẫu nhiên
+  - Bởi vì nó dựa vào các số nguyên tố
+  - Bởi vì nó chỉ mã hóa các tin nhắn nhỏ
+explanation: |
+  Mã hóa một lần (one-time pad) được coi là an toàn bởi vì mỗi bit của khóa là ngẫu nhiên và không bao giờ được tái sử dụng, đảm bảo rằng nó không để lại bất kỳ dấu vết nào có thể bị kẻ tấn công khai thác.
+reviewed: false

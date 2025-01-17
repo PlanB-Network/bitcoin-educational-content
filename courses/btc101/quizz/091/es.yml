@@ -1,0 +1,13 @@
+question: ¿Cuál es el uso recomendado de una cartera física sin conexión, o fría?
+answer: Almacenar grandes cantidades.
+wrong_answers:
+  - Almacenar gastos diarios.
+  - Almacenar pequeñas cantidades.
+  - Almacenar ahorros a corto plazo.
+explanation: |
+  Se recomienda una cartera física sin conexión, o fría, para
+  almacenar grandes cantidades porque es menos vulnerable a
+  amenazas en línea que las carteras calientes. Sin embargo, no se
+  recomienda para gastos diarios porque es menos accesible para
+  transacciones diarias.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Thông tin nào cần được ghi trên nhãn?
+
+answer: Nguồn gốc của một UTXO.
+
+wrong_answers:
+  - Ngày tạo của một UTXO.
+  - Kích thước của một UTXO.
+  - Số phí liên quan đến việc tạo một UTXO.
+
+explanation: |
+  Việc ghi nhãn là một phương pháp tốt giúp nhớ nguồn gốc của một UTXO.

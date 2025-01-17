@@ -1,9 +1,0 @@
-question: Qual é a consequência da hiperinflação?
-answer: Uma diminuição drástica no valor da moeda
-wrong_answers:
-  - Uma diminuição sutil no valor da moeda
-  - Um aumento drástico no valor da moeda
-  - Um aumento sutil no valor da moeda
-explanation: |
-  Devido à hiperinflação, os indivíduos têm rapidamente uma perda completa de confiança na moeda, o que leva a uma diminuição drástica no valor da moeda em um curto período de tempo.
-reviewed: false

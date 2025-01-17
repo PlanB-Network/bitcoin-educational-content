@@ -1,0 +1,9 @@
+question: Was ist die primäre Rolle eines privaten Schlüssels im Bitcoin-System?
+answer: Transaktionen signieren, um ein Skript zu erfüllen
+wrong_answers:
+  - Als Identifikator dienen, um Bitcoins zu empfangen
+  - Mittel sicher auf der Blockchain speichern
+  - Sperrskripte erstellen, um Bitcoins zu schützen
+explanation: |
+  Der private Schlüssel wird verwendet, um Transaktionen zu signieren, um ein Skript zu erfüllen und die Bitcoins freizugeben.
+reviewed: false

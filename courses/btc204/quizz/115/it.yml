@@ -1,0 +1,13 @@
+question: Cos'è un rimbalzo nel contesto di Bitcoin?
+
+answer: Una tecnica che comporta l'esecuzione di molteplici transazioni verso se stessi
+
+wrong_answers:
+  - Una transazione collaborativa che coinvolge più partecipanti
+  - Un metodo di miscelazione dei bitcoin per aumentare l'anonimato potenziale
+  - Un tipo di coinjoin specifico per alcune piattaforme di scambio
+
+explanation: |
+  Un rimbalzo è una tecnica che comporta l'esecuzione di diverse transazioni fittizie verso se stessi (sweeping).
+
+reviewed: false

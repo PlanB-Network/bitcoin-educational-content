@@ -1,0 +1,10 @@
+question: How are transactions on the Lightning Network secured?
+answer: Through cryptography and indirectly through the energy consumed by miners on Bitcoin.
+wrong_answers:
+  - Through the use of private keys only.
+  - Through the use of public keys only.
+  - Through the use of both private and public keys only.
+explanation: >-
+  Transactions on the Lightning Network are secured through cryptography
+  and indirectly through the energy consumed by miners on Bitcoin.
+reviewed: true

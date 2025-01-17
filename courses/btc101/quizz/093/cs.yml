@@ -1,0 +1,14 @@
+question: Co je potřeba zálohovat při používání peněženky s heslovou frází?
+answer: Je potřeba zálohovat jak seznam 12 nebo 24 slov, tak vaši heslovou frázi.
+wrong_answers:
+  - Je potřeba zálohovat pouze seznam 12 nebo 24 slov.
+  - Je potřeba zálohovat pouze vaši heslovou frázi.
+  - Není potřeba zálohovat ani seznam 12 nebo 24 slov, ani vaši heslovou frázi.
+explanation: |
+  Když používáte peněženku s heslovou frází, je potřeba zálohovat
+  jak seznam 12 nebo 24 slov, tak vaši heslovou frázi,
+  protože seznam slov a heslová fráze jsou oba
+  nezbytné pro znovuzískání přístupu k vašim prostředkům v případě
+  ztráty telefonu nebo počítače. Bez jednoho nebo druhého
+  jsou prostředky nedostupné.
+reviewed: true

@@ -1,0 +1,23 @@
+- start_date: 2025-05-07
+  end_date: 2025-05-09
+  address_line_1: Austin, Texas
+  address_line_2:  
+  address_line_3: 
+  name: bitcoin++ is going deep
+  builder: Base58 school 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Bitcoin transactions get made but how do they get into blocks? What is this "policy" that everyone seems to be talking about? Join us in Austin Spring 2025 to delve deep into how our transactions move through time and space to reach the next block.
+  language: 
+    - en
+  links:
+    website: https://btcpp.dev/conf/atx25
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - general
+
+

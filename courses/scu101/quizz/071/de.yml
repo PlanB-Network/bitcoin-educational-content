@@ -1,0 +1,12 @@
+question: Was ist eine empfohlene Praxis für die Verwaltung des Master-Passworts eines Passwort-Managers?
+answer: Schreiben Sie es auf Papier und bewahren Sie es an einem verborgenen und sicheren Ort auf.
+wrong_answers:
+  - Speichern Sie es in Ihrer E-Mail.
+  - Verwenden Sie dasselbe Passwort für alle Konten.
+  - Merken Sie es sich.
+explanation: |
+  Es wird empfohlen, das Master-Passwort eines
+  Passwort-Managers auf Papier zu schreiben, aber es sollte an einem
+  verborgenen und sicheren Ort aufbewahrt werden. Dies liegt daran, dass, wenn die Festplatte verschlüsselt und der Computer gesperrt ist, das Passwort
+  nicht zugänglich sein wird, selbst im Falle eines Einbruchs.
+reviewed: true

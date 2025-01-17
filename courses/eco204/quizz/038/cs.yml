@@ -1,0 +1,13 @@
+question: Jaký termín označuje společnost, která pokračuje ve svém provozu převážně
+  prostřednictvím nízkonákladových půjček, přestože je nesolventní nebo blízko bankrotu za normálních
+  tržních podmínek?
+answer: Zombie společnost
+wrong_answers:
+  - Duchovní společnost
+  - Upíří společnost
+  - Fantomová společnost
+explanation: |
+  Zombie společnost je společnost, která za normálních tržních podmínek
+  by byla nesolventní nebo blízko bankrotu, ale pokračuje ve svém provozu převážně prostřednictvím nízkonákladových
+  půjček.
+reviewed: false

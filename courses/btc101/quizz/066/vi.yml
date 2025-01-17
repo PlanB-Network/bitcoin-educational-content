@@ -1,0 +1,10 @@
+question: Dự đoán vào năm nào việc tạo ra bitcoin sẽ ngừng lại?
+answer: 2140
+wrong_answers:
+  - 2050
+  - 2030
+  - 2200
+explanation: |
+  Do cơ chế phân đôi, có thể dự đoán một cách toán học rằng việc tạo ra bitcoin sẽ ngừng lại vào năm 2140,
+  khi tổng số lượng bitcoin đạt đến giới hạn của nó là 21 triệu.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Quelle est l'une des choses que vous devriez avoir avant d'acheter du Bitcoin ?
+answer: Un portefeuille sécurisé.
+wrong_answers:
+  - Un coffre-fort physique.
+  - Un compte en banque.
+  - Une carte de crédit.
+explanation: |
+  Le texte du cours mentionne qu'avant d'acheter du Bitcoin, vous
+  devriez avoir un portefeuille sécurisé où vous stockerez vos clés.
+reviewed: true

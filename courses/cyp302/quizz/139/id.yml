@@ -1,0 +1,9 @@
+question: Apa ciri utama dari fungsi hash kriptografi?
+answer: Ia menghasilkan output dengan panjang tetap untuk setiap input, tidak peduli ukurannya.
+wrong_answers:
+  - Ia mengenkripsi data menggunakan kunci simetris.
+  - Ia menghasilkan output yang bervariasi tergantung pada panjang input.
+  - Ia mendekripsi pesan menggunakan kunci publik.
+explanation: |
+  Fungsi hash menghasilkan hash dengan panjang tetap, tidak peduli seberapa besar ukuran inputnya.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Việc đào (mining) thiết lập điều gì cho Bitcoin?
+answer: Một giá sàn
+wrong_answers:
+  - Một giá trần
+  - Một giá cố định
+  - Một giá biến đổi
+explanation: |
+  Việc đào thiết lập một giá sàn cho Bitcoin, dưới mức này
+  các thợ đào sẽ bán lỗ. Chi phí đào ảnh hưởng đáng kể
+  đến giá của Bitcoin.
+reviewed: true

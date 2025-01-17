@@ -1,9 +1,0 @@
-question: Qual è la domanda centrale riguardo all'autocustodia quando si sceglie un portafoglio Bitcoin?
-answer: Sei il proprietario dei fondi o lasci il controllo del tuo denaro a un terzo?
-wrong_answers:
-  - Il portafoglio è sicuro con una passphrase?
-  - Il portafoglio permette di ricevere e inviare bitcoin?
-  - Posso condividere il mio portafoglio con un'altra persona?
-explanation: |
-  Sei il proprietario dei fondi o lasci il controllo del tuo denaro a un terzo? Questo perché il detentore della chiave privata è il proprietario dei Bitcoin.
-reviewed: false

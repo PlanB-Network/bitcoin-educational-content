@@ -1,0 +1,9 @@
+question: Mitä tapahtuu, jos maksu HTLC; n kautta ei valmistu määräajassa?
+answer: Maksu peruutetaan ja varat palautuvat lähettäjälle.
+wrong_answers:
+  - Maksu jää viimeisen välittäjäsolmun haltuun
+  - Varat jaetaan kaikkien reitin solmujen kesken
+  - Varat jäävät pysyvästi jumiin
+explanation: |
+  Jos HTLC vanhenee ilman, että salaisuus paljastetaan, maksu peruutetaan ja varat palautuvat lähettäjälle, estäen näin minkä tahansa välittäjäsolmun mahdollisuuden pitää varat itsellään.
+reviewed: false

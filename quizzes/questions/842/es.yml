@@ -1,9 +1,0 @@
-question: ¿Cuáles son algunas de las herramientas utilizadas en ciberseguridad?
-answer: Wireshark, Metasploit, Nmap
-wrong_answers:
-  - Photoshop, Illustrator, InDesign
-  - Excel, PowerPoint, Word
-  - AutoCAD, SolidWorks, Revit
-explanation: |
-  El capítulo enumera Wireshark, Metasploit y Nmap como algunas de las herramientas utilizadas en ciberseguridad.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Minkä tyyppistä likviditeettiä myyjän on ensisijaisesti hallittava Lightning Networkissa maksujen vastaanottamiseksi?
+answer: Saapuva likviditeetti
+wrong_answers:
+  - Lähtevä likviditeetti
+  - Suuri kokonaiskanavakapasiteetti
+  - Suuri on-chain saldo
+explanation: |
+  Maksujen vastaanottamiseksi myyjällä on oltava saapuvaa likviditeettiä, mikä tarkoittaa, että varojen on oltava saatavilla kanavan toisella puolella, jotta he voivat vastaanottaa maksuja.
+reviewed: false

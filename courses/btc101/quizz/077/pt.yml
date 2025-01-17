@@ -1,0 +1,12 @@
+question: Qual é o risco de compartilhar a chave pública de uma carteira Bitcoin?
+answer: Perder a privacidade.
+wrong_answers:
+  - Destruir a carteira Bitcoin.
+  - Perder os Bitcoins.
+  - Hackear a carteira Bitcoin.
+explanation: |
+  Compartilhar a chave pública envolve riscos para a privacidade, mas não
+  para a segurança. Isso ocorre porque a chave pública é usada para
+  gerar endereços Bitcoin e, assim, receber dinheiro, mas ela
+  não representa a propriedade dos Bitcoins.
+reviewed: true

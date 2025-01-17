@@ -1,0 +1,9 @@
+question: In what situation is a forced closure of a channel used?
+answer: When one of the parties no longer responds
+wrong_answers:
+  - When the capacity of the channel needs to be increased
+  - When the timelock is insufficient
+  - When transaction fees are too high
+explanation: |
+  Forced closure is used as a last resort if one of the parties, for example due to a technical problem, no longer responds to the other's messages.
+reviewed: false

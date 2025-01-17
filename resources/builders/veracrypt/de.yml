@@ -1,0 +1,5 @@
+description: |
+  VeraCrypt ist eine Open-Source-Software zur Festplattenverschlüsselung, mit der Sie Ihre sensiblen Daten schützen können. Als Nachfolger von TrueCrypt bietet es robustes Verschlüsselung durch Algorithmen wie AES, Serpent oder Twofish, mit denen verschlüsselte Volumen erstellt oder Partitionen und ganze Festplatten, intern oder extern, verschlüsselt werden können.
+
+contributors:
+  - pretty-private

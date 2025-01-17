@@ -1,0 +1,9 @@
+question: Pourquoi SHA256 applique-t-il un pré-traitement au message d'entrée ?
+answer: Pour garantir une longueur multiple de 512 bits
+wrong_answers:
+  - Pour vérifier l'intégrité du message
+  - Pour chiffrer les données avant hachage
+  - Pour augmenter la taille des hashes générés
+explanation: |
+  Le pré-traitement ajuste la longueur du message en ajoutant des bits de rembourrage et une représentation binaire de sa longueur.
+reviewed: false

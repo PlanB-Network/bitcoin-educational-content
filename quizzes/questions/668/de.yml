@@ -1,9 +1,0 @@
-question: Wer kann den Widerrufsschlüssel vor Ablauf der Timelock verwenden?
-answer: Die Person, die das Geld erhält.
-wrong_answers:
-  - Die Person, die die Transaktion mit der Timelock erstellt.
-  - Beide Parteien können den Widerrufsschlüssel vor Ablauf der Timelock verwenden.
-  - Keine der Parteien kann den Widerrufsschlüssel vor Ablauf der Timelock verwenden.
-explanation: |
-  Die Person, die das Geld erhält, kann den Widerrufsschlüssel vor Ablauf der Timelock verwenden, falls es zu Betrug von einer Seite zur anderen in einem Kanal im Lightning-Netzwerk kommt.
-reviewed: false

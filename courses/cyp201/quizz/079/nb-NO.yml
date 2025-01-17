@@ -1,0 +1,8 @@
+question: Hva er hovedfunksjonen til output script descriptors?
+answer: Å fullstendig beskrive et output script og gi informasjonen som trengs for å gjenopprette en lommebok
+wrong_answers:
+  - Automatisk generere multisignaturadresser
+  - Erstatte den mnemoniske frasen i sikkerhetskopier av lommebøker
+  - Forenkle beregningene av digitale signaturer
+explanation: |
+  Descriptors inneholder all nødvendig informasjon for å spore et bestemt script, inkludert avledningsveien og nøklene som brukes, men ikke gjenopprettingsfrasen.

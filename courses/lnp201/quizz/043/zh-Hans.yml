@@ -1,0 +1,9 @@
+question: Bob在发票中可以包含哪些信息以便于路由？
+answer: 具有足够流动性的附近通道或私有通道的存在
+wrong_answers:
+  - 中间节点的私钥
+  - 网络所有通道的完整地图
+  - 每个通道可用流动性的确切金额
+explanation: |
+  通过指示具有流动性的附近通道或揭示私有通道，Bob帮助Alice选择成功概率更高的路由。
+reviewed: false

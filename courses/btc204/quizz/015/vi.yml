@@ -1,0 +1,9 @@
+question: Ba bước chính của phân tích blockchain là gì?
+answer: Quan sát blockchain, xác định đặc điểm, và suy luận giả thuyết.
+wrong_answers:
+  - Thu thập dữ liệu, lưu trữ an toàn, và báo cáo.
+  - Xác định người dùng, quản lý giao dịch, và bảo vệ chống gian lận.
+  - Thu thập dữ liệu, chọn lọc ngẫu nhiên, và tố cáo.
+explanation: |
+  Phân tích blockchain đầu tiên bao gồm việc truy cập dữ liệu blockchain Bitcoin, sau đó cố gắng xác định các đặc điểm trong dữ liệu này, và cuối cùng là đưa ra các giải thích hợp lý.
+reviewed: false

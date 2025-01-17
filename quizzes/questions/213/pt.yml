@@ -1,9 +1,0 @@
-question: Como o Bitcoin é descrito no texto?
-answer: Um objeto multidisciplinar
-wrong_answers:
-  - Um objeto simples
-  - Um objeto complexo
-  - Um objeto de uma única disciplina
-explanation: |
-  O Bitcoin é descrito como um objeto multidisciplinar porque levanta questões relacionadas a várias áreas, incluindo criptografia, teoria dos jogos, economia e política monetária, ciência da computação, filosofia, energia, leis e regulamentações.
-reviewed: false

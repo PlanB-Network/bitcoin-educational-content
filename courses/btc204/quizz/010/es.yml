@@ -1,0 +1,9 @@
+question: En una moneda, ¿cuáles son los 3 criterios fundamentales que permiten a una persona asegurarse de que podrá gastarla más tarde?
+answer: La moneda debe estar intacta, ser auténtica y no debe haber sido gastada doblemente.
+wrong_answers:
+  - La moneda debe ser antigua, rara y estar en buen estado.
+  - La moneda debe ser universalmente aceptada, legal y guardada en un banco.
+  - La moneda debe ser aprobada por el estado, registrada y durable.
+explanation: |
+  Cualquier persona racional que quiera aceptar una moneda, ya sea digital o física, se asegura de que no esté alterada, que sea de hecho una moneda real y que no pueda ser reutilizada por el emisor.
+reviewed: false

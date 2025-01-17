@@ -1,0 +1,11 @@
+question: Why is the number of confirmations in a Bitcoin transaction important?
+answer: The more confirmations a transaction has, the more immutable it becomes.
+wrong_answers:
+  - The more confirmations a transaction has, the more valuable it becomes.
+  - The more confirmations a transaction has, the faster it is processed.
+  - The more confirmations a transaction has, the less secure it is.
+explanation: >-
+  The number of confirmations in a Bitcoin transaction indicates how many
+  blocks have been mined on top of the block containing the transaction. The more
+  confirmations a transaction has, the more immutable it becomes.
+reviewed: true

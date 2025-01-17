@@ -1,0 +1,9 @@
+question: Mikä on kreikkalainen polis?
+answer: Tori
+wrong_answers:
+  - Luonnonlaki
+  - Ihmisen laki
+  - Jumalille omistettu temppeli
+explanation: |
+  Kreikkalainen polis viittaa kaupunkivaltioon, poliittiseen ja sosiaaliseen järjestelmään, jossa kansalaiset osallistuvat julkiseen elämään ja ottavat osaa yhteisiin päätöksiin. Se muodostaa demokratian ja kansalaisuuden kehyksen muinaisessa Kreikassa.
+reviewed: false

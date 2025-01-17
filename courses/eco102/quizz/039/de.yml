@@ -1,0 +1,9 @@
+question: Was ist das Prinzip der Juristen nach Bastiat?
+answer: Es ist das Prinzip der Vorrangstellung des Gesetzes vor dem Eigentum.
+wrong_answers:
+  - Es ist das Prinzip der Vorrangstellung des Eigentums vor dem Gesetz.
+  - Es ist das Prinzip der Gleichheit vor dem Gesetz.
+  - Es ist das Recht auf Eigentum ohne staatliche Intervention.
+explanation: |
+  Für Bastiat stellt das Prinzip der Juristen, im Gegensatz zu dem der Ökonomen, das Gesetz als dem Eigentum vorgehend dar, eine Position, die er wegen ihres Potenzials, Ungerechtigkeiten zu etablieren, kritisiert.
+reviewed: false

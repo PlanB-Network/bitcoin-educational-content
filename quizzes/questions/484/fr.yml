@@ -1,9 +1,0 @@
-question: Que se passe-t-il si la phrase secrète d'un portefeuille Bitcoin est modifiée?
-answer: Le portefeuille Bitcoin devient complètement différent.
-wrong_answers:
-  - Le portefeuille Bitcoin devient inaccessible.
-  - Le portefeuille Bitcoin reste le même.
-  - Le portefeuille Bitcoin perd tous ses bitcoins.
-explanation: |
-  Si la phrase secrète est modifiée, le portefeuille Bitcoin devient complètement différent car la phrase secrète joue un rôle dans la construction et le calcul de toutes les clés du portefeuille.
-reviewed: false

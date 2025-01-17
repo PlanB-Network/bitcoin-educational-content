@@ -1,0 +1,13 @@
+question: Was ist der größte Nachteil von Coinswaps und Atomic Swaps in Bezug auf die Privatsphäre?
+
+answer: Sie unterbrechen nicht die Historie der getauschten Münzen
+
+wrong_answers:
+  - Sie sind sehr kostspielig in Bezug auf Transaktionsgebühren
+  - Sie erfordern den Austausch persönlicher Informationen zwischen den Parteien
+  - Sie können von Austauschplattformen analysiert werden
+
+explanation: |
+  Der Hauptnachteil dieser Methoden ist, dass sie sehr riskant sind, ohne die Verwendung einer zusätzlichen Technik, um die Historie der Münze zu unterbrechen.
+
+reviewed: false

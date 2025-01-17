@@ -1,0 +1,9 @@
+question: Pourquoi Bastiat critique-t-il la notion d'impôt redistributif progressif ?
+answer: Parce qu'il permet une spoliation légalisée par la majorité au détriment d'une minorité
+wrong_answers:
+  - Parce qu'il est inefficace pour générer des recettes fiscales
+  - Parce qu'il favorise uniquement les classes ouvrières
+  - Parce qu'il bénéficie surtout aux entreprises privées
+explanation: |
+  Bastiat estime que l'impôt redistributif progressif permet à la majorité d'exploiter une minorité, transformant l'impôt en un outil de spoliation légalisée.
+reviewed: false

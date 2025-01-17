@@ -1,0 +1,9 @@
+question: Quel standard Bitcoin introduit les portefeuilles déterministes hiérarchiques ?
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  Le BIP32 définit le fonctionnement des portefeuilles HD, permettant la dérivation hiérarchique des clés privées à partir d'une graine.
+reviewed: false

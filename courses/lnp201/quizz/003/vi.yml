@@ -1,0 +1,9 @@
+question: Quy tắc chính về số tiền mà một người tham gia có thể gửi trong một kênh thanh toán là gì?
+answer: Họ chỉ có thể gửi số tiền từ phía của họ trong kênh.
+wrong_answers:
+  - Họ có thể gửi tới một nửa tổng dung lượng của kênh.
+  - Họ có thể gửi bất kỳ số tiền nào, miễn là có sự thỏa thuận trước.
+  - Họ có thể mượn tiền từ phía người tham gia khác nếu cần.
+explanation: |
+  Mỗi người tham gia bị giới hạn bởi số satoshis mà họ giữ trong kênh cho các giao dịch của mình, đảm bảo rằng số tiền luôn được bảo đảm.
+reviewed: false

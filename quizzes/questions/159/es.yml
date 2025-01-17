@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de la Prueba de Trabajo en la red de Bitcoin?
-answer: La Prueba de Trabajo garantiza la veracidad de la información sin la necesidad de un tercero de confianza.
-wrong_answers:
-  - La Prueba de Trabajo se utiliza para crear nuevos bitcoins.
-  - La Prueba de Trabajo se utiliza para verificar las transacciones de Bitcoin.
-  - La Prueba de Trabajo se utiliza para asegurar la red de Bitcoin.
-explanation: |
-  La Prueba de Trabajo es un algoritmo de consenso utilizado en la red de Bitcoin para validar transacciones y crear nuevos bloques. Requiere que los mineros resuelvan problemas matemáticos complejos, lo que garantiza la autenticidad de la información en la red sin la necesidad de un tercero de confianza.
-reviewed: false

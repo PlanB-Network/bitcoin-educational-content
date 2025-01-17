@@ -1,0 +1,9 @@
+question: Quelle est la fonction principale d'une clé étendue dans un portefeuille HD ?
+answer: Permettre la dérivation des clés enfants
+wrong_answers:
+  - Stocker les transactions du portefeuille
+  - Générer directement les UTXOs
+  - Chiffrer les clés publiques
+explanation: |
+  Une clé étendue combine une clé (privée ou publique) avec un code de chaîne associé, c'est-à-dire les deux éléments nécessaires pour dériver des clés enfants.
+reviewed: false

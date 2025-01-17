@@ -1,0 +1,13 @@
+question: Qu'est-ce qu'un portefeuille chaud ?
+answer: Un portefeuille Bitcoin sur votre téléphone ou ordinateur connecté à internet.
+wrong_answers:
+  - Un portefeuille qui est physiquement chaud au toucher.
+  - Un portefeuille qui est populaire parmi les utilisateurs de Bitcoin.
+  - Un portefeuille qui est recommandé pour stocker de grandes quantités de bitcoins.
+explanation: |
+  Un portefeuille chaud est un terme utilisé pour décrire un portefeuille Bitcoin
+  qui est stocké sur un appareil ayant accès à internet, tel qu'un
+  téléphone ou un ordinateur. De cette manière, il est facile de réaliser
+  des transactions, mais cela signifie également que le portefeuille est
+  potentiellement vulnérable aux menaces en ligne.
+reviewed: true

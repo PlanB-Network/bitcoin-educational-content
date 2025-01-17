@@ -1,0 +1,10 @@
+question: Welche Fähigkeiten sind im Bereich der Cybersicherheit gefragt?
+answer: Log-Analyse, Incident Response
+wrong_answers:
+  - Grafikdesign, Videobearbeitung
+  - Verkauf, Marketing
+  - Kochen, Backen
+explanation: |
+  Im Kapitel werden Log-Analyse und Incident Response als
+  einige der gefragten Fähigkeiten im Bereich der Cybersicherheit genannt.
+reviewed: true

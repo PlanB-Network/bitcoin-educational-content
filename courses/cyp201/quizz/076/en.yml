@@ -1,0 +1,9 @@
+question: What does the notation /<0;1>/* in a descriptor correspond to?
+answer: To the external and internal chain with sequential derivation
+wrong_answers:
+  - To a sorted multisignature address
+  - To a checksum for derivation paths
+  - To a hardened derivation path
+explanation: |
+  The notation /<0;1>/* indicates that the descriptor can generate addresses for the external (0) and internal (1) chain, with sequential derivation thanks to the wildcard (*).
+reviewed: false

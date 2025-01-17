@@ -1,9 +1,0 @@
-question: Was ist eine empfohlene Vorgehensweise für das Verwalten des Master-Passworts eines Passwortmanagers?
-answer: Schreiben Sie es auf Papier und bewahren Sie es an einem versteckten und sicheren Ort auf.
-wrong_answers:
-  - Speichern Sie es in Ihrer E-Mail.
-  - Verwenden Sie dasselbe Passwort für alle Konten.
-  - Merken Sie es sich.
-explanation: |
-  Es wird empfohlen, das Master-Passwort eines Passwortmanagers auf Papier zu notieren, es sollte jedoch an einem versteckten und sicheren Ort aufbewahrt werden. Dies liegt daran, dass das Passwort selbst dann nicht zugänglich ist, wenn die Festplatte verschlüsselt und der Computer gesperrt ist, selbst im Falle eines Einbruchs.
-reviewed: false

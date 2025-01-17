@@ -4,7 +4,7 @@ name: Alby
 description: Extensão do navegador para o Bitcoin e LightningNetwork
 ---
 
-![capa](assets/cover.jpeg)
+![capa](assets/cover.webp)
 
 Para ver todos os melhores guias sobre o Alby, acesse a página de documentação! https://guides.getalby.com/overall-guide/
 

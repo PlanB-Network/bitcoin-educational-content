@@ -1,0 +1,9 @@
+question: What is the main advantage of online P2P exchanges compared to physical cash transactions?
+answer: Less risk to personal safety.
+wrong_answers:
+  - Less risk of theft.
+  - More privacy for the buyer.
+  - Lower transaction fees.
+explanation: |
+  Online P2P exchanges leave more traces and are more exposed to theft risks than cash P2P exchanges. Regarding transaction fees, they are generally equivalent or even higher, especially if the process requires multiple steps. However, the main advantage of online P2P exchanges lies in the reduction of risks to the personal safety of users compared to cash transactions.
+reviewed: false

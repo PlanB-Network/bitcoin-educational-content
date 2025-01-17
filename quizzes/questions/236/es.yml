@@ -1,9 +1,0 @@
-question: ¿Cuál es la unidad de Bitcoin utilizada en la Red Lightning?
-answer: Sats
-wrong_answers:
-  - Bitcoin
-  - Ether
-  - Litecoin
-explanation: |
-  La Red Lightning utiliza sats (la fracción decimal de bitcoin) para funcionar.
-reviewed: false

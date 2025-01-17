@@ -1,0 +1,8 @@
+question: Por que a criptografia AES no modo ECB não é recomendada para uso seguro?
+answer: Resulta em criptografia determinística
+wrong_answers:
+  - Requer uma chave de mais de 128 bits
+  - É muito lento para a maioria das aplicações modernas
+  - Não permite dividir o texto em blocos de 128 bits
+explanation: |
+  O modo ECB não é recomendado porque produz criptografia determinística, o que significa que blocos idênticos de texto plano produzirão blocos idênticos de texto cifrado, o que pode ser explorado para adivinhar informações sobre o texto plano.

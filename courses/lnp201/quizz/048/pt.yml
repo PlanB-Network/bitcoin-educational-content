@@ -1,0 +1,8 @@
+question: Como a tecnologia Keysend permite uma transferência de fundos sem uma fatura?
+answer: O remetente gera um segredo nos HTLCs para desbloquear os fundos
+wrong_answers:
+  - O destinatário gera um hash para validar a transferência
+  - O pagamento é validado através de um canal direto entre remetente e destinatário
+  - Os fundos são creditados diretamente sem segurança adicional
+explanation: |
+  Keysend permite que o remetente gere um segredo embutido nos HTLCs, possibilitando que o destinatário desbloqueie os fundos sem ter emitido uma fatura.

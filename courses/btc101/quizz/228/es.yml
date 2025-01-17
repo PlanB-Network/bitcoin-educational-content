@@ -1,0 +1,10 @@
+question: ¿Las comisiones por transacciones en la Red Lightning son extremadamente bajas, a menudo menos del...?
+answer: 0.5%.
+wrong_answers:
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+  Las comisiones por transacciones en la Red Lightning son extremadamente bajas, a menudo
+  menos del 0.5%.
+reviewed: true

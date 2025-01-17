@@ -1,0 +1,9 @@
+question: Kuinka suuren osan ajasta Bitcoin-verkko on ollut toiminnassa sen luomisesta lähtien?
+answer: 99,988 %.
+wrong_answers:
+  - 100 %.
+  - 90,009 %.
+  - 80,17 %.
+explanation: |
+  Bitcoinin verkon online-saatavuus on ollut 99,988 % vuodesta 2009 lähtien.
+reviewed: true

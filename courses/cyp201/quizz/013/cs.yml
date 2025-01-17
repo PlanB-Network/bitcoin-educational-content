@@ -1,0 +1,9 @@
+question: Jaká je hlavní role PBKDF2 v Bitcoinu?
+answer: Generování seedu HD peněženky
+wrong_answers:
+  - Autentizace transakcí
+  - Šifrování soukromých klíčů
+  - Vytváření Bitcoinových adres
+explanation: |
+  PBKDF2 se používá k odvození seedu z mnemonické fráze a volitelného hesla.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Qual é uma causa comum de vulnerabilidades de segurança?
+answer: Negligência humana.
+wrong_answers:
+  - Quedas de energia.
+  - Velocidade de internet lenta.
+  - Hardware desatualizado.
+explanation: |
+  Vulnerabilidades de segurança são frequentemente o resultado de
+  negligência humana, como usar senhas padrão ou anotar
+  senhas em lugares inseguros. Ataques sofisticados nem
+  sempre são necessários para colocar em risco a segurança do computador.
+reviewed: true

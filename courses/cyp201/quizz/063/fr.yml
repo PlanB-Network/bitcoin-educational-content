@@ -1,0 +1,9 @@
+question: Quelle information n'est pas incluse dans une clé étendue ?
+answer: L'historique des transactions de la clé
+wrong_answers:
+  - Le numéro d'index de la clé
+  - La clé (privée ou publique)
+  - Le code de chaîne
+explanation: |
+  Une clé étendue contient uniquement les informations nécessaires pour dériver les clés enfants, pas d'informations liées aux transactions.
+reviewed: false

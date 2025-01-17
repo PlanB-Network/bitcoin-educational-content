@@ -1,0 +1,10 @@
+question: Hva er et vanlig svindelforsøk knyttet til online konkurranser eller donasjoner i krypto-sektoren?
+answer: Annonser som lover gratis bitcoins.
+wrong_answers:
+  - Annonser som lover fysiske varer.
+  - Annonser som lover gratis fiat-valuta.
+  - Annonser som lover gratis programvare.
+explanation: |
+  Svindelforsøk knyttet til online konkurranser eller donasjoner er veldig vanlige i
+  krypto-sektoren. Annonser som lover gratis bitcoins brukes ofte for å lure
+  uerfarne brukere.

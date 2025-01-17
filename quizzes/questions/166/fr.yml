@@ -1,9 +1,0 @@
-question: Comment le protocole Bitcoin garantit-il que le temps moyen entre deux blocs reste constant ?
-answer: La difficulté de trouver un hachage valide s'ajuste tous les 2016 blocs.
-wrong_answers:
-  - Le nombre de mineurs est régulé.
-  - La taille des blocs est ajustée.
-  - La récompense pour la découverte d'un hachage valide est augmentée.
-explanation: |
-  Le protocole Bitcoin garantit que le temps moyen entre deux blocs reste constant en ajustant la difficulté de trouver un hachage valide tous les 2016 blocs. Cela se produit indépendamment du nombre de mineurs et de leur puissance de calcul.
-reviewed: false

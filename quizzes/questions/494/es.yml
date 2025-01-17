@@ -1,9 +1,0 @@
-question: ¿Por qué se utiliza el algoritmo HMAC SHA-512 en la creación de la clave privada maestra y el código de cadena maestra?
-answer: Porque inicialmente la función SHA-512 no se implementó en el protocolo Bitcoin.
-wrong_answers:
-  - Porque es el único algoritmo que puede generar un número de 512 bits.
-  - Porque es el algoritmo más seguro.
-  - Porque es el algoritmo más fácil de usar.
-explanation: |
-  Inicialmente, la función SHA-512 no se implementó en el protocolo Bitcoin, por eso se utiliza HMAC SHA-512. Este algoritmo requiere un mensaje y una clave para generar un resultado.
-reviewed: false

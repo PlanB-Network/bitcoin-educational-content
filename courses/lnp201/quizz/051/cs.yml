@@ -1,0 +1,9 @@
+question: Co umožňuje technika otevírání trojúhelníku účastnickým uzlům dosáhnout?
+answer: Příchozí a odchozí likviditu v každém kanálu
+wrong_answers:
+  - Snížené poplatky za směrování
+  - Neomezený počet transakcí bez potvrzení
+  - Přímé spojení s každým dalším uzlem sítě
+explanation: |
+  Technika otevírání trojúhelníku umožňuje každému uzlu dosáhnout vyvážené likvidity, jak příchozí, tak odchozí, formováním smyčky kanálů mezi několika účastníky.
+reviewed: false

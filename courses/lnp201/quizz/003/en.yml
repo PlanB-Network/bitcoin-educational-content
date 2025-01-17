@@ -1,0 +1,9 @@
+question: What is the main rule regarding the funds a participant can send in a payment channel?
+answer: They can only send the funds from their own side of the channel.
+wrong_answers:
+  - They can send up to half of the total capacity of the channel.
+  - They can send any amount, as long as there is a prior agreement.
+  - They can borrow funds from the other participant's side if needed.
+explanation: |
+  Each participant is limited by the amount of satoshis they hold in the channel for their transactions, ensuring that the funds are always covered.
+reviewed: false

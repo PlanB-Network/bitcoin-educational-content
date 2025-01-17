@@ -1,0 +1,12 @@
+question: Apa artinya jika Anda tidak memiliki kunci privat untuk dompet Bitcoin Anda?
+answer: Pihak ketiga bertanggung jawab atas keamanan bitcoin Anda
+wrong_answers:
+  - Anda telah kehilangan semua bitcoin Anda
+  - Anda tidak lagi dapat melakukan transaksi dengan bitcoin Anda
+  - Bitcoin Anda secara otomatis dikonversi ke cryptocurrency lain
+explanation: |
+  Jika Anda tidak memiliki kunci privat untuk dompet Bitcoin Anda, ini berarti
+  pihak ketiga bertanggung jawab atas keamanan bitcoin Anda. Mereka terpapar
+  pada risiko yang sama seperti platform pertukaran seperti peretasan, penyitaan, regulasi, atau
+  kebangkrutan.
+reviewed: false

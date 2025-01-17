@@ -1,0 +1,9 @@
+question: Quale operazione matematica è alla base della sicurezza della crittografia a curve ellittiche?
+answer: Problema del logaritmo discreto
+wrong_answers:
+  - Fattorizzazione di numeri primi
+  - Calcolo dei residui quadratici
+  - Problema del cubo discreto
+explanation: |
+  La sicurezza della crittografia a curve ellittiche si basa sulla difficoltà di risolvere il problema del logaritmo discreto su queste curve.
+reviewed: false

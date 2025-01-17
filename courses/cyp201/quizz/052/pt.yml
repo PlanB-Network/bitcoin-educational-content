@@ -1,0 +1,8 @@
+question: Qual é o propósito de usar uma carteira isca com uma frase-senha?
+answer: Simular uma carteira com uma pequena quantia em caso de coerção física
+wrong_answers:
+  - Adicionar um backup automático de transações
+  - Gerar uma frase mnemônica adicional
+  - Proteger UTXOs contra um gasto duplo
+explanation: |
+  Uma carteira isca é usada para desviar a atenção de um atacante, fornecendo acesso a uma carteira que contém uma pequena quantidade de bitcoins.

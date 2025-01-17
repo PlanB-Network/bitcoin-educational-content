@@ -1,9 +1,0 @@
-question: Qual è la significatività della distribuzione geografica dei nodi Bitcoin?
-answer: Rende praticamente impossibile distruggere tutte le copie della blockchain.
-wrong_answers:
-  - Determina il prezzo di Bitcoin in diverse regioni.
-  - Influisce sulla velocità delle transazioni Bitcoin.
-  - Determina il numero di Bitcoin che possono essere estratti in una regione.
-explanation: |
-  La distribuzione geografica dei nodi Bitcoin rende praticamente impossibile distruggere tutte le copie della blockchain. Ciò è dovuto al fatto che i nodi sono distribuiti e sarebbe difficile sequestrarli tutti fisicamente.
-reviewed: false

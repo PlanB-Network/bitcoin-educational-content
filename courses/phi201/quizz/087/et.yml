@@ -1,0 +1,8 @@
+question: Millistes valdkondades ei oma poliitiline võim Constanti sõnul mõju?
+answer: Kõik eelpool mainitud valdkonnad (religioon, teadus, tööstus).
+wrong_answers:
+  - Religioon
+  - Teadus
+  - Tööstus
+explanation: |
+  Constant usub, et poliitiline võim ei tohiks sekkuda sellistesse valdkondadesse nagu religioon, teadus ja tööstus, et säilitada individuaalne vabadus ja inimtegevuse autonoomia, mis kuuluvad eraelu sfääri.

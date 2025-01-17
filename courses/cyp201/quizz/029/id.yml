@@ -1,0 +1,9 @@
+question: Algoritma tanda tangan digital apa yang digunakan pada saat peluncuran Bitcoin?
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  Bitcoin awalnya menggunakan ECDSA, sebuah protokol tanda tangan yang berbasis pada kurva eliptik, sebelum diperkenalkannya tanda tangan Schnorr pada tahun 2021.
+ditinjau: false

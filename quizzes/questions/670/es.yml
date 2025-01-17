@@ -1,9 +1,0 @@
-question: ¿Qué sucede si Alice intenta hacer trampa publicando un estado antiguo?
-answer: Bob puede usar la clave de revocación para mover los fondos sin esperar al final del bloqueo temporal, castigando efectivamente a Alice.
-wrong_answers:
-  - Alice puede usar la clave de revocación para mover los fondos sin esperar al final del bloqueo temporal.
-  - Bob puede extender el bloqueo temporal para evitar que Alice recupere su dinero.
-  - Alice puede recuperar su dinero de inmediato.
-explanation: |
-  Si Alice intenta hacer trampa publicando un estado antiguo, Bob puede usar la clave de revocación para mover los fondos sin esperar al final del bloqueo temporal. Esto castiga efectivamente a Alice por intentar hacer trampa.
-reviewed: false

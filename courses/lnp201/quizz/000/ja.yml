@@ -1,0 +1,9 @@
+question: Lightning Networkの主な目標は何ですか？
+answer: Bitcoinのスケーラビリティを向上させ、迅速かつ低コストの支払いを可能にすること
+wrong_answers:
+  - Bitcoinブロックチェーン上の取引手数料を排除する
+  - 高額支払い用のBitcoinの代替を作成する
+  - 異なる暗号通貨間の交換を簡素化する
+explanation: |
+  Lightning Networkは、オフチェーンの支払いチャネルを通じて、迅速かつ安価な取引を可能にすることで、Bitcoinのスケーラビリティを強化することを目指しています。
+reviewed: false

@@ -1,0 +1,64 @@
+id: 5e53ae82-2470-4257-836f-74cab7a7d8fd
+chapterId: 5aac83f4-a685-54b0-9759-d71bea7eeed2
+difficulty: hard
+duration: 45
+author: DecouvreBitcoin
+tags:
+  - VPN
+  - Online Security
+  - Remote Access
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2692
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2596
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1298
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2692
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2596
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2788
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2596
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2788

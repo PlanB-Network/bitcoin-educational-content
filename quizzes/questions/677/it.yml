@@ -1,9 +1,0 @@
-question: Perché una chiusura forzata è più rischiosa in termini di commissioni e possibile convalida da parte dei minatori?
-answer: Perché le commissioni sono state decise quando la transazione è stata creata in passato e la rete è cambiata da allora.
-wrong_answers:
-  - Perché le commissioni sono sempre più alte in una chiusura forzata.
-  - Perché i minatori sono meno propensi a convalidare una chiusura forzata.
-  - Perché le commissioni sono imprevedibili in una chiusura forzata.
-explanation: |
-  In una chiusura forzata, le commissioni sono state decise quando la transazione è stata creata in passato. La rete è cambiata da allora, quindi il protocollo predefinisce commissioni 5 volte più alte rispetto a quelle attuali al momento della creazione della transazione. Ciò rende la chiusura forzata più rischiosa in termini di commissioni e possibile convalida da parte dei minatori.
-reviewed: false

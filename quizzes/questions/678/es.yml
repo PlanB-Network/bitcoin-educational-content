@@ -1,9 +1,0 @@
-question: ¿Quién paga los gastos de cierre en un cierre cooperativo?
-answer: La persona que abrió el canal.
-wrong_answers:
-  - La persona que cerró el canal.
-  - Ambas partes por igual.
-  - La persona con más SAT en el canal.
-explanation: |
-  En un cierre cooperativo, los dos pares acuerdan un estado final del canal. La persona que abrió el canal paga los gastos de cierre.
-reviewed: false

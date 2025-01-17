@@ -1,9 +1,0 @@
-question: ¿Cuáles son las tarifas para las transacciones en la Red Lightning a menudo inferiores a?
-answer: 0.5%
-wrong_answers:
-  - 1%
-  - 2%
-  - 3%
-explanation: |
-  Las tarifas para las transacciones en la Red Lightning son extremadamente bajas, a menudo inferiores al 0.5%.
-reviewed: false

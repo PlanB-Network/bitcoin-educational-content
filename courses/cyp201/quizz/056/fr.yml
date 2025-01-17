@@ -1,0 +1,9 @@
+question: Quelle constante est utilisée pour dériver la clé privée maîtresse depuis la graine ?
+answer: Bitcoin Seed
+wrong_answers:
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
+explanation: |
+  La constante Bitcoin Seed est utilisée comme clé dans la fonction HMAC-SHA512 pour dériver la clé privée maîtresse et le code de chaîne maître.
+reviewed: false

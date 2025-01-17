@@ -1,0 +1,9 @@
+question: Điều gì xảy ra nếu một khoản thanh toán qua HTLC không được hoàn thành trong thời gian quy định?
+answer: Khoản thanh toán sẽ bị hủy và số tiền sẽ trở về với người gửi.
+wrong_answers:
+  - Khoản thanh toán được giữ lại bởi nút trung gian cuối cùng
+  - Số tiền được phân phối cho tất cả các nút trên đường đi
+  - Số tiền bị chặn vĩnh viễn
+explanation: |
+  Nếu một HTLC hết hạn mà không có việc tiết lộ bí mật, khoản thanh toán sẽ bị hủy và số tiền sẽ trở về với người gửi, như vậy ngăn chặn bất kỳ nút trung gian nào giữ số tiền.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Em que cenário uma stablecoin pode ser negociada acima do seu preço fixado?
+answer: Quando a demanda por stablecoins supera a capacidade de uma exchange
+wrong_answers:
+  - Quando o emissor da stablecoin congela fundos
+  - Quando a stablecoin é totalmente respaldada por reservas em dinheiro
+  - Quando há uma forte pressão de venda por parte dos usuários
+explanation: |
+  Stablecoins podem ser negociadas acima do seu preço fixado quando a 
+  demanda por stablecoins excede a capacidade de uma exchange de 
+  atender às demandas dos clientes, tipicamente em exchanges menores.
+reviewed: true

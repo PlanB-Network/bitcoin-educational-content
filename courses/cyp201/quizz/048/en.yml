@@ -1,0 +1,9 @@
+question: Why is a 24-word mnemonic phrase often considered superfluous for a Bitcoin wallet?
+answer: The derived keys only offer 128 bits of security
+wrong_answers:
+  - The software does not support 24-word phrases
+  - It does not allow for the derivation of public keys
+  - Shorter phrases are not standardized
+explanation: |
+  Although a 24-word phrase offers 256 bits of security, the derived Bitcoin private keys only guarantee 128 bits of security, making the excess unnecessary.
+reviewed: false

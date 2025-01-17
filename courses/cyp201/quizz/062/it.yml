@@ -1,0 +1,9 @@
+question: Cosa permette di derivare una chiave pubblica estesa?
+answer: Solo chiavi pubbliche figlie normali
+wrong_answers:
+  - Solo chiavi private figlie normali
+  - Sia chiavi pubbliche figlie normali che rinforzate
+  - Sia chiavi private figlie normali che rinforzate
+explanation: |
+  Una chiave pubblica estesa permette solo la derivazione di chiavi pubbliche figlie normali, non di chiavi private o chiavi rinforzate.
+reviewed: false

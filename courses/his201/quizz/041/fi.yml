@@ -1,0 +1,9 @@
+question: Minä päivänä Jeremy Sturdivant toimitti kaksi pizzaa Laszlo Hanyeczille vaihdossa 10 000 bitcoinin maksuun, merkiten ensimmäisen fyysisen hyödykkeen ostamisen kryptovaluutalla?
+answer: 22. toukokuuta 2010
+wrong_answers:
+  - 12. lokakuuta 2009
+  - 18. huhtikuuta 2010
+  - 11. kesäkuuta 2010
+explanation: |
+  Ilmoituksen julkaisun jälkeen tarjous hyväksyttiin 22. toukokuuta 2010. Tuolloin 10 000 bitcoinia oli arvoltaan noin 44 dollaria.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Stream cipher trong mật mã học là gì?
+answer: Một mã hóa đối xứng tạo ra một dòng chìa khóa có độ dài bằng với thông điệp
+wrong_answers:
+  - Một mã hóa bất đối xứng dựa trên số nguyên tố
+  - Một mã hóa sử dụng nhiều chìa khóa giải mã khác nhau
+  - Một mã hóa chia thông điệp thành các khối dữ liệu
+explanation: |
+  Stream cipher là một mã hóa đối xứng trong đó một dòng chìa khóa có độ dài bằng với thông điệp được kết hợp với thông điệp đó để tạo ra văn bản đã mã hóa.
+reviewed: false

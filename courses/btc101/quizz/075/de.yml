@@ -1,0 +1,13 @@
+question: Was ist der mnemonische Ausdruck in einem Bitcoin-Wallet?
+answer: Eine Liste von 12 oder 24 Wörtern, die es Ihnen ermöglicht, auf Ihre Bitcoins zuzugreifen.
+wrong_answers:
+  - Ein gewähltes Passwort, um auf das Bitcoin-Wallet zuzugreifen.
+  - Ein Code, um Bitcoin-Transaktionen zu verschlüsseln.
+  - Ein geheimer Wiederherstellungsausdruck, der das Bitcoin-Wallet im Bedarfsfall zerstört.
+explanation: |
+  Seit 2017 kann der private Schlüssel in einer einfachen Liste
+  von 12 oder 24 Wörtern, genannt der mnemonische Ausdruck, kodiert werden. Dieser Ausdruck
+  ist eine Sicherung Ihres Bitcoin-Wallets, also ermöglicht er Ihnen,
+  auf Ihre Bitcoins zuzugreifen, indem Sie jede Bitcoin-Wallet
+  Software/App verwenden.
+reviewed: true

@@ -1,0 +1,6 @@
+description: |
+  Wasabi Wallet dirancang untuk mereka yang menghargai privasi, di dunia di mana pengawasan informasi dan penyalahgunaan merajalela.
+
+  Sebagai perangkat lunak zero-knowledge, Wasabi Wallet memastikan bahwa transaksi bitcoin pengguna tetap menjadi urusan pribadi mereka. Wasabi Wallet bersifat open-source, memungkinkan siapa saja untuk memverifikasi atau berkontribusi pada kode tersebut. Desainnya yang trustless memastikan bahwa baik publik maupun pengembang tidak dapat mengganggu privasi Anda. Dompet ini bersifat non-custodial, memungkinkan Anda untuk mempertahankan kontrol atas kunci pribadi Anda dan mencapai kedaulatan finansial yang sejati. Meskipun memiliki fitur canggih, Wasabi dirancang untuk ramah pengguna dan menangani privasi secara otomatis. Ini menggunakan WabiSabi, sebuah skema kredensial anonim, untuk membuat coinjoins lebih mudah diakses dan efisien. Selain itu, ini terjangkau, membebankan biaya yang rendah untuk coinjoining koin di atas 0.01 BTC, sementara input 0.01 BTC atau di bawah dan remix gratis dari biaya koordinator.
+contributors:
+  - lubang-kelinci

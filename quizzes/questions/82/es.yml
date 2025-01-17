@@ -1,9 +1,0 @@
-question: ¿Cuál es la pregunta central sobre la custodia personal al elegir una billetera de Bitcoin?
-answer: ¿Eres el propietario de los fondos o dejas el control de tu dinero en manos de un tercero?
-wrong_answers:
-  - ¿La billetera es segura con una frase de contraseña?
-  - ¿La billetera permite recibir y enviar bitcoins?
-  - ¿Puedo compartir mi billetera con otra persona?
-explanation: |
-  ¿Eres el propietario de los fondos o dejas el control de tu dinero en manos de un tercero? Esto se debe a que el poseedor de la clave privada es el propietario de los Bitcoins.
-reviewed: false

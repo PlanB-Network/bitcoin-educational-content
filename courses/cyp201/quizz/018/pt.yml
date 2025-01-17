@@ -1,0 +1,9 @@
+question: Por que a curva elíptica secp256r1 não foi usada no Bitcoin?
+answer: Potencialmente para evitar uma porta dos fundos
+wrong_answers:
+  - Porque é muito lenta
+  - Porque não é padronizada
+  - Porque requer hardware especializado
+explanation: |
+  Satoshi Nakamoto provavelmente preferiu a curva secp256k1, já que os parâmetros da secp256r1 poderiam conter uma vulnerabilidade oculta.
+reviewed: false

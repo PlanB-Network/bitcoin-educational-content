@@ -1,0 +1,9 @@
+question: What was the variation in the price of Bitcoin during the week following its introduction on Slashdot?
+answer: From $0.008 to $0.08
+wrong_answers:
+  - From $0.001 to $0.008
+  - From $0.08 to $0.50
+  - From $0.50 to $1
+explanation: |
+  This variation corresponded to a tenfold increase! The hash rate experienced a similar surge.
+reviewed: false

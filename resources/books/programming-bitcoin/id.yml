@@ -1,0 +1,8 @@
+title: "Pemrograman Bitcoin"
+publication_year: 2019
+cover: cover_en.webp
+original: true
+description: |
+  "Pemrograman Bitcoin" oleh Jimmy Song adalah buku tingkat menengah yang menggabungkan keuangan, investasi, dan teknologi untuk memberikan pembaca pemahaman mendalam tentang cara kerja cryptocurrency paling populer di dunia, Bitcoin. Buku ini ditujukan untuk pembaca dengan pengetahuan dasar tentang pemrograman dan ilmu komputer dan mencakup topik seperti scripting Bitcoin, kriptografi, dan verifikasi transaksi. Dengan fokus pada pembelajaran praktis, penulis membimbing pembaca melalui proses penulisan kode untuk transaksi Bitcoin, implementasi kontrak pintar, dan pembuatan dompet Bitcoin mereka sendiri. Sepanjang jalan, pembaca akan mendapatkan wawasan tentang psikologi investasi di Bitcoin dan bagaimana membuat keputusan yang tepat dalam pasar yang berkembang pesat ini.
+contributors:
+  - rabbit-hole

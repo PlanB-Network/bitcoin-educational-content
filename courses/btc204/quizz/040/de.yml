@@ -1,0 +1,9 @@
+question: Warum sind Bitcoins, die über P2P-Börsen gekauft werden, oft teurer als die, die auf regulierten Plattformen gekauft werden?
+answer: Zusätzliche Risiken, Transaktionsgebühren und ein Aufpreis für Privatsphäre.
+wrong_answers:
+  - Marktschwankungen, Risiken des doppelten Ausgebens und rechtliche Konformität.
+  - Registrierungsgebühren, begrenzte Optionen und längere Validierungszeit.
+  - Registrierungsgebühren, strenge Vorschriften und niedrige Sicherheit.
+explanation: |
+  Bitcoins, die auf P2P-Plattformen verkauft werden, sind im Allgemeinen teurer als die von regulierten Plattformen. Diese Preisaufschläge sind auf mehrere Faktoren zurückzuführ- language: en Der Verkäufer trägt mehr Risiken, muss zusätzliche Kosten decken, und der Austausch bietet dem Käufer ein höheres Maß an Privatsphäre.
+reviewed: false

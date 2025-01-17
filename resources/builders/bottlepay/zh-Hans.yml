@@ -1,0 +1,4 @@
+description: |
+  Bottlepay是一个数字金融平台，使用闪电网络（Lightning Network）实现全球即时比特币交易。该平台简化了比特币交易，提供快速直接的设置、可定制的支付路径，以及单次或定期买卖比特币的能力。Bottlepay支持通过开放银行（Open Banking）和即时欧洲支付区（SEPA Instant）立即存款，同时允许直接从英镑或欧元余额向任何比特币地址支付。它还引入了创新的“闪电地址”（Lightning Address），使发送和接收比特币像发送电子邮件一样简单。尽管拥有先进的功能，Bottlepay最近宣布其应用程序将关闭。
+contributors:
+  - rabbit-hole

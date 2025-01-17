@@ -1,0 +1,9 @@
+question: Qual é o propósito do SIGHASH_SINGLE?
+answer: Cobrir uma entrada e sua saída correspondente
+wrong_answers:
+  - Cobrir todas as entradas e saídas
+  - Cobrir apenas entradas
+  - Cobrir todas as saídas exceto uma
+explanation: |
+  SIGHASH_SINGLE cobre uma única entrada e uma única saída correspondente ao índice da entrada assinada, deixando o resto modificável.
+reviewed: false

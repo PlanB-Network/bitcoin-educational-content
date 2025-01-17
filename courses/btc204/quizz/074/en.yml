@@ -1,0 +1,11 @@
+question: Among the following answers, which one does not represent a benefit of using your own node?
+
+answer: Reducing transaction fees.
+
+wrong_answers:
+  - Participating in the consensus.
+  - Being independent from third parties.
+  - Being able to resist transaction censorship.
+
+explanation: |
+  Here's why having your own node is crucial for fully sovereign use of Bitcoin: Censorship resistance; Your transactions cannot be blocked by anyone; Independence from third parti- language; es You no longer depend on any external service to verify blockchain data; Active participation; You have the ability to set your own validation rules and directly participate in the consensus; Contribution to the network; By running a node, you help to strengthen and distribute the Bitcoin network; Technical education; Managing a full node is an excellent way to deepen your technical knowledge about Bitcoin.

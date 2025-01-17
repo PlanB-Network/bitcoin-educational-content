@@ -1,0 +1,18 @@
+## Características específicas del idioma de los constructores
+
+# descripción
+# Escribe una descripción del libro
+description: |
+   Esto se utiliza para describir al constructor en un par de frases.
+   Y puede abarcar varias líneas
+   justo como
+   esto
+   
+   
+# colaboradores
+# Lista quién o quiénes son los colaboradores que ayudan a formatear, revisar,
+# traducir el curso.
+# Se identifican por su UUID
+# Actualmente, no hay un registro compartido de estos UUIDs   
+contributors:
+  - another-satoshi

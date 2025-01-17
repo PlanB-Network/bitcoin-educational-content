@@ -1,0 +1,9 @@
+question: Qu'est-ce que la technique d'ouverture en triangle permet aux nœuds participants d'obtenir ?
+answer: De la liquidité entrante et sortante dans chaque canal
+wrong_answers:
+  - Des frais de routage réduits
+  - Un nombre illimité de transactions sans confirmation
+  - Un lien direct avec chaque autre nœud du réseau
+explanation: |
+  L'ouverture en triangle permet à chaque nœud d'obtenir une liquidité équilibrée, tant entrante que sortante, en formant une boucle de canaux entre plusieurs participants.
+reviewed: false

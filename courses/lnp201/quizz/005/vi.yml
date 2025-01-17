@@ -1,0 +1,9 @@
+question: Vai trò chính của khóa riêng trong hệ thống Bitcoin là gì?
+answer: Ký các giao dịch để thỏa mãn một script
+wrong_answers:
+  - Đóng vai trò như một bộ nhận dạng để nhận bitcoin
+  - Lưu trữ tiền một cách an toàn trên blockchain
+  - Tạo ra các script khóa để bảo vệ bitcoin
+explanation: |
+  Khóa riêng được sử dụng để ký các giao dịch nhằm thỏa mãn một script và mở khóa bitcoin.
+reviewed: false

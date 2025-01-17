@@ -1,0 +1,9 @@
+question: Quantos bits tem o checksum para uma entropia de 128 bits?
+answer: 4 bits
+wrong_answers:
+  - 8 bits
+  - 16 bits
+  - 6 bits
+explanation: |
+  O comprimento do checksum é calculado usando a fórmula CS = ENT / 32, que resulta em 4 bits para uma entropia de 128 bits.
+reviewed: false

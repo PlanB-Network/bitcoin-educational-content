@@ -1,0 +1,8 @@
+question: Schnorrのどの特性が複数の公開鍵を1つに結合することを可能にしますか？
+answer: キーアグリゲーション
+wrong_answers:
+  - バッチ検証
+  - 可変性
+  - 署名の圧縮
+explanation: |
+  Schnorrでは、複数の公開鍵を単一の鍵に集約することができます。

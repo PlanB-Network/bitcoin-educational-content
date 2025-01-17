@@ -1,9 +1,0 @@
-question: Quel est le type de script qui permet de verrouiller des bitcoins à une clé publique ?
-answer: Pay2PublicKey
-wrong_answers:
-  - Pay2Address
-  - Pay2PrivateKey
-  - Pay2Hash
-explanation: |
-  Le type de script qui permet de verrouiller des bitcoins à une clé publique est appelé Pay2PublicKey. Cependant, les utilisateurs préfèrent généralement utiliser des adresses de réception plutôt que ce script.
-reviewed: false

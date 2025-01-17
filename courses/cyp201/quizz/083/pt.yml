@@ -1,0 +1,8 @@
+question: Que tipo de endereço começa com `1` e pertence ao padrão Legacy?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  Endereços P2PKH, codificados em base58check, vêm do padrão Legacy e começam com o dígito `1`.

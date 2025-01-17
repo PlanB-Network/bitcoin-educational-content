@@ -1,0 +1,13 @@
+question: Hva er formålet med vanskelighetsjusteringen i Bitcoin-mining?
+answer: Den rebalanserer det globale mining-spillet basert på antall deltakere.
+wrong_answers:
+  - Den øker belønningen for mining.
+  - Den reduserer antallet bitcoins i omløp.
+  - Den øker sikkerheten til Bitcoin-nettverket.
+explanation: >-
+  Vanskelighetsjusteringen i Bitcoin-mining er designet for å sikre at
+  tiden det tar å mine en blokk forblir omtrent konstant, uavhengig av
+  den totale beregningskraften til nettverket. Den justerer vanskelighetsgraden av det matematiske
+  problemet som minerne må løse, basert på antall minere som deltar i
+  nettverket.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaká je hlavní nevýhoda bankomatů (ATM)?
+answer: Často velmi vysoké poplatky.
+wrong_answers:
+  - Potřeba rychlého internetového připojení.
+  - Nedostatek podpory pro lokální měny.
+  - Zabezpečení transakce není zaručeno.
+explanation: |
+  Nákup bitcoinů prostřednictvím bankomatů je zajímavým řešením pro ochranu soukromí uživatelů, ale jejich hlavní nevýhodou je, že často účtují exorbitantní poplatky.
+reviewed: false

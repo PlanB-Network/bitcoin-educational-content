@@ -1,0 +1,9 @@
+question: Quel est le principal avantage des échanges P2P en ligne par rapport aux échanges physiques en cash ?
+answer: Moins de risques pour la sécurité personnelle.
+wrong_answers:
+  - Moins de risques de vols.
+  - Plus de confidentialité pour l'acheteur.
+  - Frais de transaction moins élevés.
+explanation: |
+   Les échanges P2P en ligne laissent davantage de traces et sont plus exposés aux risques de vol que les échanges P2P en cash. Concernant les frais de transaction, ils sont généralement équivalents, voire plus élevés, surtout si le processus exige plusieurs manipulations. En revanche, le principal avantage des échanges P2P en ligne réside dans la réduction des risques pour la sécurité personnelle des utilisateurs par rapport aux transactions en cash.
+reviewed: false

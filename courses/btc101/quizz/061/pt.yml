@@ -1,0 +1,11 @@
+question: Qual é o nome do evento em que a recompensa pela mineração é reduzida pela metade?
+answer: Halving
+wrong_answers:
+  - Dobrando
+  - Quarteirando
+  - Triplicando
+explanation: |
+  O evento em que a recompensa pela mineração é reduzida pela metade é chamado de
+  halving. Esse evento dá à curva de emissão monetária uma
+  forma de escada.
+reviewed: true

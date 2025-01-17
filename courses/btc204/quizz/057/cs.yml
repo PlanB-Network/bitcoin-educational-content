@@ -1,0 +1,13 @@
+question: Jaké je hlavní riziko spojené s opakovaným používáním adresy?
+
+answer: Umožňuje deterministicky propojit různé transakce a společné vlastnictví dotčených UTXO.
+
+wrong_answers:
+  - Vystavuje IP adresu uživatele ostatním účastníkům sítě během ověřování transakce.
+  - Sníží účinnost mechanismů digitálního podpisu, což oslabuje bezpečnost transakcí.
+  - Způsobuje zvýšení poplatků za transakce kvůli zácpám způsobeným opakovaným používáním adresy.
+
+explanation: |
+  Pokud je stejná adresa použita pro více transakcí, stává se možným odvodit, že všechny bitcoiny spojené s touto adresou patří téže osobě.
+
+reviewed: false

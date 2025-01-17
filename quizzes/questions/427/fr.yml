@@ -1,9 +1,0 @@
-question: Que signifie HMAC ?
-answer: Code d'authentification de message basé sur le hachage
-wrong_answers:
-  - Code d'authentification de maître hiérarchique
-  - Code d'authentification de maître haché
-  - Code d'authentification de message hiérarchique
-explanation: |
-  HMAC signifie Hash-based Message Authentication Code. Il s'agit d'un type de code d'authentification de message (MAC) impliquant une fonction de hachage cryptographique et une clé cryptographique secrète.
-reviewed: false

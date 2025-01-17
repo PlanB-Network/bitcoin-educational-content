@@ -1,0 +1,64 @@
+id: b1dfcb64-0c1c-4dcb-a530-1dd1e381d4ee
+chapterId: 9d9a5908-2acc-501e-906b-a6fce9ecfebd
+difficulty: hard
+duration: 45
+author: DecouvreBitcoin
+tags:
+  - Bitcoin
+  - Mining
+  - Hashrate
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2776
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2638
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1319
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2707
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2776
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2638
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2707
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2914
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2638
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2914

@@ -1,0 +1,13 @@
+question: En quoi la transaction payjoin peut être considérée comme une transaction stéganographique ?
+
+answer: Elle cache le montant réel du paiement aux observateurs externes
+
+wrong_answers:
+  - Elle chiffre le montant réel du paiement pour les observateurs externes
+  - Elle cache le montant réel du paiement au destinataire
+  - Elle chiffre le montant réel du paiement pour le destinataire
+
+explanation: |
+  La transaction payjoin fait partie du domaine de la stéganographie, car permet de cacher le montant réel d'une transaction au sein d'une fausse transaction qui agit comme un leurre pour les observateurs externes.
+
+reviewed: false

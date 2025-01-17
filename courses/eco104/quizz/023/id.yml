@@ -1,0 +1,10 @@
+question: Berapa banyak negara di seluruh dunia yang membatasi perempuan untuk membuka rekening bank atas nama mereka sendiri?
+answer: 72
+wrong_answers:
+  - 36
+  - 75
+  - 100
+explanation: |
+  Di 72 negara di seluruh dunia, perempuan tidak diperbolehkan untuk membuka 
+  rekening bank atas nama mereka sendiri.
+reviewed: true

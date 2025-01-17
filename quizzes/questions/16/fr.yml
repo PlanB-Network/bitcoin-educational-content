@@ -1,9 +1,0 @@
-question: Qu'est-ce que la Déclaration d'Indépendance du Cyberespace ?
-answer: Un texte affirmant que le cyberespace est un domaine distinct de la sphère physique et ne devrait pas être soumis aux mêmes lois.
-wrong_answers:
-  - Une déclaration d'indépendance du Bitcoin vis-à-vis des systèmes financiers traditionnels.
-  - Un texte affirmant que l'internet devrait être libre de toute régulation gouvernementale.
-  - Une déclaration d'indépendance du mouvement pirate vis-à-vis de toute régulation.
-explanation: |
-  La Déclaration d'Indépendance du Cyberespace a été rédigée par John Perry Barlow en 1996, affirmant que le cyberespace est un domaine distinct de la sphère physique dans lequel les gouvernements industriels ne peuvent pas imposer leur autorité.
-reviewed: false

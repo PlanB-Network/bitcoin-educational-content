@@ -1,0 +1,9 @@
+question: Nella cifratura a scorrimento, qual è il risultato per la parola DOG con una chiave di 17?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  Con uno scorrimento di 17 nell'alfabeto, D diventa U, O diventa F e G diventa X. Pertanto, la parola cifrata è UFX.
+reviewed: false

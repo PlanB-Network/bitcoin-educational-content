@@ -1,9 +1,0 @@
-question: Warum benötigt Alice die Unterschrift von Bob, bevor sie die Transaktionen veröffentlicht, um einen Kanal zu öffnen?
-answer: Um sicherzustellen, dass sie alleine auf ihre Gelder zugreifen kann, falls etwas schief geht.
-wrong_answers:
-  - Um Bobs Zustimmung zur Öffnung des Kanals zu bestätigen.
-  - Um Bobs Identität zu überprüfen.
-  - Um die Transaktionen zur Sicherheit zu verschlüsseln.
-explanation: |
-  Alice bittet Bob um eine Unterschrift mit seinem öffentlichen Schlüssel, bevor sie die Transaktionen veröffentlicht. Dies dient dazu, sicherzustellen, dass sie alleine auf ihre Gelder zugreifen kann, falls etwas schief geht, da sie bereits Bobs Unterschrift hat.
-reviewed: false

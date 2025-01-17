@@ -1,0 +1,9 @@
+question: Quelle est l'utilité de l'index dans la dérivation des clés enfants ?
+answer: Distinguer les paires de clés sœurs
+wrong_answers:
+  - Identifier la nature de la clé (publique ou privée)
+  - Spécifier le niveau de sécurité de la clé
+  - Ajouter une couche de sécurité supplémentaire
+explanation: |
+  L'index permet de différencier les clés enfants dérivées de la même paire parent.
+reviewed: false

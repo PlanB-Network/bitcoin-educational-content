@@ -1,0 +1,10 @@
+question: Qual é uma das principais razões para a criação do Bitcoin?
+answer: Propor a mudança do sistema financeiro.
+wrong_answers:
+  - Propor a eliminação do dinheiro.
+  - Propor a criação de uma nova forma de tecnologia IA.
+  - Propor o controle da população mundial.
+explanation: |
+  O texto menciona que Satoshi Nakamoto criou o Bitcoin em
+  2008 para propor a mudança do sistema financeiro.
+reviewed: true

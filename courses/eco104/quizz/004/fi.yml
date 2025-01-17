@@ -1,0 +1,11 @@
+question: Mikä on yksi syy siihen, että fiat-valuutta johtaa keskitettyyn kontrolliin?
+answer: Se mahdollistaa hallitusten kontrolloida rahan määrää ja korkotasoa.
+wrong_answers:
+  - Se on tuettu fyysisillä hyödykkeillä kuten kullalla ja hopealla.
+  - Se on immuuni inflaatiolle.
+  - Se kannustaa hajautettuihin rahoitusjärjestelmiin.
+explanation: |
+  Fiat-valuutta antaa hallituksille vallan kontrolloida rahan määrää ja
+  korkotasoa, mahdollistaen niiden vaikuttaa taloudelliseen toimintaan ja
+  johtaen keskitettyyn kontrolliin.
+reviewed: false

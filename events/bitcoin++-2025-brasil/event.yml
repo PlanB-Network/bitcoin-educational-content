@@ -1,0 +1,24 @@
+- start_date: 2025-02-20
+  end_date: 2025-02-23
+  address_line_1: Florianopolis, Brasil 
+  address_line_2:  
+  address_line_3: 
+  name: bitcoin++ is hacking at the beach
+  builder: Base58 school 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: The Bitcoin network never goes down, and neither do its builders. Join us in January down in one of Brazil's nicest beach towns to make friends, build something cool, and get to know the local Brazilian builders community.
+  language: 
+    - en
+    - pt
+  links:
+    website: https://btcpp.dev/conf/floripa
+    replay_url:
+    live_url :
+  tags: 
+    - decentralization
+    - development
+
+

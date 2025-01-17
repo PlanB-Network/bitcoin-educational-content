@@ -1,0 +1,8 @@
+question: Hvilken informasjon må den sendende noden vite for å utføre en betaling med løkruting?
+answer: Nettverkstopologien og den komplette ruten til mottakeren
+wrong_answers:
+  - Bare den neste mellomliggende noden
+  - Kapasiteten til hver kanal
+  - Den kryptografiske signaturen til hver node på stien
+explanation: |
+  Den sendende noden må kjenne nettverkstopologien for å beregne ruten til mottakeren, noe som gjør det mulig å velge den beste stien.

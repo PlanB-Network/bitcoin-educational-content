@@ -1,0 +1,9 @@
+question: Por que Alice e Bob trocam seus segredos por transações de compromisso anteriores?
+answer: Para permitir que cada um se proteja caso o outro publique uma transação antiga
+wrong_answers:
+  - Para aumentar a capacidade do canal
+  - Para bloquear o acesso um do outro aos fundos
+  - Para dividir os fundos igualmente
+explanation: |
+  Trocar segredos por transações anteriores permite que cada participante puna o outro em caso de tentativa de fraude por publicar uma transação antiga.
+reviewed: false

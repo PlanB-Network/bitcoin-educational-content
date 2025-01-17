@@ -1,9 +1,0 @@
-question: Was ist das Risiko bei der Verwendung einer Multisig-Wallet?
-answer: Nicht genügend verschiedene Teile des Multisig-Backups zugreifen zu können
-wrong_answers:
-  - Zugriff auf ausreichend verschiedene Teile des Multisig-Backups zu haben
-  - Schlüssel mit anderen Parteien teilen
-  - Schlüssel nicht mit anderen Parteien teilen
-explanation: |
-  Wenn Sie eine Multisig-Wallet verwenden, sollten die einzelnen Teile des Multisig an verschiedenen Orten gespeichert werden. Dies liegt daran, dass für eine Transaktion mehrere Signaturen erforderlich sind, daher werden eine bestimmte Anzahl von Wallets benötigt, und das Speichern jedes Teils an einem anderen Ort erhöht die Sicherheit.
-reviewed: false

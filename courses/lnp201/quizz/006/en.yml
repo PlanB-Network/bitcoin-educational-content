@@ -1,0 +1,9 @@
+question: What is a UTXO in the context of Bitcoin?
+answer: A piece of unspent bitcoins associated with a script
+wrong_answers:
+  - A fully confirmed transaction on the blockchain
+  - A public key that generates Bitcoin addresses
+  - An amount of bitcoin divided into multiple parts
+explanation: |
+  A UTXO, or Unspent Transaction Output, is an unspent transaction output, representing a certain amount of bitcoins that the holder can use.
+reviewed: false

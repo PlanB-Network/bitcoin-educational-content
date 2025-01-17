@@ -1,0 +1,9 @@
+question: Millist tüüpi aadress algab numbriga `1` ja kuulub Legacy standardi alla?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  P2PKH aadressid, mis on kodeeritud base58check formaadis, pärinevad Legacy standardist ja algavad numbriga `1`.
+reviewed: false

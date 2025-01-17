@@ -1,0 +1,8 @@
+question: P2PKHに比べて、P2WPKHスクリプトの主な新規性は何ですか？
+answer: 署名がWitnessフィールドに移動されます。
+wrong_answers:
+  - アドレスはbase58checkでエンコードされます。
+  - scriptPubKeyにはプライベートキーのハッシュが含まれます。
+  - P2WPKHはSegWitと互換性がありません。
+explanation: |
+  SegWitで導入されたP2WPKHは、トランザクションの可変性を防ぐために、署名をWitnessと呼ばれる別のセクションに移動します。

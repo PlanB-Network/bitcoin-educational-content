@@ -1,0 +1,10 @@
+question: Qual é o papel de um notário no contexto da herança de Bitcoin?
+answer: Eles garantem a conformidade fiscal.
+wrong_answers:
+  - Eles gerenciam seus bitcoins após sua morte.
+  - Eles modificam seu plano de herança.
+  - Eles seguram seus bitcoins em um cofre.
+explanation: |
+  No contexto da herança de Bitcoin, é importante
+  discutir a herança de bitcoins com um notário para garantir
+  a conformidade fiscal.

@@ -1,0 +1,13 @@
+question: Come vengono memorizzate le etichette associate a un portafoglio Bitcoin?
+
+answer: Localmente sul software del portafoglio.
+
+wrong_answers:
+  - In un database centralizzato controllato dallo sviluppatore.
+  - Sulla blockchain di Bitcoin tramite un OP_RETURN.
+  - Solo nella RAM durante l'esecuzione del software.
+
+explanation: |
+  Le etichette sono memorizzate localmente dal software del portafoglio e non vengono mai trasmesse sulla rete Bitcoin. L'etichettatura è quindi uno strumento di gestione personale.
+
+reviewed: false

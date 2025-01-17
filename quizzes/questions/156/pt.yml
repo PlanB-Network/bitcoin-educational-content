@@ -1,9 +1,0 @@
-question: Como os mineradores são compensados pelo seu trabalho?
-answer: Os mineradores são compensados através da recompensa incluída no bloco e das taxas de transação.
-wrong_answers:
-  - Os mineradores são pagos pela rede Bitcoin.
-  - Os mineradores recebem um salário fixo pelo seu trabalho.
-  - Os mineradores são compensados com novos bitcoins.
-explanation: |
-  Quando um minerador consegue minerar com sucesso um bloco, ele recebe uma recompensa na forma de novos bitcoins. Essa recompensa é incluída no bloco que ele minerou. Além disso, os mineradores também recebem taxas de transação das transações incluídas no bloco.
-reviewed: false

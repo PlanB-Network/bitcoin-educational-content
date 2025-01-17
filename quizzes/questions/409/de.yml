@@ -1,9 +1,0 @@
-question: Welche Hash-Funktion ist ein Schlüsselelement im Bitcoin-Protokoll?
-answer: SHA-256
-wrong_answers:
-  - MD5
-  - SHA1
-  - SHA0
-explanation: |
-  SHA-256 ist ein Schlüsselelement im Bitcoin-Protokoll. Es wird verwendet, um einen eindeutigen und unumkehrbaren Fingerabdruck von Transaktionsdaten zu erstellen, der für die Sicherheit und Integrität des Bitcoin-Netzwerks entscheidend ist.
-reviewed: false

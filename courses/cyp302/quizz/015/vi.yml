@@ -1,0 +1,9 @@
+question: Định nghĩa của một biến ngẫu nhiên trong bối cảnh của mật mã học là gì?
+answer: Một biến có thể nhận một số giá trị khả dĩ với xác suất dương
+wrong_answers:
+  - Một biến thay đổi giá trị mỗi lúc
+  - Một biến có giá trị cố định và được định trước
+  - Một biến luôn được định nghĩa trong bối cảnh của một thí nghiệm vật lý cụ thể
+explanation: |
+  Một biến ngẫu nhiên có thể nhận hai hoặc nhiều giá trị, mỗi giá trị với một xác suất dương, và thường được định nghĩa một cách trừu tượng trong bối cảnh của mật mã học.
+reviewed: false

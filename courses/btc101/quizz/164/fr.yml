@@ -1,0 +1,11 @@
+question: Quel est le principal avantage de Bitcoin pour les individus vivant sous une oppression financière ou des régimes dictatoriaux ?
+answer: Avoir la possibilité d'échapper à la censure et aux restrictions bancaires.
+wrong_answers:
+  - Utiliser une monnaie stable qui a une valeur fixe.
+  - Permettre des transactions anonymes.
+  - Obtenir des rendements élevés sur l'investissement.
+explanation: >-
+  Bitcoin offre une forme de liberté financière en échappant à la censure et
+  aux restrictions bancaires. Cela est particulièrement bénéfique pour les individus vivant sous
+  une oppression financière ou un régime dictatorial.
+reviewed: true

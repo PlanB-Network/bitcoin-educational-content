@@ -1,0 +1,13 @@
+question: Co je to Bitcoinová přijímací adresa?
+
+answer: Řetězec znaků používaný k přijímání bitcoinů.
+
+wrong_answers:
+  - Kód používaný k odesílání bitcoinů.
+  - Algoritmus pro těžbu bitcoinů.
+  - Chytrý kontrakt.
+
+explanation: |
+  Přijímací adresa slouží k přijímání bitcoinů do peněženky.
+
+reviewed: false

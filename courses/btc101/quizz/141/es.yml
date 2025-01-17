@@ -1,0 +1,11 @@
+question: ¿Cuál es el costo de operar un nodo de Bitcoin en un Raspberry Pi 4 en términos de consumo de electricidad por año (a partir de 2023)?
+answer: Un poco menos de 10€ por año.
+wrong_answers:
+  - Un poco más de 50€ por año.
+  - Un poco menos de 100€ por año.
+  - Alrededor de 200€ por año.
+explanation: |
+  Operar un nodo de Bitcoin en un Raspberry Pi 4 cuesta un poco
+  menos de 10€ por año en términos de consumo de electricidad
+  a partir de 2023.
+reviewed: true

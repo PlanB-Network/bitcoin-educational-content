@@ -1,9 +1,0 @@
-question: Ist eine Passphrase sicherer als ein einfaches Passwort?
-answer: Ja
-wrong_answers:
-  - Nein
-  - Es hängt von der Länge des Passworts ab.
-  - Es hängt von der Komplexität des Passworts ab.
-explanation: |
-  Eine Passphrase ist sicherer als ein einfaches Passwort. Die ideale Passphrase ist lang, abwechslungsreich und zufällig. Sie kann die Sicherheit einer Geldbörse oder einer Software erhöhen.
-reviewed: false

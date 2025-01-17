@@ -1,0 +1,9 @@
+question: What is the difference between a compressed and uncompressed public key?
+answer: The compressed public key uses only the x-coordinate and the parity of y
+wrong_answers:
+  - The compressed public key is more secure
+  - The compressed public key uses only the y-coordinate and the parity of x
+  - The compressed public key requires a larger private key
+explanation: |
+  A compressed public key retains only the x-coordinate and a bit for the parity of y, thus reducing its size to 33 bytes.
+reviewed: false

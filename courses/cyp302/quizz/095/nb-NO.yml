@@ -1,0 +1,9 @@
+question: Hvordan gjør en MAC det mulig for Alice å verifisere at en melding faktisk er fra Bob?
+answer: Ved å sjekke at den genererte taggen stemmer overens med den som ble sendt av Bob
+wrong_answers:
+  - Ved å dekryptere meldingen for å se om den er lesbar
+  - Ved å sammenligne størrelsen på meldingen og taggen
+  - Ved å verifisere avsenderens IP-adresse
+explanation: |
+  Alice bruker den delte hemmelige nøkkelen til å generere en tagg fra den mottatte meldingen. Hvis denne taggen stemmer overens med den som ble sendt av Bob, vet hun at meldingen er autentisk og intakt.
+reviewed: false

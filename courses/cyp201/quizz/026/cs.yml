@@ -1,0 +1,9 @@
+question: Jaký je výchozí bod pro výpočet podpisu ECDSA?
+answer: Hash zprávy
+wrong_answers:
+  - Veřejný klíč
+  - Pevný nonce
+  - Vlastní eliptická křivka
+explanation: |
+  Podpis ECDSA začíná výpočtem hash zprávy, která má být podepsána, často s použitím SHA256.
+reviewed: false

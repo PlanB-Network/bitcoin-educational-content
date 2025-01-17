@@ -1,9 +1,0 @@
-question: Cosa è la moltiplicazione scalare di un punto per n su una curva ellittica?
-answer: Equivalente ad aggiungere quel punto a se stesso n volte
-wrong_answers:
-  - Equivalente a sottrarre quel punto da se stesso n volte
-  - Equivalente a moltiplicare quel punto per se stesso n volte
-  - Equivalente a dividere quel punto per se stesso n volte
-explanation: |
-  La moltiplicazione scalare di un punto per n su una curva ellittica è equivalente ad aggiungere quel punto a se stesso n volte. Questa operazione è alla base del calcolo delle chiavi pubbliche nel sistema Bitcoin.
-reviewed: false

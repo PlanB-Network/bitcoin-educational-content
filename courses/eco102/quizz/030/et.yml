@@ -1,0 +1,9 @@
+question: Millise poliitilise liikumise eelkäijaks peab Bastiat Rousseau'd?
+answer: Sotsialism
+wrong_answers:
+  - Kommunism
+  - Mutualism
+  - Anarhism
+explanation: |
+  Bastiat näeb Rousseau'd sotsialismi eelkäijana, tema kollektiivse lähenemise tõttu ühiskonnale, kus üksikisik peab alluma üldisele tahtele.
+reviewed: false

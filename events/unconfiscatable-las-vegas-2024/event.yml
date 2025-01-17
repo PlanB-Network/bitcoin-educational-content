@@ -1,0 +1,24 @@
+- start_date: 2024-09-17
+  end_date: 2024-09-20
+  address_line_1: Las vegas, United States
+  address_line_2:  
+  address_line_3: 
+  name: Unconfiscatable 2024
+  builder:  
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description:  With at least one Bitcoin conference a week in the world in 2024 we've decided to take Unconfiscatable 2024, in a fresh direction. It'll be the Bitcoin event you don't want to miss. Networking, poker, steak, Scammy Awards and more! No product pitches tokens or any other shitcoinery. This will be the ultimate place to spend time with your fellow Bitcoiners, listen, teach and network! in VEGAS! 
+  language: 
+    - en
+  links:
+    website: https://unconfiscatable.com/
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - general
+
+
+

@@ -1,0 +1,13 @@
+question: How can we minimize the impacts of COIH when consolidating UTXOs?
+
+answer: By consolidating only UTXOs from the same source.
+
+wrong_answers:
+  - By sending UTXOs to third-party addresses.
+  - By randomly selecting UTXOs to avoid recognizable patterns.
+  - By consolidating UTXOs during periods of low activity.
+
+explanation: |
+  If you find yourself needing to consolidate your bitcoins, prioritize consolidating UTXOs from the same source first.
+
+reviewed: false

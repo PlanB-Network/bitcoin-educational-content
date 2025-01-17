@@ -1,0 +1,9 @@
+question: Jika kita mengamati sebuah transaksi dengan 1 UTXO di input dan 43 UTXO di output, pola apa yang dapat kita kenali?
+answer: Pengeluaran terkelompok
+wrong_answers:
+  - Konsolidasi
+  - Pembayaran sederhana
+  - Transaksi kolaboratif
+explanation: |
+  Interpretasi dari pola ini adalah bahwa kita sedang berurusan dengan pengeluaran terkelompok. Struktur ini memungkinkan entitas seperti platform pertukaran untuk menghemat biaya dengan mengelompokkan pengeluaran mereka ke dalam satu transaksi.
+reviewed: false

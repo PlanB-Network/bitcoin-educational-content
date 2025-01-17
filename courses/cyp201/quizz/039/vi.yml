@@ -1,0 +1,8 @@
+question: Vai trò chính của một ví Bitcoin là gì?
+answer: Quản lý và bảo mật khóa riêng
+wrong_answers:
+  - Lưu trữ bitcoin của người dùng
+  - Đảm bảo tính bảo mật của giao dịch tự động
+  - Tạo bitcoin cho mỗi người dùng
+explanation: |
+  Một ví Bitcoin không trực tiếp lưu trữ bitcoin mà quản lý các khóa riêng cần thiết để mở khóa các UTXO đại diện cho bitcoin.

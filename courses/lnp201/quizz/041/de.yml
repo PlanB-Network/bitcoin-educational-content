@@ -1,0 +1,9 @@
+question: Warum ist es für einen sendenden Knoten schwierig, die genaue Liquidität eines Kanals zu schätzen?
+answer: Weil nur die beiden Teilnehmer die genaue Verteilung der Mittel kennen
+wrong_answers:
+  - Weil die Gesamtkapazität der Kanäle ständig ändert
+  - Weil die Gebühren der Zwischenknoten nicht veröffentlicht werden
+  - Weil Kanäle automatisch nach jeder Transaktion schließen
+explanation: |
+  Die genaue Verteilung der Mittel in einem Kanal ist nur für die zwei teilnehmenden Knoten sichtbar, was es anderen Knoten verhindert, die verfügbare Liquidität für das Routing zu schätzen.
+reviewed: false

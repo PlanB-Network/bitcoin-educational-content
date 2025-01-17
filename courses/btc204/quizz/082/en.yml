@@ -1,0 +1,13 @@
+question: Which step of the Chaumian CoinJoin process involves changing identity on Tor to ensure anonymity?
+
+answer: The registration of outputs.
+
+wrong_answers:
+  - The registration of inputs.
+  - The signing of the transaction.
+  - The broadcasting of the transaction.
+
+explanation: |
+  To prevent the coordinator from being able to link a specific output with an input, users change their Tor identity before sending their clear-text receiving addresses to the coordinator.
+
+reviewed: false

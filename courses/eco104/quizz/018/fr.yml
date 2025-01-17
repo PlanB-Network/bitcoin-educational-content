@@ -1,0 +1,12 @@
+question: Quelle était une limitation significative rencontrée par les individus lors de la crise de faillite du gouvernement grec en 2015 ?
+answer: Une réforme bancaire accablante imposée par le gouvernement.
+wrong_answers:
+  - Un accès limité aux services bancaires numériques
+  - La volatilité de monnaies numériques comme le Bitcoin
+  - Une pénurie de monnaie physique (espèces)
+explanation: |
+  Lors de la crise de faillite du gouvernement grec en 2015, les banques étaient fermées,
+  les retraits aux distributeurs automatiques étaient limités, et une portion significative des dépôts bancaires des individus
+  était retirée par le gouvernement pour financer l'irresponsabilité fiscale.
+  Cet événement a mis en lumière les risques associés au fait d'avoir de l'argent détenu au sein du système bancaire traditionnel.
+reviewed: true

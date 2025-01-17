@@ -1,0 +1,11 @@
+question: Mikä on Kyberavaruuden itsenäisyysjulistus?
+answer: Teksti, joka väittää kyberavaruuden olevan erillinen alue fyysisestä maailmasta ja sen ei tulisi olla samojen lakien alainen.
+wrong_answers:
+  - Julistus, joka toteaa Bitcoinin itsenäisyyden perinteisistä rahoitusjärjestelmistä.
+  - Teksti, joka väittää kyberavaruuden tulisi olla hallituksen sääntelyn alainen.
+  - Julistus, joka vakuuttaa merirosvoliikkeen itsenäisyyden mistä tahansa sääntelystä.
+explanation: |
+  Kyberavaruuden itsenäisyysjulistus kirjoitettiin John Perry Barlown toimesta vuonna 1996. Tämä asiakirja väittää,
+  että kyberavaruus on erillinen alue fyysisestä maailmasta, joten teollisuusvaltioiden hallitukset eivät voi
+  pakottaa valtaansa sinne.
+reviewed: true

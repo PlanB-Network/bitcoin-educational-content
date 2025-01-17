@@ -1,0 +1,8 @@
+question: ¿Cómo se crea un nuevo estado del canal después de cada transferencia?
+answer: Creando una nueva transacción de compromiso con la distribución actualizada
+wrong_answers:
+  - Publicando una transacción en la cadena después de cada transferencia
+  - Aumentando la capacidad total del canal
+  - Cerrando y reabriendo el canal después de cada transacción
+explanation: |
+  Cada transacción dentro del canal actualiza el estado del canal con una nueva transacción de compromiso, reflejando la distribución actual de fondos entre los dos participantes.

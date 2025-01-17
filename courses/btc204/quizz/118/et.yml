@@ -1,0 +1,13 @@
+question: Milline järgmistest vastustest ei kujuta endast riski, kui saadetakse bitcoine, mis on läbinud coinjoin'i, reguleeritud platvormile?
+
+answer: Platvorm võib suurendada tehingutasusid
+
+wrong_answers:
+  - Platvorm võib fondid külmutada
+  - Platvorm võib kasutaja konto blokeerida
+  - Platvorm võib kahtlase käitumise ametivõimudele teatada
+
+explanation: |
+  Kui saadate oma mündi reguleeritud vahetusplatvormile, kuid see on hiljuti läbinud coinjoin'i, tuvastab platvormi ahela analüüsi tööriist selle fakti. Platvorm võib seejärel keelduda teie UTXO vastuvõtmisest, mis on läbinud coinjoin'i, või isegi nõuda teilt selgitusi, riskiga näha oma konto peatatud või oma vahendid külmutatud. Mõnel juhul võib platvorm teie käitumisest ka riigiasutustele teatada.
+
+reviewed: false

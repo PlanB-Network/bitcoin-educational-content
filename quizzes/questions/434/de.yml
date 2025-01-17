@@ -1,9 +1,0 @@
-question: Was sind UTXOs im Zusammenhang mit Bitcoin?
-answer: Unausgegebene Transaktionsausgaben
-wrong_answers:
-  - Nicht nachverfolgbare Transaktionsausgaben
-  - Nicht verifizierte Transaktionsausgaben
-  - Nicht bestätigte Transaktionsausgaben
-explanation: |
-  UTXOs oder "Unausgegebene Transaktionsausgaben" repräsentieren die unausgegebenen Transaktionsausgaben, die einem Benutzer gehören. Um diese Bitcoins auszugeben, muss man den Besitz des privaten Schlüssels nachweisen, der mit dem öffentlichen Schlüssel verknüpft ist, der jedem UTXO zugeordnet ist.
-reviewed: false

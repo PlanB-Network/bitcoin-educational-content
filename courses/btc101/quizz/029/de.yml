@@ -1,0 +1,9 @@
+question: Warum ist Gold kein portables Material?
+answer: Weil es dicht und schwer ist, was es umständlich macht, es in großen Mengen zu tragen.
+wrong_answers:
+  - Weil es zu wertvoll ist, um bewegt zu werden.
+  - Weil es nicht leicht in kleinere Formen gebracht werden kann.
+  - Weil es bei Raumtemperatur flüssig ist.
+explanation: |
+  Gold ist dicht und schwer, was bedeutet, dass das Tragen großer Mengen davon körperlich herausfordernd sein kann. Dieses Gewicht macht es im Vergleich zu leichteren Materialien weniger praktisch für den Transport.
+reviewed: true

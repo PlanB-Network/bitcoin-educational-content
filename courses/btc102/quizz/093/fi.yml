@@ -1,0 +1,10 @@
+question: Mikä on paranoidin Bitcoin-käyttäjän erottuva piirre?
+answer: Epäluottamus keskitettyihin järjestelmiin ja KYC-prosesseihin
+wrong_answers:
+  - Luottamus keskitettyihin järjestelmiin
+  - Henkilökohtaisten tietojen jakamisen suosiminen
+  - Kiinnostuksen puute yksityisyyteen ja turvallisuuteen
+explanation: |
+  Luku kuvailee paranoidia Bitcoin-käyttäjää henkilönä, jolla on erottuva
+  epäluottamus keskitettyihin järjestelmiin ja KYC-prosesseihin.
+reviewed: false

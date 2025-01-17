@@ -1,0 +1,9 @@
+question: Was bedeutet Onion-Routing im Lightning-Netzwerk?
+answer: Es bedeutet, dass jeder Zwischenknoten nur seine unmittelbaren Nachbarn auf dem Pfad kennt.
+wrong_answers:
+  - Mittel direkt von Knoten zu Knoten zu übertragen, wobei der endgültige Empfänger bekannt ist
+  - Gebühren für jeden Zwischenknoten unabhängig zu berechnen
+  - Mittel gleichzeitig an alle Knoten auf dem Pfad zu senden
+explanation: |
+  Onion-Routing bedeutet, dass jeder Zwischenknoten nur den vorherigen und den nächsten Knoten kennt, wodurch die Vertraulichkeit des endgültigen Empfängers gewahrt bleibt.
+reviewed: false

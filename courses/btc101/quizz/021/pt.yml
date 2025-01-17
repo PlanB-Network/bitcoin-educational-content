@@ -1,0 +1,11 @@
+question: Qual é uma das desvantagens do ouro como forma de dinheiro?
+answer: Não é facilmente divisível.
+wrong_answers:
+  - Não mantém seu valor no espaço.
+  - Ele se erosiona com o tempo.
+  - É fácil de produzir.
+explanation: |
+  Uma das principais desvantagens do ouro como forma de dinheiro é
+  ser difícil de dividir em unidades menores conforme a necessidade
+  surge, o que o torna menos prático para usar.
+reviewed: true

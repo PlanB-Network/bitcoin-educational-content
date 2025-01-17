@@ -1,0 +1,9 @@
+question: Mikä Bitcoinin piirre Satoshi halusi vähätellä viestinnässään heinäkuussa 2010?
+answer: Transaktioiden anonymiteetti
+wrong_answers:
+  - Raha-asioiden politiikka
+  - Sähköinen kaupankäynti
+  - Ohjelmoitavuus
+explanation: |
+  Slashdotin esitysluonnokseen liittyen hän totesi, ettei halunnut tuoda anonyymin näkökulmaa etualalle. Hän selitti syitään Martti Malmille [yksityisesti](https: //mmalmi.github.io/satoshi/#email-197).
+reviewed: false

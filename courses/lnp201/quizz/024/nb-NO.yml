@@ -1,0 +1,9 @@
+question: Hva er den kombinerte effekten av tidsbegrensningen og tilbakekallingsnøkkelen på forpliktelsestransaksjoner?
+answer: De avskrekker deltakere fra å jukse ved å tilby en umiddelbar straff
+wrong_answers:
+  - De reduserer kanalens kapasitet i tilfelle juks
+  - De låser automatisk midlene til den skyldige parten
+  - De tvinger åpningen av en ny kanal hvis transaksjonen er feil
+explanation: |
+  Tidsbegrensningen og tilbakekallingsnøkkelen avskrekker deltakere fra å jukse ved å sikre at ethvert forsøk på å jukse resulterer i et umiddelbart tap av midler for den skyldige parten.
+reviewed: false

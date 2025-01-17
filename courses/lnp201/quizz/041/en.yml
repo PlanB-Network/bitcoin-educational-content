@@ -1,0 +1,9 @@
+question: Why is it difficult for a transmitting node to estimate the exact liquidity of a channel?
+answer: Because only the two participants know the precise distribution of funds
+wrong_answers:
+  - Because the total capacity of the channels is constantly changing
+  - Because the fees of intermediary nodes are not published
+  - Because channels automatically close after each transaction
+explanation: |
+  The precise distribution of funds in a channel is only visible to the two participating nodes, preventing other nodes from estimating the available liquidity for routing.
+reviewed: false

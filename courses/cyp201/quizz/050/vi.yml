@@ -1,0 +1,8 @@
+question: Phương pháp nào là thực hành tốt để bảo mật một cụm mật khẩu?
+answer: Lưu trữ nó trên một phương tiện vật lý riêng biệt so với cụm từ gợi nhớ
+wrong_answers:
+  - Chỉ nhớ bằng lòng mà không ghi chép lại
+  - Lưu trữ nó trên cùng một phương tiện vật lý với cụm từ gợi nhớ
+  - Ghi lại nó trên một phương tiện số như Google Drive
+explanation: |
+  Cụm mật khẩu phải được lưu trữ trên phương tiện vật lý và tách biệt khỏi cụm từ gợi nhớ để ngăn chặn việc đánh cắp cả hai cùng một lúc.

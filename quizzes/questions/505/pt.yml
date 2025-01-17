@@ -1,9 +1,0 @@
-question: O que o prefixo XPUB indica em uma chave estendida?
-answer: É uma chave pública estendida.
-wrong_answers:
-  - É uma chave privada estendida.
-  - É uma chave mestra.
-  - É uma chave filha.
-explanation: |
-  As chaves estendidas são identificadas por prefixos específicos (XPRV, XPUB, YPUB, ZPUB) que indicam se é uma chave privada ou pública estendida, bem como seu propósito específico.
-reviewed: false

@@ -1,0 +1,18 @@
+id: 08f24b79-1ee7-4f15-a420-a158209701b2
+chapterId: 96243eb0-f6b5-5b68-af1f-fffa0cc16bfe
+difficulty: intermediate
+duration: 30
+author: pretty-private
+tags:
+  - offchain
+  - lightning
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-11-01
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward:

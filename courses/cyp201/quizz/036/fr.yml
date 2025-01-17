@@ -1,0 +1,9 @@
+question: Qu'est-ce qu'un portefeuille HD permet de faire par rapport à un portefeuille JBOK ?
+answer: Générer toutes les clés privées à partir d'une unique graine
+wrong_answers:
+  - Augmenter la sécurité des signatures numériques
+  - Réutiliser une même adresse pour plusieurs transactions
+  - Éviter complètement l'utilisation de clés publiques
+explanation: |
+  Les portefeuilles HD dérivent toutes les clés privées à partir d'une graine unique, ce qui simplifie la sauvegarde et améliore indirectement la confidentialité.
+reviewed: false

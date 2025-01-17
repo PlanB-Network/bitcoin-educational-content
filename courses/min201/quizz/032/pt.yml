@@ -1,0 +1,11 @@
+question: Qual é a recompensa para os mineradores na rede Bitcoin?
+answer: Novos bitcoins e taxas de transação.
+wrong_answers:
+  - Apenas novos bitcoins.
+  - Apenas taxas de transação.
+  - Não há recompensa para os mineradores.
+explanation: |
+  Os mineradores na rede Bitcoin são recompensados com novos
+  bitcoins e taxas de transação pelo seu trabalho na validação
+  e criação de blocos.
+reviewed: true

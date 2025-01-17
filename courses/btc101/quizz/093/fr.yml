@@ -1,0 +1,14 @@
+question: De quoi avez-vous besoin pour effectuer une sauvegarde lorsque vous utilisez un portefeuille avec une phrase secrète ?
+answer: Vous devez sauvegarder à la fois la liste de 12 ou 24 mots et votre phrase secrète.
+wrong_answers:
+  - Vous devez seulement sauvegarder la liste de 12 ou 24 mots.
+  - Vous devez seulement sauvegarder votre phrase secrète.
+  - Vous n'avez besoin de sauvegarder ni la liste de 12 ou 24 mots, ni votre phrase secrète.
+explanation: |
+  Lorsque vous utilisez un portefeuille avec une phrase secrète, vous devez sauvegarder
+  à la fois la liste de 12 ou 24 mots et votre phrase secrète,
+  car la liste de mots et la phrase secrète sont tous les deux
+  nécessaires pour récupérer l'accès à vos fonds en cas de
+  perte de votre téléphone ou ordinateur. Sans l'un ou l'autre,
+  les fonds ne sont pas accessibles.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Co se stane, pokud útočník zachytí zašifrovanou zprávu v dobrém symetrickém šifrovacím schématu?
+answer: Neměl by se dozvědět nic významného o původní zprávě
+wrong_answers:
+  - Vždy mohou zprávu dešifrovat bez klíče
+  - Měli by ji být schopni dešifrovat veřejným klíčem
+  - Měli by být schopni uhodnout obsah zprávy
+explanation: |
+  V dobře navrženém symetrickém šifrovacím schématu by útočník, který zachytí zašifrovanou zprávu, neměl být schopen odvodit relevantní informace o obsahu zprávy bez dešifrovacího klíče.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Qual è una delle ragioni per cui Bitcoin è attrattivo per certi gruppi?
-answer: La sua capacità di offrire soluzioni come denaro elettronico senza fiducia, resistenza alla censura o una politica monetaria trasparente e immutabile.
-wrong_answers:
-  - È facile da contraffare.
-  - È controllato da un'autorità centrale.
-  - Non è pseudonimo.
-explanation: |
-  La natura decentralizzata di Bitcoin, la pseudonimia e la resistenza alla censura lo rendono attrattivo per gruppi come i tecnofili, i cypherpunk, i libertari e gli appassionati dell'oro.
-reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál es la función principal de una clave extendida en un monedero HD?
+answer: Permitir la derivación de claves secundarias
+wrong_answers:
+  - Almacenar las transacciones del monedero
+  - Generar directamente los UTXOs
+  - Encriptar las claves públicas
+explanation: |
+  Una clave extendida combina una clave (ya sea privada o pública) con un código de cadena asociado, es decir, los dos elementos necesarios para derivar claves secundarias.
+reviewed: false

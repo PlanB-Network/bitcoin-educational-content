@@ -1,9 +1,0 @@
-question: Quelle est l'une des principales caractéristiques du protocole Bitcoin ?
-answer: Il est neutre envers tous ses utilisateurs.
-wrong_answers:
-  - Il favorise certains utilisateurs par rapport à d'autres.
-  - Il est partial envers certains utilisateurs.
-  - Il ne bénéficie qu'à un groupe restreint d'utilisateurs.
-explanation: |
-  Le texte mentionne que le protocole Bitcoin est neutre envers tous ses utilisateurs.
-reviewed: false

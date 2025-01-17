@@ -1,0 +1,9 @@
+question: Co je coinbase transakce?
+answer: První transakce bloku, která zahrnuje odměnu pro těžaře.
+wrong_answers:
+  - Transakce provedená na burze Coinbase.
+  - Druhá transakce bloku, která zahrnuje nejvyšší poplatky.
+  - Transakce provedená těžařem po obdržení odměny.
+explanation: >-
+  Coinbase transakce je vždy první transakce bloku. Zahrnuje odměnu pro těžaře za vykonání práce validátora.
+reviewed: true

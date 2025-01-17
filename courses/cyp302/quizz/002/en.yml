@@ -1,0 +1,9 @@
+question: What is the specificity of the three encrypted texts contained in the box?
+answer: They contain numbers separated by commas
+wrong_answers:
+  - They are all written in ordinary letters
+  - They use unknown symbols
+  - They are written in multiple languages
+explanation: |
+  The three encrypted texts consist of series of numbers separated by commas, requiring a key to be decrypted.
+reviewed: false

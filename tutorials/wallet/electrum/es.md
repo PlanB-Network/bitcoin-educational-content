@@ -4,7 +4,7 @@ name: Electrum
 description: Guía completa de Electrum, de 0 a héroe
 ---
 
-![portada](assets/cover.png)
+![portada](assets/cover.webp)
 
 Descripción de Electrum
 

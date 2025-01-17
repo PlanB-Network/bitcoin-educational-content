@@ -1,9 +1,0 @@
-question: Quel est le principal objectif des signatures numériques dans le protocole Bitcoin?
-answer: Le principal objectif des signatures numériques dans le protocole Bitcoin est de démontrer la possession d'une clé privée associée à une clé publique spécifique.
-wrong_answers:
-  - Chiffrer les données de transaction
-  - Générer de nouveaux bitcoins
-  - Vérifier l'identité de l'expéditeur
-explanation: |
-  Au cœur du protocole Bitcoin, les signatures numériques sont utilisées comme des preuves mathématiques démontrant la possession d'une clé privée associée à une clé publique spécifique.
-reviewed: false

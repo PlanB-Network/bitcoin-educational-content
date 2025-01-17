@@ -1,0 +1,8 @@
+question: Mitä tapahtuu, jos Bob lähettää laskun Alicelle 30 000 satoshista?
+answer: Alice luo sitoumustapahtuman siirtääkseen 30 000 satoshia Bobille kanavassa.
+wrong_answers:
+  - Alicen on avattava uusi kanava tehdäkseen tämän siirron.
+  - Bob automaattisesti saa 30 000 satoshia lompakkoonsa.
+  - Lasku maksetaan on-chain siirtona Bitcoin-verkossa.
+explanation: |
+  Kun Bob lähettää laskun Alicelle, hän luo ja allekirjoittaa uuden sitoumustapahtuman säätääkseen varojen jakautumista, siirtäen näin 30 000 satoshia kanavassa.

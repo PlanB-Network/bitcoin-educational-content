@@ -1,0 +1,9 @@
+question: What is the main reason why the other Beale ciphers remain undeciphered?
+answer: The key to these ciphers is still unknown
+wrong_answers:
+  - The encrypted texts are too old
+  - The box was lost before it could be deciphered
+  - Researchers lack reliable historical documents
+explanation: |
+  The other Beale ciphers have never been deciphered because the necessary key to read them remains unknown, despite numerous attempts.
+reviewed: false

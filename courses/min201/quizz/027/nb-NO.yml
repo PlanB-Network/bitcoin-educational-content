@@ -1,0 +1,14 @@
+question: Hvorfor er Proof of Work essensielt i Bitcoin-nettverket?
+answer: Det representerer den fysiske koblingen mellom den virkelige verden og Bitcoin, og krever håndgripelig energi for produksjon og validering av bitcoins og blokker.
+wrong_answers:
+  - Det tillater småskala deltakelse av gruvearbeidere, spesielt for de i høyt sensurerte lokasjoner.
+  - Det garanterer beskyttelse mot sentralisering.
+  - Det reflekterer eksisterende maktulikheter i samfunnet.
+explanation: |
+  Proof of Work er essensielt i Bitcoin-nettverket fordi
+  det representerer den fysiske koblingen mellom den virkelige verden og
+  Bitcoin. Produksjonen og valideringen av bitcoins og
+  blokker krever håndgripelig energi, noe som forankrer Bitcoin-
+  nettverket i den fysiske virkeligheten og forhindrer dets komplette
+  dominans av kraftfulle enheter.
+reviewed: true

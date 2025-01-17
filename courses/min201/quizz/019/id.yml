@@ -1,0 +1,11 @@
+question: Apa arti penting dari Lightning Network dalam konteks penambangan Bitcoin?
+answer: Lightning Network berpotensi untuk secara signifikan mengurangi biaya transaksi, sehingga berdampak pada pendapatan penambang.
+wrong_answers:
+  - Lightning Network meningkatkan ukuran blok, sehingga meningkatkan pendapatan penambang.
+  - Lightning Network mengurangi konsumsi energi dari penambangan Bitcoin.
+  - Lightning Network meningkatkan kecepatan penambangan Bitcoin.
+explanation: |
+  Lightning Network memungkinkan transaksi yang cepat dan biaya rendah
+  di luar rantai utama Bitcoin. Ini berpotensi untuk secara signifikan
+  mengurangi biaya transaksi, yang bisa berdampak pada pendapatan penambang.
+reviewed: true

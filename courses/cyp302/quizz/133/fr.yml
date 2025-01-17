@@ -1,0 +1,9 @@
+question: Qu'est-ce qu'une signature numérique dans le cadre de la cryptographie asymétrique ?
+answer: Un mécanisme pour vérifier l'authenticité d'un message à l'aide de la clé privée
+wrong_answers:
+  - Un procédé permettant de chiffrer le message de façon plus forte
+  - Une clé publique supplémentaire pour valider un message chiffré
+  - Une copie numérique d'une signature manuscrite
+explanation: |
+  Une signature numérique est une technique cryptographique permettant de prouver qu'un message a bien été créé par le propriétaire de la clé privée correspondante, assurant ainsi son authenticité.
+reviewed: false

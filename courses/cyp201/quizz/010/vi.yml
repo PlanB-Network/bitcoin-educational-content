@@ -1,0 +1,9 @@
+question: Thuật toán dẫn xuất nào được sử dụng để tính toán mã xác thực dựa trên một khóa bí mật?
+answer: HMAC-SHA512
+wrong_answers:
+  - SHA512
+  - SHA256
+  - RIPEMD160
+explanation: |
+  HMAC-SHA512 là một thuật toán kết hợp một hàm băm và một khóa bí mật để tính toán mã xác thực.
+reviewed: false

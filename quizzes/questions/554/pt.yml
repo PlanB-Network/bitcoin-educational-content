@@ -1,9 +1,0 @@
-question: O que é uma chave estendida em uma carteira HD?
-answer: Ela é obtida ao concatenar uma chave pai com seu código de cadeia.
-wrong_answers:
-  - É o elemento mais alto na hierarquia da carteira HD.
-  - É usado para gerar a semente da carteira.
-  - É usado para calcular o checksum.
-explanation: |
-  A derivação de uma chave filha depende de vários fatores, incluindo a chave pai e o código de cadeia correspondente. Uma chave estendida é obtida ao concatenar uma chave pai com seu código de cadeia correspondente.
-reviewed: false

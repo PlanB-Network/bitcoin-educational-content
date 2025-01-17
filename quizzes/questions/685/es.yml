@@ -1,9 +1,0 @@
-question: ¿Cuáles son los dos tipos de tarifas en la Red Lightning?
-answer: Una tarifa fija independientemente del monto y una tarifa variable.
-wrong_answers:
-  - Una tarifa de transacción y una tarifa de enrutamiento.
-  - Una tarifa del remitente y una tarifa del receptor.
-  - Una tarifa de red y una tarifa de canal.
-explanation: |
-  En la Red Lightning, hay dos tipos de tarifas; una tarifa fija independientemente del monto (por defecto es 1 SAT pero puede ser modificada) y una tarifa variable (0.01% por defecto).
-reviewed: false

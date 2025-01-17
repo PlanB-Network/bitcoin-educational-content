@@ -1,0 +1,9 @@
+question: Wie schützt das Zeitfenster (timelock) vor Betrug bei Commitment-Transaktionen?
+answer: Es verhindert, dass die betreffende Partei sofort ihre Gelder abruft.
+wrong_answers:
+  - Es erstattet die Gelder automatisch an den Betrüger zurück.
+  - Es storniert die Transaktion im Falle eines Betrugsversuchs.
+  - Es blockiert die Verwendung des Widerrufsschlüssels.
+explanation: |
+  Das Zeitfenster (timelock) legt eine Verzögerung fest, während der der Betrüger seine Gelder nicht abrufen kann, und gibt somit der anderen Partei die Möglichkeit zu reagieren.
+reviewed: false

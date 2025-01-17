@@ -1,0 +1,13 @@
+question: Combien de transactions successives un ricochet classique effectue-t-il généralement ?
+
+answer: 5
+
+wrong_answers:
+  - 2
+  - 8
+  - 14
+
+explanation: |
+  La méthode du ricochet consiste généralement à faire 4 transactions vers soi-même, et une dernière pour envoyer les fonds vers le destinataire final.
+
+reviewed: false

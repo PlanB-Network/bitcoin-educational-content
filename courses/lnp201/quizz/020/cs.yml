@@ -1,0 +1,9 @@
+question: Jaké je hlavní riziko u transakcí závazku na Lightning Network?
+answer: Publikování staré transakce za účelem získání více prostředků
+wrong_answers:
+  - Zapomenutí podepsat transakci závazku
+  - Omylem poslání prostředků do jiného kanálu
+  - Blokování transakce nevhodným časovým zámkem
+explanation: |
+  Hlavním rizikem je, že strana může pokusit podvádět publikováním staré transakce závazku, což by jim mohlo umožnit získat zpět prostředky, které již nemají.
+reviewed: false

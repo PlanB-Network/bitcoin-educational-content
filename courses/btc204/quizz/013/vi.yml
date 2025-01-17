@@ -1,0 +1,9 @@
+question: Mô hình bảo mật của hệ thống ngân hàng là gì?
+answer: Chỉ có ngân hàng mới có quyền truy cập vào chi tiết giao dịch.
+wrong_answers:
+  - Các giao dịch là công khai, nhưng danh tính của người dùng không được biết.
+  - Các giao dịch là ẩn danh và bị ẩn khỏi tất cả mọi người, bao gồm cả ngân hàng.
+  - Chỉ có chính phủ mới có quyền truy cập vào chi tiết giao dịch.
+explanation: |
+  Trong hệ thống truyền thống, mỗi tài khoản ngân hàng được liên kết với một danh tính. Tuy nhiên, dòng thông tin bị ngắt kết nối giữa ngân hàng và công chúng.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Který algoritmus podpisu byl zaveden v Bitcoinu s Taproot?
+answer: Schéma podpisu Schnorr
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Schéma podpisu Schnorr bylo zavedeno v listopadu 2021 s aktualizací Taproot.
+reviewed: false

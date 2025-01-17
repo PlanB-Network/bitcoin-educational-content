@@ -1,9 +1,0 @@
-question: Was sind die potenziellen Nachteile bei der Erstellung eines "Cloud"-Backups mit Diensten wie ProtonMail Drive, Sync oder Google Drive?
-answer: Ihre Daten sind potenziell im Internet und werden von einem vertrauenswürdigen Dritten gespeichert.
-wrong_answers:
-  - Diese Dienste sind nicht zuverlässig für die Datensicherung.
-  - Diese Dienste verlieren oft Benutzerdaten.
-  - Diese Dienste bieten nicht genügend Speicherplatz.
-explanation: |
-  Cloud-Backup-Dienste bieten zwar eine bequeme Möglichkeit, Ihre Daten zu sichern, bedeuten aber auch, dass Ihre Daten potenziell im Internet sind und von einem vertrauenswürdigen Dritten gespeichert werden. Dies könnte Ihre Daten potenziell zusätzlichen Risiken aussetzen.
-reviewed: false

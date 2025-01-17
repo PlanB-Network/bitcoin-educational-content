@@ -1,0 +1,9 @@
+question: How did the transition from coins to paper money improve the currency network?
+answer: It made money more portable and scalable, facilitating long-distance trade and complex financial systems.
+wrong_answers:
+  - It eliminated the need for any underlying asset or trust.
+  - It instantly stopped inflation and stabilized the economy.
+  - It allowed governments to avoid managing the money supply entirely.
+explanation: |
+  Paper money was lighter and easier to make and to transport than coins made of precious metals. This portability and standardization simplified transactions and enabled economies to grow beyond local regions.
+reviewed: false

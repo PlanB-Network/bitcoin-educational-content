@@ -1,0 +1,8 @@
+question: Tên của vấn đề nào mà việc tính toán kết quả theo một hướng là dễ dàng nhưng gần như không thể đảo ngược?
+answer: Hàm một chiều
+wrong_answers:
+  - Hàm tuyến tính
+  - Hàm mũ
+  - Hàm có thể đảo ngược
+explanation: |
+  Hàm một chiều cho phép tính toán nhanh chóng theo một hướng, nhưng làm cho việc giải quyết ngược lại trở nên gần như không thể, do đó là tiện ích của chúng trong mật mã học.

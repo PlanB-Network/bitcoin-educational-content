@@ -1,0 +1,8 @@
+question: SegWit v0アドレスの生成において、HASH160の適用に先立つステップは何ですか？
+answer: 公開鍵の圧縮
+wrong_answers:
+  - チェックサムの追加
+  - bech32形式への変換
+  - base58checkでのエンコーディング
+explanation: |
+  公開鍵はHASH160ハッシュ関数を通す前に、そのサイズを減らすために圧縮されなければなりません。

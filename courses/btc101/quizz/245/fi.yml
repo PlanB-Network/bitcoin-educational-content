@@ -1,0 +1,9 @@
+question: Mikä on yksi mahdollinen seuraus tekoälyn teknologioiden kehittymisestä?
+answer: Tekoälyn teknologiat johtavat yli 80% tämän päivän työpaikkojen katoamiseen.
+wrong_answers:
+  - Tekoälyn teknologiat tuhoavat kaikki tietokoneet.
+  - Tekoälyn teknologiat johtavat ihmisen älykkyyden vähenemiseen.
+  - Tekoälyn teknologiat aiheuttavat maailmanlaajuisen talousromahduksen.
+explanation: >-
+  Tekstissä mainitaan, että yksi mahdollinen seuraus tekoälyn teknologioiden kehittymisestä on, että yli 80% työpaikoista katoaa tekoälyn ja automaation myötä.
+reviewed: true

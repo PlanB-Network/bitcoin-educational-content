@@ -1,9 +1,0 @@
-question: Quais são os vetores de inicialização no processamento da função SHA-256?
-answer: Os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 8 números primos
-wrong_answers:
-  - Os primeiros 32 bits das partes decimais das raízes cúbicas dos primeiros 8 números primos
-  - Os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 64 números primos
-  - Os primeiros 32 bits das partes decimais das raízes cúbicas dos primeiros 64 números primos
-explanation: |
-  No processamento da função SHA-256, os vetores de inicialização, de A a H, são os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 8 números primos. Estes são usados como ingredientes básicos na receita criptográfica.
-reviewed: false

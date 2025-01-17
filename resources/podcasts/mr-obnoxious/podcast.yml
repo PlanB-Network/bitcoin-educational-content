@@ -1,0 +1,13 @@
+name: Mr Obnoxious
+host: Peter McCormack
+language: en
+links:
+  podcast: https://www.mrobnoxious.com/episodes
+  twitter: https://x.com/mrobnoxiouspod
+  website: https://www.mrobnoxious.com/
+description: |
+  I’m Peter McCormack. I have questions.
+tags:
+  - finance
+contributors:
+  - hunt-wood

@@ -1,0 +1,8 @@
+question: Jaké informace může Bob zahrnout do faktury, aby usnadnil směrování?
+answer: Blízké kanály s dostatečnou likviditou nebo existence soukromých kanálů
+wrong_answers:
+  - Soukromý klíč mezilehlých uzlů
+  - Kompletní mapa všech kanálů sítě
+  - Přesná částka dostupné likvidity pro každý kanál
+explanation: |
+  Tím, že Bob uvede blízké kanály s likviditou nebo odhalí soukromé kanály, pomáhá Alici vybrat trasy s lepší pravděpodobností úspěchu.

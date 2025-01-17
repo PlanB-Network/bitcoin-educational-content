@@ -1,0 +1,11 @@
+question: Mikä on käytännöllinen tapa hankkia Bitcoineja?
+answer: Ostamalla niitä säänneltyjen tai sääntelemättömien alustojen kautta.
+wrong_answers:
+  - Louhimalla niitä kannettavalla tietokoneella.
+  - Löytämällä niitä fyysisestä maailmasta.
+  - Luomalla niitä käyttäen erityistä ohjelmistoa.
+explanation: |
+  Tekstissä mainitaan, että käyttäjät voivat hankkia Bitcoineja
+  hyväksymällä niitä kaupankäynnissä tai ostamalla niitä
+  säänneltyjen tai sääntelemättömien alustojen kautta.
+reviewed: true

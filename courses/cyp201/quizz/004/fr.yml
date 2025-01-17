@@ -1,0 +1,9 @@
+question: Quelle combinaison de fonctions de hachage est utilisée pour générer des empreintes plus courtes dans Bitcoin ?
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160 combine SHA256 et RIPEMD160 pour générer des empreintes de 160 bits, notamment pour les adresses Bitcoin.
+reviewed: false

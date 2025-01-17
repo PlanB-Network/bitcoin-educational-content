@@ -1,0 +1,64 @@
+id: 6a290e55-1dd5-43ba-8d23-32e0d58fff89
+chapterId: dbb8264a-7434-57e4-9d1b-fbd1bae37fdf
+difficulty: easy
+duration: 15
+author: DecouvreBitcoin
+tags:
+  - Bitcoin
+  - Miners
+  - Network
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2652
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2576
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1288
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2614
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2652
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2576
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2614
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2728
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2576
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2728

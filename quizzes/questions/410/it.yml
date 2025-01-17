@@ -1,9 +1,0 @@
-question: Cosa succede se viene fornito anche un input leggermente deviante a una funzione di hash crittografica?
-answer: Modifica significativamente l'hash finale.
-wrong_answers:
-  - Produce lo stesso hash.
-  - Provoca il fallimento della funzione di hash.
-  - Rallenta il calcolo dell'hash.
-explanation: |
-  Le funzioni di hash crittografiche sono progettate in modo tale che anche una leggera deviazione nell'input modifichi significativamente l'hash finale. Questa proprietà è cruciale per la sicurezza della funzione di hash, poiché rende estremamente difficile trovare un input diverso che produca lo stesso hash.
-reviewed: false

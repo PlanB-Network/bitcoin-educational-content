@@ -1,0 +1,11 @@
+question: Was etabliert das Mining für Bitcoin?
+answer: Einen Mindestpreis
+wrong_answers:
+  - Einen Höchstpreis
+  - Einen festen Preis
+  - Einen variablen Preis
+explanation: |
+  Das Mining etabliert einen Mindestpreis für Bitcoin, unterhalb dessen
+  Miner mit Verlust verkaufen würden. Die Kosten des Minings
+  beeinflussen den Preis von Bitcoin erheblich.
+reviewed: true

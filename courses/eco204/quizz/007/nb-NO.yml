@@ -1,0 +1,13 @@
+question: Hva er den grunnleggende forskjellen mellom prisøkning og inflasjon?
+answer: Prisøkning kan være sektorspesifikk og forårsaket av ulike faktorer, mens inflasjon er definert ved en generell prisøkning på tvers av en rekke varer og tjenester.
+wrong_answers:
+  - Prisøkning er en generell prisøkning på tvers av en rekke varer og tjenester, mens inflasjon er sektorspesifikk og forårsaket av ulike faktorer.
+  - Prisøkning og inflasjon er det samme, begge refererer til en generell prisøkning på tvers av en rekke varer og tjenester.
+  - Prisøkning refererer til et fall i priser, mens inflasjon refererer til en økning i priser.
+explanation: |
+  Kapittelet forklarer at en prisøkning kan være sektorspesifikk og
+  forårsaket av ulike faktorer som en nedgang i OPEC-produksjonen for olje eller ugunstige
+  værforhold for hvete. Inflasjon, på den andre siden, er definert ved en generell
+  prisøkning på tvers av en rekke varer og tjenester, ikke bare i en spesifikk
+  sektor.
+reviewed: false

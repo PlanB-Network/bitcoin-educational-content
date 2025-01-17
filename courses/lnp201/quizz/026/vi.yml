@@ -1,0 +1,9 @@
+question: Phương pháp đóng kênh nào là tiết kiệm và nhanh nhất?
+answer: Đóng kênh hợp tác
+wrong_answers:
+  - Đóng kênh bắt buộc
+  - Đóng kênh với gian lận
+  - Không có phương pháp nào tiết kiệm và nhanh hơn
+explanation: |
+  Đóng kênh hợp tác là phương pháp nhanh nhất và tiết kiệm nhất vì cả hai bên đều đồng ý đóng kênh, điều chỉnh phí theo điều kiện thị trường.
+reviewed: false

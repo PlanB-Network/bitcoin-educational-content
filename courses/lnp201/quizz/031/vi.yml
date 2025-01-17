@@ -1,0 +1,9 @@
+question: Điều gì giới hạn số tiền của một khoản thanh toán gián tiếp trên Mạng Lưới Lightning?
+answer: Lượng thanh khoản nhỏ nhất có sẵn trong một kênh của lộ trình được chọn
+wrong_answers:
+  - Số lượng nút trung gian tham gia
+  - Tổng dung lượng của Mạng Lưới Lightning
+  - Phí định tuyến được thiết lập bởi mỗi nút
+explanation: |
+  Số tiền tối đa mà một khoản thanh toán gián tiếp có thể chuyển phụ thuộc vào lượng thanh khoản thấp nhất có sẵn trong các kênh được sử dụng, vì mỗi kênh phải điều chỉnh số tiền ở mỗi bên.
+reviewed: false

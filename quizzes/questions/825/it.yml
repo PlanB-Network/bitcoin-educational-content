@@ -1,9 +1,0 @@
-question: Perché è importante utilizzare password generate casualmente?
-answer: Offrono un livello di sicurezza più elevato e sono più resistenti agli attacchi di forza bruta.
-wrong_answers:
-  - Sono più facili da ricordare.
-  - Sono più brevi e semplici.
-  - Sono richieste dalla maggior parte dei servizi online.
-explanation: |
-  Le password generate casualmente offrono un livello di sicurezza più elevato perché sono più resistenti agli attacchi di forza bruta, che cercano di indovinare le password provando tutte le possibili combinazioni di caratteri.
-reviewed: false

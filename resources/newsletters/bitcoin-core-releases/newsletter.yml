@@ -1,0 +1,17 @@
+id: 85d80bd2-c763-4824-8bbc-d543a883adaf
+title: "Bitcoin Core Releases"
+author: Bitcoin Core Team
+level: expert
+publication_date: 2017-06-19
+link:
+  - website: https://bitcoincore.org/en/releases/
+language: en
+description: |
+  Updated with new content when any new version is published, this source is
+  useful to be aware of new Bitcoin node supported versions, allowing experienced
+  bitcoiners to plan the udpate of their self-hosted setup, if existent.
+tags:
+  - node
+  - network-security
+contributors:
+  - hunt-wood

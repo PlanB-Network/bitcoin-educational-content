@@ -1,0 +1,12 @@
+question: Hva er blockchain-trilemmaet i kryptovalutaens verden?
+answer: Avveiningen mellom skalerbarhet, sikkerhet og desentralisering i kryptovalutaer
+wrong_answers:
+  - En egenskap ved Bitcoin som prioriterer desentralisering og sikkerhet over skalerbarhet
+  - Vanskeligheten med å bestemme banen og verdiene til kryptovalutaer
+  - Begrensningen av Bitcoins teknologi sammenlignet med andre kryptovalutaer
+explanation: |
+  Konseptet med blockchain-trilemmaet er ideen om at kryptovalutaer 
+  må prioritere to av tre viktige egenskaper; skalerbarhet, 
+  sikkerhet og desentralisering. Bitcoin prioriterer desentralisering og sikkerhet, 
+  noe som påvirker dens skalerbarhet, men det oppnår likevel dette gjennom alternative metoder.
+reviewed: true

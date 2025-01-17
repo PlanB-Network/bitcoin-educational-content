@@ -1,0 +1,9 @@
+question: Mục đích của việc sử dụng một ví giả với mật khẩu là gì?
+answer: Để mô phỏng một ví chứa một lượng nhỏ trong trường hợp bị ép buộc về thể chất
+wrong_answers:
+  - Thêm một bản sao lưu tự động của các giao dịch
+  - Tạo ra một cụm từ ghi nhớ bổ sung
+  - Bảo vệ UTXOs khỏi việc chi tiêu kép
+explanation: |
+  Một ví giả được sử dụng để làm lạc hướng sự chú ý của kẻ tấn công bằng cách cung cấp quyền truy cập vào một ví chứa một lượng nhỏ bitcoin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mengapa para ahli kimia menggunakan teori grup?
+answer: Untuk mengklasifikasikan bentuk molekul
+wrong_answers:
+  - Untuk menganalisis ikatan kimia
+  - Untuk menghitung massa molekul
+  - Untuk memprediksi reaksi kimia
+explanation: |
+  Teori grup memungkinkan para ahli kimia untuk mengklasifikasikan bentuk molekul berdasarkan simetri mereka, yang membantu dalam memahami sifat struktural mereka.
+reviewed: false

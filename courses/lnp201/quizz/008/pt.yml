@@ -1,0 +1,9 @@
+question: Como funciona um endereço multisignature 2/2 no Bitcoin?
+answer: Requer duas assinaturas para desbloquear e gastar os fundos.
+wrong_answers:
+  - Permite gastar os fundos com apenas uma das duas chaves.
+  - Autoriza transações apenas em casos específicos de bloqueio.
+  - É usado apenas para enviar fundos para endereços públicos.
+explanation: |
+  Um endereço multisignature 2/2 requer as assinaturas de ambas as partes envolvidas para que os fundos possam ser gastos, o que é usado para a segurança dos canais Lightning.
+reviewed: false

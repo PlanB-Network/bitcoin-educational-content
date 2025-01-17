@@ -1,0 +1,13 @@
+question: Parmi les réponses suivantes, laquelle ne permet pas de tromper les heuristiques d'analyse de chaîne ?
+
+answer: Utiliser toujours la même adresse de réception.
+
+wrong_answers:
+  - Créer un change dont la valeur se rapproche du paiement.
+  - Faire des outputs de montant irréguliers non ronds.
+  - Répartir la diffusion de ses transactions tout au long de la journée.
+
+explanation: |
+  Il ne faut surtout pas utiliser une adresse de réception plusieurs fois. Toutes les autres réponses permettent de ne pas entrer dans les heuristiques d'analyse de chaîne.
+
+reviewed: false

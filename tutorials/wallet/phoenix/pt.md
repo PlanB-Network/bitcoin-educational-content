@@ -4,7 +4,7 @@ name: Phoenix
 description: Configuração da sua carteira Phoenix
 ---
 
-![phoenix](assets/cover.jpeg)
+![phoenix](assets/cover.webp)
 
 Phoenix é uma carteira Lightning não custodial criada pela Acind, a equipe por trás da implementação Lightning Eclair.
 

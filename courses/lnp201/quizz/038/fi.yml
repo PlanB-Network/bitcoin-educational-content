@@ -1,0 +1,9 @@
+question: Mikä rooli aikakatkaisulla on HTLC-toiminnassa?
+answer: Se tarjoaa aikarajan maksun suorittamiselle ennen peruutusta
+wrong_answers:
+  - Se lisää käytetyn kanavan kapasiteettia
+  - Se lisää yksityisyyden tasoa transaktioon
+  - Se lisää lisämaksuja jokaiselle välittäjäsolmulle
+explanation: |
+  Aikakatkaisu asettaa aikarajan HTLC: n suorittamiselle, mikä mahdollistaa varojen palautuksen, jos transaktio ei onnistu, peruuttamalla maksun tämän ajanjakson jälkeen.
+reviewed: false

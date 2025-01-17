@@ -1,0 +1,12 @@
+question: Que devez-vous faire si vous détectez un virus sur votre ordinateur ?
+answer: Déconnectez-le d'Internet, effectuez un scan antivirus complet et supprimez les fichiers infectés.
+wrong_answers:
+  - Continuez à utiliser l'ordinateur normalement.
+  - Éteignez l'ordinateur et laissez-le éteint pendant quelques heures.
+  - Supprimez tous les fichiers sur l'ordinateur.
+explanation: |
+  Si vous détectez un virus sur votre ordinateur, vous devriez
+  le déconnecter d'Internet pour empêcher le virus de
+  se propager ou de communiquer avec le pirate. Ensuite, effectuez un
+  scan antivirus complet et supprimez les fichiers infectés.
+reviewed: true

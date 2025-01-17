@@ -1,0 +1,9 @@
+question: Kdo byla hlavní osobností stojící za vznikem PayPalu?
+answer: Peter Thiel
+wrong_answers:
+  - Elon Musk
+  - Marc Andreessen
+  - Mark Zuckerberg
+explanation: |
+  Produkt PayPal byl vyvinut v roce 1999 společností Confinity Inc., kterou v prosinci 1998 v San Franciscu spoluzaložili Peter Thiel a Max Levchin.
+reviewed: false

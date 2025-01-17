@@ -1,0 +1,9 @@
+question: What does depth 0 represent in the hierarchy of HD wallets?
+answer: The master key and the master chain code
+wrong_answers:
+  - The external chain of addresses
+  - The default account
+  - The type of currency
+explanation: |
+  Depth 0 corresponds to the master key and the master chain code, which are the starting points for all derivations in an HD wallet.
+reviewed: false

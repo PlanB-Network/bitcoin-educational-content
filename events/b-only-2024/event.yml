@@ -1,0 +1,23 @@
+- start_date: 2024-11-09 
+  end_date: 2024-11-11
+  address_line_1: Annecy, France
+  address_line_2: 
+  address_line_3: 
+  name: B-only 2024
+  builder: B-only
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: La conférence Bitcoin au coeur des Alpes
+  language: 
+    - fr
+  links:
+    website: https://b-only.org/
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - General
+
+

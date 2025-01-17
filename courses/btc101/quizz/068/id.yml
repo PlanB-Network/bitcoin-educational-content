@@ -1,0 +1,10 @@
+question: Seberapa sering hadiah untuk penambangan dibagi dua?
+answer: Setiap 210.000 blok
+wrong_answers:
+  - Setiap 120.000 blok
+  - Setiap 540.000 blok
+  - Setiap 2.100.000 blok
+explanation: |
+  Hadiah untuk penambangan diprogram untuk dibagi dua setiap 210.000 blok, yang
+  kira-kira setiap empat tahun sekali, sebuah peristiwa yang dikenal sebagai halving.
+reviewed: true

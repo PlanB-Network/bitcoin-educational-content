@@ -1,0 +1,11 @@
+question: Was ist der Zweck der Coin Control-Option in Bitcoin-Wallet-Software?
+
+answer: Um auszuwählen, welche UTXOs als Eingaben für Transaktionen verbraucht werden sollen.
+
+wrong_answers:
+  - UTXOs zu verschlüsseln, um die Sicherheit der Wallet zu erhöhen.
+  - UTXOs aus verdächtigen Quellen zu erkennen und zu blockieren.
+  - Jedes UTXO in der Wallet zu beschriften.
+
+explanation: |
+  Coin Control ist eine Funktion, die in guter Bitcoin-Wallet-Software zu finden ist und Ihnen die Möglichkeit gibt, manuell spezifische UTXOs auszuwählen, die als Eingaben verwendet werden sollen, wenn Sie eine Transaktion durchführen.

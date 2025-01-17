@@ -1,9 +1,0 @@
-question: Qual è un modo per evitare le truffe online?
-answer: Verifica l'identità del sito che stai visitando, in particolare controllando l'estensione e il nome di dominio.
-wrong_answers:
-  - Utilizza reti Wi-Fi pubbliche.
-  - Utilizza siti che non utilizzano il protocollo HTTPS.
-  - Utilizza siti che non mostrano un lucchetto.
-explanation: |
-  Per evitare le truffe online, è fondamentale verificare l'identità del sito che stai visitando. Ciò può essere fatto controllando l'estensione e il nome di dominio del sito.
-reviewed: false

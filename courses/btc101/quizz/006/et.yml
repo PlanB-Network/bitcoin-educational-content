@@ -1,0 +1,12 @@
+question: Mis on peamine eesmärk õppida Bitcoini kasutama?
+answer: Olla oma raha üle kontrolli all.
+wrong_answers:
+  - Saada Bitcoin'i kaevandajaks.
+  - Luua uus Bitcoin'i protokoll.
+  - Reguleerida Bitcoin'i hinda.
+explanation: |
+  Bitcoini kasutamise õppimine on hädavajalik oskus igaühele, kes soovib
+  olla oma raha üle kontrolli all. See võimaldab sul osta ja müüa kaupu ning teenuseid,
+  turvaliselt hoida oma raha digitaalsetes rahakottides ja kasutada seda tehinguteks ilma
+  kolmanda osapoole vajaduseta.
+reviewed: true

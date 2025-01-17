@@ -1,0 +1,13 @@
+question: Was ist ein Schlüsselmerkmal von Bitcoin, das es von Fiatwährungen unterscheidet?
+answer: Seine Geldpolitik wird durch einen allgemeinen Konsens durchgesetzt.
+wrong_answers:
+  - Es kann in unbegrenzten Mengen von Zentralbanken gedruckt werden.
+  - Es wird durch eine physische Ware wie Gold oder Silber gedeckt.
+  - Es wird von einer Zentralbank reguliert.
+explanation: |
+  Aufgrund seiner dezentralisierten und kryptografischen Natur
+  kann Bitcoin nicht gefälscht werden und ist auf 21 Millionen
+  Einheiten begrenzt. Dies ist ein Schlüsselmerkmal, das es von
+  Fiatwährungen unterscheidet, deren Geldpolitik von Zentralbanken
+  geändert werden kann.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Đặc điểm chính của ví DIY (Tự làm) là gì?
+answer: Đó là một giải pháp 100% mã nguồn mở có thể được tạo ra tại nhà để giảm thiểu rủi ro tin cậy đối với các bên khác trong chuỗi sản xuất hoặc tạo ra
+wrong_answers:
+  - Đó là một thiết bị phần cứng để lưu trữ bitcoin
+  - Đó là một phần mềm để đào bitcoin
+  - Đó là một nền tảng để mua và bán bitcoin
+explanation: |
+  Nội dung chương giải thích rằng ví DIY (Tự làm) là các giải pháp 100%
+  mã nguồn mở có thể được tạo ra tại nhà để giảm thiểu rủi ro tin cậy đối với
+  các bên khác trong chuỗi sản xuất hoặc tạo ra.
+reviewed: false

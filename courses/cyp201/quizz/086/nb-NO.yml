@@ -1,0 +1,9 @@
+question: Hvordan beregnes kontrollsummen for SegWit v0-adresser kodet i bech32?
+answer: Ved bruk av BCH-koder
+wrong_answers:
+  - Ved å anvende HASH256 to ganger
+  - Ved å legge til en RIPEMD160-hash
+  - Ved direkte koding i base64
+explanation: |
+  Bech32-adresser bruker BCH-koder for å beregne kontrollsummen.
+reviewed: false

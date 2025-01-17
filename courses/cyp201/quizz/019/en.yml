@@ -1,0 +1,9 @@
+question: What mathematical operation is at the base of the security of elliptic curve cryptography?
+answer: Discrete logarithm problem
+wrong_answers:
+  - Prime number factorization
+  - Calculation of quadratic residues
+  - Discrete cube problem
+explanation: |
+  The security of elliptic curve cryptography is based on the difficulty of solving the discrete logarithm problem on these curves.
+reviewed: false

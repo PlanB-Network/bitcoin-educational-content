@@ -1,0 +1,13 @@
+question: Nhãn được liên kết với ví Bitcoin được lưu trữ như thế nào?
+
+answer: Trên phần mềm ví, lưu trữ cục bộ.
+
+wrong_answers:
+  - Trong một cơ sở dữ liệu tập trung do nhà phát triển kiểm soát.
+  - Trên blockchain Bitcoin thông qua một OP_RETURN.
+  - Chỉ trong RAM trong quá trình thực thi phần mềm.
+
+explanation: |
+  Nhãn được lưu trữ cục bộ bởi phần mềm ví và không bao giờ được truyền qua mạng Bitcoin. Do đó, việc gắn nhãn là một công cụ quản lý cá nhân.
+
+reviewed: false

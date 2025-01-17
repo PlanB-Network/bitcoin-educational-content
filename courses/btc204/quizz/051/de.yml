@@ -1,0 +1,11 @@
+question: Was ist der Nachteil von Silent Payments im Vergleich zu BIP47?
+
+answer: Der Empfänger muss fast die gesamte Blockchain scannen.
+
+wrong_answers:
+  - Sie erzeugen höhere Transaktionsgebühren für den Sender.
+  - Sie begrenzen die Anzahl möglicher Transaktionen.
+  - Sie sind weniger anonym.
+
+explanation: |
+  Als Gegenleistung für den Verzicht auf die Benachrichtigungstransaktion muss der Empfänger alle Bitcoin-Transaktionen, die dem Standard entsprechen, scannen, in einem Versuch, Zahlungen zu finden, die an sie gerichtet sind.

@@ -1,0 +1,8 @@
+question: ¿Cuál es el propósito del índice al derivar claves secundarias?
+answer: Distinguir pares de claves hermanas
+wrong_answers:
+  - Identificar la naturaleza de la clave (pública o privada)
+  - Especificar el nivel de seguridad de la clave
+  - Añadir una capa extra de seguridad
+explanation: |
+  El índice permite diferenciar las claves secundarias derivadas del mismo par de claves padre.

@@ -1,0 +1,9 @@
+question: Đặc điểm chính của lạm phát cực kỳ cao theo định nghĩa của Cagan là gì?
+answer: Tỷ lệ lạm phát hàng tháng cực kỳ cao
+wrong_answers:
+  - Tỷ lệ lạm phát hàng năm cực kỳ cao
+  - Tỷ lệ lạm phát hàng tuần cực kỳ cao
+  - Tỷ lệ lạm phát hàng ngày cực kỳ cao
+explanation: |
+  Theo định nghĩa của Cagan, lạm phát cực kỳ cao được đặc trưng bởi tỷ lệ lạm phát hàng tháng cực kỳ cao, vượt quá 50%.
+reviewed: false

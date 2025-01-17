@@ -11,7 +11,7 @@ objectives:
 
 # Sua primeira aventura com o Bitcoin
 
-Neste curso, vou explicar o Bitcoin em 21 capítulos para que você possa entender essa tecnologia de forma simples e eficaz. O curso é acessível a todos e explora a indústria como um todo: mineradores, carteiras, plataformas de compra/venda, etc...
+Neste curso, vou explicar o Bitcoin em 25 capítulos para que você possa entender essa tecnologia de forma simples e eficaz. O curso é acessível a todos e explora a indústria como um todo: mineradores, carteiras, plataformas de compra/venda, etc...
 
 O curso deve levar cerca de 15 horas. Durante todo o percurso, estão disponíveis pôsteres explicativos e recursos adicionais.
 
@@ -21,7 +21,11 @@ Você não precisa ter conhecimentos específicos para começar, o curso é aces
 
 # Introdução
 
+<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+
 ## Um salto para o desconhecido
+
+<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
 ### Bem-vindo a um novo paradigma monetário e tecnológico.
 
@@ -78,6 +82,8 @@ A importância aqui é entender de forma geral essa nova tecnologia. Esperamos q
 
 ## A pré-história do Bitcoin
 
+<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+
 Antes do termo "Bitcoin" se tornar sinônimo de moeda digital e transformação financeira, uma série de ideias, inovações e movimentos sociais estabeleceram as bases de sua criação. Um dos elementos fundamentais dessa pré-história do Bitcoin é o movimento cypherpunk.
 
 ### Os Cypherpunks: Visionários do Mundo Digital
@@ -121,11 +127,18 @@ A pré-história do Bitcoin está profundamente enraizada no movimento cypherpun
 
 Portanto, o Bitcoin é um protocolo que se insere em longos períodos de tempo e nos faz questionar nossa relação com energia, tempo e moeda. Mas o Bitcoin é uma "verdadeira" moeda? O que é uma moeda? Ela existe em várias formas? É isso que veremos no próximo capítulo.
 
-![A pré-história do Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
+
+Se você deseja explorar mais detalhadamente a história do Bitcoin, recomendo fortemente o nosso curso HIS 201. Nele, você descobrirá as origens e a lenta emergência do Bitcoin, bem como os primórdios de sua história e de sua comunidade. Este curso é totalmente documentado e referenciado, com, é claro, muitas anedotas :
+
+https://planb.network/courses/his201
 
 # A moeda
 
+<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
+
 ## A moeda ao longo da História
+
+<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
 
 A evolução da moeda é um aspecto fascinante da história humana, refletindo a engenhosidade das civilizações ao longo dos tempos para atender às necessidades econômicas em constante evolução.
 
@@ -185,6 +198,8 @@ A Bitcoin, pelo contrário, oferece novas possibilidades. Devido às suas propri
 
 ## Moedas fiduciárias
 
+<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
+
 "Aqueles que não aprendem com a história estão condenados a repetir os mesmos erros", disse George Santayana. Uma verdade que ressoa particularmente quando falamos do atual sistema monetário.
 
 ### Fiduciário = confiança
@@ -230,7 +245,13 @@ Ao mesmo tempo, a emergência das moedas digitais dos bancos centrais, ou CBDC, 
 
 ![imagem](assets/pt/chapter2/0.webp)
 
+Se você deseja aprender mais sobre sofismas econômicos e liberdade, convido-o a conhecer nosso curso ECO 102. Este curso traça a vida e as ideias de Frédéric Bastiat, um pensador francês do século XIX que, sem dúvida, teria apreciado o surgimento do Bitcoin:
+
+https://planb.network/courses/eco102
+
 ## As hiperinflações
+
+<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
 A hiperinflação é um fenômeno monetário próprio das moedas fiduciárias. Caracteriza-se pela perda completa da confiança em uma moeda e pelo aumento drástico da inflação através da impressão monetária pelas autoridades. Como resultado, as economias acumuladas pelos indivíduos podem se dissipar em um curto período de tempo, levando o país à beira do abismo econômico, social e político.
 
@@ -280,7 +301,7 @@ A resolução de uma crise de hiperinflação muitas vezes requer mudanças radi
 
   A Alemanha havia tomado emprestado enormes quantidades de dinheiro para financiar o esforço de guerra e não apenas a Alemanha não venceu a guerra, mas também teve que pagar bilhões de dólares em reparações. O mês com a maior inflação foi outubro de 1923, atingindo 29.500%, ou seja, uma inflação de 20,9% ao dia. Os preços dobravam a cada 3,7 dias!
 
- A história conta que os empregados de mesa dos restaurantes tinham de anunciar os preços das ementas de 30 em 30 minutos para acompanharem a inflação. A moeda alemã tinha-se tornado tão inútil que alguns cidadãos preferiam queimar o seu papel-moeda em vez de madeira, porque era mais barato.
+A história conta que os empregados de mesa dos restaurantes tinham de anunciar os preços das ementas de 30 em 30 minutos para acompanharem a inflação. A moeda alemã tinha-se tornado tão inútil que alguns cidadãos preferiam queimar o seu papel-moeda em vez de madeira, porque era mais barato.
 
 ![image](assets/pt/chapter3/5.webp)
 
@@ -310,7 +331,13 @@ Em conclusão, a hiperinflação tem o efeito de corroer rapidamente o valor da 
 
 Une moeda que se base em uma instituição financeira de confiança de terceiros acaba sendo, na prática e a longo prazo, uma moeda defeituosa, pois é incapaz de garantir o poder de compra ou preservar as economias.
 
+Para se aprofundar no tema das hiperinflacões, recomendo o curso ECO 204 de David St-Onge. Nele você aprenderá o que são os ciclos hiperinflacionários e quais são seus reais impactos em nossas vidas. Você também descobrirá as semelhanças entre esses ciclos e, acima de tudo, como se proteger deles:
+
+https://planb.network/courses/eco204
+
 ## 21 milhões de bitcoins
+
+<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
 
 ### A política monetária do Bitcoin
 
@@ -350,7 +377,6 @@ Os mineradores, que realizam essa tarefa, são recompensados com a emissão de n
 | 18                | 3.780.000       | 0,00019073486328125 BTC          | 20.999.919,892 BTC                             |
 | 19                | 3.990.000       | 0,000095367431640625 BTC         | 20.999.959,946 BTC                             |
 | 20                | 4.200.000       | 0,0000476837158203125 BTC        | 20.999.979,973 BTC                             |
-
 
 Voltaremos em detalhes sobre os mineradores no capítulo de mineração.
 
@@ -405,7 +431,11 @@ Agora que estabelecemos as diferenças entre o Bitcoin e as moedas fiduciárias,
 
 # As carteiras de Bitcoin
 
+<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
+
 ## O que são as carteiras de Bitcoin?
+
+<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
 Nesta seção 2, vamos explorar o armazenamento e a segurança dos Bitcoins nas carteiras. Isso permitirá que você entenda melhor onde estão esses famosos Bitcoins e como interagir com eles!
 
@@ -425,7 +455,7 @@ Uma carteira pode ser um software em seu computador, um aplicativo em seu smartp
 
 ### Como funciona uma carteira de bitcoin
 
-Seja o seu "banqueiro" de bitcoin ou você mesmo, em geral, a grande maioria das carteiras de bitcoin funciona com uma tecnologia semelhante, a criptografia assimétrica, e, portanto, um sistema de par de chaves: uma chave privada para receber e uma chave pública para gastar.
+Seja o seu "banqueiro" de bitcoin ou você mesmo, em geral, a grande maioria das carteiras de bitcoin funciona com uma tecnologia semelhante, a criptografia assimétrica, e, portanto, um sistema de par de chaves: uma chave privada para gastar e uma chave pública para receber.
 
 - Chave privada
   Ao inicializar uma carteira, uma frase de recuperação secreta (chave privada) é gerada e fornecida a você na forma de 24 palavras.
@@ -461,7 +491,13 @@ Portanto, a probabilidade de sua carteira Bitcoin ser hackeada é astronomicamen
 
 Escolha uma carteira que se adapte às suas necessidades e uso. Tutoriais detalhados sobre o uso e segurança de diferentes carteiras estão disponíveis na [secção de tutoriais da nossa universidade](https://planb.network/tutorials/wallet).
 
+Se durante sua jornada na toca do coelho você quiser saber mais sobre a construção de uma carteira Bitcoin, desde a entropia até os endereços de recebimento, recomendo o curso CYP 201 dedicado a este tema:
+
+https://planb.network/courses/cyp201
+
 ## Segurança e Carteiras Bitcoin
+
+<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
 Traduzido com a versão gratuita do tradutor - www.DeepL.com/Translator
 
@@ -490,11 +526,27 @@ Vamos tentar aqui estabelecer vários níveis de segurança para os seus bitcoin
 
 - **Nível 1**, você está usando uma carteira Bitcoin no seu telefone ou computador, na qual você é o único detentor dos seus bitcoins. Você pode realizar suas transações com facilidade. Cuidado, é crucial fazer um backup da frase mnemônica para ter acesso aos seus fundos novamente em caso de perda do seu telefone ou computador. Isso é frequentemente chamado de "hot wallet" porque a chave privada é armazenada em um dispositivo com acesso à internet.
 
+Por exemplo, você pode usar o Sparrow Wallet como uma carteira quente:
+
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+
 - **Nível 2**, você está usando uma carteira física e protegeu sua lista de 12 ou 24 palavras. Para realizar uma transação, você sempre precisará assinar com o seu dispositivo. Isso torna seus fundos menos acessíveis no dia a dia. Isso é frequentemente chamado de "Cold Wallet" porque suas chaves são armazenadas em um dispositivo que não está conectado à internet.
+
+Por exemplo, você pode usar uma Ledger, um Satochip ou um Tapsigner:
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/pt/chapter6/4.webp)
 
 - **Nível 3**, você está usando uma carteira de nível 1 ou 2, mas com uma frase de segurança adicional. Cuidado, agora você precisa fazer um backup da lista de 12 ou 24 palavras **e** da sua frase de segurança. Idealmente, essas duas informações são armazenadas em dois lugares diferentes.
+
+Para saber mais sobre o uso e funcionamento da passphrase BIP39:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/pt/chapter6/5.webp)
 
@@ -513,6 +565,8 @@ Em conclusão, a posse direta de seus Bitcoins é um elemento essencial para gar
 Agora que temos isso em mente, vamos ver na próxima seção os passos para criar uma carteira Bitcoin. No entanto, se você quiser explorar mais sobre o assunto da segurança, você pode ler este [artigo do DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
 ## Configurando uma carteira
+
+<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
 
 A segurança dos seus Bitcoins é de extrema importância e um simples erro pode ter consequências caras. É por isso que agora vamos ver as melhores práticas ao criar uma nova carteira Bitcoin.
 
@@ -547,7 +601,13 @@ As carteiras "frias" geralmente têm essas listas de palavras, assim como as car
 
 **ATENÇÃO: A ausência de uma lista de 24 palavras deve te alertar.**
 
+Se você quiser depois descobrir, passo a passo, como configurar sua própria carteira e obter seus primeiros bitcoins, recomendo também este outro curso:
+
+https://planb.network/courses/btc102
+
 ## Passar no teste do tempo
+
+<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
 A segurança é uma preocupação importante no ecossistema do Bitcoin. De fato, como qualquer forma de riqueza, seus bitcoins devem ser protegidos contra perdas, roubos e deterioração, especialmente a longo prazo. A segurança dos seus bitcoins requer algum conhecimento técnico e consciência dos riscos envolvidos, o que nos leva a discutir duas estratégias principais: gravar seus bitcoins em aço e criar um plano de herança.
 
@@ -589,7 +649,11 @@ Agora que temos uma base sobre carteiras de bitcoins e boas práticas para sua s
 
 # Aspectos técnicos do Bitcoin.
 
+<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
+
 ## Lançamento do Bitcoin
+
+<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
 
 ### Vamos começar com um pouco de História.
 
@@ -642,6 +706,8 @@ Agora que temos alguns elementos de contexto, vamos ver como funciona uma transa
 
 ## Transações Bitcoin
 
+<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+
 Uma transação Bitcoin é simplesmente uma transferência de propriedade de bitcoins, usando um endereço bitcoin. Vamos considerar, por exemplo, dois protagonistas: Alice e Bob. Alice quer adquirir bitcoins, enquanto Bob já os possui.
 
 ### Etapa 1 - Criação da transação através da carteira
@@ -686,9 +752,7 @@ Neste ponto, a transação é considerada válida, o minerador irá propagar o n
 
 > Atenção: Mesmo que Alice perceba que recebeu bitcoins em um de seus endereços, é recomendado considerar a transação como imutável apenas quando ela possui 6 confirmações. Isso significa que outros 6 blocos foram minerados acima do bloco em que a transação de Bob está localizada. Em outras palavras, quanto mais antiga a transação na blockchain, mais imutável ela é.
 
-### Pequeno resumo em pôster!
 
-![Explicação de uma transação](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
 ### Para que tudo isso?
 
@@ -703,6 +767,8 @@ De fato, para que a rede Bitcoin seja completamente destruída, seria necessári
 Vamos dar uma olhada mais detalhada no funcionamento de um nó Bitcoin.
 
 ## Os nós Bitcoin
+
+<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
 Os nós são um elemento fundamental da arquitetura da rede Bitcoin. Eles desempenham várias funções cruciais:
 
@@ -750,11 +816,11 @@ Essa situação não é tão hipotética assim, pois o ano de 2017 foi marcado p
 
 Após essa vitória, os nós ativaram uma atualização chamada SegWit, abrindo caminho para a implementação da Lightning Network, uma rede de pagamento instantâneo do Bitcoin usando a blockchain do Bitcoin. Essa situação demonstra que os usuários, por meio de seus nós, possuem um poder real dentro do Bitcoin, permitindo que enfrentem as grandes instituições.
 
-### Resumo em pôster!
 
-![os nós do Bitcoin](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Os mineradores
+
+<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 > Os mineradores servem para garantir a segurança da rede e adicionar transações aos blocos. Eles usam eletricidade por meio de máquinas ASIC para resolver a prova de trabalho do Bitcoin.
 
@@ -822,9 +888,14 @@ Mesmo no caso de um ataque de 51%, ou seja, quando um agente possui mais da meta
 
 A teoria dos jogos aplicada ao Bitcoin afasta os mineradores desonestos. Os mineradores usam máquinas ASIC para minerar e recebem uma recompensa em caso de sucesso. Além disso, eles frequentemente se agrupam em pools de mineração para compartilhar seu poder de computação e obter recompensas menores, mas mais regulares. A mineração de Bitcoin é um processo com alto custo energético, mas essencial para o funcionamento e segurança da rede Bitcoin. A prova de trabalho e a blockchain resolvem o problema de gastos duplos e garantem a veracidade das informações sem a necessidade de terceiros confiáveis. O gasto energético é necessário para produzir a informação, mas a verificação das informações tem um custo negligenciável. Essa assimetria garante a segurança da rede. Portanto, é economicamente mais viável seguir as regras de consenso do que violá-las.
 
-![os mineradores](assets/posters/fr/13_explication_des_mineurs_crop.webp)
+
+Se você deseja se aprofundar no tema específico da mineração de Bitcoin, pode consultar nosso curso MIN 201. Nele, você descobrirá o funcionamento e o papel do Proof-of-Work, assim como os mecanismos da indústria de mineração. Explicamos também como transformar um ASIC em um aquecedor, para minerar seus primeiros satoshis enquanto aquece sua casa!
+
+https://planb.network/courses/min201
 
 ## Bitcoin e ecologia
+
+<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
 Acabamos de ver na seção anterior que a segurança do protocolo Bitcoin se baseia em um alto custo energético para produzir um registro público de transações sem a necessidade de terceiros confiáveis. O custo energético total é frequentemente comparado ao consumo elétrico de um pequeno país. Mas essa comparação faz sentido? É relevante para entender as razões por trás de um custo tão alto?
 
@@ -868,7 +939,6 @@ A tecnologia do Bitcoin é frequentemente mal compreendida, e as críticas em re
 
 > Siga um dos lemas do Bitcoin: Não confie, verifique por si mesmo!
 
-![Bitcoin & meio ambiente](assets/posters/fr/14_minage_et_ecologie_crop.webp)
 
 ### Breve resumo dos aspectos técnicos do Bitcoin
 
@@ -882,7 +952,11 @@ Assim, o protocolo Bitcoin é um sistema monetário imutável e imparável, pois
 
 # Como obter Bitcoin?
 
+<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
+
 ## Bitcoin nunca dorme!
+
+<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
 
 O preço do Bitcoin é frequentemente caracterizado por uma volatilidade significativa. Seu valor pode flutuar consideravelmente com base nas variações do mercado e nas fases de mercado em alta (bull market) e mercado em baixa (bear market). Isso é verdade em 100% dos mercados financeiros, incluindo o bitcoin.
 
@@ -938,6 +1012,8 @@ Hoje, em 2023, o Bitcoin continua a sobreviver e a crescer cada vez mais, se int
 
 ## Obter bitcoins trabalhando
 
+<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+
 ### Uma economia paralela está se desenvolvendo
 
 O Bitcoin pode ser visto como uma economia paralela às moedas fiduciárias. Isso significa que é possível vender bens ou serviços e ser pago em Bitcoin. As transações podem ser feitas diretamente em Bitcoin, sem a necessidade de passar por uma plataforma de câmbio, apenas de carteira Bitcoin para carteira Bitcoin.
@@ -963,10 +1039,20 @@ Para aceitar o Bitcoin, é necessário estudar as diferentes soluções disponí
 Vamos abordar esse assunto em detalhes em outro treinamento, mas para simplificar, podemos considerar várias categorias de negócios e, portanto, soluções relacionadas:
 
 - Solução online simples: OpenNode
-- Solução para comerciantes amadores: Swiss Bitcoin Pay
-- Solução para grandes estruturas ou entusiastas do Bitcoin: BTCpay Server
 
-# Poupar com Bitcoin
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
+- Solução para comerciantes amadores: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
+- Solução para grandes estruturas ou bitcoiners apaixonados: BTCpay Server
+
+https://planb.network/courses/btc305
+
+## Poupar com Bitcoin
+
+<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
 
 ### Aviso antes de começar!
 
@@ -977,7 +1063,7 @@ Bitcoin é se tornou um ativo financeiro importante, principalmente devido à su
 - O desempenho passado não garante o desempenho futuro.
 - Entre em contato com seu consultor financeiro, se necessário.
 
-> DécouvreBitcoin (Rogzy) não oferece consultoria de investimento e nada do que é declarado aqui deve ser considerado como tal.
+> Plan ₿ Network não oferece consultoria de investimento e nada do que é declarado aqui deve ser considerado como tal.
 
 ### Mini Check-list antes de dar o grande salto
 
@@ -1026,7 +1112,7 @@ Para investimentos em grande escala, são recomendadas plataformas regulamentada
 
 A sua utilização é simples e acessível a todos:
 
-1. Criação de uma conta KYC/*
+1. Criação de uma conta KYC/\*
 2. Transferência bancária para a sua conta
 3. Compra de bitcoin
 4. Levantamento de bitcoins para a sua carteira
@@ -1055,6 +1141,8 @@ image](assets/pt/chapter15/3.webp)
 
 ## Hyper-bitcoinisation
 
+<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+
 ### A corrida maluca está apenas começando!
 
 Como toda nova tecnologia, a adoção do Bitcoin segue uma curva em S. Já ultrapassamos a era dos primeiros adotantes e os indicadores apontam para uma democratização completa do Bitcoin. É uma tecnologia viral que não pode ser interrompida. El Salvador fez a aposta audaciosa de adotar o Bitcoin de forma total, declarando-o como uma moeda de curso legal. No entanto, cada país reage de forma diferente a essa tecnologia. Alguns a proibiram e criminalizaram seu uso, adicionando assim à complexidade da adoção do Bitcoin de acordo com culturas, épocas e nações.
@@ -1077,7 +1165,11 @@ Si você deseja expandir seus conhecimentos sobre o Bitcoin, muitos autores, pen
 
 # O futuro do Bitcoin: A Lightning Network
 
+<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
+
 ## Breve introdução à Lightning Network
+
+<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
 Agora que temos as bases do protocolo Bitcoin, vamos apresentar uma rede de pagamento que utiliza o protocolo Bitcoin para permitir transações em velocidade relâmpago. Estamos falando, é claro, da Lightning Network!
 
@@ -1113,7 +1205,13 @@ As transações são seguras por criptografia e indiretamente pela energia consu
 
 Em resumo, a Lightning Network é uma tentativa promissora de implantar um sistema de pagamento eficiente para transações em bitcoin. Já existem muitas carteiras Lightning que você pode descobrir em nossa seção de tutoriais ou por meio de nossos cursos sobre a Lightning Network.
 
+Se você deseja ir além desta introdução e entender todos os detalhes da Lightning Network, recomendo este excelente curso de Fanis Michalakis sobre o tema:
+
+https://planb.network/courses/lnp201
+
 ## Casos de uso da Lightning Network
+
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
 Comme acabamos de ver, o protocolo Bitcoin, embora revolucionário, enfrenta desafios significativos em termos de escalabilidade, a fim de realizar todas as nossas transações diárias. Para resolver esses problemas, uma solução de segunda camada conhecida como Lightning Network foi proposta em 2016 e hoje possui várias implementações diferentes, mas todas interoperáveis:
 
@@ -1146,9 +1244,10 @@ Em conclusão, a Lightning Network abre uma infinidade de casos de uso empolgant
 
 ## Pílula azul ou pílula vermelha?
 
+<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+
 Como Morpheus disse a Neo: "Se você tomar a pílula azul, a história acaba, você acorda na sua cama e acredita no que quiser. Se você tomar a pílula vermelha, fica no País das Maravilhas e eu te mostro até onde vai a toca do coelho." Você está pronto para explorar a toca do coelho do Bitcoin? Tome cuidado, pois você pode encontrar sua liberdade financeira!
 
-![pílula vermelha](assets/posters/fr/2_pilluleorange.webp)
 
 ### O futuro tecnológico e suas implicações
 
@@ -1207,27 +1306,21 @@ Bitcoin não pode mais ser interrompido e não pode mais ser censurado. É uma r
 
 Mudar o sistema financeiro requer mudar a moeda. Satoshi criou o Bitcoin em 2008 como uma tentativa de suprir isso. Ter acesso a dinheiro fácil e "mágico" corrompe. Portanto, o Bitcoin é uma alternativa para construir um novo sistema monetário neutro. O Bitcoin permite a emancipação do sistema bancário. É um fenômeno social que nos leva a participar de uma revolução pacífica. Você está pronto para se juntar a ela?
 
-## Agradecimentos e continue a cavar a toca do coelho
+# Conclusão
 
-### Vá mais fundo
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-Parabéns por concluir este curso BTC 101! Espero sinceramente que você tenha gostado e que tenha aberto portas para você. Sua descoberta do bitcoin está apenas começando e convido você a explorar todos os outros cursos disponíveis na universidade.
+## Avaliações & Notas
 
-- [BTC 102](https://planb.network/courses/btc102) irá ajudá-lo a criar seu plano bitcoin
-- [LN 201](https://planb.network/courses/ln201) e [LN 202](https://planb.network/courses/ln202) permitirão que você descubra a Lightning Network, uma rede de pagamento de segunda camada
-- [ECON 201](https://planb.network/courses/econ201) abordará a economia austríaca
-- [SECU 101](https://planb.network/courses/secu101) permitirá que você atualize sua segurança digital
-- [MINAGE 201](https://planb.network/courses/min201) para saber mais sobre mineração
-- e muitos outros...
+<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<isCourseReview>true</isCourseReview>
 
-## Apoie-nos
+## Exame Final
 
-Este curso, assim como todo o conteúdo presente nesta universidade, foi oferecido gratuitamente pela nossa comunidade. Para nos apoiar, você pode compartilhá-lo com outras pessoas, tornar-se membro da universidade e até mesmo contribuir para o seu desenvolvimento através do [nosso GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data). Em nome de toda a equipe, obrigado!
+<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<isCourseExam>true</isCourseExam>
 
-## Avalie o curso
+## Conclusão
 
-Um sistema de avaliação para o curso será em breve integrado a esta nova plataforma de E-learning! Enquanto isso, muito obrigado por ter acompanhado o curso e se você gostou, pense em compartilhá-lo com outras pessoas.
-
-Um enorme agradecimento aos nossos Patreon, membros e doadores pelo seu apoio financeiro, obrigado às pessoas que compartilham e obrigado àqueles que tornaram este curso possível: Rachel, Muriel, a equipe do StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, os corretores e revisores.
-
-Até breve!
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

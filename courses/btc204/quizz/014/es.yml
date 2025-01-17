@@ -1,0 +1,9 @@
+question: ¿Cuál es el modelo de privacidad del sistema Bitcoin?
+answer: Las transacciones son públicas, pero la identidad de los usuarios no se conoce.
+wrong_answers:
+  - Solo Satoshi Nakamoto tiene acceso a los detalles de las transacciones.
+  - Las transacciones están cifradas e invisibles en la red.
+  - Solo los gobiernos tienen acceso a los detalles de las transacciones.
+explanation: |
+  En el caso de Bitcoin, dado que el flujo de información no puede interrumpirse entre las transacciones y el dominio público, el modelo de privacidad se basa en la separación entre la identidad del usuario y las transacciones.
+reviewed: false

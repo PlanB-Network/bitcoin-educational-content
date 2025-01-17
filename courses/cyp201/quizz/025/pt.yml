@@ -1,0 +1,9 @@
+question: Qual propriedade de Schnorr permite combinar múltiplas chaves públicas em uma só?
+answer: Agregação de Chaves
+wrong_answers:
+  - Verificação em Lote
+  - Maleabilidade
+  - Compactação de Assinatura
+explanation: |
+  Schnorr permite a agregação de múltiplas chaves públicas em uma única chave.
+reviewed: false

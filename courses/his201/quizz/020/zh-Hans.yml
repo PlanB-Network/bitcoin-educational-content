@@ -1,0 +1,8 @@
+question: 中本聪在比特币最初设计期间的主要灵感来源是什么？
+answer: eCash（David Chaum）
+wrong_answers:
+  - b-money（魏戴）
+  - bit gold（Nick Szabo）
+  - RPOW（Hal Finney）
+explanation: |
+  尽管b-money、bit gold和RPOW的模型与比特币有很大的相似性，但它们并不是中本聪的主要灵感来源，因为在2008年8月之前，他根本不知道这些模型的存在。

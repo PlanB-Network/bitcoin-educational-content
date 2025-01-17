@@ -1,9 +1,0 @@
-question: Qual é uma desvantagem da solução P2P da HodlHodl?
-answer: O endereço de e-mail do usuário e a identidade digital são armazenados pela HodlHodl.
-wrong_answers:
-  - Não facilita a compra e venda de Bitcoin.
-  - Requer a criação de uma conta para operar.
-  - Não oferece uma ampla variedade de possibilidades de troca.
-explanation: |
-  De acordo com o capítulo, uma das desvantagens da HodlHodl é que o endereço de e-mail do usuário e a identidade digital são armazenados pela HodlHodl.
-reviewed: false

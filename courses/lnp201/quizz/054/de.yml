@@ -1,0 +1,8 @@
+question: Welche Art von Liquidität muss ein Verkäufer im Lightning-Netzwerk hauptsächlich verwalten, um Zahlungen akzeptieren zu können?
+answer: Eingehende Liquidität
+wrong_answers:
+  - Ausgehende Liquidität
+  - Eine hohe Gesamtkapazität des Kanals
+  - Ein hohes Guthaben on-chain
+explanation: |
+  Um Zahlungen zu erhalten, muss ein Verkäufer über eingehende Liquidität verfügen, was bedeutet, dass Mittel auf der gegenüberliegenden Seite des Kanals verfügbar sein müssen, damit sie Zahlungen akzeptieren können.

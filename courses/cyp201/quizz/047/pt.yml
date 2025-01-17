@@ -1,0 +1,9 @@
+question: Qual é o tamanho em bits de um segmento binário usado para criar cada palavra mnemônica?
+answer: 11 bits
+wrong_answers:
+  - 8 bits
+  - 16 bits
+  - 10 bits
+explanation: |
+  Cada segmento de 11 bits corresponde a uma palavra da lista padronizada de 2048 palavras no BIP39.
+reviewed: false

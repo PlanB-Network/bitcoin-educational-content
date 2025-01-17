@@ -1,0 +1,9 @@
+question: Se osserviamo una transazione con 6 UTXO come input e solo un UTXO come output, quale interpretazione possiamo ragionevolmente dedurre?
+answer: Tutti gli UTXO negli input appartenevano allo stesso utente, e questo utente è ancora in possesso dell'UTXO in output.
+wrong_answers:
+  - Gli UTXO negli input provenivano da diversi utenti che collaboravano per una singola transazione.
+  - Tutti gli UTXO negli input appartenevano allo stesso utente, e quello in output ora appartiene a un altro utente.
+  - Gli UTXO negli input provenivano da 2 utenti diversi, e quello in output appartiene ancora a questi 2 utenti.
+explanation: |
+  Siamo probabilmente in presenza di una consolidazione. Pertanto, c'è una proprietà comune degli input e dell'output.
+reviewed: false

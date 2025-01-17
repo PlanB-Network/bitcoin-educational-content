@@ -1,9 +1,0 @@
-question: Wie stellt das Bitcoin-Protokoll sicher, dass die durchschnittliche Zeit zwischen zwei Blöcken konstant bleibt?
-answer: Die Schwierigkeit, einen gültigen Hash zu finden, wird alle 2016 Blöcke angepasst.
-wrong_answers:
-  - Die Anzahl der Miner wird reguliert.
-  - Die Größe der Blöcke wird angepasst.
-  - Die Belohnung für das Finden eines gültigen Hashes wird erhöht.
-explanation: |
-  Das Bitcoin-Protokoll stellt sicher, dass die durchschnittliche Zeit zwischen zwei Blöcken konstant bleibt, indem die Schwierigkeit, einen gültigen Hash zu finden, alle 2016 Blöcke angepasst wird. Dies geschieht unabhängig von der Anzahl der Miner und ihrer Rechenleistung.
-reviewed: false

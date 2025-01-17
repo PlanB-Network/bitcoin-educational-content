@@ -1,0 +1,9 @@
+question: Was ist der Hauptnachteil von Geldautomaten (ATM)?
+answer: Oft sehr hohe Gebühren.
+wrong_answers:
+  - Notwendigkeit einer schnellen Internetverbindung.
+  - Mangel an Unterstützung für lokale Währungen.
+  - Transaktionssicherheit nicht garantiert.
+explanation: |
+  Der Kauf von Bitcoins über Geldautomaten ist eine interessante Lösung für die Privatsphäre der Nutzer, aber ihr Hauptnachteil ist, dass sie oft überhöhte Gebühren verlangen.
+reviewed: false

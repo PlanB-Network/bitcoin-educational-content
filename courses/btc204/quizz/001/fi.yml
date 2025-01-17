@@ -1,0 +1,9 @@
+question: Mikä on UTXO Bitcoinissa?
+answer: Bitcoinin osa, jota ei ole vielä käytetty.
+wrong_answers:
+  - Bitcoin-osoite varojen vastaanottamiseen.
+  - Erityinen tyyppi Bitcoin-lompakkoa.
+  - Salausalgoritmi Bitcoinille.
+explanation: |
+  UTXO on käyttämätön siirtotapahtuman tuotos, joten se on käytännössä pala bitcoinia.
+reviewed: false

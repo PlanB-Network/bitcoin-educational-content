@@ -1,0 +1,9 @@
+question: 2011年6月にビットコインが到達した最高価格はいくらでしたか？
+answer: $32
+wrong_answers:
+  - $1
+  - $3
+  - $8
+explanation: |
+  6月8日に、ビットコインの価格はMt. Goxで歴史的な高値$32に達しました。しかし、その後すぐに価格は急落しました。
+reviewed: false

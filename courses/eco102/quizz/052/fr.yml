@@ -1,0 +1,9 @@
+question: Quelle conclusion Bastiat tire-t-il de l'impact de la destruction sur l'économie ?
+answer: Elle est néfaste pour l'économie
+wrong_answers:
+  - Elle est bénéfique pour l'économie
+  - Elle est neutre pour l'économie
+  - Elle dépend de la situation économique
+explanation: |
+  Bastiat démontre que la destruction est un fardeau économique car elle détourne des ressources précieuses et ne crée aucune valeur ajoutée.
+reviewed: false

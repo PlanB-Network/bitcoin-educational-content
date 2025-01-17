@@ -1,0 +1,63 @@
+id: 2e124c6b-0357-4560-acf4-23c09cc49482
+chapterId: 3b23b0ae-41a7-53b0-bc48-7343a64f28bc
+difficulty: intermediate
+duration: 30
+author: LookingGlass
+tags:
+  - Bitcoin Storage
+  - Self-Custody
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2766
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2633
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1316
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2699
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2766
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2633
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2699
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2899
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2633
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2899

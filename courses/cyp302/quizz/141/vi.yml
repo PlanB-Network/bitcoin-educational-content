@@ -1,0 +1,11 @@
+question: Tại sao việc phân tích một tích của hai số nguyên tố lớn được coi là một vấn đề khó khăn?
+
+answer: Bởi vì nó đòi hỏi một lượng thời gian tính toán cấm kỵ ngay cả đối với siêu máy tính.
+
+wrong_answers:
+  - Bởi vì nó đòi hỏi một khóa công khai cho mỗi yếu tố.
+  - Bởi vì nó chỉ bao gồm các phép toán cơ bản trong tính toán.
+  - Bởi vì nó phụ thuộc vào phép nhân và không phải phép chia.
+
+explanation:
+  Việc phân tích một số lớn, tích của hai số nguyên tố lớn, đòi hỏi sức mạnh tính toán vượt quá khả năng của các máy tính hiện tại, làm cho nhiệm vụ này trở nên thực tế không khả thi.

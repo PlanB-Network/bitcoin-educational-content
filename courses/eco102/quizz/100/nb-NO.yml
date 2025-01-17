@@ -1,0 +1,8 @@
+question: Ifølge Bastiat, hvem opprettholder statens livsgrunnlag?
+answer: Det er borgerne som opprettholder staten
+wrong_answers:
+  - Det er borgerne som lever av staten
+  - Det er staten som opprettholder nasjonen
+  - Det er interessegruppene som opprettholder staten
+explanation: |
+  Bastiat hevder at det er borgerne som støtter staten gjennom verdiskaping og ikke omvendt.

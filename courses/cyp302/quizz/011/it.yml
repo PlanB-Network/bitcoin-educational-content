@@ -1,0 +1,9 @@
+question: Cosa facilita l'intercettazione delle comunicazioni locali da parte di aggressori poco equipaggiati?
+answer: L'uso delle onde radio per connessioni wireless
+wrong_answers:
+  - Instradare tutti i dati attraverso satelliti
+  - Usare solo cavi coassiali per la trasmissione dei dati
+  - Inviare dati solo tramite fibre ottiche
+explanation: |
+  Le connessioni wireless, che trasmettono dati tramite onde radio, rendono più facile l'intercettazione per gli aggressori, in quanto non richiedono l'accesso fisico alla rete.
+reviewed: false

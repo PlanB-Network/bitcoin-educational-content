@@ -1,0 +1,11 @@
+question: Jaká byla nejvyšší hodnota bankovky v Brazílii před její poslední redenominací v roce 1994?
+answer: 500,000
+wrong_answers:
+  - 1,000,000
+  - 250,000
+  - 100,000
+explanation: |
+  Nejvyšší hodnota bankovky v Brazílii dosáhla 500,000, a poslední
+
+  redenominace v roce 1994 byla provedena v poměru 2,750 ku 1.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Pourquoi l'argument selon lequel le bitcoin ne vaut rien parce qu'il n'est adossé à rien est-il erroné ?
+answer: La valeur est subjective et basée sur les croyances et expériences des gens.
+wrong_answers:
+  - Le bitcoin est adossé à l'or, ce qui lui confère une valeur intrinsèque.
+  - La valeur du bitcoin est déterminée par sa rareté et ses caractéristiques de sécurité.
+  - La valeur du bitcoin repose sur son acceptation par les gouvernements et les banques.
+explanation: |
+  La valeur est subjective et réside dans l'œil de celui qui regarde. Le bitcoin est précieux
+  parce que les gens croient qu'il l'est, tout comme une œuvre d'art peut avoir de la valeur malgré
+  le fait qu'elle soit faite de toile et de peinture. L'argument selon lequel une monnaie doit être adossée à 
+  quelque chose de valeur est inexact, car la valeur des monnaies fiduciaires comme le dollar américain repose sur la confiance et la croyance également.
+reviewed: true

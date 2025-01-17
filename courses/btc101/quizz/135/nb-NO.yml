@@ -1,0 +1,11 @@
+question: Hva er betydningen av vanskelighetsjusteringen i Bitcoin-nettverket?
+answer: Den sikrer at en blokk blir lagt til omtrent hvert tiende minutt.
+wrong_answers:
+  - Den bestemmer prisen på Bitcoin.
+  - Den regulerer antallet Bitcoins som kan utvinnes.
+  - Den bestemmer størrelsen på en blokk.
+explanation: >-
+  Vanskelighetsjusteringen i Bitcoin-nettverket sikrer at en blokk
+  blir lagt til omtrent hvert tiende minutt. Dette er en del av protokollreglene
+  i Bitcoin-nettverket.
+reviewed: false

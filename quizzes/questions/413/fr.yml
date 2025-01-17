@@ -1,9 +1,0 @@
-question: Que représentent les constantes K dans le traitement de la fonction SHA-256 ?
-answer: Les 32 premiers bits des parties décimales des racines cubiques des 64 premiers nombres premiers.
-wrong_answers:
-  - Les 32 premiers bits des parties décimales des racines carrées des 64 premiers nombres premiers.
-  - Les 32 premiers bits des parties décimales des racines cubiques des 8 premiers nombres premiers.
-  - Les 32 premiers bits des parties décimales des racines carrées des 8 premiers nombres premiers.
-explanation: |
-  Dans le traitement de la fonction SHA-256, les constantes K, de 0 à 63, représentent les 32 premiers bits des parties décimales des racines cubiques des 64 premiers nombres premiers. Ils sont utilisés comme ingrédients de base dans la recette cryptographique.
-reviewed: false

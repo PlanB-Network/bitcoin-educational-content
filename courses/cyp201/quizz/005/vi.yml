@@ -1,0 +1,9 @@
+question: Tại sao tính không thể đảo ngược được đảm bảo trong SHA256?
+answer: Các thao tác được sử dụng loại bỏ thông tin và chỉ một chiều
+wrong_answers:
+  - Tin nhắn được mã hóa trước khi băm
+  - Các bit được sắp xếp một cách ngẫu nhiên
+  - Mỗi băm được lưu trữ trong một cơ sở dữ liệu
+explanation: |
+  Các thao tác như ShR và XOR khiến việc quay trở lại trạng thái ban đầu trở nên không thể, đảm bảo tính không thể đảo ngược.
+reviewed: false

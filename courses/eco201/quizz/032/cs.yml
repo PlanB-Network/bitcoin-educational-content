@@ -1,0 +1,12 @@
+question: Jaký je konečný účel ekonomické činnosti podle Carla Mengera?
+answer: Konečným účelem ekonomické činnosti je spotřeba.
+wrong_answers:
+  - Konečným účelem ekonomické činnosti je produkce.
+  - Konečným účelem ekonomické činnosti jsou úspory.
+  - Konečným účelem ekonomické činnosti jsou investice.
+explanation: |
+  Podle Carla Mengera jsou zboží považována za ekonomická zboží (hodnocená)
+  protože slouží jako prostředky k dosažení cílů vybraných a hodnocených jednotlivci. Proto
+  pro Mengera je výchozím bodem ekonomické analýzy spotřební zboží, nebo konečné
+  zboží, jelikož představují konečný účel ekonomické činnosti.
+reviewed: false

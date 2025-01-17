@@ -1,0 +1,8 @@
+question: 哪种交易模型使得CIOH的使用变得无效？
+answer: 协作交易。
+wrong_answers:
+  - 简单支付。
+  - 合并。
+  - 清扫。
+explanation:
+  CIOH不适用于采用协作模式的交易，因为在这种特定情况下，输入必然来自不同的实体。

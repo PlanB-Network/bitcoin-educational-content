@@ -1,0 +1,9 @@
+question: Miks sai kullast standardne vahetusvahend?
+answer: Tänu selle haruldusele, vastupidavusele ja jagatavusele
+wrong_answers:
+  - Tänu selle rohkusele, vastupidavusele ja jagamatusele
+  - Tänu selle haruldusele, kõdunemisele ja jagatavusele
+  - Tänu selle rohkusele, kõdunemisele ja jagamatusele
+explanation: |
+  Kuld sai standardseks vahetusvahendiks tänu oma haruldusele, vastupidavusele ja jagatavusele. Selle haruldus hoiab ära devalveerimise tootmise tõttu, selle vastupidavus tagas, et see ei erodeerunud aja jooksul, ja selle jagatavus võimaldas seda kasutada erineva suurusega tehingutes.
+reviewed: true

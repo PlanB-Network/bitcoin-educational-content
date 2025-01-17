@@ -1,0 +1,9 @@
+question: Millisel alusel väitsid Salamanca koolkonna õpetlased, et põlisrahvastel on õigused oma maadele?
+answer: Loodusõigus.
+wrong_answers:
+  - Jumalik õigus.
+  - Vallutajate õigus.
+  - Rahvusvaheline õigus.
+explanation: |
+  Salamanca koolkonna õpetlased väitsid, et põlisrahvastel on õigused oma maadele, lähtudes loodusõigusest, arvestades, et kõigil inimolenditel on põhiõigused sõltumata usulistest veendumustest või vallutustest.
+reviewed: false

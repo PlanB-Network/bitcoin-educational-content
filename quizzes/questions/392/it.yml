@@ -1,9 +1,0 @@
-question: Quali sono i makers e i takers nel contesto dei libri degli ordini?
-answer: I makers sono coloro che forniscono gli ordini e i takers sono coloro che prendono gli ordini.
-wrong_answers:
-  - I makers sono coloro che prendono gli ordini e i takers sono coloro che forniscono gli ordini.
-  - I makers sono coloro che creano gli ordini e i takers sono coloro che prendono gli ordini.
-  - I makers sono coloro che prendono gli ordini e i takers sono coloro che creano gli ordini.
-explanation: |
-  Nel contesto dei libri degli ordini, i makers sono coloro che forniscono gli ordini e i takers sono coloro che prendono gli ordini.
-reviewed: false

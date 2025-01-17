@@ -1,0 +1,9 @@
+question: Mis on hot wallet Bitcoin'i kontekstis?
+answer: Rahakott väikeste Bitcoin'i summade hoidmiseks veebis
+wrong_answers:
+  - Rahakott, mida kasutatakse tehinguteks kuumas kliimas
+  - Rahakott, mida kasutatakse suurte Bitcoin'i summade hoidmiseks
+  - Rahakott, mida kasutatakse Bitcoin'i hoidmiseks pikka aega
+explanation: |
+  Hot wallet on rahakott väikeste Bitcoin'i summade hoidmiseks veebis.
+  See peetakse vähem turvaliseks kui cold wallet, kuna see on rohkem avatud häkkimisele.

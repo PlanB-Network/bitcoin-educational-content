@@ -1,0 +1,22 @@
+topic: security
+subtopic: cryptography
+level: advanced
+hours: 16
+
+professors:
+  - myth-initial
+
+contributors:
+  - rabbit-hole
+  - another-satoshi
+  - pretty-private
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 55113

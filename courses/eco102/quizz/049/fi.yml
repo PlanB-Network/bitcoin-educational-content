@@ -1,0 +1,9 @@
+question: Miten Proudhon näkee omaisuuden ja sen jakautumisen yhteiskunnassa?
+answer: Hän pitää omaisuuden epätasaista jakautumista varkauden muotona
+wrong_answers:
+  - Hän pitää kaikkia omaisuuden muotoja laillisina ja tarpeellisina
+  - Hän haluaa poistaa kaiken yksilöomaisuuden kollektiivisen omistuksen hyväksi
+  - Hän ajattelee, että omaisuus on muuttumaton ja sitä ei pitäisi kyseenalaistaa
+explanation: |
+  Proudhon on kuuluisa lausahduksestaan Omaisuus on varkautta, jolla hän tuomitsee omaisuuden epätasaisen jakautumisen sosiaalisena epäoikeudenmukaisuutena, ei niinkään itse omaisuuden.
+reviewed: false

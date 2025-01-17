@@ -1,5 +1,80 @@
 author: Ludwig von Mises
-level: expert
+level: advanced
 tags:
   - economy
   - philosophy;
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4000
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3250
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1625
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3625
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4000
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3250
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3625
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4750
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3250
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4000
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4750
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4375
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4375
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4000

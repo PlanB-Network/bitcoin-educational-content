@@ -1,0 +1,11 @@
+question: Hva betyr begrepet fiduciary i sammenheng med valutaer?
+answer: Det refererer til valutaer som ikke har noen iboende verdi og er avhengige av tilliten til institusjonene som regulerer dem.
+wrong_answers:
+  - Det refererer til valutaer som er støttet av gull.
+  - Det refererer til valutaer som kun brukes for fiduciære transaksjoner.
+  - Det refererer til valutaer som kun brukes innenfor en spesifikk institusjon.
+explanation: |
+  Fiduciære valutaer er de som ikke er støttet av en fysisk vare
+  som gull eller sølv. Deres verdi er avledet fra tilliten og tillitsfølelsen folk
+  har til institusjonene som utsteder og regulerer dem.
+reviewed: true

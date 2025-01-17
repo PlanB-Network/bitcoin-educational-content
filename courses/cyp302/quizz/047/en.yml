@@ -1,0 +1,9 @@
+question: According to Euler's theorem, what is the result of the exponentiation a^ϕ(N) mod N for two integers a and N that are coprime?
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explanation: |
+  Euler's theorem states that for two integers a and N that are coprime, the exponentiation a^ϕ(N) mod N is always equal to 1 mod N, a property used in cryptography.
+reviewed: false

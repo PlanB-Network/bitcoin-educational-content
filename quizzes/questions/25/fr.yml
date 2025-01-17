@@ -1,9 +1,0 @@
-question: Quel est le principal inconvénient des monnaies fiduciaires ?
-answer: Leur valeur est constamment érodée par l'inflation monétaire.
-wrong_answers:
-  - Elles ne sont pas facilement transportables.
-  - Leur valeur est constamment appréciée par l'inflation monétaire.
-  - Elles ne sont pas divisibles.
-explanation: |
-  Le principal inconvénient des monnaies fiduciaires, telles que le dollar et l'euro, est que leur valeur est constamment érodée par l'inflation monétaire. Cela est dû aux entités qui les contrôlent (roi, banque centrale, empereur, dictateur) qui les dévaluent constamment.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Thuật toán chữ ký số nào được sử dụng khi Bitcoin ra đời?
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  Bitcoin ban đầu sử dụng ECDSA, một giao thức chữ ký dựa trên đường cong elliptic, trước khi giới thiệu chữ ký Schnorr vào năm 2021.
+reviewed: false

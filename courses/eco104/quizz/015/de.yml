@@ -1,0 +1,12 @@
+question: Was ist der Hauptvorteil der Verwendung von nicht-verwahrenden Wallets für die Speicherung von Bitcoin?
+answer: Erhöhte Sicherheit und Privatsphäre
+wrong_answers:
+  - Einfacher Zugang zu Bitcoin
+  - Niedrigere Transaktionsgebühren
+  - Keine Notwendigkeit für ein Passwort
+explanation: |
+  Nicht-verwahrende Wallets sind solche, bei denen Sie der alleinige Verwalter Ihrer Mittel sind,
+  was bedeutet, dass Sie die vollständige Kontrolle über Ihre privaten Schlüssel haben. Daher
+  bieten nicht-verwahrende Wallets ein höheres Maß an Sicherheit und Privatsphäre
+  im Vergleich zu verwahrenden Wallets, da Sie der Einzige sind, der für die Sicherheit Ihrer Mittel verantwortlich ist.
+reviewed: false

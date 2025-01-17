@@ -1,9 +1,0 @@
-question: Qual è il tipo di chiusura del canale più veloce e meno costoso?
-answer: Chiusura cooperativa.
-wrong_answers:
-  - Chiusura forzata.
-  - Chiusura da parte di un imbroglione.
-  - Non c'è differenza in velocità e costo tra i tipi di chiusura.
-explanation: |
-  In una chiusura cooperativa, entrambe le parti comunicano e concordano su uno stato finale del canale. Questa è l'opzione più veloce e meno costosa.
-reviewed: false

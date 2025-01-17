@@ -1,0 +1,9 @@
+question: Sự khác biệt giữa khóa công khai nén và không nén là gì?
+answer: Khóa công khai nén chỉ sử dụng tọa độ x và tính chẵn lẻ của y
+wrong_answers:
+  - Khóa công khai nén an toàn hơn
+  - Khóa công khai nén chỉ sử dụng tọa độ y và tính chẵn lẻ của x
+  - Khóa công khai nén yêu cầu khóa riêng tư lớn hơn
+explanation: |
+  Khóa công khai nén chỉ giữ lại tọa độ x và một bit cho tính chẵn lẻ của y, do đó giảm kích thước của nó xuống còn 33 byte.
+reviewed: false

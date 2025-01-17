@@ -1,0 +1,9 @@
+question: Warum wird gesagt, dass eine Pseudozufallszeichenfolge von einer wirklich zufälligen Zeichenfolge nicht zu unterscheiden ist?
+answer: Weil es fast unmöglich ist, ihren Ursprung ohne zusätzliche Informationen zu bestimmen.
+wrong_answers:
+  - Weil sie deterministische Segmente enthält, die identisch mit einer wirklich zufälligen Zeichenfolge sind
+  - Weil sie Fließkommazahlen in ihrer Konstruktion verwendet
+  - Weil sie ausschließlich aus natürlichen Ereignissen generiert wird
+explanation: |
+  Eine Pseudozufallszeichenfolge ist so konzipiert, dass sie einer echten Zufallszeichenfolge sehr ähnlich sieht, was die Unterscheidung ohne Zugang zum Seed oder zum verwendeten Algorithmus unmöglich macht.
+reviewed: false

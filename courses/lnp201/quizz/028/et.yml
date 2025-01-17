@@ -1,0 +1,8 @@
+question: Mida saab Bob teha, kui ta tuvastab, et Alice üritab kanali sulgemise ajal petta?
+answer: Kasutada tühistamisvõtit, et taastada kõik vahendid
+wrong_answers:
+  - Tühistada Alice'i kohustuse tehing
+  - Sulgeda kanal jäädavalt ilma võimaluseta taasavada
+  - Nõuda ainult pool saadaolevatest vahenditest
+explanation: |
+  Pettuse korral saab Bob kasutada tühistamisvõtit, et taastada kanalist kõik vahendid, karistades sellega Alicet tema katse eest.

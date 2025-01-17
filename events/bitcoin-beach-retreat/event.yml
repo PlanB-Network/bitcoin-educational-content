@@ -1,0 +1,23 @@
+- start_date: 2024-07-13 
+  end_date: 2024-07-16
+  address_line_1: nanty, Wales
+  address_line_2: 
+  address_line_3: 
+  name: Bitcoin Beach Retreat
+  builder: 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Bitcoiners book onto the Retreat and we crowdsource any talks & activities from there as we are blessed to be surrounded by peers with skills to share.
+  language: 
+    - en
+  links:
+    website: https://bitcoinretreat.co.uk/
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - mining
+
+

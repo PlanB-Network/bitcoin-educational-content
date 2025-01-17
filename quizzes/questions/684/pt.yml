@@ -1,9 +1,0 @@
-question: Qual é o papel dos nós da Lightning Network em uma transação?
-answer: Eles cobram uma taxa por concordarem em serem usados para rotear a transação.
-wrong_answers:
-  - Eles facilitam a transação sem cobrar nenhuma taxa.
-  - Eles iniciam a transação.
-  - Eles são os destinatários finais da transação.
-explanation: |
-  Na Lightning Network, os nós cobram uma taxa por concordarem em serem usados para rotear a transação. Essa taxa varia dependendo de onde a liquidez está localizada.
-reviewed: false

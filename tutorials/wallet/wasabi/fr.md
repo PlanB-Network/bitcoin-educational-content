@@ -4,7 +4,7 @@ name: Wasabi Wallet
 description: apprenez comment retrouver votre vie privée
 ---
 
-![wasabi](assets/cover.jpeg)
+![wasabi](assets/cover.webp)
 
 Portefeuille Bitcoin open-source, non-custodial et axé sur la confidentialité pour ordinateur de bureau
 https://www.wasabiwallet.io/

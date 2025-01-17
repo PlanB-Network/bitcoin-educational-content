@@ -1,0 +1,9 @@
+question: ¿Qué asegura los UTXOs en Bitcoin?
+answer: A través de scripts que definen las condiciones de gasto.
+wrong_answers:
+  - Mediante la verificación periódica por parte de los mineros.
+  - A través de una base de datos centralizada.
+  - Mediante la verificación de la identidad del usuario.
+explanation: |
+  Las salidas de una transacción de Bitcoin son UTXOs que están asegurados con un script. Este script requiere que se cumplan condiciones de gasto predefinidas para poder gastar el UTXO.
+reviewed: false

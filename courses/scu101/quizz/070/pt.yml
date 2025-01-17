@@ -1,0 +1,9 @@
+question: Qual é o propósito da autenticação Lightning?
+answer: Gera um identificador diferente para cada serviço, sem a necessidade de fornecer um endereço de email ou informações pessoais.
+wrong_answers:
+  - Permite que qualquer pessoa, mesmo sem uma carteira Lightning, autentique-se sem um endereço de email, se um ID válido for apresentado.
+  - Permite que você use a mesma senha para todos os serviços.
+  - Envia lembretes para mudar as senhas todo mês.
+explanation: |
+  A autenticação Lightning gera um identificador diferente para cada serviço, sem a necessidade de fornecer um endereço de email ou informações pessoais. Isso pode aumentar a privacidade e a segurança ao reduzir a quantidade de informações pessoais que são compartilhadas com cada serviço.
+reviewed: true

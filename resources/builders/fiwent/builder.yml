@@ -1,0 +1,17 @@
+name: FIWENT
+category: conference
+
+links:
+  website: https://fiwent.com/wp/
+
+tags:
+  - adoption
+
+original_language: de
+proofreading:
+  - language: de
+    last_contribution_date: 2025-01-13
+    urgency: 1
+    contributors_id:
+      - hunt-wood
+    reward: 0

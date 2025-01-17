@@ -1,0 +1,8 @@
+question: ビットコインの立ち上げ時に使用されたデジタル署名アルゴリズムは何ですか？
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  ビットコインは当初、2021年にSchnorr署名が導入される前に、楕円曲線に基づく署名プロトコルであるECDSAを使用していました。

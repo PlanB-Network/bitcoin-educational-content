@@ -1,0 +1,9 @@
+question: What is the term for information that links a bundle of on-chain activities to a form of real identity?
+answer: An entry point.
+wrong_answers:
+  - A linkage key.
+  - A fingerprint link.
+  - An analysis marker.
+explanation: |
+  Behaviors and information that may link a real identity to on-chain activity are called entry points.
+reviewed: false

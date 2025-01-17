@@ -1,0 +1,10 @@
+question: ¿Cuál es una de las principales características del protocolo Bitcoin?
+answer: Es neutral hacia todos sus usuarios.
+wrong_answers:
+  - Favorece a ciertos usuarios sobre otros.
+  - Está sesgado hacia ciertos usuarios.
+  - Solo beneficia a un selecto grupo de usuarios.
+explanation: >-
+  El texto menciona que el protocolo Bitcoin es neutral hacia todos sus
+  usuarios.
+reviewed: true

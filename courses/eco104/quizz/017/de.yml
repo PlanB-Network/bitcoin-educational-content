@@ -1,0 +1,14 @@
+question: Was sind die Haupttypen von Stablecoins, die im Text erwähnt werden?
+answer: Fiat-gestützte, waren-gestützte und algorithmische Stablecoins.
+wrong_answers:
+  - Digitale und physische Stablecoins
+  - Zentralisierte und dezentralisierte Stablecoins
+  - Von Banken gestützte Stablecoins und von Einzelpersonen gestützte Stablecoins
+explanation: |
+  In den vorherigen Kapiteln haben wir drei Haupttypen von Stablecoins gesehen;
+  fiat-gestützte Stablecoins, die durch traditionelle Währungen
+  wie den US-Dollar gestützt sind; waren-gestützte Stablecoins, die durch
+  Waren wie Gold oder Öl gestützt sind; und algorithmische Stablecoins, die sich
+  auf einen Satz von Regeln oder Algorithmen verlassen, um ihren Wert zu erhalten. Es wird jedoch angemerkt,
+  dass erfolgreiche algorithmische Stablecoins noch nicht auf dem Markt erschienen sind.
+reviewed: false

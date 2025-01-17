@@ -1,0 +1,13 @@
+question: Bagaimana alamat digunakan untuk mengunci UTXO?
+
+answer: Mereka diintegrasikan ke dalam ScriptPubKey
+
+wrong_answers:
+  - Mereka diintegrasikan ke dalam ScriptSig
+  - Mereka diintegrasikan ke dalam coinbase.
+  - Mereka tidak diintegrasikan di mana pun.
+
+explanation: |
+  Ketika pembayaran dilakukan, transaksi menciptakan UTXO baru sebagai output dari UTXO yang dikonsumsi sebagai input. Pada output ini, sebuah skrip ditempatkan yang mendefinisikan bagaimana UTXO ini dapat dibelanjakan nanti. Skrip ini dikenal sebagai ScriptPubKey. Alamat penerima diintegrasikan ke dalam skrip ini.
+
+reviewed: false

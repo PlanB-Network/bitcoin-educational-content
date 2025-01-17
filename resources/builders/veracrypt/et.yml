@@ -1,0 +1,5 @@
+description: |
+  VeraCrypt on avatud lähtekoodiga kettakrüptimistarkvara, mis võimaldab kaitsta teie tundlikke andmeid. TrueCrypti järeltulijana pakub see tugevat krüptimist algoritmidega, nagu AES, Serpent või Twofish, võimaldades luua krüptitud mahtusid või krüptida sektsioone ja terveid kettaid, nii sisemisi kui ka väliseid.
+
+contributors:
+  - pretty-private

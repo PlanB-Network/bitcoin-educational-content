@@ -1,0 +1,13 @@
+question: Jaký je účel možnosti coin control v softwaru Bitcoin peněženky?
+
+answer: Vybrat, které UTXO použít jako vstupy pro transakce.
+
+wrong_answers:
+  - Zašifrovat UTXO pro zvýšení bezpečnosti peněženky.
+  - Detekovat a blokovat UTXO ze podezřelých zdrojů.
+  - Označit každé UTXO v peněžence.
+
+explanation: |
+  Coin control je funkce, kterou najdete v kvalitním softwaru Bitcoin peněženky, která vám dává možnost ručně vybrat konkrétní UTXO k použití jako vstupy při provádění transakce.
+
+reviewed: false

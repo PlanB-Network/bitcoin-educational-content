@@ -1,9 +1,0 @@
-question: Quem são os dois pares envolvidos na transferência da Lightning Network no exemplo?
-answer: Alice e Bob.
-wrong_answers:
-  - Alice e Charlie.
-  - Bob e Charlie.
-  - Alice e a rede Bitcoin.
-explanation: |
-  No exemplo, Alice e Bob são os dois pares envolvidos na transferência da Lightning Network.
-reviewed: false

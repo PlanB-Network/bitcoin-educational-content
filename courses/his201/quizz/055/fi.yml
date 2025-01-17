@@ -1,0 +1,9 @@
+question: Minkä mekanismin Satoshi lisäsi ohjelmistoon arvon ylivuototapauksen jälkeen rajoittamaan mahdollisten haavoittuvuuksien vaikutusta järjestelmään?
+answer: Hälytysjärjestelmä
+wrong_answers:
+  - Transaktioiden standardiluonne
+  - Lohkon koko raja
+  - OP_NOP operaatiokoodit
+explanation: |
+  Tämä tehokas hälytysjärjestelmä mahdollisti hänelle yksityisen avaimen käytön varoittaakseen verkon solmuja teknisestä ongelmasta ja keskeyttääkseen joitakin API-komentoja.
+reviewed: false

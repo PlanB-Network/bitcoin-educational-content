@@ -1,0 +1,9 @@
+question: Quelle notion n'est pas exclusivement liée aux schémas de cryptographie symétrique ou asymétrique ?
+answer: Les fonctions de hachage
+wrong_answers:
+  - Les paires de clés publiques et privées
+  - La cryptographie asymétrique
+  - La cryptographie symétrique
+explanation: |
+  Les fonctions de hachage sont une composante clé de la cryptographie moderne, mais elles ne sont pas associées spécifiquement aux schémas symétriques ou asymétriques, contrairement aux clés publiques et privées.
+reviewed: false

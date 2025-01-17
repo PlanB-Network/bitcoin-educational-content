@@ -1,0 +1,13 @@
+question: Co indikuje retrospektivní anonset?
+
+answer: Počet pravděpodobných zdrojů pro UTXO na konci cyklů.
+
+wrong_answers:
+  - Velikost skupiny nerozlišitelných UTXO na konci cyklů.
+  - Počet pravděpodobných zdrojů pro UTXO na začátku cyklů.
+  - Doba potřebná k dokončení coinjoin.
+
+explanation: |
+  Retrospektivní anonset indikuje počet možných zdrojů pro danou minci, s ohledem na UTXO na konci cyklu.
+
+reviewed: false

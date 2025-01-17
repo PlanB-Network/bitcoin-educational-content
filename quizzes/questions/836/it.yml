@@ -1,9 +1,0 @@
-question: Perché i token hardware, come le chiavi USB o le smart card, sono considerati offrire una sicurezza ottimale per l'autenticazione a due fattori (2FA)?
-answer: Generano una chiave privata unica per ogni sito e verificano l'URL prima di consentire la connessione.
-wrong_answers:
-  - Sono fisicamente più difficili da rubare
-  - Sono più costosi, quindi devono essere migliori
-  - Sono una tecnologia più recente, quindi devono essere migliori
-explanation: |
-  I token hardware offrono una sicurezza ottimale perché generano una chiave privata unica per ogni sito e verificano l'URL prima di consentire la connessione. Questo rende molto più difficile per un hacker ottenere accesso non autorizzato.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Wie viele Bitcoin-Einheiten können maximal existieren?
-answer: 21 Millionen Einheiten
-wrong_answers:
-  - 25 Millionen Einheiten
-  - 30 Millionen Einheiten
-  - 50 Millionen Einheiten
-explanation: |
-  Der Computercode von Bitcoin und der Konsens aller Benutzer, die am Protokoll teilnehmen, bestimmen, dass die maximale Anzahl von Bitcoin-Einheiten, die jemals existieren können, 21 Millionen beträgt.
-reviewed: false

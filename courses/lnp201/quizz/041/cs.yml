@@ -1,0 +1,9 @@
+question: Proč je pro vysílající uzel obtížné odhadnout přesnou likviditu kanálu?
+answer: Protože pouze dva účastníci znají přesné rozdělení prostředků
+wrong_answers:
+  - Protože celková kapacita kanálů se neustále mění
+  - Protože poplatky prostřednických uzlů nejsou zveřejněny
+  - Protože kanály se automaticky zavírají po každé transakci
+explanation: |
+  Přesné rozdělení prostředků v kanálu je viditelné pouze pro dva účastnící uzly, což brání ostatním uzlům v odhadu dostupné likvidity pro směrování.
+reviewed: false

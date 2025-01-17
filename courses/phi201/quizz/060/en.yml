@@ -1,0 +1,9 @@
+question: In what religious context was capitalism born?
+answer: In the context of Christianity.
+wrong_answers:
+  - In the context of Islam.
+  - In the context of Judaism.
+  - In the context of paganism.
+explanation: |
+  Capitalism originated in the context of medieval Christianity in Europe, where merchant cities and economic practices evolved despite religious restrictions on interest-bearing loans and usury.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel est le rôle principal d'un portefeuille Bitcoin ?
+answer: Gérer et sécuriser les clés privées
+wrong_answers:
+  - Stocker les bitcoins de l'utilisateur
+  - Assurer la confidentialité des transactions automatiquement
+  - Générer des bitcoins pour chaque utilisateur
+explanation: |
+  Un portefeuille Bitcoin ne stocke pas directement des bitcoins mais gère les clés privées nécessaires pour déverrouiller les UTXOs qui représentent les bitcoins.
+reviewed: false

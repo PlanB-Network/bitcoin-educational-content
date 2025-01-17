@@ -1,0 +1,13 @@
+question: Among these options, which one is not a method for automatic part selection?
+
+answer: Silent Payments
+
+wrong_answers:
+  - Branch-and-Bound
+  - FIFO
+  - Knapsack Solver
+
+explanation: |
+  Unlike the other three options, Silent Payments is not a method for selecting parts, but a protocol for using static addresses.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaký byl postoj Bible k půjčování na úrok?
+answer: Bylo to zakázáno.
+wrong_answers:
+  - Podporovalo to.
+  - V některých případech to tolerovalo.
+  - Nemělo k tomu žádný názor.
+explanation: |
+  Bible zakazuje půjčování na úrok, zejména v Starém zákoně, kde je půjčování s úrokem mezi členy komunity považováno za nemorální a v rozporu s hodnotami solidarity.
+reviewed: false

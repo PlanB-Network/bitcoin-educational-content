@@ -1,0 +1,9 @@
+question: Was ist der Begriff für Informationen, die eine Gruppe von On-Chain-Aktivitäten mit einer Form der realen Identität verbinden?
+answer: Ein Einstiegspunkt.
+wrong_answers:
+  - Ein Verbindungsschlüssel.
+  - Ein Fingerabdruck-Link.
+  - Ein Analysemarker.
+explanation: |
+  Verhaltensweisen und Informationen, die eine reale Identität mit On-Chain-Aktivitäten verbinden können, werden als Einstiegspunkte bezeichnet.
+reviewed: false

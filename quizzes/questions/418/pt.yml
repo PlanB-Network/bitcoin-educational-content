@@ -1,9 +1,0 @@
-question: Qual é o objetivo da segunda fase de pré-processamento no SHA256?
-answer: Adicionar a representação binária do tamanho inicial da mensagem, em bits
-wrong_answers:
-  - Adicionar bits de preenchimento à entrada
-  - Separar a entrada em diferentes blocos de mensagens de 512 bits
-  - Realizar 64 rodadas de cálculo na função de compressão
-explanation: |
-  A segunda fase de pré-processamento no SHA256 envolve adicionar a representação binária do tamanho inicial da mensagem, em bits. Isso é feito usando os 64 bits reservados da etapa anterior.
-reviewed: false

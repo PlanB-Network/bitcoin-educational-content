@@ -1,0 +1,9 @@
+question: Kuka Bastiatin mukaan ylläpitää valtion toimeentuloa?
+answer: Kansalaiset ylläpitävät valtiota
+wrong_answers:
+  - Kansalaiset elävät valtion varoilla
+  - Valtio ylläpitää kansakuntaa
+  - Intressiryhmät ylläpitävät valtiota
+explanation: |
+  Bastiat väittää, että kansalaiset tukevat valtiota varallisuuden luomisen kautta, eikä päinvastoin.
+reviewed: false

@@ -1,0 +1,13 @@
+question: ¿Cuál es el uso recomendado de una cartera multisig?
+answer: Almacenar grandes cantidades para uso corporativo.
+wrong_answers:
+  - Almacenar pequeñas cantidades para uso personal.
+  - Almacenar cantidades medianas para uso de organizaciones sin fines de lucro.
+  - Almacenar gastos diarios para uso individual.
+explanation: |
+  Se recomienda una cartera multisig para almacenar grandes cantidades
+  y para uso corporativo porque requiere múltiples
+  firmas para realizar una transacción. Este proceso añade una
+  capa extra de seguridad, ya que una sola persona no puede
+  llevar a cabo una transacción sin la aprobación de los demás.
+reviewed: true

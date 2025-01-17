@@ -1,0 +1,9 @@
+question: What is the primary role of a private key in the Bitcoin system?
+answer: Sign transactions to satisfy a script
+wrong_answers:
+  - Serve as an identifier to receive bitcoins
+  - Store funds securely on the blockchain
+  - Create locking scripts to protect bitcoins
+explanation: |
+  The private key is used to sign transactions to satisfy a script and unlock the bitcoins.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Which property ensures that it is computationally impossible to retrieve the input of a hash?
+answer: Preimage resistance
+wrong_answers:
+  - Collision resistance
+  - Avalanche effect
+  - Second preimage resistance
+explanation: |
+  Preimage resistance ensures that it is practically impossible to find the original message from its hash.
+reviewed: false

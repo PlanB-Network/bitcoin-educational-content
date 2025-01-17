@@ -1,0 +1,9 @@
+question: Quelle fonction est utilisée pour dériver la graine à partir de la phrase mnémonique ?
+answer: PBKDF2 avec HMAC-SHA512
+wrong_answers:
+  - SHA256 seul
+  - Double SHA256
+  - AES-256
+explanation: |
+  La graine est générée via la fonction PBKDF2 en utilisant HMAC-SHA512 et 2048 itérations, à partir de la phrase mnémonique et de la passphrase.
+reviewed: false

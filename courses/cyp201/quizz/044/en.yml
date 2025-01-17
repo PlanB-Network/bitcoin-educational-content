@@ -1,0 +1,9 @@
+question: What is entropy in the context of cryptography?
+answer: A measure of unpredictability associated with a random process
+wrong_answers:
+  - A method for encrypting sensitive data
+  - An algorithm for calculating public keys
+  - A data compression technique
+explanation: |
+  In cryptography, entropy quantifies the level of uncertainty or chaos in a random source, essential for generating secure keys.
+reviewed: false

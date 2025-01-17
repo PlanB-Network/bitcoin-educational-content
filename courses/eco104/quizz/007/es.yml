@@ -1,0 +1,16 @@
+question: ¿Cuál es el impacto de imprimir más dinero en el poder adquisitivo de una moneda?
+answer: Un deterioro en el poder adquisitivo de la moneda
+wrong_answers:
+  - Un aumento en el poder adquisitivo de la moneda
+  - Sin impacto
+  - Más dinero = mayor poder adquisitivo
+explanation: |
+  Cuando los bancos centrales deciden imprimir dinero, no pueden simplemente crear más valor.
+  Para que este dinero recién impreso valga algo, su valor debe provenir de los
+  poseedores anteriores de la moneda.
+  Piensa en la oferta monetaria como una pizza, e imagina que está cortada en cuatro pedazos.
+  Doblar la oferta monetaria no sería equivalente a duplicar la cantidad de pizza.
+  En cambio, sería equivalente a cortar esos cuatro pedazos por la mitad para crear
+  ocho pedazos. No hemos ganado pizza adicional. Solo tenemos más pedazos, cada uno más pequeño en tamaño. Por lo tanto, cuando imprimimos más dinero, devaluamos el dinero
+  que ya existe.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Kuidas mõjutavad regulatsioonid ja elektrihinnad Bitcoini kaevandamist?
+answer: Regulatsioonid ja elektrihinnad avaldavad Bitcoini kaevandamisele olulist mõju. Kaevurid otsivad pidevalt madala hinnaga elektrit, et maksimeerida oma kasumeid. Seetõttu ei meelita teatud piirkondade kõrge elektrihind kaevureid nendesse piirkondadesse. Kaevurid kipuvad graviteeruma piirkondadesse, kus on madalad elektrihinnad, sageli arengumaades või riikides, kus on energiaülejääke.
+wrong_answers:
+  - Regulatsioonid ja elektrihinnad mõjutavad Bitcoini kaevandamist, määrates kindlaks, milliseid kaevandamismasinaid saab kasutada.
+  - Regulatsioonid ja elektrihinnad mõjutavad Bitcoini kaevandamist, määrates kindlaks, millist kaevandamistarkvara saab kasutada.
+  - Regulatsioonid ja elektrihinnad mõjutavad Bitcoini kaevandamist, määrates kindlaks, kui suur kaevandusbassein saab olla.
+explanation: |
+  Peatükk selgitab, et regulatsioonid ja elektrihinnad
+  avaldavad Bitcoini kaevandamisele olulist mõju.
+  Kaevurid otsivad pidevalt madala hinnaga elektrit, et
+  maksimeerida oma kasumeid, ja seetõttu kipuvad nad
+  graviteeruma piirkondadesse, kus on madalad elektrihinnad.
+reviewed: true

@@ -1,9 +1,0 @@
-question: O que você deve fazer após comprar Bitcoin em uma plataforma de câmbio?
-answer: Retire o Bitcoin para sua carteira.
-wrong_answers:
-  - Deixe-o na plataforma.
-  - Venda imediatamente.
-  - Transfira para outra plataforma.
-explanation: |
-  O texto aconselha que, após comprar Bitcoin, é recomendável retirar imediatamente os Bitcoins das plataformas de câmbio para minimizar os riscos de hacking e bloqueio de fundos.
-reviewed: false

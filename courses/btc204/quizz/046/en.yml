@@ -1,0 +1,13 @@
+question: Which cryptographic key exchange algorithm is at the heart of BIP47's operation?
+
+answer: ECDH
+
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+
+explanation: |
+  The algorithm used is ECDH (Elliptic Curve Diffie-Hellman). It is a variant of the classic Diffie-Hellman algorithm that uses elliptic curves.
+
+reviewed: false

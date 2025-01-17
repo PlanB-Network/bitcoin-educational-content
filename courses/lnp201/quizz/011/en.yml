@@ -1,0 +1,9 @@
+question: Why does Alice create a withdrawal transaction before publishing the deposit transaction?
+answer: To retrieve her funds in case of a problem with Bob
+wrong_answers:
+  - To increase the channel's capacity with each transaction
+  - To perform a Lightning transaction immediately after opening
+  - To allow Bob to spend the funds directly
+explanation: |
+  Alice creates a withdrawal transaction to retrieve her funds if a problem occurs with Bob, thus ensuring the security of her deposit.
+reviewed: false

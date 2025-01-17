@@ -1,0 +1,9 @@
+question: What is the difference between using the Salsa20 algorithm with a 128-bit key and a 256-bit key?
+answer: The key length influences the number of rounds in the algorithm.
+wrong_answers:
+  - The key length changes the type of encryption.
+  - A 128-bit key is used for stream encryption and a 256-bit key for block encryption.
+  - The key length has no impact in Salsa20.
+explanation: |
+  In the symmetric encryption scheme Salsa20, the key length (128 or 256 bits) affects the number of rounds in the algorithm, without altering the core of the algorithm itself.
+reviewed: false

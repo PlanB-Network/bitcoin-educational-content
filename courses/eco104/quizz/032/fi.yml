@@ -1,0 +1,11 @@
+question: Missä tilanteessa stablecoin voi käydä kauppaa yli kiinnitetyn hintansa?
+answer: Kun stablecoinien kysyntä ylittää pörssin kapasiteetin
+wrong_answers:
+  - Kun stablecoinin liikkeeseenlaskija jäädyttää varoja
+  - Kun stablecoin on täysin tuettu käteisvarannoilla
+  - Kun käyttäjiltä on voimakasta myyntipainetta
+explanation: |
+  Stablecoinit voivat käydä kauppaa yli kiinnitetyn hintansa, kun 
+  stablecoinien kysyntä ylittää pörssin kyvyn 
+  vastata asiakkaiden kysyntään, tyypillisesti pienemmissä pörsseissä.
+reviewed: false

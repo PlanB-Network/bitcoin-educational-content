@@ -1,0 +1,9 @@
+question: Mô hình thanh toán đơn giản trên Bitcoin là gì?
+answer: 1 hoặc nhiều UTXO ở đầu vào và 2 UTXO ở đầu ra.
+wrong_answers:
+  - 1 UTXO ở đầu vào và 1 UTXO ở đầu ra
+  - Nhiều UTXO ở đầu vào và 1 UTXO ở đầu ra
+  - 5 UTXO ở đầu vào và 5 UTXO ở đầu ra
+explanation: |
+  Trong một giao dịch thanh toán đơn giản, người dùng sử dụng một hoặc nhiều UTXO làm đầu vào để thực hiện thanh toán bằng cách tạo ra một UTXO thanh toán và một UTXO tiền thối (vì vậy là 2 UTXO).
+reviewed: false

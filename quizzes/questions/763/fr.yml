@@ -1,9 +1,0 @@
-question: Quel est le risque potentiel d'une diminution du nombre d'utilisateurs, de nœuds ou de mineurs dans le réseau Bitcoin ?
-answer: Cela pourrait affaiblir le réseau, augmentant le risque de centralisation et de vulnérabilité aux attaques.
-wrong_answers:
-  - Cela pourrait augmenter le prix du Bitcoin.
-  - Cela pourrait diminuer la vitesse des transactions.
-  - Cela pourrait augmenter la difficulté de minage.
-explanation: |
-  Une diminution du nombre d'utilisateurs, de nœuds ou de mineurs pourrait affaiblir le réseau Bitcoin. Cela pourrait augmenter le risque de centralisation et rendre le réseau plus vulnérable aux attaques.
-reviewed: false

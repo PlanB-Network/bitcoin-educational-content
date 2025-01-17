@@ -1,0 +1,63 @@
+id: 5cbf9e79-65f6-4177-92e7-0289c5c60db8
+chapterId: b04c024c-54f3-50cb-997f-58721cfc74be
+difficulty: hard
+duration: 45
+author: DecouvreBitcoin
+tags:
+  - Hyperinflation
+  - Money History
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2592
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2546
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1273
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2569
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2592
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2546
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2569
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2638
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2546
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2638

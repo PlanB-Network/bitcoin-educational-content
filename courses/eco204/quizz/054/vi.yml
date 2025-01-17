@@ -1,0 +1,10 @@
+question: Ngưỡng chính thức để một quốc gia được coi là trong tình trạng lạm phát cực kỳ là bao nhiêu?
+answer: 50% mỗi tháng
+wrong_answers:
+  - 10% mỗi tháng
+  - 25% mỗi tháng
+  - 75% mỗi tháng
+explanation: |
+  Vào năm 2007, tỷ lệ lạm phát của Zimbabwe đã đạt ngưỡng 50% mỗi tháng,
+  chính thức đánh dấu quốc gia này đang trong tình trạng lạm phát cực kỳ.
+reviewed: false

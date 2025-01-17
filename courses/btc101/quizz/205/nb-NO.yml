@@ -1,0 +1,11 @@
+question: Hva er en av grunnene til at du bør konsolidere dine UTXOer i lommeboken din
+  fra tid til annen?
+answer: For å unngå unødvendige gebyrer under transaksjoner.
+wrong_answers:
+  - For å øke verdien av din Bitcoin.
+  - For å forhindre at din Bitcoin blir stjålet.
+  - For å sikre at din Bitcoin alltid er tilgjengelig.
+explanation: >-
+  Teksten nevner at det å konsolidere dine UTXOer i lommeboken din
+  fra tid til annen er essensielt for effektivt å håndtere dine bitcoins og for å unngå unødvendige
+  gebyrer under transaksjoner.

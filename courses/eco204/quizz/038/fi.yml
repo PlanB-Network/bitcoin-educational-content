@@ -1,0 +1,13 @@
+question: Mikä termi kuvaa yritystä, joka jatkaa toimintaansa pääasiassa
+  edullisen lainanoton kautta, vaikka se olisi maksukyvytön tai lähellä konkurssia normaaleissa
+  markkinaolosuhteissa?
+answer: Zombiyritys
+wrong_answers:
+  - Haamu yritys
+  - Vampyyriyritys
+  - Aaveyritys
+explanation: |
+  Zombiyritys on yritys, joka normaaleissa markkinaolosuhteissa olisi
+  maksukyvytön tai lähellä konkurssia, mutta jatkaa toimintaansa pääasiassa edullisen
+  lainanoton kautta.
+reviewed: false

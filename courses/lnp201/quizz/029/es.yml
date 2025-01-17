@@ -1,0 +1,9 @@
+question: ¿En qué situación se utiliza el cierre forzado de un canal?
+answer: Cuando una de las partes ya no responde
+wrong_answers:
+  - Cuando se necesita aumentar la capacidad del canal
+  - Cuando el timelock es insuficiente
+  - Cuando las comisiones por transacción son demasiado altas
+explanation: |
+  El cierre forzado se utiliza como último recurso si una de las partes, por ejemplo debido a un problema técnico, ya no responde a los mensajes de la otra.
+reviewed: false

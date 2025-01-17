@@ -1,0 +1,24 @@
+- start_date: 2024-10-10 
+  end_date: 2024-10-11
+  address_line_1: Amsterdam, Netherlands
+  address_line_2: 
+  address_line_3: 
+  name: Bitcoin Amsterdam 2024
+  builder: The Bitcoin Conference
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Uniting the Bitcoin community, the conference facilitates dialogue among industry leaders and newcomers.
+  language: 
+    - en
+  links:
+    website: https://b.tc/conference/amsterdam
+    replay_url:
+    live_url :
+  tags: 
+    - market-trends
+    - decentralization
+    - privacy
+
+

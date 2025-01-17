@@ -1,0 +1,10 @@
+question: Apa ciri umum dari penipuan di domain cryptocurrency?
+answer: Janji pengembalian yang tidak realistis.
+wrong_answers:
+  - Janji barang fisik.
+  - Janji produk perangkat lunak.
+  - Janji mata uang fiat.
+explanation: |
+  Penipuan di domain cryptocurrency seringkali menjanjikan pengembalian yang tidak realistis.
+  Sangat penting untuk tidak mempercayai secara buta, terutama ketika itu terkait dengan banner internet.
+reviewed: false

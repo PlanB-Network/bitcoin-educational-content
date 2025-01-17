@@ -1,0 +1,11 @@
+question: Worauf werden sich Miner für ihre Vergütung verlassen, nachdem alle 21 Millionen Bitcoins erschaffen wurden?
+answer: Miner werden sich ausschließlich auf Transaktionsgebühren für ihre Vergütung verlassen.
+wrong_answers:
+  - Miner werden sich ausschließlich auf Blockbelohnungen für ihre Vergütung verlassen.
+  - Miner werden sich ausschließlich auf die Bestätigung von Transaktionen für ihre Vergütung verlassen.
+  - Miner werden sich ausschließlich auf Netzwerkgebühren für ihre Vergütung verlassen.
+explanation: |
+  Bis 2140 werden keine neuen Bitcoins mehr erschaffen. Zu diesem Zeitpunkt
+  werden sich Miner ausschließlich auf Transaktionsgebühren für
+  ihre Vergütung verlassen.
+reviewed: true

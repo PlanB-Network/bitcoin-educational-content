@@ -1,0 +1,11 @@
+question: Jaké strategie byly diskutovány pro boj proti centralizaci těžby v Bitcoinu?
+answer: Mezi diskutované strategie pro boj proti centralizaci těžby v Bitcoinu patří domácí těžba, protokol Stratum V2, otevření zdrojového kódu těžebního softwaru a diverzifikace aktérů a geografie.
+wrong_answers:
+  - Mezi diskutované strategie pro boj proti centralizaci těžby v Bitcoinu patří zvýšení velikosti bloku, implementace důkazu o vkladu a vytvoření centrální autority pro dohled nad těžbou.
+  - Mezi diskutované strategie pro boj proti centralizaci těžby v Bitcoinu patří snížení odměny za blok, implementace transakčního poplatku a vytvoření daně z těžby.
+  - Mezi diskutované strategie pro boj proti centralizaci těžby v Bitcoinu patří zvýšení obtížnosti těžby, implementace limitu těžby a vytvoření těžební loterie.
+explanation: |
+  Kapitola diskutuje několik strategií pro boj proti centralizaci těžby
+  v Bitcoinu, včetně domácí těžby, protokolu Stratum V2, otevření zdrojového kódu
+  těžebního softwaru a diverzifikace aktérů a geografie.
+reviewed: true

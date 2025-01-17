@@ -1,0 +1,9 @@
+question: ¿Qué limita la cantidad de un pago indirecto en la Lightning Network?
+answer: La menor liquidez disponible en un canal del camino elegido
+wrong_answers:
+  - El número de nodos intermediarios involucrados
+  - La capacidad total de la Lightning Network
+  - Las tarifas de enrutamiento establecidas por cada nodo
+explanation: |
+  La cantidad máxima que un pago indirecto puede transferir depende de la menor liquidez disponible en los canales utilizados, ya que cada canal debe ajustar los fondos en cada lado.
+reviewed: false

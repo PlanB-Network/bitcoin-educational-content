@@ -1,0 +1,9 @@
+question: Jaký je cíl heuristik interních transakcí?
+answer: Identifikovat burzu.
+wrong_answers:
+  - Identifikovat podvodné transakce v reálném čase.
+  - Identifikovat vzory transakcí.
+  - Identifikovat klastr patřící stejné entitě.
+explanation: |
+  Interní heuristiky nám umožňují identifikovat burzu s cílem sledovat uživatele v následujících transakcích.
+reviewed: false

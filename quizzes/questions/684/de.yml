@@ -1,9 +1,0 @@
-question: Welche Rolle spielen Lightning Network-Knoten in einer Transaktion?
-answer: Sie berechnen eine Gebühr dafür, dass sie sich bereit erklären, zur Weiterleitung der Transaktion verwendet zu werden.
-wrong_answers:
-  - Sie erleichtern die Transaktion ohne Gebühren.
-  - Sie initiieren die Transaktion.
-  - Sie sind die endgültigen Empfänger der Transaktion.
-explanation: |
-  Im Lightning Network berechnen Knoten eine Gebühr dafür, dass sie sich bereit erklären, zur Weiterleitung der Transaktion verwendet zu werden. Diese Gebühr variiert je nachdem, wo sich die Liquidität befindet.
-reviewed: false

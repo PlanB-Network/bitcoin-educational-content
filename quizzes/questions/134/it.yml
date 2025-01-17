@@ -1,9 +1,0 @@
-question: Qual è il processo mediante il quale i minatori convalidano le transazioni e le includono in un blocco?
-answer: Proof of work
-wrong_answers:
-  - Proof of stake
-  - Proof of authority
-  - Proof of burn
-explanation: |
-  I minatori convalidano le transazioni e le includono in un blocco attraverso un processo chiamato "proof of work". Questo coinvolge la risoluzione di un enigma crittografico.
-reviewed: false

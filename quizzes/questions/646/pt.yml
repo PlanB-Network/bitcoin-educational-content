@@ -1,9 +1,0 @@
-question: Qual é o objetivo dos endereços de múltiplas assinaturas na Lightning Network?
-answer: Eles exigem que duas partes concordem em desbloquear os fundos.
-wrong_answers:
-  - Eles permitem transações mais rápidas.
-  - Eles fornecem segurança adicional contra hacking.
-  - Eles permitem o uso de várias criptomoedas.
-explanation: |
-  Os endereços de múltiplas assinaturas na Lightning Network exigem que duas partes concordem em desbloquear os fundos. Essa é uma medida de segurança que garante que os fundos só possam ser movidos com o consentimento de ambas as partes.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Warum erstellt Alice eine Auszahlungstransaktion, bevor sie die Einzahlungstransaktion veröffentlicht?
+answer: Um ihre Gelder im Falle eines Problems mit Bob zurückzuholen
+wrong_answers:
+  - Um die Kapazität des Kanals mit jeder Transaktion zu erhöhen
+  - Um unmittelbar nach Eröffnung eine Lightning-Transaktion durchzuführen
+  - Um Bob zu ermöglichen, die Gelder direkt auszugeben
+explanation: |
+  Alice erstellt eine Auszahlungstransaktion, um ihre Gelder zurückzuholen, falls ein Problem mit Bob auftritt, und sichert so die Sicherheit ihrer Einlage.
+reviewed: false

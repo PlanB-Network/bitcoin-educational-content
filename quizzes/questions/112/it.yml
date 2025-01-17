@@ -1,9 +1,0 @@
-question: Cosa significa KYC?
-answer: Conosci il tuo cliente
-wrong_answers:
-  - Tieni i tuoi soldi
-  - Conserva i tuoi codici
-  - Gentilmente rispetta la conformità
-explanation: |
-  KYC o Conosci il tuo cliente si riferisce al processo che le aziende devono seguire per verificare l'identità dei loro clienti. Questo viene tipicamente fatto per garantire la conformità alle normative e prevenire attività illegali come il riciclaggio di denaro o frodi.
-reviewed: false

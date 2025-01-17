@@ -1,0 +1,13 @@
+question: Wie lautet der Name des kryptografischen Algorithmus, der bei Silent Payments verwendet wird, um ein gemeinsames Geheimnis zwischen dem Empfänger und dem Zahler zu etablieren?
+
+answer: ECDH
+
+wrong_answers:
+  - RSA
+  - DH
+  - SHA256
+
+explanation: |
+  Der ECDH (Elliptic-Curve Diffie-Hellman) Algorithmus wird bei Silent Payments zwischen dem Scan-Paar von Schlüsseln des Empfängers und der Summe der Schlüsselpaare des Senders verwendet, um das gemeinsame Geheimnis zu etablieren, das die Ableitung der einzigartigen Zahlungsadresse ermöglicht.
+
+reviewed: false

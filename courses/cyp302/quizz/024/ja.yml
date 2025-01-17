@@ -1,0 +1,9 @@
+question: 42 mod 2の値は何ですか？
+answer: 0
+wrong_answers:
+  - 1
+  - 2
+  - 42
+explanation: |
+  42を2で割ると、余りはゼロになります。したがって、42 mod 2は0に等しいです。
+  レビュー済み: false

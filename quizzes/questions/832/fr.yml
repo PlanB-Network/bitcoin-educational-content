@@ -1,9 +1,0 @@
-question: Quelle est la deuxième étape courante dans l'authentification à deux facteurs (2FA) ?
-answer: Un code généré par une application comme Google Authenticator ou Authy.
-wrong_answers:
-  - Un appel téléphonique à l'utilisateur du compte
-  - Un e-mail à l'utilisateur du compte
-  - Une lettre envoyée à l'adresse du domicile de l'utilisateur du compte
-explanation: |
-  La deuxième étape de l'authentification à deux facteurs (2FA) peut être un code temporaire envoyé par SMS, un code généré par une application ou une clé de sécurité physique.
-reviewed: false

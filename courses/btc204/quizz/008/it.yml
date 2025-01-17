@@ -1,0 +1,9 @@
+question: Se una transazione ha 2 UTXO di 5.000 sats come input e 3 UTXO di 3.000 sats come output, quali sono le commissioni di transazione?
+answer: 1.000 sats
+wrong_answers:
+  - 1.500 sats
+  - 2.500 sats
+  - 3.000 sats
+explanation: |
+  Le commissioni di una transazione rappresentano la differenza tra gli input totali e gli output totali. È ciò che rimane dopo aver consumato tutti gli input e creato tutti gli output. Il calcolo è quindi; commissioni = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

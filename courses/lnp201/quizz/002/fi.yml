@@ -1,0 +1,9 @@
+question: Jos Alice lähettää 40 000 satoshia Bobille maksukanavasta, jossa hänellä alun perin on 100 000 satoshia, kuinka paljon varoja hänellä on jäljellä transaktion jälkeen?
+answer: 60 000 satoshia
+wrong_answers:
+  - 30 000 satoshia
+  - 40 000 satoshia
+  - 140 000 satoshia
+explanation: |
+  Lähetettyään 40 000 satoshia, Alicen saldo kanavassa on 60 000 satoshia.
+reviewed: false

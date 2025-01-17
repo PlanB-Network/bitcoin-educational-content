@@ -1,0 +1,8 @@
+question: A que corresponde a notação /<0;1>/* em um descritor?
+answer: À cadeia externa e interna com derivação sequencial
+wrong_answers:
+  - A um endereço de multisignatura ordenado
+  - A um checksum para caminhos de derivação
+  - A um caminho de derivação endurecido
+explanation: |
+  A notação /<0;1>/* indica que o descritor pode gerar endereços para a cadeia externa (0) e interna (1), com derivação sequencial graças ao curinga (*).

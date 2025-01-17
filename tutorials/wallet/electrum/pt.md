@@ -4,7 +4,7 @@ name: Electrum
 description: Guia completo do Electrum, do básico ao avançado
 ---
 
-![capa](assets/cover.png)
+![capa](assets/cover.webp)
 
 Descrição do Electrum
 

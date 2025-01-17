@@ -1,0 +1,9 @@
+question: Em uma transação de Bitcoin, o que o script de bloqueio faz?
+answer: Impõe condições específicas para gastar os fundos associados
+wrong_answers:
+  - Ele envia automaticamente os fundos para múltiplos endereços
+  - Ele determina o valor do UTXO a ser criado
+  - Ele bloqueia temporariamente os fundos para prevenir gastos excessivos
+explanation: |
+  O script de bloqueio impõe condições, como assinar com uma chave privada, para desbloquear e usar os fundos em uma transação.
+reviewed: false

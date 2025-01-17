@@ -1,0 +1,9 @@
+question: What does the sighash flag SIGHASH_NONE allow?
+answer: Modifying the outputs after signing
+wrong_answers:
+  - Modifying the inputs after signing
+  - Covering all inputs and outputs
+  - Restricting modifications to only one output
+explanation: |
+  SIGHASH_NONE only covers the inputs, leaving the outputs modifiable after signing.
+reviewed: false

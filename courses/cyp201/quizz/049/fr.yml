@@ -1,0 +1,9 @@
+question: À quoi sert la phrase mnémonique dans un portefeuille HD Bitcoin ?
+answer: À dériver de manière déterministe toutes les clés
+wrong_answers:
+  - À signer des transactions directement
+  - À chiffrer les adresses Bitcoin
+  - À générer un hash pour les UTXOs
+explanation: |
+  La phrase mnémonique permet de dériver toutes les clés privées et publiques d'un portefeuille, facilitant ainsi la sauvegarde et la récupération.
+reviewed: false

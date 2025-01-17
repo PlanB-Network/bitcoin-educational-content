@@ -1,0 +1,9 @@
+question: Que permet de dériver une clé publique étendue ?
+answer: Les clés publiques enfants uniquement normales
+wrong_answers:
+  - Les clés privées enfants uniquement normales
+  - Les clés publiques enfants endurcies et normales
+  - Les clés privées enfants endurcies et normales
+explanation: |
+  Une clé publique étendue permet uniquement de dériver des clés publiques enfants normales, pas de clés privées ni de clés endurcies.
+reviewed: false

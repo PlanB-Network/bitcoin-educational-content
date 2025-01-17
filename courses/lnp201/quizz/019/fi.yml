@@ -1,0 +1,8 @@
+question: Mitä sitoumustapahtumajärjestelmä takaa Salamakanavan osallistujille?
+answer: Kumpikin voi palauttaa varansa julkaisemalla viimeksi allekirjoitetun tapahtuman
+wrong_answers:
+  - Tapahtumat ovat nähtävissä Bitcoin-lohkoketjussa
+  - Kanavan kapasiteetti kasvaa jokaisen tapahtuman myötä
+  - Maksut jaetaan kahden osallistujan kesken
+explanation: |
+  Allekirjoitetut sitoumustapahtumat takaavat, että kumpikin osallistuja voi palauttaa varansa julkaisemalla uusimman version, jos kanava sulkeutuu.

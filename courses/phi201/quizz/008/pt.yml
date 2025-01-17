@@ -1,0 +1,9 @@
+question: De acordo com Bastiat, qual é a pior forma de pilhagem?
+answer: Impostos e monopólios
+wrong_answers:
+  - Roubo cometido por um indivíduo contra outro
+  - Guerra e conquistas
+  - Todas as formas de pilhagem são igualmente ruins
+explanation: |
+  Bastiat considera impostos e monopólios como a pior forma de pilhagem porque são legitimados pelo estado, levando a uma apropriação sistemática dos recursos e liberdades dos indivíduos, muitas vezes sob o pretexto do interesse público.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Pourquoi l'analyste ne va pas appliquer la CIOH sur une transaction de type Stonewall ?
+
+answer: Car il y a 2 outputs de même montants
+
+wrong_answers:
+  - Car il n'y a que 2 inputs
+  - Car il ne connait pas ce pattern
+  - Car il y a plus d'outputs que d'inputs
+
+explanation: |
+  L'analyse d'une transaction Stonewall de l'extérieur ne conduit pas à l'application de la CIOH, car la présence de deux outputs de même montant suggère un pattern de coinjoin. D'un point de vue extérieur, la CIOH n'est donc pas applicable dans ce cas spécifique.
+
+reviewed: false

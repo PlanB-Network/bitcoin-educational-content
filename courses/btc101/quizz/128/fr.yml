@@ -1,0 +1,11 @@
+question: Lorsque vous créez un plan de succession, qu'est-ce qui n'est pas nécessaire d'inclure ?
+answer: Le nom du portefeuille Bitcoin que vous utilisez habituellement.
+wrong_answers:
+  - Une lettre manuscrite listant vos actifs.
+  - Une description de comment accéder à vos fonds.
+  - Les informations de contact de personnes de confiance.
+explanation: |
+  Créer un plan de succession est une étape cruciale pour assurer que vos bitcoins seront correctement gérés après votre décès.
+  Ce plan peut inclure une lettre manuscrite listant vos actifs,
+  leurs méthodes d'accès, et les informations de contact de personnes de confiance à contacter.
+reviewed: true

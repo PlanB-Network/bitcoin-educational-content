@@ -1,0 +1,11 @@
+question: Em que nível aproximado está a taxa geral de reutilização de endereços no Bitcoin?
+
+answer: Cerca de 50%
+
+wrong_answers:
+  - Cerca de 5%
+  - Cerca de 15%
+  - Cerca de 40%
+
+explanation: |
+  Desde o início dos anos 2010, a taxa geral de reutilização de endereços no Bitcoin tem flutuado em torno de 50%.

@@ -1,0 +1,11 @@
+question: Jaký je rozdíl mezi obchodováním a investováním v kontextu Bitcoinu?
+answer: Obchodování zahrnuje krátkodobé kontrakty s vysokým rizikem, zatímco investování zahrnuje nákup BTC na krátkou až středně dlouhou dobu s omezeným rizikem.
+wrong_answers:
+  - Obchodování zahrnuje nákup BTC na krátkou až středně dlouhou dobu, zatímco investování zahrnuje krátkodobé kontrakty s vysokým rizikem.
+  - Obchodování zahrnuje nákup BTC na dlouhou dobu, zatímco investování zahrnuje krátkodobé kontrakty s vysokým rizikem.
+  - Obchodování zahrnuje nákup BTC na krátkou až středně dlouhou dobu, zatímco investování zahrnuje nákup BTC na dlouhou dobu.
+explanation: |
+  V kontextu Bitcoinu obchodování zahrnuje krátkodobé kontrakty s
+  vysokým rizikem, zatímco investování zahrnuje nákup BTC na krátkou až středně dlouhou dobu s omezeným
+  rizikem.
+reviewed: false

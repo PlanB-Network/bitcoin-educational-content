@@ -1,0 +1,9 @@
+question: Se uma transação tem 2 UTXOs de 5.000 sats como entradas e 3 UTXOs de 3.000 sats como saídas, quais são as taxas da transação?
+answer: 1.000 sats
+wrong_answers:
+  - 1.500 sats
+  - 2.500 sats
+  - 3.000 sats
+explanation: |
+  As taxas de uma transação representam a diferença entre o total de entradas e o total de saídas. É o que resta após consumir todas as entradas e criar todas as saídas. O cálculo é, portanto; taxas = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

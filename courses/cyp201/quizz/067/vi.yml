@@ -1,0 +1,9 @@
+question: Mục đích của chỉ số trong việc tạo ra các khóa con là gì?
+answer: Phân biệt các cặp khóa anh em
+wrong_answers:
+  - Xác định bản chất của khóa (công khai hoặc riêng tư)
+  - Chỉ định mức độ bảo mật của khóa
+  - Thêm một lớp bảo mật nữa
+explanation: |
+  Chỉ số cho phép phân biệt các khóa con được tạo ra từ cùng một cặp khóa cha mẹ.
+reviewed: false

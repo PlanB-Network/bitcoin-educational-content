@@ -1,0 +1,8 @@
+question: Hạn chế chính của ví JBOK là gì?
+answer: Chúng yêu cầu phải sao lưu độc lập cho từng khóa riêng tư
+wrong_answers:
+  - Chúng không cho phép tạo mới địa chỉ
+  - Chúng không tương thích với chữ ký số
+  - Chúng sử dụng khóa công khai không nén
+explanation: |
+  Ví JBOK buộc người dùng phải sao lưu từng khóa riêng tư một cách riêng biệt, làm phức tạp việc quản lý chúng.

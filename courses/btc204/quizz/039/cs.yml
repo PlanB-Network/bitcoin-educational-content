@@ -1,0 +1,9 @@
+question: Proč se nedoporučuje zveřejňovat přijímací adresy na sociálních sítích?
+answer: Protože mohou být použity k propojení onchain aktivit s skutečnou identitou.
+wrong_answers:
+  - Protože je mohou snadno hacknout zlomyslní hackeři.
+  - Protože by mohly přilákat podvodné nabídky a vystavit vás phishingovým kampaním.
+  - Protože umožňují použití heuristiky společného vlastnictví vstupů.
+explanation: |
+  Sdílení přijímacích adres Bitcoinu na internetu může sloužit jako vstupní bod pro analýzu řetězce tím, že propojí identitu (skutečnou nebo pseudonymní) s onchain aktivitou.
+reviewed: false

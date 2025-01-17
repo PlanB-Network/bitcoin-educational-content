@@ -1,0 +1,12 @@
+question: Miksi on tärkeää varmistaa sivuston julkisen avaimen aitouden sertifikaattijärjestelmän avulla?
+answer: Vahvistaakseen sivuston aitouden.
+wrong_answers:
+  - Varmistaakseen, ettei huijaus voi tapahtua, mutta vain yhdistettäessä julkisen Wi-Fi-verkon kautta.
+  - Osittain estääkseen verkossa olevia mainoksia.
+  - Varmistaakseen, ettei mikään pahantahtoinen taho esiinny sivustona.
+explanation: |
+  Sivuston julkisen avaimen aitouden varmistaminen sertifikaattijärjestelmän avulla
+  on tärkeää sivuston aitouden vahvistamiseksi. Tämä auttaa suojaamaan
+  pahantahtoisilta henkilöiltä, jotka esiintyvät sivustona ja siirtävät tietoja
+  salaamattomassa muodossa.
+reviewed: true

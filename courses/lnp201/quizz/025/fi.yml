@@ -1,0 +1,9 @@
+question: Mitkä ovat kolme menetelmää kanavan sulkemiseksi Lightning-verkossa?
+answer: Yhteistyöllinen sulkeminen, pakotettu sulkeminen, huijaamisella sulkeminen
+wrong_answers:
+  - Nopea sulkeminen, hidas sulkeminen, kaksinkertaisella allekirjoituksella sulkeminen
+  - Turvallinen sulkeminen, automatisoitu sulkeminen, varojen menetyksellä sulkeminen
+  - Suora sulkeminen, epäsuora sulkeminen, vaatimuksella sulkeminen
+explanation: |
+  On kolme menetelmää: yhteistyöllinen sulkeminen, jossa osapuolet ovat yhtä mieltä, pakotettu sulkeminen ilman toisen osapuolen vastausta, ja huijaamisella sulkeminen, jossa osapuoli yrittää julkaista vanhan siirron.
+reviewed: false

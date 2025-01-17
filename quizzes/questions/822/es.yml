@@ -1,9 +1,0 @@
-question: ¿Cuáles son las características de una buena contraseña?
-answer: Larga, compleja, única y no basada en información personal.
-wrong_answers:
-  - Corta, simple y fácil de recordar.
-  - Basada en información personal como fechas de nacimiento y nombres.
-  - La misma contraseña para todas las cuentas.
-explanation: |
-  Una buena contraseña es larga (al menos 12 caracteres), compleja (una mezcla de letras mayúsculas y minúsculas, números y símbolos), única (no se reutiliza para diferentes cuentas) y no está basada en información personal.
-reviewed: false

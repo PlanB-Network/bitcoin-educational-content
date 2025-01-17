@@ -1,9 +1,0 @@
-question: Quelle est la longueur des clés privées dans un portefeuille Bitcoin ?
-answer: 256 bits
-wrong_answers:
-  - 128 bits
-  - 512 bits
-  - 1024 bits
-explanation: |
-  Les clés privées dans un portefeuille Bitcoin, qui sont essentielles pour la propriété de la cryptomonnaie, ont une longueur fixe de 256 bits.
-reviewed: false

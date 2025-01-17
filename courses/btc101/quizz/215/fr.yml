@@ -1,0 +1,9 @@
+question: Que signifie le fait que Bitcoin ait une tendance générale à la hausse ?
+answer: Une tendance générale à la hausse pour Bitcoin signifie que, globalement, le prix du Bitcoin a été en augmentation.
+wrong_answers:
+  - Une tendance générale à la hausse pour Bitcoin signifie que le prix est garanti de monter indéfiniment sans aucune fluctuation.
+  - Une tendance générale à la hausse pour Bitcoin signifie que Bitcoin devient moins précieux et perd son attrait sur le marché.
+  - Une tendance générale à la hausse pour Bitcoin signifie qu'il est seulement populaire parmi un petit groupe d'investisseurs et n'a aucun impact sur le marché global.
+explanation: |
+  Une tendance générale à la hausse pour Bitcoin fait référence à une augmentation constante de son prix sur une certaine période. Il est important de noter que, bien qu'une tendance à la hausse suggère une trajectoire positive, cela ne garantit pas que le prix continuera de monter sans aucune fluctuation.
+reviewed: true

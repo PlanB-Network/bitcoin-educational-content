@@ -1,0 +1,12 @@
+question: Qual é um método para proteger seus bitcoins a longo prazo?
+answer: Gravar sua frase mnemônica em um material resistente como o aço.
+wrong_answers:
+  - Armazená-los em uma carteira quente.
+  - Mantê-los em uma plataforma de câmbio.
+  - Compartilhar sua frase mnemônica com um colega de trabalho.
+explanation: |
+  Gravar sua frase mnemônica em um material resistente como
+  o aço cria um backup físico de suas chaves que é
+  resistente tanto a danos por água quanto a fogo, garantindo assim a
+  segurança de seus bitcoins a longo prazo.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Apa salah satu solusi bagi struktur besar atau penggemar Bitcoin yang bersemangat untuk menerima Bitcoin?
+answer: BTCpay Server
+wrong_answers:
+  - Dompet Bitcoin
+  - Bursa Bitcoin
+  - Penambangan Bitcoin
+explanation: >-
+  BTCpay Server adalah solusi bagi struktur besar atau penggemar Bitcoin yang bersemangat untuk menerima Bitcoin. Solusi lain termasuk OpenNode untuk bisnis online sederhana dan Swiss Bitcoin Pay untuk pedagang amatir.

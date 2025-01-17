@@ -1,0 +1,9 @@
+question: What type of group primarily uses cryptography?
+answer: Groups defined on integers or elements described by integers
+wrong_answers:
+  - Groups of complex numbers or elements described by complex numbers
+  - Groups of geometric transformations or elements described by geometric transformations
+  - Groups of rational numbers or elements described by rational numbers
+explanation: |
+  Cryptography uses groups based on integers, or elements described by integers such as the points on an elliptic curve, for encryption and signing operations.
+reviewed: false

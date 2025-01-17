@@ -1,0 +1,12 @@
+question: Qual é a principal ferramenta usada pelos mineradores na rede Bitcoin hoje?
+answer: ASICs
+wrong_answers:
+  - CPUs
+  - GPUs
+  - FPGAs
+explanation: |
+  Atualmente, os mineradores usam exclusivamente ASICs dedicados a esta
+  operação, otimizados para testar o máximo número de
+  combinações com o menor consumo de energia possível
+  e da forma mais rápida possível.
+reviewed: true

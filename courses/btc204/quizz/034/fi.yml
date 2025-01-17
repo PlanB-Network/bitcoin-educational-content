@@ -1,0 +1,9 @@
+question: Yksinkertaisessa maksutapahtumassa, jossa on 500 000 satoshin syöte jaettuna yhteen 47 500 satoshin ulostuloon ja toiseen 451 000 satoshin ulostuloon, kumpi UTXO todennäköisesti on vaihtoraha?
+answer: Se, joka on 451 000 satoshia.
+wrong_answers:
+  - Se, joka on 500 000 satoshia.
+  - Se, joka on 47 500 satoshia.
+  - Ei kumpikaan.
+explanation: |
+  Kun yksinkertaisessa maksutapahtumassa kahden ulostulon välillä on riittävän suuri ero, voidaan arvioida, että suurempi ulostulo on todennäköisesti vaihtoraha.
+reviewed: false

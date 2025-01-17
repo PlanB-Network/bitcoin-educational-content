@@ -1,0 +1,5 @@
+description: |
+  VeraCrypt là phần mềm mã hóa đĩa mã nguồn mở giúp bảo vệ dữ liệu nhạy cảm của bạn. Là người kế nhiệm của TrueCrypt, nó cung cấp mã hóa mạnh mẽ bằng các thuật toán như AES, Serpent hoặc Twofish, cho phép tạo các ổ đĩa được mã hóa hoặc mã hóa các phân vùng và toàn bộ đĩa, cả nội bộ và bên ngoài.
+
+contributors:
+  - pretty-private

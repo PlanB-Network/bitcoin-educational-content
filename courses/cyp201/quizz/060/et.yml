@@ -1,0 +1,9 @@
+question: Millist tüüpi võti on seotud zpub prefiksiga?
+answer: Laiendatud avalik võti SegWit V0 jaoks Mainnetis
+wrong_answers:
+  - Laiendatud privaatvõti SegWit V1 jaoks Mainnetis
+  - Laiendatud avalik võti Legacy jaoks Testnetis
+  - Laiendatud avalik võti SegWit V2 jaoks Testnetis
+explanation: |
+  zpub prefiks tähistab laiendatud avalikku võtit SegWit V0 skriptide jaoks Mainnetis.
+üle_vaadatud: false

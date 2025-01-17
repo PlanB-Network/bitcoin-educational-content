@@ -1,0 +1,9 @@
+question: Mis on seaduse loomulikud antropoloogilised alused Bastiati järgi?
+answer: Elu, vabadus ja omand.
+wrong_answers:
+  - Võim, ebavõrdsus ja domineerimine.
+  - Vabadus, võrdsus ja vendlus.
+  - Õiglus, autoriteet ja vendlus.
+explanation: |
+  Bastiat määratleb seaduse loomulikud alused kui elu, vabadus ja omand, kolm elementi, mis eksisteerivad enne igasugust inimlikku seadusandlust ja moodustavad loomulike õiguste aluse.
+reviewed: false

@@ -1,9 +1,0 @@
-question: ¿Quién decide la ruta antes de enviar el pago en la Lightning Network?
-answer: El nodo del remitente.
-wrong_answers:
-  - El nodo del receptor.
-  - El nodo intermediario.
-  - La propia red.
-explanation: |
-  En la Lightning Network, es el nodo del remitente quien decide la ruta antes de enviar el pago. Por lo tanto, se realiza una búsqueda de la mejor ruta y el remitente es el único que conoce la ruta y el precio.
-reviewed: false

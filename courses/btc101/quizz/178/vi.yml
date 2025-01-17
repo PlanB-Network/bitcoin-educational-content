@@ -1,0 +1,9 @@
+question: Xu hướng chung của Bitcoin, xét đến nguồn cung hạn chế và quá trình halving, là gì?
+answer: Một xu hướng tăng chung.
+wrong_answers:
+  - Một xu hướng giảm chung.
+  - Không có xu hướng nào cả.
+  - Một xu hướng biến động mạnh mẽ không theo một khuôn mẫu nhận biết được.
+explanation: >-
+  Bitcoin, do có số lượng hạn chế là 21 triệu bitcoin và quá trình halving (giảm một nửa lượng tiền tạo ra mỗi 4 năm trung bình), theo dõi một xu hướng tăng chung.
+reviewed: true

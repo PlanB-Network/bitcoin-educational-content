@@ -1,0 +1,9 @@
+question: Při jednoduché platební transakci, kde je vstup 500 000 satoshi rozdělen na jeden výstup 47 500 satoshi a druhý 451 000 satoshi, který UTXO je pravděpodobně vrácení peněz?
+answer: Ten o 451 000 satoshi.
+wrong_answers:
+  - Ten o 500 000 satoshi.
+  - Ten o 47 500 satoshi.
+  - Žádný z nich.
+explanation: |
+  Když je mezi dvěma výstupy v transakci v jednoduchém platebním modelu dostatečně velký rozdíl, dá se odhadnout, že větší výstup je pravděpodobně vrácení peněz.
+reviewed: false

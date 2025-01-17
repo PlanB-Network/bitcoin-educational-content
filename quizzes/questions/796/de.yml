@@ -1,9 +1,0 @@
-question: Warum ist es sicherer, europäische Wi-Fi-Zugangspunkt-Anbieter wie SNCF zu nutzen?
-answer: Sie verkaufen keine Benutzerverbindungsdaten aufgrund der DSGVO-Vorschriften.
-wrong_answers:
-  - Sie bieten schnellere Internetgeschwindigkeiten.
-  - Sie ermöglichen es Benutzern, geografische Beschränkungen zu umgehen.
-  - Sie blockieren Online-Werbung.
-explanation: |
-  In der Europäischen Union wird der Datenschutz durch die Datenschutz-Grundverordnung (DSGVO) reguliert. Daher verkaufen europäische Wi-Fi-Zugangspunkt-Anbieter wie SNCF keine Benutzerverbindungsdaten und sind daher sicherer in der Nutzung.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Miks ei soovitata kasutada brauserilaiendusi automaatseks paroolide täitmiseks?
+answer: Need võivad muuta kasutaja haavatavamaks õngitsusrünnakute suhtes, suurendada rünnaku pinda ja aeglustada brauseri jõudlust.
+wrong_answers:
+  - Need on keerulised kasutada.
+  - Need ei ühildu kõigi brauseritega.
+  - Need nõuavad palju salvestusruumi.
+explanation: |
+  Brauserilaiendused automaatseks paroolide täitmiseks võivad muuta kasutaja haavatavamaks õngitsusrünnakute suhtes. Samuti kipuvad need suurendama rünnaku pinda ja võivad aeglustada brauseri jõudlust, pakkudes seega olulist riski.
+reviewed: false

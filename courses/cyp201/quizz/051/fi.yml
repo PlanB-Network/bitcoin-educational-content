@@ -1,0 +1,9 @@
+question: Mikä on pääasiallinen ero salalauseen ja PIN-koodin välillä Bitcoin-lompakossa?
+answer: Salalause muuttaa avainjohdannan, ei PIN-koodi
+wrong_answers:
+  - PIN-koodi on linkitetty muistilauseeseen
+  - PIN-koodia käytetään transaktioiden salaamiseen, mutta salalausetta ei
+  - PIN-koodi luo Bitcoin-osoitteita
+explanation: |
+  Toisin kuin PIN-koodi, salalause on suoraan osallisena avainjohdannan prosessissa ja muuttaa lompakon avaimia.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Perché si dice che una stringa pseudocasuale è indistinguibile da una stringa veramente casuale?
+answer: Perché è quasi impossibile determinarne l'origine senza informazioni aggiuntive
+wrong_answers:
+  - Perché contiene segmenti deterministici identici a una stringa veramente casuale
+  - Perché utilizza numeri floating nella sua costruzione
+  - Perché è generata esclusivamente da eventi naturali
+explanation: |
+  Una stringa pseudocasuale è progettata per assomigliare strettamente a una stringa veramente casuale, rendendo la distinzione impossibile senza accesso al seme o all'algoritmo utilizzato.
+reviewed: false

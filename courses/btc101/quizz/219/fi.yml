@@ -1,0 +1,9 @@
+question: Mitä tämä kurssi ehdottaa Bitcoinin tulevaisuudesta?
+answer: Se ei tule katoamaan.
+wrong_answers:
+  - Sen korvaa parempi teknologia.
+  - Se kielletään maailmanlaajuisesti.
+  - Se menettää arvonsa.
+explanation: |
+  Kurssiteksti ehdottaa, että Bitcoin ei ole katoamassa. Päinvastoin, vallankumous on vasta alkanut.
+reviewed: true

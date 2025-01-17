@@ -1,0 +1,9 @@
+question: What is the role of the key in symmetric encryption and decryption processes?
+answer: It is used to encrypt and decrypt the message
+wrong_answers:
+  - It is only used to decrypt the message
+  - It is used to create a message integrity verification code
+  - It is shared publicly to generate other keys
+explanation: |
+  In symmetric encryption schemes, the same private key is used both to encrypt the message when sending and to decrypt it upon reception.
+reviewed: false

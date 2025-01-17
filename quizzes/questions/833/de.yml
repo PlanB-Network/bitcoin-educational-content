@@ -1,9 +1,0 @@
-question: Warum gilt SMS nicht als beste Option für 2FA?
-answer: Es liefert nur den Nachweis über den Besitz einer Telefonnummer.
-wrong_answers:
-  - Es ist zu teuer
-  - Es ist zu langsam
-  - Es ist zu kompliziert einzurichten
-explanation: |
-  SMS gilt nicht als beste Option für 2FA, da es nur den Nachweis über den Besitz einer Telefonnummer liefert, nicht jedoch den Nachweis der Identität.
-reviewed: false

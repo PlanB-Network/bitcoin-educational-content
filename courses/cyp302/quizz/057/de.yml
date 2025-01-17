@@ -1,0 +1,9 @@
+question: Was ist eine abelsche Gruppe?
+answer: Eine Gruppe, in der die Operation kommutativ ist
+wrong_answers:
+  - Eine Gruppe, die einen einzigartigen Generator hat
+  - Eine Gruppe, die auf ganze Zahlen beschränkt ist
+  - Eine Gruppe ohne neutrales Element
+explanation: |
+  Eine abelsche Gruppe ist eine Gruppe, in der die Reihenfolge der Elemente in der Operation das Ergebnis nicht beeinflusst, was bedeutet, dass sie der Kommutativität folgt.
+reviewed: false

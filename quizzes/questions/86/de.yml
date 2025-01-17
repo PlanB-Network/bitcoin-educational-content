@@ -1,9 +1,0 @@
-question: Was ist eine Hot Wallet?
-answer: Eine Bitcoin-Wallet auf Ihrem Telefon oder Computer, die mit dem Internet verbunden ist.
-wrong_answers:
-  - Eine Wallet, die physisch heiß ist
-  - Eine Wallet, die bei Bitcoin-Nutzern beliebt ist
-  - Eine Wallet, die für die Aufbewahrung großer Mengen an Bitcoins empfohlen wird
-explanation: |
-  Eine Hot Wallet ist ein Begriff, der verwendet wird, um eine Bitcoin-Wallet zu beschreiben, die auf einem Gerät mit Internetzugang, wie einem Telefon oder Computer, gespeichert ist. Dies erleichtert Transaktionen, bedeutet aber auch, dass die Wallet potenziell anfällig für Online-Bedrohungen ist.
-reviewed: false

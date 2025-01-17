@@ -1,0 +1,9 @@
+question: Tại sao một nút truyền dữ liệu lại khó ước lượng chính xác lượng thanh khoản của một kênh?
+answer: Bởi vì chỉ có hai bên tham gia biết chính xác sự phân bổ của quỹ
+wrong_answers:
+  - Bởi vì tổng dung lượng của các kênh liên tục thay đổi
+  - Bởi vì phí của các nút trung gian không được công bố
+  - Bởi vì các kênh tự động đóng sau mỗi giao dịch
+explanation: |
+  Sự phân bổ chính xác của quỹ trong một kênh chỉ có thể được nhìn thấy bởi hai nút tham gia, ngăn chặn các nút khác từ việc ước lượng lượng thanh khoản có sẵn cho việc định tuyến.
+reviewed: false

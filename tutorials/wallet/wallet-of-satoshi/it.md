@@ -4,7 +4,7 @@ name: Wallet of satoshi
 description: Configura il tuo primo portafoglio LN in 1 minuto
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Wallet of Satoshi (https://www.walletofsatoshi.com/) è un'app mobile per iOS e Android che ti permette di inviare e ricevere pagamenti Lightning.
 

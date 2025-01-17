@@ -1,0 +1,11 @@
+question: Mikä on Lightning Network?
+answer: Se on Bitcoinin toinen kerros.
+wrong_answers:
+  - Se on kryptovaluuttapörssi.
+  - Se on tyyppi Bitcoin-lompakosta.
+  - Se on Bitcoin-louhintapooli.
+explanation: |
+  Lightning Network on toisen kerroksen teknologia, jota sovelletaan bitcoiniin
+  ja joka käyttää mikromaksukanavia skaalatakseen sen lohkoketjun kykyä suorittaa
+  transaktioita.
+reviewed: false

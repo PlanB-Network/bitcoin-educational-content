@@ -1,0 +1,8 @@
+question: Mis on peamine argument, mida küünlatootjad esitavad oma taotluse toetuseks?
+answer: Vajadus toetada riiklikku tööstust
+wrong_answers:
+  - Silmade kaitse
+  - Küünalde ülekaalukas kvaliteet võrreldes päikesega
+  - Küünalde tootmise kõrge hind
+explanation: |
+  Küünlatootjad väidavad, et nende taotlus on õigustatud vajadusega kaitsta riiklikku tööstust, argument, mida Bastiat kasutab protektsionismi hukka mõistmiseks.

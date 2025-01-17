@@ -1,0 +1,9 @@
+question: Why is forced closure less desirable?
+answer: It is slower and the fees may be inappropriate
+wrong_answers:
+  - It requires authorization from Satoshi Nakamoto
+  - It forces the recreation of a channel later
+  - It prevents the use of the revocation key
+explanation: |
+  Forced closure is less desirable because it includes a timelock, which slows down the process, and the fees may be inappropriate since they were set at the time of the channel's creation.
+reviewed: false

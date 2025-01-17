@@ -1,0 +1,11 @@
+question: Apa yang disarankan teks ini untuk Anda lakukan guna memperluas pengetahuan Anda tentang Bitcoin?
+answer: Merujuk pada perpustakaan sumber daya yang telah terdaftar dan dikategorikan selama beberapa tahun terakhir
+wrong_answers:
+  - Menghadiri konferensi Bitcoin
+  - Berinvestasi dalam Bitcoin
+  - Memulai operasi penambangan Bitcoin
+explanation: >-
+  Teks ini menyarankan bahwa untuk memperluas pengetahuan Anda tentang Bitcoin, Anda dapat
+  merujuk pada perpustakaan sumber daya yang telah terdaftar dan dikategorikan selama beberapa
+  tahun terakhir, termasuk podcast, situs web, artikel, tutorial, buku, dan konten
+  lainnya.

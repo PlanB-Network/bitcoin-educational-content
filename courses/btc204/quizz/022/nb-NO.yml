@@ -1,0 +1,9 @@
+question: Hva er navnet på mønsteret som består av en enkelt UTXO i inngang og en enkelt UTXO i utgang?
+answer: Sweeping
+wrong_answers:
+  - Konsolidering
+  - Coinjoin
+  - Batch spending
+explanation: |
+  Tolkingen av denne strukturen er at vi er i nærvær av en sweeping, som betyr en selvoverføring av bitcoins.
+reviewed: false

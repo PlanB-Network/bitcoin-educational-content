@@ -1,0 +1,9 @@
+question: Por que tipos de script menos comumente usados podem ser mais facilmente identificáveis do que scripts amplamente utilizados?
+answer: Porque o grupo de transações com o mesmo tipo de script é menor.
+wrong_answers:
+  - Porque eles requerem mais validações pelos mineradores.
+  - Porque eles usam algoritmos de criptografia mais fracos.
+  - Porque eles são mais frequentemente rejeitados pelos nós da rede Bitcoin.
+explanation: |
+  Se o grupo total de transações com o mesmo tipo de script no qual estamos nos escondendo é pequeno, somos mais facilmente identificáveis do que em um grupo muito grande de transações.
+reviewed: false

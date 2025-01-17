@@ -1,0 +1,11 @@
+question: ¿Qué heurística se puede utilizar para vincular todas las entradas de una consolidación?
+
+answer: La CIOH.
+
+wrong_answers:
+  - Reutilización de dirección.
+  - La salida más grande.
+  - Pago redondeado.
+
+explanation: |
+  Un observador externo puede aplicar la CIOH para hipotetizar que todas las entradas de una consolidación pertenecen a la misma entidad.

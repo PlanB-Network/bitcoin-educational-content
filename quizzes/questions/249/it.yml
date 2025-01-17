@@ -1,9 +1,0 @@
-question: Qual è una delle principali caratteristiche di Bitcoin?
-answer: Può essere scambiato ovunque nel mondo senza alcuna autorizzazione da parte di nessuna entità.
-wrong_answers:
-  - Può essere utilizzato solo da un gruppo selezionato di persone.
-  - Richiede l'autorizzazione da un'autorità centrale per essere utilizzato.
-  - Può essere utilizzato solo in determinati paesi.
-explanation: |
-  Il testo menziona che Bitcoin è pseudonimo e può essere scambiato ovunque nel mondo senza alcuna autorizzazione da parte di nessuna entità.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Entre estos 4 métodos para adquirir bitcoins, ¿cuál te expone menos al riesgo de identificación de claves?
+answer: Comprar en P2P con efectivo
+wrong_answers:
+  - Comprar a través de una plataforma regulada sin KYC
+  - Comprar a través de una plataforma regulada con KYC
+  - Comprar vía PayPal a través de una plataforma de emparejamiento P2P
+explanation: |
+  Comprar bitcoins de persona a persona con efectivo es el método que menos te expone a los riesgos de identificación de claves porque no requiere pasar por una empresa regulada y no deja rastro en el sistema bancario. Además, este método generalmente no requiere la divulgación de información personal.
+reviewed: false

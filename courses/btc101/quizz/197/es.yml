@@ -1,0 +1,9 @@
+question: ¿Cuál es uno de los riesgos asociados con la compra de Bitcoin?
+answer: Su precio puede caer a 0.
+wrong_answers:
+  - Puede ser fácilmente robado.
+  - Puede ser duplicado.
+  - Puede perderse físicamente.
+explanation: |
+  El texto del curso menciona que Bitcoin es un activo financiero altamente volátil, y su precio puede caer a 0, lo cual es uno de los riesgos asociados con la compra de Bitcoin.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Was ist ein Blockmit im Kontext der Bitcoin-Sicherheit?
+answer: Eine kostengünstige Lösung, um Ihre mnemonische Phrase auf ein Stück Stahl zu gravieren.
+wrong_answers:
+  - Eine Art von Bitcoin-Wallet, um mehrere Transaktionen auf einmal zu signieren.
+  - Eine kostengünstige Lösung, um Bitcoins zu Hause zu minen.
+  - Eine Art von Bitcoin-Wallet, die mehrere Signaturen benötigt, um UTXOs auszugeben.
+explanation: |
+  Der Blockmit ist eine kostengünstige Lösung, um Ihre
+  mnemonische Phrase auf einem widerstandsfähigen Material wie Stahl zu gravieren, und sichert
+  somit Ihre Bitcoins langfristig.
+reviewed: true

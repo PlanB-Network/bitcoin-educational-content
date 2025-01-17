@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de la clave de revocación en la Lightning Network?
-answer: Para castigar a un participante que intenta hacer trampa al publicar una transacción de compromiso antigua.
-wrong_answers:
-  - Para recompensar a un participante que hace trampa exitosamente.
-  - Para abrir un nuevo canal.
-  - Para validar una transacción.
-explanation: |
-  La clave de revocación es un mecanismo en la Lightning Network para prevenir el fraude. Si un participante intenta hacer trampa al publicar una transacción de compromiso antigua, el otro participante puede usar la clave de revocación para castigar al tramposo y tomar todos los SAT del canal.
-reviewed: false

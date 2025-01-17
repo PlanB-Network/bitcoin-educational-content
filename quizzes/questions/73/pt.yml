@@ -1,9 +1,0 @@
-question: Quais são as três principais funções de uma carteira de Bitcoin?
-answer: Receber bitcoins, enviar bitcoins, protegê-los contra hacking e tentativas de roubo.
-wrong_answers:
-  - Armazenar bitcoins, permitir o envio de bitcoins, protegê-los contra hacking e tentativas de roubo.
-  - Permitir o recebimento de bitcoins, armazenar bitcoins, protegê-los contra hacking e tentativas de roubo.
-  - Permitir o recebimento de bitcoins, permitir o envio de bitcoins, vender bitcoins.
-explanation: |
-  Uma carteira de Bitcoin é usada para interagir com a rede Bitcoin. Suas três principais funções são permitir o recebimento de bitcoins, permitir o envio de bitcoins e protegê-los contra hacking e tentativas de roubo.
-reviewed: false

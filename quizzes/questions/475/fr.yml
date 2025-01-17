@@ -1,9 +1,0 @@
-question: Comment la taille de la somme de contrôle est-elle déterminée lors de la génération d'une phrase mnémonique pour un portefeuille Bitcoin ?
-answer: En divisant la taille de l'entropie par 32.
-wrong_answers:
-  - En multipliant la taille de l'entropie par 32.
-  - En ajoutant 32 à la taille de l'entropie.
-  - En soustrayant 32 de la taille de l'entropie.
-explanation: |
-  La taille de la somme de contrôle est déterminée en divisant la taille de l'entropie par 32. Par exemple, une entropie de 256 bits génère une somme de contrôle de 8 bits.
-reviewed: false

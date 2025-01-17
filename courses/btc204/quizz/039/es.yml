@@ -1,0 +1,9 @@
+question: ¿Por qué se desaconseja publicar direcciones de recepción en redes sociales?
+answer: Porque pueden utilizarse para vincular actividades onchain con una identidad real.
+wrong_answers:
+  - Porque pueden ser fácilmente hackeadas por hackers maliciosos.
+  - Porque podrían atraer ofertas fraudulentas y exponerte a campañas de phishing.
+  - Porque pueden permitir la aplicación de la heurística de propiedad de entrada común.
+explanation: |
+  Compartir direcciones de recepción de Bitcoin en internet puede utilizarse como un punto de entrada para el análisis de cadena al vincular una identidad (real o pseudónima) con la actividad onchain.
+reviewed: false

@@ -1,0 +1,5 @@
+description: |
+  NerdMiner est un outil éducatif et ludique dédié au minage de Bitcoin, basé sur une carte ESP-32 S3. Bien qu'il n'ait pas la puissance des ASICs professionnels, il permet de découvrir concrètement le fonctionnement du minage avec une consommation électrique de seulement 0,5 W. Connecté à des pools de minage, il offre une infime chance de miner un bloc tout en affichant des statistiques sur son écran intégré. Idéal pour les passionnés et les curieux.
+
+contributors:
+  - pretty-private

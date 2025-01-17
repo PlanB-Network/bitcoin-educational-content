@@ -1,0 +1,13 @@
+question: Mikä oli vuotuinen inflaatioaste Boliviassa vuonna 1985?
+answer: 11 749%
+wrong_answers:
+  - 12 800%
+  - 10 000%
+  - 15 000%
+explanation: |
+  Vuonna 1985 Bolivian vuotuinen inflaatioaste saavutti 11 749%, mikä osoittaa
+  
+  että lähes joka kuukausi inflaatio oli lähellä tai ylitti hyperinflaation kynnyksen
+  
+  50%.'
+reviewed: false

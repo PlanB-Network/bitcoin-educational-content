@@ -1,9 +1,0 @@
-question: Cosa succede in caso di chiusura forzata se la commissione di rete è di 1 SAT al momento della chiusura?
-answer: La transazione viene sovrapagata di 50 volte.
-wrong_answers:
-  - La transazione viene sottopagata di 50 volte.
-  - La transazione viene sovrapagata di 2 volte.
-  - La transazione viene sottopagata di 2 volte.
-explanation: |
-  In caso di chiusura forzata, il protocollo prevede commissioni 5 volte più alte rispetto a quelle attuali al momento in cui la transazione è stata creata. Se la commissione di rete è di 1 SAT al momento della chiusura, la transazione viene sovrapagata di 50 volte.
-reviewed: false

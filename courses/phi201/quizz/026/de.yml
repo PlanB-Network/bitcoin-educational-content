@@ -1,0 +1,9 @@
+question: Was ist die griechische polis?
+answer: Der Marktplatz
+wrong_answers:
+  - Das Naturgesetz
+  - Menschliches Gesetz
+  - Der den Göttern gewidmete Tempel
+explanation: |
+  Die griechische polis bezieht sich auf den Stadtstaat, eine politische und soziale Organisation, in der Bürger am öffentlichen Leben teilnehmen und an kollektiven Entscheidungen mitwirken. Sie bildet den Rahmen der Demokratie und der Bürgerschaft im antiken Griechenland.
+reviewed: false

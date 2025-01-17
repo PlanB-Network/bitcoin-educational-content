@@ -1,0 +1,11 @@
+question: Hva er en ikke-KYC måte å kjøpe eller selge bitcoins på?
+answer: Ved å bruke peer-to-peer løsninger som Peach.
+wrong_answers:
+  - Ved å bruke en varm lommebok.
+  - Ved å bruke en kald lommebok.
+  - Ved å bruke en maskinvarelommebok.
+explanation: |
+  KYC, eller Know Your Customer, er en prosess som bedrifter bruker for å verifisere
+  identiteten til kundene sine. Ikke-KYC metoder, som peer-to-peer løsninger,
+  lar brukere kjøpe eller selge bitcoins uten å måtte oppgi personlig informasjon.
+reviewed: false

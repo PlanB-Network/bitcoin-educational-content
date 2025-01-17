@@ -1,0 +1,63 @@
+id: 64cc1f77-688b-4a3c-a418-2f74a12d7f03
+chapterId: b7275d31-3b60-5fb7-b9f5-030097010553
+difficulty: hard
+duration: 45
+author: DecouvreBitcoin
+tags:
+  - Bitcoin
+  - Multidisciplinary
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1286
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2608
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2644
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2608
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2716
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2572
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2716

@@ -1,9 +1,0 @@
-question: Was ist der Unterschied zwischen einem Passwort und einer mnemonischen Phrase in einer Bitcoin-Wallet?
-answer: Das Passwort ist frei wählbar und kann eine nahezu unbegrenzte Größe haben, während die mnemonische Phrase standardisiert ist und bestimmten Einschränkungen hinsichtlich Größe, Prüfsumme und Codierung folgen muss.
-wrong_answers:
-  - Das Passwort ist standardisiert, während die mnemonische Phrase frei wählbar und nahezu unbegrenzt in der Größe ist.
-  - Das Passwort und die mnemonische Phrase sind identisch.
-  - Das Passwort ist optional, während die mnemonische Phrase obligatorisch ist.
-explanation: |
-  Um die Schlüssel einer HD-Wallet abzuleiten, sind sowohl die mnemonische Phrase als auch das Passwort erforderlich. Das Passwort ist frei wählbar und kann eine nahezu unbegrenzte Größe haben. Es ist nicht in der mnemonischen Phrase enthalten, die standardisiert ist und bestimmten Einschränkungen hinsichtlich Größe, Prüfsumme und Codierung folgen muss.
-reviewed: false

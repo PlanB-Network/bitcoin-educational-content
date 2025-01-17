@@ -1,9 +1,0 @@
-question: Quel est un avantage de l'utilisation d'un VPN pour naviguer sur Internet à la maison?
-answer: Il améliore la sécurité des données échangées en ligne.
-wrong_answers:
-  - Il augmente la vitesse d'Internet.
-  - Il permet d'accéder à plus de sites web.
-  - Il économise les données mobiles.
-explanation: |
-  L'utilisation d'un VPN à la maison peut améliorer la sécurité des données que vous échangez en ligne. Cela est dû au fait que les VPN chiffrent les données, ce qui rend plus difficile leur interception par des tiers.
-reviewed: false

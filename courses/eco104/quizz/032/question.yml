@@ -1,0 +1,62 @@
+id: 425d1c45-77db-46be-ba65-a9f3e42e73cf
+chapterId: 3b23b0ae-41a7-53b0-bc48-7343a64f28bc
+difficulty: easy
+duration: 30
+author: LookingGlass
+tags:
+  - Stablecoins
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2654
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2577
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1288
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2615
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2654
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2577
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2615
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2731
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2577
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2731

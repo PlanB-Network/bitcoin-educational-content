@@ -1,0 +1,9 @@
+question: Was ist die Folge von Geldschöpfung?
+answer: Es führt zu Inflation, die allmählich die Bevölkerung verarmen lässt.
+wrong_answers:
+  - Es führt zu Deflation, die allmählich die Bevölkerung bereichert.
+  - Es führt zu einer stabilen Wirtschaft ohne Inflation oder Deflation.
+  - Es führt zu einer Abnahme der Geldmenge.
+explanation: |
+  Geldschöpfung, oder die Schaffung von neuem Geld durch Zentralbanken, führt zu Inflation. Dies liegt daran, dass die Zunahme der Geldmenge die Kaufkraft des Geldes reduziert, was zu höheren Preisen und einer Abnahme des Wertes von Ersparnissen führt.
+reviewed: true

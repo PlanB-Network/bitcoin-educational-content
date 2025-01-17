@@ -1,0 +1,11 @@
+question: Apa tantangan utama yang terkait dengan penambangan Bitcoin?
+answer: Industri penambangan sangat kompetitif dan tidak stabil, dan insiden yang tidak terduga dapat mengganggu operasi penambangan.
+wrong_answers:
+  - Tantangan utama adalah menemukan sumber listrik yang andal.
+  - Tantangan utama adalah menemukan tempat yang aman untuk menyimpan bitcoin yang ditambang.
+  - Tantangan utama adalah menemukan pembeli untuk bitcoin yang ditambang.
+explanation: |
+  Tantangan utama yang terkait dengan penambangan Bitcoin adalah bahwa
+  industri penambangan sangat kompetitif dan tidak stabil,
+  dan insiden yang tidak terduga dapat mengganggu operasi penambangan.
+reviewed: true

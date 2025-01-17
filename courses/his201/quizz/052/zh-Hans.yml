@@ -1,0 +1,9 @@
+question: 中本聪在2010年9月为比特币协议增加的最大区块大小是多少？
+answer: 1 MB
+wrong_answers:
+  - 2 MB
+  - 4 MB
+  - 8 MB
+explanation:
+  MAX_BLOCK_SIZE参数在7月份被添加，然后从9月12日开始在所有网络节点上强制执行该限制。
+reviewed: true

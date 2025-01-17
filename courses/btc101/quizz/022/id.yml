@@ -1,0 +1,12 @@
+question: Mengapa emas menjadi standar alat tukar?
+answer: Karena kelangkaannya, ketahanannya, dan kemampuan dibaginya
+wrong_answers:
+  - Karena kelimpahannya, ketahanannya, dan ketidakmampuan dibaginya
+  - Karena kelangkaannya, kemudahan rusaknya, dan kemampuan dibaginya
+  - Karena kelimpahannya, kemudahan rusaknya, dan ketidakmampuan dibaginya
+explanation: |
+  Emas menjadi standar alat tukar karena kelangkaannya, ketahanannya,
+  dan kemampuan dibaginya. Kelangkaannya mencegah devaluasi dari produksi, ketahanannya memastikan tidak
+  terkikis seiring waktu, dan kemampuan dibaginya memungkinkan untuk digunakan dalam transaksi
+  berbagai ukuran.
+reviewed: true

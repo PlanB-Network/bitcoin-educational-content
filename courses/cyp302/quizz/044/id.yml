@@ -1,0 +1,9 @@
+question: Mengapa himpunan bilangan bulat dengan operasi penjumlahan merupakan sebuah grup, sementara tidak demikian dengan perkalian?
+answer: Himpunan tersebut tidak memenuhi kondisi inversi di bawah operasi perkalian
+wrong_answers:
+  - Himpunan tersebut tidak tertutup di bawah operasi perkalian
+  - Perkalian tidak bersifat asosiatif terhadap bilangan bulat
+  - Tidak ada elemen netral untuk perkalian
+explanation: |
+  Himpunan bilangan bulat tidak memenuhi kondisi inversi di bawah operasi perkalian karena tidak ada invers untuk setiap bilangan bulat yang akan dikalikan untuk menghasilkan 1. Hanya elemen 1 dan -1 yang memenuhi kondisi ini.
+reviewed: false

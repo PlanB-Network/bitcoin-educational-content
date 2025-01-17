@@ -1,0 +1,10 @@
+question: Mạng Lưới Lightning cho phép điều gì?
+answer: Giao dịch Bitcoin tức thì với chi phí thấp.
+wrong_answers:
+  - Giao dịch Bitcoin tức thì với chi phí cao.
+  - Giao dịch Bitcoin chậm trễ với chi phí thấp.
+  - Giao dịch Bitcoin chậm trễ với chi phí cao.
+explanation: >-
+  Mạng Lưới Lightning cho phép giao dịch Bitcoin tức thì với chi phí thấp,
+  từ đó giải quyết vấn đề khả năng mở rộng của Bitcoin.
+reviewed: true

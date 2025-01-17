@@ -1,0 +1,13 @@
+question: O que é um endereço de recebimento de Bitcoin?
+
+answer: Uma sequência de caracteres usada para receber bitcoins.
+
+wrong_answers:
+  - Um código usado para enviar bitcoins.
+  - Um algoritmo para minerar bitcoins.
+  - Um contrato inteligente.
+
+explanation: |
+  Um endereço de recebimento é usado para receber bitcoins em uma carteira.
+
+reviewed: false

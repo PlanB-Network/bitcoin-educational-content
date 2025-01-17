@@ -1,0 +1,9 @@
+question: Pourquoi les bitcoins achetés via des échanges en P2P sont-ils souvent plus chers que ceux achetés sur des plateformes régulées ?
+answer: Risques supplémentaires, frais de transaction et prime pour la confidentialité.
+wrong_answers:
+  - Volatilité du marché, risques de double dépense et conformité légale.
+  - Frais d'inscription, options limitées et temps de validation plus long.
+  - Frais d'inscription, régulations strictes et faible sécurité.
+explanation: |
+   Les bitcoins vendus en P2P sont généralement plus chers que les bitcoins provenant de plateformes régulées. Cette majoration s'explique par plusieurs facteurs: le vendeur assume plus de risques, il doit également couvrir des coûts supplémentaires, et l'échange offre à l'acheteur un niveau de confidentialité plus élevé.
+reviewed: false

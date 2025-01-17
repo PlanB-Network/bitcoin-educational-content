@@ -1,0 +1,9 @@
+question: Bitcoinプロトコルで使用されている楕円曲線はどれですか？
+answer: secp256k1
+wrong_answers:
+  - secp256r1
+  - ed25519
+  - P-384
+explanation: |
+  Bitcoinは、暗号操作において、方程式 y² = x³ + 7 で定義されるsecp256k1曲線を使用しています。
+reviewed: false

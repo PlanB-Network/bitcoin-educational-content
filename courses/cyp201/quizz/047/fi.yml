@@ -1,0 +1,9 @@
+question: Mikä on bittikoko binäärisegmentissä, jota käytetään kunkin muistisanan luomiseen?
+answer: 11 bittiä
+wrong_answers:
+  - 8 bittiä
+  - 16 bittiä
+  - 10 bittiä
+explanation: |
+  Jokainen 11-bittinen segmentti vastaa sanaa standardoidusta 2048 sanan listasta BIP39: ssä.
+reviewed: false

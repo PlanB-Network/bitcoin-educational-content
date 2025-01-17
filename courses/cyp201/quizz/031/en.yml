@@ -1,0 +1,9 @@
+question: What is the modifier that can be combined with the basic sighash flags?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY modifies the sighash flags to only cover a single input while leaving the rest modifiable.
+reviewed: false

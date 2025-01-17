@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "non-community-builder-characteristics",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Builder's complete name."
+    },
+    "category": {
+      "type": "string",
+      "enum": ["wallet", "infrastructure", "exchange", "education", "service", "conference", "privacy", "investment", "node", "mining", "news", "manufacturer"],
+      "description": "Define Builder category. Only specific categories are allowed."
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "website": {
+          "type": "string",
+          "description": "URL of the builder's website."
+        },
+        "twitter": {
+          "type": "string",
+          "description": "URL of the builder's Twitter profile."
+        },
+        "github": {
+          "type": "string",
+          "description": "URL of the builder's Github profile.",
+          "format": "uri"
+        },
+        "youtube": {
+          "type": "string",
+          "description": "URL of the builder's YouTube channel.",
+          "format": "uri"
+        }
+      },
+      "required": ["website"],
+      "additionalProperties": false
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of associated tags to the builder. The list of tags is composed of 21 items that can be found in a specified source.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    }
+  },
+  "required": ["name", "category", "links", "tags"],
+  "additionalProperties": false
+}
+

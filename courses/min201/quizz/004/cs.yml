@@ -1,0 +1,12 @@
+question: Jaký je hlavní nástroj používaný těžaři v síti Bitcoin dnes?
+answer: ASICy
+wrong_answers:
+  - CPU
+  - GPU
+  - FPGA
+explanation: |
+  V současnosti těžaři výhradně používají ASICy určené pro tuto
+  operaci, optimalizované pro testování maximálního počtu
+  kombinací s co nejmenší spotřebou energie
+  a co nejrychleji.
+reviewed: true

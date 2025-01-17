@@ -1,0 +1,10 @@
+question: Qual è uno dei modi per acquisire bitcoin senza KYC?
+answer: Bancomat Bitcoin.
+wrong_answers:
+  - Piattaforme di brokeraggio.
+  - Piattaforme DCA.
+  - Trasferimenti bancari.
+explanation: |
+  Il testo del corso menziona che ci sono diversi modi per
+  acquisire Bitcoin senza KYC, uno dei quali è tramite i Bancomat Bitcoin.
+reviewed: true

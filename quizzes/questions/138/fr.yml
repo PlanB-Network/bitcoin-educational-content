@@ -1,9 +1,0 @@
-question: Comment les utilisateurs transfèrent-ils la propriété de leur argent dans le réseau Bitcoin?
-answer: En signant numériquement des transactions avec leurs clés privées.
-wrong_answers:
-  - En remettant physiquement leurs Bitcoins.
-  - En envoyant un e-mail au destinataire.
-  - En fournissant leur adresse Bitcoin au destinataire.
-explanation: |
-  Les utilisateurs du réseau Bitcoin transfèrent la propriété de leur argent en signant numériquement des transactions avec leurs clés privées. Cela vérifie qu'ils sont les propriétaires des Bitcoins qu'ils souhaitent transférer.
-reviewed: false

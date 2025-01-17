@@ -1,9 +1,0 @@
-question: ¿Cuál es el precedente histórico para el uso de las monedas fiduciarias?
-answer: Líderes centralizando el oro e introduciendo una nueva moneda equivalente en valor al oro, la cual luego es gradualmente devaluada.
-wrong_answers:
-  - Líderes introduciendo una nueva moneda respaldada por oro, la cual luego es gradualmente incrementada en valor.
-  - Líderes introduciendo una nueva moneda sin valor intrínseco, la cual luego es gradualmente incrementada en valor.
-  - Líderes introduciendo una nueva moneda respaldada por una cesta de productos básicos, la cual luego se mantiene estable en valor.
-explanation: |
-  Históricamente, los líderes han centralizado el oro e introducido una nueva moneda equivalente en valor al oro. Esta nueva moneda luego es gradualmente devaluada, a menudo bajo la apariencia de ser en beneficio del pueblo.
-reviewed: false

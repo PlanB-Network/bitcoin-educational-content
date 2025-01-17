@@ -1,0 +1,10 @@
+question: Hva er viktigheten av å bruke et sterkt passord for datasikkerhet?
+answer: For å forhindre uautorisert tilgang til systemet.
+wrong_answers:
+  - For å gjøre systemet raskere.
+  - For å øke lagringskapasiteten.
+  - For å forbedre brukergrensesnittet.
+explanation: |
+  Et sterkt passord er avgjørende for datasikkerhet for å forhindre uautorisert
+  tilgang til systemet.
+reviewed: false

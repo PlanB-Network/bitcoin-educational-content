@@ -1,0 +1,13 @@
+question: Miten tunnisteet liitetään Bitcoin-lompakkoon?
+
+answer: Paikallisesti lompakko-ohjelmistossa.
+
+wrong_answers:
+  - Keskusyksikön hallinnoimassa tietokannassa.
+  - Bitcoin-lohkoketjussa OP_RETURN: n kautta.
+  - Vain RAM-muistissa ohjelmiston suorituksen aikana.
+
+explanation: |
+  Tunnisteet tallennetaan paikallisesti lompakko-ohjelmiston toimesta, eikä niitä koskaan lähetetä Bitcoin-verkon yli. Tunnistaminen on siis henkilökohtainen hallintatyökalu.
+
+reviewed: false

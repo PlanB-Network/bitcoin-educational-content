@@ -1,9 +1,0 @@
-question: Wie heißt der Prozess, der Transaktionen im Bitcoin-Netzwerk überprüft?
-answer: Mining
-wrong_answers:
-  - Graben
-  - Ernten
-  - Farmen
-explanation: |
-  Der Prozess, der Transaktionen im Bitcoin-Netzwerk überprüft, wird als Mining bezeichnet. Miner führen eine kryptografische Aufgabe aus und werden mit der Ausgabe neuer Bitcoins belohnt.
-reviewed: false

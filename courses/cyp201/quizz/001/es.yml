@@ -1,0 +1,9 @@
+question: ¿Qué propiedad asegura que es computacionalmente imposible recuperar la entrada de un hash?
+answer: Resistencia a la preimagen
+wrong_answers:
+  - Resistencia a colisiones
+  - Efecto avalancha
+  - Resistencia a la segunda preimagen
+explanation: |
+  La resistencia a la preimagen asegura que es prácticamente imposible encontrar el mensaje original a partir de su hash.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Cosa succede alla liquidità di un canale quando viene effettuata una transazione nella Rete Lightning?
-answer: La liquidità viene ridistribuita lungo il percorso tra le due parti.
-wrong_answers:
-  - La liquidità rimane la stessa.
-  - La liquidità viene trasferita su un altro canale.
-  - La liquidità aumenta.
-explanation: |
-  Nella Rete Lightning, quando viene effettuata una transazione, la liquidità viene ridistribuita lungo il percorso tra le due parti.
-reviewed: false

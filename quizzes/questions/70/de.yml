@@ -1,9 +1,0 @@
-question: Wie viele geschätzte Bitcoins befinden sich nach dem ersten Halbierungsereignis im Umlauf?
-answer: 10.500.000 BTC
-wrong_answers:
-  - 5.250.000 BTC
-  - 15.750.000 BTC
-  - 21.000.000 BTC
-explanation: |
-  Nach dem ersten Halbierungsereignis, das bei Blockhöhe 210.000 stattfindet, befanden sich geschätzte 10.500.000 BTC im Umlauf, was der Hälfte der Gesamtzahl der Bitcoins entspricht, die im Umlauf sein werden.
-reviewed: false

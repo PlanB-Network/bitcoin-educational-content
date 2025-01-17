@@ -1,0 +1,8 @@
+question: Mikä on SIGHASH_SINGLE n tarkoitus?
+answer: Kattaa yhden syötteen ja sen vastaavan tulosteen
+wrong_answers:
+  - Kattaa kaikki syötteet ja tulosteet
+  - Kattaa vain syötteet
+  - Kattaa kaikki tulosteet paitsi yhden
+explanation: |
+  SIGHASH_SINGLE kattaa yhden syötteen ja yhden siihen indeksillä vastaavan tulosteen, jättäen loput muokattaviksi.

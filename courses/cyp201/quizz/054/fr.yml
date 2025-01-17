@@ -1,0 +1,9 @@
+question: Quel est le rôle principal de la passphrase dans un portefeuille HD Bitcoin ?
+answer: Modifier la dérivation des clés pour renforcer la sécurité
+wrong_answers:
+  - Déchiffrer les transactions en attente
+  - Générer les UTXOs du portefeuille
+  - Protéger l'accès au portefeuille avec un face ID
+explanation: |
+  La passphrase agit comme un second facteur de sécurité, modifiant la graine de dérivation des clés pour empêcher l'accès au portefeuille en cas de compromission de la phrase mnémonique.
+reviewed: false

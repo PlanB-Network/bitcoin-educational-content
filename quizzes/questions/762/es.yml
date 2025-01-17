@@ -1,9 +1,0 @@
-question: ¿Cuál es la recompensa para los mineros en la red de Bitcoin?
-answer: Nuevos bitcoins y tarifas de transacción.
-wrong_answers:
-  - Solo nuevos bitcoins.
-  - Solo tarifas de transacción.
-  - No hay recompensa para los mineros.
-explanation: |
-  Los mineros en la red de Bitcoin son recompensados con nuevos bitcoins y tarifas de transacción por su trabajo en validar y crear bloques.
-reviewed: false

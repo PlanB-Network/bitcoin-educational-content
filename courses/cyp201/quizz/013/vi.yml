@@ -1,0 +1,8 @@
+question: Vai trò chính của PBKDF2 trong Bitcoin là gì?
+answer: Tạo ra hạt giống của một ví HD
+wrong_answers:
+  - Xác thực giao dịch
+  - Mã hóa khóa riêng
+  - Tạo địa chỉ Bitcoin
+explanation: |
+  PBKDF2 được sử dụng để tạo ra một hạt giống từ một cụm từ ghi nhớ và một cụm từ mật khẩu tùy chọn.

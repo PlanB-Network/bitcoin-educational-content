@@ -1,0 +1,14 @@
+question: Quel est le problème des généraux byzantins ?
+answer: C'est un problème de coordination des informations dans un système où les différents acteurs ne peuvent pas être considérés comme fiables.
+wrong_answers:
+  - C'est un problème de vérification des transactions dans un réseau décentralisé.
+  - C'est un problème d'empêchement du double paiement dans une monnaie numérique.
+  - C'est un problème de maintien du consensus dans un réseau centralisé.
+explanation: |
+  Le problème des généraux byzantins est un problème classique en
+  informatique distribuée, qui implique d'atteindre un consensus
+  dans un réseau où certains des nœuds peuvent être défectueux ou
+  malveillants. Bitcoin résout ce problème grâce à l'utilisation d'une
+  blockchain basée sur la Preuve de Travail, qui assure que tous
+  les nœuds sont d'accord sur l'état de l'historique des transactions.
+reviewed: true

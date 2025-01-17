@@ -1,0 +1,9 @@
+question: Miks klassifitseeritakse RC4 sünkroonseks voogšifriks?
+answer: Võtmehoidla on sõltumatu nii avatekstist kui ka šifreeritud tekstist
+wrong_answers:
+  - Võtmehoidla sõltub eelnevate šifreeritud tekstide väärtustest
+  - Avatekst peab olema integreeritud võtmehoidlasse
+  - See kasutab võtmehoidlat, mis põhineb ainult avatekstil
+explanation: |
+  RC4 on sünkroonne voogšiffer, kuna selle võtmehoidla sõltub ainult algsest võtmest ja mitte avatekstist või šifreeritud tekstist, tagades selle hoidla sõltumatuse sõnumitest.
+reviewed: false

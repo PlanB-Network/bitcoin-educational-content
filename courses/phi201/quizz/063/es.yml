@@ -1,0 +1,9 @@
+question: ¿Cuál era la actitud de la Iglesia medieval hacia los préstamos con interés?
+answer: Los prohibía.
+wrong_answers:
+  - Los alentaba.
+  - Los toleraba en ciertos casos.
+  - No tenía opinión al respecto.
+explanation: |
+  La Iglesia medieval prohibía los préstamos con interés, considerando esta práctica un pecado de usura, ya que se consideraba inmoral obtener beneficio de un préstamo exigiendo más que la cantidad inicial.
+reviewed: false

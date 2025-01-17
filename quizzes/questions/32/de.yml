@@ -1,9 +1,0 @@
-question: Welche der folgenden Punkte sind kein Vorteil von Bitcoin als Währung?
-answer: Es wird zur Bezahlung von Steuern verwendet
-wrong_answers:
-  - Es ist teilbar
-  - Es ist transportabel
-  - Es ist erlaubnisloses Geld
-explanation: |
-  Bitcoin bietet aufgrund seiner Eigenschaften wie Teilbarkeit, Überprüfbarkeit, erlaubnislosem Aspekt und Transportfähigkeit einen ausgezeichneten Wertspeicher. Darüber hinaus stellt es als neutrale Internetwährung ein gutes Tauschmittel dar, das keine Grenzen kennt.
-reviewed: false

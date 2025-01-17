@@ -1,9 +1,0 @@
-question: Quelle est une implication potentielle de l'avancement des technologies d'IA ?
-answer: Plus de 80% des emplois disparaîtront en raison de l'IA et de l'automatisation.
-wrong_answers:
-  - Les technologies d'IA rendront les humains obsolètes.
-  - Les technologies d'IA entraîneront une diminution de l'intelligence humaine.
-  - Les technologies d'IA provoqueront un effondrement économique mondial.
-explanation: |
-  Le texte mentionne qu'une implication potentielle de l'avancement des technologies d'IA est que plus de 80% des emplois disparaîtront en raison de l'IA et de l'automatisation.
-reviewed: false

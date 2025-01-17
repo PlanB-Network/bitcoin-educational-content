@@ -1,0 +1,64 @@
+id: 473073c1-3c24-489e-9f3d-9a6d349c01fc
+chapterId: 7b9ee427-316a-54e3-a2d4-4ea97839a31b
+difficulty: hard
+duration: 45
+author: DecouvreBitcoin
+tags:
+  - Bitcoin
+  - Block Space
+  - Lightning Network
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2800
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2650
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1325
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2725
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2800
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2650
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2725
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2950
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2650
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2950

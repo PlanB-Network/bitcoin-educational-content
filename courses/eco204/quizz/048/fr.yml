@@ -1,0 +1,9 @@
+question: Quelles sont les conséquences de multiples redénominations sur la population ?
+answer: Ne corrige pas le problème et efface les économies de la population.
+wrong_answers:
+  - Augmentation de la richesse et de l'abondance alimentaire.
+  - Augmentation des économies et de la pénurie alimentaire.
+  - Diminution de la richesse et de l'abondance alimentaire.
+explanation: |
+  Le fait de redénominer plusieurs fois, de supprimer des zéros ou de changer le nom de la monnaie ne corrige pas le problème et a des répercussions directes sur la population, allant de la perte d'aide aux problèmes alimentaires.
+reviewed: false

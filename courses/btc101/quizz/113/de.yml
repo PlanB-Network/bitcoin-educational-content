@@ -1,0 +1,13 @@
+question: Was hindert jeden daran, dieselbe Bitcoin-Wallet zu verwenden?
+answer: Verschiedene Personen benötigen unterschiedliche Anwendungsfälle.
+wrong_answers:
+  - Es ist teuer, eine Bitcoin-Wallet zu verwenden.
+  - Es ist illegal, eine Bitcoin-Wallet zu verwenden.
+  - Die Leute werden sich niemals auf den Namen einer solchen Wallet einigen.
+explanation: |
+  Während eine Person vielleicht Sicherheit priorisiert, könnte
+  eine andere Benutzerfreundlichkeit oder spezifische Funktionen
+  wertschätzen. Daher könnte eine einzelne Bitcoin-Wallet nicht
+  allen Anforderungen gerecht werden, was es notwendig macht,
+  dass mehrere Wallet-Optionen existieren.
+reviewed: true

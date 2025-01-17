@@ -1,0 +1,9 @@
+question: Mục tiêu của cộng đồng Bitcoin về quản lý mạng là gì?
+answer: Tăng cường phân phối, khả năng chống kiểm duyệt và khả năng chống giòn của mạng.
+wrong_answers:
+  - Tăng giá của Bitcoin.
+  - Tăng tốc độ giao dịch.
+  - Tăng độ khó của việc đào.
+explanation: |
+  Cộng đồng Bitcoin luôn nỗ lực tăng cường phân phối, khả năng chống kiểm duyệt và khả năng chống giòn của mạng. Điều này phù hợp với sứ mệnh cơ bản của Bitcoin là một mạng trao đổi giá trị chống lại sự kiểm duyệt.
+reviewed: true

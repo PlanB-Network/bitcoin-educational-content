@@ -1,0 +1,9 @@
+question: ¿Qué estándar de Bitcoin introduce las carteras deterministas jerárquicas?
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 define la operación de las carteras HD, permitiendo la derivación jerárquica de claves privadas a partir de una semilla.
+reviewed: false

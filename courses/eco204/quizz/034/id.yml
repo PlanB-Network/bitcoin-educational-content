@@ -1,0 +1,12 @@
+question: Apa itu perusahaan zombie?
+answer: Perusahaan yang, dalam kondisi pasar normal, akan bangkrut atau hampir bangkrut, tetapi terus beroperasi terutama melalui peminjaman biaya rendah.
+wrong_answers:
+  - Perusahaan yang telah berbisnis selama lebih dari 100 tahun.
+  - Perusahaan yang beroperasi di sektor teknologi.
+  - Perusahaan yang telah diselamatkan oleh pemerintah.
+explanation: |
+  Perusahaan zombie adalah perusahaan yang, dalam kondisi pasar normal, akan
+  bangkrut atau hampir bangkrut, tetapi terus beroperasi terutama melalui peminjaman
+  biaya rendah. Perusahaan-perusahaan ini hanya mendapatkan cukup uang untuk menutupi
+  hutang mereka tetapi tidak mampu tumbuh secara signifikan.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál es la consecuencia directa de una política de tasas de interés bajas llevada a cabo por los bancos centrales según Bastiat?
+answer: Un aumento en las inversiones riesgosas y la inestabilidad financiera
+wrong_answers:
+  - Un aumento en el poder adquisitivo de las clases trabajadoras
+  - Una disminución en el costo de los bienes de consumo
+  - Una reducción en las desigualdades sociales
+explanation: |
+  Bastiat critica la política de tasas de interés bajas debido a su impacto negativo en la estabilidad financiera, la cual fomenta las inversiones riesgosas y la especulación, en detrimento de una economía saludable.
+reviewed: false

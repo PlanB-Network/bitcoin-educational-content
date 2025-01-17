@@ -1,0 +1,8 @@
+question: 谁在2011年9月启动了比特币改进提案系统，一个旨在协调比特币改进的过程？
+answer: Amir Taaki
+wrong_answers:
+  - Gavin Andresen
+  - Jeff Garzik
+  - Nils Schneider
+explanation:
+  这个系统是根据专门针对Python编程语言的Python增强提案（PEP）模式化的。

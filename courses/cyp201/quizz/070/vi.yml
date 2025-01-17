@@ -1,0 +1,8 @@
+question: Depth 0 đại diện cho gì trong hệ thống phân cấp của ví HD?
+answer: Khóa chính và mã chuỗi chính
+wrong_answers:
+  - Chuỗi địa chỉ bên ngoài
+  - Tài khoản mặc định
+  - Loại tiền tệ
+explanation: |
+  Depth 0 tương ứng với khóa chính và mã chuỗi chính, đây là điểm xuất phát cho tất cả các quá trình phái sinh trong một ví HD.

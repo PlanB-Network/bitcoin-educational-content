@@ -1,0 +1,9 @@
+question: Hvordan beregnes en offentlig nøkkel fra en privat nøkkel?
+answer: Ved å bruke skalar multiplikasjon på elliptisk kurve
+wrong_answers:
+  - Ved å anvende en hash på den private nøkkelen
+  - Gjennom asymmetrisk kryptering
+  - Med gjentatt addisjon av numeriske verdier
+explanation: |
+  Den offentlige nøkkelen oppnås ved skalar multiplikasjon av den private nøkkelen med generatorpunktet G på den elliptiske kurven.
+reviewed: false

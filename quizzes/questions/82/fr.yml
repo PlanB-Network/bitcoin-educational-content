@@ -1,9 +1,0 @@
-question: Quelle est la question centrale concernant la garde en autonomie lors du choix d'un portefeuille Bitcoin ?
-answer: Êtes-vous le propriétaire des fonds ou laissez-vous le contrôle de votre argent à un tiers ?
-wrong_answers:
-  - Le portefeuille est-il sécurisé avec une phrase secrète ?
-  - Le portefeuille permet-il de recevoir et d'envoyer des bitcoins ?
-  - Puis-je partager mon portefeuille avec une autre personne ?
-explanation: |
-  Êtes-vous le propriétaire des fonds ou laissez-vous le contrôle de votre argent à un tiers ? Cela est dû au fait que le détenteur de la clé privée est le propriétaire des Bitcoins.
-reviewed: false

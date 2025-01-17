@@ -1,0 +1,11 @@
+question: Jaká je jedna doporučená alternativa k použití papíru pro uchování vaší mnemonické fráze?
+answer: Vyrytí na kovovou desku.
+wrong_answers:
+  - Uložení v digitálním souboru.
+  - Napsání na bílou tabuli.
+  - Uložení jako kontakt ve vašem telefonu.
+explanation: |
+  Jednou z doporučených alternativ k papíru pro uchování
+  vaší mnemonické fráze je vyrytí na kovovou desku. Toto
+  řešení je trvanlivější a odolnější.
+reviewed: true

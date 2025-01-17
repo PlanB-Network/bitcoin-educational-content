@@ -1,0 +1,8 @@
+question: Hàm nào được sử dụng để tạo ra seed từ cụm từ ghi nhớ?
+answer: PBKDF2 với HMAC-SHA512
+wrong_answers:
+  - SHA256 đơn lẻ
+  - Double SHA256
+  - AES-256
+explanation: |
+  Seed được tạo ra sử dụng hàm PBKDF2 với HMAC-SHA512 và 2048 lần lặp, từ cụm từ ghi nhớ và cụm từ bí mật.

@@ -1,9 +1,0 @@
-question: Qu'est-ce qu'un hash dans le contexte des fonctions de hachage cryptographiques ?
-answer: Une empreinte digitale numérique unique et de taille fixe produite par une fonction de hachage.
-wrong_answers:
-  - Un type d'algorithme de chiffrement.
-  - Une clé utilisée pour décrypter des données.
-  - Une méthode de compression de données.
-explanation: |
-  Dans le contexte des fonctions de hachage cryptographiques, un hash est une empreinte digitale numérique unique et de taille fixe produite par la fonction de hachage. Il représente les données d'entrée d'une manière unique et irréversible.
-reviewed: false

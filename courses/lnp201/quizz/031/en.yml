@@ -1,0 +1,9 @@
+question: What limits the amount of an indirect payment on the Lightning Network?
+answer: The smallest liquidity available in a channel of the chosen path
+wrong_answers:
+  - The number of intermediary nodes involved
+  - The total capacity of the Lightning Network
+  - The routing fees set by each node
+explanation: |
+  The maximum amount that an indirect payment can transfer depends on the lowest liquidity available in the channels used, as each channel must adjust the funds on each side.
+reviewed: false

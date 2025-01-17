@@ -1,0 +1,13 @@
+question: Was beinhaltet die Konsolidierung?
+
+answer: Das Zusammenführen mehrerer Eingaben, um eine einzige größere zu erstellen.
+
+wrong_answers:
+  - Ein großes Eingabesignal in mehrere kleinere aufteilen.
+  - Eingaben von mehreren Wallets in eine einzige übertragen.
+  - Unbenutzte Eingaben neuen Adressen zuweisen.
+
+explanation: |
+  Das Prinzip der Konsolidierung besteht darin, Zeiträume, in denen die Gebühren bei Bitcoin niedrig sind, zu nutzen, um kleinere UTXOs in ein einzelnes größeres zu verschmelzen.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Milline lahendus võttis Saksamaa kasutusele inflatsiooni vastu võitlemiseks pärast Esimest maailmasõda?
+answer: Uue valuuta, Rentenmarki loomine
+wrong_answers:
+  - Dollariseerimine
+  - Rohkem raha trükkimine
+  - Raha pakkumise vähendamine
+explanation: |
+  Saksamaa lõi uue valuuta, Rentenmarki, et võidelda inflatsiooni vastu pärast Esimest maailmasõda. See valuuta oli tagatud Riigi territoriaalsete varadega ja see strateegia osutus tõhusaks.
+reviewed: false

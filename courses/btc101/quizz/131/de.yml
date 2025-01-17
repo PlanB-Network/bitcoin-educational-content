@@ -1,0 +1,12 @@
+question: Was ist die Rolle eines Bitcoin-Knotens im Bitcoin-Netzwerk?
+answer: Er validiert neue Blöcke und die enthaltenen Transaktionen.
+wrong_answers:
+  - Er erstellt neue Bitcoins und fügt sie den Blöcken hinzu.
+  - Er reguliert den Preis von Bitcoin.
+  - Er verwaltet das Bitcoin-Netzwerk.
+explanation: |
+  Ein Bitcoin-Knoten im Bitcoin-Netzwerk kümmert sich um
+  die Validierung von neuen Blöcken und den enthaltenen Transaktionen. Es ist
+  dieses Netzwerk von Bitcoin-Knoten, das es wahrhaftig
+  dezentralisiert macht.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Qual das seguintes não é uma característica do Bitcoin?
+answer: É facilmente censurado.
+wrong_answers:
+  - É instantaneamente transportável.
+  - Tem custos negligenciáveis de verificação.
+  - Tem uma política monetária fixa.
+explanation: |
+  O Bitcoin possui todas as características necessárias para ser uma moeda eficiente e saudável: divisível, instantaneamente transportável, incensurável, custo negligenciável para verificação e com uma política monetária já estabelecida para os séculos vindouros com 21 milhões de unidades.
+reviewed: true

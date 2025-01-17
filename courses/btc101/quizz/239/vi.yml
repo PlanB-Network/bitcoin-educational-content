@@ -1,0 +1,14 @@
+question: Điều nào sau đây không phải là một tính năng chính của các giao dịch nhỏ trên Mạng Lưới Lightning?
+answer: Thời gian thanh toán lâu.
+wrong_answers:
+  - Phí thấp.
+  - Thanh toán tức thì.
+  - Khả năng mở rộng.
+explanation: |
+  Với các giao dịch nhỏ trên Mạng Lưới Lightning, người dùng có thể
+  hưởng mức phí giao dịch thấp, làm cho việc gửi
+  các khoản tiền rất nhỏ trở nên kinh tế. Họ cũng có thể thực hiện
+  thanh toán tức thì, cho phép giao dịch diễn ra theo thời gian thực. Cuối cùng, họ
+  có thể đạt được khả năng mở rộng, cho phép xử lý một số lượng lớn
+  giao dịch cùng một lúc. Do đó, câu trả lời sai là thời gian thanh toán lâu.
+reviewed: true

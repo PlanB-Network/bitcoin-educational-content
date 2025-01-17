@@ -1,0 +1,8 @@
+question: Fungsi apa, yang dirancang pada Oktober 2010 oleh penambang m0mchil, memungkinkan node klien untuk mengambil blok kandidat dan mengembalikan bukti kerja jika solusi ditemukan?
+answer: getwork
+wrong_answers:
+  - stratum
+  - gethash
+  - getcredit
+explanation: |
+  Fungsi ini diterbitkan pada tanggal 1 Oktober. Satoshi memasukkan versi modifikasi dari fungsi ini ke dalam perangkat lunak utama pada tanggal 23 November.

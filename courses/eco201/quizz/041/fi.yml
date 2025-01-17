@@ -1,0 +1,9 @@
+question: Mikä on pankkisektorin rooli taantuman laukaisemisessa Itävaltalaisen suhdanneteorian mukaan?
+answer: Pankkisektori laukaisee taantuman, kun se päättää vähentää riskiään ja siten vähentää luoton virtausta.
+wrong_answers:
+  - Pankkisektori laukaisee taantuman, kun se päättää lisätä riskiään ja siten lisää luoton virtausta.
+  - Pankkisektori laukaisee taantuman, kun se päättää pitää riskinsä ennallaan ja siten pitää luoton virtauksen ennallaan.
+  - Pankkisektorilla ei ole roolia taantuman laukaisemisessa Itävaltalaisen suhdanneteorian mukaan.
+explanation: |
+  Itävaltalaisen suhdanneteorian mukaan pankkisektori laukaisee taantuman, kun se päättää vähentää riskiään ja siten vähentää luoton virtausta. Tämä johtaa moniin konkurssitilanteisiin, luoton kiristymiseen, käytettävissä olevan ostovoiman vähenemiseen ja taloudellisiin romahduksiin.
+reviewed: false

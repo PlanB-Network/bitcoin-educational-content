@@ -1,0 +1,9 @@
+question: Quelles sont les 3 grandes étapes d'une analyse de chaîne ?
+answer: L'observation de la blockchain, le repérage de caractéristiques et la déduction d'hypothèses.
+wrong_answers:
+  - La collecte des données, le stockage sécurisé et le reporting.
+  - L'identification des utilisateurs, la régulation des échanges et la protection contre la fraude.
+  - La collecte des données, le tirage au sort et la dénonciation.
+explanation: |
+  L'analyse de chaîne consiste d'abord à avoir accès aux données de la blockchain Bitcoin, puis à tenter de repérer des caractéristiques sur ces données et enfin à émettre des interprétations vraisemblables.
+reviewed: false

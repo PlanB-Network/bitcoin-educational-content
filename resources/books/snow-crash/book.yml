@@ -4,3 +4,78 @@ tags:
   - finance
   - probability
   - economy
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3040
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2770
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1385
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2905
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3040
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2770
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2905
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3310
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2770
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3040
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3310
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3175
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3175
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3040

@@ -1,0 +1,9 @@
+question: Proč jsou hesla často ukládána jako hash na bezpečných serverech?
+answer: Aby nebylo možné hesla snadno získat v případě úniku dat
+wrong_answers:
+  - Aby se zvětšil objem úložiště uživatelských dat
+  - Aby se hesla šifrovala v reálném čase symetrickým způsobem
+  - Aby se umožnilo uživatelům přihlásit bez hesla
+explanation: |
+  Ukládáním hashů hesel, dokonce i v případě úniku dat, nemohou být skutečná hesla přímo přečtena, čímž se zvyšuje bezpečnost.
+reviewed: false

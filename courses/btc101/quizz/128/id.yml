@@ -1,0 +1,11 @@
+question: Apa peran penambang dalam jaringan Bitcoin?
+answer: Mereka memvalidasi transaksi dengan memasukkannya ke dalam sebuah blok.
+wrong_answers:
+  - Mereka menciptakan Bitcoin baru.
+  - Mereka mengelola jaringan Bitcoin.
+  - Mereka mengatur harga Bitcoin.
+explanation: >-
+  Penambang dalam jaringan Bitcoin memiliki peran untuk memvalidasi transaksi
+  dengan memasukkannya ke dalam sebuah blok. Mereka melakukan ini dengan memecahkan teka-teki kriptografi dalam
+  proses yang disebut bukti kerja.
+reviewed: false

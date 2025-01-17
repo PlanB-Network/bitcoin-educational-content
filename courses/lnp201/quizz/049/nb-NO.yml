@@ -1,0 +1,8 @@
+question: Hva er den primære funksjonen til en Lightning-faktura?
+answer: Be om en betaling fra sendernoden
+wrong_answers:
+  - Sende midler uten en on-chain transaksjon
+  - Aktivere HTLCs på en kanal
+  - Åpne en ny Lightning-kanal
+explanation: |
+  En Lightning-faktura er en betalingsforespørsel, overført av mottakernoden til senderenoden for å initiere en betaling på Lightning-nettverket.

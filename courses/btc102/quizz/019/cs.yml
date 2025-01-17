@@ -1,0 +1,10 @@
+question: Jaké riziko je spojeno s ukládáním Bitcoinů na burzovní platformě?
+answer: Platforma může zbankrotovat, vaše Bitcoiny mohou být zabaveny, nebo může dojít k hacknutí platformy.
+wrong_answers:
+  - Platforma může zvýšit své poplatky, vaše Bitcoiny mohou ztratit na hodnotě, nebo může dojít k hacknutí platformy.
+  - Platforma může zbankrotovat, vaše Bitcoiny mohou vzrůst na hodnotě, nebo může dojít k hacknutí platformy.
+  - Platforma může zbankrotovat, vaše Bitcoiny mohou být zabaveny, nebo může dojít ke zvýšení poplatků platformy.
+explanation: |
+  Ukládání Bitcoinů na burzovní platformě nese rizika, jako je bankrot platformy, zabavení vašich Bitcoinů, nebo hacknutí platformy.
+  Proto je důležité mít kontrolu nad vaším soukromým klíčem.
+reviewed: false

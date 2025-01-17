@@ -1,0 +1,11 @@
+question: Jaké je Kaganovo kritérium pro hyperinflaci?
+answer: Inflační míra 50 % za měsíc.
+wrong_answers:
+  - Inflační míra 50 % za rok.
+  - Inflační míra 25 % za měsíc.
+  - Inflační míra 25 % za rok.
+explanation: |
+  Kaganovo kritérium definuje hyperinflaci jako inflační míru 50 %
+  za měsíc. Toto kritérium někdy může vést k nejednoznačným interpretacím, kdy
+  roky s vysokou inflační mírou nesplňují přísnou definici hyperinflace.
+reviewed: false

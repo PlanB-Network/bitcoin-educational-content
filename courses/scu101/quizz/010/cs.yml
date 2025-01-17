@@ -1,0 +1,13 @@
+question: Jaký je rozdíl mezi podnikovými VPN a spotřebitelskými VPN?
+answer: Podnikové VPN jsou dražší a složitější, zatímco spotřebitelské VPN jsou dostupnější a uživatelsky přívětivější.
+wrong_answers:
+  - Podnikové VPN jsou obvykle bezpečnější než spotřebitelské VPN, protože jsou vždy dražší.
+  - Spotřebitelské VPN jsou vždy dražší než podnikové VPN kvůli ekonomickému měřítku, kterého mohou ty druhé využívat.
+  - Kvůli náročnějšímu cílovému publiku podnikové VPN vždy šifrují data, zatímco spotřebitelské VPN ne.
+explanation: |
+  Podnikové VPN jsou navrženy pro firmy a jsou
+  typicky dražší a složitější na nastavení a správu.
+  Na druhou stranu, spotřebitelské VPN jsou určeny pro
+  individuální uživatele a jsou obecně dostupnější a
+  uživatelsky přívětivější.
+reviewed: true

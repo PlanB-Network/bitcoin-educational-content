@@ -1,0 +1,10 @@
+question: Apa tujuan dari upaya phishing?
+answer: Untuk mengekstrak informasi sensitif seperti kredensial dan kata sandi Anda.
+wrong_answers:
+  - Untuk mengirimkan email spam kepada Anda.
+  - Untuk menjual produk atau layanan kepada Anda.
+  - Untuk mengundang Anda ke acara atau webinar.
+explanation: |
+  Upaya phishing bertujuan untuk mengekstrak informasi sensitif seperti
+  kredensial dan kata sandi Anda. Peretas menggunakan berbagai taktik seperti email
+  palsu untuk menipu Anda agar mengungkapkan informasi Anda.

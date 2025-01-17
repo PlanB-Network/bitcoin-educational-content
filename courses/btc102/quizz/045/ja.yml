@@ -1,0 +1,9 @@
+question: Bitcoin Core開発者の主な役割は何ですか？
+answer: Bitcoinプロトコルとそのコア機能の主要な開発を担当しています
+wrong_answers:
+  - Bitcoinネットワークを制御しています
+  - 新しいビットコインを作成しています
+  - Bitcoinの価格を規制しています
+explanation: |
+  この章の内容では、Bitcoin Core開発者はBitcoinプロトコルとそのコア機能の主要な開発を担当していると説明されています。彼らはBitcoinネットワークを制御したり、新しいビットコインを作成したり、Bitcoinの価格を規制するわけではありません。
+reviewed: false

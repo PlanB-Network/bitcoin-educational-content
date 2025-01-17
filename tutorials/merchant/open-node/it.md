@@ -4,7 +4,7 @@ name: Open Node
 description: Configura Open Node per la tua attività online
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.webp)
 
 OpenNode (https://www.opennode.com/) è una soluzione semplice per i pagamenti in Bitcoin. Ottieni pagamenti e pagamenti in Bitcoin veloci e a basso costo per la tua attività con la nostra potente API, plugin per ecommerce o pagine di pagamento ospitate.
 

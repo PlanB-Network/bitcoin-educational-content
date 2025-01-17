@@ -1,0 +1,9 @@
+question: Co znamená apostrof (') nebo h v cestě derivace?
+answer: Zpevněná derivace
+wrong_answers:
+  - Normální derivace
+  - Externí derivace
+  - Nestandardní derivace
+explanation: |
+  Apostrof naznačuje, že derivace je zpevněná, což vyžaduje rodičovský soukromý klíč pro generování dceřiného klíče.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Wie werden neue Bitcoins erstellt und in Umlauf gebracht?
+answer: Durch Mining als Belohnung für das Hinzufügen neuer Transaktionen zur Blockchain
+wrong_answers:
+  - Durch die Ausgabe einer zentralisierten Behörde
+  - Durch den Kauf von ihnen an Bitcoin-Börsen
+  - Durch den Erhalt von ihnen als Transaktionsgebühren
+explanation: |
+  Neue Bitcoins werden durch einen Prozess namens Mining in Umlauf gebracht.
+  Miner konkurrieren miteinander, um neue Transaktionen zur Blockchain hinzuzufügen.
+  Als Gegenleistung für ihre Arbeit werden Miner mit neu erstellten Bitcoins belohnt.
+  Dieser Prozess verifiziert und sichert auch Transaktionen im Bitcoin-Netzwerk.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Apa itu Lightning Network?
+answer: Ini adalah lapisan kedua dari Bitcoin.
+wrong_answers:
+  - Ini adalah pertukaran mata uang kripto.
+  - Ini adalah jenis dompet Bitcoin.
+  - Ini adalah kolam penambangan Bitcoin.
+explanation: |
+  Lightning Network adalah teknologi lapisan kedua yang diterapkan pada bitcoin
+  yang menggunakan saluran mikropembayaran untuk meningkatkan kemampuan blockchain-nya dalam melakukan
+  transaksi.
+reviewed: false

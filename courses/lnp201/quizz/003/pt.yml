@@ -1,0 +1,9 @@
+question: Qual é a regra principal sobre os fundos que um participante pode enviar em um canal de pagamento?
+answer: Eles só podem enviar os fundos do próprio lado do canal.
+wrong_answers:
+  - Eles podem enviar até metade da capacidade total do canal.
+  - Eles podem enviar qualquer quantia, desde que haja um acordo prévio.
+  - Eles podem pegar emprestado fundos do lado do outro participante, se necessário.
+explanation: |
+  Cada participante é limitado pela quantidade de satoshis que possui no canal para suas transações, garantindo que os fundos estejam sempre cobertos.
+reviewed: false

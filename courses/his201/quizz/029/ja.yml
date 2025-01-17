@@ -1,0 +1,9 @@
+question: サイファーパンクスの創設メンバーであるジョン・ギルモアが、2009年1月にサトシ・ナカモトの発明に対してどのような批判をしたか？
+answer: ビットコインは地球を汚染する
+wrong_answers:
+  - ビットコインは税逃れを容易にする
+  - ビットコインはシビル攻撃に弱い
+  - ビットコインはデフレを引き起こす
+explanation: |
+  彼はビットコインが電力を消費し、二酸化炭素（温室効果ガス）を生成するために[批判しました](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html)。
+reviewed: false

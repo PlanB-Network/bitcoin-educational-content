@@ -1,0 +1,9 @@
+question: Apa dampak potensial dari regulasi terhadap penambangan Bitcoin?
+answer: Jika sebuah negara seperti Amerika Serikat memutuskan untuk mengatur atau melarang transaksi Bitcoin tertentu, hal tersebut dapat memiliki dampak signifikan terhadap jaringan, terutama jika sebagian besar kekuatan hashing terpusat di negara tersebut.
+wrong_answers:
+  - Jika sebuah negara seperti Amerika Serikat memutuskan untuk mengatur atau melarang penambangan Bitcoin, hal tersebut dapat menyebabkan peningkatan nilai Bitcoin.
+  - Jika sebuah negara seperti Amerika Serikat memutuskan untuk mengatur atau melarang penambangan Bitcoin, hal tersebut dapat menyebabkan peningkatan dalam hadiah blok.
+  - Jika sebuah negara seperti Amerika Serikat memutuskan untuk mengatur atau melarang penambangan Bitcoin, hal tersebut dapat menyebabkan peningkatan kecepatan transaksi.
+explanation: |
+  Bab ini menjelaskan bahwa jika sebuah negara seperti Amerika Serikat memutuskan untuk mengatur atau melarang transaksi Bitcoin tertentu, hal tersebut dapat memiliki dampak signifikan terhadap jaringan, terutama jika sebagian besar kekuatan hashing terpusat di negara tersebut.
+reviewed: true

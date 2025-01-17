@@ -1,0 +1,8 @@
+question: Hva er målet med de interne transaksjonsheuristikkene?
+answer: Å identifisere børsen.
+wrong_answers:
+  - Å identifisere svindeltransaksjoner i sanntid.
+  - Å identifisere transaksjonsmønstre.
+  - Å identifisere en klynge som tilhører samme enhet.
+explanation: |
+  De interne heuristikkene lar oss identifisere børsen med mål om å observere brukeren i påfølgende transaksjoner.

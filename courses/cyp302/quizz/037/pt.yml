@@ -1,0 +1,9 @@
+question: O que é uma estrutura algébrica em álgebra abstrata?
+answer: Um conjunto de elementos com uma ou mais operações que seguem certos axiomas
+wrong_answers:
+  - Um conjunto de números primos organizados em linhas que seguem certos axiomas
+  - Uma série de algoritmos para resolver equações lineares
+  - Um grupo de transformações geométricas aleatórias organizadas em conformidade com certos axiomas
+explanation: |
+  Uma estrutura algébrica é um conjunto de elementos definidos com uma ou mais operações, como adição ou multiplicação, que seguem certos axiomas, e é essencial para estruturar conceitos na teoria dos números.
+reviewed: false

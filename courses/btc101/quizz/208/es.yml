@@ -1,0 +1,9 @@
+question: ¿Cuál es una de las posibles consecuencias de no seguir las regulaciones de tu país al comprar Bitcoin?
+answer: Podrías ponerte en riesgo.
+wrong_answers:
+  - Podrías aumentar el precio del Bitcoin.
+  - Podrías controlar el suministro de Bitcoin.
+  - Podrías impedir que otros compren Bitcoin.
+explanation: |
+  El texto del curso menciona que no seguir las regulaciones de tu país al comprar Bitcoin podría ponerte en riesgo.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mikä ovat ne kaksi kaupunkia, jotka Pyhän Augustinuksen mukaan elävät rinnakkain maailmassa?
+answer: Jumalan kaupunki ja Maallinen kaupunki.
+wrong_answers:
+  - Ihmisten kaupunki ja jumalten kaupunki.
+  - Pyhimysten kaupunki ja syntisten kaupunki.
+  - Yliopistokaupunki ja enkelien kaupunki.
+explanation: |
+  Pyhä Augustinus kuvailee maailmassa rinnakkain eläviä kahta kaupunkia: Jumalan kaupunki, joka on suuntautunut Jumalaan ja henkiseen elämään, sekä Maallinen kaupunki, joka keskittyy ihmisen huoliin ja materiaalisiin asioihin, kumpikin seuraten omia erillisiä tavoitteitaan.
+reviewed: false

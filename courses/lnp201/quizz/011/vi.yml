@@ -1,0 +1,9 @@
+question: Tại sao Alice tạo một giao dịch rút tiền trước khi công bố giao dịch gửi tiền?
+answer: Để lấy lại tiền của mình trong trường hợp có vấn đề với Bob
+wrong_answers:
+  - Để tăng dung lượng của kênh với mỗi giao dịch
+  - Để thực hiện một giao dịch Lightning ngay sau khi mở
+  - Để cho phép Bob chi tiêu tiền trực tiếp
+explanation: |
+  Alice tạo một giao dịch rút tiền để lấy lại tiền của mình nếu có vấn đề xảy ra với Bob, như vậy đảm bảo an toàn cho tiền gửi của cô ấy.
+reviewed: false

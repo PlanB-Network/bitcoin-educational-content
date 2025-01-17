@@ -1,0 +1,9 @@
+question: Mitä lyhenne UTXO tarkoittaa englanniksi?
+answer: Käyttämätön transaktiotuotos
+wrong_answers:
+  - Yhtenäistetty transaktiotuotos
+  - Käyttäjän transaktio ainoastaan
+  - Hyödyketokenin vaihtoehto
+explanation: |
+  UTXO on transaktion tuotos, jota ei ole vielä käytetty.
+reviewed: false

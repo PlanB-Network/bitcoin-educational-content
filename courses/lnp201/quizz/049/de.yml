@@ -1,0 +1,9 @@
+question: Was ist die Hauptfunktion einer Lightning-Rechnung?
+answer: Eine Zahlung vom sendenden Knoten anfordern
+wrong_answers:
+  - Gelder ohne eine On-Chain-Transaktion senden
+  - HTLCs auf einem Kanal aktivieren
+  - Einen neuen Lightning-Kanal öffnen
+explanation: |
+  Eine Lightning-Rechnung ist eine Zahlungsanforderung, die vom empfangenden Knoten an den sendenden Knoten übermittelt wird, um eine Zahlung im Lightning-Netzwerk zu initiieren.
+reviewed: false

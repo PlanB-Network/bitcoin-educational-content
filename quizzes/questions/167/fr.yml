@@ -1,9 +1,0 @@
-question: Quel est le rôle des mineurs par rapport aux centrales électriques qui ne sont pas encore connectées au réseau électrique ?
-answer: Ils agissent en tant qu'acheteur de dernier recours.
-wrong_answers:
-  - Ils fournissent de l'électricité aux centrales électriques.
-  - Ils connectent les centrales électriques au réseau électrique.
-  - Ils régulent le prix de l'électricité.
-explanation: |
-  > Les mineurs agissent en tant qu'acheteur de dernier recours pour les centrales électriques qui ne sont pas encore connectées au réseau. Cela permet aux centrales électriques de sécuriser leur financement même avant d'être connectées au réseau électrique.
-reviewed: false

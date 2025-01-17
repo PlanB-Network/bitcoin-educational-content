@@ -1,9 +1,0 @@
-question: Quel est le principal avantage de l'or par rapport aux autres formes de monnaie ?
-answer: Sa rareté naturelle le rend précieux, tandis que ses propriétés chimiques lui permettent de ne pas s'éroder avec le temps.
-wrong_answers:
-  - Il est facilement divisible et transportable.
-  - Il est soumis à l'inflation monétaire.
-  - Il est largement accepté dans le commerce.
-explanation: |
-  Le principal avantage de l'or par rapport aux autres formes de monnaie est sa rareté naturelle, qui le rend précieux, et ses propriétés chimiques, qui lui permettent de ne pas s'éroder avec le temps.
-reviewed: false

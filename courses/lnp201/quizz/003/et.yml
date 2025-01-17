@@ -1,0 +1,9 @@
+question: Mis on peamine reegel seoses vahenditega, mida osaleja saab maksekanalis saata?
+answer: Nad saavad saata ainult vahendeid oma kanali poolelt.
+wrong_answers:
+  - Nad saavad saata kuni poole kanali kogumahutavusest.
+  - Nad saavad saata mis tahes summa, kui selleks on eelnev kokkulepe.
+  - Nad saavad vajadusel laenata vahendeid teise osaleja poolelt.
+explanation: |
+  Iga osaleja on piiratud kanalis oma tehingute jaoks hoida olevate satoshi'de hulgaga, tagades, et vahendid on alati kaetud.
+reviewed: false

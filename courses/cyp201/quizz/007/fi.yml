@@ -1,0 +1,8 @@
+question: Mikä on pääasiallinen ero ShR- ja RotR-toimintojen välillä?
+answer: ShR siirtää bittejä lisäämällä nollia, RotR sijoittaa siirretyt bitit takaisin
+wrong_answers:
+  - ShR poistaa siirretyt bitit, RotR moninkertaistaa niiden arvon
+  - ShR siirtää vasemmalle, RotR siirtää oikealle
+  - ShR on looginen operaatio, RotR on aritmeettinen
+explanation: |
+  ShR siirtää bittejä oikealle lisäämällä nollia, kun taas RotR suorittaa bittien kiertävän kierron.

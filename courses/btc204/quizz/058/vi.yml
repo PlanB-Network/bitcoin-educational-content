@@ -1,0 +1,13 @@
+question: Sự khác biệt giữa việc tái sử dụng địa chỉ bên ngoài và bên trong trong một giao dịch là gì?
+
+answer: Việc tái sử dụng bên ngoài được quan sát qua nhiều giao dịch khác nhau, trong khi việc tái sử dụng bên trong được quan sát trong cùng một giao dịch.
+
+wrong_answers:
+  - Việc tái sử dụng bên ngoài liên quan đến địa chỉ công cộng, trong khi việc tái sử dụng bên trong liên quan đến địa chỉ riêng tư được sử dụng trong kịch bản giao dịch.
+  - Việc tái sử dụng bên trong được quan sát qua nhiều giao dịch khác nhau, trong khi việc tái sử dụng bên ngoài được quan sát trong cùng một giao dịch.
+  - Việc tái sử dụng bên trong liên quan đến địa chỉ công cộng, trong khi việc tái sử dụng bên ngoài liên quan đến địa chỉ riêng tư được sử dụng trong kịch bản giao dịch.
+
+explanation: |
+  Việc tái sử dụng địa chỉ bên ngoài được quan sát khi một địa chỉ được tái sử dụng qua nhiều giao dịch khác nhau, trong khi việc tái sử dụng bên trong liên quan đến một địa chỉ được sử dụng cả trong đầu vào và đầu ra của cùng một giao dịch.
+
+reviewed: false

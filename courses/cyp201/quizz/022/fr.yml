@@ -1,0 +1,9 @@
+question: Comment est calculée une clé publique à partir d'une clé privée ?
+answer: En utilisant la multiplication scalaire sur la courbe elliptique
+wrong_answers:
+  - En appliquant un hash sur la clé privée
+  - Par chiffrement asymétrique
+  - Avec une addition répétée de valeurs numériques
+explanation: |
+  La clé publique est obtenue par la multiplication scalaire de la clé privée avec le point générateur G sur la courbe elliptique.
+reviewed: false

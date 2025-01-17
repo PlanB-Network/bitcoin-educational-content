@@ -1,0 +1,9 @@
+question: Jak je zabráněno dvojímu utrácení u Bitcoinu?
+answer: Prostřednictvím veřejného vysílání všech transakcí v systému.
+wrong_answers:
+  - Ověřením identity uživatelů před každou transakcí.
+  - Periodickým přezkumem transakcí auditorem.
+  - Omezením počtu transakcí na uživatele.
+explanation: |
+  Aby bylo možné potvrdit nepřítomnost transakce a tím zabránit dvojímu utrácení, je nutné, aby každý uživatel byl informován o všech předchozích transakcích.
+reviewed: false

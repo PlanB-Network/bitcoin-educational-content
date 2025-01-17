@@ -1,9 +1,0 @@
-question: Por que Alice precisa da assinatura de Bob antes de publicar as transações para abrir um canal?
-answer: Para garantir que ela possa recuperar seus fundos sozinha caso algo dê errado.
-wrong_answers:
-  - Para confirmar o acordo de Bob em abrir o canal.
-  - Para verificar a identidade de Bob.
-  - Para criptografar as transações para segurança.
-explanation: |
-  Alice pede a Bob uma assinatura com sua chave pública antes de publicar as transações. Isso é para garantir que ela possa recuperar seus fundos sozinha caso algo dê errado, já que ela já tem a assinatura de Bob.
-reviewed: false

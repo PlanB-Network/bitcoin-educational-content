@@ -1,0 +1,8 @@
+question: ¿Cuál es la función principal de los descriptores de script de salida?
+answer: Describir completamente un script de salida y proporcionar la información necesaria para restaurar una cartera
+wrong_answers:
+  - Generar automáticamente direcciones multisignatura
+  - Reemplazar la frase mnemotécnica en las copias de seguridad de la cartera
+  - Simplificar los cálculos de firmas digitales
+explanation: |
+  Los descriptores encapsulan toda la información necesaria para rastrear un script particular, incluyendo la ruta de derivación y las claves utilizadas, pero no la frase de recuperación.

@@ -1,0 +1,11 @@
+question: Når ble Bitcoin brukt for første gang til å kjøpe fysiske varer?
+answer: Da Laszlo Hanyecz kjøpte 2 pizzaer for 10 000 BTC
+wrong_answers:
+  - Da Hal Finney kjøpte en bil for 100 000 BTC
+  - Da Satoshi Nakamoto kjøpte et hus for 1 000 000 000 BTC
+  - Ingen av alternativene
+explanation: |
+  Første gang Bitcoin ble brukt til å kjøpe fysiske varer var da
+  Laszlo Hanyecz kjøpte 2 pizzaer for 10 000 BTC, den 22.05.2010, som nå
+  er kjent som Pizza Day
+reviewed: true

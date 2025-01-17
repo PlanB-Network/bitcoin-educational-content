@@ -1,0 +1,9 @@
+question: Điều gì bảo đảm an toàn cho UTXOs trên Bitcoin?
+answer: Qua các script định nghĩa điều kiện chi tiêu.
+wrong_answers:
+  - Qua việc xác minh định kỳ bởi các thợ mỏ.
+  - Qua một cơ sở dữ liệu tập trung.
+  - Qua việc xác minh danh tính người dùng.
+explanation: |
+  Các đầu ra của một giao dịch Bitcoin là UTXOs được bảo vệ bằng một script. Script này yêu cầu các điều kiện chi tiêu được định trước phải được đáp ứng để có thể chi tiêu UTXO.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quels cryptographes ont créé le cryptosystème RSA en 1978 ?
+answer: Ronald Rivest, Adi Shamir et Leonard Adleman
+wrong_answers:
+  - Whitfield Diffie, Martin Hellman et Ralph Merkle
+  - Marc Girault, Guillaume Poupard et Jacques Stern
+  - Alfred Menezes, Minghua Qu et Scott Vanstone
+explanation: |
+  Rivest, Shamir et Adleman ont nommé l'algorithme RSA avec leurs trois initiales.
+reviewed: false

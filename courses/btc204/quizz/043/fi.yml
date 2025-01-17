@@ -1,0 +1,9 @@
+question: Mikä on pääasiallinen etu verkkopohjaisilla P2P-vaihdoilla verrattuna fyysisiin käteistransaktioihin?
+answer: Vähemmän riskiä henkilökohtaiseen turvallisuuteen.
+wrong_answers:
+  - Vähemmän varkausriskiä.
+  - Enemmän yksityisyyttä ostajalle.
+  - Alhaisemmat transaktiomaksut.
+explanation: |
+  Verkkopohjaiset P2P-vaihdot jättävät enemmän jälkiä ja ovat alttiimpia varkausriskeille kuin käteisellä tehtävät P2P-vaihdot. Transaktiomaksujen osalta ne ovat yleensä samanlaisia tai jopa korkeampia, erityisesti jos prosessi vaatii useita vaiheita. Kuitenkin verkkopohjaisten P2P-vaihtojen pääasiallinen etu piilee käyttäjien henkilökohtaisen turvallisuuden riskien vähentämisessä verrattuna käteistransaktioihin.
+reviewed: false

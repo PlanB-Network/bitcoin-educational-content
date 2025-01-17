@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal papel del código de cadena en la derivación de claves secundarias?
+answer: Introducir una fuente adicional de entropía
+wrong_answers:
+  - Identificar la profundidad jerárquica
+  - Almacenar los índices de las claves secundarias
+  - Asegurar la compatibilidad con el protocolo de Bitcoin
+explanation: |
+  El código de cadena se utiliza para introducir una fuente adicional y única de entropía para cada clave derivada.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle propriété de Schnorr permet de combiner plusieurs clés publiques en une seule ?
+answer: Agrégation des clés
+wrong_answers:
+  - Vérification par lot
+  - Malleabilité
+  - Compactage des signatures
+explanation: |
+  Schnorr permet d'agréger plusieurs clés publiques en une seule clé.
+reviewed: false

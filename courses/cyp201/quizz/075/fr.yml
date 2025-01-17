@@ -1,0 +1,9 @@
+question: Quel chemin de dérivation est utilisé pour un compte SegWit v0 dans un descriptor standard ?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  Le chemin 84h/0h/0h est défini dans le BIP84 pour un compte dérivant des adresses SegWit v0 avec P2WPKH.
+reviewed: false

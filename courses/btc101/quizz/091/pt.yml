@@ -1,0 +1,13 @@
+question: Qual é o uso recomendado de uma carteira física offline, ou fria?
+answer: Armazenar grandes quantidades.
+wrong_answers:
+  - Armazenar despesas diárias.
+  - Armazenar pequenas quantidades.
+  - Armazenar economias de curto prazo.
+explanation: |
+  Uma carteira física offline, ou fria, é recomendada para
+  armazenar grandes quantidades porque é menos vulnerável a
+  ameaças online do que as carteiras quentes. No entanto, não é
+  recomendada para despesas diárias porque é menos
+  acessível para transações diárias.
+reviewed: true

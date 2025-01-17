@@ -1,0 +1,9 @@
+question: Pourquoi l'échange de clés en personne est-il peu pratique pour des communications sécurisées en ligne ?
+answer: Il entraîne des coûts organisationnels élevés tout en étant inefficace
+wrong_answers:
+  - Il rend la communication chiffrée inutilisable
+  - Il nécessite l'utilisation de plusieurs clés par client
+  - Il empêche la réutilisation des clés pour des transactions répétées
+explanation: |
+  Échanger des clés en personne est coûteux et inefficace, surtout à grande échelle, car cela ralentit les transactions et impose des coûts logistiques considérables pour chaque nouveau client.
+reviewed: false

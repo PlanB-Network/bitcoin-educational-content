@@ -1,0 +1,11 @@
+question: Seuraavista vastauksista, mikä ei edusta omaa solmua käyttämisen hyötyä?
+
+answer: Transaktiomaksujen vähentäminen.
+
+wrong_answers:
+  - Osallistuminen konsensukseen.
+  - Riippumattomuus kolmansista osapuolista.
+  - Kyky vastustaa transaktiosensuuria.
+
+explanation: |
+  Tässä on syyt, miksi oman solmun omistaminen on ratkaisevan tärkeää täysin suvereenin Bitcoinin käytön kannalta: Sensuurin vastustamin- language; en Kukaan ei voi estää transaktioitasi; Riippumattomuus kolmansista osapuolista; Et enää riipu ulkoisista palveluista lohkoketjun datan vahvistamiseksi; Aktiivinen osallistuminen; Voit asettaa omat validointisääntösi ja osallistua suoraan konsensukseen; Panos verkkoon; Solmun pyörittämällä autat vahvistamaan ja jakamaan Bitcoin-verkkoa; Tekninen koulutus; Täyden solmun hallinta on erinomainen tapa syventää teknistä tietämystäsi Bitcoinista.

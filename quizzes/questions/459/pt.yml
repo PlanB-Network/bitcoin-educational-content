@@ -1,9 +1,0 @@
-question: Qual é a importância do BIP32 no ecossistema do Bitcoin?
-answer: Ele revolucionou a forma como as chaves são geradas e armazenadas, introduzindo o conceito de chaves derivadas de forma determinística e hierárquica.
-wrong_answers:
-  - Ele introduziu a frase mnemônica de 24 palavras.
-  - Ele propôs adicionar uma senha adicional para reforçar a segurança das chaves individuais.
-  - Ele padronizou a estrutura e hierarquia das carteiras HD.
-explanation: |
-  O BIP32, lançado em 2012, revolucionou a forma como essas chaves são geradas e armazenadas, introduzindo o conceito de chaves derivadas de forma determinística e hierárquica. Isso simplifica muito o processo de salvar essas chaves, mantendo seu nível de segurança.
-reviewed: false

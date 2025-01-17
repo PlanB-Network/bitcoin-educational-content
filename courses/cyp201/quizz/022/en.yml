@@ -1,0 +1,9 @@
+question: How is a public key calculated from a private key?
+answer: By using scalar multiplication on the elliptic curve
+wrong_answers:
+  - By applying a hash on the private key
+  - Through asymmetric encryption
+  - With repeated addition of numerical values
+explanation: |
+  The public key is obtained by the scalar multiplication of the private key with the generator point G on the elliptic curve.
+reviewed: false

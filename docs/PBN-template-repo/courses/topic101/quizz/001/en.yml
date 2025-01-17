@@ -1,0 +1,25 @@
+## Question content
+
+# question
+# Write the complete question
+question: What is a quizz?
+
+# answer
+# Write the correct answer to the question
+answer: It is a multiple choice question with only one answer right.
+
+# wrong_answers
+# List 3 other strictly wrong answer
+wrong_answers:
+  - It is a new type of digital currency
+  - It is not a multiple choice question with only one answer right.
+  - It is a method to evaluate if you will become the ruler of this world.
+
+# explanation
+# State additional information, explaining why the answer is true, and/or not the other ones
+explanation: |
+  You will have to trust me on this. But don't forget Bitcoin's saying: don't trust, verify
+  
+# reviewed
+# Define if the question has been reviewed by at least 2 different persons. 
+reviewed: true

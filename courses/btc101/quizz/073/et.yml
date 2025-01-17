@@ -1,0 +1,10 @@
+question: Mis on privaatvõti Bitcoin'i rahakotis?
+answer: Salajane võti, mis võimaldab sul oma tehinguid allkirjastada
+wrong_answers:
+  - Avalik võti, mida kasutatakse Bitcoin'i aadresside genereerimiseks
+  - Salajane sõnade nimekiri rahakoti hävitamiseks
+  - Salajane võti Bitcoin'i tehingute krüpteerimiseks
+explanation: >-
+  Bitcoin'i rahakoti loomisel genereeritakse salajane sõnade nimekiri, mida nimetatakse mnemooniliseks seemneks. 
+  See taastamisnimekiri on väga oluline, kuna see esindab Bitcoin'ide omandiõigust ja seega õigust neid saata.
+reviewed: true

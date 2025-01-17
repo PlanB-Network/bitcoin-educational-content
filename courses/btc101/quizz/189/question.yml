@@ -1,0 +1,63 @@
+id: c1b80746-94ae-43ec-8d8c-13a189424db9
+chapterId: be2d83be-406f-582c-83ca-6aa905ff7b04
+difficulty: intermediate
+duration: 30
+author: DecouvreBitcoin
+tags:
+  - Bitcoin
+  - Legal Tender
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2590
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2545
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1272
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2567
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2590
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2545
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2567
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2635
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2545
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2635

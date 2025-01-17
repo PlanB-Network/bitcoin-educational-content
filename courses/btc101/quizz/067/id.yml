@@ -1,0 +1,10 @@
+question: Berapa frekuensi penyesuaian kesulitan?
+answer: Setiap 2016 blok
+wrong_answers:
+  - Setiap 1048 blok
+  - Setiap 512 blok
+  - Setiap 4032 blok
+explanation: |
+  Penyesuaian kesulitan adalah mekanisme yang terjadi setiap
+  2016 blok, atau sekitar dua minggu, untuk memastikan bahwa, rata-rata, sebuah blok baru ditambahkan
+  ke blockchain setiap sepuluh menit terlepas dari hashrate global.

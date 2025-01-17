@@ -1,0 +1,11 @@
+question: Apa aturan emas untuk melindungi diri Anda dari email penipuan?
+answer: Periksa dengan teliti nama lengkap pengirim serta asal email tersebut.
+wrong_answers:
+  - Selalu membalas email yang mencurigakan.
+  - Buka semua lampiran email untuk memeriksa isinya.
+  - Bagikan informasi pribadi Anda hanya dengan pengirim yang dikenal.
+explanation: |
+  Aturan emas untuk melindungi diri Anda dari email penipuan adalah dengan memeriksa
+  dengan teliti nama lengkap pengirim serta asal email tersebut. Jika ragu,
+  hapus saja!
+reviewed: false

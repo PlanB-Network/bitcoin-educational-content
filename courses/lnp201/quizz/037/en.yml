@@ -1,0 +1,9 @@
+question: What happens if a payment through HTLC is not completed within the allotted time?
+answer: The payment is canceled and the funds return to the sender.
+wrong_answers:
+  - The payment is kept by the last intermediary node
+  - The funds are distributed to all nodes in the path
+  - The funds are permanently blocked
+explanation: |
+  If an HTLC expires without the secret being revealed, the payment is canceled and the funds return to the sender, thus preventing any intermediary node from keeping the funds.
+reviewed: false

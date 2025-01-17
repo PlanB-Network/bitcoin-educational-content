@@ -1,0 +1,9 @@
+question: What problem arises if Jim's Sporting Goods uses the same pair of keys for all customers?
+answer: Any customer could access the communications of others
+wrong_answers:
+  - The key would become too large
+  - Communications would be slowed down
+  - Customers would have to change keys with every purchase
+explanation: |
+  By using the same key for everyone, Jim's Sporting Goods would compromise confidentiality and integrity, as each customer could potentially access other customers' data.
+reviewed: false

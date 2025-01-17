@@ -1,9 +1,0 @@
-question: ¿Cuáles son los beneficios de los canales de pago de Lightning?
-answer: Permiten a los usuarios enviar y recibir Bitcoin sin tener que pagar altas tarifas de transacción o esperar largos períodos de confirmación en la red de Bitcoin.
-wrong_answers:
-  - Permiten a los usuarios minar Bitcoin de manera más eficiente.
-  - Permiten a los usuarios almacenar Bitcoin de forma más segura.
-  - Permiten a los usuarios intercambiar Bitcoin por otras criptomonedas.
-explanation: |
-  Los canales de pago de Lightning son una forma eficiente de realizar transacciones rápidas y económicas de Bitcoin. Permiten a los usuarios enviar y recibir Bitcoin sin tener que pagar altas tarifas de transacción o esperar largos períodos de confirmación en la red de Bitcoin.
-reviewed: false

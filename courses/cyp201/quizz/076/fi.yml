@@ -1,0 +1,9 @@
+question: Mihin merkintä /<0;1>/* deskriptorissa viittaa?
+answer: Ulkoiseen ja sisäiseen ketjuun sekventiaalisella johdannolla
+wrong_answers:
+  - Järjestettyyn multisignatuuri-osoitteeseen
+  - Johdannaispolkujen tarkistussummaan
+  - Kovetettuun johdannaispolkuun
+explanation: |
+  Merkintä /<0;1>/* osoittaa, että deskriptori voi generoida osoitteita ulkoiselle (0) ja sisäiselle (1) ketjulle, sekventiaalisella johdannolla villikortin (*) ansiosta.
+reviewed: false

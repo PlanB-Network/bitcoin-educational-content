@@ -1,0 +1,9 @@
+question: Among the answers, which one represents one of the major goals of chain analysis?
+answer: Group various activities on Bitcoin to determine the uniqueness of the user.
+wrong_answers:
+  - Optimize mining performance on the network.
+  - Administer justice on the protocol to enforce the law according to jurisdictions.
+  - Increase the confidentiality of Bitcoin transactions.
+explanation: |
+  One of the goals of chain analysis is to group various activities on Bitcoin in order to determine the uniqueness of the user who carried them out. Subsequently, it will be possible to attempt to link this bundle of activities to a real identity.
+reviewed: false

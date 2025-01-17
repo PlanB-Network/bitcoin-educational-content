@@ -1,0 +1,8 @@
+question: 与P2PKH相比，P2WPKH脚本的主要新颖之处是什么？
+answer: 签名被移动到见证人字段中。
+wrong_answers:
+  - 地址采用base58check编码。
+  - scriptPubKey包含私钥的哈希值。
+  - P2WPKH与SegWit不兼容。
+explanation: |
+  P2WPKH是与SegWit一同引入的，它将签名移动到一个称为见证人的单独部分，以防止交易可变性。

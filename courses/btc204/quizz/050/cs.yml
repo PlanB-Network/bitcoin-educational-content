@@ -1,0 +1,13 @@
+question: Jaká je hlavní výhoda Tichých plateb ve srovnání s BIP47?
+
+answer: Nevyžadují notifikační transakci.
+
+wrong_answers:
+  - Nabízejí úplné soukromí transakcí.
+  - Umožňují vrácení peněz od příjemce.
+  - Zajišťují kompatibilitu se všemi peněženkami.
+
+explanation: |
+  Tiché platby fungují bez notifikační transakce, což šetří poplatky za transakce a zabrání přetížení blockchainu.
+
+reviewed: false

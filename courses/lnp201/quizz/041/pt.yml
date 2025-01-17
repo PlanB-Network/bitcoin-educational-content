@@ -1,0 +1,8 @@
+question: Por que é difícil para um nó transmissor estimar a liquidez exata de um canal?
+answer: Porque apenas os dois participantes conhecem a distribuição precisa dos fundos
+wrong_answers:
+  - Porque a capacidade total dos canais está constantemente mudando
+  - Porque as taxas dos nós intermediários não são publicadas
+  - Porque os canais fecham automaticamente após cada transação
+explanation: |
+  A distribuição precisa dos fundos em um canal é visível apenas para os dois nós participantes, impedindo que outros nós estimem a liquidez disponível para roteamento.

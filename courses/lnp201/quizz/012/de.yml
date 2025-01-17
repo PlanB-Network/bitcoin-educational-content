@@ -1,0 +1,9 @@
+question: Wann ist ein Lightning-Kanal offiziell geöffnet?
+answer: Wenn die Einzahlungstransaktion auf der Bitcoin-Blockchain bestätigt ist
+wrong_answers:
+  - Sobald die öffentlichen Schlüssel zwischen den Teilnehmern ausgetauscht sind
+  - Wenn die Auszahlungstransaktion von beiden Parteien signiert ist
+  - Sobald die 2/2-Multisignatur-Adresse erstellt ist
+explanation: |
+  Der Kanal gilt als geöffnet, sobald die Einzahlungstransaktion in einem Bitcoin-Block enthalten war und eine bestimmte Anzahl von Bestätigungen erreicht hat.
+reviewed: false

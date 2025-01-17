@@ -1,0 +1,9 @@
+question: Perché la crittografia asimmetrica è meno utilizzata della crittografia simmetrica negli scambi di grandi volumi di dati?
+answer: È meno efficiente per un livello equivalente di sicurezza
+wrong_answers:
+  - Non garantisce l'autenticità dei messaggi
+  - Richiede molteplici chiavi pubbliche per ogni scambio
+  - Non è compatibile con i protocolli di comunicazione moderni
+explanation: |
+  La crittografia asimmetrica, sebbene potente per l'autenticazione e la crittografia iniziale, richiede più risorse, rendendo il suo uso inefficiente per il trasferimento di dati sostanziali.
+reviewed: false

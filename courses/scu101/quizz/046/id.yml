@@ -1,0 +1,12 @@
+question: Apa kelemahan utama menggunakan pengelola kata sandi yang dihosting sendiri?
+answer: Ini memerlukan pengetahuan teknis yang lebih untuk digunakan.
+wrong_answers:
+  - Ini lebih mahal daripada layanan pihak ketiga.
+  - Ini tidak menawarkan fitur sebanyak layanan pihak ketiga.
+  - Ini tidak seaman layanan pihak ketiga.
+explanation: |
+  Pengelola kata sandi yang dihosting sendiri memerlukan pengetahuan teknis yang lebih untuk digunakan,
+
+  karena Anda perlu menyiapkan dan mengelola server Anda sendiri. Namun, ini dapat menawarkan lebih banyak kontrol
+
+  dan keamanan.

@@ -1,0 +1,12 @@
+question: Mục đích của việc điều chỉnh độ khó trong khai thác Bitcoin là gì?
+answer: Nó cân bằng lại trò chơi khai thác toàn cầu dựa trên số lượng người tham gia.
+wrong_answers:
+  - Nó tăng phần thưởng cho việc khai thác.
+  - Nó giảm số lượng bitcoin đang lưu hành.
+  - Nó tăng cường độ an toàn của mạng lưới Bitcoin.
+explanation: >-
+  Việc điều chỉnh độ khó trong khai thác Bitcoin được thiết kế để đảm bảo rằng
+  thời gian cần thiết để khai thác một khối luôn ổn định, bất kể tổng sức mạnh tính toán của mạng lưới. Nó điều chỉnh độ khó của bài toán toán học
+  mà các thợ mỏ phải giải quyết, dựa trên số lượng thợ mỏ tham gia vào
+  mạng lưới.
+reviewed: true

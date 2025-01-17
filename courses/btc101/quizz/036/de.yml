@@ -1,0 +1,12 @@
+question: Was bedeutet der Begriff fiduciary im Kontext von Währungen?
+answer: Es bezieht sich auf Währungen, die nur aufgrund des Vertrauens in die zentrale Institution, die sie reguliert, wertvoll sind.
+wrong_answers:
+  - Es bezieht sich auf Währungen, die durch Gold gedeckt sind und von kleinen Geschäftsbanken ausgegeben werden.
+  - Es bezieht sich auf Währungen, die nur für fiduziarische Transaktionen wertvoll sind.
+  - Es bezieht sich auf Währungen, die nur innerhalb einer spezifischen Institution verwendet werden.
+explanation: |
+  Fiduziarische Währungen sind nicht durch eine physische Ware
+  wie Gold oder Silber gedeckt. Ihr Wert leitet sich aus dem Vertrauen
+  und der Zuversicht ab, die die Menschen in die Institutionen haben,
+  die sie ausgeben und regulieren.
+reviewed: true

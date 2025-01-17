@@ -1,0 +1,9 @@
+question: Quais são as duas formas de pilhagem descritas por Bastiat?
+answer: Pilhagem legal e pilhagem ilegal
+wrong_answers:
+  - Pilhagem moral e pilhagem imoral
+  - Pilhagem interna e pilhagem externa
+  - Pilhagem de bens e pilhagem de serviços
+explanation: |
+  Bastiat distingue entre pilhagem legal, que é definida por lei e frequentemente exercida pelo estado (como impostos), e pilhagem ilegal, que ocorre fora do quadro legal, como roubo ou assalto.
+reviewed: false

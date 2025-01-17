@@ -1,9 +1,0 @@
-question: Que se passerait-il si un utilisateur décide de suivre d'autres règles qui invalident les règles de consensus actuelles ?
-answer: Le nœud ne fera plus partie du réseau Bitcoin.
-wrong_answers:
-  - Le nœud fera partie d'un réseau Bitcoin différent.
-  - Le nœud sera pénalisé par le réseau Bitcoin.
-  - Le nœud sera récompensé par le réseau Bitcoin.
-explanation: |
-  Si un utilisateur décide de suivre d'autres règles qui invalident les règles de consensus actuelles, alors ce nœud ne fera plus partie du réseau Bitcoin.
-reviewed: false

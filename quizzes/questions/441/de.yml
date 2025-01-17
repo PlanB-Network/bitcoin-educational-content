@@ -1,9 +1,0 @@
-question: Wie groß ist ein Bitcoin-Privatschlüssel?
-answer: 256-Bit-Zahl
-wrong_answers:
-  - 512-Bit-Zahl
-  - 128-Bit-Zahl
-  - 1024-Bit-Zahl
-explanation: |
-  Im Bitcoin-System ist der Privatschlüssel eine zufällige oder pseudo-zufällige 256-Bit-Zahl.
-reviewed: false

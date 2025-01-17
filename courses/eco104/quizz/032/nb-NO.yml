@@ -1,0 +1,11 @@
+question: I hvilket scenario kan en stablecoin handles over sin fastsatte pris?
+answer: Når etterspørselen etter stablecoins overstiger en børs sin kapasitet
+wrong_answers:
+  - Når utstederen av stablecoin fryser midler
+  - Når stablecoin er fullt dekket av kontantreserver
+  - Når det er stort salgspress fra brukere
+explanation: |
+  Stablecoins kan handles over sin fastsatte pris når 
+  etterspørselen etter stablecoins overstiger en børs sin kapasitet til 
+  å møte kundenes etterspørsel, typisk på mindre børser.
+reviewed: true

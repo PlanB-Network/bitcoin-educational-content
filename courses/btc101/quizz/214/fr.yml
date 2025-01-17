@@ -1,0 +1,12 @@
+question: Qu'a prédit Milton Friedman en 1999 ?
+answer: Le développement d'un e-cash fiable.
+wrong_answers:
+  - La disparition de l'argent physique.
+  - L'émergence du Bitcoin.
+  - La fin du contrôle gouvernemental sur l'argent.
+explanation: |
+  Milton Friedman, un économiste renommé, a prédit en 1999
+  qu'un e-cash fiable serait bientôt développé, une méthode
+  permettant sur Internet de transférer des fonds de A à B,
+  sans que A connaisse B ou vice-versa.
+reviewed: true

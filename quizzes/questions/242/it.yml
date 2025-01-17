@@ -1,9 +1,0 @@
-question: Qual è una delle possibili implicazioni della Lightning Network per gli utenti?
-answer: Pagherebbero solo per i contenuti che consumano
-wrong_answers:
-  - Dovrebbero pagare di più per i contenuti
-  - Dovrebbero pagare una quota mensile di abbonamento
-  - Dovrebbero pagare anticipatamente per i contenuti
-explanation: |
-  Con la Lightning Network, gli utenti pagherebbero solo per i contenuti che consumano, eliminando così le quote di abbonamento anticipate.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Cosa indica l'assenza di una frase mnemonica in un portafoglio?
-answer: Il portafoglio non è sicuro per conservare a lungo termine
-wrong_answers:
-  - Il portafoglio è sicuro per conservare a lungo termine
-  - Il portafoglio non è sicuro per conservare a breve termine
-  - Il portafoglio non è sicuro per effettuare transazioni
-explanation: |
-  L'assenza di una lista di 12 o 24 parole, ovvero la frase mnemonica, in un portafoglio dovrebbe avvisarti che il portafoglio non è sicuro in quanto non segue la procedura standard di backup.
-reviewed: false

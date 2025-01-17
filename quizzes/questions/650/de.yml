@@ -1,9 +1,0 @@
-question: Was ist die Bedeutung der 2/2 Multi-Sig-Adresse im Prozess der Eröffnung eines Kanals im Lightning Network?
-answer: Es ist die Adresse, an die Alice Geld sendet, um den Kanal zu eröffnen.
-wrong_answers:
-  - Es ist die Adresse, von der Alice Geld sendet, um den Kanal zu eröffnen.
-  - Es ist die Adresse, an die Bob Geld sendet, um den Kanal zu eröffnen.
-  - Es ist die Adresse, von der Bob Geld sendet, um den Kanal zu eröffnen.
-explanation: |
-  Im Prozess der Kanaleröffnung erstellt Alice eine 2/2 Multi-Sig-Adresse unter Verwendung ihrer und Bobs öffentlicher Adressen. Anschließend tätigt sie eine Bitcoin-Transaktion, um Geld an diese Adresse zu senden und den Kanal zu eröffnen.
-reviewed: false

@@ -1,0 +1,9 @@
+question: What is the role of routing fees in the Lightning Network?
+answer: To incentivize intermediary nodes to provide their liquidity for the transfer of payments
+wrong_answers:
+  - To limit the number of transactions on the network
+  - To ensure that each channel has sufficient funds
+  - To automatically calculate the shortest path
+explanation: |
+  Routing fees are used to compensate intermediary nodes that relay payments by offering their liquidity to enable the transfer of funds across the network.
+reviewed: false

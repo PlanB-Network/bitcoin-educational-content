@@ -1,9 +1,0 @@
-question: Was ist Onion-Routing im Kontext des Lightning-Netzwerks?
-answer: Eine Methode, bei der die Zwischenhändler nicht wissen, wer der endgültige Empfänger ist und wer die Zahlung sendet.
-wrong_answers:
-  - Eine Methode, bei der die Zwischenhändler sowohl den Absender als auch den Empfänger kennen.
-  - Eine Methode, bei der nur der Absender die Route und den Preis kennt.
-  - Eine Methode, bei der der endgültige Empfänger die Route vor dem Senden der Zahlung festlegt.
-explanation: |
-  Onion-Routing im Lightning-Netzwerk ist eine Methode, bei der die Zwischenhändler nicht wissen, wer der endgültige Empfänger ist und wer die Zahlung sendet. Der Knoten muss einen Plan des Netzwerks führen, um seine Route zu finden, aber keiner der Zwischenhändler hat Informationen darüber.
-reviewed: false

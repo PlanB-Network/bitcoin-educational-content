@@ -1,0 +1,9 @@
+question: Pokud pozorujeme transakci s 1 UTXO na vstupu a 43 UTXO na výstupech, jaký vzor můžeme rozpoznat?
+answer: Dávkové výdaje
+wrong_answers:
+  - Konsolidace
+  - Zjednodušená platba
+  - Společná transakce
+explanation: |
+  Interpretace tohoto vzoru je, že se jedná o dávkové výdaje. Tato struktura umožňuje subjektům, jako jsou platformy pro směnu, ušetřit na poplatcích tím, že seskupí své výdaje do jediné transakce.
+reviewed: false

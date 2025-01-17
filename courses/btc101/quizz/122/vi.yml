@@ -1,0 +1,9 @@
+question: Tỷ lệ sẵn có trực tuyến của Bitcoin kể từ năm 2009 là bao nhiêu?
+answer: 99.988%.
+wrong_answers:
+  - 100%.
+  - 90.009%.
+  - 80.17%.
+explanation: |
+  Tỷ lệ sẵn có trực tuyến của Bitcoin kể từ năm 2009 là 99.988%.
+reviewed: true

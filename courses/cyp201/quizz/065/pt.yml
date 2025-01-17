@@ -1,0 +1,9 @@
+question: Qual é a diferença entre uma chave filha normal e uma chave filha endurecida?
+answer: Uma chave filha endurecida requer a chave privada do pai para sua derivação.
+wrong_answers:
+  - Uma chave filha normal não pode derivar de chaves públicas.
+  - Uma chave filha endurecida usa um índice ímpar.
+  - Uma chave filha normal é mais segura do que uma chave filha endurecida.
+explanation: |
+  Uma chave filha normal pode ser derivada da chave pública do pai, ao contrário de uma chave filha endurecida que requer a chave privada do pai.
+reviewed: false

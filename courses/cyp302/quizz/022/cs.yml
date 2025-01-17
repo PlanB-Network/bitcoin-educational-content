@@ -1,0 +1,9 @@
+question: Jaký je výsledek pro slovo DOG při použití šifrování posunem s klíčem 17?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  Při posunu o 17 v abecedě se D změní na U, O se změní na F a G se změní na X. Proto je zašifrované slovo UFX.
+reviewed: false

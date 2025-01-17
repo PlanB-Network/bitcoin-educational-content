@@ -1,9 +1,0 @@
-question: Quais são os dois elementos essenciais nos quais a base da HD Wallet depende?
-answer: A frase mnemônica e a frase de acesso.
-wrong_answers:
-  - A semente e a chave privada mestra.
-  - O código de cadeia mestra e a semente.
-  - A frase mnemônica e a chave privada mestra.
-explanation: |
-  A base da HD Wallet depende de dois elementos essenciais: a frase mnemônica e a frase de acesso (senha adicional opcional). Juntas, elas constituem a semente, uma sequência alfanumérica de 512 bits que serve como base para derivar as chaves da carteira.
-reviewed: false

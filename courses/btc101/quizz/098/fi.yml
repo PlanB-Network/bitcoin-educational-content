@@ -1,0 +1,9 @@
+question: Mikä on yksi suositeltu vaihtoehto paperin käytölle muistisanojen säilyttämiseen?
+answer: Kaivertaminen metallilaattaan.
+wrong_answers:
+  - Säilyttäminen digitaalisessa tiedostossa.
+  - Kirjoittaminen valkotaululle.
+  - Tallentaminen yhteystiedoksi puhelimeesi.
+explanation: |
+  Yksi suositelluista vaihtoehdoista paperille muistisanojen säilyttämiseen on kaivertaminen metallilaattaan. Tämä ratkaisu on kestävämpi ja pitkäikäisempi.
+reviewed: true

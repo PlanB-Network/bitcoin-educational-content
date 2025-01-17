@@ -1,0 +1,8 @@
+question: Hvorfor oppretter Alice en uttakstransaksjon før hun publiserer innskuddstransaksjonen?
+answer: For å hente tilbake pengene sine i tilfelle det oppstår et problem med Bob
+wrong_answers:
+  - For å øke kanalens kapasitet med hver transaksjon
+  - For å utføre en Lightning-transaksjon umiddelbart etter åpning
+  - For å tillate Bob å bruke pengene direkte
+explanation: |
+  Alice oppretter en uttakstransaksjon for å hente tilbake pengene sine hvis det oppstår et problem med Bob, og sikrer dermed sikkerheten til hennes innskudd.

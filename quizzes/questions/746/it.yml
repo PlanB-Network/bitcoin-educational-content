@@ -1,9 +1,0 @@
-question: Qual è l'impatto potenziale della regolamentazione sull'estrazione di Bitcoin?
-answer: Se un paese come gli Stati Uniti decidesse di regolamentare o vietare determinate transazioni di Bitcoin, potrebbe avere un impatto significativo sulla rete, soprattutto se una grande parte della potenza di hashing è centralizzata in quel paese.
-wrong_answers:
-  - Se un paese come gli Stati Uniti decidesse di regolamentare o vietare l'estrazione di Bitcoin, potrebbe portare ad un aumento del valore di Bitcoin.
-  - Se un paese come gli Stati Uniti decidesse di regolamentare o vietare l'estrazione di Bitcoin, potrebbe portare ad un aumento della ricompensa per blocco.
-  - Se un paese come gli Stati Uniti decidesse di regolamentare o vietare l'estrazione di Bitcoin, potrebbe portare ad un aumento della velocità delle transazioni.
-explanation: |
-  Il capitolo spiega che se un paese come gli Stati Uniti decidesse di regolamentare o vietare determinate transazioni di Bitcoin, potrebbe avere un impatto significativo sulla rete, soprattutto se una grande parte della potenza di hashing è centralizzata in quel paese.
-reviewed: false

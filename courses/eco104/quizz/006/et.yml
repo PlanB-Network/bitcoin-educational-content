@@ -1,0 +1,9 @@
+question: Miks on tänapäeval maja ostmine palju raskem kui 1980ndatel?
+answer: Allasurutud intressimäärad muudavad võla ahvatlevamaks ja inflatsioon
+wrong_answers:
+  - Inflatsioon ja üürihinnad
+  - Elukalliduse ja rahvastiku kasvu tõus
+  - Kinnisvarade puudus ja allasurutud intressimäärad, mis muudavad võla ahvatlevamaks
+explanation: |
+  Kuigi inflatsioon vähendab meie valuuta ostujõudu, muutes säästmise raskemaks, muudavad allasurutud intressimäärad võla tarbimise ahvatlevamaks. Kui kapitali maksumus on nii odav, laenavad inimesed oma võimete piire ületades, suunates rohkem kapitali varadesse ja tõstes hindu.
+reviewed: true

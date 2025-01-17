@@ -1,0 +1,9 @@
+question: Mis on Bitcoin'i koguja investeerimisotsuste peamine fookus?
+answer: Koguda võimalikult palju satoshe
+wrong_answers:
+  - Lühiajalised hinnaliikumised
+  - Kaupade või teenuste müümine Bitcoin'is
+  - Suure hulga Bitcoin'i korraga ostmine
+explanation: |
+  Bitcoin'i koguja investeerimisotsuste peamine fookus on koguda võimalikult palju satoshe. Seda saavutatakse Dollar-Cost Averaging (DCA) plaani seadistamise ja teiste lahenduste otsimisega satoshide kogumiseks.
+reviewed: false

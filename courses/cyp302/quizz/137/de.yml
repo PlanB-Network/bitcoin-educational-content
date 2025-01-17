@@ -1,0 +1,9 @@
+question: Warum werden Passwörter auf sicheren Servern oft als Hashes gespeichert?
+answer: Um zu verhindern, dass Passwörter bei einem Datenleck leicht abgerufen werden können
+wrong_answers:
+  - Um die Größe des Benutzerdatenspeichers zu erhöhen
+  - Um Passwörter in Echtzeit auf symmetrische Weise zu verschlüsseln
+  - Um Benutzern das Einloggen ohne Passwort zu ermöglichen
+explanation: |
+  Indem Passwort-Hashes gespeichert werden, können selbst im Falle eines Datenlecks die eigentlichen Passwörter nicht direkt gelesen werden, wodurch die Sicherheit erhöht wird.
+reviewed: false

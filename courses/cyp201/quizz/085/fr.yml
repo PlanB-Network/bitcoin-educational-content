@@ -1,0 +1,9 @@
+question: Quelle opération est nécessaire pour calculer une clé publique Taproot Q ?
+answer: Ajouter le tweak tG à la clé publique P
+wrong_answers:
+  - Multiplier la clé privée p par le tweak
+  - Hacher la clé publique P avec SHA256
+  - Concaténer le tweak t et la clé publique P
+explanation: |
+  La clé publique Taproot Q est obtenue en ajoutant le produit scalaire du tweak t par le générateur G à la clé publique P.
+reviewed: false

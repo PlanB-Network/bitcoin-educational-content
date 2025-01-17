@@ -1,0 +1,8 @@
+question: Por que um roteador deve manter uma boa distribuição de liquidez em seus canais?
+answer: Para maximizar o número de pagamentos que pode rotear
+wrong_answers:
+  - Para reduzir as taxas de transação
+  - Para evitar abrir novos canais
+  - Para limitar o uso da blockchain do Bitcoin
+explanation: |
+  Um roteador visa rotear o maior número possível de pagamentos para coletar taxas, o que requer uma boa distribuição de liquidez em ambos os lados dos canais para garantir a capacidade de roteamento.

@@ -1,0 +1,9 @@
+question: Welches Präfix wird verwendet, um einen komprimierten öffentlichen Schlüssel mit einer ungeraden Y-Koordinate anzuzeigen?
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  Das Präfix 0x03 zeigt einen komprimierten öffentlichen Schlüssel mit einer ungeraden Y-Koordinate an.
+reviewed: false

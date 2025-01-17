@@ -1,0 +1,9 @@
+question: Which derivation algorithm is used to calculate an authentication code based on a secret key?
+answer: HMAC-SHA512
+wrong_answers:
+  - SHA512
+  - SHA256
+  - RIPEMD160
+explanation: |
+  HMAC-SHA512 is an algorithm that combines a hash function and a secret key to calculate an authentication code.
+reviewed: false

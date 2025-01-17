@@ -1,0 +1,62 @@
+id: e27ee26b-52fe-4c9d-b8f3-c19278cf4d31
+chapterId: 8d6b50c5-bf74-44f4-922b-25204991cb75
+difficulty: easy
+duration: 15
+author: pretty-private
+tags:
+  - Bitcoin
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2648
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2574
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2574
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2611
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2648
+  - language: fr
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 1287
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2611
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2722
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2574
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2722

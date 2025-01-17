@@ -1,0 +1,9 @@
+question: Milline Bitcoin'i standard tutvustab hierarhilisi deterministlikke rahakotte?
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 määratleb HD rahakottide toimimise, võimaldades privaatvõtmete hierarhilist tuletamist seemnest.
+reviewed: false

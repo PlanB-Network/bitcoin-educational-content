@@ -1,0 +1,8 @@
+description: |
+  Lightning Labs je technologická společnost zaměřená na vývoj Lightning Network, protokolu druhé vrstvy postaveného na Bitcoinu, který umožňuje rychlé transakce s nízkými náklady. Společnost nabízí open-source, bezpečná a škálovatelná řešení, která uživatelům umožňují posílat a přijímat peníze s dosud nevídanou efektivitou.
+
+  Jedním z jejich hlavních produktů je Lightning Terminal, uživatelsky přívětivé rozhraní, které zjednodušuje správu Lightning uzlu. Tento nástroj nabízí webové řídicí panel, prohlížeč sítě a sadu nástrojů pro správu likvidity, což usnadňuje provádění transakcí s Bitcoiny ve velkém objemu a okamžitě s minimálními poplatky.
+
+  Kromě Lightning Terminalu Lightning Labs také poskytuje řadu ověřitelných, nezajištěných finančních služeb založených na Lightning Network, čímž překlenuje propast mezi open-source softwarem a finančními aplikacemi Bitcoinu nové generace.
+contributors:
+  - rabbit-hole

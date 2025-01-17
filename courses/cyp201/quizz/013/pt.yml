@@ -1,0 +1,8 @@
+question: Qual é o papel principal do PBKDF2 no Bitcoin?
+answer: Gerar a semente de uma carteira HD
+wrong_answers:
+  - Autenticar transações
+  - Criptografar chaves privadas
+  - Criar endereços Bitcoin
+explanation: |
+  O PBKDF2 é usado para derivar uma semente a partir de uma frase mnemônica e uma senha opcional.

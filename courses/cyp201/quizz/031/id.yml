@@ -1,0 +1,8 @@
+question: Apa modifikator yang dapat digabungkan dengan bendera sighash dasar?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY memodifikasi bendera sighash untuk hanya menutupi satu input sambil membiarkan sisanya dapat dimodifikasi.

@@ -1,0 +1,9 @@
+question: Why is gold not a portable material?
+answer: Because it is dense and heavy, making it cumbersome to carry in large quantities.
+wrong_answers:
+  - Because it is too valuable to be moved.
+  - Because it cannot be easily shaped into smaller forms.
+  - Because it is a liquid at room temperature.
+explanation: |
+  Gold is dense and heavy, which means that carrying large amounts of it can be physically challenging. This weight makes it less convenient for transport compared to lighter materials.
+reviewed: true

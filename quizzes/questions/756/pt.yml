@@ -1,9 +1,0 @@
-question: Qual é o papel dos nós na rede Bitcoin?
-answer: Os nós mantêm a integridade verificando e validando transações e blocos.
-wrong_answers:
-  - Os nós criam e validam blocos.
-  - Os nós apenas verificam transações.
-  - Os nós não têm papel na rede Bitcoin.
-explanation: |
-  Na rede Bitcoin, os nós mantêm a integridade da rede verificando e validando transações e blocos. Um bloco incorreto ou fraudulento será rejeitado pelos nós, preservando a segurança da rede.
-reviewed: false

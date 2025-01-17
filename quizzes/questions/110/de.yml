@@ -1,9 +1,0 @@
-question: Was ist die Bedeutung individueller Verantwortung in Bezug auf Bitcoin?
-answer: Es ist entscheidend, da Sie für die Sicherungskopien verantwortlich sind.
-wrong_answers:
-  - Es ist wesentlich, da Sie Bitcoins minen müssen.
-  - Es ist wesentlich, Bitcoins zu kaufen.
-  - Es ist entscheidend, da Sie für das Wallet-Thema verantwortlich sind.
-explanation: |
-  In Bitcoin geht finanzielle Souveränität Hand in Hand mit individueller Verantwortung, da Sie Ihre Gelder selbst verwalten müssen, indem Sie die empfohlenen Sicherungskopienverfahren befolgen.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Vai trò của LNURL trong các giao dịch Lightning là gì?
+answer: Đơn giản hóa sự tương tác giữa các nút và ứng dụng Lightning
+wrong_answers:
+  - Tạo điều kiện thuận lợi cho việc tạo kênh cho mỗi giao dịch
+  - Đảm bảo tính bảo mật của thông tin thanh toán
+  - Tự động tính toán phí giao dịch
+explanation: |
+  LNURL là một giao thức truyền thông được thiết kế để đơn giản hóa các tương tác, như rút tiền và thanh toán, giữa các nút và ứng dụng Lightning.
+reviewed: false

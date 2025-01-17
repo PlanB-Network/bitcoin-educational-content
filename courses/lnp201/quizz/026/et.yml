@@ -1,0 +1,8 @@
+question: Milline kanali sulgemise meetod on kõige ökonoomsem ja kiirem?
+answer: Kooperatiivne sulgemine
+wrong_answers:
+  - Sunniviisiline sulgemine
+  - Sulgemine pettusega
+  - Ükski pole ökonoomsem ja kiirem
+explanation: |
+  Kooperatiivne sulgemine on kiireim ja ökonoomseim meetod, kuna mõlemad osapooled nõustuvad kanali sulgema, kohandades tasusid vastavalt turuolukorrale.

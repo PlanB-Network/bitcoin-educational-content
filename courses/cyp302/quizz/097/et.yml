@@ -1,0 +1,9 @@
+question: Miks ei piisa ainult konfidentsiaalsusest turvalise suhtluse tagamiseks?
+answer: Kuna ründaja võib siiski sõnumit pealt kuulata ja seda muuta, ilma et ta selle sisu mõistaks.
+wrong_answers:
+  - Kuna konfidentsiaalsuse saavutamine on liiga keeruline.
+  - Kuna privaatvõtmeid on lihtne ära arvata.
+  - Kuna sõnumeid ei saa autentida ilma digitaalallkirjata.
+explanation: |
+  Konfidentsiaalsus kaitseb sõnumite sisu, kuid ilma MAC-ita (Message Authentication Code) võib ründaja siiski sõnumit pealt kuulata ja seda muuta, ilma et ta seda mõistaks, seeläbi ohustades suhtluse terviklikkust.
+reviewed: false

@@ -1,0 +1,10 @@
+question: ¿Cómo ayudan las stablecoins a reducir los costos asociados con las remesas?
+answer: Ofreciendo tarifas más bajas que los servicios tradicionales
+wrong_answers:
+  - Proporcionando servicios de transferencia de dinero gratuitos
+  - Dando a los individuos mejores tasas de cambio que los servicios tradicionales
+  - Digitalizando las monedas fiduciarias
+explanation: |
+  Las stablecoins, a diferencia de los servicios tradicionales de transferencia de dinero, tienen tarifas significativamente 
+  más bajas porque no requieren intermediarios como bancos o servicios de transferencia de dinero.
+reviewed: false

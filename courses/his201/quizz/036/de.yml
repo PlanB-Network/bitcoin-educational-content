@@ -1,0 +1,9 @@
+question: Wer hat das erste echte Bitcoin-Logo (ein goldenes großes B, durchkreuzt von zwei vertikalen Balken) im Februar 2010 entworfen?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  Er nutzte den Vorschlag von NewLibertyStandard, das Symbol des Thailändischen Baht (฿) zu verwenden. Das orangefarbene Logo wurde später von jemandem kreiert, der als bitboy bekannt ist.
+reviewed: false

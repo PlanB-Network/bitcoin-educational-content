@@ -1,0 +1,9 @@
+question: ¿Cuál es el papel de LNURL en las transacciones Lightning?
+answer: Simplificar la interacción entre nodos y aplicaciones Lightning
+wrong_answers:
+  - Facilitar la creación de canales para cada pago
+  - Asegurar la confidencialidad de la información de pago
+  - Calcular automáticamente las comisiones de las transacciones
+explanation: |
+  LNURL es un protocolo de comunicación diseñado para simplificar interacciones, como retiros y pagos, entre nodos y aplicaciones Lightning.
+reviewed: false

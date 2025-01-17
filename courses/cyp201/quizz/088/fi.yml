@@ -1,0 +1,8 @@
+question: Mikä etuliite osoittaa tiivistetyn julkisen avaimen, jonka y-koordinaatti on pariton?
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  Etuliite 0x03 osoittaa tiivistetyn julkisen avaimen, jonka y-koordinaatti on pariton.

@@ -1,0 +1,9 @@
+question: Why are UTXOs often compared to banknotes?
+answer: They must be spent in their entirety
+wrong_answers:
+  - They can be used multiple times until depleted
+  - They are only usable in certain specific transactions
+  - They represent small fixed amounts of bitcoins
+explanation: |
+  Like a banknote, a UTXO must be spent entirely in a transaction, and any excess is returned to the sender as change.
+reviewed: false

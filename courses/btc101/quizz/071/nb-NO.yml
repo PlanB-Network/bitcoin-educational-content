@@ -1,0 +1,11 @@
+question: Hvilket år vil det 7. halvering skje?
+answer: 2036
+wrong_answers:
+  - 2032
+  - 2028
+  - 2048
+explanation: |
+  Den 7. halveringen bør skje i 2036, og det anslåtte antallet bitcoin i
+  omløp vil være 20,835,937.5 btc, eller 99.22% av det totale tilbudet.
+  bitcoins i omløp.
+reviewed: true

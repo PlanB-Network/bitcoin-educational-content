@@ -1,0 +1,9 @@
+question: Millised on kolm põhilist kriteeriumi, mis võimaldavad inimesel tagada, et ta saab münti hiljem kasutada?
+answer: Münt peab olema terve, autentne ja seda ei tohi topelt kulutada.
+wrong_answers:
+  - Münt peab olema iidne, haruldane ja heas seisukorras.
+  - Münt peab olema üldiselt aktsepteeritud, seaduslik ja hoitud pangas.
+  - Münt peab olema riigi poolt heaks kiidetud, registreeritud ja vastupidav.
+explanation: |
+  Iga ratsionaalne isik, kes soovib münti vastu võtta, olgu see digitaalne või füüsiline, veendub, et see ei ole muudetud, et see on tõepoolest ehtne münt ja et seda ei saa väljastaja poolt uuesti kasutada.
+reviewed: false

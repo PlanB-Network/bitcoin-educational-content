@@ -1,0 +1,14 @@
+question: Qual è il significato del detto Not your hashrate, not your reward nel contesto del mining di Bitcoin?
+answer: Se non controlli l'hashrate, non controlli le ricompense del mining.
+wrong_answers:
+  - Se non hai un hashrate elevato, non otterrai alcuna ricompensa.
+  - Se non possiedi Bitcoin, non otterrai alcuna ricompensa.
+  - Se non hai una macchina per il mining, non otterrai alcuna ricompensa.
+explanation: |
+  Il detto Not your hashrate, not your reward è simile
+  al ben noto detto nel mondo delle criptovalute,
+  Not your keys, not your Bitcoins. Significa che se non
+  controlli l'hashrate, non controlli le ricompense del mining.
+  Questo perché le ricompense dal mining sono
+  direttamente proporzionali all'hashrate.
+reviewed: true

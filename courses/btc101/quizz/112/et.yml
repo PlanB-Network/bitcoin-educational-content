@@ -1,0 +1,12 @@
+question: Miks osta mitte-KYC bitcoine?
+answer: Oma privaatsuse tagamiseks
+wrong_answers:
+  - Tagamaks kõikide Bitcoin'i kasutajate registreerimist
+  - Ostmaks madala hinnaga
+  - Müümaks madala hinnaga
+explanation: >-
+  Mitte-KYC bitcoinide ostmine tähendab bitcoinide soetamist ilma standardsete 
+  Tunne oma klienti (Know Your Customer) verifitseerimisprotseduurideta, mida paljud vahetused ja platvormid nõuavad. 
+  Üks peamine põhjus, miks inimesed võivad seda teed valida, on oma privaatsuse säilitamine, 
+  tagades, et nende isiklikud andmed ja finantstegevused jäävad avalikustamata.
+reviewed: true

@@ -1,11 +1,12 @@
 question: What is the role of miners in the Bitcoin protocol?
-answer: They secure the current and historical network
+answer: They secure the current and the historical network.
 wrong_answers:
-  - They regulate the price of Bitcoin
-  - They control the supply of Bitcoin
-  - They manage transactions between users
-explanation: >-
-  Miners in the Bitcoin protocol secure both the current and historical
-  network. They do not regulate the price of Bitcoin, control its supply, or manage
-  transactions between users.
-reviewed: false
+  - They regulate the price of Bitcoin.
+  - They control the supply of Bitcoin.
+  - They manage transactions between users.
+explanation: |
+  Miners in the Bitcoin protocol secure both the current and
+  the historical network. They do not regulate the price of
+  Bitcoin, control its supply, nor manage transactions
+  between users.
+reviewed: true

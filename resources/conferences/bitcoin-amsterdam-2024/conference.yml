@@ -1,0 +1,21 @@
+year: 2024-10
+name: Bitcoin Amsterdam 2024
+builder: The Bitcoin Conference
+location: Amsterdam, Netherlands
+language:
+  - en
+links:
+  twitter: https://x.com/BitcoinConfEUR
+  website: https://b.tc/conference/amsterdam/2025
+tags:
+  - business
+  - finance
+  - investment
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: "2024-12-13"
+    urgency: 0
+    contributors_id:
+      - jramos0
+    reward: 0

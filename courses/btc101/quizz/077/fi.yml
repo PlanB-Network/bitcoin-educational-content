@@ -1,11 +1,12 @@
 question: Mikä on riski jakaa Bitcoin-lompakon julkinen avain?
-answer: Yksityisyyden riskit
+answer: Yksityisyyden menettäminen.
 wrong_answers:
-  - Riskit tuhota Bitcoin-lompakko
-  - Riskit menettää Bitcoinit
-  - Riskit hakkeroida Bitcoin-lompakko
+  - Bitcoin-lompakon tuhoaminen.
+  - Bitcoinien menettäminen.
+  - Bitcoin-lompakon hakkerointi.
 explanation: |
-  Julkisen avaimen jakaminen sisältää riskejä yksityisyydelle, mutta ei turvallisuudelle.
-  Tämä johtuu siitä, että julkinen avain käytetään Bitcoin-osoitteiden luomiseen ja siten rahan vastaanottamiseen,
-  mutta se ei edusta omistajuutta Bitcoineihin.
-reviewed: false
+  Julkisen avaimen jakaminen sisältää riskejä yksityisyydelle, mutta ei
+  turvallisuudelle. Tämä johtuu siitä, että julkinen avain käytetään
+  Bitcoin-osoitteiden luomiseen ja siten rahan vastaanottamiseen, mutta se
+  ei edusta omistusoikeutta Bitcoineihin.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Qual é a disponibilidade online do Bitcoin?
-answer: 99,988%
+question: Desde sua criação, qual porcentagem do tempo a rede Bitcoin esteve funcional?
+answer: 99,988%.
 wrong_answers:
-  - 100%
-  - 90,009%
-  - 80,17%
+  - 100%.
+  - 90,009%.
+  - 80,17%.
 explanation: |
   A disponibilidade online do Bitcoin é de 99,988% desde 2009.
-reviewed: false
+reviewed: true

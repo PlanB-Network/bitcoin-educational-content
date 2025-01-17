@@ -1,9 +1,11 @@
-question: Quel est le principal avantage d'utiliser un gestionnaire de mots de passe?
+question: Quel est le principal avantage de l'utilisation d'un gestionnaire de mots de passe ?
 answer: Il vous aide à créer des mots de passe forts et à les mémoriser, afin que vous n'ayez pas à le faire.
 wrong_answers:
-  - Il vous connecte automatiquement à vos comptes en ligne.
+  - Il se connecte automatiquement à vos comptes en ligne.
   - Il protège votre ordinateur contre les virus.
-  - Il stocke tous vos mots de passe en un seul endroit, ce qui les rend plus faciles à trouver.
+  - Il stocke tous vos mots de passe en un seul endroit, les rendant plus faciles à trouver.
 explanation: |
-  Un gestionnaire de mots de passe vous aide à créer des mots de passe forts et à les mémoriser, afin que vous n'ayez pas à le faire. Il stocke tous vos mots de passe de manière sécurisée et génère des mots de passe forts pour vous.
-reviewed: false
+  Un gestionnaire de mots de passe vous aide à créer des mots de passe forts et
+  à les mémoriser, afin que vous n'ayez pas à le faire. Il stocke tous vos
+  mots de passe de manière sécurisée et génère pour vous des mots de passe forts.
+reviewed: true

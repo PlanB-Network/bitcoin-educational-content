@@ -1,0 +1,6 @@
+description: |
+  Start9 har som mål å løse problemet med tillit i dagens digitale verden hvor kontroll over data er en stor bekymring.
+
+  Selskapet gir deg kraften til å eie og kontrollere dine egne data ved å kjøre en personlig server, noe som tradisjonelt bare var tilgjengelig for teknisk kyndige individer eller velstående enheter. Med Start9 kan du kjøre en fullstendig Bitcoin-node for å verifisere transaksjoner, en Lightning-node for å få full kontroll over dine Bitcoin på Lightning-nettverket, og i bunn og grunn bli din egen digitale enhet. Dette gjøres mulig gjennom EmbassyOS, et nettleserbasert operativsystem for personlige servere. Til tross for den potensielt skremmende naturen ved å kjøre en personlig server, forsikrer Start9 omfattende kundestøtte, inkludert en detaljert brukermanual, FAQ, veiledninger, og direkte tilgang til et teknisk ekspertfellesskap.
+contributors:
+  - rabbit-hole

@@ -1,0 +1,11 @@
+question: Millal kasutati Bitcoini esimest korda füüsiliste kaupade ostuks?
+answer: Kui Laszlo Hanyecz ostis 10 000 BTC eest 2 pitsat
+wrong_answers:
+  - Kui Hal Finney ostis 100 000 BTC eest auto
+  - Kui Satoshi Nakamoto ostis 1 000 000 000 BTC eest maja
+  - Ükski valikutest
+explanation: |
+  Bitcoini kasutati esimest korda füüsiliste kaupade ostuks, kui
+  Laszlo Hanyecz ostis 2 pitsat 10 000 BTC eest, 22.05.2010, mis on nüüdseks
+  tuntud kui Pizza Päev
+reviewed: true

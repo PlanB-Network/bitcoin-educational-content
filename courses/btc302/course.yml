@@ -2,7 +2,7 @@ topic: bitcoin
 subtopic: bitcoin
 
 level: advanced
-hours: 10
+hours: 11
 
 professors:
   - light-storm
@@ -42,13 +42,14 @@ proofreading:
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-      - Asi0Flammeus
+      - ProfEduStream
     reward: 33836
   - language: it
-    last_contribution_date:
+    last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
-    reward: 100258
+      - TinF0ilHat1
+    reward: 49224
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -60,10 +61,11 @@ proofreading:
     contributors_id:
     reward: 67672
   - language: ru
-    last_contribution_date:
+    last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
-    reward: 132844
+      - Reshetenko
+    reward: 65216
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1

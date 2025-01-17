@@ -2214,8 +2214,6 @@ Nevertheless, with adding a bit of clever complexity, the RSA problem can be use
 
 
 
-## Evaluate the course
+## Reviews & Ratings
 <chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
-<isCourseReview>true</isCourseReview>
-
-
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,9 @@
+question: Đóng góp nổi tiếng nhất của Adam Smith cho kinh tế học là gì?
+answer: Ông đã phát triển lý thuyết về bàn tay vô hình.
+wrong_answers:
+  - Ông đã phát triển lý thuyết về ngón tay hữu hình.
+  - Ông đã phát triển lý thuyết về ngón tay vô hình.
+  - Ông đã phát triển lý thuyết về bàn tay hữu hình.
+explanation: |
+  Adam Smith được biết đến với lý thuyết về bàn tay vô hình, mà cho rằng các hành động cá nhân được thúc đẩy bởi lợi ích cá nhân một cách không chủ ý góp phần vào sự thịnh vượng kinh tế của xã hội như một toàn thể.
+reviewed: false

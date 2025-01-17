@@ -6,8 +6,9 @@ wrong_answers:
   - Use the same password for all accounts.
   - Memorize it.
 explanation: |
-  It is recommended to write down the master password of a password manager
-  on paper, but it should be kept in a concealed and secure location. This is because
-  if the hard drive is encrypted and the computer is locked, the password will not
-  be accessible, even in the case of burglary.
-reviewed: false
+  It is recommended to write down the master password of a
+  password manager on paper, but it should be kept in a
+  concealed and secure location. This is because if the hard
+  drive is encrypted and the computer is locked, the password
+  will not be accessible, even in the case of burglary.
+reviewed: true

@@ -1,0 +1,11 @@
+question: 在Whirlpool中，交易“Tx0”的主要作用是什么？
+
+answer: 使UTXOs均衡。
+
+wrong_answers:
+  - 执行第一次混合。
+  - 从池中移除UTXOs。
+  - 花费混合后的UTXOs。
+
+explanation:
+  Tx0的目标是通过将它们分割成与选定池量相对应的单位来准备和均衡UTXOs，以确保混合的同质性。

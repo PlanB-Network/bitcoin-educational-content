@@ -1,9 +1,14 @@
 question: Come funziona un pool di mining e perché è necessario?
-answer: Un pool di mining è un gruppo di minatori che combinano le loro risorse informatiche per aumentare le loro possibilità di mining. Questa cooperazione è necessaria perché una singola piccola macchina da mining isolata sta competendo contro giganti dell'industria, riducendo le sue possibilità di successo a un livello trascurabile. Unendo le loro risorse informatiche, i minatori possono trovare blocchi più frequentemente e poi distribuire le ricompense proporzionalmente al contributo di ciascun minatore al pool.
+answer: Un pool di mining è un gruppo di minatori che uniscono le loro risorse di calcolo per aumentare le loro possibilità di minare. Questa cooperazione è necessaria perché una piccola macchina da mining isolata sta competendo contro i giganti del settore, riducendo le sue possibilità di successo a un livello trascurabile. Unendo le forze, i minatori possono combinare la loro potenza di calcolo, trovare blocchi più frequentemente e poi distribuire le ricompense proporzionalmente al contributo di ciascun minatore al pool.
 wrong_answers:
-  - Un pool di mining è un gruppo di minatori che condividono la stessa macchina da mining per aumentare le loro possibilità di mining. Questa cooperazione è necessaria perché una singola macchina da mining può estrarre solo una quantità limitata di Bitcoin.
-  - Un pool di mining è un gruppo di minatori che condividono lo stesso software di mining per aumentare le loro possibilità di mining. Questa cooperazione è necessaria perché diversi software di mining hanno efficienze diverse.
-  - Un pool di mining è un gruppo di minatori che condividono la stessa posizione di mining per aumentare le loro possibilità di mining. Questa cooperazione è necessaria perché la posizione dell'operazione di mining può influenzare l'efficienza del mining.
+  - Un pool di mining è un gruppo di minatori che condividono la stessa macchina da mining per aumentare le loro possibilità di minare. Questa cooperazione è necessaria perché una singola macchina da mining può minare solo una quantità limitata di Bitcoin.
+  - Un pool di mining è un gruppo di minatori che condividono lo stesso software di mining per aumentare le loro possibilità di minare. Questa cooperazione è necessaria perché diversi software di mining hanno efficienze diverse.
+  - Un pool di mining è un gruppo di minatori che condividono lo stesso luogo di mining per aumentare le loro possibilità di minare. Questa cooperazione è necessaria perché la posizione dell'operazione di mining può influenzare l'efficienza del mining.
 explanation: |
-  Il capitolo spiega che un pool di mining è un gruppo di minatori che combinano le loro risorse informatiche per aumentare le loro possibilità di mining. Questa cooperazione è necessaria perché una singola piccola macchina da mining isolata sta competendo contro giganti dell'industria, riducendo le sue possibilità di successo a un livello trascurabile.
-reviewed: false
+  Il capitolo spiega che un pool di mining è un gruppo di
+  minatori che uniscono le loro risorse di calcolo per aumentare
+  le loro possibilità di minare. Questa cooperazione è necessaria
+  perché una piccola macchina da mining isolata sta competendo
+  contro i giganti del settore, riducendo le sue possibilità di successo a
+  un livello trascurabile.
+reviewed: true

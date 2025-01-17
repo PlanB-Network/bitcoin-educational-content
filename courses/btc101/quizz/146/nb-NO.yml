@@ -1,0 +1,9 @@
+question: Hvorfor er den rimelige kostnaden og tilgjengeligheten av en Bitcoin-node viktig?
+answer: Det fremmer desentraliseringen av nettverket
+wrong_answers:
+  - Det øker transaksjonskapasiteten til nettverket
+  - Det reduserer transaksjonskapasiteten til nettverket
+  - Det øker blokkbelønningen for gruvearbeidere
+explanation: >-
+  Den rimelige kostnaden og tilgjengeligheten av en Bitcoin-node er viktig
+  fordi det fremmer desentraliseringen av nettverket.

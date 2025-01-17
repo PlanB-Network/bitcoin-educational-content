@@ -1,9 +1,9 @@
 question: Quelles sont les trois principales fonctions d'un portefeuille Bitcoin ?
-answer: Recevoir des bitcoins, envoyer des bitcoins, les sécuriser contre le piratage et les tentatives de vol.
+answer: Recevoir des bitcoins, envoyer des bitcoins, les sécuriser contre les tentatives de piratage et de vol.
 wrong_answers:
-  - Stocker des bitcoins, permettre l'envoi de bitcoins, les sécuriser contre le piratage et les tentatives de vol.
-  - Permettre la réception de bitcoins, stocker des bitcoins, les sécuriser contre le piratage et les tentatives de vol.
-  - Permettre la réception de bitcoins, permettre l'envoi de bitcoins, vendre des bitcoins.
+  - Stocker des bitcoins, envoyer des bitcoins, les sécuriser contre les tentatives de piratage et de vol.
+  - Permettre de recevoir des bitcoins, stocker des bitcoins, les sécuriser contre les tentatives de piratage et de vol.
+  - Permettre de recevoir des bitcoins, permettre d'envoyer des bitcoins, vendre des bitcoins.
 explanation: |
-  Un portefeuille Bitcoin est utilisé pour interagir avec le réseau Bitcoin. Ses trois principales fonctions sont de permettre la réception de bitcoins, l'envoi de bitcoins et de les sécuriser contre le piratage et les tentatives de vol.
-reviewed: false
+  Un portefeuille Bitcoin est utilisé pour interagir avec le réseau Bitcoin. Ses trois principales fonctions sont de permettre de recevoir des bitcoins, de permettre d'envoyer des bitcoins, et de les sécuriser contre les tentatives de piratage et de vol.
+reviewed: true

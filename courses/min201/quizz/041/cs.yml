@@ -5,5 +5,8 @@ wrong_answers:
   - Rovnováha mezi zvyšováním ceny a snižováním nákladů
   - Rovnováha mezi zvyšováním počtu transakcí a snižováním spotřeby energie
 explanation: |
-  Debata uvnitř komunity Bitcoinu ohledně těžby se točí kolem rovnováhy mezi hledáním zisku a přispíváním k bezpečnosti a distribuci sítě Bitcoinu. Na obou stranách debaty jsou silné argumenty.
-reviewed: false
+  Debata uvnitř komunity Bitcoinu ohledně těžby
+  se točí kolem rovnováhy mezi hledáním zisku a
+  přispíváním k bezpečnosti a distribuci sítě
+  Bitcoinu. Na obou stranách debaty jsou silné argumenty.
+reviewed: true

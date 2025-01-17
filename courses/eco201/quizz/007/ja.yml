@@ -1,9 +1,9 @@
 question: このコースの制作に感謝されているのは誰ですか？
-answer: "Théo Mogenet"
+answer: Théo Mogenet
 wrong_answers:
   - Descoupes Bitcoin
-  - "Théo Boloré"
+  - Théo Boloré
   - 上記のいずれでもない
 explanation: |
-  "この章では、コースの制作に対してThéoに感謝の意が表されています。"
+  この章では、コースの制作に対してThéoに感謝の意が表されています。
 reviewed: false

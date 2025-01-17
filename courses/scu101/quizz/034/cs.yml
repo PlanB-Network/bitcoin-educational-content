@@ -1,10 +1,11 @@
-question: Co mohou obsahovat přílohy a obrázky v e-mailech?
+question: Jaký škodlivý obsah mohou obsahovat přílohy a obrázky v e-mailech?
 answer: Malware
 wrong_answers:
   - Spam
   - Reklamy
   - Propagační obsah
 explanation: |
-  Přílohy a obrázky v e-mailech mohou obsahovat malware. Proto byste neměli
-  stahovat ani otevírat přílohy od neznámých nebo podezřelých odesílatelů.
-reviewed: false
+  Přílohy a obrázky v e-mailech mohou obsahovat malware.
+  Proto byste neměli stahovat ani otevírat přílohy od
+  neznámých nebo podezřelých odesílatelů.
+reviewed: true

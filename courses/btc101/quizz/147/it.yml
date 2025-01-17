@@ -1,14 +1,9 @@
-question: Quali sarebbero le implicazioni se i blocchi fossero 100 volte più pesanti?
-answer: Gestire un nodo Bitcoin non sarebbe accessibile alla persona media, compromettendo la decentralizzazione del protocollo e l'immuabilità delle transazioni e delle regole di consenso
+question: Quali sarebbero le implicazioni per gli utenti di Bitcoin se i blocchi fossero 100 volte più pesanti?
+answer: Gestire un nodo Bitcoin non sarebbe accessibile alla persona media, compromettendo la decentralizzazione del protocollo e l'immutabilità sia delle transazioni che delle regole di consenso.
 wrong_answers:
-  - Gestire un nodo Bitcoin sarebbe più accessibile alla persona media, migliorando la decentralizzazione del protocollo e l'immuabilità delle transazioni e delle regole di consenso
-  - La capacità di transazione della rete diminuirebbe
-  - La ricompensa per i minatori per ogni blocco aumenterebbe
+  - Gestire un nodo Bitcoin sarebbe più accessibile alla persona media, migliorando la decentralizzazione del protocollo e l'immutabilità sia delle transazioni che delle regole di consenso.
+  - La capacità di transazione della rete diminuirebbe.
+  - La ricompensa per i minatori per blocco aumenterebbe.
 explanation: |
-  Se i blocchi fossero 100 volte più pesanti, gestire un nodo Bitcoin richiederebbe
-  un disco rigido da 50TB, una larghezza di banda di oltre 500GB/mese e hardware in grado di validare
-  centinaia di migliaia di transazioni in meno di 10 minuti. Questo renderebbe la gestione
-  di un nodo Bitcoin inaccessibile alla persona media, compromettendo la decentralizzazione
-  del protocollo e l'immuabilità delle transazioni e delle regole di consenso.
-reviewed: false
-
+  Se i blocchi fossero 100 volte più pesanti, gestire un nodo Bitcoin richiederebbe un disco rigido da 50TB, una larghezza di banda di oltre 500GB/mese e hardware capace di validare centinaia di migliaia di transazioni in meno di 10 minuti. Questo renderebbe la gestione di un nodo Bitcoin inaccessibile alla persona media, compromettendo la decentralizzazione del protocollo e l'immutabilità delle transazioni e delle regole di consenso.
+reviewed: true

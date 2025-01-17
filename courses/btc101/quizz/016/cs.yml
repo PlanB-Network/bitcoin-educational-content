@@ -1,10 +1,11 @@
 question: Co je Wei Daiho b-money?
-answer: Idea anonymní digitální měny, kde detekci podvodů prováděla komunita hodnotitelů místo centrální autority.
+answer: Myšlenka anonymní digitální měny, kde detekci podvodů prováděla komunita hodnotitelů namísto centrální autority.
 wrong_answers:
-  - Digitální měna, která byla široce používána před Bitcoinem.
-  - Forma digitálních peněz, kterou vytvořila CIA.
-  - Digitální měna, kterou vytvořil Wei Dai jako konkurent Bitcoinu.
+  - Digitální měna, která byla široce používána před Bitcoinem a byla kontrolována skupinou cypherpunků.
+  - Forma digitálních peněz, kterou vytvořila CIA a používala ji armáda.
+  - Digitální měna, kterou vytvořil Wei Dai jako konkurenta Bitcoinu, aby byla více škálovatelná.
 explanation: |
-  Wei Daiho b-money byla idea anonymní digitální měny bez centrální entity,
-  která silně inspirovala Bitcoin, jak je citováno v Bitcoinovém whitepaperu.
+  Wei Daiho b-money byla myšlenka anonymní digitální
+  měny bez centrální entity, která velmi inspirovala
+  vznik Bitcoinu. Ve skutečnosti je citována v bílé knize Bitcoinu.
 reviewed: true

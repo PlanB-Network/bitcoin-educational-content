@@ -1,9 +1,11 @@
 question: Qu'est-ce que le trilemme de la blockchain ?
-answer: Un protocole basé sur une blockchain ne peut satisfaire que deux des trois éléments suivants; décentralisation, sécurité et mise à l'échelle.
+answer: Un protocole basé sur une blockchain ne peut satisfaire que deux des critères parmi la décentralisation, la sécurité et la scalabilité.
 wrong_answers:
-  - Un protocole basé sur une blockchain ne peut satisfaire qu'un seul des trois éléments suivants; décentralisation, sécurité et mise à l'échelle.
-  - Un protocole basé sur une blockchain peut satisfaire tous les éléments suivants; décentralisation, sécurité et mise à l'échelle.
-  - Un protocole basé sur une blockchain ne peut satisfaire aucun des éléments suivants; décentralisation, sécurité et mise à l'échelle.
+  - Un protocole basé sur une blockchain ne peut satisfaire qu'un seul des critères parmi la décentralisation, la sécurité et la scalabilité.
+  - Un protocole basé sur une blockchain peut satisfaire tous les critères de décentralisation, de sécurité et de scalabilité.
+  - Un protocole basé sur une blockchain ne peut satisfaire aucun des critères de décentralisation, de sécurité et de scalabilité.
 explanation: |
-  Le trilemme de la blockchain fait référence au défi selon lequel un protocole basé sur une blockchain ne peut satisfaire que deux des trois éléments suivants ; décentralisation, sécurité et mise à l'échelle.
-reviewed: false
+  Le trilemme de la blockchain fait référence au défi selon lequel
+  un protocole basé sur une blockchain ne peut satisfaire que deux critères parmi
+  la décentralisation, la sécurité et la scalabilité.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Quais são os três passos básicos em um esquema MAC?
+answer: Geração de chave, geração de tag, verificação
+wrong_answers:
+  - Criptografia, descriptografia, transmissão
+  - Geração de chave pública, criptografia de chave privada, validação
+  - Hashing de mensagem, criptografia de tag, distribuição de tag
+explanation: |
+  Um esquema MAC consiste em três passos principais: gerar uma chave secreta, produzir uma tag para a mensagem e verificar se a mensagem recebida e sua tag correspondem.

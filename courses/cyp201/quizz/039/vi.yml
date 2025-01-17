@@ -1,8 +1,8 @@
-question: An ninh của khóa công khai và khóa riêng dựa trên cái gì?
-answer: Vấn đề logarit rời rạc
+question: Vai trò chính của một ví Bitcoin là gì?
+answer: Quản lý và bảo mật khóa riêng
 wrong_answers:
-  - Vấn đề phân tích thừa số nguyên tố
-  - Vấn đề ba lô
-  - Vấn đề người du lịch
+  - Lưu trữ bitcoin của người dùng
+  - Đảm bảo tính bảo mật của giao dịch tự động
+  - Tạo bitcoin cho mỗi người dùng
 explanation: |
-  An ninh của khóa công khai và khóa riêng dựa vào vấn đề logarit rời rạc, một câu hỏi toán học phức tạp.
+  Một ví Bitcoin không trực tiếp lưu trữ bitcoin mà quản lý các khóa riêng cần thiết để mở khóa các UTXO đại diện cho bitcoin.

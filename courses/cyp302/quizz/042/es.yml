@@ -1,0 +1,9 @@
+question: ¿Cómo se llama a un grupo que satisface la condición de conmutatividad?
+answer: Un grupo abeliano
+wrong_answers:
+  - Un grupo cerrado
+  - Un grupo asociativo
+  - Un grupo inverso
+explanation: |
+  Un grupo abeliano, o conmutativo, es un grupo en el cual el orden de los elementos en la operación binaria no afecta el resultado. Esto significa que para cualquier a y b, a ∘ b = b ∘ a.
+reviewed: false

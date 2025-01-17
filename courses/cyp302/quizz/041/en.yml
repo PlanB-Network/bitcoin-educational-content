@@ -1,0 +1,9 @@
+question: In a group, what is the unique element called that, when applied to another element, does not change it?
+answer: The identity element
+wrong_answers:
+  - The inverse element
+  - The commutative element
+  - The associative element
+explanation: |
+  The identity element of a group is the unique element that, when applied to another element, leaves it unchanged. For example, in the group of integers under addition, the identity element is 0.
+reviewed: false

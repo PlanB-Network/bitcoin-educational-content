@@ -1,0 +1,9 @@
+question: Quels sont les trois composants essentiels d'un schéma de chiffrement symétrique ?
+answer: Un algorithme de génération de clé, un algorithme de chiffrement et un algorithme de déchiffrement
+wrong_answers:
+  - Un algorithme de hachage, une clé publique et un algorithme de vérification
+  - Une clé publique, une clé privée et un algorithme de déchiffrement
+  - Un algorithme de chiffrement, une clé publique et une clé privée
+explanation: |
+  Un schéma de chiffrement symétrique se compose de trois éléments: un algorithme de génération de clé, un algorithme de chiffrement et un algorithme de déchiffrement. Ils utilisent tous la même clé.
+reviewed: false

@@ -1,9 +1,11 @@
-question: Mikä on louhijoiden rooli Bitcoin-verkossa?
-answer: He vahvistavat siirtoja sisällyttämällä ne lohkoon.
+question: Mitä ei ole tarpeen sisällyttää perintösuunnitelmaan?
+answer: Yleisimmin käyttämäsi Bitcoin-lompakon nimi.
 wrong_answers:
-  - He luovat uusia Bitcoineja.
-  - He hallinnoivat Bitcoin-verkkoa.
-  - He säätelevät Bitcoinin hintaa.
-explanation: >-
-  Louhijoiden rooli Bitcoin-verkossa on siirtojen vahvistaminen sisällyttämällä ne lohkoon. He tekevät tämän ratkaisemalla kryptografisen pulman prosessissa, jota kutsutaan "työn todistamiseksi".
-reviewed: false
+  - Käsin kirjoitettu kirje, jossa luetellaan omaisuutesi.
+  - Kuvaus varojesi käyttöön pääsemiseksi.
+  - Luotettujen henkilöiden yhteystiedot.
+explanation: |
+  Perintösuunnitelman laatiminen on ratkaisevan tärkeää varmistettaessa, että bitcoinsi hallinnoidaan asianmukaisesti kuolemasi jälkeen.
+  Tähän suunnitelmaan voi sisältyä käsin kirjoitettu kirje, jossa luetellaan omaisuutesi,
+  niiden käyttömenetelmät ja luotettavien henkilöiden yhteystiedot, joihin tulee ottaa yhteyttä.
+reviewed: true

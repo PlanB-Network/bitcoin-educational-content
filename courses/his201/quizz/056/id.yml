@@ -1,0 +1,9 @@
+question: Apa saja pola output skrip standar yang dikenali oleh perangkat lunak pada September 2010?
+answer: Penerimaan oleh kunci publik (P2PK) dan penerimaan oleh alamat (P2PKH)
+wrong_answers:
+  - Penerimaan oleh alamat (P2PKH) dan penerimaan oleh skrip tanda tangan multisignature (P2MS)
+  - Penerimaan oleh alamat (P2PKH) dan penerimaan oleh skrip (P2SH)
+  - Penerimaan oleh kunci publik (P2PK) dan penerimaan oleh skrip (P2SH)
+explanation: |
+  Ini adalah dua tipe yang digunakan sejak awal Bitcoin. Tipe P2MS dibuat standar pada Maret 2012. Tipe P2SH ditambahkan ke dalam protokol pada April 2012.
+reviewed: false

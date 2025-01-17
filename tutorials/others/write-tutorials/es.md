@@ -26,10 +26,10 @@ Para contribuir a la PlanB Network, tienes 3 opciones dependiendo de tu nivel de
 - Tener [un perfil de profesor en PlanB Network](https://planb.network/professors) (solo si estás proponiendo un tutorial completo).
 
 **Si necesitas ayuda para obtener estos prerrequisitos, mis otros tutoriales te guiarán:**
-**[Entendiendo Git y GitHub](https://planb.network/tutorials/others/basics-of-github)**
-**[Creando una cuenta de GitHub](https://planb.network/tutorials/others/create-github-account)**
-**[Configurando tu entorno de trabajo](https://planb.network/tutorials/others/github-desktop-work-environment)**
-**[Creando un perfil de profesor](https://planb.network/tutorials/others/create-teacher-profile)**
+**[Entendiendo Git y GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Creando una cuenta de GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Configurando tu entorno de trabajo](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[Creando un perfil de profesor](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## ¿Qué tipo de contenido escribir en PlanB Network?
 Estamos buscando principalmente tutoriales sobre herramientas relacionadas con Bitcoin o su ecosistema. Estos contenidos pueden organizarse en torno a seis categorías principales:
 - Cartera;
@@ -60,7 +60,7 @@ Una vez que todo esté en su lugar, y tu entorno local esté bien configurado co
 
 ### Crear una nueva rama
 
-- Abre tu navegador y dirígete a la página de tu fork del repositorio PlanB. Este es el fork que has establecido en GitHub. La URL de tu fork debería verse así: `https://github.com/[tu-usuario]/sovereign-university-data`:
+- Abre tu navegador y dirígete a la página de tu fork del repositorio PlanB. Este es el fork que has establecido en GitHub. La URL de tu fork debería verse así: `https://github.com/[tu-usuario]/bitcoin-educational-content`:
 ![tutorial](assets/3.webp)
 - Asegúrate de estar en la rama principal `dev` y luego haz clic en el botón `Sync fork`. Si tu fork no está actualizado, GitHub ofrecerá actualizar tu rama. Procede con esta actualización. Si, por el contrario, tu rama ya está actualizada, GitHub te informará:
 ![tutorial](assets/4.webp)
@@ -71,7 +71,7 @@ Una vez que todo esté en su lugar, y tu entorno local esté bien configurado co
 ![tutorial](assets/7.webp)
 - Haz clic en esta rama, luego haz clic en el botón `New Branch`:
 ![tutorial](assets/8.webp)
-- Asegúrate de que la nueva rama esté basada en el repositorio fuente, es decir, `DecouvreBitcoin/sovereign-university-data`.
+- Asegúrate de que la nueva rama esté basada en el repositorio fuente, es decir, `PlanB-Network/bitcoin-educational-content`.
 - Nombra tu rama de manera que el título sea claro sobre su propósito, usando guiones para separar cada palabra. Por ejemplo, digamos que nuestro objetivo es escribir un tutorial sobre el uso del software Sparrow Wallet. En este caso, la rama de trabajo dedicada a escribir este tutorial podría llamarse: `tuto-sparrow-wallet-loic`. Una vez ingresado el nombre apropiado, haz clic en `Create branch` para confirmar la creación de la rama:
 ![tutorial](assets/9.webp)
 - Ahora haz clic en el botón `Publish branch` para guardar tu nueva rama de trabajo en tu fork en línea en GitHub:
@@ -82,7 +82,7 @@ Para cada nuevo artículo que desees publicar, necesitarás crear una nueva rama
 ### Agregando el tutorial
 
 Ahora que la rama de trabajo está creada, es momento de integrar tu nuevo tutorial.
-- Abre tu gestor de archivos y navega hasta la carpeta `sovereign-university-data`, que representa el clon local de tu repositorio. Normalmente deberías encontrarla bajo `Documents\GitHub\sovereign-university-data`. Dentro de este directorio, será necesario localizar la subcarpeta apropiada para colocar tu tutorial. La organización de las carpetas refleja las diferentes secciones del sitio web de PlanB Network. En nuestro ejemplo, dado que deseamos agregar un tutorial sobre Sparrow Wallet, es apropiado ir al siguiente camino: `sovereign-university-data\tutorials\wallet` que corresponde a la sección `WALLET` en el sitio web: ![tutorial](assets/12.webp)
+- Abre tu gestor de archivos y navega hasta la carpeta `bitcoin-educational-content`, que representa el clon local de tu repositorio. Normalmente deberías encontrarla bajo `Documents\GitHub\bitcoin-educational-content`. Dentro de este directorio, será necesario localizar la subcarpeta apropiada para colocar tu tutorial. La organización de las carpetas refleja las diferentes secciones del sitio web de PlanB Network. En nuestro ejemplo, dado que deseamos agregar un tutorial sobre Sparrow Wallet, es apropiado ir al siguiente camino: `bitcoin-educational-content\tutorials\wallet` que corresponde a la sección `WALLET` en el sitio web: ![tutorial](assets/12.webp)
 - Dentro de la carpeta `wallet`, necesitas crear un nuevo directorio específicamente dedicado a tu tutorial. El nombre de esta carpeta debe evocar el software cubierto en el tutorial, asegurando conectar las palabras con guiones. Para mi ejemplo, la carpeta se titulará `sparrow-wallet`:
 ![tutorial](assets/13.webp)
 - En esta nueva subcarpeta dedicada a tu tutorial, varios elementos necesitan ser agregados:
@@ -93,7 +93,7 @@ Ahora que la rama de trabajo está creada, es momento de integrar tu nuevo tutor
 ![tutorial](assets/14.webp)
 - Para resumir, aquí está la jerarquía de archivos a crear:
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (a modificar con la categoría correcta)
         └── sparrow-wallet/ (a modificar con el nombre del tutorial)
@@ -121,7 +121,7 @@ sovereign-university-data/
     - Intermedio (`intermediary`),
     - Avanzado (`advanced`),
     - Experto (`expert`).
-- **profesor**: Proporciona tu ID de colaborador tal como aparece en tu perfil de profesor. Para más detalles, consulta [el tutorial correspondiente](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **profesor**: Proporciona tu ID de colaborador tal como aparece en tu perfil de profesor. Para más detalles, consulta [el tutorial correspondiente](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **enlace** (opcional): En caso de que desees dar crédito a un sitio web fuente para el tutorial que estás desarrollando, como tu propio sitio personal, aquí es donde puedes agregar el enlace concerniente.
 ![tutorial](assets/15.webp)
 - Una vez que hayas terminado de modificar tu archivo `tutorial.yml`, guarda tu documento haciendo clic en `Archivo > Guardar`:
@@ -206,3 +206,4 @@ En el software GitHub Desktop, puedes volver a la rama principal de tu fork (`de
 Si deseas hacer modificaciones a tu contribución después de haber ya enviado tu PR, el procedimiento a seguir depende del estado actual de tu PR:
 - Si tu PR todavía está abierto y no ha sido fusionado, realiza las modificaciones localmente mientras permaneces en la misma rama. Una vez finalizadas las modificaciones, usa el botón `Push origin` para añadir un nuevo commit a tu PR aún abierto;
 - En el caso de que tu PR ya haya sido fusionado con la rama principal, necesitarás repetir el proceso desde el principio creando una nueva rama, y luego enviando un nuevo PR. Asegúrate de que tu repositorio local esté sincronizado con el repositorio fuente de PlanB Network antes de proceder.
+

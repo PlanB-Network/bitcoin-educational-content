@@ -1,0 +1,8 @@
+question: Mis oli Salamanca koolkonna seisukoht indiaanlaste pöördumise osas?
+answer: See peaks toimuma veenmise teel.
+wrong_answers:
+  - See pidi toimuma jõuga.
+  - Seda ei peaks üldse tegema.
+  - Nad ei võtnud selles küsimuses seisukohta.
+explanation: |
+  Salamanca koolkond pooldas indiaanlaste pöördumist veenmise teel, austades seeläbi nende südametunnistuse vabadust ja lükates tagasi igasuguse vägivaldse sundimise, kooskõlas nende loomuõiguse põhimõtetega ja inimõiguste austamisega.

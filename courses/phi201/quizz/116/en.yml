@@ -1,0 +1,9 @@
+question: What major event marked the end of the dollar's convertibility into gold?
+answer: The Nixon Shock
+wrong_answers:
+  - The Great Depression
+  - The oil shock
+  - World War II
+explanation: |
+  The Nixon Shock, in 1971, ended the convertibility of the dollar into gold, marking the end of the Bretton Woods system and the beginning of floating currencies, as the United States could no longer support the exchange of gold for dollars.
+reviewed: false

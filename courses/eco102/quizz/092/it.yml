@@ -1,0 +1,8 @@
+question: Se la proprietà è un'istituzione stabilita dalla volontà generale, come crede Rousseau, quale è la conseguenza?
+answer: Il legislatore può organizzare, modificare o addirittura abolire la proprietà
+wrong_answers:
+  - Il legislatore è quindi vincolato da questa convenzione e non può toccare la proprietà
+  - La volontà generale non vuole mai toccare la proprietà
+  - Il legislatore è obbligato a proteggere la proprietà senza eccezioni
+explanation: |
+  Secondo Rousseau, poiché la proprietà nasce dalla volontà generale, può essere modificata o abolita dal legislatore in conformità con quella stessa volontà.

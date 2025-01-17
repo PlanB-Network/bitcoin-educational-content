@@ -1,0 +1,9 @@
+question: Sự khác biệt chính giữa một chuỗi ngẫu nhiên và một chuỗi giả ngẫu nhiên là gì?
+answer: Một chuỗi ngẫu nhiên xuất phát từ một quá trình ngẫu nhiên thuần túy, trong khi một chuỗi giả ngẫu nhiên được tạo ra bởi một thuật toán từ một hạt giống.
+wrong_answers:
+  - Một chuỗi giả ngẫu nhiên chỉ sử dụng bit 1.
+  - Một chuỗi ngẫu nhiên luôn dài hơn một chuỗi giả ngẫu nhiên vì có một hoạt động tự nhiên trên nó.
+  - Một chuỗi giả ngẫu nhiên được định nghĩa bởi một mô hình hoàn toàn nhị phân, trong khi một chuỗi ngẫu nhiên được định nghĩa bởi một mô hình hoàn toàn thập lục phân.
+explanation: |
+  Một chuỗi ngẫu nhiên xuất phát từ một quá trình ngẫu nhiên trực tiếp, trong khi một chuỗi giả ngẫu nhiên được sản xuất sử dụng một thuật toán mở rộng và một hạt giống ban đầu.
+reviewed: false

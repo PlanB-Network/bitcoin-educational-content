@@ -1,9 +1,14 @@
-question: Como funciona um pool de mineração e por que ele é necessário?
-answer: Um pool de mineração é um grupo de mineradores que combinam seus recursos de computação para aumentar suas chances de mineração. Essa cooperação é necessária porque uma máquina de mineração isolada está competindo contra gigantes da indústria, reduzindo suas chances de sucesso para um nível insignificante. Ao se unirem, os mineradores podem combinar seu poder de computação, encontrar blocos com mais frequência e, em seguida, distribuir as recompensas proporcionalmente à contribuição de cada minerador para o pool.
+question: Como funciona um pool de mineração e por que é necessário?
+answer: Um pool de mineração é um grupo de mineradores que combinam seus recursos computacionais para aumentar suas chances de mineração. Essa cooperação é necessária porque uma pequena máquina de mineração isolada está competindo contra gigantes da indústria, reduzindo suas chances de sucesso para um nível insignificante. Ao se agruparem, os mineradores podem combinar seu poder computacional, encontrar blocos mais frequentemente e, então, distribuir as recompensas proporcionalmente à contribuição de cada minerador para o pool.
 wrong_answers:
   - Um pool de mineração é um grupo de mineradores que compartilham a mesma máquina de mineração para aumentar suas chances de mineração. Essa cooperação é necessária porque uma única máquina de mineração só pode minerar uma quantidade limitada de Bitcoin.
-  - Um pool de mineração é um grupo de mineradores que compartilham o mesmo software de mineração para aumentar suas chances de mineração. Essa cooperação é necessária porque diferentes softwares de mineração têm eficiências diferentes.
+  - Um pool de mineração é um grupo de mineradores que compartilham o mesmo software de mineração para aumentar suas chances de mineração. Essa cooperação é necessária porque diferentes softwares de mineração têm diferentes eficiências.
   - Um pool de mineração é um grupo de mineradores que compartilham o mesmo local de mineração para aumentar suas chances de mineração. Essa cooperação é necessária porque a localização da operação de mineração pode afetar a eficiência da mineração.
 explanation: |
-  O capítulo explica que um pool de mineração é um grupo de mineradores que combinam seus recursos de computação para aumentar suas chances de mineração. Essa cooperação é necessária porque uma máquina de mineração isolada está competindo contra gigantes da indústria, reduzindo suas chances de sucesso para um nível insignificante.
-reviewed: false
+  O capítulo explica que um pool de mineração é um grupo de
+  mineradores que combinam seus recursos computacionais para aumentar
+  suas chances de mineração. Essa cooperação é necessária
+  porque uma pequena máquina de mineração isolada está competindo
+  contra gigantes da indústria, reduzindo suas chances de sucesso para
+  um nível insignificante.
+reviewed: true

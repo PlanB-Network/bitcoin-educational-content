@@ -1,0 +1,12 @@
+question: Hva er brøkreservebankvirksomhet?
+answer: Brøkreservebankvirksomhet er en bankpraksis hvor banker ikke er pålagt å holde like mange reserver som de mottar i innskudd, noe som tillater dem å skape ny kjøpekraft når de innvilger lån.
+wrong_answers:
+  - Brøkreservebankvirksomhet er en bankpraksis hvor banker er pålagt å holde flere reserver enn de mottar i innskudd.
+  - Brøkreservebankvirksomhet er en bankpraksis hvor banker ikke har lov til å innvilge lån.
+  - Brøkreservebankvirksomhet er en bankpraksis hvor banker er pålagt å holde nøyaktig samme mengde reserver som de mottar i innskudd.
+explanation: |
+  Brøkreservebankvirksomhet er et system hvor banker kun holder en brøkdel
+  av innskuddene fra sine deponenter i reserve, og låner ut resten. Dette systemet tillater
+  banker å skape nytt penger i form av lån, som øker den totale pengemengden
+  i økonomien.
+reviewed: false

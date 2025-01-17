@@ -1,15 +1,13 @@
 question: Các thợ đào Bitcoin có thể giúp quản lý dư thừa năng lượng và ổn định lưới điện như thế nào?
 
-answer: Các thợ đào Bitcoin có thể hấp thụ dư thừa năng lượng, đóng vai trò như một bộ đệm linh hoạt, điều chỉnh nhu cầu thay vì cung cấp. Trong một thế giới mà việc sản xuất điện từ các nguồn tái tạo (không thể kiểm soát) đang liên tục tăng lên, các thợ đào có thể đóng một vai trò quan trọng trong việc đảm bảo cân bằng của lưới điện của chúng ta, đồng thời hưởng lợi từ điện giá rẻ hoặc dư thừa để cung cấp năng lượng cho hoạt động đào của họ.
+answer: Các thợ đào Bitcoin có thể hấp thụ dư thừa năng lượng, hoạt động như một bộ đệm linh hoạt, điều chỉnh nhu cầu thay vì cung cấp. Trong một thế giới mà việc sản xuất điện từ các nguồn tái tạo (không thể kiểm soát) đang liên tục tăng lên, các thợ đào có thể đóng một vai trò quan trọng trong việc đảm bảo sự cân bằng của lưới điện của chúng ta, đồng thời hưởng lợi từ điện giá rẻ hoặc dư thừa để cung cấp năng lượng cho hoạt động đào của họ.
 
 wrong_answers:
   - Các thợ đào Bitcoin có thể giúp quản lý dư thừa năng lượng bằng cách lưu trữ năng lượng dư thừa vào pin.
   - Các thợ đào Bitcoin có thể giúp quản lý dư thừa năng lượng bằng cách bán năng lượng dư thừa trở lại lưới điện.
   - Các thợ đào Bitcoin có thể giúp quản lý dư thừa năng lượng bằng cách chuyển đổi năng lượng dư thừa thành nhiệt.
 
-explanation: |
-  Chương này giải thích rằng các thợ đào Bitcoin có thể hấp thụ dư thừa năng lượng,
-  đóng vai trò như một bộ đệm linh hoạt, điều chỉnh nhu cầu thay vì cung cấp. Điều này có thể giúp
-  trong việc quản lý dư thừa năng lượng và ổn định lưới điện.
+explanation:
+  Chương này giải thích rằng các thợ đào Bitcoin có thể hấp thụ dư thừa năng lượng, hoạt động như một bộ đệm linh hoạt, điều chỉnh nhu cầu thay vì cung cấp. Điều này có thể giúp quản lý dư thừa năng lượng và ổn định lưới điện.
 
-reviewed: false
+reviewed: true

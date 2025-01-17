@@ -1,0 +1,8 @@
+question: Hvilken mekanisme forhindrer refleksjonsangrep i sikker kommunikasjon?
+answer: Legge til en unik identifikator for hver deltaker
+wrong_answers:
+  - Øke nøkkellengden
+  - Bruke flere nøkler for hver melding
+  - Legge til en ekstra nøkkel i hver melding
+explanation: |
+  Å legge til en unik identifikator for hver deltaker i den krypterte meldingen forhindrer refleksjonsangrep, ettersom det gjør det mulig å skille opprinnelsen til meldingene.

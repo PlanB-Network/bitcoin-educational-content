@@ -1,10 +1,12 @@
-question: Quel est le processus appelé qui vérifie les transactions sur le réseau Bitcoin?
+question: Quel est le processus qui vérifie les transactions sur le réseau Bitcoin appelé ?
 answer: Minage
 wrong_answers:
-  - Creuser
-  - Récolter
-  - Cultiver
+  - Fouille
+  - Récolte
+  - Culture
 explanation: |
-  Le processus qui vérifie les transactions sur le réseau Bitcoin est appelé
-  minage. Les mineurs effectuent une tâche cryptographique et sont récompensés par l'émission de nouveaux bitcoins.
-reviewed: false
+  Le processus qui vérifie les transactions sur le réseau
+  Bitcoin est appelé minage. Les mineurs effectuent une
+  tâche cryptographique et sont récompensés par l'émission
+  de nouveaux bitcoins.
+reviewed: true

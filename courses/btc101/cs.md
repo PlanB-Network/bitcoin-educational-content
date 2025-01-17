@@ -126,7 +126,10 @@ Předhistorie Bitcoinu je hluboce zakořeněna v hnutí cypherpunk a kolektivní
 
 Bitcoin je tedy protokol, který překlenuje dlouhá období a vyzývá nás, abychom přehodnotili náš vztah k energii, času a penězům. Ale je Bitcoin "skutečná" měna? Co jsou peníze? Existují v několika formách? Tyto otázky prozkoumáme v další kapitole.
 
-![Předhistorie Bitcoinu](assets/posters/fr/1_prehistoiredubitcoin.webp)
+
+Pokud byste chtěli podrobněji prozkoumat historii Bitcoinu, důrazně doporučuji náš kurz HIS 201. Objevíte zde původ a pomalý vznik Bitcoinu, stejně jako začátky jeho historie a komunity. Tento kurz je plně dokumentovaný a podložený zdroji a samozřejmě obsahuje mnoho anekdot:
+
+https://planb.network/courses/his201
 
 # Peníze
 
@@ -190,9 +193,7 @@ Dnes se měny stále vyvíjejí a přizpůsobují své formy různým použitím
 
 Bitcoin na druhou stranu představuje nové možnosti. Díky svým vlastnostem, jako je striktně omezená nabídka, nabízí vynikající uchování hodnoty. Navíc jako neutrální internetová měna představuje dobrý prostředek směny, který nezná hranice. Přesto dnes není v obchodu široce přijímán, navzdory [stálé adopci](https://btcmap.org/map).
 
-### Rychlé shrnutí na plakátu!
 
-![v](assets/posters/en/3._money.webp)
 
 ## Fiduciární měny
 
@@ -239,9 +240,11 @@ V reakci na tyto systémové výzvy se Bitcoin prezentuje jako decentralizované
 Zároveň se zdá, že vznik digitálních měn centrálních bank, neboli CBDC, je nevyhnutelný. Tato nová forma měny by nabídla více centrálně plánovanou ekonomiku, která by mohla omezit finanční svobodu jednotlivců a usnadnit autoritářské zneužití.
 Tuto kapitolu můžeme uzavřít citátem nositele Nobelovy ceny F.A. Hayeka z roku 1984: "Nevěřím, že kdy najdeme dobrou měnu, dokud ji nevyjmeme z rukou vlády. Nemůžeme ji od nich ale násilně vzít; vše, co můžeme udělat, je zavést něco, co nemohou zastavit pomocí chytrých triků."
 
-### Rychlé shrnutí na plakátu!
 
-![Alt text](assets/posters/en/4._fiat_currency.webp)
+
+Pokud se chcete dozvědět více o ekonomických klamech a svobodě, zvu vás k objevování našeho kurzu ECO 102. Tento kurz mapuje život a myšlenky Frédérica Bastiata, francouzského myslitele 19. století, který by bezpochyby ocenil vznik Bitcoinu :
+
+https://planb.network/courses/eco102
 
 ## Hyperinflace
 
@@ -319,9 +322,11 @@ Fáze 4 - Vzniká nová měna
 Závěrem, hyperinflace má za následek rychlé snižování hodnoty měny, což vede k erozi úspor a ztrátě důvěry v měnový systém. Jak kdysi naznačil Voltaire, fiat měna vždy nakonec ztratí svou vnitřní hodnotu a bude směřovat k nule.
 'Měna, která spoléhá na důvěryhodnou třetí stranu, jako je finanční instituce, je v praxi a dlouhodobě vadná měna, protože není schopna zaručit kupní sílu nebo zachovat úspory.
 
-### Rychlé shrnutí na plakátu!
 
-![Alt text](assets/posters/en/5._hyperinflation.webp)
+
+Pro hlubší porozumění tématu hyperinflací doporučuji kurz ECO 204 od Davida St-Onge. Zde se dozvíte, co jsou hyperinflační cykly a jaké jsou jejich skutečné dopady na naše životy. Objevíte také podobnosti mezi těmito cykly a hlavně to, jak se před nimi chránit:
+
+https://planb.network/courses/eco204
 
 ## 21 milionů bitcoinů
 
@@ -405,9 +410,7 @@ Bitcoin svým designem zaručuje zdravé měnové řízení omezením jeho tvorb
 
 Shrnutí, Bitcoin se svou decentralizovanou povahou, programovaným nedostatkem a transparentností nabízí jedinečnou alternativu k tradičním měnovým systémům. Ilustruje, jak lze technologii použít k vytvoření měny, která je nejen užitečná a ověřitelná, ale také zachovává hodnotu úspor uživatelů striktním omezením její nabídky.
 
-### Rychlé shrnutí na plakátu!
 
-![Alt text](assets/posters/en/6._21_millions.webp)
 
 ### Závěr sekce 1!
 
@@ -473,9 +476,11 @@ Takže pravděpodobnost hacknutí vaší Bitcoinové peněženky je astronomicky
 
 Vyberte si peněženku, která vyhovuje vašim potřebám a způsobu použití. Podrobné tutoriály na používání a zabezpečení různých peněženek jsou k dispozici v [sekci tutoriálů naší univerzity](https://planb.network/tutorials/wallet).
 
-### Rychlé shrnutí na plakátu!
 
-![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
+
+Pokud během vaší cesty králičí norou budete chtít vědět více o tvorbě Bitcoin peněženky, od entropie až po přijímací adresy, doporučuji kurz CYP 201 věnovaný tomuto tématu:
+
+https://planb.network/courses/cyp201
 
 ## Bezpečnost a Bitcoinové peněženky
 
@@ -504,11 +509,27 @@ Pokusme se stanovit několik úrovní zabezpečení pro vaše bitcoiny:
 
 - **Úroveň 1**, používáte Bitcoin peněženku ve vašem telefonu nebo počítači, kde jste jediným držitelem vašich bitcoinů. Můžete snadno provádět vaše transakce. Je však zásadní zálohovat mnemonickou frázi, abyste znovu získali přístup k vašim prostředkům v případě ztráty telefonu nebo počítače. Často se tomu říká "hot wallet", protože soukromý klíč je uložen na zařízení s přístupem k internetu.
 
+Například můžete jako horkou peněženku použít Sparrow Wallet:
+
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+
 - **Úroveň 2**, používáte fyzickou peněženku a máte zabezpečený váš seznam 12 nebo 24 slov. Pro provedení transakce budete vždy potřebovat podepsat vaším zařízením. To činí vaše prostředky méně přístupnými na denní bázi. Často se tomu říká "Cold Wallet", protože vaše klíče jsou uloženy na zařízení, které není připojeno k internetu.
+
+Například byste mohli použít Ledger, Satochip nebo Tapsigner:
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![obrázek](assets/en/chapter6/4.webp)
 
 - **Úroveň 3**, používáte peněženku úrovně 1 nebo 2, ale s dodatečnou heslovou frází. Buďte si vědomi, že nyní potřebujete zálohovat jak seznam 12 nebo 24 slov, **tak** vaši heslovou frázi. Ideálně jsou tyto dvě informace uloženy na dvou různých místech.
+
+Pro více informací o použití a fungování přístupové fráze BIP39:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![obrázek](assets/en/chapter6/5.webp)
 
@@ -525,9 +546,7 @@ Závěrem, přímé vlastnictví bitcoinů je zásadním prvkem pro zajištění
 
 Nyní, když máme toto na paměti, pojďme přejít k další sekci a podívat se na kroky pro vytvoření Bitcoin peněženky. Pokud si přejete dále prozkoumat téma zabezpečení, můžete si přečíst tento [článek od DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
-### Rychlé shrnutí na plakátu!
 
-![Alt text](assets/posters/en/9._choose_the_right_wallet.webp)
 
 ## Nastavení peněženky
 
@@ -564,9 +583,11 @@ Jakmile jsou kopie vyrobeny, uložte seznamy slov na bezpečné místo, kde si b
 > "Studené" peněženky obvykle obsahují tyto seznamy slov, stejně jako "teplé" peněženky na mobilu nebo PC. Tato metoda zálohování soukromého klíče je nyní standardem. To znamená, že svou mnemonickou frázi můžete zadat do jakéhokoli softwaru peněženky, abyste obnovili tu svou. Pouze špatné peněženky, které silně nedoporučujeme, vám nedají seznam 24 slov, ale mohou požadovat účet, e-mailovou adresu, nebo co je ještě horší, občanský průkaz.
 > **POZOR: Absence seznamu 24 slov by vás měla upozornit.**
 
-### Rychlé shrnutí na plakátu!
 
-![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
+
+Pokud byste chtěli následně krok za krokem objevit, jak si založit vlastní peněženku a získat své první bitcoiny, doporučuji vám také absolvovat tento další kurz:
+
+https://planb.network/courses/btc102
 
 ## Odolnost vůči zkoušce času
 
@@ -598,9 +619,7 @@ Pokud jde o soukromí, je zásadní nemluvit s každým o vašich bitcoinech. Sk
 
 Ve stejném duchu se vyhněte hlasitému prozrazování vašeho bezpečnostního systému během setkání o bitcoinech nebo při setkáních s cizími lidmi...
 
-### Rychlé shrnutí na plakátu!
 
-![Alt text](assets/posters/en/19._think_long_term.webp)
 
 ### Souhrn k zabezpečení Bitcoinové peněženky
 
@@ -669,9 +688,7 @@ Pokud se chcete dozvědět více o psaní Satoshi Nakamota, doporučuji [kniha P
 
 Nyní, když máme nějaké pozadí, pojďme se podívat, jak obecně funguje transakce s Bitcoinem.
 
-### Rychlé shrnutí na plakátu!
 
-![Alt text](assets/posters/en/7._lancement_bitcoin.webp)
 
 ## Bitcoinové transakce
 
@@ -718,9 +735,7 @@ V této fázi je transakce považována za platnou, těžař poté nový blok pr
 
 > Poznámka: I když Alice vidí, že na jedné ze svých adres přijala bitcoiny, doporučuje se považovat transakci za neměnnou až po obdržení 6 potvrzení. To znamená, že na blok obsahující Bobovu transakci bylo vytěženo dalších 6 bloků. Jinými slovy, čím starší je transakce v blockchainu, tím více se stává neměnnou.
 
-### Rychlé shrnutí na plakátu!
 
-![Vysvětlení transakce](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
 ### Jaký je smysl toho všeho?
 
@@ -778,9 +793,7 @@ Například, pokud by bloky byly 100krát těžší, mohli bychom každých 10 m
 Tato situace není tak hypotetická, protože rok 2017 byl poznamenán intenzivní kontroverzí známou jako "válka bloků". Tento konflikt postavil proti sobě aktéry, kteří chtěli upravit Bitcoin zvětšením velikosti bloku, aby zvýšili kapacitu transakcí, proti těm, kteří usilovali o zachování nezávislosti a moci uživatelů. Nakonec uživatelé a uzly zvítězili tím, že odmítli navrhovanou změnu iniciovanou těžaři, burzami a institucemi.
 Po tomto vítězství uzly aktivovaly aktualizaci nazvanou SegWit, která otevřela cestu pro implementaci Lightning Network, okamžité platební sítě Bitcoinu využívající blockchain Bitcoinu. Tato situace ukazuje, že uživatelé prostřednictvím svých uzlů drží skutečnou moc v rámci Bitcoinu, což jim umožňuje postavit se velkým institucím.
 
-### Shrnutí na plakátu!
 
-![Bitcoinové uzly](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Těžaři
 
@@ -850,9 +863,11 @@ I v případě útoku 51%, což znamená, že agent vlastní více než polovinu
 
 Teorie her aplikovaná na Bitcoin eliminuje nečestné těžaře. Těžaři používají stroje ASIC k těžbě a v případě úspěchu dostávají odměnu. Kromě toho se často připojují k těžebním poolům, aby sdíleli svůj výpočetní výkon a dostávali menší, ale pravidelnější odměny. Těžba Bitcoinu je proces s vysokými energetickými náklady, ale je nezbytný pro fungování a bezpečnost sítě Bitcoin. Proof of work a blockchain řeší problém dvojího utrácení a zajišťují pravdivost informací bez jakékoli důvěryhodné třetí strany. Energetické výdaje jsou nutné k produkci informací, ale ověřování informací má zanedbatelné náklady. Tato asymetrie zaručuje bezpečnost sítě. Proto je ekonomicky výhodnější dodržovat pravidla konsensu než je porušovat.
 
-### Rychlé shrnutí na plakátu!
 
-![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
+
+Pokud byste chtěli podrobněji prozkoumat specifické téma těžby Bitcoinu, můžete se podívat na náš kurz MIN 201. Objevíte zde fungování a roli Proof-of-Work, stejně jako zákulisí těžebního průmyslu. Také vám vysvětlíme, jak přeměnit ASIC na topení, abyste mohli těžit své první satoshi a zároveň vytápět svůj domov!
+
+https://planb.network/courses/min201
 
 ## Bitcoin a ekologie
 
@@ -897,9 +912,7 @@ Technologie Bitcoinu je často nesprávně chápána a kritiky týkající se je
 
 > Řiďte se jedním z maxim Bitcoinu: Nedůvěřuj, ověř si to sám!
 
-### Rychlé shrnutí na plakátu!
 
-![Bitcoin & ekologie](assets/posters/fr/14_minage_et_ecologie_crop.webp)
 
 ### Stručné shrnutí technických aspektů Bitcoinu
 
@@ -966,9 +979,7 @@ Dnes, v roce 2023, Bitcoin nadále přežívá a ještě více roste tím, že s
 
 ![image](assets/en/chapter14/3.webp)
 
-### Rychlé shrnutí na plakátu!
 
-![Alt text](assets/posters/en/15._bitcoinr_never_sleeps.webp)
 
 ## Získávání bitcoinů prací
 
@@ -998,12 +1009,18 @@ Pro přijetí Bitcoinu je nutné prostudovat různá dostupná řešení a vybra
 Toto téma podrobněji probereme v dalším školení, ale abychom to udrželi jednoduché, můžeme zvážit několik kategorií podnikání a tedy související řešení:
 
 - Jednoduché online řešení: OpenNode
+
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
 - Řešení pro amatérské obchodníky: Swiss Bitcoin Pay
-- Řešení pro velké struktury nebo vášnivé bitcoinery: BTCpay Server
 
-### Rychlé shrnutí na plakátu!
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-![Alt text](assets/posters/en/17._earn_your_bitcoin.webp)
+- Řešení pro velké struktury nebo nadšené bitcoinery: BTCpay Server
+
+https://planb.network/courses/btc305
+
+
 
 ## Spoření s Bitcoinem
 
@@ -1092,9 +1109,7 @@ Kromě toho existuje několik [tržišť](https://planb.network/tutorials/exchan
 ![image](assets/en/chapter15/3.webp)
 Je také důležité poznamenat, že ve vaší jurisdikci mohou být zavedeny daně. Doporučujeme vám, abyste před podniknutím jakékoli akce, která by vás mohla vystavit riziku, konzultovali předpisy vaší země.
 
-### Rychlé shrnutí na plakátu!
 
-![Alt text](assets/posters/en/16._saving_in_bitcoin.webp)
 
 ## Hyperbitcoinizace
 
@@ -1120,9 +1135,7 @@ Pokud chcete rozšířit své znalosti o Bitcoinu, velké množství autorů, my
 
 > Milton Friedman, renomovaný ekonom, předpověděl v roce 1999: "Myslím, že Internet bude jednou z hlavních sil pro snížení role vlády. To jediné, co chybí, ale brzy bude vyvinuto, je spolehlivý e-cash - metoda, jak na Internetu převádět prostředky z A na B bez toho, aby A znalo B nebo B znalo A."
 
-### Rychlé shrnutí na plakátu!
 
-![Alt text](assets/posters/en/18._hyperbitcoinization.webp)
 
 # Budoucnost Bitcoinu: Lightning Network
 
@@ -1165,9 +1178,11 @@ Transakce jsou zabezpečeny prostřednictvím kryptografie a nepřímo prostřed
 
 Shrnutí, Lightning Network je slibný pokus o nasazení efektivního platebního systému pro transakce v Bitcoinu. Již nyní je k dispozici mnoho Lightning peněženek, které můžete objevit v naší sekci tutoriálů nebo prostřednictvím našeho školení o Lightning Network.
 
-### Rychlé shrnutí na plakátu!
 
-![Alt text](assets/posters/en/20._lightning_network.webp)
+
+Pokud chcete jít dál než jen tuto úvodní část a pochopit všechny detaily Lightning Network, doporučuji absolvovat tento vynikající kurz od Fanise Michalakise na toto téma:
+
+https://planb.network/courses/lnp201
 
 ## Případové studie Lightning Network
 
@@ -1201,9 +1216,7 @@ V takovém systému jsou peníze automaticky rozděleny, na základě předem de
 ![obrázek](assets/en/chapter19/3.webp)
 Na závěr, Lightning Network otevírá množství vzrušujících případů užití pro uživatele Bitcoinu. Výsledné ekonomické modely a obchodní příležitosti jsou četné a různorodé. Doporučujeme vám to vyzkoušet sami, například pomocí podcastové aplikace [Fountain](https://www.fountain.fm/), která vám umožní být odměněni několika satoshi za poslech vašich oblíbených podcastů!
 
-### Rychlé shrnutí na plakátu!
 
-![Alt text](assets/posters/en/21._ln_use_cases.webp)
 
 ## Červená pilulka nebo modrá pilulka?
 
@@ -1211,7 +1224,6 @@ Na závěr, Lightning Network otevírá množství vzrušujících případů u�
 
 Jak řekl Morpheus Neovi: "Vezmeš modrou pilulku, příběh končí, probudíš se ve své posteli a věříš, čemu chceš. Vezmeš červenou pilulku, zůstaneš v Říši divů a já ti ukážu, jak hluboko zající nora vede." Jste připraveni prozkoumat zající noru Bitcoinu? Buďte opatrní, protože byste mohli znovuobjevit svou finanční svobodu!
 
-![červená pilulka](assets/posters/fr/2_pilluleorange.webp)
 
 ### Technologická budoucnost a její důsledky
 
@@ -1267,34 +1279,21 @@ Bitcoin je přijímán různými skupinami lidí, od kryptografů po libertariá
 Bitcoin již nelze zastavit ani cenzurovat. Jedná se o mírumilovnou revoluci, která má změnit měnový systém a umožnit finanční inkluzi. Uživatelé mohou získat bitcoiny přijetím za své obchody nebo jejich nákupem prostřednictvím regulovaných či neregulovaných platforem. Bitcoiny lze uchovávat v peněženkách, mobilních aplikacích nebo fyzických zařízeních. Bitcoin nepotřebuje důvěryhodného prostředníka, zastává transparentnost, svobodu a individuální zodpovědnost - jak praví přísloví "Nevěř, ověřuj".
 Změna finančního systému vyžaduje změnu měny. Satoshi vytvořil Bitcoin v roce 2008 jako pokus o toto. Přístup k snadným a "magickým" penězům korumpuje. Bitcoin je tedy alternativou k vytvoření nového neutrálního měnového systému. Bitcoin umožňuje osvobození od bankovního systému. Jedná se o sociální fenomén, který nás vede k účasti na mírumilovné revoluci. Jste připraveni se přidat?
 
-## Poděkování a pokračujte v prozkoumávání králičí nory
+# Závěr
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Jděte dál
-
-Gratulujeme k dokončení tohoto kurzu BTC 101! Doufám, že se vám líbil a otevřel vám nové dveře. Vaše objevování bitcoinu teprve začíná a zvu vás, abyste prozkoumali všechny ostatní kurzy dostupné na univerzitě.
-
-- [BTC 102](https://planb.network/courses/btc102) vám pomůže nastavit váš bitcoinový plán
-- [LNP 201](https://planb.network/courses/lnp201) vám umožní objevit Lightning Network, druhovrstvou platební síť
-- [ECO 201](https://planb.network/courses/eco201) pokryje rakouskou ekonomii
-- [SCU 101](https://planb.network/courses/scu101) vám umožní aktualizovat vaši digitální bezpečnost
-- [MIN 201](https://planb.network/courses/min201) pro více informací o těžbě
-- a mnoho dalších...
-
-## Ohodnoťte kurz
+## Recenze & Hodnocení
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Závěr
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
-**Gratulujeme k dokončení tohoto kurzu!**
-
-Vezměte prosím na vědomí, že tato kapitola je momentálně ve výstavbě a vylepšená verze bude brzy k dispozici. Mezitím, pokud se těšíte na pokračování své Bitcoin cesty, zveme vás k prozkoumání dalších kurzů a výukových programů dostupných na naší platformě. Pokračujte v dobré práci a přejeme příjemné učení!
+<isCourseConclusion>true</isCourseConclusion>

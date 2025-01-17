@@ -1,0 +1,15 @@
+name: bitcoinheiros
+host: Bitcoinheiros do Brasil
+language: pt
+links:
+  podcast: https://open.spotify.com/show/6mxp05VDnbj4jTFtPC42T2
+  twitter: https://twitter.com/bitcoinheiros
+  website: https://www.bitcoinheiros.com/
+description: |
+  O melhor podcast sobre Bitcoin em português. Junte-se todas as semanas ao Allan, Becas, Dov, Ivan e convidados especiais para uma discussão sobre a tecnologia que está revolucionando o mundo.
+tags:
+  - privacy
+  - cypherpunk
+  - use-case
+contributors:
+  - hunt-wood

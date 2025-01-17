@@ -1,11 +1,13 @@
-question: Hình thức tiền tệ đầu tiên thường được liên kết với cái gì?
-answer: Các mặt hàng thiết yếu như ngũ cốc, gia súc và các hàng hóa khác
+question: Những hình thức tiền tệ đầu tiên là gì?
+answer: Hàng hóa như ngũ cốc và gia súc.
 wrong_answers:
-  - Vàng và bạc
-  - Tiền giấy
-  - Tài sản số
+  - Vàng và bạc.
+  - Tiền giấy.
+  - Tài sản số.
 explanation: |
-  Hình thức tiền tệ đầu tiên thường được liên kết với các mặt hàng thiết yếu như
-  ngũ cốc, gia súc và các hàng hóa khác. Tuy nhiên, những hàng hóa này có nhược điểm lớn,
-  như tính dễ hỏng, làm cho việc sử dụng chúng như một phương tiện tiết kiệm lâu dài trở nên khó khăn.
-đã được xem xét: true
+  Những hình thức tiền tệ đầu tiên thường liên quan đến các
+  hàng hóa thiết yếu như ngũ cốc, gia súc và các mặt hàng
+  tiêu dùng khác. Tuy nhiên, những hàng hóa này có nhược điểm
+  lớn như dễ hỏng, làm cho việc sử dụng chúng như một phương
+  tiện tiết kiệm lâu dài trở nên khó khăn.
+reviewed: true

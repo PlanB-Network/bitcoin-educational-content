@@ -5,10 +5,7 @@ wrong_answers:
   - It is more important than academic knowledge
   - It is the only way to learn about cybersecurity
 explanation: |
-  The chapter emphasizes the importance of practical experience as it
-
-  allows
-
-
-  you to apply your theoretical knowledge in real-world situations.'''
-reviewed: false
+  The chapter emphasizes the importance of practical
+  experience as it allows you to apply your theoretical
+  knowledge in real-world situations.
+reviewed: true

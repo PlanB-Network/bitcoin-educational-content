@@ -1,0 +1,9 @@
+question: ¿Por qué se considera que el cifrado por desplazamiento es un cifrado simétrico?
+answer: Porque se utiliza la misma clave tanto para el cifrado como para el descifrado
+wrong_answers:
+  - Porque utiliza dos claves, una pública y otra privada
+  - Porque descifra sin utilizar una clave
+  - Porque la clave varía con cada cifrado
+explanation: |
+  El cifrado por desplazamiento se considera un cifrado simétrico porque utiliza la misma clave para cifrar y descifrar un mensaje, asegurando así la confidencialidad entre las partes que comparten esta clave.
+reviewed: false

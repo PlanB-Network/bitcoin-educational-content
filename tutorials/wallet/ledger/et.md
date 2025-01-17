@@ -211,5 +211,5 @@ https://armantheparman.com/ledgersparrow/
 
 Selle teema süvendamiseks ja oma rahakoti turvalisuse tugevdamiseks Ledger Nano'ga koos BIP39 passphrase'iga kutsun teid tutvuma selle põhjaliku õpetusega:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 

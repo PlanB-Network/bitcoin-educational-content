@@ -1,0 +1,11 @@
+question: Hva er den anbefalte praksisen for bruk av en administrator-konto på Windows?
+answer: Opprett to separate kontoer; en administrator-konto og en konto for daglig bruk.
+wrong_answers:
+  - Bruk administrator-kontoen til daglig bruk.
+  - Opprett flere administrator-kontoer.
+  - Ikke opprett en administrator-konto.
+explanation: |
+  Å bruke en administrator-konto til daglig bruk på Windows kan utsette
+  systemet for større sikkerhetsrisikoer. Det anbefales å opprette to separate kontoer;
+  en for administrative oppgaver og en annen for daglig bruk.
+reviewed: false

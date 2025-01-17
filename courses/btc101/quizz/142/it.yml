@@ -1,9 +1,10 @@
 question: Cos'è un nodo potato nel contesto di Bitcoin?
-answer: Un nodo che mantiene in memoria solo gli ultimi N blocchi
+answer: Un nodo che mantiene in memoria solo gli ultimi N blocchi.
 wrong_answers:
-  - Un nodo che valida solo le transazioni
-  - Un nodo che trasmette informazioni solo ad altri nodi
-  - Un nodo che fa rispettare solo le regole del protocollo Bitcoin
+  - Un nodo che valida solo le transazioni.
+  - Un nodo che trasmette informazioni solo ad altri nodi.
+  - Un nodo che fa rispettare solo le regole del protocollo Bitcoin.
 explanation: >-
-  Un nodo potato nel contesto di Bitcoin è un nodo che mantiene in memoria solo gli ultimi N blocchi.
-reviewed: false
+  Un nodo potato nel contesto di Bitcoin è un nodo che mantiene in memoria
+  solo gli ultimi N blocchi.
+reviewed: vero

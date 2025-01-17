@@ -1,0 +1,9 @@
+question: Apa yang dimungkinkan oleh Lightning Network?
+answer: Melakukan transaksi antar individu yang tidak memiliki koneksi saluran langsung.
+wrong_answers:
+  - Melakukan transaksi antar individu yang hanya memiliki koneksi saluran langsung.
+  - Melakukan transaksi antar individu yang memiliki koneksi saluran langsung dan pihak ketiga.
+  - Melakukan transaksi antar individu yang memiliki koneksi saluran langsung dan beberapa pihak ketiga.
+explanation: |
+  Lightning Network memungkinkan transaksi antar individu
+  yang tidak memiliki koneksi saluran langsung.

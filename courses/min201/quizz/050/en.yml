@@ -5,7 +5,7 @@ wrong_answers:
   - The main challenge is finding a safe place to store the mined bitcoins.
   - The main challenge is finding a buyer for the mined bitcoins.
 explanation: |
-  The main challenge associated with Bitcoin mining is that the mining
-  industry is extremely competitive and volatile, and unforeseen incidents can disrupt
-  mining operations.
-reviewed: false
+  The main challenge associated with Bitcoin mining is that
+  the mining industry is extremely competitive and volatile,
+  and unforeseen incidents can disrupt mining operations.
+reviewed: true

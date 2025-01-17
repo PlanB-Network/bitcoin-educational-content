@@ -1,0 +1,9 @@
+question: Кто создал вики Bitcoin.it в декабре 2010 года?
+answer: Марк Карпелес (MagicalTux)
+wrong_answers:
+  - Майкл Маркуардт (Theymos)
+  - Мартти Малми (sirius-m)
+  - Амир Тааки (genjix)
+explanation: |
+  Идея [заключалась](https: //buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848) в разработке менее формальной и более ориентированной на сообщество вики.
+reviewed: false

@@ -63,6 +63,9 @@ Sparrowで、「*Addresses*」タブをクリックします。
 次に、ウォレットの最初の受信アドレスを紙にメモします。私の例では、アドレスは以下の通りです：
 
 ```txt
+tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
+```
+
 情報をメモした後、「*File*」メニューに移動し、「*Delete Wallet*」を選択します。もう一度思い出させてくださいが、この操作を進める前にBitcoinウォレットが空である必要があります。
 
 ![RECOVERY TEST](assets/notext/04.webp)

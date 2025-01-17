@@ -1,9 +1,9 @@
-question: ¿Qué enfatiza la frase "Not your keys, not your Bitcoins"?
+question: ¿Qué enfatiza la frase Not your keys, not your Bitcoins?
 answer: La importancia de ser dueño de la clave privada de una billetera de Bitcoin.
 wrong_answers:
   - La importancia de tener una llave física para acceder a tus Bitcoins.
   - La importancia de mantener tus Bitcoins en un lugar seguro.
   - La importancia de no compartir los detalles de tu cuenta de Bitcoin.
 explanation: |
-  El capítulo explica que la frase "Not your keys, not your Bitcoins" enfatiza la importancia de ser dueño de la clave privada de una billetera de Bitcoin. Al ser dueño de la clave privada, tienes control total sobre los Bitcoins que contiene.
+  El capítulo explica que la frase Not your keys, not your Bitcoins enfatiza la importancia de ser dueño de la clave privada de una billetera de Bitcoin. Al ser dueño de la clave privada, tienes control total sobre los Bitcoins que contiene.
 reviewed: false

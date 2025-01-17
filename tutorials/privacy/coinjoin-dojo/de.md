@@ -63,7 +63,7 @@ Whirlpool wurde unter Berücksichtigung zweier wichtiger Anforderungen entwickel
 Diese Imperative leiteten die Entscheidungen der Entwickler von Samourai Wallet bei der Gestaltung von Whirlpool, was sie dazu brachte, die Anzahl der Teilnehmer pro Zyklus zu begrenzen. Zu wenige Teilnehmer hätten die Effizienz des Coinjoins beeinträchtigt, was die in jedem Zyklus generierten Anonsets drastisch reduziert hätte, während zu viele Teilnehmer Managementprobleme bei mobilen Anwendungen verursacht hätten und den Fluss der Zyklen behindert hätten.
 **Letztendlich ist es nicht notwendig, eine hohe Anzahl von Teilnehmern pro Coinjoin bei Whirlpool zu haben, da die Anonsets durch die Ansammlung mehrerer Coinjoin-Zyklen erreicht werden.**
 
-[-> Erfahren Sie mehr über Whirlpool Anonsets.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Erfahren Sie mehr über Whirlpool Anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### Die Pools und Coinjoin-Gebühren
 Damit diese mehrfachen Zyklen die Anonsets der gemischten Münzen effektiv erhöhen können, muss ein bestimmter Rahmen festgelegt werden, um die Beträge der verwendeten UTXO zu beschränken. Whirlpool definiert daher verschiedene Pools.
@@ -168,14 +168,14 @@ Es gibt viele Möglichkeiten, Whirlpool zu nutzen. Die Option, die ich hier vors
 Coinjoins über Samourai Wallet mit Ihrem eigenen Dojo durchzuführen, ist meiner Meinung nach die effektivste Strategie, um Coinjoins auf Bitcoin durchzuführen. Dieser Ansatz erfordert eine anfängliche Investition in Bezug auf die Einrichtung, bietet aber einmal eingerichtet die Möglichkeit, Ihre Bitcoins kontinuierlich zu mischen und neu zu mischen, 24 Stunden am Tag, 7 Tage die Woche, ohne dass Sie Ihre Samourai-Anwendung ständig aktiv halten müssen. Tatsächlich können Sie dank Whirlpool CLI, das auf einem Bitcoin-Knoten läuft, jederzeit an Coinjoins teilnehmen. Die Samourai-Anwendung gibt Ihnen dann die Möglichkeit, Ihre gemischten Gelder jederzeit und überall direkt von Ihrem Smartphone aus auszugeben. Darüber hinaus hat diese Methode den Vorteil, dass Sie nie mit Servern verbunden werden, die von den Samourai-Teams verwaltet werden, und bewahrt so Ihr `xpub` vor jeglicher externer Exposition.
 
 Diese Technik ist daher ideal für diejenigen, die maximale Privatsphäre und die hochwertigsten Coinjoin-Zyklen suchen. Sie erfordert jedoch einen Bitcoin-Knoten zur Verfügung zu haben und, wie wir später sehen werden, einige Einrichtungen. Sie ist daher eher für fortgeschrittene Benutzer geeignet. Für Anfänger empfehle ich, sich mit Coinjoin durch diese beiden anderen Tutorials vertraut zu machen, die zeigen, wie es mit Sparrow Wallet oder Samourai Wallet (ohne Dojo) gemacht wird:
-- **[Sparrow Wallet Coinjoin-Tutorial](https://planb.network/de/tutorials/privacy/coinjoin-sparrow-wallet)**;
-- **[Samourai Wallet Coinjoin-Tutorial (ohne Dojo)](https://planb.network/de/tutorials/privacy/coinjoin-samourai-wallet)**.
+- **[Sparrow Wallet Coinjoin-Tutorial](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- **[Samourai Wallet Coinjoin-Tutorial (ohne Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 ### Das Setup verstehen
 Zu Beginn benötigen Sie ein Dojo! Dojo ist eine Bitcoin-Knoten-Implementierung, die auf Bitcoin Core basiert und von den Samourai-Teams entwickelt wurde.
 
 Um Ihr eigenes Dojo zu betreiben, haben Sie die Möglichkeit, entweder einen Dojo-Knoten autonom zu installieren, oder von Dojo auf einem anderen „Node-in-Box“-Bitcoin-Knoten zu profitieren. Derzeit sind die verfügbaren Optionen:
-- [RoninDojo](https://ronindojo.io/), das ein Dojo mit zusätzlichen Tools ist, einschließlich eines Installationsassistenten und eines Verwaltungsassistenten. Ich erkläre das Verfahren zur Einrichtung und Nutzung von RoninDojo in diesem anderen Tutorial: [RONINDOJO V2](https://planb.network/de/tutorials/node/ronin-dojo-v2);
+- [RoninDojo](https://ronindojo.io/), das ein Dojo mit zusätzlichen Tools ist, einschließlich eines Installationsassistenten und eines Verwaltungsassistenten. Ich erkläre das Verfahren zur Einrichtung und Nutzung von RoninDojo in diesem anderen Tutorial: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/) mit der Anwendung "Samourai Server";
 - [MyNode](https://mynodebtc.com/) mit der Anwendung "Dojo";
 - [Nodl](https://www.nodl.eu/) mit der Anwendung "Dojo";
@@ -256,7 +256,7 @@ Im nächsten Schritt gelangen Sie auf die Seite, die der Konfiguration Ihres Doj
 
 ![coinjoin](assets/notext/24.webp)
 
-*Für neue Benutzer von Samourai wird es dann notwendig sein, eine Wallet von Grund auf neu zu erstellen. Wenn Sie Hilfe benötigen, können Sie die Anweisungen zur Einrichtung einer neuen Samourai Wallet [in diesem Tutorial, speziell im Abschnitt "Erstellen einer Software-Wallet"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
+*Für neue Benutzer von Samourai wird es dann notwendig sein, eine Wallet von Grund auf neu zu erstellen. Wenn Sie Hilfe benötigen, können Sie die Anweisungen zur Einrichtung einer neuen Samourai Wallet [in diesem Tutorial, speziell im Abschnitt "Erstellen einer Software-Wallet"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 
 Wenn Sie mit der Wiederherstellung einer bereits existierenden Samourai Wallet fortfahren, wählen Sie `Bestehende Wallet wiederherstellen`, dann wählen Sie `Ich habe eine Samourai Backup-Datei`.
 Normalerweise sollten Sie immer Ihre Wiederherstellungsdatei in Ihrer Zwischenablage haben. Klicken Sie dann auf `EINFÜGEN`, um Ihre Datei an der vorgesehenen Stelle einzufügen. Um sie zu entschlüsseln, müssen Sie auch die BIP39-Passphrase Ihres Wallets in das entsprechende Feld eingeben, das sich direkt darunter befindet. Zum Abschluss klicken Sie auf `FERTIGSTELLEN`. ![coinjoin](assets/notext/26.webp)
@@ -361,4 +361,7 @@ Whirlpool-Konten sind in Samourai Wallet durch ihre blaue Farbe leicht zu identi
 
 ![coinjoin](assets/notext/53.webp)
 
-Um den Überblick über Ihre automatischen CoinJoins zu behalten, empfehle ich auch, ein Watch-Only-Wallet über die Sentinel-App einzurichten. Fügen Sie das ZPUB Ihres **Postmix**-Kontos hinzu und überwachen Sie den Fortschritt Ihrer CoinJoin-Zyklen in Echtzeit. Wenn Sie verstehen möchten, wie man Sentinel verwendet, empfehle ich, dieses andere Tutorial im PlanB Network zu konsultieren: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)
+Um den Überblick über Ihre automatischen CoinJoins zu behalten, empfehle ich auch, ein Watch-Only-Wallet über die Sentinel-App einzurichten. Fügen Sie das ZPUB Ihres **Postmix**-Kontos hinzu und überwachen Sie den Fortschritt Ihrer CoinJoin-Zyklen in Echtzeit. Wenn Sie verstehen möchten, wie man Sentinel verwendet, empfehle ich, dieses andere Tutorial im PlanB Network zu konsultieren: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+
+
+

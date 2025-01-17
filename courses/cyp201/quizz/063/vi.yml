@@ -1,11 +1,8 @@
-question: Tại sao việc bảo mật khóa riêng lại quan trọng trong hệ thống Bitcoin?
-answer: Nó đảm bảo an ninh cho các giao dịch Bitcoin.
+question: Thông tin nào không được bao gồm trong một khóa mở rộng?
+answer: Lịch sử giao dịch của khóa
 wrong_answers:
-  - Nó đảm bảo tốc độ của các giao dịch Bitcoin.
-  - Nó đảm bảo sự ẩn danh của các giao dịch Bitcoin.
-  - Nó đảm bảo tính hợp pháp của các giao dịch Bitcoin.
+  - Số chỉ mục của khóa
+  - Khóa (riêng tư hoặc công khai)
+  - Mã chuỗi
 explanation: |
-  Khóa riêng là nền tảng đảm bảo an ninh cho các giao dịch Bitcoin.
-  Chúng phải được tạo ra một cách hoàn toàn ngẫu nhiên để tránh bất kỳ lỗ hổng
-  nào liên quan đến khả năng dự đoán.
-reviewed: false
+  Một khóa mở rộng chỉ chứa thông tin cần thiết để tạo ra các khóa con, không bao gồm thông tin liên quan đến giao dịch.

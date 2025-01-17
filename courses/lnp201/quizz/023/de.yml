@@ -1,9 +1,9 @@
-question: Was ist der Zweck der Auszahlungstransaktion in einem Lightning Network-Transfer?
-answer: Sie repräsentiert den Zustand des Kanals und garantiert, wem die Mittel nach jedem Transfer gehören.
+question: Warum tauschen Alice und Bob ihre Geheimnisse für vorherige Commitment-Transaktionen aus?
+answer: Um jedem zu ermöglichen, sich zu schützen, falls der andere eine alte Transaktion veröffentlicht
 wrong_answers:
-  - Es ist die Transaktion, die die Mittel von einer Seite zur anderen bewegt.
-  - Es ist die Transaktion, die den Kanal öffnet.
-  - Es ist die Transaktion, die den Kanal schließt.
+  - Um die Kapazität des Kanals zu erhöhen
+  - Um den Zugang des anderen zu den Mitteln zu blockieren
+  - Um die Mittel gleichmäßig aufzuteilen
 explanation: |
-  Die Auszahlungstransaktion wird nach jedem Lightning Network-Transfer aktualisiert, um den aktuellen Zustand des Kanals widerzuspiegeln. Sie garantiert, wem die Mittel nach jedem Transfer gehören, wird jedoch erst ausgeführt, wenn der Kanal geschlossen ist.
+  Der Austausch von Geheimnissen für vorherige Transaktionen ermöglicht es jedem Teilnehmer, den anderen zu bestrafen, falls ein Versuch unternommen wird, durch Veröffentlichung einer alten Transaktion zu betrügen.
 reviewed: false

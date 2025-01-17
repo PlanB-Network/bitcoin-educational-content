@@ -1,9 +1,9 @@
-question: Lightning Network là gì?
-answer: Một giao thức tầng 2 trên nền tảng Bitcoin giúp tăng tốc độ giao dịch.
+question: Điều gì xảy ra nếu Alice không nhận được chữ ký của Bob cho giao dịch rút tiền?
+answer: Cô ấy có nguy cơ mất quyền truy cập vào số tiền đã gửi vào địa chỉ đa chữ ký
 wrong_answers:
-  - Một loại tiền mã hóa.
-  - Một trình duyệt blockchain.
-  - Một ví điện tử để lưu trữ bitcoin.
+  - Cô ấy không thể giao tiếp với Bob trên Mạng Lưới Lightning nữa
+  - Kênh mở với dung lượng hạn chế
+  - Bob tự động nhận được số tiền trong kênh
 explanation: |
-  Lightning Network là một giao thức tầng 2 được xây dựng trên nền tảng Bitcoin. Nó được thiết kế để tăng tốc độ giao dịch thông qua việc tạo ra các kênh thanh toán ngoại tuyến.
+  Nếu không có chữ ký của Bob trên giao dịch rút tiền, Alice không thể đảm bảo việc thu hồi số tiền của mình trong trường hợp có vấn đề, gây ra rủi ro mất mát.
 reviewed: false

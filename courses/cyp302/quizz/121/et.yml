@@ -1,0 +1,9 @@
+question: Mis on peamine võtmehalduse probleem?
+answer: Iga kliendi jaoks paari võtmete turvamine ja salvestamine
+wrong_answers:
+  - Klientide poolt kaotatud võtmete uuendamise võimatus
+  - Iga kliendi poolt kasutusele võetava võtme dekrüpteerimise vajadus
+  - Iga suhtluse jaoks võtmete edastamise vajadus
+explanation: |
+  Võtmehalduse probleem seisneb raskustes iga kasutaja jaoks paari võtmete salvestamisel ja turvamisel, eriti kui klientide arv ulatub miljoniteni.
+reviewed: false

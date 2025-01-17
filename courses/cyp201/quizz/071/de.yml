@@ -1,9 +1,8 @@
-question: Wie werden die Bits bei der Generierung einer mnemonischen Phrase für eine Bitcoin-Wallet in Phrasen umgewandelt?
-answer: Jedes Segment ist mit einem Wort aus einer Liste von 2048 Wörtern verbunden.
+question: Welche Tiefe im Ableitungspfad gibt den Währungstyp an?
+answer: Tiefe 2
 wrong_answers:
-  - Jedes Bit ist mit einem Wort aus einer Liste von 2048 Wörtern verbunden.
-  - Jedes Segment ist mit einem Wort aus einer Liste von 1024 Wörtern verbunden.
-  - Jedes Bit ist mit einem Wort aus einer Liste von 1024 Wörtern verbunden.
+  - Tiefe 1
+  - Tiefe 3
+  - Tiefe 4
 explanation: |
-  Um die Bits in Phrasen umzuwandeln, wird jedem Segment ein Wort aus einer Liste von 2048 Wörtern zugeordnet.
-reviewed: false
+  Tiefe 2 wird verwendet, um die Währung in Multi-Währungs-Wallets zu identifizieren, wie zum Beispiel Bitcoin (Index 0') oder Litecoin (Index 2').

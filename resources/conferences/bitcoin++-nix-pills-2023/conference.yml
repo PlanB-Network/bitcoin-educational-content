@@ -1,0 +1,22 @@
+year: 2023-10
+name: Bitcoin++ nix-pills edition 2023
+builder: Bitcoin++
+location: Berlin, Germany
+language:
+  - en
+links:
+  twitter: https://x.com/btcplusplus
+  website: https://btcpp.dev/
+tags:
+  - development
+  - technical-analysis
+  - innovation
+#proofreading_metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: "2024-12-19"
+    urgency: 0
+    contributors_id:
+      - jramos0
+    reward: 0

@@ -1,0 +1,10 @@
+question: Hva er Lightning Network?
+answer: Et øyeblikkelig Bitcoin betalingsnettverk som bruker Bitcoin blockchain
+wrong_answers:
+  - Et separat blockchain-nettverk fra Bitcoin blockchain
+  - Et nettverk av Bitcoin-minere
+  - Et nettverk av Bitcoin-børser
+explanation: >-
+  Lightning Network er et øyeblikkelig Bitcoin betalingsnettverk som bruker
+  Bitcoin blockchain.
+reviewed: false

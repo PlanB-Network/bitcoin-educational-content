@@ -1,0 +1,9 @@
+question: Pada sebuah koin, apa tiga kriteria fundamental yang memungkinkan seseorang untuk memastikan mereka dapat menggunakannya lagi nanti?
+answer: Koin tersebut harus utuh, asli, dan tidak boleh digunakan dua kali.
+wrong_answers:
+  - Koin tersebut harus kuno, langka, dan dalam kondisi baik.
+  - Koin tersebut harus diterima secara universal, legal, dan disimpan di bank.
+  - Koin tersebut harus disetujui oleh negara, terdaftar, dan tahan lama.
+explanation: |
+  Setiap individu rasional yang ingin menerima sebuah koin, baik digital maupun fisik, memastikan bahwa koin tersebut tidak diubah, bahwa itu memang koin yang asli, dan bahwa koin tersebut tidak dapat digunakan kembali oleh penerbitnya.
+reviewed: false

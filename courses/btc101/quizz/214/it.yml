@@ -1,9 +1,12 @@
-question: Cosa ha previsto Milton Friedman nel 1999?
-answer: Lo sviluppo di una moneta elettronica affidabile
+question: Cosa predisse Milton Friedman nel 1999?
+answer: Lo sviluppo di un e-cash affidabile.
 wrong_answers:
-  - La caduta del denaro fisico
-  - L'ascesa di Bitcoin
-  - La fine del controllo governativo sul denaro
+  - La scomparsa del denaro fisico.
+  - L'ascesa di Bitcoin.
+  - La fine del controllo governativo sul denaro.
 explanation: |
-  Milton Friedman, un rinomato economista, ha previsto nel 1999 che sarebbe stata presto sviluppata una moneta elettronica affidabile, un metodo mediante il quale su Internet è possibile trasferire fondi da A a B senza che A conosca B o B conosca A.
-reviewed: false
+  Milton Friedman, un rinomato economista, predisse nel 1999
+  che sarebbe stato sviluppato presto un e-cash affidabile, un metodo
+  mediante il quale su Internet si possono trasferire fondi da A a B,
+  senza che A conosca B o viceversa.
+reviewed: vero

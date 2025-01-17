@@ -40,7 +40,7 @@ Ulkopuolisesta näkökulmasta tapahtuman kuvio olisi pysynyt täsmälleen samana
 
 Yhteenvetona, Stonewall ja Stonewall x2 -tapahtumat jakavat saman rakenteen. Erotus niiden välillä on niiden yhteistyöllisessä luonteessa. Stonewall-tapahtuma kehitetään yksilöllisesti, ilman yhteistyön tarvetta. Sen sijaan, Stonewall x2 -tapahtuma nojaa kahden henkilön väliseen yhteistyöhön sen toteuttamiseksi.
 
-[**-> Lue lisää Stonewall x2 -tapahtumista**](https://planb.network/tutorials/privacy/stonewall-x2)
+[**-> Lue lisää Stonewall x2 -tapahtumista**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 ## Mikä on Stonewall-tapahtuman tarkoitus?
 Stonewall-rakenne lisää merkittävän määrän entropiaa tapahtumaan ja hämärtää ketjuanalyysiä. Ulkopuolisesta näkökulmasta tällainen tapahtuma voidaan tulkita pienenä coinjoinina kahden ihmisen välillä. Mutta todellisuudessa, aivan kuten Stonewall x2 -tapahtuma, se on maksu. Tämä menetelmä luo siis epävarmuuksia ketjuanalyysiin, ja saattaa jopa johtaa vääriin johtopäätöksiin.

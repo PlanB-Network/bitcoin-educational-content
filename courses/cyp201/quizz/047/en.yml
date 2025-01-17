@@ -1,11 +1,9 @@
-question: What is the purpose of the nonce in the context of Bitcoin transactions?
-answer: It is used in the creation of a digital signature.
+question: What is the size in bits of a binary segment used to create each mnemonic word?
+answer: 11 bits
 wrong_answers:
-  - It is used to encrypt the transaction data.
-  - It is used to store the transaction data.
-  - It is used to transmit the transaction data.
+  - 8 bits
+  - 16 bits
+  - 10 bits
 explanation: |
-  In the context of Bitcoin transactions, a nonce is used in the creation
-  of a digital signature. Specifically, it is used in the calculation of a specific
-  number V and the digital signature composed of two parts, S1 and S2.
+  Each 11-bit segment corresponds to a word from the standardized list of 2048 words in BIP39.
 reviewed: false

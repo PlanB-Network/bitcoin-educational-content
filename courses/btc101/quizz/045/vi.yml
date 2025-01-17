@@ -1,13 +1,13 @@
-question: Đặc điểm chính nào của Bitcoin làm cho nó khác biệt so với các đồng tiền tệ thông thường?
-
+question: Đặc điểm nổi bật của Bitcoin là gì giúp nó khác biệt so với tiền tệ fiat?
 answer: Chính sách tiền tệ của nó được thực thi bởi sự đồng thuận chung.
-
 wrong_answers:
-  - Nó có thể được in ra với số lượng không giới hạn bởi các ngân hàng trung ương.
+  - Nó có thể được in ấn không giới hạn bởi các ngân hàng trung ương.
   - Nó được bảo chứng bởi một hàng hóa vật lý như vàng hoặc bạc.
   - Nó được quản lý bởi một ngân hàng trung ương.
-
 explanation: |
-  Bitcoin, thông qua bản chất phi tập trung và mã hóa của mình, không thể, trong số những điều khác, bị làm giả và được giới hạn ở 21 triệu đơn vị. Đây là một đặc điểm chính làm cho nó khác biệt so với các đồng tiền tệ thông thường, mà chính sách tiền tệ của chúng có thể được thay đổi bởi các ngân hàng trung ương.
-
-reviewed: đúng
+  Do bản chất phi tập trung và mã hóa của nó,
+  Bitcoin không thể bị làm giả và giới hạn ở 21 triệu
+  đơn vị. Đây là một đặc điểm nổi bật giúp nó khác biệt so với
+  tiền tệ fiat, mà theo đó chính sách tiền tệ có thể được
+  thay đổi bởi các ngân hàng trung ương.
+reviewed: true

@@ -1,0 +1,14 @@
+question: Hva er konsekvensene av politikk med nullrente (ZIRP)?
+answer: ZIRP tærer på bankenes marginer, motvirker utlån til entreprenører og risikotakere, og oppmuntrer regjeringer til å engasjere seg i omfattende utgifter, noe som fører til økt offentlig gjeld.
+wrong_answers:
+  - ZIRP øker bankenes profitter, oppmuntrer utlån til entreprenører og risikotakere, og motvirker offentlige utgifter.
+  - ZIRP har ingen betydelig innvirkning på banker, utlånspraksiser eller offentlige utgifter.
+  - ZIRP reduserer offentlig gjeld, oppmuntrer utlån til entreprenører og risikotakere, og motvirker offentlige utgifter.
+explanation: |
+  Politikk med nullrente (ZIRP) kan ha flere utilsiktede konsekvenser.
+  Banker har begrensede muligheter til å gjenoppbygge sin egenkapital fordi deres marginer
+  erodert. De har også lite insentiv til å låne ut, spesielt til entreprenører og
+  andre risikotakere. I stedet allokere de sine ressurser til å verdipapirisere eksisterende
+  kapital eller tilby lån mot sikkerhet. I tillegg oppmuntrer ZIRP regjeringer
+  til å engasjere seg i omfattende utgifter, noe som fører til en betydelig økning i nivåene av offentlig gjeld.
+reviewed: false

@@ -1,9 +1,11 @@
-question: Comment Bitcoin peut-il potentiellement aider à la transition écologique ?
-answer: Il favorise l'utilisation d'énergies vertes
+question: Comment le Bitcoin peut-il potentiellement aider à la transition écologique ?
+answer: Il favorise l'utilisation d'énergies vertes.
 wrong_answers:
-  - Il réduit la production de biens
-  - Il régule la consommation de ressources
-  - Il limite les émissions de gaz à effet de serre
-explanation: |
-  Bitcoin favorise l'utilisation d'énergies vertes, ce qui peut potentiellement aider à la transition écologique. Par exemple, les flammes dans les puits de pétrole, qui brûlent le méthane pour prévenir la pollution, peuvent être éteintes par les mineurs de Bitcoin.
-reviewed: false
+  - Il réduit la production de biens.
+  - Il régule la consommation de ressources.
+  - Il limite l'émission uniquement de gaz à effet de serre.
+explanation: >-
+  Le Bitcoin favorise l'utilisation d'énergies vertes, ce qui peut potentiellement aider
+  à la transition écologique. Par exemple, les flammes dans les puits de pétrole, qui brûlent
+  le méthane pour éviter la pollution, peuvent être éteintes par les mineurs de Bitcoin.
+reviewed: true

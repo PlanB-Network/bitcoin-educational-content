@@ -1,9 +1,11 @@
-question: Was könnten traditionelle Geldtransferdienste wie Western Union, Zentralbanken, Visa und Mastercard tun, wenn sie die Lightning Network-Technologie nicht übernehmen?
+question: Was könnte mit traditionellen Geldtransferdiensten wie Western Union, Zentralbanken, Visa und Mastercard passieren, wenn sie das Lightning Network nicht übernehmen?
 answer: Sie könnten verschwinden.
 wrong_answers:
   - Sie könnten beliebter werden.
   - Sie könnten sicherer werden.
-  - Sie könnten dezentraler werden.
+  - Sie könnten dezentralisierter werden.
 explanation: |
-  Traditionelle Geldtransferdienste wie Western Union, Zentralbanken, Visa und Mastercard könnten verschwinden, wenn sie die Lightning Network-Technologie nicht übernehmen.
-reviewed: false
+  Traditionelle Geldtransferdienste wie Western Union,
+  Zentralbanken, Visa und Mastercard könnten verschwinden, wenn sie
+  die Lightning Network Technologie nicht übernehmen.
+reviewed: true

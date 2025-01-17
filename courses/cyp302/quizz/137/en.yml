@@ -1,0 +1,9 @@
+question: Why are passwords often stored as hashes on secure servers?
+answer: To prevent passwords from being easily retrieved in the event of a leak
+wrong_answers:
+  - To increase the size of user data storage
+  - To encrypt passwords in real-time in a symmetric manner
+  - To allow users to log in without a password
+explanation: |
+  By storing password hashes, even in the event of a data breach, the actual passwords cannot be directly read, thereby increasing security.
+reviewed: false

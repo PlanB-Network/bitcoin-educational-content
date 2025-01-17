@@ -1,9 +1,10 @@
 question: Was ist ein beschnittener Knoten im Kontext von Bitcoin?
-answer: Ein Knoten, der nur die letzten N Blöcke im Speicher behält
+answer: Ein Knoten, der nur die letzten N Blöcke im Speicher behält.
 wrong_answers:
-  - Ein Knoten, der nur Transaktionen validiert
-  - Ein Knoten, der nur Informationen an andere Knoten übermittelt
-  - Ein Knoten, der nur die Regeln des Bitcoin-Protokolls durchsetzt
+  - Ein Knoten, der nur Transaktionen validiert.
+  - Ein Knoten, der nur Informationen an andere Knoten übermittelt.
+  - Ein Knoten, der nur die Regeln des Bitcoin-Protokolls durchsetzt.
 explanation: >-
-  Ein beschnittener Knoten im Kontext von Bitcoin ist ein Knoten, der nur die letzten N Blöcke im Speicher behält.
-überprüft: false
+  Ein beschnittener Knoten im Kontext von Bitcoin ist ein Knoten, der nur die
+  letzten N Blöcke im Speicher behält.
+reviewed: true

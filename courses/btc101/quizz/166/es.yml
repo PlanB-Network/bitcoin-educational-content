@@ -1,9 +1,12 @@
-question: ¿Cuál es el papel de los mineros en relación a las plantas de energía que aún no están conectadas a la red?
-answer: Actúan como compradores de último recurso.
+question: ¿Qué pueden hacer los mineros por aquellas plantas de energía que aún no están conectadas a la red?
+answer: Pueden actuar como compradores de último recurso.
 wrong_answers:
-  - Proporcionan electricidad a las plantas de energía.
-  - Conectan las plantas de energía a la red.
-  - Regulan el precio de la electricidad.
+  - Pueden proporcionar electricidad a las plantas de energía.
+  - Pueden conectar las plantas de energía a la red.
+  - Pueden regular el precio de la electricidad.
 explanation: |
-  > Los mineros actúan como compradores de último recurso para las plantas de energía que aún no están conectadas a la red. Esto permite que las plantas de energía obtengan financiamiento incluso antes de estar conectadas a la red eléctrica.
-reviewed: false
+  Los mineros pueden actuar como compradores de último recurso para las plantas de energía que
+  aún no están conectadas a la red. Esto permite que las plantas de energía
+  aseguren financiamiento incluso antes de estar conectadas a la
+  red eléctrica.
+reviewed: true

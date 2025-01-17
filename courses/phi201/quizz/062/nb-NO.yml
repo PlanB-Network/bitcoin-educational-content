@@ -1,0 +1,9 @@
+question: Hva var Bibelens holdning til å låne ut penger mot renter?
+answer: Det var forbudt.
+wrong_answers:
+  - Det oppmuntret til det.
+  - Det tolererte det i noen tilfeller.
+  - Det hadde ingen mening om saken.
+explanation: |
+  Bibelen forbyr å låne ut penger mot renter, spesielt i Det gamle testamentet, hvor det å låne med renter blant fellesskapsmedlemmer blir sett på som umoralsk og i strid med solidaritetsverdiene.
+reviewed: false

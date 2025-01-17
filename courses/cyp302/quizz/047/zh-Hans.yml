@@ -1,0 +1,9 @@
+question: 根据欧拉定理，对于两个互质的整数a和N，a^ϕ(N) mod N的结果是什么？
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explanation: |
+  欧拉定理指出，对于两个互质的整数a和N，指数运算a^ϕ(N) mod N总是等于1 mod N，这一性质在密码学中被使用。
+reviewed: false

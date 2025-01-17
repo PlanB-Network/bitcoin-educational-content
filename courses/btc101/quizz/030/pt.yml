@@ -1,9 +1,12 @@
 question: Qual é a principal vantagem das moedas fiduciárias?
-answer: Elas são facilmente divisíveis
+answer: Elas são facilmente divisíveis.
 wrong_answers:
-  - Elas são controladas por uma entidade central
-  - Elas não são facilmente transportáveis
-  - Elas são eficazes para manter valor ao longo do tempo
+  - São controladas por uma entidade central.
+  - Não são facilmente transportáveis.
+  - São eficazes para manter valor ao longo do tempo.
 explanation: |
-  As moedas fiduciárias, como o dólar e o euro, são muito líquidas e facilmente transportáveis porque agora são principalmente digitais. No entanto, seu valor é constantemente erodido pela inflação monetária.
-reviewed: false
+  Moedas fiduciárias, como o dólar e o euro, são muito
+  líquidas e facilmente transportáveis porque agora são
+  majoritariamente digitais. No entanto, seu valor é constantemente
+  erodido pela inflação monetária.
+reviewed: true

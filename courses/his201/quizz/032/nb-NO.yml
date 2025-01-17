@@ -1,0 +1,9 @@
+question: Hva var navnet på den unge finnen som hjalp Satoshi med kommunikasjon om prosjektet hans i 2009, spesielt ved å administrere Bitcoin-nettstedet og forumet?
+answer: Martti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  Han kontaktet Satoshi i april 2009. Satoshi ga ham umiddelbart i oppgave å skrive en FAQ og en presentasjon for nettstedet. Martti Malmi var Satoshis høyre hånd i over et år.
+reviewed: false

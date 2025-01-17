@@ -1,0 +1,11 @@
+question: Apa fokus utama dari kursus Bitcoin ini?
+answer: Aspek moneter dari Bitcoin.
+wrong_answers:
+  - Aspek pemrograman dari Bitcoin.
+  - Dampak ekologis dari Bitcoin.
+  - Aspek regulasi dari Bitcoin.
+explanation: |
+  Kursus Bitcoin ini berfokus pada aspek moneter dari Bitcoin, termasuk
+  cara membeli dan menjual bitcoin, menyimpannya dengan aman di dompet digital, dan menggunakannya
+  untuk transaksi.
+reviewed: true

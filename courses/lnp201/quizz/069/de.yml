@@ -1,9 +1,0 @@
-question: Was passiert, wenn eine Transaktion im Lightning Network aufgrund unzureichender Liquidität fehlschlägt?
-answer: Es wird ein anderer Weg versucht, bis eine erfolgreiche Transaktion durchgeführt wird.
-wrong_answers:
-  - Die Transaktion wird abgebrochen und die Gelder werden an den Absender zurückgeschickt.
-  - Die Transaktion wird zurückgestellt, bis ausreichende Liquidität verfügbar ist.
-  - Die Transaktion wird automatisch auf einen Kanal mit ausreichender Liquidität umgeleitet.
-explanation: |
-  Im Lightning Network wird, wenn eine Transaktion aufgrund unzureichender Liquidität in einem Kanal fehlschlägt, ein anderer Weg vom Knoten versucht. Dieser Prozess wird fortgesetzt, bis eine erfolgreiche Transaktion durchgeführt wird. Dieser Mechanismus gewährleistet, dass Transaktionen abgeschlossen werden können, auch wenn der ursprünglich gewählte Weg nicht genügend Liquidität aufweist.
-reviewed: false

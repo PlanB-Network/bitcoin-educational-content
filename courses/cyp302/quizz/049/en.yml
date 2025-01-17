@@ -1,0 +1,9 @@
+question: What type of group is particularly important for public key cryptography due to its ability to generate all elements through exponentiation?
+answer: Cyclic groups
+wrong_answers:
+  - Non-abelian groups
+  - Infinite groups
+  - Complex number groups
+explanation: |
+  In cryptography, cyclic groups are essential because they allow for the generation of all the elements of the group by using the exponentiation of a single element, called a generator.
+reviewed: false

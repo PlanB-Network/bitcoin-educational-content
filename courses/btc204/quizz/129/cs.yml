@@ -1,0 +1,13 @@
+question: Jaké jsou dvě hlavní varianty chytrých kontraktů používané při výměnách kryptoměn?
+
+answer: HTLC a PTLC
+
+wrong_answers:
+  - Multi-signature a Single-signature
+  - Chytré kontrakty a DApps
+  - SegWit a Taproot
+
+explanation: |
+  Pro provedení výměny kryptoměn lze použít HTLC (Hash Time-Locked Contracts) nebo PTLC (Point Time-Locked Contracts).
+
+reviewed: false

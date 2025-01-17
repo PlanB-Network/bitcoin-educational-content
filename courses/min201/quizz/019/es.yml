@@ -1,9 +1,12 @@
-question: ¿Cuál es la importancia de la Lightning Network en el contexto de la minería de Bitcoin?
-answer: La Lightning Network tiene el potencial de reducir significativamente las tarifas de transacción, lo que afecta los ingresos de los mineros.
+question: ¿Cuál es la importancia de la Red Lightning en el contexto de la minería de Bitcoin?
+answer: La Red Lightning tiene el potencial de reducir significativamente las tarifas de transacción, impactando así en los ingresos de los mineros.
 wrong_answers:
-  - La Lightning Network aumenta el tamaño del bloque, lo que aumenta los ingresos de los mineros.
-  - La Lightning Network reduce el consumo de energía de la minería de Bitcoin.
-  - La Lightning Network aumenta la velocidad de la minería de Bitcoin.
+  - La Red Lightning aumenta el tamaño del bloque, aumentando así los ingresos de los mineros.
+  - La Red Lightning reduce el consumo de energía de la minería de Bitcoin.
+  - La Red Lightning aumenta la velocidad de la minería de Bitcoin.
 explanation: |
-  La Lightning Network permite transacciones rápidas y de bajo costo fuera de la cadena principal de Bitcoin. Esto tiene el potencial de reducir significativamente las tarifas de transacción, lo que podría afectar los ingresos de los mineros.
-reviewed: false
+  La Red Lightning permite transacciones rápidas y de bajo costo
+  fuera de la cadena principal de Bitcoin. Esto tiene
+  el potencial de reducir significativamente las tarifas de transacción,
+  lo cual podría impactar en los ingresos de los mineros.
+reviewed: true

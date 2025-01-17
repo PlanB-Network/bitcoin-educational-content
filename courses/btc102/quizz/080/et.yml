@@ -1,0 +1,9 @@
+question: Kui palju bitcoine on kokku?
+answer: 21 miljonit
+wrong_answers:
+  - 21 miljardit
+  - 21 tuhat
+  - 21 triljonit
+explanation: |
+  Kokku on ainult 21 miljonit bitcoini. See on Bitcoini disaini fundamentaalne aspekt ja aitab kaasa selle nappusele.
+reviewed: false

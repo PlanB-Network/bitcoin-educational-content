@@ -1,0 +1,8 @@
+question: Sikap apa yang harus diadopsi pengguna terkait privasi komunikasi mereka di lingkungan modern?
+answer: Anggap saja selalu ada yang mendengarkan
+wrong_answers:
+  - Hanya mengandalkan Wi-Fi
+  - Percaya bahwa data seluler sepenuhnya aman
+  - Hanya menggunakan koneksi kabel
+explanation: |
+  Di dunia di mana banyak saluran komunikasi rentan terhadap penyadapan, bijaksana untuk menganggap bahwa pihak ketiga mungkin sedang mendengarkan, membuat kriptografi menjadi sangat penting.

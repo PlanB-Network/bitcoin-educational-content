@@ -1,13 +1,12 @@
 question: Cuộc tranh luận trong cộng đồng Bitcoin về việc đào coin là gì?
-
 answer: Sự cân bằng giữa việc tìm kiếm lợi nhuận và đóng góp vào sự an toàn và phân phối của mạng lưới Bitcoin
-
 wrong_answers:
   - Sự cân bằng giữa việc tăng hashrate và giảm số lượng nút hoạt động
   - Sự cân bằng giữa việc tăng giá và giảm chi phí
   - Sự cân bằng giữa việc tăng số lượng giao dịch và giảm tiêu thụ năng lượng
-
-explanation:
-  Cuộc tranh luận trong cộng đồng Bitcoin về việc đào coin xoay quanh sự cân bằng giữa việc tìm kiếm lợi nhuận và đóng góp vào sự an toàn và phân phối của mạng lưới Bitcoin. Có những luận điểm mạnh mẽ từ cả hai phía của cuộc tranh luận.
-
-reviewed: false
+explanation: |
+  Cuộc tranh luận trong cộng đồng Bitcoin về việc đào coin
+  xoay quanh sự cân bằng giữa việc tìm kiếm lợi nhuận và
+  đóng góp vào sự an toàn và phân phối của mạng lưới Bitcoin.
+  Có những luận điểm mạnh mẽ ở cả hai phía của cuộc tranh luận.
+reviewed: true

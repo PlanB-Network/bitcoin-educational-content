@@ -1,0 +1,9 @@
+question: Jaká je typická velikost prvočísel používaných v faktorizaci pro moderní kryptosystémy jako je RSA?
+answer: 1024 bitů pro každý faktor
+wrong_answers:
+  - 1024 bitů celkem
+  - 256 bitů pro každý faktor
+  - 256 bitů celkem
+explanation: |
+  V moderních kryptosystémech jako je RSA jsou typicky vybírána prvočísla o velikosti 1024 bitů, což činí faktorizaci extrémně obtížnou a zvyšuje bezpečnost.
+reviewed: false

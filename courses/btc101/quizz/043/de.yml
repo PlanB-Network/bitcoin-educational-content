@@ -1,9 +1,12 @@
-question: Was ist der historische Präzedenzfall für die Verwendung von Fiat-Währungen?
-answer: Führer zentralisieren Gold und führen eine neue Währung ein, die dem Wert von Gold entspricht und dann allmählich abgewertet wird.
+question: Welchen historischen Weg haben Institutionen bei der Einführung von Fiatwährungen verfolgt?
+answer: Führer zentralisieren Gold und führen eine neue Währung ein, die dem Goldwert entspricht, welche dann schrittweise abgewertet wird.
 wrong_answers:
-  - Führer führen eine neue Währung ein, die durch Gold gedeckt ist und dann allmählich an Wert gewinnt.
-  - Führer führen eine neue Währung ohne inneren Wert ein, die dann allmählich an Wert gewinnt.
-  - Führer führen eine neue Währung ein, die durch einen Korb von Rohstoffen gedeckt ist und dann stabil im Wert gehalten wird.
+  - Führer führen eine neue, durch Gold gedeckte Währung ein, die dann schrittweise im Wert gesteigert wird.
+  - Führer führen eine neue Währung ohne inneren Wert ein, die dann schrittweise im Wert gesteigert wird.
+  - Führer führen eine neue, durch einen Warenkorb gedeckte Währung ein, die dann stabil im Wert gehalten wird.
 explanation: |
-  Historisch gesehen haben Führer Gold zentralisiert und eine neue Währung eingeführt, die dem Wert von Gold entspricht. Diese neue Währung wird dann oft unter dem Vorwand, im Interesse des Volkes zu handeln, allmählich abgewertet.
-reviewed: false
+  Historisch gesehen haben Führer Gold zentralisiert und
+  eine neue Währung eingeführt, die dem Goldwert entspricht.
+  Diese neue Währung wird dann schrittweise abgewertet, oft
+  unter dem Vorwand, es diene dem Interesse der Bevölkerung.
+reviewed: true

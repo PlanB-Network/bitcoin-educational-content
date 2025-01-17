@@ -5,5 +5,5 @@ wrong_answers:
   - Pyöristettyjen summan maksut ja suuri tulos.
   - Volyymianalyysi ja skriptien yhtäläisyydet.
 explanation: |
-  Bitcoinin valkoisen kirjan osassa 10 Satoshi Nakamoto varoittaa käyttäjiä CIOH:sta (Common Input Ownership Heuristic) ja saman avainparin uudelleenkäytöstä.
+  Bitcoinin valkoisen kirjan osassa 10 Satoshi Nakamoto varoittaa käyttäjiä CIOH: sta (Common Input Ownership Heuristic) ja saman avainparin uudelleenkäytöstä.
 reviewed: false

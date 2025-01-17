@@ -1,0 +1,9 @@
+question: 什么是BTCMap?
+answer: 一个列出所有接受比特币的商家的平台
+wrong_answers:
+  - 世界上所有比特币矿场的地图
+  - 世界上所有比特币交易所的地图
+  - 世界上所有比特币用户的地图
+explanation: >-
+  BTCMap是一个开源和协作项目，它列出了所有接受比特币的商家以及世界各地不同的比特币社区。
+reviewed: false

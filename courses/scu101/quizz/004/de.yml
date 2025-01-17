@@ -1,10 +1,13 @@
-question: Warum wird empfohlen, nach jedem Besuch einer Website Cookies zu löschen?
+question: Warum wird empfohlen, Cookies nach jedem Besuch einer Website zu löschen?
 answer: Um zu verhindern, dass Drittanbieter-Websites Ihre Online-Aktivitäten verfolgen.
 wrong_answers:
   - Um Speicherplatz auf Ihrem Gerät zu sparen.
   - Um zu verhindern, dass die Website sich an Ihre Anmeldeinformationen erinnert.
-  - Um zu verhindern, dass Ihnen gezielte Werbung auf der Website angezeigt wird.
+  - Um zu verhindern, dass die Website Ihnen gezielte Werbung anzeigt.
 explanation: |
-  Cookies sind Dateien, die von Websites erstellt werden, um Informationen auf Ihrem Gerät zu speichern.
-  Während einige Websites diese Cookies benötigen, um ordnungsgemäß zu funktionieren, können sie auch von Drittanbieter-Websites, insbesondere zu Werbezwecken, ausgenutzt werden. Durch das Löschen von Cookies nach jedem Besuch einer Website kann dies verhindert werden.
-reviewed: false
+  Cookies sind Dateien, die von Websites erstellt werden, um Informationen
+  auf Ihrem Gerät zu speichern. Während einige Websites diese Cookies benötigen, um
+  ordnungsgemäß zu funktionieren, können sie auch von
+  Drittanbieter-Websites, insbesondere zu Werbeverfolgungszwecken, ausgenutzt werden. Das Löschen von Cookies nach jedem Besuch einer Website kann
+  helfen, dies zu verhindern.
+reviewed: true

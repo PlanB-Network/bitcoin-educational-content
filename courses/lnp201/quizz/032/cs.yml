@@ -1,9 +1,9 @@
-question: Co se stane, když je vytvořena nová závazná transakce?
-answer: Je rozhodnuto o novém tajemství a je vytvořen nový klíč pro zrušení, přičemž předchozí závazná transakce musí být zničena předáním tajemství pro zrušení.
+question: Jaká je role poplatků za směrování v Lightning Network?
+answer: Motivovat prostředníkové uzly, aby poskytovali svou likviditu pro přenos plateb
 wrong_answers:
-  - Předchozí závazná transakce je ponechána jako záloha.
-  - Je vytvořen nový Časový zámek a předchozí závazná transakce je aktualizována.
-  - Předchozí závazná transakce je aktualizována novým tajemstvím a klíčem pro zrušení.
+  - Omezit počet transakcí v síti
+  - Zajistit, aby každý kanál měl dostatečné finanční prostředky
+  - Automaticky vypočítat nejkratší cestu
 explanation: |
-  Když je vytvořena nová závazná transakce, je rozhodnuto o novém tajemství a novém klíči pro zrušení. Předchozí závazná transakce musí být zničena předáním tajemství pro zrušení, aby se zabránilo jakékoli straně v podvodu zveřejněním starého stavu.
+  Poplatky za směrování se používají k odměně prostředníkových uzlů, které přeposílají platby tím, že nabízejí svou likviditu pro umožnění přenosu finančních prostředků napříč sítí.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Miks on krüptograafias kasulikud laiendusväljad, mille aluseks on 2?
+answer: Need võimaldavad binaarjärjestuste turvalist manipuleerimist.
+wrong_answers:
+  - Need lihtsustavad arvutusi, vähendades operatsioonide arvu.
+  - Need ennetavad arvutusvigu, lisades redundantsi.
+  - Need piiravad võimaluste hulka, vähendades elementide arvu.
+explanation: |
+  Laiendusväljad, mille aluseks on 2, on mugavad, kuna nende elemente saab käsitleda binaarjärjestustena, muutes digitaalandmetega binaartasandil operatsioonide sooritamise süsteemides lihtsamaks.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Miks on väide, et bitcoin on väärtusetu, kuna see ei ole millegi poolt tagatud, vigane?
+answer: Väärtus on subjektiivne ja põhineb inimeste uskumustel ning kogemustel.
+wrong_answers:
+  - Bitcoin on tagatud kullaga, mis annab sellele sisemise väärtuse.
+  - Bitcoini väärtus määratakse selle harulduse ja turvaelementide järgi.
+  - Bitcoini väärtus põhineb selle aktsepteerimisel valitsuste ja pankade poolt.
+explanation: |
+  Väärtus on subjektiivne ja vaataja silmades. Bitcoin on väärtuslik, 
+  kuna inimesed usuvad seda olevat, täpselt nagu kunst võib olla väärtuslik, 
+  hoolimata sellest, et see on tehtud lõuendist ja värvist. Väide, et valuuta peab olema 
+  millegi väärtusliku poolt tagatud, on ebatäpne, kuna fiat-valuutade, nagu USA 
+  dollari väärtus põhineb usaldusel ja uskumusel samuti.
+reviewed: true

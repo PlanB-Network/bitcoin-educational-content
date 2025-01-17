@@ -1,5 +1,5 @@
 ---
-name: BIP39 Paroolilause
+name: Passphrase BIP39
 description: Mõistmaks, kuidas paroolilause töötab
 ---
 ![cover](assets/cover.webp)
@@ -35,4 +35,8 @@ On ka oluline korralikult salvestada see paroolilause, samamoodi nagu mnemoonili
 
 Paroolilause seadistamiseks Ledger seadmel (Stax, Flex või Nano), võite konsulteerida selle õpetusega:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
+COLDCARD-il:
+
+https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

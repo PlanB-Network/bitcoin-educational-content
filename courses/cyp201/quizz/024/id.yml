@@ -1,0 +1,8 @@
+question: Berapa ukuran kunci privat mentah yang digunakan pada Bitcoin?
+answer: 256 bit
+wrong_answers:
+  - 128 bit
+  - 512 bit
+  - 1024 bit
+explanation: |
+  Kunci privat dalam Bitcoin adalah bilangan bulat acak 256-bit, memastikan ruang kunci yang cukup besar untuk menjamin keamanan.

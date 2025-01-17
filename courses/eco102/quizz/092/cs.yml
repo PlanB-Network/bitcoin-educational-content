@@ -1,0 +1,8 @@
+question: Pokud je vlastnictví institucí zřízenou obecnou vůlí, jak si myslí Rousseau, jaký je důsledek?
+answer: Zákonodárce může organizovat, upravovat nebo dokonce zrušit vlastnictví
+wrong_answers:
+  - Zákonodárce je pak vázán touto konvencí a nemůže se dotknout vlastnictví
+  - Obecná vůle nikdy nechce zasahovat do vlastnictví
+  - Zákonodárce je povinen chránit vlastnictví bez výjimky
+explanation: |
+  Podle Rousseaua, protože vlastnictví vzniká z obecné vůle, může být zákonodárcem upraveno nebo zrušeno v souladu s tou samou vůlí.

@@ -1,0 +1,14 @@
+question: Millised on nullintressipoliitika (ZIRP) tagajärjed?
+answer: ZIRP kahandab pankade marginaale, pärsib laenamist ettevõtjatele ja riskivõtjatele ning julgustab valitsusi ulatuslikult kulutama, mis viib avaliku võla suurenemiseni.
+wrong_answers:
+  - ZIRP suurendab pankade kasumeid, julgustab laenamist ettevõtjatele ja riskivõtjatele ning pärsib valitsuse kulutusi.
+  - ZIRP'il ei ole olulist mõju pankadele, laenupraktikatele ega valitsuse kulutustele.
+  - ZIRP vähendab avalikku võlga, julgustab laenamist ettevõtjatele ja riskivõtjatele ning pärsib valitsuse kulutusi.
+explanation: |
+  Nullintressipoliitikal (ZIRP) võib olla mitmeid ettenägematuid tagajärgi.
+  Pankadel on piiratud võimalused oma omakapitali taastada, kuna nende marginaalid
+  kahanevad. Neil on ka vähe stiimuleid laenamiseks, eriti ettevõtjatele ja
+  teistele riskivõtjatele. Selle asemel suunavad nad oma ressursid olemasoleva
+  kapitali väärtpaberistamisele või tagatisega laenude andmisele. Lisaks julgustab ZIRP valitsusi
+  ulatuslikult kulutama, mis viib märkimisväärse avaliku võla taseme tõusuni.
+reviewed: false

@@ -1,9 +1,14 @@
-question: Come fa il protocollo Bitcoin a garantire che il tempo medio tra due blocchi rimanga costante?
-answer: La difficoltà nel trovare un hash valido si adatta ogni 2016 blocchi.
+question: Come mantiene il protocollo Bitcoin un tempo medio costante tra la creazione di due blocchi?
+  rimane costante?
+answer: La difficoltà nel trovare un hash valido si aggiusta ogni 2016 blocchi.
 wrong_answers:
-  - Il numero di minatori è regolato
-  - La dimensione dei blocchi viene adattata
-  - La ricompensa per trovare un hash valido viene aumentata
+  - Il numero di minatori è regolato a un numero fisso.
+  - La dimensione dei blocchi è aggiustata a 10 megabyte.
+  - La ricompensa per aver trovato un hash valido è aumentata.
 explanation: |
-  Il protocollo Bitcoin garantisce che il tempo medio tra due blocchi rimanga costante regolando la difficoltà nel trovare un hash valido ogni 2016 blocchi. Questo avviene indipendentemente dal numero di minatori e dalla loro potenza di calcolo.
-reviewed: false
+  Il protocollo Bitcoin assicura che il tempo medio tra
+  due blocchi rimanga costante aggiustando la difficoltà di
+  trovare un hash valido ogni 2016 blocchi. Questo evento avviene
+  indipendentemente dal numero di minatori e dalla loro potenza
+  di calcolo.
+reviewed: true

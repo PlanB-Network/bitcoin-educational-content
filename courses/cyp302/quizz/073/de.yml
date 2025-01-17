@@ -1,0 +1,9 @@
+question: Wie kann ein Schlüssel in der Verschiebungschiffrierung definiert werden?
+answer: Eine Zahl von 0 bis 25
+wrong_answers:
+  - Ein zufälliges Wort
+  - Eine beliebige Zufallszahl ohne Einschränkung
+  - Eine Zahl von 1 bis 26
+explanation: |
+  In der Verschiebungschiffrierung ist der Schlüssel eine Zahl zwischen 0 und 25, die der Anzahl der Verschiebungspositionen entspricht, die auf jeden Buchstaben der Nachricht in einem 26-Buchstaben-Alphabet angewendet wird.
+reviewed: false

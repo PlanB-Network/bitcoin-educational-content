@@ -1,10 +1,9 @@
-question: What is an additional option to enhance the security of a Bitcoin wallet?
-answer: Adding a passphrase.
+question: Which index represents the external chain of an account in a derivation path?
+answer: /0/
 wrong_answers:
-  - Adding a second mnemonic phrase.
-  - Adding a digital signature.
-  - Adding a transaction history.
+  - /1/
+  - /0'/
+  - /2/
 explanation: |
-  Adding a passphrase is an additional option to enhance the security of
-  the Bitcoin wallet.
+  The external chain is identified by the index /0/ at depth 4 of the derivation path.
 reviewed: false

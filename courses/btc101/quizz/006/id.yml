@@ -1,0 +1,12 @@
+question: Apa tujuan utama dari belajar menggunakan Bitcoin?
+answer: Untuk mengontrol uang Anda sendiri.
+wrong_answers:
+  - Menjadi penambang Bitcoin.
+  - Menciptakan protokol Bitcoin baru.
+  - Mengatur harga Bitcoin.
+explanation: |
+  Belajar menggunakan Bitcoin adalah keterampilan penting bagi siapa saja yang ingin
+  mengontrol uang mereka sendiri. Ini memungkinkan Anda untuk membeli dan menjual barang dan jasa,
+  menyimpan uang Anda secara aman dalam dompet digital, dan menggunakannya untuk transaksi tanpa perlu
+  pihak ketiga.
+reviewed: true

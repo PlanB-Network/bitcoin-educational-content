@@ -1,0 +1,11 @@
+question: Mis on ettevõtjate ja aktsionäride roll kapitalistlikus majanduses Mises'i järgi?
+answer: Nad jaotavad kapitali erinevate tööstusharude vahel, moodustades seeläbi hinnad, mis toimivad sisenditena juhtide majandusarvutustes.
+wrong_answers:
+  - Nad vastutavad uute töökohtade loomise eest.
+  - Nad vastutavad rahvuse rikkuse suurendamise eest.
+  - Nad vastutavad majanduses rahapakkumise kontrolli eest.
+explanation: |
+  Mises rõhutas ettevõtjate ja aktsionäride tähtsust,
+  kes, olles tootmisvahendite omanikud, jaotavad kapitali erinevate tööstusharude vahel,
+  moodustades seeläbi hinnad, mis toimivad sisenditena juhtide majandusarvutustes.
+reviewed: false

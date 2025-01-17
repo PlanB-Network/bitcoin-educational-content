@@ -1,0 +1,9 @@
+question: Hvis en transaksjon har 2 UTXOer på 5 000 sats som inndata og 3 UTXOer på 3 000 sats som utdata, hva er transaksjonsgebyrene?
+answer: 1 000 sats
+wrong_answers:
+  - 1 500 sats
+  - 2 500 sats
+  - 3 000 sats
+explanation: |
+  Gebyrene for en transaksjon representerer forskjellen mellom total inndata og total utdata. Det er det som gjenstår etter å ha brukt all inndata og opprettet all utdata. Beregningen blir derfor; gebyrer = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

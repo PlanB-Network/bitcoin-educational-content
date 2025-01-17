@@ -1,0 +1,24 @@
+year: 2024-09
+name: Bitcoin Tokyo 2024
+builder: Bitcoin Tokyo
+location: Tokyo, Japon
+language:
+  - ja
+  - en
+links:
+  twitter: https://x.com/BTCTokyo2024
+  website: https://bitcoinconference.tokyo/
+tags:
+  - adoption
+  - business
+  - legacy
+  - case-studies
+#proofreading_metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: "2024-12-18"
+    urgency: 0
+    contributors_id:
+      - jramos0
+    reward: 0

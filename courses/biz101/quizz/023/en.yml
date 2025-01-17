@@ -1,0 +1,9 @@
+question: Which of the following is NOT one of the three primary methods mentioned for acquiring Bitcoin?
+answer: Receiving Bitcoin as a government grant for business development.
+wrong_answers:
+  - Obtaining Bitcoin in exchange for goods or services.
+  - Mining Bitcoin through specialized hardware and energy use.
+  - Purchasing Bitcoin from a platform or broker.
+explanation: |
+  The chapter mentions three main ways to acquire Bitcoin: accept it as payment, mine it, or buy it. Receiving Bitcoin as a government grant isn’t a recognized standard method of acquisition.
+reviewed: false

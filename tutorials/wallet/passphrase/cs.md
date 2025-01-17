@@ -1,5 +1,5 @@
 ---
-name: BIP39 Heslo
+name: Passphrase BIP39
 description: Porozumění tomu, jak heslo funguje
 ---
 ![cover](assets/cover.webp)
@@ -35,4 +35,8 @@ Je také důležité toto heslo správně uložit, stejně jako mnemonickou frá
 
 Pro nastavení hesla na zařízení Ledger (Stax, Flex, nebo Nano) můžete konzultovat tento tutoriál:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
+Na COLDCARD:
+
+https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

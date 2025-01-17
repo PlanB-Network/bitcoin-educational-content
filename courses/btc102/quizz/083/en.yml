@@ -6,7 +6,7 @@ wrong_answers:
   - It allows for anonymous transactions.
   - It provides a platform for trading Bitcoin.
 explanation: |
-  The Lightning Network is a "layer 2" payment protocol that operates on
+  The Lightning Network is a layer 2 payment protocol that operates on
   top of a blockchain-based cryptocurrency like Bitcoin. It is designed to enable
   fast, low-cost transactions.
 reviewed: false

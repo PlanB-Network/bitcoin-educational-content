@@ -1,9 +1,9 @@
-question: ¿Cuál es una de las razones por las que debes consolidar tus UTXOs en tus billeteras de vez en cuando?
+question: ¿Cuál es una de las razones por las que deberías consolidar tus UTXOs en tus billeteras de vez en cuando?
 answer: Para evitar tarifas innecesarias durante las transacciones.
 wrong_answers:
   - Para aumentar el valor de tus bitcoins.
-  - Para prevenir el robo de tus bitcoins.
-  - Para asegurarte de que tus bitcoins estén siempre disponibles.
-explanation: |
-  El texto menciona que consolidar tus UTXOs en tus billeteras de vez en cuando es esencial para administrar eficazmente tus bitcoins y evitar tarifas innecesarias durante las transacciones.
-reviewed: false
+  - Para prevenir que tus bitcoins sean robados.
+  - Para asegurar que tus bitcoins siempre estén disponibles.
+explanation: >-
+  El texto menciona que consolidar tus UTXOs en tus billeteras de vez en cuando es esencial para gestionar tus bitcoins de manera efectiva y evitar tarifas innecesarias durante las transacciones.
+reviewed: true

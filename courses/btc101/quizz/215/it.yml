@@ -1,9 +1,9 @@
-question: Cosa suggerisce il testo di fare per ampliare la tua conoscenza su Bitcoin?
-answer: Fai riferimento alla libreria di risorse elencate e categorizzate negli ultimi anni.
+question: Cosa significa che Bitcoin ha una tendenza generale al rialzo?
+answer: Una tendenza generale al rialzo in Bitcoin significa che, nel complesso, il prezzo di Bitcoin è stato in aumento.
 wrong_answers:
-  - Partecipa a conferenze su Bitcoin
-  - Investi in Bitcoin
-  - Avvia un'operazione di mining di Bitcoin
+  - Una tendenza generale al rialzo in Bitcoin significa che il prezzo è garantito a salire indefinitamente senza alcuna fluttuazione.
+  - Una tendenza generale al rialzo in Bitcoin significa che Bitcoin sta diventando meno prezioso e sta perdendo il suo appeal di mercato.
+  - Una tendenza generale al rialzo in Bitcoin significa che è popolare solo tra un piccolo gruppo di investitori e non ha impatto sul mercato generale.
 explanation: |
-  Il testo suggerisce che per ampliare la tua conoscenza su Bitcoin, puoi fare riferimento alla libreria di risorse che sono state elencate e categorizzate negli ultimi anni, tra cui podcast, siti web, articoli, tutorial, libri e altri contenuti.
-reviewed: false
+  Una tendenza generale al rialzo in Bitcoin si riferisce a un aumento costante del suo prezzo durante un certo periodo di tempo. È importante notare che, sebbene una tendenza al rialzo suggerisca una traiettoria positiva, ciò non garantisce che il prezzo continuerà a salire senza alcuna fluttuazione.
+reviewed: true

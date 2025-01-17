@@ -1,9 +1,10 @@
 question: Quel est l'impact potentiel d'une interdiction de l'exploitation minière dans une région ?
-answer: Cela peut entraîner une baisse significative du taux de hachage et du prix du Bitcoin.
+answer: Cela peut entraîner une chute significative du taux de hachage et du prix du Bitcoin
 wrong_answers:
   - Cela peut entraîner une augmentation du prix du Bitcoin
   - Cela peut entraîner une augmentation du taux de hachage du réseau
   - Cela peut entraîner une augmentation du nombre de nœuds actifs dans le réseau
 explanation: |
-  Une interdiction de l'exploitation minière dans une région, comme cela s'est produit en Chine, peut entraîner une baisse significative du taux de hachage et du prix du Bitcoin. Cependant, ceux-ci peuvent rapidement se rétablir.
-reviewed: false
+  Une interdiction de l'exploitation minière dans une région, comme ce qui s'est passé en Chine,
+  peut entraîner une chute significative du taux de hachage et du prix du Bitcoin. Cependant, ces derniers peuvent rapidement se rétablir.
+reviewed: true

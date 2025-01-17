@@ -1,9 +1,12 @@
-question: Quel est l'un des avantages d'assister à des conférences et des ateliers sur la cybersécurité ?
-answer: Cela vous permet de créer des liens avec des professionnels de l'industrie.
+question: Quel est l'un des avantages de participer à des conférences et ateliers sur la cybersécurité ?
+answer: Cela vous permet de créer des liens avec des professionnels du secteur
 wrong_answers:
-  - C'est une exigence pour tous les emplois en cybersécurité.
-  - Cela garantit un emploi en cybersécurité.
-  - C'est la seule façon d'apprendre la cybersécurité.
+  - C'est une exigence pour tous les emplois en cybersécurité
+  - Cela garantit un emploi dans la cybersécurité
+  - C'est la seule manière d'apprendre sur la cybersécurité
 explanation: |
-  Le chapitre mentionne que participer à des conférences et des ateliers sur la cybersécurité non seulement vous permet d'apprendre, mais vous aide également à établir des liens avec des professionnels de l'industrie.
-reviewed: false
+  Le chapitre mentionne que participer à des conférences
+  et ateliers sur la cybersécurité permet non seulement
+  d'apprendre mais aussi aide à créer des liens avec des
+  professionnels du secteur.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mis on individuaalse vastutuse tähtsus Bitcoinis?
+answer: See on kriitilise tähtsusega, kuna teie olete vastutav varukoopiate eest
+wrong_answers:
+  - See on oluline, kuna peate kaevandama bitcoine
+  - See on oluline bitcoinide ostmiseks
+  - See on kriitilise tähtsusega, kuna teie olete vastutav rahakoti teema eest
+explanation: |
+  Bitcoinis käib finantsiline suveräänsus käsikäes individuaalse vastutusega, kuna peate ise hoolitsema oma vahendite eest, järgides soovitatud varundamisprotseduuri.
+reviewed: true

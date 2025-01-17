@@ -1,0 +1,9 @@
+question: Welche Art der Verschlüsselung verwendet feste Datenblöcke?
+answer: Blockverschlüsselung
+wrong_answers:
+  - Stromverschlüsselung
+  - Nachrichtenauthentifizierungscode
+  - Öffentlicher Schlüssel
+explanation: |
+  Die Blockverschlüsselung teilt die Daten in Blöcke fester Größe auf und verschlüsselt diese unabhängig voneinander.
+reviewed: false

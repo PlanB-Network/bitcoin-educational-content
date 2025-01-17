@@ -1,9 +1,0 @@
-question: Quais fatores são considerados ao estimar as rotas mais provavelmente bem-sucedidas na Lightning Network?
-answer: Taxas, tempo de expiração do HTLC, o número de nós intermediários e um fator de aleatoriedade.
-wrong_answers:
-  - Tamanho da transação, altura do bloco e taxas de transação.
-  - Taxas de transação, tamanho do bloco e tempo de confirmação da transação.
-  - Tempo de confirmação da transação, altura do bloco e tamanho da transação.
-explanation: |
-  Ao estimar as rotas mais provavelmente bem-sucedidas na Lightning Network, os nós consideram vários fatores. Isso inclui as taxas associadas a cada rota, o tempo de expiração dos HTLCs, o número de nós intermediários e um fator de aleatoriedade para evitar o uso sempre das mesmas rotas.
-reviewed: false

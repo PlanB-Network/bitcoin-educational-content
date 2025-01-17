@@ -1,9 +1,12 @@
-question: Quel est le principal incitatif financier pour les mineurs de participer au processus de minage de Bitcoin?
+question: Quel est le principal incitatif financier pour les mineurs à participer au processus de minage de Bitcoin ?
 answer: La récompense de minage
 wrong_answers:
   - La capacité de contrôler le réseau Bitcoin
   - La capacité de créer de nouveaux bitcoins à volonté
   - La capacité de manipuler le prix du Bitcoin
 explanation: |
-  Le principal incitatif financier pour les mineurs de participer au processus de minage de Bitcoin est la récompense de minage. Cette récompense sert d'incitation puissante pour encourager les mineurs à participer au processus de minage malgré son coût énergétique.
-reviewed: false
+  L'incitatif financier principal pour les mineurs à participer
+  au processus de minage de Bitcoin est la récompense de minage. Cette
+  récompense sert d'incitatif puissant pour encourager les mineurs
+  à participer au processus de minage malgré son coût énergétique.
+reviewed: true

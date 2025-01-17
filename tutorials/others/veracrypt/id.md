@@ -15,7 +15,7 @@ Dengan kata lain, disarankan untuk menyimpan file Anda di 3 lokasi yang berbeda,
 
 Untuk dengan mudah menerapkan strategi pencadangan 3-2-1 ini, Anda dapat memilih solusi penyimpanan online, dengan menyinkronkan file dari komputer Anda dengan yang ada di cloud Anda secara otomatis atau berkala. Di antara solusi pencadangan online ini, tentu saja ada yang dari perusahaan digital besar yang Anda kenal: Google Drive, Microsoft OneDrive, atau Apple iCloud. Namun, ini bukan solusi terbaik untuk melindungi privasi Anda. Dalam tutorial sebelumnya, saya memperkenalkan Anda pada alternatif yang mengenkripsi dokumen Anda untuk kerahasiaan yang lebih baik: Proton Drive.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Dengan mengadopsi strategi pencadangan lokal dan cloud ini, Anda sudah mendapatkan dua jenis media yang berbeda untuk data Anda, salah satunya adalah di luar lokasi. Untuk melengkapi strategi 3-2-1, Anda hanya perlu menambahkan salinan tambahan. Yang saya sarankan adalah secara berkala mengekspor data Anda yang ada secara lokal dan di cloud ke media fisik, seperti USB stick atau hard drive eksternal. Dengan cara ini, bahkan jika server solusi penyimpanan online Anda hancur dan komputer Anda rusak secara bersamaan, Anda masih memiliki salinan ketiga ini pada media eksternal agar tidak kehilangan data Anda.
 ![VeraCrypt](assets/notext/01.webp)

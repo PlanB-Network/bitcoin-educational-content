@@ -1,0 +1,9 @@
+question: How is the Lightning Network helping shape the future of online commerce and digital services?
+answer: By enabling frictionless, instant, and permissionless microtransactions, opening up new business models and revenue streams.
+wrong_answers:
+  - By preventing any new business models from emerging online.
+  - By requiring merchants to use the same slow, costly payment rails as before.
+  - By making digital goods impossible to sell due to high fees.
+explanation: |
+  Lightning’s ability to send tiny amounts of value instantly and at low cost encourages innovation in areas like pay-as-you-go content, streaming payments, and machine-to-machine transactions, potentially transforming how online services are monetized.
+reviewed: false

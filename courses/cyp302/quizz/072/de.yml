@@ -1,0 +1,9 @@
+question: Warum wird die Verschiebeverschlüsselung als symmetrische Verschlüsselung betrachtet?
+answer: Weil derselbe Schlüssel sowohl für die Verschlüsselung als auch für die Entschlüsselung verwendet wird
+wrong_answers:
+  - Weil sie zwei Schlüssel verwendet, einen öffentlichen und einen privaten
+  - Weil sie ohne Verwendung eines Schlüssels entschlüsselt
+  - Weil der Schlüssel bei jeder Verschlüsselung variiert
+explanation: |
+  Die Verschiebeverschlüsselung wird als symmetrische Verschlüsselung betrachtet, weil sie denselben Schlüssel verwendet, um eine Nachricht zu verschlüsseln und zu entschlüsseln, und somit die Vertraulichkeit zwischen den Parteien, die diesen Schlüssel teilen, gewährleistet.
+reviewed: false

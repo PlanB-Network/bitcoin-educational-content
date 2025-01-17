@@ -1,0 +1,13 @@
+question: ¿Qué estrategia utiliza Wabisabi para aumentar los conjuntos anónimos de los participantes?
+
+answer: Con unas pocas transacciones muy grandes.
+
+wrong_answers:
+  - Con muchas transacciones muy pequeñas.
+  - Con una única transacción pequeña.
+  - Sin transacciones.
+
+explanation: |
+  Para aumentar los conjuntos anónimos de los participantes, Wabisabi utiliza transacciones coinjoin muy grandes que agrupan a docenas de participantes.
+
+reviewed: false

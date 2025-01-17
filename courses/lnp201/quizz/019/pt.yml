@@ -1,9 +1,9 @@
-question: Como Alice financia o canal que ela está abrindo com Bob?
-answer: Ela cria uma transação com 2 UTXOs como saída.
+question: O que o sistema de transação de compromisso garante aos participantes de um canal Lightning?
+answer: Que cada um pode recuperar seus fundos publicando a última transação assinada
 wrong_answers:
-  - Ela envia dinheiro diretamente para o endereço público de Bob.
-  - Ela cria uma transação com 1 UTXO como saída.
-  - Ela pede a Bob para financiar o canal.
+  - Que as transações são visíveis na blockchain do Bitcoin
+  - Que a capacidade do canal aumenta a cada transação
+  - Que as taxas são compartilhadas entre os dois participantes
 explanation: |
-  Para financiar o canal que ela está abrindo com Bob, Alice cria uma transação com 2 UTXOs como saída; um para o endereço multi-sig 2/2 e outro para um de seus endereços de troco.
+  As transações de compromisso assinadas garantem que cada participante possa recuperar seus fundos publicando a versão mais recente em caso de fechamento do canal.
 reviewed: false

@@ -1,0 +1,21 @@
+name: Nerd Miners
+
+links:
+  website: https://nerdminers.com/
+  twitter: https://x.com/nerdminers
+
+tags:
+  - mining
+  - hardware
+
+category: mining
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-12-11
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward:

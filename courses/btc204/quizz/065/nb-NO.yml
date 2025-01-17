@@ -1,0 +1,13 @@
+question: Hva er støv i konteksten av UTXOs?
+
+answer: UTXOs hvis verdi er for lav til å dekke de nødvendige gebyrene for å bruke dem.
+
+wrong_answers:
+  - UTXOs generert av transaksjonsfeil og som ikke kan bekreftes på blokkjeden.
+  - UTXOs som er merket som mistenkelige eller knyttet til ulovlige aktiviteter på nettverket.
+  - UTXOs som er lagret på adresser som ikke har vært brukt på lang tid og anses som tapt.
+
+explanation: |
+  Støv refererer til UTXOs hvis verdi i sats er så lav at den ikke er nok til å dekke transaksjonsgebyrene som kreves for å bruke dem.
+
+reviewed: false

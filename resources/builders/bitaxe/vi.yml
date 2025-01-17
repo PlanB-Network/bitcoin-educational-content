@@ -1,0 +1,5 @@
+description: |
+  BitAxe là một dự án mã nguồn mở được thiết kế để thử nghiệm khai thác Bitcoin với chi phí thấp bằng cách sử dụng chip ASIC tái chế, chẳng hạn như từ Antminer S19 phổ biến. Cung cấp nhiều mô hình phù hợp với nhu cầu của người khai thác, BitAxe mang lại hiệu suất lên đến 3,3 TH/s. Khác với các công cụ giáo dục như NerdMiner, BitAxe cho phép tham gia các pool khai thác để tạo ra phần thưởng Bitcoin đều đặn, đồng thời vẫn dễ tiếp cận và có thể cấu hình. Một công cụ lý tưởng cho những người đam mê muốn khám phá khai thác.
+
+contributors:
+  - pretty-private

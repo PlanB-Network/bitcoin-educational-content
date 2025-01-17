@@ -1,11 +1,11 @@
-question: A quale curva di adozione è simile quella di Bitcoin?
-answer: Una curva a S
+question: A cosa è simile la curva di adozione di Bitcoin?
+answer: Una curva a S.
 wrong_answers:
-  - Una curva a U
-  - Una curva a V
-  - Una curva a W
-explanation: |
-  L'adozione di Bitcoin, come qualsiasi nuova tecnologia, segue una curva a S.
-  Questo è un modello comune per l'adozione di nuove tecnologie, in cui l'adozione inizia
-  lentamente, poi accelera prima di rallentare quando si raggiunge la saturazione.
-reviewed: false
+  - Una curva a U.
+  - Una curva a V.
+  - Una curva a W.
+explanation: >-
+  L'adozione di Bitcoin, come per qualsiasi nuova tecnologia, segue una curva a S.
+  Questo è un modello comune per l'adozione di nuove tecnologie, dove l'adozione inizia
+  lentamente, poi accelera prima di rallentare man mano che si raggiunge la saturazione.
+reviewed: true

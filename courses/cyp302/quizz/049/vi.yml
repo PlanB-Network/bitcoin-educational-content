@@ -1,0 +1,11 @@
+question: Nhóm nào đặc biệt quan trọng đối với mật mã khóa công khai do khả năng tạo ra tất cả các phần tử thông qua phép lũy thừa?
+
+answer: Nhóm tuần hoàn
+
+wrong_answers:
+  - Nhóm không giao hoán
+  - Nhóm vô hạn
+  - Nhóm số phức
+
+explanation:
+  Trong mật mã, nhóm tuần hoàn rất quan trọng vì chúng cho phép tạo ra tất cả các phần tử của nhóm bằng cách sử dụng phép lũy thừa của một phần tử đơn lẻ, được gọi là sinh viên.

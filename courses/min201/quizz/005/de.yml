@@ -1,9 +1,14 @@
-question: Was ist die Hauptherausforderung für Fachleute in der Bitcoin-Mining-Branche?
-answer: Die Hauptherausforderung besteht darin, zukünftige abnehmende Effizienzsteigerungen vorherzusehen und ihre Strategien entsprechend anzupassen.
+question: Was ist die Hauptherausforderung für Fachleute in der Bitcoin-Mining-Industrie?
+answer: Die abnehmenden Effizienzgewinne in der Zukunft zu antizipieren und ihre Strategien entsprechend anzupassen.
 wrong_answers:
-  - Günstige Stromversorgung finden
-  - Einen geeigneten Standort für Mining-Operationen finden
-  - Investoren finden, die bereit sind, ihre Operationen zu finanzieren
+  - Günstigen Strom zu finden
+  - Einen geeigneten Standort für die Mining-Operationen zu finden
+  - Investoren zu finden, die bereit sind, ihre Operationen zu finanzieren
 explanation: |
-  Angesichts ständiger technologischer Fortschritte im Mining-Bereich müssen sich Fachleute strategisch positionieren. Die Mining-Branche unterliegt kontinuierlichen Innovationen, und die Akteure der Branche müssen abnehmende Effizienzsteigerungen in der Zukunft vorhersehen und ihre Strategien entsprechend anpassen.
-reviewed: false
+  Angesichts ständiger technologischer Fortschritte im
+  Mining-Bereich müssen sich Fachleute strategisch positionieren.
+  Die Mining-Industrie unterliegt kontinuierlichen
+  Innovationen, und die Akteure der Branche müssen
+  abnehmende Effizienzgewinne in der Zukunft antizipieren und ihre
+  Strategien entsprechend anpassen.
+reviewed: true

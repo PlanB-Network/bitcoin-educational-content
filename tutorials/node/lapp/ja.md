@@ -1,36 +1,35 @@
 ---
 name: LAPP bitcoin
-description: 最初のLAppを開発するチュートリアル
+description: 最初のLAppを開発するためのチュートリアル
 ---
 
-最初のライトニングアプリのコーディングを学ぶ
+最初のライトニングアプリのコーディングを学ぼう
 
 要件:
 
 - NodeJs >= 8
 - LND >= 9
 
-NodeJsは公式ウェブサイトからダウンロードできます
+NodeJsは公式ウェブサイトからダウンロードできます。
 
 LNDノードをダウンロードして設定する代わりに、私たちはpolarツールを使用します。このツールはそのタスクを代わりに実行します。
 
-私たちのライトニングアプリを構築するために、以下の技術を使用します:
+私たちのライトニングアプリを構築するために、以下の技術を使用してください：
 
 - ウェブサーバー用のExpress
 - フロントエンド用のPugテンプレート + bootstrap
 
 ## オペレーティングシステム
 
-Linuxの使用を推奨しますが、Windows 10を使用している場合は、これらのいくつかのステップに従ってLinuxコンソールを持つことができます。
-基盤の準備
+Linuxの使用を推奨しますが、Windows 10を使用している場合は、これらのいくつかのステップに従ってLinuxコンソールを持つことができます。基盤の準備
 
-アプリケーションスケルトンを迅速に作成するために、アプリケーションジェネレーターツールであるexpressを使用します。
+アプリスケルトンを迅速に作成するために、アプリジェネレーターツールであるexpressを使用します。
 
 ```
 $ sudo npm install express-generator -g
 ```
 
-次の指示で、lnappという名前のExpressアプリケーションを作成します。アプリケーションは現在の作業ディレクトリ内のlnappというディレクトリに作成され、ビューエンジンはPugに割り当てられます。
+次の指示で、lnappという名前のExpressアプリを作成します。アプリは現在の作業ディレクトリ内のlnappというディレクトリに作成され、ビューエンジンはPugに割り当てられます。
 
 ```
 $ express --view=pug lnapp
@@ -43,15 +42,15 @@ $ cd myapp
 $ npm install
 ```
 
-今、単純にサーバーを実行します
+今、ただサーバーを実行してください。
 
 ```
 $ npm start
 ```
 
-次に、ブラウザでこのアドレス http://localhost:3000 にアクセスしてアプリケーションにアクセスします。
+次に、ブラウザでこのアドレス http://localhost:3000 にアクセスしてアプリにアクセスします。
 
-生成されたアプリケーションには、以下のディレクトリ構造があります：
+生成されたアプリには、以下のディレクトリ構造があります：
 
 ```
 .
@@ -75,9 +74,9 @@ $ npm start
 
 ## Polar
 
-Polarをダウンロードし、インストールし、2つのLNDノード（AliceとBob）と1つのbitcoindでネットワークを作成します。アプリでノードのグラフを見たら、Startボタンをクリックし、各ノードのインジケーターが緑色に変わるまで数秒待ちます。
+Polarをダウンロードしてインストールしたのち、2つのLNDノード（AliceとBob）と1つのbitcoindでネットワークを作成します。アプリでノードのグラフを見たら、Startボタンをクリックし、各ノードのインジケーターが緑色に変わるまで数秒待ちます。
 
-Lightning上で支払いを送るためには、ノードがチャネルを介して相互接続されている必要があります。Polarでチャネルを作成するのは非常に簡単で、Aliceノードの耳の一つをマウスでクリックし、Bobノードの耳の一つにドラッグするだけです。すぐに、Open new channelと題されたモーダルウィンドウが表示されるので、デフォルト値のままにしてopen channelボタンを押します。今度はBobからAliceへと同じアクションを繰り返し、この方法で両方のノードがお金を送受信できるようにします。
+ライトニング上で支払いを送るためには、ノードがチャネルを介して相互接続されている必要があります。Polarでチャネルを作成するのは非常に簡単で、Aliceノードの耳の一つをマウスでクリックし、Bobノードの耳の一つにドラッグするだけです。すぐに、Open new channelと題されたモーダルウィンドウが表示されるので、デフォルト値のままにしてopen channelボタンを押します。今度はBobからAliceへと同じアクションを繰り返し、この方法で両方のノードがお金を送受金できるようにします。
 
 ## Nodemon
 
@@ -96,7 +95,7 @@ package.jsonファイルのscriptsセクションにエントリを作成する�
 },
 ```
 
-npm startが実行されているコンソールに行き、ctrl + cを押してnodejsを再起動しますが、今回はnodemonを使用します
+npm startが実行されているコンソールに行き、ctrl + cを押してnodejsを再起動しますが、今回はnodemonを使用します。
 
 ```
 $ npm run dev
@@ -108,6 +107,8 @@ nodejsからLightningノードに接続するために、ln-serviceライブラ�
 
 ```
 $ npm install ln-service dotenv
+```
+
 私たちのlnappディレクトリ内に、.envというファイルを作成してください。このファイルには以下の変数を含める必要があります：
 
 ```
@@ -145,7 +146,7 @@ socket: process.env.LND_GRPC_HOST,
 const info = await lnservice.getWalletInfo({ lnd });
 
     // 情報をjson形式で表示
-    res.send(`
+    res.send(`/
       <h1>Node info</h1>
       <pre>${JSON.stringify(info, null, 2)}</pre>
     `);
@@ -159,8 +160,7 @@ console.log(e);
 
 これで、http://localhost:3000/info にアクセスしてください。
 
-LNDノードの情報がjsonで表示されたら、おめでとうございます!!! あなたのアプリはこれでLightning Networkとやり取りできるようになりました。
-偽のモデルの作成
+LNDノードの情報がjsonで表示されたら、おめでとうございます！！！ あなたのアプリはこれでライトニングネットワークとやり取りできるようになりました。偽のモデルの作成
 
 データベースをシミュレートするために、偽のモデルを作成する必要があります。これにより、データベースのインストールや設定を行わずにアプリを使用できるようになります。
 
@@ -216,7 +216,8 @@ class Post {
     let updatedPost;
     this.posts = this.posts.map(p => {
       if (p.hash === hash) {
-```markdown
+```
+
 ## ビューの準備
 
 HTMLをより良く見せるために、bootstrapが必要です。そのため、viewsディレクトリにあるlayout.pugファイルを以下のように変更します：
@@ -245,15 +246,15 @@ html
   form
     h2 記事を書く
     .form-group
-      label(for="name") 名前
+      label(for="name") Name
       input(id="name").form-control
     .form-group
-      label(for="content") 内容
+      label(for="content") Content
       textarea(id="content").form-control
-    button.btn.btn-primary#send-btn(type="button") 送信
+    button.btn.btn-primary#send-btn(type="button") Send
 ```
 
-## フロントエンドのJavascript
+## フロントエンド内のJavascript
 
 ユーザーと直接やり取りする最も直接的な方法は、ウェブブラウザでjavascriptを使用することです。これを行うには、layout.pugから既に呼び出しているjavascriptディレクトリにmain.jsというファイルを作成し、プロジェクトを初期化します。main.jsの初期内容は以下の通りです：
 
@@ -275,7 +276,7 @@ App.sendBtn = () => {
 $(() => App.init());
 ```
 
-"送信"ボタンをクリックすると、すべてが正しければコンソールに"!hola"というメッセージが表示されるはずです。これで、App.sendBtn()メソッドを変更して、情報をAPIに送信することができます。
+"Send（送信）"ボタンをクリックすると、すべてが正しければコンソールに"!hola"というメッセージが表示されるはずです。これで、App.sendBtn()メソッドを変更して、情報をAPIに送信することができます。
 
 ```
 App.sendBtn = async () => {
@@ -285,23 +286,23 @@ App.sendBtn = async () => {
     api: "post",
     post: { name, content },
   });
-  if (!response) console.error('データ取得エラー！');
+  if (!response) console.error('Error getting data!');
   if (response.success) {
-    // レスポンスで何かをする
+    // Do something with the response
   }
 };
 ```
 
-```markdown
+```
 // APIから来るデータをコンソールに表示
 console.log(response.data);
 }
 };
 ```
 
-また、main.jsにApp.makeRequest()メソッドを作成して追加します
+また、main.jsにApp.makeRequest()メソッドを作成して追加します。
 
-```markdown
+```
 App.makeRequest = ({api, post}) => {
 const type = !post ? 'GET' : 'POST';
 const data = !!post ? JSON.stringify(post) : null;
@@ -339,20 +340,20 @@ module.exports = router;
 
 このファイルはapp.jsに含める必要がありますので、以下の行を追加します：
 
-```markdown
+```
 const apiRouter = require('./routes/api');
 app.use('/api', apiRouter);
 ```
 
 もう一度送信ボタンを押すと、フォームに入力したデータと同じデータで応答するはずです。
 
-## 請求書の作成
+## インボイスの作成
 
 ユーザーが投稿を作成するときに実行されるメソッドは、請求書を生成し、それを請求書にリンクするデータベースレコードを作成し、ユーザーが支払いを行えるように請求書をユーザーに返す必要があります。
 
-```markdown
+```
 router.post('/post', async (req, res) => {
-// lndで認証
+// lndで認証する
 const { lnd } = lnservice.authenticatedLndGrpc({
 cert: process.env.LND_CERT_BASE64,
 macaroon: process.env.LND_MACAROON_BASE64,
@@ -385,9 +386,9 @@ console.log(e);
 });
 ```
 
-送信後にこのような投稿オブジェクトがレスポンスとして返された場合、すべて正しく行われています。今、ユーザーが支払いを行えるようにテキストを表示する必要があります。
+送信後にこのような投稿オブジェクトがレスポンスとして返された場合、すべて正しく行われています。続いて、ユーザーが支払いを行えるようにテキストを表示する必要があります。
 
-```markdown
+```
 {
 "success":true,
 "data":{
@@ -401,7 +402,7 @@ console.log(e);
 }
 ```
 
-## 新しい請求書ビュー
+## 新しいインボイスview
 
 viewsディレクトリには、以下の内容を含むinvoice.pugというファイルを作成する必要があります：
 
@@ -449,29 +450,30 @@ $('#invoice').val(response.data.request);
 };
 ```
 
-## 支払いの受領
-支払いを受け取った時を知る必要があります。そのためには、lnserviceのsubscribeToInvoices()メソッドを使用します。このメソッドにより、請求書のステータスが更新された時にコードを実行することができます。これを使用するには、app.jsに以下の行を追加します。
+## 支払いの受け取り
+
+支払いを受け取ったことを知る必要があります。そのためには、lnserviceのsubscribeToInvoices()メソッドを使用します。このメソッドにより、インボイスのステータスが更新された時にコードを実行することができます。これを使用するには、app.jsに以下の行を追加します。
 
 ```javascript
 // lnserviceと投稿テーブルを要求
 const lnservice = require('ln-service');
 const post = require('./models/Post');
 
-// lndで認証
+// lndで認証する
 const { lnd } = lnservice.authenticatedLndGrpc({
   cert: process.env.LND_CERT_BASE64,
   macaroon: process.env.LND_MACAROON_BASE64,
   socket: process.env.LND_GRPC_HOST,
 });
 
-// 請求書が更新されるたびに、請求書が支払われたかどうかを確認
+// 請求書が更新されるたびに、請求書が支払われたかどうかを確認する
 const subscribeInvoices = async () => {
   try {
     const sub = lnservice.subscribeToInvoices({lnd});
     sub.on('invoice_updated', async invoice => {
       if (!invoice.is_confirmed) return;
 
-      // 請求書を「支払済み」としてマーク
+      // 請求書を「支払済み」としてマークする
       const paid = post.paid(invoice.id);
       if (paid) console.log('Invoice paid!');
     });
@@ -481,7 +483,7 @@ const subscribeInvoices = async () => {
     return e;
   }
 };
-// 請求書のサブスクリプションを開始
+// 請求書のサブスクリプションを開始する
 subscribeInvoices();
 ```
 
@@ -552,8 +554,10 @@ App.sendBtn = async () => {
   }
 };
 ```
+
 支払いが正常に受け取られたことを示すビューを作成します。viewsにsuccess.pugファイルを以下の内容で作成します：
-```pug
+
+```
 .collapse#success
   h2 支払い成功
   div 支払い証明：
@@ -562,7 +566,7 @@ App.sendBtn = async () => {
 
 これをindex.pugに含めます。
 
-```pug
+```
 extends layout
 
 block content
@@ -572,4 +576,4 @@ block content
   include success.pug
 ```
 
-請求書の支払い後に「支払い成功」というメッセージと支払い証明が表示されたら、おめでとうございます!!! それを成し遂げました、あなたは最初のLAppを完成させました。
+インボイス支払い後に「支払い成功」というメッセージと支払い証明が表示されたら、おめでとうございます！！！ あなたは最初のLAppを完成しました。

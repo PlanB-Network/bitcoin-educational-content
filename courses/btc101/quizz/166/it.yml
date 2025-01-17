@@ -1,9 +1,12 @@
-question: Qual è il ruolo dei minatori in relazione alle centrali elettriche che non sono ancora collegate alla rete?
-answer: Agiscono come acquirenti di ultima istanza
+question: Cosa possono fare i minatori per quelle centrali elettriche che non sono ancora collegate alla rete?
+answer: Possono agire come acquirenti di ultima istanza.
 wrong_answers:
-  - Forniscono alle centrali elettriche l'elettricità
-  - Collegano le centrali elettriche alla rete
-  - Regolano il prezzo dell'elettricità
+  - Possono fornire elettricità alle centrali elettriche.
+  - Possono collegare le centrali elettriche alla rete.
+  - Possono regolare il prezzo dell'elettricità.
 explanation: |
-  I minatori agiscono come acquirenti di ultima istanza per le centrali elettriche che non sono ancora collegate alla rete. Ciò consente alle centrali elettriche di ottenere finanziamenti anche prima di essere collegate alla rete elettrica.
-reviewed: false
+  I minatori possono agire come acquirenti di ultima istanza per le centrali elettriche che
+  non sono ancora collegate alla rete. Questo permette alle centrali
+  di assicurarsi finanziamenti anche prima di essere collegate alla
+  rete elettrica.
+reviewed: true

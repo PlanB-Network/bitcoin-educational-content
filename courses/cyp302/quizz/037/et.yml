@@ -1,0 +1,9 @@
+question: Mis on algebraaline struktuur abstraktses algebras?
+answer: Elementide hulk koos ühe või mitme toiminguga, mis järgivad teatud aksiome
+wrong_answers:
+  - Algarvude hulk, mis on korraldatud ridadena ja järgivad teatud aksiome
+  - Algoritmide jada lineaarsete võrrandite lahendamiseks
+  - Juhuslike geomeetriliste transformatsioonide rühm, mis on paigutatud vastavalt teatud aksiomidele
+explanation: |
+  Algebraaline struktuur on määratletud elementide hulk koos ühe või mitme toiminguga, nagu liitmine või korrutamine, mis järgivad teatud aksiome, ja see on oluline mõistete struktureerimiseks arvuteoorias.
+reviewed: false

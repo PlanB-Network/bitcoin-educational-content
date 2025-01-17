@@ -264,22 +264,10 @@ Nhóm Lightning Walker trình bày giải pháp của họ cho Dịch Vụ Chuy�
 
 
 
-## Đánh giá khóa học
+## Nhận xét & Đánh giá
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Lời Cảm Ơn
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-Chúng tôi muốn ghi nhận sự đóng góp của các giáo viên của chúng tôi:
-
-- Peter Todd
-- Adam Gibson
-- Alekos Filini
-- Daniela Brozzoni
-- Ajelex
-- asi0
-- Gabriel Comte
-
-Chuyên môn của họ đã vô cùng quý báu cho sự thành công của khóa học này. Đây đã là khóa học đầu tiên dựa trên ấn bản đầu tiên của sáng kiến Cubo+, được tổ chức vào tháng 7 năm 2023. Cảm ơn tất cả các thành viên và giáo viên đã tham gia vào hành trình giáo dục tiên phong này. Điều này đánh dấu sự bắt đầu của những gì chúng tôi hy vọng sẽ là một hành trình dài và quảng đại vào thế giới phát triển Bitcoin. Là lớp đầu tiên, sự tham gia của các bạn đã thiết lập tiêu chuẩn cho các lớp học tương lai.
-Hãy tiếp tục khám phá, học hỏi và đóng góp cho hệ sinh thái Bitcoin. Kiến thức thu được ở đây chỉ là điểm khởi đầu. Tiếp tục đào sâu vào hố thỏ, và bạn sẽ khám phá ra một thế giới cơ hội ngày càng mở rộng.
+<isCourseConclusion>true</isCourseConclusion>

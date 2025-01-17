@@ -1,0 +1,9 @@
+question: Mikä lohkosalausalgoritmi on hyväksytty AES-standardiksi?
+answer: Rijndael-salakirjoitus
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  Rijndael-salakirjoitus hyväksyttiin symmetriseksi salausalgoritmiksi (AES) NIST: n toimesta sen korkean suorituskyvyn ja turvallisuuden vuoksi.
+reviewed: false

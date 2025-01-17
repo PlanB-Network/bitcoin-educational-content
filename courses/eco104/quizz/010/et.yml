@@ -1,0 +1,11 @@
+question: Mis on sõlmede eesmärk Bitcoin'i võrgus?
+answer: Hoida ja turvata plokiahelat
+wrong_answers:
+  - Tehingute töötlemine
+  - Ettepanekute tegemine ja muudatuste rakendamine Bitcoin'i koodibaasis
+  - Konkureerimine teiste kaevuritega
+explanation: |
+  Sõlmed on hädavajalikud Bitcoin'i võrgu terviklikkuse ja turvalisuse jaoks.
+  Nad toimivad süsteemi väravavahtidena, tagades, et tehingud
+  töödeldakse täpselt ja reeglite kohaselt.
+reviewed: true

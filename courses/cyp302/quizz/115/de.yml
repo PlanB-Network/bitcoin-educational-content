@@ -1,0 +1,9 @@
+question: Was bedeutet der Begriff Diffusion im Kontext der AES-Verschlüsselung?
+answer: Eine Änderung im Klartext führt zu einer signifikanten Änderung im Chiffretext.
+wrong_answers:
+  - Der Chiffretext hat immer die gleiche Länge.
+  - Die Schlüsselbytes werden gleichmäßig verteilt.
+  - Sensible Informationen werden in jedem Block des Chiffretexts verschlüsselt.
+explanation: |
+  Diffusion bedeutet, dass eine kleine Änderung im Klartext zu einer signifikanten Änderung im Chiffretext führt, was es für einen Angreifer schwierig macht, den Klartext abzuleiten.
+reviewed: false

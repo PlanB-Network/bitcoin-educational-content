@@ -1,9 +1,9 @@
-question: Ý nghĩa của việc phân bố địa lý của các nút Bitcoin là gì?
+question: Tầm quan trọng của việc phân bố địa lý các nút Bitcoin là gì?
 answer: Nó làm cho việc phá hủy tất cả các bản sao của blockchain trở nên gần như không thể.
 wrong_answers:
   - Nó quyết định giá của Bitcoin ở các khu vực khác nhau.
   - Nó ảnh hưởng đến tốc độ của các giao dịch Bitcoin.
-  - Nó quyết định số lượng Bitcoin có thể được khai thác trong một khu vực.
-explanation: >-
-  Việc phân bố địa lý của các nút Bitcoin làm cho việc phá hủy tất cả các bản sao của blockchain trở nên gần như không thể. Điều này là do các nút được phân tán rộng khắp và sẽ rất khó để vật lý thu giữ tất cả chúng.
-reviewed: false
+  - Nó quyết định số lượng bitcoin có thể được khai thác trong một khu vực.
+explanation: |
+  Việc phân bố địa lý của các nút Bitcoin làm cho việc phá hủy tất cả các bản sao của blockchain trở nên gần như không thể. Do các nút được phân tán, việc thu giữ vật lý tất cả chúng trở nên khó khăn.
+reviewed: true

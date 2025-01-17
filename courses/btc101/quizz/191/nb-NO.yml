@@ -1,0 +1,11 @@
+question: Hva er én faktor å vurdere når du velger en løsning for å akseptere Bitcoin for din bedrift?
+answer: Forventet transaksjonsvolum
+wrong_answers:
+  - Fargen på logoen din
+  - Antall ansatte
+  - Plasseringen av hovedkontoret ditt
+explanation: >-
+  Når du velger en løsning for å akseptere Bitcoin for din bedrift, må flere
+  faktorer tas i betraktning, som forventet transaksjonsvolum, tildelt
+  budsjett, og type virksomhet (online eller fysisk).
+reviewed: false

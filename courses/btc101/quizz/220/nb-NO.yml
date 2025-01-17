@@ -1,0 +1,10 @@
+question: Hva antyder teksten om tempoet for å lære om Bitcoin?
+answer: Det er komplisert å tilegne seg alt på en gang, så ta deg tid
+wrong_answers:
+  - Det er lett å lære alt på en gang
+  - Det er umulig å lære alt om Bitcoin
+  - Det er unødvendig å lære alt om Bitcoin
+explanation: >-
+  Teksten antyder at det er så mye å utforske med Bitcoin at
+  det er komplisert å tilegne seg alt på en gang, så man bør ta seg tid.
+reviewed: false

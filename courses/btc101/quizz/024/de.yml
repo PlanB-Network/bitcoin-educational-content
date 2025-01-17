@@ -2,8 +2,12 @@ question: Was ist der Hauptnachteil von Fiat-Währungen?
 answer: Ihr Wert wird ständig durch monetäre Inflation erodiert.
 wrong_answers:
   - Sie sind nicht leicht transportierbar.
-  - Ihr Wert wird ständig durch monetäre Inflation geschätzt.
+  - Ihr Wert wird ständig durch monetäre Inflation aufgewertet.
   - Sie sind nicht teilbar.
 explanation: |
-  Der Hauptnachteil von Fiat-Währungen wie dem Dollar und dem Euro besteht darin, dass ihr Wert ständig durch monetäre Inflation erodiert wird. Dies liegt daran, dass die sie kontrollierenden Einheiten (König, Zentralbank, Kaiser, Diktator) sie ständig abwerten.
-reviewed: false
+  Der Hauptnachteil von Fiat-Währungen, wie dem
+  Dollar und dem Euro, ist, dass ihr Wert ständig
+  durch monetäre Inflation erodiert wird. Dies ist auf die
+  Abwertung zurückzuführen, die durch die sie kontrollierenden Entitäten (König,
+  Zentralbank, Kaiser, Diktator) verursacht wird.
+reviewed: true

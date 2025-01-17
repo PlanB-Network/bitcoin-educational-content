@@ -1,9 +1,11 @@
 question: Quelle est la fréquence de l'ajustement de la difficulté ?
-answer: Tous les 2016 blocs
+answer: Tous les 2016 blocs.
 wrong_answers:
-  - Tous les 1048 blocs
-  - Tous les 512 blocs
-  - Tous les 4032 blocs
+  - Tous les 1048 blocs.
+  - Tous les 512 blocs.
+  - Tous les 4032 blocs.
 explanation: |
-  L'ajustement de la difficulté est un mécanisme qui se produit tous les 2016 blocs, soit environ deux semaines, afin de garantir qu'en moyenne, un nouveau bloc soit ajouté à la blockchain toutes les dix minutes, indépendamment du hashrate global.
-reviewed: false
+  L'ajustement de la difficulté est un mécanisme qui a lieu
+  tous les 2016 blocs, soit environ toutes les deux semaines, pour garantir qu'un
+  nouveau bloc soit ajouté à la blockchain toutes les dix minutes en moyenne, indépendamment du hashrate global.
+reviewed: true

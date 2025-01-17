@@ -1,9 +1,9 @@
-question: Cos'è il Lightning Network?
-answer: Un protocollo di livello 2 sopra Bitcoin che consente transazioni più veloci.
+question: Cosa succede se Alice non ottiene la firma di Bob per la transazione di prelievo?
+answer: Rischia di perdere l'accesso ai suoi fondi depositati nell'indirizzo multisignature
 wrong_answers:
-  - Un tipo di criptovaluta.
-  - Un esploratore di blockchain.
-  - Un portafoglio digitale per conservare bitcoin.
+  - Non può più comunicare con Bob sulla Lightning Network
+  - Il canale si apre con capacità limitata
+  - Bob riceve automaticamente i fondi nel canale
 explanation: |
-  Il Lightning Network è un protocollo di livello 2 sopra Bitcoin. È progettato per consentire transazioni più veloci creando canali di pagamento fuori dalla catena principale.
+  Senza la firma di Bob sulla transazione di prelievo, Alice non può garantire il recupero dei suoi fondi in caso di problemi, correndo il rischio di perdita.
 reviewed: false

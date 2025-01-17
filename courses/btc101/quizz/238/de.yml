@@ -1,9 +1,11 @@
-question: Was ist das Konzept des "Geld-Streamings" im Kontext des Lightning-Netzwerks?
-answer: Mikrotransaktionen im Minutentakt
+question: Was ist das Konzept des Geld-Streamings im Kontext des Lightning Network?
+answer: Durchführung kontinuierlicher, Echtzeit-Mikrozahlungen.
 wrong_answers:
-  - Streaming von Videoinhalten für Bitcoin
-  - Streaming von Audioinhalten für Bitcoin
-  - Echtzeit-Streaming von Bitcoin-Transaktionen
-explanation: |
-  Mit dem Lightning-Netzwerk können wir Mikrotransaktionen im Minutentakt durchführen, was die Möglichkeit eröffnet, mit Wirtschaftsmodellen zu experimentieren, bei denen Verbraucher basierend auf dem, was sie konsumieren, für Inhalte bezahlen.
-reviewed: false
+  - Bitcoin an einem physischen Standort mithilfe eines Geldautomaten in Bargeld umwandeln.
+  - Streaming von Audio- oder Videoinhalten für Bitcoin.
+  - Erzeugung neuer Bitcoins durch Mining-Operationen, die in Echtzeit stattfinden.
+explanation: >-
+  Mit dem Lightning Network können wir jede Minute Mikrotransaktionen durchführen,
+  was die Tür zu Experimenten mit Wirtschaftsmodellen öffnet, bei denen Verbraucher für
+  Inhalte basierend darauf bezahlen, was sie konsumieren.
+reviewed: true

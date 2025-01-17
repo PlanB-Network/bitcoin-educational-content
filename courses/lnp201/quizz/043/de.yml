@@ -1,9 +1,9 @@
-question: Wer bezahlt die Abschlussgebühren bei einer kooperativen Schließung?
-answer: Die Person, die den Kanal eröffnet hat.
+question: Welche Informationen kann Bob in einer Rechnung angeben, um die Weiterleitung zu erleichtern?
+answer: Nahegelegene Kanäle mit ausreichender Liquidität oder die Existenz von privaten Kanälen
 wrong_answers:
-  - Die Person, die den Kanal geschlossen hat.
-  - Beide Parteien zu gleichen Teilen.
-  - Die Person mit den meisten SAT im Kanal.
+  - Der private Schlüssel von Zwischenknoten
+  - Die komplette Karte aller Netzwerkskanäle
+  - Die exakte Menge an verfügbarer Liquidität für jeden Kanal
 explanation: |
-  Bei einer kooperativen Schließung einigen sich die beiden Teilnehmer auf einen endgültigen Zustand des Kanals. Die Person, die den Kanal eröffnet hat, trägt die Abschlussgebühren.
+  Indem Bob nahegelegene Kanäle mit Liquidität angibt oder private Kanäle offenlegt, hilft er Alice, Routen mit einer besseren Erfolgswahrscheinlichkeit auszuwählen.
 reviewed: false

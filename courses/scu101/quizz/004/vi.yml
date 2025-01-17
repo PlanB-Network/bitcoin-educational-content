@@ -1,12 +1,14 @@
-question: Tại sao lại được khuyến nghị xóa cookies sau mỗi lần truy cập một trang web?
-answer: Để ngăn các trang web bên thứ ba theo dõi hoạt động trực tuyến của bạn.
+question: Tại sao lại được khuyến nghị xóa cookie sau mỗi lần truy cập một trang web?
+answer: Để ngăn chặn các trang web bên thứ ba theo dõi hoạt động trực tuyến của bạn.
 wrong_answers:
   - Để tiết kiệm không gian lưu trữ trên thiết bị của bạn.
-  - Để ngăn trang web nhớ thông tin đăng nhập của bạn.
-  - Để ngăn trang web hiển thị quảng cáo mục tiêu cho bạn.
+  - Để ngăn chặn trang web ghi nhớ thông tin đăng nhập của bạn.
+  - Để ngăn chặn trang web hiển thị quảng cáo mục tiêu cho bạn.
 explanation: |
-  Cookies là các tệp được tạo bởi các trang web để lưu trữ thông tin trên thiết bị của bạn.
-  Mặc dù một số trang web yêu cầu những cookies này để hoạt động đúng cách, chúng cũng có thể bị
-  lợi dụng bởi các trang web bên thứ ba, đặc biệt là cho mục đích theo dõi quảng cáo. Xóa cookies
-  sau mỗi lần truy cập một trang web có thể giúp ngăn chặn điều này.
-reviewed: false
+  Cookie là các tệp được tạo bởi các trang web để lưu trữ thông tin
+  trên thiết bị của bạn. Mặc dù một số trang web yêu cầu những cookie này để
+  hoạt động đúng cách, chúng cũng có thể bị khai thác bởi
+  các trang web bên thứ ba, đặc biệt là cho mục đích theo dõi quảng cáo.
+  Xóa cookie sau mỗi lần truy cập một trang web có thể
+  giúp ngăn chặn điều này.
+reviewed: true

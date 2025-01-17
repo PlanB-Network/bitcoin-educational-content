@@ -1,0 +1,13 @@
+question: Milline krüptograafiline võtmevahetuse algoritm on BIP47 toimimise tuumaks?
+
+answer: ECDH
+
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+
+explanation: |
+  Kasutusel olev algoritm on ECDH (Elliptic Curve Diffie-Hellman). See on klassikalise Diffie-Hellmani algoritmi variant, mis kasutab elliptilisi kõveraid.
+
+reviewed: false

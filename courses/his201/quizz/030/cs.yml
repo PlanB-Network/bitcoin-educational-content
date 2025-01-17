@@ -1,0 +1,9 @@
+question: Jaké datum narození uvedl Satoshi Nakamoto na fóru P2P Foundation?
+answer: 5. dubna 1975
+wrong_answers:
+  - 3. dubna 1973
+  - 5. dubna 1973
+  - 3. dubna 1975
+explanation: |
+  Toto složené datum odkazuje na zákaz vlastnictví zlata pro americké občany mezi lety 1933 a 1975: 5. dubna je den, kdy byl tento zákaz zaveden v roce 1933 (Exekutivní nařízení 6102) a rok 1975 je, kdy byl zrušen (Veřejný zákon 93-373).
+reviewed: false

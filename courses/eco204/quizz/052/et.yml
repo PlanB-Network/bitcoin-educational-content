@@ -1,0 +1,10 @@
+question: Mis on Bernoldi sõnul rahareformi edu või ebaedu võtmetegur?
+answer: Usaldus, mida rahvastik sellesse paneb
+wrong_answers:
+  - Ringleva raha hulk
+  - Valuuta väärtus
+  - Valitsuse majanduspoliitika
+explanation: |
+  Bernold viitab, et rahareformi edu sõltub mitte ainult selle tehnilisest asjakohasusest, vaid ka usaldusest, mida rahvastik sellesse paneb.
+  Taju ja avalik usaldus on seega olulised elemendid rahareformi edu või ebaedu juures.
+reviewed: false

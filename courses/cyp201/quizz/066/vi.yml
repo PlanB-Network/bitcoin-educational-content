@@ -1,9 +1,8 @@
-question: Mục đích của việc sử dụng checksum trong quá trình tạo cụm từ ghi nhớ cho ví Bitcoin là gì?
-answer: Nó đảm bảo việc kiểm tra độ chính xác của cụm từ khôi phục.
+question: Phần nào của kết quả HMAC-SHA512 được sử dụng làm mã chuỗi con?
+answer: 32 byte cuối
 wrong_answers:
-  - Nó tạo ra entropy cho ví.
-  - Nó xác định số lượng từ trong cụm từ khôi phục.
-  - Nó mã hóa cụm từ khôi phục để tăng cường bảo mật.
+  - 32 byte đầu tiên
+  - Toàn bộ 64 byte
+  - Băm SHA256 của 32 byte giữa
 explanation: |
-  Checksum được thu được bằng cách đưa entropy qua hàm SHA256 và lấy 8 bit đầu tiên của hash. Nếu không có checksum này, một lỗi trong cụm từ có thể dẫn đến việc tạo ra một ví khác và do đó là mất mát tiền bạc.
-reviewed: false
+  32 byte cuối của kết quả HMAC-SHA512 được sử dụng làm mã chuỗi cho khóa con.

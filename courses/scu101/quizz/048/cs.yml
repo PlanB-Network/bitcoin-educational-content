@@ -1,11 +1,12 @@
-question: Jaký je běžný druhý krok u 2FA?
+question: Která z následujících metod je dobrým a bezpečným způsobem dvoufaktorové autentizace (2FA)?
 answer: Kód generovaný aplikací jako Google Authenticator nebo Authy.
 wrong_answers:
-  - Telefonní hovor majiteli účtu
-  - Email majiteli účtu
-  - Dopis poslaný na domácí adresu majitele účtu
+  - Telefonní hovor nebo SMS kód zaslaný držiteli účtu
+  - Email s kódem, který vyprší za 10 minut, zaslaný držiteli účtu
+  - Dopis zaslaný na domácí adresu držitele účtu
 explanation: |
-  Druhým krokem u 2FA může být dočasný kód poslaný přes SMS, kód
-  generovaný
-  aplikací, nebo fyzický bezpečnostní klíč.
-reviewed: false
+  Druhý krok v 2FA může být dočasný kód zaslaný přes
+  SMS, email, kód generovaný aplikací, nebo
+  fyzický bezpečnostní klíč. Nicméně, ne všechny tyto metody
+  nám umožňují udržet stejnou úroveň bezpečnosti.
+reviewed: true

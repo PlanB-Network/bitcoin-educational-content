@@ -1,11 +1,9 @@
-question: What is the significance of the point at infinity in the ECDSA algorithm?
-answer: If the calculated point P is the point at infinity, the signature is invalid.
+question: How many bits is the checksum for an entropy of 128 bits?
+answer: 4 bits
 wrong_answers:
-  - If the calculated point P is the point at infinity, the signature is valid.
-  - The point at infinity is used to calculate the nonce.
-  - The point at infinity is used to encrypt the keys.
+  - 8 bits
+  - 16 bits
+  - 6 bits
 explanation: |
-  In the ECDSA algorithm, if the calculated point P on the elliptic curve
-  is the point at infinity, the signature is considered invalid. This is one of the
-  checks performed during the validation of a digital signature.
+  The length of the checksum is calculated using the formula CS = ENT / 32, which equals 4 bits for an entropy of 128 bits.
 reviewed: false

@@ -1,10 +1,9 @@
-question: What is the Lightning Network?
-answer: A layer 2 protocol on top of Bitcoin that enables faster transactions.
+question: What happens if Alice does not obtain Bob's signature for the withdrawal transaction?
+answer: She risks losing access to her funds deposited in the multisignature address
 wrong_answers:
-  - A type of cryptocurrency.
-  - A blockchain explorer.
-  - A digital wallet for storing bitcoins.
+  - She can no longer communicate with Bob on the Lightning Network
+  - The channel opens with limited capacity
+  - Bob automatically receives the funds in the channel
 explanation: |
-  The Lightning Network is a layer 2 protocol on top of Bitcoin. It is
-  designed to enable faster transactions by creating off-chain payment channels.
+  Without Bob's signature on the withdrawal transaction, Alice cannot ensure the recovery of her funds in case of an issue, posing a risk of loss.
 reviewed: false

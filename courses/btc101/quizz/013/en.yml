@@ -5,6 +5,6 @@ wrong_answers:
   - A document outlining the principles of Bitcoin.
   - A manifesto written by David Chaum about the importance of digital currency.
 explanation: |
-  The Cypherpunk Manifesto was written by Eric Hughes in 1993 and asserts
-  that privacy is a fundamental right.
+  The Cypherpunk Manifesto was written by Eric Hughes in 1993
+  and asserts that privacy is a fundamental right.
 reviewed: true

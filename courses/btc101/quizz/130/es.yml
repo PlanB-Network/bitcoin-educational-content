@@ -1,9 +1,11 @@
-question: ¿Cuál es la importancia del número de confirmaciones en una transacción de Bitcoin?
-answer: Cuanto más confirmaciones tenga una transacción, más inmutable se vuelve.
+question: ¿Por qué es importante el número de confirmaciones en una transacción de Bitcoin?
+answer: Cuantas más confirmaciones tiene una transacción, más inmutable se vuelve.
 wrong_answers:
-  - Cuantas más confirmaciones tenga una transacción, más valiosa se vuelve.
-  - Cuantas más confirmaciones tenga una transacción, más rápido se procesa.
-  - Cuantas más confirmaciones tenga una transacción, menos segura es.
-explanation: |
-  El número de confirmaciones en una transacción de Bitcoin indica cuántos bloques se han minado encima del bloque que contiene la transacción. Cuantas más confirmaciones tenga una transacción, más inmutable se vuelve.
-reviewed: false
+  - Cuantas más confirmaciones tiene una transacción, más valiosa se vuelve.
+  - Cuantas más confirmaciones tiene una transacción, más rápido se procesa.
+  - Cuantas más confirmaciones tiene una transacción, menos segura es.
+explanation: >-
+  El número de confirmaciones en una transacción de Bitcoin indica cuántos
+  bloques se han minado encima del bloque que contiene la transacción. Cuantas más
+  confirmaciones tiene una transacción, más inmutable se vuelve.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Co znamená útok hrubou silou?
+answer: Zkoušení všech možných klíčů, dokud není nalezen ten správný
+wrong_answers:
+  - Změna textu, aby byl nesrozumitelný
+  - Použití veřejného klíče k dešifrování zprávy
+  - Silné udeření do počítače, aby byl nucen vydát tajný klíč
+explanation: |
+  Útok hrubou silou zahrnuje systematické testování všech možných klíčů k dešifrování zašifrované zprávy.
+reviewed: false

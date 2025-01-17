@@ -1,9 +1,11 @@
-question: ¿Qué indica la ausencia de una frase mnemotécnica en una billetera?
-answer: La billetera no es segura para almacenamiento a largo plazo.
+question: ¿Qué indica la ausencia de una frase mnemotécnica en una cartera?
+answer: Indica que la cartera no es segura para el almacenamiento a largo plazo de Bitcoin.
 wrong_answers:
-  - La billetera es segura para almacenamiento a largo plazo.
-  - La billetera no es segura para almacenamiento a corto plazo.
-  - La billetera no es segura para gastar.
+  - Indica que la cartera es completamente segura y no requiere ningún respaldo.
+  - Significa que la cartera puede contener muchos bonos diferentes.
+  - Sugiere que la cartera está respaldada automáticamente por tu dispositivo.
 explanation: |
-  La ausencia de una lista de 12 o 24 palabras, es decir, la frase mnemotécnica, en una billetera debería alertarte de que la billetera no es segura, ya que no sigue el procedimiento estándar de respaldo.
-reviewed: false
+  La ausencia de una lista de 12 o 24 palabras, es decir, la
+  frase mnemotécnica, en una cartera debería alertarte de que la
+  cartera no es segura ya que no sigue los procedimientos estándar de respaldo.
+reviewed: true

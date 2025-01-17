@@ -1,9 +1,11 @@
-question: Qual é o trilema do blockchain?
-answer: Um protocolo baseado em blockchain só pode satisfazer dois dos seguintes; descentralização, segurança e escalabilidade.
+question: O que é o trilema da blockchain?
+answer: Um protocolo baseado em blockchain só pode satisfazer dois dos critérios de descentralização, segurança e escalabilidade.
 wrong_answers:
-  - Um protocolo baseado em blockchain só pode satisfazer um dos seguintes; descentralização, segurança e escalabilidade.
-  - Um protocolo baseado em blockchain pode satisfazer todos os seguintes; descentralização, segurança e escalabilidade.
-  - Um protocolo baseado em blockchain não pode satisfazer nenhum dos seguintes; descentralização, segurança e escalabilidade.
+  - Um protocolo baseado em blockchain só pode satisfazer um dos critérios de descentralização, segurança e escalabilidade.
+  - Um protocolo baseado em blockchain pode satisfazer todos os critérios de descentralização, segurança e escalabilidade.
+  - Um protocolo baseado em blockchain não pode satisfazer nenhum dos critérios de descentralização, segurança e escalabilidade.
 explanation: |
-  O trilema do blockchain refere-se ao desafio de que um protocolo baseado em blockchain só pode satisfazer dois dos seguint- language: es descentralização, segurança e escalabilidade.
-reviewed: false
+  O trilema da blockchain refere-se ao desafio de que um
+  protocolo baseado em blockchain só pode satisfazer dois critérios entre
+  descentralização, segurança e escalabilidade.
+reviewed: true

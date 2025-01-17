@@ -1,10 +1,11 @@
-question: What is the event called when the reward for mining is halved?
+question: What is the name of the event when the reward for mining is halved?
 answer: Halving
 wrong_answers:
   - Doubling
   - Quartering
   - Tripling
 explanation: |
-  The event when the reward for mining is halved is called halving. This
-  event gives the monetary issuance curve a stair-like shape.
+  The event when the reward for mining is halved is called
+  halving. This event gives the monetary issuance curve a
+  stair-like shape.
 reviewed: true

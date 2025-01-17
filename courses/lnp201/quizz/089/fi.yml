@@ -1,9 +1,0 @@
-question: Mitä ostajan on tehtävä hallitakseen likviditeettiä Lightning-verkossa?
-answer: Avata kanavia
-wrong_answers:
-  - Yhdistää muihin solmuihin
-  - Ylläpitää likviditeetin tasapainoa molemmilla puolilla
-  - Ostaa kanavia
-explanation: |
-  Ostajien Lightning-verkossa likviditeetin hallintaan kuuluu kanavien avaaminen. Tämä tarjoaa heille lähtevää likviditeettiä.
-reviewed: false

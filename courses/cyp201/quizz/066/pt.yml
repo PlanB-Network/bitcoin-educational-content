@@ -1,9 +1,9 @@
-question: Qual é o objetivo de um checksum na geração de uma frase mnemônica para uma carteira de Bitcoin?
-answer: Ele garante a verificação da precisão da frase de recuperação.
+question: Qual parte da saída HMAC-SHA512 é usada como o código da cadeia filial?
+answer: Os últimos 32 bytes
 wrong_answers:
-  - Ele gera a entropia para a carteira.
-  - Ele determina o número de palavras na frase de recuperação.
-  - Ele criptografa a frase de recuperação para maior segurança.
+  - Os primeiros 32 bytes
+  - Os 64 bytes inteiros
+  - O hash SHA256 dos 32 bytes do meio
 explanation: |
-  O checksum é obtido passando a entropia pela função SHA256 e recuperando os primeiros 8 bits do hash. Sem esse checksum, um erro na frase poderia resultar na criação de uma carteira diferente e, portanto, na perda de fundos.
+  Os últimos 32 bytes da saída HMAC-SHA512 servem como o código da cadeia para a chave filial.
 reviewed: false

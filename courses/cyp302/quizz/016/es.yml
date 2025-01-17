@@ -1,0 +1,9 @@
+question: ¿Cuál es la característica de una variable uniforme?
+answer: Todos los valores posibles tienen la misma probabilidad de ocurrir
+wrong_answers:
+  - Los valores siguen una distribución asimétrica
+  - La probabilidad de cada valor depende del experimento
+  - Solo dos valores pueden ocurrir con igual probabilidad
+explanation: |
+  Una variable uniforme es una variable aleatoria donde todos los valores posibles tienen la misma probabilidad de ocurrir.
+reviewed: false

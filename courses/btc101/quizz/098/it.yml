@@ -1,9 +1,10 @@
-question: Qual è una delle soluzioni alternative consigliate alla carta per conservare la tua frase mnemonica?
-answer: Inciderla su una piastra di metallo
+question: Qual è un'alternativa consigliata all'uso della carta per memorizzare la tua frase mnemonica?
+answer: Inciderla su una piastra metallica.
 wrong_answers:
-  - Conservarla in un file digitale
-  - Scriverla su una lavagna
-  - Salvare come contatto nel tuo telefono
+  - Memorizzarla in un file digitale.
+  - Scriverla su una lavagna.
+  - Salvarla come contatto nel tuo telefono.
 explanation: |
-  Una delle soluzioni alternative alla carta per conservare la tua frase mnemonica è inciderla su una piastra di metallo. Questo può fornire una soluzione più resistente e duratura.
-reviewed: false
+  Una delle alternative consigliate alla carta per memorizzare
+  la tua frase mnemonica è inciderla su una piastra metallica. Questa
+  soluzione è più duratura e resistente.

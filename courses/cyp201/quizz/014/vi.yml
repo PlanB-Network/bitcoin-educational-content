@@ -1,10 +1,8 @@
-question: Có bao nhiêu vòng tính toán được thực hiện trong hàm nén của SHA256?
-answer: 64
+question: Số lần lặp lại được sử dụng bởi PBKDF2 trong Bitcoin là bao nhiêu?
+answer: 2048
 wrong_answers:
-  - 32
-  - 128
-  - 256
+  - 1024
+  - 4096
+  - 512
 explanation: |
-  Trong hàm nén của SHA256, 64 vòng tính toán được thực hiện.
-  Giống như trong một cuộc đua xe đạp, mỗi vòng đua cải thiện vị trí của hàm.
-reviewed: false
+  PBKDF2 lặp lại quy trình HMAC-SHA512 2048 lần để tăng cường bảo mật.

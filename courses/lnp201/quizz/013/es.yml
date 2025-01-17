@@ -1,9 +1,9 @@
-question: ¿Qué es la Red Lightning?
-answer: Un protocolo de capa 2 sobre Bitcoin que permite transacciones más rápidas.
+question: ¿Qué sucede si Alice no obtiene la firma de Bob para la transacción de retiro?
+answer: Ella arriesga perder el acceso a sus fondos depositados en la dirección multisignatura
 wrong_answers:
-  - Un tipo de criptomoneda.
-  - Un explorador de blockchain.
-  - Una billetera digital para almacenar bitcoins.
+  - Ya no puede comunicarse con Bob en la Lightning Network
+  - El canal se abre con capacidad limitada
+  - Bob recibe automáticamente los fondos en el canal
 explanation: |
-  La Red Lightning es un protocolo de capa 2 sobre Bitcoin. Está diseñado para permitir transacciones más rápidas mediante la creación de canales de pago fuera de la cadena.
+  Sin la firma de Bob en la transacción de retiro, Alice no puede asegurar la recuperación de sus fondos en caso de un problema, lo que representa un riesgo de pérdida.
 reviewed: false

@@ -1,10 +1,12 @@
 question: Was sollten Sie tun, wenn Sie einen Virus auf Ihrem Computer entdecken?
-answer: Trennen Sie ihn vom Internet, führen Sie einen vollständigen Virenscan durch und löschen Sie infizierte Dateien.
+answer: Trennen Sie ihn vom Internet, führen Sie einen vollständigen Antivirus-Scan durch und löschen Sie infizierte Dateien.
 wrong_answers:
-  - Verwenden Sie den Computer weiterhin normal.
-  - Schalten Sie den Computer aus und lassen Sie ihn für einige Stunden ausgeschaltet.
-  - Löschen Sie alle Dateien auf dem Computer.
+  - Den Computer normal weiterverwenden.
+  - Den Computer ausschalten und für einige Stunden ausgeschaltet lassen.
+  - Alle Dateien auf dem Computer löschen.
 explanation: |
-  Wenn Sie einen Virus auf Ihrem Computer entdecken, sollten Sie ihn vom Internet trennen, um zu verhindern, dass sich der Virus verbreitet oder mit dem Hacker kommuniziert.
-  Führen Sie dann einen vollständigen Virenscan durch und löschen Sie infizierte Dateien.
-reviewed: false
+  Wenn Sie einen Virus auf Ihrem Computer entdecken, sollten Sie
+  ihn vom Internet trennen, um zu verhindern, dass sich der Virus
+  ausbreitet oder mit dem Hacker kommuniziert. Führen Sie dann einen
+  vollständigen Antivirus-Scan durch und löschen Sie infizierte Dateien.
+reviewed: true

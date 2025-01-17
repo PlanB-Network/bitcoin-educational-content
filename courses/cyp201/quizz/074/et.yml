@@ -1,0 +1,9 @@
+question: Mida näitab tuletustee sügavusel 1 indeks /84'/?
+answer: P2WPKH standard (SegWit v0)
+wrong_answers:
+  - P2TR standard (SegWit v1)
+  - Bitcoin'i testvõrgu valuuta
+  - Bitcoin'i põhivõrgu valuuta
+explanation: |
+  Indeks /84'/ on määratletud BIP84-s, et näidata SegWit v0 standardi kasutamist P2WPKH aadressidega sügavusel 1 (tuletuse sihtmärgi tasandil).
+reviewed: false

@@ -1,0 +1,10 @@
+question: Hvorfor er det viktig å verifisere nettstedets offentlige nøkkel ved hjelp av et sertifikatsystem?
+answer: For å bekrefte nettstedets autentisitet.
+wrong_answers:
+  - For å omgå geografiske restriksjoner.
+  - For å blokkere nettannonser.
+  - For å få tilgang til nettstedet uten å bruke data.
+explanation: |
+  Å verifisere nettstedets offentlige nøkkel ved hjelp av et sertifikatsystem er viktig
+  for å bekrefte nettstedets autentisitet. Dette hjelper med å beskytte mot ondsinnede individer
+  som utgir seg for å være nettstedet og overfører data i klartekst.

@@ -1,9 +1,9 @@
-question: Co je mnemonická fráze v kontextu Bitcoin peněženky?
-answer: Je to záloha peněženky.
+question: Co znamená apostrof (') nebo h v cestě derivace?
+answer: Zpevněná derivace
 wrong_answers:
-  - Je to heslo k peněžence.
-  - Je to historie transakcí peněženky.
-  - Je to digitální podpis peněženky.
+  - Normální derivace
+  - Externí derivace
+  - Nestandardní derivace
 explanation: |
-  Mnemonická fráze je generována za účelem zajištění zálohy Bitcoin peněženky.
+  Apostrof naznačuje, že derivace je zpevněná, což vyžaduje rodičovský soukromý klíč pro generování dceřiného klíče.
 reviewed: false

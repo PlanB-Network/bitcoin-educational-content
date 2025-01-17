@@ -126,7 +126,10 @@ Bitcoinin esihistoria juontaa juurensa syvälle kybersissiläiseen liikkeeseen j
 
 Siksi Bitcoin on protokolla, joka ulottuu pitkien aikojen yli ja kannustaa meitä kyseenalaistamaan suhteemme energiaan, aikaan ja rahaan. Mutta onko Bitcoin "oikea" valuutta? Mikä on raha? Onko se olemassa monessa muodossa? Tutkimme näitä kysymyksiä seuraavassa luvussa.
 
-![Bitcoinin esihistoria](assets/posters/fr/1_prehistoiredubitcoin.webp)
+
+Jos haluat tutkia Bitcoinin historiaa tarkemmin, suosittelen lämpimästi kurssiamme HIS 201. Löydät sieltä Bitcoinin alkuperän ja sen hitaasti tapahtuneen nousun sekä sen historian ja yhteisön alkuvaiheet. Tämä kurssi on täysin dokumentoitu ja lähteistetty, mukana on tietenkin monia anekdootteja :
+
+https://planb.network/courses/his201
 
 # Raha
 
@@ -190,9 +193,7 @@ Nykyään valuutat kehittyvät edelleen, mukauttaen muotojaan vastaamaan erilais
 
 Toisaalta Bitcoin tarjoaa uusia mahdollisuuksia. Sen ominaisuudet, kuten sen tiukasti rajattu tarjonta, tarjoavat erinomaisen arvon säilyttäjänä. Lisäksi, neutraalina internet-valuuttana, se edustaa hyvää vaihdon välinettä, joka ei tunne rajoja. Se ei kuitenkaan vielä tänä päivänä ole laajalti hyväksytty kaupankäynnissä, huolimatta [jatkuvasta lisääntyvästä käyttöönotosta](https://btcmap.org/map).
 
-### Nopea yhteenveto julisteessa!
 
-![v](assets/posters/en/3._money.webp)
 
 ## Luottorahat
 
@@ -237,9 +238,11 @@ Rahan painaminen johtaa inflaatioon, vähitellen köyhdyttäen väestöä. Toisa
 Samanaikaisesti keskuspankkien digitaalisten valuuttojen, eli CBDC:iden, esiinmarssi vaikuttaa väistämättömältä. Tämä uudenlainen valuutta tarjoaisi keskitetymmän suunnitellun talouden, mikä voisi rajoittaa yksilöiden taloudellista vapautta ja helpottaa autoritaaristen väärinkäytösten toteutumista.
 Voimme päätellä tämän luvun lainauksella Nobel-palkinnon voittajalta F.A Hayekilta vuodelta 1984: "En usko, että löydämme koskaan hyvää valuuttaa, ennen kuin otamme sen pois hallituksen käsistä. Emme kuitenkaan voi väkivalloin ottaa sitä heiltä; kaikki mitä voimme tehdä, on tuoda esiin jotakin, mitä he eivät voi estää nokkelalla juonittelulla."
 
-### Nopea kertaus julisteessa!
 
-![Alt-teksti](assets/posters/en/4._fiat_currency.webp)
+
+Jos haluat oppia lisää taloudellisista harhaluuloista ja vapaudesta, suosittelen tutustumaan ECO 102 -kurssiimme. Tämä kurssi käsittelee Frédéric Bastiatin, 1800-luvun ranskalaisen ajattelijan, elämää ja ajatuksia, joka epäilemättä olisi arvostanut Bitcoinin syntyä :
+
+https://planb.network/courses/eco102
 
 ## Hyperinflaatio
 
@@ -317,9 +320,11 @@ Hyperinflaatiokriisin ratkaiseminen vaatii usein radikaaleja muutoksia, kuten va
 Yhteenvetona voidaan todeta, että hyperinflaatio johtaa nopeasti valuutan arvon heikkenemiseen, mikä puolestaan kuluttaa säästöjä ja heikentää luottamusta rahajärjestelmään. Kuten Voltaire kerran ehdotti, fiat-valuutta menettää aina lopulta sisäisen arvonsa ja lähestyy nollaa.
 "Valuutta, joka perustuu luotettuun kolmanteen osapuoleen, kuten rahoituslaitokseen, on käytännössä ja pitkällä aikavälillä viallinen valuutta, koska se ei kykene takaamaan ostovoimaa tai säilyttämään säästöjä.
 
-### Nopea kertaus julisteessa!
 
-![Alt-teksti](assets/posters/en/5._hyperinflation.webp)
+
+Jos haluat syventyä hyperinflaatioihin, suosittelen David St-Ongen ECO 204 -kurssia. Kurssilla opit, mitä hyperinflaatiokierrot ovat ja miten ne vaikuttavat elämäämme. Löydät myös näiden kierrosten samankaltaisuudet ja ennen kaikkea, kuinka suojautua niiltä:
+
+https://planb.network/courses/eco204
 
 ## 21 miljoonaa bitcoinia
 
@@ -403,9 +408,7 @@ Bitcoinin suunnittelu takaa äänen rahahallinnon rajoittamalla sen luomista ja 
 
 Yhteenvetona Bitcoin tarjoaa ainutlaatuisen vaihtoehdon perinteisille rahajärjestelmille sen hajautetun luonteen, ohjelmoidun niukkuuden ja läpinäkyvyyden ansiosta. Se osoittaa, miten teknologiaa voidaan käyttää luomaan valuutta, joka ei ole vain hyödyllinen ja todennettavissa, vaan myös säilyttää käyttäjien säästöjen arvon rajoittamalla tiukasti sen tarjontaa.
 
-### Nopea yhteenveto julisteessa!
 
-![Alt-teksti](assets/posters/en/6._21_millions.webp)
 
 ### Luvun 1 yhteenveto!
 
@@ -471,9 +474,11 @@ Näin ollen Bitcoin-lompakkosi hakkeroinnin todennäköisyys on astronomisen pie
 
 Valitse lompakko, joka sopii tarpeisiisi ja käyttötarkoitukseesi. Yksityiskohtaisia ohjeita eri lompakoiden käytöstä ja turvaamisesta on saatavilla [yliopistomme opetusosiossa](https://planb.network/tutorials/wallet).
 
-### Nopea yhteenveto julisteena!
 
-![Vaihtoehtoinen teksti](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
+
+Jos haluat matkallasi alas kaninkoloon oppia lisää Bitcoin-lompakon rakentamisesta entropiasta vastaanotto-osoitteisiin asti, suosittelen tähän aiheeseen omistettua kurssia CYP 201:
+
+https://planb.network/courses/cyp201
 
 ## Turvallisuus ja Bitcoin-lompakot
 
@@ -502,11 +507,27 @@ Yritetään määrittää useita turvallisuustasoja bitcoineillesi:
 
 - **Taso 1**, käytät Bitcoin-lompakkoa puhelimessasi tai tietokoneellasi, jossa olet bitcoineidesi ainoa haltija. Voit helposti suorittaa transaktiosi. On kuitenkin ratkaisevan tärkeää varmuuskopioida muistilauseesi, jotta voit palauttaa pääsyn varoihisi, jos menetät puhelimesi tai tietokoneesi. Tätä kutsutaan usein "kuumaksi lompakoksi", koska yksityinen avain säilytetään laitteessa, jolla on internetyhteys.
 
+Esimerkiksi voit käyttää Sparrow Walletia kuumana lompakkona:
+
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+
 - **Taso 2**, käytät fyysistä lompakkoa, ja olet turvannut 12 tai 24 sanan listasi. Transaktion suorittamiseksi sinun on aina allekirjoitettava laitteellasi. Tämä tekee varoistasi vähemmän saavutettavia päivittäisessä käytössä. Tätä kutsutaan usein "kylmäksi lompakoksi", koska avaimet säilytetään laitteessa, joka ei ole yhteydessä internetiin.
+
+Esimerkiksi voit käyttää Ledgeriä, Satochipiä tai Tapsigneria:
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![kuva](assets/en/chapter6/4.webp)
 
 - **Taso 3**, käytät tason 1 tai 2 lompakkoa, mutta lisäsalasanalla. Ole tietoinen siitä, että sinun on nyt varmuuskopioitava sekä 12 tai 24 sanan lista **että** salasanasi. Ihanteellisesti nämä kaksi tietoa säilytetään kahdessa eri paikassa.
+
+Lisätietoja BIP39-salasanan käytöstä ja toiminnasta:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![kuva](assets/en/chapter6/5.webp)
 
@@ -523,9 +544,7 @@ Yhteenvetona voidaan todeta, että suoran omistajuuden omaaminen bitcoineista on
 
 Nyt kun tämä on mielessä, siirrytään seuraavaan osioon nähdäksemme vaiheet Bitcoin-lompakon luomiseen. Jos haluat kuitenkin tutkia turvallisuusaihetta tarkemmin, voit lukea tämän [artikkelin DarthCoinilta](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
-### Nopea yhteenveto julisteessa!
 
-![Alt-teksti](assets/posters/en/9._choose_the_right_wallet.webp)
 
 ## Lompakon asettaminen
 
@@ -562,9 +581,11 @@ Kun kopiot on tehty, säilytä sanalistat turvallisessa paikassa, josta muistat 
 > "Kylmät" lompakot sisältävät yleensä nämä sanalistat, aivan kuten "kuumat" lompakot mobiilissa tai PC:ssä. Tämä yksityisen avaimen varmuuskopioinnin menetelmä on nyt standardi. Tämä tarkoittaa, että voit syöttää mnemonisen lauseesi mihin tahansa lompakko-ohjelmistoon palauttaaksesi omasi. Vain huonot lompakot, joita me voimakkaasti suosittelemme välttämään, eivät anna sinulle 24 sanan listaa, mutta saattavat pyytää tiliä, sähköpostiosoitetta tai pahempaa, henkilötunnusta.
 > **HUOMIO: 24 sanan listan puuttuminen tulisi herättää huolesi.**
 
-### Nopea kertaus julisteessa!
 
-![Alt-teksti](assets/posters/en/10._set_up_your_wallet.webp)
+
+Jos haluat sen jälkeen vaihe vaiheelta oppia, kuinka perustaa oma lompakkosi ja hankkia ensimmäiset bitcoinisi, suosittelen myös tätä toista kurssia:
+
+https://planb.network/courses/btc102
 
 ## Kestää aikaa
 
@@ -596,9 +617,7 @@ Yksityisyyden suhteen on ratkaisevan tärkeää välttää puhumasta kaikille bi
 
 Samassa hengessä vältä paljastamasta äänekkäästi turvajärjestelmääsi bitcoin-tapaamisissa tai kohtaamisissa vieraiden kanssa...
 
-### Nopea kertaus julisteessa!
 
-![Alt-teksti](assets/posters/en/19._think_long_term.webp)
 
 ### Yhteenveto Bitcoin-lompakon turvallisuudesta
 
@@ -667,9 +686,7 @@ Jos haluat tietää enemmän Satoshi Nakamoton kirjoituksista, suosittelen [Phil
 
 Nyt kun meillä on taustatietoa, katsotaanpa, miten Bitcoin-siirto yleisesti toimii.
 
-### Nopea kertaus julisteessa!
 
-![Alt-teksti](assets/posters/en/7._lancement_bitcoin.webp)
 
 ## Bitcoin-siirrot
 
@@ -716,9 +733,7 @@ Tässä vaiheessa siirtoa pidetään kelvollisena, louhija levittää sitten uud
 
 > Huomio: Vaikka Alice näkee, että hän on saanut bitcoineja yhdelle osoitteistaan, on suositeltavaa pitää siirtoa muuttumattomana vasta, kun se on saanut 6 vahvistusta. Tämä tarkoittaa, että 6 muuta lohkoa on louhittu lohkon päälle, joka sisältää Bobin siirron. Toisin sanoen, mitä vanhempi siirto on lohkoketjussa, sitä muuttumattomammaksi se tulee.
 
-### Nopea kertaus julisteessa!
 
-![Selitys siirrosta](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
 ### Mikä on kaiken tämän tarkoitus?
 
@@ -776,9 +791,7 @@ Esimerkiksi, jos lohkot olisivat 100 kertaa raskaampia, voisimme varmasti tehdä
 Tämä tilanne ei ole niin hypoteettinen, sillä vuosi 2017 oli merkittävä intensiivisen kiistan vuoksi, joka tunnetaan nimellä "lohkosota". Tämä konflikti asetti vastakkain toimijat, jotka halusivat muuttaa Bitcoinia kasvattamalla lohkon kokoa lisätäkseen transaktiokapasiteettia, ja ne, jotka pyrkivät säilyttämään käyttäjien itsenäisyyden ja vallan. Lopulta käyttäjät ja solmut voittivat hylkäämällä ehdotetun muutoksen, jonka olivat aloittaneet louhijat, vaihtoalustat ja instituutiot.
 Tämän voiton jälkeen solmut aktivoivat päivityksen nimeltä SegWit, joka avasi tien Lightning Networkin käyttöönotolle, välittömälle Bitcoin-maksuverkolle, joka käyttää Bitcoinin lohkoketjua. Tämä tilanne osoittaa, että käyttäjät solmujensa kautta pitävät todellista valtaa Bitcoinissa, mahdollistaen heidän vastustavan suuria instituutioita.
 
-### Yhteenveto julisteessa!
 
-![Bitcoin-solmut](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Louhijat
 
@@ -848,9 +861,11 @@ Jopa 51% hyökkäyksen tapauksessa, mikä tarkoittaa, että agentti omistaa yli 
 
 Pelin teoria, sovellettuna Bitcoiniin, eliminoi epärehelliset louhijat. Louhijat käyttävät ASIC-laitteita louhintaan ja saavat palkkion onnistuessaan. Lisäksi he usein liittyvät louhintapooliin jakamaan laskentatehonsa ja saamaan pienempiä, mutta säännöllisempiä palkkioita. Bitcoinin louhinta on prosessi, jolla on korkea energiakustannus, mutta se on olennaisen tärkeää Bitcoin-verkon toiminnan ja turvallisuuden kannalta. Työn todistaminen ja lohkoketju ratkaisevat kaksoiskulutuksen ongelman ja takaavat tiedon totuudenmukaisuuden ilman luotettua kolmatta osapuolta. Energiankulutus on tarpeen tiedon tuottamiseksi, mutta tiedon vahvistamisen kustannus on merkityksetön. Tämä epäsymmetria takaa verkon turvallisuuden. Siksi konsensus sääntöjen noudattaminen on taloudellisesti järkevämpää kuin niiden rikkominen.
 
-### Nopea yhteenveto julisteessa!
 
-![louhijat](assets/posters/fr/13_explication_des_mineurs_crop.webp)
+
+Jos haluat syventyä tarkemmin Bitcoinin louhintaan, voit tutustua kurssiimme MIN 201. Kurssilla opit Proof-of-Workin toiminnan ja roolin sekä louhintateollisuuden toiminnan. Selitämme myös, kuinka voit muuntaa ASIC:n lämmityslaitteeksi louhiaksesi ensimmäiset satoshisi ja samalla lämmittääksesi kotiasi!
+
+https://planb.network/courses/min201
 
 ## Bitcoin ja ekologia
 
@@ -895,9 +910,7 @@ Bitcoinin teknologiaa usein väärinymmärretään, ja sen ympäristövaikutuksi
 
 > Noudata yhtä Bitcoinin periaatteista: Älä luota, varmista itse!
 
-### Nopea yhteenveto julisteessa!
 
-![Bitcoin & ekologia](assets/posters/fr/14_minage_et_ecologie_crop.webp)
 
 ### Lyhyt yhteenveto Bitcoinin teknisistä näkökohdista
 
@@ -959,9 +972,7 @@ Nämä spekulatiivisten kuplien syklit ovat melko ainutlaatuisia maailmassa, sil
 
 Tänään, vuonna 2023, Bitcoin jatkaa selviytymistään ja kasvuaan integroitumalla yhä enemmän perinteiseen markkinaan. Bitcoin ETF:ien tuleva saapuminen, selkeämpi sääntely ja paremmat hankinta- tai säilytystyökalut vain rohkaisevat tätä suuntausta. Bitcoin on JÄLLEEN selvinnyt spekulatiivisesta kuplastaan, joten ehkä se ei olekaan pelkkää höyryä!
 
-### Nopea yhteenveto julisteessa!
 
-![Alt text](assets/posters/en/15._bitcoinr_never_sleeps.webp)
 
 ## Bitcoinien hankkiminen työskentelemällä
 
@@ -989,12 +1000,18 @@ Bitcoinin hyväksymiseksi on tarpeen tutkia eri saatavilla olevia ratkaisuja ja 
 Käsittelemme tätä aihetta yksityiskohtaisemmin toisessa koulutuksessa, mutta yksinkertaistaaksemme voimme harkita useita yritystyyppejä ja siten niihin liittyviä ratkaisuja:
 
 - Yksinkertainen online-ratkaisu: OpenNode
-- Ratkaisu harrastelijakauppiaille: Swiss Bitcoin Pay
-- Ratkaisu suurille rakenteille tai intohimoisille bitcoinereille: BTCpay Server
 
-### Nopea yhteenveto julisteessa!
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-![Alt-teksti](assets/posters/en/17._earn_your_bitcoin.webp)
+- Ratkaisu harrastajakauppiaille: Swiss Bitcoin Pay
+
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
+- Ratkaisu suurille yrityksille tai intohimoisille bitcoinaajille: BTCpay Server
+
+https://planb.network/courses/btc305
+
+
 
 ## Säästäminen Bitcoinilla
 
@@ -1083,9 +1100,7 @@ Lisäksi on olemassa useita [markkinapaikkoja](https://planb.network/tutorials/e
 ![kuva](assets/en/chapter15/3.webp)
 On tärkeää huomata, että verot saattavat tulla sovellettaviksi alueellasi. Kehotamme sinua tutustumaan maasi säädöksiin ennen minkään toimenpiteen toteuttamista, joka saattaisi asettaa sinut riskiin.
 
-### Nopea kertaus julisteessa!
 
-![Alt-teksti](assets/posters/en/16._saving_in_bitcoin.webp)
 
 ## Hyper-bitcoinisaatio
 
@@ -1111,9 +1126,7 @@ Jos haluat laajentaa tietämystäsi Bitcoinista, suuri joukko kirjailijoita, aja
 
 > Milton Friedman, tunnettu taloustieteilijä, ennusti vuonna 1999: "Luulen, että Internet tulee olemaan yksi merkittävimmistä voimista hallituksen roolin vähentämisessä. Ainoa asia, joka puuttuu, mutta joka pian kehitetään, on luotettava e-raha - menetelmä, jonka avulla Internetissä voit siirtää varoja A:sta B:hen ilman, että A tietää B:stä tai B tietää A:sta."
 
-### Nopea kertaus julisteessa!
 
-![Alt-teksti](assets/posters/en/18._hyperbitcoinization.webp)
 
 # Bitcoinin tulevaisuus: Salamaverkko
 
@@ -1156,9 +1169,11 @@ Transaktiot turvataan kryptografian kautta ja epäsuorasti Bitcoinin louhijoiden
 
 Yhteenvetona, Lightning Network on lupaava yritys kehittää tehokas maksujärjestelmä Bitcoinin transaktioihin. Markkinoilla on jo lukuisia Lightning-lompakoita, joita voit tutustua opetusosiossamme tai Lightning Network -koulutuksemme kautta.
 
-### Nopea yhteenveto julisteessa!
 
-![Alt-teksti](assets/posters/en/20._lightning_network.webp)
+
+Jos haluat syventyä tätä johdantoa pidemmälle ja ymmärtää Lightning Networkin toiminnan kaikki yksityiskohdat, suosittelen Fanis Michalakisin erinomaista kurssia tästä aiheesta:
+
+https://planb.network/courses/lnp201
 
 ## Lightning-verkon käyttötapaukset
 
@@ -1192,9 +1207,7 @@ Tällaisessa järjestelmässä raha jaetaan automaattisesti, ennalta määritell
 ![kuva](assets/en/chapter19/3.webp)
 Yhteenvetona voidaan todeta, että Lightning Network avaa lukuisia jännittäviä käyttötapauksia Bitcoin-käyttäjille. Syntyvät taloudelliset mallit ja liiketoimintamahdollisuudet ovat lukuisia ja moninaisia. Kannustamme sinua kokeilemaan sitä itse kokeilemalla podcast-sovellusta [Fountain](https://www.fountain.fm/), joka mahdollistaa sinun saada palkkiona muutamia satosheja kuunnellessasi lempipodcastejasi!
 
-### Pikakatsaus julisteessa!
 
-![Alt-teksti](assets/posters/en/21._ln_use_cases.webp)
 
 ## Punainen vai sininen pilleri?
 
@@ -1202,7 +1215,6 @@ Yhteenvetona voidaan todeta, että Lightning Network avaa lukuisia jännittävi�
 
 Kuten Morpheus sanoi Neolle: "Jos otat sinisen pillerin, tarina päättyy, heräät sängyssäsi ja uskot mitä haluat uskoa. Jos otat punaisen pillerin, pysyt Ihmemaassa, ja minä näytän kuinka syvälle kaninkolo johtaa." Oletko valmis tutkimaan Bitcoinin kaninkoloa? Ole varovainen, sillä saatat löytää uudelleen taloudellisen vapaudesi!
 
-![punainen pilleri](assets/posters/fr/2_pilluleorange.webp)
 
 ### Teknologinen tulevaisuus ja sen seuraukset
 
@@ -1259,34 +1271,21 @@ Bitcoinia ei voi enää pysäyttää eikä sensuroida. Se on rauhanomainen valla
 
 Rahoitusjärjestelmän muuttaminen edellyttää valuutan muuttamista. Satoshi loi Bitcoinin vuonna 2008 ehdottaakseen yritystä tähän. Helppoon ja "taianomaiseen" rahaan pääsy turmelee. Bitcoin on siis vaihtoehto uuden neutraalin rahajärjestelmän rakentamiseen. Bitcoin mahdollistaa irtautumisen pankkijärjestelmästä. Se on sosiaalinen ilmiö, joka johdattaa meidät osallistumaan rauhanomaiseen vallankumoukseen. Oletko valmis liittymään?
 
-## Kiitokset ja jatka kaninkolon tutkimista
+# Yhteenveto
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Mene pidemmälle
-
-Onnittelut BTC 101 -kurssin suorittamisesta! Toivon vilpittömästi, että nautit siitä ja se avasi sinulle uusia ovia. Bitcoinin löytäminen on vasta alussa, ja kutsun sinut tutustumaan yliopistossa tarjolla oleviin muihin kursseihin.
-
-- [BTC 102](https://planb.network/courses/btc102) auttaa sinua luomaan bitcoin-suunnitelmasi
-- [LNP 201](https://planb.network/courses/lnp201) antaa sinulle mahdollisuuden tutustua Lightning Networkiin, toisen kerroksen maksuverkkoon
-- [ECO 201](https://planb.network/courses/eco201) kattaa itävaltalaisen taloustieteen
-- [SCU 101](https://planb.network/courses/scu101) auttaa sinua päivittämään digitaalisen turvallisuutesi
-- [MIN 201](https://planb.network/courses/min201) oppiaksesi lisää louhinnasta
-- ja paljon muuta...
-
-## Arvioi kurssi
+## Arviot & Arvosanat
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Loppukoe
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Yhteenveto
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
-**Onnittelut kurssin suorittamisesta!**
-
-Huomaathan, että tämä luku on parhaillaan työn alla, ja parannettu versio julkaistaan pian. Sillä välin, jos olet innokas jatkamaan Bitcoin-matkaasi, kutsumme sinut tutustumaan muihin alustamme kursseihin ja opetusmateriaaleihin. Jatka hyvää työtä ja hauskaa oppimista!
+<isCourseConclusion>true</isCourseConclusion>

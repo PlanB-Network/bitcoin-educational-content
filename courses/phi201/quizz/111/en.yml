@@ -1,0 +1,9 @@
+question: According to Keynes, what is the role of money in the economy?
+answer: An instrument of economic policy
+wrong_answers:
+  - A mere means of exchange
+  - A brake on growth
+  - A tool for speculation
+explanation: |
+  For Keynes, money is a lever of economic policy that allows governments to regulate the economy by influencing investment, employment, and overall demand.
+reviewed: false

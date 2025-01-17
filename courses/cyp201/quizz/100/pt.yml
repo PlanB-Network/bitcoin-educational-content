@@ -1,9 +1,0 @@
-question: Qual é o papel do código de cadeia mestre na organização hierárquica e derivação da carteira HD?
-answer: Ele desempenha um papel importante na recuperação da carteira a partir da semente.
-wrong_answers:
-  - É usado para gerar a semente.
-  - É usado para derivar chaves filhas.
-  - É usado para criptografar a carteira.
-explanation: |
-  O código de cadeia mestre é essencial para recuperar a carteira a partir da semente. Todas as chaves derivadas da mesma semente terão o mesmo código de cadeia mestre.
-reviewed: false

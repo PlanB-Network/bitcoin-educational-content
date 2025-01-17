@@ -1,9 +1,9 @@
 question: Quel est le but des frais de transaction dans les transactions Bitcoin ?
-answer: Ils sont une incitation pour les mineurs à inclure la transaction dans le prochain bloc.
+answer: Ils constituent une incitation pour les mineurs à inclure la transaction dans le bloc suivant.
 wrong_answers:
-  - Ils sont une taxe imposée par le gouvernement.
+  - Ils représentent une taxe imposée par le gouvernement.
   - Ils sont des frais facturés par le réseau Bitcoin pour l'utilisation de ses services.
   - Ils sont des frais facturés par le fournisseur de portefeuille.
 explanation: |
   Les frais de transaction dans les transactions Bitcoin servent d'incitation pour les mineurs à inclure la transaction dans le prochain bloc. Les frais créent un marché libre pour l'inclusion des transactions dans les blocs.
-reviewed: false
+reviewed: true

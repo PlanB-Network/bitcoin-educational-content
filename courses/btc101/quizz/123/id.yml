@@ -1,0 +1,10 @@
+question: Apa nomor blok dari transaksi Bitcoin pertama?
+answer: Blok 170
+wrong_answers:
+  - Blok 1
+  - Blok 17
+  - Blok 1700
+explanation: |
+  Transaksi Bitcoin pertama, yang merupakan transaksi 10 BTC antara
+  Satoshi Nakamoto dan Hal Finney, tercatat dalam blok 170.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Kuinka monta bitcoinia (suunnilleen) Satoshi Nakamoto louhi yhteensä?
+answer: 1,100,000
+wrong_answers:
+  - 11,000,000
+  - 110,000
+  - 11,000
+explanation: |
+   1,122,693 bitcoinia Whale Alertin vuonna 2020 julkaiseman tutkimuksen mukaan. Satoshi lopetti louhintatoimintansa toukokuussa 2010.
+reviewed: false

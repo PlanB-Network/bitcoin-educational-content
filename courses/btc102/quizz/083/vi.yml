@@ -5,5 +5,5 @@ wrong_answers:
   - Nó cho phép giao dịch ẩn danh.
   - Nó cung cấp một nền tảng cho việc giao dịch Bitcoin.
 explanation: |
-  Lightning Network là một giao thức thanh toán "lớp 2" hoạt động trên cơ sở của một loại tiền mã hóa dựa trên blockchain như Bitcoin. Nó được thiết kế để cho phép các giao dịch nhanh chóng, chi phí thấp.
+  Lightning Network là một giao thức thanh toán lớp 2 hoạt động trên cơ sở của một loại tiền mã hóa dựa trên blockchain như Bitcoin. Nó được thiết kế để cho phép các giao dịch nhanh chóng, chi phí thấp.
 reviewed: false

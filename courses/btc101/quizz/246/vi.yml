@@ -1,12 +1,13 @@
 question: Mối liên hệ của Bitcoin với tương lai của công nghệ và xã hội là gì?
-answer: Bitcoin là một cuộc cách mạng công nghệ cho các phương thức tổ chức quy mô lớn mới, cho phép việc trao đổi giá trị mà không cần bất kỳ bên thứ ba đáng tin cậy nào.
+
+answer: Bitcoin là một cuộc cách mạng công nghệ cho phép việc trao đổi giá trị mà không cần bất kỳ bên thứ ba đáng tin cậy nào.
+
 wrong_answers:
-  - Bitcoin là một dạng của công nghệ AI.
-  - Bitcoin là công cụ để kiểm soát dân số thế giới.
-  - Bitcoin là phương pháp cho các chính phủ theo dõi giao dịch tài chính của công dân.
-explanation: >-
-  Văn bản giải thích rằng Bitcoin, giống như internet đối với các phương thức
-  giao tiếp,
-  là một cuộc cách mạng công nghệ cho các phương thức tổ chức quy mô lớn mới, mang lại
-  cho chúng ta khả năng trao đổi giá trị mà không cần bất kỳ bên thứ ba đáng tin cậy nào.
-reviewed: false
+  - Bitcoin là một dạng công nghệ AI cho phép mọi người trao đổi thông tin qua một máy chủ trung tâm.
+  - Bitcoin là công cụ để kiểm soát dân số thế giới, cho phép loại bỏ nghèo đói.
+  - Bitcoin là phương pháp cho các chính phủ theo dõi các giao dịch tài chính của công dân.
+
+explanation:
+  Văn bản giải thích rằng Bitcoin, giống như internet đối với phương tiện giao tiếp, là một cuộc cách mạng công nghệ tạo ra cơ hội cho các hình thức tổ chức quy mô lớn mới, mang lại khả năng trao đổi giá trị mà không cần bất kỳ bên thứ ba đáng tin cậy nào.
+
+reviewed: true

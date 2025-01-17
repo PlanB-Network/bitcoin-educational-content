@@ -1,9 +1,0 @@
-question: Jaká je společná vlastnost všech P2P řešení diskutovaných v kapitole?
-answer: Všechna usnadňují nákup a prodej Bitcoinu.
-wrong_answers:
-  - Všechna používají Lightning Network.
-  - Všechna vyžadují účet pro provoz.
-  - Všechna mají systém DAO.
-explanation: |
-  Kapitola diskutuje různá P2P řešení pro nákup Bitcoinu, ale ne všechna z nich sdílejí stejné vlastnosti. Společnou vlastností mezi všemi je, že usnadňují nákup a prodej Bitcoinu.
-reviewed: false

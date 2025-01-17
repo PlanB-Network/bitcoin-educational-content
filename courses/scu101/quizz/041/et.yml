@@ -1,0 +1,13 @@
+question: Mis on eelis kasutades ise majutatud paroolihaldurit nagu Bitwarden või KeePass?
+answer: Saate kontrollida, kus teie paroolid on salvestatud, pakkudes rohkem turvalisust ja kontrolli.
+wrong_answers:
+  - Need on lihtsamini kasutatavad kui kolmanda osapoole teenused.
+  - Need pakuvad rohkem funktsioone kui kolmanda osapoole teenused.
+  - Need on odavamad kui kolmanda osapoole teenused.
+explanation: |
+  Ise majutatud paroolihaldurid nagu Bitwarden või KeePass võimaldavad teil
+  
+  kontrollida, kus teie paroolid on salvestatud, potentsiaalselt pakkudes rohkem turvalisust ja
+  
+  kontrolli. Siiski võib nende kasutamine nõuda rohkem tehnilisi teadmisi.
+reviewed: false

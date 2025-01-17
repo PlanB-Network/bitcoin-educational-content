@@ -211,5 +211,5 @@ https://armantheparman.com/ledgersparrow/
 
 Để tìm hiểu sâu hơn về chủ đề này và tăng cường bảo mật cho ví của bạn trên Ledger Nano với passphrase BIP39, tôi mời bạn tham khảo hướng dẫn toàn diện này:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 

@@ -1,0 +1,9 @@
+question: What type of attack can a sequence number prevent in a secure communication session?
+answer: Replay and reordering attacks
+wrong_answers:
+  - Passive interception attacks
+  - Denial of service attacks
+  - Key spoofing attacks
+explanation: |
+  A sequence number in each message prevents replay and reordering attacks, as it allows for the verification of the order and uniqueness of messages.
+reviewed: false

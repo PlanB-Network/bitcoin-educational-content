@@ -1,0 +1,9 @@
+question: Perché RC4 è classificato come un cifrario a flusso sincrono?
+answer: Il flusso chiave è indipendente dal testo in chiaro e dal testo cifrato
+wrong_answers:
+  - Il flusso chiave dipende dai valori del testo cifrato precedente
+  - Il testo in chiaro deve essere integrato nel flusso chiave
+  - Utilizza un flusso chiave basato esclusivamente sul testo in chiaro
+explanation: |
+  RC4 è un cifrario a flusso sincrono perché il suo flusso chiave dipende solo dalla chiave iniziale e non dal testo in chiaro o dal testo cifrato, garantendo l'indipendenza di questo flusso dai messaggi.
+reviewed: false

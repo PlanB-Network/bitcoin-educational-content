@@ -1,0 +1,8 @@
+question: Bagaimana cara mencegah pengeluaran ganda pada Bitcoin?
+answer: Melalui penyiaran publik semua transaksi sistem.
+wrong_answers:
+  - Dengan memverifikasi identitas pengguna sebelum setiap transaksi.
+  - Dengan secara berkala meninjau transaksi oleh auditor.
+  - Dengan membatasi jumlah transaksi per pengguna.
+explanation: |
+  Untuk mengonfirmasi ketiadaan transaksi, dan dengan demikian menghindari pengeluaran ganda, diperlukan agar setiap pengguna mengetahui semua transaksi sebelumnya.

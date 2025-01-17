@@ -1,11 +1,11 @@
-question: Hậu quả tiềm ẩn của việc cấm đào coin ở một khu vực là gì?
-answer: Có thể dẫn đến sự sụt giảm đáng kể về hashrate và giá của Bitcoin
+question: Tác động tiềm năng của việc cấm đào coin ở một khu vực là gì?
+answer: Có thể dẫn đến sự giảm đáng kể về hashrate và giá của Bitcoin
 wrong_answers:
-  - Có thể dẫn đến việc tăng giá của Bitcoin
-  - Có thể dẫn đến việc tăng hashrate của mạng
-  - Có thể dẫn đến việc tăng số lượng nút hoạt động trong mạng
+  - Có thể dẫn đến sự tăng giá của Bitcoin
+  - Có thể dẫn đến sự tăng hashrate của mạng lưới
+  - Có thể dẫn đến sự tăng số lượng nút hoạt động trong mạng lưới
 explanation: |
-  Việc cấm đào coin ở một khu vực, như trường hợp đã xảy ra ở Trung Quốc, có thể dẫn đến
-  sự sụt giảm đáng kể về hashrate và giá của Bitcoin. Tuy nhiên, những chỉ số này có thể nhanh chóng
-  phục hồi.
-reviewed: false
+  Việc cấm đào coin ở một khu vực, như trường hợp đã xảy ra ở Trung Quốc,
+  có thể dẫn đến sự giảm đáng kể về hashrate và giá của Bitcoin. Tuy nhiên,
+  những chỉ số này có thể nhanh chóng phục hồi.
+reviewed: true

@@ -1,11 +1,12 @@
-question: How does the Bitcoin protocol reward the miner who finds a valid hash for the next block?
-answer: With a reward defined by the consensus rules and the transaction fees from all transactions included in the valid block
+question: How does the Bitcoin protocol reward the miner who finds a valid hash for the subsequent block?
+answer: With a reward defined by consensus rules, and with the fees from all the transactions included in the valid block.
 wrong_answers:
-  - With a fixed amount of Bitcoin
-  - With a percentage of the total Bitcoin supply
-  - With the transaction fees from all transactions included in the valid block
-explanation: >-
-  The Bitcoin protocol rewards the miner who finds a valid hash for the
-  next block with a reward whose amount is defined by the consensus rules, as well
-  as the transaction fees from all transactions included in the valid block.
-reviewed: false
+  - With a fixed amount of bitcoins not defined by consensus rules.
+  - With a percentage of the total Bitcoin supply and the fees from all the transactions included in the previous blocks.
+  - With the fees from all the transactions included in the valid block.
+explanation: |
+  The Bitcoin protocol rewards the miner who finds a valid
+  hash for the subsequent block with a reward whose amount is
+  defined by the consensus rules, together with the fees from
+  all transactions included in the valid block.
+reviewed: true

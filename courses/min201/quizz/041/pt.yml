@@ -1,11 +1,13 @@
-question: Qual é o debate dentro da comunidade Bitcoin em relação à mineração?
-answer: O debate dentro da comunidade Bitcoin em relação à mineração gira em torno do equilíbrio entre buscar lucro e contribuir para a segurança e distribuição da rede Bitcoin. Existem argumentos fortes de ambos os lados do debate.
+question: Qual é o debate dentro da comunidade Bitcoin a respeito da mineração?
+answer: O equilíbrio entre buscar lucro e contribuir para a segurança e distribuição da rede Bitcoin
 wrong_answers:
   - O equilíbrio entre aumentar a taxa de hash e diminuir o número de nós ativos
   - O equilíbrio entre aumentar o preço e diminuir o custo
   - O equilíbrio entre aumentar o número de transações e diminuir o consumo de energia
 explanation: |
-  O debate dentro da comunidade Bitcoin sobre mineração gira em torno
-  do equilíbrio entre buscar lucro e contribuir para a segurança e distribuição
-  da rede Bitcoin. Há argumentos fortes de ambos os lados do debate.
-reviewed: false
+  O debate dentro da comunidade Bitcoin a respeito da mineração
+  gira em torno do equilíbrio entre buscar lucro e
+  contribuir para a segurança e distribuição da
+  rede Bitcoin. Existem argumentos fortes dos dois lados
+  do debate.
+reviewed: true

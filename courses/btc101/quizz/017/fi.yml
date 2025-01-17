@@ -1,11 +1,11 @@
 question: Mitä Bitcoin symboloi teknologiansa ulkopuolella?
 answer: Vallankumousta perinteisiä rahoitusjärjestelmiä vastaan ja vaihtoehtoa, joka perustuu läpinäkyvyyteen, hajautukseen ja yksilön suvereniteettiin.
 wrong_answers:
-  - Uudenlainen digitaalinen valuutta, joka on tehokkaampi kuin perinteiset valuutat.
-  - Keino, jonka avulla yksilöt voivat ansaita rahaa louhimalla.
+  - Uudenlaista digitaalista valuuttaa, joka on tehokkaampi kuin perinteiset valuutat, koska se on nopeampi.
+  - Keinoa, jonka avulla yksilöt voivat ansaita rahaa louhimalla.
   - Työkalu rikollisille suorittaa laittomia transaktioita.
 explanation: |
-  Teknologiansa ulkopuolella Bitcoin symboloi vallankumousta perinteisiä
-  rahoitusjärjestelmiä vastaan, sillä protokolla mahdollisti uuden rahajärjestelmän ilman
-  keskitettyä toimijaa.
-reviewed: false
+  Teknologiansa ulkopuolella Bitcoin symboloi vallankumousta
+  perinteisiä rahoitusjärjestelmiä vastaan: protokolla
+  mahdollistaa uuden rahajärjestelmän ilman keskitettyä tahoa.
+reviewed: true

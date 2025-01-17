@@ -1,12 +1,9 @@
-question: Peut-on tricher en publiant un ancien état dans une transaction d'engagement ?
-answer: Oui
+question: Que se passe-t-il si un paiement via HTLC n'est pas complété dans le délai imparti ?
+answer: Le paiement est annulé et les fonds retournent à l'émetteur
 wrong_answers:
-  - Non
-  - Seulement s'ils ont la clé de révocation.
-  - Seulement s'ils ont créé la transaction avec le verrouillage temporel.
+  - Le paiement est conservé par le dernier nœud intermédiaire
+  - Les fonds sont distribués à tous les nœuds du chemin
+  - Les fonds sont bloqués définitivement
 explanation: |
-  On peut tricher en publiant un ancien état dans une transaction d'engagement
-  car les deux participants ont la pré-signature de la transaction non publiée.
-  Cependant, des mesures telles que le verrouillage temporel et la clé de révocation sont mises en place pour empêcher
-  cela.
+  Si un HTLC expire sans que le secret ne soit révélé, le paiement est annulé et les fonds reviennent à l'émetteur, empêchant ainsi tout nœud intermédiaire de conserver les fonds.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Hvor mange bits er sjekksummen for en entropi på 128 bits?
+answer: 4 bits
+wrong_answers:
+  - 8 bits
+  - 16 bits
+  - 6 bits
+explanation: |
+  Lengden på sjekksummen beregnes ved hjelp av formelen CS = ENT / 32, som tilsvarer 4 bits for en entropi på 128 bits.
+reviewed: false

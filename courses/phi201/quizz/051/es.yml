@@ -1,0 +1,9 @@
+question: Según San Agustín, ¿cuáles son las dos ciudades que coexisten en el mundo?
+answer: La Ciudad de Dios y la Ciudad Terrenal.
+wrong_answers:
+  - La ciudad de los hombres y la ciudad de los dioses.
+  - La ciudad de los santos y la ciudad de los pecadores.
+  - La ciudad universitaria y la ciudad de los ángeles.
+explanation: |
+  San Agustín describe dos ciudades coexistiendo en el mundo: la Ciudad de Dios, orientada hacia Dios y la vida espiritual, y la Ciudad Terrenal, centrada en las preocupaciones humanas y los asuntos materiales, cada una siguiendo objetivos distintos.
+reviewed: false

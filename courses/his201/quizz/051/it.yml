@@ -1,0 +1,9 @@
+question: Quale vulnerabilità, segnalata da ArtForz il 28 luglio 2010, permetteva di spendere bitcoin da qualsiasi indirizzo utilizzando uno script specifico?
+answer: Il bug 1 RETURN
+wrong_answers:
+  - Il bug dell'overflow di valore
+  - Il bug OP_NOP
+  - Il bug LSHIFT
+explanation: |
+  La falla non è stata sfruttata. Satoshi ha rapidamente incluso la correzione nel software e ha raccomandato a tutti gli utenti di aggiornare.
+reviewed: false

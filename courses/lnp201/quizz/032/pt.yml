@@ -1,9 +1,9 @@
-question: O que acontece quando uma nova transação de compromisso é criada?
-answer: Um novo segredo é decidido e uma nova chave de revogação é criada, e a transação de compromisso anterior deve ser destruída ao fornecer o segredo de revogação.
+question: Qual é o papel das taxas de roteamento na Lightning Network?
+answer: Incentivar nós intermediários a fornecerem sua liquidez para a transferência de pagamentos
 wrong_answers:
-  - A transação de compromisso anterior é mantida como backup.
-  - Um novo Timelock é criado e a transação de compromisso anterior é atualizada.
-  - A transação de compromisso anterior é atualizada com o novo segredo e a chave de revogação.
+  - Limitar o número de transações na rede
+  - Garantir que cada canal tenha fundos suficientes
+  - Calcular automaticamente o caminho mais curto
 explanation: |
-  Quando uma nova transação de compromisso é criada, um novo segredo e uma nova chave de revogação são decididos. A transação de compromisso anterior deve ser destruída ao fornecer o segredo de revogação para evitar que qualquer parte trapaceie publicando um estado antigo.
+  As taxas de roteamento são usadas para compensar nós intermediários que retransmitem pagamentos ao oferecerem sua liquidez para possibilitar a transferência de fundos através da rede.
 reviewed: false

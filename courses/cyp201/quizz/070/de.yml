@@ -1,9 +1,9 @@
-question: Was ist der Zweck der Entropie bei der Generierung einer mnemonischen Phrase für eine Bitcoin-Wallet?
-answer: Sie ist der Grundpfeiler der Sicherheit einer HD-Wallet.
+question: Was repräsentiert die Tiefe 0 in der Hierarchie von HD-Wallets?
+answer: Der Master-Schlüssel und der Master-Chain-Code
 wrong_answers:
-  - Sie bestimmt die Anzahl der Wörter in der Wiederherstellungsphrase.
-  - Sie verschlüsselt die Wiederherstellungsphrase für zusätzliche Sicherheit.
-  - Sie überprüft die Genauigkeit der Wiederherstellungsphrase.
+  - Die externe Kette von Adressen
+  - Das Standardkonto
+  - Die Art der Währung
 explanation: |
-  Die Entropie ist der Grundpfeiler der Sicherheit einer HD-Wallet. Es ist entscheidend, dass diese Entropie zufällig oder pseudo-zufällig ist, um die Sicherheit der Wallet zu gewährleisten.
+  Die Tiefe 0 entspricht dem Master-Schlüssel und dem Master-Chain-Code, welche die Ausgangspunkte für alle Ableitungen in einem HD-Wallet sind.
 reviewed: false

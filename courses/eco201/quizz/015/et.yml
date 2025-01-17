@@ -1,0 +1,9 @@
+question: Carl Mengeri järgi, miks toimub vabatahtlik vahetus kahe isiku vahel?
+answer: Iga osapool usub, et see suurendab nende subjektiivset kasulikkust.
+wrong_answers:
+  - Iga osapool usub, et see vähendab nende subjektiivset kasulikkust.
+  - Iga osapool usub, et see hoiab nende subjektiivset kasulikkust samal tasemel.
+  - Iga osapool usub, et see ei mõjuta nende subjektiivset kasulikkust.
+explanation: |
+  Menger järeldab, et vabatahtlik vahetus kahe isiku vahel toimub seetõttu, et iga osapool usub, et see suurendab nende subjektiivset kasulikkust. See tähendab, et iga osapool usub, et nad on pärast vahetust paremas olukorras.
+reviewed: false

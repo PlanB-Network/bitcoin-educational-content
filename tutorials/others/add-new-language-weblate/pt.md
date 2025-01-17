@@ -20,7 +20,7 @@ O primeiro passo é verificar se o seu idioma já não está entre aqueles em qu
 ![language](assets/02.webp)
 Se o seu idioma está nesta lista, você não precisa adicioná-lo novamente. Para contribuir com um idioma existente, fizemos outro tutorial que você pode descobrir.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
@@ -30,7 +30,7 @@ Se o seu idioma não estiver lá, siga o tutorial abaixo para adicioná-lo.
 
 - O primeiro passo é criar uma conta no Weblate. Se você não sabe como fazer isso, pode seguir nosso guia detalhado.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 - Uma vez que sua conta esteja criada, vá para o menu `Website frontend element` e selecione a aba `Languages`:
@@ -48,7 +48,7 @@ Para ser orientado através do processo de tradução, confira nosso tutorial de
 
 Parabéns, você iniciou o processo de tradução do site da Rede PlanB para um novo idioma! Você pode começar traduzindo todo o frontend via Weblate.
 
-https://planb.network/tutorials/others/translate-front-weblate
+https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
  Isso inclui todos os textos no site, exceto pelo conteúdo educacional (cursos, tutoriais...) para o qual usamos outro método semi-automatizado Humanos x IA.
 Em seguida, você pode entrar em contato com @asi0_flammeus no Telegram, que irá auxiliá-lo na revisão de alguns cursos traduzidos automaticamente com o modelo deles. Se esses conteúdos forem considerados satisfatórios, você pode prosseguir para revisar todo o outro conteúdo no site (cursos, tutoriais...). Uma vez que essas etapas forem completadas, podemos considerar a integração oficial do novo idioma no site da Rede PlanB, o que permitirá que todos os falantes do seu idioma tenham acesso a conteúdo de qualidade sobre Bitcoin, sem quaisquer barreiras.

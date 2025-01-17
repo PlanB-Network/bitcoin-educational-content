@@ -2,13 +2,14 @@
 name: Samourai Wallet - Recover
 description: How to recover bitcoins stuck on Samourai Wallet?
 ---
+
 ![cover](assets/cover.webp)
 
 Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, some functionalities of the application are now inoperative, and users who do not have their own Dojo can no longer broadcast transactions.
 
 After assisting several users in recovering their bitcoins in recent days, I believe I have encountered most of the issues that may arise during the restoration of a Samourai Wallet. Therefore, this tutorial will start with a situation report to identify the functionalities that remain operational and those that are no longer available within the Samourai Wallet ecosystem and the software affected by this incident. Next, we will proceed step by step to recover a Samourai Wallet using the Sparrow Wallet software. We will examine all potential obstacles encountered during this process and see solutions to resolve them. Finally, in the last part, you will discover the potential risks to your privacy following the server seizure.
 
-*A big thank you to [@Louferlou](https://twitter.com/Louferlou), who has assisted several users in their recovery and shared his experiences with me, and who has also contributed to testing to determine what is still functional.*
+_A big thank you to [@Louferlou](https://twitter.com/Louferlou), who has assisted several users in their recovery and shared his experiences with me, and who has also contributed to testing to determine what is still functional._
 
 ## Is Samourai Wallet still working?
 
@@ -19,7 +20,7 @@ Firstly, it is necessary that the app had been previously installed on your smar
 Given that the Samourai Wallet page is no longer available on the Google Play Store, it is not possible to disable automatic updates. If the app returns to the download platforms, it would be wise to **disable automatic updates** until more information is available regarding the development of the case.
 
 If Samourai Wallet is already installed on your smartphone, you should still be able to access the app. To use the wallet functionality of Samourai, it is essential to connect a Dojo. Previously, users without a personal Dojo depended on Samourai's servers to access Bitcoin blockchain information and to broadcast transactions. With the seizure of these servers, the app can no longer access this data.
-If you didn't have a connected Dojo before but have one now, you can set it up to use your Samourai app again. This involves checking your backups, deleting the wallet (the wallet, not the application), and recovering the wallet by connecting your Dojo to the application. For more details on these steps, you can consult [this tutorial, in the section "_Preparing your Samourai Wallet_" : COINJOIN - DOJO](https://planb.network/en/tutorials/privacy/coinjoin-dojo).
+If you didn't have a connected Dojo before but have one now, you can set it up to use your Samourai app again. This involves checking your backups, deleting the wallet (the wallet, not the application), and recovering the wallet by connecting your Dojo to the application. For more details on these steps, you can consult [this tutorial, in the section "_Preparing your Samourai Wallet_" : COINJOIN - DOJO](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
 If your Samourai app was already connected to your own Dojo, then the wallet part works perfectly for you. You can still see your balance and broadcast transactions. Despite everything that's happening, I think Samourai Wallet remains the best mobile wallet software at the moment. Personally, I plan to continue using it.
 
 The main problem you might encounter is the inaccessibility of Whirlpool accounts from the app. Usually, Samourai tries to establish a connection with your Whirlpool CLI and start the coinjoin cycles before giving you access to these accounts. However, since this connection is no longer possible, the app continues to search indefinitely without ever giving you access to the Whirlpool accounts. In this case, you can recover these accounts on another wallet software while only keeping the deposit account on Samourai.
@@ -31,29 +32,33 @@ On the other hand, some tools are either affected by the server shutdown or comp
 Regarding individual spending tools, everything works normally provided, of course, that you have your own Dojo. Normal Stonewall transactions (and not Stonewall x2) work without any problem.
 
 Comments on Twitter have highlighted that the privacy offered by a Stonewall transaction might now be reduced. The added value of a Stonewall transaction lies in the fact that it is indistinguishable from a Stonewall x2 transaction in terms of structure. When an analyst encounters this specific pattern, they cannot determine whether it is a standard Stonewall with a single user or a Stonewall x2 involving two users. However, as we will see in the following paragraphs, carrying out Stonewall x2 transactions has become more complex due to the unavailability of Soroban. Some therefore think that an analyst might now assume that any transaction with this structure is a normal Stonewall. Personally, I do not share this assumption. Although Stonewall x2 transactions may be less frequent (and I think they were already before this incident), the fact that they are still possible can invalidate an entire analysis based on the assumption that they are not.
-**[-> Learn more about Stonewall transactions.](https://planb.network/tutorials/privacy/stonewall)**
+**[-> Learn more about Stonewall transactions.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Regarding Ricochet, I have not been able to verify if the service is still operational, due to not owning a Dojo on the Testnet, and I prefer not to risk spending `100 000 sats` towards a wallet that could be controlled by the authorities. If you have had the opportunity to test this tool recently, I invite you to contact me so we can update this article.
 
-If you need to use Ricochet, be aware that you can always perform this operation manually with any wallet software. To learn how to manually perform the various hops properly, I recommend consulting this other article: [**RICOCHET**](https://planb.network/tutorials/privacy/ricochet).
+If you need to use Ricochet, be aware that you can always perform this operation manually with any wallet software. To learn how to manually perform the various hops properly, I recommend consulting this other article: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
 
 The JoinBot tool is no longer operational, as it was entirely dependent on the participation of a wallet managed by Samourai.
 
 Regarding other types of collaborative transactions, often referred to as "cahoots," they remain possible, but only manually. Before the server shutdown, you had two options for performing Stonewall x2 or Stowaway (PayJoin) transactions:
+
 - Use the Soroban network to automatically and remotely exchange the PSBTs;
 - Or perform these exchanges manually by scanning multiple QR codes.
 
 After several tests, it appears that Soroban is no longer functioning. To perform these collaborative transactions, the exchange of data must therefore be done manually. Here are two options for performing this exchange:
+
 - If you are physically close to your collaborator, you can scan the QR codes successively;
 - If you are distant from your collaborator, you can exchange the PSBTs via an external communication channel to the application. However, be careful, as the data contained in these PSBTs are sensitive in terms of privacy. I recommend using an encrypted messaging service to ensure the confidentiality of the exchange.
 
-**[-> Learn more about Stonewall x2 transactions.](https://planb.network/tutorials/privacy/stonewall-x2)**
+**[-> Learn more about Stonewall x2 transactions.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> Learn more about Stowaway transactions.](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)**
+**[-> Learn more about Stowaway transactions.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 As for Whirlpool, the protocol no longer seems to function, even for users who have their own Dojo. I have been monitoring my RoninDojo these past few days and attempted some basic manipulations, but the Whirlpool CLI has not been able to connect since the server shutdown.
 
 However, I remain hopeful that this protocol can be reactivated or perhaps reimagined differently in the coming weeks, depending on how the situation evolves. This pause could be an opportunity to explore new approaches or potential improvements to this system.
+
 ### What external tools are still available?
+
 Regarding other tools related to the Samourai environment, some are still available while others are not.
 
 The free chain analysis website OXT.me is unfortunately no longer available for the time being.
@@ -73,7 +78,9 @@ Regarding the watch-only wallet software Sentinel, the situation is similar to t
 ### Is Sparrow Wallet affected?
 
 Sparrow Wallet continues to operate normally, with the exception of Samourai tools that are no longer available. Currently, it is no longer possible to perform coinjoins via Sparrow. Similarly, collaborative spending tools are no longer accessible, as Sparrow does not offer the option of manual exchange of PSBTs, unlike Samourai. For all other functionalities, Sparrow operates without issue. You can also use this software to recover a Samourai wallet if necessary.
+
 ## How to Recover a Samourai Wallet?
+
 As we have seen in the previous sections, if you own your own Dojo, it's not necessarily required to switch software. **Samourai remains an excellent choice of hot wallet** for your daily spending. However, if you do not have a Dojo or if you prefer to opt for another software, I will explain the complete recovery process, detailing any potential obstacles you might encounter.
 
 In any case, it's important to take your time and ensure not to make any mistakes. Remember, there's no rush, as you hold your private keys, and the seizure of Samourai's servers does not affect this in any way. Whatever happens, they obviously cannot access your private keys.
@@ -145,12 +152,13 @@ You will then see your various Whirlpool accounts appear, and Sparrow will deriv
 ![samourai](assets/15.webp)
 
 If you are using a different software than Sparrow, like Electrum, to recover your Samourai wallet, here are the Whirlpool account indexes for manual recovery:
+
 - Deposit: `m/84'/0'/0'`
 - Bad Bank: `m/84'/0'/2147483644'`
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-You now have access to your bitcoins on Sparrow. If you need help using Sparrow Wallet, you can also check out [our dedicated tutorial](https://planb.network/tutorials/wallet/sparrow).
+You now have access to your bitcoins on Sparrow. If you need help using Sparrow Wallet, you can also check out [our dedicated tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 I also recommend manually importing the labels you had associated with your UTXOs on Samourai. This will allow you to perform effective coin control on Sparrow subsequently.
 
@@ -203,23 +211,25 @@ You will then see your various Whirlpool accounts appear, and Sparrow will deriv
 ![samourai](assets/26.webp)
 
 If you are using another software like Electrum to recover your Samourai wallet, here are the Whirlpool account indexes for manual recovery:
+
 - Deposit: `m/84'/0'/0'`
 - Bad Bank: `m/84'/0'/2147483644'`
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-You now have access to your bitcoins on Sparrow. If you need help using Sparrow Wallet, you can also consult [our dedicated tutorial](https://planb.network/tutorials/wallet/sparrow).
+You now have access to your bitcoins on Sparrow. If you need help using Sparrow Wallet, you can also consult [our dedicated tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
 
 I also recommend manually importing the labels you had associated with your UTXOs on Samourai. This will allow you to perform effective coin control on Sparrow subsequently.
 
 ### What are the common problems encountered?
 
 After assisting several people in the past few days, I believe I have encountered most of the problems that can prevent the recovery of your wallet. If you still cannot access your wallet despite the previous tutorials, here are some additional recommendations.
-First and foremost, for the recovery to work, it is absolutely essential that the recovery phrase is correct. If you are unable to find your 12-word phrase, you can use *option 1* to recover from Samourai's backup file. You can also access your recovery phrase directly in Samourai Wallet by navigating to `Settings`, then `Wallet`, and finally selecting `Show 12-word recovery phrase`.
+First and foremost, for the recovery to work, it is absolutely essential that the recovery phrase is correct. If you are unable to find your 12-word phrase, you can use _option 1_ to recover from Samourai's backup file. You can also access your recovery phrase directly in Samourai Wallet by navigating to `Settings`, then `Wallet`, and finally selecting `Show 12-word recovery phrase`.
 
 Next, a typing error in your passphrase during recovery will result in incorrect derived keys, which will prevent the recovery of your wallet on Sparrow. **The passphrase must be perfectly accurate!**
 
 To resolve this, I first advise you to check the validity of your passphrase in the Samourai application as described in the "_Verify the passphrase_" section of this article:
+
 1. **Validation in Samourai:** If Samourai confirms that the passphrase is correct, try the recovery again from the beginning, making sure to accurately enter the passphrase in Sparrow without error;
 2. **Passphrase Error:** If Samourai indicates that the passphrase is incorrect, it is pointless to continue attempts on Sparrow. As long as the correct passphrase is not found, the recovery of your wallet is impossible. If you have permanently lost your passphrase, keep your Samourai application safe. All you can do is hope that the servers are restarted so that you can make expenditures directly from the application without needing recovery. **Do not attempt to connect a Dojo in this case**, as this would imply resetting your wallet on Samourai, which requires access to the passphrase.
 
@@ -236,6 +246,7 @@ If the switch is not activated, click on it to reactivate the connection.
 ![samourai](assets/29.webp)
 
 If the problem persists, here are some possible solutions:
+
 - If you are trying to connect to your own Electrum server (blue) or your Bitcoin Core (green) and Sparrow cannot connect, check the connection information under `File > Preferences... > Server`;
 
 ![samourai](assets/30.webp)
@@ -282,6 +293,7 @@ For reference, an xpub is a string of characters that contains all the necessary
 Anyone who knows your xpubs can thus see all the receiving addresses of your wallet, those used in the past, and those that will be generated in the future.
 
 For users without a Dojo, a potential leak of your xpubs has two major consequences:
+
 - The coinjoins you may have performed are rendered ineffective from a privacy standpoint for anyone who knows your xpubs, thus your coins lose all anonset;
 - This person can also track all the receiving addresses of your Samourai Wallet.
 
@@ -289,7 +301,7 @@ It is therefore important to consider the worst-case scenario and to part with t
 
 During this transfer operation, I recommend avoiding the consolidation of your coins. If we assume that your xpubs are compromised, consolidation will have no impact from the viewpoint of the person having access to these xpubs, since your privacy is already compromised with them. However, I advise you not to consolidate your coins too much mainly to protect your privacy from other people. In the worst case, only the authorities might have access to your xpubs, but the rest of the world does not know about them. Thus, from the viewpoint of others, consolidating your coins could significantly harm your privacy because of the Common Input Ownership Heuristic (CIOH).
 
-Finally, to definitively break the tracking, also consider performing coinjoins from this new wallet.
+**Note:** to definitively break the tracking, you may also consider performing coinjoins from this new wallet.
 **Warning:** Simply retrieving your Samourai wallet on Sparrow Wallet is not enough. It is necessary to create an entirely new wallet with a new recovery phrase if you want to avoid using xpubs that may have leaked. If you import your existing seed into Sparrow, you are only changing the wallet management software, but the wallet remains the same.
 
 ### As a user of Sparrow or Samourai with Dojo
@@ -309,6 +321,7 @@ However, if we consider that the xpubs have leaked and that you encountered a us
 ![samourai](assets/38.webp)
 This potential decrease in anonset is complex to quantify, as it depends on numerous factors, and each coin is affected differently. For example, a user without Dojo encountered in the early cycles affects the prospective anonset much more than one encountered in the later cycles. To give you an idea of the situation, which remains hypothetical, the latest statistics provided by Samourai indicated that between 85% and 90% of the coins involved in coinjoins came from users with Dojo, Sparrow, or Bitcoin Keeper, that is, users who, even in the worst-case scenario, would not have seen their xpubs leaked.
 Although these figures are difficult to verify, they seem consistent to me for two reasons:
+
 - Sparrow Wallet is widely used;
 - Most node-in-box software offers Dojo implementations, and these mainstream software like Umbrel are very popular nowadays.
 
@@ -320,7 +333,7 @@ I specify "vis-à-vis the authority" because it is important to remember that on
 
 Finally, it is essential to consider the initial anonset of your coin, before the server seizure. Let's take the example of a coin that had reached a prospective anonset of 40,000; the potential decrease in this anonset is probably negligible. Indeed, with an already very high base anonset, it is unlikely that the presence of a few users without Dojo could radically change the situation. However, if your coin had an anonset of 40, then this potential leak could seriously affect your anonsets and potentially allow tracing.
 With the WST tool now out of service following the shutdown of OXT.me, you can only estimate these anonsets. For the retrospective anonset, there's not too much to worry about since the Whirlpool model ensures that it is very high from the first coinjoin, thanks to the legacy of your peers. The only case where this could pose a problem is if your coin hasn't been remixed for several years and it was mixed at the beginning of a pool's launch. Regarding the prospective anonset, you can examine the duration your coin has been available for coinjoins. If it has been several months, then it probably has an extremely high prospective anonset. Conversely, if it was added to a pool just a few hours before the servers were seized, then its prospective anonset is probably very low.
-[**-> Learn more about anonsets and their calculation method.**](https://planb.network/tutorials/privacy/wst-anonsets)
+[**-> Learn more about anonsets and their calculation method.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 Another aspect to consider is the impact of consolidations on the anonsets of coins that have been mixed. Given that Whirlpool accounts are no longer accessible via the Samourai app, it is likely that many users have transferred their wallet to other software and attempted to withdraw their funds from Whirlpool. In particular, last weekend, when transaction fees on the Bitcoin network were relatively high, there was a strong technical and economic incentive to consolidate post-mix coins. This means that it is likely that many users have made significant consolidations.
 
@@ -333,4 +346,5 @@ The network operation of the watch-only wallet application Sentinel is similar t
 In the unlikely event that you were using your Dojo with Samourai but not with Sentinel, it would be wiser to consider that your xpubs are compromised.
 
 ## Conclusion
+
 Thank you for reading this article to the end. If you think information is missing or if you have suggestions, please do not hesitate to contact me to share your thoughts. Additionally, if you need further assistance in recovering your Samourai Wallet despite this tutorial, I invite you to join [the Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) to ask for help. I regularly visit this Discord and would be delighted to assist you if I have the solution. Other bitcoiners will also be able to share their experiences and offer their support. **In any case, it is essential to keep your recovery phrase, your backup file, and your passphrase confidential**. Do not share them with anyone, as this could enable them to steal your bitcoins.

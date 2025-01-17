@@ -1,0 +1,9 @@
+question: ¿Cuál es el límite de la soberanía estatal según John Stuart Mill?
+answer: El estado solo puede intervenir cuando las acciones de un individuo dañan a otros.
+wrong_answers:
+  - El estado es soberano bajo todas las circunstancias y no puede ser limitado por ningún individuo o grupo de individuos.
+  - La soberanía estatal está limitada por medios económicos.
+  - La soberanía estatal está limitada por las leyes de la naturaleza.
+explanation: |
+  John Stuart Mill argumenta que la intervención estatal es legítima solo cuando las acciones de un individuo causan daño a otros, con el fin de proteger la libertad personal en áreas que no dañan a otros.
+reviewed: false

@@ -1,9 +1,8 @@
-question: ¿Cómo se determina el tamaño del checksum en la generación de una frase mnemotécnica para una billetera de Bitcoin?
-answer: Dividiendo el tamaño de la entropía entre 32.
+question: ¿Cuál es el propósito del índice al derivar claves secundarias?
+answer: Distinguir pares de claves hermanas
 wrong_answers:
-  - Multiplicando el tamaño de la entropía por 32.
-  - Sumando 32 al tamaño de la entropía.
-  - Restando 32 al tamaño de la entropía.
+  - Identificar la naturaleza de la clave (pública o privada)
+  - Especificar el nivel de seguridad de la clave
+  - Añadir una capa extra de seguridad
 explanation: |
-  El tamaño del checksum se determina dividiendo el tamaño de la entropía entre 32. Por ejemplo, una entropía de 256 bits genera un checksum de 8 bits.
-reviewed: false
+  El índice permite diferenciar las claves secundarias derivadas del mismo par de claves padre.

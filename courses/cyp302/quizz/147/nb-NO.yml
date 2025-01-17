@@ -1,0 +1,9 @@
+question: Hvis et heltall N er produktet av to primtall p og q, hvordan beregnes ordenen til N?
+answer: (p - 1) * (q - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+explanation: |
+  For N lik produktet av to primtall p og q, beregnes ordenen til N som (p - 1) * (q - 1).
+reviewed: false

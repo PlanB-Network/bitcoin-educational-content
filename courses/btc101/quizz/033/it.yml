@@ -1,9 +1,10 @@
-question: Perché Bitcoin è una nuova forma di denaro?
-answer: Perché è una moneta digitale senza entità centrali.
+question: Perché Bitcoin è considerato una nuova forma di denaro?
+answer: Perché è un denaro digitale senza entità centrale.
 wrong_answers:
   - Perché è una valuta digitale supportata dall'oro.
-  - Perché è una valuta che richiede una blockchain.
+  - Perché è una valuta che richiede la blockchain bancaria.
   - Perché lo dice la Federal Reserve.
 explanation: |
-  Bitcoin può essere considerato una nuova forma di denaro, poiché emerge da una rete peer-to-peer senza entità centrali.
-reviewed: false
+  Bitcoin può essere visto come una nuova forma di denaro, poiché emerge
+  da una rete peer-to-peer senza entità centrale.
+reviewed: vero

@@ -1,0 +1,9 @@
+question: Wo saß Frédéric Bastiat in der Nationalversammlung?
+answer: Im Zentrum-Links mit Alexis de Tocqueville
+wrong_answers:
+  - Auf der Linken mit den Sozialisten
+  - Auf der Rechten mit den Monarchisten
+  - Im Zentrum-Rechts mit den konservativen Liberalen
+explanation: |
+  Bastiat saß im Zentrum-Links mit Tocqueville, wo er die individuellen Freiheiten verteidigte.
+reviewed: false

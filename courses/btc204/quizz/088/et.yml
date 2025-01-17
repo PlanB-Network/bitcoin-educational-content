@@ -1,0 +1,13 @@
+question: Millist strateegiat kasutab Wabisabi osalejate anonüümsete komplektide suurendamiseks?
+
+answer: Mõne väga suure tehinguga.
+
+wrong_answers:
+  - Paljude väga väikeste tehingutega.
+  - Ühe väikese tehinguga.
+  - Tehinguteta.
+
+explanation: |
+  Osalejate anonüümsete komplektide suurendamiseks kasutab Wabisabi väga suuri coinjoin tehinguid, mis grupeerivad kokku kümneid osalejaid.
+
+reviewed: false

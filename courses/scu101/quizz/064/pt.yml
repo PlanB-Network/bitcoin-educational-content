@@ -1,9 +1,12 @@
 question: Por que não é recomendado usar extensões de navegador para preenchimento automático de senhas?
 answer: Elas podem tornar o usuário mais vulnerável a ataques de phishing, aumentar a superfície de ataque e diminuir o desempenho do navegador.
 wrong_answers:
-  - Elas são difíceis de usar.
-  - Elas não são compatíveis com todos os navegadores.
-  - Elas requerem muito espaço de armazenamento.
+  - São difíceis de usar.
+  - Não são compatíveis com todos os navegadores.
+  - Requerem muito espaço de armazenamento.
 explanation: |
-  As extensões de navegador para preenchimento automático de senhas podem tornar o usuário mais vulnerável a ataques de phishing. Elas também tendem a aumentar a superfície de ataque e podem diminuir o desempenho do navegador, apresentando assim um risco significativo.
-reviewed: false
+  Extensões de navegador para preenchimento automático de senhas podem tornar
+  o usuário mais vulnerável a ataques de phishing. Elas também
+  tendem a aumentar a superfície de ataque e podem diminuir o
+  desempenho do navegador, apresentando assim um risco significativo.
+reviewed: true

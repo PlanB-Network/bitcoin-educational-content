@@ -48,7 +48,7 @@ Rakenduse esmakordsel avamisel antakse teile valik:
 
 Dojo, mille on välja töötanud Samourai meeskond, on täielik Bitcoin node versioon, mida saab paigaldada iseseisvalt või lisada ühe klikiga node-in-box lahendustele nagu [Umbrel](https://umbrel.com/) ja [RoninDojo](https://ronindojo.io/).
 
-[**-> Avasta, kuidas paigaldada RoninDojo v2 Raspberry Pi-le.**](https://planb.network/en/tutorials/node/ronin-dojo-v2)
+[**-> Avasta, kuidas paigaldada RoninDojo v2 Raspberry Pi-le.**](https://planb.network/fr/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 Kui teil on oma Dojo, saate selles etapis sellega ühenduda. Tehes seda, saate kasu kõrgeimast privaatsuse tasemest, kontrollides oma Bitcoin võrgu tehinguteabeid.
 
@@ -147,3 +147,4 @@ Teil on võimalus sisestada oma allkirjastatud PSBT kolmel erineval viisil:
 Kui allkirjastatud tehing on halli raami sisestatud, võite vajutada rohelisele nupule `BROADCAST TRANSACTION`, et edastada see Bitcoin võrgus. Sentinel annab teile selle TXID.
 
 ![watch-only](assets/notext/25.webp)
+

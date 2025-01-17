@@ -1,0 +1,8 @@
+question: Mikä on valtion perusilluusio Marxin mukaan?
+answer: Se edustaa yleistä etua eikä tietyn luokan erityisiä etuja.
+wrong_answers:
+  - Se pystyy takaamaan puolueettomuuden.
+  - Se palvelee siviiliyhteiskuntaa.
+  - Se edistää luokkataistelua.
+explanation: |
+  Marxin mukaan valtio väittää edustavansa yleistä etua, mutta todellisuudessa se on väline, joka palvelee hallitsevan luokan etuja, näin ollen jatkaen alisteisten luokkien sortoa.

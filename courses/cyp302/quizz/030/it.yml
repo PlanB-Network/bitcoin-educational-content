@@ -1,0 +1,9 @@
+question: Qual è la principale differenza tra una stringa casuale e una stringa pseudocasuale?
+answer: Una stringa casuale proviene da un processo puramente casuale, mentre una stringa pseudocasuale è generata da un algoritmo a partire da un seme.
+wrong_answers:
+  - Una stringa pseudocasuale utilizza solo bit 1.
+  - Una stringa casuale è sempre più lunga di una stringa pseudocasuale perché su di essa agisce un'azione naturale.
+  - Una stringa pseudocasuale è definita da un modello strettamente binario, mentre una stringa casuale è definita da un modello strettamente esadecimale.
+explanation: |
+  Una stringa casuale proviene da un processo direttamente casuale, mentre una stringa pseudocasuale è prodotta utilizzando un algoritmo di espansione e un seme iniziale.
+reviewed: false

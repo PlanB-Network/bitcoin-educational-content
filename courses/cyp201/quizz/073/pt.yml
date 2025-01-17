@@ -1,9 +1,9 @@
-question: O que é uma opção adicional para aumentar a segurança de uma carteira de Bitcoin?
-answer: Adicionar uma frase de senha.
+question: Qual índice representa a cadeia externa de uma conta em um caminho de derivação?
+answer: /0/
 wrong_answers:
-  - Adicionar uma segunda frase mnemônica.
-  - Adicionar uma assinatura digital.
-  - Adicionar um histórico de transações.
+  - /1/
+  - /0'/
+  - /2/
 explanation: |
-  Adicionar uma frase de senha é uma opção adicional para aumentar a segurança da carteira de Bitcoin.
+  A cadeia externa é identificada pelo índice /0/ no nível 4 do caminho de derivação.
 reviewed: false

@@ -8,7 +8,7 @@ description: Raspberry Pi上でのRoninDojo v2 Bitcoinノードのインスト�
 
 以前のチュートリアルでは、RoninDojo v1のインストールと使用方法について既に説明しました。しかし、昨年、RoninDojoチームは彼らの実装のバージョン2を発表し、ソフトウェアのアーキテクチャにおいて重要な転換点を迎えました。実際、彼らはLinux ManjaroディストリビューションからDebianへと移行しました。その結果、Raspberry Pi上での自動インストール用に事前設定されたイメージの提供をやめました。しかし、手動インストールを進める方法はまだ存在します。これは私が自分のノードに使用した方法であり、それ以来、RoninDojo v2は私のRaspberry Pi 4上で素晴らしく動作しています。したがって、Raspberry Pi上にRoninDojo v2を手動でインストールする方法についての新しいチュートリアルを提供します。
 
-https://planb.network/tutorials/node/ronin-dojo
+https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 
 
@@ -320,7 +320,7 @@ Samourai WalletとRoninDojo v2を使用してコインジョインを行うプ�
 
 ビットコインでのコインジョインとその使用についてのより深い理解のために、この他の記事も参照してください：ビットコインでのコインジョインの理解と使用、ここではこの技術について知っておくべきすべてのことを詳しく説明しています。
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 ### Whirlpool Stat Tool (WST)の使用
 
 Whirlpoolでコインジョインを実行した後、ミックスされたUTXOの達成したプライバシーレベルを正確に評価することが役立ちます。これを行うには、Pythonツールである*Whirlpool Stat Tool*を使用できます。このツールを使用すると、UTXOの見込みスコアと遡及スコアの両方を測定し、プール内での拡散率を分析することができます。
@@ -328,7 +328,7 @@ Whirlpoolでコインジョインを実行した後、ミックスされたUTXO�
 WSTツールにアクセスするには、RoninCLIに移動してください。これを行うには、個人用コンピューターでターミナルを開き、次のコマンドを使用してノードとSSH接続を確立します：
 `SSH ronindojo@[IP]`
 
-https://planb.network/tutorials/privacy/remix-whirlpool
+https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

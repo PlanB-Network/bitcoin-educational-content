@@ -1,0 +1,9 @@
+question: Apa tiga metode untuk menutup saluran pada Lightning Network?
+answer: Penutupan kooperatif, penutupan paksa, penutupan dengan kecurangan
+wrong_answers:
+  - Penutupan cepat, penutupan lambat, penutupan dengan tanda tangan ganda
+  - Penutupan aman, penutupan otomatis, penutupan dengan kehilangan dana
+  - Penutupan langsung, penutupan tidak langsung, penutupan dengan klaim
+explanation: |
+  Ada tiga metode: penutupan kooperatif di mana para pihak setuju, penutupan paksa tanpa respons dari salah satu pihak, dan penutupan dengan kecurangan di mana salah satu pihak mencoba mempublikasikan transaksi lama.
+reviewed: false

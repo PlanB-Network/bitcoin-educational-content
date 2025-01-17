@@ -1,0 +1,13 @@
+question: Qual elemento impede um observador externo de diferenciar entre transações Stonewall e Stonewall x2?
+
+answer: O padrão das transações é o mesmo
+
+wrong_answers:
+  - As transações são criptografadas
+  - Os montantes envolvidos nas transações são sempre idênticos
+  - As assinaturas digitais das transações são geradas pelo mesmo algoritmo
+
+explanation: |
+  De um ponto de vista externo, o padrão da transação é exatamente o mesmo. Sem informações contextuais adicionais, é, portanto, impossível diferenciar uma transação Stonewall de uma transação Stonewall x2, pois adotam o mesmo padrão.
+
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hva er betegnelsen for et selskap som fortsetter å operere hovedsakelig gjennom
+  lavkostnadslån, til tross for å være insolvent eller nær konkurs under normale
+  markedsforhold?
+answer: Zombie-selskap
+wrong_answers:
+  - Spøkelsesselskap
+  - Vampyrselskap
+  - Fantomselskap
+explanation: |
+  Et zombie-selskap er et selskap som, under normale markedsforhold, ville
+  vært insolvent eller nær konkurs, men fortsetter å operere hovedsakelig gjennom lavkostnadslån.

@@ -1,0 +1,8 @@
+question: Tên của trang web nào đã đóng góp đáng kể vào việc làm cho Bitcoin trở nên nổi tiếng vào tháng 7 năm 2010?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation: |
+  Vào ngày 11 tháng 7 năm 2010, một bài giới thiệu về Bitcoin được viết bởi Teppy đã được đăng tải trên trang web phổ biến này, dẫn đến sự gia nhập của một lượng lớn người dùng.

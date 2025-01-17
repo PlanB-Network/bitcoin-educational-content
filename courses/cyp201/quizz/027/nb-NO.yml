@@ -1,0 +1,9 @@
+question: Hvilken sårbarhet i ECDSA-signaturer ble rettet av SegWit?
+answer: Formbarhet
+wrong_answers:
+  - Gruppeverifisering
+  - Mangel på aggregasjon
+  - Overdreven størrelse på signaturer
+explanation: |
+  SegWit rettet formbarheten til ECDSA-signaturer, noe som muliggjorde bruk som Lightning Network.
+reviewed: false

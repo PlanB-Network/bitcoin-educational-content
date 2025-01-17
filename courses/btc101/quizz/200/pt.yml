@@ -5,5 +5,8 @@ wrong_answers:
   - Comprar Bitcoin apenas quando o preço cai.
   - Comprar Bitcoin apenas quando o preço sobe.
 explanation: |
-  O texto explica que uma compra espontânea é usada para obter imediatamente exposição ao Bitcoin. Isso pode ser feito comprando durante uma queda ou aproveitando um bônus.
-reviewed: false
+  O texto do curso explica que uma compra espontânea é
+  usada para obter exposição imediata ao Bitcoin. Por exemplo,
+  isso poderia significar comprar durante uma queda ou aproveitar
+  um bônus.
+reviewed: true

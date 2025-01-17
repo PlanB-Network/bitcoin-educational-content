@@ -1,11 +1,13 @@
-question: Jaká je role ASICů při těžbě Bitcoinu?
+question: Jaká je role ASICů v těžbě Bitcoinu?
 answer: ASICy jsou stroje navržené výhradně pro použití algoritmu SHA256 v procesu těžby.
 wrong_answers:
-  - ASICy se používají k ověřování transakcí Bitcoinu.
-  - ASICy se používají k vytváření nových bitcoinů.
-  - ASICy se používají k zabezpečení sítě Bitcoinu.
-explanation: >-
-  ASICy (Application-Specific Integrated Circuits - Integrované obvody pro specifické aplikace) jsou specializovaný hardware
-  navržený speciálně pro těžbu Bitcoinu. Jsou optimalizovány pro provádění hashovací funkce SHA256,
-  což je matematický problém, který musí těžaři vyřešit v Proof of Work.
-reviewed: false
+  - ASICy se používají k ověřování transakcí Bitcoinu aplikací algoritmu SHA256 v procesu ověřování.
+  - ASICy se používají k libovolnému vytváření nových bitcoinů.
+  - ASICy se používají k zabezpečení sítě Bitcoin.
+explanation: |
+  ASICy (Application-Specific Integrated Circuits) jsou
+  specializovaný hardware navržený specificky pro těžbu
+  Bitcoinu. Jsou optimalizovány pro provádění hašovací
+  funkce SHA256, což je matematický problém, který musí
+  těžaři vyřešit v procesu Proof of Work.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Qual serviço federal de inteligência dos EUA convidou Gavin Andresen em abril de 2011 para apresentar o Bitcoin alguns meses depois?
+answer: A CIA
+wrong_answers:
+  - O FBI
+  - A NSA
+  - A DEA
+explanation: |
+  Mais especificamente, foi o In-Q-Tel, um fundo de capital de risco americano gerido pela CIA, mas a visita de fato ocorreu na sede da CIA.

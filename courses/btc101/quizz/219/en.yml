@@ -1,10 +1,10 @@
-question: What does the text suggest about the future of Bitcoin?
-answer: It is not going to disappear
+question: What does this course suggest about the future of Bitcoin?
+answer: It is not going to disappear.
 wrong_answers:
-  - It will be replaced by a better technology
-  - It will be banned worldwide
-  - It will lose its value
-explanation: >-
-  The text suggests that Bitcoin is not going to disappear. On the contrary,
-  the revolution has just begun.
-reviewed: false
+  - It will be replaced by a better technology.
+  - It will be banned worldwide.
+  - It will lose its value.
+explanation: |
+  The course text suggests that Bitcoin is not going to
+  disappear. On the contrary, the revolution has just begun.
+reviewed: true

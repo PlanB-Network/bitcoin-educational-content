@@ -1,9 +1,8 @@
-question: L'uso di una passphrase in un portafoglio Bitcoin è obbligatorio?
-answer: No, il suo uso è opzionale.
+question: Qual è la principale novità degli script P2WPKH rispetto ai P2PKH?
+answer: Le firme sono spostate nel campo Witness.
 wrong_answers:
-  - Sì, il suo uso è obbligatorio.
-  - Dipende dal tipo di portafoglio.
-  - Dipende dalla quantità di bitcoin nel portafoglio.
+  - Gli indirizzi sono codificati in base58check.
+  - Lo scriptPubKey include l'hash della chiave privata.
+  - P2WPKH è incompatibile con SegWit.
 explanation: |
-  La passphrase è una password aggiuntiva che può essere integrata in un portafoglio Bitcoin per aumentarne la sicurezza. Il suo uso è opzionale e a discrezione dell'utente.
-reviewed: false
+  P2WPKH, introdotto con SegWit, sposta le firme in una sezione separata chiamata Witness per prevenire la malleabilità delle transazioni.

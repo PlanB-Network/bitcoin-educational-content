@@ -1,11 +1,8 @@
-question: Jaká je výhoda použití HASH160 v protokolu Bitcoin?
-answer: Umožňuje zachovat bezpečnost SHA-256 při snížení velikosti otisku.
+question: Která vlastnost zajišťuje, že je výpočetně nemožné získat vstup hash funkce?
+answer: Preimage resistance
 wrong_answers:
-  - Zvyšuje velikost otisku pro zvýšenou bezpečnost.
-  - Je odolnější vůči kolizím než SHA-256.
-  - Je rychlejší k výpočtu než SHA-256.
+  - Collision resistance
+  - Avalanche effect
+  - Second preimage resistance
 explanation: |
-  HASH160 v protokolu Bitcoin je výhodný, protože udržuje
-  bezpečnost SHA-256 při snížení velikosti otisku. To z něj činí
-  efektivnější bez kompromisu v bezpečnosti.
-reviewed: false
+  Preimage resistance zajišťuje, že je prakticky nemožné najít původní zprávu z jejího hash.

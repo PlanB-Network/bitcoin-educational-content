@@ -165,4 +165,4 @@ If you found this tutorial helpful, I would appreciate a thumbs up below. Feel f
 
 I also recommend checking out this other tutorial on VeraCrypt, a software that allows you to encrypt and decrypt storage devices.
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

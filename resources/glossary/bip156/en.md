@@ -8,5 +8,5 @@ The goal of BIP156 is to address this issue. To do this, it introduces an additi
 
 This routing method obscures the trail leading back to the source node, making it difficult to trace a transaction through the network back to its origin. Dandelion thus improves privacy by limiting the adversaries' ability to deanonymize the network. This method is even more effective when the transaction crosses during the "stem" phase a node that encrypts its network communications, such as with Tor or *P2P Transport V2*. BIP156 has not yet been added to Bitcoin Core.
 
-![](../../dictionnaire/assets/36.png)
+![](../../dictionnaire/assets/36.webp)
 

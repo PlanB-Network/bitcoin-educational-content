@@ -5,11 +5,9 @@ wrong_answers:
   - Trung Quốc có thể kiểm soát giá của Bitcoin.
   - Trung Quốc có thể cấm đào Bitcoin.
 explanation: |
-  Việc tập trung sản xuất phần cứng đào ở Trung Quốc đặt ra rủi ro
-
-  đối với mạng lưới Bitcoin. Nếu Trung Quốc từ chối xuất khẩu máy đào hoặc tích lũy
-
-  hashrate cho một cuộc tấn công 51% tiềm năng, nó có thể đe dọa đến an ninh và tính phi tập trung
-
-  của mạng lưới.
-reviewed: false
+  Việc tập trung sản xuất phần cứng đào ở Trung Quốc
+  đặt ra rủi ro cho mạng lưới Bitcoin. Nếu Trung Quốc từ chối
+  xuất khẩu máy đào hoặc tích lũy hashrate cho một
+  cuộc tấn công 51% tiềm năng, nó có thể đe dọa an ninh và
+  tính phi tập trung của mạng.
+reviewed: true

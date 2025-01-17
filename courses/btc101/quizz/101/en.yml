@@ -1,11 +1,11 @@
-question: What is the standard method of backing up the private key in a Bitcoin wallet?
-answer: Entering your mnemonic phrase into any wallet software
+question: What is a standard method for restoring your wallet?
+answer: Entering your mnemonic phrase into any wallet software.
 wrong_answers:
-  - Saving your mnemonic phrase in a digital file
-  - Writing your mnemonic phrase on a whiteboard
-  - Sharing your mnemonic phrase with a trusted friend
+  - Saving your mnemonic phrase in a digital file.
+  - Writing your mnemonic phrase on a whiteboard.
+  - Sharing your mnemonic phrase with a trusted friend.
 explanation: |
-  The standard method of backing up the private key in a Bitcoin wallet
-  is by entering your mnemonic phrase into any wallet software. This allows you to
-  restore your wallet.
-reviewed: true
+  The standard method of backing up the private key in a
+  Bitcoin wallet is by entering your mnemonic phrase into any
+  wallet software. This allows you to restore your wallet.
+reviewed: false

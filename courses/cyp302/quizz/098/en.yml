@@ -1,0 +1,9 @@
+question: How does a MAC help prevent message tampering by an attacker?
+answer: By allowing to verify that the received message has not been altered
+wrong_answers:
+  - By preventing brute-force type attacks
+  - By concealing the message content
+  - By automatically blocking suspicious messages
+explanation: |
+  A MAC enables the recipient to verify that a message has not been modified through a tag generated with a shared secret key, which limits the possibilities of manipulation.
+reviewed: false

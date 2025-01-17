@@ -14,7 +14,7 @@ _本教程仅供教育和信息目的使用。我们不支持或鼓励使用这�
 
 > "*使用比特币时保护隐私。*"
 
-在[之前的教程](https://planb.network/tutorials/node/ronin-dojo)中，我们已经解释了安装和使用RoninDojo v1的过程。然而，在过去的一年里，RoninDojo团队推出了他们的第二版实现，这标志着软件架构的重大转折点。事实上，他们放弃了Linux Manjaro发行版，转而采用Debian。因此，他们不再提供预配置的镜像以便在树莓派上自动安装。但仍有一种手动安装的方法。这就是我用于我自己的节点的方法，自那以后，RoninDojo v2在我的树莓派4上运行得非常好。因此，我提供了一个新的教程，关于如何在树莓派上手动安装RoninDojo v2。
+在[之前的教程](https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0)中，我们已经解释了安装和使用RoninDojo v1的过程。然而，在过去的一年里，RoninDojo团队推出了他们的第二版实现，这标志着软件架构的重大转折点。事实上，他们放弃了Linux Manjaro发行版，转而采用Debian。因此，他们不再提供预配置的镜像以便在树莓派上自动安装。但仍有一种手动安装的方法。这就是我用于我自己的节点的方法，自那以后，RoninDojo v2在我的树莓派4上运行得非常好。因此，我提供了一个新的教程，关于如何在树莓派上手动安装RoninDojo v2。
 
 ## 目录：
 - 什么是RoninDojo？
@@ -318,12 +318,12 @@ RoninDojo 提供了一个用于在 [RockPro64](https://ronindojo.io/en/download)
 通过Whirlpool执行coinjoin需要使用的应用程序保持活跃以进行重混。对于那些希望达到高匿名集的人来说，这个条件可能是限制性的。实际上，集成了Whirlpool的应用程序的托管设备必须持续开机。这意味着要参与全天候的重混，你的电脑或智能手机必须持续开启，并且持续运行Samourai或Sparrow。解决这一限制的方法是在一台始终开机的机器上使用_WhirlpoolCLI_，例如比特币节点，允许你的硬币无间断地重混，而无需保持另一台设备开机。
 一份详细的教程正在准备中，将一步步指导你通过Samourai Wallet和RoninDojo v2进行coinjoin的过程，从A到Z。
 
-为了更深入地理解coinjoin及其在比特币上的使用，我还邀请你查阅这篇其他文章：[理解并使用比特币上的coinjoin](https://planb.network/tutorials/privacy/coinjoin-dojo)，在这里我详细介绍了你需要知道的关于这项技术的一切。
+为了更深入地理解coinjoin及其在比特币上的使用，我还邀请你查阅这篇其他文章：[理解并使用比特币上的coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2)，在这里我详细介绍了你需要知道的关于这项技术的一切。
 ### 使用Whirlpool Stat Tool (WST)
 
 在使用Whirlpool进行coinjoins之后，准确评估你的混合UTXOs所达到的隐私级别是有用的。为此，你可以使用Python工具*Whirlpool Stat Tool*。这个工具允许你测量你的UTXOs的前瞻性和回顾性分数，同时分析它们在池中的扩散率。
 
-为了深入理解这些匿名集的计算机制，我推荐阅读文章：[REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)，它详细介绍了这些指标的功能。
+为了深入理解这些匿名集的计算机制，我推荐阅读文章：[REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)，它详细介绍了这些指标的功能。
 
 要访问WST工具，请转到RoninCLI。为此，在你的个人电脑上打开一个终端，并使用以下命令与你的节点建立SSH连接：
 `SSH ronindojo@[IP]`

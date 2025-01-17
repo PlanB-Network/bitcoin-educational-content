@@ -1,9 +1,9 @@
-question: Was ist der Hauptzweck eines Zufallszahlengenerators (RNG) bei Bitcoin-Transaktionen?
-answer: Um die Integrität der privaten Schlüssel zu gewährleisten.
+question: Was ist die Hauptfunktion eines erweiterten Schlüssels in einem HD-Wallet?
+answer: Die Ableitung von Kinderschlüsseln ermöglichen
 wrong_answers:
-  - Um die Geschwindigkeit der Transaktionen zu gewährleisten.
-  - Um die Anonymität der Transaktionen zu gewährleisten.
-  - Um die Rechtmäßigkeit der Transaktionen zu gewährleisten.
+  - Die Transaktionen des Wallets speichern
+  - Direkt die UTXOs generieren
+  - Die öffentlichen Schlüssel verschlüsseln
 explanation: |
-  RNG wird verwendet, um Zufallszahlen zu generieren, die für die Integrität der privaten Schlüssel bei Bitcoin-Transaktionen entscheidend sind. Dies hilft, jegliche Schwachstellen in Bezug auf Vorhersagbarkeit zu verhindern.
+  Ein erweiterter Schlüssel kombiniert einen Schlüssel (entweder privat oder öffentlich) mit einem zugehörigen Kettenkode, d.h., den beiden Elementen, die notwendig sind, um Kinderschlüssel abzuleiten.
 reviewed: false

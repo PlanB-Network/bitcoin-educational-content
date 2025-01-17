@@ -1,0 +1,13 @@
+question: What is the major drawback of coinswaps and atomic swaps in terms of privacy?
+
+answer: They do not break the history of the exchanged coins
+
+wrong_answers:
+  - They are very costly in transaction fees
+  - They require the exchange of personal information between parties
+  - They can be subject to analysis by exchange platforms
+
+explanation: |
+  The main disadvantage of these methods is that they are very risky without the use of an additional technique to break the coin's history.
+
+reviewed: false

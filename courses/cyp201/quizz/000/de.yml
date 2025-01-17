@@ -1,10 +1,9 @@
-question: Was ist das Prinzip der Schubladen im Zusammenhang mit kryptografischen Hash-Funktionen?
-answer: Es erklärt, warum trotz unserer besten Bemühungen die Vermeidung von Kollisionen aufgrund der Begrenzung der Ausgabegröße unmöglich ist.
+question: Was ist die Hauptfunktion einer Hash-Funktion?
+answer: Sie wandelt Informationen beliebiger Länge in einen Fingerabdruck fester Größe um.
 wrong_answers:
-  - Es erklärt den Speichermechanismus von Hash-Funktionen.
-  - Es beschreibt den Prozess der Erstellung eines Hashes.
-  - Es ist ein Prinzip, das die Unumkehrbarkeit von Hash-Funktionen erklärt.
+  - Sie verschlüsselt Nachrichten, um sie unlesbar zu machen.
+  - Sie wird nur verwendet, um die Integrität der Bitcoin-Software zu überprüfen.
+  - Sie generiert private Schlüssel für Bitcoin-Wallets.
 explanation: |
-  Das Prinzip der Schubladen im Zusammenhang mit kryptografischen Hash-Funktionen erklärt, dass aufgrund der Begrenzung der Ausgabegröße die Vermeidung von Kollisionen unmöglich ist.
-  Dies liegt daran, dass es mehr mögliche Eingaben als Ausgaben gibt, sodass einige Eingaben zwangsläufig dieselbe Ausgabe teilen müssen.
+  Eine Hash-Funktion transformiert Daten beliebiger Größe in einen Hash fester Größe, was für viele Anwendungen in Bitcoin entscheidend ist.
 reviewed: false

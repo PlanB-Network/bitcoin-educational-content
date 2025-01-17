@@ -1,9 +1,9 @@
-question: Qual é a liquidez de um canal na Lightning Network?
-answer: A quantidade de satoshis que pode ser transferida através do canal.
+question: Que tipo de liquidez um vendedor na Rede Lightning deve gerenciar principalmente para aceitar pagamentos?
+answer: Liquidez de entrada
 wrong_answers:
-  - O número de transações que podem ser feitas através do canal.
-  - A velocidade com que as transações podem ser feitas através do canal.
-  - O custo de fazer uma transação através do canal.
+  - Liquidez de saída
+  - Uma alta capacidade total do canal
+  - Um alto saldo na cadeia
 explanation: |
-  Na Lightning Network, a liquidez de um canal refere-se à quantidade de satoshis que pode ser transferida através do canal. A liquidez desses canais não pode ser transferida para outros canais de liquidez.
+  Para receber pagamentos, um vendedor precisa ter liquidez de entrada, o que significa que os fundos devem estar disponíveis no lado oposto do canal para que eles possam aceitar pagamentos.
 reviewed: false

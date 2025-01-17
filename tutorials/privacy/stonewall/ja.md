@@ -31,7 +31,7 @@ StonewallトランザクションはStonewallX2トランザクションと同じ
 
 要約すると、StonewallトランザクションとStonewall x2トランザクションは同一の構造を共有しています。2つの違いは、その協力的な性質にあります。Stonewallトランザクションは個別に開発され、協力を必要としません。対照的に、Stonewall x2トランザクションはその実装のために2人の個人間の協力に依存しています。
 
-[**-> Stonewall x2トランザクションについてもっと学ぶ**](https://planb.network/tutorials/privacy/stonewall-x2)
+[**-> Stonewall x2トランザクションについてもっと学ぶ**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 ## Stonewallトランザクションの目的は何ですか？
 Stonewall構造はトランザクションに大量のエントロピーを追加し、チェーン分析を曖昧にします。外部から見た場合、そのようなトランザクションは2人の間の小さなコインジョインと解釈されるかもしれません。しかし実際には、Stonewall x2トランザクションと同様に、それは支払いです。この方法はしたがって、チェーン分析に不確実性を生み出し、誤ったリードにさえつながるかもしれません。

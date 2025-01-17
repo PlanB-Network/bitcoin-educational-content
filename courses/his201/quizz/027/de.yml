@@ -1,0 +1,8 @@
+question: Welche Schlagzeile einer britischen Zeitung wurde im Januar 2009 im Genesis-Block von Bitcoin aufgenommen?
+answer: The Times
+wrong_answers:
+  - The Guardian
+  - The Independent
+  - The Telegraph
+explanation: |
+  Die genaue Inschrift lautete The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.

@@ -1,0 +1,11 @@
+question: Apa salah satu cara untuk menghindari penipuan online?
+answer: Verifikasi identitas situs yang Anda jelajahi, terutama dengan memeriksa ekstensi dan nama domain.
+wrong_answers:
+  - Menggunakan jaringan Wi-Fi publik.
+  - Menggunakan situs yang tidak menggunakan protokol HTTPS.
+  - Menggunakan situs yang tidak menampilkan gembok.
+explanation: |
+  Untuk menghindari penipuan online, sangat penting untuk memverifikasi identitas situs
+  yang Anda jelajahi. Ini dapat dilakukan dengan memeriksa ekstensi dan nama domain dari
+  situs tersebut.
+reviewed: false

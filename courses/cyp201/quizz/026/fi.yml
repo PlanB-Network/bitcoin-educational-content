@@ -1,11 +1,9 @@
-question: Mikä on Bitcoinin pienin yksikkö?
-answer: Satoshi
+question: Mikä on lähtökohta ECDSA-allekirjoituksen laskemiselle?
+answer: Viestin tiiviste
 wrong_answers:
-  - Bit
-  - Tavu
-  - Kolikko
+  - Julkinen avain
+  - Kiinteä nonce
+  - Mukautettu elliptinen käyrä
 explanation: |
-  Bitcoin-järjestelmässä laskentayksikkönä toimii bitcoin (huomaa pieni
-  "b"). Se on jaettavissa kahdeksaan desimaalipaikkaan asti, ja pienin yksikkö on
-  satoshi.
+  ECDSA-allekirjoitus alkaa laskemalla allekirjoitettavan viestin tiivisteen, usein SHA256 n avulla.
 reviewed: false

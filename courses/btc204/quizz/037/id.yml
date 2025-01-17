@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan Heuristik Kepemilikan Masukan Bersama (CIOH)?
+answer: Ketika sebuah transaksi mencakup beberapa masukan, ini kemungkinan besar semuanya berasal dari satu entitas.
+wrong_answers:
+  - Ketika sebuah transaksi mencakup beberapa masukan, ini kemungkinan besar berasal dari berbagai entitas yang berbeda.
+  - Ketika sebuah transaksi mencakup beberapa keluaran, ini kemungkinan besar semuanya menuju ke satu entitas.
+  - Ketika sebuah transaksi mencakup beberapa keluaran, ini kemungkinan besar semuanya menuju ke berbagai entitas yang berbeda.
+explanation: |
+  CIOH adalah sebuah heuristik yang menyarankan bahwa ketika sebuah transaksi mencakup beberapa masukan, masukan-masukan ini kemungkinan besar berasal dari satu entitas. Akibatnya, kepemilikannya bersama.
+reviewed: false

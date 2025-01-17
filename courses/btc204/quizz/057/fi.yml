@@ -1,6 +1,6 @@
 question: Mikä on pääasiallinen uhka, joka liittyy osoitteen uudelleenkäyttöön?
 
-answer: Se mahdollistaa determinististen linkkien luomisen eri transaktioiden välille ja yhteisen omistajuuden kyseisten UTXO:iden osalta.
+answer: Se mahdollistaa determinististen linkkien luomisen eri transaktioiden välille ja yhteisen omistajuuden kyseisten UTXO; iden osalta.
 
 wrong_answers:
   - Se paljastaa käyttäjän IP-osoitteen muille verkon osallistujille transaktion vahvistuksen aikana.

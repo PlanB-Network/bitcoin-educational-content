@@ -1,0 +1,9 @@
+question: Jaký je podle Bastiata lék na zlo ve společnosti?
+answer: Ve svobodě samotné
+wrong_answers:
+  - Ve vůli k moci
+  - V trestání represivním a nekompromisním justičním systémem
+  - Ve snaze o dokonalou rovnost
+explanation: |
+  Bastiat věří, že svoboda, spolu s plnou a úplnou individuální odpovědností, je prostředkem k protiúčinku zla a podporuje zodpovědnější a spravedlivější jednání.
+reviewed: false

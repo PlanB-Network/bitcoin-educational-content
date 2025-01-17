@@ -1,9 +1,9 @@
-question: Was ist eine der Hauptauswirkungen von Bitcoin auf das Bankensystem?
-answer: Es ermöglicht die Befreiung vom Bankensystem.
+question: Was ist eine der Hauptfolgen von Bitcoin auf das Bankensystem?
+answer: Es ermöglicht die Emanzipation vom Bankensystem.
 wrong_answers:
-  - Es ermöglicht die Kontrolle des Bankensystems.
-  - Es ermöglicht die Beseitigung des Bankensystems.
+  - Es ermöglicht die Kontrolle über das Bankensystem.
+  - Es ermöglicht die Eliminierung des Bankensystems.
   - Es ermöglicht die Korruption des Bankensystems.
-explanation: |
-  Der Text erwähnt, dass Bitcoin die Befreiung vom Bankensystem ermöglicht.
-reviewed: false
+explanation: >-
+  Der Text erwähnt, dass Bitcoin die Emanzipation vom Bankensystem ermöglicht.
+reviewed: true

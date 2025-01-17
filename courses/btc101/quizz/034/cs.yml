@@ -1,9 +1,10 @@
 question: Jaká je hlavní výhoda zlata jako měny?
-answer: Je neuvěřitelně trvanlivé
+answer: Je neuvěřitelně odolné.
 wrong_answers:
-  - Je snadno dělitelné nebo přepravitelné na dlouhé vzdálenosti
-  - Je snadno ověřitelné
-  - Není regulováno vládou
+  - Je snadno dělitelné nebo přenosné na dlouhé vzdálenosti.
+  - Je snadno ověřitelné.
+  - Není regulováno vládou.
 explanation: |
-  Ačkoli není snadno dělitelné ani přepravitelné na dlouhé vzdálenosti, což z něj činilo dobrou uchovávací hodnotu, ale dnes to není běžně používaná měna.
-reviewed: false
+  Ačkoliv není snadno dělitelné nebo přenosné na dlouhé vzdálenosti, zlato je velmi odolný materiál, což
+  ho činí dobrým uchovatelem hodnoty. Zlaté mince byly v minulosti používány jako měna, ale v dnešní digitální éře by nesloužily stejnému účelu.
+reviewed: true

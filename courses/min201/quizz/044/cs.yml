@@ -1,12 +1,13 @@
-question: Co jsou "virgin bitcoins"?
-answer: Čerstvě vytěžené bitcoiny, které ještě nebyly utraceny a nemají žádnou historii.
+question: Co jsou virgin bitcoins?
+answer: Čerstvě vytěžené bitcoiny, které nikdy nebyly utraceny a nemají k nim připojenou žádnou historii.
 wrong_answers:
   - Bitcoiny, které byly použity v nelegálních aktivitách.
   - Bitcoiny, které byly ztraceny nebo zapomenuty.
   - Bitcoiny, které byly dlouho uloženy v peněžence.
 explanation: |
-  Virgin bitcoins jsou čerstvě vytěžené bitcoiny, které ještě nebyly utraceny
-  a nemají žádnou historii. Tyto bitcoiny jsou často považovány za cennější,
-  protože nebyly nikdy znehodnoceny, což poskytuje určitou záruku proti odmítnutí
-  regulátory nebo hlavními obchodními platformami.
-reviewed: false
+  Virgin bitcoiny jsou čerstvě vytěžené bitcoiny, které nikdy
+  nebyly utraceny a nemají k nim připojenou žádnou historii. Tyto
+  bitcoiny jsou často považovány za cennější, protože nikdy
+  nebyly znehodnoceny, což poskytuje určitou záruku proti
+  odmítnutí regulátory nebo hlavními obchodními platformami.
+reviewed: true

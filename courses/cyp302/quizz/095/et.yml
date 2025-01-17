@@ -1,0 +1,9 @@
+question: Kuidas võimaldab MAC Alical kontrollida, et sõnum on tõepoolest Bobilt?
+answer: Kontrollides, kas genereeritud silt ühtib Bobi poolt saadetuga
+wrong_answers:
+  - Dekrüpteerides sõnumit, et näha, kas see on loetav
+  - Võrreldes sõnumi ja sildi suurust
+  - Kontrollides saatja IP-aadressi
+explanation: |
+  Alice kasutab jagatud salajast võtit, et genereerida saadud sõnumist silt. Kui see silt ühtib Bobi poolt saadetuga, teab ta, et sõnum on autentne ja puutumatu.
+reviewed: false

@@ -5,5 +5,9 @@ wrong_answers:
   - La Cina potrebbe controllare il prezzo del Bitcoin.
   - La Cina potrebbe vietare il mining di Bitcoin.
 explanation: |
-  La centralizzazione della produzione di hardware per il mining in Cina rappresenta un rischio per la rete Bitcoin. Se la Cina rifiuta di esportare macchine per il mining o accumula hashrate per un potenziale attacco del 51%, potrebbe minacciare la sicurezza e la decentralizzazione della rete.
-reviewed: false
+  La centralizzazione della produzione di hardware per il mining in Cina
+  rappresenta un rischio per la rete Bitcoin. Se la Cina rifiutasse di
+  esportare macchine per il mining o accumulasse hashrate per un
+  potenziale attacco del 51%, potrebbe minacciare la sicurezza e
+  la decentralizzazione della rete.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Quel est l'algorithme de chiffrement de blocs adopté comme norme AES ?
+answer: Le Rijndael Cipher
+wrong_answers:
+  - Le DES
+  - Le RSA
+  - Le Diffie-Hellman
+explanation: |
+  Le Rijndael Cipher a été adopté comme norme de chiffrement symétrique (AES) par le NIST, pour ses performances et sa sécurité élevée.
+reviewed: false

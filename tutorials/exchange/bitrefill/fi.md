@@ -28,9 +28,9 @@ Anna sähköpostiosoite. Jos haluat pitää tilisi anonyyminä, varmista, että 
 ![BITREFILL](assets/notext/05.webp)
 Jos haluat oppia, kuinka luoda helposti turvallinen sähköpostilaatikko ja hallita salasanojasi, suosittelen tutustumaan näihin kahteen muuhun ohjeeseen:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sen jälkeen napsauta "*Luo tili*" -painiketta.
 ![BITREFILL](assets/notext/06.webp)
@@ -44,7 +44,7 @@ Ja siirry "*Kirjautuminen & Turvallisuus*" -välilehteen.
 Kaksivaiheisen tunnistautumisen osiossa, napsauta "*Ota käyttöön*" -painiketta ja seuraa asennusprosessia.
 Jos haluat tietää lisää siitä, miten kaksivaiheista tunnistautumista voidaan käyttää online-tilien suojaamiseen, suosittelen tutustumaan tähän toiseen oppaaseen:
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Miten ostaa lahjakortti BTC:llä Bitrefillissä?
 
@@ -68,4 +68,4 @@ Ja siinä se on, nyt tiedät, miten voit käyttää bitcoinejasi ilman KYC:tä s
 
 Jos haluat edistää Bitcoinin suosion kasvua ja kannustaa itsenäistä kauppiasta omaksumaan tämän maksutavan, suosittelen tutustumaan kattavaan oppaaseemme Swiss Bitcoin Paysta. Se on kaiken kattava ratkaisu BTC-maksuprosessoreille, helppo asentaa ja hallita päivittäin:
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

@@ -1,0 +1,11 @@
+question: Hva er den aksiomatisk-deduktive metoden foreslått av Ludwig von Mises i studiet av samfunnsvitenskap?
+answer: Denne tilnærmingen er basert på grunnleggende proposisjoner kalt aksiomer, lik de som brukes i matematikk.
+wrong_answers:
+  - Denne tilnærmingen er basert på empiriske data og observasjoner.
+  - Denne tilnærmingen er basert på midlertidige eksperimenter og hypoteser.
+  - Denne tilnærmingen er basert på den positivistiske tilnærmingen ofte brukt i samfunnsvitenskap.
+explanation: |
+  Den aksiomatisk-deduktive metoden foreslått av Ludwig von Mises er basert
+  på grunnleggende proposisjoner kalt aksiomer, lik de som brukes i matematikk.
+  Denne metoden brukes til å studere samfunnsvitenskap, inkludert økonomi.
+reviewed: false

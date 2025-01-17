@@ -1,9 +1,9 @@
-question: Bitcoinの最小単位は何ですか？
-answer: Satoshi
+question: ECDSA署名を計算する際の開始点は何ですか？
+answer: メッセージのハッシュ
 wrong_answers:
-  - Bit
-  - Byte
-  - Coin
+  - 公開鍵
+  - 固定されたノンス
+  - カスタム楕円曲線
 explanation: |
-  Bitcoinシステムでは、アカウントの単位はbitcoin（小文字の"b"に注意）です。これは8桁の小数点まで分割可能で、最小単位はsatoshiです。
+  ECDSA署名は、署名されるメッセージのハッシュを計算することから始まります。これは、しばしばSHA256を用いて行われます。
 reviewed: false

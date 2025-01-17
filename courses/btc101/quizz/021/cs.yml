@@ -1,9 +1,11 @@
-question: Jaká je hlavní nevýhoda zlata jako formy peněz?
-answer: Není snadno dělitelné ani přepravitelné na dlouhé vzdálenosti
+question: Jaká je jedna z nevýhod zlata jako formy peněz?
+answer: Není snadno dělitelné.
 wrong_answers:
-  - Neudržuje si svou hodnotu v různých prostorách
-  - Časem se rozpadá
-  - Je snadno vyráběné
+  - Neudržuje si svou hodnotu v různých místech.
+  - Časem se rozpadá.
+  - Je snadno vyráběné.
 explanation: |
-  Hlavní nevýhoda zlata jako formy peněz spočívá v tom, že není snadno dělitelné ani přepravitelné na dlouhé vzdálenosti. To z něj činí méně praktické v globalizovaném a digitálním světě.
-reviewed: false
+  Jednou z hlavních nevýhod zlata jako formy peněz je
+  obtížnost dělení na malé jednotky podle potřeby,
+  což z něj činí méně praktické použití.
+reviewed: true

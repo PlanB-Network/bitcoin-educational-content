@@ -1,9 +1,9 @@
-question: Qual é o algoritmo que o Bitcoin usa para vincular chaves privadas e públicas?
-answer: Algoritmo de Assinatura Digital de Curva Elíptica (ECDSA)
+question: Qual é a principal limitação das carteiras JBOK?
+answer: Elas requerem um backup independente para cada chave privada
 wrong_answers:
-  - Padrão de Criptografia Avançada (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Algoritmo de Hash Seguro 2 (SHA-2)
+  - Elas não permitem a geração de novos endereços
+  - Elas são incompatíveis com assinaturas digitais
+  - Elas usam chaves públicas não comprimidas
 explanation: |
-  O Bitcoin utiliza o Algoritmo de Assinatura Digital de Curva Elíptica (ECDSA) para vincular chaves privadas e públicas.
+  As carteiras JBOK obrigam o usuário a fazer backup de cada chave privada individualmente, complicando seu gerenciamento.
 reviewed: false

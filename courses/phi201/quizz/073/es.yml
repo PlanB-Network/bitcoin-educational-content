@@ -1,0 +1,9 @@
+question: ¿Cuál es la diferencia fundamental entre el mercantilismo y el libre comercio según los fisiócratas?
+answer: El mercantilismo enriquece a una nación a expensas de otras, mientras que el libre comercio enriquece a todas las naciones.
+wrong_answers:
+  - El mercantilismo es un juego de suma positiva, mientras que el libre comercio es un juego de suma cero.
+  - El mercantilismo promueve la competencia.
+  - El libre comercio promueve el intercambio.
+explanation: |
+  Para los fisiócratas, el mercantilismo se basa en la idea de que una nación se enriquece a expensas de otras, mientras que el libre comercio permite beneficios recíprocos, enriqueciendo a todas las naciones a través de intercambios mutuamente ventajosos.
+reviewed: false

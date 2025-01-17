@@ -1,9 +1,9 @@
 question: Jaké je hlavní riziko používání úschovné služby pro uchování vašich bitcoinů?
-answer: Důvěryhodná třetí strana může kdykoliv omezit váš přístup k vašim prostředkům
+answer: Důvěryhodná třetí strana může kdykoliv omezit váš přístup k vašim prostředkům.
 wrong_answers:
-  - Důvěryhodná třetí strana může kdykoliv zvýšit hodnotu vašich bitcoinů
-  - Důvěryhodná třetí strana může kdykoliv snížit hodnotu vašich bitcoinů
-  - Důvěryhodná třetí strana nemůže kdykoliv duplikovat vaše bitcoiny
+  - Důvěryhodná třetí strana může kdykoliv zvýšit hodnotu vašich bitcoinů.
+  - Důvěryhodná třetí strana může kdykoliv snížit hodnotu vašich bitcoinů.
+  - Důvěryhodná třetí strana nemůže kdykoliv duplikovat vaše bitcoiny.
 explanation: >-
   Když používáte úschovnou službu pro uchování vašich bitcoinů, nejste jediným držitelem vašich bitcoinů. To znamená, že důvěryhodná třetí strana může kdykoliv omezit váš přístup k vašim prostředkům, což vám dává stejnou úroveň finanční suverenity jako tradiční bankovní systém.
 reviewed: true

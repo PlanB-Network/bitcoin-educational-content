@@ -1,0 +1,9 @@
+question: Mikä matematiikan ala tarjoaa nykyaikaiset työkalut lukuteorialle?
+answer: Abstrakti algebra
+wrong_answers:
+  - Geometria
+  - Tilastotiede
+  - Kompleksianalyysi
+explanation: |
+  Abstrakti algebra, matematiikan ala-alana, tarjoaa matemaattisia rakenteita, jotka mahdollistavat lukuteoriassa käytettyjen numeroiden ominaisuuksien analysoinnin ja ymmärtämisen.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Apa tujuan utama dari BIP47?
+
+answer: Memiliki pengenal unik untuk menerima BTC tanpa menggunakan ulang alamat.
+
+wrong_answers:
+  - Meningkatkan ukuran blok untuk transaksi yang lebih cepat.
+  - Memungkinkan transaksi tanpa biaya di jaringan Bitcoin.
+  - Membuat transaksi sepenuhnya anonim di Bitcoin.
+
+explanation: |
+  Tujuan dari BIP47 adalah untuk menyediakan pengenal unik yang memungkinkan penerimaan bitcoin berkali-kali dan dari banyak orang, tetapi tanpa menggunakan ulang alamat, karena ini adalah praktik yang sangat buruk untuk privasi pengguna.

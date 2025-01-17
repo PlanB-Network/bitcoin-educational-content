@@ -1,0 +1,9 @@
+question: Jakou roli hraje operace substituce bytů (S-Box) v šifrování AES?
+answer: Zavádí zmatek substitucí každého bytu jiným
+wrong_answers:
+  - Zajišťuje integritu kontrolou bytů zprávy
+  - Míchá sloupce pro zvýšení difúze
+  - Dělí otevřený text na 128-bitové bloky
+explanation: |
+  Operace substituce bytů (S-Box) v AES zavádí zmatek nahrazením každého bytu jinou hodnotou podle tabulky, což činí šifrovaný text obtížněji analyzovatelným.
+reviewed: false

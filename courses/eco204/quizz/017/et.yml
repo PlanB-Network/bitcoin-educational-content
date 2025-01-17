@@ -1,0 +1,12 @@
+question: Mis on peamine kriitika Cagani hüperinflatsiooni definitsiooni suhtes?
+answer: 50% lävi on meelevaldne ja jätab välja teatud kõrge inflatsiooni episoodid
+wrong_answers:
+  - Definitsioon on liiga lai ja hõlmab liiga palju inflatsiooni episoode
+  - Definitsioon on vananenud ja ei ole kohaldatav kaasaegsetele majandustele
+  - Definitsioon ei võta arvesse inflatsiooni mõju majandusele
+explanation: |
+  Cagani definitsiooni kriitikud, nagu Bernholz, väidavad, et 50%
+  lävi
+  on meelevaldne ja jätab välja teatud kõrge inflatsiooni episoodid, mis omavad samu
+  kvalitatiivseid omadusi kui hüperinflatsiooni episoodid.
+reviewed: false

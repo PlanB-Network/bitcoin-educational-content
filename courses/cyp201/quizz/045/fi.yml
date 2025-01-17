@@ -1,12 +1,8 @@
-question: Mikä on ECDSA-algoritmin tarkoitus Bitcoin-siirtojen yhteydessä?
-answer: Vahvistaa digitaalisia allekirjoituksia.
+question: Mikä hajautusfunktio käytetään laskemaan mnemonisen lauseen tarkistussumma?
+answer: SHA256
 wrong_answers:
-  - Salaamaan siirtotietoja.
-  - Generoimaan Bitcoin-osoitteita.
-  - Louhimaan uusia Bitcoineja.
+  - RIPEMD160
+  - SHA512
+  - HASH256
 explanation: |
-  ECDSA (Elliptic Curve Digital Signature Algorithm) käytetään
-  Bitcoin-siirtojen yhteydessä digitaalisten allekirjoitusten vahvistamiseen. Tämä mahdollistaa
-  siirron vastaanottajan vahvistaa allekirjoitetun viestin aitouden tarvitsematta
-  lähettäjän yksityistä avainta.
-reviewed: false
+  Mnemonisen lauseen tarkistussumma lasketaan soveltamalla yksinkertaista SHA256-hajautusta entropiaan.

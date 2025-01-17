@@ -1,9 +1,10 @@
-question: ¿Cuál es uno de los factores que dificulta la regulación de Bitcoin para las autoridades financieras?
-answer: Opera a escala global, las 24 horas del día, los 7 días de la semana.
+question: ¿Cuál es un factor que dificulta la regulación del Bitcoin por parte de las autoridades financieras?
+answer: Opera a escala global, 24 horas al día, 7 días a la semana.
 wrong_answers:
   - Está controlado por una autoridad central.
-  - No se utiliza en ningún lugar del mundo.
+  - No se usa en ninguna parte del mundo.
   - Es fácil de falsificar.
-explanation: |
-  El protocolo de Bitcoin es único en el sentido de que opera a escala global, las 24 horas del día, los 7 días de la semana, lo que dificulta la regulación para las autoridades financieras.
-reviewed: false
+explanation: >-
+  El protocolo de Bitcoin es único en el sentido de que opera a escala global,
+  24 horas al día, 7 días a la semana, lo que dificulta su regulación por parte de las autoridades financieras.
+reviewed: true

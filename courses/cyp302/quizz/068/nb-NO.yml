@@ -1,0 +1,8 @@
+question: Hva er nøkkelens rolle i symmetriske krypterings- og dekrypteringsprosesser?
+answer: Den brukes til å kryptere og dekryptere meldingen
+wrong_answers:
+  - Den brukes kun til å dekryptere meldingen
+  - Den brukes til å lage en verifiseringskode for meldingens integritet
+  - Den deles offentlig for å generere andre nøkler
+explanation: |
+  I symmetriske krypteringsskjemaer brukes den samme private nøkkelen både til å kryptere meldingen når den sendes og til å dekryptere den ved mottak.

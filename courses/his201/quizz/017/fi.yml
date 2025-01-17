@@ -1,0 +1,9 @@
+question: Missä Nick Szabo ensimmäisen kerran esitteli bit gold -konseptinsa vuonna 1998?
+answer: libtech-l postituslistalla
+wrong_answers:
+  - cypherpunks postituslistalla
+  - Kryptografia postituslistalla
+  - extropians postituslistalla
+explanation: |
+  Kyseessä oli hänen oma yksityinen postituslistansa, johon kuului cypherpunkseja kuten Wei Dai ja Hal Finney, sekä taloustieteilijöitä kuten Larry White ja George Selgin.
+reviewed: false

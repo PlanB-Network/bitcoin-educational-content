@@ -1,0 +1,8 @@
+question: 哪个美国联邦情报机构在2011年4月邀请Gavin Andresen几个月后介绍比特币？
+answer: 中央情报局
+wrong_answers:
+  - 联邦调查局
+  - 国家安全局
+  - 毒品执法局
+explanation: |
+  更具体地说，邀请他的是In-Q-Tel，一个由中央情报局管理的美国风险投资基金，但访问确实发生在中央情报局总部。

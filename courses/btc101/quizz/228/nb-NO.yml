@@ -1,0 +1,10 @@
+question: Hva er gebyrene for transaksjoner på Lightning Network ofte mindre enn?
+answer: 0,5%
+wrong_answers:
+  - 1%
+  - 2%
+  - 3%
+explanation: >-
+  Gebyrene for transaksjoner på Lightning Network er ekstremt lave, ofte
+  mindre enn 0,5%.
+reviewed: false

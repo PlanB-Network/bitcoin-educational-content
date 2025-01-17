@@ -1,0 +1,9 @@
+question: Mis on peamine erinevus Ameerika Revolutsiooni ja Prantsuse Revolutsiooni vahel?
+answer: Ameerika Revolutsioon viis detsentraliseeritud õigusriigi loomiseni, samas kui Prantsuse Revolutsioon viis Terrori perioodi ja diktatuurini.
+wrong_answers:
+  - Ameerika Revolutsiooni inspireerisid valgustusideed, samas kui Prantsuse Revolutsiooni inspireerisid religioossed ideed.
+  - Ameerika Revolutsiooni juhtisid kolonistid, samas kui Prantsuse Revolutsiooni juhtisid aadlikud.
+  - Ameerika Revolutsioon oli pikk, samas kui Prantsuse Revolutsioon oli lühike.
+explanation: |
+  Ameerika Revolutsioon tulemusena kujunes välja detsentraliseeritud ja stabiilne süsteem, mis põhines õigusriigil, samas kui Prantsuse Revolutsioon kiiresti laskus Terrori ja diktatuuri tõttu sisemiste lõhede ja võimu tsentraliseerimise tõttu.
+reviewed: false

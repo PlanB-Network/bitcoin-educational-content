@@ -1,9 +1,12 @@
 question: Lợi thế chính của Bitcoin so với các hình thức tiền tệ khác là gì?
-answer: Nó cung cấp một khoản lưu trữ giá trị xuất sắc do nguồn cung cực kỳ hạn chế và tính trung lập.
+answer: Nó cung cấp một khoản lưu trữ giá trị xuất sắc do nguồn cung cấp hạn chế nghiêm ngặt và tính trung lập.
 wrong_answers:
-  - Nó không thể chia nhỏ và có thể vận chuyển
-  - Nó chịu sự lạm phát tiền tệ
-  - Nó được chấp nhận rộng rãi trong thương mại
+  - Nó không thể chia nhỏ và không thể vận chuyển.
+  - Nó là một ví dụ điển hình của loại tiền tệ chịu ảnh hưởng bởi lạm phát tiền tệ.
+  - Nó được chấp nhận rộng rãi trong thương mại bởi tất cả các nhà buôn trên thế giới.
 explanation: |
-  Lợi thế chính của Bitcoin so với các hình thức tiền tệ khác là nó cung cấp một khoản lưu trữ giá trị xuất sắc do nguồn cung của nó cực kỳ hạn chế và không phụ thuộc vào bên thứ ba đáng tin cậy. Điều này làm cho nó trở thành một lựa chọn tốt cho việc tiết kiệm lâu dài.
-reviewed: false
+  Lợi thế chính của Bitcoin so với các hình thức tiền tệ khác
+  là nó cung cấp một khoản lưu trữ giá trị xuất sắc do
+  nguồn cung cấp hạn chế nghiêm ngặt và không phụ thuộc vào bên thứ ba đáng tin cậy. Điều này
+  làm cho nó trở thành một lựa chọn tốt cho việc tiết kiệm lâu dài.
+reviewed: true

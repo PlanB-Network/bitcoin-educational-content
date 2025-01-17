@@ -1,0 +1,10 @@
+question: Hva var inflasjonsraten i Ungarn i juli 1946?
+answer: 41 900 000 000 000 000 %
+wrong_answers:
+  - 207 %
+  - 50 %
+  - 100 %
+explanation: |
+  Måneden med den høyeste inflasjonen i Ungarn var juli 1946, med en rekord
+  prisinflasjon på 41 900 000 000 000 000 %.
+reviewed: true

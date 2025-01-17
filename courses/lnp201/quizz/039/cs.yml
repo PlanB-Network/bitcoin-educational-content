@@ -1,9 +1,9 @@
-question: Co se děje během transakce
-answer: Tajemství transakce
+question: Co se stane, pokud je kanál s aktivním HTLC násilně uzavřen?
+answer: HTLC je zahrnuto v transakcích závazku jako výstup.
 wrong_answers:
-  - Tajemství transakce
-  - Je rozhodnuto o novém tajemství a vytvořen nový klíč pro zrušení.
-  - Předchozí závazná transakce je aktualizována novým tajemstvím a klíčem pro zrušení.
+  - HTLC je automaticky zrušeno.
+  - Prostředky jsou přerozděleny předchozím uzlům.
+  - Kanál nemůže být uzavřen, dokud HTLC nevyprší.
 explanation: |
-  Během transakce
+  Při nuceném uzavření jsou nevyřízené HTLC reprezentovány jako výstupy v transakcích závazku, čímž je zajištěno jejich provedení nebo vrácení podle definovaných podmínek.
 reviewed: false

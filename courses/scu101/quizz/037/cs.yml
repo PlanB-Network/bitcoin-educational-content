@@ -1,13 +1,17 @@
-question: Proč by mohlo být vhodné vytvořit specifickou emailovou adresu pro aktivity spojené s Bitcoinem?
+question: Proč by mohlo být vhodné vytvořit specifickou e-mailovou adresu pro aktivity spojené s Bitcoinem?
 answer: Aby bylo možné skutečně oddělit oblasti aktivit ve vašem životě.
 wrong_answers:
   - Aby jste ukázali svou podporu pro Bitcoin.
   - Aby jste dostávali novinky a aktualizace související s Bitcoinem.
   - Aby se zvýšily vaše šance na výhru v soutěžích o Bitcoiny.
 explanation: |
-  Vytvoření specifické emailové adresy pro aktivity spojené s Bitcoinem vám umožňuje
+  Vytvoření specifické e-mailové adresy pro aktivity spojené s Bitcoinem
+  vám umožní oddělit tuto oblast aktivity od ostatních ve vašem životě, což může zvýšit bezpečnost a organizovanost.'
+  oddělit tuto oblast aktivity od ostatních ve vašem životě, což může zvýšit bezpečnost a organizovanost.' oddělit tuto
+  oblast aktivity od ostatních ve vašem životě, což může
+  zvýšit bezpečnost a organizovanost.'
 
   oddělit tuto oblast aktivity od ostatních ve vašem životě, což může zvýšit bezpečnost
 
-  a organizaci.
-reviewed: false
+  a organizovanost.'
+reviewed: true

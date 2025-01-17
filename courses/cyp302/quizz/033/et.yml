@@ -1,0 +1,9 @@
+question: Mis on seemne peamine funktsioon pseudosuvaliste ahelate kontekstis?
+answer: Tegutseda lähtepunktina pikema ahela genereerimiseks
+wrong_answers:
+  - Määrata pseudosuvalise ahela fikseeritud pikkus
+  - Kontrollida pseudosuvalise ahela terviklikkust
+  - Lisada ahela väärtustele ühtlane jaotus
+explanation: |
+  Seeme on lühem string, mida kasutatakse lähtepunktina laiendusalgoritmi poolt pikema pseudosuvalise ahela genereerimiseks.
+reviewed: false

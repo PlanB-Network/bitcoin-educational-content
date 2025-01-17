@@ -1,10 +1,9 @@
-question: Ai trả phí chốt sổ trong một đóng cửa hợp tác?
-answer: Người đã mở kênh.
+question: Bob có thể bao gồm thông tin gì trong một hóa đơn để hỗ trợ việc định tuyến?
+answer: Các kênh lân cận có đủ tính thanh khoản hoặc sự tồn tại của các kênh riêng tư
 wrong_answers:
-  - Người đã đóng kênh.
-  - Cả hai bên đều trả một cách đồng đều.
-  - Người có nhiều SAT nhất trong kênh.
+  - Khóa riêng của các nút trung gian
+  - Bản đồ đầy đủ của tất cả các kênh trong mạng
+  - Số lượng chính xác của tính thanh khoản có sẵn cho mỗi kênh
 explanation: |
-  Trong một đóng cửa hợp tác, hai bên đồng ý về trạng thái cuối cùng của
-  kênh. Người đã mở kênh sẽ trả phí chốt sổ.
+  Bằng cách chỉ ra các kênh lân cận có tính thanh khoản hoặc tiết lộ các kênh riêng tư, Bob giúp Alice chọn các tuyến đường với khả năng thành công cao hơn.
 reviewed: false

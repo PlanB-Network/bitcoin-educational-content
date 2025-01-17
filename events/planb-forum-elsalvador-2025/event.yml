@@ -1,23 +1,24 @@
-- start_date: 2025-01-31
-  end_date: 2025-02-01
+- start_date: 2025-01-30 16:00:00
+  end_date: 2025-01-31 23:00:00
+  timezone: America/El_Salvador
   address_line_1: San Salvador, El Salvador
   address_line_2: Colonia San Benito, Avenida De La Revolución
-  address_line_3: 
+  address_line_3:
   name: Plan ₿ Forum El Salvador 2025
-  builder: 
+  builder:
   type: conference
   book_online: false
   book_in_person: false
   price_dollars: 0
   description: Central America's premier Bitcoin conference, uniting global leaders, technologists, and entrepreneurs to discuss Bitcoin adoption, economics, financial freedom, and freedom of speech.
-  language: 
+  language:
     - en
     - es
   links:
     website: https://planb.sv/
     replay_url:
-    live_url :
-  tags: 
+    live_url:
+  tags:
     - International
     - Bitcoiner
     - General

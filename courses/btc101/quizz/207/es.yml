@@ -1,9 +1,10 @@
 question: ¿Cuál es uno de los riesgos potenciales de dejar tus Bitcoin en una plataforma de intercambio?
 answer: Los riesgos de hackeo y bloqueo de fondos.
 wrong_answers:
-  - El riesgo de que la plataforma aumente el precio de Bitcoin.
-  - El riesgo de que la plataforma controle la oferta de Bitcoin.
-  - El riesgo de que la plataforma te impida comprar más Bitcoin.
-explanation: |
-  El texto menciona que dejar tus Bitcoin en una plataforma de intercambio puede exponerte a los riesgos de hackeo y bloqueo de fondos.
-reviewed: false
+  - El riesgo de que la plataforma aumente el precio del Bitcoin.
+  - El riesgo de que la plataforma controle el suministro de Bitcoin.
+  - El riesgo de que el Bitcoin sea superado en precio por otra criptomoneda.
+explanation: >-
+  El texto menciona que dejar tus Bitcoin en una plataforma de intercambio puede
+  exponerte a los riesgos de hackeo y bloqueo de fondos.
+reviewed: true

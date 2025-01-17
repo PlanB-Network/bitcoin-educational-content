@@ -1,9 +1,11 @@
-question: ¿Cómo se representa comúnmente la clave privada en una billetera de Bitcoin?
-answer: Una lista de 12 o 24 palabras
+question: ¿Por qué suele estar representada la clave privada en una cartera de Bitcoin?
+answer: Una lista de 12 o 24 palabras.
 wrong_answers:
-  - Una lista de 12 o 48 palabras
-  - Una lista de 32 palabras
-  - Una lista de 64 palabras
+  - Una lista de 12 o 48 palabras.
+  - Una lista de 32 palabras.
+  - Una lista de 64 palabras.
 explanation: |
-  En una billetera de Bitcoin, la clave privada se representa comúnmente por una lista de 12 o 24 palabras, también conocida como "semilla" o "frase mnemotécnica".
-reviewed: false
+  En una cartera de Bitcoin, la clave privada suele estar representada
+  por una lista de 12 o 24 palabras, también conocida como frase semilla
+  o frase mnemotécnica.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Hva er skalerbarhetsproblemet til Bitcoin?
+answer: Utfordringen med å implementere et monetært system som er i stand til å tilby et stadig økende antall transaksjoner per sekund etter hvert som det blir adoptert.
+wrong_answers:
+  - Vanskeligheten med å utvinne nye Bitcoins.
+  - Volatiliteten til Bitcoins pris.
+  - Mangelen på regulering for Bitcoin.
+explanation: >-
+  Skalerbarhetsproblemet refererer til utfordringen med å implementere et monetært
+  system som er i stand til å tilby et stadig økende antall transaksjoner per sekund
+  etter hvert som det blir adoptert.
+reviewed: false

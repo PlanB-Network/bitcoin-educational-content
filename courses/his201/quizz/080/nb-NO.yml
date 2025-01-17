@@ -1,0 +1,9 @@
+question: Til hvilket domenenavn ble Bitcoin-forumet flyttet den 1. august 2011?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  Etter å ha blitt flyttet til forum.bitcoin.org den 17. mai, byttet det til URL-en bitcointalk.org fra og med 1. august. Gjennom årene ville det komme til å bli kjent som BitcoinTalk.
+reviewed: false

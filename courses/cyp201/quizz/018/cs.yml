@@ -1,11 +1,9 @@
-question: Jaký je účel HMAC v protokolu Bitcoin?
-answer: Používá se k odvrácení útoků typu prodloužení délky při odvozování hierarchicky deterministických (HD) peněženek.
+question: Proč nebyla v Bitcoinu použita eliptická křivka secp256r1?
+answer: Pravděpodobně aby se vyhnuli zadním vrátkům
 wrong_answers:
-  - Používá se k převodu mnemonické fráze na seed.
-  - Používá se k generování výstupu pevné velikosti.
-  - Používá se k přidání dalšího zdroje entropie při odvozování klíče.
+  - Protože je příliš pomalá
+  - Protože není standardizovaná
+  - Protože vyžaduje specializovaný hardware
 explanation: |
-  HMAC je primárně používán k odvrácení útoků typu prodloužení délky při odvozování
-  hierarchicky deterministických (HD) peněženek. Bere si zprávu a klíč jako vstupy
-  a generuje výstup pevné velikosti.
+  Satoshi Nakamoto pravděpodobně upřednostnil křivku secp256k1, protože parametry secp256r1 mohou obsahovat skrytou zranitelnost.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Miksi Alicen tarvitsee saada Bobin allekirjoitus ennen kuin hän julkaisee tapahtumat kanavan avaamiseksi?
-answer: Varmistaakseen, että hän voi palauttaa varansa yksin, jos jotain menee pieleen.
+question: Mitä sitoumustapahtuma Lightning-kanavassa heijastaa?
+answer: Uusi varojen jakautuminen kahden osapuolen välillä
 wrong_answers:
-  - Vahvistaakseen Bobin suostumuksen kanavan avaamiseen.
-  - Varmistaakseen Bobin henkilöllisyyden.
-  - Salatakseen tapahtumat turvallisuuden vuoksi.
+  - Tehdyn transaktioiden kokonaismäärä
+  - Transaktiosta maksettavien maksujen määrä
+  - Uuden maksukanavan avaaminen
 explanation: |
-  Alice pyytää Bobilta allekirjoitusta hänen julkisella avaimellaan ennen tapahtumien julkaisemista. Tämä varmistaa, että hän voi palauttaa varansa yksin, jos jotain menee pieleen, koska hänellä on jo Bobin allekirjoitus.
+  Sitoumustapahtuma edustaa nykyistä varojen jakautumista kanavassa jokaisen Lightning-transaktion jälkeen, mutta sitä ei julkaista lohkoketjussa niin kauan kuin kanava pysyy avoimena.
 reviewed: false

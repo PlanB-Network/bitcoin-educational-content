@@ -1,0 +1,5 @@
+description: |
+  Bitcoin Core on avatud lähtekoodiga viitesüsteem Bitcoini süsteemile ja on tänaseni Bitcoini protokolli peamine rakendus. Seda arendab ja haldab suur vabatahtlike kaastöötajate grupp. Algselt nimetati seda “Bitcoin Qt” ja see on Bitcoini ajaloos kolmas klient pärast Satoshi Nakamoto algset Bitcoini klienti ja Bitcoindi. See töötati välja Satoshi algsest koodist ning tutvustas graafilist kasutajaliidest. Huvitaval kombel nimetatakse Bitcoin Core graafilist liidest tänapäevalgi bitcoin-qt-ks. Alates versioonist 0.5 on see kaasas bitcoind-ga. Bitcoin Core täidab mitmeid funktsioone. Esiteks toimib see täissõlme kliendina. Bitcoin Core sisaldab ka rahakotti (wallet), mis võimaldab kasutajatel Bitcoine otse Bitcoin Core abil salvestada, hallata ja tehinguid teha.
+
+contributors:
+  - pretty-private

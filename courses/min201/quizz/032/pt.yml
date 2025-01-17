@@ -5,5 +5,7 @@ wrong_answers:
   - Apenas taxas de transação.
   - Não há recompensa para os mineradores.
 explanation: |
-  Os mineradores na rede Bitcoin são recompensados com novos bitcoins e taxas de transação pelo seu trabalho de validação e criação de blocos.
-reviewed: false
+  Os mineradores na rede Bitcoin são recompensados com novos
+  bitcoins e taxas de transação pelo seu trabalho na validação
+  e criação de blocos.
+reviewed: true

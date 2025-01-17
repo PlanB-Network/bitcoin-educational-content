@@ -1,0 +1,8 @@
+question: Какой майнер с 2009 года потерял все свои биткойны, выбросив свой компьютер на свалку в 2013 году?
+answer: Джеймс Хауэллс
+wrong_answers:
+  - Дастин Траммелл
+  - Мартти Малми
+  - NewLibertyStandard
+explanation: |
+  Этот британский инженер добыл 8,000 биткойнов на своем компьютере между февралем и апрелем 2009 года. Его случай был [освещен](https: //www.theguardian.com/technology/2013/nov/27/hard-drive-bitcoin-landfill-site) в Guardian.

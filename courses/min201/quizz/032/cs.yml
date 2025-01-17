@@ -3,7 +3,9 @@ answer: Nové bitcoiny a transakční poplatky.
 wrong_answers:
   - Pouze nové bitcoiny.
   - Pouze transakční poplatky.
-  - Těžaři nedostávají žádnou odměnu.
+  - Pro těžaře není žádná odměna.
 explanation: |
-  Těžaři v síti Bitcoin jsou odměňováni novými bitcoiny a transakčními poplatky za svou práci na validaci a vytváření bloků.
-reviewed: false
+  Těžaři v síti Bitcoin jsou odměňováni novými
+  bitcoiny a transakčními poplatky za jejich práci při validaci
+  a vytváření bloků.
+reviewed: true

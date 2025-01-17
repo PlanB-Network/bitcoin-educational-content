@@ -1,0 +1,9 @@
+question: Mis on üks viis Lightning Network'i ise järele proovida?
+answer: Proovides podcasti rakendust Fountain
+wrong_answers:
+  - Kaevandades Bitcoini
+  - Ostes Bitcoini
+  - Luues uue krüptoraha
+explanation: >-
+  Üks viis Lightning Network'i ise järele proovida on proovida podcasti rakendust Fountain, mis võimaldab sul saada mõned satsid preemiaks oma lemmikpodcaste kuulates. 
+reviewed: false

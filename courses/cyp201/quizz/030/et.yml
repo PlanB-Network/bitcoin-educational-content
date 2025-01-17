@@ -1,0 +1,9 @@
+question: Mis on SIGHASH_SINGLE eesmärk?
+answer: Katma ühe sisendi ja selle vastava väljundi
+wrong_answers:
+  - Katma kõik sisendid ja väljundid
+  - Katma ainult sisendid
+  - Katma kõik väljundid peale ühe
+explanation: |
+  SIGHASH_SINGLE katab ühe sisendi ja ühe vastava väljundi, mis vastab allkirjastatud sisendi indeksile, jättes ülejäänud muudetavaks.
+reviewed: false

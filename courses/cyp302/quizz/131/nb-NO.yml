@@ -1,0 +1,8 @@
+question: Hvorfor brukes asymmetrisk kryptografi mindre enn symmetrisk kryptografi i store datautvekslinger?
+answer: Det er mindre effektivt for et tilsvarende sikkerhetsnivå
+wrong_answers:
+  - Det sikrer ikke autentisiteten til meldinger
+  - Det krever flere offentlige nøkler for hver utveksling
+  - Det er ikke kompatibelt med moderne kommunikasjonsprotokoller
+explanation: |
+  Asymmetrisk kryptografi, selv om det er kraftfullt for autentisering og initiell kryptering, krever mer ressurser, noe som gjør bruken ineffektiv for betydelige datatransfers.

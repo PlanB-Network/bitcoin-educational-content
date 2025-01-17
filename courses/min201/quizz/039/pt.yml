@@ -1,9 +1,14 @@
-question: Qual é o potencial desvantagem da mineração para a rede?
-answer: Sem incentivo financeiro suficiente, pode ser difícil para os mineradores continuarem apoiando a rede.
+question: Qual é a desvantagem potencial da mineração para a rede?
+answer: Sem incentivo financeiro suficiente, pode ser difícil para os mineradores continuarem apoiando a rede
 wrong_answers:
   - Pode levar a uma diminuição no preço do Bitcoin
   - Pode levar a um aumento na taxa de hash da rede
   - Pode levar a uma diminuição no número de nós ativos na rede
 explanation: |
-  Minerar para a rede é uma iniciativa nobre que contribui para a segurança e descentralização da rede Bitcoin. No entanto, sem incentivo financeiro suficiente, pode ser difícil para os mineradores continuarem apoiando a rede, especialmente se operarem com prejuízo.
-reviewed: false
+  Minerar para a rede é uma iniciativa nobre que
+  contribui para a segurança e descentralização da
+  rede Bitcoin. No entanto, sem incentivo financeiro
+  suficiente, pode ser difícil para os mineradores
+  continuarem apoiando a rede, especialmente se eles
+  operarem com prejuízo.
+reviewed: true

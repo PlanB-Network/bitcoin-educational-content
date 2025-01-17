@@ -1,9 +1,11 @@
-question: Cosa potrebbero fare i servizi tradizionali di trasferimento di denaro come Western Union, le banche centrali, Visa e Mastercard se non adottassero la tecnologia Lightning Network?
+question: Cosa potrebbe accadere ai servizi tradizionali di trasferimento di denaro come Western Union, alle banche centrali, a Visa e a Mastercard se non adottassero la tecnologia Lightning Network?
 answer: Potrebbero scomparire.
 wrong_answers:
   - Potrebbero diventare più popolari.
   - Potrebbero diventare più sicuri.
   - Potrebbero diventare più decentralizzati.
 explanation: |
-  I servizi tradizionali di trasferimento di denaro come Western Union, le banche centrali, Visa e Mastercard potrebbero scomparire se non adottassero la tecnologia Lightning Network.
-reviewed: false
+  I servizi tradizionali di trasferimento di denaro come Western Union,
+  le banche centrali, Visa e Mastercard potrebbero scomparire se non
+  adottassero la tecnologia Lightning Network.
+reviewed: true

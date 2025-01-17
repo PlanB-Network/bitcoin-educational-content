@@ -5,5 +5,7 @@ wrong_answers:
   - Seurata verkkotoimintaasi
   - Nopeuttaa internet-yhteytesi nopeutta
 explanation: |
-  Kaksivaiheinen tunnistautuminen (2FA) lisää ylimääräisen turvakerroksen verkkotileihisi. Vaikka hakkeri saisi salasanasi, hän ei pysty pääsemään tilillesi ilman toista vahvistustekijää.
-reviewed: false
+  2FA lisää ylimääräisen turvakerroksen verkkotileihisi.
+  Vaikka hakkeri saisi salasanasi, hän ei pystyisi
+  pääsemään tilillesi ilman toista vahvistustekijää.
+reviewed: true

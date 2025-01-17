@@ -1,10 +1,9 @@
 question: Bitcoin単位の主な目的は何ですか？
-answer: Bitcoin単位は、Bitcoinプロトコルの適切な機能のために必要な通貨です。
+answer: Bitcoin単位は、Bitcoinプロトコルの適切な機能を果たすために必要な通貨です。
 wrong_answers:
-  - Bitcoin単位は、Bitcoinの価格を調整するために使用されます。
-  - Bitcoin単位は、Bitcoinプロトコルを制御するために使用されます。
-  - Bitcoin単位は、新しいbitcoinsを作成するために使用されます。
+  - Bitcoin単位は、Bitcoinの価格を規制するチームです。
+  - Bitcoin単位は、Bitcoinプロトコルを制御する中央権威です。
+  - Bitcoin単位は、Bitcoin交換プラットフォームです。
 explanation: |
-  Bitcoin単位は、Bitcoinプロトコルの適切な機能のために必要な通貨です。
-  これは取引に使用され、機能するためにBitcoinプロトコルに依存しています。
+  Bitcoin単位は、Bitcoinプロトコルの適切な機能を果たすために必要な通貨です。これは取引に使用され、その機能はBitcoinプロトコルに依存しています。
 reviewed: true

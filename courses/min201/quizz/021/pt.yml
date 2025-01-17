@@ -1,9 +1,13 @@
-question: Qual é o incentivo econômico para usar um minerador de Bitcoin em vez de um simples aquecedor elétrico?
-answer: O minerador não apenas fornece calor, mas também uma recompensa em Bitcoin.
+question: Qual é o incentivo econômico para usar um minerador de Bitcoin em vez de um aquecedor elétrico simples?
+answer: O minerador não só fornece calor, mas também uma recompensa em Bitcoin.
 wrong_answers:
-  - O minerador consome menos eletricidade do que um simples aquecedor elétrico.
-  - O minerador produz mais calor do que um simples aquecedor elétrico.
-  - O minerador é mais barato do que um simples aquecedor elétrico.
+  - O minerador usa menos eletricidade do que um aquecedor elétrico simples.
+  - O minerador produz mais calor do que um aquecedor elétrico simples.
+  - O minerador é mais barato do que um aquecedor elétrico simples.
 explanation: |
-  A diferença entre usar um minerador e um simples aquecedor elétrico reside no fato de que o minerador não apenas fornece calor, mas também uma recompensa em Bitcoin. Essa recompensa adicional pode ajudar a amenizar preocupações sobre o alto consumo de energia dos mineradores.
-reviewed: false
+  A diferença entre usar um minerador e um aquecedor elétrico
+  simples reside no fato de que o minerador não só fornece
+  calor, mas também uma recompensa em Bitcoin. Esta recompensa
+  adicional poderia ajudar a aliviar preocupações sobre o alto
+  consumo de energia dos mineradores.
+reviewed: true

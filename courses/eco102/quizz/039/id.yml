@@ -1,0 +1,8 @@
+question: Apa prinsip para yuris menurut Bastiat?
+answer: Ini adalah prinsip kedudukan hukum di atas properti
+wrong_answers:
+  - Ini adalah prinsip kedudukan properti di atas hukum
+  - Ini adalah prinsip kesetaraan di depan hukum
+  - Ini adalah hak atas properti tanpa intervensi negara
+explanation: |
+  Bagi Bastiat, prinsip para yuris, berlawanan dengan ekonom, menempatkan hukum mendahului properti, sebuah posisi yang ia kritik karena potensinya untuk menetapkan ketidakadilan.

@@ -1,0 +1,11 @@
+question: Bagaimana label-label yang terkait dengan dompet Bitcoin disimpan?
+
+answer: Secara lokal pada perangkat lunak dompet.
+
+wrong_answers:
+  - Dalam basis data terpusat yang dikontrol oleh pengembang.
+  - Di blockchain Bitcoin melalui sebuah OP_RETURN.
+  - Hanya dalam RAM selama eksekusi perangkat lunak.
+
+explanation: |
+  Label disimpan secara lokal oleh perangkat lunak dompet dan tidak pernah ditransmisikan melalui jaringan Bitcoin. Dengan demikian, pelabelan adalah alat manajemen pribadi.

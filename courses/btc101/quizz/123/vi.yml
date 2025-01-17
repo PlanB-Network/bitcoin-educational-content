@@ -1,9 +1,9 @@
-question: Số block của giao dịch Bitcoin đầu tiên là bao nhiêu?
-answer: Block 170
+question: Số khối của giao dịch Bitcoin đầu tiên là bao nhiêu?
+answer: Khối 170.
 wrong_answers:
-  - Block 1
-  - Block 17
-  - Block 1700
+  - Khối 1.
+  - Khối 17.
+  - Khối 1700.
 explanation: |
-  Giao dịch Bitcoin đầu tiên, là giao dịch 10 BTC giữa Satoshi Nakamoto và Hal Finney, được ghi lại trong block 170.
-reviewed: false
+  Giao dịch Bitcoin đầu tiên, là giao dịch 10 BTC giữa Satoshi Nakamoto và Hal Finney, được ghi lại trong khối 170.
+reviewed: true

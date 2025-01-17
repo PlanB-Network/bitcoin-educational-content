@@ -1,0 +1,9 @@
+question: Pour Bastiat, quel est le remède au mal dans la société ?
+answer: Dans la liberté elle-même
+wrong_answers:
+  - Dans la volonté de puissance
+  - Dans la sanction par un système judiciaire répressif et intraitable
+  - Dans la recherche de l'égalité parfaite
+explanation: |
+  Bastiat estime que la liberté, associée à une responsabilité individuelle pleine et entière, est le moyen de contrer le mal et d'inciter à des actions plus responsables et justes.
+reviewed: false

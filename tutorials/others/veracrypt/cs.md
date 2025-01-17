@@ -15,7 +15,7 @@ Jinými slovy, je vhodné ukládat vaše soubory na 3 různých místech, použ�
 
 Pro snadnou implementaci této strategie 3-2-1 můžete zvolit online úložné řešení, automaticky nebo periodicky synchronizující soubory z vašeho počítače s těmi ve vašem cloudu. Mezi těmito online zálohovacími řešeními jsou samozřejmě ty od velkých digitálních společností, které znáte: Google Drive, Microsoft OneDrive nebo Apple iCloud. Tyto však nejsou nejlepšími řešeními pro ochranu vašeho soukromí. V předchozím tutoriálu jsem vám představil alternativu, která šifruje vaše dokumenty pro lepší důvěrnost: Proton Drive.
 
-https://planb.network/tutorials/others/proton-drive
+https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Přijetím této strategie lokálního a cloudového zálohování již těžíte ze dvou různých typů médií pro vaše data, z nichž jedno je mimo místo. Pro dokončení strategie 3-2-1 stačí přidat další kopii. Co vám radím, je jednoduše periodicky exportovat vaše data přítomná lokálně a na vašem cloudu na fyzické médium, jako je USB klíč nebo externí pevný disk. Tímto způsobem, i když servery vašeho online úložného řešení jsou zničeny a váš počítač se pokazí současně, stále máte tuto třetí kopii na externím médiu, abyste neztratili svá data.
 ![VeraCrypt](assets/notext/01.webp)

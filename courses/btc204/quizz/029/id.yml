@@ -1,0 +1,9 @@
+question: Diantara 4 metode mendapatkan bitcoin ini, mana yang paling minim memaparkan Anda terhadap risiko identifikasi kunci?
+answer: Membeli secara P2P dengan tunai
+wrong_answers:
+  - Membeli melalui platform teratur tanpa KYC
+  - Membeli melalui platform teratur dengan KYC
+  - Membeli via PayPal melalui platform perjodohan P2P
+explanation: |
+  Membeli bitcoin secara peer-to-peer dengan tunai adalah metode yang paling minim memaparkan Anda terhadap risiko identifikasi kunci karena tidak memerlukan melalui perusahaan yang diatur dan tidak meninggalkan jejak dalam sistem perbankan. Selain itu, metode ini umumnya tidak memerlukan pengungkapan informasi pribadi.
+reviewed: false

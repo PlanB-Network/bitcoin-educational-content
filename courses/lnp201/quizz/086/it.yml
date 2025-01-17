@@ -1,9 +1,0 @@
-question: Cosa devono fare i commercianti per gestire la liquidità sulla Lightning Network?
-answer: Hanno bisogno di liquidità in entrata da altri nodi e attori
-wrong_answers:
-  - Devono aprire canali
-  - Devono mantenere un equilibrio di liquidità su entrambi i lati
-  - Devono acquistare canali
-explanation: |
-  Per i commercianti sulla Lightning Network, gestire la liquidità significa avere bisogno di liquidità in entrata da altri nodi e attori. Ciò significa che devono avere persone connesse a loro.
-reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Menara Pengawas
+name: Watch Tower
 description: Memahami dan menggunakan menara pengawas
 ---
 

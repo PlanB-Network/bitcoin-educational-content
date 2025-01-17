@@ -1,0 +1,8 @@
+question: Hva skiller et moderne kryptografisystem fra et enkelt krypteringssystem?
+answer: Sikringen av meldingens integritet og autentisitet
+wrong_answers:
+  - Bruken av en enkelt hemmelig nøkkel
+  - Desentraliseringen av nøkkelen
+  - Anonymiseringen av meldinger
+explanation: |
+  Moderne kryptografi inkluderer systemer som går utover konfidensialitet for å sikre integritet og autentisitet, samt ikke-avvisning, i motsetning til enkle krypteringssystemer.

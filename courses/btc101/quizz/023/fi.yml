@@ -1,12 +1,12 @@
 question: Mikä on rahan rooli viestintävälineenä?
-answer: Sen avulla voidaan välittää arvoa ajan ja paikan yli ilman tarvetta luottaa vastapuoleen
+answer: Sen avulla voidaan välittää arvoa ajan ja paikan yli ilman tarvetta luottaa vastapuoleen.
 wrong_answers:
-  - Sen avulla voidaan välittää arvoa vain paikan yli ilman tarvetta luottaa vastapuoleen
-  - Sen avulla voidaan välittää arvoa vain ajan yli ilman tarvetta luottaa vastapuoleen
-  - Sen avulla voidaan välittää arvoa ajan ja paikan yli, mutta tarvitaan luottamusta vastapuoleen
+  - Sen avulla voidaan välittää arvoa vain paikan yli ilman tarvetta luottaa vastapuoleen.
+  - Sen avulla voidaan välittää arvoa vain ajan yli ilman tarvetta luottaa vastapuoleen.
+  - Sen avulla voidaan välittää arvoa ajan ja paikan yli, mutta tarvitaan luottamusta vastapuoleen.
 explanation: |
-  Raha viestintävälineenä mahdollistaa viestinnän ajan ja paikan yli, kun muutamme aikamme ja energiamme omaisuudeksi, jota voidaan käyttää uudelleen
-  tulevaisuudessa ilman arvon alenemisen riskiä. Se mahdollistaa myös viestinnän
-  yleismaailmallisella yhteisellä kielellä, mahdollistaen kahden tuntemattoman vaihtaa, käydä kauppaa ja sopia
-  asioiden arvosta.
-reviewed: false
+  Raha viestintävälineenä mahdollistaa viestinnän ajan ja paikan yli, kun muutamme aikamme ja energiamme
+  uudelleenkäytettäväksi omaisuudeksi, joka voidaan hyödyntää tulevaisuudessa ilman arvon alenemisen riskiä.
+  Se mahdollistaa myös viestinnän yleisessä yhteisessä kielessä, joka mahdollistaa kahden tuntemattoman
+  vaihtokaupan, kaupankäynnin ja sopimuksen asioiden arvosta.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mitä Rousseau sanoo yksilön muuttumisesta kansalaiseksi?
+answer: Aloitamme vasta tulemaan ihmisiksi sen jälkeen, kun olemme olleet kansalaisia
+wrong_answers:
+  - Aloitamme vasta tulemaan kansalaisiksi sopimuksen myötä
+  - Tulemme kansalaisiksi vain sen jälkeen, kun olemme olleet tasa-arvoisia
+  - Kansalaiseksi tuleminen edeltää kansalaisuutta
+explanation: |
+  Rousseau väittää, että yksilöstä tulee täysin ihminen käymällä läpi kansalaisuuden vaiheen, yhdistäen näin henkilökohtaisen täyttymyksen sosiaaliseen integraatioon.
+reviewed: false

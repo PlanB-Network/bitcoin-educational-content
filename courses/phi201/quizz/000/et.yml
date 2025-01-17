@@ -1,0 +1,9 @@
+question: Mis on selle kursuse eesmärk?
+answer: Kõik eelnev
+wrong_answers:
+  - Uurida ajaloolisi sündmusi, mis on märkinud võitlust vabaduse eest
+  - Mõista ideede ja sündmuste vahelist seost, et paremini tegutseda tänapäeval
+  - Määratleda filosoofilised kontseptsioonid, mis on seotud vabadusega
+explanation: |
+  Selle kursuse eesmärk on mitmekülgne: see eesmärk on uurida mõjukaid ajaloolisi sündmusi võitluses vabaduse eest, analüüsida ideede ja sündmuste vahelist seost, et valgustada meie praeguseid tegusid, ning selgitada vabadusega seotud filosoofilisi kontseptsioone.
+reviewed: false

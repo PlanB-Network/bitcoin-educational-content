@@ -1,0 +1,8 @@
+question: Sistem mata uang digital apa yang menarik minat insinyur Google Mike Hearn sebelum menemukan Bitcoin?
+answer: Ripple
+wrong_answers:
+  - Liberty Reserve
+  - eLD
+  - RPOW
+explanation: |
+  Mike Hearn pertama kali mendengar tentang Bitcoin pada April 2009 di grup proyek Google milik Ryan Fugger. Ia langsung menghubungi Satoshi untuk bertanya.

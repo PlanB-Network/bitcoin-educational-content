@@ -1,9 +1,9 @@
-question: Ai khởi xướng quá trình mở một kênh trong Mạng Lưới Lightning?
-answer: Alice
+question: Timelock bảo vệ chống lại gian lận trong các giao dịch cam kết như thế nào?
+answer: Nó ngăn chặn bên vi phạm lấy lại ngay lập tức số tiền của họ
 wrong_answers:
-  - Bob
-  - Cả Alice và Bob
-  - Không phải Alice cũng không phải Bob
+  - Nó tự động hoàn tiền cho kẻ gian lận
+  - Nó hủy bỏ giao dịch trong trường hợp có sự cố gắng gian lận
+  - Nó chặn việc sử dụng khóa thu hồi
 explanation: |
-  Trong quá trình mở một kênh trong Mạng Lưới Lightning, Alice là người khởi xướng quá trình. Cô ấy thông báo ý định mở một kênh cho Bob, người sau đó cung cấp địa chỉ công khai của mình như một phản hồi.
+  Timelock áp đặt một khoảng thời gian chờ trong đó kẻ gian lận không thể lấy lại số tiền của mình, do đó cho phép bên kia có cơ hội phản ứng.
 reviewed: false

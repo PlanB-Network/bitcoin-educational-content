@@ -1,9 +1,11 @@
-question: ¿Cuál es la principal ventaja de utilizar software de código abierto?
-answer: Permite verificar que no hay acceso oculto para robar tus datos personales.
+question: ¿Cuál es la principal ventaja de usar software de código abierto?
+answer: Permite verificar que no hay accesos ocultos para robar tus datos personales.
 wrong_answers:
   - Siempre es gratuito.
   - Siempre es más seguro que el software de código cerrado.
-  - Siempre es más fácil de usar que el software de código cerrado.
+  - Siempre es más amigable para el usuario que el software de código cerrado.
 explanation: |
-  El software de código abierto es un software cuyo código es conocido y accesible para todos. Esto permite verificar, entre otras cosas, que no hay acceso oculto para robar tus datos personales. Sin embargo, no siempre es gratuito, más seguro o más fácil de usar que el software de código cerrado.
-reviewed: false
+  El software de código abierto es un software cuyo código es conocido y
+  accesible para todos. Esto permite verificar, entre otras cosas, que no hay accesos ocultos para robar tus datos personales. Sin embargo, no siempre es gratuito, más seguro, o
+  más amigable para el usuario que el software de código cerrado.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Mida peaksite tegema pärast ümbriku säilitamist vastavalt peatükile?
+answer: Veenduge, et teie pärijad teaksid, et vajadusel peavad nad selle ümbriku välja võtma.
+wrong_answers:
+  - Veenduge, et teie pärijad ei teaks, et vajadusel peavad nad selle ümbriku välja võtma.
+  - Veenduge, et teie pärijad teaksid, et neil pole vajadusel vaja seda ümbrikut välja võtta.
+  - Veenduge, et teie pärijad ei teaks, et neil pole vajadusel vaja seda ümbrikut välja võtta.
+explanation: |
+  Pärast ümbriku säilitamist peaksite veenduma, et teie pärijad teaksid,
+  et vajadusel peavad nad selle ümbriku välja võtma, nagu peatükis soovitatud.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kuidas võimaldab Lightning Network saata vahendeid sõlmele, mis pole otseselt ühendatud?
+answer: Makse suunamisega vahendajate sõlmede kaudu
+wrong_answers:
+  - Kasutades iga sõlme vahel on-chain tehinguid
+  - Automaatselt ajutise kanali loomisega
+  - Saates vahendid otse multisignatuuriga aadressidele
+explanation: |
+  Lightning Network võimaldab makse suunamist mitme vahendaja sõlme kaudu, ilma et oleks vaja otsest kanalit saatja ja saaja vahel.
+reviewed: false

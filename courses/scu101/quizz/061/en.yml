@@ -5,8 +5,6 @@ wrong_answers:
   - Swift, Kotlin, Ruby
   - PHP, Perl, Lua
 explanation: |
-  The chapter lists Python, C, and Java as some of the programming languages
-
-
-  used in cybersecurity.'''
-reviewed: false
+  The chapter lists Python, C, and Java as some of the
+  programming languages used in cybersecurity.
+reviewed: true

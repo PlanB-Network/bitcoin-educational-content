@@ -1,0 +1,9 @@
+question: Qu'est-ce que le problème de gestion des clés ?
+answer: La complexité de sécuriser et stocker une paire de clés pour chaque client
+wrong_answers:
+  - L'impossibilité de renouveler les clés perdues par les clients
+  - Le besoin de déchiffrer chaque clé avant utilisation par le client
+  - La nécessité de transmettre des clés pour chaque communication
+explanation: |
+  Le problème de gestion des clés réside dans la difficulté de stocker et de sécuriser une paire de clés pour chaque utilisateur, en particulier lorsque le nombre de clients atteint des millions.
+reviewed: false

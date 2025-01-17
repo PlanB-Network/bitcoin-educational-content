@@ -1,10 +1,12 @@
 question: What is the main purpose of the Bitcoin unit?
 answer: The Bitcoin unit is the currency necessary for the proper functioning of the Bitcoin protocol.
 wrong_answers:
-  - The Bitcoin unit is used to regulate the price of Bitcoin.
-  - The Bitcoin unit is used to control the Bitcoin protocol.
-  - The Bitcoin unit is used to create new bitcoins.
+  - The Bitcoin unit is a team that regulates the price of Bitcoin.
+  - The Bitcoin unit is a central authority that controls the Bitcoin protocol.
+  - The Bitcoin unit is a Bitcoin exchange platform.
 explanation: |
-  The Bitcoin unit is the currency necessary for the proper functioning of the Bitcoin protocol.
-  It is used for transactions and relies on the Bitcoin protocol to function.
+  The Bitcoin unit is the currency necessary for the proper
+  functioning of the Bitcoin protocol. It is used for
+  transactions and relies on the Bitcoin protocol to
+  function.
 reviewed: true

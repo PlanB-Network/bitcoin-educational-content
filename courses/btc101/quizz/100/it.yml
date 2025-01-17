@@ -1,9 +1,11 @@
 question: Cosa indica l'assenza di una frase mnemonica in un portafoglio?
-answer: Il portafoglio non è sicuro per conservare a lungo termine
+answer: Indica che il portafoglio non è sicuro per la conservazione a lungo termine di Bitcoin.
 wrong_answers:
-  - Il portafoglio è sicuro per conservare a lungo termine
-  - Il portafoglio non è sicuro per conservare a breve termine
-  - Il portafoglio non è sicuro per effettuare transazioni
+  - Indica che il portafoglio è completamente sicuro e non richiede alcun backup.
+  - Significa che il portafoglio può contenere molti diversi titoli.
+  - Suggerisce che il portafoglio è automaticamente salvato in backup dal tuo dispositivo.
 explanation: |
-  L'assenza di una lista di 12 o 24 parole, ovvero la frase mnemonica, in un portafoglio dovrebbe avvisarti che il portafoglio non è sicuro in quanto non segue la procedura standard di backup.
-reviewed: false
+  L'assenza di una lista di 12 o 24 parole, ovvero la
+  frase mnemonica, in un portafoglio dovrebbe allertarti sul fatto che
+  il portafoglio non è sicuro in quanto non segue le procedure standard di backup.
+reviewed: true

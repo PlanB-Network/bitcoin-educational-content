@@ -1,0 +1,8 @@
+question: ¿Qué tipo de cifrado es el cifrado por desplazamiento?
+answer: Un cifrado de sustitución monoalfabético
+wrong_answers:
+  - Un cifrado de permutación de palabras
+  - Un cifrado de sustitución polialfabético
+  - Un cifrado asimétrico
+explanation: |
+  El cifrado por desplazamiento es un ejemplo de un cifrado de sustitución monoalfabético, donde cada letra en el mensaje se desplaza un número fijo de posiciones en el alfabeto.

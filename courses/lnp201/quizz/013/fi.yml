@@ -1,9 +1,9 @@
-question: Mikä on Lightning Network?
-answer: Kerros 2 -protokolla Bitcoinin päällä, joka mahdollistaa nopeammat transaktiot.
+question: Mitä tapahtuu, jos Alice ei saa Bobin allekirjoitusta nostotapahtumaan?
+answer: Hän riskeeraa menettävänsä pääsynsä varoihinsa, jotka on talletettu moniallekirjoitusosoitteeseen
 wrong_answers:
-  - Eräänlainen kryptovaluutta.
-  - Lohkoketjuselain.
-  - Digitaalinen lompakko bitcoinejen säilyttämiseen.
+  - Hän ei voi enää kommunikoida Bobin kanssa Lightning-verkossa
+  - Kanava avautuu rajoitetulla kapasiteetilla
+  - Bob saa automaattisesti kanavassa olevat varat
 explanation: |
-  Lightning Network on kerros 2 -protokolla Bitcoinin päällä. Se on suunniteltu mahdollistamaan nopeammat transaktiot luomalla off-chain maksukanavia.
+  Ilman Bobin allekirjoitusta nostotapahtumassa Alice ei voi varmistaa varojensa palautumista ongelmatilanteessa, mikä aiheuttaa menetysriskin.
 reviewed: false

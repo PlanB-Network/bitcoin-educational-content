@@ -1,10 +1,9 @@
-question:
-  Rajoittaako Lightning-maksukanavan kapasiteetti kokonaisten transaktioiden määrää tai Bitcoinien kokonaismäärää, joka voidaan lähettää kanavan kautta?
-answer: Tämä on väärin
+question: Kuinka 2/2 moniallekirjoitusosoite toimii Bitcoinissa?
+answer: Se vaatii kaksi allekirjoitusta varojen lukituksen avaamiseen ja käyttämiseen.
 wrong_answers:
-  - Tämä on totta
-  - Tämä on totta vain joissakin tapauksissa
-  - Se riippuu Bitcoin-verkosta
+  - Se mahdollistaa varojen käyttämisen vain yhdellä kahdesta avaimesta.
+  - Se valtuuttaa tapahtumat vain tietyissä lukitustapauksissa.
+  - Sitä käytetään vain varojen lähettämiseen julkisiin osoitteisiin.
 explanation: |
-  Vaikka Lightning-maksukanavan kapasiteetti on kiinteä, se ei rajoita kokonaisten transaktioiden määrää tai Bitcoinien kokonaismäärää, joka voidaan lähettää kanavan kautta.
+  2/2 moniallekirjoitusosoite vaatii molempien osapuolten allekirjoitukset, jotta varat voidaan käyttää, mikä on käytössä Lightning-kanavien turvallisuuden vuoksi.
 reviewed: false

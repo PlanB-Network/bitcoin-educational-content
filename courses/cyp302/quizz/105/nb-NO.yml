@@ -1,0 +1,8 @@
+question: Hvordan kan parter sikre riktig rekkefølge av meldinger i en sikker økt?
+answer: Ved å bruke sekvensnumre i hver melding
+wrong_answers:
+  - Ved å utveksle nøkler for hver melding
+  - Ved å legge til forsinkelser mellom meldinger
+  - Ved å kryptere meldinger med en annen algoritme
+explanation: |
+  Sekvensnumre sikrer at meldinger mottas i riktig rekkefølge og forhindrer omorganisering av dem.

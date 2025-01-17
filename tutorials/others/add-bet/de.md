@@ -14,10 +14,10 @@ Möchten Sie an der Bereicherung dieser Datenbank teilnehmen, wissen aber nicht 
 ![event](assets/01.webp)
 - Zuerst müssen Sie ein Konto auf GitHub haben. Wenn Sie nicht wissen, wie Sie ein Konto erstellen, haben wir ein detailliertes Tutorial erstellt, um Sie zu führen.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) im Abschnitt `resources/bet/`:
+- Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) im Abschnitt `resources/bet/`:
 ![event](assets/02.webp)
 - Klicken Sie oben rechts auf den Button `Add file`, dann auf `Create new file`:
 ![event](assets/03.webp)
@@ -47,7 +47,7 @@ contributors:
 ```
 - **`builder`**: Geben Sie den Identifikator Ihrer Organisation im PlanB-Netzwerk an. Wenn Sie noch keinen "builder"-Identifikator für Ihr Unternehmen haben, können Sie einen mit diesem Tutorial erstellen.
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  Wenn Sie keinen haben, können Sie einfach Ihren Namen, Ihr Pseudonym oder den Namen Ihres Unternehmens verwenden, ohne ein Builder-Profil erstellt zu haben.
 - **`type`**: Wählen Sie die Art Ihres Inhalts aus den folgenden zwei Optionen aus:
@@ -72,7 +72,7 @@ https://planb.network/tutorials/others/add-builder
 Zum Beispiel könnte Ihre YAML-Datei so aussehen:
 
 ```yaml
-builder: DecouvreBitcoin
+builder: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -157,7 +157,7 @@ description: |
 - Ermitteln Sie die Zwischen-URL Ihrer Datei. Zum Beispiel ist in meinem Fall die URL:
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - Behalten Sie nur den letzten Teil der URL ab `/resources`:
@@ -169,7 +169,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - Fügen Sie an die Basis der URL folgende Informationen hinzu, um den korrekten Link zu erhalten:
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Was wir hier tun, ist die zukünftige Verlinkung Ihrer Datei zu antizipieren, sobald Ihr Vorschlag in das Quellrepository des PlanB-Netzwerks eingegliedert wurde.

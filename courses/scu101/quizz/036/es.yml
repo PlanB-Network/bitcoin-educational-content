@@ -1,9 +1,17 @@
 question: ¿Cuál es el propósito del sitio web Have I Been Pwned?
-answer: Para verificar si tu dirección de correo electrónico ha sido comprometida y ser notificado de futuras filtraciones de datos.
+answer: Verificar si tu dirección de correo electrónico ha sido comprometida y ser notificado de futuras violaciones de datos.
 wrong_answers:
-  - Para verificar si tu dirección de correo electrónico es válida.
-  - Para verificar si tu dirección de correo electrónico está disponible.
-  - Para verificar si tu dirección de correo electrónico ha sido bloqueada.
+  - Verificar si tu dirección de correo electrónico es válida y ser notificado de futuras violaciones de datos.
+  - Verificar si tu dirección de correo electrónico está disponible, y en caso afirmativo, usarla para registrarse en una famosa casa de empeños en línea.
+  - Verificar si tu dirección de correo electrónico ha sido bloqueada debido a un evento de compromiso de datos.
 explanation: |
-  El sitio web Have I Been Pwned te permite verificar si tu dirección de correo electrónico ha sido comprometida en una filtración de datos y ser notificado de futuras filtraciones de datos.
-reviewed: false
+  El sitio web Have I Been Pwned te permite verificar si tu
+  dirección de correo electrónico ha sido comprometida en una violación de datos y ser
+  notificado de futuras violaciones de datos.' ha sido comprometida
+  en una violación de datos y ser notificado de futuras violaciones
+  de datos.' ha sido comprometida en una violación de datos y ser
+  notificado de futuras violaciones de datos.' ha sido comprometida en
+  una violación de datos y ser notificado de futuras violaciones de datos.'
+
+  ha sido comprometida en una violación de datos y ser notificado de futuras violaciones de datos.'
+reviewed: true

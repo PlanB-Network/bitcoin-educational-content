@@ -1,9 +1,8 @@
-question: Mục đích của entropy trong việc tạo ra cụm từ ghi nhớ cho ví Bitcoin là gì?
-answer: Nó là nền tảng của bảo mật ví HD.
+question: Depth 0 đại diện cho gì trong hệ thống phân cấp của ví HD?
+answer: Khóa chính và mã chuỗi chính
 wrong_answers:
-  - Nó quyết định số lượng từ trong cụm từ khôi phục.
-  - Nó mã hóa cụm từ khôi phục để tăng cường bảo mật.
-  - Nó xác minh độ chính xác của cụm từ khôi phục.
+  - Chuỗi địa chỉ bên ngoài
+  - Tài khoản mặc định
+  - Loại tiền tệ
 explanation: |
-  Entropy là nền tảng của bảo mật ví HD. Việc entropy này phải ngẫu nhiên hoặc giả ngẫu nhiên là cực kỳ quan trọng để đảm bảo an toàn cho ví.
-reviewed: false
+  Depth 0 tương ứng với khóa chính và mã chuỗi chính, đây là điểm xuất phát cho tất cả các quá trình phái sinh trong một ví HD.

@@ -1,9 +1,9 @@
 question: FOMOとFUDとは何ですか？
 answer: 衝動的で潜在的に有害な意思決定につながる可能性のある感情です。
 wrong_answers:
-  - ビットコインのウォレットの種類。
-  - ビットコインを購入する戦略。
-  - ビットコインに関連する規制。
+  - ビットコインウォレットの種類です。
+  - ビットコインを購入する戦略です。
+  - ビットコインに関連する規制です。
 explanation: >-
-  このテキストは、FOMO（Fear of Missing Out:見逃し恐怖症）とFUD（Fear, Uncertainty, Doubt:恐怖、不確実性、疑念）が、ビットコインを購入する際に衝動的で潜在的に有害な意思決定につながる可能性のある感情であることを説明しています。
-reviewed: false
+  このテキストは、FOMO（Fear of Missing Out：見逃し恐怖症）とFUD（Fear, Uncertainty, Doubt：恐怖、不確実性、疑念）が、ビットコインを購入する際に衝動的で潜在的に有害な意思決定につながる可能性のある感情であることを説明しています。
+reviewed: true

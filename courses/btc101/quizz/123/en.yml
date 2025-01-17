@@ -1,10 +1,11 @@
 question: What is the block number of the first Bitcoin transaction?
-answer: Block 170
+answer: Block 170.
 wrong_answers:
-  - Block 1
-  - Block 17
-  - Block 1700
+  - Block 1.
+  - Block 17.
+  - Block 1700.
 explanation: |
-  The first Bitcoin transaction, which was a transaction of 10 BTC between
-  Satoshi Nakamoto and Hal Finney, is recorded in block 170.
+  The first Bitcoin transaction, which was a transaction of
+  10 BTC between Satoshi Nakamoto and Hal Finney, is recorded
+  in block 170.
 reviewed: true

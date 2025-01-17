@@ -1,10 +1,11 @@
-question: Why is the affordable cost and accessibility of a Bitcoin node important?
-answer: It facilitates the decentralization of the network
+question: Why is it important that a Bitcoin node remains affordable and accessible to all possible users?
+answer: Because it facilitates the decentralization of the network.
 wrong_answers:
-  - It increases the transaction capacity of the network
-  - It decreases the transaction capacity of the network
-  - It increases the block reward for miners
-explanation: >-
-  The affordable cost and accessibility of a Bitcoin node is important
-  as it facilitates the decentralization of the network.
-reviewed: false
+  - Because it increases the transaction capacity of the network.
+  - Because it decreases the transaction capacity of the network.
+  - Because it increases the block reward for miners.
+explanation: |
+  The affordable cost and accessibility of a Bitcoin node is
+  important because it facilitates the decentralization of
+  the network.
+reviewed: true

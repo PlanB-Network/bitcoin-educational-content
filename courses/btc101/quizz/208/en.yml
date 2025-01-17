@@ -5,7 +5,7 @@ wrong_answers:
   - You may increase the price of Bitcoin.
   - You may control the supply of Bitcoin.
   - You may prevent others from buying Bitcoin.
-explanation: >-
-  The text mentions that not following the regulations of your country
-  when buying Bitcoin may put you at risk.
-reviewed: false
+explanation: |
+  The course text mentions that not following the regulations
+  of your country when buying Bitcoin may put you at risk.
+reviewed: true

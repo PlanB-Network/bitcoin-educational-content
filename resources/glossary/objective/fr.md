@@ -8,6 +8,6 @@ Dans les portefeuilles déterministes et hiérarchiques (HD), l'objectif (ou _pu
 * Pour du P2WPKH : `84'` ;
 * Pour du P2TR : `86'`.
 
-![](../../dictionnaire/assets/20.png)
+![](../../dictionnaire/assets/20.webp)
 
 

@@ -1,0 +1,9 @@
+question: Mis on indeksi eesmärk lastevõtmete tuletamisel?
+answer: Erinevate võtmepaaride eristamine
+wrong_answers:
+  - Tuvastada võtme olemus (avalik või privaatne)
+  - Määrata võtme turvatase
+  - Lisada täiendav turvakiht
+explanation: |
+  Indeks võimaldab eristada samast vanemapaarist tuletatud lastevõtmeid.
+reviewed: false

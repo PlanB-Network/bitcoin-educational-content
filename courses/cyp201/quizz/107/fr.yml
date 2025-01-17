@@ -1,9 +1,0 @@
-question: Quelle est la longueur de la graine dans un portefeuille HD ?
-answer: La graine a une longueur de 128 à 256 bits.
-wrong_answers:
-  - La graine a une longueur de 64 à 128 bits.
-  - La graine a une longueur de 256 à 512 bits.
-  - La graine a une longueur de 32 à 64 bits.
-explanation: |
-  La graine dans un portefeuille HD a une longueur de 128 à 256 bits. Elle est générée de manière aléatoire ou à partir d'une phrase secrète.
-reviewed: false

@@ -1,9 +1,9 @@
-question: ¿En qué se basa la fundación de la Cartera HD?
-answer: La frase mnemotécnica y la frase de contraseña.
+question: ¿Qué prefijo se utiliza para indicar una clave pública comprimida con una coordenada y impar?
+answer: 0x03
 wrong_answers:
-  - La semilla y la clave privada maestra.
-  - El código de cadena maestro y la semilla.
-  - La frase mnemotécnica y la clave privada maestra.
+  - 0x02
+  - 0x04
+  - 0x00
 explanation: |
-  La fundación de la Cartera HD se basa en dos elementos esencial- language: es la frase mnemotécnica y la frase de contraseña (opcional). Juntos, constituyen la semilla, una secuencia alfanumérica de 512 bits que sirve como base para derivar las claves de la cartera.
+  El prefijo 0x03 indica una clave pública comprimida con una coordenada y impar.
 reviewed: false

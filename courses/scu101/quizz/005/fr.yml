@@ -1,9 +1,11 @@
 question: Pourquoi est-il recommandé d'éviter le navigateur Google Chrome ?
-answer: En raison de ses traqueurs.
+answer: En raison de ses traceurs.
 wrong_answers:
   - Parce qu'il n'est pas sécurisé.
   - Parce qu'il n'est pas convivial.
   - Parce qu'il ne prend pas en charge les extensions.
 explanation: |
-  Le navigateur Google Chrome est connu pour ses traqueurs, qui peuvent collecter des données sur votre activité en ligne. Cela peut être une préoccupation en matière de confidentialité pour certains utilisateurs.
-reviewed: false
+  Le navigateur Google Chrome est connu pour ses traceurs, qui peuvent
+  collecter des données sur votre activité en ligne. Cela peut être un
+  souci de confidentialité pour certains utilisateurs.
+reviewed: true

@@ -1,11 +1,13 @@
 question: ¿Qué es una cold wallet?
-answer: Una billetera física donde tus claves se almacenan en un dispositivo que no está conectado a internet.
+answer: Una billetera en un dispositivo físico que almacena tus claves y no está conectada a internet.
 wrong_answers:
-  - Una billetera que físicamente está fría al tacto
-  - Una billetera que es impopular entre los usuarios de Bitcoin
-  - Una billetera que se recomienda para almacenar pequeñas cantidades de bitcoins
+  - Una billetera que físicamente está fría al tacto.
+  - Una billetera que es impopular entre los usuarios de Bitcoin.
+  - Una billetera que se recomienda para almacenar pequeñas cantidades de bitcoins.
 explanation: |
-  Una cold wallet es un término utilizado para describir una billetera de Bitcoin que se almacena
-  en un dispositivo que no está conectado a internet. Esto la hace menos vulnerable
-  a amenazas en línea, pero también significa que la billetera es menos accesible para transacciones diarias.
+  Una cold wallet es un término utilizado para describir una billetera de Bitcoin
+  que se almacena en un dispositivo que no está conectado a la
+  internet. Esto la hace menos vulnerable a amenazas en línea,
+  pero también significa que la billetera es menos accesible para
+  transacciones diarias.
 reviewed: true

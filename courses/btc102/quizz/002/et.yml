@@ -1,0 +1,11 @@
+question: Mis on märkimisväärne näide Bitcoin'i kõvast harust?
+answer: Bitcoin Cash (BCH)
+wrong_answers:
+  - Ethereum (ETH)
+  - Litecoin (LTC)
+  - Ripple (XRP)
+explanation: |
+  Bitcoin on aja jooksul läbinud mitmeid kõvasid harusid, andes tõuke erinevatele
+  algsest valuutast kõrvalekalduvatele versioonidele. Märkimisväärsed näited nendest kõrvalekalletest
+  hõlmavad Bitcoin Cash'i (BCH) ja Bitcoin Satoshi Vision'i (BSV).
+reviewed: false

@@ -1,9 +1,10 @@
 question: Một trong những lý do chính khiến Bitcoin được tạo ra là gì?
-answer: Đề xuất một nỗ lực nhằm thay đổi hệ thống tài chính.
+answer: Đề xuất thay đổi hệ thống tài chính.
 wrong_answers:
-  - Đề xuất một nỗ lực nhằm loại bỏ tiền tệ.
-  - Đề xuất một nỗ lực nhằm tạo ra một hình thức công nghệ AI mới.
-  - Đề xuất một nỗ lực nhằm kiểm soát dân số thế giới.
-explanation: >-
-  Văn bản đề cập rằng Satoshi đã tạo ra Bitcoin vào năm 2008 để đề xuất một nỗ lực nhằm thay đổi hệ thống tài chính.
-reviewed: false
+  - Đề xuất loại bỏ tiền tệ.
+  - Đề xuất tạo ra một hình thức công nghệ AI mới.
+  - Đề xuất kiểm soát dân số thế giới.
+explanation: |
+  Văn bản đề cập rằng Satoshi Nakamoto đã tạo ra Bitcoin vào
+  năm 2008 để đề xuất thay đổi hệ thống tài chính.
+reviewed: true

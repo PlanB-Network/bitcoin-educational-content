@@ -1,0 +1,9 @@
+question: Ba thành phần cơ bản của một hệ thống mã hóa đối xứng là gì?
+answer: Một thuật toán tạo khóa, một thuật toán mã hóa, và một thuật toán giải mã
+wrong_answers:
+  - Một thuật toán băm, một khóa công khai, và một thuật toán xác minh
+  - Một khóa công khai, một khóa riêng, và một thuật toán giải mã
+  - Một thuật toán mã hóa, một khóa công khai, và một khóa riêng
+explanation: |
+  Một hệ thống mã hóa đối xứng bao gồm ba yếu tố: một thuật toán tạo khóa, một thuật toán mã hóa, và một thuật toán giải mã. Tất cả đều sử dụng cùng một khóa.
+reviewed: false

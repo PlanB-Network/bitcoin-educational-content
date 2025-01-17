@@ -1,0 +1,8 @@
+question: Kuidas on juhuslik string selles peatükis määratletud?
+answer: Kui string, mis on valitud ühtlaselt kõikide sama pikkusega stringide seast
+wrong_answers:
+  - Kui string, mis on loodud ainult bittidega 0 ja 1
+  - Kui string, mis on saadud manuaalsest valikust
+  - Kui muutuva pikkusega string, mis on tulemus krüpteerimisprotsessist
+explanation: |
+  Juhuslik string on määratletud kui ühtlane valik kõikide võimalike sama pikkusega stringide seast.

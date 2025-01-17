@@ -1,0 +1,9 @@
+question: 在派生路径中，哪个索引代表账户的外部链？
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  外部链由派生路径深度为4的索引/0/标识。
+reviewed: false

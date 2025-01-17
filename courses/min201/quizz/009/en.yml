@@ -2,11 +2,12 @@ question: What is the role of software in Bitcoin mining and how does it contrib
 answer: Software in Bitcoin mining, like BrainsOS Plus, replaces the original operating system of the mining machine, allowing the same operations to be performed more efficiently. It can increase the efficiency of a machine by 25%, meaning that for an equivalent amount of electricity, the machine can produce an additional 25% of hashrate, thereby increasing the rewards received by the miner.
 wrong_answers:
   - Software in Bitcoin mining is used to track the amount of Bitcoin mined and doesn't contribute to efficiency.
-  - Software in Bitcoin mining is used to connect the mining machine to the internet and doesn't contribute to efficiency.
+  - Software in Bitcoin mining only provide better internet connection for the mining machine, it can increase the efficiency of such machine by 14%, if one of the newest protocols is used.
   - Software in Bitcoin mining is used to cool down the mining machine and doesn't contribute to efficiency.
 explanation: |
-  The chapter explains that software like BrainsOS Plus can replace the
-  original operating system of a mining machine, allowing the same operations to be
-  performed more efficiently. This software optimization is an essential element of
-  competitiveness in Bitcoin mining.
-reviewed: false
+  The chapter explains that software like BrainsOS Plus can
+  replace the original operating system of a mining machine,
+  allowing the same operations to be performed more
+  efficiently. This software optimization is an essential
+  element of competitiveness in Bitcoin mining.
+reviewed: true

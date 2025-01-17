@@ -1,9 +1,9 @@
 question: Qual è un vantaggio nell'accettare Bitcoin come commerciante?
-answer: Resistenza alla censura
+answer: Resistenza alla censura.
 wrong_answers:
-  - Aumento delle commissioni di transazione
-  - Protezione contro la deflazione
-  - Restrizione finanziaria
-explanation: |
-  Accettare Bitcoin come commerciante ha diversi vantaggi, tra cui la resistenza alla censura, la riduzione delle commissioni di transazione, l'aumento dell'efficienza, la protezione dall'inflazione, nonché la libertà finanziaria e sovranità.
-reviewed: false
+  - Aumento delle commissioni sulle transazioni.
+  - Protezione contro la deflazione.
+  - Restrizione finanziaria.
+explanation: >-
+  Accettare Bitcoin come commerciante offre diversi vantaggi, inclusa la resistenza alla censura, riduzione delle commissioni sulle transazioni, aumento dell'efficienza, protezione contro l'inflazione, così come la libertà finanziaria e la sovranità.
+reviewed: vero

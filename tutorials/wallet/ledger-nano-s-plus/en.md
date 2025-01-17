@@ -51,7 +51,7 @@ For this tutorial, you will need 2 software applications: Ledger Live to initial
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 For these two software programs, I strongly recommend checking both their authenticity (with GnuPG) and their integrity (via the hash) before installing them on your machine. If you're not sure how to do this, you can follow this other tutorial:
-https://planb.network/tutorials/others/integrity-authenticity
+https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## How to Initialize a Ledger Nano?
 
@@ -151,7 +151,7 @@ The passphrase should not be confused with the PIN code. It plays a role in the 
 
 The passphrase is a very powerful tool for enhancing the security of your bitcoins. However, it is very important to understand how it works before implementing it, to avoid losing access to your wallet. This is why I advise you to consult this other tutorial dedicated if you wish to set up a passphrase on your Ledger:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 The "*PIN lock*" menu allows you to configure and activate the automatic locking of your Ledger after a determined period of inactivity.
 
@@ -246,7 +246,7 @@ Before receiving your first bitcoins in your wallet, **I strongly advise you to 
 
 To learn more about how to perform a recovery test, I advise you to consult this other tutorial:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## How to receive bitcoins with the Ledger Nano?
 
@@ -276,7 +276,7 @@ You can add a "*Label*" to describe the source of the bitcoins that will be secu
 
 For more information on labeling, I also advise you to check out this other tutorial:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 You can then use this address to receive bitcoins.
 
@@ -344,4 +344,4 @@ If you found this tutorial helpful, I would appreciate it if you could leave a t
 
 I also recommend you check out this complete tutorial on the Ledger Flex:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

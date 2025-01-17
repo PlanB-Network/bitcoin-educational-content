@@ -1,11 +1,9 @@
-question: What is the purpose of entropy in the generation of a mnemonic phrase for
-  a Bitcoin wallet?
-answer: It is the cornerstone of HD wallet security.
+question: What does depth 0 represent in the hierarchy of HD wallets?
+answer: The master key and the master chain code
 wrong_answers:
-  - It determines the number of words in the recovery phrase.
-  - It encrypts the recovery phrase for added security.
-  - It verifies the accuracy of the recovery phrase.
+  - The external chain of addresses
+  - The default account
+  - The type of currency
 explanation: |
-  Entropy is the cornerstone of HD wallet security. It is crucial that
-  this entropy be random or pseudo-random to guarantee the security of the wallet.
+  Depth 0 corresponds to the master key and the master chain code, which are the starting points for all derivations in an HD wallet.
 reviewed: false

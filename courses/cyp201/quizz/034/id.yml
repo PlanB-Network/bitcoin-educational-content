@@ -1,0 +1,8 @@
+question: Tanda sighash apa yang paling sering digunakan dalam transaksi Bitcoin?
+answer: SIGHASH_ALL
+wrong_answers:
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
+explanation: |
+  SIGHASH_ALL adalah tanda sighash default, yang mencakup semua input dan output dari sebuah transaksi, mencegah segala modifikasi.

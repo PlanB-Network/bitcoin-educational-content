@@ -1,9 +1,9 @@
-question: Was ist der Zweck einer "kalten" Wallet in Bitcoin?
+question: Was ist der Zweck einer kalten Wallet in Bitcoin?
 answer: Um Bitcoins sicher zu speichern.
 wrong_answers:
   - Um neue Bitcoins zu schürfen.
   - Um Bitcoins zu handeln.
   - Um Bitcoins in andere Kryptowährungen umzuwandeln.
 explanation: |
-  Eine "kalte" Wallet, auch als Hardware-Wallet bekannt, ist ein Gerät, das entwickelt wurde, um Bitcoins sicher zu speichern. Sie wird nicht zum Schürfen neuer Bitcoins, zum Handeln von Bitcoins oder zum Umwandeln von Bitcoins in andere Kryptowährungen verwendet.
+  Eine kalte Wallet, auch als Hardware-Wallet bekannt, ist ein Gerät, das entwickelt wurde, um Bitcoins sicher zu speichern. Sie wird nicht zum Schürfen neuer Bitcoins, zum Handeln von Bitcoins oder zum Umwandeln von Bitcoins in andere Kryptowährungen verwendet.
 reviewed: false

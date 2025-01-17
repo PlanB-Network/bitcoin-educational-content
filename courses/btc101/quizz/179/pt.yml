@@ -1,10 +1,10 @@
 question: Qual é uma das razões pelas quais o Bitcoin passa por tantas bolhas especulativas?
-answer: Porque o Bitcoin é uma moeda que é realmente usada em todo o mundo.
+answer: Porque o Bitcoin é uma moeda que é usada em todo o mundo.
 wrong_answers:
-  - Porque o Bitcoin na verdade não é usado em nenhum lugar.
+  - Porque o Bitcoin na verdade não é usado em lugar algum.
   - Porque o Bitcoin é uma bolha que vai desaparecer.
   - Porque o Bitcoin não está sujeito a ciclos econômicos.
-explanation: |
+explanation: >-
   O Bitcoin passa por muitas bolhas especulativas porque é uma moeda
-  que é realmente usada em todo o mundo.
-reviewed: false
+  que de fato é usada em todo o mundo.
+reviewed: true

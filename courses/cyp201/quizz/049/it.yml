@@ -1,9 +1,9 @@
-question: Qual è lo scopo delle Proposte di Miglioramento di Bitcoin (BIP)?
-answer: Sono proposte di aggiornamento che migliorano la funzionalità e la sicurezza degli HD wallet.
+question: Qual è lo scopo della frase mnemonica in un portafoglio Bitcoin HD?
+answer: Derivare deterministicamente tutte le chiavi
 wrong_answers:
-  - Sono proposte per aumentare il valore di Bitcoin.
-  - Sono proposte per cambiare il processo di mining di Bitcoin.
-  - Sono proposte per regolare l'uso di Bitcoin.
+  - Firmare direttamente le transazioni
+  - Criptare gli indirizzi Bitcoin
+  - Generare un hash per gli UTXO
 explanation: |
-  Le Proposte di Miglioramento di Bitcoin (BIP) sono protocolli che mirano a migliorare la funzionalità e la sicurezza degli HD wallet. Ad esempio, BIP32 ha introdotto il concetto di chiavi derivate in modo deterministico e gerarchico.
+  La frase mnemonica consente la derivazione di tutte le chiavi private e pubbliche in un portafoglio, facilitando così il backup e il recupero.
 reviewed: false

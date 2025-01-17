@@ -5,8 +5,9 @@ wrong_answers:
   - Một mạng lưới ẩn hoạt động trực tuyến của bạn khỏi nhà cung cấp dịch vụ internet.
   - Một mạng lưới cho phép bạn duyệt web nhanh hơn.
 explanation: |
-  Mạng TOR (The Onion Router) là một mạng lưới cung cấp tính ẩn danh
-  bằng cách che giấu địa chỉ IP của người dùng và cho phép truy cập vào Darknet. Nó được sử dụng
-  bởi các nhà báo, nhà hoạt động tự do, và những người khác muốn thoát khỏi sự kiểm duyệt trong các
-  quốc gia độc tài.
-reviewed: false
+  Mạng TOR (The Onion Router) là một mạng lưới cung cấp
+  tính ẩn danh bằng cách che giấu địa chỉ IP của người dùng và cho phép
+  truy cập vào Darknet. Nó được sử dụng bởi các nhà báo, nhà hoạt động tự do,
+  và những người khác mong muốn tránh kiểm duyệt trong
+  các quốc gia độc tài.
+reviewed: true

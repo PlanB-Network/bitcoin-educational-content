@@ -1,0 +1,10 @@
+question: Mis on KYC regulatsioonide eesmärk?
+answer: Terrorismi rahastamise, maksudest kõrvalehoidmise ja rahapesu vastu võitlemine.
+wrong_answers:
+  - Bitcoini hinna tõstmiseks.
+  - Bitcoini pakkumise kontrollimiseks.
+  - Inimeste takistamiseks Bitcoini ostust.
+explanation: >-
+  Tekst selgitab, et Know Your Customer (KYC) regulatsioonid nõuavad kasutajatelt
+  identifitseerimise esitamist, et võidelda terrorismi rahastamise, maksudest kõrvalehoidmise ja
+  rahapesu vastu.

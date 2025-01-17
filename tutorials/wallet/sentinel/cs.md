@@ -48,7 +48,7 @@ Při prvním otevření aplikace máte na výběr mezi:
 
 Dojo, vyvinutý týmem Samourai, je plná verze Bitcoinového uzlu, kterou lze nainstalovat samostatně nebo přidat jedním kliknutím do řešení uzlu v boxu, jako jsou [Umbrel](https://umbrel.com/) a [RoninDojo](https://ronindojo.io/).
 
-[**-> Zjistěte, jak nainstalovat RoninDojo v2 na Raspberry Pi.**](https://planb.network/en/tutorials/node/ronin-dojo-v2)
+[**-> Zjistěte, jak nainstalovat RoninDojo v2 na Raspberry Pi.**](https://planb.network/fr/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 Pokud máte vlastní Dojo, můžete se na této fázi připojit. Tím získáte nejvyšší úroveň soukromí při kontrole informací o transakcích v Bitcoinové síti.
 
@@ -147,3 +147,4 @@ Máte možnost zadat váš podepsaný PSBT třemi různými způsoby:
 Jakmile je podepsaná transakce zadána do šedého rámečku, můžete kliknout na zelené tlačítko `BROADCAST TRANSACTION` a odeslat ji do Bitcoinové sítě. Sentinel vám poskytne jeho TXID.
 
 ![watch-only](assets/notext/25.webp)
+

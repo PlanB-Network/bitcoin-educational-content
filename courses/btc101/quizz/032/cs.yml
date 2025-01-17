@@ -1,9 +1,11 @@
-question: Jak lze vytvořit zdravé peníze?
-answer: Peníze jsou přirozený společenský jev, který musí vzniknout z trhu a dobrovolného konsensu
+question: Jak je vytvořena zdravá měna?
+answer: Zdravá měna musí přirozeně vzniknout na trhu a z dobrovolného konsensu.
 wrong_answers:
-  - Vláda je prosazuje prostřednictvím zákonů
-  - Lidé používají násilí a donucení, aby přinutili ostatní přijmout jejich peníze
-  - Zdravé peníze nelze vytvořit
-explanation: >-
-  Zdravé peníze jsou přirozený společenský jev, který musí vzniknout z trhu a dobrovolného konsensu. Žádný člověk nebo skupina lidí nemůže vytvořit peníze.
-reviewed: false
+  - Zdravá měna musí být vynucena vládou prostřednictvím vydávání měnových zákonů.
+  - Zdravá měna musí být vnucena společnostmi použitím násilí.
+  - Zdravá měna nemůže být vytvořena.
+explanation: |
+  Zdravá měna je přirozený sociální fenomén, který musí vzniknout
+  z trhu a z dobrovolného konsensu. Žádný člověk nebo
+  skupina lidí nemůže vytvořit měnu.
+reviewed: true

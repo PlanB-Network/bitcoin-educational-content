@@ -1,0 +1,9 @@
+question: Por que o caderno de uma única vez é considerado um método de criptografia seguro?
+answer: Porque cada bit da chave é aleatório e nenhuma parte é reutilizada
+wrong_answers:
+  - Porque utiliza uma chave pública e privada aleatórias
+  - Porque depende de números primos
+  - Porque só criptografa mensagens pequenas
+explanation: |
+  O caderno de uma única vez é seguro porque cada bit da chave é aleatório e nunca é reutilizado, garantindo que não deixa rastros exploráveis por um atacante.
+reviewed: false

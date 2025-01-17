@@ -1,0 +1,8 @@
+question: Apa pentingnya menggunakan nonce acak dalam metode CBC dan OFB?
+answer: Ini memastikan bahwa setiap sesi enkripsi bersifat unik, bahkan untuk data yang identik.
+wrong_answers:
+  - Ini mengurangi panjang kunci selama proses enkripsi.
+  - Ini membuat enkripsi menjadi lebih cepat.
+  - Ini membuat kode algoritma lebih indah bagi manusia.
+explanation: |
+  Dengan menggunakan nonce acak untuk setiap sesi, metode CBC dan OFB memastikan bahwa setiap enkripsi bersifat unik, yang mencegah serangan yang memanfaatkan data yang identik.

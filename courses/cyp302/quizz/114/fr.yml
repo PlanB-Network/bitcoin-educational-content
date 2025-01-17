@@ -1,0 +1,9 @@
+question: Qu'est-ce qui distingue un flux de clés RC4 de longueur standard par rapport à la version simplifiée présentée dans l'exemple ?
+answer: La longueur du tableau S dans RC4 standard est de 256 octets
+wrong_answers:
+  - Le tableau S est limité à 128 octets
+  - La clé utilisée doit être supérieure à 8 octets
+  - Il n'y a pas de longueur fixe pour S dans RC4 standard
+explanation: |
+  Dans le RC4 standard, le tableau S contient 256 octets, ce qui augmente considérablement la complexité des calculs et renforce la sécurité par rapport à la version simplifiée avec seulement 8 octets.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Siapa yang meresmikan sistem Usulan Peningkatan Bitcoin, sebuah proses yang bertujuan untuk mengkoordinasikan peningkatan Bitcoin, pada September 2011?
+answer: Amir Taaki
+wrong_answers:
+  - Gavin Andresen
+  - Jeff Garzik
+  - Nils Schneider
+explanation: |
+  Sistem ini dimodelkan setelah Usulan Peningkatan Python (PEP) yang spesifik untuk bahasa pemrograman Python.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaká je Marxova vize historie?
+answer: Historie je výsledkem boje mezi sociálními třídami
+wrong_answers:
+  - Historie je lineární pokrok směrem k buržoazní společnosti
+  - Historie je cyklus opakování s obdobími svobody následovanými obdobími tyranie
+  - Historie je určována klimatickými faktory
+explanation: |
+  Marx považuje historii za produkt konfliktů mezi sociálními třídami, tvrdí, že napětí mezi utlačujícími a utlačovanými třídami jsou hnací silou sociálních a ekonomických změn v průběhu věků.
+reviewed: false

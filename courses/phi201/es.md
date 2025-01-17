@@ -1403,9 +1403,8 @@ Para Hayek, la inestabilidad pasada de la economía de mercado resulta del hecho
 ![image](assets/6/img-006.webp)
 Hayek creía que un mercado libre de monedas privadas conduciría a una mayor estabilidad monetaria. Casi 50 años después, una criptomoneda como Bitcoin encarna la visión competitiva de Hayek al ofrecer una alternativa descentralizada al sistema monopolístico de los bancos centrales. Bitcoin, con su límite de emisión de 21 millones de unidades, es una garantía contra la inflación y la arbitrariedad de los reguladores.
 
+## Reseñas & Valoraciones
 
-
-## Danos tu opinión sobre este curso
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1433,3 +1432,21 @@ En cierto sentido, nuestra situación es mejor que en el pasado. Después de los
 Todo lo que sucede en la sociedad global en la que vivimos es el resultado de ideas. Lo bueno y lo malo. Lo necesario es combatir las ideas falsas. (...) Nuestra civilización puede sobrevivir, y debe hacerlo. Y sobrevivirá gracias a ideas mejores que aquellas que gobiernan el mundo hoy; y estas mejores ideas serán desarrolladas por la generación emergente.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
+# Conclusión
+
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+
+## Evalúe este curso
+
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Examen final
+
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusión
+
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

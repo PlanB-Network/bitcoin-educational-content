@@ -1,0 +1,9 @@
+question: What is the condition for an integer a to have an inverse modulo N?
+answer: a and N must be coprime
+wrong_answers:
+  - N must be even
+  - a must be odd
+  - a must be a prime number
+explanation: |
+  An integer a has an inverse modulo N if and only if they are coprime, meaning their greatest common divisor is 1.
+reviewed: false

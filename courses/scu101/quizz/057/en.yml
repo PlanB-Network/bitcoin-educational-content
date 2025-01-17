@@ -5,11 +5,8 @@ wrong_answers:
   - It guarantees a job in cybersecurity
   - It is the only way to learn about cybersecurity
 explanation: |
-  The chapter mentions that attending cybersecurity conferences and workshops
-
-
-  not only allows you to learn but also helps you build connections with industry
-
-
-  professionals.'''
-reviewed: false
+  The chapter mentions that attending cybersecurity
+  conferences and workshops not only allows you to learn but
+  also helps you build connections with industry
+  professionals.
+reviewed: true

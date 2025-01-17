@@ -1,9 +1,9 @@
-question: Quels sont certains des aspects de la cryptographie utilisés en cybersécurité?
+question: Quels sont certains des aspects de la cryptographie utilisés dans la cybersécurité ?
 answer: SSL/TLS, chiffrement symétrique/asymétrique
 wrong_answers:
   - RSA, DSA, ECC
   - AES, DES, 3DES
   - MD5, SHA-1, SHA-256
 explanation: |
-  Le chapitre énumère SSL/TLS et le chiffrement symétrique/asymétrique comme certains des aspects de la cryptographie utilisés en cybersécurité.
-reviewed: false
+  Le chapitre énumère SSL/TLS et le chiffrement symétrique/asymétrique comme certains des aspects de la cryptographie utilisés dans la cybersécurité.
+reviewed: true

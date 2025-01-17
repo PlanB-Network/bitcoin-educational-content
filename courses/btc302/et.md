@@ -1575,30 +1575,11 @@ Loomulikult **erinevad teistes riikides seadusandlus ja ühingute toimimine**. P
 
 
 
-## Hinnake kursust
+## Hinnangud & Reitingud
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Hoolitse enda eest
 
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
-
-Kui keegi langeb jäneseurgu, muutub meie taju paljudest asjadest.
-Seejärel sunnib see meid sisimas edasi minema, soovima avastada neid teisi inimesi, kes teevad sama vaimset tööd nagu meie ja kes samuti on aru saanud.
-See motiveerib meid, annab meile veelgi rohkem soovi **anda oma panus ehitusse** ja jagada oma avastust: Bitcoin.
-See viib meid ka **mõtlema homse maailma peale, mida soovime ehitada, ja kogukondadele, kes on seda parasjagu ehitamas**.
-
-####
-
-**Selles pikas galeriis, mis on kogukonna loomine, peate üles näitama motivatsiooni, strateegiat, eneseohverdust ja aega**. See on vahel tänulik ülesanne; ja selles ettevõtmises on parem võtta asju järk-järgult, et mitte endale haiget teha.
-**Seega mõelge enda peale, oma piiridele**. Ja kuigi Bitcoin võib teid ööd ja päevad elustada, **ärge üritage kõike üksi teha; vastasel juhul väsite end ära**.
-
-Vastupidi, **paluge abi bitcoinidelt, kes on juba läbinud sama galerii, kes on juba uurinud samu küsimusi ja ehitanud samu tööriistu**. See säästab teile tohutult aega.
-
-**Pakkuge ka inimestele, kes järgnevad teile selles seikluses, abi, isegi kui see tähendab mõningate ülesannete delegeerimist** ja et need võivad võtta kauem aega. Pikas perspektiivis kujuneb teie kogukond ühtseks ja küpsemaks.
-
-![image](assets/fr/chapter39/63.webp)
-Üksi võib inimene kiiresti uurida ühte paljudest Bitcoin'i jäneseurgude galeriidest, kuni jõuab selle lõppu. Kuid on ka tagasitee, mida teha. Siis on kõik teised suunad, mida uurida. Erinevalt **Bitcoin'i kogukonna loomisest ja/või sellega liitumisest, nendega regulaarselt jagamisest ja vahetamisest, uurite te kõiki Bitcoin'i jäneseaugu suundi samaaegselt**.
-
-Siis, palju kiiremini kui oleksite seda üksi teinud, võite öelda: "Ma olen Bitcoin'i mõistnud".
-
+<isCourseConclusion>true</isCourseConclusion>

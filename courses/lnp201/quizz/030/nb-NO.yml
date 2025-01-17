@@ -1,0 +1,9 @@
+question: Hvordan tillater Lightning Network å sende midler til en node som ikke er direkte koblet?
+answer: Ved å rute betalingen gjennom mellomliggende noder
+wrong_answers:
+  - Ved å bruke on-chain transaksjoner mellom hver node
+  - Ved automatisk å etablere en midlertidig kanal
+  - Ved å sende midlene direkte med multisignaturadresser
+explanation: |
+  Lightning Network muliggjør ruting av en betaling gjennom flere mellomliggende noder, uten å kreve en direkte kanal mellom avsenderen og mottakeren.
+reviewed: false

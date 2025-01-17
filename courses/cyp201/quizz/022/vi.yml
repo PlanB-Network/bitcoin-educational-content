@@ -1,9 +1,9 @@
-question: Hai thành phần chính trong cơ chế bảo mật của giao thức Bitcoin là gì?
-answer: Các thuật toán HMAC và PBKDF2
+question: Làm thế nào để tính được khóa công khai từ khóa riêng tư?
+answer: Bằng cách sử dụng phép nhân vô hướng trên đường cong elliptic
 wrong_answers:
-  - Các hàm băm SHA-256 và RIPEMD-160
-  - Thuật toán Chữ ký Số Đường cong Elliptic (ECDSA) và hàm băm SHA-256
-  - RSA và trao đổi khóa Diffie-Hellman
+  - Bằng cách áp dụng hàm băm lên khóa riêng tư
+  - Thông qua mã hóa bất đối xứng
+  - Với việc cộng lặp đi lặp lại các giá trị số
 explanation: |
-  Các thuật toán HMAC và PBKDF2 là các thành phần chính trong cơ chế bảo mật của giao thức Bitcoin. Chúng ngăn chặn nhiều loại tấn công tiềm ẩn và đảm bảo tính toàn vẹn của ví Bitcoin.
+  Khóa công khai được thu được bằng cách nhân vô hướng khóa riêng tư với điểm sinh G trên đường cong elliptic.
 reviewed: false

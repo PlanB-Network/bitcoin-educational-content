@@ -1,0 +1,12 @@
+question: Hva er en kald lommebok?
+answer: En fysisk lommebok der nøklene dine lagres på en enhet som ikke er koblet til internett
+wrong_answers:
+  - En lommebok som fysisk er kald å ta på
+  - En lommebok som er upopulær blant Bitcoin-brukere
+  - En lommebok som anbefales for lagring av små mengder bitcoins
+explanation: |
+  En kald lommebok er et uttrykk som brukes for å beskrive en Bitcoin-lommebok som er lagret
+  på en enhet som ikke er koblet til internett. Dette gjør den mindre sårbar
+  for trusler på nettet, men det betyr også at lommeboken er mindre tilgjengelig for daglige
+  transaksjoner.
+reviewed: true

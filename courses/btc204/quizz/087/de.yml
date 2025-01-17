@@ -1,0 +1,13 @@
+question: Wie verwaltet Wabisabi Änderungen im Vergleich zu Wasabi 1.0?
+
+answer: Es teilt sie in mehrere kleine Beträge auf, die in gleichen Stückelungen verteilt werden.
+
+wrong_answers:
+  - Es konsolidiert sie, um zu verhindern, dass sie zu Staub werden.
+  - Es schließt sie vor der Coinjoin-Transaktion aus, indem es die Eingaben angleicht.
+  - Es überträgt sie automatisch in eine Reserve-Wallet.
+
+explanation: |
+  Im Gegensatz zu Wasabi 1.0, wo die Änderung direkt mit den Eingaben der Benutzer verknüpft war, zielt Wabisabi darauf ab, die Änderung in mehrere kleine Beträge aufzuteilen, die in gleichen Stückelungen an alle Teilnehmer verteilt werden.
+
+reviewed: false

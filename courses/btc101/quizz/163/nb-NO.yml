@@ -1,0 +1,10 @@
+question: Hva er den gjennomsnittlige tiden mellom opprettelsen av to blokker i Bitcoin-protokollen?
+answer: 10 minutter
+wrong_answers:
+  - 5 minutter
+  - 15 minutter
+  - 20 minutter
+explanation: >-
+  I gjennomsnitt opprettes en blokk hver 10. minutt i Bitcoin-protokollen.
+  Denne tiden forblir konstant uavhengig av antall gruvearbeidere og deres databehandlingskraft.
+reviewed: false

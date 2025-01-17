@@ -1,0 +1,9 @@
+question: Mis on peamine mure Bitcoin'i kaevandamise keskkonnamõju osas?
+answer: Energiatarbimine
+wrong_answers:
+  - ASICide tootmine
+  - ASICide taaskasutamine
+  - Elektri maksumus
+explanation: >-
+  Bitcoin'i kaevandamise peamine keskkonnaalane mure on energiatarbimine. Kuigi ASICid on enamasti alumiiniumist ja neid saab taaskasutada või uuesti kasutada, on nende masinate töötamiseks vajalik energia märkimisväärne.
+reviewed: false

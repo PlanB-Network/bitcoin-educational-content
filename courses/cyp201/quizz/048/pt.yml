@@ -1,9 +1,8 @@
-question: Qual é a função principal de uma carteira de Bitcoin?
-answer: Refere-se a uma coleção de chaves criptográficas privadas derivadas de uma única chave mestra.
+question: Por que uma frase mnemônica de 24 palavras é frequentemente considerada supérflua para uma carteira Bitcoin?
+answer: As chaves derivadas oferecem apenas 128 bits de segurança
 wrong_answers:
-  - É um dispositivo físico que armazena criptomoedas.
-  - É uma plataforma digital para comprar e vender criptomoedas.
-  - É um software que minera novos bitcoins.
+  - O software não suporta frases de 24 palavras
+  - Não permite a derivação de chaves públicas
+  - Frases mais curtas não são padronizadas
 explanation: |
-  Uma carteira de Bitcoin, especificamente uma Carteira Determinística Hierárquica (HD wallet), é uma coleção de chaves criptográficas privadas derivadas de uma única chave mestra. Essas chaves são essenciais para a posse de criptomoedas.
-reviewed: false
+  Embora uma frase de 24 palavras ofereça 256 bits de segurança, as chaves privadas Bitcoin derivadas garantem apenas 128 bits de segurança, tornando o excesso desnecessário.

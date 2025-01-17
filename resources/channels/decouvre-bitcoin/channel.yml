@@ -1,0 +1,14 @@
+id: e30367fa-5f4b-48a5-8073-0f93cfa8fcec
+name: Découvre Bitcoin
+language: fr
+links:
+  channel: https://www.youtube.com/c/D%C3%A9couvreBitcoin
+  trailer: https://www.youtube.com/watch?v=_Gy5po9sTtw
+description: |
+  Notre but est de permettre à chacun de comprendre Bitcoin, au travers de formations, interviews et tutoriels 100% gratuits.
+  Nous explorons ici les aspects techniques, financiers et philosophiques de Bitcoin.
+tags:
+  - guides
+  - user-friendly
+contributors:
+  - another-satoshi

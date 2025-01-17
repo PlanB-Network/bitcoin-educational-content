@@ -269,23 +269,10 @@ Il gruppo di Lightning Walker presenta la loro soluzione per il servizio di rime
 
 
 
-## Valuta il corso
+## Recensioni & Valutazioni
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Riconoscimenti 
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-Desideriamo riconoscere i contributi dei nostri educatori:
-
-- Peter Todd
-- Adam Gibson
-- Alekos Filini
-- Daniela Brozzoni
-- Ajelex
-- asi0
-- Gabriel Comte
-
-La loro competenza è stata preziosa per il successo di questo corso. Questo è stato il primo corso basato sulla prima edizione dell'iniziativa Cubo+, condotto nel luglio 2023. Grazie a tutti i partecipanti ed educatori per essere stati parte di questo pionieristico percorso educativo. Segna l'inizio di ciò che speriamo sia un lungo e fruttuoso viaggio nel mondo dello sviluppo di Bitcoin. Come prima coorte, la vostra partecipazione ha stabilito lo standard per le future classi.
-
-Continuate ad esplorare, imparare e contribuire all'ecosistema di Bitcoin. La conoscenza acquisita qui è solo un punto di partenza. Continua a scavare la tana del coniglio e scoprirai un mondo di opportunità in continua espansione.
+<isCourseConclusion>true</isCourseConclusion>

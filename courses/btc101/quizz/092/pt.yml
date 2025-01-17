@@ -1,12 +1,13 @@
 question: Qual é o uso recomendado de uma carteira multisig?
-answer: Para grandes quantidades para uso corporativo
+answer: Armazenar grandes quantias para uso corporativo.
 wrong_answers:
-  - Para pequenas quantidades para uso pessoal
-  - Para quantidades médias para uso sem fins lucrativos
-  - Para despesas diárias para uso individual
+  - Armazenar pequenas quantias para uso pessoal.
+  - Armazenar quantias médias para uso sem fins lucrativos.
+  - Armazenar despesas diárias para uso individual.
 explanation: |
-  Uma carteira multisig é recomendada para grandes quantidades e uso corporativo
-  porque requer múltiplas assinaturas para realizar uma transação. Isso adiciona uma camada extra
-  de segurança, pois significa que uma única pessoa não pode realizar uma transação
-  sem a aprovação de outras.
-reviewed: false
+  Uma carteira multisig é recomendada para armazenar grandes quantidades
+  e para uso corporativo porque requer múltiplas
+  assinaturas para realizar uma transação. Esse processo adiciona uma
+  camada extra de segurança, pois uma única pessoa não pode
+  conduzir uma transação sem a aprovação dos outros.
+reviewed: true

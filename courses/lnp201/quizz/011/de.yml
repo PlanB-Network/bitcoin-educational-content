@@ -1,9 +1,9 @@
-question: Was ist eine Multi-Signatur-Adresse im Kontext des Lightning-Netzwerks?
-answer: Eine Adresse, die zwei Signaturen erfordert, um die Gelder freizugeben.
+question: Warum erstellt Alice eine Auszahlungstransaktion, bevor sie die Einzahlungstransaktion veröffentlicht?
+answer: Um ihre Gelder im Falle eines Problems mit Bob zurückzuholen
 wrong_answers:
-  - Eine Adresse, die von mehreren Benutzern verwendet werden kann.
-  - Eine Adresse, die mehrere Arten von Kryptowährungen halten kann.
-  - Eine Adresse, die von mehreren Geräten aus zugänglich ist.
+  - Um die Kapazität des Kanals mit jeder Transaktion zu erhöhen
+  - Um unmittelbar nach Eröffnung eine Lightning-Transaktion durchzuführen
+  - Um Bob zu ermöglichen, die Gelder direkt auszugeben
 explanation: |
-  Im Lightning-Netzwerk werden Multi-Signatur-Adressen verwendet. Diese Adressen erfordern zwei Signaturen oder zwei private Schlüssel, um die Gelder freizugeben. Das bedeutet, dass zwei Parteien zustimmen müssen, um das Geld freizugeben.
+  Alice erstellt eine Auszahlungstransaktion, um ihre Gelder zurückzuholen, falls ein Problem mit Bob auftritt, und sichert so die Sicherheit ihrer Einlage.
 reviewed: false

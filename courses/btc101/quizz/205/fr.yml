@@ -1,9 +1,9 @@
-question: Quelle est l'une des raisons pour lesquelles vous devriez regrouper vos UTXOs dans vos portefeuilles de temps en temps?
+question: Quelle est l'une des raisons pour lesquelles vous devriez consolider vos UTXOs dans vos portefeuilles de temps en temps ?
 answer: Pour éviter des frais inutiles lors des transactions.
 wrong_answers:
-  - Pour augmenter la valeur de votre Bitcoin.
-  - Pour empêcher le vol de votre Bitcoin.
-  - Pour vous assurer que votre Bitcoin est toujours disponible.
-explanation: |
-  Le texte mentionne que regrouper vos UTXOs dans vos portefeuilles de temps en temps est essentiel pour gérer efficacement vos bitcoins et éviter des frais inutiles lors des transactions.
-reviewed: false
+  - Pour augmenter la valeur de vos bitcoins.
+  - Pour empêcher vos bitcoins d'être volés.
+  - Pour garantir que vos bitcoins sont toujours disponibles.
+explanation: >-
+  Le texte mentionne que consolider vos UTXOs dans vos portefeuilles de temps en temps est essentiel pour gérer efficacement vos bitcoins et éviter des frais inutiles lors des transactions.
+reviewed: true

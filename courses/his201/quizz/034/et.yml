@@ -1,0 +1,9 @@
+question: Kes lõi esimese vahetusteenuse bitcoini ja dollari vahel oktoobris 2009?
+answer: NewLibertyStandard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+explanation: |
+  See teenus oli algeline: vahetused lepiti kokku e-posti teel ja maksed tehti läbi PayPal. Vahetuskurss põhines NewLibertyStandardi enda kaevandamiskuludel.
+reviewed: false

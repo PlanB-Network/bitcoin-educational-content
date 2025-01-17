@@ -1,0 +1,8 @@
+question: Apa yang membedakan aliran kunci RC4 standar dengan versi sederhana yang disajikan dalam contoh?
+answer: Panjang array S dalam RC4 standar adalah 256 byte
+wrong_answers:
+  - Array S dibatasi hingga 128 byte
+  - Kunci yang digunakan harus lebih dari 8 byte
+  - Tidak ada panjang tetap untuk S dalam RC4 standar
+explanation: |
+  Dalam RC4 standar, array S berisi 256 byte, yang secara signifikan meningkatkan kompleksitas perhitungan dan meningkatkan keamanan dibandingkan dengan versi sederhana yang hanya memiliki 8 byte.

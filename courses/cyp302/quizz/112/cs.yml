@@ -1,0 +1,9 @@
+question: Proč je RC4 klasifikován jako synchronní proudová šifra?
+answer: Klíčový proud je nezávislý na otevřeném textu a šifrovaném textu
+wrong_answers:
+  - Klíčový proud závisí na hodnotách předchozího šifrovaného textu
+  - Otevřený text musí být integrován do klíčového proudu
+  - Používá klíčový proud založený výhradně na otevřeném textu
+explanation: |
+  RC4 je synchronní proudová šifra, protože její klíčový proud závisí pouze na počátečním klíči a ne na otevřeném textu nebo šifrovaném textu, což zajišťuje nezávislost tohoto proudu na zprávách.
+reviewed: false

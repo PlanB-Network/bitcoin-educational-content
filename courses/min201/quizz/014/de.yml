@@ -1,9 +1,15 @@
-question: Was ist das potenzielle Risiko der Zentralisierung des Minings in Bitcoin?
-answer: Die Zentralisierung des Minings in Bitcoin kann potenziell zu Zensur von Transaktionen führen und das Netzwerk anfällig für Angriffe machen, einschließlich des 51%-Angriffs, bei dem ein Akteur oder eine Gruppe mehr als 50% der Hashing-Leistung des Netzwerks kontrolliert und somit das Netzwerk kontrollieren und manipulieren kann.
+question: Was ist das potenzielle Risiko der Zentralisierung des Minings bei Bitcoin?
+
+answer: Die Zentralisierung des Minings bei Bitcoin kann potenziell zu einer Zensur von Transaktionen führen und das Netzwerk anfällig für Angriffe machen, einschließlich des 51%-Angriffs, bei dem ein Akteur oder eine Gruppe mehr als 50% der Hashing-Leistung des Netzwerks kontrolliert, was es ihnen ermöglicht, das Netzwerk zu kontrollieren und zu manipulieren.
+
 wrong_answers:
-  - Die Zentralisierung des Minings in Bitcoin kann potenziell zu einem Wertverlust von Bitcoin führen und das Netzwerk anfällig für Inflation machen.
-  - Die Zentralisierung des Minings in Bitcoin kann potenziell zu einer Verringerung der Blockbelohnung führen und das Netzwerk anfällig für Stagnation machen.
-  - Die Zentralisierung des Minings in Bitcoin kann potenziell zu einer Verringerung der Transaktionsgeschwindigkeit führen und das Netzwerk anfällig für Überlastung machen.
-explanation: |
-  Das Kapitel erklärt, dass die Zentralisierung des Minings in Bitcoin potenziell zu Transaktionszensur führen und das Netzwerk anfällig für Angriffe machen kann, einschließlich des 51%-Angriffs.
-reviewed: false
+  - Die Zentralisierung des Minings bei Bitcoin kann potenziell zu einem Rückgang des Wertes von Bitcoin führen und das Netzwerk anfällig für Inflation machen.
+  - Die Zentralisierung des Minings bei Bitcoin kann potenziell zu einem Rückgang der Blockbelohnung führen und das Netzwerk anfällig für Stagnation machen.
+  - Die Zentralisierung des Minings bei Bitcoin kann potenziell zu einem Rückgang der Transaktionsgeschwindigkeit führen und das Netzwerk anfällig für Überlastung machen.
+
+explanation:
+  Das Kapitel erklärt, dass die Zentralisierung des Minings bei Bitcoin
+  potenziell zu einer Zensur von Transaktionen führen und das
+  Netzwerk anfällig für Angriffe machen kann, einschließlich des 51%-Angriffs.
+
+reviewed: true

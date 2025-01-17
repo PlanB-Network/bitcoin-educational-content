@@ -1,9 +1,11 @@
 question: ¿Qué sucede si tu clave privada es revelada a un tercero?
-answer: Los fondos asociados ya no están seguros.
+answer: El tercero puede gastar tus bitcoins.
 wrong_answers:
   - El tercero solo puede ver tu historial de transacciones.
   - El tercero puede cambiar tu clave privada.
   - El tercero puede acceder a tu información personal.
 explanation: |
-  Si tu clave privada es revelada a un tercero, los fondos asociados ya no están seguros. Esto se debe a que la clave privada representa el acceso a tus fondos.
-reviewed: false
+  Si tu clave privada es revelada a un tercero, los
+  fondos asociados ya no están seguros, porque la clave
+  privada les permite acceder a tus fondos.
+reviewed: true

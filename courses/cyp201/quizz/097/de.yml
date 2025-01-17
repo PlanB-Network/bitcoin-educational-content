@@ -1,9 +1,0 @@
-question: Was ist der Zweck von erweiterten Schlüsseln in einer HD-Wallet?
-answer: Sie werden verwendet, um abgeleitete Schlüssel zu erzeugen.
-wrong_answers:
-  - Sie werden verwendet, um den Master-Schlüssel zu generieren.
-  - Sie werden verwendet, um die Wallet zu verschlüsseln.
-  - Sie werden verwendet, um Transaktionen zu verifizieren.
-explanation: |
-  Erweiterte Schlüssel werden verwendet, um abgeleitete Schlüssel zu erzeugen und erfordern sowohl den Elternschlüssel als auch den entsprechenden Kettencode.
-reviewed: false

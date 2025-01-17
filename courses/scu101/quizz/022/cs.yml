@@ -1,11 +1,12 @@
-question: Jaká je doporučená praxe při vkládání USB klíče do počítače?
+question: Jaký je doporučený postup při vkládání USB klíče do počítače?
 answer: Nevkládejte neznámé nebo podezřelé USB klíče.
 wrong_answers:
   - Vložte jakýkoliv USB klíč bez kontroly.
   - Vždy naformátujte USB klíč před vložením.
   - Vložte USB klíč a poté zkontrolujte viry.
 explanation: |
-  Vkládání neznámých nebo podezřelých USB klíčů může systém vystavit škodlivým
-  programům, které se mohou po vložení automaticky spustit. Kontrola USB klíče
-  bude po jeho vložení zbytečná.
-reviewed: false
+  Vkládání neznámých nebo podezřelých USB klíčů může systém vystavit
+  škodlivým programům, které se mohou automaticky spustit
+  po vložení. Kontrola USB klíče bude zbytečná, jakmile
+  byl vložen.
+reviewed: true

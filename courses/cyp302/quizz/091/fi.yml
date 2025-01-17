@@ -1,0 +1,8 @@
+question: Mikä on pääasiallinen ero primitiivisen virtasalauksen ja lohkosalausvirtasalauksen välillä?
+answer: Primitiivinen virtasalakirjoitus ei ole rakennettu lohkosalausmenetelmän pohjalta.
+wrong_answers:
+  - Primitiivinen virtasalakirjoitus vaatii viestien täyttämistä.
+  - Lohkosalausvirtasalakirjoitus käyttää muuttuvan kokoisia lohkoja.
+  - Lohkosalausvirtasalakirjoitus ei sovellu suurten datamäärien käsittelyyn.
+explanation: |
+  Primitiivinen virtasalakirjoitus, kuten Salsa20, on suunniteltu itsenäisesti lohkosalausmenetelmästä, kun taas lohkosalausvirtasalakirjoitus käyttää perustanaan lohkosalausmenetelmää, jota on muokattu tuottamaan salausvirtaa.

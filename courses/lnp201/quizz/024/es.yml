@@ -1,11 +1,8 @@
-question: ¿Qué sucede con la transacción de retiro después de una transferencia en la Red Lightning?
-answer: Se actualiza para reflejar el nuevo saldo del canal.
+question: ¿Cuál es el efecto combinado del timelock y la llave de revocación en las transacciones de compromiso?
+answer: Disuaden a los participantes de hacer trampa al ofrecer un castigo inmediato
 wrong_answers:
-  - Se ejecuta y se transfieren los fondos.
-  - Se descarta y se crea una nueva transacción.
-  - Permanece igual.
+  - Reducen la capacidad del canal en caso de hacer trampa
+  - Bloquean automáticamente los fondos de la parte culpable
+  - Fuerzan la apertura de un nuevo canal si la transacción es incorrecta
 explanation: |
-  Después de una transferencia en la Red Lightning, la transacción de retiro se actualiza
-  para reflejar el nuevo saldo del canal. Esta transacción no se ejecuta a menos que
-  se cierre el canal.
-reviewed: false
+  El timelock y la llave de revocación disuaden a los participantes de hacer trampa asegurando que cualquier intento de hacer trampa resulte en una pérdida inmediata de fondos para la parte culpable.

@@ -1,0 +1,9 @@
+question: Mis on ajalise eelistuse kontseptsioon?
+answer: Ajaline eelistus on tulevaste kaupade väärtuse subjektiivne hindamine võrreldes praeguste kaupadega. Kõik muu võrdsena eelistatakse loomuomaselt praeguseid kaupu tulevastele.
+wrong_answers:
+  - Ajaline eelistus on tulevaste kaupade väärtuse objektiivne hindamine võrreldes praeguste kaupadega.
+  - Ajaline eelistus on loomuomane eelistus tulevastele kaupadele võrreldes praegustega.
+  - Ajaline eelistus on praeguste kaupade väärtuse subjektiivne hindamine võrreldes tulevastega.
+explanation: |
+  Ajaline eelistus on tulevaste kaupade väärtuse subjektiivne hindamine võrreldes praeguste kaupadega. Kuna me oleme surelikud ja tulevik on alati ebakindel, eelistame loomulikult omada kaupa nüüd pigem kui hiljem. Kuigi ajaline eelistus võib erineda indiviidide vahel, tulenevalt paljudest teguritest nagu kultuur, rikkus, haridus, füsioloogia jne, on ajalised eelistused alati positiivsed, tähendades, et kõik muu võrdsena hindame me alati praeguseid kaupu rohkem kui tulevasi.
+reviewed: false

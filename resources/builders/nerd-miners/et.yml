@@ -1,0 +1,5 @@
+description: |
+  NerdMiner on hariv ja lõbus tööriist, mis on pühendatud Bitcoini kaevandamisele ning põhineb ESP-32 S3 kaardil. Kuigi sellel puudub professionaalsete ASIC-ide jõudlus, võimaldab see konkreetset arusaamist kaevandamise toimimisest, tarbides vaid 0,5 W elektrit. Ühendatuna kaevandamisbasseinidega pakub see väikese võimaluse leida plokk, kuvades samal ajal statistikat oma integreeritud ekraanil. Ideaalne entusiastidele ja uudishimulikele.
+
+contributors:
+  - pretty-private

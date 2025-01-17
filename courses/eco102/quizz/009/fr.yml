@@ -1,0 +1,9 @@
+question: Où Frédéric Bastiat est-il mort et enterré ?
+answer: À Rome
+wrong_answers:
+  - À Mugron
+  - À Paris
+  - À Bayonne
+explanation: |
+  Frédéric Bastiat est mort à Rome en 1850 et y est enterré à l'église Saint-Louis-des-Français.
+reviewed: false

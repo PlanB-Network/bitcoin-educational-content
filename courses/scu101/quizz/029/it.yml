@@ -1,9 +1,11 @@
-question: Qual è una soluzione semplice per proteggere i tuoi dati dagli attacchi di ransomware?
-answer: Esegui regolarmente il backup dei tuoi dati importanti su un dispositivo di archiviazione esterno o su un servizio di archiviazione online sicuro.
+question: Qual è una soluzione semplice per proteggere i tuoi dati dagli attacchi ransomware?
+answer: Effettuare regolarmente il backup dei tuoi dati importanti su un dispositivo di archiviazione esterno o su un servizio di archiviazione online sicuro.
 wrong_answers:
-  - Installa più software antivirus sul tuo computer.
-  - Cambia regolarmente il tuo computer.
-  - Utilizza una rete Wi-Fi pubblica.
+  - Installare più software antivirus sul tuo computer ed eseguire scansioni periodiche.
+  - Cambiare regolarmente il tuo computer o reinstallare il tuo sistema operativo (OS).
+  - Puoi utilizzare una rete Wi-Fi pubblica se non hai nulla da nascondere sul tuo dispositivo.
 explanation: |
-  Eseguire regolarmente il backup dei tuoi dati ti consente di recuperare i tuoi dati in caso di attacco informatico o guasto hardware senza perdere informazioni cruciali.
-reviewed: false
+  Effettuare regolarmente il backup dei tuoi dati ti permette di recuperare i
+  tuoi dati in caso di attacco informatico o guasto hardware
+  senza perdere informazioni cruciali.
+reviewed: vero

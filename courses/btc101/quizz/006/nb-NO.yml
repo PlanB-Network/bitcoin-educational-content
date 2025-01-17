@@ -1,0 +1,12 @@
+question: Hva er det primære målet med å lære seg å bruke Bitcoin?
+answer: Å ha kontroll over egne penger.
+wrong_answers:
+  - Å bli en Bitcoin-gruvearbeider.
+  - Å skape et nytt Bitcoin-protokoll.
+  - Å regulere prisen på Bitcoin.
+explanation: |
+  Å lære seg å bruke Bitcoin er en essensiell ferdighet for alle som ønsker
+  å ha kontroll over sine egne penger. Det lar deg kjøpe og selge varer og tjenester,
+  sikkert lagre pengene dine i digitale lommebøker, og bruke dem for transaksjoner uten behovet
+  for en tredjepart.
+reviewed: true

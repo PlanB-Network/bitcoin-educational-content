@@ -5,5 +5,6 @@ wrong_answers:
   - 2030
   - 2200
 explanation: |
-  Do cơ chế phân đôi, có thể dự đoán một cách toán học rằng việc tạo ra bitcoin sẽ ngừng lại vào năm 2140, khi tổng số lượng bitcoin đạt đến giới hạn của nó là 21 triệu.
-đã được xem xét: true
+  Do cơ chế phân đôi, có thể dự đoán một cách toán học rằng việc tạo ra bitcoin sẽ ngừng lại vào năm 2140,
+  khi tổng số lượng bitcoin đạt đến giới hạn của nó là 21 triệu.
+reviewed: true

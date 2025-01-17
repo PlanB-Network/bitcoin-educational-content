@@ -1,11 +1,9 @@
-question: Kde jsou skutečně uloženy bitcoiny?
-answer: V Bitcoin blockchainu
+question: Kde jsou uloženy bitcoiny?
+answer: V Bitcoin blockchainu.
 wrong_answers:
-  - V Bitcoin peněžence
-  - Na zařízení, kde je peněženka nainstalována
-  - Ve federální rezervě
+  - V Bitcoin peněžence.
+  - Na zařízení, kde je peněženka nainstalována.
+  - Ve trezoru Federální rezervy.
 explanation: |
-  Ačkoliv vaše soukromé klíče jsou uloženy ve vaší peněžence, bitcoiny samotné
-  jsou ve skutečnosti uloženy v Bitcoin blockchainu, což je veřejný distribuovaný účetní
-  kniha v rámci peer-to-peer sítě Bitcoin.
+  Ačkoliv vaše soukromé klíče jsou uloženy ve vaší peněžence, samotné bitcoiny jsou ve skutečnosti uloženy v Bitcoin blockchainu, což je veřejná distribuovaná kniha v rámci peer-to-peer sítě Bitcoin.
 reviewed: true

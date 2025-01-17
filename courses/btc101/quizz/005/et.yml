@@ -1,0 +1,10 @@
+question: Mis on Bitcoin'i ühiku peamine eesmärk?
+answer: Bitcoin'i ühik on valuuta, mis on vajalik Bitcoin'i protokolli nõuetekohaseks toimimiseks.
+wrong_answers:
+  - Bitcoin'i ühikut kasutatakse Bitcoin'i hinna reguleerimiseks.
+  - Bitcoin'i ühikut kasutatakse Bitcoin'i protokolli kontrollimiseks.
+  - Bitcoin'i ühikut kasutatakse uute bitcoinide loomiseks.
+explanation: |
+  Bitcoin'i ühik on valuuta, mis on vajalik Bitcoin'i protokolli nõuetekohaseks toimimiseks.
+  Seda kasutatakse tehingute jaoks ja see sõltub Bitcoin'i protokollist, et toimida.
+reviewed: true

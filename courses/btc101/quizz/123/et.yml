@@ -1,0 +1,9 @@
+question: Mis on esimese Bitcoin'i tehingu ploki number?
+answer: Plokk 170
+wrong_answers:
+  - Plokk 1
+  - Plokk 17
+  - Plokk 1700
+explanation: |
+  Esimene Bitcoin'i tehing, mis oli 10 BTC ülekanne Satoshi Nakamoto ja Hal Finney vahel, on salvestatud plokis 170.
+reviewed: true

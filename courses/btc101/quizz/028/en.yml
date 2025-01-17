@@ -1,10 +1,13 @@
-question: What is the evolution of currency?
+question: What is the evolution path of today's currency?
 answer: Raw stone -> Coin -> Banknote -> Bank card -> Blockchain -> Lightning Network
 wrong_answers:
   - Raw stone -> Coin -> Banknote -> Blockchain -> Lightning Network
   - Raw stone -> Coin -> Banknote -> Bank card -> Lightning Network
-  - Raw stone -> Coin -> Banknote -> Bank card -> Blockchain
+  - Raw stone -> Coin -> Bank card -> Banknote -> Blockchain -> Lightning Network
 explanation: |
-  Currency, as any technology, evolved from raw stone
-  to metalic coin, then to banknote, bank card, and finally peer-to-peer networks with Bitcoin blockchain, and the Lightning Network.
+  Currency is a technology that has evolved with time,
+  starting from being represented by raw stones, changing
+  into metallic coins, then into banknotes, bank cards, and
+  finally into peer-to-peer networks with the use of the
+  Bitcoin blockchain and the Lightning Network.
 reviewed: true

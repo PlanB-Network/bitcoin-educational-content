@@ -5,6 +5,5 @@ wrong_answers:
   - Puede ser duplicado.
   - Puede perderse físicamente.
 explanation: |
-  El texto menciona que Bitcoin es un activo financiero altamente volátil y
-  su precio puede caer a 0. Este es uno de los riesgos asociados con la compra de Bitcoin.
-reviewed: false
+  El texto del curso menciona que Bitcoin es un activo financiero altamente volátil, y su precio puede caer a 0, lo cual es uno de los riesgos asociados con la compra de Bitcoin.
+reviewed: true

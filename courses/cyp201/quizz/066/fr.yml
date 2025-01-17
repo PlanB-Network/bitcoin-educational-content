@@ -1,12 +1,9 @@
-question: Quel est le but d'une somme de contrôle dans la génération d'une phrase mnémonique pour un portefeuille Bitcoin ?
-answer: Elle garantit la vérification de l'exactitude de la phrase de récupération.
+question: Quelle partie de la sortie de HMAC-SHA512 est utilisée comme code de chaîne enfant ?
+answer: Les 32 derniers octets
 wrong_answers:
-  - Elle génère l'entropie pour le portefeuille.
-  - Elle détermine le nombre de mots dans la phrase de récupération.
-  - Elle chiffre la phrase de récupération pour une sécurité accrue.
+  - Les 32 premiers octets
+  - L'intégralité des 64 octets
+  - Le hash SHA256 des 32 octets du milieu
 explanation: |
-  La somme de contrôle est obtenue en passant l'entropie par la fonction SHA256
-  et en récupérant les 8 premiers bits du hachage. Sans cette somme de contrôle, une erreur dans
-  la phrase pourrait entraîner la création d'un portefeuille différent et donc la
-  perte de fonds.
+  Les 32 derniers octets de la sortie de HMAC-SHA512 servent de code de chaîne pour la clé enfant.
 reviewed: false

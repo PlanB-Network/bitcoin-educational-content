@@ -93,4 +93,4 @@ DuckDuckGoの「*Onionize*」オプションを使用すると、Torネットワ
 ![TOR BROWSER](assets/notext/35.webp)
 ブラウザの全体的なセキュリティのために、「*Safer*（より安全）」および「*Safest*（最も安全）」モードでは、訪問するサイトによって実行されるウェブ機能とスクリプトを調整できます。これにより、脆弱性の悪用リスクを最小限に抑えることができますが、その代わりにサイトの表示とインタラクティビティに影響を与えることになります。![TOR BROWSER](assets/notext/36.webp) 他にも、危険なコンテンツブロッカーや、サイトとの接続がこのプロトコルを一貫して尊重することを保証するHTTPS-onlyモードなど、セキュリティオプションが見つかります。![TOR BROWSER](assets/notext/37.webp) 最後に、「*Connection*（接続）」タブでは、Torネットワークへの接続に関連するすべての設定を見つけることができます。ここでは、アクセスが検閲されている地域からTorにアクセスするためのブリッジを設定できます。![TOR BROWSER](assets/notext/38.webp) これで準備は完了です。これで、より安全でプライベートな方法でインターネットをナビゲートする準備ができました！オンラインプライバシーが興味のあるトピックであれば、Mullvad VPNに関するこの他のチュートリアルもお勧めします：
 
-https://planb.network/tutorials/others/mullvad
+https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

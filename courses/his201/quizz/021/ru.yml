@@ -1,0 +1,9 @@
+question: В каком году Сатоши Накамото начал работать над Bitcoin?
+answer: 2007
+wrong_answers:
+  - 2008
+  - 2009
+  - 2010
+explanation: |
+  Он упоминал об этом несколько раз в своих письмах. (https: //bitcointalk.org/index.php?topic=13.msg46#msg46)
+reviewed: false

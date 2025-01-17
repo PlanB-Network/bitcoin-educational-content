@@ -1,5 +1,5 @@
 ---
-name: Frase-senha BIP39
+name: Passphrase BIP39
 description: Entendendo como uma frase-senha funciona
 ---
 ![cover](assets/cover.webp)
@@ -35,4 +35,8 @@ Também é importante salvar corretamente esta frase-senha, da mesma forma que a
 
 Para configurar uma frase-senha em um dispositivo Ledger (Stax, Flex, ou Nano), você pode consultar este tutorial:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
+Em uma COLDCARD:
+
+https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

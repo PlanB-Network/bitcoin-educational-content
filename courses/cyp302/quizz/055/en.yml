@@ -1,0 +1,9 @@
+question: What is the importance of cyclic groups in cryptography?
+answer: They allow the creation of cryptographic systems based on generators
+wrong_answers:
+  - They simplify the multiplication of encryption keys
+  - They increase the security of public communication channels
+  - They are used to hash messages directly to preserve their integrity
+explanation: |
+  In cryptography, cyclic groups, having generators, are essential for establishing bases for encryption keys, especially in public key systems.
+reviewed: false

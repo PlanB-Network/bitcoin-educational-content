@@ -1,10 +1,9 @@
-question: Qual é o objetivo da chave de revogação em uma transação de compromisso?
-answer: Ela permite que a outra parte mova os fundos sem esperar pelo fim do prazo de bloqueio se alguém tentar trapacear.
+question: O que limita a quantidade de um pagamento indireto na Lightning Network?
+answer: A menor liquidez disponível em um canal do caminho escolhido
 wrong_answers:
-  - Ela permite que a outra parte recupere imediatamente seu dinheiro.
-  - Ela permite que a outra parte crie uma nova transação de compromisso.
-  - Ela permite que a outra parte estenda o prazo de bloqueio.
+  - O número de nós intermediários envolvidos
+  - A capacidade total da Lightning Network
+  - As taxas de roteamento definidas por cada nó
 explanation: |
-  A chave de revogação é uma medida de segurança em uma transação de compromisso.
-  Se uma das partes tentar trapacear publicando um estado antigo, a outra parte pode usar a chave de revogação para mover os fundos sem esperar pelo fim do prazo de bloqueio, efetivamente punindo o trapaceiro.
+  O valor máximo que um pagamento indireto pode transferir depende da menor liquidez disponível nos canais utilizados, pois cada canal deve ajustar os fundos de cada lado.
 reviewed: false

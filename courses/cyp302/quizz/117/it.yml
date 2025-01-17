@@ -1,0 +1,9 @@
+question: In quale fase della crittografia AES vengono utilizzati i Campi di Galois?
+answer: Nella sostituzione dei byte e nell'operazione MixColumns
+wrong_answers:
+  - Nella generazione della chiave privata
+  - Quando si dividono i testi in blocchi da 128 bit
+  - In ogni fase dell'operazione XOR
+explanation: |
+  I Campi di Galois vengono utilizzati nella sostituzione dei byte per calcolare l'inverso moltiplicativo e nell'operazione MixColumns per eseguire moltiplicazioni modulo un polinomio irriducibile.
+reviewed: false

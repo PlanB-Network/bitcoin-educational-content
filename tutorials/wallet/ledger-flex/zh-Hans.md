@@ -263,7 +263,7 @@ Ledger将使用其随机数生成器创建您的助记词短语。确保在此�
 
 有关标签的更多信息，我还建议您查看这个教程：
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 然后，您可以使用这个地址来接收比特币。
 

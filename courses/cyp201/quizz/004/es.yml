@@ -1,9 +1,9 @@
-question: ¿Cuál es el papel de las funciones hash criptográficas en la verificación de la integridad del software descargado?
-answer: Actúan como centinelas digitales, verificando la integridad del software descargado.
+question: ¿Qué combinación de funciones hash se utiliza para generar huellas digitales más cortas en Bitcoin?
+answer: HASH160
 wrong_answers:
-  - Encriptan el software para protegerlo de los hackers.
-  - Comprimen el software para reducir el tiempo de descarga.
-  - Generan una clave única para cada descarga.
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  Las funciones hash criptográficas desempeñan un papel crucial en la verificación de la integridad del software descargado. Al comparar el hash del archivo descargado con el hash esperado, se puede verificar que el archivo no ha sido manipulado.
+  HASH160 combina SHA256 y RIPEMD160 para generar huellas digitales de 160 bits, notablemente para direcciones de Bitcoin.
 reviewed: false

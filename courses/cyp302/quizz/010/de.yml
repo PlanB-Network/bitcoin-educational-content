@@ -1,0 +1,9 @@
+question: Warum ist Kryptographie in einer offenen Kommunikationsumgebung entscheidend?
+answer: Sie sichert Daten, selbst wenn der Kommunikationskanal abgefangen wird.
+wrong_answers:
+  - Sie macht Kommunikation für alle Netzwerke unsichtbar.
+  - Sie verhindert Angriffe auf lokale Netzwerke.
+  - Sie ersetzt physische Kabel durch sichere Kommunikation.
+explanation: |
+  In einer offenen Kommunikationsumgebung, in der Kanäle überwacht werden können, gewährleistet die Kryptographie Sicherheit, indem sie die ausgetauschten Daten schützt, selbst in Gegenwart potenzieller Angriffe.
+reviewed: false

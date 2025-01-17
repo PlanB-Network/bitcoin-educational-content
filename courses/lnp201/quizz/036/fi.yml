@@ -1,10 +1,8 @@
-question: Kuka omistaa peruutusavaimen Alicen sitoumustapahtumassa?
-answer: Vain Alice.
+question: Mikä ehto on täytettävä, jotta HTLC; n vastaanottaja saa varat?
+answer: Heidän on annettava salaisuus (preimage) maksun avaamiseksi.
 wrong_answers:
-  - Vain Bob.
-  - Sekä Alice että Bob.
-  - Ei kumpikaan, Alice eikä Bob.
+  - Heidän on hyväksyttävä jokaisen välittävän solmun reititysmaksut.
+  - Heidän on allekirjoitettava uusi sitoumustapahtuma.
+  - Heidän on odotettava aikalukon umpeutumista ennen varojen noutamista.
 explanation: |
-  Alicen sitoumustapahtumassa vain Alicella on peruutusavain.
-  Tämä mahdollistaa hänelle varojen siirtämisen odottamatta Timelockin päättymistä, jos
-  Bob yrittää huijata.
+  Saadakseen varat HTLC: ssä, vastaanottajan on annettava tietty salaisuus, joka mahdollistaa maksun avaamisen hashin turvaamana.

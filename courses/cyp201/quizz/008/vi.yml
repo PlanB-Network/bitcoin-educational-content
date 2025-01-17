@@ -1,9 +1,13 @@
-question: Điều gì xảy ra nếu một đầu vào có sự lệch lạc nhỏ được cung cấp cho hàm băm mật mã?
-answer: Nó thay đổi đáng kể bản băm cuối cùng.
+question: Tại sao SHA256 áp dụng một quá trình tiền xử lý cho thông điệp đầu vào?
+
+answer: Để đảm bảo độ dài là bội số của 512 bit
+
 wrong_answers:
-  - Nó tạo ra cùng một bản băm.
-  - Nó khiến hàm băm không hoạt động.
-  - Nó làm chậm quá trình tính toán bản băm.
+  - Để xác minh tính toàn vẹn của thông điệp
+  - Để mã hóa dữ liệu trước khi băm
+  - Để tăng kích thước của các băm được tạo ra
+
 explanation: |
-  Các hàm băm mật mã được thiết kế theo cách mà ngay cả một sự lệch lạc nhỏ trong đầu vào cũng thay đổi đáng kể bản băm cuối cùng. Tính chất này rất quan trọng đối với sự an toàn của hàm băm, vì nó làm cho việc tìm ra một đầu vào khác tạo ra cùng một bản băm trở nên cực kỳ khó khăn.
+  Quá trình tiền xử lý điều chỉnh độ dài của thông điệp bằng cách thêm các bit đệm và một biểu diễn nhị phân của độ dài của nó.
+
 reviewed: false

@@ -1,10 +1,9 @@
-question: Các thợ đào được thưởng cho công việc của họ như thế nào?
-answer: Các thợ đào được thưởng thông qua phần thưởng được bao gồm trong khối và qua phí giao dịch.
+question: Giao dịch coinbase là gì?
+answer: Giao dịch đầu tiên của khối bao gồm phần thưởng của người đào.
 wrong_answers:
-  - Các thợ đào được trả tiền bởi mạng lưới Bitcoin.
-  - Các thợ đào nhận một mức lương cố định cho công việc của họ.
-  - Các thợ đào được thưởng bằng bitcoin mới.
+  - Một giao dịch được thực hiện trên sàn giao dịch Coinbase.
+  - Giao dịch thứ hai của khối bao gồm phí cao nhất.
+  - Một giao dịch được thực hiện bởi người đào sau khi anh ta nhận được phần thưởng.
 explanation: >-
-  Khi một thợ đào thành công trong việc khai thác một khối, họ nhận được phần thưởng dưới dạng bitcoin mới. Phần thưởng này được bao gồm trong khối mà họ đã khai thác. Ngoài ra,
-  các thợ đào cũng nhận được phí giao dịch từ các giao dịch được bao gồm trong khối.
-reviewed: false
+  Giao dịch coinbase luôn là giao dịch đầu tiên của một khối. Nó bao gồm phần thưởng của người đào cho việc thực hiện công việc của người xác thực.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mitkä ovat luokat konfliktissa Comten ja Dunoyer'n mukaan?
+answer: Ne, jotka maksavat veroja ja ne, jotka elävät niistä
+wrong_answers:
+  - Työntekijät ja työnantajat
+  - Porvaristo ja proletariaatti
+  - Kauppiaat ja käsityöläiset
+explanation: |
+  Comte ja Dunoyer näkevät luokkakonfliktin tuottajien, jotka rahoittavat verojen kautta, ja ei-tuottajien, jotka hyötyvät niistä, välillä.
+reviewed: false

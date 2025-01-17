@@ -1,9 +1,9 @@
-question: ¿Cuál es el tipo de cierre de canal más rápido y menos costoso?
-answer: Cierre cooperativo.
+question: ¿Qué hace un nodo emisor cuando una ruta de pago falla debido a liquidez insuficiente?
+answer: Intenta otra ruta hasta encontrar una funcional
 wrong_answers:
-  - Cierre forzado.
-  - Cierre por un tramposo.
-  - No hay diferencia en velocidad y costo entre los tipos de cierre.
+  - Envía automáticamente una solicitud de reembolso al destinatario
+  - Cierra el canal y crea un nuevo canal directo
+  - Pide a los nodos intermediarios que aumenten su liquidez
 explanation: |
-  En un cierre cooperativo, ambas partes se comunican y acuerdan un estado final del canal. Esta es la opción más rápida y menos costosa.
+  Cuando una ruta falla, el nodo emisor prueba otras rutas alternativas hasta encontrar un camino funcional o hasta que se agoten todas las opciones.
 reviewed: false

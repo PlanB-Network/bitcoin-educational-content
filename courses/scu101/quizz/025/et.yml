@@ -1,0 +1,9 @@
+question: Mis on soovitatav viis andmekrüpteerimise parooli hoidmiseks?
+answer: Kirjutage parool paberile, mida hoitakse turvalises kohas.
+wrong_answers:
+  - Hoidke parooli arvuti tekstifailis.
+  - Jagage parooli usaldusväärsete sõpradega.
+  - Kasutage lihtsalt meeldejäävat ühist parooli.
+explanation: |
+  Soovitatav on kirjutada andmekrüpteerimise parool paberile ja hoida seda turvalises kohas. See on selleks, et vältida juurdepääsu kaotamist krüpteeritud andmetele.
+reviewed: false

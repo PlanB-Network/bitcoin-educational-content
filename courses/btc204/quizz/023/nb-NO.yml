@@ -1,0 +1,8 @@
+question: Hvis vi observerer en transaksjon med 6 UTXOer som inndata og kun én UTXO som utdata, hvilken sannsynlig tolkning kan vi trekke?
+answer: Alle UTXOene i inndata tilhørte samme bruker, og denne brukeren er fortsatt i besittelse av UTXOen i utdata.
+wrong_answers:
+  - UTXOene i inndata kom fra forskjellige brukere som samarbeidet om en enkelt transaksjon.
+  - Alle UTXOene i inndata tilhørte samme bruker, og den i utdata tilhører nå en annen bruker.
+  - UTXOene i inndata kom fra 2 forskjellige brukere, og den i utdata tilhører fortsatt disse 2 brukerne.
+explanation: |
+  Vi er sannsynligvis i nærvær av en konsolidering. Derfor er det et felles eierskap til inndataene og utdataen.

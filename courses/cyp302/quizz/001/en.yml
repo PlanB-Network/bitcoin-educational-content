@@ -1,0 +1,9 @@
+question: What was contained in the iron box handed over to Robert Morriss?
+answer: Three encrypted texts and a note
+wrong_answers:
+  - A map and clues
+  - A unique encryption key
+  - A single list of names
+explanation: |
+  The box contained three encrypted texts and a note explaining the discovery of a treasure and providing instructions on how to retrieve its contents.
+reviewed: false

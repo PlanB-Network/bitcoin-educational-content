@@ -1,0 +1,10 @@
+question: Hvordan påvirker reguleringer og strømtariffer Bitcoin-mining?
+answer: Reguleringer og strømtariffer har en betydelig innvirkning på Bitcoin-mining. Minere søker konstant etter lavkostnads elektrisitet for å maksimere sine profitter. Derfor tiltrekker ikke regioner med høye strømkostnader minere til disse områdene. Minere har en tendens til å trekke mot regioner med lave strømtariffer, ofte i fremvoksende land eller land med energioverskudd.
+wrong_answers:
+  - Reguleringer og strømtariffer påvirker Bitcoin-mining ved å bestemme hvilken type mining-maskiner som kan brukes.
+  - Reguleringer og strømtariffer påvirker Bitcoin-mining ved å bestemme hvilken type mining-programvare som kan brukes.
+  - Reguleringer og strømtariffer påvirker Bitcoin-mining ved å bestemme størrelsen på mining-poolen som kan dannes.
+explanation: |
+  Kapittelet forklarer at reguleringer og strømtariffer har en betydelig innvirkning på Bitcoin-mining.
+  Minere søker konstant etter lavkostnads elektrisitet for å maksimere sine profitter, og har derfor en tendens til å trekke mot regioner med lave strømtariffer.
+reviewed: true

@@ -1,0 +1,9 @@
+question: What type of symmetric encryption is primarily used for continuous communications, such as audio or video streams?
+answer: Stream encryption
+wrong_answers:
+  - Block encryption
+  - Verification code
+  - Message hashing
+explanation: |
+  Stream encryption is particularly suited to continuous communications because it encrypts data continuously, unlike block encryption, which divides them into blocks.
+reviewed: false

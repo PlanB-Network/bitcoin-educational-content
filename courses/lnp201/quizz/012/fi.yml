@@ -1,11 +1,9 @@
-question: Mikä on moniallekirjoitusosoitteiden tarkoitus Lightning-verkossa?
-answer: Ne vaativat kahden osapuolen suostumuksen varojen vapauttamiseen.
+question: Milloin Lightning-kanava on virallisesti avattu?
+answer: Kun talletustransaktio on vahvistettu Bitcoin-lohkoketjussa
 wrong_answers:
-  - Ne mahdollistavat nopeammat transaktioajat.
-  - Ne tarjoavat lisäsuojaa hakkeroinnilta.
-  - Ne mahdollistavat useiden kryptovaluuttojen käytön.
+  - Heti kun osapuolten välillä on vaihdettu julkiset avaimet
+  - Kun molemmat osapuolet ovat allekirjoittaneet nostotransaktion
+  - Heti kun 2/2 multisignature-osoite on luotu
 explanation: |
-  Moniallekirjoitusosoitteet Lightning-verkossa vaativat kahden osapuolen
-  suostumuksen varojen vapauttamiseen. Tämä on turvatoimi, joka varmistaa, että varat
-  voidaan siirtää vain molempien osapuolten suostumuksella.
+  Kanava katsotaan avatuksi, kun talletustransaktio on sisällytetty Bitcoin-lohkoon ja se on saavuttanut tietyn määrän vahvistuksia.
 reviewed: false

@@ -1,9 +1,11 @@
 question: Cosa dovresti fare dopo aver acquistato Bitcoin su una piattaforma di scambio?
-answer: Preleva Bitcoin sul tuo portafoglio.
+answer: Ritirare i bitcoin e inviarli al tuo portafoglio.
 wrong_answers:
-  - Lascialo sulla piattaforma.
-  - Véndilo immediatamente.
-  - Trasferiscilo su un'altra piattaforma.
+  - Lasciare i bitcoin sulla piattaforma.
+  - Vendere immediatamente i bitcoin.
+  - Trasferire i bitcoin su un'altra piattaforma di scambio.
 explanation: |
-  Il testo consiglia che dopo l'acquisto di Bitcoin, è consigliabile prelevare immediatamente i Bitcoin dalle piattaforme di scambio per ridurre al minimo i rischi di hacking e blocco dei fondi.
-reviewed: false
+  Il testo del corso consiglia che, dopo aver acquistato Bitcoin, si
+  debbano immediatamente ritirare gli UTXO dalle piattaforme di scambio
+  per minimizzare i rischi di hacking e di blocco dei fondi.
+reviewed: true

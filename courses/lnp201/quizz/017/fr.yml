@@ -1,9 +1,9 @@
-question: Quelle est la première étape pour ouvrir un canal dans le Lightning Network ?
-answer: Les deux pairs communiquent leur intention d'ouvrir un canal.
+question: Que se passe-t-il si Bob envoie une facture (invoice) à Alice pour 30 000 satoshis ?
+answer: Alice crée une transaction d'engagement pour transférer 30 000 satoshis à Bob dans le canal
 wrong_answers:
-  - Alice envoie de l'argent à l'adresse publique de Bob.
-  - Alice crée une adresse multi-sig 2/2.
-  - Alice publie une transaction sur le réseau Bitcoin.
+  - Alice doit ouvrir un nouveau canal pour effectuer ce transfert
+  - Bob reçoit automatiquement les 30 000 satoshis dans son portefeuille
+  - La facture est payée par une transaction on-chain sur Bitcoin
 explanation: |
-  La première étape pour ouvrir un canal dans le Lightning Network est que les deux pairs communiquent leur intention d'ouvrir un canal. Par exemple, Alice pourrait dire : "Salut, je veux ouvrir un canal !" et Bob pourrait répondre : "D'accord, voici mon adresse publique."
+  Lorsque Bob envoie une facture (invoice) à Alice, elle crée et signe une nouvelle transaction d'engagement pour ajuster la répartition des fonds, transférant ainsi 30 000 satoshis dans le canal.
 reviewed: false

@@ -1,0 +1,12 @@
+question: Hva er det primære verktøyet som brukes av gruvearbeidere i Bitcoin-nettverket i dag?
+answer: ASICs
+wrong_answers:
+  - CPUer
+  - GPUer
+  - FPGAer
+explanation: |
+  I dag bruker gruvearbeidere utelukkende ASICs dedikert til denne
+  operasjonen, optimalisert for å teste det maksimale antallet
+  kombinasjoner med så lite energiforbruk som mulig
+  og så raskt som mulig.
+reviewed: true

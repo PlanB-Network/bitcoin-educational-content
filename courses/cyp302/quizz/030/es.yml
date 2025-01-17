@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal diferencia entre una cadena aleatoria y una cadena pseudoaleatoria?
+answer: Una cadena aleatoria proviene de un proceso puramente aleatorio, mientras que una cadena pseudoaleatoria es generada por un algoritmo a partir de una semilla.
+wrong_answers:
+  - Una cadena pseudoaleatoria usa solo bits de 1.
+  - Una cadena aleatoria siempre es más larga que una cadena pseudoaleatoria porque hay una acción natural sobre ella.
+  - Una cadena pseudoaleatoria está definida por un modelo estrictamente binario, mientras que una cadena aleatoria está definida por un modelo estrictamente hexadecimal.
+explanation: |
+  Una cadena aleatoria proviene de un proceso directamente aleatorio, mientras que una cadena pseudoaleatoria se produce utilizando un algoritmo de expansión y una semilla inicial.
+reviewed: false

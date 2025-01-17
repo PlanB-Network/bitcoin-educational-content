@@ -5,5 +5,5 @@ wrong_answers:
   - Permite transacciones anónimas.
   - Proporciona una plataforma para el comercio de Bitcoin.
 explanation: |
-  La Red Lightning es un protocolo de pago de "capa 2" que opera sobre una criptomoneda basada en blockchain como Bitcoin. Está diseñada para permitir transacciones rápidas y de bajo costo.
+  La Red Lightning es un protocolo de pago de capa 2 que opera sobre una criptomoneda basada en blockchain como Bitcoin. Está diseñada para permitir transacciones rápidas y de bajo costo.
 reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Por qué es difícil encontrar el valor de d en el criptosistema RSA?
+answer: Porque requiere conocimiento de φ(N), que depende de los factores primos de N
+wrong_answers:
+  - Porque d es un número aleatorio
+  - Porque d es mayor que N
+  - Porque d se calcula independientemente de φ(N)
+explanation: |
+  Encontrar d es difícil porque depende del conocimiento de φ(N), que a su vez depende de los valores de p y q, los factores primos de N.
+reviewed: false

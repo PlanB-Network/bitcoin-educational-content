@@ -1,0 +1,9 @@
+question: Was ist die Besonderheit der drei verschlüsselten Texte in der Box?
+answer: Sie enthalten durch Kommas getrennte Zahlen.
+wrong_answers:
+  - Sie sind alle in gewöhnlichen Buchstaben geschrieben
+  - Sie verwenden unbekannte Symbole
+  - Sie sind in mehreren Sprachen verfasst
+explanation: |
+  Die drei verschlüsselten Texte bestehen aus Serien von durch Kommas getrennten Zahlen, die einen Schlüssel zur Entschlüsselung benötigen.
+reviewed: false

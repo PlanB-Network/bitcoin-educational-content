@@ -1,0 +1,9 @@
+question: 比特币和美元之间的首次交易是什么时候发生的？
+answer: 2009年10月12日
+wrong_answers:
+  - 2009年5月8日
+  - 2009年12月30日
+  - 2010年3月11日
+explanation:
+  Martti转移了5,050个比特币给NLS，然后NLS通过他的PayPal账户转移了5.02美元。这相当于每个比特币的单价约为0.001美元。
+reviewed: true

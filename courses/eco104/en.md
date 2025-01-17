@@ -1694,21 +1694,6 @@ Now that you went through the Module "Overcomming Doubts" you will have to test 
 4. Given Bitcoin’s ability to offer energy producers the ability to monetise energy directly, do you think this has significant benefits for energy producers and the overall energy market?
 5. Reflecting on the comparisons between Bitcoin's energy consumption and other industries, is it fair to single out Bitcoin for its energy usage? Why or why not?
 
-# Closing Remarks
-
-<partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
-
-
-
-## Evaluate the course
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Final Exam
-<chapterId>cbdb0b33-0491-5013-b96c-9a84dd085ed0</chapterId>
-<isCourseExam>true</isCourseExam>
-
-
 ## Closing Remarks
 
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
@@ -1734,3 +1719,17 @@ As we conclude this course, we hope you will take the knowledge acquired here an
 May this newfound understanding empower you to navigate the evolving world of finance with confidence and purpose. Best of luck on your path of growth and discovery!
 
 The Future is Bright!
+
+# Conclusion
+
+<partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
+
+## Reviews & Ratings
+
+<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Conclusion
+
+<chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

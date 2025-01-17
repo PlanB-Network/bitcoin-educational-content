@@ -1,9 +1,12 @@
 question: Qual é o papel dos ASICs na mineração de Bitcoin?
 answer: ASICs são máquinas projetadas exclusivamente para aplicar o algoritmo SHA256 no processo de mineração.
 wrong_answers:
-  - ASICs são usados para verificar transações de Bitcoin.
-  - ASICs são usados para criar novos bitcoins.
-  - ASICs são usados para garantir a segurança da rede Bitcoin.
+  - ASICs são usados para verificar transações de Bitcoin aplicando o algoritmo SHA256 no processo de verificação.
+  - ASICs são usados para criar arbitrariamente novos bitcoins.
+  - ASICs são usados para proteger a rede Bitcoin.
 explanation: |
-  ASICs (Circuitos Integrados Específicos de Aplicação) são hardware especializados projetados especificamente para a mineração de Bitcoin. Eles são otimizados para executar a função de hash SHA256, que é o problema matemático que os mineradores devem resolver na Prova de Trabalho.
-reviewed: false
+  ASICs (Circuitos Integrados de Aplicação Específica) são
+  hardware especializado projetado especificamente para a
+  mineração de Bitcoin. Eles são otimizados para realizar a função de hashing SHA256, que é o problema matemático que os mineradores
+  devem resolver no processo de Prova de Trabalho.
+reviewed: true

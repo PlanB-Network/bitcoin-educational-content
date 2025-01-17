@@ -1,0 +1,9 @@
+question: ¿Qué miembro del foro hizo público su algoritmo de minería después de recibir una generosa donación de Jeff Garzik el 18 de septiembre de 2010?
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  Hasta entonces, habían estado obteniendo beneficios de una comisión por el uso de su software. Lo [publicaron](https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135) bajo una licencia gratuita.
+reviewed: false

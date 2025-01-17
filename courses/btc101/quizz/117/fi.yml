@@ -5,5 +5,6 @@ wrong_answers:
   - Vuonna 2009
   - Vuonna 2023
 explanation: |
-  Satoshi Nakamoto katosi vuonna 2010, jättäen luomuksensa yhteisön käsiin.
-reviewed: false
+  Satoshi Nakamoto katosi vuonna 2010, jättäen luomuksensa
+  yhteisön käsiin.
+reviewed: true

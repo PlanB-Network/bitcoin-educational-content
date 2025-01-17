@@ -1,0 +1,21 @@
+year: 2024-07
+name: Bitcoin Nashville 2024
+builder: The Bitcoin Conference
+location: Nashville, USA
+language:
+  - en
+links:
+  twitter: https://x.com/thebitcoinconf
+  website: https://b.tc/conference
+tags:
+  - finance
+  - market-trends
+  - adoption
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: "2024-12-13"
+    urgency: 0
+    contributors_id:
+      - jramos0
+    reward: 0

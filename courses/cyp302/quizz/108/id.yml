@@ -1,0 +1,8 @@
+question: Mengapa skema enkripsi terotentikasi saja tidak cukup dalam sesi komunikasi?
+answer: Ini tidak menjamin bahwa pesan dikirim oleh pengirim pada saat sesi.
+wrong_answers:
+  - Ini menggunakan kunci yang terlalu pendek.
+  - Ini tidak mengenkripsi pesan yang dikirim pada saat sesi.
+  - Ini tidak memungkinkan untuk otentikasi pengirim pada saat sesi.
+explanation: |
+  Skema enkripsi terotentikasi tidak melindungi terhadap serangan seperti replay, pengurutan ulang, dan refleksi tanpa penambahan indikator seperti pengidentifikasi dan nomor urut.

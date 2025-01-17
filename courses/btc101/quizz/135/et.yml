@@ -1,0 +1,9 @@
+question: Mis on raskusastme kohandamise tähtsus Bitcoin'i võrgus?
+answer: See tagab, et plokk lisatakse ligikaudu iga kümne minuti järel.
+wrong_answers:
+  - See määrab Bitcoin'i hinna.
+  - See reguleerib, mitu Bitcoin'i saab kaevandada.
+  - See määrab ploki suuruse.
+explanation: >-
+  Raskusastme kohandamine Bitcoin'i võrgus tagab, et plokk lisatakse ligikaudu iga kümne minuti järel. See on osa Bitcoin'i võrgu protokolli reeglitest.
+reviewed: false

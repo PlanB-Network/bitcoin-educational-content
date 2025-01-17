@@ -2,8 +2,10 @@ question: Cosa sono FOMO e FUD?
 answer: Emozioni che possono portare a decisioni impulsive e potenzialmente dannose.
 wrong_answers:
   - Tipi di portafogli Bitcoin.
-  - Strategie per l'acquisto di Bitcoin.
+  - Strategie per acquistare Bitcoin.
   - Regolamentazioni relative a Bitcoin.
-explanation: |
-  Il testo spiega che FOMO (Fear of Missing Out) e FUD (Fear, Uncertainty, Doubt) sono emozioni che possono portare a decisioni impulsive e potenzialmente dannose nell'acquisto di Bitcoin.
-reviewed: false
+explanation: >-
+  Il testo spiega che FOMO (Paura di Essere Esclusi) e FUD (Paura, Incertezza,
+  Dubbio) sono emozioni che possono portare a decisioni impulsive e potenzialmente dannose
+  quando si acquista Bitcoin.
+reviewed: vero

@@ -1,11 +1,9 @@
-question: Jaký je význam zabezpečení soukromého klíče v ekosystému Bitcoinu?
-answer: Zajišťuje bezpečnost transakcí s Bitcoinem.
+question: Jaká informace není zahrnuta v rozšířeném klíči?
+answer: Historie transakcí klíče
 wrong_answers:
-  - Zajišťuje rychlost transakcí s Bitcoinem.
-  - Zajišťuje anonymitu transakcí s Bitcoinem.
-  - Zajišťuje legalitu transakcí s Bitcoinem.
+  - Číslo indexu klíče
+  - Klíč (soukromý nebo veřejný)
+  - Kód řetězce
 explanation: |
-  Soukromé klíče jsou základním kamenem, který zajišťuje bezpečnost transakcí s Bitcoinem.
-  Musí být generovány zcela náhodným způsobem, aby se předešlo jakékoli zranitelnosti
-  spojené s předvídatelností.
+  Rozšířený klíč obsahuje pouze informace nezbytné pro odvození dceřiných klíčů, nikoli informace související s transakcemi.
 reviewed: false

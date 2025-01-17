@@ -4,7 +4,8 @@ wrong_answers:
   - Sen voi varastaa helposti.
   - Sen voi kopioida.
   - Sen voi menettää fyysisesti.
-explanation: >-
-  Tekstissä mainitaan, että Bitcoin on erittäin volatiili rahoitusomaisuus ja
-  sen hinta voi laskea nollaan. Tämä on yksi riskeistä, jotka liittyvät Bitcoinin ostamiseen.
-reviewed: false
+explanation: |
+  Kurssitekstissä mainitaan, että Bitcoin on erittäin volatiili
+  finanssiomaisuus, ja sen hinta voi laskea nollaan, mikä on yksi
+  riskeistä, jotka liittyvät Bitcoinin ostamiseen.
+reviewed: true

@@ -1,9 +1,9 @@
-question: ¿Cuáles son los dos componentes clave en el mecanismo de seguridad del protocolo Bitcoin?
-answer: Algoritmos de derivación HMAC y PBKDF2
+question: ¿Cómo se calcula una clave pública a partir de una clave privada?
+answer: Mediante la multiplicación escalar en la curva elíptica
 wrong_answers:
-  - Funciones hash SHA-256 y RIPEMD-160
-  - Algoritmo de firma digital de curva elíptica (ECDSA) y función hash SHA-256
-  - RSA y intercambio de claves Diffie-Hellman
+  - Aplicando un hash en la clave privada
+  - A través de la encriptación asimétrica
+  - Con la adición repetida de valores numéricos
 explanation: |
-  Los algoritmos de derivación HMAC y PBKDF2 son componentes clave en el mecanismo de seguridad del protocolo Bitcoin. Previenen una variedad de posibles ataques y aseguran la integridad de las billeteras de Bitcoin.
+  La clave pública se obtiene mediante la multiplicación escalar de la clave privada con el punto generador G en la curva elíptica.
 reviewed: false

@@ -1,9 +1,13 @@
 question: Jaký je účel vytvoření dědického plánu pro vaše bitcoiny?
-answer: Aby bylo zajištěno, že vaše bitcoiny budou po vaší smrti správně spravovány
+answer: Aby bylo zajištěno, že vaše bitcoiny budou po vaší smrti správně spravovány.
 wrong_answers:
-  - Aby se vyhnulo daním z vašich bitcoinů
-  - Aby se zvýšila hodnota vašich bitcoinů
-  - Aby se zabránilo krádeži vašich bitcoinů
+  - Aby se vyhnulo daním z vašich bitcoinů.
+  - Aby se snížila hodnota vašich bitcoinů.
+  - Aby se zabránilo krádeži vašich bitcoinů.
 explanation: |
-  Dědický plán zajišťuje, že vaše bitcoiny budou po vaší smrti správně spravovány. Může zahrnovat ručně psaný dopis, který popisuje vaše aktiva, metody přístupu k nim a kontaktní informace důvěryhodných osob, které mají být kontaktovány.
+  Dědický plán zajišťuje, že vaše bitcoiny budou
+  po vaší smrti správně spravovány. Může zahrnovat
+  ručně psaný dopis s podrobnostmi o vašich aktivech, metodách přístupu,
+  a kontaktní informace důvěryhodných osob,
+  které mají být kontaktovány.
 reviewed: true

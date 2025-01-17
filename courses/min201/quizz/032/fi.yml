@@ -1,10 +1,11 @@
 question: Mikä on palkkio louhijoille Bitcoin-verkossa?
-answer: Uudet bitcoinit ja transaktiomaksut.
+answer: Uudet bitcoinit ja siirtomaksut.
 wrong_answers:
   - Vain uudet bitcoinit.
-  - Vain transaktiomaksut.
+  - Vain siirtomaksut.
   - Louhijoille ei ole palkkiota.
 explanation: |
-  Louhijat Bitcoin-verkossa palkitaan uusilla bitcoineilla ja
-
-  transaktiomaksuilla työstään lohkojen vahvistamisessa ja luomisessa.
+  Louhijat Bitcoin-verkossa palkitaan uusilla bitcoineilla
+  ja siirtomaksuilla heidän työstään lohkojen vahvistamisessa
+  ja luomisessa.
+reviewed: true

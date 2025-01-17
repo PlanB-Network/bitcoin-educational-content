@@ -1,9 +1,8 @@
-question: Bitcoinの秘密鍵の可能性の総数はいくつですか？
-answer: ほぼ1.158 x 10^77
+question: 基本的なsighashフラグと組み合わせることができる修飾子は何ですか？
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
-  - 正確に2^256
-  - 1からn-1の間
-  - 観測可能な宇宙に存在する原子の数とほぼ同じ
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
 explanation: |
-  Bitcoinの秘密鍵の可能性の総数は、ほぼ1.158 x 10^77となります。これは、観測可能な宇宙に存在する原子の数とほぼ同じです。これは、秘密鍵が1からn-1の間でなければならないためです。ここで、nは楕円曲線の位数を表します。
-reviewed: false
+  SIGHASH_ANYONECANPAYは、sighashフラグを修正して単一の入力のみをカバーし、残りを変更可能にします。

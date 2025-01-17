@@ -1,0 +1,11 @@
+question: Hva er den potensielle effekten av et forbud mot gruvedrift i en region?
+answer: Det kan føre til et betydelig fall i hashraten og prisen på Bitcoin
+wrong_answers:
+  - Det kan føre til en økning i prisen på Bitcoin
+  - Det kan føre til en økning i hashraten til nettverket
+  - Det kan føre til en økning i antallet aktive noder i nettverket
+explanation: |
+  Et forbud mot gruvedrift i en region, slik som det som skjedde i Kina,
+  kan føre til et betydelig fall i hashraten og prisen på
+  Bitcoin. Imidlertid kan disse raskt komme seg igjen.
+reviewed: true

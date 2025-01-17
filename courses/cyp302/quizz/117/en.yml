@@ -1,0 +1,9 @@
+question: At which stage of AES encryption are Galois Fields used?
+answer: In byte substitution and the MixColumns operation
+wrong_answers:
+  - In the generation of the private key
+  - When dividing the text into 128-bit blocks
+  - At every stage of the XOR operation
+explanation: |
+  Galois Fields are used in byte substitution to calculate the multiplicative inverse and in the MixColumns operation to perform multiplications modulo an irreducible polynomial.
+reviewed: false

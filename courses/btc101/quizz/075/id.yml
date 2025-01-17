@@ -1,0 +1,11 @@
+question: Apa itu frasa mnemonik dalam dompet Bitcoin?
+answer: Daftar 12 atau 24 kata yang merupakan cadangan dari dompet Bitcoin Anda
+wrong_answers:
+  - Kata sandi yang dipilih untuk mengakses dompet Bitcoin
+  - Kode untuk mengenkripsi transaksi Bitcoin
+  - Frasa pemulihan rahasia yang menghancurkan dompet Bitcoin
+explanation: |
+  Sejak tahun 2017, kunci privat dapat dikodekan dalam daftar sederhana dari 12 atau
+  24 kata, yang disebut frasa mnemonik. Frasa ini merupakan cadangan dari dompet Bitcoin Anda,
+  inilah yang memungkinkan Anda untuk merekreasi dompet Anda dengan perangkat lunak/aplikasi dompet Bitcoin apa pun.
+reviewed: true

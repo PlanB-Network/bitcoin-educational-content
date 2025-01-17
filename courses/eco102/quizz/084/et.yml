@@ -1,0 +1,9 @@
+question: Kuidas Bastiat määratleb vastutust seoses individuaalse vabadusega?
+answer: Vastutus on kohustus kanda oma tegude tagajärgi, olgu need head või halvad.
+wrong_answers:
+  - Vastutus on pühendumus alati tegutseda teiste heaolu nimel.
+  - Vastutus hõlmab teatud otsuste delegeerimist pädevale autoriteedile.
+  - Vastutus on kohustus järgida ühiskonna poolt kehtestatud reegleid.
+explanation: |
+  Bastiat näeb vastutust vabaduse positiivse aspektina, mis kohustab iga isikut täielikult omaks võtma oma valikute ja tegude tagajärjed.
+reviewed: false

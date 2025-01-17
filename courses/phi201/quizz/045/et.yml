@@ -1,0 +1,9 @@
+question: Mis on Thomas Aquinase peamine tees seoses mõistuse ja usu suhtest?
+answer: Mõistus ja usk on täiendavad ning võivad üksteist toetada.
+wrong_answers:
+  - Mõistus ja usk on kaks sõltumatut ja vastandlikku teadmiste allikat.
+  - Kõik teised vastused on õiged.
+  - Usk on mõistusest üle ja saab ilma selle argumentideta hakkama.
+explanation: |
+  Thomas Aquinas väidab, et mõistus ja usk on täiendavad: mõistus aitab mõista ja selgitada usu tõdesid, samal ajal kui usk suunab mõistust tõdede poole, mis muidu oleksid sellele kättesaamatud.
+reviewed: false

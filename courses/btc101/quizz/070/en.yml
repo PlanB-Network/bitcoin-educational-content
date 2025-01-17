@@ -1,10 +1,10 @@
-question: What is the BTC reward after the fourth halving?
-answer: 3.125 BTC
+question: How much is the BTC reward after the fourth halving?
+answer: 3.125 BTC.
 wrong_answers:
-  - 1.5625 BTC
-  - 6.25 BTC
-  - 12.5 BTC
-explanation: >-
-  After the fourth halving, which occurs at block height 840,000, the BTC
-  reward for mining is 3.125 BTC.
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
+explanation: |
+  After the fourth halving, which occurs at block height
+  840,000, the BTC reward for mining is 3.125 BTC.
 reviewed: true

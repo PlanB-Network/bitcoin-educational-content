@@ -1,0 +1,11 @@
+question: Apa peran utama dari transaksi Tx0 di Whirlpool?
+
+answer: Untuk menyamakan UTXO.
+
+wrong_answers:
+  - Untuk melakukan pencampuran pertama.
+  - Untuk menghapus UTXO dari kolam.
+  - Untuk menghabiskan UTXO yang telah dicampur.
+
+explanation: |
+  Tx0 bertujuan untuk mempersiapkan dan menyamakan UTXO untuk coinjoin, dengan membaginya menjadi unit yang sesuai dengan jumlah kolam yang dipilih, untuk memastikan homogenitas pencampuran.

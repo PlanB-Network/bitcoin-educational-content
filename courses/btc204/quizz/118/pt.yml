@@ -1,0 +1,13 @@
+question: Entre as seguintes respostas, qual não representa um risco ao enviar bitcoins que passaram por um coinjoin para uma plataforma regulada?
+
+answer: A plataforma pode aumentar as taxas de transação
+
+wrong_answers:
+  - A plataforma pode congelar os fundos
+  - A plataforma pode bloquear a conta do usuário
+  - A plataforma pode reportar comportamento suspeito às autoridades
+
+explanation: |
+  Se você enviar seus bitcoins para uma plataforma de câmbio regulada, mas eles recentemente passaram por um coinjoin, a ferramenta de análise de cadeia da plataforma detectará esse fato. A plataforma pode então recusar-se a aceitar seu UTXO que passou por um coinjoin, ou até mesmo exigir explicações suas, com o risco de ver sua conta suspensa ou seus fundos congelados. Em alguns casos, a plataforma também pode reportar seu comportamento às autoridades estaduais.
+
+reviewed: false

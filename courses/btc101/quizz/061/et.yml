@@ -1,0 +1,10 @@
+question: Mis on sündmuse nimi, kui kaevandamise tasu poole võrra väheneb?
+answer: Poolitamine
+wrong_answers:
+  - Kahekordistamine
+  - Neljandikustamine
+  - Kolmekordistamine
+explanation: |
+  Sündmus, kui kaevandamise tasu poole võrra väheneb, on nimetatud poolitamiseks. See
+  sündmus annab rahalise emiteerimise kõverale trepi-kujulise kuju.
+reviewed: true

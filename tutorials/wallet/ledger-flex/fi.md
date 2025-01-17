@@ -296,7 +296,7 @@ Voit lisätä "*Merkinnän*" kuvaamaan bitcoinien lähdettä, jotka turvataan t�
 
 Lisätietoja merkinnöistä, suosittelen myös tutustumaan tähän toiseen opastukseen:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Voit sitten käyttää tätä osoitetta bitcoinien vastaanottamiseen.
 

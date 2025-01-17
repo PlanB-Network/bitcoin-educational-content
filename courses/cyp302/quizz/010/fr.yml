@@ -1,0 +1,9 @@
+question: Pourquoi la cryptographie est-elle cruciale dans un environnement de communication ouvert ?
+answer: Elle permet de sécuriser les données, même si le canal de communication est intercepté
+wrong_answers:
+  - Elle rend les communications invisibles pour tous les réseaux
+  - Elle empêche les attaques sur les réseaux locaux
+  - Elle remplace les câbles physiques par des communications sécurisées
+explanation: |
+  Dans un environnement de communication ouvert, où les canaux peuvent être surveillés, la cryptographie garantit la sécurité en protégeant les données échangées, même en présence d'attaques potentielles.
+reviewed: false

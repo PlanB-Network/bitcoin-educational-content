@@ -1,9 +1,12 @@
-question: Mikä taho vastaa setelirahan liikkeeseenlaskusta?
-answer: Keskuspankki
+question: Mitkä tahot ovat vastuussa luottamusvaluuttojen liikkeeseenlaskusta?
+answer: Keskuspankit.
 wrong_answers:
-  - Kaupallinen Pankki
-  - Hallitus
-  - Yksityiset Laitokset
+  - Kaupalliset pankit.
+  - Hallitukset.
+  - Yksityiset laitokset.
 explanation: |
-  Keskuspankit ovat tahoja, jotka vastaavat setelirahan liikkeeseenlaskusta. Ne päättävät rahapolitiikasta ja määrittävät, kuinka paljon rahaa tulisi laskea liikkeeseen tai painaa.
-reviewed: false
+  Keskuspankit ovat tahoja, jotka ovat vastuussa luottamusvaluutan
+  liikkeeseenlaskusta. Ne päättävät rahapolitiikasta ja
+  määrittävät, kuinka paljon rahaa tulisi laskea liikkeeseen tai
+  painaa.
+reviewed: true

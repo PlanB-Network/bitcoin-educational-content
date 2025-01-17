@@ -1,9 +1,13 @@
 question: Quel est l'incitatif économique à utiliser un mineur de Bitcoin plutôt qu'un simple radiateur électrique ?
-answer: Le mineur fournit non seulement de la chaleur, mais aussi une récompense en Bitcoin.
+answer: Le mineur fournit non seulement de la chaleur mais aussi une récompense en Bitcoin.
 wrong_answers:
-  - Le mineur consomme moins d'électricité qu'un simple radiateur électrique.
+  - Le mineur utilise moins d'électricité qu'un simple radiateur électrique.
   - Le mineur produit plus de chaleur qu'un simple radiateur électrique.
   - Le mineur est moins cher qu'un simple radiateur électrique.
 explanation: |
-  La différence entre l'utilisation d'un mineur et d'un simple radiateur électrique réside dans le fait que le mineur fournit non seulement de la chaleur, mais aussi une récompense en Bitcoin. Cette récompense supplémentaire pourrait contribuer à atténuer les préoccupations concernant la consommation énergétique élevée des mineurs.
-reviewed: false
+  La différence entre l'utilisation d'un mineur et d'un simple
+  radiateur électrique réside dans le fait que le mineur ne fournit
+  pas seulement de la chaleur mais aussi une récompense en Bitcoin. Cette récompense supplémentaire
+  pourrait aider à atténuer les préoccupations concernant la haute consommation
+  énergétique des mineurs.
+reviewed: true

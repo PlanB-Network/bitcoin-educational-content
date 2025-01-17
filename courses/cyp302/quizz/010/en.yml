@@ -1,0 +1,9 @@
+question: Why is cryptography crucial in an open communication environment?
+answer: It secures data, even if the communication channel is intercepted.
+wrong_answers:
+  - It makes communications invisible to all networks.
+  - It prevents attacks on local networks.
+  - It replaces physical cables with secure communications.
+explanation: |
+  In an open communication environment, where channels can be monitored, cryptography ensures security by protecting the exchanged data, even in the presence of potential attacks.
+reviewed: false

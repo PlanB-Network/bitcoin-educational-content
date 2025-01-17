@@ -14,10 +14,10 @@ Do you want to participate in enriching this database, but don't know how? This 
 ![event](assets/01.webp)
 - First, you need to have an account on GitHub. If you don't know how to create an account, we have made a detailed tutorial to guide you.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Go to [the GitHub repository of PlanB dedicated to data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) in the `resources/bet/` section:
+- Go to [the GitHub repository of PlanB dedicated to data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) in the `resources/bet/` section:
 ![event](assets/02.webp)
 - Click on the top right on the `Add file` button, then on `Create new file`:
 ![event](assets/03.webp)
@@ -50,7 +50,7 @@ Here are the details to fill in for each field:
 
 - **`builder`**: Indicate your organization's identifier on PlanB Network. If you do not yet have a "builder" identifier for your company, you can create one by following this tutorial.
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  If you do not have one, you can simply use your name, your pseudonym, or the name of your company without having created a builder profile.
 
@@ -76,7 +76,7 @@ https://planb.network/tutorials/others/add-builder
 For example, your YAML file could look like this:
 
 ```yaml
-builder: DecouvreBitcoin
+builder: PlanB-Network
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -166,7 +166,7 @@ description: |
 - Retrieve the intermediate URL of your file. For example, in my case, the URL is:
 
 ```url
-https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 - Keep only the last part of the URL from `/resources` onwards:
@@ -178,7 +178,7 @@ https://github.com/tutorial-pandul/sovereign-university-data/blob/patch-1/resour
 - Add to the base of the URL the following information to have the correct link:
 
 ```url
-https://github.com/DiscoverBitcoin/sovereign-university-data/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 What we are doing here is anticipating the future link to your file, once your proposal has been merged into the source repository of the PlanB Network.

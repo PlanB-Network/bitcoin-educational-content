@@ -1,10 +1,9 @@
-question: When is the withdrawal transaction executed in a Lightning Network transfer?
-answer: When the channel is closed.
+question: Why is forced closure less desirable?
+answer: It is slower and the fees may be inappropriate
 wrong_answers:
-  - When the transfer is made.
-  - When the channel is opened.
-  - It is never executed.
+  - It requires authorization from Satoshi Nakamoto
+  - It forces the recreation of a channel later
+  - It prevents the use of the revocation key
 explanation: |
-  The withdrawal transaction, which represents the state of the channel,
-  is not executed unless the channel is closed.
+  Forced closure is less desirable because it includes a timelock, which slows down the process, and the fees may be inappropriate since they were set at the time of the channel's creation.
 reviewed: false

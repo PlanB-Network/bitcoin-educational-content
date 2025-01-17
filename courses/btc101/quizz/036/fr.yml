@@ -1,9 +1,13 @@
-question: Que signifie le terme 'fiduciaire' dans le contexte des devises?
-answer: Il fait référence aux devises qui n'ont pas de valeur intrinsèque et qui reposent sur la confiance envers les institutions qui les régulent.
+question: Que signifie le terme fiduciaire dans le contexte des monnaies ?
+answer: Il se réfère aux monnaies qui ont de la valeur uniquement en raison de la confiance dans l'institution centrale qui les régule.
 wrong_answers:
-  - Il fait référence aux devises qui sont adossées à l'or.
-  - Il fait référence aux devises qui sont utilisées uniquement pour des transactions fiduciaires.
-  - Il fait référence aux devises qui sont utilisées uniquement au sein d'une institution spécifique.
+  - Il se réfère aux monnaies qui sont soutenues par l'or et sont émises par de petites banques commerciales.
+  - Il se réfère aux monnaies qui ont de la valeur uniquement pour les transactions fiduciaires.
+  - Il se réfère aux monnaies qui sont uniquement utilisées au sein d'une institution spécifique.
 explanation: |
-  Les devises fiduciaires sont celles qui ne sont pas adossées à une marchandise physique comme l'or ou l'argent. Leur valeur est dérivée de la confiance et de la confiance que les gens ont envers les institutions qui les émettent et les régulent.
-reviewed: false
+  Les monnaies fiduciaires ne sont pas soutenues par une
+  marchandise physique comme l'or ou l'argent. Leur valeur
+  est dérivée de la confiance et de la confiance que les
+  gens ont dans les institutions qui les émettent et les
+  régulent.
+reviewed: true

@@ -1,9 +1,10 @@
-question: Năm nào sẽ diễn ra đợt halving thứ 7?
+question: Lần halving thứ 7 sẽ diễn ra vào năm nào?
 answer: 2036
 wrong_answers:
   - 2032
   - 2028
   - 2048
 explanation: |
-  Đợt halving thứ 7 dự kiến sẽ diễn ra vào năm 2036, và số lượng bitcoin ước tính lưu hành sẽ là 20,835,937.5 btc, tương đương 99.22% tổng nguồn cung.
-reviewed: false
+  Lần halving thứ 7 dự kiến sẽ diễn ra vào năm 2036, và số lượng bitcoin lưu hành ước tính sẽ là 20,835,937.5,
+  tương đương với khoảng 99.22% tổng nguồn cung.
+reviewed: true

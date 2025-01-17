@@ -1,9 +1,9 @@
-question: ¿Cuál es el estándar más comúnmente utilizado para una frase de recuperación de 24 palabras en una billetera de Bitcoin?
-answer: Una entropía de 256 bits.
+question: ¿Cuál es el principal papel del código de cadena en la derivación de claves secundarias?
+answer: Introducir una fuente adicional de entropía
 wrong_answers:
-  - Una entropía de 128 bits.
-  - Una entropía de 160 bits.
-  - Una entropía de 512 bits.
+  - Identificar la profundidad jerárquica
+  - Almacenar los índices de las claves secundarias
+  - Asegurar la compatibilidad con el protocolo de Bitcoin
 explanation: |
-  El estándar más comúnmente utilizado para una frase de recuperación de 24 palabras es una entropía de 256 bits.
+  El código de cadena se utiliza para introducir una fuente adicional y única de entropía para cada clave derivada.
 reviewed: false

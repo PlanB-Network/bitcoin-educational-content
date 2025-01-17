@@ -1,9 +1,9 @@
-question: Was ist der Rhythmus des Bitcoin-Netzwerks?
-answer: 10 Minuten pro Block
+question: Wie hoch war die Online-Verfügbarkeit von Bitcoin seit 2009?
+answer: 99,988 %.
 wrong_answers:
-  - 10 Sekunden pro Block
-  - 10 Minuten pro Transaktion
-  - 10 Sekunden pro Transaktion
+  - 100 %.
+  - 90,009 %.
+  - 80,17 %.
 explanation: |
-  Der Rhythmus des Bitcoin-Netzwerks beträgt 10 Minuten pro Block. Dies ist vergleichbar mit dem Herzschlag des Bitcoin-Währungssystems.
-reviewed: false
+  Die Online-Verfügbarkeit von Bitcoin beträgt seit 2009 99,988 %.
+reviewed: true

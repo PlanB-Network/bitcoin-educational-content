@@ -1,0 +1,8 @@
+question: Mis on Adam Smithi kõige tuntum panus majandusteadusesse?
+answer: Ta arendas välja nähtamatu käe teooria.
+wrong_answers:
+  - Ta arendas välja nähtava sõrme teooria.
+  - Ta arendas välja nähtamatu sõrme teooria.
+  - Ta arendas välja nähtava käe teooria.
+explanation: |
+  Adam Smith on tuntud oma nähtamatu käe teooria poolest, mis väidab, et üksikisikute omakasust motiveeritud tegevused aitavad tahtmatult kaasa ühiskonna majanduslikule heaolule tervikuna.

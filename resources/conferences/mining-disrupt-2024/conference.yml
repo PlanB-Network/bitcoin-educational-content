@@ -1,12 +1,12 @@
 year: 2024-06
 name: Mining Disrupt Conference 2024
-builder:
+builder: Mining Disrupt
 location: Miami, USA
 language:
   - en
 links:
-  website:
-  twitter:
+  website: https://miningdisrupt.com
+  twitter: https://twitter.com/MiningDisrupt
 tags:
   - mining
   - hardware

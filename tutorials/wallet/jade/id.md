@@ -1,5 +1,5 @@
 ---
-name: JADE
+name: Jade
 
 description: Cara menyiapkan perangkat JADE Anda
 ---

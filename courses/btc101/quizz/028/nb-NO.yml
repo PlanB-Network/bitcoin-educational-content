@@ -1,0 +1,10 @@
+question: Hva er utviklingen av valuta?
+answer: Råstein -> Mynt -> Seddel -> Bankkort -> Blockchain -> Lightning Network
+wrong_answers:
+  - Råstein -> Mynt -> Seddel -> Blockchain -> Lightning Network
+  - Råstein -> Mynt -> Seddel -> Bankkort -> Lightning Network
+  - Råstein -> Mynt -> Seddel -> Bankkort -> Blockchain
+explanation: |
+  Valuta, som enhver teknologi, har utviklet seg fra råstein
+  til metallmynt, deretter til seddel, bankkort, og til slutt peer-to-peer-nettverk med Bitcoin blockchain, og Lightning Network.
+reviewed: true

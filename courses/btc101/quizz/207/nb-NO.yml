@@ -1,0 +1,9 @@
+question: Hva er en av de potensielle risikoene ved å la dine Bitcoin være på en børsplattform?
+answer: Risikoen for hacking og blokkering av midler.
+wrong_answers:
+  - Risikoen for at plattformen øker prisen på Bitcoin.
+  - Risikoen for at plattformen kontrollerer tilførselen av Bitcoin.
+  - Risikoen for at plattformen hindrer deg i å kjøpe mer Bitcoin.
+explanation: >-
+  Teksten nevner at det å la dine Bitcoin være på en børsplattform kan
+  eksponere deg for risikoene for hacking og blokkering av midler.

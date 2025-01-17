@@ -1,9 +1,11 @@
-question: Qual è uno dei principali problemi della censura?
+question: Qual è uno dei principali problemi legati alla censura?
 answer: Può distruggere la libertà di espressione e il diritto di riunione.
 wrong_answers:
-  - Può portare ad un aumento della libertà di espressione.
-  - Può portare ad un aumento del diritto di riunione.
-  - Può portare ad una diminuzione dell'innovazione.
-explanation: |
-  Il testo menziona che tollerare la censura può distruggere la libertà di espressione e il diritto di riunione.
-reviewed: false
+  - Può portare all'applicazione della libertà di espressione.
+  - Può portare a più sostegno per il diritto di riunione.
+  - Può portare a una diminuzione dell'innovazione.
+explanation: >-
+  Il testo menziona che tollerare la censura può distruggere la libertà di
+  espressione
+  e il diritto di riunione.
+reviewed: true

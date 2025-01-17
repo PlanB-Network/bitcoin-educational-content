@@ -1,0 +1,8 @@
+question: Bitcoin'i tehingus, mida teeb lukustusskript?
+answer: See seab kindlad tingimused seotud vahendite kulutamiseks
+wrong_answers:
+  - See saadab automaatselt vahendid mitmele aadressile
+  - See määrab loodava UTXO väärtuse
+  - See lukustab ajutiselt vahendid, et vältida liigset kulutamist
+explanation: |
+  Lukustusskript seab tingimused, nagu allkirjastamine privaatvõtmega, et vahendeid tehingus lukust lahti teha ja kasutada.

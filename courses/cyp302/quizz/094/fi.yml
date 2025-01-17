@@ -1,0 +1,9 @@
+question: Mikä on pääasiallinen sekaannuksen lähde termejen lohkosalaus ja virtasalaus välillä?
+answer: Lohkosalausta ymmärretään joskus vain algoritmeina, jotka käyttävät lohkomuotoja kuten ECB tai CBC.
+wrong_answers:
+  - Virtasalaukset ovat aina vähemmän turvallisia kuin lohkosalaukset.
+  - Lohkosalaukset toimivat kerrallaan yhden bitin kanssa.
+  - Virtasalaukset vaativat aina täytettä.
+explanation: |
+  Sekaannus johtuu siitä, että jotkut pitävät lohkosalausta vain tiettyjä lohkomuotoja käyttävinä algoritmeina, kun todellisuudessa ne voivat sisältää salausjärjestelmiä kuten OFB-tila.
+reviewed: false

@@ -1,9 +1,8 @@
-question: ¿Quién inicia el proceso de abrir un canal en la Red Lightning?
-answer: Alice
+question: ¿Cómo protege el timelock contra el engaño en las transacciones de compromiso?
+answer: Impide que la parte infractora recupere sus fondos inmediatamente
 wrong_answers:
-  - Bob
-  - Tanto Alice como Bob
-  - Ni Alice ni Bob
+  - Reembolsa automáticamente los fondos al tramposo
+  - Cancela la transacción en caso de intento de engaño
+  - Bloquea el uso de la llave de revocación
 explanation: |
-  En el proceso de abrir un canal en la Red Lightning, Alice es quien inicia el proceso. Ella comunica su intención de abrir un canal a Bob, quien responde proporcionando su dirección pública.
-reviewed: false
+  El timelock impone un retraso durante el cual el tramposo no puede recuperar sus fondos, dando así a la otra parte la oportunidad de responder.

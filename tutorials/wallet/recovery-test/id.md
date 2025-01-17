@@ -63,6 +63,9 @@ Di Sparrow, klik pada tab "*Alamat*".
 Kemudian, catat di selembar kertas alamat penerimaan pertama dompet Anda. Dalam contoh saya, alamatnya adalah:
 
 ```txt
+tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
+```
+
 Setelah mencatat informasi, pergi ke menu "*File*", lalu pilih "*Hapus Dompet*". Saya ingatkan sekali lagi bahwa dompet Bitcoin Anda harus kosong sebelum melanjutkan dengan operasi ini.
 
 ![UJI PEMULIHAN](assets/notext/04.webp)

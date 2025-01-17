@@ -5,8 +5,8 @@ wrong_answers:
   - Dựa trên thông tin cá nhân như ngày sinh và tên.
   - Cùng một mật khẩu cho tất cả các tài khoản.
 explanation: |
-  Một mật khẩu tốt là dài (ít nhất 12 ký tự), phức tạp (kết hợp
-
-  các chữ cái in hoa và in thường, số và ký tự đặc biệt), độc đáo (không tái sử dụng cho
-
-  các tài khoản khác nhau), và không dựa trên thông tin cá nhân.
+  Một mật khẩu tốt là dài (ít nhất 12 ký tự), phức tạp
+  (một sự kết hợp của chữ cái in hoa và in thường, số, và
+  ký tự đặc biệt), độc đáo (không tái sử dụng cho các tài khoản khác nhau), và
+  không dựa trên thông tin cá nhân.
+reviewed: true

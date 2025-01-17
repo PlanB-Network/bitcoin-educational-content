@@ -1,0 +1,10 @@
+question: Hva er konsekvensen av hyperinflasjon?
+answer: En drastisk nedgang i valutaens verdi
+wrong_answers:
+  - En subtil nedgang i valutaens verdi
+  - En drastisk økning i valutaens verdi
+  - En subtil økning i valutaens verdi
+explanation: |
+  På grunn av hyperinflasjon mister folk raskt fullstendig tillit til valutaen,
+  noe som fører til en drastisk nedgang i valutaens verdi over en kort tidsperiode.
+reviewed: true

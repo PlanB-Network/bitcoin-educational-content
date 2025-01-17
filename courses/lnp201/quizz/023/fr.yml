@@ -1,9 +1,9 @@
-question: Quel est le but de la transaction de retrait dans un réseau Lightning ?
-answer: Elle représente l'état du canal, garantissant qui possède les fonds après chaque transfert.
+question: Pourquoi Alice et Bob s'échangent-ils leurs secrets pour les transactions d'engagement précédentes ?
+answer: Pour permettre à chacun de se protéger si l'autre publie une ancienne transaction
 wrong_answers:
-  - C'est la transaction qui déplace les fonds d'un côté à l'autre.
-  - C'est la transaction qui ouvre le canal.
-  - C'est la transaction qui ferme le canal.
+  - Pour augmenter la capacité du canal
+  - Pour bloquer l'accès de chacun aux fonds de l'autre
+  - Pour diviser équitablement les fonds
 explanation: |
-  La transaction de retrait est mise à jour après chaque transfert dans le réseau Lightning pour refléter l'état actuel du canal. Elle garantit qui possède les fonds après chaque transfert, mais elle n'est pas exécutée à moins que le canal ne soit fermé.
+  L'échange de secrets pour les transactions précédentes permet à chaque participant de punir l'autre en cas de tentative de tricherie en publiant une ancienne transaction.
 reviewed: false

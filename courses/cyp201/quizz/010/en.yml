@@ -1,11 +1,9 @@
-question: What are the initialization vectors in the SHA-256 function processing?
-answer: The first 32 bits of the decimal parts of the square roots of the first 8 prime numbers
+question: Which derivation algorithm is used to calculate an authentication code based on a secret key?
+answer: HMAC-SHA512
 wrong_answers:
-  - The first 32 bits of the decimal parts of the cubic roots of the first 8 prime numbers
-  - The first 32 bits of the decimal parts of the square roots of the first 64 prime numbers
-  - The first 32 bits of the decimal parts of the cubic roots of the first 64 prime numbers
+  - SHA512
+  - SHA256
+  - RIPEMD160
 explanation: |
-  In the SHA-256 function processing, the initialization vectors, from
-  A to H, are the first 32 bits of the decimal parts of the square roots of the first
-  8 prime numbers. These are used as basic ingredients in the cryptographic recipe.
+  HMAC-SHA512 is an algorithm that combines a hash function and a secret key to calculate an authentication code.
 reviewed: false

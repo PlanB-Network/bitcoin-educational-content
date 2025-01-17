@@ -1,9 +1,13 @@
-question: Qual è la caratteristica chiave di Bitcoin che lo differenzia dalle valute fiat?
-answer: La sua politica monetaria è applicata tramite un consenso generale.
+question: Qual è una caratteristica chiave di Bitcoin che lo differenzia dalle valute fiat?
+answer: La sua politica monetaria è imposta da un consenso generale.
 wrong_answers:
   - Può essere stampato in quantità illimitate dalle banche centrali.
   - È supportato da una merce fisica come l'oro o l'argento.
-  - È regolamentato da una banca centrale.
+  - È regolato da una banca centrale.
 explanation: |
-  Bitcoin, attraverso la sua natura decentralizzata e crittografica, non può essere falsificato, tra le altre cose, ed è limitato a 21 milioni di unità. Questa è una caratteristica chiave che lo differenzia dalle valute fiat, le cui politiche monetarie possono essere modificate dalle banche centrali.
-reviewed: false
+  A causa della sua natura decentralizzata e crittografica,
+  Bitcoin non può essere falsificato ed è limitato a 21 milioni
+  di unità. Questa è una caratteristica chiave che lo differenzia
+  dalle valute fiat, le quali seguono una politica monetaria che può essere
+  modificata dalle banche centrali.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Millist konstanti kasutatakse seemnest peamise privaatvõtme tuletamiseks?
+answer: Bitcoin Seed
+wrong_answers:
+  - Peavõti
+  - HD Rahakoti Seeme
+  - Plokiahela Juur
+explanation: |
+  Konstanti Bitcoin Seed kasutatakse võtmena HMAC-SHA512 funktsioonis, et tuletada peamine privaatvõti ja peamine ahelakood.

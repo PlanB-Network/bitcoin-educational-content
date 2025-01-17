@@ -1,0 +1,13 @@
+question: Millist strateegiat kasutasid Ameerika Ühendriigid 1933-1934 dollari väärtuse alandamiseks?
+answer: Valitsus konfiskeeris kodanike kulla, seejärel muutis mängureegleid, tõstes kulla väärtust, et kasu saada riigikassale ja tekitada kahju neile, kes olid algselt vahetanud oma kulla rahatähtede vastu.
+wrong_answers:
+  - Valitsus suurendas kulla varu, seejärel muutis mängureegleid, alandades kulla väärtust, et kasu saada riigikassale ja tekitada kahju neile, kes olid algselt vahetanud oma kulla rahatähtede vastu.
+  - Valitsus konfiskeeris kodanike kulla, seejärel muutis mängureegleid, alandades kulla väärtust, et kasu saada riigikassale ja tekitada kahju neile, kes olid algselt vahetanud oma kulla rahatähtede vastu.
+  - Valitsus suurendas kulla varu, seejärel muutis mängureegleid, tõstes kulla väärtust, et kasu saada riigikassale ja tekitada kahju neile, kes olid algselt vahetanud oma kulla rahatähtede vastu.
+explanation: |
+  1933. aastal konfiskeeris USA valitsus kodanike kulla. Seejärel 1934. aastal
+  tõsteti kulla hinda 35 dollarini untsi kohta, võrreldes varasema 20.67 dollariga. Sisuliselt
+  alandas valitsus dollari väärtust, mida inimesed omasid. Ostes kulla elanikkonnalt
+  20.67 dollari eest untsi kohta 1933. aastal ja seejärel tõstes kulla hinda 1934. aastal,
+  teenis valitsus märkimisväärset kasumit, samal ajal vähendades oma kodanike säästude väärtust.'
+reviewed: false

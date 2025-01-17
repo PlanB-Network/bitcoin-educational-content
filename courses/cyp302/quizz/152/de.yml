@@ -1,0 +1,9 @@
+question: Was ist die Funktion des privaten Schlüssels d im RSA-Kryptosystem?
+answer: Er wird verwendet, um Nachrichten unter Verwendung des Moduls N zu entschlüsseln.
+wrong_answers:
+  - Er wird nur zum Verschlüsseln von Nachrichten verwendet
+  - Er wird verwendet, um Bitcoins freizuschalten
+  - Er wird verwendet, um φ(N) zu berechnen
+explanation: |
+  Der private Schlüssel d wird verwendet, um verschlüsselte Nachrichten zu entschlüsseln, indem die Berechnung mit dem Modul N abgeschlossen wird.
+reviewed: false

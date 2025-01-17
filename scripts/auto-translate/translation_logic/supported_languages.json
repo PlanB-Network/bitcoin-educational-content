@@ -1,0 +1,118 @@
+{
+  "languages": [
+    {
+      "code": "cs",
+      "name": "Czech",
+      "translator": "deepl",
+      "code_translator": "CS"
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "translator": "deepl",
+      "code_translator": "DE"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "translator": "deepl",
+      "code_translator": "EN-US"
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "translator": "deepl",
+      "code_translator": "ES"
+    },
+    {
+      "code": "et",
+      "name": "Estonian",
+      "translator": "deepl",
+      "code_translator": "ET"
+    },
+    {
+      "code": "fi",
+      "name": "Finnish",
+      "translator": "deepl",
+      "code_translator": "FI"
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "translator": "deepl",
+      "code_translator": "FR"
+    },
+    {
+      "code": "id",
+      "name": "Indonesian",
+      "translator": "deepl",
+      "code_translator": "ID"
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "translator": "deepl",
+      "code_translator": "IT"
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "translator": "deepl",
+      "code_translator": "JA"
+    },
+    {
+      "code": "nb-NO",
+      "name": "Norwegian",
+      "translator": "deepl",
+      "code_translator": "NB"
+    },
+    {
+      "code": "pl",
+      "name": "Polish",
+      "translator": "deepl",
+      "code_translator": "PL"
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese",
+      "translator": "deepl",
+      "code_translator": "PT-PT"
+    },
+    {
+      "code": "ro",
+      "name": "Romanian",
+      "translator": "deepl",
+      "code_translator": "RO"
+    },
+    {
+      "code": "ru",
+      "name": "Russian",
+      "translator": "deepl",
+      "code_translator": "RU"
+    },
+    {
+      "code": "th",
+      "name": "Thai",
+      "translator": "openai",
+      "code_translator": "TH"
+    },
+    {
+      "code": "vi",
+      "name": "Vietnamese",
+      "translator": "deepl",
+      "code_translator": "VI"
+    },
+    {
+      "code": "zh-Hans",
+      "name": "Chinese Simplified",
+      "translator": "deepl",
+      "code_translator": "ZH-HANS"
+    },
+    {
+      "code": "zh-Hant",
+      "name": "Chinese Traditional",
+      "translator": "deepl",
+      "code_translator": "ZH-HANT"
+    }
+  ]
+}

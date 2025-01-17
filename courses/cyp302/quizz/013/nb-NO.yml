@@ -1,0 +1,8 @@
+question: Hva utgjør det fysiske grunnlaget for flertallet av kommunikasjoner i den utviklede verden?
+answer: Fiber optiske kabelnettverk
+wrong_answers:
+  - Satellitter for hver forbindelse
+  - Kun koaksialkabler
+  - Bare kobbertråder
+explanation: |
+  Flertallet av moderne kommunikasjoner er avhengige av fiber optiske kabelnettverk, som sikrer høyhastighets datautvekslinger, selv om noen bruksområder for satellitter og koaksialkabler fortsatt finnes.

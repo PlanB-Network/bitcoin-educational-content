@@ -1,0 +1,9 @@
+question: Kes olid esimesed filosoofid, kes püüdsid mõista loodust läbi mõistuse?
+answer: Eelsokraatlikud filosoofid
+wrong_answers:
+  - Kreeka preestrid
+  - Kreeka poeedid
+  - Kreeka matemaatikud
+explanation: |
+  Eelsokraatlikud filosoofid olid esimesed, kes kasutasid mõistust looduse mõistmiseks, otsides ratsionaalseid ja universaalseid põhimõtteid maailma seletamiseks, sõltumata müütilistest selgitustest.
+reviewed: false

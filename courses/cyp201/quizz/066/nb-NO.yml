@@ -1,0 +1,9 @@
+question: Hvilken del av HMAC-SHA512-utdataen brukes som barnets kjedekode?
+answer: De siste 32 bytene
+wrong_answers:
+  - De første 32 bytene
+  - Hele 64 bytter
+  - SHA256-hashen av de midterste 32 bytene
+explanation: |
+  De siste 32 bytene av HMAC-SHA512-utdataen fungerer som kjedekoden for barnenøkkelen.
+reviewed: false

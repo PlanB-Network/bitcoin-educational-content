@@ -1,9 +1,9 @@
-question: Qual è il tipo di chiusura del canale più veloce e meno costoso?
-answer: Chiusura cooperativa.
+question: Cosa fa un nodo mittente quando un percorso di pagamento fallisce a causa di liquidità insufficiente?
+answer: Prova un altro percorso fino a trovare quello funzionante
 wrong_answers:
-  - Chiusura forzata.
-  - Chiusura da parte di un imbroglione.
-  - Non c'è differenza in velocità e costo tra i tipi di chiusura.
+  - Invia automaticamente una richiesta di rimborso al destinatario
+  - Chiude il canale e crea un nuovo canale diretto
+  - Chiede ai nodi intermedi di aumentare la loro liquidità
 explanation: |
-  In una chiusura cooperativa, entrambe le parti comunicano e concordano su uno stato finale del canale. Questa è l'opzione più veloce e meno costosa.
+  Quando un percorso fallisce, il nodo mittente prova altri percorsi alternativi fino a trovare un percorso funzionante, o fino all'esaurimento di tutte le opzioni.
 reviewed: false

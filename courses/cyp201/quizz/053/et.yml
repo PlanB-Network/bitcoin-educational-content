@@ -1,0 +1,9 @@
+question: Mis juhtub, kui kaotate oma HD rahakotiga seotud paroolilause?
+answer: Kaotate juurdepääsu selles rahakotis olevatele bitcoinidele
+wrong_answers:
+  - Saate siiski rahakotile juurde pääseda ainult mnemoonilise fraasi abil
+  - Saate paroolilause lähtestada, võttes ühendust Bitcoin'i toega
+  - Kaotate ainult kinnitamata tehingud
+explanation: |
+  Paroolilause on võtmetuletuses hädavajalik komponent. Ilma selleta on võtmete taasloomine ja seega bitcoinidele juurdepääsu saamine võimatu.
+reviewed: false

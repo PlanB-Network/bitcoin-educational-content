@@ -1,12 +1,12 @@
 question: Jaký je účel Proof of Work v síti Bitcoin?
-answer: Proof of Work zajišťuje pravdivost informací bez potřeby důvěryhodné třetí strany.
+answer: Proof of Work zajišťuje pravdivost informací bez důvěry ve třetí stranu.
 wrong_answers:
-  - Proof of Work slouží k vytváření nových bitcoinů.
-  - Proof of Work se používá k ověřování transakcí Bitcoinu.
-  - Proof of Work se používá k zabezpečení sítě Bitcoin.
+  - Proof of Work se používá k vytváření nových bitcoinů s důvěrou ve třetí stranu.
+  - Proof of Work se používá k ověřování transakcí Bitcoinu s důvěrou ve třetí stranu.
+  - Proof of Work se používá ke změně protokolu Bitcoinu bez důvěry ve třetí stranu.
 explanation: >-
   Proof of Work je konsenzuální algoritmus používaný v síti Bitcoin
   k ověřování transakcí a vytváření nových bloků. Vyžaduje od těžařů řešení složitých
   matematických problémů, což zajišťuje autentičnost informací v síti
   bez potřeby důvěryhodné třetí strany.
-reviewed: false
+reviewed: true

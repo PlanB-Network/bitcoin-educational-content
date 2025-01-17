@@ -1,0 +1,9 @@
+question: Welches Element fehlte im Design von Bitcoin am 31. Oktober 2008?
+answer: Die endliche Anzahl an Einheiten
+wrong_answers:
+  - Proof of Work
+  - Vereinfachte Zahlungsverifikation
+  - Die Blockchain
+explanation: |
+  Die ursprüngliche Geldpolitik entsprach einer konstanten Ausgabe (X BTC/Block), wie durch die erste Version des Whitepapers und Satoshis [Austausch](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) mit Ray Dillinger angegeben.
+reviewed: false

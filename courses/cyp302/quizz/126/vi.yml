@@ -1,0 +1,9 @@
+question: Giao thức trao đổi khóa Diffie-Hellman cho phép điều gì?
+answer: Nó cho phép hai bên tạo ra một khóa bí mật chung bằng cách chia sẻ thông tin công khai.
+wrong_answers:
+  - Nó cho phép trao đổi khóa bí mật trực tiếp cho mỗi phiên.
+  - Nó cho phép sử dụng khóa công khai để mã hóa và khóa riêng tư để giải mã.
+  - Nó cho phép trao đổi tiền tệ điện tử.
+explanation: |
+  Giao thức Diffie-Hellman cho phép hai bên chia sẻ thông tin một cách công khai trong khi đảm bảo rằng chỉ có họ mới có thể tạo ra một khóa chung để bảo mật các giao dịch tương lai của họ.
+reviewed: false

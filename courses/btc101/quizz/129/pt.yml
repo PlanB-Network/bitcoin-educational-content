@@ -1,9 +1,10 @@
 question: O que é o blockchain do Bitcoin?
-answer: Um registro público e imutável de todas as transações do Bitcoin.
+answer: Um registro público e imutável de todas as transações de Bitcoin.
 wrong_answers:
-  - Um registro privado e mutável de todas as transações do Bitcoin.
-  - Um registro público e mutável de todas as transações do Bitcoin.
-  - Um registro privado e imutável de todas as transações do Bitcoin.
-explanation: |
-  O blockchain do Bitcoin é um registro público e imutável de todas as transações do Bitcoin. É um registro comum para todos os usuários de Bitcoin.
-reviewed: false
+  - Um registro privado e mutável de todas as transações de Bitcoin.
+  - Um registro público e mutável de todas as transações de Bitcoin.
+  - Um registro privado e imutável de todas as transações de Bitcoin.
+explanation: >-
+  O blockchain do Bitcoin é um registro público e imutável de todas as
+  transações de Bitcoin. É um registro comum para todos os usuários de Bitcoin.
+reviewed: true

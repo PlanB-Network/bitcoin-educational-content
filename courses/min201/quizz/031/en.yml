@@ -5,9 +5,9 @@ wrong_answers:
   - To make transactions anonymous.
   - To create a new form of investment.
 explanation: |
-  The fundamental mission of Bitcoin is to be a censorship-resistant value
-
-  exchange network. The Bitcoin community is constantly striving to strengthen distribution,
-
-  censorship resistance, and the anti-fragility of the network.'
-reviewed: false
+  The fundamental mission of Bitcoin is to be a
+  censorship-resistant value exchange network. The Bitcoin
+  community is constantly striving to strengthen
+  distribution, censorship resistance, and the anti-fragility
+  of the network.
+reviewed: true

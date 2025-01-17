@@ -1,64 +1,18 @@
-id: c3ff5a91-c550-4d81-9ed1-744336cb28dc
-chapterId: 29a72223-2249-5400-96f0-3756b1629bc2
+id: 132c334f-cc24-4ca4-9555-953330ab831c
+chapterId: 7e2ae959-c2a1-512e-b5d6-8fd962e819da
 difficulty: intermediate
 duration: 30
-author: DecouvreBitcoin
+author: pretty-private
 tags:
-  - Bitcoin
-  - Lightning Network
-  - Cooperative Closure
+  - offchain
+  - lightning
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2636
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2568
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1284
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2602
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2636
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2024-11-01
     urgency: 1
     contributors_id:
-    reward: 2568
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2602
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2704
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2568
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2704
+      - LoicPandul
+    reward:

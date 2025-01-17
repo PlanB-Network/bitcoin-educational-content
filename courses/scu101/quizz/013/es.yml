@@ -1,9 +1,13 @@
-question: ¿Por qué es más seguro utilizar proveedores de puntos de acceso Wi-Fi europeos, como SNCF?
-answer: No revenden los datos de conexión de los usuarios debido a las regulaciones del GDPR.
+question: ¿Por qué es más seguro utilizar proveedores europeos de puntos de acceso Wi-Fi, como SNCF?
+answer: No se supone que revendan los datos de conexión de los usuarios, debido a las regulaciones del GDPR.
 wrong_answers:
-  - Proporcionan velocidades de internet más rápidas.
-  - Permiten a los usuarios evitar restricciones geográficas.
-  - Bloquean los anuncios en línea.
+  - Proporcionan velocidades de internet más rápidas en comparación con los proveedores americanos.
+  - A menudo permiten a los usuarios eludir restricciones geográficas.
+  - Bloquean los anuncios en línea si has sido identificado como ciudadano europeo.
 explanation: |
-  En la Unión Europea, la protección de datos está regulada por el Reglamento General de Protección de Datos (GDPR, por sus siglas en inglés). Por lo tanto, los proveedores de puntos de acceso Wi-Fi europeos, como SNCF, no revenden los datos de conexión de los usuarios, lo que los hace más seguros de usar.
-reviewed: false
+  En la Unión Europea, la protección de datos está regulada por el
+  Reglamento General de Protección de Datos (GDPR). Por lo tanto,
+  los proveedores europeos de puntos de acceso Wi-Fi, como SNCF, no
+  revenden los datos de conexión de los usuarios, haciéndolos más seguros
+  para usar desde una perspectiva de privacidad personal.
+reviewed: true

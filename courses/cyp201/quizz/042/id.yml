@@ -1,0 +1,8 @@
+question: Apa perbedaan utama antara PRNG dan TRNG?
+answer: PRNG bersifat deterministik, sementara TRNG menghasilkan angka acak sejati.
+wrong_answers:
+  - PRNG lebih cepat daripada TRNG untuk angka-angka besar.
+  - PRNG hanya digunakan untuk enkripsi, tidak dengan TRNG.
+  - PRNG menggunakan kunci privat, TRNG menggunakan kunci publik.
+explanation: |
+  PRNG bersifat deterministik, artinya mereka dapat mengulang urutan dari sebuah keadaan awal, tidak seperti TRNG.

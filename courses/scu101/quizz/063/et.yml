@@ -1,0 +1,10 @@
+question: Millised on mõned krüptograafia aspektid, mida kasutatakse küberjulgeolekus?
+answer: SSL/TLS, sümmeetriline/asümmeetriline krüpteerimine
+wrong_answers:
+  - RSA, DSA, ECC
+  - AES, DES, 3DES
+  - MD5, SHA-1, SHA-256
+explanation: |
+  Peatükk loetleb SSL/TLS-i ja sümmeetrilise/asümmeetrilise krüpteerimise kui mõned
+  krüptograafia aspektid, mida kasutatakse küberjulgeolekus.
+reviewed: false

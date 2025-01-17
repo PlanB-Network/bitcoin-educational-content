@@ -1,9 +1,0 @@
-question: Qual è il ruolo del seed nell'organizzazione gerarchica e nella derivazione del portafoglio HD?
-answer: Il seed svolge un ruolo deterministico nella derivazione di tutte le altre chiavi.
-wrong_answers:
-  - Il seed viene utilizzato per crittografare il portafoglio.
-  - Il seed viene utilizzato per generare il codice di catena principale.
-  - Il seed viene utilizzato per recuperare il portafoglio.
-explanation: |
-  Il seed, con una lunghezza compresa tra 128 e 256 bit, viene generato casualmente o da una frase segreta. Svolge un ruolo deterministico nella derivazione di tutte le altre chiavi nel portafoglio HD.
-reviewed: false

@@ -1,10 +1,12 @@
 question: Một trong những lợi ích tiềm năng của Lightning Network đối với các nhà sáng tạo nội dung là gì?
-
-answer: Họ sẽ được khuyến khích tạo ra nội dung chất lượng để giữ chân sự chú ý của người dùng
-
+answer: Họ sẽ được khuyến khích tạo ra nội dung chất lượng cao để giữ chân người dùng.
 wrong_answers:
-  - Họ sẽ có thể tính phí cao hơn cho nội dung của mình
-  - Họ sẽ có thể tiếp cận được đối tượng rộng lớn hơn
-  - Họ sẽ có thể sản xuất nội dung nhanh hơn
-
-explanation: Với Lightning Network, các nhà sáng tạo nội dung sẽ được khuyến khích tạo ra nội dung chất lượng để giữ chân sự chú ý của người dùng. Người dùng, đổi lại, chỉ phải trả tiền cho nội dung họ tiêu thụ, từ đó loại bỏ các khoản phí đăng ký trả trước.
+  - Họ sẽ có thể tính phí cao hơn cho nội dung của mình.
+  - Họ sẽ có thể tiếp cận được một lượng khán giả rộng lớn hơn.
+  - Họ sẽ có thể tạo ra nội dung nhanh hơn để giữ chân người dùng.
+explanation: |
+  Với Lightning Network, các nhà sáng tạo nội dung sẽ
+  được khuyến khích tạo ra nội dung chất lượng cao để giữ chân
+  người dùng. Người dùng, ngược lại, chỉ trả tiền cho
+  nội dung họ tiêu thụ, do đó loại bỏ phí đăng ký trả trước.
+reviewed: true

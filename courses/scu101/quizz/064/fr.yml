@@ -5,5 +5,8 @@ wrong_answers:
   - Elles ne sont pas compatibles avec tous les navigateurs.
   - Elles nécessitent beaucoup d'espace de stockage.
 explanation: |
-  Les extensions de navigateur pour le remplissage automatique des mots de passe peuvent rendre l'utilisateur plus vulnérable aux attaques de phishing. Elles ont également tendance à augmenter la surface d'attaque et peuvent ralentir les performances du navigateur, présentant ainsi un risque significatif.
-reviewed: false
+  Les extensions de navigateur pour le remplissage automatique des mots de passe peuvent rendre
+  l'utilisateur plus vulnérable aux attaques de phishing. Elles ont également
+  tendance à augmenter la surface d'attaque et peuvent ralentir les performances
+  du navigateur, présentant ainsi un risque significatif.
+reviewed: true

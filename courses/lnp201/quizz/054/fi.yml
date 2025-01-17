@@ -1,11 +1,9 @@
-question: Mikä on kanavan likviditeetti Lightning-verkossa?
-answer: Se määrä satosheja, joka voidaan siirtää kanavan kautta.
+question: Minkä tyyppistä likviditeettiä myyjän on ensisijaisesti hallittava Lightning Networkissa maksujen vastaanottamiseksi?
+answer: Saapuva likviditeetti
 wrong_answers:
-  - Kanavan kautta tehtävien transaktioiden lukumäärä.
-  - Nopeus, jolla transaktioita voidaan tehdä kanavan kautta.
-  - Transaktion tekemisen kustannus kanavan kautta.
+  - Lähtevä likviditeetti
+  - Suuri kokonaiskanavakapasiteetti
+  - Suuri on-chain saldo
 explanation: |
-  Lightning-verkossa kanavan likviditeetti viittaa siihen määrään
-  satosheja, joka voidaan siirtää kanavan kautta. Näiden
-  kanavien likviditeettiä ei voida siirtää muihin likviditeettikanaviin.
+  Maksujen vastaanottamiseksi myyjällä on oltava saapuvaa likviditeettiä, mikä tarkoittaa, että varojen on oltava saatavilla kanavan toisella puolella, jotta he voivat vastaanottaa maksuja.
 reviewed: false

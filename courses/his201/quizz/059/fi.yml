@@ -1,0 +1,9 @@
+question: Mikä foorumin jäsen julkaisi louhinta-algoritminsa julkisesti Jeff Garzikin antaman avokätisen lahjoituksen jälkeen 18. syyskuuta 2010?
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  Siihen asti he olivat hyötyneet komissiosta ohjelmistonsa käytöstä. He [julkaisivat](https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135) sen vapaan lisenssin alaisena.
+reviewed: false

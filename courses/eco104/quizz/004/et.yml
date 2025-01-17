@@ -1,0 +1,11 @@
+question: Mis on üks põhjus, miks fiat-raha viib tsentraliseeritud kontrollini?
+answer: See võimaldab valitsustel kontrollida rahapakkumist ja intressimäärasid.
+wrong_answers:
+  - See on tagatud füüsiliste kaupadega nagu kuld ja hõbe.
+  - See on inflatsioonikindel.
+  - See soodustab detsentraliseeritud finantssüsteeme.
+explanation: |
+  Fiat-raha annab valitsustele võimu kontrollida rahapakkumist ja
+  intressimäärasid, võimaldades neil mõjutada majandustegevust ja
+  põhjustades tsentraliseeritud kontrolli.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mis on protsess, mille abil kaevurid valideerivad tehinguid ja lisavad need
+  plokki?
+answer: Töötõend
+wrong_answers:
+  - Panusetõend
+  - Autoriteeditõend
+  - Põletustõend
+explanation: >-
+  Kaevurid valideerivad tehinguid ja lisavad need plokki protsessi abil, mida nimetatakse töötõendiks. See hõlmab krüptograafilise mõistatuse lahendamist.

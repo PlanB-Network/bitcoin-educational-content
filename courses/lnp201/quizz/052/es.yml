@@ -1,9 +1,8 @@
-question: ¿Quién decide la ruta antes de enviar el pago en la Lightning Network?
-answer: El nodo del remitente.
+question: ¿Qué servicio permite mover liquidez al lado opuesto de un canal mientras se recuperan fondos en la cadena principal?
+answer: Loop Out
 wrong_answers:
-  - El nodo del receptor.
-  - El nodo intermediario.
-  - La propia red.
+  - Keysend
+  - LNURL
+  - CoinSwap
 explanation: |
-  En la Lightning Network, es el nodo del remitente quien decide la ruta antes de enviar el pago. Por lo tanto, se realiza una búsqueda de la mejor ruta y el remitente es el único que conoce la ruta y el precio.
-reviewed: false
+  El servicio Loop Out de Lightning Labs permite la transferencia de fondos desde un canal de Lightning a la cadena de bloques principal, optimizando así la capacidad de recepción mientras se recuperan bitcoins en la cadena principal.

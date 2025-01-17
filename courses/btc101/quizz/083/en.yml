@@ -1,12 +1,13 @@
-question: What is the analogy used to explain how you can receive Bitcoins without
+question: What is the analogy used in this course to explain how you can receive bitcoins without
   allowing the sender to steal your funds?
-answer: A mailbox
+answer: A mailbox.
 wrong_answers:
-  - A bank account
-  - A safe
-  - A house
+  - A bank account.
+  - A safe.
+  - A house.
 explanation: |
-  The analogy used to explain how you can receive Bitcoins without allowing
-  the sender to steal your funds is a mailbox. People deposit money in it, but you
-  are the only one who can open it.
+  The analogy used to explain how you can receive Bitcoins
+  without allowing the sender to steal your funds is a
+  mailbox. People deposit money in it, but you are the only
+  one who can open it.
 reviewed: true

@@ -1,4 +1,4 @@
-question: Jos transaktiossa on 2 UTXO:a, joissa kummassakin on 5 000 satoshia syötteinä, ja 3 UTXO:a, joissa kussakin on 3 000 satoshia ulostuloina, paljonko transaktiomaksut ovat?
+question: Jos transaktiossa on 2 UTXO; a, joissa kummassakin on 5 000 satoshia syötteinä, ja 3 UTXO; a, joissa kussakin on 3 000 satoshia ulostuloina, paljonko transaktiomaksut ovat?
 answer: 1 000 satoshia
 wrong_answers:
   - 1 500 satoshia

@@ -1,0 +1,8 @@
+question: Mengapa faktorisasi produk dari dua bilangan prima yang sangat besar dianggap sebagai masalah yang sulit?
+answer: Karena membutuhkan waktu komputasi yang sangat besar bahkan untuk superkomputer.
+wrong_answers:
+  - Karena membutuhkan kunci publik untuk setiap faktornya.
+  - Karena hanya melibatkan operasi dasar dalam perhitungan.
+  - Karena bergantung pada perkalian dan bukan pembagian.
+explanation: |
+  Faktorisasi sebuah angka besar, produk dari dua bilangan prima besar, membutuhkan kekuatan komputasi yang melebihi kapasitas komputer saat ini, membuat tugas ini praktis tidak dapat dilakukan.

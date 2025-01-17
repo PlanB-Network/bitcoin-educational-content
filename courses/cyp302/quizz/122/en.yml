@@ -1,0 +1,9 @@
+question: What is the key distribution problem?
+answer: The challenge of transmitting keys securely without physical exchange
+wrong_answers:
+  - The necessity to generate multiple key pairs per client
+  - The difficulty of securing physical storage of keys
+  - The obligation to change keys with each communication
+explanation: |
+  The key distribution problem pertains to the challenge of transmitting keys in a secure manner, a necessity that has become crucial in digital communications where a physical exchange is impractical.
+reviewed: false

@@ -5,5 +5,5 @@ wrong_answers:
   - 100 000
   - 10 000
 explanation: |
-  Il [écrivait](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) alors que « la possibilité de générer des unités aujourd'hui avec quelques centimes de temps de calcul » pouvait constituer « un très bon pari ».
+  Il [écrivait](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) alors que « la possibilité de générer des unités aujourd'hui avec quelques centimes de temps de calcul » pouvait constituer « un très bon pari ».
 reviewed: false

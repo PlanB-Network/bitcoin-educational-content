@@ -1,0 +1,9 @@
+question: Who established the first mining cooperative to produce a block on Bitcoin?
+answer: doublec
+wrong_answers:
+  - slush
+  - puddinpop
+  - m0mchil
+explanation: |
+  He promoted it on December 1st. The block was [found](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688) on December 4th, 2010. Slush's cooperative, on the other hand, was launched on December 16th.
+reviewed: false

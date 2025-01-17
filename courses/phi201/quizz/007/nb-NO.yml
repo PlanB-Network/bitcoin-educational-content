@@ -1,0 +1,8 @@
+question: Hva er de to formene for plyndring beskrevet av Bastiat?
+answer: Lovlig plyndring og ulovlig plyndring
+wrong_answers:
+  - Moralsk plyndring og umoralsk plyndring
+  - Intern plyndring og ekstern plyndring
+  - Plyndring av varer og plyndring av tjenester
+explanation: |
+  Bastiat skiller mellom lovlig plyndring, som er definert ved lov og ofte utøves av staten (som skatter), og ulovlig plyndring, som forekommer utenfor den juridiske rammen, som tyveri eller overfall.

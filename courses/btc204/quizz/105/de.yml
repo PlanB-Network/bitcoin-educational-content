@@ -1,0 +1,11 @@
+question: Was ist der Hauptvorteil einer Payjoin-Transaktion im Vergleich zu einer klassischen Zahlungstransaktion?
+
+answer: Sie verbessert die Privatsphäre
+
+wrong_answers:
+  - Sie erhöht die Bestätigungsgeschwindigkeit
+  - Sie reduziert die Transaktionsgebühren
+  - Sie täuscht den Empfänger
+
+explanation: |
+  Die Payjoin-Transaktion erhöht die Privatsphäre der Beteiligten, indem sie die Kettenanalyse irreführt.

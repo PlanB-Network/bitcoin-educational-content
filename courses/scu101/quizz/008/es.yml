@@ -1,9 +1,13 @@
 question: ¿Qué es la red TOR?
-answer: Es una red que ofrece anonimato al ocultar la dirección IP del usuario y permitir el acceso a la Darknet.
+answer: Una red que ofrece anonimato al ocultar la dirección IP del usuario y permitir el acceso al Darknet.
 wrong_answers:
   - Una red que protege tu dispositivo de virus y otro software malicioso.
-  - Una red que oculta tu actividad en línea a tu proveedor de servicios de internet.
+  - Una red que oculta tu actividad en línea de tu proveedor de servicios de internet.
   - Una red que te permite navegar por internet más rápido.
 explanation: |
-  La red TOR (The Onion Router) es una red que ofrece anonimato al ocultar la dirección IP del usuario y permitir el acceso a la Darknet. Es utilizada por periodistas, activistas de la libertad y otras personas que desean escapar de la censura en países autoritarios.
-reviewed: false
+  La red TOR (The Onion Router) es una red que ofrece
+  anonimato al ocultar la dirección IP del usuario y permitir
+  el acceso al Darknet. Es utilizada por periodistas, activistas
+  por la libertad y otras personas que desean escapar de la censura en
+  países autoritarios.
+reviewed: true

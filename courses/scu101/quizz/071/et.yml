@@ -1,0 +1,9 @@
+question: Mis on soovitatav viis paroolihalduri peaparooli haldamiseks?
+answer: Kirjutage see paberile ja hoidke peidetud ning turvalises kohas.
+wrong_answers:
+  - Hoidke seda oma e-postis.
+  - Kasutage kõikide kontode jaoks sama parooli.
+  - Jätke see meelde.
+explanation: |
+  Soovitatav on kirjutada paroolihalduri peaparool paberile, kuid seda tuleks hoida peidetud ja turvalises kohas. See on seetõttu, et kui kõvaketas on krüpteeritud ja arvuti lukustatud, ei ole parool kättesaadav isegi sissemurdmise korral.
+reviewed: false

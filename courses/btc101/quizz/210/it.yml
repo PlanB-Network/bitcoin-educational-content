@@ -1,9 +1,10 @@
-question: Quale paese ha dichiarato il Bitcoin come corso legale?
-answer: El Salvador
+question: Quale paese ha dichiarato Bitcoin come moneta legale?
+answer: El Salvador.
 wrong_answers:
-  - Stati Uniti
-  - Cina
-  - India
-explanation: |
-  El Salvador ha preso l'audace decisione di adottare il Bitcoin nella sua interezza, dichiarandolo come corso legale.
-reviewed: false
+  - Stati Uniti.
+  - Cina.
+  - India.
+explanation: >-
+  El Salvador ha compiuto un passo audace adottando Bitcoin nella sua interezza,
+  dichiarandolo come moneta legale.
+reviewed: vero

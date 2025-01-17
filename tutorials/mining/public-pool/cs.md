@@ -1,5 +1,5 @@
 ---
-name: Veřejný bazén
+name: Public Pool
 description: Úvod do Veřejného bazénu
 ---
 

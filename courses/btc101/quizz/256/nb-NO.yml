@@ -1,0 +1,8 @@
+question: Hva er en av de viktigste konsekvensene av Bitcoin for banksystemet?
+answer: Det muliggjør frigjøring fra banksystemet.
+wrong_answers:
+  - Det muliggjør kontroll over banksystemet.
+  - Det muliggjør eliminering av banksystemet.
+  - Det muliggjør korrupsjon av banksystemet.
+explanation: >-
+  Teksten nevner at Bitcoin muliggjør frigjøring fra banksystemet.

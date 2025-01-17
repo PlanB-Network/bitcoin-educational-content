@@ -22,14 +22,14 @@ PlanB võrgustikku panustamiseks on teil 3 võimalust, sõltuvalt teie kogemuse 
 ![õpetus](assets/1.webp)
 **Eeltingimused enne õpetuse alustamist:**
 - Omada [GitHub'i kontot](https://github.com/signup).
-- Omada [PlanB võrgustiku lähterepositooriumi](https://github.com/DecouvreBitcoin/sovereign-university-data) kahvelversiooni.
+- Omada [PlanB võrgustiku lähterepositooriumi](https://github.com/PlanB-Network/bitcoin-educational-content) kahvelversiooni.
 - Omada [professori profiili PlanB võrgustikus](https://planb.network/professors) (ainult juhul, kui pakute täielikku õpetust).
 
 **Kui vajate abi nende eeltingimuste saamiseks, juhendavad teid minu teised õpetused:**
-- **[Git'i ja GitHub'i mõistmine](https://planb.network/tutorials/others/basics-of-github)**
-- **[GitHub'i konto loomine](https://planb.network/tutorials/others/create-github-account)**
-- **[Töökeskkonna seadistamine](https://planb.network/tutorials/others/github-desktop-work-environment)**
-- **[Professori profiili loomine](https://planb.network/tutorials/others/create-teacher-profile)**
+- **[Git'i ja GitHub'i mõistmine](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+- **[GitHub'i konto loomine](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[Töökeskkonna seadistamine](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+- **[Professori profiili loomine](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 ## Millist tüüpi sisu kirjutada PlanB võrgustikus?
 Otsime peamiselt õpetusi tööriistade kohta, mis on seotud Bitcoin'i või selle ökosüsteemiga. Need sisud võivad olla korraldatud kuue peamise kategooria ümber:
 - Rahakott;
@@ -59,7 +59,7 @@ Kui kõik on paigas ja teie kohalik keskkond on oma PlanB võrgustiku kahvliga h
 
 ### Loo uus haru
 
-- Avage oma brauser ja minge oma PlanB hoidla kahvli lehele. See on kahvel, mille olete GitHubis loonud. Teie kahvli URL peaks välja nägema selline: `https://github.com/[teie-kasutajanimi]/sovereign-university-data`:
+- Avage oma brauser ja minge oma PlanB hoidla kahvli lehele. See on kahvel, mille olete GitHubis loonud. Teie kahvli URL peaks välja nägema selline: `https://github.com/[teie-kasutajanimi]/bitcoin-educational-content`:
 ![õpetus](assets/3.webp)
 - Veenduge, et olete peaharus `dev`, seejärel klõpsake nupul `Sync fork`. Kui teie kahvel ei ole ajakohane, pakub GitHub teie haru värskendamist. Jätkake selle värskendusega. Kui teie haru on vastupidi juba ajakohane, teavitab GitHub teid:
 ![õpetus](assets/4.webp)
@@ -70,7 +70,7 @@ Kui kõik on paigas ja teie kohalik keskkond on oma PlanB võrgustiku kahvliga h
 ![õpetus](assets/7.webp)
 - Klõpsake sellel harul, seejärel klõpsake nupul `New Branch`:
 ![õpetus](assets/8.webp)
-- Veenduge, et uus haru põhineb allikahoidlal, nimelt `DecouvreBitcoin/sovereign-university-data`.
+- Veenduge, et uus haru põhineb allikahoidlal, nimelt `PlanB-Network/bitcoin-educational-content`.
 - Nimetage oma haru nii, et pealkiri oleks selle eesmärgi suhtes selge, kasutades iga sõna eraldamiseks sidekriipse. Näiteks, kui meie eesmärk on kirjutada õpetus Sparrow Wallet tarkvara kasutamise kohta, võiks sellele pühendatud tööharu nimeks olla: `tuto-sparrow-wallet-loic`. Kui sobiv nimi on sisestatud, klõpsake haru loomise kinnitamiseks nupul `Create branch`:
 ![õpetus](assets/9.webp)
 - Nüüd klõpsake nupul `Publish branch`, et salvestada oma uus tööharu oma veebikahvlile GitHubis:
@@ -81,7 +81,7 @@ Iga uue artikli avaldamiseks, mida soovite avaldada, peate looma uue haru `dev`-
 ### Juhendi lisamine
 
 Nüüd, kui tööharu on loodud, on aeg integreerida teie uus juhend.
-- Avage oma failihaldur ja navigeerige kausta `sovereign-university-data`, mis esindab teie repositooriumi kohalikku kloonimist. Tavaliselt peaksite selle leidma kaustast `Documents\GitHub\sovereign-university-data`. Selles kataloogis on vajalik leida sobiv alamkaust oma juhendi paigutamiseks. Kaustade organisatsioon peegeldab PlanB Network veebisaidi erinevaid sektsioone. Meie näites, kuna soovime lisada juhendi Sparrow Wallet'i kohta, on asjakohane minna järgmisele teele: `sovereign-university-data\tutorials\wallet`, mis vastab veebisaidi `WALLET` sektsioonile: ![juhend](assets/12.webp)
+- Avage oma failihaldur ja navigeerige kausta `bitcoin-educational-content`, mis esindab teie repositooriumi kohalikku kloonimist. Tavaliselt peaksite selle leidma kaustast `Documents\GitHub\bitcoin-educational-content`. Selles kataloogis on vajalik leida sobiv alamkaust oma juhendi paigutamiseks. Kaustade organisatsioon peegeldab PlanB Network veebisaidi erinevaid sektsioone. Meie näites, kuna soovime lisada juhendi Sparrow Wallet'i kohta, on asjakohane minna järgmisele teele: `bitcoin-educational-content\tutorials\wallet`, mis vastab veebisaidi `WALLET` sektsioonile: ![juhend](assets/12.webp)
 - `wallet` kaustas peate looma uue kataloogi, mis on spetsiaalselt pühendatud teie juhendile. Selle kausta nimi peab evokatsioonima tarkvara, mida juhendis käsitletakse, tagades sõnade ühendamise sidekriipsudega. Minu näites saab kausta pealkirjaks `sparrow-wallet`:
 ![juhend](assets/13.webp)
 - Selles uues alamkaustas, mis on pühendatud teie juhendile, tuleb lisada mitu elementi:
@@ -92,7 +92,7 @@ Nüüd, kui tööharu on loodud, on aeg integreerida teie uus juhend.
 ![juhend](assets/14.webp)
 - Kokkuvõtteks, siin on loodavate failide hierarhia:
 ```plaintext
-sovereign-university-data/
+bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (muudetud õige kategooria järgi)
         └── sparrow-wallet/ (muudetud juhendi nime järgi)
@@ -120,7 +120,7 @@ sovereign-university-data/
     - Kesktase (`intermediary`),
     - Edasijõudnud (`advanced`),
     - Ekspert (`expert`).
-- **professor**: Esitage oma kaastöötaja ID, nagu see ilmub teie professori profiilil. Lisateabe saamiseks vaadake [vastavat õpetust](https://planb.network/fr/tutorials/others/create-teacher-profile);
+- **professor**: Esitage oma kaastöötaja ID, nagu see ilmub teie professori profiilil. Lisateabe saamiseks vaadake [vastavat õpetust](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4);
 - **link** (valikuline): Kui soovite oma arendatava õpetuse jaoks krediteerida allikaveebisaiti, nagu teie isiklik sait, siis siin saate lisada vastava lingi.
 ![õpetus](assets/15.webp)
 - Kui olete oma `tutorial.yml` faili muutmise lõpetanud, salvestage oma dokument, klõpsates `File > Save`:
@@ -206,3 +206,4 @@ GitHub Desktop tarkvaras saate tagasi lülituda oma fork'i peaharu (`dev`).
 Kui soovite pärast oma PR esitamist oma panusele teha muudatusi, sõltub järgitav protseduur teie PR-i praegusest seisundist:
 - Kui teie PR on endiselt avatud ja seda ei ole veel ühendatud, tehke muudatused kohapeal, jäädes samale harule. Kui muudatused on lõpetatud, kasutage uue commit'i lisamiseks oma endiselt avatud PR-ile nuppu `Push origin`;
 - Juhul, kui teie PR on juba peaharuga ühendatud, peate protsessi algusest peale uuesti tegema, luues uue haru ja esitades uue PR. Enne jätkamist veenduge, et teie kohalik repositoorium on sünkroniseeritud PlanB Networki allikarepositooriumiga.
+

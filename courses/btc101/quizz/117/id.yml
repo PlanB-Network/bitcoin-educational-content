@@ -1,0 +1,9 @@
+question: Kapan Satoshi Nakamoto menghilang?
+answer: Pada tahun 2010
+wrong_answers:
+  - Pada tahun 2008
+  - Pada tahun 2009
+  - Pada tahun 2023
+explanation: |
+  Satoshi Nakamoto menghilang pada tahun 2010, meninggalkan ciptaannya di tangan komunitas.
+reviewed: true

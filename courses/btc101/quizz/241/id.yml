@@ -1,0 +1,8 @@
+question: Apa salah satu implikasi potensial dari Lightning Network bagi pengguna?
+answer: Mereka hanya perlu membayar untuk konten yang mereka konsumsi
+wrong_answers:
+  - Mereka harus membayar lebih untuk konten
+  - Mereka harus membayar biaya langganan bulanan
+  - Mereka harus membayar konten di muka
+explanation: >-
+  Dengan Lightning Network, pengguna hanya perlu membayar untuk konten yang mereka konsumsi, sehingga mengeliminasi biaya langganan di muka.

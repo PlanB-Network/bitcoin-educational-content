@@ -1,9 +1,0 @@
-question: Lightning Networkで取引が行われた場合、チャネルの流動性にはどのような変化が起こりますか？
-answer: 両当事者間のルートに沿って流動性が再分配されます。
-wrong_answers:
-  - 流動性は変わりません。
-  - 流動性は別のチャネルに移されます。
-  - 流動性が増加します。
-explanation: |
-  Lightning Networkでは、取引が行われると、両当事者間のルートに沿って流動性が再分配されます。
-reviewed: false

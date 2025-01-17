@@ -1,9 +1,9 @@
-question: Qual é o padrão mais comumente usado para uma frase de recuperação de 24 palavras em uma carteira de Bitcoin?
-answer: Uma entropia de 256 bits.
+question: Qual é o principal papel do código de cadeia na derivação de chaves filhas?
+answer: Introduzir uma fonte adicional de entropia
 wrong_answers:
-  - Uma entropia de 128 bits.
-  - Uma entropia de 160 bits.
-  - Uma entropia de 512 bits.
+  - Identificar a profundidade hierárquica
+  - Armazenar os índices das chaves filhas
+  - Garantir compatibilidade com o protocolo Bitcoin
 explanation: |
-  O padrão mais comumente usado para uma frase de recuperação de 24 palavras é uma entropia de 256 bits.
+  O código de cadeia é usado para introduzir uma fonte adicional e única de entropia para cada chave derivada.
 reviewed: false

@@ -1,0 +1,11 @@
+question: Bagaimana protokol Bitcoin memastikan sifatnya yang tidak dapat disensor dan tidak dapat dihentikan?
+answer: Setiap komponen dari protokol tersebut didistribusikan secara geografis di seluruh dunia
+wrong_answers:
+  - Menggunakan jaringan node yang terdesentralisasi
+  - Menggunakan algoritma kompleks untuk memvalidasi transaksi
+  - Menggunakan tingkat enkripsi yang tinggi
+explanation: >-
+  Protokol Bitcoin memastikan sifatnya yang tidak dapat disensor dan tidak dapat dihentikan karena
+  setiap komponen dari protokol tersebut didistribusikan secara geografis di seluruh dunia. Sebagai
+  contoh, terdapat sekitar 40.000 node Bitcoin di semua benua.
+reviewed: false

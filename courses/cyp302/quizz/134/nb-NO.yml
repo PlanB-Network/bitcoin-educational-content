@@ -1,0 +1,9 @@
+question: Hva er det primære målet med asymmetrisk kryptografi i kommunikasjonen mellom Alice og Bob?
+answer: Å tillate Bob å overføre en hemmelig melding til Alice ved bruk av hennes offentlige nøkkel
+wrong_answers:
+  - Å tillate Bob å kryptere og dekryptere meldinger uten en offentlig nøkkel
+  - Å forhindre Alice i å dekryptere Bobs meldinger
+  - Å tillate Alice å kryptere meldingen for å verifisere dens integritet
+explanation: |
+  I asymmetrisk kryptografi gjør Alices offentlige nøkkel det mulig for Bob å sende en kryptert melding som kun hun kan dekryptere, noe som sikrer meldingens konfidensialitet.
+reviewed: false

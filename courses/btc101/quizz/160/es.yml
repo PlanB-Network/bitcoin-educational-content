@@ -1,9 +1,13 @@
 question: ¿Qué sucede en un ataque del 51% en la red de Bitcoin?
-answer: Un agente posee más de la mitad de la tasa de hash y puede intentar modificar la cadena de bloques.
+answer: Un agente posee más de la mitad del hashrate y puede intentar modificar la blockchain.
 wrong_answers:
-  - Un agente obtiene el control sobre más de la mitad de los bitcoins en circulación.
-  - Un agente obtiene el control sobre más de la mitad de los nodos en la red de Bitcoin.
-  - Un agente obtiene el control sobre más de la mitad de los grupos de minería en la red de Bitcoin.
+  - Un agente obtiene control sobre más de la mitad de los bitcoins en circulación.
+  - Un agente obtiene control sobre más de la mitad de los nodos en la red de Bitcoin.
+  - Un agente obtiene control sobre más de la mitad de los grupos de minería en la red de Bitcoin.
 explanation: |
-  En un ataque del 51%, un agente con más de la mitad de la tasa de hash de la red podría potencialmente manipular la cadena de bloques creando una cadena alternativa de bloques. Sin embargo, tal ataque sería extremadamente costoso y poco probable que sea rentable, lo que lo convierte en un escenario poco probable.
-reviewed: false
+  En un ataque del 51%, un agente con más de la mitad del
+  hashrate de la red podría potencialmente manipular la
+  blockchain creando una cadena alternativa de bloques.
+  Sin embargo, tal ataque sería extremadamente costoso y
+  poco probable que sea rentable, lo que lo convierte en un escenario improbable.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Why is the set of integers with addition a group, while it is not with multiplication?
+answer: The set does not satisfy the inversion condition under multiplication
+wrong_answers:
+  - The set is not closed under multiplication
+  - Multiplication is not associative over the integers
+  - There is no neutral element for multiplication
+explanation: |
+  The set of integers does not satisfy the inversion condition under multiplication because there is no inverse for each integer that would multiply to give 1. Only the elements 1 and -1 meet this condition.
+reviewed: false

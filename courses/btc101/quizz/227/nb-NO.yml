@@ -1,0 +1,10 @@
+question: Hva kan tradisjonelle pengeoverføringstjenester som Western Union, sentralbanker, Visa og Mastercard gjøre hvis de ikke tar i bruk Lightning Network-teknologien?
+answer: De kan forsvinne.
+wrong_answers:
+  - De kan bli mer populære.
+  - De kan bli sikrere.
+  - De kan bli mer desentraliserte.
+explanation: >-
+  Tradisjonelle pengeoverføringstjenester som Western Union, sentralbanker,
+  Visa og Mastercard kan forsvinne hvis de ikke tar i bruk Lightning Network-teknologien.
+reviewed: false

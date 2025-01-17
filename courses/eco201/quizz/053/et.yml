@@ -1,0 +1,9 @@
+question: Mis on kirsikorjamine majanduse kontekstis?
+answer: Kirsikorjamine hõlmab andmete selektiivset valimist, et luua seoseid muutujate vahel.
+wrong_answers:
+  - Kirsikorjamine hõlmab kõigi andmete ignoreerimist ja tugineb ainult hüpoteesidele.
+  - Kirsikorjamine hõlmab kõikide kättesaadavate andmete kasutamist ilma igasuguse valikuta.
+  - Kirsikorjamine hõlmab ainult selliste andmete kasutamist, mis toetavad valitsuse poliitikat.
+explanation: |
+  Majanduses tähendab kirsikorjamine andmete selektiivset valimist, et luua seoseid muutujate vahel. Seda peetakse teaduslikult ja rangelt ebakorrektseks meetodiks.
+reviewed: false

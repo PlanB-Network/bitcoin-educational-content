@@ -1,0 +1,8 @@
+question: Nhóm nào chủ yếu sử dụng mật mã học?
+answer: Nhóm được định nghĩa trên số nguyên hoặc các phần tử được mô tả bằng số nguyên
+wrong_answers:
+  - Nhóm của số phức hoặc các phần tử được mô tả bằng số phức
+  - Nhóm của các phép biến đổi hình học hoặc các phần tử được mô tả bằng các phép biến đổi hình học
+  - Nhóm của số hữu tỉ hoặc các phần tử được mô tả bằng số hữu tỉ
+explanation:
+  Mật mã học sử dụng các nhóm dựa trên số nguyên, hoặc các phần tử được mô tả bằng số nguyên như các điểm trên một đường cong elliptic, cho các hoạt động mã hóa và ký kết.

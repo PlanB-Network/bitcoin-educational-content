@@ -1,0 +1,11 @@
+question: Hva er den historiske forbindelsen mellom penger og varer som gull?
+answer: Gull er sjeldent og allment akseptert som en verdioppbevaring
+wrong_answers:
+  - Gull gjør penger mer tiltalende
+  - Gull er lett delbart
+  - Gull er unikt
+explanation: |
+  Gitt gullets globaliserte sjeldenhet i naturen og den betydelige investeringen som kreves
+  for å utvinne, raffinere og lagre, har gull konsekvent blitt handlet til en premie over
+  andre former for penger.
+reviewed: true

@@ -1,0 +1,8 @@
+question: サイファーパンクのハル・フィニーが2009年8月に診断された病気は何でしょうか？これはビットコインを発見してから数ヶ月後のことでした。
+answer: ルー・ゲーリッグ病
+wrong_answers:
+  - ハンチントン病
+  - アルツハイマー病
+  - パーキンソン病
+explanation: |
+  この病気は英語圏では筋萎縮性側索硬化症（ALS）として知られており、2009年8月に[診断](https: //www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside)されました。彼は2014年にこの病気で亡くなりました。

@@ -1,0 +1,9 @@
+question: Mikä on tämän kurssin tarkoitus?
+answer: Kaikki yllä mainitut
+wrong_answers:
+  - Tutkia vapauden kamppailun merkittäviä historiallisia tapahtumia
+  - Ymmärtää ideoiden ja tapahtumien välinen suhde toimimisen parantamiseksi tänään
+  - Määritellä vapautta koskevat filosofiset käsitteet
+explanation: |
+  Tämän kurssin tarkoitus on monitahoinen: se pyrkii tutkimaan vapauden kamppailussa vaikuttavia historiallisia tapahtumia, analysoimaan ideoiden ja tapahtumien välistä yhteyttä valaistakseen nykyisiä toimiamme, sekä selventämään vapautta koskevia filosofisia käsitteitä.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on Hayekin kritiikki sosialismia kohtaan?
+answer: Hän kritisoi sosialismin käyttämiä keinoja sen tavoitteiden saavuttamiseksi, kuten keskussuunnittelua ja yksityisomaisuuden poistamista.
+wrong_answers:
+  - Hän hylkää sosialismin tavoitteet, kuten oikeudenmukaisuuden ja tasa-arvon.
+  - Hän ajattelee, että sosialismi on liian vanhaa oppia.
+  - Mikään yllä olevista.
+explanation: |
+  Hayek kritisoi sosialismia ei sen tavoitteiden, vaan sen menetelmien, kuten keskussuunnittelun ja yksityisomaisuuden lakkauttamisen vuoksi, joita hän pitää vaarallisina yksilön vapaudelle ja taloudelliselle tehokkuudelle.
+reviewed: false

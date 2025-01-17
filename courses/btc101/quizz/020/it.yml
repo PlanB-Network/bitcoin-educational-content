@@ -1,9 +1,12 @@
-question: Quali sono i criteri per una valuta efficace?
-answer: Fungibile, Divisibile, Liquida
+question: Quali sono le principali caratteristiche di una valuta efficace?
+answer: Fungibile, Divisibile, Liquida.
 wrong_answers:
-  - Fungibile, Divisibile, Perecibile
-  - Fungibile, Indivisibile, Liquida
-  - Non fungibile, Divisibile, Liquida
+  - Fungibile, Divisibile, Peribile.
+  - Fungibile, Indivisibile, Liquida.
+  - Non fungibile, Divisibile, Liquida.
 explanation: |
-  I criteri per una valuta efficace sono che deve essere fungibile (intercambiabile senza perdita di valore), divisibile (per facilitare transazioni di diversi volumi) e liquida (facilmente convertibile in beni o servizi).
-reviewed: false
+  Una valuta efficace deve essere fungibile (intercambiabile
+  senza perdita di valore), divisibile (separabile in piccole
+  parti per facilitare transazioni di diversi volumi) e
+  liquida (facilmente convertibile in beni o servizi).
+reviewed: true

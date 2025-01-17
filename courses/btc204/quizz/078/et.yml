@@ -1,0 +1,11 @@
+question: Milline termin kirjeldab kaitset, mida pakub coinjoin mündi varasemate tehingute analüüsi vastu?
+
+answer: Tagasiulatuv anonüümsuskomplekt.
+
+wrong_answers:
+  - Tuleviku anonüümsuskomplekt.
+  - Jälgitavuse vastupanu.
+  - Ajaline privaatsus.
+
+explanation: |
+  Kaitse analüüsi eest olevikust minevikku nimetatakse tagasiulatuva anonüümsuskomplektiks.

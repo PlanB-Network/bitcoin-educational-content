@@ -1,0 +1,11 @@
+question: Apa yang ditunjukkan oleh entropi dalam konteks analisis rantai pada Bitcoin?
+
+answer: Kurangnya pengetahuan analis tentang konfigurasi transaksi yang tepat.
+
+wrong_answers:
+  - Kecepatan informasi tentang transaksi menyebar di seluruh jaringan.
+  - Tingkat keamanan kriptografi dari tanda tangan digital yang digunakan dalam transaksi.
+  - Ukuran kelompok UTXO identik di mana sebuah koin tersembunyi.
+
+explanation: |
+  Entropi digunakan untuk mengukur kurangnya pengetahuan analis tentang konfigurasi transaksi yang tepat. Dengan kata lain, semakin tinggi entropi, semakin sulit bagi analis untuk mengidentifikasi aliran bitcoin antara input dan output.

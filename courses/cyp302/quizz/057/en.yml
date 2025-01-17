@@ -1,0 +1,9 @@
+question: What is an abelian group?
+answer: A group in which the operation is commutative
+wrong_answers:
+  - A group that has a unique generator
+  - A group limited to integer numbers
+  - A group without a neutral element
+explanation: |
+  An abelian group is a group in which the order of elements in the operation does not affect the outcome, meaning it adheres to commutativity.
+reviewed: false

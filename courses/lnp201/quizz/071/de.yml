@@ -1,9 +1,0 @@
-question: Was ist der Zweck des Zufallsfaktors im Routing-Prozess des Lightning-Netzwerks?
-answer: Um zu vermeiden, immer dieselben Routen zu verwenden.
-wrong_answers:
-  - Um die Komplexität des Netzwerks zu erhöhen.
-  - Um die Geschwindigkeit der Transaktionen zu verringern.
-  - Um die Privatsphäre der Benutzer zu gefährden.
-explanation: |
-  Der Zufallsfaktor im Routing-Prozess des Lightning-Netzwerks wird verwendet, um zu vermeiden, immer dieselben Routen zu verwenden. Dies hilft dabei, die Last über das Netzwerk zu verteilen und die Chancen zu erhöhen, eine erfolgreiche Route für eine Transaktion zu finden.
-reviewed: false

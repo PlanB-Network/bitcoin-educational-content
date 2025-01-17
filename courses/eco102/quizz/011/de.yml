@@ -1,0 +1,9 @@
+question: Warum funktioniert der Markt laut Adam Smith?
+answer: Weil er auf Eigeninteresse basiert
+wrong_answers:
+  - Weil er reguliert wird
+  - Weil er tugendhaft ist
+  - Weil er vom Staat überwacht wird
+explanation: |
+  Für Adam Smith funktioniert der Markt, weil jedes Individuum in seinem eigenen Selbstinteresse handelt, was natürlich kollektiven Wohlstand erzeugt.
+reviewed: false

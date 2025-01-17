@@ -1,0 +1,11 @@
+question: Hva betyr det hvis du ikke har den private nøkkelen til din Bitcoin-lommebok?
+answer: En tredjepart er ansvarlig for sikkerheten til dine bitcoins
+wrong_answers:
+  - Du har mistet alle dine bitcoins
+  - Du kan ikke lenger gjøre transaksjoner med dine bitcoins
+  - Dine bitcoins blir automatisk konvertert til en annen kryptovaluta
+explanation: |
+  Hvis du ikke har den private nøkkelen til din Bitcoin-lommebok, betyr det
+  at en tredjepart er ansvarlig for sikkerheten til dine bitcoins. De er underlagt
+  de samme risikoene som børsplattformer, som hacking, beslagleggelse, reguleringer eller
+  konkurs.

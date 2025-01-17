@@ -1,0 +1,9 @@
+question: Какова основная роль Bitcoin-адреса в транзакции?
+answer: Блокировать UTXO в scriptPubKey
+wrong_answers:
+  - Разблокировать UTXO в scriptSig
+  - Сигнализировать об окончании транзакции
+  - Идентифицировать блок подтверждения
+explanation: |
+  Bitcoin-адрес встраивается в scriptPubKey для блокировки UTXO. Он определяет необходимые условия для разблокировки средств.
+reviewed: false

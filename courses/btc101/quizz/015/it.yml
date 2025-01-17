@@ -1,9 +1,13 @@
-question: Cos'è la Dichiarazione di Indipendenza del Cyberspazio?
-answer: Un testo che afferma che il cyberspazio è un reame distinto dalla sfera fisica e non dovrebbe essere soggetto alle stesse leggi.
+question: Cos'è la Dichiarazione dell'Indipendenza del Cyberspazio?
+answer: Un testo che afferma che il cyberspazio è un regno distinto dalla sfera fisica e non dovrebbe essere soggetto alle stesse leggi.
 wrong_answers:
-  - Una dichiarazione di indipendenza del Bitcoin dai sistemi finanziari tradizionali.
-  - Un testo che afferma che internet dovrebbe essere libero da regolamentazione governativa.
-  - Una dichiarazione di indipendenza del movimento dei pirati da qualsiasi regolamentazione.
+  - Una dichiarazione che afferma l'indipendenza di Bitcoin dai sistemi finanziari tradizionali.
+  - Un testo che sostiene che il cyberspazio dovrebbe essere controllato dalla regolamentazione governativa.
+  - Una dichiarazione che garantisce l'indipendenza del movimento dei pirati da qualsiasi regolamentazione.
 explanation: |
-  La Dichiarazione di Indipendenza del Cyberspazio è stata scritta da John Perry Barlow nel 1996, affermando che il cyberspazio è un reame distinto dalla sfera fisica in cui i governi industriali non possono imporre la loro autorità.
-reviewed: false
+  La Dichiarazione dell'Indipendenza del Cyberspazio è stata
+  scritta da John Perry Barlow nel 1996. Questo documento afferma
+  che il cyberspazio è un regno distinto dalla sfera
+  fisica, quindi i governi industriali non possono imporre la loro
+  autorità lì.
+reviewed: true

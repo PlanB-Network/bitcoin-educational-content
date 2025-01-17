@@ -211,5 +211,5 @@ https://armantheparman.com/ledgersparrow/
 
 为了更深入地探讨这个话题，并通过BIP39 passphrase加强您Ledger Nano钱包的安全性，我邀请您查看这个完整的教程：
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 

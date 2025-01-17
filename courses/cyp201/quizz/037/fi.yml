@@ -1,9 +1,9 @@
-question: Mikä algoritmi Bitcoin käyttää yhdistääkseen yksityiset ja julkiset avaimet?
-answer: Elliptic Curve Digital Signature Algorithm (ECDSA)
+question: Mikä on JBOK-lompakoiden pääasiallinen rajoitus?
+answer: Ne vaativat itsenäisen varmuuskopion jokaiselle yksityiselle avaimelle
 wrong_answers:
-  - Advanced Encryption Standard (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Secure Hash Algorithm 2 (SHA-2)
+  - Ne eivät salli uusien osoitteiden luomista
+  - Ne eivät ole yhteensopivia digitaalisten allekirjoitusten kanssa
+  - Ne käyttävät pakkaamattomia julkisia avaimia
 explanation: |
-  Bitcoin hyödyntää Elliptic Curve Digital Signature Algorithm (ECDSA) -algoritmia yhdistääkseen yksityiset ja julkiset avaimet.
+  JBOK-lompakot pakottavat käyttäjän varmuuskopioimaan jokaisen yksityisen avaimen erikseen, mikä monimutkaistaa niiden hallintaa.
 reviewed: false

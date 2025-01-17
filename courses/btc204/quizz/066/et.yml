@@ -1,0 +1,13 @@
+question: Mida hõlmab konsolideerimine?
+
+answer: Mitme sisendi ühendamine üheks suuremaks tervikuks.
+
+wrong_answers:
+  - Suure sisendi jagamine mitmeks väiksemaks osaks.
+  - Sisendite ülekandmine mitmest rahakotist ühte.
+  - Kasutamata sisendite ümberjaotamine uutele aadressidele.
+
+explanation: |
+  Konsolideerimise põhimõte on kasutada ära perioode, mil Bitcoin'i tasud on madalad, et ühendada väiksemad UTXO-d üheks suuremaks tervikuks.
+
+reviewed: false

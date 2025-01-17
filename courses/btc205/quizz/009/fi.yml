@@ -1,9 +1,0 @@
-question: Mikä on yhteinen piirre kaikille luvussa käsitellyille P2P-ratkaisuille?
-answer: Ne kaikki mahdollistavat Bitcoinin ostamisen ja myymisen.
-wrong_answers:
-  - Ne kaikki käyttävät Lightning Networkia.
-  - Niiden käyttö vaatii tilin.
-  - Kaikissa on DAO-järjestelmä.
-explanation: |
-  Luku käsittelee erilaisia P2P-ratkaisuja Bitcoinin ostamiseen, mutta kaikilla niillä ei ole samoja ominaisuuksia. Yhteinen piirre niiden kesken on, että ne mahdollistavat Bitcoinin ostamisen ja myymisen.
-reviewed: false

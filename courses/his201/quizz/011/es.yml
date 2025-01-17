@@ -1,0 +1,9 @@
+question: ¿A qué sistema de moneda privada se refirió explícitamente Satoshi Nakamoto en sus escritos?
+answer: Liberty Reserve
+wrong_answers:
+  - e-gold
+  - The Liberty Dollar
+  - e-Bullion
+explanation: |
+  Este aún estaba activo en el momento de Bitcoin, a diferencia de e-gold y The Liberty Dollar. Satoshi también [mencionó](https: //bitcointalk.org/index.php?topic=87.msg807#msg807) a Pecunix, una moneda digital de oro creada en 2002.
+reviewed: false

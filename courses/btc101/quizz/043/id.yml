@@ -1,0 +1,11 @@
+question: Apa preseden historis untuk penggunaan mata uang fiat?
+answer: Pemimpin memusatkan emas dan memperkenalkan mata uang baru yang setara nilainya dengan emas, yang kemudian secara bertahap dinilai rendah.
+wrong_answers:
+  - Pemimpin memperkenalkan mata uang baru yang didukung oleh emas, yang kemudian secara bertahap meningkat nilainya.
+  - Pemimpin memperkenalkan mata uang baru tanpa nilai intrinsik, yang kemudian secara bertahap meningkat nilainya.
+  - Pemimpin memperkenalkan mata uang baru yang didukung oleh keranjang komoditas, yang kemudian dijaga stabil nilainya.
+explanation: |
+  Secara historis, pemimpin telah memusatkan emas dan memperkenalkan mata uang baru
+  yang setara nilainya dengan emas. Mata uang baru ini kemudian secara bertahap dinilai rendah, seringkali
+  di bawah dalih demi kepentingan rakyat.
+reviewed: true

@@ -1,0 +1,9 @@
+question: ¿Cuál era la actitud de la Biblia hacia el préstamo con interés?
+answer: Estaba prohibido.
+wrong_answers:
+  - Lo alentaba.
+  - Lo toleraba en algunos casos.
+  - No tenía opinión al respecto.
+explanation: |
+  La Biblia prohíbe el préstamo con interés, especialmente en el Antiguo Testamento, donde prestar con interés entre miembros de la comunidad se ve como inmoral y contrario a los valores de solidaridad.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is the role of the K array in RC4 encryption?
+answer: It initializes and transforms the S array to generate the keystream
+wrong_answers:
+  - It directly encrypts the plaintext
+  - It stores the encrypted text
+  - It serves only as temporary storage for data until the end of the process
+explanation: |
+  The K array is used to transform the S array in the key scheduling process, which allows for the generation of a pseudorandom keystream to encrypt the plaintext.
+reviewed: false

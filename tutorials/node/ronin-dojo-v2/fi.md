@@ -16,7 +16,7 @@ _Tämä opas on tarkoitettu vain koulutus- ja tiedotustarkoituksiin. Emme kannus
 
 Edellisessä oppaassa olimme jo selittäneet menettelyn RoninDojo v1:n asentamiseksi ja käyttämiseksi. Viime vuoden aikana RoninDojon tiimit ovat kuitenkin julkaisseet version 2 heidän toteutuksestaan, mikä merkitsi merkittävää käännekohtaa ohjelmiston arkkitehtuurissa. Todellakin, he siirtyivät pois Linux Manjaro -jakelusta Debianin hyväksi. Tämän seurauksena he eivät enää tarjoa esiasennettua kuvaa automaattiseen asennukseen Raspberry Pi:lle. Mutta on edelleen olemassa menetelmä manuaaliseen asennukseen. Tätä menetelmää käytin oman solmun asentamiseen, ja siitä lähtien RoninDojo v2 on toiminut upeasti Raspberry Pi 4:ssäni. Tarjoan siis uuden oppaan RoninDojo v2:n manuaaliseen asentamiseen Raspberry Pi:lle.
 
-https://planb.network/tutorials/node/ronin-dojo
+https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 
 
@@ -322,14 +322,14 @@ Yksityiskohtainen opas on valmisteilla, joka opastaa sinut askel askeleelta läp
 
 Syvemmän ymmärryksen saamiseksi coinjoinista ja sen käytöstä Bitcoinissa, kutsun sinut myös tutustumaan tähän toiseen artikkeliin: Ymmärtäminen ja coinjoinin käyttö Bitcoinissa, jossa kerron kaiken mitä sinun tarvitsee tietää tästä tekniikasta.
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 ### Whirlpool Stat Toolin (WST) käyttö
 
 Suoritettuasi coinjoineja Whirlpoolin kanssa, on hyödyllistä arvioida tarkasti saavutettu yksityisyyden taso sekoitetuille UTXO:illesi. Tätä varten voit käyttää Python-työkalua *Whirlpool Stat Tool*. Tämä työkalu mahdollistaa sekä tulevien että menneiden anonset-pisteiden mittaamisen, samalla kun se analysoi niiden leviämistä altaassa.
 
 Syvemmän ymmärryksen saamiseksi näiden anonsettien laskentamekanismeista suosittelen lukemaan artikkelin: REMIX - WHIRLPOOL, joka yksityiskohtaisesti käsittelee näiden indeksien toimintaa.
 
-https://planb.network/tutorials/privacy/remix-whirlpool
+https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

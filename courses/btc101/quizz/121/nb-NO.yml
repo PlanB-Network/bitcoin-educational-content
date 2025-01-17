@@ -1,0 +1,9 @@
+question: Hva er online tilgjengeligheten til Bitcoin?
+answer: 99.988%
+wrong_answers:
+  - 100%
+  - 90.009%
+  - 80.17%
+explanation: |
+  Online tilgjengeligheten til Bitcoin er 99.988% siden 2009.
+reviewed: sant

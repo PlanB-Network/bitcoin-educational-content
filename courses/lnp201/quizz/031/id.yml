@@ -1,0 +1,8 @@
+question: Apa yang membatasi jumlah pembayaran tidak langsung di Jaringan Lightning?
+answer: Likuiditas terkecil yang tersedia dalam sebuah saluran dari jalur yang dipilih
+wrong_answers:
+  - Jumlah node perantara yang terlibat
+  - Kapasitas total dari Jaringan Lightning
+  - Biaya routing yang ditetapkan oleh setiap node
+explanation: |
+  Jumlah maksimum yang dapat ditransfer oleh pembayaran tidak langsung tergantung pada likuiditas terendah yang tersedia di saluran yang digunakan, karena setiap saluran harus menyesuaikan dana di setiap sisi.

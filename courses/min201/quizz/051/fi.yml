@@ -1,12 +1,13 @@
-question: Mikä on louhittujen neitsytbitcoinien pääetu?
+question: Mikä on pääasiallinen etu louhittaessa neitseellisiä bitcoineja?
 answer: Niitä ei ole koskaan käytetty, eikä niihin liity historiaa.
 wrong_answers:
   - Ne voidaan myydä korkeammalla hinnalla.
   - Niitä voidaan käyttää laittomiin toimintoihin.
-  - Niitä voidaan säilyttää pitkään menettämättä arvoaan.
+  - Ne voidaan säilyttää pitkään menettämättä arvoaan.
 explanation: |
-  Louhittujen neitsytbitcoinien pääetu on, että niitä ei ole koskaan
-  käytetty, eikä niihin liity historiaa. Näitä bitcoineja pidetään usein
-  arvokkaampina, koska niitä ei ole "tahrattu", mikä tarjoaa jonkinlaisen takuun
+  Neitseellisten bitcoinien louhimisen pääasiallinen etu on, että
+  niitä ei ole koskaan käytetty, eikä niihin liity historiaa.
+  Nämä bitcoinit katsotaan usein arvokkaammiksi, koska
+  niitä ei ole koskaan tahrattu, mikä tarjoaa jonkinlaisen takuun
   hylkäämisen estämiseksi sääntelijöiden tai suurten vaihtoalustojen toimesta.
-reviewed: false
+reviewed: true

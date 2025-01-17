@@ -1,0 +1,9 @@
+question: Mis on soovitatav minimaalne ooteaeg Hodleri jaoks?
+answer: Vähemalt üks või kaks tsüklit.
+wrong_answers:
+  - Vähem kui aasta.
+  - Viis kuni kümme aastat.
+  - Minimaalne ooteaeg puudub.
+explanation: |
+  Peatükk soovitab, et Hodler peaks oma investeeringu kasvu nägemiseks ootama vähemalt ühe või kaks tsüklit.
+reviewed: false

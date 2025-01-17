@@ -1,10 +1,9 @@
-question: Jaká je rovnice křivky secp256k1 používané v Bitcoinu?
-answer: "y² = x³ + 7 modulo n"
+question: Jaká je velikost surového soukromého klíče používaného u Bitcoinu?
+answer: 256 bitů
 wrong_answers:
-  - "y² = x³ + ax + b"
-  - "y² = x³ + 7 modulo p"
-  - "y² = x³ + ax + b modulo n"
+  - 128 bitů
+  - 512 bitů
+  - 1024 bitů
 explanation: |
-  "Křivka secp256k1 používaná v Bitcoinu je definována parametry a=0\
-  \ a b=7, a její rovnice je y² = x³ + 7 modulo n, kde n představuje\
-  \ prvočíslo, které určuje řád křivky."
+  Soukromý klíč v Bitcoinu je 256bitové náhodné celé číslo, což zajišťuje dostatečně velký prostor klíčů pro zaručení bezpečnosti.
+reviewed: false

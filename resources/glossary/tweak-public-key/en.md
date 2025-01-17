@@ -10,4 +10,4 @@ $$
 
 Where $G$ is the generator of the elliptic curve used. This operation allows for obtaining a new public key derived from the original key while retaining certain cryptographic properties that make it usable. For example, this method is used for Taproot addresses (P2TR) to allow spending either by presenting a Schnorr signature in the traditional way or by fulfilling one of the conditions stated in a Merkle tree, also called "MAST".
 
-![](../../dictionnaire/assets/26.png)
+![](../../dictionnaire/assets/26.webp)

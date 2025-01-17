@@ -1,0 +1,8 @@
+question: 尼克·萨博在1998年首次提出他的比特黄金概念是在哪里？
+answer: libtech-l 邮件列表
+wrong_answers:
+  - cypherpunks 邮件列表
+  - Cryptography 邮件列表
+  - extropians 邮件列表
+explanation: |
+  这是他自己的私人邮件列表，包括了像魏岱和哈尔·芬尼这样的密码朋克，以及像拉里·怀特和乔治·塞尔金这样的经济学家。

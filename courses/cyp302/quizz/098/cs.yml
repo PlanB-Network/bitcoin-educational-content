@@ -1,0 +1,9 @@
+question: Jak MAC pomáhá zabránit manipulaci se zprávou útočníkem?
+answer: Umožňuje ověřit, že přijatá zpráva nebyla změněna
+wrong_answers:
+  - Zabráněním útokům hrubou silou
+  - Skrytím obsahu zprávy
+  - Automatickým blokováním podezřelých zpráv
+explanation: |
+  MAC umožňuje příjemci ověřit, že zpráva nebyla upravena prostřednictvím tagu generovaného sdíleným tajným klíčem, což omezuje možnosti manipulace.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Quel algorithme est utilisé pour générer une clé publique ?
-answer: ECDSA (Elliptic Curve Digital Signature Algorithm)
-wrong_answers:
-  - "RSA (Rivest–Shamir–Adleman)"
-  - SHA-256 (Secure Hash Algorithm 256)
-  - AES (Advanced Encryption Standard)
-explanation: |
-  Une clé publique est générée en utilisant l'algorithme ECDSA (Elliptic Curve Digital Signature Algorithm).
-reviewed: false

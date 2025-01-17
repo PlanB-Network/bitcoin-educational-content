@@ -1,9 +1,9 @@
-question: Come vengono compensati i minatori per il loro lavoro?
-answer: I minatori vengono compensati tramite la ricompensa inclusa nel blocco e tramite le commissioni di transazione.
+question: Cos'è la transazione coinbase?
+answer: La prima transazione del blocco che include la ricompensa del minatore.
 wrong_answers:
-  - I minatori vengono pagati dalla rete Bitcoin.
-  - I minatori ricevono uno stipendio fisso per il loro lavoro.
-  - I minatori vengono compensati con nuovi bitcoin.
-explanation: |
-  Quando un minatore riesce a minare con successo un blocco, riceve una ricompensa sotto forma di nuovi bitcoin. Questa ricompensa è inclusa nel blocco che hanno minato. Inoltre, i minatori ricevono anche le commissioni di transazione dalle transazioni incluse nel blocco.
-reviewed: false
+  - Una transazione effettuata sull'exchange Coinbase.
+  - La seconda transazione del blocco che include le commissioni più alte.
+  - Una transazione effettuata dal minatore dopo aver ricevuto la ricompensa.
+explanation: >-
+  La transazione coinbase è sempre la prima transazione di un blocco. Include la ricompensa del minatore per aver eseguito il lavoro del validatore.
+reviewed: vero

@@ -1,0 +1,8 @@
+question: Hvorfor utveksler Alice og Bob sine hemmeligheter for tidligere forpliktelsestransaksjoner?
+answer: For å tillate hver av dem å beskytte seg selv hvis den andre publiserer en gammel transaksjon
+wrong_answers:
+  - For å øke kanalens kapasitet
+  - For å blokkere hverandres tilgang til midlene
+  - For å dele midlene likt
+explanation: |
+  Å utveksle hemmeligheter for tidligere transaksjoner lar hver deltaker straffe den andre i tilfelle et forsøk på å jukse ved å publisere en gammel transaksjon.

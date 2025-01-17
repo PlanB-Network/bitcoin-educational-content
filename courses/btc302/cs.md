@@ -1305,25 +1305,10 @@ Samozřejmě **v jiných zemích se legislativa a fungování asociací liší**
 
 
 
-## Ohodnoťte kurz
+## Recenze & Hodnocení
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Pečujte o sebe
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
-
-Když člověk spadne do králičí nory, naše vnímání mnoha věcí se změní.
-To nás pak nutí chtít jít dál, chtít objevit ty ostatní lidi, kteří dělají stejnou mentální práci jako my a kteří také pochopili.
-To nás motivuje, dává nám ještě větší chuť **přispět svým kamenem do budovy** a sdílet naše objevy: Bitcoin.
-Vede nás to také k **přemýšlení o světě zítřka, který si přejeme vybudovat, a o komunitách, které jej právě budují**.
-####
-**V této dlouhé galerii, která je tvorbou komunity, budete potřebovat ukázat motivaci, strategii, obětavost a čas**. Je to někdy vděčný úkol; a v tomto snažení je lepší brát věci postupně, aby vás to nebolelo.
-**Takže myslete na sebe, na své limity**. A i když vás Bitcoin může oživovat noc co noc, **nesnažte se dělat vše sami; jinak se vyčerpáte**.
-
-Naopak, **požádejte o pomoc bitcoinisty, kteří již touto stejnou galerií prošli, kteří již prozkoumali stejné problémy a vybudovali stejné nástroje**. Ušetříte tím obrovské množství času.
-
-**Navrhněte také lidem, kteří vás budou v tomto dobrodružství následovat, aby vám pomohli, i když to znamená delegovat některé úkoly** a ty mohou trvat déle. V dlouhodobém horizontu se vaše komunita stane sjednocenou a zralejší.
-
-![image](assets/fr/chapter39/63.webp)
-Samostatně může člověk rychle prozkoumat jednu z mnoha galerií bitcoinové nory, až dosáhne jejího konce. Ale pak je tu cesta zpět. A poté všechny ostatní směry k prozkoumání. **Když však vytvoříte a/nebo se připojíte ke komunitě bitcoinistů, sdílíte a pravidelně si s nimi vyměňujete informace, prozkoumáte všechny směry bitcoinové nory současně**.
-Je to v té chvíli, kdy mnohem rychleji, než byste to udělali sami, můžete říci: "Bitcoinu jsem porozuměl".
+<isCourseConclusion>true</isCourseConclusion>

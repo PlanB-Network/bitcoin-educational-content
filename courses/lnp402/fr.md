@@ -137,17 +137,10 @@ Bonne chance dans vos études.
 
 
 
-## Évaluez ce cours
+## Avis & Notes
 <chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Mot de la fin
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
-
-Merci d'avoir participé à ce cours ! Nous espérons qu'il vous a plu.
-
-Si vous souhaitez continuer à apprendre à partir de ce séminaire, nous vous encourageons à participer aux cours RGB disponibles sur cette plateforme.
-
-Vous pouvez également consulter nos autres cours et continuer à étudier à partir de nos nombreuses ressources.
-
-Un grand merci à Fulgur Venture pour avoir proposé ce cours et à nos enseignants pour leur participation.
+<isCourseConclusion>true</isCourseConclusion>

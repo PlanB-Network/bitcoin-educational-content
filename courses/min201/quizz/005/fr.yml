@@ -1,9 +1,14 @@
-question: Quel est le principal défi pour les professionnels de l'industrie minière Bitcoin?
-answer: Anticiper les gains d'efficacité décroissants à l'avenir et ajuster leurs stratégies en conséquence
+question: Quel est le principal défi pour les professionnels de l'industrie du minage de Bitcoin ?
+answer: Anticiper la diminution des gains d'efficacité à l'avenir et ajuster leurs stratégies en conséquence
 wrong_answers:
   - Trouver de l'électricité bon marché
-  - Trouver un emplacement adapté pour les opérations minières
+  - Trouver un emplacement adapté pour les opérations de minage
   - Trouver des investisseurs prêts à financer leurs opérations
 explanation: |
-  Face aux avancées technologiques constantes dans le domaine de l'exploitation minière, les professionnels doivent se positionner stratégiquement. L'industrie minière est soumise à des innovations continues et les acteurs de l'industrie doivent anticiper les gains d'efficacité décroissants à l'avenir et ajuster leurs stratégies en conséquence.
-reviewed: false
+  Face aux avancées technologiques constantes dans le
+  domaine du minage, les professionnels doivent se positionner
+  stratégiquement. L'industrie du minage est sujette à des
+  innovations continues, et les acteurs du secteur doivent anticiper
+  la diminution des gains d'efficacité à l'avenir et ajuster leurs
+  stratégies en conséquence.
+reviewed: true

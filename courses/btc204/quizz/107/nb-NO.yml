@@ -1,0 +1,11 @@
+question: Hvordan kan en payjoin-transaksjon betraktes som en steganografisk transaksjon?
+
+answer: Den skjuler det faktiske betalingsbeløpet fra eksterne observatører.
+
+wrong_answers:
+  - Den krypterer det faktiske betalingsbeløpet for eksterne observatører.
+  - Den skjuler det faktiske betalingsbeløpet fra mottakeren.
+  - Den krypterer det faktiske betalingsbeløpet for mottakeren.
+
+explanation: |
+  Payjoin-transaksjonen faller under domenet til steganografi fordi den skjuler det reelle beløpet av en transaksjon innenfor en falsk transaksjon som fungerer som en avledning for eksterne observatører.

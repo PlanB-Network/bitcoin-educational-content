@@ -5,8 +5,9 @@ wrong_answers:
   - Mohou je použít pro nelegální aktivity.
   - Mohou se vyhnout placení daní z nich.
 explanation: |
-  Panenské bitcoiny jsou obzvláště vyhledávány velkými institucionálními
-  hráči, protože mohou zaručit legitimitu svých digitálních aktiv regulačním
-  orgánům. Tyto bitcoiny nikdy nebyly "znečištěny", což poskytuje určitou záruku
-  proti odmítnutí regulátory nebo hlavními obchodními platformami.
-reviewed: false
+  Panenské bitcoiny jsou obzvláště vyhledávány velkými
+  institucionálními hráči, protože mohou zaručit legitimitu
+  svých digitálních aktiv regulačním orgánům. Tyto bitcoiny
+  nikdy nebyly znečištěny, což poskytuje určitou záruku proti
+  odmítnutí regulačními orgány nebo hlavními obchodními platformami.
+reviewed: true

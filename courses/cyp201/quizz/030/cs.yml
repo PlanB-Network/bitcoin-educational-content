@@ -1,11 +1,9 @@
-question: Jaká rovnice definuje eliptickou křivku?
-answer: "y² = x³ + ax + b"
+question: Jaký je účel SIGHASH_SINGLE?
+answer: Pokrýt jeden vstup a jeho odpovídající výstup
 wrong_answers:
-  - "y² = x³ + ax"
-  - "y² = x³ + b"
-  - "y² = x³ + ax - b"
+  - Pokrýt všechny vstupy a výstupy
+  - Pokrýt pouze vstupy
+  - Pokrýt všechny výstupy kromě jednoho
 explanation: |
-  "Eliptická křivka je definována rovnicí y² = x³ + ax + b.\
-  \ Každý bod na této křivce má charakteristickou symetrii, která je klíčová pro její\
-  \ využití v kryptografii."
+  SIGHASH_SINGLE pokrývá jeden vstup a jeden odpovídající výstup vzhledem k indexu podepsaného vstupu, zbytek zůstává modifikovatelný.
 reviewed: false

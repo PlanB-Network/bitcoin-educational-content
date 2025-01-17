@@ -1,0 +1,13 @@
+question: Blant de følgende svarene, hvilket representerer ikke en risiko når man sender bitcoins som har gjennomgått en coinjoin til en regulert plattform?
+
+answer: Plattformen kan øke transaksjonsgebyrene
+
+wrong_answers:
+  - Plattformen kan fryse midlene
+  - Plattformen kan blokkere brukerens konto
+  - Plattformen kan rapportere mistenkelig oppførsel til myndighetene
+
+explanation: |
+  Hvis du sender dine mynter til en regulert vekslingsplattform, men de nylig har gjennomgått en coinjoin, vil plattformens kjedeanalyseverktøy oppdage dette. Plattformen kan da nekte å akseptere din UTXO som har gjennomgått en coinjoin, eller til og med kreve forklaringer fra deg, med risikoen for å se din konto suspendert eller dine midler frosset. I noen tilfeller kan plattformen også rapportere din oppførsel til statlige myndigheter.
+
+reviewed: false

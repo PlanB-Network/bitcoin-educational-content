@@ -1,9 +1,9 @@
-question: O que representam as constantes K no processamento da função SHA-256?
-answer: Os primeiros 32 bits das partes decimais das raízes cúbicas dos primeiros 64 números primos.
+question: Qual é a função de hash usada pelo HMAC no contexto do Bitcoin?
+answer: SHA512
 wrong_answers:
-  - Os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 64 números primos.
-  - Os primeiros 32 bits das partes decimais das raízes cúbicas dos primeiros 8 números primos.
-  - Os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 8 números primos.
+  - SHA256
+  - RIPEMD160
+  - HASH160
 explanation: |
-  No processamento da função SHA-256, as constantes K, de 0 a 63, representam os primeiros 32 bits das partes decimais das raízes cúbicas dos primeiros 64 números primos. Essas são usadas como ingredientes básicos na receita criptográfica.
+  O HMAC utiliza o SHA512 para produzir um hash seguro de 512 bits.
 reviewed: false

@@ -1564,30 +1564,11 @@ Tietenkin **muissa maissa lainsäädäntö ja yhdistysten toiminta ovat erilaisi
 
 
 
-## Arvioi kurssi
+## Arviot & Arvosanat
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Huolehdi itsestäsi
 
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
-
-Kun putoaa kaninkoloon, monien asioiden havaitseminen muuttuu.
-Tämä puolestaan ajaa meidät haluamaan mennä pidemmälle, haluamaan löytää ne muut ihmiset, jotka tekevät samaa henkistä työtä kuin me ja jotka myös ovat ymmärtäneet.
-Tämä motivoi meitä, antaa meille vielä enemmän halua **antaa oman panoksemme rakennukseen** ja jakaa löytömme: Bitcoin.
-Se myös johtaa meidät **ajattelemaan huomisen maailmaa, sitä, jonka haluamme rakentaa, ja yhteisöjä, jotka ovat rakentamassa sitä**.
-
-####
-
-**Tässä pitkässä galleriassa, joka on yhteisön luominen, sinun on osoitettava motivaatiota, strategiaa, itseuhrausta ja aikaa**. Se on joskus kiittämätön tehtävä; ja tässä pyrkimyksessä on parempi ottaa asioita vähitellen, jotta ei satuttaisi itseään.
-**Joten, ajattele itseäsi, rajojasi**. Ja vaikka Bitcoin saattaa elävöittää sinua yöllä ja päivällä, **älä yritä tehdä kaikkea yksin; muuten uuvut**.
-
-Päinvastoin, **pyydä apua bitcoineilta, jotka ovat jo käyneet läpi saman gallerian, jotka ovat jo tutkineet samoja kysymyksiä ja rakentaneet samat työkalut**. Tämä säästää sinulta valtavasti aikaa.
-
-**Ehdota myös ihmisille, jotka seuraavat sinua tässä seikkailussa auttamaan sinua, vaikka se tarkoittaisikin joitakin tehtäviä delegoimista** ja että nämä saattavat kestää kauemmin. Pitkällä aikavälillä yhteisösi nousee yhtenäisenä ja kypsempänä.
-
-![image](assets/fr/chapter39/63.webp)
-Yksinään voi nopeasti tutkia yhtä monista Bitcoinin kaninkoloista, kunnes saavuttaa sen pään. Mutta on palattava takaisin. Sitten kaikki muut suunnat tutkittavaksi. **Kun taas luomalla ja/tai liittymällä bitcoinien yhteisöön, jakamalla ja vaihtamalla heidän kanssaan säännöllisesti, tutkit kaikkia Bitcoinin kaninkolon suuntia samanaikaisesti**.
-
-Silloin, paljon nopeammin kuin olisit tehnyt yksin, voit sanoa: "Olen ymmärtänyt Bitcoinin".
-
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,9 +1,14 @@
-question: ¿Cuál es el riesgo de usar una billetera multisig?
-answer: No tener acceso a suficientes partes distintas de la copia de seguridad multisig
+question: ¿Cuál es el riesgo de usar una cartera multisig?
+answer: No tener acceso a suficientes claves privadas individuales o componentes de respaldo.
 wrong_answers:
-  - Tener acceso a suficientes partes distintas de la copia de seguridad multisig
-  - Compartir claves con otras partes
-  - No compartir claves con otras partes
+  - Tener acceso a suficientes claves privadas individuales o componentes de respaldo.
+  - Compartir tus claves privadas con otras partes.
+  - Compartir tus claves públicas con otras partes.
 explanation: |
-  Cuando se utiliza una billetera multisig, cada parte de la multisig debe almacenarse en diferentes ubicaciones. Esto se debe a que la multisig requiere múltiples firmas para realizar una transacción, por lo que se necesita un cierto número de billeteras, y almacenar cada parte en una ubicación diferente agrega una capa adicional de seguridad.
-reviewed: false
+  Cuando usas una cartera multisig, cada clave privada del
+  multisig debe almacenarse en diferentes ubicaciones. Esto es
+  porque el multisig requiere múltiples firmas para llevar a cabo
+  una transacción, por lo que se necesitan cierto número de carteras.
+  Por lo tanto, almacenar cada parte en una ubicación diferente
+  añade una capa extra de seguridad.
+reviewed: true

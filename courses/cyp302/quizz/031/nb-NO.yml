@@ -1,0 +1,8 @@
+question: Hvordan defineres en tilfeldig streng i dette kapittelet?
+answer: Som en streng valgt jevnt fra alle strenger av samme lengde
+wrong_answers:
+  - Som en streng laget kun med bitene 0 og 1
+  - Som en streng oppnådd fra et manuelt utvalg
+  - Som en variabel-lengde streng som resultat av en krypteringsprosess
+explanation: |
+  En tilfeldig streng defineres som værende fra et jevnt utvalg blant alle mulige strenger av samme lengde.

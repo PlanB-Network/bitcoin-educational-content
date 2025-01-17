@@ -1,9 +1,12 @@
-question: Kolik se odhaduje, že bylo bitcoinů v oběhu po prvním halvingu?
-answer: 10,500,000 BTC
+question: Jaký byl odhadovaný počet bitcoinů v oběhu po prvním halvingu?
+answer: 10 500 000 BTC.
 wrong_answers:
-  - 5,250,000 BTC
-  - 15,750,000 BTC
-  - 21,000,000 BTC
+  - 5 250 000 BTC.
+  - 15 750 000 BTC.
+  - 21 000 000 BTC.
 explanation: |
-  Po prvním halvingu, který nastává při výšce bloku 210,000, se odhaduje, že v oběhu bylo 10,500,000 BTC, což je polovina celkového počtu bitcoinů, které budou v oběhu.
-reviewed: false
+  Po prvním halvingu, který nastal na výšce bloku
+  210 000, byl odhadovaný počet bitcoinů v oběhu
+  10 500 000 BTC, což je polovina celkového počtu
+  bitcoinů, které budou v oběhu.
+reviewed: true

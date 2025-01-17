@@ -1,5 +1,5 @@
 ---
-name: Frase de paso BIP39
+name: Passphrase BIP39
 description: Entendiendo cómo funciona una frase de paso
 ---
 ![cover](assets/cover.webp)
@@ -35,4 +35,8 @@ También es importante guardar adecuadamente esta frase de paso, de la misma man
 
 Para configurar una frase de paso en un dispositivo Ledger (Stax, Flex, o Nano), puedes consultar este tutorial:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
+En una COLDCARD:
+
+https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

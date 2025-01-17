@@ -5,5 +5,5 @@ wrong_answers:
   - Kiểm soát giá của Bitcoin
   - Xác minh danh tính của người dùng Bitcoin
 explanation: |
-  Trong bối cảnh đào Bitcoin, các thợ đào cố gắng giải một câu đố số một cách nhanh chóng. Thợ đào đầu tiên giải được câu đố này sẽ trình bày giải pháp của họ cho toàn bộ mạng lưới, mạng lưới sau đó có thể dễ dàng kiểm tra tính hợp lệ của nó. Việc xác minh thành công này cho phép thợ đào xác thực một khối mới và thêm nó vào Chuỗi Thời gian Bitcoin.
-reviewed: false
+  Trong bối cảnh đào Bitcoin, các thợ đào cố gắng giải một câu đố số một cách nhanh chóng. Thợ đào đầu tiên giải được câu đố sẽ trình bày giải pháp của họ cho toàn bộ mạng lưới, mạng lưới sau đó có thể dễ dàng xác minh tính hợp lệ của nó. Việc xác minh thành công này cho phép thợ đào xác thực một khối mới và thêm nó vào Chuỗi Thời gian Bitcoin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hva er kommandoen for å verifisere mengden bitcoins i omløp på en Bitcoin-node?
+answer: bitcoin-cli gettxoutsetinfo
+wrong_answers:
+  - bitcoin-cli getblockchaininfo
+  - bitcoin-cli getwalletinfo
+  - bitcoin-cli getnetworkinfo
+explanation: |
+  Kommandoen for å verifisere mengden bitcoins i omløp på en Bitcoin-node er bitcoin-cli gettxoutsetinfo. Denne kommandoen gir transparens og verifiserbarhet, noe som styrker tilliten til Bitcoin-systemet.
+reviewed: true

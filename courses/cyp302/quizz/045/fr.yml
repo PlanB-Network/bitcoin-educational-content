@@ -1,0 +1,9 @@
+question: Dans un groupe fini, quel terme désigne le nombre d'éléments du groupe ?
+answer: L'ordre du groupe
+wrong_answers:
+  - La capacité du groupe
+  - La longueur du groupe
+  - Le degré du groupe
+explanation: |
+  L'ordre d'un groupe est le nombre total d'éléments qu'il contient.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Apa tujuan dari Label dalam Pembayaran Rahasia?
+
+answer: Untuk menggunakan beberapa alamat statis yang berbeda tanpa meningkatkan beban pemindaian secara tidak wajar.
+
+wrong_answers:
+  - Untuk mengenkripsi transaksi Pembayaran Rahasia agar penerima transaksi sebenarnya tersembunyi.
+  - Untuk menggunakan beberapa alamat statis yang berbeda yang tidak dapat dikaitkan oleh pengamat eksternal.
+  - Untuk menempatkan label yang terlihat di blockchain untuk mengidentifikasi Pembayaran Rahasia seperti referensi pembayaran.
+
+explanation: |
+  Label digunakan untuk menghasilkan beberapa alamat statis dari alamat statis utama, yang memudahkan organisasi dompet. Namun, pengamat eksternal dapat dengan mudah menetapkan kaitan antara alamat statis berlabel ini, karena kunci publik pemindaian sama untuk semua.
+
+reviewed: false

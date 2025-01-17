@@ -161,4 +161,4 @@ Nếu bạn thấy hướng dẫn này hữu ích, tôi sẽ rất trân trọng
 
 Tôi cũng khuyên bạn nên xem hướng dẫn khác về VeraCrypt, một phần mềm cho phép bạn mã hóa và giải mã các thiết bị lưu trữ.
 
-https://planb.network/tutorials/others/veracrypt
+https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

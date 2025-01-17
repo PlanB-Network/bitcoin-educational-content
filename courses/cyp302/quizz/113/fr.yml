@@ -1,0 +1,9 @@
+question: Quel est le rôle du tableau K dans le chiffrement RC4 ?
+answer: Il initialise et transforme le tableau S pour générer le flux de clés
+wrong_answers:
+  - Il chiffre directement le texte en clair
+  - Il stocke le texte chiffré
+  - Il sert uniquement de stockage temporaire pour les données jusqu'à la fin du processus
+explanation: |
+  Le tableau K est utilisé pour transformer le tableau S dans le processus de planification de clé, ce qui permet la génération d'un flux de clés pseudorandomisé pour chiffrer le texte en clair.
+reviewed: false

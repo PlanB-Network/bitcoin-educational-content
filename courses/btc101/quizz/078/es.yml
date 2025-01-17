@@ -1,11 +1,12 @@
-question: ¿Cuál de estas opciones es falsa cuando pierdes el dispositivo en el que tienes tu cartera de Bitcoin?
-answer: Puedes recrear tu cartera y gastar tus bitcoins al restablecer tu contraseña
+question: ¿Cuál de estas opciones es falsa acerca de perder el dispositivo en el que tienes tu cartera de Bitcoin?
+answer: Puedes recrear tu cartera y gastar tus bitcoins restableciendo tu contraseña.
 wrong_answers:
-  - Pierdes todos tus Bitcoins si no tienes la frase mnemotécnica
-  - Puedes verificar con tus claves públicas que tus bitcoins aún no se han movido
-  - Puedes recrear tu cartera y gastar tus bitcoins con la frase mnemotécnica
+  - Pierdes todos tus Bitcoins si no tienes la frase mnemotécnica.
+  - Puedes verificar con tus claves públicas que tus bitcoins no han sido gastados.
+  - Puedes recrear tu cartera y gastar tus bitcoins usando la frase mnemotécnica.
 explanation: |
-  Perder el dispositivo en el que tienes tu cartera no necesariamente
-  significa la pérdida de tus Bitcoins. Lo que te permite recrear tu cartera y gastar
-  tus bitcoins es la frase mnemotécnica.
-reviewed: false
+  Perder el dispositivo en el que tienes tu cartera no
+  significa necesariamente la pérdida de tus Bitcoins. Lo que te permite
+  recrear tu cartera y gastar tus bitcoins es la
+  frase mnemotécnica.
+reviewed: true

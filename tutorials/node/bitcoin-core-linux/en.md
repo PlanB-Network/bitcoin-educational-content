@@ -23,33 +23,30 @@ The rest of this article is therefore a guide to installing Bitcoin Core — the
 
 ## Bitcoin Core Installation Guide for Debian/Ubuntu
 
-> Prerequisites
->
-> - Minimum 6GB of data storage (pruned node) — 1TB of data storage (full node)
-> - Allow at least 24 hours for the completion of the Initial Block Download (IBD). This operation is mandatory even for a pruned node.
-> - Allow ~600GB of bandwidth for the IBD, even for a pruned node.
+**Prerequisites**
+- Minimum 6GB of data storage (pruned node) — 1TB of data storage (full node)
+- Allow at least 24 hours for the completion of the Initial Block Download (IBD). This operation is mandatory even for a pruned node.
+- Allow ~600GB of bandwidth for the IBD, even for a pruned node.
 
-> 💡 The following commands are predefined for Bitcoin Core version 24.1.
+**Note:💡** the following commands are predefined for Bitcoin Core version 24.1.
 
 ## Downloading and Verifying Files
 
 1. Download bitcoin-24.1-x86_64-linux-gnu.tar.gz, as well as the SHA256SUMS and SHA256SUMS.asc files. (https://bitcoincore.org/bin/bitcoin-core-24.1/bitcoin-24.1-x86_64-linux-gnu.tar.gz)
-
 2. Open a terminal in the directory where the downloaded files are located. E.g., cd ~/Downloads/.
 3. Verify that the checksum of the version file is listed in the checksum file using the command sha256sum --ignore-missing --check SHA256SUMS.
 4. The output of this command should include the name of the downloaded version file followed by "OK". Example: bitcoin-24.0.1-x86_64-linux-gnu.tar.gz: OK.
-
 5. Install git using the command sudo install git. Then, clone the repository containing the PGP keys of Bitcoin Core signers using the command git clone https://github.com/bitcoin-core/guix.sigs.
 6. Import the PGP keys of all signers using the command gpg --import guix.sigs/builder-keys//\*
 7. Verify that the checksum file is signed with the PGP keys of the signers using the command gpg --verify SHA256SUMS.asc.
 
 Each signature will return a line starting with: gpg: Good signature and another line ending with Primary key fingerprint: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320 (example of Pieter Wuille's PGP key fingerprint).
 
-> 💡 It is not necessary for all signer keys to return an "OK". In fact, only one may be necessary. It is up to the user to determine their own validation threshold for PGP verification.
->
-> You can ignore the messages WARNING: This key is not certified with a trusted signature!
+**Note💡:** it is not necessary for all signer keys to return an "OK". In fact, only one may be necessary. It is up to the user to determine their own validation threshold for PGP verification.
 
-> There is no indication that the signature belongs to the owner.
+You can ignore the messages WARNING:
+- `This key is not certified with a trusted signature!`
+- `There is no indication that the signature belongs to the owner.`
 
 ## Installation of the Bitcoin Core graphical interface
 
@@ -75,7 +72,7 @@ However, running and synchronizing your node intermittently, even just to valida
 
 # Configuring Tor for a Bitcoin Core Node
 
-> 💡 This guide is designed for Bitcoin Core 24.0.1 on Ubuntu/Debian compatible Linux distributions.
+**Note💡:** this guide is designed for Bitcoin Core 24.0.1 on Ubuntu/Debian compatible Linux distributions.
 
 ## Installing and configuring Tor for Bitcoin Core
 
@@ -83,8 +80,7 @@ First, we need to install the Tor service (The Onion Router), a network used for
 
 To install Tor, open a terminal and enter sudo apt -y install tor. Once the installation is complete, the service will normally be automatically launched in the background. Check that it is running correctly with the command sudo systemctl status tor. The response should show Active: active (exited). Press Ctrl+C to exit this function.
 
-> In any case, you can use the following commands in the terminal to start, stop, or restart Tor:
-
+**Tip:** in any case, you can use the following commands in the terminal to start, stop, or restart Tor:
 ```
 sudo systemctl start tor
 sudo systemctl stop tor
@@ -97,7 +93,7 @@ Next, let's launch the Bitcoin Core graphical interface with the command bitcoin
 
 Bitcoin Core automatically detects if Tor is installed and, if so, will by default create outbound connections to other nodes also using Tor, in addition to connections to nodes using IPv4/IPv6 networks (clearnet).
 
-> 💡 To change the display language to French, go to the Display tab in Settings.
+**Note💡:** to change the display language to French, go to the Display tab in Settings.
 
 ## Advanced Tor Configuration (optional)
 
@@ -122,10 +118,9 @@ Alternatively, to remain solely on the Tor network and mitigate the risk of a Sy
 
 To view the logs of your Bitcoin node specifically related to its interaction with Tor, add debug=tor to your bitcoin.conf file. You will now have relevant Tor information in your debug log, which you can view in the Information window with the Debug File button. It is also possible to view these logs directly in the terminal with the command bitcoind -debug=tor.
 
-> 💡 Some interesting links:
->
-> - Wiki page explaining Tor and its relationship with Bitcoin
-> - Bitcoin Core configuration file generator by Jameson Lopp
-> - Tor configuration guide by Jon Atack
+**Tip💡:** here are some interesting links:
+- Wiki page explaining Tor and its relationship with Bitcoin
+- Bitcoin Core configuration file generator by Jameson Lopp
+- Tor configuration guide by Jon Atack
 
 As always, if you have any questions, feel free to share them with the Agora256 community. We learn together to be better tomorrow than we are today!

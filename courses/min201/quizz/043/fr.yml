@@ -1,10 +1,14 @@
-question: Quelle est la signification de l'adage "Pas votre hashrate, pas votre récompense" dans le contexte du minage de Bitcoin ?
+question: Quelle est la signification de l'adage Pas de hashrate à toi, pas de récompense à toi dans le contexte du minage de Bitcoin ?
 answer: Si vous ne contrôlez pas le hashrate, vous ne contrôlez pas les récompenses de minage.
 wrong_answers:
   - Si vous n'avez pas un hashrate élevé, vous n'obtiendrez aucune récompense.
   - Si vous ne possédez pas de Bitcoin, vous n'obtiendrez aucune récompense.
-  - Si vous ne possédez pas de machine de minage, vous n'obtiendrez aucune récompense.
+  - Si vous n'avez pas de machine de minage, vous n'obtiendrez aucune récompense.
 explanation: |
-  L'adage "Pas votre hashrate, pas votre récompense" est similaire à l'adage bien connu dans le monde des cryptomonnaies, "Pas vos clés, pas vos Bitcoins". Cela signifie que si vous ne contrôlez pas le hashrate, vous ne contrôlez pas les récompenses de minage.
-  Cela est dû au fait que les récompenses de minage sont directement proportionnelles au hashrate.
-reviewed: false
+  L'adage Pas de hashrate à toi, pas de récompense à toi est similaire
+  à l'adage bien connu dans le monde des cryptomonnaies,
+  Pas tes clés, pas tes Bitcoins. Cela signifie que si vous ne
+  contrôlez pas le hashrate, vous ne contrôlez pas les récompenses de minage.
+  C'est parce que les récompenses du minage sont
+  directement proportionnelles au hashrate.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Điều gì làm nên sự khác biệt giữa một hệ thống mật mã hiện đại và một hệ thống mã hóa đơn giản?
+answer: Sự đảm bảo về tính toàn vẹn và xác thực của tin nhắn
+wrong_answers:
+  - Sử dụng một khóa bí mật duy nhất
+  - Sự phân tán của khóa
+  - Sự ẩn danh của tin nhắn
+explanation: |
+  Mật mã hiện đại bao gồm các hệ thống vượt ra ngoài việc bảo mật thông tin để đảm bảo tính toàn vẹn và xác thực, cũng như không thể chối cãi, không giống như các hệ thống mã hóa đơn giản.
+reviewed: false

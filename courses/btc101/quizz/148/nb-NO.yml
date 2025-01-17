@@ -1,0 +1,10 @@
+question: Hva var utfallet av blokk-krigen i 2017?
+answer: Brukere og noder avviste det foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte en oppdatering kalt SegWit
+wrong_answers:
+  - Brukere og noder godtok det foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte en oppdatering kalt SegWit
+  - Brukere og noder avviste det foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte ikke noen oppdateringer
+  - Brukere og noder godtok det foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte ikke noen oppdateringer
+explanation: >-
+  I blokk-krigen i 2017, triumferte brukere og noder ved å avvise det
+  foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte en oppdatering kalt SegWit.
+reviewed: false

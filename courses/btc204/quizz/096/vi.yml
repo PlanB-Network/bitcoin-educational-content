@@ -1,0 +1,13 @@
+question: Chỉ số anonset hồi cứu chỉ ra điều gì?
+
+answer: Số lượng nguồn có thể có cho một UTXO vào cuối chu kỳ.
+
+wrong_answers:
+  - Kích thước của nhóm UTXO không thể phân biệt được vào cuối chu kỳ.
+  - Số lượng nguồn có thể có cho một UTXO ở đầu chu kỳ.
+  - Thời gian cần thiết để hoàn thành một coinjoin.
+
+explanation: |
+  Chỉ số anonset hồi cứu chỉ ra số lượng nguồn có thể có cho một đồng tiền cụ thể, xét đến UTXO vào cuối chu kỳ.
+
+reviewed: false

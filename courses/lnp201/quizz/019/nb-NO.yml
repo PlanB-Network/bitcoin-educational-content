@@ -1,0 +1,8 @@
+question: Hva garanterer forpliktelsestransaksjonssystemet til deltakerne i en Lightning-kanal?
+answer: At hver av dem kan gjenvinne sine midler ved å publisere den siste signerte transaksjonen
+wrong_answers:
+  - At transaksjoner er synlige på Bitcoin-blockkjeden
+  - At kanalens kapasitet øker med hver transaksjon
+  - At gebyrer deles mellom de to deltakerne
+explanation: |
+  De signerte forpliktelsestransaksjonene sikrer at hver deltaker kan gjenvinne sine midler ved å publisere den nyeste versjonen i tilfelle kanalen lukkes.

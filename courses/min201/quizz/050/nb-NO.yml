@@ -1,0 +1,11 @@
+question: Hva er den største utfordringen forbundet med Bitcoin-mining?
+answer: Miningindustrien er ekstremt konkurransepreget og volatil, og uforutsette hendelser kan forstyrre miningoperasjoner.
+wrong_answers:
+  - Den største utfordringen er å finne en pålitelig kilde til elektrisitet.
+  - Den største utfordringen er å finne et trygt sted å lagre de minede bitcoinene.
+  - Den største utfordringen er å finne en kjøper til de minede bitcoinene.
+explanation: |
+  Den største utfordringen forbundet med Bitcoin-mining er at
+  miningindustrien er ekstremt konkurransepreget og volatil,
+  og uforutsette hendelser kan forstyrre miningoperasjoner.
+reviewed: true

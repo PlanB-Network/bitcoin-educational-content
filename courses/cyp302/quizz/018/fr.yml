@@ -1,0 +1,9 @@
+question: Dans quel cas peut-on dire que deux événements sont indépendants ?
+answer: La probabilité de l'un n'affecte pas la probabilité de l'autre
+wrong_answers:
+  - Les deux événements se produisent toujours simultanément
+  - Ils sont mutuellement exclusifs
+  - Leur probabilité combinée est égale à la probabilité la plus élevée des deux
+explanation: |
+  Deux événements sont indépendants si la probabilité de l'un ne modifie pas la probabilité de l'autre, comme un tirage au sort sans influence sur la météo du lendemain.
+reviewed: false

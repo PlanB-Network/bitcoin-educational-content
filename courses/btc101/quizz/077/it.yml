@@ -1,10 +1,12 @@
-question: Qual è il rischio di condividere la chiave pubblica di un portafoglio Bitcoin?
-answer: Rischi per la privacy
+question: Qual è il rischio nel condividere la chiave pubblica di un portafoglio Bitcoin?
+answer: Perdere la privacy.
 wrong_answers:
-  - Rischi di distruggere il portafoglio Bitcoin
-  - Rischi di perdere i Bitcoin
-  - Rischi di hackerare il portafoglio Bitcoin
+  - Distruggere il portafoglio Bitcoin.
+  - Perdere i Bitcoin.
+  - Hackerare il portafoglio Bitcoin.
 explanation: |
-  La condivisione della chiave pubblica comporta rischi per la privacy, ma non per la sicurezza.
-  Ciò perché la chiave pubblica viene utilizzata per generare gli indirizzi Bitcoin e quindi ricevere denaro, ma non rappresenta la proprietà dei Bitcoin.
-reviewed: false
+  Condividere la chiave pubblica comporta rischi per la privacy, ma non
+  per la sicurezza. Questo perché la chiave pubblica è utilizzata per
+  generare indirizzi Bitcoin e quindi ricevere denaro, ma non rappresenta
+  la proprietà dei Bitcoin.
+reviewed: true

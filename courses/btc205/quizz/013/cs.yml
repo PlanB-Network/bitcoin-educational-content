@@ -1,9 +1,0 @@
-question: Jaká je unikátní vlastnost řešení Peach P2P?
-answer: K jeho používání není nutné vytvářet účet.
-wrong_answers:
-  - Používá systém DAO.
-  - Funguje pod TOR.
-  - Používá multisign pro řízení sporů.
-explanation: |
-  Kapitola uvádí, že Peach vyniká svou jednoduchostí, protože k jeho používání není nutné vytvářet účet.
-reviewed: false

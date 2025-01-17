@@ -1,0 +1,10 @@
+question: Hva er Lightning Network?
+answer: Et betalingsnettverk som bruker Bitcoin-protokollen for å muliggjøre lynraske transaksjoner.
+wrong_answers:
+  - En ny type kryptovaluta.
+  - En blokkjedeteknologi som er separat fra Bitcoin.
+  - En metode for å utvinne Bitcoin.
+explanation: >-
+  Lightning Network er et betalingsnettverk som bruker Bitcoin-protokollen
+  for å muliggjøre raske transaksjoner. Det er ikke en separat kryptovaluta eller en metode for
+  å utvinne Bitcoin.

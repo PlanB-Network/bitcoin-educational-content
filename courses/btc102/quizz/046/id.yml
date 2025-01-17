@@ -1,0 +1,11 @@
+question: Apa risiko utama meninggalkan bitcoin Anda di platform pertukaran?
+answer: Platform tersebut bisa di-hack, disita, bangkrut, atau sekedar menghilang dengan uang Anda
+wrong_answers:
+  - Harga Bitcoin bisa tiba-tiba turun
+  - Platform tersebut bisa meningkatkan biayanya
+  - Platform tersebut bisa membatasi jumlah bitcoin yang dapat Anda beli atau jual
+explanation: |
+  Konten bab memperingatkan bahwa platform pertukaran menyajikan risiko yang signifikan
+  dan sebisa mungkin harus dihindari. Mereka bisa di-hack, disita, bangkrut,
+  atau sekedar menghilang dengan uang Anda.
+reviewed: false

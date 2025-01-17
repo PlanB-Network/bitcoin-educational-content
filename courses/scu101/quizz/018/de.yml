@@ -1,9 +1,12 @@
 question: Was ist die empfohlene Vorgehensweise für die Verwendung eines Administrator-Kontos unter Windows?
 answer: Erstellen Sie zwei separate Konten; ein Administrator-Konto und ein Konto für den täglichen Gebrauch.
 wrong_answers:
-  - Verwenden Sie das Administrator-Konto für den täglichen Gebrauch.
-  - Erstellen Sie mehrere Administrator-Konten.
+  - Verwenden Sie das Administrator-Konto für den täglichen Gebrauch, wenn der PC nicht mit dem Internet verbunden ist.
+  - Erstellen Sie zwei separate Administrator-Konten; eines für den täglichen Gebrauch und eines für die Verwaltung des Betriebssystems.
   - Erstellen Sie kein Administrator-Konto.
 explanation: |
-  Die Verwendung eines Administrator-Kontos für den täglichen Gebrauch unter Windows kann das System größeren Sicherheitsrisiken aussetzen. Es wird empfohlen, zwei separate Konten zu erstell- language: en eines für administrative Aufgaben und ein weiteres für den täglichen Gebrauch.
-reviewed: false
+  Die Verwendung eines Administrator-Kontos für den täglichen Gebrauch unter Windows kann
+  das System mehr Sicherheitsrisiken aussetzen. Es wird empfohlen,
+  zwei separate Konten zu erstellen; eines für administrative
+  Aufgaben und ein anderes für den täglichen Gebrauch.
+reviewed: true

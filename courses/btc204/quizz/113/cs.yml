@@ -1,0 +1,13 @@
+question: Který prvek brání vnějšímu pozorovateli v rozlišení mezi transakcemi Stonewall a Stonewall x2?
+
+answer: Vzor transakcí je stejný
+
+wrong_answers:
+  - Transakce jsou šifrovány
+  - Částky zúčastněné v transakcích jsou vždy identické
+  - Digitální podpisy transakcí jsou generovány stejným algoritmem
+
+explanation: |
+  Z vnějšího pohledu je vzor transakcí přesně stejný. Bez dalších kontextových informací je proto nemožné rozlišit transakci Stonewall od transakce Stonewall x2, protože obě adoptují stejný vzor.
+
+reviewed: false

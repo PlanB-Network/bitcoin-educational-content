@@ -1,0 +1,11 @@
+question: Apa tujuan dari penerapan 2FA?
+answer: Untuk melindungi akun online Anda dari akses tidak sah.
+wrong_answers:
+  - Untuk membuat Anda lebih sulit mengakses akun Anda sendiri
+  - Untuk melacak aktivitas online Anda
+  - Untuk meningkatkan kecepatan koneksi internet Anda
+explanation: |
+  2FA menambahkan lapisan keamanan tambahan pada akun online Anda. Bahkan jika
+  seorang peretas mendapatkan kata sandi Anda, mereka tidak akan dapat mengakses akun Anda tanpa
+  faktor verifikasi kedua.
+reviewed: false

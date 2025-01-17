@@ -1,9 +1,13 @@
-question: Como o protocolo Bitcoin garante sua impossibilidade de censura e interrupção?
-answer: Cada componente do protocolo é distribuído geograficamente em todo o mundo.
+question: Como o protocolo Bitcoin garante sua resistência à censura e resiliência?
+answer: Cada componente do protocolo é distribuído geograficamente por todo o globo.
 wrong_answers:
-  - Ele usa uma rede descentralizada de nós.
-  - Ele usa um algoritmo complexo para validar transações.
-  - Ele usa um alto nível de criptografia.
+  - Utiliza uma rede local de nós distribuídos na Europa.
+  - Utiliza um algoritmo complexo para validar transações.
+  - Utiliza um alto nível de criptografia.
 explanation: |
-  O protocolo Bitcoin garante sua impossibilidade de censura e interrupção porque cada componente do protocolo é distribuído geograficamente em todo o mundo. Por exemplo, existem aproximadamente 40.000 nós Bitcoin em todos os continentes.
-reviewed: false
+  O protocolo Bitcoin garante sua resistência à censura e
+  resiliência porque cada componente do protocolo é
+  distribuído geograficamente por todo o mundo. Por exemplo,
+  existem aproximadamente 40.000 nós de Bitcoin em todos os
+  continentes.
+reviewed: true

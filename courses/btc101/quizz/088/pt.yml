@@ -1,9 +1,12 @@
-question: Qual é o principal risco de usar um serviço custodial para armazenar seus bitcoins?
+question: Qual é o principal risco de usar um serviço de custódia para armazenar seus bitcoins?
 answer: A terceira parte confiável pode restringir seu acesso aos seus fundos a qualquer momento.
 wrong_answers:
   - A terceira parte confiável pode aumentar o valor dos seus bitcoins a qualquer momento.
   - A terceira parte confiável pode diminuir o valor dos seus bitcoins a qualquer momento.
   - A terceira parte confiável não pode duplicar seus bitcoins a qualquer momento.
-explanation: |
-  Quando você usa um serviço custodial para armazenar seus bitcoins, você não é o único detentor dos seus bitcoins. Isso significa que a terceira parte confiável pode restringir seu acesso aos seus fundos a qualquer momento, dando a você o mesmo nível de soberania financeira do sistema bancário tradicional.
-reviewed: false
+explanation: >-
+  Quando você usa um serviço de custódia para armazenar seus bitcoins, você não é
+  o único detentor dos seus bitcoins. Isso significa que a terceira parte confiável pode restringir
+  seu acesso aos seus fundos a qualquer momento, dando-lhe o mesmo nível de soberania financeira
+  que o sistema bancário tradicional.
+reviewed: true

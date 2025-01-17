@@ -1,900 +1,0 @@
-Converting ../../../resources/builders/bitcoin-atlantis/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin-atlantis_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin-atlantis_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  2.72obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  5.44obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin-atlantis_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/bitcoin-atlantis/cs.yml
-Converting ../../../resources/builders/btc-tlv/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_btc-tlv_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_btc-tlv_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  3.17obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  6.33obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_btc-tlv_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/btc-tlv/cs.yml
-Converting ../../../resources/builders/bitcoin++/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin++_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin++_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  3.02obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  6.03obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin++_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/bitcoin++/cs.yml
-Converting ../../../resources/builders/bitcoin-beach/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin-beach_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin-beach_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  1.81obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  3.63obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin-beach_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/bitcoin-beach/cs.yml
-Converting ../../../resources/builders/diamond-hands/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_diamond-hands_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_diamond-hands_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  2.34obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  4.68obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_diamond-hands_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/diamond-hands/cs.yml
-Converting ../../../resources/builders/phneep/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_phneep_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_phneep_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  2.01obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  4.02obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_phneep_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/phneep/cs.yml
-Converting ../../../resources/builders/tab-conf/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_tab-conf_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_tab-conf_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  3.29obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  6.58obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_tab-conf_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/tab-conf/cs.yml
-Converting ../../../resources/builders/speed-wallet/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_speed-wallet_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_speed-wallet_en.yml_cs.json
-Translating:   0%|          | 0/1 [00:00<?, ?obj/s]Translating: 100%|██████████| 1/1 [00:00<00:00, 28339.89obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_speed-wallet_en.yml_cs.json
-Processed 1 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/speed-wallet/cs.yml
-Converting ../../../resources/builders/entropy/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_entropy_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_entropy_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  3.57obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  7.12obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_entropy_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/entropy/cs.yml
-Converting ../../../resources/builders/anil-saidso/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_anil-saidso_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_anil-saidso_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  4.85obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  9.68obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_anil-saidso_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/anil-saidso/cs.yml
-Converting ../../../resources/builders/bitcoin-house-bali/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin-house-bali_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin-house-bali_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  2.64obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  5.28obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin-house-bali_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/bitcoin-house-bali/cs.yml
-Converting ../../../resources/builders/adopting-bitcoin/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_adopting-bitcoin_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_adopting-bitcoin_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  3.28obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  6.55obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_adopting-bitcoin_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/adopting-bitcoin/cs.yml
-Converting ../../../resources/builders/die-bitcoin-konferenz/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_die-bitcoin-konferenz_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_die-bitcoin-konferenz_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  5.17obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00, 10.31obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_die-bitcoin-konferenz_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/die-bitcoin-konferenz/cs.yml
-Converting ../../../resources/builders/learning-bitcoin/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_learning-bitcoin_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_learning-bitcoin_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  4.35obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  8.68obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_learning-bitcoin_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/learning-bitcoin/cs.yml
-Converting ../../../resources/builders/school-bitcoin/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_school-bitcoin_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_school-bitcoin_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  1.66obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  3.32obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_school-bitcoin_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/school-bitcoin/cs.yml
-Converting ../../../resources/builders/bitcoin-tokyo/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin-tokyo_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin-tokyo_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  3.98obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  7.94obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcoin-tokyo_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/bitcoin-tokyo/cs.yml
-Converting ../../../resources/builders/the-bitcoin-conference/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_the-bitcoin-conference_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_the-bitcoin-conference_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  4.50obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  8.98obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_the-bitcoin-conference_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/the-bitcoin-conference/cs.yml
-Converting ../../../resources/builders/area-bitcoin/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_area-bitcoin_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_area-bitcoin_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  3.31obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  6.60obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_area-bitcoin_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/area-bitcoin/cs.yml
-Converting ../../../resources/builders/node-nation/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_node-nation_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_node-nation_en.yml_cs.json
-Translating:   0%|          | 0/3 [00:00<?, ?obj/s]Translating:  33%|███▎      | 1/3 [00:00<00:00,  2.24obj/s]Translating: 100%|██████████| 3/3 [00:00<00:00,  6.71obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_node-nation_en.yml_cs.json
-Processed 3 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/node-nation/cs.yml
-Converting ../../../resources/builders/bitcare-forum/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcare-forum_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcare-forum_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  3.35obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  6.69obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_bitcare-forum_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/bitcare-forum/cs.yml
-Converting ../../../resources/builders/4nk-academy/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_4nk-academy_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_4nk-academy_en.yml_cs.json
-Translating:   0%|          | 0/2 [00:00<?, ?obj/s]Translating:  50%|█████     | 1/2 [00:00<00:00,  1.33obj/s]Translating: 100%|██████████| 2/2 [00:00<00:00,  2.66obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_builders_4nk-academy_en.yml_cs.json
-Processed 2 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/builders/4nk-academy/cs.yml
-Converting ../../../resources/books/energy-and-civilization/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_energy-and-civilization_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_energy-and-civilization_en.yml_cs.json
-Translating:   0%|          | 0/6 [00:00<?, ?obj/s]Translating:  17%|█▋        | 1/6 [00:00<00:01,  4.83obj/s]Translating: 100%|██████████| 6/6 [00:00<00:00, 28.95obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_energy-and-civilization_en.yml_cs.json
-Processed 6 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/books/energy-and-civilization/cs.yml
-Converting ../../../resources/books/braiins-separation-state/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-separation-state_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-separation-state_en.yml_cs.json
-Translating:   0%|          | 0/7 [00:00<?, ?obj/s]Translating:  14%|█▍        | 1/7 [00:00<00:01,  4.87obj/s]Translating:  71%|███████▏  | 5/7 [00:00<00:00, 11.97obj/s]Translating: 100%|██████████| 7/7 [00:00<00:00, 15.40obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-separation-state_en.yml_cs.json
-Processed 7 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/books/braiins-separation-state/cs.yml
-Converting ../../../resources/books/braiins-mining-handbook/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-mining-handbook_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-mining-handbook_en.yml_cs.json
-Translating:   0%|          | 0/6 [00:00<?, ?obj/s]Translating:  17%|█▋        | 1/6 [00:00<00:01,  5.00obj/s]Translating:  83%|████████▎ | 5/6 [00:01<00:00,  4.28obj/s]Translating: 100%|██████████| 6/6 [00:01<00:00,  5.17obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-mining-handbook_en.yml_cs.json
-Processed 6 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/books/braiins-mining-handbook/cs.yml
-Converting ../../../resources/books/energy/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_energy_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_energy_en.yml_cs.json
-Translating:   0%|          | 0/6 [00:00<?, ?obj/s]Translating:  17%|█▋        | 1/6 [00:00<00:00,  5.23obj/s]Translating: 100%|██████████| 6/6 [00:00<00:00, 31.30obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_energy_en.yml_cs.json
-Processed 6 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/books/energy/cs.yml
-Converting ../../../resources/books/braiins-mining-economics/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-mining-economics_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-mining-economics_en.yml_cs.json
-Translating:   0%|          | 0/6 [00:00<?, ?obj/s]Translating:  17%|█▋        | 1/6 [00:00<00:01,  4.89obj/s]Translating:  83%|████████▎ | 5/6 [00:01<00:00,  2.92obj/s]Translating: 100%|██████████| 6/6 [00:01<00:00,  3.59obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-mining-economics_en.yml_cs.json
-Processed 6 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/books/braiins-mining-economics/cs.yml
-Converting ../../../resources/books/pueblo-bitcoin/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_pueblo-bitcoin_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_pueblo-bitcoin_en.yml_cs.json
-Translating:   0%|          | 0/10 [00:00<?, ?obj/s]Translating:  10%|█         | 1/10 [00:00<00:01,  4.77obj/s]Translating:  50%|█████     | 5/10 [00:00<00:00, 13.79obj/s]Translating: 100%|██████████| 10/10 [00:00<00:00, 24.74obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_pueblo-bitcoin_en.yml_cs.json
-Processed 10 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/books/pueblo-bitcoin/cs.yml
-Converting ../../../resources/books/braiins-bitcoin-mining-glossary/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-bitcoin-mining-glossary_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-bitcoin-mining-glossary_en.yml_cs.json
-Translating:   0%|          | 0/6 [00:00<?, ?obj/s]Translating:  17%|█▋        | 1/6 [00:00<00:01,  4.77obj/s]Translating:  83%|████████▎ | 5/6 [00:00<00:00,  6.06obj/s]Translating: 100%|██████████| 6/6 [00:00<00:00,  7.16obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-bitcoin-mining-glossary_en.yml_cs.json
-Processed 6 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/books/braiins-bitcoin-mining-glossary/cs.yml
-Converting ../../../resources/books/braiins-bitcoin-rust/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-bitcoin-rust_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-bitcoin-rust_en.yml_cs.json
-Translating:   0%|          | 0/6 [00:00<?, ?obj/s]Translating:  17%|█▋        | 1/6 [00:00<00:01,  4.98obj/s]Translating:  83%|████████▎ | 5/6 [00:00<00:00,  6.51obj/s]Translating: 100%|██████████| 6/6 [00:00<00:00,  7.66obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_braiins-bitcoin-rust_en.yml_cs.json
-Processed 6 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/books/braiins-bitcoin-rust/cs.yml
-Converting ../../../resources/books/end-the-fed/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_end-the-fed_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_end-the-fed_en.yml_cs.json
-Translating:   0%|          | 0/6 [00:00<?, ?obj/s]Translating:  17%|█▋        | 1/6 [00:00<00:01,  4.17obj/s]Translating:  83%|████████▎ | 5/6 [00:00<00:00, 12.21obj/s]Translating: 100%|██████████| 6/6 [00:00<00:00, 13.12obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_end-the-fed_en.yml_cs.json
-Processed 6 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/books/end-the-fed/cs.yml
-Converting ../../../resources/books/21-pensieri-dal-villaggio-bitcoin/en.yml to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_21-pensieri-dal-villaggio-bitcoin_en.yml.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_21-pensieri-dal-villaggio-bitcoin_en.yml_cs.json
-Translating:   0%|          | 0/6 [00:00<?, ?obj/s]Translating:  17%|█▋        | 1/6 [00:00<00:01,  3.99obj/s]Translating:  83%|████████▎ | 5/6 [00:00<00:00,  5.87obj/s]Translating: 100%|██████████| 6/6 [00:00<00:00,  6.84obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_books_21-pensieri-dal-villaggio-bitcoin_en.yml_cs.json
-Processed 6 objects
-Converting back to yml...
-Translation completed successfully. Output saved to: ../../../resources/books/21-pensieri-dal-villaggio-bitcoin/cs.yml
-Converting ../../../resources/glossary/clone/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_clone_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_clone_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  8.06obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  7.97obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  7.97obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_clone_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/clone/cs.md
-Converting ../../../resources/glossary/activation-method/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_activation-method_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_activation-method_en.md_cs.json
-Translating:   0%|          | 0/7 [00:00<?, ?obj/s]Translating:  29%|██▊       | 2/7 [00:00<00:02,  2.39obj/s]Translating:  57%|█████▋    | 4/7 [00:01<00:00,  3.57obj/s]Translating:  71%|███████▏  | 5/7 [00:01<00:00,  2.76obj/s]Translating:  86%|████████▌ | 6/7 [00:01<00:00,  3.08obj/s]Translating: 100%|██████████| 7/7 [00:02<00:00,  3.27obj/s]Translating: 100%|██████████| 7/7 [00:02<00:00,  3.10obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_activation-method_en.md_cs.json
-Processed 7 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/activation-method/cs.md
-Converting ../../../resources/glossary/vin/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_vin_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_vin_en.md_cs.json
-Translating:   0%|          | 0/9 [00:00<?, ?obj/s]Translating:  22%|██▏       | 2/9 [00:00<00:01,  5.43obj/s]Translating:  44%|████▍     | 4/9 [00:00<00:00,  5.97obj/s]Translating:  56%|█████▌    | 5/9 [00:00<00:00,  4.98obj/s]Translating:  67%|██████▋   | 6/9 [00:01<00:00,  5.51obj/s]Translating:  78%|███████▊  | 7/9 [00:01<00:00,  4.08obj/s]Translating:  89%|████████▉ | 8/9 [00:01<00:00,  3.98obj/s]Translating: 100%|██████████| 9/9 [00:02<00:00,  3.19obj/s]Translating: 100%|██████████| 9/9 [00:02<00:00,  4.06obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_vin_en.md_cs.json
-Processed 9 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/vin/cs.md
-Converting ../../../resources/glossary/coinshuffle/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_coinshuffle_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_coinshuffle_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  7.14obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  8.59obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  8.33obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_coinshuffle_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/coinshuffle/cs.md
-Converting ../../../resources/glossary/transaction-witness/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_transaction-witness_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_transaction-witness_en.md_cs.json
-Translating:   0%|          | 0/6 [00:00<?, ?obj/s]Translating:  33%|███▎      | 2/6 [00:00<00:00,  9.84obj/s]Translating:  67%|██████▋   | 4/6 [00:00<00:00, 10.08obj/s]Translating: 100%|██████████| 6/6 [00:00<00:00,  7.63obj/s]Translating: 100%|██████████| 6/6 [00:00<00:00,  8.15obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_transaction-witness_en.md_cs.json
-Processed 6 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/transaction-witness/cs.md
-Converting ../../../resources/glossary/p2sh/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_p2sh_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_p2sh_en.md_cs.json
-Translating:   0%|          | 0/6 [00:00<?, ?obj/s]Translating:  33%|███▎      | 2/6 [00:00<00:00, 10.28obj/s]Translating:  67%|██████▋   | 4/6 [00:00<00:00, 10.31obj/s]Translating: 100%|██████████| 6/6 [00:00<00:00,  6.44obj/s]Translating: 100%|██████████| 6/6 [00:00<00:00,  7.16obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_p2sh_en.md_cs.json
-Processed 6 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/p2sh/cs.md
-Converting ../../../resources/glossary/bitcoin-implementation/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bitcoin-implementation_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bitcoin-implementation_en.md_cs.json
-Translating:   0%|          | 0/5 [00:00<?, ?obj/s]Translating:  40%|████      | 2/5 [00:00<00:00,  9.79obj/s]Translating:  80%|████████  | 4/5 [00:00<00:00,  9.30obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  8.07obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  8.47obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bitcoin-implementation_en.md_cs.json
-Processed 5 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/bitcoin-implementation/cs.md
-Converting ../../../resources/glossary/mit-x11/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_mit-x11_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_mit-x11_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00, 10.16obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  9.93obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  9.95obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_mit-x11_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/mit-x11/cs.md
-Converting ../../../resources/glossary/taproot-assets-protocol/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_taproot-assets-protocol_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_taproot-assets-protocol_en.md_cs.json
-Translating:   0%|          | 0/5 [00:00<?, ?obj/s]Translating:  40%|████      | 2/5 [00:00<00:00,  8.87obj/s]Translating:  80%|████████  | 4/5 [00:00<00:00,  9.44obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  9.14obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  9.16obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_taproot-assets-protocol_en.md_cs.json
-Processed 5 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/taproot-assets-protocol/cs.md
-Converting ../../../resources/glossary/elliptic-curve/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_elliptic-curve_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_elliptic-curve_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  8.56obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  8.31obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  8.34obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_elliptic-curve_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/elliptic-curve/cs.md
-Converting ../../../resources/glossary/largest-output/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_largest-output_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_largest-output_en.md_cs.json
-Translating:   0%|          | 0/5 [00:00<?, ?obj/s]Translating:  40%|████      | 2/5 [00:00<00:00, 10.59obj/s]Translating:  80%|████████  | 4/5 [00:00<00:00, 10.12obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00, 12.71obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_largest-output_en.md_cs.json
-Processed 5 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/largest-output/cs.md
-Converting ../../../resources/glossary/transaction-tx/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_transaction-tx_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_transaction-tx_en.md_cs.json
-Translating:   0%|          | 0/5 [00:00<?, ?obj/s]Translating:  40%|████      | 2/5 [00:00<00:00,  9.42obj/s]Translating:  80%|████████  | 4/5 [00:00<00:00,  7.89obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  6.32obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  6.87obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_transaction-tx_en.md_cs.json
-Processed 5 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/transaction-tx/cs.md
-Converting ../../../resources/glossary/sharedcoin/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_sharedcoin_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_sharedcoin_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  7.99obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  8.68obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  8.56obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_sharedcoin_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/sharedcoin/cs.md
-Converting ../../../resources/glossary/gnu/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_gnu_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_gnu_en.md_cs.json
-Translating:   0%|          | 0/5 [00:00<?, ?obj/s]Translating:  40%|████      | 2/5 [00:00<00:00,  9.19obj/s]Translating:  80%|████████  | 4/5 [00:00<00:00,  9.40obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  7.43obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  7.94obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_gnu_en.md_cs.json
-Processed 5 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/gnu/cs.md
-Converting ../../../resources/glossary/xor/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_xor_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_xor_en.md_cs.json
-Translating:   0%|          | 0/25 [00:00<?, ?obj/s]Translating:   8%|▊         | 2/25 [00:00<00:02,  9.82obj/s]Translating:  16%|█▌        | 4/25 [00:00<00:02,  8.32obj/s]Translating:  28%|██▊       | 7/25 [00:00<00:01, 12.97obj/s]Translating:  40%|████      | 10/25 [00:00<00:00, 15.82obj/s]Translating:  48%|████▊     | 12/25 [00:00<00:01, 12.20obj/s]Translating:  56%|█████▌    | 14/25 [00:01<00:01, 10.10obj/s]Translating:  64%|██████▍   | 16/25 [00:01<00:00,  9.58obj/s]Translating:  72%|███████▏  | 18/25 [00:01<00:00,  9.78obj/s]Translating:  80%|████████  | 20/25 [00:02<00:00,  8.28obj/s]Translating:  84%|████████▍ | 21/25 [00:02<00:00,  7.31obj/s]Translating:  88%|████████▊ | 22/25 [00:02<00:00,  7.17obj/s]Translating:  92%|█████████▏| 23/25 [00:02<00:00,  7.53obj/s]Translating:  96%|█████████▌| 24/25 [00:02<00:00,  7.25obj/s]Translating: 100%|██████████| 25/25 [00:02<00:00,  6.77obj/s]Translating: 100%|██████████| 25/25 [00:02<00:00,  8.85obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_xor_en.md_cs.json
-Processed 25 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/xor/cs.md
-Converting ../../../resources/glossary/bitcoin-inquisition/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bitcoin-inquisition_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bitcoin-inquisition_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  9.12obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  9.92obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  9.78obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bitcoin-inquisition_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/bitcoin-inquisition/cs.md
-Converting ../../../resources/glossary/label-silent-payments/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_label-silent-payments_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_label-silent-payments_en.md_cs.json
-Translating:   0%|          | 0/19 [00:00<?, ?obj/s]Translating:  11%|█         | 2/19 [00:00<00:01, 10.24obj/s]Translating:  21%|██        | 4/19 [00:00<00:02,  7.34obj/s]Translating:  26%|██▋       | 5/19 [00:00<00:02,  6.93obj/s]Translating:  32%|███▏      | 6/19 [00:00<00:01,  7.56obj/s]Translating:  37%|███▋      | 7/19 [00:00<00:01,  6.69obj/s]Translating:  42%|████▏     | 8/19 [00:01<00:01,  6.83obj/s]Translating:  47%|████▋     | 9/19 [00:01<00:01,  7.11obj/s]Translating:  53%|█████▎    | 10/19 [00:01<00:02,  4.21obj/s]Translating:  58%|█████▊    | 11/19 [00:02<00:02,  3.68obj/s]Translating:  63%|██████▎   | 12/19 [00:02<00:01,  3.75obj/s]Translating:  68%|██████▊   | 13/19 [00:02<00:01,  3.76obj/s]Translating:  74%|███████▎  | 14/19 [00:02<00:01,  3.93obj/s]Translating:  79%|███████▉  | 15/19 [00:02<00:00,  4.41obj/s]Translating:  89%|████████▉ | 17/19 [00:03<00:00,  5.40obj/s]Translating:  95%|█████████▍| 18/19 [00:03<00:00,  4.28obj/s]Translating: 100%|██████████| 19/19 [00:03<00:00,  4.43obj/s]Translating: 100%|██████████| 19/19 [00:03<00:00,  4.96obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_label-silent-payments_en.md_cs.json
-Processed 19 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/label-silent-payments/cs.md
-Converting ../../../resources/glossary/covenant/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_covenant_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_covenant_en.md_cs.json
-Translating:   0%|          | 0/10 [00:00<?, ?obj/s]Translating:  20%|██        | 2/10 [00:00<00:00, 10.11obj/s]Translating:  40%|████      | 4/10 [00:00<00:00,  7.35obj/s]Translating:  60%|██████    | 6/10 [00:00<00:00,  8.73obj/s]Translating:  70%|███████   | 7/10 [00:00<00:00,  7.98obj/s]Translating:  80%|████████  | 8/10 [00:01<00:00,  5.39obj/s]Translating:  90%|█████████ | 9/10 [00:01<00:00,  5.34obj/s]Translating: 100%|██████████| 10/10 [00:01<00:00,  5.20obj/s]Translating: 100%|██████████| 10/10 [00:01<00:00,  6.20obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_covenant_en.md_cs.json
-Processed 10 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/covenant/cs.md
-Converting ../../../resources/glossary/op-true-0x51/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_op-true-0x51_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_op-true-0x51_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  9.18obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 13.34obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_op-true-0x51_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/op-true-0x51/cs.md
-Converting ../../../resources/glossary/asmap/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_asmap_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_asmap_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  6.04obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  7.23obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  7.01obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_asmap_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/asmap/cs.md
-Converting ../../../resources/glossary/bitcoin-unlimited/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bitcoin-unlimited_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bitcoin-unlimited_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  9.87obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 10.19obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 10.13obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bitcoin-unlimited_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/bitcoin-unlimited/cs.md
-Converting ../../../resources/glossary/zeroconf/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_zeroconf_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_zeroconf_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  9.17obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  9.07obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  9.07obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_zeroconf_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/zeroconf/cs.md
-Converting ../../../resources/glossary/sighash-anyprevoutanyscript/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_sighash-anyprevoutanyscript_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_sighash-anyprevoutanyscript_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  8.91obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 10.91obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 10.54obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_sighash-anyprevoutanyscript_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/sighash-anyprevoutanyscript/cs.md
-Converting ../../../resources/glossary/bolt/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bolt_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bolt_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00, 10.02obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  7.54obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  7.82obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bolt_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/bolt/cs.md
-Converting ../../../resources/glossary/op-depth-0x74/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_op-depth-0x74_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_op-depth-0x74_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00, 10.27obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  9.69obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  9.76obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_op-depth-0x74_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/op-depth-0x74/cs.md
-Converting ../../../resources/glossary/op-fromaltstack-0x6c/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_op-fromaltstack-0x6c_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_op-fromaltstack-0x6c_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  9.28obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 10.38obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 10.19obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_op-fromaltstack-0x6c_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/op-fromaltstack-0x6c/cs.md
-Converting ../../../resources/glossary/eltoo/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_eltoo_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_eltoo_en.md_cs.json
-Translating:   0%|          | 0/5 [00:00<?, ?obj/s]Translating:  40%|████      | 2/5 [00:00<00:00, 10.20obj/s]Translating:  80%|████████  | 4/5 [00:00<00:00,  8.18obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  6.44obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  7.05obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_eltoo_en.md_cs.json
-Processed 5 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/eltoo/cs.md
-Converting ../../../resources/glossary/recursive-covenant/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_recursive-covenant_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_recursive-covenant_en.md_cs.json
-Translating:   0%|          | 0/6 [00:00<?, ?obj/s]Translating:  33%|███▎      | 2/6 [00:00<00:00,  9.75obj/s]Translating:  67%|██████▋   | 4/6 [00:00<00:00,  9.46obj/s]Translating:  83%|████████▎ | 5/6 [00:00<00:00,  5.73obj/s]Translating: 100%|██████████| 6/6 [00:00<00:00,  5.69obj/s]Translating: 100%|██████████| 6/6 [00:00<00:00,  6.39obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_recursive-covenant_en.md_cs.json
-Processed 6 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/recursive-covenant/cs.md
-Converting ../../../resources/glossary/uprv/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_uprv_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_uprv_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  7.74obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  9.98obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  9.55obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_uprv_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/uprv/cs.md
-Converting ../../../resources/glossary/bloom-filter/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bloom-filter_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bloom-filter_en.md_cs.json
-Translating:   0%|          | 0/5 [00:00<?, ?obj/s]Translating:  40%|████      | 2/5 [00:00<00:00,  9.39obj/s]Translating:  80%|████████  | 4/5 [00:00<00:00,  8.79obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  6.75obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  7.34obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bloom-filter_en.md_cs.json
-Processed 5 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/bloom-filter/cs.md
-Converting ../../../resources/glossary/bip137/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bip137_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bip137_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00, 10.39obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  9.21obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  9.35obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bip137_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/bip137/cs.md
-Converting ../../../resources/glossary/joinmarket/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_joinmarket_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_joinmarket_en.md_cs.json
-Translating:   0%|          | 0/5 [00:00<?, ?obj/s]Translating:  40%|████      | 2/5 [00:00<00:00,  9.89obj/s]Translating:  80%|████████  | 4/5 [00:00<00:00,  9.16obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00, 11.57obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_joinmarket_en.md_cs.json
-Processed 5 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/joinmarket/cs.md
-Converting ../../../resources/glossary/eclipse-attack/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_eclipse-attack_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_eclipse-attack_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  9.80obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  7.71obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  7.96obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_eclipse-attack_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/eclipse-attack/cs.md
-Converting ../../../resources/glossary/taro/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_taro_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_taro_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  8.35obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 10.32obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  9.95obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_taro_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/taro/cs.md
-Converting ../../../resources/glossary/p2pkh/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_p2pkh_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_p2pkh_en.md_cs.json
-Translating:   0%|          | 0/5 [00:00<?, ?obj/s]Translating:  40%|████      | 2/5 [00:00<00:00,  9.94obj/s]Translating:  80%|████████  | 4/5 [00:00<00:00, 11.26obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  7.58obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_p2pkh_en.md_cs.json
-Processed 5 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/p2pkh/cs.md
-Converting ../../../resources/glossary/bip145/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bip145_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bip145_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  9.90obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 10.65obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 10.52obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bip145_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/bip145/cs.md
-Converting ../../../resources/glossary/nakamoto-satoshi/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_nakamoto-satoshi_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_nakamoto-satoshi_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  9.88obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 11.26obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 11.01obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_nakamoto-satoshi_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/nakamoto-satoshi/cs.md
-Converting ../../../resources/glossary/anchorsdat/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_anchorsdat_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_anchorsdat_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  5.66obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  6.41obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  6.28obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_anchorsdat_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/anchorsdat/cs.md
-Converting ../../../resources/glossary/nlocktime/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_nlocktime_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_nlocktime_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  8.68obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  7.84obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  7.95obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_nlocktime_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/nlocktime/cs.md
-Converting ../../../resources/glossary/scriptwitness/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_scriptwitness_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_scriptwitness_en.md_cs.json
-Translating:   0%|          | 0/5 [00:00<?, ?obj/s]Translating:  40%|████      | 2/5 [00:00<00:00,  7.55obj/s]Translating:  80%|████████  | 4/5 [00:00<00:00,  8.02obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  5.65obj/s]Translating: 100%|██████████| 5/5 [00:00<00:00,  6.21obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_scriptwitness_en.md_cs.json
-Processed 5 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/scriptwitness/cs.md
-Converting ../../../resources/glossary/nversion/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_nversion_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_nversion_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  9.14obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  7.87obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00,  8.03obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_nversion_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/nversion/cs.md
-Converting ../../../resources/glossary/bip84/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bip84_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bip84_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  8.76obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 10.42obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 10.12obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_bip84_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/bip84/cs.md
-Converting ../../../resources/glossary/ath-alltime-high/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_ath-alltime-high_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_ath-alltime-high_en.md_cs.json
-Translating:   0%|          | 0/4 [00:00<?, ?obj/s]Translating:  50%|█████     | 2/4 [00:00<00:00,  9.14obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 12.33obj/s]Translating: 100%|██████████| 4/4 [00:00<00:00, 11.70obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_ath-alltime-high_en.md_cs.json
-Processed 4 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/ath-alltime-high/cs.md
-Converting ../../../resources/glossary/magic-network/en.md to JSON...
-Translating from en to cs...
-
-Translating file:
-From: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_magic-network_en.md.json
-To: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_magic-network_en.md_cs.json
-Translating:   0%|          | 0/14 [00:00<?, ?obj/s]Translating:  14%|█▍        | 2/14 [00:00<00:01, 10.01obj/s]Translating:  29%|██▊       | 4/14 [00:00<00:01,  9.89obj/s]Translating:  57%|█████▋    | 8/14 [00:00<00:00, 15.01obj/s]Translating:  79%|███████▊  | 11/14 [00:00<00:00, 18.28obj/s]Translating: 100%|██████████| 14/14 [00:00<00:00, 17.02obj/s]Translating: 100%|██████████| 14/14 [00:00<00:00, 15.61obj/s]
-
-Translation completed: /home/datascript/repos/bitcoin-educational-content/scripts/auto-translate/json_content_conversion/cache/resources_glossary_magic-network_en.md_cs.json
-Processed 14 objects
-Converting back to md...
-Translation completed successfully. Output saved to: ../../../resources/glossary/magic-network/cs.md

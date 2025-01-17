@@ -1,0 +1,14 @@
+title: "Bitcoin Village"
+publication_year: 2023
+cover: cover_en.webp
+original: true
+description: |
+  With Bitcoin Village, the author takes us on an informative journey through this technology, exploring from the origins of money to the core of the computer protocol. He also provides reflections on the social and political impacts, defining the foundations that Bitcoin is laying for a fairer and more conscious society.
+contributors:
+  - another-satoshi
+original_language: en
+proofreading:
+  - language: en
+    urgency: 1
+    contributors_id:
+      - davidecoltro

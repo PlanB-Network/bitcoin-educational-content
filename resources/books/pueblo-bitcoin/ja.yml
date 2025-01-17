@@ -1,0 +1,14 @@
+title: "ビットコイン・ビレッジ"
+publication_year: 2023
+cover: cover_en.webp
+original: true
+description: |
+  ビットコイン・ヴィレッジ』で著者は、貨幣の起源からコンピュータ・プロトコルの核心までを探求しながら、このテクノロジーを巡る有益な旅へと私たちを誘う。また、社会的・政治的影響についても考察を加え、ビットコインがより公正で意識的な社会のために築きつつある基盤を定義している。
+contributors:
+  - another-satoshi
+original_language: en
+proofreading:
+  - language: en
+    urgency: 1
+    contributors_id:
+      - davidecoltro

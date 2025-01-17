@@ -1,0 +1,9 @@
+---
+term: TIMESTAMP
+
+---
+Tidsstempling, eller "timestamp" på engelsk, er en mekanisme som innebærer å knytte en presis tidsmarkør til en hendelse, data eller melding. I datasystemer brukes tidsstempling generelt til å fastslå den kronologiske rekkefølgen på operasjoner og til å verifisere dataintegriteten over tid.
+
+I Bitcoins spesifikke tilfelle brukes tidsstempler til å etablere kronologien til transaksjoner og blokker. Hver blokk i blokkjeden inneholder et tidsstempel som angir det omtrentlige tidspunktet da den ble opprettet. Satoshi Nakamoto snakker til og med om en "tidsstempelserver" i hvitboken sin, for å beskrive det vi i dag ville kalt "blokkjeden" Tidsstemplingens rolle i Bitcoin er å bestemme kronologien til transaksjoner, for å bestemme, uten inngripen fra en sentral myndighet, hvilken transaksjon som kom først. Denne mekanismen gjør det mulig for hver bruker å verifisere at en transaksjon ikke har eksistert tidligere, og dermed forhindre at en ondsinnet bruker utfører et dobbeltforbruk. Denne mekanismen begrunnes av Satoshi Nakamoto i hans White Paper med den berømte setningen: "* Den eneste måten å bekrefte fraværet av en transaksjon er å være klar over alle transaksjoner.*" Denne standarden er etablert på Unix-tid, som representerer det totale antall sekunder som har gått siden 1. januar 1970.
+
+> tidsstemplingen av blokker i Bitcoin er relativt fleksibel, ettersom et tidsstempel bare må være større enn medianen av de 11 foregående blokkene (MTP) og mindre enn medianen av tidene som nodene returnerer (nettverksjustert tid) pluss 2 timer for at det skal anses som gyldig

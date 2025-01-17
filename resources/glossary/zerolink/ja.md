@@ -1,0 +1,5 @@
+---
+用語ゼロリンク
+
+---
+高度なミキシング技術により、別々のコインセット間のリンクをすべて断ち切ることを目的としたChaumianコインジョインプロトコル。ZeroLinkプロトコルの特徴は、様々な形態のトランザクションやネットワークレベルのチェーン分析からユーザーの匿名性を保護できることです。ZeroLinkは、プレミックスとポストミックスの分離されたアカウントと、独自のミキシング技術であるChaumian coinjoinを使用したコインジョインウォレットのフレームワークを導入しています。現在までのところ、ZeroLinkコインジョイントの唯一の実装はWhirlpoolで、Samourai WalletとSparrow Walletで利用可能です。このプロトコルは[2017年にnopara73とTDevDによって導入された](https://github.com/nopara73/ZeroLink/blob/master/README.md)。

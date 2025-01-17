@@ -1,0 +1,8 @@
+title: "Meisterdamine välk"
+publication_year: 2020
+cover: cover_en.webp
+original: true
+description: |
+  andreas M. Antonopoulose ja René Pickhardti "Mastering Lightning" on keskastme raamat Lightning Networkist, Bitcoini 2. kihi skaalalahendusest. Raamatus käsitletakse Lightning Networki toimimise tehnilisi üksikasju ning selle võimalikku mõju Bitcoini skaleeritavusele ja privaatsusele. Autorid annavad samm-sammult juhiseid, kuidas luua Lightning-sõlme ja kasutada Lightning-taskuid, ning arutavad ka tehnoloogia sotsiaalseid ja majanduslikke mõjusid. Kokkuvõttes on raamat väärtuslik allikas kõigile, kes on huvitatud Lightning-võrgustiku ja selle rolli mõistmisest Bitcoini tulevikus.
+contributors:
+  - rabbit-hole

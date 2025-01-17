@@ -1,0 +1,5 @@
+---
+term: SHA256
+
+---
+Forkortelse for "*Secure Hash Algorithm 256 bits*". Det er en kryptografisk hash-funksjon som produserer et 256-biters sammendrag. Den ble utviklet av *National Security Agency* (NSA) på begynnelsen av 2000-tallet, og har blitt en føderal standard for behandling av sensitive data. I Bitcoin-protokollen er `SHA256`-funksjonen allestedsnærværende. Den brukes til å hashe blokkoverskrifter som en del av beviset på arbeidet. sHA256 brukes også i prosessen med å utlede en mottakeradresse fra en offentlig nøkkel. Den brukes i tillegg til aggregering av transaksjoner og vitner i Merkle-trær i blokker. sHA256 brukes også i beregningen av nøkkelfingeravtrykk, beregningen av visse sjekksummer og i mange andre prosesser rundt Bitcoin. Når den brukes to ganger etter hverandre, kalles den `HASH256`. Denne doble anvendelsen er den som hovedsakelig brukes på Bitcoin. Når `SHA256` brukes sammen med `RIPEMD160`-funksjonen, kalles den `HASH160`. Denne doble hashingen brukes til fingeravtrykk av nøkler og til hashing av offentlige nøkler. `SHA256`-funksjonen er en del av SHA 2-familien.

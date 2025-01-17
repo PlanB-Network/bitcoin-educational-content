@@ -1,0 +1,5 @@
+---
+term: BIP9
+
+---
+Method for activating soft forks on Bitcoin proposed in 2015. It introduces a system where miners signal their support for a soft fork by using a specific bit in the version field of blocks. A soft fork proposed under BIP9 is activated if 95% of the blocks over a period of 2016 blocks (approximately two weeks, coinciding with each difficulty adjustment) signal their approval. After this lock-in, a grace period is given for miners to prepare for the update before its activation. If the 95% threshold is not reached within the maximum allotted time, the soft fork is abandoned. BIP9 allows for the signaling of multiple soft forks simultaneously but gives considerable power to miners, as if the required threshold is not met, the soft fork is simply abandoned. This method was initially used for SegWit, before BIP148, which suggests the use of a UASF, came into play and forced the lock-in via BIP91.

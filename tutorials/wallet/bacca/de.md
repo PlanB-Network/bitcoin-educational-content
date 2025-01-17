@@ -99,8 +99,11 @@ Sie haben nun Zugriff auf die Softwareoberfläche.
 Wenn Ihr Ledger neu ist, müssen Sie zunächst den PIN-Code einrichten und die Wiederherstellungsphrase speichern. Für diese ersten Schritte benötigen Sie Ledger Live nicht. Schließen Sie Ihren Ledger einfach über das USB-Kabel an, um ihn mit Strom zu versorgen. Wenn Sie sich nicht sicher sind, wie Sie mit diesen beiden Schritten vorgehen sollen, können Sie am Anfang der Anleitung für Ihr Modell nachlesen:
 
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
-https://planb.network/fr/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
-https://planb.network/fr/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
 ## Verwendung von Bacca
 
 Schließen Sie Ihren Ledger an Ihren Computer an und entsperren Sie ihn mit dem von Ihnen eingestellten PIN-Code. Bacca sollte Ihren Ledger automatisch erkennen.

@@ -1,9 +1,0 @@
-description: |
-  RGB là một giao thức để tạo ra các hợp đồng cho việc phát hành tài sản hoặc các quyền lợi chung chung khác trên nền tảng Bitcoin. Một hợp đồng xác định các quyền lợi được phát hành và các quy tắc xác thực để chuyển giao chúng cho các chủ sở hữu tương lai.
-  
-  Giao thức này áp dụng mô hình xác thực phía khách hàng, bao gồm việc giữ tất cả dữ liệu cụ thể của giao dịch ngoại tuyến, chỉ trao đổi chúng giữa người gửi và người nhận của giao dịch và sử dụng blockchain Bitcoin chỉ như một cam kết. Làm như vậy, so với các giao thức thay thế giữ tất cả logic trên chuỗi, có được lợi ích về khả năng mở rộng, bảo mật và tính mở rộng.
-  
-  Các trường hợp sử dụng ngay lập tức nhất cho RGB là phát hành tài sản có thể thay thế và tài sản sưu tầm, nhưng giao thức được tổng quát hóa đủ để cũng hỗ trợ các trường hợp sử dụng khác, như danh tính phi tập trung, DNS phi tập trung và chứng minh công bố công khai.
-  
-contributors:
-  - rabbit-hole

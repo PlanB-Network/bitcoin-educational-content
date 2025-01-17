@@ -1,9 +1,0 @@
-description: |
-  RGB on protokolla, joka mahdollistaa omaisuuserien tai laajemmin määriteltyjen oikeuksien liikkeeseenlaskun Bitcoinin päälle. Sopimus määrittelee liikkeeseen laskettavat oikeudet ja validointisäännöt, joiden avulla ne voidaan siirtää tuleville omistajille.
-  
-  Protokolla hyödyntää asiakaspuolen validointimallia, joka tarkoittaa kaiken transaktiokohtaisen datan säilyttämistä off-chain, datan vaihtamista ainoastaan lähettäjän ja vastaanottajan välillä sekä Bitcoinin lohkoketjun käyttämistä ainoastaan sitoumuksena. Näin toimimalla saavutetaan skaalautuvuus-, yksityisyys- ja laajennettavuusetuja verrattuna vaihtoehtoisiin protokolliin, jotka säilyttävät kaiken logiikan on-chain.
-  
-  RGB:n välittömimpiä käyttötapauksia ovat vaihdettavien ja keräiltävien omaisuuserien liikkeeseenlasku, mutta protokolla on riittävän yleistetty tukemaan myös muita käyttötapauksia, kuten hajautetut identiteetit, hajautettu DNS ja julkaisun todentaminen.
-  
-kontribuuttor- language: it
-  - rabbit-hole

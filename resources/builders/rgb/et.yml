@@ -1,9 +1,0 @@
-description: |
-  RGB on protokoll, mis võimaldab luua lepinguid varade väljaandmiseks või üldisemate õiguste loomiseks Bitcoin'i peal. Leping määratleb väljaantavad õigused ja valideerimisreeglid, mis võimaldavad neid tulevastele omanikele üle kanda.
-  
-  Protokoll kasutab kliendipoolset valideerimismudelit, mis seisneb kõigi tehinguspetsiifiliste andmete hoidmises väljaspool ahelat, nende vahetamises ainult tehingu saatja ja saaja vahel ning Bitcoin'i plokiahela kasutamises ainult kohustusena. Selline lähenemine võimaldab võrreldes alternatiivsete protokollidega, mis hoiavad kogu loogikat ahelas, saavutada paremat skaleeritavust, privaatsust ja laiendatavust.
-  
-  RGB kõige otsesemad kasutusjuhud on vahetatavate ja kogutavate varade väljaandmine, kuid protokoll on piisavalt üldistatud, et toetada ka muid kasutusjuhte, nagu detsentraliseeritud identiteedid, detsentraliseeritud DNS ja avaldamise tõendamine.
-  
-contributors:
-  - rabbit-hole

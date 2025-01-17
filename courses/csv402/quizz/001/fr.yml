@@ -1,0 +1,9 @@
+question: Quelle est une caractéristique essentielle des single use seals utilisés dans RGB ?
+answer: Ils ne peuvent être fermés qu'une seule fois
+wrong_answers:
+  - Ils ne peuvent être fermés que deux fois
+  - Ils garantissent la confidentialité des transactions
+  - Ils éliminent le besoin de consensus sur la blockchain
+explanation: |
+  Les single use seals permettent de créer des engagements cryptographiques uniques, empêchant toute duplication ou double dépense.
+reviewed: false

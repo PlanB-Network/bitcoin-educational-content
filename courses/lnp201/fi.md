@@ -982,7 +982,7 @@ Olemme nähneet, että likviditeetin hallinta on haaste Lightning-verkossa maksu
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## Arvioi tämä kurssi
+## Arviot & Arvosanat
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -995,41 +995,4 @@ Olemme nähneet, että likviditeetin hallinta on haaste Lightning-verkossa maksu
 ## Yhteenveto
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-Onnittelut! 🎉
-
-Olet suorittanut LNP 201 -koulutuksen - Johdatus Lightning Networkiin!
-
-Voit olla ylpeä itsestäsi, sillä tämä ei ole helppo aihe.
-
-Harvat ihmiset sukeltavat näin syvälle Bitcoinin kaninkäytävään.
-
-Suuri kiitos **Fanis Michalakisille** tästä erinomaisesta ilmaisesta kurssista Lightning Networkin teknisestä toiminnasta.
-
-Seuraa häntä [Twitterissä](https://x.com/FanisMichalakis), [hänen blogissaan](https://fanismichalakis.fr/) tai hänen työnsä kautta [LN Marketsissa](https://lnmarkets.com/).
-
-Nyt kun hallitset Lightning Networkin, kutsun sinut tutustumaan muihin ilmaisiin kursseihimme Plan ₿ Networkissa syventääksesi ymmärrystäsi Satoshi Nakamoton keksinnön muista näkökohdista:
-
-#### Ymmärrä, miten Bitcoin-lompakko toimii
-
-https://planb.network/courses/cyp201
-
-#### Tutustu Bitcoinin alkuperän historiaan
-
-https://planb.network/courses/his201
-
-#### Määritä BTC-maksupalvelin
-
-https://planb.network/courses/btc305
-
-#### Hallitse Bitcoinin yksityisyyden periaatteet
-
-https://planb.network/courses/btc204
-
-#### Tutustu louhinnan perusteisiin
-
-https://planb.network/courses/min201
-
-#### Opi luomaan Bitcoin-yhteisösi
-
-https://planb.network/courses/btc302
-
+<isCourseConclusion>true</isCourseConclusion>

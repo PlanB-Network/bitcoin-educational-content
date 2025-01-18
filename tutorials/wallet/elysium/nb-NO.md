@@ -86,11 +86,11 @@ Nå velger du kjeden du vil motta betaling på (Bitcoin eller Polygon), og du ka
 
 TRINN 1: Ved å trykke på "Be om betaling" ber du om en Bitcoin-betaling via Lightning Network.
 
-![requestpayment1](asset/requestpayment1)
+![requestpayment1](assets/requestpayment1.webp)
 
 Trinn 2: Angi beløpet du vil be om, velg valutaen du vil motta, og legg til en beskrivelse hvis det er nødvendig.
 
-![requestpayment2](asset/requestpayment2)
+![requestpayment2](assets/requestpayment2.webp)
 
 Merk: Det er et lite gebyr for den første Lightning Network (LN)-betalingen for å åpne LN-kanalen. Etter dette er alle påfølgende betalinger gratis.
 
@@ -168,4 +168,4 @@ Når du har sendt inn en forespørsel, vil teamet vårt svare så snart som muli
 
 Hvis du vil rapportere en feil eller gi oss tilbakemeldinger, klikker du på widgeten på hjemmesiden:
 
-[help2](assets/help2.webp)
+![help2](assets/help2.webp)

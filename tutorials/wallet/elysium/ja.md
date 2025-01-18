@@ -86,11 +86,11 @@ PassCodeを2番目のファクターとして選択した場合、PassWordを3�
 
 STEP 1: 「支払いをリクエスト」をタップすると、ライトニングネットワーク経由でのビットコイン支払いをリクエストします。
 
-![requestpayment1](asset/requestpayment1)
+![requestpayment1](assets/requestpayment1.webp)
 
 ステップ2：請求金額を入力し、受け取りたい通貨を選択し、必要であれば説明を追加します。
 
-![requestpayment2](asset/requestpayment2)
+![requestpayment2](assets/requestpayment2.webp)
 
 注：LNチャネルを開設するための最初のライトニング・ネットワーク（LN）決済には少額の手数料がかかります。それ以降はすべて無料です。
 
@@ -168,4 +168,4 @@ Elysium Walletでお困りですか？私たちがお手伝いします！
 
 バグの報告やフィードバックは、ホームページのウィジェットをクリックしてください：
 
-[ヘルプ2](assets/help2.webp)
+![ヘルプ2](assets/help2.webp)

@@ -975,7 +975,7 @@ Hyperinflation is a fascinating subject that has been studied through various hi
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-## Evaluate this course
+## Reviews & Ratings
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -988,34 +988,4 @@ Hyperinflation is a fascinating subject that has been studied through various hi
 ## Conclusion
 
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
-Congratulations on completing this course!
-
-We are delighted that you have reached this important milestone in your learning journey.
-
-Through your dedication and commitment, you have gained valuable knowledge and skills that will serve you in your professional development.
-
-To continue exploring the Bitcoin universe in depth, we invite you to discover all other courses available on Plan ₿ Network:
-
-#### Discover F. Bastiat's life with
-
-https://planb.network/courses/eco102
-
-#### Discover Austrian school economic thinking with
-
-https://planb.network/courses/eco201
-
-#### Discover Bitcoin and its fundamentals with
-
-https://planb.network/courses/btc101
-
-#### Update your online security with
-
-https://planb.network/courses/scu101
-
-#### Get and secure your first bitcoins with
-
-https://planb.network/courses/btc102
-
-#### Discover the history of Bitcoin's origins with
-
-https://planb.network/courses/his201
+<isCourseConclusion>true</isCourseConclusion>

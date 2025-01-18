@@ -1130,7 +1130,7 @@ In essence, Reagan took from Bastiat several key elements of a liberal vision of
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-## Rate this course
+## Reviews & Ratings
 
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1143,41 +1143,4 @@ In essence, Reagan took from Bastiat several key elements of a liberal vision of
 ## Conclusion
 
 <chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
-
-Congratulations on completing this journey through the life and economic thought of Frédéric Bastiat!
-
-In this course, we covered many profound and foundational topics, but it is not essential to retain every detail. The main objective was to give you the tools to understand and critically evaluate the principles of individual freedom, market harmony, and property rights as envisioned by Bastiat. His ideas on the unintended consequences of economic policies, especially his analysis of "what is seen and what is not seen," offer a powerful lens for interpreting the challenges facing economies today. If we had to highlight the most valuable aspect of this course, it would be Bastiat's insights on legal plunder and the potential misuse of the law, as it should be really important to understand the boundaries of government intervention and the importance of economic freedom.
-
-This course focused exclusively on Bastiat’s views on economic harmony and freedom within the context of his era. However, his principles remain relevant to contemporary economic debates, including discussions on protectionism, welfare, and the moral foundations of economic policy. Bastiat's ideas offer compelling arguments in favor of free trade and individual responsibility, his ideas were taken up by the Austrian School of Economics, which we will explore in another dedicated course.
-
-If you found this exploration inspiring, please share it with others and help spark more discussions around these timeless principles. Thank you for participating :)
-
-We are delighted that you have reached this important milestone in your learning journey.
-
-Through your dedication and commitment, you have gained valuable knowledge and skills that will serve you in your professional development.
-
-To continue exploring the Bitcoin universe in depth, we invite you to discover all the other courses available on Plan ₿ Network:
-
-#### Discover Bitcoin and its fundamentals with
-
-https://planb.network/courses/btc101
-
-#### Get and secure your first bitcoins with
-
-https://planb.network/courses/btc102
-
-#### Update your online security with
-
-https://planb.network/courses/scu101
-
-#### Discover the Lightning Network with
-
-https://planb.network/courses/lnp201
-
-#### Learn Austrian School economic thinking with
-
-https://planb.network/courses/eco201
-
-#### Understand Bitcoin basics and build your home heating with
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

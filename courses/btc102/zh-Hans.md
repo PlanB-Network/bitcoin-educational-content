@@ -1007,7 +1007,7 @@ _Cryptoasset Inheritance Planning, A simple guide for owners, Pamela Morgan, ESQ
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## 评价课程
+## 评价 & 评分
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1020,34 +1020,4 @@ _Cryptoasset Inheritance Planning, A simple guide for owners, Pamela Morgan, ESQ
 ## 结论
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
-恭喜您完成本课程！
-
-我们很高兴您在学习之旅中成功达到这个里程碑。通过您的dedication和参与，您获得了宝贵的知识和技能，这将对您的职业发展大有帮助。
-
-要继续深入了解比特币世界，我们邀请您探索 Plan ₿ Network 上提供的所有其他课程：
-
-#### 通过以下链接探索比特币及其基础知识
-
-https://planb.network/courses/btc101
-
-#### 通过以下链接更新您的在线安全
-
-https://planb.network/courses/scu101
-
-#### 通过以下链接探索闪电网络
-
-https://planb.network/courses/lnp201
-
-#### 通过以下链接了解奥地利经济学派
-
-https://planb.network/courses/eco201
-
-#### 通过以下链接了解比特币基础知识并建造您的家庭供暖系统
-
-https://planb.network/courses/min201
-
-#### 通过以下链接了解比特币钱包的工作原理
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

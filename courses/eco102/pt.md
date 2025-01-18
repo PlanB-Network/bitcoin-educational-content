@@ -1047,7 +1047,7 @@ Em essência, Reagan retirou de Bastiat vários elementos-chave de uma visão li
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-## Avalie este curso
+## Avaliações & Notas
 
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1060,35 +1060,4 @@ Em essência, Reagan retirou de Bastiat vários elementos-chave de uma visão li
 ## Conclusão
 
 <chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
-
-Parabéns por concluir este curso!
-
-Estamos muito felizes que você tenha alcançado este importante marco em sua jornada de aprendizado.
-
-Através da sua dedicação e compromisso, você adquiriu conhecimentos e habilidades valiosas que servirão para seu desenvolvimento profissional.
-
-Para continuar explorando em profundidade o universo Bitcoin, convidamos você a descobrir todos os outros cursos disponíveis na Plan ₿ Network:
-
-#### Descubra o Bitcoin e seus fundamentos com
-
-https://planb.network/courses/btc101
-
-#### Obtenha e proteja seus primeiros bitcoins com
-
-https://planb.network/courses/btc102
-
-#### Atualize sua segurança online com
-
-https://planb.network/courses/scu101
-
-#### Descubra a Lightning Network com
-
-https://planb.network/courses/lnp201
-
-#### Aprenda o pensamento econômico da Escola Austríaca com
-
-https://planb.network/courses/eco201
-
-#### Entenda os fundamentos do Bitcoin e construa seu aquecimento doméstico com
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

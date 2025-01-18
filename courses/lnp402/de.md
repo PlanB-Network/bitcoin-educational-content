@@ -137,17 +137,10 @@ Viel Glück bei Ihren Studien.
 
 
 
-## Bewerten Sie den Kurs
+## Bewertungen & Noten
 <chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Schlusswort
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
-
-Vielen Dank, dass Sie an diesem Kurs teilgenommen haben! Wir hoffen, er hat Ihnen gefallen.
-
-Wenn Sie weiterhin von diesem Seminar lernen möchten, empfehlen wir Ihnen, an den RGB-Kursen auf dieser Plattform teilzunehmen.
-
-Sie können auch unsere anderen Kurse überprüfen und weiterhin aus unseren zahlreichen Ressourcen lernen.
-
-Ein großes Dankeschön an Fulgur Venture für das Angebot dieses Kurses und an unsere Lehrer für ihre Teilnahme.
+<isCourseConclusion>true</isCourseConclusion>

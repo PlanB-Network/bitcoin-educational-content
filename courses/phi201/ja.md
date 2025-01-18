@@ -1327,7 +1327,7 @@ _自由の倫理_ および _国家の解剖学_ において、マレー・ロ�
 
 
 
-## コースを評価してください
+## レビュー & 評価
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1355,7 +1355,7 @@ _自由の倫理_ および _国家の解剖学_ において、マレー・ロ�
 (_経済政策: 今日と明日のための思考_、1979年)。
 # 結論
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
-## このコースを評価する
+## レビュー & 評価
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
 <isCourseReview>true</isCourseReview>
 ## 最終試験
@@ -1363,28 +1363,4 @@ _自由の倫理_ および _国家の解剖学_ において、マレー・ロ�
 <isCourseExam>true</isCourseExam>
 ## 結論
 <chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
-このコースを修了おめでとうございます！
-
-学習の道のりにおいて、この重要な節目に到達されたことを嬉しく思います。
-
-あなたの献身と努力のおかげで、専門的な成長に役立つ貴重な知識とスキルを習得されました。
-
-ビットコインの世界をさらに深く探求するために、Plan ₿ Networkで利用可能な他のすべてのコースをご覧ください：
-
-#### F. バスティアの人生について学ぶ
-https://planb.network/courses/eco102
-
-#### ビットコインとその基礎について学ぶ
-https://planb.network/courses/btc101
-
-#### ライトニングネットワークについて学ぶ
-https://planb.network/courses/lnp201
-
-#### ビットコインのプライバシーの原則を習得する
-https://planb.network/courses/btc204
-
-#### ビットコインの起源の歴史について学ぶ
-https://planb.network/courses/his201
-
-#### ビットコインウォレットの仕組みを理解する
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

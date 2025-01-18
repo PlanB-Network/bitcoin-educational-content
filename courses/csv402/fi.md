@@ -112,17 +112,10 @@ Onnea opintoihisi, ja jos tarvitset yhteydenottoa tiimiimme tai opettajiin, käy
 
 
 
-## Arvioi kurssi
+## Arviot & Arvosanat
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Loppusanat
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
-
-Kiitos osallistumisestasi Plan ₿ Networkin yhteistyössä Fulgur'Venturesin kanssa tarjoamiin RGB-kursseihin. Haluamme osoittaa kiitoksemme opettajillemme heidän tuestaan. Jos olet kiinnostunut jatkamaan työskentelyä RGB:n parissa, tässä on hyödyllinen lista resursseja, joita voit tutkia:
-
-- https://rgb.tech/
-- https://www.rgbfaq.com/
-- https://rgb.tech/docs/
-- https://www.youtube.com/LNP-BP- https://twitter.com/lnp_bp
-Kiitos ja onnea opintoihisi Plan ₿ Networkissa.
+<isCourseConclusion>true</isCourseConclusion>

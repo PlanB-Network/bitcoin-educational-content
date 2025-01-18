@@ -1639,7 +1639,7 @@ Tulevik on Helge!
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Hinda kursust
+## Hinnangud & Reitingud
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1647,35 +1647,4 @@ Tulevik on Helge!
 ## Kokkuvõte
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Õnnitleme kursuse läbimise puhul!
-
-Meil on hea meel, et oled edukalt jõudnud selle tähiseni oma õpiteel.
-
-Tänu sinu pühendumisele ja kaasatusele oled omandanud väärtuslikke teadmisi ja oskusi, mis tulevad kasuks sinu professionaalses arengus.
-
-Et süveneda veelgi enam Bitcoini maailma, kutsume sind tutvuma kõigi teiste Plan ₿ Networkis saadaolevate kursustega:
-
-#### Avasta Bitcoin ja selle põhitõed kursusega
-
-https://planb.network/courses/btc101
-
-#### Uuenda oma võrguturvalisust kursusega
-
-https://planb.network/courses/scu101
-
-#### Avasta Lightning Network kursusega
-
-https://planb.network/courses/lnp201
-
-#### Õpi Austria koolkonna majanduslikku mõtlemist kursusega
-
-https://planb.network/courses/eco201
-
-#### Avasta Bitcoini päritolu ajalugu kursusega
-
-https://planb.network/courses/his201
-
-#### Mõista hüperinflatsioonide teket kursusega
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

@@ -266,22 +266,10 @@ Adam GibsonはJoinmarketについての洞察を提供し、このCoinJoin実装
 
 
 
-## コースを評価してください
+## レビュー & 評価
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## 謝辞
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-私たちは、教育者の貢献に感謝します:
-
-- Peter Todd
-- Adam Gibson
-- Alekos Filini
-- Daniela Brozzoni
-- Ajelex
-- asi0
-- Gabriel Comte
-
-彼らの専門知識は、このコースの成功にとって非常に貴重でした。これは、2023年7月に実施されたCubo+イニシアチブの第1版に基づく最初のコースでした。この先駆的な教育旅行の一部となってくれたすべての参加者と教育者に感謝します。これは、ビットコイン開発の世界への長くて実りある旅の始まりであることを私たちは期待しています。最初のコホートとして、あなたたちの参加は将来のクラスの基準を設定しました。
-ビットコインエコシステムへの探求、学習、貢献を続けてください。ここで得られた知識は単なる出発点に過ぎません。ウサギの穴を掘り続けると、拡大し続ける機会の世界を発見するでしょう。
+<isCourseConclusion>true</isCourseConclusion>

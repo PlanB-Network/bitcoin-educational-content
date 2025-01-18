@@ -1406,7 +1406,7 @@ Hayek uskoi, että yksityisten valuuttojen vapaa markkinatalous johtaisi suuremp
 
 
 
-## Arvioi kurssi
+## Arviot & Arvosanat
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1435,7 +1435,7 @@ Kaikki, mitä tapahtuu globaalissa yhteiskunnassamme, on ideoiden tulosta. Sekä
 (_Talouspolitiikka: Ajatuksia tälle päivälle ja huomiselle_, 1979).
 # Yhteenveto
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
-## Arvioi tämä kurssi
+## Arviot & Arvosanat
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
 <isCourseReview>true</isCourseReview>
 ## Loppukoe
@@ -1443,28 +1443,4 @@ Kaikki, mitä tapahtuu globaalissa yhteiskunnassamme, on ideoiden tulosta. Sekä
 <isCourseExam>true</isCourseExam>
 ## Yhteenveto
 <chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
-Onnittelut kurssin suorittamisesta!
-
-Olemme iloisia, että olet saavuttanut tämän tärkeän virstanpylvään oppimismatkallasi.
-
-Omistautumisesi ja sitoutumisesi ansiosta olet hankkinut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
-
-Jatkaaksesi Bitcoin-maailman syvällistä tutkimista, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
-
-#### Tutustu F. Bastiatin elämään
-https://planb.network/courses/eco102
-
-#### Tutustu Bitcoiniin ja sen perusteisiin
-https://planb.network/courses/btc101
-
-#### Tutustu Lightning Networkiin
-https://planb.network/courses/lnp201
-
-#### Hallitse Bitcoinin yksityisyyden periaatteet
-https://planb.network/courses/btc204
-
-#### Tutustu Bitcoinin alkuperän historiaan
-https://planb.network/courses/his201
-
-#### Ymmärrä kuinka Bitcoin-lompakko toimii
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

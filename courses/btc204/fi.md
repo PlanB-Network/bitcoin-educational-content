@@ -3661,7 +3661,7 @@ _Tämän Silent Payments -luvun luomiseen käytin [Silent Payments -selityssivus
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-## Arvioi tämä kurssi
+## Arviot & Arvosanat
 
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -3674,41 +3674,4 @@ _Tämän Silent Payments -luvun luomiseen käytin [Silent Payments -selityssivus
 ## Yhteenveto
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
-Onnittelut Bitcoin-yksityisyyskoulutuksen suorittamisesta!
-
-Tässä koulutuksessa käsittelimme monia edistyneitä ja teknisiä aiheita, mutta kaikkia esiteltyjä työkaluja ei ole välttämätöntä käyttää. Päätavoitteena oli antaa sinulle valta valita, mitä tietoja haluat paljastaa ja mitkä haluat pitää luottamuksellisina Bitcoinin käytössäsi. Tämä ilmentää yksityisyyden suojaamisen olemusta. Tehdäksesi tietoisia valintoja siitä, mitä tietoja jakaa tai piilottaa, sinun on oltava tietoinen toimiesi seurauksista. Toivon, että tämä koulutus on auttanut sinua hankkimaan nämä tiedot.
-
-Jos minun pitäisi valita tämän koulutuksen tärkein osa, valitsisin lohkoketjuanalyysiä käsittelevän osion. Mahdollisten hyökkääjien käyttämien tekniikoiden ymmärtäminen on paras tapa suojautua niiltä. Neuvoni olisi siis käydä tämä osa huolellisesti läpi ja yrittää ymmärtää kaikki sen yksityiskohdat.
-
-Tässä koulutuksessa keskityimme yksinomaan Bitcoinin yksityisyyteen pääketjussa. Toisen tason järjestelmien, kuten Lightning Networkin ja sivuketjujen, yksityisyyskysymykset ovat myös tärkeitä ja niillä on hyvin erityisiä ominaisuuksia. Vaikka ketjun ulkopuolisten transaktioiden käyttö voi olla tehokas strategia monien tutkimiemme Bitcoinin jäljitettävyysriskien kiertämiseksi, se altistaa sinut muille riskeille, jotka on myös tärkeä tuntea. Siksi näitä aiheita käsitellään tulevassa erillisessä Plan ₿ Network -koulutuksessa.
-
-Jos pidit tästä koulutuksesta, olisin erittäin kiitollinen, jos jakaisit sen läheistesi kanssa ja sosiaalisessa mediassa. Kiitos! :)
-
-Jatkaaksesi tietojesi syventämistä Bitcoin-maailmassa, kutsumme sinut tutustumaan muihin Plan ₿ Networkissa saatavilla oleviin kursseihin, kuten:
-
-#### Ymmärrä, miten Bitcoin-lompakko toimii
-
-https://planb.network/courses/cyp201
-
-#### Opi luomaan Bitcoin-yhteisösi
-
-https://planb.network/courses/btc302
-
-#### Tutustu Bitcoinin alkuperän historiaan
-
-https://planb.network/courses/his201
-
-#### Määritä BTC-maksupalvelin
-
-https://planb.network/courses/btc305
-
-#### Tutustu Lightning Networkiin
-
-https://planb.network/courses/lnp201
-
-#### Tutustu vapauden kehitykseen aikojen saatossa
-
-https://planb.network/courses/phi201
-
-
-
+<isCourseConclusion>true</isCourseConclusion>

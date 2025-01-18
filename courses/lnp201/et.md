@@ -979,7 +979,7 @@ Oleme näinud, et likviidsuse haldamine on Lightningis väljakutse, et tagada ma
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## Hinda seda kursust
+## Hinnangud & Reitingud
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -992,41 +992,4 @@ Oleme näinud, et likviidsuse haldamine on Lightningis väljakutse, et tagada ma
 ## Kokkuvõte
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-Palju õnne! 🎉
-
-Olete läbinud LNP 201 koolituse - Sissejuhatus Lightning Network'i!
-
-Võite enda üle uhke olla, sest see pole lihtne teema.
-
-Vähesed inimesed sukelduvad nii sügavale Bitcoini küülikuauku.
-
-Suur tänu **Fanis Michalakisele** selle suurepärase tasuta kursuse eest Lightning Network'i tehnilise toimimise kohta.
-
-Jälgige teda [Twitteris](https://x.com/FanisMichalakis), [tema blogis](https://fanismichalakis.fr/) või tema töö kaudu [LN Markets'is](https://lnmarkets.com/).
-
-Nüüd, kui valdate Lightning Network'i, kutsun teid uurima meie teisi tasuta kursusi Plan ₿ Network'is, et süveneda Satoshi Nakamoto leiutise teistesse aspektidesse:
-
-#### Mõistke, kuidas Bitcoin'i rahakott töötab
-
-https://planb.network/courses/cyp201
-
-#### Avastage Bitcoin'i päritolu ajalugu
-
-https://planb.network/courses/his201
-
-#### Seadistage BTC makseserver
-
-https://planb.network/courses/btc305
-
-#### Omandage Bitcoin'i privaatsuse põhimõtted
-
-https://planb.network/courses/btc204
-
-#### Avastage kaevandamise põhitõed
-
-https://planb.network/courses/min201
-
-#### Õppige looma oma Bitcoin'i kogukonda
-
-https://planb.network/courses/btc302
-
+<isCourseConclusion>true</isCourseConclusion>

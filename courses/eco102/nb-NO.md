@@ -1038,7 +1038,7 @@ I bunn og grunn tok Reagan fra Bastiat flere nøkkelelementer av et liberalt syn
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-## Evaluer dette kurset
+## Vurderinger & Karakterer
 
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1051,35 +1051,4 @@ I bunn og grunn tok Reagan fra Bastiat flere nøkkelelementer av et liberalt syn
 ## Konklusjon
 
 <chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
-
-Gratulerer med fullført kurs!
-
-Vi er glade for at du har nådd denne viktige milepælen i din lærereise.
-
-Gjennom din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg i din profesjonelle utvikling.
-
-For å fortsette å utforske Bitcoin-universet i dybden, inviterer vi deg til å oppdage alle de andre kursene som er tilgjengelige på Plan ₿ Network:
-
-#### Oppdag Bitcoin og dens grunnleggende prinsipper med
-
-https://planb.network/courses/btc101
-
-#### Få og sikre dine første bitcoins med
-
-https://planb.network/courses/btc102
-
-#### Oppdater din nettsikkerhet med
-
-https://planb.network/courses/scu101
-
-#### Oppdag Lightning Network med
-
-https://planb.network/courses/lnp201
-
-#### Lær økonomisk tenkning fra den østerrikske skolen med
-
-https://planb.network/courses/eco201
-
-#### Forstå Bitcoin-grunnlaget og bygg din egen hjemmeoppvarming med
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

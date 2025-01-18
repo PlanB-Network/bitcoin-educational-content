@@ -1,0 +1,24 @@
+name: Bitcoin4India
+category: communities
+address_line_1:
+address_line_2:
+address_line_3: Mumbai, India
+language:
+  - en
+
+links:
+  website: https://bitcoin4india.org/
+  twitter: https://twitter.com/Bitcoin4India
+
+tags:
+  - adoption
+  - use-case
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-13
+    urgency: 1
+    contributors_id:
+      - hunt-wood
+    reward: 0

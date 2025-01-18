@@ -1409,7 +1409,7 @@ objectives:
 ![image](assets/6/img-006.webp)
 哈耶克认为，一个自由市场的私人货币体系将带来更大的货币稳定性。近50年后，比特币这样的加密货币通过提供一个去中心化的替代方案来体现哈耶克的竞争愿景，这一方案挑战了中央银行的垄断体系。比特币，其发行限额为2100万单位，是对抗通货膨胀和监管者任意性的保证。
 
-## 评估课程
+## 评价 & 评分
 
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1454,34 +1454,4 @@ objectives:
 ## 结论
 
 <chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
-恭喜您完成本课程！
-
-我们很高兴您在学习之旅中达到了这个重要的里程碑。
-
-通过您的奉献和承诺，您获得了宝贵的知识和技能，这将有助于您的职业发展。
-
-为了继续深入探索比特币的世界，我们邀请您探索 Plan ₿ Network 上提供的所有其他课程：
-
-#### 通过以下课程了解 F. 巴斯夏的生平
-
-https://planb.network/courses/eco102
-
-#### 通过以下课程了解比特币及其基础知识
-
-https://planb.network/courses/btc101
-
-#### 通过以下课程了解闪电网络
-
-https://planb.network/courses/lnp201
-
-#### 掌握比特币隐私原则
-
-https://planb.network/courses/btc204
-
-#### 通过以下课程了解比特币起源的历史
-
-https://planb.network/courses/his201
-
-#### 通过以下课程了解比特币钱包的工作原理
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

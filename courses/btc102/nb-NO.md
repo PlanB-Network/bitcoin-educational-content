@@ -1004,7 +1004,7 @@ Uansett er alle våre kurs gratis, og mange ressurser eller opplæringer er tilg
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Evaluer kurset
+## Vurderinger & Karakterer
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1017,34 +1017,4 @@ Uansett er alle våre kurs gratis, og mange ressurser eller opplæringer er tilg
 ## Konklusjon
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
-Gratulerer med fullført kurs!
-
-Vi er glade for at du har nådd denne milepælen i din læringsprosess. Gjennom din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil være nyttige i din profesjonelle utvikling.
-
-For å dykke dypere ned i Bitcoin-verdenen, inviterer vi deg til å utforske alle de andre kursene som er tilgjengelige på Plan ₿ Network:
-
-#### Oppdag Bitcoin og dens grunnprinsipper med
-
-https://planb.network/courses/btc101
-
-#### Oppdater din nettsikkerhet med
-
-https://planb.network/courses/scu101
-
-#### Oppdag Lightning Network med
-
-https://planb.network/courses/lnp201
-
-#### Lær om den østerrikske økonomiske skolen med
-
-https://planb.network/courses/eco201
-
-#### Forstå Bitcoin-grunnprinsippene og bygg din egen boligoppvarming med
-
-https://planb.network/courses/min201
-
-#### Forstå hvordan Bitcoin-lommeboken fungerer med
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

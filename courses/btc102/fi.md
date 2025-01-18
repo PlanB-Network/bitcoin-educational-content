@@ -1007,7 +1007,7 @@ Joka tapauksessa kaikki kurssimme ovat ilmaisia, ja monia resursseja tai opetuso
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Arvioi kurssi
+## Arviot & Arvosanat
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1020,34 +1020,4 @@ Joka tapauksessa kaikki kurssimme ovat ilmaisia, ja monia resursseja tai opetuso
 ## Yhteenveto
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
-Onnittelut kurssin suorittamisesta!
-
-Olemme iloisia, että olet onnistuneesti saavuttanut tämän virstanpylvään oppimismatkallasi. Omistautumisesi ja sitoutumisesi ansiosta olet saanut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
-
-Jatkaaksesi syvemmälle Bitcoinin maailmaan, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
-
-#### Tutustu Bitcoiniin ja sen perusteisiin osoitteessa
-
-https://planb.network/courses/btc101
-
-#### Päivitä verkkoturvallisuutesi osoitteessa
-
-https://planb.network/courses/scu101
-
-#### Tutustu Lightning Networkiin osoitteessa
-
-https://planb.network/courses/lnp201
-
-#### Opi Itävallan talousajattelun koulukunnasta osoitteessa
-
-https://planb.network/courses/eco201
-
-#### Ymmärrä Bitcoinin perusteet ja rakenna kotisi lämmitysjärjestelmä osoitteessa
-
-https://planb.network/courses/min201
-
-#### Ymmärrä, miten Bitcoin-lompakko toimii osoitteessa
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

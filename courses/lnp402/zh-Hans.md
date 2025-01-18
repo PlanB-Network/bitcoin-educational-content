@@ -158,18 +158,11 @@ LN托斯卡纳活动的第一周
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
 
-## 评估课程
+## 评价 & 评分
 <chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## 结语
 
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
-感谢您参加本课程！我们希望您喜欢它。
-
-如果您想继续从这个研讨会中学习，我们鼓励您参加本平台上提供的RGB课程。
-
-您也可以查看我们的其他课程，并继续利用我们众多的资源进行学习。
-
-非常感谢Fulgur Venture提供本课程，以及我们的老师们的参与。
-
+<isCourseConclusion>true</isCourseConclusion>

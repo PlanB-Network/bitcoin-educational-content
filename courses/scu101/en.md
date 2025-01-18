@@ -524,7 +524,7 @@ As part of the "Security 101" training module on Découvre Bitcoin Academy, we a
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Evaluate this course
+## Reviews & Ratings
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -537,36 +537,4 @@ As part of the "Security 101" training module on Découvre Bitcoin Academy, we a
 ## Conclusion
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-Congratulations on completing this course!
-
-We are delighted that you have successfully reached this milestone in your learning journey.
-
-Thanks to your dedication and commitment, you have acquired valuable knowledge and skills that will serve you in your professional development.
-
-To continue deepening your knowledge in the Bitcoin universe, we invite you to explore other courses available on Plan ₿ Network such as:
-
-#### Discover Bitcoin and its fundamentals with
-
-https://planb.network/courses/btc101
-
-#### Get and secure your first bitcoins with
-
-https://planb.network/courses/btc102
-
-#### Discover the Lightning network with
-
-https://planb.network/courses/lnp201
-
-#### Discover Austrian School economic thinking with
-
-https://planb.network/courses/eco201
-
-#### Discover the history of Bitcoin's origins with
-
-https://planb.network/courses/his201
-
-#### Understand how a Bitcoin wallet works with
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

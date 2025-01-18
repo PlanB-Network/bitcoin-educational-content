@@ -983,7 +983,7 @@ LNURL是一个通信协议，指定了一组旨在简化闪电网络节点与客
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## 评价本课程
+## 评价 & 评分
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -996,41 +996,4 @@ LNURL是一个通信协议，指定了一组旨在简化闪电网络节点与客
 ## 总结
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-恭喜！🎉
-
-您已完成 LNP 201 培训 - Lightning Network 入门！
-
-您可以为自己感到骄傲，因为这不是一个简单的主题。
-
-很少有人能深入比特币的兔子洞到这种程度。
-
-非常感谢 **Fanis Michalakis** 为我们提供这个关于 Lightning Network 技术运作的精彩免费课程。
-
-欢迎在 [Twitter](https://x.com/FanisMichalakis)、[他的博客](https://fanismichalakis.fr/) 或通过他在 [LN Markets](https://lnmarkets.com/) 的工作关注他。
-
-现在您已经掌握了 Lightning Network，我邀请您探索我们在 Plan ₿ Network 上的其他免费课程，以深入了解中本聪发明的其他方面：
-
-#### 了解比特币钱包如何工作
-
-https://planb.network/courses/cyp201
-
-#### 探索比特币起源的历史
-
-https://planb.network/courses/his201
-
-#### 配置 BTC 支付服务器
-
-https://planb.network/courses/btc305
-
-#### 掌握比特币中的隐私原则
-
-https://planb.network/courses/btc204
-
-#### 发现挖矿基础知识
-
-https://planb.network/courses/min201
-
-#### 学习创建您的比特币社区
-
-https://planb.network/courses/btc302
-
+<isCourseConclusion>true</isCourseConclusion>

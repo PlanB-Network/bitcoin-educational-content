@@ -1629,7 +1629,7 @@ Die Zukunft ist hell!
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Bewerten Sie den Kurs
+## Bewertungen & Noten
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1637,34 +1637,4 @@ Die Zukunft ist hell!
 ## Fazit
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-Herzlichen Glückwunsch zum Abschluss dieses Kurses!
-
-Wir freuen uns, dass Sie diesen Meilenstein in Ihrer Lernreise erfolgreich erreicht haben.
-
-Durch Ihr Engagement und Ihre Hingabe haben Sie wertvolles Wissen und Fähigkeiten erworben, die Ihnen in Ihrer beruflichen Entwicklung von Nutzen sein werden.
-
-Um noch tiefer in das Bitcoin-Universum einzutauchen, laden wir Sie ein, alle anderen verfügbaren Kurse auf Plan ₿ Network zu erkunden:
-
-#### Entdecken Sie Bitcoin und seine Grundlagen mit
-
-https://planb.network/courses/btc101
-
-#### Aktualisieren Sie Ihre Online-Sicherheit mit
-
-https://planb.network/courses/scu101
-
-#### Entdecken Sie das Lightning Network mit
-
-https://planb.network/courses/lnp201
-
-#### Lernen Sie das ökonomische Denken der Österreichischen Schule mit
-
-https://planb.network/courses/eco201
-
-#### Entdecken Sie die Geschichte der Bitcoin-Ursprünge mit
-
-https://planb.network/courses/his201
-
-#### Verstehen Sie die Entstehung von Hyperinflationen mit
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

@@ -983,7 +983,7 @@ Lightning上には、特定の流動性ニーズを持つ3つの主要なユー�
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## このコースを評価する
+## レビュー & 評価
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -996,41 +996,4 @@ Lightning上には、特定の流動性ニーズを持つ3つの主要なユー�
 ## まとめ
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-おめでとうございます！🎉
-
-LNP 201トレーニング - Lightning Networkの入門を修了しました！
-
-これは簡単なトピックではありませんので、自分を誇りに思ってください。
-
-ビットコインのウサギの穴をここまで深く探る人は少ないです。
-
-Lightning Networkの技術的な仕組みについての、この素晴らしい無料コースを提供してくれた**Fanis Michalakis**に大きな感謝を。
-
-[Twitter](https://x.com/FanisMichalakis)、[彼のブログ](https://fanismichalakis.fr/)、または[LN Markets](https://lnmarkets.com/)での彼の仕事を通じてフォローしてください。
-
-Lightning Networkをマスターした今、Satoshi Nakamotoの発明の他の側面への理解を深めるため、Plan ₿ Networkの他の無料コースもぜひ探索してください：
-
-#### ビットコインウォレットの仕組みを理解する
-
-https://planb.network/courses/cyp201
-
-#### ビットコインの起源の歴史を発見する
-
-https://planb.network/courses/his201
-
-#### BTCペイメントサーバーを設定する
-
-https://planb.network/courses/btc305
-
-#### ビットコインのプライバシー原則を習得する
-
-https://planb.network/courses/btc204
-
-#### マイニングの基礎を発見する
-
-https://planb.network/courses/min201
-
-#### ビットコインコミュニティの作り方を学ぶ
-
-https://planb.network/courses/btc302
-
+<isCourseConclusion>true</isCourseConclusion>

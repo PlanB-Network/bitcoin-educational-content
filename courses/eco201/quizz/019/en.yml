@@ -6,9 +6,12 @@ wrong_answers:
   - An individual has an inferior ability to perform certain tasks than other ones.
   - An individual has a superior ability to perform all tasks than others.
 explanation: |
-  In the context of the division of labor, comparative advantage refers
-  to the situation where an individual has a superior ability to perform certain tasks
-  than other ones. Even if the individual does not have an absolute advantage in the
-  production of any good, there will still be types of production for which the individual
-  is better than in others, and for this reason, they still have an interest in specializing.
-reviewed: false
+  In the context of the division of labor, comparative
+  advantage refers to the situation where an individual has a
+  superior ability to perform certain tasks than other ones.
+  Even if the individual does not have an absolute advantage
+  in the production of any good, there will still be types of
+  production for which the individual is better than in
+  others, and for this reason, they still have an interest in
+  specializing.
+reviewed: true

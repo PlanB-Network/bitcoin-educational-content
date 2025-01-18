@@ -981,7 +981,7 @@ Kita telah melihat bahwa manajemen likuiditas adalah tantangan di Lightning untu
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## Evaluasi kursus ini
+## Ulasan & Penilaian
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -994,41 +994,4 @@ Kita telah melihat bahwa manajemen likuiditas adalah tantangan di Lightning untu
 ## Kesimpulan
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-Selamat! 🎉
-
-Anda telah menyelesaikan pelatihan LNP 201 - Pengantar Lightning Network!
-
-Anda bisa bangga dengan diri sendiri, karena ini bukan topik yang mudah.
-
-Hanya sedikit orang yang menyelam begitu dalam ke lubang kelinci Bitcoin.
-
-Terima kasih banyak kepada **Fanis Michalakis** yang telah memberikan kursus gratis yang luar biasa ini tentang cara kerja teknis Lightning Network.
-
-Jangan ragu untuk mengikuti dia di [Twitter](https://x.com/FanisMichalakis), di [blognya](https://fanismichalakis.fr/) atau melalui karyanya di [LN Markets](https://lnmarkets.com/).
-
-Sekarang setelah Anda menguasai Lightning Network, saya mengundang Anda untuk menjelajahi kursus-kursus gratis kami lainnya di Plan ₿ Network untuk memperdalam pemahaman Anda tentang aspek-aspek lain dari penemuan Satoshi Nakamoto:
-
-#### Pahami cara kerja dompet Bitcoin dengan
-
-https://planb.network/courses/cyp201
-
-#### Temukan sejarah asal-usul Bitcoin dengan
-
-https://planb.network/courses/his201
-
-#### Konfigurasi server pembayaran BTC dengan
-
-https://planb.network/courses/btc305
-
-#### Kuasai prinsip-prinsip privasi dalam Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Temukan dasar-dasar penambangan dengan
-
-https://planb.network/courses/min201
-
-#### Pelajari cara membuat komunitas Bitcoin Anda dengan
-
-https://planb.network/courses/btc302
-
+<isCourseConclusion>true</isCourseConclusion>

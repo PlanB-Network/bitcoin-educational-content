@@ -112,17 +112,10 @@ Hodně štěstí ve vašem studiu a pokud potřebujete kontaktovat náš tým ne
 
 
 
-## Ohodnoťte kurz
+## Recenze & Hodnocení
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečné slovo
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
-
-Děkujeme za účast v kurzech RGB nabízených sítí Plan ₿ ve spolupráci s Fulgur'Ventures. Děkujeme našim učitelům za jejich podporu. Pokud máte zájem pokračovat ve své práci s RGB, zde je užitečný seznam zdrojů, které můžete prozkoumat:
-
-- https://rgb.tech/
-- https://www.rgbfaq.com/
-- https://rgb.tech/docs/
-- https://www.youtube.com/LNP-BP- https://twitter.com/lnp_bp
-Děkuji a přeji hodně štěstí ve vašem studiu na Plan ₿ Network.
+<isCourseConclusion>true</isCourseConclusion>

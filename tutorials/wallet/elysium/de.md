@@ -86,11 +86,11 @@ Wählen Sie nun die Kette aus, auf der Sie die Zahlung erhalten möchten (Bitcoi
 
 SCHRITT 1: Durch Tippen auf "Zahlung anfordern" fordern Sie eine Bitcoin-Zahlung über das Lightning Network an.
 
-![requestpayment1](asset/requestpayment1)
+![requestpayment1](assets/requestpayment1.webp)
 
 Schritt 2: Geben Sie den anzufordernden Betrag ein, wählen Sie die gewünschte Währung und fügen Sie gegebenenfalls eine Beschreibung hinzu.
 
-![requestpayment2](asset/requestpayment2)
+![requestpayment2](assets/requestpayment2.webp)
 
 Hinweis: Für die erste Lightning Network (LN)-Zahlung zur Eröffnung des LN-Kanals wird eine geringe Gebühr erhoben. Danach sind alle weiteren Zahlungen kostenlos.
 
@@ -168,4 +168,4 @@ Unser Team wird Ihnen so schnell wie möglich eine Lösung anbieten!
 
 Um einen Fehler zu melden oder uns ein Feedback zu geben, klicken Sie auf das Widget auf der Startseite:
 
-[help2](assets/help2.webp)
+![help2](assets/help2.webp)

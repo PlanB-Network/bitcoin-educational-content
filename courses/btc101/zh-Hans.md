@@ -1278,7 +1278,7 @@ https://planb.network/courses/lnp201
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-## 课程评估
+## 评价 & 评分
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1291,25 +1291,4 @@ https://planb.network/courses/lnp201
 ## 结论
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
-恭喜您完成BTC 101培训！衷心希望您喜欢这个课程，并为您打开了新的机遇之门。您的比特币探索之旅才刚刚开始，我邀请您探索Plan ₿ Network上所有其他可用的课程：
-
-#### 获取并保护您的第一笔比特币
-
-https://planb.network/courses/btc102
-
-#### 探索闪电网络
-
-https://planb.network/courses/lnp201
-
-#### 了解奥地利经济学派思想
-
-https://planb.network/courses/eco201
-
-#### 更新您的在线安全
-
-https://planb.network/courses/scu101
-
-#### 了解比特币基础知识并建造您的家庭供暖系统
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

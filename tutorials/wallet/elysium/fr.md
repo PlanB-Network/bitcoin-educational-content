@@ -86,11 +86,11 @@ Maintenant, sélectionnez la chaîne sur laquelle vous souhaitez être payé (Bi
 
 ÉTAPE 1 : En appuyant sur "Demander un paiement", vous demandez un paiement en bitcoins via le réseau Lightning.
 
-![requestpayment1](asset/requestpayment1)
+![requestpayment1](assets/requestpayment1.webp)
 
 Étape 2 : Saisissez le montant que vous souhaitez demander, sélectionnez la devise que vous souhaitez recevoir et ajoutez une description si nécessaire.
 
-![requestpayment2](asset/requestpayment2)
+![requestpayment2](assets/requestpayment2.webp)
 
 Remarque : le premier paiement sur le Lightning Network (LN) est légèrement payant pour ouvrir le canal LN. Par la suite, tous les paiements sont gratuits.
 
@@ -168,4 +168,4 @@ Une fois la demande soumise, notre équipe vous répondra dans les plus brefs d�
 
 Pour signaler un bogue ou nous faire part de vos commentaires, cliquez sur le widget de la page d'accueil :
 
-[help2](assets/help2.webp)
+![help2](assets/help2.webp)

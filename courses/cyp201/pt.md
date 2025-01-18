@@ -2302,7 +2302,7 @@ E é isso! Chegamos ao fim deste curso CYP201. Se você achou este curso útil, 
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
-## Avalie este curso
+## Avaliações & Notas
 
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -2315,39 +2315,4 @@ E é isso! Chegamos ao fim deste curso CYP201. Se você achou este curso útil, 
 ## Conclusão
 
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
-
-Chegamos ao fim do treinamento CYP201. Espero que tenha sido útil em sua jornada de aprendizado do Bitcoin e tenha ajudado você a entender melhor como funcionam as carteiras HD que você usa diariamente. Obrigado por seguir este curso até o final!
-
-Na minha opinião, esse conhecimento sobre carteiras é fundamental, pois conecta um aspecto teórico do Bitcoin ao seu uso prático. De fato, se você usa Bitcoin, necessariamente lida com software de carteira. Entender seu funcionamento interno permite implementar estratégias de segurança eficazes enquanto domina os mecanismos subjacentes, riscos e potenciais fraquezas. Assim, você pode usar Bitcoin de forma mais segura e com confiança.
-
-Se ainda não o fez, convido você a avaliar e comentar este treinamento. Isso me ajudaria enormemente. Você também pode compartilhar este treinamento em suas redes sociais para difundir este conhecimento ao maior número possível de pessoas.
-
-Para continuar sua jornada pela toca do coelho, recomendo fortemente o treinamento **BTC204**, que também produzi na Plan ₿ Network. É dedicado à privacidade do Bitcoin e explora temas-chave: Qual é o modelo de privacidade? Como funciona a análise de cadeia? Como usar Bitcoin de forma otimizada para maximizar sua privacidade? Um próximo passo lógico para aprofundar suas habilidades!
-
-https://planb.network/courses/btc204
-
-Além disso, para continuar aprofundando seu conhecimento no universo Bitcoin, convidamos você a explorar outros cursos disponíveis na Plan ₿ Network como:
-
-#### Aprenda a criar sua comunidade Bitcoin com
-
-https://planb.network/courses/btc302
-
-#### Descubra a Lightning Network com
-
-https://planb.network/courses/lnp201
-
-#### Descubra o pensamento econômico da Escola Austríaca com
-
-https://planb.network/courses/eco201
-
-#### Descubra a história das origens do Bitcoin com
-
-https://planb.network/courses/his201
-
-#### Descubra a evolução da liberdade através dos tempos com
-
-https://planb.network/courses/phi201
-
-
-
-
+<isCourseConclusion>true</isCourseConclusion>

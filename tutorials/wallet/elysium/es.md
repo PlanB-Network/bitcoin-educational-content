@@ -86,11 +86,11 @@ Ahora, selecciona la cadena en la que quieres recibir el pago (Bitcoin o Polygon
 
 PASO 1: Al pulsar "Solicitar pago" usted solicita un pago en Bitcoin a través de Lightning Network.
 
-![requestpayment1](asset/requestpayment1)
+![requestpayment1](assets/requestpayment1.webp)
 
 Paso 2: Introduzca el importe que desea solicitar, seleccione la moneda que desea recibir y añada una descripción si es necesario.
 
-![requestpayment2](asset/requestpayment2)
+![requestpayment2](assets/requestpayment2.webp)
 
 Nota: Hay una pequeña comisión por el primer pago Lightning Network (LN) para abrir el canal LN. Después, todos los pagos posteriores son gratuitos.
 
@@ -168,4 +168,4 @@ Una vez enviado, nuestro equipo le responderá lo antes posible con una solució
 
 Para informar de un error o hacernos llegar sus comentarios, haga clic en el widget de la página de inicio:
 
-[ayuda2](assets/help2.webp)
+![ayuda2](assets/help2.webp)

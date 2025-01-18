@@ -78,6 +78,7 @@ def find_english_files(base_directories: List[str]) -> List[Path]:
 def main():
     base_directories = [
         "../../../courses",
+        "../../../professors",
         "../../../resources/builders",
         "../../../resources/bet",
         "../../../resources/books",

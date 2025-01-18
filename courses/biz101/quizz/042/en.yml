@@ -1,0 +1,9 @@
+question: In most jurisdictions, what triggers a taxable event when dealing with Bitcoin?
+answer: Selling, trading, or using Bitcoin as payment often triggers a taxable event.
+wrong_answers:
+  - Simply holding Bitcoin indefinitely without any transactions.
+  - Backing up your Bitcoin wallet or keys.
+  - Viewing the Bitcoin price online.
+explanation: |
+  Typically, a taxable event occurs when a business disposes of or uses its Bitcoin, not merely by holding it. Each sale or exchange of Bitcoin for goods, services, or fiat currency can generate taxable gains or losses.
+reviewed: false

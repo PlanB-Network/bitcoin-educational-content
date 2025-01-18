@@ -1600,7 +1600,7 @@ Pour Hayek, l’instabilité passée de l’économie de marché résulte du fai
 
 Hayek pensait qu’un marché libre des monnaies privées mènerait à une plus grande stabilité monétaire. Près de 50 ans plus tard, une cryptomonnaie comme Bitcoin incarne cette vision concurrentielle de Hayek en proposant une alternative décentralisée au système monopolistique des banques centrales. Bitcoin, avec sa limite d'émission à 21 millions d’unités, est une garantie contre l’inflation et l’arbitraire des régulateurs.
 
-## Évaluez ce cours
+## Avis & Notes
 
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1650,33 +1650,4 @@ En un certain sens, notre situation est meilleure que par le passé. Après les 
 ## Conclusion
 
 <chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
-
-Félicitations pour avoir terminé ce cours !
-
-Nous sommes ravis que vous ayez atteint cette étape importante dans votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous serviront dans votre développement professionnel.
-
-Pour continuer à explorer en profondeur l'univers du Bitcoin, nous vous invitons à découvrir tous les autres cours disponibles sur Plan ₿ Network :
-
-#### Découvrez la vie de F. Bastiat avec
-
-https://planb.network/courses/eco102
-
-#### Découvrez Bitcoin et ses fondamentaux avec
-
-https://planb.network/courses/btc101
-
-#### Découvrez le Lightning Network avec
-
-https://planb.network/courses/lnp201
-
-#### Maîtriser les principes des la vie privée sur Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Découvrez l'histoire des origines de Bitcoin avec
-
-https://planb.network/courses/his201
-
-#### Comprenez comment fonctionne le portefeuille Bitcoin avec
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

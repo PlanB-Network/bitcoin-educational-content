@@ -1,0 +1,9 @@
+question: Dans RGB, où se situe le commitment lorsqu’un single-use seal est fermé ?
+answer: Dans l’output de la transaction dépensant l’outpoint
+wrong_answers:
+  - Dans l’input de la transaction dépensant l’outpoint
+  - Dans le scriptSig de la transaction dépensant l’outpoint
+  - Dans le Witness de la transaction dépensant l’outpoint
+explanation: |
+  Le commitment est inséré dans l’output de la transaction qui dépense l’outpoint définissant le single-use seal.
+reviewed: false

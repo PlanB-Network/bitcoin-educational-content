@@ -1,9 +1,0 @@
-description: |
-  RGB er et protokoll for å opprette kontrakter for utstedelse av eiendeler eller mer generiske rettigheter på toppen av Bitcoin. En kontrakt definerer de rettighetene som utstedes og valideringsreglene for å overføre dem til fremtidige eiere.
-  
-  Protokollen omfavner modellen for validering på klientsiden, som består i å holde all transaksjonsspesifikk data utenfor kjeden, ha dem utvekslet kun mellom avsenderen og mottakeren av transaksjonen og bruke Bitcoin-blockchainen kun som et forpliktelse. Ved å gjøre dette, oppnås fordeler med hensyn til skalerbarhet, personvern og utvidbarhet sammenlignet med alternative protokoller som holder all logikken på kjeden.
-  
-  De mest umiddelbare bruksområdene for RGB er utstedelse av fungible og samleobjekter, men protokollen er tilstrekkelig generalisert til også å støtte andre bruksområder, som desentraliserte identiteter, desentralisert DNS og bevis-på-publisering.
-  
-contributors:
-  - rabbit-hole

@@ -973,7 +973,7 @@ Viděli jsme, že správa likvidity je na Lightning výzvou, aby se zajistil ply
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## Ohodnoťte tento kurz
+## Recenze & Hodnocení
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -986,40 +986,4 @@ Viděli jsme, že správa likvidity je na Lightning výzvou, aby se zajistil ply
 ## Závěr
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-Gratulujeme! 🎉
-
-Dokončili jste školení LNP 201 - Úvod do Lightning Network!
-
-Můžete být na sebe hrdí, protože tohle není jednoduché téma.
-
-Jen málo lidí se ponoří tak hluboko do králičí nory Bitcoinu.
-
-Velké poděkování **Fanisi Michalakisovi** za poskytnutí tohoto skvělého bezplatného kurzu o technickém fungování Lightning Network.
-
-Neváhejte ho sledovat na [Twitteru](https://x.com/FanisMichalakis), na [jeho blogu](https://fanismichalakis.fr/) nebo skrze jeho práci v [LN Markets](https://lnmarkets.com/).
-
-Nyní, když ovládáte Lightning Network, vás zvu k prozkoumání našich dalších bezplatných kurzů na Plan ₿ Network pro prohloubení znalostí dalších aspektů Satoshi Nakamotova vynálezu:
-
-#### Pochopte, jak funguje Bitcoin peněženka s
-
-https://planb.network/courses/cyp201
-
-#### Objevte historii původu Bitcoinu s
-
-https://planb.network/courses/his201
-
-#### Nakonfigurujte BTC platební server s
-
-https://planb.network/courses/btc305
-
-#### Ovládněte principy soukromí v Bitcoinu
-
-https://planb.network/courses/btc204
-
-#### Objevte základy těžby s
-
-https://planb.network/courses/min201
-
-#### Naučte se vytvořit svou Bitcoin komunitu s
-
-https://planb.network/courses/btc302
+<isCourseConclusion>true</isCourseConclusion>

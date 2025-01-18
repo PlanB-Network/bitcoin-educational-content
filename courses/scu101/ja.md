@@ -512,7 +512,7 @@ Passkizは、パスワード管理のための別の実行可能で安全な代�
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## このコースを評価する
+## レビュー & 評価
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -525,36 +525,4 @@ Passkizは、パスワード管理のための別の実行可能で安全な代�
 ## まとめ
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-このコースを修了おめでとうございます！
-
-学習の道のりでこの節目に到達されたことを心よりお喜び申し上げます。
-
-あなたの献身と取り組みのおかげで、専門的な発展に役立つ貴重な知識とスキルを習得されました。
-
-ビットコインの世界についての知識をさらに深めるため、Plan ₿ Networkで利用可能な他のコースもご覧ください：
-
-#### ビットコインとその基礎を学ぶ
-
-https://planb.network/courses/btc101
-
-#### 初めてのビットコインを取得し、安全に保管する
-
-https://planb.network/courses/btc102
-
-#### ライトニングネットワークを発見する
-
-https://planb.network/courses/lnp201
-
-#### オーストリア学派の経済思想を学ぶ
-
-https://planb.network/courses/eco201
-
-#### ビットコインの起源の歴史を探る
-
-https://planb.network/courses/his201
-
-#### ビットコインウォレットの仕組みを理解する
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

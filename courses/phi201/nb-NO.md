@@ -1398,7 +1398,7 @@ For Hayek, kommer den tidligere ustabiliteten i markedsøkonomien fra det faktum
 ![bilde](assets/6/img-006.webp)
 Hayek trodde at et fritt marked av private valutaer ville føre til større monetær stabilitet. Nesten 50 år senere, representerer en kryptovaluta som Bitcoin Hayeks konkurransepregete visjon ved å tilby et desentralisert alternativ til det monopolistiske systemet til sentralbankene. Bitcoin, med sin emisjonsgrense på 21 millioner enheter, er en garanti mot inflasjon og regulatorisk vilkårlighet.
 
-## Evaluer kurset
+## Vurderinger & Karakterer
 
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1443,34 +1443,4 @@ Alt som skjer i det globale samfunnet vi lever i, er resultatet av ideer. Det go
 ## Konklusjon
 
 <chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
-Gratulerer med fullført kurs!
-
-Vi er glade for at du har nådd denne viktige milepælen i din læringssreise.
-
-Takket være din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg i din profesjonelle utvikling.
-
-For å fortsette å utforske Bitcoin-universet i dybden, inviterer vi deg til å oppdage alle andre kurs tilgjengelige på Plan ₿ Network:
-
-#### Oppdag F. Bastiats liv med
-
-https://planb.network/courses/eco102
-
-#### Oppdag Bitcoin og dens grunnprinsipper med
-
-https://planb.network/courses/btc101
-
-#### Oppdag Lightning Network med
-
-https://planb.network/courses/lnp201
-
-#### Behersk prinsippene for personvern på Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Oppdag historien om Bitcoins opprinnelse med
-
-https://planb.network/courses/his201
-
-#### Forstå hvordan Bitcoin-lommeboken fungerer med
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

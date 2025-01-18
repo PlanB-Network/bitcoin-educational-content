@@ -781,7 +781,7 @@ Kết quả cuối cùng là tốc độ hash cao hơn trên mỗi watt điện 
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Đánh giá khóa học này
+## Nhận xét & Đánh giá
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -794,30 +794,4 @@ Kết quả cuối cùng là tốc độ hash cao hơn trên mỗi watt điện 
 ## Kết luận
 
 <chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
-Chúc mừng bạn đã hoàn thành khóa học này!
-
-Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình.
-
-Thông qua sự cống hiến và cam kết của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ phục vụ cho sự phát triển nghề nghiệp của bạn.
-
-Để tiếp tục khám phá sâu hơn về vũ trụ Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
-
-#### Khám phá Bitcoin và những điều cơ bản của nó với
-
-https://planb.network/courses/btc101
-
-#### Khám phá Lightning Network với
-
-https://planb.network/courses/lnp201
-
-#### Làm chủ các nguyên tắc về quyền riêng tư trên Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Khám phá lịch sử nguồn gốc của Bitcoin với
-
-https://planb.network/courses/his201
-
-#### Hiểu cách hoạt động của ví Bitcoin với
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

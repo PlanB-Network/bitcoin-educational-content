@@ -1,0 +1,9 @@
+question: What trend is noted among participants operating nodes on the Lightning Network?
+answer: Professional node operators are increasingly providing liquidity, while individual users focus on “edge” nodes, shifting the network’s composition.
+wrong_answers:
+  - Individual hobbyists have replaced all professional operators entirely.
+  - Large banks now centrally operate all Lightning nodes.
+  - The network has shut down personal nodes to allow only large corporations.
+explanation: |
+  There’s a move toward more liquidity and stability provided by professional entities, while everyday users rely on simplified or hosted solutions, making the network more robust and accessible.
+reviewed: false

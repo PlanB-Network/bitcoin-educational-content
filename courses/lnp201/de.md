@@ -980,7 +980,7 @@ Wir haben gesehen, dass das Liquiditätsmanagement im Lightning eine Herausforde
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## Bewerten Sie diesen Kurs
+## Bewertungen & Noten
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -993,41 +993,4 @@ Wir haben gesehen, dass das Liquiditätsmanagement im Lightning eine Herausforde
 ## Fazit
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-Herzlichen Glückwunsch! 🎉
-
-Sie haben die LNP 201-Schulung - Einführung in das Lightning Network abgeschlossen!
-
-Sie können stolz auf sich sein, denn dies ist kein einfaches Thema.
-
-Nur wenige Menschen wagen sich so tief in den Bitcoin-Kaninchenbau.
-
-Ein großes Dankeschön an **Fanis Michalakis** für diesen großartigen kostenlosen Kurs über die technische Funktionsweise des Lightning Networks.
-
-Folgen Sie ihm gerne auf [Twitter](https://x.com/FanisMichalakis), auf [seinem Blog](https://fanismichalakis.fr/) oder durch seine Arbeit bei [LN Markets](https://lnmarkets.com/).
-
-Jetzt, da Sie das Lightning Network beherrschen, lade ich Sie ein, unsere anderen kostenlosen Kurse auf Plan ₿ Network zu erkunden, um andere Aspekte von Satoshi Nakamotos Erfindung zu vertiefen:
-
-#### Verstehen Sie die Funktionsweise einer Bitcoin-Wallet mit
-
-https://planb.network/courses/cyp201
-
-#### Entdecken Sie die Geschichte der Bitcoin-Ursprünge mit
-
-https://planb.network/courses/his201
-
-#### Konfigurieren Sie einen BTC-Zahlungsserver mit
-
-https://planb.network/courses/btc305
-
-#### Beherrschen Sie die Prinzipien der Privatsphäre in Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Entdecken Sie die Grundlagen des Minings mit
-
-https://planb.network/courses/min201
-
-#### Lernen Sie, Ihre Bitcoin-Community aufzubauen mit
-
-https://planb.network/courses/btc302
-
+<isCourseConclusion>true</isCourseConclusion>

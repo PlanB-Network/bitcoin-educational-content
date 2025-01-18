@@ -985,7 +985,7 @@ Chúng ta đã thấy rằng quản lý tính thanh khoản là một thách th�
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## Đánh giá khóa học này
+## Nhận xét & Đánh giá
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -998,41 +998,4 @@ Chúng ta đã thấy rằng quản lý tính thanh khoản là một thách th�
 ## Kết luận
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-Chúc mừng! 🎉
-
-Bạn đã hoàn thành khóa đào tạo LNP 201 - Giới thiệu về Lightning Network!
-
-Bạn có thể tự hào về bản thân, vì đây không phải là một chủ đề dễ dàng.
-
-Rất ít người đi sâu vào hang thỏ Bitcoin đến như vậy.
-
-Xin cảm ơn **Fanis Michalakis** rất nhiều vì đã cung cấp khóa học miễn phí tuyệt vời này về cách hoạt động kỹ thuật của Lightning Network.
-
-Hãy theo dõi anh ấy trên [Twitter](https://x.com/FanisMichalakis), trên [blog của anh ấy](https://fanismichalakis.fr/) hoặc thông qua công việc của anh ấy tại [LN Markets](https://lnmarkets.com/).
-
-Giờ đây, khi bạn đã thành thạo Lightning Network, tôi mời bạn khám phá các khóa học miễn phí khác của chúng tôi trên Plan ₿ Network để đào sâu hiểu biết về các khía cạnh khác của phát minh của Satoshi Nakamoto:
-
-#### Hiểu cách hoạt động của ví Bitcoin với
-
-https://planb.network/courses/cyp201
-
-#### Khám phá lịch sử nguồn gốc của Bitcoin với
-
-https://planb.network/courses/his201
-
-#### Cấu hình máy chủ thanh toán BTC với
-
-https://planb.network/courses/btc305
-
-#### Nắm vững các nguyên tắc quyền riêng tư trong Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Khám phá những điều cơ bản về khai thác với
-
-https://planb.network/courses/min201
-
-#### Học cách tạo cộng đồng Bitcoin của bạn với
-
-https://planb.network/courses/btc302
-
+<isCourseConclusion>true</isCourseConclusion>

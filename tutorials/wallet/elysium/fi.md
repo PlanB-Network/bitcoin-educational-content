@@ -86,11 +86,11 @@ Valitse nyt ketju, jossa haluat vastaanottaa maksun (Bitcoin tai Polygon), ja vo
 
 VAIHE 1: Napauttamalla "Pyydä maksua" pyydät Bitcoin-maksua Lightning Networkin kautta.
 
-![requestpayment1](asset/requestpayment1)
+![requestpayment1](assets/requestpayment1.webp)
 
 Vaihe 2: Kirjoita summa, jonka haluat pyytää, valitse haluamasi valuutta ja lisää tarvittaessa kuvaus.
 
-![requestpayment2](asset/requestpayment2)
+![requestpayment2](assets/requestpayment2.webp)
 
 Huomautus: Ensimmäisestä Lightning Network (LN) -maksusta peritään pieni maksu LN-kanavan avaamiseksi. Sen jälkeen kaikki seuraavat maksut ovat ilmaisia.
 
@@ -168,4 +168,4 @@ Kun olet lähettänyt sen, tiimimme vastaa mahdollisimman pian ratkaisun kanssa!
 
 Jos haluat ilmoittaa virheestä tai antaa meille palautetta, napsauta etusivulla olevaa widgettiä:
 
-[help2](assets/help2.webp)
+![help2](assets/help2.webp)

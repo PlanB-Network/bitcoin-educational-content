@@ -1,0 +1,16 @@
+- start_date: 2025-04-01 09:00:00
+  end_date: 2025-04-03 17:00:00
+  timezone: Europe/London
+  address_line_1: Valleta, Malta
+  name: Bitcoin Educators Academy Valletta 2025
+  builder: Amity Age
+  type: course
+  description: Experience 3 intense days of learning how to communicate and educate Bitcoin in a simple and efficient way!
+  language:
+    - en
+  links:
+    website: https://www.amityage.com/bea
+  tags:
+    - proof-of-work
+    - DIY
+    - deep-dive

@@ -264,21 +264,10 @@ Grup Lightning Walker mempresentasikan solusi mereka untuk Layanan Remitansi men
 
 
 
-## Evaluasi kursus ini
+## Ulasan & Penilaian
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Pengakuan
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-Kami ingin mengakui kontribusi dari para pendidik kami:
-
-- Peter Todd
-- Adam Gibson
-- Alekos Filini
-- Daniela Brozzoni
-- Ajelex
-- asi0
-- Gabriel Comte
-Keahlian mereka sangat berharga bagi kesuksesan kursus ini. Ini telah menjadi kursus pertama yang berdasarkan edisi pertama dari inisiatif Cubo+, yang dilaksanakan pada Juli 2023. Terima kasih kepada semua peserta dan pendidik karena telah menjadi bagian dari perjalanan pendidikan yang inovatif ini. Ini menandai awal dari apa yang kami harap akan menjadi perjalanan panjang dan berbuah dalam dunia pengembangan Bitcoin. Sebagai kohort pertama, partisipasi Anda telah menetapkan standar untuk kelas-kelas mendatang.
-Teruslah menjelajah, belajar, dan berkontribusi pada ekosistem Bitcoin. Pengetahuan yang diperoleh di sini hanyalah titik awal. Teruslah menggali lubang kelinci, dan Anda akan menemukan dunia peluang yang terus berkembang.
+<isCourseConclusion>true</isCourseConclusion>

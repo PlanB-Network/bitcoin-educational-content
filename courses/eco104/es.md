@@ -1627,7 +1627,7 @@ Al concluir este curso, esperamos que apliques el conocimiento adquirido aquí e
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Evalúa el curso
+## Reseñas & Valoraciones
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1635,35 +1635,4 @@ Al concluir este curso, esperamos que apliques el conocimiento adquirido aquí e
 ## Conclusión
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-¡Felicitaciones por completar este curso!
-
-Estamos encantados de que hayas alcanzado con éxito este hito en tu viaje de aprendizaje.
-
-A través de tu dedicación y compromiso, has adquirido valiosos conocimientos y habilidades que te servirán en tu desarrollo profesional.
-
-Para seguir profundizando en el universo de Bitcoin, te invitamos a explorar todos los otros cursos disponibles en Plan ₿ Network:
-
-#### Descubre Bitcoin y sus fundamentos con
-
-https://planb.network/courses/btc101
-
-#### Actualiza tu seguridad en línea con
-
-https://planb.network/courses/scu101
-
-#### Descubre la Red Lightning con
-
-https://planb.network/courses/lnp201
-
-#### Aprende sobre el Pensamiento Económico de la Escuela Austríaca con
-
-https://planb.network/courses/eco201
-
-#### Descubre la historia de los orígenes de Bitcoin con
-
-https://planb.network/courses/his201
-
-#### Comprende el surgimiento de las hiperinflaciones con
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

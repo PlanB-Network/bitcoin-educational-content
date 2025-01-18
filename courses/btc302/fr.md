@@ -1423,29 +1423,10 @@ Seul(e), il est vrai que l'on peut rapidement explorer une des nombreuses galeri
 
 Alors qu'**en créant et/ou en intégrant une communauté de bitcoiners, en partageant et en échangeant avec eux régulièrement, vous avancerez en même temps dans toutes les directions du terrier**.
 
-## Évaluez ce cours
+## Avis & Notes
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Formation BTC302, la suite
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
-
-Dans cette formation BTC302, nous avons détaillé avec prcéision les étapes de création d'une communauté, d'un meet-up; mais également, la mise en place de nombreux projets.
-
-Lorsque que votre communauté se sentira alors prête à passer au stade supérieur, **il est possible de créer une association**.
-En France par exemple, sur la soixantaine de communautés et meet-ups, on compte près d'une dizaine d'associations.
-####
-L'intérêt d'en créer une est dual:
-- d'une part, le statut d'association permet de pouvoir **disposer d'un statut officiel, d'ouvrir un compte en banque associatif mais aussi d'obtenir une forme de reconnaissance de la part de la presse, des médias, ainsi que des subventions**;
-- d'autre part, elle permet d'**organiser de manière plus sérieuse le fonctionnement de sa communauté et la mise en place de ses projets**, en définissant notamment des rôles spécifiques.
-#### 
-####
-Dans l'objectif d'amener votre communauté à s'épanouir encore un peu plus, **il n'est pas à exclure qu'une suite à la formation COMMU302 puisse sortir sur [planb.network](https://planb.network/) dans les prochains mois**.
-
-À travers celle-ci, **nous détaillerons notamment la mise en place d'événements de grande envergure, à une centaine de participants**. Les questions essentielles telles que: "Pourquoi?", "Quelle organisation?", "Où?", "Quel budget?", "Comment?" et "Quel fonctionnement?" seront alors abordées.
-
-Pour ce faire, nous partirons de l'expérience de plusieurs communautés françaises ayant elles-mêmes déjà réalisées leur propre événement, telles que **le BEF (le Bitcoin Economic Forum, en mai, en Bretagne), le B-only (en novembre, à Annecy) et le Be On Lille (en septembre, à Lille)**.
-
-![image](assets/fr/chapter38/62.webp)
-####
-Bien évidemment, **dans d'autres pays, la législation et le fonctionnement associatif est différent**. **Nous espérons donc que d'autres bitcoiners internationaux viendront compléter cette formation avec des informations spécifiques à leur pays**.
+<isCourseConclusion>true</isCourseConclusion>

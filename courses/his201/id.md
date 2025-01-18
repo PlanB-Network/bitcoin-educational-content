@@ -1235,7 +1235,7 @@ Aspek misterius yang mengelilingi pencipta Bitcoin ini dirangkum dengan baik ole
 >
 > Apa arti huruf S itu?"
 
-## Evaluasi kursus
+## Ulasan & Penilaian
 <chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1360,7 +1360,7 @@ Keempat, Bitcoin adalah ciptaan yang altruistik. Satoshi Nakamoto menawarkan Bit
 Pada tahun 2011, Satoshi menghilang, tetapi Bitcoin bertahan. Mata uang kripto bahkan secara definitif lepas landas, baik dari sudut pandang media maupun ekonomi. Mesin telah diluncurkan dan tidak ada yang bisa menghentikannya.
 # Kesimpulan
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
-## Evaluasi kursus ini
+## Ulasan & Penilaian
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
 <isCourseReview>true</isCourseReview>
 ## Ujian akhir
@@ -1368,28 +1368,4 @@ Pada tahun 2011, Satoshi menghilang, tetapi Bitcoin bertahan. Mata uang kripto b
 <isCourseExam>true</isCourseExam>
 ## Kesimpulan
 <chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
-Selamat atas penyelesaian kursus ini!
-
-Kami sangat senang Anda telah mencapai tonggak penting ini dalam perjalanan pembelajaran Anda.
-
-Berkat dedikasi dan komitmen Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan membantu Anda dalam pengembangan profesional Anda.
-
-Untuk terus mendalami alam semesta Bitcoin, kami mengundang Anda untuk menemukan semua kursus lain yang tersedia di Plan ₿ Network:
-
-#### Temukan Bitcoin dan fundamental-nya dengan
-https://planb.network/courses/btc101
-
-#### Temukan Sekolah Ekonomi Austria dengan
-https://planb.network/courses/eco201
-
-#### Dapatkan dan amankan bitcoin pertama Anda dengan
-https://planb.network/courses/btc102
-
-#### Perbarui keamanan online Anda dengan
-https://planb.network/courses/scu101
-
-#### Temukan evolusi kebebasan sepanjang masa dengan
-https://planb.network/courses/phi201
-
-#### Pahami dasar-dasar penambangan dengan
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

@@ -86,11 +86,11 @@ Nüüd valige ahel, mille alusel soovite makseid saada (Bitcoin või Polygon), j
 
 STEP 1: Puudutades valikut "Makse taotlemine", taotlete Bitcoini makset Lightning Networki kaudu.
 
-![requestpayment1](asset/requestpayment1)
+![requestpayment1](assets/requestpayment1.webp)
 
 2. samm: Sisestage summa, mida soovite taotleda, valige valuuta, mida soovite saada, ja lisage vajaduse korral kirjeldus.
 
-![requestpayment2](asset/requestpayment2)
+![requestpayment2](assets/requestpayment2.webp)
 
 Märkus: esimese Lightning Network (LN) makse eest tuleb maksta väike tasu LN-kanali avamiseks. Pärast seda on kõik järgmised maksed tasuta.
 
@@ -168,4 +168,4 @@ Kui te olete selle esitanud, vastab meie meeskond võimalikult kiiresti lahendus
 
 Kui soovite veast teatada või meile tagasisidet anda, klõpsake kodulehe vidinale:
 
-[help2](assets/help2.webp)
+![help2](assets/help2.webp)

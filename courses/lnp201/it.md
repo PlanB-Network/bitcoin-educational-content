@@ -983,7 +983,7 @@ Abbiamo visto che la gestione della liquidità è una sfida su Lightning per gar
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## Valuta questo corso
+## Recensioni & Valutazioni
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -996,40 +996,4 @@ Abbiamo visto che la gestione della liquidità è una sfida su Lightning per gar
 ## Conclusione
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-Congratulazioni! 🎉
-
-Hai completato il corso LNP 201 - Introduzione al Lightning Network!
-
-Puoi essere orgoglioso di te stesso, perché non è un argomento facile.
-
-Poche persone si addentrano così profondamente nella tana del coniglio di Bitcoin.
-
-Un grande ringraziamento a **Fanis Michalakis** per averci offerto questo eccellente corso gratuito sul funzionamento tecnico del Lightning Network.
-
-Non esitare a seguirlo su [Twitter](https://x.com/FanisMichalakis), sul [suo blog](https://fanismichalakis.fr/) o attraverso il suo lavoro su [LN Markets](https://lnmarkets.com/).
-
-Ora che padroneggi il Lightning Network, ti invito a esplorare i nostri altri corsi gratuiti su Plan ₿ Network per approfondire gli altri aspetti dell'invenzione di Satoshi Nakamoto:
-
-#### Comprendi il funzionamento di un portafoglio Bitcoin con
-
-https://planb.network/courses/cyp201
-
-#### Scopri la storia delle origini di Bitcoin con
-
-https://planb.network/courses/his201
-
-#### Configura un server di pagamento BTC con
-
-https://planb.network/courses/btc305
-
-#### Padroneggia i principi della privacy in Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Scopri le basi del mining con
-
-https://planb.network/courses/min201
-
-#### Impara a creare la tua comunità Bitcoin con
-
-https://planb.network/courses/btc302
+<isCourseConclusion>true</isCourseConclusion>

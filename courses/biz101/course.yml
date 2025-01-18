@@ -1,0 +1,21 @@
+topic: business
+subtopic: bitcoin
+level: beginner
+hours: 5
+
+professors:
+  - network-pill
+
+contributors:
+  - pretty-private
+
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2024-12-18
+    urgency: 1
+    contributors_id:
+      - NetworkEffect
+    reward:

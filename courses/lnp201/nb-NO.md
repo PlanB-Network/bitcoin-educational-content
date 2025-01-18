@@ -978,7 +978,7 @@ Vi har sett at likviditetsstyring er en utfordring på Lightning for å sikre en
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## Evaluer dette kurset
+## Vurderinger & Karakterer
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -991,40 +991,4 @@ Vi har sett at likviditetsstyring er en utfordring på Lightning for å sikre en
 ## Konklusjon
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-Gratulerer! 🎉
-
-Du har fullført LNP 201-opplæringen - Introduksjon til Lightning Network!
-
-Du kan være stolt av deg selv, for dette er ikke et enkelt tema.
-
-Få mennesker dykker så dypt ned i Bitcoin-kaninhullet.
-
-En stor takk til **Fanis Michalakis** for å ha gitt oss dette flotte gratiskurset om den tekniske funksjonaliteten til Lightning Network.
-
-Følg ham gjerne på [Twitter](https://x.com/FanisMichalakis), på [bloggen hans](https://fanismichalakis.fr/) eller gjennom arbeidet hans hos [LN Markets](https://lnmarkets.com/).
-
-Nå som du behersker Lightning Network, inviterer jeg deg til å utforske våre andre gratiskurs på Plan ₿ Network for å fordype deg i andre aspekter av Satoshi Nakamotos oppfinnelse:
-
-#### Forstå hvordan en Bitcoin-lommebok fungerer med
-
-https://planb.network/courses/cyp201
-
-#### Oppdag historien om Bitcoins opprinnelse med
-
-https://planb.network/courses/his201
-
-#### Konfigurer en BTC-betalingsserver med
-
-https://planb.network/courses/btc305
-
-#### Behersk prinsippene for personvern i Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Oppdag grunnleggende om mining med
-
-https://planb.network/courses/min201
-
-#### Lær å skape ditt Bitcoin-fellesskap med
-
-https://planb.network/courses/btc302
+<isCourseConclusion>true</isCourseConclusion>

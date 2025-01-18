@@ -8,7 +8,7 @@ objectives:
   - Why have central bankers gone mad?
 ---
 
-# A journey into economics
+# A Journey into Economics
 
 Welcome to Théo Mogenet's course! Passionate about economics, history, literature, political science, and technology, he has decided to share his knowledge of Austrian economics with you. This branch, less known in economics, is based on human rationality and free actor behavior. Less intense in mathematics, it is a question of logic and social study above all.
 
@@ -48,6 +48,7 @@ If you are ready to embark on this adventure, I invite you to click on the follo
 >
 > Satoshi Nakamoto, pseudonymous inventor of Bitcoin
 
+
 ### How Money is Created
 
 In our present-day monetary system, money is primarily created through a banking practice known as "fractional reserve banking." This term essentially means that banks are not required to hold as many reserves as they receive in deposits. Consequently, they can create new purchasing power when granting loans and, conversely, reduce purchasing power when customers repay their loans.
@@ -58,13 +59,14 @@ When a financial institution holds a banking license, it essentially means that 
 
 Upon purchasing the house, you instruct your banker to transfer money to the seller's account. If the seller's account is with a different bank, your banker notifies the corresponding banker at the other institution to ensure the seller's account is credited accordingly, while debiting your account by the corresponding amount.
 
-![image](assets/Image/1.webp)
+![image](assets/en/01.webp)
 
 Figure 1: Money Creation as Bookkeeping Entries
 
 > “It is well enough that people of our nation do not understand our banking and monetary system, for if they did, I believe there would be a revolution before tomorrow morning”
 >
 > Henry Ford
+
 
 This process allows banks to record all transactions, including wire transfers, credit card purchases, and checks, over a specified period (usually a week or a month). They then settle these transactions with each other using bank reserves, which are another form of fiat currency never used by the public. Bank reserves are held at the central bank in a special account accessible only to licensed banks and financial institutions.
 
@@ -76,15 +78,15 @@ This conundrum gave rise to the modern central banks. In the 19th century in Eng
 
 In addition to maintaining financial stability, central banks are responsible for setting key policy rates. These rates determine the cost at which licensed banks can borrow funds from the central bank, essentially defining the cost of liquidity for the financial institutions that play a crucial role in lending in our economies. Therefore, these rates serve as a benchmark for the entire financial system. As an individual, the interest rates you pay on your mortgage can be broken down into the policy rate and the bank’s margin.
 
-![image](assets/Image/2.webp)
+![image](assets/en/02.webp)
 
-Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
+Figure2: Lehman Brothers’ Bankruptcy (15/09/2008)
 
 During the major financial crisis of 2008, Lehman Brothers, a large investment bank, declared bankruptcy after suffering significant losses on its mortgage securities holdings and experiencing massive withdrawals from concerned clients. In response to this unprecedented financial turmoil, central bankers around the world injected large amounts of liquidity into financial markets, merged struggling investment banks with commercial banks, and lowered policy rates to near zero in an effort to prevent a systemic collapse.
 
 While these measures prevented a cascading wave of bankruptcies, they did little to alleviate the subsequent economic slowdown. Millions lost their jobs and homes, consumer spending plummeted, businesses went under, and banks incurred substantial losses. Despite historically low interest rates, few were willing to borrow, resulting in a vicious cycle where the initial decrease in spending and investment reinforced itself. Consequently, central bankers took further steps by implementing Quantitative Easing (QE) programs. These programs involved central banks purchasing government bonds and mortgage-backed securities from commercial banks with central bank reserves.
 
-![image](assets/Image/3.webp)
+![image](assets/en/03.webp)
 
 Figure3 : Interest Rates Across Major Economies / Source: ECB
 
@@ -94,7 +96,7 @@ Contrary to many expectations, QE programs did not significantly revive economic
 
 Nonetheless, an essential economic principle can be drawn from this episode: when new money is created, it initially benefits those closest to the source of the money, at the expense of those further away. This economic insight dates back to the 18th century when Richard Cantillon outlined it in his "Essay on the Nature of Commerce in General." It is now colloquially referred as the “Cantillon Effect”.
 
-![image](assets/Image/4.webp)
+![image](assets/en/04.webp)
 
 Figure4: Cantillon Effect in a Nutshell / Source: River Financial
 
@@ -102,7 +104,7 @@ In this instance, bankers, bank executives, stock and bond owners, real estate d
 
 In essence, the system is skewed. Banks are inherently unstable, yet their failure can jeopardize the entire economy. This moral hazard incentivizes bank executives to take excessive risks to maximize their bank's revenue, knowing that the central bank will ultimately bail them out, shifting the cost to taxpayers. In such scenarios, central bankers create conditions for a massive transfer of purchasing power from hardworking individuals and savers to asset owners and those connected to the financial system, thereby disconnecting the process of wealth creation from wealth accumulation.
 
-![image](assets/Image/5.webp)
+![image](assets/en/05.webp)
 
 Figure5: Wealth Distribution in China + Europe + the US / Source: OECD
 
@@ -112,7 +114,7 @@ During extended periods of Zero Interest Rate Policies (ZIRP), banks have limite
 
 Another unintended consequence of ZIRP is that it encourages governments to engage in extensive spending. Since governments face no borrowing costs and can rely on central banks to purchase their bonds through QE programs, they have a natural incentive to spend as much as possible, particularly in democratic contexts where spending can garner votes. This tendency often disregards the long-term consequences of such fiscal profligacy, leading to a significant increase in public debt levels across developed economies since the Global Financial Crisis (GFC).
 
-![image](assets/Image/6.webp)
+![image](assets/en/06.webp)
 
 Figure 6: Public & Private Debt as % of GDP (World, weighted by GDP per country) / Source IMF
 
@@ -123,6 +125,7 @@ With inflation on the rise due to substantial money creation in response to COVI
 > “By this means (fractional reserve banking), governments may secretly and unobserved, confiscate the wealth of the people, and not man in a million would detect the theft”
 >
 > John Maynard Keynes
+
 
 In essence, our system is facing substantial challenges, and Bitcoin emerges as the only credible alternative. However, Bitcoin alone cannot address the issues within our monetary system. Above all, we need individuals who understand basic economic principles among Bitcoin enthusiasts, enabling a broader awareness and economic common sense to guide us away from constructing another fragile financial foundation for our civilization. The primary objective of this course is to educate new Bitcoin enthusiasts in sound economic principles.
 
@@ -142,6 +145,7 @@ In the upcoming chapter, we will delve into the foundational cornerstone of any 
 >
 > Carl Menger, Principles of Political Economy
 
+
 ### The Marginal Revolution
 
 At the root of economic reasoning lies the question of value. How do we determine the value of something? Is value an inherent property of things? Or is it, on the contrary, a subjective phenomenon? How do we compare the value of two things? Where does value come from?
@@ -150,7 +154,7 @@ Such questions have occupied economists and philosophers for many centuries and 
 
 After the physiocrats' theory of land value, positing that all value come from land, had been refuted by the classical economists' labor theory of value, postulating that the value of a good stems from the amount of labor going into its production, it was the turn of the marginal theory of value to supplant the latter. In the 1870s, following Marx, the last of the classical economists, three new schools of economic thought emerged almost simultaneously around a marginal theory of value: the Lausanne school with Léon Walras, the modern or neoclassical school with William Stanley Jevons, and the Austrian school with Carl Menger. This revolution in the theory of value constituted a significant renewal of economic thought.
 
-![image](assets/Image/7.webp)
+![image](assets/en/07.webp)
 
 From Left to Right: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -160,7 +164,7 @@ It is common to present the marginalism of these three schools as similar. Indee
 
 ### Subjective Value
 
-![image](assets/Image/15.webp)
+![image](assets/en/08.webp)
 
 The Austrian economist refutes the conception of Adam Smith's successors and abandons the idea that the value of a good comes from the amount of labor used in its production, in favor of the notion that its value is determined by the individual, who, in each context, performs a mental act of valuation regarding a specific quantity of a good or service. This intellectual leap made by Menger challenges the objectivity of value: for him, value is not an objective property of goods; it is merely the result of the relationship that the individual has with that thing: "value does not exist outside of human consciousness."
 
@@ -184,7 +188,7 @@ This subjective conception of value, understood as a psychological relationship 
 
 ### The Division of Labor
 
-![image](assets/Image/16.webp)
+![image](assets/en/09.webp)
 
 Visiting a Nail Factory, Léonard Defrance (18th century)
 
@@ -211,6 +215,7 @@ The result of the preceding analysis is that individuals are always better off w
 > "If a man sees that he can live more comfortably hanging from the gallows than sitting at the table, he would be acting like a fool not to hang himself."
 >
 > Baruch Spinoza
+
 
 1871-1874 are the wonderful years of modern economics: this period witnessed the works of three independent thinkers foundational to modern economics. With their emphasis on subjective ordinal value Austrian economists will develop a whole body of economic thought setting them apart from their homologues. The work of Austrian economists reasoning about human action in the context of scarcity will forever stand in stark contrast with the economic doctrines initiated by Jevons and Walras heavily relying on mathematics standing on the back of the idea that value can be objectively measured and derived as a continuous function.
 
@@ -249,7 +254,7 @@ This game illustrates a problem frequently encountered in real life: in the abse
 
 ### Money to Solve Coordination Problems
 
-![image](assets/Image/17.webp)
+![image](assets/en/10.webp)
 
 This problem has less impact in small communities (e.g., family, friend circles) because, in such cases, everyone knows each other directly, making it possible to remember each other's contributions. Assuming that leaving the community (desertion) incurs a cost, a reputation system based on individual agents' memory is usually sufficient to avoid the pitfalls posed by the prisoner's dilemma.
 
@@ -269,7 +274,7 @@ In pre-civilization times, these technologies did not exist. Thus, our ancestors
 
 ### Double Coincidence of Wants and Salability
 
-![image](assets/Image/18.webp)
+![image](assets/en/11.webp)
 
 Money can be seen as the solution discovered by our ancestors to address what economists call the "double coincidence of wants" problem. This problem has three dimensions: spatial, temporal, and interpersonal.
 
@@ -315,7 +320,7 @@ This subjective evaluation of the value of future goods compared to present good
 
 This concept of relative valuation of future goods over present goods is at the root of the phenomenon of interest. Indeed, in an economy with unmanipulated capital markets, reference interest rates (considered risk-free from default) are determined at the intersection of capital supply and demand. Therefore, these rates represent the state of time preferences for the entire economy: an increase in the interest rate results from a relative increase in demand for capital compared to supply, indicating higher time preferences. Conversely, a decrease in interest rates occurs due to an increase in savings, which is an increase in the supply of capital, indicating a reduction in time preferences.
 
-![image](assets/Image/9.webp)
+![image](assets/en/12.webp)
 
 In an economy where interest rates are not manipulated by the central bank, we tend to observe an upward-sloping yield curve: the longer the maturity of the debt, the higher the interest rate. The opposite situation can’t happen because it would entail that the future is more certain than the present, which is a logical impossibility.
 
@@ -323,7 +328,7 @@ The concept of time preference and how we express our own time preference by act
 
 ### Capital Theory
 
-![image](assets/Image/19.webp)
+![image](assets/en/13.webp)
 
 At the beginning of this course, we saw that, for Carl Menger, goods are only considered economic goods (valued) because they serve as means to ends chosen and valued by individuals. According to this view, all economic analysis revolves around consumption because it is ultimately the motivating objective behind all economic activity. Therefore, for Menger, the starting point of economic analysis is consumer goods, or final goods, as they represent the ultimate purpose of economic activity. All other goods in the economy, which we can call "intermediate goods," only have value because they enable individuals to obtain these consumer goods: they are goods used in the production of other goods.
 
@@ -339,13 +344,13 @@ Due to the sequential nature of human action, these intertemporal choices always
 
 To illustrate this point, let's revisit the example given by Böhm-Bawerk, in his work "Capital and Interest":
 
-![image](assets/Image/10.webp)
+![image](assets/en/14.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe and Production Detour/Roundabout:
 
-![image](assets/Image/20.webp)
+![image](assets/en/15.webp)
 
 Robinson Crusoe Landing Stores from the Wreck, John Alexander Gilfillan (1793-1864)
 
@@ -369,7 +374,7 @@ Now, as eluded in the first chapter, interest rates have been manipulated for de
 
 This is perfectly illustrated by the chart below: long-rates are lower than short-rates. First, this makes absolutely no sense, because it would entail that the future is more certain than the present. Second, it warrants an inquiry about the consequences for capital allocation: if everyone is incentivized to act as if savings were abundant, whereas savers are nowhere to be found because they are not rewarded for saving, what consequences could this yield for the economy?
 
-![image](assets/Image/11.webp)
+![image](assets/en/16.webp)
 
 This is what we will find out in the next chapter dedicated to the Austrian Theory of the Business Cycle!
 
@@ -385,6 +390,7 @@ This is what we will find out in the next chapter dedicated to the Austrian Theo
 >
 > Ludwig von Mises
 
+
 It was Ludwig Von Mises, the most accomplished student of Böhm-Bawerk and arguably the most important Austrian economist of the 20th century, who used Böhm-Bawerk's capital reasoning to explain the causes and dynamics of economic cycles. Friedrich A. Hayek, Mises's protege, later extended this reasoning to its logical conclusions in works for which he was awarded the Nobel Prize in Economics in 1974.
 
 Mises and Hayek began their analysis with an increase in savings as the starting point. As we have seen in the previous chapters, any increase in savings necessarily entails a corresponding decrease in consumption and thus lower relative prices of consumer goods. This leads to two effects: firstly, an increased demand for capital goods caused by rising real wages resulting from the relative decrease in the prices of consumer goods; and secondly, an increase in entrepreneurial profits at the stages of production farthest from consumption (lower order). As real wages rise, entrepreneurs are incentivized to economize labor by using more capital goods, which creates a stronger demand for capital goods and higher profits for entrepreneurs producing these lower order goods. Thus, in the context of increased savings, i.e. a decrease in time preferences, interest rates fall, promoting the development of additional stages of production and increased productivity. This is a classic Böhm-Bawerkian production detour, and it is a highly desirable outcome.
@@ -399,7 +405,7 @@ To describe this phenomenon of temporal miscoordination and its consequences as 
 
 To facilitate our explanation, we will return to Menger's classification of goods and represent the productive structure on a diagram consisting of an arbitrary number of stages:
 
-![image](assets/Image/12.webp)
+![image](assets/en/17.webp)
 
 In the above diagram, initial resources pass through various stages of production, undergoing transformations that bring them closer to the state of final consumer goods (through interaction with original factors of production: time, land, labor). The height of the right side of the triangle schematically represents GDP since it denotes the sum of all consumer goods sold in a period. The gap between each bar corresponds to the value added (in monetary terms) generated by each stage of the process. This difference can also be seen as the income associated with each stage (revenues - costs).
 
@@ -407,7 +413,7 @@ If, at the aggregate level, economic agents increase their savings, the quantity
 
 We will then obtain an extended production structure, a change that can be qualitatively represented by the following diagram:
 
-![image](assets/Image/13.webp)
+![image](assets/en/18.webp)
 
 Here, the monetary value of demanded consumer goods has decreased, freeing up ressources for the creation of an additional stage of production. In this scenario where the decrease in interest rates is a consequence of decreased consumption, i.e., increased savings, the area of the triangle, representing the quantity of money in circulation, remains unchanged. The transformation of the production structure (lengthening) simply results from a transfer of purchasing power from one part of the structure to another.
 
@@ -423,7 +429,7 @@ With lower interest rates, entrepreneurs can borrow more resources and thus crea
 
 Note that this is a completely logical consequence of the credit expansion. Insofar as banks produce fiduciary media by granting loans, one should naturally expect overall purchasing power to increase.
 
-![image](assets/Image/14.webp)
+![image](assets/en/19.webp)
 
 As credit enters the economy through loans to entrepreneurs, we should observe an increase in profits in the production sectors distant from consumption, and a decrease in relative profits in sectors closer to consumption. This higher profitability then supports a reallocation of capital towards these new, more capital-intensive stages (shipbuilding, automotive, construction, advanced technologies, etc.), and a decrease in investments in sectors closer to consumption.
 
@@ -439,7 +445,7 @@ Such an adjustment can be viewed as a period during which underconsumption, and 
 
 Unfortunately, this depressive mechanism is often interrupted by political power and central banks seeking to “boost” the economy through deficit spending and easy monetary policy.
 
-![image](assets/Image/21.webp)
+![image](assets/en/20.webp)
 
 For both monetarists and Keynesians, the cause of the depression is insufficient aggregate demand, so neither pays attention to the evolution of relative prices, which, as we have seen, is the core of the problem. Thus, they believe that providing an incentive for credit expansion (lowering interest rates) and using the state's deficit capacity to boost demand will kickstart a recovery. In the short term, such measures may seem to produce the desired effects: the deficit supports spending, while the reduction in interest rates leads to higher asset prices, which, in turn, encourages asset holders to increase their spending. However, such boost eventually wanes off, while the structural problem remains, or even worsen as capital misallocation continues thanks to artificially low interest rates.
 
@@ -461,6 +467,7 @@ This will be the subject of the next and last chapter of this course.
 >
 > Ludwig von Mises, Planned Chaos
 
+
 ### The Impossibility of Economic Calculation under Socialism
 
 Despite the repeated failures of Marxist regimes over the last century, the economic calculation debate remains pertinent for two significant reasons:
@@ -478,7 +485,7 @@ With his article, Mises introduced a new dimension to the debate. Setting aside 
 
 ### Explaining the Impossibility of Economic Calculation
 
-![image](assets/Image/24.webp)
+![image](assets/en/21.webp)
 
 Most misconceptions about Mises's arguments arise from a misunderstanding of the roles played by managerial and entrepreneurial classes in a capitalist economy. Mises never dismissed the ability of managers to devise efficient production plans within their own operations. Instead, he emphasized the significance of entrepreneurs and shareholders, who, as owners of the means of production, allocate capital across different industries, thereby forming prices that serve as inputs in the economic calculations of managers.
 
@@ -488,6 +495,7 @@ Without markets for capital and money, it becomes impossible to rationalize the 
 >
 > Mises, Human Action, pp. 703-04
 
+
 In essence, Mises argues that property rights, which place capital owners in a context of profits and losses, motivate them to allocate their resources to industries that are currently most in need of resources to satisfy consumer demands. When they succeed, they profit, but when they fail, they incur financial losses. Their "skin in the game" encourages them to speculate about the best allocation of capital for the current state of the economy. This creates a market-driven dynamic where the collective outcomes of their actions produce vital information about the most efficient use of resources.
 
 Prior chapters have explained that values are subjective, economic actions reveal opportunity costs, and consumer prices express an ordinal hierarchy of consumer wants. Entrepreneurs compete for factors of production to construct production structures that maximize revenues over costs, satisfying consumer desires more effectively than alternative options. Therefore, prices of factors of production are derived from consumer prices: if a factor of production can generate greater monetary revenue (better satisfying consumer wants) in another industry or under a different plan, entrepreneurs will outbid its current owner, raising its price to its marginal productivity. This competition among entrepreneurs for factors of production, determining their highest marginal yield, is a process that generates relevant information about resource allocation.
@@ -496,7 +504,7 @@ This process is crucial because it validates or invalidates the efficiency of va
 
 From this perspective, a centrally planned economy will inevitably experience capital misallocation. In the short to medium term, such misallocations might go unnoticed because there are no market prices or bankruptcies to reveal them. However, due to the absence of feedback (prices) and reallocation mechanisms (bankruptcies), errors will accumulate until the wastefulness becomes apparent through a significant decline in living conditions.
 
-![image](assets/Image/22.webp)
+![image](assets/en/22.webp)
 
 ### The Austrian Perspective and the Failures of Other Schools of Economics
 
@@ -506,7 +514,7 @@ Despite this impressive forecasting and numerous empirical demonstrations of the
 
 ### The Austrian Business Cycle Theory as a Specific Case of the Impossibility of Economic Calculation under Socialism
 
-![image](assets/Image/23.webp)
+![image](assets/en/23.webp)
 
 In a previous chapter, we elucidated the dynamics of overinvestment and capital misallocation resulting from interest rate manipulation by central banks. Essentially, what we explained can be viewed as a specific case of the impossibility of economic calculation under socialism, applied to the realm of money markets. When prices are fixed outside their market values, entrepreneurs and capital allocators are incentivized to engage in investments that cannot be sustained in the long term due to a lack of savings. By interfering with the price system, central planners (in this case, central bankers) create a miscoordination between economic agents. In this instance, the intertemporal miscoordination entails overinvestment in higher-order investment goods and underinvestment in lower-order investment goods, which represents a specific manifestation of capital misallocation across industries.
 
@@ -517,6 +525,7 @@ Today, the economic calculation debate resurfaces primarily in discussions about
 For a concrete application of the economic calculation problem to a contemporary situation, you can refer to this article tackling the problem of resource allocation in modern China.
 
 > The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
+
 
 ### Conclusion
 
@@ -552,7 +561,7 @@ Methodology is an essential aspect in economics and in social sciences in genera
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
-## Evaluate the course
+## Reviews & Ratings
 
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -599,38 +608,4 @@ By reading these works and exploring these online resources, you can develop a d
 ## Conclusion
 
 <chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
-Congratulations on completing this course!
-
-We are delighted that you have reached this important milestone in your learning journey.
-
-Thanks to your dedication and commitment, you have acquired valuable knowledge and skills that will serve you in your professional development.
-
-To continue exploring the Bitcoin universe in depth, we invite you to discover all other courses available on Plan ₿ Network:
-
-#### Discover F. Bastiat's life with
-
-https://planb.network/courses/eco102
-
-#### Understand the emergence of hyperinflations with
-
-https://planb.network/courses/eco204
-
-#### Discover Bitcoin and its fundamentals with
-
-https://planb.network/courses/btc101
-
-#### Update your online security with
-
-https://planb.network/courses/scu101
-
-#### Discover the Lightning Network with
-
-https://planb.network/courses/lnp201
-
-#### Learn to create your Bitcoin community with
-
-https://planb.network/courses/btc302
-
-#### Understand how the Bitcoin wallet works with
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

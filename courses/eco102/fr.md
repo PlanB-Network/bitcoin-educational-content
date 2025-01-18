@@ -1227,7 +1227,7 @@ En substance, Reagan a retenu de Bastiat quelques éléments clés d’une visio
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-## Évaluez ce Cours
+## Avis & Notes
 
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1240,33 +1240,4 @@ En substance, Reagan a retenu de Bastiat quelques éléments clés d’une visio
 ## Conclusion
 
 <chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
-
-Félicitations pour avoir terminé ce cours !
-
-Nous sommes ravis que vous ayez atteint cette étape importante dans votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous serviront dans votre développement professionnel.
-
-Pour continuer à explorer en profondeur l'univers du Bitcoin, nous vous invitons à découvrir tous les autres cours disponibles sur Plan ₿ Network :
-
-#### Découvrez Bitcoin et ses fondamentaux avec
-
-https://planb.network/courses/btc101
-
-#### Obtenez et sécurisez vos premiers bitcoins avec
-
-https://planb.network/courses/btc102
-
-#### Mettez à jour votre sécurité en ligne avec
-
-https://planb.network/courses/scu101
-
-#### Découvrez le Lightning Network avec
-
-https://planb.network/courses/lnp201
-
-#### Apprenez la pensée économique de l'École Autrichienne avec
-
-https://planb.network/courses/eco201
-
-#### Comprenez les bases de Bitcoin et construisez votre chauffage domestique avec
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,12 +1,12 @@
 question: What is the position of Modern Monetary Theory (MMT) advocates in relation
   to money printing?
-answer: MMT advocates have advocated for money printing to achieve political goals.
+answer: MMT advocates support money printing to achieve political goals.
 wrong_answers:
   - MMT advocates are against money printing under any circumstances.
   - MMT advocates believe that money printing should be controlled by the central bank.
   - MMT advocates believe that money printing should be avoided due to the risk of inflation.
 explanation: |
-  Modern Monetary Theory (MMT) advocates have advocated for money printing
+  Modern Monetary Theory (MMT) advocates support money printing
   to achieve political goals, using the absence of inflation between 2008 and 2019
   as an argument.
-reviewed: false
+reviewed: true

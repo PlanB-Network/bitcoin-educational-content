@@ -28,6 +28,7 @@ Nauti löydöstäsi!
 ## Lightning-verkon ymmärtäminen
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
+![video en](https://youtu.be/QDQ8NG0l3hk)
 
 
 Tervetuloa LNP201-kurssille, jonka tavoitteena on selittää Lightning-verkon tekninen toiminta.
@@ -84,6 +85,7 @@ Tämä on tämän ensimmäisen luvun loppu, jossa olemme luoneet perustan Lightn
 ## Bitcoin, osoitteet, UTXO ja siirrot
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
+![video en](https://youtu.be/U9l5IVriCss)
 
 Tämä luku on hieman erityinen, sillä se ei suoraan keskity Lightning-verkkoon, vaan Bitcoiniin. Todellakin, Lightning-verkko on kerros Bitcoinin päällä. On siis olennaista ymmärtää tietyt Bitcoinin peruskäsitteet, jotta voimme kunnolla käsittää Lightningin toiminnan seuraavissa luvuissa. Tässä luvussa käymme läpi Bitcoinin vastaanotto-osoitteiden, UTXO:iden sekä Bitcoin-siirtojen toiminnan perusteet.
 
@@ -148,6 +150,7 @@ Tämä luku Bitcoinista on antanut meille mahdollisuuden kerrata joitakin olenna
 ## Kanavan Avaaminen
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
+![video en](https://youtu.be/Ty80WuN5X-g)
 
 
 Tässä luvussa tarkastelemme tarkemmin, miten maksukanava avataan Lightning-verkossa ja ymmärrämme yhteyden tämän toimenpiteen ja taustalla olevan Bitcoin-järjestelmän välillä.
@@ -210,6 +213,7 @@ Seuraavassa luvussa tutustumme Lightning-transaktion tekniseen toimintaan kanava
 ## Sitoutumistransaktio
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
+![video en](https://youtu.be/dzPMGiR_JSE)
 
 
 Tässä luvussa tutustumme Lightning-verkon kanavalla tapahtuvan transaktion tekniseen toimintaan, eli kun varoja siirretään kanavan toiselta puolelta toiselle.
@@ -266,6 +270,7 @@ Tässä järjestelmässä on kuitenkin potentiaalinen puute, johon puutumme seur
 ## Revocation Key
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
+![video en](https://youtu.be/veCs39uVFUk)
 Tässä luvussa syvennymme siihen, miten tapahtumat toimivat Lightning-verkossa keskustelemalla mekanismeista, jotka suojaavat huijauksilta, varmistaen, että kumpikin osapuoli noudattaa kanavan sääntöjä.
 
 ### Muistutus: Sitoumustapahtumat
@@ -341,6 +346,7 @@ Tässä koulutuksen vaiheessa tiedät nyt, miten Lightning-kanavat avataan ja mi
 ## Kanavan sulkeminen
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
+![video en](https://youtu.be/zmAa2fj_V7w)
 
 
 Tässä luvussa keskustelemme **kanavan sulkemisesta** Lightning-verkossa, joka tehdään Bitcoin-transaktiolla, aivan kuten kanavan avaaminen. Nähtyämme, miten transaktiot kanavassa toimivat, on nyt aika nähdä, miten sulkea kanava ja palauttaa varat Bitcoin-lohkoketjuun.
@@ -425,6 +431,7 @@ Kanavan sulkemiseen on kolme tapaa:
 ## Lightning-verkko
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
+![video en](https://youtu.be/44oBdNdXtEQ)
 
 
 Tässä luvussa tutkimme, miten maksut Lightning-verkossa voivat saavuttaa vastaanottajan, vaikka he eivät olisikaan suoraan yhdistettyjä maksukanavalla. Lightning on todellakin **maksukanavien verkosto**, joka mahdollistaa varojen lähettämisen kaukaiselle solmulle muiden osallistujien kanavien kautta. Tulemme löytämään, miten maksut reititetään verkoston läpi, miten likviditeetti liikkuu kanavien välillä, ja miten transaktiomaksut lasketaan.
@@ -537,6 +544,7 @@ Tässä luvussa tutkimme maksujen reititystä Lightning-verkossa. Mutta herää 
 ## HTLC – Hashed Time Locked Contract
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
+![video en](https://youtu.be/jI4nM297aHA)
 
 
 Tässä luvussa tutustumme siihen, miten Lightning mahdollistaa maksujen siirtymisen välisolmujen kautta ilman, että niitä tarvitsee luottaa, kiitos **HTLC** (_Hashed Time-Locked Contracts_) -älykkäiden sopimusten. Nämä älykkäät sopimukset varmistavat, että jokainen välisolmu saa varat kanavastaan vain, jos se välittää maksun lopulliselle vastaanottajalle, muuten maksua ei vahvisteta.
@@ -654,6 +662,7 @@ Seuraavassa luvussa tutustumme siihen, miten solmu, joka lähettää Lightning-t
 ## Löytämäsi Tie
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
+![video en](https://youtu.be/CqetCElRjUQ)
 
 
 Edellisissä luvuissa näimme, miten käyttää muiden solmujen kanavia maksujen reitittämiseen ja tavoittamaan solmun ilman, että on suoraan yhdistetty siihen kanavan kautta. Keskustelimme myös siitä, miten varmistetaan siirron turvallisuus luottamatta välittäjiin. Tässä luvussa keskitymme parhaan mahdollisen reitin löytämiseen kohdesolmuun.
@@ -740,6 +749,7 @@ Seuraavassa luvussa tutkimme erityisesti laskujen toimintaa, lisäksi joitakin m
 ## Lasku, LNURL ja Keysend
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
+![video en](https://youtu.be/XANzf1Qqp9I)
 Tässä luvussa tarkastelemme tarkemmin Lightning **laskujen** toimintaa, eli maksupyyntöjä, jotka vastaanottava solmu lähettää lähettävälle solmulle. Tavoitteena on ymmärtää, miten maksuja suoritetaan ja vastaanotetaan Lightning-verkossa. Keskustelemme myös kahdesta klassisten laskujen vaihtoehdosta: LNURL ja Keysend.
 ![LNP201](assets/en/68.webp)
 
@@ -848,6 +858,7 @@ Seuraavassa luvussa näemme, kuinka solmuoperaattori voi hallita likviditeettiä
 ## Likviditeettisi Hallinta
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
+![video en](https://youtu.be/MIbej28La7Y)
 
 
 Tässä luvussa tutkimme strategioita tehokkaaseen likviditeetin hallintaan Lightning-verkossa. Likviditeetin hallinta vaihtelee käyttäjätyypin ja kontekstin mukaan. Käymme läpi pääperiaatteet ja olemassa olevat tekniikat ymmärtääksemme paremmin, kuinka optimoida tämä hallinta.
@@ -917,6 +928,7 @@ Seuraavassa luvussa ehdotan tärkeimpien käsitteiden kertausta tästä koulutuk
 ## Koulutuksen päätelmä
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
+![video en](https://youtu.be/coaskEGRjiU)
 
 Tässä viimeisessä luvussa, joka merkitsee LNP201-koulutuksen päätöstä, ehdotan, että kertaamme yhdessä käsittelemämme tärkeät konseptit.
 Tämän koulutuksen tavoitteena oli tarjota sinulle kattava ja tekninen ymmärrys Lightning-verkosta. Havaitsimme, miten Lightning-verkko nojaa Bitcoinin lohkoketjuun suorittaakseen off-chain-transaktioita, säilyttäen samalla Bitcoinin perusominaisuudet, erityisesti tarpeettomuuden luottaa muihin solmuihin.

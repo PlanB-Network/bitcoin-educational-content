@@ -28,6 +28,7 @@ Viel Spaß bei Ihrer Entdeckung!
 ## Das Lightning-Netzwerk verstehen
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
+![video en](https://youtu.be/QDQ8NG0l3hk)
 
 
 Willkommen beim LNP201-Kurs, der darauf abzielt, die technische Funktionsweise des Lightning-Netzwerks zu erklären.
@@ -84,6 +85,7 @@ Dies ist das Ende dieses ersten Kapitels, in dem wir die Grundlagen für das Lig
 ## Bitcoin, Adressen, UTXO und Transaktionen
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
+![video en](https://youtu.be/U9l5IVriCss)
 
 Dieses Kapitel ist ein wenig besonders, da es nicht direkt dem Lightning-Netzwerk gewidmet ist, sondern Bitcoin. Tatsächlich ist das Lightning-Netzwerk eine Schicht auf Bitcoin. Es ist daher wesentlich, bestimmte grundlegende Konzepte von Bitcoin zu verstehen, um die Funktionsweise von Lightning in den nachfolgenden Kapiteln richtig zu erfassen. In diesem Kapitel werden wir die Grundlagen von Bitcoin-Empfangsadressen, UTXOs sowie die Funktionsweise von Bitcoin-Transaktionen überprüfen.
 
@@ -148,6 +150,7 @@ Dieses Kapitel über Bitcoin hat es uns ermöglicht, einige wesentliche Begriffe
 ## Kanaleröffnung
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
+![video en](https://youtu.be/Ty80WuN5X-g)
 
 
 In diesem Kapitel werden wir genauer sehen, wie man einen Zahlungskanal im Lightning-Netzwerk öffnet und den Zusammenhang zwischen dieser Operation und dem zugrundeliegenden Bitcoin-System verstehen.
@@ -210,6 +213,7 @@ Im nächsten Kapitel werden wir die technische Funktionsweise einer Transaktion 
 ## Commitment-Transaktion
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
+![video en](https://youtu.be/dzPMGiR_JSE)
 
 
 In diesem Kapitel werden wir die technische Funktionsweise einer Transaktion innerhalb eines Kanals im Lightning-Netzwerk entdecken, das heißt, wenn Gelder von einer Seite des Kanals zur anderen bewegt werden.
@@ -265,6 +269,7 @@ Allerdings hat dieses System einen potenziellen Fehler, den wir im nächsten Kap
 ## Widerrufsschlüssel
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
+![video en](https://youtu.be/veCs39uVFUk)
 In diesem Kapitel werden wir tiefer in die Funktionsweise von Transaktionen im Lightning-Netzwerk eintauchen, indem wir die Mechanismen diskutieren, die zum Schutz vor Betrug eingerichtet sind, um sicherzustellen, dass jede Partei die Regeln innerhalb eines Kanals einhält.
 
 ### Erinnerung: Commitment-Transaktionen
@@ -340,6 +345,7 @@ Zu diesem Zeitpunkt im Training wissen Sie nun, wie Lightning-Kanäle geöffnet 
 ## Kanalschließung
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
+![video en](https://youtu.be/zmAa2fj_V7w)
 
 
 In diesem Kapitel werden wir das **Schließen eines Kanals** im Lightning-Netzwerk besprechen, was durch eine Bitcoin-Transaktion erfolgt, genau wie das Öffnen eines Kanals. Nachdem wir gesehen haben, wie Transaktionen innerhalb eines Kanals funktionieren, ist es nun an der Zeit zu sehen, wie man einen Kanal schließt und die Mittel auf der Bitcoin-Blockchain wiederherstellt.
@@ -424,6 +430,7 @@ Es gibt drei Wege, einen Kanal zu schließen:
 ## Lightning-Netzwerk
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
+![video en](https://youtu.be/44oBdNdXtEQ)
 
 
 In diesem Kapitel werden wir erkunden, wie Zahlungen im Lightning-Netzwerk einen Empfänger erreichen können, auch wenn sie nicht direkt durch einen Zahlungskanal verbunden sind. Lightning ist tatsächlich ein **Netzwerk von Zahlungskanälen**, das es ermöglicht, Gelder über die Kanäle anderer Teilnehmer an einen entfernten Knoten zu senden. Wir werden entdecken, wie Zahlungen durch das Netzwerk geleitet werden, wie Liquidität zwischen Kanälen fließt und wie Transaktionsgebühren berechnet werden.
@@ -536,6 +543,7 @@ In diesem Kapitel haben wir das Routing von Zahlungen im Lightning-Netzwerk erku
 ## HTLC – Hashed Time Locked Contract
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
+![video en](https://youtu.be/jI4nM297aHA)
 
 
 In diesem Kapitel werden wir entdecken, wie Lightning Zahlungen durch Zwischenknoten ermöglicht, ohne dass diesen vertraut werden muss, dank **HTLC** (_Hashed Time-Locked Contracts_). Diese Smart Contracts stellen sicher, dass jeder Zwischenknoten die Gelder aus seinem Kanal nur dann erhält, wenn er die Zahlung an den endgültigen Empfänger weiterleitet, andernfalls wird die Zahlung nicht validiert.
@@ -653,6 +661,7 @@ Im nächsten Kapitel werden wir entdecken, wie ein Knoten, der eine Lightning-Tr
 ## Ihren Weg finden
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
+![video en](https://youtu.be/CqetCElRjUQ)
 
 
 In den vorherigen Kapiteln haben wir gesehen, wie man die Kanäle anderer Knoten nutzen kann, um Zahlungen zu routen und einen Knoten zu erreichen, ohne direkt über einen Kanal mit ihm verbunden zu sein. Wir haben auch besprochen, wie man die Sicherheit der Übertragung ohne Vertrauen in die Zwischenknoten gewährleistet. In diesem Kapitel werden wir uns darauf konzentrieren, die bestmögliche Route zu finden, um einen Zielknoten zu erreichen.
@@ -739,6 +748,7 @@ Im folgenden Kapitel werden wir speziell die Funktionsweise von Rechnungen studi
 ## Rechnung, LNURL und Keysend
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
+![video en](https://youtu.be/XANzf1Qqp9I)
 In diesem Kapitel werden wir uns genauer mit der Funktionsweise von Lightning **Rechnungen** befassen, also Zahlungsanforderungen, die vom Empfängerknoten an den Senderknoten gesendet werden. Ziel ist es zu verstehen, wie man auf Lightning bezahlt und Zahlungen empfängt. Wir werden auch 2 Alternativen zu klassischen Rechnungen besprechen: LNURL und Keysend.
 ![LNP201](assets/en/68.webp)
 
@@ -846,6 +856,7 @@ Im folgenden Kapitel werden wir sehen, wie ein Knotenbetreiber die Liquidität i
 ## Ihre Liquidität verwalten
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
+![video en](https://youtu.be/MIbej28La7Y)
 
 
 In diesem Kapitel werden wir Strategien zur effektiven Verwaltung der Liquidität im Lightning-Netzwerk erkunden. Die Verwaltung der Liquidität variiert je nach Benutzertyp und Kontext. Wir werden uns die Hauptprinzipien und bestehenden Techniken ansehen, um besser zu verstehen, wie man diese Verwaltung optimieren kann.
@@ -915,6 +926,7 @@ Im nächsten Kapitel schlage ich vor, die wichtigsten Konzepte dieser Schulung z
 ## Schlussfolgerung der Schulung
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
+![video en](https://youtu.be/coaskEGRjiU)
 
 In diesem abschließenden Kapitel, das das Ende des LNP201-Trainings markiert, schlage ich vor, die wichtigen Konzepte, die wir gemeinsam behandelt haben, noch einmal zu besuchen.
 Das Ziel dieses Trainings war es, Ihnen ein umfassendes und technisches Verständnis des Lightning-Netzwerks zu vermitteln. Wir haben entdeckt, wie das Lightning-Netzwerk auf der Bitcoin-Blockchain basiert, um Off-Chain-Transaktionen durchzuführen, während es die grundlegenden Eigenschaften von Bitcoin beibehält, insbesondere die Abwesenheit der Notwendigkeit, anderen Knoten zu vertrauen.

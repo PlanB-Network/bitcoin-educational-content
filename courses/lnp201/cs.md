@@ -28,6 +28,7 @@ Užijte si objevování!
 ## Porozumění Lightning Network
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
+![video en](https://youtu.be/QDQ8NG0l3hk)
 
 
 Vítejte v kurzu LNP201, jehož cílem je vysvětlit technické fungování Lightning Network.
@@ -84,6 +85,7 @@ Toto je konec této první kapitoly, kde jsme položili základy pro Lightning N
 ## Bitcoin, Adresy, UTXO a Transakce
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
+![video en](https://youtu.be/U9l5IVriCss)
 
 Tato kapitola je trochu speciální, protože nebude přímo věnována Lightning Network, ale Bitcoinu. Skutečně, Lightning Network je vrstva postavená na Bitcoinu. Je tedy zásadní pochopit určité základní koncepty Bitcoinu, aby bylo možné správně chápat fungování Lightning Network v následujících kapitolách. V této kapitole si projdeme základy Bitcoinových přijímacích adres, UTXO, stejně jako fungování Bitcoinových transakcí.
 
@@ -148,6 +150,7 @@ Tato kapitola o Bitcoinu nám umožnila probrat některé základní pojmy pro n
 ## Otevírání kanálu
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
+![video en](https://youtu.be/Ty80WuN5X-g)
 
 
 V této kapitole se podrobněji podíváme na to, jak otevřít platební kanál na Lightning Network a pochopíme spojení této operace s podkladovým systémem Bitcoinu.
@@ -258,6 +261,7 @@ Avšak tento systém má potenciální nedostatek, který řešíme v následuj�
 ## Revokační klíč
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
+![video en](https://youtu.be/veCs39uVFUk)
 V této kapitole se podrobněji podíváme na to, jak transakce fungují na Lightning Network tím, že probereme mechanismy zajišťující ochranu proti podvodům, čímž zajistíme, že každá strana dodržuje pravidla v rámci kanálu.
 
 ### Připomenutí: Transakce závazku
@@ -333,6 +337,7 @@ V tomto bodě školení již víte, jak jsou otevírány kanály Lightning a jak
 ## Uzavření kanálu
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
+![video en](https://youtu.be/zmAa2fj_V7w)
 
 
 V této kapitole budeme diskutovat o **uzavření kanálu** na Lightning Network, které se provádí prostřednictvím Bitcoinové transakce, stejně jako otevření kanálu. Po pochopení, jak fungují transakce v rámci kanálu, je nyní čas zjistit, jak kanál uzavřít a získat zpět prostředky na Bitcoin blockchainu.
@@ -417,6 +422,7 @@ Existují tři způsoby, jak uzavřít kanál:
 ## Lightning Network
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
+![video en](https://youtu.be/44oBdNdXtEQ)
 
 
 V této kapitole prozkoumáme, jak mohou platby na Lightning Network dosáhnout příjemce, i když nejsou přímo spojeni platebním kanálem. Lightning je skutečně **síť platebních kanálů**, která umožňuje posílání prostředků na vzdálený uzel prostřednictvím kanálů ostatních účastníků. Zjistíme, jak jsou platby směrovány napříč sítí, jak se likvidita pohybuje mezi kanály a jak se vypočítávají transakční poplatky.
@@ -529,6 +535,7 @@ V této kapitole jsme prozkoumali směrování plateb na Lightning Network. Ale 
 ## HTLC – Hashed Time Locked Contract
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
+![video en](https://youtu.be/jI4nM297aHA)
 
 
 V této kapitole objevíme, jak Lightning umožňuje platby přecházet prostřednictvím prostředníků bez nutnosti jim důvěřovat, díky **HTLC** (_Hashed Time-Locked Contracts_). Tyto chytré kontrakty zajišťují, že každý prostředník obdrží prostředky z jeho kanálu pouze v případě, že přepošle platbu konečnému příjemci, jinak nebude platba ověřena.
@@ -647,6 +654,7 @@ V další kapitole zjistíme, jak uzel vydávající transakci Lightning najde a
 ## Hledání cesty
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
+![video en](https://youtu.be/CqetCElRjUQ)
 
 
 V předchozích kapitolách jsme viděli, jak používat kanály jiných uzlů k směrování plateb a dosažení uzlu, aniž bychom byli přímo s ním spojeni přes kanál. Také jsme diskutovali o tom, jak zajistit bezpečnost převodu bez důvěry v prostředníkovy uzly. V této kapitole se zaměříme na nalezení nejlepší možné trasy k dosažení cílového uzlu.
@@ -733,6 +741,7 @@ V následující kapitole se budeme konkrétně zabývat fungováním faktur, kr
 ## Faktura, LNURL a Keysend
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
+![video en](https://youtu.be/XANzf1Qqp9I)
 V této kapitole se podrobněji podíváme na fungování Lightning **faktur**, tedy platebních požadavků, které odesílá příjemce uzlu odesílateli. Cílem je pochopit, jak platit a přijímat platby na Lightning. Také probereme 2 alternativy klasických faktur: LNURL a Keysend.
 ![LNP201](assets/en/68.webp)
 
@@ -840,6 +849,7 @@ V následující kapitole uvidíme, jak může operátor uzlu spravovat likvidit
 ## Správa vaší likvidity
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
+![video en](https://youtu.be/MIbej28La7Y)
 
 
 V této kapitole prozkoumáme strategie pro efektivní správu likvidity na Lightning Network. Správa likvidity se liší v závislosti na typu uživatele a kontextu. Podíváme se na hlavní principy a existující techniky, abychom lépe pochopili, jak tuto správu optimalizovat.
@@ -909,6 +919,7 @@ V další kapitole navrhuji projít nejdůležitější koncepty tohoto školen�
 ## Závěr školení
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
+![video en](https://youtu.be/coaskEGRjiU)
 
 V tomto závěrečném kapitole, která označuje konec školení LNP201, navrhuji znovu navštívit důležité koncepty, které jsme společně probrali.
 Cílem tohoto školení bylo poskytnout vám komplexní a technické porozumění Lightning Network. Zjistili jsme, jak Lightning Network spoléhá na Bitcoin blockchain k provádění transakcí mimo řetězec, přičemž si zachovává základní charakteristiky Bitcoinu, zejména absenci potřeby důvěřovat ostatním uzlům.

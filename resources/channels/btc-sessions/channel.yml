@@ -1,14 +1,15 @@
-id: 8c13c689-c6f4-4b22-b12f-9d542ef74164 
+id: cd639b66-83c8-4a8e-bc5d-a814bdab379b
 name: BTC Sessions
 language: en
 links:
   channel: https://www.youtube.com/@BTCSessions
   trailer: https://youtu.be/-R7TFUr0tzw
 description: |
-  BTC Sessions is geared towards helping you understand Bitcoin. Get the tutorials on wallets, hardware, security, exchanges and much more, as well as the latest news and industry interviews. 
+  BTC Sessions is geared towards helping you understand Bitcoin. Get the tutorials on wallets, hardware, security, exchanges and much more, as well as the latest news and industry interviews.
 tags:
   - guides
   - use-case
   - user-friendly
 contributors:
   - another-satoshi
+  - hunt-wood

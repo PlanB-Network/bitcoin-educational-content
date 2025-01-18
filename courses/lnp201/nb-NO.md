@@ -29,7 +29,6 @@ Nyt oppdagelsen!
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
-![Forstå Lightning Network](https://youtu.be/PszWk046x-I)
 
 Velkommen til LNP201-kurset, som har som mål å forklare den tekniske funksjonen til Lightning Network.
 
@@ -86,7 +85,6 @@ Dette er slutten på dette første kapittelet, hvor vi har lagt grunnlaget for L
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
-![bitcoin, addresses, utxo, and transactions](https://youtu.be/cadCJ2V7zTg)
 Dette kapittelet er litt spesielt siden det ikke vil være direkte viet til Lightning, men til Bitcoin. Faktisk er Lightning Network et lag på toppen av Bitcoin. Det er derfor essensielt å forstå visse grunnleggende konsepter av Bitcoin for å ordentlig forstå hvordan Lightning fungerer i de påfølgende kapitlene. I dette kapittelet vil vi gå gjennom grunnleggende om Bitcoin mottaksadresser, UTXOer, samt funksjonen til Bitcoin-transaksjoner.
 
 ### Bitcoin-adresser, private nøkler og offentlige nøkler
@@ -151,7 +149,6 @@ Dette kapittelet om Bitcoin har tillatt oss å gjennomgå noen essensielle begre
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
-![åpne en kanal](https://youtu.be/B2caBC0Rxko)
 
 I dette kapittelet vil vi se mer presist hvordan man åpner en betalingskanal på Lightning Network og forstå koblingen mellom denne operasjonen og det underliggende Bitcoin-systemet.
 
@@ -214,7 +211,6 @@ I neste kapittel vil vi utforske den tekniske funksjonen av en Lightning-transak
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
-![Lightning-transaksjon & forpliktelsestransaksjon](https://youtu.be/aPqI34tpypM)
 
 I dette kapittelet vil vi oppdage den tekniske funksjonen av en transaksjon innenfor en kanal på Lightning-nettverket, det vil si når midler flyttes fra den ene siden av kanalen til den andre.
 
@@ -269,7 +265,6 @@ Imidlertid har dette systemet en potensiell feil, som vi vil adressere i neste k
 ## Tilbakekallingsnøkkel
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
-![transaksjoner del 2](https://youtu.be/RRvoVTLRJ84)
 I dette kapittelet vil vi gå dypere inn i hvordan transaksjoner fungerer på Lightning Network ved å diskutere mekanismene som er på plass for å beskytte mot juks, og sikre at hver part følger reglene innenfor en kanal.
 
 ### Påminnelse: Forpliktelsestransaksjoner
@@ -346,7 +341,6 @@ På dette tidspunktet i opplæringen vet du nå hvordan Lightning-kanaler åpnes
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
-![lukk en kanal](https://youtu.be/FVmQvNpVW8Y)
 
 I dette kapittelet skal vi diskutere **å lukke en kanal** på Lightning-nettverket, som gjøres gjennom en Bitcoin-transaksjon, akkurat som å åpne en kanal. Etter å ha sett hvordan transaksjoner innenfor en kanal fungerer, er det nå på tide å se hvordan man lukker en kanal og gjenoppretter midlene på Bitcoin-blokkjeden.
 
@@ -431,7 +425,6 @@ Det er tre måter å lukke en kanal på:
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 
-![lightning network](https://youtu.be/RAZAa3v41DM)
 
 I dette kapittelet skal vi utforske hvordan betalinger på Lightning Network kan nå en mottaker selv om de ikke er direkte koblet gjennom en betalingskanal. Lightning er faktisk et **nettverk av betalingskanaler**, som tillater at midler sendes til en fjern node gjennom kanalene til andre deltakere. Vi vil oppdage hvordan betalinger rutes gjennom nettverket, hvordan likviditet beveger seg mellom kanaler, og hvordan transaksjonsgebyrer beregnes.
 
@@ -544,7 +537,6 @@ I dette kapittelet utforsket vi betalingsruting på Lightning-nettverket. Men et
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
-![HTLC](https://youtu.be/-JC4mkq7H48)
 
 I dette kapittelet vil vi oppdage hvordan Lightning tillater betalinger å transittere gjennom mellomliggende noder uten å måtte stole på dem, takket være **HTLC** (_Hashed Time-Locked Contracts_). Disse smartkontraktene sikrer at hver mellomliggende node bare vil motta midlene fra sin kanal hvis den videresender betalingen til den endelige mottakeren, ellers vil ikke betalingen bli validert.
 
@@ -659,7 +651,6 @@ I neste kapittel vil vi oppdage hvordan en node som utsteder en Lightning-transa
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
-![finne veien](https://youtu.be/wnUGJjOxd9Q)
 
 I de foregående kapitlene så vi hvordan man kan bruke andre noders kanaler for å rute betalinger og nå en node uten å være direkte koblet til den via en kanal. Vi diskuterte også hvordan man sikrer sikkerheten til overføringen uten å stole på mellomliggende noder. I dette kapittelet vil vi fokusere på å finne den best mulige ruten for å nå en målnode.
 
@@ -745,7 +736,6 @@ I det følgende kapittelet vil vi spesifikt studere funksjonen av fakturaer, i t
 ## Faktura, LNURL, og Keysend
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
-![faktura, LNURL, Keysend](https://youtu.be/CHnXJuZTarU)
 I dette kapittelet vil vi ta en nærmere titt på hvordan **fakturaer** i Lightning fungerer, det vil si betalingsforespørsler sendt av mottaker-noden til sender-noden. Målet er å forstå hvordan man betaler og mottar betalinger på Lightning. Vi vil også diskutere 2 alternativer til klassiske fakturaer: LNURL og Keysend.
 ![LNP201](assets/en/68.webp)
 
@@ -855,7 +845,6 @@ I det følgende kapittelet vil vi se hvordan en nodeoperatør kan håndtere likv
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
-![administrere din likviditet](https://youtu.be/YuPrbhEJXbg)
 
 I dette kapittelet vil vi utforske strategier for effektiv håndtering av likviditet på Lightning-nettverket. Likviditetsstyring varierer avhengig av brukertype og kontekst. Vi vil se på hovedprinsippene og eksisterende teknikker for å bedre forstå hvordan man kan optimalisere denne styringen.
 
@@ -925,7 +914,6 @@ I neste kapittel foreslår jeg å gjennomgå de viktigste konseptene fra denne o
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
-![konklusjon](https://youtu.be/MaWpD0rbkVo)
 I dette siste kapittelet som markerer slutten på LNP201-opplæringen, foreslår jeg å gjenoppta de viktige konseptene vi har dekket sammen.
 Målet med denne opplæringen var å gi deg en omfattende og teknisk forståelse av Lightning Network. Vi oppdaget hvordan Lightning Network stoler på Bitcoin-blockchainen for å utføre transaksjoner utenfor kjeden, samtidig som de grunnleggende egenskapene til Bitcoin beholdes, spesielt fraværet av behovet for å stole på andre noder.
 

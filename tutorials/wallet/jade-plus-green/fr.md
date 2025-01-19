@@ -6,9 +6,9 @@ description: Configurer facilement le Jade Plus avec Green
 
 Le Jade Plus est un hardware wallet Bitcoin-only conçu par Blockstream. C'est le successeur du Jade classique avec des améliorations logicielles, des options en plus et une ergonomie repensée pour une utilisation plus intuitive. Cette nouvelle version se distingue notamment par son magnifique écran LCD de 1,9 pouce offrant une gamme de couleurs étendue comparée à son prédécesseur. Les boutons et la navigation dans les menus ont aussi été optimisés.
 
-Le Jade Plus peut être utilisé de plusieurs manières : via une connexion filaire USB-C, en mode "Air-Gap" avec une carte micro SD (adaptateur nécessaire), en Bluetooth ou encore par échange de QR codes grâce à la caméra intégrée. Ce hardware wallet fonctionne sur batterie.
+Le Jade Plus peut être utilisé de plusieurs manières : via une connexion filaire USB-C, en mode "*Air-Gap*" avec une carte micro SD (adaptateur nécessaire), en Bluetooth ou encore par échange de QR codes grâce à la caméra intégrée. Ce hardware wallet fonctionne sur batterie.
 
-Il est disponible à partir de $149,99 en version noire de base, et le prix peut augmenter de jusqu'à $20 pour les versions "Genesis Grey" ou "Lunar Silver". Le Jade Plus se positionne donc comme un choix intéressant, avec des fonctionnalités avancées comparables à celles des hardware wallets haut de gamme tels que le Coldcard Q ou le Passport V2, mais à un tarif assez bas, proche des modèles de milieu de gamme.
+Il est disponible à partir de $149,99 en version noire de base, et le prix peut augmenter de jusqu'à $20 pour les versions "*Genesis Grey*" ou "*Lunar Silver*". Le Jade Plus se positionne donc comme un choix intéressant, avec des fonctionnalités avancées comparables à celles des hardware wallets haut de gamme tels que le Coldcard Q ou le Passport V2, mais à un tarif assez bas, proche des modèles de milieu de gamme.
 
 ![JADE-PLUS-GREEN](assets/fr/01.webp)
 
@@ -31,14 +31,14 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 
 ## Le modèle de sécurité du Jade Plus
 
-Le Jade Plus utilise un modèle de sécurité reposant sur un "secure element virtuel", matérialisé par un "blind oracle". Concrètement, ce mécanisme combine le PIN choisi par l’utilisateur, un secret hébergé sur le Jade et un secret détenu par l’oracle (un serveur maintenu par Blockstream), afin de créer une clé AES-256 répartie sur deux entités. Lors de l’initiation, un échange ECDH sécurise la communication avec l’oracle, et permet de chiffrer la phrase de récupération sur le hardware wallet. Concrètement, lorsque l'on souhaite accéder à la seed pour signer des transactions, il faut avoir accès :
+Le Jade Plus utilise un modèle de sécurité reposant sur un "*secure element virtuel*", matérialisé par un "*blind oracle*". Concrètement, ce mécanisme combine le PIN choisi par l’utilisateur, un secret hébergé sur le Jade et un secret détenu par l’oracle (un serveur maintenu par Blockstream), afin de créer une clé AES-256 répartie sur deux entités. Lors de l’initiation, un échange ECDH sécurise la communication avec l’oracle, et permet de chiffrer la phrase de récupération sur le hardware wallet. Concrètement, lorsque l'on souhaite accéder à la seed pour signer des transactions, il faut avoir accès :
 - À l'appareil Jade Plus en lui-même ;
 - Au PIN pour déverrouiller l'appareil ;
 - Et au secret de l'oracle.
 
 L’avantage majeur de cette approche est l’absence de point de défaillance unique au niveau du hardware, puisque si jamais un attaquant a accès à votre Jade, l’extraction des clés exige de compromettre simultanément le Jade et l’oracle. Aussi, ce modèle permet au Jade Plus d'être entièrement open-source, puisqu'il permet d'éviter les contraintes liées à l'utilisation de véritables secure elements physiques, tels que ceux utilisés sur les Ledger par exemple.
 
-L'inconvénient de ce système est que l'utilisation du Jade Plus dépend de l'oracle maintenu par Blockstream. Si cet oracle devient inaccessible, il n'est plus possible d'utiliser directement le hardware wallet avec le PIN. Cependant, cela ne signifie pas que vos bitcoins sont perdus, car ils peuvent toujours être récupérés grâce à votre phrase de récupération, que vous pouvez d'ailleurs entrer dans le Jade Plus en mode "stateless". Pour contourner cette dépendance, il est aussi possible de configurer et de gérer son propre serveur d'oracle.
+L'inconvénient de ce système est que l'utilisation du Jade Plus dépend de l'oracle maintenu par Blockstream. Si cet oracle devient inaccessible, il n'est plus possible d'utiliser directement le hardware wallet avec le PIN. Cependant, cela ne signifie pas que vos bitcoins sont perdus, car ils peuvent toujours être récupérés grâce à votre phrase de récupération, que vous pouvez d'ailleurs entrer dans le Jade Plus en mode "*stateless*". Pour contourner cette dépendance, il est aussi possible de configurer et de gérer son propre serveur d'oracle.
 
 ## Unboxing du Jade Plus
 
@@ -49,7 +49,7 @@ Lors de la réception de votre Jade Plus, vérifiez que la boite et le sceau son
 Dans la boite, vous trouverez :
 - Le Jade Plus ;
 - Un cable USB-C ;
-- Des cartons pour noter votre phrase mnémonique sous forme de mots ou bien sous forme "CompactSeedQR" ;
+- Des cartons pour noter votre phrase mnémonique sous forme de mots ou bien sous forme "*CompactSeedQR*" ;
 - Quelques notices d'utilisation ;
 - Un cordon ;
 - Quelques autocollants.
@@ -70,19 +70,19 @@ Cliquez sur le bouton de démarrage.
 
 ![JADE-PLUS-GREEN](assets/fr/05.webp)
 
-Cliquez sur "Setup Jade".
+Cliquez sur "*Setup Jade*".
 
 ![JADE-PLUS-GREEN](assets/fr/06.webp)
 
-Choisissez "Begin Setup". L'option "Advanced Setup" permet de faire la même chose, mais avec un accès aux paramètres avancés.
+Choisissez "*Begin Setup*". L'option "*Advanced Setup*" permet de faire la même chose, mais avec un accès aux paramètres avancés.
 
 ![JADE-PLUS-GREEN](assets/fr/07.webp)
 
-Puis cliquez sur "Create a New Wallet" pour générer une nouvelle seed.
+Puis cliquez sur "*Create a New Wallet*" pour générer une nouvelle seed.
 
 ![JADE-PLUS-GREEN](assets/fr/08.webp)
 
-Cliquez sur le bouton "Continue" pour afficher votre nouvelle phrase de récupération.
+Cliquez sur le bouton "*Continue*" pour afficher votre nouvelle phrase de récupération.
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
@@ -116,15 +116,15 @@ Pour avoir des instructions sur l'installation et le paramétrage de l'applicati
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-Une fois sur l'application Blockstream Green, cliquez sur le bouton "Configurer un nouveau portefeuille".
+Une fois sur l'application Blockstream Green, cliquez sur le bouton "*Configurer un nouveau portefeuille*".
 
 ![JADE-PLUS-GREEN](assets/fr/13.webp)
 
-Choisissez "On Hardware Wallet".
+Choisissez "*On Hardware Wallet*".
 
 ![JADE-PLUS-GREEN](assets/fr/14.webp)
 
-Activez le Bluetooth sur votre smartphone, puis cliquez sur le bouton "Connectez votre Jade".
+Activez le Bluetooth sur votre smartphone, puis cliquez sur le bouton "*Connectez votre Jade*".
 
 ![JADE-PLUS-GREEN](assets/fr/15.webp)
 
@@ -136,7 +136,7 @@ L'application est en train de rechercher votre Jade Plus.
 
 ![JADE-PLUS-GREEN](assets/fr/17.webp)
 
-Sur le Jade Plus, cliquez sur le menu "Bluetooth".
+Sur le Jade Plus, cliquez sur le menu "*Bluetooth*".
 
 ![JADE-PLUS-GREEN](assets/fr/18.webp)
 
@@ -162,7 +162,7 @@ Green vous confirme si votre appareil est bien authentique.
 
 ## Configurer le code PIN
 
-Cliquez sur le bouton "Continuer" pour choisir le code PIN de votre Jade.
+Cliquez sur le bouton "*Continuer*" pour choisir le code PIN de votre Jade.
 
 ![JADE-PLUS-GREEN](assets/fr/24.webp)
 
@@ -182,15 +182,15 @@ Votre portefeuille bitcoin a bien été créé.
 
 ## Créer un compte Bitcoin
 
-Vous devez maintenant créer un compte au sein de votre portefeuille. Cliquez sur le bouton "Créer un compte".
+Vous devez maintenant créer un compte au sein de votre portefeuille. Cliquez sur le bouton "*Créer un compte*".
 
 ![JADE-PLUS-GREEN](assets/fr/28.webp)
 
-Choisissez "Standard" si vous souhaitez créer un portefeuille single-sig classique. 
+Choisissez "*Standard*" si vous souhaitez créer un portefeuille single-sig classique. 
 
 ![JADE-PLUS-GREEN](assets/fr/29.webp)
 
-Pour plus d'informations sur l'option "2FA", vous pouvez suivre cet autre tutoriel :
+Pour plus d'informations sur l'option "*2FA*", vous pouvez suivre cet autre tutoriel :
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
@@ -202,7 +202,7 @@ Si vous souhaitez personnaliser votre portefeuille sur Green, cliquez sur les tr
 
 ![JADE-PLUS-GREEN](assets/fr/31.webp)
 
-L'option "Renommer" vous permet de personnaliser le nom de votre portefeuille, ce qui est particulièrement utile si vous gérez plusieurs portefeuilles sur la même application. Le menu "Unité" vous permet de changer l'unité de base de votre portefeuille. Vous pouvez par exemple choisir de l'afficher en satoshis plutôt qu'en bitcoins. Enfin, le menu "Paramètres" vous donne accès à d'autres options. Vous y trouverez par exemple votre clé publique étendue et son descriptor, utiles si vous envisagez de configurer un portefeuille en mode watch-only à partir de votre Jade.
+L'option "*Renommer*" vous permet de personnaliser le nom de votre portefeuille, ce qui est particulièrement utile si vous gérez plusieurs portefeuilles sur la même application. Le menu "*Unité*" vous permet de changer l'unité de base de votre portefeuille. Vous pouvez par exemple choisir de l'afficher en satoshis plutôt qu'en bitcoins. Enfin, le menu "*Paramètres*" vous donne accès à d'autres options. Vous y trouverez par exemple votre clé publique étendue et son descriptor, utiles si vous envisagez de configurer un portefeuille en mode watch-only à partir de votre Jade.
 
 ![JADE-PLUS-GREEN](assets/fr/32.webp)
 
@@ -214,7 +214,7 @@ Puis saisissez le code PIN sur votre Jade, et vous serez de nouveau connecté.
 
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 
-Le déverrouillage de votre Jade s'effectue via le "secure element virtuel" de Blockstream (référez-vous à la première section du tutoriel). Pour cela, une connexion Bluetooth avec l'application Green est nécessaire. Si vous rencontrez des difficultés avec la connexion Bluetooth lors du déverrouillage, tentez de dissocier et de réassocier les deux appareils. Si le problème persiste, vous pouvez toujours déverrouiller votre Jade en sélectionnant l'option "Scan QR" et en suivant les instructions disponibles [sur le site web de Blockstream](https://jadefw.blockstream.com/pinqr/index.html).
+Le déverrouillage de votre Jade s'effectue via le "*secure element virtuel*" de Blockstream (référez-vous à la première section du tutoriel). Pour cela, une connexion Bluetooth avec l'application Green est nécessaire. Si vous rencontrez des difficultés avec la connexion Bluetooth lors du déverrouillage, tentez de dissocier et de réassocier les deux appareils. Si le problème persiste, vous pouvez toujours déverrouiller votre Jade en sélectionnant l'option "*Scan QR*" et en suivant les instructions disponibles [sur le site web de Blockstream](https://jadefw.blockstream.com/pinqr/index.html).
 
 Avant de recevoir vos premiers bitcoins sur votre portefeuille, **je vous conseille vivement de réaliser un test de récupération à vide**. Notez une information de référence, telle que votre xpub ou la première adresse de réception, puis supprimez votre portefeuille sur l'application Green et sur la Jade Plus tant qu'il est encore vide (`Options -> Device -> Factory Reset`). Ensuite, essayez de restaurer votre portefeuille en utilisant vos sauvegardes papier de la phrase mnémonique. Vérifiez que l'information témoin générée après la restauration correspond à celle que vous aviez notée initialement. Si c'est le cas, vous pouvez être assuré que vos sauvegardes papier sont fiables. Pour en savoir plus sur comment effectuer un test de récupération, je vous conseille de consulter cet autre tutoriel :
 
@@ -222,11 +222,11 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 ## Recevoir des bitcoins
 
-Maintenant que votre portefeuille Bitcoin est configuré, vous êtes prêt à recevoir vos premiers sats ! Pour cela, cliquez simplement sur le bouton "Recevoir" sur l'application Green.
+Maintenant que votre portefeuille Bitcoin est configuré, vous êtes prêt à recevoir vos premiers sats ! Pour cela, cliquez simplement sur le bouton "*Recevoir*" sur l'application Green.
 
 ![JADE-PLUS-GREEN](assets/fr/35.webp)
 
-Green affiche une adresse de réception, mais avant de l'utiliser, il est essentiel de la vérifier sur le Jade pour confirmer qu'elle appartient bien à notre portefeuille. Pour cela, cliquez sur le bouton "Vérifier sur l'appareil".
+Green affiche une adresse de réception, mais avant de l'utiliser, il est essentiel de la vérifier sur le Jade pour confirmer qu'elle appartient bien à notre portefeuille. Pour cela, cliquez sur le bouton "*Vérifier sur l'appareil*".
 
 ![JADE-PLUS-GREEN](assets/fr/36.webp)
 
@@ -240,7 +240,7 @@ Vous pouvez maintenant partager l'adresse avec le payeur pour recevoir des bitco
 
 ## Envoyer des bitcoins
 
-Avec des bitcoins dans votre portefeuille, vous pouvez maintenant également en envoyer. Cliquez sur "Envoyer".
+Avec des bitcoins dans votre portefeuille, vous pouvez maintenant également en envoyer. Cliquez sur "*Envoyer*".
 
 ![JADE-PLUS-GREEN](assets/fr/39.webp)
 
@@ -252,11 +252,11 @@ Choisissez le montant du paiement.
 
 ![JADE-PLUS-GREEN](assets/fr/41.webp)
 
-En bas de l'écran, vous pouvez sélectionner le taux de frais pour cette transaction. Vous avez le choix de suivre les recommandations de l'application ou de personnaliser vos frais. Plus les frais sont élevés par rapport aux autres transactions en attente, plus vite votre transaction sera traitée. Pour connaitre le marché de frais, vous pouvez consulter le site [Mempool.space](https://mempool.space/) dans la section "Transaction Fees".
+En bas de l'écran, vous pouvez sélectionner le taux de frais pour cette transaction. Vous avez le choix de suivre les recommandations de l'application ou de personnaliser vos frais. Plus les frais sont élevés par rapport aux autres transactions en attente, plus vite votre transaction sera traitée. Pour connaitre le marché de frais, vous pouvez consulter le site [Mempool.space](https://mempool.space/) dans la section "*Transaction Fees*".
 
 ![JADE-PLUS-GREEN](assets/fr/42.webp)
 
-Cliquez sur "Suivant" pour accéder à un écran récapitulatif de votre transaction. Vérifiez que l'adresse, le montant et les frais sont corrects.
+Cliquez sur "*Suivant*" pour accéder à un écran récapitulatif de votre transaction. Vérifiez que l'adresse, le montant et les frais sont corrects.
 
 ![JADE-PLUS-GREEN](assets/fr/43.webp)
 

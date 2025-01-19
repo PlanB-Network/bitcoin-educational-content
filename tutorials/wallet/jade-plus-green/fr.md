@@ -27,7 +27,7 @@ Le Jade Plus est compatible avec la majorité des logiciels de gestion de portef
 
 Dans ce tutoriel, nous allons configurer et utiliser le Jade Plus avec l'application mobile Green Wallet de Blockstream via une connexion Bluetooth. Cette configuration est idéale pour les débutants. Si vous recherchez une approche plus avancée, je vous recommande de consulter ce tutoriel où nous utilisons le Jade Plus avec Sparrow Wallet en mode QR codes :
 
-
+https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Le modèle de sécurité du Jade Plus
 
@@ -64,7 +64,6 @@ L'appareil dispose de 4 boutons de navigation :
 
 04
 
-
 ## Configuration d'un nouveau portefeuille Bitcoin
 
 Cliquez sur le bouton de démarrage.
@@ -75,7 +74,7 @@ Cliquez sur "Setup Jade".
 
 06
 
-Choisissez "Begin Setup". L'option "Advanced Setup" permet de faire la même chose, mais avec un accès aux paramètres avancés. Nous explorerons comment utiliser cette option dans un autre tutoriel.
+Choisissez "Begin Setup". L'option "Advanced Setup" permet de faire la même chose, mais avec un accès aux paramètres avancés.
 
 07
 
@@ -109,7 +108,9 @@ Une fois la sauvegarde de votre phrase terminée, le Jade Plus vous demande de l
 
 ## Connecter le Jade Plus à Green Wallet
 
-Dans ce tutoriel, nous allons utiliser l'application Green Wallet pour gérer le portefeuille hébergé sur le Jade Plus. Cette méthode est particulièrement adaptée pour les débutants. Si vous désirez avoir une gestion plus fine de votre portefeuille Bitcoin, vous pouvez également utiliser Sparrow Wallet, que nous aborderons dans un prochain tutoriel.
+Dans ce tutoriel, nous allons utiliser l'application Green Wallet pour gérer le portefeuille hébergé sur le Jade Plus. Cette méthode est particulièrement adaptée pour les débutants. Si vous désirez avoir une gestion plus fine de votre portefeuille Bitcoin, vous pouvez également utiliser Sparrow Wallet, que nous aborderons dans un autre tutoriel :
+
+https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Pour avoir des instructions sur l'installation et le paramétrage de l'application Blockstream Green, veuillez consulter la première partie de cet autre tutoriel :
 
@@ -283,3 +284,4 @@ Félicitations, vous savez dorénavant comment configurer et utiliser le Jade Pl
 
 Pour aller plus loin, je vous recommande de consulter ce tutoriel sur le Jade Plus, où nous le configurons avec le logiciel Sparrow Wallet en mode QR. Vous y apprendrez également comment utiliser les paramètres avancés de votre hardware wallet :
 
+https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

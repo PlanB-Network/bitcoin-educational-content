@@ -14,16 +14,16 @@ Il est disponible à partir de $149,99 en version noire de base, et le prix peut
 
 Le Jade Plus est compatible avec la majorité des logiciels de gestion de portefeuille. Voici un récapitulatif des compatibilités au moment de la rédaction de ce tutoriel (janvier 2025) :
 
-| Logiciel de gestion | Desktop | Mobile | USB | Bluetooth  | QR  | JadeLink |
-| ------------------- | ------- | ------ | --- | ---------- | --- | -------- |
-| Blockstream Green   | ✓       | ✓      | ✓   | ✓ (Mobile) | ✓   | X        |
-| Sparrow             | ✓       | X      | ✓   | X          | ✓   | ✓        |
-| Nunchuk             | ✓       | ✓      | X   | X          | ✓   | ✓        |
-| Specter             | ✓       | X      | X   | X          | ✓   | ✓        |
-| BlueWallet          | ✓       | ✓      | X   | X          | ✓   | ✓        |
-| Electrum            | ✓       | X      | ✓   | X          | X   | X        |
-| Liana               | ✓       | X      | ✓   | X          | X   | X        |
-| Keeper              | X       | ✓      | X   | X          | ✓   | X        |
+| Logiciel de gestion | Desktop | Mobile | USB | Bluetooth   | QR  | JadeLink |
+| ------------------- | ------- | ------ | --- | ----------- | --- | -------- |
+| Blockstream Green   | 🟢      | 🟢     | 🟢  | 🟢 (Mobile) | 🟢  | 🔴       |
+| Liana               | 🟢      | 🔴     | 🟢  | 🔴          | 🔴  | 🔴       |
+| Sparrow             | 🟢      | 🔴     | 🟢  | 🔴          | 🟢  | 🟢       |
+| Nunchuk             | 🟢      | 🟢     | 🔴  | 🔴          | 🟢  | 🟢       |
+| Specter             | 🟢      | 🔴     | 🔴  | 🔴          | 🟢  | 🟢       |
+| BlueWallet          | 🟢      | 🟢     | 🔴  | 🔴          | 🟢  | 🟢       |
+| Electrum            | 🟢      | 🔴     | 🟢  | 🔴          | 🔴  | 🔴       |
+| Keeper              | 🔴      | 🟢     | 🔴  | 🔴          | 🟢  | 🔴       |
 
 Dans ce tutoriel, nous allons configurer et utiliser le Jade Plus avec l'application mobile Green Wallet de Blockstream via une connexion Bluetooth. Cette configuration est idéale pour les débutants. Si vous recherchez une approche plus avancée, je vous recommande de consulter ce tutoriel où nous utilisons le Jade Plus avec Sparrow Wallet en mode QR codes :
 

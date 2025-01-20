@@ -40,7 +40,7 @@ Whether you represent a small enterprise or a large corporation, this course aim
 # Currency, payment systems, and Bitcoin
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
 
-## Traditional currencies and payment systems
+## Traditional currencies
 <chapterId>785e095c-6811-4ca2-ba46-fe38291432d4</chapterId>
 
 ### Currencies are Networks
@@ -117,11 +117,12 @@ Each stage in the evolution of currency networks has improved key properties: po
 
 The best network is likely to win.
 
-### Traditional Payment systems
+## Traditional payment systems
+<chapterId>1306196c-1e8a-454b-8e11-6887ecb3d8b4</chapterId>
 
 Payment systems are methods and infrastructures that enable the transfer of funds between two parties—typically between a payer (such as a consumer) and a payee (such as a business). These transactions can occur in various settings: a consumer paying a local merchant, a business settling invoices with a supplier, or even individuals transferring money to one another. Understanding payment systems involves looking at the different types of payment methods, their characteristics, and their use cases in both Business-to-Consumer (B2C) and Business-to-Business (B2B) contexts.
 
-**Common Types of Payment Methods**
+### Common Types of Payment Methods
 
 1. **Cash:** Physical currency exchanged directly between two parties.
 2. **Checks:** Paper documents instructing a bank to pay a specified amount from the payer’s account to the payee.
@@ -144,7 +145,7 @@ Payment systems are methods and infrastructures that enable the transfer of fund
 *Graphic: Global Trends in Point-of-Sale (POS) Payment Methods (2023-2027), The Global Payments Report 2024, Worldpay.*
 
 
-**The Complexity Behind a Simple Card Payment at a retail Point of Sale**
+### The Complexity Behind a Simple Card Payment
 
 When a customer uses a credit card at a shop, the card is read by the POS terminal, which securely transmits the transaction data to the merchant’s acquiring bank. The acquirer forwards this information to the relevant card network (e.g., Visa or Mastercard), which then routes the request to the issuer—the bank that provided the customer’s card. The issuer checks the customer’s account or credit line and sends back an authorization through the network and acquirer, allowing the merchant to accept payment.
 
@@ -154,7 +155,7 @@ This seemingly simple transaction actually involves over 15 steps, 7 intermediar
 
 Overall, this process is intricate, time-consuming, and costly for what should be the simple act of moving value from one party to another.
 
-**Comparison Payment Methods**
+### Comparison Payment Methods
 
 | Payment Method                 | Authorization Needed?           | Transaction Approval Time (Merchant View) | Settlement Speed (Funds Fully Settled)         | Finality (Ease of Reversal)              | Number of Intermediaries       | Typical Fees (to Payee)            |
 | ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
@@ -164,7 +165,7 @@ Overall, this process is intricate, time-consuming, and costly for what should b
 | **Payment Cards**              | Yes (Card Issuer Authorization) | Seconds to Minutes (Authorization Code)   | A Few Days (Interbank Settlement)              | Medium (Chargebacks Possible)            | Issuer, Acquirer, Card Network | **Variable (1-3% of Transaction)** |
 | **Digital Wallets/Mobile Pay** | Yes (Wallet Provider/Bank)      | Seconds (Instant Confirmation)            | Typically 1-2 Days (Depends on Funding Source) | Medium (Refund/Dispute Possible)         | Banks, Wallet Operators        | **Low to Medium (Varies)**         |
 
-**Limitations of existing solutions**
+### Limitations of existing solutions
 
 The traditional payments industry represents an annual economy of approximately 2,200 billion dollars, roughly one-tenth of the GDP of the United States or equal to the GDP of France. Because currencies function as permissioned networks, there is limited competition, making this "service" more akin to a tax imposed on the productive economy. In addition to the cost burdens it creates, there are several other limitations, as outlined below.
 

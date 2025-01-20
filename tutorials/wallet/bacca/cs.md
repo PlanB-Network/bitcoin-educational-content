@@ -99,8 +99,11 @@ Nyní máte přístup k rozhraní softwaru.
 Pokud je váš Ledger nový, ujistěte se, že jste nastavili kód PIN a uložili frázi pro obnovení. Pro tyto úvodní kroky nepotřebujete Ledger Live. Jednoduše připojte Ledger přes USB kabel a napájejte jej. Pokud si nejste jisti, jak postupovat v těchto dvou krocích, můžete se podívat na začátek návodu specifického pro váš model:
 
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
-https://planb.network/fr/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
-https://planb.network/fr/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
 ## Použití Bacca
 
 Připojte Ledger k počítači a odemkněte jej pomocí nastaveného kódu PIN. Bacca by měla automaticky detekovat váš Ledger.
@@ -138,3 +141,4 @@ Pokud pro vás byl tento návod užitečný, budu vám vděčný, když mi níž
 Doporučuji vám také podívat se na tento návod na GnuPG, který vysvětluje, jak zkontrolovat integritu a pravost softwaru před jeho instalací. To je důležitý postup, zejména při instalaci softwaru pro správu portfolia, jako je Liana nebo Sparrow :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+

@@ -504,7 +504,7 @@ Tuleb märkida, et internet on suuresti tsentraliseeritud ja valdavalt Ameerika 
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Hinda seda kursust
+## Hinnangud & Reitingud
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -517,37 +517,4 @@ Tuleb märkida, et internet on suuresti tsentraliseeritud ja valdavalt Ameerika 
 ## Kokkuvõte
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-Õnnitleme selle kursuse läbimise puhul!
-
-Meil on hea meel, et olete oma õppeteel edukalt jõudnud selle tähiseni.
-
-Tänu teie pühendumisele ja pühendumusele olete omandanud väärtuslikud teadmised ja oskused, mis tulevad kasuks teie professionaalses arengus.
-
-Et oma teadmisi Bitcoini maailmas veelgi süvendada, kutsume teid tutvuma teiste Plan ₿ Networkis saadaolevate kursustega, nagu:
-
-#### Avastage Bitcoin ja selle põhitõed koos
-
-https://planb.network/courses/btc101
-
-#### Saage ja turvake oma esimesed bitcoinid koos
-
-https://planb.network/courses/btc102
-
-#### Avastage Lightning võrgustik koos
-
-https://planb.network/courses/lnp201
-
-#### Avastage Austria koolkonna majanduslik mõtlemine koos
-
-https://planb.network/courses/eco201
-
-#### Avastage Bitcoini päritolu ajalugu koos
-
-https://planb.network/courses/his201
-
-#### Mõistke, kuidas Bitcoin rahakott töötab koos
-
-https://planb.network/courses/cyp201
-
-
+<isCourseConclusion>true</isCourseConclusion>

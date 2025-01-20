@@ -1213,7 +1213,7 @@ Este aspecto misterioso que rodea al creador de Bitcoin fue bien resumido por Ha
 >
 > ¿Qué significa la S?"
 
-## Evaluar el curso
+## Reseñas & Valoraciones
 <chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1336,7 +1336,7 @@ En cuarto lugar, Bitcoin fue una creación altruista. Satoshi Nakamoto ofreció 
 En 2011, Satoshi desapareció, pero Bitcoin sobrevivió. La criptomoneda incluso despegó definitivamente, tanto desde un punto de vista mediático como económico. La máquina se puso en marcha y nadie podía detenerla.
 # Conclusión
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
-## Evalúe este curso
+## Reseñas & Valoraciones
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
 <isCourseReview>true</isCourseReview>
 ## Examen final
@@ -1344,28 +1344,4 @@ En 2011, Satoshi desapareció, pero Bitcoin sobrevivió. La criptomoneda incluso
 <isCourseExam>true</isCourseExam>
 ## Conclusión
 <chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
-¡Felicitaciones por completar este curso!
-
-Estamos encantados de que hayas alcanzado este importante hito en tu viaje de aprendizaje.
-
-Gracias a tu dedicación y compromiso, has adquirido valiosos conocimientos y habilidades que te servirán en tu desarrollo profesional.
-
-Para seguir explorando en profundidad el universo Bitcoin, te invitamos a descubrir todos los demás cursos disponibles en Plan ₿ Network:
-
-#### Descubre Bitcoin y sus fundamentos con
-https://planb.network/courses/btc101
-
-#### Descubre la Escuela Austríaca de Economía con
-https://planb.network/courses/eco201
-
-#### Obtén y asegura tus primeros bitcoins con
-https://planb.network/courses/btc102
-
-#### Actualiza tu seguridad en línea con
-https://planb.network/courses/scu101
-
-#### Descubre la evolución de la libertad a través de los tiempos con
-https://planb.network/courses/phi201
-
-#### Comprende los fundamentos de la minería con
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

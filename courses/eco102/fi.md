@@ -1029,7 +1029,7 @@ Ytimessään Reagan otti Bastiatilta useita avainelementtejä liberaalin yhteisk
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-## Arvioi tämä kurssi
+## Arviot & Arvosanat
 
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1042,35 +1042,4 @@ Ytimessään Reagan otti Bastiatilta useita avainelementtejä liberaalin yhteisk
 ## Yhteenveto
 
 <chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
-
-Onnittelut kurssin suorittamisesta!
-
-Olemme iloisia, että olet saavuttanut tämän tärkeän virstanpylvään oppimismatkallasi.
-
-Omistautumisesi ja sitoutumisesi ansiosta olet saanut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
-
-Jatkaaksesi Bitcoinin maailman syvempää tutkimista, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
-
-#### Tutustu Bitcoiniin ja sen perusteisiin kurssilla
-
-https://planb.network/courses/btc101
-
-#### Hanki ja turvaa ensimmäiset bitcoinisi kurssilla
-
-https://planb.network/courses/btc102
-
-#### Päivitä verkkotietoturvasi kurssilla
-
-https://planb.network/courses/scu101
-
-#### Tutustu Lightning Networkiin kurssilla
-
-https://planb.network/courses/lnp201
-
-#### Opi Itävallan koulukunnan talousajattelua kurssilla
-
-https://planb.network/courses/eco201
-
-#### Ymmärrä Bitcoinin perusteet ja rakenna kotilämmitysjärjestelmäsi kurssilla
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

@@ -1233,7 +1233,7 @@ Bitcoinの創設者を取り巻くこの神秘的な側面は、2014年に亡く
 > Sは何を意味するのか？"
 
 
-## コースの評価
+## レビュー & 評価
 <chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1357,7 +1357,7 @@ Bitcoinの普及は、その価格が大幅に上昇することを意味しま�
 2011年にサトシは姿を消しましたが、ビットコインは生き残りました。この暗号通貨は、メディアおよび経済的観点からも、確実に飛躍しました。機械は起動され、誰もそれを止めることができませんでした。
 # 結論
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
-## このコースを評価する
+## レビュー & 評価
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
 <isCourseReview>true</isCourseReview>
 ## 最終試験
@@ -1365,28 +1365,4 @@ Bitcoinの普及は、その価格が大幅に上昇することを意味しま�
 <isCourseExam>true</isCourseExam>
 ## 結論
 <chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
-このコースを修了おめでとうございます！
-
-学習の旅路でこの重要な節目に到達されたことを大変嬉しく思います。
-
-あなたの献身と努力のおかげで、専門的な成長に役立つ貴重な知識とスキルを習得されました。
-
-ビットコインの世界をさらに深く探求するため、Plan ₿ Networkで利用可能な他のすべてのコースをご覧ください：
-
-#### ビットコインとその基礎について学ぶ
-https://planb.network/courses/btc101
-
-#### オーストリア学派経済学について学ぶ
-https://planb.network/courses/eco201
-
-#### 最初のビットコインを取得し、セキュリティを確保する
-https://planb.network/courses/btc102
-
-#### オンラインセキュリティを更新する
-https://planb.network/courses/scu101
-
-#### 自由の進化の歴史について学ぶ
-https://planb.network/courses/phi201
-
-#### マイニングの基礎を理解する
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

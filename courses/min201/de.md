@@ -789,7 +789,7 @@ Das Endergebnis ist eine höhere Hash-Rate pro Watt Stromverbrauch, was bedeutet
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Bewerten Sie diesen Kurs
+## Bewertungen & Noten
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -802,30 +802,4 @@ Das Endergebnis ist eine höhere Hash-Rate pro Watt Stromverbrauch, was bedeutet
 ## Abschluss
 
 <chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
-Herzlichen Glückwunsch zum Abschluss dieses Kurses!
-
-Wir freuen uns, dass Sie diesen wichtigen Meilenstein in Ihrer Lernreise erreicht haben.
-
-Durch Ihr Engagement und Ihre Hingabe haben Sie wertvolles Wissen und Fähigkeiten erworben, die Ihnen in Ihrer beruflichen Entwicklung dienen werden.
-
-Um das Bitcoin-Universum weiter zu erforschen, laden wir Sie ein, alle anderen verfügbaren Kurse auf Plan ₿ Network zu entdecken:
-
-#### Entdecken Sie Bitcoin und seine Grundlagen mit
-
-https://planb.network/courses/btc101
-
-#### Entdecken Sie das Lightning Network mit
-
-https://planb.network/courses/lnp201
-
-#### Beherrschen Sie die Prinzipien der Privatsphäre auf Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Entdecken Sie die Geschichte der Ursprünge von Bitcoin mit
-
-https://planb.network/courses/his201
-
-#### Verstehen Sie, wie die Bitcoin-Wallet funktioniert mit
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

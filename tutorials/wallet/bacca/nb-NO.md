@@ -99,8 +99,12 @@ Du har nå tilgang til programvaregrensesnittet.
 Hvis du har en ny Ledger, må du sørge for at du har satt opp PIN-koden og lagret gjenopprettingsfrasen før du starter. Du trenger ikke Ledger Live for disse innledende trinnene. Du trenger bare å koble til Ledger via USB-kabelen for å gi den strøm. Hvis du ikke er sikker på hvordan du går frem med disse to trinnene, kan du se begynnelsen av veiledningen som er spesifikk for din modell:
 
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
-https://planb.network/fr/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
-https://planb.network/fr/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
+
 ## Bruk av Bacca
 
 Koble Ledger til datamaskinen, og lås den opp ved hjelp av PIN-koden du har angitt. Bacca bør automatisk oppdage Ledger.
@@ -138,3 +142,4 @@ Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legge
 Jeg anbefaler også at du tar en titt på denne veiledningen om GnuPG, som forklarer hvordan du sjekker integriteten og autentisiteten til programvaren din før du installerer den. Dette er en viktig praksis, spesielt når du installerer programvare for porteføljeforvaltning som Liana eller Sparrow :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+

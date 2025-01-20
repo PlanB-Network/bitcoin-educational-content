@@ -99,8 +99,11 @@ You now have access to the software interface.
 Before you start, if your Ledger is new, make sure you have set up the PIN code and saved the recovery phrase. You don't need Ledger Live for these initial steps. Simply connect your Ledger via the USB cable to power it. If you're not sure how to proceed with these two steps, you can refer to the beginning of the tutorial specific to your model:
 
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
-https://planb.network/fr/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
-https://planb.network/fr/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
 ## Using Bacca
 
 Connect your Ledger to your computer and unlock it using the PIN code you have set. Bacca should automatically detect your Ledger.
@@ -138,3 +141,4 @@ If you found this tutorial useful, I'd be grateful if you'd leave a green thumb 
 I also recommend you take a look at this tutorial on GnuPG, which explains how to check the integrity and authenticity of your software before installing it. This is an important practice, especially when installing portfolio management software such as Liana or Sparrow :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+

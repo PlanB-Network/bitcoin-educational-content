@@ -3641,7 +3641,7 @@ _Selle Silent Payments'i peatüki loomiseks kasutasin [Silent Payments'i selgita
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-## Hinnake seda kursust
+## Hinnangud & Reitingud
 
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -3654,41 +3654,4 @@ _Selle Silent Payments'i peatüki loomiseks kasutasin [Silent Payments'i selgita
 ## Kokkuvõte
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
-Õnnitleme Bitcoini privaatsuskoolituse läbimise puhul!
-
-Selles koolituses käsitlesime palju keerulisi ja tehnilisi teemasid, kuid kõiki tutvustatud tööriistu ei ole vaja kasutada. Peamine eesmärk oli anda teile võimalus valida, millist teavet soovite Bitcoini kasutamisel avalikustada ja millist soovite hoida konfidentsiaalsena. See kehastab privaatsuskaitse olemust. Et teha teadlikke valikuid teabe jagamise või varjamise kohta, peate olema teadlik oma tegude tagajärgedest. Loodan, et see koolitus aitas teil need teadmised omandada.
-
-Kui peaksin valima selle koolituse kõige olulisema osa, valiksin plokiahela analüüsile pühendatud osa. Potentsiaalsete ründajate kasutatavate tehnikate mõistmine on parim viis end nende eest kaitsta. Seega oleks minu nõuanne see osa hoolikalt üle vaadata ja püüda mõista kõiki selle üksikasju.
-
-Selles koolituses keskendusime ainult Bitcoini privaatsusele peamisel ahelal. Privaatsusküsimused teise kihi süsteemides, nagu Lightning Network ja kõrvalketid, on samuti olulised ja neil on väga spetsiifilised omadused. Kuigi ahelaväliste tehingute kasutamine võib olla tõhus strateegia paljude meie uuritud Bitcoini jälgitavuse riskide vältimiseks, seab see teid vastamisi teiste riskidega, mida on samuti oluline teada. Seepärast käsitletakse neid teemasid Plan ₿ Networki tulevases spetsiaalses koolituses.
-
-Kui teile see koolitus meeldis, oleksin väga tänulik, kui jagaksite seda oma lähedaste ja sotsiaalmeedias. Aitäh! :)
-
-Et oma teadmisi Bitcoini maailmas veelgi süvendada, kutsume teid tutvuma teiste Plan ₿ Networkis saadaolevate kursustega, nagu:
-
-#### Mõistke, kuidas Bitcoin rahakott töötab
-
-https://planb.network/courses/cyp201
-
-#### Õppige looma oma Bitcoini kogukonda
-
-https://planb.network/courses/btc302
-
-#### Avastage Bitcoini päritolu ajalugu
-
-https://planb.network/courses/his201
-
-#### Seadistage BTC maksete server
-
-https://planb.network/courses/btc305
-
-#### Avastage Lightning Network
-
-https://planb.network/courses/lnp201
-
-#### Avastage vabaduse areng läbi aegade
-
-https://planb.network/courses/phi201
-
-
-
+<isCourseConclusion>true</isCourseConclusion>

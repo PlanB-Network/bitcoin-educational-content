@@ -85,7 +85,7 @@ class OpenAITranslator(BaseTranslator):
             response = self.client.chat.completions.create(
                 model="gpt-4",
                 messages=[
-                    {"role": "system", "content": f"You are a translator from {self.source_lang} to {self.target_lang}. Translate the text exactly as provided, preserving formatting and special characters."},
+                    {"role": "system", "content": f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."},
                     {"role": "user", "content": text}
                 ],
                 temperature=0.1
@@ -95,6 +95,43 @@ class OpenAITranslator(BaseTranslator):
             print(f"\nError translating text: {text}")
             print(f"Error: {e}")
             return text
+
+class DeepSeekTranslator(BaseTranslator):
+    def __init__(self, source_lang: str, target_lang: str):
+        api_key = os.getenv('DEEPSEEK_API_KEY')
+        if not api_key:
+            raise ValueError("DEEPSEEK_API_KEY not found in environment variables")
+        self.client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
+        self.source_lang = source_lang
+        self.target_lang = target_lang
+        self.last_request_time = 0
+        self.min_request_interval = 0.1
+
+    def translate_text(self, text: str) -> str:
+        if not text or not text.strip():
+            return text
+        
+        current_time = time.time()
+        time_since_last_request = current_time - self.last_request_time
+        if time_since_last_request < self.min_request_interval:
+            time.sleep(self.min_request_interval - time_since_last_request)
+        self.last_request_time = time.time()
+
+        try:
+            response = self.client.chat.completions.create(
+                model="deepseek-chat",
+                messages=[
+                    {"role": "system", "content": f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."},
+                    {"role": "user", "content": text}
+                ],
+                temperature=0.1
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            print(f"\nError translating text: {text}")
+            print(f"Error: {e}")
+            return text
+
 
 class FileTranslator:
     def __init__(self, config: TranslationConfig):

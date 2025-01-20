@@ -561,7 +561,7 @@ Dans le cadre du module de formation "Sécurité 101" de Découvre Bitcoin sur l
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Évaluez le cours
+## Avis & Notes
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -574,36 +574,4 @@ Dans le cadre du module de formation "Sécurité 101" de Découvre Bitcoin sur l
 ## Conclusion
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-Félicitations pour avoir terminé ce cours !
-
-Nous sommes ravis que vous ayez atteint avec succès cette étape dans votre parcours d'apprentissage.
-
-Grâce à votre dévouement et votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous serviront dans votre développement professionnel.
-
-Pour continuer à approfondir vos connaissances dans l'univers du Bitcoin, nous vous invitons à explorer d'autres cours disponibles sur Plan ₿ Network comme :
-
-#### Découvrez Bitcoin et ses fondamentaux avec
-
-https://planb.network/courses/btc101
-
-#### Obtenez et sécurisez vos premiers bitcoins avec
-
-https://planb.network/courses/btc102
-
-#### Découvrez le réseau Lightning avec
-
-https://planb.network/courses/lnp201
-
-#### Découvrez la pensée économique de l'École autrichienne avec
-
-https://planb.network/courses/eco201
-
-#### Découvrez l'histoire des origines de Bitcoin avec
-
-https://planb.network/courses/his201
-
-#### Comprenez le fonctionnement d'un portefeuille Bitcoin avec
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

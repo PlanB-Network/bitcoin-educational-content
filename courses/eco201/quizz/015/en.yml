@@ -6,7 +6,8 @@ wrong_answers:
   - Each party believes it will maintain their subjective utility.
   - Each party believes it will have no effect on their subjective utility.
 explanation: |
-  Menger deduces that voluntary exchange between two individuals takes
-  place because each party believes it will increase their subjective utility. This
-  means that each party believes they will be better off after the exchange.
-reviewed: false
+  Menger deduces that voluntary exchange between two
+  individuals takes place because each party believes it will
+  increase their subjective utility. This means that each
+  party believes they will be better off after the exchange.
+reviewed: true

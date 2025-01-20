@@ -1029,7 +1029,7 @@ Về bản chất, Reagan đã lấy từ Bastiat một số yếu tố then ch�
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-## Đánh giá khóa học này
+## Nhận xét & Đánh giá
 
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1042,35 +1042,4 @@ Về bản chất, Reagan đã lấy từ Bastiat một số yếu tố then ch�
 ## Kết luận
 
 <chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
-
-Chúc mừng bạn đã hoàn thành khóa học này!
-
-Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình.
-
-Thông qua sự cống hiến và cam kết của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ phục vụ cho sự phát triển nghề nghiệp của bạn.
-
-Để tiếp tục khám phá sâu hơn về vũ trụ Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
-
-#### Khám phá Bitcoin và các nguyên tắc cơ bản của nó với
-
-https://planb.network/courses/btc101
-
-#### Nhận và bảo mật bitcoin đầu tiên của bạn với
-
-https://planb.network/courses/btc102
-
-#### Cập nhật bảo mật trực tuyến của bạn với
-
-https://planb.network/courses/scu101
-
-#### Khám phá Lightning Network với
-
-https://planb.network/courses/lnp201
-
-#### Học tư duy kinh tế của trường phái Áo với
-
-https://planb.network/courses/eco201
-
-#### Hiểu về cơ bản của Bitcoin và xây dựng hệ thống sưởi gia đình của bạn với
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

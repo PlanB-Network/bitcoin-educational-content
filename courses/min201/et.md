@@ -772,7 +772,7 @@ Lõpptulemuseks on suurem hashimiskiirus vati kohta, mis tähendab kaevuritele s
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Hinda seda kursust
+## Hinnangud & Reitingud
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -785,30 +785,4 @@ Lõpptulemuseks on suurem hashimiskiirus vati kohta, mis tähendab kaevuritele s
 ## Kokkuvõte
 
 <chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
-Õnnitleme kursuse lõpetamise puhul!
-
-Meil on hea meel, et olete jõudnud selle olulise tähiseni oma õpiteel.
-
-Tänu teie pühendumisele ja pühendumusele olete omandanud väärtuslikke teadmisi ja oskusi, mis teenivad teid teie professionaalses arengus.
-
-Bitcoini universumi põhjalikumaks uurimiseks kutsume teid avastama kõiki teisi Plan ₿ Networkis saadaolevaid kursusi:
-
-#### Avastage Bitcoin ja selle põhitõed kursusega
-
-https://planb.network/courses/btc101
-
-#### Avastage Lightning Network kursusega
-
-https://planb.network/courses/lnp201
-
-#### Omandage Bitcoini privaatsuse põhimõtted
-
-https://planb.network/courses/btc204
-
-#### Avastage Bitcoini päritolu ajalugu kursusega
-
-https://planb.network/courses/his201
-
-#### Mõistke, kuidas Bitcoin rahakott töötab, kursusega
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

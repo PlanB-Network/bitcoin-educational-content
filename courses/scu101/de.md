@@ -521,7 +521,7 @@ Im Rahmen des Lernmoduls "Sicherheit 101" von Entdecke Bitcoin auf der Akademie 
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Bewerten Sie diesen Kurs
+## Bewertungen & Noten
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -534,36 +534,4 @@ Im Rahmen des Lernmoduls "Sicherheit 101" von Entdecke Bitcoin auf der Akademie 
 ## Abschluss
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-Herzlichen Glückwunsch zum Abschluss dieses Kurses!
-
-Wir freuen uns, dass Sie diesen Meilenstein in Ihrer Lernreise erfolgreich erreicht haben.
-
-Dank Ihrer Hingabe und Ihres Engagements haben Sie wertvolle Kenntnisse und Fähigkeiten erworben, die Ihnen in Ihrer beruflichen Entwicklung dienen werden.
-
-Um Ihr Wissen im Bitcoin-Universum weiter zu vertiefen, laden wir Sie ein, weitere Kurse auf Plan ₿ Network zu erkunden, wie zum Beispiel:
-
-#### Entdecken Sie Bitcoin und seine Grundlagen mit
-
-https://planb.network/courses/btc101
-
-#### Erhalten und sichern Sie Ihre ersten Bitcoins mit
-
-https://planb.network/courses/btc102
-
-#### Entdecken Sie das Lightning-Netzwerk mit
-
-https://planb.network/courses/lnp201
-
-#### Entdecken Sie das ökonomische Denken der Österreichischen Schule mit
-
-https://planb.network/courses/eco201
-
-#### Entdecken Sie die Geschichte der Ursprünge von Bitcoin mit
-
-https://planb.network/courses/his201
-
-#### Verstehen Sie, wie eine Bitcoin-Wallet funktioniert mit
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

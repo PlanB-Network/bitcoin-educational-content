@@ -953,7 +953,7 @@ _暗号資産の相続計画、所有者のための簡単なガイド、Pamela 
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## コースを評価する
+## レビュー & 評価
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -966,33 +966,4 @@ _暗号資産の相続計画、所有者のための簡単なガイド、Pamela 
 ## 終了
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
-このコースを修了おめでとうございます！
-
-学習の旅でこのマイルストーンに到達されたことを大変嬉しく思います。あなたの献身と参加を通じて、専門的な発展に役立つ貴重な知識とスキルを身につけることができました。
-
-ビットコインの世界をさらに深く探求するために、Plan ₿ Networkで利用可能な他のすべてのコースをご覧ください：
-
-#### ビットコインとその基礎を学ぶ
-
-https://planb.network/courses/btc101
-
-#### オンラインセキュリティを更新する
-
-https://planb.network/courses/scu101
-
-#### ライトニングネットワークを探求する
-
-https://planb.network/courses/lnp201
-
-#### オーストリア学派の経済思想を学ぶ
-
-https://planb.network/courses/eco201
-
-#### ビットコインの基礎を理解し、家庭用暖房を構築する
-
-https://planb.network/courses/min201
-
-#### ビットコインウォレットの仕組みを理解する
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

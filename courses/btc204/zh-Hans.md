@@ -3617,7 +3617,7 @@ _为了创建这一章节关于Silent Payments，我使用了[Silent Payments解
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-## 评价此课程
+## 评价 & 评分
 
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -3630,41 +3630,4 @@ _为了创建这一章节关于Silent Payments，我使用了[Silent Payments解
 ## 总结
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
-恭喜您完成这个比特币隐私培训！
-
-在这个培训中，我们涵盖了许多高级和技术性的主题，但并不是必须使用所有介绍的工具。主要目的是让您能够选择在使用比特币时想要披露哪些信息，以及更倾向于保持哪些信息的机密性。这体现了隐私保护的本质。要对分享或隐藏哪些信息做出明智的选择，我们需要意识到自己行为的影响。我希望这个培训帮助您获得了这些知识。
-
-如果要我选择这个培训中最重要的部分，我会选择专门讨论链分析的部分。了解潜在攻击者使用的技术是保护自己的最好方法。因此，我的建议是仔细回顾这部分内容，并试图掌握其所有细节。
-
-在这个培训中，我们专注于主链上的比特币隐私。第二层系统（如闪电网络和侧链）的隐私问题也很重要，并且具有非常特殊的特点。虽然使用链下交易可能是规避我们所学到的许多比特币可追踪风险的有效策略，但它也会使您面临其他同样重要的风险。这就是为什么这些主题将在 Plan ₿ Network 未来的专门培训中讨论。
-
-如果您喜欢这个培训，我将非常感谢您能与亲朋好友分享并在社交媒体上传播。谢谢！:)
-
-为了继续深化您在比特币领域的知识，我们邀请您探索 Plan ₿ Network 上的其他课程，如：
-
-#### 了解比特币钱包的工作原理
-
-https://planb.network/courses/cyp201
-
-#### 学习创建您的比特币社区
-
-https://planb.network/courses/btc302
-
-#### 探索比特币起源的历史
-
-https://planb.network/courses/his201
-
-#### 配置 BTC 支付服务器
-
-https://planb.network/courses/btc305
-
-#### 探索闪电网络
-
-https://planb.network/courses/lnp201
-
-#### 探索自由在历史长河中的演变
-
-https://planb.network/courses/phi201
-
-
-
+<isCourseConclusion>true</isCourseConclusion>

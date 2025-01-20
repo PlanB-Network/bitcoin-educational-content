@@ -1,0 +1,9 @@
+question: Comment importer le Schema "NonInflatableAsset.rgb" dans le stash local ?
+answer: rgb import schemata/NonInflatableAssets.rgb
+wrong_answers:
+  - rgb import schema/NonInflatableAssets.rgb
+  - rgb clone schemata/NonInflatableAssets.rgb
+  - rgb clone schema/NonInflatableAssets.rgb
+explanation: |
+  Le Schema compilé est importé dans le stash local à l'aide de la commande "rgb import schemata/NonInflatableAssets.rgb".
+reviewed: false

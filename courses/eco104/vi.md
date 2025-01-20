@@ -1666,7 +1666,7 @@ Tương lai tươi sáng!
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Đánh giá khóa học
+## Nhận xét & Đánh giá
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1674,35 +1674,4 @@ Tương lai tươi sáng!
 ## Kết luận
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Chúc mừng bạn đã hoàn thành khóa học này!
-
-Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc này trong hành trình học tập của mình.
-
-Thông qua sự cống hiến và tham gia của bạn, bạn đã đạt được những kiến thức và kỹ năng quý giá sẽ phục vụ tốt cho sự phát triển nghề nghiệp của bạn.
-
-Để tiếp tục đi sâu vào thế giới Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
-
-#### Khám phá Bitcoin và những điều cơ bản của nó với
-
-https://planb.network/courses/btc101
-
-#### Cập nhật bảo mật trực tuyến của bạn với
-
-https://planb.network/courses/scu101
-
-#### Khám phá Lightning Network với
-
-https://planb.network/courses/lnp201
-
-#### Tìm hiểu về Tư duy Kinh tế của Trường phái Áo với
-
-https://planb.network/courses/eco201
-
-#### Khám phá lịch sử nguồn gốc của Bitcoin với
-
-https://planb.network/courses/his201
-
-#### Hiểu về sự xuất hiện của siêu lạm phát với
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

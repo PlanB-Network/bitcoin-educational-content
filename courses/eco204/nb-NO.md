@@ -934,7 +934,7 @@ Hyperinflasjon er et fascinerende emne som har blitt studert gjennom ulike histo
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-## Evaluer dette kurset
+## Vurderinger & Karakterer
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -947,34 +947,4 @@ Hyperinflasjon er et fascinerende emne som har blitt studert gjennom ulike histo
 ## Konklusjon
 
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
-Gratulerer med fullført kurs!
-
-Vi er glade for at du har nådd denne viktige milepælen i din læringsprosess.
-
-Gjennom din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg i din profesjonelle utvikling.
-
-For å fortsette å utforske Bitcoin-universet i dybden, inviterer vi deg til å oppdage alle andre kurs tilgjengelige på Plan ₿ Network:
-
-#### Oppdag F. Bastiats liv med
-
-https://planb.network/courses/eco102
-
-#### Oppdag den østerrikske skolens økonomiske tenkning med
-
-https://planb.network/courses/eco201
-
-#### Oppdag Bitcoin og dens grunnleggende prinsipper med
-
-https://planb.network/courses/btc101
-
-#### Oppdater din nettsikkerhet med
-
-https://planb.network/courses/scu101
-
-#### Få og sikre dine første bitcoins med
-
-https://planb.network/courses/btc102
-
-#### Oppdag historien om Bitcoins opprinnelse med
-
-https://planb.network/courses/his201
+<isCourseConclusion>true</isCourseConclusion>

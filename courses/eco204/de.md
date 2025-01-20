@@ -961,7 +961,7 @@ Hyperinflation ist ein faszinierendes Thema, das durch verschiedene historische 
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-## Bewerten Sie diesen Kurs
+## Bewertungen & Noten
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -974,34 +974,4 @@ Hyperinflation ist ein faszinierendes Thema, das durch verschiedene historische 
 ## Abschluss
 
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
-Herzlichen Glückwunsch zum Abschluss dieses Kurses!
-
-Wir freuen uns, dass Sie diesen wichtigen Meilenstein in Ihrer Lernreise erreicht haben.
-
-Durch Ihre Hingabe und Ihr Engagement haben Sie wertvolle Kenntnisse und Fähigkeiten erworben, die Ihnen in Ihrer beruflichen Entwicklung dienen werden.
-
-Um das Bitcoin-Universum weiter zu erforschen, laden wir Sie ein, alle anderen verfügbaren Kurse auf Plan ₿ Network zu entdecken:
-
-#### Entdecken Sie das Leben von F. Bastiat mit
-
-https://planb.network/courses/eco102
-
-#### Entdecken Sie das ökonomische Denken der österreichischen Schule mit
-
-https://planb.network/courses/eco201
-
-#### Entdecken Sie Bitcoin und seine Grundlagen mit
-
-https://planb.network/courses/btc101
-
-#### Aktualisieren Sie Ihre Online-Sicherheit mit
-
-https://planb.network/courses/scu101
-
-#### Erhalten und sichern Sie Ihre ersten Bitcoins mit
-
-https://planb.network/courses/btc102
-
-#### Entdecken Sie die Geschichte der Bitcoin-Ursprünge mit
-
-https://planb.network/courses/his201
+<isCourseConclusion>true</isCourseConclusion>

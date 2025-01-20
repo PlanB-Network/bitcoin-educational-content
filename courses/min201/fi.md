@@ -767,7 +767,7 @@ Lopputuloksena on korkeampi hash-nopeus wattia kohden, mikä tarkoittaa suurempi
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Arvioi tämä kurssi
+## Arviot & Arvosanat
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -780,30 +780,4 @@ Lopputuloksena on korkeampi hash-nopeus wattia kohden, mikä tarkoittaa suurempi
 ## Yhteenveto
 
 <chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
-Onnittelut kurssin suorittamisesta!
-
-Olemme iloisia, että olet saavuttanut tämän tärkeän virstanpylvään oppimismatkallasi.
-
-Omistautumisesi ja sitoutumisesi ansiosta olet saanut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
-
-Jatkaaksesi Bitcoin-maailman syvällistä tutkimista, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
-
-#### Tutustu Bitcoiniin ja sen perusteisiin kurssilla
-
-https://planb.network/courses/btc101
-
-#### Tutustu Lightning Networkiin kurssilla
-
-https://planb.network/courses/lnp201
-
-#### Hallitse Bitcoinin yksityisyyden periaatteet
-
-https://planb.network/courses/btc204
-
-#### Tutustu Bitcoinin alkuperän historiaan kurssilla
-
-https://planb.network/courses/his201
-
-#### Ymmärrä, miten Bitcoin-lompakko toimii, kurssilla
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

@@ -1642,7 +1642,7 @@ Tether的稳定币为面临经济挑战、生活在专制政权之下或缺乏�
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## 评价课程
+## 评价 & 评分
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1650,35 +1650,4 @@ Tether的稳定币为面临经济挑战、生活在专制政权之下或缺乏�
 ## 总结
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-恭喜您完成本课程！
-
-我们很高兴您在学习之旅中成功达到这个里程碑。
-
-通过您的奉献和参与，您获得了宝贵的知识和技能，这将有助于您的职业发展。
-
-为了继续深入比特币的世界，我们邀请您探索 Plan ₿ Network 上提供的所有其他课程：
-
-#### 通过以下课程了解比特币及其基础知识
-
-https://planb.network/courses/btc101
-
-#### 通过以下课程更新您的在线安全
-
-https://planb.network/courses/scu101
-
-#### 通过以下课程探索闪电网络
-
-https://planb.network/courses/lnp201
-
-#### 通过以下课程了解奥地利学派的经济思想
-
-https://planb.network/courses/eco201
-
-#### 通过以下课程探索比特币起源的历史
-
-https://planb.network/courses/his201
-
-#### 通过以下课程了解恶性通货膨胀的出现
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

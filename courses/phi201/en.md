@@ -1487,7 +1487,7 @@ For Hayek, the past instability of the market economy results from the fact that
 
 Hayek believed that a free market of private currencies would lead to greater monetary stability. Nearly 50 years later, a cryptocurrency like Bitcoin embodies Hayek's competitive vision by offering a decentralized alternative to the monopolistic system of central banks. Bitcoin, with its emission limit of 21 million units, is a guarantee against inflation and the arbitrariness of regulators.
 
-## Evaluate the course
+## Reviews & Ratings
 
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1534,34 +1534,4 @@ In a certain sense, our situation is better than in the past. After the successi
 ## Conclusion
 
 <chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
-Congratulations on completing this course!
-
-We are delighted that you have reached this important milestone in your learning journey.
-
-Thanks to your dedication and commitment, you have acquired valuable knowledge and skills that will serve you in your professional development.
-
-To continue exploring the Bitcoin universe in depth, we invite you to discover all other courses available on Plan ₿ Network:
-
-#### Discover F. Bastiat's life with
-
-https://planb.network/courses/eco102
-
-#### Discover Bitcoin and its fundamentals with
-
-https://planb.network/courses/btc101
-
-#### Discover the Lightning Network with
-
-https://planb.network/courses/lnp201
-
-#### Master the principles of privacy on Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Discover the history of Bitcoin's origins with
-
-https://planb.network/courses/his201
-
-#### Understand how Bitcoin wallet works with
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

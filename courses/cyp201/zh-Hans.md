@@ -2255,7 +2255,7 @@ $$
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
-## 评价此课程
+## 评价 & 评分
 
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -2268,39 +2268,4 @@ $$
 ## 结论
 
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
-
-我们已经到达CYP201培训的尾声。希望这次培训对您的比特币学习之旅有所帮助，让您更好地理解您日常使用的HD钱包的工作原理。感谢您坚持学完本课程！
-
-在我看来，这些关于钱包的知识是基础性的，因为它将比特币的理论方面与实际应用联系起来。事实上，如果您使用比特币，就必然要处理钱包软件。了解它们的内部运作机制使您能够实施有效的安全策略，同时掌握基本机制、风险和潜在弱点。这样，您就能更安全、更自信地使用比特币。
-
-如果您还没有这样做，我邀请您对这次培训进行评价和评论。这将对我有很大帮助。您也可以在社交网络上分享这个培训，让更多的人获得这些知识。
-
-要继续深入探索，我强烈推荐我在Plan ₿ Network上制作的**BTC204**培训。它专注于比特币隐私，探讨关键主题：什么是隐私模型？链分析是如何工作的？如何优化使用比特币以最大化您的隐私？这是深化您技能的合理下一步！
-
-https://planb.network/courses/btc204
-
-此外，为了继续深化您在比特币领域的知识，我们邀请您探索Plan ₿ Network上的其他课程，如：
-
-#### 学习如何创建您的比特币社区
-
-https://planb.network/courses/btc302
-
-#### 探索闪电网络
-
-https://planb.network/courses/lnp201
-
-#### 探索奥地利学派的经济思想
-
-https://planb.network/courses/eco201
-
-#### 探索比特币起源的历史
-
-https://planb.network/courses/his201
-
-#### 探索自由在历史长河中的演变
-
-https://planb.network/courses/phi201
-
-
-
-
+<isCourseConclusion>true</isCourseConclusion>

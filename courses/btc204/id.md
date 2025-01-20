@@ -3484,7 +3484,7 @@ Mengingat fitur ini baru, disarankan untuk berhati-hati dan menghindari mengguna
 # Kesimpulan
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-## Evaluasi kursus ini
+## Ulasan & Penilaian
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -3494,35 +3494,4 @@ Mengingat fitur ini baru, disarankan untuk berhati-hati dan menghindari mengguna
 
 ## Kesimpulan
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
-Selamat atas penyelesaian pelatihan privasi Bitcoin ini!
-
-Dalam pelatihan ini, kita telah membahas banyak topik lanjutan dan teknis, tetapi tidak wajib menggunakan semua alat yang disajikan. Tujuan utamanya adalah memberi Anda kekuatan untuk memilih informasi apa yang ingin Anda ungkapkan dan mana yang lebih suka Anda jaga kerahasiaannya dalam penggunaan Bitcoin Anda. Ini mewujudkan esensi dari perlindungan privasi. Untuk membuat pilihan yang tepat tentang informasi apa yang akan dibagikan atau disembunyikan, Anda harus menyadari implikasi dari tindakan Anda. Saya berharap pelatihan ini telah membantu Anda memperoleh pengetahuan tersebut.
-
-Jika saya harus memilih bagian terpenting dari pelatihan ini, saya akan mengambil bagian yang didedikasikan untuk analisis rantai. Memahami teknik yang digunakan oleh penyerang potensial Anda adalah cara terbaik untuk melindungi diri dari mereka. Jadi saran saya adalah untuk meninjau bagian ini dengan cermat dan mencoba memahami semua detailnya.
-
-Dalam pelatihan ini, kita fokus secara eksklusif pada privasi Bitcoin di rantai utama. Masalah privasi pada sistem lapisan kedua, seperti Lightning Network dan sidechains, juga penting dan memiliki karakteristik yang sangat spesifik. Meskipun menggunakan transaksi off-chain bisa menjadi strategi yang efektif untuk menghindari banyak risiko keterlacakan Bitcoin yang telah kita pelajari, hal ini membuat Anda terpapar pada risiko lain yang juga penting untuk diketahui. Itulah mengapa topik-topik ini akan dibahas dalam pelatihan khusus di masa depan di Plan ₿ Network.
-
-Jika Anda menikmati pelatihan ini, saya akan sangat berterima kasih jika Anda membagikannya dengan orang-orang terdekat dan di media sosial. Terima kasih! :)
-
-Untuk terus memperdalam pengetahuan Anda di dunia Bitcoin, kami mengundang Anda untuk mengeksplorasi kursus lain yang tersedia di Plan ₿ Network seperti:
-
-#### Pahami cara kerja dompet Bitcoin dengan
-https://planb.network/courses/cyp201
-
-#### Pelajari cara membuat komunitas Bitcoin Anda dengan
-https://planb.network/courses/btc302
-
-#### Temukan sejarah asal-usul Bitcoin dengan
-https://planb.network/courses/his201
-
-#### Konfigurasi server pembayaran BTC dengan
-https://planb.network/courses/btc305
-
-#### Temukan Lightning Network dengan
-https://planb.network/courses/lnp201
-
-#### Temukan evolusi kebebasan sepanjang masa dengan
-https://planb.network/courses/phi201
-
-
-
+<isCourseConclusion>true</isCourseConclusion>

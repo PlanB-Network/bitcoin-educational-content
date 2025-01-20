@@ -1,0 +1,89 @@
+name: Bitcoin Chiang Mai
+category: communities
+address_line_1: Chiang Mai, Thailand
+address_line_2: 186/4 ถนน เจริญราษฎร์ Wat Ket, Mueang Chiang Mai District
+address_line_3:
+language:
+  - en
+links:
+  website: https://www.bitcoinchiangmai.org/
+
+tags:
+  - adoption
+  - education
+  - lightning
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2834
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2667
+  - language: en
+    last_contribution_date: 2025-01-17
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 1333
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2750
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2834
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2667
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2750
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3001
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2667
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2834
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3001
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2917
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2917
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2834

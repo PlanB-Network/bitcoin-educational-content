@@ -58,7 +58,7 @@ Quando un istituto finanziario possiede una licenza bancaria, significa essenzia
 
 Dopo aver acquistato la casa, istruisci il tuo banchiere a trasferire denaro sul conto del venditore. Se il conto del venditore è presso un'altra banca, il tuo banchiere notifica il banchiere corrispondente presso l'altra istituzione per assicurarsi che il conto del venditore venga accreditato di conseguenza, mentre il tuo conto viene addebitato dell'importo corrispondente.
 
-![immagine](assets/Image/1.webp)
+![immagine](assets/en/01.webp)
 
 Figura 1: Creazione del denaro come voci contabili
 
@@ -76,7 +76,7 @@ Questo dilemma ha dato origine alle moderne banche centrali. Nel XIX secolo in I
 
 Oltre a mantenere la stabilità finanziaria, le banche centrali sono responsabili della determinazione dei tassi di interesse chiave. Questi tassi determinano il costo a cui le banche autorizzate possono prendere in prestito fondi dalla banca centrale, definendo essenzialmente il costo della liquidità per le istituzioni finanziarie che svolgono un ruolo cruciale nel prestito nelle nostre economie. Pertanto, questi tassi fungono da punto di riferimento per l'intero sistema finanziario. Come individuo, gli interessi che paghi sul tuo mutuo possono essere suddivisi nel tasso di politica monetaria e nel margine della banca.
 
-![image](assets/Image/2.webp)
+![image](assets/en/02.webp)
 
 Figura 2: Fallimento di Lehman Borthers (15/09/2008)
 
@@ -84,7 +84,7 @@ Durante la grande crisi finanziaria del 2008, Lehman Brothers, una grande banca 
 
 Sebbene queste misure abbiano impedito una cascata di fallimenti, hanno fatto poco per alleviare il successivo rallentamento economico. Milioni di persone hanno perso il lavoro e la casa, la spesa dei consumatori è crollata, le imprese sono fallite e le banche hanno subito perdite consistenti. Nonostante i tassi di interesse storicamente bassi, pochi erano disposti a prendere in prestito, risultando in un circolo vizioso in cui la diminuzione iniziale della spesa e degli investimenti si rinforzava. Di conseguenza, i banchieri centrali hanno adottato ulteriori misure implementando programmi di Emissione Quantitativa (QE). Questi programmi prevedevano che le banche centrali acquistassero titoli di stato e titoli garantiti da ipoteche dalle banche commerciali con riserve della banca centrale.
 
-![image](assets/Image/3.webp)
+![image](assets/en/03.webp)
 
 Figura 3 : Tassi di interesse nelle principali economie / Fonte: ECB
 
@@ -94,7 +94,7 @@ Contrariamente a molte aspettative, i programmi di QE non hanno significativamen
 
 Tuttavia, da questo episodio può essere tratto un principio economico fondamentale: quando viene creato nuovo denaro, inizialmente beneficia coloro che sono più vicini alla fonte del denaro, a spese di coloro che sono più lontani. Questo principio economico risale al XVIII secolo, quando Richard Cantillon lo ha delineato nel suo "Saggio sulla natura del commercio in generale". Ora è comunemente noto come "Effetto Cantillon".
 
-![image](assets/Image/4.webp)
+![image](assets/en/04.webp)
 
 Figura 4: Effetto Cantillon / Fonte: River Financial
 
@@ -102,7 +102,7 @@ In questo caso, banchieri, dirigenti bancari, proprietari di azioni e obbligazio
 
 In sostanza, il sistema è distorto. Le banche sono intrinsecamente instabili, ma il loro fallimento può mettere a rischio l'intera economia. Questo rischio morale incentiva i dirigenti bancari a prendere rischi eccessivi per massimizzare i ricavi della propria banca, sapendo che la banca centrale alla fine li salverà, spostando il costo sui contribuenti. In tali scenari, le banche centrali creano le condizioni per un massiccio trasferimento di potere d'acquisto dalle persone che lavorano duramente e risparmiano ai proprietari di asset e a coloro che sono collegati al sistema finanziario, scollegando così il processo di creazione della ricchezza dall'accumulo di ricchezza.
 
-![image](assets/Image/5.webp)
+![image](assets/en/05.webp)
 
 Figura 5: Distribuzione della ricchezza in China + Europa + US / Fonte: OECD
 
@@ -112,7 +112,7 @@ Durante periodi prolungati di politiche di tassi di interesse zero (ZIRP), le ba
 
 Un'altra conseguenza non voluta della ZIRP è che incoraggia i governi a impegnarsi in una spesa estensiva. Poiché i governi non sostengono i costi del prestito e possono fare affidamento sulle banche centrali per acquistare i loro titoli attraverso programmi di QE, hanno un incentivo naturale a spendere il più possibile, soprattutto in contesti democratici in cui la spesa può ottenere voti. Questa tendenza spesso non tiene conto delle conseguenze a lungo termine di tale prodigalità fiscale, portando a un aumento significativo dei livelli di debito pubblico nelle economie sviluppate dalla crisi finanziaria globale (GFC).
 
-![image](assets/Image/6.webp)
+![image](assets/en/06.webp)
 
 Figura 6: Debito Pubblico e Privato come % del PIL (Mondo, pesato per PIL per paese) / Fonte IMF
 
@@ -148,7 +148,7 @@ Tali domande hanno occupato economisti e filosofi per molti secoli, ottenendo ri
 
 Dopo che la teoria del valore della terra dei fisiocratici, secondo cui tutto il valore proviene dalla terra, era stata confutata dalla teoria del valore del lavoro degli economisti classici, secondo cui il valore di un bene deriva dalla quantità di lavoro impiegato nella sua produzione, è stato il turno della teoria marginale del valore, che ha soppiantato quest'ultima. Negli anni '70 del XIX secolo, seguendo Marx, l'ultimo degli economisti classici, tre nuove scuole di pensiero economico emersero quasi contemporaneamente attorno a una teoria marginale del valore: la scuola di Losanna con Léon Walras, la scuola moderna o neoclassica con William Stanley Jevons e la scuola austriaca con Carl Menger. Questa rivoluzione nella teoria del valore costituì un significativo rinnovamento del pensiero economico.
 
-![image](assets/Image/7.webp)
+![image](assets/en/07.webp)
 
 Da sinistra a destra: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -158,7 +158,7 @@ La teoria marginale del valore sostiene che il valore economico corrisponde a ci
 
 ### Valore Soggettivo
 
-![image](assets/Image/15.webp)
+![image](assets/en/08.webp)
 
 L'economista austriaco confuta la concezione dei successori di Adam Smith e abbandona l'idea che il valore di un bene derivi dalla quantità di lavoro impiegata nella sua produzione, a favore dell'idea che il suo valore sia determinato dall'individuo, che, in ogni contesto, compie un atto mentale di valutazione riguardo a una specifica quantità di un bene o servizio. Questo salto intellettuale compiuto da Menger mette in discussione l'oggettività del valore: per lui, il valore non è una proprietà oggettiva dei beni; è semplicemente il risultato della relazione che l'individuo ha con quella cosa: "il valore non esiste al di fuori della coscienza umana".
 In altre parole, Menger ci invita a considerare che il valore esiste solo come fenomeno psicologico soggettivo all'interno dell'individuo, che il valore non è una proprietà intrinseca dei beni, ma deriva piuttosto dall'opinione dell'individuo sulla utilità che può trarre da quei beni.
@@ -181,7 +181,7 @@ Questa concezione soggettiva del valore, intesa come una relazione psicologica c
 
 ### La Divisione del Lavoro
 
-![image](assets/Image/16.webp)
+![image](assets/en/09.webp)
 
 Visita a una fabbrica di chiodi, Léonard Defrance (XVIII secolo)
 Ogni individuo è unico e ha una particolare situazione personale. Pertanto, ognuno possiede una capacità superiore nel svolgere determinati compiti rispetto ai suoi pari (vantaggio assoluto) o una capacità superiore nello svolgere determinati compiti rispetto ad altri (vantaggio comparativo). Non può essere altrimenti; negare questo fatto elementare significherebbe affermare che tutti gli esseri umani sono uguali in tutti gli aspetti.
@@ -243,7 +243,7 @@ Questo gioco illustra un problema frequentemente incontrato nella vita reale: in
 
 ### Denaro per risolvere i problemi di coordinamento
 
-![image](assets/Image/17.webp)
+![image](assets/en/10.webp)
 
 Questo problema ha meno impatto nelle piccole comunità (ad esempio, famiglia, cerchi di amici) perché, in tali casi, tutti si conoscono direttamente, rendendo possibile ricordare i contributi reciproci. Presumendo che lasciare la comunità (desertare) comporti un costo, un sistema di reputazione basato sulla memoria degli agenti individuali è di solito sufficiente per evitare le insidie poste dal dilemma del prigioniero.
 
@@ -263,7 +263,7 @@ Nel tempo pre-civile, queste tecnologie non esistevano. Pertanto, i nostri anten
 
 ### Doppia coincidenza dei desideri e vendibilità
 
-![image](assets/Image/18.webp)
+![image](assets/en/11.webp)
 
 Il denaro può essere visto come la soluzione scoperta dai nostri antenati per affrontare ciò che gli economisti chiamano il problema della "doppia coincidenza dei desideri". Questo problema ha tre dimensioni: spaziale, temporale e interpersonale.
 In uno scambio diretto (baratto) tra Alice e Bob, entrambi devono possedere qualcosa che l'altro desidera nello stesso momento e luogo. Utilizzando uno scambio indiretto, cioè attraverso il denaro, Alice può comprare da Bob e Bob può utilizzare quell'unità monetaria altrove, in un altro momento e con qualcun altro (a condizione che l'altra persona accetti quella forma di denaro).
@@ -307,14 +307,14 @@ Questa valutazione soggettiva del valore dei beni futuri rispetto ai beni presen
 
 Questo concetto di valutazione relativa dei beni futuri rispetto ai beni presenti è alla base del fenomeno dell'interesse. Infatti, in un'economia con mercati di capitale non manipolati, i tassi di interesse di riferimento (considerati privi di rischio di insolvenza) sono determinati dall'intersezione tra offerta e domanda di capitale. Pertanto, questi tassi rappresentano lo stato delle preferenze temporali per l'intera economia: un aumento del tasso di interesse deriva da un aumento relativo della domanda di capitale rispetto all'offerta, indicando preferenze temporali più elevate. Al contrario, una diminuzione dei tassi di interesse avviene a causa di un aumento del risparmio, ovvero un aumento dell'offerta di capitale, indicando una riduzione delle preferenze temporali.
 
-![image](assets/Image/9.webp)
+![image](assets/en/12.webp)
 
 In un'economia in cui i tassi di interesse non sono manipolati dalla banca centrale, tendiamo a osservare una curva dei rendimenti in salita: maggiore è la scadenza del debito, più alto è il tasso di interesse. La situazione opposta non può accadere perché comporterebbe che il futuro è più certo del presente, il che è una impossibilità logica.
 Il concetto di preferenza temporale e come esprimiamo la nostra preferenza temporale attraverso l'atto di consumo e risparmio è fondamentale per i processi di allocazione del capitale e di produzione. Rivolgiamoci allo studente di Menger, Eugen von Böhm-Bawerk, e alla sua teoria del capitale per capire esattamente come la preferenza temporale influisce sull'organizzazione della produzione.
 
 ### Teoria del Capitale
 
-![image](assets/Image/19.webp)
+![image](assets/en/13.webp)
 
 All'inizio di questo corso, abbiamo visto che, per Carl Menger, i beni sono considerati solo beni economici (valutati) perché servono come mezzi per scopi scelti e valutati dagli individui. Secondo questa visione, tutta l'analisi economica ruota attorno al consumo perché è in definitiva l'obiettivo motivante dietro ogni attività economica. Pertanto, per Menger, il punto di partenza dell'analisi economica sono i beni di consumo, o beni finali, in quanto rappresentano lo scopo ultimo dell'attività economica. Tutti gli altri beni nell'economia, che possiamo chiamare "beni intermedi", hanno valore solo perché consentono agli individui di ottenere questi beni di consumo: sono beni utilizzati nella produzione di altri beni.
 
@@ -330,13 +330,13 @@ A causa della natura sequenziale dell'azione umana, queste scelte intertemporali
 
 Per illustrare questo punto, riprendiamo l'esempio dato da Böhm-Bawerk nel suo lavoro "Capitale e Interesse":
 
-![image](assets/Image/10.webp)
+![image](assets/en/14.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe e Deviazione di Produzione/Indiretta:
 
-![image](assets/Image/20.webp)
+![image](assets/en/15.webp)
 
 Robinson Crusoe Sbarco delle Provvisioni dal Relitto, John Alexander Gilfillan (1793-1864)
 
@@ -359,7 +359,7 @@ Questo è un concetto allettante, sebbene semplice: ogni estensione della strutt
 Ora, come accennato nel primo capitolo, i tassi di interesse sono stati manipolati per decenni dalle banche centrali, mentre le banche commerciali hanno concesso crediti senza riserve preventive, il che significa che i tassi di interesse non rappresentano le nostre preferenze temporali e danno un'illusione di risparmi abbondanti.
 Questo è perfettamente illustrato dal grafico qui sotto: i tassi a lungo termine sono inferiori ai tassi a breve termine. Prima di tutto, questo non ha assolutamente senso, perché implicherebbe che il futuro è più certo del presente. In secondo luogo, ciò giustifica un'indagine sulle conseguenze per l'allocazione del capitale: se tutti sono incentivati ad agire come se il risparmio fosse abbondante, mentre i risparmiatori non si trovano da nessuna parte perché non vengono ricompensati per il risparmio, quali conseguenze potrebbe avere ciò sull'economia?
 
-![image](assets/Image/11.webp)
+![image](assets/en/16.webp)
 
 Questo è ciò che scopriremo nel prossimo capitolo dedicato alla Teoria Austriaca del Ciclo Economico!
 
@@ -389,7 +389,7 @@ Per descrivere questo fenomeno di discoordine temporale e le sue conseguenze nel
 
 Per facilitare la nostra spiegazione, torneremo alla classificazione dei beni di Menger e rappresenteremo la struttura produttiva su un diagramma composto da un numero arbitrario di fasi:
 
-![image](assets/Image/12.webp)
+![image](assets/en/17.webp)
 
 Nel diagramma sopra, le risorse iniziali passano attraverso varie fasi di produzione, subendo trasformazioni che le avvicinano allo stato dei beni finali per i consumatori (attraverso l'interazione con i fattori originali di produzione: tempo, terra, lavoro). L'altezza del lato destro del triangolo rappresenta schematicamente il PIL poiché indica la somma di tutti i beni di consumo venduti in un periodo. La differenza tra ogni barra corrisponde al valore aggiunto (in termini monetari) generato da ogni fase del processo. Questa differenza può anche essere vista come il reddito associato a ogni fase (ricavi - costi).
 
@@ -397,7 +397,7 @@ Se, a livello aggregato, gli agenti economici aumentano il risparmio, la quantit
 
 Otterremo quindi una struttura produttiva estesa, un cambiamento che può essere rappresentato qualitativamente dal seguente diagramma:
 
-![image](assets/Image/13.webp)
+![image](assets/en/18.webp)
 
 Qui, il valore monetario dei beni di consumo richiesti è diminuito, liberando risorse per la creazione di una fase di produzione aggiuntiva. In questo scenario in cui la diminuzione dei tassi di interesse è una conseguenza della diminuzione del consumo, cioè dell'aumento del risparmio, l'area del triangolo, che rappresenta la quantità di denaro in circolazione, rimane invariata. La trasformazione della struttura produttiva (allungamento) è semplicemente il risultato di un trasferimento del potere d'acquisto da una parte della struttura a un'altra.
 
@@ -411,7 +411,7 @@ Ora, se consideriamo una diminuzione dei tassi di interesse risultante da un'esp
 Con tassi di interesse più bassi, gli imprenditori possono prendere in prestito più risorse e quindi creare fasi di produzione di ordine superiore. In questo caso, tale estensione della struttura produttiva non comporterà una diminuzione del consumo poichè non c'è stata una rinuncia dei consumatori al consumo presente. In altre parole, il PIL cresce. Di conseguenza, il nostro triangolo si allungherà mantenendo un'altezza simile, il che significa che la sua area aumenterà.
 Si noti che questa è una conseguenza completamente logica dell'espansione del credito. Nella misura in cui le banche producono mezzi fiduciari concedendo prestiti, ci si dovrebbe naturalmente aspettare un aumento complessivo del potere d'acquisto.
 
-![image](assets/Image/14.webp)
+![image](assets/en/19.webp)
 
 Man mano che il credito entra nell'economia attraverso prestiti agli imprenditori, dovremmo osservare un aumento dei profitti nei settori produttivi lontani dal consumo e una diminuzione dei profitti relativi nei settori più vicini al consumo. Questa maggiore redditività sostiene quindi una riallocazione del capitale verso queste nuove fasi più intensive di capitale (costruzione navale, automobilistica, edilizia, tecnologie avanzate, ecc.) e una diminuzione degli investimenti nei settori più vicini al consumo.
 
@@ -427,7 +427,7 @@ Un tale aggiustamento può essere visto come un periodo durante il quale viene i
 
 Purtroppo, questo meccanismo depressivo viene spesso interrotto dal potere politico e dalle banche centrali che cercano di "stimolare" l'economia attraverso la spesa pubblica e una politica monetaria accomodante.
 
-![image](assets/Image/21.webp)
+![image](assets/en/20.webp)
 
 Sia per i monetaristi che per i keynesiani, la causa della depressione è la domanda aggregata insufficiente, quindi nessuno dei due presta attenzione all'evoluzione dei prezzi relativi, che, come abbiamo visto, è il nucleo del problema. Pertanto, credono che fornire un incentivo all'espansione del credito (abbassando i tassi di interesse) e utilizzare la capacità di deficit dello Stato per stimolare la domanda avvierà una ripresa. A breve termine, tali misure possono sembrare produrre gli effetti desiderati: il deficit sostiene la spesa, mentre la riduzione dei tassi di interesse porta a prezzi degli asset più alti, che a loro volta incoraggiano i detentori di asset ad aumentare la loro spesa. Tuttavia, tale stimolo alla fine si esaurisce, mentre il problema strutturale rimane, o addirittura peggiora, poiché la cattiva allocazione del capitale continua grazie ai tassi di interesse artificialmente bassi.
 
@@ -466,7 +466,7 @@ Con il suo articolo, Mises ha introdotto una nuova dimensione al dibattito. Mett
 
 ### Spiegazione dell'impossibilità del calcolo economico
 
-![image](assets/Image/24.webp)
+![image](assets/en/21.webp)
 
 La maggior parte delle incomprensioni sugli argomenti di Mises derivano da una misconcezione dei ruoli giocati dalle classi manageriali e imprenditoriali in un'economia capitalista. Mises non ha mai negato la capacità dei manager di elaborare piani di produzione efficienti all'interno delle proprie operazioni. Invece, ha sottolineato l'importanza degli imprenditori e degli azionisti, che, in quanto proprietari dei mezzi di produzione, allocano il capitale tra diverse industrie, formando così i prezzi che fungono da input nei calcoli economici dei manager.
 
@@ -482,7 +482,7 @@ Questo processo è cruciale perché convalida o invalida l'efficienza di varie a
 
 Da questa prospettiva, un'economia pianificata centralmente sperimenterà inevitabilmente una cattiva allocazione del capitale. Nel breve e medio termine, tali cattive allocazioni potrebbero passare inosservate perché non ci sono prezzi di mercato o fallimenti che le rivelano. Tuttavia, a causa dell'assenza di feedback (prezzi) e meccanismi di riallocazione (fallimenti), gli errori si accumuleranno fino a quando lo spreco non diventerà evidente attraverso un significativo declino delle condizioni di vita.
 
-![image](assets/Image/22.webp)
+![image](assets/en/22.webp)
 
 ### La Prospettiva Austriaca e i Fallimenti delle Altre Scuole di Economia
 
@@ -492,7 +492,7 @@ Nonostante questa impressionante previsione e numerose dimostrazioni empiriche d
 
 ### La Teoria del Ciclo Economico Austriaco come un Caso Specifico dell'Impossibilità del Calcolo Economico nel Socialismo
 
-![image](assets/Image/23.webp)
+![image](assets/en/23.webp)
 
 In un capitolo precedente, abbiamo chiarito la dinamica di sovrainvestimento e cattiva allocazione del capitale risultante dalla manipolazione dei tassi di interesse da parte delle banche centrali. Fondamentalmente, ciò che abbiamo spiegato può essere considerato come un caso specifico dell'impossibilità del calcolo economico nel socialismo, applicato al campo dei mercati monetari. Quando i prezzi sono fissati al di fuori dei loro valori di mercato, gli imprenditori e gli allocatori di capitale sono incentivati a impegnarsi in investimenti che non possono essere sostenuti nel lungo termine a causa di una mancanza di risparmi. Interferendo con il sistema dei prezzi, i pianificatori centrali (in questo caso, le banche centrali) creano una mancata coordinazione tra gli agenti economici. In questo caso, la mancata coordinazione intertemporale comporta un sovrainvestimento in beni di investimento di ordine superiore e un sottoinvestimento in beni di investimento di ordine inferiore, che rappresenta una manifestazione specifica della cattiva allocazione del capitale tra le industrie.
 
@@ -534,7 +534,7 @@ La metodologia è un aspetto essenziale nell'economia e nelle scienze sociali in
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
-## Valuta il corso
+## Recensioni & Valutazioni
 
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -581,38 +581,4 @@ Leggendo queste opere ed esplorando queste risorse online, puoi sviluppare una c
 ## Conclusione
 
 <chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
-Congratulazioni per aver completato questo corso!
-
-Siamo lieti che tu abbia raggiunto questa importante tappa nel tuo percorso di apprendimento.
-
-Grazie alla tua dedizione e al tuo impegno, hai acquisito preziose conoscenze e competenze che ti serviranno nel tuo sviluppo professionale.
-
-Per continuare ad esplorare in profondità l'universo Bitcoin, ti invitiamo a scoprire tutti gli altri corsi disponibili su Plan ₿ Network:
-
-#### Scopri la vita di F. Bastiat con
-
-https://planb.network/courses/eco102
-
-#### Comprendi l'emergere delle iperinflazioni con
-
-https://planb.network/courses/eco204
-
-#### Scopri Bitcoin e i suoi fondamenti con
-
-https://planb.network/courses/btc101
-
-#### Aggiorna la tua sicurezza online con
-
-https://planb.network/courses/scu101
-
-#### Scopri il Lightning Network con
-
-https://planb.network/courses/lnp201
-
-#### Impara a creare la tua comunità Bitcoin con
-
-https://planb.network/courses/btc302
-
-#### Comprendi come funziona il portafoglio Bitcoin con
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

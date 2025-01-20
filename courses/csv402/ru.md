@@ -111,18 +111,10 @@ objectives:
 
 
 
-## Оцените курс
+## Отзывы & Оценки
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Заключительное слово
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
-
-Спасибо за участие в курсах RGB, предложенных сетью Plan ₿ в сотрудничестве с Fulgur'Ventures. Мы выражаем благодарность нашим преподавателям за их поддержку. Если вы заинтересованы в продолжении работы с RGB, вот полезный список ресурсов для изучения:
-
-- https://rgb.tech/
-- https://www.rgbfaq.com/
-- https://rgb.tech/docs/
-- https://www.youtube.com/LNP-BP
-- https://twitter.com/lnp_bp
-Спасибо и удачи вам в обучении на Plan ₿ Network.
+<isCourseConclusion>true</isCourseConclusion>

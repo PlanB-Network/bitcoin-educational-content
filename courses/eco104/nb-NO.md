@@ -1632,7 +1632,7 @@ Fremtiden er lys!
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Evaluer kurset
+## Vurderinger & Karakterer
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1640,35 +1640,4 @@ Fremtiden er lys!
 ## Konklusjon
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Gratulerer med fullført kurs!
-
-Vi er begeistret for at du har nådd denne milepælen i din lærereise.
-
-Gjennom din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg godt i din profesjonelle utvikling.
-
-For å fortsette å fordype deg i Bitcoin-universet, inviterer vi deg til å utforske alle de andre kursene som er tilgjengelige på Plan ₿ Network:
-
-#### Oppdag Bitcoin og dens grunnprinsipper med
-
-https://planb.network/courses/btc101
-
-#### Oppdater din nettsikkerhet med
-
-https://planb.network/courses/scu101
-
-#### Oppdag Lightning Network med
-
-https://planb.network/courses/lnp201
-
-#### Lær om den økonomiske tankegangen til den østerrikske skolen med
-
-https://planb.network/courses/eco201
-
-#### Oppdag historien om Bitcoins opprinnelse med
-
-https://planb.network/courses/his201
-
-#### Forstå fremveksten av hyperinflasjon med
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

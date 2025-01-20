@@ -505,7 +505,7 @@ Jako součást výukového modulu "Security 101" na Découvre Bitcoin Academy js
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Ohodnoťte tento kurz
+## Recenze & Hodnocení
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -518,36 +518,4 @@ Jako součást výukového modulu "Security 101" na Découvre Bitcoin Academy js
 ## Závěr
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-Gratulujeme k dokončení tohoto kurzu!
-
-Jsme potěšeni, že jste úspěšně dosáhli tohoto milníku ve své vzdělávací cestě.
-
-Díky vaší oddanosti a odhodlání jste získali cenné znalosti a dovednosti, které vám poslouží ve vašem profesním rozvoji.
-
-Pro další prohlubování znalostí ve světě Bitcoinu vás zveme k prozkoumání dalších kurzů dostupných na Plan ₿ Network, jako jsou:
-
-#### Objevte Bitcoin a jeho základy s
-
-https://planb.network/courses/btc101
-
-#### Získejte a zabezpečte své první bitcoiny s
-
-https://planb.network/courses/btc102
-
-#### Objevte síť Lightning s
-
-https://planb.network/courses/lnp201
-
-#### Objevte ekonomické myšlení Rakouské školy s
-
-https://planb.network/courses/eco201
-
-#### Objevte historii vzniku Bitcoinu s
-
-https://planb.network/courses/his201
-
-#### Pochopte, jak funguje Bitcoin peněženka s
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

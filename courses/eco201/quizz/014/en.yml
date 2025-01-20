@@ -5,8 +5,9 @@ wrong_answers:
   - Menger's theory is based on the labor theory of value, while Walras and Jevons consider value to be based on the amount of land used in production.
   - Menger's theory is based on the physiocrats' theory of land value, while Walras and Jevons consider value to be based on the labor used in production.
 explanation: |
-  According to the chapter, Menger's marginal theory of value is subjective,
-  meaning it is based on the individual's perception of the utility they can derive
-  from a good or service. On the other hand, Walras and Jevons consider value to be
-  an objective and measurable phenomenon.
-reviewed: false
+  According to the chapter, Menger's marginal theory of value
+  is subjective, meaning it is based on the individual's
+  perception of the utility they can derive from a good or
+  service. On the other hand, Walras and Jevons consider
+  value to be an objective and measurable phenomenon.
+reviewed: true

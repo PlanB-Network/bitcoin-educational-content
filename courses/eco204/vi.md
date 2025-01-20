@@ -957,7 +957,7 @@ Siêu lạm phát là một chủ đề thú vị đã được nghiên cứu qu
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-## Đánh giá khóa học này
+## Nhận xét & Đánh giá
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -970,34 +970,4 @@ Siêu lạm phát là một chủ đề thú vị đã được nghiên cứu qu
 ## Kết luận
 
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
-Chúc mừng bạn đã hoàn thành khóa học!
-
-Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình.
-
-Thông qua sự cống hiến và cam kết của bạn, bạn đã đạt được những kiến thức và kỹ năng quý giá sẽ phục vụ cho sự phát triển nghề nghiệp của bạn.
-
-Để tiếp tục khám phá sâu rộng về vũ trụ Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
-
-#### Khám phá cuộc đời của F. Bastiat với
-
-https://planb.network/courses/eco102
-
-#### Khám phá tư duy kinh tế của trường phái Áo với
-
-https://planb.network/courses/eco201
-
-#### Khám phá Bitcoin và những điều cơ bản của nó với
-
-https://planb.network/courses/btc101
-
-#### Cập nhật bảo mật trực tuyến của bạn với
-
-https://planb.network/courses/scu101
-
-#### Nhận và bảo mật bitcoin đầu tiên của bạn với
-
-https://planb.network/courses/btc102
-
-#### Khám phá lịch sử nguồn gốc của Bitcoin với
-
-https://planb.network/courses/his201
+<isCourseConclusion>true</isCourseConclusion>

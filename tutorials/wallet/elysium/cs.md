@@ -86,11 +86,11 @@ Nyní si vyberte řetězec, na kterém chcete platbu obdržet (Bitcoin nebo Poly
 
 KROK 1: Klepnutím na tlačítko "Request Payment" požádáte o platbu v bitcoinech prostřednictvím sítě Lightning Network.
 
-![requestpayment1](asset/requestpayment1)
+![requestpayment1](assets/requestpayment1.webp)
 
 Krok 2: Zadejte částku, o kterou chcete požádat, vyberte měnu, kterou chcete obdržet, a případně přidejte popis.
 
-![requestpayment2](asset/requestpayment2)
+![requestpayment2](assets/requestpayment2.webp)
 
 Poznámka: Za první platbu v síti Lightning Network (LN) je účtován malý poplatek za otevření kanálu LN. Poté jsou všechny další platby zdarma.
 
@@ -168,4 +168,4 @@ Po odeslání vám náš tým co nejdříve odpoví a nabídne řešení!
 
 Chcete-li nahlásit chybu nebo nám poskytnout zpětnou vazbu, klikněte na widget na domovské stránce:
 
-[help2](assets/help2.webp)
+![help2](assets/help2.webp)

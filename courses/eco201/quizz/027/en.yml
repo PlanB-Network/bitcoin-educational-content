@@ -5,7 +5,9 @@ wrong_answers:
   - It allows the storage of value in the present and its transfer to other people.
   - It allows the storage of value in the future and its transfer to other people.
 explanation: |
-  By storing money, i.e., saving, individuals guard against future uncertainty
-  and thus enable themselves to direct their actions toward longer time horizons.
-  However, they can only achieve this if the money used constitutes a store of value.
-reviewed: false
+  By storing money, i.e., saving, individuals guard against
+  future uncertainty and thus enable themselves to direct
+  their actions toward longer time horizons. However, they
+  can only achieve this if the money used constitutes a store
+  of value.
+reviewed: true

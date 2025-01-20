@@ -263,21 +263,10 @@ Satoshi Fellowship 小组展示了一个使用 LnBits 和 MongoDB、Poetry、Nod
 Lightning Walker 小组展示了他们使用 MySQL、JavaScript 和 ZDB 的 API 的汇款服务解决方案。
 
 
-## 评估课程
+## 评价 & 评分
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## 致谢
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-我们想要感谢我们的教育者们的贡献：
-
-- Peter Todd
-- Adam Gibson
-- Alekos Filini
-- Daniela Brozzoni
-- Ajelex
-- asi0
-- Gabriel Comte
-他们的专业知识对这门课程的成功至关重要。这是基于Cubo+倡议第一版的第一门课程，于2023年7月进行。感谢所有参与者和教育者成为这次开创性教育旅程的一部分。这标志着我们希望将是一段漫长而富有成果的比特币开发世界旅程的开始。作为第一批学员，你们的参与为未来的课程设定了标准。
-继续探索、学习并为比特币生态系统做出贡献。在这里获得的知识只是一个起点。继续挖掘兔子洞，你将发现一个不断扩展的机会世界。
+<isCourseConclusion>true</isCourseConclusion>

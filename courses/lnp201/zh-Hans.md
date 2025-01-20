@@ -28,8 +28,8 @@ objectives:
 ## 理解闪电网络
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
+![video en](https://youtu.be/QDQ8NG0l3hk)
 
-![理解闪电网络](https://youtu.be/PszWk046x-I)
 
 欢迎来到LNP201课程，旨在解释闪电网络的技术功能。
 
@@ -85,8 +85,8 @@ objectives:
 ## 比特币、地址、UTXO和交易
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
+![video en](https://youtu.be/U9l5IVriCss)
 
-![比特币、地址、UTXO和交易](https://youtu.be/cadCJ2V7zTg)
 本章有些特别，因为它不会直接专注于闪电网络（Lightning Network），而是比特币（Bitcoin）。实际上，闪电网络是建立在比特币之上的一个层。因此，要正确理解后续章节中闪电网络的运作，理解比特币的某些基本概念是至关重要的。在本章中，我们将回顾比特币接收地址、UTXO以及比特币交易的运作基础。
 
 ### 比特币地址、私钥和公钥
@@ -150,8 +150,8 @@ UTXO不能被分割。每次它们被用来花费它们代表的比特币金额�
 ## 通道开设
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
+![video en](https://youtu.be/Ty80WuN5X-g)
 
-![open a channel](https://youtu.be/B2caBC0Rxko)
 
 在这一章中，我们将更详细地了解如何在闪电网络上开设支付通道，并理解这一操作与底层比特币系统之间的联系。
 
@@ -213,8 +213,8 @@ UTXO不能被分割。每次它们被用来花费它们代表的比特币金额�
 ## 承诺交易
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
+![video en](https://youtu.be/dzPMGiR_JSE)
 
-![闪电交易 & 承诺交易](https://youtu.be/aPqI34tpypM)
 
 在本章中，我们将发现在闪电网络上的一个通道内进行交易的技术功能，即当资金从通道的一侧移动到另一侧时。
 
@@ -269,7 +269,7 @@ UTXO不能被分割。每次它们被用来花费它们代表的比特币金额�
 ## 撤销密钥
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
-![transactions part 2](https://youtu.be/RRvoVTLRJ84)
+![video en](https://youtu.be/veCs39uVFUk)
 在本章中，我们将深入探讨闪电网络上的交易是如何工作的，讨论为防止欺骗而设置的机制，确保每一方遵守通道内的规则。
 
 ### 提醒：承诺交易
@@ -345,8 +345,8 @@ UTXO不能被分割。每次它们被用来花费它们代表的比特币金额�
 ## 通道关闭
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
+![video en](https://youtu.be/zmAa2fj_V7w)
 
-![关闭通道](https://youtu.be/FVmQvNpVW8Y)
 
 在本章中，我们将讨论在闪电网络上**关闭通道**的过程，这通过比特币交易完成，就像开启通道一样。在了解了通道内交易的工作方式之后，现在是时候看看如何关闭通道并在比特币区块链上恢复资金了。
 
@@ -430,8 +430,8 @@ Bob为了防止这种作弊，会监控比特币区块链及其内存池，以�
 ## 闪电网络
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
+![video en](https://youtu.be/44oBdNdXtEQ)
 
-![闪电网络](https://youtu.be/RAZAa3v41DM)
 
 在本章中，我们将探讨即使支付受款人没有通过支付通道直接连接，闪电网络上的支付如何能够到达接收者。事实上，闪电网络是一个**支付通道网络**，它允许通过其他参与者的通道将资金发送到远端节点。我们将发现支付是如何在网络中路由的，流动性如何在通道之间移动，以及交易费用是如何计算的。
 
@@ -543,8 +543,8 @@ Alice通过通道发送**40,000 satoshis**给Bob：
 ## HTLC – 哈希时间锁定合约
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
+![video en](https://youtu.be/jI4nM297aHA)
 
-![HTLC](https://youtu.be/-JC4mkq7H48)
 
 在本章中，我们将发现Lightning是如何允许支付通过中间节点进行传输，而无需信任它们，这要归功于**HTLC**（_哈希时间锁定合约_）。这些智能合约确保每个中间节点只有在将支付转发给最终接收者后才能从其通道中获得资金，否则，支付将不会被验证。
 
@@ -663,8 +663,8 @@ HTLCs使得通过多个节点路由闪电网络支付成为可能，而无需信
 ## 寻找你的路
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
+![video en](https://youtu.be/CqetCElRjUQ)
 
-![寻找你的路](https://youtu.be/wnUGJjOxd9Q)
 
 在前几章中，我们看到了如何使用其他节点的通道来路由支付，并达到一个不需要通过通道直接连接的节点。我们还讨论了如何确保在不信任中介节点的情况下转移的安全性。在本章中，我们将专注于找到到达目标节点的最佳可能路由。
 
@@ -750,7 +750,7 @@ Alice然后尝试使用她的第二条路由（`Alice → 1 → 2 → 4 → 5 �
 ## 发票，LNURL，和Keysend
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
-![发票，LNURL，Keysend](https://youtu.be/CHnXJuZTarU)
+![video en](https://youtu.be/XANzf1Qqp9I)
 在本章中，我们将更仔细地研究闪电网络**发票**的操作，即接收节点发送给发送节点的支付请求。目标是理解如何在闪电网络上支付和接收支付。我们还将讨论两种替代传统发票的方法：LNURL和Keysend。
 ![LNP201](assets/en/68.webp)
 
@@ -859,8 +859,8 @@ LNURL是一个通信协议，指定了一组旨在简化闪电网络节点与客
 ## 管理您的流动性
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
+![video en](https://youtu.be/MIbej28La7Y)
 
-![管理您的流动性](https://youtu.be/YuPrbhEJXbg)
 
 在本章中，我们将探索在闪电网络上有效管理流动性的策略。流动性管理根据用户类型和上下文而有所不同。我们将查看主要原则和现有技术，以更好地理解如何优化这一管理。
 
@@ -929,8 +929,8 @@ LNURL是一个通信协议，指定了一组旨在简化闪电网络节点与客
 ## 培训总结
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
+![video en](https://youtu.be/coaskEGRjiU)
 
-![结论](https://youtu.be/MaWpD0rbkVo)
 在这最后一章，标志着LNP201培训结束，我建议我们一起回顾我们共同覆盖的重要概念。
 这次培训的目标是为您提供对闪电网络的全面和技术性理解。我们发现闪电网络是如何依赖比特币区块链来执行链下交易的，同时保留比特币的基本特性，特别是不需要信任其他节点。
 
@@ -983,7 +983,7 @@ LNURL是一个通信协议，指定了一组旨在简化闪电网络节点与客
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## 评价本课程
+## 评价 & 评分
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -996,41 +996,4 @@ LNURL是一个通信协议，指定了一组旨在简化闪电网络节点与客
 ## 总结
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-恭喜！🎉
-
-您已完成 LNP 201 培训 - Lightning Network 入门！
-
-您可以为自己感到骄傲，因为这不是一个简单的主题。
-
-很少有人能深入比特币的兔子洞到这种程度。
-
-非常感谢 **Fanis Michalakis** 为我们提供这个关于 Lightning Network 技术运作的精彩免费课程。
-
-欢迎在 [Twitter](https://x.com/FanisMichalakis)、[他的博客](https://fanismichalakis.fr/) 或通过他在 [LN Markets](https://lnmarkets.com/) 的工作关注他。
-
-现在您已经掌握了 Lightning Network，我邀请您探索我们在 Plan ₿ Network 上的其他免费课程，以深入了解中本聪发明的其他方面：
-
-#### 了解比特币钱包如何工作
-
-https://planb.network/courses/cyp201
-
-#### 探索比特币起源的历史
-
-https://planb.network/courses/his201
-
-#### 配置 BTC 支付服务器
-
-https://planb.network/courses/btc305
-
-#### 掌握比特币中的隐私原则
-
-https://planb.network/courses/btc204
-
-#### 发现挖矿基础知识
-
-https://planb.network/courses/min201
-
-#### 学习创建您的比特币社区
-
-https://planb.network/courses/btc302
-
+<isCourseConclusion>true</isCourseConclusion>

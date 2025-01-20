@@ -1,0 +1,9 @@
+question: À quoi sert l’Interface Implementation dans l’architecture RGB ?
+answer: À mapper les champs du Schema aux noms définis dans l’Interface
+wrong_answers:
+  - À compiler les scripts AluVM pour la validation
+  - À définir les global states et les owned states du contrat
+  - À stocker les preuves cryptographiques côté client
+explanation: |
+  L’Interface Implementation établit le lien entre la logique métier du Schema et la présentation lisible par l’Interface.
+reviewed: false

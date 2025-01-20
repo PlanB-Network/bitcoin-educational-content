@@ -5,9 +5,11 @@ wrong_answers:
   - The Cantillon Effect refers to the economic principle that when new money is created, it initially benefits those furthest from the source of the money, at the expense of those closer.
   - The Cantillon Effect refers to the economic principle that when new money is created, it has no impact on the distribution of wealth in the economy.
 explanation: |
-  The Cantillon Effect, named after 18th-century economist Richard Cantillon,
-  describes how the distribution of new money in an economy can lead to wealth disparities.
-  Those closest to the source of the new money (such as bankers and asset owners)
-  benefit first and most significantly, while those further away (such as average
-  workers and savers) see less benefit or even negative effects due to inflation.
-reviewed: false
+  The Cantillon Effect, named after 18th-century economist
+  Richard Cantillon, describes how the distribution of new
+  money in an economy can lead to wealth disparities. Those
+  closest to the source of the new money (such as bankers and
+  asset owners) benefit first and most significantly, while
+  those further away (such as average workers and savers) see
+  less benefit or even negative effects due to inflation.
+reviewed: true

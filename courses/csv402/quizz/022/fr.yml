@@ -1,0 +1,9 @@
+question: Quelle opération de contrat RGB crée un nouvel état sans fermer un sceau ?
+answer: State Extension
+wrong_answers:
+  - State Transition
+  - Genesis
+  - Valency Activation
+explanation: |
+  La State Extension permet de créer un nouvel état ou des droits (Valencies), sans que le sceau soit immédiatement fermé.
+reviewed: false

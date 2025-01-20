@@ -723,7 +723,6 @@ https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d
 <chapterId>59ff43a1-98e2-4a81-af3e-9654bdd60952</chapterId>
 
 ### Solutions
-<chapterId>eb8e068b-2782-4dd1-9f11-67d42362b8aa</chapterId>
 
 There are always trade-offs for each category of solution. For example, in the initial "trial phase," the suggested wallets are designed to be as simple as possible in terms of user interface, but they are hosted (**custodial**). This means that the funds are controlled by the app provider. However, the ethos of Bitcoin encourages moving toward full ownership of funds by the user (**self-custodial**). In this case, it is recommended to upgrade to the next category as soon as the first sales are made—essentially, once it’s confirmed that you have customers willing to pay in Bitcoin.
 

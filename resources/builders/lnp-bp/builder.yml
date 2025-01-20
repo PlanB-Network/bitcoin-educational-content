@@ -1,0 +1,21 @@
+name: LNP BP
+
+links:
+  website: https://www.lnp-bp.org/
+  twitter: https://x.com/lnp_bp
+
+tags:
+  - layers
+  - protocols
+
+category: infrastructure
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-01-17
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward:

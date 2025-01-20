@@ -86,11 +86,11 @@ PassKeys 是必填项。
 
 第 1 步： 点击 "请求付款"，即可通过闪电网络请求比特币付款。
 
-![requestpayment1](asset/requestpayment1)
+![requestpayment1](assets/requestpayment1.webp)
 
 第 2 步： 输入您要申请的金额，选择您要接收的货币，必要时添加说明。
 
-![requestpayment2](asset/requestpayment2)
+![requestpayment2](assets/requestpayment2.webp)
 
 注：首次使用闪电网络（LN）付款需支付小额费用，以打开 LN 通道。此后，所有后续支付均免费。
 
@@ -168,4 +168,4 @@ PassKeys 是必填项。
 
 要报告错误或向我们提供反馈，请单击主页上的小工具：
 
-[help2](assets/help2.webp)
+![help2](assets/help2.webp)

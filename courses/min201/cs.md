@@ -768,7 +768,7 @@ Výsledkem je vyšší hash rate na watt elektrické energie, což znamená vět
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Zhodnoťte tento kurz
+## Recenze & Hodnocení
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -781,30 +781,4 @@ Výsledkem je vyšší hash rate na watt elektrické energie, což znamená vět
 ## Závěr
 
 <chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
-Gratulujeme k dokončení tohoto kurzu!
-
-Jsme rádi, že jste dosáhli tohoto důležitého milníku ve své vzdělávací cestě.
-
-Díky vaší oddanosti a závazku jste získali cenné znalosti a dovednosti, které vám poslouží ve vašem profesním rozvoji.
-
-Pro další hluboké zkoumání světa Bitcoinu vás zveme k objevování všech dalších kurzů dostupných na Plan ₿ Network:
-
-#### Objevte Bitcoin a jeho základy s
-
-https://planb.network/courses/btc101
-
-#### Objevte Lightning Network s
-
-https://planb.network/courses/lnp201
-
-#### Ovládněte principy soukromí na Bitcoinu
-
-https://planb.network/courses/btc204
-
-#### Objevte historii původu Bitcoinu s
-
-https://planb.network/courses/his201
-
-#### Pochopte, jak funguje Bitcoin peněženka s
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

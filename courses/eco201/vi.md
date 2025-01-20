@@ -57,7 +57,7 @@ Khi một tổ chức tài chính giữ một giấy phép ngân hàng, điều 
 
 Khi mua nhà, bạn yêu cầu ngân hàng của mình chuyển tiền vào tài khoản của người bán. Nếu tài khoản của người bán ở một ngân hàng khác, ngân hàng của bạn sẽ ghi nợ tài khoản của bạn số tiền cần thanh toán, và thông báo cho ngân hàng của người bán để đảm bảo tài khoản của người bán được ghi có một khoản tương ứng.
 
-![image](assets/Image/1.webp)
+![image](assets/en/01.webp)
 
 Hình 1: Tạo ra tiền như các bút toán kế toán
 
@@ -75,7 +75,7 @@ Tình thế tiến thoái lượng nan này này đã dẫn đến sự ra đờ
 
 Ngoài việc duy trì sự ổn định tài chính, các ngân hàng trung ương còn có trách nhiệm đặt ra các mức lãi suất chính sách quan trọng. Các mức lãi suất này xác định chi phí mà các ngân hàng có giấy phép có thể vay tiền từ ngân hàng trung ương, cơ bản định rõ chi phí thanh khoản cho các tổ chức tài chính đóng vai trò quan trọng trong hoạt động cho vay trong nền kinh tế của chúng ta. Do đó, các mức lãi suất này này phục vụ như một tiêu chuẩn cho toàn bộ hệ thống tài chính. Đối với một cá nhân, lãi suất bạn trả cho khoản thế chấp của mình có thể được chia thành lãi suất chính sách và biên lợi nhuận của ngân hàng.
 
-![image](assets/Image/2.webp)
+![image](assets/en/02.webp)
 
 Hình 2: Lehman Brothers phá sản (15/09/2008)
 
@@ -83,7 +83,7 @@ Trong cuộc khủng hoảng tài chính năm 2008, Lehman Brothers, một ngân
 
 Mặc dù những biện pháp này đã ngăn chặn được một làn sóng phá sản trên diện rộng, chúng hầu như không làm giảm bớt được sự suy thoái kinh tế kéo theo sau đó. Hàng triệu người mất việc làm và nhà cửa, chi tiêu của người tiêu dùng giảm mạnh, doanh nghiệp phá sản, và các ngân hàng chịu tổn thất lớn. Mặc dù lãi suất ở mức thấp kỷ lục, ít người sẵn lòng vay mượn, dẫn đến một vòng luẩn quẩn khi sự sụt giảm ban đầu về chi tiêu và đầu tư ngày càng tự củng cố chính nó. Do đó, các ngân hàng trung ương đã thực hiện biện pháp bổ sung bằng cách triển khai các chương trình "Nới lỏng định lượng" (Quantitative Easing - QE). Các chương trình này bao gồm việc các ngân hàng trung ương dùng dự trữ tại ngân hàng trung ương để mua trái phiếu chính phủ và các chứng khoán được bảo đảm bằng thế chấp từ các ngân hàng thương mại.
 
-![image](assets/Image/3.webp)
+![image](assets/en/03.webp)
 
 Hình 3: Lãi suất ở các nền kinh tế lớn / Nguồn: ECB
 
@@ -93,14 +93,14 @@ Trái với nhiều kỳ vọng, các chương trình QE không thúc đẩy đ�
 
 Tuy nhiên, một nguyên lý kinh tế quan trọng có thể được rút ra từ giai đoạn này: khi tiền mới được tạo ra, nó ban đầu mang lại lợi ích cho những người ở gần nguồn tiền nhất, gây tổn thất cho những người ở xa hơn. Khái niệm kinh tế này có từ thế kỷ 18, khi Richard Cantillon mô tả nó trong tác phẩm "Bài luận về bản chất của thương mại nói chung - Essay on the Nature of Commerce in General". Giờ đây, nó thường được gọi là “Hiệu ứng Cantillon”.
 
-![image](assets/Image/4.webp)
+![image](assets/en/04.webp)
 
 Hình 4: Hiệu ứng Cantillon / Nguồn: River Financial
 Trong trường hợp này, các ngân hàng, giám đốc ngân hàng, chủ sở hữu cổ phiếu và trái phiếu, nhà phát triển bất động sản, người cho vay bất động sản, và bất kỳ ai sở hữu tài sản tài chính hoặc bất động sản đều nhận được một khoản lợi nhuận lớn, trong khi gánh nặng rơi lên tất cả những người khác. Tình hình này kéo dài trong nhiều năm và là phần lớn nguyên nhân làm gia tăng bất bình đẳng giàu nghèo, cảm giác bị gạt ra rìa của những cá nhân chăm chỉ, và sự tăng giá không ngừng của tài sản mặc dù tăng trưởng GDP trì trệ.
 
 Về bản chất, hệ thống bị lệch lạc. Ngân hàng vốn dĩ không ổn định, nhưng sự thất bại của chúng có thể đe dọa toàn bộ nền kinh tế. Rủi ro đạo đức này khuyến khích các lãnh đạo ngân hàng mạo hiểm quá mức để tối đa hóa doanh thu, biết rằng ngân hàng trung ương cuối cùng sẽ cứu trợ họ, và chuyển gánh nặng của sự thất bại lên người nộp thuế. Trong những tình huống như vậy, các ngân hàng trung ương tạo điều kiện cho một việc chuyển giao sức mua khổng lồ từ những cá nhân chăm chỉ và người tiết kiệm sang chủ sở hữu tài sản và những người có liên kết với hệ thống tài chính, do đó tách rời quá trình tạo ra của cải khỏi sự tích lũy của cải.
 
-![image](assets/Image/5.webp)
+![image](assets/en/05.webp)
 
 Hình 5: Phân phối của cải ở Trung Quốc + Châu Âu + Hoa Kỳ / Nguồn: OECD
 
@@ -110,7 +110,7 @@ Trong những khoảng thời gian dài của Chính sách lãi suất bằng 0 
 
 Một hậu quả không mong muốn khác của ZIRP là nó khuyến khích chính phủ chi tiêu mạnh tay. Vì chính phủ không phải đối mặt với chi phí lãi vay và có thể dựa vào ngân hàng trung ương để mua trái phiếu của họ thông qua các chương trình QE, họ có động lực tự nhiên để chi tiêu càng nhiều càng tốt, đặc biệt trong bối cảnh các nền dân chủ, nơi mà chi tiêu có thể thu hút được phiếu bầu. Xu hướng này thường không quan tâm đến hậu quả lâu dài của chính sách tài khoá chi tiêu trác táng, dẫn đến sự tăng lên đáng kể trong mức nợ công trên khắp các nền kinh tế phát triển kể từ Cuộc khủng hoảng tài chính toàn cầu (Global Financial Crisis - GFC).
 
-![image](assets/Image/6.webp)
+![image](assets/en/06.webp)
 
 Hình 6: Nợ công & Nợ tư nhân tính theo % GDP (Thế giới, tính theo GDP mỗi quốc gia) / Nguồn IMF
 
@@ -147,7 +147,7 @@ Những câu hỏi như vậy đã chiếm lĩnh tư tưởng của các nhà ki
 
 Sau khi lý thuyết về giá trị đất đai của các nhà kinh tế học trọng nông, cho rằng tất cả giá trị đều đến từ đất đai, đã bị bác bỏ bởi lý thuyết về giá trị lao động của các nhà kinh tế học cổ điển, cho rằng giá trị của một hàng hóa bắt nguồn từ lượng lao động đầu vào để sản xuất ra nó, sau đó đến lượt lý thuyết giá trị biên đã thay thế lý thuyết này. Vào những năm 1870, sau Marx, nhà kinh tế học cổ điển cuối cùng, ba trường phái tư tưởng kinh tế mới xuất hiện gần như đồng thời xung quanh một lý thuyết giá trị cận biên: trường phái Lausanne với Léon Walras, trường phái hiện đại hoặc tân cổ điển với William Stanley Jevons, và trường phái Áo với Carl Menger. Cuộc cách mạng trong lý thuyết giá trị này đã tạo ra một sự đổi mới đáng kể trong tư tưởng kinh tế.
 
-![image](assets/Image/7.webp)
+![image](assets/en/07.webp)
 
 Từ trái sang phải: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -157,7 +157,7 @@ Thường thì học thuyết cận biên của ba trường phái này được
 
 ### Giá trị chủ quan
 
-![image](assets/Image/15.webp)
+![image](assets/en/08.webp)
 Nhà kinh tế học người Áo bác bỏ quan niệm của những người kế nhiệm Adam Smith và từ bỏ ý tưởng rằng giá trị của một hàng hóa đến từ lượng lao động được sử dụng trong quá trình sản xuất ra nó, thay vào đó, ông cho rằng giá trị của nó được quyết định bởi cá nhân, người, trong từng bối cảnh, thực hiện một hành động định giá đối với một lượng cụ thể của hàng hóa hoặc dịch vụ. Bước nhảy vọt trí tuệ này của Menger thách thức tính khách quan của giá trị: đối với ông, giá trị không phải là một thuộc tính khách quan của hàng hóa; nó chỉ đơn giản là kết quả của mối quan hệ mà cá nhân có với vật đó: "giá trị không tồn tại ngoài ý thức con người."
 Nói cách khác, Menger mời gọi chúng ta xem xét rằng giá trị chỉ tồn tại như một hiện tượng tâm lý chủ quan bên trong cá nhân, rằng giá trị không phải là một thuộc tính vốn có của hàng hóa, thay vào đó, nó thực sự bắt nguồn từ ý kiến của cá nhân về lợi ích mà họ có thể thu được từ những hàng hóa đó.
 
@@ -179,7 +179,7 @@ Quan điểm chủ quan về giá trị này, được hiểu là một mối qu
 
 ### Phân công lao động
 
-![image](assets/Image/16.webp)
+![image](assets/en/09.webp)
 
 Thăm một nhà máy sản xuất đinh, Léonard Defrance (thế kỷ 18)
 Mỗi người là duy nhất và có một tình huống cá nhân cụ thể. Do đó, mỗi người đều sở hữu một khả năng vượt trội để thực hiện một số công việc nhất định so với đồng loại của mình (lợi thế tuyệt đối) hoặc một khả năng vượt trội để thực hiện một số công việc nhất định so với những công việc khác (lợi thế so sánh). Không thể khác được; phủ nhận sự thật cơ bản này sẽ là tuyên bố rằng tất cả mọi người đều bằng nhau ở mọi khía cạnh.
@@ -241,7 +241,7 @@ Trong trò chơi này, không có cơ hội cho sự phối hợp (giao tiếp l
 
 ### Tiền được sinh ra để giải quyết vấn đề hợp tác
 
-![image](assets/Image/17.webp)
+![image](assets/en/10.webp)
 
 Vấn đề này ít ảnh hưởng hơn trong các cộng đồng nhỏ (ví dụ, gia đình, nhóm bạn bè) bởi vì, trong những trường hợp như vậy, mọi người đều trực tiếp biết nhau, làm cho việc ghi nhớ sự đóng góp của nhau trở nên khả thi. Giả sử rằng việc rời bỏ cộng đồng (bỏ trốn) gây ra chi phí, một hệ thống danh tiếng dựa trên ký ức của các cá nhân thường là đủ để tránh những rủi ro do bài toán tù nhân đặt ra.
 
@@ -261,7 +261,7 @@ Trong thời tiền sử, những công nghệ này không tồn tại. Do đó,
 
 ### Sự trùng hợp kép về nhu cầu và tính dễ bán
 
-![image](assets/Image/18.webp)
+![image](assets/en/11.webp)
 
 Tiền tệ có thể được coi là giải pháp mà tổ tiên của chúng ta đã khám phá ra để giải quyết vấn đề mà các nhà kinh tế gọi là "sự trùng hợp kép về nhu cầu - double coincidence of wants". Vấn đề này có ba chiều: không gian, thời gian và cá nhân.
 Trong một giao dịch trực tiếp (hàng đổi hàng) giữa Alice và Bob, cả hai cần phải sở hữu thứ mà người kia mong muốn vào cùng một thời điểm và địa điểm. Bằng cách sử dụng giao dịch gián tiếp, tức là thông qua tiền tệ, Alice có thể mua hàng từ Bob, và Bob có thể sử dụng đơn vị tiền tệ đó ở nơi khác, vào một thời điểm khác, và với người khác (miễn là người đó chấp nhận hình thức tiền tệ đó).
@@ -305,14 +305,14 @@ Sự đánh giá chủ quan này về giá trị của hàng hóa trong tương 
 
 Khái niệm về sự đánh giá tương đối hàng hóa tương lai so với hàng hóa hiện tại là cơ sở của hiện tượng lãi suất. Thực vậy, trong một nền kinh tế với thị trường vốn không bị thao túng, lãi suất tham chiếu (được coi là không có rủi ro vỡ nợ) được xác định tại điểm giao nhau của cung và cầu về vốn. Do đó, những lãi suất này thể hiện trạng thái của thị hiếu theo thời gian trong toàn bộ nền kinh tế: sự gia tăng lãi suất là kết quả của sự gia tăng tương đối trong nhu cầu vốn so với nguồn cung vốn, chỉ ra thị hiếu theo thời gian cao hơn. Ngược lại, một sự sụt giảm lãi suất xảy ra do sự tăng lên trong tiết kiệm, tức là sự gia tăng nguồn cung vốn, chỉ ra sự giảm xuống của thị hiếu theo thời gian.
 
-![image](assets/Image/9.webp)
+![image](assets/en/12.webp)
 
 Trong một nền kinh tế mà lãi suất không bị thao túng bởi ngân hàng trung ương, chúng ta có xu hướng quan sát thấy một đường cong lợi suất dốc lên: kỳ hạn nợ càng dài, lãi suất càng cao. Tình huống ngược lại không thể xảy ra bởi vì nó sẽ ngụ ý rằng tương lai chắc chắn hơn hiện tại, về logic, đây là một điều bất khả thi.
 Khái niệm về thị hiếu theo thời gian và cách chúng ta biểu đạt thị hiếu theo thời gian của mình thông qua hành động tiêu dùng và tiết kiệm là nền tảng của quá trình phân bổ vốn và sản xuất. Hãy cùng tìm hiểu về học trò của Menger, Eugen von Böhm-Bawerk, và lý thuyết vốn của ông để hiểu rõ cách thị hiếu theo thời gian ảnh hưởng đến quá trình tổ chức sản xuất như thế nào.
 
 ### Lý thuyết vốn
 
-![image](assets/Image/19.webp)
+![image](assets/en/13.webp)
 
 Ngay từ đầu khóa học này, chúng ta đã thấy rằng, đối với Carl Menger, hàng hóa chỉ được coi là hàng hóa kinh tế (có giá trị) bởi vì chúng phục vụ như là phương tiện để đạt được mục địch được các cá nhân lựa chọn và đánh giá. Theo quan điểm này, mọi phân tích kinh tế đều xoay quanh tiêu dùng, vì đó là mục tiêu cuối cùng thúc đẩy mọi hoạt động kinh tế. Do đó, đối với Menger, điểm xuất phát của phân tích kinh tế là các hàng hóa tiêu dùng, hoặc hàng hóa cuối cùng, vì chúng đại diện cho mục đích cuối cùng của hoạt động kinh tế. Tất cả các hàng hóa khác trong nền kinh tế, mà chúng ta có thể gọi là "hàng hóa trung gian," chỉ có giá trị bởi vì chúng giúp các cá nhân có được những hàng hóa tiêu dùng này: chúng là hàng hóa được sử dụng để sản xuất ra hàng hóa khác.
 
@@ -328,13 +328,13 @@ Do bản chất tuần tự của hành động con người, những lựa ch�
 
 Để minh họa điểm này, hãy xem lại ví dụ được Böhm-Bawerk đưa ra trong tác phẩm của ông "Vốn và Lãi suất - Capital and Interest":
 
-![image](assets/Image/10.webp)
+![image](assets/en/14.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe và Vòng xoắn sản xuất:
 
-![image](assets/Image/20.webp)
+![image](assets/en/15.webp)
 
 Robinson Crusoe đang dỡ hàng từ con tàu đắm, John Alexander Gilfillan (1793-1864)
 Trong cuốn sách của mình, nhà kinh tế học người Áo mời chúng ta xem xét về những sự đánh đổi về thời gian trong nội tại các vòng xoắn sản xuất thông qua một thí nghiệm tưởng tượng về Robinson Crusoe sống một mình trên đảo hoang.
@@ -354,7 +354,7 @@ Nói cách khác, trong nền kinh tế một người của Robinson Crusoe, ti
 
 Bây giờ, như đã được đề cập trong chương đầu tiên, lãi suất đã bị các ngân hàng trung ương thao túng trong nhiều thập kỷ trong khi các ngân hàng thương mại mở rộng tín dụng mà không cần dự trữ trước, có nghĩa là lãi suất không phản ánh thị hiếu theo thời gian của chúng ta và tạo ra một ảo giác rằng chúng ta có nguồn tiết kiệm dồi dào.
 Điều này được minh họa rõ ràng qua biểu đồ dưới đây: lãi suất dài hạn thấp hơn lãi suất ngắn hạn. Đầu tiên, điều này hoàn toàn không có lý, bởi vì nó có nghĩa là tương lai được coi là chắc chắn hơn hiện tại. Thứ hai, nó đặt ra một câu hỏi về hậu quả đối với việc phân bổ vốn: nếu mọi người được khuyến khích hành động như thể tiết kiệm là dồi dào, trong khi những người tiết kiệm không tồn tại bởi vì họ không được thưởng xứng đáng cho việc tiết kiệm, điều này có thể dẫn đến những hậu quả gì cho nền kinh tế?
-![hình ảnh](assets/Image/11.webp)
+![hình ảnh](assets/en/16.webp)
 
 Đây là điều chúng ta sẽ tìm hiểu trong chương tiếp theo dành riêng cho Lý thuyết chu kỳ kinh tế của trường phái Áo!
 
@@ -383,7 +383,7 @@ Trong bối cảnh ngân hàng dự trữ một phần, việc mở rộng tín 
 ### Sự giảm lãi suất do tăng tiết kiệm
 
 Để giải thích dễ dàng hơn, chúng ta sẽ quay trở lại với phân loại hàng hóa của Menger và biểu diễn cấu trúc sản xuất trên một sơ đồ bao gồm một số lượng giai đoạn tùy ý:
-![image](assets/Image/12.webp)
+![image](assets/en/17.webp)
 
 Trong sơ đồ trên, các tài nguyên ban đầu trải qua các giai đoạn sản xuất, qua đó chúng dần dần biến đổi đến gần hơn với trạng thái của hàng hóa tiêu dùng cuối cùng (thông qua sự tương tác với các yếu tố sản xuất ban đầu: thời gian, đất đai, lao động). Chiều cao cạnh bên phải của hình tam giác tượng trưng cho GDP vì nó biểu thị tổng số hàng hóa tiêu dùng được bán trong một khoảng thời gian. Khoảng cách giữa mỗi thanh tương ứng với giá trị gia tăng (theo đơn vị tiền tệ) được tạo ra ở mỗi giai đoạn của quá trình. Sự khác biệt này cũng có thể được xem như thu nhập liên quan đến mỗi giai đoạn (doanh thu - chi phí).
 
@@ -391,7 +391,7 @@ Nếu, ở góc độ tổng thể, các chủ thể kinh tế tăng tiết ki�
 
 Khi đó, chúng ta sẽ thu được một cấu trúc sản xuất được mở rộng, một sự thay đổi có thể được biểu diễn một cách định tính bởi sơ đồ sau:
 
-![image](assets/Image/13.webp)
+![image](assets/en/18.webp)
 
 Ở đây, giá trị tiền tệ của hàng hóa tiêu dùng được yêu cầu đã giảm, giải phóng nguồn lực để tạo ra một giai đoạn sản xuất bổ sung. Trong kịch bản này, nơi mà sự giảm lãi suất là hậu quả của việc giảm tiêu dùng, tức là, tăng tiết kiệm, diện tích của hình tam giác, biểu thị lượng tiền lưu thông, vẫn không thay đổi. Sự biến đổi của cấu trúc sản xuất (kéo dài) đơn giản chỉ là kết quả từ việc chuyển sức mua từ một phần của cấu trúc sang một phần khác.
 
@@ -405,7 +405,7 @@ Bây giờ, nếu xem xét một sự giảm lãi suất là kết quả của v
 Với lãi suất thấp hơn, các doanh nhân có thể vay mượn nhiều nguồn lực hơn và do đó tạo ra các giai đoạn sản xuất cao hơn. Trong trường hợp này, việc mở rộng cấu trúc sản xuất như vậy sẽ không dẫn đến việc giảm tiêu dùng vì không có sự hoãn lại tiêu dùng hiện tại của người tiêu dùng. Nói cách khác, GDP tăng lên. Do đó, hình tam giác của chúng ta sẽ dài ra trong khi giữ nguyên chiều cao ban đầu, nghĩa là diện tích của nó sẽ tăng lên.
 Lưu ý rằng đây là hệ quả hoàn toàn hợp lý của việc mở rộng tín dụng. Khi ngân hàng tạo ra công cụ tín dụng bằng cách cấp các khoản vay, sức mua tổng thể tăng lên là điều hoàn toàn tự nhiên và có thể dự đoán được.
 
-![image](assets/Image/14.webp)
+![image](assets/en/19.webp)
 
 Khi tín dụng được đưa vào nền kinh tế thông qua các khoản vay cho các doanh nhân, chúng ta sẽ thấy sự gia tăng lợi nhuận trong các ngành sản xuất xa giai đoạn tiêu dùng, và giảm lợi nhuận tương đối trong các ngành gần với tiêu dùng hơn. Sự gia tăng lợi nhuận cao hơn này dẫn tới việc tái phân bổ vốn vào những giai đoạn mới, tiêu tốn vốn hơn (đóng tàu, ô tô, xây dựng, công nghệ tiên tiến, v.v.), và giảm đầu tư vào các ngành gần với tiêu dùng hơn.
 
@@ -419,7 +419,7 @@ Nói chung, suy thoái được kích hoạt bởi chính ngành ngân hàng. Kh
 
 Sự điều chỉnh như vậy có thể được xem như một giai đoạn trong đó việc tiêu dùng và đầu tư thấp được thực thi để tái tạo lại khoản tiết kiệm bị thiếu hụt. Đối với Hayek, giai đoạn suy thoái này, mặc dù đau đớn, nhưng là cực kỳ cần thiết vì nó cho phép phục hồi hoạt động kinh tế dựa trên một cấu trúc giá cả tương đối phản ánh sự khan hiếm thực sự của các yếu tố sản xuất. Nếu giai đoạn suy thoái này bị gián đoạn, nền kinh tế không thể trở lại một con đường mong muốn vì, trong tình trạng thiếu một hệ thống thông tin cho phép các chủ thể kinh tế hợp lý hóa quyết định của họ, sự phân bổ sai lệch nguồn lực sẽ tiếp tục diễn ra.
 Thật không may, cơ chế trầm lắng này thường xuyên bị gián đoạn bởi quyền lực chính trị và các ngân hàng trung ương, những tác nhân tìm cách “thúc đẩy” nền kinh tế thông qua việc chi tiêu quá mức và chính sách tiền tệ lỏng lẻo.
-![image](assets/Image/21.webp)
+![image](assets/en/20.webp)
 
 Đối với những người theo chủ nghĩa tiền tệ và Keynes, nguyên nhân của suy thoái là do nhu cầu tổng không đủ, vì vậy cả hai trường phái đều không chú ý đến sự phát triển của giá cả tương đối, điều, mà như chúng ta đã thấy, là trọng tâm của vấn đề. Do đó, họ tin rằng việc kích thích sự mở rộng tín dụng (giảm lãi suất) và sử dụng khả năng chi tiêu thâm hụt của nhà nước để thúc đẩy nhu cầu sẽ hồi sinh nền kinh tế. Trong ngắn hạn, những biện pháp như vậy có vẻ như tạo ra các hiệu ứng mong muốn: thâm hụt ngân sách để hỗ trợ chi tiêu, trong khi việc giảm lãi suất dẫn đến giá tài sản tăng cao hơn, điều này, đến lượt nó, kích thích chủ sở hữu tài sản tăng chi tiêu của họ. Tuy nhiên, hiệu ứng kích thích này cuối cùng sẽ mở dần, trong khi vấn đề cấu trúc vẫn còn đó, hoặc thậm chí trở nên tồi tệ hơn khi sự phân bổ vốn sai lầm nguồn vốn tiếp tục diễn ra do lãi suất thấp một cách nhân tạo.
 
@@ -458,7 +458,7 @@ Với bài viết của mình, Mises đã đặt ra một chiều kích mới ch
 
 ### Giải thích về sự bất khả thi của tính toán kinh tế
 
-![image](assets/Image/24.webp)
+![image](assets/en/21.webp)
 
 Hầu hết những hiểu lầm về lập luận của Mises phát sinh từ sự hiểu nhầm về vai trò của các tầng lớp quản lý và doanh nhân trong một nền kinh tế tư bản. Mises không bao giờ phủ nhận năng lực của các nhà quản lý trong việc xây dựng các kế hoạch sản xuất hiệu quả trong phạm vi hoạt động của họ. Thay vào đó, ông nhấn mạnh tầm quan trọng của các doanh nhân và cổ đông, những người, với tư cách là chủ sở hữu của các phương tiện sản xuất, phân bổ vốn trong các ngành công nghiệp khác nhau, qua đó hình thành giá cả, thứ sẽ phục vụ như là đầu vào trong các tính toán kinh tế của các nhà quản lý.
 
@@ -483,7 +483,7 @@ Mặc dù có những dự đoán ấn tượng và nhiều chứng minh thực 
 
 ### Lý thuyết chu kỳ kinh tế của trường phái kinh tế Áo là một trường hợp cụ thể về tính bất khả thi của tính toán kinh tế dưới chế độ chủ nghĩa xã hội
 
-![image](assets/Image/23.webp)
+![image](assets/en/23.webp)
 
 Trong một chương trước, chúng ta đã làm sáng tỏ về động lực của việc đầu tư quá mức và sự phân bổ vốn sai lệch do sự can thiệp vào lãi suất bởi các ngân hàng trung ương. Về cơ bản, những gì chúng ta đã giải thích có thể được xem như một trường hợp cụ thể về sự bất khả thi của việc tính toán kinh tế dưới chế độ chủ nghĩa xã hội, áp dụng cho lĩnh vực thị trường tiền tệ. Khi giá cả được ấn định ngoài giá trị thị trường của chúng, các doanh nhân và người phân bổ vốn được khuyến khích tham gia vào các khoản đầu tư không thể duy trì được lâu dài do thiếu tiết kiệm. Bằng cách can thiệp vào hệ thống giá cả, các nhà hoạch định tập trung (trong trường hợp này là các ngân hàng trung ương) tạo ra sự phối hợp kém giữa các chủ thể kinh tế. Trong trường hợp này, sự phối hợp kém theo thời gian bao gồm việc đầu tư quá mức vào hàng hóa đầu tư ở thứ bậc cao và đầu tư không đủ vào hàng hóa đầu tư cấp bậc thấp hơn, đây là một biểu hiện cụ thể của sự phân bổ vốn sai lệch giữa các ngành.
 
@@ -527,7 +527,7 @@ Phương pháp luận là một khía cạnh thiết yếu trong kinh tế học
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
-## Đánh giá khóa học
+## Nhận xét & Đánh giá
 
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -574,38 +574,4 @@ Bằng cách đọc những tác phẩm này và khám phá những nguồn tr�
 ## Kết luận
 
 <chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
-Chúc mừng bạn đã hoàn thành khóa học này!
-
-Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình.
-
-Nhờ vào sự tận tâm và cam kết của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ phục vụ cho sự phát triển nghề nghiệp của mình.
-
-Để tiếp tục khám phá sâu rộng vũ trụ Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
-
-#### Khám phá cuộc đời của F. Bastiat với
-
-https://planb.network/courses/eco102
-
-#### Hiểu về sự xuất hiện của siêu lạm phát với
-
-https://planb.network/courses/eco204
-
-#### Khám phá Bitcoin và các nguyên tắc cơ bản của nó với
-
-https://planb.network/courses/btc101
-
-#### Cập nhật bảo mật trực tuyến của bạn với
-
-https://planb.network/courses/scu101
-
-#### Khám phá Lightning Network với
-
-https://planb.network/courses/lnp201
-
-#### Học cách tạo cộng đồng Bitcoin của bạn với
-
-https://planb.network/courses/btc302
-
-#### Hiểu cách hoạt động của ví Bitcoin với
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

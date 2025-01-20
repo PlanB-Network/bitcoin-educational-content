@@ -112,18 +112,10 @@ Chúc bạn may mắn với việc học của mình, và nếu bạn cần liê
 
 
 
-## Đánh giá khóa học
+## Nhận xét & Đánh giá
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Lời kết
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
-
-Cảm ơn bạn đã tham gia các khóa học về RGB do Mạng lưới Plan ₿ phối hợp cùng Fulgur'Ventures tổ chức. Chúng tôi xin bày tỏ lòng biết ơn đến các giáo viên đã hỗ trợ. Nếu bạn quan tâm đến việc tiếp tục công việc với RGB, dưới đây là danh sách các nguồn lực hữu ích để bạn khám phá:
-
-- https://rgb.tech/
-- https://www.rgbfaq.com/
-- https://rgb.tech/docs/
-- https://www.youtube.com/LNP-BP
-- https://twitter.com/lnp_bp
-Cảm ơn bạn và chúc bạn may mắn với việc học tập tại Mạng lưới Plan ₿.
+<isCourseConclusion>true</isCourseConclusion>

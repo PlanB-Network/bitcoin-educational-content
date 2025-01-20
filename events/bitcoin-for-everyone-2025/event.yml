@@ -1,0 +1,17 @@
+- start_date: 2025-08-01 15:00:00
+  end_date: 2025-08-01 23:00:00
+  timezone: US/Pacific
+  address_line_1: Portland, Orlando, USA
+  address_line_2: Revolution Hall, Portland
+  name: Bitcoin Is For Everyone
+  builder:
+  type: conference
+  description: An immersivefull-dayBitcoin Experiencein Portland, OR.
+  language:
+    - en
+  links:
+    website: https://bitcoinisforeveryone.com/
+  tags:
+    - innovation
+    - finance
+    - market-trends

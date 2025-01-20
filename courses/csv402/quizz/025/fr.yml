@@ -1,0 +1,9 @@
+question: Quels sont les quatre composants qui définissent un contrat RGB ?
+answer: Genesis, Schema, Interface et Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Transition et Interface Implementation
+  - Genesis, Interface, Transition et Extension
+  - Genesis, Interface, Interface Implementation et Extension
+explanation: |
+  Un contrat RGB se compose de quatre éléments distincts : la Genesis, le Schema, l’Interface et l’Interface Implementation.
+reviewed: false

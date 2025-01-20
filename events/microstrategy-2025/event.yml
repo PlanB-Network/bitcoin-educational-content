@@ -1,0 +1,16 @@
+- start_date: 2025-05-05 16:00:00
+  end_date: 2025-05-08 22:00:00
+  timezone: US/Eastern
+  address_line_1: Orlanod, Florida, 2025
+  name: Microstrategy World 2025
+  builder:
+  type: conference
+  description: Welcome to MicroStrategy World 2025, the premier event for AI and BI innovators!
+  language:
+    - en
+  links:
+    website: https://www.microstrategy.com/world25
+  tags:
+    - business
+    - development
+    - finance

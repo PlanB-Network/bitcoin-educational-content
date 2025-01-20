@@ -1308,26 +1308,10 @@ Selvfølgelig, **i andre land, er lovgivningen og funksjonen av foreninger forsk
 
 
 
-## Evaluer kurset
+## Vurderinger & Karakterer
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Ta vare på deg selv
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
-
-Når man faller ned i kaninhullet, endres vår oppfatning av mange ting.
-Dette presser oss deretter til å naturlig ønske å gå videre, til å ønske å oppdage de andre menneskene som gjør det samme mentale arbeidet som oss og som også har forstått.
-Dette motiverer oss, gir oss enda mer lyst til å **bidra med vår stein til bygningen** og å dele vår oppdagelse: Bitcoin.
-Det fører oss også til å **tenke på morgendagens verden, den vi ønsker å bygge, og fellesskapene som er i ferd med å bygge den**.
-####
-**I denne lange galleriet som er skapelsen av et fellesskap, vil du trenge å vise motivasjon, strategi, selvoppofrelse, og tid**. Det er noen ganger en utakknemlig oppgave; og i dette foretaket, er det bedre å ta ting litt etter litt for ikke å skade deg selv.
-**Så, tenk på deg selv, dine grenser**. Og selv om Bitcoin kan animere deg natt og dag, **ikke prøv å gjøre alt alene; ellers vil du utmatte deg selv**.
-
-Tvert imot, **be om hjelp fra bitcoinere som allerede har gått gjennom denne samme galleriet, som allerede har utforsket de samme problemene og bygget de samme verktøyene**. Dette vil spare deg for en enorm mengde tid.
-**Foreslå også for folkene som vil følge deg i dette eventyret å hjelpe deg, selv om det betyr å delegere noen oppgaver** og at disse kan ta lengre tid. På lang sikt vil samfunnet ditt fremstå som forent og mer modent.
-![bilde](assets/fr/chapter39/63.webp)
-
-Alene kan man raskt utforske en av de mange galleriene i Bitcoin-kaninhullet, til man når enden. Men så er det returreisen å gjøre. Deretter alle de andre retningene å utforske.
-Mens **ved å skape og/eller bli med i et fellesskap av bitcoinere, ved å dele og utveksle med dem regelmessig, vil du utforske alle retningene av Bitcoin-kaninhullet samtidig**.
-
-Det er da, mye raskere enn du ville ha gjort på egen hånd, du kan si: "Jeg har forstått Bitcoin".
+<isCourseConclusion>true</isCourseConclusion>

@@ -109,18 +109,10 @@ Bitcoinの最も先進的なトピックの1つであるこのコースを楽し
 
 
 
-## コースを評価してください
+## レビュー & 評価
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## 締めの言葉
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
-
-Plan ₿ NetworkとFulgur'Venturesの共同で提供されるRGBコースに参加していただき、ありがとうございます。サポートを提供してくれた講師の皆様に感謝を申し上げます。RGBでの作業を続けることに興味がある場合は、探索するための有用なリソースリストをこちらにご紹介します:
-
-- https://rgb.tech/
-- https://www.rgbfaq.com/
-- https://rgb.tech/docs/
-- https://www.youtube.com/LNP-BP
-- https://twitter.com/lnp_bp
-ご参加いただきありがとうございました。Plan ₿ Networkでの学習を引き続き頑張ってください。
+<isCourseConclusion>true</isCourseConclusion>

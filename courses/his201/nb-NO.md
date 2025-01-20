@@ -1289,7 +1289,7 @@ Dette mystiske aspektet rundt skaperen av Bitcoin ble godt oppsummert av Hal Fin
 >
 > Hva står S for?"
 
-## Evaluer kurset
+## Vurderinger & Karakterer
 
 <chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1432,35 +1432,4 @@ I 2011 forsvant Satoshi, men Bitcoin overlevde. Kryptovalutaen tok definitivt av
 ## Konklusjon
 
 <chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
-Gratulerer med fullført kurs!
-
-Vi er glade for at du har nådd denne viktige milepælen i din lærereise.
-
-Takket være din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg i din profesjonelle utvikling.
-
-For å fortsette å utforske Bitcoin-universet i dybden, inviterer vi deg til å oppdage alle andre kurs tilgjengelige på Plan ₿ Network:
-
-#### Oppdag Bitcoin og dens grunnleggende prinsipper med
-
-https://planb.network/courses/btc101
-
-#### Oppdag den østerrikske økonomiskolen med
-
-https://planb.network/courses/eco201
-
-#### Få og sikre dine første bitcoins med
-
-https://planb.network/courses/btc102
-
-#### Oppdater din nettsikkerhet med
-
-https://planb.network/courses/scu101
-
-#### Oppdag frihetens evolusjon gjennom tidene med
-
-https://planb.network/courses/phi201
-
-#### Forstå grunnleggende om mining med
-
-https://planb.network/courses/min201
-
+<isCourseConclusion>true</isCourseConclusion>

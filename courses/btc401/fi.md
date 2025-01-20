@@ -264,21 +264,10 @@ Lightning Walker -ryhmä esittelee ratkaisunsa rahansiirtopalvelulle käyttäen 
 
 
 
-## Arvioi kurssi
+## Arviot & Arvosanat
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Kiitokset
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-Haluaisimme kiittää kouluttajiamme:
-
-- Peter Todd
-- Adam Gibson
-- Alekos Filini
-- Daniela Brozzoni
-- Ajelex
-- asi0
-- Gabriel Comte
-Heidän asiantuntemuksensa on ollut korvaamattoman arvokasta tämän kurssin menestykselle. Tämä on ollut ensimmäinen kurssi, joka perustuu Cubo+ -aloitteen 1. painokseen, ja se järjestettiin heinäkuussa 2023. Kiitos kaikille osallistujille ja kouluttajille, että olitte osa tätä uraauurtavaa koulutusmatkaa. Se merkitsee alkua sille, mitä toivomme olevan pitkä ja hedelmällinen matka Bitcoin-kehityksen maailmaan. Ensimmäisenä ryhmänä osallistumisenne on asettanut standardin tuleville luokille.
-Jatkakaa tutkimista, oppimista ja panostamista Bitcoin-ekosysteemiin. Täällä saavutettu tieto on vasta lähtökohta. Jatkakaa kaninkolon kaivamista, ja löydätte jatkuvasti laajenevan mahdollisuuksien maailman.
+<isCourseConclusion>true</isCourseConclusion>

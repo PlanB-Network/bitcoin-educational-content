@@ -1,18 +1,18 @@
-id: 18f8a2b9-65c4-48a9-9105-82a276a9b43a
+id: d692bcb5-b042-4bd4-b3a3-4a4310394cd3
 chapterId: 1306196c-1e8a-454b-8e11-6887ecb3d8b4
 difficulty: easy
 duration: 30
-author: network-pill
+author: pretty-private
 tags:
   - guides
   - finance
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: en
-    last_contribution_date: 2024-12-18
+  - language: fr
+    last_contribution_date: 2025-01-20
     urgency: 1
     contributors_id:
-      - NetworkEffect
+      - LoicPandul
     reward:

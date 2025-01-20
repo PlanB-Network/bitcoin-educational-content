@@ -562,16 +562,22 @@ Because of these differences, **some business owners choose to purchase and hold
 
 There are three ways to acquire Bitcoin:
 
+![BIZ101](assets/en/09.webp)
+
 - **In exchange for goods or services:**
 Since Bitcoin functions as a medium of exchange, it’s possible to envision a circular economy. Although this remains uncommon today, more and more businesses are beginning to accept Bitcoin payments—why not yours? (See our next chapter)
 
 - **Mining Bitcoin:**
 This involves earning rewards from operating mining machines. For non-specialized businesses, this remains relatively marginal. You can participate through intermediaries, such as [https://www.blobb.io/](https://www.blobb.io/). If you own the machines, you can account for them as depreciable assets. On a large scale, you’ll need to carefully calculate return on investment because the market is highly competitive and requires a good anticipation of costs, particularly electricity.
 
-- **Buying Bitcoin:**
-This is by far the most common method, done either via peer-to-peer exchanges or, more typically, on specialized trading platforms.
+To learn mor about mining methods, you can [consult the "mining" section in our tutorials](https://planb.network/tutorials/mining).
 
-![BIZ101](assets/en/09.webp)
+- **Buying Bitcoin:**
+This is by far the most common method, done either via peer-to-peer exchanges or, more typically, on specialized trading platforms. But when acquiring Bitcoin as a corporate treasury asset, companies must comply with robust regulatory standards and Know-Your-Customer (KYC) procedures. When they buy it on specialized trading platforms, businesses are typically required to provide detailed company information, including identification documents, financial statements, and proof of address, to satisfy KYC and anti-money laundering (AML) requirements.
+
+To learn more about methods for acquiring bitcoins via an exchange or peer-to-peer, you can [consult the "exchange" section in our tutorials](https://planb.network/tutorials/exchange).
+
+![BIZ101](assets/en/16.webp)
 
 ### At What Price?
 
@@ -614,6 +620,8 @@ For example, an exchange or a buying service can create an account for you, conv
 
 - **“Paper Bitcoin” (ETFs or ETPs):**
 These are traditional financial instruments that represent fractions of Bitcoin, replicating its price performance. The institution behind the product theoretically buys and holds the underlying Bitcoin. Your contributions and withdrawals are made in traditional currency (e.g., dollars or euros), not in Bitcoin. Except for certain products that permit withdrawal in actual Bitcoin (to avoid a taxable event in some jurisdictions), these instruments involve annual management fees. Here, you rely on the institution’s security and face counterparty risk (for instance, if a government decided to seize all institutionally held Bitcoin, as happened with gold in 1933 under U.S. Executive Order 6102). Their primary benefit is easy access, as they’re distributed through traditional financial channels. They bypass the need to secure cryptographic keys but offer none of Bitcoin’s inherent properties: you can’t use the Bitcoin network 24/7 to move value freely without permission. They only replicate the financial performance, not the functionality or sovereignty of Bitcoin itself.
+
+![BIZ101](assets/en/15.webp)
 
 In addition, the form in which you hold Bitcoin significantly impacts the security measures required to safeguard your corporate treasury. Whether you choose self-custody, using single-signature or multi-signature hardware wallets, etc. to maintain direct control of your keys, or delegate this task to third-party custody services or ETFs, each option carries its own risk profile. For instance, self-custody offers full access but demands rigorous internal security protocols, while third-party solutions reduce management burden at the cost of counterparty risk. To further illustrate the distinctions, this graph outlines the security model for each custody type, helping you to select the approach best suited to your organization’s needs :
 
@@ -659,6 +667,8 @@ First, it’s important to understand that Bitcoin is a disruption on the same s
 In the early days, the internet network made it possible to remove intermediaries from communication channels, and then this infrastructure led to countless previously unimaginable applications. Today, what business doesn’t have an online presence?
 
 Bitcoin is an infrastructure of trust, whose first application is to remove intermediaries from the storage and exchange of value—money. Other currently unimaginable applications will emerge on this infrastructure. Your initial presence here is the equivalent of having a website: a gateway to peer-to-peer payments and value exchanges.
+
+![BIZ101](assets/en/17.webp)
 
 Now, consider the perspective of a practical business whose core activity has nothing to do with Bitcoin. Why would it choose to accept Bitcoin payments?
 
@@ -1084,15 +1094,15 @@ However, **for a small business owner or shop**, all that’s often needed is a 
 ## Conclusion
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
-*We have now reached the end of the  BIZ101 training : "Kickstart your Company’s Journey on the Bitcoin Network". We hope it has provided valuable insights into how Bitcoin and the Lightning Network can transform your business operations. From understanding the nature of money and currency networks, to grasping the strategic importance of holding Bitcoin in treasury, and exploring the practical solutions for accepting Bitcoin payments, you’ve gained knowledge that connects fundamental theory with real-world application.
+We have now reached the end of the  BIZ101 training : "Kickstart your Company’s Journey on the Bitcoin Network". We hope it has provided valuable insights into how Bitcoin and the Lightning Network can transform your business operations. From understanding the nature of money and currency networks, to grasping the strategic importance of holding Bitcoin in treasury, and exploring the practical solutions for accepting Bitcoin payments, you’ve gained knowledge that connects fundamental theory with real-world application.
 
-*If you use Bitcoin as part of your business, comprehension of these mechanisms enables you to confidently adopt best practices, leverage cost savings, improve your payment infrastructure, and strengthen financial resilience. By understanding how Bitcoin and Lightning payments work, you ensure that your company remains competitive in a rapidly evolving global marketplace.
+If you use Bitcoin as part of your business, comprehension of these mechanisms enables you to confidently adopt best practices, leverage cost savings, improve your payment infrastructure, and strengthen financial resilience. By understanding how Bitcoin and Lightning payments work, you ensure that your company remains competitive in a rapidly evolving global marketplace.
 
-*If you found this training helpful, we’d greatly appreciate your feedback. **Please consider rating and commenting on this course**, and feel free to share it within your professional network. Your support helps this knowledge reach more entrepreneurs and managers looking to benefit from Bitcoin’s capabilities.
+If you found this training helpful, we’d greatly appreciate your feedback. **Please consider rating and commenting on this course**, and feel free to share it within your professional network. Your support helps this knowledge reach more entrepreneurs and managers looking to benefit from Bitcoin’s capabilities.
 
-*Ready to go further? To continue your journey, you might consider exploring additional courses on Plan ₿ Network. For instance, if you wish to deepen your understanding of the Bitcoin ecosystem, check out **BIZ102** in which you will go more in depth about Bitcoin fundamentals and practical applications, specifically tailored for future startup-builders, business students and professionals willing to work in the growing Bitcoin ecosystem in non-technical roles.
+Ready to go further? To continue your journey, you might consider exploring additional courses on Plan ₿ Network. For instance, if you wish to deepen your understanding of the Bitcoin ecosystem, check out **BIZ102** in which you will go more in depth about Bitcoin fundamentals and practical applications, specifically tailored for future startup-builders, business students and professionals willing to work in the growing Bitcoin ecosystem in non-technical roles.
 
-*We also invite you to explore other courses available on Plan ₿ Network such as:
+We also invite you to explore other courses available on Plan ₿ Network such as:
 
 #### *The Bitcoin Journey*
 

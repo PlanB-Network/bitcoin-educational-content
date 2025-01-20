@@ -197,6 +197,8 @@ Bitcoin is a **peer-to-peer digital currency exchange system** (electronic cash)
 
 Together they make of Bitcoin a **bearer asset** and a digital currency **without an issuer**. Ownership is secured solely by holding the **private cryptographic key**, granting full control **without intermediaries or trusted third parties**. When transferred, ownership **finality** is immediate: the new holder fully owns it without relying on a central authority for protection or convertibility. Transactions are **immutable**—once recorded on the blockchain, they cannot be altered or deleted.
 
+![BIZ101](assets/en/11.webp)
+
 Bitcoin has a fixed monetary policy, with a **cap of 21 million bitcoins**, of which ~19.8 million have already been distributed. This makes it **deflationary**, with its value increasing over time as users store savings and productivity gains in it.
 
 Its technical features surpass those of gold and the dollar combined, making it the hardest financial asset ever created. Bitcoin is both a store of value and a medium of exchange, a currency in the making. Imagine transferring value from one company’s treasury to another swiftly, without intermediaries, at minimal cost, without fraud, 24/7, and without any third party involved.
@@ -246,6 +248,8 @@ The Lightning Network is **a protocol and a network** that facilitates Bitcoin t
 - **On-chain settlements:** Only **the final balance** of a channel's transactions is published on the Bitcoin main blockchain (**"on-chain**"), allowing numerous transactions to occur in the meantime. This bundling of multiple payments reduces congestion and thus lowers fees compared to make many on-chain transactions.
 - **Channel closure:** A user can close their channel at any time and reclaim their Bitcoin by publishing the latest transaction state. This is the principle of transactions being **"publishable" at any moment but "unpublished"** until necessary. The exit (channel closure) can be unilateral (decided by any of the 2 parties at anytime) or mutually decided (resulting in lower on-chain fees)
 
+![BIZ101](assets/en/04.webp)
+
 This approach avoids the slowness and complexity of performing every transaction directly on Bitcoin's main blockchain, recording only final balances and retaining its security. The Lightning Network is a layer "on top" of Bitcoin but remains anchored to it.
 
 **A Global Payment Network**  
@@ -253,7 +257,7 @@ The protocol creates a **network** of machines where channels form a universal p
 
 The Lightning Network enables instant value exchange at the speed of light. It’s like an email protocol applied to payments: a next-generation payment network. It radically transforms the way "money" moves, making it as free and fast as data transmission on the internet.
 
-![BIZ101](assets/en/04.webp)
+![BIZ101](assets/en/12.webp)
 
 **Key Advantages:**
 
@@ -299,6 +303,11 @@ The Lightning Network is ideal for Bitcoin payments in physical or online stores
     - Proven security
     - High availability (excellent uptime)
     - Controllable and adaptable
+
+For more information on the technical workings of the Lightning Network, I also suggest following this other comprehensive course:
+
+https://planb.network/courses/lnp201
+
 
 # Bitcoin in treasury
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>

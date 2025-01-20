@@ -20,28 +20,28 @@ class JsonConverter:
         # Storage
         self.output: List[Dict[str, Any]] = []
 
-  def get_indent_level(self, line: str) -> int:
-      """
-      Calculate the indentation level of a line by counting leading spaces.
-      Returns the number of spaces at the start of the line.
-      
-      Args:
-          line: The line to analyze
-          
-      Returns:
-          int: Number of leading spaces
-      """
-      if not line:  
-          return 0
-          
-      leading_spaces = 0
-      for char in line:
-          if char == ' ':
-              leading_spaces += 1
-          else:
-              break
-              
-      return leading_spaces
+    def get_indent_level(self, line: str) -> int:
+        """
+        Calculate the indentation level of a line by counting leading spaces.
+        Returns the number of spaces at the start of the line.
+        
+        Args:
+            line: The line to analyze
+            
+        Returns:
+            int: Number of leading spaces
+        """
+        if not line:  
+            return 0
+            
+        leading_spaces = 0
+        for char in line:
+            if char == ' ':
+                leading_spaces += 1
+            else:
+                break
+                
+        return leading_spaces
 
     def process_file(self, content: str) -> None:
         """Process file content based on file type"""

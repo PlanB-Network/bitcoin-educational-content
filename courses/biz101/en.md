@@ -31,7 +31,7 @@ Kickstart your company’s journey on the Bitcoin network with this comprehensiv
 
 Throughout the course, you will be introduced to the foundational principles that make Bitcoin and the Lightning Network distinctly transformative. You will learn how these technologies offer a spectrum of use cases, from digital capital storage to fast, economical, and scalable payments, and how they provide critical improvements over traditional currency and payment systems. BIZ101 course connects economic theory with real-world applications, clarifying how decentralization can reduce dependencies on intermediaries and overcome limitations inherent in legacy systems.
 
-The course begins with a detailed examination of conventional currencies and payment mechanisms, laying the groundwork by exploring how currency functions as a network to enable trade, savings, and economic specialization. Subsequently, we will delve into the technology behind Bitcoin and the innovations introduced by the Lightning Network, revealing their roles in facilitating seamless, secure, and near-instantaneous transactions that can serve businesses of all sizes.
+The course begins with a detailed examination of conventional currencies and payment mechanisms, laying the groundwork by exploring how currency functions as a network to enable trade, savings, and economic specialization. Subsequently, we will delve into the technology behind Bitcoin and the innovations introduced by the Lightning Network, revealing their roles in facilitating seamless, secure, and near-instantaneous transactions that can serve businesses of all sizes. Then we will dive into the practical sections of this course, starting with a part on holding bitcoins as treasury, followed by a final part on accepting bitcoin as a means of payment.
 
 Whether you represent a small enterprise or a large corporation, this course aims to equip you with the knowledge to integrate Bitcoin into your daily operations, thereby enhancing your company’s resilience, efficiency, and competitive edge. As Bitcoin continue to reshape the economic landscape, understanding these groundbreaking technologies is not merely an option but a strategic necessity. Prepare to engage with insightful content, practical examples, and strategic guidance that will enable you to navigate and leverage the evolving world of Bitcoin!
 
@@ -312,7 +312,7 @@ https://planb.network/courses/lnp201
 # Bitcoin in treasury
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
 
-## Quick recap healthy companies and capitalisation
+## Profits, capital, and the keys to business resilience
 <chapterId>656ad88f-3c27-4054-a94e-b29727009b8e</chapterId>
 
 ### A healthy company
@@ -423,19 +423,13 @@ The **Austrian School of Economics** is a tradition of economic thought that val
 
 These thinkers shaped the idea that state intervention distorts markets and that economic freedom is essential for prosperity and the harmonious coordination of human actions. Their insights highlight the importance of decentralized decision-making and the dangers of centralized control in economic systems.
 
-**To learn about this**
-
-Please consider taking the following courses:
-
-Austrian Economics:
+For more information on this topic:
 
 https://planb.network/courses/eco201
 
-
-A Philosophical History of Freedom:
-
 https://planb.network/courses/phi201
 
+https://planb.network/courses/eco102
 
 ## Holding bitcoin in treasury
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>

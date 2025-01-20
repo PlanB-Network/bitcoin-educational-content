@@ -1,13 +1,9 @@
-question: What is the purpose of this Bitcoin course?
-answer: To introduce some general monetary aspects of Bitcoin, how to use it, and its future.
+question: Why do we pay fees in Bitcoin?
+answer: To create a free market for including transactions in blocks.
 wrong_answers:
   - To introduce how to mine Bitcoin.
-  - To introduce how to regulate Bitcoin.
-  - To introduce how to create a new Bitcoin protocol.
+  - To let rich people pay more.
+  - To exclude governments from the network.
 explanation: |
-  The purpose of this Bitcoin course is to discuss the
-  general monetary characteristics of Bitcoin, including how
-  to buy and sell bitcoins, securely store them in digital
-  wallets, and use them for transactions. It also aims to
-  explore the future of Bitcoin.
+  Fees are essential to create a free market for including transactions in blocks. In fact, a block has a size of 1 MB (which was expanded to 4MB after the Segwit update), so the number of transactions that can be "inserted" in a block is limited to a few thousand transactions per block.
 reviewed: true

@@ -583,6 +583,10 @@ Counterintuitively, it’s probably best to start with a very small purchase wit
 
 As previously stated, it’s wise to only invest excess liquidity that you won’t need for several years. Any poorly understood strategy risks putting you in a difficult position if you suddenly need to cash out at a bad time.
 
+In addition to starting small, it’s useful for corporate treasuries to adopt a measured allocation strategy. On one end of the spectrum, some companies, like MicroStrategy, have taken an extreme approach by committing a substantial portion of their excess treasury funds to Bitcoin, reflecting strong institutional conviction. Conversely, a more conservative and arguably rational strategy might involve allocating maybe around 5% of corporate treasury to Bitcoin, balancing potential gains with risk management and liquidity requirements.
+
+Visualize this spectrum as a scale, from minimal exposure, ensuring the company retains sufficient liquidity for operational needs, to an aggressive stance aimed at leveraging the anticipated long-term value appreciation of Bitcoin. While aggressive allocation may yield higher returns, a modest allocation helps mitigate volatility, ensuring that the company’s financial foundation remains secure while still benefiting from the innovative potential of Bitcoin within its treasury operations.
+
 ### How Often?
 
 There is no hard rule. Trying to time the market by hunting for “dips” can be less effective and more stressful than simply buying at regular intervals. Even seasoned investors get it wrong sometimes. Going “all-in” at once can be a double-edged sword.
@@ -590,6 +594,9 @@ There is no hard rule. Trying to time the market by hunting for “dips” can b
 In reality, Bitcoin’s potential appreciation is such that even if you were to start only a few years down the line, you’d likely still see long-term gains. True, it’s probable that major price swings will lessen in intensity over time. However, as a deflationary currency, Bitcoin is designed to effectively store value and reflect the productivity gains of its users. To draw an analogy: we are currently in the “launch phase” of Bitcoin, a currency in the making, and no one knows its fair value yet. Later, perhaps in 20 or 40 years, when it’s in a stable “cruise phase,” it might be incredibly stable and grow steadily with society’s productivity gains.
 
 The real estate industry often repeats that “it’s always the right time to buy,” forgetting that if real estate were to lose its function as a store of value—shifting to assets like Bitcoin—prices could return closer to their utility value (shelter). Bitcoin, by contrast, serves no purpose other than value storage, which could mean that “it’s always the right time to buy.” The future will tell.
+
+![BIZ101](assets/en/13.webp)
+*Credit: [Bitcoin Office](https://bitcoin.gob.sv/)*
 
 ### In What Form to Buy? (Methods of Custody)
 

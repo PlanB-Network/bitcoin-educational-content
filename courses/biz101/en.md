@@ -131,10 +131,9 @@ Payment systems are methods and infrastructures that enable the transfer of fund
     - The focus is often on traceability, documentation, and the ability to handle larger transaction values.
     - Card usage exists but tends to be less common due to higher fees and transaction limits. Digital solutions like integrated payment platforms are emerging to streamline and automate accounts receivable/payable processes.
 
-
+![BIZ101](assets/en/01.webp)
 *Graphic: Global Trends in Point-of-Sale (POS) Payment Methods (2023-2027), The Global Payments Report 2024, Worldpay.*
 
-![BIZ101](assets/en/01.webp)
 
 **The Complexity Behind a Simple Card Payment at a retail Point of Sale**
 

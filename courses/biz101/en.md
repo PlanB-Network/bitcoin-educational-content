@@ -63,39 +63,29 @@ In conclusion, currencies are networks designed to move value efficiently. They 
 
 A good currency possesses several essential properties that make it effective for facilitating value exchange. Here’s a concise explanation of each:
 
-**Secure**
-A currency must be protected against theft or unauthorized access, ensuring users can hold and transfer it with confidence. Security is critical for building trust in the system.
+- **Secure**: A currency must be protected against theft or unauthorized access, ensuring users can hold and transfer it with confidence. Security is critical for building trust in the system.
 
-**Counterfeit-Proof**
-A currency must be extremely difficult or impossible to counterfeit. This ensures every unit is authentic, maintains its value, and prevents inflation caused by fake units entering circulation. For example, historically, gold has been valued not only for its beauty and rarity, but because it’s extremely hard to produce. Unlike paper notes or digital entries, you can’t just “make” gold—it must be mined from the earth. This natural scarcity and difficulty of production have helped gold maintain its status as a trusted store of value and a benchmark for authenticity.
+- **Counterfeit-Proof**: A currency must be extremely difficult or impossible to counterfeit. This ensures every unit is authentic, maintains its value, and prevents inflation caused by fake units entering circulation. For example, historically, gold has been valued not only for its beauty and rarity, but because it’s extremely hard to produce. Unlike paper notes or digital entries, you can’t just “make” gold—it must be mined from the earth. This natural scarcity and difficulty of production have helped gold maintain its status as a trusted store of value and a benchmark for authenticity.
 
-**Scarce**
-A good currency must have a limited supply or controlled issuance. Scarcity ensures that its value is preserved over time, preventing overproduction, which would erode purchasing power. For instance, certain Native American tribes used beads as a form of currency. Initially, these beads were hard to produce, maintaining their scarcity and value. However, once European traders began mass-producing and flooding the market with beads, their rarity vanished. As the supply soared, the beads lost their purchasing power, undermining their role as a reliable store of value.
+- **Scarce**: A good currency must have a limited supply or controlled issuance. Scarcity ensures that its value is preserved over time, preventing overproduction, which would erode purchasing power. For instance, certain Native American tribes used beads as a form of currency. Initially, these beads were hard to produce, maintaining their scarcity and value. However, once European traders began mass-producing and flooding the market with beads, their rarity vanished. As the supply soared, the beads lost their purchasing power, undermining their role as a reliable store of value.
 
-**Permissionless**
-In the past, currencies such as gold and silver coins were often minted by private individuals, local authorities, or merchants who had access to the raw materials. This system sometimes operated under agreements or licenses granted by kings or rulers. Over time, kings and governments centralized this process to gain greater control over economic stability, taxation, and the monetary system. One famous example is the **thaler**, a silver coin first minted in 1518 in the **Joachimsthal Valley** (modern-day Jáchymov in the Czech Republic) by local miners and authorities. The name "thaler" derives from the German word **"Thal"** meaning "valley." These coins, known for their high-quality silver, became widely circulated across Europe. Over time, the term evolved linguistically and geographically, eventually giving rise to the name "dollar," which was adopted in the United States for its currency.
+- **Permissionless**: In the past, currencies such as gold and silver coins were often minted by private individuals, local authorities, or merchants who had access to the raw materials. This system sometimes operated under agreements or licenses granted by kings or rulers. Over time, kings and governments centralized this process to gain greater control over economic stability, taxation, and the monetary system. One famous example is the **thaler**, a silver coin first minted in 1518 in the **Joachimsthal Valley** (modern-day Jáchymov in the Czech Republic) by local miners and authorities. The name "thaler" derives from the German word **"Thal"** meaning "valley." These coins, known for their high-quality silver, became widely circulated across Europe. Over time, the term evolved linguistically and geographically, eventually giving rise to the name "dollar," which was adopted in the United States for its currency.
 
 In the modern era, currencies became fully permissioned under the seigniorage system, meaning only authorized entities—such as central banks or treasuries—could mint coins or print banknotes. Individuals are no longer legally permitted to produce currency, ensuring centralized control over its issuance and supply.
 
 Today, the principle of seigniorage is being challenged by the Bitcoin cryptocurrency, which operates without centralized control. Bitcoin is a "permissionless" system where anyone can participate in using the currency without asking for permission, and, through mining, in creating it. This decentralization removes the monopoly of issuance from governments, raising questions about a potential return to free-market competitive currency systems.
 
-**Unit of Account**
-A currency should provide a standard measure for comparing the value of goods and services. This simplifies trade and makes pricing transparent and consistent across transactions.
+- **Unit of Account**: A currency should provide a standard measure for comparing the value of goods and services. This simplifies trade and makes pricing transparent and consistent across transactions.
 
-**Durable**
-A currency must withstand wear and tear over time. Physical currencies, like coins or notes, should resist damage, while digital currencies must remain stored securely without risk of data loss.
+- **Durable**: A currency must withstand wear and tear over time. Physical currencies, like coins or notes, should resist damage, while digital currencies must remain stored securely without risk of data loss.
 
-**Portable**
-A currency must be easy to transport and use, enabling trade across distances. This can be achieved through physical portability (lightweight coins or notes) or digital transfer systems.
+- **Portable**: A currency must be easy to transport and use, enabling trade across distances. This can be achieved through physical portability (lightweight coins or notes) or digital transfer systems.
 
-**Divisible**
-A currency should be divisible into smaller units to facilitate transactions of varying sizes. This flexibility ensures it is practical for both small purchases and large-scale trade.
+- **Divisible**: A currency should be divisible into smaller units to facilitate transactions of varying sizes. This flexibility ensures it is practical for both small purchases and large-scale trade.
 
-**Fungible**
-All units of a currency must be interchangeable and of equal value. For example, one dollar bill must be equivalent to any other dollar bill. This uniformity ensures fairness and simplicity in transactions.
+- **Fungible**: All units of a currency must be interchangeable and of equal value. For example, one dollar bill must be equivalent to any other dollar bill. This uniformity ensures fairness and simplicity in transactions.
 
-**Recognizable**
-A currency must be easily identifiable and trusted. Physical currencies achieve this through unique designs and security features, while digital currencies may rely on verification protocols. This ensures widespread acceptance and reduces the risk of fraud.
+- **Recognizable**: A currency must be easily identifiable and trusted. Physical currencies achieve this through unique designs and security features, while digital currencies may rely on verification protocols. This ensures widespread acceptance and reduces the risk of fraud.
 
 These characteristics make a currency practical, reliable, and efficient for facilitating trade and storing value in an economy.
 

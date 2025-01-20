@@ -184,7 +184,7 @@ The traditional payments industry represents an annual economy of approximately 
 Just as we moved from paying by the minute for voice calls to using nearly free IP-based communication, the emergence of more open and efficient networks can redefine payments, reducing costs and intermediaries, and fostering new business models.
 
 
-## Introduction to bitcoin as an emerging currency, a network and a value exchange tool for businesses
+## Bitcoin for Business : an emerging currency
 <chapterId>4488fe33-663f-41a3-a668-e9ca2fb7122e</chapterId>
 
 **WHAT IS BITCOIN?**
@@ -229,7 +229,11 @@ Bitcoin challenges us to reconsider the nature of money itself. Could you explai
 - **Governance:** By the users
 - **Innovative economic model:** Block creation is subsidized by transaction fees (auction-based)
 
-## Introduction to the Lightning Network as a always on near-instant settlement layer for bitcoin payments
+For more information on Bitcoin, its history, how it works, and its use, I also suggest following this other comprehensive course:
+
+https://planb.network/courses/btc101
+
+## Introduction to the Lightning Network
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
 **WHAT IS LIGHTNING?**

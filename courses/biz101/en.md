@@ -775,12 +775,10 @@ The merchants of tomorrow will embrace this innovation, offering customers a saf
 ## Bitcoin Accounting
 <chapterId>84063061-ffdb-4b1f-b20b-588ffb146877</chapterId>
 
-### Bitcoin Accounting Principles
-
 
 The following content is for educational purposes only and should not be considered as financial or accounting advice. Businesses and individuals are strongly encouraged to consult a qualified accountant or legal expert familiar with cryptocurrency regulations in their specific jurisdiction before taking any action.
 
-#### Key Concepts
+### Key Concepts
 
 **Any Bitcoin transaction must be recorded and may lead to a taxable event**
 
@@ -831,7 +829,7 @@ If Bitcoin were treated as a currency, businesses would manage it like any other
 This approach would make Bitcoin accounting far simpler, reduce administrative burdens, and align with the treatment of other currencies, assuming Bitcoin were to be fully recognized as such in legal and regulatory terms. We are not there yet.
 
 
-#### Distinctions Between Individual and Corporate Bitcoin Accounting
+### Distinctions Between Individual and Corporate Bitcoin Accounting
 
 The legal and accounting treatment of Bitcoin differs significantly between individuals and corporations. For individuals, gains from Bitcoin transactions may be subject to income tax, often at a higher rate. In contrast, corporations may benefit from potentially lower corporate tax rates but must adhere to stricter bookkeeping standards.
 
@@ -843,8 +841,7 @@ For businesses Bitcoin can be classified under various accounts depending on its
 
 The choice of classification depends on the company's activity and strategy, with implications for financial reporting and tax obligations. Always check local regulations, as these classifications may differ by country.
 
-
-#### Legal Framework
+### Legal Framework
 
 The legal recognition and treatment of Bitcoin vary by jurisdiction. Some countries, such as El Salvador, have recognized Bitcoin as legal tender, simplifying its use in transactions but complicating international financial reporting. Others treat Bitcoin as a digital asset subject to specific tax and accounting rules.
 
@@ -862,7 +859,7 @@ The approach to Bitcoin accounting varies with the geography:
 
 It is essential to understand the regulations in your operating country and adapt your accounting practices accordingly.
 
-#### Challenges in Regulatory Evolution
+### Challenges in Regulatory Evolution
 
 The rapid pace of cryptocurrency innovation often outpaces regulatory frameworks. Since the recognition of Bitcoin as a digital asset, global regulations have seen incremental updates, but gaps remain:
 
@@ -873,7 +870,7 @@ The rapid pace of cryptocurrency innovation often outpaces regulatory frameworks
 Despite these challenges, many countries’ proactive stances provide a solid foundation for businesses to incorporate Bitcoin into their operations. Continued updates and international harmonization will be essential to address emerging complexities in cryptocurrency accounting.
 
 
-#### Classification of Bitcoin in Financial Statements
+### Classification of Bitcoin in Financial Statements
 
 Bitcoin’s classification in financial statements varies by jurisdiction and depends on its intended use within a business. Broadly, Bitcoin is treated as a digital asset, akin to inventory, investment, or currency, but with unique characteristics that influence its accounting treatment.
 
@@ -881,13 +878,12 @@ Bitcoin’s classification in financial statements varies by jurisdiction and de
 - **Inventory**: If a business’s core activity involves trading Bitcoin, such as cryptocurrency exchanges or brokers, Bitcoin is classified as inventory. In this case, valuation follows inventory accounting standards.
 - **Financial Investment**: Companies holding Bitcoin as a long-term asset may classify it as a financial investment. For example, in the United States, businesses could account for Bitcoin under the Financial Accounting Standards Board (FASB) guidelines, recognizing impairments when market values decline.
 
-###### Implications of Classification
-
+**Implications of Classification :**
 - Long-term holdings often require impairment testing and amortization.
 - Active trading or payment-related activities require constant tracking of realized and unrealized gains and losses.
 
 
-#### Methods of Valuation
+### Methods of Valuation
 
 Valuation methods are accounting techniques used to determine the cost basis of Bitcoin, which is essential for accurately calculating gains or losses during transactions. In general, it is best to **maintain an always updated value of current Bitcoin holdings’ costs** in the accounting system. This ensures transparency, compliance with tax regulations, and prevents falling behind when calculations need to be performed.
 
@@ -896,7 +892,7 @@ Valuation methods are accounting techniques used to determine the cost basis of 
 
 It is highly recommended to maintain a detailed workbook tracking Bitcoin costs **from the moment a company starts buying Bitcoin or accepting it as payment** to ensure accurate and organized record-keeping. That consideration alone should be top of mind when choosing a software solution to accept bitcoin payment or to buy bitcoin.
 
-#### Accounting for transactions in Retail and E-commerce
+### Accounting for transactions in Retail and E-commerce
 
 Retailers must record for each transaction’s the Bitcoin-to-fiat exchange rate. For example, in many countries, businesses use the exchange rate at the time of sale to calculate VAT.
 
@@ -905,7 +901,7 @@ Businesses must ensure that whichever **Payment** tools they are using provide t
 - export all payment receipts, at minimum in a .csv format, with all of the above information, such that the accountant can easily process them
 - ideally have a recording keeping of the updated value of the cost-basis for the current Bitcoin held in treasury
 
-#### Challenges
+### Challenges
 
 - **Volatility**: The price of Bitcoin fluctuates significantly, creating difficulties in valuing holdings and predicting future financial outcomes.
 - **Regulatory Scrutiny**: In countries like China, Bitcoin’s restricted status limits its use as a treasury asset.
@@ -913,7 +909,7 @@ Businesses must ensure that whichever **Payment** tools they are using provide t
 - **Mismanagement Risks** : Improper classification or failure to monitor Bitcoin transactions can lead to compliance issues, penalties, or reputational damage.
 - **Requalification Risks**: Maintaining a significant portion of a company's treasury in Bitcoin exposes the business to potential losses from price declines. This can have serious consequences, particularly if such drops occur when payments to suppliers, employees, or taxes are due. Additionally, the company owner may be held liable, which could result in fines or other legal issues, such as accusations of misuse of company assets.
 
-#### Accounting Tools and Software
+### Accounting Tools and Software
 
 Specialized software solutions, such as **CoinTracker**, **Waltio**, **Cryptio**, **Koinly**, **TokenTax**, and **ZenLedger**, provide businesses with tools to streamline the integration of Bitcoin and other cryptocurrency transactions into existing accounting systems. These tools typically focus on specific aspects of the accounting process, including:
 
@@ -926,9 +922,10 @@ While these tools address the unique challenges of cryptocurrency accounting, th
 
 However, **for a small business owner or shop**, all that’s often needed is a good **.csv export** from their payment solution containing all the necessary fields, such as transaction amounts, timestamps, and recipient details. This simple approach is widely used and proven effective, ensuring their accountant can manage their Bitcoin transactions without difficulty, as many others have done successfully.
 
-### Practical Bitcoin accounting examples
+## Practical Bitcoin accounting examples
+<chapterId>763f6f20-9181-495a-bf7d-b405899e65ec</chapterId>
 
-#### Use Case 1: Retail Store Converting Bitcoin Payments to Euros
+### Use Case 1: Retail Store Converting Bitcoin Payments to Euros
 
 **Scenario**: A small bakery accepts Bitcoin as a payment method but immediately converts all Bitcoin received into euros to avoid exposure to cryptocurrency volatility.
 
@@ -955,7 +952,7 @@ However, **for a small business owner or shop**, all that’s often needed is a 
 - Deduct conversion fees (€0.375) as an expense.
 - No Bitcoin holdings appear on the balance sheet as all amounts were converted immediately.
 
-#### Use Case 2: Retail Store Retaining 50% of Bitcoin Payments
+### Use Case 2: Retail Store Retaining 50% of Bitcoin Payments
 
 **Scenario**: The same bakery chooses to retain 50% of Bitcoin payments as a treasury asset, while converting the other 50% into euros.
 
@@ -982,7 +979,7 @@ However, **for a small business owner or shop**, all that’s often needed is a 
 - Retained Bitcoin (62,500 Satoshis) appears on the balance sheet as a digital asset.
 - Unrealized Gain: if the bitcoin valuation at fiscal year-end is higher or lower there will be an unrealized gain or loss that will be disclosed in financial notes but not realized as income
 
-#### Use Case 3: Professional Service Retaining Bitcoin for Long-Term Investment
+### Use Case 3: Professional Service Retaining Bitcoin for Long-Term Investment
 
 **Scenario**: A freelance graphic designer accepts Bitcoin as payment and retains all received Bitcoin as a long-term investment.
 
@@ -1005,7 +1002,7 @@ However, **for a small business owner or shop**, all that’s often needed is a 
 - Bitcoin retained (0.1) valued at €3,500 on the balance sheet.
 - Unrealized gains are tracked but not included in profit/loss statements.
 
-#### Use Case 4: Business Owner Sells 50% of Bitcoin After Price Increase
+### Use Case 4: Business Owner Sells 50% of Bitcoin After Price Increase
 
 **Scenario**: A business owner makes three Bitcoin purchases during the year, holds the Bitcoin as an asset, and sells 50% after a significant price increase.
 

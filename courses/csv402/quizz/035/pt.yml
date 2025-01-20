@@ -1,0 +1,9 @@
+question: Como é que instalo a ferramenta rgb através do Cargo?
+answer: cargo install rgb-contracts --all-features
+wrong_answers:
+  - cargo install rgb --features all
+  - cargo install rgb-bitcoin --all
+  - cargo build rgb-lightning --release
+explanation: |
+  A instalação é efectuada com o comando "cargo install rgb-contracts --all-features", sendo a caixa denominada "rgb-contracts", que instala a ferramenta rgb.
+reviewed: false

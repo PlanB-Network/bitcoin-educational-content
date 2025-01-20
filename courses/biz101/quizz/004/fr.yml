@@ -1,0 +1,9 @@
+question: Qu'est-ce qui caractérise la complexité du processus actuel de paiement par carte dans un point de vente au détail ?
+answer: Elle implique de nombreux intermédiaires, plusieurs étapes, et peut prendre des jours pour régler complètement les fonds.
+wrong_answers:
+  - Il suffit d'une seule démarche instantanée et les fonds sont réglés immédiatement.
+  - Il repose exclusivement sur des espèces physiques et ne fait appel à aucun intermédiaire.
+  - Il garantit qu'une fois la carte glissée, le commerçant dispose des fonds instantanément et de manière irréversible.
+explanation: |
+  Les paiements par carte impliquent souvent une chaîne d'intermédiaires (acquéreurs, émetteurs, réseaux de cartes), nécessitent des étapes d'autorisation et de règlement et peuvent prendre de 48 heures à plusieurs jours avant que le commerçant ne reçoive les fonds nets.
+reviewed: false

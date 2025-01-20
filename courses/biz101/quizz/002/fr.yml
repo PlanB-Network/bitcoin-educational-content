@@ -1,0 +1,9 @@
+question: Comment le passage de la monnaie fiduciaire à la monnaie papier a-t-il amélioré le réseau monétaire ?
+answer: Il a rendu la monnaie plus portable et plus évolutive, facilitant le commerce à longue distance et les systèmes financiers complexes.
+wrong_answers:
+  - Il n'est plus nécessaire de disposer d'un actif sous-jacent ou d'une fiducie.
+  - Elle a instantanément stoppé l'inflation et stabilisé l'économie.
+  - Elle a permis aux gouvernements d'éviter de gérer entièrement la masse monétaire.
+explanation: |
+  Le papier-monnaie était plus léger et plus facile à fabriquer et à transporter que les pièces de monnaie en métal précieux. Cette portabilité et cette standardisation simplifiaient les transactions et permettaient aux économies de se développer au-delà des régions locales.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jak se liší uměle vytvořený kapitál z dluhových peněz od kapitálu rakouského typu?
+answer: Kapitál rakouského typu vychází ze skutečných úspor a obětí, zatímco kapitál založený na dluhu vzniká okamžitě z úvěru a může zkreslovat ekonomické signály.
+wrong_answers:
+  - Kapitál rakouského typu se vytváří tiskem dalších peněz, kdykoli je to potřeba.
+  - Dluhový kapitál není třeba nikdy splácet a je rovnocenný skutečným úsporám.
+  - Není v tom žádný rozdíl, obě formy kapitálu mají stejnou povahu i účinek.
+explanation: |
+  Rakouský kapitál vzniká ze skutečné ušlé spotřeby a pečlivých investic. Kapitál založený na dluhu, který se snadno vytváří prostřednictvím úvěrů, může podnikatele klamat a vést k neefektivním investicím, protože neodráží skutečné úspory ani spotřebitelské preference.
+reviewed: false

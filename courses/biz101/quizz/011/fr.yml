@@ -1,0 +1,9 @@
+question: Quel avantage Lightning offre-t-il aux commerçants en ce qui concerne la finalité du paiement ?
+answer: Les paiements sur Lightning sont finalisés presque instantanément, ce qui réduit le risque d'annulation ou de fraude.
+wrong_answers:
+  - Il faut attendre 24 heures pour que les fonds puissent être dépensés.
+  - Il permet aux clients de réclamer leur paiement à tout moment.
+  - Il rend les transactions entièrement réversibles pendant une période pouvant aller jusqu'à 90 jours.
+explanation: |
+  Avec Lightning, une fois qu'un paiement est acheminé et réglé par le réseau, il est définitif. Cela élimine les scénarios de rétrofacturation observés avec les systèmes de paiement traditionnels.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Miten RGB varmistaa luottamuksellisuuden digitaalisen omaisuuden hallinnassa?
+answer: Rekisteröimällä lohkoketjuun vain kryptografisia sitoumuksia, -
+wrong_answers:
+  - Salakirjoittamalla kaikki lohkoketjussa tapahtuvat transaktiot alusta loppuun
+  - Piilottamalla käyttäjien identiteetit hajautettujen sekoittimien avulla..
+  - Käyttämällä vain väliaikaisia Bitcoin-osoitteita jokaisessa siirrossa
+explanation: |
+  Koska RGB tallentaa vain ketjussa olevia salausaineistoja, se pitää arkaluonteiset sopimus- ja siirtotiedot luottamuksellisina.
+reviewed: false

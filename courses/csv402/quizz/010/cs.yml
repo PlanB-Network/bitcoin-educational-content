@@ -1,0 +1,9 @@
+question: Jaká je hlavní role AluVM v protokolu RGB?
+answer: Spouštění skriptů a smluvních operací v prostředí virtuálního počítače
+wrong_answers:
+  - Analýza transakcí v řetězci Bitcoin v prostředí virtuálního počítače
+  - Generování veřejných klíčů pro uživatele RGB v prostředí virtuálního počítače
+  - Optimalizace ověřování veřejných blockchainů v prostředí virtuálního počítače
+explanation: |
+  AluVM je navržen pro ověřování chytrých smluv a distribuované výpočty v rámci RGB.
+reviewed: false

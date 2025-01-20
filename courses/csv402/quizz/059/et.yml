@@ -1,0 +1,9 @@
+question: Milline on RGB proxy-serveri funktsioon RGB Lightning Node'i keskkonnas?
+answer: RGB saadetiste vahetamise hõlbustamine
+wrong_answers:
+  - Anda sõlmedele avalikud võtmed kanalite avamiseks
+  - Hoidke RGB oleku üleminekute ajalugu
+  - Vältige RGB-märkide dubleerivaid märgiseid
+explanation: |
+  RGB proxy server lihtsustab RGB saadetiste edastamist Lightningi osalejate vahel, tegutsedes vahendajana, võimaldades sujuvamat kasutajakogemust, mis on lähedane praegu Bitcoini ja Lightningiga kogetule.
+reviewed: false

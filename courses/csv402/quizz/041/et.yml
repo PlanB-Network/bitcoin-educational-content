@@ -1,0 +1,9 @@
+question: Milliseid elemente on vaja RGB-vara kandva Lightning-kanali loomiseks?
+answer: Rahastamine bitcoinides ja rahastamine RGB varades
+wrong_answers:
+  - Ainult Bitcoini rahastamine alustuseks
+  - Ainult RGB rahastamine alustuseks
+  - Rahastamist ei ole vaja
+explanation: |
+  Kanal nõuab nii Bitcoini rahastamist 2/2 multisigil kui ka RGB varade rahastamist, et eraldada varasid samal kanalil.
+reviewed: false

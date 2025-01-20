@@ -1,0 +1,9 @@
+question: En caso de pago dentro del canal RGB, ¿qué ocurre con las salidas RGB en las transacciones de compromiso?
+answer: Se actualizan para reflejar la redistribución de activos entre los participantes
+wrong_answers:
+  - Permanecen inalterados para preservar el historial inicial hasta que se cierra el canal
+  - Se eliminan y se sustituyen por nuevos multisig
+  - Se convierten en UTXOs clásicos de Bitcoin
+explanation: |
+  Cuando se realiza un pago, la transición de estado RGB ajusta las salidas RGB para redistribuir los activos según el nuevo equilibrio de canales.
+reviewed: false

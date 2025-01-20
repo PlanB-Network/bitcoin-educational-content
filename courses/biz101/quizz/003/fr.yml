@@ -1,0 +1,9 @@
+question: Quel est l'inconvénient des systèmes monétaires centralisés modernes ?
+answer: Elles manquent souvent de transparence et d'audit dans la gestion de la masse monétaire.
+wrong_answers:
+  - Ils fournissent une valeur stable et invariable pour chaque unité monétaire.
+  - Ils suppriment tous les intermédiaires et accélèrent les règlements à la milliseconde.
+  - Ils garantissent que l'émission de monnaie est entièrement décentralisée et à l'abri de l'inflation.
+explanation: |
+  Les systèmes centralisés peuvent émettre de l'argent à volonté, souvent sans contrôle transparent. Cela peut éroder la confiance en raison de l'inflation, de la complexité des règlements interbancaires et d'une mauvaise gestion potentielle.
+reviewed: false

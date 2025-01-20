@@ -1,0 +1,9 @@
+question: Mis on skeemikomponendi objektorienteeritud programmeerimise (OOP) ekvivalent RGB kontekstis?
+answer: Klassi määratlus
+wrong_answers:
+  - Klassi konstruktor
+  - Liidese rakendamine
+  - Meetodi prototüüpimine
+explanation: |
+  Skeem vastab klassi määratlusele OOPis, mis kirjeldab äriloogika omadusi, meetodeid ja reegleid.
+reviewed: false

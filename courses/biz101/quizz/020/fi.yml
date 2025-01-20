@@ -1,0 +1,9 @@
+question: Mitä on "piiloinflaatio" velkapohjaisen rahajärjestelmän yhteydessä?
+answer: Rahan määrän kasvu (noin 7 % vuodessa) vähentää osuuttasi kokonaisarvosta, jos et investoi tai kasvata varoja sen mukaisesti.
+wrong_answers:
+  - Se on virallinen taloudellinen termi kiinteille koroille.
+  - Se viittaa inflaatiolukuihin, joita keskuspankit eivät julkaise.
+  - Se tarkoittaa, että hinnat eivät koskaan nouse, vaikka rahan tarjonta kasvaisi.
+explanation: |
+  Piiloinflaatio syntyy, kun rahan tarjonta laajenee ja vähentää säästöjen ostovoimaa. Jos yritys ei sijoita tai suojaa varallisuuttaan ennakoivasti, se on vaarassa menettää arvonsa tämän hiljaisen rahan laimentumisen vuoksi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cómo mejoró la red monetaria la transición de la moneda metálica al papel moneda?
+answer: Hizo que el dinero fuera más portátil y escalable, facilitando el comercio a larga distancia y los sistemas financieros complejos.
+wrong_answers:
+  - Eliminaba la necesidad de cualquier activo subyacente o fideicomiso.
+  - Detuvo instantáneamente la inflación y estabilizó la economía.
+  - Permitía a los gobiernos evitar por completo la gestión de la oferta monetaria.
+explanation: |
+  El papel moneda era más ligero y fácil de fabricar y transportar que las monedas de metales preciosos. Esta portabilidad y estandarización simplificaron las transacciones y permitieron que las economías crecieran más allá de las regiones locales.
+reviewed: false

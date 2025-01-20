@@ -1,0 +1,9 @@
+question: Hvorfor er det så viktig å være nøye med bokføringen når man har med Bitcoin å gjøre i et selskaps regnskap?
+answer: Fordi hver Bitcoin-transaksjon kan skape en skattepliktig hendelse, og nøyaktige registreringer er nødvendig for å beregne gevinster, tap og skatteforpliktelser.
+wrong_answers:
+  - Fordi blokkjeden automatisk rapporterer inn skatt på vegne av selskapet.
+  - Fordi ingen regnskapsstandarder gjelder for Bitcoin-transaksjoner i det hele tatt.
+  - Fordi det er umulig å spore Bitcoin-transaksjoner når de først er registrert.
+explanation: |
+  Hvert kjøp, salg eller betaling i bitcoin kan ha skattemessige konsekvenser. Ved å føre detaljert oversikt over kostpris, salgspris og tidspunkt sikrer du at skatterapporteringen er korrekt og i samsvar med regelverket.
+reviewed: false

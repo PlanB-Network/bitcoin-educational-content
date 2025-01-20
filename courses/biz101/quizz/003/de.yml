@@ -1,0 +1,9 @@
+question: Was ist ein Nachteil moderner zentralisierter Währungssysteme?
+answer: Oft fehlt es ihnen an Transparenz und Überprüfbarkeit bei der Verwaltung der Geldmenge.
+wrong_answers:
+  - Sie bieten einen stabilen, unveränderlichen Wert für jede Währungseinheit.
+  - Sie schalten alle Zwischenhändler aus und beschleunigen die Abwicklungen auf Millisekunden.
+  - Sie stellen sicher, dass die Geldemission vollständig dezentralisiert und inflationssicher ist.
+explanation: |
+  Zentralisierte Systeme können nach Belieben Geld ausgeben, oft ohne transparente Aufsicht. Dies kann das Vertrauen aufgrund von Inflation, komplexen Abrechnungen zwischen Banken und potenziellem Missmanagement untergraben.
+reviewed: false

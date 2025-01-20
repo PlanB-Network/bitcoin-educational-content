@@ -1,0 +1,9 @@
+question: Kuidas RGB parandab skaleeritavust võrreldes traditsioonilise plokiahela süsteemiga?
+answer: Piirates salvestamist ja valideerimist ainult asjakohaste olekute üleminekutega
+wrong_answers:
+  - Praktiliselt suurendades Bitcoini plokkide suurust
+  - Seostades iga lepingu otse kõigi UTXOdega
+  - Tsentraliseerides lepinguandmed mõnda keskserverisse
+explanation: |
+  RGB vähendab salvestus- ja valideerimisnõudeid, säilitades ainult iga osaleja jaoks olulised andmed.
+reviewed: false

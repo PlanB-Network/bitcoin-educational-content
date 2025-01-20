@@ -1,0 +1,9 @@
+question: Mikä on Schema-komponenttia vastaava olio-ohjelmointi (OOP) RGB-kontekstissa?
+answer: Luokan määritelmä
+wrong_answers:
+  - Luokan rakentaja
+  - Rajapinnan toteuttaminen
+  - Menetelmän prototyyppien luominen
+explanation: |
+  Skeema vastaa OOP:ssa luokan määritelmää, jossa kuvataan liiketoimintalogiikan ominaisuudet, menetelmät ja säännöt.
+reviewed: false

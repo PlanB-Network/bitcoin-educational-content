@@ -1,0 +1,9 @@
+question: Mikä on RGB:ssä käytettävien kertakäyttösinettien olennainen ominaisuus?
+answer: Ne voidaan sulkea vain kerran
+wrong_answers:
+  - Ne voidaan sulkea vain kahdesti
+  - Ne takaavat liiketoimien luottamuksellisuuden
+  - Ne poistavat lohkoketjun konsensuksen tarpeen
+explanation: |
+  Kertakäyttösinetit mahdollistavat ainutlaatuisten kryptografisten sitoumusten luomisen, mikä estää päällekkäisyyksien tai kaksinkertaisen käytön.
+reviewed: false

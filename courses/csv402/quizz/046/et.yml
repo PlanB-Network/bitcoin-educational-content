@@ -1,0 +1,9 @@
+question: Milline RGB-standard võimaldab luua unikaalseid varasid või "NFT-d"?
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  Standard RGB21 on mõeldud unikaalsete varade haldamiseks, võimaldades NFT-dega seostada eraviisilisi metaandmeid.
+reviewed: false

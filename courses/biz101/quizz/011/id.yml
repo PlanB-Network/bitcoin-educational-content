@@ -1,0 +1,9 @@
+question: Keuntungan apa yang ditawarkan Lightning kepada merchant terkait finalisasi pembayaran?
+answer: Pembayaran di Lightning diselesaikan hampir seketika, mengurangi risiko pembalikan atau penipuan.
+wrong_answers:
+  - Dibutuhkan waktu tunggu 24 jam sebelum dana dapat digunakan.
+  - Hal ini memungkinkan pelanggan untuk mendapatkan kembali pembayaran mereka kapan saja.
+  - Hal ini membuat transaksi dapat dibatalkan sepenuhnya hingga 90 hari.
+explanation: |
+  Dengan Lightning, setelah pembayaran dialihkan dan diselesaikan melalui jaringan, pembayaran sudah final. Hal ini menghilangkan skenario tolak bayar yang terlihat pada sistem pembayaran tradisional.
+reviewed: false

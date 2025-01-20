@@ -1,0 +1,9 @@
+question: Mitkä operaatiot määrittelevät älykkään sopimuksen kehittymisen RGB:ssä?
+answer: Tilan siirtyminen, synty ja tilan laajentaminen
+wrong_answers:
+  - Sinetin luominen, sopimuksen noudattaminen ja lopullinen validointi
+  - UTXO-siirto, todisteiden tuottaminen ja häivytyssitoumus
+  - Siirtymäkimput, kertakäyttöiset sinetit ja valenssin luominen
+explanation: |
+  Näillä operaatioilla luodaan tai muutetaan sopimuksen tilaa ja taataan sen voimassaolo Bitcoin-ankkureiden avulla.
+reviewed: false

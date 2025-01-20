@@ -1,0 +1,9 @@
+question: Qu'est-ce que le bitcoin permet de faire sans intermédiaire ?
+answer: Valeur d'échange sur Internet
+wrong_answers:
+  - Créer des applications centralisées
+  - Obtenir des prêts bancaires
+  - Stocker des données personnelles
+explanation: |
+  Le bitcoin permet d'échanger des valeurs sur Internet sans intermédiaire grâce à son protocole peer-to-peer.
+reviewed: false

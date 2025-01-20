@@ -1,0 +1,9 @@
+question: Traditsiooniliste valuutasüsteemide peale ehitatud makserööpad on ?
+answer: Põhimõtteliselt maksavad kaupmehed makseprotsessorite tasude kaudu
+wrong_answers:
+  - Sisuliselt tasuta, sest klient maksab kaupmehe poolt näidatud hinna
+  - Maksab klient lisaks kaupmehe küsitavale hinnale
+  - Maksavad kaardiettevõtted, kes müüvad klientide andmeid edasi
+explanation: |
+  Miski ei ole tasuta. Traditsioonilistesse valuutasüsteemidesse ehitatud makserööpaid haldavad mitmesugused müüjad, näiteks kaardifirmad ja vastuvõtvad pangad, kes võtavad iga tehingu eest kindla tasu ja/või protsendi
+reviewed: false

@@ -1,0 +1,9 @@
+question: Miksi niukkuutta pidetään hyvän valuutan tärkeänä ominaisuutena?
+answer: Koska rajallinen tarjonta suojaa sen arvoa ylituotannon aiheuttamalta laimentumiselta.
+wrong_answers:
+  - Koska se takaa, että jokainen voi helposti leimata oman rahansa.
+  - Koska se vaikeuttaa valuutan tunnustamista.
+  - Koska se estää valuutan käytön kaukokaupassa.
+explanation: |
+  Valuutta, jonka niukkuutta valvotaan, säilyttää ostovoimansa ajan myötä. Ilman niukkuutta liiallinen liikkeeseenlasku voisi johtaa inflaatioon, joka heikentäisi valuutan arvoa.
+reviewed: false

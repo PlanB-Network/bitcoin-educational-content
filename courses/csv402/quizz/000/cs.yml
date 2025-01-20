@@ -1,0 +1,9 @@
+question: Jaká je hlavní funkce blockchainu v paradigmatu ověřování na straně klienta, které používá RGB?
+answer: Zajistit časové razítko a zabránit dvojímu utrácení
+wrong_answers:
+  - Uložení všech přechodů mezi stavy
+  - Replikace dat chytrých smluv
+  - Zajištění globální dostupnosti dat
+explanation: |
+  V systému RGB se používá blockchain Bitcoinu k časovému označování závazků a k zabránění dvojímu utrácení, aniž by se ukládaly všechny přechody mezi stavy.
+reviewed: false

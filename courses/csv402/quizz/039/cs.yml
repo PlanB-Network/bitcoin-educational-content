@@ -1,0 +1,9 @@
+question: Který příkaz exportuje smlouvu ze skrýše do externího souboru?
+answer: rgb export '<ContractId>' myContractPBN.rgb
+wrong_answers:
+  - rgb stáhnout '<ContractId>' myContractPBN.rgb
+  - rgb dump '<ContractId>' myContractPBN.rgb
+  - rgb issue '<ContractId>' myContractPBN.rgb
+explanation: |
+  Příkaz "rgb export" slouží k vyjmutí smlouvy ze skrýše a jejímu uložení do souboru pro snadné sdílení.
+reviewed: false

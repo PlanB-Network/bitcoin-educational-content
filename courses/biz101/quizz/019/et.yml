@@ -1,0 +1,9 @@
+question: Miks peetakse volatiilsust Bitcoini kui areneva vara loomulikuks aspektiks?
+answer: Kuna Bitcoin on veel suhteliselt noor, meelitab spekulante ja reageerib turuuudistele, põhjustades hinnakõikumisi enne pikema aja jooksul stabiliseerumist.
+wrong_answers:
+  - Sest see on tsentraalselt kontrollitud ja hinnad määrab üks asutus.
+  - Kuna Bitcoinil puuduvad kasutajad, kes seda pikaajaliselt hoiavad.
+  - Sest kaupmehed peavad iga tund ettearvamatult hindu määrama.
+explanation: |
+  Areneva varana mõjutavad Bitcoini hinda spekulatsioonid, sentiment ja erinevad vastuvõtmismäärad. Aja jooksul võib volatiilsus väheneda, kui osaleb rohkem stabiilseid ja pikaajalisi omanikke, kuid see jääb varajase kasvu tunnuseks.
+reviewed: false

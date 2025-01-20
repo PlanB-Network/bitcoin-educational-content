@@ -1,0 +1,9 @@
+question: RGBに関して、なぜコミットメントにオプレットではなくタプレットを使うことを推奨しているのですか？
+answer: 視界を最小限にし、検閲を避ける
+wrong_answers:
+  - 取引コストを削減する
+  - OP_RETURNはLightning互換ではないため
+  - コミットメントを最大化するために
+explanation: |
+  OP_RETURNでは、コミットメントが即座に表示され、検閲の対象となる。
+reviewed: false

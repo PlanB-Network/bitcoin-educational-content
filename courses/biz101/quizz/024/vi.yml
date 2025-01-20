@@ -1,0 +1,9 @@
+question: When buying Bitcoin, what is one recommended approach to handle its price volatility?
+answer: Gradually accumulate Bitcoin at regular intervals and maintain a long-term perspective.
+wrong_answers:
+  - Attempt to predict short-term market peaks and sell immediately.
+  - Go all-in with the company’s entire treasury at once.
+  - Only buy Bitcoin on days when its price has risen sharply.
+explanation: |
+  Regular purchases over time (dollar-cost averaging) help smooth out volatility. A longer-term horizon (e.g., 4 years) reduces the impact of short-term price swings.
+reviewed: false

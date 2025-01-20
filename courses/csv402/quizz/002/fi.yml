@@ -1,0 +1,9 @@
+question: Mikä on CAP-trilemman kannalta kompromissi asiakkaan validoinnin ja saatavuuden välillä?
+answer: Kunkin osallistujan on säilytettävä asiaankuuluvat tiedot paikallisesti
+wrong_answers:
+  - Tiedot ovat julkisia ja ne kopioidaan automaattisesti maailmanlaajuisesti
+  - Johdonmukaisuus uhrataan saatavuuden vuoksi
+  - Tilasiirtymät julkaistaan aina Lightningissa
+explanation: |
+  Asiakaspuolen validoinnissa ei voida taata yleistä saatavuutta, koska osallistujien on hallittava omia tietojaan.
+reviewed: false

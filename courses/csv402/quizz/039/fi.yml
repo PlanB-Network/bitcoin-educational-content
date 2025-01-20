@@ -1,0 +1,9 @@
+question: Mikä komento vie sopimuksen kätköstä ulkoiseen tiedostoon?
+answer: rgb export '<ContractId>' myContractPBN.rgb
+wrong_answers:
+  - rgb lataa '<SopimusId>' myContractPBN.rgb
+  - rgb dump '<ContractId>' myContractPBN.rgb
+  - rgb kysymys '<ContractId>' myContractPBN.rgb
+explanation: |
+  Komennolla "rgb export" voit poimia sopimuksen kätköstä ja tallentaa sen tiedostoksi, jotta se on helppo jakaa.
+reviewed: false

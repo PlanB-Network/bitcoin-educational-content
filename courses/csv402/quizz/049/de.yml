@@ -1,0 +1,9 @@
+question: Wie gewährleistet RGB die Vertraulichkeit bei der Verwaltung digitaler Bestände?
+answer: Indem nur kryptografische Verpflichtungen in der Blockchain registriert werden
+wrong_answers:
+  - Durch die Verschlüsselung aller End-to-End-Transaktionen in der Blockchain
+  - Durch das Verbergen der Identitäten der Nutzer über dezentrale Mixer
+  - Verwendung nur temporärer Bitcoin-Adressen für jede Übertragung
+explanation: |
+  Durch die ausschließliche Speicherung von kryptografischen Beweisen auf der Kette wahrt RGB die Vertraulichkeit sensibler Vertrags- und Übertragungsinformationen.
+reviewed: false

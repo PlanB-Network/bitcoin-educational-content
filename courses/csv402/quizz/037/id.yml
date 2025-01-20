@@ -1,0 +1,9 @@
+question: Bagaimana cara mengimpor Skema "NonInflatableAsset.rgb" ke dalam simpanan lokal?
+answer: rgb import schemata/NonInflatableAssets.rgb
+wrong_answers:
+  - rgb mengimpor skema/NonInflatableAssets.rgb
+  - skema klon rgb / Aset Tidak Mengembang.rgb
+  - skema klon rgb / NonInflatableAssets.rgb
+explanation: |
+  Skema yang telah dikompilasi diimpor ke dalam simpanan lokal menggunakan perintah "rgb import schemata/NonInflatableAssets.rgb".
+reviewed: false

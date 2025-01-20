@@ -1,0 +1,9 @@
+question: Que tecnologia pode ser utilizada para fundir diferentes versões do stock em caso de discrepância?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Selo de utilização única
+  - Replicação baseada em registo
+explanation: |
+  Os CRDTs garantem a consistência dos dados, permitindo que várias versões do stash sejam mescladas sem conflitos do lado do cliente.
+reviewed: false

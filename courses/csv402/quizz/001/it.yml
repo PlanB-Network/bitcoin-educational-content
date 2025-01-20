@@ -1,0 +1,9 @@
+question: Qual è la caratteristica essenziale dei sigilli monouso utilizzati in RGB?
+answer: Possono essere chiusi solo una volta
+wrong_answers:
+  - Possono essere chiusi solo due volte
+  - Garantiscono la riservatezza delle transazioni
+  - Eliminano la necessità di consenso sulla blockchain
+explanation: |
+  I sigilli monouso consentono di creare impegni crittografici unici, impedendo la duplicazione o la doppia spesa.
+reviewed: false

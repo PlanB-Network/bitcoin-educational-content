@@ -1,0 +1,9 @@
+question: Mis on kaasaegsete tsentraliseeritud rahasüsteemide üks puudus?
+answer: Sageli puudub neil rahapakkumise haldamisel läbipaistvus ja kontrollitavus.
+wrong_answers:
+  - Need annavad igale rahaühikule stabiilse, muutumatu väärtuse.
+  - Nad eemaldavad kõik vahendajad ja kiirendavad arveldusi millisekunditeni.
+  - Nad tagavad, et raha emiteerimine on täielikult detsentraliseeritud ja inflatsioonikindel.
+explanation: |
+  Tsentraliseeritud süsteemid võivad raha emiteerida suvaliselt, sageli ilma läbipaistva järelevalveta. See võib õõnestada usaldust inflatsiooni, keeruliste pankadevaheliste arvelduste ja võimaliku väärjuhtimise tõttu.
+reviewed: false

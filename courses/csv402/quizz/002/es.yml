@@ -1,0 +1,9 @@
+question: En el trilema de la PAC, ¿cuál es el compromiso entre la validación por parte del cliente y la disponibilidad?
+answer: Cada participante debe conservar localmente los datos pertinentes
+wrong_answers:
+  - Los datos son públicos y se replican automáticamente en todo el mundo
+  - Se sacrifica la coherencia por la disponibilidad
+  - Las transiciones de estado se publican siempre en Lightning
+explanation: |
+  En la validación del lado del cliente, la disponibilidad global no está garantizada, ya que los participantes tienen que gestionar sus propios datos.
+reviewed: false

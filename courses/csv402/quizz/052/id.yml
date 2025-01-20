@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan validasi sisi klien dalam protokol RGB?
+answer: Verifikasi lokal atas data kontrak dan transisi
+wrong_answers:
+  - Menjalankan kontrak pintar secara langsung di blockchain Bitcoin
+  - Penggunaan eksklusif node terpusat untuk memvalidasi transaksi
+  - Pengaturan ulang riwayat kontrak secara otomatis jika terjadi ketidaksesuaian
+explanation: |
+  Validasi sisi klien memungkinkan setiap peserta untuk memverifikasi secara independen bahwa data yang diterima sesuai dengan aturan yang ditentukan oleh kontrak RGB.
+reviewed: false

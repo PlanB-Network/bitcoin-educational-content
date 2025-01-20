@@ -1,0 +1,9 @@
+question: Was ist die Folge des Verlusts des Verstecks im RGB-Protokoll?
+answer: Vertragshistorie und zugehörige Daten werden unwiederbringlich
+wrong_answers:
+  - Daten können aus der Blockchain rekonstruiert werden, wenn man den Seed hat
+  - Eine Kopie der Daten ist auf den Servern von RGB in der Schweiz verfügbar
+  - Daten werden automatisch für alle Teilnehmer repliziert
+explanation: |
+  Bei der clientseitigen Validierung ist jeder Benutzer für seinen Vorrat verantwortlich, der nicht an anderer Stelle repliziert wird, so dass sein Verlust endgültig ist.
+reviewed: false

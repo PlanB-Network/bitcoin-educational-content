@@ -1,0 +1,9 @@
+question: Quali sono le operazioni principali di un contratto RGB?
+answer: Transizione di Stato, Genesi ed Estensione di Stato
+wrong_answers:
+  - Definizione, impegno e convalida del sigillo
+  - Creazione di ancore, aggiornamento del DAG e firma delle transazioni
+  - Blocco Genesis, allocazione UTXO e convalida degli script
+explanation: |
+  Queste operazioni modificano o completano lo stato di un contratto in base al suo Schema.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Miksi volatiliteettia pidetään luonnollisena piirteenä Bitcoinille kehittyvänä omaisuuseränä?
+answer: Koska Bitcoin on vielä suhteellisen nuori, se houkuttelee keinottelijoita ja reagoi markkinauutisiin, mikä aiheuttaa hintavaihteluita ennen kuin se vakiintuu pidemmäksi aikaa.
+wrong_answers:
+  - Koska sitä valvotaan keskitetysti ja hinnat määrää yksi viranomainen.
+  - Koska Bitcoinilla ei ole käyttäjiä, jotka pitäisivät sitä hallussaan pitkällä aikavälillä.
+  - Koska kauppiaiden on asetettava hinnat arvaamattomasti joka tunti.
+explanation: |
+  Kehittyvänä omaisuuseränä Bitcoinin hintaan vaikuttavat spekulaatio, tunnelmat ja vaihtelevat käyttöönottonopeudet. Ajan mittaan, kun vakaammat ja pitkäaikaisemmat omistajat osallistuvat, volatiliteetti voi vähentyä, mutta se on edelleen varhaisen vaiheen kasvun piirre.
+reviewed: false

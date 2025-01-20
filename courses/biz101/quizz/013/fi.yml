@@ -1,0 +1,9 @@
+question: Miksi voittoja pidetään itävaltalaisen taloustieteen mukaan yrityksen terveyden keskeisenä indikaattorina?
+answer: Koska voitot osoittavat, että yritys täyttää kuluttajien tarpeet tehokkaasti ja kestävästi.
+wrong_answers:
+  - Koska voitot takaavat, että yrityksen työvoima on toimialansa suurin.
+  - Koska voitot ovat vain merkki siitä, että yritys on saanut valtion tukea.
+  - Koska voitot heijastavat satunnaisia markkinatapahtumia, jotka eivät liity kuluttajien kysyntään.
+explanation: |
+  Itävaltalaisessa taloustieteessä voitto on merkki siitä, että yritys tuottaa tavaroita tai palveluja, joita kuluttajat arvostavat tuotantokustannuksia korkeampaan hintaan. Tämä tulos viittaa resurssien tehokkaaseen käyttöön ja markkinoiden tarpeiden mukaisuuteen.
+reviewed: false

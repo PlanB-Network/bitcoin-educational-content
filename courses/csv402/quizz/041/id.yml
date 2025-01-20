@@ -1,0 +1,9 @@
+question: Elemen apa saja yang diperlukan untuk membuat saluran Lightning yang membawa aset RGB?
+answer: Pendanaan dalam bitcoin dan pendanaan dalam aset RGB
+wrong_answers:
+  - Pendanaan khusus Bitcoin untuk memulai
+  - Pendanaan khusus RGB untuk memulai
+  - Tidak diperlukan dana
+explanation: |
+  Saluran ini membutuhkan pendanaan bitcoin pada multisig 2/2, serta pendanaan aset RGB untuk mengalokasikan aset pada saluran yang sama.
+reviewed: false

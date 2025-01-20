@@ -1,0 +1,9 @@
+question: Bagaimana Lightning Network berkembang untuk meningkatkan pengalaman pengguna sejak awal?
+answer: Ini telah memperkenalkan fitur-fitur seperti penyambungan, faktur Bolt12 statis, dan manajemen likuiditas yang lebih baik, membuat transaksi menjadi lebih lancar dan lebih dapat diandalkan.
+wrong_answers:
+  - Ini telah menghapus semua fitur keamanan untuk mempercepat transaksi.
+  - Sekarang ini memerlukan persetujuan pemerintah untuk setiap pembayaran.
+  - Ini telah berhenti bekerja pada fitur baru, hanya mengandalkan desain aslinya saja.
+explanation: |
+  Seiring berjalannya waktu, Lightning Network telah mengalami peningkatan teknis yang mengurangi gesekan bagi pengguna. Fitur-fitur baru dan alat manajemen node yang lebih baik telah berkontribusi pada pengalaman yang lebih mulus dan ramah pengguna.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Como é que importo o esquema "NonInflatableAsset.rgb" para o stock local?
+answer: rgb import schemata/NonInflatableAssets.rgb
+wrong_answers:
+  - rgb import schema/NonInflatableAssets.rgb
+  - rgb clone schemata/NonInflatableAssets.rgb
+  - rgb clone schema/NonInflatableAssets.rgb
+explanation: |
+  O esquema compilado é importado para a reserva local utilizando o comando "rgb import schemata/NonInflatableAssets.rgb".
+reviewed: false

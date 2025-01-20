@@ -1,0 +1,9 @@
+question: Jaká je jedna z výhod malých začátků při prvním přijímání plateb v bitcoinech?
+answer: Umožňuje firmě učit se na několika prvních transakcích a postupně přecházet na sofistikovanější řešení, pokud poroste poptávka zákazníků.
+wrong_answers:
+  - Nutí podnik okamžitě používat pouze řešení pro vlastní úschovu.
+  - Zabraňuje pozdějšímu upgradu nebo změně poskytovatele.
+  - Vyžaduje, aby společnost přijala bitcoiny od každého zákazníka, než pochopí proces.
+explanation: |
+  Začínáme jednoduchým, startovacím přístupem, který umožňuje podniku získat praktické zkušenosti bez výrazného rizika. Pokud se zájem o platby v bitcoinech vyplatí, může firma následně vylepšit svou infrastrukturu a integrovat pokročilejší nástroje.
+reviewed: false

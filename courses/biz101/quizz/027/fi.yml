@@ -1,0 +1,9 @@
+question: Mikä on yksi ehdotettu käytäntö, joka koskee säilytystä Bitcoinia hankittaessa?
+answer: Harkitse omaisuudenhoitoratkaisuja ensimmäisten hankintojen jälkeen, jotta yritys todella hallitsee omaisuuttaan.
+wrong_answers:
+  - Älä koskaan nosta Bitcoinia vaihdosta missään olosuhteissa.
+  - Luota aina yhteen säilyttäjään tarkistamatta turvatoimia.
+  - Säilytä kaikki Bitcoinit julkisella verkkosivustolla, jossa on yksinkertainen salasana
+explanation: |
+  Kun Bitcoin on ostettu, sen siirtäminen omaan lompakkoon varmistaa, että yritys voi hallita varojaan suoraan. Vaikka kolmannen osapuolen säilytyspalvelut voivat olla käteviä, oma säilytys vastaa Bitcoinin taloudellista itsemääräämisoikeutta koskevaa periaatetta.
+reviewed: false

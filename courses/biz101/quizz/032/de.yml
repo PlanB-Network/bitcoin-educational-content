@@ -1,0 +1,9 @@
+question: Welchen Vorteil hat es, klein anzufangen, wenn man zum ersten Mal Bitcoin-Zahlungen annimmt?
+answer: Sie ermöglicht es dem Unternehmen, aus den ersten Transaktionen zu lernen und schrittweise zu anspruchsvolleren Lösungen überzugehen, wenn die Kundennachfrage steigt.
+wrong_answers:
+  - Sie zwingt das Unternehmen, ab sofort nur noch Selbstverwahrungslösungen zu verwenden.
+  - Sie verhindert, dass das Unternehmen den Anbieter später aufrüsten oder wechseln muss.
+  - Es erfordert, dass ein Unternehmen Bitcoin von jedem Kunden akzeptiert, bevor es den Prozess versteht.
+explanation: |
+  Ein einfacher Einstieg ermöglicht es dem Unternehmen, ohne großes Risiko praktische Erfahrungen zu sammeln. Wenn sich das Interesse an Bitcoin-Zahlungen als lohnend erweist, kann das Unternehmen dann seine Infrastruktur aufrüsten und fortschrittlichere Tools integrieren.
+reviewed: false

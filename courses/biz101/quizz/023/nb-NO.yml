@@ -1,0 +1,8 @@
+question: Hvilken av følgende er IKKE en av de tre primære metodene som er nevnt for å anskaffe Bitcoin?
+answer: Mottar Bitcoin som et statlig tilskudd til forretningsutvikling.
+wrong_answers:
+  - Å skaffe Bitcoin i bytte mot varer eller tjenester.
+  - Utvinning av Bitcoin gjennom spesialisert maskinvare og energibruk.
+  - Kjøp av Bitcoin fra en plattform eller megler.
+  The chapter mentions three main ways to acquire Bitcoin: accept it as payment, mine it, or buy it. Receiving Bitcoin as a government grant isn’t a recognized standard method of acquisition.
+reviewed: false

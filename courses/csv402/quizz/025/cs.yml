@@ -1,0 +1,8 @@
+question: Jaké čtyři složky definují smlouvu RGB?
+answer: Geneze, schéma, rozhraní a implementace rozhraní
+wrong_answers:
+  - Geneze, schéma, přechod a implementace rozhraní
+  - Geneze, rozhraní, přechod a rozšíření
+  - Genesis, rozhraní, implementace rozhraní a rozšíření
+  Un contrat RGB se compose de quatre éléments distincts: la Genesis, le Schema, l’Interface et l’Interface Implementation.
+reviewed: false

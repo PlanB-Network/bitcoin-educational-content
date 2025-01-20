@@ -1,0 +1,9 @@
+question: Was geschieht bei einer Zahlung innerhalb des RGB-Kanals mit den RGB-Ausgängen in den Verpflichtungsgeschäften?
+answer: Sie werden aktualisiert, um die Umverteilung von Vermögenswerten unter den Teilnehmern widerzuspiegeln
+wrong_answers:
+  - Sie bleiben unverändert, um den ursprünglichen Verlauf zu erhalten, bis der Kanal geschlossen wird
+  - Sie werden entfernt und durch neue Multisigel ersetzt
+  - Sie werden in klassische Bitcoin UTXOs umgewandelt
+explanation: |
+  Wenn eine Zahlung erfolgt, passt der RGB-Zustandsübergang die RGB-Ausgänge an, um die Vermögenswerte entsprechend der neuen Kanalbilanz neu zu verteilen.
+reviewed: false

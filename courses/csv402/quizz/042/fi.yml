@@ -1,0 +1,9 @@
+question: Jos maksu suoritetaan RGB-kanavan sisällä, mitä tapahtuu maksusitoumustapahtumien RGB-ulostuloille?
+answer: Ne päivitetään vastaamaan varojen uudelleenjakoa osallistujien kesken
+wrong_answers:
+  - Ne pysyvät muuttumattomina alkuperäisen historian säilyttämiseksi, kunnes kanava suljetaan
+  - Ne poistetaan ja korvataan uusilla monisignaalisignaattoreilla
+  - Ne muunnetaan klassisiksi Bitcoin UTXO:ksi
+explanation: |
+  Kun maksu on suoritettu, RGB-tilansiirto säätää RGB-ulostuloja varojen jakamiseksi uudelleen uuden kanavatasapainon mukaisesti.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is one reason institutional investors and large companies have become interested in Bitcoin?
+answer: Bitcoin’s adoption by major financial players, like BlackRock and the success of Spot Bitcoin ETFs, has legitimized it as a store-of-value asset.
+wrong_answers:
+  - Bitcoin’s price is set and guaranteed by government agencies.
+  - Bitcoin transactions are fully insured by central banks.
+  - It requires no understanding of digital assets or financial regulations.
+explanation: |
+  When major institutions recognize Bitcoin as a valid investment, it signals to the market that it has matured beyond speculation. Products like Spot Bitcoin ETFs make it easier for businesses to gain exposure, further driving mainstream acceptance.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuáles son las principales operaciones de un contrato RGB?
+answer: Transición de estados, génesis y ampliación de estados
+wrong_answers:
+  - Definición, compromiso y validación del sello
+  - Creación de anclas, actualización de DAG y firma de transacciones
+  - Bloque Génesis, asignación UTXO y validación de guiones
+explanation: |
+  Estas operaciones modifican o completan el estado de un contrato según su Esquema.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel est l'avantage des paiements Lightning Network pour les commerçants au point de vente ?
+answer: Les paiements Lightning sont réglés presque instantanément et ne nécessitent pas d'intermédiaires multiples, ce qui réduit les frais et les délais de règlement.
+wrong_answers:
+  - Les paiements éclairs nécessitent des semaines pour être confirmés et requièrent une lourde paperasserie.
+  - Les paiements éclairs ne sont effectués que s'ils sont approuvés par l'autorité d'une banque centrale.
+  - Les paiements éclairs peuvent être annulés à volonté par l'acheteur après la vente.
+explanation: |
+  Le Lightning Network rend les transactions plus rapides et moins chères en permettant un règlement hors chaîne. Les commerçants peuvent recevoir des fonds presque instantanément, avec des frais minimes et sans dépendre des intermédiaires de paiement traditionnels.
+reviewed: false

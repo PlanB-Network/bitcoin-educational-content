@@ -1,0 +1,9 @@
+question: Mis on üks eelis, kui alustate esimest korda Bitcoini maksete vastuvõtmisel väikselt?
+answer: See võimaldab ettevõttel õppida mõnest esialgsest tehingust ja liikuda järk-järgult keerukamate lahenduste juurde, kui klientide nõudlus kasvab.
+wrong_answers:
+  - See sunnib ettevõtet kasutama kohe ainult isehoolduslahendusi.
+  - See takistab ettevõttel hiljem teenusepakkujat uuendada või vahetada.
+  - See nõuab, et ettevõte võtaks enne protsessi mõistmist igalt kliendilt Bitcoini vastu.
+explanation: |
+  Alustades lihtsa, starditasemel lähenemisviisiga, saab ettevõte omandada praktilisi kogemusi ilma märkimisväärse riskita. Kui huvi Bitcoini maksete vastu osutub tasuvaks, saab ettevõte seejärel oma infrastruktuuri täiustada ja integreerida täiustatud vahendeid.
+reviewed: false

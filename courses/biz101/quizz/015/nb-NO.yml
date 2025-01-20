@@ -1,0 +1,9 @@
+question: Hva illustrerer fiskerens historie om kapitalens natur?
+answer: Kapital representerer oppsparte ressurser som gjør det mulig å bygge verktøy for å forbedre fremtidig produktivitet.
+wrong_answers:
+  - Kapital er bare et lager av forbruksvarer som venter på å bli konsumert umiddelbart.
+  - Kapital må skapes umiddelbart gjennom statlige lån.
+  - Kapital er bare viktig for store selskaper, ikke for små gründere.
+explanation: |
+  Fiskeren som sparer fisk for noen dager for å bygge et spyd, utsetter umiddelbart forbruk til fordel for fremtidig gevinst. Dette eksemplet viser hvordan sparing (kapitalakkumulering) fører til høyere effektivitet og større produksjon på sikt.
+reviewed: false

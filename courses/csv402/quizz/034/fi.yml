@@ -1,0 +1,9 @@
+question: Minkä toimen Bob (vastaanottaja) suorittaa saatuaan päätepostilähetyksen Alicelta (maksaja)?
+answer: Tarkista tilasiirtymän voimassaolo ja allekirjoita
+wrong_answers:
+  - Muokkaa sopimuskaaviota ja lähetä se Alicelle
+  - Luo lasku uutta toimintoa varten
+  - Allekirjoita Alicen PSBT ja jaa se ketjussa
+explanation: |
+  Bob tutkii lähetyksen, varmistaa, että siirtyminen on sääntöjen mukaista, ja vahvistaa suostumuksensa allekirjoituksellaan.
+reviewed: false

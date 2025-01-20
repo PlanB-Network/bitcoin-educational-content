@@ -1,0 +1,8 @@
+question: Která z následujících možností NENÍ jednou ze tří hlavních metod pro získání bitcoinu?
+answer: Přijetí Bitcoinu jako vládního grantu na rozvoj podnikání.
+wrong_answers:
+  - Získání bitcoinu výměnou za zboží nebo služby.
+  - Těžba bitcoinů pomocí specializovaného hardwaru a spotřeby energie.
+  - Nákup bitcoinů od platformy nebo zprostředkovatele.
+  The chapter mentions three main ways to acquire Bitcoin: accept it as payment, mine it, or buy it. Receiving Bitcoin as a government grant isn’t a recognized standard method of acquisition.
+reviewed: false

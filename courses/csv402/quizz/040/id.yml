@@ -1,0 +1,9 @@
+question: Apa tujuan utama mengintegrasikan RGB ke dalam Lightning Network?
+answer: Mentransfer aset RGB melalui saluran off-chain
+wrong_answers:
+  - Menjalankan kontrak RGB secara langsung di blockchain Bitcoin
+  - Ganti transaksi Lightning konvensional dengan kontrak pintar RGB
+  - Tingkatkan kapasitas saluran dengan menambahkan UTXO baru
+explanation: |
+  RGB yang terintegrasi ke dalam Lightning Network memungkinkan aset RGB untuk dipindahkan melalui transisi status yang tertanam dalam transaksi komitmen, namun tetap berada di luar rantai.
+reviewed: false

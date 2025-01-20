@@ -1,0 +1,9 @@
+question: Porque é que o limite máximo de 21 milhões de euros para a emissão de Bitcoin é significativo?
+answer: Cria um ativo deflacionário, protegendo o seu valor contra uma inflação arbitrária.
+wrong_answers:
+  - Garante que os governos podem imprimir tantas bitcoins quantas as necessárias.
+  - Impede qualquer pessoa de enviar transacções depois de o limite ser atingido.
+  - Elimina toda a volatilidade do preço do Bitcoin.
+explanation: |
+  Ao ter uma oferta máxima de 21 milhões, a escassez da Bitcoin é rígida, o que a torna fundamentalmente diferente das moedas inflacionárias, em que a oferta pode ser aumentada à vontade.
+reviewed: false

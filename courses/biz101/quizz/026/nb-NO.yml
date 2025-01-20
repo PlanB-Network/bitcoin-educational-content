@@ -1,0 +1,9 @@
+question: Hva er det viktigste å tenke på når man velger en plattform eller megler for å kjøpe Bitcoin til en bedrift?
+answer: Leverandørens omdømme, sikkerhetstiltak og mulighet til å eksportere transaksjonshistorikk for regnskap.
+wrong_answers:
+  - Sikre at plattformen bare støtter obskure kryptovalutaer.
+  - Å finne en leverandør som nekter å tilby kundesupport.
+  - Bruk av en tjeneste som forbyr uttak av bitcoin til en lommebok med egen forvaring.
+explanation: |
+  En pålitelig plattform bør ha et solid omdømme, god sikkerhet og verktøy for journalføring. Muligheten til å ta ut Bitcoin og integrere med regnskapsprogramvare er også avgjørende for forretningsdriften.
+reviewed: false

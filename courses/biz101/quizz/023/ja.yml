@@ -1,0 +1,8 @@
+question: 次のうち、ビットコインを取得するための3つの主要な方法の1つではないものはどれですか？
+answer: 事業開発のための政府補助金としてビットコインを受け取る。
+wrong_answers:
+  - 商品やサービスと引き換えにビットコインを入手する。
+  - 特殊なハードウェアとエネルギー使用によるビットコインの採掘。
+  - プラットフォームやブローカーからビットコインを購入する。
+  The chapter mentions three main ways to acquire Bitcoin: accept it as payment, mine it, or buy it. Receiving Bitcoin as a government grant isn’t a recognized standard method of acquisition.
+reviewed: false

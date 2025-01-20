@@ -1,0 +1,9 @@
+question: Apa tujuan konsinyasi terminal dalam proses transfer RGB?
+answer: Menyediakan riwayat Transisi Negara
+wrong_answers:
+  - Memvalidasi kontrak Genesis
+  - Menghapus transisi lama
+  - Buat Skema baru untuk transfer
+explanation: |
+  Konsinyasi terminal mengumpulkan riwayat kontrak untuk membuktikan keabsahan aset yang ditransfer hingga saat ini.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Warum sollte sich ein Unternehmen dafür entscheiden, Bitcoin-Zahlungen von Kunden zu akzeptieren?
+answer: Eine wachsende Nutzerbasis zu erschließen, potenziell niedrigere Transaktionsgebühren zu erheben und einen wertvollen Vermögenswert in der eigenen Kasse zu halten.
+wrong_answers:
+  - Um zu garantieren, dass alle Kunden mehr als den angegebenen Preis bezahlen.
+  - Um sicherzustellen, dass keine Steuern oder behördlichen Auflagen gelten.
+  - Der Bestellvorgang wird langsamer und komplizierter.
+explanation: |
+  Die Akzeptanz von Bitcoin kann eine neue Käuferschicht anziehen, die Gebühren für die Zahlungsabwicklung senken und einen Wertespeicher aufbauen. Es kann auch die globale Reichweite erhöhen, da Bitcoin grenzenlos ist und rund um die Uhr funktioniert.
+reviewed: false

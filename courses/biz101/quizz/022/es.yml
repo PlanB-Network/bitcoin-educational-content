@@ -1,0 +1,9 @@
+question: ¿Qué se recomienda generalmente a la hora de asignar una parte de la tesorería de una empresa a Bitcoin?
+answer: Invierte sólo el exceso de liquidez que no vayas a necesitar en varios años y mantén un horizonte temporal de al menos cuatro años.
+wrong_answers:
+  - Utilizar todo el efectivo operativo inmediatamente sin tener en cuenta las necesidades de liquidez.
+  - Intente comprar y vender en pocas semanas para maximizar los beneficios a corto plazo.
+  - Invierta sólo cuando necesite un préstamo urgente a corto plazo para cubrir gastos.
+explanation: |
+  Dado que el precio del Bitcoin puede ser volátil a corto plazo, es aconsejable utilizar fondos que no se necesiten de inmediato y mantenerlos durante al menos cuatro años. Este planteamiento suaviza la volatilidad y aumenta las posibilidades de revalorización a largo plazo.
+reviewed: false

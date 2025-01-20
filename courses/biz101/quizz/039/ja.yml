@@ -1,0 +1,8 @@
+question: ビットコインをデジタル資産として扱うことと、会計上通貨のように扱うことの大きな違いは何ですか？
+answer: デジタル資産であるため、各取引の原価ベースと損益を追跡しなければならないが、通貨のように扱えば、再評価はよりシンプルで頻度も少なくなる。
+wrong_answers:
+  - デジタル資産として扱われる場合、すべての税金が完全に免除される。
+  - 通貨のように扱えば、取引記録は必要ない。
+  - 通貨と同じように扱うには、すぐに新しい会計ソフトに切り替える必要がある。
+  Digital asset treatment typically involves calculating capital gains or losses on each transaction, adding complexity. If Bitcoin were accounted for like a currency, it would be simpler: just update the fiat value periodically, as done for other currencies.
+reviewed: false

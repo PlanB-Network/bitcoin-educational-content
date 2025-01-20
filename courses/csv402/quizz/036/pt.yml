@@ -1,0 +1,9 @@
+question: Qual é o papel do esconderijo?
+answer: Manter todos os dados do lado do cliente localmente
+wrong_answers:
+  - Publicar automaticamente transacções na cadeia de blocos
+  - Compilar e armazenar todas as facturas geradas
+  - Gerir chaves privadas Bitcoin
+explanation: |
+  O armazenamento é o conjunto de dados do lado do cliente que um utilizador armazena localmente para um ou mais contratos RGB, a fim de efetuar a validação do lado do cliente.
+reviewed: false

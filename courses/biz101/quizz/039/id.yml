@@ -1,0 +1,8 @@
+question: Apa perbedaan utama antara memperlakukan Bitcoin sebagai aset digital dan memperlakukannya seperti mata uang dalam akuntansi?
+answer: Sebagai aset digital, setiap transaksi harus dilacak basis biaya dan keuntungan/kerugiannya, sedangkan jika aset digital diperlakukan seperti mata uang, revaluasi akan lebih sederhana dan lebih jarang terjadi.
+wrong_answers:
+  - Ketika diperlakukan sebagai aset digital, aset ini sepenuhnya dibebaskan dari semua pajak.
+  - Ketika diperlakukan seperti mata uang, tidak ada catatan transaksi yang diperlukan.
+  - Memperlakukannya seperti mata uang membutuhkan peralihan segera ke perangkat lunak akuntansi yang baru.
+  Digital asset treatment typically involves calculating capital gains or losses on each transaction, adding complexity. If Bitcoin were accounted for like a currency, it would be simpler: just update the fiat value periodically, as done for other currencies.
+reviewed: false

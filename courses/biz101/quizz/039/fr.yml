@@ -1,0 +1,8 @@
+question: Quelle est la principale différence entre traiter le bitcoin comme un actif numérique et le traiter comme une monnaie en comptabilité ?
+answer: En tant qu'actif numérique, la base de coût de chaque transaction et les gains/pertes doivent être suivis, alors que s'il était traité comme une monnaie, les réévaluations seraient plus simples et moins fréquentes.
+wrong_answers:
+  - Lorsqu'il est traité comme un actif numérique, il est totalement exonéré d'impôts.
+  - Lorsqu'il est traité comme une monnaie, il n'est pas nécessaire d'enregistrer les transactions.
+  - Le traiter comme une monnaie nécessite le passage immédiat à un nouveau logiciel de comptabilité.
+  Digital asset treatment typically involves calculating capital gains or losses on each transaction, adding complexity. If Bitcoin were accounted for like a currency, it would be simpler: just update the fiat value periodically, as done for other currencies.
+reviewed: false

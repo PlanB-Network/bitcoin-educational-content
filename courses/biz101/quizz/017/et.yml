@@ -1,0 +1,9 @@
+question: Miks võiks ettevõte kaaluda, kas osa oma riigikassast hoida Bitcoinis?
+answer: Potentsiaalselt kasvava varana, mis võib säilitada väärtust ja pakkuda likviidsust ilma traditsiooniliste finantsvahendajate abita.
+wrong_answers:
+  - Kohe kõrvaldada kõik riskid ja tagada stabiilne tootlus.
+  - Et täita kohustuslikke valitsuse määrusi, mis nõuavad Bitcoini hoidmist.
+  - Tagamaks, et ta ei saa kunagi oma varasid tagasi traditsioonilisteks valuutadeks konverteerida.
+explanation: |
+  Bitcoini nappus, ülemaailmne likviidsus ja sõltumatus traditsioonilistest pangandussüsteemidest võivad muuta selle atraktiivseks riigikassa varana. Kuigi sellega kaasneb risk ja volatiilsus, võivad ettevõtted näha seda pikaajalise väärtuse säilitaja ja inflatsioonikaitsena.
+reviewed: false

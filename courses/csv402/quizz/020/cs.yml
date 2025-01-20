@@ -1,0 +1,9 @@
+question: Jaký je klíčový prvek, který zajišťuje, že Bob obdrží aktivum během přechodu stavu v RGB?
+answer: Nová definice pečeti směřující k Bobovu UTXO
+wrong_answers:
+  - Řídicí transakce bez odkazu na UTXO
+  - Veřejné prohlášení Alice
+  - Dvojitý podpis sdílený Alicí a Bobem
+explanation: |
+  Definice pečetě kryptograficky spojuje aktivum s Bobovým UTXO a zajišťuje, že je jeho vlastníkem.
+reviewed: false

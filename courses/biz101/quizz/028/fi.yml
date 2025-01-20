@@ -1,0 +1,9 @@
+question: Miksi yritys voisi hyväksyä Bitcoin-maksuja asiakkailta?
+answer: Hyödyntää kasvavaa käyttäjäkuntaa, alentaa mahdollisesti transaktiomaksuja ja pitää arvokasta omaisuutta kassassaan.
+wrong_answers:
+  - Takaamaan, että kaikki asiakkaat maksavat enemmän kuin listahinta.
+  - Varmistaa, että veroja tai sääntelyvaatimuksia ei koskaan sovelleta.
+  - Tehdä kassaprosessista hitaampi ja monimutkaisempi.
+explanation: |
+  Bitcoinin hyväksyminen voi houkutella uusia ostajaryhmiä, vähentää maksujen käsittelymaksuja ja luoda arvovaraston. Se voi myös lisätä maailmanlaajuista ulottuvuutta, sillä Bitcoin ei tunne rajoja ja toimii ympäri vuorokauden.
+reviewed: false

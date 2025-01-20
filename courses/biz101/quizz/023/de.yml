@@ -1,0 +1,8 @@
+question: Welche der folgenden Methoden ist NICHT eine der drei primären Methoden, die für den Erwerb von Bitcoin genannt werden?
+answer: Erhalt von Bitcoin als staatlichen Zuschuss zur Unternehmensentwicklung.
+wrong_answers:
+  - Erhalt von Bitcoin im Austausch für Waren oder Dienstleistungen.
+  - Mining von Bitcoin durch spezielle Hardware und Energieverbrauch.
+  - Kauf von Bitcoin von einer Plattform oder einem Broker.
+  The chapter mentions three main ways to acquire Bitcoin: accept it as payment, mine it, or buy it. Receiving Bitcoin as a government grant isn’t a recognized standard method of acquisition.
+reviewed: false

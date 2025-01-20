@@ -1,0 +1,9 @@
+question: Qual é o equivalente em programação orientada para objectos (OOP) do componente Schema no contexto RGB?
+answer: Definição de classe
+wrong_answers:
+  - O construtor da classe
+  - Implementação de uma interface
+  - Prototipagem de métodos
+explanation: |
+  O esquema corresponde à definição de uma classe em OOP, que descreve as propriedades, os métodos e as regras da lógica empresarial.
+reviewed: false

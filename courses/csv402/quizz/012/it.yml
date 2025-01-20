@@ -1,0 +1,9 @@
+question: Che cos'è un Assignment nel protocollo RGB?
+answer: Un'uscita che modifica, aggiorna o crea proprietà nello stato di un contratto
+wrong_answers:
+  - Un impegno crittografico unico memorizzato in una transazione Bitcoin
+  - Una transazione Bitcoin parzialmente firmata prima della convalida finale
+  - Un aggiornamento pubblico dello Stato globale
+explanation: |
+  Un'assegnazione combina una definizione di sigillo e uno stato di proprietà per rappresentare una parte assegnata dello stato.
+reviewed: false

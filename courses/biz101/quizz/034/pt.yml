@@ -1,0 +1,9 @@
+question: Qual é a tendência observada entre os participantes que operam nós na Lightning Network?
+answer: Os operadores profissionais de nós estão cada vez mais a fornecer liquidez, enquanto os utilizadores individuais se concentram em nós "de ponta", alterando a composição da rede.
+wrong_answers:
+  - Os amadores individuais substituíram completamente todos os operadores profissionais.
+  - Os grandes bancos operam atualmente de forma centralizada todos os nós Lightning.
+  - A rede fechou os nós pessoais para permitir apenas as grandes empresas.
+explanation: |
+  Há uma tendência para uma maior liquidez e estabilidade proporcionada por entidades profissionais, enquanto os utilizadores comuns recorrem a soluções simplificadas ou alojadas, tornando a rede mais robusta e acessível.
+reviewed: false

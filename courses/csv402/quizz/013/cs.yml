@@ -1,0 +1,9 @@
+question: Jaké jsou hlavní operace smlouvy RGB?
+answer: Přechod stavu, geneze a rozšíření stavu
+wrong_answers:
+  - Definice, závazek a ověření pečeti
+  - Vytvoření kotvy, aktualizace DAG a podepisování transakcí
+  - Blok Genesis, přidělování UTXO a ověřování skriptů
+explanation: |
+  Tyto operace mění nebo doplňují stav smlouvy podle jejího schématu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist die clientseitige Validierung im RGB-Protokoll?
+answer: Lokale Prüfung von Vertragsdaten und Übergängen
+wrong_answers:
+  - Ausführen von intelligenten Verträgen direkt auf der Bitcoin-Blockchain
+  - Ausschließliche Verwendung zentraler Knotenpunkte zur Validierung von Transaktionen
+  - Automatisches Zurücksetzen von Vertragshistorien im Falle von Unstimmigkeiten
+explanation: |
+  Die clientseitige Validierung ermöglicht es jedem Teilnehmer, unabhängig zu überprüfen, ob die empfangenen Daten den im RGB-Vertrag festgelegten Regeln entsprechen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Cosa posso fare con una fattura in un trasferimento RGB?
+answer: Indicare il tipo di transazione, la quantità di beni richiesti e la definizione del sigillo del destinatario
+wrong_answers:
+  - Creare una nuova Genesi per la risorsa
+  - Generare un nuovo schema per modificare la logica di business dell'asset
+  - Costruire un PSBT per sostituire la transazione Bitcoin
+explanation: |
+  La fattura viene utilizzata per informare l'emittente della transazione del tipo di operazione, della quantità di beni da trasferire e della destinazione (definizione di sigillo).
+reviewed: false

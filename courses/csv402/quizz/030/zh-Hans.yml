@@ -1,0 +1,9 @@
+question: 鲍勃（收货人）收到的 RGB 托运合同中包含哪些组件？
+answer: 创世纪、模式、接口和接口实现
+wrong_answers:
+  - 起源、模式、过渡和扩展
+  - 模式、接口、签名和 PSBT
+  - 创世纪、界面、PSBT 和历史
+explanation: |
+  RGB 合同的委托内容包括 "创世纪"、"模式"、"接口 "和 "接口实现"，它们提供了验证合同所需的所有数据。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Какие четыре компонента определяют контракт RGB?
+answer: Генезис, схема, интерфейс и реализация интерфейса
+wrong_answers:
+  - Генезис, схема, переход и реализация интерфейса
+  - Генезис, интерфейс, переход и расширение
+  - Генезис, интерфейс, реализация и расширение интерфейса
+  Un contrat RGB se compose de quatre éléments distincts: la Genesis, le Schema, l’Interface et l’Interface Implementation.
+reviewed: false

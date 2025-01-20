@@ -1,0 +1,9 @@
+question: I circuiti di pagamento costruiti sopra i sistemi valutari tradizionali sono ?
+answer: Essenzialmente pagati dagli esercenti attraverso le commissioni dei processori di pagamento
+wrong_answers:
+  - Essenzialmente gratuito perché il cliente paga il prezzo esposto dal commerciante
+  - Pagato dal cliente in aggiunta al prezzo richiesto dall'esercente
+  - Pagati dalle società di carte di credito che rivendono i dati dei clienti
+explanation: |
+  Nulla è gratuito. I circuiti di pagamento dei sistemi monetari tradizionali sono gestiti da diversi fornitori, come le società di carte di credito e le banche affilianti, che applicano una commissione fissa e/o una commissione percentuale per ogni transazione
+reviewed: false

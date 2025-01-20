@@ -1,0 +1,9 @@
+question: Miten RGB parantaa skaalautuvuutta perinteiseen lohkoketjuun verrattuna?
+answer: Rajoittamalla tallennus ja validointi vain asiaankuuluviin tilasiirtymiin
+wrong_answers:
+  - Bitcoin-lohkojen kokoa käytännössä kasvattamalla
+  - Yhdistämällä kukin sopimus suoraan kaikkiin UTXO:hin
+  - Keskittämällä sopimustiedot muutamalle keskitetylle palvelimelle
+explanation: |
+  RGB vähentää tallennus- ja validointitarpeita säilyttämällä vain kutakin osallistujaa koskevat tiedot.
+reviewed: false

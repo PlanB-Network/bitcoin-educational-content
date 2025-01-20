@@ -1,0 +1,9 @@
+question: Que vantagens oferece o Lightning aos comerciantes no que respeita à finalidade do pagamento?
+answer: Os pagamentos no Lightning são finalizados quase instantaneamente, reduzindo o risco de estornos ou fraudes.
+wrong_answers:
+  - São necessárias 24 horas de espera para que os fundos possam ser gastos.
+  - Permite aos clientes reclamarem o seu pagamento em qualquer altura.
+  - Torna as transacções totalmente reversíveis durante um período máximo de 90 dias.
+explanation: |
+  Com o Lightning, uma vez que um pagamento é encaminhado e liquidado através da rede, é definitivo. Isso elimina os cenários de estorno vistos nos sistemas de pagamento tradicionais.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Perché la Lightning Network può essere paragonata a una "e-mail per i pagamenti"?
+answer: Perché consente di scambiare valore senza soluzione di continuità, a livello globale e senza permessi, con la stessa facilità con cui si invia un messaggio.
+wrong_answers:
+  - Perché invia i pagamenti attraverso i tradizionali provider di posta elettronica.
+  - Perché funziona solo se allegato a normali messaggi di posta elettronica.
+  - Perché memorizza i saldi degli utenti nel corpo di un'e-mail.
+explanation: |
+  Così come l'e-mail ha rivoluzionato la comunicazione eliminando gli intermediari e consentendo a chiunque di inviare messaggi in tutto il mondo, la Lightning Network semplifica e velocizza le transazioni, rendendo il trasferimento di valore privo di attriti e accessibile come l'e-mail.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welche Aktion führt Bob (Empfänger) aus, sobald er die Endsendung von Alice (Zahler) erhält?
+answer: Gültigkeit des Zustandsübergangs prüfen und unterschreiben
+wrong_answers:
+  - Ändern Sie das Vertragsschema und senden Sie es an Alice
+  - Erstellen Sie eine Rechnung für einen neuen Vorgang
+  - Signiere Alices PSBT und verteile sie auf der Kette
+explanation: |
+  Bob prüft die Sendung, vergewissert sich, dass der Übergang den Vorschriften entspricht, und bestätigt mit seiner Unterschrift, dass er damit einverstanden ist.
+reviewed: false

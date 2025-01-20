@@ -1,0 +1,9 @@
+question: Milline käsk installeerib RLNis binaarsüsteemi "rgb-lightning-node" pärast repositooriumi kloonimist?
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  Käsk "cargo install --locked --debug --path ." kompileerib ja installeerib binaarsüsteemi "rgb-lightning-node".
+reviewed: false

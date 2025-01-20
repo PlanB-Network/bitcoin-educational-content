@@ -1,0 +1,9 @@
+question: Quali sono i due componenti principali dello stato di uno smart contract in RGB?
+answer: Stato globale e Stati di proprietà
+wrong_answers:
+  - Impegno e Genesi
+  - Definizione di sigillo e transizione di stato
+  - Valenza e diritti contrattuali
+explanation: |
+  Lo Stato globale contiene dati pubblici, mentre gli Stati di proprietà sono associati a specifici titolari tramite UTXO.
+reviewed: false

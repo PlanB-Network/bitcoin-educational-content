@@ -1,0 +1,9 @@
+question: What technology can be used to merge different versions of the stash in the event of a discrepancy?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Single-use seal
+  - Log-Based Replication
+explanation: |
+  CRDTs ensure data consistency by enabling multiple versions of the stash to be merged without client-side conflicts.
+reviewed: false

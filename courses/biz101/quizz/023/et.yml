@@ -1,0 +1,8 @@
+question: Milline järgmistest meetoditest EI ole üks kolmest peamisest Bitcoini omandamise meetodist?
+answer: Bitcoini saamine valitsuse toetusena ettevõtluse arendamiseks.
+wrong_answers:
+  - Bitcoini saamine kaupade või teenuste eest.
+  - Bitcoini kaevandamine spetsiaalse riistvara ja energiakasutuse kaudu.
+  - Bitcoini ostmine platvormilt või maaklerilt.
+  The chapter mentions three main ways to acquire Bitcoin: accept it as payment, mine it, or buy it. Receiving Bitcoin as a government grant isn’t a recognized standard method of acquisition.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Qual dos seguintes NÃO é um dos três principais métodos mencionados para adquirir Bitcoin?
+answer: Receber Bitcoin como subsídio do governo para o desenvolvimento de negócios.
+wrong_answers:
+  - Obter Bitcoin em troca de bens ou serviços.
+  - Mineração de Bitcoin através de hardware especializado e consumo de energia.
+  - Comprar Bitcoin a uma plataforma ou corretor.
+  The chapter mentions three main ways to acquire Bitcoin: accept it as payment, mine it, or buy it. Receiving Bitcoin as a government grant isn’t a recognized standard method of acquisition.
+reviewed: false

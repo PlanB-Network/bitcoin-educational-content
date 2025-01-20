@@ -1,0 +1,9 @@
+question: Når du kjøper Bitcoin, hva er en anbefalt tilnærming for å håndtere prisvolatiliteten?
+answer: Akkumuler Bitcoin gradvis med jevne mellomrom, og ha et langsiktig perspektiv.
+wrong_answers:
+  - Forsøk å forutse kortsiktige markedstopper og selg umiddelbart.
+  - Gå all-in med hele selskapets likviditet på én gang.
+  - Kjøp kun Bitcoin på dager der prisen har steget kraftig.
+explanation: |
+  Regelmessige kjøp over tid (dollar-kostnadsgjennomsnitt) bidrar til å jevne ut volatiliteten. En langsiktig horisont (f.eks. 4 år) reduserer effekten av kortsiktige prissvingninger.
+reviewed: false

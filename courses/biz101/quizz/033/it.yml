@@ -1,0 +1,9 @@
+question: Come si è evoluta la Lightning Network per migliorare l'esperienza dell'utente dalla sua nascita?
+answer: Ha introdotto funzioni come lo splicing, le fatture statiche Bolt12 e una migliore gestione della liquidità, rendendo le transazioni più fluide e affidabili.
+wrong_answers:
+  - Ha eliminato tutte le funzioni di sicurezza per velocizzare le transazioni.
+  - Ora richiede l'approvazione del governo per ogni pagamento.
+  - Ha smesso di lavorare su nuove funzionalità, affidandosi esclusivamente al progetto originale.
+explanation: |
+  Nel corso del tempo, la rete Lightning ha subito miglioramenti tecnici che hanno ridotto l'attrito per gli utenti. Nuove funzionalità e migliori strumenti di gestione dei nodi hanno contribuito a rendere l'esperienza più fluida e semplice.
+reviewed: false

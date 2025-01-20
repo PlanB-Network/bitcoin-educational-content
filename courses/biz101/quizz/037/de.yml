@@ -1,0 +1,9 @@
+question: Was ist der Hauptvorteil des Bitcoin-Zahlungssystems im Hinblick auf den Wechsel zwischen verschiedenen Lösungen?
+answer: Es ist relativ einfach, den Anbieter zu wechseln oder die Tools aufzurüsten, da die offenen, interoperablen Standards von Bitcoin einen nahtlosen Geldtransfer ermöglichen.
+wrong_answers:
+  - Sobald ein Anbieter ausgewählt wurde, kann das Unternehmen nicht mehr zu einer anderen Lösung wechseln.
+  - Bitcoin-Lösungen sind proprietär und an einen einzigen Anbieter gebunden.
+  - Ein Wechsel des Anbieters erfordert eine staatliche Genehmigung und ein langwieriges Gerichtsverfahren.
+explanation: |
+  Da Bitcoin auf offenen Protokollen basiert, können Händler ihre Gelder frei verschieben oder neue Lösungen übernehmen, wenn sie wachsen oder sich ihre Bedürfnisse ändern. Diese Flexibilität stellt sicher, dass Unternehmen die besten Tools auswählen können, ohne sich an einen Anbieter zu binden.
+reviewed: false

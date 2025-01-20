@@ -1,0 +1,9 @@
+question: Qual è la caratteristica distintiva di Bitcoin come rete valutaria?
+answer: È come il denaro contante e non richiede un'autorità centrale o un intermediario per le transazioni.
+wrong_answers:
+  - Può funzionare solo se autorizzato da un'agenzia governativa.
+  - Emette nuove unità monetarie su richiesta dell'utente.
+  - Ha bisogno di banche per verificare e regolare ogni transazione.
+explanation: |
+  Bitcoin opera come rete decentralizzata, consentendo a chiunque di partecipare senza autorizzazione. Le transazioni sono convalidate dai nodi e dai minatori, non da un'autorità centrale.
+reviewed: false

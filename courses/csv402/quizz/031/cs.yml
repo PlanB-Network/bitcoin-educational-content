@@ -1,0 +1,9 @@
+question: Co mohu udělat s fakturou v přenosu RGB?
+answer: Uveďte typ transakce, množství požadovaných aktiv a definici pečeti příjemce
+wrong_answers:
+  - Vytvoření nové položky Genesis pro aktivum
+  - Vytvoření nového schématu pro úpravu obchodní logiky aktiva
+  - Vytvoření PSBT, který nahradí transakci Bitcoin
+explanation: |
+  Faktura slouží k informování vystavitele transakce o typu operace, množství převáděných aktiv a místě určení (definice pečetě).
+reviewed: false

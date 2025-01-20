@@ -1,0 +1,8 @@
+question: Millised on neli komponenti, mis määratlevad RGB-lepingu?
+answer: Genesis, skeem, kasutajaliides ja kasutajaliidese rakendamine
+wrong_answers:
+  - Genesis, skeem, üleminek ja liidese rakendamine
+  - Genesis, liides, üleminek ja laiendamine
+  - Genesis, liides, liidese rakendamine ja laiendamine
+  Un contrat RGB se compose de quatre éléments distincts: la Genesis, le Schema, l’Interface et l’Interface Implementation.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa tujuan utama kontrak pintar di lingkungan RGB?
+answer: Menerapkan transaksi Bitcoin otomatis tanpa registri terpusat
+wrong_answers:
+  - Memfasilitasi pembuatan registri Bitcoin terpusat
+  - Menyediakan antarmuka publik untuk semua transaksi Bitcoin
+  - Menyederhanakan eksekusi token ERC-20 pada Bitcoin
+explanation: |
+  Kontrak pintar RGB memungkinkan otomatisasi perjanjian sambil menghindari penggunaan register terpusat, dengan mengandalkan Bitcoin sebagai jangkar kriptografi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: En la mayoría de las jurisdicciones, ¿qué desencadena un hecho imponible cuando se trata de Bitcoin?
+answer: Vender, comerciar o utilizar Bitcoin como pago suele desencadenar un hecho imponible.
+wrong_answers:
+  - Simplemente mantener Bitcoin indefinidamente sin ninguna transacción.
+  - Copia de seguridad de su monedero o claves Bitcoin.
+  - Ver el precio del Bitcoin online.
+explanation: |
+  Normalmente, se produce un hecho imponible cuando una empresa enajena o utiliza su Bitcoin, no por el mero hecho de poseerlo. Cada venta o intercambio de Bitcoin por bienes, servicios o moneda fiduciaria puede generar ganancias o pérdidas imponibles.
+reviewed: false

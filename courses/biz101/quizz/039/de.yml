@@ -1,0 +1,8 @@
+question: Was ist der Hauptunterschied zwischen der Behandlung von Bitcoin als digitalem Vermögenswert und der Behandlung als Währung in der Buchhaltung?
+answer: Da es sich um einen digitalen Vermögenswert handelt, müssen die Kostenbasis und die Gewinne/Verluste jeder Transaktion nachverfolgt werden, während Neubewertungen einfacher und seltener wären, wenn er wie eine Währung behandelt würde.
+wrong_answers:
+  - Wenn es als digitaler Vermögenswert behandelt wird, ist es vollständig von allen Steuern befreit.
+  - Wenn sie wie eine Währung behandelt werden, sind keine Aufzeichnungen über Transaktionen erforderlich.
+  - Die Behandlung wie eine Währung erfordert den sofortigen Wechsel zu einer neuen Buchhaltungssoftware.
+  Digital asset treatment typically involves calculating capital gains or losses on each transaction, adding complexity. If Bitcoin were accounted for like a currency, it would be simpler: just update the fiat value periodically, as done for other currencies.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Proč by se podnik mohl rozhodnout přijímat od zákazníků platby v bitcoinech?
+answer: Využít rostoucí uživatelskou základnu, potenciálně snížit transakční poplatky a mít ve své pokladně cenné aktivum.
+wrong_answers:
+  - Zaručit, že všichni zákazníci zaplatí více, než je uvedená cena.
+  - Zajistit, aby se nikdy neuplatňovaly žádné daně nebo regulační požadavky.
+  - Zpomalit a zkomplikovat proces odbavení.
+explanation: |
+  Přijímání bitcoinů může přilákat novou demografickou skupinu kupujících, snížit poplatky za zpracování plateb a vytvořit úložiště hodnoty. Může také zvýšit globální dosah, protože Bitcoin je bez hranic a funguje nepřetržitě.
+reviewed: false

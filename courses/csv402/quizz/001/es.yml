@@ -1,0 +1,9 @@
+question: ¿Cuál es la característica esencial de los precintos de un solo uso utilizados en RGB?
+answer: Sólo pueden cerrarse una vez
+wrong_answers:
+  - Sólo pueden cerrarse dos veces
+  - Garantizan la confidencialidad de las transacciones
+  - Eliminan la necesidad de consenso en blockchain
+explanation: |
+  Los sellos de un solo uso permiten crear compromisos criptográficos únicos, evitando la duplicación o el doble gasto.
+reviewed: false

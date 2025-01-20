@@ -1,0 +1,9 @@
+question: Kuidas hoiab RGB ära topeltkulutused riigi ülemineku ajal?
+answer: Olemasoleva pitseri sulgemine ja uue pitseri loomine
+wrong_answers:
+  - Kontrollides kõiki tehinguid plokiahelas
+  - Mitme signeeringuga allkirjade kehtestamine igale toimingule
+  - Üldise seisundi andmete valideerimine
+explanation: |
+  Pitseri sulgemine kasutatud UTXOga tõestab, et üleminek on ainulaadne ja tagasivõetamatu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Pourquoi le Lightning Network peut-il être comparé au "courrier électronique pour les paiements" ?
+answer: Parce qu'il permet d'échanger des valeurs de manière transparente, globale et sans autorisation, aussi facilement que l'on envoie un message.
+wrong_answers:
+  - Parce qu'il envoie des paiements par l'intermédiaire de fournisseurs de courrier électronique traditionnels.
+  - Parce qu'il ne fonctionne que lorsqu'il est joint à des messages électroniques ordinaires.
+  - Parce qu'il stocke les soldes des utilisateurs dans le corps d'un courriel.
+explanation: |
+  Tout comme le courrier électronique a révolutionné la communication en supprimant les intermédiaires et en permettant à quiconque d'envoyer des messages dans le monde entier, le réseau Lightning simplifie et accélère les transactions, rendant le transfert de valeur aussi simple et accessible que le courrier électronique.
+reviewed: false

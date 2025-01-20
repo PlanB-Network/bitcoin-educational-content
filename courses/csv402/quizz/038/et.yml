@@ -1,0 +1,9 @@
+question: Milline väli varade väljastamiseks kasutatavas YAML-failis määratleb väljastatud žetoonide koguarvu?
+answer: issuedSupply
+wrong_answers:
+  - assetOwner
+  - spec
+  - summa
+explanation: |
+  YAML-faili väli "issuedSupply" määratleb lepingu jaoks väljastatud žetoonide kogusumma.
+reviewed: false

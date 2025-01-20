@@ -1,0 +1,9 @@
+question: Como é que a Lightning Network está a ajudar a moldar o futuro do comércio online e dos serviços digitais?
+answer: Ao permitir microtransacções sem atritos, instantâneas e sem autorizações, abre novos modelos de negócio e fluxos de receitas.
+wrong_answers:
+  - Impedindo o aparecimento de novos modelos de negócio em linha.
+  - Exigindo que os comerciantes utilizem os mesmos carris de pagamento lentos e dispendiosos que utilizavam anteriormente.
+  - Impossibilitando a venda de bens digitais devido a taxas elevadas.
+explanation: |
+  A capacidade do Lightning para enviar pequenas quantidades de valor instantaneamente e a baixo custo incentiva a inovação em áreas como o conteúdo pay-as-you-go, pagamentos em streaming e transacções máquina-a-máquina, transformando potencialmente a forma como os serviços online são rentabilizados.
+reviewed: false

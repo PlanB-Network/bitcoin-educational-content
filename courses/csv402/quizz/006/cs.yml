@@ -1,0 +1,9 @@
+question: Kde je v systému RGB závazek, když je jednorázová pečeť uzavřena?
+answer: Ve výstupu transakce se utratí outpoint
+wrong_answers:
+  - Na vstupu transakce se utratí výstupní bod
+  - Ve skriptuSig transakce, která vynakládá výstupní bod
+  - Ve svědectví o transakci, při které se utratí výstupní bod
+explanation: |
+  Závazek je vložen do výstupu transakce, která vynakládá výstupní bod definující jednorázovou pečeť.
+reviewed: false

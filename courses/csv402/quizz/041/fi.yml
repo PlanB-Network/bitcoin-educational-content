@@ -1,0 +1,9 @@
+question: Mitä elementtejä tarvitaan RGB-varoja sisältävän Lightning-kanavan luomiseen?
+answer: Rahoitus bitcoineina ja rahoitus RGB-varoina
+wrong_answers:
+  - Vain Bitcoin-rahoitusta aluksi
+  - Vain RGB-rahoitus aluksi
+  - Rahoitusta ei tarvita
+explanation: |
+  Kanava vaatii sekä bitcoin-rahoitusta 2/2-multisigillä että RGB-varojen rahoitusta varojen jakamiseksi samalla kanavalla.
+reviewed: false

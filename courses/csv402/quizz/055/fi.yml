@@ -1,0 +1,9 @@
+question: Mikä on rgb-lightning-node RGB-ekosysteemissä?
+answer: Daemon RGB-yhteensopivien Lightning-kanavien hallintaan
+wrong_answers:
+  - Mobiililompakko RGB-varojen hallintaan
+  - Välityspalvelin RGB-lokeja varten
+  - Bitcoinin RGB-varojen louhintatyökalu
+explanation: |
+  rgb-lightning-node on Rust-demon, joka on suunniteltu integroimaan RGB-varat Lightning-kanaviin lisäämällä RGB-tilan siirtymiä sitoutumistapahtumiin.
+reviewed: false

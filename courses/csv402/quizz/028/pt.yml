@@ -1,0 +1,9 @@
+question: Num contrato RGB, qual é a função da Interface?
+answer: Tornar os dados do contrato fáceis de ler e manipular
+wrong_answers:
+  - Executar scripts de validação na cadeia de blocos
+  - Armazenar os dados do Génesis no lado do cliente
+  - Definir um sistema de tipos rigoroso para os relatórios
+explanation: |
+  O objetivo da interface é apresentar as informações do contrato de uma forma clara para os utilizadores e o software, sem afetar a lógica comercial.
+reviewed: false

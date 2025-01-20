@@ -1,0 +1,9 @@
+question: Come vengono utilizzati gli impegni crittografici (tramite Taproot o OP_RETURN) in RGB?
+answer: Ancorano le transizioni di stato nella blockchain
+wrong_answers:
+  - Memorizzano i dati del contratto sulla blockchain
+  - Sostituiscono la convalida lato client con l'esecuzione di contratti intelligenti sulla catena
+  - Creano nodi per la verifica delle transazioni
+explanation: |
+  Gli impegni consentono di collegare in modo sicuro gli aggiornamenti di stato a un UTXO, per dimostrare l'esistenza di una certa informazione in un determinato momento, senza rivelare l'informazione stessa.
+reviewed: false

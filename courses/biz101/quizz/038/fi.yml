@@ -1,0 +1,9 @@
+question: Miksi huolellinen kirjanpito on tärkeää, kun yrityksen kirjanpidossa käsitellään Bitcoinia?
+answer: Koska jokainen Bitcoin-tapahtuma voi aiheuttaa veronalaisen tapahtuman, ja voittojen, tappioiden ja verovelkojen laskeminen edellyttää tarkkaa kirjanpitoa.
+wrong_answers:
+  - Koska lohkoketju arkistoi verot automaattisesti yrityksen puolesta.
+  - Koska Bitcoin-tapahtumiin ei sovelleta lainkaan kirjanpitostandardeja.
+  - Koska kerran tallennettuja Bitcoin-tapahtumia on mahdotonta jäljittää.
+explanation: |
+  Jokaisella Bitcoinilla tehdyllä ostolla, myynnillä tai maksulla voi olla verovaikutuksia. Yksityiskohtaisen kirjanpidon pitäminen kustannusperusteesta, myyntihinnasta ja ajoituksesta takaa oikean ja sääntöjenmukaisen veroraportoinnin.
+reviewed: false

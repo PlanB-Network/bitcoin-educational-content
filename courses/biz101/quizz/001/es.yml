@@ -1,0 +1,9 @@
+question: ¿Por qué se considera que la escasez es una propiedad importante de una buena moneda?
+answer: Porque la oferta limitada evita que su valor se diluya por la sobreproducción.
+wrong_answers:
+  - Porque garantiza que todo el mundo pueda acuñar fácilmente su propia moneda.
+  - Porque dificulta el reconocimiento de la moneda.
+  - Porque desincentiva el uso de la moneda en el comercio a larga distancia.
+explanation: |
+  Una moneda con escasez controlada mantiene su poder adquisitivo a lo largo del tiempo. Sin escasez, una emisión excesiva podría provocar inflación, erosionando el valor de la moneda.
+reviewed: false

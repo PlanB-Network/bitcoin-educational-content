@@ -1,0 +1,8 @@
+question: 将比特币视为数字资产与在会计中将其视为货币的主要区别是什么？
+answer: 作为一种数字资产，每笔交易的成本基础和收益/损失都必须进行跟踪，而如果将其视为一种货币，重新估值就会更简单、更不频繁。
+wrong_answers:
+  - 如果将其视为数字资产，则可以完全免税。
+  - 如果将其视为一种货币，则无需交易记录。
+  - 如果将其视为一种货币，就必须立即改用新的会计软件。
+  Digital asset treatment typically involves calculating capital gains or losses on each transaction, adding complexity. If Bitcoin were accounted for like a currency, it would be simpler: just update the fiat value periodically, as done for other currencies.
+reviewed: false

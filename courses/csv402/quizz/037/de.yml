@@ -1,0 +1,9 @@
+question: Wie importiere ich das Schema "NonInflatableAsset.rgb" in den lokalen Speicher?
+answer: rgb importieren schemata/NonInflatableAssets.rgb
+wrong_answers:
+  - rgb importieren schema/NonInflatableAssets.rgb
+  - rgb clone schemata/NonInflatableAssets.rgb
+  - rgb clone schema/NonInflatableAssets.rgb
+explanation: |
+  Das kompilierte Schema wird mit dem Befehl "rgb import schemata/NonInflatableAssets.rgb" in den lokalen Vorrat importiert.
+reviewed: false

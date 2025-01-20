@@ -1,0 +1,9 @@
+question: Jaký je hlavní účel chytrých smluv v prostředí RGB?
+answer: Zavedení automatizovaných obchodů s bitcoiny bez centralizovaného registru
+wrong_answers:
+  - Usnadnění vytváření centralizovaných registrů bitcoinů
+  - Poskytnout veřejné rozhraní pro všechny transakce s bitcoiny
+  - Zjednodušení provádění tokenů ERC-20 na Bitcoinu
+explanation: |
+  Inteligentní smlouvy RGB umožňují automatizaci dohod a zároveň se vyhýbají používání centralizovaných registrů a spoléhají se na kryptografické kotvy Bitcoinu.
+reviewed: false

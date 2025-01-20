@@ -1,0 +1,9 @@
+question: Was ist eine "Siegeldefinition" im Zusammenhang mit der RGB-Zuweisung?
+answer: Der Verweis auf eine UTXO, die das Eigentum an einem Owned State festlegt
+wrong_answers:
+  - Die Gruppierung der zwischen den Parteien ausgetauschten Daten, vorbehaltlich der clientseitigen Validierung
+  - Kompilieren von Verträgen in ausführbarem Off-Chain-Code
+  - Der DAG-Zweig der Zustandsübergangsgeschichte
+explanation: |
+  Die "Siegeldefinition" verknüpft eine UTXO mit einem bestimmten Teil des Vertragszustands und garantiert so die korrekte Zuweisung eines Rechts oder Vermögenswerts.
+reviewed: false

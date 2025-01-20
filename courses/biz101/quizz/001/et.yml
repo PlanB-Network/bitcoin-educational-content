@@ -1,0 +1,9 @@
+question: Miks peetakse nappust hea valuuta oluliseks omaduseks?
+answer: Sest piiratud pakkumine kaitseb selle väärtust ületootmise tõttu lahjendamise eest.
+wrong_answers:
+  - Sest see tagab, et igaüks saab hõlpsasti oma raha vermida.
+  - Sest see raskendab valuuta tunnustamist.
+  - Sest see takistab valuuta kasutamist kaugkaubanduses.
+explanation: |
+  Kontrollitud nappusega valuuta säilitab oma ostujõu aja jooksul. Ilma puuduseta võib ülemäärane emiteerimine põhjustada inflatsiooni, mis vähendab valuuta väärtust.
+reviewed: false

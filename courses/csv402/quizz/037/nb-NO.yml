@@ -1,0 +1,9 @@
+question: Hvordan importerer jeg "NonInflatableAsset.rgb"-skjemaet til det lokale lageret?
+answer: rgb import schemata/NonInflatableAssets.rgb
+wrong_answers:
+  - rgb import schema/NonInflatableAssets.rgb
+  - rgb klone schemata/NonInflatableAssets.rgb
+  - rgb klone schema/NonInflatableAssets.rgb
+explanation: |
+  Det kompilerte skjemaet importeres til det lokale lageret ved hjelp av kommandoen "rgb import schemata/NonInflatableAssets.rgb".
+reviewed: false

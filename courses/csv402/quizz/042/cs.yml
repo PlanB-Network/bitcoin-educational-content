@@ -1,0 +1,9 @@
+question: Co se stane s výstupy RGB v závazkových transakcích v případě platby v rámci kanálu RGB?
+answer: Jsou aktualizovány tak, aby odrážely přerozdělení aktiv mezi účastníky
+wrong_answers:
+  - Zůstávají beze změny, aby se zachovala počáteční historie, dokud není kanál uzavřen
+  - Jsou odstraněny a nahrazeny novými vícesignály
+  - Jsou převedeny na klasické bitcoinové UTXO
+explanation: |
+  Když je provedena platba, přechod stavu RGB upraví výstupy RGB tak, aby se prostředky přerozdělily podle nové rovnováhy kanálů.
+reviewed: false

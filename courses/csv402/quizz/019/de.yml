@@ -1,0 +1,9 @@
+question: Was ist der Hauptzweck von intelligenten Verträgen in der RGB-Umgebung?
+answer: Automatisierte Bitcoin-Transaktionen ohne zentrales Register durchführen
+wrong_answers:
+  - Erleichterung der Einrichtung zentraler Bitcoin-Register
+  - Bereitstellung einer öffentlichen Schnittstelle für alle Bitcoin-Transaktionen
+  - Vereinfachung der Ausführung von ERC-20-Tokens auf Bitcoin
+explanation: |
+  Intelligente RGB-Verträge ermöglichen die Automatisierung von Vereinbarungen und vermeiden dabei die Verwendung zentraler Register, wobei sie sich auf Bitcoin als kryptografischen Anker verlassen.
+reviewed: false

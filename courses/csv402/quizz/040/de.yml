@@ -1,0 +1,9 @@
+question: Was ist das Hauptziel der Integration von RGB in das Lightning Network?
+answer: Übertragung von RGB-Assets über Off-Chain-Kanäle
+wrong_answers:
+  - Ausführen von RGB-Verträgen direkt auf der Bitcoin-Blockchain
+  - Ersetzen Sie herkömmliche Lightning-Transaktionen durch RGB-Smart Contracts
+  - Erhöhung der Kanalkapazität durch Hinzufügen neuer UTXOs
+explanation: |
+  Durch die Integration von RGB in das Lightning Network können RGB-Assets über Zustandsübergänge, die in Commitment-Transaktionen eingebettet sind, bewegt werden, während sie außerhalb der Kette bleiben.
+reviewed: false

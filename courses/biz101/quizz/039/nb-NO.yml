@@ -1,0 +1,8 @@
+question: Hva er hovedforskjellen mellom å behandle Bitcoin som en digital eiendel og å behandle den som en valuta i regnskapet?
+answer: Som en digital eiendel må hver transaksjons kostnadsbase og gevinst/tap spores, mens hvis den ble behandlet som en valuta, ville revalueringer være enklere og sjeldnere.
+wrong_answers:
+  - Når den behandles som en digital eiendel, er den helt fritatt fra all skatt.
+  - Når de behandles som en valuta, er det ikke nødvendig å registrere transaksjoner.
+  - Hvis man skal behandle det som en valuta, må man umiddelbart bytte til et nytt regnskapsprogram.
+  Digital asset treatment typically involves calculating capital gains or losses on each transaction, adding complexity. If Bitcoin were accounted for like a currency, it would be simpler: just update the fiat value periodically, as done for other currencies.
+reviewed: false

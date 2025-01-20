@@ -1,0 +1,8 @@
+question: Что из перечисленного ниже НЕ является одним из трех основных методов приобретения биткойна?
+answer: Получение Bitcoin в качестве правительственного гранта на развитие бизнеса.
+wrong_answers:
+  - Получение биткойна в обмен на товары или услуги.
+  - Добыча биткойна с помощью специализированного оборудования и энергопотребления.
+  - Покупка биткойна на платформе или у брокера.
+  The chapter mentions three main ways to acquire Bitcoin: accept it as payment, mine it, or buy it. Receiving Bitcoin as a government grant isn’t a recognized standard method of acquisition.
+reviewed: false

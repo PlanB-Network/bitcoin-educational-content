@@ -1,0 +1,9 @@
+question: Mis on rgb-lightning-node RGB ökosüsteemis?
+answer: Daemon RGB-ühilduvate Lightning-kanalite haldamiseks
+wrong_answers:
+  - Mobiilne rahakott RGB varade haldamiseks
+  - Vahendusserver RGB logide vahetamiseks
+  - Bitcoini RGB varade kaevandamise tööriist
+explanation: |
+  rgb-lightning-node on Rusti deemon, mis on loodud RGB varade integreerimiseks Lightning-kanalitesse, lisades RGB olekute üleminekud kaasamistehingutele.
+reviewed: false

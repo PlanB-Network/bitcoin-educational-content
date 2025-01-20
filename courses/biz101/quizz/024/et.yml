@@ -1,0 +1,9 @@
+question: Milline on Bitcoini ostmisel üks soovitatav lähenemisviis selle hinna volatiilsuse käsitlemiseks?
+answer: Akumuleerige järk-järgult Bitcoini regulaarselt ja säilitage pikaajaline perspektiiv.
+wrong_answers:
+  - Püüdke ennustada lühiajalisi turuhoope ja müüge kohe.
+  - Minge korraga kogu ettevõtte varaga kokku.
+  - Ostke Bitcoini ainult nendel päevadel, kui selle hind on järsult tõusnud.
+explanation: |
+  Regulaarsed ostud aja jooksul (dollar-kulude keskmistamine) aitavad tasandada volatiilsust. Pikemaajaline perspektiiv (nt 4 aastat) vähendab lühiajaliste hinnakõikumiste mõju.
+reviewed: false

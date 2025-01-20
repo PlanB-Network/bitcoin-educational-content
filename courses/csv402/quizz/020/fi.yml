@@ -1,0 +1,9 @@
+question: Mikä on keskeinen tekijä, joka varmistaa, että Bob saa omaisuuden RGB:n tilasiirtymän aikana?
+answer: Uusi Seal-määritelmä, joka osoittaa Bobin UTXO:hon
+wrong_answers:
+  - Valvontatapahtuma ilman viittausta UTXO:hon
+  - Alicen julkinen lausunto
+  - Alicen ja Bobin yhteinen kaksoisallekirjoitus
+explanation: |
+  Sinettimääritelmä liittää omaisuuserän salakirjoituksella Bobin UTXO:hon, mikä varmistaa, että Bob omistaa sen.
+reviewed: false

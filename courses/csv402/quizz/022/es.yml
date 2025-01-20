@@ -1,0 +1,9 @@
+question: ¿Qué operación de contrato RGB crea un nuevo estado sin cerrar un sello?
+answer: Extensión estatal
+wrong_answers:
+  - Transición de estados
+  - Génesis
+  - Activación de la valencia
+explanation: |
+  La Extensión de Estado le permite crear un nuevo estado o derechos (Valencies), sin que el sello se cierre inmediatamente.
+reviewed: false

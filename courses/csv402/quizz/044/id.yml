@@ -1,0 +1,9 @@
+question: Bagaimana keamanan transisi RGB dalam saluran Lightning dipastikan jika status usang disiarkan?
+answer: Melalui mekanisme hukuman dari Saluran Petir
+wrong_answers:
+  - Dengan secara otomatis membatalkan semua transaksi sebelumnya
+  - Melalui mekanisme hukuman dari protokol RGB
+  - Melalui intervensi penerbit aset RGB melalui tanda tangannya yang terkait dengan Genesis
+explanation: |
+  Mekanisme hukuman klasik Lightning Network memastikan bahwa penyebaran kondisi lama dapat dihukum dengan pemulihan semua dana yang terlibat, termasuk aset RGB.
+reviewed: false

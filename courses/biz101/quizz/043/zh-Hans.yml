@@ -1,0 +1,9 @@
+question: 没有中介，比特币能让你做什么？
+answer: 在互联网上交换价值
+wrong_answers:
+  - 创建集中式应用程序
+  - 获得银行贷款
+  - 存储个人数据
+explanation: |
+  比特币通过其点对点协议实现了无中介的互联网价值交换。
+reviewed: false

@@ -1,0 +1,9 @@
+question: 如何处理 RGB 转账中的发票？
+answer: 注明交易类型、所需资产数量和收件人印章定义
+wrong_answers:
+  - 为资产创建新的创世纪
+  - 生成新模式以修改资产的业务逻辑
+  - 构建 PSBT 以取代比特币交易
+explanation: |
+  发票用于通知交易开具人业务类型、转移资产数量和目的地（印章定义）。
+reviewed: false

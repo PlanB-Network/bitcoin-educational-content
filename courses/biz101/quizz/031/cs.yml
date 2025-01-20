@@ -1,0 +1,9 @@
+question: Jak si má firma vybrat řešení pro platby bitcoiny, které vyhovuje jejím potřebám?
+answer: Zvažte faktory, jako je četnost transakcí, průměrná velikost platby a to, zda se jedná o online nebo osobní platby, a poté vyberte řešení přizpůsobené dané kategorii.
+wrong_answers:
+  - Vždy volíte nejjednodušší řešení bez ohledu na objem nebo složitost transakcí.
+  - Používáním pouze největšího a nejdražšího dostupného řešení bez ohledu na velikost podniku.
+  - Spoléhání se pouze na odhady bez zohlednění konkrétních požadavků podniku.
+explanation: |
+  Různé podniky mají různé potřeby. Vyhodnocení faktorů, jako je objem transakcí, způsoby platby (online vs. fyzické) a škálovatelnost, pomůže společnosti vybrat správné řešení pro platby bitcoiny.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Millist suundumust on täheldatud Lightning Networki sõlmpunkte käitavate osalejate seas?
+answer: Professionaalsed sõlmede operaatorid pakuvad üha enam likviidsust, samal ajal kui üksikkasutajad keskenduvad "servasõlmedele", muutes võrgu koosseisu.
+wrong_answers:
+  - Üksikud harrastajad on täielikult asendanud kõik professionaalsed operaatorid.
+  - Suured pangad haldavad nüüd tsentraalselt kõiki Lightning-sõlmi.
+  - Võrgustik on sulgenud isiklikud sõlmed, et lubada ainult suurettevõtteid.
+explanation: |
+  Liikutakse suurema likviidsuse ja stabiilsuse suunas, mida pakuvad professionaalsed üksused, samas kui tavakasutajad toetuvad lihtsustatud või hostitud lahendustele, mis muudavad võrgu tugevamaks ja kättesaadavamaks.
+reviewed: false

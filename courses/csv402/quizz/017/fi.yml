@@ -1,0 +1,9 @@
+question: Mikä rakenne takaa RGB:n siirtymien ajallisen johdonmukaisuuden?
+answer: DAG (suunnattu asyklinen graafi)
+wrong_answers:
+  - Yksinkertainen lineaarinen ketju
+  - Dynaaminen vertaisverkko
+  - UTXO:n binääripuu
+explanation: |
+  DAG mahdollistaa tilasiirtymien jäsentämisen ja rinnakkaisen kehityksen ilman epäjohdonmukaisuuksia.
+reviewed: false

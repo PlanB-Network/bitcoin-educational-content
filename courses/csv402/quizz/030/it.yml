@@ -1,0 +1,9 @@
+question: Quali sono i componenti contenuti in una spedizione RGB che Bob (destinatario) riceve per un contratto?
+answer: Genesi, Schema, Interfaccia e Implementazione dell'interfaccia
+wrong_answers:
+  - Genesi, schema, transizione ed estensione
+  - Schema, interfaccia, firma e PSBT
+  - Genesi, Interfaccia, PSBT e Storia
+explanation: |
+  La spedizione di un contratto RGB comprende la Genesi, lo Schema, l'Interfaccia e l'Implementazione dell'Interfaccia, che forniscono tutti i dati necessari per la convalida del contratto.
+reviewed: false

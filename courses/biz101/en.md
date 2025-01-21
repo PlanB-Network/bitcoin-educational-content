@@ -130,12 +130,13 @@ Payment systems are methods and infrastructures that enable the transfer of fund
 4. **Payment Cards (Credit/Debit):** Plastic or digital cards connected to a card network, allowing funds to be transferred from a cardholder’s bank account (or credit line) to a merchant.
 5. **Digital Wallets & Mobile Payments:** Applications or devices storing payment information (e.g., Apple Pay, WeChatPay, AliPay,PayPal), enabling quick and often contactless transfers.
 
-**Usage in B2C and B2B**
+**Usage in B2C and B2B:**
 
 - **B2C (Business-to-Consumer):**
     - Consumers frequently use cash, cards, and digital wallets for everyday purchases—such as groceries, online shopping, or services like ride-hailing.
     - Speed, convenience, and low fees (for the consumer) are often key priorities.
     - Contactless and mobile payments are increasingly popular in this space due to their ease of use.
+
 - **B2B (Business-to-Business):**
     - Businesses commonly rely on wire transfers, checks, and invoicing systems for paying suppliers, settling large bills, or handling recurring payments.
     - The focus is often on traceability, documentation, and the ability to handle larger transaction values.
@@ -657,11 +658,6 @@ Beyond fees and execution speed—which matter less if you’re thinking long te
 # Accepting Bitcoin payments
 <partId>b2c8af88-6bfc-49b1-ad84-4c292c713b55</partId>
 
-## Taking bitcoin as payment for goods or services
-<chapterId>99af1203-bc84-4acc-9780-f733e7998335</chapterId>
-
-### Why Accept Payments in Bitcoin?
-
 First, it’s important to understand that Bitcoin is a disruption on the same scale as the internet.
 
 In the early days, the internet network made it possible to remove intermediaries from communication channels, and then this infrastructure led to countless previously unimaginable applications. Today, what business doesn’t have an online presence?
@@ -698,63 +694,230 @@ Your mindset as a merchant is also important. Are you running a simple test, or 
 
 Don’t forget to consider the various roles of your employees and their locations. In any scenario, remember that you must be able to provide all necessary information to your accountant and streamline the accounting process.
 
-To simplify the decision-making process, we’ve divided typical use cases into four main categories. Identify which one best matches your situation to understand the key factors of the recommended solution.
+To simplify the decision-making process, we have defined four distinct business profiles. The following tables break down the key characteristics and recommended payment solutions for each profile. Then, in the following chapters, we will detail each business profile and the solutions tailored to each of them.
 
-The table on the following page is neither exhaustive nor static. With hundreds of companies developing products on the Lightning Network, the landscape is changing rapidly. If you’re unsure, feel free to ask for guidance.
+#### Profile 1 – Starter
 
-#### Step1 : define your category
+| Attribute                        | Starter                                                                                                                                    |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **State of Mind**                | "trying my first physical payment", "taking a tip for my online content", "targeting very small revenue"                                   |
+| **Transaction Frequency**        | "first transaction in order to learn", "taking payment once in a while"                                                                    |
+| **Business Type Examples**       | Creative economy (content creators, blogs, articles, etc.), occasional tips, one-off in-person product sales, associations, one-off events |
+| **Payment Type**                 | Generally a few cents to a few euros/dollars; under ~300 euros/dollars per item                                                            |
+| **Settings Complexity**          | None                                                                                                                                       |
+| **Example Recommended Solution** | A custodial Lightning wallet like Wallet of Satoshi or a non-custodial wallet like Phoenix                                                 |
+| **Merchant Interface**           | Simple Bitcoin Lightning wallet: an app on a mobile phone                                                                                  |
+| **Customer Interface**           | Bitcoin QR payment code, scanned via the customer’s personal wallet                                                                        |
+| **Fees**                         | Customer pays Bitcoin Lightning fees plus any applicable app fees                                                                          |
+| **Point of Sale Device**         | Free smartphone app or an option for a physical terminal (e.g. Bitcoinize)                                                                 |
+| **Management and Roles**         | Single app management; minimal role differentiation                                                                                        |
+| **Accounting Exports**           | Basic transaction history lists                                                                                                            |
+| **API**                          | No                                                                                                                                         |
 
-Please note that the table below is a simplified representation, as the range of products and solutions for accepting Bitcoin payments is constantly growing and evolving at a rapid pace. The table presents hypothetical "business categories" solely to help streamline the decision-making process.
 
-|                        | Category 1                                                                                                                                                                                            | Category 2                                                                                                                                                              | Category 3                                                                                                                                                                     | Category 4                                                                                                                                                          |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Name                   | "starter"                                                                                                                                                                                             | "essential"                                                                                                                                                             | "professional"                                                                                                                                                                 | "enterprise"                                                                                                                                                        |
-| State of mind          | "trying my first physical payment"   "taking a tip for my online content"   "targeting very small revenue"                                                                                | "I accept Bitcoin in my business but I do not expect meaningful volume"                                                                                                 | - A payment method like any other for my e-commerce, or the joint management of a group of businesses  - I am ready to handle higher volumes                             | - A strategic payment method for my business   - With some development, I can integrate it myself into my service platform according to my own specifications |
-| Transaction frequency  | "first transaction in order to learn"   "taking payment once in a while"                                                                                                                        | Few transactions a month                                                                                                                                                | Multiple payments per day                                                                                                                                                      | No limit                                                                                                                                                            |
-| Business type examples | Creative economy (content creators, blogs, articles, etc.)  Occasional tips and fundraising   One-time in-person product sales (e.g., a producer)   Associations and one-off events | - Bar, restaurant   - Semi-regular sales of fresh or directly sourced products   - Multiple stores under the same owner   - Creative economy, artists | - E-commerce with some volume   - Small marketplace   - Group of physical stores with different owners - Click & Collect - SME (Small and Medium-sized Enterprise) | - Mid-sized enterprises   - IT service companies   - Large corporations   - Major marketplaces                                                    |
-| Payments type          | - Generally just a few cents to a few euros/dollars   - Under ~300 euros/dollars per item                                                                                                       | Generally ranging from a few euros/dollars to a few hundreds of euros/dollars   - Under ~300 per item - Under ~3,000 per month                                    | Generally ranging from a few euros/dollars to a few hundreds dollars   - no payment size limit   - less than 250 000 per year                                      | Any size or volume                                                                                                                                                  |
-| Settings complexity    | None                                                                                                                                                                                                  | Minimal (mobile app)                                                                                                                                                    | Light to fully featured (local or cloud hosting) Usually requires having a e-commerce storefront                                                                               | Medium to high, depending on the choice of architecture                                                                                                             |
+#### Profile 2 – Essential
 
-#### Step2 : discover the payment solution
+| Attribute                        | Essential                                                                                                                                  |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **State of Mind**                | "I accept Bitcoin in my business but I do not expect meaningful volume"                                                                    |
+| **Transaction Frequency**        | Few transactions per month                                                                                                                 |
+| **Business Type Examples**       | Bars, restaurants, semi-regular sales of fresh or directly sourced products, multiple stores under one owner, creative economy for artists |
+| **Payment Type**                 | Generally ranging from a few euros/dollars to a few hundred per item; under ~300 per item and under ~3,000 per month                       |
+| **Settings Complexity**          | Minimal (mobile app)                                                                                                                       |
+| **Example Recommended Solution** | Swiss Bitcoin Pay                                                                                                                          |
+| **Merchant Interface**           | Simple Bitcoin Lightning wallet: an app on a mobile phone; simple invoicing with minimal details                                           |
+| **Customer Interface**           | Bitcoin QR payment code, scanned via the customer's personal wallet                                                                        |
+| **Fees**                         | Typically <1% for sending to a Bitcoin address, and <1.5% for converting to fiat                                                           |
+| **Point of Sale Device**         | Free smartphone app or an option for a physical terminal (e.g. Bitcoinize)                                                                 |
+| **Management and Roles**         | Option for a sell-only role for employees; online dashboard for administration                                                             |
+| **Accounting Exports**           | CSV export with complete transaction details                                                                                               |
+| **API**                          | Yes                                                                                                                                        |
 
-|                               | Category 1                                                                                | Category 2                                                                                                                                                                      | Category 3                                                                                                                                                                                                                                                                                                                                                                                                                      | Category 4                                                                                                                                                                                                                                                                  |
-| ----------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Name                          | "starter"                                                                                 | "essential"                                                                                                                                                                     | "professional"                                                                                                                                                                                                                                                                                                                                                                                                                  | "enterprise"                                                                                                                                                                                                                                                                |
-| Example recommended solution  | A custodial Lightning wallet like Wallet of Satoshi or a a non-custodial one like Phoenix | Swiss Bitcoin Pay                                                                                                                                                               | BTC Pay server: E-commerce and/or physical   ZapRite or Musqet for bitcoin checkout solution   Be-BOP: e-store and payment                                                                                                                                                                                                                                                                                          | Architecture dependant, custome made or orchestration of SaaS hosted solutions and probable LSP services                                                                                                                                                                    |
-| merchant interface            | simple bitcoin lightning wallet : an app on a mobile phone                                | simple bitcoin lightning wallet : an app on a mobile phone   simple invoice: just type the amount (no cart details)                                                       | - Website (mobile, desktop) to edit invoices   - Option to include detailed shopping carts with multiple items   - Ability to create payment buttons to embed on your website   - Automated invoicing with e-commerce site integration                                                                                                                                                                        | custom front end and backend interfaces, fully integrated in the business's workflows and processes                                                                                                                                                                         |
-| customer interface            | bitcoin QR payment code,   the customer scans using his personnal bitcoin wallet)   | bitcoin QR payment code,   the customer scans using his personnal bitcoin wallet)                                                                                         | bitcoin QR payment code,   the customer scans using his personnal bitcoin wallet)                                                                                                                                                                                                                                                                                                                                         | From a bitcoin QR payment code at checkout, to a fully custom UI and/or an API                                                                                                                                                                                              |
-| fees                          | customer pays the bitcoin lightning fees, plus applicable fees of the bitcoin app         | customer pays the bitcoin lightning fees, plus applicable fees of the bitcoin app usually <1% for sending to a Bitcoin address, and <1,5% for converting to fiat (euro/dollars) | Backend software will usually be a mix of    - Free bitcoin software backend (open source)   - Paid Lightning hosting (e.g., Voltage)   - Paid support   - Recommended to use a service provider for deployment   Front end : customer pays the bitcoin lightning fees, plus applicable fees of the bitcoin app for sending to a Bitcoin address, and <1,5% for converting to fiat (euro/dollars) | Backend: internal development costs plus third pay service providers fees for hosting  Front end : customer pays the bitcoin lightning fees, plus transation fees for the various service providers used (for example if the Lightning node is hosted by a 3rd party) |
-| Point of Sale physical device | Free smartphone app  Option for physical terminal (e.g. Bitcoinize)                 | Free smartphone app  Option for physical terminal (e.g. Bitcoinize)                                                                                                       | Shopping via a website store   Option for physical display: Ipad (showing the store site) or Bitcoin terminal (e.g Bitcoinize)                                                                                                                                                                                                                                                                                            | Custom design                                                                                                                                                                                                                                                               |
-| Management and roles          | Only one app to manage and sell                                                           | The app for selling.  Option to have a sell-only role for employees  Online dashboard for account administration                                                    | Fully featured store setup with various admin roles  The employees and customers interact with the store                                                                                                                                                                                                                                                                                                                  | Fully customized roles: sales, admin, devops, accounting, finance                                                                                                                                                                                                           |
-| Accounting exports            | Depends on the app, usually basic transaction history list                                | Yes, .csv export with all the transaction details                                                                                                                               | Yes, .csv export with all the transaction details                                                                                                                                                                                                                                                                                                                                                                               | Fully customized                                                                                                                                                                                                                                                            |
-| API                           | no                                                                                        | yes                                                                                                                                                                             | yes                                                                                                                                                                                                                                                                                                                                                                                                                             | yes                                                                                                                                                                                                                                                                         |
 
-Find out how to use Pheonix, a self-custodial LN wallet/node:
+#### Profile 3 – Professional
+
+| Attribute                        | Professional                                                                                                                                           |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **State of Mind**                | - A payment method like any other for my e-commerce - Or joint management for a group of businesses ready for higher volumes                           |
+| **Transaction Frequency**        | Multiple transactions per day                                                                                                                          |
+| **Business Type Examples**       | E-commerce sites with moderate volume, small marketplaces, groups of physical stores (e.g., Click & Collect), SME operations                           |
+| **Payment Type**                 | Generally ranging from a few euros/dollars to a few hundred; no set payment size limit; less than 250,000 per year                                     |
+| **Settings Complexity**          | Light to fully featured (local or cloud hosting), often requires an e-commerce storefront                                                              |
+| **Example Recommended Solution** | BTC Pay Server for e-commerce and/or physical environments; ZapRite or Musqet for checkout, Be-BOP for an integrated e-store                           |
+| **Merchant Interface**           | Website (mobile and desktop) with invoice editing, shopping cart options, and payment button creation; automated invoicing with e-commerce integration |
+| **Customer Interface**           | Bitcoin QR payment code, scanned via the customer's personal wallet                                                                                    |
+| **Fees**                         | Mix of free open-source backend and paid Lightning hosting/service fees; front-end fees include Bitcoin Lightning fees and <1.5% conversion fees       |
+| **Point of Sale Device**         | Website store, optional physical display (e.g. iPad showing the site or Bitcoin terminal)                                                              |
+| **Management and Roles**         | Fully featured store with multiple admin roles; employees and customers interact with the system                                                       |
+| **Accounting Exports**           | CSV export with complete transaction details                                                                                                           |
+| **API**                          | Yes                                                                                                                                                    |
+
+
+#### Profile 4 – Enterprise
+
+| Attribute                        | Enterprise                                                                                                                                      |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **State of Mind**                | - A strategic payment method for the business - With some development to integrate into the service platform as per specific specifications     |
+| **Transaction Frequency**        | Unlimited, high-frequency transactions                                                                                                          |
+| **Business Type Examples**       | Mid-sized enterprises, IT service companies, large corporations, major marketplaces                                                             |
+| **Payment Type**                 | Any size or volume                                                                                                                              |
+| **Settings Complexity**          | Medium to high, depending on the choice of architecture                                                                                         |
+| **Example Recommended Solution** | Custom-made architecture or orchestration of SaaS-hosted solutions, potentially using third-party LSP (*Lightning Service Provider*) services   |
+| **Merchant Interface**           | Fully customized front-end and back-end interfaces fully integrated into the business’s workflows and processes                                 |
+| **Customer Interface**           | Ranging from a Bitcoin QR payment code to a fully custom UI and/or API integration                                                              |
+| **Fees**                         | Combination of internal development and third-party fees; customer pays Bitcoin Lightning fees plus any transaction fees from service providers |
+| **Point of Sale Device**         | Custom-designed solutions tailored to the enterprise environment                                                                                |
+| **Management and Roles**         | Fully customized roles across sales, administration, devops, accounting, and finance                                                            |
+| **Accounting Exports**           | Fully customized accounting exports                                                                                                             |
+| **API**                          | Yes                                                                                                                                             |
+
+
+## Business profile - The Starter
+<chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
+
+The Starter profile is designed for businesses, creators, and individuals who wish to explore Bitcoin payments without committing substantial resources or expertise. These are typically those who handle a very small volume of transactions (perhaps a few tips, donations, or occasional sales) and seek a simple, lightweight introduction to the Bitcoin and Lightning Network ecosystem. The key value of the Starter approach lies in its minimal setup: in most cases, all that is required is a smartphone or tablet equipped with a basic Lightning-compatible wallet.
+
+18
+
+One of the defining features of this profile is its focus on low-volume payments that rarely exceed a few hundred euros or dollars per month. This modest scale makes it an excellent choice for anyone who wants to test the market with Bitcoin, without the complexities inherent in higher-volume deployments. Additionally, it allows for immediate hands-on learning; since there are fewer operational pressures and smaller monetary stakes, mistakes can be contained, and lessons are learned quickly. From artists who sell handmade crafts at weekend fairs to non-profit groups that accept one-time donations, users in this category often emphasize accessibility and ease of use over advanced functionalities.
+
+The two most common wallet setups for the Starter profile involve deciding between custodial and non-custodial solutions. A custodial wallet (such as Wallet of Satoshi or Blink) lets a third-party service manage private keys and backend operations, thereby reducing the technical responsibilities for the user. This arrangement is especially appealing for those who value convenience above all and want the simplest possible onboarding. On the other hand, non-custodial Lightning wallets (like Phoenix or Breez) place private keys and full control in the hands of the business owner, offering greater autonomy and privacy in exchange for slightly more initial effort. In either case, modern interfaces are typically so user-friendly that anyone can handle essential tasks (generating a QR code, entering a payment amount, and confirming transactions) within a matter of minutes.
+
+19
+
+Although security concerns may seem less urgent when transactions are small, it is nonetheless crucial to put in place basic protective measures. Even a single smartphone or tablet used to receive Bitcoin payments should be locked by a password or biometric security, and backup procedures (ranging from keeping track of login credentials for a custodial wallet to safeguarding a seed phrase for a non-custodial one) must be taken seriously. Staff members who handle transactions in a physical setting would benefit from knowing the fundamentals: how to open the app, how to present a QR code to the customer, and how to check whether payment has indeed arrived.
+
+Accounting and reporting, while relatively simple under the Starter profile, still warrant careful consideration. Although transaction volumes might be minimal, retaining accurate records prevents confusion down the line and helps maintain transparency in case of financial audits or tax filings. Many wallet applications enable users to export a basic transaction history as a CSV file; for a small enterprise or a single entrepreneur, saving these files regularly can make reconciling accounts much easier. It is also wise to track the approximate fiat value (for instance, in euros or dollars) at the moment each transaction is received. Since Bitcoin’s price can fluctuate, having a record of conversion rates is invaluable for bookkeeping and tax compliance.
+
+20
+
+For businesses that wish to supplement their physical or in-person payments with online donations or tips, it is now straightforward to integrate a Lightning tip button or donation widget into a website or blog. Platforms such as BTCPay Server offer easy-to-configure payment buttons, while some social media and livestream services already support Lightning tips with addresses. Consequently, even a Starter enterprise can build a modest but global network of patrons. Meanwhile, those who prefer not to hold Bitcoin long-term can explore partial or automatic conversion into fiat currency using certain custodial wallets or third-party services. Although this option involves additional fees and possible KYC obligations, it helps businesses sidestep exchange rate volatility and maintain their existing financial workflows with minimal disruption.
+
+A simple use case illustrates how all these elements come together. Imagine a local craftsperson who sells homemade jams at a Saturday farmers’ market. Armed with a phone running a custodial Lightning wallet, they set each jar’s price in euros; when a customer asks to pay in Bitcoin, the merchant quickly inputs the corresponding fiat amount, and the app automatically calculates the sats due. The resulting QR code is scanned by the customer’s wallet, the payment is settled in seconds, and the craftsperson instantly knows that the transaction succeeded. At the end of the day, any transaction details can be exported for recordkeeping, and the balance of the day can be sent entirely or partially to an exchange platform to be converted into fiat currency.
+
+By balancing user-friendly tools, minimal hardware requirements, and straightforward recordkeeping, Starter solutions deliver the essentials without overwhelming newcomers businesses. Should transaction volumes increase and a business’s operational requirements evolve, upgrading to the more advanced categories detailed in upcoming chapter becomes a natural progression.
+
+For detailed tutorials on the recommended wallets and basic setup, please consult the following guides:
+
+**Self-custodial LN wallets/nodes:**
+
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-
-Find out how to use Wallet of Satoshi, a custodial LN wallet:
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
-
-
-Find out how to use BitKit, a self-custodial LN and onchain wallet:
 https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
 
-
-Find out how to use Breez, a self-custodial LN wallet/node with integrated PoS:
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-
-Find out how to use Blixt, a self-custodial LN wallet/node:
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
+https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
 
-Find out how to use Blink, a custodial LN wallet:
+
+**Custodial LN wallets:**
+
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 
-Find out how to use Zeus, a self-custodial LN wallet/node:
-https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
+## Business profile - The Essential
+<chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
+
+The Essential profile is suitable for small and medium-sized businesses, potentially with employees, that want to accept bitcoin easily and quickly without needing advanced technical knowledge, while still having a more complete and professional system than a simple wallet. This category most often applies to restaurants, cafés, bars, or small retail shops that see only a handful of Bitcoin payments each month, yet desire an interface that is both straightforward and robust enough to handle day-to-day operations without interruption.
+
+Unlike the Starter profile, Essential businesses typically regard Bitcoin payments as an ongoing part of their revenue stream rather than a mere experiment. They still operate at relatively low transaction volumes, but the frequency is sufficient that owners and employees benefit from a more structured and reliable system. At the same time, the Essential profile remains focused on simplicity; while it allows for handy dashboards and limited role management, it does not necessitate specialized IT resources or complex integrations.
+
+Technology recommendations in this segment often center on **Swiss Bitcoin Pay**, a streamlined solution for merchants to accept Bitcoin payments easily. It features a user-friendly PoS app, requiring no technical expertise for employees. Unlike standard Bitcoin wallets, it focuses solely on receiving payments, allowing employees to use the device without security risks. Multiple PoS apps can connect to the same account, usable on tablets, registers, smartphones, or via a web version for computers, supporting Android and iOS. You can also create a menu with the items you sell and their associated prices, allowing the employee to simply select a basket of items for the customer on the PoS and then charge the total.
+
+21
+
+Payments can either be withdrawn in Bitcoin to a specific address or converted to fiat currency and deposited into a bank account daily. Swiss Bitcoin Pay automates the process, handling Bitcoin and Lightning Network payments without manual intervention. Funds are held for a maximum of 24 hours before transfer. While not fully non-custodial like BTCPay Server, it balances convenience and security, and require no KYC.
+
+22
+
+Fees are competitive: 0.21% for the first year, then 1% for Bitcoin payments and 1.5% for fiat conversions payments, including Bitcoin transaction costs. Swiss Bitcoin Pay offers a practical middle ground between custodial solutions like Open Node and complex self-hosted systems like BTCPay Server, prioritizing simplicity, security, and financial autonomy.
+
+This type of setup enables in-person businesses to generate payment invoices swiftly, present QR codes to their patrons, and accept Lightning or on-chain transactions with minimal friction. Staff need only a brief orientation to handle these payments, while managers can log into an online dashboard to reconcile daily sales and access basic reports. The availability of a streamlined administrative console also helps smaller establishments track both fiat and crypto revenues from a single interface, thereby mitigating confusion and reducing time spent on manual bookkeeping.
+
+23
+
+Another key benefit of the Essential approach is the emphasis on rapid deployment and minimal disruption. Solutions like Swiss Bitcoin Pay can be set up in a matter of hours rather than days or weeks. For an owner or manager of a modestly busy restaurant, for instance, the end goal is to integrate Bitcoin acceptance without causing delays at the checkout counter or confusion among staff. Once the POS is configured, the manager may simply provide employees with quick instructions on displaying the invoice and verifying that the payment has cleared. In the best-case scenario, a customer’s transaction is confirmed nearly instantly via the Lightning Network, and the business’s administrative panel simultaneously registers a new payment in real time.
+
+Although the Essential profile does not demand highly sophisticated accounting systems, it is still wise to maintain proper transaction records. Tools like Swiss Bitcoin Pay offer CSV export functions, enabling managers to capture the fiat-equivalent value of each Bitcoin sale and track it alongside other income sources. This level of documentation is sufficient for most small businesses, and a rudimentary understanding of exchange rates will help with tax filing and general financial oversight.
+
+24
+
+The most suitable hybrid solution for your profile is likely Swiss Bitcoin Pay:
+
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
+
+Another easy-to-implement solution, but with the drawback of being 100% custodial, is Open Node:
+
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
+
+If you are ready to get your hands dirty and want full control over the process, the BTCPay Server software is an excellent option. However, the major drawback of BTCPay Server is that its setup and management are time-consuming and require a certain level of technical expertise, but you can follow our guides:
+
+https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+
+
+Finally, as a complement for physical points of sale, you could consider setting up [a Bitcoinize PoS](https://bitcoinize.com/).
+
+
+## Business profile - The Professional
+<chapterId>4d5dfa50-c4d0-481c-ab95-1863a898750e</chapterId>
+
+The Professional profile is aimed at businesses that have moved beyond occasional or low-volume Bitcoin payments and now seek a robust infrastructure to handle multiple daily transactions. These companies often operate across several channels (perhaps a retail location, a dedicated e-commerce website, and even mobile sales) and therefore require payment solutions that can be integrated seamlessly into their existing workflows. In many cases, enterprises at this level already manage point-of-sale systems, online order management platforms, and back-office operations that demand a reliable, scalable approach.
+
+One of the defining characteristics of the Professional merchant is the need for **advanced features** and **customizable solutions** that maintain efficiency even as transaction volumes grow. Unlike Essential users, who may be satisfied with a streamlined tool that fits neatly on a smartphone app, Professional business typically demand features such as detailed invoice customization, sophisticated reporting dashboards, and the ability to assign multiple administrative roles.
+
+25
+
+A restaurant group, for instance, may have staff members dedicated to invoicing and stock management, while a separate team oversees product listings and marketing campaigns. In this environment, a Bitcoin payment solution must dovetail neatly with these preexisting organizational structures.
+
+26
+
+Regarding technology and tools, solutions like **BTC Pay Server** often form the core of a Professional setup. BTC Pay Server is an open-source platform that can be deployed either on-premises or via cloud hosting and that offers extensive integration options for websites and e-commerce platforms. By running their own instance, businesses retain a high degree of control over every aspect of the payment flow, from automatically generated checkout pages to notifications that trigger internal processes once a payment is confirmed.
+
+27
+
+Additionally, tools such as [ZapRite](https://zaprite.com/) or [Musqet](https://musqet.tech/) can further refine the checkout experience, allowing for more granular customization (from branding choices to sophisticated reporting capabilities). Those who prefer an all-in-one online retail environment may gravitate toward [Be-BOP](https://be-bop.io/), an e-store solution built to facilitate Bitcoin payments without sacrificing ease of use.
+
+28
+
+Implementing these technologies within a professional setting means paying close attention to **operational complexity**. Automated invoicing workflows, multi-currency displays, and synchronization with existing inventory systems are all hallmarks of a well-integrated platform. The ability to precisely export transaction data (whether as CSV files, direct API calls, or customized formats) helps businesses reconcile bitcoin sales with other revenue streams efficiently.
+
+Security and role management constitute another pivotal consideration for Professional users. As daily Bitcoin transactions accumulate, controlling access to administrative functions becomes an essential risk-mitigation measure. In many solutions, administrators can assign varying levels of permission (perhaps restricting some employees to viewing transaction histories and generating invoices, while granting others authority to manage inventory or configure system-wide settings...). This hierarchical structure not only safeguards sensitive data but also streamlines operations by clarifying which staff members have responsibility for each segment of the payment infrastructure.
+
+When it comes to real-world examples, consider a mid-sized e-commerce store specializing in technology accessories. The company could integrate BTC Pay Server into its existing online storefront, automatically generating Bitcoin payment addresses during checkout. Customers complete their purchases by scanning a Lightning or on-chain address, and the store’s platform instantly confirms the payment. At the same time, an internal system updates order status and triggers shipping notifications. Thanks to the advanced reporting features, the finance team can easily review daily Bitcoin sales, export a consolidated ledger for auditing, and track the value of any BTC holdings the company decides to retain.
+
+29
+
+*[Credit: Bitcoin Bazar shop in Paris, France.](https://bitcoinbazar.fr/)*
+
+To delve deeper into implementation specifics and to explore hands-on configurations of BTC Pay Server, refer to the following course:
+
+https://planb.network/courses/btc305
+
+
+## Business profile - The Enterprise
+<chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
+
+The Enterprise profile stands at the apex of Bitcoin payment implementations, tailored specifically for sizable corporations, major marketplaces, and established businesses that demand fully customized solutions. Unlike smaller-scale or mid-level deployments, Enterprise-level operations integrate Bitcoin payments into a broad tapestry of workflows and systems, ranging from on-site point-of-sale devices to e-commerce storefronts, back-office accounting platforms, and sophisticated ERP frameworks.
+
+At this scale, the overarching goal is not simply to accept Bitcoin, but to do so in a manner that is thoroughly **aligned with the organization’s core processes**. This alignment may call for specialized software development, whether the solution is entirely bespoke or orchestrated through a SaaS-based infrastructure backed by third-party *Lightning Service Providers* (LSPs). Such LSPs can handle high transaction volumes and complex network configurations that exceed the capacity of more conventional out-of-the-box tools. The resulting architecture therefore incorporates a broad array of technical and business considerations, from API-driven integrations to advanced treasury management capabilities.
+
+Within an enterprise context, operational complexity becomes especially pronounced. A large corporation may need to accommodate multiple departments (sales, marketing, devops, finance, and accounting) each with distinct responsibilities and data requirements. In this scenario, a Bitcoin payment platform must offer highly granular role management, allowing each department to access precisely the functions relevant to their tasks while preserving rigorous control over security and data integrity. Equally essential is the capacity to customize workflows: for example, inbound payments might trigger updates in inventory systems, send automated notifications to sales managers, and update ledger entries for the finance team, all in real time. Point-of-sale devices themselves are commonly tailored to the enterprise environment, with custom software interfaces that match the company’s branding and operational needs.
+
+**Security** is paramount for enterprise-scale businesses. High volumes of transactions and potentially large sums of Bitcoin require a robust infrastructure capable of defending against malicious attacks or insider threats. Best practices often include multi-signature with timelocks treasury configurations, carefully audited codebases, and strict adherence to relevant regulatory frameworks. Furthermore, compliance with local and international financial regulations can be integral to preserving the corporation’s reputation and license to operate.
+
+The **custom development** involved in creating or integrating an enterprise-grade Bitcoin payment solution extends beyond coding a few application features. It typically requires architectural design, thorough testing protocols, and a structured roll-out that may span multiple phases (initial pilot programs, limited market tests, and eventual global deployment).
+
+On the accounting front, high-frequency transactions demand **fully customized exports** and sometimes real-time synchronization with corporate finance software. Large businesses may rely on enterprise resource planning (ERP) solutions such as SAP or Oracle, which, in turn, must interface seamlessly with the Bitcoin payment data. To facilitate this, the chosen platform’s APIs must be sophisticated and flexible, giving IT teams the freedom to create custom reporting dashboards, implement automated reconciliation processes, and generate daily or even hourly financial summaries.
+
+A typical Enterprise scenario might involve a major e-commerce marketplace that welcomes thousands of transactions each day. Beyond merely listing Bitcoin as a payment option, this marketplace can tailor every aspect of the user experience, from how the Bitcoin payment flow appears on the customer-facing website to how refunds, chargebacks, or dispute resolutions are managed on the back end. A dedicated devops team, in collaboration with finance and legal departments, would oversee ongoing maintenance, security patches, and compliance updates. Should the company choose to retain a portion of its Bitcoin revenue, an internal treasury system would track the firm’s bitcoin holdings alongside traditional currency reserves.
+
+To ensure a smooth and secure deployment at the Enterprise level, most organizations engage specialized service providers or in-house development teams with experience in Bitcoin and Lightning Network integrations. The process typically begins with an in-depth needs assessment (covering technical infrastructure, compliance requirements, and the desired customer journey) followed by designing an architecture that can handle high-volume throughput. Depending on the project scope, you may rely on a multi-disciplinary team composed of financial controllers, security analysts, and software engineers. Alternatively, a growing number of specialized consulting firms can guide you from initial conceptualization to final roll-out, assisting with tasks such as evaluating SaaS-hosted solutions, configuring *Lightning Service Providers*, and customizing front-end interfaces. By partnering with domain experts, enterprises can mitigate the risks associated with large-scale payment implementation and achieve a solution that is not only robust and compliant but also flexible enough to accommodate future growth.
 
 
 ## Evolutions

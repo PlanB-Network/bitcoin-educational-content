@@ -778,19 +778,19 @@ In the following chapters, we will detail each business profile and the solution
 
 The Starter profile is designed for businesses, creators, and individuals who wish to explore Bitcoin payments without committing substantial resources or expertise. These are typically those who handle a very small volume of transactions (perhaps a few tips, donations, or occasional sales) and seek a simple, lightweight introduction to the Bitcoin and Lightning Network ecosystem. The key value of the Starter approach lies in its minimal setup: in most cases, all that is required is a smartphone or tablet equipped with a basic Lightning-compatible wallet.
 
-18
+![BIZ101-profiles](assets/en/18.webp)
 
 One of the defining features of this profile is its focus on low-volume payments that rarely exceed a few hundred euros or dollars per month. This modest scale makes it an excellent choice for anyone who wants to test the market with Bitcoin, without the complexities inherent in higher-volume deployments. Additionally, it allows for immediate hands-on learning; since there are fewer operational pressures and smaller monetary stakes, mistakes can be contained, and lessons are learned quickly. From artists who sell handmade crafts at weekend fairs to non-profit groups that accept one-time donations, users in this category often emphasize accessibility and ease of use over advanced functionalities.
 
 The two most common wallet setups for the Starter profile involve deciding between custodial and non-custodial solutions. A custodial wallet (such as Wallet of Satoshi or Blink) lets a third-party service manage private keys and backend operations, thereby reducing the technical responsibilities for the user. This arrangement is especially appealing for those who value convenience above all and want the simplest possible onboarding. On the other hand, non-custodial Lightning wallets (like Phoenix or Breez) place private keys and full control in the hands of the business owner, offering greater autonomy and privacy in exchange for slightly more initial effort. In either case, modern interfaces are typically so user-friendly that anyone can handle essential tasks (generating a QR code, entering a payment amount, and confirming transactions) within a matter of minutes.
 
-19
+![BIZ101-profiles](assets/en/19.webp)
 
 Although security concerns may seem less urgent when transactions are small, it is nonetheless crucial to put in place basic protective measures. Even a single smartphone or tablet used to receive Bitcoin payments should be locked by a password or biometric security, and backup procedures (ranging from keeping track of login credentials for a custodial wallet to safeguarding a seed phrase for a non-custodial one) must be taken seriously. Staff members who handle transactions in a physical setting would benefit from knowing the fundamentals: how to open the app, how to present a QR code to the customer, and how to check whether payment has indeed arrived.
 
 Accounting and reporting, while relatively simple under the Starter profile, still warrant careful consideration. Although transaction volumes might be minimal, retaining accurate records prevents confusion down the line and helps maintain transparency in case of financial audits or tax filings. Many wallet applications enable users to export a basic transaction history as a CSV file; for a small enterprise or a single entrepreneur, saving these files regularly can make reconciling accounts much easier. It is also wise to track the approximate fiat value (for instance, in euros or dollars) at the moment each transaction is received. Since Bitcoin’s price can fluctuate, having a record of conversion rates is invaluable for bookkeeping and tax compliance.
 
-20
+![BIZ101-profiles](assets/en/20.webp)
 
 For businesses that wish to supplement their physical or in-person payments with online donations or tips, it is now straightforward to integrate a Lightning tip button or donation widget into a website or blog. Platforms such as BTCPay Server offer easy-to-configure payment buttons, while some social media and livestream services already support Lightning tips with addresses. Consequently, even a Starter enterprise can build a modest but global network of patrons. Meanwhile, those who prefer not to hold Bitcoin long-term can explore partial or automatic conversion into fiat currency using certain custodial wallets or third-party services. Although this option involves additional fees and possible KYC obligations, it helps businesses sidestep exchange rate volatility and maintain their existing financial workflows with minimal disruption.
 
@@ -829,23 +829,23 @@ Unlike the Starter profile, Essential businesses typically regard Bitcoin paymen
 
 Technology recommendations in this segment often center on **Swiss Bitcoin Pay**, a streamlined solution for merchants to accept Bitcoin payments easily. It features a user-friendly PoS app, requiring no technical expertise for employees. Unlike standard Bitcoin wallets, it focuses solely on receiving payments, allowing employees to use the device without security risks. Multiple PoS apps can connect to the same account, usable on tablets, registers, smartphones, or via a web version for computers, supporting Android and iOS. You can also create a menu with the items you sell and their associated prices, allowing the employee to simply select a basket of items for the customer on the PoS and then charge the total.
 
-21
+![BIZ101-profiles](assets/en/21.webp)
 
 Payments can either be withdrawn in Bitcoin to a specific address or converted to fiat currency and deposited into a bank account daily. Swiss Bitcoin Pay automates the process, handling Bitcoin and Lightning Network payments without manual intervention. Funds are held for a maximum of 24 hours before transfer. While not fully non-custodial like BTCPay Server, it balances convenience and security, and require no KYC.
 
-22
+![BIZ101-profiles](assets/en/22.webp)
 
 Fees are competitive: 0.21% for the first year, then 1% for Bitcoin payments and 1.5% for fiat conversions payments, including Bitcoin transaction costs. Swiss Bitcoin Pay offers a practical middle ground between custodial solutions like Open Node and complex self-hosted systems like BTCPay Server, prioritizing simplicity, security, and financial autonomy.
 
 This type of setup enables in-person businesses to generate payment invoices swiftly, present QR codes to their patrons, and accept Lightning or on-chain transactions with minimal friction. Staff need only a brief orientation to handle these payments, while managers can log into an online dashboard to reconcile daily sales and access basic reports. The availability of a streamlined administrative console also helps smaller establishments track both fiat and crypto revenues from a single interface, thereby mitigating confusion and reducing time spent on manual bookkeeping.
 
-23
+![BIZ101-profiles](assets/en/23.webp)
 
 Another key benefit of the Essential approach is the emphasis on rapid deployment and minimal disruption. Solutions like Swiss Bitcoin Pay can be set up in a matter of hours rather than days or weeks. For an owner or manager of a modestly busy restaurant, for instance, the end goal is to integrate Bitcoin acceptance without causing delays at the checkout counter or confusion among staff. Once the POS is configured, the manager may simply provide employees with quick instructions on displaying the invoice and verifying that the payment has cleared. In the best-case scenario, a customer’s transaction is confirmed nearly instantly via the Lightning Network, and the business’s administrative panel simultaneously registers a new payment in real time.
 
 Although the Essential profile does not demand highly sophisticated accounting systems, it is still wise to maintain proper transaction records. Tools like Swiss Bitcoin Pay offer CSV export functions, enabling managers to capture the fiat-equivalent value of each Bitcoin sale and track it alongside other income sources. This level of documentation is sufficient for most small businesses, and a rudimentary understanding of exchange rates will help with tax filing and general financial oversight.
 
-24
+![BIZ101-profiles](assets/en/24.webp)
 
 The most suitable hybrid solution for your profile is likely Swiss Bitcoin Pay:
 
@@ -872,19 +872,19 @@ The Professional profile is aimed at businesses that have moved beyond occasiona
 
 One of the defining characteristics of the Professional merchant is the need for **advanced features** and **customizable solutions** that maintain efficiency even as transaction volumes grow. Unlike Essential users, who may be satisfied with a streamlined tool that fits neatly on a smartphone app, Professional business typically demand features such as detailed invoice customization, sophisticated reporting dashboards, and the ability to assign multiple administrative roles.
 
-25
+![BIZ101-profiles](assets/en/25.webp)
 
 A restaurant group, for instance, may have staff members dedicated to invoicing and stock management, while a separate team oversees product listings and marketing campaigns. In this environment, a Bitcoin payment solution must dovetail neatly with these preexisting organizational structures.
 
-26
+![BIZ101-profiles](assets/en/26.webp)
 
 Regarding technology and tools, solutions like **BTC Pay Server** often form the core of a Professional setup. BTC Pay Server is an open-source platform that can be deployed either on-premises or via cloud hosting and that offers extensive integration options for websites and e-commerce platforms. By running their own instance, businesses retain a high degree of control over every aspect of the payment flow, from automatically generated checkout pages to notifications that trigger internal processes once a payment is confirmed.
 
-27
+![BIZ101-profiles](assets/en/27.webp)
 
-Additionally, tools such as [ZapRite](https://zaprite.com/) or [Musqet](https://musqet.tech/) can further refine the checkout experience, allowing for more granular customization (from branding choices to sophisticated reporting capabilities). Those who prefer an all-in-one online retail environment may gravitate toward [Be-BOP](https://be-bop.io/), an e-store solution built to facilitate Bitcoin payments without sacrificing ease of use.
+Additionally, tools such as [Zaprite](https://zaprite.com/) or [Musqet](https://musqet.tech/) can further refine the checkout experience, allowing for more granular customization (from branding choices to sophisticated reporting capabilities). Those who prefer an all-in-one online retail environment may gravitate toward [Be-BOP](https://be-bop.io/), an e-store solution built to facilitate Bitcoin payments without sacrificing ease of use.
 
-28
+![BIZ101-profiles](assets/en/28.webp)
 
 Implementing these technologies within a professional setting means paying close attention to **operational complexity**. Automated invoicing workflows, multi-currency displays, and synchronization with existing inventory systems are all hallmarks of a well-integrated platform. The ability to precisely export transaction data (whether as CSV files, direct API calls, or customized formats) helps businesses reconcile bitcoin sales with other revenue streams efficiently.
 
@@ -892,7 +892,7 @@ Security and role management constitute another pivotal consideration for Profes
 
 When it comes to real-world examples, consider a mid-sized e-commerce store specializing in technology accessories. The company could integrate BTC Pay Server into its existing online storefront, automatically generating Bitcoin payment addresses during checkout. Customers complete their purchases by scanning a Lightning or on-chain address, and the store’s platform instantly confirms the payment. At the same time, an internal system updates order status and triggers shipping notifications. Thanks to the advanced reporting features, the finance team can easily review daily Bitcoin sales, export a consolidated ledger for auditing, and track the value of any BTC holdings the company decides to retain.
 
-29
+![BIZ101-profiles](assets/en/29.webp)
 
 *[Credit: Bitcoin Bazar shop in Paris, France.](https://bitcoinbazar.fr/)*
 

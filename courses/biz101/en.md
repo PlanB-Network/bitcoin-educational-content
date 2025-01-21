@@ -655,7 +655,7 @@ Beyond fees and execution speed—which matter less if you’re thinking long te
 - **Reputation and Ethos:** Trustworthiness and values of the platform.
 - **Support for Recurring Purchases:** If you plan to accumulate Bitcoin over time with scheduled buys.
 
-# Accepting Bitcoin payments
+# Tailored Bitcoin payment solutions for every business
 <partId>b2c8af88-6bfc-49b1-ad84-4c292c713b55</partId>
 
 First, it’s important to understand that Bitcoin is a disruption on the same scale as the internet.
@@ -686,7 +686,7 @@ There’s no need to ask permission to use Bitcoin. Anyone can participate in th
 - **Leverage the Bitcoin Network for Its Advantages:**
 You are not required to keep your payments in Bitcoin form—especially if you need to pay suppliers or remit VAT. Certain services can convert all or part of your Bitcoin payments into the currency of your choice (e.g., euros to your IBAN) for a fee. In this scenario, the benefit of accepting Bitcoin might lie in attracting new users or in Bitcoin’s intrinsic advantages (such as lower fees, around-the-clock operation, and no risk of fraud or chargebacks).
 
-### Practical Considerations: Which Payment Solution Should You Choose?
+### Which payment solution should you choose?
 
 It’s relatively easy to begin accepting Bitcoin payments. To choose the right solution, consider the characteristics of the transactions you handle: the average payment amount, transaction frequency, and whether you’ll be accepting payments in a physical setting, online, or both.
 
@@ -694,11 +694,11 @@ Your mindset as a merchant is also important. Are you running a simple test, or 
 
 Don’t forget to consider the various roles of your employees and their locations. In any scenario, remember that you must be able to provide all necessary information to your accountant and streamline the accounting process.
 
-To simplify the decision-making process, we have defined four distinct business profiles. The following tables break down the key characteristics and recommended payment solutions for each profile. Then, in the following chapters, we will detail each business profile and the solutions tailored to each of them.
+To simplify the decision-making process, we have defined four distinct business profiles. The following tables break down the key characteristics and recommended payment solutions for each profile.
 
-#### Profile 1 – Starter
+#### Profile 1 – The Starter
 
-| Attribute                        | Starter                                                                                                                                    |
+| Attribute                        | The Starter                                                                                                                                |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | **State of Mind**                | "trying my first physical payment", "taking a tip for my online content", "targeting very small revenue"                                   |
 | **Transaction Frequency**        | "first transaction in order to learn", "taking payment once in a while"                                                                    |
@@ -715,9 +715,9 @@ To simplify the decision-making process, we have defined four distinct business 
 | **API**                          | No                                                                                                                                         |
 
 
-#### Profile 2 – Essential
+#### Profile 2 – The Essential
 
-| Attribute                        | Essential                                                                                                                                  |
+| Attribute                        | The Essential                                                                                                                              |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | **State of Mind**                | "I accept Bitcoin in my business but I do not expect meaningful volume"                                                                    |
 | **Transaction Frequency**        | Few transactions per month                                                                                                                 |
@@ -734,9 +734,9 @@ To simplify the decision-making process, we have defined four distinct business 
 | **API**                          | Yes                                                                                                                                        |
 
 
-#### Profile 3 – Professional
+#### Profile 3 – The Professional
 
-| Attribute                        | Professional                                                                                                                                           |
+| Attribute                        | The Professional                                                                                                                                       |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **State of Mind**                | - A payment method like any other for my e-commerce - Or joint management for a group of businesses ready for higher volumes                           |
 | **Transaction Frequency**        | Multiple transactions per day                                                                                                                          |
@@ -753,9 +753,9 @@ To simplify the decision-making process, we have defined four distinct business 
 | **API**                          | Yes                                                                                                                                                    |
 
 
-#### Profile 4 – Enterprise
+#### Profile 4 – The Enterprise
 
-| Attribute                        | Enterprise                                                                                                                                      |
+| Attribute                        | The Enterprise                                                                                                                                  |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | **State of Mind**                | - A strategic payment method for the business - With some development to integrate into the service platform as per specific specifications     |
 | **Transaction Frequency**        | Unlimited, high-frequency transactions                                                                                                          |
@@ -771,6 +771,7 @@ To simplify the decision-making process, we have defined four distinct business 
 | **Accounting Exports**           | Fully customized accounting exports                                                                                                             |
 | **API**                          | Yes                                                                                                                                             |
 
+In the following chapters, we will detail each business profile and the solutions tailored to each of them.
 
 ## Business profile - The Starter
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>

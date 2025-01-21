@@ -1,22 +1,22 @@
 - start_date: 2024-10-26
-  end_date: 2024-10-27 
+  end_date: 2024-10-27
   address_line_1: Sydney, Australia
   address_line_2:
-  address_line_3: 
+  address_line_3:
   name: CheatCode in Australia
-  builder: Cheatcode
+  builder: CheatCode
   type: conference
   book_online: false
   book_in_person: false
   price_dollars: 0
   description: This October we're bringing CheatCode to Sydney.
-  language: 
+  language:
     - en
   links:
     website: https://www.cheatcode.co.uk/
     replay_url:
     live_url :
-  tags: 
+  tags:
     - International
     - Bitcoiner
     - Education

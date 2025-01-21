@@ -2,22 +2,22 @@
   end_date: 2024-09-18  10:00:00
   timezone: Asia/Bangkok
   address_line_1: Chiang Mai, Thailand
-  address_line_2: 
-  address_line_3: 
+  address_line_2:
+  address_line_3:
   name: Bitcoin Educators Mastermind 2024
-  builder: 
+  builder: Captain Sidd
   type: conference
   book_online: false
   book_in_person: false
   price_dollars: 0
-  description: Bitcoin meetup organizers, hub runners and community builders are invited to Chiang Mai, Thailand for two days of mastermind sessions and adventure in the mystical jungles of Chiang Mai. The goal is to build connections between Bitcoin educators and further our individual education efforts across the globe. 
-  language: 
+  description: Bitcoin meetup organizers, hub runners and community builders are invited to Chiang Mai, Thailand for two days of mastermind sessions and adventure in the mystical jungles of Chiang Mai. The goal is to build connections between Bitcoin educators and further our individual education efforts across the globe.
+  language:
     - en
   links:
     website: https://www.rideofpassage.live/bitcoin-educators-mastermind
     replay_url:
     live_url :
-  tags: 
+  tags:
     - Bitcoin
     - technology
     - education

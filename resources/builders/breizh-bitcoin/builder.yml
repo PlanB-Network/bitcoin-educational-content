@@ -1,0 +1,20 @@
+name: Breizh Bitcoin
+category: education
+
+links:
+  website: https://www.breizhbitcoin.com/
+  twitter: https://twitter.com/BreizhBitcoin
+
+tags:
+  - adoption
+  - user-friendly
+  - use-case
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-01-21
+    urgency: 1
+    contributors_id:
+      - hunt-wood
+    reward: 0

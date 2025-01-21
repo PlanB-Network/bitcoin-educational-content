@@ -921,7 +921,7 @@ A typical Enterprise scenario might involve a major e-commerce marketplace that 
 To ensure a smooth and secure deployment at the Enterprise level, most organizations engage specialized service providers or in-house development teams with experience in Bitcoin and Lightning Network integrations. The process typically begins with an in-depth needs assessment (covering technical infrastructure, compliance requirements, and the desired customer journey) followed by designing an architecture that can handle high-volume throughput. Depending on the project scope, you may rely on a multi-disciplinary team composed of financial controllers, security analysts, and software engineers. Alternatively, a growing number of specialized consulting firms can guide you from initial conceptualization to final roll-out, assisting with tasks such as evaluating SaaS-hosted solutions, configuring *Lightning Service Providers*, and customizing front-end interfaces. By partnering with domain experts, enterprises can mitigate the risks associated with large-scale payment implementation and achieve a solution that is not only robust and compliant but also flexible enough to accommodate future growth.
 
 
-## Evolutions
+## Bitcoin payment solutions: Options and Trends
 <chapterId>59ff43a1-98e2-4a81-af3e-9654bdd60952</chapterId>
 
 ### Solutions
@@ -960,7 +960,10 @@ New infrastructures succeed because they are more efficient, and early adopters 
 
 - **Enhanced Node and Channel Management:** Both individual and professional solutions have advanced. For example, BTC Pay Server now supports numerous plugins for connecting with other providers (PSPs, on/off ramps, etc.). New infrastructure providers, such as LightSpark and Alby Hub, are also entering production.
 
-- **Merchant Adoption Growth:** Merchants like BitRefill are reporting an increase in Bitcoin payments among their active users, with a clear shift toward Bitcoin over Lightning (see below graph). Additionally, Lightning's ultra-low fees make it the preferred choice for small payments (average of €32 per transaction).
+- **Merchant Adoption Growth:** Merchants like BitRefill are reporting an increase in Bitcoin payments among their active users, with a clear shift toward Bitcoin over Lightning. Additionally, Lightning's ultra-low fees make it the preferred choice for small payments (average of €32 per transaction).
+
+![BIZ101-profiles](assets/en/30.webp)
+*[Source: BTC Map](https://btcmap.org/)*
 
 - **Network Metrics:** The total number of channels and Bitcoin locked on Lightning remains stable, with approximately 20,000 nodes, 5,200 BTC, and 60,000 channels. However, this reflects only part of the network and indicates a rotation among participants, with fewer individuals and more professionals taking part.
 

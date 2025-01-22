@@ -8,10 +8,10 @@ tags:
   - finance
 
 # Proofreading metadata
-original_language: fr
+original_language: en
 proofreading:
-  - language: fr
-    last_contribution_date: 2025-01-20
+  - language: en
+    last_contribution_date: 2025-01-22
     urgency: 1
     contributors_id:
       - LoicPandul

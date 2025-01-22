@@ -658,6 +658,9 @@ Beyond fees and execution speed—which matter less if you’re thinking long te
 # Tailored Bitcoin payment solutions for every business
 <partId>b2c8af88-6bfc-49b1-ad84-4c292c713b55</partId>
 
+## Taking bitcoin as payment for goods or services
+<chapterId>99af1203-bc84-4acc-9780-f733e7998335</chapterId>
+
 First, it’s important to understand that Bitcoin is a disruption on the same scale as the internet.
 
 In the early days, the internet network made it possible to remove intermediaries from communication channels, and then this infrastructure led to countless previously unimaginable applications. Today, what business doesn’t have an online presence?
@@ -696,6 +699,7 @@ Don’t forget to consider the various roles of your employees and their locatio
 
 To simplify the decision-making process, we have defined four distinct business profiles. The following tables break down the key characteristics and recommended payment solutions for each profile.
 
+### The business profiles
 #### Profile 1 – The Starter
 
 | Attribute                        | The Starter                                                                                                                                |
@@ -773,7 +777,7 @@ To simplify the decision-making process, we have defined four distinct business 
 
 In the following chapters, we will detail each business profile and the solutions tailored to each of them.
 
-## Business profile - The Starter
+## The Starter
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
 The Starter profile is designed for businesses, creators, and individuals who wish to explore Bitcoin payments without committing substantial resources or expertise. These are typically those who handle a very small volume of transactions (perhaps a few tips, donations, or occasional sales) and seek a simple, lightweight introduction to the Bitcoin and Lightning Network ecosystem. The key value of the Starter approach lies in its minimal setup: in most cases, all that is required is a smartphone or tablet equipped with a basic Lightning-compatible wallet.
@@ -820,7 +824,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 
-## Business profile - The Essential
+## The Essential
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
 
 The Essential profile is suitable for small and medium-sized businesses, potentially with employees, that want to accept bitcoin easily and quickly without needing advanced technical knowledge, while still having a more complete and professional system than a simple wallet. This category most often applies to restaurants, cafés, bars, or small retail shops that see only a handful of Bitcoin payments each month, yet desire an interface that is both straightforward and robust enough to handle day-to-day operations without interruption.
@@ -865,7 +869,7 @@ https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b
 Finally, as a complement for physical points of sale, you could consider setting up [a Bitcoinize PoS](https://bitcoinize.com/).
 
 
-## Business profile - The Professional
+## The Professional
 <chapterId>4d5dfa50-c4d0-481c-ab95-1863a898750e</chapterId>
 
 The Professional profile is aimed at businesses that have moved beyond occasional or low-volume Bitcoin payments and now seek a robust infrastructure to handle multiple daily transactions. These companies often operate across several channels (perhaps a retail location, a dedicated e-commerce website, and even mobile sales) and therefore require payment solutions that can be integrated seamlessly into their existing workflows. In many cases, enterprises at this level already manage point-of-sale systems, online order management platforms, and back-office operations that demand a reliable, scalable approach.
@@ -901,7 +905,7 @@ To delve deeper into implementation specifics and to explore hands-on configurat
 https://planb.network/courses/btc305
 
 
-## Business profile - The Enterprise
+## The Enterprise
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
 
 The Enterprise profile stands at the apex of Bitcoin payment implementations, tailored specifically for sizable corporations, major marketplaces, and established businesses that demand fully customized solutions. Unlike smaller-scale or mid-level deployments, Enterprise-level operations integrate Bitcoin payments into a broad tapestry of workflows and systems, ranging from on-site point-of-sale devices to e-commerce storefronts, back-office accounting platforms, and sophisticated ERP frameworks.
@@ -923,8 +927,6 @@ To ensure a smooth and secure deployment at the Enterprise level, most organizat
 
 ## Bitcoin payment solutions: Options and Trends
 <chapterId>59ff43a1-98e2-4a81-af3e-9654bdd60952</chapterId>
-
-### Solutions
 
 There are always trade-offs for each category of solution. For example, in the initial "trial phase," the suggested wallets are designed to be as simple as possible in terms of user interface, but they are hosted (**custodial**). This means that the funds are controlled by the app provider. However, the ethos of Bitcoin encourages moving toward full ownership of funds by the user (**self-custodial**). In this case, it is recommended to upgrade to the next category as soon as the first sales are made—essentially, once it’s confirmed that you have customers willing to pay in Bitcoin.
 

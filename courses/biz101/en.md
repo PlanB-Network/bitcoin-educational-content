@@ -978,13 +978,15 @@ Bitcoin and the Lightning Network are completing the **digital wallet revolution
 The merchants of tomorrow will embrace this innovation, offering customers a safer, more seamless (one-click) experience that also respects their privacy.
 
 
-## Bitcoin Accounting
-<chapterId>84063061-ffdb-4b1f-b20b-588ffb146877</chapterId>
+# Bitcoin Accounting
+<partId>d49d7595-a189-4e2b-bd60-c19e8e717aa2</partId>
 
+## Essential Principles for Accounting Bitcoin in Business
+<chapterId>84063061-ffdb-4b1f-b20b-588ffb146877</chapterId>
 
 The following content is for educational purposes only and should not be considered as financial or accounting advice. Businesses and individuals are strongly encouraged to consult a qualified accountant or legal expert familiar with cryptocurrency regulations in their specific jurisdiction before taking any action.
 
-### Key Concepts
+### Bitcoin Accounting Key Concepts
 
 **Any Bitcoin transaction must be recorded and may lead to a taxable event**
 
@@ -1075,7 +1077,6 @@ The rapid pace of cryptocurrency innovation often outpaces regulatory frameworks
 
 Despite these challenges, many countries’ proactive stances provide a solid foundation for businesses to incorporate Bitcoin into their operations. Continued updates and international harmonization will be essential to address emerging complexities in cryptocurrency accounting.
 
-
 ### Classification of Bitcoin in Financial Statements
 
 Bitcoin’s classification in financial statements varies by jurisdiction and depends on its intended use within a business. Broadly, Bitcoin is treated as a digital asset, akin to inventory, investment, or currency, but with unique characteristics that influence its accounting treatment.
@@ -1087,7 +1088,6 @@ Bitcoin’s classification in financial statements varies by jurisdiction and de
 **Implications of Classification :**
 - Long-term holdings often require impairment testing and amortization.
 - Active trading or payment-related activities require constant tracking of realized and unrealized gains and losses.
-
 
 ### Methods of Valuation
 
@@ -1115,18 +1115,25 @@ Businesses must ensure that whichever **Payment** tools they are using provide t
 - **Mismanagement Risks** : Improper classification or failure to monitor Bitcoin transactions can lead to compliance issues, penalties, or reputational damage.
 - **Requalification Risks**: Maintaining a significant portion of a company's treasury in Bitcoin exposes the business to potential losses from price declines. This can have serious consequences, particularly if such drops occur when payments to suppliers, employees, or taxes are due. Additionally, the company owner may be held liable, which could result in fines or other legal issues, such as accusations of misuse of company assets.
 
-### Accounting Tools and Software
 
-Specialized software solutions, such as **CoinTracker**, **Waltio**, **Cryptio**, **Koinly**, **TokenTax**, and **ZenLedger**, provide businesses with tools to streamline the integration of Bitcoin and other cryptocurrency transactions into existing accounting systems. These tools typically focus on specific aspects of the accounting process, including:
+## Accounting Tools and Software
+<chapterId>e7b31be5-1176-4835-944e-3cba1b7040fa</chapterId>
 
-1. **Data Collection**: Aggregating transaction data from wallets, exchanges, and platforms to ensure accurate tracking.
-2. **Format Bridging**: Converting data into formats compatible with popular accounting software like QuickBooks, Xero, or ERP systems.
-3. **Tax Compliance**: Calculating cost basis, gains, and losses to assist with regulatory reporting requirements.
-4. **Transaction Categorization**: Classifying transactions (e.g., purchases, sales, payments) for streamlined reconciliation and auditing.
+When a company decides to integrate Bitcoin into its accounting, various tools and specialized software simplify the collection and processing of data. Among the most well-known solutions are [CoinTracker](https://www.cointracker.io/), [Waltio](https://www.waltio.com/), [Cryptio](https://cryptio.co/), [Koinly](https://koinly.io/), [TokenTax](https://tokentax.co/), and [ZenLedger](https://zenledger.io/). These platforms focus primarily on four aspects:
+- automatic data collection;
+- conversion of this data into formats compatible with more general accounting software (QuickBooks, Xero, ERP);
+- calculation of tax obligations;
+- transaction categorization.
 
-While these tools address the unique challenges of cryptocurrency accounting, they often serve as complementary solutions, handling cryptocurrency-specific processes while relying on broader accounting systems for comprehensive financial management.
+They are often a wise complement for large organizations with multiple wallets and assets across various platforms or exchanges.
 
-However, **for a small business owner or shop**, all that’s often needed is a good **.csv export** from their payment solution containing all the necessary fields, such as transaction amounts, timestamps, and recipient details. This simple approach is widely used and proven effective, ensuring their accountant can manage their Bitcoin transactions without difficulty, as many others have done successfully.
+However, a simple `.csv` file containing the transaction history is often sufficient for most small businesses. The goal is to document, for each payment, the date, amount, equivalent value in euros/dollars, and the relevant Bitcoin addresses. The vast majority of Bitcoin payment solutions (BTC Pay Server, Swiss Bitcoin Pay, etc.) or exchange platforms (Bitfinex, Kraken, Coinbase, etc.) already offer a mechanism to export transaction histories. By providing this file to an accountant, it becomes possible to streamline data entry and clearly distinguish incoming and outgoing flows related to Bitcoin.
+
+For those who self-custody their Bitcoin, managing UTXOs (*Unspent Transaction Outputs*) is an important step. Proper UTXO labelling helps trace the origin of each BTC fragment, differentiate transactions related to professional activity from those for personal expenses, and facilitate traceability for legal or tax purposes. Most good Bitcoin wallet software allows you to import your wallet using your backup file (or your xpub, depending on your setup) and tag UTXOs based on their origin or destination. To assist you, here is a complete tutorial dedicated to this practice:
+
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
+Finally, whether you are a small merchant or a more established business, it is possible to **settle an invoice in Bitcoin**. The key is to properly document the transaction. If you pay from a self-custody wallet, it is ideal to generate a transaction noting the invoice number and purpose of the payment in your labels. If you prefer to settle the invoice via an exchange, you will also have the option to export a receipt or transaction history to include in your accounting records. This transparency will simplify the tracking and reporting of all your BTC operations.
 
 ## Practical Bitcoin accounting examples
 <chapterId>763f6f20-9181-495a-bf7d-b405899e65ec</chapterId>

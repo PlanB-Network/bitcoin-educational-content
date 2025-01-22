@@ -1,0 +1,9 @@
+question: Which of the following software is not a Bitcoin accounting solutions?
+answer: Sparrow
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow is not a Bitcoin accounting solutions, while the others are (it's a Bitcoin Wallet software).
+reviewed: false

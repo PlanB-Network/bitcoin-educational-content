@@ -658,7 +658,7 @@ Beyond fees and execution speed—which matter less if you’re thinking long te
 # Tailored Bitcoin payment solutions for every business
 <partId>b2c8af88-6bfc-49b1-ad84-4c292c713b55</partId>
 
-## Taking bitcoin as payment for goods or services
+## Taking bitcoin as payment
 <chapterId>99af1203-bc84-4acc-9780-f733e7998335</chapterId>
 
 First, it’s important to understand that Bitcoin is a disruption on the same scale as the internet.
@@ -1282,23 +1282,23 @@ Ready to go further? To continue your journey, you might consider exploring addi
 
 We also invite you to explore other courses available on Plan ₿ Network such as:
 
-#### *The Bitcoin Journey*
+The Bitcoin Journey:
 
 https://planb.network/courses/btc101
 
-#### *Getting your first Bitcoins*
+Getting your first Bitcoins:
 
 https://planb.network/courses/btc102
 
-#### *Discover the economic thought of the Austrian School with*
+Discover the economic thought of the Austrian School with:
 
 https://planb.network/courses/eco201
 
-#### *Discover the history of Bitcoin's origins with*
+Discover the history of Bitcoin's origins with:
 
 https://planb.network/courses/his201
 
-#### *Discover the evolution of freedom through the ages with*
+Discover the evolution of freedom through the ages with:
 
 https://planb.network/courses/phi201
 

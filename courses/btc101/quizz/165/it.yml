@@ -1,5 +1,4 @@
 question: Come mantiene il protocollo Bitcoin un tempo medio costante tra la creazione di due blocchi?
-  rimane costante?
 answer: La difficoltà nel trovare un hash valido si aggiusta ogni 2016 blocchi.
 wrong_answers:
   - Il numero di minatori è regolato a un numero fisso.

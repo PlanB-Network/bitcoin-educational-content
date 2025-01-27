@@ -1,5 +1,4 @@
 question: Wie erhält das Bitcoin-Protokoll eine konstante durchschnittliche Zeit zwischen der Erstellung von zwei Blöcken?
-  bleibt konstant?
 answer: Die Schwierigkeit, einen gültigen Hash zu finden, passt sich alle 2016 Blöcke an.
 wrong_answers:
   - Die Anzahl der Miner wird auf eine feste Zahl reguliert.

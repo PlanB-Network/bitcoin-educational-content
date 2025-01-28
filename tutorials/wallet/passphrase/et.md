@@ -1,5 +1,5 @@
 ---
-name: BIP39 Paroolilause
+name: Passphrase BIP39
 description: Mõistmaks, kuidas paroolilause töötab
 ---
 ![cover](assets/cover.webp)

@@ -1,0 +1,5 @@
+---
+term: EREBUS (ATTACCO)
+
+---
+Una forma di attacco altamente sofisticata contro la rete Bitcoin che consente a un provider di servizi Internet malintenzionato di isolare specifici nodi Bitcoin. Si tratta quindi di una forma di attacco Erebus. L'attacco Erebus sfrutta la struttura della rete Internet, in particolare i punti di passaggio obbligati (o "colli di bottiglia") nel routing tra sistemi autonomi (AS). Un attaccante, controllando un sistema autonomo, può manipolare il traffico di rete per isolare un nodo Bitcoin dal resto della rete, facendogli credere in un falso stato della blockchain (blocchi o transazioni non conosciuti dal nodo). Questo isolamento può portare a una doppia spesa o alla censura nei confronti del nodo isolato. Questo attacco è stato reso molto più difficile dal rilascio della versione 0.20.0 di Bitcoin Core e dall'introduzione di Asmap.

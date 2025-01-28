@@ -29,7 +29,7 @@ Enjoy your discovery!
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
-![Understanding the Lightning Network](https://youtu.be/PszWk046x-I)
+![video en](https://youtu.be/QDQ8NG0l3hk)
 
 Welcome to the LNP201 course, which aims to explain the technical functioning of the Lightning Network.
 
@@ -86,7 +86,7 @@ This is the end of this first chapter, where we have laid the groundwork for the
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
-![bitcoin, addresses, utxo, and transactions](https://youtu.be/cadCJ2V7zTg)
+![video en](https://youtu.be/U9l5IVriCss)
 
 This chapter is a bit special since it will not be directly dedicated to Lightning, but to Bitcoin. Indeed, the Lightning Network is a layer on top of Bitcoin. It is therefore essential to understand certain fundamental concepts of Bitcoin to properly grasp the functioning of Lightning in the subsequent chapters. In this chapter, we will review the basics of Bitcoin receiving addresses, UTXOs, as well as the functioning of Bitcoin transactions.
 
@@ -152,7 +152,7 @@ This chapter on Bitcoin has allowed us to review some essential notions for what
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
-![open a channel](https://youtu.be/B2caBC0Rxko)
+![video en](https://youtu.be/Ty80WuN5X-g)
 
 In this chapter, we will see more precisely how to open a payment channel on the Lightning Network and understand the link between this operation and the underlying Bitcoin system.
 
@@ -216,7 +216,7 @@ In the next chapter, we will explore the technical workings of a Lightning trans
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
-![Lightning transaction & commitment transaction](https://youtu.be/aPqI34tpypM)
+![video en](https://youtu.be/dzPMGiR_JSE)
 
 In this chapter, we will discover the technical functioning of a transaction within a channel on the Lightning Network, that is, when funds are moved from one side of the channel to the other.
 
@@ -273,7 +273,7 @@ However, this system has a potential flaw, which we will address in the next cha
 ## Revocation Key
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
-![transactions part 2](https://youtu.be/RRvoVTLRJ84)
+![video en](https://youtu.be/veCs39uVFUk)
 In this chapter, we will delve deeper into how transactions work on the Lightning Network by discussing the mechanisms in place to protect against cheating, ensuring that each party adheres to the rules within a channel.
 
 ### Reminder: Commitment Transactions
@@ -352,7 +352,7 @@ At this point in the training, you now know how Lightning channels are opened an
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
-![close a channel](https://youtu.be/FVmQvNpVW8Y)
+![video en](https://youtu.be/zmAa2fj_V7w)
 
 In this chapter, we will discuss **closing a channel** on the Lightning Network, which is done through a Bitcoin transaction, just like opening a channel. After seeing how transactions within a channel work, it is now time to see how to close a channel and recover the funds on the Bitcoin blockchain.
 
@@ -440,7 +440,7 @@ In the upcoming chapters, we will explore the Lightning Network from a broader p
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 
-![lightning network](https://youtu.be/RAZAa3v41DM)
+![video en](https://youtu.be/44oBdNdXtEQ)
 
 In this chapter, we will explore how payments on the Lightning Network can reach a recipient even if they are not directly connected by a payment channel. Lightning is, indeed, a **network of payment channels**, which allows funds to be sent to a distant node through the channels of other participants. We will discover how payments are routed across the network, how liquidity moves between channels, and how transaction fees are calculated.
 
@@ -557,7 +557,7 @@ In this chapter, we explored payment routing on the Lightning Network. But a que
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
-![HTLC](https://youtu.be/-JC4mkq7H48)
+![video en](https://youtu.be/jI4nM297aHA)
 
 In this chapter, we will discover how Lightning allows payments to transit through intermediary nodes without needing to trust them, thanks to **HTLC** (_Hashed Time-Locked Contracts_). These smart contracts ensure that each intermediary node will only receive the funds from its channel if it forwards the payment to the final recipient, otherwise, the payment will not be validated.
 
@@ -677,7 +677,7 @@ In the next chapter, we will discover how a node issuing a Lightning transaction
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
-![finding your way](https://youtu.be/wnUGJjOxd9Q)
+![video en](https://youtu.be/CqetCElRjUQ)
 
 In the previous chapters, we saw how to use other nodes' channels to route payments and reach a node without being directly connected to it via a channel. We also discussed how to ensure the security of the transfer without trusting the intermediary nodes. In this chapter, we will focus on finding the best possible route to reach a target node.
 
@@ -765,7 +765,7 @@ In the following chapter, we will specifically study the functioning of invoices
 ## Invoice, LNURL, and Keysend
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
-![invoice, LNURL, Keysend](https://youtu.be/CHnXJuZTarU)
+![video en](https://youtu.be/XANzf1Qqp9I)
 
 In this chapter, we will take a closer look at the operation of Lightning **invoices**, that is, payment requests sent by the recipient node to the sender node. The goal is to understand how to pay and receive payments on Lightning. We will also discuss 2 alternatives to classic invoices: LNURL and Keysend.
 
@@ -878,7 +878,7 @@ In the following chapter, we will see how a node operator can manage liquidity i
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
-![managing your liquidity](https://youtu.be/YuPrbhEJXbg)
+![video en](https://youtu.be/MIbej28La7Y)
 
 In this chapter, we will explore strategies for effectively managing liquidity on the Lightning Network. Liquidity management varies depending on the type of user and context. We will look at the main principles and existing techniques to better understand how to optimize this management.
 
@@ -950,7 +950,7 @@ In the next chapter, I propose to review the most important concepts of this tra
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
-![conclusion](https://youtu.be/MaWpD0rbkVo)
+![video en](https://youtu.be/coaskEGRjiU)
 
 In this final chapter marking the end of the LNP201 training, I propose to revisit the important concepts we have covered together.
 
@@ -1005,7 +1005,7 @@ We have seen that liquidity management is a challenge on Lightning to ensure the
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## Evaluate this course
+## Reviews & Ratings
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1018,40 +1018,4 @@ We have seen that liquidity management is a challenge on Lightning to ensure the
 ## Conclusion
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-Congratulations! 🎉
-
-You have completed the LNP 201 training - Introduction to Lightning Network!
-
-You can be proud of yourself, as this is not an easy subject.
-
-Few people venture this deep into the Bitcoin rabbit hole.
-
-A big thank you to **Fanis Michalakis** for providing this great free course on the technical workings of the Lightning Network.
-
-Feel free to follow him on [Twitter](https://x.com/FanisMichalakis), on [his blog](https://fanismichalakis.fr/) or through his work at [LN Markets](https://lnmarkets.com/).
-
-Now that you master the Lightning Network, I invite you to explore our other free courses on Plan ₿ Network to deepen your understanding of other aspects of Satoshi Nakamoto's invention:
-
-#### Understand how a Bitcoin wallet works with
-
-https://planb.network/courses/cyp201
-
-#### Discover the history of Bitcoin's origins with
-
-https://planb.network/courses/his201
-
-#### Configure a BTC payment server with
-
-https://planb.network/courses/btc305
-
-#### Master the principles of privacy in Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Discover the basics of mining with
-
-https://planb.network/courses/min201
-
-#### Learn to create your Bitcoin community with
-
-https://planb.network/courses/btc302
+<isCourseConclusion>true</isCourseConclusion>

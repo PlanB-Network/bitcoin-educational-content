@@ -1,0 +1,9 @@
+---
+term: STANDAR TRANSAKSI
+
+---
+Transaksi Bitcoin yang, selain mengikuti aturan konsensus, juga termasuk dalam aturan standarisasi yang ditetapkan secara default pada node Bitcoin Core. Aturan standardisasi ini diberlakukan secara individual oleh setiap node Bitcoin, sebagai tambahan dari aturan konsensus, untuk mendefinisikan struktur transaksi yang belum dikonfirmasi yang diterimanya dalam mempool dan disiarkan ke rekan-rekannya.
+
+Aturan-aturan ini dikonfigurasikan dan dieksekusi secara lokal oleh setiap node dan dapat bervariasi dari satu node ke node lainnya. Aturan-aturan ini berlaku secara eksklusif untuk transaksi yang belum dikonfirmasi. Oleh karena itu, sebuah node hanya akan menerima transaksi yang dianggap tidak standar jika transaksi tersebut sudah termasuk dalam blok yang valid.
+
+Tercatat bahwa mayoritas node meninggalkan konfigurasi default seperti yang ditetapkan di Bitcoin Core, sehingga menciptakan keseragaman aturan standardisasi di seluruh jaringan. Sebuah transaksi yang, meskipun sesuai dengan aturan konsensus, tidak menghormati aturan standarisasi ini, akan mengalami kesulitan untuk menyebar melalui jaringan. Akan tetapi, transaksi tersebut masih dapat dimasukkan ke dalam blok yang valid jika mencapai penambang. Pada praktiknya, transaksi-transaksi yang dikualifikasikan sebagai non-standar ini sering kali dikirim langsung ke penambang melalui sarana eksternal ke jaringan peer-to-peer Bitcoin. Ini sering kali menjadi satu-satunya cara untuk mengonfirmasi transaksi tersebut. Sebagai contoh, sebuah transaksi yang tidak mengalokasikan biaya adalah sah menurut aturan konsensus dan tidak standar, karena kebijakan default Bitcoin Core untuk parameter `minRelayTxFee` adalah `0.00001` (dalam BTC/kB).

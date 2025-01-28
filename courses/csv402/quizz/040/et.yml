@@ -1,0 +1,9 @@
+question: Mis on RGB integreerimise peamine eesmärk Lightning Networki?
+answer: RGB varade ülekandmine ahelavälise kanali kaudu
+wrong_answers:
+  - RGB lepingute täitmine otse Bitcoini plokiahelas
+  - Tavapäraste Lightning-tehingute asendamine RGB nutikate lepingutega
+  - Kanali läbilaskevõime suurendamine uute UTXOde lisamisega
+explanation: |
+  Lightning-võrku integreeritud RGB võimaldab RGB varasid liigutada kohustustehingutesse põimitud oleku üleminekute kaudu, jäädes samal ajal ahelaväliseks.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Como é que a Lightning Network evoluiu para melhorar a experiência do utilizador desde a sua criação?
+answer: Introduziu funcionalidades como o splicing, facturas Bolt12 estáticas e uma melhor gestão da liquidez, tornando as transacções mais fáceis e mais fiáveis.
+wrong_answers:
+  - Eliminou todos os elementos de segurança para acelerar as transacções.
+  - Atualmente, é necessária a aprovação do governo para cada pagamento.
+  - Deixou de trabalhar em novas funcionalidades, baseando-se apenas na conceção original.
+explanation: |
+  Ao longo do tempo, a Lightning Network tem sido alvo de melhorias técnicas que reduzem o atrito para os utilizadores. Novas funcionalidades e melhores ferramentas de gestão de nós contribuíram para uma experiência mais simples e fácil de utilizar.
+reviewed: false

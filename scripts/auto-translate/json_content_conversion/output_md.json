@@ -1,0 +1,388 @@
+[
+  {
+    "type": "header_separator",
+    "content": "---",
+    "translate": false
+  },
+  {
+    "type": "yml_property",
+    "key": "name",
+    "content": "Bisq",
+    "prefix": "name:",
+    "indent": 0,
+    "translate": true
+  },
+  {
+    "type": "yml_property",
+    "key": "description",
+    "content": "How to use Bisq, a peer to peer exchange",
+    "prefix": "description:",
+    "indent": 0,
+    "translate": true
+  },
+  {
+    "type": "header_separator",
+    "content": "---",
+    "translate": false
+  },
+  {
+    "type": "embed_links",
+    "content": "![cover](assets/cover.webp)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "Bisq is a decentralized trading platform for digital assets, primarily Bitcoin. It provides direct, secure, and private transactions between users worldwide without the need for an intermediary.",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "Website: https://bisq.network/",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "info: https://bisq.network/getting-started/",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "_Be careful not to do anything haphazardly, Bisq is an advanced solution. Once set up, it is very powerful, but if you are a complete beginner, it may not be suitable for you._",
+    "translate": true
+  },
+  {
+    "type": "markdown_header",
+    "content": "tutorial video",
+    "prefix": "##",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "Full tutoriel by BTC Session:",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![ BISQ - Buy + Sell Bitcoin NO KYC, NO ID! ](https://youtu.be/4LyEKA5Iq9I)",
+    "translate": false
+  },
+  {
+    "type": "markdown_header",
+    "content": "Writting guide:",
+    "prefix": "##",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "Original guide from the bisq team: https://bisq.network/getting-started/",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "_If you konw of a more uptodate guide with image and more beginners oriente, fee free to share it with us!_",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "1. Download and Install Bisq",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![Download, Verify, and Install Bisq: Linux and macOS](https://youtu.be/dTfM4AsxNHY)",
+    "translate": false
+  },
+  {
+    "type": "embed_links",
+    "content": "![Download, Verify, and Install Bisq: Windows](https://youtu.be/XABzwXw6X0A)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "You can download and install Bisq easily from this website (https://bisq.network/downloads) or from GitHub (https://github.com/bisq-network/bisq/releases/latest).",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "It's also a good idea to verify your installer file to be extra sure it hasn't been meddled with. See the videos here for directions. More details are in this wiki article. (https://bisq.wiki/Downloading_and_installing)",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "If you'd like to build Bisq from source, here are directions (https://github.com/bisq-network/bisq/blob/master/docs/build.md). Bisq is free/libre open-source software that you can contribute to. (https://bisq.wiki/Contributor_checklist)",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![image](assets/1.webp)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "2. Back Up Keys, Write Down Seed",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![3 Things You Should Do Right After Installing Bisq](https://youtu.be/JSwMcQAT_CA)",
+    "translate": false
+  },
+  {
+    "type": "embed_links",
+    "content": "![Tour of Bisq](https://youtu.be/HDkzUl9wibc)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "With Bisq, you're in total control of your funds and your data. This means you retain unparalleled sovereignty, but it also means no one can help you if you lose something important—so it's critical that you do proper backups before using Bisq to trade.",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "We've also prepared a short tour of the Bisq interface so you can make the most of it.",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "More details are on the wiki: writing down your seed words and backing up",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "your data directory. (https://bisq.wiki/Backing_up_application_data)",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![image](assets/2.webp)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "3. Create a Payment Account",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![Make a Fiat Payment Account on Bisq](https://youtu.be/nDgT_kFC-9Y)",
+    "translate": false
+  },
+  {
+    "type": "embed_links",
+    "content": "![Create an Altcoin Payment Account on Bisq](https://youtu.be/33UTotkxw_0)",
+    "translate": false
+  },
+  {
+    "type": "embed_links",
+    "content": "![All About Account Limits on Bisq (Fiat Only)](https://youtu.be/TP5Zh6IJPVo)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "In order to trade bitcoin on Bisq, you've got to set up some way to send or receive other funds. Bisq only handles the bitcoin side of a trade—the other side is handled through fiat payment services (banks, money orders, cash) or altcoin wallets.",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "Not sure which kind of payment account to set up? There's a full list of payment methods on the wiki (https://bisq.wiki/Payment_methods). If you'll be trading fiat, please make sure you see the account limits video or read this article on the wiki.(https://bisq.wiki/Account_limits)",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "There are many altcoins available for trading on Bisq. Here are some tips for top markets:",
+    "translate": true
+  },
+  {
+    "type": "list",
+    "content": "Monero. If sending XMR, make sure your wallet is capable of providing the transaction key, transaction ID, and recipient's address.",
+    "prefix": "-",
+    "indent": 0,
+    "translate": true
+  },
+  {
+    "type": "list",
+    "content": "BSQ. You can find your BSQ address in DAO > BSQ Wallet > Receive.",
+    "prefix": "-",
+    "indent": 0,
+    "translate": true
+  },
+  {
+    "type": "list",
+    "content": "Liquid BTC. If receiving L-BTC, you must use a wallet that can reveal your blinding key, like the core Elements software (Blockstream Green won't work, as of this writing).",
+    "prefix": "-",
+    "indent": 0,
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "4. Do a Trade",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![Making an Offer on Bisq](https://youtu.be/w7Uvv-xrxn8)",
+    "translate": false
+  },
+  {
+    "type": "embed_links",
+    "content": "![Taking an Offer & Completing a Trade on Bisq](https://youtu.be/E6AOgXajK_E)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "Making an offer will usually get you a better price and more control (e.g., setting payment method and deposit percentage), but taking an offer can be more convenient.",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "See trading fees here(https://bisq.wiki/Trading_fees).",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "You'll notice offer makers pay a lot less. Note that there's a mobile app for iOS and Android you can use to get notifications for new offers and action items on open trades. To see both sides of a Bisq trade at the same time, side-by-side, be sure to check out our Bird's Eye View of a Bisq Trade video.",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "That's it—the bare essentials of getting started with Bisq.",
+    "translate": true
+  },
+  {
+    "type": "markdown_header",
+    "content": "Step by step guide ofr trade",
+    "prefix": "##",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "Step by Step guide by Bitcoiner.guide, aka bitcoinQ&A https://bitcoiner.guide/bisq/",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "3. Now that your payment method is setup you can go to the ‘Buy BTC’ tab and see the sellers offering bitcoin in exchange for your chosen payment method. Here you can see the BTC price, percentage difference compared to the ‘spot’ price and the quantity of bitcoin for sale from each seller. Once you have found an offer you like, click ‘Take offer to buy BTC’.",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![image](assets/3.webp)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "4. This will take you through to a screen this screen for you to check and confirm details before entering the trade. When you are happy, hit ‘next step’.",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![image](assets/4.webp)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "5. You now need to fund your trade wallet with a small amount of bitcoin which acts as a security deposit. This is usually around 15% of the trade size. The seller also has to post a deposit on their side.",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![image](assets/5.webp)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "6. You can now confirm the offer and start the trade",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![image](assets/6.webp)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "7. You will now have a very short wait while the Bitcoin network confirms the trade’s transaction which puts both parties security deposits into the escrow multi-sig.",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![image](assets/7.webp)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "8. After one confirmation on chain you will then see a window with the sellers details for you to send payment to.",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![image](assets/8.webp)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "9. Once you have sent the payment, press the button to confirm you have done so and then wait for the seller to confirm they have received your funds. At this point you can also chat with your trading partner via end to end encrypted messaging buy pressing ‘Open trader chat’.",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "Once the seller confirms receipt of funds, the purchased bitcoin along with your security deposit will be released into your Bisq wallet.",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![image](assets/9.webp)",
+    "translate": false
+  },
+  {
+    "type": "paragraph",
+    "content": "10. Thats it, your first trade is now complete! You can now either withdraw your bitcoin to an external wallet or leave in your Bisq account.",
+    "translate": true
+  },
+  {
+    "type": "embed_links",
+    "content": "![image](assets/10.webp)",
+    "translate": false
+  },
+  {
+    "type": "markdown_header",
+    "content": "The tradeoffs with buying non-KYC (by bitcoin Q&A)",
+    "prefix": "##",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "As simple as buying on Bisq is, there are some tradeoffs to be aware of.",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "1. You need BTC before you trade to form a security deposit. Not a problem if you have been around for a while but could become an issue if you want to use Bisq as your first buy. Your best option in this instance is to get some bitcoin from a friend or family member.",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "2. KYC free bitcoin often attracts a premium above the spot price which can put some buyers off. As I discussed earlier, this is about tradeoffs and I would personally would be happy to pay 5-8% above spot price for the luxury of keeping my personal data safe.",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "If you are not in a rush to purchase then you can also set up a ‘Buy Offer’ where you can let the Bisq network know that you are willing to purchase an amount of bitcoin at a certain price relative to the market value. If a seller comes along and likes your offer they can take you up on it.",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "3. Decentralised exchanges can sometimes suffer from liquidity shortages when compared with larger centralised entities. If you are looking to buy larger amounts more frequently, you may struggle.",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "4. Although it has never happened to me, sometimes peer to peer trading doesn’t work out as intended and users will need to go through the dispute resolution process. Fortunately due to the way Bisq’s incentive structures are built, these instances are few and far between.",
+    "translate": true
+  },
+  {
+    "type": "paragraph",
+    "content": "As with most things Bitcoin related, the whole KYC/Non-KYC debate is nuanced and full of tradeoffs. I get it, the most common fiat onramps like Coinbase and CashApp make life very easy to buy, particularly for newbies, but please take a second to consider the tradeoffs and look into the alternatives before giving away your personal information so readily.",
+    "translate": true
+  }
+]

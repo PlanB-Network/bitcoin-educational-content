@@ -1,0 +1,9 @@
+question: 将 RGB 整合到闪电网络的主要目的是什么？
+answer: 通过链外通道传输 RGB 资产
+wrong_answers:
+  - 直接在比特币区块链上执行 RGB 合约
+  - 用 RGB 智能合约取代传统的闪电交易
+  - 增加新的UTXO，提高通道容量
+explanation: |
+  集成到闪电网络中的 RGB 允许通过嵌入在承诺交易中的状态转换移动 RGB 资产，同时保持链外状态。
+reviewed: false

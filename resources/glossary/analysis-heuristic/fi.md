@@ -1,0 +1,9 @@
+---
+term: ANALYYSIHEURISTIIKKA
+
+---
+Bitcoin-ketjun analyysiheuristiikka on empiiristen menetelmien perhe, jota käytetään jäljittämään bitcoinien virtausta lohkoketjussa transaktioissa havaittujen ominaisuuksien perusteella. Heuristiikka on käytännöllinen lähestymistapa ongelmanratkaisuun, usein likimääräisten menetelmien avulla, mutta se edustaa riittävän hyvää ratkaisua tietyn tavoitteen saavuttamiseksi. Nämä heuristiikat tuottavat melko luotettavia tuloksia, mutta eivät koskaan absoluuttisen tarkasti. Toisin sanoen ketjuanalyysiin liittyy aina jonkinasteinen todennäköisyys tehtyihin päätelmiin. Voidaan esimerkiksi arvioida enemmän tai vähemmän varmasti, että kaksi osoitetta kuuluu samaan kokonaisuuteen, mutta täysi varmuus on aina saavuttamattomissa. Koko ketjuanalyysin tavoite on juuri erilaisten heuristiikkojen yhdistäminen virheriskin minimoimiseksi. Se on tavallaan todisteiden kasautumista, jonka avulla pääsemme lähemmäs todellisuutta. Tässä yhteydessä erotetaan toisistaan sisäiset ja ulkoiset heuristiikat.
+
+Sisäisissä heuristiikoissa keskitytään yksittäisen liiketoimen erityispiirteisiin. Ne sisällyttävät analyyseihinsa sellaisia tekijöitä kuin UTXO-määrät, käytetyt skriptit, versiot tai lukitusajat. Esimerkiksi pyöreän maksun heuristiikan avulla voidaan tunnistaa tapahtuman tuloste todennäköisesti maksuksi, jos sen määrä on pyöreä luku. Näiden heuristiikkojen avulla on usein mahdollista tunnistaa vaihtorahat (samalle käyttäjälle palautetut rahat) ja siten jatkaa jäljitystä.
+
+Ulkoiset heuristiikat puolestaan analysoivat samankaltaisuuksia ja ominaisuuksia, jotka eivät liity itse tapahtumaan. Ne kattavat koko liiketoimintaympäristön. Esimerkiksi osoitteen uudelleenkäyttö useissa tapahtumissa on ulkoinen heuristiikka. Myös CIOH on sellainen.

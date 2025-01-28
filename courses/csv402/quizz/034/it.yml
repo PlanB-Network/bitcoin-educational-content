@@ -1,0 +1,9 @@
+question: Quale azione esegue Bob (ricevitore) una volta ricevuta la spedizione del terminale da Alice (pagatore)?
+answer: Controllare la validità della transizione di stato e firmare
+wrong_answers:
+  - Modificare lo schema del contratto e inviarlo ad Alice
+  - Creare una fattura per una nuova operazione
+  - Firmare il PSBT di Alice e distribuirlo sulla catena
+explanation: |
+  Bob esamina la spedizione, si assicura che la transizione sia conforme alle regole e firma per confermare il suo accordo.
+reviewed: false

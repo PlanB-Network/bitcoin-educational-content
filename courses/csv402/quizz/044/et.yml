@@ -1,0 +1,9 @@
+question: Kuidas tagatakse RGB ülemineku ohutus välkekanalis, kui edastatakse vananenud seisundit?
+answer: Välgukanali karistusmehhanismide kaudu
+wrong_answers:
+  - Tühistades automaatselt kõik varasemad tehingud
+  - RGB-protokolli karistusmehhanismide kaudu
+  - RGB varade emitendi sekkumise kaudu tema Genesis'iga seotud allkirja kaudu
+explanation: |
+  Lightning Networki klassikaline karistusmehhanism tagab, et vana seisundi levitamise eest saab karistada kõigi asjaomaste vahendite, sealhulgas RGB varade tagasinõudmisega.
+reviewed: false

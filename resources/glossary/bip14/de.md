@@ -1,0 +1,5 @@
+---
+term: BIP14
+
+---
+BIP, vorgeschlagen von Patrick Strateman und Amir Taaki im Jahr 2011, das darauf abzielt, zwischen Client-Versionsnummern und der Protokollversion zu unterscheiden. BIP14 legt fest, wie sich Bitcoin-Protokollimplementierungen im Netzwerk präsentieren sollten. Es schlägt die Verwendung eines User-Agent-Formats vor, um die Version und den Typ des verwendeten Bitcoin-Clients zu identifizieren. Das Hauptziel von BIP14 ist es, die Verwaltung von Änderungen und die Erkennung von Inkompatibilitäten zwischen den verschiedenen bestehenden Clients zu erleichtern. Während es früher logisch war, den Client von Satoshi de facto als das Bitcoin-Protokoll zu betrachten, hat die Verbreitung von Software zu dieser Zeit BIP14 dazu veranlasst, die Clients klar vom Protokoll selbst zu unterscheiden.

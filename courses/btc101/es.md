@@ -1328,7 +1328,7 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi Nakamoto creó
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-## Evaluación del curso
+## Reseñas & Valoraciones
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1341,25 +1341,4 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi Nakamoto creó
 ## Conclusión
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
-¡Felicitaciones por completar el entrenamiento BTC 101! Espero de todo corazón que te haya gustado y que te haya abierto nuevas puertas. Tu descubrimiento de Bitcoin apenas está comenzando y te invito a explorar todos los otros cursos disponibles en Plan ₿ Network:
-
-#### Obtén y asegura tus primeros bitcoins con
-
-https://planb.network/courses/btc102
-
-#### Descubre la Red Lightning con
-
-https://planb.network/courses/lnp201
-
-#### Conoce la Escuela Austríaca de pensamiento económico con
-
-https://planb.network/courses/eco201
-
-#### Actualiza tu seguridad en línea con
-
-https://planb.network/courses/scu101
-
-#### Comprende los fundamentos de Bitcoin y construye tu calefacción doméstica con
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

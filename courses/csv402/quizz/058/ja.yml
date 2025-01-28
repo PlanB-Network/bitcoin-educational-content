@@ -1,0 +1,9 @@
+question: RLNで "curl -X POST /issueassetnia "は何ができますか？
+answer: 新しい、インフレにならないRGB資産を作る
+wrong_answers:
+  - 腐敗しないRGBアセットを新規作成する
+  - 新しいインフレRGB資産を作る
+  - 新しいセミファンガブルRGBアセットを作成する
+explanation: |
+  issueassetnia」コマンドは、新しいRGB NIA（「Non Inflatable Asset」）トークンを発行するために使用されます。
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: BIP147
+
+---
+SegWit soft forkis sisalduv ettepanek, mille eesmärk on lahendada mudeldavuse vektor, mis on seotud operatsioonide `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY` poolt tarbitava dummy elemendiga. Ajaloolise off-by-one vea (unit shift error) tõttu eemaldavad need 2 opkoodi lisaks oma põhifunktsioonile täiendava elemendi virnast. Vea vältimiseks on seetõttu kohustuslik lisada `scriptSig` algusse dummy-väärtus, et rahuldada eemaldamine ja vältida viga. See väärtus ei ole vajalik, kuid see peab olema seal, et skript oleks kehtiv. BIP11, millega võeti kasutusele P2MS-standard, soovitas mittevajaliku väärtusena lisada `OP_0`. Kuid seda standardit ei jõustatud konsensusreeglite tasandil, mis tähendab, et sinna võis panna mis tahes väärtuse, ilma et tehing oleks kehtetu. Nii sisaldasid `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY` muutuvvektorit. BIP147 kehtestab uue konsensusreegli nimega `NULLDUMMY`, mis nõuab, et see dummy-element oleks tühi baidimassiiv (`OP_0`). Mis tahes muu väärtus toob kaasa skripti hindamise kohese ebaõnnestumise. See muudatus kehtib nii SEGWit-eelsete kui ka P2WSH-skriptide kohta ja nõuab soft forki.

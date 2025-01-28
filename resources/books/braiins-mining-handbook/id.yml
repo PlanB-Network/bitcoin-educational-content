@@ -1,0 +1,15 @@
+title: "Buku Panduan Penambangan Bitcoin"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  Buku pertama dari seri ini, Buku Panduan Menambang Bitcoin dimulai dengan dasar-dasarnya
+  pertambangan, menjelaskan insentif bukti kerja, beberapa tips praktis untuk
+  menambang sendiri, dan menjernihkan kesalahpahaman umum dengan menjelaskan bahwa
+  penambang TIDAK sedang memecahkan masalah matematika yang rumit. Kemudian menyelam sedikit lebih dalam,
+  menyinggung tentang kemunculan firmware khusus untuk penambang, pentingnya
+  Peningkatan protokol Stratum V2, dan sisi bisnis industri pertambangan.
+  Terakhir, buku ini ditutup dengan pilihan meme pertambangan terbaik di masa awal
+  2022.
+contributors:
+  - another-satoshi

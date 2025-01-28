@@ -140,16 +140,10 @@ Good luck with your studies.
 
 
 
-## Evaluate the course
+## Reviews & Ratings
 <chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Closing word
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
-
-Thank you for taking part in this course! We hope you liked it.
-
-If you want to keep learning from this seminar, we encourage you to take part in the RGB courses available on this platform.
-
-You can also check out our other courses and continue studying from our numerous resources.
-A big thanks to Fulgur Venture for offering this course and to our teachers for their participation.
+<isCourseConclusion>true</isCourseConclusion>

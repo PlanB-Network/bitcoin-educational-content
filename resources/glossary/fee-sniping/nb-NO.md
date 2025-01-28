@@ -1,0 +1,13 @@
+---
+term: AVGIFTSSNIPING
+
+---
+Et angrepsscenario der utvinnere forsøker å omskrive en nylig bekreftet blokk for å kreve transaksjonsgebyrene den inneholder, samtidig som de legger til transaksjoner med høye gebyrer som har kommet til i mellomtiden i mempoolen. Det endelige målet med dette angrepet for utvinnerne er å øke lønnsomheten. Avgiftssniping kan bli stadig mer lønnsomt etter hvert som blokkbelønningen synker og transaksjonsavgiftene utgjør en større del av utvinnernes inntekter. Det kan også være fordelaktig når avgiftene i den forrige blokken er betydelig høyere enn i den nest beste kandidatblokken. For å forenkle kan vi si at utvinneren står overfor dette valget når det gjelder insentiver:
+
+
+- Gruvedrift på vanlig måte etter den siste blokken, med stor sannsynlighet for å vinne en lav belønning;
+- Forsøk å utvinne en tidligere blokk (avgiftssniping), med lav sannsynlighet for å vinne en høy belønning.
+
+Dette angrepet utgjør en risiko for Bitcoin-systemet, ettersom jo flere utvinnere som tar det i bruk, desto flere andre utvinnere, som i utgangspunktet er ærlige, får insentiver til å gjøre det samme. For hver gang en ny utvinner slutter seg til dem som forsøker å sniping, øker sannsynligheten for at en av de angripende utvinnerne lykkes, og sannsynligheten for at en av de ærlige utvinnerne forlenger kjeden, synker til gjengjeld. Hvis dette angrepet utføres massivt og opprettholdes over tid, vil blokkbekreftelser ikke lenger være en pålitelig indikator på uforanderligheten til en Bitcoin-transaksjon. Dette kan potensielt gjøre systemet ubrukelig.
+
+For å motvirke denne risikoen fyller de fleste lommebokprogrammer automatisk ut feltet `nLocktime`, slik at valideringen av transaksjonen er betinget av at den inkluderes i neste blokkhøyde. Dermed blir det umulig å inkludere transaksjonen i en omskriving av den forrige blokken. Hvis den utbredte bruken av `nLocktime` blir tatt i bruk av Bitcoin-brukere, reduserer det i betydelig grad insentivene for gebyrsniping. Faktisk oppmuntrer det til progresjon av blokkjeden i stedet for omskriving av den ved å redusere den potensielle fortjenesten fra den. For Taproot-transaksjoner foreslår BIP326 å bruke `nSequence`-feltet på en lignende måte for å oppnå tilsvarende effekt som `nLocktime`-feltet for andre typer transaksjoner. Denne bruken vil slå to fluer i ett smekk ved også å forbedre personvernet til tolagsprotokoller som bruker det samme feltet.

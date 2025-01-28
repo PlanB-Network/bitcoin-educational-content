@@ -1,0 +1,9 @@
+question: Cosa contiene un invio in RGB?
+answer: I dati sul lato cliente necessari per convalidare una transizione
+wrong_answers:
+  - Una copia completa della blockchain di Bitcoin
+  - Un elenco degli impegni pubblici di Bitcoin
+  - Chiavi pubbliche dei partecipanti alla transizione di stato
+explanation: |
+  L'invio include le informazioni RGB che consentono al destinatario di convalidare la transizione di stato secondo le regole del contratto.
+reviewed: false

@@ -1,0 +1,9 @@
+---
+term: PREMIUM
+
+---
+Um montante adicional pago sobre o preço normal ou nominal de um ativo. No contexto da Bitcoin, pode observar-se um prémio quando se efectuam compras, especialmente nas plataformas de câmbio, que podem por vezes utilizar esta técnica para obter as suas margens sobre o serviço de corretagem.
+
+Esta noção de prémio também pode ser encontrada nas compras de BTC peer-to-peer. Com efeito, a compra de bitcoins sem KYC tem frequentemente um prémio em relação ao preço normal de mercado, que pode variar entre 1% e, por vezes, mais de 10%. Há várias razões que explicam esta diferença de preços. Em primeiro lugar, trata-se de uma prática comum entre os vendedores P2P que se foi estabelecendo ao longo do tempo. Em seguida, os vendedores têm taxas de transação associadas ao envio de fundos para o comprador. Existe também um risco acrescido de roubo nas vendas P2P em comparação com as transacções em plataformas regulamentadas, o que justifica uma compensação pelo risco assumido. Por último, a sobretaxa pode estar relacionada com a procura e a qualidade da troca em termos de confidencialidade. Enquanto comprador, o ganho de confidencialidade tem um preço que se reflecte na margem de lucro aplicada pelo vendedor. Alguns bitcoiners também acreditam que o preço mais elevado do BTC comprado em P2P reflecte o seu verdadeiro valor e argumentam que os preços mais baixos nas plataformas regulamentadas são o resultado de um compromisso sobre a confidencialidade dos seus dados pessoais.
+
+> ► *Geralmente, mesmo em francês, é utilizado o termo inglês "premium". A sua tradução poderia ser "majoração".*

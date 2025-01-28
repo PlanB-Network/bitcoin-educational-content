@@ -1,0 +1,9 @@
+question: Mikä on RGB-välityspalvelimen tehtävä RGB Lightning Node -ympäristössä?
+answer: RGB-lähetysten vaihdon helpottaminen
+wrong_answers:
+  - Tarjoa solmujen julkiset avaimet kanavien avaamista varten
+  - Säilytä RGB-tilan siirtymien historia
+  - Vältä päällekkäisiä rasteja RGB-merkkejä varten
+explanation: |
+  RGB-välityspalvelin yksinkertaistaa RGB-lähetysten välittämistä Lightning-osallistujien välillä toimimalla välittäjänä, mikä mahdollistaa sujuvamman käyttökokemuksen, joka on lähellä Bitcoinin ja Lightningin nykyistä käyttökokemusta.
+reviewed: false

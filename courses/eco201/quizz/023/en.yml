@@ -1,12 +1,14 @@
 question: Why does the problem of coordination in division of labor reemerge in larger communities?
-answer: Because humans are limited by their cognitive capacities and socially accepted measurement of the value of contributions in exchange is a non-trivial problem.
+answer: Because humans are limited by their cognitive capacities, and socially accepted measurement of the value of contributions in exchange is a non-trivial problem.
 wrong_answers:
   - Because humans are not interested in working with larger groups and prefer smaller communities.
   - Because larger communities have more resources, leading to less need for division of labor.
   - Because larger communities have more conflicts, making coordination difficult.
 explanation: |
-  In larger communities, it is impossible for a person to maintain and
-  remember stable social relationships with more than 150 individuals, making a reputation
-  system insufficient to overcome the prisoner's dilemma at scale. Also, evaluating
-  the value of contributions in exchange is a complex problem in larger communities.
-reviewed: false
+  In larger communities, it is impossible for a person to
+  maintain and remember stable social relationships with more
+  than 150 individuals, making a reputation system
+  insufficient to overcome the prisoner's dilemma at scale.
+  Also, evaluating the value of contributions in exchange is
+  a complex problem in larger communities.
+reviewed: true

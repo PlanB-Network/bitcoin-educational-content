@@ -1,0 +1,9 @@
+question: Como é que o RGB abre caminho para o DEX layer-2?
+answer: Ao permitir a troca de activos fora da cadeia através de canais Lightning e swaps atómicos
+wrong_answers:
+  - Ao permitir a utilização de uma bolsa centralizada para todas as transacções RGB
+  - Ao permitir a troca de activos através de contratos inteligentes na cadeia
+  - Ao permitir a troca de activos entre cadeias de blocos através de swaps atómicos
+explanation: |
+  A capacidade de realizar swaps e trocas atómicas através dos canais Lightning oferece a possibilidade de criar DEXs descentralizadas, sem as desvantagens das trocas on-chain.
+reviewed: false

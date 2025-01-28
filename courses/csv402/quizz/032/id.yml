@@ -1,0 +1,9 @@
+question: Apa yang harus dilakukan Alice (pengirim) setelah menerima faktur Bob?
+answer: Bangun PSBT dengan UTXO-nya dan buat terminal konsinyasi transfer
+wrong_answers:
+  - Menandatangani transaksi Bitcoin yang menggunakan UTXO yang berisi segel sekali pakai
+  - Impor kiriman ke dompet Anda sendiri untuk detail kontrak
+  - Menerbitkan faktur baru untuk masalah aset
+explanation: |
+  Alice harus membuat PSBT untuk membelanjakan UTXO yang terkait dengan aset tersebut, kemudian membuat konsinyasi terminal yang mencakup transisi baru ke Bob.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mitä menetelmää RGB:ssä käytetään kertakäyttöisen tiivisteen määrittelyyn?
+answer: Erityinen ulostulopiste
+wrong_answers:
+  - Tietty julkinen avain
+  - Tietty Bitcoin-osoite
+  - Useiden UTXO:iden yhdistelmä
+explanation: |
+  RGB määrittelee kertakäyttöisen tiivisteen tietyksi ulostulopisteeksi, joka voidaan sulkea tämän ulostulopisteen menoilla (TXID + ulostulon numero).
+reviewed: false

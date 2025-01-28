@@ -1,0 +1,9 @@
+question: Jaké jsou hlavní komponenty potřebné k provozu uzlu Lightning kompatibilního s RGB?
+answer: Bitcoind, indexer a proxy server RGB
+wrong_answers:
+  - Uzel Lightning, indexer a server IPFS
+  - Mobilní peněženka RGB, proxy server RGB a bitcoind
+  - Webový klient, indexer a proxy server RGB
+explanation: |
+  Pro provoz uzlu Lightning s podporou RGB potřebujete uzel bitcoind pro interakci s blockchainem bitcoinu, indexer pro těžbu transakcí v řetězci a proxy server RGB pro usnadnění výměny zásilek mezi peery.
+reviewed: false

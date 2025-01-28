@@ -1,0 +1,5 @@
+---
+term: BITVM
+
+---
+Protokoll introdusert av Robin Linus i 2023, med sikte på å utvide applikasjonsutviklingsmulighetene til Bitcoin. BitVM gjør det mulig å utføre vilkårlige beregninger og bruker disse beregningene til å styre de engasjerte bitcoinsene. Protokollen innebærer å flytte alle beregninger utenfor kjeden, samtidig som beregningen kan bestrides i kjeden hvis den andre parten hevder et uredelig resultat. BitVM gir dermed Bitcoin en nesten Turing-komplett beregningskapasitet, uten at det kreves noen endringer på konsensusnivå. BitVM replikerer oppførselen til en `NAND` logisk gate gjennom en kombinert bruk av opkodene `OP_BOOLAND` (som i seg selv replikerer oppførselen til en `AND` logisk gate) og `OP_NOT` (som replikerer oppførselen til en `NOT` logisk gate). Denne `NAND`-logiske porten kan faktisk brukes i kjeden for å gjenskape oppførselen til alle andre eksisterende logiske porter. Det er dette som kalles en "universell port". I forlengelsen av dette kan en serie med `NAND`-logiske porter dermed gjenskape en hvilken som helst beregningskrets. Ideen med BitVM er å lagre disse `NAND`-beregningssekvensene som blader i MAST i en Taproot-transaksjon.

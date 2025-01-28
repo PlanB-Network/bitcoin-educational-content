@@ -1,0 +1,5 @@
+---
+term: BIP152
+
+---
+Ehdotus "Compact Block Relay", jonka tarkoituksena on vähentää kaistanleveyttä, jota tarvitaan lohkojen siirtämiseen Bitcoin-verkossa. Tämä marraskuussa 2016 Bitcoin Coren versiossa 0.13.0 hyväksytty protokolla mahdollistaa lohkotietojen välittämisen kompaktilla tavalla, joka perustuu oletukseen, että solmuilla on jo suuri osa viimeisimmän lohkon transaktioista mempoolissaan. Sen sijaan, että jokainen transaktio lähetettäisiin kokonaisuudessaan, mikä johtaisi päällekkäisyyksiin, BIP152 ehdottaa, että lähetetään vain lyhyet tunnisteet transaktioista, jotka ovat jo vertaisvertaisten tiedossa, sekä muutama valikoitu transaktio (erityisesti coinbase-transaktio ja ne, joita solmu ei todennäköisesti tunne). Tämän jälkeen solmu voi pyytää puuttuvia transaktioita vertaisilta. Compact Block Relay vähentää näin lohkojen etenemisen aikana vaihdettavan tiedon määrää, mikä vähentää kaistanleveyspiikkejä ja parantaa verkon yleistä tehokkuutta.

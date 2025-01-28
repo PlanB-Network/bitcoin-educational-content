@@ -1,0 +1,9 @@
+question: Quale tecnologia può essere utilizzata per unire le diverse versioni della scorta in caso di discrepanza?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Sigillo monouso
+  - Replica basata su log
+explanation: |
+  I CRDT garantiscono la coerenza dei dati consentendo di unire più versioni dello stash senza conflitti sul lato client.
+reviewed: false

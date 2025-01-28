@@ -1,0 +1,9 @@
+question: Che ruolo ha uno schema in RGB?
+answer: Definire le variabili del contratto, le regole e la logica aziendale
+wrong_answers:
+  - Scambio di merci in negozio tra i partecipanti
+  - Convalida degli impegni di Pedersen sulle transazioni Bitcoin
+  - Creare definizioni di sigillo per ogni UTXO
+explanation: |
+  Lo Schema struttura lo stato del contratto e determina le transizioni e le condizioni di validazione consentite.
+reviewed: false

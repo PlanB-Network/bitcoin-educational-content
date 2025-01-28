@@ -1,0 +1,7 @@
+---
+term: STATIC ADDRESS
+
+---
+In the context of Silent Payments, refers to a unique identifier that allows for the receipt of payments without address reuse, without interaction, and without a visible on-chain link between the various payments and the static address. This technique eliminates the need to generate new, unused receiving addresses for each transaction, thereby avoiding the usual interactions in Bitcoin where the recipient must provide a new address to the payer. It is somewhat equivalent to the reusable payment code in the context of BIP47.
+
+This address is composed of two public keys: $B_{\text{scan}}$ for scanning and $B_{\text{spend}}$ for spending, concatenated to form the static address $B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$. The recipient publishes this address, allowing senders to derive unique payment addresses without any further interaction with the recipient. To manage multiple distinct sources of payments, a label can be added to $B_{\text{spend}}$, thus creating several labeled static addresses from $B_1$, $B_2$, etc. This allows for the segregation of payments while using a single base address, thereby reducing the workload for blockchain scanning. However, all static addresses of an entity can be easily associated due to the common use of $B_{\text{scan}}$.

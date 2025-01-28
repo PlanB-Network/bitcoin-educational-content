@@ -1,0 +1,9 @@
+question: ¿Cuál es la función del alijo?
+answer: Mantener todos los datos del cliente localmente
+wrong_answers:
+  - Publicar automáticamente las transacciones en la cadena de bloques
+  - Compilar y almacenar todas las facturas generadas
+  - Gestión de claves privadas Bitcoin
+explanation: |
+  El alijo es el conjunto de datos del lado del cliente que un usuario almacena localmente para uno o más contratos RGB, con el fin de realizar la validación del lado del cliente.
+reviewed: false

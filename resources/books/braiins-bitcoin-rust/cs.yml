@@ -1,0 +1,12 @@
+title: "Tvorba bitcoinu v jazyce Rust"
+publication_year: 2024
+cover: cover_en.webp
+original: true
+description: |
+  kniha Lukáše Hozdy "Tvorba bitcoinu v Rustu" je přístupným průvodcem pro ty, kteří chtějí
+  zájem o programovací jazyk Rust a technologii bitcoin.
+  Tato kniha je určena studentům a profesionálům v oblasti IT a seznamuje čtenáře s těmito tématy
+  proces pochopení základních konceptů bitcoinu a zároveň výuka
+  k vytváření projektů v jazyce Rust.
+contributors:
+  - It’s perfect for anyone who is curious about Rust, a programming language praised for its safety and performance, or bitcoin, the world’s first decentralized cryptocurrency. Through hands-on development of a bitcoin miner, wallet, and node, this book helps readers sharpen their Rust skills and explore bitcoin’s infrastructure, making it an ideal starting point for building on bitcoin.another-satoshi

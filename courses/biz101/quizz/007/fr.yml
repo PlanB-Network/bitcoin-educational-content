@@ -1,0 +1,9 @@
+question: Lequel des énoncés suivants décrit le mieux la façon dont les transactions Bitcoin sont finalisées ?
+answer: Une fois enregistrées sur la blockchain, les transactions sont immuables et ne peuvent être modifiées.
+wrong_answers:
+  - Les transactions peuvent être annulées par les banques en cas de litige.
+  - Les utilisateurs doivent obtenir l'approbation de plusieurs entités gouvernementales pour finaliser une transaction.
+  - Tout participant peut modifier à volonté les transactions passées s'il dispose d'un code spécial.
+explanation: |
+  La blockchain de Bitcoin est un registre infalsifiable. Une fois qu'une transaction est confirmée et incluse dans un bloc, elle devient partie intégrante de l'enregistrement permanent, ce qui en garantit la finalité.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Para qué sirve la implantación de interfaces en la arquitectura RGB?
+answer: Asignar los campos del esquema a los nombres definidos en la interfaz
+wrong_answers:
+  - Compilación de scripts AluVM para validación
+  - Definir los estados globales y los estados propios del contrato
+  - Para almacenar pruebas criptográficas del lado del cliente
+explanation: |
+  La implementación de la interfaz establece el vínculo entre la lógica empresarial del esquema y la presentación legible por la interfaz.
+reviewed: false

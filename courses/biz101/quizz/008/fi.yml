@@ -1,0 +1,9 @@
+question: Mikä väite kuvaa parhaiten Bitcoinin roolia yritysten verkostona ja voimavarana?
+answer: Se voi toimia sekä arvon säilyttäjänä että vaihdon välineenä globaalissa, hajautetussa järjestelmässä.
+wrong_answers:
+  - Se voi toimia vain paikallisena lahjakorttijärjestelmänä.
+  - Se on pelkästään spekulatiivinen kaupankäyntiväline, jolla ei ole todellista hyötyä.
+  - Sen on oltava sidottu yhden maan rahapolitiikkaan toimiakseen.
+explanation: |
+  Bitcoinin globaalin, internetiin pohjautuvan rakenteen ansiosta se voi toimia paitsi arvosäilönä myös vaihtovälineenä, joka tarjoaa yrityksille nopean, luvattoman ja lopullisen selvityksen transaktioista maailmanlaajuisesti.
+reviewed: false

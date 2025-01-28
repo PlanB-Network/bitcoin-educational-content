@@ -1,0 +1,5 @@
+---
+term: SEKOLAH AUSTRIA
+
+---
+Aliran pemikiran ekonomi yang berteori bahwa pasar adalah kumpulan interaksi individu yang bersifat sukarela, menekankan spontanitas tatanan ekonomi, dan mengkritik intervensi negara. Mazhab Austria menganjurkan peran kepemilikan pribadi, kebebasan berkontrak, dan perdagangan bebas, sembari mengkritik efek mengganggu dari penciptaan moneter terhadap perekonomian. Para kontributornya, seperti Carl Menger, Ludwig von Mises, dan Friedrich Hayek, telah mengembangkan konsep-konsep seperti pembentukan harga, fungsi uang, dinamika kapital, dan teori nilai subyektif. Mazhab Austria mengkritik sosialisme karena ketidakmampuannya melakukan perhitungan ekonomi yang efisien dan lebih menyukai pendekatan liberal. Mazhab ini menghargai pasar bebas dan melihat intervensionisme negara sebagai sumber ketidakseimbangan ekonomi. Banyak penggemar Bitcoin yang menganut ide-ide ini, percaya bahwa Bitcoin merupakan alat yang selaras dengan filosofi ini karena sifatnya yang terdistribusi, keterbatasan penciptaan moneternya, dan kemampuannya untuk beroperasi secara independen dari campur tangan negara.

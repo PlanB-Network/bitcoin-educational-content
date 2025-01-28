@@ -1,0 +1,9 @@
+question: What does Bitcoin allow you to do without intermediaries?  
+answer: Exchange value on the Internet  
+wrong_answers:  
+  - Create centralized applications  
+  - Obtain bank loans  
+  - Store personal data  
+explanation: |  
+  Bitcoin enables the exchange of value on the Internet without intermediaries through its peer-to-peer protocol.  
+reviewed: false  

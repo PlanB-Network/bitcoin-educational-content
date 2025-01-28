@@ -1,0 +1,17 @@
+- start_date: 2025-01-31 08:00:00
+  end_date: 2025-02-01 14:00:00
+  timezone: Africa/Johannesburg
+  address_line_1: 7 Bree Street, Cape Town, South Africa
+  address_line_2: Digital Asset Studios, 6th Floor, Unit 605, Touchstone House
+  name: Cape Town Lightning Developer Bootcamp
+  builder: Africa Free Routing
+  type: course
+  description: Africa Free Routing, in partnership with Opensats, Tether, and African Bitcoiners, invites you to an intensive 3-day program on Bitcoin Lightning Development. This bootcamp is tailored for passionate individuals eager to sharpen their skills and drive innovation within South Africa’s rapidly growing Bitcoin and Lightning Network ecosystem.
+  language:
+    - en
+  links:
+    website: https://freerouting.africa/cape-town-lightning-developer-bootcamp/
+  tags:
+    - proof-of-work
+    - lightning
+    - decentralization

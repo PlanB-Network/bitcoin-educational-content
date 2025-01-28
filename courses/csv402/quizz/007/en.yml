@@ -1,0 +1,9 @@
+question: How does RGB minimize its visibility?
+answer: Taproot (Tapret)
+wrong_answers:
+  - OP_RETURN (Opret)
+  - Sig tweak
+  - Key tweak
+explanation: |
+  Taproot (Tapret) enables commitments to be inserted into a transaction discreetly and efficiently, while ensuring compatibility with current standards.
+reviewed: false

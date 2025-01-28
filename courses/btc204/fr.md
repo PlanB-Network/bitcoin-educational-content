@@ -724,8 +724,6 @@ Dans un registre différent, c'est également une analyse temporelle de ce type 
 ## Mise en pratique avec un explorateur de blocs
 <chapterId>6493cf2f-225c-405f-9375-c4304f1087ed</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/cLSS60NrTVQ?feature=shared)
-
 Dans ce dernier chapitre, nous allons appliquer concrètement les concepts que nous avons étudiés jusqu'ici. Je vais vous présenter des exemples de transactions Bitcoin réelles, et vous devrez en extraire les informations que je vous demande. 
 
 Idéalement, pour faire ces exercices, l'utilisation d'un outil professionnel d'analyse de chaîne serait préférable. Cependant, depuis l'arrestation des créateurs de Samourai Wallet, le seul outil gratuit d'analyse OXT.me n'est plus disponible. Nous allons donc opter pour un explorateur de blocs classique pour ces exercices. Je vous recommande d'utiliser [Mempool.space](https://mempool.space/) pour ses nombreuses fonctionnalités et sa gamme d'outils d'analyse de chaîne, mais vous pouvez également opter pour un autre explorateur tel que [Bitcoin Explorer](https://bitcoinexplorer.org/).
@@ -3973,7 +3971,7 @@ Puisque cette fonctionnalité est récente, il est conseillé de faire preuve de
 # Conclusion
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-## Évaluez le cours
+## Avis & Notes
 
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -3985,44 +3983,4 @@ Puisque cette fonctionnalité est récente, il est conseillé de faire preuve de
 
 ## Conclusion
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
-
-Félicitations pour avoir terminé cette formation sur la confidentialité sur Bitcoin !
-
-Nous avons abordé de nombreux sujets avancés et techniques dans cette formation, mais il n'est pas impératif d'utiliser tous les outils présentés. L'objectif principal était de vous donner le pouvoir de choisir les informations que vous souhaitez divulguer et celles que vous préférez garder confidentielles dans votre utilisation de Bitcoin. Cela incarne l'essence même de la protection de la vie privée. Pour faire des choix éclairés sur les informations à partager ou à cacher, il est faut être conscient des implications de nos actions. J'espère que cette formation vous a aidé à acquérir ces connaissances.
-
-Si je devais choisir la partie la plus importante de cette formation, je prendrais la section dédiée à l'analyse de chaîne. Comprendre les techniques employées par vos potentiels attaquants est le meilleur moyen de vous en protéger. Mon conseil serait donc de revoir attentivement cette partie et d'essayer de saisir tous ses détails.
-
-Dans cette formation, nous nous sommes concentrés exclusivement sur la confidentialité de Bitcoin sur la chaîne principale. Les enjeux de confidentialité sur les systèmes de seconde couche, comme le Lightning Network et les sidechains, sont également importants et possèdent des caractéristiques très spécifiques. Bien que l'utilisation de transactions off-chain puisse être une stratégie efficace pour contourner les nombreux risques de traçabilité sur Bitcoin que nous avons étudiés, elle expose à d'autres risques qu'il est aussi essentiel de connaître. C'est pour cela que ces sujets seront abordés dans une future formation dédiée sur Plan ₿ Network.
-
-Si vous avez apprécié cette formation, je vous serais très reconnaissant de la partager avec vos proches et sur les réseaux sociaux. Merci ! :)
-
-Pour continuer à approfondir vos connaissances dans l'univers du Bitcoin, nous vous invitons à explorer d'autres cours disponibles sur Plan ₿ Network comme :
-
-#### Comprenez le fonctionnement d'un portefeuille Bitcoin avec
-
-https://planb.network/courses/cyp201
-
-#### Apprenez à créer votre communauté Bitcoin avec
-
-https://planb.network/courses/btc302
-
-#### Découvrez l'histoire des origines de Bitcoin avec
-
-https://planb.network/courses/his201
-
-#### Configurez un serveur de paiement BTC avec
-
-https://planb.network/courses/btc305
-
-#### Découvrez le réseau Lightning avec
-
-https://planb.network/courses/lnp201
-
-#### Découvrez l'évolution de la liberté à travers les âges avec 
-
-https://planb.network/courses/phi201
-
-
-
-
-
+<isCourseConclusion>true</isCourseConclusion>

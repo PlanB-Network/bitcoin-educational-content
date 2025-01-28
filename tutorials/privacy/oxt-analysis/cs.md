@@ -1,5 +1,5 @@
 ---
-name: OXT - Analýza řetězce
+name: OXT - Chain Analysis
 description: Zvládněte základy analýzy řetězce na Bitcoinu
 ---
 ![obálka](assets/cover.webp)

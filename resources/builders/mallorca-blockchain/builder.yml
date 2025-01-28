@@ -1,0 +1,20 @@
+name: Mallorca Blockchain
+category: conference
+
+links:
+  website: https://mallorcablockchaindays.com/index.html
+  twitter: https://twitter.com/MallorcaBCDays
+  youtube: https://www.youtube.com/channel/UChDp9dCDLidA0sVO9bqnu3w/featured
+
+tags:
+  - self-sovereignty
+  - cypherpunk
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-19
+    urgency: 1
+    contributors_id:
+      - hunt-wood
+    reward: 0

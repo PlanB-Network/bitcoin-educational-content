@@ -1,0 +1,5 @@
+---
+term: PRNG (GNPA)
+
+---
+Acrónimo de "Gerador de números pseudo-aleatórios" Os PRNGs são uma categoria de algoritmos utilizados para gerar sequências de números que são aproximadamente aleatórios, partindo de um estado inicial chamado semente. Na criptografia, os PRNGs são utilizados para produzir chaves, vectores de inicialização e outros elementos que requerem aleatoriedade. Um bom PRNG deve ter propriedades como uniformidade de saída, imprevisibilidade e resistência a ataques preditivos. Ao contrário dos geradores de números verdadeiramente aleatórios, os PRNGs são determinísticos e reproduzíveis. No Bitcoin, os PRNGs podem ser usados em software de gestão de carteiras ou carteiras de hardware para gerar a frase de recuperação, que é a base das carteiras determinísticas e hierárquicas.

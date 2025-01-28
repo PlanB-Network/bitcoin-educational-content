@@ -1,0 +1,9 @@
+question: Milline on Bitcoini maksete ökosüsteemi üks peamisi eeliseid lahenduste vahel vahetamisel?
+answer: Teenusepakkujat on suhteliselt lihtne vahetada või vahendeid uuendada, sest Bitcoini avatud ja koostalitlusvõimelised standardid võimaldavad sujuvat rahaülekannet.
+wrong_answers:
+  - Kui teenusepakkuja on valitud, ei saa ettevõte enam kunagi teise lahenduse juurde üle minna.
+  - Bitcoini lahendused on patenteeritud ja lukustatud ühe müüja juurde.
+  - Teenuseosutaja vahetamine nõuab valitsuse heakskiitu ja pikka juriidilist protsessi.
+explanation: |
+  Kuna Bitcoin põhineb avatud protokollidel, võivad kaupmehed oma raha vabalt ümber paigutada või võtta kasutusele uusi lahendusi, kui nad kasvavad või nende vajadused muutuvad. Selline paindlikkus tagab, et ettevõtted saavad valida parimad vahendid ilma müüja lukustamata.
+reviewed: false

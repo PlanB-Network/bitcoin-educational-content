@@ -1,0 +1,9 @@
+question: Milline on RGB-protokolli põhikontseptsioon?
+answer: Kliendipoolne valideerimine krüptograafiliste kohustuste kaudu ahelasiseselt
+wrong_answers:
+  - On-chain valideerimine Turingi-komplektsete nutikate lepingute abil
+  - Krüpteerimata Bitcoini tehingute ainuüksi kasutamine
+  - Lepingu täitmine arukatele lepingutele pühendatud plokiahelas
+explanation: |
+  RGB põhineb kliendipoolsel valideerimismudelil, kus kohustused (Taprooti või OP_RETURNi kaudu) sisestatakse ahelas, samas kui enamik loogikat ja andmeid hoitakse ahelaväliselt.
+reviewed: false

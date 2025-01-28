@@ -1,0 +1,20 @@
+name: BitDevs El Salvador
+category: education
+
+links:
+  website: https://bitdevelsalvador.com/
+  Github: https://github.com/nicolasburtey/bitdev-el-salvador.github.io
+
+tags:
+  - protocols
+  - innovation
+  - technical-analysis
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-20
+    urgency: 1
+    contributors_id:
+      - hunt-wood
+    reward: 0

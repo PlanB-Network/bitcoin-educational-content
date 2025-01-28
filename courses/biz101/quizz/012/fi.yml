@@ -1,0 +1,9 @@
+question: Miksi Lightning Networkia voidaan verrata "maksusähköpostiin"?
+answer: Koska se mahdollistaa saumattoman, maailmanlaajuisen ja luvattoman arvojen vaihdon yhtä helposti kuin viestin lähettäminen.
+wrong_answers:
+  - Koska se lähettää maksut perinteisten sähköpostipalvelujen tarjoajien kautta.
+  - Koska se toimii vain, kun se liitetään tavallisiin sähköpostiviesteihin.
+  - Koska se tallentaa käyttäjän saldot sähköpostin runkoon.
+explanation: |
+  Aivan kuten sähköposti mullisti viestinnän poistamalla välikädet ja antamalla kenelle tahansa mahdollisuuden lähettää viestejä maailmanlaajuisesti, Lightning Network yksinkertaistaa ja nopeuttaa transaktioita ja tekee arvonsiirrosta yhtä kitkatonta ja helppokäyttöistä kuin sähköposti.
+reviewed: false

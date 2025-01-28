@@ -512,7 +512,7 @@ No módulo de treinamento "Segurança 101" do Descubra Bitcoin na Academia, tamb
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Avalie este curso
+## Avaliações & Notas
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -525,36 +525,4 @@ No módulo de treinamento "Segurança 101" do Descubra Bitcoin na Academia, tamb
 ## Conclusão
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-Parabéns por concluir este curso!
-
-Estamos felizes que você tenha alcançado com sucesso esta etapa em sua jornada de aprendizado.
-
-Graças à sua dedicação e comprometimento, você adquiriu conhecimentos e habilidades valiosas que servirão para seu desenvolvimento profissional.
-
-Para continuar aprofundando seus conhecimentos no universo Bitcoin, convidamos você a explorar outros cursos disponíveis na Plan ₿ Network como:
-
-#### Descubra o Bitcoin e seus fundamentos com
-
-https://planb.network/courses/btc101
-
-#### Obtenha e proteja seus primeiros bitcoins com
-
-https://planb.network/courses/btc102
-
-#### Descubra a rede Lightning com
-
-https://planb.network/courses/lnp201
-
-#### Descubra o pensamento econômico da Escola Austríaca com
-
-https://planb.network/courses/eco201
-
-#### Descubra a história das origens do Bitcoin com
-
-https://planb.network/courses/his201
-
-#### Entenda como funciona uma carteira Bitcoin com
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

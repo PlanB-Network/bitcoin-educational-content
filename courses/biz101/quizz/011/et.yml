@@ -1,0 +1,9 @@
+question: Millist eelist pakub Lightning kaupmeestele seoses maksete lõplikkusega?
+answer: Lightning-maksed lõpetatakse peaaegu koheselt, vähendades tagasipööramise või pettuse riski.
+wrong_answers:
+  - See nõuab 24 tundi ootamist, enne kui raha saab kulutada.
+  - See võimaldab klientidel igal ajal oma makse tagasi nõuda.
+  - See muudab tehingud kuni 90 päevaks täielikult tagasipööratavaks.
+explanation: |
+  Kui makse on Lightning'i abil võrgu kaudu suunatud ja arveldatud, on see lõplik. See välistab traditsiooniliste maksesüsteemide puhul esinevad tagasipöördumise stsenaariumid.
+reviewed: false

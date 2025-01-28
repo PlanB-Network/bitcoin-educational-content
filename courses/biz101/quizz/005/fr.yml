@@ -1,0 +1,9 @@
+question: Quelle est la caractéristique principale de Bitcoin en tant que réseau monétaire ?
+answer: Il s'apparente à de l'argent liquide et ne nécessite pas d'autorité centrale ou d'intermédiaire pour les transactions.
+wrong_answers:
+  - Il ne peut fonctionner que s'il est autorisé par une agence gouvernementale.
+  - Il émet de nouvelles unités monétaires à la demande de tout utilisateur.
+  - Il faut que les banques vérifient et règlent chaque transaction.
+explanation: |
+  Le bitcoin fonctionne comme un réseau décentralisé, permettant à quiconque d'y participer sans autorisation. Les transactions sont validées par les nœuds et les mineurs, et non par une autorité centrale.
+reviewed: false

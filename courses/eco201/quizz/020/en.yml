@@ -6,8 +6,9 @@ wrong_answers:
   - There is no change in the individuals' situation.
   - The result varies depending on the individual.
 explanation: |
-  According to Austrian economists, the result of individuals specializing
-  in their work and engaging in exchanges is that they are always better off. This
-  is because specialization and exchange allow individuals to maximize their subjective
-  utility.
-reviewed: false
+  According to Austrian economists, the result of individuals
+  specializing in their work and engaging in exchanges is
+  that they are always better off. This is because
+  specialization and exchange allow individuals to maximize
+  their subjective utility.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bagaimana seharusnya bisnis memilih solusi pembayaran Bitcoin yang sesuai dengan kebutuhannya?
+answer: Dengan mempertimbangkan faktor-faktor seperti frekuensi transaksi, ukuran rata-rata pembayaran, dan apakah itu online atau langsung, dan kemudian memilih solusi yang disesuaikan dengan kategori tersebut.
+wrong_answers:
+  - Dengan selalu memilih solusi yang paling sederhana, terlepas dari volume atau kompleksitas transaksi.
+  - Dengan hanya menggunakan solusi terbesar dan termahal yang tersedia, terlepas dari ukuran bisnis.
+  - Dengan hanya mengandalkan tebakan tanpa mempertimbangkan kebutuhan spesifik bisnis.
+explanation: |
+  Bisnis yang berbeda memiliki kebutuhan yang berbeda. Mengevaluasi faktor-faktor seperti volume transaksi, metode pembayaran (online vs fisik), dan skalabilitas membantu perusahaan memilih solusi pembayaran Bitcoin yang tepat.
+reviewed: false

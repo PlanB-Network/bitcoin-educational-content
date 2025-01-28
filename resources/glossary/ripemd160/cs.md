@@ -1,0 +1,5 @@
+---
+term: RIPEMD160
+
+---
+Zkratka pro *Výzkum a vývoj pokročilých komunikačních technologií v Evropě Integrity Primitives Evaluation Message Digest 160*. Jedná se o kryptografickou hašovací funkci, která z libovolného vstupu generuje 160bitový digest. Používá se v Bitcoinu k transformaci veřejného klíče na přijímací adresu pro standardy Legacy a SegWit v0 (pro SegWit v1 se veřejný klíč nehashuje). Proces nejprve zahrnuje použití hašovací funkce `SHA256` na veřejný klíč a následné použití funkce `RIPEMD160` na výsledek. Tato kombinace dvou různých hašovacích funkcí je v kontextu Bitcoinu známá jako `HASH160`. funkce `RIPEMD160` se používá také v deterministických a hierarchických peněženkách k výpočtu otisků klíčů. Konkrétně se `HASH160` používá k výpočtu otisku nadřazeného klíče, který je pak zahrnut do metadat rozšířeného klíče (xpub, xprv...).

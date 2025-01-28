@@ -1,0 +1,10 @@
+---
+term: NONCE
+
+---
+No contexto da informática, o termo "nonce" refere-se a um número que é utilizado apenas uma vez e depois substituído. É frequentemente aleatório ou pseudo-aleatório. Os nonces são utilizados em vários protocolos criptográficos para garantir a segurança do processo. Por exemplo, as assinaturas ECDSA utilizadas no protocolo Bitcoin incluem a utilização de um nonce. Isto significa que este número deve ser novo para cada assinatura. Se não for esse o caso, é possível calcular a chave privada usada comparando duas assinaturas que usam o mesmo nonce.
+
+Nonces também são usados no processo de mineração de Bitcoin. Os mineiros incrementam estes valores modificáveis dentro dos seus blocos candidatos. Modificam o valor do nonce de forma a encontrar um hash criptográfico que seja inferior ou igual ao objetivo de dificuldade. Este processo requer um poder computacional significativo, uma vez que envolve uma pesquisa exaustiva entre um grande número de possíveis nonces. Quando um mineiro encontra um nonce que, quando incluído no seu bloco, produz um resumo que cumpre os critérios de dificuldade, o bloco é transmitido para a rede e o mineiro ganha a recompensa.
+
+> ► *Em 2010, os investigadores descobriram que a PlayStation 3 da Sony utilizava o mesmo nonce para assinar diferentes pacotes de código. Esta reutilização do nonce permitia aos atacantes calcular a chave privada utilizada para assinar o software. Com a chave privada na mão, os atacantes podiam criar assinaturas válidas para qualquer código, o que lhes permitia executar software não autorizado, incluindo jogos pirateados ou sistemas operativos personalizados, diretamente na PS3.*
+> ► *Existe um equívoco comum sobre a origem do termo "nonce" Alguns afirmam que representa a abreviatura de "número usado apenas uma vez" Na realidade, a origem da palavra remonta ao século XVIII e provém da evolução semântica da expressão inglesa antiga "then anes", que significava "para a ocasião"

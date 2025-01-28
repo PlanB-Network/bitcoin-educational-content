@@ -1,0 +1,9 @@
+question: 在 CAP 三难问题中，如何权衡客户方验证和可用性？
+answer: 每个参与者必须在本地保存相关数据
+wrong_answers:
+  - 数据是公开的，并在全球范围内自动复制
+  - 为了可用性而牺牲一致性
+  - 状态转换总是在 Lightning 上发布
+explanation: |
+  在客户端验证中，全局可用性得不到保证，因为参与者必须管理自己的数据。
+reviewed: false

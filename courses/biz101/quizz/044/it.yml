@@ -1,0 +1,9 @@
+question: Qual è uno dei principali vantaggi per i commercianti che utilizzano la rete Lightning?
+answer: Riduzione delle commissioni di transazione
+wrong_answers:
+  - Pagamenti garantiti da banche
+  - Aumento automatico delle vendite
+  - Eliminazione delle imposte commerciali
+explanation: |
+  Le commissioni di transazione sulla rete Lightning sono molto basse, il che la rende una soluzione conveniente per gli esercenti.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welche Hauptrolle spielt das Schema in einem RGB-Vertrag?
+answer: Beschreiben Sie die Geschäftslogik und die Datenstruktur des Vertrags
+wrong_answers:
+  - Definition der Schnittstelle für RGB-Geldbörsen
+  - Verwaltung der Kompilierung von Skripten auf der Blockchain
+  - Kryptografische On-Chain-Validierung
+explanation: |
+  Das Schema definiert die deklarative Struktur, die Datentypen und die Validierungsregeln des Vertrags und ermöglicht es Ihnen, die Geschäftslogik auf der Seite des Kunden zu verwalten.
+reviewed: false

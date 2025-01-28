@@ -1,0 +1,7 @@
+description: |
+   Node Nation on koulutusohjelma, joka edistää taloudellista riippumattomuutta Bitcoinin avulla El Salvadorin julkisten koulujen oppilaiden keskuudessa. Ohjelmassa opetetaan heille Bitcoin- ja Lightning Network -solmujen konfigurointia ja hallintaa teknisin painotuksin.
+   Käytännönläheisellä ja teknisellä lähestymistavalla hankkeen tavoitteena on välittää tietoa Bitcoinista ja hajauttamisesta solmujen asennuksen ja hallinnan avulla. Sitä tukevat opetusministeriö, kansallinen Bitcoin-toimisto ja Plan B Network.
+   Node Nation has an ambitious and revolutionary goal: to install 6,000 Bitcoin nodes in public schools across the country, setting an unprecedented milestone in global Bitcoin adoption. This effort not only seeks to position El Salvador as a world leader in financial sovereignty but also to train a new generation of students in the tools needed to participate in the digital revolution of the future. With each node installed, students will not only learn to master this technology but also become the custodians of the decentralized power of Bitcoin.
+contributors:
+  - rabbit-hole
+  - Plan B Network

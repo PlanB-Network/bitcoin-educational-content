@@ -1,0 +1,9 @@
+question: De acordo com a economia austríaca, porque é que os lucros são considerados um indicador-chave da saúde de uma empresa?
+answer: Porque os lucros mostram que a empresa está a satisfazer as necessidades dos consumidores de forma eficiente e sustentável.
+wrong_answers:
+  - Porque os lucros asseguram que a força de trabalho da empresa é a maior do seu sector.
+  - Porque os lucros são apenas um sinal de que a empresa recebeu subsídios do governo.
+  - Porque os lucros reflectem acontecimentos aleatórios do mercado não relacionados com a procura dos consumidores.
+explanation: |
+  Na economia austríaca, os lucros indicam que uma empresa está a produzir bens ou serviços valorizados pelos consumidores a um preço superior ao custo de produção. Este resultado sugere uma utilização eficiente dos recursos e um alinhamento com as necessidades do mercado.
+reviewed: false

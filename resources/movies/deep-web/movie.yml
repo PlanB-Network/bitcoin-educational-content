@@ -1,0 +1,19 @@
+id: d169dd7d-8a29-4080-9ce0-c8c7e214b5bc
+title: "Deep Web"
+author: Alex Winter
+publication_year: 2015
+duration: 96
+language: en
+links:
+  platform: https://www.primevideo.com/detail/Deep-Web/0U789MZ2729TC0BNZP5P6AOBFE
+  trailer: https://youtu.be/BvC9oDlT8mM?si=4seXs0AShjsBYj3M
+description: |
+  A feature documentary that explores the rise of a new Internet; decentralized,
+  encrypted, dangerous and beyond the law; with particular focus on the FBI
+  capture of the Tor hidden service Silk Road, and the judicial aftermath.
+tags:
+  - privacy
+  - personal-security
+  - cypherpunk
+contributors:
+  - jramos0

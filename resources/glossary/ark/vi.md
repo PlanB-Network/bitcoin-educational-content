@@ -1,0 +1,5 @@
+---
+term: ARK
+
+---
+New second-layer protocol unveiled by Burak in May 2023. Like the Lightning Network, Ark is a system that operates on top of the main Bitcoin blockchain. It would enable payments in bitcoins off-chain in a fast, anonymous, and low-cost manner. Compared to Lightning, Ark does not require incoming liquidity to receive payments, which significantly improves the user experience. Moreover, it offers privacy similar to coinjoin transactions, whereas Lightning is a relatively poor model for protecting privacy. Finally, Ark could also be non-interactive if covenants are added to Bitcoin. Burak often criticizes Lightning's scalability due to its dependence on the main chain and suggests that Ark could theoretically accommodate the entire global population in self-custody. Although Ark may be seen as a competing protocol to the Lightning Network, the two could actually coexist. They might even be complementary. However, it is important to note that, for now, Ark is just a concept. Burak has not yet revealed the code for his invention.

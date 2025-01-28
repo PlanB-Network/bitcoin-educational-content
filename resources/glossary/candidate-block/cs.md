@@ -1,0 +1,5 @@
+---
+term: KANDIDÁTSKÝ BLOK
+
+---
+Kandidátský blok je blok, který právě vytváří těžař účastnící se procesu těžby v systému Bitcoin. Kandidátský blok je dočasná datová struktura, která obsahuje transakce čekající na potvrzení, ale ještě nemá platný důkaz práce, aby mohla být přidána do blockchainu. Těžař vybírá transakce, které zahrne do kandidátského bloku, na základě různých faktorů, jako jsou související transakční poplatky a omezení velikosti bloku. Jakmile jsou transakce vybrány, těžař vygeneruje hlavičku bloku, která obsahuje verzi, digest transakcí (Merkleho kořen), časové razítko, hash předchozího bloku, cíl obtížnosti a nonce. Těžař se pak pokusí najít hash své hlavičky, který splňuje aktuální cíl obtížnosti. Za tímto účelem těžař upraví nonce obsaženou v záhlaví. Těžař může také upravit další informace obsažené v kandidátském bloku. Jedná se o mechanismus proof-of-work. Pokud se těžaři podaří najít platný hash, kandidátský blok se stane platným blokem a je vysílán do sítě, aby byl přidán do blockchainu.

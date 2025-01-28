@@ -1,0 +1,9 @@
+question: Hvilket utsagn beskriver best Bitcoins rolle som et nettverk og en ressurs for bedrifter?
+answer: Den kan fungere både som et verdioppbevaringsmiddel og et byttemiddel i et globalt, desentralisert system.
+wrong_answers:
+  - Det kan bare fungere som et lokalt gavekort-system.
+  - Det er utelukkende et spekulativt handelsverktøy uten reell nytte.
+  - Den må være knyttet til et enkelt lands pengepolitikk for å fungere.
+explanation: |
+  Bitcoins globale, internettbaserte design gjør at den ikke bare kan fungere som et verdioppbevaringsmiddel, men også som et byttemiddel, noe som gir bedrifter rask, tillatelsesfri og endelig oppgjør av transaksjoner over hele verden.
+reviewed: false

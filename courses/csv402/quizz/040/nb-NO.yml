@@ -1,0 +1,9 @@
+question: Hva er hovedformålet med å integrere RGB i Lightning Network?
+answer: Overfør RGB-ressurser via kanaler utenfor kjeden
+wrong_answers:
+  - Utførelse av RGB-kontrakter direkte på Bitcoin-blokkjeden
+  - Erstatt konvensjonelle Lightning-transaksjoner med RGB-smartkontrakter
+  - Øk kanalkapasiteten ved å legge til nye UTXO-er
+explanation: |
+  RGB integrert i Lightning Network gjør det mulig å flytte RGB-eiendeler via tilstandsoverganger som er innebygd i forpliktelsestransaksjoner, samtidig som de forblir utenfor kjeden.
+reviewed: false

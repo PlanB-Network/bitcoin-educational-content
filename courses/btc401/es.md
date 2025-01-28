@@ -2410,7 +2410,7 @@ El grupo de Satoshi Fellowship presenta una aplicación de juegos LN utilizando 
 
 El grupo Lighting Walker presenta su solución para un servicio de remesas utilizando MySQL, JavaScript y la API de ZDB.
 
-## Danos tu opinión sobre este curso
+## Reseñas & Valoraciones
 
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -2418,17 +2418,4 @@ El grupo Lighting Walker presenta su solución para un servicio de remesas utili
 ## Reconocimientos
 
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-Nos gustaría reconocer las contribuciones de nuestros educadores:
-
-- Peter Todd
-- Adam Gibson
-- Alekos Filini
-- Daniela Brozzoni
-- Ajelex
-- asi0
-- Gabriel Comte
-
-Su experiencia ha sido invaluable para el éxito de este curso. Este ha sido el primer curso basado en la primera edición de la iniciativa Cubo+, realizado en julio de 2023. Gracias a todos los participantes y educadores por ser parte de este viaje educativo pionero. Marca el comienzo de lo que esperamos sea un largo y fructífero camino en el desarrollo de Bitcoin. Como primera cohorte, su participación ha establecido el estándar para futuras clases.
-
-Continúa explorando, aprendiendo y contribuyendo al ecosistema de Bitcoin. El conocimiento adquirido aquí es solo un punto de partida. Sigue profundizando en la madriguera del conejo y descubrirás un mundo de oportunidades en constante expansión.
+<isCourseConclusion>true</isCourseConclusion>

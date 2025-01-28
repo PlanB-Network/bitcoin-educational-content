@@ -1,0 +1,7 @@
+---
+term: FIBRE
+
+---
+Lühend "*Fast Internet Bitcoin Relay Engine*". See on Matt Corallo poolt 2016. aastal loodud protokoll, mille eesmärk on kiirendada Bitcoini plokkide levitamist kogu maailmas. Selle eesmärk oli vähendada leviku viivitusi võimalikult lähedal füüsilistele piiridele. FIBRE eesmärk oli tagada kaevandamisvõimaluste õiglasem jaotamine, tagades, et osaleja kaevandatud plokkide osakaal peegeldab täpselt tema panust arvutusvõimsuse osas, sõltumata tema positsioonist võrgus.
+
+Viivitus plokkide edastamisel võib tõepoolest soodustada suuri, hästi ühendatud kaevandamisrühmi, mis asuvad sageli üksteisele lähedal, väiksemate rühmade kahjuks. See nähtus võib aja jooksul suurendada kaevandamise tsentraliseeritust ja vähendada süsteemi üldist turvalisust. Selle probleemi lahendamiseks võeti FIBREs kasutusele veakorrektsioonikoodid ja täiendavate andmete edastamine, et tasakaalustada pakettide kadusid, ning kompaktsete plokkide kasutamine, mis on sarnased BIP152s kirjeldatud plokkidega, mis kõik toimivad UDP kaudu, et vältida teatavaid TCP piiranguid. Sellest hoolimata loobuti FIBREst 2020. aastal, peamiselt selle sõltuvuse tõttu ühest hooldajast ja seetõttu, et BIP152 vastuvõtmine muutis sellise süsteemi vähemoluliseks.

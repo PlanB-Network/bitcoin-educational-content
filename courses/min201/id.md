@@ -774,7 +774,7 @@ Hasil akhirnya adalah tingkat hash yang lebih tinggi per watt listrik, yang bera
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Evaluasi kursus ini
+## Ulasan & Penilaian
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -787,30 +787,4 @@ Hasil akhirnya adalah tingkat hash yang lebih tinggi per watt listrik, yang bera
 ## Kesimpulan
 
 <chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
-Selamat atas penyelesaian kursus ini!
-
-Kami senang Anda telah mencapai tonggak penting ini dalam perjalanan pembelajaran Anda.
-
-Melalui dedikasi dan komitmen Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan membantu Anda dalam pengembangan profesional.
-
-Untuk terus mengeksplorasi alam semesta Bitcoin secara mendalam, kami mengundang Anda untuk menemukan semua kursus lain yang tersedia di Plan ₿ Network:
-
-#### Temukan Bitcoin dan fundamental-nya dengan
-
-https://planb.network/courses/btc101
-
-#### Temukan Lightning Network dengan
-
-https://planb.network/courses/lnp201
-
-#### Kuasai prinsip-prinsip privasi di Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Temukan sejarah asal-usul Bitcoin dengan
-
-https://planb.network/courses/his201
-
-#### Pahami cara kerja dompet Bitcoin dengan
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

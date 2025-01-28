@@ -1,0 +1,9 @@
+question: Quelle est la pratique suggérée en matière de conservation lors de l'acquisition de bitcoins ?
+answer: Envisager des solutions d'autodétention après les achats initiaux, afin que l'entreprise contrôle réellement ses actifs.
+wrong_answers:
+  - Ne retirez en aucun cas des bitcoins de la bourse.
+  - Faites toujours confiance à un seul dépositaire sans examiner les mesures de sécurité.
+  - Stocker tous les bitcoins sur un site web public avec un simple mot de passe
+explanation: |
+  Après avoir acheté des bitcoins, les transférer dans un portefeuille autogéré permet à l'entreprise d'avoir un contrôle direct sur ses fonds. Si les dépositaires tiers peuvent être pratiques, l'autodétention est conforme au principe de souveraineté financière de Bitcoin.
+reviewed: false

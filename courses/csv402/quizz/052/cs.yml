@@ -1,0 +1,9 @@
+question: Co je ověření na straně klienta v protokolu RGB?
+answer: Místní ověřování údajů o smlouvách a přechodech
+wrong_answers:
+  - Spouštění chytrých smluv přímo v blockchainu Bitcoinu
+  - Výhradní používání centralizovaných uzlů pro ověřování transakcí
+  - Automatické obnovení historie smluv v případě nesrovnalostí
+explanation: |
+  Ověřování na straně klienta umožňuje každému účastníkovi nezávisle ověřit, zda přijatá data splňují pravidla definovaná smlouvou RGB.
+reviewed: false

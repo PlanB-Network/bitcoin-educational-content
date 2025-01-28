@@ -1,0 +1,10 @@
+---
+term: NONCE
+
+---
+Im Zusammenhang mit der Datenverarbeitung bezieht sich der Begriff "nonce" auf eine Zahl, die nur einmal verwendet und dann ersetzt wird. Sie ist oft zufällig oder pseudo-zufällig. Nonces werden in verschiedenen kryptografischen Protokollen verwendet, um die Sicherheit des Prozesses zu gewährleisten. Die ECDSA-Signaturen, die im Bitcoin-Protokoll verwendet werden, enthalten zum Beispiel eine Nonce. Das bedeutet, dass diese Nummer bei jeder Signatur neu sein muss. Ist dies nicht der Fall, kann der verwendete private Schlüssel durch den Vergleich zweier Signaturen, die die gleiche Nonce verwenden, berechnet werden.
+
+Nonces werden auch im Bitcoin-Mining-Prozess verwendet. Miner erhöhen diese veränderbaren Werte innerhalb ihrer Kandidatenblöcke. Sie ändern den Nonce-Wert, um einen kryptografischen Hash zu finden, der kleiner oder gleich dem Schwierigkeitsziel ist. Dieser Prozess erfordert eine erhebliche Rechenleistung, da er eine erschöpfende Suche unter einer großen Anzahl möglicher Nonce-Werte beinhaltet. Wenn ein Miner eine Nonce findet, die, wenn sie in seinem Block enthalten ist, einen Digest erzeugt, der die Schwierigkeitskriterien erfüllt, wird der Block an das Netzwerk gesendet, und der Miner gewinnt die Belohnung.
+
+> im Jahr 2010 entdeckten Forscher, dass die PlayStation 3 von Sony beim Signieren verschiedener Codepakete dieselbe Nonce verwendete. Diese Wiederverwendung der Nonce ermöglichte es Angreifern, den privaten Schlüssel zu berechnen, der zum Signieren der Software verwendet wurde. Mit dem privaten Schlüssel in der Hand konnten Angreifer gültige Signaturen für jeden beliebigen Code erstellen und so nicht autorisierte Software, einschließlich raubkopierter Spiele oder eigener Betriebssysteme, direkt auf der PS3 ausführen.*
+> ► *Es gibt ein verbreitetes Missverständnis über den Ursprung des Begriffs "nonce" Manche behaupten, er sei die Abkürzung für "number only used once" In Wirklichkeit geht der Ursprung des Wortes auf das 18. Jahrhundert zurück und stammt aus der semantischen Entwicklung des altenglischen Ausdrucks "then anes", der "für die Gelegenheit" bedeutete

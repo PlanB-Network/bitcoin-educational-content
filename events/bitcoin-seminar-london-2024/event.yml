@@ -1,23 +1,21 @@
 - start_date: 2024-08-11
   end_date: 2024-08-11
-  address_line_1: London, England
-  address_line_2:  
-  address_line_3: 
+  address_line_1: London, Ontario
+  address_line_2: Canada
+  address_line_3:
   name: Bitcoin Seminar in London
-  builder: London BTC Meetup 
+  builder: London BTC Meetup
   type: meetup
   book_online: false
   book_in_person: false
   price_dollars: 0
   description: Bitcoin seminar coming to London Ontario! So mark your calendars for AUGUST 10th and stay tuned for sponsor and speaker announcements!👀
-  language: 
+  language:
     - en
   links:
     website: https://x.com/londonON_BTC/status/1815793867376959673
     replay_url:
     live_url :
-  tags: 
+  tags:
     - bitcoiner
     - general
-
-

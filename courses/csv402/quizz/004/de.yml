@@ -1,0 +1,9 @@
+question: Wie verbessert RGB die Skalierbarkeit im Vergleich zur herkömmlichen Blockchain?
+answer: Durch die Beschränkung der Speicherung und Validierung auf die relevanten Zustandsübergänge
+wrong_answers:
+  - Durch die virtuelle Erhöhung der Größe von Bitcoin-Blöcken
+  - Durch die direkte Verknüpfung jedes Vertrags mit allen UTXOs
+  - Durch die Zentralisierung der Vertragsdaten auf einigen wenigen zentralen Servern
+explanation: |
+  RGB reduziert den Speicher- und Validierungsbedarf, da nur die für jeden Teilnehmer relevanten Daten gespeichert werden.
+reviewed: false

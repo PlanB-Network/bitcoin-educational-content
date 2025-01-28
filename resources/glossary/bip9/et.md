@@ -1,0 +1,5 @@
+---
+term: BIP9
+
+---
+2015. aastal välja pakutud meetod Bitcoini pehmete harude aktiveerimiseks. Sellega võetakse kasutusele süsteem, mille puhul kaevurid annavad oma toetust soft fork'ile märku, kasutades konkreetset bitti plokkide versiooni väljal. BIP9 raames pakutud pehme kahvel aktiveeritakse, kui 95% plokkidest 2016 ploki jooksul (umbes kaks nädalat, mis langeb kokku iga raskusastme kohandamisega) annab oma nõusolekust märku. Pärast seda lukustamist antakse kaevuritele ajapikendusperiood, et nad saaksid enne uuenduse aktiveerimist selleks valmistuda. Kui 95% künnist ei saavutata maksimaalse lubatud aja jooksul, loobutakse soft fork'ist. BIP9 võimaldab anda märku mitmest soft forkist korraga, kuid annab kaevuritele märkimisväärset võimu, sest kui nõutud künnis ei ole saavutatud, siis soft fork lihtsalt katkestatakse. Seda meetodit kasutati algselt SegWit'i puhul, enne kui BIP148, mis soovitab kasutada UASF-i, tuli mängu ja sundis lukustamist BIP91 kaudu.

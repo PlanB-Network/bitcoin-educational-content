@@ -1339,7 +1339,7 @@ This mysterious aspect surrounding the creator of Bitcoin was well summarized by
 > What does the S stand for?"
 
 
-## Evaluate the course
+## Reviews & Ratings
 <chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1479,7 +1479,7 @@ Fourthly, Bitcoin was an altruistic creation. Satoshi Nakamoto offered Bitcoin t
 In 2011, Satoshi disappeared, but Bitcoin survived. The cryptocurrency even definitively took off, both from a media and economic viewpoint. The machine was launched and no one could stop it.
 # Conclusion
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
-## Evaluate this course
+## Reviews & Ratings
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
 <isCourseReview>true</isCourseReview>
 ## Final Exam
@@ -1487,28 +1487,4 @@ In 2011, Satoshi disappeared, but Bitcoin survived. The cryptocurrency even defi
 <isCourseExam>true</isCourseExam>
 ## Conclusion
 <chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
-Congratulations on completing this course!
-
-We are delighted that you have reached this important milestone in your learning journey.
-
-Thanks to your dedication and commitment, you have acquired valuable knowledge and skills that will serve you in your professional development.
-
-To continue exploring the Bitcoin universe in depth, we invite you to discover all other courses available on Plan ₿ Network:
-
-#### Discover Bitcoin and its fundamentals with
-https://planb.network/courses/btc101
-
-#### Discover the Austrian School of Economics with
-https://planb.network/courses/eco201
-
-#### Get and secure your first bitcoins with
-https://planb.network/courses/btc102
-
-#### Update your online security with
-https://planb.network/courses/scu101
-
-#### Discover the evolution of freedom through the ages with
-https://planb.network/courses/phi201
-
-#### Understand the basics of mining
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,5 @@
+---
+term: BIP322
+
+---
+Ehdotetaan uutta standardia, joka korvaa BIP137:n ja jonka avulla viestit voidaan allekirjoittaa Bitcoinin yksityisillä avaimilla ja niihin liittyvillä osoitteilla osoitteen omistajuuden todistamiseksi. Nämä allekirjoitukset ovat hyödyllisiä erilaisissa sovelluksissa, kuten varojen todentamisessa, tilintarkastuksessa ja muissa käyttötarkoituksissa, jotka edellyttävät osoitteen todentamista sen yksityisen avaimen avulla. Verrattuna BIP137:ään BIP322 laajentaa viestien allekirjoitusstandardia perinteisten osoitteiden ulkopuolelle käyttämällä skripteihin perustuvaa lähestymistapaa. Sen avulla lompakko-ohjelmistot voivat allekirjoittaa viestin mille tahansa käsikirjoitukselle, jonka ne voivat avata bitcoinien käyttämiseksi. Tätä varten menetelmä edellyttää tekstin allekirjoittamista tuottamalla allekirjoitus virtuaaliselle Bitcoin-tapahtumalle. Perinteisten P2PKH-osoitteiden osalta BIP322 on edelleen yhteensopiva perinteisen allekirjoitusmuodon kanssa.

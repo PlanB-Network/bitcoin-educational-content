@@ -1,0 +1,5 @@
+---
+term: BIP9
+
+---
+Método para activar bifurcaciones suaves en Bitcoin propuesto en 2015. Introduce un sistema en el que los mineros señalan su apoyo a una bifurcación suave utilizando un bit específico en el campo de versión de los bloques. Una bifurcación suave propuesta en BIP9 se activa si el 95% de los bloques durante un periodo de 2016 bloques (aproximadamente dos semanas, coincidiendo con cada ajuste de dificultad) señalan su aprobación. Tras este bloqueo, se concede un periodo de gracia para que los mineros se preparen para la actualización antes de su activación. Si no se alcanza el umbral del 95% en el plazo máximo asignado, se abandona la bifurcación suave. El BIP9 permite la señalización de varias bifurcaciones suaves simultáneamente, pero otorga un poder considerable a los mineros, ya que si no se alcanza el umbral requerido, la bifurcación suave simplemente se abandona. Este método se utilizó inicialmente para SegWit, antes de que el BIP148, que sugiere el uso de un UASF, entrara en juego y forzara el bloqueo mediante el BIP91.

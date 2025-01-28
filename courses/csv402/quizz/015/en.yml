@@ -1,0 +1,9 @@
+question: What historical concept does RGB apply to the digital world?
+answer: Bearer instruments
+wrong_answers:
+  - Centralized databases
+  - Peer-to-peer networks without validation
+  - Open registers accessible to all
+explanation: |
+  RGB transposes the idea of bearer instruments to digital.
+reviewed: false

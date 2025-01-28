@@ -1,0 +1,7 @@
+---
+term: MEZCLA
+
+---
+En el campo general de las matemáticas, la mezcla o combinación se refiere a la propiedad de un sistema dinámico en el que, al cabo de cierto tiempo, todas las porciones del espacio inicial pueden teóricamente entremezclarse con cualquier otra porción. La mezcla implica que la posición de una partícula o el estado de un sistema evoluciona de tal manera que su distribución futura es independiente de su distribución inicial, alcanzando así un estado en el que las características del estado inicial se distribuyen uniformemente por todo el espacio del sistema. En el contexto de Bitcoin, esta noción puede utilizarse para evaluar la calidad de un proceso de mezcla de monedas como un coinjoin.
+
+> ► *En inglés se habla de "mixing". Algunos bitcoiners diferencian la noción de mixing del proceso de coinjoin. En efecto, dicen que la mezcla se refiere a la combinación de monedas realizada por una entidad propietaria de los fondos, a diferencia de los coinjoins, en los que el usuario siempre conserva la posesión de los fondos. Sin embargo, en mi opinión, esta distinción es incorrecta, porque coinjoin implica necesariamente la mezcla en el sentido matemático del término.md#coinjoin)***

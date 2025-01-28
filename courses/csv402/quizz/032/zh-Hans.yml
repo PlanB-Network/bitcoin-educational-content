@@ -1,0 +1,9 @@
+question: 收到鲍勃的发票后，爱丽丝（发件人）该怎么办？
+answer: 建立一个 PSBT 及其 UTXO，并生成转运委托终端
+wrong_answers:
+  - 签署比特币交易，使用其包含一次性封印的 UTXO
+  - 将托运货物导入自己的钱包，查看合同详情
+  - 为资产问题开具新发票
+explanation: |
+  Alice 必须创建一个 PSBT 以花费与资产相关的 UTXO，然后生成一个终端委托，其中包括向 Bob 的新过渡。
+reviewed: false

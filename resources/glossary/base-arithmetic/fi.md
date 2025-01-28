@@ -1,0 +1,5 @@
+---
+term: (ARITMEETTINEN)
+
+---
+Perus on numerojärjestelmä, jossa käytetään kiinteää merkkimäärää kaikkien mahdollisten numeroiden esittämiseen. Perus määrittää, kuinka monta erillistä symbolia on käytettävissä numeroiden esittämiseen tässä järjestelmässä. Arkielämässä tunnetuin järjestelmä on esimerkiksi emäs 10, jota kutsutaan myös desimaalijärjestelmäksi. Siinä käytetään kymmenen erillistä symbolia `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)` kaikkien lukujen esittämiseen. Muita tietojenkäsittelyn ja matematiikan aloilla yleisesti käytettyjä numerointijärjestelmiä ovat binäärijärjestelmä (perusta 2), jossa on kaksi symbolia `(0, 1)`, ja heksadesimaalijärjestelmä (perusta 16), jossa on kuusitoista symbolia `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F)`. Bitcoinin yhteydessä saatat joskus törmätä koodauksiin, joissa käytetään emäksellä 58 tai muunnetulla emäksellä 32 (nimeltään `Bech32`).

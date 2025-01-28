@@ -1,0 +1,9 @@
+question: Mis on võtmeelement, mis tagab, et Bob saab RGB-s oleku ülemineku ajal vara?
+answer: Uus pitsatimääratlus, mis osutab Bobi UTXO-le
+wrong_answers:
+  - Juhtimistehing ilma UTXO-le viitamata
+  - Alice'i avalik avaldus
+  - Alice'i ja Bobi ühine topeltallkiri
+explanation: |
+  Pitsatimääratlus seob vara krüptograafiliselt Bobi UTXOga, tagades, et see kuulub talle.
+reviewed: false

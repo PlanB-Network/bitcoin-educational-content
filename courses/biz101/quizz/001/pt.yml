@@ -1,0 +1,9 @@
+question: Porque é que a escassez é considerada uma propriedade importante de uma boa moeda?
+answer: Porque a oferta limitada protege o seu valor de ser diluído pela produção excessiva.
+wrong_answers:
+  - Porque garante que todos podem facilmente cunhar a sua própria moeda.
+  - Porque torna mais difícil que a moeda seja reconhecida.
+  - Porque desencoraja a utilização de moeda no comércio a longa distância.
+explanation: |
+  Uma moeda com escassez controlada mantém o seu poder de compra ao longo do tempo. Sem escassez, a emissão excessiva poderia levar à inflação, corroendo o valor da moeda.
+reviewed: false

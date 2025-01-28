@@ -1,0 +1,9 @@
+question: 如何通过 Cargo 安装 rgb 工具？
+answer: cargo install rgb-contracts --all-features
+wrong_answers:
+  - cargo install rgb --features all
+  - cargo install rgb-bitcoin --all
+  - cargo build rgb-lightning --release
+explanation: |
+  使用命令 "cargo install rgb-contracts--all-features "进行安装，板条箱名为 "rgb-contracts"，其中安装了 rgb 工具。
+reviewed: false

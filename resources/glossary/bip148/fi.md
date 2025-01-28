@@ -1,0 +1,5 @@
+---
+term: BIP148
+
+---
+Ehdotus esiteltiin maaliskuussa 2017 kehittäjän toimesta salanimellä Shaolin Fry. BIP148:n tavoitteena oli pakottaa SegWit-päivitys aktivoitumaan Bitcoin-protokollaan vastauksena siihen, että louhijat olivat pysähtyneet tämän soft forkin signalointiin BIP9-menetelmän avulla. BIP148 ehdotti UASF:n (*User-Activated Soft Fork*) toteuttamista SegWitin väkisin aktivoimiseksi solmujen toimesta 15. marraskuuta 2017, jos kaivostyöläiset eivät olleet lukinneet SegWitiä 1. elokuuta 2017 mennessä. Jos BIP148 UASF:n hyväksyminen olisi tapahtunut, Bitcoin-verkon solmut olisivat kieltäytyneet lohkoista, jotka eivät olisi signaloineet SegWit-tukea, mikä olisi painostanut louhijoita hyväksymään päivityksen. Vaikka tätä historiallista BIP:tä ei lopulta aktivoitu, sillä oli ratkaiseva rooli SegWitin onnistuneessa käyttöönotossa, sillä se pakotti kaivostyöläiset lukitsemaan pehmeän haarautumisen BIP91:n avulla. Pidemmällä aikavälillä BIP148 loi tärkeän ennakkotapauksen ja osoitti, että käyttäjät voivat vaikuttaa Bitcoin-protokollan hallintopäätöksiin koko solmujensa kautta.

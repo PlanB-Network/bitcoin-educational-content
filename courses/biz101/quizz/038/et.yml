@@ -1,0 +1,9 @@
+question: Miks on Bitcoini käsitlemisel ettevõtte raamatupidamises oluline hoolikas arvestuse pidamine?
+answer: Kuna iga Bitcoini tehing võib tekitada maksustatava sündmuse ning kasumi, kahjumi ja maksukohustuste arvutamiseks on vaja täpseid andmeid.
+wrong_answers:
+  - Kuna plokiahelat esitab ettevõtte nimel automaatselt maksud.
+  - Sest Bitcoini tehingute suhtes ei kohaldata üldse mingeid raamatupidamisstandardeid.
+  - Sest pärast salvestamist on Bitcoini tehingute jälgimine võimatu.
+explanation: |
+  Iga Bitcoinis tehtud ostu, müügi või makse võib avaldada maksumõju. Üksikasjaliku arvestuse pidamine kulubaasi, müügihinna ja ajastuse kohta tagab korrektse ja nõuetekohase maksuaruandluse.
+reviewed: false

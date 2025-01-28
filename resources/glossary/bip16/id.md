@@ -1,0 +1,5 @@
+---
+term: BIP16
+
+---
+BIP16 memperkenalkan konsep *Pay-to-Script-Hash* (P2SH), yang diterjemahkan menjadi "membayar ke hash skrip". Awalnya diusulkan pada tahun 2012 dan diaktifkan pada tahun 2013, BIP16 bertujuan untuk menyederhanakan penggunaan transaksi yang membutuhkan skrip yang rumit, seperti transaksi multisignature, dengan mengizinkan pengguna untuk membayar ke hash skrip yang dibutuhkan untuk membelanjakan bitcoin tersebut, bukan ke skrip itu sendiri. Inovasi ini mengurangi jumlah data yang dibutuhkan pada transaksi awal, mengalihkan beban untuk menyediakan skrip yang lengkap kepada pihak yang membelanjakan bitcoin. Hal ini juga memungkinkan skrip untuk diungkap hanya pada saat bitcoin dibelanjakan, bukan pada saat penerimaan. BIP16 memiliki nilai historis yang sangat penting karena merupakan salah satu modifikasi besar pertama pada protokol Bitcoin setelah penarikan diri Nakamoto pada tahun 2011. BIP ini menjadi pusat perdebatan yang sangat panas yang bahkan membuat Gavin Andresen, penerus Satoshi sebagai pengelola utama, mengambil cuti. Banyak proposal lain yang muncul, dan beberapa bahkan hampir diaktifkan sebagai pengganti BIP16.

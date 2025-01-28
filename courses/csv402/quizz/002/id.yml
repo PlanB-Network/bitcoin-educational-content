@@ -1,0 +1,9 @@
+question: Dalam trilema CAP, apa yang menjadi trade-off antara validasi dari sisi pelanggan dan ketersediaan?
+answer: Setiap peserta harus menyimpan data yang relevan secara lokal
+wrong_answers:
+  - Data bersifat publik dan secara otomatis direplikasi secara global
+  - Konsistensi dikorbankan demi ketersediaan
+  - Transisi status selalu dipublikasikan di Lightning
+explanation: |
+  Dalam validasi sisi klien, ketersediaan global tidak dijamin, karena peserta harus mengelola data mereka sendiri.
+reviewed: false

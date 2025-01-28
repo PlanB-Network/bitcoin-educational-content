@@ -1289,7 +1289,7 @@ See müstiline aspekt Bitcoini looja ümber võeti hästi kokku Hal Finney poolt
 >
 > Mida tähendab S?"
 
-## Hinda kursust
+## Hinnangud & Reitingud
 
 <chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1430,34 +1430,4 @@ Neljandaks oli Bitcoin altruistlik loomine. Satoshi Nakamoto pakkus Bitcoini maa
 ## Kokkuvõte
 
 <chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
-Õnnitleme kursuse lõpetamise puhul!
-
-Meil on hea meel, et olete jõudnud selle olulise tähiseni oma õpiteel.
-
-Tänu teie pühendumusele ja pühendumisele olete omandanud väärtuslikke teadmisi ja oskusi, mis teenivad teid teie professionaalses arengus.
-
-Et jätkata Bitcoini universumi sügavamat uurimist, kutsume teid avastama kõiki teisi Plan ₿ Network'is saadaval olevaid kursusi:
-
-#### Avastage Bitcoin ja selle põhitõed koos
-
-https://planb.network/courses/btc101
-
-#### Avastage Austria Majanduskool koos
-
-https://planb.network/courses/eco201
-
-#### Saage ja turvake oma esimesed bitcoinid koos
-
-https://planb.network/courses/btc102
-
-#### Uuendage oma võrguturvalisust koos
-
-https://planb.network/courses/scu101
-
-#### Avastage vabaduse areng läbi aegade koos
-
-https://planb.network/courses/phi201
-
-#### Mõistke kaevandamise põhitõdesid koos
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

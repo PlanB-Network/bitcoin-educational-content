@@ -1,0 +1,9 @@
+---
+term: UJI COBA CEPAT
+
+---
+Metode pengaktifan soft fork yang awalnya dikonsep untuk Taproot pada awal tahun 2021 oleh David A. Harding berdasarkan ide dari Russell O'Connor. Prinsipnya adalah menggunakan metode BIP8 dengan parameter `LOT` yang disetel ke `false`, sekaligus mengurangi periode aktivasi menjadi hanya 3 bulan. Periode pemungutan suara yang dipersingkat ini memungkinkan verifikasi persetujuan penambang dengan cepat. Jika ambang batas persetujuan yang diperlukan tercapai selama salah satu periode, soft fork akan dikunci. Soft fork akan diaktifkan beberapa bulan kemudian, sehingga memberikan penambang waktu yang diperlukan untuk memperbarui perangkat lunak mereka.
+
+Keberhasilan metode ini untuk Taproot, yang telah mendapatkan konsensus yang luas di dalam komunitas Bitcoin, tidak menjamin keefektifannya untuk semua pembaruan. Walaupun metode Speedy Trial memungkinkan aktivasi yang lebih cepat, beberapa pengembang mengungkapkan kekhawatirannya mengenai penggunaannya di masa depan. Mereka khawatir metode ini dapat menyebabkan terjadinya pergantian soft fork yang terlalu cepat, yang berpotensi mengancam stabilitas dan keamanan protokol Bitcoin. Dibandingkan dengan BIP8 dengan parameter `LOT=true`, metode Speedy Trial tidak terlalu mengancam para penambang. Tidak ada UASF yang direncanakan secara otomatis. Metode aktivasi ini belum diformalkan dalam BIP.
+
+> istilah "Speedy Trial" dipinjam dari terminologi hukum yang menunjukkan "persidangan yang dipercepat" Hal ini mengacu pada fakta bahwa proposal perbaikan dengan cepat dibawa ke hadapan pengadilan para penambang, untuk menentukan niat mereka. Secara umum diterima untuk menggunakan istilah bahasa Inggris secara langsung dalam bahasa Prancis.*

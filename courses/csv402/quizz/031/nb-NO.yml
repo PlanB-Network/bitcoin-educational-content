@@ -1,0 +1,9 @@
+question: Hva kan jeg gjøre med en faktura i en RGB-overføring?
+answer: Angi type transaksjon, mengden eiendeler som kreves og mottakerens segldefinisjon
+wrong_answers:
+  - Opprett en ny Genesis for eiendelen
+  - Generer et nytt skjema for å endre ressursens forretningslogikk
+  - Å bygge en PSBT for å erstatte Bitcoin-transaksjonen
+explanation: |
+  Fakturaen brukes til å informere utstederen av transaksjonen om typen operasjon, mengden eiendeler som skal overføres og destinasjonen (forseglingsdefinisjon).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kus on RGB-s kohustus, kui ühekordselt kasutatav pitser on suletud?
+answer: Tehingu väljundis, mis kulutab väljundpunkti
+wrong_answers:
+  - Tehingu sisendis kulutatakse väljundpunkti
+  - TehinguSig skriptis, mis kulutab väljundpunkti
+  - Tehingu tunnistaja, kes kulutab väljapoole punkti
+explanation: |
+  Kohustus sisestatakse selle tehingu väljundisse, mis kulutab ühekordse pitseri määratlemise väljundpunkti.
+reviewed: false

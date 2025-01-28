@@ -1,0 +1,9 @@
+question: Kuidas saab Bitcoini maksete vastuvõtmine aidata suurendada ettevõtte nähtavust?
+answer: Lisades ettevõtte selliste platvormide nagu BTCmap.org loetellu ja kasutades Bitcoini kogukonna suusõnalisi teateid.
+wrong_answers:
+  - Keelates kõik muud makseviisid ja sundides kõiki kliente kasutama Bitcoini.
+  - Tagades, et valitsus reklaamib ettevõtet tasuta.
+  - Nõudes klientidelt enne maksmist mitme veebikonto registreerimist.
+explanation: |
+  Bitcoini vastuvõtmine on veel suhteliselt haruldane, mis võib Bitcoini kogukonna huvi äratada. Teie kaupluse registreerimine spetsialiseeritud kataloogides ja kogukonna poolt juhitud reklaamimine võib aidata teil välja paista ja meelitada uusi kliente.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Come si colloca la maggiore efficienza e velocità della Lightning Network rispetto ai metodi di pagamento tradizionali?
+answer: È significativamente più veloce, spesso risolve le transazioni in meno di un secondo, con commissioni più basse e senza dover ricorrere a più intermediari.
+wrong_answers:
+  - I tempi di pagamento corrispondono a quelli delle banche tradizionali, che spesso impiegano da 2 a 5 giorni.
+  - È più lento dei pagamenti con carta tradizionale e prevede commissioni più elevate.
+  - Richiede l'approvazione di più enti, proprio come gli attuali bonifici bancari.
+explanation: |
+  Consentendo transazioni fuori dalla catena e finalizzando i pagamenti quasi istantaneamente, Lightning offre un vantaggio in termini di velocità ed efficienza rispetto ai metodi tradizionali che si affidano a diversi intermediari.
+reviewed: false

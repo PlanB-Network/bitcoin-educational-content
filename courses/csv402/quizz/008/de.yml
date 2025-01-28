@@ -1,0 +1,9 @@
+question: Was ist der Hauptzweck der deterministischen Bitcoin-Verpflichtungen?
+answer: Sicherstellen, dass eine einzige Verpflichtung in eine Transaktion eingefügt wird
+wrong_answers:
+  - Vereinfachung der Struktur von Bitcoin-Transaktionen
+  - Senkung der RGB-Transaktionskosten
+  - Optimierung der Erzeugung von RGB-Mehrfachsignaturen
+explanation: |
+  Deterministische Bitcoin-Zusagen garantieren, dass nur eine einzige Zusage in eine Transaktion eingefügt wird, um versteckte konkurrierende Zusagen zu vermeiden.
+reviewed: false

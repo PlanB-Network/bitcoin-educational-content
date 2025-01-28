@@ -1,0 +1,5 @@
+---
+term: DERIVACIÓN ENDURECIDA
+
+---
+El proceso de generación de claves hijas en los monederos HD. La derivación reforzada utiliza la clave privada padre como entrada para la función `HMAC-SHA512`, lo que imposibilita la generación de claves públicas hijo a partir de la clave pública padre y el código de cadena padre. El proceso consiste en concatenar la clave privada principal y un índice mayor o igual a $2^{31}$, seguido de la aplicación de `HMAC-SHA512` con el código de cadena principal. El resultado se divide en dos partes: los primeros 256 bits se añaden a la clave privada padre para obtener la clave privada hijo, mientras que los 256 bits restantes forman el código de cadena hijo. Este método garantiza que incluso si una clave pública extendida se ve comprometida, no pueda utilizarse para derivar claves públicas hijas. En la derivación estándar, la derivación reforzada se utiliza en todos los niveles de derivación hasta la profundidad de la cuenta. En las notaciones de rutas de derivación, una derivación reforzada se identifica con un apóstrofo `'` o, más raramente, con una `h`.

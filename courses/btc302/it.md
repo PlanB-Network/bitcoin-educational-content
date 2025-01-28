@@ -1309,28 +1309,10 @@ Naturalmente, **in altri paesi, la legislazione e il funzionamento delle associa
 
 
 
-## Valuta il corso
+## Recensioni & Valutazioni
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Prenditi Cura di Te Stesso
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
-
-Quando si cade nella tana del coniglio, la nostra percezione di molte cose cambia.
-Questo ci spinge poi a voler andare oltre, a voler scoprire quelle altre persone stanno facendo lo stesso percorso e se hanno afferrato i concetti chiave.
-Questo ci motiva, ci dà ancora più voglia di **contribuire con la nostra pietra all'edificio** e di condividere la nostra scoperta: Bitcoin.
-Ci porta anche a **pensare al mondo di domani, quello che desideriamo costruire, e alle comunità che sono in fase di costruzione**.
-####
-**In questa lunga galleria che è la creazione di una comunità, avrai bisogno di mostrare motivazione, strategia, auto-sacrificio e tempo**. È a volte un compito ingrato; e in questo sforzo, è meglio prendere le cose poco per volta per non farsi male.
-**Quindi, pensa a te stesso, ai tuoi limiti**. E anche se Bitcoin può animarti notte e giorno, **non cercare di fare tutto da solo; altrimenti, ti esaurirai**.
-
-Al contrario, **chiedi aiuto ai bitcoiner che hanno già attraversato questa stessa galleria, che hanno già esplorato le stesse questioni e costruito gli stessi strumenti**. Questo ti farà risparmiare un'enorme quantità di tempo.
-
-**Proponi anche alle persone che ti seguiranno in questa avventura di aiutarti, anche se ciò significa delegare alcune mansioni** e che queste possano richiedere più tempo. A lungo termine, la tua comunità emergerà unita e più matura.
-
-![immagine](assets/fr/chapter39/63.webp)
-
-Da solo, si può rapidamente esplorare una delle molte gallerie della tana del coniglio di Bitcoin, fino a raggiungere la sua fine. Ma c'è il viaggio di ritorno da fare. Poi tutte le altre direzioni da esplorare.
-Mentre **creando e/o unendoti a una comunità di bitcoiner, condividendo e scambiando con loro regolarmente, esplorerai tutte le direzioni della tana del coniglio di Bitcoin contemporaneamente**.
-
-È allora che, molto più rapidamente di quanto avresti fatto da solo, potrai dire: "Ho capito Bitcoin".
+<isCourseConclusion>true</isCourseConclusion>

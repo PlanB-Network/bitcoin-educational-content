@@ -1,0 +1,9 @@
+question: O que é que a "transição de estado RGB" representa no contexto da rede Lightning?
+answer: Atualização da afetação de activos RGB integrada nas operações de autorização
+wrong_answers:
+  - Um novo estado da cadeia 2/2 onchain multisig
+  - Atualização da afetação de activos RGB integrada na operação de financiamento
+  - Script de validação em cadeia substituído por HTLC
+explanation: |
+  A transição de estado RGB actualiza a distribuição dos activos RGB no canal utilizando transacções de compromisso.
+reviewed: false

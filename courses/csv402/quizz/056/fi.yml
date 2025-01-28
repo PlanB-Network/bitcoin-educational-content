@@ -1,0 +1,9 @@
+question: Mitkä ovat RGB-yhteensopivan Lightning-solmun käyttämiseen tarvittavat pääkomponentit?
+answer: Bitcoind, indeksoija ja RGB-välityspalvelin
+wrong_answers:
+  - Lightning-solmu, indeksoija ja IPFS-palvelin
+  - RGB-mobiililompakko, RGB-välityspalvelin ja bitcoind-palvelin
+  - Web-asiakasohjelma, indeksoija ja RGB-välityspalvelin
+explanation: |
+  RGB-toiminnolla varustetun Lightning-solmun käyttämiseen tarvitaan bitcoind-solmu, joka on yhteydessä Bitcoin-lohkoketjuun, indeksoija, joka louhii ketjussa tapahtuvia transaktioita, ja RGB-välityspalvelin, joka helpottaa lähetysten vaihtoa vertaisvertaisten välillä.
+reviewed: false

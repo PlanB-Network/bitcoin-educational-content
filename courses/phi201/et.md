@@ -1401,7 +1401,7 @@ Hayeki jaoks tuleneb turumajanduse varasem ebastabiilsus asjaolust, et turumehha
 ![image](assets/6/img-006.webp)
 Hayek uskus, et eraomanduses olevate valuutade vaba turg viiks suurema rahalise stabiilsuseni. Peaaegu 50 aastat hiljem kehastab krüptoraha nagu Bitcoin Hayeki konkurentsivõimelist visiooni, pakkudes detsentraliseeritud alternatiivi keskpankade monopolistlikule süsteemile. Bitcoin, mille emiteerimislimiit on 21 miljonit ühikut, on garantii inflatsiooni ja regulaatorite meelevaldsuse vastu.
 
-## Hinda kursust
+## Hinnangud & Reitingud
 
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1446,34 +1446,4 @@ Kõik, mis toimub meie globaalses ühiskonnas, on ideede tulemus. Nii heade kui 
 ## Kokkuvõte
 
 <chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
-Õnnitleme kursuse läbimise puhul!
-
-Meil on hea meel, et olete jõudnud selle olulise verstapostini oma õppimisteel.
-
-Tänu teie pühendumusele ja pühendumisele olete omandanud väärtuslikke teadmisi ja oskusi, mis aitavad teid teie professionaalses arengus.
-
-Et jätkata Bitcoini universumi põhjalikku uurimist, kutsume teid avastama kõiki teisi Plan ₿ Networkis saadaolevaid kursusi:
-
-#### Avasta F. Bastiat' elu koos
-
-https://planb.network/courses/eco102
-
-#### Avasta Bitcoin ja selle põhitõed koos
-
-https://planb.network/courses/btc101
-
-#### Avasta Lightning Network koos
-
-https://planb.network/courses/lnp201
-
-#### Valda Bitcoini privaatsuse põhimõtteid
-
-https://planb.network/courses/btc204
-
-#### Avasta Bitcoini alguse ajalugu koos
-
-https://planb.network/courses/his201
-
-#### Mõista, kuidas Bitcoin rahakott töötab koos
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

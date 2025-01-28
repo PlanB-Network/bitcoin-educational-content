@@ -1,0 +1,9 @@
+question: Hvilken rolle spiller et skjema i RGB?
+answer: Definere kontraktsvariabler, regler og forretningslogikk
+wrong_answers:
+  - Lagre sendinger som utveksles mellom deltakerne
+  - Validering av Pedersen-forpliktelser på Bitcoin-transaksjoner
+  - Opprett tetningsdefinisjoner for hver UTXO
+explanation: |
+  Skjemaet strukturerer kontraktens tilstand og fastsetter tillatte overganger og valideringsbetingelser.
+reviewed: false

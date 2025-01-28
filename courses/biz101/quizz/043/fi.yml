@@ -1,0 +1,9 @@
+question: Mitä Bitcoinin avulla voit tehdä ilman välikäsiä?
+answer: Vaihtoarvo Internetissä
+wrong_answers:
+  - Luo keskitettyjä sovelluksia
+  - Pankkilainojen hankkiminen
+  - Henkilötietojen tallentaminen
+explanation: |
+  Bitcoin mahdollistaa arvonvaihdon Internetissä ilman välikäsiä vertaisverkkoprotokollan avulla.
+reviewed: false

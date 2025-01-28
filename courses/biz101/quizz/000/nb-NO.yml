@@ -1,0 +1,9 @@
+question: Betalingsskinner bygget på toppen av tradisjonelle valutasystemer er ?
+answer: I hovedsak betalt av forhandlerne gjennom gebyrer fra betalingsbehandlerne
+wrong_answers:
+  - I hovedsak gratis fordi kunden betaler prisen som vises av forhandleren
+  - Betales av kunden på toppen av selgerens prisforlangende
+  - Betalt av kortselskapene som videreselger kundenes data
+explanation: |
+  Ingenting er gratis. Betalingsskinnene som er bygget inn i de tradisjonelle valutasystemene, drives av ulike leverandører som kortselskaper og innløsende banker som tar et fast gebyr og/eller en prosentvis avgift for hver transaksjon
+reviewed: false

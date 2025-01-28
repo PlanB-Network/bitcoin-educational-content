@@ -1,0 +1,9 @@
+question: Hva inneholder en sending i RGB?
+answer: Dataene på kundesiden som trengs for å validere en overgang
+wrong_answers:
+  - En komplett kopi av Bitcoin-blokkjeden
+  - En liste over Bitcoins offentlige forpliktelser
+  - Offentlige nøkler til deltakere i tilstandsoverganger
+explanation: |
+  Sendingen inneholder RGB-informasjon som gjør det mulig for mottakeren å validere tilstandsovergangen i henhold til kontraktsreglene.
+reviewed: false

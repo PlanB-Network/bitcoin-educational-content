@@ -1,0 +1,9 @@
+question: Como é que a RGB garante a confidencialidade na gestão de activos digitais?
+answer: Ao registar apenas compromissos criptográficos na cadeia de blocos
+wrong_answers:
+  - Ao encriptar todas as transacções de ponta a ponta na cadeia de blocos
+  - Ao ocultar as identidades dos utilizadores através de misturadores descentralizados
+  - Utilizar apenas endereços Bitcoin temporários para cada transferência
+explanation: |
+  Ao armazenar apenas evidências criptográficas na cadeia, a RGB mantém confidenciais as informações sensíveis sobre contratos e transferências.
+reviewed: false

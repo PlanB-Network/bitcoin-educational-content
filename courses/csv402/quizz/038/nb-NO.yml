@@ -1,0 +1,9 @@
+question: I YAML-filen som brukes til å utstede en eiendel, hvilket felt definerer det totale antallet tokens som er utstedt?
+answer: issuedSupply
+wrong_answers:
+  - assetOwner
+  - spesifikasjon
+  - beløp
+explanation: |
+  Feltet "issuedSupply" i YAML-filen definerer den totale mengden tokens som er utstedt for kontrakten.
+reviewed: false

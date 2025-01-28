@@ -1,0 +1,9 @@
+question: Qual è la considerazione chiave quando si sceglie una piattaforma o un broker per acquistare Bitcoin per un'azienda?
+answer: La reputazione del fornitore, le misure di sicurezza e la capacità di esportare le cronologie delle transazioni per la contabilità.
+wrong_answers:
+  - Garantire che la piattaforma supporti solo criptovalute oscure.
+  - Trovare un provider che si rifiuta di offrire assistenza ai clienti.
+  - Utilizzare un servizio che vieta il prelievo di Bitcoin in un portafoglio di autodeposito.
+explanation: |
+  Una piattaforma affidabile deve avere una solida reputazione, una buona sicurezza e strumenti di registrazione. Anche la possibilità di prelevare Bitcoin e di integrarsi con il software di contabilità è fondamentale per le operazioni commerciali.
+reviewed: false

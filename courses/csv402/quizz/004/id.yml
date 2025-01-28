@@ -1,0 +1,9 @@
+question: Bagaimana RGB meningkatkan skalabilitas dibandingkan dengan blockchain tradisional?
+answer: Dengan membatasi penyimpanan dan validasi hanya pada transisi status yang relevan
+wrong_answers:
+  - Dengan meningkatkan ukuran blok Bitcoin secara virtual
+  - Dengan menghubungkan setiap kontrak secara langsung ke semua UTXO
+  - Dengan memusatkan data kontrak pada beberapa server pusat
+explanation: |
+  RGB mengurangi kebutuhan penyimpanan dan validasi dengan hanya menyimpan data yang relevan untuk setiap peserta.
+reviewed: false

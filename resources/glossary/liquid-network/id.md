@@ -1,0 +1,5 @@
+---
+term: JARINGAN CAIR
+
+---
+Sebuah sidechain Bitcoin yang dikembangkan oleh Blockstream untuk menyediakan transaksi yang cepat dan rahasia. Tidak seperti blockchain utama Bitcoin, Liquid menggunakan mekanisme konsensus berdasarkan federasi (sekelompok operator node yang dipilih, biasanya bisnis yang terkait dengan Bitcoin), sehingga menggantikan mekanisme konsensus Nakamoto. Pendekatan ini secara signifikan mempercepat transaksi dan mengurangi biaya, sambil menawarkan fitur yang lebih canggih. Liquid juga memungkinkan penerbitan aset digital, termasuk token yang mewakili mata uang kripto lainnya. Bitcoin di Liquid, yang dikenal sebagai L-BTC, terkait dengan BTC melalui sistem pasak dua arah berdasarkan bagian dari federasi. Peserta dalam federasi ini disebut "fungsionaris," dan mereka dapat berfungsi sebagai "penjaga" dan "penandatangan blok."

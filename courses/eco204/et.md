@@ -929,7 +929,7 @@ Hüperinflatsioon on põnev teema, mida on uuritud läbi erinevate ajalooliste s
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-## Hinda seda kursust
+## Hinnangud & Reitingud
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -942,34 +942,4 @@ Hüperinflatsioon on põnev teema, mida on uuritud läbi erinevate ajalooliste s
 ## Kokkuvõte
 
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
-Õnnitleme kursuse lõpetamise puhul!
-
-Meil on hea meel, et olete jõudnud selle olulise tähiseni oma õppeteel.
-
-Tänu teie pühendumisele ja pingutustele olete omandanud väärtuslikke teadmisi ja oskusi, mis aitavad teid teie professionaalses arengus.
-
-Et jätkata Bitcoini universumi põhjalikku uurimist, kutsume teid avastama kõiki teisi Plan ₿ Networkis saadaolevaid kursuseid:
-
-#### Avastage F. Bastiat elu koos kursusega
-
-https://planb.network/courses/eco102
-
-#### Avastage Austria koolkonna majanduslik mõtlemine kursusega
-
-https://planb.network/courses/eco201
-
-#### Avastage Bitcoin ja selle põhitõed kursusega
-
-https://planb.network/courses/btc101
-
-#### Uuendage oma veebiturvalisust kursusega
-
-https://planb.network/courses/scu101
-
-#### Hankige ja turvake oma esimesed bitcoinid kursusega
-
-https://planb.network/courses/btc102
-
-#### Avastage Bitcoini päritolu ajalugu kursusega
-
-https://planb.network/courses/his201
+<isCourseConclusion>true</isCourseConclusion>

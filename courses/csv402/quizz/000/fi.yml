@@ -1,0 +1,9 @@
+question: Mikä on lohkoketjun päätehtävä RGB:n käyttämässä asiakaspuolen validointiparadigmassa?
+answer: Tarjoaa aikaleimauksen ja estää päällekkäiset menot
+wrong_answers:
+  - Tallenna kaikki tilasiirtymät
+  - Älykkään sopimuksen tietojen kopiointi
+  - Tietojen maailmanlaajuisen saatavuuden takaaminen
+explanation: |
+  Bitcoin-lohkoketjua käytetään RGB:ssä sitoumusten aikaleimaamiseen ja kaksinkertaisen kuluttamisen estämiseen tallentamatta kaikkia tilasiirtymiä.
+reviewed: false

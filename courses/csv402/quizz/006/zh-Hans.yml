@@ -1,0 +1,9 @@
+question: 在 RGB 中，一次性封条关闭时的承诺在哪里？
+answer: 在事务的输出中，支出点
+wrong_answers:
+  - 在输入的交易支出中，输出点
+  - 在交易的 Sig 脚本中，支出点
+  - 在交易见证中，出点支出
+explanation: |
+  该承诺被插入使用了定义一次性封印的出点的事务输出中。
+reviewed: false

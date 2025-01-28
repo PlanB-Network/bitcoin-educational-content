@@ -1,0 +1,9 @@
+question: Mikä on määritys RGB-protokollassa?
+answer: Lähtö, joka muuttaa, päivittää tai luo ominaisuuksia sopimuksen tilassa
+wrong_answers:
+  - Bitcoin-tapahtumaan tallennettu yksilöllinen kryptografinen sitoumus
+  - Bitcoin-tapahtuma, joka on osittain allekirjoitettu ennen lopullista validointia
+  - Maailmanlaajuisen valtion julkinen päivitys
+explanation: |
+  Assignment yhdistää Seal Definitionin ja Owned State -tilan edustamaan osoitettua osuutta tilasta.
+reviewed: false

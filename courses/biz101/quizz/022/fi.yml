@@ -1,0 +1,9 @@
+question: Mitä yleensä suositellaan, kun osa yrityksen kassavaroista kohdennetaan Bitcoiniin?
+answer: Sijoita vain ylimääräistä likviditeettiä, jota et tarvitse useisiin vuosiin, ja säilytä vähintään neljän vuoden aikahorisontti.
+wrong_answers:
+  - Käytä kaikki operatiiviset käteisvarat välittömästi ottamatta huomioon likviditeettitarpeita.
+  - Tavoitteena on ostaa ja myydä muutaman viikon kuluessa lyhyen aikavälin voittojen maksimoimiseksi.
+  - Sijoita vain silloin, kun tarvitset kiireellistä lyhytaikaista lainaa menojen kattamiseen.
+explanation: |
+  Koska Bitcoinin hinta voi vaihdella lyhyellä aikavälillä, on viisasta käyttää varoja, joita et tarvitse heti, ja pitää niitä vähintään neljä vuotta. Tämä lähestymistapa tasoittaa volatiliteettia ja lisää mahdollisuuksia saavuttaa pitkän aikavälin arvonnousua.
+reviewed: false

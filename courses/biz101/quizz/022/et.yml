@@ -1,0 +1,9 @@
+question: Mida üldiselt soovitatakse, kui osa ettevõtte riigikassast eraldatakse Bitcoinile?
+answer: Investeeri ainult üleliigset likviidsust, mida sa ei vaja mitme aasta jooksul, ja säilita vähemalt nelja aasta pikkune ajahorisont.
+wrong_answers:
+  - Kasutage kogu operatiivne sularaha kohe, arvestamata likviidsusvajadusi.
+  - Püüdke osta ja müüa mõne nädala jooksul, et maksimeerida lühiajalist kasumit.
+  - Investeeri ainult siis, kui vajad kiiresti lühiajalist laenu kulude katmiseks.
+explanation: |
+  Kuna Bitcoini hind võib olla lühiajaliselt kõikuv, on mõistlik kasutada vahendeid, mida te kohe ei vaja, ja hoida neid vähemalt neli aastat. Selline lähenemine tasandab volatiilsust ja suurendab võimalusi pikaajalise väärtuse kasvu realiseerimiseks.
+reviewed: false

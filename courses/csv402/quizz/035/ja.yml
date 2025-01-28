@@ -1,0 +1,9 @@
+question: カーゴ経由でrgbツールをインストールするには？
+answer: カーゴ・インストール rgb-contracts --all-features
+wrong_answers:
+  - カーゴ・インストール rgb --features all
+  - カーゴ・インストール rgb-bitcoin --all
+  - カーゴビルド rgb-lightning --リリース
+explanation: |
+  インストールは "cargo install rgb-contracts --all-features "コマンドで実行される。
+reviewed: false

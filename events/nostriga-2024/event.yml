@@ -1,24 +1,22 @@
-- start_date: 2024-08-23 
+- start_date: 2024-08-23
   end_date: 2024-08-24
   address_line_1: Riga, Latvia
-  address_line_2: 
-  address_line_3: 
+  address_line_2:
+  address_line_3:
   name: NOSTRIGA 2024
-  builder: 
+  builder: Nostr.World
   type: conference
   book_online: false
   book_in_person: false
   price_dollars: 0
   description: Nostr.World Unconference 3rd Edition
-  language: 
+  language:
     - en
   links:
     website: https://nostr.world/
-    
+
     replay_url:
     live_url :
-  tags: 
+  tags:
     - bitcoiner
     - general
-
-

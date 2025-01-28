@@ -1,0 +1,9 @@
+question: Which statement best captures Bitcoin s role as a network and asset for businesses?
+answer: It can act as both a store of value and a medium of exchange in a global, decentralized system.
+wrong_answers:
+  - It can only function as a local gift card system.
+  - It s solely a speculative trading tool with no real utility.
+  - It must be tied to a single country s monetary policies to operate.
+explanation: |
+  Bitcoin s global, internet-native design allows it to serve not just as a store of value but also as a medium of exchange, providing businesses with fast, permissionless, and final settlement of transactions worldwide.
+reviewed: false

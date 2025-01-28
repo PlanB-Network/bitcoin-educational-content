@@ -1,0 +1,7 @@
+---
+term: MULTISIG
+
+---
+Multisignature wallets, often abbreviated as "multisig," are designed to enhance the security of bitcoins by requiring multiple signatures from different private keys to authorize a spending. This method distributes the risk among several keys, which helps to reduce both the risk of loss and theft (depending on the multisig configuration). Multisig wallets operate on an "m-of-n" model, where `m` represents the minimum number of signatures required to validate a transaction, and `n` is the total number of keys involved. For example, a 2-of-3 setup requires two out of three possible signatures to validate a transaction. This approach offers superior security compared to single-key wallets, but it also introduces more complexity in terms of management and backup. Moreover, transactions using older multisig standards are less private and more expensive in fees than traditional singlesig transactions. However, recent innovations such as Taproot and the use of descriptors are expected to minimize, if not eliminate, these drawbacks of multisigs.
+
+> ► *Some bitcoiners differentiate between the terms "Multisig" and "Threshold Multisig." Indeed, some argue that a multisig is necessarily an n-of-n, while a threshold multisig is an m-of-n. However, in common language, it is accepted to refer to "Multisig" even for m-of-n.*

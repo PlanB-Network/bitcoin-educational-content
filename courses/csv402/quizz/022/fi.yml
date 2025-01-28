@@ -1,0 +1,9 @@
+question: Mikä RGB-sopimusoperaatio luo uuden tilan sulkematta sinettiä?
+answer: Valtion laajennus
+wrong_answers:
+  - Tilan siirtyminen
+  - Genesis
+  - Valenssin aktivointi
+explanation: |
+  Valtion laajennuksen avulla voit luoda uuden valtion tai uusia oikeuksia (Valencies) ilman, että sinetti suljetaan välittömästi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: RGB 中使用的一次性密封件的基本特征是什么？
+answer: 只能关闭一次
+wrong_answers:
+  - 只能关闭两次
+  - 它们保证交易的保密性
+  - 它们无需在区块链上达成共识
+explanation: |
+  一次性使用的印章可以创建独一无二的加密承诺，防止重复或重复消费。
+reviewed: false

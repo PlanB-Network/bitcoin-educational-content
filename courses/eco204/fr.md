@@ -1096,7 +1096,7 @@ L'hyperinflation est un sujet fascinant qui a été étudié à travers divers �
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-## Évaluez ce cours
+## Avis & Notes
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1109,33 +1109,4 @@ L'hyperinflation est un sujet fascinant qui a été étudié à travers divers �
 ## Conclusion
 
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
-
-Félicitations pour avoir terminé ce cours !
-
-Nous sommes ravis que vous ayez atteint cette étape importante dans votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous serviront dans votre développement professionnel.
-
-Pour continuer à explorer en profondeur l'univers du Bitcoin, nous vous invitons à découvrir tous les autres cours disponibles sur Plan ₿ Network :
-
-#### Découvrez la vie de F. Bastiat avec
-
-https://planb.network/courses/eco102
-
-#### Découvrez la pensée économique de l'école autrichienne avec
-
-https://planb.network/courses/eco201
-
-#### Découvrez Bitcoin et ses fondamentaux avec
-
-https://planb.network/courses/btc101
-
-#### Mettez à jour votre sécurité en ligne avec
-
-https://planb.network/courses/scu101
-
-#### Obtenez et sécurisez vos premiers bitcoins avec
-
-https://planb.network/courses/btc102
-
-#### Découvrez l'histoire des origines de Bitcoin avec
-
-https://planb.network/courses/his201
+<isCourseConclusion>true</isCourseConclusion>

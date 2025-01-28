@@ -1,0 +1,9 @@
+question: Welches ist das Schlüsselelement, das sicherstellt, dass Bob bei einem Zustandsübergang in RGB eine Anlage erhält?
+answer: Eine neue Siegeldefinition, die auf Bobs UTXO verweist
+wrong_answers:
+  - Eine Kontrolltransaktion ohne Bezug zu einer UTXO
+  - Eine öffentliche Erklärung von Alice
+  - Eine Doppelsignatur, die von Alice und Bob geteilt wird
+explanation: |
+  Die Siegeldefinition verknüpft den Vermögenswert kryptografisch mit Bobs UTXO und stellt damit sicher, dass er der Eigentümer ist.
+reviewed: false

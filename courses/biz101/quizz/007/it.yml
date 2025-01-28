@@ -1,0 +1,9 @@
+question: Quale delle seguenti descrizioni descrive meglio il modo in cui le transazioni Bitcoin raggiungono il carattere definitivo?
+answer: Una volta registrate sulla blockchain, le transazioni sono immutabili e non possono essere alterate.
+wrong_answers:
+  - Le transazioni possono essere stornate dalle banche in caso di controversia.
+  - Gli utenti devono ottenere l'approvazione di più enti governativi per finalizzare una transazione.
+  - Ogni partecipante può modificare a piacimento le transazioni passate, se dispone di un codice speciale.
+explanation: |
+  La blockchain di Bitcoin è un registro a prova di manomissione. Una volta che una transazione viene confermata e inserita in un blocco, diventa parte del registro permanente, garantendo la definitività.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on yksi tärkeimmistä eduista, joita kauppiaat voivat saada Lightning Networkin avulla?
+answer: Alennetut transaktiomaksut
+wrong_answers:
+  - Pankkien takaamat maksut
+  - Automaattinen myynnin kasvu
+  - Kaupallisten verojen poistaminen
+explanation: |
+  Transaktiomaksut Lightning-verkossa ovat hyvin alhaiset, joten se on kustannustehokas ratkaisu kauppiaille.
+reviewed: false

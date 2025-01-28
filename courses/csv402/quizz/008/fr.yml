@@ -1,0 +1,9 @@
+question: Quel est l’objectif principal des deterministic Bitcoin commitments ?
+answer: Assurer qu’un engagement unique est inséré dans une transaction
+wrong_answers:
+  - Simplifier la structure des transactions Bitcoin
+  - Réduire les frais de transaction RGB
+  - Optimiser la génération de multisignatures RGB
+explanation: |
+  Les deterministic Bitcoin commitments garantissent qu’un engagement unique est inséré dans une transaction, afin d'éviter les engagements concurrents cachés.
+reviewed: false

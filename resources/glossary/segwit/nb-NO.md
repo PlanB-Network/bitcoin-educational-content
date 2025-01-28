@@ -1,0 +1,7 @@
+---
+term: SEGWIT
+
+---
+SegWit, et akronym for "Segregated Witness", er en oppdatering av Bitcoin-protokollen som ble introdusert i august 2017. Den har som mål å løse flere tekniske problemer, blant annet problemet med nettverkets transaksjonskapasitet, problemet med transaksjonsfeil og tilrettelegging for fremtidige protokollendringer.
+
+Denne myke gaffelen endrer transaksjonsstrukturen ved å flytte signaturdataene til en egen katalog. Med SegWit fjernes signaturene fra hovedblokken og settes inn i en egen datastruktur på slutten av blokken, kjent som vitnene. Denne separasjonen gjør det mulig å øke kapasiteten til hver blokk uten å endre selve den maksimale blokkstørrelsen, som er 1 MB i Bitcoin. Denne endringen løser også problemet med transaksjonsforfalskning. Før SegWit kunne signaturer endres før en transaksjon ble bekreftet, noe som endret transaksjonsidentifikatoren. Dette gjorde det vanskelig å konstruere komplekse transaksjoner, ettersom en ubekreftet transaksjon kunne få endret sin identifikator. Ved å skille signaturene fra hverandre gjør SegWit at transaksjoner ikke kan forfalskes, ettersom enhver endring i signaturene nå bare påvirker vitneidentifikatoren (WTXID), ikke transaksjonsidentifikatoren (TXID). Ved å løse problemet med manipulerbarhet har SegWit banet vei for videre utvikling på toppen av Bitcoin-systemet, særlig Lightning Network, som muliggjør raske og rimelige transaksjoner.

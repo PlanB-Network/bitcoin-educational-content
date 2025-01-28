@@ -1,0 +1,5 @@
+---
+term: BITCOIND
+
+---
+Forkortelse for "*Bitcoin Daemon*". Det er programvare som implementerer Bitcoin-protokollen og lar brukerne kjøre en node for såkalte RPC-operasjoner (*Remote Procedure Call*). Det er et kommandolinjeprogram (uten GUI) som fungerer som et kommunikasjonsgrensesnitt med Bitcoin. Med andre ord er det et program som kjører i bakgrunnen som brukeren kan samhandle med (daemon). `Bitcoind` var en del av den opprinnelige klienten av Satoshi Nakamoto. Noen anser det som den andre klienten i Bitcoins historie, etter Satoshis første, siden programvareversjonen 0.2.6 tillot kjøring som en daemon uten et grafisk grensesnitt. Den ble senere levert sammen med Bitcoin QT i 2011, en klient som senere ble omdøpt til "Bitcoin Core" i 2014. I dag er `bitcoind` fullt integrert i Bitcoin Core-klienten.

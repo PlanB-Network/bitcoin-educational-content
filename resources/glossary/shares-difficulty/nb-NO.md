@@ -1,0 +1,5 @@
+---
+term: AKSJER VANSKELIGHETER
+
+---
+En målsværhetsgrad som er høyere enn Bitcoin (og dermed mindre vanskelig), definert av en utvinningspool for å kvalifisere en hash av en aksje og vurdere bidraget fra hver enkelt utvinner i poolen. For å håndtere verifikasjonsbelastningen effektivt og sikre at alle utvinnere, uavhengig av regnekraft, sender inn aksjer regelmessig, justerer utvinningspoolene aksjenes vanskelighetsgrad. Vanskelighetsgraden som tildeles hver utvinner, avgjør hvor mange andeler vedkommende får: Hvis en utvinner for eksempel har en tildelt vanskelighetsgrad på 10 og sender inn fem gyldige arbeidsbevis med denne vanskelighetsgraden, får vedkommende 50 andeler. En kraftigere utvinner med en vanskelighetsgrad på 100 som sender inn 7 gyldige arbeidsbevis, vil få 700 aksjer. Dette systemet gjør det mulig å kvantifisere hver gruvearbeideres hashrate nøyaktig og fordele belønningene i henhold til den valgte beregningsmetoden for kompensasjon (PPS, PPLNS, TIDES ...).

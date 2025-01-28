@@ -1,0 +1,9 @@
+question: Hva er fordelen med å starte i det små når man først aksepterer Bitcoin-betalinger?
+answer: Det gjør det mulig for virksomheten å lære av noen få innledende transaksjoner og gradvis gå over til mer sofistikerte løsninger hvis kundenes etterspørsel øker.
+wrong_answers:
+  - Det tvinger virksomheten til å bruke kun løsninger for selvoppbevaring med en gang.
+  - Det forhindrer at virksomheten kan oppgradere eller bytte leverandør senere.
+  - Det krever at et selskap aksepterer Bitcoin fra alle kunder før de forstår prosessen.
+explanation: |
+  Ved å begynne med en enkel tilnærming på startnivå kan virksomheten skaffe seg praktisk erfaring uten betydelig risiko. Hvis interessen for Bitcoin-betalinger viser seg å være verdt det, kan selskapet oppgradere infrastrukturen og integrere mer avanserte verktøy.
+reviewed: false

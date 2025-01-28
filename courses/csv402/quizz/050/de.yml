@@ -1,0 +1,9 @@
+question: Wie werden kryptografische Verpflichtungen (über Taproot oder OP_RETURN) in RGB verwendet?
+answer: Sie verankern Zustandsübergänge in der Blockchain
+wrong_answers:
+  - Sie speichern Vertragsdaten in der Blockchain
+  - Sie ersetzen die clientseitige Validierung durch die Ausführung von Smart Contracts auf der Kette
+  - Sie schaffen Knotenpunkte für die Überprüfung von Transaktionen
+explanation: |
+  Mittels Commitments können Statusaktualisierungen sicher mit einem UTXO verknüpft werden, um die Existenz einer bestimmten Information zu einem bestimmten Zeitpunkt nachzuweisen, ohne die Information selbst preiszugeben.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quale metodo viene utilizzato in RGB per definire un sigillo monouso?
+answer: Un punto di uscita specifico
+wrong_answers:
+  - Una chiave pubblica specifica
+  - Un indirizzo Bitcoin specifico
+  - Una combinazione di più UTXO
+explanation: |
+  RGB definisce un sigillo monouso come un punto di uscita specifico, che può essere chiuso con la spesa di questo punto di uscita (TXID + numero di uscita).
+reviewed: false

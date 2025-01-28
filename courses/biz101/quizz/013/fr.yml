@@ -1,0 +1,9 @@
+question: Selon l'économie autrichienne, pourquoi les bénéfices sont-ils considérés comme un indicateur clé de la santé d'une entreprise ?
+answer: Parce que les bénéfices montrent que l'entreprise répond aux besoins des consommateurs de manière efficace et durable.
+wrong_answers:
+  - Parce que les bénéfices permettent à l'entreprise de disposer de la main-d'œuvre la plus importante de son secteur d'activité.
+  - Car les bénéfices ne sont que le signe que l'entreprise a reçu des subventions publiques.
+  - Parce que les bénéfices reflètent des événements aléatoires du marché sans rapport avec les demandes des consommateurs.
+explanation: |
+  Dans l'économie autrichienne, les bénéfices indiquent qu'une entreprise produit des biens ou des services appréciés par les consommateurs à un prix supérieur au coût de production. Ce résultat suggère une utilisation efficace des ressources et un alignement sur les besoins du marché.
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: BIP66
+
+---
+Introdujo una estandarización del formato de firma en las transacciones. Este PIF se propuso en respuesta a una divergencia en la forma en que OpenSSL gestionaba la codificación de firmas en distintos sistemas. Esta heterogeneidad planteaba el riesgo de dividir la blockchain. El BIP66 estandarizó el formato de firma para todas las transacciones utilizando una codificación DER estricta (*Reglas de codificación diferenciadas*). Este cambio requirió una bifurcación suave. Para su activación, BIP66 utilizó entonces el mismo mecanismo que BIP34, requiriendo que el campo `nVersion` se incrementara a la versión 3, y rechazando todos los bloques de versión 2 o inferior una vez alcanzado el umbral del 95% de mineros. Este umbral se cruzó en el bloque número 363.725 el 4 de julio de 2015.

@@ -1,0 +1,21 @@
+name: Verein Bitcoin Baden
+category: education
+
+links:
+  website: https://bitcoinbaden.ch/
+  twitter: https://twitter.com/bitcoinbaden
+  youtube: https://www.youtube.com/@bitcoinbaden
+
+tags:
+  - finance
+  - easy-explain
+  - adoption
+
+original_language: de
+proofreading:
+  - language: de
+    last_contribution_date: 2025-01-20
+    urgency: 1
+    contributors_id:
+      - hunt-wood
+    reward: 0

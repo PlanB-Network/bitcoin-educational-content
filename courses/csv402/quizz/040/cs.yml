@@ -1,0 +1,9 @@
+question: Jaký je hlavní cíl integrace systému RGB do sítě Lightning?
+answer: Přenos prostředků RGB prostřednictvím kanálů mimo řetězec
+wrong_answers:
+  - Provádění kontraktů RGB přímo v blockchainu bitcoinu
+  - Nahrazení běžných transakcí Lightning chytrými smlouvami RGB
+  - Zvýšení kapacity kanálu přidáním nových UTXO
+explanation: |
+  RGB integrovaná do sítě Lightning Network umožňuje přesouvat aktiva RGB prostřednictvím stavových přechodů vložených do závazkových transakcí, přičemž zůstávají mimo řetězec.
+reviewed: false

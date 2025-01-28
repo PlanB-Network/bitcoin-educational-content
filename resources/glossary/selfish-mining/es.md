@@ -1,0 +1,11 @@
+---
+term: MINERÍA EGOÍSTA
+
+---
+Estrategia (o ataque) en minería, en la que un minero o un grupo de mineros guarda intencionadamente bloques con una prueba de trabajo válida sin difundirlos inmediatamente a la red. El objetivo es mantener una ventaja sobre otros mineros en términos de prueba de trabajo, lo que potencialmente les permite minar varios bloques seguidos y publicarlos todos a la vez, maximizando así sus ganancias.
+
+En otras palabras, el grupo de mineros atacante no mina sobre el último bloque validado por toda la red, sino sobre un bloque creado por ellos mismos, que difiere del validado por la red. Este proceso genera una especie de bifurcación secreta de la cadena de bloques, que permanece desconocida para toda la red hasta que esta cadena alternativa supera potencialmente a la cadena de bloques honesta. Una vez que la cadena secreta de los mineros atacantes se hace más larga (es decir, contiene más trabajo acumulado) que la cadena honesta y pública, se difunde a toda la red. En ese momento, los nodos de la red, que siguen la cadena más larga (con más trabajo acumulado), se sincronizarán con esta nueva cadena. El resultado es una reorganización.
+
+La minería egoísta es problemática porque disminuye la seguridad del sistema al desperdiciar parte de la potencia de cálculo de la red. Si tiene éxito, también provoca reorganizaciones de la blockchain, lo que afecta a la fiabilidad de las confirmaciones de transacciones para los usuarios. Esta práctica sigue siendo arriesgada para el grupo atacante de mineros, ya que a menudo es más rentable minar normalmente en el último bloque conocido públicamente que asignar potencia computacional a una bifurcación secreta que probablemente nunca superará la blockchain honesta. Cuanto mayor sea el número de bloques en la reorganización, menor será la probabilidad de éxito del ataque.
+
+> ► *La traducción inglesa de "minage égoïste" es "minería egoísta". Nótese que un ataque de minado egoísta no debe confundirse con un ataque de retención de bloques

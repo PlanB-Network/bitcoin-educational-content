@@ -1,0 +1,9 @@
+question: Was ist das grundlegende Konzept hinter dem RGB-Protokoll?
+answer: Kundenseitige Validierung über kryptografische Verpflichtungen in der Kette
+wrong_answers:
+  - On-Chain-Validierung durch Turing-komplette intelligente Verträge
+  - Ausschließliche Verwendung von unverschlüsselten Bitcoin-Transaktionen
+  - Vertragsausführung auf einer Blockchain, die für intelligente Verträge bestimmt ist
+explanation: |
+  RGB basiert auf einem clientseitigen Validierungsmodell, bei dem die Verpflichtungen (über Taproot oder OP_RETURN) on-chain eingegeben werden, während der Großteil der Logik und der Daten off-chain gehalten wird.
+reviewed: false

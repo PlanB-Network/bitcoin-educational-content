@@ -1,0 +1,9 @@
+question: Hva gjør Bitcoin at du kan gjøre uten mellomledd?
+answer: Bytteverdi på Internett
+wrong_answers:
+  - Opprett sentraliserte applikasjoner
+  - Oppnå banklån
+  - Lagre personopplysninger
+explanation: |
+  Bitcoin gjør det mulig å utveksle verdier på Internett uten mellomledd gjennom peer-to-peer-protokollen.
+reviewed: false

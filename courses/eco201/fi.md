@@ -57,7 +57,7 @@ Kun rahoituslaitoksella on pankkilisenssi, se käytännössä tarkoittaa, että 
 
 Ostaessasi talon annat pankkiirillesi ohjeet siirtää rahat myyjän tilille. Jos myyjän tili on eri pankissa, pankkiirisi ilmoittaa vastaavalle pankkiirille toisessa laitoksessa varmistaakseen, että myyjän tili hyvitetään asianmukaisesti samalla kun tililtäsi veloitetaan vastaava summa.
 
-![kuva](assets/Image/1.webp)
+![kuva](assets/en/01.webp)
 
 Kuva 1: Rahaluonti kirjanpidollisina merkintöinä
 
@@ -74,7 +74,7 @@ Tämä pulma johti nykyaikaisten keskuspankkien syntyyn. 1800-luvulla Englanniss
 
 Keskuspankkien vastuulla on lisäksi rahoitusvakauden ylläpitäminen sekä keskeisten politiikkakorkojen asettaminen. Nämä korot määrittävät kustannukset, joilla lisensoitut pankit voivat lainata varoja keskuspankilta, määritellen käytännössä likviditeetin kustannuksen rahoituslaitoksille, jotka ovat keskeisessä roolissa lainanannossa talouksissamme. Siksi nämä korot toimivat koko rahoitusjärjestelmän vertailukohtana. Yksilönä, korko, jonka maksat asuntolainastasi, voidaan jakaa politiikkakorkoon ja pankin marginaaliin.
 
-![kuva](assets/Image/2.webp)
+![kuva](assets/en/02.webp)
 
 Kuva2: Lehman Brothersin konkurssi (15.09.2008)
 
@@ -82,7 +82,7 @@ Vuoden 2008 suuren rahoituskriisin aikana Lehman Brothers, suuri investointipank
 
 Vaikka nämä toimenpiteet estivät konkurssien kaskadiaallon, ne tekivät vähän lievittääkseen seuraavaa taloudellista hidastumista. Miljoonat menettivät työpaikkansa ja kotinsa, kulutusmenot romahtivat, yritykset menivät konkurssiin ja pankit kärsivät merkittäviä tappioita. Historiallisesti matalista koroista huolimatta harvat olivat halukkaita lainaamaan, mikä johti noidankehään, jossa alkuperäinen kulutuksen ja investointien väheneminen vahvisti itseään. Seurauksena keskuspankkiirit ottivat lisäaskeleita toteuttamalla kvantitatiivisen keventämisen (QE) ohjelmia. Nämä ohjelmat sisälsivät keskuspankkien ostavan valtion velkakirjoja ja asuntolainoihin sidottuja arvopapereita kaupallisilta pankeilta keskuspankin reserveillä.
 
-![kuva](assets/Image/3.webp)
+![kuva](assets/en/03.webp)
 
 Kuva3: Korkotasot suurissa talouksissa / Lähde: EKP
 
@@ -91,7 +91,7 @@ Monien odotusten vastaisesti QE-ohjelmat eivät merkittävästi elvyttäneet tal
 ### Cantillonin vaikutus
 
 Tästä episodista voidaan kuitenkin vetää olennainen taloudellinen periaate: kun uutta rahaa luodaan, se hyödyttää aluksi niitä, jotka ovat lähimpänä rahan lähdettä, muiden kustannuksella. Tämä taloudellinen oivallus juontaa juurensa 1700-luvulle, kun Richard Cantillon hahmotteli sen teoksessaan "Essee yleisen kaupan luonteesta". Nykyään sitä kutsutaan usein "Cantillonin efektiksi".
-![image](assets/Image/4.webp)
+![image](assets/en/04.webp)
 
 Kuva 4: Cantillonin efekti pähkinänkuoressa / Lähde: River Financial
 
@@ -99,7 +99,7 @@ Tässä tapauksessa pankkiirit, pankin johtajat, osake- ja obligaationomistajat,
 
 Käytännössä järjestelmä on vinoutunut. Pankit ovat luonnostaan epävakaita, mutta niiden kaatuminen voi vaarantaa koko talouden. Tämä moraalikato kannustaa pankin johtajia ottamaan liiallisia riskejä maksimoidakseen pankkinsa tulot, tietäen, että keskuspankki lopulta pelastaa ne, siirtäen kustannukset veronmaksajille. Tällaisissa skenaarioissa keskuspankkiirit luovat olosuhteet massiiviselle ostovoiman siirrolle ahkerilta yksilöiltä ja säästäjiltä omaisuuden omistajille ja rahoitusjärjestelmään liitetyille, irrottaen näin varallisuuden luomisen prosessin varallisuuden kertymisestä.
 
-![image](assets/Image/5.webp)
+![image](assets/en/05.webp)
 
 Kuva 5: Varallisuuden jakautuminen Kiinassa + Euroopassa + Yhdysvalloissa / Lähde: OECD
 
@@ -109,7 +109,7 @@ Pitkittyneiden nollakorkopolitiikoiden (ZIRP) aikana pankeilla on rajalliset mah
 
 Toinen ZIRP:n tahaton seuraus on, että se kannustaa hallituksia laajamittaiseen menojen kasvattamiseen. Koska hallitukset eivät kohtaa lainanottokustannuksia ja voivat luottaa keskuspankkeihin ostamaan heidän obligaatioitaan QE-ohjelmien kautta, niillä on luonnollinen kannustin kuluttaa mahdollisimman paljon, erityisesti demokraattisissa yhteyksissä, joissa menot voivat hankkia ääniä. Tämä taipumus usein sivuuttaa tällaisen finanssipolitiikan pitkän aikavälin seuraukset, johtaen merkittävään julkisen velan tason nousuun kehittyneissä talouksissa Globaalin Finanssikriisin (GFC) jälkeen.
 
-![image](assets/Image/6.webp)
+![image](assets/en/06.webp)
 
 Kuva 6: Julkinen & yksityinen velka % BKT:sta (Maailma, painotettu BKT:lla maittain) / Lähde IMF
 
@@ -145,7 +145,7 @@ Tällaiset kysymykset ovat kiinnostaneet taloustieteilijöitä ja filosofeja mon
 
 Fysiokraattien maan arvon teorian, joka oletti kaiken arvon tulevan maasta, kumottua klassiset taloustieteilijät esittivät työn arvoteorian, jonka mukaan hyödykkeen arvo juontuu siihen käytetystä työmäärästä, oli marginaalisen arvoteorian vuoro syrjäyttää edellinen. 1870-luvulla, Marxin, viimeisen klassisen taloustieteilijän, jälkeen, kolme uutta taloustieteellistä koulukuntaa nousi lähes samanaikaisesti esille marginaalisen arvoteorian ympärille: Lausannen koulu Léon Walrasin johdolla, moderni tai uusklassinen koulu William Stanley Jevonsin johdolla, ja Itävaltalainen koulu Carl Mengerin johdolla. Tämä arvoteorian vallankumous merkitsi merkittävää taloustieteen ajattelun uudistusta.
 
-![image](assets/Image/7.webp)
+![image](assets/en/07.webp)
 
 Vasemmalta oikealle: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -154,7 +154,7 @@ On yleistä esittää näiden kolmen koulukunnan marginalismi samankaltaisena. T
 
 ### Subjektiivinen Arvo
 
-![kuva](assets/Image/15.webp)
+![kuva](assets/en/08.webp)
 
 Itävaltalainen taloustieteilijä kumoaa Adam Smithin seuraajien käsityksen ja hylkää ajatuksen, että hyödykkeen arvo tulee sen tuotannossa käytetystä työmäärästä, suosien käsitystä, että sen arvo määräytyy yksilön toimesta, joka kussakin kontekstissa suorittaa henkisen arvostustoimenpiteen tietyn määrän hyödykkeestä tai palvelusta. Mengerin tekemä älyllinen loikka haastaa arvon objektiivisuuden: hänen mukaansa arvo ei ole hyödykkeiden objektiivinen ominaisuus; se on vain yksilön suhteen tulosta kyseiseen asiaan: "arvoa ei ole olemassa ihmistietoisuuden ulkopuolella."
 
@@ -177,7 +177,7 @@ Tämä subjektiivinen arvon käsite, jota ymmärretään psykologisena suhteena,
 
 ### Työnjako
 
-![kuva](assets/Image/16.webp)
+![kuva](assets/en/09.webp)
 
 Vierailu naulatehtaalla, Léonard Defrance (18. vuosisata)
 
@@ -240,7 +240,7 @@ Tämä peli havainnollistaa ongelmaa, joka kohdataan usein todellisessa elämäs
 
 ### Rahat koordinointiongelmien ratkaisemiseksi
 
-![kuva](assets/Image/17.webp)
+![kuva](assets/en/10.webp)
 
 Tällä ongelma on vähemmän vaikutusta pienissä yhteisöissä (esim. perhe, ystäväpiirit), sillä tällaisissa tapauksissa kaikki tuntevat toisensa suoraan, mikä mahdollistaa toistensa panosten muistamisen. Olettaen, että yhteisöstä lähteminen (aavikkoituminen) aiheuttaa kustannuksia, maineeseen perustuva järjestelmä yksilöiden muistin perusteella on yleensä riittävä välttämään vankien dilemman aiheuttamat ongelmat.
 
@@ -259,7 +259,7 @@ Esivilisaation aikoina näitä teknologioita ei ollut olemassa. Siksi esi-isämm
 
 ### Kahden Sattuman Yhteensattuma ja Kelpoisuus
 
-![kuva](assets/Image/18.webp)
+![kuva](assets/en/11.webp)
 
 Rahaa voidaan pitää ratkaisuna, jonka esi-isämme löysivät taloustieteilijöiden niin kutsuttuun "kahden sattuman yhteensattuma" -ongelmaan. Tällä ongelma on kolme ulottuvuutta: spatiaalinen, ajallinen ja henkilöiden välinen.
 
@@ -303,7 +303,7 @@ Tämä tulevaisuuden hyödykkeiden arvon subjektiivinen arviointi verrattuna nyk
 
 Tämä tulevaisuuden hyödykkeiden suhteellisen arvostuksen käsite nykyisiin hyödykkeisiin verrattuna on korkoilmiön juurella. Todellakin, taloudessa, jossa pääomamarkkinoita ei manipuloida, viitekorkotasot (joita pidetään oletusarvoisesti luottotappioriskittöminä) määräytyvät pääoman tarjonnan ja kysynnän leikkauspisteessä. Siksi nämä korot edustavat koko talouden aikapreferenssin tilaa: korkotason nousu johtuu suhteellisesta kysynnän kasvusta pääomaan verrattuna tarjontaan, mikä osoittaa korkeampia aikapreferenssejä. Päinvastoin, korkotason lasku tapahtuu säästöjen lisääntyessä, mikä on pääoman tarjonnan kasvu, osoittaen aikapreferenssien vähentymistä.
 
-![kuva](assets/Image/9.webp)
+![kuva](assets/en/12.webp)
 
 Taloudessa, jossa keskuspankki ei manipuloi korkotasoa, havaitsemme yleensä nousevan tuottokäyrän: mitä pidempi velan erääntymisaika, sitä korkeampi korkotaso. Vastaista tilannetta ei voi tapahtua, koska se merkitsisi, että tulevaisuus on varmempi kuin nykyisyys, mikä on looginen mahdottomuus.
 
@@ -311,7 +311,7 @@ Aikapreferenssin käsite ja se, miten ilmaisemme oman aikapreferenssimme kulutuk
 
 ### Pääomateoria
 
-![kuva](assets/Image/19.webp)
+![kuva](assets/en/13.webp)
 
 Kurssin alussa näimme, että Carl Mengerin mukaan hyödykkeitä pidetään taloudellisina hyödykkeinä (arvostettuina) vain siksi, että ne toimivat keinoja yksilöiden valitsemiin ja arvostamiin päämääriin. Tämän näkemyksen mukaan kaikki taloudellinen analyysi pyörii kulutuksen ympärillä, koska se on lopulta kaiken taloudellisen toiminnan taustalla oleva motivaatio. Siksi Mengerille taloudellisen analyysin lähtökohta on kulutushyödykkeet tai lopputuotteet, koska ne edustavat taloudellisen toiminnan lopullista tarkoitusta. Kaikki muut talouden hyödykkeet, joita voimme kutsua "välituotteiksi", saavat arvonsa vain siksi, että ne mahdollistavat yksilöiden pääsyn näihin kulutushyödykkeisiin: ne ovat hyödykkeitä, joita käytetään muiden hyödykkeiden tuottamiseen.
 
@@ -325,13 +325,13 @@ Ihmistoiminnan sekventiaalisen luonteen vuoksi näillä aikavälin valinnoilla o
 
 Havainnollistaaksemme tätä seikkaa, palatkaamme esimerkkiin, jonka Böhm-Bawerk esitti teoksessaan "Pääoma ja korko":
 
-![kuva](assets/Image/10.webp)
+![kuva](assets/en/14.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe ja Tuotannon Kiertotie:
 
-![kuva](assets/Image/20.webp)
+![kuva](assets/en/15.webp)
 
 Robinson Crusoe purkaa varastoja haaksirikosta, John Alexander Gilfillan (1793-1864)
 
@@ -353,7 +353,7 @@ Kuten ensimmäisessä luvussa vihjattiin, korkotasot ovat olleet vuosikymmeniä 
 
 Tämä on täydellisesti havainnollistettu alla olevassa kaaviossa: pitkän aikavälin korot ovat matalampia kuin lyhyen aikavälin korot. Ensinnäkin, tämä ei tee mitään järkeä, koska se tarkoittaisi, että tulevaisuus olisi varmempi kuin nykyisyys. Toiseksi, se herättää kysymyksiä pääoman allokaation seurauksista: jos kaikkia kannustetaan toimimaan kuin säästöjä olisi runsaasti, vaikka säästäjiä ei löydykään, koska heitä ei palkita säästämisestä, mitä seurauksia tämä voisi aiheuttaa taloudelle?
 
-![kuva](assets/Image/11.webp)
+![kuva](assets/en/16.webp)
 
 Tämä on se, mitä selvitämme seuraavassa luvussa, joka on omistettu Itävallan liiketoimintasyklin teorialle!
 
@@ -381,13 +381,13 @@ Kuvaillaksemme tätä aikamääreen koordinaatio-ongelmaa ja sen seurauksia mahd
 
 Selityksemme helpottamiseksi palaamme Mengerin hyödykkeiden luokitteluun ja esitämme tuotantorakenteen diagrammissa, joka koostuu mielivaltaisesta määrästä vaiheita:
 
-![kuva](assets/Image/12.webp)
+![kuva](assets/en/17.webp)
 
 Yllä olevassa diagrammissa alkuperäiset resurssit kulkevat läpi eri tuotantovaiheiden, käyden läpi muutoksia, jotka tuovat ne lähemmäksi lopullisten kuluttajahyödykkeiden tilaa (vuorovaikutuksessa alkuperäisten tuotantotekijöiden kanssa: aika, maa, työvoima). Oikean puolen korkeus kaaviossa esittää schematically BKT:ta, koska se merkitsee kaikkien tietyn ajanjakson aikana myytyjen kuluttajahyödykkeiden summaa. Jokaisen palkin välinen ero vastaa arvonlisäystä (rahan termeissä), joka syntyy kussakin prosessin vaiheessa. Tämä ero voidaan myös nähdä kunkin vaiheen tulona (tulot - kulut).
 
 Jos taloudelliset toimijat kokonaisuutena lisäävät säästöjään, lopullisten hyödykkeiden kulutettu määrä vähenee - kaikki muu pysyessä ennallaan, säästäminen edellyttää välttämättä osan kulutuksen lykkäämistä myöhempään ajankohtaan. Seurauksena korkotasot laskevat - koska pääoman tarjonta kasvaa, mikä mahdollistaa yrittäjien käyttää tätä pääoman lisäystä luodakseen uusia investointihyödykkeitä ja näin pidentääkseen tuotantorakennetta.
 Sitten saamme laajennetun tuotantorakenteen, muutoksen, joka voidaan kvalitatiivisesti esittää seuraavassa kaaviossa:
-![kuva](assets/Image/13.webp)
+![kuva](assets/en/18.webp)
 
 Tässä kulutustavaroiden rahallisen arvon kysyntä on vähentynyt, vapauttaen resursseja lisävaiheen tuotantoon. Tässä skenaariossa, jossa korkotason lasku on seurausta kulutuksen vähenemisestä, eli säästöjen lisääntymisestä, kolmion ala, joka edustaa kierrossa olevan rahan määrää, pysyy muuttumattomana. Tuotantorakenteen muutos (pidentyminen) johtuu yksinkertaisesti ostovoiman siirrosta rakenteen yhdestä osasta toiseen.
 
@@ -403,7 +403,7 @@ Alhaisempien korkotasojen myötä yrittäjät voivat lainata enemmän resursseja
 
 Huomaa, että tämä on täysin looginen seuraus luoton laajentumisesta. Koska pankit tuottavat luottovälineitä myöntämällä lainoja, voi luonnollisesti odottaa, että kokonaisostovoima kasvaa.
 
-![kuva](assets/Image/14.webp)
+![kuva](assets/en/19.webp)
 
 Kun luotto tulee talouteen lainoina yrittäjille, meidän tulisi havaita voittojen kasvu tuotantosektoreilla, jotka ovat kaukana kulutuksesta, ja suhteellisten voittojen lasku sektoreilla, jotka ovat lähempänä kulutusta. Tämä korkeampi kannattavuus tukee sitten pääoman uudelleenallokointia näihin uusiin, pääomavaltaisempiin vaiheisiin (laivanrakennus, autoteollisuus, rakentaminen, edistyneet teknologiat jne.) ja investointien vähenemistä kulutukseen lähemmissä sektoreissa.
 Nyt yrittäjät, jotka ovat mukana näissä tuotannon korkeammissa vaiheissa, ansaitsevat suurempia rahatuloja ja, koska aikapreferenssi pysyi samana, meidän pitäisi myös nähdä lisääntynyt kysyntä kulutustuotteille. Mutta koska tämän nousukauden aikana sijoitetun pääoman suhteellinen kannattavuus on ollut korkeampi sektoreilla, jotka ovat kaukana kulutuksesta, on tapahtunut resurssien siirto toiminnasta, joka on lähellä kulutusta, kaukaisempiin toimintoihin. Tämän seurauksena yrittäjät tuotannon alemmissa vaiheissa kärsivät resurssien puutteesta vastatakseen lisääntyneeseen kysyntään. Tämä luo jännitettä näiden kahden tuotantorakenteen osan välille: kumpikin yrittää hankkia pääomaa toisen kustannuksella, ja koska kulutuksen kysyntä edustaa kiireellisempiä tarpeita, jossain vaiheessa kulutuksesta kaukana oleviin toimintoihin sitoutuneet yrittäjät kärsivät resurssien puutteesta sijoitustensa viimeistelyyn. Näiden sektoreiden voittomarginaali alkaa sitten laskea, yritykset menevät konkurssiin, ja kuluttajahintojen suhteellinen nousu motivoi pääoman nopeaa uudelleenallokointia alemman järjestyksen hyödykkeiden tuotantoon. Kun tämä äkillinen resurssien uudelleenallokointi ilmenee, talous ajautuu taantumaan: varallisuuserien hinnat laskevat, reaalipalkat laskevat, kuluttajahinnat laskevat ja varastot kasautuvat.
@@ -452,7 +452,7 @@ Artikkelillaan Mises toi keskusteluun uuden ulottuvuuden. Jättäen utopistiset 
 
 ### Taloudellisen laskennan mahdottomuuden selittäminen
 
-![kuva](assets/Image/24.webp)
+![kuva](assets/en/21.webp)
 
 Suurin osa väärinkäsityksistä Misesin argumenteista johtuu väärinkäsityksestä, joka koskee johtajien ja yrittäjien luokkien rooleja kapitalistisessa taloudessa. Mises ei koskaan vähätellyt johtajien kykyä kehittää tehokkaita tuotantosuunnitelmia omien toimiensa sisällä. Sen sijaan hän korosti yrittäjien ja osakkeenomistajien merkitystä, jotka tuotannontekijöiden omistajina allokoivat pääomaa eri teollisuudenaloille, muodostaen siten hintoja, jotka toimivat syötteinä johtajien taloudellisissa laskelmissa.
 
@@ -518,7 +518,7 @@ Metodologia on olennainen osa taloustieteessä ja yhteiskuntatieteissä yleensä
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
-## Arvioi kurssi
+## Arviot & Arvosanat
 
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -565,38 +565,4 @@ Näitä teoksia lukemalla ja näitä online-resursseja tutkimalla voit kehittä�
 ## Yhteenveto
 
 <chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
-Onnittelut kurssin suorittamisesta!
-
-Olemme iloisia, että olet saavuttanut tämän tärkeän virstanpylvään oppimismatkallasi.
-
-Omistautumisesi ja sitoutumisesi ansiosta olet hankkinut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
-
-Jatkaaksesi Bitcoin-maailman syvällistä tutkimista, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
-
-#### Tutustu F. Bastiatin elämään kurssilla
-
-https://planb.network/courses/eco102
-
-#### Ymmärrä hyperinflaatioiden synty kurssilla
-
-https://planb.network/courses/eco204
-
-#### Tutustu Bitcoiniin ja sen perusteisiin kurssilla
-
-https://planb.network/courses/btc101
-
-#### Päivitä verkkoturvallisuutesi kurssilla
-
-https://planb.network/courses/scu101
-
-#### Tutustu Lightning Networkiin kurssilla
-
-https://planb.network/courses/lnp201
-
-#### Opi luomaan oma Bitcoin-yhteisösi kurssilla
-
-https://planb.network/courses/btc302
-
-#### Ymmärrä Bitcoin-lompakon toiminta kurssilla
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

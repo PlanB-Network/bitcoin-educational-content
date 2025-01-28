@@ -1,0 +1,5 @@
+---
+term: ECASH (DAVID CHAUM)
+
+---
+Protokol navržený Davidem Chaumem v roce 1982, který je jedním z prvních systémů digitální měny navržených tak, aby zachovával anonymitu uživatele. Je založen na principech kryptografie s veřejným klíčem a vytváří digitální měnu, kterou lze bezpečně a anonymně vyměňovat. eCash funguje tak, že vytváří digitální tokeny podepsané bankou. Představuje tak evoluci depozitních bank, aniž by byla decentralizovaná. Během transakcí jsou tyto tokeny převáděny mezi stranami bez odhalení identity uživatelů, čímž je zachováno jejich soukromí. eCash je považován za předchůdce kryptoměn. Často se objevuje v diskusích o Bitcoinu, přičemž někteří chtějí používat systémy podobné eCash jako nadstavbu. Dnes se spíše prosazují takzvané "federativní chamské" systémy, jako je Fedimint.

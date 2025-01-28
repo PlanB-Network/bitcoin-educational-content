@@ -1,0 +1,9 @@
+question: Apa saja komponen utama yang diperlukan untuk menjalankan Lightning node yang kompatibel dengan RGB?
+answer: Sebuah bitcoind, pengindeks dan server proxy RGB
+wrong_answers:
+  - Node Lightning, pengindeks, dan server IPFS
+  - Dompet seluler RGB, server proxy RGB, dan bitcoind
+  - Klien web, pengindeks, dan server proxy RGB
+explanation: |
+  Untuk menjalankan node Lightning berkemampuan RGB, Anda memerlukan node bitcoind untuk berinteraksi dengan blockchain Bitcoin, pengindeks untuk menambang transaksi on-chain, dan server proksi RGB untuk memfasilitasi pertukaran kiriman antar rekan.
+reviewed: false

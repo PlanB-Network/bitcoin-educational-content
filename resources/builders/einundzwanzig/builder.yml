@@ -1,0 +1,20 @@
+name: EINUNDZWANZIG
+category: education
+
+links:
+  website: https://einundzwanzig.space
+  twitter: https://twitter.com/_einundzwanzig_
+  youtube: https://www.youtube.com/c/EinundzwanzigPodcast
+
+tags:
+  - adoption
+  - easy-explain
+
+original_language: de
+proofreading:
+  - language: de
+    last_contribution_date: 2025-01-20
+    urgency: 1
+    contributors_id:
+      - hunt-wood
+    reward: 0

@@ -1,0 +1,9 @@
+question: 哪条命令可以将合约从储藏库导出到外部文件？
+answer: rgb 导出 '<ContractId>' myContractPBN.rgb
+wrong_answers:
+  - rgb 下载 '<ContractId>' myContractPBN.rgb
+  - rgb dump '<ContractId>' myContractPBN.rgb
+  - rgb 问题 '<ContractId>' myContractPBN.rgb
+explanation: |
+  rgb 导出 "命令用于从存储库中提取合同，并将其保存为文件，以便于共享。
+reviewed: false

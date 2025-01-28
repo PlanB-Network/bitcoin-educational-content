@@ -1,0 +1,5 @@
+---
+term: ZEROCONF
+
+---
+Riziková praxe, kdy se transakce v bitcoinech považuje za konečnou a na oplátku se přistoupí k provedení souvisejícího úkonu (například prodeje zboží nebo služby) ještě předtím, než je transakce skutečně zařazena do bloku v blockchainu. Nepotvrzené transakce neboli zerokonf jsou zranitelné vůči útokům typu double-spend, protože ještě nejsou neodvolatelně zaznamenány v účetní knize. Zeroconf lze zvážit ve velmi specifických kontextech, kde je prioritou rychlost, například v případě malých obchodních transakcí nebo v případě transakce mezi známými. V těchto situacích je riziko dvojího výdaje často považováno za přijatelné ve srovnání s výhodou rychlé transakce. Nicméně u významných transakcí, zejména pokud je odesílatel neznámý, je zásadní počkat na několik potvrzení, než se transakce považuje za neměnnou. Obecně přijímaným standardem je počkat na 6 potvrzení, což znamená, že po bloku obsahujícím transakci musí být vytěženo dalších 5 bloků, aby bylo možné transakci považovat za konečnou.

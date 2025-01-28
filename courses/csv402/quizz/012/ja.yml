@@ -1,0 +1,9 @@
+question: RGBプロトコルのアサインメントとは何ですか？
+answer: 契約状態のプロパティを変更、更新、または作成する出力。
+wrong_answers:
+  - ビットコイン取引に格納される一意の暗号コミットメント
+  - 最終検証前に部分的に署名されたビットコイン取引
+  - グローバル・ステートの公開アップデート
+explanation: |
+  Assignment は、Seal Definition と Owned State を組み合わせたもので、ステートの割り当て部分を表す。
+reviewed: false

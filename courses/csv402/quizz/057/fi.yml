@@ -1,0 +1,9 @@
+question: Millä komennolla RLN:ssä asennetaan "rgb-lightning-node"-binary arkiston kloonauksen jälkeen?
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --polku ."
+explanation: |
+  Komento "cargo install --locked --debug --path ." kääntää ja asentaa "rgb-lightning-node"-binaryn.
+reviewed: false

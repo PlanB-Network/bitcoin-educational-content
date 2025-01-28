@@ -1,0 +1,5 @@
+---
+term: RIPEMD160
+
+---
+Lühendatult *Euroopa arenenud sidetehnoloogiate teadus- ja arendustegevus Integrity Primitives Evaluation Message Digest 160*. See on krüptograafiline hash-funktsioon, mis genereerib 160-bitise digesti suvalisest sisendist. Seda kasutatakse Bitcoinis avaliku võtme teisendamiseks Legacy ja SegWit v0 standardite puhul vastuvõtu aadressiks (SegWit v1 puhul ei ole avalik võti hashitud). Protsessi käigus rakendatakse avaliku võtme suhtes esmalt hash-funktsiooni `SHA256`, seejärel rakendatakse tulemuse suhtes `RIPEMD160`. Seda kahe erineva hash-funktsiooni kombinatsiooni tuntakse Bitcoini kontekstis kui `HASH160`. `RIPEMD160` kasutatakse ka deterministlikes ja hierarhilistes rahakottides võtme sõrmejälgede arvutamiseks. Täpsemalt kasutatakse `HASH160` vanemvõtme sõrmejälje arvutamiseks, mis seejärel lisatakse laiendatud võtme metaandmetesse (xpub, xprv...).

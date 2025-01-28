@@ -1,0 +1,11 @@
+---
+term: ESTRAZIONE MINERARIA EGOISTICA
+
+---
+Strategia (o attacco) nel mining, in cui un minatore o un gruppo di minatori conserva intenzionalmente blocchi con una prova di lavoro valida senza trasmetterli immediatamente alla rete. L'obiettivo è quello di mantenere un vantaggio sugli altri minatori in termini di prova di lavoro, il che potenzialmente consente loro di estrarre diversi blocchi di fila e pubblicarli tutti in una volta, massimizzando così i loro guadagni.
+
+In altre parole, il gruppo di minatori attaccante non effettua il mining sull'ultimo blocco convalidato dall'intera rete, ma piuttosto su un blocco da loro stessi creato, diverso da quello convalidato dalla rete. Questo processo genera una sorta di biforcazione segreta della blockchain, che rimane sconosciuta all'intera rete finché questa catena alternativa non supera potenzialmente la blockchain onesta. Una volta che la catena segreta dei minatori attaccanti diventa più lunga (cioè contiene più lavoro accumulato) della catena onesta e pubblica, viene trasmessa all'intera rete. A quel punto, i nodi della rete che seguono la catena più lunga (con il maggior numero di lavoro accumulato) si sincronizzano con questa nuova catena. In questo modo si ottiene una riorganizzazione.
+
+Il selfish mining è problematico perché riduce la sicurezza del sistema sprecando parte della potenza di calcolo della rete. Se ha successo, porta anche a riorganizzazioni della blockchain, compromettendo l'affidabilità delle conferme delle transazioni per gli utenti. Questa pratica rimane rischiosa per il gruppo di minatori attaccanti, in quanto spesso è più redditizio eseguire il mining normalmente sull'ultimo blocco noto pubblicamente piuttosto che allocare la potenza di calcolo a un fork segreto che probabilmente non supererà mai la blockchain onesta. Maggiore è il numero di blocchi nella riorganizzazione, minore è la probabilità di successo dell'attacco.
+
+> *La traduzione inglese di "minage égoïste" è "selfish mining". Si noti che un attacco di tipo "selfish mining" non deve essere confuso con un attacco di tipo "block withholding "*

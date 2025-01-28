@@ -1,0 +1,9 @@
+question: What is the main role of Schema in an RGB contract?
+answer: Describe the business logic and data structure of the contract
+wrong_answers:
+  - Defining the interface for RGB wallets
+  - Managing the compilation of scripts on the blockchain
+  - On-chain cryptographic validation
+explanation: |
+  The Schema defines the declarative structure, data types and validation rules of the contract, enabling you to manage the business logic on the customer's side.
+reviewed: false

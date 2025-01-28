@@ -1,0 +1,9 @@
+question: Miten varmistetaan salamakanavan RGB-siirtymän turvallisuus, jos vanhentunut tila lähetetään?
+answer: Salamakanavan rangaistusmekaniikan avulla -
+wrong_answers:
+  - Peruuttamalla automaattisesti kaikki aiemmat tapahtumat
+  - RGB-protokollan rangaistusmekaniikan avulla -
+  - RGB-varojen liikkeeseenlaskija voi puuttua asiaan Genesis-järjestelmään liittyvän allekirjoituksensa kautta
+explanation: |
+  Lightning Networkin klassinen rangaistusmekanismi varmistaa, että vanhan tilan levittämisestä voidaan rangaista perimällä takaisin kaikki siihen liittyvät varat, myös RGB-varat.
+reviewed: false

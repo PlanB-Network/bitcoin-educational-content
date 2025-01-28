@@ -1,0 +1,9 @@
+question: Qual è il concetto fondamentale del protocollo RGB?
+answer: Convalida lato cliente tramite impegni crittografici sulla catena
+wrong_answers:
+  - Convalida on-chain da parte di contratti smart Turing-completi
+  - Utilizzo esclusivo di transazioni Bitcoin non crittografate
+  - Esecuzione del contratto su una blockchain dedicata ai contratti intelligenti
+explanation: |
+  RGB si basa su un modello di convalida lato client in cui gli impegni (tramite Taproot o OP_RETURN) vengono inseriti nella catena, mentre la maggior parte della logica e dei dati viene mantenuta fuori dalla catena.
+reviewed: false

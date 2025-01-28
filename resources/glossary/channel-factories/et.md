@@ -1,0 +1,5 @@
+---
+term: KANALITEHASED
+
+---
+Praegu Lightning'ile arendatav täiustatud mehhanism, mis võimaldab luua ja hallata mitut maksekanalit ühest UTXO-st. Kanalitehased kasutavad "n-ni" multisig-aadresse, nii et grupp kasutajaid saab ühiselt omada ühte UTXO-d. Sealt saavad nad avada ja sulgeda omavahelisi maksekanaleid ilma täiendavate tehinguteta ahelas, välja arvatud juhul, kui nad soovivad oma raha tehasest välja võtta. See meetod võiks märkimisväärselt vähendada kulusid ja Lightning-tehingute jaoks Bitcoinis hõivatud ruumi. Praktikas tähendab see, et toiminguid, mis tavaliselt nõuaksid iga kanali avamise või sulgemise puhul tehinguid ahelas, saab teha ahelaväliselt, kusjuures turvalisus on tagatud võimalusega avaldada vajadusel avaldamata tehingud. David A. Hardingi sõnu kasutades võib kanalitehaseid kirjeldada kui Lightning-kanaleid, mida kasutatakse teiste Lightning-kanalite genereerimiseks.

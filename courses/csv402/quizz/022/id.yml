@@ -1,0 +1,9 @@
+question: Operasi kontrak RGB mana yang menciptakan keadaan baru tanpa menutup segel?
+answer: Perpanjangan Negara Bagian
+wrong_answers:
+  - Transisi Negara
+  - Kejadian
+  - Aktivasi Valensi
+explanation: |
+  Ekstensi Negara memungkinkan Anda untuk membuat negara bagian atau hak baru (Valuta), tanpa segel langsung ditutup.
+reviewed: false

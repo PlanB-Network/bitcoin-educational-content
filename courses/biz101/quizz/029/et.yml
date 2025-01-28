@@ -1,0 +1,9 @@
+question: Mis on Lightning Networki maksete eelis kaupmeeste jaoks müügikohas?
+answer: Välkmaksed arveldatakse peaaegu koheselt ja need ei nõua mitut vahendajat, vähendades tasusid ja arveldusviivitusi.
+wrong_answers:
+  - Välkmaksete kinnitamine võtab nädalaid ja nõuab suurt paberimajandust.
+  - Välkmaksed toimuvad ainult siis, kui keskpanga asutus on need heaks kiitnud.
+  - Ostja võib välkmakseid pärast müüki soovi korral tühistada.
+explanation: |
+  Lightning Network muudab tehingud kiiremaks ja odavamaks, võimaldades ahelaväliseid arveldusi. Kaupmehed saavad raha peaaegu koheselt, minimaalsete tasudega ja ilma traditsiooniliste maksevahendajate abita.
+reviewed: false

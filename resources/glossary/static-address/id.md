@@ -1,0 +1,7 @@
+---
+term: ALAMAT STATIS
+
+---
+Dalam konteks Silent Payments, mengacu pada pengenal unik yang memungkinkan penerimaan pembayaran tanpa penggunaan ulang alamat, tanpa interaksi, dan tanpa tautan on-chain yang terlihat antara berbagai pembayaran dan alamat statis. Teknik ini menghilangkan kebutuhan untuk membuat alamat penerima baru yang tidak terpakai untuk setiap transaksi, sehingga menghindari interaksi yang biasa terjadi pada Bitcoin di mana penerima harus memberikan alamat baru kepada pembayar. Hal ini agak mirip dengan kode pembayaran yang dapat digunakan kembali dalam konteks BIP47.
+
+Alamat ini terdiri dari dua kunci publik: $B_{\text{scan}}$ untuk pemindaian dan $B_{\text{spend}}$ untuk pengeluaran, yang digabungkan untuk membentuk alamat statis $B = B_{\text{scan}} \text{ ‖ } B_{\text{belanja}}$. Penerima mempublikasikan alamat ini, sehingga pengirim dapat memperoleh alamat pembayaran yang unik tanpa perlu berinteraksi lebih lanjut dengan penerima. Untuk mengelola beberapa sumber pembayaran yang berbeda, sebuah label dapat ditambahkan ke $B_{\text{spend}}$, sehingga menciptakan beberapa alamat statis berlabel dari $B_1$, $B_2$, dan seterusnya. Hal ini memungkinkan pemisahan pembayaran dengan menggunakan satu alamat dasar, sehingga mengurangi beban kerja untuk pemindaian blockchain. Akan tetapi, semua alamat statis dari sebuah entitas dapat dengan mudah dihubungkan karena penggunaan umum dari $B_{\text{scan}}$.

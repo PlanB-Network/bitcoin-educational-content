@@ -1,0 +1,18 @@
+name: BitcoinDay
+category: conference
+
+links:
+  website: https://bitcoinday.io
+  twitter: https://twitter.com/bitcoindayio
+
+tags:
+  - user-friendly
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-21
+    urgency: 1
+    contributors_id:
+      - hunt-wood
+    reward: 0

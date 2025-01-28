@@ -1,0 +1,7 @@
+---
+term: MEJA BUNDAR HONG-KONG
+
+---
+Sebuah peristiwa bersejarah dari Blocksize War yang berlangsung pada tanggal 20 Februari 2016 di Hong Kong. Ini adalah pertemuan penting antara pengembang dan penambang Bitcoin Core untuk mendiskusikan skalabilitas sistem dan strategi untuk meningkatkannya. Ketegangan sangat tinggi sebelum pertemuan tersebut, terutama karena munculnya Bitcoin Classic, sebuah proposal hard fork yang didukung oleh Gavin Andressen yang bertujuan untuk meningkatkan ukuran blok menjadi 2 MB. Tokoh-tokoh berpengaruh dalam ekosistem ikut serta dalam perdebatan tersebut, termasuk Jihan Wu dan Micree Zhan, salah satu pendiri Bitmain, Adam Back, presiden Blockstream, serta Luke Dashjr, Matt Corallo, dan Peter Todd.
+
+Para penambang, yang merasa frustasi dengan kurangnya kemajuan, mengancam akan mendukung Bitcoin Classic jika hard fork 2 MB tidak diimplementasikan. Para pengembang membela SegWit sebagai solusi yang layak. Setelah berjam-jam negosiasi yang menegangkan, sebuah kesepakatan tercapai, yang menyatakan bahwa pengembang Bitcoin Core akan mengerjakan hard fork setelah implementasi SegWit. Kesepakatan ini seharusnya meredakan ketegangan, tetapi pada akhirnya malah menciptakan lebih banyak ketidakpercayaan dan kebingungan. Masing-masing pihak menafsirkan perjanjian tersebut secara berbeda, sehingga memperparah perpecahan di dalam komunitas. Meskipun kesepakatan ini untuk sementara memperlambat momentum Bitcoin Classic, namun banyak yang menganggapnya sebagai solusi yang tidak memuaskan dan canggung.

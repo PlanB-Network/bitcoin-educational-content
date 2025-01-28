@@ -1,0 +1,5 @@
+---
+term: ELLIPTISCHE KURVE
+
+---
+Im Zusammenhang mit der Kryptographie ist eine elliptische Kurve eine algebraische Kurve, die durch eine Gleichung der Form $y^2 = x^3 + ax + b$ definiert ist. Diese Kurven werden in der Elliptischen Kurven-Kryptographie (ECC) verwendet, einer Methode der Public-Key-Kryptographie, die die Erstellung von Verschlüsselungsalgorithmen, digitalen Signaturen und Schlüsselaustauschmechanismen ermöglicht. Im Zusammenhang mit Bitcoin werden der ECDSA (*Elliptic Curve Digital Signature Algorithm*) oder das Schnorr-Protokoll mit der Kurve "secp256k1" verwendet. Diese Kurve wurde aufgrund ihrer Leistungs- und Sicherheitseigenschaften ausgewählt. Diese Algorithmen werden verwendet, um öffentliche Schlüssel aus privaten Schlüsseln zu generieren und um Transaktionen zu signieren, wodurch Bitcoins entsperrt werden.

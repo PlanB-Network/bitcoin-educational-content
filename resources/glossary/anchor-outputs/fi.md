@@ -1,0 +1,5 @@
+---
+term: ANCHOR OUTPUTS
+
+---
+Ehdotus, jonka tarkoituksena on parantaa transaktiomaksujen hallinnointia Lightning-kanavissa. Jokaisen Lightning-kanavan tilamuutoksen yhteydessä sidosryhmät luovat ja allekirjoittavat uuden sitoumustapahtuman, joka kuvastaa varojen uutta jakautumista kanavan sisällä. Tämän mekanismin ongelmana on transaktiomaksujen määrittäminen transaktion luontihetkellä. Bitcoin-verkon transaktiomaksut vaihtelevat huomattavasti sekä ylös- että alaspäin. Jos viimeisimmän sitoumustapahtuman maksut eivät ole riittäviä kanavan yksipuolisen sulkemisen aikaan, tapahtuman vahvistaminen kestää huomattavan kauan, ja lisäksi ajalliset lukitusmekanismit (timelockit) voivat mahdollistaa varojen varastamisen. Ankkuritulot varaavat pienen osan sitoumustapahtuman varoista tulevien maksujen kattamiseksi. Verkon ruuhkautuessa ja maksujen noustessa ankkuritulosteet mahdollistavat transaktiomaksujen muuttamisen sitoumustransaktion luomisen jälkeen, mikä takaa Lightning-kanavan riittävän nopean sulkemisen.

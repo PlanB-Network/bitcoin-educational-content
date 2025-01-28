@@ -1,0 +1,5 @@
+---
+term: BIP32
+
+---
+Il BIP32 ha introdotto il concetto di portafoglio deterministico gerarchico (portafoglio HD). Questa proposta consente di generare una gerarchia di coppie di chiavi a partire da un "seme principale" comune, utilizzando funzioni di derivazione unidirezionali. Ogni coppia di chiavi generata può essere a sua volta genitore di altre chiavi figlie, formando così una struttura ad albero (gerarchica). Il vantaggio del BIP32 è che consente di gestire più coppie di chiavi diverse, con la necessità di mantenere un solo seme per rigenerarle. Questa innovazione ha contribuito notevolmente a combattere il problema del riutilizzo degli indirizzi, grave per la privacy degli utenti. BIP32 consente anche la creazione di sottobranche all'interno dello stesso portafoglio per facilitarne la gestione.

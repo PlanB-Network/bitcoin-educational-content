@@ -3752,7 +3752,7 @@ _Um dieses Kapitel über Silent Payments zu erstellen, habe ich [die Silent Paym
 # Abschluss
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-## Bewerten Sie diesen Kurs
+## Bewertungen & Noten
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -3762,36 +3762,4 @@ _Um dieses Kapitel über Silent Payments zu erstellen, habe ich [die Silent Paym
 
 ## Fazit
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
-Herzlichen Glückwunsch zum Abschluss dieser Schulung über Bitcoin-Privatsphäre!
-
-In dieser Schulung haben wir viele fortgeschrittene und technische Themen behandelt, aber es ist nicht zwingend erforderlich, alle vorgestellten Tools zu verwenden. Das Hauptziel war es, Sie zu befähigen, selbst zu entscheiden, welche Informationen Sie preisgeben und welche Sie bei der Nutzung von Bitcoin vertraulich behandeln möchten. Dies verkörpert das Wesen des Datenschutzes. Um fundierte Entscheidungen darüber zu treffen, welche Informationen Sie teilen oder verbergen möchten, müssen Sie sich der Auswirkungen Ihrer Handlungen bewusst sein. Ich hoffe, dass diese Schulung Ihnen geholfen hat, dieses Wissen zu erwerben.
-
-Wenn ich den wichtigsten Teil dieser Schulung auswählen müsste, würde ich den Abschnitt über Chain-Analyse wählen. Das Verständnis der Techniken, die von Ihren potenziellen Angreifern verwendet werden, ist der beste Weg, sich davor zu schützen. Mein Rat wäre daher, diesen Teil sorgfältig durchzugehen und zu versuchen, alle Details zu erfassen.
-
-In dieser Schulung haben wir uns ausschließlich auf die Bitcoin-Privatsphäre auf der Hauptkette konzentriert. Datenschutzfragen bei Second-Layer-Systemen wie dem Lightning Network und Sidechains sind ebenfalls wichtig und haben sehr spezifische Eigenschaften. Während die Verwendung von Off-Chain-Transaktionen eine effektive Strategie sein kann, um viele der von uns untersuchten Bitcoin-Rückverfolgbarkeitsrisiken zu umgehen, setzt sie Sie anderen Risiken aus, die ebenfalls wichtig zu kennen sind. Deshalb werden diese Themen in einer zukünftigen speziellen Schulung auf Plan ₿ Network behandelt.
-
-Wenn Ihnen diese Schulung gefallen hat, wäre ich Ihnen sehr dankbar, wenn Sie sie mit Ihren Angehörigen und in sozialen Medien teilen würden. Danke! :)
-
-Um Ihr Wissen im Bitcoin-Universum weiter zu vertiefen, laden wir Sie ein, weitere Kurse auf Plan ₿ Network zu erkunden, wie zum Beispiel:
-
-#### Verstehen Sie, wie eine Bitcoin-Wallet funktioniert mit
-https://planb.network/courses/cyp201
-
-#### Lernen Sie, Ihre Bitcoin-Community aufzubauen mit
-https://planb.network/courses/btc302
-
-#### Entdecken Sie die Geschichte der Ursprünge von Bitcoin mit
-https://planb.network/courses/his201
-
-#### Konfigurieren Sie einen BTC-Zahlungsserver mit
-https://planb.network/courses/btc305
-
-#### Entdecken Sie das Lightning Network mit
-https://planb.network/courses/lnp201
-
-#### Entdecken Sie die Entwicklung der Freiheit im Laufe der Zeit mit
-https://planb.network/courses/phi201
-$$
-
-
-
+<isCourseConclusion>true</isCourseConclusion>

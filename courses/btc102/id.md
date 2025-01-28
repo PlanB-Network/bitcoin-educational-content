@@ -1002,7 +1002,7 @@ Dalam hal apapun, semua kursus kami gratis, dan banyak sumber daya atau tutorial
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Evaluasi Kursus
+## Ulasan & Penilaian
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1015,34 +1015,4 @@ Dalam hal apapun, semua kursus kami gratis, dan banyak sumber daya atau tutorial
 ## Kesimpulan
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
-Selamat atas keberhasilan Anda menyelesaikan kursus ini!
-
-Kami sangat senang Anda telah berhasil mencapai tonggak penting ini dalam perjalanan pembelajaran Anda. Melalui dedikasi dan keterlibatan Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan bermanfaat dalam pengembangan profesional Anda.
-
-Untuk terus mendalami dunia Bitcoin, kami mengundang Anda untuk menjelajahi semua kursus lain yang tersedia di Plan ₿ Network:
-
-#### Pelajari Bitcoin dan dasarnya di
-
-https://planb.network/courses/btc101
-
-#### Perbarui keamanan online Anda di
-
-https://planb.network/courses/scu101
-
-#### Pelajari Lightning Network di
-
-https://planb.network/courses/lnp201
-
-#### Pelajari tentang Mazhab Ekonomi Austria di
-
-https://planb.network/courses/eco201
-
-#### Pahami dasar-dasar Bitcoin dan bangun pemanas rumah Anda di
-
-https://planb.network/courses/min201
-
-#### Pahami cara kerja dompet Bitcoin di
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

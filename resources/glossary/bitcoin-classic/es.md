@@ -1,0 +1,5 @@
+---
+term: BITCOIN CLASSIC
+
+---
+Propuesta de bifurcación del protocolo lanzada en enero de 2016 tras el abandono de Bitcoin XT. Su objetivo era aumentar el límite de tamaño de bloque de 1 MB a 2 MB con BIP109, un enfoque considerado más moderado en comparación con Bitcoin XT, que proponía un aumento mucho mayor (8 MB + duplicación cada dos años). Esta iniciativa fue liderada por los desarrolladores Gavin Andresen y Jeff Garzik, y contó con el apoyo de importantes empresas del ecosistema como Coinbase. Bitcoin Classic surgió en un contexto de intensa escalada de la Guerra del Tamaño de Bloque y fue clasificado entre el bando de los grandes bloqueadores. Aunque Bitcoin Classic atrajo la atención y el apoyo de muchos actores del sector, su mecanismo de activación, que requería el apoyo del 75% de los mineros, fue controvertido y contribuyó finalmente a su fracaso.

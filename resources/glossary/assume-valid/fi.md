@@ -1,0 +1,7 @@
+---
+term: ASSUME VALID
+
+---
+Määritysparametri enemmistöasiakasohjelmassa Bitcoin Core, jonka avulla solmu, joka on juuri alustettu (mutta ei ole vielä suorittanut IBD:tä), voi ohittaa allekirjoitusten tarkistamisen kaikkien lohkoihin sisältyvien transaktioiden osalta ennen tiettyä tiettyä lohkoa. Tämä kuuluisa lohko määritellään sen otsikon eli hash:n jäljen perusteella. Valittu lohko uusitaan jokaisen uuden Bitcoin Core -version myötä. Jos solmu on aktivoinut tämän parametrin, se tarkistaa siis alustuksen yhteydessä lohkon otsikkoketjun löytääkseen haaran, jossa on eniten kertynyttä työtä. Jos solmu havaitsee Core:n tarjoaman hashin valitsemassaan haarassa, se jättää edeltävien lohkojen allekirjoitusten tarkistamisen pois. Muussa tapauksessa solmu jatkaa perinteisellä synkronoinnilla (IBD) ja tarkistaa kaiken itse.
+
+Assume Valid -ohjelman tavoitteena on nopeuttaa solmun alustavaa synkronointiprosessia turvallisuudesta tinkimättä olettaen, että suurin osa verkosta on jo aiemmin validoinut nämä tapahtumat. Ainoa todellinen kompromissi solmun kannalta on se, että jos bitcoineja on aiemmin varastettu, siitä ei ilmoiteta solmulle. Se voi kuitenkin edelleen varmistaa liikkeeseen laskettujen bitcoinien määrän oikeellisuuden. Solmut jatkavat Assume Valid -lohkon jälkeen tapahtumien allekirjoitusten tarkistamista. Tämä lähestymistapa perustuu olettamukseen, että jos verkko on hyväksynyt transaktion riittävän pitkään ilman riitaa, se ei todennäköisesti ole vilpillinen.

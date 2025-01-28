@@ -57,7 +57,7 @@ Quando uma instituição financeira possui uma licença bancária, isso signific
 
 Ao comprar a casa, você instrui seu banqueiro a transferir dinheiro para a conta do vendedor. Se a conta do vendedor estiver em um banco diferente, seu banqueiro notifica o banqueiro correspondente na outra instituição para garantir que a conta do vendedor seja creditada adequadamente, enquanto debita sua conta pelo valor correspondente.
 
-![imagem](assets/Image/1.webp)
+![imagem](assets/en/01.webp)
 
 Figura 1: Criação de Dinheiro como Entradas Contábeis
 
@@ -75,7 +75,7 @@ Esse dilema deu origem aos bancos centrais modernos. No século XIX, na Inglater
 
 Além de manter a estabilidade financeira, os bancos centrais são responsáveis por definir as taxas de juros-chave. Essas taxas determinam o custo pelo qual os bancos licenciados podem tomar empréstimos do banco central, essencialmente definindo o custo da liquidez para as instituições financeiras que desempenham um papel crucial no empréstimo em nossas economias. Portanto, essas taxas servem como referência para todo o sistema financeiro. Como indivíduo, as taxas de juros que você paga em sua hipoteca podem ser divididas em taxa de política e margem do banco.
 
-![image](assets/Image/2.webp)
+![image](assets/en/02.webp)
 
 Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
 
@@ -83,7 +83,7 @@ Durante a grande crise financeira de 2008, o Lehman Brothers, um grande banco de
 
 Embora essas medidas tenham evitado uma onda em cascata de falências, elas pouco fizeram para aliviar a subsequente desaceleração econômica. Milhões perderam seus empregos e casas, os gastos do consumidor despencaram, as empresas faliram e os bancos incorreram em perdas substanciais. Apesar das taxas de juros historicamente baixas, poucos estavam dispostos a tomar empréstimos, resultando em um ciclo vicioso em que a diminuição inicial nos gastos e investimentos se reforçava. Consequentemente, os banqueiros centrais tomaram medidas adicionais implementando programas de Flexibilização Quantitativa (QE). Esses programas envolviam os bancos centrais comprando títulos do governo e títulos lastreados em hipotecas de bancos comerciais com reservas do banco central.
 
-![image](assets/Image/3.webp)
+![image](assets/en/03.webp)
 
 Figure3 : Interest Rates Across Major Economies / Source: ECB
 
@@ -93,7 +93,7 @@ Ao contrário das expectativas de muitos, os programas de QE não reviveram sign
 
 No entanto, um princípio econômico essencial pode ser extraído desse episódio: quando novo dinheiro é criado, ele beneficia inicialmente aqueles mais próximos à fonte do dinheiro, em detrimento daqueles mais distantes. Essa percepção econômica remonta ao século XVIII, quando Richard Cantillon a descreveu em seu "Ensaio sobre a Natureza do Comércio em Geral". Agora é conhecido coloquialmente como "Efeito Cantillon".
 
-![image](assets/Image/4.webp)
+![image](assets/en/04.webp)
 
 Figura 4: Efeito Cantillon em poucas palavras / Fonte: River Financial
 
@@ -101,7 +101,7 @@ Neste caso, banqueiros, executivos bancários, proprietários de ações e títu
 
 Em essência, o sistema está distorcido. Os bancos são intrinsecamente instáveis, mas sua falência pode colocar em risco toda a economia. Esse risco moral incentiva os executivos bancários a assumir riscos excessivos para maximizar a receita de seus bancos, sabendo que o banco central acabará por resgatá-los, transferindo o custo para os contribuintes. Em tais cenários, os banqueiros centrais criam condições para uma transferência maciça de poder de compra de trabalhadores e poupadores para proprietários de ativos e aqueles conectados ao sistema financeiro, desconectando assim o processo de criação de riqueza da acumulação de riqueza.
 
-![image](assets/Image/5.webp)
+![image](assets/en/05.webp)
 
 Figura 5: Distribuição de riqueza na China + Europa + EUA / Fonte: OECD
 
@@ -111,7 +111,7 @@ Durante períodos prolongados de Políticas de Taxa de Juros Zero (ZIRP), os ban
 
 Outra consequência não intencional da ZIRP é que ela incentiva os governos a se envolverem em gastos extensivos. Como os governos não enfrentam custos de empréstimos e podem contar com os bancos centrais para comprar seus títulos por meio de programas de QE, eles têm um incentivo natural para gastar o máximo possível, especialmente em contextos democráticos onde os gastos podem garantir votos. Essa tendência muitas vezes ignora as consequências de longo prazo dessa prodigalidade fiscal, levando a um aumento significativo nos níveis de dívida pública nas economias desenvolvidas desde a Crise Financeira Global (GFC).
 
-![image](assets/Image/6.webp)
+![image](assets/en/06.webp)
 
 Figura 6: Dívida Pública e Privada como % do PIB (Mundo, ponderado pelo PIB por país) / Fonte: FMI
 
@@ -147,7 +147,7 @@ Essas questões têm ocupado economistas e filósofos por muitos séculos e rece
 
 Depois que a teoria do valor da terra dos fisiocratas, que postulava que todo valor vem da terra, foi refutada pela teoria do valor do trabalho dos economistas clássicos, que postulava que o valor de um bem decorre da quantidade de trabalho envolvida em sua produção, foi a vez da teoria marginal do valor suplantar esta última. Na década de 1870, seguindo Marx, o último dos economistas clássicos, três novas escolas de pensamento econômico surgiram quase simultaneamente em torno de uma teoria marginal do valor: a escola de Lausanne com Léon Walras, a escola moderna ou neoclássica com William Stanley Jevons e a escola austríaca com Carl Menger. Essa revolução na teoria do valor constituiu uma renovação significativa do pensamento econômico.
 
-![imagem](assets/Image/7.webp)
+![imagem](assets/en/07.webp)
 
 Da esquerda para a direita: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -157,7 +157,7 @@ A teoria marginal do valor sustenta que o valor econômico corresponde ao que um
 
 ### Valor Subjetivo
 
-![imagem](assets/Image/15.webp)
+![imagem](assets/en/08.webp)
 O economista austríaco refuta a concepção dos sucessores de Adam Smith e abandona a ideia de que o valor de um bem vem da quantidade de trabalho utilizada em sua produção, em favor da noção de que seu valor é determinado pelo indivíduo, que, em cada contexto, realiza um ato mental de valoração em relação a uma quantidade específica de um bem ou serviço. Esse salto intelectual feito por Menger desafia a objetividade do valor: para ele, o valor não é uma propriedade objetiva dos bens; é apenas o resultado da relação que o indivíduo tem com aquela coisa: "o valor não existe fora da consciência humana".
 Em outras palavras, Menger nos convida a considerar que o valor existe apenas como um fenômeno psicológico subjetivo dentro do indivíduo, que o valor não é uma propriedade inerente dos bens, mas sim decorre da opinião do indivíduo sobre a utilidade que pode obter desses bens.
 
@@ -179,7 +179,7 @@ Essa concepção subjetiva de valor, entendida como uma relação psicológica q
 
 ### A Divisão do Trabalho
 
-![image](assets/Image/16.webp)
+![image](assets/en/09.webp)
 
 Visita a uma Fábrica de Pregos, Léonard Defrance (século XVIII)
 Cada pessoa é única e possui uma situação pessoal particular. Portanto, cada um possui uma habilidade superior para realizar certas tarefas em relação aos seus pares (vantagem absoluta) ou uma habilidade superior para realizar certas tarefas em relação aos outros (vantagem comparativa). Não pode ser de outra forma; negar esse fato elementar seria afirmar que todos os seres humanos são iguais em todos os aspectos.
@@ -241,7 +241,7 @@ Este jogo ilustra um problema frequentemente encontrado na vida real: na ausênc
 
 ### Dinheiro para Resolver Problemas de Coordenação
 
-![image](assets/Image/17.webp)
+![image](assets/en/10.webp)
 
 Esse problema tem menos impacto em comunidades pequenas (por exemplo, família, círculos de amigos) porque, nesses casos, todos se conhecem diretamente, tornando possível lembrar as contribuições de cada um. Supondo que deixar a comunidade (deserção) incorra em um custo, um sistema de reputação baseado na memória dos agentes individuais geralmente é suficiente para evitar as armadilhas apresentadas pelo dilema do prisioneiro.
 
@@ -261,7 +261,7 @@ Nos tempos pré-civilização, essas tecnologias não existiam. Assim, nossos an
 
 ### Dupla Coincidência de Desejos e Venda
 
-![image](assets/Image/18.webp)
+![image](assets/en/11.webp)
 
 O dinheiro pode ser visto como a solução descoberta por nossos ancestrais para resolver o que os economistas chamam de problema da "dupla coincidência de desejos". Esse problema tem três dimensões: espacial, temporal e interpessoal.
 Em uma troca direta (escambo) entre Alice e Bob, ambos precisam possuir algo que o outro deseje ao mesmo tempo e lugar. Ao usar a troca indireta, ou seja, através do dinheiro, Alice pode comprar de Bob, e Bob pode usar essa unidade monetária em outro lugar, em outro momento e com outra pessoa (desde que a outra pessoa aceite essa forma de dinheiro).
@@ -305,14 +305,14 @@ Essa avaliação subjetiva do valor dos bens futuros em comparação com os bens
 
 Esse conceito de valoração relativa de bens futuros em relação a bens presentes está na raiz do fenômeno dos juros. De fato, em uma economia com mercados de capital não manipulados, as taxas de juros de referência (consideradas livres de risco de inadimplência) são determinadas na interseção entre oferta e demanda de capital. Portanto, essas taxas representam o estado das preferências temporais para toda a economia: um aumento na taxa de juros resulta de um aumento relativo na demanda por capital em comparação com a oferta, indicando preferências temporais mais altas. Por outro lado, uma diminuição nas taxas de juros ocorre devido a um aumento na poupança, ou seja, um aumento na oferta de capital, indicando uma redução nas preferências temporais.
 
-![image](assets/Image/9.webp)
+![image](assets/en/12.webp)
 
 Em uma economia em que as taxas de juros não são manipuladas pelo banco central, tendemos a observar uma curva de rendimento ascendente: quanto maior a maturidade da dívida, maior a taxa de juros. A situação oposta não pode ocorrer, pois implicaria que o futuro é mais certo do que o presente, o que é uma impossibilidade lógica.
 O conceito de preferência temporal e como expressamos nossa própria preferência temporal por meio do consumo e poupança é fundamental para os processos de alocação de capital e produção. Vamos nos voltar para o aluno de Menger, Eugen von Böhm-Bawerk, e sua teoria do capital para entender exatamente como a preferência temporal afeta a organização da produção.
 
 ### Teoria do Capital
 
-![image](assets/Image/19.webp)
+![image](assets/en/13.webp)
 
 No início deste curso, vimos que, para Carl Menger, os bens só são considerados bens econômicos (valorizados) porque servem como meios para fins escolhidos e valorizados pelos indivíduos. De acordo com essa visão, toda análise econômica gira em torno do consumo, pois é, em última instância, o objetivo motivador por trás de toda atividade econômica. Portanto, para Menger, o ponto de partida da análise econômica são os bens de consumo, ou bens finais, pois representam o propósito final da atividade econômica. Todos os outros bens na economia, que podemos chamar de "bens intermediários", só têm valor porque permitem que os indivíduos obtenham esses bens de consumo: são bens usados na produção de outros bens.
 
@@ -328,13 +328,13 @@ Devido à natureza sequencial da ação humana, essas escolhas intertemporais se
 
 Para ilustrar esse ponto, vamos revisitar o exemplo dado por Böhm-Bawerk, em sua obra "Capital and Interest":
 
-![image](assets/Image/10.webp)
+![image](assets/en/14.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe e Desvio de Produção/Indireto:
 
-![image](assets/Image/20.webp)
+![image](assets/en/15.webp)
 
 Robinson Crusoe Descarregando Suprimentos do Naufrágio, John Alexander Gilfillan (1793-1864)
 
@@ -357,7 +357,7 @@ Este é um conceito tentador, embora simples: qualquer extensão da estrutura de
 Agora, como mencionado no primeiro capítulo, as taxas de juros têm sido manipuladas por décadas pelos bancos centrais, ao mesmo tempo em que os bancos comerciais concedem crédito sem reservas prévias, o que significa que as taxas de juros não representam nossa preferência temporal e dão uma ilusão de economias abundantes.
 Isso é perfeitamente ilustrado pelo gráfico abaixo: as taxas de longo prazo são mais baixas do que as taxas de curto prazo. Primeiro, isso não faz absolutamente nenhum sentido, porque implicaria que o futuro é mais certo do que o presente. Segundo, isso justifica uma investigação sobre as consequências para a alocação de capital: se todos são incentivados a agir como se as economias fossem abundantes, enquanto os poupadores não são recompensados por poupar, quais consequências isso poderia ter para a economia?
 
-![imagem](assets/Image/11.webp)
+![imagem](assets/en/16.webp)
 
 Isso é o que descobriremos no próximo capítulo dedicado à Teoria Austríaca do Ciclo Econômico!
 
@@ -387,7 +387,7 @@ Para descrever esse fenômeno de descoordenação temporal e suas consequências
 
 Para facilitar nossa explicação, voltaremos à classificação de bens de Menger e representaremos a estrutura produtiva em um diagrama composto por um número arbitrário de estágios:
 
-![image](assets/Image/12.webp)
+![image](assets/en/17.webp)
 
 No diagrama acima, os recursos iniciais passam por vários estágios de produção, sofrendo transformações que os aproximam do estado de bens de consumo final (por meio da interação com os fatores originais de produção: tempo, terra, trabalho). A altura do lado direito do triângulo representa esquematicamente o PIB, pois denota a soma de todos os bens de consumo vendidos em um período. A diferença entre cada barra corresponde ao valor adicionado (em termos monetários) gerado por cada estágio do processo. Essa diferença também pode ser vista como a renda associada a cada estágio (receitas - custos).
 
@@ -395,7 +395,7 @@ Se, no nível agregado, os agentes econômicos aumentarem suas economias, a quan
 
 Obteremos então uma estrutura de produção estendida, uma mudança que pode ser representada qualitativamente pelo seguinte diagrama:
 
-![image](assets/Image/13.webp)
+![image](assets/en/18.webp)
 
 Aqui, o valor monetário dos bens de consumo demandados diminuiu, liberando recursos para a criação de um estágio adicional de produção. Nesse cenário em que a diminuição das taxas de juros é consequência da diminuição do consumo, ou seja, do aumento das economias, a área do triângulo, que representa a quantidade de dinheiro em circulação, permanece inalterada. A transformação da estrutura de produção (alongamento) simplesmente resulta em uma transferência de poder de compra de uma parte da estrutura para outra.
 
@@ -410,7 +410,7 @@ Agora, se considerarmos uma diminuição nas taxas de juros resultante de uma ex
 Com taxas de juros mais baixas, os empreendedores podem obter mais recursos e, assim, criar estágios de produção de ordem superior. Nesse caso, essa extensão da estrutura de produção não resultará em diminuição do consumo, pois não houve adiamento do consumo presente pelos consumidores. Em outras palavras, o PIB cresce. Consequentemente, nosso triângulo se alongará mantendo uma altura semelhante, o que significa que sua área aumentará.
 Observe que essa é uma consequência completamente lógica da expansão do crédito. Na medida em que os bancos produzem meios fiduciários concedendo empréstimos, é natural esperar que o poder de compra geral aumente.
 
-![image](assets/Image/14.webp)
+![image](assets/en/19.webp)
 
 À medida que o crédito entra na economia por meio de empréstimos a empreendedores, devemos observar um aumento nos lucros nos setores de produção distantes do consumo e uma diminuição nos lucros relativos nos setores mais próximos do consumo. Essa maior lucratividade, então, apoia uma realocação de capital para esses novos estágios mais intensivos em capital (construção naval, automotiva, construção, tecnologias avançadas, etc.) e uma diminuição nos investimentos nos setores mais próximos do consumo.
 
@@ -426,7 +426,7 @@ Esse ajuste pode ser visto como um período durante o qual o subconsumo e o subi
 
 Infelizmente, esse mecanismo depressivo é frequentemente interrompido pelo poder político e pelos bancos centrais que buscam "impulsionar" a economia por meio de gastos deficitários e política monetária expansionista.
 
-![image](assets/Image/21.webp)
+![image](assets/en/20.webp)
 
 Tanto para monetaristas quanto para keynesianos, a causa da depressão é a demanda agregada insuficiente, então nenhum deles presta atenção à evolução dos preços relativos, que, como vimos, é o cerne do problema. Assim, eles acreditam que fornecer um incentivo para a expansão do crédito (reduzindo as taxas de juros) e usar a capacidade de déficit do Estado para impulsionar a demanda irá iniciar uma recuperação. No curto prazo, tais medidas podem parecer produzir os efeitos desejados: o déficit apoia os gastos, enquanto a redução das taxas de juros leva a preços de ativos mais altos, o que, por sua vez, incentiva os detentores de ativos a aumentarem seus gastos. No entanto, esse impulso eventualmente diminui, enquanto o problema estrutural permanece, ou até piora, à medida que a má alocação de capital continua graças às taxas de juros artificialmente baixas.
 
@@ -465,7 +465,7 @@ Com seu artigo, Mises introduziu uma nova dimensão ao debate. Deixando de lado 
 
 ### Explicando a Impossibilidade do Cálculo Econômico
 
-![image](assets/Image/24.webp)
+![image](assets/en/21.webp)
 
 A maioria dos equívocos sobre os argumentos de Mises surgem de uma compreensão equivocada dos papéis desempenhados pelas classes gerenciais e empreendedoras em uma economia capitalista. Mises nunca descartou a capacidade dos gerentes de elaborar planos de produção eficientes dentro de suas próprias operações. Em vez disso, ele enfatizou a importância dos empreendedores e acionistas, que, como proprietários dos meios de produção, alocam capital em diferentes setores, formando assim preços que servem como insumos nos cálculos econômicos dos gerentes.
 
@@ -481,7 +481,7 @@ Esse processo é crucial porque valida ou invalida a eficiência de várias ativ
 
 Sob essa perspectiva, uma economia planejada centralmente inevitavelmente experimentará má alocação de capital. No curto a médio prazo, tais alocações inadequadas podem passar despercebidas porque não há preços de mercado ou falências para revelá-las. No entanto, devido à ausência de feedback (preços) e mecanismos de realocação (falências), os erros se acumularão até que o desperdício se torne aparente por meio de uma queda significativa nas condições de vida.
 
-![image](assets/Image/22.webp)
+![image](assets/en/22.webp)
 
 ### A Perspectiva Austríaca e as Falhas de Outras Escolas de Economia
 
@@ -491,7 +491,7 @@ Apesar dessa impressionante previsão e de numerosas demonstrações empíricas 
 
 ### A Teoria Austríaca do Ciclo Econômico como um Caso Específico da Impossibilidade do Cálculo Econômico sob o Socialismo
 
-![image](assets/Image/23.webp)
+![image](assets/en/23.webp)
 
 Em um capítulo anterior, elucidamos a dinâmica do superinvestimento e da má alocação de capital resultantes da manipulação das taxas de juros pelos bancos centrais. Essencialmente, o que explicamos pode ser visto como um caso específico da impossibilidade do cálculo econômico sob o socialismo, aplicado ao campo dos mercados monetários. Quando os preços são fixados fora de seus valores de mercado, os empreendedores e alocadores de capital são incentivados a realizar investimentos que não podem ser sustentados a longo prazo devido à falta de poupança. Ao interferir no sistema de preços, os planejadores centrais (neste caso, os banqueiros centrais) criam uma descoordenação entre os agentes econômicos. Neste caso, a descoordenação intertemporal implica em superinvestimento em bens de investimento de ordem superior e subinvestimento em bens de investimento de ordem inferior, o que representa uma manifestação específica de má alocação de capital entre as indústrias.
 
@@ -535,7 +535,7 @@ A metodologia é um aspecto essencial na economia e nas ciências sociais em ger
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
-## Avalie o curso
+## Avaliações & Notas
 
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -582,38 +582,4 @@ Ao ler essas obras e explorar esses recursos online, você pode desenvolver uma 
 ## Conclusão
 
 <chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
-Parabéns por concluir este curso!
-
-Estamos muito satisfeitos que tenha alcançado este importante marco em sua jornada de aprendizagem.
-
-Graças à sua dedicação e compromisso, você adquiriu conhecimentos e habilidades valiosas que servirão para seu desenvolvimento profissional.
-
-Para continuar explorando em profundidade o universo Bitcoin, convidamos você a descobrir todos os outros cursos disponíveis na Plan ₿ Network:
-
-#### Descubra a vida de F. Bastiat com
-
-https://planb.network/courses/eco102
-
-#### Compreenda o surgimento das hiperinflações com
-
-https://planb.network/courses/eco204
-
-#### Descubra o Bitcoin e seus fundamentos com
-
-https://planb.network/courses/btc101
-
-#### Atualize sua segurança online com
-
-https://planb.network/courses/scu101
-
-#### Descubra a Lightning Network com
-
-https://planb.network/courses/lnp201
-
-#### Aprenda a criar sua comunidade Bitcoin com
-
-https://planb.network/courses/btc302
-
-#### Compreenda como funciona a carteira Bitcoin com
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,9 @@
+question: 在 RGB Lightning 节点环境中，RGB 代理服务器的功能是什么？
+answer: 促进 RGB 托运货物的交换
+wrong_answers:
+  - 为节点打开通道提供公钥
+  - 保留 RGB 状态转换的历史记录
+  - 避免 RGB 标记的重复标记
+explanation: |
+  RGB 代理服务器通过充当中间人，简化了闪电参与者之间的 RGB 委托通信，使用户体验更加流畅，与目前使用比特币和闪电的体验相近。
+reviewed: false

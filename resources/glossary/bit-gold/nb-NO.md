@@ -1,0 +1,5 @@
+---
+term: BIT GOLD
+
+---
+Bitgull er et desentralisert digitalt valutasystem som ble utviklet av Nick Szabo i 1998 og offentlig beskrevet i 2005. Bitgull ble utviklet for å generere og utveksle en virtuell ressurs kalt bitgull. Systemet var ikke basert på noen fysisk vare, men hadde som mål å skape en form for uforfalskelig knapphet. Bit gold-protokollen baserte seg på at valutaen ble skapt ved hjelp av bevis på arbeid, der biter av bitgull ble skapt ved hjelp av datamaskiners regnekraft, slik at det ble dannet en kjede av bevis på arbeid. Hvert arbeidsbevis ble tidsstemplet og deretter lagt til i et eiendomsregister. Verifisering og overføring av eierskap til bitgull ble utført via et offentlig register, der brukerne ble identifisert ved hjelp av offentlige nøkler. Bitgull forble på konseptstadiet og ble aldri implementert. Dette systemet er en av forløperne til Bitcoin, sammen med b-penger og RPoW, men Satoshi så ikke ut til å være klar over at det eksisterte før Bitcoin ble opprettet. Det ble nevnt senere på nettstedet og forumet til Bitcoin.

@@ -1047,7 +1047,7 @@ Olemuselt võttis Reagan Bastiat'lt mitu liberaalse ühiskonna- ja inimvaate võ
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-## Hinda seda kursust
+## Hinnangud & Reitingud
 
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1060,35 +1060,4 @@ Olemuselt võttis Reagan Bastiat'lt mitu liberaalse ühiskonna- ja inimvaate võ
 ## Kokkuvõte
 
 <chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
-
-Õnnitleme selle kursuse lõpetamise puhul!
-
-Meil on hea meel, et olete jõudnud selle olulise tähiseni oma õpiteekonnal.
-
-Tänu teie pühendumusele ja pühendumisele olete omandanud väärtuslikke teadmisi ja oskusi, mis aitavad teid teie professionaalses arengus.
-
-Et jätkata Bitcoini maailma põhjalikumat uurimist, kutsume teid avastama kõiki teisi Plan ₿ Network-is saadaolevaid kursusi:
-
-#### Avastage Bitcoin ja selle põhitõed kursusega
-
-https://planb.network/courses/btc101
-
-#### Hankige ja turvake oma esimesed bitcoinid kursusega
-
-https://planb.network/courses/btc102
-
-#### Uuendage oma võrguturvalisust kursusega
-
-https://planb.network/courses/scu101
-
-#### Avastage Lightning Network kursusega
-
-https://planb.network/courses/lnp201
-
-#### Õppige Austria koolkonna majanduslikku mõtlemist kursusega
-
-https://planb.network/courses/eco201
-
-#### Mõistke Bitcoini põhialuseid ja ehitage oma kodune küttesüsteem kursusega
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

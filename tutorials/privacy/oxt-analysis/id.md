@@ -1,5 +1,5 @@
 ---
-name: OXT - Analisis Rantai
+name: OXT - Chain Analysis
 description: Kuasai dasar-dasar analisis rantai pada Bitcoin
 ---
 ![cover](assets/cover.webp)

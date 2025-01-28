@@ -1,0 +1,5 @@
+---
+term: BIP23
+
+---
+Dieses BIP ist eine Erweiterung von BIP22, die darauf abzielt, seine Übernahme durch die von Mining-Pools verwendete Software zu fördern, insbesondere durch das Getwork-Protokoll, den Vorgänger von Stratum. Diese von Luke Dashjr vorgeschlagene Erweiterung zielt darauf ab, den BIP22-Standard standardmäßig in Getwork zu integrieren, um seine Übernahme durch Mining-Pools zu erleichtern. Das Hauptziel von BIP23 besteht darin, die gesamte Blockvorlage an die Miner zu übermitteln, damit diese die Struktur des vom Pool vorgeschlagenen Blocks überprüfen und möglicherweise ändern können. Mit diesem Ansatz sollen Bedenken im Zusammenhang mit der Zentralisierung des Minings ausgeräumt werden, indem den einzelnen Minern eine größere Kontrolle und eine bessere Transparenz des Blockerstellungsprozesses ermöglicht wird.

@@ -1724,7 +1724,7 @@ The Future is Bright!
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Evaluate the course
+## Reviews & Ratings
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1732,33 +1732,4 @@ The Future is Bright!
 ## Conclusion
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Congratulations on completing this course!
-
-We're thrilled that you've successfully reached this milestone in your learning journey. Through your dedication and engagement, you've gained valuable knowledge and skills that will serve you well in your professional development.
-
-To continue going deep down into the Bitcoin rabbit hole, we invite you to explore all the other courses available on Plan ₿ Network:
-
-#### Discover Bitcoin and its fundamentals with
-
-https://planb.network/courses/btc101
-
-#### Update your online security with
-
-https://planb.network/courses/scu101
-
-#### Discover the Lightning Network with
-
-https://planb.network/courses/lnp201
-
-#### Learn about the Economic Thought of the Austrian School with
-
-https://planb.network/courses/eco201
-
-#### Discover the history of Bitcoin origins with
-
-https://planb.network/courses/his201
-
-#### Understand the emergence of hyperinflations with
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

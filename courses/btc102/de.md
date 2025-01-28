@@ -1002,7 +1002,7 @@ In jedem Fall bleiben alle unsere Schulungen kostenlos, und es stehen viele Ress
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Bewerten Sie den Kurs
+## Bewertungen & Noten
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1015,33 +1015,4 @@ In jedem Fall bleiben alle unsere Schulungen kostenlos, und es stehen viele Ress
 ## Abschluss
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-Herzlichen Glückwunsch zum Abschluss dieses Kurses!
-
-Wir freuen uns, dass Sie diesen Meilenstein in Ihrer Lernreise erfolgreich erreicht haben. Durch Ihr Engagement und Ihre Beteiligung haben Sie wertvolles Wissen und Fähigkeiten erworben, die Ihnen in Ihrer beruflichen Entwicklung gute Dienste leisten werden.
-
-Um noch tiefer in die Bitcoin-Welt einzutauchen, laden wir Sie ein, alle anderen verfügbaren Kurse auf Plan ₿ Network zu erkunden:
-
-#### Entdecken Sie Bitcoin und seine Grundlagen auf
-
-https://planb.network/courses/btc101
-
-#### Aktualisieren Sie Ihre Online-Sicherheit auf
-
-https://planb.network/courses/scu101
-
-#### Entdecken Sie das Lightning Network auf
-
-https://planb.network/courses/lnp201
-
-#### Lernen Sie die Österreichische Schule des ökonomischen Denkens kennen auf
-
-https://planb.network/courses/eco201
-
-#### Verstehen Sie die Bitcoin-Grundlagen und bauen Sie Ihre Hausheizung auf
-
-https://planb.network/courses/min201
-
-#### Verstehen Sie, wie Bitcoin-Wallets funktionieren auf
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

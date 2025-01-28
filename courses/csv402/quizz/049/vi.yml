@@ -1,0 +1,9 @@
+question: How does RGB ensure confidentiality in digital asset management?
+answer: By registering only cryptographic commitments on the blockchain
+wrong_answers:
+  - By encrypting all end-to-end transactions on the blockchain
+  - By hiding users' identities via decentralized mixers
+  - Using only temporary Bitcoin addresses for each transfer
+explanation: |
+  By storing only on-chain cryptographic evidence, RGB keeps sensitive contract and transfer information confidential.
+reviewed: false

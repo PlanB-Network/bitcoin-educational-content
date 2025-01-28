@@ -1,0 +1,7 @@
+---
+term: BIP352
+
+---
+Josibake ja Ruben Somseni parandusettepanek, mis tutvustab Silent Payments, meetodit staatiliste Bitcoini aadresside kasutamiseks maksete vastuvõtmiseks ilma aadressi korduvkasutamise, suhtluseta ja ilma nähtava seoseta erinevate maksete vahel. See meetod välistab vajaduse luua iga tehingu jaoks uued, kasutamata vastuvõtuaadressid, vältides seega Bitcoinis tavalist suhtlemist, kus saaja peab maksjale uue aadressi andma.
+
+Selles süsteemis kasutab maksja iga makse jaoks uue aadressi genereerimiseks saaja avalikku võtit ja oma isiklikku võtit. Ainult saaja saab oma isikliku võtmega arvutada sellele aadressile vastava isikliku võtme. ECDH (*Elliptic-Curve Diffie-Hellman*) on krüptograafiline võtmevahetusalgoritm, mida kasutatakse jagatud saladuse loomiseks, mida seejärel kasutatakse vastuvõtva aadressi ja isikliku võtme tuletamiseks (ainult saaja poolel). Neile mõeldud vaikivate maksete tuvastamiseks peavad saajad skaneerima plokiahelat ja uurima iga tehingut, mis vastab vaikivate maksete kriteeriumidele. Erinevalt BIP47, mis kasutab maksekanali loomiseks teavitustehingut, jätab Silent Payments selle sammu ära, säästes tehingu. Kuid selle eest peab saaja siiski skaneerima kõik võimalikud tehingud, et ECDH-i kohaldades kindlaks teha, kas need on talle adresseeritud.

@@ -1327,28 +1327,10 @@ Tất nhiên, **ở các quốc gia khác, luật pháp và cách thức hoạt 
 
 
 
-## Đánh giá khóa học
+## Nhận xét & Đánh giá
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Chăm Sóc Bản Thân
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
-
-Khi ai đó lạc vào chiếc hang thỏ mang tên Bitcoin, quan điểm của họ về nhiều thứ thay đổi.
-Điều này sau đó thúc đẩy chúng ta muốn tiến xa hơn, muốn khám phá những người khác đang có cùng suy nghĩ, tư duy như mình và những người đã hiểu về những việc đó.
-Điều này khích lệ chúng ta, cho chúng ta thêm nhiều động lực để **đóng góp viên gạch của mình vào công trình** và chia sẻ khám phá của mình: Bitcoin.
-Nó cũng dẫn chúng ta đến **suy nghĩ về thế giới của ngày mai, thế giới mà chúng ta muốn xây dựng, và các cộng đồng đang trong quá trình xây dựng nó**.
-####
-**Trong hành trình dài, với việc tạo dựng một cộng đồng, bạn sẽ cần phải thể hiện động lực, chiến lược, hy sinh và thời gian**. Đôi khi đó là một nhiệm vụ không được đền đáp; và trong nỗ lực này, tốt hơn hết là nên tiến từng bước một để không làm tổn thương bản thân.
-**Vì vậy, hãy nghĩ về bản thân, giới hạn của bạn**. Và mặc dù Bitcoin có thể khiến bạn bận rộn suốt ngày đêm, **đừng cố gắng làm mọi thứ một mình; nếu không, bạn sẽ kiệt sức**.
-
-Ngược lại, **hãy yêu cầu sự giúp đỡ từ những người bitcoiner đã trải qua hành trình này, những người đã khám phá cùng một vấn đề và xây dựng cùng một công cụ**. Điều này sẽ tiết kiệm cho bạn một lượng thời gian đáng kể.
-
-**Cũng đề nghị với những người sẽ theo bạn trong cuộc phiêu lưu này giúp đỡ bạn, ngay cả khi điều đó có nghĩa là phải ủy thác một số nhiệm vụ** và việc đó có thể mất thêm thời gian. Về lâu dài, cộng đồng của bạn sẽ trở nên đoàn kết và trưởng thành hơn.
-
-![image](assets/fr/chapter39/63.webp)
-
-Một mình, người ta có thể nhanh chóng khám phá một trong nhiều nhánh của hố thỏ Bitcoin, cho đến khi chạm đáy. Nhưng sau đó là hành trình trở lại rồi tiếp tục khám phả các hướng khác.
-Trong khi **bằng cách tạo và/hoặc tham gia vào một cộng đồng của những Bitcoiner, bằng cách chia sẻ và trao đổi với họ thường xuyên, bạn sẽ cùng lúc khám phá tất cả các hướng của chiếc hang thỏ Bitcoin**.
-
-Khi đó, mọi việc sẽ nhanh hơn nhiều so với việc bạn làm một mình. Cuối cùng, bạn có thể nói: "Tôi đã hiểu Bitcoin".
+<isCourseConclusion>true</isCourseConclusion>

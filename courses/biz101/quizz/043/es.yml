@@ -1,0 +1,9 @@
+question: ¿Qué permite hacer Bitcoin sin intermediarios?
+answer: Intercambiar valor en Internet
+wrong_answers:
+  - Crear aplicaciones centralizadas
+  - Obtener préstamos bancarios
+  - Almacenar datos personales
+explanation: |
+  Bitcoin permite el intercambio de valor en Internet sin intermediarios a través de su protocolo peer-to-peer.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Which detail is NOT explicitly documented in a typical Bitcoin transaction csv file as described in the course?
+answer: The script type used
+wrong_answers:
+  - The transaction date
+  - The equivalent fiat value
+  - The Bitcoin addresses involved
+explanation: |
+  Typical Bitcoin transaction csv file usually mentions date, amount, fiat equivalent, and Bitcoin addresses, but not the script type used.
+reviewed: false

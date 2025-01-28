@@ -1,0 +1,9 @@
+question: Jaká je jedna z hlavních výhod pro obchodníky využívající síť Lightning?
+answer: Snížení transakčních poplatků
+wrong_answers:
+  - Platby zaručené bankami
+  - Automatické zvýšení prodeje
+  - Odstranění komerčních daní
+explanation: |
+  Transakční poplatky v síti Lightning Network jsou velmi nízké, takže je to pro obchodníky nákladově efektivní řešení.
+reviewed: false

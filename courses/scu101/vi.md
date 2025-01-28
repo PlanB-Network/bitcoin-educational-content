@@ -512,7 +512,7 @@ Là một phần của mô-đun đào tạo "Bảo mật 101" tại Découvre Bi
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Đánh giá khóa học này
+## Nhận xét & Đánh giá
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -525,36 +525,4 @@ Là một phần của mô-đun đào tạo "Bảo mật 101" tại Découvre Bi
 ## Kết luận
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-Chúc mừng bạn đã hoàn thành khóa học này!
-
-Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc này trong hành trình học tập của mình.
-
-Nhờ sự tận tâm và cam kết của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ phục vụ cho sự phát triển nghề nghiệp của bạn.
-
-Để tiếp tục đào sâu kiến thức của bạn trong vũ trụ Bitcoin, chúng tôi mời bạn khám phá các khóa học khác có sẵn trên Plan ₿ Network như:
-
-#### Khám phá Bitcoin và các nguyên lý cơ bản của nó với
-
-https://planb.network/courses/btc101
-
-#### Nhận và bảo mật bitcoin đầu tiên của bạn với
-
-https://planb.network/courses/btc102
-
-#### Khám phá mạng Lightning với
-
-https://planb.network/courses/lnp201
-
-#### Khám phá tư duy kinh tế của trường phái Áo với
-
-https://planb.network/courses/eco201
-
-#### Khám phá lịch sử nguồn gốc của Bitcoin với
-
-https://planb.network/courses/his201
-
-#### Hiểu cách hoạt động của ví Bitcoin với
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

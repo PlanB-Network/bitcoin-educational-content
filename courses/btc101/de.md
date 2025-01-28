@@ -1293,7 +1293,7 @@ Die Veränderung des Finanzsystems erfordert eine Veränderung der Währung. Sat
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-## Kursbewertung
+## Bewertungen & Noten
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1306,25 +1306,4 @@ Die Veränderung des Finanzsystems erfordert eine Veränderung der Währung. Sat
 ## Abschluss
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
-Herzlichen Glückwunsch zum Abschluss dieser BTC 101-Schulung! Ich hoffe von Herzen, dass sie Ihnen gefallen und neue Türen geöffnet hat. Ihre Entdeckungsreise in die Bitcoin-Welt hat gerade erst begonnen, und ich lade Sie ein, alle anderen verfügbaren Kurse auf Plan ₿ Network zu entdecken:
-
-#### Erhalten und sichern Sie Ihre ersten Bitcoins mit
-
-https://planb.network/courses/btc102
-
-#### Entdecken Sie das Lightning Network mit
-
-https://planb.network/courses/lnp201
-
-#### Lernen Sie die Österreichische Schule der Wirtschaftstheorie kennen mit
-
-https://planb.network/courses/eco201
-
-#### Aktualisieren Sie Ihre Online-Sicherheit mit
-
-https://planb.network/courses/scu101
-
-#### Verstehen Sie die Grundlagen von Bitcoin und bauen Sie Ihre Hausheizung mit
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

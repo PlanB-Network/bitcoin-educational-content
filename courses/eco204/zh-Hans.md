@@ -937,7 +937,7 @@ Bernold提出的一个有趣观点是，货币改革的成功不仅取决于其�
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-## 评估本课程
+## 评价 & 评分
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -950,34 +950,4 @@ Bernold提出的一个有趣观点是，货币改革的成功不仅取决于其�
 ## 总结
 
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
-恭喜你完成本课程！
-
-我们很高兴看到您在学习之旅中达到这个重要的里程碑。
-
-通过您的专注和投入，您获得了宝贵的知识和技能，这些将有助于您的职业发展。
-
-为了继续深入探索比特币世界，我们邀请您了解 Plan ₿ Network 上提供的所有其他课程：
-
-#### 通过以下课程了解 F. 巴斯夏的生平
-
-https://planb.network/courses/eco102
-
-#### 通过以下课程了解奥地利学派的经济思想
-
-https://planb.network/courses/eco201
-
-#### 通过以下课程了解比特币及其基础知识
-
-https://planb.network/courses/btc101
-
-#### 通过以下课程更新您的在线安全
-
-https://planb.network/courses/scu101
-
-#### 通过以下课程获取并保护您的首批比特币
-
-https://planb.network/courses/btc102
-
-#### 通过以下课程了解比特币起源的历史
-
-https://planb.network/courses/his201
+<isCourseConclusion>true</isCourseConclusion>

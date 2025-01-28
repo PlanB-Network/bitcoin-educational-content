@@ -1,0 +1,9 @@
+question: Welchen Vorteil bietet Lightning den Händlern in Bezug auf die Zahlungsabwicklung?
+answer: Zahlungen mit Lightning werden fast sofort abgeschlossen, was das Risiko von Rückbuchungen oder Betrug verringert.
+wrong_answers:
+  - Es ist eine Wartezeit von 24 Stunden erforderlich, bevor das Geld ausgegeben werden kann.
+  - Es ermöglicht den Kunden, ihre Zahlung jederzeit zurückzufordern.
+  - Sie macht Transaktionen bis zu 90 Tage lang vollständig reversibel.
+explanation: |
+  Mit Lightning ist eine Zahlung, sobald sie durch das Netzwerk geleitet und abgewickelt wurde, endgültig. Damit entfallen die Rückbuchungsszenarien, die bei herkömmlichen Zahlungssystemen auftreten.
+reviewed: false

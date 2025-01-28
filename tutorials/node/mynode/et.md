@@ -1,5 +1,5 @@
 ---
-name: Minu Node
+name: My Node
 description: Seadista oma bitcoin MyNode
 ---
 

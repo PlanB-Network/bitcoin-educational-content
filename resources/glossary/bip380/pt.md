@@ -1,0 +1,5 @@
+---
+term: BIP380
+
+---
+Uma proposta de melhoria que introduz uma linguagem padrão para descrever as colecções de scripts de saída das carteiras HD Bitcoin. Essa linguagem é chamada de "Output Script Descriptors" O seu objetivo é padronizar a forma de representar e gerir os scripts de saída, de modo a facilitar o backup, a exportação e a importação de carteiras. Para além dos dados privados, como a frase de recuperação, os descritores fornecem todas as informações necessárias para recuperar os pares de chaves utilizados numa carteira HD. A BIP380 descreve o funcionamento geral dos descritores, enquanto as BIP381, BIP382, BIP383, BIP384, BIP385 e BIP386 especificam as expressões utilizadas. O BIP380 foi implementado junto com todos os outros BIPs relacionados a descritores (exceto o BIP386) na versão 0.17 do Bitcoin Core.

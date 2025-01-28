@@ -1,0 +1,5 @@
+---
+term: BIP380
+
+---
+Una proposta di miglioramento che introduce un linguaggio standard per descrivere le raccolte di script di output dei portafogli HD Bitcoin. Questo linguaggio si chiama "Output Script Descriptors" Il suo scopo è quello di standardizzare il modo di rappresentare e gestire gli script di output, al fine di facilitare il backup, l'esportazione e l'importazione dei portafogli. Oltre ai dati privati come la frase di recupero, i descrittori forniscono tutte le informazioni necessarie per recuperare le coppie di chiavi utilizzate in un portafoglio HD. BIP380 descrive il funzionamento generale dei descrittori, mentre BIP381, BIP382, BIP383, BIP384, BIP385 e BIP386 specificano le espressioni utilizzate. BIP380 è stato implementato insieme a tutti gli altri BIP relativi ai descrittori (tranne BIP386) nella versione 0.17 di Bitcoin Core.

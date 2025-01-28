@@ -1,0 +1,9 @@
+question: Millest koosneb ankur RGB-süsteemis?
+answer: Tehingu ID, MPC, DBC ja ekstra tehingu tõendamine
+wrong_answers:
+  - Genesis, pitseri määratlus ja üleminekupakett
+  - Lepingu skeem, äriloogika ja omandatud riik
+  - Allkiri, tehinguhash ja Pederseni kulukohustus
+explanation: |
+  Ankur sisaldab andmeid, mis on vajalikud selleks, et tõestada unikaalse kohustuse lisamist Bitcoini tehingusse.
+reviewed: false

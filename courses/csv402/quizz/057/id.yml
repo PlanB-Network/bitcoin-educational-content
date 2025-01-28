@@ -1,0 +1,9 @@
+question: Pada RLN, perintah mana yang menginstal biner "rgb-lightning-node" setelah mengkloning repositori?
+answer: "pemasangan kargo - terkunci - debug - jalur."
+wrong_answers:
+  - "membangun kargo - melepaskan - jalur."
+  - "jalur kargo - terkunci - jalur."
+  - "penyebaran kargo --debug --path."
+explanation: |
+  Perintah "cargo install --locked --debug --path ." mengkompilasi dan menginstal biner "rgb-lightning-node".
+reviewed: false

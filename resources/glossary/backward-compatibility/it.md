@@ -1,0 +1,5 @@
+---
+term: RETROCOMPATIBILITÀ
+
+---
+Si riferisce alla capacità di un aggiornamento delle regole del protocollo di mantenere la compatibilità con le versioni precedenti. Ciò significa che le modifiche sono progettate in modo tale che i nodi più vecchi (nodi che eseguono versioni precedenti alla modifica delle regole) possano ancora interagire con la rete e seguire la catena con il maggior numero di lavori accumulati. Pertanto, è essenziale che i nodi più vecchi non rifiutino né i nuovi blocchi né le nuove transazioni. La compatibilità all'indietro riduce significativamente la probabilità che un aggiornamento frammenti la rete, evitando così la divisione dei nodi in sottogruppi su catene diverse. Per garantire la compatibilità con le versioni precedenti del protocollo, un aggiornamento deve rendere più severe le regole esistenti o introdurne di nuove. Questo principio definisce un "soft fork". Al contrario, se un aggiornamento allenta le regole esistenti o ne elimina alcune, non sarà retrocompatibile. Si tratterebbe di un "hard fork".

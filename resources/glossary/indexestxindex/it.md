@@ -1,0 +1,5 @@
+---
+term: INDICI/TXINDEX/
+
+---
+File in Bitcoin Core dedicati all'indicizzazione di tutte le transazioni presenti nella blockchain. Questa indicizzazione consente di ricercare rapidamente informazioni dettagliate su una transazione utilizzando il suo identificatore (TXID), senza dover scorrere l'intera blockchain. La creazione di questi file di indicizzazione è un'opzione non abilitata di default in Bitcoin Core. Se questa funzione non è abilitata, il nodo indicizzerà solo le transazioni associate ai portafogli collegati al nodo stesso. Per abilitare l'indicizzazione di tutte le transazioni, è necessario impostare il parametro `-txindex=1` nel file `bitcoin.conf`. Questa opzione è particolarmente utile per le applicazioni e i servizi che cercano frequentemente nella cronologia delle transazioni di Bitcoin.

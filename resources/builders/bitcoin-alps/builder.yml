@@ -1,0 +1,22 @@
+name: Bitcoin Alps
+category: education
+
+links:
+  website: https://www.bitcoin-alps.ch/
+  twitter: https://twitter.com/bitcoin_alps
+  Github: https://github.com/bitcoin-alps/website
+  youtube: https://www.youtube.com/@BitcoinAlps/videos
+
+tags:
+  - adoption
+  - user-friendly
+  - use-case
+
+original_language: de
+proofreading:
+  - language: de
+    last_contribution_date: 2025-01-20
+    urgency: 1
+    contributors_id:
+      - hunt-wood
+    reward: 0

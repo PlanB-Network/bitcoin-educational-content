@@ -1,0 +1,9 @@
+question: Why is it recommended to have a CSV export of all Bitcoin transactions?
+answer: It provides a clear, structured record of every transaction, making it easier for accountants to integrate these into financial reports and tax filings.
+wrong_answers:
+  - Because paper receipts are the only legally acceptable accounting documents.
+  - Because exporting data automatically completes your tax return with no review.
+  - Because CSV files eliminate the need to track cost basis.
+explanation: |
+  Having a digital record in a common format allows for seamless integration into accounting systems, helps maintain audit trails, and supports accurate tax and compliance reporting.
+reviewed: false

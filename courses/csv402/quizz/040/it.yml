@@ -1,0 +1,9 @@
+question: Qual è l'obiettivo principale dell'integrazione di RGB nella rete Lightning?
+answer: Trasferimento di asset RGB tramite canali off-chain
+wrong_answers:
+  - Esecuzione di contratti RGB direttamente sulla blockchain Bitcoin
+  - Sostituire le transazioni Lightning convenzionali con contratti intelligenti RGB
+  - Aumento della capacità del canale con l'aggiunta di nuovi UTXO
+explanation: |
+  L'integrazione di RGB nella rete Lightning consente di spostare le attività RGB tramite transizioni di stato incorporate nelle transazioni di impegno, rimanendo fuori dalla catena.
+reviewed: false

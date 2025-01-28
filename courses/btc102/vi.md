@@ -1002,7 +1002,7 @@ Dù trường hợp nào, tất cả các khóa học của chúng tôi đều m
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Đánh giá khóa học
+## Nhận xét & Đánh giá
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1015,34 +1015,4 @@ Dù trường hợp nào, tất cả các khóa học của chúng tôi đều m
 ## Kết luận
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
-Chúc mừng bạn đã hoàn thành khóa học này!
-
-Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình. Thông qua sự cống hiến và tham gia của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ giúp ích cho sự phát triển nghề nghiệp của bạn.
-
-Để tiếp tục đào sâu vào thế giới Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
-
-#### Khám phá Bitcoin và các nguyên lý cơ bản của nó với
-
-https://planb.network/courses/btc101
-
-#### Cập nhật bảo mật trực tuyến của bạn với
-
-https://planb.network/courses/scu101
-
-#### Khám phá Lightning Network với
-
-https://planb.network/courses/lnp201
-
-#### Tìm hiểu về Trường phái Kinh tế Áo với
-
-https://planb.network/courses/eco201
-
-#### Hiểu về cơ bản về Bitcoin và xây dựng hệ thống sưởi gia đình của bạn với
-
-https://planb.network/courses/min201
-
-#### Hiểu cách hoạt động của ví Bitcoin với
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

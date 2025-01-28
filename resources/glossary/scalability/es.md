@@ -1,0 +1,7 @@
+---
+term: ESCALABILIDAD
+
+---
+Se refiere a la capacidad de Bitcoin para gestionar un aumento del volumen de transacciones manteniendo unos niveles de rendimiento aceptables. Bitcoin se enfrenta a limitaciones técnicas inherentes, como el tamaño de los bloques, el intervalo de tiempo entre cada bloque y el hecho de que una transacción sólo se considera inmutable tras varias confirmaciones. Estas limitaciones impiden a Bitcoin procesar eficientemente un número ilimitado de transacciones. Cuando la demanda de espacio en los bloques se intensifica, los usuarios se ven obligados a aumentar las tarifas que ofrecen para que sus transacciones sean procesadas. La escalabilidad, es decir, la capacidad de Bitcoin para gestionar el aumento del volumen de transacciones, puede mejorarse mediante modificaciones directas en el protocolo o mediante soluciones externas como la Lightning Network. El tema de la escalabilidad siempre ha estado en el centro de intensos debates dentro de la comunidad. El primer intento de aumentar el tamaño de los bloques se produjo en octubre de 2010 con [un parche propuesto por Jeff Garzik](https://bitcointalk.org/index.php?topic=1347.0). Este tema de la escalabilidad condujo notablemente a la guerra del tamaño de los bloques entre 2015 y 2017.
+
+> ► *El término "scalabilité" es un anglicismo. La traducción correcta del término inglés "scalability" es "évolutivité" o "passage à l'échelle". Sin embargo, en general se acepta dentro de la comunidad utilizar directamente el término "scalabilité".*

@@ -784,7 +784,7 @@ The end result is a higher hash rate per watt of electricity, which means larger
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Evaluate this course
+## Reviews & Ratings
 
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -797,30 +797,4 @@ The end result is a higher hash rate per watt of electricity, which means larger
 ## Conclusion
 
 <chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
-Congratulations on completing this course!
-
-We are delighted that you have reached this important milestone in your learning journey.
-
-Through your dedication and commitment, you have gained valuable knowledge and skills that will serve you in your professional development.
-
-To continue exploring the Bitcoin universe in depth, we invite you to discover all other courses available on Plan ₿ Network:
-
-#### Discover Bitcoin and its fundamentals with
-
-https://planb.network/courses/btc101
-
-#### Discover the Lightning Network with
-
-https://planb.network/courses/lnp201
-
-#### Master the principles of privacy on Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Discover the history of Bitcoin's origins with
-
-https://planb.network/courses/his201
-
-#### Understand how the Bitcoin wallet works with
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

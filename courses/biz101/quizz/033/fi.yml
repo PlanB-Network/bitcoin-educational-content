@@ -1,0 +1,9 @@
+question: Miten Lightning Network on kehittynyt käyttäjäkokemuksen parantamiseksi sen perustamisen jälkeen?
+answer: Se on ottanut käyttöön ominaisuuksia, kuten liittämisen, staattiset Bolt12-laskut ja paremman likviditeetin hallinnan, mikä tekee liiketoimista sujuvampia ja luotettavampia.
+wrong_answers:
+  - Se on poistanut kaikki turvaominaisuudet nopeuttaakseen tapahtumia.
+  - Se edellyttää nyt hallituksen hyväksyntää jokaiselle maksulle.
+  - Se on lopettanut uusien ominaisuuksien kehittämisen ja tukeutuu vain alkuperäiseen suunnitteluun.
+explanation: |
+  Ajan myötä Lightning Networkiin on tehty teknisiä parannuksia, jotka vähentävät käyttäjien kitkaa. Uudet ominaisuudet ja paremmat solmujen hallintatyökalut ovat edistäneet saumattomampaa ja käyttäjäystävällisempää käyttökokemusta.
+reviewed: false

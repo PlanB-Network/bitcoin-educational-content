@@ -1,0 +1,9 @@
+question: ¿Qué método se utiliza en RGB para definir un precinto de un solo uso?
+answer: Un punto de salida específico
+wrong_answers:
+  - Una clave pública específica
+  - Una dirección Bitcoin específica
+  - Una combinación de varios UTXO
+explanation: |
+  RGB define un precinto de un solo uso como un punto de salida específico, que puede cerrarse mediante el gasto de este punto de salida (TXID + número de salida).
+reviewed: false

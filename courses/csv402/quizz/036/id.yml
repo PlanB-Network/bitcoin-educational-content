@@ -1,0 +1,9 @@
+question: Apa peran dari simpanan tersebut?
+answer: Menyimpan semua data sisi klien secara lokal
+wrong_answers:
+  - Secara otomatis mempublikasikan transaksi di blockchain
+  - Mengkompilasi dan menyimpan semua faktur yang dibuat
+  - Mengelola kunci pribadi Bitcoin
+explanation: |
+  Stash adalah sekumpulan data sisi klien yang disimpan pengguna secara lokal untuk satu atau beberapa kontrak RGB, untuk melakukan validasi sisi klien.
+reviewed: false

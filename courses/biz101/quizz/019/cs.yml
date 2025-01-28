@@ -1,0 +1,9 @@
+question: Proč je volatilita považována za přirozený aspekt bitcoinu jako nově vznikajícího aktiva?
+answer: Bitcoin je totiž stále relativně mladý, přitahuje spekulanty a reaguje na zprávy na trhu, což způsobuje výkyvy cen, než se v delším období stabilizuje.
+wrong_answers:
+  - Protože je centrálně řízená a ceny určuje jeden orgán.
+  - Bitcoin totiž nemá žádné uživatele, kteří by ho drželi dlouhodobě.
+  - Protože obchodníci musí každou hodinu nepředvídatelně nastavovat ceny.
+explanation: |
+  Cena bitcoinu jako rozvíjejícího se aktiva je ovlivňována spekulacemi, náladami a různou mírou přijetí. Postupem času, jak se do něj zapojí více stabilních a dlouhodobých držitelů, se volatilita může snížit, ale zůstává charakteristickým rysem počáteční fáze růstu.
+reviewed: false

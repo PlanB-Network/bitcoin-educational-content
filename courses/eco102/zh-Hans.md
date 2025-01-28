@@ -1043,7 +1043,7 @@ _(西塞罗)_
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-## 评价本课程
+## 评价 & 评分
 
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1056,35 +1056,4 @@ _(西塞罗)_
 ## 总结
 
 <chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
-
-恭喜您完成本课程！
-
-我们很高兴看到您在学习旅程中达到这个重要的里程碑。
-
-通过您的专注和投入，您获得了宝贵的知识和技能，这将有助于您的职业发展。
-
-为了继续深入探索比特币的世界，我们邀请您了解 Plan ₿ Network 上提供的所有其他课程：
-
-#### 通过以下课程探索比特币及其基础知识
-
-https://planb.network/courses/btc101
-
-#### 通过以下课程获取并保护您的第一笔比特币
-
-https://planb.network/courses/btc102
-
-#### 通过以下课程更新您的在线安全
-
-https://planb.network/courses/scu101
-
-#### 通过以下课程探索闪电网络
-
-https://planb.network/courses/lnp201
-
-#### 通过以下课程学习奥地利学派的经济思想
-
-https://planb.network/courses/eco201
-
-#### 通过以下课程了解比特币基础知识并构建您的家庭供暖系统
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,9 @@
+question: Milline on skeemi peamine roll RGB-lepingus?
+answer: Kirjeldada lepingu äriloogikat ja andmestruktuuri
+wrong_answers:
+  - RGB rahakottide liidese määratlemine
+  - Skriptide koostamise haldamine plokiahelas
+  - Kettasisene krüptograafiline valideerimine
+explanation: |
+  Skeem määratleb lepingu deklaratiivse struktuuri, andmetüübid ja valideerimisreeglid, mis võimaldab teil hallata äriloogikat kliendi poolel.
+reviewed: false

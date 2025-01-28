@@ -1,0 +1,25 @@
+id: 48e81b31-89cb-4b7e-83ef-f2094af513c9
+
+builder: BTCPay Server
+
+tags:
+  - guides
+  - use-case
+
+category: merchant
+
+level: intermediate
+
+credits:
+  professor: stable-coin
+
+# Proofreading metadata
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-27
+    urgency:
+    contributors_id:
+      - LoicPandul
+    reward:

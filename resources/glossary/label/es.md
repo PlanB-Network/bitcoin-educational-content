@@ -1,0 +1,5 @@
+---
+term: ETIQUETA
+
+---
+Etiqueta o anotación asignada a un UTXO en un monedero Bitcoin para recordar su origen. Por ejemplo, si poseo un UTXO procedente de una compra P2P en Bisq con Charles, podría asignarle la etiqueta `Non-KYC Bisq Charles`. Esta es una buena práctica que ayuda a recordar el origen o destino previsto de ese UTXO, lo que facilita la gestión de fondos y la optimización de la privacidad. El etiquetado adquiere aún más importancia cuando se utiliza con control de monedas. En efecto, al permitir a los usuarios diferenciar y seleccionar con precisión los UTXO para sus transacciones, esta práctica ayuda a evitar la fusión de UTXO de distintas fuentes. Esto limita los riesgos asociados a la heurística de propiedad común de las entradas (CIOH), que puede revelar la propiedad común de las entradas de una transacción.

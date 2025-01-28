@@ -503,7 +503,7 @@ Som en del av "Security 101" treningsmodulen på Découvre Bitcoin Academy, disk
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Evaluer dette kurset
+## Vurderinger & Karakterer
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -516,37 +516,4 @@ Som en del av "Security 101" treningsmodulen på Découvre Bitcoin Academy, disk
 ## Konklusjon
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-Gratulerer med fullført kurs!
-
-Vi er glade for at du har nådd denne milepælen i din læringsprosess.
-
-Takket være din dedikasjon og engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som vil tjene deg i din profesjonelle utvikling.
-
-For å fortsette å fordype deg i Bitcoin-universet, inviterer vi deg til å utforske andre kurs tilgjengelig på Plan ₿ Network som:
-
-#### Oppdag Bitcoin og dens grunnprinsipper med
-
-https://planb.network/courses/btc101
-
-#### Få og sikre dine første bitcoins med
-
-https://planb.network/courses/btc102
-
-#### Oppdag Lightning-nettverket med
-
-https://planb.network/courses/lnp201
-
-#### Oppdag den økonomiske tankegangen til den østerrikske skolen med
-
-https://planb.network/courses/eco201
-
-#### Oppdag historien om Bitcoins opprinnelse med
-
-https://planb.network/courses/his201
-
-#### Forstå hvordan en Bitcoin-lommebok fungerer med
-
-https://planb.network/courses/cyp201
-
-
+<isCourseConclusion>true</isCourseConclusion>

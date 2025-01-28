@@ -1,0 +1,9 @@
+question: Qual é uma das principais vantagens para os comerciantes que utilizam a Lightning Network?
+answer: Taxas de transação reduzidas
+wrong_answers:
+  - Pagamentos garantidos por bancos
+  - Aumento automático das vendas
+  - Eliminação dos impostos comerciais
+explanation: |
+  As taxas de transação na Lightning Network são muito baixas, o que a torna uma solução rentável para os comerciantes.
+reviewed: false

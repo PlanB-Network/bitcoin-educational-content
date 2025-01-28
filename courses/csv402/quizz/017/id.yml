@@ -1,0 +1,9 @@
+question: Struktur apa yang menjamin konsistensi temporal transisi dalam RGB?
+answer: Sebuah DAG (Graf Asiklik Berarah)
+wrong_answers:
+  - Rantai linier sederhana
+  - Jaringan peer-to-peer yang dinamis
+  - Pohon biner untuk UTXO
+explanation: |
+  DAG memungkinkan transisi state terstruktur, sekaligus memungkinkan evolusi paralel tanpa inkonsistensi.
+reviewed: false

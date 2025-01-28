@@ -1,0 +1,9 @@
+question: Mikä on yksi hyöty, kun aloitat pienestä, kun hyväksyt ensimmäistä kertaa Bitcoin-maksuja?
+answer: Sen avulla yritys voi oppia muutamasta ensimmäisestä tapahtumasta ja siirtyä vähitellen kehittyneempiin ratkaisuihin, jos asiakkaiden kysyntä kasvaa.
+wrong_answers:
+  - Se pakottaa yrityksen käyttämään välittömästi vain itsesäilytysratkaisuja.
+  - Se estää yritystä päivittämästä tai vaihtamasta palveluntarjoajaa myöhemmin.
+  - Se edellyttää, että yritys hyväksyy Bitcoinin jokaiselta asiakkaalta ennen prosessin ymmärtämistä.
+explanation: |
+  Kun aloitetaan yksinkertaisella, aloittelevalla lähestymistavalla, yritys voi hankkia käytännön kokemusta ilman merkittäviä riskejä. Jos kiinnostus Bitcoin-maksuja kohtaan osoittautuu kannattavaksi, yritys voi sitten päivittää infrastruktuuriaan ja integroida kehittyneempiä työkaluja.
+reviewed: false

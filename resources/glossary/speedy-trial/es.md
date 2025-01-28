@@ -1,0 +1,9 @@
+---
+term: PRUEBA RÁPIDA
+
+---
+Método de activación de una bifurcación suave conceptualizado inicialmente para Taproot a principios de 2021 por David A. Harding basado en una idea de Russell O'Connor. Su principio es utilizar el método BIP8 con un parámetro `LOT` establecido en `false`, reduciendo el periodo de activación a sólo 3 meses. Este periodo de votación reducido permite verificar rápidamente la aprobación de los mineros. Si se alcanza el umbral de aprobación requerido durante uno de los periodos, la bifurcación suave queda bloqueada. Se activará varios meses después, dando así a los mineros el tiempo necesario para actualizar su software.
+
+Sin embargo, el éxito de este método para Taproot, que gozó de un amplio consenso en la comunidad Bitcoin, no garantiza su eficacia para todas las actualizaciones. Aunque el método Speedy Trial permite una activación más rápida, algunos desarrolladores expresan su preocupación sobre su uso futuro. Temen que pueda conducir a una sucesión demasiado rápida de bifurcaciones suaves, lo que potencialmente podría amenazar la estabilidad y seguridad del protocolo Bitcoin. Comparado con BIP8 con el parámetro `LOT=true`, el método Speedy Trial es mucho menos amenazador para los mineros. No está prevista la activación automática de UASF. Este método de activación aún no ha sido formalizado dentro de un BIP.
+
+> ► *El término "Speedy Trial" está tomado de la terminología jurídica que indica un "juicio acelerado" Esto invoca el hecho de que la propuesta de mejora se presenta rápidamente ante el tribunal de mineros, para determinar sus intenciones. En general, se acepta utilizar el término inglés directamente en francés.*

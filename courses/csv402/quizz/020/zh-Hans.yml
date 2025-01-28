@@ -1,0 +1,9 @@
+question: 确保 Bob 在 RGB 状态转换期间收到资产的关键因素是什么？
+answer: 指向鲍勃的UTXO的新密封定义
+wrong_answers:
+  - 不涉及UTXO的控制事务
+  - 爱丽丝的公开声明
+  - 爱丽丝和鲍勃共享的双重签名
+explanation: |
+  封印定义以加密方式将资产与鲍勃的UTXO连接起来，确保他拥有该资产。
+reviewed: false

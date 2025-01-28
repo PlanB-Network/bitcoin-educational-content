@@ -1,0 +1,9 @@
+question: ¿Cuál de las siguientes opciones describe mejor cómo las transacciones de Bitcoin alcanzan la finalidad?
+answer: Una vez registradas en la cadena de bloques, las transacciones son inmutables y no pueden alterarse.
+wrong_answers:
+  - Los bancos pueden anular las transacciones en caso de litigio.
+  - Los usuarios deben obtener la aprobación de varias entidades gubernamentales para finalizar una transacción.
+  - Cualquier participante puede editar transacciones pasadas a voluntad, si dispone de un código especial.
+explanation: |
+  La cadena de bloques de Bitcoin es un libro de contabilidad a prueba de manipulaciones. Una vez que una transacción se confirma y se incluye en un bloque, pasa a formar parte del registro permanente, lo que garantiza su finalidad.
+reviewed: false

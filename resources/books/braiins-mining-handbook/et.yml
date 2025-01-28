@@ -1,0 +1,15 @@
+title: "Bitcoin Mining käsiraamat"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  1. raamat sarjas, Bitcoin Mining Handbook algab põhitõdedega
+  kaevandamise, selgitades stiimuleid töö tõestamine, mõned praktilised näpunäited
+  ise kaevandada ja selgitada välja levinud väärarusaam, selgitades, et
+  kaevurid EI lahenda keerulisi matemaatikaülesandeid. Siis sukeldutakse veidi sügavamale,
+  puudutades kaevurite jaoks kohandatud püsivara tekkimist, tähtsust
+  Stratum V2 protokolli uuendamine ja kaevandustööstuse äriline pool.
+  Lõpuks lõpetab raamatu valik parimatest kaevandusmeemidest varajase
+  2022.
+contributors:
+  - another-satoshi

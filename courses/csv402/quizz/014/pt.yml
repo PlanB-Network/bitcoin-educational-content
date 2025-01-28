@@ -1,0 +1,9 @@
+question: Qual é o papel de um esquema na RGB?
+answer: Definir variáveis, regras e lógica empresarial do contrato
+wrong_answers:
+  - Troca de remessas de loja entre os participantes
+  - Validação de compromissos Pedersen em transacções Bitcoin
+  - Criar definições de selos para cada UTXO
+explanation: |
+  O esquema estrutura o estado do contrato e determina as transições permitidas e as condições de validação.
+reviewed: false

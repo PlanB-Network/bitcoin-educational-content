@@ -1,0 +1,24 @@
+id: c0af1ba7-b918-42f3-963d-790d1d379379
+title: "My Trust in You Is Broken"
+author: Parker Worthington
+publication_year: 2024
+duration: 42
+language: en
+links:
+  platform: https://youtu.be/Z78ZbPcsc3g?si=bRW7vFuDfiq6u4N8
+  trailer: https://youtu.be/8ywHizrZfAo
+description: |
+  Dynamic chronicles of the tumultuous origins of Bitcoin as a payments system and
+  the story behind the BTCPay Server – currently the most widely used self-hosted
+  payment processing stack for Bitcoin, created by Nicolas Dorier in response to
+  BitPay and its actions during the 2017 Blocksize Wars. The film highlights the
+  early days of Bitcoin as a tool for merchants, their issues, and the perils of
+  trusted third parties, as well as Dorier's pivotal role in contributing to the
+  current adoption of Bitcoin payments among businesses.
+tags:
+  - development
+  - cypherpunk
+  - business
+  - software
+contributors:
+  - jramos0

@@ -1,0 +1,9 @@
+question: Hva er en viktig egenskap ved engangsplomber som brukes i RGB?
+answer: De kan bare lukkes én gang
+wrong_answers:
+  - De kan bare lukkes to ganger
+  - De garanterer konfidensialiteten til transaksjonene
+  - De eliminerer behovet for konsensus på blokkjeden
+explanation: |
+  Engangsforseglinger gjør det mulig å opprette unike kryptografiske forpliktelser, noe som forhindrer duplisering eller dobbeltbruk.
+reviewed: false

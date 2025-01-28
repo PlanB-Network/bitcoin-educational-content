@@ -1,0 +1,9 @@
+question: Quel est l'élément clé à prendre en compte lors du choix d'une plateforme ou d'un courtier pour acheter des bitcoins pour une entreprise ?
+answer: La réputation du fournisseur, ses mesures de sécurité et sa capacité à exporter l'historique des transactions pour la comptabilité.
+wrong_answers:
+  - S'assurer que la plateforme ne prend en charge que les crypto-monnaies obscures.
+  - Trouver un fournisseur qui refuse d'offrir une assistance à la clientèle.
+  - Utilisation d'un service qui interdit le retrait de bitcoins vers un portefeuille autogéré.
+explanation: |
+  Une plateforme fiable doit jouir d'une solide réputation, d'une bonne sécurité et d'outils d'archivage. La possibilité de retirer des bitcoins et de s'intégrer à un logiciel de comptabilité est également cruciale pour les activités de l'entreprise.
+reviewed: false

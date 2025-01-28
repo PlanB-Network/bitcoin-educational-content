@@ -936,7 +936,7 @@ Hyperinflace je fascinující téma, které bylo studováno prostřednictvím r�
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-## Zhodnoťte tento kurz
+## Recenze & Hodnocení
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -949,34 +949,4 @@ Hyperinflace je fascinující téma, které bylo studováno prostřednictvím r�
 ## Závěr
 
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
-Gratulujeme k dokončení tohoto kurzu!
-
-Jsme potěšeni, že jste dosáhli tohoto důležitého milníku ve své vzdělávací cestě.
-
-Díky vaší oddanosti a odhodlání jste získali cenné znalosti a dovednosti, které vám poslouží ve vašem profesním rozvoji.
-
-Pro další podrobné prozkoumání světa Bitcoinu vás zveme k objevování všech dalších kurzů dostupných na Plan ₿ Network:
-
-#### Objevte život F. Bastiata s
-
-https://planb.network/courses/eco102
-
-#### Objevte ekonomické myšlení rakouské školy s
-
-https://planb.network/courses/eco201
-
-#### Objevte Bitcoin a jeho základy s
-
-https://planb.network/courses/btc101
-
-#### Aktualizujte svou online bezpečnost s
-
-https://planb.network/courses/scu101
-
-#### Získejte a zabezpečte své první bitcoiny s
-
-https://planb.network/courses/btc102
-
-#### Objevte historii původu Bitcoinu s
-
-https://planb.network/courses/his201
+<isCourseConclusion>true</isCourseConclusion>

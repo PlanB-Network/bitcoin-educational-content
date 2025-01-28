@@ -1406,7 +1406,7 @@ Hayek acreditava que um mercado livre de moedas privadas levaria a uma maior est
 
 
 
-## Avalie o curso
+## Avaliações & Notas
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1435,7 +1435,7 @@ Tudo o que acontece na sociedade global em que vivemos é resultado de ideias. A
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 # Conclusão
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
-## Avalie este curso
+## Avaliações & Notas
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
 <isCourseReview>true</isCourseReview>
 ## Exame final
@@ -1443,28 +1443,4 @@ Tudo o que acontece na sociedade global em que vivemos é resultado de ideias. A
 <isCourseExam>true</isCourseExam>
 ## Conclusão
 <chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
-Parabéns por concluir este curso!
-
-Estamos muito satisfeitos por ter alcançado este importante marco em sua jornada de aprendizado.
-
-Graças à sua dedicação e comprometimento, você adquiriu conhecimentos e habilidades valiosos que servirão para seu desenvolvimento profissional.
-
-Para continuar explorando em profundidade o universo Bitcoin, convidamos você a descobrir todos os outros cursos disponíveis no Plan ₿ Network:
-
-#### Descubra a vida de F. Bastiat com
-https://planb.network/courses/eco102
-
-#### Descubra o Bitcoin e seus fundamentos com
-https://planb.network/courses/btc101
-
-#### Descubra a Lightning Network com
-https://planb.network/courses/lnp201
-
-#### Domine os princípios de privacidade no Bitcoin
-https://planb.network/courses/btc204
-
-#### Descubra a história das origens do Bitcoin com
-https://planb.network/courses/his201
-
-#### Entenda como funciona a carteira Bitcoin com
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

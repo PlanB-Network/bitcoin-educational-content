@@ -1,0 +1,7 @@
+---
+term: STATISK ADRESSE
+
+---
+I forbindelse med Silent Payments refererer det til en unik identifikator som gjør det mulig å motta betalinger uten gjenbruk av adresser, uten interaksjon og uten en synlig lenke i kjeden mellom de ulike betalingene og den statiske adressen. Denne teknikken eliminerer behovet for å generere nye, ubrukte mottakeradresser for hver transaksjon, og dermed unngår man de vanlige interaksjonene i Bitcoin der mottakeren må oppgi en ny adresse til betaleren. Det tilsvarer til en viss grad den gjenbrukbare betalingskoden i forbindelse med BIP47.
+
+Denne adressen består av to offentlige nøkler: $B_{\text{scan}}$ for skanning og $B_{\text{spend}}$ for utgifter, sammenkjedet for å danne den statiske adressen $B = B_{\text{scan}} \text{ ‖ } B_{\tekst{utgift}}$. Mottakeren publiserer denne adressen, slik at avsendere kan utlede unike betalingsadresser uten ytterligere interaksjon med mottakeren. For å håndtere flere forskjellige betalingskilder kan en etikett legges til $B_{\text{spend}}$, slik at det opprettes flere merkede statiske adresser fra $B_1$, $B_2$ osv. Dette gjør det mulig å segregere betalinger samtidig som man bruker én enkelt basisadresse, noe som reduserer arbeidsmengden for skanning av blokkjeden. Alle statiske adresser til en enhet kan imidlertid enkelt assosieres på grunn av den vanlige bruken av $B_{\text{scan}}$.

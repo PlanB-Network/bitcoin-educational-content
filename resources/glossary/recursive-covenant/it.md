@@ -1,0 +1,9 @@
+---
+term: RICORSIVO (PATTO)
+
+---
+Un patto ricorsivo su Bitcoin è un tipo di contratto intelligente che impone condizioni non solo sulla transazione corrente, ma anche sulle transazioni future che spendono i risultati di questa transazione. Ciò consente di creare catene di transazioni in cui ciascuna deve aderire a determinate regole definite dalla prima della catena. La ricorsività crea una sequenza di transazioni in cui ciascuna eredita le restrizioni dalla transazione madre. Ciò consentirebbe un controllo complesso e a lungo termine sulle modalità di spesa dei bitcoin, ma introdurrebbe anche rischi relativi alla libertà di spesa e alla fungibilità.
+
+In sintesi, un patto non ricorsivo si limiterebbe alla transazione immediatamente successiva a quella che ha stabilito le regole. Al contrario, un patto ricorsivo ha la capacità di imporre condizioni specifiche su un bitcoin all'infinito. Le transazioni possono susseguirsi, ma il bitcoin in questione manterrà sempre le condizioni iniziali ad esso legate. Tecnicamente, l'istituzione di un patto non ricorsivo si verifica quando la `scriptPubKey` di un UTXO definisce restrizioni sulla `scriptPubKey` degli output di una transazione che spende tale UTXO. D'altra parte, l'istituzione di un patto ricorsivo si verifica quando la `scriptPubKey` di un UTXO definisce restrizioni sulla `scriptPubKey` degli output di una transazione che spende tale UTXO, e su tutte le `scriptPubKey` che seguiranno la spesa di questo UTXO.
+
+Più in generale, in informatica, la cosiddetta "ricorsività" è la capacità di una funzione di richiamare se stessa, creando una sorta di ciclo.

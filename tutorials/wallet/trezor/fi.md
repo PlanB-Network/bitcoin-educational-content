@@ -1,6 +1,5 @@
 ---
 name: Trezor model One
-
 description: Trezor model Onen käyttöönotto ja käyttö
 ---
 

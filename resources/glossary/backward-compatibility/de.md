@@ -1,0 +1,5 @@
+---
+term: ABWÄRTSKOMPATIBILITÄT
+
+---
+Bezieht sich auf die Fähigkeit einer Aktualisierung von Protokollregeln, die Kompatibilität mit früheren Versionen aufrechtzuerhalten. Das bedeutet, dass die Änderungen so konzipiert sind, dass ältere Knoten (Knoten, die mit Versionen vor der Regeländerung arbeiten) weiterhin mit dem Netz interagieren und der Kette mit der meisten angesammelten Arbeit folgen können. Daher ist es wichtig, dass die älteren Knoten weder die neuen Blöcke noch die neuen Transaktionen ablehnen. Durch die Rückwärtskompatibilität wird die Wahrscheinlichkeit, dass eine Aktualisierung das Netz fragmentiert, erheblich verringert, so dass eine Aufteilung der Knoten in Untergruppen auf verschiedenen Ketten vermieden wird. Um die Kompatibilität mit früheren Versionen des Protokolls zu gewährleisten, muss eine Aktualisierung die bestehenden Regeln verschärfen oder neue Regeln einführen. Dieses Prinzip definiert einen "Soft Fork". Umgekehrt ist eine Aktualisierung, die die bestehenden Regeln lockert oder einige davon abschafft, nicht abwärtskompatibel. Dies wäre ein "Hard Fork".

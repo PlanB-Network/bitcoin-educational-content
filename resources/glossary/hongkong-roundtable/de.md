@@ -1,0 +1,7 @@
+---
+term: RUNDER TISCH HONGKONG
+
+---
+Ein historisches Ereignis des Blocksize War, das am 20. Februar 2016 in Hongkong stattfand. Es war ein wichtiges Treffen zwischen Bitcoin Core Entwicklern und Minern, um die Skalierbarkeit des Systems und die Strategie zur Skalierung zu diskutieren. Die Spannungen vor dem Treffen waren groß, insbesondere aufgrund des Aufstiegs von Bitcoin Classic, einem von Gavin Andressen unterstützten Hard Fork-Vorschlag, der auf eine Erhöhung der Blockgröße auf 2 MB abzielte. Einflussreiche Persönlichkeiten aus dem Ökosystem nahmen an den Debatten teil, darunter Jihan Wu und Micree Zhan, die Mitbegründer von Bitmain, Adam Back, der Präsident von Blockstream, sowie Luke Dashjr, Matt Corallo und Peter Todd.
+
+Miner, die über den mangelnden Fortschritt frustriert waren, drohten damit, Bitcoin Classic zu unterstützen, wenn keine 2-MB-Hardfork implementiert würde. Die Entwickler verteidigten SegWit als eine praktikable Lösung. Nach stundenlangen, angespannten Verhandlungen wurde eine Vereinbarung getroffen, die besagt, dass die Bitcoin Core Entwickler nach der Implementierung von SegWit an einem Hard Fork arbeiten würden. Diese Einigung sollte die Spannungen abbauen, führte aber letztlich zu mehr Misstrauen und Verwirrung. Jede Seite interpretierte die Vereinbarung anders und verschärfte die Spaltung der Gemeinschaft. Obwohl diese Vereinbarung die Dynamik von Bitcoin Classic vorübergehend verlangsamte, wurde sie von vielen als eine unbefriedigende und ungeschickte Lösung angesehen.

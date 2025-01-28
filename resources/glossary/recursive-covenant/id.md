@@ -1,0 +1,9 @@
+---
+term: REKURSIF (PERJANJIAN)
+
+---
+Perjanjian rekursif pada Bitcoin adalah sebuah jenis kontrak pintar yang memberlakukan ketentuan tidak hanya pada transaksi saat ini tetapi juga pada transaksi di masa depan yang menggunakan hasil dari transaksi ini. Hal ini memungkinkan terciptanya rantai transaksi di mana masing-masing harus mematuhi aturan tertentu yang ditentukan oleh rantai pertama. Rekursivitas menciptakan urutan transaksi di mana masing-masing mewarisi batasan dari transaksi induknya. Hal ini memungkinkan kontrol yang kompleks dan jangka panjang atas bagaimana bitcoin dapat digunakan, tetapi juga akan menimbulkan risiko terkait kebebasan penggunaan dan kesepadanan.
+
+Sebagai rangkuman, perjanjian non-rekursif hanya akan membatasi diri pada transaksi yang segera mengikuti transaksi yang menetapkan aturan. Sebaliknya, perjanjian rekursif memiliki kemampuan untuk memberlakukan kondisi tertentu pada bitcoin tanpa batas waktu. Transaksi dapat mengikuti satu sama lain, tetapi bitcoin yang bersangkutan akan selalu mempertahankan kondisi awal yang melekat padanya. Secara teknis, pembentukan perjanjian non-rekursif terjadi ketika `scriptPubKey` dari sebuah UTXO mendefinisikan batasan pada `scriptPubKey` dari keluaran transaksi yang menghabiskan UTXO tersebut. Di sisi lain, pembentukan perjanjian rekursif terjadi ketika `scriptPubKey` dari UTXO mendefinisikan batasan pada `scriptPubKey` dari output transaksi yang menghabiskan UTXO tersebut, dan pada semua `scriptPubKey` yang akan mengikuti pengeluaran UTXO ini.
+
+Secara lebih umum, dalam komputasi, apa yang disebut "rekursifitas" adalah kemampuan suatu fungsi untuk memanggil dirinya sendiri, menciptakan semacam perulangan.

@@ -1,0 +1,9 @@
+question: In the event of payment within the RGB channel, what happens to the RGB outputs in the commitment transactions?
+answer: They are updated to reflect the redistribution of assets among participants
+wrong_answers:
+  - They remain unchanged to preserve the initial history until the channel is closed
+  - They are removed and replaced by new multi-sig
+  - They are converted into classic Bitcoin UTXOs
+explanation: |
+  When a payment is made, the RGB state transition adjusts the RGB outputs to redistribute the assets according to the new channel balance.
+reviewed: false

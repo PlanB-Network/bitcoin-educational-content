@@ -1618,7 +1618,7 @@ O Futuro é Brilhante!
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Avalie o curso
+## Avaliações & Notas
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1626,35 +1626,4 @@ O Futuro é Brilhante!
 ## Conclusão
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Parabéns por concluir este curso!
-
-Estamos muito felizes que você tenha alcançado com sucesso este marco em sua jornada de aprendizado.
-
-Através de sua dedicação e engajamento, você adquiriu conhecimentos e habilidades valiosos que serão úteis em seu desenvolvimento profissional.
-
-Para continuar se aprofundando no universo do Bitcoin, convidamos você a explorar todos os outros cursos disponíveis na Plan ₿ Network:
-
-#### Descubra o Bitcoin e seus fundamentos com
-
-https://planb.network/courses/btc101
-
-#### Atualize sua segurança online com
-
-https://planb.network/courses/scu101
-
-#### Descubra a Lightning Network com
-
-https://planb.network/courses/lnp201
-
-#### Aprenda sobre o Pensamento Econômico da Escola Austríaca com
-
-https://planb.network/courses/eco201
-
-#### Descubra a história das origens do Bitcoin com
-
-https://planb.network/courses/his201
-
-#### Entenda o surgimento das hiperinflações com
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,9 @@
+question: Millised on RGB-protokollis kandi kaotamise tagajärjed?
+answer: Lepingu ajalugu ja sellega seotud andmed muutuvad taastamatuks
+wrong_answers:
+  - Andmeid saab rekonstrueerida plokiahelast, kui teil on seemne olemas
+  - Andmete koopia on kättesaadav RGB serverites Šveitsis
+  - Andmed korduvad automaatselt kõigi osalejate jaoks
+explanation: |
+  Kliendipoolse valideerimise puhul vastutab iga kasutaja oma varamu eest, mida ei reprodutseerita mujal, mistõttu selle kadumine on lõplik.
+reviewed: false

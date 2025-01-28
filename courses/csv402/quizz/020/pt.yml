@@ -1,0 +1,9 @@
+question: Qual é o elemento-chave que garante que o Bob recebe um ativo durante uma Transição de Estado em RGB?
+answer: Uma nova definição de selo que aponta para o UTXO do Bob
+wrong_answers:
+  - Uma transação de controlo sem referência a um UTXO
+  - Uma declaração pública de Alice
+  - Uma assinatura dupla partilhada por Alice e Bob
+explanation: |
+  A Definição de Selo liga criptograficamente o ativo ao UTXO do Bob, garantindo que ele o possui.
+reviewed: false

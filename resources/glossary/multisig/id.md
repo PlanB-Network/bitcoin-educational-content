@@ -1,0 +1,7 @@
+---
+term: MULTISIG
+
+---
+Dompet dengan banyak tanda tangan, sering kali disingkat "multisig", didesain untuk meningkatkan keamanan bitcoin dengan membutuhkan beberapa tanda tangan dari kunci pribadi yang berbeda untuk mengesahkan sebuah pembelanjaan. Metode ini mendistribusikan risiko di antara beberapa kunci, yang membantu mengurangi risiko kehilangan dan pencurian (tergantung pada konfigurasi multisig). Dompet multisig beroperasi dengan model "m-of-n", dimana "m" mewakili jumlah minimum tanda tangan yang dibutuhkan untuk memvalidasi sebuah transaksi, dan "n" adalah jumlah total kunci yang terlibat. Sebagai contoh, pengaturan 2-of-3 membutuhkan dua dari tiga tanda tangan yang memungkinkan untuk memvalidasi sebuah transaksi. Pendekatan ini menawarkan keamanan yang lebih unggul dibandingkan dengan dompet dengan satu kunci, tetapi juga memperkenalkan lebih banyak kerumitan dalam hal manajemen dan pencadangan. Selain itu, transaksi yang menggunakan standar multisig yang lebih lama kurang privat dan lebih mahal dalam hal biaya dibandingkan dengan transaksi single signatures. Akan tetapi, inovasi terbaru seperti Taproot dan penggunaan deskriptor diharapkan dapat meminimalisir, bahkan menghilangkan kekurangan multisig ini.
+
+> ► *Beberapa pengguna bitcoin membedakan antara istilah "Multisig" dan "Multisig Ambang" Memang, beberapa orang berpendapat bahwa multisig haruslah n-of-n, sedangkan multisig ambang adalah m-of-n. Akan tetapi, dalam bahasa umum, istilah "Multisig" dapat digunakan untuk menyebut "Multisig" bahkan untuk m-of-n.*

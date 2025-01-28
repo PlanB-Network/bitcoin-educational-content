@@ -1302,7 +1302,7 @@ Tämä mystinen näkökulma Bitcoinin luojasta tiivistettiin hyvin Hal Finneyn t
 >
 > Mitä S tarkoittaa?"
 
-## Kurssin arviointi
+## Arviot & Arvosanat
 
 <chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1444,35 +1444,4 @@ Vuonna 2011 Satoshi katosi, mutta Bitcoin selvisi. Kryptovaluutta otti lopullise
 ## Yhteenveto
 
 <chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
-Onnittelut kurssin suorittamisesta!
-
-Olemme iloisia, että olet saavuttanut tämän tärkeän virstanpylvään oppimismatkallasi.
-
-Omistautumisesi ja sitoutumisesi ansiosta olet hankkinut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
-
-Jatkaaksesi Bitcoin-universumin syvällistä tutkimista, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Network -verkoston tarjoamiin kursseihin:
-
-#### Tutustu Bitcoiniin ja sen perusteisiin
-
-https://planb.network/courses/btc101
-
-#### Tutustu Itävallan taloustieteen koulukuntaan
-
-https://planb.network/courses/eco201
-
-#### Hanki ja turvaa ensimmäiset bitcoinisi
-
-https://planb.network/courses/btc102
-
-#### Päivitä verkkoturvallisuutesi
-
-https://planb.network/courses/scu101
-
-#### Tutustu vapauden kehitykseen läpi aikojen
-
-https://planb.network/courses/phi201
-
-#### Ymmärrä louhinnan perusteet
-
-https://planb.network/courses/min201
-
+<isCourseConclusion>true</isCourseConclusion>

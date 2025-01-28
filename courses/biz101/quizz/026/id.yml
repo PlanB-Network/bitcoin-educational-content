@@ -1,0 +1,9 @@
+question: Apa satu pertimbangan utama saat memilih platform atau broker untuk membeli Bitcoin untuk bisnis?
+answer: Reputasi penyedia, langkah-langkah keamanan, dan kemampuan untuk mengekspor riwayat transaksi untuk akuntansi.
+wrong_answers:
+  - Memastikan platform hanya mendukung mata uang kripto yang tidak jelas.
+  - Menemukan penyedia yang menolak untuk menawarkan dukungan pelanggan.
+  - Menggunakan layanan yang melarang penarikan Bitcoin ke dompet penyimpanan mandiri.
+explanation: |
+  Platform yang dapat diandalkan harus memiliki reputasi yang kuat, keamanan yang baik, dan alat untuk pencatatan. Kemampuan untuk menarik Bitcoin dan berintegrasi dengan perangkat lunak akuntansi juga sangat penting untuk operasi bisnis.
+reviewed: false

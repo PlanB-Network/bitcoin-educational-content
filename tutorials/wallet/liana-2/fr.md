@@ -15,7 +15,12 @@ Si vous souhaitez récupérez les fonds d'un portefeuille Liana existant, lisez 
 
 Liana est un logiciel libre destiné à la création et à la gestion d'un portefeuille avancé, notamment dans le cadre d'un système d'héritage automatisé ou un mécanisme de sauvegarde robuste. Le projet est développé depuis 2022 par la société Wizardsardine, cofondée par Kévin Loaec et Antoine Poinsot. Sur le site officiel, Liana est présenté comme « un portefeuille simple à conservation personnelle, doté de fonctionnalités de récupération et d'héritage ». Le logiciel fonctionne sur ordinateur -- Linux, MacOS, Windows -- et son code source (ouvert) est disponible [sur GitHub](https://github.com/wizardsardine/liana).
 
-Liana se base sur la programmabilité de Bitcoin pour mettre en place un portefeuille avancé. Il tire notamment parti des verrous temporels (*timelocks*), qui permettent de n'autoriser la dépense de fonds qu'une fois qu'une période de temps donnée est passée. Ces verrous temporels sont utilisés pour la récupération des bitcoins, comme l'illustre le schéma ci-dessous :
+Liana se base sur la programmabilité de Bitcoin pour mettre en place un portefeuille avancé. Il tire notamment parti des verrous temporels (*timelocks*), qui permettent de n'autoriser la dépense de fonds qu'une fois qu'une période de temps donnée est passée, et qui interviennent dans la récupération des bitcoins. Un portefeuille Liana est ainsi composé de plusieurs chemins de dépense (*spending paths*) :
+
+- Un chemin de dépense principal, qui est toujours disponible ;
+- Au moins un chemin de récupération, qui devient accessible après un certain temps.
+
+Le schéma ci-dessous illustre le fonctionnement d'un portefeuille doté de deux chemins de dépense :
 
 ![Schéma explicatif](assets/fr/01.webp)
 
@@ -33,7 +38,7 @@ Le gros point fort de Liana est qu'il introduit un moyen standardisé de garanti
 
 Bien sûr, le fonctionnement de Liana s'accompagne de certains inconvénients. Le premier défaut est qu'il faut actualiser le portefeuille régulièrement en effectuant une transaction sur la chaîne de blocs de Bitcoin. Cette contrainte peut s'avérer pénible (selon la fréquence d'utilisation du logiciel) et coûteuse (selon le niveau des frais du moment), mais c'est le prix à payer pour bénéficier d'une sécurité supplémentaire.
 
-Un second point négatif peut être la confidentialité. Lorsque vous faites participer une autre personne dans la configuration, elle a connaissance de l'intégralité de vos adresses et peut donc surveiller votre activité. Si vous optez pour un plan de succession ou une sauvegarde renforcée, le problème ne se pose pas cependant.
+Un second point négatif peut être la confidentialité. Lorsque vous faites participer une autre personne dans la configuration, elle a connaissance de l'intégralité de vos adresses et peut donc surveiller votre activité. Cependant, le problème ne se posera pas si vous optez pour une sauvegarde renforcée, ou pour un plan de succession dans lequel votre héritier n'a pas une connaissance immédiate des détails concernant le portefeuille.
 
 ## Préparation
 
@@ -51,11 +56,11 @@ https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 
 - Une lettre de succession, contenant les instructions pour récupérer les fonds ;
 
-- Un sachet scellé, permettant de s'assurer que l'appareil de récupération (le Jade) n'a pas été utilisé.
+- Un sachet scellé numéroté, permettant de s'assurer que l'appareil de récupération (le Jade) n'a pas été utilisé.
 
 ## Installation et configuration
 
-Rendez-vous sur le site officiel de Wizardsardine et téléchargez Liana à l'adresse https://wizardsardine.com/liana/. La version utilisée ici est la version 0.9.
+Rendez-vous sur le site officiel de Wizardsardine et téléchargez Liana à l'adresse https://wizardsardine.com/liana/. Vous pouvez aussi télécharger la dernière version depuis le dépôt GitHub (https://github.com/wizardsardine/liana/releases), où vous pouvez vérifier l'authenticité du logiciel. La version utilisée dans ce tutoriel est la version 0.9.
 
 ![Télécharger Liana](assets/fr/02.webp)
 
@@ -63,7 +68,7 @@ Installez le logiciel sur votre machine et lancez-le. Choisissez l'option « *C
 
 ![Accueil Liana](assets/fr/03.webp)
 
-Choisissez votre type de portefeuille. Si vous voulez mettre en place une sauvegarde renforcée avec délai de récupération, vous pouvez choisir l'option « *Build you own* ». Le fonctionnement sera sensiblement le même, à l'exception que vous ne devrez pas conserver la phrase de récupération du portefeuille matériel.
+Choisissez votre type de portefeuille. Si vous voulez mettre en place une sauvegarde renforcée avec délai de récupération, vous pouvez choisir l'option « *Build your own* » et opter pour le schéma proposé par défaut. Le fonctionnement sera sensiblement le même, à l'exception que vous ne devrez pas conserver la phrase de récupération du portefeuille matériel.
 
 Nous ignorons ici le cas de la signature multipartite (« *Expanding multisig* ») qui met en place une configuration plus complexe.
 
@@ -79,9 +84,9 @@ Après avoir lu l'explication, vous pourrez configurer les clés de votre portef
 
 ![Configurer clés](assets/fr/06.webp)
 
-Tout d'abord, dans le menu « *Advanced Settings* », vous pouvez décider du « type de descripteur », c'est-à-dire la façon dont le contrat sera écrit sur la chaîne. Vous avez le choix entre deux types : P2WSH ou Taproot. Dans les deux cas, le modèle de contrat utilisé sera le même. P2WSH favorisera la compréhension du contrat et facilitera donc la récupération des fonds. Taproot permettra de cacher les conditions non exploitées et d'économiser des frais lors de la récupération.
+Tout d'abord, dans le menu « *Advanced Settings* », vous pouvez décider du « type de descripteur », c'est-à-dire la façon dont le contrat sera écrit sur la chaîne. Vous avez le choix entre deux types : P2WSH (SegWit) ou Taproot. Dans les deux cas, la sémantique des conditions de dépense sera la même. Bien que P2WSH favorise la compréhension du contrat, Taproot est supérieur dans le sens où il permet de cacher les conditions non exploitées et d'économiser des frais lors de la récupération.
 
-Ce choix est optionnel : dans le doute, laissez l'option par défaut (P2WSH dans le cas de la version 0.9).
+Ce choix est optionnel : dans le doute, laissez l'option par défaut (P2WSH dans le cas de la version 0.9, mais cela est amené à changer).
 
 ![Choisir le type de descripteur](assets/fr/07.webp)
 
@@ -91,7 +96,7 @@ Autorisez le partage de la clé publique étendue depuis l'appareil. Donnez à c
 
 ![Configurer clé principale](assets/fr/08.webp)
 
-Ensuite, configurez le délai de récupération, c'est-à-dire le temps au bout duquel les fonds pourront être dépensés par la clé de succession (*inheritance key*). Ce délai est défini en nombre de blocs, chaque bloc étant séparé par 10 minutes en moyenne. Il peut aller de 10 minutes (1 bloc) à 15 mois environ (65 535 blocs).
+Ensuite, configurez le délai de récupération, c'est-à-dire le temps au bout duquel les fonds pourront être dépensés par la clé de succession (*inheritance key*). Ce délai est défini en nombre de blocs, chaque bloc étant séparé par 10 minutes en moyenne. Il peut aller de 10 minutes (1 bloc) à 15 mois environ (65 535 blocs). Cette borne supérieure est une limitation du protocole Bitcoin, le temps de verrouillage étant encodé sur 16 bits.
 
 Sauf circonstances particulières, optez pour le délai le plus élevé : 15 mois ou 65 535 blocs. Vous pourrez ainsi économiser des frais. Nous vous conseillons cependant de procéder à la manipulation d'actualisation (décrite dans la section « Actualisation du portefeuille ») une fois par an, toujours durant la même période de l'année, afin de « ritualiser » cette pratique et éviter d'oublier.
 
@@ -111,7 +116,7 @@ Une fois que toutes ces actions réalisées, vérifiez que tout est en ordre et 
 
 L'étape suivante est la sauvegarde du descripteur (*descriptor*) de votre portefeuille. Il s'agit de l'information permettant de retrouver les fonds présents sur le compte. Contrairement à la phrase mnémotechnique, le descripteur ne permet pas de dépenser des fonds, de sorte que sa divulgation ne posera qu'un problème de confidentialité (la personne connaîtra toutes vos transactions).
 
-Sauvegardez le descripteur en deux exemplaires sur des supports quelconques comme des clés USB. Chaque sauvegarde doit être associée à un appareil de signature.
+Sauvegardez le descripteur en deux exemplaires sur des supports électroniques, comme des clés USB. Veillez également à l'imprimer en deux exemplaires sur des feuilles de papier, afin de pouvoir y accéder en cas de dégradation des supports électroniques. Chaque sauvegarde doit être associée à un appareil de signature.
 
 ![Sauvegarder descripteur](assets/fr/12.webp)
 
@@ -121,7 +126,7 @@ Notre descripteur (qui est analysé à la fin du tutoriel) est le suivant :
 wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJAS3U1CvXGAtQGFXSHyFYdYNn9wNa9KU1pwfYoxQhwq4sPXGihD725VncdSy66v9WQa/<0;1>/*),and_v(v:pkh([42e629dd/48'/0'/0'/2']xpub6DpQGv9LkwAQXvghWASvsfA7t1BVj7bGDQ939v32iB6aUJsMRB6inckim26gRp74NBdS2zuyfHNXDZ9dTuNXkFFiz6QvwEeVvBuC2cnRWQd/<0;1>/*),older(6))))#8alrve5h
 ```
 
-L'étape finale de la configuration initiale du portefeuille consiste à enregistrer le descripteur dans chacun des portefeuilles matériels qui servent d'appareil de signature.
+L'étape finale de la configuration initiale du portefeuille consiste à vérifier le descripteur dans chacun des portefeuilles matériels qui servent d'appareils de signature.
 
 ![Enregistrer descripteur](assets/fr/13.webp)
 
@@ -129,7 +134,7 @@ Faites l'opération pour chacun des appareils de signature. Vous devrez vérifie
 
 ![Enregistrer descripteur Nano S Plus](assets/fr/14.webp)
 
-Les informations relatives à votre portefeuille sont à présent enregistrées, et il ne vous reste plus qu'à configurer la façon dont vous voulez vous connecter au réseau Bitcoin. Vous pouvez choisir d'utiliser votre propre nœud (local ou distant) ou bien utiliser l'infrastructure de Liana. Dans le second cas, vous devrez lier une adresse de courrier électronique à votre portefeuille qui vous permettra de récupérer le descripteur. Liana aura accès à toutes vos transactions. La première option est donc suggérée.
+Les informations relatives à votre portefeuille sont à présent enregistrées, et il ne vous reste plus qu'à configurer la façon dont vous voulez vous connecter au réseau Bitcoin. Vous pouvez choisir d'utiliser votre propre nœud (local ou distant) ou bien utiliser l'infrastructure de WizardSardine. Dans le second cas, vous devrez lier une adresse de courrier électronique à votre portefeuille qui vous permettra de récupérer le descripteur. WizardSardine aura accès à toutes vos transactions. La première option est donc suggérée.
 
 ![Sélectionner connexion réseau](assets/fr/15.webp)
 
@@ -145,7 +150,7 @@ Une fois la configuration du nœud terminée, l'écran principal devrait s'ouvri
 
 Profitez-en pour mettre en lieu sûr l'appareil de récupération. Il devra être entreposé à un endroit stratégique, de sorte à être retrouvé par vos héritiers en cas de décès.
 
-Pour plus de sécurité, vous pouvez placer les éléments servant à la récupération dans un sachet scellé (*tamper-evident bag*). Cette méthode permet de vous assurer que personne n'y a accédé et que votre dispositif reste valide.
+Pour plus de sécurité, vous pouvez placer les éléments servant à la récupération dans un sachet scellé (*tamper-evident bag*) et inscrire quelque part son numéro de série. Cette méthode permet de vous assurer que personne n'y a accédé et que votre dispositif reste valide.
 
 Dans notre exemple, nous avons rassemblé les éléments suivants :
 
@@ -153,6 +158,7 @@ Dans notre exemple, nous avons rassemblé les éléments suivants :
 - Un câble USB, permettant de brancher et de recharger l'appareil ;
 - Une sauvegarde papier de la phrase en cas de dysfonctionnement ou de dégradation de l'appareil (notez que le support peut aussi être en méta, et donc à l'abri des intempéries, comme c'est le cas des capsules Cryptosteel par exemple) ;
 - La clé USB contenant le descripteur du portefeuille ;
+- La sauvegarde papier du descripteur, en cas de dysfonctionnement ou de dégradation de la clé USB (cette sauvegarde n'a pas été prise en photo ici) ;
 - Une lettre de succession décrivant les opérations à effectuer pour récupérer les fonds.
 
 ![Éléments de récupération](assets/fr/18.webp)
@@ -171,7 +177,7 @@ Pour recevoir des fonds, allez dans l'onglet « *Receive* » et cliquez sur «
 
 ![Générer nouvelle adresse](assets/fr/21.webp)
 
-Vous pouvez vérifier cette adresse sur votre portefeuille matériel en cliquant sur « *Verify on hardware device* ».
+Vous devez vérifier cette adresse sur votre portefeuille matériel en cliquant sur « *Verify on hardware device* ».
 
 ![Vérifier adresse portefeuille matériel](assets/fr/22.webp)
 
@@ -193,15 +199,15 @@ La dépense courante est la situation normale d'utilisation de Liana. L'envoi de
 
 Pour faire une dépense, allez dans l'onglet « *Send* » et indiquez les informations essentielles : l'adresse BTC du destinataire, le montant à envoyer et le taux de frais désiré. Une description (enregistrée localement) peut aussi être ajoutée pour votre confort personnel. Dans notre exemple, nous avons envoyé 10 000 satoshis à un certain Bob, pour un taux de frais de 4 sat/ov, soit 0,67 $ au moment de la transaction.
 
-Liana impose également le « contrôle des pièces » (*coin control) : vous devez ainsi indiquer quelle pièce (UTXO) vous souhaitez dépenser. Ici, nous avons choisi la pièce de 50 000 satoshis précédemment créée.
+Liana propose également le « contrôle des pièces » (*coin control*) : vous devez ainsi indiquer quelle pièce (UTXO) vous souhaitez dépenser. Ici, nous avons choisi la pièce de 50 000 satoshis précédemment créée.
 
 ![Envoyer fonds clé principale](assets/fr/25.webp)
 
-Puis, signez la transaction avec votre appareil de signature lié à la clé principale en cliquant sur « *Sign* ». Vous devrez confirmer la transaction sur votre portefeuille matériel. Ici, nous avons utilisé le S+ pour signer la transaction.
+Puis, signez la transaction avec votre appareil de signature lié à la clé principale en cliquant sur « *Sign* ». Vous devrez vérifier et confirmer la transaction sur votre portefeuille matériel. Ici, nous avons utilisé le Nano S Plus pour signer la transaction.
 
 ![Signer transaction clé principale](assets/fr/26.webp)
 
-Enfin, diffusez la transaction sur le réseau en cliquant « *Broadcast* ». Notez que l'envoi de fonds va actualiser le délai de récupération des pièces utilisées.
+Enfin, diffusez la transaction sur le réseau en cliquant « *Broadcast* ». Notez que l'envoi de fonds va réinitialiser le délai de récupération des pièces utilisées.
 
 ![Diffuser transaction clé principale](assets/fr/27.webp)
 
@@ -213,15 +219,15 @@ La transaction apparaîtra sur l'écran pricipal et votre solde sera mis à jour
 
 Comme expliqué plus haut, le portefeuille Liana requiert que vous actualisiez vos fonds régulièrement en effectuant une opération sur la chaîne de blocs. Si vous ne le faites pas, vos fonds peuvent être récupérés par votre héritier (ou par votre second appareil dans le cas d'une sauvegarde renforcée). Cette situation n'est pas extrêmement dangereuse, mais cela va à l'encontre de la raison pour laquelle vous avez mis en place ce mécanisme : rester maître de vos bitcoins sans recourir à un tiers de confiance, tout en bénéficiant d'un filet de sécurité.
 
-Un avertissement sera affiché lorsque vos fonds (ou une partie d'entre eux) arriveront à expiration. Il sera indiqué que votre « chemin de récupération » (*recovery path*) est bientôt disponible. Étant donné la brièveté de notre délai de récupération (une heure), ce message est affiché directement dans notre cas.
+Un avertissement sera affiché avant que vos fonds (ou une partie d'entre eux) arrivent à expiration et puissent être dépensés par la clé de récupération. Il sera indiqué que votre « chemin de récupération » (*recovery path*) est bientôt disponible. Étant donné la brièveté de notre délai de récupération (une heure), ce message est affiché directement dans notre cas.
 
 ![Avertissement chemin récupération](assets/fr/29.webp)
 
-Lorsque le délai sera dépassé (ou sera très proche de l'être), un bouton vous invitant à actualiser les fonds concernés apparaîtra. Nous vous suggérons cependant de ne pas attendre que ce bouton apparaisse, pour éviter d'exposer les fonds à un danger (aussi minime soit-il).
+Lorsque la fin du délai approchera, un bouton vous invitant à actualiser les fonds concernés apparaîtra.
 
 ![Actualiser pièces depuis l'écran principal](assets/fr/30.webp)
 
-Pour actualiser vos pièces, allez donc dans l'onglet « *Coins* » et cliquez sur « *Refresh coin* » dans l'encadré de la pièce correspondante. Si vous avez plusieurs pièces, vous devrez les actualiser une à une. Pour limiter les frais, vous pouvez consolider vos fonds en envoyant l'intégralité des fonds du portefeuille sur une nouvelle adresse de réception, mais cette opération nuira à votre confidentialité.
+Pour actualiser vos pièces, allez donc dans l'onglet « *Coins* » et cliquez sur « *Refresh coin* » dans l'encadré de la pièce correspondante. Si vous avez plusieurs pièces, vous devriez les actualiser une à une, et avec un intervalle de temps relativement espacé, pour des raison de confidentialité. Pour limiter les frais, vous pouvez consolider vos fonds en envoyant l'intégralité des fonds du portefeuille sur une nouvelle adresse de réception, mais cette opération nuira à votre confidentialité.
 
 ![Actualiser pièce](assets/fr/31.webp)
 
@@ -239,15 +245,15 @@ Une fois celle-ci confirmée, votre pièce est à l'abri ! Vous pouvez être tr
 
 Lors de la récupération des fonds présents sur le portefeuille Liana, vous pouvez être confrontés à deux situations. Vous pouvez avoir accès à l'ordinateur sur lequel est installé le logiciel, auquel cas il vous suffit de l'ouvrir (ce qui aura lieu dans le cas du modèle de sauvegarde renforcée). Toutefois, il est possible que vous n'ayez pas accès à cet ordinateur ; c'est pourquoi nous repartirons de zéro ici. Notez que la manipulation de récupération sera la même dans les deux cas.
 
-Pour commencer, téléchargez Liana depuis le site officiel de Wizardsardine (https://wizardsardine.com/liana/) ou bien sur le dépôt GitHub (https://github.com/wizardsardine/liana/releases). Installez le logiciel et lancez-le. La version utilisée dans notre cas est la version 0.9, donc les visuels peuvent avoir changé. Sur l'écran d'accueil, sélectionnez l'option  « *Add an existing Liana wallet* ».
+Pour commencer, téléchargez Liana depuis le site officiel de Wizardsardine (https://wizardsardine.com/liana/), ou bien depuis le dépôt GitHub (https://github.com/wizardsardine/liana/releases), où vous pouvez vérifier l'authenticité du logiciel. Installez le logiciel et lancez-le. La version utilisée dans notre cas est la version 0.9, donc les visuels peuvent avoir changé. Sur l'écran d'accueil, sélectionnez l'option  « *Add an existing Liana wallet* ».
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)
 
-Configurez la façon dont vous voulez vous connecter au réseau. Vous pouvez choisir d'utiliser votre propre nœud (local ou distant) ou bien utiliser l'infrastructure de Liana. Dans le second cas, vous devrez disposer de l'adresse de courrier électronique utilisée par le créateur du portefeuille, afin de procéder à la localisation des fonds automatiquement. Si vous ne disposez pas d'une telle information, choisissez la première option.
+Configurez la façon dont vous voulez vous connecter au réseau. Vous pouvez choisir d'utiliser votre propre nœud (local ou distant) ou bien utiliser l'infrastructure de WizardSardine. Dans le second cas, vous devrez disposer de l'adresse de courrier électronique utilisée par le créateur du portefeuille, afin de procéder à la localisation des fonds automatiquement. Si vous ne disposez pas d'une telle information, choisissez la première option.
 
 ![Sélectionner connexion réseau](assets/fr/35.webp)
 
-Importez le descripteur du portefeuille. Celui-ci est une description technique du compte permettant de récupérer les fonds qui s'y trouvent. Dans notre cas, il s'agit de l'information suivante :
+Dans le cas où vous utilisez votre propre noeud, importez le descripteur du portefeuille. Celui-ci est une description technique du compte permettant de récupérer les fonds qui s'y trouvent. Dans notre cas, il s'agit de l'information suivante :
 
 ```
 wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJAS3U1CvXGAtQGFXSHyFYdYNn9wNa9KU1pwfYoxQhwq4sPXGihD725VncdSy66v9WQa/<0;1>/*),and_v(v:pkh([42e629dd/48'/0'/0'/2']xpub6DpQGv9LkwAQXvghWASvsfA7t1BVj7bGDQ939v32iB6aUJsMRB6inckim26gRp74NBdS2zuyfHNXDZ9dTuNXkFFiz6QvwEeVvBuC2cnRWQd/<0;1>/*),older(6))))#8alrve5h
@@ -255,13 +261,13 @@ wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJ
 
 ![Importer descripteur](assets/fr/36.webp)
 
-Liana vous propose ensuite d'entrer une phrase mnémotechnique. Si vous disposez d'un appareil de signature fonctionnel (portefeuille matériel), ignorez cette partie. Si votre appareil est manquant ou endommagé, mais que vous disposez des 12 ou 24 mots correspondant, vous pouvez cependant utiliser cette option.
+Liana vous propose ensuite d'entrer une phrase mnémotechnique. Si vous disposez d'un appareil de signature fonctionnel (portefeuille matériel), ignorez cette partie. Si votre appareil est manquant ou endommagé, mais que vous disposez des 12 ou 24 mots correspondant, vous pouvez cependant utiliser cette option. Pour plus de sécurité (dans le cas où le montant à récupérer serait élevé), nous vous suggérons tout de même de vous procurer un nouveau portefeuille matériel et d'utiliser la phrase mnémotechnique pour restaurer les clés sur ce dernier.
 
 Dans notre cas, nous utilisons le portefeuille matériel Blockstream Jade comme appareil de récupération et choisissons de passer (« *Skip* ») cette étape.
 
 ![Passer phrase mnémotechnique](assets/fr/37.webp)
 
-Enregistrez le descripteur dans votre appareil de signature en sélectionnant ce dernier sur l'écran. Si votre portefeuille matériel n'apparaît pas, vérifiez qu'il est bien connecté et déverrouillé. Vérifiez et confirmez l'ajout de cette information sur votre appareil.
+Vérifiez et enregistrez le descripteur dans votre appareil de signature en sélectionnant ce dernier sur l'écran. Si votre portefeuille matériel n'apparaît pas, vérifiez qu'il est bien connecté et déverrouillé. Vérifiez et confirmez l'ajout de cette information sur votre appareil.
 
 ![Enregistrer descripteur sur l'appareil de récupération](assets/fr/38.webp)
 
@@ -285,7 +291,7 @@ Dépensez la pièce présente dans la portefeuille en cochant la case correspond
 
 ![Récupération des pièces](assets/fr/42.webp)
 
-Signez la transaction en cliquant sur « *Sign* » et en validant l'opération sur votre portefeuille matériel.
+Signez la transaction en cliquant sur « *Sign* » et en valident l'opération sur votre portefeuille matériel.
 
 ![Signer transaction clé de récupération](assets/fr/43.webp)
 

@@ -19,13 +19,14 @@ To buy bitcoin on Bitfinex, start by [creating an account on the platform](https
 To secure your passwords and guarantee the use of strong passwords for your online accounts, especially on Bitfinex, I strongly advise you to use a password manager. Check out our tutorial on Bitwarden to learn how to install and use it on a daily basis:
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 You can then make a deposit with the payment method of your choice and purchase bitcoin.
 
-https://youtu.be/z2YlJr9sF20
+![bitfinex](https://youtu.be/z2YlJr9sF20)
 
 You can also set up a recurring purchase of bitcoins to smooth your acquisition price over time (*DCA*).
 
-https://youtu.be/8uoBacYSn08
+![bitfinex](https://youtu.be/8uoBacYSn08)
 
 After purchasing your first bitcoins, you have the option of leaving them on the platform, but I strongly recommend transferring them to your own self-custody wallet. If you don't yet know how to use a Bitcoin wallet, I invite you to explore [the "Wallet" section on PlanB Network](https://planb.network/tutorials/wallet).
 
@@ -33,11 +34,12 @@ After purchasing your first bitcoins, you have the option of leaving them on the
 
 Once you've created your account, I recommend that you secure it by adding a second authentication factor (2FA), either with a physical key or via an authentication application.
 
-https://youtu.be/_Ah34kG6tng
+![bitfinex](https://youtu.be/_Ah34kG6tng)
 
 If you don't know how to use these dual authentication solutions to secure your online accounts, I recommend you take a look at our tutorial on the Authy application:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Or, if you prefer to use a physical key, see our tutorial on Yubikey :
 
 https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
@@ -45,8 +47,8 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 Finally, if you want to use the more advanced trading features on Bitfinex, you can set up your own Trade Desk templates:
 
-https://youtu.be/byIyWgLGejI
+![bitfinex](https://youtu.be/byIyWgLGejI)
 
 You can also create sub-accounts to segregate different uses of Bitfinex.
 
-https://youtu.be/aOBXgcuJ5fI
+![bitfinex](https://youtu.be/aOBXgcuJ5fI)

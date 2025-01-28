@@ -21,11 +21,11 @@ Pro zabezpečení vašich hesel a zaručení používání silných hesel pro va
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Poté můžete provést vklad pomocí zvolené platební metody a zakoupit bitcoiny.
 
-https://youtu.be/z2YlJr9sF20
+![bitfinex](https://youtu.be/z2YlJr9sF20)
 
 Můžete si také nastavit opakovaný nákup bitcoinů, abyste v průběhu času vyrovnali cenu pořízení (*DCA*).
 
-https://youtu.be/8uoBacYSn08
+![bitfinex](https://youtu.be/8uoBacYSn08)
 
 Po nákupu prvních bitcoinů máte možnost nechat je na platformě, ale důrazně doporučuji převést je do vlastní peněženky. Pokud ještě nevíte, jak bitcoinovou peněženku používat, zvu vás k prozkoumání [sekce "Peněženka" na webu PlanB Network](https://planb.network/tutorials/wallet).
 
@@ -33,7 +33,7 @@ Po nákupu prvních bitcoinů máte možnost nechat je na platformě, ale důraz
 
 Po vytvoření účtu doporučuji zabezpečit jej přidáním druhého ověřovacího faktoru (2FA), a to buď pomocí fyzického klíče, nebo ověřovací aplikace.
 
-https://youtu.be/_Ah34kG6tng
+![bitfinex](https://youtu.be/_Ah34kG6tng)
 
 Pokud nevíte, jak tato řešení dvojího ověřování používat k zabezpečení svých online účtů, doporučuji vám podívat se na náš návod k aplikaci Authy:
 
@@ -45,8 +45,8 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 Pokud chcete využívat pokročilejší obchodní funkce na Bitfinexu, můžete si nastavit vlastní šablony Trade Desk:
 
-https://youtu.be/byIyWgLGejI
+![bitfinex](https://youtu.be/byIyWgLGejI)
 
 Můžete si také vytvořit podúčty a oddělit tak různé způsoby použití služby Bitfinex.
 
-https://youtu.be/aOBXgcuJ5fI
+![bitfinex](https://youtu.be/aOBXgcuJ5fI)

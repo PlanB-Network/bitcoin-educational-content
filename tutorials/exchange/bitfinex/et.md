@@ -21,11 +21,11 @@ Selleks, et kaitsta oma paroole ja tagada tugevate paroolide kasutamine oma veeb
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Seejärel saate teha deposiidi oma valitud makseviisiga ja osta bitcoini.
 
-https://youtu.be/z2YlJr9sF20
+![bitfinex](https://youtu.be/z2YlJr9sF20)
 
 Samuti saate seadistada bitcoinide korduva ostu, et tasandada oma ostuhinda aja jooksul (*DCA*).
 
-https://youtu.be/8uoBacYSn08
+![bitfinex](https://youtu.be/8uoBacYSn08)
 
 Pärast esimeste bitcoinide ostmist on teil võimalus need platvormile jätta, kuid ma soovitan tungivalt kanda need üle omaenda rahakotti. Kui te ei tea veel, kuidas Bitcoini rahakotti kasutada, kutsun teid üles uurima [PlanB Networki jaotist "Rahakott"](https://planb.network/tutorials/wallet).
 
@@ -33,7 +33,7 @@ Pärast esimeste bitcoinide ostmist on teil võimalus need platvormile jätta, k
 
 Kui olete oma konto loonud, soovitan seda kaitsta, lisades teise autentimisfaktori (2FA), kas füüsilise võtme või autentimisrakenduse abil.
 
-https://youtu.be/_Ah34kG6tng
+![bitfinex](https://youtu.be/_Ah34kG6tng)
 
 Kui te ei tea, kuidas kasutada neid topeltautentimislahendusi oma veebikontode kaitsmiseks, siis soovitan vaadata meie õpetust Authy rakendusest:
 
@@ -45,8 +45,8 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 Lõpuks, kui soovite kasutada Bitfinexi täiustatud kauplemisfunktsioone, saate luua oma Trade Deski mallid:
 
-https://youtu.be/byIyWgLGejI
+![bitfinex](https://youtu.be/byIyWgLGejI)
 
 Võite luua ka alamkontosid, et eraldada Bitfinexi erinevaid kasutusviise.
 
-https://youtu.be/aOBXgcuJ5fI
+![bitfinex](https://youtu.be/aOBXgcuJ5fI)

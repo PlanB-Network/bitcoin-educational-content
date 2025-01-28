@@ -21,11 +21,11 @@ Bitfinex でビットコインを購入するには、[プラットフォーム�
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 その後、お好みの支払い方法で入金し、ビットコインを購入することができます。
 
-https://youtu.be/z2YlJr9sF20
+![bitfinex](https://youtu.be/z2YlJr9sF20)
 
 また、ビットコインの定期購入を設定することで、取得価格を長期的に平準化することもできます（*DCA*）。
 
-https://youtu.be/8uoBacYSn08
+![bitfinex](https://youtu.be/8uoBacYSn08)
 
 最初のビットコインを購入した後、プラットフォーム上に残しておくという選択肢もありますが、ご自身の保管用ウォレットに移すことを強くお勧めします。ビットコイン・ウォレットの使い方をまだご存知でない方は、[PlanB Networkの「ウォレット」セクション](https://planb.network/tutorials/wallet)をぜひご覧ください。
 
@@ -33,7 +33,7 @@ https://youtu.be/8uoBacYSn08
 
 アカウントを作成したら、物理的な鍵または認証アプリケーションを使用して、2つ目の認証要素（2FA）を追加することでアカウントを保護することをお勧めします。
 
-https://youtu.be/_Ah34kG6tng
+![bitfinex](https://youtu.be/_Ah34kG6tng)
 
 オンライン・アカウントの安全性を確保するための二重認証ソリューションの使い方がわからない場合は、Authyアプリケーションのチュートリアルをご覧になることをお勧めします：
 
@@ -45,8 +45,8 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 最後に、Bitfinexのより高度な取引機能を使用したい場合は、独自のトレードデスクテンプレートを設定することができます：
 
-https://youtu.be/byIyWgLGejI
+![bitfinex](https://youtu.be/byIyWgLGejI)
 
 また、Bitfinexの異なる用途を分離するためにサブアカウントを作成することができます。
 
-https://youtu.be/aOBXgcuJ5fI
+![bitfinex](https://youtu.be/aOBXgcuJ5fI)

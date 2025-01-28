@@ -21,11 +21,11 @@ Untuk mengamankan kata sandi Anda dan menjamin penggunaan kata sandi yang kuat u
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Anda kemudian dapat melakukan deposit dengan metode pembayaran pilihan Anda dan membeli bitcoin.
 
-https://youtu.be/z2YlJr9sF20
+![bitfinex](https://youtu.be/z2YlJr9sF20)
 
 Anda juga bisa mengatur pembelian bitcoin secara berulang untuk memperlancar harga akuisisi Anda dari waktu ke waktu (*DCA*).
 
-https://youtu.be/8uoBacYSn08
+![bitfinex](https://youtu.be/8uoBacYSn08)
 
 Setelah membeli bitcoin pertama Anda, Anda memiliki opsi untuk membiarkannya di platform, tetapi saya sangat menyarankan untuk memindahkannya ke dompet penyimpanan Anda sendiri. Jika Anda belum tahu cara menggunakan dompet Bitcoin, saya mengundang Anda untuk menjelajahi [bagian "Dompet" di PlanB Network] (https://planb.network/tutorials/wallet).
 
@@ -33,7 +33,7 @@ Setelah membeli bitcoin pertama Anda, Anda memiliki opsi untuk membiarkannya di 
 
 Setelah Anda membuat akun, saya sarankan Anda mengamankannya dengan menambahkan faktor autentikasi kedua (2FA), baik dengan kunci fisik atau melalui aplikasi autentikasi.
 
-https://youtu.be/_Ah34kG6tng
+![bitfinex](https://youtu.be/_Ah34kG6tng)
 
 Jika Anda tidak tahu cara menggunakan solusi autentikasi ganda ini untuk mengamankan akun online Anda, saya sarankan Anda untuk melihat tutorial kami tentang aplikasi Authy:
 
@@ -45,8 +45,8 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 Terakhir, jika Anda ingin menggunakan fitur trading yang lebih canggih di Bitfinex, Anda dapat mengatur templat Trade Desk Anda sendiri:
 
-https://youtu.be/byIyWgLGejI
+![bitfinex](https://youtu.be/byIyWgLGejI)
 
 Anda juga dapat membuat sub-akun untuk memisahkan penggunaan Bitfinex yang berbeda.
 
-https://youtu.be/aOBXgcuJ5fI
+![bitfinex](https://youtu.be/aOBXgcuJ5fI)

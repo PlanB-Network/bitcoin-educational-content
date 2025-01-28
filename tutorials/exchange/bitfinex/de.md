@@ -21,11 +21,11 @@ Um Ihre Passwörter zu sichern und die Verwendung von starken Passwörtern für 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Sie können dann eine Einzahlung mit der Zahlungsmethode Ihrer Wahl vornehmen und Bitcoin kaufen.
 
-https://youtu.be/z2YlJr9sF20
+![bitfinex](https://youtu.be/z2YlJr9sF20)
 
 Sie können auch einen wiederkehrenden Kauf von Bitcoins einrichten, um Ihren Anschaffungspreis über die Zeit zu glätten (*DCA*).
 
-https://youtu.be/8uoBacYSn08
+![bitfinex](https://youtu.be/8uoBacYSn08)
 
 Nachdem Sie Ihre ersten Bitcoins gekauft haben, haben Sie die Möglichkeit, sie auf der Plattform zu belassen, aber ich empfehle Ihnen dringend, sie in Ihr eigenes Wallet zu transferieren, das Sie selbst verwahren. Wenn Sie noch nicht wissen, wie man eine Bitcoin-Wallet benutzt, lade ich Sie ein, [den Abschnitt "Wallet" auf PlanB Network](https://planb.network/tutorials/wallet) zu erkunden.
 
@@ -33,7 +33,7 @@ Nachdem Sie Ihre ersten Bitcoins gekauft haben, haben Sie die Möglichkeit, sie 
 
 Sobald Sie Ihr Konto erstellt haben, empfehle ich Ihnen, es durch einen zweiten Authentifizierungsfaktor (2FA) zu sichern, entweder mit einem physischen Schlüssel oder über eine Authentifizierungsanwendung.
 
-https://youtu.be/_Ah34kG6tng
+![bitfinex](https://youtu.be/_Ah34kG6tng)
 
 Wenn Sie nicht wissen, wie Sie diese doppelten Authentifizierungslösungen zur Sicherung Ihrer Online-Konten nutzen können, empfehle ich Ihnen einen Blick auf unser Tutorial zur Authy-Anwendung:
 
@@ -45,8 +45,8 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 Wenn Sie schließlich die fortgeschrittenen Handelsfunktionen von Bitfinex nutzen möchten, können Sie Ihre eigenen Trade Desk-Vorlagen einrichten:
 
-https://youtu.be/byIyWgLGejI
+![bitfinex](https://youtu.be/byIyWgLGejI)
 
 Sie können auch Unterkonten einrichten, um verschiedene Nutzungen von Bitfinex zu trennen.
 
-https://youtu.be/aOBXgcuJ5fI
+![bitfinex](https://youtu.be/aOBXgcuJ5fI)

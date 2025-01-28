@@ -21,11 +21,11 @@ For å sikre passordene dine og garantere bruk av sterke passord for nettkontoen
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Deretter kan du gjøre et innskudd med den betalingsmetoden du ønsker, og kjøpe bitcoin.
 
-https://youtu.be/z2YlJr9sF20
+![bitfinex](https://youtu.be/z2YlJr9sF20)
 
 Du kan også sette opp et tilbakevendende kjøp av bitcoins for å jevne ut anskaffelsesprisen over tid (*DCA*).
 
-https://youtu.be/8uoBacYSn08
+![bitfinex](https://youtu.be/8uoBacYSn08)
 
 Etter at du har kjøpt dine første bitcoins, har du muligheten til å la dem bli på plattformen, men jeg anbefaler på det sterkeste å overføre dem til din egen lommebok. Hvis du ennå ikke vet hvordan du bruker en Bitcoin-lommebok, inviterer jeg deg til å utforske [delen "Lommebok" på PlanB Network] (https://planb.network/tutorials/wallet).
 
@@ -33,7 +33,7 @@ Etter at du har kjøpt dine første bitcoins, har du muligheten til å la dem bl
 
 Når du har opprettet kontoen din, anbefaler jeg at du sikrer den ved å legge til en andre autentiseringsfaktor (2FA), enten med en fysisk nøkkel eller via et autentiseringsprogram.
 
-https://youtu.be/_Ah34kG6tng
+![bitfinex](https://youtu.be/_Ah34kG6tng)
 
 Hvis du ikke vet hvordan du bruker disse to autentiseringsløsningene for å sikre nettkontoene dine, anbefaler jeg at du tar en titt på veiledningen vår om Authy-programmet:
 
@@ -45,8 +45,8 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 Til slutt, hvis du ønsker å bruke de mer avanserte handelsfunksjonene på Bitfinex, kan du sette opp dine egne Trade Desk-maler:
 
-https://youtu.be/byIyWgLGejI
+![bitfinex](https://youtu.be/byIyWgLGejI)
 
 Du kan også opprette underkontoer for å skille mellom ulike bruksområder for Bitfinex.
 
-https://youtu.be/aOBXgcuJ5fI
+![bitfinex](https://youtu.be/aOBXgcuJ5fI)

@@ -21,11 +21,11 @@ Jos haluat suojata salasanasi ja taata vahvojen salasanojen käytön verkkotilei
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Tämän jälkeen voit tehdä talletuksen valitsemallasi maksutavalla ja ostaa bitcoinia.
 
-https://youtu.be/z2YlJr9sF20
+![bitfinex](https://youtu.be/z2YlJr9sF20)
 
 Voit myös määrittää toistuvan bitcoinien oston tasataksesi hankintahintasi ajan mittaan (*DCA*).
 
-https://youtu.be/8uoBacYSn08
+![bitfinex](https://youtu.be/8uoBacYSn08)
 
 Kun olet ostanut ensimmäiset bitcoinisi, voit jättää ne alustalle, mutta suosittelen vahvasti niiden siirtämistä omaan lompakkoosi. Jos et vielä osaa käyttää Bitcoin-lompakkoa, pyydän sinua tutustumaan [PlanB Networkin "Lompakko"-osioon](https://planb.network/tutorials/wallet).
 
@@ -33,7 +33,7 @@ Kun olet ostanut ensimmäiset bitcoinisi, voit jättää ne alustalle, mutta suo
 
 Kun olet luonut tilisi, suosittelen suojaamaan sen lisäämällä toisen todennustekijän (2FA) joko fyysisellä avaimella tai todennussovelluksen avulla.
 
-https://youtu.be/_Ah34kG6tng
+![bitfinex](https://youtu.be/_Ah34kG6tng)
 
 Jos et tiedä, miten näitä kaksoistodennusratkaisuja käytetään verkkotilien suojaamiseen, suosittelen tutustumaan Authy-sovellusta koskevaan opetusohjelmaan:
 
@@ -45,8 +45,8 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 Lopuksi, jos haluat käyttää Bitfinexin kehittyneempiä kaupankäyntiominaisuuksia, voit luoda omia Trade Desk -malleja:
 
-https://youtu.be/byIyWgLGejI
+![bitfinex](https://youtu.be/byIyWgLGejI)
 
 Voit myös luoda alatilejä Bitfinexin eri käyttötarkoitusten erottamiseksi toisistaan.
 
-https://youtu.be/aOBXgcuJ5fI
+![bitfinex](https://youtu.be/aOBXgcuJ5fI)

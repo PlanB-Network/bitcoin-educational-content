@@ -21,11 +21,11 @@ Bitfinex 积极支持比特币的发展，投资于闪电网络等技术，推�
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 然后，您就可以用自己选择的支付方式存款并购买比特币。
 
-https://youtu.be/z2YlJr9sF20
+![bitfinex](https://youtu.be/z2YlJr9sF20)
 
 您还可以设置定期购买比特币，以平滑一段时间内的收购价格（*DCA*）。
 
-https://youtu.be/8uoBacYSn08
+![bitfinex](https://youtu.be/8uoBacYSn08)
 
 购买第一枚比特币后，您可以选择将其留在平台上，但我强烈建议您将其转移到自己的自管钱包中。如果你还不知道如何使用比特币钱包，我邀请你浏览[PlanB Network 的 "钱包 "部分](https://planb.network/tutorials/wallet)。
 
@@ -33,7 +33,7 @@ https://youtu.be/8uoBacYSn08
 
 创建账户后，我建议你添加第二个身份验证因素（2FA）来确保账户安全，可以使用实体钥匙或通过身份验证应用程序。
 
-https://youtu.be/_Ah34kG6tng
+![bitfinex](https://youtu.be/_Ah34kG6tng)
 
 如果你不知道如何使用这些双重身份验证解决方案来保护你的在线账户，我建议你看看我们关于 Authy 应用程序的教程：
 
@@ -45,8 +45,8 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 最后，如果您想使用 Bitfinex 上更高级的交易功能，您可以设置自己的交易平台模板：
 
-https://youtu.be/byIyWgLGejI
+![bitfinex](https://youtu.be/byIyWgLGejI)
 
 您还可以创建子账户来隔离 Bitfinex 的不同用途。
 
-https://youtu.be/aOBXgcuJ5fI
+![bitfinex](https://youtu.be/aOBXgcuJ5fI)

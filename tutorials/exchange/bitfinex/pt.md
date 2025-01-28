@@ -21,11 +21,11 @@ Para proteger as suas palavras-passe e garantir a utilização de palavras-passe
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 Pode então efetuar um depósito com o método de pagamento da sua escolha e comprar bitcoin.
 
-https://youtu.be/z2YlJr9sF20
+![bitfinex](https://youtu.be/z2YlJr9sF20)
 
 Também pode configurar uma compra recorrente de bitcoins para suavizar o seu preço de aquisição ao longo do tempo (*DCA*).
 
-https://youtu.be/8uoBacYSn08
+![bitfinex](https://youtu.be/8uoBacYSn08)
 
 Depois de comprar os seus primeiros bitcoins, tem a opção de os deixar na plataforma, mas eu recomendo vivamente que os transfira para a sua própria carteira de custódia. Se ainda não sabe como utilizar uma carteira Bitcoin, convido-o a explorar [a secção "Wallet" na PlanB Network] (https://planb.network/tutorials/wallet).
 
@@ -33,7 +33,7 @@ Depois de comprar os seus primeiros bitcoins, tem a opção de os deixar na plat
 
 Depois de criar a sua conta, recomendo que a proteja adicionando um segundo fator de autenticação (2FA), seja com uma chave física ou através de uma aplicação de autenticação.
 
-https://youtu.be/_Ah34kG6tng
+![bitfinex](https://youtu.be/_Ah34kG6tng)
 
 Se não sabe como utilizar estas soluções de autenticação dupla para proteger as suas contas online, recomendo que consulte o nosso tutorial sobre a aplicação Authy:
 
@@ -45,8 +45,8 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 Finalmente, se quiser usar as caraterísticas de negociação mais avançadas no Bitfinex, pode configurar os seus próprios modelos de Trade Desk:
 
-https://youtu.be/byIyWgLGejI
+![bitfinex](https://youtu.be/byIyWgLGejI)
 
 Também é possível criar subcontas para segregar diferentes usos do Bitfinex.
 
-https://youtu.be/aOBXgcuJ5fI
+![bitfinex](https://youtu.be/aOBXgcuJ5fI)

@@ -249,7 +249,7 @@ Une fois celle-ci confirmée, votre pièce est à l'abri ! Vous pouvez être tr
 
 Lors de la récupération des fonds présents sur le portefeuille Liana, vous pouvez être confrontés à deux situations. Vous pouvez avoir accès à l'ordinateur sur lequel est installé le logiciel, auquel cas il vous suffit de l'ouvrir (ce qui aura lieu dans le cas du modèle de sauvegarde renforcée). Toutefois, il est possible que vous n'ayez pas accès à cet ordinateur ; c'est pourquoi nous repartirons de zéro ici. Notez que la manipulation de récupération sera la même dans les deux cas.
 
-Pour commencer, téléchargez Liana depuis le site officiel de Wizardsardine (https://wizardsardine.com/liana/), ou bien depuis le dépôt GitHub (https://github.com/wizardsardine/liana/releases), où vous pouvez vérifier l'authenticité du logiciel. Installez le logiciel et lancez-le. La version utilisée dans notre cas est la version 0.9, donc les visuels peuvent avoir changé. Sur l'écran d'accueil, sélectionnez l'option  « *Add an existing Liana wallet* ».
+Pour commencer, téléchargez Liana depuis [le site officiel de Wizardsardine](https://wizardsardine.com/liana/), ou bien depuis [le dépôt GitHub](https://github.com/wizardsardine/liana/releases), où vous pouvez vérifier l'authenticité du logiciel. Installez le logiciel et lancez-le. La version utilisée dans notre cas est la version 0.9, donc les visuels peuvent avoir changé. Sur l'écran d'accueil, sélectionnez l'option  « *Add an existing Liana wallet* ».
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)
 
@@ -350,3 +350,7 @@ Les scripts créés par ce portefeuille auront ainsi la forme suivante :
 ```plaintext
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
+
+Puisque la sécurité de votre portefeuille Bitcoin dépend aussi de votre compréhension de son fonctionnement, je vous suggère d'étudier en profondeur les mécanismes des portefeuilles déterministes et hiérarchiques en suivant cette formation gratuite :
+
+https://planb.network/courses/cyp201

@@ -1243,7 +1243,7 @@ Avhengig av landet du bor i, kan du ha tilgang til regulerte plattformer som ikk
 Som vi så i det forrige kapittelet, sparer denne typen plattform deg for risikoene forbundet med KYC-prosedyrer, men de presenterer et høyere nivå av risiko for nøkkelidentifikasjon. Når det gjelder personvern på Bitcoin, tilbyr disse plattformene derfor bedre beskyttelse enn kjøpsmetoder med KYC, men de er mindre interessante enn P2P-utvekslinger.
 Imidlertid, når det gjelder personlig sikkerhet, er bruk av disse plattformene betydelig mindre risikofylt enn P2P-utvekslinger. De er også ofte enklere å bruke enn plattformer som legger til rette for P2P-utvekslinger.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ### Minibanker
 

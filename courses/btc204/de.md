@@ -1260,7 +1260,7 @@ Je nachdem, in welchem Land Sie leben, haben Sie möglicherweise Zugang zu regul
 Wie wir im vorherigen Kapitel gesehen haben, erspart Ihnen diese Art von Plattform die Risiken, die mit KYC-Verfahren verbunden sind, aber sie präsentieren ein höheres Risiko für die Schlüsselidentifikation. In Bezug auf die Privatsphäre bei Bitcoin bieten diese Plattformen daher einen besseren Schutz als Kaufmethoden mit KYC, aber sie sind weniger interessant als P2P-Börsen.
 Jedoch ist in Bezug auf die persönliche Sicherheit die Nutzung dieser Plattformen deutlich weniger riskant als P2P-Börsen. Sie sind auch oft einfacher zu nutzen als Plattformen, die P2P-Börsen erleichtern.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ### Geldautomaten
 

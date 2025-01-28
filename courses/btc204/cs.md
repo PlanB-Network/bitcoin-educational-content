@@ -1240,7 +1240,7 @@ V závislosti na zemi, ve které žijete, můžete mít přístup k regulovaným
 Jak jsme viděli v předchozí kapitole, tento typ platformy vás ušetří rizik spojených s postupy KYC, ale představují vyšší úroveň rizika pro klíčovou identifikaci. Pokud jde o soukromí na Bitcoinu, tyto platformy tedy nabízejí lepší ochranu než metody nákupu s KYC, ale nejsou tak zajímavé jako P2P burzy.
 Nicméně, pokud jde o osobní bezpečnost, používání těchto platforem je výrazně méně rizikové než P2P burzy. Jsou také často jednodušší na používání než platformy, které usnadňují P2P výměny.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ### Bankomaty
 

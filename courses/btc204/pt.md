@@ -1282,7 +1282,7 @@ Dependendo do país em que você vive, você pode ter acesso a plataformas regul
 Como vimos no capítulo anterior, esse tipo de plataforma poupa você dos riscos associados aos procedimentos de KYC, mas apresentam um nível de risco maior para identificação chave. Em termos de privacidade no Bitcoin, essas plataformas, portanto, oferecem melhor proteção do que métodos de compra com KYC, mas são menos interessantes do que trocas P2P.
 No entanto, em termos de segurança pessoal, usar essas plataformas é significativamente menos arriscado do que trocas P2P. Elas também são frequentemente mais simples de usar do que plataformas que facilitam trocas P2P.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ### Caixas Eletrônicos
 

@@ -1211,7 +1211,7 @@ Tergantung pada negara tempat Anda tinggal, Anda mungkin memiliki akses ke platf
 Seperti yang kita lihat di bab sebelumnya, jenis platform ini menghindarkan Anda dari risiko yang terkait dengan prosedur KYC, tetapi mereka menyajikan tingkat risiko yang lebih tinggi untuk identifikasi kunci. Dalam hal privasi pada Bitcoin, platform ini oleh karena itu menawarkan perlindungan yang lebih baik daripada metode pembelian dengan KYC, tetapi mereka kurang menarik daripada pertukaran P2P.
 Namun, dalam hal keamanan pribadi, menggunakan platform ini secara signifikan kurang berisiko daripada pertukaran P2P. Mereka juga seringkali lebih sederhana untuk digunakan daripada platform yang memfasilitasi pertukaran P2P.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ### ATM
 

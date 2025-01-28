@@ -1223,7 +1223,7 @@ A seconda del paese in cui vivi, potresti avere accesso a piattaforme regolament
 Come abbiamo visto nel capitolo precedente, questo tipo di piattaforma ti risparmia i rischi associati alle procedure KYC, ma presentano un livello di rischio più elevato per l'identificazione delle chiavi. In termini di privacy su Bitcoin, queste piattaforme offrono quindi una protezione migliore rispetto ai metodi di acquisto con KYC, ma sono meno interessanti rispetto agli scambi P2P.
 Tuttavia, in termini di sicurezza personale, l'utilizzo di queste piattaforme è significativamente meno rischioso rispetto agli scambi P2P. Sono anche spesso più semplici da usare rispetto alle piattaforme che facilitano gli scambi P2P.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ### Bancomat
 

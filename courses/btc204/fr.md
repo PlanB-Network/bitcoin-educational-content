@@ -1405,7 +1405,7 @@ Selon le pays où vous vivez, vous pourriez avoir accès à des plateformes rég
 
 -> Découvrir notre tutoriel sur Relai.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 Comme nous avons vu dans le chapitre précédent, ce type de plateforme vous épargne des risques associés aux procédures KYC, mais elles présentent un niveau de risque plus élevé pour l'identification des clés. En termes de confidentialité sur Bitcoin, ces plateformes offrent donc une meilleure protection que les méthodes d'achat avec KYC, mais elles restent moins intéressantes que les échanges en P2P.
 

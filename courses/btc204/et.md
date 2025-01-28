@@ -1237,7 +1237,7 @@ Sõltuvalt riigist, kus elate, võib teil olla juurdepääs reguleeritud platvor
 Nagu me eelmises peatükis nägime, säästab see tüüpi platvorm teid KYC protseduuridega seotud riskidest, kuid nad esitavad suurema riski võtmete identifitseerimise osas. Privaatsuse mõttes Bitcoinil pakuvad need platvormid seega paremat kaitset kui KYC-ga ostumeetodid, kuid nad ei ole nii huvitavad kui P2P vahetused.
 Siiski, isikliku turvalisuse mõttes on nende platvormide kasutamine oluliselt vähem riskantne kui P2P vahetused. Samuti on need sageli lihtsamini kasutatavad kui platvormid, mis hõlbustavad P2P vahetusi.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ### Sularahaautomaadid
 

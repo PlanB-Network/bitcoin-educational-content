@@ -1212,7 +1212,7 @@ Tùy thuộc vào quốc gia bạn sống, bạn có thể có quyền truy cậ
 -> Khám phá hướng dẫn của chúng tôi về Relai.
 Như chúng ta đã thấy trong chương trước, loại nền tảng này giúp bạn tránh được rủi ro liên quan đến các thủ tục KYC, nhưng chúng lại mang lại mức độ rủi ro cao hơn trong việc dễ bị xác định danh tính chủ khoá. Về mặt bảo mật thông tin cá nhân trên Bitcoin, những nền tảng này do đó cung cấp bảo vệ tốt hơn so với các phương pháp mua bán có KYC, nhưng chúng kém hấp dẫn hơn so với giao dịch P2P.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 Tuy nhiên, về mặt an toàn cá nhân, việc sử dụng những nền tảng này ít rủi ro hơn đáng kể so với giao dịch P2P. Chúng cũng thường dễ sử dụng hơn so với các nền tảng hỗ trợ giao dịch P2P.
 

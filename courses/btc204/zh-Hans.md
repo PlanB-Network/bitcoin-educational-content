@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd
 正如我们在上一章中看到的，这类平台免除了与KYC程序相关的风险，但它们在关键识别方面呈现出更高的风险水平。就比特币的隐私而言，这些平台因此提供比带KYC的购买方法更好的保护，但它们不如P2P交易所有趣。
 然而，在个人安全方面，使用这些平台的风险显著低于P2P交易所。它们通常也比促进P2P交易的平台更简单易用。
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ### ATM机
 

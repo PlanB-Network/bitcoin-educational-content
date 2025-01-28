@@ -1264,7 +1264,7 @@ Riippuen siitä, missä maassa asut, saatat päästä käyttämään säännelty
 Kuten edellisessä luvussa näimme, tämän tyyppinen alusta säästää sinut KYC-menettelyihin liittyviltä riskeiltä, mutta ne esittävät korkeamman tason riskin avaintunnistukselle. Bitcoinin yksityisyyden suhteen nämä alustat tarjoavat siis paremman suojan kuin KYC:llä varustetut ostomenetelmät, mutta ne eivät ole yhtä kiinnostavia kuin P2P-vaihdot.
 Kuitenkin henkilökohtaisen turvallisuuden näkökulmasta näiden alustojen käyttö on huomattavasti vähemmän riskialtista kuin P2P-vaihtojen käyttö. Ne ovat myös usein yksinkertaisempia käyttää kuin alustat, jotka helpottavat P2P-vaihtoja.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ### Pankkiautomaatit
 

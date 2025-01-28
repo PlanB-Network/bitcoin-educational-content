@@ -1202,7 +1202,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd
 前章で見たように、このタイプのプラットフォームはKYC手続きに伴うリスクを回避してくれますが、鍵の識別に関してはより高いリスクを提示します。ビットコインのプライバシーに関して言えば、これらのプラットフォームはKYCを伴う購入方法よりも優れた保護を提供しますが、P2P取引所よりも魅力的ではありません。
 しかし、個人のセキュリティの観点からは、これらのプラットフォームを使用することはP2P取引所を使用することよりも大幅にリスクが低いです。また、P2P取引所を容易にするプラットフォームよりも使用が簡単であることが多いです。
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ### ATM
 

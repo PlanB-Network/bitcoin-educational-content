@@ -126,7 +126,7 @@ Sauvegardez le descripteur en deux exemplaires sur des supports électroniques, 
 
 Notre descripteur (qui est analysé à la fin du tutoriel) est le suivant :
 
-```
+```plaintext
 wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJAS3U1CvXGAtQGFXSHyFYdYNn9wNa9KU1pwfYoxQhwq4sPXGihD725VncdSy66v9WQa/<0;1>/*),and_v(v:pkh([42e629dd/48'/0'/0'/2']xpub6DpQGv9LkwAQXvghWASvsfA7t1BVj7bGDQ939v32iB6aUJsMRB6inckim26gRp74NBdS2zuyfHNXDZ9dTuNXkFFiz6QvwEeVvBuC2cnRWQd/<0;1>/*),older(6))))#8alrve5h
 ```
 
@@ -259,7 +259,7 @@ Configurez la façon dont vous voulez vous connecter au réseau. Vous pouvez cho
 
 Dans le cas où vous utilisez votre propre noeud, importez le descripteur du portefeuille. Celui-ci est une description technique du compte permettant de récupérer les fonds qui s'y trouvent. Dans notre cas, il s'agit de l'information suivante :
 
-```
+```plaintext
 wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJAS3U1CvXGAtQGFXSHyFYdYNn9wNa9KU1pwfYoxQhwq4sPXGihD725VncdSy66v9WQa/<0;1>/*),and_v(v:pkh([42e629dd/48'/0'/0'/2']xpub6DpQGv9LkwAQXvghWASvsfA7t1BVj7bGDQ939v32iB6aUJsMRB6inckim26gRp74NBdS2zuyfHNXDZ9dTuNXkFFiz6QvwEeVvBuC2cnRWQd/<0;1>/*),older(6))))#8alrve5h
 ```
 
@@ -325,7 +325,7 @@ Le descripteur est une chaîne de caractère, lisible par l'homme, qui décrit u
 
 Pour mieux comprendre pourquoi cette chaîne de caractère est importante, analysons le descripteur de notre exemple, qui est :
 
-```
+```plaintext
 wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJAS3U1CvXGAtQGFXSHyFYdYNn9wNa9KU1pwfYoxQhwq4sPXGihD725VncdSy66v9WQa/<0;1>/*),and_v(v:pkh([42e629dd/48'/0'/0'/2']xpub6DpQGv9LkwAQXvghWASvsfA7t1BVj7bGDQ939v32iB6aUJsMRB6inckim26gRp74NBdS2zuyfHNXDZ9dTuNXkFFiz6QvwEeVvBuC2cnRWQd/<0;1>/*),older(6))))#8alrve5h
 ```
 
@@ -347,6 +347,6 @@ La dernière donnée (`8alrve5h`) est la somme de contrôle du descripteur, et c
 
 Les scripts créés par ce portefeuille auront ainsi la forme suivante :
 
-```
+```plaintext
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```

@@ -5,11 +5,11 @@ description: Configurer et utiliser un portefeuille sur Liana
 
 ![cover](assets/cover.webp)
 
-Dans ce tutoriel, nous allons expliquer pas à pas comment se servir de l'application Liana sur ordinateur. Vous apprendrez, entre autres, à mettre en place un plan de succession automatisé, à recevoir et envoyer des bitcoins en situation normale, et à récupérer les fonds d'un portefeuille existant après une période donnée.
+Dans ce tutoriel, nous allons expliquer pas à pas comment se servir de l'application Liana sur ordinateur. Vous apprendrez, entre autres, à mettre en place un plan de succession automatisé, à recevoir et à envoyer des bitcoins en situation normale, et à récupérer les fonds d'un portefeuille existant après une période donnée.
 
 En janvier 2025, les portefeuilles matériels compatibles avec Liana étaient les suivants : le BitBox02, le Blockstream Jade, le Blockstream Jade Plus, le COLDCARD MK4, le COLDCARD Q, le Ledger Nano S, le Ledger Nano S Plus, le Ledger Nano X, le Ledger Flex, le Specter DIY.
 
-Si vous souhaitez récupérez les fonds d'un portefeuille Liana existant, lisez la présentation ci-dessous et rendez-vous directement à la section "Récupération des bitcoins".
+Si vous souhaitez récupérer les fonds d'un portefeuille Liana existant, lisez la présentation ci-dessous et rendez-vous directement à la section "Récupération des bitcoins".
 
 ## Présentation du logiciel Liana
 
@@ -26,7 +26,7 @@ Le schéma ci-dessous illustre le fonctionnement d'un portefeuille doté de deux
 
 Ce fonctionnement permet de mettre en place diverses configurations, dont notamment :
 
-- Un plan de succession (ou d'héritage), permettant aux héritiers de récupérer les fonds dans le cas du décès de l'utilisateur. Si vous voulez avoir plus d'information sur le sujet, nous vous conseillons de lire la [partie 4](https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038) du cours BTC102.
+- Un plan de succession (ou d'héritage), permettant aux héritiers de récupérer les fonds dans le cas du décès de l'utilisateur. Si vous voulez avoir plus d'informations sur le sujet, nous vous conseillons de lire la [partie 4](https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038) du cours BTC102.
 
 - Une sauvegarde renforcée avec un délai de récupération, donnant à l'utilisateur la possibilité de se servir de son portefeuille sans avoir à garder la phrase secrète correspondante et risquer de se la faire voler, lors d'un cambriolage par exemple.
 
@@ -84,7 +84,7 @@ Une rapide explication vous est ensuite proposée.
 
 ![Rapide explication](assets/fr/05.webp)
 
-Après avoir lu l'explication, vous pourrez configurer les clés de votre portefeuille Liana. C'est une étape cruciale car elle décide des caractéristiques de dépense de votre compte.
+Après avoir lu l'explication, vous pourrez configurer les clés de votre portefeuille Liana. C'est une étape cruciale, car elle décide des caractéristiques de dépense de votre compte.
 
 ![Configurer clés](assets/fr/06.webp)
 
@@ -142,7 +142,7 @@ Les informations relatives à votre portefeuille sont à présent enregistrées,
 
 ![Sélectionner connexion réseau](assets/fr/15.webp)
 
-Nous avons choisi d'utiliser notre propre nœud. Vous pouvez utiliser un nœud existant, ou installer un nœud réduit (*pruned node*) sur votre machine. Si vous n'avez accès à aucun autre nœud, installez votre nœud sur votre machine, ce qui devrait prendre un temps conséquent (de l'ordre de plusieurs jours).
+Nous avons choisi d'utiliser notre propre nœud. Vous pouvez utiliser un nœud existant, ou installer un nœud réduit (*pruned node*) sur votre machine. Si vous n'avez accès à aucun autre nœud, installez votre nœud sur votre machine, ce qui devrait prendre un temps important (de l'ordre de plusieurs jours).
 
 ![Choisir type de nœud](assets/fr/16.webp)
 
@@ -231,7 +231,7 @@ Lorsque la fin du délai approchera, un bouton vous invitant à actualiser les f
 
 ![Actualiser pièces depuis l'écran principal](assets/fr/30.webp)
 
-Pour actualiser vos pièces, allez donc dans l'onglet "*Coins*" et cliquez sur "*Refresh coin*" dans l'encadré de la pièce correspondante. Si vous avez plusieurs pièces, vous devriez les actualiser une à une, et avec un intervalle de temps relativement espacé, pour des raison de confidentialité. Pour limiter les frais, vous pouvez consolider vos fonds en envoyant l'intégralité des fonds du portefeuille sur une nouvelle adresse de réception, mais cette opération nuira à votre confidentialité.
+Pour actualiser vos pièces, allez donc dans l'onglet "*Coins*" et cliquez sur "*Refresh coin*" dans l'encadré de la pièce correspondante. Si vous avez plusieurs pièces, vous devriez les actualiser une à une, et avec un intervalle de temps relativement espacé, pour des raisons de confidentialité. Pour limiter les frais, vous pouvez consolider vos fonds en envoyant l'intégralité des fonds du portefeuille sur une nouvelle adresse de réception, mais cette opération nuira à votre confidentialité.
 
 ![Actualiser pièce](assets/fr/31.webp)
 
@@ -257,7 +257,7 @@ Configurez la façon dont vous voulez vous connecter au réseau. Vous pouvez cho
 
 ![Sélectionner connexion réseau](assets/fr/35.webp)
 
-Dans le cas où vous utilisez votre propre noeud, importez le descripteur du portefeuille. Celui-ci est une description technique du compte permettant de récupérer les fonds qui s'y trouvent. Dans notre cas, il s'agit de l'information suivante :
+Dans le cas où vous utilisez votre propre nœud, importez le descripteur du portefeuille. Celui-ci est une description technique du compte permettant de récupérer les fonds qui s'y trouvent. Dans notre cas, il s'agit de l'information suivante :
 
 ```plaintext
 wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJAS3U1CvXGAtQGFXSHyFYdYNn9wNa9KU1pwfYoxQhwq4sPXGihD725VncdSy66v9WQa/<0;1>/*),and_v(v:pkh([42e629dd/48'/0'/0'/2']xpub6DpQGv9LkwAQXvghWASvsfA7t1BVj7bGDQ939v32iB6aUJsMRB6inckim26gRp74NBdS2zuyfHNXDZ9dTuNXkFFiz6QvwEeVvBuC2cnRWQd/<0;1>/*),older(6))))#8alrve5h
@@ -291,7 +291,7 @@ Pour récupérer les fonds du portefeuille, allez dans les paramètres ("*Settin
 
 ![Récupération dans paramètres](assets/fr/41.webp)
 
-Dépensez la pièce présente dans la portefeuille en cochant la case correspondante. Indiquez l'adresse BTC où vous voulez envoyer les fonds, ainsi que le taux des frais de transaction. Puis cliquez sur "*Next*".
+Dépensez la pièce présente dans le portefeuille en cochant la case correspondante. Indiquez l'adresse BTC où vous voulez envoyer les fonds, ainsi que le taux des frais de transaction. Puis cliquez sur "*Next*".
 
 ![Récupération des pièces](assets/fr/42.webp)
 
@@ -338,7 +338,7 @@ Voici les informations que l'on peut extraire de ce descripteur :
 - `xpub6FKY ... WQa` : C'est la clé publique étendue liée au portefeuille matériel principal (ici le Nano S Plus)
 - `/<0;1>/*` : Ce sont les chemins de dérivations permettant d'obtenir les clés simples et les adresses : `0` pour la réception, `1` pour les opérations internes (*change*), avec un "wildcard" (`*`) permettant la dérivation séquentielle de plusieurs adresses de manière paramétrable, similaire à la gestion d'un "gap limit" sur des logiciels de portefeuille classiques.
 - `and_v` : Il s'agit d'un opérateur logique indiquant que *les deux* conditions qui suivent doivent être remplies pour que la dépense soit acceptée (le `_v` indique une syntaxe particulière).
-- `v:pkh` (abréviation de *verify: public key hash*) : Cet opérateur vérifie une signature donnée et une clé publique données par rapport à l'empreinte (*hash*) de la clé publique qui suit. C'est essentiellement la même vérification que pour les script P2PKH et P2WPKH.
+- `v:pkh` (abréviation de *verify: public key hash*) : Cet opérateur vérifie une signature donnée et une clé publique données par rapport à l'empreinte (*hash*) de la clé publique qui suit. C'est essentiellement la même vérification que pour les scripts P2PKH et P2WPKH.
 - `[42e629dd/48'/0'/0'/2']` : C'est le même élément que précédemment (composé de la trace et du chemin de dérivation), à l'exception qu'on indique la trace de la clé maîtresse du portefeuille matériel de récupération (ici le Jade).
 - `xpub6DpQ ... WQd` : C'est la clé publique étendue liée au portefeuille matériel de récupération (ici le Jade).
 - `older(6)` : Cet opérateur vérifie que la sortie transactionnelle créée doit avoir un âge strictement supérieur à 6 blocs pour être dépensée.

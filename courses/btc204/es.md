@@ -1336,7 +1336,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8e
 
 Para una opción más sencilla, puedes probar [Peach](https://peachbitcoin.com/), una aplicación móvil que facilita la conexión entre compradores y vendedores con un sistema integrado de resolución de disputas. El proceso es más intuitivo que el de Bisq.
 
-[-> Descubre nuestro tutorial sobre Peach.](https://planb.network/es/tutorials/exchange/peach-wallet)
+https://planb.network/tutorials/exchange/peer-to-peer/peach-v2-c6143241-d900-4047-9b73-1caba5e1f874
 
 
 -> Descubre nuestro tutorial sobre Peach.

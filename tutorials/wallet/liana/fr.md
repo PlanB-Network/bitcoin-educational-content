@@ -3,7 +3,7 @@ name: Liana
 description: Configurer et utiliser un portefeuille sur Liana
 ---
 
-![Logo de Liana](assets/liana-logo.webp)
+![cover](assets/cover.webp)
 
 Dans ce tutoriel, nous allons expliquer pas à pas comment se servir de l'application Liana sur ordinateur. Vous apprendrez, entre autres, à mettre en place un plan de succession automatisé, à recevoir et envoyer des bitcoins en situation normale, et à récupérer les fonds d'un portefeuille existant après une période donnée.
 
@@ -60,9 +60,13 @@ https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 
 ## Installation et configuration
 
-Rendez-vous sur le site officiel de Wizardsardine et téléchargez Liana à l'adresse https://wizardsardine.com/liana/. Vous pouvez aussi télécharger la dernière version depuis le dépôt GitHub (https://github.com/wizardsardine/liana/releases), où vous pouvez vérifier l'authenticité du logiciel. La version utilisée dans ce tutoriel est la version 0.9.
+Rendez-vous sur le site officiel de Wizardsardine et téléchargez Liana à l'adresse https://wizardsardine.com/liana/. Vous pouvez aussi télécharger la dernière version [depuis le dépôt GitHub](https://github.com/wizardsardine/liana/releases), où vous pouvez vérifier l'authenticité du logiciel. La version utilisée dans ce tutoriel est la version 0.9.
 
 ![Télécharger Liana](assets/fr/02.webp)
+
+Pour savoir comment vérifier l'authenticité et l'intégrité d'un logiciel avant son installation, je vous recommande de consulter ce tutoriel :
+
+https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Installez le logiciel sur votre machine et lancez-le. Choisissez l'option « *Create a new Liana wallet* » pour configurer votre portefeuille.
 

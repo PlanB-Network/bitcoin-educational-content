@@ -9,7 +9,7 @@ Dans ce tutoriel, nous allons expliquer pas à pas comment se servir de l'applic
 
 En janvier 2025, les portefeuilles matériels compatibles avec Liana étaient les suivants : le BitBox02, le Blockstream Jade, le Blockstream Jade Plus, le COLDCARD MK4, le COLDCARD Q, le Ledger Nano S, le Ledger Nano S Plus, le Ledger Nano X, le Ledger Flex, le Specter DIY.
 
-Si vous souhaitez récupérez les fonds d'un portefeuille Liana existant, lisez la présentation ci-dessous et rendez-vous directement à la section "[Récupération des bitcoins](#récupération-des-bitcoins)"
+Si vous souhaitez récupérez les fonds d'un portefeuille Liana existant, lisez la présentation ci-dessous et rendez-vous directement à la section "Récupération des bitcoins".
 
 ## Présentation du logiciel Liana
 
@@ -64,7 +64,7 @@ Rendez-vous sur le site officiel de Wizardsardine et téléchargez Liana à l'ad
 
 ![Télécharger Liana](assets/fr/02.webp)
 
-Pour savoir comment vérifier l'authenticité et l'intégrité d'un logiciel avant son installation, je vous recommande de consulter ce tutoriel :
+Pour savoir comment vérifier manuellement l'authenticité et l'intégrité d'un logiciel avant son installation, je vous recommande de consulter ce tutoriel :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
@@ -215,7 +215,7 @@ Enfin, diffusez la transaction sur le réseau en cliquant "*Broadcast*". Notez q
 
 ![Diffuser transaction clé principale](assets/fr/27.webp)
 
-La transaction apparaîtra sur l'écran pricipal et votre solde sera mis à jour.
+La transaction apparaîtra sur l'écran principal et votre solde sera mis à jour.
 
 ![Solde après dépense](assets/fr/28.webp)
 
@@ -334,12 +334,12 @@ Voici les informations que l'on peut extraire de ce descripteur :
 - `wsh` (abréviation de *witness script hash*) : C'est le type de sortie transactionnelle créée. Si nous avions choisi d'utiliser Taproot, l'identifiant aurait été `tr`.
 - `or_d` : Il s'agit d'un opérateur logique indiquant que *l'une des deux* conditions qui suivent doit être remplie pour que la dépense soit acceptée (le `_d` indique une syntaxe particulière).
 - `pk` (abréviation de *public key*) : Cet opérateur vérifie une signature donnée par rapport à la clé publique qui suit, et donne la réponse sous forme de booléen (TRUE ou FALSE).
-- `[3689a8e7/48'/0'/0'/2']` : Cet élément comprend la trace (*fingerprint*) de la clé publique maîtresse du portefeuille matériel principal (ici le Nano S Plus), et le chemin de dérivation pour retrouver la clé privée étendue liée (de laquelle sont issues toutes les autres clés privées).
+- `[3689a8e7/48'/0'/0'/2']` : Cet élément comprend la trace (*fingerprint*) de la clé maîtresse du portefeuille matériel principal (ici le Nano S Plus), et le chemin de dérivation pour retrouver la clé privée étendue liée (de laquelle sont issues toutes les autres clés privées).
 - `xpub6FKY ... WQa` : C'est la clé publique étendue liée au portefeuille matériel principal (ici le Nano S Plus)
-- `/<0;1>/*` : Ce sont les chemins de dérivations permettant d'obtenir les clés simples et les adresses : `0` pour la réception, `1` pour les opérations internes (*change*).
+- `/<0;1>/*` : Ce sont les chemins de dérivations permettant d'obtenir les clés simples et les adresses : `0` pour la réception, `1` pour les opérations internes (*change*), avec un "wildcard" (`*`) permettant la dérivation séquentielle de plusieurs adresses de manière paramétrable, similaire à la gestion d'un "gap limit" sur des logiciels de portefeuille classiques.
 - `and_v` : Il s'agit d'un opérateur logique indiquant que *les deux* conditions qui suivent doivent être remplies pour que la dépense soit acceptée (le `_v` indique une syntaxe particulière).
-- `v:pkh` (abréviation de *verify: public key hash*) : Cet opérateur vérifie une signature donnée et une clé publique données par rapport à l'empreinte (*hash*) clé publique qui suit  vérifier l'empreinte de la clé publique C'est essentiellement la même vérification que pour les script P2PKH et P2WPKH.
-- `[42e629dd/48'/0'/0'/2']` : C'est de le même élément que précédemment (composé de la trace et du chemin de dérivation), à l'exception qu'on indique la trace de la clé publique maîtresse du portefeuille matériel de récupération (ici le Jade).
+- `v:pkh` (abréviation de *verify: public key hash*) : Cet opérateur vérifie une signature donnée et une clé publique données par rapport à l'empreinte (*hash*) de la clé publique qui suit. C'est essentiellement la même vérification que pour les script P2PKH et P2WPKH.
+- `[42e629dd/48'/0'/0'/2']` : C'est le même élément que précédemment (composé de la trace et du chemin de dérivation), à l'exception qu'on indique la trace de la clé maîtresse du portefeuille matériel de récupération (ici le Jade).
 - `xpub6DpQ ... WQd` : C'est la clé publique étendue liée au portefeuille matériel de récupération (ici le Jade).
 - `older(6)` : Cet opérateur vérifie que la sortie transactionnelle créée doit avoir un âge strictement supérieur à 6 blocs pour être dépensée.
 
@@ -351,6 +351,6 @@ Les scripts créés par ce portefeuille auront ainsi la forme suivante :
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
 
-Puisque la sécurité de votre portefeuille Bitcoin dépend aussi de votre compréhension de son fonctionnement, je vous suggère d'étudier en profondeur les mécanismes des portefeuilles déterministes et hiérarchiques en suivant cette formation gratuite :
+Puisque la sécurité de votre portefeuille Bitcoin dépend aussi de votre compréhension de son fonctionnement, je vous suggère d'étudier en profondeur les mécanismes des portefeuilles déterministes et hiérarchiques en suivant cette formation gratuite sur Plan ₿ Network :
 
 https://planb.network/courses/cyp201

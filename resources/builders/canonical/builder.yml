@@ -1,0 +1,21 @@
+name: Canonical
+
+links:
+  website: https://canonical.com/
+  twitter: https://x.com/Canonical
+
+tags:
+  - software
+  - personal-security
+
+category: privacy
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-01-29
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward:

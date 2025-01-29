@@ -64,7 +64,7 @@ Rendez-vous sur le site officiel de Wizardsardine et téléchargez Liana à l'ad
 
 ![Télécharger Liana](assets/fr/02.webp)
 
-Pour savoir comment vérifier manuellement l'authenticité et l'intégrité d'un logiciel avant son installation, je vous recommande de consulter ce tutoriel :
+Pour savoir comment vérifier manuellement l'authenticité et l'intégrité d'un logiciel avant son installation, nous vous recommandons de consulter ce tutoriel :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

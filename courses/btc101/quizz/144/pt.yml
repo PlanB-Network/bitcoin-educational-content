@@ -1,5 +1,4 @@
-question: Qual é o requisito de largura de banda para executar um nó Bitcoin, considerando
-  1 bloco de 1MB a cada 10 minutos?
+question: Qual é o requisito de largura de banda para executar um nó Bitcoin, considerando 1 bloco de 1MB a cada 10 minutos?
 answer: Aproximadamente 5GB por mês.
 wrong_answers:
   - Aproximadamente 1GB por mês.

@@ -1,5 +1,4 @@
-question: Jaká je požadovaná šířka pásma pro provoz Bitcoinového uzlu, pokud uvažujeme
-  1 blok o velikosti 1MB každých 10 minut?
+question: Jaká je požadovaná šířka pásma pro provoz Bitcoinového uzlu, pokud uvažujeme 1 blok o velikosti 1MB každých 10 minut?
 answer: Přibližně 5GB za měsíc.
 wrong_answers:
   - Přibližně 1GB za měsíc.

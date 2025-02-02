@@ -6,6 +6,8 @@ description: Multi-node self-custodial wallet
 
 ![Zeus](assets/zeus_intro.webp)
 
+# Introduction to ZEUS Wallet
+
 ZEUS is a mobile Bitcoin wallet and node management app with full functionalities of a bitcoin lightning wallet that makes bitcoin payments simple, gives users complete control of their finances, and allows more advanced users to manage their Lightning nodes from the palm of their hand.
 
 ## Who is ZEUS for?
@@ -60,9 +62,9 @@ In order to be able to use Zeus and manage the Lightning channels, liquidity, fe
 
 ![Zeus Bitcoin Lightning Wallet - Mobile Node Management](https://youtu.be/hmmehTnV3ys)
 
----
 
-## A walk-through guide how to start using Zeus LN embedded node on your mobile device
+
+# A walk-through guide how to start using Zeus LN embedded node on your mobile device
 
 ![](https://darth-coin.github.io/assets/images/zeus-intro-logo.jpg)
 
@@ -74,37 +76,36 @@ Here comes Zeus, starting with [version v0.8.0 announced on their blog](https://
 
 ![](https://darth-coin.github.io/assets/images/zeus-node-lagarde.jpg)
 
-### Quick recap of main features for Zeus Node:
+## Quick recap of main features for Zeus Node:
 
-*   **Private LND node** - That means this node will NOT do public routing of others payments through your node. The node and the channels are unannounced (private, not visible on the public LN graph). To receive and make payments will be done thorough your connected LSP peers. REMEMBER: Zeus Embedded Node will NOT do public routing!
-*   **Persistent LND service** - user can activate this feature and keep the LND service active continuously as any regular LN node. The app doesn’t have to be open, the persistent service will keep all the communication online.
-*   **Neutrino block filters** - block sync is done using [block filters and the Neutrino protocol](https://bitcoinops.org/en/topics/compact-block-filters/) (given no information about our users' on-chain funds). Reminder: for high-latency / slow internet connections this block sync based on neutrino, sometimes could fail. Trying to switch to a near neutrino server could help restore the sync. Without this sync your LND node could not start!
-*   **Simple Taproot Channels** - When closing these channels, users are incur less fees and are given more privacy as they appear to like any other Taproot spend when examining their on-chain footprint.
-*   **Integrated LSP** - Olympus is the new LSP node for Zeus. Users can reeceive sats over LN straight away, without having previously set up LN channels. Simply will have to create a LN invoice and pay from any other LN wallet, with Zeus 0-conf channel service. Read more about Zeus LSP here. The LSP also provides added privacy to our users by providing them with wrapped invoices that conceal their nodes' public keys from payers.
-*   **Contacts Book** - you can save manually contacts or import from NOSTR, for easy send payments to your regular destinations.
-*   **Full support for LNURL, LN Address send and receive** - now you can setup your own self-custodial LN Address with @zeuspay.com. Reminder: You can also use Zeus for LN-auth on sites where you can login with a LN authentication. Is very handy.
-*   **Point of Sale** - Now merchant users can setup their own product items and sell directly from Zeus, with integrated PoS. For the moment contain basic needs but in the future will contain extended features.
-*   **LND logs** - user can read in real time the LND service logs and use them to debug possible issues (mainly for bad connections)
-*   **Automated Backups** - the LN node channels are automatically back up on the Olympus server. This automated backup is encrypted with your node wallet seed (without the seed is totally useless). User also can export manually a SCB (static channels backup) for a disaster recovery.
+-   **Private LND node** - That means this node will NOT do public routing of others payments through your node. The node and the channels are unannounced (private, not visible on the public LN graph). To receive and make payments will be done thorough your connected LSP peers. REMEMBER: Zeus Embedded Node will NOT do public routing!
+-   **Persistent LND service** - user can activate this feature and keep the LND service active continuously as any regular LN node. The app doesn’t have to be open, the persistent service will keep all the communication online.
+-   **Neutrino block filters** - block sync is done using [block filters and the Neutrino protocol](https://bitcoinops.org/en/topics/compact-block-filters/) (given no information about our users' on-chain funds). Reminder: for high-latency / slow internet connections this block sync based on neutrino, sometimes could fail. Trying to switch to a near neutrino server could help restore the sync. Without this sync your LND node could not start!
+-   **Simple Taproot Channels** - When closing these channels, users are incur less fees and are given more privacy as they appear to like any other Taproot spend when examining their on-chain footprint.
+-   **Integrated LSP** - Olympus is the new LSP node for Zeus. Users can reeceive sats over LN straight away, without having previously set up LN channels. Simply will have to create a LN invoice and pay from any other LN wallet, with Zeus 0-conf channel service. Read more about Zeus LSP here. The LSP also provides added privacy to our users by providing them with wrapped invoices that conceal their nodes' public keys from payers.
+-   **Contacts Book** - you can save manually contacts or import from NOSTR, for easy send payments to your regular destinations.
+-   **Full support for LNURL, LN Address send and receive** - now you can setup your own self-custodial LN Address with @zeuspay.com. Reminder: You can also use Zeus for LN-auth on sites where you can login with a LN authentication. Is very handy.
+-   **Point of Sale** - Now merchant users can setup their own product items and sell directly from Zeus, with integrated PoS. For the moment contain basic needs but in the future will contain extended features.
+-   **LND logs** - user can read in real time the LND service logs and use them to debug possible issues (mainly for bad connections)
+-   **Automated Backups** - the LN node channels are automatically back up on the Olympus server. This automated backup is encrypted with your node wallet seed (without the seed is totally useless). User also can export manually a SCB (static channels backup) for a disaster recovery.
 
-* * *
+  
 
-### How to get onboard with Zeus LN Node (LND embedded)
+## How to get onboard with Zeus LN Node (LND embedded)
 
 ![](https://darth-coin.github.io/assets/images/zeus-laser-eyes.gif)
 
 In this guide I will talk only about the embedded LND node, and not about the other ways to use this magnificent app (remote node management and LNDhub accounts). For the other types of connections, please refer to [Zeus Docs page](https://docs.zeusln.app/category/getting-started), that is very well explained and no need for writing a dedicated guide.
 
-STEP 1 - INITIAL SETUP [#](#step1)
----
+### STEP 1 - INITIAL SETUP 
 
 Due to the fact that Zeus is a full LND node I will have some initial recommendations:
 
-*   Do not use an old device, that could affect the use of this powerful app. Especially in the period of sync the app could use intensively the CPU and RAM. The lack of these could even make impossible to use the Zeus app.
-*   Use at least Android 11 as mobile OS and updated as much is possible. For iOS the same, try to use a much higher version of OS.
-*   You will need at least 1GB disk space for the data storage. In time could grow more, but there is a functionality to compact the database to a level of MBs.
-*   There’s NO need to use Zeus with Tor or Orbot service. Please don’t complicate things more than is necessary. Tor in this case will not offer you more privacy but only make things worse for the initial sync. Also be careful with what VPNs you are using it and check the latency of the connection towards neutrino servers. Keep in mind, Neutrino block filter do not leak or trace your device identity, are just serving blocks. The LN traffic is also behind a LSP with private channels so very few information is out, there’s no reason to freak out about privacy.
-*   Have patience for the initial sync, could take several minutes. Try to be connected to a broadband internet connection with good latency. If you run your own Bitcoin node, [you can activate the neutrino service](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core) and connect your Zeus to your own node, even using the internal LAN, so you will have a maximum speed.
+-   Do not use an old device, that could affect the use of this powerful app. Especially in the period of sync the app could use intensively the CPU and RAM. The lack of these could even make impossible to use the Zeus app.
+-   Use at least Android 11 as mobile OS and updated as much is possible. For iOS the same, try to use a much higher version of OS.
+-   You will need at least 1GB disk space for the data storage. In time could grow more, but there is a functionality to compact the database to a level of MBs.
+-   There’s NO need to use Zeus with Tor or Orbot service. Please don’t complicate things more than is necessary. Tor in this case will not offer you more privacy but only make things worse for the initial sync. Also be careful with what VPNs you are using it and check the latency of the connection towards neutrino servers. Keep in mind, Neutrino block filter do not leak or trace your device identity, are just serving blocks. The LN traffic is also behind a LSP with private channels so very few information is out, there’s no reason to freak out about privacy.
+-   Have patience for the initial sync, could take several minutes. Try to be connected to a broadband internet connection with good latency. If you run your own Bitcoin node, [you can activate the neutrino service](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core) and connect your Zeus to your own node, even using the internal LAN, so you will have a maximum speed.
 
 Once you setup the type of connection “Embedded node” the app will start syncing for a while. Wait patiently to finish that part, then enter in the main Settings page.
 
@@ -112,26 +113,25 @@ Once you setup the type of connection “Embedded node” the app will start syn
 
 Briefly, let’s dive into each of the Settings sections and understand some of the main features, before you start using Zeus:
 
-### A - SETTINGS
+#### A - SETTINGS
 
 This is a section with general settings for the entire app
 
-#### 1 - Lightning Service Provider (LSP)
+##### 1 - Lightning Service Provider (LSP)
 
 Here are presented two LSP services:
 
-*   _Just in time channels_ - when you do not have any channel open or inbound liquidity available, if the service is activated it will open a channel on-the-fly for you. This option can be disabled if you do not want to open more channels of this type.
-*   _Request channels in advance_ - you can buy inbound channels from the Olympus LSP directly in the app with multiple options and amounts (for inbound and outbound).
+-   _Just in time channels_ - when you do not have any channel open or inbound liquidity available, if the service is activated it will open a channel on-the-fly for you. This option can be disabled if you do not want to open more channels of this type.
+-   _Request channels in advance_ - you can buy inbound channels from the Olympus LSP directly in the app with multiple options and amounts (for inbound and outbound).
 
 The LSP helps connect users to the Lightning network by opening up payment channels to their nodes. [Read more about LSP here](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS has a new LSP integrated into it called [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), that is available to all users who use the new embedded node.
 
 In this section, by default is the Olympus LSP (https://0conf.lnolymp.us), but soon you can also set another 0conf LSP that support this protocol.
 
-> _Keep in mind:_
-> 
-> *   _when you open a channel with Olympus LSP using the wrapped LN invoices you also obtain a 100k inbound liquidity ! This is really good option in case you need to receive straight away more sats._
-> *   _Example: you deposit 400k sats to open a LSP channel, then the LSP is opening a 500k sats capacity channel towards your Zeus node and push the 400k sats you deposit towards your side._
-> *   _“Inbound liquidity” = more “space” in your channel to receive._
+_Keep in mind:_
+_when you open a channel with Olympus LSP using the wrapped LN invoices you also obtain a 100k inbound liquidity ! This is really good option in case you need to receive straight away more sats._
+_Example: you deposit 400k sats to open a LSP channel, then the LSP is opening a 500k sats capacity channel towards your Zeus node and push the 400k sats you deposit towards your side._
+_"Inbound liquidity" = more “space” in your channel to receive._
 
 In the future we hope we could have many other LSP that could be integrated into Zeus and use alternatively each one. Is just a matter of time until new LSPs will adopt an open standard for these kind of 0conf channels.
 
@@ -139,24 +139,24 @@ If you do not want to open new channels “on the fly”, you could disable this
 
 In this same section, you have also the option to choose for “request Simple Taproot Channels” when the LSP will open a channel towards your Zeus node. These Simple Taproot Channels offer up better on-chain privacy and lower fees on channel closing. There are only two reasons you wouldn't want to use them:
 
-*   They are new, and there still may be bugs in LND when using them.
-*   Your counterparty doesn't support them. Even LND nodes have to explicitly opt into them, for now.
+-   They are new, and there still may be bugs in LND when using them.
+-   Your counterparty doesn't support them. Even LND nodes have to explicitly opt into them, for now.
 
-#### 2 - Payment settings
+##### 2 - Payment settings
 
 This feature will offer you the way to set your own preferred fees for payments, over LN or onchain. Also provide the option to increase or decrease the timeout for your invoices.
 
 If some of your LN payments fail, you could increase the fee to find a better route. Also if are doing onchain txs, you can setup a specific fee so your tx could not end up stuck in the mempool for long time, in case of high fees period.
 
-#### 3 - Invoices settings
+##### 3 - Invoices settings
 
 In this section are some options to generate invoices:
 
-*   Set a standard memo to be displayed in the invoice you generate
-*   Expiration time in seconds, in case you want specific time, longer or shorter for your invoice to be paid
-*   Include route hints - provide information to find non-advertised, or private, channels. This allows routing of payments to nodes that are not publicly visible on the network. A routing hint provides a partial route between the receiver's private node and a public node. This routing hint is then included in the invoice generated by the receiver and provided to the payer. I suggest to have it enable by default, otherwise incoming payments could fail (no route found).
-*   AMP invoice - Atomic Multi-path Payments are a new type of Lightning payments implemented by LND that allow to receive sats without a specific invoice, using [keysend](https://docs.lightning.engineering/lightning-network-tools/lnd/send-messages-with-keysend). Is practically a static payment code. [Read more here](https://docs.lightning.engineering/lightning-network-tools/lnd/amp).
-*   Show custom preimage field - use this option only in very specific cases when you really want to use custom fields in the preimage. [Read more here](https://bitcoin.stackexchange.com/questions/90797/how-can-i-generate-preimage-for-lightning-network-invoice-should-i).
+-   Set a standard memo to be displayed in the invoice you generate
+-   Expiration time in seconds, in case you want specific time, longer or shorter for your invoice to be paid
+-   Include route hints - provide information to find non-advertised, or private, channels. This allows routing of payments to nodes that are not publicly visible on the network. A routing hint provides a partial route between the receiver's private node and a public node. This routing hint is then included in the invoice generated by the receiver and provided to the payer. I suggest to have it enable by default, otherwise incoming payments could fail (no route found).
+-   AMP invoice - Atomic Multi-path Payments are a new type of Lightning payments implemented by LND that allow to receive sats without a specific invoice, using [keysend](https://docs.lightning.engineering/lightning-network-tools/lnd/send-messages-with-keysend). Is practically a static payment code. [Read more here](https://docs.lightning.engineering/lightning-network-tools/lnd/amp).
+-   Show custom preimage field - use this option only in very specific cases when you really want to use custom fields in the preimage. [Read more here](https://bitcoin.stackexchange.com/questions/90797/how-can-i-generate-preimage-for-lightning-network-invoice-should-i).
 
 Another option in this section is how to set the type of onchain address you want to use: segwit nested, segwit, taproot.
 
@@ -164,58 +164,58 @@ Another option in this section is how to set the type of onchain address you wan
 
 Click on the top wheel button and a popup screen will appear to choose the desired type of address. Once you set that, the next time you hit the receive button for onchain, it will generate the address type selected. You can change it anytime.
 
-#### 4 - Channels settings
+##### 4 - Channels settings
 
 In this section you pre-set some opening channels features like:
 
-*   number of confirmations
-*   Announce channel (by default is off), that means it will be unannounced channels
-*   Simple Taproot Channels
-*   Show channel purchase button
+-   number of confirmations
+-   Announce channel (by default is off), that means it will be unannounced channels
+-   Simple Taproot Channels
+-   Show channel purchase button
 
-#### 5 - Privacy settings
+##### 5 - Privacy settings
 
 Here you will find some basic settings to add more privacy using Zeus app:
 
-*   Block explorer to open tx details (mempool.space, blockstream.info or custom personal one)
-*   Read clipboard - on/off toggle if you want Zeus to read your device clipboard
-*   Lurker mode - on/off toggle if you want to hide specific sensitive info from your Zeus app. Is a good option when you make demos or screenshots.
-*   Mempool fee suggestion - activate this option if you want to use recommended fee levels from [mempool.space](https://mempool.space/)
+-   Block explorer to open tx details (mempool.space, blockstream.info or custom personal one)
+-   Read clipboard - on/off toggle if you want Zeus to read your device clipboard
+-   Lurker mode - on/off toggle if you want to hide specific sensitive info from your Zeus app. Is a good option when you make demos or screenshots.
+-   Mempool fee suggestion - activate this option if you want to use recommended fee levels from [mempool.space](https://mempool.space/)
 
-#### 6 - Security
+##### 6 - Security
 
 This section have only two options for securing the app at opening: set a password or a PIN.
 
 Once you set a PIN to open the app, you also be able to set a “duress PIN”. This secret additional PIN will be used ONLY in case of duress situation, if you are threaten. If you put this PIN, the configuration will be all WIPE OUT. So you better keep updated your backups. Automated backups are ON by default, but is good to have your own backups too, out of the device.
 
-#### 7 - Currency
+##### 7 - Currency
 
 Enable or disable the option to display a fiat currency conversion in the Zeus app usage. Currently is supporting over 30 worldwide fiat currencies.
 
-#### 8 - Language
+##### 8 - Language
 
 You can switch between multiple translation languages, reviewed by Zeus community with native speakers.
 
-#### 9 - Display
+##### 9 - Display
 
 In this section you can personalize your Zeus display, selecting various color themes, default screen (keypad or balance), show your node alias, activate big keypad buttons, show more decimal places.
 
-#### 10 - Point of Sale
+##### 10 - Point of Sale
 
 This is a special feature to enable / disable an integrated PoS system into Zeus. You could run a standalone PoS or linked to a Square PoS system. Currently is supporting basic functionalities as a PoS, but enough for a good start and could help those small merchants (bars/restaurants, groceries) to start accepting BTC in a native way.
 
 Inside this settings, you will find various options to setup your PoS:
 
-*   Confirmation payment type: LN only, 0-conf, 1-conf
-*   Enable / disable tips for employee that operate the PoS
-*   Show / hide keypad
-*   Tax percentage to apply on the ticket
-*   Create products and categories of products
-*   A simple listing of all sales
+-   Confirmation payment type: LN only, 0-conf, 1-conf
+-   Enable / disable tips for employee that operate the PoS
+-   Show / hide keypad
+-   Tax percentage to apply on the ticket
+-   Create products and categories of products
+-   A simple listing of all sales
 
 Here is a live demo video how to use Zeus PoS:
 
-### B - Backup wallet
+#### B - Backup wallet
 
 The embedded node in ZEUS is based on LND and uses the [aezeed seed format](https://github.com/lightningnetwork/lnd/blob/master/aezeed/README.md). This is different than the typical [BIP39 format](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) you see in most Bitcoin wallets, although it may appear to be similar. Aezeed includes some extra data including the birth date of the wallet that will help re-scans during recovery happen more efficiently.
 
@@ -231,7 +231,7 @@ If you see that after a long time is still not showing the old history txs, go t
 
 If you want to see more recovery options for a LND node, [please read my previous guide](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), where you can find the steps how to import an aezeed seed into Sparrow wallet or other methods.
 
-### C - Embedded Node
+#### C - Embedded Node
 
 In this section we will find some basic tools to manage the integrated node:
 
@@ -239,44 +239,44 @@ In this section we will find some basic tools to manage the integrated node:
 2.  _Express Graph Sync_ - Zeus app will download the LN gossip data graph from a dedicated server, for faster and better synchronization, offering best payment paths. You can choose also to clear previous graph data at startup.
 3.  _Peers_ - section to manage the neutrino peers and 0-conf peers. If you have issues with initial sync, channels not coming online, is because your device have high latency with the configured neutrino peer. Try switching of the list of preferred peers or add your specific peer that you know it have better latency for sync. Well known neutrino servers are:
 
-*   btcd1.lnolymp.us | btcd2.lnolymp.us - for US region
-*   sg.lnolymp.us - for Asia region
-*   btcd-mainnet.lightning.computer - for US region
-*   uswest.blixtwallet.com (Seattle) - for US region
-*   europe.blixtwallet.com (Germany) - for EU region
-*   asia.blixtwallet.com - for Asia region
-*   node.eldamar.icu - for US region
-*   noad.sathoarder.com - for US region
-*   bb1.breez.technology | bb2.breez.technology - for US region
-*   neutrino.shock.network - US region
+-   btcd1.lnolymp.us | btcd2.lnolymp.us - for US region
+-   sg.lnolymp.us - for Asia region
+-   btcd-mainnet.lightning.computer - for US region
+-    uswest.blixtwallet.com (Seattle) - for US region
+-  europe.blixtwallet.com (Germany) - for EU region
+-  asia.blixtwallet.com - for Asia region
+-  node.eldamar.icu - for US region
+-  noad.sathoarder.com - for US region
+-  bb1.breez.technology | bb2.breez.technology - for US region
+-  neutrino.shock.network - US region
 
-5.  _LND logs_ - very useful tool to debug your LN node issues and control in depth what is going on with a more technical level.
-6.  _Advanced settings_ - more tools to control the use of your LND node:
+4.  _LND logs_ - very useful tool to debug your LN node issues and control in depth what is going on with a more technical level.
+5.  _Advanced settings_ - more tools to control the use of your LND node:
 
-*   _Pathfinding mode_ - bimodal or apriori, ways to find a better route for your LN payments and also resetting the previous routing information. Please read these very good guides about pathfinding: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/lnd/pathfinding) - by Docs Lightning Engineering and [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - by Voltage
-*   _Persistent LND_ - activate this mode if you want the LND service to run continuously in the background and keep your node online 24/7. This is very useful if you use Zeus as a PoS in a small shop or you are receiving many LN tips over the LN Address.
-*   _Rescan wallet_ - this option will trigger at restart a full scan of all onchain txs of your wallet. Activate it only in case you are missing some txs in your wallet. The rescan task will take time, several minutes so be patient and always check the logs to see more details about the progress.
-*   _Compact Database_ - this option is very useful if your Zeus app is occupying a lot of device space (see app details in your device settings). If you have a lot of activity using Zeus, I would recommend to do this compaction more often. Once you see that you have more than 1-1.5GB data for Zeus app, do the compaction. It will restart and take some time, so be patient.
-*   _Delete Neutrino files_ - this option to delete the neutrino files (with a restart) will reduce a lot the data storage usage. Reducing the data usage also have a big impact in battery use, reducing the battery use, especially if you use Zeus in persistent mode.
+-  _Pathfinding mode_ - bimodal or apriori, ways to find a better route for your LN payments and also resetting the previous routing information. Please read these very good guides about pathfinding: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/lnd/pathfinding) - by Docs Lightning Engineering and [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - by Voltage
+-  _Persistent LND_ - activate this mode if you want the LND service to run continuously in the background and keep your node online 24/7. This is very useful if you use Zeus as a PoS in a small shop or you are receiving many LN tips over the LN Address.
+-  _Rescan wallet_ - this option will trigger at restart a full scan of all onchain txs of your wallet. Activate it only in case you are missing some txs in your wallet. The rescan task will take time, several minutes so be patient and always check the logs to see more details about the progress.
+-  _Compact Database_ - this option is very useful if your Zeus app is occupying a lot of device space (see app details in your device settings). If you have a lot of activity using Zeus, I would recommend to do this compaction more often. Once you see that you have more than 1-1.5GB data for Zeus app, do the compaction. It will restart and take some time, so be patient.
+-  _Delete Neutrino files_ - this option to delete the neutrino files (with a restart) will reduce a lot the data storage usage. Reducing the data usage also have a big impact in battery use, reducing the battery use, especially if you use Zeus in persistent mode.
 
-### D - Node Info
+#### D - Node Info
 
 In this section, you will find more details about the status of your Zeus node as:
 
-*   Alias - short node ID
-*   Public Key - the full public key for your node required for other nodes to find that path towards your node. Remember that this pubkey is NOT visible on the regular LN Explorers (Mempool, Amboss, 1ML etc). This pubkey is reachable ONLY through your connected LN peers and channels.
-*   LN implementation version
-*   Zeus app version
-*   Synced to chain and Synced to graph status - very important ones, showing the correct status of your node. If these two are not displaying “true” it means that your node is still syncing or is having some issues syncing. So is suggested to look into your LND logs or wait a bit longer.
-*   Block height and hash - shows the last block and hash that your node saw and synced.
+-  Alias - short node ID
+-  Public Key - the full public key for your node required for other nodes to find that path towards your node. Remember that this pubkey is NOT visible on the regular LN Explorers (Mempool, Amboss, 1ML etc). This pubkey is reachable ONLY through your connected LN peers and channels.
+-  LN implementation version
+-  Zeus app version
+-  Synced to chain and Synced to graph status - very important ones, showing the correct status of your node. If these two are not displaying “true” it means that your node is still syncing or is having some issues syncing. So is suggested to look into your LND logs or wait a bit longer.
+-  Block height and hash - shows the last block and hash that your node saw and synced.
 
-### E - Network Info
+#### E - Network Info
 
 This section displays more details about the general status for the Lightning network, extracted from your graph sync data: number of public channels available, number of nodes, number of zombie channels (offline or dead), graph diameter, average and max out degree for the graph.
 
 This information data could be useful to debug or just used for statistics.
 
-### F - Lightning Address
+#### F - Lightning Address
 
 In this section the user could setup his own self-custody LN Address @zeuspay.com.
 
@@ -286,11 +286,11 @@ If you activate the “persistent mode” all the payments to your LN Address wi
 
 Learn about how [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) payments work and more about [ZeusPay Fees here](https://docs.zeusln.app/lightning-address/fees).
 
-### G - Onchain Addresses
+#### G - Onchain Addresses
 
 In this section you could consult your generated onchain addresses for a better coin control
 
-### H - Contacts
+#### H - Contacts
 
 A new contact book was introduced in Zeus v 0.8.0 that you can use to quickly send payments to your friends and family, also with the ability to import your contacts from Nostr.
 
@@ -298,7 +298,7 @@ Simply enter in your Nostr npub or human readable NIP-05 address, and ZEUS will 
 
 Here is a short video how to configure and use your Zeus contacts:
 
-### I - Tools
+#### I - Tools
 
 Here we have various sub-sections with more tools:
 
@@ -314,18 +314,18 @@ Here we have various sub-sections with more tools:
 3.  _Sign or verify_ - With this feature you could sign a specific message with your wallet keys. Also can be used to verify a message to prove that is coming from a specific wallet keys.
 4.  _Currency converter_ - a simple tool to calculate the rate conversion between BTC and other fiat currencies.
 
-### J - Merch and Support
+#### J - Merch and Support
 
 Here you will find more info and links about Zeus, online shop, sponsors, social media.
 
-### K - Help
+#### K - Help
 
 In this last section you will find links to Zeus documentation page, Github issues (if you want to post a bug or request directly to app developers), email support.
 
-* * *
 
-STEP 2 - START USING ZEUS NODE [#](#step2)
----
+
+## STEP 2 - START USING ZEUS NODE [#](#step2)
+
 
 Remember, Zeus is mainly to be used as a LN wallet, for easy and quick payments over LN. Sure, it also contain an onchain wallet, but that one should be used exclusively for opening / closing LN channels and not for regular payments of a coffee.
 
@@ -333,8 +333,8 @@ Please read my other guide about [how to be your own bank using the 3 levels of 
 
 In this moment the user have 2 ways to start using Zeus:
 
-*   Straight away over LN, using the 0-conf channel from Olympus LSP
-*   Deposit first in onchain wallet and then opening a normal LN channel with the peer you desire.
+-  Straight away over LN, using the 0-conf channel from Olympus LSP
+-  Deposit first in onchain wallet and then opening a normal LN channel with the peer you desire.
 
 ### Method A - Using Olympus LSP
 
@@ -398,10 +398,9 @@ You can open a channel in Zeus by going to the Channels view by clicking the cha
 
 If you want to open a channel with a specific node, click on (A) top corner to scan the node QR nodeID (on Mempool, Amboss, 1ML you can obtain that QR) and all the peer details will be populated.
 
-REMINDER
-
-*   Zeus embedded node do not use Tor service ! So please do not try to open channels with nodes that are under Tor! You are doing more damage to yourself than adding more privacy. Tor for LN it doesn’t offer more privacy but adding more trouble.
-*   choose wisely your peers, better be good LSPs, good routing nodes, not random pleb nodes that could close your channels and could not offer good liquidity. [Here I wrote a dedicated guide](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) about liquidity and example of nodes.
+REMINDER:
+-  Zeus embedded node do not use Tor service ! So please do not try to open channels with nodes that are under Tor! You are doing more damage to yourself than adding more privacy. Tor for LN it doesn’t offer more privacy but adding more trouble.
+-  choose wisely your peers, better be good LSPs, good routing nodes, not random pleb nodes that could close your channels and could not offer good liquidity. [Here I wrote a dedicated guide](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) about liquidity and example of nodes.
 
 If you directly click on the button “Open Channel to Olympus” you will populate the required fields to open a channel to [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581).
 
@@ -425,9 +424,8 @@ There are also other LSP services as selling you inbound channels: LNBig or Bitr
 
 So if you need practically an empty LN channel (the balance is 100% on the peer side from the start), for receiving more payments than you can handle on your existing filled up channels, this could be a very good option. You will pay a specific fee for opening these channels and you get plenty of inbound space.
 
-* * *
 
-### TIPS AND TRICKS [#](#tips)
+# TIPS AND TRICKS 
 
 #### Inbound reserve limits
 
@@ -471,10 +469,10 @@ This feature it can be used also for circular rebalanacing, when you want to mov
 
 How to create an invoice with route hints?
 
-*   On the main screen, slide to the right the LN drawer and click on "Receive"
-*   In the invoice setup got to the bottom part and activate the button "Insert route hints", then select "Custom" tab. It will open a screen with all your available channels. Select the one you want to receive.
-*   Fill out all the other invoice details, amount, memo etc and click on "create invoice".
-*   Paying that invoice will bring the sats into the indicated channel.
+-  On the main screen, slide to the right the LN drawer and click on "Receive"
+-  In the invoice setup got to the bottom part and activate the button "Insert route hints", then select "Custom" tab. It will open a screen with all your available channels. Select the one you want to receive.
+-  Fill out all the other invoice details, amount, memo etc and click on "create invoice".
+-  Paying that invoice will bring the sats into the indicated channel.
 
 If you want to pay to yourself that invoice (circular rebalancing), when you pay it from your same Zeus node, in the payment screen, select the outbound channel (one with more liquidity) you want to be used as sending payment.
 
@@ -496,7 +494,7 @@ If you have a direct channel with the destination peer, will be NO fees involved
 
 If you do not have a direct channel with the destination peer, then the keysend payment will pay the fees as a normal LN invoice payment, routed on a regulat path as any other payment. Only that, remember, it will not remain any trace as a LN invoice.
 
-* * *
+# Conlusion
 
 I recommend to read the follow up guide [Advanced usage of Zeus](https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) with more instructions and use cases.
 

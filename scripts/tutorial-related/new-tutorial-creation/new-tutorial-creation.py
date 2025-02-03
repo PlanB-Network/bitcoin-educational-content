@@ -2,10 +2,16 @@ import os
 import uuid
 import datetime
 import json
+from appdirs import user_config_dir
 import customtkinter as ctk
 from tkinter import messagebox, filedialog
 
-SETTINGS_FILE = 'settings.json'
+APP_NAME = "Tutorial Creator GUI"
+APP_AUTHOR = "Plan B Network"
+
+CONFIG_DIR = user_config_dir(APP_NAME, APP_AUTHOR)
+os.makedirs(CONFIG_DIR, exist_ok=True)
+SETTINGS_FILE = os.path.join(CONFIG_DIR, 'settings.json')
 
 def load_settings():
     if os.path.exists(SETTINGS_FILE):
@@ -111,7 +117,6 @@ description:
             md_file.write(md_content)
 
         uuid_value = str(uuid.uuid4())
-
         current_date = datetime.date.today().strftime("%Y-%m-%d")
 
         lines = [

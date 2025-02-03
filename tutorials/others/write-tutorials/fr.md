@@ -1,16 +1,16 @@
 ---
 name: Contribution - Tutoriels
-description: Comment proposer un nouveau tutoriel sur PlanB Network ?
+description: Comment proposer un nouveau tutoriel sur Plan ₿ Network ?
 ---
 ![cover](assets/cover.webp)
 
 La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre diverses formes : correction et relecture des textes existants, traduction dans d'autres langues, mise à jour des informations ou encore création de nouveaux tutoriels encore absents de notre site.
 
-Dans ce tutoriel, je vous explique comment modifier la section "Tutoriels" de PlanB Network. Si vous souhaitez ajouter un nouveau tuto ou améliorer un déjà existant existant, cet article est fait pour vous ! Nous allons voir en détail comment contribuer à PlanB Network via GitHub, tout en utilisant Obsidian, un outil de rédaction.
+Dans ce tutoriel, je vous explique comment modifier la section "Tutoriels" de Plan ₿ Network. Si vous souhaitez ajouter un nouveau tuto ou améliorer un déjà existant existant, cet article est fait pour vous ! Nous allons voir en détail comment contribuer à Plan ₿ Network via GitHub, tout en utilisant Obsidian, un outil de rédaction.
 
 ## Prérequis
 
-Pour contribuer à PlanB Network, vous avez 3 options selon votre niveau d'expérience avec GitHub :
+Pour contribuer à Plan ₿ Network, vous avez 3 options selon votre niveau d'expérience avec GitHub :
 1. **Utilisateurs expérimentés** : Continuez avec vos méthodes habituelles et consultez ce tutoriel pour vous familiariser avec la structure des fichiers du dépôt de PlanB, les exigences spécifiques et la méthode de travail.
 2. **Débutants prêts à apprendre** : Je vous recommande de configurer votre propre environnement de travail. Suivez ce tutoriel ainsi que nos autres articles présentés ci-dessous pour vous guider étape par étape.
 3. **Débutants pour contributions mineures** : Pour des tâches qui demandent moins de modifications comme la relecture ou des corrections, utilisez directement l'interface web de GitHub sans configurer un environnement local complet.
@@ -22,8 +22,8 @@ Pour contribuer à PlanB Network, vous avez 3 options selon votre niveau d'expé
 ![tutorial](assets/1.webp)
 **Prérequis avant de commencer le tutoriel :**
 - Avoir un [compte GitHub](https://github.com/signup).
-- Avoir un fork du [dépôt source de PlanB Network](https://github.com/PlanB-Network/bitcoin-educational-content).
-- Avoir [un profil de professeur sur PlanB Network](https://planb.network/professors) (uniquement si vous proposez un tutoriel complet).
+- Avoir un fork du [dépôt source de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content).
+- Avoir [un profil de professeur sur Plan ₿ Network](https://planb.network/professors) (uniquement si vous proposez un tutoriel complet).
 
 **Si vous avez besoin d'aide pour obtenir ces prérequis, mes autres tutoriels vous guideront :**
 **[Comprendre Git et GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
@@ -31,7 +31,7 @@ Pour contribuer à PlanB Network, vous avez 3 options selon votre niveau d'expé
 **[Configurer votre environnement de travail](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
 **[Créer un profil de professeur](https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)**
 
-## Quel type de contenu rédiger sur PlanB Network ?
+## Quel type de contenu rédiger sur Plan ₿ Network ?
 
 Nous recherchons en priorité des tutoriels sur des outils liés à Bitcoin ou à son écosystème. Ces contenus peuvent s'articuler autour de six catégories principales :
 - Portefeuille ;
@@ -53,13 +53,13 @@ Au-delà de ces sujets spécifiquement liés à Bitcoin, PlanB cherche égalemen
 
 Par exemple, nous avons actuellement des tutoriels sur Tails, Nostr ou encore GrapheneOS. Ces outils ne sont pas directement en rapport avec Bitcoin, mais ce sont des systèmes qui peuvent nous intéresser dans une démarche de souveraineté dans le monde du numérique. Ces contenus peuvent être intégrés dans une sous-catégorie de la section « Autres ».
 
-Vous avez le choix entre concevoir un tutoriel de zéro ou reprendre un tutoriel préalablement publié sur votre site web (à condition d'en détenir les droits d'auteur) pour le partager également sur PlanB Network, en y ajoutant un lien vers l'article d'origine.
+Vous avez le choix entre concevoir un tutoriel de zéro ou reprendre un tutoriel préalablement publié sur votre site web (à condition d'en détenir les droits d'auteur) pour le partager également sur Plan ₿ Network, en y ajoutant un lien vers l'article d'origine.
 
-Quel que soit votre choix, gardez à l'esprit que tous les contenus publiés sur PlanB Network sont sous la licence libre [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). Cette licence autorise quiconque à copier et, potentiellement, à modifier votre contenu, à la seule condition que la source originale soit dûment créditée.
+Quel que soit votre choix, gardez à l'esprit que tous les contenus publiés sur Plan ₿ Network sont sous la licence libre [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). Cette licence autorise quiconque à copier et, potentiellement, à modifier votre contenu, à la seule condition que la source originale soit dûment créditée.
 
-## Comment proposer un tutoriel sur PlanB Network ?
+## Comment proposer un tutoriel sur Plan ₿ Network ?
 
-Une fois que tout est en place, que votre environnement local est bien paramétré avec votre propre fork de PlanB Network, vous allez pouvoir commencer l'ajout du tutoriel.
+Une fois que tout est en place, que votre environnement local est bien paramétré avec votre propre fork de Plan ₿ Network, vous allez pouvoir commencer l'ajout du tutoriel.
 
 ### Créer une nouvelle branche
 
@@ -88,7 +88,7 @@ Pour chaque nouvel article que vous souhaitez publier, il vous faudra créer une
 
 Maintenant que la branche de travail est créée, il est temps de faire l'intégration de votre nouveau tutoriel.
 
-- Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`. Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web PlanB Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+- Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`. Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
 ![tutorial](assets/12.webp)
 - Au sein du dossier `wallet`, il faut créer un nouveau répertoire spécifiquement dédié à votre tutoriel. Le nom de ce dossier doit évoquer le logiciel traité dans le tutoriel, en veillant à relier les mots par des tirets. Pour mon exemple, le dossier sera intitulé `sparrow-wallet` :
 ![tutorial](assets/13.webp)
@@ -177,14 +177,14 @@ Pour insérer un schéma dans votre document, utilisez la commande suivante en M
 ```
 Le point d'exclamation au début indique qu'il s'agit d'une image. Le texte alternatif, qui aide à l'accessibilité et au référencement, est placé entre les crochets. Enfin, le chemin d'accès à l'image est indiqué entre les parenthèses :
 ![tutorial](assets/27.webp)
-Si vous souhaitez créer vos propres schémas, veillez à respecter la charte graphique de PlanB Network pour assurer la cohérence visuelle :
+Si vous souhaitez créer vos propres schémas, veillez à respecter la charte graphique de Plan ₿ Network pour assurer la cohérence visuelle :
 - **Police** : Utilisez [Rubik](https://fonts.google.com/specimen/Rubik) ;
 - **Couleurs** :
 	- Orange : #FF5C00
 	- Noir : #000000
 	- Blanc : #FFFFFF
 
-**Il est impératif que tous les visuels intégrés à vos tutoriels soient libres de droit ou respectent la licence du fichier source**. Aussi, l'intégralité des schémas publiés sur PlanB Network sont mis à disposition sous licence CC-BY-SA, de la même manière que le texte.
+**Il est impératif que tous les visuels intégrés à vos tutoriels soient libres de droit ou respectent la licence du fichier source**. Aussi, l'intégralité des schémas publiés sur Plan ₿ Network sont mis à disposition sous licence CC-BY-SA, de la même manière que le texte.
 
 **-> Astuce :** Lors du partage de fichiers en public, tels que des images, il est important de supprimer les métadonnées superflues. Celles-ci peuvent contenir des informations sensibles, comme des données de localisation, des dates de création, ou encore des détails concernant l'auteur. Afin de protéger votre vie privée, il est conseillé de supprimer ces métadonnées. Pour simplifier cette opération, vous pouvez recourir à des outils spécialisés comme [Exif Cleaner](https://exifcleaner.com/), qui offre la possibilité de nettoyer les métadonnées d'un document grâce à un simple drag-and-drop.
 
@@ -206,7 +206,7 @@ Un commit est une sauvegarde des modifications apportées à la branche, accompa
 ![tutorial](assets/31.webp)
 - Vous pouvez vérifier une dernière fois que vos modifications sont bien justes, puis cliquez sur le bouton `Create pull request` :
 ![tutorial](assets/32.webp)
-Une Pull Request est une demande faite pour intégrer les modifications de votre branche vers la branche de principale du dépôt de PlanB Network, qui permet la revue et la discussion des changements avant leur fusion.
+Une Pull Request est une demande faite pour intégrer les modifications de votre branche vers la branche de principale du dépôt de Plan ₿ Network, qui permet la revue et la discussion des changements avant leur fusion.
 
 - Vous allez être automatiquement renvoyé sur votre navigateur sur GitHub dans la page de préparation de votre Pull Request :
 ![tutorial](assets/33.webp)
@@ -214,7 +214,7 @@ Une Pull Request est une demande faite pour intégrer les modifications de votre
 - Ajoutez un bref commentaire décrivant ces changements.
 - Cliquez sur le bouton vert `Create pull request` pour confirmer la demande de fusion :
 ![tutorial](assets/34.webp)
-Votre PR sera alors visible dans l'onglet `Pull Request` du dépôt principal de PlanB Network. Il ne vous reste plus qu'à patienter jusqu'à ce qu'un administrateur vous contacte pour confirmer la fusion de votre contribution ou pour solliciter d'éventuelles modifications complémentaires.
+Votre PR sera alors visible dans l'onglet `Pull Request` du dépôt principal de Plan ₿ Network. Il ne vous reste plus qu'à patienter jusqu'à ce qu'un administrateur vous contacte pour confirmer la fusion de votre contribution ou pour solliciter d'éventuelles modifications complémentaires.
 ![tutorial](assets/35.webp)
 Après la fusion de votre PR avec la branche principale, il est recommandé de supprimer votre branche de travail (`tuto-sparrow-wallet`) pour maintenir un historique propre sur votre fork. GitHub vous proposera cette option automatiquement sur la page de votre PR :
 ![tutorial](assets/36.webp)
@@ -222,5 +222,5 @@ Sur le logiciel GitHub Desktop, vous pouvez vous replacer sur la branche princip
 ![tutorial](assets/7.webp)
 Si vous désirez apporter des modifications à votre contribution après avoir déjà soumis votre PR, la démarche à suivre dépend de l'état actuel de votre PR :
 - Si votre PR est toujours ouverte et n'a pas encore été fusionnée, effectuez les modifications localement en restant sur la même branche. Une fois les modifications finalisées, utilisez le bouton `Push origin` pour ajouter un nouveau commit à votre PR encore ouverte ;
-- Dans le cas où votre PR a déjà été fusionnée avec la branche principale, vous devrez refaire le processus depuis le début en créant une nouvelle branche, puis en soumettant une nouvelle PR. Assurez-vous que votre dépôt local soit synchronisé avec le dépôt source de PlanB Network avant de procéder.
+- Dans le cas où votre PR a déjà été fusionnée avec la branche principale, vous devrez refaire le processus depuis le début en créant une nouvelle branche, puis en soumettant une nouvelle PR. Assurez-vous que votre dépôt local soit synchronisé avec le dépôt source de Plan ₿ Network avant de procéder.
 

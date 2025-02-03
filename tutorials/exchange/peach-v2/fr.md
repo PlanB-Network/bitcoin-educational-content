@@ -5,6 +5,8 @@ description: Guide complet pour utiliser Peach et échanger des bitcoins en P2P
 
 ![cover](assets/cover.webp)
 
+![peach](https://youtu.be/ziwhv9KqVkM)
+
 ## Introduction
 
 Les échanges de pair-à-pair (P2P) sans KYC sont essentiels pour préserver la confidentialité et l'autonomie financière des utilisateurs. Ils permettent des transactions directes entre individus sans nécessiter de vérification d'identité, ce qui est crucial pour ceux qui valorisent la vie privée. Pour une compréhension plus approfondie des concepts théoriques, consultez le cours BTC204 :

@@ -1,0 +1,5 @@
+---
+term: OP_CHECKMULTISIG (0XAE)
+
+---
+Prüft mehrere Signaturen gegen mehrere öffentliche Schlüssel. Es nimmt als Eingabe eine Reihe von `N` öffentlichen Schlüsseln und `M` Unterschriften, wobei `M` kleiner oder gleich `N` sein kann. `OP_CHECKMULTISIG` prüft, ob mindestens `M` Signaturen mit `M` der `N` öffentlichen Schlüssel übereinstimmen. Beachten Sie, dass aufgrund eines historischen Fehlers ein zusätzliches Element durch `OP_CHECKMULTISIG` aus dem Stack entfernt wird. Dieses Element wird als "*Dummy-Element*" bezeichnet. Um einen Fehler in `scriptSig` zu vermeiden, wird daher ein `OP_0`, das ein nutzloses Element ist, eingefügt, um die Entfernung zu erfüllen und den Fehler zu umgehen. Seit BIP147 (eingeführt mit SegWit im Jahr 2017) muss das nutzlose Element, das aufgrund des Fehlers verbraucht wird, `OP_0` sein, damit das Skript gültig ist, da es ein Malleability-Vektor war. Dieser Opcode wurde in Tapscript entfernt.

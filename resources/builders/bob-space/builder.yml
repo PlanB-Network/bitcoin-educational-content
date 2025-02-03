@@ -1,3 +1,4 @@
+id: ecc759ef-2b1a-41a9-91b2-12eea981d06c
 name: BOB Space
 category: communities
 address_line_1: Bangkok, Thailand
@@ -5,7 +6,7 @@ address_line_2:
 address_line_3:
 language:
   - en
-  - es
+  - th
 links:
   website: https://www.bobspaces.net/
   twitter: https://x.com/BOBSpace_BKK

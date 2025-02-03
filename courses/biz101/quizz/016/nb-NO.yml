@@ -1,0 +1,9 @@
+question: Hvordan skiller kunstig skapt kapital fra gjeldsbaserte penger seg fra østerriksk kapital?
+answer: Kapital etter østerriksk modell stammer fra reell sparing og oppofrelse, mens gjeldsbasert kapital skapes umiddelbart fra kreditt og kan forvrenge økonomiske signaler.
+wrong_answers:
+  - Kapital i østerriksk stil genereres ved å trykke mer penger når det trengs.
+  - Gjeldsbasert kapital krever aldri tilbakebetaling og tilsvarer reell sparing.
+  - Det er ingen forskjell; begge kapitalformene er identiske i natur og virkning.
+explanation: |
+  Østerriksk kapital oppstår fra faktisk avstått forbruk og forsiktige investeringer. Gjeldsbasert kapital, som lett skapes gjennom lån, kan villede entreprenører og føre til ineffektive investeringer, ettersom den ikke gjenspeiler ekte sparing eller forbrukernes preferanser.
+reviewed: false

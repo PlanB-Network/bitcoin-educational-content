@@ -1,0 +1,15 @@
+title: "Handbuch Bitcoin Mining"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  Das 1. Buch der Reihe, das Bitcoin Mining Handbook, beginnt mit den Grundlagen
+  des Bergbaus, Erläuterung der Anreize des Arbeitsnachweises, einige praktische Tipps für
+  selbst abbauen und ein weit verbreitetes Missverständnis ausräumen, indem sie erklären, dass
+  die Bergleute lösen KEINE komplexen mathematischen Probleme. Dann taucht er ein wenig tiefer,
+  über das Aufkommen von kundenspezifischer Firmware für Bergleute, die Bedeutung der
+  Stratum-V2-Protokoll-Upgrade und die geschäftliche Seite der Bergbauindustrie.
+  Das Buch schließt mit einer Auswahl der besten Bergbau-Memes der frühen
+  2022.
+contributors:
+  - another-satoshi

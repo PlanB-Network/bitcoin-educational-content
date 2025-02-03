@@ -6,8 +6,10 @@ wrong_answers:
   - An individual possesses an inferior ability to perform certain tasks than his
     peers.
 explanation: |
-  In the context of the division of labor, absolute advantage refers to
-  the situation where an individual has a superior ability to perform certain tasks
-  than his peers. This individual then has an interest in specializing in the production
-  of that good and then exchanging the surplus obtained for the goods they desire.
-reviewed: false
+  In the context of the division of labor, absolute advantage
+  refers to the situation where an individual has a superior
+  ability to perform certain tasks than his peers. This
+  individual then has an interest in specializing in the
+  production of that good and then exchanging the surplus
+  obtained for the goods they desire.
+reviewed: true

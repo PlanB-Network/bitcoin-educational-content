@@ -2312,7 +2312,7 @@ Et voilà ! Nous arrivons à la fin de cette formation CYP201. Si ce cours vous 
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
-## Évaluez ce cours
+## Avis & Notes
 
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -2325,39 +2325,4 @@ Et voilà ! Nous arrivons à la fin de cette formation CYP201. Si ce cours vous 
 ## Conclusion
 
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
-
-Nous arrivons à la fin de la formation CYP201. J’espère qu’elle vous a été utile dans votre apprentissage de Bitcoin et qu’elle vous a permis de mieux comprendre le fonctionnement des portefeuilles HD que vous utilisez au quotidien. Merci d’avoir suivi ce cours jusqu’à son terme !
-
-Selon moi, ces connaissances sur les portefeuilles sont fondamentales, car elles relient un aspect théorique de Bitcoin à son utilisation pratique. En effet, si vous utilisez Bitcoin, vous manipulez forcément des logiciels de portefeuille. Comprendre leurs rouages vous permet de mettre en place des stratégies de sécurisation efficaces, tout en maîtrisant les mécanismes sous-jacents, les risques et les éventuelles faiblesses. Ainsi, vous pouvez utiliser Bitcoin de manière plus sûre et en toute confiance.
-
-Si vous ne l’avez pas encore fait, je vous invite à noter et à commenter cette formation. Cela m’aiderait énormément. Vous pouvez également partager cette formation sur vos réseaux sociaux pour diffuser ces connaissances au plus grand nombre.
-
-Pour poursuivre votre parcours dans le terrier du lapin, je vous recommande vivement la formation **BTC204**, que j’ai également produite sur Plan ₿ Network. Elle est dédiée à la confidentialité sur Bitcoin et explore des thématiques clés : Quel est le modèle de confidentialité ? Comment fonctionne l’analyse de chaîne ? Comment utiliser Bitcoin de manière optimale pour maximiser votre confidentialité ? Une suite logique pour approfondir vos compétences !
-
-https://planb.network/courses/btc204
-
-De plus, pour continuer à approfondir vos connaissances dans l'univers du Bitcoin, nous vous invitons à explorer d'autres cours disponibles sur Plan ₿ Network comme :
-
-#### Apprenez à créer votre communauté Bitcoin avec
-
-https://planb.network/courses/btc302
-
-#### Découvrez le réseau Lightning avec
-
-https://planb.network/courses/lnp201
-
-#### Découvrez la pensée économique de l'École autrichienne avec
-
-https://planb.network/courses/eco201
-
-#### Découvrez l'histoire des origines de Bitcoin avec
-
-https://planb.network/courses/his201
-
-#### Découvrez l'évolution de la liberté à travers les âges avec
-
-https://planb.network/courses/phi201
-
-
-
-
+<isCourseConclusion>true</isCourseConclusion>

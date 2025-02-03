@@ -1,0 +1,11 @@
+---
+term: SELFISH MINING
+
+---
+Strategi (eller angrep) innen utvinning, der en utvinner eller en gruppe utvinnere med vilje beholder blokker med et gyldig arbeidsbevis uten å sende dem ut til nettverket umiddelbart. Målet er å opprettholde et forsprang på andre utvinnere når det gjelder bevis på arbeid, noe som potensielt gjør det mulig for dem å utvinne flere blokker på rad og publisere dem alle på én gang, og dermed maksimere gevinsten.
+
+Med andre ord utvinner ikke den angripende gruppen av utvinnere på den siste blokken som er validert av hele nettverket, men på en blokk de selv har laget, som er forskjellig fra den som er validert av nettverket. Denne prosessen genererer en slags hemmelig gaffel av blokkjeden, som forblir ukjent for hele nettverket helt til denne alternative kjeden potensielt overgår den ærlige blokkjeden. Når den hemmelige kjeden til de angripende utvinnerne blir lengre (dvs. at den inneholder mer akkumulert arbeid) enn den ærlige og offentlige kjeden, sendes den ut til hele nettverket. På det tidspunktet vil nettverksnodene som følger den lengste kjeden (med mest akkumulert arbeid), synkronisere seg med denne nye kjeden. Dette resulterer i en omorganisering.
+
+Egoistisk utvinning er problematisk fordi det reduserer systemets sikkerhet ved å sløse med en del av nettverkets regnekraft. Hvis det lykkes, fører det også til omorganiseringer av blokkjeden, noe som påvirker påliteligheten til transaksjonsbekreftelser for brukerne. Denne praksisen er fortsatt risikabel for den angripende gruppen av utvinnere, ettersom det ofte er mer lønnsomt å utvinne normalt på den siste blokken som er offentlig kjent, enn å bruke regnekraft på en hemmelig gaffel som sannsynligvis aldri vil overgå den ærlige blokkjeden. Jo flere blokker som inngår i omorganiseringen, desto lavere er sannsynligheten for at angrepet lykkes.
+
+> den engelske oversettelsen av "minage égoïste" er "egoistisk gruvedrift". Merk at et egoistisk utvinningsangrep ikke må forveksles med et blokktilbakeholdsangrep*

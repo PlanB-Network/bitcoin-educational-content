@@ -2258,7 +2258,7 @@ Ja nii me jõudsimegi CYP201 kursuse lõppu. Kui leidsite selle kursuse kasuliku
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
-## Hinnake seda kursust
+## Hinnangud & Reitingud
 
 <chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -2271,39 +2271,4 @@ Ja nii me jõudsimegi CYP201 kursuse lõppu. Kui leidsite selle kursuse kasuliku
 ## Kokkuvõte
 
 <chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
-
-Oleme jõudnud CYP201 koolituse lõppu. Loodan, et see on olnud teie Bitcoini õppimise teekonnal kasulik ja aidanud teil paremini mõista igapäevaselt kasutatavate HD rahakottide toimimist. Tänan, et läbisite selle kursuse lõpuni!
-
-Minu arvates on need teadmised rahakottide kohta fundamentaalsed, kuna need ühendavad Bitcoini teoreetilise aspekti selle praktilise kasutamisega. Tõepoolest, kui kasutate Bitcoini, käsitlete paratamatult rahakoti tarkvara. Nende sisemise toimimise mõistmine võimaldab teil rakendada efektiivseid turvastrateegiaid, samal ajal valdades aluseks olevaid mehhanisme, riske ja võimalikke nõrkusi. Nii saate Bitcoini kasutada turvalisemalt ja enesekindlalt.
-
-Kui te pole seda veel teinud, palun hinnake ja kommenteerige seda koolitust. See aitaks mind tohutult. Samuti võite jagada seda koolitust oma sotsiaalvõrgustikes, et levitada neid teadmisi võimalikult paljudele inimestele.
-
-Teekonna jätkamiseks küülikuurus soovitan tungivalt **BTC204** koolitust, mille ma samuti Plan ₿ Networkis tootsin. See on pühendatud Bitcoini privaatsusele ja uurib põhiteemasid: Milline on privaatsuse mudel? Kuidas toimib ahela analüüs? Kuidas kasutada Bitcoini optimaalselt oma privaatsuse maksimeerimiseks? Loogiline järgmine samm oma oskuste süvendamiseks!
-
-https://planb.network/courses/btc204
-
-Lisaks kutsume teid oma teadmiste süvendamiseks Bitcoini universumis tutvuma teiste Plan ₿ Networkis saadaolevate kursustega nagu:
-
-#### Õppige looma oma Bitcoini kogukonda
-
-https://planb.network/courses/btc302
-
-#### Avastage Lightning Network
-
-https://planb.network/courses/lnp201
-
-#### Avastage Austria koolkonna majanduslik mõtlemine
-
-https://planb.network/courses/eco201
-
-#### Avastage Bitcoini päritolu ajalugu
-
-https://planb.network/courses/his201
-
-#### Avastage vabaduse areng läbi aegade
-
-https://planb.network/courses/phi201
-
-
-
-
+<isCourseConclusion>true</isCourseConclusion>

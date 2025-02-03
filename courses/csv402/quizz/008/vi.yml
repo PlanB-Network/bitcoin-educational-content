@@ -1,0 +1,9 @@
+question: What is the main purpose of deterministic Bitcoin commitments?
+answer: Ensure that a single commitment is inserted in a transaction
+wrong_answers:
+  - Simplifying the structure of Bitcoin transactions
+  - Reduce RGB transaction costs
+  - Optimizing RGB multisignature generation
+explanation: |
+  Bitcoin deterministic commitments guarantee that a single commitment is inserted into a transaction, to avoid hidden competing commitments.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welches historische Konzept gilt für RGB in der digitalen Welt?
+answer: Inhaber-Instrumente
+wrong_answers:
+  - Zentralisierte Datenbanken
+  - Peer-to-Peer-Netze ohne Validierung
+  - Offene, für alle zugängliche Register
+explanation: |
+  RGB überträgt die Idee der Inhaberinstrumente auf die digitale Ebene.
+reviewed: false

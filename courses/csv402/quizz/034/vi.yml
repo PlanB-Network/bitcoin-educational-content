@@ -1,0 +1,9 @@
+question: What action does Bob (receiver) perform once he receives the terminal consignment from Alice (payer)?
+answer: Check validity of State Transition and sign
+wrong_answers:
+  - Modify the Contract Schema and send it to Alice
+  - Create an invoice for a new operation
+  - Sign Alice's PSBT and distribute it onchain
+explanation: |
+  Bob examines the consignment, makes sure that the transition complies with the rules, and signs off to confirm his agreement.
+reviewed: false

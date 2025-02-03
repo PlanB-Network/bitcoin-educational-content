@@ -1,0 +1,9 @@
+question: Mis on nutikate lepingute peamine eesmärk RGB-keskkonnas?
+answer: Rakendada automatiseeritud Bitcoin tehinguid ilma tsentraliseeritud registrita
+wrong_answers:
+  - Tsentraliseeritud Bitcoini registrite loomise hõlbustamine
+  - Anda avalik liides kõigile Bitcoini tehingutele
+  - ERC-20 müntide täitmise lihtsustamine Bitcoinis
+explanation: |
+  RGB nutilepingud võimaldavad lepingute automatiseerimist, vältides samal ajal tsentraliseeritud registrite kasutamist, tuginedes krüptograafiliste ankurduste jaoks Bitcoinile.
+reviewed: false

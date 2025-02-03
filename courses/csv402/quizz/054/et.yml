@@ -1,0 +1,9 @@
+question: Mis on RGBlib RGB ökosüsteemis?
+answer: Raamatukogu RGB varasid haldavate rakenduste loomiseks
+wrong_answers:
+  - RGB varade haldamisele pühendatud Android rahakott
+  - Alternatiivne klient RGB-protokolli jaoks
+  - Veebisait RGB NFTde kuvamiseks
+explanation: |
+  RGBlib pakub arendajatele lihtsustatud kasutajaliidest, mis võimaldab neil hallata RGB varade emissiooni, ülekannet ja valideerimist, ilma et nad peaksid valdama kõiki tehnilisi üksikasju.
+reviewed: false

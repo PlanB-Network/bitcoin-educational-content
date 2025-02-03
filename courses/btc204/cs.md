@@ -3724,7 +3724,7 @@ _K vytvoření této kapitoly o Silent Payments jsem použil [web s vysvětlení
 # Závěr
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-## Ohodnoťte tento kurz
+## Recenze & Hodnocení
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -3734,36 +3734,4 @@ _K vytvoření této kapitoly o Silent Payments jsem použil [web s vysvětlení
 
 ## Závěr
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
-Gratulujeme k dokončení tohoto školení o soukromí Bitcoinu!
-
-V tomto školení jsme se zabývali mnoha pokročilými a technickými tématy, ale není nutné používat všechny představené nástroje. Hlavním cílem bylo dát vám možnost vybrat si, které informace chcete zveřejnit a které raději zachovat důvěrné při používání Bitcoinu. To ztělesňuje samotnou podstatu ochrany soukromí. Pro informované rozhodování o tom, které informace sdílet nebo skrýt, je nutné si být vědom důsledků našich činů. Doufám, že vám toto školení pomohlo získat tyto znalosti.
-
-Pokud bych měl vybrat nejdůležitější část tohoto školení, vybral bych sekci věnovanou analýze blockchainu. Porozumění technikám používaným vašimi potenciálními útočníky je nejlepší způsob, jak se před nimi chránit. Moje rada by tedy byla pečlivě si tuto část projít a snažit se pochopit všechny její detaily.
-
-V tomto školení jsme se zaměřili výhradně na soukromí Bitcoinu na hlavním řetězci. Otázky soukromí na systémech druhé vrstvy, jako jsou Lightning Network a sidechains, jsou také důležité a mají velmi specifické charakteristiky. Zatímco používání off-chain transakcí může být účinnou strategií k obejití mnoha rizik sledovatelnosti Bitcoinu, která jsme studovali, vystavuje vás to jiným rizikům, která je také důležité znát. Proto budou tato témata pokryta v budoucím specializovaném školení na Plan ₿ Network.
-
-Pokud se vám toto školení líbilo, budu vám velmi vděčný, pokud ho budete sdílet se svými blízkými a na sociálních sítích. Děkuji! :)
-
-Pro další prohlubování vašich znalostí ve světě Bitcoinu vás zveme k prozkoumání dalších kurzů dostupných na Plan ₿ Network, jako jsou:
-
-#### Pochopte, jak funguje Bitcoin peněženka s
-https://planb.network/courses/cyp201
-
-#### Naučte se vytvořit svou Bitcoin komunitu s
-https://planb.network/courses/btc302
-
-#### Objevte historii počátků Bitcoinu s
-https://planb.network/courses/his201
-
-#### Nakonfigurujte BTC platební server s
-https://planb.network/courses/btc305
-
-#### Objevte Lightning Network s
-https://planb.network/courses/lnp201
-
-#### Objevte vývoj svobody napříč věky s
-https://planb.network/courses/phi201
-$$
-
-
-
+<isCourseConclusion>true</isCourseConclusion>

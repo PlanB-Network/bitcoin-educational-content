@@ -160,7 +160,9 @@ Kryptovaluuttahuijausten ja taloudellisten huijausten lisäksi bitcoineja menett
 - Pidä tietokoneesi ajan tasalla ja vapaana haittaohjelmista,
 - Arvosta yksityisyyttäsi käyttämällä omistautuneita työkaluja (Signal, Tor, ProtonMail).
 
-Jos tämä aihe on sinulle täysin tuntematon, SECU 101 -koulutus voi olla mielenkiintoinen tapa perehtyä siihen yksityiskohtaisesti.
+Jos tämä aihe on sinulle täysin tuntematon, SCU 101 -koulutus voi olla mielenkiintoinen tapa perehtyä siihen yksityiskohtaisesti.
+
+https://planb.network/courses/scu101
 
 On ratkaisevan tärkeää pitää tietokoneesi optimaalisessa työskentelykunnossa, olitpa kiinnostunut Bitcoinista tai et. Päivitys ei ole vain uusien ominaisuuksien lisäämistä varten: se myös korjaa bugeja ja parantaa ohjelmistosi turvallisuutta. Joten varmista, että:
 
@@ -799,9 +801,6 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 Paranoian henkilön mielessä varovaisuus, turvallisuus ja nimettömyys ovat ensisijaisia. Nämä prioriteetit ohjaavat harkittua ja hyvin suunniteltua lähestymistapaa Bitcoinin käyttöön, edistäen omavaraisuutta ja varovaisuutta. Paranoiainen henkilö on valmis investoimaan aikaa ja vaivaa bitcoinsiensa turvallisuuden ja yksityisyyden varmistamiseen samalla taitavasti navigoiden ekosysteemissä välttääkseen tarpeetonta altistumista. Vaikka jotkut saattavat pitää sitä liiallisena varovaisuutena, paranoiainen henkilö pitää huolellisuuttaan ja yksityiskohtien huomioimista olennaisena menestyksekkääseen ja turvalliseen osallistumiseen Bitcoinin maailmassa.
 
-# Bitcoinin tulevaisuus
-
-<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Perintösuunnitelman luominen
 
@@ -979,10 +978,6 @@ Onnittelut! Sinulla on ensimmäinen versio perintösuunnitelmastasi, ja se on hi
 _Cryptoasset Inheritance Planning, Yksinkertainen opas omistajille, Pamela Morgan, ESQ. Tekijänoikeus 2018 Merkle Bloom LLC, Kaikki oikeudet pidätetään. CC-BY_ Suuri kiitos Pamela Morganille hänen arvokkaasta työstään ja siitä, että sain jakaa sen. Kiitos myös kaikille, jotka osallistuivat sen kirjoittamiseen.
 Te olette parhaita :D Myös tiimini ja oppilaani kiittävät!
 
-# Kiitokset ja jatka kaninkolon tutkimista
-
-<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
-
 ## Onnittelut! OLET TOP 0,1%:SSA
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
@@ -1007,7 +1002,7 @@ Joka tapauksessa kaikki kurssimme ovat ilmaisia, ja monia resursseja tai opetuso
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Arvioi kurssi
+## Arviot & Arvosanat
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1020,34 +1015,4 @@ Joka tapauksessa kaikki kurssimme ovat ilmaisia, ja monia resursseja tai opetuso
 ## Yhteenveto
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
-Onnittelut kurssin suorittamisesta!
-
-Olemme iloisia, että olet onnistuneesti saavuttanut tämän virstanpylvään oppimismatkallasi. Omistautumisesi ja sitoutumisesi ansiosta olet saanut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
-
-Jatkaaksesi syvemmälle Bitcoinin maailmaan, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
-
-#### Tutustu Bitcoiniin ja sen perusteisiin osoitteessa
-
-https://planb.network/courses/btc101
-
-#### Päivitä verkkoturvallisuutesi osoitteessa
-
-https://planb.network/courses/scu101
-
-#### Tutustu Lightning Networkiin osoitteessa
-
-https://planb.network/courses/lnp201
-
-#### Opi Itävallan talousajattelun koulukunnasta osoitteessa
-
-https://planb.network/courses/eco201
-
-#### Ymmärrä Bitcoinin perusteet ja rakenna kotisi lämmitysjärjestelmä osoitteessa
-
-https://planb.network/courses/min201
-
-#### Ymmärrä, miten Bitcoin-lompakko toimii osoitteessa
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

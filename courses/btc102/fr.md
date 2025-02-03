@@ -173,7 +173,9 @@ Outre les arnaques en crypto-monnaie et autour de la finance, la première raiso
 - Maintenir votre ordinateur à jour et exempt de malwares,
 - Valoriser votre vie privée en utilisant des outils dédiés (Signal, Tor, ProtonMail).
 
-Si ce sujet vous est complètement inconnu, la formation SECU 101 peut être intéressante pour l'approfondir en détail.
+Si ce sujet vous est complètement inconnu, la formation SCU 101 peut être intéressante pour l'approfondir en détail.
+
+https://planb.network/courses/scu101
 
 Il est crucial de maintenir votre ordinateur dans un état de fonctionnement optimal, que vous vous intéressiez à Bitcoin ou non. Une mise à jour n'est pas seulement là pour ajouter de nouvelles fonctionnalités : elle corrige également les bugs et améliore la sécurité de vos logiciels. Assurez-vous donc de :
 
@@ -849,9 +851,6 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 Dans l'esprit du Parano, la prudence, la sécurité et l'anonymat sont primordiaux. Ces priorités dictent une approche délibérée et bien réfléchie de l'utilisation de Bitcoin, favorisant l'auto-suffisance et la prudence. Le Parano est prêt à investir du temps et des efforts pour assurer la sécurité et la confidentialité de ses bitcoin, tout en naviguant habilement dans l'écosystème pour éviter toute exposition inutile. Bien qu'il puisse sembler excessivement prudent pour certains, le Parano considère que sa diligence et son attention aux détails sont essentielles pour une participation réussie et sécurisée dans le monde du Bitcoin.
 
-# Le futur avec Bitcoin
-
-<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Création d'un plan d'héritage
 
@@ -1033,9 +1032,6 @@ Bravo! Vous avez une première version de votre plan d'héritage et c'est un exc
 _Cryptoasset Inheritance Planning, A simple guide for owners, Pamela Morgan, ESQ. Copyright 2018 by Merkle Bloom LLC, All rights reserved. CC-BY_ Un grand merci à Pamela Morgan pour son travail précieux et pour m'avoir autorisé à le partager. Merci également à tous ceux qui ont contribué à son écriture.
 Vous êtes les meilleurs :D Mon équipe et mes étudiants vous remercient également!
 
-# Remerciements et continuez à creuser le terrier du lapin
-
-<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Féliciation ! VOUS ÊTES DANS LE TOP 0,1%
 
@@ -1058,7 +1054,7 @@ Dans tous les cas, toutes nos formations restent gratuites et de nombreuses ress
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Évaluez le cours
+## Avis & Notes
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1071,34 +1067,4 @@ Dans tous les cas, toutes nos formations restent gratuites et de nombreuses ress
 ## Conclusion
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
-Félicitations pour avoir terminé ce cours !
-
-Nous sommes ravis que vous ayez atteint cette étape importante dans votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous serviront dans votre développement professionnel.
-
-Pour continuer à explorer en profondeur l'univers du Bitcoin, nous vous invitons à découvrir tous les autres cours disponibles sur Plan ₿ Network :
-
-#### Découvrez Bitcoin et ses fondamentaux avec
-
-https://planb.network/courses/btc101
-
-#### Mettez à jour votre sécurité en ligne avec
-
-https://planb.network/courses/scu101
-
-#### Découvrez le Lightning Network avec
-
-https://planb.network/courses/lnp201
-
-#### Apprenez l'École Autrichienne de Pensée Économique avec
-
-https://planb.network/courses/eco201
-
-#### Comprenez les bases de Bitcoin et construisez votre chauffage domestique avec
-
-https://planb.network/courses/min201
-
-#### Comprenez comment fonctionne le portefeuille Bitcoin avec
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,9 @@
+question: Qual é o comando que exporta um contrato do esconderijo para um ficheiro externo?
+answer: rgb export '<ContractId>' myContractPBN.rgb
+wrong_answers:
+  - rgb descarregar '<ContractId>' myContractPBN.rgb
+  - rgb dump '<ContractId>' myContractPBN.rgb
+  - rgb issue '<ContractId>' myContractPBN.rgb
+explanation: |
+  O comando "rgb export" é utilizado para extrair um contrato do banco de dados e guardá-lo como um ficheiro para facilitar a partilha.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Které tvrzení nejlépe vystihuje roli bitcoinu jako sítě a aktiva pro podniky?
+answer: V globálním decentralizovaném systému může sloužit jako uchovatel hodnoty i jako prostředek směny.
+wrong_answers:
+  - Může fungovat pouze jako místní systém dárkových karet.
+  - Je to pouze spekulativní obchodní nástroj bez skutečného užitku.
+  - Aby mohla fungovat, musí být vázána na měnovou politiku jedné země.
+explanation: |
+  Bitcoin je globální, internetový systém, který mu umožňuje sloužit nejen jako úložiště hodnoty, ale také jako prostředek směny, který podnikům poskytuje rychlé, bezúplatné a konečné vypořádání transakcí po celém světě.
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: PHOENIX
+
+---
+Un software di portafoglio mobile auto-custode progettato per semplificare e rendere più accessibili le transazioni sul protocollo Lightning. Consente agli utenti di gestire i propri fondi direttamente dai loro dispositivi mobili senza la necessità di collegarsi a un nodo Lightning separato. Phoenix opera in realtà come un vero e proprio nodo Lightning autonomo sul telefono (implementazione Lightning). Supporta le transazioni Bitcoin e Lightning e offre funzioni per facilitare la gestione del nodo, come la gestione automatica dei canali con il nodo Acinq. A differenza di altre applicazioni di portafogli Lightning, che sono per lo più di tipo custodiale, Phoenix offre un interessante compromesso, combinando l'uso di un nodo Lightning con la comodità di un'applicazione per smartphone. È una delle migliori soluzioni semplici per i principianti che desiderano utilizzare Lightning mantenendo la piena proprietà dei propri bitcoin (autodeposito). Phoenix è un progetto sviluppato e mantenuto dalla società francese Acinq.

@@ -1,0 +1,11 @@
+---
+term: SELBSTMINIERUNG
+
+---
+Strategie (oder Angriff) beim Mining, bei der ein Miner oder eine Gruppe von Minern absichtlich Blöcke mit einem gültigen Arbeitsnachweis aufbewahrt, ohne sie sofort an das Netzwerk weiterzugeben. Ziel ist es, einen Vorsprung vor anderen Minern in Bezug auf den Arbeitsnachweis aufrechtzuerhalten, was es ihnen möglicherweise ermöglicht, mehrere Blöcke hintereinander zu schürfen und sie alle auf einmal zu veröffentlichen und so ihre Gewinne zu maximieren.
+
+Mit anderen Worten: Die angreifende Gruppe von Schürfern schürft nicht auf dem letzten vom gesamten Netzwerk validierten Block, sondern auf einem von ihnen selbst erstellten Block, der sich von dem vom Netzwerk validierten unterscheidet. Dieser Prozess erzeugt eine Art geheimen Fork der Blockchain, der dem gesamten Netzwerk unbekannt bleibt, bis diese alternative Kette möglicherweise die ehrliche Blockchain übertrifft. Sobald die geheime Kette der angreifenden Schürfer länger ist (d. h. sie enthält mehr angesammelte Arbeit) als die ehrliche und öffentliche Kette, wird sie an das gesamte Netzwerk übertragen. Zu diesem Zeitpunkt werden die Netzwerkknoten, die der längsten Kette (mit der meisten angesammelten Arbeit) folgen, mit dieser neuen Kette synchronisiert. Dies führt zu einer Umstrukturierung.
+
+Egoistisches Mining ist problematisch, weil es die Sicherheit des Systems verringert, indem es einen Teil der Rechenleistung des Netzwerks verschwendet. Wenn es erfolgreich ist, führt es außerdem zu einer Umstrukturierung der Blockchain und beeinträchtigt damit die Zuverlässigkeit der Transaktionsbestätigungen für die Nutzer. Diese Praxis ist für die angreifende Gruppe von Minern nach wie vor riskant, da es oft profitabler ist, den letzten öffentlich bekannten Block normal zu schürfen, als Rechenleistung für eine geheime Abspaltung zu verwenden, die wahrscheinlich nie die ehrliche Blockchain übertreffen wird. Je größer die Anzahl der Blöcke in der Umstrukturierung ist, desto geringer ist die Wahrscheinlichkeit, dass der Angriff erfolgreich ist.
+
+> ► *Die englische Übersetzung von "minage égoïste" lautet "egoistisches Mining". Beachten Sie, dass ein egoistischer Mining-Angriff nicht mit einem "Block Withholding"-Angriff verwechselt werden sollte.*

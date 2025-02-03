@@ -1,0 +1,9 @@
+question: Warum ist es empfehlenswert, einen CSV-Export aller Bitcoin-Transaktionen zu haben?
+answer: Es bietet eine klare, strukturierte Aufzeichnung jeder Transaktion, die es den Buchhaltern erleichtert, diese in Finanzberichte und Steuererklärungen zu integrieren.
+wrong_answers:
+  - Denn Papierbelege sind die einzigen rechtlich zulässigen Buchhaltungsunterlagen.
+  - Denn durch den Export von Daten wird Ihre Steuererklärung automatisch und ohne Überprüfung vervollständigt.
+  - Denn mit CSV-Dateien entfällt die Notwendigkeit, die Kostenbasis zu verfolgen.
+explanation: |
+  Eine digitale Aufzeichnung in einem einheitlichen Format ermöglicht eine nahtlose Integration in Buchhaltungssysteme, hilft bei der Aufrechterhaltung von Prüfpfaden und unterstützt eine genaue Steuer- und Compliance-Berichterstattung.
+reviewed: false

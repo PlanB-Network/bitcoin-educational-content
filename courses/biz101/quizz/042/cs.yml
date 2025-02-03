@@ -1,0 +1,9 @@
+question: Co ve většině jurisdikcí způsobuje zdanitelné plnění při obchodování s bitcoiny?
+answer: Prodej, obchodování nebo použití bitcoinu jako platby často vyvolává zdanitelné plnění.
+wrong_answers:
+  - Jednoduše držet Bitcoin po neomezenou dobu bez jakýchkoli transakcí.
+  - Zálohování peněženky nebo klíčů Bitcoin.
+  - Zobrazení ceny bitcoinu online.
+explanation: |
+  Ke zdanitelnému plnění obvykle dochází, když podnik nakládá s bitcoiny nebo je používá, nikoli pouze tím, že je drží. Každý prodej nebo výměna bitcoinu za zboží, služby nebo fiat měnu může generovat zdanitelné zisky nebo ztráty.
+reviewed: false

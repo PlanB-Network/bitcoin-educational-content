@@ -1,0 +1,15 @@
+title: "Manuel d'exploitation minière de Bitcoin"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  Le premier livre de la série, le Bitcoin Mining Handbook (Manuel d'exploitation minière du bitcoin), commence par les bases
+  de l'exploitation minière, en expliquant les incitations de la preuve de travail, en donnant quelques conseils pratiques pour l'exploitation minière
+  minière, et de dissiper un malentendu courant en expliquant que
+  les mineurs ne résolvent PAS de problèmes mathématiques complexes. Puis il s'enfonce un peu plus dans le vif du sujet,
+  l'émergence de microprogrammes personnalisés pour les mineurs, l'importance de la
+  La mise à jour du protocole Stratum V2 et l'aspect commercial de l'industrie minière.
+  Enfin, le livre se termine par une sélection des meilleurs mèmes miniers du début de l'année
+  2022.
+contributors:
+  - another-satoshi

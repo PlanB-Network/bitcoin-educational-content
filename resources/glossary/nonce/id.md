@@ -1,0 +1,10 @@
+---
+term: SEKALI
+
+---
+Dalam konteks komputasi, istilah "nonce" mengacu pada angka yang hanya digunakan sekali dan kemudian diganti. Biasanya bersifat acak atau acak semu. Nonce digunakan dalam berbagai protokol kriptografi untuk memastikan keamanan proses. Sebagai contoh, tanda tangan ECDSA yang digunakan dalam protokol Bitcoin menggunakan nonce. Ini berarti bahwa nomor ini harus baru untuk setiap tanda tangan. Jika tidak demikian, maka akan memungkinkan untuk menghitung private key yang digunakan dengan membandingkan dua tanda tangan yang menggunakan nonce yang sama.
+
+Nonces juga digunakan dalam proses penambangan Bitcoin. Para penambang menambah nilai yang dapat dimodifikasi ini di dalam blok kandidat mereka. Mereka memodifikasi nilai nonce untuk menemukan hash kriptografi yang lebih rendah atau sama dengan target kesulitan. Proses ini membutuhkan daya komputasi yang signifikan, karena melibatkan pencarian yang mendalam di antara sejumlah besar kemungkinan nonce. Ketika seorang penambang menemukan sebuah nonce yang ketika dimasukkan ke dalam blok mereka, menghasilkan sebuah digest yang memenuhi kriteria tingkat kesulitan, maka blok tersebut akan disiarkan ke jaringan, dan penambang tersebut akan mendapatkan reward.
+
+> pada tahun 2010, para peneliti menemukan bahwa Sony PlayStation 3 menggunakan nonce yang sama ketika menandatangani paket kode yang berbeda. Penggunaan kembali nonce ini memungkinkan penyerang untuk menghitung kunci privat yang digunakan untuk menandatangani perangkat lunak. Dengan kunci pribadi di tangan, penyerang dapat membuat tanda tangan yang valid untuk kode apa pun, memungkinkan mereka menjalankan perangkat lunak yang tidak sah, termasuk game bajakan atau sistem operasi khusus, langsung di PS3.*
+> ► * Terdapat kesalahpahaman yang umum mengenai asal-usul istilah "nonce." Sebagian orang berpendapat bahwa istilah ini merupakan singkatan dari "angka yang hanya digunakan sekali." Pada kenyataannya, asal usul kata ini berasal dari abad ke-18 dan berasal dari evolusi semantik ungkapan bahasa Inggris Kuno "then anes," yang berarti "untuk acara ini. "*

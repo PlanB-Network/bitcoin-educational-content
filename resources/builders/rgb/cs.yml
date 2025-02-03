@@ -1,9 +1,0 @@
-description: |
-  RGB je protokol pro vytváření smluv pro vydávání aktiv nebo obecnějších práv na platformě Bitcoin. Smlouva definuje práva, která jsou vydávána, a pravidla pro jejich převod budoucím vlastníkům.
-  
-  Protokol využívá model ověřování na straně klienta, který spočívá v tom, že veškerá data specifická pro transakci zůstávají mimo blockchain, jsou vyměňována pouze mezi odesílatelem a příjemcem transakce a blockchain Bitcoinu slouží pouze jako závazek. Tímto způsobem se oproti alternativním protokolům, které uchovávají veškerou logiku na blockchainu, dosahuje lepší škálovatelnosti, soukromí a rozšiřitelnosti.
-  
-  Nejbezprostřednější případ použití protokolu RGB jsou vydávání zaměnitelných a sběratelských aktiv, ale protokol je dostatečně zobecněn, aby podporoval i další případy použití, jako jsou decentralizované identity, decentralizované DNS a důkaz o publikaci.
-  
-contributors:
-  - rabbit-hole

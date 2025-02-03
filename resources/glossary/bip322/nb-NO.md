@@ -1,0 +1,5 @@
+---
+term: BIP322
+
+---
+Foreslår en ny standard for å erstatte BIP137 for signering av meldinger med Bitcoin-privatnøkler og tilhørende adresser, for å bevise eierskap av en adresse. Disse signaturene er nyttige for ulike bruksområder, for eksempel bevis på midler, revisjon og andre bruksområder som krever autentisering av en adresse via dens private nøkkel. Sammenlignet med BIP137 utvider BIP322 meldingssigneringsstandarden til å omfatte mer enn tradisjonelle adresser, ved hjelp av en tilnærming basert på skript. Det gjør det mulig for lommebokprogramvare å signere en melding for et hvilket som helst skript som de kan låse opp for å bruke bitcoins. Metoden går ut på å signere en tekst ved å produsere en signatur for en virtuell Bitcoin-transaksjon. For tradisjonelle P2PKH-adresser forblir BIP322 kompatibel med det tradisjonelle signaturformatet.

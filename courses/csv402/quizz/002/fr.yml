@@ -1,0 +1,9 @@
+question: Dans le trilemme CAP, quel compromis fait la validation côté client par rapport à la disponibilité ?
+answer: Chaque participant doit conserver localement les données pertinentes
+wrong_answers:
+  - Les données sont publiques et automatiquement répliquées globalement
+  - La cohérence est sacrifiée au profit de la disponibilité
+  - Les transitions d'état sont toujours publiées sur Lightning
+explanation: |
+  En validation côté client, la disponibilité globale n'est pas garantie, car les participants doivent gérer leurs propres données.
+reviewed: false

@@ -160,7 +160,9 @@ Kromě podvodů s kryptoměnami a finančních podvodů je hlavním důvodem ztr
 - Udržujte svůj počítač aktuální a bez malware,
 - Oceňujte své soukromí používáním speciálních nástrojů (Signal, Tor, ProtonMail).
 
-Pokud je pro vás toto téma zcela neznámé, školení SECU 101 může být zajímavé pro podrobné prozkoumání.
+Pokud je pro vás toto téma zcela neznámé, školení SCU 101 může být zajímavé pro podrobné prozkoumání.
+
+https://planb.network/courses/scu101
 
 Je zásadní udržovat váš počítač ve vynikajícím pracovním stavu, ať už vás Bitcoin zajímá, nebo ne. Aktualizace není jen pro přidání nových funkcí: také opravuje chyby a zlepšuje bezpečnost vašeho softwaru. Takže se ujistěte, že:
 
@@ -797,10 +799,6 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 V myšlení paranoidního jedince jsou opatrnost, bezpečnost a anonymita na prvním místě. Tyto priority dikutují promyšlený a dobře zvážený přístup k používání Bitcoinu, podporují soběstačnost a opatrnost. Paranoidní jedinec je ochoten investovat čas a úsilí, aby zajistil bezpečnost a soukromí svých bitcoinů, zatímco zručně naviguje ekosystémem, aby se vyhnul zbytečnému vystavení. I když se to některým může zdát přehnaně opatrné, paranoidní jedinec považuje svou pečlivost a pozornost k detailům za nezbytné pro úspěšnou a bezpečnou účast ve světě Bitcoinu.
 
-# Budoucnost s Bitcoinem
-
-<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
-
 ## Vytvoření plánu dědictví
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
@@ -977,10 +975,6 @@ Gratulujeme! Máte první verzi vašeho plánu dědictví a je to skvělý zač�
 _Plánování dědictví kryptoaktiv, Jednoduchý průvodce pro majitele, Pamela Morgan, ESQ. Copyright 2018 Merkle Bloom LLC, Všechna práva vyhrazena. CC-BY_ Velké díky Pamely Morgan za její cennou práci a za to, že mi umožnila ji sdílet. Díky také všem, kdo přispěli k jejímu napsání.
 Jste nejlepší :D Můj tým a moji studenti vám také děkují!
 
-# Poděkování a pokračujte ve sledování zajíce do díry
-
-<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
-
 ## Gratulujeme! JSTE V TOP 0,1%
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
@@ -1005,7 +999,7 @@ V každém případě jsou všechny naše kurzy zdarma a na naší platformě je
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Vyhodnoťte kurz
+## Recenze & Hodnocení
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1018,33 +1012,4 @@ V každém případě jsou všechny naše kurzy zdarma a na naší platformě je
 ## Závěr
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-Gratulujeme k dokončení tohoto kurzu!
-
-Jsme nadšeni, že jste úspěšně dosáhli tohoto milníku ve své vzdělávací cestě. Díky vaší oddanosti a zapojení jste získali cenné znalosti a dovednosti, které vám dobře poslouží ve vašem profesním rozvoji.
-
-Pro další prohlubování znalostí o Bitcoinu vás zveme k prozkoumání všech ostatních kurzů dostupných na Plan ₿ Network:
-
-#### Objevte Bitcoin a jeho základy na
-
-https://planb.network/courses/btc101
-
-#### Aktualizujte svou online bezpečnost na
-
-https://planb.network/courses/scu101
-
-#### Objevte Lightning Network na
-
-https://planb.network/courses/lnp201
-
-#### Seznamte se s rakouskou školou ekonomického myšlení na
-
-https://planb.network/courses/eco201
-
-#### Pochopte základy Bitcoinu a postavte si domácí vytápění na
-
-https://planb.network/courses/min201
-
-#### Pochopte, jak funguje Bitcoin peněženka na
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

@@ -1027,7 +1027,7 @@ Ve své podstatě Reagan převzal od Bastiata několik klíčových prvků liber
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-## Ohodnoťte tento kurz
+## Recenze & Hodnocení
 
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1040,35 +1040,4 @@ Ve své podstatě Reagan převzal od Bastiata několik klíčových prvků liber
 ## Závěr
 
 <chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
-
-Gratulujeme k dokončení tohoto kurzu!
-
-Jsme rádi, že jste dosáhli tohoto důležitého milníku ve vaší vzdělávací cestě.
-
-Díky vaší oddanosti a nasazení jste získali cenné znalosti a dovednosti, které vám budou sloužit ve vašem profesním rozvoji.
-
-Pro další hlubší zkoumání světa Bitcoinu vás zveme k objevování všech dalších kurzů dostupných na Plan ₿ Network:
-
-#### Objevte Bitcoin a jeho základy s
-
-https://planb.network/courses/btc101
-
-#### Získejte a zabezpečte své první bitcoiny s
-
-https://planb.network/courses/btc102
-
-#### Aktualizujte svou online bezpečnost s
-
-https://planb.network/courses/scu101
-
-#### Objevte Lightning Network s
-
-https://planb.network/courses/lnp201
-
-#### Naučte se ekonomické myšlení Rakouské školy s
-
-https://planb.network/courses/eco201
-
-#### Pochopte základy Bitcoinu a postavte si domácí vytápění s
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

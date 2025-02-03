@@ -5,8 +5,9 @@ wrong_answers:
   - Value is an objective and measurable phenomenon.
   - Value is determined by the amount of labor used in production.
 explanation: |
-  According to Menger, value is a subjective psychological phenomenon within
-  the individual. This means that value is not an inherent property of goods, but
-  rather stems from the individual's opinion about the utility they can derive from
-  those goods.
-reviewed: false
+  According to Menger, value is a subjective psychological
+  phenomenon within the individual. This means that value is
+  not an inherent property of goods, but rather stems from
+  the individual's opinion about the utility they can derive
+  from those goods.
+reviewed: true

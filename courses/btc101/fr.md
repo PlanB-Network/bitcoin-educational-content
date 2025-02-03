@@ -678,7 +678,7 @@ Dans la même logique, évitez de dévoiler haut et fort votre système de sécu
 
 ![Conclusion chapitre 2](https://youtu.be/U28-oh950Dw)
 
-Les portefeuilles Bitcoin sont des logiciels permettant de stocker et transacter des nitcoins. Il en existe plusieurs types : portefeuilles sur mobile ou pc, pratique pour des petits montants et/ou des dépenses régulières ; les portefeuilles physiques, plutôt adapté à de la conservation de bitcoin sur le moyen et le long terme ; les portefeuilles multisig qui sont plus complexes à gérer et qui nécessitent plusieurs signatures pour effectuer des transactions.
+Les portefeuilles Bitcoin sont des logiciels permettant de stocker et transacter des bitcoins. Il en existe plusieurs types : portefeuilles sur mobile ou pc, pratique pour des petits montants et/ou des dépenses régulières ; les portefeuilles physiques, plutôt adapté à de la conservation de bitcoin sur le moyen et le long terme ; les portefeuilles multisig qui sont plus complexes à gérer et qui nécessitent plusieurs signatures pour effectuer des transactions.
 
 Lors de la création d'un portefeuille, vous devez en premier lieu faire une sauvegarde de votre clé privée. Cette sauvegarde prend la forme d'une liste de 12 ou 24 mots ou 12 mots que vous pouvez inscrire sur une feuille de papier ou une plaque de métal. Cette phrase mnémonique permet de restaurer votre portefeuille sur toute application de portefeuille Bitcoin. Toute personne ayant accès à cette liste possède également l'accès à vos bitcoins. Dans Bitcoin la souveraineté financière va de pair avec la responsabilité individuelle, il est donc crucial que vous sécuriser l'accès à votre portefeuilles et vos sauvegardes. Pour cela, il est important de suivre certaines règles:
 
@@ -1410,7 +1410,7 @@ Changer le système financier nécessite de changer la monnaie. Satoshi a créé
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-## Évaluez ce cours
+## Avis & Notes
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1423,25 +1423,4 @@ Changer le système financier nécessite de changer la monnaie. Satoshi a créé
 ## Conclusion
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
-Félicitations pour avoir terminé cette formation BTC 101 ! J'espère de tout cœur qu'elle vous a plu et ouvert des portes. Votre découverte du bitcoin n'en est qu'à ses débuts et je vous invite à découvrir toutes les autres formations disponibles sur Plan ₿ Network :
-
-#### Obtenez et sécurisez vos premiers bitcoins avec
-
-https://planb.network/courses/btc102
-
-#### Découvrez le réseau Lightning avec
-
-https://planb.network/courses/lnp201
-
-#### Apprenez la pensée économique de l'École Autrichienne avec
-
-https://planb.network/courses/eco201
-
-#### Mettez à jour votre sécurité en ligne avec
-
-https://planb.network/courses/scu101
-
-#### Comprenez les bases de Bitcoin et construisez votre chauffage domestique avec
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,9 @@
+question: Mis on Bitcoini peale ehitatud Lightning Networki peamine eesmärk?
+answer: Võimaldada kiiremaid, peaaegu koheseid makseid minimaalse suhtlemisega ahelas.
+wrong_answers:
+  - Bitcoini plokiahela täielik asendamine ja kõigi tehingute salvestamine kohapeal.
+  - Et pakkuda ühe üksuse poolt kontrollitavat lubadega võrku.
+  - Tehingute aeglustamine, et tagada nende täielik jälgitavus valitsuste poolt.
+explanation: |
+  Lightning Network on "teise kihi" protokoll, mis võimaldab osalejatel luua maksekanaleid, teha tehinguid väljaspool ahelat ja arveldada lõplik netosaldo ainult Bitcoini plokiahelas. Selline ülesehitus tagab kiirema kiiruse ja väiksemad kulud.
+reviewed: false

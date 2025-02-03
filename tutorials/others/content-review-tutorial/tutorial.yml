@@ -1,5 +1,5 @@
 id: 1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
-builder: PlanB Network
+builder: Plan ₿ Network
 
 tags:
   - PlanB Network
@@ -86,3 +86,5 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 5197
+
+projectId: cd62a137-baad-4133-b90d-711963e510c7

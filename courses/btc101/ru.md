@@ -1311,7 +1311,7 @@ https://planb.network/courses/lnp201
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-## Оценка курса
+## Отзывы & Оценки
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1324,25 +1324,4 @@ https://planb.network/courses/lnp201
 ## Заключение
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
-Поздравляем с завершением обучения BTC 101! Искренне надеюсь, что вам понравилось и это открыло для вас новые двери. Ваше знакомство с биткоином только начинается, и я приглашаю вас изучить все остальные курсы, доступные на Plan ₿ Network:
-
-#### Получите и защитите свои первые биткоины с помощью
-
-https://planb.network/courses/btc102
-
-#### Откройте для себя Lightning Network с помощью
-
-https://planb.network/courses/lnp201
-
-#### Познакомьтесь с австрийской школой экономической мысли с помощью
-
-https://planb.network/courses/eco201
-
-#### Обновите свою онлайн-безопасность с помощью
-
-https://planb.network/courses/scu101
-
-#### Поймите основы Биткоина и постройте свое домашнее отопление с помощью
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

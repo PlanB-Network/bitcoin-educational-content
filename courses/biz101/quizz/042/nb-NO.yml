@@ -1,0 +1,9 @@
+question: Hva utløser en skattepliktig hendelse i de fleste jurisdiksjoner når man handler med Bitcoin?
+answer: Salg, handel eller bruk av bitcoin som betaling utløser ofte en skattepliktig hendelse.
+wrong_answers:
+  - Bare å holde Bitcoin på ubestemt tid uten noen transaksjoner.
+  - Sikkerhetskopiere Bitcoin-lommeboken eller -nøklene dine.
+  - Se Bitcoin-prisen på nettet.
+explanation: |
+  En skattepliktig hendelse oppstår vanligvis når en virksomhet avhender eller bruker Bitcoin, ikke bare ved å eie dem. Hvert salg eller bytte av bitcoin mot varer, tjenester eller fiat-valuta kan generere skattepliktige gevinster eller tap.
+reviewed: false

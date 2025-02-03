@@ -1,0 +1,9 @@
+question: Hvilken mekanisme i RGB gjør det mulig å gruppere flere overganger sammen i én enkelt Bitcoin-transaksjon?
+answer: Overgangspakke
+wrong_answers:
+  - Aggregering av tetninger
+  - Tre med flere forpliktelser
+  - Statlig konsolidering
+explanation: |
+  En Transition Bundle er et sett med RGB State Transitions (som tilhører samme kontrakt) som alle er involvert i den samme Bitcoin-vitnetransaksjonen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on yksi tärkeimmistä seikoista, kun valitset alustan tai välittäjän ostaaksesi Bitcoinia yritykselle?
+answer: Palveluntarjoajan maine, turvatoimet ja kyky viedä tapahtumahistoriaa kirjanpitoa varten.
+wrong_answers:
+  - Varmistetaan, että alusta tukee vain epämääräisiä kryptovaluuttoja.
+  - Löydät palveluntarjoajan, joka kieltäytyy tarjoamasta minkäänlaista asiakastukea.
+  - Käyttämällä palvelua, joka kieltää Bitcoinin nostamisen itse säilytettävään lompakkoon.
+explanation: |
+  Luotettavalla alustalla on oltava hyvä maine, hyvä tietoturva ja työkalut kirjanpitoa varten. Kyky nostaa Bitcoinia ja integroida se kirjanpito-ohjelmistoon on myös ratkaisevan tärkeää liiketoiminnan kannalta.
+reviewed: false

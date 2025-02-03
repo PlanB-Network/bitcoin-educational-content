@@ -1,3 +1,4 @@
+id: 6ca330b1-d19c-470e-93a7-98bce38ff0f5
 name: Wallet of Satoshi
 
 links:
@@ -8,7 +9,7 @@ tags:
   - bitcoin-only
   - LN wallet
 
-category: Wallet
+category: wallet
 
 # Proofreading metadata
 original_language: en

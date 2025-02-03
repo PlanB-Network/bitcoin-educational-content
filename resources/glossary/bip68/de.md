@@ -1,0 +1,5 @@
+---
+term: BIP68
+
+---
+Es wurde die Möglichkeit eingeführt, relative Sperrzeiten über das Feld "nSequence" zu verwenden. Dies ermöglicht es einer Transaktion, eine relative Verzögerung anzugeben, bevor sie in einen Block aufgenommen werden kann. Diese Verzögerung kann in Form der Anzahl von Blöcken oder als Vielfaches von 512 Sekunden (d.h. Echtzeit) definiert werden. Es ist zu beachten, dass diese neue Interpretation des Feldes "nSequence" nur gültig ist, wenn das Feld "nVersion" größer oder gleich "2" ist. Diese Interpretation des Feldes "nSequence" findet auf der Ebene der Bitcoin-Konsensregeln statt. Die relative Zeitsperre legt eine Verzögerung fest, die mit der Annahme einer früheren Transaktion beginnt, während die absolute Zeitsperre einen genauen Zeitpunkt angibt, vor dem die Transaktion nicht in einen Block aufgenommen werden kann. BIP68 wurde durch einen Soft Fork am 4. Juli 2016 eingeführt, zusammen mit BIP112 und BIP113, die zum ersten Mal mit der BIP9-Methode aktiviert wurden.

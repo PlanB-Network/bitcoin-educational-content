@@ -1,6 +1,6 @@
 id: e6bcb210-610b-487d-970c-7cce85273e3c
 
-builder: lnp2pbot
+builder: Lnp2pBot
 
 tags:
   - privacy
@@ -24,3 +24,5 @@ proofreading:
     contributors_id:
       - Pivii
     reward:
+
+projectId: 937f27f8-6ea6-497e-a7e4-9dd97852d050

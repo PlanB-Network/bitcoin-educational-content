@@ -1,6 +1,6 @@
 year: 2024-05
 name: Bitblockboom 2024
-builder: Bitblockboom
+builder: BitBlockBoom
 location: Dallas, USA
 language:
   - en
@@ -20,3 +20,5 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 1250
+
+projectId: bd452d8f-436f-4a0f-9243-4fc23a2f142f

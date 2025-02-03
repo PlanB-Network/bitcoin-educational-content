@@ -1,0 +1,9 @@
+question: ¿Cuáles son los principales componentes necesarios para hacer funcionar un nodo Lightning compatible con RGB?
+answer: Un bitcoind, un indexador y un servidor proxy RGB
+wrong_answers:
+  - Un nodo Lightning, un indexador y un servidor IPFS
+  - Un monedero móvil RGB, un servidor proxy RGB y un bitcoind
+  - Cliente web, indexador y servidor proxy RGB
+explanation: |
+  Para ejecutar un nodo Lightning habilitado para RGB, se necesita un nodo bitcoind para interactuar con la blockchain de Bitcoin, un indexador para minar transacciones en la cadena y un servidor proxy RGB para facilitar el intercambio de envíos entre pares.
+reviewed: false

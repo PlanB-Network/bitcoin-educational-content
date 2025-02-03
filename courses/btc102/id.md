@@ -159,7 +159,9 @@ Selain penipuan kriptokurensi dan penipuan finansial, alasan utama kehilangan bi
 - Jaga komputer Anda tetap terbaru dan bebas dari malware,
 - Hargai privasi Anda dengan menggunakan alat khusus (Signal, Tor, ProtonMail).
 
-Jika topik ini sepenuhnya baru bagi Anda, pelatihan SECU 101 bisa menjadi menarik untuk mendalami secara detail.
+Jika topik ini sepenuhnya baru bagi Anda, pelatihan SCU 101 bisa menjadi menarik untuk mendalami secara detail.
+
+https://planb.network/courses/scu101
 
 Sangat penting untuk menjaga komputer Anda dalam kondisi kerja optimal, apakah Anda tertarik dengan Bitcoin atau tidak. Pembaruan tidak hanya ada untuk menambahkan fitur baru: itu juga memperbaiki bug dan meningkatkan keamanan perangkat lunak Anda. Jadi, pastikan untuk:
 
@@ -797,9 +799,6 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 Dalam pola pikir individu Paranoid, kehati-hatian, keamanan, dan anonimitas adalah yang utama. Prioritas ini menentukan pendekatan yang disengaja dan dipikirkan dengan baik dalam menggunakan Bitcoin, mempromosikan kemandirian dan kehati-hatian. Individu Paranoid bersedia menginvestasikan waktu dan usaha untuk memastikan keamanan dan privasi bitcoin mereka sambil dengan terampil menavigasi ekosistem untuk menghindari paparan yang tidak perlu. Meskipun mungkin tampak terlalu hati-hati bagi sebagian orang, individu Paranoid menganggap kecermatan dan perhatian terhadap detail mereka penting untuk partisipasi yang sukses dan aman dalam dunia Bitcoin.
 
-# Masa Depan dengan Bitcoin
-
-<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Membuat rencana warisan
 
@@ -974,9 +973,6 @@ Selamat! Anda memiliki versi pertama dari rencana warisan Anda, dan itu adalah a
 _Cryptoasset Inheritance Planning, Panduan sederhana untuk pemilik, Pamela Morgan, ESQ. Hak cipta 2018 oleh Merkle Bloom LLC, Semua hak dilindungi. CC-BY_ Terima kasih besar kepada Pamela Morgan atas karya berharganya dan karena telah mengizinkan saya untuk membagikannya. Terima kasih juga kepada semua orang yang berkontribusi dalam penulisannya.
 Kalian adalah yang terbaik :D Tim saya dan murid-murid saya juga berterima kasih!
 
-# Pengakuan dan terus menggali lubang kelinci
-
-<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Selamat! ANDA BERADA DI TOP 0.1%
 
@@ -1002,7 +998,7 @@ Dalam hal apapun, semua kursus kami gratis, dan banyak sumber daya atau tutorial
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Evaluasi Kursus
+## Ulasan & Penilaian
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1015,34 +1011,4 @@ Dalam hal apapun, semua kursus kami gratis, dan banyak sumber daya atau tutorial
 ## Kesimpulan
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
-Selamat atas keberhasilan Anda menyelesaikan kursus ini!
-
-Kami sangat senang Anda telah berhasil mencapai tonggak penting ini dalam perjalanan pembelajaran Anda. Melalui dedikasi dan keterlibatan Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan bermanfaat dalam pengembangan profesional Anda.
-
-Untuk terus mendalami dunia Bitcoin, kami mengundang Anda untuk menjelajahi semua kursus lain yang tersedia di Plan ₿ Network:
-
-#### Pelajari Bitcoin dan dasarnya di
-
-https://planb.network/courses/btc101
-
-#### Perbarui keamanan online Anda di
-
-https://planb.network/courses/scu101
-
-#### Pelajari Lightning Network di
-
-https://planb.network/courses/lnp201
-
-#### Pelajari tentang Mazhab Ekonomi Austria di
-
-https://planb.network/courses/eco201
-
-#### Pahami dasar-dasar Bitcoin dan bangun pemanas rumah Anda di
-
-https://planb.network/courses/min201
-
-#### Pahami cara kerja dompet Bitcoin di
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

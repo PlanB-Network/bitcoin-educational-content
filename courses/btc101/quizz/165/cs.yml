@@ -1,5 +1,4 @@
 question: Jak protokol Bitcoinu udržuje konstantní průměrný čas mezi vytvořením dvou bloků?
-  zůstává konstantní?
 answer: Obtížnost nalezení platného hash se upravuje každých 2016 bloků.
 wrong_answers:
   - Počet těžařů je regulován na pevný počet.

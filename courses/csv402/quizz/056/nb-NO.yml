@@ -1,0 +1,9 @@
+question: Hvilke hovedkomponenter kreves for å kjøre en RGB-kompatibel Lightning-node?
+answer: En bitcoind, en indekserer og en RGB-proxyserver
+wrong_answers:
+  - En Lightning-node, en indekseringsenhet og en IPFS-server
+  - En RGB-mobillommebok, en RGB-proxyserver og en bitcoind
+  - Nettklient, indekserer og RGB-proxy-server
+explanation: |
+  For å kjøre en RGB-aktivert Lightning-node trenger du en bitcoind-node for å samhandle med Bitcoin-blokkjeden, en indexer for å utvinne transaksjoner i kjeden og en RGB-proxyserver for å legge til rette for utveksling av forsendelser mellom jevnaldrende.
+reviewed: false

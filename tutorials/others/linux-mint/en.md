@@ -165,6 +165,6 @@ Next, I like to install Tor (case sensitive):
 sudo apt-get install tor
 ```
 
-> _ADDITION: You can also run the Linux Mint boot from “OEM install” (Make sure you are connected to the internet, otherwise you could get errors). If you do this, you later need to click the “ship to end user” icon which should be on the desktop. You then reboot and start the operating system as though you are opening the computer for the first time._
+**Pro Tip:** You can also run the Linux Mint boot from “OEM install” (Make sure you are connected to the internet, otherwise you could get errors). If you do this, you later need to click the “ship to end user” icon which should be on the desktop. You then reboot and start the operating system as though you are opening the computer for the first time.
 
 This guide explained why you may need a dedicated computer for Bitcoin transactions, and how to install a fresh Linux Mint operating system on it.

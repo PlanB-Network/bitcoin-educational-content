@@ -1,0 +1,15 @@
+title: "Manuale per l'estrazione di Bitcoin"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  Il primo libro della serie, il Bitcoin Mining Handbook, inizia con le nozioni di base
+  di mining, spiegando gli incentivi della prova di lavoro, alcuni suggerimenti pratici per
+  e di chiarire un concetto comunemente errato spiegando che
+  i minatori NON risolvono problemi matematici complessi. Poi si approfondisce un po' di più,
+  sull'emergere di un firmware personalizzato per i minatori, sull'importanza della
+  L'aggiornamento del protocollo Stratum V2 e il lato commerciale dell'industria mineraria.
+  Infine, il libro si conclude con una selezione dei migliori meme minerari dei primi anni di vita
+  2022.
+contributors:
+  - another-satoshi

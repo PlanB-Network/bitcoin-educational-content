@@ -1,6 +1,6 @@
 id: a26a0220-806c-44b4-af14-bafdeb1adce7
 
-builder: PlanB Network
+builder: Plan ₿ Network
 
 tags:
   - good-practice
@@ -89,3 +89,5 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 6782
+
+projectId: cd62a137-baad-4133-b90d-711963e510c7

@@ -1,0 +1,9 @@
+question: Welche Komponenten enthält eine RGB-Sendung, die Bob (Empfänger) für einen Auftrag erhält?
+answer: Genese, Schema, Schnittstelle und Schnittstellenimplementierung
+wrong_answers:
+  - Entstehung, Schema, Übergang und Erweiterung
+  - Schema, Schnittstelle, Signatur und PSBT
+  - Genesis, Schnittstelle, PSBT und Geschichte
+explanation: |
+  Die Lieferung eines RGB-Vertrags umfasst die Genesis, das Schema, die Schnittstelle und die Schnittstellenimplementierung, die alle für die Validierung des Vertrags erforderlichen Daten enthalten.
+reviewed: false

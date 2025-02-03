@@ -5,8 +5,10 @@ wrong_answers:
   - The central bank lends funds to distressed banks during crises to take over their operations.
   - The central bank lends funds to distressed banks during crises to increase the national debt.
 explanation: |
-  The concept of a central bank as a lender of last resort emerged in
-  the 19th century in England in response to repeated bank runs that threatened financial
-  stability. By lending to banks in distress, the central bank can prevent a domino
-  effect of bank failures that could lead to a recession or depression.
-reviewed: false
+  The concept of a central bank as a lender of last resort
+  emerged in the 19th century in England in response to
+  repeated bank runs that threatened financial stability. By
+  lending to banks in distress, the central bank can prevent
+  a domino effect of bank failures that could lead to a
+  recession or depression.
+reviewed: true

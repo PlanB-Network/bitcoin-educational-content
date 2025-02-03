@@ -1,3 +1,4 @@
+id: deee5178-a3e8-4697-b72e-2e7e36906a9c
 name: LNVPN
 links:
   website: https://lnvpn.net/
@@ -7,7 +8,7 @@ tags:
   - vpn
   - lightning network
 
-category: Privacy
+category: privacy
 
 # Proofreading metadata
 original_language: en

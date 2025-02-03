@@ -1,0 +1,9 @@
+question: ¿Qué puedo hacer con una factura en una transferencia RGB?
+answer: Indique el tipo de transacción, la cantidad de activos necesarios y la definición del sello del destinatario
+wrong_answers:
+  - Crear un nuevo Génesis para el activo
+  - Generar un nuevo esquema para modificar la lógica empresarial del activo
+  - Construir un PSBT para sustituir la transacción Bitcoin
+explanation: |
+  La factura sirve para informar al emisor de la transacción del tipo de operación, la cantidad de bienes que se van a transferir y el destino (definición del sello).
+reviewed: false

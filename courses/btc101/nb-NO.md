@@ -1277,7 +1277,7 @@ Bitcoin kan ikke lenger stoppes og kan ikke lenger sensureres. Det er en fredeli
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-## Kursevaluering
+## Vurderinger & Karakterer
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1290,25 +1290,4 @@ Bitcoin kan ikke lenger stoppes og kan ikke lenger sensureres. Det er en fredeli
 ## Konklusjon
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
-Gratulerer med fullført BTC 101-kurs! Jeg håper inderlig at du likte det og at det åpnet nye dører for deg. Din oppdagelsesreise med Bitcoin har bare begynt, og jeg inviterer deg til å utforske alle de andre kursene som er tilgjengelige på Plan ₿ Network:
-
-#### Få og sikre dine første bitcoins med
-
-https://planb.network/courses/btc102
-
-#### Oppdag Lightning Network med
-
-https://planb.network/courses/lnp201
-
-#### Lær om den østerrikske økonomiske tankegangen med
-
-https://planb.network/courses/eco201
-
-#### Oppdater din nettsikkerhet med
-
-https://planb.network/courses/scu101
-
-#### Forstå grunnleggende Bitcoin og bygg din egen husoppvarming med
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

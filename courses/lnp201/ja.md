@@ -28,8 +28,8 @@ Bitcoin初心者でも、より経験豊富なユーザーでも、このコー�
 ## Lightning Networkの理解
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
+![video en](https://youtu.be/QDQ8NG0l3hk)
 
-![Lightning Networkの理解](https://youtu.be/PszWk046x-I)
 
 Lightning Networkの技術的な機能を説明することを目的としたLNP201コースへようこそ。
 
@@ -85,8 +85,8 @@ Lightning Networkは、Bitcoinプロトコルの上に構築された支払い�
 ## Bitcoin、アドレス、UTXO、およびトランザクション
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
+![video en](https://youtu.be/U9l5IVriCss)
 
-![bitcoin, addresses, utxo, and transactions](https://youtu.be/cadCJ2V7zTg)
 この章は少し特別です。なぜなら、直接Lightningに捧げられるわけではなく、Bitcoinについて扱うからです。実際、Lightning NetworkはBitcoinの上に構築されたレイヤーです。したがって、後続の章でLightningの機能を適切に理解するためには、Bitcoinのいくつかの基本的な概念を理解することが不可欠です。この章では、Bitcoinの受信アドレス、UTXO、およびBitcoinトランザクションの機能についての基礎を見直します。
 
 ### Bitcoinアドレス、秘密鍵、公開鍵
@@ -150,8 +150,8 @@ UTXOは分割することができません。それらを使って表されるB
 ## チャネル開設
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
+![video en](https://youtu.be/Ty80WuN5X-g)
 
-![チャネルを開く](https://youtu.be/B2caBC0Rxko)
 
 この章では、ライトニングネットワーク上で支払いチャネルを開く方法と、この操作と基盤となるビットコインシステムとの関連について、より詳しく見ていきます。
 
@@ -214,8 +214,8 @@ UTXOは分割することができません。それらを使って表されるB
 ## コミットメントトランザクション
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
+![video en](https://youtu.be/dzPMGiR_JSE)
 
-![ライトニングトランザクション & コミットメントトランザクション](https://youtu.be/aPqI34tpypM)
 
 この章では、チャネルの一方から他方へ資金が移動する際、ライトニングネットワーク内のチャネルでのトランザクションの技術的な機能について学びます。
 
@@ -270,7 +270,7 @@ Bobが資金を受け取りたい場合、彼はAliceに30,000サトシの**_イ
 ## 取り消しキー
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
-![transactions part 2](https://youtu.be/RRvoVTLRJ84)
+![video en](https://youtu.be/veCs39uVFUk)
 この章では、チャネル内のルールを守ることを保証し、不正行為に対する保護メカニズムを議論することにより、Lightning Network上でのトランザクションの仕組みについてさらに深く掘り下げます。
 
 ### リマインダー：コミットメントトランザクション
@@ -346,8 +346,8 @@ Lightning Network上の**コミットメントトランザクション**には�
 ## チャネルのクローズ
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
+![video en](https://youtu.be/zmAa2fj_V7w)
 
-![チャネルを閉じる](https://youtu.be/FVmQvNpVW8Y)
 
 この章では、Lightning Network上で**チャネルを閉じる**方法について議論します。これは、チャネルを開くときと同様に、Bitcoinトランザクションを通じて行われます。チャネル内のトランザクションの仕組みを見た後、チャネルを閉じてBitcoinブロックチェーン上で資金を回収する方法を見ていきます。
 
@@ -431,8 +431,8 @@ Lightning Network上の**コミットメントトランザクション**には�
 ## ライトニングネットワーク
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
+![video en](https://youtu.be/44oBdNdXtEQ)
 
-![ライトニングネットワーク](https://youtu.be/RAZAa3v41DM)
 
 この章では、支払いチャネルで直接繋がっていない受取人にも、ライトニングネットワーク上での支払いがどのように届けられるかを探ります。ライトニングは、実際には**支払いチャネルのネットワーク**であり、他の参加者のチャネルを通じて遠く離れたノードに資金を送ることを可能にします。ネットワークを通じて支払いがどのようにルーティングされるか、流動性がチャネル間でどのように移動するか、取引手数料がどのように計算されるかを発見します。
 
@@ -544,8 +544,8 @@ Aliceはチャネルを通じてBobに**40,000サトシ**を送ります：
 ## HTLC – ハッシュ化されたタイムロック契約
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
+![video en](https://youtu.be/jI4nM297aHA)
 
-![HTLC](https://youtu.be/-JC4mkq7H48)
 
 この章では、**HTLC** (_Hashed Time-Locked Contracts_、ハッシュ化されたタイムロック契約)のおかげで、中継ノードを信頼する必要なく、Lightningが支払いを中継ノードを通して行う方法を発見します。これらのスマートコントラクトは、各中継ノードが最終受信者に支払いを転送する場合に限り、そのチャネルから資金を受け取ることを保証し、そうでなければ支払いは検証されません。
 
@@ -664,8 +664,8 @@ HTLCは、複数のノードを介してLightning支払いをルーティング�
 ## あなたの道を見つける
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
+![video en](https://youtu.be/CqetCElRjUQ)
 
-![あなたの道を見つける](https://youtu.be/wnUGJjOxd9Q)
 
 前の章では、他のノードのチャネルを使用して支払いをルーティングし、チャネルを介して直接接続されていないノードに到達する方法を見ました。また、中間ノードを信頼せずに転送のセキュリティを確保する方法についても議論しました。この章では、ターゲットノードに到達するための最適なルートを見つけることに焦点を当てます。
 
@@ -750,7 +750,7 @@ Bobが**請求書**に情報を提供してルーティングを容易にする�
 ## 請求書、LNURL、およびKeysend
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
-![請求書、LNURL、Keysend](https://youtu.be/CHnXJuZTarU)
+![video en](https://youtu.be/XANzf1Qqp9I)
 この章では、Lightning **請求書**、つまり受信ノードから送信ノードへ送られる支払い請求の操作について、より詳しく見ていきます。目標は、Lightning上での支払いと受け取り方を理解することです。また、従来の請求書に代わる2つの代替手段、LNURLとKeysendについても議論します。
 ![LNP201](assets/en/68.webp)
 
@@ -859,8 +859,8 @@ LNURLは、Lightningノードとクライアント、およびサードパーテ
 ## あなたの流動性を管理する
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
+![video en](https://youtu.be/MIbej28La7Y)
 
-![あなたの流動性を管理する](https://youtu.be/YuPrbhEJXbg)
 
 この章では、Lightning Network上で流動性を効果的に管理する戦略を探ります。流動性管理は、ユーザーのタイプとコンテキストによって異なります。主な原則と既存の技術を見て、この管理を最適化する方法をよりよく理解しましょう。
 
@@ -929,8 +929,8 @@ Lightning上には、特定の流動性ニーズを持つ3つの主要なユー�
 ## トレーニングの結論
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
+![video en](https://youtu.be/coaskEGRjiU)
 
-![結論](https://youtu.be/MaWpD0rbkVo)
 この最終章では、LNP201トレーニングの終了を迎え、共に学んだ重要な概念を振り返ることを提案します。
 このトレーニングの目的は、Lightning Networkに関する包括的かつ技術的な理解を提供することでした。私たちは、Lightning NetworkがBitcoinブロックチェーンに依存してオフチェーン取引を実行する方法、そして特に他のノードを信頼する必要がないというBitcoinの基本的な特性を保持していることを発見しました。
 
@@ -983,7 +983,7 @@ Lightning上には、特定の流動性ニーズを持つ3つの主要なユー�
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## このコースを評価する
+## レビュー & 評価
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -996,41 +996,4 @@ Lightning上には、特定の流動性ニーズを持つ3つの主要なユー�
 ## まとめ
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-おめでとうございます！🎉
-
-LNP 201トレーニング - Lightning Networkの入門を修了しました！
-
-これは簡単なトピックではありませんので、自分を誇りに思ってください。
-
-ビットコインのウサギの穴をここまで深く探る人は少ないです。
-
-Lightning Networkの技術的な仕組みについての、この素晴らしい無料コースを提供してくれた**Fanis Michalakis**に大きな感謝を。
-
-[Twitter](https://x.com/FanisMichalakis)、[彼のブログ](https://fanismichalakis.fr/)、または[LN Markets](https://lnmarkets.com/)での彼の仕事を通じてフォローしてください。
-
-Lightning Networkをマスターした今、Satoshi Nakamotoの発明の他の側面への理解を深めるため、Plan ₿ Networkの他の無料コースもぜひ探索してください：
-
-#### ビットコインウォレットの仕組みを理解する
-
-https://planb.network/courses/cyp201
-
-#### ビットコインの起源の歴史を発見する
-
-https://planb.network/courses/his201
-
-#### BTCペイメントサーバーを設定する
-
-https://planb.network/courses/btc305
-
-#### ビットコインのプライバシー原則を習得する
-
-https://planb.network/courses/btc204
-
-#### マイニングの基礎を発見する
-
-https://planb.network/courses/min201
-
-#### ビットコインコミュニティの作り方を学ぶ
-
-https://planb.network/courses/btc302
-
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,5 @@
+---
+term: BIP30
+
+---
+Forslag til forbedring som involverer en soft fork implementert 15. mars 2012, for å løse problemet med dupliserte transaksjonsidentifikatorer. Før BIP30 var det teknisk mulig å ha to forskjellige transaksjoner med samme transaksjonsidentifikator (TXID) i blokkjeden. Dette skjedde spesielt to ganger for coinbase-transaksjoner: den i blokk 91 880 har samme TXID som coinbase i blokk 91 722, og den i blokk 91 842 har samme TXID som coinbase i blokk 91 812. BIP30 løste denne feilen ved å innføre en ny enkel regel: Ingen ny transaksjon kan ha samme TXID som en tidligere registrert transaksjon med mindre den opprinnelige transaksjonen hadde blitt fullstendig brukt (dvs. at alle utgangene hadde blitt brukt). Denne myke gaffelen ble aktivert ved hjelp av flaggdagsmetoden. Dermed er det en av de første UASF-ene.

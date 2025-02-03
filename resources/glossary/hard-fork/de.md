@@ -1,0 +1,7 @@
+---
+term: HARTE GABEL
+
+---
+Eine Änderung der Protokollregeln in einer Weise, die nicht rückwärtskompatibel ist. Diese Änderung führt zu einer dauerhaften Trennung des Bitcoin-Netzwerks von Knoten in zwei verschiedene Gruppen: Knoten mit dem Update und Knoten ohne das Update. Diese Aufspaltung wird durch die Teilung der ursprünglichen Blockchain in zwei getrennte Blockchains realisiert, die jedoch eine gemeinsame Geschichte haben, daher der Begriff "Fork", der ins Französische mit "Verzweigung, Gabelung" übersetzt werden kann
+
+Eine Änderung gilt als nicht abwärtskompatibel, wenn sie entweder umfangreich ist, d. h. bestimmte Regeln des Protokolls aufhebt oder weniger restriktiv macht, oder wenn sie bilateral ist, d. h. Regeln hinzufügt, die mit den alten nicht kompatibel sind. Mit anderen Worten, eine Hard Fork tritt auf, wenn bestimmte Knoten einen Block, der ungültig war, gültig werden lassen. Dies führt zur Bildung einer neuen Version des Protokolls, die entweder den ursprünglichen Bitcoin ersetzen kann, wenn sich eine Mehrheit findet, oder ein unabhängiger Altcoin wird, wenn er nur am Rande verwendet wird. Bitcoin Cash (BCH) ist zum Beispiel eine harte Abspaltung von Bitcoin. Die Abspaltung erfolgte bei Blocknummer 478.559 am 1. August 2017.

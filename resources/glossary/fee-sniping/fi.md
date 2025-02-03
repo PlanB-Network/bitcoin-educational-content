@@ -1,0 +1,13 @@
+---
+term: FEE SNIPING
+
+---
+Hyökkäysskenaario, jossa louhijat pyrkivät kirjoittamaan hiljattain vahvistetun lohkon uudelleen saadakseen sen sisältämät transaktiomaksut ja lisäämällä samalla mempooliin sillä välin saapuneita korkean maksun transaktioita. Tämän hyökkäyksen perimmäinen tavoite louhijalle on kasvattaa kannattavuuttaan. Palkkioiden nappaamisesta voi tulla yhä kannattavampaa, kun lohkopalkkio laskee ja transaktiomaksut muodostavat suuremman osan louhijoiden tuloista. Se voi olla myös edullista, kun edellisen lohkon sisältämät maksut ovat huomattavasti korkeammat kuin seuraavaksi parhaana ehdokkaana olevan lohkon maksut. Yksinkertaistaen voidaan todeta, että louhija on tämän valinnan edessä kannustimien suhteen:
+
+
+- Louhi normaalisti viimeisen lohkon jälkeen, jolloin todennäköisyys voittaa pieni palkkio on suuri;
+- Yritä louhia edellistä lohkoa (fee sniping), jolloin todennäköisyys voittaa korkea palkkio on pieni.
+
+Tämä hyökkäys on riski Bitcoin-järjestelmälle, sillä mitä useampi louhija ottaa sen käyttöön, sitä enemmän muita, alun perin rehellisiä louhijoita kannustetaan tekemään samoin. Joka kerta, kun uusi louhija liittyy palkkiosnippausta yrittäviin louhijoihin, todennäköisyys sille, että yksi hyökkäävistä louhijoista onnistuu, kasvaa, ja todennäköisyys sille, että yksi rehellisistä louhijoista jatkaa ketjua, pienenee. Jos tämä hyökkäys toteutetaan massiivisesti ja jatkuu pitkään, lohkovahvistukset eivät enää olisi luotettava osoitus Bitcoin-tapahtuman muuttumattomuudesta. Tämä voisi mahdollisesti tehdä järjestelmästä käyttökelvottoman.
+
+Tämän riskin torjumiseksi useimmat lompakko-ohjelmistot täyttävät automaattisesti `nLocktime`-kentän niin, että transaktion validointi edellyttää sen sisällyttämistä seuraavaan lohkon korkeuteen. Näin ollen on mahdotonta sisällyttää transaktiota edellisen lohkon uudelleenkirjoitukseen. Jos Bitcoin-käyttäjät omaksuvat `nLocktime`-ominaisuuden laajamittaisen käytön, se vähentää merkittävästi kannustimia maksujen karsimiseen. Se nimittäin kannustaa lohkoketjun etenemiseen sen uudelleenkirjoittamisen sijaan vähentämällä siitä saatavia mahdollisia voittoja. BIP326 ehdottaa Taproot-tapahtumien osalta `nSequence`-kentän käyttämistä vastaavalla tavalla, jotta saavutettaisiin vastaava vaikutus kuin `nLocktime`-kentällä muuntyyppisissä tapahtumissa. Tämä käyttö löisi kaksi kärpästä yhdellä iskulla, sillä se parantaisi myös samaa kenttää käyttävien toisen tason protokollien yksityisyyttä.

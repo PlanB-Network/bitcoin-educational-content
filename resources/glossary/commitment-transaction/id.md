@@ -1,0 +1,5 @@
+---
+term: TRANSAKSI KOMITMEN
+
+---
+Dalam konteks saluran dua arah dalam Lightning, transaksi komitmen adalah transaksi yang dibuat dan ditandatangani oleh kedua belah pihak, tanpa mempublikasikannya di rantai utama. Ini mewakili kondisi saat ini dari distribusi dana antara pihak-pihak dalam sebuah saluran, dengan setiap pembayaran Lightning menghasilkan transaksi komitmen baru. Transaksi ini valid tetapi hanya disiarkan ketika saluran ditutup secara sepihak. Transaksi ini berisi output untuk masing-masing pihak, yang mencerminkan distribusi dana sesuai dengan pembayaran Lightning yang dilakukan sejak pembukaan saluran. Mekanisme penalti dikaitkan untuk mencegah pihak-pihak menyiarkan status saluran yang sudah ketinggalan zaman, yaitu transaksi komitmen lama yang mencerminkan distribusi dana yang salah.

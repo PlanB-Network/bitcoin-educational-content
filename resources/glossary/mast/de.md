@@ -1,0 +1,7 @@
+---
+term: MAST
+
+---
+Akronym für "Merkelised Alternative Script Tree" Eine Technik, bei der ein Merkle-Baum verwendet wird, um eine beliebige Anzahl von Ausgabenbedingungen zusammenzufassen, die vom Nutzer in einer Empfängeradresse ausgewählt wurden und von denen eine erfüllt sein muss, um die betreffenden Bitcoins auszugeben. Der Merkle-Baum ermöglicht es dem Nutzer zu wählen, welche Bedingung er erfüllen möchte, ohne die Details der anderen Bedingungen auf der Blockchain preiszugeben. Dies trägt dazu bei, die mit diesen Skripten verbundenen Gebühren zu senken, viel komplexere Bedingungen zu schaffen und mit der Zeit die Privatsphäre der Nutzer zu verbessern (zusätzlich zur Verwendung von Schnorr-Signaturen). Dieses Konzept war Gegenstand mehrerer Vorschläge, wurde aber schließlich über die Taproot-Soft-Fork im Jahr 2021 zu Bitcoin hinzugefügt.
+
+> ► *Anfänglich stand "MAST" für "Merklized Abstract Syntax Tree" Die Verwendung innerhalb des Taproot-Rahmens bezieht sich nicht mehr auf einen "Abstract Syntax Tree" Die Benutzer benutzten jedoch weiterhin den Begriff MAST. Anthony Towns schlug daher vor, die ursprüngliche Bedeutung zu ändern und gleichzeitig dieses weit verbreitete Akronym beizubehalten als: "Merklized Alternative Script Tree "*

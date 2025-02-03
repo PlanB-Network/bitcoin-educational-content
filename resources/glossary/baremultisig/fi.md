@@ -1,0 +1,5 @@
+---
+term: BARE-MULTISIG
+
+---
+Vakiokäsikirjoitusmalli P2MS, jota käytetään UTXO:n käyttöehtojen määrittämiseen. Se mahdollistaa bitcoinien lukitsemisen useilla julkisilla avaimilla. Näiden bitcoinien käyttämiseksi on toimitettava allekirjoitus, johon liittyy ennalta määritelty määrä yksityisiä avaimia. Esimerkiksi `2/3` P2MS:ssä on `3` julkista avainta, joihin liittyy `3` salaista yksityistä avainta. Tämän P2MS-skriptin avulla lukittujen bitcoinien käyttämiseksi on annettava allekirjoitus, jossa on vähintään `2` yksityisistä avaimista `3`. Tämä on kynnysturvajärjestelmä. Gavin Andresen keksi tämän skriptin vuonna 2011, kun hän oli juuri ottanut hoitaakseen Bitcoinin pääasiakkaan ylläpidon. Nykyään P2MS:ää käytetään vain marginaalisesti joissakin sovelluksissa. Valtaosa nykyaikaisista multisignaattoreista käyttää muita skriptimalleja, kuten P2SH:ta tai P2WSH:ta. Näihin verrattuna P2MS on äärimmäisen triviaali. Sen muodostamat julkiset avaimet paljastetaan transaktion vastaanottamisen yhteydessä. P2MS:n käyttäminen on myös kalliimpaa kuin muiden monialakirjoitusskriptien.

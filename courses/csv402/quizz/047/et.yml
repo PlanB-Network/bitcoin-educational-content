@@ -1,0 +1,9 @@
+question: Millist tehnoloogiat saab kasutada, et ühendada erinevad versioonid varudest lahknevuse korral?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Ühekordselt kasutatav pitser
+  - Logipõhine replikatsioon
+explanation: |
+  CRDT-d tagavad andmete järjepidevuse, võimaldades mitme varamu versiooni ühendamist ilma kliendipoolsete konfliktideta.
+reviewed: false

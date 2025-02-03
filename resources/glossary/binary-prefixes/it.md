@@ -1,0 +1,5 @@
+---
+term: PREFISSI BINARI
+
+---
+Unità utilizzate in informatica per quantificare i multipli delle dimensioni dei dati stabiliti in base a potenze di 2. A differenza dei prefissi del sistema metrico, che utilizzano una base di 10, i prefissi binari, come kibi (Ki), mebi (Mi), gibi (Gi) e tebi (Ti), si moltiplicano per potenze di 2 (rispettivamente $2^{10}$, $2^{20}$, $2^{30}$, $2^{40}$). Questi prefissi sono ereditati dai primi modi di misurare le dimensioni delle informazioni sui computer. A volte si trovano in Bitcoin, ad esempio per indicare il limite di dimensione dei file `BLOCKS/BLK*.DAT` che vengono utilizzati per memorizzare i dati grezzi della blockchain nel software Bitcoin Core. Questi file hanno una capacità massima di 128 mebibyte (MiB), che equivale a poco più di 134 megabyte (MB).

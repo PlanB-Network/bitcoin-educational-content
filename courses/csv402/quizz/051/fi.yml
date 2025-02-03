@@ -1,0 +1,9 @@
+question: Mikä on "tiivisteen määritelmä" RGB-määrityksen yhteydessä?
+answer: Viittaus UTXO:hon, joka vahvistaa omistusoikeuden omistusvaltioon
+wrong_answers:
+  - Osapuolten välillä vaihdettavien tietojen ryhmittely, johon sovelletaan asiakaspuolen validointia
+  - Sopimusten kääntäminen ketjun ulkopuoliseen suoritettavaan koodiin
+  - Tilan siirtymähistorian DAG-haara
+explanation: |
+  Sinettimääritelmä yhdistää UTXO:n tiettyyn sopimustilan osaan, mikä takaa oikeuden tai omaisuuden oikean kohdentamisen.
+reviewed: false

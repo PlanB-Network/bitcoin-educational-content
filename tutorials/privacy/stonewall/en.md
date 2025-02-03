@@ -12,7 +12,7 @@ _This tutorial is provided for educational and informational purposes only. We d
 
 ---
 
-> *"Break the assumptions of blockchain analysis with mathematically provable doubt between sender and recipient of your transactions."*
+> *Break the assumptions of blockchain analysis with mathematically provable doubt between sender and recipient of your transactions.*
 
 ## What is a Stonewall transaction?
 Stonewall is a specific form of Bitcoin transaction aimed at increasing user privacy during a transaction by mimicking a coinjoin between two parties, without actually being one. In fact, this transaction is not collaborative. A user can construct it alone, only involving their own UTXOs as inputs. Therefore, you can create a Stonewall transaction for any occasion without needing to coordinate with another user.

@@ -1,0 +1,9 @@
+---
+term: ANÁLISIS HEURÍSTICO
+
+---
+Una heurística de análisis para la cadena Bitcoin es una familia de métodos empíricos utilizados para rastrear el flujo de bitcoins en la blockchain basándose en características observadas en las transacciones. Una heurística es una aproximación práctica a la resolución de problemas, a menudo mediante métodos aproximados, pero que representa una solución suficientemente buena para alcanzar un objetivo determinado. Estas heurísticas arrojan resultados bastante fiables, pero nunca con una precisión absoluta. En otras palabras, el análisis en cadena siempre implica un grado de probabilidad en las conclusiones extraídas. Por ejemplo, se puede estimar con mayor o menor certeza que dos direcciones pertenecen a la misma entidad, pero la certeza total siempre está fuera de nuestro alcance. Todo el objetivo del análisis en cadena reside precisamente en la agregación de diversas heurísticas para minimizar el riesgo de error. Es, en cierto modo, una acumulación de pruebas que nos permite acercarnos a la realidad. En este contexto, se diferencian las heurísticas internas y externas.
+
+La heurística interna se centra en características específicas de una transacción individual. Incluyen en su análisis elementos como las cantidades de UTXOs, los scripts utilizados, las versiones o los tiempos de bloqueo. Por ejemplo, la heurística del pago redondo permite identificar una salida de transacción como probablemente un pago si su importe es un número redondo. Esta heurística permite a menudo identificar el cambio (dinero devuelto al mismo usuario) y continuar así el rastreo.
+
+Los heurísticos externos, por su parte, analizan similitudes y características más allá de la propia transacción. Abarcan todo el entorno de la transacción. Por ejemplo, la reutilización de una dirección en varias transacciones es una heurística externa. El CIOH también lo es.

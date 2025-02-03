@@ -1,0 +1,9 @@
+question: Miksi Bitcoinin liikkeeseenlaskun 21 miljoonan raja on merkittävä?
+answer: Se luo deflatorisen omaisuuserän, joka suojaa sen arvoa mielivaltaiselta inflaatiolta.
+wrong_answers:
+  - Se varmistaa, että hallitukset voivat painaa niin paljon bitcoineja kuin tarvitaan.
+  - Se estää ketään lähettämästä tapahtumia sen jälkeen, kun raja on saavutettu.
+  - Se eliminoi Bitcoinin hinnan kaikki vaihtelut.
+explanation: |
+  Koska Bitcoinin tarjonta on enintään 21 miljoonaa, sen niukkuus on kovakoodattu, mikä erottaa sen olennaisesti inflaatiovaluutoista, joiden tarjontaa voidaan lisätä mielin määrin.
+reviewed: false

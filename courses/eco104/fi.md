@@ -1639,7 +1639,7 @@ Tulevaisuus on valoisa!
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Arvioi kurssi
+## Arviot & Arvosanat
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1647,35 +1647,4 @@ Tulevaisuus on valoisa!
 ## Yhteenveto
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Onnittelut kurssin suorittamisesta!
-
-Olemme iloisia, että olet onnistuneesti saavuttanut tämän virstanpylvään oppimismatkallasi.
-
-Omistautumisesi ja sitoutumisesi ansiosta olet saanut arvokasta tietoa ja taitoja, jotka palvelevat sinua ammatillisessa kehityksessäsi.
-
-Jatkaaksesi syvemmälle Bitcoinin maailmaan, kutsumme sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
-
-#### Tutustu Bitcoiniin ja sen perusteisiin kurssilla
-
-https://planb.network/courses/btc101
-
-#### Päivitä verkkotietoturvasi kurssilla
-
-https://planb.network/courses/scu101
-
-#### Tutustu Lightning Networkiin kurssilla
-
-https://planb.network/courses/lnp201
-
-#### Opi Itävallan koulukunnan taloudellisesta ajattelusta kurssilla
-
-https://planb.network/courses/eco201
-
-#### Tutustu Bitcoinin alkuperän historiaan kurssilla
-
-https://planb.network/courses/his201
-
-#### Ymmärrä hyperinflaatioiden synty kurssilla
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

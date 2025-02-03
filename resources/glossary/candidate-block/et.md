@@ -1,0 +1,5 @@
+---
+term: KANDIDAADIBLOKK
+
+---
+Kandidaatblokk on plokk, mida Bitcoini süsteemi kaevandamisprotsessis osalev kaevandaja on loomas. Kandidaatblokk on ajutine andmestruktuur, mis sisaldab tehinguid, mis ootavad kinnitamist, kuid millel ei ole veel kehtivat tõendusmaterjali, et seda plokiahelasse lisada. Kaevandaja valib kandidaadiblokki lisatavad tehingud erinevate tegurite, näiteks seotud tehingutasude ja plokisuuruse piirangute alusel. Kui tehingud on valitud, genereerib kaevandaja ploki päise, mis sisaldab versiooni, tehingute digesti (Merkle'i juur), ajatemplit, eelmise ploki hash'i, raskuse eesmärki ja nonce'i. Seejärel üritab kaevandaja leida oma päisest hashi, mis vastab praegusele raskusastme eesmärgile. Selleks muudab kaevandaja päises olevat nonce'i. Kaevandaja võib muuta ka muud teavet, mis sisaldub tema kandidaatblokis. See on töö tõestamise mehhanism. Kui kaevandajal õnnestub leida kehtiv hash, muutub kandidaatblokist kehtiv plokk ja see edastatakse võrku, et lisada see plokiahelasse.

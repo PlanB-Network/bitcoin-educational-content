@@ -1,0 +1,7 @@
+---
+term: DUSTING ATTACK
+
+---
+Bei einem Dusting-Angriff werden winzige Mengen von Bitcoins an eine große Anzahl von Empfängeradressen gesendet. Das Ziel des Angreifers ist es, die Empfänger zu zwingen, diese Beträge mit anderen UTXOs zu konsolidieren. Der Angreifer verfolgt dann die künftigen Bewegungen dieser kleinen Bitcoin-Beträge und versucht, Adresscluster zu bilden, d. h. zu ermitteln, ob mehrere Adressen zu ein und derselben Entität gehören. Durch Korrelation der bei einem Dusting-Angriff gesammelten Informationen mit anderen Daten und Heuristiken, die bei der Kettenanalyse verwendet werden, kann der Angreifer bestimmte Entitäten und die mit ihnen verbundenen Adressen identifizieren. Diese Methode stellt lediglich eine Bedrohung für die Privatsphäre der Nutzer dar, beeinträchtigt aber nicht die Sicherheit ihrer Gelder.
+
+> einige Bitcoiner schlagen vor, den Begriff "Dusting-Attacke" nicht mehr zu verwenden, da er irreführend sein könnte. In der Tat beschreibt der Begriff "Dust" etwas sehr spezifisches in Bitcoin Core. Wenn der Dusting-Angriff tatsächlich Dust, wie in Core beschrieben, verwenden würde, wäre der Angriff unwirksam. Daher schlagen einige vor, den Begriff "erzwungene Adresswiederverwendung" zu verwenden, um diesen Angriff genauer zu beschreiben.*

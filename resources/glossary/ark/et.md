@@ -1,0 +1,5 @@
+---
+term: ARK
+
+---
+Uus teise kihi protokoll, mille Burak avalikustas mais 2023. Nagu Lightning Network, on ka Ark süsteem, mis töötab Bitcoini peamise plokiahela peal. See võimaldaks bitcoinide makseid väljaspool ahelat kiirelt, anonüümselt ja odavalt. Võrreldes Lightningiga ei nõua Ark maksete vastuvõtmiseks sissetulevat likviidsust, mis parandab oluliselt kasutajakogemust. Peale selle pakub see coinjoin-tehingutega sarnast privaatsust, samas kui Lightning on suhteliselt kehv mudel privaatsuse kaitsmiseks. Lõpuks võib Ark olla ka mitteinteraktiivne, kui Bitcoinile lisatakse lepingud. Burak kritiseerib sageli Lightningi skaleeritavust selle sõltuvuse tõttu põhiahelast ja soovitab, et Ark võiks teoreetiliselt mahutada kogu maailma elanikkonna isehalduses. Kuigi Arki võib pidada Lightning Networkiga konkureerivaks protokolliks, võiksid need kaks tegelikult kõrvuti eksisteerida. Nad võivad isegi üksteist täiendada. Siiski on oluline märkida, et praegu on Ark vaid kontseptsioon. Burak ei ole veel oma leiutise koodi avalikustanud.

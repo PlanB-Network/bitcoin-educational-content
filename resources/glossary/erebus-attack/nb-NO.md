@@ -1,0 +1,5 @@
+---
+term: EREBUS (ANGREP)
+
+---
+En svært sofistikert form for angrep mot Bitcoin-nettverket som gjør det mulig for en ondsinnet Internett-leverandør å isolere bestemte Bitcoin-noder. Det er dermed en form for Eclipse-angrep. Erebus-angrepet utnytter strukturen i Internett-nettverket, spesielt de obligatoriske passasjepunktene (eller "flaskehalsene") i rutingen mellom autonome systemer (AS). Ved å kontrollere et autonomt system kan en angriper manipulere nettverkstrafikken for å isolere en Bitcoin-node fra resten av nettverket, og dermed få den til å tro på en falsk tilstand i blokkjeden (blokker eller transaksjoner som ikke er kjent av noden). Denne isoleringen kan føre til dobbeltbruk eller sensur mot den isolerte noden. Dette angrepet har blitt mye vanskeligere siden utgivelsen av Bitcoin Core versjon 0.20.0 og introduksjonen av Asmap.

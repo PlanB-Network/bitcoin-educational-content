@@ -1,0 +1,9 @@
+question: Mikä on tyypillistä nykypäivän korttipohjaisen maksuprosessin monimutkaisuudelle vähittäismyyntipisteessä?
+answer: Siihen osallistuu useita välittäjiä ja useita vaiheita, ja voi kestää päiviä, ennen kuin varat on maksettu kokonaan.
+wrong_answers:
+  - Se vaatii vain yhden välittömän toimenpiteen, ja varat maksetaan välittömästi.
+  - Se perustuu yksinomaan fyysiseen käteisrahaan eikä välittäjiin.
+  - Se varmistaa, että kun kortti on pyyhkäisty, kauppias saa varat välittömästi ja peruuttamattomasti.
+explanation: |
+  Korttimaksuihin liittyy usein välittäjäketju (korttitapahtumien vastaanottajat, korttien myöntäjät, korttiverkot), ne edellyttävät valtuutus- ja selvitysvaiheita, ja voi kestää 48 tunnista useisiin päiviin, ennen kuin kauppias saa nettomääräiset varat.
+reviewed: false

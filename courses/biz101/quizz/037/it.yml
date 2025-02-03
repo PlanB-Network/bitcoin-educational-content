@@ -1,0 +1,9 @@
+question: Qual è il vantaggio principale dell'ecosistema dei pagamenti Bitcoin in termini di passaggio da una soluzione all'altra?
+answer: È relativamente facile cambiare fornitore o aggiornare gli strumenti, perché gli standard aperti e interoperabili di Bitcoin consentono trasferimenti di fondi senza soluzione di continuità.
+wrong_answers:
+  - Una volta scelto il fornitore, l'azienda non può passare a un'altra soluzione.
+  - Le soluzioni Bitcoin sono proprietarie e vincolate a un unico fornitore.
+  - Il cambio di fornitore richiede l'approvazione del governo e un lungo processo legale.
+explanation: |
+  Poiché Bitcoin è costruito su protocolli aperti, gli esercenti sono liberi di spostare i loro fondi o di adottare nuove soluzioni in base alla loro crescita o alle loro esigenze. Questa flessibilità garantisce alle aziende la possibilità di scegliere gli strumenti migliori senza il vincolo del fornitore.
+reviewed: false

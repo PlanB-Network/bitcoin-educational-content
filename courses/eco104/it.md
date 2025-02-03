@@ -1637,7 +1637,7 @@ Il Futuro è Luminoso!
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Valuta il corso
+## Recensioni & Valutazioni
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1645,35 +1645,4 @@ Il Futuro è Luminoso!
 ## Conclusione
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Congratulazioni per aver completato questo corso!
-
-Siamo entusiasti che tu abbia raggiunto con successo questo traguardo nel tuo percorso di apprendimento.
-
-Attraverso la tua dedizione e il tuo impegno, hai acquisito preziose conoscenze e competenze che ti saranno utili nel tuo sviluppo professionale.
-
-Per continuare ad approfondire l'universo di Bitcoin, ti invitiamo a esplorare tutti gli altri corsi disponibili su Plan ₿ Network:
-
-#### Scopri Bitcoin e i suoi fondamenti con
-
-https://planb.network/courses/btc101
-
-#### Aggiorna la tua sicurezza online con
-
-https://planb.network/courses/scu101
-
-#### Scopri il Lightning Network con
-
-https://planb.network/courses/lnp201
-
-#### Impara il pensiero economico della Scuola Austriaca con
-
-https://planb.network/courses/eco201
-
-#### Scopri la storia delle origini di Bitcoin con
-
-https://planb.network/courses/his201
-
-#### Comprendi l'emergere delle iperinflazioni con
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

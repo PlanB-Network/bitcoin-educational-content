@@ -1,0 +1,9 @@
+question: Cosa rappresenta la "transizione di stato RGB" nel contesto della rete Lightning?
+answer: Allocazione patrimoniale RGB aggiornata integrata nelle transazioni di impegno
+wrong_answers:
+  - Un nuovo stato di multisig 2/2 onchain
+  - Allocazione patrimoniale RGB aggiornata integrata nella transazione di finanziamento
+  - Lo script di convalida a catena è stato sostituito dall'HTLC
+explanation: |
+  La transizione di stato RGB aggiorna la distribuzione degli asset RGB nel canale utilizzando transazioni di impegno.
+reviewed: false

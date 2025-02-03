@@ -1,0 +1,9 @@
+question: Apa yang dapat saya lakukan dengan faktur dalam transfer RGB?
+answer: Tunjukkan jenis transaksi, jumlah aset yang diperlukan dan definisi stempel penerima
+wrong_answers:
+  - Membuat Genesis baru untuk aset
+  - Buat Skema baru untuk memodifikasi logika bisnis aset
+  - Membangun PSBT untuk menggantikan transaksi Bitcoin
+explanation: |
+  Faktur digunakan untuk menginformasikan kepada penerbit transaksi tentang jenis operasi, jumlah aset yang akan ditransfer, dan tujuan (definisi segel).
+reviewed: false

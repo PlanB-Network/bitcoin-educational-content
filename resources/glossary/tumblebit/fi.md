@@ -1,0 +1,5 @@
+---
+term: TUMBLEBIT
+
+---
+TumbleBit on Bitcoinin kanssa yhteensopiva anonyymi maksukeskus, jota Ethan Heilman, Leen AlShenibr, Foteini Baldimtsi, Alessandra Scafuro ja Sharon Goldberg ehdottivat vuonna 2016. TumbleBit on Bitcoinin sekoitusjärjestelmä, joka ei vaadi luottamusta välittäjään. Sen avulla käyttäjät voivat tehdä nopeita, nimettömiä ja ketjun ulkopuolisia maksuja Tumbler-nimisen koordinaattorin kautta. TumbleBit varmistaa anonymiteetin varmistamalla, että edes Tumbler ei voi yhdistää maksajan maksua sen vastaanottajaan. TumbleBit-protokolla varmistaa, että Tumbler ei voi varastaa bitcoineja eikä antaa väärennettyjä bitcoineja suorittamalla maksuja itselleen. TumbleBitin tarjoama anonymiteetti on verrattavissa Chaum eCash -järjestelmään. Tätä konseptia ei kuitenkaan ole koskaan otettu laajalti käyttöön, vaan suositaan Chaumian CoinJoinin kaltaisia yksityisyystekniikoita.

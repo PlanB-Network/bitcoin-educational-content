@@ -1,11 +1,12 @@
-name: Bitpolito
+id: fe9e6942-1c42-4e4d-a32c-819f6070a748
+name: BitPolito
 category: communities
 address_line_1: Turin, Italy
 address_line_2: Corso Castelfidardo, 39, 10129
 address_line_3:
 language:
   - it
-  -   - en
+  - en
 links:
   twitter: https://twitter.com/bitpolito
   github: https://github.com/BitPolito

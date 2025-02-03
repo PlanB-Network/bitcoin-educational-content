@@ -1,0 +1,9 @@
+question: According to Austrian economics, why are profits considered a key indicator of a company's health?
+answer: Because profits show the business is meeting consumer needs efficiently and sustainably.
+wrong_answers:
+  - Because profits ensure that the company’s workforce is the largest in its industry.
+  - Because profits are only a sign that the company received government subsidies.
+  - Because profits reflect random market events unrelated to consumer demands.
+explanation: |
+  In Austrian economics, profits signal that a company is producing goods or services valued by consumers at a price above production cost. This outcome suggests efficient resource use and alignment with market needs.
+reviewed: false

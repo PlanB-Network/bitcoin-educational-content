@@ -1,0 +1,5 @@
+---
+term: SAÍDAS DE ANCORAGEM
+
+---
+Uma proposta destinada a melhorar a gestão das taxas de transação nos canais Lightning. A cada mudança de estado de um canal Lightning, as partes interessadas criam e assinam uma nova transação de compromisso que reflete a nova distribuição de fundos dentro do canal. O problema com este mecanismo reside na determinação das taxas de transação no momento da sua criação. De facto, as taxas de transação na rede Bitcoin estão sujeitas a flutuações significativas, tanto para cima como para baixo. Se as taxas fixadas para a última transação de compromisso forem insuficientes no momento do fecho unilateral do canal, não só a transação demorará muito tempo a ser confirmada, como os mecanismos de bloqueio temporal (timelocks) poderão também permitir o roubo de fundos. Os Anchor outputs reservam uma pequena parte dos fundos numa transação de compromisso para cobrir taxas futuras. Em caso de congestionamento da rede e de aumento das taxas, as saídas âncora permitem a alteração das taxas de transação após a criação da transação de compromisso, assegurando assim um encerramento suficientemente rápido do canal Lightning.

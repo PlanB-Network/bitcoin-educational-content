@@ -1,0 +1,9 @@
+question: Miten RGB tasoittaa tietä DEX layer-2:lle?
+answer: Mahdollistamalla ketjun ulkopuolisten omaisuuserien vaihdon Lightning-kanavien ja atomivaihtojen kautta
+wrong_answers:
+  - Mahdollistamalla keskitetyn vaihtopalvelun käyttö kaikissa RGB-tapahtumissa
+  - Mahdollistamalla omaisuuserien vaihdon ketjussa olevien älykkäiden sopimusten avulla
+  - Mahdollistamalla lohkoketjujen välisen omaisuuserien vaihdon atomivaihtojen avulla..
+explanation: |
+  Mahdollisuus toteuttaa atomisia swap- ja vaihtotapahtumia Lightning-kanavien kautta tarjoaa mahdollisuuden luoda hajautettuja DEX-pörssejä ilman ketjupörssien haittoja.
+reviewed: false

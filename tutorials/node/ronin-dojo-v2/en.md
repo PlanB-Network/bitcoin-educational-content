@@ -12,13 +12,10 @@ _This tutorial is provided for educational and informational purposes only. We d
 
 ---
 
-> "*Use Bitcoin with privacy.*"
+> Use Bitcoin with privacy.
 
 In a previous tutorial, we had already explained the procedure for installing and using RoninDojo v1. However, over the last year, the RoninDojo teams have launched version 2 of their implementation, which marked a significant turning point in the software's architecture. Indeed, they moved away from the Linux Manjaro distribution in favor of Debian. Consequently, they no longer offer a pre-configured image for automatic installation on Raspberry Pi. But there is still a method for proceeding with a manual installation. This is what I used for my own node, and since then, RoninDojo v2 has been working wonderfully on my Raspberry Pi 4. I am therefore offering a new tutorial on how to manually install RoninDojo v2 on a Raspberry Pi.
-
 https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
-
-
 
 ## Table of Contents:
 - What is RoninDojo?

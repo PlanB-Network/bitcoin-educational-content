@@ -163,6 +163,8 @@ Además de las estafas relacionadas con criptomonedas y finanzas, la principal r
 
 Si este tema te resulta completamente desconocido, el curso SCU 101 puede ser interesante para profundizar en él en detalle.
 
+https://planb.network/courses/scu101
+
 Es crucial mantener tu computadora en un estado óptimo de funcionamiento, ya sea que estés interesado en Bitcoin o no. Una actualización no solo agrega nuevas funciones, sino que también corrige errores y mejora la seguridad de tus software. Por lo tanto, asegúrate de:
 
 - Siempre actualizar tu software,
@@ -806,9 +808,6 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 En la mentalidad del Paranoico, la precaución, la seguridad y el anonimato son primordiales. Estas prioridades dictan un enfoque deliberado y bien pensado para el uso de Bitcoin, promoviendo la autosuficiencia y la prudencia. El Paranoico está dispuesto a invertir tiempo y esfuerzo para garantizar la seguridad y privacidad de sus bitcoins, mientras navega hábilmente en el ecosistema para evitar cualquier exposición innecesaria. Aunque puede parecer excesivamente cauteloso para algunos, el Paranoico considera que su diligencia y atención al detalle son esenciales para una participación exitosa y segura en el mundo de Bitcoin.
 
-# El futuro con Bitcoin
-
-<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Creación de un plan de herencia
 
@@ -977,10 +976,6 @@ Ahora verifiquemos nuestro trabajo (Según "Cryptoasset Inheritance Planning" de
 _Planificación de la herencia de criptoactivos, una guía sencilla para propietarios, Pamela Morgan, ESQ. Copyright 2018 por Merkle Bloom LLC, Todos los derechos reservados. CC-BY_ Un gran agradecimiento a Pamela Morgan por su valioso trabajo y por permitirme compartirlo. ¡También gracias a todos los que contribuyeron a su escritura!
 ¡Ustedes son los mejores :D! Mi equipo y mis estudiantes también les agradecen.
 
-# Agradecimientos y sigue profundizando en la madriguera del conejo
-
-<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
-
 ## ¡Felicidades! ESTÁS EN EL TOP 0,1%
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
@@ -1005,7 +1000,7 @@ En cualquier caso, todas nuestras formaciones siguen siendo gratuitas y hay much
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Evalúe el curso
+## Reseñas & Valoraciones
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1018,34 +1013,4 @@ En cualquier caso, todas nuestras formaciones siguen siendo gratuitas y hay much
 ## Conclusión
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
-¡Felicitaciones por completar este curso!
-
-Estamos encantados de que hayas alcanzado exitosamente este hito en tu viaje de aprendizaje. A través de tu dedicación y compromiso, has adquirido valiosos conocimientos y habilidades que te servirán en tu desarrollo profesional.
-
-Para seguir profundizando en el mundo de Bitcoin, te invitamos a explorar todos los demás cursos disponibles en Plan ₿ Network:
-
-#### Descubre Bitcoin y sus fundamentos en
-
-https://planb.network/courses/btc101
-
-#### Actualiza tu seguridad en línea en
-
-https://planb.network/courses/scu101
-
-#### Descubre la Red Lightning en
-
-https://planb.network/courses/lnp201
-
-#### Aprende sobre la Escuela Austríaca de Pensamiento Económico en
-
-https://planb.network/courses/eco201
-
-#### Comprende los fundamentos de Bitcoin y construye tu calefacción doméstica en
-
-https://planb.network/courses/min201
-
-#### Comprende cómo funciona la billetera Bitcoin en
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

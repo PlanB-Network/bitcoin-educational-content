@@ -1,0 +1,9 @@
+question: Em que é que o capital criado artificialmente a partir da moeda baseada na dívida difere do capital de estilo austríaco?
+answer: O capital de tipo austríaco resulta de poupanças e sacrifícios reais, enquanto o capital baseado na dívida é criado instantaneamente a partir do crédito e pode distorcer os sinais económicos.
+wrong_answers:
+  - O capital ao estilo austríaco é gerado pela impressão de mais dinheiro sempre que necessário.
+  - O capital baseado na dívida nunca precisa de ser reembolsado e é equivalente a uma poupança real.
+  - Não há diferença; ambas as formas de capital são idênticas em natureza e efeito.
+explanation: |
+  O capital austríaco resulta da renúncia efectiva ao consumo e de um investimento cuidadoso. O capital baseado na dívida, criado facilmente através de empréstimos, pode induzir em erro os empresários e conduzir a investimentos ineficientes, uma vez que não reflecte a poupança real nem as preferências dos consumidores.
+reviewed: false

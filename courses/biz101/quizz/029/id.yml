@@ -1,0 +1,9 @@
+question: Apa keuntungan dari pembayaran Lightning Network untuk pedagang di tempat penjualan?
+answer: Pembayaran kilat diselesaikan hampir seketika dan tidak memerlukan banyak perantara, sehingga mengurangi biaya dan penundaan penyelesaian.
+wrong_answers:
+  - Pembayaran kilat membutuhkan waktu berminggu-minggu untuk mengonfirmasi dan membutuhkan dokumen yang banyak.
+  - Pembayaran kilat hanya dapat dilakukan jika disetujui oleh otoritas bank sentral.
+  - Pembayaran kilat dapat dibatalkan sesuka hati oleh pembeli setelah penjualan.
+explanation: |
+  Lightning Network membuat transaksi menjadi lebih cepat dan lebih murah dengan memungkinkan penyelesaian di luar rantai. Pedagang dapat menerima dana hampir seketika, dengan biaya minimal, dan tanpa bergantung pada perantara pembayaran tradisional.
+reviewed: false

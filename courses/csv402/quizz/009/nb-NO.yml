@@ -1,0 +1,9 @@
+question: Hvorfor anbefales det å bruke Tapret i stedet for Opret for RGB-forpliktelser?
+answer: For å minimere synlighet og unngå sensur
+wrong_answers:
+  - For å redusere transaksjonskostnadene
+  - Fordi en OP_RETURN ikke er Lightning-kompatibel
+  - For å maksimere størrelsen på forpliktelsene
+explanation: |
+  Tapret lar deg integrere forpliktelser diskret, i motsetning til OP_RETURN, som gjør dem umiddelbart synlige og gjenstand for sensur.
+reviewed: false

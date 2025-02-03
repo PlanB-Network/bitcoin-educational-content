@@ -1,0 +1,9 @@
+question: Apa satu keuntungan utama dari ekosistem pembayaran Bitcoin dalam hal peralihan antar solusi?
+answer: Sangat mudah untuk mengganti penyedia atau meningkatkan alat, karena standar Bitcoin yang terbuka dan dapat dioperasikan memungkinkan transfer dana tanpa hambatan.
+wrong_answers:
+  - Setelah penyedia dipilih, bisnis tidak akan pernah bisa beralih ke solusi lain.
+  - Solusi Bitcoin bersifat eksklusif dan terkunci pada satu vendor saja.
+  - Mengganti penyedia layanan memerlukan persetujuan pemerintah dan proses hukum yang panjang.
+explanation: |
+  Karena Bitcoin dibangun di atas protokol terbuka, para pedagang bebas untuk memindahkan dana mereka atau mengadopsi solusi baru seiring pertumbuhan atau perubahan kebutuhan mereka. Fleksibilitas ini memastikan bisnis dapat memilih alat terbaik tanpa harus terikat dengan vendor.
+reviewed: false

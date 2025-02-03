@@ -1,0 +1,5 @@
+---
+term: MONETA DI MERDA
+
+---
+Termine dispregiativo spesso usato nel mondo delle criptovalute per descrivere le altcoin considerate senza valore o senza futuro. Questo termine viene utilizzato in due contesti distinti: nell'ambiente generale delle criptovalute, si riferisce a un progetto che manca di innovazione tecnologica, non presenta un caso d'uso concreto o è principalmente il risultato di un'eccessiva speculazione. Per i massimalisti del Bitcoin, il termine comprende tutte le criptovalute diverse dal Bitcoin (BTC), rendendo così "shitcoin" sinonimo di "altcoin" Il termine è una combinazione di "shit" (merda), che in inglese ha lo stesso significato, e "coin" (moneta) L'uso iniziale del termine risale a un messaggio pubblicato dall'utente Ribuck l'8 novembre 2010 sul forum Bitcoin Talk.

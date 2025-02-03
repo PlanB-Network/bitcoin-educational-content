@@ -1,0 +1,9 @@
+question: ¿Cuál es la característica que define a Bitcoin como red monetaria?
+answer: Es como el dinero en efectivo y no requiere ninguna autoridad central ni intermediario para las transacciones.
+wrong_answers:
+  - Sólo puede funcionar cuando lo autoriza una agencia gubernamental.
+  - Emite nuevas unidades de moneda a petición de cualquier usuario.
+  - Necesita que los bancos verifiquen y liquiden cada transacción.
+explanation: |
+  Bitcoin funciona como una red descentralizada, que permite a cualquiera participar sin permiso. Las transacciones son validadas por nodos y mineros, no por una autoridad central.
+reviewed: false

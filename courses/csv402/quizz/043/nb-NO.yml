@@ -1,0 +1,9 @@
+question: Hva representerer "RGB-statusovergangen" i forbindelse med Lightning Network?
+answer: Oppdatert RGB-aktivaallokering integrert i forpliktelsestransaksjoner
+wrong_answers:
+  - En ny tilstand for multisig 2/2 onchain
+  - Oppdatert RGB-aktivaallokering integrert i finansieringstransaksjonen
+  - Script for kjedevalidering erstattet av HTLC
+explanation: |
+  RGB-tilstandsovergangen oppdaterer fordelingen av RGB-aktiva i kanalen ved hjelp av forpliktelsestransaksjoner.
+reviewed: false

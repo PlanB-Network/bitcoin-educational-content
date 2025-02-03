@@ -1275,7 +1275,7 @@ Rahoitusjärjestelmän muuttaminen edellyttää valuutan muuttamista. Satoshi lo
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-## Kurssin arviointi
+## Arviot & Arvosanat
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1288,25 +1288,4 @@ Rahoitusjärjestelmän muuttaminen edellyttää valuutan muuttamista. Satoshi lo
 ## Yhteenveto
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
-Onnittelut BTC 101 -koulutuksen suorittamisesta! Toivon sydämestäni, että pidit siitä ja se avasi sinulle uusia ovia. Bitcoin-matkasi on vasta alussa, ja kutsun sinut tutustumaan kaikkiin muihin Plan ₿ Networkissa saatavilla oleviin kursseihin:
-
-#### Hanki ja turvaa ensimmäiset bitcoinisi kurssilla
-
-https://planb.network/courses/btc102
-
-#### Tutustu Lightning Networkiin kurssilla
-
-https://planb.network/courses/lnp201
-
-#### Tutustu itävaltalaiseen talousajatteluun kurssilla
-
-https://planb.network/courses/eco201
-
-#### Päivitä verkon turvallisuutesi kurssilla
-
-https://planb.network/courses/scu101
-
-#### Ymmärrä Bitcoinin perusteet ja rakenna kotisi lämmitysjärjestelmä kurssilla
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

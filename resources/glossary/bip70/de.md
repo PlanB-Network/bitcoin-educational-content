@@ -1,0 +1,5 @@
+---
+term: BIP70
+
+---
+Interaktives Zahlungsprotokoll für Bitcoin. Es ermöglicht das Senden von Zahlungsanforderungen und den sicheren und standardisierten Empfang von Zahlungen. Bei diesem Protokoll klickt der Kunde auf eine Bitcoin-URI (BIP21), die um einen zusätzlichen Parameter (beschrieben in BIP72) erweitert ist. Die Zahlungsanforderung wird mit dem SSL-Zertifikat des Händlers signiert. Nach dem Empfang und der Validierung dieser Anfrage werden die Zahlungsdetails automatisch in die Transaktionsschnittstelle der Brieftasche des Kunden eingegeben. Dieses Protokoll bietet eine Zahlungsbestätigung und verbessert die Sicherheit und das Benutzererlebnis, indem es die begünstigte Entität der Zahlung klarstellt. Diese in BIP70 vorgeschlagene Methode wurde von den Händlern nie allgemein angenommen.

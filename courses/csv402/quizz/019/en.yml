@@ -1,0 +1,9 @@
+question: What is the main purpose of smart contracts in the RGB environment?
+answer: Implement automated Bitcoin deals without a centralized registry
+wrong_answers:
+  - Facilitating the creation of centralized Bitcoin registries
+  - Provide a public interface for all Bitcoin transactions
+  - Simplifying the execution of ERC-20 tokens on Bitcoin
+explanation: |
+  RGB smart contracts enable the automation of agreements while avoiding the use of centralized registers, relying on Bitcoin for cryptographic anchors.
+reviewed: false

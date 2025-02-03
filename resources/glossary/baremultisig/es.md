@@ -1,0 +1,5 @@
+---
+term: BARE-MULTISIG
+
+---
+Modelo de script estándar P2MS utilizado para establecer condiciones de gasto en un UTXO. Permite bloquear bitcoins con múltiples claves públicas. Para gastar estos bitcoins, se debe proporcionar una firma con un número predefinido de claves privadas asociadas. Por ejemplo, un P2MS `2/3` tiene `3` claves públicas con `3` claves privadas secretas asociadas. Para gastar los bitcoins bloqueados con este script P2MS, se debe realizar una firma con al menos `2` de las `3` claves privadas. Este es un sistema de seguridad de umbral. Este script fue inventado en 2011 por Gavin Andresen cuando acababa de hacerse cargo del mantenimiento del cliente principal de Bitcoin. Hoy en día, P2MS es sólo marginalmente utilizado por algunas aplicaciones. La gran mayoría de las multifirmas modernas utilizan otros modelos de script como P2SH o P2WSH. Comparado con éstos, P2MS es extremadamente trivial. Las claves públicas que lo componen se revelan al recibir la transacción. Utilizar un P2MS también es más caro que otros scripts de multifirma.

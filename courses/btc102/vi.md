@@ -161,6 +161,8 @@ Ngoài lừa đảo tiền mã hóa và lừa đảo tài chính, lý do chính 
 
 Nếu chủ đề này hoàn toàn mới mẻ với bạn, bạn nên khám phá chi tiết khóa học SECU 101, đó là một khoá học rất thú vị.
 
+https://planb.network/courses/scu101
+
 Việc giữ cho máy tính của bạn ở tình trạng làm việc tối ưu là rất quan trọng, cho dù bạn quan tâm đến Bitcoin hay không. Một bản cập nhật không chỉ để thêm tính năng mới: nó cũng sửa chữa lỗi và cải thiện bảo mật của phần mềm của bạn. Vì vậy, hãy đảm bảo:
 
 - Luôn cập nhật phần mềm của bản thân,
@@ -797,9 +799,6 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
   Trong khi đánh giá cao sự ẩn danh và an toàn, Bitcoiner "hoài nghi" vẫn thực dụng trong các lựa chọn của mình, sử dụng các giải pháp đã được kiểm chứng và đáng tin cậy để bảo vệ bitcoin của mình trong quá trình khám phá hệ sinh thái tiền mã hóa.
   Trong tâm trí của Bitcoiner "hoài nghi", sự cẩn trọng, bảo mật và ẩn danh là tối quan trọng. Những ưu tiên này định hình một cách tiếp cận cẩn thận và được suy nghĩ kỹ lưỡng khi sử dụng Bitcoin, thúc đẩy sự tự lực và cẩn trọng. Bitcoiner "hoài nghi" sẵn lòng đầu tư thời gian và công sức để đảm bảo an toàn và riêng tư cho bitcoin của họ, đồng thời khéo léo khám phá, sử dụng hệ sinh thái để không làm lộ thông tin. Mặc dù sẽ có một số người "cẩn thận quá mức", Bitcoiner "hoài nghi" cho rằng sự chăm chỉ và chú ý tới các chi tiết là điều cốt lõi dẫn tới sự thành công và an toàn của họ trong thế giới Bitcoin.
 
-# Tương lai với Bitcoin
-
-<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Tạo kế hoạch thừa kế
 
@@ -974,9 +973,6 @@ Xin chúc mừng! Bạn đã có phiên bản đầu tiên của kế hoạch th
 _Cryptoasset Inheritance Planning, Hướng dẫn đơn giản cho chủ sở hữu, Pamela Morgan, ESQ. Bản quyền 2018 bởi Merkle Bloom LLC, Tất cả các quyền được bảo lưu. CC-BY_ Một lời cảm ơn lớn đến Pamela Morgan vì công việc quý báu của bà và cho phép tôi chia sẻ nó. Tôi cũng cảm ơn tất cả những người đã đóng góp vào việc tạo nên cuốn sách.
 Các bạn rất tuyệt vời :D Đội ngũ của tôi và sinh viên của tôi cũng rất biết ơn bạn!
 
-# Lời cảm ơn và tiếp tục khám phá
-
-<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Xin chúc mừng! BẠN LÀ TOP 0.1%
 
@@ -1002,7 +998,7 @@ Dù trường hợp nào, tất cả các khóa học của chúng tôi đều m
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Đánh giá khóa học
+## Nhận xét & Đánh giá
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1015,34 +1011,4 @@ Dù trường hợp nào, tất cả các khóa học của chúng tôi đều m
 ## Kết luận
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
-Chúc mừng bạn đã hoàn thành khóa học này!
-
-Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc quan trọng này trong hành trình học tập của mình. Thông qua sự cống hiến và tham gia của bạn, bạn đã thu được những kiến thức và kỹ năng quý giá sẽ giúp ích cho sự phát triển nghề nghiệp của bạn.
-
-Để tiếp tục đào sâu vào thế giới Bitcoin, chúng tôi mời bạn khám phá tất cả các khóa học khác có sẵn trên Plan ₿ Network:
-
-#### Khám phá Bitcoin và các nguyên lý cơ bản của nó với
-
-https://planb.network/courses/btc101
-
-#### Cập nhật bảo mật trực tuyến của bạn với
-
-https://planb.network/courses/scu101
-
-#### Khám phá Lightning Network với
-
-https://planb.network/courses/lnp201
-
-#### Tìm hiểu về Trường phái Kinh tế Áo với
-
-https://planb.network/courses/eco201
-
-#### Hiểu về cơ bản về Bitcoin và xây dựng hệ thống sưởi gia đình của bạn với
-
-https://planb.network/courses/min201
-
-#### Hiểu cách hoạt động của ví Bitcoin với
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

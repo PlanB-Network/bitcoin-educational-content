@@ -1,0 +1,9 @@
+question: Por que razão é essencial uma manutenção cuidadosa dos registos quando se lida com a Bitcoin na contabilidade de uma empresa?
+answer: Porque cada transação de Bitcoin pode criar um evento tributável, e são necessários registos precisos para calcular ganhos, perdas e obrigações fiscais.
+wrong_answers:
+  - Porque a cadeia de blocos arquiva automaticamente os impostos em nome da empresa.
+  - Porque não se aplicam quaisquer normas contabilísticas às transacções de Bitcoin.
+  - Porque é impossível rastrear as transacções de Bitcoin depois de registadas.
+explanation: |
+  Cada compra, venda ou pagamento efectuado em Bitcoin pode ter implicações fiscais. Manter registos detalhados da base de custos, do preço de venda e do momento da compra garante a elaboração de relatórios fiscais corretos e conformes.
+reviewed: false

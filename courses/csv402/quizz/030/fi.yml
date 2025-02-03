@@ -1,0 +1,9 @@
+question: Mitä osia sisältyy RGB-lähetykseen, jonka Bob (vastaanottaja) vastaanottaa sopimusta varten?
+answer: Genesis, skeema, rajapinta ja rajapinnan toteutus
+wrong_answers:
+  - Genesis, Schema, Siirtymä ja Laajennus
+  - Skeema, rajapinta, allekirjoitus ja PSBT
+  - Genesis, käyttöliittymä, PSBT ja historia
+explanation: |
+  RGB-sopimuksen lähetys sisältää Genesis-, Schema-, Interface- ja Interface Implementation -asiakirjat, jotka sisältävät kaikki sopimuksen validoinnissa tarvittavat tiedot.
+reviewed: false

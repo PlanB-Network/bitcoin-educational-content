@@ -1,0 +1,9 @@
+question: ¿Qué afirmación refleja mejor el papel de Bitcoin como red y activo para las empresas?
+answer: Puede actuar como depósito de valor y medio de intercambio en un sistema global descentralizado.
+wrong_answers:
+  - Sólo puede funcionar como un sistema local de tarjetas regalo.
+  - Es únicamente una herramienta especulativa sin utilidad real.
+  - Para funcionar, debe estar vinculado a la política monetaria de un solo país.
+explanation: |
+  El diseño global y nativo de Internet de Bitcoin le permite servir no sólo como depósito de valor, sino también como medio de intercambio, proporcionando a las empresas una liquidación rápida, sin permisos y definitiva de las transacciones en todo el mundo.
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: BITVM
+
+---
+Protokol představený Robinem Linusem v roce 2023, jehož cílem je rozšířit možnosti vývoje aplikací pro Bitcoin. BitVM umožňuje libovolně provádět libovolné výpočetní operace a pomocí těchto výpočtů řídit zapojené bitcoiny. Protokol zahrnuje přesunutí všech výpočtů mimo řetězec a zároveň umožňuje zpochybnit výpočet v řetězci, pokud druhá strana tvrdí, že výsledek je podvodný. BitVM tak poskytuje Bitcoinu téměř Turingovu výpočetní schopnost, aniž by vyžadoval jakékoli úpravy na úrovni konsensu. BitVM replikuje chování logického hradla `NAND` prostřednictvím kombinovaného použití opkódů `OP_BOOLAND` (který sám o sobě replikuje chování logického hradla `AND`) a `OP_NOT` (který replikuje chování logického hradla `NOT`). Toto logické hradlo `NAND` lze skutečně použít v řetězci k replikaci chování všech ostatních existujících logických hradel. Tomu se říká "univerzální hradlo". Řada logických hradel `NAND` tak může replikovat jakýkoli výpočetní obvod. Myšlenkou BitVM je ukládat tyto výpočetní posloupnosti `NAND` jako listy v MAST transakce Taproot.

@@ -1,0 +1,9 @@
+question: O que é uma atribuição no protocolo RGB?
+answer: Uma saída que modifica, actualiza ou cria propriedades no estado de um contrato
+wrong_answers:
+  - Um compromisso criptográfico único armazenado numa transação Bitcoin
+  - Uma transação Bitcoin parcialmente assinada antes da validação final
+  - Uma atualização pública do Estado Global
+explanation: |
+  Uma atribuição combina uma definição de selo e um estado próprio para representar uma parte atribuída do estado.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mida sisaldab RGB-saadetis?
+answer: Ülemineku kinnitamiseks vajalikud kliendipoolsed andmed
+wrong_answers:
+  - Bitcoini plokiahela täielik koopia
+  - Bitcoini avalike kohustuste loetelu
+  - Riigi üleminekus osalejate avalikud võtmed
+explanation: |
+  Saadetis sisaldab RGB-teavet, mis võimaldab vastuvõtjal kinnitada oleku üleminekut vastavalt lepingu reeglitele.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Why is volatility considered a natural aspect of Bitcoin as an emerging asset?
+answer: Because Bitcoin is still relatively young, attracting speculators and responding to market news, causing price swings before stabilizing over longer periods.
+wrong_answers:
+  - Because it’s centrally controlled and prices are set by one authority.
+  - Because Bitcoin lacks any users holding it long-term.
+  - Because merchants must set prices unpredictably every hour.
+explanation: |
+  As a developing asset, Bitcoin’s price is influenced by speculation, sentiment, and varying adoption rates. Over time, as more stable, long-term holders participate, volatility may diminish, but it remains a feature of early-stage growth.
+reviewed: false

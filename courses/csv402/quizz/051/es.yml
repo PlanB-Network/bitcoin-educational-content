@@ -1,0 +1,9 @@
+question: ¿Qué es una "Definición de Sello" en el contexto de la Asignación RGB?
+answer: La referencia a un UTXO que establece la propiedad de un Estado Propietario
+wrong_answers:
+  - La agrupación de los datos intercambiados entre las partes, sujeta a la validación del lado del cliente
+  - Compilación de contratos en código ejecutable fuera de la cadena
+  - La rama DAG del historial de transiciones de estado
+explanation: |
+  La "Definición del Sello" vincula un UTXO a una parte específica del estado del contrato, garantizando la correcta asignación de un derecho o activo.
+reviewed: false

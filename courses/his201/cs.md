@@ -1217,7 +1217,7 @@ Tento záhadný aspekt obklopující tvůrce Bitcoinu byl dobře shrnut Hal Finn
 >
 > Co znamená to S?"
 
-## Hodnocení kurzu
+## Recenze & Hodnocení
 <chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1341,7 +1341,7 @@ V roce 2011 Satoshi zmizel, ale Bitcoin přežil. Kryptoměna dokonce definitivn
 
 # Závěr
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
-## Zhodnoťte tento kurz
+## Recenze & Hodnocení
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
 <isCourseReview>true</isCourseReview>
 ## Závěrečná zkouška
@@ -1349,28 +1349,4 @@ V roce 2011 Satoshi zmizel, ale Bitcoin přežil. Kryptoměna dokonce definitivn
 <isCourseExam>true</isCourseExam>
 ## Závěr
 <chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
-Gratulujeme k dokončení tohoto kurzu!
-
-Jsme potěšeni, že jste dosáhli tohoto důležitého milníku ve své vzdělávací cestě.
-
-Díky vaší oddanosti a závazku jste získali cenné znalosti a dovednosti, které vám poslouží ve vašem profesním rozvoji.
-
-Pro další hlubší zkoumání světa Bitcoinu vás zveme k objevování všech dalších kurzů dostupných na Plan ₿ Network:
-
-#### Objevte Bitcoin a jeho základy s
-https://planb.network/courses/btc101
-
-#### Objevte rakouskou školu ekonomie s
-https://planb.network/courses/eco201
-
-#### Získejte a zabezpečte své první bitcoiny s
-https://planb.network/courses/btc102
-
-#### Aktualizujte svou online bezpečnost s
-https://planb.network/courses/scu101
-
-#### Objevte vývoj svobody v průběhu věků s
-https://planb.network/courses/phi201
-
-#### Pochopte základy těžby s
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,9 @@
+question: No RGB, onde está o compromisso quando um selo de utilização única é fechado?
+answer: Na saída da transação que gasta o ponto de saída
+wrong_answers:
+  - Na entrada da transação que gasta o ponto de saída
+  - No scriptSig da transação que gasta o ponto de saída
+  - Na testemunha da transação que gasta o ponto de saída
+explanation: |
+  O compromisso é inserido na saída da transação que gasta o ponto de saída que define o selo de utilização única.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What characterizes the complexity of today’s card-based payment process at a retail point of sale?
+answer: It involves multiple intermediaries, several steps, and can take days to fully settle funds.
+wrong_answers:
+  - It requires only one instant step and funds are settled immediately.
+  - It relies exclusively on physical cash and no intermediaries.
+  - It ensures that once the card is swiped, the merchant has the funds instantly and irreversibly.
+explanation: |
+  Card payments often involve a chain of intermediaries (acquirers, issuers, card networks), require authorization and settlement steps, and can take from 48 hours to several days before the merchant receives the net funds.
+reviewed: false

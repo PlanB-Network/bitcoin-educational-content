@@ -1225,7 +1225,7 @@ Questo aspetto misterioso che circonda il creatore di Bitcoin è stato ben riass
 >
 > Cosa rappresenta la S?"
 
-## Valuta il corso
+## Recensioni & Valutazioni
 <chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1350,7 +1350,7 @@ In quarto luogo, Bitcoin è stata una creazione altruistica. Satoshi Nakamoto ha
 Nel 2011, Satoshi è scomparso, ma Bitcoin è sopravvissuto. La criptovaluta ha addirittura decollato definitivamente, sia dal punto di vista mediatico che economico. La macchina era stata avviata e nessuno poteva fermarla.
 # Conclusione
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
-## Valuta questo corso
+## Recensioni & Valutazioni
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
 <isCourseReview>true</isCourseReview>
 ## Esame finale
@@ -1358,28 +1358,4 @@ Nel 2011, Satoshi è scomparso, ma Bitcoin è sopravvissuto. La criptovaluta ha 
 <isCourseExam>true</isCourseExam>
 ## Conclusione
 <chapterId>9c501c44-0f1a-449e-8ab3-a5873abe4db6</chapterId>
-Congratulazioni per aver completato questo corso!
-
-Siamo lieti che tu abbia raggiunto questa importante tappa nel tuo percorso di apprendimento.
-
-Grazie alla tua dedizione e al tuo impegno, hai acquisito preziose conoscenze e competenze che ti serviranno nel tuo sviluppo professionale.
-
-Per continuare a esplorare in profondità l'universo Bitcoin, ti invitiamo a scoprire tutti gli altri corsi disponibili su Plan ₿ Network:
-
-#### Scopri Bitcoin e i suoi fondamenti con
-https://planb.network/courses/btc101
-
-#### Scopri la Scuola Austriaca di Economia con
-https://planb.network/courses/eco201
-
-#### Ottieni e proteggi i tuoi primi bitcoin con
-https://planb.network/courses/btc102
-
-#### Aggiorna la tua sicurezza online con
-https://planb.network/courses/scu101
-
-#### Scopri l'evoluzione della libertà attraverso i secoli con
-https://planb.network/courses/phi201
-
-#### Comprendi le basi del mining con
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

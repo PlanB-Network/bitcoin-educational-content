@@ -1,0 +1,5 @@
+---
+term: NORMAALI JOHDANNAINEN
+
+---
+Prosessi, jossa luodaan lapsiavaimia HD-lompakoissa. Normaali derivointi käyttää vanhempien julkista avainta syöttötietona `HMAC-SHA512`-funktiolle, jolloin vanhempien julkisista avaimista ja vanhempien ketjukoodista voidaan luoda lasten julkisia avaimia. Prosessi sisältää vanhemman julkisen avaimen ja alle $2^{31}$:n indeksin ketjuttamisen, minkä jälkeen `HMAC-SHA512`-sovellusta käytetään vanhemman ketjukoodin kanssa. Tulos jaetaan kahteen osaan: ensimmäiset 256 bittiä lisätään vanhemman yksityiseen avaimeen, jotta saadaan lapsen yksityinen avain, ja loput 256 bittiä muodostavat lapsen ketjukoodin. Tällä menetelmällä varmistetaan, että laajennettua julkista avainta voidaan käyttää lapsen julkisten avainten johtamiseen. Normaalissa derivoinnissa käytetään normaalia derivointia kaikilla derivoinnin tasoilla tilisyvyydestä alkaen. Derivointipolkujen merkinnöissä normaali derivointi tunnistetaan, kun siinä on vain indeksi ilman apostrofia `'`.

@@ -1646,7 +1646,7 @@ Masa Depan Cerah!
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Evaluasi Kursus
+## Ulasan & Penilaian
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1654,35 +1654,4 @@ Masa Depan Cerah!
 ## Kesimpulan
 
 <chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
-
-Selamat atas penyelesaian kursus ini!
-
-Kami sangat senang Anda telah berhasil mencapai tonggak ini dalam perjalanan pembelajaran Anda.
-
-Melalui dedikasi dan keterlibatan Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan bermanfaat dalam pengembangan profesional Anda.
-
-Untuk terus mendalami dunia Bitcoin, kami mengundang Anda untuk menjelajahi semua kursus lain yang tersedia di Plan ₿ Network:
-
-#### Pelajari Bitcoin dan dasar-dasarnya dengan
-
-https://planb.network/courses/btc101
-
-#### Perbarui keamanan online Anda dengan
-
-https://planb.network/courses/scu101
-
-#### Pelajari Lightning Network dengan
-
-https://planb.network/courses/lnp201
-
-#### Pelajari Pemikiran Ekonomi Mazhab Austria dengan
-
-https://planb.network/courses/eco201
-
-#### Pelajari sejarah asal-usul Bitcoin dengan
-
-https://planb.network/courses/his201
-
-#### Pahami munculnya hiperinflasi dengan
-
-https://planb.network/courses/eco204
+<isCourseConclusion>true</isCourseConclusion>

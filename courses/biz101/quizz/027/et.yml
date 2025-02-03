@@ -1,0 +1,9 @@
+question: Milline on üks soovituslik praktika seoses eestkostega Bitcoini omandamisel?
+answer: Kaaluge pärast esialgset ostu isehoidmislahendusi, et ettevõte saaks oma vara tõeliselt kontrollida.
+wrong_answers:
+  - Ärge kunagi võtke Bitcoini vahetusest mingil juhul välja.
+  - Usaldage alati ühte hoidjat ilma turvameetmeid läbi vaatamata.
+  - Salvesta kõik Bitcoinid avalikul veebisaidil lihtsa parooliga
+explanation: |
+  Pärast Bitcoini ostmist tagab ettevõtte otsese kontrolli oma rahaliste vahendite üle, kui see liigub isehaldatavasse rahakotti. Kuigi kolmanda osapoole depositooriumid võivad olla mugavad, on isehoidmine kooskõlas Bitcoini finantssuveräänsuse põhimõttega.
+reviewed: false

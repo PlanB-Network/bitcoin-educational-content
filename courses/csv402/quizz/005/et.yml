@@ -1,0 +1,9 @@
+question: Millist meetodit kasutatakse RGB-s ühekordse kasutusega plommi määratlemiseks?
+answer: Konkreetne väljapoole suunatud punkt
+wrong_answers:
+  - Konkreetne avalik võti
+  - Konkreetne Bitcoini aadress
+  - Mitme UTXO kombinatsioon
+explanation: |
+  RGB määratleb ühekordselt kasutatava pitseri kui konkreetse väljundpunkti, mida saab seejärel sulgeda selle väljundpunkti kulutustega (TXID + väljundnumber).
+reviewed: false

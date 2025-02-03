@@ -1,0 +1,9 @@
+question: Os carris de pagamento construídos sobre os sistemas monetários tradicionais são ?
+answer: Essencialmente pago pelos comerciantes através de taxas dos processadores de pagamento
+wrong_answers:
+  - Essencialmente gratuito porque o cliente paga o preço apresentado pelo comerciante
+  - Pago pelo cliente para além do preço pedido pelo comerciante
+  - Pago pelas empresas de cartões que revendem os dados dos clientes
+explanation: |
+  Nada é gratuito. Os sistemas de pagamento integrados nos sistemas monetários tradicionais são operados por vários fornecedores, como as empresas de cartões e os bancos adquirentes, que cobram uma taxa fixa e/ou uma taxa percentual por cada transação
+reviewed: false

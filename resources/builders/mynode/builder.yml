@@ -1,3 +1,4 @@
+id: 46c1b9f6-240e-4acb-8e89-0e34880e5187
 name: My Node
 links:
   website: https://mynodebtc.com/
@@ -8,7 +9,7 @@ tags:
   - Node
   - infrastructure
 
-category: Node
+category: node
 
 # Proofreading metadata
 original_language: en

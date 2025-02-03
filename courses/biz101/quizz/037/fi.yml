@@ -1,0 +1,9 @@
+question: Mikä on yksi Bitcoin-maksujen ekosysteemin tärkeimmistä eduista ratkaisujen välillä vaihtamisen kannalta?
+answer: Palveluntarjoajan vaihtaminen tai työkalujen päivittäminen on suhteellisen helppoa, koska Bitcoinin avoimet, yhteentoimivat standardit mahdollistavat saumattomat varainsiirrot.
+wrong_answers:
+  - Kun palveluntarjoaja on valittu, yritys ei voi koskaan vaihtaa toiseen ratkaisuun.
+  - Bitcoin-ratkaisut ovat patentoituja ja sidottuja yhteen ainoaan toimittajaan.
+  - Palveluntarjoajan vaihtaminen edellyttää hallituksen hyväksyntää ja pitkää oikeudellista prosessia.
+explanation: |
+  Koska Bitcoin perustuu avoimiin protokolliin, kauppiaat voivat vapaasti siirtää varojaan tai ottaa käyttöön uusia ratkaisuja, kun ne kasvavat tai niiden tarpeet muuttuvat. Tämä joustavuus varmistaa, että yritykset voivat valita parhaat työkalut ilman myyjäsidonnaisuutta.
+reviewed: false

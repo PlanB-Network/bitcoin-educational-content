@@ -1,0 +1,9 @@
+question: ¿Qué tendencia se observa entre los participantes que operan nodos en la Lightning Network?
+answer: Los operadores profesionales de nodos proporcionan cada vez más liquidez, mientras que los usuarios particulares se centran en los nodos "periféricos", lo que modifica la composición de la red.
+wrong_answers:
+  - Los aficionados individuales han sustituido por completo a todos los operadores profesionales.
+  - Los grandes bancos operan ahora de forma centralizada todos los nodos Lightning.
+  - La red ha cerrado los nodos personales para permitir sólo a las grandes empresas.
+explanation: |
+  Hay una tendencia hacia una mayor liquidez y estabilidad proporcionada por las entidades profesionales, mientras que los usuarios cotidianos recurren a soluciones simplificadas o alojadas, lo que hace que la red sea más sólida y accesible.
+reviewed: false

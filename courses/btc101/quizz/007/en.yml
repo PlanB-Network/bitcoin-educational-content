@@ -1,12 +1,9 @@
-question: What is the main focus of this Bitcoin course?
-answer: The monetary aspects of Bitcoin.
+question: According to Nobel Prize winner F.A Hayek, what must happen to have good money again?
+answer: We take the thing out of the hands of the government.
 wrong_answers:
-  - The coding aspects of Bitcoin.
-  - The ecological impact of Bitcoin.
-  - The regulatory aspects of Bitcoin.
+  - We give the thing to a better government.
+  - We give the thing to an authoritarian government.
+  - We take the thing out of the hands of the people.
 explanation: |
-  This Bitcoin course focuses on the monetary aspects of
-  Bitcoin, including how to buy and sell bitcoins, securely
-  store them in digital wallets, and use them for
-  transactions.
+  Hayek says: "I don't believe that we should ever have a good money again, before we take the thing out of the hands of the government. If we can't take them violently out of the hands of the government, all we can do is by some sly or roundabout way introduce something they can't stop."
 reviewed: true

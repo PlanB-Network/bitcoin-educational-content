@@ -1,0 +1,9 @@
+question: Porque é que a Lightning Network pode ser comparada ao "correio eletrónico para pagamentos"?
+answer: Porque permite uma troca de valores sem descontinuidades, global e sem permissões, tão fácil como enviar uma mensagem.
+wrong_answers:
+  - Porque envia pagamentos através de fornecedores de correio eletrónico tradicionais.
+  - Porque só funciona quando anexado a mensagens de correio eletrónico normais.
+  - Porque armazena os saldos dos utilizadores no corpo de um e-mail.
+explanation: |
+  Tal como o correio eletrónico revolucionou a comunicação, eliminando os intermediários e permitindo que qualquer pessoa enviasse mensagens para todo o mundo, a Lightning Network simplifica e acelera as transacções, tornando a transferência de valores tão simples e acessível como o correio eletrónico.
+reviewed: false

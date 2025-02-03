@@ -1,5 +1,5 @@
 ---
-name: OXT - Análisis de Cadena
+name: OXT - Chain Analysis
 description: Domina los fundamentos básicos del análisis de cadena en Bitcoin
 ---
 ![cover](assets/cover.webp)

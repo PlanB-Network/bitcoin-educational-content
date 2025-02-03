@@ -1,0 +1,9 @@
+question: Qual é a vantagem dos pagamentos Lightning Network para os comerciantes no ponto de venda?
+answer: Os pagamentos relâmpago são liquidados quase instantaneamente e não requerem vários intermediários, reduzindo as taxas e os atrasos na liquidação.
+wrong_answers:
+  - Os pagamentos relâmpagos necessitam de semanas para serem confirmados e exigem uma burocracia pesada.
+  - Os pagamentos relâmpago só ocorrem se forem aprovados pela autoridade de um banco central.
+  - Os pagamentos relâmpagos podem ser anulados à vontade pelo comprador após a venda.
+explanation: |
+  A Lightning Network torna as transacções mais rápidas e baratas ao permitir a liquidação fora da cadeia. Os comerciantes podem receber fundos quase instantaneamente, com taxas mínimas, e sem depender de intermediários de pagamento tradicionais.
+reviewed: false

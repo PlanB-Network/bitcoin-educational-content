@@ -1,6 +1,6 @@
 year: 2024-10
 name: Future of Bitcoin 2024
-builder: Future of Bitcoin
+builder: Bitvavo
 location: Antwerp, Belgium
 language:
   - en
@@ -20,3 +20,5 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+
+projectId: 53774b9c-1612-4e86-990c-221a7034b998

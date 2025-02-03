@@ -1,0 +1,14 @@
+title: "Bitcoin Village"
+publication_year: 2023
+cover: cover_en.webp
+original: true
+description: |
+  Bitcoin Village'iga viib autor meid informatiivsele teekonnale läbi selle tehnoloogia, uurides raha päritolu kuni arvutiprotokolli tuumani. Samuti esitab ta mõtteid sotsiaalsete ja poliitiliste mõjude kohta, määratledes alused, mida Bitcoin paneb õiglasemale ja teadlikumale ühiskonnale.
+contributors:
+  - another-satoshi
+original_language: en
+proofreading:
+  - language: en
+    urgency: 1
+    contributors_id:
+      - davidecoltro

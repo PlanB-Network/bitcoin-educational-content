@@ -1,0 +1,5 @@
+---
+term: SHARES DIFFICULTY
+
+---
+A target difficulty higher than that of Bitcoin (thus less difficult), defined by a mining pool to qualify a hash of a share and assess the contribution of each individual miner within the pool. To efficiently manage the verification load and ensure that every miner, regardless of their computational power, submits shares regularly, pools adjust the difficulty of the shares. The difficulty assigned to each miner determines the number of shares they accumulate: for example, if a miner has an assigned difficulty of 10 and submits 5 valid proofs of work at this difficulty, they obtain 50 shares. A more powerful miner with a difficulty of 100 who submits 7 valid proofs of work will receive 700 shares. This system allows for the precise quantification of each miner's hashrate and the distribution of rewards according to the chosen calculation method for compensation (PPS, PPLNS, TIDES...).

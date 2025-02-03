@@ -1,0 +1,9 @@
+question: Mis on liidese rakendamise eesmärk RGB-arhitektuuris?
+answer: Skeemi väljade seostamine liideses määratletud nimedega
+wrong_answers:
+  - AluVM skriptide koostamine valideerimiseks
+  - Määrata lepingu globaalsed olekud ja omandatud olekud
+  - Kliendipoolsete krüptograafiliste tõendite salvestamiseks
+explanation: |
+  Kasutajaliidese rakendamine loob seose skeemi äriloogika ja liidese poolt loetava esitusviisi vahel.
+reviewed: false

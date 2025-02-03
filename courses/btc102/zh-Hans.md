@@ -159,7 +159,9 @@ objectives:
 - 保持计算机更新且无恶意软件，
 - 通过使用专用工具（Signal, Tor, ProtonMail）来增强您的隐私。
 
-如果这个话题对您完全陌生，SECU 101培训可以让您详细了解它。
+如果这个话题对您完全陌生，SCU 101培训可以让您详细了解它。
+
+https://planb.network/courses/scu101
 
 无论您是否对比特币感兴趣，保持计算机处于最佳工作状态都至关重要。更新不仅仅是为了添加新功能：它还修复漏洞并提高软件的安全性。所以，请确保：
 
@@ -191,7 +193,7 @@ VPN，或称虚拟专用网，将通过掩盖您的IP地址来保护您的隐私
 - 为数据加密使用Bitlocker，
 - 为资金转移使用Samurai Wallet。
 
-再次强调，如果您对这个领域感兴趣，SECU 101培训可供您参考。
+再次强调，如果您对这个领域感兴趣，SCU 101培训可供您参考。
 
 ## 为初学者的诀窍
 
@@ -798,9 +800,6 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 在偏执个体的心态中，谨慎、安全和匿名性占有至高无上的地位。这些事项优先要求我们在使用比特币时要保持慎重和周到，促进自给自足和谨慎。偏执个体愿意投入时间和努力来确保他们的比特币的安全和隐私，同时巧妙地导航生态系统以避免不必要的暴露。虽然一些人认为这太过于谨慎，但偏执用户们认为勤奋和十分关注细节的特点是关键的，让他们可以成功地且安全地加入比特币世界中。
 
-# 与比特币的未来
-
-<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## 制定遗产计划
 
@@ -979,9 +978,6 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 _Cryptoasset Inheritance Planning, A simple guide for owners, Pamela Morgan, ESQ. Copyright 2018 by Merkle Bloom LLC, All rights reserved。CC-BY_ 非常感谢Pamela Morgan的富有价值的作品以及允许我分享它。也感谢所有参与其写作的人。
 您们是最棒的 :D 我的团队和我的学生也非常感谢你！
 
-# 致谢并继续探索未知
-
-<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## 恭喜！您已经进入了顶尖的0.1%
 
@@ -1007,7 +1003,7 @@ _Cryptoasset Inheritance Planning, A simple guide for owners, Pamela Morgan, ESQ
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## 评价课程
+## 评价 & 评分
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1020,34 +1016,4 @@ _Cryptoasset Inheritance Planning, A simple guide for owners, Pamela Morgan, ESQ
 ## 结论
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
-恭喜您完成本课程！
-
-我们很高兴您在学习之旅中成功达到这个里程碑。通过您的dedication和参与，您获得了宝贵的知识和技能，这将对您的职业发展大有帮助。
-
-要继续深入了解比特币世界，我们邀请您探索 Plan ₿ Network 上提供的所有其他课程：
-
-#### 通过以下链接探索比特币及其基础知识
-
-https://planb.network/courses/btc101
-
-#### 通过以下链接更新您的在线安全
-
-https://planb.network/courses/scu101
-
-#### 通过以下链接探索闪电网络
-
-https://planb.network/courses/lnp201
-
-#### 通过以下链接了解奥地利经济学派
-
-https://planb.network/courses/eco201
-
-#### 通过以下链接了解比特币基础知识并建造您的家庭供暖系统
-
-https://planb.network/courses/min201
-
-#### 通过以下链接了解比特币钱包的工作原理
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

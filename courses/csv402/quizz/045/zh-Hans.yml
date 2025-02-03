@@ -1,0 +1,9 @@
+question: 哪种 RGB 标准用于定义可替换标记？
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20 是用于通过 RGB 协议创建和管理可互换令牌的标准。
+reviewed: false

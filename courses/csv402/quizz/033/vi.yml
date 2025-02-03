@@ -1,0 +1,9 @@
+question: What is the purpose of terminal consignment in the RGB transfer process?
+answer: Provide State Transitions history
+wrong_answers:
+  - Validate Genesis contract
+  - Delete old transitions
+  - Generate a new Schema for the transfer
+explanation: |
+  The terminal consignment collects the history of the contract to prove the legitimacy of the asset transferred to date.
+reviewed: false

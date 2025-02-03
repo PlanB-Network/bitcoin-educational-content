@@ -1,0 +1,9 @@
+question: Miten kryptografisia sitoumuksia (Taprootin tai OP_RETURNin kautta) käytetään RGB:ssä?
+answer: Ne ankkuroivat tilasiirtymät lohkoketjuun
+wrong_answers:
+  - Ne tallentavat sopimustiedot lohkoketjuun
+  - Ne korvaavat asiakaspuolen validoinnin ketjussa tapahtuvalla älykkäiden sopimusten toteutuksella
+  - Ne luovat solmuja transaktioiden todentamista varten
+explanation: |
+  Sitoumusten avulla tilapäivitykset voidaan liittää turvallisesti UTXO:hon, jotta voidaan todistaa tietyn tiedon olemassaolo tiettynä ajankohtana paljastamatta itse tietoa.
+reviewed: false

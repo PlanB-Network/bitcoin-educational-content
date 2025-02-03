@@ -1,5 +1,5 @@
 id: 4d142a6a-9127-4ffb-9e0a-5aba29f169e2
-builder: PlanB Network
+builder: Plan ₿ Network
 
 tags:
   - GitHub
@@ -88,3 +88,5 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 10050
+
+projectId: cd62a137-baad-4133-b90d-711963e510c7

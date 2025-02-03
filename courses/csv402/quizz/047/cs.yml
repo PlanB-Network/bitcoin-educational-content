@@ -1,0 +1,9 @@
+question: Jakou technologii lze použít ke sloučení různých verzí skrýší v případě rozporu?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Těsnění na jedno použití
+  - Replikace založená na protokolu
+explanation: |
+  CRDT zajišťují konzistenci dat tím, že umožňují sloučení více verzí zásobníku bez konfliktů na straně klienta.
+reviewed: false

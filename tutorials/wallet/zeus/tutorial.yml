@@ -10,6 +10,10 @@ tags:
   - lightning-network
   - self-custodial
 
+
+credits:
+  professor: motor-chef
+
 # Proofreading metadata
 original_language: en
 proofreading:
@@ -84,3 +88,5 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 5627
+
+projectId: 79942e25-335d-45ae-bf81-799317f7d6bd

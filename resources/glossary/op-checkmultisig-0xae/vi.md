@@ -1,0 +1,5 @@
+---
+term: OP_CHECKMULTISIG (0XAE)
+
+---
+Checks multiple signatures against multiple public keys. It takes as input a series of `N` public keys and `M` signatures, where `M` can be less than or equal to `N`. `OP_CHECKMULTISIG` verifies if at least `M` signatures match `M` of the `N` public keys. Note that due to a historical off-by-one bug, an additional element is removed by `OP_CHECKMULTISIG` from the stack. This element is called the "*dummy element*". To avoid an error in the `scriptSig`, an `OP_0`, which is a useless element, is therefore included to satisfy the removal and bypass the bug. Since BIP147 (introduced with SegWit in 2017), the useless element consumed because of the bug must be `OP_0` for the script to be valid, as it was a malleability vector. This opcode was removed in Tapscript.

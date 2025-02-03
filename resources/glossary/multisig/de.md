@@ -1,0 +1,7 @@
+---
+term: MULTISIG
+
+---
+Multisignatur-Wallets, oft abgekürzt als "Multisig", sollen die Sicherheit von Bitcoins erhöhen, indem sie mehrere Signaturen von verschiedenen privaten Schlüsseln erfordern, um eine Ausgabe zu autorisieren. Durch diese Methode wird das Risiko auf mehrere Schlüssel verteilt, wodurch sowohl das Verlust- als auch das Diebstahlrisiko (je nach Multisig-Konfiguration) verringert wird. Multisig-Geldbörsen arbeiten nach dem "m-von-n"-Modell, wobei "m" für die Mindestanzahl von Unterschriften steht, die zur Validierung einer Transaktion erforderlich sind, und "n" für die Gesamtzahl der beteiligten Schlüssel. Bei einem 2-von-3-Modell sind beispielsweise zwei von drei möglichen Unterschriften erforderlich, um eine Transaktion zu validieren. Dieser Ansatz bietet im Vergleich zu Wallets mit nur einem Schlüssel eine höhere Sicherheit, führt aber auch zu mehr Komplexität bei der Verwaltung und Sicherung. Außerdem sind Transaktionen, die ältere Multisig-Standards verwenden, weniger privat und teurer als herkömmliche Singlesig-Transaktionen. Jüngste Innovationen wie Taproot und die Verwendung von Deskriptoren dürften diese Nachteile von Multisigs jedoch minimieren, wenn nicht sogar beseitigen.
+
+> ► *Einige Bitcoiner unterscheiden zwischen den Begriffen "Multisig" und "Threshold Multisig" In der Tat argumentieren einige, dass eine Multisig notwendigerweise eine n-of-n ist, während eine Schwellen-Multisig eine m-of-n ist. Im allgemeinen Sprachgebrauch ist es jedoch üblich, auch bei m-of-n von "Multisig" zu sprechen

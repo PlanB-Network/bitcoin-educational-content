@@ -1,0 +1,9 @@
+question: Hva kjennetegner kompleksiteten i dagens kortbaserte betalingsprosess på et utsalgssted?
+answer: Det involverer flere mellomledd, flere trinn og kan ta flere dager å gjøre opp pengene.
+wrong_answers:
+  - Det krever bare ett trinn, og pengene blir gjort opp umiddelbart.
+  - Den baserer seg utelukkende på fysiske kontanter og ingen mellomledd.
+  - Det sikrer at når kortet trekkes, har forhandleren pengene umiddelbart og irreversibelt.
+explanation: |
+  Kortbetalinger involverer ofte en kjede av mellomledd (innløsere, kortutstedere, kortnettverk), krever autorisasjon og oppgjør, og det kan ta fra 48 timer til flere dager før forhandleren mottar nettobeløpet.
+reviewed: false

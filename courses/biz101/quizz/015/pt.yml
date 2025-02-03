@@ -1,0 +1,9 @@
+question: O que é que a história do pescador ilustra sobre a natureza do capital?
+answer: O capital representa recursos poupados que permitem construir ferramentas para melhorar a produtividade futura.
+wrong_answers:
+  - O capital é apenas uma reserva de bens de consumo à espera de serem consumidos imediatamente.
+  - O capital deve ser criado instantaneamente através de empréstimos do Estado.
+  - O capital só é importante para as grandes empresas, não para os pequenos empresários.
+explanation: |
+  O pescador que guarda o peixe de alguns dias para construir uma lança está a adiar o consumo imediato para obter ganhos futuros. Este exemplo mostra como a poupança (acumulação de capital) conduz a uma maior eficiência e a uma maior produção a prazo.
+reviewed: false

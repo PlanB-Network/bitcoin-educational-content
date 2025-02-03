@@ -1,0 +1,9 @@
+question: Mis on RGB-s kasutatavate ühekordsete pitserite oluline omadus?
+answer: Neid saab sulgeda ainult üks kord
+wrong_answers:
+  - Neid saab sulgeda ainult kaks korda
+  - Nad tagavad tehingute konfidentsiaalsuse
+  - Nad kõrvaldavad vajaduse konsensuse järele plokiahelas
+explanation: |
+  Ühekordsed pitserid võimaldavad luua unikaalseid krüptograafilisi kohustusi, vältides dubleerimist või topeltkulutusi.
+reviewed: false

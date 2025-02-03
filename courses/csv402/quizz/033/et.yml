@@ -1,0 +1,9 @@
+question: Mis on terminali saatmise eesmärk RGB-ülekandeprotsessis?
+answer: Anda riigi üleminekute ajalugu
+wrong_answers:
+  - Genesis'i lepingu kinnitamine
+  - Vanade üleminekute kustutamine
+  - Uue skeemi loomine ülekande jaoks
+explanation: |
+  Lõppsaadetises kogutakse lepingu ajalugu, et tõestada seni üleantud vara seaduslikkust.
+reviewed: false

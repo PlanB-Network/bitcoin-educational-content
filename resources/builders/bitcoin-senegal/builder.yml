@@ -1,0 +1,20 @@
+id: b2cdb3d7-9f8a-4452-8715-dc91bac82345
+name: ₿itcoin Sénégal
+category: conference
+
+links:
+  twitter: https://x.com/bitcoin_sen
+  youtube: https://www.youtube.com/channel/UCsKRlUJFd29M2ouZm7zdMkQ
+
+tags:
+  - adoption
+  - cypherpunk
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-01-13
+    urgency: 1
+    contributors_id:
+      - hunt-wood
+    reward: 0

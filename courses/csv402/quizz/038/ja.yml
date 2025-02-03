@@ -1,0 +1,9 @@
+question: アセットを発行するために使用されるYAMLファイルで、発行されたトークンの総数を定義するフィールドはどれですか？
+answer: 発行供給
+wrong_answers:
+  - アセットオーナー
+  - スペック
+  - 量
+explanation: |
+  YAML ファイルの「issuedSupply」フィールドは、そのコントラクトで発行されたトークンの総量を定義する。
+reviewed: false

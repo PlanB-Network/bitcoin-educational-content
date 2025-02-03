@@ -1,6 +1,6 @@
 year: 2024-05
 name: The Canadian Bitcoin Conference 2024
-builder: Canadian Bitcoin Conference
+builder: The Canadian Bitcoin Conference
 location: Montreal, Canada
 language:
   - en
@@ -18,3 +18,5 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+
+projectId: 8f47ba8c-1ed5-470b-89f2-cfd83a11df36

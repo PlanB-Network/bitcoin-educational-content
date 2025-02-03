@@ -1408,7 +1408,7 @@ Pro Hayeka minulá nestabilita tržní ekonomiky vychází z faktu, že nejdůle
 ![image](assets/6/img-006.webp)
 Hayek věřil, že volný trh s privátními měnami by vedl k větší měnové stabilitě. Téměř 50 let později kryptoměna jako Bitcoin ztělesňuje Hayekovu vizi konkurence tím, že nabízí decentralizovanou alternativu k monopolistickému systému centrálních bank. Bitcoin, se svým emisním limitem 21 milionů jednotek, je zárukou proti inflaci a libovůli regulátorů.
 
-## Ohodnoťte kurz
+## Recenze & Hodnocení
 
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1441,7 +1441,8 @@ Vše, co se děje ve světové společnosti, ve které žijeme, je výsledkem n�
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 
-## Ohodnoťte tento kurz
+## Hodnocení & Recenze
+
 
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1454,34 +1455,4 @@ Vše, co se děje ve světové společnosti, ve které žijeme, je výsledkem n�
 ## Závěr
 
 <chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
-Gratulujeme k dokončení tohoto kurzu!
-
-Jsme potěšeni, že jste dosáhli tohoto důležitého milníku ve své vzdělávací cestě.
-
-Díky vaší oddanosti a závazku jste získali cenné znalosti a dovednosti, které vám poslouží ve vašem profesním rozvoji.
-
-Pro další hloubkové zkoumání světa Bitcoinu vás zveme k objevování všech dalších kurzů dostupných na Plan ₿ Network:
-
-#### Objevte život F. Bastiata s
-
-https://planb.network/courses/eco102
-
-#### Objevte Bitcoin a jeho základy s
-
-https://planb.network/courses/btc101
-
-#### Objevte Lightning Network s
-
-https://planb.network/courses/lnp201
-
-#### Ovládněte principy soukromí na Bitcoinu
-
-https://planb.network/courses/btc204
-
-#### Objevte historii počátků Bitcoinu s
-
-https://planb.network/courses/his201
-
-#### Pochopte, jak funguje Bitcoin peněženka s
-
-https://planb.network/courses/cyp201
+<isCourseConclusion>true</isCourseConclusion>

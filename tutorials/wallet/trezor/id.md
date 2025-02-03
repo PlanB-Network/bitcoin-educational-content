@@ -1,6 +1,5 @@
 ---
 name: Trezor model One
-
 description: Pengaturan dan penggunaan Trezor model One
 ---
 

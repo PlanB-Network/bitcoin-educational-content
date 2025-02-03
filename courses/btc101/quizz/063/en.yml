@@ -1,5 +1,4 @@
-question: What is the mathematical concept that is based on human rationality and is
-  used in Bitcoin?
+question: What is the mathematical concept that is based on human rationality and is used in Bitcoin?
 answer: Game theory.
 wrong_answers:
   - Probability theory.

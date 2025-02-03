@@ -1,0 +1,9 @@
+question: Manakah dari hal berikut ini yang paling tepat menggambarkan bagaimana transaksi Bitcoin mencapai finalitas?
+answer: Setelah dicatat di blockchain, transaksi tidak dapat diubah dan tidak dapat diubah.
+wrong_answers:
+  - Transaksi dapat dibatalkan oleh bank jika terjadi sengketa.
+  - Pengguna harus mendapatkan persetujuan dari beberapa entitas pemerintah untuk menyelesaikan transaksi.
+  - Setiap peserta dapat mengedit transaksi sebelumnya sesuka hati, jika mereka memiliki kode khusus.
+explanation: |
+  Blockchain Bitcoin adalah sebuah buku besar yang anti rusak. Setelah transaksi dikonfirmasi dan dimasukkan ke dalam blok, transaksi tersebut menjadi bagian dari catatan permanen, sehingga menjamin keabadiannya.
+reviewed: false

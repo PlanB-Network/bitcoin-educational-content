@@ -1,7 +1,7 @@
 year: 2023
 name: Bitcoin4India 2023
 builder:
-location: india
+location: India
 language:
   - en
 links:
@@ -21,3 +21,5 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 1250
+
+projectId: 07d415f7-c302-4eb8-a67d-79d9f4633732

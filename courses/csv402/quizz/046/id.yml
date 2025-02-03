@@ -1,0 +1,9 @@
+question: Standar RGB mana yang memungkinkan Anda membuat aset unik atau "NFT"?
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  Standar RGB21 dirancang untuk mengelola aset unik, memungkinkan metadata pribadi dikaitkan dengan NFT.
+reviewed: false

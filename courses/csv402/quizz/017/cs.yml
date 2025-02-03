@@ -1,0 +1,9 @@
+question: Jaká struktura zaručuje časovou konzistenci přechodů v RGB?
+answer: DAG (směrovaný acyklický graf)
+wrong_answers:
+  - Jednoduchý lineární řetězec
+  - Dynamická síť peer-to-peer
+  - Binární strom pro UTXO
+explanation: |
+  DAG umožňuje strukturovat stavové přechody a zároveň umožňuje paralelní vývoj bez nekonzistencí.
+reviewed: false

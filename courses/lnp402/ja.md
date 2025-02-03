@@ -133,21 +133,15 @@ LNトスカーナイベントの第1週
 
 ![ビデオ](https://youtu.be/6VaIVvBKjLY)
 
-# 結論
+# まとめ
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
 
 
-## コースを評価してください
+## レビュー & 評価
 <chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## 締めの言葉
+## まとめ
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
-
-このコースに参加していただきありがとうございます！楽しんでいただけたことを願っています。
-
-このセミナーからさらに学びたい場合は、このプラットフォームで利用可能なRGBコースに参加することをお勧めします。
-
-また、他のコースをチェックして、数多くのリソースから学習を続けることもできます。
-このコースを提供してくれたFulgur Ventureと、参加してくれた講師の皆さんに大きな感謝を申し上げます。
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,5 @@
+---
+term: LIGAÇÃO DE SAÍDA
+
+---
+Por vezes utilizado como sinónimo para referir a reutilização de endereços. A ligação de saída refere-se à prática de utilizar o mesmo endereço de receção para bloquear vários UTXOs, por vezes em várias transacções diferentes. Os Bitcoins são normalmente bloqueados usando um par de chaves criptográficas que corresponde a um endereço único. Como a blockchain é pública, é fácil ver quais endereços estão associados a quantos bitcoins. No caso de reutilizar o mesmo endereço para vários pagamentos, pode assumir-se que todos os UTXOs associados pertencem à mesma entidade. Por conseguinte, a reutilização de endereços constitui um problema para a privacidade do utilizador. Permite ligações determinísticas entre múltiplas transacções e UTXOs, bem como a perpetuação do rastreio de fundos na cadeia.

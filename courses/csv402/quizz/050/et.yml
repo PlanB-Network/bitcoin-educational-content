@@ -1,0 +1,9 @@
+question: Kuidas kasutatakse RGBs krüptograafilisi kohustusi (Taproot või OP_RETURN kaudu)?
+answer: Nad ankurdavad oleku üleminekuid plokiahelas
+wrong_answers:
+  - Nad salvestavad lepingu andmeid plokiahelas
+  - Nad asendavad kliendipoolse valideerimise ahelasiseselt aruka lepingu täitmisega
+  - Nad loovad sõlmede tehingu kontrollimiseks
+explanation: |
+  Kohustuste abil on võimalik staatuse uuendusi turvaliselt siduda UTXOga, et tõestada teatava teabe olemasolu konkreetsel ajal, ilma et teave ise oleks avalikustatud.
+reviewed: false

@@ -688,6 +688,7 @@ On January 3, 2009, Satoshi officially inaugurated the Bitcoin network by creati
 
 ![image](assets/en/42.webp)
 
+
 ### The Bitcoin protocol comes to life
 
 On January 9, 2009, Satoshi announced the release of Bitcoin 0.1.0 version. Shortly after, Hal Finney took hold of the software and joined the network, which marked the presence of two nodes and, therefore, two miners in the network. Finney even immortalized this step by tweeting, 'Running Bitcoin'. On January 12, 2009, the first Bitcoin transaction of 10 BTC was made between Satoshi and Hal Finney, and you can easily find it, if you go back to block 170. 
@@ -1328,7 +1329,7 @@ Are you ready to join?
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-## Course Evaluation
+## Reviews & Ratings
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1341,27 +1342,4 @@ Are you ready to join?
 ## Conclusion
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
-Congratulations on completing this BTC 101 basic course! We sincerely hope you enjoyed it and that it opened new doors for you. Your discovery of Bitcoin is just beginning and we invite you to explore all the other courses available on Plan ₿ Network:
-
-#### Get and secure your first bitcoins with
-
-https://planb.network/courses/btc102
-
-#### Discover the Lightning Network with
-
-https://planb.network/courses/lnp201
-
-#### Learn about the Austrian School of Economic Thought with
-
-https://planb.network/courses/eco201
-
-#### Update your online security with
-
-https://planb.network/courses/scu101
-
-#### Understand Bitcoin basics and build your home heating with
-
-https://planb.network/courses/min201
-
-In the end, feel free to also have a look at the "21 Posters" about this course content in the [resources section](https://planb.network/en/resources/bet).
+<isCourseConclusion>true</isCourseConclusion>

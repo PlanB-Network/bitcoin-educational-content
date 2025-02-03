@@ -1,6 +1,6 @@
 year: 2023-09
 name: Watch Out 2023
-builder:
+builder: Watch Out Bitcoin
 location: Spain
 language:
   - es
@@ -20,3 +20,5 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 1250
+
+projectId: 326fd972-4807-4f01-974d-f8bfa9bfee6a

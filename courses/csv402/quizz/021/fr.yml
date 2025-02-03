@@ -1,0 +1,9 @@
+question: Que contient un Consignment dans RGB ?
+answer: Les données client-side nécessaires à valider une transition
+wrong_answers:
+  - Une copie intégrale de la blockchain Bitcoin
+  - Une liste des engagements publics inscrits dans Bitcoin
+  - Les clés publiques des participants à la transition d'état
+explanation: |
+  Le Consignment inclut les informations RGB permettant au récepteur de valider la transition d’état selon les règles du contrat.
+reviewed: false

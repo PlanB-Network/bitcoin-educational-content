@@ -1,0 +1,9 @@
+question: Jaký je ekvivalent komponenty Schema v kontextu RGB pro objektově orientované programování (OOP)?
+answer: Definice třídy
+wrong_answers:
+  - Konstruktor třídy
+  - Implementace rozhraní
+  - Vytváření prototypů metod
+explanation: |
+  Schéma odpovídá definici třídy v OOP, která popisuje vlastnosti, metody a pravidla obchodní logiky.
+reviewed: false

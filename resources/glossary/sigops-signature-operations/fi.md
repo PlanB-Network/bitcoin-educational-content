@@ -1,0 +1,13 @@
+---
+term: SIGOPS (SIGNATURE OPERATIONS)
+
+---
+Tarkoittaa tapahtumien validointiin tarvittavia digitaalisia allekirjoitustoimintoja. Kukin Bitcoin-tapahtuma voi sisältää useita syötteitä, joista jokainen voi vaatia yhden tai useamman allekirjoituksen, jotta sitä voidaan pitää pätevänä. Näiden allekirjoitusten todentaminen tapahtuu käyttämällä erityisiä opkoodeja, joita kutsutaan nimellä "sigops". Näitä ovat erityisesti `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY`. Nämä operaatiot aiheuttavat tiettyä työtaakkaa verkon solmuille, joiden on tarkistettava ne. Jotta estettäisiin DoS-hyökkäykset, jotka johtuvat sigopsien määrän keinotekoisesta paisuttamisesta, protokollassa asetetaan rajoitus lohkoa kohti sallittujen sigopsien määrälle, jotta varmistettaisiin, että validointikuorma pysyy solmujen hallinnassa. Tämä raja on tällä hetkellä asetettu enintään 80 000 sigopsiin lohkoa kohti. Solmut noudattavat laskennassa seuraavia sääntöjä:
+
+`scriptPubKey`:ssä `OP_CHECKSIG` ja `OP_CHECKSIGVERIFY` lasketaan 4 sigopiksi. Opkoodit `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY` lasketaan 80 sigopiksi. Laskennan aikana nämä operaatiot kerrotaan 4:llä, kun ne eivät ole osa SegWit-syöttöä (P2WPKH:n osalta sigopsien määrä on siis 1);
+
+`redeemScriptissä` opkoodit `OP_CHECKSIG` ja `OP_CHECKSIGVERIFY` lasketaan myös 4 sigopiksi, `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY` lasketaan `4n`:ksi, jos ne edeltävät `OP_n`:tä, tai 80 sigopiksi muuten;
+
+Todistusskriptissä `OP_CHECKSIG` ja `OP_CHECKSIGVERIFY` ovat 1 sigopin arvoisia, `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY` lasketaan `n`:ksi, jos ne on otettu käyttöön `OP_n`:llä, tai 20 sigopin arvoisiksi muuten;
+
+Taproot-skripteissä sigoppeja käsitellään eri tavalla kuin perinteisissä skripteissä. Sen sijaan, että jokainen allekirjoitusoperaatio laskettaisiin suoraan, Taproot ottaa käyttöön sigops-budjetin jokaista tapahtuman syötettä varten, joka on verrannollinen kyseisen syötteen kokoon. Tämä budjetti on 50 sigops plus syötteen todistajan tavukoko. Jokainen allekirjoitusoperaatio vähentää tätä budjettia 50:llä. Jos allekirjoitusoperaation suorittaminen laskee budjetin alle nollan, komentosarja on virheellinen. Tämä menetelmä antaa Taproot-skripteille enemmän joustavuutta, mutta suojaa samalla sigoppeihin liittyviltä mahdollisilta väärinkäytöksiltä, koska se yhdistää ne suoraan syötteen painoon. Näin ollen Taproot-skriptit eivät sisälly 80 000 sigopsin lohkokohtaiseen rajoitukseen.

@@ -1,0 +1,5 @@
+---
+term: SHOR (ALGORITHMUS)
+
+---
+1994 von Peter Shor erfundener Quantenalgorithmus, der die Faktorisierung großer ganzer Zahlen in ein Produkt von Primzahlen in polynomieller Zeit ermöglicht. Durch die Verringerung der Anzahl von Operationen, die zur Faktorisierung ganzer Zahlen erforderlich sind, konnte Shor die auf diesem mathematischen Problem basierenden Kryptographiealgorithmen wie RSA unbrauchbar machen. Shor kann leicht modifiziert werden, so dass es auf fast alle Algorithmen wirkt, die eine Gruppenstruktur verwenden. Insbesondere verfügt es bereits über eine effiziente Variante für die Kryptographie mit elliptischen Kurven (ECDSA, Schnorr...). Daher sind Shor und seine nahen Varianten auch bei asymmetrischen Kryptographiealgorithmen wirksam. Derzeit gibt es noch keinen Quantencomputer, der leistungsfähig und stabil genug ist, um den Shor-Algorithmus erfolgreich auszuführen.

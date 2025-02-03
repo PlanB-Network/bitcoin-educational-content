@@ -1,0 +1,9 @@
+question: What type of business is most likely to find a simple csv file sufficient for accounting?
+answer: Small businesses
+wrong_answers:
+  - Large multinational corporations
+  - Major financial institutions
+  - High-frequency trading platforms
+explanation: |
+  Most small businesses benefit from the simplicity and sufficient detail provided by a csv export.
+reviewed: false

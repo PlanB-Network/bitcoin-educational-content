@@ -1,10 +1,10 @@
 question: What was the inflation rate in Germany in October 1923?
-answer: 29,50%.
+answer: 29.50%.
 wrong_answers:
   - 200.9%.
   - 50.51%.
   - 25.98%.
 explanation: |
   The month with the highest inflation rate in Germany was
-  October 1923, peaking at 29,50%.
+  October 1923, peaking at 29.50%.
 reviewed: true

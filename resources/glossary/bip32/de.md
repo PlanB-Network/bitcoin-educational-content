@@ -1,0 +1,5 @@
+---
+term: BIP32
+
+---
+BIP32 führte das Konzept einer hierarchischen deterministischen Brieftasche (HD-Wallet) ein. Dieser Vorschlag ermöglicht die Erzeugung einer Hierarchie von Schlüsselpaaren aus einem gemeinsamen "Master-Seed" unter Verwendung von Einweg-Ableitungsfunktionen. Jedes erzeugte Schlüsselpaar kann selbst Elternteil anderer Kindschlüssel sein und so eine baumartige (hierarchische) Struktur bilden. Der Vorteil von BIP32 besteht darin, dass es die Verwaltung mehrerer unterschiedlicher Schlüsselpaare ermöglicht, wobei nur ein einziger Seed für die Regenerierung benötigt wird. Diese Innovation hat insbesondere dazu beigetragen, das Problem der Wiederverwendung von Adressen zu bekämpfen, das für den Schutz der Privatsphäre der Nutzer von großer Bedeutung ist. BIP32 ermöglicht auch die Erstellung von Unterverzweigungen innerhalb derselben Brieftasche, um deren Verwaltung zu erleichtern.

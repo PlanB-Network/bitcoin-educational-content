@@ -1,0 +1,9 @@
+question: Qual é o objetivo da consignação terminal no processo de transferência RGB?
+answer: Fornecer o historial das Transições do Estado
+wrong_answers:
+  - Validar o contrato Génesis
+  - Eliminar transições antigas
+  - Gerar um novo esquema para a transferência
+explanation: |
+  O terminal de consignação recolhe o historial do contrato para provar a legitimidade do ativo transferido até à data.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Boltzmanni Kalkulaator
+name: Boltzmann Calculator
 description: Mõista entroopia kontseptsiooni ja kuidas Boltzmanni kasutada
 ---
 ![kaas](assets/cover.webp)

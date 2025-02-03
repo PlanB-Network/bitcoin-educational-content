@@ -1,6 +1,5 @@
 ---
 name: Trezor model One
-
 description: Configurazione e utilizzo di Trezor model One
 ---
 

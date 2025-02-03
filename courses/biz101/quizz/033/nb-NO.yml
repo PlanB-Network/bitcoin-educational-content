@@ -1,0 +1,9 @@
+question: Hvordan har Lightning Network utviklet seg for å forbedre brukeropplevelsen siden oppstarten?
+answer: Det har innført funksjoner som spleising, statiske Bolt12-fakturaer og bedre likviditetsstyring, noe som gjør transaksjonene smidigere og mer pålitelige.
+wrong_answers:
+  - Den har fjernet alle sikkerhetsfunksjoner for å gjøre transaksjonene raskere.
+  - Nå kreves det myndighetsgodkjenning for hver utbetaling.
+  - De har sluttet å jobbe med nye funksjoner, og stoler kun på det opprinnelige designet.
+explanation: |
+  Over tid har Lightning Network gjennomgått tekniske forbedringer som reduserer friksjonen for brukerne. Nye funksjoner og bedre verktøy for nodeadministrasjon har bidratt til en mer sømløs og brukervennlig opplevelse.
+reviewed: false

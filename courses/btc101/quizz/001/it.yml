@@ -1,9 +1,9 @@
-question: Quando è avvenuta la guerra della dimensione del blocco?
+question: Quando è avvenuta la "Block Size War"?
 answer: Nel 2017.
 wrong_answers:
   - Nel 2008.
   - Nel 2010.
   - Nel 2019.
 explanation: >-
-  La guerra della dimensione del blocco è avvenuta nel 2017. Questo conflitto ha contrapposto gli attori che volevano modificare Bitcoin aumentando la dimensione del blocco per incrementare la capacità di transazione, a coloro che cercavano di preservare l'indipendenza e il potere degli utenti mantenendo la dimensione a 1 MB.
+  La guerra sulla dimensione del blocco è avvenuta nel 2017. Questo conflitto ha contrapposto gli attori che volevano modificare Bitcoin aumentando la dimensione del blocco per incrementare la capacità di transazione, a coloro che cercavano di preservare l'indipendenza e il potere degli utenti mantenendo la dimensione a 1 MB.
 reviewed: true

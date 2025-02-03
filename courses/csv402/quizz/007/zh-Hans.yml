@@ -1,0 +1,9 @@
+question: RGB 如何最大限度地降低能见度？
+answer: 直根（Tapret）
+wrong_answers:
+  - OP_RETURN (Opret)
+  - Sig 调整
+  - 关键调整
+explanation: |
+  Taproot (Tapret)可以在交易中谨慎、高效地插入承诺，同时确保与当前标准兼容。
+reviewed: false

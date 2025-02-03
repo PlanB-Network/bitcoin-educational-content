@@ -907,7 +907,7 @@ VOCの創設後、金融史におけるもう一つの重要な要素は、ア�
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-## このコースを評価する
+## レビュー & 評価
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -920,34 +920,4 @@ VOCの創設後、金融史におけるもう一つの重要な要素は、ア�
 ## まとめ
 
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
-コース修了おめでとうございます！
-
-学習の旅路においてこの重要な節目に到達されたことを大変嬉しく思います。
-
-あなたの献身と努力により、専門的な成長に役立つ貴重な知識とスキルを習得されました。
-
-ビットコインの世界をさらに深く探求するために、Plan ₿ Networkで提供されている他のすべてのコースをご覧ください：
-
-#### F. バスティアの生涯について学ぶ
-
-https://planb.network/courses/eco102
-
-#### オーストリア学派の経済思想について学ぶ
-
-https://planb.network/courses/eco201
-
-#### ビットコインとその基礎について学ぶ
-
-https://planb.network/courses/btc101
-
-#### オンラインセキュリティを更新する
-
-https://planb.network/courses/scu101
-
-#### 最初のビットコインを取得し、安全に保管する
-
-https://planb.network/courses/btc102
-
-#### ビットコインの起源の歴史について学ぶ
-
-https://planb.network/courses/his201
+<isCourseConclusion>true</isCourseConclusion>

@@ -28,8 +28,8 @@ Nikmati penemuan Anda!
 ## Memahami Jaringan Lightning
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
+![video en](https://youtu.be/QDQ8NG0l3hk)
 
-![Memahami Jaringan Lightning](https://youtu.be/PszWk046x-I)
 
 Selamat datang di kursus LNP201, yang bertujuan untuk menjelaskan fungsi teknis dari Jaringan Lightning.
 
@@ -85,8 +85,8 @@ Ini adalah akhir dari bab pertama ini, di mana kami telah meletakkan dasar untuk
 ## Bitcoin, Alamat, UTXO, dan Transaksi
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
+![video en](https://youtu.be/U9l5IVriCss)
 
-![bitcoin, alamat, utxo, dan transaksi](https://youtu.be/cadCJ2V7zTg)
 Bab ini cukup spesial karena tidak akan langsung didedikasikan untuk Lightning, melainkan untuk Bitcoin. Memang, Lightning Network adalah lapisan di atas Bitcoin. Oleh karena itu, sangat penting untuk memahami beberapa konsep fundamental Bitcoin untuk benar-benar mengerti cara kerja Lightning di bab-bab selanjutnya. Dalam bab ini, kita akan mengulas dasar-dasar alamat penerima Bitcoin, UTXOs, serta cara kerja transaksi Bitcoin.
 
 ### Alamat Bitcoin, Kunci Privat, dan Kunci Publik
@@ -150,8 +150,8 @@ Bab ini tentang Bitcoin telah memungkinkan kita untuk meninjau beberapa konsep e
 ## Pembukaan Saluran
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
+![video en](https://youtu.be/Ty80WuN5X-g)
 
-![open a channel](https://youtu.be/B2caBC0Rxko)
 
 Dalam bab ini, kita akan melihat lebih rinci bagaimana membuka saluran pembayaran pada Lightning Network dan memahami hubungan antara operasi ini dan sistem Bitcoin yang mendasarinya.
 
@@ -213,8 +213,8 @@ Di bab selanjutnya, kita akan menjelajahi cara kerja teknis transaksi Lightning 
 ## Transaksi Komitmen
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
+![video en](https://youtu.be/dzPMGiR_JSE)
 
-![Transaksi Lightning & transaksi komitmen](https://youtu.be/aPqI34tpypM)
 
 Dalam bab ini, kita akan menemukan fungsi teknis dari sebuah transaksi dalam saluran di Jaringan Lightning, yaitu, ketika dana dipindahkan dari satu sisi saluran ke sisi lainnya.
 
@@ -271,7 +271,7 @@ Namun, sistem ini memiliki kelemahan potensial, yang akan kita bahas di bab beri
 ## Kunci Pembatalan
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
-![transaksi bagian 2](https://youtu.be/RRvoVTLRJ84)
+![video en](https://youtu.be/veCs39uVFUk)
 Dalam bab ini, kita akan mendalami lebih dalam tentang bagaimana transaksi bekerja di Jaringan Lightning dengan membahas mekanisme yang ada untuk melindungi dari kecurangan, memastikan bahwa setiap pihak mematuhi aturan dalam sebuah saluran.
 
 ### Pengingat: Transaksi Komitmen
@@ -349,8 +349,8 @@ Pada titik ini dalam pelatihan, Anda sekarang sudah mengetahui bagaimana saluran
 ## Penutupan Saluran
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
+![video en](https://youtu.be/zmAa2fj_V7w)
 
-![tutup saluran](https://youtu.be/FVmQvNpVW8Y)
 
 Dalam bab ini, kita akan membahas **penutupan saluran** di Jaringan Lightning, yang dilakukan melalui transaksi Bitcoin, sama seperti membuka saluran. Setelah melihat bagaimana transaksi dalam saluran bekerja, sekarang saatnya untuk melihat cara menutup saluran dan memulihkan dana di blockchain Bitcoin.
 
@@ -434,8 +434,8 @@ Ada tiga cara untuk menutup saluran:
 ## Jaringan Lightning
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
+![video en](https://youtu.be/44oBdNdXtEQ)
 
-![jaringan lightning](https://youtu.be/RAZAa3v41DM)
 
 Dalam bab ini, kita akan menjelajahi bagaimana pembayaran di Jaringan Lightning dapat mencapai penerima meskipun mereka tidak terhubung langsung oleh saluran pembayaran. Lightning memang merupakan **jaringan dari saluran pembayaran**, yang memungkinkan dana dikirim ke node yang jauh melalui saluran dari peserta lain. Kita akan menemukan bagaimana pembayaran dialihkan melintasi jaringan, bagaimana likuiditas bergerak antar saluran, dan bagaimana biaya transaksi dihitung.
 
@@ -547,8 +547,8 @@ Dalam bab ini, kita telah menjelajahi routing pembayaran di Jaringan Lightning. 
 ## HTLC – Hashed Time Locked Contract
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
+![video en](https://youtu.be/jI4nM297aHA)
 
-![HTLC](https://youtu.be/-JC4mkq7H48)
 
 Dalam bab ini, kita akan menemukan bagaimana Lightning memungkinkan pembayaran untuk transit melalui node perantara tanpa perlu mempercayai mereka, berkat **HTLC** (_Hashed Time-Locked Contracts_). Kontrak pintar ini memastikan bahwa setiap node perantara hanya akan menerima dana dari salurannya jika ia meneruskan pembayaran ke penerima akhir, jika tidak, pembayaran tidak akan divalidasi.
 
@@ -662,8 +662,8 @@ Di bab selanjutnya, kita akan menemukan bagaimana sebuah node yang mengeluarkan 
 ## Menemukan Jalan Anda
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
+![video en](https://youtu.be/CqetCElRjUQ)
 
-![menemukan jalan Anda](https://youtu.be/wnUGJjOxd9Q)
 
 Dalam bab-bab sebelumnya, kita melihat bagaimana menggunakan saluran node lain untuk merutekan pembayaran dan mencapai node tanpa harus terhubung langsung dengannya melalui saluran. Kita juga membahas bagaimana memastikan keamanan transfer tanpa mempercayai node perantara. Dalam bab ini, kita akan fokus pada menemukan rute terbaik untuk mencapai node target.
 
@@ -749,7 +749,7 @@ Dalam bab berikutnya, kita akan secara khusus mempelajari fungsi invoice, selain
 ## Invoice, LNURL, dan Keysend
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
-![invoice, LNURL, Keysend](https://youtu.be/CHnXJuZTarU)
+![video en](https://youtu.be/XANzf1Qqp9I)
 Dalam bab ini, kita akan melihat lebih dekat operasi **invoice** Lightning, yaitu permintaan pembayaran yang dikirim oleh node penerima ke node pengirim. Tujuannya adalah untuk memahami cara membayar dan menerima pembayaran di Lightning. Kita juga akan membahas 2 alternatif untuk invoice klasik: LNURL dan Keysend.
 ![LNP201](assets/en/68.webp)
 
@@ -858,8 +858,8 @@ Di bab berikutnya, kita akan melihat bagaimana operator node dapat mengelola lik
 ## Mengelola Likuiditas Anda
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
+![video en](https://youtu.be/MIbej28La7Y)
 
-![mengelola likuiditas anda](https://youtu.be/YuPrbhEJXbg)
 
 Dalam bab ini, kita akan menjelajahi strategi untuk mengelola likuiditas secara efektif di Jaringan Lightning. Pengelolaan likuiditas bervariasi tergantung pada jenis pengguna dan konteks. Kita akan melihat prinsip utama dan teknik yang ada untuk lebih memahami cara mengoptimalkan pengelolaan ini.
 
@@ -928,8 +928,8 @@ Di bab selanjutnya, saya mengusulkan untuk meninjau konsep-konsep paling penting
 ## Kesimpulan Pelatihan
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
+![video en](https://youtu.be/coaskEGRjiU)
 
-![kesimpulan](https://youtu.be/MaWpD0rbkVo)
 Dalam bab terakhir ini yang menandai akhir dari pelatihan LNP201, saya mengusulkan untuk mengunjungi kembali konsep-konsep penting yang telah kita bahas bersama. Tujuan dari pelatihan ini adalah untuk memberikan Anda pemahaman yang komprehensif dan teknis tentang Lightning Network. Kita telah menemukan bagaimana Lightning Network mengandalkan blockchain Bitcoin untuk melakukan transaksi off-chain, sambil mempertahankan karakteristik fundamental dari Bitcoin, terutama ketiadaan kebutuhan untuk mempercayai node lain.
 
 ### Saluran Pembayaran
@@ -981,7 +981,7 @@ Kita telah melihat bahwa manajemen likuiditas adalah tantangan di Lightning untu
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## Evaluasi kursus ini
+## Ulasan & Penilaian
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -994,41 +994,4 @@ Kita telah melihat bahwa manajemen likuiditas adalah tantangan di Lightning untu
 ## Kesimpulan
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-Selamat! 🎉
-
-Anda telah menyelesaikan pelatihan LNP 201 - Pengantar Lightning Network!
-
-Anda bisa bangga dengan diri sendiri, karena ini bukan topik yang mudah.
-
-Hanya sedikit orang yang menyelam begitu dalam ke lubang kelinci Bitcoin.
-
-Terima kasih banyak kepada **Fanis Michalakis** yang telah memberikan kursus gratis yang luar biasa ini tentang cara kerja teknis Lightning Network.
-
-Jangan ragu untuk mengikuti dia di [Twitter](https://x.com/FanisMichalakis), di [blognya](https://fanismichalakis.fr/) atau melalui karyanya di [LN Markets](https://lnmarkets.com/).
-
-Sekarang setelah Anda menguasai Lightning Network, saya mengundang Anda untuk menjelajahi kursus-kursus gratis kami lainnya di Plan ₿ Network untuk memperdalam pemahaman Anda tentang aspek-aspek lain dari penemuan Satoshi Nakamoto:
-
-#### Pahami cara kerja dompet Bitcoin dengan
-
-https://planb.network/courses/cyp201
-
-#### Temukan sejarah asal-usul Bitcoin dengan
-
-https://planb.network/courses/his201
-
-#### Konfigurasi server pembayaran BTC dengan
-
-https://planb.network/courses/btc305
-
-#### Kuasai prinsip-prinsip privasi dalam Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Temukan dasar-dasar penambangan dengan
-
-https://planb.network/courses/min201
-
-#### Pelajari cara membuat komunitas Bitcoin Anda dengan
-
-https://planb.network/courses/btc302
-
+<isCourseConclusion>true</isCourseConclusion>

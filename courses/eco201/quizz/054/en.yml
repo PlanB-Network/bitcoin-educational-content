@@ -7,6 +7,6 @@ wrong_answers:
 explanation: |
   The main difference between Austrian economists and Keynesian or monetarist
   economists in terms of their methods of analysis is that while Austrians reason
-  from fundamental axioms, Keynesian or monetarist economists tend to rely on empirical
-  data to establish general economic laws.
-reviewed: false
+  from fundamental axioms from which logical deductions can be made, Keynesian or 
+  monetarist economists tend to rely on empirical data to establish general economic laws.
+reviewed: true

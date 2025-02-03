@@ -506,7 +506,7 @@ Sebagai bagian dari modul pelatihan "Security 101" di Découvre Bitcoin Academy,
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Evaluasi kursus ini
+## Ulasan & Penilaian
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -519,36 +519,4 @@ Sebagai bagian dari modul pelatihan "Security 101" di Découvre Bitcoin Academy,
 ## Kesimpulan
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
-
-Selamat atas penyelesaian kursus ini!
-
-Kami senang Anda telah berhasil mencapai tonggak ini dalam perjalanan pembelajaran Anda.
-
-Berkat dedikasi dan komitmen Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan bermanfaat dalam pengembangan profesional Anda.
-
-Untuk terus memperdalam pengetahuan Anda di dunia Bitcoin, kami mengundang Anda untuk menjelajahi kursus lain yang tersedia di Plan ₿ Network seperti:
-
-#### Temukan Bitcoin dan fundamental-nya dengan
-
-https://planb.network/courses/btc101
-
-#### Dapatkan dan amankan bitcoin pertama Anda dengan
-
-https://planb.network/courses/btc102
-
-#### Temukan jaringan Lightning dengan
-
-https://planb.network/courses/lnp201
-
-#### Temukan pemikiran ekonomi Mazhab Austria dengan
-
-https://planb.network/courses/eco201
-
-#### Temukan sejarah asal-usul Bitcoin dengan
-
-https://planb.network/courses/his201
-
-#### Pahami cara kerja dompet Bitcoin dengan
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

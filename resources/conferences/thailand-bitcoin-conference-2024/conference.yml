@@ -1,6 +1,6 @@
 year: 2024-09
 name: Bitcoin Thailand Conference 2024
-builder: TBC
+builder: The Bitcoin Conference
 location: Bangkok, Thailand
 language:
   - en
@@ -21,3 +21,5 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+
+projectId: 77d117fc-a2b1-4e2c-8442-ea00ff8cf70a

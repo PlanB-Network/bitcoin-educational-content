@@ -160,7 +160,9 @@ Lisaks krüptoraha pettustele ja finantspettustele on bitcoine kaotamise peamine
 - Hoidke oma arvuti ajakohane ja vaba pahavarast,
 - Hinnake oma privaatsust, kasutades spetsiaalseid tööriistu (Signal, Tor, ProtonMail).
 
-Kui see teema on teile täiesti tundmatu, võib SECU 101 koolitus olla huvitav, et sellesse detailsemalt süveneda.
+Kui see teema on teile täiesti tundmatu, võib SCU 101 koolitus olla huvitav, et sellesse detailsemalt süveneda.
+
+https://planb.network/courses/scu101
 
 On oluline hoida oma arvuti optimaalses töökorras, olenemata sellest, kas olete huvitatud Bitcoinist või mitte. Uuendus ei ole ainult uute funktsioonide lisamiseks: see parandab ka vigu ja tõstab teie tarkvara turvalisust. Seega veenduge, et:
 
@@ -798,9 +800,6 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 Paranoilise isiku mõtteviisis on ettevaatlikkus, turvalisus ja anonüümsus ülimad. Need prioriteedid dikteerivad läbimõeldud ja hästi kaalutletud lähenemise Bitcoini kasutamisele, edendades iseseisvust ja ettevaatlikkust. Paranoiline isik on valmis investeerima aega ja vaeva, et tagada oma bitcoinide turvalisus ja privaatsus, samal ajal oskuslikult navigeerides ökosüsteemis, et vältida tarbetut kokkupuudet. Kuigi mõne jaoks võib see tunduda liiga ettevaatlik, peab paranoiline isik oma hoolsust ja detailidele tähelepanu pööramist eduka ja turvalise osalemise jaoks Bitcoini maailmas hädavajalikuks.
 
-# Tulevik Bitcoini abil
-
-<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Pärandiplaani loomine
 
@@ -974,9 +973,6 @@ Palju õnne! Teil on esimene versioon oma pärandiplaanist ja see on suurepäran
 _Krüptoassetide Pärandamise Planeerimine, Lihtne juhend omanikele, Pamela Morgan, ESQ. Autoriõigus 2018 Merkle Bloom LLC poolt, Kõik õigused kaitstud. CC-BY_ Suur tänu Pamela Morganile tema väärtusliku töö eest ja luba seda jagada. Tänu ka kõigile, kes aitasid selle kirjutamisele kaasa.
 Te olete parimad :D Minu meeskond ja minu õpilased tänavad teid samuti!
 
-# Tunnustused ja jätkake küülikuurgu uurimist
-
-<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Palju õnne! TE OLETE TOP 0.1%-S
 
@@ -1002,7 +998,7 @@ Igal juhul on kõik meie kursused tasuta ja meie platvormil on saadaval palju re
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Hinda kursust
+## Hinnangud & Reitingud
 
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1015,34 +1011,4 @@ Igal juhul on kõik meie kursused tasuta ja meie platvormil on saadaval palju re
 ## Kokkuvõte
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-
-Õnnitleme kursuse lõpetamise puhul!
-
-Meil on hea meel, et olete oma õppeteekonnal edukalt selle verstaposti saavutanud. Tänu teie pühendumisele ja osalemisele olete omandanud väärtuslikke teadmisi ja oskusi, mis tulevad teile professionaalses arengus kasuks.
-
-Et sukelduda sügavamale Bitcoini maailma, kutsume teid tutvuma kõigi teiste Plan ₿ Networkis saadaolevate kursustega:
-
-#### Avasta Bitcoin ja selle põhitõed aadressil
-
-https://planb.network/courses/btc101
-
-#### Uuenda oma võrguturvalisust aadressil
-
-https://planb.network/courses/scu101
-
-#### Avasta Lightning Network aadressil
-
-https://planb.network/courses/lnp201
-
-#### Õpi tundma Austria majanduskoolkonna mõtteviisi aadressil
-
-https://planb.network/courses/eco201
-
-#### Mõista Bitcoini põhitõdesid ja ehita oma kodu küttesüsteem aadressil
-
-https://planb.network/courses/min201
-
-#### Mõista, kuidas Bitcoin'i rahakott töötab aadressil
-
-https://planb.network/courses/cyp201
-
+<isCourseConclusion>true</isCourseConclusion>

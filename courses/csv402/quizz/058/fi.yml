@@ -1,0 +1,9 @@
+question: Mitä "curl -X POST /issueassetnia" voi tehdä RLN:ssä?
+answer: Luo uusi korvattavissa oleva, inflaatiokelvoton RGB-varallisuuserä
+wrong_answers:
+  - Luo uusi ei-solukelpoinen RGB-varanto
+  - Luo uusi korvattava inflaatiokelpoinen RGB-varallisuuserä
+  - Luo uusi puoliksi siedettävä RGB-varanto
+explanation: |
+  Komennolla "/issueassetnia" annetaan uusi RGB NIA ("Non Inflatable Asset") -merkki.
+reviewed: false

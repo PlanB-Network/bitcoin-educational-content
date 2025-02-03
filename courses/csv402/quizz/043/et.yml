@@ -1,0 +1,9 @@
+question: Mida kujutab endast "RGB oleku üleminek" Lightning Networki kontekstis?
+answer: Kohustustehingutesse integreeritud ajakohastatud RGB varade jaotamine
+wrong_answers:
+  - Multisig 2/2 onchain uus seisund
+  - Rahastamistehingusse integreeritud ajakohastatud RGB varade jaotamine
+  - On-chain valideerimisskript asendatakse HTLC-ga
+explanation: |
+  RGB oleku üleminek ajakohastab RGB varade jaotust kanalis, kasutades kohustustehinguid.
+reviewed: false

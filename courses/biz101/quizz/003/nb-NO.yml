@@ -1,0 +1,9 @@
+question: Hva er en ulempe med moderne sentraliserte valutasystemer?
+answer: De mangler ofte åpenhet og etterprøvbarhet i forvaltningen av pengemengden.
+wrong_answers:
+  - De gir en stabil, uforanderlig verdi for hver valutaenhet.
+  - De fjerner alle mellomledd og gjør oppgjørene millisekunder raskere.
+  - De sørger for at pengeutstedelsen er fullstendig desentralisert og inflasjonssikker.
+explanation: |
+  Sentraliserte systemer kan utstede penger etter eget forgodtbefinnende, ofte uten åpen kontroll. Dette kan svekke tilliten på grunn av inflasjon, komplekse oppgjør mellom bankene og potensiell dårlig forvaltning.
+reviewed: false

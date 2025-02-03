@@ -1,0 +1,9 @@
+question: Hva er hovedformålet med Lightning Network, som er bygget på toppen av Bitcoin?
+answer: For å muliggjøre raskere, nesten øyeblikkelige betalinger med minimal interaksjon i kjeden.
+wrong_answers:
+  - Å erstatte Bitcoins blokkjede helt og holdent og lagre alle transaksjoner lokalt.
+  - Å tilby et nettverk med tillatelse som kontrolleres av én enkelt enhet.
+  - Å bremse transaksjoner for å sikre at de forblir fullt ut sporbare for myndighetene.
+explanation: |
+  Lightning Network er en "andrelagsprotokoll" som gjør det mulig for deltakerne å opprette betalingskanaler, gjennomføre transaksjoner utenfor kjeden og kun gjøre opp den endelige nettosaldoen i Bitcoin-blokkjeden. Denne utformingen gir høyere hastigheter og lavere kostnader.
+reviewed: false

@@ -1,5 +1,5 @@
 id: 47507d90-e6af-4cac-b01b-01a14d7a8228
-builder: PlanB Network
+builder: Plan ₿ Network
 
 tags:
   - Mnemonic Phrase
@@ -87,3 +87,5 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 30752
+
+projectId: cd62a137-baad-4133-b90d-711963e510c7

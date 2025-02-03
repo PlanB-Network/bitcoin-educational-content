@@ -1,0 +1,9 @@
+question: Which two wallet types are considered in the Starter profile?
+answer: Custodial and non-custodial Lightning wallets
+wrong_answers:
+  - Hot and cold storage Bitcoin wallets
+  - Multisig and paper Bitcoin wallets
+  - Hardware and brain Lightning wallets
+explanation: |
+  The Starter profile uses either custodial or non-custodial Lightning wallets.
+reviewed: false

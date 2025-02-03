@@ -1,0 +1,12 @@
+title: "Bitcoinin rakentaminen Rustilla"
+publication_year: 2024
+cover: cover_en.webp
+original: true
+description: |
+  lukáš Hozdan kirjoittama "Building bitcoin in Rust" on helppokäyttöinen opas niille, jotka
+  kiinnostunut sekä Rust-ohjelmointikielestä että bitcoin-teknologiasta.
+  Tämä IT-alan opiskelijoille ja ammattilaisille suunniteltu kirja vie lukijat läpi
+  prosessi ymmärtää Bitcoinin ydinkäsitteitä ja samalla opettaa samalla
+  rakentaa projekteja Rustilla.
+contributors:
+  - It’s perfect for anyone who is curious about Rust, a programming language praised for its safety and performance, or bitcoin, the world’s first decentralized cryptocurrency. Through hands-on development of a bitcoin miner, wallet, and node, this book helps readers sharpen their Rust skills and explore bitcoin’s infrastructure, making it an ideal starting point for building on bitcoin.another-satoshi

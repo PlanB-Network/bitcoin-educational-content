@@ -1,5 +1,5 @@
 ---
-name: OXT - Ahelanalüüs
+name: OXT - Chain Analysis
 description: Omanda Bitcoinil põhineva ahelanalüüsi algtõed
 ---
 ![kaas](assets/cover.webp)

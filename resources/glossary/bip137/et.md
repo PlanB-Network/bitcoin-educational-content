@@ -1,0 +1,5 @@
+---
+term: BIP137
+
+---
+Tehakse ettepanek standardiseeritud formaadi loomiseks, et allkirjastada sõnumeid Bitcoini privaatvõtmete ja nendega seotud aadressidega, et tõestada aadressi omandiõigust. Selle piiritletud piiritletud asutuse eesmärk on lahendada mitmetähenduslikkus, mis on seotud eri tüüpi Bitcoini aadressidega (P2PKH, P2SH, P2WPKH...) sõnumi allkirjastamisel. Sellega võetakse kasutusele meetod nende aadressivormingute selgesõnaliseks eristamiseks allkirjade abil. Need allkirjad on kasulikud mitmesuguste rakenduste puhul, näiteks raha tõendamiseks, auditeerimiseks ja muudeks kasutusaladeks, mis nõuavad aadressi autentimist selle eravõti abil. BIP322 on vahepeal kasutusele võtnud uue allkirjaformaadi, mis võimaldab seda standardit laiendada ja üldistada seda mis tahes tüüpi skriptide jaoks.

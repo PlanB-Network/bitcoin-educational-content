@@ -1,0 +1,5 @@
+---
+term: BIP152
+
+---
+Návrh "kompaktní blokové štafety", jejímž cílem je snížit šířku pásma potřebnou pro přenos bloků v síti Bitcoin. Tento protokol, přijatý v listopadu 2016 ve verzi 0.13.0 jádra Bitcoinu, umožňuje kompaktní přenos informací o blocích na základě předpokladu, že uzly již mají velkou část transakcí posledního bloku ve svém mempoolu. Namísto předávání každé transakce v plném rozsahu, což by vedlo k duplicitě, navrhuje BIP152 zasílání pouze krátkých identifikátorů transakcí, které již peeři znají, doplněných o několik vybraných transakcí (zejména transakce coinbase a ty, které uzel pravděpodobně nezná). Uzel si pak může od svých vrstevníků vyžádat všechny chybějící transakce. Compact Block Relay tak snižuje množství dat vyměňovaných během šíření bloků, což snižuje nárazy šířky pásma a zlepšuje celkovou efektivitu sítě.

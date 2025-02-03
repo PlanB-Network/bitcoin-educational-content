@@ -1,5 +1,4 @@
-question: What is the concept of money streaming in the context of the Lightning
-  Network?
+question: What is the concept of money streaming in the context of the Lightning Network?
 answer: Making continuous, real-time micropayments.
 wrong_answers:
   - Converting Bitcoin into cash at a physical location using an ATM.

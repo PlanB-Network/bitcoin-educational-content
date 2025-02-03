@@ -1,0 +1,5 @@
+---
+term: DERIVACIÓN NORMAL
+
+---
+El proceso de generación de claves hijas en los monederos HD. La derivación normal utiliza la clave pública padre como entrada para la función `HMAC-SHA512`, permitiendo la generación de claves públicas hijo a partir de la clave pública padre y el código de cadena padre. El proceso consiste en concatenar la clave pública principal y un índice inferior a $2^{31}$, seguido de la aplicación de `HMAC-SHA512` con el código de cadena principal. El resultado se divide en dos partes: los primeros 256 bits se añaden a la clave privada padre para obtener la clave privada hijo, mientras que los 256 bits restantes forman el código de cadena hijo. Este método garantiza que la clave pública extendida pueda utilizarse para derivar claves públicas hijas. En la derivación estándar, se utiliza la derivación normal en todos los niveles de derivación a partir de la profundidad de la cuenta. En la notación de rutas de derivación, una derivación normal se identifica cuando sólo existe el índice sin ningún apóstrofo `'`.

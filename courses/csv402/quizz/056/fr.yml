@@ -1,0 +1,9 @@
+question: Quels sont les principaux composants requis pour exécuter un nœud Lightning compatible RGB ?
+answer: Un bitcoind, un indexeur et un serveur proxy RGB
+wrong_answers:
+  - Un nœud Lightning, un indexeur et un serveur IPFS
+  - Un wallet mobile RGB, un serveur proxy RGB et un bitcoind
+  - Un client web, un indexeur et un serveur proxy RGB
+explanation: |
+  Pour exécuter un nœud Lightning compatible RGB, il est nécessaire d'avoir un nœud bitcoind pour interagir avec la blockchain Bitcoin, un indexeur pour explorer les transactions on-chain, et un serveur proxy RGB pour faciliter l'échange des consignments entre pairs.
+reviewed: false

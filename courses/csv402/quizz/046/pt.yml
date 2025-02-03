@@ -1,0 +1,9 @@
+question: Que norma RGB permite criar activos únicos ou "NFTs"?
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  A norma RGB21 foi concebida para gerir activos únicos, permitindo a associação de metadados privados a NFTs.
+reviewed: false

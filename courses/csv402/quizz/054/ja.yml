@@ -1,0 +1,9 @@
+question: RGBエコシステムにおけるRGBlibとは？
+answer: RGBアセットを管理するアプリケーションを作成するためのライブラリ
+wrong_answers:
+  - RGB資産管理に特化したAndroidウォレット
+  - RGBプロトコルの代替クライアント
+  - RGB NFTを表示するウェブサイト
+explanation: |
+  RGBlibは、開発者向けに簡素化されたインターフェースを提供し、技術的な詳細をすべてマスターすることなく、RGBアセットの発光、転送、検証を管理できるようにします。
+reviewed: false

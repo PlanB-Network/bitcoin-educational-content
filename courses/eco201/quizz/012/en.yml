@@ -5,8 +5,9 @@ wrong_answers:
   - The primary objective of the course is to teach new Bitcoin enthusiasts how to invest in Bitcoin.
   - The primary objective of the course is to teach new Bitcoin enthusiasts how to create their own cryptocurrencies.
 explanation: |
-  The course aims to educate new Bitcoin enthusiasts about the fundamental
-  principles of economics, particularly those of the Austrian School of Economics.
-  This knowledge is crucial for understanding the value and potential of Bitcoin as
-  an alternative to traditional monetary systems.
-reviewed: false
+  The course aims to educate new Bitcoin enthusiasts about
+  the fundamental principles of economics, particularly those
+  of the Austrian School of Economics. This knowledge is
+  crucial for understanding the value and potential of
+  Bitcoin as an alternative to traditional monetary systems.
+reviewed: true

@@ -1,7 +1,8 @@
 - start_date: 2025-04-01 16:00:00
   end_date: 2025-04-02 23:00:00
   timezone: America/Tegucigalpa
-  address_line_1: Pristine Bay, Roatán Island, Honduras
+  address_line_1: Roatán Island, Honduras
+  address_line_2: Pristine Bay
   name: Understanding Bitcoin 2025 Roatán Conference
   builder: Roatan Tourism
   type: conference

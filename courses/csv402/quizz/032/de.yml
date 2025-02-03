@@ -1,0 +1,9 @@
+question: Was sollte Alice (Absender) tun, nachdem sie Bobs Rechnung erhalten hat?
+answer: Erstellen Sie einen PSBT mit seinem UTXO und generieren Sie das Terminal für die Übergabesendung
+wrong_answers:
+  - Unterschreiben Sie die Bitcoin-Transaktion, die ihren UTXO mit dem Einweg-Siegel ausgibt
+  - Importieren Sie die Sendung in Ihre eigene Brieftasche für Vertragsdetails
+  - Ausstellen einer neuen Rechnung für einen Anlagenabgang
+explanation: |
+  Alice muss einen PSBT erstellen, um den mit dem Vermögenswert verbundenen UTXO auszugeben, und dann eine Terminalsendung erstellen, die den neuen Übergang an Bob enthält.
+reviewed: false

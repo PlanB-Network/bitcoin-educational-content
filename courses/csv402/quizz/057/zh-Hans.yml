@@ -1,0 +1,9 @@
+question: 在 RLN 上，克隆版本库后，哪条命令会安装 "rgb-lightning-node "二进制文件？
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  cargo install --locked --debug --path . "命令会编译并安装 "rgb-lightning-node "二进制文件。
+reviewed: false

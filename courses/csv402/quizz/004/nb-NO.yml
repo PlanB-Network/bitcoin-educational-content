@@ -1,0 +1,9 @@
+question: Hvordan forbedrer RGB skalerbarheten sammenlignet med tradisjonelle blokkjeder?
+answer: Ved å begrense lagring og validering til kun relevante tilstandsoverganger
+wrong_answers:
+  - Ved å praktisk talt øke størrelsen på Bitcoin-blokker
+  - Ved å knytte hver kontrakt direkte til alle UTXOer
+  - Ved å sentralisere kontraktsdata på et fåtall sentrale servere
+explanation: |
+  RGB reduserer lagrings- og valideringskravene ved å kun beholde de dataene som er relevante for hver enkelt deltaker.
+reviewed: false

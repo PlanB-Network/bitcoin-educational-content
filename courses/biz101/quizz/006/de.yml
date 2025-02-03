@@ -1,0 +1,9 @@
+question: Warum ist die Obergrenze von 21 Millionen für die Ausgabe von Bitcoin so wichtig?
+answer: Sie schafft einen deflationären Vermögenswert, der seinen Wert vor willkürlicher Inflation schützt.
+wrong_answers:
+  - Es sorgt dafür, dass Regierungen so viele Bitcoins drucken können, wie sie benötigen.
+  - Sie verhindert, dass jemand nach Erreichen der Obergrenze noch Transaktionen durchführen kann.
+  - Es eliminiert jegliche Volatilität des Bitcoin-Kurses.
+explanation: |
+  Mit einer maximalen Anzahl von 21 Millionen ist die Knappheit von Bitcoin fest kodiert und unterscheidet sich damit grundlegend von inflationären Währungen, bei denen das Angebot nach Belieben erhöht werden kann.
+reviewed: false

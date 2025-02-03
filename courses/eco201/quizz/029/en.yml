@@ -5,10 +5,13 @@ wrong_answers:
   - Time preference is the inherent preference for future goods over present goods.
   - Time preference is the subjective evaluation of the value of present goods compared to future goods.
 explanation: |
-  Time preference is the subjective evaluation of the value of future goods
-  compared to present goods. Since we are mortal, and the future is always uncertain,
-  we naturally prefer to have access to a good now rather than later. While time preference
-  can differ between individuals, due to a myriad of factors such as culture, wealth,
-  education, physiology, etc., time preferences are always positive, meaning that
-  all things equal, we always value present goods more than future goods.
-reviewed: false
+  Time preference is the subjective evaluation of the value
+  of future goods compared to present goods. Since we are
+  mortal, and the future is always uncertain, we naturally
+  prefer to have access to a good now rather than later.
+  While time preference can differ between individuals, due
+  to a myriad of factors such as culture, wealth, education,
+  physiology, etc., time preferences are always positive,
+  meaning that all things equal, we always value present
+  goods more than future goods.
+reviewed: true

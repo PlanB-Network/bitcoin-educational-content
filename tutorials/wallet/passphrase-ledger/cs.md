@@ -1,5 +1,5 @@
 ---
-name: BIP39 Heslo pro Ledger
+name: Passphrase BIP39 Ledger
 description: Jak přidat heslo do vaší peněženky Ledger?
 ---
 ![cover](assets/cover.webp)

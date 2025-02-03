@@ -1,0 +1,9 @@
+question: Wo liegt bei RGB die Verpflichtung, wenn ein Einwegverschluss geschlossen wird?
+answer: In der Ausgabe der Transaktion, die den Outpoint
+wrong_answers:
+  - Im Eingang der Transaktion, die den Ausgangspunkt
+  - ImSig -Skript der Transaktion, die den Outpoint
+  - Der Zeuge der Transaktion gibt den Ausgangspunkt
+explanation: |
+  Die Mittelbindung wird in die Ausgabe der Transaktion eingefügt, die den Ausgabepunkt für die Definition des Einweg-Siegels ausgibt.
+reviewed: false

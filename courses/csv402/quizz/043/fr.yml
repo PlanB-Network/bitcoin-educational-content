@@ -1,0 +1,9 @@
+question: Que représente la "transition d'état RGB" dans le contexte du Lightning Network ?
+answer: Une mise à jour de l'allocation des actifs RGB intégrée dans les transactions d'engagement
+wrong_answers:
+  - Un nouvel état du multisig 2/2 onchain
+  - Une mise à jour de l'allocation des actifs RGB intégrée dans la transaction de funding
+  - Un script de validation on-chain remplacé par un HTLC
+explanation: |
+  La transition d'état RGB actualise la répartition des actifs RGB dans le canal à l'aide des transactions d'engagement.
+reviewed: false

@@ -271,23 +271,13 @@ Le groupe Lighting Walker présente sa solution pour un service de transfert d'a
 
 
 
-## Évaluez ce cours
+# Conclusion
+<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
+
+## Avis & Notes
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Remerciements
+## Conclusion
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
-
-Nous tenons à remercier nos éducateurs :
-
-- Peter Todd
-- Adam Gibson
-- Alekos Filini
-- Daniela Brozzoni
-- Ajelex
-- asi0
-- Gabriel Comte
-
-Leur expertise a été inestimable pour le succès de ce cours. Il s'agit du premier cours basé sur la 1ère édition de l'initiative Cubo+, réalisé en juillet 2023. Merci à tous les participants et éducateurs d'avoir fait partie de ce voyage éducatif pionnier. Cela marque le début de ce que nous espérons être un long et fructueux voyage dans le monde du développement Bitcoin. En tant que première cohorte, votre participation a fixé la norme pour les futures classes.
-
-Continuez à explorer, apprendre et contribuer à l'écosystème Bitcoin. Les connaissances acquises ici ne sont qu'un point de départ. Continuez à creuser le terrier du lapin et vous découvrirez un monde d'opportunités en constante expansion.
+<isCourseConclusion>true</isCourseConclusion>

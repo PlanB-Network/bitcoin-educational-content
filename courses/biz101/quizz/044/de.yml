@@ -1,0 +1,9 @@
+question: Was ist einer der größten Vorteile für Händler, die das Lightning Network nutzen?
+answer: Reduzierte Transaktionsgebühren
+wrong_answers:
+  - Von Banken garantierte Zahlungen
+  - Automatische Steigerung des Umsatzes
+  - Abschaffung der Gewerbesteuer
+explanation: |
+  Die Transaktionsgebühren im Lightning Network sind sehr niedrig, was es zu einer kostengünstigen Lösung für Händler macht.
+reviewed: false

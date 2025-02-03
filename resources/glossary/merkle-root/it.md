@@ -1,0 +1,5 @@
+---
+term: RADICE DI MERKLE
+
+---
+Digest o "top hash" di un albero di Merkle, che rappresenta un riassunto di tutte le informazioni presenti nell'albero. Un albero di Merkle è una struttura di accumulo crittografico, talvolta chiamata anche "albero di hash". Nel contesto di Bitcoin, gli alberi di Merkle sono utilizzati per organizzare le transazioni all'interno di un blocco e per facilitare la rapida verifica dell'inclusione di una specifica transazione. Pertanto, nei blocchi Bitcoin, la radice di Merkle si ottiene effettuando l'hashing delle transazioni a coppie fino a quando rimane un solo hash (la radice di Merkle). Questa viene poi inclusa nell'intestazione del blocco corrispondente. Questo albero di hash si trova anche in UTREEXO, una struttura che permette di condensare l'insieme dei nodi UTXO, e nel Taproot MAST.

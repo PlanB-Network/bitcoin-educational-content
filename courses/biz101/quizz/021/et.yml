@@ -1,0 +1,9 @@
+question: Miks võiks ettevõte kaaluda Bitcoini hoidmist traditsiooniliste "turvaliste" varade, nagu kinnisvara, asemel?
+answer: Bitcoin võib potentsiaalselt ületada reaalse inflatsiooni ning ei ole seotud kinnisvara ebalikviidsuse ja hoolduskuludega.
+wrong_answers:
+  - Kinnisvara on alati odavam kui Bitcoin ja ei vaja kunagi hooldust.
+  - Bitcoin pakub valitsuse tagatud tagatisi, mida kinnisvara ei paku.
+  - Kinnisvara kallineb kõigis turutingimustes kiiremini kui Bitcoin.
+explanation: |
+  Kinnisvaraga kaasnevad sageli likviidsuspiirangud ja jooksvad kulud ning see ei pruugi võlapõhise rahasüsteemi varjatud inflatsiooniga sammu pidada. Bitcoini nappus ja ülemaailmne levik pakuvad eraldi väärtuse säilitamise võimalust, mis võib pikas perspektiivis olla traditsioonilistest varadest parem kui traditsioonilised varad.
+reviewed: false

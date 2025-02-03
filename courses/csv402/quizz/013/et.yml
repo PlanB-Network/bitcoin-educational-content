@@ -1,0 +1,9 @@
+question: Millised on RGB-lepingu peamised toimingud?
+answer: Riigi üleminek, genesis ja riigi laiendamine
+wrong_answers:
+  - Pitseri määratlus, kohustus ja valideerimine
+  - Ankru loomine, DAG-i ajakohastamine ja tehingute allkirjastamine
+  - Genesis Block, UTXO jaotamine ja skripti valideerimine
+explanation: |
+  Need toimingud muudavad või täiendavad lepingu staatust vastavalt selle skeemile.
+reviewed: false

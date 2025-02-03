@@ -1,0 +1,9 @@
+question: Co je to "skrytá inflace" v kontextu měnového systému založeného na dluhu?
+answer: Právě růst nabídky peněz (kolem 7 % ročně) snižuje váš podíl na celkové hodnotě, pokud neinvestujete nebo nezvyšujete aktiva odpovídajícím způsobem.
+wrong_answers:
+  - Je to oficiální ekonomický termín pro pevné úrokové sazby.
+  - Týká se údajů o inflaci, které centrální banky nezveřejňují.
+  - To znamená, že ceny nikdy nerostou, i když se nabídka peněz rozšiřuje.
+explanation: |
+  Skrytá inflace nastává, když se peněžní zásoba rozšiřuje, čímž se snižuje kupní síla úspor. Pokud podnik aktivně neinvestuje nebo nechrání své bohatství, riskuje ztrátu hodnoty v důsledku této tiché formy rozmělňování peněz.
+reviewed: false

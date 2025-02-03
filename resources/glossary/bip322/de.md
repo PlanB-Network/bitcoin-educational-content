@@ -1,0 +1,5 @@
+---
+term: BIP322
+
+---
+Schlägt einen neuen Standard vor, der BIP137 für das Signieren von Nachrichten mit privaten Bitcoin-Schlüsseln und ihren zugehörigen Adressen ersetzt, um den Besitz einer Adresse zu beweisen. Diese Signaturen sind für verschiedene Anwendungen nützlich, wie z.B. Geldnachweise, Audits und andere Anwendungen, die eine Authentifizierung einer Adresse über ihren privaten Schlüssel erfordern. Im Vergleich zu BIP137 erweitert BIP322 den Standard für das Signieren von Nachrichten über die traditionellen Adressen hinaus, indem ein auf Skripten basierender Ansatz verwendet wird. Es ermöglicht Wallet-Software, eine Nachricht für jedes Skript zu signieren, das sie zum Ausgeben von Bitcoins freischalten könnte. Zu diesem Zweck wird ein Text signiert, indem eine Signatur für eine virtuelle Bitcoin-Transaktion erstellt wird. Für traditionelle P2PKH-Adressen bleibt BIP322 kompatibel mit dem traditionellen Signaturformat.

@@ -1,6 +1,6 @@
 year: 2024-10
 name: Plan ₿ Forum 2024
-builder: Lugano's Plan B
+builder: Lugano's Plan ₿
 location: Lugano, Switzerland
 language:
   - en
@@ -22,3 +22,5 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+
+projectId: cf0fecdf-6a70-40ec-869d-c6c78f9fac01

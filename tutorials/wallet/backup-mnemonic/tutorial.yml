@@ -1,6 +1,6 @@
 id: 22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-builder: PlanB Network
+builder: Plan ₿ Network
 
 tags:
   - wallets
@@ -24,3 +24,4 @@ proofreading:
     contributors_id:
       - LoicPandul
     reward:
+projectId: cd62a137-baad-4133-b90d-711963e510c7

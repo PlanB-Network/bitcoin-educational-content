@@ -1,0 +1,5 @@
+---
+term: FPPS (PEMBAYARAN PENUH PER SAHAM)
+
+---
+Metode untuk menghitung kompensasi penambang di dalam kumpulan penambangan. Metode ini merupakan evolusi dari metode PPS (*Bayar Per Saham*). Metode ini memberikan kompensasi kepada penambang tidak hanya untuk setiap bagian yang valid yang mereka kirimkan tetapi juga termasuk sebagian dari reward blok. Kompensasi dihitung berdasarkan rata-rata transaksi sebelumnya dan hashrate pool. Dengan demikian, penambang menerima upah untuk bagian yang dikirimkan, baik blok ditemukan atau tidak, tetapi metode ini juga memberikan kompensasi untuk nilai yang diharapkan. Metode ini menawarkan kompensasi yang stabil dan dapat diprediksi untuk para penambang, karena metode ini menghilangkan varians yang terkait dengan probabilitas menemukan blok, sambil mengekspos mereka terhadap fluktuasi biaya pasar. Namun, metode ini lebih berisiko bagi operator pool, karena mereka harus membayar penambang bahkan ketika tidak ada blok yang ditemukan, sehingga menyerap risiko varians.

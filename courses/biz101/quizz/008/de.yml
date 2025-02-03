@@ -1,0 +1,9 @@
+question: Welche Aussage beschreibt am besten die Rolle von Bitcoin als Netzwerk und Vorteil für Unternehmen?
+answer: Es kann sowohl als Wertaufbewahrungsmittel als auch als Tauschmittel in einem globalen, dezentralen System dienen.
+wrong_answers:
+  - Es kann nur als lokales Geschenkkartensystem funktionieren.
+  - Es handelt sich lediglich um ein spekulatives Handelsinstrument ohne wirklichen Nutzen.
+  - Sie muss an die Geldpolitik eines einzigen Landes gebunden sein, um zu funktionieren.
+explanation: |
+  Dank seines globalen, internetbasierten Designs kann Bitcoin nicht nur als Wertaufbewahrungsmittel, sondern auch als Tauschmittel dienen, das Unternehmen eine schnelle, genehmigungsfreie und endgültige Abwicklung von Transaktionen weltweit ermöglicht.
+reviewed: false

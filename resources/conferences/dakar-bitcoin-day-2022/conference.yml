@@ -1,12 +1,11 @@
 year: 2022
 name: Dakar Bitcoin Day 2022
-builder:
+builder: ₿itcoin Sénégal
 location: Dakar, Senegal
 language:
   - fr
   - en
 links:
-  website: https://surfinbitcoin.com/
   twitter: https://twitter.com/dakarbtcdays
 tags:
   - International
@@ -21,3 +20,5 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 1250
+
+projectId: b2cdb3d7-9f8a-4452-8715-dc91bac82345

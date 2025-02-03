@@ -1,24 +1,22 @@
-- start_date: 2024-10-28 09:00:00
-  end_date: 2024-11-03 19:00:00 
+- start_date: 2024-10-29 09:00:00
+  end_date: 2024-11-03 19:00:00
   timezone: Europe/London
   address_line_1: London, England
-  address_line_2:  
-  address_line_3: 
-  name: Bitcoin Cultural Festival London
-  builder:  
+  address_line_2: 9 Northington Street
+  address_line_3: Cyphermunk House
+  name: Bitcoin Cultural Festival 2024 London
+  builder: Bitcoin Culture Festival
   type: conference
   book_online: false
   book_in_person: false
   price_dollars: 0
-  description: Bitcoin cultural festivañ is coming to London! 
-  language: 
+  description: Join us and celebrate the opening day of the Bitcoin Culture Festival with lovely fresh food, drinks, and company easy time, talks, new friendships, community vibe! Meet Bitcoin merchants and participate in discussions about Bitcoin payments​! It’s a great opportunity to immerse yourself in Bitcoin culture, connect with fellow enthusiasts, and explore the future of finance through talks, art, and community gatherings!
+  language:
     - en
   links:
-    website: https://2140shop.myshopify.com/pages/bitcoin-culture-festival-london
+    website: https://bitcoinculturefestival.london/
     replay_url:
     live_url :
-  tags: 
+  tags:
     - bitcoiner
     - general
-
-

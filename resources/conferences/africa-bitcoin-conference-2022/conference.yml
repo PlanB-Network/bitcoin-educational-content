@@ -1,6 +1,6 @@
 year: 2022-12
 name: Africa Bitcoin Conference 2022
-builder:
+builder: Africa Bitcoin Conference
 location: Accra, Ghana
 language:
   - en
@@ -21,3 +21,5 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 1250
+
+projectId: db0f0b26-3fd8-4d3b-94cc-1f55f30fe768

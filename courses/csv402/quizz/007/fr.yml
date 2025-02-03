@@ -1,0 +1,9 @@
+question: Quelle méthode d’engagement RGB privilégie-t-il pour minimiser sa visibilité ?
+answer: Taproot (Tapret)
+wrong_answers:
+  - OP_RETURN (Opret)
+  - Sig tweak
+  - Key tweak
+explanation: |
+  Taproot (Tapret) permet d’insérer des engagements dans une transaction de manière discrète et efficace tout en assurant une compatibilité avec les standards actuels.
+reviewed: false

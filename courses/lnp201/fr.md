@@ -1045,7 +1045,7 @@ Merci, à très bientôt !
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 
-## Évaluez ce cours
+## Avis & Notes
 
 <chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1058,35 +1058,4 @@ Merci, à très bientôt !
 ## Conclusion
 
 <chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
-
-Félicitations ! 🎉
-
-Vous avez terminé la formation LNP 201 – Introduction au Lightning Network ! Vous pouvez être fier de vous, car ce n’est pas un sujet facile. Peu de personnes descendent aussi profondément dans le terrier de Bitcoin.
-
-Un grand merci à **Fanis Michalakis** pour nous avoir offert ce super cours gratuit sur le fonctionnement technique du Lightning Network. N’hésitez pas à le suivre sur [Twitter](https://x.com/FanisMichalakis), sur [son blog](https://fanismichalakis.fr/) ou via son travail chez [LN Markets](https://lnmarkets.com/).
-
-Maintenant que vous maîtrisez le Lightning Network, je vous invite à explorer nos autres cours gratuits sur Plan ₿ Network pour approfondir les autres aspects de l'invention de Satoshi Nakamoto :
-
-#### Comprenez le fonctionnement d'un portefeuille Bitcoin avec
-
-https://planb.network/courses/cyp201
-
-#### Découvrez l'histoire des origines de Bitcoin avec
-
-https://planb.network/courses/his201
-
-#### Configurez un serveur de paiement BTC avec
-
-https://planb.network/courses/btc305
-
-#### Maîtriser les principes de la vie privée dans Bitcoin
-
-https://planb.network/courses/btc204
-
-#### Découvrez les bases du minage avec
-
-https://planb.network/courses/min201
-
-#### Apprenez à créer votre communauté Bitcoin avec
-
-https://planb.network/courses/btc302
+<isCourseConclusion>true</isCourseConclusion>

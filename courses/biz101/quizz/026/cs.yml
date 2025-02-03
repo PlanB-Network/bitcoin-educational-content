@@ -1,0 +1,9 @@
+question: Jaký je klíčový faktor při výběru platformy nebo zprostředkovatele pro nákup bitcoinů pro firmu?
+answer: Pověst poskytovatele, bezpečnostní opatření a možnost exportu historie transakcí pro účetnictví.
+wrong_answers:
+  - Zajistit, aby platforma podporovala pouze nejasné kryptoměny.
+  - Nalezení poskytovatele, který odmítá poskytovat jakoukoli zákaznickou podporu.
+  - Používání služby, která zakazuje výběr bitcoinů do vlastní peněženky.
+explanation: |
+  Spolehlivá platforma by měla mít dobrou pověst, kvalitní zabezpečení a nástroje pro vedení záznamů. Pro obchodní operace je také zásadní možnost výběru bitcoinů a integrace s účetním softwarem.
+reviewed: false

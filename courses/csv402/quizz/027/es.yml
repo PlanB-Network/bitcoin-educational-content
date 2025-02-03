@@ -1,0 +1,9 @@
+question: ¿Cuál es el equivalente en programación orientada a objetos (POO) del componente Esquema en el contexto RGB?
+answer: Definición de clase
+wrong_answers:
+  - El constructor de la clase
+  - Implementación de una interfaz
+  - Prototipos de métodos
+explanation: |
+  El esquema corresponde a la definición de una clase en programación orientada a objetos, que describe las propiedades, métodos y reglas de la lógica empresarial.
+reviewed: false

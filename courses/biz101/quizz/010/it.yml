@@ -1,0 +1,9 @@
+question: In che modo la Lightning Network contribuisce a ridurre le commissioni per le transazioni in Bitcoin?
+answer: Conducendo la maggior parte delle transazioni fuori dalla catena e pubblicando solo le transazioni di regolamento del canale sulla blockchain principale.
+wrong_answers:
+  - Eliminando tutte le verifiche crittografiche dai pagamenti.
+  - Centralizzando il controllo in un unico grande hub di pagamento.
+  - Richiedendo agli esercenti di pagare in anticipo tutti i costi della rete.
+explanation: |
+  Poiché le transazioni Lightning avvengono fuori dalla catena, solo gli stati finali del canale vengono regolati sulla blockchain Bitcoin. Questo riduce la congestione e quindi le commissioni, evitando di effettuare molte transazioni sulla catena.
+reviewed: false

@@ -1,0 +1,14 @@
+title: "Bitcoin Village"
+publication_year: 2023
+cover: cover_en.webp
+original: true
+description: |
+  Bitcoin Village -kirjassaan kirjoittaja vie meidät informatiiviselle matkalle tämän teknologian läpi ja tutkii rahan alkuperää ja tietokoneprotokollan ydintä. Hän esittää myös pohdintoja sosiaalisista ja poliittisista vaikutuksista ja määrittelee perustan, jonka Bitcoin luo oikeudenmukaisemmalle ja tietoisemmalle yhteiskunnalle.
+contributors:
+  - another-satoshi
+original_language: en
+proofreading:
+  - language: en
+    urgency: 1
+    contributors_id:
+      - davidecoltro

@@ -1,0 +1,9 @@
+question: Kuidas aitab Lightning Network vähendada Bitcoini tehingute tasusid?
+answer: Tehes enamiku tehingutest väljaspool ahelat ja avaldades ainult kanali arveldustehinguid peamises plokiahelas.
+wrong_answers:
+  - Eemaldades maksetest igasuguse krüptograafilise kontrolli.
+  - Tsentraliseerides kontrolli ühte suurde maksekeskusse.
+  - Nõudes, et kaupmehed maksaksid kõik võrgukulud ette.
+explanation: |
+  Kuna Lightning-tehingud toimuvad väljaspool ahelat, siis on Bitcoini plokiahelas arveldatud ainult kanali lõplikud olekud. See vähendab ülekoormust ja seega vähendab tasusid, kuna välditakse paljude ahelas toimuvate tehingute tegemist.
+reviewed: false

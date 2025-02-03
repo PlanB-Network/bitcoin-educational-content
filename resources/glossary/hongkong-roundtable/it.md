@@ -1,0 +1,7 @@
+---
+term: TAVOLA ROTONDA DI HONG-KONG
+
+---
+Un evento storico della Blocksize War che si è svolto il 20 febbraio 2016 a Hong Kong. Si è trattato di un importante incontro tra gli sviluppatori di Bitcoin Core e i minatori per discutere della scalabilità del sistema e della strategia per scalarlo. La tensione era alta prima dell'incontro, soprattutto a causa dell'ascesa di Bitcoin Classic, una proposta di hard fork sostenuta da Gavin Andressen che mirava ad aumentare la dimensione dei blocchi a 2 MB. Ai dibattiti hanno partecipato figure influenti dell'ecosistema, tra cui Jihan Wu e Micree Zhan, cofondatori di Bitmain, Adam Back, presidente di Blockstream, Luke Dashjr, Matt Corallo e Peter Todd.
+
+I minatori, frustrati dalla mancanza di progressi, hanno minacciato di sostenere Bitcoin Classic se non fosse stato implementato un hard fork da 2 MB. Gli sviluppatori hanno difeso SegWit come soluzione praticabile. Dopo ore di trattative tese, è stato raggiunto un accordo in base al quale gli sviluppatori di Bitcoin Core avrebbero lavorato a un hard fork dopo l'implementazione di SegWit. Questo accordo avrebbe dovuto allentare le tensioni, ma alla fine ha creato maggiore sfiducia e confusione. Ogni parte ha interpretato l'accordo in modo diverso, esacerbando le divisioni all'interno della comunità. Sebbene questo accordo abbia temporaneamente rallentato lo slancio di Bitcoin Classic, è stato visto da molti come una soluzione insoddisfacente e maldestra.

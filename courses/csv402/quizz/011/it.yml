@@ -1,0 +1,9 @@
+question: Cosa compone un'ancora in RGB?
+answer: ID transazione, MPC, DBC e Prova di transazione extra
+wrong_answers:
+  - Genesi, definizione del sigillo e pacchetto di transizione
+  - Schema di contratto, logica aziendale e stato proprietario
+  - Firma, hash della transazione e impegno di Pedersen
+explanation: |
+  Un Anchor contiene i dati necessari per dimostrare l'inclusione di un impegno unico in una transazione Bitcoin.
+reviewed: false

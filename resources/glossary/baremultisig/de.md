@@ -1,0 +1,5 @@
+---
+term: BARE-MULTISIG
+
+---
+Standard-Skriptmodell P2MS, das verwendet wird, um Ausgabenbedingungen für einen UTXO festzulegen. Es ermöglicht das Sperren von Bitcoins mit mehreren öffentlichen Schlüsseln. Um diese Bitcoins auszugeben, muss eine Signatur mit einer vordefinierten Anzahl von zugehörigen privaten Schlüsseln bereitgestellt werden. Zum Beispiel hat ein P2MS "2/3" "3" öffentliche Schlüssel mit "3" dazugehörigen geheimen privaten Schlüsseln. Um die mit diesem P2MS-Skript gesperrten Bitcoins auszugeben, muss eine Signatur mit mindestens "2" der "3" privaten Schlüssel erstellt werden. Dies ist ein Schwellenwertsicherheitssystem. Dieses Skript wurde 2011 von Gavin Andresen erfunden, als er gerade die Wartung des Haupt-Bitcoin-Clients übernommen hatte. Heute wird P2MS von einigen Anwendungen nur noch am Rande genutzt. Die große Mehrheit der modernen Multisignaturen verwendet andere Skriptmodelle wie P2SH oder P2WSH. Im Vergleich zu diesen ist P2MS extrem trivial. Die öffentlichen Schlüssel, aus denen es besteht, werden beim Empfang der Transaktion offengelegt. Die Verwendung eines P2MS ist auch teurer als andere Multisignatur-Skripte.

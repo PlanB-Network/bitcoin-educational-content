@@ -1,0 +1,5 @@
+---
+term: REDEEMSCRIPT
+
+---
+Ein Skript, das die spezifischen Bedingungen definiert, die Eingaben erfüllen müssen, um die mit einer P2SH-Ausgabe verbundenen Mittel freizugeben. In einem P2SH UTXO enthält der `scriptPubKey` den Hash des `redeemScript`. Wenn eine Transaktion diesen UTXO als Eingabe ausgeben möchte, muss sie das eindeutige "DeemScript" bereitstellen, das mit dem im "ScriptPubKey" enthaltenen Hash übereinstimmt. Das "DeemScript" wird also in der "ScriptSig" der Eingabe angegeben, zusammen mit anderen Elementen, die notwendig sind, um die Bedingungen des Skripts zu erfüllen, wie Signaturen oder öffentliche Schlüssel. Diese gekapselte Struktur stellt sicher, dass die Details der Ausgabebedingungen verborgen bleiben, bis die Bitcoins tatsächlich ausgegeben werden. Sie wird insbesondere für Legacy P2SH Multisignatur-Wallets verwendet.

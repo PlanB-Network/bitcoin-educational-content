@@ -1,5 +1,5 @@
 id: eef2f5c0-1aba-48a3-b8f0-a57feb761d86
-builder: PlanB Network
+builder: Plan ₿ Network
 
 tags:
   - Weblate
@@ -86,3 +86,5 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3970
+
+projectId: cd62a137-baad-4133-b90d-711963e510c7

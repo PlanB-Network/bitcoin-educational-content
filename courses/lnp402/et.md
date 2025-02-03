@@ -158,19 +158,12 @@ Edu õpingutes.
 
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
-## Kursuse hindamine
+## Hinnangud & Reitingud
 
 <chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Lõppsõna
+## Järeldus
 
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
-
-Täname, et osalesite selles kursuses! Loodame, et see meeldis teile.
-
-Kui soovite sellest seminarist edasi õppida, julgustame teid osalema RGB kursustel, mis on saadaval sellel platvormil.
-
-Samuti võite tutvuda meie teiste kursustega ja jätkata õppimist meie arvukatest ressurssidest.
-Suur tänu Fulgur Venture'ile selle kursuse pakkumise eest ja meie õpetajatele nende osaluse eest.
-
+<isCourseConclusion>true</isCourseConclusion>

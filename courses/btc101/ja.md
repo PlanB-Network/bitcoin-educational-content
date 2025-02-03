@@ -1330,7 +1330,7 @@ AIを例にしてみましょう。これらの技術は、ビデオゲーム、
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-## コース評価
+## レビュー & 評価
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1343,25 +1343,4 @@ AIを例にしてみましょう。これらの技術は、ビデオゲーム、
 ## 結論
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-
-BTC 101トレーニングを修了おめでとうございます！このコースがあなたの心に響き、新しい扉を開くきっかけとなったことを心から願っています。ビットコインの探求はまだ始まったばかりです。Plan ₿ Networkで利用可能な他のすべてのコースもぜひご覧ください：
-
-#### 初めてのビットコインの取得と安全な保管について学ぶ
-
-https://planb.network/courses/btc102
-
-#### ライトニングネットワークについて学ぶ
-
-https://planb.network/courses/lnp201
-
-#### オーストリア学派の経済思想について学ぶ
-
-https://planb.network/courses/eco201
-
-#### オンラインセキュリティを更新する
-
-https://planb.network/courses/scu101
-
-#### ビットコインの基礎を理解し、家庭用暖房システムを構築する
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

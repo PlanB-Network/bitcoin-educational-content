@@ -1,0 +1,11 @@
+---
+term: PENAMBANGAN IKAN
+
+---
+Strategi (atau serangan) dalam menambang, di mana seorang penambang atau sekelompok penambang dengan sengaja menyimpan blok dengan bukti kerja yang valid tanpa segera menyiarkannya ke jaringan. Tujuannya adalah untuk mempertahankan keunggulan dari penambang lain dalam hal bukti kerja, yang memungkinkan mereka untuk menambang beberapa blok secara berurutan dan mempublikasikannya sekaligus, sehingga memaksimalkan keuntungan mereka.
+
+Dengan kata lain, kelompok penambang yang menyerang tidak menambang pada blok terakhir yang divalidasi oleh seluruh jaringan, melainkan pada blok yang mereka buat sendiri, yang berbeda dengan blok yang divalidasi oleh jaringan. Proses ini menghasilkan semacam percabangan rahasia dari blockchain, yang tetap tidak diketahui oleh seluruh jaringan sampai rantai alternatif ini berpotensi melampaui blockchain yang jujur. Ketika rantai rahasia dari penambang yang menyerang menjadi lebih panjang (yaitu, mengandung lebih banyak akumulasi pekerjaan) daripada rantai yang jujur dan publik, rantai tersebut kemudian disiarkan ke seluruh jaringan. Pada saat itu, node jaringan, yang mengikuti rantai terpanjang (dengan akumulasi pekerjaan paling banyak), akan melakukan sinkronisasi dengan rantai baru ini. Hal ini menghasilkan reorganisasi.
+
+Penambangan egois merupakan sebuah masalah karena mengurangi keamanan sistem dengan membuang sebagian daya komputasi jaringan. Jika berhasil, hal ini juga menyebabkan reorganisasi blockchain, sehingga mempengaruhi keandalan konfirmasi transaksi untuk pengguna. Praktik ini tetap berisiko bagi kelompok penambang yang menyerang, karena seringkali lebih menguntungkan untuk menambang secara normal pada blok terakhir yang diketahui publik daripada mengalokasikan daya komputasi ke fork rahasia yang mungkin tidak akan pernah melampaui blockchain yang jujur. Semakin banyak jumlah blok dalam reorganisasi, semakin rendah kemungkinan keberhasilan serangan tersebut.
+
+> ► * Terjemahan bahasa Inggris dari "minage égoïste" adalah "penambangan egois". Catatan, serangan penambangan egois tidak boleh disamakan dengan serangan penahanan blok*

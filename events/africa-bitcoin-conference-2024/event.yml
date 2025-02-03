@@ -1,25 +1,23 @@
-- start_date: 2024-12-10 
+- start_date: 2024-12-10
   end_date: 2024-12-12
   address_line_1: Nairobi, Kenya
-  address_line_2: 
-  address_line_3: 
+  address_line_2:
+  address_line_3:
   name: Africa Bitcoin Conference 2024
-  builder: 
+  builder: Africa Bitcoin Conference
   type: conference
   book_online: false
   book_in_person: false
   price_dollars: 0
   description: We are Africans from various parts of the continent who believe in the Bitcoin revolution and are building a movement to bolster its Adoption.
-  
-  language: 
+
+  language:
     - en
 
   links:
-    website: https://afrobitcoin.org/    
+    website: https://afrobitcoin.org/
     replay_url:
     live_url :
-  tags: 
+  tags:
     - bitcoiner
     - general
-
-

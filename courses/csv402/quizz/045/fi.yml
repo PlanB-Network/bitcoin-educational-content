@@ -1,0 +1,9 @@
+question: Mitä RGB-standardia käytetään korvaavien merkkien määrittelyyn?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20 on standardi, jolla luodaan ja hallinnoidaan vaihdettavia rahakkeita RGB-protokollan avulla.
+reviewed: false

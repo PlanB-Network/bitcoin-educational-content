@@ -1,0 +1,9 @@
+question: Apa salah satu keuntungan utama bagi para pedagang yang menggunakan Lightning Network?
+answer: Pengurangan biaya transaksi
+wrong_answers:
+  - Pembayaran dijamin oleh bank
+  - Peningkatan penjualan secara otomatis
+  - Penghapusan pajak komersial
+explanation: |
+  Biaya transaksi di Lightning Network sangat rendah, menjadikannya solusi yang hemat biaya bagi pedagang.
+reviewed: false

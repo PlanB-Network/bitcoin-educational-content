@@ -1,6 +1,6 @@
 year: 2014
 name: Bitcoin TLV 2014
-builder:
+builder: Israeli Bitcoin Association
 location: Tel Aviv, Israel
 language:
   - he
@@ -20,3 +20,5 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 1250
+
+projectId: a3d80e75-8ea0-4133-807a-27578d5c62a5

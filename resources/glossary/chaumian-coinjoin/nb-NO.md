@@ -1,0 +1,18 @@
+---
+term: CHAUMIAN COINJOIN
+
+---
+En coinjoin-protokoll som bruker David Chaums blindsignaturer og Tor for kommunikasjon mellom deltakerne og koordinatorens server. Målet med en Chaumian coinjoin er å sikre deltakerne at koordinatoren ikke kan stjele bitcoins, og heller ikke koble inn- og utdataene sammen.
+
+For å oppnå dette sender brukerne inn input og en kryptografisk blindet mottaksadresse til koordinatoren. Denne adressen skal, når den er avblindet, motta bitcoins som en output fra coinjoin. Koordinatoren signerer disse tokens og returnerer dem til brukerne. Brukerne kobler seg deretter anonymt til koordinatorens server med en ny Tor-identitet og avslører utgangsadressene sine i klartekst for transaksjonskonstruksjonen. Koordinatoren kan verifisere at alle disse mottaksadressene kommer fra legitime brukere, siden han tidligere har signert den blinde versjonen av dem med sin private nøkkel. Han kan imidlertid ikke knytte en spesifikk utgangsadresse til en gitt inngangsbruker. Derfor er det ingen kobling mellom inn- og utdataene, selv ikke sett fra koordinatorens perspektiv. Når koordinatoren har konstruert transaksjonen, sender han den tilbake til deltakerne, som signerer den for å låse opp inndataene sine, etter å ha verifisert at utdataene deres faktisk er med i transaksjonen. Deltakerne sender signaturen til koordinatoren. Når alle signaturene er samlet inn, kan koordinatoren kringkaste coinjoin-transaksjonen på Bitcoin-nettverket.
+
+![](../../dictionnaire/assets/38.webp)
+
+Denne metoden sikrer at koordinatoren verken kan kompromittere anonymiteten til deltakerne eller stjele bitcoins under hele coinjoin-prosessen.
+
+Det er vanskelig å fastslå med sikkerhet hvem som først introduserte ideen om coinjoin på Bitcoin, og hvem som hadde ideen om å bruke David Chaums blindsignaturer i denne sammenhengen. Det antas ofte at Gregory Maxwell var den første til å diskutere det i [en melding på BitcoinTalk i 2013] (https://bitcointalk.org/index.php?topic=279249.0):
+
+> *"Ved å bruke blinde Chaum-signaturer: Brukerne kobler seg til og oppgir inndata (og endrer adresser) samt en kryptografisk blindet versjon av adressen de ønsker å sende sine private mynter til; serveren signerer tokens og returnerer dem. Brukerne kobler seg anonymt til igjen, avmaskerer utgangsadressene sine og returnerer dem til serveren. Serveren kan se at alle utdataene er signert av ham, og at alle utdataene derfor kommer fra gyldige deltakere. Senere kobler folk seg til igjen og signerer."*
+Maxwell, G. (2013, 22. august). *CoinJoin: Bitcoin-personvern for den virkelige verden*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
+
+Det finnes imidlertid andre tidligere omtaler, både for Chaums signaturer i forbindelse med miksing og for coinjoins. [I juni 2011 presenterte Duncan Townsend på BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) en mikser som bruker Chaums signaturer på en måte som ligner på moderne Chaumian coinjoins. I den samme tråden er det [en melding fra hashcoin som svar til Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) for å forbedre mikseren hans. Denne meldingen presenterer nettopp det som ligner mest på coinjoins. Et lignende system nevnes også i [en melding fra Alex Mizrahi i 2012] (https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), mens han var rådgiver for skaperne av Tenebrix. Selve begrepet "coinjoin" er ikke oppfunnet av Greg Maxwell, men kommer fra en idé av Peter Todd.

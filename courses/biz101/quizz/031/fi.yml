@@ -1,0 +1,9 @@
+question: Miten yrityksen tulisi valita tarpeisiinsa sopiva Bitcoin-maksuratkaisu?
+answer: Kun otetaan huomioon sellaiset tekijät kuin maksutapahtumien tiheys, keskimääräinen maksun koko ja se, tapahtuuko maksu verkossa vai henkilökohtaisesti, valitaan kyseiseen luokkaan sopiva ratkaisu.
+wrong_answers:
+  - Valitsemalla aina yksinkertaisin ratkaisu riippumatta tapahtumien määrästä tai monimutkaisuudesta.
+  - Käyttämällä vain suurinta ja kalleinta saatavilla olevaa ratkaisua yrityksen koosta riippumatta.
+  - Luottamalla pelkästään arvauksiin ottamatta huomioon yrityksen erityisvaatimuksia.
+explanation: |
+  Eri yrityksillä on erilaiset tarpeet. Tekijöiden, kuten transaktiovolyymin, maksutapojen (online vs. fyysinen) ja skaalautuvuuden arviointi auttaa yritystä valitsemaan oikean Bitcoin-maksuratkaisun.
+reviewed: false

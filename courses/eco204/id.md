@@ -938,7 +938,7 @@ Hiperinflasi adalah subjek yang menarik yang telah dipelajari melalui berbagai p
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-## Evaluasi kursus ini
+## Ulasan & Penilaian
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -951,34 +951,4 @@ Hiperinflasi adalah subjek yang menarik yang telah dipelajari melalui berbagai p
 ## Kesimpulan
 
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
-Selamat atas penyelesaian kursus ini!
-
-Kami senang Anda telah mencapai tonggak penting ini dalam perjalanan pembelajaran Anda.
-
-Berkat dedikasi dan komitmen Anda, Anda telah memperoleh pengetahuan dan keterampilan berharga yang akan membantu Anda dalam pengembangan profesional Anda.
-
-Untuk terus mengeksplorasi alam semesta Bitcoin secara mendalam, kami mengundang Anda untuk menemukan semua kursus lain yang tersedia di Plan ₿ Network:
-
-#### Temukan kehidupan F. Bastiat dengan
-
-https://planb.network/courses/eco102
-
-#### Temukan pemikiran ekonomi sekolah Austria dengan
-
-https://planb.network/courses/eco201
-
-#### Temukan Bitcoin dan fundamental-nya dengan
-
-https://planb.network/courses/btc101
-
-#### Perbarui keamanan online Anda dengan
-
-https://planb.network/courses/scu101
-
-#### Dapatkan dan amankan bitcoin pertama Anda dengan
-
-https://planb.network/courses/btc102
-
-#### Temukan sejarah asal-usul Bitcoin dengan
-
-https://planb.network/courses/his201
+<isCourseConclusion>true</isCourseConclusion>

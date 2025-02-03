@@ -1,5 +1,5 @@
 id: 848b6a23-deb2-4c5f-a27e-93e2f842140f
-builder: PlanB Network
+builder: Plan ₿ Network
 
 category: on-chain
 
@@ -88,3 +88,5 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 10375
+
+projectId: cd62a137-baad-4133-b90d-711963e510c7

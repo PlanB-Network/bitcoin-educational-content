@@ -1,0 +1,9 @@
+question: Pourquoi une entreprise pourrait-elle choisir d'accepter les paiements en bitcoins de ses clients ?
+answer: Exploiter une base d'utilisateurs croissante, réduire potentiellement les frais de transaction et détenir un actif précieux dans sa trésorerie.
+wrong_answers:
+  - Garantir que tous les clients paieront plus que le prix indiqué.
+  - S'assurer qu'aucune taxe ou exigence réglementaire ne s'applique jamais.
+  - Rendre la procédure de paiement plus lente et plus compliquée.
+explanation: |
+  Accepter le bitcoin permet d'attirer une nouvelle population d'acheteurs, de réduire les frais de traitement des paiements et de créer une réserve de valeur. Elle peut également accroître la portée mondiale, car Bitcoin ne connaît pas de frontières et fonctionne 24 heures sur 24.
+reviewed: false

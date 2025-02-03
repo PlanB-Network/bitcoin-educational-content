@@ -1,0 +1,9 @@
+question: What are the components contained in an RGB consignment that Bob (recipient) receives for a contract?
+answer: Genesis, Schema, Interface and Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Transition and Extension
+  - Schema, Interface, Signature and PSBT
+  - Genesis, Interface, PSBT and History
+explanation: |
+  The consignment of an RGB contract includes the Genesis, Schema, Interface and Interface Implementation, which provide all the data needed to validate the contract.
+reviewed: false

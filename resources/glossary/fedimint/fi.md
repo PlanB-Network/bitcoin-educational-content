@@ -1,0 +1,5 @@
+---
+term: FEDIMINT
+
+---
+Maksu- ja bitcoin-hallintaprotokolla, joka on suunniteltu parantamaan yksityisyyttä ja vähentämään riippuvuutta pääketjusta yhdistämällä rahastojen säilytys. Fedimintin perusti Eric Sirion vuonna 2021. Se perustuu chaumilaiseen pankkijärjestelmään, joka sen sijaan, että se olisi keskitetty yhden luotettavan toimijan ympärille, perustuu federaatioihin. Nämä federaatiot ovat luotettavien säilyttäjien ryhmiä, jotka yhdessä pitävät hallussaan ja hallinnoivat ryhmäänsä kuuluvien käyttäjien bitcoineja. Ryhmän sisällä käyttäjät voivat suorittaa maksuja bitcoin-talletuksiaan vastaan myönnetyillä lipuilla. Fedimintin ideana on ottaa tämä konsepti käyttöön paikallisyhteisöjen tasolla. Näin se edustaa eräänlaista bitcoiniin perustuvan talletuspankin evoluutiota, johon sisältyy David Chaumin eCash-järjestelmä ja jossa käytetään luotettavien henkilöiden muodostamaa liittoa, joka vastaa kohde-etuuden säilytyksestä ja liikkeeseenlaskusta.

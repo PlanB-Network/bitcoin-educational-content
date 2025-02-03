@@ -1,0 +1,9 @@
+question: Quale concetto storico applica l'RGB al mondo digitale?
+answer: Strumenti al portatore
+wrong_answers:
+  - Database centralizzati
+  - Reti peer-to-peer senza validazione
+  - Registri aperti e accessibili a tutti
+explanation: |
+  RGB traspone l'idea di strumenti al portatore in digitale.
+reviewed: false

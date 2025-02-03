@@ -1,0 +1,9 @@
+question: ¿Qué acción realiza Bob (receptor) una vez que recibe el envío terminal de Alice (pagador)?
+answer: Comprobar la validez de la transición de estado y firmar
+wrong_answers:
+  - Modificar el esquema del contrato y enviarlo a Alice
+  - Crear una factura para una nueva operación
+  - Firma el PSBT de Alice y distribúyelo onchain
+explanation: |
+  Bob examina el envío, se asegura de que la transición cumple las normas y firma para confirmar su acuerdo.
+reviewed: false

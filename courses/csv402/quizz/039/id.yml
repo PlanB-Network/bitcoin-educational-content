@@ -1,0 +1,9 @@
+question: Perintah mana yang mengekspor kontrak dari simpanan ke file eksternal?
+answer: ekspor rgb '<ContractId>' myContractPBN.rgb
+wrong_answers:
+  - rgb unduh '<ContractId>' myContractPBN.rgb
+  - rgb dump '<ContractId>' myContractPBN.rgb
+  - masalah rgb '<ContractId>' myContractPBN.rgb
+explanation: |
+  Perintah "rgb export" digunakan untuk mengekstrak kontrak dari simpanan dan menyimpannya sebagai sebuah file agar mudah dibagikan.
+reviewed: false

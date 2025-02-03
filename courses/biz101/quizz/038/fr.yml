@@ -1,0 +1,9 @@
+question: Pourquoi un enregistrement minutieux est-il essentiel lorsque l'on utilise des bitcoins dans la comptabilité d'une entreprise ?
+answer: En effet, chaque transaction en bitcoins peut créer un événement imposable, et des registres précis sont nécessaires pour calculer les gains, les pertes et les obligations fiscales.
+wrong_answers:
+  - Parce que la blockchain remplit automatiquement les obligations fiscales au nom de l'entreprise.
+  - Parce qu'aucune norme comptable ne s'applique aux transactions en bitcoins.
+  - Parce qu'il est impossible de retracer les transactions en bitcoins une fois qu'elles sont enregistrées.
+explanation: |
+  Chaque achat, vente ou paiement effectué en bitcoins peut avoir des implications fiscales. La tenue d'un registre détaillé du coût de base, du prix de vente et du moment de la vente garantit une déclaration d'impôt correcte et conforme.
+reviewed: false

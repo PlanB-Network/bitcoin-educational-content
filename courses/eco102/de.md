@@ -1018,7 +1018,7 @@ Im Wesentlichen übernahm Reagan von Bastiat mehrere Schlüsselelemente einer li
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-## Bewerten Sie diesen Kurs
+## Bewertungen & Noten
 
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -1031,35 +1031,4 @@ Im Wesentlichen übernahm Reagan von Bastiat mehrere Schlüsselelemente einer li
 ## Fazit
 
 <chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
-
-Herzlichen Glückwunsch zum Abschluss dieses Kurses!
-
-Wir freuen uns, dass Sie diesen wichtigen Meilenstein in Ihrer Lernreise erreicht haben.
-
-Durch Ihr Engagement und Ihre Hingabe haben Sie wertvolles Wissen und Fähigkeiten erworben, die Ihnen in Ihrer beruflichen Entwicklung dienen werden.
-
-Um das Bitcoin-Universum weiter zu erforschen, laden wir Sie ein, alle anderen verfügbaren Kurse auf Plan ₿ Network zu entdecken:
-
-#### Entdecken Sie Bitcoin und seine Grundlagen mit
-
-https://planb.network/courses/btc101
-
-#### Erhalten und sichern Sie Ihre ersten Bitcoins mit
-
-https://planb.network/courses/btc102
-
-#### Aktualisieren Sie Ihre Online-Sicherheit mit
-
-https://planb.network/courses/scu101
-
-#### Entdecken Sie das Lightning Network mit
-
-https://planb.network/courses/lnp201
-
-#### Lernen Sie das ökonomische Denken der Österreichischen Schule mit
-
-https://planb.network/courses/eco201
-
-#### Verstehen Sie die Bitcoin-Grundlagen und bauen Sie Ihre Hausheizung mit
-
-https://planb.network/courses/min201
+<isCourseConclusion>true</isCourseConclusion>

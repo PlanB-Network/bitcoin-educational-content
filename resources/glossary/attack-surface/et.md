@@ -1,0 +1,5 @@
+---
+term: RÜHKIMISPIND
+
+---
+Viitab potentsiaalsete sisenemispunktide koguarvule, mida ründaja võib kasutada, et pääseda süsteemi. Ründepind hõlmab kõiki liideseid, teenuseid, porte, protokolle ja muid kommunikatsioonivektoreid, mis võivad olla avatud. Laiendatud ründepind suurendab haavatavusi, muutes süsteemi seega ründamise suhtes vastuvõtlikumaks. Ründepinna vähendamine on hea turvapraktika, mis hõlmab mittevajalike teenuste väljalülitamist. Näiteks Bitcoini kontekstis on riistvaralistel rahakottidel palju väiksem ründepind kui tarkvaralistel rahakottidel. Need isoleerivad võtmed seadmesse, mis ei ole ühendatud internetti, ning neil on väga vähe liideseid ja teenuseid. Seevastu tarkvara rahakotid on paigaldatud mitmekülgsetele arvutitele, millel on palju suurem ründepind tänu arvukatele funktsioonidele ja võrguühendustele, mida nad toetavad.

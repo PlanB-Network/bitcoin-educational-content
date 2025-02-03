@@ -1,0 +1,13 @@
+---
+term: SIGOPS (OPERACIONES DE FIRMA)
+
+---
+Se refiere a las operaciones de firma digital necesarias para validar transacciones. Cada transacción Bitcoin puede contener múltiples entradas, cada una de las cuales puede requerir una o más firmas para ser considerada válida. La verificación de estas firmas se realiza mediante el uso de opcodes específicos llamados "sigops". En concreto, se incluyen `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG`, y `OP_CHECKMULTISIGVERIFY`. Estas operaciones imponen una cierta carga de trabajo a los nodos de la red que deben verificarlas. Para evitar ataques DoS mediante la inflación artificial del número de sigops, el protocolo impone un límite al número de sigops permitidos por bloque, para garantizar que la carga de validación siga siendo manejable para los nodos. Este límite está fijado actualmente en un máximo de 80.000 sigops por bloque. Para contar, los nodos siguen estas reglas
+
+En el `scriptPubKey`, `OP_CHECKSIG` y `OP_CHECKSIGVERIFY` cuentan como 4 sigops. Los opcodes `OP_CHECKMULTISIG` y `OP_CHECKMULTISIGVERIFY` cuentan por 80 sigops. De hecho, durante el recuento, estas operaciones se multiplican por 4 cuando no forman parte de una entrada SegWit (para un P2WPKH, el número de sigops será por tanto 1);
+
+En el `redeemScript`, los opcodes `OP_CHECKSIG` y `OP_CHECKSIGVERIFY` también cuentan como 4 sigops, `OP_CHECKMULTISIG` y `OP_CHECKMULTISIGVERIFY` cuentan como `4n` si preceden a `OP_n`, o 80 sigops en caso contrario;
+
+Para el `witnessScript`, `OP_CHECKSIG` y `OP_CHECKSIGVERIFY` valen 1 sigop, `OP_CHECKMULTISIG` y `OP_CHECKMULTISIGVERIFY` se cuentan como `n` si son introducidos por `OP_n`, o 20 sigops en caso contrario;
+
+En los scripts de Taproot, los sigops se tratan de forma diferente a los scripts tradicionales. En lugar de contar directamente cada operación de firma, Taproot introduce un presupuesto de sigops para cada entrada de transacción, que es proporcional al tamaño de dicha entrada. Este presupuesto es de 50 sigops más el tamaño en bytes del testigo de la entrada. Cada operación de firma reduce este presupuesto en 50. Si la ejecución de una operación de firma reduce el presupuesto por debajo de cero, el script no es válido. Este método permite una mayor flexibilidad en los scripts Taproot, al tiempo que mantiene la protección contra posibles abusos relacionados con los sigops, al vincularlos directamente al peso de la entrada. Así, los scripts Taproot no se incluyen en el límite de 80.000 sigops por bloque.

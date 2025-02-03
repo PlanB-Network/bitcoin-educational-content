@@ -1,0 +1,5 @@
+---
+term: OUTPUT LINKING
+
+---
+Käytetään joskus synonyyminä viittaamaan osoitteen uudelleenkäyttöön. Ulostulon linkittäminen viittaa käytäntöön, jossa samaa vastaanottoosoitetta käytetään useiden UTXO:iden lukitsemiseen, joskus useiden eri transaktioiden välillä. Bitcoineja lukitaan yleensä käyttämällä salausavainparia, joka vastaa yksilöllistä osoitetta. Koska lohkoketju on julkinen, on helppo nähdä, mihin osoitteisiin liittyy kuinka monta bitcoinia. Jos samaa osoitetta käytetään uudelleen useisiin maksuihin, voidaan olettaa, että kaikki siihen liittyvät UTXO:t kuuluvat samalle taholle. Osoitteiden uudelleenkäyttö aiheuttaa siis ongelman käyttäjän yksityisyydelle. Se mahdollistaa deterministiset yhteydet useiden tapahtumien ja UTXO:iden välillä sekä säilyttää ketjussa tapahtuvan rahastonseurannan.

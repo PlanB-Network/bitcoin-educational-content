@@ -1,0 +1,26 @@
+id: 873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+
+builder: Blockstream
+
+tags:
+  - hardware
+  - wallets
+  - keys
+
+category: hardware
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-01-17
+    urgency:
+    contributors_id:
+      - LoicPandul
+    reward:

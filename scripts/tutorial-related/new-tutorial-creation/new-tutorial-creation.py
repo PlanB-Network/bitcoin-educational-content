@@ -21,8 +21,6 @@ def load_settings():
                 ctk.set_appearance_mode(settings['theme'])
             else:
                 ctk.set_appearance_mode("Light")
-            if 'project_id' in settings:
-                project_id_var.set(settings['project_id'])
             if 'base_path' in settings:
                 base_path_var.set(settings['base_path'])
             if 'language_option' in settings:
@@ -45,7 +43,6 @@ def save_settings():
         'language': language_var.get(),
         'contributor_id': contributor_id_var.get(),
         'professor_id': professor_id_var.get(),
-        'project_id': project_id_var.get(),
         'theme': ctk.get_appearance_mode()
     }
     with open(SETTINGS_FILE, 'w', encoding='utf-8') as f:

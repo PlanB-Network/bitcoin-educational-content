@@ -47,11 +47,43 @@ Pour la création de schémas et visuels :
 - Synchronisez la branche principale (`dev`) de votre fork avec le dépôt source.
 - Mettez à jour votre clone local.
 
+```bash
+# Cloner votre fork (si ce n'est pas déjà fait)
+git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
+cd bitcoin-educational-content
+
+# Ajouter le dépôt source en tant que remote upstream
+git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
+
+# Récupérer les dernières modifications depuis le dépôt source
+git fetch upstream
+
+# Se positionner sur la branche principale 'dev'
+git checkout dev
+
+# Fusionner les modifications de la branche 'dev' du dépôt source dans votre fork
+git merge upstream/dev
+
+# Pousser les mises à jour vers votre fork sur GitHub
+git push origin dev
+```
+
 ### 2 - Créez une nouvelle branche
 
 - Assurez-vous d’être sur la branche `dev`.
 - Créez une nouvelle branche avec un nom descriptif (par exemple : `tuto-green-wallet-loic`).
 - Publiez cette branche sur votre fork en ligne.
+
+```bash
+# Assurez-vous d’être sur la branche 'dev'
+git checkout dev
+
+# Créez une nouvelle branche avec un nom descriptif
+git checkout -b tuto-green-wallet-loic
+
+# Publiez cette branche sur votre fork en ligne
+git push -u origin tuto-green-wallet-loic
+```
 
 ### 3 - Ajoutez les documents du tutoriel
 
@@ -70,6 +102,24 @@ Si vous préférez le faire manuellement, suivez ces étapes :
     - Un fichier `tutorial.yml` contenant les métadonnées (auteur, tags, catégorie, niveau de difficulté, etc.).
     - Un fichier Markdown contenant le tutoriel, nommé selon le code de la langue (ex. : `fr.md`, `en.md`, etc.).
 
+```bash
+# Positionnez-vous dans le dossier approprié
+cd tutorials/wallet
+
+# Créez le répertoire dédié au tutoriel
+mkdir sparrow-wallet
+cd sparrow-wallet
+
+# Créez le sous-dossier 'assets'
+mkdir -p assets
+
+# Créez le sous-dossier pour le code de la langue d’origine (exemple : 'en' pour l’anglais)
+mkdir -p assets/en
+
+# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple : 'en.md' pour l’anglais)
+touch tutorial.yml en.md
+```
+
 ### 4 - Remplissez le fichier YAML
 
 - Complétez le fichier `tutorial.yml` en suivant ce modèle :
@@ -77,7 +127,7 @@ Si vous préférez le faire manuellement, suivez ces étapes :
 ```yaml
 id: 
 
-projectId: 
+project_id: 
 
 tags:
   - 
@@ -91,7 +141,7 @@ level:
 credits:
   professor: 
 
-# Métadonnées de relecture
+# Proofreading metadata
 
 original_language:
 proofreading:
@@ -101,34 +151,44 @@ proofreading:
     contributors_id:
       - 
     reward:
-```
+````
 
-- Champs obligatoires :
-    
-    - **id** : Un UUID (_Universally Unique Identifier_) pour identifier de manière unique le tutoriel.
-    - **builder** : Le nom de l’entreprise ou de l’organisation à l’origine de l’outil présenté dans le tutoriel [à choisir dans cette liste](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders).
-    - **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, sélectionnés [dans la liste de Paolo](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md).
-    - **category** : La sous-catégorie correspondant au contenu du tutoriel, basée sur la structure du site Plan ₿ Network (ex. : pour les portefeuilles : `desktop`, `hardware`, `mobile`, `backup`).
-    - **level** : Le niveau de difficulté du tutoriel, parmi :
-        - `beginner`
-        - `intermediate`
-        - `advanced`
-        - `expert`
-    - **professor** : Votre `contributor_id` (mots BIP39) affiché sur [votre profil de professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
-    - **original_language** : La langue d’origine du tutoriel (ex. : `fr`, `en`, etc.).
-    - **proofreading** : Informations sur la relecture. Remplissez cette partie initiale, car relire son propre tutoriel compte comme une première validation.
-        - **language** : Code de la langue de relecture (ex. : `fr`, `en`, etc.).
-        - **last_contribution_date** : La date du jour.
-        - **urgency** : Laissez vide.
-        - **contributors_id** : Votre identifiant GitHub.
-        - **reward** : Laissez vide.
-- Exemple de fichier `tutorial.yml` complété pour un tutoriel sur le portefeuille Blockstream Green :
-    
+Voici le détail des champs obligatoires :
+
+- **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
+
+- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des builders](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders). Par exemple, si vous réalisez un tutoriel sur le logiciel Sparrow Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/builders/sparrow/builder.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
+
+- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Paolo](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
+
+- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
+
+- **level** : Le niveau de difficulté du tutoriel, parmi :
+    - `beginner`
+    - `intermediate`
+    - `advanced`
+    - `expert`
+
+- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
+
+- **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
+
+- **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
+    - **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
+    - **last_contribution_date** : Date du jour.
+    - **urgency** : Laissez vide.
+    - **contributors_id** : Votre ID GitHub.
+    - **reward** : Laissez vide.
+
+Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 
 ```yaml
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
 
-builder: Blockstream
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
 
 tags:
   - wallets
@@ -142,7 +202,7 @@ level: beginner
 credits:
   professor: pretty-private
 
-# Métadonnées de relecture
+# Proofreading metadata
 
 original_language: fr
 proofreading:
@@ -173,12 +233,21 @@ proofreading:
 ![nom-image](assets/en/001.webp)
 ```
 
-- Placez les schémas et images dans le sous-dossier de langue correspondant, dans `assets`.
+- Placez les schémas et images dans le sous-dossier de langue correspondant, dans `/assets`.
 
 ### 6 - Enregistrez et soumettez le tutoriel
 
 - Enregistrez vos modifications localement en créant un commit avec un message descriptif.
 - Poussez les changements sur votre fork GitHub.
+
+```bash
+# Créez un commit avec un message descriptif
+git commit -m "Ajout du tutoriel sparrow-wallet"
+
+# Poussez vos modifications sur votre fork
+git push origin tuto-green-wallet-loic
+```
+
 - Une fois terminé, créez une Pull Request (PR) sur GitHub pour proposer l’intégration de vos modifications.
 - Ajoutez un titre et une brève description à la PR. Mentionnez le numéro d’issue correspondant dans le commentaire.
 
@@ -186,6 +255,15 @@ proofreading:
 
 - Attendez la validation ou les retours d’un administrateur.
 - Si nécessaire, effectuez des corrections et poussez de nouveaux commits.
+
+```bash
+# Créez un commit décrivant les corrections apportées
+git commit -m "Corrections suite à la revue du tutoriel sparrow-wallet"
+
+# Poussez les corrections sur votre fork
+git push origin tuto-green-wallet-loic
+```
+
 - Une fois la PR fusionnée, vous pouvez supprimer votre branche de travail.
 
 ## Normes de création de contenu
@@ -193,7 +271,7 @@ proofreading:
 - **Formatage supporté sur la plateforme** :
     - Markdown classique : listes, liens, images, citations, gras, italique, etc.
     - LaTeX (en bloc uniquement, pas inline) : délimité par `$$`.
-    - Code en ligne : Syntaxe avec un seul backtick.
+    - Code inline : Syntaxe avec un seul backtick.
     - Blocs de code : Syntaxe avec trois backtick, par exemple :
 
 ```python
@@ -201,7 +279,7 @@ print("Hello, Bitcoin!")
 ```
 
 - **Illustrations et schémas** :
-    - Toutes les images doivent être au format WebP. Utilisez cet outil gratuit pour les convertir : [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
+    - Toutes les images doivent être au format WebP. Utilisez cet outil gratuit pour les convertir si besoin : [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Nommez les visuels avec 2 ou 3 chiffres (ex. : `001.webp`, `002.webp`).
     - Pour les tutoriels sur mobile ou hardware wallets, utilisez des maquettes.
     - Utilisez uniquement des visuels créés par vous ou libres de droits.

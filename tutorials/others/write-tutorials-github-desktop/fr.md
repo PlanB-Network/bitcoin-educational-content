@@ -23,7 +23,7 @@ Logiciels requis pour suivre ce tutoriel :
 - Un éditeur de fichier markdown comme [Obsidian](https://obsidian.md/) ;
 - Un éditeur de code ([VSC](https://code.visualstudio.com/) ou [Sublime Text](https://www.sublimetext.com/)).
 
-01
+![TUTO](assets/fr/01.webp)
 
 Prérequis avant de commencer le tutoriel :
 
@@ -47,41 +47,41 @@ Une fois que tout est en place, que votre environnement local est bien paramétr
 
 Ouvrez votre navigateur et dirigez-vous vers la page de votre fork du dépôt de Plan ₿ Network. Il s'agit du fork que vous avez établi sur GitHub. L'URL de votre fork devrait ressembler à : `https://github.com/[votre-nom-d'utilisateur]/bitcoin-educational-content` :
 
-03
+![TUTO](assets/fr/03.webp)
 
 Assurez-vous d'être sur la branche principale `dev` puis cliquez sur le bouton `Sync fork`. Si votre fork n'est pas à jour, GitHub vous proposera de mettre à jour votre branche. Procédez à cette mise à jour. Si, au contraire, votre branche est déjà à jour, GitHub vous en informera :
 
-04
+![TUTO](assets/fr/04.webp)
 
 Ouvrez le logiciel GitHub Desktop et assurez-vous que votre fork est correctement sélectionné dans le coin supérieur gauche de la fenêtre :
 
-05
+![TUTO](assets/fr/05.webp)
 
 Cliquez sur le bouton `Fetch origin`. Si votre dépôt local est déjà à jour, GitHub Desktop ne suggérera aucune action supplémentaire. Dans le cas contraire, l'option `Pull origin` apparaîtra. Cliquez sur ce bouton afin de mettre à jour votre dépôt local :
 
-07
+![TUTO](assets/fr/06.webp)
 
 Vérifiez que vous êtes bien sur la branche principale `dev` :
 
-08
+![TUTO](assets/fr/07.webp)
 
 Cliquez sur cette branche, puis cliquez sur le bouton `New Branch` :
 
-08
+![TUTO](assets/fr/08.webp)
 
 Assurez-vous que la nouvelle branche soit basée sur le dépôt source, à savoir `PlanB-Network/bitcoin-educational-content`.
 
 Nommez votre branche de manière à ce que le titre soit clair quant à son objectif, en utilisant des tirets pour séparer chaque mot. À titre d'exemple, admettons que notre objectif soit de rédiger un tutoriel sur l'utilisation du logiciel Sparrow Wallet. Dans ce cas, la branche de travail dédiée à la rédaction de ce tutoriel pourrait être nommée : `tuto-sparrow-wallet-loic`. Une fois le nom approprié saisi, cliquez sur `Create branch` pour confirmer la création de la branche :
 
-09
+![TUTO](assets/fr/09.webp)
 
 Cliquez maintenant sur le bouton `Publish branch` afin d'enregistrer votre nouvelle branche de travail sur votre fork en ligne sur GitHub :
 
-10
+![TUTO](assets/fr/10.webp)
 
 À présent, sur GitHub Desktop, vous devriez vous trouver sur votre nouvelle branche. Cela signifie que toutes les modifications apportées localement sur votre ordinateur seront exclusivement enregistrées sur cette branche spécifique. Aussi, tant que cette branche reste sélectionnée sur GitHub Desktop, les fichiers visibles localement sur votre machine correspondent à ceux de cette branche (`tuto-sparrow-wallet-loic`), et non à ceux de la branche principale (`dev`).
 
-11
+![TUTO](assets/fr/11.webp)
 
 Pour chaque nouvel article que vous souhaitez publier, il vous faudra créer une nouvelle branche à partir de `dev`. Une branche dans Git est une version parallèle du projet, qui vous permet de faire des modifications sans affecter la branche principale, jusqu'à ce que le travail soit prêt à être fusionné.
 
@@ -109,47 +109,47 @@ python new-tutorial-creation.py
 
 Une interface graphique (GUI) va s'ouvrir. La première fois, vous devrez entrer toutes les informations nécessaires, mais lors des utilisations ultérieures du script, vos informations personnelles seront mémorisées, ce qui vous évite de devoir les saisir à nouveau.
 
-37
+![TUTO](assets/fr/37.webp)
 
 Commencez par indiquer le chemin local menant au dossier `/tutorials` sur votre clone du dépôt (`.../bitcoin-educational-content/tutorials/`). Vous pouvez le noter manuellement ou cliquer sur le bouton "Browse" pour naviguer via votre explorateur de fichiers.
 
-38
+![TUTO](assets/fr/38.webp)
 
 Sélectionnez la langue dans laquelle vous rédigerez votre tutoriel.
 
-39
+![TUTO](assets/fr/39.webp)
 
 Choisissez une catégorie principale pour votre tutoriel.
 
-40
+![TUTO](assets/fr/40.webp)
 
 Ensuite, sélectionnez une sous-catégorie appropriée, en fonction de la catégorie principale que vous avez choisie.
 
-41
+![TUTO](assets/fr/41.webp)
 
 Déterminez un niveau de difficulté pour le tutoriel.
 
-42
+![TUTO](assets/fr/42.webp)
 
 Choisissez le nom du répertoire spécialement créé pour votre tutoriel. Le nom de ce dossier devrait refléter le logiciel abordé dans le tutoriel, en utilisant des tirets pour relier les mots. Par exemple, le dossier pourrait s'appeler `red-wallet` :
 
-43
+![TUTO](assets/fr/43.webp)
 
 Le `projectId` est l'UUID de l'entreprise ou de l'organisation derrière l'outil présenté dans le tutoriel, disponible [dans la liste des builders](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders). Par exemple, pour un tutoriel sur le logiciel Sparrow Wallet, vous trouverez ce `projectId` dans le fichier : `bitcoin-educational-content/resources/builders/sparrow/builder.yml`. Cette information est ajoutée au fichier YAML de votre tutoriel car Plan ₿ Network maintient une base de données des entreprises et organisations actives sur Bitcoin ou des projets connexes. En ajoutant le `projectId` associé à votre tutoriel, vous créez un lien entre votre contenu et l'entité concernée.
 
-44
+![TUTO](assets/fr/44.webp)
 
 Pour les tags, sélectionnez 2 ou 3 mots-clés pertinents en relation avec le contenu de votre tutoriel, en les choisissant exclusivement [dans la liste des tags de Paolo](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md).
 
-45
+![TUTO](assets/fr/45.webp)
 
 Dans la case "Contributor's GitHub ID", inscrivez votre identifiant GitHub.
 
-46
+![TUTO](assets/fr/46.webp)
 
 Pour la case "PBN professor's ID", saisissez votre identifiant en utilisant les mots de la liste BIP39, tel qu'il apparaît sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
 
-47
+![TUTO](assets/fr/47.webp)
 
 Pour plus de détails sur votre identifiant de professeur, veuillez consulter le tutoriel suivant :
 
@@ -157,7 +157,7 @@ https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9b
 
 Une fois toutes les informations saisies et vérifiées, cliquez sur "Create Tutorial" pour valider la création des fichiers de votre tutoriel. Cela générera en local le dossier de votre tutoriel et tous les fichiers nécessaires dans le dossier de la catégorie sélectionnée.
 
-48
+![TUTO](assets/fr/48.webp)
 
 Vous pouvez maintenant passer outre la sous-partie "Sans mon script Python", ainsi que l'étape 3 "Remplir le fichier YAML", car le script a déjà effectué ces actions automatiquement pour vous. Passez directement à l'étape 4 et à la rédaction de votre tutoriel.
 
@@ -167,11 +167,11 @@ Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-
 
 Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
 
-12
+![TUTO](assets/fr/12.webp)
 
 Au sein du dossier `wallet`, il faut créer un nouveau répertoire spécifiquement dédié à votre tutoriel. Le nom de ce dossier doit évoquer le logiciel traité dans le tutoriel, en veillant à relier les mots par des tirets. Pour mon exemple, le dossier sera intitulé `sparrow-wallet` :
 
-13
+![TUTO](assets/fr/13.webp)
 
 Dans ce nouveau sous-dossier dédié à votre tutoriel, il faut ajouter plusieurs éléments :
 - Créez un dossier `assets`, destiné à recevoir toutes les illustrations nécessaires à votre tutoriel ;
@@ -179,7 +179,7 @@ Dans ce nouveau sous-dossier dédié à votre tutoriel, il faut ajouter plusieur
 - Un fichier `tutorial.yml` doit être créé pour y consigner les détails relatifs à votre tutoriel ;
 - Un fichier en format markdown est à créer pour y rédiger le contenu effectif de votre tutoriel. Ce fichier doit être intitulé selon le code de la langue de rédaction. Par exemple, pour un tutoriel rédigé en français, le fichier devra s'appeler `fr.md`.
 
-14
+![TUTO](assets/fr/14.webp)
 
 Pour résumer, voici la hiérarchie des fichiers à créer :
 
@@ -289,11 +289,9 @@ proofreading:
     reward:
 ```
 
-15
-
 Une fois la modification de votre fichier `tutorial.yml` terminée, enregistrez votre document en cliquant sur `File > Save` :
 
-16
+![TUTO](assets/fr/16.webp)
 
 Vous pouvez désormais fermer votre éditeur de code.
 
@@ -301,15 +299,15 @@ Vous pouvez désormais fermer votre éditeur de code.
 
 Maintenant, vous pouvez ouvrir votre fichier qui accueillera votre tutoriel, nommé avec le code de votre langue, comme par exemple `fr.md`. Rendez-vous sur Obsidian, sur la gauche de la fenêtre, faites dérouler l'arborescence de dossiers jusqu'au dossier de votre tutoriel et au fichier recherché :
 
-18
+![TUTO](assets/fr/18.webp)
 
 Cliquez sur le fichier pour l'ouvrir :
 
-19
+![TUTO](assets/fr/19.webp)
 
 Nous allons commencer par remplir la partie `Properties` tout en haut du document.
 
-20
+![TUTO](assets/fr/20.webp)
 
 Ajoutez manuellement et remplissez le bloc de code suivant :
 
@@ -320,11 +318,11 @@ description: [Description]
 ---
 ```
 
-21
+![TUTO](assets/fr/21.webp)
 
 Remplissez le nom de votre tutoriel ainsi qu'une courte description de celui-ci :
 
-22
+![TUTO](assets/fr/22.webp)
 
 Ajoutez ensuite le chemin de l'image de couverture au début de votre tutoriel. Pour ce faire, notez :
 
@@ -334,29 +332,29 @@ Ajoutez ensuite le chemin de l'image de couverture au début de votre tutoriel. 
 
 Cette syntaxe vous sera utile chaque fois que l'ajout d'une image dans votre tutoriel sera nécessaire. Le point d'exclamation signale qu'il s'agit d'une image, dont le texte alternatif (alt) est spécifié entre les crochets. Le chemin d'accès à l'image est indiqué entre les parenthèses :
 
-23
+![TUTO](assets/fr/23.webp)
 
 ## 5 - Ajouter le logo et la couverture
 
 Au sein du dossier `assets`, vous devez ajouter un fichier nommé `logo.webp`, qui servira de vignette pour votre article. Cette image doit obligatoirement être au format `.webp` et doit respecter une dimension carrée afin de s'harmoniser avec l'interface utilisateur. Vous avez la liberté de choisir le logo du logiciel traité dans le tutoriel ou toute autre image pertinente, à condition que celle-ci soit libre de droits. En complément, ajoutez également au même endroit une image intitulée `cover.webp`. Celle-ci sera affichée en haut de votre tutoriel. Veillez à ce que cette image, tout comme le logo, respecte les droits d'utilisation et soit adaptée au contexte de votre tutoriel :
 
-17
+![TUTO](assets/fr/17.webp)
 
 ## 6 - Rédiger le tutoriel et ajouter des visuels
 
 Poursuivez la rédaction de votre tutoriel en écrivant votre contenu. Lorsque vous souhaitez intégrer un sous-titre, appliquez le formatage markdown adéquat en préfixant le texte avec `##` :
 
-24
+![TUTO](assets/fr/24.webp)
 
 Le sous-dossier de langues dans le dossier `assets` permet de stocker les schémas et les visuels qui accompagneront votre tutoriel. Autant que possible, évitez d'inclure du texte dans vos images pour rendre votre contenu accessible à un public international. Bien sûr, le logiciel présenté contiendra du texte, mais si vous ajoutez des schémas ou des indications supplémentaires sur les captures d'écran du logiciel, faites-le sans texte ou, si cela s'avère indispensable, utilisez l'anglais.
 
-25
+![TUTO](assets/fr/25.webp)
 
 Pour nommer vos images, utilisez simplement des numéros correspondant à leur ordre d'apparition dans le tutoriel, formatés sur deux chiffres (ou trois chiffres si votre tutoriel contient plus de 99 images). Par exemple, nommez votre première image `01.webp`, votre deuxième `02.webp`, et ainsi de suite.
 
 Le format de vos images doit être en `.webp` exclusivement. Si besoin, vous pouvez utiliser [mon logiciel de conversion d'images](https://github.com/LoicPandul/ImagesConverter).
 
-26
+![TUTO](assets/fr/26.webp)
 
 Pour insérer un schéma dans votre document, utilisez la commande suivante en Markdown, en veillant à spécifier le texte alternatif approprié ainsi que le chemin correct de l'image :
 
@@ -383,47 +381,47 @@ Une fois que vous avez terminé la rédaction de votre tutoriel dans la langue d
 
 Pour procéder à la Pull Request, ouvrez le logiciel GitHub Desktop. Le logiciel devrait automatiquement détecter les modifications que vous avez effectuées localement sur votre branche par rapport au dépôt d'origine. Avant de continuer, vérifiez soigneusement sur la partie gauche de l'interface que ces modifications correspondent bien à ce que vous attendiez :
 
-28
+![TUTO](assets/fr/28.webp)
 
 Ajoutez un titre pour votre commit, puis cliquez sur le bouton bleu `Commit to [your branch]` pour valider ces modifications :
 
-29
+![TUTO](assets/fr/29.webp)
 
 Un commit est une sauvegarde des modifications apportées à la branche, accompagnée d'un message descriptif, permettant de suivre l'évolution d'un projet dans le temps. C'est donc une sorte de checkpoint intermédiaire.
 
 Cliquez ensuite sur le bouton `Push origin`. Cela va envoyer votre commit sur votre fork :
 
-30
+![TUTO](assets/fr/30.webp)
 
 Si vous n'avez pas terminé votre tutoriel, vous pouvez y revenir plus tard et faire de nouveaux commits. Si vous avez terminé vos modifications pour cette branche, cliquez maintenant sur le bouton `Preview Pull Request` :
 
-31
+![TUTO](assets/fr/31.webp)
 
 Vous pouvez vérifier une dernière fois que vos modifications sont bien justes, puis cliquez sur le bouton `Create pull request` :
 
-32
+![TUTO](assets/fr/32.webp)
 
 Une Pull Request est une demande faite pour intégrer les modifications de votre branche vers la branche de principale du dépôt de Plan ₿ Network, qui permet la revue et la discussion des changements avant leur fusion.
 
 Vous allez être automatiquement renvoyé sur votre navigateur sur GitHub dans la page de préparation de votre Pull Request :
 
-33
+![TUTO](assets/fr/33.webp)
 
 Indiquez un titre qui résume brièvement les modifications que vous souhaitez fusionner avec le dépôt source. Ajoutez un bref commentaire décrivant ces changements, puis cliquez sur le bouton vert `Create pull request` pour confirmer la demande de fusion :
 
-34
+![TUTO](assets/fr/34.webp)
 
 Votre PR sera alors visible dans l'onglet `Pull Request` du dépôt principal de Plan ₿ Network. Il ne vous reste plus qu'à patienter jusqu'à ce qu'un administrateur vous contacte pour confirmer la fusion de votre contribution ou pour solliciter d'éventuelles modifications complémentaires.
 
-35
+![TUTO](assets/fr/35.webp)
 
 Après la fusion de votre PR avec la branche principale, il est recommandé de supprimer votre branche de travail (`tuto-sparrow-wallet`) pour maintenir un historique propre sur votre fork. GitHub vous proposera cette option automatiquement sur la page de votre PR :
 
-36
+![TUTO](assets/fr/36.webp)
 
 Sur le logiciel GitHub Desktop, vous pouvez vous replacer sur la branche principale de votre fork (`dev`).
 
-07
+![TUTO](assets/fr/07.webp)
 
 Si vous désirez apporter des modifications à votre contribution après avoir déjà soumis votre PR, la démarche à suivre dépend de l'état actuel de votre PR :
 - Si votre PR est toujours ouverte et n'a pas encore été fusionnée, effectuez les modifications localement en restant sur la même branche. Une fois les modifications finalisées, utilisez le bouton `Push origin` pour ajouter un nouveau commit à votre PR encore ouverte ;

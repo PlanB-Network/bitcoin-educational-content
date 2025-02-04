@@ -2,7 +2,7 @@ import os
 from math import floor
 from ruamel.yaml import YAML
 
-BASE_FEE = 2500
+BASE_FEE = .1
 yaml = YAML()
 yaml.preserve_quotes = True
 
@@ -41,12 +41,10 @@ specific_files = {"course.yml",
                   "conference.yml"
                   }
 
-
-def compute_reward(words, difficulty_factor, language_factor, urgency, base_fee, proofread_iteration, original):
-    reward = (urgency * (words * difficulty_factor * language_factor * 2**(-proofread_iteration)) + base_fee)
-    if original:
-        reward = reward / 2
-    reward = floor(reward)
+def compute_reward(words, difficulty_factor, language_factor, urgency, base_fee, proofread_iteration):
+    euros_per_word = 0.0006
+    reward = (urgency * (euros_per_word * words * difficulty_factor * language_factor) + base_fee) * 2**(-proofread_iteration)
+    reward = round(reward, 2)
     return reward
 
 def update_reward_property(file_path, language, reward):

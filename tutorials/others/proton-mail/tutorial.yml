@@ -14,6 +14,7 @@ credits:
 
 
 # Proofreading metadata
+project_id: d655e18b-d299-4c88-beb5-e6b688d86024
 original_language: fr
 proofreading:
   - language: fr
@@ -21,71 +22,76 @@ proofreading:
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 2203
+    reward: 0.62
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6312
+    reward: 2.39
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4406
+    reward: 1.24
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8218
+    reward: 3.53
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6312
+    reward: 2.39
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7265
+    reward: 2.96
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6312
+    reward: 2.39
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6312
+    reward: 2.39
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4406
+    reward: 1.24
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4406
+    reward: 1.24
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5359
+    reward: 1.82
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7265
+    reward: 2.96
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5359
+    reward: 1.82
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8218
+    reward: 3.53
 
-projectId: d655e18b-d299-4c88-beb5-e6b688d86024
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.39

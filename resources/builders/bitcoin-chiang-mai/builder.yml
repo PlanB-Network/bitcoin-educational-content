@@ -32,7 +32,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - jramos0
-    reward: 1333
+    reward: 0.1
   - language: es
     last_contribution_date:
     urgency: 1

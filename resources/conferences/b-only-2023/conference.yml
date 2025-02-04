@@ -12,6 +12,7 @@ tags:
   - General
 
 # Proofreading metadata
+project_id: a0d135dd-3161-430f-b7c3-4807641dadaf
 original_language: en
 proofreading:
   - language: en
@@ -19,6 +20,5 @@ proofreading:
     urgency: 0
     contributors_id:
       - Asi0Flammeus
-    reward: 1250
+    reward: 0.05
 
-projectId: a0d135dd-3161-430f-b7c3-4807641dadaf

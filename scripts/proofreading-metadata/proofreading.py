@@ -3,7 +3,7 @@ from math import floor
 from ruamel.yaml import YAML
 from datetime import date
 
-BASE_FEE = 2500
+BASE_FEE = .1
 yaml = YAML()
 yaml.preserve_quotes = True
 yaml.indent(mapping=2, sequence=4, offset=2)
@@ -55,8 +55,9 @@ def load_difficulty_dict():
 
 
 def compute_reward(words, difficulty_factor, language_factor, urgency, base_fee, proofread_iteration):
-    reward = (urgency * (words * difficulty_factor * language_factor) + base_fee) * 2**(-proofread_iteration)
-    reward = floor(reward) 
+    euros_per_word = 0.0006
+    reward = (urgency * (euros_per_word * words * difficulty_factor * language_factor) + base_fee) * 2**(-proofread_iteration)
+    reward = round(reward, 2)
     return reward
 
 

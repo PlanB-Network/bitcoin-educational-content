@@ -1,3 +1,4 @@
+id: d0db0105-c5ea-4d2c-9559-80be9246d935
 name: Nostr.World
 category: conference
 
@@ -15,4 +16,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.06

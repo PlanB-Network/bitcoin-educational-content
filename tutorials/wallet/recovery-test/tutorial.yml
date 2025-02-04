@@ -17,6 +17,7 @@ credits:
 
 # Proofreading metadata
 
+project_id: cd62a137-baad-4133-b90d-711963e510c7
 original_language: fr
 proofreading:
   - language: fr
@@ -24,83 +25,88 @@ proofreading:
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 1876
+    reward: 0.43
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5004
+    reward: 1.6
 
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3752
+    reward: 0.85
 
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3752
+    reward: 0.85
 
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4378
+    reward: 1.23
 
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5004
+    reward: 1.6
 
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5004
+    reward: 1.6
 
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5630
+    reward: 1.98
 
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4378
+    reward: 1.23
 
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6256
+    reward: 2.35
 
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3752
+    reward: 0.85
 
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5004
+    reward: 1.6
 
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6256
+    reward: 2.35
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5630
+    reward: 1.98
 
-projectId: cd62a137-baad-4133-b90d-711963e510c7
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.6

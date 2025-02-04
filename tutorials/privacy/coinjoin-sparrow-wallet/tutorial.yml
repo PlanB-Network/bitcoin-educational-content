@@ -14,79 +14,85 @@ credits:
   professor: pretty-private
 
 # Proofreading metadata
+project_id: 9b3cac51-1dd2-4333-83dc-dc1d3a972595
 original_language: fr
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 28128
+    reward: 15.48
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 15314
+    reward: 7.79
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 15314
+    reward: 7.79
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 21721
+    reward: 11.63
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 28128
+    reward: 15.48
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 7657
+    reward: 3.89
   - language: it
     last_contribution_date: 2024-09-09
     urgency: 1
     contributors_id:
       - Tinf0ilHat1
-    reward: 10860
+    reward: 5.82
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 40942
+    reward: 23.17
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 15314
+    reward: 7.79
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 28128
+    reward: 15.48
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 40942
+    reward: 23.17
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 28128
+    reward: 15.48
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 34535
+    reward: 19.32
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 34535
+    reward: 19.32
 
-projectId: 9b3cac51-1dd2-4333-83dc-dc1d3a972595
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15.48

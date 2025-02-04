@@ -1,3 +1,4 @@
+id: 05f0c068-36a9-45b7-bafa-b7490d141b74
 name: Bitcoin Filmfest
 category: conference
 
@@ -15,4 +16,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.08

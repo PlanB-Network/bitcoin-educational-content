@@ -1,3 +1,4 @@
+id: 9cb5260c-4ec8-48f8-8523-589da06cfcf9
 name: Human Rights Foundation
 category: news
 
@@ -16,4 +17,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.06

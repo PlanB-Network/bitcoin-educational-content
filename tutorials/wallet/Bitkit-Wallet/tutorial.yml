@@ -17,6 +17,7 @@ credits:
   link: https://help.bitkit.to
 
 # Proofreading metadata
+project_id: 86dbcf83-e4ea-4dbe-be90-b92f73eaa526
 original_language: en
 proofreading:
   - language: en
@@ -24,71 +25,76 @@ proofreading:
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 1437
+    reward: 0.16
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3248
+    reward: 0.55
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2874
+    reward: 0.32
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3622
+    reward: 0.77
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3248
+    reward: 0.55
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3435
+    reward: 0.66
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3248
+    reward: 0.55
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3248
+    reward: 0.55
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2874
+    reward: 0.32
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3061
+    reward: 0.44
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3435
+    reward: 0.66
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3061
+    reward: 0.44
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3622
+    reward: 0.77
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2874
+    reward: 0.32
 
-projectId: 86dbcf83-e4ea-4dbe-be90-b92f73eaa526
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.55

@@ -1,3 +1,4 @@
+id: 586488e3-e557-465d-bf85-4ec9429a740d
 name: Bringing Bitcoin
 category: conference
 
@@ -14,4 +15,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.05

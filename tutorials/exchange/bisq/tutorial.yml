@@ -11,78 +11,84 @@ tags:
   - bitcoin-only
 
 # Proofreading metadata
+project_id: 9a5bbbc3-22ac-4c98-b10a-c953f9fae337
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10156
+    reward: 4.69
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6328
+    reward: 2.4
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 3164
+    reward: 1.2
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8242
+    reward: 3.55
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10156
+    reward: 4.69
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6328
+    reward: 2.4
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8242
+    reward: 3.55
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 13984
+    reward: 6.99
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6328
+    reward: 2.4
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10156
+    reward: 4.69
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 13984
+    reward: 6.99
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10156
+    reward: 4.69
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 12070
+    reward: 5.84
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 12070
+    reward: 5.84
 
-projectId: 9a5bbbc3-22ac-4c98-b10a-c953f9fae337
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.69

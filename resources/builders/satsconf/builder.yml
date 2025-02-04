@@ -1,3 +1,4 @@
+id: f6680e3a-6fcf-4cf6-9322-5b3fa0998a77
 name: Satsconf
 category: conference
 
@@ -15,4 +16,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.08

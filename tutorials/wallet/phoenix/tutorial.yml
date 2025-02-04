@@ -11,78 +11,84 @@ tags:
   - self-custodial
 
 # Proofreading metadata
+project_id: 0c272f89-0633-41b5-8d03-a37682738985
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8964
+    reward: 3.98
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5732
+    reward: 2.04
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 2866
+    reward: 1.02
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7348
+    reward: 3.01
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8964
+    reward: 3.98
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5732
+    reward: 2.04
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7348
+    reward: 3.01
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 12196
+    reward: 5.92
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5732
+    reward: 2.04
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8964
+    reward: 3.98
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 12196
+    reward: 5.92
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8964
+    reward: 3.98
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10580
+    reward: 4.95
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10580
+    reward: 4.95
 
-projectId: 0c272f89-0633-41b5-8d03-a37682738985
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.98

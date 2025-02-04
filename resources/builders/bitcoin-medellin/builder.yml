@@ -1,3 +1,4 @@
+id: 3b824159-a8f2-4eff-95e9-92e37a0dc3d2
 name: Bitcoin Medellin
 category: conference
 
@@ -14,4 +15,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.05

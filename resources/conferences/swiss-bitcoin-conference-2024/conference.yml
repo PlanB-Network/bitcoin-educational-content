@@ -13,6 +13,7 @@ tags:
   - business
   - consensus
 #proofreading_metadata
+project_id: ca456531-4f6b-456e-bed9-0fa48b6db65c
 original_language: en
 proofreading:
   - language: en
@@ -20,6 +21,5 @@ proofreading:
     urgency: 0
     contributors_id:
       - jramos0
-    reward: 0
+    reward: 0.05
 
-projectId: ca456531-4f6b-456e-bed9-0fa48b6db65c

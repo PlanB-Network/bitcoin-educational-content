@@ -14,6 +14,7 @@ level: intermediate
 credits:
   professor: pretty-private
 
+project_id: 50b37aab-a064-4d56-8ae6-3678bda2efeb
 original_language: fr
 proofreading:
   - language: fr
@@ -21,84 +22,89 @@ proofreading:
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 3070
+    reward: 1.14
 
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9780
+    reward: 4.47
 
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6140
+    reward: 2.28
 
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6140
+    reward: 2.28
 
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7960
+    reward: 3.38
 
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9780
+    reward: 4.47
 
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9780
+    reward: 4.47
 
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 11600
+    reward: 5.56
 
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7960
+    reward: 3.38
 
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 13420
+    reward: 6.65
 
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6140
+    reward: 2.28
 
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9780
+    reward: 4.47
 
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 13420
+    reward: 6.65
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 11600
+    reward: 5.56
 
-projectId: 50b37aab-a064-4d56-8ae6-3678bda2efeb
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.47

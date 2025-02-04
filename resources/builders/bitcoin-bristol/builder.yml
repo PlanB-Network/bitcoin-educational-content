@@ -1,3 +1,4 @@
+id: 443e805b-6f15-4b89-8f6b-100f4ee2e767
 name: Bitcoin Bristol
 category: education
 
@@ -16,4 +17,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.07

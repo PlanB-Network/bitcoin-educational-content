@@ -11,6 +11,7 @@ tags:
   - business
   - finance
   - investment
+project_id: 77d117fc-a2b1-4e2c-8442-ea00ff8cf70a
 original_language: en
 proofreading:
   - language: en
@@ -18,6 +19,5 @@ proofreading:
     urgency: 0
     contributors_id:
       - jramos0
-    reward: 0
+    reward: 0.05
 
-projectId: 77d117fc-a2b1-4e2c-8442-ea00ff8cf70a

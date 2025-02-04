@@ -10,6 +10,7 @@ links:
 tags:
   - business
   - adoption
+project_id: 8f47ba8c-1ed5-470b-89f2-cfd83a11df36
 original_language: en
 proofreading:
   - language: en
@@ -17,6 +18,5 @@ proofreading:
     urgency: 0
     contributors_id:
       - jramos0
-    reward: 0
+    reward: 0.05
 
-projectId: 8f47ba8c-1ed5-470b-89f2-cfd83a11df36

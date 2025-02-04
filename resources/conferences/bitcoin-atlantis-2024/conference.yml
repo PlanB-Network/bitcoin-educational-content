@@ -13,6 +13,7 @@ tags:
   - decentralization
 
 # Proofreading metadata
+project_id: bdebacb8-c918-40aa-ab93-7b0a06ff8c1b
 original_language: en
 proofreading:
   - language: en
@@ -20,6 +21,5 @@ proofreading:
     urgency: 0
     contributors_id:
       - jramos0
-    reward: 1250
+    reward: 0.05
 
-projectId: bdebacb8-c918-40aa-ab93-7b0a06ff8c1b

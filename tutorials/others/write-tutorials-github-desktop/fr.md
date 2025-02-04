@@ -1,6 +1,6 @@
 ---
-name: 
-description: 
+name: Contribution - Tutoriel avec GitHub Desktop
+description: Guide complet pour proposer un tutoriel sur Plan ₿ Network avec GitHub Desktop
 ---
 ![cover](assets/cover.webp)
 

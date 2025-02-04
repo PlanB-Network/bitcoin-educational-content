@@ -137,9 +137,9 @@ Choisissez le nom du répertoire spécialement créé pour votre tutoriel. Le no
 
 ![TUTO](assets/fr/43.webp)
 
-Le `projectId` est l'UUID de l'entreprise ou de l'organisation derrière l'outil présenté dans le tutoriel, disponible [dans la liste des builders](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders). Par exemple, pour un tutoriel sur le logiciel Sparrow Wallet, vous trouverez ce `projectId` dans le fichier : `bitcoin-educational-content/resources/builders/sparrow/builder.yml`. Cette information est ajoutée au fichier YAML de votre tutoriel car Plan ₿ Network maintient une base de données des entreprises et organisations actives sur Bitcoin ou des projets connexes. En ajoutant le `projectId` associé à votre tutoriel, vous créez un lien entre votre contenu et l'entité concernée.
+Le `project_id` est l'UUID de l'entreprise ou de l'organisation derrière l'outil présenté dans le tutoriel, disponible [dans la liste des builders](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders). Par exemple, pour un tutoriel sur le logiciel Sparrow Wallet, vous trouverez ce `project_id` dans le fichier : `bitcoin-educational-content/resources/builders/sparrow/builder.yml`. Cette information est ajoutée au fichier YAML de votre tutoriel car Plan ₿ Network maintient une base de données des entreprises et organisations actives sur Bitcoin ou des projets connexes. En ajoutant le `project_id` associé à votre tutoriel, vous créez un lien entre votre contenu et l'entité concernée.
 
-***Mise à jour :*** Dans la nouvelle version du script, vous n'avez plus besoin de saisir manuellement le `projectId`. Une fonction de recherche a été ajoutée pour trouver le builder par son nom et récupérer automatiquement le `projectId` correspondant. Tapez le début du nom du builder dans la case "Builder name" pour le rechercher, puis sélectionnez l'entreprise souhaitée dans le menu déroulant. Le `projectId` sera automatiquement renseigné dans la case en dessous. Vous avez également la possibilité de le noter manuellement si nécessaire.
+***Mise à jour :*** Dans la nouvelle version du script, vous n'avez plus besoin de saisir manuellement le `project_id`. Une fonction de recherche a été ajoutée pour trouver le builder par son nom et récupérer automatiquement le `project_id` correspondant. Tapez le début du nom du builder dans la case "Builder name" pour le rechercher, puis sélectionnez l'entreprise souhaitée dans le menu déroulant. Le `project_id` sera automatiquement renseigné dans la case en dessous. Vous avez également la possibilité de le noter manuellement si nécessaire.
 
 ![TUTO](assets/fr/44.webp)
 
@@ -207,7 +207,7 @@ Remplissez le fichier `tutorial.yml` en copiant le modèle suivant :
 ```yaml
 id: 
 
-projectId: 
+project_id: 
 
 tags:
   - 
@@ -237,7 +237,7 @@ Voici le détail des champs obligatoires :
 
 - **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
 
-- **projectId** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des builders](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders). Par exemple, si vous réalisez un tutoriel sur le logiciel Sparrow Wallet, vous pouvez trouver ce `projectId` dans le fichier suivant : `bitcoin-educational-content/resources/builders/sparrow/builder.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `projectId` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
+- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des builders](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders). Par exemple, si vous réalisez un tutoriel sur le logiciel Sparrow Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/builders/sparrow/builder.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
 
 - **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Paolo](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
 
@@ -269,7 +269,7 @@ Voici un exemple de fichier `tutorial.yml` complété pour un tutoriel sur le wa
 ```yaml
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
 
-projectId: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
 
 tags:
   - wallets

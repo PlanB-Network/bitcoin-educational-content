@@ -245,7 +245,7 @@ description:
         lines = [
             f"id: {uuid_value}",
             "",
-            f"projectId: {project_id}",
+            f"project_id: {project_id}",
             "",
             "tags:"
         ]

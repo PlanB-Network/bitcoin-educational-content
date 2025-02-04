@@ -137,6 +137,8 @@ Choisissez le nom du répertoire spécialement créé pour votre tutoriel. Le no
 
 Le `projectId` est l'UUID de l'entreprise ou de l'organisation derrière l'outil présenté dans le tutoriel, disponible [dans la liste des builders](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders). Par exemple, pour un tutoriel sur le logiciel Sparrow Wallet, vous trouverez ce `projectId` dans le fichier : `bitcoin-educational-content/resources/builders/sparrow/builder.yml`. Cette information est ajoutée au fichier YAML de votre tutoriel car Plan ₿ Network maintient une base de données des entreprises et organisations actives sur Bitcoin ou des projets connexes. En ajoutant le `projectId` associé à votre tutoriel, vous créez un lien entre votre contenu et l'entité concernée.
 
+***Mise à jour :*** Dans la nouvelle version du script, vous n'avez plus besoin de saisir manuellement le `projectId`. Une fonction de recherche a été ajoutée pour trouver le builder par son nom et récupérer automatiquement le `projectId` correspondant. Tapez le début du nom du builder dans la case "Builder name" pour le rechercher, puis sélectionnez l'entreprise souhaitée dans le menu déroulant. Le `projectId` sera automatiquement renseigné dans la case en dessous. Vous avez également la possibilité de le noter manuellement si nécessaire.
+
 ![TUTO](assets/fr/44.webp)
 
 Pour les tags, sélectionnez 2 ou 3 mots-clés pertinents en relation avec le contenu de votre tutoriel, en les choisissant exclusivement [dans la liste des tags de Paolo](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md).
@@ -160,6 +162,8 @@ Une fois toutes les informations saisies et vérifiées, cliquez sur "Create Tut
 ![TUTO](assets/fr/48.webp)
 
 Vous pouvez maintenant passer outre la sous-partie "Sans mon script Python", ainsi que l'étape 3 "Remplir le fichier YAML", car le script a déjà effectué ces actions automatiquement pour vous. Passez directement à l'étape 4 et à la rédaction de votre tutoriel.
+
+Pour plus d'informations sur ce script Python, vous pouvez également [consulter son README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 ### Sans mon script Python
 

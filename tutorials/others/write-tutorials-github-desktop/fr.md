@@ -10,7 +10,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 
 Vous avez déjà :
 - Choisi le thème de votre tutoriel ;
-- Contacté l'équipe de Plan ₿ Network via le groupe Telegram ;
+- Contacté l'équipe de Plan ₿ Network via [le groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ;
 - Choisi vos outils de contribution.
 
 Dans ce tutoriel, nous allons voir comment ajouter votre tutoriel sur Plan ₿ Network en configurant votre environnement local avec GitHub Desktop.
@@ -91,11 +91,75 @@ Maintenant que la branche de travail est créée, il est temps de faire l'intég
 
 ### Avec mon script Python
 
+Vous devez installer sur votre machine :
+- Python 3.8 ou supérieur ;
+- Les dépendances nécessaires pour le script. Exécutez :
 
+```bash
+pip install customtkinter appdirs
+````
 
+Pour utiliser le script, rendez-vous dans le dossier où il est stocké. Le script se trouve dans le dépôt de data de Plan ₿ Network sous le chemin : `bitcoin-educational-content/scripts/tutorial-related/new-tutorial-creation/`.
 
+Une fois dans le dossier, exécutez la commande :
 
-Vous pouvez maintenant passer outre la sous-partie "Sans mon script Python", ainsi que l'étape 3 "Remplir le fichier YAML", car le script a déjà effectué ces actions automatiquement pour vous. Passez directement à l'étape 4.
+```bash
+python new-tutorial-creation.py
+```
+
+Une interface graphique (GUI) va s'ouvrir. La première fois, vous devrez entrer toutes les informations nécessaires, mais lors des utilisations ultérieures du script, vos informations personnelles seront mémorisées, ce qui vous évite de devoir les saisir à nouveau.
+
+37
+
+Commencez par indiquer le chemin local menant au dossier `/tutorials` sur votre clone du dépôt (`.../bitcoin-educational-content/tutorials/`). Vous pouvez le noter manuellement ou cliquer sur le bouton "Browse" pour naviguer via votre explorateur de fichiers.
+
+38
+
+Sélectionnez la langue dans laquelle vous rédigerez votre tutoriel.
+
+39
+
+Choisissez une catégorie principale pour votre tutoriel.
+
+40
+
+Ensuite, sélectionnez une sous-catégorie appropriée, en fonction de la catégorie principale que vous avez choisie.
+
+41
+
+Déterminez un niveau de difficulté pour le tutoriel.
+
+42
+
+Choisissez le nom du répertoire spécialement créé pour votre tutoriel. Le nom de ce dossier devrait refléter le logiciel abordé dans le tutoriel, en utilisant des tirets pour relier les mots. Par exemple, le dossier pourrait s'appeler `red-wallet` :
+
+43
+
+Le `projectId` est l'UUID de l'entreprise ou de l'organisation derrière l'outil présenté dans le tutoriel, disponible [dans la liste des builders](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders). Par exemple, pour un tutoriel sur le logiciel Sparrow Wallet, vous trouverez ce `projectId` dans le fichier : `bitcoin-educational-content/resources/builders/sparrow/builder.yml`. Cette information est ajoutée au fichier YAML de votre tutoriel car Plan ₿ Network maintient une base de données des entreprises et organisations actives sur Bitcoin ou des projets connexes. En ajoutant le `projectId` associé à votre tutoriel, vous créez un lien entre votre contenu et l'entité concernée.
+
+44
+
+Pour les tags, sélectionnez 2 ou 3 mots-clés pertinents en relation avec le contenu de votre tutoriel, en les choisissant exclusivement [dans la liste des tags de Paolo](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md).
+
+45
+
+Dans la case "Contributor's GitHub ID", inscrivez votre identifiant GitHub.
+
+46
+
+Pour la case "PBN professor's ID", saisissez votre identifiant en utilisant les mots de la liste BIP39, tel qu'il apparaît sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+
+47
+
+Pour plus de détails sur votre identifiant de professeur, veuillez consulter le tutoriel suivant :
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
+Une fois toutes les informations saisies et vérifiées, cliquez sur "Create Tutorial" pour valider la création des fichiers de votre tutoriel. Cela générera en local le dossier de votre tutoriel et tous les fichiers nécessaires dans le dossier de la catégorie sélectionnée.
+
+48
+
+Vous pouvez maintenant passer outre la sous-partie "Sans mon script Python", ainsi que l'étape 3 "Remplir le fichier YAML", car le script a déjà effectué ces actions automatiquement pour vous. Passez directement à l'étape 4 et à la rédaction de votre tutoriel.
 
 ### Sans mon script Python
 
@@ -313,7 +377,7 @@ Si vous souhaitez créer vos propres schémas, veillez à respecter la charte gr
 
 **-> Astuce :** Lors du partage de fichiers en public, tels que des images, il est important de supprimer les métadonnées superflues. Celles-ci peuvent contenir des informations sensibles, comme des données de localisation, des dates de création, ou encore des détails concernant l'auteur. Afin de protéger votre vie privée, il est conseillé de supprimer ces métadonnées. Pour simplifier cette opération, vous pouvez recourir à des outils spécialisés comme [Exif Cleaner](https://exifcleaner.com/), qui offre la possibilité de nettoyer les métadonnées d'un document grâce à un simple drag-and-drop.
 
-## 7 - Enregistrer et pousser le tutoriel
+## 7 - Enregistrer et proposer le tutoriel
 
 Une fois que vous avez terminé la rédaction de votre tutoriel dans la langue de votre choix, l'étape suivante consiste à soumettre une **Pull Request**. L'administrateur se chargera ensuite d'ajouter les traductions manquantes de votre tutoriel, grâce à notre méthode de traduction automatisée avec relecture humaine.
 
@@ -365,4 +429,4 @@ Si vous désirez apporter des modifications à votre contribution après avoir d
 - Si votre PR est toujours ouverte et n'a pas encore été fusionnée, effectuez les modifications localement en restant sur la même branche. Une fois les modifications finalisées, utilisez le bouton `Push origin` pour ajouter un nouveau commit à votre PR encore ouverte ;
 - Dans le cas où votre PR a déjà été fusionnée avec la branche principale, vous devrez refaire le processus depuis le début en créant une nouvelle branche, puis en soumettant une nouvelle PR. Assurez-vous que votre dépôt local soit synchronisé avec le dépôt source de Plan ₿ Network avant de procéder.
 
-Si vous rencontrez des difficultés techniques pour soumettre votre tutoriel, n'hésitez pas à demander de l'aide sur notre groupe Telegram dédié aux contributions. Merci !
+Si vous rencontrez des difficultés techniques pour soumettre votre tutoriel, n'hésitez pas à demander de l'aide sur [notre groupe Telegram dédié aux contributions](https://t.me/PlanBNetwork_ContentBuilder). Merci !

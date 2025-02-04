@@ -4,7 +4,7 @@ description: Guide complet pour proposer un tutoriel sur Plan ₿ Network avec G
 ---
 ![cover](assets/cover.webp)
 
-Avant de suivre ce tutoriel sur les contributions, vous devez avoir complété quelques étapes préliminaires. Si ce n'est pas encore fait, je vous invite à consulter d'abord ce tutoriel introductif, puis à revenir ici :
+Avant de suivre ce tutoriel sur l'ajout d'un nouveau tutoriel, vous devez avoir complété quelques étapes préliminaires. Si ce n'est pas encore fait, je vous invite à consulter d'abord ce tutoriel introductif, puis à revenir ici :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
@@ -13,7 +13,9 @@ Vous avez déjà :
 - Contacté l'équipe de Plan ₿ Network via [le groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ;
 - Choisi vos outils de contribution.
 
-Dans ce tutoriel, nous allons voir comment ajouter votre tutoriel sur Plan ₿ Network en configurant votre environnement local avec GitHub Desktop.
+Dans ce tutoriel, nous allons voir comment ajouter votre tutoriel sur Plan ₿ Network en configurant votre environnement local avec GitHub Desktop. Si vous maîtrisez déjà Git, ce tutoriel très détaillé n'est peut-être pas nécessaire pour vous. Je vous recommande plutôt de consulter cet autre tutoriel où je présente uniquement les grandes lignes directrices, sans accompagnement détaillé étape par étape :
+
+https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 ## Prérequis
 

@@ -9,4 +9,6 @@ description: Guide pour utiliser l'application Green Wallet
 
 ### This is a sub-subtitle
 
+Here is a great image in my Markdown file:
 
+![green](assets/fr/01.webp)

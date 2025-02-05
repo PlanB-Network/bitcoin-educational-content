@@ -109,7 +109,7 @@ Une fois dans le dossier, exécutez la commande :
 python new-tutorial-creation.py
 ```
 
-Une interface graphique (GUI) va s'ouvrir. La première fois, vous devrez entrer toutes les informations nécessaires, mais lors des utilisations ultérieures du script, vos informations personnelles seront mémorisées, ce qui vous évite de devoir les saisir à nouveau.
+Une interface graphique (GUI) va s'ouvrir. La première fois, vous devrez entrer toutes les informations nécessaires, mais lors des utilisations ultérieures du script, vos informations personnelles seront mémorisées, ce qui vous évite de devoir les saisir de nouveau.
 
 ![TUTO](assets/fr/37.webp)
 
@@ -413,7 +413,7 @@ Vous allez être automatiquement renvoyé sur votre navigateur sur GitHub dans l
 
 ![TUTO](assets/fr/33.webp)
 
-Indiquez un titre qui résume brièvement les modifications que vous souhaitez fusionner avec le dépôt source. Ajoutez un bref commentaire décrivant ces changements, puis cliquez sur le bouton vert `Create pull request` pour confirmer la demande de fusion :
+Indiquez un titre qui résume brièvement les modifications que vous souhaitez fusionner avec le dépôt source. Ajoutez un bref commentaire décrivant ces changements (si vous avez un numéro d'issue associé à la création de votre tutoriel, pensez à noter en commentaire `Closes #{le numéro de l'issue}`), puis cliquez sur le bouton vert `Create pull request` pour confirmer la demande de fusion :
 
 ![TUTO](assets/fr/34.webp)
 

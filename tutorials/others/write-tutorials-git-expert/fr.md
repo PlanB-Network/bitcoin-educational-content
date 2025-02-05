@@ -92,7 +92,7 @@ git push -u origin tuto-green-wallet-loic
 Si vous préférez le faire manuellement, suivez ces étapes :
 
 - Repérez le dossier approprié dans le dépôt local (ex. : `tutorials/wallet`).
-- Créez un répertoire dédié au tutoriel avec un nom clair (ex. : `sparrow-wallet`). Ce nom de dossier déterminera également le chemin d’URL du tutoriel. Il doit être en minuscules, sans caractères spéciaux (excepté les tirets) et sans espaces.
+- Créez un répertoire dédié au tutoriel avec un nom clair (ex. : `green-wallet`). Ce nom de dossier déterminera également le chemin d’URL du tutoriel. Il doit être en minuscules, sans caractères spéciaux (excepté les tirets) et sans espaces.
 - Ajoutez les éléments suivants dans ce répertoire :
     - Un sous-dossier nommé `assets` contenant :
         - Deux images `.webp` :
@@ -107,8 +107,8 @@ Si vous préférez le faire manuellement, suivez ces étapes :
 cd tutorials/wallet
 
 # Créez le répertoire dédié au tutoriel
-mkdir sparrow-wallet
-cd sparrow-wallet
+mkdir green-wallet
+cd green-wallet
 
 # Créez le sous-dossier 'assets'
 mkdir -p assets
@@ -157,7 +157,7 @@ Voici le détail des champs obligatoires :
 
 - **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
 
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des builders](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders). Par exemple, si vous réalisez un tutoriel sur le logiciel Sparrow Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/builders/sparrow/builder.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
+- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des builders](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/builders). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/builders/blockstream/builder.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
 
 - **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Paolo](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
 
@@ -242,7 +242,7 @@ proofreading:
 
 ```bash
 # Créez un commit avec un message descriptif
-git commit -m "Ajout du tutoriel sparrow-wallet"
+git commit -m "Ajout du tutoriel green-wallet"
 
 # Poussez vos modifications sur votre fork
 git push origin tuto-green-wallet-loic
@@ -258,7 +258,7 @@ git push origin tuto-green-wallet-loic
 
 ```bash
 # Créez un commit décrivant les corrections apportées
-git commit -m "Corrections suite à la revue du tutoriel sparrow-wallet"
+git commit -m "Corrections suite à la revue du tutoriel green-wallet"
 
 # Poussez les corrections sur votre fork
 git push origin tuto-green-wallet-loic

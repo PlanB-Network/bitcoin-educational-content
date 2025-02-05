@@ -1,5 +1,5 @@
 ---
-name: Contribution - Tutoriels et Cours
+name: Contribution - Tutoriels
 description: Comment proposer un nouveau contenu sur Plan ₿ Network ?
 ---
 ![cover](assets/cover.webp)

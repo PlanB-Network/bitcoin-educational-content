@@ -677,7 +677,7 @@ https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3
 
 Una piattaforma DCA per accumulare Bitcoin.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 Questo tipo di profilo può anche, ovviamente, utilizzare un broker per fare un grande acquisto in una volta come un hodler, ma generalmente, fare stacking significa aggiungere regolarmente sats al proprio portafoglio. Un approccio più comune sarebbe imparare come usare Bitcoin in modo peer-to-peer e quindi comprare Bitcoin direttamente in contanti con amici o membri della comunità Bitcoin.

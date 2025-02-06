@@ -669,7 +669,7 @@ https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3
 
 为积累比特币的DCA平台。
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 这类投资计划也可以通过使用经纪人的服务进行大量一次性购买，就像持币者的方式一样，但通常，堆叠的概念是定期将聪添加到您的钱包内。更常见的方法是学习如何以点对点的方式使用比特币，从而您可以直接使用现金与朋友或比特币社区的成员购买比特币。

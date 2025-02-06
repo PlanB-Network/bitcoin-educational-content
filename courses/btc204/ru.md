@@ -1317,7 +1317,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 
 -> Ознакомьтесь с нашим учебником по LNP2PBot.
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1327,7 +1327,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd
 
 -> Ознакомьтесь с нашим учебником по Relai.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 Как мы видели в предыдущей главе, такой тип платформ избавляет вас от рисков, связанных с процедурами KYC, но они представляют более высокий уровень риска для идентификации ключевой идентификации. С точки зрения конфиденциальности в Биткойн, эти платформы, следовательно, предлагают лучшую защиту, чем методы покупки с KYC, но они менее интересны, чем P2P обменники.
 

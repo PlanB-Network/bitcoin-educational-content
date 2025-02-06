@@ -3,12 +3,16 @@ name: alevand
 contributor_id: green-day
 
 links:
-  x: https://x.com/alevandx
+  twitter: https://https://x.com/AlevandX
   nostr: alevand@nostr.red
 
+affiliations:
+  - BitPolito
 
 tags:
-  - Communicator
-  - Bitcoin
+  - communicator
+  - bitcoin
+  - accountability
 
-
+tips:
+  lightning_address: alevand@getalby.com

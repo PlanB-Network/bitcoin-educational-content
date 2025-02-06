@@ -671,7 +671,7 @@ https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3
 
 Platform DCA untuk mengumpulkan Bitcoin.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 Tipe profil ini juga, tentu saja, dapat menggunakan broker untuk melakukan pembelian besar sekaligus seperti hodler, tetapi umumnya, stacking adalah konsep menambahkan sats secara reguler ke dompet mereka. Pendekatan yang lebih umum adalah belajar cara menggunakan Bitcoin secara peer-to-peer dan dengan demikian membeli Bitcoin langsung dengan tunai dari teman atau anggota komunitas Bitcoin.

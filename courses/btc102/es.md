@@ -677,7 +677,7 @@ https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3
 
 Una plataforma de DCA para acumular Bitcoin.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 Este tipo de perfil también puede utilizar un bróker para realizar una gran compra de una vez, como un hodler, pero generalmente el stacking es el concepto de agregar satoshis regularmente a su billetera. Un enfoque más común sería aprender a usar Bitcoin de manera peer-to-peer y comprar Bitcoin directamente en efectivo con amigos o miembros de la comunidad de Bitcoin.

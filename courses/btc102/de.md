@@ -682,7 +682,7 @@ https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3
 
 Eine DCA-Plattform zum Anhäufen von Bitcoin.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 Ein solches Profil kann natürlich auch einen Broker nutzen, um einen großen Kauf auf einmal zu tätigen, wie ein Hodler, aber im Allgemeinen besteht das Stacking-Konzept darin, regelmäßig Satoshis zu seinem Portfolio hinzuzufügen. Ein häufigerer Ansatz wäre also, Bitcoin peer-to-peer zu nutzen und Bitcoin direkt mit Bargeld von Freunden oder Mitgliedern der Bitcoin-Community zu kaufen.

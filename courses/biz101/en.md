@@ -472,7 +472,7 @@ Second, Bitcoin has so far experienced **4-year cycles**, meaning that with a ti
 
 ![BIZ101](assets/en/07.webp)
 
-*MICHAEL SAYLOR: "The best Bitcon price signal  is the 4 year simple moving average."* See above chart.
+*MICHAEL SAYLOR: "The best Bitcoin price signal  is the 4 year simple moving average."* See above chart.
 
 Additionally, it is advisable to keep one’s exposure to Bitcoin **proportional** to one’s level of understanding. It’s also important not to be in a rush or to try to time the market perfectly.
 
@@ -569,7 +569,7 @@ There are three ways to acquire Bitcoin:
 Since Bitcoin functions as a medium of exchange, it’s possible to envision a circular economy. Although this remains uncommon today, more and more businesses are beginning to accept Bitcoin payments—why not yours? (See our next chapter)
 
 - **Mining Bitcoin:**
-This involves earning rewards from operating mining machines. For non-specialized businesses, this remains relatively marginal. You can participate through intermediaries, such as [https://www.blobb.io/](https://www.blobb.io/). If you own the machines, you can account for them as depreciable assets. On a large scale, you’ll need to carefully calculate return on investment because the market is highly competitive and requires a good anticipation of costs, particularly electricity.
+This involves earning rewards from operating mining machines. For non-specialized businesses, this remains relatively marginal. You can participate through intermediaries which will sell or rent you the compute, network and maintenance. If you own the machines, you can account for them as depreciable assets. On a large scale, you’ll need to carefully calculate return on investment because the market is highly competitive and requires a good anticipation of costs, particularly electricity.
 
 To learn mor about mining methods, you can [consult the "mining" section in our tutorials](https://planb.network/tutorials/mining).
 
@@ -747,7 +747,7 @@ To simplify the decision-making process, we have defined four distinct business 
 | **Business Type Examples**       | E-commerce sites with moderate volume, small marketplaces, groups of physical stores (e.g., Click & Collect), SME operations                           |
 | **Payment Type**                 | Generally ranging from a few euros/dollars to a few hundred; no set payment size limit; less than 250,000 per year                                     |
 | **Settings Complexity**          | Light to fully featured (local or cloud hosting), often requires an e-commerce storefront                                                              |
-| **Example Recommended Solution** | BTC Pay Server for e-commerce and/or physical environments; ZapRite or Musqet for checkout, Be-BOP for an integrated e-store                           |
+| **Example Recommended Solution** | BTC Pay Server for e-commerce and/or physical environments; ZapRite, Musqet or PayWithFlash for checkout, Be-BOP for an integrated e-store             |
 | **Merchant Interface**           | Website (mobile and desktop) with invoice editing, shopping cart options, and payment button creation; automated invoicing with e-commerce integration |
 | **Customer Interface**           | Bitcoin QR payment code, scanned via the customer's personal wallet                                                                                    |
 | **Fees**                         | Mix of free open-source backend and paid Lightning hosting/service fees; front-end fees include Bitcoin Lightning fees and <1.5% conversion fees       |
@@ -973,7 +973,7 @@ New infrastructures succeed because they are more efficient, and early adopters 
 
 **The Comeback of the Wallet**
 
-Bitcoin and the Lightning Network are completing the **digital wallet revolution**. New web services now allow **transactions without the need to create an account**—your wallet becomes your identity! Gone are the days of account fatigue for simple purchases or subscriptions. No more need to provide personal or payment information that could end up for sale on the dark web, as we are reminded all too often by recent events.
+Bitcoin and the Lightning Network are completing the **digital wallet revolution**. New web services now allow **transactions without the need to create an account**—your wallet becomes your identity! With protocols like **Nostr Wallet Connect (NWC)** and **LN-URL-AUTH**, wallets can seamlessly authenticate users and enable transactions without traditional accounts. Gone are the days of account fatigue for simple purchases or subscriptions. No more need to provide personal or payment information that could end up being hacked and for sale on the dark web, as we are reminded all too often by recent events.
 
 ![BIZ101](assets/en/10.webp)
 

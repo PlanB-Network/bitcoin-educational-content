@@ -1336,7 +1336,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8e
 
 Para una opción más sencilla, puedes probar [Peach](https://peachbitcoin.com/), una aplicación móvil que facilita la conexión entre compradores y vendedores con un sistema integrado de resolución de disputas. El proceso es más intuitivo que el de Bisq.
 
-[-> Descubre nuestro tutorial sobre Peach.](https://planb.network/es/tutorials/exchange/peach-wallet)
+https://planb.network/tutorials/exchange/peer-to-peer/peach-v2-c6143241-d900-4047-9b73-1caba5e1f874
 
 
 -> Descubre nuestro tutorial sobre Peach.
@@ -1355,7 +1355,7 @@ Para soluciones basadas en la Lightning Network, puedes probar [RoboSats](https:
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1368,7 +1368,7 @@ Dependiendo del país en el que vivas, podrías tener acceso a plataformas regul
 Como vimos en el capítulo anterior, este tipo de plataforma te ahorra los riesgos asociados con los procedimientos KYC, pero presentan un nivel de riesgo más alto para la identificación clave. En términos de privacidad en Bitcoin, estas plataformas por lo tanto ofrecen mejor protección que los métodos de compra con KYC, pero son menos interesantes que los intercambios P2P.
 Sin embargo, en términos de seguridad personal, usar estas plataformas es significativamente menos riesgoso que los intercambios P2P. También suelen ser más simples de usar que las plataformas que facilitan los intercambios P2P.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ### Cajeros automáticos
 

@@ -43,6 +43,12 @@
       "code_translator": "FR"
     },
     {
+      "code": "hi",
+      "name": "Hindi",
+      "translator": "openai",
+      "code_translator": "Standard Modern Hindi"
+    },
+    {
       "code": "id",
       "name": "Indonesian",
       "translator": "deepl",

@@ -672,7 +672,7 @@ https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3
 
 DCA-alusta Bitcoinin kerryttämiseen.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 Tämäntyyppinen profiili voi tietenkin myös käyttää välittäjää tekemään suuren ostoksen kerralla kuten hodler, mutta yleensä stacking on säännöllisesti satsien lisäämisen konsepti lompakkoon. Yleisempi lähestymistapa olisi oppia käyttämään Bitcoinia vertaisverkkotavalla ja siten ostaa Bitcoinia suoraan käteisellä ystäviltä tai Bitcoin-yhteisön jäseniltä.

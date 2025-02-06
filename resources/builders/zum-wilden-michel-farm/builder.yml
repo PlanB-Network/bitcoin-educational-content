@@ -1,6 +1,6 @@
 id: 6d83d316-c513-4795-824a-26bf4687b0b8
 name: Zum Wilden Michel Farm
-category: business
+category: conference
 
 links:
   website: https://www.zumwildenmichel.de
@@ -12,7 +12,7 @@ tags:
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date: 2025-01-21
+    last_contribution_date: 2025-01-29
     urgency: 1
     contributors_id:
       - hunt-wood

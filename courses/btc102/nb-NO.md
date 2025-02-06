@@ -673,7 +673,7 @@ https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3
 
 En DCA-plattform for å akkumulere Bitcoin.
 
-https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 Denne typen profil kan også, selvfølgelig, bruke en megler for å gjøre et stort kjøp på en gang som en hodler, men generelt er stacking konseptet med regelmessig å legge til sats i lommeboken deres. En mer vanlig tilnærming ville være å lære hvordan man bruker Bitcoin på en peer-to-peer måte og dermed kjøpe Bitcoin direkte i kontanter med venner eller medlemmer av Bitcoin-samfunnet.

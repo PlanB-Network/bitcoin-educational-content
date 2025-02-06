@@ -10,6 +10,7 @@ contributors:
   - rabbit-hole
   - another-satoshi
 
+published_at: 2023-09-28
 # Proofreading metadata
 original_language: fr
 proofreading:
@@ -17,57 +18,81 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 71608
+    reward: 41.36
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 37054
+    reward: 20.73
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 37054
+    reward: 20.73
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 54331
+    reward: 31.05
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 71608
+    reward: 41.36
   - language: fr
     last_contribution_date: 2024-06-08
     urgency: 1
     contributors_id:
       - elDaz2
-    reward: 18527
+    reward: 10.37
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 54331
+    reward: 31.05
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 106162
+    reward: 61.99
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 37054
+    reward: 20.73
   - language: ru
     last_contribution_date: 2024-09-09
     urgency: 1
     contributors_id:
       - Reshetenko
-    reward: 35804
+    reward: 20.68
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 53081
+    reward: 31.0
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 41.36
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 51.68
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 41.36
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 51.68

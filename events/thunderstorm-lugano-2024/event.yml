@@ -1,22 +1,24 @@
-- start_date: 2024-10-24 12:00:00
-  end_date: 2024-10-24 17:00:00
-  timezone: Europe/Zurich
-  address_line_1: Lugano, switzerland
-  address_line_2: 
-  address_line_3: 
-  name: Thunderstorm
-  builder: Lugano's Plan ₿
-  type: meetup
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: Exclusive investor day, explore Bitcoin investment opportunities, gain market insights and network with industry experts. Limited to 30 participants.
-  language: 
-    - en
-    - it
-  links:
-    website: https://ephtga25ls4.typeform.com/to/RxoLrJ5S?typeform-source=planb.lugano.ch
-    replay_url:
-    live_url :
-  tags: 
-    - investment
+start_date: 2024-10-24 12:00:00
+end_date: 2024-10-24 17:00:00
+timezone: Europe/Zurich
+address_line_1: Lugano, switzerland
+address_line_2: 
+address_line_3: 
+name: Thunderstorm
+builder: Lugano's Plan ₿
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Exclusive investor day, explore Bitcoin investment opportunities, gain market insights and network with industry experts. Limited to 30 participants.
+language: 
+  - en
+  - it
+links:
+  website: https://ephtga25ls4.typeform.com/to/RxoLrJ5S?typeform-source=planb.lugano.ch
+  replay_url:
+  live_url :
+tags: 
+  - investment
+
+project_id: cf0fecdf-6a70-40ec-869d-c6c78f9fac01

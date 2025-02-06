@@ -1,23 +1,24 @@
-- start_date: 2024-10-22 08:00:00
-  end_date: 2024-10-23 17:00:00
-  timezone: Europe/Zurich
-  address_line_1: Lugano, switzerland
-  address_line_2:
-  address_line_3: 
-  name: Hashing the Mining Industry
-  builder: Plan ₿ Network
-  type: course
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: Take a deep dive into the mining industry.
-  language: 
-    - en
-  links:
-    website: https://planb.network/en/courses/min302
-    replay_url:
-    live_url :
-  tags: 
-    - mining
-    - hardware
-    - guides
+start_date: 2024-10-22 08:00:00
+end_date: 2024-10-23 17:00:00
+timezone: Europe/Zurich
+address_line_1: Lugano, switzerland
+address_line_2:
+address_line_3: 
+name: Hashing the Mining Industry
+builder: Plan ₿ Network
+type: course
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Take a deep dive into the mining industry.
+language: 
+  - en
+links:
+  website: https://planb.network/en/courses/min302
+  replay_url:
+  live_url :
+tags: 
+  - mining
+  - hardware
+  - guides
+project_id: cd62a137-baad-4133-b90d-711963e510c7

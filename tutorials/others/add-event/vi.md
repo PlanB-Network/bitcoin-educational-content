@@ -30,55 +30,56 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 - Điền thông tin về hội nghị của bạn vào tệp này bằng cách sử dụng mẫu này:
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 Ví dụ, tệp YAML của bạn có thể trông như thế này:
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Paris, France
-  address_line_2: 
-  address_line_3: 
-  name: Hội Nghị Bitcoin Paris 2024
-  builder: Hội Nghị Bitcoin Paris
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: Hội nghị Bitcoin lớn nhất tại Pháp với hơn 8,000 người tham gia mỗi năm!
-  language:
-- fr    - en
-    - es
-    - it
-  links:
-    website: https://paris.bitcoin.fr/conference
-    replay_url:
-    live_url :
-  tags: 
-    - Bitcoiner
-    - General
-    - International
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Paris, France
+address_line_2: 
+address_line_3: 
+name: Hội Nghị Bitcoin Paris 2024
+builder: Hội Nghị Bitcoin Paris
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Hội nghị Bitcoin lớn nhất tại Pháp với hơn 8,000 người tham gia mỗi năm!
+language:
+  - fr
+  - en
+  - es
+  - it
+links:
+  website: https://paris.bitcoin.fr/conference
+  replay_url:
+  live_url :
+tags: 
+  - Bitcoiner
+  - General
+  - International
 ```
 ![sự kiện](assets/09.webp)
 Nếu tổ chức của bạn chưa có một "*builder*" identifier, bạn có thể thêm nó bằng cách theo dõi hướng dẫn khác này.

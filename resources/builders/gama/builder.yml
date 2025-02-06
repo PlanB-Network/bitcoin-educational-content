@@ -1,3 +1,4 @@
+id: cae9aff3-0cd3-4d2f-a839-c7210e92f82d
 name: GAMA
 category: mining
 
@@ -17,4 +18,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.08

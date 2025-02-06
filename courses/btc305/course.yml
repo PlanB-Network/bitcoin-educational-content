@@ -26,6 +26,8 @@ hours: 15
 professors:
   - radio-talent
 
+published_at: 2024-06-20
+
 # contributors
 # List who is/are the contributors who help format, review,
 # translate the course.
@@ -41,74 +43,80 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 180112
+    reward: 81.8
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 91306
+    reward: 40.95
   - language: en
     last_contribution_date: 2024-06-30
     urgency: 1
     contributors_id:
       - melontwist
-    reward: 45653
+    reward: 20.47
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - OscarG673
-    reward: 67845
+    reward: 30.69
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 180112
+    reward: 81.8
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 91306
+    reward: 40.95
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - TinF0ilHat1
-    reward: 67845
+    reward: 30.69
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 268918
+    reward: 122.65
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 91306
+    reward: 40.95
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 180112
+    reward: 81.8
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 134459
+    reward: 61.32
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 180112
+    reward: 81.8
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 224515
+    reward: 102.22
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - MilankovicProtocol
-    reward: 112257
+    reward: 51.11
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 81.8

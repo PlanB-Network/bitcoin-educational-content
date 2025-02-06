@@ -9,6 +9,7 @@ professors:
 
 contributors:
 
+published_at: 2024-06-13
 # Proofreading metadata
 original_language: fr
 proofreading:
@@ -16,58 +17,82 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 234112
+    reward: 138.7
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 118306
+    reward: 69.4
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 118306
+    reward: 69.4
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - OscarG673
-    reward: 88118
+    reward: 52.02
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 234112
+    reward: 138.7
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 59153
+    reward: 34.7
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 176209
+    reward: 104.05
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 349918
+    reward: 208.0
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 118306
+    reward: 69.4
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - Reshetenko
-    reward: 117074
+    reward: 69.35
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 174959
+    reward: 104.0
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 138.7
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 173.35
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 138.7
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 173.35

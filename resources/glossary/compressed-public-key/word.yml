@@ -10,10 +10,82 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2918
+    reward: 0.35
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 1459
+    reward: 0.18
+
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.6
+
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.35
+
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.48
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.6
+
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.6
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.73
+
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.48
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.6
+
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.35
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.6
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.85
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.73

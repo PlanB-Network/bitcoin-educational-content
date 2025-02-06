@@ -7,7 +7,7 @@ professors:
   - rabbit-hole
   - zero-shock
   - gate-fence
-
+published_at: 2023-05-17
 # Proofreading metadata
 original_language: fr
 proofreading:
@@ -15,73 +15,79 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 18340
+    reward: 9.31
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10420
+    reward: 4.71
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10420
+    reward: 4.71
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 14380
+    reward: 7.01
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
     contributors_id:
       - KryptoKeskus
-    reward: 9170
+    reward: 4.66
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 5210
+    reward: 2.35
   - language: it
     last_contribution_date: 2024-07-14
     urgency: 1
     contributors_id:
       - TinF0ilHat1
-    reward: 7190
+    reward: 3.5
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 26260
+    reward: 13.92
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10420
+    reward: 4.71
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 18340
+    reward: 9.31
   - language: vi
     last_contribution_date: 2024-05-05
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 13130
+    reward: 6.96
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 18340
+    reward: 9.31
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 22300
+    reward: 11.62
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 22300
+    reward: 11.62
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9.31

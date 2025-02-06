@@ -16,6 +16,7 @@ credits:
 
 # Proofreading metadata
 
+project_id: 317a3aa2-d9e0-49e2-8bb7-620ea76e4ea1
 original_language: fr
 proofreading:
   - language: fr
@@ -23,83 +24,88 @@ proofreading:
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 2871
+    reward: 1.02
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8984
+    reward: 3.99
 
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5742
+    reward: 2.05
 
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5742
+    reward: 2.05
 
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7363
+    reward: 3.02
 
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8984
+    reward: 3.99
 
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8984
+    reward: 3.99
 
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10605
+    reward: 4.96
 
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7363
+    reward: 3.02
 
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 12226
+    reward: 5.94
 
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5742
+    reward: 2.05
 
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8984
+    reward: 3.99
 
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 12226
+    reward: 5.94
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10605
+    reward: 4.96
 
-projectId: 317a3aa2-d9e0-49e2-8bb7-620ea76e4ea1
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.99

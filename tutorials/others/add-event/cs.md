@@ -30,42 +30,42 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 - Vyplňte tento soubor informacemi o vaší konferenci pomocí této šablony:
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 Například váš YAML soubor by mohl vypadat takto:
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Paříž, Francie
-  address_line_2: 
-  address_line_3: 
-  name: Pařížská Bitcoinová Konference 2024
-  builder: Pařížská Bitcoinová Konference
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Paříž, Francie
+address_line_2: 
+address_line_3: 
+name: Pařížská Bitcoinová Konference 2024
+builder: Pařížská Bitcoinová Konference
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
 ```yaml
 description: Největší konference o Bitcoinu ve Francii s více než 8 000 účastníky každý rok!
 language:

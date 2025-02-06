@@ -1,3 +1,4 @@
+id: 24ba74b6-992a-43db-81fb-f75092b3c244
 name: DvadesetJedan
 category: education
 
@@ -17,4 +18,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.09

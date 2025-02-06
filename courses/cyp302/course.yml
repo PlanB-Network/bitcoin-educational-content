@@ -10,6 +10,7 @@ contributors:
   - rabbit-hole
   - another-satoshi
   - pretty-private
+published_at: 2023-10-28
 
 # Proofreading metadata
 original_language: en
@@ -19,4 +20,88 @@ proofreading:
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 55113
+    reward: 33.62
+
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 134.4
+
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 67.25
+
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 100.82
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 134.4
+
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 134.4
+
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 67.25
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 167.97
+
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 100.82
+
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 201.55
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 134.4
+
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 67.25
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 134.4
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 201.55
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 167.97

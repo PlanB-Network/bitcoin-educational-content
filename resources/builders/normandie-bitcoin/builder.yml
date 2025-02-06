@@ -1,3 +1,4 @@
+id: ac46d8a2-7a07-4f36-862c-79f23205ddad
 name: Normandie Bitcoin
 category: education
 
@@ -16,4 +17,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.07

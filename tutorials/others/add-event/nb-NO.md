@@ -30,57 +30,57 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 - Fyll denne filen med informasjon om konferansen din ved å bruke denne malen:
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 For eksempel, din YAML-fil kunne se slik ut:
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Paris, Frankrike
-  address_line_2: 
-  address_line_3: 
-  name: Paris Bitcoin Conference 2024
-  builder: Paris Bitcoin Conference
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Paris, Frankrike
+address_line_2: 
+address_line_3: 
+name: Paris Bitcoin Conference 2024
+builder: Paris Bitcoin Conference
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
 ```yaml
 description: Den største Bitcoin-konferansen i Frankrike med over 8 000 deltakere hvert år!
 language:
-    - fr
-    - en
-    - es
-    - it
+  - fr
+  - en
+  - es
+  - it
 links:
-    website: https://paris.bitcoin.fr/conference
-    replay_url:
-    live_url:
+  website: https://paris.bitcoin.fr/conference
+  replay_url:
+  live_url:
 tags:
-    - Bitcoiner
-    - Generell
-    - Internasjonal
+  - Bitcoiner
+  - Generell
+  - Internasjonal
 ```
 ![event](assets/09.webp)
 Hvis du ennå ikke har en "*builder*" identifikator for din organisasjon, kan du legge den til ved å følge denne andre opplæringen.

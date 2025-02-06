@@ -1,23 +1,24 @@
-- start_date: 2024-10-25 05:00:00
-  end_date: 2024-10-25 10:00:00
-  timezone: Europe/Zurich  
-  address_line_1: Villa Ciani, Lugano, switzerland
-  address_line_2: Villa Ciani, Gate on Lake Lugano
-  address_line_3: 
-  name: Run For Hal Lugano
-  builder: Lugano's Plan ₿
-  type: meetup
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: Kick off the Plan ₿ Forum in a positive and healthy way with a 5km social run/jog around the beautiful Lake Lugano, honouring Hal Finney and contributing to his amazing legacy.
-  language: 
-    - en
-    - it
-  links:
-    website: https://www.bitcoinrunners.org/lugano24/
-    replay_url:
-    live_url :
-  tags: 
-    - proof-of-work
-    - community
+start_date: 2024-10-25 05:00:00
+end_date: 2024-10-25 10:00:00
+timezone: Europe/Zurich  
+address_line_1: Villa Ciani, Lugano, switzerland
+address_line_2: Villa Ciani, Gate on Lake Lugano
+address_line_3: 
+name: Run For Hal Lugano
+builder: Lugano's Plan ₿
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Kick off the Plan ₿ Forum in a positive and healthy way with a 5km social run/jog around the beautiful Lake Lugano, honouring Hal Finney and contributing to his amazing legacy.
+language: 
+  - en
+  - it
+links:
+  website: https://www.bitcoinrunners.org/lugano24/
+  replay_url:
+  live_url :
+tags: 
+  - proof-of-work
+  - community
+project_id: cf0fecdf-6a70-40ec-869d-c6c78f9fac01

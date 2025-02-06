@@ -10,6 +10,7 @@ contributors:
   - rabbit-hole
   - another-satoshi
 
+published_at: 2023-05-17
 # Proofreading metadata
 original_language: en
 proofreading:
@@ -17,68 +18,80 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 55192
+    reward: 30.46
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 28846
+    reward: 15.28
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 14423
+    reward: 7.64
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 42019
+    reward: 22.87
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 55192
+    reward: 30.46
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 28846
+    reward: 15.28
   - language: it
     last_contribution_date: 2024-03-27
     urgency: 1
     contributors_id:
       - TinF0ilHat1
-    reward: 21009
+    reward: 11.44
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 81538
+    reward: 45.64
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 28846
+    reward: 15.28
   - language: ru
     last_contribution_date: 2024-09-09
     urgency: 1
     contributors_id:
       - Reshetenko
-    reward: 27596
+    reward: 15.23
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 40769
+    reward: 22.82
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 68365
+    reward: 38.05
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 68365
+    reward: 38.05
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 30.46
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 30.46

@@ -15,78 +15,84 @@ credits:
   professor: pretty-private
 
 # Proofreading metadata
+project_id: cd62a137-baad-4133-b90d-711963e510c7
 original_language: fr
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8540
+    reward: 3.72
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5520
+    reward: 1.91
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5520
+    reward: 1.91
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7030
+    reward: 2.82
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8540
+    reward: 3.72
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 2760
+    reward: 0.96
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7030
+    reward: 2.82
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 11560
+    reward: 5.54
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5520
+    reward: 1.91
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8540
+    reward: 3.72
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 11560
+    reward: 5.54
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8540
+    reward: 3.72
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10050
+    reward: 4.63
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10050
+    reward: 4.63
 
-projectId: cd62a137-baad-4133-b90d-711963e510c7
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.72

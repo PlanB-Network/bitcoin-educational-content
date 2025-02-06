@@ -1,25 +1,27 @@
-- start_date: 2024-10-25 08:00:00
-  end_date: 2024-10-26 16:00:00
-  timezone: Europe/Zurich
-  address_line_1: Palazzo dei Congressi, Lugano, switzerland
-  address_line_2: Piazza Castello
-  address_line_3:
-  name: Plan ₿ Lugano Forum 2024
-  builder: Lugano's Plan ₿
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: Lugano's Plan ₿ Forum is the premier Bitcoin conference bringing together world leaders, technologists, and entrepreneurs to discuss Bitcoin adoption, economics, financial freedom, and freedom of speech.
-  language:
-    - en
-    - it
-  links:
-    website: https://planb.lugano.ch/planb-forum/
-    replay_url:
-    live_url:
-  tags:
-    - decentralization
-    - scalability
-    - network-security
-    - adoption
+start_date: 2024-10-25 08:00:00
+end_date: 2024-10-26 16:00:00
+timezone: Europe/Zurich
+address_line_1: Palazzo dei Congressi, Lugano, switzerland
+address_line_2: Piazza Castello
+address_line_3:
+name: Plan ₿ Lugano Forum 2024
+builder: Lugano's Plan ₿
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Lugano's Plan ₿ Forum is the premier Bitcoin conference bringing together world leaders, technologists, and entrepreneurs to discuss Bitcoin adoption, economics, financial freedom, and freedom of speech.
+language:
+  - en
+  - it
+links:
+  website: https://planb.lugano.ch/planb-forum/
+  replay_url:
+  live_url:
+tags:
+  - decentralization
+  - scalability
+  - network-security
+  - adoption
+
+project_id: cf0fecdf-6a70-40ec-869d-c6c78f9fac01

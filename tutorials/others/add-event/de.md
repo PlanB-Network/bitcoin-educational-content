@@ -30,55 +30,55 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 - Füllen Sie diese Datei mit Informationen über Ihre Konferenz anhand dieser Vorlage aus:
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 Zum Beispiel könnte Ihre YAML-Datei so aussehen:
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Paris, Frankreich
-  address_line_2: 
-  address_line_3: 
-  name: Paris Bitcoin Konferenz 2024
-  builder: Paris Bitcoin Konferenz
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: Die größte Bitcoin-Konferenz in Frankreich mit über 8.000 Teilnehmern jedes Jahr!
-  language:
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Paris, Frankreich
+address_line_2: 
+address_line_3: 
+name: Paris Bitcoin Konferenz 2024
+builder: Paris Bitcoin Konferenz
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Die größte Bitcoin-Konferenz in Frankreich mit über 8.000 Teilnehmern jedes Jahr!
+language:
 - fr    - en
-    - es
-    - it
-  links:
-    website: https://paris.bitcoin.fr/conference
-    replay_url:
-    live_url :
-  tags: 
-    - Bitcoiner
-    - Allgemein
-    - International
+  - es
+  - it
+links:
+  website: https://paris.bitcoin.fr/conference
+  replay_url:
+  live_url :
+tags: 
+  - Bitcoiner
+  - Allgemein
+  - International
 ```
 ![event](assets/09.webp)
 Wenn Sie noch keinen "*builder*" Identifikator für Ihre Organisation haben, können Sie diesen durch Befolgen dieses anderen Tutorials hinzufügen.

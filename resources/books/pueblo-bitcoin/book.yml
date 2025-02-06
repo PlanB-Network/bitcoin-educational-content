@@ -11,14 +11,86 @@ proofreading:
     urgency: 1
     contributors_id:
       - davidecoltro
-    reward: 1299
+    reward: 0.08
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2566
+    reward: 0.14
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2599
+    reward: 0.16
+
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.18
+
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.14
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.18
+
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.18
+
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.14
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.2
+
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.22
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.18
+
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.14
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.18
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.22
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.2

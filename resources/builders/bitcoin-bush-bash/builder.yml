@@ -1,3 +1,4 @@
+id: 2509a2dd-5592-4097-a68f-bd7e5e228b04
 name: Bitcoin Bush Bash
 category: education
 
@@ -16,4 +17,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.09

@@ -1,24 +1,26 @@
-- start_date: 2024-07-01 
-  end_date: 2024-07-06
-  address_line_1: Lugano, Switzerland
-  address_line_2: 
-  address_line_3: 
-  name: Lugano Plan ₿ Summer School
-  builder: Plan ₿ Network
-  type: course
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: Lugano Plan ₿ Summer School is a special bootcamp-week in Lugano with world-class industry leaders and mentors.
-  language: 
-    - en
-  links:
-    website: https://planb.network/en/courses/bizschool
-    replay_url:
-    live_url :
-  tags: 
-    - bitcoiner
-    - general
-    - economics
+start_date: 2024-07-01 
+end_date: 2024-07-06
+address_line_1: Lugano, Switzerland
+address_line_2: 
+address_line_3: 
+name: Lugano Plan ₿ Summer School
+builder: Plan ₿ Network
+type: course
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Lugano Plan ₿ Summer School is a special bootcamp-week in Lugano with world-class industry leaders and mentors.
+language: 
+  - en
+links:
+  website: https://planb.network/en/courses/bizschool
+  replay_url:
+  live_url :
+tags: 
+  - bitcoiner
+  - general
+  - economics
 
 
+
+project_id: cd62a137-baad-4133-b90d-711963e510c7

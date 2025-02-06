@@ -114,6 +114,7 @@ def ask_yes_no_question(question):
         else:
             print("Please enter 'y' for yes or 'n' for no.")
 
+
 def update_proofreading(root_dir, specific_files):
     print('Automatic Update for Proofreading section in progress...')
     
@@ -122,6 +123,7 @@ def update_proofreading(root_dir, specific_files):
 
     # Gather all directories and files to process
     all_dirs = []
+    failed_files = []  # List to store files that failed to update
     for dirpath, dirnames, filenames in os.walk(root_dir):
         dirnames[:] = [d for d in dirnames if d != 'docs']
         if any(f in filenames for f in specific_files):
@@ -138,61 +140,83 @@ def update_proofreading(root_dir, specific_files):
             
             # Check if 'proofreading' key exists in the data
             if 'proofreading' not in data:
-                print(f"\nError: 'proofreading' key not found in file: {yml_filepath}")
-                print("Exiting the script.")
-                return  # Exit the function, which will end the script
-          
+                # Get the original language from the file name
+                original_language = data.get('original_language')
+                
+                if original_language:
+                    # Add proofreading section at the end of the file
+                    with open(yml_filepath, 'a', encoding='utf-8') as file:
+                        file.write(f"\nproofreading:\n  - language: {original_language}\n")
+                        file.write(f"    last_contribution_date: {datetime.now().date()}\n")
+                        file.write("    urgency: 1\n")
+                        file.write("    contributors_id:\n    - Asi0Flammeus\n")
+                        file.write("    reward: 0\n")
+                    
+                    # Reload the data after adding the section
+                    data = get_yml_content(yml_filepath)
+                else:
+                    failed_files.append((yml_filepath, "Could not determine original language"))
+                    progress_bar.update(1)
+                    continue
+
             existing_languages = get_language_list_for_content(dirpath)
             existing_languages = sorted(existing_languages)
-            # print(existing_languages, dirpath)
 
             for language in existing_languages:
-                reward_already_update = False
-                language_file_yml = f'{language}.yml'
-                language_file_md = f'{language}.md'
+                try:
+                    reward_already_update = False
+                    language_file_yml = f'{language}.yml'
+                    language_file_md = f'{language}.md'
 
-                language_file_path_yml = os.path.join(dirpath, language_file_yml)
-                language_file_path_md = os.path.join(dirpath, language_file_md)
+                    language_file_path_yml = os.path.join(dirpath, language_file_yml)
+                    language_file_path_md = os.path.join(dirpath, language_file_md)
 
-                if os.path.isfile(language_file_path_yml) or os.path.isfile(language_file_path_md):
-                    
-                    # print(dirpath, language, check_language_existence(data, language))
-                    if not check_language_existence(data, language):
-                        # print("mising proofreading section")
-                        proofreading_section = (
-                            f"\n  - language: {language}\n"
-                            f"    last_contribution_date:\n"
-                            f"    urgency: 1\n"
-                            f"    contributors_id:\n"
-                            f"    reward:\n"
-                        )
+                    if os.path.isfile(language_file_path_yml) or os.path.isfile(language_file_path_md):
+                        if not check_language_existence(data, language):
+                            proofreading_section = (
+                                f"\n  - language: {language}\n"
+                                f"    last_contribution_date:\n"
+                                f"    urgency: 1\n"
+                                f"    contributors_id:\n"
+                                f"    reward:\n"
+                            )
 
-                        with open(yml_filepath, 'a', encoding='utf-8') as file:
-                            file.write(proofreading_section)
+                            with open(yml_filepath, 'a', encoding='utf-8') as file:
+                                file.write(proofreading_section)
 
-                        evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
-                        update_proofreading_reward(yml_filepath, language, evaluated_reward)
-                        reward_already_update = True
-
-                    if full_reward_update == 'y' and not reward_already_update:
-                        current_reward = get_proofreading_property(data, language, 'reward')
-                        if current_reward == None:
-                            current_reward = 0
-                        evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
-                        print(dirpath, language, current_reward, evaluated_reward)
-                        if current_reward != evaluated_reward:
+                            evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
                             update_proofreading_reward(yml_filepath, language, evaluated_reward)
+                            reward_already_update = True
+
+                        if full_reward_update == 'y' and not reward_already_update:
+                            current_reward = get_proofreading_property(data, language, 'reward')
+                            if current_reward == None:
+                                current_reward = 0
+                            evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
+                            if current_reward != evaluated_reward:
+                                update_proofreading_reward(yml_filepath, language, evaluated_reward)
+
+                except Exception as e:
+                    failed_files.append((yml_filepath, f"Error processing language {language}: {str(e)}"))
 
         except Exception as e:
-            print(f"\nError processing file: {yml_filepath}")
-            print(f"Error message: {str(e)}")
-            print("Exiting the script.")
-            return  # Exit the function, which will end the script
+            failed_files.append((yml_filepath, str(e)))
 
         progress_bar.update(1)
 
     progress_bar.close()
     print('Automatic update done!')
+    
+    # Report failed files
+    if failed_files:
+        print("\nThe following files had errors during processing:")
+        for file_path, error in failed_files:
+            print(f"\nFile: {file_path}")
+            print(f"Error: {error}")
+    else:
+        print("\nAll files were processed successfully!")
+
+
 
 def add_new_supported_language(code_language, language_difficulty):
     try:

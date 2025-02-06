@@ -1,3 +1,4 @@
+id: ffb8387f-f5f0-4dea-bb71-08ee793797c4
 name: BitcoinDay
 category: conference
 
@@ -15,4 +16,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.08

@@ -30,55 +30,56 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 - このテンプレートを使用して、カンファレンスに関する情報をファイルに記入します：
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 例えば、あなたのYAMLファイルは以下のようになるかもしれません：
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Paris, France
-  address_line_2: 
-  address_line_3: 
-  name: Paris Bitcoin Conference 2024
-  builder: Paris Bitcoin Conference
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: フランスで最大のBitcoinカンファレンスで、毎年8,000人以上の参加者がいます！
-  language:
-- fr    - en
-    - es
-    - it
-  リンク:
-    website: https://paris.bitcoin.fr/conference
-    replay_url:
-    live_url :
-  タグ: 
-    - Bitcoiner
-    - General
-    - International
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Paris, France
+address_line_2: 
+address_line_3: 
+name: Paris Bitcoin Conference 2024
+builder: Paris Bitcoin Conference
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: フランスで最大のBitcoinカンファレンスで、毎年8,000人以上の参加者がいます！
+language:
+  - fr
+  - en
+  - es
+  - it
+リンク:
+  website: https://paris.bitcoin.fr/conference
+  replay_url:
+  live_url :
+タグ: 
+  - Bitcoiner
+  - General
+  - International
 ```
 ![イベント](assets/09.webp)
 もしまだあなたの組織に「*builder*」という識別子がない場合は、この他のチュートリアルに従って追加することができます。

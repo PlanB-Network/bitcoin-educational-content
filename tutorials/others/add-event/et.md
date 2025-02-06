@@ -30,56 +30,56 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 - Täitke see fail oma konverentsi kohta käiva infoga, kasutades seda malli:
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 Näiteks võiks teie YAML-fail välja näha selline:
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Pariis, Prantsusmaa
-  address_line_2: 
-  address_line_3: 
-  name: Paris Bitcoin Conference 2024
-  builder: Paris Bitcoin Conference
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Pariis, Prantsusmaa
+address_line_2: 
+address_line_3: 
+name: Paris Bitcoin Conference 2024
+builder: Paris Bitcoin Conference
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
 description: Prantsusmaa suurim Bitcoin'i konverents, kus igal aastal osaleb üle 8000 osaleja!
-  keel:
-    - fr
-    - en
-    - es
-    - it
-  lingid:
-    veebileht: https://paris.bitcoin.fr/conference
-    kordus_url:
-    otse_url:
-  märksõnad:
-    - Bitcoiner
-    - Üldine
-    - Rahvusvaheline
+keel:
+  - fr
+  - en
+  - es
+  - it
+lingid:
+  veebileht: https://paris.bitcoin.fr/conference
+  kordus_url:
+  otse_url:
+märksõnad:
+  - Bitcoiner
+  - Üldine
+  - Rahvusvaheline
 ```
 ![üritus](assets/09.webp)
 Kui teie organisatsioonil ei ole veel "*builder*" identifikaatorit, saate selle lisada, järgides seda teist õpetust.

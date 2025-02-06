@@ -14,79 +14,85 @@ credits:
   professor: pretty-private
 
 # Proofreading metadata
+project_id: cd62a137-baad-4133-b90d-711963e510c7
 original_language: fr
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8128
+    reward: 3.48
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5314
+    reward: 1.79
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5314
+    reward: 1.79
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6721
+    reward: 2.63
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8128
+    reward: 3.48
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 2657
+    reward: 0.89
   - language: it
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - TinF0ilHat1
-    reward: 3360
+    reward: 1.32
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10942
+    reward: 5.17
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5314
+    reward: 1.79
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8128
+    reward: 3.48
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 10942
+    reward: 5.17
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9535
+    reward: 4.32
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9535
+    reward: 4.32
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8128
+    reward: 3.48
 
-projectId: cd62a137-baad-4133-b90d-711963e510c7
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.48

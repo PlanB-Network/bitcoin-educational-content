@@ -12,6 +12,7 @@ tags:
   - protocols
   - software
   - high-level
+project_id: 1ccbbeae-ef92-4128-ad85-24f29e1759ca
 original_language: en
 proofreading:
   - language: en
@@ -19,6 +20,5 @@ proofreading:
     urgency: 0
     contributors_id:
       - jramos0
-    reward: 0
+    reward: 0.05
 
-projectId: 1ccbbeae-ef92-4128-ad85-24f29e1759ca

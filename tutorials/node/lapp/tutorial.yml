@@ -16,78 +16,84 @@ tags:
   - LND
 
 # Proofreading metadata
+project_id: db7cc106-432c-4571-a66a-1f68d024bca4
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 15538
+    reward: 7.92
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9019
+    reward: 4.01
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 4509
+    reward: 2.01
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 12278
+    reward: 5.97
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 15538
+    reward: 7.92
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9019
+    reward: 4.01
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 12278
+    reward: 5.97
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 22057
+    reward: 11.83
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9019
+    reward: 4.01
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 15538
+    reward: 7.92
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 22057
+    reward: 11.83
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 15538
+    reward: 7.92
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 18797
+    reward: 9.88
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 18797
+    reward: 9.88
 
-projectId: db7cc106-432c-4571-a66a-1f68d024bca4
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7.92

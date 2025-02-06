@@ -14,79 +14,85 @@ credits:
   link: https://www.pandul.fr/post/bip47-paynym-et-code-de-paiement-r%C3%A9utilisable#viewer-1cdv8
 
 # Proofreading metadata
+project_id: f8ab03d0-0308-4ac1-a223-9c8e7600ff63
 original_language: fr
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 75856
+    reward: 44.11
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 39178
+    reward: 22.11
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 39178
+    reward: 22.11
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 57517
+    reward: 33.11
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 75856
+    reward: 44.11
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 19589
+    reward: 11.05
   - language: it
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - TinF0ilHat1
-    reward: 28758
+    reward: 16.56
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 112534
+    reward: 66.12
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 39178
+    reward: 22.11
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 75856
+    reward: 44.11
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 112534
+    reward: 66.12
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 75856
+    reward: 44.11
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 94195
+    reward: 55.12
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 94195
+    reward: 55.12
 
-projectId: f8ab03d0-0308-4ac1-a223-9c8e7600ff63
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 44.11

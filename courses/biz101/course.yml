@@ -10,6 +10,8 @@ contributors:
   - pretty-private
 
 
+published_at: 2025-01-15
+
 # Proofreading metadata
 original_language: en
 proofreading:
@@ -18,4 +20,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - NetworkEffect
-    reward:
+    reward: 5.85

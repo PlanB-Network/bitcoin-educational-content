@@ -1,3 +1,4 @@
+id: 0f5cd09e-135a-4cb6-bee9-241695dba785
 name: Captain Sidd
 category: service
 
@@ -16,4 +17,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.07

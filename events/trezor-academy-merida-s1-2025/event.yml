@@ -1,18 +1,20 @@
-- start_date: 2025-02-25 00:00:00
-  end_date: 2025-01-25 02:00:00
-  timezone: Mexico/General
-  address_line_1: Cholul, Merida, Mexico
-  address_line_2: Universidad Latino, Plaza Altabrisa, Cholul, Merida
-  name: Trezor Academy Merida
-  builder: Mayan Bitcoin
-  type: meetup
-  description: We are excited to announce, the Mayan Bitcoin team will be hosting Trezor Academy.
-  language:
-    - en
-    - es
-  links:
-    website: https://x.com/mayanbitcoin
-  tags:
-    - adoption
-    - proof-of-work
-    - keys
+start_date: 2025-02-25 00:00:00
+end_date: 2025-01-25 02:00:00
+timezone: Mexico/General
+address_line_1: Cholul, Merida, Mexico
+address_line_2: Universidad Latino, Plaza Altabrisa, Cholul, Merida
+name: Trezor Academy Merida
+builder: Mayan Bitcoin
+type: meetup
+description: We are excited to announce, the Mayan Bitcoin team will be hosting Trezor Academy.
+language:
+  - en
+  - es
+links:
+  website: https://x.com/mayanbitcoin
+tags:
+  - adoption
+  - proof-of-work
+  - keys
+
+project_id: b3d6dd6d-0cd6-45be-85ba-d6a08c632cd4

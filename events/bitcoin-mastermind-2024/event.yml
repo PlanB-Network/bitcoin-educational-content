@@ -1,25 +1,27 @@
-- start_date: 2024-07-05  06:00:00
-  end_date: 2024-07-07  15:00:00
-  timezone: Africa/Porto-Novo
-  address_line_1: Ouidah, Benín
-  address_line_2: Diaspora Hôtel, Ouidah
-  address_line_3: 
-  name: Bitcoin Mastermind 2024
-  builder: Bitcoin Mastermind
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: Première conference Bitcoin en Afrique Francophone. Bitcoin Mastermind est là pour offrir une expérience transformative qui va au-delà de la simple compréhension de Bitcoin.
-  language: 
-    - fr
-  links:
-    website: https://www.btcmastermind.xyz/
-    replay_url:
-    live_url :
-  tags: 
-    - Bitcoin
-    - technology
-    - community
+start_date: 2024-07-05  06:00:00
+end_date: 2024-07-07  15:00:00
+timezone: Africa/Porto-Novo
+address_line_1: Ouidah, Benín
+address_line_2: Diaspora Hôtel, Ouidah
+address_line_3: 
+name: Bitcoin Mastermind 2024
+builder: Bitcoin Mastermind
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Première conference Bitcoin en Afrique Francophone. Bitcoin Mastermind est là pour offrir une expérience transformative qui va au-delà de la simple compréhension de Bitcoin.
+language: 
+  - fr
+links:
+  website: https://www.btcmastermind.xyz/
+  replay_url:
+  live_url :
+tags: 
+  - Bitcoin
+  - technology
+  - community
 
 
+
+project_id: 5df956f2-4ee2-4f96-b447-53c34da6347f

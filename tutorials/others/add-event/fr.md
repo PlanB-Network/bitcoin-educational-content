@@ -36,56 +36,56 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 - Remplissez ce fichier avec les informations relatives à votre conférence à l'aide de ce template :
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website: 
-    replay_url:
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website: 
+  replay_url:
+  live_url :
+tags: 
+  - 
 ```
 
 Par exemple, votre fichier YAML pourrait ressembler à celui-ci : 
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Paris, France
-  address_line_2: 
-  address_line_3: 
-  name: Paris Bitcoin Conférence 2024
-  builder: Paris Bitcoin Conférence
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: The largest Bitcoin conference in France with over 8,000 participants each year!
-  language: 
-    - fr
-    - en
-    - es
-    - it
-  links:
-    website: https://paris.bitcoin.fr/conference
-    replay_url:
-    live_url :
-  tags: 
-    - Bitcoiner
-    - General
-    - International
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Paris, France
+address_line_2: 
+address_line_3: 
+name: Paris Bitcoin Conférence 2024
+builder: Paris Bitcoin Conférence
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: The largest Bitcoin conference in France with over 8,000 participants each year!
+language: 
+  - fr
+  - en
+  - es
+  - it
+links:
+  website: https://paris.bitcoin.fr/conference
+  replay_url:
+  live_url :
+tags: 
+  - Bitcoiner
+  - General
+  - International
 ```
 ![event](assets/09.webp)
 Si vous n'avez pas encore d'identifiant "*builder*" pour votre organisation, vous pouvez l'ajouter en suivant cet autre tutoriel.

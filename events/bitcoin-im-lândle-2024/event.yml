@@ -1,21 +1,23 @@
-- start_date: 2024-06-28
-  end_date: 2024-06-30
-  address_line_1: Germany
-  address_line_2:
-  address_line_3:
-  name: Bitcoin im Ländle 2024
-  builder: EINUNDZWANZIG
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: Ziel der Veranstaltung ist es die Bitcoin Adoption voranzubringen, sich mit gleichgesinnten Menschen auszutauschen und jede Menge Spaß zu haben.
-  language:
-    - de
-  links:
-    website: https://einundzwanzig-stuttg.art/
-    replay_url:
-    live_url :
-  tags:
-    - bitcoiner
-    - General
+start_date: 2024-06-28
+end_date: 2024-06-30
+address_line_1: Germany
+address_line_2:
+address_line_3:
+name: Bitcoin im Ländle 2024
+builder: EINUNDZWANZIG
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Ziel der Veranstaltung ist es die Bitcoin Adoption voranzubringen, sich mit gleichgesinnten Menschen auszutauschen und jede Menge Spaß zu haben.
+language:
+  - de
+links:
+  website: https://einundzwanzig-stuttg.art/
+  replay_url:
+  live_url :
+tags:
+  - bitcoiner
+  - General
+
+project_id: b5ad8fa7-8571-4421-a5d0-8eff5b3eab6b

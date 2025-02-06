@@ -13,6 +13,7 @@ tags:
   - Lightning Network
 
 # Proofreading metadata
+project_id: cd62a137-baad-4133-b90d-711963e510c7
 original_language: en
 proofreading:
   - language: en
@@ -20,6 +21,5 @@ proofreading:
     urgency: 0
     contributors_id:
       - Asi0Flammeus
-    reward: 1250
+    reward: 0.05
 
-projectId: cd62a137-baad-4133-b90d-711963e510c7

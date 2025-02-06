@@ -1,21 +1,23 @@
-- start_date: 2024-04-06 11:00:00
-  end_date: 2024-04-06 13:30:00
-  timezone:  Europe/Rome
-  address_line_1: Turin, Italy
-  address_line_2: 7 del Politecnico
-  address_line_3:
-  name: Using Bitcoin Everyday
-  builder: BitPolito
-  type: workshop
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: Roy Sheinfeld, CEO di Breez, parlerà di Lightning Network, il layer 2 di Bitcoin.
-  language:
-    - en
-  links:
-    website: https://lu.ma/o39hmet4
-    replay_url:
-    live_url :
-  tags:
-    - Lightning
+start_date: 2024-04-06 11:00:00
+end_date: 2024-04-06 13:30:00
+timezone:  Europe/Rome
+address_line_1: Turin, Italy
+address_line_2: 7 del Politecnico
+address_line_3:
+name: Using Bitcoin Everyday
+builder: BitPolito
+type: workshop
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Roy Sheinfeld, CEO di Breez, parlerà di Lightning Network, il layer 2 di Bitcoin.
+language:
+  - en
+links:
+  website: https://lu.ma/o39hmet4
+  replay_url:
+  live_url :
+tags:
+  - Lightning
+
+project_id: fe9e6942-1c42-4e4d-a32c-819f6070a748

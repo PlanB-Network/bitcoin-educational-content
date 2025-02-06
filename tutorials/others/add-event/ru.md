@@ -30,55 +30,55 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 - Заполните этот файл информацией о вашей конференции, используя этот шаблон:
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 Например, ваш YAML-файл может выглядеть так:
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Париж, Франция
-  address_line_2: 
-  address_line_3: 
-  name: Парижская Биткоин Конференция 2024
-  builder: Парижская Биткоин Конференция
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Париж, Франция
+address_line_2: 
+address_line_3: 
+name: Парижская Биткоин Конференция 2024
+builder: Парижская Биткоин Конференция
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
 описание: Крупнейшая Биткойн-конференция во Франции с участием более 8,000 человек каждый год! язык:
-    - fr
-    - en
-    - es
-    - it
-  ссылки:
-    веб-сайт: https://paris.bitcoin.fr/conference
-    ссылка_на_повтор: 
-    ссылка_на_прямую_трансляцию:
-  теги:
-    - Bitcoiner
-    - General
-    - International
+  - fr
+  - en
+  - es
+  - it
+ссылки:
+  веб-сайт: https://paris.bitcoin.fr/conference
+  ссылка_на_повтор: 
+  ссылка_на_прямую_трансляцию:
+теги:
+  - Bitcoiner
+  - General
+  - International
 ```
 ![мероприятие](assets/09.webp)
 Если у вашей организации еще нет идентификатора "*builder*", вы можете добавить его, следуя этому другому учебному пособию.

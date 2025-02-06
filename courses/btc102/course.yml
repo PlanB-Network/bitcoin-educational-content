@@ -8,6 +8,7 @@ professors:
 
 contributors:
   - another-satoshi
+published_at: 2023-05-17
 
 # Proofreading metadata
 original_language: fr
@@ -16,75 +17,81 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 33336
+    reward: 18.53
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 17960
+    reward: 9.31
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 17960
+    reward: 9.31
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - OscarG673
-    reward: 12813
+    reward: 6.96
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 33420
+    reward: 18.53
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 8980
+    reward: 4.66
   - language: it
     last_contribution_date: 2024-05-27
     urgency: 1
     contributors_id:
       - TinF0ilHat
-    reward: 12845
+    reward: 6.96
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 48880
+    reward: 27.74
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 17960
+    reward: 9.31
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - Reshetenko
-    reward: 16668
+    reward: 9.26
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 12188
+    reward: 13.87
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 33420
+    reward: 18.53
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 41150
+    reward: 23.13
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - MilankovicProtocol
-    reward: 20575
+    reward: 11.57
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18.53

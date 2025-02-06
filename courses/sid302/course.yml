@@ -6,6 +6,7 @@ hours: 8
 professors:
   - abstract-alpha
 
+published_at: 2025-01-15
 # Proofreading metadata
 original_language: en
 
@@ -14,4 +15,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0
+    reward: 1.56

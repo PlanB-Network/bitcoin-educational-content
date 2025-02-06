@@ -11,79 +11,85 @@ tags:
   - open-source
 
 # Proofreading metadata
+project_id: 41c4621e-7411-42a8-9ef9-90c29e19b76a
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3712
+    reward: 0.83
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3106
+    reward: 0.46
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 1553
+    reward: 0.23
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3409
+    reward: 0.65
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3712
+    reward: 0.83
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3106
+    reward: 0.46
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3409
+    reward: 0.65
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4318
+    reward: 1.19
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3106
+    reward: 0.46
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3712
+    reward: 0.83
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 2159
+    reward: 0.6
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3712
+    reward: 0.83
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4015
+    reward: 1.01
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4015
+    reward: 1.01
 
-projectId: 41c4621e-7411-42a8-9ef9-90c29e19b76a
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.83

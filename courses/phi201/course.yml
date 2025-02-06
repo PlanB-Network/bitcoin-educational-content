@@ -11,6 +11,7 @@ contributors:
   - another-satoshi
   - pretty-private
 
+published_at: 2024-07-23
 # Proofreading metadata
 original_language: fr
 proofreading:
@@ -18,57 +19,81 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 124248
+    reward: 73.22
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 63374
+    reward: 36.66
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 63374
+    reward: 36.66
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 93811
+    reward: 54.94
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 124248
+    reward: 73.22
   - language: fr
     last_contribution_date: 2024-07-31
     urgency: 1
     contributors_id:
       - Rearden78
-    reward: 31687
+    reward: 18.33
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 93811
+    reward: 54.94
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 185122
+    reward: 109.78
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 63374
+    reward: 36.66
   - language: ru
     last_contribution_date: 2024-09-09
     urgency: 1
     contributors_id:
       - Reshetenko
-    reward: 62124
+    reward: 36.61
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 92588
+    reward: 54.89
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 73.22
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 91.5
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 73.22
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 91.5

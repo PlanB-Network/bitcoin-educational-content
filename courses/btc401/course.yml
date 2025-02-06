@@ -9,6 +9,7 @@ professors:
 contributors:
   - another-satoshi
   - rabbit-hole
+published_at: 2023-10-26
 
 # Proofreading metadata
 original_language: en
@@ -17,71 +18,77 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 169132
+    reward: 99.41
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 85816
+    reward: 49.76
   - language: en
     last_contribution_date: 2024-08-30
     urgency: 1
     contributors_id:
       - jramos0
-    reward: 42908
+    reward: 24.88
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - OscarG673
-    reward: 63728
+    reward: 37.29
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 169132
+    reward: 99.41
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 85816
+    reward: 49.76
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 127474
+    reward: 74.58
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 252448
+    reward: 149.07
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 85816
+    reward: 49.76
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 169132
+    reward: 99.41
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 252448
+    reward: 149.07
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 169132
+    reward: 99.41
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 210790
+    reward: 124.24
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 210790
+    reward: 124.24
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 99.41

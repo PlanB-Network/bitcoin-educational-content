@@ -9,6 +9,7 @@ professors:
 
 contributors:
   - another-satoshi
+published_at: 2024-06-13
 
 # Proofreading metadata
 original_language: fr
@@ -17,74 +18,80 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 132844
+    reward: 75.84
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 67672
+    reward: 37.97
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 67672
+    reward: 37.97
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 100258
+    reward: 56.91
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 132844
+    reward: 75.84
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - ProfEduStream
-    reward: 33836
+    reward: 18.99
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - TinF0ilHat1
-    reward: 49224
+    reward: 28.45
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 198016
+    reward: 113.72
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 67672
+    reward: 37.97
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - Reshetenko
-    reward: 65216
+    reward: 37.92
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 99008
+    reward: 56.86
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 132844
+    reward: 75.84
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 165430
+    reward: 94.78
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - MilankovicProtocol
-    reward: 82715
+    reward: 47.39
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 75.84

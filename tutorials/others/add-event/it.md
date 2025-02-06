@@ -30,55 +30,55 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 - Compila questo file con le informazioni sulla tua conferenza usando questo modello:
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 Ad esempio, il tuo file YAML potrebbe apparire così:
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Parigi, Francia
-  address_line_2: 
-  address_line_3: 
-  name: Paris Bitcoin Conference 2024
-  builder: Paris Bitcoin Conference
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: La più grande conferenza su Bitcoin in Francia con oltre 8.000 partecipanti ogni anno!
-  language:
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Parigi, Francia
+address_line_2: 
+address_line_3: 
+name: Paris Bitcoin Conference 2024
+builder: Paris Bitcoin Conference
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: La più grande conferenza su Bitcoin in Francia con oltre 8.000 partecipanti ogni anno!
+language:
 - fr    - en
-    - es
-    - it
-  links:
-    website: https://paris.bitcoin.fr/conference
-    replay_url:
-    live_url :
-  tags: 
-    - Bitcoiner
-    - Generale
-    - Internazionale
+  - es
+  - it
+links:
+  website: https://paris.bitcoin.fr/conference
+  replay_url:
+  live_url :
+tags: 
+  - Bitcoiner
+  - Generale
+  - Internazionale
 ```
 ![evento](assets/09.webp)
 Se la tua organizzazione non ha ancora un identificatore "*builder*", puoi aggiungerlo seguendo questo altro tutorial.

@@ -1,23 +1,24 @@
-- start_date: 2024-10-24 08:00:00
-  end_date: 2024-10-24 09:00:00
-  timezone: Europe/Zurich
-  address_line_1: Lugano, switzerland
-  address_line_2: 
-  address_line_3: 
-  name: Liquid Network Summit
-  builder: Lugano's Plan ₿
-  type: workshop
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: Join the Liquid Network Summit to connect with top minds.
-  language: 
-    - en
-  links:
-    website: https://liquid.net/lugano-2024
-    replay_url:
-    live_url :
-  tags: 
-    - investment
-    - finance
-    - sidechains
+start_date: 2024-10-24 08:00:00
+end_date: 2024-10-24 09:00:00
+timezone: Europe/Zurich
+address_line_1: Lugano, switzerland
+address_line_2: 
+address_line_3: 
+name: Liquid Network Summit
+builder: Lugano's Plan ₿
+type: workshop
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Join the Liquid Network Summit to connect with top minds.
+language: 
+  - en
+links:
+  website: https://liquid.net/lugano-2024
+  replay_url:
+  live_url :
+tags: 
+  - investment
+  - finance
+  - sidechains
+project_id: cf0fecdf-6a70-40ec-869d-c6c78f9fac01

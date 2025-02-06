@@ -12,6 +12,7 @@ contributors:
   - rabbit-hole
   - another-satoshi
   - pretty-private
+published_at: 2024-02-15
 
 # Proofreading metadata
 original_language: en
@@ -20,54 +21,54 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6924
+    reward: 178.35
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4712
+    reward: 89.23
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 2356
+    reward: 44.61
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5818
+    reward: 133.79
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6924
+    reward: 178.35
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4712
+    reward: 89.23
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - TinF0ilHat1
-    reward: 2897
+    reward: 66.89
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9136
+    reward: 267.48
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4712
+    reward: 89.23
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6924
+    reward: 178.35
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -77,14 +78,20 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6924
+    reward: 178.35
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8030
+    reward: 222.92
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 8030
+    reward: 222.92
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 178.35

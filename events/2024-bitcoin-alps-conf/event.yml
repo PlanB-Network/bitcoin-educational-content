@@ -1,21 +1,23 @@
-- start_date: 2024-11-02 06:00:00
-  end_date: 2024-11-02 21:00:00
-  timezone: Europe/Berlin
-  address_line_1: Thun, Switzerland
-  address_line_2:
-  address_line_3:
-  name: Bitcoin Alps Konferenz
-  builder: Bitcoin Alps
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: Nach der ersten erfolgreichen Bitcoin Konferenz in Thun regt das Motto der zweiten Bitcoin Konferenz, am 2. November 2024 in der Westhalle Thun an, das Bewusstsein für die Bedeutung von «hartem Geld» zu schärfen, das sinnvolles Sparen wieder ermöglicht und durch Werterhalt und Wertzuwachs eine nachhaltige Sicherung der eigenen Lebensgrundlage bis ins hohe Alter verspricht.
-  language:
-    - de
-  links:
-    website: https://www.bitcoin-alps.ch/konferenz/2024-Programm/
-    replay_url:
-    live_url:
-  tags:
-    - Bitcoiner
+start_date: 2024-11-02 06:00:00
+end_date: 2024-11-02 21:00:00
+timezone: Europe/Berlin
+address_line_1: Thun, Switzerland
+address_line_2:
+address_line_3:
+name: Bitcoin Alps Konferenz
+builder: Bitcoin Alps
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Nach der ersten erfolgreichen Bitcoin Konferenz in Thun regt das Motto der zweiten Bitcoin Konferenz, am 2. November 2024 in der Westhalle Thun an, das Bewusstsein für die Bedeutung von «hartem Geld» zu schärfen, das sinnvolles Sparen wieder ermöglicht und durch Werterhalt und Wertzuwachs eine nachhaltige Sicherung der eigenen Lebensgrundlage bis ins hohe Alter verspricht.
+language:
+  - de
+links:
+  website: https://www.bitcoin-alps.ch/konferenz/2024-Programm/
+  replay_url:
+  live_url:
+tags:
+  - Bitcoiner
+
+project_id: 1399336b-b9f3-4b2e-93ae-94be9b769fe9

@@ -10,3 +10,11 @@ tags:
 category: wallet
 
 original_language: en
+
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-04
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 0.07

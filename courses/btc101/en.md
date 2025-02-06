@@ -35,7 +35,7 @@ The protocol uses underlying technologies such as cryptography, network communic
 
 In this course, we will discuss some monetary aspects of Bitcoin, including how to buy and sell bitcoins, securely store them in digital wallets, and use them for transactions. We will also examine the role of miners, who are essential for creating new bitcoins and securing the Bitcoin network. Finally, we will explore the future of Bitcoin and how the Lightning Network technology can improve Bitcoin transactions.
 
-![image](assets/en/chapter0/4.webp)
+![image](assets/en/01.webp)
 
 It is essential to understand that Bitcoin is a new monetary system that completely changes our relationship with money, so learning how to use it is a necessary skill for anyone who wants to be in control of their own funds.
 
@@ -74,9 +74,11 @@ It is essential to understand that Bitcoin is a new monetary system that complet
 
 Before introducing the definition of money and its function in society (Chapter 1), we should start from the genesis of Bitcoin. Launched in 2009, Bitcoin is a relatively new technology that is different to anything else. It is therefore normal not to understand everything about it, all at once. In fact, just like when learning how to use the Internet or to drive a car, you don’t need to know all the technical details right away: you can start by learning how to receive, pay, and secure your funds, and then take small steps to study it more deeply.
 
-![image](assets/en/chapter0/3.webp)
+After all, we are only at the beginning stages of its adoption, as we have passed the takeoff phase: you are just in time to acquire as much knowledge as you wish regarding this important innovation.
 
-The important point here is to understand this new technology in a general way, so we hope you enjoy this training and continue to make progress in this new global monetary paradigm.
+![image](assets/en/02.webp)
+
+The important point here is to understand this new technology in a general way, so we hope you enjoy this course and continue to make progress in this new global monetary paradigm.
 
 ## The Prehistory of Bitcoin
 
@@ -86,14 +88,14 @@ Before the term "Bitcoin" became synonymous with digital currency and financial 
 
 ### Cypherpunks: visionaries of the digital world
 
-![image](assets/en/chapter0/0.webp)
+![image](assets/en/03.webp)
 In the heart of the technological evolution of the 1980s and 1990s, a group of people began to deeply question the role of privacy and freedom in the digital age. These individuals, who would later be known as "cypherpunks", firmly believed that cryptography could serve as a tool to protect individual rights against the interference from governments and large corporations.
 
 Iconic figures such as Julian Assange, Wei Dai, Tim May, and David Chaum played a pivotal role in shaping the philosophy and vision of the movement. These thinkers shared their ideas on an influential mailing list, where participants from around the globe engaged in debates about the best ways to leverage technology for greater individual freedom.
 
 ### The three fundamental papers of the Cypherpunks
 
-![image](assets/en/chapter0/2.webp)
+![image](assets/en/04.webp)
 
 The cypherpunk movement, deeply rooted in digital activism and cryptography, drew upon several foundational texts to articulate its principles and vision for the future. Among these writings, three stand out in particular:
 
@@ -112,7 +114,9 @@ Before the emergence of Bitcoin, there had been several attempts to create a dig
 
 Another important precursor is Wei Dai's "B-money". Although it was never implemented, it presented the idea of an anonymous digital currency where fraud detection was performed by a community of evaluators rather than a central authority.
 
-![image](assets/en/chapter0/1.webp)
+The image below clearly illustrates the development of the movement through its many technological innovations.
+
+![image](assets/en/05.webp)
 
 It was in this fertile environment that the mysterious Satoshi Nakamoto published the Bitcoin whitepaper in 2008. In this document, he combined several ideas from the cypherpunk movement, such as proof of work and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
 
@@ -140,14 +144,14 @@ https://planb.network/courses/his201
 
 The evolution of money is a fascinating aspect of human history that reflects the ingenuity of civilizations throughout the ages in meeting constantly evolving economic needs.
 
-![image](assets/en/chapter1/2.webp)
+![image](assets/en/06.webp)
 
 ### From shells to bank accounts
 
 Originally, currency was a tangible asset, such as grain, livestock, or another commodity. However, these goods had the major disadvantage of being perishable, making it difficult to use them as a long-term savings medium. For example, poor harvests or animal illness could destroy an individual's wealth overnight.
 Thus, as civilizations advanced and trade expanded to new regions, the need for a universal medium of exchange arised. Individuals first experimented with objects such as shells and gemstones, but they were not as durable or scarse as they believed. Eventually, gold became the standard, due to its rarity, durability, and divisibility. It was, and remains to this day, a symbol of wealth and power.
 
-![image](assets/en/chapter1/1.webp)
+![image](assets/en/07.webp)
 
 ### What is the role of money?
 
@@ -159,15 +163,15 @@ Money is a highly sophisticated communication tool:
 
 Its function in our world is difficult to artificially replicate. In fact, no individual or group can create money, as it is a natural phenomenon that must emerge from the market and voluntary consensus. In this sense, prices serve as signals and pieces of information that guide society in allocating resources.
 
-For these reasons, gold as money is the result of 4,000 years of monetary Darwinism based on three key functions:
+For these reasons, gold as money is the result of 4,000 years of monetary Darwinism based on the following Aristotelian functions:
 
-- Store of value
-- Medium of exchange
-- Unit of account
+- **Store of value**: money can be used to transfer purchasing power into the future, so it needs to be a durable material;
+- **Medium of exchange**: money can be used in exchange for goods and services instead of bartering, thus avoiding the coincidence of wants between traders;
+- **Unit of account**: money also allows us to compare the values of different goods to better understand their relative convenience.
 
-![image](assets/en/chapter1/3.webp)
-![image](assets/en/chapter1/4.webp)
-![image](assets/en/chapter1/5.webp)
+![image](assets/en/08.webp)
+![image](assets/en/09.webp)
+![image](assets/en/10.webp)
 
 ### The characteristics of money
 
@@ -177,7 +181,7 @@ On the opposite, state fiduciary currencies (fiat) are easily usable, but are co
 
 To explain this concept better, we shall explore the characteristics of an effective currency:
 
-![image](assets/en/chapter1/6.webp)
+![image](assets/en/11.webp)
 
 - **Fungibility**, meaning that it is interchangeable with another unit of the same kind without loss of value;
 - **Divisibility**, as it can be divided into smaller units to facilitate transactions of varying volumes;
@@ -207,7 +211,7 @@ Today, major currencies such as the Euro and the Dollar are considered fiduciary
 
 A fiduciary currency is a form of money that is decreed as such by an institution, i.e. a state, like China with the Yuan, or a political-economic union, such as the European Union with the Euro. The entity in charge of its issuance is the central bank (For example, we can mention the People's Bank of China, the Federal Reserve of the United States, or the Central Bank of the Republic of Guinea). It is precisely these entities that are in charge of formulating the monetary policy and therefore how much money should be put into circulation or printed.
 
-![image](assets/en/chapter2/1.webp)
+![image](assets/en/12.webp)
 
 ### Monetary devaluation: a strategy as old as the Roman Empire
 
@@ -217,7 +221,7 @@ The mechanism is simple and is inspired by practices that have existed since the
 
 However, these leaders then begin to devalue the new currency in a gradual way, de facto reducing its value by a few percent each year in comparison to the initial gold price. This silent devaluation is often justified as being in the interest of the people. In reality, those who save in this fiduciary currency see the worth of their savings erode, while the state finances its projects through inflation. Furthermore, this devaluation makes debt easier to repay.
 
-![image](assets/en/chapter2/3.webp)
+![image](assets/en/13.webp)
 
 At a critical moment, the leader makes the announcement: the currency is no longer backed by gold. The public, now accustomed to the fiduciary currency and often misinformed about financial matters, accepts this reality, allowing the state to freely manipulate the money supply and print enormous sums of money at almost no cost.
 
@@ -229,17 +233,17 @@ In the end, the currency may no longer have any connection to gold, similarly to
 
 Today, we are witnessing a historic turning point. The dollar, which has long dominated, appears to be in decline, while gold has lost its central role. We stand at the threshold of a new monetary cycle, reminding us that the lessons of history are often forgotten
 
-![image](assets/en/chapter2/4.webp)
+![image](assets/en/14.webp)
 
 ### Is Bitcoin a solution?
 
 Because of these premises, the Bitcoin revolution is gaining momentum. Contrary to previous currencies, it requires **no trusted third party** and aims to separate the State from money.
 
-![image](assets/en/chapter2/2.webp)
+![image](assets/en/15.webp)
 
 In fact, Bitcoin presents itself as a response to these systemic challenges by proposing a decentralized solution and a new parallel monetary system. Historically, if gold has been favored as a currency due to its resistance to counterfeiting, Bitcoin similarly cannot be falsified. Moreover, it is limited to 21 million units, thanks to its decentralized and cryptographic nature. Bitcoin is a currency that relies on transparency and neutrality, offering an attractive alternative to the current centralized monetary system.
 
-![image](assets/en/chapter2/0.webp)
+![image](assets/en/16.webp)
 
 Another reason why Bitcoin has acquired attention is the emergence of central bank digital currencies, or CBDCs, which seems inevitable. This new form of money would develop a more centrally planned economy, and could both hinder individuals' financial freedom and facilitate authoritarian abuses.
 We can conclude this chapter with the quote from the Nobel Prize winner F.A Hayek in 1984:
@@ -268,11 +272,11 @@ When hyperinflation occurs, we are no longer talking about 20% per year, but rat
 
 It is crucial to understand that hyperinflation does not happen by chance, by capitalism, or by political attacks from opponents. Hyperinflation is the direct consequence of bad monetary decisions made by central bankers and politicians. Its aftermaths affect every citizen and even impacts next generations. We kindly invite you to spend five minutes reading the following table to fully realize the real impact of this phenomenon (the ECO204 course further delves into this subject). As you can see, no country or currency is potentially safe.
 
-![image](assets/en/chapter3/1.webp)
+![image](assets/en/17.webp)
 
 ### What are the phases of hyperinflation?
 
-![image](assets/en/chapter3/3.webp)
+![image](assets/en/18.webp)
 
 For hyperinflation to occur, certain events must take place.
 
@@ -288,7 +292,7 @@ Phase 3 - The vicious circle of money printing
 
 - Thus, more and more bills are needed to purchase goods, which results in the scarcity of paper money. In response, governments resort to printing more bills, which fuels inflation even further.
 
-![image](assets/en/chapter3/4.webp)
+![image](assets/en/19.webp)
 
 Phase 4 - The emergence of a new currency
 
@@ -307,7 +311,7 @@ Resolving a hyperinflation crisis often requires radical changes, such as revolu
   
 In the end, the authorities created a new currency, backed by the debts of Germany, France, and England, and guaranteed by German land.
 
-  ![image](assets/en/chapter3/5.webp)
+  ![image](assets/en/20.webp)
 
 - Hungary, 1945-1946
 
@@ -317,7 +321,7 @@ In the end, the authorities created a new currency, backed by the debts of Germa
 
   The last banknote to be put into circulation was a 100 million billion Pengo (100,000,000,000,000,000) in 1946.
 
-![image](assets/en/chapter3/6.webp)
+![image](assets/en/21.webp)
 
 - Zimbabwe, 2007-2008
 
@@ -329,7 +333,7 @@ In the end, the authorities created a new currency, backed by the debts of Germa
 
   In April 2009, the Minister of Finance announced the suspension of the Zimbabwean dollar and authorized the use of different foreign currencies for trade. All bank accounts, pensions, and financial institutions saw their balances evaporate overnight.
 
-![image](assets/en/chapter3/7.webp)
+![image](assets/en/15.webp)
 
 In conclusion, hyperinflation has the effect of rapidly degrading the value of the currency, leading to the erosion of savings and the loss of confidence in the monetary system. As Voltaire once suggested, a fiat currency will always eventually lose its intrinsic value and converge towards zero.
 A currency that relies on a trusted third party like a financial institution is, in practice and in the long term, a defective one, because it is unable to guarantee purchasing power or preserve savings.
@@ -347,7 +351,7 @@ https://planb.network/courses/eco204
 
 Bitcoin is a decentralized digital currency with a pre-defined maximum quantity of **21 million units**. This intrinsic characteristic of scarcity is determined by its computer code and reinforced by the consensus of all users participating in the protocol.
 
-![image](assets/en/chapter4/0.webp)
+![image](assets/en/22.webp)
 
 Its monetary issuance can be illustrated by a curve that represents the quantity of bitcoins created over time. For example, in 2022, approximately 18.5 million bitcoins were in circulation. Forecasts indicate that by 2025, there will be around 19.5 million bitcoins, representing around the 93% of the total supply, and by 2037, this figure will reach 20.4 million.
 
@@ -355,7 +359,7 @@ Its monetary issuance can be illustrated by a curve that represents the quantity
 
 The creation of new bitcoins is the result of the mining process. In a nutshell, miners use powerful computers that solve complex mathematical problems, which validate and secure transactions. Once a problem is solved, the miner adds a new block of transactions to the blockchain, a decentralized and distributed ledger that records all transactions made on the network. The blockchain ensures transparency and security, as each block is linked to the previous one, making it nearly impossible to alter past data without consensus from the network.
 
-![image](assets/en/chapter4/1.webp)
+![image](assets/en/23.webp)
 
 After successfully performing this task, miners get rewarded with the issuance of new bitcoins every ten minutes. This reward is programmed to halve every 210,000 blocks, which is approximately every four years (an event known as "halving"), giving the monetary issuance curve a stair-like shape. Due to this mechanism, it can be mathematically predicted that the creation of new bitcoins will cease arount the year 2140, when the total number reaches its limit of 21 million.
 
@@ -390,7 +394,9 @@ The limit of 21 million is the basis of Bitcoin scarcity, and is guaranteed by t
 
 - The mining difficulty adjustment is a process that takes place every 2016 blocks, or around two weeks, to ensure that a new block is added to the blockchain every ten minutes on average. This frequency of block creation and the total quantity of bitcoins are both fixed aspects of the Bitcoin protocol and cannot be changed without a general consensus, unlike the arbitrary decisions made in traditional monetary systems.
 
-![image](assets/en/chapter4/2.webp)
+The difficulty of finding a valid hash follows a sort of cycle: if the number of miners increases, it means that the number of blocks they find is higher, which brings to a decrease in the average time to find a block. Because of it, the difficulty is increased. As a consequence, the number of blocks that miners find is lowered, which means that the mechanism goes back to the average of 10 miniutes per block. Please see the image below for a visual display.
+
+![image](assets/en/24.webp)
 
 Did you know that miners are incentivized to mine a block in order to earn new bitcoins through the block subsidy, as well as transaction fees from the transactions they include in that block?
 
@@ -398,7 +404,7 @@ Thus, as the number of bitcoins issued approaches the 21 million limit, miners w
 
 - Game theory is a mathematical concept that relies on human rationality. It assumes that individuals act logically, seeking to maximize their own benefits while considering the potential decisions of others. In Bitcoin, game theory helps to ensure that the majority of miners and users will act in the best interest of the network. In fact, since protocol changes are voted by the users, any modification to the Bitcoin protocol would require the agreement of the entire community of users, which is highly complex. So, if someone wanted to create a 22nd million bitcoin, they would have to convince all users to voluntarily devalue their own savings, which is unlikely to happen because Bitcoin is global and is not governed by a central group.
 
-![image](assets/en/chapter4/3.webp)
+![image](assets/en/25.webp)
 
 The idea of devaluing the currency goes against the fundamental philosophy of Bitcoin, so a change in its overall quantity is highly unlikely to happen.
 
@@ -449,7 +455,7 @@ A Bitcoin wallet can have many shapes and forms: a software on your computer, an
 
 Portfolios can thus be categorized into broad families of use, always centered around a key question: are you the owner of the funds or are you leaving control of your money to a third party? We will explore this topic in detail in the next chapter, but the question remains straightforward: is the money in your pocket or in your banker's pocket?
 
-![image](assets/en/chapter5/3.webp)
+![image](assets/en/26.webp)
 
 ### How does a Bitcoin wallet work?
 
@@ -471,13 +477,13 @@ Whether it's your Bitcoin "banker" or yourself, the vast majority of Bitcoin wal
 
 In a summary, this technology empowers us to receive bitcoins without enabling the receiver to steal our funds! A mailbox could be a fitting metaphor: people can deposit money into it, but you are the only one who can open it.
 
-![image](assets/en/chapter5/4.webp)
+![image](assets/en/27.webp)
 
 ### Are bitcoins in the wallet?
 
 Although your keys are stored in your wallet, the bitcoins themselves are actually "stored" in the Bitcoin blockchain, which is a public distributed ledger within the Bitcoin peer-to-peer network (we will delve into it in section 3). This means that losing the device containing your wallet does not necessarily result in the loss of your bitcoins. What allows you to recreate your wallet and spend your bitcoin is actually the private key, so always remember to secure it properly!
 
-![image](assets/en/chapter5/1.webp)
+![image](assets/en/28.webp)
 
 Fortunately, since 2017, the private key can be represented by a simple list of 12 or 24 words, known as 'mnemonic phrase, which are quite easy to save. This phrase serves as a backup for your funds and allows you to recreate your wallet using any Bitcoin wallet software or app. Therefore, anyone who finds this list of words can access your bitcoins.
 
@@ -485,7 +491,7 @@ Fortunately, since 2017, the private key can be represented by a simple list of 
 
 What if someone accidentally guesses our list of 12 or 24 words? The short answer is that it is highly unlikely, thanks to the cryptography used to create the wallet. To put it into perspective, accidentally discovering your same mnemonic phrase is akin to finding the "right" number between 1 and $2^256$, which is almost equivalent to finding the "right" atom in the Universe. However, if you are not satisfied with this default security, you can always enhance it by adding a passphrase (an extra word) to your Bitcoin wallet.
 
-![image](assets/en/chapter5/5.webp)
+![image](assets/en/29.webp)
 
 Thus, the probability of hacking your Bitcoin wallet is astronomically low if you follow the good security practices that we will detail in the next section.
 
@@ -510,7 +516,7 @@ When you own bitcoins, the security of your funds is a major concern. The best w
 
 There is actually no universal answer or solution, so take the time to answer these questions, as it will help tailor your security measures to your needs.
 
-![image](assets/en/chapter6/0.webp)
+![image](assets/en/30.webp)
 
 ### Thinking about Bitcoin wallets in terms of complexity
 
@@ -518,7 +524,7 @@ Here below, we will define several levels of security:
 
 - **Level 0**, you use a so-called "custodial service" where you are not the sole holder of your bitcoins. Be aware that this trusted third party can restrict your access to your funds at any time. In this case, your level of financial sovereignty is similar to that of a traditional banking system with a bank account.
 
-![image](assets/en/chapter6/2.webp)
+![image](assets/en/31.webp)
 
 - **Level 1**, you use a Bitcoin wallet on your phone or computer, where you are the sole holder of your bitcoins and you can easily carry out your transactions. The afore-mentioned tool is referred to as "hot wallet", because the private key is stored on a device with internet access. In this case, it is crucial to back up your mnemonic phrase to regain access to your funds in the event of losing your phone or computer.
 
@@ -538,7 +544,7 @@ https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672
 
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
-![image](assets/en/chapter6/4.webp)
+![image](assets/en/32.webp)
 
 - **Level 3**, you use a level 1 or 2 wallet, but you added an additional passphrase. In this case, be aware that you need to backup both the list of 12/24 words **and** your passphrase. Ideally, these two pieces of information are stored in two different places.
 
@@ -546,11 +552,11 @@ To learn more about the use and functioning of the BIP39 passphrase:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![image](assets/en/chapter6/5.webp)
+![image](assets/en/33.webp)
 
 - **Level 4**, you use a set of wallets to create a "multisig" wallet, which means that multiple signatures are required to conduct a transaction. In this case, be aware that each part of the multisig should be stored in different locations. This approach is often considered an advanced use of Bitcoin, primarily for managing large amounts and for corporate purposes.
 
-![image](assets/en/chapter6/3.webp)
+![image](assets/en/34.webp)
 
 Of course, different use cases also require different Bitcoin wallets, and there is no one-size-fits-all solution.
 
@@ -586,12 +592,14 @@ When you set up a wallet, the software usually creates your private key, usually
 
 You should literally take a blank sheet of paper or print this [template](https://bitcoiner.guide/backup.pdf), and write the word list with a pen, following the presented order neatly and clearly. Be aware that if the ink fades over time, you may lose your funds. Therefore, it is important to keep this piece of paper protected from those environmental factors that could potentially damage it, like moisture or fire.
 
-![image](assets/en/chapter7/0.webp)
+Please find an example of how to compile the paper here below: the words are fake, so do not use them!
+
+![image](assets/en/35.webp)
 
 ### Our tips for doing it right
 Besides, make sure not to make any mistake during the copy, otherwise your heirs may struggle to read it and could be unable to recover the funds. Besides, once you have saved the words, it’s advisable to create a second copy and store it in a different location from the first. This ensures you have a backup in case the original is lost or damaged.
 
-![image](assets/en/chapter7/1.webp)
+![image](assets/en/36.webp)
 
 The word lists should be stored in a safe place that you can easily remember. Avoid creating overly-complicated hiding plans that could lead to losing them.
 
@@ -617,7 +625,7 @@ One method to secure your bitcoins in the long term is to engrave your mnemonic 
 
 Various solutions are available: some of them are low-cost, such as the "Blockmit", while others may require more specialized equipment. You can explore this topic further in the [tutorials](https://planb.network/en/tutorials/wallet) section of our academy.
 
-![image](assets/en/chapter8/1.webp)
+![image](assets/en/37.webp)
 
 ### Think about the next generation!
 
@@ -625,7 +633,7 @@ Alongside this first practice, creating an inheritance plan is a crucial step to
 
 If you wish to further explore the subject of the inheritance plan for your bitcoins, we recommend reading Pamela Morgan's book [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) or enrolling in the BTC102 course, where we provide guidance on creating your plan.
 
-![image](assets/en/chapter8/2.webp)
+![image](assets/en/38.webp)
 
 ### Privacy is important
 
@@ -663,35 +671,36 @@ Now that we have covered the basics of Bitcoin wallets and the best practices fo
 
 ### Let's start with a bit of history.
 
-![image](assets/en/chapter9/2.webp)
+![image](assets/en/39.webp)
 
 October 31, 2008 marks the birth of the new financial technology that is Bitcoin. On this day, the anonymous Satoshi Nakamoto presented his innovation to the world through an email sent to the mailing list of the cypherpunks, a community of cryptography enthusiasts dedicated to promoting privacy on the internet. This email contained a document called "White Paper", which presented how Bitcoin worked.
 
 This initiative did not immediately generate enthusiasm, probably because of the previous failures in the attempts to create a digital cash systems. Nevertheless, this White Paper eventually became a reference for Bitcoin users and has been the subject of many debates in the Bitcoin ecosystem through the years.
 
-![image](assets/en/chapter9/3.webp)
+![image](assets/en/40.webp)
 
 On January 3, 2009, Satoshi officially inaugurated the Bitcoin network by creating the first block, also known as the "Genesis block", which marked the launch of the Bitcoin blockchain. This block contains a revealing message reflecting the mission of Bitcoin: "03/jan/2009 Chancellor on brink of second bailout for banks."
 
-![image](assets/en/chapter9/9.webp)
+![image](assets/en/41.webp)
 
 > "We can win a major battle in the arms race and gain a
 > new territory of freedom for several years.” - Satoshi Nakamoto
 
-![image](assets/en/chapter9/5.webp)
+![image](assets/en/42.webp)
+
 
 ### The Bitcoin protocol comes to life
 
 On January 9, 2009, Satoshi announced the release of Bitcoin 0.1.0 version. Shortly after, Hal Finney took hold of the software and joined the network, which marked the presence of two nodes and, therefore, two miners in the network. Finney even immortalized this step by tweeting, 'Running Bitcoin'. On January 12, 2009, the first Bitcoin transaction of 10 BTC was made between Satoshi and Hal Finney, and you can easily find it, if you go back to block 170. 
 
-![image](assets/en/chapter9/4.webp)
+![image](assets/en/43.webp)
 
 Interest in Bitcoin grew rapidly, leading many people to test it, engage in debates, solve bugs, and reflect on its ethical, economic, and philosophical aspects. People were so captivated that Satoshi created the BitcoinTalk forum on November 22, 2009, in order to facilitate these types of confrontation.
 The forum quickly became the preferred place of discussion for Bitcoin users, so much so that famous memes and symbols associated with Bitcoin were born from it, such as the [Bitcoin logo](https://bitcointalk.org/index.php?topic=64.0), the famous [Hodl](https://bitcointalk.org/index.php?topic=375643.0), or even [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
 
 **Did you know?** On May 22, 2010, Laszlo Hanyecz made history by offering to buy two pizzas for 10.000 BTC: it was the first time that Bitcoin was used to purchase physical goods.
 
-![image](assets/en/chapter9/6.webp)
+![image](assets/en/44.webp)
 
 ### The disappearance of Satoshi Nakamoto
 
@@ -707,7 +716,7 @@ For some, Bitcoin is a defined as fungal entity like a [mycelium](https://brando
 
 To learn more about Satoshi Nakamoto's writings, we recommend reading ["The Book of Satoshi"](https://planb.network/en/resources/books/98) by Phil Champagne or the ARTE documentary "Le mystaire Satoshi".
 
-![image](assets/en/chapter9/8.webp)
+![image](assets/en/45.webp)
 
 > “The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve” - [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 
@@ -730,7 +739,7 @@ Afterwards, Bob makes the transaction by opening his Bitcoin wallet and pressing
 
 To finalize the transaction, Bob must sign it with his private key to verify that he is the owner of the bitcoins he wants to transfer. This step is usually automatic on mobile wallets, or it takes the form of a confirmation on your physical wallet: "Are you sure you want to send X to Y? Yes or no".
 
-![image](assets/en/chapter10/1.webp)
+![image](assets/en/46.webp)
 
 **Why do we pay fees?** Fees are essential to create a free market for including transactions in blocks. In fact, a block has a size of 1 MB (which was expanded to 4MB after the Segwit update), so the number of transactions that can be "inserted" in a block is limited to a few thousand transactions per block. The size of a transaction depends on its complexity. Therefore, more complex transactions typically incur higher fees.
 
@@ -738,25 +747,25 @@ To finalize the transaction, Bob must sign it with his private key to verify tha
 
 At this stage, the transaction has been created and Bob's wallet will share it with the Bitcoin network. To do this, his wallet will communicate with a node of the Bitcoin network, which will propagate this information to other nodes. This kind of process allows the entire network to see this new transaction and take it into account.
 
-![image](assets/en/chapter10/4.webp)
+![image](assets/en/47.webp)
 
 At this point, even though this transaction is known to everyone (via a tool called Mempool), it cannot be considered confirmed until it gets inserted in a block by a miner, who is the only one who validates transactions by including them in the blockchain.
 
 In fact, miners have the role of gathering valid and unconfirmed transactions to compile them into a block. In a nutshell, they must solve a cryptographic puzzle in a process called "proof of work" in order for their block to be the next one in the Bitcoin blockchain.
 
-![image](assets/en/chapter10/2.webp)
+![image](assets/en/48.webp)
 
 ### Step 3: The transaction is mined in a block by a miner.
 
 The Proof of work system requires finding a valid "hash" for the block in question: think of it as a unique fingerprint associated with the block, composed of 256 characters. The validity of this hash depends on the difficulty rate of the Bitcoin network (we will go into more details later). For now, consider that a miner has found a valid block, and that Bob's transaction to Alice is included in it. Then, the new valid block is added to the blockchain, the common ledger for all Bitcoin users.
 
-![image](assets/en/chapter10/5.webp)
+![image](assets/en/49.webp)
 
 ### Step 4: The block is valid and verified by Alice's referent node.
 
 At this stage, the transaction is considered valid: the miner will then propagate the new block to the network through their node, and Alice's wallet will be updated.
 
-![image](assets/en/chapter10/3.webp)
+![image](assets/en/50.webp)
 
 **Note:** Even if Alice is notified that she has received bitcoins at one of her addresses, it is advisable to consider the transaction immutable only after it has received **six** confirmations. This means that six additional blocks have to be mined on top of the block containing Bob's transaction. In other words, the older a transaction is in the blockchain, the more immutable it becomes.
 
@@ -785,7 +794,7 @@ Nodes are a fundamental element of the Bitcoin network architecture, as they per
 
 Therefore, any device running a piece of Bitcoin software, called Bitcoin node (often using [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), contributes to the decentralization of the network.
 
-![image](assets/en/chapter11/1.webp)
+![image](assets/en/51.webp)
 
 ### Nodes are the central core of Bitcoin.
 
@@ -793,7 +802,7 @@ Each node holds a copy of the blockchain, which permits transaction verification
 
 Nodes are capable of verifying the validity of blocks and transactions because they follow the rules of the Bitcoin consensus. These rules establish the Bitcoin's monetary policy, such as the amount of miners' reward (which we will discuss in more detail in the next section) and the amount of bitcoin in circulation. In a way, nodes act as the network's legal system because all network participants follow the same rules because of them, so they ensure the neutrality of the Bitcoin protocol. Consensus rules hardly vary, if at all, because to make changes, the approval of all nodes is required.
 
-![image](assets/en/chapter11/2.webp)
+![image](assets/en/52.webp)
 
 Governance within the protocol is beyond the scope of this basic course, but it's important to note that each user running a Bitcoin node can decide which rules to follow. A user may choose to adhere to different rules (i.e., make modifications to the code), but if these changes invalidate the current consensus rules, that node will no longer be part of the Bitcoin network. Consequently, major modifications are rare and require significant coordination among thousands of participants with diverse ideologies and interests, which forces them to provide updates that are considered 'better' by all Bitcoin users.
 
@@ -801,7 +810,7 @@ Governance within the protocol is beyond the scope of this basic course, but it'
 
 There are several options available when you want to install your own node, with different maintenance costs. You can simply run the Bitcoin Core software on your computer, but it will require a significant amount of storage space, as the blockchain is about ~500GB. To overcome this constraint, you can choose to only keep the last N blocks in the memory by creating a "pruned node". For this second solution, the cost is negligible because the node is only active when you need it.
 
-![image](assets/en/chapter11/10.webp)
+![image](assets/en/53.webp)
 
 A second option is to use a dedicated piece of hardware for this purpose, such as a Raspberry Pi 4 with a sufficiently large SSD (about ~1TB). This other option is more expensive if you have to buy the hardware, but it represents a little less than €10,00 per year in terms of electricity consumption.
 From a bandwidth perspective, considering 1 block of 1MB every 10 minutes, it corresponds approximately to 5GB per month.
@@ -812,7 +821,7 @@ The affordable cost and accessibility of a Bitcoin node in terms of hardware res
 
 Indeed, everyone has a good reason to run a node! The costs and efforts are minimal compared to the benefit obtained. You just have to embark on the adventure and join thousands of other bitcoiners to form the Bitcoin network all together.
 
-![image](assets/en/chapter11/11.webp)
+![image](assets/en/54.webp)
 
 On the contrary, if the blocks were 100 times heavier, we could certainly make 100 times more transactions every 10 minutes, but running a Bitcoin node would require a 50TB hard disk, a bandwidth of over 500GB/month, and a piece of hardware capable of validating hundreds of thousands of transactions in less than 10 minutes. In this hypothetical situation with 100 times larger blocks, running a Bitcoin node would not be accessible to the average person, which would compromise both the decentralization of the protocol and the immutability of transactions and consensus rules. 
 
@@ -826,7 +835,7 @@ Following this victory, the nodes activated an update called SegWit, paving the 
 
 **Miners secure the network and add transactions to the blocks. They use electricity through ASIC machines to solve the Bitcoin proof of work.**
 
-![image](assets/en/chapter12/15.webp)
+![image](assets/en/55.webp)
 
 ### Explanation of Proof of Work
 
@@ -841,17 +850,17 @@ The machines operate continuously, and after an average of 10 minutes, a winner 
 
 Every 2016 blocks (approximately every two weeks), the **difficulty adjustment** rebalances the global mining game based on the number of participants. This adjustment is necessary because the number of miners and their combined computing power can vary significantly over time. To maintain the target block time, the network recalibrates the difficulty level based on how quickly the last 2016 blocks were mined. If they were mined too quickly, the difficulty increases, making it harder to find the correct hash. On the contrary, if they were mined too slowly, the difficulty decreases, making it easier.
 
-![image](assets/en/chapter12/14.webp)
+![image](assets/en/24.webp)
 
 ### Mining is constantly evolving
 
 Over the years, miners have equipped themselves with increasingly efficient computer hardware to produce as many hashes as possible per second (HashRate) while consuming the least amount of energy in the most cost-effective way possible. The early miners like Satoshi or Hal Finney mined using just their CPU, then others started mining with their graphics cards. Nowadays, miners use ASICs (Application-Specific Integrated Circuit): machines solely designed to apply the SHA256 algorithm.
 
-![image](assets/en/chapter12/20.webp)
+![image](assets/en/56.webp)
 
 The Hashrate of the Bitcoin network represents the number of attempts made per second to find the next block. Today it even surpassed 500 TH/s, which is 500,000 billion attempts per second! The higher the global hashrate, the more difficult it is for a malicious actor to monopolize the resources needed to obtain the majority of the mining power and spend their funds more than once (double spending problem). It is therefore more economically viable to follow the rules of the Bitcoin protocol than to act against them.
 
-![image](assets/en/chapter12/16.webp)
+![image](assets/en/57.webp)
 
 ### What can be found in a block?
 
@@ -870,11 +879,11 @@ The amount of the subsidy is defined by the consensus rules and depends on the E
 
 Indeed, for the first blocks, the block subsidy was 50 bitcoins. Every 210,000 blocks (approximately every 4 years), this amount is halved. Today (in 2024), we are in the 5th Epoch, which means that the subsidy is 3.125 bitcoins. In short, this is the automatic mechanism that releases new bitcoins in the system. The subsidy decreases over time, until it meets the limit of issuance of 21 million bitcoins. There are already over 19.4 million bitcoins in circulation, which is over 92%.
 
-![image](assets/en/chapter12/18.webp)
+![image](assets/en/58.webp)
 
 The second method of compensation is defined by the amount chosen by users for transaction fees, which show the urgency of the user to have their transaction included in the next block. Since miners want to maximize their income, they will tend to prioritize transactions with high transaction fees.
 
-![image](assets/en/chapter12/17.webp)
+![image](assets/en/59.webp)
 
 To stabilize their business model, which relies on the rewards they receive for each valid block, miners often create groups through "mining pools", where they pool their computing resources.
 
@@ -884,7 +893,7 @@ In short, the innovation of Bitcoin is to propose a solution to the problem of d
 
 But how can this be done without a trusted intermediary? This problem is well described through the Byzantine Generals' paradox, a problem of coordinating information in a system where various actors cannot be trusted. In the Byzantine Generals Problem, a group of generals must coordinate an attack on a city, but some may be traitors trying to disrupt the plan. The challenge is for the loyal generals to reach a consensus on whether to attack or retreat, despite receiving potentially misleading messages from the traitors.
 
-![image](assets/en/chapter12/13.webp)
+![image](assets/en/60.webp)
 
 Bitcoin is therefore a kind of solution to solve this issue, or at least to work around it. The "generals" of Bitcoin, or miners, produce blocks (of information) and Bitcoin nodes verify financial transactions using consensus rules to ensure the authenticity of the information. The asymmetry in the energy cost between information production and verification ensures the reliability of the information, without a trusted third party.
 
@@ -911,7 +920,7 @@ In the previous section, we understood that the security of the Bitcoin protocol
 
 First, let's qualitatively assess the environmental cost of mining. A miner must have a machine like an ASIC and a source of energy in the form of electricity to power these machines. ASICs are mostly made of aluminum and can be either recycled or reused for a second purpose (as demonstrated by the Attakaï project described in our course MIN201), which transforms an Antminer S9 into a space heater). The main concern is therefore the energy consumption.
 
-![image](assets/en/chapter13/1.webp)
+![image](assets/en/61.webp)
 
 The electricity consumption represents almost all of the costs for a miner. Therefore, they are encouraged to find a cheap source of electricity, so they can go to places where power plants are installed but not yet connected to the electrical grid of the territory. In this case, miners act as a last resort buyer, allowing power plants to secure financing even before being connected to the electrical network. When they are connected, the demand for electricity will increase, which will raise the price and make it less profitable for miners to obtain electricity in these places. Sice the machines can be easily moved, miners will then decide to take their installation and settle further away where the demand is low and so is the price, most often in areas where they can get energy from green power plants.
 
@@ -921,7 +930,9 @@ Thus, the debate on the ecological impact of Bitcoin is often misguided, mainly 
 
 It is important to emphasize that Bitcoin, as a revolutionary invention, provides a means for individuals living under financial oppression or dictatorial regimes to fight for their freedom. As a last resort, Bitcoin offers a pathway to financial independence by circumventing censorship and banking restrictions. More than just a currency, Bitcoin serves as a form of communication and a symbol of freedom, and the energy expended by miners plays a crucial role in defending this freedom, enabling emancipation from a financial system dominated by debt and excessive monetary creation by central banks.
 
-![image](assets/en/chapter13/3.webp)
+![image](assets/en/62.webp)
+![image](assets/en/63.webp)
+![image](assets/en/64.webp)
 
 For those living in countries with high inflation rates, Bitcoin is a matter of survival. It provides a means to survive in precarious financial situations. Furthermore, Bitcoin offers a more equitable and impartial financial system, providing billions of people worldwide with access to financial resources. Given this perspective, is the energy consumption justified?
 
@@ -931,13 +942,13 @@ Finally, it is essential to discuss the economic and environmental consequences 
 
 When comparing it to the current financial system, the latter, due to its encouragement of overconsumption and debt, poses serious problems. Factors such as easy access to credit, monetary issuance by banks, and the practice of fractional reserve banking all contribute to overindebtedness and, as a result, excessive consumption.
 
-![image](assets/en/chapter13/12.webp)
+![image](assets/en/65.webp)
 
 It is necessary to reform the monetary system in order to reflect the scarcity of our resources with the scarcity of our currency. This will encourage more responsible consumption and a long-term vision. Conversely, inflation, by encouraging consumption and investment, has a negative long-term impact on the environment.
 
 The current financial system aligns with the ideas of Keynesian economics, which, unlike Austrian economics, does not take into account the temporal and dynamic aspects of situations and resources. In other words, an unlimited currency cannot effectively represent the limited resources of our planet.
 
-![image](assets/en/chapter13/2.webp)
+![image](assets/en/66.webp)
 
 On the other hand, politicians usually have short-term vision and they need economic growth to be reelected, so they are not able to solve ecological problems in the long term. Conversely, the adoption of a sound currency like Bitcoin is a potential alternative that could empower people economically.
 
@@ -966,7 +977,7 @@ Thus, the Bitcoin protocol is an uncensorable and unstoppable monetary system be
 
 The price of Bitcoin is often characterized by significant volatility. Its value can fluctuate considerably depending on market variations or on bullish and bearish phases, just like any other financial market.
 
-![image](assets/en/chapter14/2.webp)
+![image](assets/en/67.webp)
 
 To put it simply, humans tend to buy everything at once and sell everything at once. **Bitcoin is not immune to human nature.**
 
@@ -974,7 +985,7 @@ To put it simply, humans tend to buy everything at once and sell everything at o
 
 Both the development and the evolution of Bitcoin are largely linked to the different groups of actors who have gradually integrated its ecosystem.
 
-![image](assets/en/chapter14/1.webp)
+![image](assets/en/68.webp)
 
 - The believers:
 
@@ -1000,7 +1011,7 @@ These significant fluctuations have earned Bitcoin a reputation as a highly vola
 
 This significant volatility is fully accepted today by Bitcoin actors and can be mitigated by several solutions such as financial hedges (stablecoins), a strong long-term belief (hodling), or simply avoiding the risk of investing 100% of one’s funds in Bitcoin without a solid understanding. Understanding why the price of Bitcoin fluctuates so much is therefore essential to progress in this industry, as it is ultimately the price movements and cycles that help temper and regulate the market to some extent. However, it is fundamental to note that as Bitcoin grows and matures, volatility becomes less impactful.
 
-![image](assets/en/chapter14/5.webp)
+![image](assets/en/69.webp)
 
 Although the btc/dollar pair fluctuates in the short term, bitcoin, due to its limited quantity of 21 million bitcoins and its halving process (halving the monetary creation every 4 years on average), follows a general upward trend in a quasi-mechanical manner. Of course, like any financial asset, bitcoin is subject to economic cycles including periods of euphoria, speculative bubbles, and corrections. This phenomenon is quite common in emerging technologies, where the market is not always rational or efficient.
 
@@ -1008,11 +1019,11 @@ Although the btc/dollar pair fluctuates in the short term, bitcoin, due to its l
 
 These cycles of speculative bubbles are quite unique in the world, s it is rare for a single asset to experience such a series of bubbles in succession. This phenomenon can be attributed to the fact that Bitcoin is not merely a bubble destined to burst. Rather, it functions as a currency that is actively used around the globe. The Bitcoin protocol stands out for its ability to operate on a global scale, 24/7, which poses significant challenges for financial authorities attempting to regulate it.
 
-![image](assets/en/chapter14/4.webp)
+![image](assets/en/70.webp)
 
 Today, Bitcoin continues to survive and grow even more by being integrated more and more into the traditional market, and the introduction of Bitcoin ETFs, clearer regulations, and improved tools for acquisition and storage are all contributing to this positive momentum. Bitcoin has ONCE AGAIN survived its speculative bubble, so maybe it's not ajust hot air after all!
 
-![image](assets/en/chapter14/3.webp)
+![image](assets/en/71.webp)
 
 ## Obtaining Bitcoins by Working
 
@@ -1024,7 +1035,7 @@ Bitcoin can be seen as the tool to create a parallel economy to fiat currencies,
 
 The Bitcoin economy exists and is developing in certain regions of the world, like in El Salvador, where Bitcoin has been a legal tender since 2021. All around us there are some individuals, businesses, and organizations that already accept Bitcoin as a means of payment for their products or services.
 
-![image](assets/en/chapter16/6.webp)
+![image](assets/en/72.webp)
 
 In addition, an open-source and collaborative project has been launched, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), to facilitate the use of Bitcoin in everyday transactions. This platform lists all the merchants that accept Bitcoin, as well as the different Bitcoin communities around the world, so you can visit their website to discover the Bitcoin ecosystem around you. Thus, despite the difficulties and the hesitations, there are initiatives like BTCMap that contribute to making the Bitcoin economy more accessible and convenient for everyone.
 
@@ -1034,7 +1045,7 @@ To obtain bitcoins, you can buy them on platforms regulated by organizations suc
 
 Furthermore, accepting Bitcoin as a merchant has several advantages, including censorship resistance, reduced transaction fees, increased efficiency, protection against inflation, as well as financial freedom and sovereignty.
 
-![image](assets/en/chapter16/3.webp)
+![image](assets/en/73.webp)
 
 ### How can you proceed?
 
@@ -1089,7 +1100,7 @@ In concrete terms, there are two questions to ask yourself:
 
 A gradual strategy involves recurring purchases, meaning buying small amounts of Bitcoin at regular intervals. This method smooths out the price over time and provides continuous growth in the amount of bitcoin owned. It is an ideal solution for long-term savings, and alleviates the concerns about Bitcoin's price volatility. Once set up, you can simply forget about it and watch your investment grow.
 
-![image](assets/en/chapter15/2.webp)
+![image](assets/en/74.webp)
 
 **Beware of UTXOs**: Remember to consolidate your UTXOs in your wallets from time to time. This practice is essential for effectively managing your bitcoins and avoiding unnecessary fees during transactions.
 
@@ -1120,7 +1131,7 @@ Their use is simple and accessible to everyone:
 3. Purchase bitcoin
 4. Withdraw bitcoin to your wallet
 
-![image](assets/en/chapter15/1.webp)
+![image](assets/en/75.webp)
 
 After the purchase, it is advisable to immediately withdraw the bitcoins from the exchange platforms to minimize the risks of hacking and fund blocking. Be aware that withdrawal fees can be high, sometimes up to 25 euros depending on the platform.
 
@@ -1138,7 +1149,7 @@ In addition, there are several [marketplaces](https://planb.network/tutorials/ex
 - Peer-to-peer matchmaking solutions
 - Neobanks operating in Bitcoin-friendly nations.
 
-![image](assets/en/chapter15/3.webp)
+![image](assets/en/76.webp)
 
 Finally, it is important to note that tax obligations may vary depending on the jurisdiction, so we strongly encourage you to consult the regulations in your country before taking any actions that could put you at risk.
 
@@ -1150,17 +1161,17 @@ Finally, it is important to note that tax obligations may vary depending on the 
 
 Like any new technology, the adoption of Bitcoin follows an S-curve, illustrating the progression from early adopters to broader acceptance. We have moved beyond the era of early adopters, and indicators suggest a potential democratization of Bitcoin. After all, it is a viral technology that cannot be easily halted. On the one hand, El Salvador has taken the bold step of fully adopting Bitcoin as legal tender. On the opposite, other countries have responded by banning it and criminalizing its usage, which shows that Bitcoin adoption is complex and is exposed to the influence of cultural, historical, and national factors.
 
-![image](assets/en/chapter17/2.webp)
+![image](assets/en/02.webp)
 
 The rise of Bitcoin forces companies, universities, regulators, and individuals to take this new technology into account. New tools need to be created, services need to be adapted, and innovation must continue to ensure their survival. This context raises many questions related to various fields, including cryptography, game theory, economics and monetary policy, computer science, philosophy, energy, laws, and regulation. In short, Bitcoin is a multidisciplinary subject.
 
-![image](assets/en/chapter17/1.webp)
+![image](assets/en/01.webp)
 
 ### Bitcoin is a 0 to 1
 
 In the end, we invite you to reflect on this new monetary revolution. There is so much to explore with Bitcoin that it is complicated to assimilate everything at once. Take your time, Bitcoin is not going to disappear. On the contrary, the revolution has just begun. We believe we are capable of creating the world we want to entrust to our children: a world where human sovereignty is a right, where privacy is respected by default, and where money is not manipulated. We hope that, together, we will achieve this.
 
-![image](assets/en/chapter17/3.webp)
+![image](assets/en/77.webp)
 
 If you want to broaden your knowledge about Bitcoin, this is the right time: a large number of authors, thinkers, and essayists have created educational content about Bitcoin. For the past few years, we have been listing and categorizing these works to offer a [library of resources](https://planb.network/resources) to the most curious among you. In that section, You will find the best podcasts, websites, articles, tutorials, books, and other content.
 
@@ -1184,7 +1195,7 @@ The Lightning Network is a revolutionary technology that has profoundly changed 
 
 To fully grasp the Lightning Network, it is crucial to understand how Bitcoin evolves and develops in infrastructure layers: the first layer is the blockchain, and the second one is the Lightning Network.
 
-![image](assets/en/chapter18/6.webp)
+![image](assets/en/78.webp)
 
 ### A Blockchain cannot grow indefinitely
 
@@ -1192,7 +1203,7 @@ Lightning Network was validated and implemented in 2017 to solve the scalability
 
 The scalability problem refers to the challenge of implementing a monetary system capable of providing an ever-increasing number of transactions per second to face the increasing adoption. This issue relates to the blockchain trilemma. Imagine a triangle with decentralization, security, and scalability as its vertices.
 
-![image](assets/en/chapter18/5.webp)
+![image](assets/en/79.webp)
 
 According to it, a protocol based on a blockchain can only satisfy two out of these three features. Within the Bitcoin protocol, developers have made choices to favor decentralization and security. On the one hand, the block size of 1MB and the time between two blocks (on average 10 minutes) allow for running a Bitcoin node at a lower cost, favoring decentralization. On the other hand, the production of blocks through Proof-of-Work makes fraud within the protocol extremely costly, while facilitating verification by network nodes and favoring security. However, these choices impose a limit on the average number of transactions in a block, roughly corresponding to a few transactions per second. This number is ridiculous when compared to the computational capacity of payment processors like VISA (1700/s), but this limit is necessary in order to transact with Bitcoin in a censorship-resistant and trustless manner. Nevertheless, those developing on Bitcoin have been thinking about this problem since the beginning.
 
@@ -1200,11 +1211,11 @@ According to it, a protocol based on a blockchain can only satisfy two out of th
 
 After years of consideration and multiple attempts, the Lightning protocol emerged. Using a certain number of specifications, this protocol constructs a peer-to-peer payment network by leveraging the security and programmability of Bitcoin's transaction protocol. The Lightning Network acts as a network of payment channels, enabling instant transactions with low fees for the sender, and it even creates exchange routes between individuals who do not have a direct channel connection.
 
-![image](assets/en/chapter18/4.webp)
+![image](assets/en/80.webp)
 
 Traditional money transfer services such as Western Union, central banks, Visa, and Mastercard could disappear if they do not adopt the Lightning Network technology, which is more efficient and cost-effective than current payment systems. In fact, the Lightning Network enables nearly unlimited transactions between two peers sharing a channel, incurring only the energy costs associated with the transaction to announce the creation of the channel, rather than on each individual transaction.
 
-![image](assets/en/chapter18/7.webp)
+![image](assets/en/81.webp)
 
 Transactions are secured through cryptography and indirectly through the energy consumed by miners on Bitcoin. They can be made instantly, without geographical limitations, with extremely low fees (often less than 0.5%).
 
@@ -1230,19 +1241,19 @@ This peer-to-peer network aims to facilitate micro-transactions (with very low v
 
 This technology opens the door to a wide range of potential applications for Bitcoin that were previously out of reach because of the necessary constraints to ensure the security and decentralization of Bitcoin. Among these everyday use cases, we can mention instant billing in both physical and online commerce, streaming money for real-time payments, and micro-donations for content creators. By enabling a network of nearly instant, secure, and low-cost transactions (averaging less than 0.5%), many previously unimaginable business models can be realized. This is made possible because the Lightning Network operates using satoshis (sats), the smallest unit of Bitcoin.
 
-![image](assets/en/chapter19/9.webp)
+![image](assets/en/82.webp)
 
 The video game industry offers a particularly interesting example of how the Lightning Network can be used to transform existing business models. The concept of "skin in the game" is an idea that has recently gained popularity in this context. It essentially involves having a financial stake in the outcome of a game. In fact, Lightning Network allows players to wager very small amounts of money when playing games, such as a few satoshis (about a fraction of a euro cent) to establish a stake that stimulates competition while significantly increasing the cost of using bots.
 
-![image](assets/en/chapter19/2.webp)
+![image](assets/en/83.webp)
 
 In summary, the future of micro-transactions with Bitcoin looks promising thanks to innovations like Lightning Network. As these technologies continue to develop and mature, we can expect to see new and exciting applications emerge in the near future. 
 
-![image](assets/en/chapter19/8.webp)
+![image](assets/en/84.webp)
 
 Another example could be "money streaming": through Lightning Network, we can make micro-transactions every minute (potentially without a trusted third party), which opens the door to experimenting with economic models where consumers pay for content based on their actual consumption. It is even conceivable to use this system for renting goods. In such a system, money is automatically divided, based on a predefined percentage, among the different contributors to a service or product. This could revolutionize the way we think about payment models: instead of paying a monthly subscription for a service, users could be charged per minute, or even per second, for the time they spend using the service. Such an economic model could have profound implications for content creators, who would be incentivized to produce quality content to keep users' attention.
 
-![image](assets/en/chapter19/3.webp)
+![image](assets/en/85.webp)
 
 In conclusion, Lightning Network opens up a multitude of exciting use cases for Bitcoin users. The resulting economic models and business opportunities are numerous and varied, and we encourage you to check for yourself by trying the podcast application [Fountain](https://www.fountain.fm/), which allows you to be rewarded with a few sats for listening to your favorite podcasts!
 

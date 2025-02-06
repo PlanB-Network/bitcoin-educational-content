@@ -13,6 +13,7 @@ tags:
   - lightning network
 
 # Proofreading metadata
+project_id: db0f0b26-3fd8-4d3b-94cc-1f55f30fe768
 original_language: en
 proofreading:
   - language: en
@@ -20,6 +21,5 @@ proofreading:
     urgency: 0
     contributors_id:
       - Asi0Flammeus
-    reward: 1250
+    reward: 0.05
 
-projectId: db0f0b26-3fd8-4d3b-94cc-1f55f30fe768

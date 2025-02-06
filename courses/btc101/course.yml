@@ -34,6 +34,7 @@ professors:
 contributors:
   - another-satoshi
 
+published_at: 2023-04-29
 # Proofreading metadata
 original_language: en
 proofreading:
@@ -41,78 +42,84 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 43096
+    reward: 21.72
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 22798
+    reward: 10.91
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 22798
+    reward: 10.91
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 32947
+    reward: 16.31
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
     contributors_id:
       - KryptoKeskus
-    reward: 21548
+    reward: 10.86
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 11399
+    reward: 5.45
   - language: it
     last_contribution_date: 2023-10-10
     urgency: 1
     contributors_id:
       - TinF0ilHat1
-    reward: 16473
+    reward: 8.16
   - language: ja
     last_contribution_date: 2023-12-03
     urgency: 1
     contributors_id:
       - yutaro21jp
-    reward: 31697
+    reward: 16.26
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 22798
+    reward: 10.91
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
       - Reshetenko
-    reward: 21548
+    reward: 10.86
   - language: vi
     last_contribution_date: 2024-05-05
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 31697
+    reward: 16.26
   - language: et
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - taneltheplanet
-    reward: 21548
+    reward: 10.86
   - language: id
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - AraleB
-    reward: 26622
+    reward: 13.56
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - MilankovicProtocol
-    reward: 26622
+    reward: 13.56
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 21.72

@@ -30,56 +30,56 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 - Fill this file with information about your conference using this template:
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 For example, your YAML file could look like this:
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Paris, France
-  address_line_2: 
-  address_line_3: 
-  name: Paris Bitcoin Conference 2024
-  builder: Paris Bitcoin Conference
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: The largest Bitcoin conference in France with over 8,000 participants each year!
-  language: 
-    - fr
-    - en
-    - es
-    - it
-  links:
-    website: https://paris.bitcoin.fr/conference
-    replay_url:
-    live_url :
-  tags: 
-    - Bitcoiner
-    - General
-    - International
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Paris, France
+address_line_2: 
+address_line_3: 
+name: Paris Bitcoin Conference 2024
+builder: Paris Bitcoin Conference
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: The largest Bitcoin conference in France with over 8,000 participants each year!
+language: 
+  - fr
+  - en
+  - es
+  - it
+links:
+  website: https://paris.bitcoin.fr/conference
+  replay_url:
+  live_url :
+tags: 
+  - Bitcoiner
+  - General
+  - International
 ```
 ![event](assets/09.webp)
 If you do not yet have a "*builder*" identifier for your organization, you can add it by following this other tutorial.

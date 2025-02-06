@@ -1,3 +1,4 @@
+id: 3b28b0f4-4a6f-4fb1-97be-0ae28c8fdb1c
 name: Bitcoin Rodeo
 category: conference
 
@@ -15,4 +16,4 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0
+    reward: 0.05

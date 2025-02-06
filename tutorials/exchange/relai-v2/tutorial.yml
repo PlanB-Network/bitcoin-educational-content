@@ -15,12 +15,13 @@ credits:
 
 # Proofreading metadata
 
-original_language: fr
+project_id: 61688787-528b-4274-bdae-ad812fc7f768
+original_language: en
 proofreading:
-  - language: fr
+  - language: en
     last_contribution_date: 2025-01-11
-    urgency:
+    urgency: 1
     contributors_id:
       - LoicPandul
-    reward:
-projectId: 61688787-528b-4274-bdae-ad812fc7f768
+    reward: 0.38
+

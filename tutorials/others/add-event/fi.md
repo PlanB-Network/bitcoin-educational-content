@@ -30,55 +30,55 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 - Täytä tämä tiedosto konferenssisi tiedoilla käyttäen tätä mallia:
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 Esimerkiksi, YAML-tiedostosi voisi näyttää tältä:
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Pariisi, Ranska
-  address_line_2: 
-  address_line_3: 
-  name: Paris Bitcoin Conference 2024
-  builder: Paris Bitcoin Conference
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-description: Ranskan suurin Bitcoin-konferenssi, jossa on yli 8 000 osallistujaa joka vuosi! kieli:
-    - fr
-    - en
-    - es
-    - it
-  linkit:
-    verkkosivusto: https://paris.bitcoin.fr/conference
-    uusintalähetys_url:
-    suora_url:
-  tagit:
-    - Bitcoiner
-    - Yleinen
-    - Kansainvälinen
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Pariisi, Ranska
+address_line_2: 
+address_line_3: 
+name: Paris Bitcoin Conference 2024
+builder: Paris Bitcoin Conference
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Ranskan suurin Bitcoin-konferenssi, jossa on yli 8 000 osallistujaa joka vuosi! kieli
+  - fr
+  - en
+  - es
+  - it
+linkit:
+  verkkosivusto: https://paris.bitcoin.fr/conference
+  uusintalähetys_url:
+  suora_url:
+tagit:
+  - Bitcoiner
+  - Yleinen
+  - Kansainvälinen
 ```
 ![tapahtuma](assets/09.webp)
 Jos organisaatiollasi ei vielä ole "*builder*" tunnistetta, voit lisätä sen seuraamalla tätä toista opasta.

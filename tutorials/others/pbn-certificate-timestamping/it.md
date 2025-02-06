@@ -1,17 +1,17 @@
 ---
 name: Marcatura temporale dei certificati e diplomi della Rete Plan ₿
-description: Comprendi come la Rete Plan ₿ rilascia una prova verificabile per il tuo certificato e diplomi
+description: Comprendi come la Rete Plan ₿ rilascia una prova verificabile per i tuoi certificati e diplomi
 ---
 
 ![cover](assets/cover.webp)
 
-Se stai leggendo questo, c'è un'alta probabilità che tu abbia ricevuto un Certificato Bitcoin o un diploma di completamento per uno dei corsi che hai fatto sulla Plan ₿ Network, quindi congratulazioni per questo traguardo!
+Se stai leggendo questo, c'è un'alta probabilità che tu abbia ricevuto un Certificato Bitcoin o un diploma per aver completato uno dei corsi su Plan ₿ Network, quindi congratulazioni per questo traguardo!
 
-In questo tutorial, vedremo come la Plan ₿ Network rilascia una prova verificabile per il tuo Certificato Bitcoin o qualsiasi Diploma di Completamento del Corso. Poi, in una seconda parte, vedremo come verificare l'autenticità di queste prove.
+In questo tutorial, vedremo come Plan ₿ Network rilascia una prova verificabile per il tuo Certificato Bitcoin o qualsiasi Diploma di Completamento del Corso. Poi, in una seconda parte, vedremo come verificare l'autenticità di queste prove.
 
 # Meccanismo di prova della Plan ₿ Network
 
-Nella Rete Plan ₿, ti offriamo un certificato e diplomi che sono firmati crittograficamente da noi e marcatori temporali sulla Timechain (ovvero, la blockchain di Bitcoin). Per raggiungere questo obiettivo, abbiamo dovuto ideare un meccanismo di prova che si basa su 2 operazioni crittografiche:
+Nella Rete Plan ₿, ti offriamo certificati e diplomi che sono firmati crittograficamente da noi e marcatori temporali sulla Timechain (ovvero, la blockchain di Bitcoin). Per raggiungere questo obiettivo, abbiamo dovuto ideare un meccanismo di prova che si basa su 2 operazioni crittografiche:
 
 1. Una firma GPG su un file di testo che sintetizza i tuoi risultati
 2. La marcatura temporale di questo file firmato tramite [opentimestamps](https://opentimestamps.org/).
@@ -21,23 +21,23 @@ Crediamo che questo semplice meccanismo di prova ci permetta di rilasciare certi
 
 ![image](./assets/proof-mechanism.webp)
 
-Nota che grazie a questo meccanismo di prova, qualsiasi tentativo di alterare anche il più piccolo dettaglio del tuo certificato o diploma creerà un hash sha256 completamente diverso del file firmato, che rivelerà immediatamente la manomissione perché la firma e la marcatura temporale non saranno più valide. Inoltre, se qualcuno tenta di falsificare maliziosamente alcuni certificati o diplomi per conto della Plan ₿ Network, una semplice verifica della firma rivelerà la frode.
+Nota che grazie a questo meccanismo, qualsiasi tentativo di alterare anche il più piccolo dettaglio del tuo certificato o diploma creerà un hash sha256 completamente diverso del file firmato, che rivelerà immediatamente la manomissione perché la firma ed il timestamp non saranno più validi. Inoltre, se qualcuno tentasse di falsificare maliziosamente alcuni certificati o diplomi per conto della Plan ₿ Network, una semplice verifica della firma rivelerà la frode.
 
 ## Come funziona la firma GPG?
 
-La firma GPG è ottenuta con l'uso di un software open-source chiamato GNU Private Guard. Questo software permette a chiunque di creare facilmente chiavi private, firmare e verificare firme e anche criptare e decriptare file. Per lo scopo di questo tutorial, sappi che la Plan ₿ Network utilizza GPG per creare la sua chiave privata/pubblica e per firmare qualsiasi Certificato Bitcoin o Diploma di Completamento del Corso.
+La firma GPG è ottenuta con l'uso di un software open-source chiamato GNU Private Guard. Questo software permette a chiunque di creare facilmente chiavi private, firmare e verificare firme e anche criptare e decriptare file. Per lo scopo di questo tutorial, sappi che Plan ₿ Network utilizza GPG per creare la sua chiave privata/pubblica e per firmare qualsiasi Certificato Bitcoin o Diploma di Fine Corso.
 
-D'altra parte, se qualcuno vuole verificare l'autenticità di un file firmato può usare GPG per importare la chiave pubblica dell'emittente e verificare. Nella seconda parte del tutorial vedremo come farlo con un terminale.
+D'altra parte, se qualcuno volesse verificare l'autenticità di un file firmato può usare GPG per importare la chiave pubblica dell'emittente e controllare la genuinità della firma. Nella seconda parte del tutorial vedremo come farlo con il terminale.
 
 Per coloro che sono curiosi e vogliono saperne di più su questo fantastico software, potete fare riferimento a ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
 
-## Come funziona la marcatura temporale?
+## Come funziona il Timestamping?
 
 Chiunque può usare OpenTimestamps per marcare temporalmente un file e ottenere una prova verificabile dell'esistenza del file. In altre parole, non ti fornisce una prova di quando il file è stato creato ma una prova dell'esistenza non oltre un certo momento.
 OpenTimestamps è in grado di offrire questo servizio gratuitamente grazie a un modo altamente efficiente di memorizzare tale prova nella Blockchain di Bitcoin. Utilizza l'hash sha256 del file come identificatore unico del tuo file e costruisce un albero di Merkle con altri hash di file inviati da altri utenti e ancorare solo l'hash della struttura dell'Albero di Merkle in una Transazione OpReturn.
-Una volta che questa transazione è in qualche blocco, chiunque abbia il file iniziale e il file `.ots` ad esso associato può verificare l'autenticità della marcatura temporale. Nella seconda parte del tutorial vedremo come verificare il tuo Certificato Bitcoin o qualsiasi Diploma di Completamento del Corso con un terminale e con un'interfaccia grafica tramite il sito web di OpenTimestamps.
+Una volta che questa transazione è in qualche blocco, chiunque abbia il file iniziale e il file `.ots` ad esso associato può verificare l'autenticità del timestamp. Nella seconda parte del tutorial vedremo come verificare il tuo Certificato Bitcoin o qualsiasi Diploma del Corso con un terminale e con un'interfaccia grafica tramite il sito web di OpenTimestamps.
 
-# Come verificare un Certificato o Diploma della Plan ₿ Network
+# Come verificare un Certificato o Diploma del Plan ₿ Network
 
 ## Passo 1. Scarica il tuo Certificato o Diploma
 
@@ -45,7 +45,7 @@ Accedi alla tua dashboard personale PBN.
 
 ![image](./assets/login.webp)
 
-Vai alla pagina delle Credenziali cliccando sul menu laterale sinistro, e seleziona la tua sessione d'esame o il tuo Diploma di Completamento del Corso.
+Vai alla pagina delle Credenziali cliccando sul menu laterale sinistro, e seleziona la tua sessione d'esame o il tuo Diploma del Corso.
 
 ![image](./assets/credential.webp)
 
@@ -80,6 +80,8 @@ gpg:               importate: 1
 NOTA: se vedi che 1 chiave è stata elaborata e 0 importate, molto probabilmente hai già importato precedentemente la stessa chiave ed è tutto a posto.
 
 2. Verifica la firma del certificato o diploma con il seguente comando:
+   
+*Assicurati di essere nella stessa directory nel quale hai salvato i file al punto 1.*
 
 ```bash
 gpg --verify certificate.txt
@@ -145,4 +147,4 @@ Nota che la verifica è riuscita se vengono visualizzati **entrambi** i seguenti
 1. La firma GPG è segnalata come **"Buona firma da Plan ₿ Network"**
 2. La verifica di OpenTimestamps mostra uno specifico timestamp del blocco Bitcoin e riporta **"Successo! Il blocco Bitcoin [altezza del blocco] attesta che i dati esistevano già al [timestamp]"**
 
-Ora che sai come Plan ₿  Network emette una prova verificabile per qualsiasi Certificato Bitcoin e Diploma di Completamento del Corso, puoi facilmente verificare l'integrità di esso.
+Ora che sai come Plan ₿ Network emette una prova verificabile per qualsiasi Certificato Bitcoin e Diploma di fine Corso, puoi facilmente verificare l'integrità di esso.

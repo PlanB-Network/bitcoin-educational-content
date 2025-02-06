@@ -36,7 +36,7 @@ Ouvrez cet e-mail et cliquez sur "*Activate Account*" ou saisissez le code à 6 
 
 ![KRAKEN](assets/fr/05.webp)
 
-## 2. Vérification du compte entreprise
+## 2 - Vérification du compte entreprise
 
 Après la création de votre compte, vous devrez compléter le processus de vérification KYC (*Know Your Customer*) pour les comptes d'entreprise. Cette étape permet à Kraken de vérifier la légitimité de votre entreprise et de respecter les réglementations financières en vigueur.
 
@@ -99,7 +99,7 @@ En dessous, vous avez également accès aux paramètres avancés, avec notamment
 
 Ces options avancées vous permettent de définir différents niveaux d'autorisations au sein de votre organisation.
 
-## 4. Dépôt et retrait de monnaie fiat
+## 4 - Dépôt et retrait de monnaie fiat
 
 Une fois votre compte vérifié et sécurisé, vous pouvez y déposer des fonds en euros (ou dans votre monnaie locale). Vous pouvez également effectuer des retraits selon les besoins de votre entreprise.
 
@@ -115,7 +115,7 @@ Pour retirer des euros de votre compte Kraken, suivez le même processus mais ut
 
 ![KRAKEN](assets/fr/17.webp)
 
-## 5. Dépôt et retrait de bitcoins
+## 5 - Dépôt et retrait de bitcoins
 
 Pour déposer des bitcoins sur votre compte Kraken, accédez de nouveau à la section "*Transférer*". Dans la case "*Asset*", sélectionnez "*BTC*" puis confirmez pour recevoir l'adresse à laquelle vous devrez envoyer les bitcoins depuis votre portefeuille en self-custody.
 
@@ -127,7 +127,7 @@ Pour retirer des bitcoins de votre compte Kraken vers un portefeuille en self-cu
 
 Saisissez l'adresse de votre portefeuille, puis confirmez l'opération en utilisant votre 2FA.
 
-## 6. Achat et vente de bitcoins
+## 6 - Achat et vente de bitcoins
 
 Kraken offre différentes interfaces de trading, chacune conçue pour répondre à des besoins spécifiques. Pour une gestion professionnelle et avancée, Kraken Pro est recommandée. Pour des transactions plus simples, l'interface par défaut de Kraken suffira. Pour changer d'interface, cliquez sur les petits points en haut à droite de l'écran :
 
@@ -156,7 +156,7 @@ Pour ces transactions, vous pouvez choisir entre différents types d'ordres : *M
 - *Limit* : Permet de spécifier un prix d'achat, et l'ordre ne sera exécuté que si le prix du marché atteint ce montant ;
 - *Stop-Loss* : Permet de vendre automatiquement lorsque le prix atteint un certain seuil.
 
-## 7. Gestion des Transactions et Comptabilité
+## 7 - Gestion des Transactions et Comptabilité
 
 En tant qu'entreprise, vous aurez probablement besoin d'exporter les détails de vos opérations réalisées sur Kraken pour votre comptabilité. Kraken propose des outils facilitant l'exportation des historiques de transactions et offre une vue détaillée de votre portefeuille.
 
@@ -180,7 +180,7 @@ Vous pouvez alors spécifier tous les détails nécessaires selon votre situatio
 
 ![KRAKEN](assets/fr/27.webp)
 
-## 8. Cas d’usage pour l’entreprise
+## 8 - Cas d’usage pour l’entreprise
 
 En fonction des objectifs et de la structure de votre entreprise, l'utilisation de Kraken peut varier.
 

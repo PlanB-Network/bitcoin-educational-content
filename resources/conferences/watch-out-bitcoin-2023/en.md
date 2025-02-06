@@ -1,7 +1,7 @@
 ---
-name: Watch out 2023 
-description: 
- El evento presencial para aprender sobre Bitcoin y el mundo actual, conocerse y cooperar. 
+name: Watch Out 2023
+description:
+ El evento presencial para aprender sobre Bitcoin y el mundo actual, conocerse y cooperar.
 ---
 
 # Panel
@@ -10,13 +10,13 @@ description:
 
 ![video](https://youtu.be/yUstEWnR4pk?si=S2LoPnno_N-CQj6n)
 
-Primer panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023. 
+Primer panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023.
 
 🟧 PONENTES:
-🔸 Enrique Ho   / ho_fernandez  
-🔸 Javier Bastardo   / criptobastardo  
-🔸 Luis David Esparragoza   / criptoluis  
-🔸 MODERA: Marce Romero    / marcemr19  
+🔸 Enrique Ho   / ho_fernandez
+🔸 Javier Bastardo   / criptobastardo
+🔸 Luis David Esparragoza   / criptoluis
+🔸 MODERA: Marce Romero    / marcemr19
 
 0:16: 🔸 Experiencias de vida relacionadas con Bitcoin en Latinoamérica. Descubrimiento de Bitcoin a través del periodismo. Impacto de la situación en Venezuela.
 5:27: 📉 Experiencia personal de Enrique Ho con Bitcoin, incluyendo la reunión con su hijo después de 8 años y la estabilidad económica y judicial en Panamá.
@@ -32,7 +32,7 @@ Primer panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoi
 
 Sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
@@ -42,15 +42,15 @@ Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ay
 
 ![video](https://youtu.be/ABC9rXLG4Pw?si=-b14RsiBgsVTRX2E)
 
-Segundo panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023. 
+Segundo panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023.
 
 🟧 PONENTES:
-🔸 Javier Bastardo   / criptobastardo  
-🔸 Javier de la Fuente   / javierdlafuente  
-🔸 Lorena Ortiz   / lorebitcoin  
-🔸 Luis David Esparragoza   / criptoluis  
-🔸 Marce Romero   / marcemr19  
-🔸 MODERA: Alberto Mera   / alberto_mera  
+🔸 Javier Bastardo   / criptobastardo
+🔸 Javier de la Fuente   / javierdlafuente
+🔸 Lorena Ortiz   / lorebitcoin
+🔸 Luis David Esparragoza   / criptoluis
+🔸 Marce Romero   / marcemr19
+🔸 MODERA: Alberto Mera   / alberto_mera
 
 0:52: 📺 La televisión está perdiendo credibilidad y cuota de mercado frente a plataformas como YouTube y Twitter en la evolución de los medios de comunicación.
 4:45: 🔍 La importancia de verificar la información de los medios y fuentes diferentes para tener una conciencia crítica de la realidad.
@@ -64,25 +64,25 @@ Segundo panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitco
 
 Sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
 - 💵 FIAT: https://watchoutfreedom.com/donate/
 
-##  La Libertad en nuestros días 
+## La Libertad en nuestros días
 
 ![video](https://youtu.be/Fk1UqW8dzC4?si=-R_pTo2UccarL_u-)
 
 
-Tercer panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023. 
+Tercer panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023.
 
 🟧 PONENTES:
-🔸 Álvaro D. María   / alvaro_dmaria  
-🔸 Arkad   / multicripto  
-🔸 Nancy Quirós   / nanquiag  
-🔸 Rubén Gisbert   / gisbert_ruben  
-🔸 MODERA: Javier Bastardo   / criptobastardo  
+🔸 Álvaro D. María   / alvaro_dmaria
+🔸 Arkad   / multicripto
+🔸 Nancy Quirós   / nanquiag
+🔸 Rubén Gisbert   / gisbert_ruben
+🔸 MODERA: Javier Bastardo   / criptobastardo
 
 0:17: 🔸 Charla filosófica sobre la libertad y el pensamiento liberal con expertos en España.
 6:14: ⚖️ La pérdida gradual de libertades en la sociedad actual y sus posibles consecuencias futuras.
@@ -98,7 +98,7 @@ Tercer panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoi
 
 Sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
@@ -108,13 +108,13 @@ Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ay
 
 ![video](https://youtu.be/Fy05-P2xakw?si=ntPBPxuE7rvp-x9B)
 
-Cuarto panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023. 
+Cuarto panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023.
 
 🟧 PONENTES:
-🔸 Juan Ramón Rallo   / juanrallo  
-🔸 Manuel Polavieja   / mengermindopnr  
-🔸 Ricardo Pérez-Marco   / rperezmarco  
-🔸 MODERA: Alberto Mera   / alberto_mera  
+🔸 Juan Ramón Rallo   / juanrallo
+🔸 Manuel Polavieja   / mengermindopnr
+🔸 Ricardo Pérez-Marco   / rperezmarco
+🔸 MODERA: Alberto Mera   / alberto_mera
 
 0:55: 💰 La idoneidad de Bitcoin como moneda y los desafíos para su adopción masiva frente al dólar.
 6:03: 💰 Desafíos de la adopción masiva de Bitcoin debido a la rigidez de su oferta monetaria y la emisión de sustitutos.
@@ -132,21 +132,21 @@ Cuarto panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoi
 
 Sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 ## Presentación de IFEB
 
 ![video](https://youtu.be/A4y0QoSk9MA?si=YMKGJCjofTB9zgVV)
 
-Quinto y último panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023. 
+Quinto y último panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023.
 
 🟧 PONENTES:
-🔸 Álvaro D María   / alvaro_dmaria  
-🔸 Decentralizedb   / decentralized_b  
-🔸 Guerrilla   / guerrilla_btc  
-🔸 Nancy Quirós   / nanquiag  
-🔸 Marce Romero   / marcemr19  
-🔸 MODERA: Lunaticoin   / lunaticoin  
+🔸 Álvaro D María   / alvaro_dmaria
+🔸 Decentralizedb   / decentralized_b
+🔸 Guerrilla   / guerrilla_btc
+🔸 Nancy Quirós   / nanquiag
+🔸 Marce Romero   / marcemr19
+🔸 MODERA: Lunaticoin   / lunaticoin
 
 0:31: 💡 Falta de contenido académico sobre bitcoin dificulta diálogo con la academia y bancos centrales.
 3:33: ⚖️ Importancia de tener un representante en castellano para dar seriedad y generar contenido sobre bitcoin.
@@ -158,7 +158,7 @@ Quinto y último panel del domingo 8 de Octubre de Watch Out, Bitcoin!, conferen
 
 Sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 ##  La regulación y Bitcoin
 
@@ -170,13 +170,13 @@ En la primera charla se profundizará en el alcance y en cómo influyen los aspe
 
 🟧 PONENTES:
 🔸Alfredo Muñoz
-🔸Cristina Carrascosa /   / carrascosacris_  
-🔸Javier Maestre /   / javieramaestre  
-🔸José Antonio Bravo /   / jabravo   
-🔸Juan Ignacio Ibáñez /   / 22xtjuan  
-🔸 MODERA: Alberto Mera /   / alberto_mera  
+🔸Cristina Carrascosa /   / carrascosacris_
+🔸Javier Maestre /   / javieramaestre
+🔸José Antonio Bravo /   / jabravo
+🔸Juan Ignacio Ibáñez /   / 22xtjuan
+🔸 MODERA: Alberto Mera /   / alberto_mera
 
-🟧 RESUMEN: 
+🟧 RESUMEN:
 0:34: 💼 La regulación de bitcoin y su impacto en el futuro del sector.
 6:40: 💼 La regulación de la custodia de activos digitales y su impacto en la sociedad.
 12:03: 📉 El video discute la regulación de transacciones con criptoactivos y la necesidad de equilibrar la protección al consumidor con la libertad del mercado.
@@ -191,7 +191,7 @@ En la primera charla se profundizará en el alcance y en cómo influyen los aspe
 
 Sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
@@ -204,13 +204,13 @@ Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ay
 Segundo panel de la jornada del sábado 7 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023.
 
 🟧 PONENTES:
-🔸 Álvaro D. María   / alvaro_dmaria  
-🔸 Enrique Ho Fernández   / ho_fernandez  
-🔸 Gael Sánchez Smith   / gaelsansmith  
-🔸 Manuel Polavieja   / mengermindopnr  
-🔸 MODERA: Lunaticoin   / lunaticoin  
+🔸 Álvaro D. María   / alvaro_dmaria
+🔸 Enrique Ho Fernández   / ho_fernandez
+🔸 Gael Sánchez Smith   / gaelsansmith
+🔸 Manuel Polavieja   / mengermindopnr
+🔸 MODERA: Lunaticoin   / lunaticoin
 
-🟧 RESUMEN: 
+🟧 RESUMEN:
 00:00: Intro
 00:44: 📈 Bitcoin es una innovación que resuelve problemas económicos y de censura, con un valor de mercado significativo.
 07:06: 💰 Bitcoin resuelve el problema de transferir valor a lo largo del tiempo, reduciendo costos y riesgos.
@@ -228,26 +228,26 @@ Segundo panel de la jornada del sábado 7 de Octubre de Watch Out, Bitcoin!, con
 
 Sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
 - 💵 FIAT: https://watchoutfreedom.com/donate/
 
-##  Bitcoin y los jóvenes 
+## Bitcoin y los jóvenes
 
 ![video](https://youtu.be/RmsVI2UaQHE?si=CEgFcQfxXlsIND-u)
 
 Tercer panel de la jornada del sábado 7 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023.
 
 🟧 PONENTES:
-🔸 BTCBite   / btcbite  
-🔸 Dulce Villarreal   / dulce_vird  
-🔸 Leo Moreno   / leomcy1  
-🔸 Lorena Ortiz   / lorebitcoin  
-🔸 Nancy Quirós   / nanquiag  
-🔸 Jorge Jesús Gómez   / jjgomezs  
-🔸 MODERA: Alberto Mera   / alberto_mera  
+🔸 BTCBite   / btcbite
+🔸 Dulce Villarreal   / dulce_vird
+🔸 Leo Moreno   / leomcy1
+🔸 Lorena Ortiz   / lorebitcoin
+🔸 Nancy Quirós   / nanquiag
+🔸 Jorge Jesús Gómez   / jjgomezs
+🔸 MODERA: Alberto Mera   / alberto_mera
 
 La discusión gira en torno al impacto de bitcoin en los jóvenes, sus preocupaciones financieras y la influencia de las redes sociales o la educación en su toma de decisiones.
 
@@ -267,27 +267,27 @@ La discusión gira en torno al impacto de bitcoin en los jóvenes, sus preocupac
 
 Sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
 - 💵 FIAT: https://watchoutfreedom.com/donate/
 
 
-##  Bitcoin y Privacidad
+## Bitcoin y Privacidad
 
 ![video](https://youtu.be/il2A3ddH-gM?si=zyphEaFlEciiDV9s)
 
-Cuarto panel de la jornada del sábado 7 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023. 
+Cuarto panel de la jornada del sábado 7 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023.
 
 🟧 PONENTES:
-🔸 Arkad   / multicripto  
-🔸 Jack Smith   / jacksper13  
-🔸 Max Keidun   / keidunm  
-🔸 Peter Hold   / p_hold  
-🔸 Reckless Satoshi   / recksato  
-🔸 Wandering King   / wanderinking072  
-🔸 MODERA: Lunaticoin   / lunaticoin  
+🔸 Arkad   / multicripto
+🔸 Jack Smith   / jacksper13
+🔸 Max Keidun   / keidunm
+🔸 Peter Hold   / p_hold
+🔸 Reckless Satoshi   / recksato
+🔸 Wandering King   / wanderinking072
+🔸 MODERA: Lunaticoin   / lunaticoin
 
 0:00: 🗣️ Panel de discusión sobre privacidad con invitados que hablan inglés y español.
 7:21: 💸 La importancia de la privacidad y la libertad de elección en el mercado de Bitcoin.
@@ -303,24 +303,24 @@ Cuarto panel de la jornada del sábado 7 de Octubre de Watch Out, Bitcoin!, conf
 
 Sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
 - 💵 FIAT: https://watchoutfreedom.com/donate/
 
-##  La llegada de las CBDC
+## La llegada de las CBDC
 
 ![video](https://youtu.be/06efjHgp62Q?si=TbfnfICnf2i7bV6a)
 
-Quinto panel de la jornada del sábado 7 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023. 
+Quinto panel de la jornada del sábado 7 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023.
 
 🟧 PONENTES:
-🔸 Álvaro D. María   / alvaro_dmaria  
-🔸 Félix Moreno   / flix1  
-🔸 Marc Vidal   / marcvidal  
+🔸 Álvaro D. María   / alvaro_dmaria
+🔸 Félix Moreno   / flix1
+🔸 Marc Vidal   / marcvidal
 🔸 Miguel Ángel Fernández Ordónez
-🔸 MODERA: Lunaticoin   / lunaticoin  
+🔸 MODERA: Lunaticoin   / lunaticoin
 
 0:18: 📈 Explorando el impacto de las CBDCs con expertos en finanzas y economía.
 8:58: 🏦 Riesgos de trasladar el monopolio del sistema de pagos de los bancos comerciales a los bancos centrales.
@@ -338,28 +338,28 @@ Quinto panel de la jornada del sábado 7 de Octubre de Watch Out, Bitcoin!, conf
 
 Sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
 - 💵 FIAT: https://watchoutfreedom.com/donate/
 
 
-##  Minería en Bitcoin: mitos y realidad
+## Minería en Bitcoin: mitos y realidad
 
 ![video](https://youtu.be/8qx5W3Y_4Qo?si=8-6yTQl8IKf9TYHM)
 
-Sexto y último panel de la jornada del sábado 7 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023. 
+Sexto y último panel de la jornada del sábado 7 de Octubre de Watch Out, Bitcoin!, conferencia Bitcoin celebrada en Madrid 2023.
 
 🟧 PONENTES:
-🔸 BTCAndrés   / btcandres  
-🔸 CSH2000   / cshdosmil  
-🔸 Dev7ba   / dev7ba  
-🔸 Gael Sánchez Smith   / gaelsansmith  
-🔸 Juan Ignacio Ibáñez   / 22xtjuan  
-🔸 Miguel Vidal   / mvidallopez  
-🔸 Ricardo Pérez-Marco   / rperezmarco  
-🔸 MODERA: Lunaticoin   / lunaticoin  
+🔸 BTCAndrés   / btcandres
+🔸 CSH2000   / cshdosmil
+🔸 Dev7ba   / dev7ba
+🔸 Gael Sánchez Smith   / gaelsansmith
+🔸 Juan Ignacio Ibáñez   / 22xtjuan
+🔸 Miguel Vidal   / mvidallopez
+🔸 Ricardo Pérez-Marco   / rperezmarco
+🔸 MODERA: Lunaticoin   / lunaticoin
 
 00:00: ⛏️ Ideas sobre la evolución de la minería desde la CPU hasta la GPU y su relevancia para los problemas actuales.
 06:01: 📈 Cambiando la percepción de Bitcoin: Evolución y Debate
@@ -377,7 +377,7 @@ Sexto y último panel de la jornada del sábado 7 de Octubre de Watch Out, Bitco
 
 Sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
@@ -396,7 +396,7 @@ Comenzamos a subir las charlas del evento en vídeos individuales: la charla con
 
 Filmación correspondiente al viernes 6 de octubre en las sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
@@ -414,7 +414,7 @@ Segunda charla de la jornada del viernes de WOB23 a cargo de Víctor Gil. En est
 
 Filmación correspondiente al viernes 6 de octubre en las sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
@@ -431,7 +431,7 @@ Tercera charla de la jornada del viernes de WOB23 a cargo de Dulce Villarreal. E
 
 Filmación correspondiente al viernes 6 de octubre en las sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
@@ -449,13 +449,13 @@ Cuarta charla de la jornada del viernes de WOB23 a cargo de @BTCAndres centrada 
 
 Filmación correspondiente al viernes 6 de octubre en las sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
 - 💵 FIAT: https://watchoutfreedom.com/donate/
 
-## Incrementa tu seguridad con DTails y SeedSigner por Desobediente Tecnológico (nivel medio/avanzado) 
+## Incrementa tu seguridad con DTails y SeedSigner por Desobediente Tecnológico (nivel medio/avanzado)
 
 ![video](https://youtu.be/rpHewsyjiJs?si=LIH0Ju-UyklMNEcC)
 
@@ -466,9 +466,8 @@ Quinta y última charla de la jornada. Taller, con una parte teórica y una part
 
 Filmación correspondiente al viernes 6 de octubre en las sesiones organizadas por @watchoutfreedom  y Decentralized_b (  / decentralized_b  )
 
-El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom   
+El contenido se puede compartir y reutilizar citando siempre la fuente original del video y el nombre de Watch Out, Bitcoin! en las redes donde se utilice. Las charlas individuales se publicarán progresivamente en este canal y puedes ver las retransmisiones en streaming en el canal de Watch Out, Freedom! @watchoutfreedom
 
 Somos una asociación sin animo de lucro y si te gusta el contenido y quieres ayudarnos a conseguir retransmitir eventos similares puedes ayudarnos asociándote a Watch Out, Freedom! o donando en los siguientes enlaces:
 - ⚡️ Bitcoin: https://tinyurl.com/y8uhtkbr
 - 💵 FIAT: https://watchoutfreedom.com/donate/
-

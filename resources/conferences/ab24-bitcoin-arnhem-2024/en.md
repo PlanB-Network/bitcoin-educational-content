@@ -13,29 +13,26 @@ description: Adopting Bitcoin Arnhem conference to celebrate the 10 year anniver
 
 ![video](https://youtu.be/hmfFEvXYKQo)
 
-## The Goal of Bitcoin | Panel Discussion
+## Pockets of wasted energy | Janet Maingi
 
-![video](https://youtu.be/a__1pOiVRro)
+![video](https://youtu.be/CXLMtQkjYHQ)
 
 ## The Story of Bitcoin Ekasi | Hermann Vivier
 
 ![video](https://youtu.be/kW5O0kyHwd0)
 
-## Pockets of wasted energy | Janet Maingi
 
-![video](https://youtu.be/CXLMtQkjYHQ)
-
-## Fiat the system vs Bitcoin the tool | Rigel Walshe
-
-![video](https://youtu.be/JrIm_jA6hqA)
-
-## Bitcoin and Weaponisation | Bota Jardemailie
+## Bitcoin and Weaponisation of Banking | Bota Jardemailie
 
 ![video](https://youtu.be/9NMDfhkoLKE)
 
-## How To Secure Your Seed Phrase | Ruben Middelhoven
+## AML Regulations and Financial Freedom | Panel Discussion
 
-![video](https://youtu.be/gBOhlfa7EX8)
+![video](https://youtu.be/XPVYOVo_cXM)
+
+## The Block Size War | Aaron van Wirdum
+
+![video](https://youtu.be/8HcmSYCfuQQ)
 
 ## Living On A Bitcoin Standard | Ben de Waal
 
@@ -45,31 +42,20 @@ description: Adopting Bitcoin Arnhem conference to celebrate the 10 year anniver
 
 ![video](https://youtu.be/UBItdSfSpGQ)
 
-## Setting up a Circular Bitcoin Economy | Hermann Vivier, Gerardo Linares
-
-![video](https://youtu.be/TKuYQHenhD8)
-
-## AML Regulations and Financial Freedom | Panel Discussion
-
-![video](https://youtu.be/XPVYOVo_cXM)
 
 ## The Biggest Secret Worldwide Bank Fraud Revealed | Hester Bais
 
 ![video](https://youtu.be/kWcldz3C3SU)
 
+## Fiat the system vs Bitcoin the tool | Rigel Walshe
+
+![video](https://youtu.be/JrIm_jA6hqA)
+
+## The Goal of Bitcoin | Panel Discussion
+
+![video](https://youtu.be/a__1pOiVRro)
+
 # Arnhem Stage
-
-## Professional Cannabis Farmer And Bitcoin Advocate | Eric V Stacks
-
-![video](https://youtu.be/SC_bYcNIUQU)
-
-## Exploring The Multi-faced World Of Bitcoin Mining | Fireside-chat
-
-![video](https://youtu.be/qGTz8V7SubA)
-
-## The Evolution Of Non-custodial & Custodial Solutions And Their Global Impact | Panel Discussion
-
-![video](https://youtu.be/IkHSDDJp3ig)
 
 ## Designing Bitcoin: Crafting User Experiences For Global Adoption | Panel Discussion
 
@@ -79,10 +65,26 @@ description: Adopting Bitcoin Arnhem conference to celebrate the 10 year anniver
 
 ![video](https://youtu.be/KqT8UeD27DM)
 
+## Non-custodial & Custodial Solutions And Their Global Impact | Panel Discussion
+
+![video](https://youtu.be/IkHSDDJp3ig)
+
 ## Bitcoin Education For The Next Generation | Sam de Waal & Arnold Hubach
 
 ![video](https://youtu.be/QhhLLJvrJz8)
 
-## The Block Size War | Aaron van Wirdum
+## Setting up a Circular Bitcoin Economy | Hermann Vivier, Gerardo Linares
 
-![video](https://youtu.be/8HcmSYCfuQQ)
+![video](https://youtu.be/TKuYQHenhD8)
+
+## How To Secure Your Seed Phrase | Ruben Middelhoven
+
+![video](https://youtu.be/gBOhlfa7EX8)
+
+## Exploring The Multi-faced World Of Bitcoin Mining | Fireside-chat
+
+![video](https://youtu.be/qGTz8V7SubA)
+
+## Professional Cannabis Farmer And Bitcoin Advocate | Eric V Stacks
+
+![video](https://youtu.be/SC_bYcNIUQU)

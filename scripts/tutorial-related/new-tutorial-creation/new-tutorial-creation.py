@@ -11,7 +11,6 @@ from tkinter import messagebox, filedialog
 root = ctk.CTk()
 root.title("Tutorial Creation")
 
-# Variables Tkinter
 base_path_var = ctk.StringVar(root)
 language_option_var = ctk.IntVar(root, value=1)
 language_var = ctk.StringVar(root)
@@ -21,7 +20,6 @@ level_var = ctk.StringVar(root)
 tutorial_name_var = ctk.StringVar(root)
 builder_search_var = ctk.StringVar(root)
 project_id_var = ctk.StringVar(root)
-# Pour les tags, on utilise une variable par zone de saisie
 tag1_var = ctk.StringVar(root)
 tag2_var = ctk.StringVar(root)
 tag3_var = ctk.StringVar(root)
@@ -117,7 +115,6 @@ def update_categories(*args):
     category_menu.configure(values=categories)
     category_var.set(categories[0] if categories else "")
 
-# --- Gestion des projets (fonctionne parfaitement) ---
 
 builders_mapping = {}
 
@@ -137,8 +134,6 @@ def on_builder_selected(selected_name):
     if selected_name in builders_mapping:
         project_id_var.set(builders_mapping[selected_name])
         builder_search_var.set(selected_name)
-
-# --- Gestion des tags (mêmes mécanismes que pour les projets) ---
 
 def update_tag1_suggestions(event=None):
     text = tag1_var.get().lower()
@@ -181,8 +176,6 @@ def on_tag2_selected(selected_tag):
 
 def on_tag3_selected(selected_tag):
     tag3_var.set(selected_tag)
-
-# --- Création du tutoriel ---
 
 def create_tutorial():
     base = base_path_var.get()
@@ -245,12 +238,13 @@ def create_tutorial():
     if not level_value:
         messagebox.showerror("Error", "Please select the tutorial's difficulty level.")
         return
+
     tags = []
     for tag in [tag1_var.get().strip(), tag2_var.get().strip(), tag3_var.get().strip()]:
         if tag:
             tags.append(tag)
-    if not tags:
-        messagebox.showerror("Error", "Please enter at least one tag for the tutorial.")
+    if len(tags) < 2:
+        messagebox.showerror("Error", "Please enter at least two tags for the tutorial.")
         return
     if len(set(tags)) != len(tags):
         messagebox.showerror("Error", "Duplicate tags detected. Please ensure all tags are unique.")
@@ -260,6 +254,7 @@ def create_tutorial():
         if tag not in all_allowed:
             messagebox.showerror("Error", f"Tag '{tag}' is not valid. Please select a valid tag from the suggestions.")
             return
+
     category_value = category_var.get()
     if not category_value:
         messagebox.showerror("Error", "Please select the subcategory.")
@@ -272,7 +267,9 @@ def create_tutorial():
     if not professor_id:
         messagebox.showerror("Error", "Please enter the PBN professor's ID.")
         return
+
     save_settings()
+
     try:
         tutorial_path = os.path.join(base, section_name, tutorial_name)
         os.makedirs(tutorial_path, exist_ok=True)
@@ -515,7 +512,7 @@ other_language_options = [f"{code} ({other_language_codes[code]})" for code in s
 
 settings = load_settings()
 
-# --- Interface graphique ---
+# --- GUI ---
 
 # Ligne 0 : Chemin local
 ctk.CTkLabel(root, text="Local path to /tutorials:").grid(row=0, column=0, sticky="w", padx=10, pady=5)
@@ -611,7 +608,6 @@ tag2_suggestions_menu.grid(row=0, column=1, padx=(0, gap_width), sticky="w")
 tag3_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=on_tag3_selected, width=tag_suggestion_field_width)
 tag3_suggestions_menu.grid(row=0, column=2, sticky="w")
 
-# Pour permettre l'ouverture immédiate de la liste (même sans saisie), on met à jour les suggestions dès l'affichage
 update_tag1_suggestions()
 update_tag2_suggestions()
 update_tag3_suggestions()

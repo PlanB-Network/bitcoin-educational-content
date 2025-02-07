@@ -20,7 +20,7 @@ Rendez-vous sur [le site officiel de Bitfinex](https://www.bitfinex.com/). Sur l
 
 01
 
-Complétez les informations requises : indiquez votre adresse e-mail professionnelle et le pays de résidence de votre entreprise. Choisissez un nom d'utilisateur et un mot de passe sécurisé, puis cliquez sur "Sign up" pour confirmer l'inscription.
+Complétez les informations requises : indiquez votre adresse email professionnelle et le pays de résidence de votre entreprise. Choisissez un nom d'utilisateur et un mot de passe sécurisé, puis cliquez sur "Sign up" pour confirmer l'inscription.
 
 02
 
@@ -66,7 +66,7 @@ Sous "Account Type", choisissez "Corporate". Dans mon cas, je procède à la mis
 
 Complétez les étapes en fournissant :
 - Les informations de l’entreprise (dénomination sociale, coordonnées, secteur d’activité...) ;
-- Les documents légaux (statuts, extrait Kbis, liste des administrateurs et actionnaires) ;
+- Les documents légaux (statuts, extrait Kbis, liste des administrateurs et des actionnaires) ;
 - Les informations de KYC pour chaque bénéficiaire effectif ou administrateur (pièces d’identité, justificatifs de domicile...).
 
 Une fois votre dossier complété et envoyé, il peut s'écouler plusieurs jours avant que la plateforme valide le tout pour une vérification d'entreprise. Durant cette période, les dépôts seront temporairement bloqués.
@@ -180,7 +180,7 @@ Vous pouvez consulter l’historique de vos ordres exécutés dans la partie inf
 
 ## 7 - Export des historiques de transactions et comptabilité
 
-Pour la gestion comptable, vous aurez besoin d’exporter les détails de vos opérations (achats, ventes, dépôts, retraits). Bitfinex propose un outil de reporting assez complet. Cliquez sur l'icone de votre profil en haut à droite de l'interface, puis sur le menu "Reports".
+Pour la gestion comptable, vous aurez besoin d’exporter les détails de vos opérations (achats, ventes, dépôts, retraits). Bitfinex propose un outil de reporting assez complet. Cliquez sur l'icône de votre profil en haut à droite de l'interface, puis sur le menu "Reports".
 
 29
 

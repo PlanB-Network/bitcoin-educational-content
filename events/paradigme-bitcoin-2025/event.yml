@@ -1,0 +1,24 @@
+start_date: 2025-07-03 08:00:00
+end_date: 2025-07-04 16:00:00
+address_line_1: Neuchatel, Switzerland
+address_line_2:
+address_line_3:
+name: Paradigme Bitcoin 2025
+builder: Paradigme Bitcoin
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: L'évènement Bitcoin suisse de l'été 2025!
+language:
+  - en
+  - fr
+links:
+  website: https://leparadigmebitcoin.ch/
+  replay_url:
+  live_url:
+tags:
+  - adoption
+  - regulation
+
+project_id: 07d04d89-f2f4-4326-ad29-9617c2596077

@@ -82,7 +82,6 @@ def load_allowed_tags():
     return tags
 
 def load_all_builders():
-    """Charge la liste des projets depuis le dossier resources/projects"""
     builders = {}
     base = base_path_var.get()
     if not base:
@@ -325,22 +324,25 @@ description:
         messagebox.showerror("Error", f"An error occurred: {e}")
 
 def clear_fields():
-    base_path_var.set("")
-    language_option_var.set(1)
-    update_language_options()
-    language_var.set("")
-    section_var.set("")
-    category_var.set("")
-    level_var.set("")
-    tutorial_name_var.set("")
-    builder_search_var.set("")
-    builder_suggestions_menu.set("")
-    project_id_var.set("")
-    tag1_var.set("")
-    tag2_var.set("")
-    tag3_var.set("")
-    contributor_id_var.set("")
-    professor_id_var.set("")
+    answer = messagebox.askyesno("Confirmation", "Are you sure you want to erase all data?")
+    if answer:
+        base_path_var.set("")
+        language_option_var.set(1)
+        update_language_options()
+        language_var.set("")
+        section_var.set("")
+        category_var.set("")
+        level_var.set("")
+        tutorial_name_var.set("")
+        builder_search_var.set("")
+        builder_suggestions_menu.set("")
+        project_id_var.set("")
+        tag1_var.set("")
+        tag2_var.set("")
+        tag3_var.set("")
+        contributor_id_var.set("")
+        professor_id_var.set("")
+
 
 def update_language_options():
     if language_option_var.get() == 1:

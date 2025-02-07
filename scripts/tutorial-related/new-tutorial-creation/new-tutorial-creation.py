@@ -76,14 +76,14 @@ def load_all_builders():
     if not base_path:
         return builders
     parent_dir = os.path.dirname(base_path)
-    builders_dir = os.path.join(parent_dir, "resources", "builders")
+    builders_dir = os.path.join(parent_dir, "resources", "projects")
     if not os.path.exists(builders_dir):
         return builders
 
     for d in os.listdir(builders_dir):
         sub_dir = os.path.join(builders_dir, d)
         if os.path.isdir(sub_dir):
-            builder_file = os.path.join(sub_dir, "builder.yml")
+            builder_file = os.path.join(sub_dir, "project.yml")
             if os.path.exists(builder_file):
                 with open(builder_file, "r", encoding="utf-8") as bf:
                     lines = bf.readlines()
@@ -153,7 +153,7 @@ def create_tutorial():
         return
 
     parent_dir = os.path.dirname(base_path)
-    builders_dir = os.path.join(parent_dir, "resources", "builders")
+    builders_dir = os.path.join(parent_dir, "resources", "projects")
     if not os.path.exists(builders_dir):
         messagebox.showerror("Error", f"The builders directory does not exist at:\n{builders_dir}")
         return
@@ -163,7 +163,7 @@ def create_tutorial():
     for d in os.listdir(builders_dir):
         sub_dir = os.path.join(builders_dir, d)
         if os.path.isdir(sub_dir):
-            builder_file = os.path.join(sub_dir, "builder.yml")
+            builder_file = os.path.join(sub_dir, "project.yml")
             if os.path.exists(builder_file):
                 with open(builder_file, "r", encoding="utf-8") as bf:
                     lines = bf.readlines()

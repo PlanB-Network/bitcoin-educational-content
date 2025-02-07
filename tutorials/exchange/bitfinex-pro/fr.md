@@ -18,11 +18,11 @@ https://planb.network/courses/biz101
 
 Rendez-vous sur [le site officiel de Bitfinex](https://www.bitfinex.com/). Sur la page d'accueil, trouvez et cliquez sur l'option "*Sign Up*" pour commencer la création de votre compte. Au début, vous allez créer un compte standard comme pour les particuliers, l'option "*Corporate*" sera sélectionnée plus tard durant le processus de vérification.
 
-01
+![BITFINEX](assets/fr/01.webp)
 
 Complétez les informations requises : indiquez votre adresse email professionnelle et le pays de résidence de votre entreprise. Choisissez un nom d'utilisateur et un mot de passe sécurisé, puis cliquez sur "*Sign up*" pour confirmer l'inscription.
 
-02
+![BITFINEX](assets/fr/02.webp)
 
 Pour des conseils sur l'utilisation et la sauvegarde de mots de passe forts et uniques, consultez également ce tutoriel :
 
@@ -34,19 +34,19 @@ https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49
 
 Scannez le QR code avec votre application et entrez les 6 chiffres fournis.
 
-03
+![BITFINEX](assets/fr/03.webp)
 
 L'inscription a bien été réalisée.
 
-04
+![BITFINEX](assets/fr/04.webp)
 
 Vérifiez votre boîte mail et cliquez sur le lien envoyé par Bitfinex pour confirmer votre inscription.
 
-05
+![BITFINEX](assets/fr/05.webp)
 
 Votre compte est désormais créé. Cliquez sur "*Log in*" pour accéder à la plateforme.
 
-06
+![BITFINEX](assets/fr/06.webp)
 
 ## 2 - Vérification du compte entreprise
 
@@ -54,15 +54,15 @@ Bitfinex applique un processus de vérification (KYC) conforme aux réglementati
 
 Une fois votre compte créé, une fenêtre pop-up devrait vous suggérer de vérifier votre compte. Cliquez sur "*Verify*".
 
-07
+![BITFINEX](assets/fr/07.webp)
 
 Si cette fenêtre n'apparaît pas, accédez à votre profil situé en haut à droite de l'interface, puis cliquez sur "*Verification*".
 
-08
+![BITFINEX](assets/fr/08.webp)
 
 Sous "*Account Type*", choisissez "*Corporate*". Dans mon cas, je procède à la mise à niveau vers "*Intermediate*", donc je sélectionne "*Upgrade to Intermediate*".
 
-09
+![BITFINEX](assets/fr/09.webp)
 
 Complétez les étapes en fournissant :
 - Les informations de l’entreprise (dénomination sociale, coordonnées, secteur d’activité...) ;
@@ -71,7 +71,7 @@ Complétez les étapes en fournissant :
 
 Une fois votre dossier complété et envoyé, il peut s'écouler plusieurs jours avant que la plateforme valide le tout pour une vérification d'entreprise. Durant cette période, les dépôts seront temporairement bloqués.
 
-10
+![BITFINEX](assets/fr/10.webp)
 
 ## 3 - Présentation rapide de l’interface Bitfinex
 
@@ -84,7 +84,7 @@ Une fois connecté, vous verrez une barre de navigation en haut de l'interface a
 
 Pour un usage standard (achat/vente de bitcoins, dépôts/retraits et gestion de trésorerie), vous utiliserez principalement l’onglet "*Trading*" ainsi que les sections "*Wallet*", "*Deposit*" et "*Withdraw*".
 
-11
+![BITFINEX](assets/fr/11.webp)
 
 L’un des avantages de la formule Corporate est aussi la possibilité de créer des sous-comptes. Vous pouvez ainsi donner à plusieurs utilisateurs l’accès à ces sous-comptes, chacun avec des droits spécifiques (lecture seule, trading, dépôt uniquement, etc.).
 
@@ -92,33 +92,33 @@ L’un des avantages de la formule Corporate est aussi la possibilité de créer
 
 Pour déposer des euros sur votre compte Bitfinex Corporate, accédez au sous-menu "*Deposit*" situé dans le menu "*Wallet*" en haut de l'interface.
 
-12
+![BITFINEX](assets/fr/12.webp)
 
 Sélectionnez "*Bank transfer*" ou "*Credit/Debit Card*" pour effectuer un dépôt en euros (ou toute autre monnaie fiat).
 
-13
+![BITFINEX](assets/fr/13.webp)
 
 Choisissez la monnaie fiat à envoyer, par exemple l'euro. Si vous utilisez seulement les fonctionnalités de base du "*Trading*", cliquez sur "*Exchange*". Indiquez également le montant que vous souhaitez déposer et le pays de la banque de votre compte professionnel.
 
-14
+![BITFINEX](assets/fr/14.webp)
 
 Effectuez un virement depuis votre compte bancaire professionnel vers le compte bancaire indiqué par Bitfinex.
 
 Pour retirer des fonds, la procédure est similaire : rendez-vous dans le sous-menu "*Withdraw*".
 
-15
+![BITFINEX](assets/fr/15.webp)
 
 Cliquez sur "*Bank transfer*".
 
-16
+![BITFINEX](assets/fr/16.webp)
 
 Sélectionnez la monnaie fiat que vous souhaitez retirer, le compte à débiter chez Bitfinex ("*Exchange*" si vous n'utilisez que les fonctionnalités de base) et le montant à retirer.
 
-17
+![BITFINEX](assets/fr/17.webp)
 
 Bitfinex peut exiger une validation de votre compte bancaire avant d'accepter le virement, pour des raisons de conformité.
 
-18
+![BITFINEX](assets/fr/18.webp)
 
 Une fois la procédure initiée, Bitfinex transférera les fonds vers votre compte bancaire.
 
@@ -126,33 +126,33 @@ Une fois la procédure initiée, Bitfinex transférera les fonds vers votre comp
 
 Pour déposer du bitcoin sur Bitfinex, accédez au sous-menu "*Deposit*".
 
-19
+![BITFINEX](assets/fr/19.webp)
 
 Cliquez sur "*Cryptocurrency*".
 
-13
+![BITFINEX](assets/fr/13.webp)
 
 Choisissez "*BTC*". Une adresse de réception apparaîtra. Copiez cette adresse et utilisez-la depuis votre portefeuille en self-custody ou une autre plateforme pour envoyer vos BTC.
 
-20
+![BITFINEX](assets/fr/20.webp)
 
 Pour retirer du bitcoin, rendez-vous dans le sous-menu "*Withdraw*".
 
-21
+![BITFINEX](assets/fr/21.webp)
 
 Cliquez sur "*Cryptocurrency*".
 
-22
+![BITFINEX](assets/fr/22.webp)
 
 Sélectionnez "*BTC*". Choisissez le compte Bitfinex à débiter pour votre retrait ("*Exchange*" pour les fonctionnalités de base). Entrez le montant et l'adresse de destination des bitcoins. Assurez-vous de vérifier l'adresse de retrait pour prévenir toute erreur.
 
-23
+![BITFINEX](assets/fr/23.webp)
 
 Suite à votre confirmation, vos bitcoins seront transférés. Notez que les frais et les délais peuvent varier selon la congestion des mempools.
 
 Bitfinex offre aussi des options de dépôt et de retrait via le Lightning Network, ce qui permet des transactions plus rapides et moins onéreuses.
 
-24
+![BITFINEX](assets/fr/24.webp)
 
 Si le Lightning Network vous intéresse, nous avons également une formation complète pour comprendre son fonctionnement :
 
@@ -164,45 +164,45 @@ Bitfinex propose différents modes de trading. Pour une utilisation simple, opte
 
 Dans le menu supérieur, cliquez sur "*Trading*".
 
-25
+![BITFINEX](assets/fr/25.webp)
 
 Sélectionnez la paire "*BTC/EUR*" si vous désirez acheter ou vendre des BTC en échange d'euros, par exemple.
 
-26
+![BITFINEX](assets/fr/26.webp)
 
 L'interface affiche au centre un graphique du cours, l'order book en bas, et le module de saisie d'ordre à gauche. Dans la section de saisie, vous avez le choix entre un ordre "*Market*" (exécuté immédiatement au meilleur prix disponible) ou "*Limit*" (vous définissez le prix). Indiquez la quantité de BTC à acheter ou à vendre, ou sélectionnez un pourcentage de votre solde. Cliquez ensuite sur "*Buy*" pour acheter ou sur "*Sell*" pour vendre.
 
-27
+![BITFINEX](assets/fr/27.webp)
 
 Vous pouvez consulter l’historique de vos ordres exécutés dans la partie inférieure de l’interface.
 
-28
+![BITFINEX](assets/fr/28.webp)
 
 ## 7 - Export des historiques de transactions et comptabilité
 
 Pour la gestion comptable, vous aurez besoin d’exporter les détails de vos opérations (achats, ventes, dépôts, retraits). Bitfinex propose un outil de reporting assez complet. Cliquez sur l'icône de votre profil en haut à droite de l'interface, puis sur le menu "*Reports*".
 
-29
+![BITFINEX](assets/fr/29.webp)
 
 Sur la gauche, vous pouvez sélectionner le type de données à exporter. Par exemple, en sélectionnant "*Trades*", vous aurez accès à tous vos échanges.
 
-30
+![BITFINEX](assets/fr/30.webp)
 
 Définissez la période souhaitée dans la case "*Date*" et, si nécessaire, restreignez votre recherche à une ou plusieurs paires spécifiques via le champ "*Symbol*".
 
-31
+![BITFINEX](assets/fr/31.webp)
 
 Pour exporter ces données, cliquez sur le bouton "*Export*".
 
-32
+![BITFINEX](assets/fr/32.webp)
 
 Vérifiez les paramètres puis confirmez l'exportation.
 
-33
+![BITFINEX](assets/fr/33.webp)
 
 Le rapport vous sera envoyé par email à l’adresse associée à votre compte Bitfinex, sous forme de fichier CSV.
 
-34
+![BITFINEX](assets/fr/34.webp)
 
 Une fois le fichier exporté, vous pourrez l’intégrer dans votre logiciel de comptabilité ou l’envoyer à votre expert-comptable.
 

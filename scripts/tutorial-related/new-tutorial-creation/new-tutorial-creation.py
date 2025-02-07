@@ -509,13 +509,13 @@ ctk.CTkLabel(root, text="Folder name:").grid(row=6, column=0, sticky='w', padx=1
 ctk.CTkEntry(root, textvariable=tutorial_name_var, width=300).grid(row=6, column=1, columnspan=2, sticky='w', padx=10, pady=5)
 
 # --- Ligne 7 : Builder Name (avec texte indicatif) ---
-ctk.CTkLabel(root, text="Builder Name:").grid(row=7, column=0, sticky='w', padx=10, pady=5)
-builder_search_entry = ctk.CTkEntry(root, textvariable=builder_search_var, width=300, placeholder_text="Find the builder ID")
+ctk.CTkLabel(root, text="Project Name:").grid(row=7, column=0, sticky='w', padx=10, pady=5)
+builder_search_entry = ctk.CTkEntry(root, textvariable=builder_search_var, width=300, placeholder_text="Find the project ID")
 builder_search_entry.grid(row=7, column=1, columnspan=2, sticky='w', padx=10, pady=5)
 builder_search_entry.bind("<KeyRelease>", update_builder_suggestions)
 
 # --- Ligne 8 : Suggestions de builder ---
-ctk.CTkLabel(root, text="Builder Suggestions:").grid(row=8, column=0, sticky='w', padx=10, pady=5)
+ctk.CTkLabel(root, text="Project Suggestions:").grid(row=8, column=0, sticky='w', padx=10, pady=5)
 builder_suggestions_menu = ctk.CTkOptionMenu(root, values=[], command=on_builder_selected, width=300)
 builder_suggestions_menu.grid(row=8, column=1, columnspan=2, sticky='w', padx=10, pady=5)
 

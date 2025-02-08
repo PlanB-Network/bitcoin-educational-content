@@ -1,0 +1,26 @@
+id: 938abf16-e10a-4618-860d-cd771373a262
+
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
+tags:
+  - hardware
+  - wallets
+  - guides
+
+category: hardware
+
+level: advanced
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-02-08
+    urgency:
+    contributors_id:
+      - LoicPandul
+    reward:

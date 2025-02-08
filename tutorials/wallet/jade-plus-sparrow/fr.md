@@ -10,7 +10,7 @@ Le Jade Plus peut être utilisé de plusieurs manières : via une connexion fila
 
 Il est disponible à partir de $149,99 en version noire de base, et le prix peut augmenter de jusqu'à $20 pour les versions "*Genesis Grey*" ou "*Lunar Silver*". Le Jade Plus se positionne donc comme un choix intéressant, avec des fonctionnalités avancées comparables à celles des hardware wallets haut de gamme tels que le Coldcard Q ou le Passport V2, mais à un tarif assez bas, proche des modèles de milieu de gamme.
 
-![JADE-PLUS-GREEN](assets/fr/01.webp)
+![JADE-PLUS-SPARROW](assets/fr/01.webp)
 
 Le Jade Plus est compatible avec la majorité des logiciels de gestion de portefeuille. Voici un récapitulatif des compatibilités au moment de la rédaction de ce tutoriel (janvier 2025) :
 
@@ -44,7 +44,7 @@ L'inconvénient de ce système est que l'utilisation du Jade Plus dépend de l'o
 
 Lors de la réception de votre Jade Plus, vérifiez que la boite et le sceau sont en bon état afin d'être sûr que votre paquet n'a pas été ouvert.
 
-![JADE-PLUS-GREEN](assets/fr/02.webp)
+![JADE-PLUS-SPARROW](assets/fr/02.webp)
 
 Dans la boite, vous trouverez :
 - Le Jade Plus ;
@@ -54,7 +54,7 @@ Dans la boite, vous trouverez :
 - Un cordon ;
 - Quelques autocollants.
 
-![JADE-PLUS-GREEN](assets/fr/03.webp)
+![JADE-PLUS-SPARROW](assets/fr/03.webp)
 
 L'appareil dispose de 4 boutons de navigation :
 - Le bouton en bas à droite permet d'allumer le Jade ;
@@ -62,14 +62,14 @@ L'appareil dispose de 4 boutons de navigation :
 - Les deux petits boutons sur le haut permettent de naviguer à droite ou à gauche ;
 - Vous pouvez également sélectionner un élément en cliquant simultanément sur les deux boutons en haut de l'appareil.
 
-![JADE-PLUS-GREEN](assets/fr/04.webp)
+![JADE-PLUS-SPARROW](assets/fr/04.webp)
 
 ## Configuration d'un nouveau portefeuille Bitcoin
 
 Cliquez sur le bouton de démarrage.
 
-![JADE-PLUS-GREEN](assets/fr/05.webp)
+![JADE-PLUS-SPARROW](assets/fr/05.webp)
 
 Cliquez sur "*Setup Jade*".
 
-![JADE-PLUS-GREEN](assets/fr/06.webp)
+![JADE-PLUS-SPARROW](assets/fr/06.webp)

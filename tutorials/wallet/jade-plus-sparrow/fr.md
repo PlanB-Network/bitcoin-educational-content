@@ -234,7 +234,7 @@ Votre portefeuille est maintenant créé, vous pouvez passer aux étapes suivant
 
 23
 
-À chaque démarrage, cliquez sur le bouton "Scan SeedQR".
+À chaque démarrage, cliquez sur le bouton "QR Mode" puis "Scan SeedQR".
 
 24
 

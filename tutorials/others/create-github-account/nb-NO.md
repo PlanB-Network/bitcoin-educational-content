@@ -22,7 +22,7 @@ Opprinnelig var Git primært designet for programvareutviklingsprosjekter. Imidl
 ## Hva er GitHub?
 
 GitHub er en plattform for håndtering og hosting av kildekode basert på Git-versjonskontrollsystemet vi nettopp diskuterte. Lansert i 2008, fikk GitHub raskt popularitet og har blitt en essensiell referanse for utviklere over hele verden. Men hvordan skiller GitHub seg fra Git, og hvorfor er det så avgjørende i vår metode for produksjon av innhold?
-![github](assets/2.webp)
+![github-](assets/2.webp)
 Først er det viktig å forstå at GitHub er bygget på Git (som vi diskuterte i forrige avsnitt). Mens Git er verktøyet som sporer kodeendringer, er GitHub den nettbaserte tjenesten som hoster, deler og håndterer denne koden.
 
 Tenk på Git som en slags loggbok som hver utvikler bruker på sin egen datamaskin for å registrere alle endringene i prosjektet sitt. GitHub, derimot, er som et offentlig bibliotek hvor alle disse loggbøkene kan deles, sammenlignes og kombineres.

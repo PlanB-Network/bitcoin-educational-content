@@ -22,7 +22,7 @@ Ban đầu, Git chủ yếu được thiết kế cho các dự án phát triể
 ## GitHub là gì?
 
 GitHub là một nền tảng quản lý và lưu trữ mã nguồn dựa trên hệ thống quản lý phiên bản Git mà chúng ta vừa thảo luận. Ra mắt vào năm 2008, GitHub nhanh chóng trở nên phổ biến và đã trở thành một điểm tham chiếu thiết yếu cho các nhà phát triển trên toàn thế giới. Nhưng GitHub khác biệt với Git như thế nào, và tại sao nó lại quan trọng đối với phương pháp sản xuất nội dung của chúng ta?
-![github](assets/2.webp)
+![github-](assets/2.webp)
 Đầu tiên, quan trọng là phải hiểu rằng GitHub được xây dựng dựa trên Git (mà chúng ta đã thảo luận trong phần trước). Trong khi Git là công cụ theo dõi các thay đổi mã, GitHub là dịch vụ trực tuyến lưu trữ, chia sẻ và quản lý mã này.
 
 Hãy tưởng tượng Git như một loại sổ tay mà mỗi nhà phát triển sử dụng trên máy tính của riêng họ để ghi lại tất cả các thay đổi trong dự án của họ. GitHub, ngược lại, giống như một thư viện công cộng nơi tất cả những sổ tay này có thể được chia sẻ, so sánh và kết hợp.

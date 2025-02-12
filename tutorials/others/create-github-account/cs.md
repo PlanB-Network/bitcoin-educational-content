@@ -66,7 +66,7 @@ Pokud chcete přispět do sítě PlanB, budete potřebovat účet na GitHubu. V 
 - Zadejte svou e-mailovou adresu, poté klikněte na zelené tlačítko `Continue`:
 ![github](assets/1.webp)
 - Vyberte silné heslo, poté klikněte na zelené tlačítko `Continue`:
-![github](assets/2.webp)
+![github-](assets/2.webp)
 - Dále si vyberte své uživatelské jméno. Můžete odhalit svou skutečnou identitu nebo použít pseudonym. Poté klikněte na zelené tlačítko `Continue`:
 ![github](assets/3.webp)
 - Dokončete Captcha:

@@ -22,7 +22,7 @@ Inizialmente, Git era principalmente progettato per progetti di sviluppo softwar
 ## Cos'è GitHub?
 
 GitHub è una piattaforma di gestione e hosting del codice sorgente basata sul sistema di controllo versione Git di cui abbiamo appena discusso. Lanciato nel 2008, GitHub ha rapidamente guadagnato popolarità ed è diventato un punto di riferimento essenziale per gli sviluppatori in tutto il mondo. Ma in che modo GitHub si differenzia da Git e perché è così cruciale nel nostro metodo di produzione dei contenuti?
-![github](assets/2.webp)
+![github-](assets/2.webp)
 Prima di tutto, è importante capire che GitHub è costruito su Git (di cui abbiamo discusso nella sezione precedente). Mentre Git è lo strumento che traccia le modifiche del codice, GitHub è il servizio online che ospita, condivide e gestisce questo codice.
 
 Immagina Git come una sorta di registro che ogni sviluppatore utilizza sul proprio computer per registrare tutte le modifiche nel proprio progetto. GitHub, d'altra parte, è come una biblioteca pubblica dove tutti questi registri possono essere condivisi, confrontati e combinati.

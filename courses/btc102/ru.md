@@ -794,7 +794,7 @@ https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b
 
 Покупка без KYC между частными лицами: 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+https://planb.network/fr/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 

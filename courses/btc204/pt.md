@@ -1259,7 +1259,7 @@ Para uma opção mais simples, você pode experimentar [Peach](https://peachbitc
 Outra opção online é [HodlHodl](https://hodlhodl.com/), uma plataforma bem estabelecida que oferece boa liquidez, embora eu pessoalmente não a tenha testado.
 -> Descubra nosso tutorial sobre HodlHodl.
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+https://planb.network/fr/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 

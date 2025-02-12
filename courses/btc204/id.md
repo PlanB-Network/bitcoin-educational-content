@@ -1188,7 +1188,7 @@ Untuk opsi yang lebih sederhana, Anda dapat mencoba [Peach](https://peachbitcoin
 Opsi online lainnya adalah [HodlHodl](https://hodlhodl.com/), platform yang sudah terbentuk dengan baik yang menawarkan likuiditas yang baik, meskipun saya secara pribadi belum mencobanya.
 -> Temukan tutorial kami tentang HodlHodl.
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+https://planb.network/fr/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 

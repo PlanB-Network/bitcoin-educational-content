@@ -1401,7 +1401,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8e
 
 -> 了解我们的 HodlHodl 教程。
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+https://planb.network/fr/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 关于基于闪电网络的解决方案，您可以试试 [RoboSats](https://learn.robosats.com/) 和 [LNP2PBot](https://lnp2pbot.com/)。RoboSats 可通过网站访问，使用相对简单。LNP2PBot 则比较非典型，因为它是通过 Telegram 消息应用程序上的交换系统运行的。
 

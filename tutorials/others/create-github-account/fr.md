@@ -24,7 +24,7 @@ Initialement, Git est donc principalement pensé pour les projets de développem
 ## C'est quoi GitHub ?
 
 GitHub est une plateforme de gestion et d'hébergement de code source qui repose sur le système de contrôle de version Git dont nous venons de parler. Lancée en 2008, GitHub a rapidement gagné en popularité et est devenue une référence incontournable pour les développeurs du monde entier. Mais en quoi GitHub se distingue-t-il de Git et pourquoi est-il si essentiel dans notre méthode de production de contenu ?
-![github-](assets/2.webp)
+![github](assets/12.webp)
 Tout d'abord, il faut comprendre que GitHub repose sur Git (dont nous avons parlé dans la partie précédente). Alors que Git est l'outil qui permet de suivre les modifications du code, GitHub est le service en ligne qui permet d'héberger, de partager et de gérer ce code.
 
 Imaginez que Git est comme une sorte de carnet de bord que chaque développeur utilise sur son propre ordinateur pour enregistrer toutes les modifications de son projet. GitHub, quant à lui, est comme une bibliothèque publique où tous ces carnets de bord peuvent être partagés, comparés et combinés.
@@ -63,8 +63,6 @@ Sur Git et GitHub, vous rencontrerez des commandes et des fonctionnalités dont 
 
 Cette liste n'est évidemment pas exhaustive. Il existe de nombreux autres termes techniques spécifiques à Git et GitHub. Cependant, ceux mentionnés ici sont les principaux que vous rencontrerez fréquemment.
 
-Après avoir lu cet article, il est possible que certains aspects de Git et GitHub restent encore flous pour vous. Je vous encourage à commencer à utiliser ces outils par vous-même. La pratique est souvent le meilleur moyen pour comprendre le fonctionnement de la machine ! Et pour commencer, vous pouvez découvrir ces 2 autres tutoriels :
-
 ## Comment créer un compte GitHub
 
 Si vous désirez apporter votre pierre à l'édifice PlanB Network, vous allez avoir besoin d'un compte sur GitHub. Dans ce tutoriel, nous vous expliquons comment procéder étape par étape pour créer votre propre compte, le paramétrer et le sécuriser comme il faut.
@@ -73,7 +71,7 @@ Si vous désirez apporter votre pierre à l'édifice PlanB Network, vous allez a
 - Saisissez votre adresse email, puis cliquez sur le bouton vert `Continue` :
 ![github](assets/1.webp)
 - Choisissez un mot de passe fort, puis cliquez sur le bouton vert `Continue` :
-![github](assets/12.webp)
+![github](assets/2.webp)
 - Choisissez ensuite votre nom d'utilisateur. Vous pouvez révéler votre véritable identité, ou bien utiliser un pseudonyme. Puis, cliquez sur le bouton vert `Continue` :
 ![github](assets/3.webp)
 - Complétez le Captcha :

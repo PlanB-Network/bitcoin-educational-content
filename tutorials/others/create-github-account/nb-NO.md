@@ -22,7 +22,7 @@ Opprinnelig var Git primært designet for programvareutviklingsprosjekter. Imidl
 ## Hva er GitHub?
 
 GitHub er en plattform for håndtering og hosting av kildekode basert på Git-versjonskontrollsystemet vi nettopp diskuterte. Lansert i 2008, fikk GitHub raskt popularitet og har blitt en essensiell referanse for utviklere over hele verden. Men hvordan skiller GitHub seg fra Git, og hvorfor er det så avgjørende i vår metode for produksjon av innhold?
-![github-](assets/2.webp)
+![github-](assets/12.webp)
 Først er det viktig å forstå at GitHub er bygget på Git (som vi diskuterte i forrige avsnitt). Mens Git er verktøyet som sporer kodeendringer, er GitHub den nettbaserte tjenesten som hoster, deler og håndterer denne koden.
 
 Tenk på Git som en slags loggbok som hver utvikler bruker på sin egen datamaskin for å registrere alle endringene i prosjektet sitt. GitHub, derimot, er som et offentlig bibliotek hvor alle disse loggbøkene kan deles, sammenlignes og kombineres.
@@ -56,7 +56,6 @@ På Git og GitHub vil du støte på kommandoer og funksjoner hvis navn kan virke
 - **Issue:** Et verktøy for sporing av oppgaver og feil på GitHub. Issues lar deg rapportere problemer, foreslå forbedringer, eller diskutere nye funksjoner. Hver issue kan tildeles, merkes, og kommenteres på.
 
 Denne listen er åpenbart ikke uttømmende. Det finnes mange andre tekniske termer spesifikke for Git og GitHub. Imidlertid er de nevnt her de viktigste du vil ofte støte på.
-Etter å ha lest denne artikkelen, er det mulig at noen aspekter ved Git og GitHub fortsatt er uklare for deg. Jeg oppfordrer deg til å begynne å bruke disse verktøyene selv. Praksis er ofte den beste måten å forstå hvordan maskinen fungerer på! Og for å komme i gang, kan du utforske disse 2 andre veiledningene: **[Opprett din GitHub-konto](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
 
 ## Hvordan opprette en GitHub-konto
 
@@ -66,7 +65,7 @@ Hvis du ønsker å bidra til PlanB-nettverket, vil du trenge en GitHub-konto. I 
 - Skriv inn e-postadressen din, og klikk deretter på den grønne `Continue`-knappen:
 ![github](assets/1.webp)
 - Velg et sterkt passord, og klikk deretter på den grønne `Continue`-knappen:
-![github](assets/12.webp)
+![github](assets/2.webp)
 - Velg deretter brukernavnet ditt. Du kan avsløre din virkelige identitet, eller bruke et pseudonym. Deretter klikker du på den grønne `Continue`-knappen:
 ![github](assets/3.webp)
 - Fullfør Captcha:

@@ -22,7 +22,7 @@ Ban đầu, Git chủ yếu được thiết kế cho các dự án phát triể
 ## GitHub là gì?
 
 GitHub là một nền tảng quản lý và lưu trữ mã nguồn dựa trên hệ thống quản lý phiên bản Git mà chúng ta vừa thảo luận. Ra mắt vào năm 2008, GitHub nhanh chóng trở nên phổ biến và đã trở thành một điểm tham chiếu thiết yếu cho các nhà phát triển trên toàn thế giới. Nhưng GitHub khác biệt với Git như thế nào, và tại sao nó lại quan trọng đối với phương pháp sản xuất nội dung của chúng ta?
-![github-](assets/2.webp)
+![github-](assets/12.webp)
 Đầu tiên, quan trọng là phải hiểu rằng GitHub được xây dựng dựa trên Git (mà chúng ta đã thảo luận trong phần trước). Trong khi Git là công cụ theo dõi các thay đổi mã, GitHub là dịch vụ trực tuyến lưu trữ, chia sẻ và quản lý mã này.
 
 Hãy tưởng tượng Git như một loại sổ tay mà mỗi nhà phát triển sử dụng trên máy tính của riêng họ để ghi lại tất cả các thay đổi trong dự án của họ. GitHub, ngược lại, giống như một thư viện công cộng nơi tất cả những sổ tay này có thể được chia sẻ, so sánh và kết hợp.
@@ -57,7 +57,6 @@ Trên Git và GitHub, bạn sẽ gặp các lệnh và tính năng mà tên có 
 - **Issue:** Một công cụ để theo dõi nhiệm vụ và lỗi trên GitHub. Issues cho phép báo cáo vấn đề, đề xuất cải tiến, hoặc thảo luận về các tính năng mới. Mỗi issue có thể được gán, gắn nhãn, và bình luận.
 
 Danh sách này rõ ràng không phải là toàn diện. Có nhiều thuật ngữ kỹ thuật khác đặc thù cho Git và GitHub. Tuy nhiên, những thuật ngữ được đề cập ở đây là những thuật ngữ chính mà bạn sẽ thường xuyên gặp.
-Sau khi đọc bài viết này, có thể một số khía cạnh của Git và GitHub vẫn còn mơ hồ đối với bạn. Tôi khuyến khích bạn bắt đầu sử dụng chính những công cụ này. Thực hành thường là cách tốt nhất để hiểu cách máy móc hoạt động! Và để bắt đầu, bạn có thể khám phá 2 hướng dẫn khác sau đây:
 
 ## Cách tạo tài khoản GitHub
 
@@ -67,7 +66,7 @@ Nếu bạn muốn đóng góp cho Mạng lưới PlanB, bạn sẽ cần có m�
 - Nhập địa chỉ email của bạn, sau đó nhấn vào nút màu xanh `Continue`:
 ![github](assets/1.webp)
 - Chọn một mật khẩu mạnh, sau đó nhấn vào nút màu xanh `Continue`:
-![github](assets/12.webp)
+![github](assets/2.webp)
 - Tiếp theo, chọn tên người dùng của bạn. Bạn có thể tiết lộ danh tính thực của mình, hoặc sử dụng một bí danh. Sau đó, nhấn vào nút màu xanh `Continue`:
 ![github](assets/3.webp)
 - Hoàn thành Captcha:

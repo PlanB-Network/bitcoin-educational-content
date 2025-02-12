@@ -22,7 +22,7 @@ Inicialmente, o Git foi projetado principalmente para projetos de desenvolviment
 ## O que é GitHub?
 
 GitHub é uma plataforma de gerenciamento e hospedagem de código-fonte baseada no sistema de controle de versão Git que acabamos de discutir. Lançado em 2008, o GitHub rapidamente ganhou popularidade e se tornou uma referência essencial para desenvolvedores em todo o mundo. Mas como o GitHub difere do Git e por que é tão crucial no nosso método de produção de conteúdo?
-![github-](assets/2.webp)
+![github-](assets/12.webp)
 Primeiro, é importante entender que o GitHub é construído sobre o Git (que discutimos na seção anterior). Enquanto o Git é a ferramenta que rastreia as mudanças no código, o GitHub é o serviço online que hospeda, compartilha e gerencia esse código.
 
 Imagine o Git como uma espécie de diário que cada desenvolvedor usa no próprio computador para registrar todas as mudanças em seu projeto. O GitHub, por outro lado, é como uma biblioteca pública onde todos esses diários podem ser compartilhados, comparados e combinados.
@@ -56,7 +56,6 @@ No Git e GitHub, você encontrará comandos e recursos cujos nomes podem parecer
 - **Issue:** Uma ferramenta para rastrear tarefas e bugs no GitHub. Issues permitem relatar problemas, propor melhorias ou discutir novas funcionalidades. Cada issue pode ser atribuída, rotulada e comentada.
 
 Esta lista obviamente não é exaustiva. Há muitos outros termos técnicos específicos para Git e GitHub. No entanto, os mencionados aqui são os principais com os quais você frequentemente se deparará.
-Após ler este artigo, é possível que alguns aspectos do Git e do GitHub ainda estejam pouco claros para você. Eu o encorajo a começar a usar essas ferramentas por conta própria. A prática é frequentemente a melhor maneira de entender como a máquina funciona! E para começar, você pode descobrir estes outros 2 tutoriais:
 
 ## Como criar uma conta no GitHub
 
@@ -66,7 +65,7 @@ Se você deseja contribuir para a Rede PlanB, precisará de uma conta no GitHub.
 - Insira seu endereço de email e, em seguida, clique no botão verde `Continue`:
 ![github](assets/1.webp)
 - Escolha uma senha forte e, em seguida, clique no botão verde `Continue`:
-![github](assets/12.webp)
+![github](assets/2.webp)
 - Em seguida, escolha seu nome de usuário. Você pode revelar sua identidade real ou usar um pseudônimo. Depois, clique no botão verde `Continue`:
 ![github](assets/3.webp)
 - Complete o Captcha:

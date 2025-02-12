@@ -22,7 +22,7 @@ Git的一个特点是它能够以分布式方式运行。每个开发者在自�
 ## 什么是GitHub？
 
 GitHub是一个基于我们刚刚讨论的Git版本控制系统的源代码管理和托管平台。GitHub于2008年推出，迅速获得了人气，并已成为全球开发者的重要参考。但GitHub与Git有何不同，为什么它在我们的内容生产方法中如此关键？
-![github-](assets/2.webp)
+![github-](assets/12.webp)
 首先，重要的是要理解GitHub是建立在Git之上的（正如我们在前一节中讨论的）。虽然Git是跟踪代码变更的工具，GitHub则是托管、共享和管理这些代码的在线服务。
 
 想象Git像是每个开发者在自己电脑上使用的一种日志本，用来记录他们项目中所有的变更。另一方面，GitHub则像是一个公共图书馆，所有这些日志本可以在那里被共享、比较和结合。
@@ -56,9 +56,7 @@ GitHub不仅仅是一个代码托管服务。它是一个允许开发者高效�
 - **Issue（问题）：** GitHub上用于跟踪任务和错误的工具。问题允许报告问题、提出改进或讨论新功能。每个问题都可以被分配、标记和评论。
 
 这个列表显然不是详尽的。还有许多其他特定于Git和GitHub的技术术语。然而，这里提到的是你经常会遇到的主要术语。
-在阅读了这篇文章之后，您可能仍然对Git和GitHub的某些方面感到不太清楚。我鼓励您开始亲自使用这些工具。实践往往是理解机器如何工作的最佳方式！为了开始，您可以发现这两个其他教程：
-- **[创建您的GitHub账户](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
-- **[设置您的本地环境以便为PlanB网络做出贡献](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+
 
 ## 如何创建 GitHub 账号
 
@@ -68,7 +66,7 @@ GitHub不仅仅是一个代码托管服务。它是一个允许开发者高效�
 - 输入您的电子邮件地址，然后点击绿色的`Continue`按钮：
 ![github](assets/1.webp)
 - 选择一个强密码，然后点击绿色的`Continue`按钮：
-![github](assets/12.webp)
+![github](assets/2.webp)
 - 接下来，选择您的用户名。您可以透露您的真实身份，或使用一个假名。然后，点击绿色的`Continue`按钮：
 ![github](assets/3.webp)
 - 完成验证码：

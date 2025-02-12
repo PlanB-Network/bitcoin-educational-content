@@ -22,7 +22,7 @@ Ursprünglich wurde Git hauptsächlich für Softwareentwicklungsprojekte konzipi
 ## Was ist GitHub?
 
 GitHub ist eine Plattform für die Verwaltung und das Hosting von Quellcode, basierend auf dem Versionskontrollsystem Git, das wir gerade besprochen haben. Gestartet im Jahr 2008, hat GitHub schnell an Beliebtheit gewonnen und ist zu einer unverzichtbaren Referenz für Entwickler weltweit geworden. Aber worin unterscheidet sich GitHub von Git, und warum ist es so entscheidend für unsere Methode der Inhaltsproduktion?
-![github-](assets/2.webp)
+![github](assets/12.webp)
 Zunächst ist es wichtig zu verstehen, dass GitHub auf Git aufbaut (wie im vorherigen Abschnitt besprochen). Während Git das Tool ist, das Codeänderungen nachverfolgt, ist GitHub der Online-Dienst, der diesen Code hostet, teilt und verwaltet.
 
 Stellen Sie sich Git als eine Art Logbuch vor, das jeder Entwickler auf seinem eigenen Computer verwendet, um alle Änderungen in seinem Projekt aufzuzeichnen. GitHub hingegen ist wie eine öffentliche Bibliothek, in der all diese Logbücher geteilt, verglichen und kombiniert werden können.
@@ -56,7 +56,6 @@ Bei der Verwendung von Git und GitHub werden Sie auf Befehle und Funktionen sto�
 - **Issue:** Ein Werkzeug zur Verfolgung von Aufgaben und Fehlern auf GitHub. Issues ermöglichen es, Probleme zu melden, Verbesserungen vorzuschlagen oder über neue Funktionen zu diskutieren. Jedes Issue kann zugewiesen, beschriftet und kommentiert werden.
 
 Diese Liste ist natürlich nicht erschöpfend. Es gibt viele andere technische Begriffe, die spezifisch für Git und GitHub sind. Die hier erwähnten sind jedoch die Hauptbegriffe, auf die Sie häufig stoßen werden.
-Nachdem Sie diesen Artikel gelesen haben, ist es möglich, dass einige Aspekte von Git und GitHub immer noch unklar für Sie sind. Ich ermutige Sie, diese Werkzeuge selbst zu nutzen. Übung ist oft der beste Weg, um zu verstehen, wie die Maschine funktioniert! Und um zu beginnen, können Sie diese 2 anderen Tutorials entdecken:
 
 ## Wie man ein GitHub-Konto erstellt
 
@@ -66,7 +65,7 @@ Wenn Sie zum PlanB-Netzwerk beitragen möchten, benötigen Sie ein GitHub-Konto.
 - Geben Sie Ihre E-Mail-Adresse ein, dann klicken Sie auf den grünen `Continue`-Button:
 ![github](assets/1.webp)
 - Wählen Sie ein starkes Passwort, dann klicken Sie auf den grünen `Continue`-Button:
-![github](assets/12.webp)
+![github](assets/2.webp)
 - Wählen Sie als Nächstes Ihren Benutzernamen. Sie können Ihre echte Identität offenbaren oder ein Pseudonym verwenden. Dann klicken Sie auf den grünen `Continue`-Button:
 ![github](assets/3.webp)
 - Vervollständigen Sie das Captcha:

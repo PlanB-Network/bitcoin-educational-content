@@ -12,7 +12,7 @@ Jika Anda ingin berkontribusi ke Jaringan PlanB, Anda akan perlu menggunakan Git
 ## Apa itu Git?
 
 Git adalah sistem kontrol versi, khusus dirancang untuk mengelola proyek perangkat lunak. Dibuat pada tahun 2005 oleh Linus Torvalds, Git dengan cepat menjadi standar dalam industri pengembangan perangkat lunak untuk kontrol versi. Tapi apa sebenarnya artinya itu?
-![git](assets/1.webp)
+![git](assets/11.webp)
 Pada intinya, Git memungkinkan pengembang untuk melacak perubahan yang dibuat pada kode sumber proyek dari waktu ke waktu. Ini berarti bahwa dengan setiap perubahan dalam kode, Git merekam versi baru dari proyek. Jika terjadi kesalahan atau jika fitur eksperimental tidak berfungsi seperti yang diharapkan, dimungkinkan untuk kembali ke keadaan kode sebelumnya, seperti mesin waktu untuk file.
 
 Salah satu fitur kunci dari Git adalah manajemen cabang. Cabang adalah semacam jalur paralel di mana pengembang dapat bekerja secara independen dari sisa proyek. Ini sangat memudahkan penambahan fitur baru atau koreksi bug tanpa mengganggu kode utama. Setelah modifikasi diuji dan divalidasi, mereka dapat digabungkan dengan cabang utama.
@@ -68,7 +68,7 @@ Jika Anda ingin berkontribusi ke Jaringan PlanB, Anda akan memerlukan akun GitHu
 - Masukkan alamat email Anda, kemudian klik tombol hijau `Continue`:
 ![github](assets/1.webp)
 - Pilih kata sandi yang kuat, kemudian klik tombol hijau `Continue`:
-![github](assets/2.webp)
+![github](assets/12.webp)
 - Selanjutnya, pilih nama pengguna Anda. Anda dapat mengungkapkan identitas asli Anda, atau menggunakan pseudonim. Kemudian, klik tombol hijau `Continue`:
 ![github](assets/3.webp)
 - Lengkapi Captcha:

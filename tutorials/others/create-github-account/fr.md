@@ -12,7 +12,7 @@ Si vous souhaitez contribuer à PlanB Network, vous devrez utiliser Git et GitHu
 ## C'est quoi Git ?
 
 Git est un système de contrôle de version, spécialement conçu pour gérer des projets logiciels. Créé en 2005 par Linus Torvalds, Git est rapidement devenu la norme dans l'industrie du développement de logiciels pour le contrôle de version. Mais qu'est-ce que cela signifie exactement ?
-![git](assets/1.webp)
+![git](assets/11.webp)
 À la base, Git permet aux développeurs de suivre les modifications apportées au code source d'un projet au fil du temps. Cela signifie qu'à chaque changement dans le code, Git enregistre une nouvelle version du projet. Si une erreur survient ou si une fonctionnalité expérimentale ne fonctionne pas comme prévu, il est possible de revenir à un état antérieur du code, comme une sorte de machine à remonter le temps pour les fichiers.
 
 Une des fonctionnalités clés de Git est la gestion des branches. Une branche est une sorte de ligne parallèle où les développeurs peuvent travailler indépendamment du reste du projet. Cela facilite grandement l'ajout de nouvelles fonctionnalités ou la correction de bugs sans perturber le code principal. Une fois les modifications testées et validées, elles peuvent être fusionnées avec la branche principale.
@@ -73,7 +73,7 @@ Si vous désirez apporter votre pierre à l'édifice PlanB Network, vous allez a
 - Saisissez votre adresse email, puis cliquez sur le bouton vert `Continue` :
 ![github](assets/1.webp)
 - Choisissez un mot de passe fort, puis cliquez sur le bouton vert `Continue` :
-![github](assets/2.webp)
+![github](assets/12.webp)
 - Choisissez ensuite votre nom d'utilisateur. Vous pouvez révéler votre véritable identité, ou bien utiliser un pseudonyme. Puis, cliquez sur le bouton vert `Continue` :
 ![github](assets/3.webp)
 - Complétez le Captcha :

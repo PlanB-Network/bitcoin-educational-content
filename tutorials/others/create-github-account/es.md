@@ -12,7 +12,7 @@ Si deseas contribuir a la Red PlanB, necesitarás usar Git y GitHub. Si estas he
 ## ¿Qué es Git?
 
 Git es un sistema de control de versiones, diseñado específicamente para gestionar proyectos de software. Creado en 2005 por Linus Torvalds, Git rápidamente se convirtió en el estándar en la industria del desarrollo de software para el control de versiones. Pero, ¿qué significa exactamente eso?
-![git](assets/1.webp)
+![git](assets/11.webp)
 En su núcleo, Git permite a los desarrolladores rastrear los cambios realizados en el código fuente de un proyecto a lo largo del tiempo. Esto significa que con cada cambio en el código, Git registra una nueva versión del proyecto. Si ocurre un error o si una característica experimental no funciona como se esperaba, es posible revertir a un estado anterior del código, como una especie de máquina del tiempo para archivos.
 
 Una de las características clave de Git es la gestión de ramas. Una rama es una especie de línea paralela donde los desarrolladores pueden trabajar independientemente del resto del proyecto. Esto facilita enormemente la adición de nuevas características o la corrección de errores sin perturbar el código principal. Una vez que las modificaciones son probadas y validadas, pueden fusionarse con la rama principal.
@@ -22,7 +22,7 @@ Inicialmente, Git fue diseñado principalmente para proyectos de desarrollo de s
 ## ¿Qué es GitHub?
 
 GitHub es una plataforma de gestión y alojamiento de código fuente basada en el sistema de control de versiones Git del que acabamos de hablar. Lanzado en 2008, GitHub rápidamente ganó popularidad y se ha convertido en una referencia esencial para desarrolladores en todo el mundo. Pero, ¿en qué se diferencia GitHub de Git y por qué es tan crucial en nuestro método de producción de contenido?
-![github](assets/2.webp)
+![github](assets/12.webp)
 Primero, es importante entender que GitHub está construido sobre Git (del cual hablamos en la sección anterior). Mientras que Git es la herramienta que rastrea los cambios en el código, GitHub es el servicio en línea que aloja, comparte y gestiona este código.
 
 Imagina Git como una especie de libro de registro que cada desarrollador usa en su propio ordenador para registrar todos los cambios en su proyecto. GitHub, por otro lado, es como una biblioteca pública donde todos estos libros de registro pueden ser compartidos, comparados y combinados.
@@ -66,7 +66,7 @@ Si deseas contribuir a la Red PlanB, necesitarás una cuenta de GitHub. En este 
 - Ingresa tu dirección de correo electrónico, luego haz clic en el botón verde `Continue`:
 ![github](assets/1.webp)
 - Elige una contraseña fuerte, luego haz clic en el botón verde `Continue`:
-![github](assets/2.webp)
+![github](assets/12.webp)
 - A continuación, elige tu nombre de usuario. Puedes revelar tu identidad real o usar un pseudónimo. Luego, haz clic en el botón verde `Continue`:
 ![github](assets/3.webp)
 - Completa el Captcha:

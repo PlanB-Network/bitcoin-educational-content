@@ -12,7 +12,7 @@ Nếu bạn muốn đóng góp cho Mạng lưới PlanB, bạn sẽ cần sử d
 ## Git là gì?
 
 Git là một hệ thống quản lý phiên bản, được thiết kế đặc biệt để quản lý các dự án phần mềm. Được tạo ra vào năm 2005 bởi Linus Torvalds, Git nhanh chóng trở thành tiêu chuẩn trong ngành phát triển phần mềm cho việc quản lý phiên bản. Nhưng điều đó có nghĩa là gì?
-![git](assets/1.webp)
+![git](assets/11.webp)
 Ở cốt lõi, Git cho phép các nhà phát triển theo dõi các thay đổi được thực hiện đối với mã nguồn của một dự án theo thời gian. Điều này có nghĩa là với mỗi thay đổi trong mã, Git ghi lại một phiên bản mới của dự án. Nếu một lỗi xảy ra hoặc nếu một tính năng thử nghiệm không hoạt động như mong đợi, có thể quay trở lại trạng thái trước của mã, giống như một loại máy thời gian cho các tệp.
 
 Một trong những tính năng chính của Git là quản lý nhánh. Một nhánh là một dòng song song mà ở đó các nhà phát triển có thể làm việc độc lập với phần còn lại của dự án. Điều này rất thuận tiện cho việc thêm các tính năng mới hoặc sửa lỗi mà không làm ảnh hưởng đến mã chính. Một khi các sửa đổi được kiểm tra và xác nhận, chúng có thể được hợp nhất với nhánh chính.
@@ -67,7 +67,7 @@ Nếu bạn muốn đóng góp cho Mạng lưới PlanB, bạn sẽ cần có m�
 - Nhập địa chỉ email của bạn, sau đó nhấn vào nút màu xanh `Continue`:
 ![github](assets/1.webp)
 - Chọn một mật khẩu mạnh, sau đó nhấn vào nút màu xanh `Continue`:
-![github](assets/2.webp)
+![github](assets/12.webp)
 - Tiếp theo, chọn tên người dùng của bạn. Bạn có thể tiết lộ danh tính thực của mình, hoặc sử dụng một bí danh. Sau đó, nhấn vào nút màu xanh `Continue`:
 ![github](assets/3.webp)
 - Hoàn thành Captcha:

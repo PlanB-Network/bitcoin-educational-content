@@ -12,7 +12,7 @@ Kui soovite panustada PlanB võrgustikku, peate kasutama Git'i ja GitHubi. Kui n
 ## Mis on Git?
 
 Git on versioonihaldussüsteem, mis on spetsiaalselt loodud tarkvaraprojektide haldamiseks. Linus Torvaldsi poolt 2005. aastal loodud Git on kiiresti saanud tarkvaraarendustööstuse standardiks versioonihalduses. Aga mida see täpselt tähendab?
-![git](assets/1.webp)
+![git](assets/11.webp)
 Oma olemuselt võimaldab Git arendajatel jälgida projekti lähtekoodis aja jooksul tehtud muudatusi. See tähendab, et iga koodis tehtud muudatusega salvestab Git projekti uue versiooni. Kui ilmneb viga või kui katsetuslik funktsioon ei tööta oodatult, on võimalik naasta koodi varasema seisundi juurde, nagu omamoodi ajamasin failide jaoks.
 
 Üks Git'i võtmefunktsioone on harude haldamine. Haru on omamoodi paralleeljoon, kus arendajad saavad töötada sõltumatult ülejäänud projektist. See hõlbustab suuresti uute funktsioonide lisamist või vigade parandamist ilma peamist koodi segamata. Kui muudatused on testitud ja valideeritud, saab need peaharuga ühendada.
@@ -22,7 +22,7 @@ Algselt oli Git peamiselt mõeldud tarkvaraarendusprojektide jaoks. Siiski saab 
 ## Mis on GitHub?
 
 GitHub on Git versioonihaldussüsteemil põhinev lähtekoodi haldamise ja hostimise platvorm, millest me just rääkisime. 2008. aastal käivitatud GitHub on kiiresti populaarsust kogunud ja saanud arendajatele üle maailma hädavajalikuks viitepunktiks. Kuidas aga GitHub erineb Git'ist ja miks on see meie sisutootmismeetodis nii oluline?
-![github](assets/2.webp)
+![github](assets/12.webp)
 Esmalt on oluline mõista, et GitHub on ehitatud Git'i peale (millest me eelmises jaotises rääkisime). Kui Git on tööriist, mis jälgib koodimuudatusi, siis GitHub on veebiteenus, mis hostib, jagab ja haldab seda koodi.
 
 Kujutage Git'i ette omamoodi logiraamatuna, mida iga arendaja kasutab oma arvutis kõigi oma projekti muudatuste salvestamiseks. GitHub seevastu on nagu avalik raamatukogu, kus kõiki neid logiraamatuid saab jagada, võrrelda ja ühendada.
@@ -68,7 +68,7 @@ Kui soovite panustada PlanB võrgustikku, on teil vaja GitHubi kontot. Selles õ
 - Sisestage oma e-posti aadress, seejärel klõpsake rohelisel `Continue` nupul:
 ![github](assets/1.webp)
 - Valige tugev parool, seejärel klõpsake rohelisel `Continue` nupul:
-![github](assets/2.webp)
+![github](assets/12.webp)
 - Järgmisena valige oma kasutajanimi. Võite avaldada oma tegeliku identiteedi või kasutada pseudonüümi. Seejärel klõpsake rohelisel `Continue` nupul:
 ![github](assets/3.webp)
 - Täitke Captcha:

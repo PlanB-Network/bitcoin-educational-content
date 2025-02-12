@@ -12,7 +12,7 @@ If you wish to contribute to Plan ₿ Network, you will need to use Git and GitH
 ## What is Git?
 
 Git is a version control system, specifically designed to manage software projects. Created in 2005 by Linus Torvalds, Git has quickly become the standard in the software development industry for version control. But what does it exactly mean?
-![git](assets/1.webp)
+![git](assets/11.webp)
 At its core, Git allows developers to track changes made to a project's source code over time. This means that with every change in the code, Git records a new version of the project. If an error occurs or if an experimental feature does not work as expected, it is possible to revert to a previous state of the code, like a kind of time machine, but for files.
 
 One of the key features of Git is branch management. A branch is a kind of parallel line where developers can work independently from the rest of the project. This greatly facilitates the addition of new features or the correction of bugs without disturbing the main code. Once the modifications are tested and validated, they can be merged with the main branch.
@@ -23,7 +23,7 @@ Initially, Git was primarily designed for software development projects. However
 ## What is GitHub?
 
 GitHub is a source code management and hosting platform based on the Git version control system we just discussed. Launched in 2008, GitHub quickly gained popularity and has become an essential reference for developers worldwide. But how does GitHub differ from Git, and why is it so crucial in our content production method?
-![github](assets/2.webp)
+![github](assets/12.webp)
 First, it's important to understand that GitHub is built on Git (which we discussed in the previous section). While Git is the tool that tracks code changes, GitHub is the online service that hosts, shares, and manages this code.
 
 Imagine Git as a kind of logbook that each developer uses on their own computer to record all the changes in their project. GitHub, on the other hand, is like a public library where all these logbooks can be shared, compared, and combined.
@@ -70,7 +70,7 @@ If you wish to contribute to the PlanB Network, you will need a GitHub account. 
 - Enter your email address, then click on the green `Continue` button:
 ![github](assets/1.webp)
 - Choose a strong password, then click on the green `Continue` button:
-![github](assets/2.webp)
+![github](assets/12.webp)
 - Next, choose your username. You can reveal your real identity, or use a pseudonym. Then, click on the green `Continue` button:
 ![github](assets/3.webp)
 - Complete the Captcha:

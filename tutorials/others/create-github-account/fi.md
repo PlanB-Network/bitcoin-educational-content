@@ -12,7 +12,7 @@ Jos haluat osallistua PlanB-verkostoon, sinun on käytettävä Gitia ja GitHubia
 ## Mikä on Git?
 
 Git on versionhallintajärjestelmä, joka on suunniteltu erityisesti ohjelmistoprojektien hallintaan. Linus Torvaldsin vuonna 2005 luoma Git on nopeasti tullut ohjelmistokehitysteollisuuden standardiksi versionhallinnassa. Mutta mitä se tarkalleen ottaen tarkoittaa?
-![git](assets/1.webp)
+![git](assets/11.webp)
 Ydintasolla Git mahdollistaa kehittäjien seurata projektin lähdekoodiin ajan myötä tehtyjä muutoksia. Tämä tarkoittaa, että jokaisen koodissa tapahtuvan muutoksen myötä Git tallentaa projektista uuden version. Jos virhe tapahtuu tai kokeellinen ominaisuus ei toimi odotetusti, on mahdollista palata koodin aiempaan tilaan, ikään kuin tiedostojen aikakoneella.
 
 Yksi Gitin keskeisistä ominaisuuksista on haarojen hallinta. Haara on eräänlainen rinnakkaislinja, jossa kehittäjät voivat työskennellä riippumattomasti projektin muusta osasta. Tämä helpottaa suuresti uusien ominaisuuksien lisäämistä tai virheiden korjaamista häiritsemättä pääkoodia. Kun muutokset on testattu ja hyväksytty, ne voidaan yhdistää päähaaraan.
@@ -22,7 +22,7 @@ Alun perin Git oli suunniteltu ensisijaisesti ohjelmistokehitysprojekteja varten
 ## Mikä on GitHub?
 
 GitHub on Git-versionhallintajärjestelmään perustuva lähdekoodin hallinta- ja isännöintialusta, josta juuri keskustelimme. Vuonna 2008 käynnistetty GitHub sai nopeasti suosiota ja on tullut kehittäjien keskuudessa välttämättömäksi viitepisteeksi maailmanlaajuisesti. Mutta miten GitHub eroaa Gitistä, ja miksi se on niin keskeinen sisällöntuotantomme kannalta?
-![github](assets/2.webp)
+![github](assets/12.webp)
 Ensinnäkin on tärkeää ymmärtää, että GitHub on rakennettu Gitin päälle (josta keskustelimme edellisessä osiossa). Vaikka Git on työkalu, joka seuraa koodimuutoksia, GitHub on online-palvelu, joka isännöi, jakaa ja hallinnoi tätä koodia.
 
 Kuvittele Git eräänlaisena lokikirjana, jota jokainen kehittäjä käyttää omalla tietokoneellaan tallentaakseen kaikki projektinsa muutokset. GitHub puolestaan on kuin julkinen kirjasto, jossa kaikki nämä lokikirjat voidaan jakaa, verrata ja yhdistää.
@@ -66,7 +66,7 @@ Jos haluat osallistua PlanB-verkostoon, tarvitset GitHub-tilin. Tässä oppaassa
 - Anna sähköpostiosoitteesi, sitten klikkaa vihreää `Continue`-painiketta:
 ![github](assets/1.webp)
 - Valitse vahva salasana, sitten klikkaa vihreää `Continue`-painiketta:
-![github](assets/2.webp)
+![github](assets/12.webp)
 - Seuraavaksi valitse käyttäjänimesi. Voit paljastaa oikean henkilöllisyytesi tai käyttää nimimerkkiä. Sen jälkeen, klikkaa vihreää `Continue`-painiketta:
 ![github](assets/3.webp)
 - Suorita Captcha:

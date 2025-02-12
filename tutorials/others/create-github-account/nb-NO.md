@@ -12,7 +12,7 @@ Hvis du ønsker å bidra til PlanB-nettverket, må du bruke Git og GitHub. Hvis 
 ## Hva er Git?
 
 Git er et versjonskontrollsystem, spesielt designet for å håndtere programvareprosjekter. Opprettet i 2005 av Linus Torvalds, har Git raskt blitt standarden i programvareutviklingsindustrien for versjonskontroll. Men hva betyr det egentlig?
-![git](assets/1.webp)
+![git](assets/11.webp)
 I sin kjerne lar Git utviklere spore endringer som er gjort i et prosjekts kildekode over tid. Dette betyr at med hver endring i koden, registrerer Git en ny versjon av prosjektet. Hvis en feil oppstår eller hvis en eksperimentell funksjon ikke fungerer som forventet, er det mulig å gå tilbake til en tidligere tilstand av koden, som en slags tidsmaskin for filer.
 
 En av nøkkelfunksjonene til Git er håndtering av grener. En gren er en slags parallell linje hvor utviklere kan jobbe uavhengig av resten av prosjektet. Dette letter sterkt tilføyelsen av nye funksjoner eller korrigering av feil uten å forstyrre hovedkoden. Når endringene er testet og validert, kan de slås sammen med hovedgrenen.
@@ -66,7 +66,7 @@ Hvis du ønsker å bidra til PlanB-nettverket, vil du trenge en GitHub-konto. I 
 - Skriv inn e-postadressen din, og klikk deretter på den grønne `Continue`-knappen:
 ![github](assets/1.webp)
 - Velg et sterkt passord, og klikk deretter på den grønne `Continue`-knappen:
-![github](assets/2.webp)
+![github](assets/12.webp)
 - Velg deretter brukernavnet ditt. Du kan avsløre din virkelige identitet, eller bruke et pseudonym. Deretter klikker du på den grønne `Continue`-knappen:
 ![github](assets/3.webp)
 - Fullfør Captcha:

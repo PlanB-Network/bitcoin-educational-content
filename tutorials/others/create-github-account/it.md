@@ -12,7 +12,7 @@ Se desideri contribuire alla Rete PlanB, dovrai utilizzare Git e GitHub. Se ques
 ## Cos'è Git?
 
 Git è un sistema di controllo versione, specificamente progettato per gestire progetti software. Creato nel 2005 da Linus Torvalds, Git è rapidamente diventato lo standard nell'industria dello sviluppo software per il controllo delle versioni. Ma cosa significa esattamente?
-![git](assets/1.webp)
+![git](assets/11.webp)
 Nel suo nucleo, Git permette agli sviluppatori di tracciare le modifiche apportate al codice sorgente di un progetto nel tempo. Questo significa che con ogni modifica nel codice, Git registra una nuova versione del progetto. Se si verifica un errore o se una funzionalità sperimentale non funziona come previsto, è possibile tornare a uno stato precedente del codice, come una sorta di macchina del tempo per i file.
 
 Una delle caratteristiche chiave di Git è la gestione dei branch. Un branch è una sorta di linea parallela dove gli sviluppatori possono lavorare indipendentemente dal resto del progetto. Questo facilita enormemente l'aggiunta di nuove funzionalità o la correzione di bug senza disturbare il codice principale. Una volta che le modifiche sono testate e validate, possono essere unite con il branch principale.
@@ -66,7 +66,7 @@ Se desideri contribuire alla Rete PlanB, avrai bisogno di un account GitHub. In 
 - Inserisci il tuo indirizzo email, poi clicca sul pulsante verde `Continua`:
 ![github](assets/1.webp)
 - Scegli una password forte, poi clicca sul pulsante verde `Continua`:
-![github](assets/2.webp)
+![github](assets/12.webp)
 - Successivamente, scegli il tuo username. Puoi rivelare la tua vera identità o usare un pseudonimo. Poi, clicca sul pulsante verde `Continua`:
 ![github](assets/3.webp)
 - Completa il Captcha:

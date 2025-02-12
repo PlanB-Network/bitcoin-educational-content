@@ -12,7 +12,7 @@ Pokud si přejete přispět do sítě PlanB, budete potřebovat používat Git a
 ## Co je Git?
 
 Git je systém pro správu verzí, speciálně navržený pro správu softwarových projektů. Vytvořený v roce 2005 Linusem Torvaldsem, Git se rychle stal standardem v průmyslu softwarového vývoje pro správu verzí. Ale co to přesně znamená?
-![git](assets/1.webp)
+![git](assets/11.webp)
 Ve své podstatě Git umožňuje vývojářům sledovat změny provedené v zdrojovém kódu projektu v průběhu času. To znamená, že s každou změnou v kódu Git zaznamená novou verzi projektu. Pokud dojde k chybě nebo pokud experimentální funkce nefunguje podle očekávání, je možné se vrátit k předchozímu stavu kódu, jako kdyby to byl jakýsi stroj času pro soubory.
 
 Jednou z klíčových funkcí Gitu je správa větví. Větev je jakási paralelní linie, kde mohou vývojáři pracovat nezávisle na zbytku projektu. To velmi usnadňuje přidávání nových funkcí nebo opravu chyb bez rušení hlavního kódu. Jakmile jsou úpravy otestovány a ověřeny, mohou být sloučeny s hlavní větví.
@@ -22,7 +22,7 @@ Původně byl Git primárně navržen pro projekty softwarového vývoje. Nicmé
 ## Co je GitHub?
 
 GitHub je platforma pro správu a hostování zdrojového kódu založená na systému správy verzí Git, o kterém jsme právě diskutovali. Spuštěný v roce 2008, GitHub rychle získal popularitu a stal se nezbytnou referencí pro vývojáře po celém světě. Ale jak se GitHub liší od Gitu a proč je tak klíčový v naší metodě produkce obsahu?
-![github](assets/2.webp)
+![github](assets/12.webp)
 Nejprve je důležité pochopit, že GitHub je postaven na Gitu (o kterém jsme diskutovali v předchozí sekci). Zatímco Git je nástroj, který sleduje změny kódu, GitHub je online služba, která tento kód hostuje, sdílí a spravuje.
 
 Představte si Git jako jakýsi deník, který každý vývojář používá na svém vlastním počítači k zaznamenání všech změn ve svém projektu. GitHub na druhou stranu je jako veřejná knihovna, kde všechny tyto deníky mohou být sdíleny, porovnávány a kombinovány.

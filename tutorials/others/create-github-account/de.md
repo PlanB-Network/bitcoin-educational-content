@@ -12,7 +12,7 @@ Wenn Sie zum PlanB-Netzwerk beitragen möchten, müssen Sie Git und GitHub verwe
 ## Was ist Git?
 
 Git ist ein Versionskontrollsystem, das speziell für die Verwaltung von Softwareprojekten entwickelt wurde. Erstellt im Jahr 2005 von Linus Torvalds, ist Git schnell zum Standard in der Softwareentwicklungsbranche für Versionskontrolle geworden. Aber was bedeutet das genau?
-![git](assets/1.webp)
+![git](assets/11.webp)
 Im Kern ermöglicht Git Entwicklern, Änderungen am Quellcode eines Projekts im Laufe der Zeit nachzuverfolgen. Das bedeutet, dass mit jeder Änderung am Code Git eine neue Version des Projekts aufzeichnet. Tritt ein Fehler auf oder funktioniert ein experimentelles Feature nicht wie erwartet, ist es möglich, zu einem früheren Zustand des Codes zurückzukehren, wie eine Art Zeitmaschine für Dateien.
 
 Eine der Schlüsselfunktionen von Git ist die Verwaltung von Zweigen. Ein Zweig ist eine Art parallele Linie, auf der Entwickler unabhängig vom Rest des Projekts arbeiten können. Dies erleichtert die Hinzufügung neuer Funktionen oder die Korrektur von Fehlern, ohne den Hauptcode zu stören. Sobald die Änderungen getestet und validiert sind, können sie mit dem Hauptzweig zusammengeführt werden.
@@ -66,7 +66,7 @@ Wenn Sie zum PlanB-Netzwerk beitragen möchten, benötigen Sie ein GitHub-Konto.
 - Geben Sie Ihre E-Mail-Adresse ein, dann klicken Sie auf den grünen `Continue`-Button:
 ![github](assets/1.webp)
 - Wählen Sie ein starkes Passwort, dann klicken Sie auf den grünen `Continue`-Button:
-![github](assets/2.webp)
+![github](assets/12.webp)
 - Wählen Sie als Nächstes Ihren Benutzernamen. Sie können Ihre echte Identität offenbaren oder ein Pseudonym verwenden. Dann klicken Sie auf den grünen `Continue`-Button:
 ![github](assets/3.webp)
 - Vervollständigen Sie das Captcha:

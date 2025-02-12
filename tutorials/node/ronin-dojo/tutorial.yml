@@ -4,8 +4,6 @@ builder: Samourai
 tags:
   - node
   - privacy
-  - whirlpool
-  - Coinjoin
 
 category: bitcoin
 

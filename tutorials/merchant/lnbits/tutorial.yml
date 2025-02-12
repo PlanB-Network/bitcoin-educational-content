@@ -5,14 +5,8 @@ level: advanced
 
 category: merchant
 tags:
-  - point of sales
-  - non-KYC
-  - open-source
-  - wallets management
-  - NFC cards
-  - bitcoin switches
-  - marketplace
-  - multiple extensions
+  - keys
+  - lightning
 credits:
   professor: motor-chef
 

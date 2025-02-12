@@ -10,10 +10,8 @@ level: advanced
 category: lightning-network
 
 tags:
-  - open-source
-  - self-custodial
+  - node
   - lightning
-  - LND
 
 # Proofreading metadata
 project_id: db7cc106-432c-4571-a66a-1f68d024bca4

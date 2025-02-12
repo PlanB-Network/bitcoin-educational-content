@@ -6,9 +6,8 @@ level: intermediate
 category: mobile
 
 tags:
-  - open-source
-  - lightning-network
-  - self-custodial
+  - lightning
+  - wallets
 
 # Proofreading metadata
 project_id: 0c272f89-0633-41b5-8d03-a37682738985

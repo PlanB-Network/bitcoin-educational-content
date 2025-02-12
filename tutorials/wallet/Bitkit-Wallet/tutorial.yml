@@ -6,11 +6,8 @@ level: beginner
 category: mobile
 
 tags:
-  - wallet
-  - lightning-network
-  - self-custodial
-  - open-source
-  - on-chain
+  - wallets
+  - lightning
 
 credits:
   professor: casual-chaos

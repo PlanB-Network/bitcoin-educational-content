@@ -9,6 +9,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from dotenv import load_dotenv
 from tqdm import tqdm
+from google.cloud import translate
+from google.oauth2 import service_account
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ENV_PATH = os.path.join(ROOT_DIR, '.env')
@@ -35,7 +37,7 @@ class DeepLTranslator(BaseTranslator):
         self.source_lang = source_lang
         self.target_lang = target_lang
         self.last_request_time = 0
-        self.min_request_interval = 0.1
+        self.min_request_interval = 0.01
 
     def translate_text(self, text: str) -> str:
         if not text or not text.strip():
@@ -69,7 +71,7 @@ class OpenAITranslator(BaseTranslator):
         self.source_lang = source_lang
         self.target_lang = target_lang
         self.last_request_time = 0
-        self.min_request_interval = 0.1
+        self.min_request_interval = 0.01
 
     def translate_text(self, text: str) -> str:
         if not text or not text.strip():
@@ -105,7 +107,7 @@ class DeepSeekTranslator(BaseTranslator):
         self.source_lang = source_lang
         self.target_lang = target_lang
         self.last_request_time = 0
-        self.min_request_interval = 0.1
+        self.min_request_interval = 0.01
 
     def translate_text(self, text: str) -> str:
         if not text or not text.strip():
@@ -131,6 +133,63 @@ class DeepSeekTranslator(BaseTranslator):
             print(f"\nError translating text: {text}")
             print(f"Error: {e}")
             return text
+
+
+
+
+
+class GoogleTranslator(BaseTranslator):
+    def __init__(self, source_lang: str, target_lang: str):
+        self.project_id = os.getenv('GOOGLE_PROJECT_ID')
+        credentials_path = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+        
+        if not self.project_id:
+            raise ValueError("GOOGLE_PROJECT_ID not found in environment variables")
+        if not credentials_path:
+            raise ValueError("GOOGLE_APPLICATION_CREDENTIALS not found in environment variables")
+        
+        # Load credentials explicitly
+        credentials = service_account.Credentials.from_service_account_file(
+            credentials_path,
+            scopes=['https://www.googleapis.com/auth/cloud-platform']
+        )
+        
+        # Initialize the client with credentials
+        self.client = translate.TranslationServiceClient(credentials=credentials)
+        self.location = "global"
+        self.parent = f"projects/{self.project_id}/locations/{self.location}"
+        self.source_lang = source_lang
+        self.target_lang = target_lang
+        self.last_request_time = 0
+        self.min_request_interval = 0.1
+
+    def translate_text(self, text: str) -> str:
+        if not text or not text.strip():
+            return text
+        
+        current_time = time.time()
+        time_since_last_request = current_time - self.last_request_time
+        if time_since_last_request < self.min_request_interval:
+            time.sleep(self.min_request_interval - time_since_last_request)
+        self.last_request_time = time.time()
+
+        try:
+            response = self.client.translate_text(
+                request={
+                    "parent": self.parent,
+                    "contents": [text],
+                    "mime_type": "text/plain",
+                    "source_language_code": self.source_lang,
+                    "target_language_code": self.target_lang,
+                }
+            )
+            return response.translations[0].translated_text
+        except Exception as e:
+            print(f"\nError translating text: {text}")
+            print(f"Error: {e}")
+            return text
+
+
 
 
 class FileTranslator:
@@ -163,6 +222,16 @@ class FileTranslator:
             )
         elif translator_type == "openai":
             self.translator = OpenAITranslator(
+                config.source_translator_code,
+                config.target_translator_code
+            )
+        elif translator_type == "deepseek":
+            self.translator = DeepSeekTranslator(
+                config.source_translator_code,
+                config.target_translator_code
+            )
+        elif translator_type == "google":
+            self.translator = GoogleTranslator(
                 config.source_translator_code,
                 config.target_translator_code
             )

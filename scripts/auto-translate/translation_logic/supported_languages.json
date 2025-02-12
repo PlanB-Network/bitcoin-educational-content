@@ -45,8 +45,8 @@
     {
       "code": "hi",
       "name": "Hindi",
-      "translator": "openai",
-      "code_translator": "Standard Modern Hindi"
+      "translator": "google",
+      "code_translator": "hi"
     },
     {
       "code": "id",

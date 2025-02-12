@@ -24,7 +24,7 @@ Lassen Sie uns gemeinsam entdecken, wie man einen neuen Professor in diesem Tuto
 - Einen Fork des [PlanB Netzwerk-Quellrepositories](https://github.com/PlanB-Network/bitcoin-educational-content) haben.
 
 **Wenn Sie Hilfe benötigen, um diese Voraussetzungen zu erfüllen, werden Sie meine anderen Tutorials leiten:**
-**[Verständnis von Git und GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Verständnis von Git und GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
 **[Erstellen eines GitHub-Kontos](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
 **[Einrichten Ihrer Arbeitsumgebung](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
 

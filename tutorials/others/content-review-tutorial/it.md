@@ -33,7 +33,7 @@ Non è necessario essere un esperto di GitHub per revisionare i contenuti. Anche
 
 Tuttavia, se non conoscete Git e GitHub e volete saperne di più, potete consultare il nostro articolo introduttivo su questi strumenti:
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Creare un account
 
 

@@ -24,7 +24,7 @@ Mari kita temukan bersama bagaimana menambahkan profesor baru dalam tutorial ini
 - Memiliki fork dari [repositori sumber Jaringan PlanB](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Jika Anda membutuhkan bantuan untuk mendapatkan prasyarat ini, tutorial lain saya akan memandu Anda:**
-- **[Memahami Git dan GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+- **[Memahami Git dan GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
 - **[Membuat Akun GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
 - **[Menyiapkan Lingkungan Kerja Anda](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
 

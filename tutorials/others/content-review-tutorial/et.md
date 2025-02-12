@@ -33,7 +33,7 @@ Sa ei pea olema GitHubi ekspert, et sisu üle vaadata. Kuigi alati on parem mõi
 
 Kui te aga ei ole Git ja GitHubiga kursis ja soovite rohkem teada saada, siis vaadake meie sissejuhatavat artiklit nende tööriistade kohta:
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Konto loomine
 
 

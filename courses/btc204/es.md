@@ -1343,7 +1343,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-v2-c6143241-d900-404
 Otra opción en línea es [HodlHodl](https://hodlhodl.com/), una plataforma bien establecida que ofrece buena liquidez, aunque personalmente no la he probado.
 -> Descubre nuestro tutorial sobre HodlHodl.
 
-https://planb.network/fr/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 

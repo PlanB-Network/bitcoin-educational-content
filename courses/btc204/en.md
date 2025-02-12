@@ -1263,7 +1263,7 @@ For a simpler option, you can try [Peach](https://peachbitcoin.com/), a mobile a
 Another online option is [HodlHodl](https://hodlhodl.com/), a well-established platform that offers good liquidity, although I have not personally tested it.
 -> Discover our tutorial on HodlHodl.
 
-https://planb.network/fr/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 

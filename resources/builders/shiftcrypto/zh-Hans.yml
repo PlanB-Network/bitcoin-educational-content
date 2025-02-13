@@ -1,7 +1,0 @@
-description: |
-  BitBox02 Bitcoin-only版是一款瑞士制造的硬件钱包，为您的比特币提供最先进的安全保护。
-
-  它采用双芯片设计，拥有一个安全芯片，其开源代码已经过安全研究人员的独立审计。通过直观的BitBoxApp界面，这款钱包使管理您的比特币变得简单而安全。主要特点包括快速简便的设置，通过microSD卡即时备份，安全的多签名功能，加密通信，以及防盗窃保护。BitBox02 Bitcoin-only版在Trustpilot上获得了用户的高度评价，是硬件钱包中用户评分最高的。
-
-contributors:
-  - rabbit-hole

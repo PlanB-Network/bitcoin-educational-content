@@ -1,0 +1,10 @@
+description: |
+  Galoy tarjoaa avoimen lähdekoodin ydinpankkialustan, joka on suunniteltu käynnistämään yritystason Bitcoin- ja Lightning-sovelluksia. Se mahdollistaa Bitcoin-pankkiratkaisujen nopeutetun kehittämisen joko itse isännöidyn infrastruktuurin tai hallinnoidun "Banking-as-a-Service" toteutuksen kautta.
+
+  Alusta mahdollistaa organisaatioille Bitcoin-yhteisöpankin käynnistämisen jaetun hallinnan mallilla ja helppokäyttöisen Lightning-lompakon avulla. Kyseessä on sama teknologia, joka auttoi Bitcoin Beachia rakentamaan kiertotalouden. Tätä todistetusti toimivaa infrastruktuuria voivat käyttää myös hallitukset tarjotakseen 2000-luvun rahoituspalveluita kenelle tahansa, jolla on matkapuhelin ja internet-yhteys.
+
+  Perustuen uskomukseen, että Bitcoin on rahaa, Galoy valtuuttaa organisaatioita minkä tahansa kokoisia luomaan oman Bitcoin-pohjaisen pankkinsa. Se oli Bitcoin Beach Wallet -projektin selkäranka El Zontessa, El Salvadorissa, joka oli keskeisessä roolissa kestävän Bitcoin-talouden kehittämisessä ja on nähnyt merkittävää kasvua sen jälkeen, kun maa hyväksyi Bitcoinin lailliseksi maksuvälineeksi.
+
+  Galoy on silta organisaatioille, jotka haluavat integroitua Lightning-verkkoon, ja majakka avoimen lähdekoodin panostajille, jotka pyrkivät rakentamaan parempaa rahoitusjärjestelmää.
+contributors:
+  - rabbit-hole

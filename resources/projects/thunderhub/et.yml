@@ -1,0 +1,5 @@
+description: |
+  ThunderHub on avatud lähtekoodiga platvorm, mis võimaldab teil hallata ja jälgida oma Lightning-sõlme mis tahes seadmest.
+  Mõned peamised funktsioonid hõlmavad nii Lightning- kui ka On-Chain-maksete saatmist ja vastuvõtmist, tasakaalustamise võimalusi, ln-pay ja ln-withdraw kasutamist kodulehelt ning kanalite haldamist optimaalse likviidsuse tagamiseks. ThunderHub on integreeritud BTCPay, RaspiBlitz, MyNode, Voltage, Umbrel ja Start9 EmbassyOSiga ning toetab viimaseid LND-sõlme versioone. Platvorm pakub ka tehinguaruandeid ja edastatavate maksete üksikasju ning pakub kasutaja mugavuse huvides nii öist/päevast režiimi.
+contributors:
+  - rabbit-hole

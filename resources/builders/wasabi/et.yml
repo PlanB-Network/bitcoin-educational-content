@@ -1,6 +1,0 @@
-description: |
-  Wasabi Wallet on loodud neile, kes väärtustavad privaatsust maailmas, kus teabe jälgimine ja väärkasutus on laialt levinud.
-
-  Olles nullteadmiste tarkvara, tagab see, et kasutaja bitcoini tehingud jäävad nende privaatseks asjaks. Wasabi Wallet on avatud lähtekoodiga, võimaldades kellel tahes koodi kontrollida või sellele kaasa aidata. Selle disain on usaldusväärne, tagades, et ei avalikkus ega arendajad ei saa teie privaatsust rikkuda. Rahakott on mittehoidja, võimaldades teil säilitada kontrolli oma privaatvõtmete üle ja saavutada tõeline finantsiline suveräänsus. Hoolimata oma arenenud omadustest, on Wasabi loodud kasutajasõbralikuks ja käitleb privaatsust automaatselt. See kasutab WabiSabi, anonüümsete volituste skeemi, et muuta coinjoinid kättesaadavamaks ja tõhusamaks. Lisaks on see taskukohane, küsides mõõdukat tasu coinide ühendamise eest üle 0.01 BTC, samas kui 0.01 BTC või väiksemate sisendite ja remixide eest koordinaatoritasusid ei võeta.
-contributors:
-  - rabbit-hole

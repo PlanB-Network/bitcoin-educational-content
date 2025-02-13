@@ -1,0 +1,9 @@
+description: |
+  Lightning Labs è un'azienda tecnologica focalizzata sullo sviluppo della Lightning Network, un protocollo di livello due costruito su Bitcoin che consente transazioni veloci e a basso costo. L'azienda offre soluzioni open source, sicure e scalabili che consentono agli utenti di inviare e ricevere denaro con un'efficienza senza precedenti.
+
+  Uno dei loro prodotti principali è il Lightning Terminal, un'interfaccia user-friendly che semplifica la gestione dei nodi Lightning. Questo strumento offre un cruscotto basato sul web, un esploratore di rete e una suite di strumenti di gestione della liquidità, rendendo più facile condurre transazioni Bitcoin ad alto volume e istantanee con commissioni minime.
+
+  Oltre al Lightning Terminal, Lightning Labs fornisce anche una gamma di servizi finanziari verificabili e non custodiali basati sulla Lightning Network, colmando il divario tra software open source e applicazioni finanziarie Bitcoin di nuova generazione.
+contributors:
+  - rabbit-hole
+  - another-satoshi

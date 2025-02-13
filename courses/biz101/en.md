@@ -576,6 +576,12 @@ To learn mor about mining methods, you can [consult the "mining" section in our 
 - **Buying Bitcoin:**
 This is by far the most common method, done either via peer-to-peer exchanges or, more typically, on specialized trading platforms. But when acquiring Bitcoin as a corporate treasury asset, companies must comply with robust regulatory standards and Know-Your-Customer (KYC) procedures. When they buy it on specialized trading platforms, businesses are typically required to provide detailed company information, including identification documents, financial statements, and proof of address, to satisfy KYC and anti-money laundering (AML) requirements.
 
+To learn how to open a business account and use it to buy, sell, and transfer bitcoins, you can check out these two tutorials specifically designed for businesses, covering the Kraken and Bitfinex platforms in their corporate versions:
+
+https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+
+https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+
 To learn more about methods for acquiring bitcoins via an exchange or peer-to-peer, you can [consult the "exchange" section in our tutorials](https://planb.network/tutorials/exchange).
 
 ![BIZ101](assets/en/16.webp)

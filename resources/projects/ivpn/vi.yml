@@ -1,0 +1,12 @@
+description: |
+  IVPN là một dịch vụ VPN tập trung vào quyền riêng tư, không lưu trữ hoạt động của người dùng và không thu thập hay lưu trữ dữ liệu cá nhân khi đăng ký. Chúng tôi chấp nhận thanh toán bằng tiền mặt, Monero và Bitcoin. Chúng tôi cam kết về sự minh bạch và an toàn, với website và tất cả ứng dụng IVPN đều là mã nguồn mở.
+
+  Các máy chủ của chúng tôi, bao gồm email và chat trực tiếp, đều tự host và vận hành bởi chúng tôi. Chúng tôi cam kết thực hiện kiểm toán an ninh độc lập hàng năm và không tham gia vào quảng cáo sai sự thật, như trả tiền cho các bài đánh giá hoặc hứa hẹn về sự ẩn danh.
+
+  Chúng tôi thường xuyên đóng góp cho các tổ chức như EFF, Open Rights Group và dự án Tor. Mô hình kinh doanh của chúng tôi hoàn toàn dựa trên đăng ký trả phí, không thông qua bất kỳ dịch vụ phụ trợ nào hoặc các trang web đánh giá VPN.
+
+  Các tính năng của chúng tôi bao gồm lựa chọn giữa các giao thức WireGuard, OpenVPN hoặc IPSec, AntiTracker chặn quảng cáo và theo dõi, tùy chọn Killswitch/Firewall, máy chủ DNS riêng không lưu trữ log, đường truyền VPN đa hợp, chuyển tiếp cổng, và Obfsproxy để vượt qua kiểm duyệt.
+
+  Trong khi chúng tôi làm rõ rằng VPN không thể đạt được sự ẩn danh hoặc ngăn chặn việc thu thập dữ liệu bởi các gã khổng lồ như Google hay Facebook, chúng tôi đảm bảo rằng một VPN đáng tin cậy như của chúng tôi có thể hiệu quả mã hóa dữ liệu và yêu cầu DNS của bạn, tăng cường an toàn trên các mạng công cộng không đáng tin, che giấu địa chỉ IP của bạn, và vượt qua kiểm duyệt hoặc các rào cản địa lý. Chúng tôi là một phần đáng tin cậy trong chiến lược bảo vệ quyền riêng tư của bạn, miễn là bạn tin tưởng chúng tôi hơn ISP của bạn.
+contributors:
+  - rabbit-hole

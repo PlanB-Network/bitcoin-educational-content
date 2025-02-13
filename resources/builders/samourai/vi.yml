@@ -1,6 +1,0 @@
-description: |
-  Samourai là một ví Bitcoin tập trung vào quyền riêng tư và an ninh.
-
-  Nó sử dụng các công nghệ tiên tiến để ngăn chặn giám sát dựa trên blockchain và cho phép giao dịch ngoại tuyến. Ví không giữ tiền (non-custodial) cung cấp quyền kiểm soát đầy đủ đối với khóa riêng tư. Nó cũng cung cấp RoninDojo, một full node tự lưu trữ có hiệu suất cao, và Whirlpool, một triển khai của Chaumian CoinJoin, được thiết kế để phá vỡ liên kết giữa bitcoins và lịch sử giao dịch của chúng. Nhóm đứng sau Samourai bao gồm các nhà hoạt động quyền riêng tư cam kết tạo ra phần mềm ưu tiên quyền riêng tư và an ninh trong hệ sinh thái Bitcoin.
-contributors:
-  - rabbit-hole

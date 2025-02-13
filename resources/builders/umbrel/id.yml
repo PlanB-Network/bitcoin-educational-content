@@ -1,6 +1,0 @@
-description: |
-  Umbrel adalah sistem operasi sumber terbuka yang memungkinkan pengguna menjalankan server pribadi di rumah mereka, menyediakan kemudahan penyimpanan cloud dengan privasi dan kontrol penyimpanan data lokal.
-
-  Pengguna dapat meng-host sendiri berbagai aplikasi, termasuk Nextcloud untuk penyimpanan cloud pribadi, PhotoPrism untuk penyimpanan foto dan video, serta node Bitcoin dan Lightning pribadi untuk transaksi bitcoin. Umbrel juga menampilkan toko aplikasinya sendiri untuk aplikasi self-hosted tambahan, kemampuan pemblokiran iklan, dan integrasi otomasi rumah.
-contributors:
-  - lubang-kelinci

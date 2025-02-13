@@ -1,8 +1,0 @@
-description: |
-  Lightning Labs 是一家专注于 Lightning Network 开发的技术公司，Lightning Network 是建立在比特币之上的二层协议，能够实现快速、低成本的交易。该公司提供开源、安全且可扩展的解决方案，使用户能够以前所未有的效率发送和接收资金。
-
-  他们的主要产品之一是 Lightning Terminal，这是一个用户友好的界面，简化了 Lightning 节点管理。这个工具提供了一个基于网页的仪表板、网络浏览器和一套流动性管理工具，使得能够以最小的费用进行大量即时的比特币交易变得更加容易。
-
-  除了 Lightning Terminal，Lightning Labs 还提供基于 Lightning Network 的一系列可验证的、非托管的金融服务，弥合了开源软件与下一代比特币金融应用之间的差距。
-contributors:
-  - rabbit-hole

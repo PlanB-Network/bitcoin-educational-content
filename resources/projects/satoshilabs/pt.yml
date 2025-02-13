@@ -1,0 +1,9 @@
+description: |
+  SatoshiLabs é uma empresa de tecnologia conhecida principalmente por criar a carteira de hardware Trezor, uma das maneiras mais seguras e confiáveis de armazenar Bitcoin. A empresa foi fundada em 2013 por Marek Palatinus, Pavol Rusnak e Alena Vranova e está sediada em Praga, República Tcheca.
+
+  A carteira de hardware Trezor, produto principal da SatoshiLabs, é um dispositivo físico que armazena com segurança as chaves privadas dos usuários offline. Essa característica torna-a resistente a muitos tipos de hacks online. Ao manter as chaves privadas no dispositivo e offline, o Trezor fornece uma camada adicional de segurança para os ativos de Bitcoin dos usuários.
+
+  Além da carteira de hardware Trezor, a SatoshiLabs fez contribuições significativas para o ecossistema do Bitcoin. Isso inclui a criação de vários padrões de segurança e o desenvolvimento de novas tecnologias projetadas para aprimorar e proteger as transações de Bitcoin.
+contributors:
+  - rabbit-hole
+  - another-satoshi

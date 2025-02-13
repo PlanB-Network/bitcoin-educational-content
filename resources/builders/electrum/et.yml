@@ -1,6 +1,0 @@
-description: |
-  Electrum on mitmekülgne Bitcoin'i rahakott, mis eelistab kasutaja turvalisust ja paindlikkust.
-  
-  See toetab mitmeid platvorme, sealhulgas mobiilseid, lauaarvuti ja käsurea liideseid. Teie privaatvõtmed on krüpteeritud ja hoitakse teie seadmes, tagades, et need ei ole kunagi avalikustatud. Lisaks kasutab Electrum salajast fraasi vahendite taastamiseks ning pakub kiiret juurdepääsu Bitcoin'i plokiahelale oma serverivõrgu kaudu. See toetab offline "külma hoiustamist", et hoida teie privaatvõtmed turvaliselt, ning pakub multisig võimalusi mündikulutuste loa jagamiseks. Electrum kontrollib ka kõiki teie ajaloos olevaid tehinguid, kasutades Lihtsustatud Maksete Kontrollimist (SPV) ning võimaldab kolmandate osapoolte pistikprogrammide integratsioone, nagu multisig teenused ja riistvara rahakotid.
-contributors:
-  - rabbit-hole

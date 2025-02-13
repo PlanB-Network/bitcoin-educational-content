@@ -1,6 +1,0 @@
-description: |
-  Electrum on monipuolinen Bitcoin-lompakko, joka asettaa käyttäjän turvallisuuden ja joustavuuden etusijalle.
-  
-  Se tukee useita alustoja, mukaan lukien mobiili, työpöytä ja komentoriviliittymät. Yksityiset avaimet salataan ja säilytetään laitteellasi, varmistaen, että ne eivät joudu alttiiksi. Lisäksi Electrum käyttää salasanaa varojen palauttamiseen ja tarjoaa nopean pääsyn Bitcoin-lohkoketjuun palvelinverkostonsa kautta. Se tukee offline-"kylmäsäilytystä" yksityisten avainten turvaamiseksi ja tarjoaa multisig-ominaisuuksia kolikoiden käytön luvan jakamiseen. Electrum myös tarkistaa kaikki tapahtumat historiassasi käyttäen Yksinkertaistettua Maksun Vahvistusta (SPV) ja sallii kolmannen osapuolen liitännäisten integroinnin, kuten multisig-palvelut ja laitteistolompakot.
-contributors:
-  - rabbit-hole

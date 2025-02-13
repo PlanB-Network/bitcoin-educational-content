@@ -1,0 +1,6 @@
+description: |
+  Amboss je platforma, která nabízí data, vhledy a nástroje pro koordinaci správy kanálů Bitcoin Lightning Network.
+
+  Primárně využívá síťový gossip od uzlů Bitcoin Lightning k poskytování relevantních informací. Platforma také zahrnuje API pro provádění operací, společně s Magma, specializovaným tržištěm pro likviditu. Svému závazku k datově řízeným vhledům věrně, Amboss poskytuje komplexní řešení pro efektivní a informované řízení Lightning Network.
+contributors:
+  - rabbit-hole

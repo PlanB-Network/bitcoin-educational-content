@@ -1,0 +1,6 @@
+description: |
+  BTCPay Server je samostatně hostovaný, open-source Bitcoin platební procesor.
+
+  Tento software vám umožňuje přijímat platby v Bitcoinu (BTC) přímo do vaší peněženky, bez poplatků nebo prostředníka třetí strany. Nabízí zvýšenou soukromí a bezpečnost, přizpůsobitelné uživatelské rozhraní a funkce pro použití v e-commerce a na prodejních místech. Platforma podporuje integraci s různými e-commerce platformami jako WordPress, Magneto, Drupal a dalšími. Je to univerzální řešení pro firmy, charitativní organizace, tvůrce obsahu a jednotlivce hledající systém Bitcoinových plateb, který je nezávislý na třetích stranách.
+contributors:
+  - rabbit-hole

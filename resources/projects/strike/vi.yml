@@ -1,0 +1,6 @@
+description: |
+  Strike là một ứng dụng tài chính cho phép người dùng gửi và nhận tiền tức thì, mua và bán Bitcoin, và nhận thanh toán bằng Bitcoin.
+
+  Ứng dụng này cung cấp một cách dễ dàng để mua Bitcoin, tránh phí giao dịch. API của Strike được các doanh nghiệp sử dụng để kết nối với một mạng lưới thanh toán tức thì toàn cầu. Điều này có lợi cho các thị trường cho phép thanh toán giữa người mua và người bán, và các nhà bán lẻ chấp nhận thanh toán từ khách hàng trên toàn thế giới. Strike cũng cho phép thanh toán không biên giới, tức thì và an toàn, không kèm theo phí giao dịch. Ngoài ra, người dùng có thể chuyển đổi tiền lương của họ thành Bitcoin một cách mượt mà.
+contributors:
+  - rabbit-hole

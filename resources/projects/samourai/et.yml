@@ -1,0 +1,6 @@
+description: |
+  Samourai on Bitcoin'i rahakott, mis on pühendunud privaatsusele ja turvalisusele.
+
+  See kasutab arenenud tehnoloogiaid, et vältida plokiahela-põhist jälgimist ja võimaldab tehinguid ilma võrguühenduseta. Mittehoidlate rahakott annab täieliku kontrolli privaatvõtmete üle. Samuti pakub see RoninDojo't, kõrge jõudlusega, ise majutatavat täisnoodi, ja Whirlpool'i, Chaumiani CoinJoin'i rakendust, mis on loodud katkestama seose bitcoini'de ja nende tehingute ajaloo vahel. Samourai taga olev meeskond koosneb privaatsusaktivistidest, kes on pühendunud tarkvara loomisele, mis eelistab privaatsust ja turvalisust Bitcoin'i ökosüsteemis.
+contributors:
+  - rabbit-hole

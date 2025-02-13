@@ -1,0 +1,6 @@
+description: |
+  Samourai je Bitcoinová peněženka zaměřená na soukromí a bezpečnost.
+
+  Používá pokročilé technologie k prevenci sledování založeného na blockchainu a umožňuje offline transakce. Tato nezávislá peněženka poskytuje plnou kontrolu nad soukromými klíči. Nabízí také RoninDojo, výkonný, samostatně hostovaný full node, a Whirlpool, implementaci Chaumian CoinJoin, navrženou k narušení spojení mezi bitcoiny a jejich transakční historií. Tým stojící za Samourai se skládá z aktivistů za soukromí, kteří jsou odhodláni vytvářet software, který dává přednost soukromí a bezpečnosti v ekosystému Bitcoinu.
+contributors:
+  - rabbit-hole

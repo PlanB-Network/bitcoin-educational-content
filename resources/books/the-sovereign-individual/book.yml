@@ -1,9 +1,10 @@
+id: 9b70f518-cc60-4ae1-b394-a8573ccd6c16
 author: James Dale Davidson, William Rees-Mogg
 level: advanced
 tags:
-  - bitcoin
-  - politics
-  - technology
+  - self-sovereignty
+  - regulation
+  - future-outlook
 
 # Proofreading metadata
 original_language: en
@@ -40,9 +41,10 @@ proofreading:
     contributors_id:
     reward: 0.35
   - language: it
-    last_contribution_date:
+    last_contribution_date: 2025-02-06
     urgency: 1
     contributors_id:
+      - PaoloFoti
     reward: 0.47
   - language: ja
     last_contribution_date:

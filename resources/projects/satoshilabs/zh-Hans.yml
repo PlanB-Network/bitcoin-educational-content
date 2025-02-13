@@ -1,0 +1,8 @@
+description: |
+  SatoshiLabs是一家以创建Trezor硬件钱包而闻名的技术公司，这是存储比特币最安全、最值得信赖的方式之一。该公司由Marek Palatinus、Pavol Rusnak和Alena Vranova于2013年在捷克共和国的布拉格成立。
+
+  Trezor硬件钱包，作为SatoshiLabs的旗舰产品，是一种物理设备，可以安全地离线存储用户的私钥。这一特性使其能够抵抗多种类型的在线黑客攻击。通过在设备上并保持离线存储私钥，Trezor为用户的比特币资产提供了额外的安全层。
+
+  除了Trezor硬件钱包，SatoshiLabs还为比特币生态系统做出了重大贡献。这包括创建各种安全标准和开发旨在增强和保护比特币交易的新技术。
+contributors:
+  - rabbit-hole

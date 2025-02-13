@@ -1,0 +1,6 @@
+description: |
+  Amboss on platvorm, mis pakub andmeid, ülevaateid ja koordineerimisvahendeid Bitcoin Lightning Network kanalite haldamiseks.
+
+  See kasutab peamiselt võrgu kuulujutte Bitcoin Lightning sõlmedest, et pakkuda asjakohast teavet. Platvorm sisaldab ka API-d operatsioonide teostamiseks, kõrvuti Magma'ga, mis on pühendatud likviidsusturu koht. Oma pühendumusega andmepõhistele ülevaadetele pakub Amboss terviklikku lahendust tõhusaks ja teadlikuks Lightning Network'i haldamiseks.
+contributors:
+  - rabbit-hole

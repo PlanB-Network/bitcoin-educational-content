@@ -1,6 +1,0 @@
-description: |
-  Samourai adalah dompet Bitcoin yang didedikasikan untuk privasi dan keamanan.
-  
-  Dompet ini menggunakan teknologi canggih untuk mencegah pengawasan berbasis blockchain dan memungkinkan transaksi offline. Dompet non-custodial ini memberikan kontrol penuh atas kunci privat. Dompet ini juga menawarkan RoninDojo, sebuah node penuh mandiri berkinerja tinggi, dan Whirlpool, sebuah implementasi dari Chaumian CoinJoin, yang dirancang untuk mengganggu keterkaitan antara bitcoin dan riwayat transaksi mereka. Tim di balik Samourai terdiri dari aktivis privasi yang berkomitmen untuk menciptakan perangkat lunak yang mengutamakan privasi dan keamanan dalam ekosistem Bitcoin.
-contributors:
-  - rabbit-hole

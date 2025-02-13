@@ -1,0 +1,12 @@
+description: |
+  IVPN adalah layanan VPN yang berfokus pada privasi, yang tidak mencatat aktivitas pengguna dan tidak mengumpulkan atau menyimpan data pribadi saat pendaftaran. Kami menerima pembayaran dalam bentuk tunai, Monero, dan Bitcoin. Kami berkomitmen pada transparansi dan keamanan, dengan situs web kami dan semua aplikasi IVPN yang bersifat open-source.
+
+  Server kami, termasuk email dan live chat, di-hosting sendiri dan dioperasikan oleh kami. Kami berkomitmen untuk melakukan audit keamanan independen setiap tahun dan tidak terlibat dalam iklan palsu, seperti membayar untuk ulasan atau menjanjikan anonimitas.
+
+  Kami secara rutin berkontribusi pada organisasi seperti EFF, Open Rights Group, dan proyek Tor. Model bisnis kami sepenuhnya bergantung pada langganan berbayar, tanpa layanan tambahan atau situs ulasan VPN.
+
+  Fitur kami termasuk pilihan protokol WireGuard, OpenVPN atau IPSec, AntiTracker yang memblokir iklan dan pelacak, opsi Killswitch/Firewall, server DNS pribadi yang tidak mencatat, rute VPN multi-hop, port forwarding, dan Obfsproxy untuk mengatasi sensor.
+
+  Sementara kami menjelaskan bahwa VPN tidak dapat mencapai anonimitas atau mencegah pengumpulan data oleh raksasa seperti Google atau Facebook, kami menjamin bahwa VPN yang dapat dipercaya seperti kami dapat secara efektif mengenkripsi data dan permintaan DNS Anda, meningkatkan keamanan di jaringan publik yang tidak terpercaya, menyamarkan alamat IP Anda, dan mengatasi sensor atau pemblokiran geografis. Kami adalah bagian yang dapat diandalkan dari strategi perlindungan privasi Anda, asalkan Anda mempercayai kami lebih dari ISP Anda.
+contributors:
+  - rabbit-hole

@@ -1,0 +1,6 @@
+description: |
+  Strike on finantsrakendus, mis võimaldab kasutajatel saata ja vastu võtta raha koheselt, osta ja müüa Bitcoini ning saada tasu Bitcoini vormis.
+
+  Rakendus pakub lihtsat viisi Bitcoini ostmiseks, möödaminnes tehingutasudest. Strike'i API-d kasutavad ettevõtted ühenduse loomiseks globaalse, kohese maksete võrgustikuga. See on kasulik turgudele, mis võimaldavad makseid ostjate ja müüjate vahel, ning kaupmeestele, kes aktsepteerivad makseid klientidelt üle maailma. Strike võimaldab ka piirideta makseid, mis on kohesed ja turvalised, ilma lisatehingutasudeta. Lisaks saavad kasutajad oma palgatšeki Bitcoini sujuvalt konverteerida.
+contributors:
+  - rabbit-hole

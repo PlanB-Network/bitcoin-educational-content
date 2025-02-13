@@ -1,0 +1,6 @@
+description: |
+  Umbrel on avoimen lähdekoodin käyttöjärjestelmä, joka mahdollistaa käyttäjille henkilökohtaisen palvelimen pyörittämisen kotonaan, tarjoten pilvitallennuksen mukavuuden yksityisyyden ja paikallisen datan tallennuksen hallinnan kanssa.
+
+  Käyttäjät voivat itse isännöidä erilaisia sovelluksia, mukaan lukien Nextcloud yksityiseen pilvitallennukseen, PhotoPrism valokuva- ja videotallennukseen sekä henkilökohtaiset Bitcoin ja Lightning solmut bitcoin-siirtoihin. Umbrel sisältää myös oman sovelluskauppansa lisäsovelluksia varten, mainosten estotoimintoja ja kotiautomaation integraatioita.
+contributors:
+  - rabbit-hole

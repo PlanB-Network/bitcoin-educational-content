@@ -1,4 +1,0 @@
-description: |
-  Lõime Rigly, et kõik saaksid nautida bitcoini kaevandamist. Bitcoini algusaegadel oli võimalik igaühel oma arvutis bitcoini kaevandada. Ajapikku, kui bitcoin kasvas, muutus kaevandamine üha spetsialiseeritumaks - esmalt kasutati GPU-sid, seejärel FPGA-sid ja nüüd on vajalikud ASIC-id. Tänapäeval nõuavad ASIC kaevandamisrigid olulist investeeringut ja haldust ning need paigaldatakse sageli energiajaamade lähedusse. Rigly võimaldab teil osta nendelt kaevuritelt hashrate'i ja osaleda kaevandamises.
-contributors:
-  - jänese-urg

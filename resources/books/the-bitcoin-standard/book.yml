@@ -1,9 +1,9 @@
+id: b7f6820b-e300-4e1f-9ecd-ff7cd8a06711
 author: Saifedean Ammous
 level: intermediate
 tags:
-  - bitcoin
-  - technology
-  - economy
+  - adoption
+  - finance
 
 # Proofreading metadata
 original_language: en
@@ -40,9 +40,10 @@ proofreading:
     contributors_id:
     reward: 0.19
   - language: it
-    last_contribution_date:
+    last_contribution_date: 2025-02-06
     urgency: 1
-    contributors_id:
+    contributors_id: 
+      - PaoloFoti
     reward: 0.23
   - language: ja
     last_contribution_date:

@@ -1,0 +1,11 @@
+description: |
+  Bitshala is a grassroots, community-driven educational initiative (a pathshala) led by Indian bitcoin enthusiasts, designed to guide and support new developers as they embark on their Bitcoin journey.
+
+  While numerous courses out there offer superficial lessons on EVM and “smart contracts,” Bitcoin development requires a much deeper and broader understanding of various technical fields.
+
+  Bitcoin is a multidisciplinary subject that encompasses Software Engineering, System Engineering, Networking Protocol Design, Game Theory, Cryptography, Economics, and the Social Dynamics of Complex Systems like markets. Due to this complexity, creating a fully comprehensive Bitcoin course is nearly impossible, and existing academic programs or coding boot camps fall short of addressing these needs. As a result, newcomers to Bitcoin development often find themselves navigating a vast array of loosely organized resources scattered across the internet.
+
+  Bitshala seeks to fill this gap by fostering the creation, curation, and publication of diverse open-source content that meets the unique learning needs of aspiring Bitcoin developers.
+
+contributors:
+  - rabbit-hole

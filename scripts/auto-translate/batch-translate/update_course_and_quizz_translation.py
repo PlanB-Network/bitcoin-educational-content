@@ -52,8 +52,9 @@ def create_txt_to_en_from(lang: str) -> None:
         for dirpath, dirnames, filenames in os.walk(base_dir):
             for filename in filenames:
                 if filename.startswith(f"{lang}.") and not content_exist(filenames, 'en'): 
-                    relative_path = Path(dirpath) / filename
-                    relative_path = relative_path.relative_to(SCRIPT_DIR)
+                    file_path = Path(dirpath) / filename
+                    relative_path = os.path.relpath(file_path, SCRIPT_DIR)
+
                     yml_file.write(f"{relative_path}\n")
                     file_written = True
 
@@ -71,8 +72,11 @@ def create_txt_from_en_to(lang: str) -> None:
         for dirpath, dirnames, filenames in os.walk(base_dir):
             for filename in filenames:
                 if filename.startswith(f"en.") and not content_exist(filenames, lang): 
-                    relative_path = Path(dirpath) / filename
-                    relative_path = relative_path.relative_to(SCRIPT_DIR)
+                    file_path = Path(dirpath) / filename
+
+                    relative_path = os.path.relpath(file_path, SCRIPT_DIR)
+
+
                     yml_file.write(f"{relative_path}\n")
                     file_written = True
 

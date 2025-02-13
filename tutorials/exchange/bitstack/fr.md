@@ -4,7 +4,7 @@ description: Acheter et vendre des bitcoins sur l'application Bitstack
 ---
 ![cover](assets/cover.webp)
 
-Bitstack est une plateforme française d’investissement en bitcoin, régulée PSAN par l’AMF. Elle propose une application disponible sur Android et IOS pour acheter et vendre du bitcoin de manière simple.
+Bitstack est une plateforme française d’investissement en bitcoin, régulée PSAN par l’AMF. Elle propose une application disponible sur Android et iOS pour acheter et vendre du bitcoin de manière simple.
 
 Ce qui distingue Bitstack est son système d’arrondi automatique, qui synchronise le compte bancaire de l’utilisateur pour convertir l’écart entre le montant débité lors des dépenses quotidiennes et l’euro supérieur, directement en bitcoins. Cette méthode facilite l’application du *Dollar Cost Averaging* (DCA) en permettant une accumulation progressive de satoshis de manière indolore. En plus de cette fonctionnalité originale, la plateforme propose également un système de DCA classique avec des investissements automatiques, ainsi que des achats et ventes au comptant.
 
@@ -19,7 +19,7 @@ Les frais appliqués par Bitstack sur les transactions varient en fonction du vo
 - 250 000 € - 500 000 € : 0,59 %
 - Plus de 500 000 € : 0,49 %
 
-Toutes les autres opérations sur la plateforme sont gratuites, y compris les retraits de bitcoins (avec un minimum de retrait fixé à 100 000 sats). Ainsi, contrairement à d'autres plateformes d'échange, retirer par exemple 0.01 BTC de l'application pour le transférer en self-custody ne générerait aucun frais de service ou de minage, ce qui vous permettrait de recevoir effectivement 0.01 BTC sur votre adresse de réception.
+Toutes les autres opérations sur la plateforme sont gratuites, y compris les retraits de bitcoins (avec un minimum de retrait fixé à 100 000 sats). Ainsi, contrairement à d'autres plateformes d'échange, retirer par exemple 0.01 BTC de l'application pour le transférer en self-custody ne générerait aucuns frais de service ou de minage, ce qui vous permettrait de recevoir effectivement 0.01 BTC sur votre adresse de réception.
 
 ## Télécharger l'application
 
@@ -134,7 +134,7 @@ Sélectionnez la date de commencement et la fréquence de votre DCA, avec des op
 
 23
 
-Votre DCA est maintenant actif. Vous pouvez le consulter ou le modifier depuis la page d'accueil en sélectionnant à nouveau "Récurrent".
+Votre DCA est maintenant actif. Vous pouvez le consulter ou le modifier depuis la page d'accueil en sélectionnant de nouveau "Récurrent".
 
 24
 
@@ -142,7 +142,7 @@ Votre DCA est maintenant actif. Vous pouvez le consulter ou le modifier depuis l
 
 Comme expliqué précédemment, Bitstack offre une fonctionnalité originale d'arrondi automatique des dépenses. Cela permet d'arrondir vos achats quotidiens à l'euro supérieur (ou plus, selon le réglage choisi) et d'investir la différence en sats. Par exemple, un achat de 1,10 € entraînera un investissement automatique de 0,90 € en BTC par Bitstack, qui détecte et regroupe ces transactions chaque semaine.
 
-Cette fonctionnalité vous permet d'investir avec une sorte de DCA basé sur vos dépenses personnelles, de manière presque imperceptible, afin de vous constituer progressivement une épargne en bitcoins.
+Cette fonctionnalité vous permet d'investir avec une sorte de DCA établi sur vos dépenses personnelles, de manière presque imperceptible, afin de vous constituer progressivement une épargne en bitcoins.
 
 Pour l'activer, vous devez d'abord synchroniser un compte bancaire, comme indiqué au début de cette section. Ensuite, sur l'application Bitstack, cliquez sur "Arrondi" dans la section "Épargne".
 

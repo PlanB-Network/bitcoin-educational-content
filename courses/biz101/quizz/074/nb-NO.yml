@@ -1,0 +1,9 @@
+question: Hvilke avanserte sikkerhetsfunksjoner er vanligvis implementert på bedriftsnivå for bitcoins?
+answer: Multisignatur med tidslås
+wrong_answers:
+  - Passordbeskyttelse for en mobil lynlommebok
+  - Enkel signering med BIP39-passordbeskyttelse
+  - Single-sig med 24 ord frøfrase
+explanation: |
+  Høysikkerhetstiltak som konfigurasjoner med flere signaturer og tidslås er avgjørende for håndtering av store beløp.
+reviewed: false

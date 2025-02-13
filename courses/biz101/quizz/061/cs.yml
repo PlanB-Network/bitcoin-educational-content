@@ -1,0 +1,9 @@
+question: Co používá profil Essential, který pomáhá zaměstnancům zpracovávat platby na pokladně?
+answer: Vytvoření menu s cenami položek v aplikaci PoS
+wrong_answers:
+  - Ruční účetní kniha pro evidenci tržeb
+  - Systém papírových faktur pro každou transakci
+  - Systém automatické účetní evidence transakcí z PoS
+explanation: |
+  Aplikace PoS v profilu Essential umožňuje zaměstnancům vybírat položky z přednastavené nabídky, což zjednodušuje proces účtování.
+reviewed: false

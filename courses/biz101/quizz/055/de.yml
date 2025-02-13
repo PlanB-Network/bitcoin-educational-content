@@ -1,0 +1,9 @@
+question: Was ist das Hauptziel der spezialisierten Bitcoin-Buchhaltungstools?
+answer: Vereinfachung der automatischen Erfassung und Verarbeitung von Bitcoin-bezogenen Daten
+wrong_answers:
+  - Verbesserung der Sicherheit der privaten Bitcoin-Schlüssel
+  - Erleichterung des direkten Handels mit Bitcoin an dezentralen Börsen für Unternehmen
+  - So richten Sie ein PoS-System für die Annahme von Bitcoin-Zahlungen ein
+explanation: |
+  Diese Tools wurden entwickelt, um die Datenerfassung, die Formatkonvertierung, die Steuerberechnung und die Kategorisierung von Transaktionen zu automatisieren.
+reviewed: false

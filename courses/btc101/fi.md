@@ -1,24 +1,22 @@
 ---
-name: Bitcoinin Matka
-goal: Tutustu Bitcoiniin ja sen perusteisiin, mukaan lukien sen rahallinen arvon kehitys, louhijat, transaktiot ja lompakot.
-objectives:
-  - Saavuta yleinen ymmärrys Bitcoin-teknologiasta
-  - Ymmärrä, miten ostaa ja turvata bitcoineja
-  - Hanki yleinen käsitys lohkoketjuteknologiasta
-  - Tutustu Lightning Network -konseptiin
-  - Ymmärrä Bitcoinin geopoliittinen ja sosiaalinen vaikutus
----
+name: Bitcoinin matka
+goal: Tutustu Bitcoinin perusteisiin, mukaan lukien sen rahallinen arvolupaus, louhijat, transaktiot ja lompakot.
+objectives: 
 
+  - Hanki yleinen ymmärrys Bitcoin-teknologiasta
+  - Ymmärrä, miten ostaa ja turvata bitcoineja
+  - Yleinen ymmärrys lohkoketjuteknologiasta
+  - Tutustu Lightning Networkin käsitteeseen
+  - Ymmärtää Bitcoinin geopoliittiset ja sosiaaliset vaikutukset
+
+---
 # Ensimmäinen Bitcoin-seikkailusi
 
-Tässä kurssissa selitän Bitcoinin 25 luvussa, jotta voit ymmärtää tämän teknologian yksinkertaisella ja tehokkaalla tavalla. Kurssi on kaikkien saavutettavissa ja tutkii koko alaa: louhijat, lompakot, osto-/myyntialustat jne...
+Tällä kurssilla selitämme Bitcoinin perusteet 25 luvussa, jotta voit ymmärtää tämän teknologian yksinkertaisella ja tehokkaalla tavalla. Kurssilla käsitellään koko alan perusteita, mukaan lukien aiheet kuten louhinta, lompakot, osto-/myyntialustat ja paljon muuta. Lisäkoulutusmateriaalia on saatavilla koko matkan ajan, ja pyydämme sinua myös tutustumaan "21 julistetta" -osion resursseihin tämän kurssin päätyttyä.
 
-Kurssin suorittaminen kestää noin 15 tuntia. Matkan varrella on saatavilla selittäviä kuvia, presentaatioita ja lisäresursseja.
-
-Et tarvitse mitään erityistä tietämystä aloittaaksesi, kurssi on kaikkien saavutettavissa!
+Alkuun pääsemiseksi ei tarvita mitään erityisiä tietoja. Itse asiassa seuraava sisältö sopii kaikentasoisille opiskelijoille, ja sen läpikäymiseen pitäisi kulua noin 15 tuntia.
 
 +++
-
 # Johdanto
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
@@ -27,390 +25,459 @@ Et tarvitse mitään erityistä tietämystä aloittaaksesi, kurssi on kaikkien s
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Tervetuloa uuteen rahalliseen ja teknologiseen paradigmaan.
+### Tervetuloa uuteen rahapoliittiseen ja teknologiseen paradigmaan.
 
-Bitcoin on merkittävä innovaatio, joka menee yli pelkän "internet-valuutan". Se on vallankumous sekä teknologiassa että rahassa, kykenevä kyseenalaistamaan suhteemme valuuttaan ja yhteiskuntaan. Bitcoin on niin sanottu **neutraali** ja **hajautettu** valuutta, mikä tarkoittaa, että sitä ei kontrolloi mikään taho tai instituutio. Se on merkittävä innovaatio, joka menee yli pelkän valuutan. Jotta ymmärtäisimme tämän kuuluisan bitcoinin, on tärkeää ymmärtää, että bitcoin (viitattu BTC) on sekä tietokoneprotokolla (Bitcoin) että rahayksikkö (bitcoin).
+Bitcoin on teknologinen ja rahapoliittinen vallankumous, joka saa meidät kyseenalaistamaan suhteemme rahaan ja yhteiskuntaan. Bitcoin (BTC) on itse asiassa **neutraali** ja **hajautettu** valuutta, mikä tarkoittaa, että mikään taho tai instituutio ei valvo sitä. Se on innovaatio, joka menee pelkkää "internet-valuuttaa" pidemmälle: se on sekä tietokoneprotokolla (Bitcoin) että rahayksikkö (bitcoin).
 
-Protokolla käyttää perustanaan teknologioita kuten kryptografia, verkkoviestintä ja kuuluisa "lohkoketju", kun taas bitcoin-yksikkö on valuutta, joka on tarpeen tämän saman protokollan asianmukaiseen toimintaan. Arkipäiväisessä elämässä salvadorilaiset tai bitcoinerit ympäri maailmaa käyttävät bitcoin-valuuttaa ostamaan ja myymään tavaroita ja palveluita, ja valuutta luottaa Bitcoin-protokollaan toimiakseen.
+Protokolla käyttää taustalla olevia tekniikoita, kuten salausta, verkkoviestintää ja kuuluisaa "lohkoketjua", kun taas bitcoin-yksikkö toimii tämän protokollan moitteettoman toiminnan kannalta välttämättömänä valuuttana. Jokapäiväisessä elämässä salvadorilaiset ja bitcoinilaiset ympäri maailmaa käyttävät bitcoin-valuuttaa ostaessaan ja myydessään tavaroita ja palveluita ja luottavat siihen, että tämä teknologia parantaa heidän elämäänsä.
 
-### Kattava mutta saavutettava opetussuunnitelma
+### Kattava mutta helposti lähestyttävä opetussuunnitelma
 
-Tällä kurssilla keskustelemme Bitcoinin rahallisista näkökohdista, mukaan lukien miten ostaa ja myydä bitcoineja, turvallisesti säilyttää niitä digitaalisissa lompakoissa ja käyttää niitä transaktioihin. Tarkastelemme myös louhijoiden roolia, jotka ovat olennaisia uusien bitcoinien luomisessa ja Bitcoin-verkon turvaamisessa. Lisäksi tutkimme Bitcoinin tulevaisuutta ja sitä, miten Lightning Network -teknologia voi parantaa Bitcoin-transaktioita.
+Tällä kurssilla keskustelemme Bitcoinin rahapoliittisista näkökohdista, kuten siitä, miten bitcoineja voi ostaa ja myydä, säilyttää niitä turvallisesti digitaalisissa lompakoissa ja käyttää niitä liiketoimiin. Tarkastelemme myös louhijoiden roolia, sillä louhijat ovat välttämättömiä uusien bitcoinien luomisessa ja Bitcoin-verkon turvaamisessa. Lopuksi tarkastelemme Bitcoinin tulevaisuutta ja sitä, miten Lightning Network -tekniikka voi parantaa Bitcoin-tapahtumia.
 
-![kuva](assets/en/01.webp)
+![image](assets/en/01.webp)
 
-On olennaista ymmärtää, että Bitcoin on uusi rahajärjestelmä, joka mullistaa suhteemme rahaan. Bitcoinin käytön oppiminen on olennainen taito kenelle tahansa, joka haluaa olla oman rahansa herra.
+On tärkeää ymmärtää, että Bitcoin on uusi rahajärjestelmä, joka muuttaa täysin suhteemme rahaan, joten sen käytön oppiminen on välttämätön taito kaikille, jotka haluavat hallita omia varojaan.
 
-**Osa 1 - Rahat**
+**Luku 1 - Raha**
 
-- Luku 1 - Mitä on raha?
-- Luku 2 - Fiat-raha
-- Luku 3 - Hyperinflaatio
-- Luku 4 - Bitcoinin rahapolitiikka
 
-**Osa 2 - Bitcoin-lompakot**
+- Luku 1 - Mitä raha on?
+- 2 luku - Fiat-raha
+- 3 luku - Hyperinflaatio
+- 4 luku - Bitcoinin rahapolitiikka
+
+**Luku 2 - Bitcoin-lompakot**
+
 
 - Luku 5 - Miten Bitcoin-lompakot toimivat?
-- Luku 6 - Turvallinen valinta
-- Luku 7 - Lompakon perustaminen
-- Luku 8 - Suojautuminen ajan myötä
+- 6 luku - Turvallisuuden valitseminen
+- Luku 7 - Lompakon määrittäminen
+- 8 luku - Suojautuminen ajalta
 
-**Osa 3 - Bitcoinin tekniset näkökohdat**
+**Luku 3 - Bitcoinin tekniset ominaisuudet**
 
-- Luku 9 - Transaktion selitys
-- Luku 10 - Bitcoin-nodet
-- Luku 11 - Louhijat
-- Luku 12 - Louhijat ja ekologisuus
 
-**Osa 4 - Säästäminen Bitcoinissa**
+- 9 luku - Mikä on transaktio?
+- Luku 10 - Bitcoin-solmut
+- 11 luku - Kaivosmiehet
+- 12 luku - Kaivosmiehet ja ekologia
+
+**Luku 4 - Tallentaminen Bitcoinissa**
+
 
 - Luku 13 - Bitcoinin hinta
-- Luku 14 - Kuinka ostaa Bitcoinia
-- Luku 15 - Työskentely Bitcoinien parissa
+- Luku 14 - Miten Bitcoinia voi ostaa?
+- Luku 15 - Työskentely Bitcoinin hyväksi
 - Luku 16 - Hyper-bitcoinisaatio
 
-**Osa 5 - Salamaverkko**
+**Luku 5 - Salamaverkko**
 
-- Luku 17 - Johdatus Salamaverkkoon
+
+- Luku 17 - Johdatus salamaverkkoon
 - Luku 18 - Salamaverkon käyttötapaukset
 
-Ennen kuin keskustelemme rahan määritelmästä ja toiminnasta yhteiskunnassa (Luku 1), aloitamme Bitcoinin alkuperästä. Bitcoin on suhteellisen uusi teknologia, joka lanseerattiin vuonna 2009, eikä se ole verrattavissa mihinkään muuhun. On siis normaalia, ettei kaikkea ymmärrä heti. Itse asiassa, aivan kuten Internetin tai auton käytön oppimisessa, ei tarvitse tietää kaikkia teknisiä yksityiskohtia käyttääkseen Bitcoinia (tärkeintä on kuinka vastaanottaa, tehdä maksuja ja kuinka turvata varansa).
+Ennen kuin esitellään rahan määritelmä ja sen tehtävä yhteiskunnassa (luku 1), on syytä aloittaa Bitcoinin synnystä. Vuonna 2009 lanseerattu Bitcoin on suhteellisen uusi teknologia, joka eroaa kaikesta muusta. Siksi on normaalia, ettei siitä ymmärrä kaikkea kerralla. Itse asiassa, aivan kuten internetin käytön tai auton ajamisen opettelun yhteydessä, sinun ei tarvitse tietää kaikkia teknisiä yksityiskohtia heti: voit aloittaa opettelemalla, miten varoja vastaanotetaan, maksetaan ja turvataan, ja tutkia sitä sitten pienin askelin syvällisemmin.
 
-![kuva](assets/en/02.webp)
+Loppujen lopuksi olemme vasta sen käyttöönoton alkuvaiheessa, sillä olemme ohittaneet lentoonlähtövaiheen: olet juuri ajoissa hankkimassa niin paljon tietoa tästä tärkeästä innovaatiosta kuin haluat.
 
-Tässä on pääasiassa tärkeää ymmärtää tämä uusi teknologia yleisellä tasolla. Toivomme, että tämä koulutus miellyttää sinua ja tarjoaa tarvittavan perustan ymmärtää ja ehkä jatkaa edistymistä tässä uudessa globaalissa rahaparadigmassa.
+![image](assets/en/02.webp)
+
+Tärkeintä on ymmärtää tätä uutta teknologiaa yleisellä tasolla, joten toivomme, että nautit tästä kurssista ja edistyt edelleen tässä uudessa globaalissa rahaparadigmassa.
 
 ## Bitcoinin esihistoria
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
-Ennen kuin termi "Bitcoin" tuli synonyymiksi digitaaliselle valuutalle ja taloudelliselle muutokselle, joukko ideoita, innovaatioita ja sosiaalisia liikkeitä laski perustan sen luomiselle. Yksi Bitcoinin esihistorian peruselementeistä on cypherpunk-liike.
+Ennen kuin termi "Bitcoin" tuli digitaalisen valuutan ja rahoitusalan muutoksen synonyymiksi, sen luomisen pohjatyöt tehtiin useiden ideoiden, innovaatioiden ja yhteiskunnallisten liikkeiden avulla. Näistä salainen punk-liike erottuu Bitcoinin esihistorian keskeisenä elementtinä.
 
-### Cypherpunkit: Digitaalisen maailman visionäärit
+### Cypherpunks: digitaalisen maailman visionäärit
 
-![kuva](assets/en/03.webp)
-1980- ja 1990-lukujen teknologisen kehityksen sydämessä joukko ihmisiä alkoi syvästi kyseenalaistaa yksityisyyden ja vapauden roolin digitaalisella aikakaudella. Nämä henkilöt, jotka myöhemmin tunnettaisiin nimellä "cypherpunkit", uskoivat vakaasti, että kryptografia voisi toimia työkaluna yksilön oikeuksien suojelemiseksi hallitusten ja suuryritysten sekaantumiselta.
+![image](assets/en/03.webp)
 
-Ikoniset hahmot kuten Julian Assange, Wei Dai, Tim May ja David Chaum määrittelivät cypherpunkien filosofian ja vision. Nämä ajattelijat jakoivat ideoitaan vaikutusvaltaisella postituslistalla, jossa osallistujat ympäri maailmaa keskustelivat parhaasta tavasta käyttää teknologiaa suuremman yksilön vapauden takaamiseksi.
+1980- ja 1990-lukujen teknologisen kehityksen keskellä eräät ihmiset alkoivat kyseenalaistaa syvästi yksityisyyden ja vapauden asemaa digitaaliaikana. Nämä henkilöt, jotka myöhemmin tunnettiin nimellä "cypherpunks", uskoivat vakaasti, että salakirjoitus voisi toimia välineenä, jolla suojellaan yksilön oikeuksia hallitusten ja suuryritysten puuttumiselta.
 
-### Cypherpunkien kolme perustekstiä
+Julian Assangen, Wei Dain, Tim Mayn ja David Chaumin kaltaisilla ikonisilla henkilöillä oli keskeinen rooli liikkeen filosofian ja vision muokkaamisessa. Nämä ajattelijat jakoivat ajatuksiaan vaikutusvaltaisella postituslistalla, jossa osallistujat ympäri maailmaa keskustelivat parhaista tavoista hyödyntää teknologiaa yksilön vapauden lisäämiseksi.
 
-![kuva](assets/en/04.webp)
+### Cypherpunksin kolme peruspaperia
 
-Cypherpunk-liike, jolla on syvät juuret digitaalisessa aktivismissa ja kryptografiassa, nojasi useisiin perusteksteihin ilmaistakseen periaatteensa ja tulevaisuudenkuvansa. Näistä kirjoituksista kolme erottuu erityisesti:
+![image](assets/en/04.webp)
+
+Syvälle digitaaliseen aktivismiin ja kryptografiaan juurtunut cypherpunk-liike käytti useita perustavaa laatua olevia tekstejä artikuloidakseen periaatteensa ja näkemyksensä tulevaisuudesta. Näistä kirjoituksista erottuu erityisesti kolme:
+
 
 - "Cypherpunk-manifesti":
-  Eric Hughes kirjoitti vuonna 1993 "Cypherpunk-manifestin", joka väittää, että yksityisyys on kansalaisen perusoikeus. Hughes argumentoi, että vapaa ja luottamuksellinen kommunikointi oli välttämätöntä vapaalle yhteiskunnalle. Manifesti toteaa, "Emme voi odottaa instituutioilta, yrityksiltä tai muilta persoonattomilta tahoilta, että ne myöntäisivät meille yksityisyyden... Meidän täytyy puolustaa sitä itse."
 
-- "Krypto-anarkistimanifesti":
-  Timothy C. May kirjoitti vuonna 1992 tämän manifestin, joka selittää, miten kryptografian käyttö voisi johtaa kryptografiseen anarkiaan, jossa hallitukset olisivat voimattomia puuttumaan kansalaisten yksityisasioihin. May visioi tulevaisuuden, jossa tietoja, rahaa ja viestejä voitaisiin vaihtaa ilman kolmannen osapuolen puuttumista ja nimettömästi.
+eric Hughesin vuonna 1993 kirjoittamassa "Cypherpunk-manifestissa" väitetään, että yksityisyys on perusoikeus. Kirjoittaja väittää, että kyky kommunikoida vapaasti ja luottamuksellisesti on olennainen edellytys vapaalle yhteiskunnalle. Manifestissa todetaan: "Emme voi odottaa, että hallitukset, yritykset tai muut suuret, kasvottomat organisaatiot myöntäisivät meille yksityisyyden [...]. Meidän on puolustettava omaa yksityisyyttämme, jos odotamme, että meillä on yksityisyyttä".
+
+
+- "Kryptoanarkistinen manifesti":
+
+timothy C. Mayn vuonna 1992 kirjoittamassa asiakirjassa selitetään, miten salakirjoituksen käyttö voisi johtaa salakirjoituksen anarkian aikakauteen, jolloin hallitukset eivät voisi puuttua kansalaisten yksityisasioihin. May visioi tulevaisuutta, jossa ihmiset vaihtavat tietoja ja rahaa nimettömästi ilman kolmannen osapuolen puuttumista asiaan.
+
 
 - "Kyberavaruuden itsenäisyysjulistus":
-  Tämä teksti heijastaa monien liikkeen toimijoiden tuntemuksia. John Perry Barlow kirjoitti sen vuonna 1996 vastauksena Internetin yhä lisääntyvään sääntelyyn hallitusten toimesta. Julistuksessa todetaan, että kyberavaruus on erillinen alue fyysisestä maailmasta ja sitä ei tulisi alistaa samojen lakien alaisuuteen. Siinä todetaan: "Meillä ei ole valittua hallitusta, eikä meitä voida hallita."
+
+vaikka tämä teksti ei olekaan yksinomaan cypherpunk, se kuvastaa monien liikkeen osallistujien tunteita. John Perry Barlow kirjoitti sen vuonna 1996, ja se on vastaus hallitusten lisääntyvään Internetin sääntelyyn. Julistuksessa väitetään, että kyberavaruus on fyysisestä maailmasta erillinen alue, eikä siihen pitäisi soveltaa samoja lakeja. Kuten siinä todetaan, "meillä ei ole vaaleilla valittua hallitusta, eikä sellaista todennäköisesti tule olemaankaan".
 
 ### Bitcoinin edeltäjät
 
-Ennen Bitcoinin esiinmarssia oli tehty useita yrityksiä luoda digitaalinen valuutta. Esimerkiksi David Chaum esitteli "nimettömän elektronisen rahan" konseptin projektillaan "DigiCash" 1980-luvulla. Valitettavasti erilaisten rajoitteiden vuoksi DigiCash ei koskaan todella lähtenyt lentoon.
+Ennen Bitcoinin syntyä oli tehty useita yrityksiä digitaalisen valuutan luomiseksi. Esimerkiksi David Chaum esitteli "anonyymin elektronisen rahan" käsitteen "DigiCash"-hankkeellaan 1980-luvulla. Valitettavasti DigiCash ei koskaan menestynyt erilaisten rajoitusten vuoksi.
 
-Toinen tärkeä edeltäjä on Wei Dain "b-money". Vaikka sitä ei koskaan toteutettu, se esitteli ajatuksen nimettömästä digitaalisesta valuutasta, jossa petosten havaitsemisen suoritti yhteisö arvioijia eikä keskitetty viranomainen.
+Toinen tärkeä edelläkävijä on Wei Dain "B-raha". Vaikka sitä ei koskaan toteutettu, siinä esiteltiin ajatus nimettömästä digitaalisesta valuutasta, jossa petokset havaitsisi keskusviranomaisen sijasta arvioijien yhteisö.
 
-![kuva](assets/en/05.webp)
+Alla oleva kuva kuvaa selvästi liikkeen kehitystä sen monien teknisten innovaatioiden kautta.
 
-Tässä hedelmällisessä ympäristössä salaperäinen ”Satoshi Nakamoto”-nimimerkki julkaisi Bitcoinin whitepaperin vuonna 2008. Hän yhdisti useita ideoita kybersissiläisestä liikkeestä, kuten Proof Of Work -mekanismin ja kryptografiset aikaleimat, luodakseen hajautetun ja sensuroimattoman digitaalisen valuutan.
+![image](assets/en/05.webp)
 
-Bitcoin oli enemmän kuin vain digitaalinen valuutta; se edusti kybersissiläisen liikkeen saavutusta. Sen teknologian lisäksi se symboloi vallankumousta perinteisiä rahoitusjärjestelmiä vastaan ja tarjosi vaihtoehdon, joka perustui läpinäkyvyyteen, hajautukseen ja yksilön suvereniteettiin.
+Juuri tässä hedelmällisessä ympäristössä salaperäinen Satoshi Nakamoto julkaisi Bitcoinin valkoisen kirjan vuonna 2008. Tässä asiakirjassa hän yhdisti useita salakirjoituspunk-liikkeen ideoita, kuten todisteellisen työn ja kryptografiset aikaleimat, luodakseen hajautetun ja sensuuria kestävän digitaalisen valuutan.
 
-### Johtopäätös
+Bitcoin oli kuitenkin muutakin: se edusti salakirjoituspunkin ihanteiden toteutumista. Teknologiansa lisäksi se symboloi vallankumousta perinteisiä rahoitusjärjestelmiä vastaan ja tarjosi vaihtoehdon, joka perustui läpinäkyvyyteen, hajauttamiseen ja yksilön itsemääräämisoikeuteen.
 
-Bitcoinin esihistoria juontaa juurensa syvälle kybersissiläiseen liikkeeseen ja kollektiiviseen pyrkimykseen suurempaan vapauteen digitaalisella aikakaudella. Yhdistämällä kryptografian, hajautuksen ja eheyden periaatteet, Bitcoin on muuttunut paljon enemmän kuin valuutaksi; se on filosofisen ja teknologisen vallankumouksen tuote, joka jatkaa maailmamme muovaamista.
+### Päätelmä
 
-Siksi Bitcoin on protokolla, joka ulottuu pitkien aikojen yli ja kannustaa meitä kyseenalaistamaan suhteemme energiaan, aikaan ja rahaan. Mutta onko Bitcoin "oikea" valuutta? Mikä on raha? Onko se olemassa monessa muodossa? Tutkimme näitä kysymyksiä seuraavassa luvussa.
+Bitcoinin esihistoria juontaa juurensa syvästi cypherpunk-liikkeeseen ja kollektiiviseen pyrkimykseen suurempaan vapauteen digitaaliaikana. Yhdistämällä kryptografian, hajauttamisen ja eheyden periaatteet Bitcoinista on tullut paljon muutakin kuin valuutta. Itse asiassa se on filosofisen ja teknologisen vallankumouksen tuote, joka jatkaa maailmamme muokkaamista.
 
+Bitcoin on siis protokolla, joka ulottuu pitkille ajanjaksoille ja kannustaa meitä kyseenalaistamaan suhteemme energiaan, aikaan ja rahaan.
 
-Jos haluat tutkia Bitcoinin historiaa tarkemmin, suosittelen lämpimästi kurssiamme HIS 201. Löydät sieltä Bitcoinin alkuperän ja sen hitaasti tapahtuneen nousun sekä sen historian ja yhteisön alkuvaiheet. Tämä kurssi on täysin dokumentoitu ja lähteistetty, mukana on tietenkin monia anekdootteja :
+Onko Bitcoin kuitenkin "oikea" valuutta? Tämän ymmärtämiseksi meidän on ensin ymmärrettävä rahan käsite ja sen eri muodot, joita tarkastelemme seuraavassa luvussa.
+
+Jos haluat tutustua Bitcoinin historiaan tarkemmin, suosittelemme lämpimästi HIS 201 -kurssia, jossa tutustut Bitcoinin alkuperään ja hitaaseen syntyyn sekä sen historian ja yhteisön alkuihin. Tämä kurssi on täysin dokumentoitu ja varustettu lähteillä, ja siinä on tietenkin paljon anekdootteja:
 
 https://planb.network/courses/his201
-
 # Raha
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
-## Rahan kehitys historian saatossa
+## Raha kautta historian
 
 <chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
 
-Rahan evoluutio on ihmiskunnan historian kiehtova osa-alue, joka heijastaa sivilisaatioiden kekseliäisyyttä vastaamaan jatkuvasti muuttuviin taloudellisiin tarpeisiin.
+Rahan kehitys on kiehtova osa ihmiskunnan historiaa, joka kuvastaa sivilisaatioiden kekseliäisyyttä kautta aikojen jatkuvasti kehittyvien taloudellisten tarpeiden tyydyttämisessä.
 
-![kuva](assets/en/06.webp)
+![image](assets/en/06.webp)
 
-### Kuoressa rahasta pankkitileihin
+### Kuorista pankkitileihin
 
-Alun perin valuutta oli konkreettista, usein yhdistetty olennaisiin hyödykkeisiin kuten viljaan, karjaan ja muihin kauppatavaroihin. Kuitenkin näillä hyödykkeillä oli suuria haittoja, kuten pilaantuvuus, mikä teki niiden käytöstä vaikeaa pitkäaikaisena säästövälineenä. Esimerkiksi epäonnistunut sato tai sairaus saattoi tuhota yksilön varallisuuden yhdessä yössä.
-Kun sivilisaatiot kehittyivät ja kauppa laajeni uusille alueille, tarvittiin yleismaailmallista vaihdon välinettä. Koekäytössä oli esineitä, kuten simpukankuoria ja jalokiviä, mutta ne eivät olleet täydellisiä. Kulta lopulta muodostui standardiksi sen harvinaisuuden, kestävyyden ja jaettavuuden vuoksi. Se oli, ja on edelleen tähän päivään asti, vaurauden ja vallan symboli.
+Alun perin raha oli aineellista omaisuutta, kuten viljaa, karjaa tai muuta hyödykettä. Näillä tavaroilla oli kuitenkin se suuri haittapuoli, että ne olivat helposti pilaantuvia, minkä vuoksi niitä oli vaikea käyttää pitkäaikaisena säästövälineenä. Esimerkiksi huono sato tai eläintauti saattoi tuhota yksilön varallisuuden yhdessä yössä.
 
-![kuva](assets/en/07.webp)
+Sivilisaatioiden kehittyessä ja kaupankäynnin laajentuessa uusille alueille syntyi tarve yleismaailmalliselle vaihdon välineelle. Yksilöt kokeilivat ensin esineitä, kuten simpukankuoria ja jalokiviä, mutta ne eivät olleetkaan niin kestäviä tai niukkoja kuin he uskoivat. Lopulta kullasta tuli standardi sen harvinaisuuden, kestävyyden ja jaettavuuden vuoksi. Kulta oli ja on yhä tänäkin päivänä rikkauden ja vallan symboli.
+
+![image](assets/en/07.webp)
 
 ### Mikä on rahan rooli?
 
 Raha on erittäin kehittynyt viestintäväline:
 
-- Se mahdollistaa viestinnän nykyhetken ja tulevaisuuden välillä. Muutamme aikamme ja energiamme hyödykkeeksi, jota voidaan käyttää uudelleen tulevaisuudessa ilman arvon alenemisen riskiä.
-- Se mahdollistaa viestinnän yleismaailmallisella yhteisellä kielellä. Tuntematta toisiaan, puhumatta samaa kieltä, kaksi vierasta voi vaihtaa, käydä kauppaa ja sopia asioiden arvosta.
 
-Sen toimintaa maailmassamme on vaikea keinotekoisesti jäljitellä. Yksikään ihminen tai ihmisryhmä ei voi luoda rahaa; se on luonnollinen sosiaalinen ilmiö, jonka on noustava esiin markkinoilta ja vapaaehtoisesta yhteisymmärryksestä. Hinnat ovat signaaleja, tietoa, joka auttaa yhteiskuntaa päättämään, miten resurssit jaetaan.
+- Se mahdollistaa kommunikoinnin nykyisyyden ja tulevaisuuden välillä, koska se muuttaa aikamme ja energiamme omaisuudeksi, jota voidaan käyttää uudelleen tulevina aikoina ilman devalvaatioriskiä.
+- Se helpottaa viestintää yleismaailmallisella kielellä: tuntematta toisiaan tai puhumatta samaa kieltä kaksi toisilleen tuntematonta ihmistä voi vaihtaa tietoja, käydä kauppaa ja sopia asioiden arvosta.
 
-Kulta rahana on 4 000 vuoden rahatalouden Darwinismin valinta perustuen kolmeen toimintoon:
+Sen toimintaa maailmassamme on vaikea jäljentää keinotekoisesti. Itse asiassa yksikään yksilö tai ryhmä ei voi luoda rahaa, sillä se on luonnollinen ilmiö, jonka on synnyttävä markkinoista ja vapaaehtoisesta yhteisymmärryksestä. Tässä mielessä hinnat toimivat signaaleina ja informaationa, jotka ohjaavat yhteiskuntaa resurssien kohdentamisessa.
 
-- Arvon säilyttäjä
-- Vaihdon väline
-- Tilin yksikkö
+Näistä syistä kulta rahana on tulosta 4000 vuotta jatkuneesta rahapoliittisesta darwinismista, joka perustuu seuraaviin aristoteelisiin toimintoihin:
 
-![kuva](assets/en/08.webp)
-![kuva](assets/en/09.webp)
-![kuva](assets/en/10.webp)
 
-### Rahojen ominaisuudet
+- Arvon säilyttäjä**: rahaa voidaan käyttää ostovoiman siirtämiseen tulevaisuuteen, joten sen on oltava kestävää materiaalia;
+- Vaihtoväline**: rahaa voidaan käyttää tavaroiden ja palvelujen vaihtamiseen vaihtokaupan sijaan, jolloin vältetään kauppiaiden väliset tarpeiden yhteensattumat;
+- Laskentayksikkö**: rahan avulla voimme myös vertailla eri tavaroiden arvoja, jotta ymmärtäisimme paremmin niiden suhteellista edullisuutta.
 
-Kulta täyttää tehokkaan valuutan kriteerit ihanteellisesti: sen luonnollinen harvinaisuus tekee siitä arvokkaan, kun taas sen kemialliset ominaisuudet mahdollistavat sen, ettei se kulu ajan myötä. Tämä rahan muoto ei kuitenkaan ole helposti jaettavissa tai kuljetettavissa pitkiä matkoja. Globalisoituneessa ja digitaalisessa maailmassa kulta ei pysy mukana ja tarvitsee keskitetyn tahon tekemään siitä jaettavan ja helposti vaihdettavan (rahat).
+![image](assets/en/08.webp)
 
-Nämä puutteet ovat tehneet kullasta arvon säilyttäjän, mutta eivät yleistä valuuttaa, valtion luottorahojen (fiat) kustannuksella, jotka ovat helposti käytettävissä, mutta joiden arvoa hallitsevat tahot (kuningas, keskuspankki, keisari, diktaattori) jatkuvasti alentavat.
+![image](assets/en/09.webp)
 
-Tehokkaan valuutan kriteerit ovat moninaiset. Hyvän valuutan tulee olla:
+![image](assets/en/10.webp)
 
-![kuva](assets/en/11.webp)
+### Rahan ominaisuudet
 
-- **Vaihdettavissa**, tarkoittaen vaihdettavissa ilman arvon menetystä
-- **Jaettavissa**, suuruisten maksujen toteuttaminen olisi helppoa
-- **Likvidi**, tarkoittaen helposti muunnettavissa tavaroiksi tai palveluiksi.
+Kulta täyttää ihanteellisesti tehokkaan valuutan kriteerit: sen luonnollinen harvinaisuus tekee siitä arvokkaan, ja sen kemialliset ominaisuudet takaavat, että se ei rapistu ajan myötä. Nämä ominaisuudet ovat tehneet kullasta erinomaisen **arvovaraston**, mutta se ei ole yleinen valuutta, koska tämä rahamuoto ei ole helposti jaettavissa eikä sitä voi kuljettaa pitkiä matkoja. Globalisoituneessa ja digitaalisessa maailmassa kullan on vaikea pysyä mukana, ja se vaatii keskusyksikön, joka tekee siitä jaettavan ja helposti vaihdettavan (esim. lyödyillä kolikoilla).
 
-Näitä kriteereitä täyttääkseen valuutta kehittyy askel askeleelta:
+Sitä vastoin valtion fiduciary-valuutat (fiat) ovat helposti käytettäviä, mutta niitä hallitsevat tahot (kuninkaat, keskuspankit, keisarit, diktaattorit) devalvoivat niitä jatkuvasti.
 
-- Raakakivi -> Kolikko
+Tämän käsitteen selittämiseksi tarkemmin tarkastelemme tehokkaan valuutan ominaisuuksia:
+
+![image](assets/en/11.webp)
+
+
+- Fungibiliteetti**, mikä tarkoittaa, että se on vaihdettavissa toiseen samanlaiseen yksikköön menettämättä arvoa;
+- Jaettavuus**, koska se voidaan jakaa pienempiin yksiköihin, jotta voidaan helpottaa erisuuruisia liiketoimia;
+- Likviditeetti**, mikä tarkoittaa, että se on helposti vaihdettavissa tavaroiksi tai palveluiksi.
+
+Näiden kriteerien täyttämiseksi valuutta on historiallisesti kehittynyt eri vaiheissa:
+
+
+- Raakakivi -> kolikko
 - Seteli -> Pankkikortti
-- Lohkoketju -> Lightning Network
+- Lohkoketju -> Salamaverkko
 
-Nykyään valuutat kehittyvät edelleen, mukauttaen muotojaan vastaamaan erilaisia käyttötarkoituksia. Esimerkiksi vaikka kulta on erinomainen arvon säilyttäjä, se ei sovellu nykyiseen globalisoituneeseen talouteen. Samoin luottorahat, kuten dollari ja euro, ovat erittäin likvidejä ja helposti kuljetettavissa, koska ne ovat nykyään pääasiassa digitaalisia, mutta niiden arvoa jatkuvasti syö rahapoliittinen inflaatio.
+Valuutat kehittyvät edelleen tähän päivään asti, ja niiden muotoja mukautetaan eri käyttötarkoituksiin. Kuten sanoimme, vaikka kulta on erinomainen arvovaluutta, se ei enää sovi nykyiseen globalisoituneeseen talouteen. Vastaavasti dollarin ja euron kaltaiset fiduciary-valuutat ovat erittäin likvidejä ja helposti kuljetettavia, koska ne ovat nykyään enimmäkseen digitaalisia, mutta niiden arvoa laskee jatkuvasti rahan inflaatio.
 
-Toisaalta Bitcoin tarjoaa uusia mahdollisuuksia. Sen ominaisuudet, kuten sen tiukasti rajattu tarjonta, tarjoavat erinomaisen arvon säilyttäjänä. Lisäksi, neutraalina internet-valuuttana, se edustaa hyvää vaihdon välinettä, joka ei tunne rajoja. Se ei kuitenkaan vielä tänä päivänä ole laajalti hyväksytty kaupankäynnissä, huolimatta [jatkuvasta lisääntyvästä käyttöönotosta](https://btcmap.org/map).
+Toisaalta Bitcoin tarjoaa uusia mahdollisuuksia. Sen ominaisuudet, kuten tiukasti rajoitettu tarjonta, tekevät siitä erinomaisen arvosäilön. Neutraalina internet-valuuttana se toimii lisäksi elinkelpoisena **vaihtovälineenä**, joka ylittää rajat. Sitä ei kuitenkaan vielä nykyäänkään hyväksytä laajasti kaupankäynnissä, vaikka se [otetaan jatkuvasti käyttöön] (https://btcmap.org/map).
 
-
-
-## Luottorahat
+## Fiduciary valuutat
 
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
-"Ne, jotka eivät opi historiasta, ovat tuomittuja toistamaan samat virheet," sanoi George Santayana. Totuus, joka resonoi erityisesti nykyisen rahajärjestelmän kohdalla.
+> "Ne, jotka eivät muista menneisyyttä, ovat tuomittuja toistamaan sitä", sanoi George Santayana.
+Totuus, joka on hyvin samansuuntainen, kun on kyse nykyisestä rahajärjestelmästä.
 
-### Luottoraha = luottamus
+### Fiduciary = luottamus
 
-Nykyään suuret valuutat, kuten euro ja dollari, katsotaan luottorahoiksi. Tämä tarkoittaa, että niillä ei ole sisäistä arvoa. Niiden arvo perustuu täysin luottamukseen ja uskoon, jonka asetamme niitä sääteleviin instituutioihin.
+Nykyään tärkeimpiä valuuttoja, kuten euroa ja dollaria, pidetään uskottavina. Tämä tarkoittaa, että niillä ei ole itseisarvoa, vaan ne ovat täysin riippuvaisia luottamuksesta, jonka annamme niitä hallinnoiville instituutioille.
 
-Luottamusvaluutta on valuutan muoto, jonka instituutio, kuten kansakunta, kuten Kiina Yuanin kanssa, tai poliittis-taloudellinen unioni, kuten Euroopan unioni Euron kanssa, julistaa valuutaksi. Luottamusvaluutan liikkeeseenlaskijana toimii keskuspankki (Esimerkiksi voidaan mainita Kiinan Kansanpankki, Yhdysvaltain Federal Reserve tai Guinean tasavallan keskuspankki). Nämä tahot ovat vastuussa rahapolitiikan päätöksistä ja siitä, kuinka paljon rahaa tulisi liikkeelle laskea tai painaa.
+Fidusiaarinen valuutta on rahan muoto, jonka jokin instituutio, esimerkiksi valtio, kuten Kiinan juan, tai poliittis-taloudellinen unioni, kuten Euroopan unionin euro, on määrännyt sellaiseksi. Sen liikkeeseenlaskusta vastaa keskuspankki (esimerkiksi Kiinan keskuspankki, Yhdysvaltain keskuspankki tai Guinean tasavallan keskuspankki). Juuri nämä tahot vastaavat rahapolitiikan muotoilusta ja näin ollen siitä, kuinka paljon rahaa on laskettava liikkeeseen tai painettava.
 
-![kuva](assets/en/12.webp)
+![image](assets/en/12.webp)
 
-### Rahan arvon alentaminen: Strategia yhtä vanha kuin Rooman valtakunta
+### Rahan devalvaatio: strategia on yhtä vanha kuin Rooman valtakunta
 
-Jo antiikin ajoista lähtien kulta on toiminut rahallisen viitearvon roolissa. Sen jäykkyys on kuitenkin usein johtanut johtajia - olivatpa he sitten Rooman keisareita tai nykyaikaisia hallituksia - omaksumaan vaihtoehtoisia valuuttoja, usein fidusiaarisia.
+Kulta on antiikista lähtien toiminut rahan viitekehyksenä, mutta sen jäykkyys on usein saanut johtajat, niin Rooman keisarit kuin nykyaikaiset hallituksetkin, ottamaan käyttöön vaihtoehtoisia valuuttoja, jotka ovat usein fidusiaarisia.
 
-Mekanismi on yksinkertainen ja se on saanut inspiraationsa käytännöistä, jotka ovat olleet olemassa sivilisaation alkuaikoina. Johtajat, jotka ovat innokkaita hallitsemaan varallisuutta, aloittavat keräämällä kultaa, usein hyödyntämällä valtaansa ja luvaten suojelua ja turvallisuutta. Tämä arvokas varanto käsissään he esittelevät uuden valuutan, joka on arvoltaan vastaava kullan kanssa, mutta lyöty heidän kuvallaan. Tämä valuutta alkaa sitten kiertää, ja ihmiset tottuvat nopeasti sen mukavuuteen.
+Mekanismi on yksinkertainen, ja se perustuu käytäntöihin, joita on ollut olemassa sivilisaation alkulähteistä lähtien. Johtajat, jotka haluavat hallita rikkauksia, aloittavat keskittämällä kultaa, usein hyödyntämällä valtaansa ja lupaamalla suojelua ja turvallisuutta. Kun tämä kallisarvoinen varanto on heidän käsissään, he ottavat käyttöön uuden valuutan, joka vastaa arvoltaan kultaa, mutta joka on lyöty heidän kuvakseen. Sitten tämä valuutta alkaa kiertää, ja ihmiset sopeutuvat nopeasti sen helppokäyttöisyyteen.
 
-Vähitellen nämä johtajat salaa devalvoivat uutta valuuttaa, alentaen sen arvoa verrattuna alkuperäiseen kultaan muutamalla prosentilla joka vuosi. Tämä hiljainen devalvaatio perustellaan usein olevan kansan edun mukaista. Näin ollen ne, jotka säästävät tässä fidusiaarisessa valuutassa, näkevät säästöjensä arvon eroosion, kun taas valtio rahoittaa hankkeitaan inflaation kautta. Lisäksi tämä devalvaatio helpottaa velan maksua.
+Tämän jälkeen nämä johtajat alkavat kuitenkin vähitellen devalvoida uutta valuuttaa, jolloin sen arvo tosiasiassa laskee vuosittain muutaman prosentin alkuperäiseen kullan hintaan verrattuna. Tätä hiljaista devalvaatiota perustellaan usein sillä, että se on kansan edun mukaista. Todellisuudessa ne, jotka säästävät tässä uskotussa valuutassa, näkevät säästöjensä arvon heikkenevän, kun taas valtio rahoittaa hankkeitaan inflaation avulla. Lisäksi devalvaatio helpottaa velkojen takaisinmaksua.
 
-![kuva](assets/en/13.webp)
+![image](assets/en/13.webp)
 
-Kriittisellä hetkellä ilmoitus tehdään: valuutta ei ole enää tuettu kullalla. Yleisö, joka on nyt tottunut fidusiaariseen valuuttaan ja on usein väärin informoitu rahoitusasioista, hyväksyy tämän todellisuuden. Valtiolla on nyt vapaat kädet manipuloida rahamäärää, painamalla valtavia summia rahaa lähes ilman kustannuksia.
+Kriittisellä hetkellä johtaja tekee ilmoituksen: valuutan vakuutena ei ole enää kultaa. Yleisö, joka on nyt tottunut uskottuun valuuttaan ja joka on usein saanut väärää tietoa rahoitusasioista, hyväksyy tämän todellisuuden, jolloin valtio voi vapaasti manipuloida rahan määrää ja painaa valtavia rahamääriä lähes ilmaiseksi.
 
-Tämä strategia, kun se toteutetaan hyvin, voi kestää vuosikymmeniä. Kuitenkin liian nopea devalvaatio tai luottamuksen menetys voi johtaa hyperinflaatioon (ks. seuraava luku). Historia osoittaa, että dollari on menettänyt 98% arvostaan 100 vuodessa, euro 30% 20 vuodessa ja punta sterling 99% sen luomisesta.
+Rahan painaminen johtaa inflaatioon ja köyhdyttää vähitellen väestöä. Lisäksi rahoitusjärjestelmää säännellään ja rajoitetaan sen romahtamisen välttämiseksi, sillä kaikki häiriöt voivat aiheuttaa suuren talouskriisin. Toisin kuin massat, rahoituslaitokset ja varakkaat yksilöt hyötyvät suuresti tästä järjestelmästä, mikä luo epätasa-arvoa ja suosii autoritaarista järjestelmää. Tässä yhteydessä heitä ei kannusteta tekemään radikaaleja muutoksia, jolloin järjestelmä voi jatkaa kulkuaan mahdolliseen romahdukseen asti.
 
-Lopulta valuutta ei ehkä enää ole millään tavalla yhteydessä kultaan, muistuttaen Rooman valtakunnan lopun ajan kolikoita, tai se voi jopa olla pelkästään numeerinen arvo, irtautunut konkreettisesta todellisuudesta.
+Hyvin toteutettuna tämä strategia voi kestää vuosikymmeniä. On kuitenkin tärkeää huomata, että hyvin nopea devalvaatio tai luottamuksen menettäminen voi johtaa hyperinflaatioon (ks. seuraava luku). Historia osoittaa, että dollari on menettänyt 98 prosenttia arvostaan sadassa vuodessa, euro 30 prosenttia 20 vuodessa ja Englannin punta 99 prosenttia perustamisestaan.
 
-Tänään olemme historiallisen käännekohdan äärellä. Dollari, joka on pitkään hallinnut, vaikuttaa olevan laskussa, ja kulta on menettänyt keskeisen paikkansa. Olemme uuden rahallisen syklin kynnyksellä, muistuttaen meitä siitä, että historian opetukset usein unohdetaan.
+Lopulta valuutalla ei ehkä enää ole mitään yhteyttä kultaan, kuten roomalaisilla kolikoilla valtakunnan lopussa, tai se voi jopa pelkistyä pelkäksi numeeriseksi arvoksi, joka on irrallaan konkreettisesta todellisuudesta.
 
-![kuva](assets/en/14.webp)
+Olemme tänään todistamassa historiallista käännekohtaa. Dollari, joka on pitkään hallinnut markkinoita, näyttää olevan laskussa, kun taas kulta on menettänyt keskeisen asemansa. Olemme uuden rahasyklin kynnyksellä, mikä muistuttaa meitä siitä, että historian opetukset unohtuvat usein
+
+![image](assets/en/14.webp)
 
 ### Onko Bitcoin ratkaisu?
 
-Juuri tässä kontekstissa Bitcoin-vallankumous on saamassa vauhtia. Tämä valuutta, joka **ei vaadi luotettua kolmatta osapuolta**, pyrkii erottamaan valtion ja rahan toisistaan.
+Näiden lähtökohtien vuoksi Bitcoin-vallankumous on saamassa vauhtia. Toisin kuin aiemmat valuutat, se ei vaadi **kolmatta luotettavaa osapuolta** ja pyrkii erottamaan valtion rahasta.
 
-Rahan painaminen johtaa inflaatioon, vähitellen köyhdyttäen väestöä. Toisaalta, rahoituslaitokset ja varakkaat yksilöt ovat hyötyneet tästä käytännöstä, luoden epätasa-arvon kuilun ja suosien autoritarismia. Nykyinen rahoitusjärjestelmä on tarkkaan säädelty ja rajoitettu, pyrkien välttämään sen romahtamista, ja mikä tahansa häiriö voisi aiheuttaa suuren talouskriisin. Koska poliittiset toimijat hyötyvät tästä järjestelmästä, heillä ei ole kannustinta tehdä radikaaleja muutoksia, sallien järjestelmän jatkavan kulkuaan mahdolliseen romahdukseen saakka.
+![image](assets/en/15.webp)
 
-Samanaikaisesti keskuspankkien digitaalisten valuuttojen, eli CBDC:iden, esiinmarssi vaikuttaa väistämättömältä. Tämä uudenlainen valuutta tarjoaisi keskitetymmän suunnitellun talouden, mikä voisi rajoittaa yksilöiden taloudellista vapautta ja helpottaa autoritaaristen väärinkäytösten toteutumista.
-Voimme päätellä tämän luvun lainauksella Nobel-palkinnon voittajalta F.A Hayekilta vuodelta 1984: "En usko, että löydämme koskaan hyvää valuuttaa, ennen kuin otamme sen pois hallituksen käsistä. Emme kuitenkaan voi väkivalloin ottaa sitä heiltä; kaikki mitä voimme tehdä, on tuoda esiin jotakin, mitä he eivät voi estää nokkelalla juonittelulla."
+Itse asiassa Bitcoin on vastaus näihin systeemisiin haasteisiin ehdottamalla hajautettua ratkaisua ja uutta rinnakkaista rahajärjestelmää. Historiallisesti kultaa on suosittu valuuttana sen väärentämisen vastustuskyvyn vuoksi, mutta Bitcoinia ei myöskään voi väärentää. Lisäksi se on rajoitettu 21 miljoonaan yksikköön sen hajautetun ja kryptografisen luonteen ansiosta. Bitcoin on läpinäkyvyyteen ja puolueettomuuteen perustuva valuutta, joka tarjoaa houkuttelevan vaihtoehdon nykyiselle keskitetylle rahajärjestelmälle.
 
+![image](assets/en/16.webp)
 
+Toinen syy, miksi Bitcoin on saanut huomiota, on keskuspankkien digitaalisten valuuttojen eli CBDC:iden syntyminen, joka vaikuttaa väistämättömältä. Tämä uusi rahamuoto kehittäisi keskitetymmin suunniteltua taloutta, ja se voisi sekä estää yksilöiden taloudellista vapautta että helpottaa autoritaarisia väärinkäytöksiä.
 
-Jos haluat oppia lisää taloudellisista harhaluuloista ja vapaudesta, suosittelen tutustumaan ECO 102 -kurssiimme. Tämä kurssi käsittelee Frédéric Bastiatin, 1800-luvun ranskalaisen ajattelijan, elämää ja ajatuksia, joka epäilemättä olisi arvostanut Bitcoinin syntyä :
+Voimme päättää tämän luvun lainaukseen, jonka Nobel-palkinnon voittaja F. A. Hayek esitti vuonna 1984:
+
+> "En usko, että meillä pitäisi olla enää koskaan kunnon rahaa, ennen kuin otamme asian pois hallituksen käsistä. Jos emme voi ottaa niitä väkivaltaisesti pois hallituksen käsistä, voimme vain ottaa käyttöön jollakin ovelalla tai kiertoteitse jotain, mitä he eivät voi estää."
+Jos haluat oppia lisää taloudellisista virheistä ja vapaudesta, kutsumme sinut tutustumaan ECO 102 -kurssillemme, jossa käydään läpi 1800-luvun ranskalaisen ajattelijan Frédéric Bastiat'n elämää ja ajatuksia, ja hän olisi varmasti arvostanut Bitcoinin syntyä:
 
 https://planb.network/courses/eco102
-
 ## Hyperinflaatio
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
-Hyperinflaatio on fiat-valuuttoihin liittyvä rahailmiö. Sen tunnusmerkkejä ovat täydellinen luottamuksen menetys valuuttaan ja inflaation dramaattinen nousu viranomaisten rahanpainannan seurauksena. Tämän seurauksena yksilöiden kerryttämät säästöt voivat haihtua suhteellisen lyhyessä ajassa, työntäen maan talouden, sosiaalisen ja poliittisen romahduksen partaalle.
+Hyperinflaatio on rahapoliittinen ilmiö, joka on ominaista fiat-valuutoille: se on tunnettu siitä, että luottamus valuuttaan katoaa täysin ja inflaatio kasvaa rajusti viranomaisten rahapainamisen seurauksena. Tämän seurauksena yksityishenkilöiden keräämät säästöt voivat haihtua suhteellisen lyhyessä ajassa, jolloin maa ajautuu taloudellisen, sosiaalisen ja poliittisen romahduksen partaalle.
 
-### Inflaatio Riehuu!
+### Inflaatio villiintyy!
 
-Yritetään ymmärtää inflaation vaikutusta säästöihin tarkastelemalla erilaisia inflaatioasteita.
+Ymmärtääksemme inflaation vaikutusta säästöihin meidän on otettava huomioon erilaiset inflaatiovauhdit.
 
-- 2% inflaatiolla menetät 2% ostovoimastasi vuosittain, mikä on 10% viiden vuoden aikana.
-- 7% inflaatiolla menetät puolet siitä kymmenessä vuodessa.
-- 20% inflaatiolla menetät melkein puolet siitä kolmessa vuodessa.
 
-Hyperinflaation aikana emme enää puhu 20% vuodessa, vaan pikemminkin 20% kuukaudessa tai huipussaan päivässä. 100% inflaatio päivässä kolmen päivän ajan on realistinen skenaario, joka on tapahtunut ja tapahtuu edelleen maailmassamme.
+- Kun inflaatio on 2 %, menetät vuosittain 2 % ostovoimastasi, mikä tarkoittaa 10 % viiden vuoden aikana.
+- Jos sijoitus on 7 prosenttia, menetät puolet siitä 10 vuodessa.
+- 20 prosentilla menetät lähes puolet siitä kolmessa vuodessa.
 
-On tärkeää ymmärtää, että hyperinflaatio ei tapahdu taikavoimalla, sattumalta, kapitalismin tai poliittisten vastustajien toimesta. Hyperinflaatio on suoraa seurausta virheellisistä rahapoliittisista päätöksistä, joita keskuspankkien johtajat ja poliitikot tekevät. Sen seuraukset vaikuttavat kaikkiin kansalaisiin ja tulevat vaikuttamaan sukupolviin. Kutsun sinut viettämään 5 minuuttia tämän taulukon tutkimiseen ymmärtääksesi tämän ilmiön todellisen vaikutuksen (ECON204-kurssi käsittelee tätä aihetta yksityiskohtaisesti)."
+Kun hyperinflaatio alkaa, emme enää puhu 20 prosentista vuodessa vaan pikemminkin 20 prosentista kuukaudessa tai, huippuajankohtana, jopa päivässä. 100 prosentin inflaatio päivässä kolmen päivän aikana on realistinen skenaario, joka on tapahtunut ja tapahtuu edelleen maailmassamme.
 
-![kuva](assets/en/17.webp)
+On tärkeää ymmärtää, että hyperinflaatio ei tapahdu sattumalta, kapitalismin tai vastustajien poliittisten hyökkäysten vuoksi. Hyperinflaatio on suora seuraus keskuspankkiirien ja poliitikkojen tekemistä huonoista rahapoliittisista päätöksistä. Sen jälkiseuraukset vaikuttavat jokaiseen kansalaiseen ja jopa seuraaviin sukupolviin. Pyydämme teitä käyttämään viisi minuuttia seuraavan taulukon lukemiseen, jotta voitte täysin ymmärtää tämän ilmiön todelliset vaikutukset (ECO204-kurssilla syvennytään aiheeseen tarkemmin). Kuten näet, mikään maa tai valuutta ei ole potentiaalisesti turvallinen.
 
-### Miten Hyperinflaatio Tapahtuu?
+![image](assets/en/17.webp)
 
-![kuva](assets/en/18.webp)
+### Mitkä ovat hyperinflaation vaiheet?
 
-Vaihe 1 - Luottamuksen menetys
+![image](assets/en/18.webp)
 
-- Rahan luomisen keskittäminen helpottaa rahan luomista ja sen väärinkäytöksiä. Valuutan luottamuksen menetys voi sitten ilmetä ja laukaista hyperinflaation. Yksilöt alkavat kyseenalaistaa rahan alkuperän ja määrätyn rahapolitiikan hyödyt. Tämä luottamuksen menetys johtuu yleensä ulkoisista tekijöistä, kuten sodista, sosiaalisista toimenpiteistä tai avainresurssin, kuten vehnän tai bensiinin, hinnannoususta.
+Hyperinflaation syntyminen edellyttää tiettyjä tapahtumia.
 
-Vaihe 2 - Valuutan romahdus & hinnannousu
+Vaihe 1 - Luottamuksen menettäminen
 
-- Kun hallitukset menettävät luottamuksen hallintaansa, yksilöt alkavat vaihtaa valuuttansa toiseen, vakavampaan, kuten Yhdysvaltain dollariin Venezuelassa. Tämä johtaa hintojen nousuun, luoden noidankehän, jossa tavarat ja palvelut muuttuvat yhä kalliimmiksi. Täyttääkseen nämä tarpeet, valtio painaa lisää rahaa korjatakseen rahapolitiikkaa, mikä johtaa eksponentiaaliseen inflaatioon.
-  Vaihe 3 - Noidankehä rahan painamisessa
 
-- Tavaroiden ostamiseen tarvitaan yhä enemmän seteleitä, mikä luo paperirahan pulaan. Tämä johtaa lisää setelien painamiseen, luoden vielä enemmän inflaatiota.
+- Rahavallan keskittäminen helpottaa rahan luomista ja sen väärinkäyttöä. Tässä yhteydessä jotkin ulkoiset tekijät voivat laukaista hyperinflaation, tyypillisesti sodat, sosiaaliset toimenpiteet tai keskeisten resurssien, kuten vehnän tai bensiinin, hinnannousu. Näin voi syntyä luottamuksen menetys valuuttaan, ja yksilöt alkavat kyseenalaistaa rahan alkuperän ja valtuutetun rahapolitiikan hyödyt.
 
-![kuva](assets/en/19.webp)
+Vaihe 2 - Valuutan romahtaminen ja hintojen nousu
 
-Vaihe 4 - Uusi valuutta ilmestyy
 
-- Uusi valuutta esitellään korvaamaan vanha. Merkittävä esimerkki hyperinflaatiosta on Saksa vuosina 1920-1924. Talouden elvyttämiseksi luotiin uusi valuutta, joka oli tuettu Saksan, Ranskan ja Englannin veloilla ja turvattu Saksan mailla.
+- Kun hallitukset menettävät luottamuksen hallinnan, yksityishenkilöt alkavat vaihtaa valuuttansa vakaampaan, kuten tapahtui Venezuelassa Yhdysvaltain dollarin kanssa. Tämä johtaa hintojen nousuun ja luo noidankehän, jossa tavarat ja palvelut kallistuvat. Näiden tarpeiden tyydyttämiseksi ja rahapolitiikan korjaamiseksi valtio painaa lisää rahaa, mikä johtaa eksponentiaaliseen inflaatioon.
 
-Hyperinflaatiokriisin ratkaiseminen vaatii usein radikaaleja muutoksia, kuten vallankumouksia, hallituksen vaihdoksia, keskuspankkien vaihdoksia, muiden muassa. Luottamuksen menetys, valuutan romahdus ja uudelleenrakennus ovat olennaisia vaiheita uuden, fiat-valuuttaan perustuvan talouden elvyttämiseksi.
+Vaihe 3 - Rahan painamisen noidankehä
 
-### 3 merkittävää esimerkkiä
 
-- Saksa, 1922-1923
+- Tavaroiden ostamiseen tarvitaan siis yhä enemmän seteleitä, mikä johtaa paperirahan niukkuuteen. Tämän vuoksi hallitukset turvautuvat uusien seteleiden painamiseen, mikä kiihdyttää inflaatiota entisestään.
 
-  Yksi silmiinpistävimmistä hyperinflaation esimerkeistä tapahtui Saksan Weimarin tasavallassa ensimmäisen maailmansodan jälkeen.
+![image](assets/en/19.webp)
 
-  Saksa oli lainannut valtavia summia rahaa sodan rahoittamiseen, eikä Saksa ainoastaan hävinnyt sotaa, vaan sen piti maksaa miljardeja dollareita korvauksia. Korkeimman inflaation kuukausi oli lokakuu 1923, huipussaan 29 500 %, eli inflaatiovauhti oli 20,9 % päivässä. Hinnat kaksinkertaistuivat joka 3,7 päivässä!
-  Sanotaan, että ravintoloissa tarjoilijoiden piti ilmoittaa ruokalistan hinnat joka 30 minuutissa inflaation vuoksi. Saksan valuutta muuttui niin arvottomaksi, että jotkut kansalaiset mieluummin polttivat paperirahansa kuin puuta, koska se oli itse asiassa halvempaa.
+Vaihe 4 - Uuden valuutan syntyminen
 
-  ![kuva](assets/en/20.webp)
+
+- Tämän jälkeen vanha valuutta korvataan uudella valuutalla, jotta inflaatiokierre saadaan katkaistua toteuttamalla tiukempia valvontatoimia, joita ei ollut käytössä edellisessä laillisessa maksuvälineessä.
+
+Hyperinflaatiokriisin ratkaiseminen edellyttää usein radikaaleja muutoksia, kuten vallankumouksia, hallituksen vaihtamista, keskuspankkiirien vaihtamista ja niin edelleen. Luottamuksen menettäminen, valuutan romahtaminen ja jälleenrakentaminen ovat olennaisia vaiheita fiat-valuuttaan perustuvan talouden elvyttämiseksi.
+
+### Kolme merkittävää esimerkkiä
+
+
+- Saksa, 1922-1923.
+
+Yksi räikeimmistä esimerkeistä hyperinflaatiosta tapahtui Saksan Weimarin tasavallassa ensimmäisen maailmansodan jälkeen.
+
+Saksa oli lainannut valtavia summia rahaa sodan rahoittamiseksi. Saksa ei kuitenkaan vain menettänyt sitä, vaan sen oli maksettava miljardeja dollareita korvauksina. Korkeimman inflaatiovauhdin kuukausi oli lokakuu 1923, jolloin inflaatio oli korkeimmillaan 29 500 prosenttia, mikä vastasi 20,9 prosentin inflaatiota päivässä. Hinnat kaksinkertaistuivat 3,7 päivän välein!
+
+Saksan valuutasta tuli niin hyödytöntä, että jotkut kansalaiset polttivat mieluummin paperirahansa puun sijasta, koska se oli itse asiassa halvempaa. Kerrotaan jopa, että ravintoloissa tarjoilijoiden oli ilmoitettava ruokalistan hinnat 30 minuutin välein inflaation huomioon ottamiseksi.
+
+Lopulta viranomaiset loivat uuden valuutan, jonka vakuutena olivat Saksan, Ranskan ja Englannin velat ja takuuna Saksan maa-alueet.
+
+![image](assets/en/20.webp)
+
 
 - Unkari, 1945-1946
 
-  Maa, joka on kokenut historian pahimman hyperinflaation jakson tähän mennessä, on ehdottomasti Unkari toisen maailmansodan jälkeen.
+Toisen maailmansodan jälkeen pahimman hyperinflaation kokenut maa on ehdottomasti Unkari.
 
-  Unkari oli sodan häviävällä puolella ja sota oli tuhonnut suurimman osan sen teollisesta tuotantokapasiteetista. Korkeimman inflaation kuukausi oli heinäkuu 1946, hintainflaatio oli 41 900 000 000 000 000 %, mikä vastaa 207 % päivässä. Hinnat kaksinkertaistuivat joka 15 tunnissa!
+Unkari joutui konfliktin hävinneelle puolelle, ja suurin osa sen teollisesta tuotantokapasiteetista tuhoutui. Korkein inflaatiokuukausi oli heinäkuu 1946, jolloin häkellyttävä hintainflaatio oli 41 900 000 000 000 000 000 prosenttia, mikä vastaa 207 prosenttia päivässä. Hinnat kaksinkertaistuivat 15 tunnin välein!
 
-  Viimeinen liikkeeseen laskettu seteli oli 100 miljoonan miljardin pengon (100 000 000 000 000 000) seteli vuonna 1946.
+Viimeinen liikkeelle laskettu seteli oli 100 miljoonan miljardin pengon (100 000 000 000 000 000 000 000) seteli vuonna 1946.
 
-![kuva](assets/en/21.webp)
+![image](assets/en/21.webp)
+
 
 - Zimbabwe, 2007-2008
-  Vuoteen 2000 asti Zimbabwe oli itse riittävä lähes kaikissa tarpeissaan paitsi öljyssä.
 
-  Vuonna 1997 Zimbabwen dollari romahti yli 72 % sen jälkeen, kun hallitus suostui korvaamaan sotaveteraaneille summan, joka vastasi 450 miljoonaa Yhdysvaltain dollaria. Koska hallituksella ei ollut tällaista summaa kassassaan, sen oli turvauduttava painokoneen käyttöön. Vuonna 2005 inflaatio saavutti 586 % ja maaliskuussa 2007 kuukausi-inflaatio saavutti 50 %.
+Vuoteen 2000 asti Zimbabwe oli omavarainen lähes kaikkien tarpeidensa suhteen öljyä lukuun ottamatta.
 
-  Kesäkuussa 2007 hallitus reagoi asettamalla hintakontrolleja. Kaupat kirjaimellisesti "ryöstettiin". Kauppiailla ei enää ollut keinoja täyttää hyllyjään.
-  Huhtikuussa 2009 rahoitusministeri ilmoitti Zimbabwen dollarin käytön keskeyttämisestä ja salli eri ulkomaisten valuuttojen käytön kaupankäynnissä. Kaikkien pankkitilien, eläkkeiden ja rahoituslaitosten saldot haihtuivat yön yli.
-  ![kuva](assets/en/15.webp)
+Vuonna 1997 Zimbabwen dollari romahti yli 72 prosenttia sen jälkeen, kun hallitus suostui maksamaan sotaveteraaneille 450 miljoonan Yhdysvaltain dollarin suuruisen korvauksen. Koska hallituksella ei ollut tällaista summaa varastoissaan, se turvautui painokoneen käyttöön. Vuonna 2005 inflaatio oli 586 prosenttia, mutta huippu oli marraskuun 2008 puolivälissä, jolloin inflaatio oli arviolta 79 600 000 000 prosenttia kuukaudessa.
 
-Yhteenvetona voidaan todeta, että hyperinflaatio johtaa nopeasti valuutan arvon heikkenemiseen, mikä puolestaan kuluttaa säästöjä ja heikentää luottamusta rahajärjestelmään. Kuten Voltaire kerran ehdotti, fiat-valuutta menettää aina lopulta sisäisen arvonsa ja lähestyy nollaa.
-"Valuutta, joka perustuu luotettuun kolmanteen osapuoleen, kuten rahoituslaitokseen, on käytännössä ja pitkällä aikavälillä viallinen valuutta, koska se ei kykene takaamaan ostovoimaa tai säilyttämään säästöjä.
+Hallitus oli jo kesäkuussa 2007 reagoinut asiaan määräämällä hintasäännöstelyä, mutta tällä toimella ei ollut vaikutusta talouteen. Kauppoja kirjaimellisesti "ryöstettiin", eikä kauppiailla ollut enää varaa täydentää kauppojaan.
 
+Huhtikuussa 2009 valtiovarainministeri ilmoitti Zimbabwen dollarin käytön keskeyttämisestä ja antoi luvan käyttää eri valuuttoja kaupankäynnissä. Kaikkien pankkitilien, eläkkeiden ja rahoituslaitosten saldot haihtuivat yhdessä yössä.
 
+![image](assets/en/15.webp)
 
-Jos haluat syventyä hyperinflaatioihin, suosittelen David St-Ongen ECO 204 -kurssia. Kurssilla opit, mitä hyperinflaatiokierrot ovat ja miten ne vaikuttavat elämäämme. Löydät myös näiden kierrosten samankaltaisuudet ja ennen kaikkea, kuinka suojautua niiltä:
+Hyperinflaation seurauksena valuutan arvo heikkenee nopeasti, mikä johtaa säästöjen vähenemiseen ja luottamuksen menettämiseen rahajärjestelmään. Kuten Voltaire aikoinaan totesi, fiat-valuutta menettää aina lopulta itseisarvonsa ja lähentyy kohti nollaa.
+
+Valuutta, joka on riippuvainen luotetusta kolmannesta osapuolesta, kuten rahoituslaitoksesta, on käytännössä ja pitkällä aikavälillä puutteellinen, koska se ei pysty takaamaan ostovoimaa tai säilyttämään säästöjä.
+
+Jos haluat syventyä hyperinflaatioihin, suosittelemme David St-Ongen ECO 204 -kurssia, jossa opit, mitä hyperinflaatiosyklit ovat ja mitä todellisia vaikutuksia niillä on elämäämme. Saat myös selville näiden syklien väliset yhtäläisyydet ja, mikä tärkeintä, miten voit suojautua niiltä.
 
 https://planb.network/courses/eco204
-
 ## 21 miljoonaa bitcoinia
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
 
 ### Bitcoinin rahapolitiikka
 
-Bitcoin on hajautettu digitaalinen valuutta, jonka ennalta määrätty maksimimäärä on **21 miljoonaa yksikköä**. Tämä niukkuuden sisäsyntyinen ominaisuus määräytyy sen tietokonekoodin perusteella ja vahvistetaan kaikkien protokolliin osallistuvien käyttäjien konsensuksella.
+Bitcoin on hajautettu digitaalinen valuutta, jonka ennalta määritelty enimmäismäärä on **21 miljoonaa yksikköä**. Tämä niukkuuden luontainen ominaisuus määräytyy sen tietokonekoodin perusteella, ja sitä vahvistaa kaikkien protokollaan osallistuvien käyttäjien yksimielisyys.
 
-![kuva](assets/en/22.webp)
+![image](assets/en/22.webp)
 
-Sen rahantuoton osalta sitä voidaan havainnollistaa S-käyrällä, joka esittää ajan myötä luotujen bitcoinien määrää. Esimerkiksi vuonna 2022 liikkeessä oli noin 18,5 miljoonaa bitcoinia. Ennusteiden mukaan vuoteen 2025 mennessä bitcoinien määrä on noin 19,5 miljoonaa, mikä edustaa ~93% kokonaistarjonnasta, ja vuoteen 2037 mennessä tämä luku saavuttaa 20,4 miljoonaa.
+Sen rahan liikkeeseenlaskua voidaan havainnollistaa käyrällä, joka kuvaa luotujen bitcoinien määrää ajan myötä. Esimerkiksi vuonna 2022 liikkeessä oli noin 18,5 miljoonaa bitcoinia. Ennusteiden mukaan vuoteen 2025 mennessä bitcoineja on noin 19,5 miljoonaa, mikä vastaa noin 93 prosenttia kokonaistarjonnasta, ja vuoteen 2037 mennessä määrä on 20,4 miljoonaa.
 
-### Kuinka uusia bitcoineja luodaan?
+### Miten uusia bitcoineja luodaan?
 
-Uusien bitcoinien luominen on seurausta louhintaprosessista, menetelmästä Bitcoin-verkon tapahtumien vahvistamiseksi.
+Uusien bitcoinien luominen on louhintaprosessin tulos. Lyhyesti sanottuna louhijat käyttävät tehokkaita tietokoneita, jotka ratkaisevat monimutkaisia matemaattisia ongelmia, jotka validoivat ja turvaavat transaktioita. Kun ongelma on ratkaistu, louhija lisää uuden transaktiolohkon lohkoketjuun, joka on hajautettu ja hajautettu pääkirja, johon kirjataan kaikki verkossa tehdyt transaktiot. Lohkoketju takaa läpinäkyvyyden ja turvallisuuden, sillä jokainen lohko on yhteydessä edelliseen lohkoon, joten aiempien tietojen muuttaminen on lähes mahdotonta ilman verkon yksimielisyyttä.
 
-![kuva](assets/en/23.webp)
+![image](assets/en/23.webp)
 
-Louhijat, jotka suorittavat tämän tehtävän, palkitaan uusien bitcoinien liikkeeseenlaskulla joka kymmenes minuutti. Tämä palkkio on ohjelmoitu puolittumaan joka 210 000 lohkon jälkeen, mikä on suunnilleen joka neljäs vuosi, tapahtumaa kutsutaan "halvingiksi" -- antaen rahantuoton käyrälle portaita muistuttavan muodon. Tämän puolittumismekanismin ansiosta voidaan matemaattisesti ennustaa, että bitcoinien luominen päättyy vuonna 2140, kun bitcoinien kokonaismäärä saavuttaa rajansa 21 miljoonaa.
+Kun louhijat ovat suorittaneet tämän tehtävän onnistuneesti, heidät palkitaan antamalla uusia bitcoineja kymmenen minuutin välein. Palkkio on ohjelmoitu puolittumaan 210 000 lohkon välein eli noin neljän vuoden välein (tapahtuma tunnetaan nimellä "puolitus"), mikä antaa rahan liikkeeseenlaskun käyrälle porrasmaisen muodon. Tämän mekanismin ansiosta voidaan matemaattisesti ennustaa, että uusien bitcoinien luominen loppuu noin vuonna 2140, kun kokonaislukumäärä saavuttaa 21 miljoonan rajan.
 
-| Halvingin numero | Lohkon korkeus | BTC palkkio Halvingin jälkeen | Arvioitu BTC liikkeessä Halvingin jälkeen |
-| ---------------- | -------------- | ----------------------------- | ----------------------------------------- |
-| 1                | 210,000        | 25 BTC                        | 10,500,000 BTC                            |
-| 2                | 420,000        | 12.5 BTC                      | 15,750,000 BTC                            |
-| 3                | 630,000        | 6.25 BTC                      | 18,375,000 BTC                            |
-| 4                | 840,000        | 3.125 BTC                     | 19,687,500 BTC                            |
-| 5                | 1,050,000      | 1.5625 BTC                    | 20,343,750 BTC                            |
-| 6                | 1,260,000      | 0.78125 BTC                   | 20,671,875 BTC                            |
-| 7                | 1,470,000      | 0.390625 BTC                  | 20,835,937.5 BTC                          |
-| 8                | 1,680,000      | 0,1953125 BTC                 | 20,917,968.75 BTC                         |
-| 9                | 1,890,000      | 0,09765625 BTC                | 20,958,984.375 BTC                        |
-| 10               | 2,100,000      | 0,048828125 BTC               | 20,979,492.188 BTC                        |
-| 11               | 2,310,000      | 0,0244140625 BTC              | 20,989,746.094 BTC                        |
-| 12               | 2,520,000      | 0,01220703125 BTC             | 20,994,873.047 BTC                        |
-| 13               | 2,730,000      | 0,006103515625 BTC            | 20,997,436.523 BTC                        |
-| 14               | 2,940,000      | 0,0030517578125 BTC           | 20,998,718.262 BTC                        |
-| 15               | 3,150,000      | 0,00152587890625 BTC          | 20,999,359.131 BTC                        |
-| 16               | 3,360,000      | 0,000762939453125 BTC         | 20,999,679.566 BTC                        |
-| 17               | 3,570,000      | 0,0003814697265625 BTC        | 20,999,839.783 BTC                        |
-| 18               | 3,780,000      | 0,00019073486328125 BTC       | 20,999,919.892 BTC                        |
-| 19               | 3,990,000      | 0,000095367431640625 BTC      | 20,999,959.946 BTC                        |
-| 20               | 4,200,000      | 0,0000476837158203125 BTC     | 20,999,979.973 BTC                        |
+| Puolitusnumero | Lohkon korkeus | BTC-palkkio puolituksen jälkeen | Arvioitu BTC-kierto puolituksen jälkeen |
 
-Palaamme louhijoihin yksityiskohtaisemmin louhintaa käsittelevässä luvussa.
+| -------------- | ------------ | ------------------------- | ------------------------------------------ |
+
+| 1 | 210,000 | 25 BTC | 10,500,000 BTC | 10,500,000 BTC |
+
+| 2 | 420 000 | 12,5 BTC | 15 750 000 BTC | 15 750 000 BTC |
+
+| 3 | 630 000 | 6,25 BTC | 18 375 000 BTC | 18 375 000 BTC |
+
+| 4 | 840 000 | 3,125 BTC | 19 687 500 BTC | 19 687 500 BTC |
+
+| 5 | 1 050 000 | 1,5625 BTC | 20 343 750 BTC | 20 343 750 BTC |
+
+| 6 | 1 260 000 | 0,78125 BTC | 20 671 875 BTC | 20 671 875 BTC |
+
+| 7 | 1 470 000 | 0,390625 BTC | 20 835 937,5 BTC | 20 835 937,5 BTC |
+
+| 8 | 1 680 000 | 0,1953125 BTC | 20 917 968,75 BTC | 20 917 968,75 BTC |
+
+| 9 | 1,890,000 | 0.09765625 BTC | 20,958,984.375 BTC | 20,958,984.375 BTC |
+
+| 10 | 2 100 000 | 0,048828125 BTC | 20 979 492,188 BTC | 20 979 492,188 BTC |
+
+| 11 | 2,310,000 | 0.0244140625 BTC | 20,989,746.094 BTC | 20,989,746.094 BTC |
+
+| 12 | 2 520 000 | 0,01220703125 BTC | 20 994 873,047 BTC | 20 994 873,047 BTC |
+
+| 13 | 2 730 000 | 0,006103515625 BTC | 20 997 436,523 BTC | 20 997 436,523 BTC |
+
+| 14 | 2 940 000 | 0,0030517578125 BTC | 20 998 718,262 BTC | 20 998 718,262 BTC |
+
+| 15 | 3 150 000 | 0,00152587890625 BTC | 20 999 359,131 BTC | 20 999 359,131 BTC |
+
+| 16 | 3 360 000 | 0,000762939453125 BTC | 20 999 679,566 BTC | 20 999 679,566 BTC |
+
+| 17 | 3 570 000 | 0,0003814697265625 BTC | 20 999 839,783 BTC | 20 999 839,783 BTC |
+
+| 18 | 3,780,000 | 0.00019073486328125 BTC | 20,999,919.892 BTC | 20,999,919.892 BTC |
+
+| 19 | 3,990,000 | 0.000095367431640625 BTC | 20,999,959.946 BTC | 20,999,959.946 BTC |
+
+| 20 | 4,200,000 | 0.0000476837158203125 BTC | 20,999,979.973 BTC | 20,999,979.973 BTC |
+
+Käymme kaivostoiminnan käsitettä tarkemmin läpi [kaivostoimintaa koskevassa luvussa] (https://planb.network/en/courses/btc101/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Digitaalisen niukkuuden takaaminen
 
-Bitcoinin niukkuus on taattu kahdella keskeisellä mekanismilla: louhintavaikeuden säätöllä ja peliteorialla:
+21 miljoonan raja on Bitcoinin niukkuuden perusta, ja se taataan kahdella keskeisellä mekanismilla: louhinnan vaikeusasteen säätämisellä ja peliteorialla.
 
-- Louhintavaikeuden säätö on mekanismi, joka tapahtuu joka 2016 lohkon välein, tai noin kahden viikon välein, varmistaakseen, että keskimäärin uusi lohko lisätään lohkoketjuun joka kymmenes minuutti. Tämän lohkonluontitiheyden ja bitcoinien kokonaismäärän ovat Bitcoin-protokollan kiinteitä aspekteja, joita ei voida muuttaa ilman yleistä konsensusta, toisin kuin perinteisissä rahajärjestelmissä tehtävät mielivaltaiset päätökset.
 
-![kuva](assets/en/24.webp)
+- Louhinnan vaikeusasteen säätö on prosessi, joka tapahtuu joka 2016 lohko eli noin kahden viikon välein, jotta lohkoketjuun lisätään uusi lohko keskimäärin kymmenen minuutin välein. Tämä lohkojen luomisen tiheys ja bitcoinien kokonaismäärä ovat molemmat Bitcoin-protokollan kiinteitä osia, eikä niitä voida muuttaa ilman yleistä konsensusta, toisin kuin perinteisissä rahajärjestelmissä tehtäviä mielivaltaisia päätöksiä.
 
-> Tiesitkö? Louhijat ovat kannustettuja louhimaan lohkon ansaitakseen uudet bitcoinit (lohkopalkkio) ja transaktiomaksut, jotka liittyvät heidän lohkoon sisällyttämiinsä transaktioihin. Kun liikkeelle laskettujen bitcoinien määrä lähestyy 21 miljoonan rajaa, louhijat tulevat saamaan enemmän tuloja transaktiomaksuista kuin lohkopalkkiosta.
+Kelvollisen hash-lohkon löytämisen vaikeus noudattaa eräänlaista sykliä: jos louhijoiden määrä kasvaa, se tarkoittaa, että heidän löytämiensä lohkojen määrä on suurempi, mikä johtaa lohkon löytämiseen kuluvan keskimääräisen ajan lyhenemiseen. Tämän vuoksi vaikeus kasvaa. Tämän seurauksena louhijoiden löytämien lohkojen määrä vähenee, mikä tarkoittaa, että mekanismi palaa takaisin keskimääräiseen 10 minuuttimäärään lohkoa kohti. Alla olevassa kuvassa on visuaalinen esitys.
 
-- Peliteoria on matemaattinen konsepti, joka perustuu ihmisen rationaalisuuteen. Tässä, Bitcoinin yhteydessä, käyttäjät äänestävät protokollamuutoksista. Kyllä, luit oikein: minkä tahansa muutoksen tekeminen Bitcoin-protokollaan vaatisi koko käyttäjäyhteisön suostumuksen, mikä on erittäin monimutkaista. Joten, jos joku haluaisi luoda 22. miljoonannen bitcoinin, hänen pitäisi vakuuttaa kaikki käyttäjät vapaaehtoisesti alentamaan omien säästöjensä arvoa, mikä on epätodennäköistä, koska Bitcoin on globaali eikä sitä hallitse mikään keskitetty ryhmä.
-  ![kuva](assets/en/25.webp)
-  Ajatus valuutan arvon alentamisesta on vastoin Bitcoinin perusfilosofiaa, joten tämän rajan muuttaminen on erittäin epätodennäköistä.
+![image](assets/en/24.webp)
 
-### Tarkasteltavissa oleva rahapolitiikka joka sekunti alusta loppuun saakka!
+Tiesitkö, että louhijoita kannustetaan louhimaan lohko ansaitakseen uusia bitcoineja lohkotuen avulla sekä transaktiopalkkioilla, joita he saavat kyseiseen lohkoon sisältyvistä transaktioista?
 
-Bitcoinin niukkuus on merkittävä etu, ja enimmäismäärä 21 miljoonaa bitcoinia kierrossa on julkista ja todennettavissa kenen tahansa toimesta.
+Näin ollen, kun liikkeeseen laskettujen bitcoinien määrä lähestyy 21 miljoonan rajaa, louhijat saavat enemmän korvausta transaktiomaksuista kuin lohkotuesta.
 
-Itse asiassa kuka tahansa voi tarkistaa liikkeessä olevien bitcoinien määrän syöttämällä yksinkertaisen komennon Bitcoin-noodiin: `bitcoin-cli gettxoutsetinfo`. Tämä läpinäkyvyys ja todennettavuus vahvistavat luottamusta Bitcoin-järjestelmään, joka ei perustu keskitettyihin laitoksiin tai yksilöihin, vaan sen protokollaan sisäänrakennettuun matemaattiseen ja kryptografiseen takuuseen. (Opit tekemään tämän helposti kurssilla LN201)
+
+- Peliteoria on matemaattinen käsite, joka perustuu ihmisen rationaalisuuteen. Siinä oletetaan, että yksilöt toimivat loogisesti ja pyrkivät maksimoimaan oman hyötynsä ottaen samalla huomioon muiden mahdolliset päätökset. Bitcoinissa peliteoria auttaa varmistamaan, että suurin osa louhijoista ja käyttäjistä toimii verkon edun mukaisesti. Koska käyttäjät äänestävät protokollan muutoksista, mikä tahansa Bitcoin-protokollan muutos vaatisi koko käyttäjäyhteisön suostumuksen, mikä on erittäin monimutkaista. Jos siis joku haluaisi luoda 22 miljoonan bitcoinin, hänen pitäisi vakuuttaa kaikki käyttäjät devalvoimaan vapaaehtoisesti omat säästönsä, mikä on epätodennäköistä, koska Bitcoin on maailmanlaajuinen eikä sitä hallitse mikään keskusryhmä.
+
+![image](assets/en/25.webp)
+
+Ajatus valuutan devalvoinnista on Bitcoinin perusfilosofian vastainen, joten sen kokonaismäärän muuttaminen on erittäin epätodennäköistä.
+
+### Tarkistettavissa oleva rahamolicy: joka sekunti, alusta alkaen ja ikuisesti!
+
+Bitcoinin niukkuus on merkittävä etu, ja liikkeessä olevien 21 miljoonan bitcoinin enimmäismäärä on julkinen ja kenen tahansa todennettavissa.
+
+Itse asiassa kuka tahansa voi tehdä tämän Bitcoin-solmun (eli transaktioiden validointilaitteen) kautta yksinkertaisesti syöttämällä seuraavan komennon: `bitcoin-cli gettxoutsetinfo`. Tämä läpinäkyvyys vahvistaa luottamusta Bitcoin-järjestelmään, joka ei perustu keskuslaitoksiin tai yksilöihin vaan sen protokollan sisältämiin matemaattisiin ja kryptografisiin takuisiin (opit, miten tämä tehdään helposti LNP201:ssä).
 
 ```json
 {
-  "height": 710560,
-  "bestblock": "0000000000000000000887384d67103412ea7f18a43953e65c8c4ac36bf42e54",
-  "transactions": 473244,
-  "txouts": 1018917,
-  "bogosize": 2183872374,
-  "hash_serialized_2": "eebb9987337700ffaacbbaa11223344",
-  "disk_size": 178239584,
-  "total_amount": 18745998.12345678
+"height": 710560,
+"bestblock": "0000000000000000000887384d67103412ea7f18a43953e65c8c4ac36bf42e54",
+"transactions": 473244,
+"txouts": 1018917,
+"bogosize": 2183872374,
+"hash_serialized_2": "eebb9987337700ffaacbbaa11223344",
+"disk_size": 178239584,
+"total_amount": 18745998.12345678
 }
 ```
 
-Bitcoinin suunnittelu takaa äänen rahahallinnon rajoittamalla sen luomista ja suojelemalla käyttäjien säästöjä, erottaen sen muista valuutoista. Itävaltalaisen taloustieteen periaatteiden mukaisesti (yksityiskohdat kurssilla ECON201) sen hallittu määrä ja ennustettava jakautuminen suojelevat sitä perinteisten valuuttojen inflaatioriskeiltä.
+Bitcoin takaa terveen rahanhallinnan rajoittamalla sen luomista, mikä tekee siitä hyvin erilaisen kuin muut valuutat, koska se voi suojella käyttäjien säästöjä. Itävaltalaisen taloustieteen periaatteiden mukaisesti sen vakaa määrä ja ennakoitavissa oleva jakelu suojaavat sitä inflaatioriskeiltä, joita perinteiset valuutat joutuvat kohtaamaan (katso lisätietoja ECO201-kurssilta).
 
-Yhteenvetona Bitcoin tarjoaa ainutlaatuisen vaihtoehdon perinteisille rahajärjestelmille sen hajautetun luonteen, ohjelmoidun niukkuuden ja läpinäkyvyyden ansiosta. Se osoittaa, miten teknologiaa voidaan käyttää luomaan valuutta, joka ei ole vain hyödyllinen ja todennettavissa, vaan myös säilyttää käyttäjien säästöjen arvon rajoittamalla tiukasti sen tarjontaa.
+Yhteenvetona voidaan todeta, että Bitcoin tarjoaa hajautetun luonteensa, ohjelmoidun niukkuutensa ja avoimuutensa ansiosta ainutlaatuisen vaihtoehdon perinteisille rahajärjestelmille. Se osoittaa, miten teknologiaa voidaan käyttää sellaisen valuutan luomiseen, joka ei ole vain hyödyllinen ja todennettavissa, vaan myös säilyttää käyttäjien säästöjen arvon rajoittamalla tiukasti niiden tarjontaa.
 
-
-
-### Luvun 1 yhteenveto!
+### Jakson 1 päätelmät!
 
 # Bitcoin-lompakot
 
@@ -420,215 +487,227 @@ Yhteenvetona Bitcoin tarjoaa ainutlaatuisen vaihtoehdon perinteisille rahajärje
 
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
-Tässä osiossa 2 tutkimme Bitcoinien säilytystä ja turvallisuutta lompakoissa. Tämä auttaa sinua ymmärtämään paremmin, missä nämä kuuluisat bitcoinit sijaitsevat ja miten niiden kanssa vuorovaikutetaan!
+Luvussa 2 tutustumme Bitcoinin säilytykseen ja turvallisuuteen lompakoiden avulla, jotta ymmärrämme, missä nämä kuuluisat bitcoinit sijaitsevat ja miten niiden kanssa voi toimia!
 
-### Bitcoin-lompakoiden mysteerin selvittäminen
+### Bitcoin-lompakoiden demystifiointi
 
-Tässä teollisuudessa käytämme lompakoita vuorovaikutuksessa Bitcoin-verkon kanssa, jolla on 3 toimintoa:
+Käytämme lompakoita Bitcoin-verkon kanssa vuorovaikutuksessa kolmella tavalla:
 
-- Mahdollistaa bitcoinien vastaanottamisen
-- Mahdollistaa bitcoinien lähettämisen
-- Suojaa niitä hakkerointi- ja varkausyrityksiltä
 
-Lompakko voi olla ohjelmisto tietokoneellasi, sovellus älypuhelimessasi, fyysinen laite kuten USB-avain tai jopa paperipala. Nämä erityyppiset Bitcoin-lompakot palvelevat erilaisia käyttötarkoituksia. Jotkut ovat käytössä suurille summille painottaen turvallisuutta, toiset yksityisyyttä tai jopa päivittäisiä pieniä maksuja varten.
+- Vastaanottaa bitcoineja
+- Bitcoinien lähettäminen
+- Suojaa ne hakkerointi- ja varkausyrityksiltä
 
-Lompakot jaetaan siis suuriin käyttöperheisiin, aina keskeisen kysymyksen ympärillä: Oletko varojen omistaja vai jätätkö rahasi hallinnan kolmannelle osapuolelle? Palaamme tähän aiheeseen yksityiskohtaisesti seuraavassa luvussa, mutta idea on yksinkertainen: Onko raha taskussasi vai pankkiirisi taskussa!
+Bitcoin-lompakolla voi olla monia muotoja ja muotoja: tietokoneella oleva ohjelmisto, älypuhelimen sovellus, fyysinen laite, kuten USB-avain, tai jopa paperinpala. Kukin niistä palvelee erilaisia käyttötarkoituksia. Itse asiassa jotkin niistä on suunniteltu suuriin tapahtumiin, joissa korostetaan turvallisuutta, kun taas toiset asettavat yksityisyyden etusijalle, tai ne on tarkoitettu pienten summien päivittäisiin maksuihin.
 
-![kuva](assets/en/26.webp)
+Salkut voidaan siis luokitella laajoihin käyttöperheisiin, joiden keskiössä on aina keskeinen kysymys: oletko sinä varojen omistaja vai jätätkö rahojesi hallinnan kolmannelle osapuolelle? Tarkastelemme tätä aihetta yksityiskohtaisesti seuraavassa luvussa, mutta kysymys on edelleen suoraviivainen: ovatko rahat sinun vai pankkiirisi taskussa?
 
-### Miten Bitcoin-lompakko toimii
+![image](assets/en/26.webp)
 
-Olitpa sitten Bitcoin-"pankkiirisi" tai itse, yleisesti ottaen suurin osa Bitcoin-lompakoista toimii samankaltaisen teknologian, asymmetrisen kryptografian, ja siten avainparien järjestelmän avulla: yksityinen avain kuluttamiseen ja julkinen avain vastaanottamiseen.
+### Miten Bitcoin-lompakko toimii?
+
+Riippumatta siitä, onko kyseessä Bitcoin-"pankkiirisi" vai sinä itse, suurin osa Bitcoin-lompakoista toimii samankaltaisella tekniikalla, joka perustuu epäsymmetriseen salaukseen, johon kuuluu avainparien järjestelmä: yksityinen avain rahankäyttöä varten ja julkinen avain vastaanottamista varten.
+
 
 - Yksityinen avain
-  Lompakkoa alustettaessa luodaan ja annetaan sinulle salainen palautuslause (yksityinen avain) 24 sanan muodossa.
 
-  Yksityinen avain on erittäin tärkeä, koska se edustaa bitcoinejesi omistajuutta ja siten oikeutta käyttää tai lähettää niitä. Yksityisen avaimen haltija on Bitcoinien omistaja.
+Kun lompakkoa alustetaan, luodaan salainen palautuslauseke (yksityinen avain), joka esitetään sinulle 12 tai 24 sanan muodossa.
 
-  Tämä avain on pidettävä salassa ja hyvin suojattuna, sillä se on avain omaisuutesi lukitsemiseen!
+Yksityinen avain on olennaisen tärkeä, koska se muodostaa bitcoinien omistusoikeuden ja siten oikeuden käyttää tai lähettää niitä. Siksi yksityisen avaimen haltija on bitcoinien todellinen omistaja.
 
-- Julkinen avain & osoite
-  Julkinen avain luodaan yksityisen avaimen avulla ja on siten siihen linkitetty. Julkista avainta käytetään Bitcoin-osoitteiden luomiseen ja siten rahan vastaanottamiseen. Julkisen avaimen jakaminen sisältää riskejä yksityisyydelle, mutta ei turvallisuudelle.
+Tämä avain on pidettävä salassa ja hyvin suojattuna, sillä se avaa omaisuutesi!
 
-  Nämä osoitteet luodaan lompakollasi ja niitä voidaan jakaa turvallisesti. On suositeltavaa käyttää niitä vain kerran maksimoidaksesi yksityisyytesi.
 
-On siis tärkeää ymmärtää, että tämän teknologian ansiosta voimme helposti vastaanottaa Bitcoineja antamatta lähettäjälle mahdollisuutta varastaa varojamme! Ajattele sitä kuin postilaatikkoa: ihmiset tallettavat rahaa siihen, mutta vain sinä voit avata sen.
+- Julkinen avain ja osoite
 
-![kuva](assets/en/27.webp)
+Julkinen avain luodaan yksityisestä avaimesta, ja se liitetään siihen. Julkisen avaimen jakaminen vaarantaa yksityisyyden (koska muut käyttäjät voivat nähdä saldosi) mutta ei turvallisuutta (koska he eivät voi käyttää varojasi ilman yksityistä avainta). Julkista avainta puolestaan käytetään Bitcoin-osoitteiden luomiseen ja siten rahan vastaanottamiseen.
 
-### Ovatko Bitcoinit sitten lompakossa?
+Lompakkosi luo nämä osoitteet automaattisesti, ja niitä voidaan jakaa turvallisesti. Yksityisyyden maksimoimiseksi on suositeltavaa käyttää niitä vain kerran.
 
-Vaikka avaimet säilytetään lompakossasi, bitcoinit itse "säilytetään" oikeastaan Bitcoin-lohkoketjussa, joka on julkinen jaettu kirjanpito Bitcoinin vertaisverkossa (tarkastelemme tätä osiossa 3). Siksi laitteen, jolla lompakkosi on, menettäminen ei välttämättä tarkoita bitcoiniesi menettämistä. Sen, mikä mahdollistaa lompakkosi uudelleenluomisen ja bitcoiniesi käyttämisen, on yksityinen avain. On siis ratkaisevan tärkeää suojata se asianmukaisesti.
+Yhteenvetona voidaan todeta, että tämä tekniikka antaa meille mahdollisuuden vastaanottaa bitcoineja ilman, että vastaanottaja voi varastaa varojamme! Postilaatikko voisi olla sopiva vertauskuva: ihmiset voivat tallettaa sinne rahaa, mutta vain sinä voit avata sen.
 
-![kuva](assets/en/28.webp)
+![image](assets/en/27.webp)
 
-Onneksi meille, vuodesta 2017 lähtien, tämä yksityinen avain voidaan koodata yksinkertaiseen 12 tai 24 sanan listaan, jota kutsutaan mnemonic-lauseeksi. Tämä lause on varmuuskopio Bitcoin-lompakostasi, se mahdollistaa lompakkosi uudelleenluomisen millä tahansa Bitcoin-lompakko-ohjelmistolla/-sovelluksella. Siksi jokaisella, jolla on pääsy tähän sanojen listaan, on pääsy bitcoineihisi.
+### Ovatko bitcoinit lompakossa?
+
+Vaikka avaimesi on tallennettu lompakkoosi, itse bitcoinit ovat itse asiassa "tallennettu" Bitcoin-lohkoketjuun, joka on Bitcoin-vertaisverkon julkinen hajautettu pääkirja (tutustumme siihen luvussa 3). Tämä tarkoittaa, että lompakkosi sisältävän laitteen katoaminen ei välttämättä johda bitcoinien katoamiseen. Se, jonka avulla voit luoda lompakkosi uudelleen ja käyttää bitcoinisi, on itse asiassa yksityinen avain, joten muista aina suojata se kunnolla!
+
+![image](assets/en/28.webp)
+
+Onneksi vuodesta 2017 lähtien yksityinen avain voidaan esittää yksinkertaisella 12 tai 24 sanan luettelolla, joka tunnetaan nimellä "muistisana" ja joka on melko helppo tallentaa. Tämä fraasi toimii varojen varmuuskopiona, ja sen avulla voit luoda lompakkosi uudelleen millä tahansa Bitcoin-lompakko-ohjelmistolla tai -sovelluksella. Siksi kuka tahansa, joka löytää tämän sanaluettelon, voi päästä käsiksi bitcoineihisi.
 
 ### Entä hakkerit?
 
-Saatat kysyä: entä jos joku arvaa vahingossa 12 tai 24 sanamme listan? Lyhyt vastaus on, että käytetyn kryptografian ansiosta se on erittäin epätodennäköistä. Asettaaksemme sen perspektiiviin, lompakkoosi pääsyn vahingossa löytäminen on kuin "oikean" numeron löytäminen väliltä 1 ja $2^256$, mikä on lähes verrattavissa "oikean" atomin löytämiseen Universumista. Jos et kuitenkaan ole tyytyväinen tähän oletusturvallisuuteen, voit aina vahvistaa sitä lisäämällä salasanan Bitcoin-lompakkoosi.
+Entä jos joku vahingossa arvaa 12 tai 24 sanan listamme? Lyhyt vastaus on, että se on erittäin epätodennäköistä lompakon luomisessa käytetyn salauksen ansiosta. Jos asiaa tarkastellaan oikeassa mittasuhteessa, saman muistisäännön löytäminen vahingossa on sama asia kuin "oikean" luvun löytäminen 1:n ja $2^256$:n väliltä, mikä vastaa melkeinpä "oikean" atomin löytämistä maailmankaikkeudesta. Jos et kuitenkaan ole tyytyväinen tähän oletusturvaan, voit aina parantaa sitä lisäämällä Bitcoin-lompakkoosi tunnuslauseen (ylimääräisen sanan).
 
-![kuva](assets/en/29.webp)
+![image](assets/en/29.webp)
 
-Näin ollen Bitcoin-lompakkosi hakkeroinnin todennäköisyys on astronomisen pieni, jos noudatat hyviä turvallisuuskäytäntöjä. Käytäntöjä, joita käymme yksityiskohtaisesti läpi seuraavassa osiossa.
+Bitcoin-lompakkosi hakkeroinnin todennäköisyys on siis tähtitieteellisen pieni, jos noudatat hyviä turvallisuuskäytäntöjä, joista kerromme tarkemmin seuraavassa osassa.
 
-Valitse lompakko, joka sopii tarpeisiisi ja käyttötarkoitukseesi. Yksityiskohtaisia ohjeita eri lompakoiden käytöstä ja turvaamisesta on saatavilla [yliopistomme opetusosiossa](https://planb.network/tutorials/wallet).
+Muista valita tarpeisiisi ja käyttötarkoituksiisi sopiva lompakko: yksityiskohtaisia ohjeita eri lompakoiden hallinnasta ja suojaamisesta on saatavilla [yliopistomme opetusosiossa](https://planb.network/tutorials/wallet).
 
-
-
-Jos haluat matkallasi alas kaninkoloon oppia lisää Bitcoin-lompakon rakentamisesta entropiasta vastaanotto-osoitteisiin asti, suosittelen tähän aiheeseen omistettua kurssia CYP 201:
+Jos haluat matkasi aikana oppia lisää Bitcoin-lompakon rakentamisesta entropiasta osoitteiden vastaanottamiseen, suosittelemme CYP 201 -kurssia, joka on omistettu tälle aiheelle:
 
 https://planb.network/courses/cyp201
-
-## Turvallisuus ja Bitcoin-lompakot
+## Bitcoin-lompakot ja turvallisuus
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
 ### Oikeiden kysymysten esittäminen ennen aloittamista
 
-Kun omistat bitcoineja, varojesi turvallisuus on suuri huolenaihe. Paras tapa määritellä tilanteeseesi sopiva turvallisuus on kysyä (ja vastata) joukko kysymyksiä; turvallisuusmallisi riippuu vastauksistasi. Aloitetaan:
+Kun omistat bitcoineja, varojen turvallisuus on suuri huolenaihe. Paras tapa määritellä omaan tilanteeseen sopiva turvataso on esittää itsellesi joukko kysymyksiä:
 
-- Kuka voi päästä käsiksi varoihini? Toisin sanoen, oletko ainoa, jolla on pääsy bitcoineihisi, vai salliiko kolmas osapuoli, kuten yritys, sinun päästä käsiksi varoihisi?
-- Toinen kysymys voisi olla: mihin tarkoituksiin aiot käyttää bitcoinejasi? Onko se summa, jota käytät säännöllisesti? Onko se keskipitkän aikavälin säästöjä? Pitkän aikavälin säästöjä?
+
+- Kuka voi käyttää varojasi? Toisin sanoen, onko sinulla yksin oikeus käyttää bitcoinejasi, vai antaako kolmas osapuoli (esimerkiksi yritys) sinulle pääsyn varoihisi?
+- Miten aiot käyttää kyseisessä lompakossa olevia bitcoineja? Säännöllisesti? Keskipitkän vai pitkän aikavälin säästöihin?
 - Mitkä ovat tekniset taitosi?
 - Mikä on turvallisuusbudjettisi?
 
-Pidä mielessä, että yleispätevää ratkaisua ei ole. Ota siis aikaa vastata näihin kysymyksiin, sillä se auttaa räätälöimään turvatoimenpiteesi.
+Yleispätevää vastausta tai ratkaisua ei oikeastaan ole, joten käytä aikaa näihin kysymyksiin vastaamiseen, sillä se auttaa räätälöimään turvatoimenpiteet tarpeittesi mukaan.
 
-![kuva](assets/en/30.webp)
+![image](assets/en/30.webp)
 
-### Bitcoin-lompakoiden pohtiminen monimutkaisuuden näkökulmasta
+### Bitcoin-lompakoiden ajattelu monimutkaisuuden näkökulmasta
 
-Yritetään määrittää useita turvallisuustasoja bitcoineillesi:
+Seuraavassa määritellään useita turvallisuustasoja:
 
-- **Taso 0**, käytät niin sanottua holhouspalvelua, jossa et ole bitcoineidesi ainoa haltija. Ole tietoinen siitä, että tämä luotettu kolmas osapuoli voi milloin tahansa rajoittaa pääsyäsi varoihisi, ja sinulla on sama taloudellinen suvereniteetti kuin perinteisessä pankkijärjestelmässä pankkitilin kautta.
 
-![kuva](assets/en/31.webp)
+- Tasolla 0** käytät niin sanottua "säilytyspalvelua", jossa et ole bitcoinien ainoa haltija. Huomaa, että tämä luotettava kolmas osapuoli voi milloin tahansa rajoittaa pääsyäsi varoihisi. Tässä tapauksessa taloudellisen itsemääräämisoikeutesi taso on samanlainen kuin perinteisessä pankkijärjestelmässä pankkitilin kanssa.
 
-- **Taso 1**, käytät Bitcoin-lompakkoa puhelimessasi tai tietokoneellasi, jossa olet bitcoineidesi ainoa haltija. Voit helposti suorittaa transaktiosi. On kuitenkin ratkaisevan tärkeää varmuuskopioida muistilauseesi, jotta voit palauttaa pääsyn varoihisi, jos menetät puhelimesi tai tietokoneesi. Tätä kutsutaan usein "kuumaksi lompakoksi", koska yksityinen avain säilytetään laitteessa, jolla on internetyhteys.
+![image](assets/en/31.webp)
 
-Esimerkiksi voit käyttää Sparrow Walletia kuumana lompakkona:
+
+- Taso 1**, käytät puhelimessasi tai tietokoneessasi olevaa Bitcoin-lompakkoa, jossa olet bitcoinien ainoa haltija ja voit helposti suorittaa maksutapahtumia. Edellä mainittua työkalua kutsutaan "kuumaksi lompakoksi", koska yksityinen avain tallennetaan laitteeseen, jossa on internetyhteys. Tässä tapauksessa on ratkaisevan tärkeää varmuuskopioida muistisääntösi, jotta pääset jälleen käsiksi varoihisi, jos kadotat puhelimesi tai tietokoneesi.
+
+Voit esimerkiksi käyttää Sparrow-lompakkoa kuumana lompakkona:
 
 https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
-- **Taso 2**, käytät fyysistä lompakkoa, ja olet turvannut 12 tai 24 sanan listasi. Transaktion suorittamiseksi sinun on aina allekirjoitettava laitteellasi. Tämä tekee varoistasi vähemmän saavutettavia päivittäisessä käytössä. Tätä kutsutaan usein "kylmäksi lompakoksi", koska avaimet säilytetään laitteessa, joka ei ole yhteydessä internetiin.
+- Taso 2**, käytät fyysistä lompakkoa ja olet varmistanut 12/24 sanan luettelon. Sitä kutsutaan usein "kylmäksi lompakoksi", koska avaimesi on tallennettu laitteeseen, joka ei ole yhteydessä internetiin. Tässä tapauksessa sinun on aina allekirjoitettava jokainen maksutapahtuma laitteellasi, jolloin varojesi päivittäinen saatavuus heikkenee.
 
-Esimerkiksi voit käyttää Ledgeriä, Satochipiä tai Tapsigneria:
+Voit käyttää esimerkiksi Ledgeriä, Satochipiä tai Tapsigneria:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
-
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
-
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+![image](assets/en/32.webp)
 
-![kuva](assets/en/32.webp)
 
-- **Taso 3**, käytät tason 1 tai 2 lompakkoa, mutta lisäsalasanalla. Ole tietoinen siitä, että sinun on nyt varmuuskopioitava sekä 12 tai 24 sanan lista **että** salasanasi. Ihanteellisesti nämä kaksi tietoa säilytetään kahdessa eri paikassa.
+- Taso 3**, käytät tason 1 tai 2 lompakkoa, mutta olet lisännyt ylimääräisen salasanan. Tässä tapauksessa sinun on otettava varmuuskopio sekä 12/24 sanan luettelosta **että** tunnuslauseestasi. Ihannetapauksessa nämä kaksi tietoa tallennetaan kahteen eri paikkaan.
 
-Lisätietoja BIP39-salasanan käytöstä ja toiminnasta:
+Saat lisätietoja BIP39-salasanan käytöstä ja toiminnasta:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
-
-![kuva](assets/en/33.webp)
-
-- **Taso 4**, käytät joukkoa lompakoita luodaksesi "multisig"-lompakon, mikä tarkoittaa, että transaktion suorittamiseen vaaditaan useita allekirjoituksia. Ole tietoinen siitä, että multisigin jokainen osa tulisi säilyttää eri paikoissa. Tätä pidetään usein Bitcoinin edistyneenä käyttönä, pääasiassa suurille summille ja yrityskäyttöön.
-
-![kuva](assets/en/34.webp)
-
-Tietenkin meillä voi olla useita käyttötapauksia, ja tällaisissa tapauksissa on suositeltavaa käyttää useita Bitcoin-lompakoita. Yksi ratkaisu ei sovi kaikille.
-
-### Turvallisuuden on mukauduttava
-
-Summa, jonka henkilö on valmis jättämään tiettyyn turvallisuustasoon, riippuu yksilöstä. Joillekin 1 BTC:n säilyttäminen kuumassa lompakossa on järkevää, kun taas toisille se ei todellakaan ole. Joka tapauksessa vältä kuluttamasta paljon turvallisuuteen ostamalla fyysinen lompakko, kun haluat turvata pienen summan. Muista myös, että bitcoinsien turvallisuuden ja saavutettavuuden liiallinen monimutkaistaminen voi vahingoittaa sinua, jos esimerkiksi käsittelet lompakkojesi varmuuskopioita väärin.
-Yhteenvetona voidaan todeta, että suoran omistajuuden omaaminen bitcoineista on olennainen elementti taloudellisen suvereniteetin varmistamiseksi. On suositeltavaa käyttää mobiililompakkoa päivittäisiin menoihin ja offline- eli "kylmää" fyysistä lompakkoa suurempien summien säilyttämiseen. Yritysten puolestaan tulisi harkita moniallekirjoitusjärjestelmien eli "multisig"-järjestelmien käyttöä lisäturvallisuuden ja jaetun turvallisuuden vuoksi. On myös olennaista välttää säilytyspalveluita, jotka voivat toistaa perinteisen rahoitusjärjestelmän joitakin haavoittuvuuksia mahdollisimman paljon.
-
-Nyt kun tämä on mielessä, siirrytään seuraavaan osioon nähdäksemme vaiheet Bitcoin-lompakon luomiseen. Jos haluat kuitenkin tutkia turvallisuusaihetta tarkemmin, voit lukea tämän [artikkelin DarthCoinilta](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
+![image](assets/en/33.webp)
 
 
+- Taso 4**, käytät useita lompakoita luodaksesi "multisig"-lompakon, mikä tarkoittaa, että tapahtuman suorittamiseen tarvitaan useita allekirjoituksia. Tässä tapauksessa on huomioitava, että multisigin jokainen osa on tallennettava eri paikkoihin. Tätä lähestymistapaa pidetään usein Bitcoinin edistyneenä käyttönä, lähinnä suurten määrien hallintaan ja yrityskäyttöön.
 
-## Lompakon asettaminen
+![image](assets/en/34.webp)
+
+Tietenkin erilaiset käyttötapaukset vaativat myös erilaisia Bitcoin-lompakoita, eikä ole olemassa yhtä kaikille sopivaa ratkaisua.
+
+### Turvallisuutta on mukautettava
+
+Se, kuinka paljon joku on valmis jättämään tiettyyn turvallisuustasoon, riippuu jokaisesta yksilöstä. Joillekin 1 BTC:n jättäminen kuumaan lompakkoon on järkevää, kun taas toisille se on päinvastoin. Joka tapauksessa, kun haluat turvata pienen summan, emme suosittele käyttämään liikaa rahaa turvallisuuteen ostamalla fyysisen lompakon. Muista lisäksi, että bitcoinien turvallisuuden ja saatavuuden liiallinen monimutkaistaminen voi olla haitaksi, varsinkin jos käsittelet lompakoiden varmuuskopioita väärin.
+
+Yhteenvetona voidaan todeta, että bitcoinien suora omistusoikeus on olennainen osa taloudellisen suvereniteetin varmistamista. On suositeltavaa käyttää mobiililompakkoa päivittäisiin menoihin ja offline-lompakkoa eli "kylmää" fyysistä lompakkoa suurempien summien säilyttämiseen. Yritysten olisi toisaalta harkittava monisignatuurijärjestelmien eli multisig-järjestelmien käyttöä turvallisuuden lisäämiseksi ja jakamiseksi. On myös tärkeää välttää säilytyspalveluja, jotka voivat toistaa joitakin perinteisen rahoitusjärjestelmän haavoittuvuuksia.
+
+Tämän jälkeen voimme siirtyä seuraavaan osioon, jossa kuvaamme, miten Bitcoin-lompakko luodaan. Jos kuitenkin haluat tutustua turvallisuuteen tarkemmin, voit lukea tämän [DarthCoinin] artikkelin (https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
+
+## Lompakon perustaminen
 
 <chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
 
-Bitcoinsiesi turvallisuus on äärimmäisen tärkeää, ja yksinkertainen virhe voi olla kalliiden seurausten aiheuttaja. Siksi tarkastelemme nyt parhaita käytäntöjä uuden Bitcoin-lompakon luomisessa.
+Bitcoineidesi turvallisuudella on ratkaiseva merkitys, ja yksinkertaisella virheellä voi olla katastrofaaliset seuraukset. Siksi meidän on opittava parhaat käytännöt, jotka kannattaa omaksua uutta Bitcoin-lompakkoa luotaessa.
 
-> Huomaa, että BTC102-kurssi opastaa sinut tämän vaiheen läpi.
+Huomaa, että BTC102-kurssi opastaa sinua tässä vaiheessa.
 
+https://planb.network/en/courses/btc102
 ### Tämä vaihe ei ole vitsi!
 
-Yksityinen avaimesi, joka usein esitetään 24 sanan listana (usein kutsutaan "siemeneksi" tai "mnemoniseksi fraasiksi"), edustaa pääsyä varoihisi. Jos tämä avain paljastetaan kolmannelle osapuolelle, pidä kyseisiä varoja enää turvattuina. Siksi lompakon alustamisen yhteydessä on tärkeää noudattaa näitä sääntöjä:
+Kun perustat lompakon, ohjelmisto luo yleensä yksityisen avaimesi, jota yleensä edustaa 12/24 sanan luettelo (usein "siemenlause" tai "muistisana"): nämä sanat muodostavat pääsyn varoihisi. Jos tämä avain joskus paljastuu kolmannelle osapuolelle, sinun on katsottava, että siihen liittyvät varat ovat vaarantuneet. Siksi lompakkoa perustettaessa on tärkeää noudattaa näitä sääntöjä:
+
 
 - Peitä kaikki kamerat.
-- Älä ota valokuvaa sanalistasta.
-- Älä syötä sitä tietokoneelle tai puhelimelle.
-- Älä tallenna sitä yhteystiedoksi tai lähetä sitä itsellesi tekstiviestillä.
-- Älä koskaan jätä sanojasi valvomatta pöydällesi.
+- Älä ota valokuvaa sanaluettelosta.
+- Älä kirjoita sitä tietokoneella tai puhelimella.
+- Älä tallenna sitä yhteystietona tai lähetä sitä itsellesi tekstiviestillä.
+- Älä koskaan jätä sanojasi vartioimatta työpöydällesi.
 - Älä koskaan piilota sanalistaa epätavalliseen paikkaan.
 
-Kirjoitat kirjaimellisesti tyhjälle paperiarkille tai tulostat tämän [mallin](https://bitcoiner.guide/backup.pdf), ja kirjoitat sanalistan järjestyksessä, siististi ja selvästi, kynällä. Jos muste haalistuu ajan myötä, saatat menettää varasi; siksi on tärkeää pitää tämä paperi suojattuna elementeiltä.
+Ota kirjaimellisesti tyhjä paperiarkki tai tulosta tämä [malli](https://bitcoiner.guide/backup.pdf) ja kirjoita sanaluettelo kynällä esitetyn järjestyksen mukaisesti siististi ja selkeästi. Huomaa, että jos muste haalistuu ajan myötä, saatat menettää varoja. Siksi on tärkeää säilyttää tämä paperi suojattuna sellaisilta ympäristötekijöiltä, jotka voivat mahdollisesti vahingoittaa sitä, kuten kosteudelta tai tulelta.
 
-![kuva](assets/en/35.webp)
+Ohessa on esimerkki siitä, miten paperi laaditaan: sanat ovat väärennettyjä, joten älä käytä niitä!
 
-### Vinkkejä oikean tekemiseen
+![image](assets/en/35.webp)
 
-On myös vaihtoehtoisia ratkaisuja paperille, kuten mnemonisen fraasisi kaivertaminen metallilaatalle. Jos kirjoitat sen väärin, perillisesi eivät ehkä pysty lukemaan sitä ja siten eivät ehkä pysty palauttamaan varoja. Kun sanat on kirjoitettu, on suositeltavaa tehdä toinen kopio ja säilyttää se eri paikassa kuin ensimmäinen. Tämä tarjoaa varmuuskopion ensimmäisen kopion katoamisen tai onnettomuuden varalta.
+### Vinkkimme sen tekemiseen oikein
 
-![kuva](assets/en/36.webp)
+Varmista lisäksi, että kopioinnissa ei tehdä virheitä, sillä muutoin perillisilläsi voi olla vaikeuksia lukea sitä, eivätkä he voi saada varoja takaisin. Lisäksi kun olet tallentanut sanat, on suositeltavaa luoda toinen kopio ja säilyttää se eri paikassa kuin ensimmäinen. Näin varmistat, että sinulla on varmuuskopio siltä varalta, että alkuperäinen katoaa tai vahingoittuu.
 
-Kun kopiot on tehty, säilytä sanalistat turvallisessa paikassa, josta muistat etsiä ne! Älä luo liian monimutkaista piilottelusuunnitelmaa, jossa riskinä on niiden kadottaminen.
+![image](assets/en/36.webp)
 
-> Sanasi = rahasi.
-> "Kylmät" lompakot sisältävät yleensä nämä sanalistat, aivan kuten "kuumat" lompakot mobiilissa tai PC:ssä. Tämä yksityisen avaimen varmuuskopioinnin menetelmä on nyt standardi. Tämä tarkoittaa, että voit syöttää mnemonisen lauseesi mihin tahansa lompakko-ohjelmistoon palauttaaksesi omasi. Vain huonot lompakot, joita me voimakkaasti suosittelemme välttämään, eivät anna sinulle 24 sanan listaa, mutta saattavat pyytää tiliä, sähköpostiosoitetta tai pahempaa, henkilötunnusta.
-> **HUOMIO: 24 sanan listan puuttuminen tulisi herättää huolesi.**
+Sanaluettelot tulisi säilyttää turvallisessa paikassa, jonka voit helposti muistaa. Vältä luomasta liian monimutkaisia piilosuunnitelmia, jotka voivat johtaa niiden katoamiseen.
 
+**Sanasi = rahasi.**
 
+Sekä "kylmät" että "kuumat" lompakot käyttävät sanaluettelomenetelmää yksityisten avainten varmuuskopioinnin standardina. Tämän seurauksena voit palauttaa pääsysi syöttämällä muistilausekkeen mihin tahansa yhteensopivaan lompakko-ohjelmistoon tai -laitteeseen. Toisaalta emme suosittele käyttämään lompakoita, jotka eivät tarjoa siemenlausetta, sillä ne saattavat vaatia sinua antamaan tilin, sähköpostiosoitteen tai, mikä vielä pahempaa, henkilöllisyystodistuksen.
 
-Jos haluat sen jälkeen vaihe vaiheelta oppia, kuinka perustaa oma lompakkosi ja hankkia ensimmäiset bitcoinisi, suosittelen myös tätä toista kurssia:
+**Huomautus: 12/24 sanaa sisältävän luettelon puuttumisen pitäisi varoittaa sinua.**
+
+Jos sitten haluat selvittää askel askeleelta, miten perustat oman lompakon ja saat ensimmäiset bitcoinisi, suosittelemme myös tämän toisen kurssin käymistä:
 
 https://planb.network/courses/btc102
-
-## Kestää aikaa
+## Ajan testin läpäiseminen
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
-Turvallisuus on merkittävä huolenaihe Bitcoin-ekosysteemissä. Todellakin, kuten minkä tahansa varallisuuden muodon, bitcoinsisi on suojattava häviämistä, varkautta ja heikkenemistä vastaan, erityisesti pitkällä aikavälillä. Bitcoinsien turvaaminen vaatii teknistä tietämystä ja tietoisuutta liittyvistä riskeistä, mikä johtaa meidät keskustelemaan kahdesta päästrategiasta: bitcoinsien kaivertaminen teräkseen ja perintösuunnitelman luominen.
+Kuten mitä tahansa varallisuutta, bitcoinisi on suojattava katoamiselta, varkaudelta ja heikentymiseltä, erityisesti pitkällä aikavälillä. Bitcoineidesi suojaaminen edellyttää jonkin verran teknistä tietämystä ja niihin liittyvien riskien ymmärtämistä, mikä avaa tien kahdelle päästrategialle: bitcoinien kaiverruttaminen teräslevyyn ja perintösuunnitelman laatiminen.
 
-### Kaiverrus kiveen
+### Kaiverrus teräkseen
 
-Yksi menetelmä bitcoinsien turvaamiseksi pitkällä aikavälillä on kaivertaa mnemoninen lauseesi kestävään materiaaliin, kuten teräkseen. Tämä luo fyysisen varmuuskopion avaimistasi, joka on vastustuskykyinen sekä vesivahingoille että tulipalolle.
+Yksi tapa turvata bitcoinit pitkällä aikavälillä on kaivertaa muistisana kestävään materiaaliin, kuten teräkseen, luomalla avaimista fyysinen varmuuskopio, joka kestää sekä vesi- että palovahinkoja.
 
-Tähän on monia ratkaisuja, jotkut ovat edullisia kuten "Blockmit", kun taas toiset vaativat enemmän varusteita. Voit tutkia tätä aihetta itse tämän yliopiston opetusosiossa.
+Saatavilla on erilaisia ratkaisuja: jotkut niistä ovat edullisia, kuten "Blockmit", kun taas toiset saattavat vaatia erikoisempia laitteita. Voit tutustua aiheeseen tarkemmin akatemiamme [tutorials](https://planb.network/en/tutorials/wallet) -osiossa.
 
-![kuva](assets/en/37.webp)
+![image](assets/en/37.webp)
 
 ### Ajattele seuraavaa sukupolvea!
 
-Tämän ohella perintösuunnitelman luominen on myös ratkaiseva askel varmistamaan, että bitcoinsisi hallinnoidaan asianmukaisesti kuolemasi jälkeen. Tämä suunnitelma voi sisältää käsin kirjoitetun kirjeen, jossa kerrotaan omaisuudestasi, sen käyttömenetelmistä ja luotettavien henkilöiden yhteystiedot, joihin ottaa yhteyttä. On myös tärkeää keskustella bitcoinsien perinnöstä notaarin kanssa varmistaaksesi verotuksen noudattamisen, vaikkakin on tärkeää olla suoraan luovuttamatta bitcoinejasi kolmannelle osapuolelle, mukaan lukien notaari.
+Tämän ensimmäisen käytännön ohella perintösuunnitelman laatiminen on ratkaiseva askel sen varmistamiseksi, että bitcoinisi ovat asianmukaisesti hallinnassa kuolemasi jälkeen. Tähän suunnitelmaan kuuluu kirjeen kirjoittaminen käsin, jossa hahmotat omaisuutesi luonteen, niiden käyttötavat ja niiden luotettavien henkilöiden yhteystiedot, joilla on vastuu niistä. On myös tärkeää keskustella bitcoinien perinnöstä notaarin kanssa verosäännösten noudattamisen varmistamiseksi, vaikka tälle henkilölle ei pitäisi koskaan uskoa suoraan bitcoiniesi hallintaa.
 
-Jos haluat tutkia lisää bitcoinsien perintösuunnitelman aihetta, suosittelemme Pamela Morganin kirjaa [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) tai osallistumaan BTC102-kurssille, jossa opastamme sen luomisessa.
+Jos haluat perehtyä tarkemmin bitcoinien perintösuunnitelmaan, suosittelemme lukemaan Pamela Morganin kirjan [Cryptoasset Inheritance Plan] (https://planb.network/resources/books/28) tai ilmoittautumaan BTC102-kurssille, jossa annamme ohjeita suunnitelman laatimiseen.
 
-![kuva](assets/en/38.webp)
+![image](assets/en/38.webp)
 
 ### Yksityisyys on tärkeää
 
-Bitcoinsien pitkän aikavälin turvallisuus ei rajoitu fyysisten varmuuskopioiden luomiseen tai perintösuunnitelman kehittämiseen. Yksityisyys on toinen tärkeä huomioon otettava seikka. Esimerkiksi on suositeltavaa ostaa bitcoineja ilman henkilöllisyyden todistamista minimoidakseen henkilöllisyysvarkauden riskit tai yksinkertaisesti varojesi jäljittämisen minkä tahansa riittävän keinojen omaavan tahon toimesta. BTC 205 -kurssi voi auttaa tässä tarvittaessa.
+Fyysisten varmuuskopioiden luomisen tai perintäsuunnitelman laatimisen lisäksi yksityisyys on toinen tärkeä aihe, kun kyse on bitcoinien pitkän aikavälin turvallisuudesta. On esimerkiksi suositeltavaa ostaa bitcoineja antamatta henkilöllisyystodistusta, jotta minimoidaan identiteettivarkauden riski tai se, että oikeilla välineillä varustetut tahot jäljittävät varojasi.
 
-Yksityisyyden suhteen on ratkaisevan tärkeää välttää puhumasta kaikille bitcoineistasi. Todellakin, emme tiedä, mihin tämä omaisuuserä menee, ja omistajuuden suhteen harkitsevaisuus on viisas päätös. Et halua herättää huomiota itseesi ja lompakkoosi.
+Yksityisyyden kannalta on erittäin tärkeää välttää puhumasta bitcoineistasi kaikille. Emme voi ennustaa, miten tähän teknologiaan suhtaudutaan tulevaisuudessa, joten omistuksestasi on viisasta pitää vaiti: et halua kiinnittää huomiota itseesi tai lompakkoosi.
 
-Samassa hengessä vältä paljastamasta äänekkäästi turvajärjestelmääsi bitcoin-tapaamisissa tai kohtaamisissa vieraiden kanssa...
-
-
+Vältä myös jakamasta avoimesti tietoja turvajärjestelmästäsi bitcoin-tapaamisissa tai tuntemattomien ihmisten kanssa...
 
 ### Yhteenveto Bitcoin-lompakon turvallisuudesta
 
-Bitcoin-lompakot ovat ohjelmistoja, jotka mahdollistavat bitcoinsien säilyttämisen ja siirtämisen. On olemassa useita tyyppejä: mobiili- tai PC-lompakot, käteviä pieniä määriä ja/tai säännöllisiä menoja varten; fyysiset lompakot, sopivampia bitcoinsien säilyttämiseen keskipitkällä ja pitkällä aikavälillä; multisig-lompakot, jotka ovat monimutkaisempia hallita ja vaativat useita allekirjoituksia transaktioiden suorittamiseen.
-Kun luot lompakon, sinun on ensin varmuuskopioitava yksityinen avaimesi. Tämä varmuuskopio otetaan 12 tai 24 sanan listana, tai 12 sanana, jotka voit kirjoittaa paperilapulle tai metallilevylle. Tämä muistisarja mahdollistaa lompakkosi palauttamisen millä tahansa Bitcoin-lompakko sovelluksella. Kenellä tahansa, jolla on pääsy tähän listaan, on myös pääsy bitcoineihisi. Bitcoinissa taloudellinen itsenäisyys kulkee käsi kädessä yksilöllisen vastuun kanssa, joten on ratkaisevan tärkeää, että turvaat pääsyn lompakoihisi ja varmuuskopioihisi. Tämän tekemiseksi on tärkeää noudattaa tiettyjä sääntöjä:
+Bitcoin-lompakot ovat ohjelmistoja, joiden avulla voit tallentaa bitcoineja ja tehdä transaktioita. Niitä on useita erilaisia:
 
-- Luo perintösuunnitelma: varmistaaksesi, että läheisesi voivat saada rahat käyttöönsä ongelmatilanteessa.
-- Vältä vaihtoalustoja: on suositeltavaa välttää Bitcoinien säilyttämistä vaihtoalustoilla, sillä ne voivat olla alttiita hakkerihyökkäyksille.
-- Mukauta turvallisuustasoasi: ota aikaa selittääksesi tarpeesi ja käyttötarkoituksesi, tämä auttaa tekemään valintasi eri Bitcoin-lompakoiden joukosta.
 
-Nyt kun olemme käsitelleet Bitcoin-lompakoiden perusteet ja parhaat käytännöt niiden turvaamiseksi, käsittelemme seuraavassa luvussa Bitcoinin teknistä toimintaa. Jälleen kerran, Bitcoin-protokollan perusteiden tunteminen auttaa ymmärtämään sen toimintaa paremmin, mikä mahdollistaa sen tehokkaamman hyödyntämisen.
+- mobiili- tai PC-lompakot, jotka ovat käteviä pienille summille ja/tai säännöllisille menoille;
+- fyysiset lompakot, jotka soveltuvat paremmin bitcoinien säilyttämiseen keskipitkällä ja pitkällä aikavälillä;
+- multisig-lompakot, joita on monimutkaisempi hallita ja jotka vaativat useita allekirjoituksia transaktioiden suorittamiseen.
+
+Lompakkoa luodessasi sinun on ensin varmuuskopioitava 12 tai 24 sanan luettelo paperille tai metallilevylle. Tämän niin sanotun muistisanan avulla voit palauttaa lompakkosi minkä tahansa Bitcoin-lompakkosovelluksen kautta. Huomaa, että kuka tahansa, joka pääsee käsiksi tähän luetteloon, pääsee myös käsiksi varoihisi.
+
+Bitcoin-maailmassa taloudellinen suvereniteetti on tiiviisti sidoksissa yksilölliseen vastuuseen, minkä vuoksi on tärkeää turvata pääsy lompakkoihin ja varmuuskopioihin. Tämän saavuttamiseksi on tärkeää noudattaa tiettyjä ohjeita:
+
+
+- Luo perintösuunnitelma, jolla varmistat, että läheisesi voivat hakea rahat ongelmien sattuessa.
+- Vältä jättämästä Bitcoinejasi vaihtoalustoille, sillä ne voivat olla alttiita hakkerihyökkäyksille.
+- Mukauta turvallisuustaso tarpeisiisi ja käyttötapauksiisi, jotta voit valita hyvin saatavilla olevien Bitcoin-lompakoiden joukosta.
+
+Nyt kun olemme käsitelleet Bitcoin-lompakoiden perusteita ja parhaita käytäntöjä niiden suojaamiseen, seuraavassa luvussa tutustumme Bitcoinin teknisiin ominaisuuksiin. Jälleen kerran Bitcoin-protokollan perusteiden ymmärtäminen parantaa ymmärrystäsi sen toiminnasta ja antaa sinulle mahdollisuuden hyödyntää sitä paremmin.
 
 # Bitcoinin tekniset näkökohdat.
 
@@ -638,112 +717,111 @@ Nyt kun olemme käsitelleet Bitcoin-lompakoiden perusteet ja parhaat käytännö
 
 <chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
 
-### Aloitetaanpa hieman historialla.
+### Aloitetaan hieman historiasta.
 
 ![image](assets/en/39.webp)
 
-Lokakuun 31. päivä 2008 merkitsee uuden rahoitusteknologian syntymää: Bitcoinia. Tällöin Satoshi Nakamoto, Bitcoinin nimettömänä pysyttelevä luoja, esittelee innovaationsa maailmalle sähköpostitse, joka jaettiin cypherpunk-postituslistalle, yhteisölle, joka koostuu yksityisyydestä internetissä intohimoisesti kiinnostuneista kryptografia-harrastajista.
+Lokakuun 31. päivänä 2008 syntyi uusi rahoitusteknologia eli Bitcoin. Tänä päivänä nimettömänä esiintynyt Satoshi Nakamoto esitteli innovaationsa maailmalle sähköpostilla, joka lähetettiin cypherpunksin postituslistalle. Kyseessä on salakirjoituksen harrastajien yhteisö, joka on omistautunut edistämään yksityisyyden suojaa internetissä. Sähköpostiviesti sisälsi asiakirjan nimeltä "White Paper", jossa esiteltiin Bitcoinin toimintaa.
 
-Tämä sähköposti sisälsi asiakirjan, jota kutsutaan "White Paperiksi", ja joka esitteli Bitcoinin toimintaa. Aiempien digitaalisen käteisen järjestelmien epäonnistumiset huomioon ottaen, tämä aloite ei heti herättänyt innostusta. Siitä huolimatta tämä White Paper on lopulta tullut Bitcoin-käyttäjien viiteasiakirjaksi ja on ollut monien keskustelujen aiheena Bitcoin-ekosysteemissä.
+Tämä aloite ei heti herättänyt innostusta, mikä johtui luultavasti siitä, että aiemmat yritykset luoda digitaalinen käteisrahajärjestelmä ovat epäonnistuneet. Valkoisesta kirjasta tuli kuitenkin lopulta Bitcoin-käyttäjien viitekehys, ja siitä on vuosien mittaan käyty monia keskusteluja Bitcoin-ekosysteemissä.
 
 ![image](assets/en/40.webp)
 
-Tammikuun 3. päivänä 2009 Satoshi virallisesti käynnistää Bitcoin-verkon luomalla ensimmäisen lohkon, joka tunnetaan myös alkulohkona, ja joka merkitsee Bitcoin-lohkoketjun käynnistymistä. Tämä lohko sisältää paljastavan viestin Bitcoinin tehtävästä: "03/jan/2009 Kansleri harkitsee toista pelastuspakettia pankeille."
+Tammikuun 3. päivänä 2009 Satoshi avasi virallisesti Bitcoin-verkon luomalla ensimmäisen lohkon, joka tunnetaan myös nimellä "Genesis-lohko" ja joka merkitsi Bitcoin-lohkoketjun käynnistymistä. Tämä lohko sisältää paljastavan viestin, joka kuvastaa Bitcoinin missiota: "03/jan/2009 Kansleri toisen pankkien pelastuspaketin partaalla"
 
 ![image](assets/en/41.webp)
 
-> "Voimme voittaa suuren taistelun asevarustelussa ja saavuttaa
-> uuden vapauden alueen useiksi vuosiksi.” - Satoshi Nakamoto
+> "Voimme voittaa merkittävän taistelun asevarustelukilpailussa ja saavuttaa
+> vapauden uudella alueella useiden vuosien ajan." - Satoshi Nakamoto
+![image](assets/en/42.webp)
 
-![image](assets/en/chapter9/7.webp)
+### Bitcoin-protokolla herää henkiin
 
-### Bitcoin-protokolla alkaa elää
-
-Tammikuun 8. päivänä 2009 Satoshi ilmoittaa Bitcoin-0.1.0:n julkaisusta. Pian tämän jälkeen Hal Finney ottaa ohjelmiston käyttöön ja liittyy verkkoon. Nyt verkossa oli 2 solmua, ja siten 2 louhijaa. Finney ikuistaa tämän askeleen twiittaamalla "Running Bitcoin". Tammikuun 12. päivänä 2009 tehdään ensimmäinen Bitcoin-siirto Satoshi Nakamoton ja Hal Finneyn välillä. Tämä siirto, 10 BTC, kirjataan lohkoon 170.
+Tammikuun 9. päivänä 2009 Satoshi ilmoitti julkaisevansa Bitcoinin 0.1.0-version. Pian tämän jälkeen Hal Finney otti ohjelmiston haltuunsa ja liittyi verkkoon, mikä merkitsi kahden solmun ja siten kahden louhijan läsnäoloa verkossa. Finney jopa ikuisti tämän askeleen twiittaamalla: "Running Bitcoin". Tammikuun 12. päivänä 2009 tehtiin ensimmäinen 10 BTC:n Bitcoin-tapahtuma Satoshin ja Hal Finneyn välillä, ja löydät sen helposti, jos palaat takaisin lohkoon 170.
 
 ![image](assets/en/43.webp)
-Bitcoinin kiinnostus kasvaa nopeasti, ja monet ihmiset alkavat testata, keskustella, ratkaista bugeja ja pohtia Bitcoinin eettisiä, taloudellisia ja filosofisia näkökohtia. Näiden vaihtojen helpottamiseksi BitcoinTalk-foorumi luodaan 22. marraskuuta 2009 Satoshi Nakamoton toimesta. Tämä foorumi muodostuu nopeasti Bitcoin-käyttäjien suosituksi keskustelupaikaksi. Siellä syntyy monia Bitcoiniin liittyviä meemejä ja symboleita, kuten [Bitcoinin logo](https://bitcointalk.org/index.php?topic=64.0), kuuluisa [Hodl](https://bitcointalk.org/index.php?topic=375643.0) tai jopa [Pizzapäivä](https://bitcointalk.org/index.php?topic=137.msg1195).
 
-> **Tiesitkö?** Todellakin, 22. toukokuuta 2010 Laszlo Hanyecz teki historiaa Bitcoinilla tarjotessaan ostaa 2 pizzaa 10 000 BTC:llä. Tämä on ensimmäinen kerta, kun Bitcoinia käytetään fyysisten tavaroiden ostamiseen.
+Kiinnostus Bitcoinia kohtaan kasvoi nopeasti, ja monet ihmiset testasivat sitä, osallistuivat keskusteluihin, selvittivät virheitä ja pohtivat sen eettisiä, taloudellisia ja filosofisia näkökohtia. Ihmiset olivat niin innostuneita, että Satoshi loi 22. marraskuuta 2009 BitcoinTalk-foorumin helpottamaan tämäntyyppistä vastakkainasettelua.
 
-![kuva](assets/en/44.webp)
+Foorumista tuli nopeasti Bitcoin-käyttäjien suosima keskustelupaikka, ja se synnytti niin paljon tunnettuja Bitcoiniin liittyviä meemejä ja symboleja, kuten [Bitcoin-logo](https://bitcointalk.org/index.php?topic=64.0), kuuluisa [Hodl](https://bitcointalk.org/index.php?topic=375643.0) tai jopa [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
+
+**Tiesitkö?** 22. toukokuuta 2010 Laszlo Hanyecz teki historiaa tarjoutumalla ostamaan kaksi pizzaa 10 000 BTC:llä: se oli ensimmäinen kerta, kun Bitcoinia käytettiin fyysisten tavaroiden ostamiseen.
+
+![image](assets/en/44.webp)
 
 ### Satoshi Nakamoton katoaminen
 
-Vuonna 2010, kun Bitcoin alkaa saada median huomiota, Satoshi päättää etääntyä. 12. joulukuuta 2010 hän julkaisee viimeisen viestinsä foorumilla ilmoittaen lähdöstään. 23. huhtikuuta 2011 hän tekee viimeisen tunnetun yksityisen vaihdon sähköpostitse. Satoshi katoaa sen jälkeen jättäen luomuksensa yhteisön käsiin.
+Vuonna 2010, kun Bitcoin alkoi herättää huomiota tiedotusvälineissä, Satoshi päätti ottaa etäisyyttä ilmoittamalla lähdöstään foorumikirjoituksessa 12. joulukuuta 2010. Huhtikuun 23. päivänä 2011 hän teki viimeisen yksityisen viestinvaihtonsa sähköpostitse ja katosi sitten jättäen luomuksensa yhteisön käsiin.
 
-> "Hallitukset ovat hyviä katkaisemaan keskitetysti hallittujen verkkojen, kuten Napsterin, päitä, mutta puhtaasti P2P-verkot, kuten Gnutella ja Tor, näyttävät pitävän puolensa." - Satoshi Nakamoto
+> "Hallitukset ovat hyviä katkaisemaan keskitetysti toimivan
+> napsterin kaltaiset valvotut verkot, mutta puhtaat P2P-verkot, kuten
+> Gnutella ja Tor näyttävät pitävän pintansa." - Satoshi Nakamoto
+Satoshin poissaolosta huolimatta Bitcoinia kehitettiin edelleen: Bitcoinin historiaa kirjoitetaan 10 minuutin välein, ja protokolla toimii tänäkin päivänä tarkoitetulla tavalla. Kaikesta pelosta, epävarmuudesta tai epäilystä huolimatta Bitcoin jatkaa eteenpäin, ja sen saatavuus verkossa on erittäin vahva. Itse asiassa tämän [verkkosivuston] (https://bitcoinuptime.com/) mukaan Bitcoin on ollut toimiva ja toiminut ilman massiivisia ongelmia 99,988 prosenttia ajasta sen luomisesta lähtien.
 
-Huolimatta Satoshin poissaolosta, Bitcoin jatkaa kehittymistään. Joka 10. minuutti Bitcoinin historia kirjoitetaan, ja protokolla jatkaa toimintaansa suunnitellusti. Pelosta, epävarmuudesta tai epäilystä huolimatta (FOMO Fear Of Missing Out tai FUD Fear Uncertainty Doubt), Bitcoin jatkaa eteenpäin, 99,988%:n online-saatavuudella.
+Joidenkin mielestä Bitcoin on määritelty sienimäiseksi kokonaisuudeksi, kuten [myseeli](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), kun taas toiset kuvaavat sitä [mustaksi aukoksi](https://dergigi.com/). Rakastetaan sitä tai vihataan sitä, Bitcoin jatkaa olemassaoloaan, ja sen jatkuva rytmi on 10 minuuttia lohkoa kohden kuin uuden rahajärjestelmän sydämen syke.
 
-Bitcoin koetaan eri tavoin eri ihmisille. Joillekin se on sienimäinen entiteetti, kuten [myseeli](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), toisille se on [musta aukko](https://dergigi.com/2019/05/01/bitcoins-gravity/). Rakasta tai vihaa sitä, Bitcoin jatkaa olemassaoloaan, jatkuvalla 10 minuutin välein tapahtuvalla lohkojen tuotannolla, kuin uuden rahajärjestelmän sydämenlyönti.
+Jos haluat lisätietoja Satoshi Nakamoton kirjoituksista, suosittelemme lukemaan Phil Champagnen kirjoittaman ["The Book of Satoshi"](https://planb.network/en/resources/books/98) tai ARTE:n dokumentin "Le mystaire Satoshi".
 
-Jos haluat tietää enemmän Satoshi Nakamoton kirjoituksista, suosittelen [Phil Champagnen kirjaa](https://planb.network/resources/books) tai ARTE-dokumenttia "le mystaire Satoshi".
+![image](assets/en/45.webp)
 
-![kuva](assets/en/45.webp)
+> "Perusongelma perinteisessä valuutassa on luottamus, jota sen toimiminen edellyttää. Keskuspankkiin on luotettava, ettei se heikennä valuutan arvoa, mutta fiat-valuuttojen historia on täynnä luottamuksen rikkomisia. Pankkeihin on luotettava, että ne pitävät rahamme hallussaan ja siirtävät sen sähköisesti, mutta ne lainaavat sitä luottokuplien aalloissa, ja niillä on tuskin murto-osaa varannoissaan." - [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
+Nyt kun meillä on hieman taustatietoa, tarkastellaan, miten Bitcoin-tapahtuma yleensä toimii.
 
-> "Perinteisen valuutan perusongelma on kaikki luottamus, jota sen toimiminen edellyttää. Keskuspankin on oltava luotettava, ettei se devalvoi valuuttaa, mutta fiat-valuuttojen historia on täynnä näitä luottamuksen pettämisiä. Pankkeihin on luotettava, että ne pitävät rahamme ja siirtävät sitä sähköisesti, mutta ne lainaavat sitä luottokuplissa vain murto-osalla varantona."
-
-Nyt kun meillä on taustatietoa, katsotaanpa, miten Bitcoin-siirto yleisesti toimii.
-
-
-
-## Bitcoin-siirrot
+## Bitcoin-transaktiot
 
 <chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
-Bitcoin-siirto on yksinkertaisesti omistajuuden siirto bitcoineista käyttäen Bitcoin-osoitetta. Otetaan esimerkiksi kaksi päähenkilöä: Alice ja Bob. Alice haluaa hankkia bitcoineja, kun taas Bobilla on jo niitä hallussaan.
 
-### Vaihe 1 - Siirron luominen lompakon kautta
+Bitcoin-tapahtuma on yksinkertaisesti bitcoinien omistusoikeuden siirto Bitcoin-osoitteen avulla. Tämän prosessin kuvaamiseksi esitellään kaksi päähenkilöä: Alice ja Bob. Alice haluaa hankkia bitcoineja, kun taas Bob omistaa jo joitakin.
 
-Jotta Bob voi siirtää bitcoineja Alicelle, Alicen on annettava Bobille yksi Bitcoin-osoitteistaan. Tämä osoite, joka on johdettu Alicen julkisesta avaimesta, on yksilöllinen hänen Bitcoin-lompakolleen.
+### Vaihe 1 - Transaktion luominen lompakon kautta
 
-Käytännössä Alice avaa lompakkonsa ja painaa "vastaanota". Näytölle ilmestyy QR-koodi tai osoite, kuten tämä bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr. Se on eräänlainen hänen "Bitcoin-IBANinsa". Hän antaa sen Bobille.
+Jotta Bob voi siirtää bitcoineja Alicelle, Alicen on annettava hänelle yksi Bitcoin-osoitteistaan, jotka ovat yksilöllisiä hänen Bitcoin-lompakossaan. Aivan kuten yksityistä avainta käytetään julkisen avaimen luomiseen, jälkimmäistä käytetään sitten osoitteiden luomiseen.
 
-Bob aloittaa siirron käyttäen Alicen vastaanotto-osoitetta. Bob puolestaan avaa oman Bitcoin-lompakkonsa, painaa "lähetä", kopioi ja liittää osoitteen, lisää summan ja siirtomaksun. Nämä maksut ovat kannustin louhijoille sisällyttää siirto seuraavaan lohkoon.
+Konkreettisesti, kun Alice avaa lompakkonsa ja painaa "vastaanota", QR-koodi tai osoite (kuten tämä bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr) näytetään. Tämä toimii eräänlaisena Bitcoin IBAN -tilinumerona, jonka hän sitten antaa Bobille.
 
-![kuva](assets/en/46.webp)
+Tämän jälkeen Bob tekee siirron avaamalla Bitcoin-lompakkonsa ja painamalla "lähetä". Sitten hän kopioi ja liittää Alicen osoitteen vaadittuun kenttään, lisää summan, jonka hän haluaa lähettää, ja päättää transaktiomaksut, jotka toimivat kannustimena louhijoille sisällyttää transaktio seuraavaan lohkoon. Mitä korkeampia maksuja Bob maksaa, sitä paremmat mahdollisuudet hänellä on sisällyttää transaktio seuraavaan lohkoon, joka lisätään lohkoketjuun eli julkiseen ja muuttumattomaan pääkirjaan, johon kirjataan kaikki Bitcoin-transaktiot.
 
-> **Miksi maksaa maksuja?** Nämä maksut ovat olennaisia luomaan vapaan markkinan siirtojen sisällyttämiseksi lohkoihin, koska lohkon sisältämien siirtojen määrä on rajallinen. Itse asiassa lohkon koko on 1 MB (voi laajentua 4MB:hen Segwit-päivityksen jälkeen), mikä vastaa muutamaa tuhatta siirtoa per lohko. Siirron maksut ovat suhteessa sen kokoon. Siirron koko puolestaan riippuu siirron monimutkaisuudesta.
+Viimeistelläkseen transaktion Bobin on allekirjoitettava se yksityisellä avaimellaan varmistaakseen, että hän on siirrettävien bitcoinien omistaja. Tämä vaihe on yleensä automaattinen mobiililompakoissa, tai se tapahtuu vahvistuksena fyysisessä lompakossa: "Oletko varma, että haluat lähettää X:n Y:lle? Kyllä tai ei".
 
-Siirron viimeistelemiseksi Bobin on annettava allekirjoitus yksityisellä avaimella osoitteista, joita hän käyttää maksamaan Alicelle. Tämä varmistaa, että hän on bitcoineja siirtävän omistaja. Tämä vaihe tehdään yleensä automaattisesti mobiililompakoissa, tai se on vahvistus fyysisessä lompakossasi: "Haluatko varmasti lähettää X:n Y:lle? Kyllä tai ei".
+![image](assets/en/46.webp)
 
-### Vaihe 2: Siirron leviäminen solmujen kautta louhijoille
+**Miksi maksamme maksuja?** Maksut ovat välttämättömiä, jotta voidaan luoda vapaat markkinat, jotka mahdollistavat korttelitransaktiot. Itse asiassa lohkon koko on 1 MB (jota laajennettiin 4 MB:iin Segwit-päivityksen jälkeen), joten lohkoon "lisättävien" transaktioiden määrä on rajoitettu muutamaan tuhanteen transaktioon lohkoa kohti. Transaktion koko riippuu sen monimutkaisuudesta. Siksi monimutkaisemmista transaktioista peritään yleensä korkeammat maksut.
 
-Tässä vaiheessa siirto on luotu ja Bobin lompakko jakaa sen Bitcoin-verkolle. Tehdäkseen tämän, hänen lompakkonsa kommunikoi Bitcoin-verkon solmun kanssa, ja tämä solmu levittää tätä tietoa muihin solmuihin. Tämä levitysvaihe mahdollistaa koko verkon nähdä tämän uuden siirron ja ottaa sen huomioon.
+### Vaihe 2: Tapahtuman leviäminen solmujen kautta
 
-![kuva](assets/en/47.webp)
+Tässä vaiheessa transaktio on luotu, ja Bobin lompakko jakaa sen Bitcoin-verkon kanssa. Tätä varten hänen lompakkonsa kommunikoi Bitcoin-verkon solmun kanssa, joka välittää tämän tiedon muille solmuille. Tällaisen prosessin ansiosta koko verkko näkee tämän uuden transaktion ja ottaa sen huomioon.
 
-Vaikka tämä siirto on nyt kaikkien tiedossa (työkalun nimeltä Mempool kautta), siirtoa ei välttämättä pidetä vahvistettuna! Todellisuudessa louhijat vahvistavat siirrot sisällyttämällä ne lohkoon kuuluisassa lohkoketjussamme.
+![image](assets/en/47.webp)
 
-Louhijoiden tehtävänä on ottaa voimassa olevat ja vahvistamattomat siirrot ja sitten koota ne lohkoon. Jotta heidän lohkonsa olisi seuraava Bitcoin-lohkoketjussa, heidän on ratkaistava kryptografinen pulma prosessissa, jota kutsutaan "työn todistamiseksi".
+Vaikka tämä transaktio on kaikkien tiedossa (Mempool-nimisen työkalun kautta), sitä ei voida pitää vahvistettuna ennen kuin louhija lisää sen lohkoon, sillä vain louhija vahvistaa transaktiot sisällyttämällä ne lohkoketjuun.
 
-![kuva](assets/en/48.webp)
+Itse asiassa louhijoiden tehtävänä on kerätä kelvollisia ja vahvistamattomia transaktioita ja koota ne lohkoksi. Lyhyesti sanottuna heidän on ratkaistava kryptografinen pulma prosessissa nimeltä "proof of work", jotta heidän lohkonsa olisi seuraava lohko Bitcoin-lohkoketjussa.
 
-### Vaihe 3: Siirto louhitaan lohkoon louhijan toimesta.
+![image](assets/en/48.webp)
 
-Tämä työn todistaminen vaatii voimassa olevan "hashin" löytämisen kyseiselle lohkolle. Ajattele sitä ainutlaatuisena sormenjälkenä, joka liittyy lohkoon, koostuen 256 merkistä. Tämän hashin voimassaolo riippuu Bitcoin-verkon vaikeustasosta. Menemme yksityiskohtiin tästä mekanismista myöhemmin. Toistaiseksi katsotaan, että louhija on löytänyt voimassa olevan lohkon ja että Bobin siirto Alicelle sisältyy siihen.
-Tämä uusi kelvollinen lohko lisätään Bitcoin-lohkoketjuun, joka on julkinen ja muuttumaton kirjanpito kaikista Bitcoin-siirroista. Ajattele sitä yhteisenä kirjanpitona kaikille Bitcoin-käyttäjille. Protokollan sääntöjen mukaan lohko lisätään noin joka kymmenes minuutti vaikeustason säädön ansiosta. Näemme osiossa, joka käsittelee louhijoita, minkä mekanismin avulla estetään Bitcoin-siirtokirjan muokkaaminen.
-![kuva](assets/en/49.webp)
+### Vaihe 3: Louhija louhii transaktion lohkossa.
 
-### Vaihe 4: Lohko on kelvollinen ja Alicen lompakon solmu on vahvistanut sen.
+Proof of work -järjestelmä edellyttää, että kyseiselle lohkolle löydetään kelvollinen "hash": ajattele sitä lohkoon liittyvänä yksilöllisenä sormenjälkenä, joka koostuu 256 merkistä. Tämän hashin pätevyys riippuu Bitcoin-verkon vaikeusasteesta (menemme yksityiskohtiin myöhemmin). Oletetaan nyt, että louhija on löytänyt kelvollisen lohkon ja että Bobin liiketoimi Alicelle sisältyy siihen. Sitten uusi kelvollinen lohko lisätään lohkoketjuun, joka on kaikkien Bitcoin-käyttäjien yhteinen pääkirja.
 
-Tässä vaiheessa siirtoa pidetään kelvollisena, louhija levittää sitten uuden lohkon solmunsa kautta verkkoon, ja Alicen lompakko päivittyy.
+![image](assets/en/49.webp)
 
-![kuva](assets/en/50.webp)
+### Vaihe 4: Lohko on kelvollinen, ja Liisan referenssisolmu varmentaa sen.
 
-> Huomio: Vaikka Alice näkee, että hän on saanut bitcoineja yhdelle osoitteistaan, on suositeltavaa pitää siirtoa muuttumattomana vasta, kun se on saanut 6 vahvistusta. Tämä tarkoittaa, että 6 muuta lohkoa on louhittu lohkon päälle, joka sisältää Bobin siirron. Toisin sanoen, mitä vanhempi siirto on lohkoketjussa, sitä muuttumattomammaksi se tulee.
+Tässä vaiheessa transaktio katsotaan päteväksi: louhija levittää uuden lohkon verkkoon solmunsa kautta, ja Alicen lompakko päivitetään.
 
+![image](assets/en/50.webp)
 
+**Huomautus:** Vaikka Liisa saisi ilmoituksen, että hän on saanut bitcoineja johonkin osoitteeseensa, on suositeltavaa pitää transaktiota muuttumattomana vasta sen jälkeen, kun se on saanut **kuusi** vahvistusta. Tämä tarkoittaa, että Bobin transaktion sisältävän lohkon päälle on louhittava kuusi uutta lohkoa. Toisin sanoen mitä vanhempi transaktio on lohkoketjussa, sitä muuttumattomampi siitä tulee.
 
-### Mikä on kaiken tämän tarkoitus?
+### Mikä on tämän prosessin merkitys?
 
-Lopulta Bitcoin-siirtojärjestelmä on hajautettu ja toimii vertaisverkossa ilman luotettuja välittäjiä.
+Bitcoin-tapahtumajärjestelmä on hajautettu ja toimii vertaisverkkona ilman luotettavia välikäsiä.
 
-Bob lähettää siirtonsa Bitcoin-verkkoon, ja kun louhija julkaisee kelvollisen lohkon, joka sisältää Bobin siirron, Alice voi alkaa pitää bitcoineja omistuksessaan. Luottamusta ei vaadita missään bitcoinien omistusoikeuden siirron vaiheessa; vain protokollan säännöt ja taloudelliset kannustimet tekevät haitallisesti toimimisen Bitcoin-protokollan sisällä liian kalliiksi.
+Bob lähettää transaktionsa Bitcoin-verkkoon, ja kun louhija julkaisee Bobin transaktion sisältävän kelvollisen lohkon, Alice voi alkaa katsoa, että bitcoinit kuuluvat hänelle. Luottamusta ei tarvita missään vaiheessa bitcoinin omistusoikeuden siirtoa: pelkästään protokollan säännöt ja taloudelliset kannustimet tekevät Bitcoin-järjestelmän sisällä tapahtuvasta pahantahtoisesta toiminnasta kohtuuttoman kallista.
 
-Käyttäjät siirtävät rahansa omistusoikeuden digitaalisesti allekirjoittamalla siirrot yksityisillä avaimillaan. Louhijoilla on vähän valtaa, sillä käyttäjillä on myös merkittävä kontrolli Bitcoin-solmujen kautta, jotka käsittelevät uusien lohkojen ja sisältyvien siirtojen vahvistamisen. Juuri tämän Bitcoin-solmujen verkon kautta verkko on todella hajautettu.
+Itse asiassa käyttäjät siirtävät varojensa omistusoikeuden digitaalisesti allekirjoittamalla tapahtumat omilla yksityisillä avaimillaan. Toisaalta louhijoilla on rajallinen valta, ja käyttäjät säilyttävät merkittävän määräysvallan käyttämällä Bitcoin-solmuja uusien lohkojen ja niihin sisältyvien transaktioiden vahvistamiseen. Jokaisella solmulla on joko täydellinen tai osittainen kopio pääkirjasta, joten Bitcoin-solmujen muodostama verkko tekee järjestelmästä todella hajautetun.
 
-Itse asiassa, jotta Bitcoin-verkko voitaisiin täysin tuhota, kaikki lohkoketjun kopiot kaikissa Bitcoin-solmuissa pitäisi tuhota - käytännössä mahdoton tehtävä näiden solmujen maantieteellisen jakautumisen ja fyysisesti takavarikoimisen vaikeuden vuoksi.
+Jotta Bitcoin-verkko voitaisiin tuhota kokonaan, kaikki Bitcoin-solmujen lohkoketjun kopiot olisi tuhottava, mikä on käytännössä mahdotonta näiden solmujen maantieteellisen jakautumisen ja niiden fyysisen haltuunoton vaikeuden vuoksi.
 
 Katsotaanpa tarkemmin, miten Bitcoin-solmu toimii.
 
@@ -751,267 +829,291 @@ Katsotaanpa tarkemmin, miten Bitcoin-solmu toimii.
 
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
-Solmut ovat keskeinen elementti Bitcoin-verkon arkkitehtuurissa. Ne suorittavat useita ratkaisevan tärkeitä toimintoja:
+Solmut ovat Bitcoin-verkkoarkkitehtuurin olennainen osa, sillä ne suorittavat useita tärkeitä tehtäviä:
 
-- Ylläpitävät kopion Bitcoin-lohkoketjusta
-- Vahvistavat siirtoja
-- Välittävät tietoa muille solmuille
-- Toteuttavat Bitcoin-protokollan sääntöjä.
 
-Siksi mikä tahansa laite, joka ajaa Bitcoin-ohjelmistoa, kutsutaan Bitcoin-solmuiksi (usein [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) kautta), edistää verkon hajauttamista.
+- Bitcoin-lohkoketjun kopion ylläpitäminen
+- Tapahtumien validointi
+- Tietojen lähettäminen muille solmuille
+- Bitcoin-protokollan sääntöjen täytäntöönpano.
 
-![kuva](assets/en/51.webp)
+Näin ollen mikä tahansa laite, joka käyttää Bitcoin-ohjelmistoa, jota kutsutaan Bitcoin-solmuksi (usein [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), edistää verkon hajauttamista.
 
-### Solmut ovat siis Bitcoinin keskeinen ydin.
+![image](assets/en/51.webp)
 
-Jokainen solmu pitää kopion lohkoketjusta, mikä mahdollistaa siirtojen vahvistamisen ja estää petosyritykset. Verkon hajautettu luonne antaa Bitcoinille poikkeuksellisen joustavuuden ja robustisuuden - Bitcoin-protokollan pysäyttämiseksi kaikki solmut ympäri maailmaa pitäisi sammuttaa. Tiedoksi, tällä hetkellä (syyskuu 2023) on noin [45 000 solmua](https://bitnodes.io/nodes/all/) jakautuneena ympäri maailmaa.
-Solmut kykenevät varmistamaan lohkojen ja transaktioiden pätevyyden, koska ne noudattavat Bitcoin-konsensuksen sääntöjä. Nämä säännöt ohjaavat muun muassa Bitcoinin rahapolitiikkaa, kuten louhijoiden palkkion määrää (josta keskustelemme tarkemmin seuraavassa osiossa) ja liikkeessä olevan bitcoinin määrää. Solmut toimivat tavallaan verkon oikeusjärjestelmänä. Niiden ansiosta kaikki verkon osallistujat noudattavat samoja sääntöjä. Ne takaavat Bitcoin-protokollan neutraaliuden. Konsensussäännöt muuttuvat hyvin vähän, jos ollenkaan, sillä muutosten tekeminen vaatii kaikkien solmujen hyväksynnän.
-![kuva](assets/en/52.webp)
+### Solmut ovat Bitcoinin keskeinen ydin.
 
-Protokollan hallinto on tämän koulutuksen ulkopuolella, mutta on hyvä tietää, että jokainen Bitcoin-solmua käyttävä käyttäjä päättää, mitä sääntöjä he haluavat noudattaa. Näin ollen käyttäjä voisi päättää noudattaa muita sääntöjä (eli tehdä muutoksia koodiin), mutta jos nämä muutokset mitätöivät nykyiset konsensussäännöt, kyseinen solmu ei enää kuulu Bitcoin-verkkoon. Suuret muutokset ovat siis harvinaisia ja vaativat merkittävää koordinointia tuhansien toimijoiden kesken, joilla on erilaisia ideologioita ja etuja, mikä pakottaa protokollan tuottamaan vain päivityksiä, jotka tekevät siitä "paremman" kaikkien Bitcoin-käyttäjien näkökulmasta.
+Jokaisella solmulla on kopio lohkoketjusta, mikä mahdollistaa transaktioiden todentamisen ja estää kaikki petosyritykset. Verkon hajautettu luonne antaa Bitcoinille poikkeuksellisen joustavuuden ja kestävyyden. Bitcoin-protokollan pysäyttämiseksi kaikki solmut ympäri maailmaa pitäisi itse asiassa sulkea. Tiedoksesi, että syyskuussa 2023 oli noin [45 000 solmua](https://bitnodes.io/nodes/all/) hajautettuna ympäri maailmaa.
+
+Solmut pystyvät tarkistamaan lohkojen ja transaktioiden pätevyyden, koska ne noudattavat Bitcoin-konsensuksen sääntöjä. Nämä säännöt määrittelevät Bitcoinin rahapolitiikan, kuten louhijoiden palkkion määrän (jota käsittelemme tarkemmin seuraavassa jaksossa) ja liikkeessä olevien bitcoinien määrän. Solmut toimivat tavallaan verkon oikeusjärjestelmänä, koska kaikki verkon osallistujat noudattavat niiden takia samoja sääntöjä, joten ne varmistavat Bitcoin-protokollan puolueettomuuden. Konsensussäännöt eivät juuri vaihtele, jos lainkaan, koska muutosten tekeminen edellyttää kaikkien solmujen hyväksyntää.
+
+![image](assets/en/52.webp)
+
+Protokollaan liittyvä hallinto ei kuulu tämän peruskurssin aihepiiriin, mutta on tärkeää huomata, että jokainen Bitcoin-solmua ylläpitävä käyttäjä voi päättää, mitä sääntöjä noudattaa. Käyttäjä voi päättää noudattaa eri sääntöjä (eli tehdä muutoksia koodiin), mutta jos nämä muutokset mitätöivät nykyiset konsensussäännöt, kyseinen solmu ei enää ole osa Bitcoin-verkkoa. Näin ollen suuret muutokset ovat harvinaisia ja vaativat huomattavaa koordinointia tuhansien osallistujien kesken, joilla on erilaisia ideologioita ja intressejä, mikä pakottaa heidät toimittamaan päivityksiä, joita kaikki Bitcoin-käyttäjät pitävät "parempina".
 
 ### Miltä solmu näyttää?
 
-Kun haluamme omaa solmua, meillä on useita vaihtoehtoja, ja niiden ylläpitokustannukset vaihtelevat. Voit yksinkertaisesti ajaa Bitcoin Core -ohjelmistoa tietokoneellasi, mutta tämä vaatii merkittävän määrän tallennustilaa, koska lohkoketju on noin ~500GB. Tämän rajoitteen voittamiseksi voit päättää säilyttää vain viimeiset N lohkoa muistissa, mikä tunnetaan nimellä "karsittu solmu". Tällaisen ratkaisun kustannukset ovat vähäiset, koska solmu on päällä vain tarvittaessa.
+Kun haluat asentaa oman solmun, käytettävissä on useita vaihtoehtoja, joiden ylläpitokustannukset vaihtelevat. Voit yksinkertaisesti ajaa Bitcoin Core -ohjelmiston tietokoneellasi, mutta se vaatii huomattavan määrän tallennustilaa, sillä lohkoketju on noin ~500 Gt. Tämän rajoituksen voittamiseksi voit halutessasi säilyttää muistissa vain viimeiset N lohkoa luomalla "karsitun solmun". Tämän toisen ratkaisun kustannukset ovat mitättömät, koska solmu on aktiivinen vain silloin, kun sitä tarvitaan.
 
-![kuva](assets/en/53.webp)
+![image](assets/en/53.webp)
 
-Toinen vaihtoehto on käyttää tähän tarkoitukseen omistettua laitteistoa, kuten Raspberry Pi 4, jossa on riittävän suuri SSD (noin ~1TB). Tämä toinen vaihtoehto on kalliimpi, jos sinun täytyy ostaa laitteisto, mutta sähkönkulutuksen osalta se edustaa hieman alle 10 euroa vuodessa.
-Kaistanleveyden näkökulmasta, kun otetaan huomioon 1MB:n lohko joka 10. minuutti, tämä edustaa noin 5GB kuukaudessa.
+Toinen vaihtoehto on käyttää tähän tarkoitukseen tarkoitettua laitteistoa, kuten Raspberry Pi 4:ää, jossa on riittävän suuri SSD-levy (noin ~1TB). Tämä toinen vaihtoehto on kalliimpi, jos joudut ostamaan laitteiston, mutta sähkönkulutuksen osalta se on hieman alle 10,00 euroa vuodessa.
 
-### Solmujen on pysyttävä kaikkien saavutettavissa!
+Kaistanleveyden näkökulmasta katsottuna, kun otetaan huomioon 1 1MB:n lohko 10 minuutin välein, se vastaa noin 5GB kuukaudessa.
 
-Bitcoin-solmun edulliset kustannukset ja saavutettavuus laitteistoresurssien, tallennustilan ja kaistanleveyden osalta on erittäin tärkeä näkökohta, sillä se helpottaa verkon hajauttamista.
+### Solmujen on pysyttävä kaikkien saatavilla!
 
-Todellakin, jokaisella on hyvä syy pyörittää solmua! Hinta ja vaiva ovat minimaalisia saatavan hyödyn kannalta. Sinun tarvitsee vain lähteä seikkailuun ja liittyä tuhansien muiden bitcoinereiden joukkoon, sillä yhdessä muodostamme Bitcoin-verkon.
+Bitcoin-solmun kohtuulliset kustannukset ja saatavuus laitteistoresurssien, tallennustilan ja kaistanleveyden osalta on erittäin tärkeä ominaisuus, sillä se helpottaa verkon hajauttamista.
 
-![kuva](assets/en/54.webp)
+Jokaisella on todellakin hyvä syy ajaa solmua! Kustannukset ja ponnistelut ovat minimaaliset verrattuna saatuun hyötyyn. Sinun on vain lähdettävä seikkailuun ja liityttävä tuhansien muiden bitcoin-käyttäjien joukkoon ja muodostettava Bitcoin-verkko kokonaan.
 
-Esimerkiksi, jos lohkot olisivat 100 kertaa raskaampia, voisimme varmasti tehdä 100 kertaa enemmän transaktioita joka 10. minuutti, mutta Bitcoin-solmun pyörittäminen vaatisi 50TB:n kovalevyn, yli 500GB:n kaistanleveyden kuukaudessa ja laitteiston, joka kykenee vahvistamaan satoja tuhansia transaktioita alle 10 minuutissa. Tässä hypoteettisessa tilanteessa, jossa lohkot ovat 100 kertaa suurempia, Bitcoin-solmun pyörittäminen ei olisi tavallisen ihmisen saavutettavissa, mikä vaarantaisi protokollan hajauttamisen ja transaktioiden sekä konsensussääntöjen muuttumattomuuden. Näin ollen protokollan rajoitukset on myös valittu siten, että mahdollisimman moni ihminen voi pyörittää omaa Bitcoin-solmuaan.
-Tämä tilanne ei ole niin hypoteettinen, sillä vuosi 2017 oli merkittävä intensiivisen kiistan vuoksi, joka tunnetaan nimellä "lohkosota". Tämä konflikti asetti vastakkain toimijat, jotka halusivat muuttaa Bitcoinia kasvattamalla lohkon kokoa lisätäkseen transaktiokapasiteettia, ja ne, jotka pyrkivät säilyttämään käyttäjien itsenäisyyden ja vallan. Lopulta käyttäjät ja solmut voittivat hylkäämällä ehdotetun muutoksen, jonka olivat aloittaneet louhijat, vaihtoalustat ja instituutiot.
-Tämän voiton jälkeen solmut aktivoivat päivityksen nimeltä SegWit, joka avasi tien Lightning Networkin käyttöönotolle, välittömälle Bitcoin-maksuverkolle, joka käyttää Bitcoinin lohkoketjua. Tämä tilanne osoittaa, että käyttäjät solmujensa kautta pitävät todellista valtaa Bitcoinissa, mahdollistaen heidän vastustavan suuria instituutioita.
+![image](assets/en/54.webp)
 
+Päinvastoin, jos lohkot olisivat 100 kertaa raskaampia, voisimme varmasti tehdä 100 kertaa enemmän transaktioita 10 minuutin välein, mutta Bitcoin-solmun pyörittäminen vaatisi 50 TB:n kiintolevyn, yli 500 Gt:n kaistanleveyden kuukaudessa ja laitteiston, joka pystyy validoimaan satoja tuhansia transaktioita alle 10 minuutissa. Tässä hypoteettisessa tilanteessa, jossa lohkot olisivat 100 kertaa suuremmat, Bitcoin-solmun pyörittäminen ei olisi tavallisen ihmisen ulottuvilla, mikä vaarantaisi sekä protokollan hajautuksen että transaktioiden ja konsensussääntöjen muuttumattomuuden.
 
+Näin ollen protokollan rajoitukset on suunniteltu siten, että mahdollisimman moni voi käyttää omia Bitcoin-solmujaan. Vuotta 2017 leimasi itse asiassa voimakas kiista, joka tunnetaan nimellä "lohkokokosota". Tässä kiistassa vastakkain olivat ne, jotka halusivat muuttaa Bitcoinia kasvattamalla lohkokokoa transaktiokapasiteetin lisäämiseksi (louhijat, vaihtoalustat ja instituutiot), ja ne, jotka pyrkivät säilyttämään käyttäjien itsenäisyyden ja vallan (solmut ja käyttäjät). Lopulta jälkimmäinen osapuoli voitti.
 
-## Louhijat
+Tämän voiton jälkeen solmut aktivoivat SegWit-nimisen päivityksen, joka tasoitti tietä Lightning Networkin käyttöönotolle, joka on Bitcoinin lohkoketjun toiseksi kerrokseksi rakennettu välitön Bitcoin-maksuverkko. Tämä tilanne osoittaa, että käyttäjillä on solmujensa kautta todellista valtaa Bitcoinissa, minkä ansiosta he voivat vastustaa suuria instituutioita erimielisyyksien aikana.
+
+## Kaivosmiehet
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-> Louhijat toimivat verkoston turvaamiseksi ja lisäävät transaktioita lohkoihin. He käyttävät sähköä ASIC-koneiden kautta ratkaistakseen Bitcoinin proof of work -tehtävän.
+**Minerit turvaavat verkon ja lisäävät transaktioita lohkoihin. He käyttävät sähköä ASIC-koneiden avulla ratkaistakseen Bitcoin-työstötodistuksen.**
 
-![kuva](assets/en/55.webp)
+![image](assets/en/55.webp)
 
-### Proof of Work -selitys
+### Työtodistuksen selitys
 
-Proof of Work, tunnetaan myös nimellä "Proof of Work" (POW), on Bitcoin-protokollan turvallisuuskonsensus. Se on sääntö, joka mahdollistaa Bitcoinin toiminnan ja varmistaa sen lujuuden. POW on kaiken perusta ja sillä on ratkaiseva rooli Bitcoinin peliteoriassa.
+"Proof of Work" (POW) on Bitcoin-protokollan konsensusmekanismi. Se on kaiken perusta, ja sillä on ratkaiseva rooli Bitcoinin peliteoriassa.
 
-Ajattele sitä kuin jättimäistä arpajaista, johon kaikki voivat osallistua. Tavoitteena on löytää tietty numero, joka mahdollistaa kelvollisen lohkon allekirjoittamisen, ja voittaja saa palkinnoksi bitcoineja. Tämä numero on hyvin yksinkertainen todentaa, mutta vaikea löytää. Todentaminen on helppoa SHA-256 -hashfunktion kautta, joka sisältyy louhinta-algoritmiin. Tämän numeron löytämiseksi osallistujat (louhijat) yrittävät miljardeja mahdollisuuksia, kuten 1, 52, 2648, 26874615, 15344854131318631, jne.
+Selittääksesi, miten se toimii, kuvittele yleinen arpajaiset, joihin kaikki voivat osallistua. Tavoitteena on löytää tietty numero, jonka avulla voittaja voi allekirjoittaa kelvollisen lohkon ja ansaita palkkion Bitcoinina. Tämä numero on hyvin helppo tarkistaa SHA-256-hash-funktion avulla, mutta vaikea löytää: osallistujat (louhijat) kokeilevat miljardeja ja taas miljardeja vaihtoehtoja, kuten 1, 52, 2648, 26874615, 15344854131318631 ja niin edelleen, kunnes he löytävät oikean numeron.
 
-Jos valittu numero on oikein: Jackpot! Muussa tapauksessa etsintä jatkuu. Optimaalisen yritysmäärän saavuttamiseksi he käyttävät erityisiä koneita, joita kutsutaan ASICeiksi, joiden ainoa tehtävä on laskea miljardeja mahdollisuuksia sekunnissa. Yritysten kokonaismäärää kutsutaan HashRateksi ja se mahdollistaa Bitcoin-protokollan turvallisuuden mittaamisen. Näiden koneiden käyttämiseen tarvitaan suuria määriä sähköä. Näin ollen POW muuntaa energian valuutaksi, yhdistäen todellisen maailman ja digitaalisen maailman luoden ensimmäisen energiaan perustuvan valuutan.
+Jos valittu numero on oikea: Jackpot! Muussa tapauksessa haku jatkuu.
 
-Koneet toimivat, ja keskimäärin 10 minuutin kuluttua voittaja selviää. He ovat löytäneet oikean hashin alle vaikeustason. Suuri ja ainoa voittaja allekirjoittaa sitten uuden lohkon aikaleimapalvelimessa ja jatkaa lohkoketjua. Voittaja saa palkintonsa ja palaa yrittämään onneaan seuraavaan lohkoon. Prosessi on toistunut 12 vuoden ajan, ja joka 10. minuutti voittaja vahvistaa Bitcoin-transaktioita samalla kun turvaa aiempia transaktioita. Tämä tekee Bitcoin-lohkoketjustamme entistä vankemman ja turvallisemman.
+Yritysten määrän optimoimiseksi käytetään erityisiä ASIC-koneita, joiden tehtävänä on laskea miljardeja mahdollisuuksia sekunnissa (yritysten kokonaismäärä on nimeltään "HashRate"). Näiden koneiden käyttäminen vaatii suuria määriä sähköä. Siksi POW muuttaa energian valuutaksi ja yhdistää reaalimaailman ja digitaalimaailman luodakseen ensimmäisen energiapohjaisen valuutan.
 
-Joka 2 viikko (2016 lohkoa), vaikeustason säätö tasapainottaa globaalia louhintapeliä osallistujien määrän perusteella.
+Koneet toimivat yhtäjaksoisesti, ja keskimäärin 10 minuutin kuluttua voittaja selviää: tämä osallistuja on onnistunut löytämään oikean hashin, joka alittaa vaikeuskynnyksen. Tämän jälkeen suuri ja ainoa voittaja allekirjoittaa aikaleimapalvelimen uuden lohkon ja lisää sen lohkoketjuun. Hän saa palkintonsa ja palaa kokeilemaan onneaan seuraavan lohkon louhinnassa. Tämä prosessi on jatkunut jo yli kymmenen vuotta, ja voittaja vahvistaa Bitcoin-tapahtumat 10 minuutin välein ja varmistaa samalla aiemmat tapahtumat, mikä tekee Bitcoin-lohkoketjusta entistä vankemman ja turvallisemman.
 
-![kuva](assets/en/24.webp)
+Vuoden 2016 lohkojen välein (noin kahden viikon välein) **vaikeusasteen säätö** tasapainottaa maailmanlaajuisen kaivospelin osallistujamäärän perusteella. Tämä säätö on tarpeen, koska louhijoiden määrä ja heidän yhteenlaskettu laskentatehonsa voivat vaihdella merkittävästi ajan mittaan. Lohkojen tavoiteajan säilyttämiseksi verkko kalibroi vaikeustason uudelleen sen perusteella, kuinka nopeasti viimeiset vuoden 2016 lohkot louhittiin. Jos ne louhittiin liian nopeasti, vaikeustaso nousee, mikä vaikeuttaa oikean hashin löytämistä. Päinvastoin, jos ne louhittiin liian hitaasti, vaikeustaso laskee, mikä tekee siitä helpompaa.
 
-### Louhinta kehittyy jatkuvasti
+![image](assets/en/24.webp)
 
-Vuosiensa aikana louhijat ovat varustautuneet yhä tehokkaammalla tietokoneistuksella tuottaakseen mahdollisimman monta hashia sekunnissa (kutsutaan HashRateksi) samalla kun he pyrkivät kuluttamaan mahdollisimman vähän energiaa mahdollisimman kustannustehokkaalla tavalla. Varhaiset louhijat kuten Satoshi tai Hal Finney louhivat pelkästään CPU:lla, sitten toiset alkoivat louhia grafiikkakortillaan. Nykyään louhijat käyttävät niin sanottuja ASICeja (Application-Specific Integrated Circuit), koneita jotka on suunniteltu ainoastaan SHA256-algoritmin soveltamiseen.
+### Kaivostoiminta kehittyy jatkuvasti
+
+Vuosien mittaan louhijat ovat varustautuneet yhä tehokkaammilla tietokonelaitteistoilla tuottaakseen mahdollisimman paljon hasheja sekunnissa (HashRate) ja kuluttaakseen samalla mahdollisimman vähän energiaa mahdollisimman kustannustehokkaalla tavalla. Varhaiset louhijat, kuten Satoshi tai Hal Finney, louhivat pelkällä suorittimella, ja sitten toiset alkoivat louhia näytönohjaimilla. Nykyään louhijat käyttävät ASIC-piirejä (Application-Specific Integrated Circuit), jotka on suunniteltu yksinomaan SHA256-algoritmin soveltamiseen.
+
 ![image](assets/en/56.webp)
 
-Bitcoin-verkon Hashrate edustaa yritysten lukumäärää sekunnissa löytää seuraava lohko. Tänään se on noin 400 TH/s, mikä on 400 000 miljardia yritystä sekunnissa! Mitä korkeampi globaali hashrate on, sitä vaikeampaa on pahantahtoiselle toimijalle monopolisoida tarvittavat resurssit saadakseen enemmistön louhinnasta ja suorittaakseen kaksoiskulutuksen. Siksi on taloudellisesti järkevämpää noudattaa Bitcoin-protokollan sääntöjä kuin toimia niitä vastaan. Tämä herättää kysymyksen: miten louhijat saavat palkkionsa?
+Bitcoin-verkon Hashrate kertoo, kuinka monta kertaa sekunnissa yritetään löytää seuraava lohko. Tänään se ylitti jopa 500 TH/s eli 500 000 miljardia yritystä sekunnissa! Mitä korkeampi globaali hashrate on, sitä vaikeampi on haitallisen toimijan on monopolisoida resurssit, joita tarvitaan valtaosan louhintatehosta saamiseksi, ja käyttää varojaan useammin kuin kerran (double spending -ongelma). Siksi on taloudellisesti kannattavampaa noudattaa Bitcoin-protokollan sääntöjä kuin toimia niitä vastaan.
 
 ![image](assets/en/57.webp)
 
-### Mitä lohkosta löytyy?
+### Mitä lohkosta voi löytyä?
 
-![image](assets/en/56.webp)
+Lohkon otsikko sisältää useita elementtejä, kuten ajan, vaikeustavoitteen, viimeisen lohkon numeron, käytetyn version ja edellisten tapahtumien Merkle-juuren.
 
-Lohkon otsikko sisältää useita elementtejä kuten ajan, vaikeustavoitteen, viimeisimmän lohkon numeron, käytetyn version ja edellisten transaktioiden Merkel-juuren.
+**coinbase-transaktio** on aina ensimmäinen lohkoon sisällytetty transaktio: se sisältää louhijan palkkion validoijan työn suorittamisesta. Sitten tulevat validoidut transaktiot. Louhijat valitsevat lisättäväksi transaktiot, jotka tuottavat heille eniten voittoa, eli pienikokoiset transaktiot, joissa on maksimipalkkio.
 
-Coinbase-transaktio on aina ensimmäinen; se sisältää palkkion, joka saadaan validointityön suorittamisesta. Sen jälkeen tulevat validoidut transaktiot. Louhija valitsee transaktiot, jotka maksavat eniten ja yrittää luoda lohkon, joka maksimoi heidän tulonsa, nimittäin pienikokoiset transaktiot maksimimaksuilla.
+### Kaivosmiesten korvaukset
 
-### Louhijoiden korvaus
+Aluksi louhija saa korvauksen, kun hän löytää kelvollisen lohkon. Tarkemmin sanottuna heidät palkitaan kahdella tavalla:
 
-Alun perin louhija saa korvauksen, kun he löytävät validin lohkon. Tarkemmin sanottuna heitä korvataan kahdella tavalla: (i) lohkon sisältämän uuden (juuri mintatun) bitcoinin avulla ja (ii) lohkoon sisältyvien transaktioiden transaktiomaksuilla. Subsidion määrä määritellään konsensus säännöissä ja riippuu siitä, missä Epochissa olemme. Lohkopalkkio = Lohkon subventio + transaktiomaksut.
 
-Todellakin, ensimmäisissä lohkoissa lohkon subventio oli 50 bitcoinia, sitten joka 210 000 lohkon jälkeen (noin joka neljäs vuosi) se puolittuu. Tänään (vuonna 2023) olemme neljännessä Epochissa; siksi subventio on 6.25 bitcoinia. Tämä subventio on mekanismi uusien bitcoinien luomiseksi Bitcoinissa. Koska subventio vähenee ajan myötä, se tarkoittaa, että bitcoineja on rajoitettu määrä 21 miljoonaa - tällä hetkellä liikkeellä on jo yli 19,4 miljoonaa bitcoinia, mikä on yli 92%.
+- lohkoon sisältyvän tuen (vastapainetut bitcoinit) kautta;
+- lohkoon sisältyvistä transaktioista perittävillä transaktiomaksuilla.
+
+Tuen määrä määritellään konsensussäännöissä, ja se riippuu aikakaudesta: **lohkopalkkio = lohkotuki + transaktiomaksut**.
+
+Ensimmäisissä lohkoissa lohkotuki oli 50 bitcoinia. Joka 210 000 lohkon välein (noin neljän vuoden välein) tämä määrä puolitetaan. Nyt (vuonna 2024) olemme viidennessä aikakaudessa, mikä tarkoittaa, että tuki on 3,125 bitcoinia. Lyhyesti sanottuna tämä on automaattinen mekanismi, joka vapauttaa uusia bitcoineja järjestelmään. Tuki pienenee ajan myötä, kunnes se saavuttaa 21 miljoonan bitcoinin liikkeeseenlaskurajan. Liikkeessä on jo yli 19,4 miljoonaa bitcoinia, mikä on yli 92 prosenttia.
 
 ![image](assets/en/58.webp)
 
-Toinen korvausmenetelmä määritellään käyttäjien valitseman transaktiomaksun määrällä. Koska louhija haluaa maksimoida tulonsa, he pyrkivät priorisoimaan korkean transaktiomaksun transaktioita; transaktiomaksut heijastavat käyttäjän kiireellisyyttä saada transaktionsa sisällytettyä seuraavaan lohkoon.
+Toinen korvausmenetelmä määritellään käyttäjien valitsemien transaktiomaksujen määrällä, joka osoittaa käyttäjän kiireellisyyden saada transaktionsa mukaan seuraavaan lohkoon. Koska louhijat haluavat maksimoida tulonsa, he pyrkivät asettamaan etusijalle transaktiot, joiden transaktiomaksut ovat korkeat.
 
 ![image](assets/en/59.webp)
 
-Lisäksi louhijoiden taloudellisen mallin vakauttamiseksi, joka perustuu heidän saamiinsa palkkioihin jokaisesta validista lohkosta, louhijat usein tekevät yhteistyötä ryhmissä "louhintapoolien" kautta, missä he yhdistävät laskentaresurssinsa.
+Vakauttaakseen liiketoimintamalliaan, joka perustuu jokaisesta kelvollisesta lohkosta saatuihin palkkioihin, louhijat perustavat usein ryhmiä "louhintapooleissa", joissa he yhdistävät laskentaresurssejaan.
 
-### Miksi vaivautua tekemään kaiken tämän?
+### Miksi vaivautua tekemään tätä kaikkea?
 
-Lyhyesti sanottuna Bitcoinin innovaatio ehdottaa ratkaisua kaksoiskulutuksen ongelmaan käyttämällä lohkoketjua, joka perustuu työn todistamiseen (Proof of Work) ja jossa on vaihteleva vaikeusaste. Digitaalisessa maailmassa omistuksen käsite eroaa fyysisen maailman käsitteestä. Todellakin, digitaalisessa maailmassa kaiken voi kopioida ja liittää, mikä aiheuttaa ongelmia arvokkaiden digitaalisten hyödykkeiden kaksoiskulutuksen suhteen. Luotettuja välittäjiä, kuten pankkeja, on luotu ratkaisemaan tämä teknologinen ongelma ja varmistamaan, että kun hyödyke siirretään, se ei enää kuulu lähettäjälle. Mutta miten tämä voidaan tehdä ilman luotettua välittäjää? Tämä ongelma vastaa Bysantin kenraalien ongelmaa, joka on tiedon koordinointiin liittyvä ongelma järjestelmässä, jossa eri toimijoihin ei voida luottaa.
-![kuva](assets/en/60.webp)
+Lyhyesti sanottuna Bitcoinin innovaationa on ehdottaa ratkaisua kaksinkertaisen rahankäytön ongelmaan käyttämällä lohkoketjua, joka perustuu Proof of Work -toimintatodisteeseen, jossa on vaihtuva vaikeusaste. Digitaalisessa maailmassa omistajuuden käsite eroaa fyysisen maailman omistajuuden käsitteestä. Itse asiassa digitaalisessa maailmassa kaikki voidaan kopioida ja liittää, mikä luo riskin siitä, että digitaalista arvo-omaisuutta käytetään useampaan kertaan. Luotettavat välittäjät, kuten pankit, on luotu ratkaisemaan tämä teknologinen ongelma ja varmistamaan, että kun omaisuuserä siirretään, se ei enää kuulu lähettäjälle.
 
-Bitcoin on siis eräänlainen ratkaisu tämän ongelman ratkaisemiseksi, tai ainakin sen kiertämiseksi. Bitcoinin "kenraalit", eli louhijat, tuottavat lohkoja (tietoa) ja Bitcoin-solmut vahvistavat rahoja siirtoja käyttäen konsensus sääntöjä varmistaakseen tiedon aitouden. Tiedon tuotannon ja vahvistamisen energiakustannusten epäsymmetria takaa tiedon luotettavuuden ilman luotettua kolmatta osapuolta.
+Mutta miten tämä voidaan tehdä ilman luotettavaa välittäjää? Tätä ongelmaa kuvaa hyvin Bysantin kenraalien paradoksi, joka on ongelma tiedon koordinoinnissa järjestelmässä, jossa eri toimijoihin ei voi luottaa. Bysantin kenraalien ongelmassa ryhmän kenraalien on koordinoitava hyökkäys kaupunkiin, mutta jotkut saattavat olla pettureita, jotka yrittävät häiritä suunnitelmaa. Haasteena on, että lojaalit kenraalit pääsevät yksimielisyyteen siitä, hyökätäänkö vai peräännytäänkö, vaikka he saavat pettureilta mahdollisesti harhaanjohtavia viestejä.
 
-Louhijat ovat Bitcoin-verkon turvallisuuden rakentajia. Käyttämällä energiaa hajautusten tuottamiseen, he rakentavat muurin, joka tekee transaktiohistorian uudelleenkirjoittamisesta erittäin kalliin haittaohjelmalle. Tämä taloudellinen haitta estää heitä käyttäytymästä epärehellisesti.
+![image](assets/en/60.webp)
 
-Jopa 51% hyökkäyksen tapauksessa, mikä tarkoittaa, että agentti omistaa yli puolet hashratesta, verkko pysyy turvallisena, koska hyökkääjän on kulutettava yhtä paljon energiaa kuin kaikkien louhijoiden yhteensä yrittäessään muuttaa lohkoketjua. Juuri tämän työn todistamisen mekanismin, joka vaatii energian käyttöä, ansiosta verkko on turvallinen.
+Bitcoin on siis eräänlainen ratkaisu tämän ongelman ratkaisemiseksi tai ainakin sen kiertämiseksi. Bitcoinin "kenraalit" eli louhijat tuottavat (tietolohkoja), ja Bitcoin-solmut tarkistavat rahoitustapahtumat konsensussääntöjen avulla varmistaakseen tietojen aitouden. Energiakustannusten epäsymmetria tiedon tuottamisen ja todentamisen välillä takaa tiedon luotettavuuden ilman luotettavaa kolmatta osapuolta.
+
+Louhijat ovat Bitcoin-verkon turvallisuuden rakentajia. Käyttämällä energiaa hashien tuottamiseen he rakentavat muurin, joka tekee transaktiohistorian uudelleenkirjoittamisesta erittäin kallista pahantahtoiselle toimijalle, ja tämä taloudellinen kannustin estää muita käyttäytymästä epärehellisesti.
+
+Jopa 51 prosentin hyökkäyksen tapauksessa, jossa agentilla olisi hallussaan yli puolet hashratesta, verkko pysyisi turvallisena, koska hyökkääjän on käytettävä yhtä paljon energiaa kuin kaikkien louhijoiden yhteensä yrittäessään muuttaa lohkoketjua. Tämä energiaintensiivinen proof-of-work-mekanismi takaa verkon turvallisuuden.
 
 ### Yhteenvetona
 
-Pelin teoria, sovellettuna Bitcoiniin, eliminoi epärehelliset louhijat. Louhijat käyttävät ASIC-laitteita louhintaan ja saavat palkkion onnistuessaan. Lisäksi he usein liittyvät louhintapooliin jakamaan laskentatehonsa ja saamaan pienempiä, mutta säännöllisempiä palkkioita. Bitcoinin louhinta on prosessi, jolla on korkea energiakustannus, mutta se on olennaisen tärkeää Bitcoin-verkon toiminnan ja turvallisuuden kannalta. Työn todistaminen ja lohkoketju ratkaisevat kaksoiskulutuksen ongelman ja takaavat tiedon totuudenmukaisuuden ilman luotettua kolmatta osapuolta. Energiankulutus on tarpeen tiedon tuottamiseksi, mutta tiedon vahvistamisen kustannus on merkityksetön. Tämä epäsymmetria takaa verkon turvallisuuden. Siksi konsensus sääntöjen noudattaminen on taloudellisesti järkevämpää kuin niiden rikkominen.
+Bitcoiniin sovellettu peliteoria eliminoi epärehelliset louhijat, jotka käyttävät ASIC-koneita louhimiseen ja saavat palkkion, jos louhinta onnistuu. Lisäksi he liittyvät usein louhintapooleihin jakaakseen laskentatehonsa ja saadakseen pienempiä mutta säännöllisempiä palkkioita. Vaikka Bitcoin-louhinta aiheuttaa suuria energiakustannuksia, se on ratkaisevan tärkeää Bitcoin-verkon toiminnan ja turvallisuuden kannalta. Proof-of-work-mekanismi ja lohkoketjuteknologia ratkaisevat kaksinkertaisen kuluttamisen ongelman ja varmistavat tietojen eheyden ilman, että luotetaan luotettuun kolmanteen osapuoleen. Vaikka tiedon tuottaminen vaatii huomattavia energiankulutuksia, tiedon todentaminen aiheuttaa vähäisiä kustannuksia. Tämä epäsymmetria vahvistaa verkon turvallisuutta, jolloin konsensussääntöjen noudattaminen on taloudellisesti kannattavampaa kuin niiden rikkominen.
 
-
-
-Jos haluat syventyä tarkemmin Bitcoinin louhintaan, voit tutustua kurssiimme MIN 201. Kurssilla opit Proof-of-Workin toiminnan ja roolin sekä louhintateollisuuden toiminnan. Selitämme myös, kuinka voit muuntaa ASIC:n lämmityslaitteeksi louhiaksesi ensimmäiset satoshisi ja samalla lämmittääksesi kotiasi!
+Jos haluat syventyä tarkemmin Bitcoin-louhinnan aiheeseen, voit tutustua MIN 201 -kurssillemme. Tutustut Proof-of-Workin toimintaan ja rooliin sekä louhintateollisuuden mekaniikkaan. Selitämme myös, miten ASIC muunnetaan lämmittimeksi, jolloin voit louhia ensimmäiset satoshisi samalla kun lämmität kotiasi!
 
 https://planb.network/courses/min201
-
 ## Bitcoin ja ekologia
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
-Olemme juuri nähneet edellisessä osiossa, että Bitcoin-protokollan turvallisuus perustuu korkeaan energiakustannukseen julkisen transaktiokirjan tuottamiseksi ilman luotettua kolmatta osapuolta. Kokonaisenergiakustannuksia verrataan usein pienen maan sähkönkulutukseen. Mutta onko tämä vertailu järkevä? Onko se relevantti ymmärtääksemme tällaisen kustannuksen taustalla olevat syyt?
+Edellisessä jaksossa ymmärsimme, että Bitcoin-protokollan turvallisuus perustuu suureen energiankulutukseen, joka tarvitaan julkisen tapahtumakirjan tuottamiseen ilman luotettavaa kolmatta osapuolta. Valtavirran tiedotusvälineissä kokonaisenergiakustannuksia verrataan usein pienen maan sähkönkulutukseen. Mutta onko tässä vertailussa järkeä? Onko merkityksellistä ymmärtää tällaisten kustannusten taustalla olevat syyt?
 
 ### Bitcoinin energiakustannukset.
 
-Ensiksi, arvioidaan laadullisesti kaivostoiminnan ympäristökustannuksia. Kaivostyöntekijällä on oltava kone, kuten ASIC, ja energianlähde sähkön muodossa näiden koneiden käyttämiseksi. ASICit on pääasiassa valmistettu alumiinista, ja ne voidaan joko kierrättää tai käyttää uudelleen toiseen tarkoitukseen (kuten [Attakaï-projekti](https://decouvrebitcoin.fr/attakai/) osoittaa, joka muuntaa Antminer S9:n tilalämmittimeksi). Päähuolenaihe on siis energiankulutus. Yritetään tarjota tähän lisää kontekstia.
-![kuva](assets/en/61.webp)
+Arvioidaan ensin laadullisesti kaivostoiminnan ympäristökustannuksia. Louhijalla on oltava ASIC:n kaltainen kone ja energialähde sähkön muodossa näiden koneiden käyttämiseksi. ASIC-koneet on useimmiten valmistettu alumiinista, ja ne voidaan joko kierrättää tai käyttää uudelleen toiseen tarkoitukseen (kuten kurssillamme MIN201 kuvattu Attakaï-hanke osoittaa, jossa Antminer S9 -kaivosmalli muutetaan lämmittimeksi). Tärkein huolenaihe on siis energiankulutus.
 
-Sähkönkulutus muodostaa lähes kaikki kaivostyöntekijän kustannukset. Siksi heitä kannustetaan etsimään halpaa sähkönlähdettä. Koska kaivostyöntekijät ovat liikkuvia, he voivat mennä paikkoihin, missä voimalaitokset on asennettu, mutta niitä ei vielä ole yhdistetty alueen sähköverkkoon. Kaivostyöntekijät toimivat viimeisenä ostajana, mahdollistaen voimalaitosten rahoituksen turvaamisen jopa ennen niiden liittämistä sähköverkkoon. Ja kun ne liitetään, sähkön kysyntä kasvaa, mikä nostaa hintaa ja tekee sähkön hankkimisesta näissä paikoissa vähemmän kannattavaa kaivostyöntekijälle. Kaivostyöntekijä päättää sitten siirtää asennuksensa ja asettua kauemmas, missä kysyntä on matala ja siten myös hinta.
+![image](assets/en/61.webp)
+
+Sähkönkulutus muodostaa lähes kaikki kaivostoiminnan kustannukset. Siksi heitä kannustetaan etsimään halpaa sähkönlähdettä, jotta he voivat mennä paikkoihin, joihin on asennettu voimalaitoksia, mutta joita ei ole vielä liitetty alueen sähköverkkoon. Tällöin kaivostyöläiset toimivat viimeisenä ostajana, jolloin voimalat voivat varmistaa rahoituksen jo ennen sähköverkkoon liittämistä. Kun ne liitetään, sähkön kysyntä kasvaa, mikä nostaa hintaa ja tekee sähkön hankkimisesta näissä paikoissa vähemmän kannattavaa kaivostyöläisille. Koska koneet ovat helposti siirrettävissä, kaivostyöläiset päättävät ottaa laitteistonsa ja asettua kauemmas, missä kysyntä on vähäistä ja hinta alhainen, useimmiten alueille, joilla he voivat saada energiaa vihreistä voimaloista.
 
 ### Loputon keskustelu
 
-Näin ollen keskustelu Bitcoinin ekologisesta vaikutuksesta on usein harhaanjohtavaa, pääasiassa riittämättömän ymmärryksen vuoksi sen hyödyllisyydestä ja toiminnasta. Bitcoinia ei voida arvioida pelkästään energiakustannusten perusteella transaktiota kohden, koska kaivostyöntekijät turvaavat sekä nykyisen että historiallisen verkon, transaktiot ryhmitellään eivätkä kaikki ole samanarvoisia, eikä Lightning Networkin vaikutusta oteta huomioon. Ne, jotka väittävät Bitcoinin kuluttavan liikaa energiaa, saattavat olla poliittisesti motivoituneita tai pyrkiä myymään oman lohkoketjuratkaisunsa. Ekologista tekosyytä käytetään perustelemaan Bitcoinin kieltämistä.
+Bitcoinin ekologisista vaikutuksista käytävä keskustelu on siis usein harhaanjohtavaa, mikä johtuu pääasiassa riittämättömästä ymmärryksestä sen hyödyllisyydestä. Bitcoinia ei voida arvioida pelkästään transaktiokohtaisten energiakustannusten perusteella, koska louhijat turvaavat sekä nykyisen että historiallisen verkon, ja transaktiot ovat ryhmiteltyjä, eivätkä kaikki ole samanarvoisia. Lisäksi Lightning Networkin vaikutusta ei edes oteta huomioon. Niillä, jotka väittävät Bitcoinin kuluttavan liikaa energiaa, voi olla poliittisia motiiveja tai he haluavat myydä omaa lohkoketjuratkaisuaan. Usein ekologista veruketta käytetään perustelemaan Bitcoinin kieltämistä.
 
-Ei kuitenkaan pidä unohtaa, että Bitcoin, vallankumouksellisena keksintönä, on tarjonnut yksilöille, jotka elävät taloudellisen sortamisen tai diktaattorisen hallinnon alla, keinon taistella vapautensa puolesta. Viimeisenä keinona Bitcoin tarjoaa taloudellista vapautta pakenemalla sensuuria ja pankkirajoituksia. Bitcoin on enemmän kuin vain valuutta. Se on kommunikaation ja vapaudenilmaisun muoto. Kaivostyöntekijöiden käyttämä energia edistää vapautemme puolustamista. Bitcoin mahdollistaa irtautumisen nykyisestä rahoitusjärjestelmästä, jota hallitsevat velka ja keskuspankkien liiallinen rahanluonti.
+On tärkeää korostaa, että vallankumouksellisena keksintönä Bitcoin tarjoaa taloudellisen sorron tai diktatuurihallitusten alaisuudessa eläville henkilöille keinon taistella vapautensa puolesta. Viimeisenä keinona Bitcoin tarjoaa väylän taloudelliseen riippumattomuuteen kiertämällä sensuuria ja pankkirajoituksia. Bitcoin on enemmän kuin pelkkä valuutta, se toimii viestintämuotona ja vapauden symbolina, ja louhijoiden käyttämä energia on ratkaisevassa asemassa tämän vapauden puolustamisessa, mikä mahdollistaa vapautumisen rahoitusjärjestelmästä, jota hallitsevat velkaantuminen ja keskuspankkien liiallinen rahanluonti.
 
-![kuva](assets/en/62.webp)
+![image](assets/en/62.webp)
 
-Niille, jotka asuvat maissa, joissa on korkea inflaatio, Bitcoin on eloonjäämiskysymys. Se tarjoaa keinon selviytyä epävakaista taloudellisista tilanteista. Lisäksi Bitcoin tarjoaa oikeudenmukaisemman ja tasapuolisemman rahoitusjärjestelmän. Se tarjoaa myös mahdollisuuden miljardeille ihmisille ympäri maailmaa päästä rahoitusjärjestelmään. Tästä näkökulmasta katsottuna, onko energiankulutus perusteltua?
+![image](assets/en/63.webp)
 
-### Voisiko Bitcoin olla nettopositiivinen ympäristölle?
+![image](assets/en/64.webp)
 
-Lopuksi on olennaista keskustella Bitcoinin käyttöönoton taloudellisista ja ympäristöllisistä kysymyksistä.
+Korkean inflaation maissa asuville Bitcoin on selviytymiskysymys. Se tarjoaa keinon selviytyä epävarmoissa taloudellisissa tilanteissa. Lisäksi Bitcoin tarjoaa oikeudenmukaisemman ja tasapuolisemman rahoitusjärjestelmän, joka tarjoaa miljardeille ihmisille maailmanlaajuisesti mahdollisuuden käyttää taloudellisia resursseja. Onko energiankulutus perusteltua, kun otetaan huomioon tämä näkökulma?
 
-Erityisesti verrattaessa sitä nykyiseen rahoitusjärjestelmään. Jälkimmäinen, kannustaessaan ylikulutukseen ja velkaantumiseen, aiheuttaa vakavia ongelmia. Helppo pääsy luottoon, pankkien rahalaitosten ja osittaisvarantopankkitoiminnan käyttö ovat kaikki tekijöitä, jotka edistävät ylivelkaantumista ja siten ylikulutusta.
+### Bitcoin voi olla ympäristön kannalta positiivinen nettopositio
 
-![kuva](assets/en/65.webp)
+Lopuksi on tärkeää keskustella Bitcoinin käyttöönoton taloudellisista ja ympäristövaikutuksista.
 
-On tarpeen uudistaa rahajärjestelmää, jotta se heijastaisi resurssiemme niukkuutta valuuttamme niukkuuden kanssa. Tämä kannustaisi vastuullisempaan kulutukseen ja pitkän aikavälin näkemykseen. Päinvastoin, inflaatio, kannustaessaan kulutusta ja investointeja, on pitkällä aikavälillä negatiivinen vaikutus ympäristöön.
-Nykyinen rahoitusjärjestelmä noudattaa Keynesin taloustieteen ideoita, jotka, toisin kuin Itävallan taloustiede, eivät ota huomioon tilanteiden ja resurssien ajallisia ja dynaamisia näkökohtia. Toisin sanoen, rajaton valuutta ei voi tehokkaasti heijastaa planeettamme rajallisia resursseja.
-![kuva](assets/en/66.webp)
+Kun sitä verrataan nykyiseen rahoitusjärjestelmään, jälkimmäinen aiheuttaa vakavia ongelmia, koska se kannustaa ylikulutukseen ja velkaantumiseen. Sellaiset tekijät kuin luoton helppo saatavuus, pankkien rahan liikkeeseenlasku ja murtoreservipankkitoiminta edistävät kaikki ylivelkaantumista ja sen seurauksena liiallista kulutusta.
 
-Politiikot, johtuen lyhytnäköisestä visiostaan ja tarpeestaan talouskasvuun uudelleenvalinnan vuoksi, eivät kykene ratkaisemaan ekologisia ongelmia pitkällä aikavälillä. Päinvastoin, äänen valuutan, kuten Bitcoinin, omaksuminen on potentiaalinen vaihtoehto, joka voisi taloudellisesti voimaannuttaa ihmisiä.
+![image](assets/en/65.webp)
 
-Öljykaivojen liekit, jotka polttavat metaania saasteiden estämiseksi, voidaan sammuttaa Bitcoin-louhijoilla, mikä on hyödyllistä ympäristölle. Bitcoin edistää vihreän energian käyttöä. Metaani voidaan muuntaa sähköksi louhintakoneiden käyttövoimaksi, mikä on edullista kaikille.
+On tarpeen uudistaa rahajärjestelmää, jotta resurssiemme niukkuus heijastuu rahamme niukkuuteen. Tämä kannustaa vastuullisempaan kulutukseen ja pitkän aikavälin näkemykseen. Sitä vastoin inflaatiolla, joka kannustaa kulutukseen ja investointeihin, on kielteinen pitkän aikavälin vaikutus ympäristöön.
 
-Bitcoinin teknologiaa usein väärinymmärretään, ja sen ympäristövaikutuksia koskevat arvostelut ovat usein yksinkertaistettuja ja lyhytnäköisiä. Nämä arvostelut ovat usein poliittisesti motivoituneita. Bitcoinilla on potentiaalia auttaa ekologisessa siirtymässä ja edistää vihreämpää maailmaa. Media levittää usein vääriä käsityksiä Bitcoinista ja ekologiasta. Joten ota aikaa muodostaaksesi oman mielipiteesi. Kaikki on läpinäkyvää Bitcoinin kanssa.
+Nykyinen rahoitusjärjestelmä on linjassa keynesiläisen taloustieteen ajatusten kanssa, sillä toisin kuin itävaltalaisessa taloustieteessä, siinä ei oteta huomioon tilanteiden ja resurssien ajallisia ja dynaamisia näkökohtia. Toisin sanoen rajaton valuutta ei voi tehokkaasti edustaa planeettamme rajallisia resursseja.
 
-> Noudata yhtä Bitcoinin periaatteista: Älä luota, varmista itse!
+![image](assets/en/66.webp)
 
+Toisaalta poliitikoilla on yleensä lyhyen aikavälin näkemys, ja he tarvitsevat talouskasvua tullakseen valituksi uudelleen, joten he eivät pysty ratkaisemaan ekologisia ongelmia pitkällä aikavälillä. Sitä vastoin Bitcoinin kaltaisen järkevän valuutan käyttöönotto on potentiaalinen vaihtoehto, joka voisi antaa ihmisille taloudellisia mahdollisuuksia.
 
+He eivät tiedä, että Bitcoin edistää vihreän energian käyttöä. Esimerkiksi liekit, jotka sytytetään öljylähteissä metaanin polttamiseksi ja saastumisen estämiseksi, voidaan sammuttaa Bitcoin-kaivostyöläisten toimesta, koska metaani voidaan muuntaa sähköksi kaivoskoneiden voimanlähteeksi, mikä on hyödyllistä ympäristön kannalta.
 
-### Lyhyt yhteenveto Bitcoinin teknisistä näkökohdista
+**Seuraa yhtä Bitcoinin periaatteista: Älä luota, tarkista itse!**
 
-Satoshi Nakamoto julkaisi Bitcoin-protokollan tammikuussa 2009, ja siitä lähtien se on kehittynyt kasvavan kehittäjien, louhijoiden ja käyttäjien yhteisön ansiosta, joilla on Bitcoin-solmuja. Pitämällä oman kopionsa Bitcoin-lohkoketjusta, julkisesta kirjanpidosta kaikista Bitcoin-siirroista, nämä solmut voivat varmistaa siirtojen pätevyyden Bitcoinin konsensus sääntöjen mukaisesti. Tämä sisältää varmistamisen, että louhijat tuottavat päteviä lohkoja, jotka sisältävät tuhansia odottavia siirtoja.
+### Lyhyt yhteenveto Bitcoinin teknisistä ominaisuuksista
 
-Keskimäärin lohko luodaan joka 10. minuutti, ja louhija, joka löytää pätevän hashin seuraavalle lohkolle, palkitaan protokollan toimesta palkkiolla, jonka määrä määritellään konsensus säännöissä, sekä kaikkien pätevässä lohkossa sisältyvien siirtojen siirtomaksuilla. Koska hashing-algoritmin (SHA256) tulosta tiettyä syötettä varten pidetään arvaamattomana, louhintaprosessi sisältää lukuisien ehdokaslohkojen rakentamisen ja testaamisen, onko niiden hash pätevä vai ei. Kuitenkin, jotta kahden lohkon välisen keskimääräisen ajan (~10 min) varmistetaan pysyvän vakiona riippumatta louhijoiden määrästä ja heidän laskentatehostaan, pätevän hashin löytämisen vaikeus säädetään joka 2016 lohkon jälkeen, suunnilleen joka 2. viikko. Louhijat ovat ajan mittaan kehittäneet erikoistuneita SHA256-koneita, kutsuttu ASICS, lisätäkseen hash-nopeutta joulea kohden, mikä tarkoittaa yritysten määrää sekunnissa ja kulutettua energiaa kohden.
+Satoshi Nakamoto julkaisi Bitcoin-protokollan tammikuussa 2009, ja se on sittemmin kehittynyt Bitcoin-solmuja käyttävien kehittäjien, louhijoiden ja käyttäjien kasvavan yhteisön ansiosta. Säilyttämällä oman kopionsa Bitcoin-lohkoketjusta, joka on julkinen kirja kaikista Bitcoin-tapahtumista, nämä solmut voivat varmistaa tapahtumien pätevyyden Bitcoinin konsensussääntöjen mukaisesti. Tähän kuuluu sen varmistaminen, että louhijat tuottavat kelvollisia lohkoja, jotka sisältävät tuhansia vireillä olevia transaktioita.
 
-Jotta louhijat voisivat olla mahdollisimman kannattavia toiminnassaan, heidän on hankittava mahdollisimman halpaa sähköä, joka usein sijaitsee syrjäisillä alueilla, voimalaitoksissa, jotka eivät vielä ole yhdistetty verkkoon. Louhija toimii tällöin viimeisenä ostajana, ja heti kun sähkön hinta nousee kysynnän kasvaessa, louhija pyrkii siirtämään toimintansa muualle.
-Näin ollen Bitcoin-protokolla on sensuroimaton ja pysäyttämätön rahajärjestelmä, koska protokollan jokainen osa on maantieteellisesti hajautettu ympäri maailmaa - esimerkiksi maailmanlaajuisesti on noin 40 000 Bitcoin-solmua kaikilla mantereilla. Bitcoinin konsensus-säännöt ovat sellaiset, että niiden noudattaminen on taloudellisesti kannattavampaa kuin niiden rikkomisen yrittäminen, ja siksi toimijoiden välillä ei vaadita luottamusta. Bitcoinilla ei ole johtajaa eikä sitä voi pysäyttää. On mahdollista säädellä vaihtoalustoja Bitcoinin rajoittamiseksi, mutta tämä on vaikutuksiltaan rajallista. Lyhyesti sanottuna mikään tuomari tai valtio ei voi sensuroida tai pysäyttää Bitcoinia.
+Lohko luodaan keskimäärin 10 minuutin välein, ja louhija, joka löytää kelvollisen hash-tunnisteen seuraavaa lohkoa varten, palkitaan protokollassa sekä konsensussääntöjen määrittelemällä summalla että kaikkien kelvolliseen lohkoon sisältyvien transaktioiden transaktiomaksuilla. Koska hash-algoritmin (SHA256) tulosta tietylle syötteelle pidetään arvaamattomana, louhintaprosessi käsittää lukuisten ehdokaslohkojen rakentamisen ja sen testaamisen, onko niiden hash kelvollinen vai ei. Sen varmistamiseksi, että kahden lohkon välinen keskimääräinen aika pysyy vakiona (~10 minuuttia) riippumatta louhijoiden määrästä ja heidän laskentatehostaan, kelvollisen hash:n löytämisen vaikeutta mukautetaan kuitenkin joka 2016 lohko, noin kahden viikon välein. Louhijat ovat ajan mittaan kehittäneet erikoistuneita SHA256-koneita, niin sanottuja ASICS-koneita, joiden tarkoituksena on lisätä hash-nopeutta joulea kohti, mikä tarkoittaa yrityksien määrää sekunnissa ja kulutettua energiaa kohti.
 
-# Miten saada Bitcoineja?
+Jotta kaivostyöläisten toiminta olisi mahdollisimman kannattavaa, heidän on hankittava mahdollisimman halpaa sähköä, joka on usein syrjäisillä paikoilla voimalaitoksissa, joita ei ole vielä liitetty verkkoon. Kaivostoiminnan harjoittaja toimii tällöin viimeisenä ostajana, ja heti kun sähkön hinta nousee kysynnän kasvun vuoksi, kaivostoiminnan harjoittaja pyrkii siirtämään toimintansa muualle.
+
+Bitcoin-protokolla on siis sensuroimaton ja pysäyttämätön rahajärjestelmä, koska protokollan jokainen osa on hajautettu maantieteellisesti eri puolille maailmaa. Esimerkiksi Bitcoin-solmuja on yli 40 000 kaikissa maanosissa. Bitcoinin konsensussäännöt ovat sellaiset, että niiden noudattaminen on taloudellisesti kannattavampaa kuin yrittää rikkoa niitä, ja siksi toimijoiden välillä ei tarvita luottamusta. Bitcoinilla ei ole johtajaa, eikä sitä voida pysäyttää. Vaikka on mahdollista säännellä vaihtofoorumeita Bitcoinin rajoittamiseksi, tällä lähestymistavalla on marginaalinen vaikutus järjestelmään. Lyhyesti sanottuna yksikään tuomari tai valtio ei voi sensuroida tai pysäyttää Bitcoinia.
+
+# Miten hankit Bitcoinin?
 
 <partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
 
-## Bitcoin ei nuku koskaan!
+## Bitcoin ei koskaan nuku!
 
 <chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
 
-Bitcoinin hinta on usein merkittävän volatiilin luonteinen. Sen arvo voi vaihdella huomattavasti markkinavaihteluiden ja härkä- ja karhumarkkinavaiheiden mukaan. Tämä on läsnä 100%:ssa rahoitusmarkkinoista, mukaan lukien Bitcoin.
+Bitcoinin hinnalle on usein ominaista huomattava volatiliteetti. Sen arvo voi vaihdella huomattavasti markkinoiden vaihteluiden tai nousu- ja laskuvaiheiden mukaan, aivan kuten kaikilla muillakin rahoitusmarkkinoilla.
 
-![kuva](assets/en/67.webp)
+![image](assets/en/67.webp)
 
-> Yksinkertaisesti sanottuna: ihmiset ostavat kaikki samaan aikaan ja myyvät kaikki samaan aikaan. Bitcoin ei ole immuuni ihmisen luonnolle.
+Yksinkertaisesti sanottuna ihmisillä on taipumus ostaa kaikkea kerralla ja myydä kaikkea kerralla. **Bitcoin ei ole immuuni ihmisluonnolle.**
 
-### Adoptioaaltojen ymmärtäminen
+### Käyttöönottoaaltojen ymmärtäminen
 
-Bitcoinin kehitys ja evoluutio ovat suurelta osin yhteydessä eri toimijaryhmiin, jotka ovat vähitellen integroituneet sen ekosysteemiin.
+Sekä Bitcoinin kehitys että evoluutio liittyvät pitkälti eri toimijaryhmiin, jotka ovat vähitellen integroineet sen ekosysteemin.
 
-![kuva](assets/en/68.webp)
+![image](assets/en/68.webp)
 
-- Uskovaiset:
 
-Bitcoinin varhaiset käyttäjät olivat pääasiassa teknofiilejä, kyberpunkkeja, libertaareja ja kulta-entusiasteja. Nämä ryhmät houkutteli Bitcoinin kyky tarjota ratkaisuja, kuten luottamukseton sähköinen raha, sensuurin vastustaminen tai läpinäkyvä ja muuttumaton rahapolitiikka.
+- Uskovat:
 
-- Pimeä verkko & rikolliset
+Bitcoinin ensimmäiset käyttäjät olivat pääasiassa teknofiilisiä, salakirjoittajia, libertaareja ja kullan harrastajia. Näitä ryhmiä viehättivät Bitcoinin arvo luotottomana sähköisenä käteisenä, sen sensuurinsietokyky ja sen läpinäkyvä, muuttumaton rahapolitiikka.
 
-Tämän jälkeen Bitcoinin käyttö laajeni pimeän verkon markkinapaikoille, kuten Silk Roadille, sen hallitsemattoman ja pseudonyymin luonteen vuoksi. Tämä sivusto kiinnitti huomiota Bitcoinin hallitsemattomaan ja pseudonyymiin luonteeseen, mikä houkutteli joitakin rikollisia toimijoita käyttämään sitä. On kuitenkin huomattava, että työkalun käyttö, ei itse työkalu, määrittää sen laillisuuden tai laittomuuden. On huomattava, että Bitcoinin laiton käyttö ei sinänsä tee henkilöstä rikollista. Se on käyttö, ei työkalu, joka voidaan luokitella laittomaksi. Esimerkiksi Bitcoinin käyttö tiettyjen huumeiden ostamiseen voi olla laillista tai laitonta riippuen siitä, missä toiminta tapahtuu.
 
-- ICO-huuma ja yleisön saapuminen
+- Pimeä verkko ja rikolliset
 
-Vuosi 2017 merkittiin merkittävällä spekulatiivisella kuplalla kryptovaluuttamaailmassa, erityisesti tuhansien alkuperäisten kolikontarjousten (ICOs) lanseerauksen myötä. Monilla näistä uusista kryptovaluutoista ei kuitenkaan ollut konkreettista kehitystä tai hyötyä ja ne katosivat nopeasti. Tätä 2017 kuplaa seurasi voimakas korjausliike vuosina 2018-2019.
+Sitten Bitcoinin käyttö laajeni Silk Roadin kaltaisille pimeän verkon markkinapaikoille, mikä johtui suurelta osin sen hallitsemattomasta ja pseudonyymistä luonteesta, joka houkutteli myös muita kuin kyseistä alustaa käyttäviä henkilöitä, mukaan lukien joitakin rikollisiin toimiin osallistuvia henkilöitä. On kuitenkin tärkeää korostaa, että laillisuus määräytyy pikemminkin välineen käytön kuin välineen itsensä perusteella. Bitcoinin laiton käyttö ei sinänsä tee kenestäkään rikollista; pikemminkin kyse on nimenomaisista toimista, jotka voidaan luokitella laittomiksi. Esimerkiksi Bitcoinin käyttäminen tiettyjen huumeiden ostamiseen voi olla laillista tai laitonta riippuen siitä, millaisia säännöksiä sovelletaan alueella, jolla liiketoimi tapahtuu.
+
+
+- ICO-huuma ja suuren yleisön saapuminen.
+
+Vuotta 2017 leimasi merkittävä spekulatiivinen kupla kryptovaluuttamaailmassa, erityisesti tuhansien alustavien kolikkotarjousten (ICO) käynnistämisen myötä. Monilla näistä uusista kryptovaluutoista ei kuitenkaan ollut konkreettista kehitystä tai hyötyä, ja ne katosivat nopeasti. Tätä vuoden 2017 kuplaa seurasi voimakas korjausliike vuosina 2018-2019.
+
 
 - NFT-kupla ja DeFi
 
-Sitten jälleen vuonna 2020, markkina koki toisen spekulatiivisen kuplan, joka nosti Bitcoinin hinnan 60 000 dollariin. Tämä kupla eroaa aiemmista suuremmalla sijoittajien monipuolistumisella, mukaan lukien rahoituslaitokset ja suuret yritykset. Mutta jälleen kerran, voimakkaat korjaukset tapahtuvat, kun euphoria laantuu.
+Vuonna 2020 markkinoilla syntyi jälleen uusi spekulatiivinen kupla, joka nosti Bitcoinin hinnan 60 000 dollariin. Tämä kupla poikkesi edellisistä, koska sijoittajat, mukaan lukien rahoituslaitokset ja suuryritykset, olivat laajemmin hajautettuja. Kuten aiempien kuplien kohdalla, huomattavat korjaukset seuraavat kuitenkin yleensä alkuvaiheen euforian haihduttua.
 
-### Bitcoin & Volatiliteetti
+### Bitcoin ja volatiliteetti
 
-Aiempien syklien perusteella vaikuttaa siltä, että Bitcoinin taloudellisten syklien periodisuus vastaa kahta halvennusta. Ehkä siksi, että halvennustapahtuma toimii laukaisijana puolittaen uusien bitcoinien emission.
-Nämä merkittävät vaihtelut ovat luoneet bitcoinille maineen erittäin vaarallisena omaisuuseränä, joka aiheuttaa sen käyttäjille rahan menetyksiä. Vaikka hinta voi laskea 10-20 tai jopa 50% muutamassa päivässä, on tärkeää ymmärtää, että Bitcoin-protokolla ei ole hinnanmuutoksista kärsivä.
+Aiempien syklien perusteella näyttää siltä, että Bitcoinin taloussyklien jaksottaisuus vastaa kahden puolittumisen välistä kestoa, ehkä siksi, että puolittumistapahtuma toimii laukaisevana tekijänä, koska se puolittaa uusien bitcoinien päästöt.
 
-Tämä merkittävä volatiliteetti hyväksytään nykyään täysin Bitcoin-toimijoiden keskuudessa, ja sitä voidaan lieventää useilla ratkaisuilla, kuten rahoitusvakuuksilla (stablecoins), vahvalla pitkän aikavälin uskolla (hodling) tai yksinkertaisesti sijoittamalla kaikki rahansa Bitcoiniin ymmärtämättä mitään. Siksi on olennaista ymmärtää, miksi bitcoinin hinta vaihtelee niin paljon, jotta pystyy edistymään tässä teollisuudessa, koska loppujen lopuksi se on hinta ja syklit, jotka jossain määrin hillitsevät ja säätelevät markkinaamme. Voimme kuitenkin huomata, että Bitcoinin kasvaessa ja kypsyessä volatiliteetti muuttuu vähemmän merkittäväksi.
+Nämä merkittävät vaihtelut ovat tuoneet Bitcoinille maineen erittäin epävakaana omaisuuseränä, joka johtaa usein huomattaviin tappioihin sen käyttäjille. Vaikka hinta voi pudota 10, 20 tai jopa 50 prosenttia muutamassa päivässä, on tärkeää ymmärtää, että hinnanmuutokset eivät vaikuta itse Bitcoin-protokollaan.
 
-Vaikka btc/dollar-pari vaihtelee lyhyellä aikavälillä, bitcoin seuraa yleistä nousutrendiä lähes mekaanisella tavalla rajoitetun 21 miljoonan bitcoinin määränsä ja puolittumisprosessinsa (rahoituksen luomisen puolittaminen keskimäärin joka neljäs vuosi) ansiosta. Tietysti, kuten mikä tahansa rahoitusomaisuus, bitcoin on altis taloussykleille, mukaan lukien euforiajaksoille, spekulatiivisille kuplille ja korjauksille. Tämä ilmiö on melko yleinen nousevissa teknologioissa, joissa markkina ei aina ole rationaalinen tai tehokas.
+Bitcoin-toimijat hyväksyvät tämän merkittävän volatiliteetin nykyään täysin, ja sitä voidaan lieventää useilla ratkaisuilla, kuten taloudellisilla suojauksilla (stablecoins), vahvalla pitkän aikavälin uskolla (hodling) tai yksinkertaisesti välttämällä riskiä sijoittaa 100 prosenttia varoistaan Bitcoiniin ilman vankkaa ymmärrystä. Ymmärrys siitä, miksi Bitcoinin hinta vaihtelee niin paljon, on siksi olennaisen tärkeää alan edistymisen kannalta, sillä viime kädessä juuri hinnan liikkeet ja syklit auttavat jossain määrin hillitsemään ja säätelemään markkinoita. On kuitenkin olennaisen tärkeää huomata, että Bitcoinin kasvaessa ja kypsyessä heilahtelu vähenee.
 
-### Ainutlaatuinen markkina
+![image](assets/en/69.webp)
 
-Nämä spekulatiivisten kuplien syklit ovat melko ainutlaatuisia maailmassa, sillä on erittäin harvinaista, että sama omaisuuserä kokee niin monta kuplaa peräkkäin. Tämä voidaan selittää yksinkertaisesti sillä, että bitcoin ei ole kupla, joka katoaa, vaan valuutta, jota todella käytetään kaikkialla maailmassa. Bitcoin-protokolla on ainutlaatuinen siinä mielessä, että se toimii maailmanlaajuisesti, 24 tuntia vuorokaudessa, 7 päivää viikossa, mikä tekee rahoitusviranomaisten sääntelystä vaikeaa.
+Vaikka btc/dollari-parin kurssi vaihtelee lyhyellä aikavälillä, bitcoin noudattaa yleistä nousevaa trendiä lähes mekaanisesti, koska sen määrä on rajoitettu 21 miljoonaan bitcoiniin ja koska se puolittuu (rahanluonti puolittuu keskimäärin neljän vuoden välein). Kuten mikä tahansa rahoitusvarallisuuserä, bitcoin altistuu tietysti taloudellisille sykleille, mukaan lukien euforian, spekulatiivisten kuplien ja korjausliikkeiden kaudet. Tämä ilmiö on varsin yleinen kehittyvissä teknologioissa, joissa markkinat eivät aina ole rationaaliset tai tehokkaat.
 
-Tänään, vuonna 2023, Bitcoin jatkaa selviytymistään ja kasvuaan integroitumalla yhä enemmän perinteiseen markkinaan. Bitcoin ETF:ien tuleva saapuminen, selkeämpi sääntely ja paremmat hankinta- tai säilytystyökalut vain rohkaisevat tätä suuntausta. Bitcoin on JÄLLEEN selvinnyt spekulatiivisesta kuplastaan, joten ehkä se ei olekaan pelkkää höyryä!
+### Ainutlaatuiset markkinat
 
+Nämä spekulatiivisten kuplien syklit ovat melko ainutlaatuisia maailmassa, sillä harvoin yksittäinen omaisuuserä kokee tällaisia kuplia peräkkäin. Ilmiö johtuu siitä, että Bitcoin ei ole pelkkä kupla, jonka kohtalona on puhjeta. Pikemminkin se toimii valuuttana, jota käytetään aktiivisesti ympäri maailmaa. Bitcoin-protokolla erottuu edukseen, koska se pystyy toimimaan globaalisti 24/7, mikä asettaa merkittäviä haasteita finanssiviranomaisille, jotka yrittävät säännellä sitä.
 
+![image](assets/en/70.webp)
 
-## Bitcoinien hankkiminen työskentelemällä
+Nykyään Bitcoin jatkaa selviytymistään ja kasvuaan entisestään integroitumalla yhä enemmän perinteisiin markkinoihin, ja Bitcoin-ETF:ien käyttöönotto, selkeämmät säännökset sekä paremmat hankinta- ja varastointivälineet edistävät kaikki tätä myönteistä kehitystä. Bitcoin on KERRAN selvinnyt spekulatiivisesta kuplastaan, joten ehkä se ei olekaan pelkkää kuumaa ilmaa!
+
+![image](assets/en/71.webp)
+
+## Bitcoinsin hankkiminen työskentelemällä
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
 
-### Kehittyy rinnakkainen talous
+### Rinnakkaistalous on kehittymässä
 
-Bitcoinia voidaan pitää rinnakkaisena taloutena fiat-valuutoille. Tämä tarkoittaa, että on mahdollista myydä tavaroita tai palveluita ja saada maksu bitcoineina. Transaktiot voidaan suorittaa suoraan bitcoineina, ilman tarvetta käyttää vaihtoalustaa, yksinkertaisesti Bitcoin-lompakosta toiseen.
+Bitcoinia voidaan pitää välineenä, jonka avulla voidaan luoda rinnakkaistalous fiat-valuutoille, koska on mahdollista myydä tavaroita tai palveluja ja saada maksu bitcoineina. Transaktiot voidaan tehdä suoraan Bitcoinilla ilman, että tarvitsee käydä vaihtofoorumin kautta, vaan yksinkertaisesti siirtyä Bitcoin-lompakosta toiseen.
 
-Bitcoin-talous on olemassa ja kehittyy tietyillä maailman alueilla, kuten El Salvadorissa, jossa bitcoin on ollut laillinen maksuväline vuodesta 2021 lähtien. Lisäksi jotkut yksityishenkilöt, yritykset ja järjestöt hyväksyvät jo Bitcoinin maksuvälineenä tuotteilleen tai palveluilleen.
-Lisäksi, jotta bitcoinin käyttöä arkipäiväisissä transaktioissa helpotettaisiin, on käynnistetty avoimen lähdekoodin ja yhteistyöhön perustuva projekti: BTCMap (https://btcmap.org/map#2/21.28937/5.46680). Tämä alusta listaa kaikki kauppiaat, jotka hyväksyvät bitcoinin maksuvälineenä sekä erilaiset Bitcoin-yhteisöt ympäri maailmaa. Voit vierailla heidän verkkosivustollaan löytääksesi Bitcoin-ekosysteemin ympärilläsi. Näin ollen, huolimatta vaikeuksista ja epäröinneistä, on olemassa aloitteita kuten BTCMap, jotka edistävät Bitcoin-talouden saavutettavuutta ja mukavuutta kaikille.
+Bitcoin-talous on olemassa ja kehittyy tietyillä maailman alueilla, kuten El Salvadorissa, jossa Bitcoin on ollut laillinen maksuväline vuodesta 2021 lähtien. Kaikkialla ympärillämme on joitakin yksityishenkilöitä, yrityksiä ja organisaatioita, jotka jo hyväksyvät Bitcoinin maksuvälineenä tuotteistaan tai palveluistaan.
 
-### Miksi hyväksyä Bitcoin ostamisen sijaan?
+![image](assets/en/72.webp)
 
-Bitcoinien hankkimiseksi voit ostaa niitä alustoilta, joita säätelevät organisaatiot kuten AMF (Autorité des Marchés Financiers) Ranskassa. Tämä menetelmä sisältää tiettyjä riskejä ja transaktioidesi jäljitettävyyden. Toinen tapa hankkia bitcoineja on hyväksyä ne maksuvälineenä tarjoamistasi tuotteista tai palveluista. Tämä menetelmä mahdollistaa bitcoinien hankkimisen työsi kautta ilman, että sinun tarvitsee jatkuvasti huolehtia Bitcoinin hinnasta.
+Lisäksi on käynnistetty avoimen lähdekoodin ja yhteistyön hanke [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), jonka tarkoituksena on helpottaa Bitcoinin käyttöä jokapäiväisissä liiketoimissa. Tällä alustalla luetellaan kaikki kauppiaat, jotka hyväksyvät Bitcoinin, sekä erilaiset Bitcoin-yhteisöt eri puolilla maailmaa, joten voit vierailla heidän verkkosivustollaan tutustuaksesi ympärilläsi olevaan Bitcoin-ekosysteemiin. Vaikeuksista ja epäröinnistä huolimatta on siis olemassa BTCMapin kaltaisia aloitteita, jotka osaltaan tekevät Bitcoin-taloudesta helpommin lähestyttävää ja kätevämpää kaikille.
 
-Lisäksi Bitcoinin hyväksyminen kauppiaana tarjoaa useita etuja, mukaan lukien sensuurin vastustuskyky, pienemmät transaktiomaksut, lisääntynyt tehokkuus, suoja inflaatiota vastaan sekä taloudellinen vapaus ja suvereniteetti.
+### Miksi meidän pitäisi hyväksyä Bitcoin sen sijaan, että ostaisimme sitä?
 
-![kuva](assets/en/73.webp)
+Voit hankkia bitcoineja ostamalla niitä alustoilta, joita sääntelevät organisaatiot, kuten AMF (Autorité des Marchés Financiers) Ranskassa tai Securities & Exchange Commission (SEC) Yhdysvalloissa, mutta tämä ratkaisu edellyttää transaktioiden jäljitettävyyttä. Toinen tapa hankkia bitcoineja on hyväksyä ne maksuvälineeksi tarjoamistasi tuotteista tai palveluista, jolloin voit hankkia bitcoineja työsi kautta ilman jatkuvaa huolta Bitcoinin hinnasta.
 
-### Kuinka edetä:
+Lisäksi Bitcoinin hyväksymisellä kauppiaaksi on useita etuja, kuten sensuurin vastustaminen, alhaisemmat transaktiomaksut, suurempi tehokkuus, suoja inflaatiota vastaan sekä taloudellinen vapaus ja suvereniteetti.
 
-Bitcoinin hyväksymiseksi on tarpeen tutkia eri saatavilla olevia ratkaisuja ja valita se, joka parhaiten sopii liiketoimintaasi. Täydellistä ratkaisua ei ole olemassa, ja valintaa tehdessä on otettava huomioon useita tekijöitä, kuten odotettu transaktiovolyymi, käytettävissä oleva budjetti ja liiketoiminnan tyyppi (verkossa tai fyysinen).
+![image](assets/en/73.webp)
 
-Käsittelemme tätä aihetta yksityiskohtaisemmin toisessa koulutuksessa, mutta yksinkertaistaaksemme voimme harkita useita yritystyyppejä ja siten niihin liittyviä ratkaisuja:
+### Miten voit edetä?
+
+Bitcoinin hyväksymiseksi on tutkittava erilaisia saatavilla olevia ratkaisuja ja valittava yrityksellesi parhaiten sopiva ratkaisu. Täydellistä ratkaisua ei ole olemassa, ja valintaa tehtäessä on otettava huomioon useita tekijöitä, kuten odotettavissa oleva transaktiovolyymi, varattu budjetti ja liiketoiminnan tyyppi (online tai fyysinen).
+
+Käsittelemme tätä aihetta yksityiskohtaisesti toisella kurssilla, mutta yksinkertaisuuden vuoksi voimme tarkastella useita yritysryhmiä ja niihin liittyviä ratkaisuja.
+
 
 - Yksinkertainen online-ratkaisu: OpenNode
 
 https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-- Ratkaisu harrastajakauppiaille: Swiss Bitcoin Pay
+- Ratkaisu amatöörikauppiaille: Bitcoin Pay
 
 https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-- Ratkaisu suurille yrityksille tai intohimoisille bitcoinaajille: BTCpay Server
-
-https://planb.network/courses/btc305
-
-
+- Ratkaisu suurille rakenteille tai intohimoisille bitcoin-asiakkaille: BTCpay Server
 
 ## Säästäminen Bitcoinilla
 
@@ -1019,273 +1121,295 @@ https://planb.network/courses/btc305
 
 ### Varoitus ennen aloittamista!
 
-Bitcoin on muodostunut merkittäväksi rahoitusomaisuudeksi, pääasiassa sen rajallisen tarjonnan ja kasvavan kysynnän vuoksi. Bitcoinin ostaminen kuitenkin sisältää riskejä, jotka vaativat erityistä huomiota. Siksi on suositeltavaa tehdä oma tutkimus ja oppia lisää aiheesta, jotta voit tutustua teknologiaan ennen sijoittamista.
+Bitcoinista on tullut merkittävä rahoitusvarallisuus, mikä johtuu pääasiassa sen rajallisesta tarjonnasta ja kasvavasta kysynnästä. Bitcoinin ostamiseen liittyy kuitenkin riskejä, jotka vaativat erityistä huomiota. Siksi on suositeltavaa tehdä omaa tutkimusta ja oppia lisää aiheesta, jotta voit tutustua teknologiaan ennen varojen sijoittamista.
 
-- Sijoita vain sen verran, kuin voit varaa menettää.
-- Bitcoin on erittäin volatiili rahoitusomaisuus; sen hinta voi laskea nollaan.
-- Menneisyys ei ole tae tulevaisuuden suorituskyvystä.
-- Ota yhteyttä talousneuvojaasi tarvittaessa.
 
-> Plan ₿ Network ei tarjoa sijoitusneuvontaa, eikä mitään tässä esitettyä tulisi pitää sellaisena.
+- Sijoita vain se, mitä sinulla on varaa menettää.
+- Bitcoin on erittäin epävakaa rahoitusvarallisuus, ja sen hinta voi pudota 0:aan.
+- Aiempi suorituskyky ei ole luotettava indikaattori tulevasta suorituskyvystä.
+- Ota tarvittaessa yhteyttä rahoitusneuvojaan.
 
-### Mini-tarkistuslista ennen sukeltamista
+**Plan ₿ Network ei tarjoa sijoitusneuvontaa, eikä mitään tässä ilmoitettua tule pitää sellaisena**
 
-Ennen kuin sukellat bitcoinien ostamiseen, varmista, että sinulla on:
+### Minitarkistuslista ennen käyttöönottoa
+
+Varmista ennen Bitcoinin ostamista, että sinulla on:
+
 
 - Turvallinen lompakko.
 - Vankka ymmärrys Bitcoinista.
-- Seurattava säästösuunnitelma.
-- Pitkän aikavälin näkemys.
+- Säästösuunnitelma, jota noudattaa.
+- Pitkän aikavälin visio.
 
-Jos aihe on edelleen epäselvä, tiedä, että BTC102-kurssi opastaa sinua turvaamaan ja hankkimaan ensimmäiset bitcoinisi. Tässä käymme vain aiheen pintaa.
+Jos aihe on vielä epäselvä, muista, että BTC102-kurssilla opastetaan sinua ensimmäisten bitcoinien turvaamisessa ja hankkimisessa. Tässä vain sivutaan aiheen pintaa.
 
-Käytännössä on kaksi kysymystä, jotka sinun tulee kysyä itseltäsi:
+Konkreettisesti voidaan esittää kaksi kysymystä:
 
-- Minkä hankintastrategian valita: asteittain vai kerralla?
-- Mitä alustaa käyttää: säänneltyä vai sääntelemätöntä?
+
+- Pitäisikö sinun omaksua asteittainen vai kaikki kerralla -hankintastrategia?
+- Pitäisikö sinun käyttää säänneltyä vai sääntelemätöntä alustaa?
 
 ### Hankintastrategiat
 
-- Dollar Cost Average
-  Toistuvat ostot tarkoittavat pienien bitcoin-määrien ostamista säännöllisin väliajoin. Tämä menetelmä tasoittaa hintaa ajan myötä ja tarjoaa jatkuvaa kasvua omistettujen bitcoinien määrässä. Se on ihanteellinen ratkaisu pitkäaikaiseen säästämiseen ilman huolta bitcoinin hinnasta ja volatiliteetista. Aseta se käyntiin ja unohda koko juttu.
-  ![kuva](assets/en/74.webp)
 
-> Varo UTXO:ja: Muista yhdistellä UTXO:si lompakoissasi ajoittain. Tämä käytäntö on olennainen tehokkaan bitcoinien hallinnan kannalta ja tarpeettomien maksujen välttämiseksi transaktioissa.
+- Dollarikustannusten keskiarvo
 
-- Spontaani ostos
+Asteittaiseen strategiaan kuuluu toistuvat ostot, eli pienten Bitcoin-määrien ostaminen säännöllisin väliajoin. Tämä menetelmä tasoittaa hintaa ajan mittaan ja tarjoaa jatkuvaa kasvua omistettujen bitcoinien määrässä. Se on ihanteellinen ratkaisu pitkäaikaiseen säästämiseen ja lievittää huolta Bitcoinin hinnan vaihtelusta. Kun olet ottanut sen käyttöön, voit yksinkertaisesti unohtaa sen ja katsella sijoituksesi kasvua.
 
-Spontaania ostosta käytetään saavuttamaan välitön altistuminen bitcoinille. Olipa kyseessä ostaminen romahduksen aikana tai bonuksen hyödyntäminen, päätös on sinun. Sinun on kerättävä rohkeutesi ja painettava osta-nappia.
+![image](assets/en/74.webp)
 
-Bitcoinin merkittävän volatiliteetin vuoksi on kiinnitettävä erityistä huomiota tunteisiisi. FOMO (Fear of Missing Out) ja FUD (Fear, Uncertainty, Doubt) ovat pahimpia vihollisiasi tässä yhteydessä! Pysy rauhallisena ja noudata etukäteen määrittelemääsi strategiaa välttääksesi impulsiiviset ja mahdollisesti haitalliset päätökset.
+**Varokaa UTXO:ta**: Muista aika ajoin konsolidoida UTXO:t lompakkoihisi. Tämä käytäntö on välttämätön, jotta voit hallita bitcoinejasi tehokkaasti ja välttää turhat maksut transaktioiden aikana.
 
-### Keneltä meidän tulisi ostaa bitcoinejamme?
 
-Bitcoinien hankkimiseen on useita tapoja, joilla kullakin on omat säädöksensä. Jotkut alustat vaativat tunnistautumisen vahvistusta varten, toiset eivät. On tärkeää ymmärtää kunkin alustan liittyvät säädökset.
+- Spontaani osto
+
+Ratkaisu voisi olla spontaani ostos, jonka avulla bitcoiniin tutustutaan välittömästi. Olipa kyseessä sitten ostaminen romahduksen aikana tai bonuksen hyödyntäminen, päätös on sinun. Sinun on kerättävä rohkeutesi ja painettava ostopainiketta.
+
+Tässä tapauksessa sinun on syytä olla varovainen ja hillitä tunteitasi, sillä bitcoinin hinta voi olla varsin vaihteleva. Itse asiassa FOMO (Fear of Missing Out) ja FUD (Fear, Uncertainty, Doubt) ovat pahimmat vihollisesi! Muista pysyä rauhallisena ja noudattaa etukäteen laatimaasi strategiaa, jotta vältät impulsiivisen ja mahdollisesti haitallisen päätöksenteon.
+
+### Keneltä meidän pitäisi ostaa bitcoinimme?
+
+Bitcoineja voi hankkia useilla eri tavoilla, joista jokaiseen sovelletaan omia säännöksiä, jotka voivat vaihdella lainkäyttöalueittain. Jotkin alustat edellyttävät henkilöllisyyden todentamista (KYC), kun taas toiset eivät. Siksi on tärkeää ymmärtää kuhunkin alustaan liittyvät määräykset.
+
 
 - DCA-alustat
 
-Yleinen tapa kerryttää bitcoineja on Dollar Cost Averaging (DCA), joka sisältää säännölliset pienet sijoitukset. Useat alustat tarjoavat tätä palvelua, kuten ne, jotka on lueteltu [omistetulla sivullamme](https://planb.network/tutorials/exchange). DCA:n perustamisen yksinkertaisuuden lisäksi nostot lompakkoosi ovat yleensä automaattisia, mikä tarkoittaa, että sinulla on aina hallinta omaisuudestasi.
+Kuten edellä esiteltiin, yleinen tapa kerätä bitcoineja on Dollar Cost Averaging (DCA), jossa ostetaan säännöllisesti pieniä määriä. Useat alustat tarjoavat tätä palvelua, kuten [oma sivu](https://planb.network/tutorials/exchange). Sen lisäksi, että DCA:n perustaminen on yksinkertaista, kotiutukset lompakkoosi ovat yleensä automaattisia, mikä tarkoittaa, että voit aina hallita varojasi.
 
-Nykyään lähes kaikki DCA-ratkaisut ovat suhteellisen tehokkaita ja niiden maksut ovat lähes samankaltaiset, joten valinta riippuu enemmän saatavuudesta maassasi.
+Nykyään lähes kaikki DCA-ratkaisut ovat suhteellisen tehokkaita ja niiden maksut ovat lähes samanlaiset, joten valinta riippuu enemmänkin saatavuudesta maassasi.
 
-- Välittäjäalustat
 
-Suurten sijoitusten osalta suositellaan säänneltyjä ja tunnustettuja alustoja, kuten Kraken, Bitstamp ja Paymium. Nämä alustat tarjoavat turvallisen ja turvatun ympäristön suurille transaktioille.
+- Välitysalustat
 
-Niiden käyttö on yksinkertaista ja kaikkien saavutettavissa:
+Laajamittaisia sijoituksia varten suositellaan säänneltyjä ja tunnustettuja alustoja, kuten Kraken, Bitstamp ja Paymium. Ne tarjoavat turvallisen ja suojatun ympäristön suurille transaktiomäärille.
 
-1. Perusta KYC/\* tili
+Niiden käyttö on yksinkertaista ja kaikkien saatavilla:
+
+1. KYC/\*-tilin perustaminen
+
 2. Siirrä varoja tilillesi
-3. Osta bitcoinia
-4. Nosta bitcoin lompakkoosi
 
-![kuva](assets/en/75.webp)
+3. Osta bitcoin
 
-Oston jälkeen on suositeltavaa välittömästi nostaa bitcoinit vaihtoalustoilta minimoidaksesi hakkeroinnin ja varojen jäädyttämisen riskit. Nostomaksut voivat olla korkeita, joskus jopa 25 euroa alustasta riippuen.
+4. Nosta Bitcoin lompakkoon
 
-> Know Your Customer (KYC) -säädökset vaativat käyttäjiä toimittamaan tunnistetietoja terrorismin rahoituksen, veronkierron ja rahanpesun torjumiseksi.
+![image](assets/en/75.webp)
 
-On tärkeää huomata, että KYC on tärkeä aihe alallamme, sillä sen tehokkuus on helposti kyseenalaistettavissa, kun taas sen kielteiset puolet ovat lukuisia. Monissa yliopistomme koulutusohjelmissa ja sisällöissä neuvomme välttämään täydellisiä KYC-alustoja, jos olet jo edistynyt käyttäjä.
+Oston jälkeen on suositeltavaa nostaa bitcoinit välittömästi pois vaihtopalveluista, jotta hakkeroinnin ja rahastojen estämisen riskit voidaan minimoida. Huomaa, että nostomaksut voivat olla korkeita, joskus jopa 25 euroa alustasta riippuen.
 
-### Non-KYC Ratkaisu
+**Know Your Customer (KYC) -säädökset edellyttävät, että käyttäjät ilmoittavat henkilöllisyytensä terrorismin rahoituksen, veronkierron ja rahanpesun torjumiseksi.**
 
-Lisäksi on olemassa useita [markkinapaikkoja](https://planb.network/tutorials/exchange) ostaa ja myydä bitcoineja vertaisverkossa. Jos olet kiinnostunut näistä, voit osallistua BTC 205 -kurssillemme aiheesta. Yleensä nämä ratkaisut ovat:
+On tärkeää tunnustaa, että KYC on merkittävä keskustelunaihe Bitcoin-alalla. Vaikka monet keskustelevat sen tehokkuudesta, siihen liittyy lukuisia huolenaiheita. Monissa akatemiamme koulutusohjelmissa ja sisällöissä kehotamme edistyneempiä käyttäjiä välttämään KYC:tä vaativia alustoja, koska tarjolla on usein yksityisyydensuojaan paremmin keskittyviä vaihtoehtoja.
+
+### Non-KYC-ratkaisut
+
+Lisäksi on olemassa useita [markkinapaikkoja](https://planb.network/tutorials/exchange), joilla voi ostaa ja myydä bitcoineja vertaisverkkopörssissä. Yleisesti ottaen sinun mau harkita seuraavia:
+
 
 - Bitcoin-automaatit
-- Fyysiset tapaamiset muiden bitcoin-harrastajien kanssa
+- Fyysiset tapaamiset muiden Bitcoin-harrastajien kanssa
 - Laittomat ja sääntelemättömät alustat
-- Vertaisverkkoon perustuvat välitysratkaisut
-- Neopankit, jotka toimivat Bitcoin-ystävällisissä maissa.
+- Vertaisvertaiset matchmaking-ratkaisut
+- Bitcoin-myönteisissä maissa toimivat uuspankit.
 
-![kuva](assets/en/76.webp)
-On tärkeää huomata, että verot saattavat tulla sovellettaviksi alueellasi. Kehotamme sinua tutustumaan maasi säädöksiin ennen minkään toimenpiteen toteuttamista, joka saattaisi asettaa sinut riskiin.
+![image](assets/en/76.webp)
 
+Lopuksi on tärkeää huomata, että verovelvoitteet voivat vaihdella lainkäyttöalueesta riippuen, joten kehotamme sinua tutustumaan oman maasi säännöksiin ennen kuin ryhdyt mihinkään toimiin, jotka voivat aiheuttaa sinulle riskejä.
 
-
-## Hyper-bitcoinisaatio
+## Hyper-bitcoinization
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
 
-### Villi kilpa on vasta alussa!
+### Villi kilpailu on vasta alussa!
 
-Kuten mikä tahansa uusi teknologia, Bitcoinin omaksuminen noudattaa S-käyrää. Olemme ohittaneet varhaisen omaksujien aikakauden, ja indikaattorit näyttävät viittaavan kohti Bitcoinin täydellistä demokratisoitumista. Se on virusteknologiaa, jota ei voi pysäyttää. El Salvador on ottanut rohkean askeleen hyväksymällä Bitcoinin kokonaisuudessaan lailliseksi maksuvälineeksi. Kuitenkin jokainen maa reagoi tähän teknologiaan eri tavoin. Jotkut ovat kieltäneet ja kriminalisoineet sen käytön, lisäten Bitcoinin omaksumisen monimutkaisuutta kulttuurien, aikakausien ja kansakuntien perusteella.
+Kuten mikä tahansa uusi teknologia, Bitcoinin käyttöönotto noudattaa S-käyrää, joka kuvaa kehitystä varhaisista omaksujista laajempaan hyväksyntään. Olemme siirtyneet varhaisen omaksumisen aikakauden taakse, ja indikaattorit viittaavat Bitcoinin mahdolliseen demokratisoitumiseen. Loppujen lopuksi kyseessä on virusteknologia, jota ei voi helposti pysäyttää. Toisaalta El Salvador on ottanut rohkean askeleen ja ottanut Bitcoinin täysin käyttöön laillisena maksuvälineenä. Toisaalta muut maat ovat reagoineet kieltämällä sen ja kriminalisoimalla sen käytön, mikä osoittaa, että Bitcoinin käyttöönotto on monimutkaista ja altistuu kulttuuristen, historiallisten ja kansallisten tekijöiden vaikutuksille.
 
-![kuva](assets/en/02.webp)
+![image](assets/en/02.webp)
 
-Bitcoinin nousu pakottaa yritykset, yliopistot, sääntelijät ja yksilöt ottamaan tämän uuden teknologian huomioon. Uusia työkaluja on luotava, palveluja on mukautettava ja innovaatioiden on jatkuttava niiden selviytymisen varmistamiseksi. Tämä konteksti herättää monia kysymyksiä liittyen eri aloihin, mukaan lukien kryptografia, peliteoria, taloustiede ja rahapolitiikka, tietojenkäsittelytiede, filosofia, energia, lait ja sääntely. Lyhyesti sanottuna, Bitcoin on monitieteellinen kohde.
+Bitcoinin nousu pakottaa yritykset, yliopistot, sääntelyviranomaiset ja yksityishenkilöt ottamaan tämän uuden teknologian huomioon. On luotava uusia työkaluja, mukautettava palveluja ja jatkettava innovointia, jotta voidaan varmistaa niiden selviytyminen. Tämä asiayhteys herättää monia kysymyksiä, jotka liittyvät eri aloihin, kuten kryptografiaan, peliteoriaan, talouteen ja rahapolitiikkaan, tietotekniikkaan, filosofiaan, energiaan, lakeihin ja sääntelyyn. Lyhyesti sanottuna Bitcoin on monitieteinen aihe.
 
-![kuva](assets/en/01.webp)
+![image](assets/en/01.webp)
 
-### Bitcoin on 0:sta 1:een
+### Bitcoin on 0-1
 
-Kutsumme sinut pohtimaan tätä uutta rahavallankumousta. Bitcoinin kanssa on niin paljon tutkittavaa, että kaiken omaksuminen kerralla on monimutkaista. Ota aikasi, Bitcoin ei ole katoamassa. Päinvastoin, vallankumous on vasta alkanut. Yhdessä uskomme, että kykenemme luomaan maailman, jonka haluamme jättää lapsillemme. Maailman, jossa ihmisen suvereniteetti on oikeus, yksityisyyttä kunnioitetaan oletusarvoisesti, ja jossa rahaa ei manipuloida. Toivomme, että yhdessä saavutamme tämän.
+Lopuksi pyydämme teitä pohtimaan tätä uutta rahapoliittista vallankumousta. Bitcoinissa on niin paljon tutkittavaa, että on vaikeaa omaksua kaikkea kerralla. Ota aikaa, Bitcoin ei katoa. Päinvastoin, vallankumous on vasta alkanut. Uskomme, että pystymme luomaan maailman, jonka haluamme uskoa lapsillemme: maailman, jossa ihmisen itsemääräämisoikeus on oikeus, jossa yksityisyyttä kunnioitetaan oletusarvoisesti ja jossa rahaa ei manipuloida. Toivomme, että voimme yhdessä saavuttaa tämän.
 
-![kuva](assets/en/77.webp)
+![image](assets/en/77.webp)
 
-Jos haluat laajentaa tietämystäsi Bitcoinista, suuri joukko kirjailijoita, ajattelijoita ja esseistejä on myötävaikuttanut Bitcoinin koulutuskerrokseen. Viime vuosina olemme luetteloineet ja luokitelleet nämä teokset tarjotaksemme [kirjasto resursseja](https://planb.network/resources) kaikkein uteliaimpien joukossa. Löydät parhaat podcastit, verkkosivustot, artikkelit, tutoriaalit, kirjat ja muun sisällön.
+Jos haluat laajentaa tietämystäsi Bitcoinista, nyt on oikea hetki: monet kirjailijat, ajattelijat ja esseistit ovat luoneet opetussisältöä Bitcoinista. Viime vuosien aikana olemme listanneet ja luokitelleet näitä teoksia tarjotaksemme [resurssikirjaston](https://planb.network/resources) uteliaimmille teistä. Tästä osiosta löydät parhaat podcastit, verkkosivustot, artikkelit, opetusohjelmat, kirjat ja muun sisällön.
 
-> Milton Friedman, tunnettu taloustieteilijä, ennusti vuonna 1999: "Luulen, että Internet tulee olemaan yksi merkittävimmistä voimista hallituksen roolin vähentämisessä. Ainoa asia, joka puuttuu, mutta joka pian kehitetään, on luotettava e-raha - menetelmä, jonka avulla Internetissä voit siirtää varoja A:sta B:hen ilman, että A tietää B:stä tai B tietää A:sta."
-
-
-
+> "Uskon, että Internet tulee olemaan yksi tärkeimmistä voimista, jotka vähentävät hallituksen roolia. Ainoa asia, joka vielä puuttuu, mutta joka pian kehitetään, on luotettava sähköinen käteisraha - menetelmä, jolla Internetissä voi siirtää varoja A:lta B:lle ilman, että A tietää B:tä tai B tietää A:ta." - Milton Friedmanin ennustus vuonna 1999
 # Bitcoinin tulevaisuus: Salamaverkko
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Lyhyt johdanto Salamaverkkoon
+## Lyhyt esittely salamaverkosta
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
-Nyt kun meillä on perustiedot Bitcoin-protokollasta, esittelemme maksuverkon, joka käyttää Bitcoin-protokollaa mahdollistaakseen salamannopeat transaktiot. Puhumme tietenkin Lightning Networkista!
+
+Nyt kun meillä on Bitcoin-protokollan perusteet, esittelemme maksuverkon, joka käyttää Bitcoin-protokollaa salamannopeiden maksutapahtumien mahdollistamiseksi: Lightning Network!
+
+Huomaa, että seuraava on vain yleinen kuvaus, joten jos haluat ymmärtää sen tarkemmin, pyydämme sinua tutustumaan LNP201-kurssiimme.
 
 ### Pähkinänkuoressa
 
-Lightning Network on vallankumouksellinen teknologia, joka on muuttanut käsityksemme Bitcoinista syvästi. Se on ratkaisu, joka käsittelee Bitcoinin skaalautuvuusongelmaa.
+Salamaverkko on vallankumouksellinen teknologia, joka on muuttanut perusteellisesti käsitystämme Bitcoinista, sillä se ratkaisee Bitcoinin skaalautuvuusongelman.
 
-Jotta ymmärtäisimme Lightning Networkin täysin, on tärkeää ymmärtää, miten Bitcoin kehittyy. Bitcoin kehittyy infrastruktuurikerroksissa: ensimmäinen kerros on lohkoketju ja toinen kerros on Lightning Network.
+Lightning Networkin ymmärtämiseksi on tärkeää ymmärtää, miten Bitcoin kehittyy ja kehittyy infrastruktuurin kerroksissa: ensimmäinen kerros on lohkoketju ja toinen Lightning Network.
 
-![kuva](assets/en/78.webp)
+![image](assets/en/78.webp)
 
-Tunnustettuna Bitcoinin kerroksena, Lightning Network vahvistettiin ja otettiin käyttöön vuonna 2017. Se mahdollistaa välittömät, edulliset Bitcoin-siirrot, ratkaisten näin Bitcoinin skaalautuvuusongelman. Mutta mikä on tämä skaalautuvuusongelma, jota Bitcoin kohtaa?
+### Lohkoketju ei voi kasvaa loputtomiin
 
-### Lohkoketju Ei Voi Kasvaa Loputtomiin
+Salamaverkko validoitiin ja otettiin käyttöön vuonna 2017 Bitcoinin skaalautuvuusongelman ratkaisemiseksi, sillä se mahdollistaa välittömät ja edulliset Bitcoin-tapahtumat.
 
-Skaalautuvuusongelma viittaa haasteeseen toteuttaa rahajärjestelmä, joka pystyy tarjoamaan yhä kasvavan määrän transaktioita sekunnissa sen käyttöönoton myötä. Tämä liittyy lohkoketjun trilemmaan. Kuvittele kolmio, jonka kärjissä ovat hajauttaminen, turvallisuus ja skaalautuvuus.
+Skaalautuvuusongelmalla tarkoitetaan haastetta, joka liittyy sellaisen rahajärjestelmän toteuttamiseen, joka kykenee tarjoamaan yhä suuremman määrän transaktioita sekunnissa, jotta voidaan vastata kasvavaan hyväksyntään. Tämä ongelma liittyy lohkoketjun trilemmaan. Kuvitellaan kolmio, jonka kärkipisteinä ovat hajautus, turvallisuus ja skaalautuvuus.
 
-![kuva](assets/en/79.webp)
+![image](assets/en/79.webp)
 
-Lohkoketjuun perustuva protokolla voi tyydyttää vain kaksi näistä kolmesta näkökohdasta. Bitcoin-protokollassa on tehty valintoja hajauttamisen/turvallisuuden hyväksi. Toisaalta 1MB:n lohkokoko ja kahden lohkon välillä keskimäärin 10 minuutin aika mahdollistavat Bitcoin-solmun pyörittämisen alhaisin kustannuksin, suosien hajauttamista. Toisaalta lohkojen tuottaminen Proof-of-Workin kautta tekee huijaukset protokollassa äärimmäisen kalliiksi samalla kun se helpottaa verifioinnin verkoston solmuissa, suosien näin turvallisuutta. Kuitenkin nämä valinnat asettavat rajoituksen keskimääräiselle transaktioiden määrälle lohkossa, mikä vastaa suunnilleen muutamaa transaktiota sekunnissa. Tämä määrä on naurettava verrattuna maksunvälittäjien, kuten VISAn, käsittelykapasiteettiin, joka on 1700/s. Tämä rajoitus on kuitenkin tarpeen, jotta Bitcoinilla voidaan tehdä transaktioita sensuurinkestävällä ja luottamuksettomalla tavalla. Siitä huolimatta Bitcoinin kehittäjät ovat pohtineet tätä ongelmaa alusta alkaen.
+Sen mukaan lohkoketjuun perustuva protokolla voi täyttää vain kaksi näistä kolmesta ominaisuudesta. Bitcoin-protokollan kehittäjät ovat tehneet valintoja hajauttamisen ja turvallisuuden hyväksi. Toisaalta lohkokoko 1MB ja kahden lohkon välinen aika (keskimäärin 10 minuuttia) mahdollistavat Bitcoin-solmun käyttämisen pienemmillä kustannuksilla, mikä suosii hajauttamista. Toisaalta lohkojen tuottaminen Proof-of-Work -toiminnolla tekee protokollassa tapahtuvista petoksista erittäin kalliita, mutta helpottaa samalla verkon solmujen suorittamaa todentamista ja suosii turvallisuutta. Nämä valinnat rajoittavat kuitenkin lohkon keskimääräistä transaktioiden määrää, joka vastaa noin muutamaa transaktiota sekunnissa. Tämä määrä on naurettava, kun sitä verrataan VISAn kaltaisten maksuprosessorien laskentakapasiteettiin (1700/s), mutta tämä raja on välttämätön, jotta Bitcoinin avulla voidaan tehdä liiketoimia sensuurin kestävästi ja luotettavasti. Bitcoinin kehittäjät ovat kuitenkin pohtineet tätä ongelmaa alusta asti.
 
-### Lightning Yläkerroksena
+### Salama kerroksen päälle
 
-Vuosiensa pohdinnan ja useiden yritysten jälkeen Lightning-protokolla syntyy. Tiettyjen määrittelyjen avulla tämä protokolla mahdollistaa vertaisverkkomaksuverkon rakentamisen hyödyntämällä Bitcoinin transaktioprotokollan turvallisuutta ja ohjelmoitavuutta. Lightning Network toimii maksukanavien verkostona, mahdollistaen välittömät transaktiot pienin kuluin lähettäjälle. Tämä maksukanavien verkosto mahdollistaa jopa transaktiot yksilöiden välillä, joilla ei ole suoraa kanavayhteyttä.
+Vuosien harkinnan ja useiden yritysten jälkeen syntyi Lightning-protokolla. Käyttämällä tiettyä määrää eritelmiä tämä protokolla rakentaa vertaisverkkomaksamisverkon hyödyntämällä Bitcoinin transaktioprotokollan turvallisuutta ja ohjelmoitavuutta. Lightning-verkko toimii maksukanavien verkostona, joka mahdollistaa välittömät maksutapahtumat lähettäjälle alhaisilla maksuilla, ja se luo jopa vaihtoreittejä sellaisten henkilöiden välille, joilla ei ole suoraa kanavayhteyttä.
 
-![kuva](assets/en/80.webp)
+![image](assets/en/80.webp)
 
-Perinteiset rahansiirtopalvelut kuten Western Union, keskuspankit, Visa ja Mastercard saattavat kadota, jos ne eivät ota käyttöön Lightning Network -teknologiaa. Lightning Network on tehokkaampi ja kustannustehokkaampi kuin nykyiset maksujärjestelmät. Todellakin, Lightning Network mahdollistaa lähes rajattomat transaktiot kahden kanavaa jakavan osapuolen välillä ilman energiakustannuksia peruslohkoketjussa muuta kuin kanavan luomisilmoituksen transaktio.
+Perinteiset rahansiirtopalvelut, kuten Western Union, keskuspankit, Visa ja Mastercard, voivat kadota, jos ne eivät ota käyttöön Lightning Network -tekniikkaa, joka on nykyisiä maksujärjestelmiä tehokkaampi ja kustannustehokkaampi. Lightning Network mahdollistaa itse asiassa lähes rajattomat maksutapahtumat kahden vertaisverkon välillä, jotka jakavat kanavan, ja niistä aiheutuu vain maksutapahtumaan liittyvät energiakustannukset, jotka liittyvät kanavan luomisen ilmoittamiseen, eikä jokaisesta yksittäisestä maksutapahtumasta.
 
-![kuva](assets/en/81.webp)
+![image](assets/en/81.webp)
 
-Transaktiot turvataan kryptografian kautta ja epäsuorasti Bitcoinin louhijoiden kuluttaman energian kautta. Transaktiot voidaan tehdä välittömästi, ilman maantieteellisiä rajoituksia, ja kulut ovat erittäin alhaiset, usein alle 0,5%.
+Transaktiot suojataan kryptografian avulla ja epäsuorasti Bitcoinin louhijoiden kuluttaman energian avulla. Ne voidaan tehdä välittömästi, ilman maantieteellisiä rajoituksia ja erittäin alhaisilla maksuilla (usein alle 0,5 %).
 
-Yhteenvetona, Lightning Network on lupaava yritys kehittää tehokas maksujärjestelmä Bitcoinin transaktioihin. Markkinoilla on jo lukuisia Lightning-lompakoita, joita voit tutustua opetusosiossamme tai Lightning Network -koulutuksemme kautta.
+Yhteenvetona voidaan todeta, että Lightning Network on lupaava yritys ottaa käyttöön tehokas maksujärjestelmä Bitcoinin ostamista ja myymistä varten. Saatavilla on jo lukuisia Lightning-lompakoita, joihin voit tutustua tutoriaaliosastollamme tai Lightning Network -kursseillamme.
 
-
-
-Jos haluat syventyä tätä johdantoa pidemmälle ja ymmärtää Lightning Networkin toiminnan kaikki yksityiskohdat, suosittelen Fanis Michalakisin erinomaista kurssia tästä aiheesta:
+Jos haluat mennä tätä johdantoa pidemmälle ja ymmärtää Lightning-verkon kaikki toiminnot, suosittelemme Fanis Michalakisin erinomaista kurssia aiheesta:
 
 https://planb.network/courses/lnp201
-
-## Lightning-verkon käyttötapaukset
+## Salamaverkon käyttötapaukset
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
-Kuten juuri näimme, vaikka Bitcoin-protokolla onkin vallankumouksellinen, kohtaa se merkittäviä haasteita skaalautuvuudessa päivittäisten transaktioiden käsittelyssä. Näiden ongelmien ratkaisemiseksi ehdotettiin toisen kerroksen ratkaisua, joka tunnetaan nimellä Lightning-verkko, vuonna 2016 ja sillä on nyt useita eri toteutuksia, jotka kaikki ovat yhteensopivia:
+Kuten juuri näimme, Bitcoin-protokolla on vallankumouksellinen, mutta sen skaalautuvuuteen liittyy huomattavia haasteita, joita tarvitaan kaikkien päivittäisten transaktioidemme käsittelyyn. Näiden ongelmien ratkaisemiseksi ehdotettiin Lightning Network -verkostoa, josta on sittemmin kehitetty useita erilaisia toteutuksia, jotka kaikki ovat yhteentoimivia:
 
-- Core-lightning Blockstreamilta
-- Eclair Acinqilta
-- LND Lightning strikelta
 
-Tämä vertaisverkko pyrkii helpottamaan mikrotransaktioita, jotka ovat erittäin pieniarvoisia transaktioita, jotka muuten olisivat käytännössä mahdottomia korkeiden maksujen ja pitkien vahvistusaikojen vuoksi Bitcoin-lohkoketjussa.
+- Blockstreamin Core-lightning
+- Acinqin Eclair
+- LND salamanisku
+
+Tämän vertaisverkon tarkoituksena on helpottaa (hyvin arvoltaan vähäisiä) mikrotransaktioita, jotka olisivat muuten epäkäytännöllisiä korkeiden maksujen ja pitkien vahvistusaikojen vuoksi Bitcoin-lohkoketjussa.
 
 ### Mitkä ovat verkon käyttötapaukset?
 
-Tämä teknologia avaa oven laajalle valikoimalle potentiaalisia sovelluksia Bitcoinille, jotka aiemmin olivat saavuttamattomissa Bitcoinin turvallisuuden ja hajautuksen varmistamiseen tarvittavien rajoitusten vuoksi. Näihin jokapäiväisen elämän sovelluksiin voimme mainita välittömän laskutuksen kaupassa (sekä fyysisessä että verkossa), rahansiirron reaaliaikaisesti ja mikro-lahjoitukset sisällölle. Lähes välittömien, turvallisten ja edullisten transaktioiden (keskimäärin alle 0,5%) verkoston käyttöönoton myötä monet aiemmin kuvittelemattomat liiketoimintamallit voidaan toteuttaa. Tämä on mahdollista, koska Lightning-verkko käyttää satseja (bitcoinin desimaalia) toimiakseen.
+Tämä teknologia avaa oven monenlaisille mahdollisille Bitcoinin sovelluksille, jotka olivat aiemmin saavuttamattomissa, koska Bitcoinin turvallisuuden ja hajauttamisen varmistamiseksi tarvittavien rajoitusten vuoksi. Näistä jokapäiväisistä käyttötapauksista voidaan mainita välitön laskutus sekä fyysisessä että verkkokaupassa, streaming-rahoitus reaaliaikaisia maksuja varten ja mikrolahjoitukset sisällöntuottajille. Kun mahdollistetaan lähes välittömien, turvallisten ja edullisten (keskimäärin alle 0,5 %) transaktioiden verkko, voidaan toteuttaa monia aiemmin käsittämättömiä liiketoimintamalleja. Tämä on mahdollista, koska Salamaverkko toimii satosheilla (sats), jotka ovat Bitcoinin pienin yksikkö.
 
-![kuva](assets/en/82.webp)
+![image](assets/en/82.webp)
 
-Videopeliala tarjoaa erityisen mielenkiintoisen esimerkin siitä, miten Lightning-verkkoa voidaan käyttää olemassa olevien liiketoimintamallien muuttamiseen. "Skin in the game" -konsepti on idea, joka on äskettäin saanut suosiota tässä yhteydessä. Se tarkoittaa käytännössä taloudellisen panoksen asettamista pelin lopputulokseen.
-Lightning-verkko mahdollistaa pelaajien panostaa hyvin pieniä rahasummia pelatessaan, kuten muutama satoshi (noin murto-osa eurosentistä). Tämä mahdollistaa panoksen asettamisen, mikä stimuloi kilpailua samalla merkittävästi lisäten bottien käyttöönoton kustannuksia.
+Videopeliteollisuus on erityisen mielenkiintoinen esimerkki siitä, miten Lightning Networkin avulla voidaan muuttaa nykyisiä liiketoimintamalleja. "Pelissä mukana olemisen" käsite on ajatus, joka on viime aikoina saavuttanut suosiota tässä yhteydessä. Kyse on lähinnä siitä, että pelaajalla on taloudellinen panos pelin lopputuloksesta. Itse asiassa Lightning Network mahdollistaa sen, että pelaajat voivat panostaa hyvin pieniä rahasummia pelatessaan pelejä, kuten muutaman satoshin (noin eurosentin murto-osan), ja luoda näin panoksen, joka stimuloi kilpailua ja lisää samalla merkittävästi bottien käyttökustannuksia.
 
-![kuva](assets/en/83.webp)
+![image](assets/en/83.webp)
 
-Yhteenvetona voidaan todeta, että Bitcoinin mikrotransaktioiden tulevaisuus näyttää lupaavalta innovaatioiden, kuten Lightning-verkon, ansiosta. Näiden teknologioiden jatkaessa kehittymistään ja kypsyessään voimme odottaa näkevämme uusia ja jännittäviä sovelluksia lähitulevaisuudessa. Otetaan esimerkiksi "rahan virtauttamisen" käsite. Lightning-verkon avulla voimme tehdä mikrotransaktioita joka minuutti (mahdollisesti ilman luotettua kolmatta osapuolta), mikä avaa oven kokeilla talousmalleja, joissa kuluttajat maksavat sisällöstä sen mukaan, mitä he kuluttavat.
+Yhteenvetona voidaan todeta, että mikrotransaktioiden tulevaisuus Bitcoinilla näyttää lupaavalta Lightning Networkin kaltaisten innovaatioiden ansiosta. Kun nämä teknologiat kehittyvät ja kypsyvät edelleen, voimme odottaa näkevämme lähitulevaisuudessa uusia ja jännittäviä sovelluksia.
 
-![kuva](assets/en/84.webp)
+![image](assets/en/84.webp)
 
-Tällaisessa järjestelmässä raha jaetaan automaattisesti, ennalta määritellyn prosenttiosuuden mukaan, palvelun tai tuotteen eri osallistujien kesken. Tämä voisi mullistaa tapamme ajatella maksu malleja. Esimerkiksi palvelusta maksettaisiin minuutti- tai jopa sekuntikohtaisesti sen sijaan, että käyttäjiltä perittäisiin kuukausittainen tilausmaksu. Tällainen talousmalli voisi olla merkittävä sisällöntuottajille, jotka olisivat motivoituneita tuottamaan laadukasta sisältöä pitääkseen käyttäjien huomion. Käyttäjät puolestaan maksaisivat vain kuluttamastaan sisällöstä, poistaen näin etukäteen maksettavat tilausmaksut. On jopa kuviteltavissa, että tätä järjestelmää voitaisiin käyttää tavaroiden vuokraamiseen.
+Toinen esimerkki voisi olla "rahan suoratoisto": Lightning Networkin kautta voimme tehdä mikrotransaktioita joka minuutti (mahdollisesti ilman luotettavaa kolmatta osapuolta), mikä avaa mahdollisuuden kokeilla taloudellisia malleja, joissa kuluttajat maksavat sisällöstä todellisen kulutuksen perusteella. On jopa mahdollista käyttää tätä järjestelmää tavaroiden vuokraamiseen. Tällaisessa järjestelmässä raha jaetaan automaattisesti ennalta määritellyn prosenttiosuuden perusteella palvelun tai tuotteen eri tuottajien kesken. Tämä voisi mullistaa tapamme ajatella maksumalleja: sen sijaan, että käyttäjä maksaisi palvelusta kuukausitilauksen, häneltä voitaisiin veloittaa minuutti- tai jopa sekuntipalkkio palvelua käyttämästään ajasta. Tällaisella taloudellisella mallilla voisi olla syvällisiä vaikutuksia sisällöntuottajiin, joita kannustettaisiin tuottamaan laadukasta sisältöä, jotta käyttäjien huomio säilyisi.
 
-![kuva](assets/en/85.webp)
-Yhteenvetona voidaan todeta, että Lightning Network avaa lukuisia jännittäviä käyttötapauksia Bitcoin-käyttäjille. Syntyvät taloudelliset mallit ja liiketoimintamahdollisuudet ovat lukuisia ja moninaisia. Kannustamme sinua kokeilemaan sitä itse kokeilemalla podcast-sovellusta [Fountain](https://www.fountain.fm/), joka mahdollistaa sinun saada palkkiona muutamia satosheja kuunnellessasi lempipodcastejasi!
+![image](assets/en/85.webp)
 
-
+Yhteenvetona voidaan todeta, että Lightning Network avaa Bitcoin-käyttäjille lukuisia mielenkiintoisia käyttötapoja. Tuloksena syntyvät taloudelliset mallit ja liiketoimintamahdollisuudet ovat lukuisia ja monipuolisia, ja kehotamme sinua tarkistamaan asian itse kokeilemalla podcast-sovellusta [Fountain](https://www.fountain.fm/), jonka avulla sinut voidaan palkita muutamalla satsilla suosikkipodcastien kuuntelemisesta!
 
 ## Punainen vai sininen pilleri?
 
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
-Kuten Morpheus sanoi Neolle: "Jos otat sinisen pillerin, tarina päättyy, heräät sängyssäsi ja uskot mitä haluat uskoa. Jos otat punaisen pillerin, pysyt Ihmemaassa, ja minä näytän kuinka syvälle kaninkolo johtaa." Oletko valmis tutkimaan Bitcoinin kaninkoloa? Ole varovainen, sillä saatat löytää uudelleen taloudellisen vapaudesi!
+Kuten Morfeus sanoi Neolle: "Otat sinisen pillerin, tarina loppuu, heräät sängyssäsi ja uskot mitä haluat uskoa. Jos otat punaisen pillerin, jäät Ihmemaahan, ja minä näytän sinulle, kuinka syvälle kaninkolo menee." Oletko valmis tutkimaan Bitcoinin kaninkuoppaa? Ole varovainen, sillä saatat löytää taloudellisen vapautesi uudelleen!
+
+### Teknologinen tulevaisuus ja sen vaikutukset
+
+Teknologia kehittyy räjähdysmäisesti, eikä kukaan voi ennustaa sen tulevaa kehitystä varmuudella. Maailmanlaajuiset yhteydet ja tekoäly kehittyvät jatkuvasti, ja tieto, jonka yksilö voi hankkia internetin välityksellä, muuttuu ajan mittaan yhä mittaamattomammaksi.
+
+Esimerkiksi tekoäly on jo ylittänyt ihmisen tason tai lähestyy sitä yhä useammilla aloilla, kuten videopeleissä, kuvien ja tekstien tuottamisessa ja tietojen analysoinnissa. Yksi mahdollinen seuraus on, että yli 80 prosenttia työpaikoista katoaa tekoälyn ja automaation myötä. Käytettävissämme on siis useita vaihtoehtoja, kuten teknologisen kehityksen hillitseminen tai tekoälyn luomien tuottavuushyötyjen tuoman pääoman kasvun hyödyntäminen.
+
+Meidän on esitettävä itsellemme joitakin olennaisia kysymyksiä:
 
 
-### Teknologinen tulevaisuus ja sen seuraukset
+- Miten hoidamme yhteiskunnan, jossa 80 prosenttia työpaikoista katoaa?
+- Miten elvytämme väestöä?
+- Tarvitaanko yhtä paljon opettajia?
+- Automaation geopoliittisia, poliittisia ja inhimillisiä seurauksia ei käsitellä riittävästi.
 
-Teknologia kehittyy eksponentiaalisesti, eikä kukaan voi ennustaa sen tulevia kehityksiä varmuudella. Maailman yhteydet ja tekoäly jatkavat kehittymistään. Yksilön internetin kautta saavuttama tieto muuttuu yhä mittaamattomammaksi ajan myötä.
+Tietotekniikka, internet, suoratoisto ja virtuaalitodellisuus muuttavat koulutusta. Meillä voisi olla kaikille ranskalaisille opiskelijoille tarkoitettu yleinen kurssi, jota hallitus hallinnoisi ja jonka opettajat eivät enää luennoisi vaan olisivat suoraan opiskelijoiden mukana. Lapset voisivat mennä virtuaalimaailmaan ja oppia historian oppimista.
 
-Otetaan esimerkiksi tekoäly. Nämä teknologiat ovat jo ylittäneet tai lähestyvät ihmisen suorituskykyä yhä useammalla alueella, kuten videopeleissä, kuvan ja tekstin tuotannossa ja datan analysoinnissa. Yksi mahdollinen seuraus on, että yli 80% työpaikoista katoaa tekoälyn ja automaation myötä. Meillä on useita vaihtoehtoja, kuten teknologisen edistyksen hillitseminen tai tuottavuuden kasvun luoman lisäpääoman hyödyntäminen tekoälyn avulla.
 
-Oleellisia kysymyksiä ovat:
-
-- Miten hallitsemme yhteiskuntaa, jossa 80% työpaikoista katoaa?
-- Miten elvytämme väestön?
-- Tarvitaanko yhtä monta opettajaa?
-- Automaation geopoliittisia, poliittisia ja inhimillisiä seurauksia ei keskustella riittävästi.
-  Tietokoneet, internet, suoratoisto ja VR muuttavat koulutusta. Voisimme olla yleinen kurssi kaikille Ranskan opiskelijoille, jota hallitus ja opettajat, jotka eivät enää luennoi, vaan seuraavat suoraan opiskelijoita, hallinnoivat. Lapset voisivat siirtyä virtuaalimaailmaan ja saada opastusta historian oppimisessa.
-
-- Missä on raja opettajan ja tekoälyn välillä?
+- Missä kulkee raja opettajan ja tekoälyn personifikaation välillä?
 - Miten voimme taata yhteiskunnan, joka elää vauraudessa?
 
-Nämä perustavanlaatuiset kysymykset tulevaisuudestamme on keskusteltava ja päätettävä yhdessä. Mutta mikä on yhteys Bitcoinin kanssa? Kuten internet viestintätapojen kohdalla, Bitcoin on teknologinen vallankumous uusien suuren mittakaavan järjestelytapojen osalta, tuoden meille mahdollisuuden vaihtaa arvoa ilman luotettua kolmatta osapuolta. Haluammeko estää rahajärjestelmän teknologisen kehityksen vai hyödyntää kymmenkertaista tuottavuusvoittoa käyttämällä Bitcoinia ja Lightning-protokollaa?
+Näistä tulevaisuuttamme koskevista peruskysymyksistä on keskusteltava ja niistä on päätettävä yhdessä.
 
-### Mikä on rahoituksen tulevaisus?
+Mikä on yhteys Bitcoiniin? Aivan kuten Internet mullisti viestintämuodot, Bitcoin edustaa teknologista vallankumousta uusille laajamittaisen organisoinnin muodoille, sillä sen avulla voimme vaihtaa arvoa luottamatta mihinkään luotettuun kolmanteen osapuoleen. Haluammeko estää rahajärjestelmän teknologisen kehityksen vai haluammeko hyödyntää pääoman kasvupotentiaalia Bitcoinin ja Lightning-protokollien käytön tarjoaman kymmenkertaisen tuottavuuskasvun avulla?
 
-Nämä pohdinnat herättävät myös kysymyksiä siitä, kenen tulisi hallita, valtuuttaa ja jäljittää käyttämäämme rahaa. Tavoitteena on päättää suljetun järjestelmän, jossa on valitsemattomia johtajia, ja avoimen järjestelmän, jossa ei ole luotettuja kolmansia osapuolia ja jossa vallitsee puolueettomuus, välillä.
+### Mikä on rahoituksen tulevaisuus?
 
-- Onko valuutta yksityisomaisuuden muoto?
-- Voivatko mielenosoittajien tilit olla estettyjä ilman Korkeimman oikeuden määräystä?
+Nämä seikat herättävät myös kysymyksiä siitä, kenen pitäisi säilyttää, valtuuttaa ja jäljittää käyttämämme rahat. Tavoitteena on päättää, onko kyseessä suljettu järjestelmä, jossa on valitsemattomia johtajia, vai avoin järjestelmä, jossa ei ole luotettavia kolmansia osapuolia ja jossa vallitsee puolueettomuus.
+
+
+- Onko raha yksityisomaisuuden muoto?
+- Voiko mielenosoittajien tilit estää ilman korkeimman oikeuden määräystä?
 - Kuka takaa rahoitusjärjestelmän?
-- Miten yksilö voi olla suvereeni rahansa suhteen ja luottaa luotettuun kolmanteen osapuoleen?
-- Voiko rahaa lähettää maailman toiselle puolelle ilman maksuja tai välittäjiä?
-  Uusien teknologioiden hyväksyminen voisi synnyttää valtavia mittakaavaetuja maailmanlaajuisesti. Pitäisikö pääoman vapaata liikkuvuutta sallia? Kansainvälisillä saartoilla on taloudellisia ja poliittisia seurauksia. Onko eettistä käyttää rahoitusvälittäjiä kuten Western Union, joka joskus veloittaa jopa 25% palkkioita? Uskomme, että yhä digitaalisemmassa maailmassa rahan tulisi olla demokratisoitua ja sitä tulisi pitää yhteisenä hyvänä, joka kuuluu ihmisille eikä valtiolle tai läpinäkymättömille rahoituslaitoksille.
-  Kysymys siitä, kuka tulisi hallita pankkijärjestelmää, on ratkaiseva, koska pankkitoiminnan säännöt eivät ole läpinäkyviä eikä ymmärrettäviä kaikille, mikä mahdollistaa poliitikkojen ja sääntelijöiden kastin pitää otteensa järjestelmästä. On tärkeää kyseenalaistaa, pitäisikö vapaan markkinan vai ryhmän intellektuelleja hallita pankkijärjestelmää.
+- Miten yksityishenkilö voi olla suvereeni rahojensa suhteen ja luottaa luotettuun kolmanteen osapuoleen?
+- Voiko rahaa lähettää toiselle puolelle maailmaa ilman maksuja tai välikäsiä?
 
-### Vapautemme ovat vaakalaudalla.
+Näiden uusien tekniikoiden hyväksyminen voisi tuottaa valtavia mittakaavaetuja maailmanlaajuisesti. Pitäisikö meidän sallia pääomavirtojen vapaa liikkuvuus? Kansainvälisillä kauppasuluilla on taloudellisia ja poliittisia seurauksia. Onko eettistä käyttää Western Unionin kaltaisia rahoituksen välittäjiä, jotka perivät joskus jopa 25 prosentin maksuja? Uskomme, että yhä digitaalisemmassa maailmassa raha olisi demokratisoitava ja sitä olisi pidettävä yhteisenä hyödykkeenä, joka kuuluu ihmisille eikä valtiolle tai vaikeaselkoisille rahoituslaitoksille.
 
-Myös sensuuria on kyseenalaistettava, sillä kuka tietää, mikä tulisi sensuroida tai ei? Media on muuttanut kantaansa tietyistä tiedoista ja ihmisistä, jotka aiemmin sensuroitiin, eivät ole enää sensuurin kohteena tänään.
+Kysymys siitä, kenen pitäisi valvoa pankkijärjestelmää, on ratkaisevan tärkeä, koska pankkialan pelisäännöt eivät ole avoimia ja ymmärrettäviä kaikille, mikä antaa poliitikkojen ja sääntelyviranomaisten kastille mahdollisuuden säilyttää otteensa järjestelmästä, joten on tärkeää kysyä, pitäisikö vapaiden markkinoiden vai älymystön ryhmän hallita sitä.
 
-- Kuka päättää, mikä on sensuuria tai propagandaa?
-- Kenellä on jumalallinen ote järjestelmäämme?
+### Vapautemme on vaakalaudalla.
 
-Sensuurin sietäminen voi tuhota sananvapauden ja kokoontumisvapauden. Sensuurin toteuttaminen on teknisesti vaikeaa luomatta täydellistä dystopiaa. Mikä taho tulisi olla sensuurin vallassa? Sensuurin kysymys on monimutkainen, ja on vaikea tietää, kuka tulisi sensuroida tai ei. Sensuurilla voi olla kielteinen vaikutus innovaatioihin ja yrittämisen vapauteen.
+Sensuuria on myös kyseenalaistettava: kenellä on tietoa päättää, mitä pitäisi sensuroida ja mitä ei? Tiedotusvälineet ovat muuttaneet kantaansa tiettyihin tietoihin, ja niitä, joita ennen sensuroitiin, ei enää nykyään sensuroida.
 
-Maailmassa on 2,4 miljardia ihmistä ilman pankkitiliä, mikä väistämättä luo maantieteellisiä epätasa-arvoisuuksia. Bitcoin mahdollistaa yhdenvertaiset transaktiot riippumatta sosiaalisesta asemasta tai poliittisesta asemasta. Bitcoin-protokolla on apoliittinen eikä anna erityisoikeuksia presidentille tai muille toimijoille. Johtajien tulisi saada samat oikeudet kuin tavallisilla ihmisillä edistääkseen kehitystä ylöspäin sen sijaan, että jotkut jätetään huipulle ja toiset pohjalle. Pitäisikö kaikilla olla sama valuutta riippumatta sosiaalisesta asemasta? On tärkeää miettiä, millaisen maailman haluamme jättää lapsillemme. Haluamme jättää avoimen maailman, jossa he ovat vapaita tekemään mitä haluavat rahoillaan.
 
-Bitcoin on tärkeä eikä sitä tulisi pitää pelkkänä uhkapelinä. On ratkaisevan tärkeää jatkaa Bitcoinia koskevien kysymysten esittämistä.
+- Kuka päättää, mikä on sensuuria ja mikä propagandaa?
+- Kenellä on jumalallinen käsi järjestelmässämme?
+
+Uskomme vahvasti, että sensuurin suvaitseminen voi tuhota sananvapauden ja kokoontumisoikeuden, koska sillä voi olla kielteinen vaikutus innovointiin ja vapaaseen tahtoon. Sensuurin määrääminen on teknisesti vaikeaa luomatta täydellistä dystopiaa. Millä taholla pitäisi siis olla sensuurivaltaa? Asia on monimutkainen, ja on myös vaikea päättää, kenen pitäisi rajoittaa tai olla rajoittamatta.
+
+Maailmassa on 2,4 miljardia ihmistä, joilla ei ole pankkitiliä, mikä luo väistämättä maantieteellistä epätasa-arvoa. Toisaalta Bitcoin mahdollistaa tasa-arvoiset maksutapahtumat riippumatta sosiaalisesta asemasta tai poliittisesta asemasta. Protokolla on epäpoliittinen, eikä se myönnä erityisiä etuoikeuksia johtajille tai muille vaikutusvaltaisille henkilöille. Näin varmistetaan, että kaikilla on samat mahdollisuudet viedä kehitystä eteenpäin sen sijaan, että muutamat pysyvät huipulla muiden jäädessä jälkeen. Pitäisikö kaikilla olla mahdollisuus käyttää samaa valuuttaa yhteiskunnallisesta asemasta riippumatta? On tärkeää miettiä, millaisen maailman haluamme jättää lapsillemme, ja pyrimme luomaan avoimen maailman, jossa he voivat vapaasti hallita rahojaan haluamallaan tavalla.
+
+Bitcoin on tärkeä, eikä sitä pitäisi pitää pelkkänä uhkapelinä, joten on tärkeää kysyä jatkuvasti kysymyksiä Bitcoinista ja sen vaikutuksista maailmaan.
 
 ### Bitcoin: vallankumouksellinen protokolla
 
-Kuten edellisessä luvussa näimme, Bitcoin-protokolla on neutraali kaikkia käyttäjiään kohtaan. Konsensus sääntöjen ja kryptografian ansiosta voimme kirjata transaktioita muuttumattomasti maailmanlaajuiseen julkiseen kirjanpitoon, taaten rahansiirrot ilman luotettua kolmatta osapuolta. Toisen kerroksen infrastruktuuri (ja pian kolmas kerros, RGB:n kanssa) mahdollistaa verkon skaalautuvuuden ja uusien toiminnallisuuksien kehittämisen, erityisesti skaalausongelmien ratkaisemiseksi.
+Kuten edellisessä luvussa todettiin, Bitcoin-protokolla on neutraali kaikkia käyttäjiään kohtaan. Konsensussääntöjen ja kryptografian ansiosta voimme tallentaa transaktiot muuttumattomasti globaaliin julkiseen pääkirjaan, mikä takaa rahanarvon siirrot ilman luotettavaa kolmatta osapuolta. Toisen kerroksen infrastruktuuria (ja pian myös kolmatta kerrosta RGB:n myötä) käytetään verkon skaalautuvuuteen ja uusien toimintojen kehittämiseen.
 
-Bitcoinilla on kaikki tarvittavat ominaisuudet tehokkaaksi ja terveeksi valuutaksi: jaettavissa, välittömästi siirrettävissä, sensuroimaton, vahvistuskustannukset ovat merkityksettömät, ja sillä on jo vuosisatoja kestävä rahapolitiikka näiden 21 miljoonan yksikön kanssa. Bitcoin on pseudonyymi ja sitä voidaan vaihtaa missä päin maailmaa tahansa ilman minkään tahon lupaa, tarvitset vain omat yksityiset avaimet - kuten sanonta kuuluu "Ei sinun avaimiasi, ei sinun bitcoinejasi".
+Bitcoinilla on kaikki tarvittavat ominaisuudet ollakseen tehokas ja terve valuutta: se on jaettavissa, välittömästi siirrettävissä, sensuroimaton, sen todentamiskustannukset ovat vähäiset, ja sen rahapolitiikka on jo asetettu 21 miljoonaan yksikköön vuosisatojen ajan. Bitcoin on pseudonyymi, ja sitä voidaan vaihtaa missä tahansa maailmassa ilman minkään tahon lupaa. Sinun on vain pidettävä hallussasi omat yksityiset avaimesi ja muistettava sanonta "Not your keys, not your bitcoins".
 
-Bitcoinia käyttävät monenlaiset ihmisryhmät, kryptografeista libertaareihin perinteisiin yrityksiin ja jopa maahan. Bitcoin on kuitenkin kaikille, ja sen käyttäjien määrä kasvaa, samoin kuin Bitcoin-noodien määrä, jotka toimivat transaktiohistorian vartijoina, varmistaen sen hajauttamisen.
-Bitcoinia ei voi enää pysäyttää eikä sensuroida. Se on rauhanomainen vallankumous, jonka tavoitteena on muuttaa rahajärjestelmää ja mahdollistaa taloudellinen osallisuus. Käyttäjät voivat hankkia bitcoineja hyväksymällä niitä kaupankäynnissä tai ostamalla niitä säänneltyjen tai sääntelemättömien alustojen kautta. Bitcoineja voidaan säilyttää lompakoissa, mobiilisovelluksissa tai fyysisissä laitteissa. Bitcoinissa ei ole luotettua välittäjää, ja se kannattaa avoimuutta, vapautta ja yksilön vastuuta - kuten sanonta kuuluu "Älä luota, varmista".
+Sen ovat ottaneet käyttöön erilaiset ihmisryhmät salakirjoittajista libertaareihin, perinteisiin yrityksiin ja jopa kokonaisiin maihin. Bitcoin on kuitenkin tarkoitettu kaikille, ja käyttäjien määrän kasvaessa kasvaa myös Bitcoin-solmujen määrä, jotka toimivat transaktiohistorian vartijoina ja varmistavat sen hajautumisen.
 
-Rahoitusjärjestelmän muuttaminen edellyttää valuutan muuttamista. Satoshi loi Bitcoinin vuonna 2008 ehdottaakseen yritystä tähän. Helppoon ja "taianomaiseen" rahaan pääsy turmelee. Bitcoin on siis vaihtoehto uuden neutraalin rahajärjestelmän rakentamiseen. Bitcoin mahdollistaa irtautumisen pankkijärjestelmästä. Se on sosiaalinen ilmiö, joka johdattaa meidät osallistumaan rauhanomaiseen vallankumoukseen. Oletko valmis liittymään?
+Bitcoinia ei voi enää pysäyttää eikä sensuroida. Se on rauhanomainen vallankumous, joka muuttaa rahajärjestelmää ja mahdollistaa taloudellisen osallisuuden. Käyttäjät voivat hankkia bitcoineja hyväksymällä niitä kaupankäyntiin tai ostamalla niitä säänneltyjen tai sääntelemättömien alustojen kautta. He voivat säilyttää varoja lompakoissaan, mobiilisovelluksissaan tai fyysisissä laitteissaan ilman luotettavia välittäjiä. Bitcoin kannattaa avoimuutta, vapautta ja yksilön vastuuta: kuten sanonta kuuluu: "Don't Trust, Verify".
 
-# Yhteenveto
+Satoshi loi Bitcoinin vuonna 2008 ehdottaakseen rahoitusjärjestelmän muuttamista muuttamalla valuuttaa, koska hän tiesi, että helppo ja "maaginen" raha johtaa helposti korruptioon. Bitcoin on siis vaihtoehto uuden neutraalin rahajärjestelmän rakentamiseksi, sillä se mahdollistaa vapautumisen pankkijärjestelmästä. Loppujen lopuksi se on sosiaalinen ilmiö, joka kannustaa meitä osallistumaan rauhanomaiseen vallankumoukseen.
+
+Oletko valmis liittymään?
+
+# Päätelmä
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-## Arviot & Arvosanat
+## Arvostelut & arvostelut
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+
 <isCourseReview>true</isCourseReview>
 
 ## Loppukoe
 
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+
 <isCourseExam>true</isCourseExam>
 
-## Yhteenveto
+## Päätelmä
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+
 <isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,9 @@
+question: How do Enterprise systems update inventory automatically?
+answer: Through workflow triggers
+wrong_answers:
+  - Manual updates
+  - End-of-day uploads
+  - Scheduled reports
+explanation: |
+  Workflow triggers update systems in real time.
+reviewed: false

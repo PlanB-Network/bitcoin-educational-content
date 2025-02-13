@@ -1,0 +1,9 @@
+question: Apa fungsi utama mata uang?
+answer: Bertindak sebagai perantara yang menyederhanakan pertukaran nilai
+wrong_answers:
+  - Untuk menyimpan nilai intrinsik dalam bentuk fisik
+  - Untuk menggantikan barter sepenuhnya dengan pertukaran barang dengan barang secara langsung
+  - Untuk memusatkan semua transaksi ekonomi melalui otoritas tunggal
+explanation: |
+  Mata uang menyederhanakan perdagangan dengan berfungsi sebagai media umum yang mengurangi jaringan nilai tukar yang rumit yang diperlukan dalam sistem barter, sehingga memfasilitasi transaksi yang lebih mudah.
+reviewed: false

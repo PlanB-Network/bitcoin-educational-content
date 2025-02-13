@@ -1,0 +1,9 @@
+question: Který detail NENÍ explicitně zdokumentován v typickém souboru csv transakce bitcoinu, jak je popsáno v kurzu?
+answer: Použitý typ skriptu
+wrong_answers:
+  - Datum transakce
+  - Ekvivalentní hodnota fiat
+  - Příslušné adresy Bitcoin
+explanation: |
+  Typický soubor csv s bitcoinovými transakcemi obvykle uvádí datum, částku, fiat ekvivalent a bitcoinové adresy, ale nikoli typ použitého skriptu.
+reviewed: false

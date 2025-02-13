@@ -1,0 +1,9 @@
+question: Fitur apa yang membuat solusi Swiss Bitcoin Pay sangat cocok untuk bisnis kecil di profil Essential?
+answer: Aplikasi PoS yang mudah digunakan
+wrong_answers:
+  - Fitur perdagangan multi-mata uang yang canggih
+  - Manajemen dompet multi-tanda tangan
+  - Integrasi analitik blockchain penuh
+explanation: |
+  Swiss Bitcoin Pay dirancang dengan antarmuka PoS yang sederhana yang menyederhanakan operasi sehari-hari.
+reviewed: false

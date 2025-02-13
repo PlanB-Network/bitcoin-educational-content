@@ -1,0 +1,8 @@
+question: RGB契約を定義する4つの要素とは？
+answer: ジェネシス、スキーマ、インターフェイス、インターフェイスの実装
+wrong_answers:
+  - ジェネシス、スキーマ、トランジション、インターフェイスの実装
+  - ジェネシス、インターフェイス、トランジション、エクステンション
+  - 創世記、インターフェイス、インターフェイスの実装と拡張
+  An RGB contract is made up of four distinct elements: Genesis, Schema, Interface and Interface Implementation.
+reviewed: false

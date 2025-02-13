@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari alat bantu akuntansi khusus Bitcoin?
+answer: Untuk menyederhanakan pengumpulan dan pemrosesan data terkait Bitcoin secara otomatis
+wrong_answers:
+  - Untuk meningkatkan keamanan kunci pribadi Bitcoin
+  - Untuk memfasilitasi perdagangan langsung Bitcoin di bursa terdesentralisasi untuk bisnis
+  - Untuk menyiapkan sistem PoS untuk menerima pembayaran Bitcoin
+explanation: |
+  Alat-alat ini dirancang untuk mengotomatiskan pengumpulan data, konversi format, penghitungan pajak, dan kategorisasi transaksi.
+reviewed: false

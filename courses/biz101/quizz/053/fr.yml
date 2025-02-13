@@ -1,0 +1,9 @@
+question: Quels sont les détails clés du paiement qui doivent être documentés pour chaque transaction en bitcoins ?
+answer: La date, le montant, la contre-valeur en monnaie fiduciaire et les adresses associées
+wrong_answers:
+  - L'identifiant de la transaction, les frais de réseau et l'adresse du commerçant
+  - La date, le taux de change, le type de portefeuille et la localisation géographique
+  - Le numéro de bloc Bitcoin, l'horodatage et le script utilisé
+explanation: |
+  La documentation de ces détails garantit la clarté et aide les comptables à différencier les flux entrants et sortants.
+reviewed: false

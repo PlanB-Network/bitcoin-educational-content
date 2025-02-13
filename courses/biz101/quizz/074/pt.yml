@@ -1,0 +1,9 @@
+question: Que caraterísticas de segurança avançadas são normalmente implementadas a nível empresarial para bitcoins?
+answer: Assinatura múltipla com relógios de ponto
+wrong_answers:
+  - Proteção por palavra-passe para uma carteira Lightning móvel
+  - Single-sig com proteção de frase-chave BIP39
+  - Sigla única com frase-semente de 24 palavras
+explanation: |
+  As medidas de alta segurança, como as configurações com várias assinaturas e os relógios de ponto, são cruciais para a gestão de grandes montantes.
+reviewed: false

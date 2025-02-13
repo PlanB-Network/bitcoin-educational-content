@@ -1,0 +1,9 @@
+question: Které dva typy peněženek se zohledňují v profilu Starter?
+answer: Opatrovnické a neopatrovnické peněženky Lightning
+wrong_answers:
+  - Hot a cold storage Bitcoin peněženky
+  - Multisig a papírové peněženky Bitcoin
+  - Hardware a mozkové peněženky Lightning
+explanation: |
+  Profil Starter používá buď úschovné, nebo neúschovné peněženky Lightning.
+reviewed: false

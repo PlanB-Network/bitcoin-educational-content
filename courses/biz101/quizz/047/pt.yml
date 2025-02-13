@@ -1,0 +1,9 @@
+question: Porque é que a escassez é uma propriedade essencial de uma boa moeda?
+answer: Preserva o valor
+wrong_answers:
+  - Garante que apenas os activos físicos podem ser utilizados como moeda
+  - Assegura que a moeda está amplamente disponível para todos os indivíduos
+  - Garante que a moeda deve ser sempre apoiada por uma mercadoria como o ouro
+explanation: |
+  A escassez impede a criação excessiva de moeda, mantendo assim o seu valor e poder de compra ao longo do tempo.
+reviewed: false

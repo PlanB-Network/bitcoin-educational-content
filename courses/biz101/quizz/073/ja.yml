@@ -1,0 +1,9 @@
+question: エンタープライズ・ビットコイン・システムとERPソフトウェア間のリアルタイムデータ同期を可能にするものは何か？
+answer: API
+wrong_answers:
+  - CSVファイル
+  - 一括アップロード
+  - メールレポート
+explanation: |
+  APIは継続的なリアルタイムの統合を可能にする。
+reviewed: false

@@ -1,0 +1,9 @@
+question: 哪个开源软件适用于专业比特币支付系统？
+answer: BTC 支付服务器
+wrong_answers:
+  - 瑞士比特币支付
+  - 开放节点
+  - 比特币化 PoS
+explanation: |
+  由于 BTC Pay Server 具有广泛的集成选项和控制功能，因此在课程中被强调为专业设置的核心开源解决方案。
+reviewed: false

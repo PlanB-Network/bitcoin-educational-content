@@ -1,0 +1,9 @@
+question: Which alternative solution is mentioned for businesses that prefer an all-in-one online retail environment?
+answer: Be-BOP
+wrong_answers:
+  - Phoenix
+  - Open Node
+  - Swiss Bitcoin Pay
+explanation: |
+  Be-BOP is as an option for those who desire an integrated online e-store that facilitates Bitcoin payments.
+reviewed: false

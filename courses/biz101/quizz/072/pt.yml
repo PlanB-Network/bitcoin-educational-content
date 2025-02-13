@@ -1,0 +1,9 @@
+question: Como é que os sistemas empresariais actualizam automaticamente o inventário?
+answer: Através de accionadores de fluxo de trabalho
+wrong_answers:
+  - Actualizações manuais
+  - Carregamentos de fim de dia
+  - Relatórios programados
+explanation: |
+  Os accionadores do fluxo de trabalho actualizam os sistemas em tempo real.
+reviewed: false

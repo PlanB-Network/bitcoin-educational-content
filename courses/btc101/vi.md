@@ -1,1303 +1,1415 @@
 ---
-name: Hành Trình Bitcoin
-goal: Khám phá Bitcoin và các nguyên tắc cơ bản của nó, bao gồm đề xuất giá trị tiền tệ, các thợ đào, giao dịch, và ví tiền.
-objectives:
-  - Hiểu biết tổng quan về công nghệ Bitcoin
-  - Hiểu cách mua và bảo mật bitcoin
-  - Có kiến thức tổng quan về công nghệ Blockchain
-  - Làm quen với khái niệm về Mạng Lưới Lightning
-  - Nhận thức được tác động địa chính trị và xã hội của Bitcoin
+name: The Bitcoin Journey
+goal: Discover Bitcoin fundamentals, including its monetary value proposition, miners, transactions, and wallets.
+objectives: 
+
+  - Gain a general understanding of the Bitcoin technology
+  - Understand how to buy and secure bitcoins
+  - Have a general understanding of the Blockchain technology
+  - Familiarize with the concept of Lightning Network
+  - Realize the geopolitical and social impact of Bitcoin
+
 ---
+# Your First Bitcoin Adventure
 
-# Cuộc Phiêu Lưu Bitcoin Đầu Tiên của Bạn
+In this course, we will explain the basics of Bitcoin in 25 chapters, so that you can understand this technology in a simple and effective way. The course explores the basics of the industry as a whole, including topics like mining, wallets, buying/selling platforms, and more. Additional educational material will be available throughout the journey, and we also invite you to check the "21 Posters" in the resources section after you finish this course.
 
-Trong khóa học này, tôi sẽ giải thích Bitcoin qua 25 chương để bạn có thể hiểu công nghệ này một cách đơn giản và hiệu quả. Khóa học mở cửa cho tất cả mọi người và khám phá toàn bộ ngành: các thợ đào, ví tiền, nền tảng mua/bán, v.v...
-
-Khóa học sẽ mất khoảng 15 giờ. Trong suốt hành trình, các poster giải thích và nguồn tài nguyên bổ sung sẽ có sẵn.
-
-Bạn không cần bất kỳ kiến thức cụ thể nào để bắt đầu, khóa học mở cửa cho tất cả mọi người!
+You don't need any specific knowledge to get started. In fact, the following content is accessible to students of all levels, and it should take approximately 15 hours to finish.
 
 +++
-
-# Giới Thiệu
+# Introduction
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Bước Nhảy Vào Vô Định
+## A Leap into the Unknown
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Chào mừng đến với một kỷ nguyên tiền tệ và công nghệ mới.
+### Welcome to a new monetary and technological paradigm.
 
-Bitcoin là một đổi mới đáng kể vượt ra ngoài một "tiền tệ internet" đơn giản. Đó là một cuộc cách mạng cả về công nghệ lẫn tiền tệ, có khả năng đặt câu hỏi về mối quan hệ của chúng ta với tiền tệ và xã hội. Bitcoin là một loại tiền tệ **trung lập** và **phi tập trung**, nghĩa là nó không được kiểm soát bởi bất kỳ thực thể hay tổ chức nào. Đây là một đổi mới đáng kể vượt ra ngoài một đơn vị tiền tệ đơn thuần. Để hiểu về bitcoin nổi tiếng này, điều quan trọng là phải hiểu rằng bitcoin (được gọi là BTC) vừa là một giao thức máy tính (Bitcoin) vừa là một đơn vị tiền tệ (bitcoin).
+Bitcoin is a technological and a monetary revolution, capable of making us question our relationship with money and society. In fact, Bitcoin (referred to as BTC) is a **neutral** and **decentralized** currency, which means that it is not controlled by any entity or institution. It is an innovation that goes beyond a mere "internet currency": it is both a computer protocol (Bitcoin) and a monetary unit (bitcoin).
 
-Giao thức sử dụng các công nghệ cơ bản như mã hóa, giao tiếp mạng và "blockchain" nổi tiếng, trong khi đơn vị bitcoin là tiền tệ cần thiết cho sự hoạt động đúng đắn của chính giao thức này. Trong cuộc sống hàng ngày, người dân Salvador hoặc các bitcoiner trên toàn thế giới sử dụng tiền tệ bitcoin để mua và bán hàng hóa và dịch vụ, với tiền tệ dựa vào giao thức Bitcoin để hoạt động.
+The protocol uses underlying technologies such as cryptography, network communication, and the famous "blockchain", while the bitcoin unit serves as the necessary currency for the proper functioning of this protocol. In everyday life, Salvadorians and bitcoiners around the world use the bitcoin currency to buy and sell goods and services, relying on this technology to make their lives better.
 
-### Một chương trình học toàn diện nhưng dễ tiếp cận
+### A comprehensive yet accessible curriculum
 
-Trong khóa học này, chúng ta sẽ thảo luận về các khía cạnh tiền tệ của Bitcoin, bao gồm cách mua và bán bitcoin, lưu trữ chúng một cách an toàn trong ví điện tử, và sử dụng chúng cho giao dịch. Chúng ta cũng sẽ xem xét vai trò của các thợ đào, những người thiết yếu cho việc tạo ra bitcoin mới và bảo vệ mạng lưới Bitcoin. Ngoài ra, chúng ta sẽ khám phá tương lai của Bitcoin và cách công nghệ Mạng Lưới Lightning có thể cải thiện giao dịch Bitcoin.
+In this course, we will discuss some monetary aspects of Bitcoin, including how to buy and sell bitcoins, securely store them in digital wallets, and use them for transactions. We will also examine the role of miners, who are essential for creating new bitcoins and securing the Bitcoin network. Finally, we will explore the future of Bitcoin and how the Lightning Network technology can improve Bitcoin transactions.
 
 ![image](assets/en/01.webp)
 
-Quan trọng là phải hiểu rằng Bitcoin là một hệ thống tiền tệ mới làm cách mạng hóa mối quan hệ của chúng ta với tiền bạc. Học cách sử dụng Bitcoin là một kỹ năng thiết yếu cho bất kỳ ai muốn kiểm soát tiền của mình.
+It is essential to understand that Bitcoin is a new monetary system that completely changes our relationship with money, so learning how to use it is a necessary skill for anyone who wants to be in control of their own funds.
 
-**Phần 1 - Tiền Tệ**
+**Section 1 - Money**
 
-- Chương 1 - Tiền là gì?
-- Chương 2 - Tiền Fiat
-- Chương 3 - Lạm phát cực độ
-- Chương 4 - Chính sách tiền tệ của Bitcoin
 
-**Phần 2 - Ví Bitcoin**
+- Chapter 1 - What is money?
+- Chapter 2 - Fiat money
+- Chapter 3 - Hyperinflation
+- Chapter 4 - Bitcoin monetary policy
 
-- Chương 5 - Ví Bitcoin hoạt động như thế nào?
-- Chương 6 - Chọn lựa an ninh của bạn
-- Chương 7 - Thiết lập ví của bạn
-- Chương 8 - Bảo vệ khỏi thời gian
+**Section 2 - Bitcoin Wallets**
 
-**Phần 3 - Các khía cạnh kỹ thuật của Bitcoin**
 
-- Chương 9 - Giải thích một giao dịch
-- Chương 10 - Các nút Bitcoin
-- Chương 11 - Các thợ đào
-- Chương 12 - Thợ đào và môi trường
+- Chapter 5 - How do Bitcoin wallets work?
+- Chapter 6 - Choosing your security
+- Chapter 7 - Setting up your wallet
+- Chapter 8 - Safeguarding against time
 
-**Phần 4 - Tiết kiệm bằng Bitcoin**
+**Section 3 - Technical features of Bitcoin**
 
-- Chương 13 - Giá Bitcoin
-- Chương 14 - Cách mua Bitcoin
-- Chương 15 - Làm việc để nhận Bitcoin
-- Chương 16 - Hyper-bitcoinization
 
-**Phần 5 - Mạng Lưới Lightning**
+- Chapter 9 - What is a transaction?
+- Chapter 10 - Bitcoin nodes
+- Chapter 11 - Miners
+- Chapter 12 - Miners and ecology
 
-- Chương 17 - Giới thiệu về Mạng Lưới Lightning
-- Chương 18 - Các trường hợp sử dụng cho Mạng Lưới Lightning
-  Trước khi thảo luận về định nghĩa và chức năng của tiền tệ trong xã hội (Chương 1), chúng ta bắt đầu với nguồn gốc của Bitcoin. Bitcoin là một công nghệ tương đối mới, được ra mắt vào năm 2009, khác biệt hoàn toàn so với bất kỳ thứ gì khác. Do đó, việc không hiểu mọi thứ ngay lập tức là điều bình thường. Thực tế, giống như khi học cách sử dụng Internet hoặc một chiếc xe hơi, bạn không cần biết tất cả các chi tiết kỹ thuật để sử dụng Bitcoin (nhận, thanh toán, bảo mật quỹ của mình).
-  ![image](assets/en/02.webp)
+**Section 4 - Saving in Bitcoin**
 
-Mục tiêu quan trọng ở đây chủ yếu là hiểu về công nghệ mới này một cách tổng quát. Chúng tôi hy vọng rằng khóa học này sẽ làm bạn hài lòng và cung cấp cho bạn nền tảng cần thiết để hiểu và có thể tiếp tục tiến bộ trong khuôn khổ tiền tệ toàn cầu mới này.
 
-## Tiền sử của Bitcoin
+- Chapter 13 - Bitcoin price
+- Chapter 14 - How do you buy Bitcoin?
+- Chapter 15 - Working for Bitcoin
+- Chapter 16 - Hyper-bitcoinization
+
+**Section 5 - Lightning Network**
+
+
+- Chapter 17 - Introduction to the Lightning Network
+- Chapter 18 - Use cases for the Lightning Network
+
+Before introducing the definition of money and its function in society (Chapter 1), we should start from the genesis of Bitcoin. Launched in 2009, Bitcoin is a relatively new technology that is different to anything else. It is therefore normal not to understand everything about it, all at once. In fact, just like when learning how to use the Internet or to drive a car, you don’t need to know all the technical details right away: you can start by learning how to receive, pay, and secure your funds, and then take small steps to study it more deeply.
+
+After all, we are only at the beginning stages of its adoption, as we have passed the takeoff phase: you are just in time to acquire as much knowledge as you wish regarding this important innovation.
+
+![image](assets/en/02.webp)
+
+The important point here is to understand this new technology in a general way, so we hope you enjoy this course and continue to make progress in this new global monetary paradigm.
+
+## The Prehistory of Bitcoin
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
-Trước khi thuật ngữ "Bitcoin" trở nên đồng nghĩa với tiền tệ số và sự biến đổi tài chính, một loạt ý tưởng, đổi mới và phong trào xã hội đã đặt nền móng cho sự ra đời của nó. Một trong những yếu tố cơ bản của tiền sử Bitcoin này là phong trào cypherpunk.
+Before the term "Bitcoin" became synonymous with digital currency and financial transformation, the groundwork for its creation was laid by a series of ideas, innovations, and social movements. Among these, the cypherpunk movement stands out as a key element in the prehistory of Bitcoin.
 
-### Cypherpunks: Những Tầm Nhìn Gia Của Thế Giới Số
+### Cypherpunks: visionaries of the digital world
 
 ![image](assets/en/03.webp)
-Trong trái tim của sự phát triển công nghệ của những năm 1980 và 1990, một nhóm người bắt đầu đặt câu hỏi sâu sắc về vai trò của quyền riêng tư và tự do trong thời đại số. Những cá nhân này, sau này được biết đến với tên gọi "cypherpunks," tin tưởng mạnh mẽ rằng mật mã học có thể phục vụ như một công cụ để bảo vệ quyền cá nhân chống lại sự can thiệp từ chính phủ và các tập đoàn lớn.
 
-Những nhân vật biểu tượng như Julian Assange, Wei Dai, Tim May, và David Chaum đã đóng góp vào việc định hình triết lý và tầm nhìn của cypherpunks. Những người tư duy này đã chia sẻ ý tưởng của mình trong một danh sách thư tác động mạnh mẽ, nơi các thành viên từ khắp nơi trên thế giới tranh luận về cách tốt nhất sử dụng công nghệ để đảm bảo tự do cá nhân lớn hơn.
+In the heart of the technological evolution of the 1980s and 1990s, a group of people began to deeply question the role of privacy and freedom in the digital age. These individuals, who would later be known as "cypherpunks", firmly believed that cryptography could serve as a tool to protect individual rights against the interference from governments and large corporations.
 
-### Ba Văn Bản Cột Trụ của Cypherpunks
+Iconic figures such as Julian Assange, Wei Dai, Tim May, and David Chaum played a pivotal role in shaping the philosophy and vision of the movement. These thinkers shared their ideas on an influential mailing list, where participants from around the globe engaged in debates about the best ways to leverage technology for greater individual freedom.
+
+### The three fundamental papers of the Cypherpunks
 
 ![image](assets/en/04.webp)
 
-Phong trào cypherpunk, với những rễ sâu trong hoạt động kỹ thuật số và mật mã học, dựa vào một số văn bản cơ bản để biểu đạt nguyên tắc và tầm nhìn về tương lai của mình. Trong số các bài viết này, ba bài nổi bật đặc biệt:
+The cypherpunk movement, deeply rooted in digital activism and cryptography, drew upon several foundational texts to articulate its principles and vision for the future. Among these writings, three stand out in particular:
 
-- "Bản Tuyên Ngôn Cypherpunk":
-  Được viết bởi Eric Hughes vào năm 1993, "Bản Tuyên Ngôn Cypherpunk" khẳng định rằng quyền riêng tư là một quyền cơ bản. Hughes lập luận rằng khả năng giao tiếp tự do và kín đáo là cần thiết cho một xã hội tự do. Bản tuyên ngôn tuyên bố, "Chúng ta không thể mong đợi các tổ chức, công ty, hoặc các thực thể vô nhân cách khác sẽ ban cho chúng ta quyền riêng tư... Chúng ta phải tự bảo vệ nó."
 
-- "Bản Tuyên Ngôn Crypto-Anarchist":
-  Được viết bởi Timothy C. May vào năm 1992, bản tuyên ngôn này giải thích cách sử dụng mật mã học có thể dẫn đến một kỷ nguyên của vô chính phủ mật mã, nơi chính phủ sẽ bất lực trong việc can thiệp vào các vấn đề riêng tư của công dân. May tưởng tượng một tương lai nơi thông tin, tiền tệ, và tin nhắn có thể được trao đổi mà không cần sự can thiệp của bên thứ ba, và một cách ẩn danh.
+- The "Cypherpunk Manifesto":
 
-- "Tuyên Ngôn Độc Lập của Không Gian Mạng":
-  Mặc dù không hoàn toàn thuộc về cypherpunk, văn bản này phản ánh tình cảm của nhiều nhân vật trong phong trào. Được viết vào năm 1996 bởi John Perry Barlow, đây là phản ứng trước sự quản lý ngày càng tăng của Internet bởi các chính phủ. Tuyên ngôn khẳng định rằng không gian mạng là một lĩnh vực riêng biệt so với thế giới vật lý và không nên tuân theo cùng một bộ luật. Nó tuyên bố, "Chúng tôi không có chính phủ được bầu chọn, và chúng tôi không thể bị quản lý."
+written by Eric Hughes in 1993, the "Cypherpunk Manifesto" asserts that privacy is a fundamental right. The author argues that the ability to communicate freely and confidentially is essential for a free society. The manifesto states: "We cannot expect governments, corporations, or other large, faceless organizations to grant us privacy [...]. We must defend our own privacy if we expect to have any".
 
-### Tiền thân của Bitcoin
 
-Trước sự xuất hiện của Bitcoin, đã có nhiều nỗ lực nhằm tạo ra một loại tiền tệ số. Ví dụ, David Chaum đã giới thiệu khái niệm "tiền điện tử ẩn danh" với dự án "DigiCash" vào những năm 1980. Thật không may, do nhiều hạn chế, DigiCash không bao giờ thực sự phát triển mạnh mẽ.
-Một tiền thân quan trọng khác là "b-money" của Wei Dai. Mặc dù nó chưa bao giờ được triển khai, nhưng nó đã trình bày ý tưởng về một loại tiền tệ số ẩn danh, nơi việc phát hiện gian lận được thực hiện bởi một cộng đồng người đánh giá thay vì một cơ quan trung ương.
+- The "Crypto-Anarchist Manifesto":
+
+written by Timothy C. May in 1992, this document explains how the use of cryptography could lead to an era of cryptographic anarchy where governments would be powerless to interfere in the private affairs of citizens. May envisioned a future where people anonymously exchange information and money without the intervention of a third party.
+
+
+- The "Declaration of the Independence of Cyberspace":
+
+although not exclusively cypherpunk, this text reflects the sentiments of many participants in the movement. Written in 1996 by John Perry Barlow, it is a response to the increasing regulation of the Internet by governments. The declaration asserts that cyberspace is a distinct realm from the physical sphere and should not be subject to the same laws. As it states, "We have no elected government, nor are we likely to have one".
+
+### The predecessors of Bitcoin
+
+Before the emergence of Bitcoin, there had been several attempts to create a digital currency. For example, David Chaum introduced the concept of "anonymous electronic money" with his project "DigiCash" in the 1980s. Unfortunately, due to various constraints, DigiCash never boomed.
+
+Another important precursor is Wei Dai's "B-money". Although it was never implemented, it presented the idea of an anonymous digital currency where fraud detection was performed by a community of evaluators rather than a central authority.
+
+The image below clearly illustrates the development of the movement through its many technological innovations.
 
 ![image](assets/en/05.webp)
 
-Chính trong bối cảnh màu mỡ này, Satoshi Nakamoto bí ẩn đã công bố bản trắng Bitcoin vào năm 2008. Ông kết hợp nhiều ý tưởng từ phong trào cypherpunk, như bằng chứng công việc (proof of work) và dấu thời gian mật mã, để tạo ra một loại tiền tệ số phi tập trung và chống kiểm duyệt.
+It was in this fertile environment that the mysterious Satoshi Nakamoto published the Bitcoin whitepaper in 2008. In this document, he combined several ideas from the cypherpunk movement, such as proof of work and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
 
-Bitcoin hơn là một loại tiền tệ số; nó đại diện cho thành tựu của các lý tưởng cypherpunk. Ngoài công nghệ, nó biểu tượng cho một cuộc cách mạng chống lại hệ thống tài chính truyền thống và cung cấp một lựa chọn dựa trên sự minh bạch, phi tập trung và chủ quyền cá nhân.
+However, Bitcoin was more than just that: it represented the achievement of the cypherpunk ideals. Beyond its technology, it symbolized a revolution against traditional financial systems and offered an alternative based on transparency, decentralization, and individual sovereignty.
 
-### Kết luận
+### Conclusion
 
-Tiền sử của Bitcoin gắn liền với phong trào cypherpunk và một nỗ lực tập thể vì tự do lớn hơn trong thời đại số. Bằng cách kết hợp các nguyên tắc của mật mã học, phi tập trung và toàn vẹn, Bitcoin đã trở nên nhiều hơn một loại tiền tệ; nó là sản phẩm của một cuộc cách mạng triết học và công nghệ tiếp tục tái hình dạng thế giới của chúng ta.
+The prehistory of Bitcoin is deeply rooted in the cypherpunk movement and the collective quest for greater freedom in the digital age. By combining the principles of cryptography, decentralization, and integrity, Bitcoin has become much more than a currency. In fact, it is the product of a philosophical and technological revolution that continues to reshape our world.
 
-Do đó, Bitcoin là một giao thức kéo dài qua nhiều thời kỳ và khuyến khích chúng ta đặt câu hỏi về mối quan hệ của mình với năng lượng, thời gian và tiền bạc. Nhưng Bitcoin có phải là một "tiền tệ" thực sự không? Tiền bạc là gì? Nó có tồn tại ở nhiều hình thức không? Chúng ta sẽ khám phá những câu hỏi này trong chương tiếp theo.
+Therefore, Bitcoin is a protocol that stretches over long periods of time, and encourages us to question our relationship with energy, time, and money.
 
+However, is Bitcoin a "real" currency? To understand this, we first need to understand the concept of money and its various forms, which we will explore in the next chapter.
 
-Nếu bạn muốn tìm hiểu chi tiết hơn về lịch sử của Bitcoin, tôi rất khuyến nghị khóa học HIS 201 của chúng tôi. Tại đây, bạn sẽ khám phá nguồn gốc và sự nổi lên chậm chạp của Bitcoin, cũng như những khởi đầu của lịch sử và cộng đồng của nó. Khóa học này được tài liệu hóa và có nguồn, tất nhiên cũng có rất nhiều giai thoại :
+If you want to explore Bitcoin's history in more details, we highly recommend our HIS 201 course, where you will discover the origins and the slow emergence of Bitcoin, as well as the beginnings of its history and community. This course is fully documented and sourced, with, of course, many anecdotes:
 
 https://planb.network/courses/his201
-
-# Tiền Bạc
+# Money
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
-## Lịch Sử Tiền Tệ
+## Money Throughout History
 
 <chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
 
-Sự tiến hóa của tiền bạc là một khía cạnh thú vị của lịch sử loài người, phản ánh sự sáng tạo của các nền văn minh qua các thời đại trong việc đáp ứng nhu cầu kinh tế không ngừng thay đổi.
+The evolution of money is a fascinating aspect of human history that reflects the ingenuity of civilizations throughout the ages in meeting constantly evolving economic needs.
 
 ![image](assets/en/06.webp)
 
-### Từ Vỏ Sò đến Tài Khoản Ngân Hàng
+### From shells to bank accounts
 
-Ban đầu, tiền tệ là vật thể hữu hình, thường liên kết với các hàng hóa thiết yếu như ngũ cốc, gia súc và các hàng hóa khác. Tuy nhiên, những hàng hóa này có nhược điểm lớn, như tính dễ hỏng, làm cho việc sử dụng chúng như một phương tiện tiết kiệm lâu dài trở nên khó khăn. Ví dụ, một vụ mùa thất bát hoặc bệnh tật có thể làm tiêu tan tài sản của một cá nhân qua đêm.
-Khi các nền văn minh phát triển và thương mại mở rộng đến các khu vực mới, đã xuất hiện nhu cầu về một phương tiện trao đổi chung. Các đối tượng như vỏ sò và đá quý đã được thử nghiệm, nhưng chúng không hoàn hảo. Cuối cùng, vàng trở thành tiêu chuẩn do sự hiếm có, bền vững và khả năng chia nhỏ. Nó đã, và vẫn là đến ngày nay, biểu tượng của sự giàu có và quyền lực.
+Originally, currency was a tangible asset, such as grain, livestock, or another commodity. However, these goods had the major disadvantage of being perishable, making it difficult to use them as a long-term savings medium. For example, poor harvests or animal illness could destroy an individual's wealth overnight.
+
+Thus, as civilizations advanced and trade expanded to new regions, the need for a universal medium of exchange arised. Individuals first experimented with objects such as shells and gemstones, but they were not as durable or scarse as they believed. Eventually, gold became the standard, due to its rarity, durability, and divisibility. It was, and remains to this day, a symbol of wealth and power.
 
 ![image](assets/en/07.webp)
 
-### Vai trò của tiền bạc là gì?
+### What is the role of money?
 
-Tiền bạc là một công cụ giao tiếp cực kỳ tinh vi:
+Money is a highly sophisticated communication tool:
 
-- Nó cho phép giao tiếp giữa hiện tại và tương lai. Chúng ta biến thời gian và năng lượng của mình thành một tài sản có thể được sử dụng lại trong tương lai mà không có nguy cơ mất giá.
 
-- Nó cho phép giao tiếp bằng một ngôn ngữ chung phổ quát. Mà không cần biết nhau, không nói cùng một ngôn ngữ, hai người lạ có thể trao đổi, giao dịch và đồng ý về giá trị của các vật phẩm.
+- It allows for communication between the present and the future, because it transforms our time and energy into an asset that can be reused in the time to come without the risk of devaluation.
+- It facilitates communication in a universal language: without knowing each other or speaking the same tongue, two strangers can exchange, trade, and agree on the value of things.
 
-Chức năng của nó trong thế giới của chúng ta khó có thể được tái tạo một cách nhân tạo. Không có con người hay nhóm người nào có thể tạo ra tiền bạc; đó là một hiện tượng xã hội tự nhiên phải phát triển từ thị trường và sự đồng thuận tự nguyện. Giá cả là các tín hiệu, thông tin, giúp xã hội quyết định cách phân bổ nguồn lực.
+Its function in our world is difficult to artificially replicate. In fact, no individual or group can create money, as it is a natural phenomenon that must emerge from the market and voluntary consensus. In this sense, prices serve as signals and pieces of information that guide society in allocating resources.
 
-Vàng như một loại tiền tệ là lựa chọn của 4,000 năm tiến hóa tiền tệ dựa trên 3 chức năng:
+For these reasons, gold as money is the result of 4,000 years of monetary Darwinism based on the following Aristotelian functions:
 
-- Kho bảo trữ giá trị
-- Phương tiện trao đổi
-- Đơn vị tính toán
-  ![hình ảnh](assets/en/08.webp)![hình ảnh](assets/en/09.webp)
-  ![hình ảnh](assets/en/10.webp)
 
-### Đặc điểm của tiền tệ
+- Store of value**: money can be used to transfer purchasing power into the future, so it needs to be a durable material;
+- Medium of exchange**: money can be used in exchange for goods and services instead of bartering, thus avoiding the coincidence of wants between traders;
+- Unit of account**: money also allows us to compare the values of different goods to better understand their relative convenience.
 
-Vàng đáp ứng lý tưởng các tiêu chí của một đồng tiền hiệu quả: sự hiếm có tự nhiên làm cho nó có giá trị, trong khi các tính chất hóa học cho phép nó không bị ăn mòn theo thời gian. Tuy nhiên, hình thức tiền tệ này không dễ dàng chia nhỏ hoặc vận chuyển qua các khoảng cách dài. Trong một thế giới toàn cầu hóa và số hóa, vàng không thể theo kịp và cần một thực thể trung ương để làm cho nó có thể chia nhỏ và dễ dàng trao đổi (tiền đúc).
+![image](assets/en/08.webp)
 
-Những khuyết điểm này đã làm cho vàng trở thành một khoản đầu tư giữ giá trị, nhưng không phải là một đồng tiền phổ biến, điều này gây bất lợi cho các đồng tiền tín dụng quốc gia (fiat) có thể sử dụng dễ dàng nhưng liên tục bị mất giá bởi các thực thể kiểm soát chúng (vua, ngân hàng trung ương, hoàng đế, độc tài).
+![image](assets/en/09.webp)
 
-Các tiêu chí cho một đồng tiền hiệu quả là đa dạng. Một đồng tiền tốt phải là:
+![image](assets/en/10.webp)
 
-![hình ảnh](assets/en/11.webp)
+### The characteristics of money
 
-- **Fungible**, nghĩa là có thể thay thế mà không mất giá trị
-- **Divisible**, để thuận tiện cho các giao dịch với các khối lượng khác nhau
-- **Liquid**, nghĩa là dễ dàng chuyển đổi thành hàng hóa hoặc dịch vụ.
+Gold ideally meets the criteria of an efficient currency: its natural rarity makes it valuable, while its chemical properties ensure it does not erode over time. These features have made gold a great **store of value**, but not a common currency, because this form of money is not easily divisible or transportable over long distances. In a globalized and digital world, gold struggles to keep pace and requires a central entity to make it divisible and easily exchangeable (i.e. through minted coins).
 
-Để đáp ứng các tiêu chí này, tiền tệ phát triển từng bước một:
+On the opposite, state fiduciary currencies (fiat) are easily usable, but are constantly devalued by the entities that control them (kings, central banks, emperors, dictators).
 
-- Đá thô -> Đồng xu
-- Tiền giấy -> Thẻ ngân hàng
+To explain this concept better, we shall explore the characteristics of an effective currency:
+
+![image](assets/en/11.webp)
+
+
+- Fungibility**, meaning that it is interchangeable with another unit of the same kind without loss of value;
+- Divisibility**, as it can be divided into smaller units to facilitate transactions of varying volumes;
+- Liquidity**, which means it is easily convertible into goods or services.
+
+In order to meet these criteria, currency has historically evolved by taking different steps:
+
+
+- Raw stone -> Coin
+- Banknote -> Bank card
 - Blockchain -> Lightning Network
 
-Ngày nay, các đồng tiền vẫn đang phát triển, thích nghi hình thức của chúng để đáp ứng các nhu cầu khác nhau. Ví dụ, trong khi vàng là một khoản đầu tư giữ giá trị xuất sắc, nó không còn phù hợp với nền kinh tế toàn cầu hóa hiện nay. Tương tự, các đồng tiền tín dụng như đô la và euro rất lỏng lẻo và dễ vận chuyển vì chúng hiện chủ yếu là số hóa, tuy nhiên giá trị của chúng liên tục bị ăn mòn bởi lạm phát tiền tệ.
+Currencies are still evolving to this day, adapting their forms to meet different use cases. As we said, while gold is an excellent store of value, it is no longer suitable for the current globalized economy. Similarly, fiduciary currencies such as the dollar and the euro are very liquid and easily transportable because they are now mostly digital, but their value is constantly lowered by monetary inflation.
 
-Mặt khác, Bitcoin mang lại những khả năng mới. Do các tính chất của nó, như nguồn cung cực kỳ hạn chế, nó cung cấp một khoản đầu tư giữ giá trị xuất sắc. Hơn nữa, với tư cách là một đồng tiền trung lập trên internet, nó đại diện cho một phương tiện trao đổi tốt không biết đến biên giới. Tuy nhiên, nó vẫn chưa được chấp nhận rộng rãi trong thương mại ngày nay, bất chấp việc [tiếp tục được chấp nhận](https://btcmap.org/map).
+On the other hand, Bitcoin presents new possibilities. Its properties, such as the strictly limited supply, make it an excellent store of value. Moreover, as a neutral internet currency, it serves as a viable **medium of exchange** that transcends borders. However, it is still not widely accepted in commerce today, despite its [constant adoption](https://btcmap.org/map).
 
-
-
-## Các đồng tiền tín dụng
+## Fiduciary currencies
 
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
-"Những ai không học từ lịch sử đều định mệnh lặp lại những sai lầm tương tự," George Santayana đã nói. Một sự thật đặc biệt vang vọng khi nói đến hệ thống tiền tệ hiện tại.
+> "Those who cannot remember the past are condemned to repeat it" said George Santayana.
+A truth that resonates soundly when it comes to the current monetary system.
 
-### Fiduciary = tin tưởng
+### Fiduciary = Trust
 
-Ngày nay, các đồng tiền chính như euro và đô la được coi là tín dụng. Điều này có nghĩa là chúng không có giá trị nội tại. Giá trị của chúng hoàn toàn dựa vào sự tin tưởng và niềm tin mà chúng ta đặt vào các tổ chức điều tiết chúng.
+Today, major currencies such as the Euro and the Dollar are considered fiduciary. This means they lack intrinsic value and depend entirely on the trust and confidence we place in the institutions that govern them.
 
-'Một đồng tiền tín dụng là một hình thức tiền tệ được một tổ chức, như một quốc gia, như Trung Quốc với Yên, hoặc một liên minh chính trị - kinh tế, như Liên minh Châu Âu với Euro, tuyên bố là tiền tệ. Thực thể phụ trách phát hành tiền tín dụng là một ngân hàng trung ương (Ví dụ, chúng ta có thể nhắc đến Ngân hàng Nhân dân Trung Quốc, Cục Dự trữ Liên bang của Hoa Kỳ, hoặc Ngân hàng Trung ương Cộng hòa Guinea). Đó là những thực thể này phụ trách quyết định chính sách tiền tệ và do đó là bao nhiêu tiền nên được đưa vào lưu thông hoặc in ra.
+A fiduciary currency is a form of money that is decreed as such by an institution, i.e. a state, like China with the Yuan, or a political-economic union, such as the European Union with the Euro. The entity in charge of its issuance is the central bank (For example, we can mention the People's Bank of China, the Federal Reserve of the United States, or the Central Bank of the Republic of Guinea). It is precisely these entities that are in charge of formulating the monetary policy and therefore how much money should be put into circulation or printed.
 
-![hình ảnh](assets/en/12.webp)
+![image](assets/en/12.webp)
 
-### Lạm phát tiền tệ: Một chiến lược cũ như Đế chế La Mã
+### Monetary devaluation: a strategy as old as the Roman Empire
 
-Từ thời cổ đại, vàng đã phục vụ như một tiêu chuẩn tiền tệ. Tuy nhiên, tính cứng nhắc của nó thường xuyên dẫn đến việc các nhà lãnh đạo - dù là hoàng đế La Mã hay các chính phủ hiện đại - chọn lựa các đồng tiền thay thế, thường là tín dụng.
-Cơ chế này đơn giản và được lấy cảm hứng từ những phương pháp đã tồn tại từ khi khởi nguyên của nền văn minh. Các nhà lãnh đạo, háo hức muốn kiểm soát tài sản, bắt đầu bằng việc tập trung vàng, thường bằng cách lợi dụng quyền lực và hứa hẹn bảo vệ và an ninh. Với kho báu quý giá này trong tay, họ giới thiệu một loại tiền tệ mới, có giá trị tương đương với vàng, nhưng được đúc theo hình ảnh của họ. Loại tiền tệ này sau đó bắt đầu lưu hành, và mọi người nhanh chóng quen với sự tiện lợi của nó.
+Since antiquity, gold has served as a monetary reference, but its rigidity has often led leaders, whether Roman emperors or modern governments, to adopt alternative currencies, often fiduciary.
 
-Dần dần, các nhà lãnh đạo này một cách kín đáo giảm giá trị của đồng tiền mới, làm giảm giá trị của nó so với vàng ban đầu một vài phần trăm mỗi năm. Sự giảm giá trị âm thầm này thường được biện minh là vì lợi ích của người dân. Do đó, những người tiết kiệm bằng tiền tệ tín thác này thấy giá trị tiết kiệm của họ bị xói mòn, trong khi nhà nước tài trợ cho các dự án của mình thông qua lạm phát. Hơn nữa, sự giảm giá trị này làm cho việc trả nợ trở nên dễ dàng hơn.
+The mechanism is simple and is inspired by practices that have existed since the origins of civilization. Leaders, eager to exert control over wealth, begin by centralizing gold, often by exploiting their power and promising protection and security. With this precious reserve in their hands, they introduce a new currency, equivalent in value to gold, but minted in their effigy. This currency then begins to circulate, and people quickly adapt to the convenience of its simple use.
+
+However, these leaders then begin to devalue the new currency in a gradual way, de facto reducing its value by a few percent each year in comparison to the initial gold price. This silent devaluation is often justified as being in the interest of the people. In reality, those who save in this fiduciary currency see the worth of their savings erode, while the state finances its projects through inflation. Furthermore, this devaluation makes debt easier to repay.
 
 ![image](assets/en/13.webp)
 
-Tại một thời điểm quan trọng, thông báo được đưa ra: đồng tiền không còn được bảo đảm bằng vàng. Công chúng, nay đã quen với tiền tệ tín thác và thường xuyên được thông tin sai lệch về các vấn đề tài chính, chấp nhận thực tế này. Nhà nước sau đó có quyền tự do để thao túng nguồn tiền, in ra số tiền khổng lồ với chi phí gần như không.
+At a critical moment, the leader makes the announcement: the currency is no longer backed by gold. The public, now accustomed to the fiduciary currency and often misinformed about financial matters, accepts this reality, allowing the state to freely manipulate the money supply and print enormous sums of money at almost no cost.
 
-Chiến lược này, khi được thực hiện tốt, có thể kéo dài hàng thập kỷ. Tuy nhiên, một sự giảm giá trị quá nhanh hoặc mất niềm tin có thể dẫn đến siêu lạm phát (xem chương tiếp theo). Lịch sử cho thấy đồng đô la đã mất 98% giá trị trong 100 năm, euro mất 30% trong 20 năm, và bảng Anh mất 99% kể từ khi được tạo ra.
+Monetary printing then leads to inflation and gradually impoverishes the population. Besides, the financial system is regulated and restricted to avoid its collapse, since any disruption could provoke a major economic crisis. Contrary to the masses, financial institutions and wealthy individuals highly benefit from this system, which creates a gap of inequality and favores authoritarianism. In this context, they are not incentivized to make radical changes, allowing the system to continue its course until a possible implosion.
 
-Cuối cùng, đồng tiền có thể không còn bất kỳ mối liên hệ nào với vàng, nhớ lại đồng tiền La Mã vào cuối Đế chế, hoặc thậm chí được giảm xuống chỉ còn là một giá trị số, không liên kết với thực tế hữu hình.
+When well executed, this strategy can last for decades. However, it is important to note that a very fast devaluation or loss of confidence can lead to hyperinflation (see next chapter). History shows that the dollar has lost 98% of its value in 100 years, the euro 30% in 20 years, and the pound sterling 99% since its creation.
 
-Ngày nay, chúng ta đang chứng kiến một bước ngoặt lịch sử. Đồng đô la, đã lâu đời thống trị, dường như đang suy giảm, và vàng đã mất vị trí trung tâm của mình. Chúng ta đang ở điểm nối của một chu kỳ tiền tệ mới, nhắc nhở chúng ta rằng bài học từ lịch sử thường xuyên bị quên lãng.
+In the end, the currency may no longer have any connection to gold, similarly to Roman coins at the end of the Empire, or even be reduced to a simple numerical value, disconnected from tangible reality.
+
+Today, we are witnessing a historic turning point. The dollar, which has long dominated, appears to be in decline, while gold has lost its central role. We stand at the threshold of a new monetary cycle, reminding us that the lessons of history are often forgotten
 
 ![image](assets/en/14.webp)
 
-### Bitcoin có phải là giải pháp?
+### Is Bitcoin a solution?
 
-Trong bối cảnh này, cuộc cách mạng Bitcoin đang dần dần thu hút sự chú ý. Đồng tiền này, không cần **bên thứ ba đáng tin cậy**, nhằm mục đích tách Nhà nước khỏi tiền tệ.
-
-Việc in tiền dẫn đến lạm phát, dần dần làm cho dân chúng nghèo đi. Mặt khác, các tổ chức tài chính và cá nhân giàu có đã hưởng lợi từ thực hành này, tạo ra một khoảng cách bất bình đẳng và ủng hộ chủ nghĩa độc tài. Hệ thống tài chính hiện tại được quản lý và hạn chế để tránh sự sụp đổ của nó, và bất kỳ sự gián đoạn nào cũng có thể gây ra một cuộc khủng hoảng kinh tế lớn. Khi các nhà chính trị hưởng lợi từ hệ thống này, họ không được khuyến khích thực hiện những thay đổi mang tính cách mạng, cho phép hệ thống tiếp tục con đường của mình cho đến một sự sụp đổ có thể xảy ra.
+Because of these premises, the Bitcoin revolution is gaining momentum. Contrary to previous currencies, it requires **no trusted third party** and aims to separate the State from money.
 
 ![image](assets/en/15.webp)
 
-Đáp lại những thách thức hệ thống này, Bitcoin tự giới thiệu như một giải pháp phi tập trung: một hệ thống tiền tệ song song mới. Lịch sử, vàng được ưa chuộng làm tiền tệ do khả năng chống làm giả. Tương tự, Bitcoin, thông qua bản chất phi tập trung và mã hóa của mình, không thể bị làm giả và được giới hạn ở 21 triệu đơn vị. Bitcoin là một đồng tiền dựa trên sự minh bạch và trung lập, cung cấp một lựa chọn hấp dẫn so với hệ thống tiền tệ tập trung hiện tại.
+In fact, Bitcoin presents itself as a response to these systemic challenges by proposing a decentralized solution and a new parallel monetary system. Historically, if gold has been favored as a currency due to its resistance to counterfeiting, Bitcoin similarly cannot be falsified. Moreover, it is limited to 21 million units, thanks to its decentralized and cryptographic nature. Bitcoin is a currency that relies on transparency and neutrality, offering an attractive alternative to the current centralized monetary system.
 
 ![image](assets/en/16.webp)
 
-Đồng thời, sự xuất hiện của các đồng tiền số do ngân hàng trung ương phát hành, hay CBDCs, dường như là không thể tránh khỏi. Dạng tiền tệ mới này sẽ cung cấp một nền kinh tế được lập kế hoạch trung ương hóa, có thể cản trở tự do tài chính của cá nhân và tạo điều kiện cho những lạm dụng độc tài.
-Chúng ta có thể kết thúc chương này với lời trích dẫn từ người đoạt giải Nobel F.A Hayek vào năm 1984: "Tôi không tin rằng chúng ta sẽ bao giờ tìm thấy một loại tiền tệ tốt cho đến khi chúng ta lấy nó ra khỏi tay của chính phủ. Tuy nhiên, chúng ta không thể lấy nó một cách bạo lực; tất cả những gì chúng ta có thể làm là giới thiệu một thứ mà họ không thể ngăn chặn thông qua những mánh khóe tinh vi."
+Another reason why Bitcoin has acquired attention is the emergence of central bank digital currencies, or CBDCs, which seems inevitable. This new form of money would develop a more centrally planned economy, and could both hinder individuals' financial freedom and facilitate authoritarian abuses.
 
+We can conclude this chapter with the quote from the Nobel Prize winner F.A Hayek in 1984:
 
-
-Nếu bạn muốn tìm hiểu thêm về các ngụy biện kinh tế và tự do, tôi mời bạn khám phá khóa học ECO 102 của chúng tôi. Khóa học này theo dõi cuộc đời và ý tưởng của Frédéric Bastiat, một nhà tư tưởng người Pháp thế kỷ 19, người chắc chắn sẽ trân trọng sự ra đời của Bitcoin:
+> "I don't believe that we should ever have a good money again, before we take the thing out of the hands of the government. If we can't take them violently out of the hands of the government, all we can do is by some sly or roundabout way introduce something they can't stop."
+To learn more about economic fallacies and freedom, we invite you to discover our ECO 102 course, which traces the life and ideas of Frédéric Bastiat, a 19th-century French thinker who would surely have appreciated the emergence of Bitcoin:
 
 https://planb.network/courses/eco102
-
-## Lạm phát cực đoan
+## Hyperinflation
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
-Lạm phát cực đoan là một hiện tượng tiền tệ đặc thù cho tiền tệ fiat. Nó được đặc trưng bởi sự mất niềm tin hoàn toàn vào một loại tiền tệ và sự tăng lạm phát một cách đột ngột thông qua việc in tiền của các cơ quan quản lý. Kết quả là, tiền tiết kiệm tích lũy bởi cá nhân có thể tan biến trong một khoảng thời gian ngắn, đẩy đất nước đến bờ vực của sự sụp đổ kinh tế, xã hội và chính trị.
+Hyperinflation is a monetary phenomenon that is specific to fiat currencies: it is charterized by a complete loss of confidence in a currency and a drastic increase in inflation due to monetary printing by authorities. As a result, the savings accumulated by individuals can dissipate in a relatively short period of time, pushing the country on the brink of economic, social, and political collapse.
 
-### Lạm phát điên cuồng!
+### Inflation running wild!
 
-Hãy cố gắng hiểu ảnh hưởng của lạm phát đối với tiết kiệm bằng cách xem xét các tỷ lệ lạm phát khác nhau.
+In order to understand the impact of inflation on savings, we need to take different inflation rates into consideration.
 
-- Với lạm phát 2%, bạn mất 2% sức mua hàng năm, tương đương 10% sau 5 năm.
-- Với 7%, bạn mất một nửa sau 10 năm.
-- Với 20%, bạn mất gần một nửa chỉ trong 3 năm.
 
-Trong thời kỳ lạm phát cực đoan, chúng ta không còn nói về 20% mỗi năm, mà là 20% mỗi tháng hoặc, ở đỉnh điểm, mỗi NGÀY. Lạm phát 100% mỗi ngày trong 3 ngày là một kịch bản thực tế đã xảy ra và tiếp tục xảy ra trên thế giới của chúng ta.
+- With a 2% inflation, you lose 2% of your purchasing power annually, which amounts to 10% over 5 years.
+- With 7%, you lose half of it in 10 years.
+- With 20%, you lose almost half of it in 3 years.
 
-Quan trọng là phải hiểu rằng lạm phát cực đoan không xảy ra như một phép màu, do ngẫu nhiên, do chủ nghĩa tư bản, hay do đối thủ chính trị. Lạm phát cực đoan là hậu quả trực tiếp của các quyết định tiền tệ sai lầm do các ngân hàng trung ương và chính trị gia đưa ra. Hậu quả của nó ảnh hưởng đến tất cả công dân và sẽ ảnh hưởng đến các thế hệ. Tôi mời bạn dành 5 phút để nghiên cứu bảng này để hiểu rõ hơn về ảnh hưởng thực sự của hiện tượng này (khóa học ECON204 sẽ đi sâu vào chủ đề này)."
+When hyperinflation occurs, we are no longer talking about 20% per year, but rather 20% per month or, at its peak, even per DAY. Experiencing a 100% inflation per day over three days is a realistic scenario that has occurred and continues to happen in our world.
 
-![hình ảnh](assets/en/17.webp)
+It is crucial to understand that hyperinflation does not happen by chance, by capitalism, or by political attacks from opponents. Hyperinflation is the direct consequence of bad monetary decisions made by central bankers and politicians. Its aftermaths affect every citizen and even impacts next generations. We kindly invite you to spend five minutes reading the following table to fully realize the real impact of this phenomenon (the ECO204 course further delves into this subject). As you can see, no country or currency is potentially safe.
 
-### Lạm phát cực đoan xảy ra như thế nào?
+![image](assets/en/17.webp)
 
-![hình ảnh](assets/en/18.webp)
+### What are the phases of hyperinflation?
 
-Giai đoạn 1 - Mất niềm tin
+![image](assets/en/18.webp)
 
-- Sự tập trung quyền lực tiền tệ tạo điều kiện cho việc tạo ra tiền và những lạm dụng của nó. Sự mất niềm tin vào một loại tiền tệ có thể xuất hiện và kích hoạt lạm phát cực đoan. Cá nhân sau đó bắt đầu nghi ngờ về nguồn gốc của tiền và lợi ích của chính sách tiền tệ bắt buộc. Sự mất niềm tin này thường do các yếu tố bên ngoài như chiến tranh, các biện pháp xã hội, hoặc sự tăng giá của một nguồn tài nguyên quan trọng, như lúa mì hoặc xăng dầu.
+For hyperinflation to occur, certain events must take place.
 
-Giai đoạn 2 - Sự sụp đổ của tiền tệ & tăng giá
+Phase 1 - Loss of confidence
 
-- Khi chính phủ mất kiểm soát niềm tin, cá nhân bắt đầu đổi tiền tệ của họ sang một loại tiền ổn định hơn, như đô la Mỹ ở Venezuela. Điều này dẫn đến sự tăng giá, tạo ra một vòng luẩn quẩn nơi hàng hóa và dịch vụ trở nên đắt đỏ hơn. Để đáp ứng những nhu cầu này, nhà nước in thêm tiền để điều chỉnh chính sách tiền tệ, dẫn đến lạm phát tăng vọt.
 
-Giai đoạn 3 - Vòng luẩn quẩn của việc in tiền
+- Centralization of monetary power facilitates the creation of money and its abuses. In this context, some external factors can trigger hyperinflation, typically wars, social measures, or the price increase of key resources like wheat or gasoline. Thus, a loss of confidence in a currency can arise, and individuals begin to question the origin of money and the benefits of mandated monetary policy.
 
-- Càng nhiều tờ tiền được cần để mua hàng hóa, tạo ra sự khan hiếm tiền giấy. Điều này dẫn đến việc in thêm tiền, tạo ra càng nhiều lạm phát.
+Phase 2 - Currency collapse and price increase
 
-![hình ảnh](assets/en/19.webp)
 
-Giai đoạn 4 - Một loại tiền tệ mới xuất hiện
+- As governments lose control of trust, individuals begin to exchange their currency for a more stable one, like what happened in Venezuela with the US dollar. This circumstance leads to a rise in prices, creating a vicious circle where goods and services become increasingly expensive. To meet these needs and correct the monetary policy, the state prints more money, resulting in exponential inflation.
 
-- Một loại tiền tệ mới sau đó được giới thiệu để thay thế loại tiền cũ. Một ví dụ đáng chú ý về lạm phát cực đoan là Đức trong các năm 1920-1924. Để khôi phục nền kinh tế, một loại tiền tệ mới đã được tạo ra, được bảo đảm bởi nợ của Đức, Pháp và Anh, và được đảm bảo bởi đất đai của Đức.
-  Giải quyết một cuộc khủng hoảng lạm phát cao thường đòi hỏi những thay đổi triệt để, như cuộc cách mạng, thay đổi chính phủ, thay đổi người đứng đầu ngân hàng trung ương, v.v. Mất niềm tin, sụp đổ tiền tệ và tái thiết là những giai đoạn thiết yếu để hồi sinh một nền kinh tế mới dựa trên tiền tệ fiat.
+Phase 3 - The vicious circle of money printing
 
-### 3 ví dụ đáng chú ý
 
-- Đức, 1922-1923
+- Thus, more and more bills are needed to purchase goods, which results in the scarcity of paper money. In response, governments resort to printing more bills, which fuels inflation even further.
 
-  Một trong những ví dụ nổi bật nhất về lạm phát cao xảy ra ở Cộng hòa Weimar của Đức sau Thế chiến I.
+![image](assets/en/19.webp)
 
-  Đức đã vay một lượng tiền khổng lồ để tài trợ cho nỗ lực chiến tranh, và không chỉ Đức không thắng cuộc chiến, mà còn phải trả hàng tỷ đô la tiền bồi thường. Tháng có mức lạm phát cao nhất là tháng 10 năm 1923, đạt đỉnh ở 29,500%, tương đương với tỷ lệ lạm phát 20.9% mỗi ngày. Giá cả tăng gấp đôi mỗi 3.7 ngày!
-  Người ta nói rằng trong nhà hàng, các bồi bàn phải thông báo giá thực đơn mỗi 30 phút để tính đến lạm phát. Tiền tệ Đức trở nên vô dụng đến mức một số công dân thích đốt tiền giấy hơn là đốt củi vì thực sự rẻ hơn.
+Phase 4 - The emergence of a new currency
 
-  ![image](assets/en/20.webp)
+
+- A new currency is then introduced to replace the old one, in order to break the cycle of inflation by implementing stricter controls that were not in place with the previous legal tender.
+
+Resolving a hyperinflation crisis often requires radical changes, such as revolutions, government shifts, central bankers changes, among others. Loss of confidence, currency collapse, and reconstruction are essential phases to revive an economy based on fiat currency.
+
+### Three notable examples
+
+
+- Germany, 1922-1923.
+
+One of the most striking examples of hyperinflation occurred in the German Weimar Republic after World War I.
+
+Germany had borrowed enormous amounts of money to finance war. However, not only did Germany lose it, but it had to pay billions of dollars in reparations. The month with the highest inflation rate was October 1923, peaking at 29,500%, which was equal to an inflation rate of 20.9% per day. Prices doubled every 3.7 days!
+
+The German currency became so useless that some citizens preferred to burn their paper money instead of wood because it was actually cheaper. It is even told that in restaurants, waiters had to announce the menu prices every 30 minutes to account for inflation.
+
+In the end, the authorities created a new currency, backed by the debts of Germany, France, and England, and guaranteed by German land.
+
+![image](assets/en/20.webp)
+
 
 - Hungary, 1945-1946
 
-  Quốc gia trải qua giai đoạn lạm phát cao tồi tệ nhất trong lịch sử cho đến nay là Hungary sau Thế chiến II.
+The country that experienced the worst period of hyperinflation to date is by far Hungary after World War II.
 
-  Hungary thấy mình ở phía thua cuộc của xung đột và chiến tranh đã phá hủy phần lớn khả năng sản xuất công nghiệp của họ. Tháng có mức lạm phát cao nhất là tháng 7 năm 1946, với mức lạm phát giá cả là 41,900,000,000,000,000%, tương đương với 207% mỗi ngày. Giá cả tăng gấp đôi mỗi 15 giờ!
+Hungary found itself on the losing side of the conflict, with most of its industrial production capacity destroyed. The month with the highest inflation was July 1946, which saw a staggering price inflation of 41,900,000,000,000,000%, equivalent to 207% per day. Prices doubled every 15 hours!
 
-  Tờ tiền cuối cùng được đưa vào lưu thông là tờ 100 triệu tỷ pengo (100,000,000,000,000,000,000) vào năm 1946.
+The last banknote to be put into circulation was a 100 million billion Pengo (100,000,000,000,000,000) in 1946.
 
 ![image](assets/en/21.webp)
 
+
 - Zimbabwe, 2007-2008
-  Cho đến năm 2000, Zimbabwe tự cung tự cấp gần như tất cả nhu cầu của mình ngoại trừ dầu.
 
-  Năm 1997, đồng đô la Zimbabwe sụp đổ hơn 72% sau khi chính phủ đồng ý bồi thường cho các cựu chiến binh với số tiền tương đương 450 triệu đô la Mỹ. Vì chính phủ không có số tiền đó trong kho bạc, họ phải chạy máy in tiền. Năm 2005, lạm phát đạt 586% và vào tháng 3 năm 2007, lạm phát hàng tháng đạt 50%.
+Until the year 2000, Zimbabwe was self-sufficient for almost all of its needs except for oil.
 
-  Vào tháng 6 năm 2007, chính phủ đã phản ứng bằng cách áp đặt kiểm soát giá. Các cửa hàng thực sự bị "cướp sạch". Giờ đây, các thương nhân không còn phương tiện để tái trang bị cho cửa hàng của mình.
+In 1997, the Zimbabwean dollar collapsed by over 72% after the government agreed to compensate war veterans for the equivalent amount of 450 million US dollars. Since the government did not have such an amount in its supplies, it resorted to running the printing press. In 2005, inflation reached 586%, but the peak was in mid-November 2008 with a rate estimated at 79,600,000,000% per month.
 
-  Vào tháng 4 năm 2009, Bộ trưởng Tài chính thông báo việc tạm ngừng sử dụng đồng đô la Zimbabwe và cho phép sử dụng các loại tiền tệ nước ngoài khác nhau cho giao dịch. Tất cả các tài khoản ngân hàng, quỹ hưu trí và các tổ chức tài chính đều thấy số dư của mình biến mất qua đêm.
+In June 2007 the government had already reacted by imposing price controls, but this action did not have any influence on the economy. Stores were literally "looted", and merchants no longer had the means to restock their shops.
+
+In April 2009, the Minister of Finance announced the suspension of the Zimbabwean dollar and authorized the use of different foreign currencies for trade. All bank accounts, pensions, and financial institutions saw their balances evaporate overnight.
 
 ![image](assets/en/15.webp)
 
-Kết luận, lạm phát cao có tác động làm giảm giá trị của tiền tệ một cách nhanh chóng, dẫn đến sự xói mòn tiết kiệm và mất niềm tin vào hệ thống tiền tệ. Như Voltaire từng gợi ý, một loại tiền tệ fiat luôn cuối cùng sẽ mất giá trị nội tại và hướng tới giá trị bằng không.
-'Một loại tiền tệ dựa vào một bên thứ ba đáng tin cậy như một tổ chức tài chính, về mặt thực hành và lâu dài, là một loại tiền tệ có khuyết điểm vì nó không thể đảm bảo sức mua hoặc bảo toàn tiết kiệm.
+In conclusion, hyperinflation has the effect of rapidly degrading the value of the currency, leading to the erosion of savings and the loss of confidence in the monetary system. As Voltaire once suggested, a fiat currency will always eventually lose its intrinsic value and converge towards zero.
 
+A currency that relies on a trusted third party like a financial institution is, in practice and in the long term, a defective one, because it is unable to guarantee purchasing power or preserve savings.
 
-
-Để tìm hiểu sâu hơn về chủ đề siêu lạm phát, tôi khuyên bạn nên tham gia khóa học ECO 204 của David St-Onge. Bạn sẽ học được chu kỳ siêu lạm phát là gì và tác động thực sự của nó đối với cuộc sống của chúng ta. Bạn cũng sẽ khám phá sự tương đồng giữa các chu kỳ này và, quan trọng nhất, cách bảo vệ bản thân:
+To delve deeper into the subject of hyperinflations, we recommend David St-Onge's ECO 204 course, where you will learn what hyperinflationary cycles are and their real impacts on our lives. You will also discover the similarities between these cycles and, most importantly, how to protect yourself from them.
 
 https://planb.network/courses/eco204
-
-## 21 triệu bitcoin
+## 21 million bitcoins
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
 
-### Chính sách Tiền tệ của Bitcoin
+### Bitcoin's monetary policy
 
-Bitcoin là một loại tiền tệ số phi tập trung với số lượng tối đa được xác định trước là **21 triệu đơn vị**. Đặc điểm nổi bật về sự khan hiếm này được quy định bởi mã máy tính của nó và được củng cố bởi sự đồng thuận của tất cả người dùng tham gia vào giao thức.
+Bitcoin is a decentralized digital currency with a pre-defined maximum quantity of **21 million units**. This intrinsic characteristic of scarcity is determined by its computer code and reinforced by the consensus of all users participating in the protocol.
+
 ![image](assets/en/22.webp)
 
-Về việc phát hành tiền tệ, nó có thể được minh họa bằng một đường cong S đại diện cho số lượng bitcoin được tạo ra theo thời gian. Ví dụ, vào năm 2022, khoảng 18,5 triệu bitcoin đã được lưu hành. Dự báo chỉ ra rằng vào năm 2025, sẽ có khoảng 19,5 triệu bitcoin, chiếm khoảng ~93% tổng nguồn cung, và vào năm 2037, con số này sẽ đạt 20,4 triệu.
+Its monetary issuance can be illustrated by a curve that represents the quantity of bitcoins created over time. For example, in 2022, approximately 18.5 million bitcoins were in circulation. Forecasts indicate that by 2025, there will be around 19.5 million bitcoins, representing around the 93% of the total supply, and by 2037, this figure will reach 20.4 million.
 
-### Làm thế nào để Tạo ra Bitcoin Mới?
+### How are new bitcoins created?
 
-Việc tạo ra bitcoin mới là kết quả của quá trình đào mỏ, một thủ tục để xác minh các giao dịch trên mạng Bitcoin.
+The creation of new bitcoins is the result of the mining process. In a nutshell, miners use powerful computers that solve complex mathematical problems, which validate and secure transactions. Once a problem is solved, the miner adds a new block of transactions to the blockchain, a decentralized and distributed ledger that records all transactions made on the network. The blockchain ensures transparency and security, as each block is linked to the previous one, making it nearly impossible to alter past data without consensus from the network.
 
 ![image](assets/en/23.webp)
 
-Những người đào mỏ, những người thực hiện nhiệm vụ này, được thưởng bằng việc phát hành bitcoin mới mỗi mười phút. Phần thưởng này được lập trình để giảm một nửa sau mỗi 210,000 khối, tương đương khoảng mỗi bốn năm, một sự kiện được biết đến là "halving" -- khiến cho đường cong phát hành tiền tệ có hình dạng giống như các bậc thang. Do cơ chế halving này, có thể dự đoán toán học rằng việc tạo ra bitcoin sẽ kết thúc vào năm 2140, khi tổng số lượng bitcoin đạt giới hạn 21 triệu.
+After successfully performing this task, miners get rewarded with the issuance of new bitcoins every ten minutes. This reward is programmed to halve every 210,000 blocks, which is approximately every four years (an event known as "halving"), giving the monetary issuance curve a stair-like shape. Due to this mechanism, it can be mathematically predicted that the creation of new bitcoins will cease arount the year 2140, when the total number reaches its limit of 21 million.
 
-| Số Lần Halving | Chiều Cao Khối | Phần Thưởng BTC Sau Halving | Ước Lượng BTC Lưu Hành Sau Halving |
-| -------------- | -------------- | --------------------------- | ---------------------------------- |
-| 1              | 210,000        | 25 BTC                      | 10,500,000 BTC                     |
-| 2              | 420,000        | 12.5 BTC                    | 15,750,000 BTC                     |
-| 3              | 630,000        | 6.25 BTC                    | 18,375,000 BTC                     |
-| 4              | 840,000        | 3.125 BTC                   | 19,687,500 BTC                     |
-| 5              | 1,050,000      | 1.5625 BTC                  | 20,343,750 BTC                     |
-| 6              | 1,260,000      | 0.78125 BTC                 | 20,671,875 BTC                     |
-| 7              | 1,470,000      | 0.390625 BTC                | 20,835,937.5 BTC                   |
-| 8              | 1,680,000      | 0.1953125 BTC               | 20,917,968.75 BTC                  |
-| 9              | 1,890,000      | 0.09765625 BTC              | 20,958,984.375 BTC                 |
-| 10             | 2,100,000      | 0.048828125 BTC             | 20,979,492.188 BTC                 |
-| 11             | 2,310,000      | 0.0244140625 BTC            | 20,989,746.094 BTC                 |
-| 12             | 2,520,000      | 0.01220703125 BTC           | 20,994,873.047 BTC                 |
-| 13             | 2,730,000      | 0.006103515625 BTC          | 20,997,436.523 BTC                 |
-| 14             | 2,940,000      | 0.0030517578125 BTC         | 20,998,718.262 BTC                 |
-| 15             | 3,150,000      | 0.00152587890625 BTC        | 20,999,359.131 BTC                 |
-| 16             | 3,360,000      | 0.000762939453125 BTC       | 20,999,679.566 BTC                 |
-| 17             | 3,570,000      | 0.0003814697265625 BTC      | 20,999,839.783 BTC                 |
-| 18             | 3,780,000      | 0.00019073486328125 BTC     | 20,999,919.892 BTC                 |
-| 19             | 3,990,000      | 0.000095367431640625 BTC    | 20,999,959.946 BTC                 |
-| 20             | 4,200,000      | 0.0000476837158203125 BTC   | 20,999,979.973 BTC                 |
+| Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
 
-Chúng ta sẽ quay lại với các thợ mỏ chi tiết hơn trong chương khai thác.
+| -------------- | ------------ | ------------------------- | ------------------------------------------ |
 
-### Đảm bảo sự khan hiếm số
+| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
 
-Sự khan hiếm của Bitcoin được đảm bảo bởi hai cơ chế chính: điều chỉnh độ khó khai thác và lý thuyết trò chơi:
+| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
 
-- Điều chỉnh độ khó khai thác là một cơ chế diễn ra sau mỗi 2016 khối, hoặc khoảng hai tuần, để đảm bảo rằng, trung bình, một khối mới được thêm vào blockchain mỗi mười phút. Tần suất tạo khối và tổng số lượng bitcoin là các khía cạnh cố định của giao thức Bitcoin và không thể thay đổi mà không có sự đồng thuận chung, không giống như các quyết định tùy ý được thực hiện trong các hệ thống tiền tệ truyền thống.
+| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
+
+| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
+
+| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
+
+| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
+
+| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
+
+| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
+
+| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
+
+| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
+
+| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
+
+| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
+
+| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
+
+| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
+
+| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
+
+| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
+
+| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
+
+| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
+
+| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
+
+| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
+
+We will revisit the concept of mining in more details in the [miner chapter](https://planb.network/en/courses/btc101/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+
+### Guaranteeing digital scarcity
+
+The limit of 21 million is the basis of Bitcoin scarcity, and is guaranteed by two key mechanisms: the adjustment of mining difficulty and the game theory.
+
+
+- The mining difficulty adjustment is a process that takes place every 2016 blocks, or around two weeks, to ensure that a new block is added to the blockchain every ten minutes on average. This frequency of block creation and the total quantity of bitcoins are both fixed aspects of the Bitcoin protocol and cannot be changed without a general consensus, unlike the arbitrary decisions made in traditional monetary systems.
+
+The difficulty of finding a valid hash follows a sort of cycle: if the number of miners increases, it means that the number of blocks they find is higher, which brings to a decrease in the average time to find a block. Because of it, the difficulty is increased. As a consequence, the number of blocks that miners find is lowered, which means that the mechanism goes back to the average of 10 miniutes per block. Please see the image below for a visual display.
 
 ![image](assets/en/24.webp)
 
-> Bạn có biết? Các thợ mỏ được khuyến khích khai thác một khối để kiếm được bitcoin mới và phí giao dịch liên quan đến các giao dịch họ bao gồm trong khối của mình. Khi số lượng bitcoin phát hành tiến gần đến giới hạn 21 triệu, các thợ mỏ sẽ được trả thưởng nhiều hơn qua phí giao dịch hơn là qua phần thưởng khối.'
+Did you know that miners are incentivized to mine a block in order to earn new bitcoins through the block subsidy, as well as transaction fees from the transactions they include in that block?
 
-- Lý thuyết trò chơi là một khái niệm toán học dựa trên lý trí con người. Tại đây, trong Bitcoin, chính là người dùng bỏ phiếu cho các thay đổi giao thức. Vâng, bạn đọc đúng đấy: bất kỳ sửa đổi nào đối với giao thức Bitcoin đều yêu cầu sự đồng ý của toàn bộ cộng đồng người dùng, điều này rất phức tạp. Vì vậy, nếu ai đó muốn tạo ra bitcoin thứ 22 triệu, họ sẽ phải thuyết phục tất cả người dùng tự giảm giá trị tiết kiệm của mình, điều này khó xảy ra vì Bitcoin là toàn cầu và không được điều hành bởi một nhóm trung ương nào.
+Thus, as the number of bitcoins issued approaches the 21 million limit, miners will be remunerated more through their transaction fees than through the block subsidy.
+
+
+- Game theory is a mathematical concept that relies on human rationality. It assumes that individuals act logically, seeking to maximize their own benefits while considering the potential decisions of others. In Bitcoin, game theory helps to ensure that the majority of miners and users will act in the best interest of the network. In fact, since protocol changes are voted by the users, any modification to the Bitcoin protocol would require the agreement of the entire community of users, which is highly complex. So, if someone wanted to create a 22nd million bitcoin, they would have to convince all users to voluntarily devalue their own savings, which is unlikely to happen because Bitcoin is global and is not governed by a central group.
 
 ![image](assets/en/25.webp)
 
-Ý tưởng về việc giảm giá trị tiền tệ đi ngược lại với triết lý cơ bản của Bitcoin, vì vậy việc thay đổi giới hạn này là rất khó xảy ra.
+The idea of devaluing the currency goes against the fundamental philosophy of Bitcoin, so a change in its overall quantity is highly unlikely to happen.
 
-### Một chính sách tiền tệ có thể kiểm toán mỗi giây từ đầu và mãi mãi!
+### An auditable monetary molicy: every second, from the beginning and forever!
 
-Sự khan hiếm của Bitcoin là một tài sản lớn, và số lượng tối đa 21 triệu bitcoin lưu thông là công khai và có thể được xác minh bởi bất kỳ ai.
+The scarcity of Bitcoin is a major asset, and the maximum quantity of 21 million bitcoins in circulation is public and verifiable by anyone.
 
-Thực tế, bất kỳ ai cũng có thể xác minh số lượng bitcoin lưu thông bằng cách nhập một lệnh đơn giản trên một nút Bitcoin: `bitcoin-cli gettxoutsetinfo`. Sự minh bạch và khả năng xác minh này tăng cường niềm tin vào hệ thống Bitcoin, không dựa trên các tổ chức hay cá nhân trung ương, mà dựa trên một bảo đảm toán học và mật mã học vốn có trong giao thức của nó. (Bạn sẽ học cách làm điều này một cách dễ dàng trong LN201)
+In fact, anyone can do this through a Bitcoin node (i.e. a transaction validator) by simply entering the following command: `bitcoin-cli gettxoutsetinfo`. This transparency strengthens trust in the Bitcoin system, which is not based on central institutions or individuals, but rather on the mathematical and cryptographic guarantees inherent in its protocol (You will learn how to do this easily in LNP201).
 
-````json
+```json
 {
-  "height": 710560,
-```yaml
+"height": 710560,
 "bestblock": "0000000000000000000887384d67103412ea7f18a43953e65c8c4ac36bf42e54",
-  "transactions": 473244,
-  "txouts": 1018917,
-  "bogosize": 2183872374,
-  "hash_serialized_2": "eebb9987337700ffaacbbaa11223344",
-  "disk_size": 178239584,
-  "total_amount": 18745998.12345678
+"transactions": 473244,
+"txouts": 1018917,
+"bogosize": 2183872374,
+"hash_serialized_2": "eebb9987337700ffaacbbaa11223344",
+"disk_size": 178239584,
+"total_amount": 18745998.12345678
 }
-````
+```
 
-Bitcoin, bằng thiết kế của mình, đảm bảo quản lý tiền tệ chắc chắn bằng cách hạn chế việc tạo ra và bảo vệ tiền tiết kiệm của người dùng, phân biệt nó với các loại tiền tệ khác. Phù hợp với nguyên tắc của kinh tế học Áo (chi tiết trong ECON201), số lượng được kiểm soát và phân phối dự đoán của nó bảo vệ nó khỏi rủi ro về lạm phát đặc trưng của các loại tiền tệ truyền thống.
+Bitcoin guarantees a sound monetary management by limiting its creation by design, which makes it very different from other currencies because it can protect users' savings. Aligned with the principles of Austrian economics, its stable quantity and predictable distribution protect it from the inherent risks of inflation that traditional currencies have to face (see the ECO201 course to know more).
 
-Tóm lại, Bitcoin, với bản chất phi tập trung, sự khan hiếm được lập trình, và tính minh bạch, cung cấp một lựa chọn thay thế độc đáo cho các hệ thống tiền tệ truyền thống. Nó minh họa cách công nghệ có thể được sử dụng để tạo ra một loại tiền tệ không chỉ hữu ích và có thể kiểm chứng, mà còn bảo toàn giá trị tiết kiệm của người dùng bằng cách hạn chế chặt chẽ nguồn cung.
+In summary, Bitcoin, with its decentralized nature, programmed scarcity, and transparency, offers a unique alternative to traditional monetary systems. It illustrates how technology can be used to create a currency that not only is useful and verifiable, but also preserves the value of users' savings by strictly limiting its supply.
 
+### Conclusion of section 1!
 
-
-### Kết luận của phần 1!
-
-# Ví Bitcoin
+# Bitcoin Wallets
 
 <partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
 
-## Ví Bitcoin là gì?
+## What are Bitcoin wallets?
 
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
-Trong phần 2 này, chúng ta sẽ khám phá việc lưu trữ và bảo mật Bitcoin trong các ví. Điều này sẽ giúp bạn hiểu rõ hơn về nơi những Bitcoin nổi tiếng này được đặt và cách tương tác với chúng!
+In section 2, we are going to explore the storage and security of Bitcoin through the use of wallets, in order to understand where these famous bitcoins are located and how to interact with them!
 
-### Làm sáng tỏ về ví Bitcoin
+### Demystifying Bitcoin wallets
 
-Trong ngành này, chúng ta sử dụng ví để tương tác với mạng lưới Bitcoin, có 3 chức năng:
+We use wallets to interact with the Bitcoin network in three main ways:
 
-- Cho phép nhận Bitcoin
-- Cho phép gửi Bitcoin
-- Bảo vệ chúng khỏi các nỗ lực hack và trộm cắp
 
-Một ví có thể là phần mềm trên máy tính của bạn, một ứng dụng trên điện thoại thông minh, một thiết bị vật lý như một chiếc USB, hoặc thậm chí là một tờ giấy. Các loại ví Bitcoin khác nhau phục vụ cho các trường hợp sử dụng khác nhau. Một số được sử dụng cho số lượng lớn với trọng tâm là an ninh, khác cho sự riêng tư, hoặc thậm chí cho việc thanh toán hàng ngày với số lượng nhỏ.
+- To receive bitcoins
+- To send bitcoins
+- To secure them against hacking and theft attempts
 
-Do đó, các ví được chia thành các nhóm lớn sử dụng, luôn với một câu hỏi trung tâm: Bạn có phải là chủ sở hữu của các quỹ hay bạn để quyền kiểm soát tiền của mình cho bên thứ ba? Chúng ta sẽ quay lại vấn đề này chi tiết trong chương tiếp theo, nhưng ý tưởng là đơn giản: Tiền có trong túi bạn hay trong túi của người quản lý ngân hàng của bạn!
+A Bitcoin wallet can have many shapes and forms: a software on your computer, an application on your smartphone, a physical device like a USB key, or even a piece of paper. Each of them serves different use cases. In fact, some are designed for large transactions with an emphasis on security, while others prioritize privacy, or they are intended for daily payments of small amounts.
+
+Portfolios can thus be categorized into broad families of use, always centered around a key question: are you the owner of the funds or are you leaving control of your money to a third party? We will explore this topic in detail in the next chapter, but the question remains straightforward: is the money in your pocket or in your banker's pocket?
 
 ![image](assets/en/26.webp)
 
-### Ví Bitcoin hoạt động như thế nào
+### How does a Bitcoin wallet work?
 
-Dù là "ngân hàng" Bitcoin của bạn hay chính bạn, nói chung, phần lớn ví Bitcoin hoạt động với công nghệ tương tự, đó là mật mã bất đối xứng, và do đó là hệ thống cặp khóa: một khóa riêng để nhận và một khóa công khai để chi tiêu.
+Whether it's your Bitcoin "banker" or yourself, the vast majority of Bitcoin wallets work with a similar technology based on asymmetric cryptography, which involves a system of key pairs: a private key for spending and a public key for receiving.
 
-- Khóa riêng
-  Khi khởi tạo một ví, một cụm từ khôi phục bí mật (khóa riêng) được tạo ra và cung cấp cho bạn dưới dạng 24 từ.
 
-  Khóa riêng rất quan trọng vì nó đại diện cho quyền sở hữu Bitcoin và do đó là quyền sử dụng hoặc gửi chúng. Người giữ khóa riêng là chủ sở hữu của Bitcoin.
+- Private key
 
-  Khóa này phải được giữ kín và bảo quản cẩn thận, vì đó là chìa khóa mở khóa của cải của bạn!
+When initializing a wallet, a secret recovery phrase (private key) is generated and presented to you in the form of 12 or 24 words.
 
-- Khóa công khai & địa chỉ
-  Khóa công khai được tạo ra với khóa riêng và do đó liên kết với nó. Khóa công khai được sử dụng để tạo ra địa chỉ Bitcoin và do đó nhận tiền. Chia sẻ khóa công khai có rủi ro về quyền riêng tư, nhưng không ảnh hưởng đến an ninh.
+The private key is fundamental because it constitutes the ownership of the bitcoins and therefore the right to use or send them. Therefore, the holder of the private key is the true owner of the bitcoins.
 
-  Các địa chỉ này được ví của bạn tạo ra và có thể được chia sẻ một cách an toàn. Nên sử dụng chúng chỉ một lần để tối đa hóa quyền riêng tư của bạn.
-  Vì vậy, việc hiểu rằng nhờ công nghệ này, chúng ta có thể dễ dàng nhận Bitcoin mà không cho phép người gửi ăn cắp tiền của mình là rất quan trọng! Hãy nghĩ về nó như một hòm thư: mọi người đặt tiền vào đó, nhưng bạn là người duy nhất có thể mở nó.
-  ![image](assets/en/27.webp)
+This key must be kept secret and well protected, as it unlocks your fortune!
 
-### Vậy Bitcoin có trong ví không?
 
-Mặc dù các khóa của bạn được lưu trữ trong ví của bạn, nhưng Bitcoin thực sự được "lưu trữ" trong blockchain Bitcoin, đó là một sổ cái phân tán công cộng trong mạng ngang hàng Bitcoin (chúng ta sẽ xem xét điều này trong phần 3). Đó là lý do tại sao việc mất thiết bị mà bạn có ví của mình không nhất thiết có nghĩa là mất Bitcoin của bạn. Điều cho phép bạn tái tạo ví và chi tiêu Bitcoin của mình là khóa riêng tư. Vì vậy, việc bảo mật nó một cách đúng đắn là rất quan trọng.
+- Public key & address
+
+The public key is generated from the private key and it is linked to it. Sharing the public key poses risks to privacy (because other users can see your balance) but not to security (because they cannot spend your funds without possessing the private key). In turn, the public key is used to create Bitcoin addresses, and thus receive money.
+
+These addresses are automatically created by your wallet and can be shared securely. To maximize your privacy, it is advisable to use them only once.
+
+In a summary, this technology empowers us to receive bitcoins without enabling the receiver to steal our funds! A mailbox could be a fitting metaphor: people can deposit money into it, but you are the only one who can open it.
+
+![image](assets/en/27.webp)
+
+### Are bitcoins in the wallet?
+
+Although your keys are stored in your wallet, the bitcoins themselves are actually "stored" in the Bitcoin blockchain, which is a public distributed ledger within the Bitcoin peer-to-peer network (we will delve into it in section 3). This means that losing the device containing your wallet does not necessarily result in the loss of your bitcoins. What allows you to recreate your wallet and spend your bitcoin is actually the private key, so always remember to secure it properly!
 
 ![image](assets/en/28.webp)
 
-May mắn cho chúng ta, kể từ năm 2017, khóa riêng này có thể được mã hóa trong một danh sách đơn giản gồm 12 hoặc 24 từ, gọi là cụm từ ghi nhớ. Cụm từ này là bản sao lưu của ví Bitcoin của bạn, nó cho phép bạn tái tạo ví của mình với bất kỳ phần mềm/ứng dụng ví Bitcoin nào. Do đó, bất kỳ ai có quyền truy cập vào danh sách từ này đều có quyền truy cập vào Bitcoin của bạn.
+Fortunately, since 2017, the private key can be represented by a simple list of 12 or 24 words, known as 'mnemonic phrase, which are quite easy to save. This phrase serves as a backup for your funds and allows you to recreate your wallet using any Bitcoin wallet software or app. Therefore, anyone who finds this list of words can access your bitcoins.
 
-### Về hacker thì sao?
+### What about hackers?
 
-Người ta có thể hỏi: điều gì sẽ xảy ra nếu ai đó tình cờ đoán được danh sách 12 hoặc 24 từ của chúng ta? Câu trả lời ngắn gọn là nhờ vào mật mã học được sử dụng để tạo ví, điều này là cực kỳ khó xảy ra. Để đặt nó vào quan điểm, việc tìm kiếm quyền truy cập vào ví của bạn giống như việc tìm "số đúng" từ 1 đến $2^256$, gần như tương đương với việc tìm "nguyên tử đúng" trong Vũ trụ. Tuy nhiên, nếu bạn không hài lòng với mức độ bảo mật mặc định này, bạn luôn có thể tăng cường nó bằng cách thêm một cụm từ bí mật vào ví Bitcoin của mình.
+What if someone accidentally guesses our list of 12 or 24 words? The short answer is that it is highly unlikely, thanks to the cryptography used to create the wallet. To put it into perspective, accidentally discovering your same mnemonic phrase is akin to finding the "right" number between 1 and $2^256$, which is almost equivalent to finding the "right" atom in the Universe. However, if you are not satisfied with this default security, you can always enhance it by adding a passphrase (an extra word) to your Bitcoin wallet.
 
 ![image](assets/en/29.webp)
 
-Do đó, khả năng bị hack ví Bitcoin của bạn là cực kỳ thấp nếu bạn tuân theo các thực hành bảo mật tốt. Những thực hành mà chúng tôi sẽ chi tiết trong phần tiếp theo.
+Thus, the probability of hacking your Bitcoin wallet is astronomically low if you follow the good security practices that we will detail in the next section.
 
-Chọn một ví phù hợp với nhu cầu và cách sử dụng của bạn. Các hướng dẫn chi tiết về việc sử dụng và bảo mật các loại ví khác nhau có sẵn trong [phần hướng dẫn của trường đại học của chúng tôi](https://planb.network/tutorials/wallet).
+Keep in mind to choose the right wallet for your needs and usage: detailed tutorials on managing and securing different wallets are available in the [tutorial section of our university](https://planb.network/tutorials/wallet).
 
-
-
-Nếu trong hành trình xuống hang thỏ, bạn muốn tìm hiểu thêm về việc xây dựng một ví Bitcoin, từ entropy đến địa chỉ nhận, tôi khuyên bạn nên tham gia khóa học CYP 201 dành riêng cho chủ đề này:
+If, during your journey down the rabbit hole, you want to learn more about building a Bitcoin wallet, from entropy to receiving addresses, we recommend the CYP 201 course dedicated to this topic:
 
 https://planb.network/courses/cyp201
-
-## Bảo Mật và Ví Bitcoin
+## Bitcoin Wallets and Security
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
-### Đặt những câu hỏi đúng trước khi bắt đầu
+### Asking the right questions before starting
 
-Khi bạn sở hữu Bitcoin, việc bảo mật tiền của bạn là một mối quan tâm lớn. Cách tốt nhất để xác định bảo mật phù hợp với tình huống của bạn là đặt (và trả lời) một loạt câu hỏi; mô hình bảo mật của bạn sẽ phụ thuộc vào câu trả lời của bạn. Hãy bắt đầu:
+When you own bitcoins, the security of your funds is a major concern. The best way to define a security level that is suitable for your situation is to ask yourself a series of questions:
 
-- Ai có thể truy cập vào tiền của tôi? Nói cách khác, bạn là người duy nhất có quyền truy cập vào Bitcoin của mình, hay một bên thứ ba, như một công ty, cho phép bạn truy cập vào tiền của mình?
-- Một câu hỏi khác có thể là: bạn dự định sử dụng Bitcoin của mình cho mục đích gì? Đó là một số tiền bạn sử dụng thường xuyên? Tiết kiệm trung hạn? Tiết kiệm dài hạn?
-- Bạn có kỹ năng kỹ thuật như thế nào?
-- Ngân sách bảo mật của bạn là bao nhiêu?
 
-Hãy nhớ rằng không có giải pháp phổ quát. Vì vậy, hãy dành thời gian để trả lời những câu hỏi này, vì nó sẽ giúp bạn tùy chỉnh các biện pháp bảo mật của mình.
+- Who can access your funds? In other words, do you have sole access to your bitcoins, or does a third party (such as a company) grant you access to your funds?
+- How do you plan to use the bitcoins in that particular wallet? Regularly? For medium-term, or long-term savings?
+- What are your technical skills?
+- What is your security budget?
+
+There is actually no universal answer or solution, so take the time to answer these questions, as it will help tailor your security measures to your needs.
 
 ![image](assets/en/30.webp)
 
-### Suy nghĩ về ví Bitcoin theo mức độ phức tạp
+### Thinking about Bitcoin wallets in terms of complexity
 
-Hãy cố gắng thiết lập một số cấp độ bảo mật cho Bitcoin của bạn:
+Here below, we will define several levels of security:
 
-- **Cấp độ 0**, bạn sử dụng dịch vụ giữ hộ, nơi bạn không phải là người duy nhất sở hữu bitcoin của mình. Hãy nhớ rằng bên thứ ba đáng tin cậy này có thể hạn chế quyền truy cập vào quỹ của bạn bất cứ lúc nào, và bạn có cùng mức độ chủ quyền tài chính như khi sử dụng hệ thống ngân hàng truyền thống thông qua một tài khoản ngân hàng.
-  ![image](assets/en/31.webp)
 
-- **Cấp độ 1**, bạn sử dụng ví Bitcoin trên điện thoại hoặc máy tính của mình, nơi bạn là người duy nhất sở hữu bitcoin của mình. Bạn có thể dễ dàng thực hiện các giao dịch của mình. Tuy nhiên, việc sao lưu cụm từ ghi nhớ để lấy lại quyền truy cập vào quỹ của bạn trong trường hợp mất điện thoại hoặc máy tính là rất quan trọng. Nó thường được gọi là "ví nóng" vì khóa riêng tư được lưu trữ trên thiết bị có kết nối internet.
+- Level 0**, you use a so-called "custodial service" where you are not the sole holder of your bitcoins. Be aware that this trusted third party can restrict your access to your funds at any time. In this case, your level of financial sovereignty is similar to that of a traditional banking system with a bank account.
 
-Ví dụ, bạn có thể sử dụng Sparrow Wallet làm ví nóng:
+![image](assets/en/31.webp)
+
+
+- Level 1**, you use a Bitcoin wallet on your phone or computer, where you are the sole holder of your bitcoins and you can easily carry out your transactions. The afore-mentioned tool is referred to as "hot wallet", because the private key is stored on a device with internet access. In this case, it is crucial to back up your mnemonic phrase to regain access to your funds in the event of losing your phone or computer.
+
+For example, you can use Sparrow Wallet as a hot wallet:
 
 https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
-- **Cấp độ 2**, bạn sử dụng một ví vật lý và bạn đã bảo mật danh sách 12 hoặc 24 từ của mình. Để thực hiện một giao dịch, bạn luôn cần phải ký bằng thiết bị của mình. Điều này làm cho quỹ của bạn ít dễ truy cập hàng ngày. Nó thường được gọi là "Ví Lạnh" vì khóa của bạn được lưu trữ trên thiết bị không kết nối với internet.
+- Level 2**, you use a physical wallet, and you have secured your list of 12/24 words. It is often referred to as "cold Wallet" because your keys are stored on a device that is not connected to the internet. In this case, you will always need to sign every transaction with your device, which makes your funds less accessible on a daily basis.
 
-Ví dụ, bạn có thể sử dụng Ledger, Satochip hoặc Tapsigner:
+For example, you could use a Ledger, a Satochip, or a Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
-
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
-
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
-
 ![image](assets/en/32.webp)
 
-- **Cấp độ 3**, bạn sử dụng ví cấp độ 1 hoặc 2 nhưng với một cụm từ bổ sung. Hãy nhớ rằng bạn giờ đây cần phải sao lưu cả danh sách 12 hoặc 24 từ **và** cụm từ bổ sung của bạn. Lý tưởng nhất, hai thông tin này được lưu trữ ở hai nơi khác nhau.
 
-Để tìm hiểu thêm về cách sử dụng và chức năng của cụm mật khẩu BIP39:
+- Level 3**, you use a level 1 or 2 wallet, but you added an additional passphrase. In this case, be aware that you need to backup both the list of 12/24 words **and** your passphrase. Ideally, these two pieces of information are stored in two different places.
+
+To learn more about the use and functioning of the BIP39 passphrase:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
-
 ![image](assets/en/33.webp)
 
-- **Cấp độ 4**, bạn sử dụng một tập hợp các ví để tạo ra một ví "đa chữ ký", có nghĩa là nó yêu cầu nhiều chữ ký để thực hiện một giao dịch. Hãy nhớ rằng mỗi phần của ví đa chữ ký nên được lưu trữ ở các địa điểm khác nhau. Điều này thường được coi là một cách sử dụng Bitcoin nâng cao, chủ yếu được sử dụng cho số lượng lớn và mục đích doanh nghiệp.
+
+- Level 4**, you use a set of wallets to create a "multisig" wallet, which means that multiple signatures are required to conduct a transaction. In this case, be aware that each part of the multisig should be stored in different locations. This approach is often considered an advanced use of Bitcoin, primarily for managing large amounts and for corporate purposes.
 
 ![image](assets/en/34.webp)
 
-Tất nhiên, chúng ta có thể có nhiều trường hợp sử dụng, và trong những trường hợp như vậy, việc sử dụng nhiều ví Bitcoin được khuyến khích. Không có giải pháp phù hợp với tất cả mọi người.
+Of course, different use cases also require different Bitcoin wallets, and there is no one-size-fits-all solution.
 
-### An ninh phải được điều chỉnh
+### Security must be adapted
 
-Số lượng mà một người sẵn lòng để lại trên một cấp độ bảo mật cụ thể phụ thuộc vào từng cá nhân. Đối với một số người, để lại 1 BTC trên một ví nóng là hợp lý, trong khi đối với những người khác, điều đó hoàn toàn không phải là vậy. Dù trường hợp nào, hãy tránh chi tiêu nhiều vào bảo mật bằng cách mua một ví vật lý khi bạn muốn bảo vệ một số tiền nhỏ. Ngoài ra, hãy nhớ rằng việc làm phức tạp quá mức bảo mật và khả năng truy cập vào bitcoin của bạn có thể gây hại cho bạn nếu, ví dụ, bạn xử lý sai các bản sao lưu của ví.
+The amount one is willing to leave on a specific security level depends on each individual. For some, leaving 1 BTC on a hot wallet is reasonable, while, for others, it is the oppsosite. In any case, when you want to secure a small amount, we advise not to spend too much on security by buying a physical wallet. Besides, keep in mind that overcomplicating the security and accessibility of your bitcoins can be detrimental, especially if you mishandle the backups of your wallets.
 
-Kết luận, việc sở hữu trực tiếp bitcoin của mình là một yếu tố thiết yếu để đảm bảo chủ quyền tài chính. Khuyến khích sử dụng ví di động cho các chi phí hàng ngày và một ví vật lý ngoại tuyến, hay "ví lạnh", để lưu trữ số lượng lớn hơn. Mặt khác, các doanh nghiệp nên cân nhắc sử dụng hệ thống đa chữ ký, hay "multisig", để tăng cường và chia sẻ bảo mật. Cũng rất quan trọng là tránh sử dụng dịch vụ giữ hộ, có thể tái tạo một số điểm yếu của hệ thống tài chính truyền thống càng nhiều càng tốt.
+In conclusion, direct ownership of one's bitcoins is an essential element to ensure financial sovereignty. It is recommended to use a mobile wallet for daily expenses and an offline, or "cold," physical wallet to store larger amounts. Businesses, on the other hand, should consider using multi-signature systems, or "multisig," for increased and shared security. It is also essential to avoid custodial services, which can replicate some vulnerabilities of the traditional financial system.
 
-Giờ đây, khi chúng ta đã hiểu rõ về điều này, hãy chuyển sang phần tiếp theo để xem các bước tạo ví Bitcoin. Tuy nhiên, nếu bạn muốn khám phá thêm về chủ đề bảo mật, bạn có thể đọc [bài viết này của DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
+With this in mind, we can now move to the next section where we describe how to create a Bitcoin wallet. However, if you wish to further explore the topic of security, you can read this [article by DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
-
-
-## Thiết lập ví
+## Setting up a Wallet
 
 <chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
-Việc bảo mật Bitcoin của bạn có tầm quan trọng sống còn, và một sai lầm nhỏ có thể dẫn đến hậu quả đắt giá. Chính vì vậy, chúng ta sẽ xem xét các phương pháp tốt nhất khi tạo một ví Bitcoin mới.
 
-> Lưu ý rằng khóa học BTC102 sẽ hướng dẫn bạn qua bước này.
+The security of your bitcoins has crucial importance, and a simple mistake can have disastrous consequences. That is why we need to learn the best practices to adopt when creating a new Bitcoin wallet.
 
-### Bước này không phải là trò đùa!
+Please note that the BTC102 course will guide you through this step.
 
-Khóa riêng của bạn, thường được biểu diễn bởi một danh sách gồm 24 từ (thường được gọi là "seed" hoặc "mnemonic phrase"), đại diện cho quyền truy cập vào quỹ của bạn. Nếu khóa này bị tiết lộ cho bên thứ ba, coi như quỹ liên quan không còn an toàn nữa. Do đó, khi khởi tạo ví của bạn, quan trọng là phải tuân theo những quy tắc sau:
+https://planb.network/en/courses/btc102
+### This step is no joke!
 
-- Che tất cả các camera.
-- Không chụp ảnh danh sách từ.
-- Không nhập nó vào máy tính hoặc điện thoại.
-- Không lưu nó như một liên hệ hoặc gửi cho bản thân qua SMS.
-- Không bao giờ để lời nhắc của bạn không được giám sát trên bàn làm việc.
-- Không bao giờ ẩn danh sách từ của bạn ở một nơi lạ.
+When you set up a wallet, the software usually creates your private key, usually represented by a list of 12/24 words (often called "seed phrase" or "mnemonic phrase"): these words constitute the access to your funds. If this key is ever revealed to a third party, you should consider the associated funds to be compromised. Therefore, when setting up your wallet, it is essential to follow these rules:
 
-Bạn sẽ thực sự lấy một tờ giấy trắng hoặc in [mẫu này](https://bitcoiner.guide/backup.pdf), và viết danh sách từ theo thứ tự, gọn gàng và rõ ràng, bằng bút. Nếu mực phai theo thời gian, bạn có thể mất quỹ của mình; do đó, quan trọng là phải giữ tờ giấy này được bảo vệ khỏi các yếu tố bên ngoài.
+
+- Cover all cameras.
+- Do not take a photo of the word list.
+- Do not enter it on a computer or phone.
+- Do not save it as a contact or send it to yourself via SMS.
+- Never leave your words unattended on your desk.
+- Never hide your word list in an unusual place.
+
+You should literally take a blank sheet of paper or print this [template](https://bitcoiner.guide/backup.pdf), and write the word list with a pen, following the presented order neatly and clearly. Be aware that if the ink fades over time, you may lose your funds. Therefore, it is important to keep this piece of paper protected from those environmental factors that could potentially damage it, like moisture or fire.
+
+Please find an example of how to compile the paper here below: the words are fake, so do not use them!
 
 ![image](assets/en/35.webp)
 
-### Mẹo để làm đúng cách
+### Our tips for doing it right
 
-Cũng có các giải pháp thay thế cho giấy, như khắc cụm từ mnemonic của bạn trên một tấm kim loại. Nếu bạn viết sai, người thừa kế của bạn có thể không đọc được và do đó có thể không khôi phục được quỹ. Một khi các từ đã được viết, nên làm một bản sao thứ hai và lưu trữ nó ở một vị trí khác biệt so với bản đầu tiên. Điều này cung cấp một bản sao dự phòng trong trường hợp mất mát hoặc tai nạn với bản gốc.
+Besides, make sure not to make any mistake during the copy, otherwise your heirs may struggle to read it and could be unable to recover the funds. Besides, once you have saved the words, it’s advisable to create a second copy and store it in a different location from the first. This ensures you have a backup in case the original is lost or damaged.
 
 ![image](assets/en/36.webp)
 
-Một khi các bản sao đã được tạo, lưu trữ danh sách từ ở một nơi an toàn mà bạn sẽ nhớ để tìm chúng! Đừng tạo một kế hoạch ẩn giấu quá phức tạp khiến bạn có nguy cơ mất chúng.
+The word lists should be stored in a safe place that you can easily remember. Avoid creating overly-complicated hiding plans that could lead to losing them.
 
-> Từ của bạn = tiền của bạn.
+**Your words = your money.**
 
-Ví "lạnh" thường có những danh sách từ này, giống như ví "nóng" trên di động hoặc PC. Phương pháp sao lưu khóa riêng này hiện là tiêu chuẩn. Điều này có nghĩa là bạn có thể nhập cụm từ mnemonic của mình vào bất kỳ phần mềm ví nào để khôi phục ví của mình. Chỉ có những ví xấu mà chúng tôi khuyến cáo mạnh mẽ không sử dụng sẽ không cung cấp cho bạn danh sách 24 từ, nhưng có thể yêu cầu một tài khoản, địa chỉ email, hoặc tồi tệ hơn, một ID.
+Both 'cold' and 'hot' wallets use the word list method as the standard for backing up private keys. As a result, you can enter your mnemonic phrase into any compatible wallet software or device to restore your access. On the other hand, we strongly advise against using wallets that do not provide a seed phrase, as they may require you to provide an account, an email address, or, even worse, an ID.
 
-**CHÚ Ý: Sự vắng mặt của danh sách 24 từ nên làm bạn cảnh giác.**
+**ATTENTION: The absence of a list of 12/24 words should alert you.**
 
-
-
-Nếu bạn muốn tìm hiểu từng bước cách thiết lập ví của riêng mình và có được những bitcoin đầu tiên, tôi cũng khuyên bạn nên tham gia khóa học này:
+If you then wish to discover, step by step, how to set up your own wallet and get your first bitcoins, we also recommend taking this other course:
 
 https://planb.network/courses/btc102
-
-## Đứng vững trước thử thách của thời gian
+## Passing the Test of Time
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
-An ninh là một mối quan tâm lớn trong hệ sinh thái Bitcoin. Thực sự, như bất kỳ hình thức tài sản nào, Bitcoin của bạn phải được bảo vệ khỏi mất mát, trộm cắp và suy giảm, đặc biệt là trong dài hạn. Bảo vệ Bitcoin của bạn đòi hỏi một số kiến thức kỹ thuật và nhận thức về các rủi ro liên quan, điều này dẫn chúng ta đến việc thảo luận hai chiến lược chính: khắc Bitcoin của bạn trên thép và tạo một kế hoạch thừa kế.
+Like any form of wealth, your bitcoins must be protected against loss, theft, and degradation, especially over the long term. Safeguarding your bitcoins requires some technical knowledge and an understanding of the associated risks, which opens the way to two main strategies: engraving your bitcoins on a steel plate and establishing an inheritance plan.
 
-### Khắc trên đá
+### Engraving in steel
 
-Một phương pháp để bảo vệ Bitcoin của bạn trong dài hạn là khắc cụm từ mnemonic của bạn trên một vật liệu chống chịu như thép. Điều này tạo ra một bản sao lưu vật lý của khóa của bạn chống lại hư hại do nước và lửa.
+One method to secure your bitcoins in the long term is to engrave your mnemonic phrase on a resistant material like steel, by creating a physical backup of your keys that is resistant to both water and fire damage.
 
-Có nhiều giải pháp để thực hiện điều này, một số có chi phí thấp như "Blockmit," trong khi những giải pháp khác đòi hỏi nhiều thiết bị hơn. Bạn có thể tự khám phá chủ đề này qua phần hướng dẫn của trường đại học này.
+Various solutions are available: some of them are low-cost, such as the "Blockmit", while others may require more specialized equipment. You can explore this topic further in the [tutorials](https://planb.network/en/tutorials/wallet) section of our academy.
 
 ![image](assets/en/37.webp)
 
-### Nghĩ về thế hệ tiếp theo!
+### Think about the next generation!
 
-Cùng với việc này, việc tạo ra một kế hoạch thừa kế cũng là bước quan trọng để đảm bảo rằng bitcoin của bạn sẽ được quản lý đúng cách sau khi bạn qua đời. Kế hoạch này có thể bao gồm một bức thư viết tay chi tiết về tài sản của bạn, phương pháp truy cập vào chúng, và thông tin liên lạc của những người đáng tin cậy để liên hệ. Cũng quan trọng là phải thảo luận về việc thừa kế bitcoin với một công chứng viên để đảm bảo tuân thủ thuế, mặc dù quan trọng là không bao giờ trực tiếp giao bitcoin của bạn cho bên thứ ba, bao gồm cả công chứng viên.
+Alongside this first practice, creating an inheritance plan is a crucial step to ensure that your bitcoins are properly managed after your death. This plan involves handwriting a letter where you outline the nature of your assets, their access methods, and the contact information of the trusted individuals who have responsibility over them. It’s also important to discuss the inheritance of bitcoins with a notary to ensure tax compliance, even if this person should never be entrusted directly with the management of your bitcoins.
 
-Nếu bạn muốn khám phá thêm về chủ đề kế hoạch thừa kế cho bitcoin của mình, chúng tôi khuyên bạn đọc cuốn sách của Pamela Morgan [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) hoặc tham gia khóa học BTC102 nơi chúng tôi hướng dẫn bạn tạo ra nó.
+If you wish to further explore the subject of the inheritance plan for your bitcoins, we recommend reading Pamela Morgan's book [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) or enrolling in the BTC102 course, where we provide guidance on creating your plan.
 
 ![image](assets/en/38.webp)
 
-### Quyền riêng tư là quan trọng
+### Privacy is important
 
-Bảo mật lâu dài cho bitcoin của bạn không chỉ giới hạn ở việc tạo bản sao lưu vật lý hoặc phát triển một kế hoạch thừa kế. Quyền riêng tư là một yếu tố quan trọng khác. Ví dụ, việc mua bitcoin mà không cần cung cấp thông tin nhận dạng là ưu tiên để giảm thiểu rủi ro về trộm cắp danh tính hoặc đơn giản là việc theo dõi quỹ của bạn bởi bất kỳ thực thể nào có đủ phương tiện. Khóa học BTC 205 có thể hỗ trợ bạn với điều này nếu cần.
+In addition to creating physical backups or developing an inheritance plan, privacy is another important topic when it comes to the long-term security of your bitcoins. For example, it is preferable to buy bitcoins without providing identification to minimize the risks of identity theft or tracking of your funds by those entities with the right tools.
 
-Về quyền riêng tư, điều quan trọng là tránh nói với mọi người về bitcoin của bạn. Thực sự, chúng ta không biết tài sản này sẽ đi về đâu, và giữ kín về quyền sở hữu của nó là một quyết định khôn ngoan. Bạn không muốn thu hút sự chú ý đến bản thân và ví của mình.
+Regarding privacy, it is crucial to avoid talking to everyone about your bitcoins. We cannot predict how this technology will be perceived in the future, so maintaining discretion about your ownership is a wise choice: you don’t want to draw attention to yourself or your wallet.
 
-Cùng một lý do, tránh tiết lộ hệ thống bảo mật của bạn một cách ồn ào trong các cuộc gặp gỡ bitcoin hoặc khi gặp gỡ người lạ...
+Similarly, avoid openly sharing details about your security system during bitcoin meetings or encounters with strangers...
+
+### Summary on Bitcoin Wallet Security
+
+Bitcoin wallets are pieces of software that allow you to store bitcoins and make transactions. There are several types:
 
 
+- mobile or PC wallets, convenient for small amounts and/or regular expenses;
+- physical wallets, more suitable for storing bitcoins in the medium and long term;
+- multisig wallets, which are more complex to manage and require multiple signatures to perform transactions.
 
-### Tóm tắt về bảo mật ví Bitcoin
+When creating a wallet, you must first backup your list of 12 or 24 words on a piece of paper or a metal plate. This so-called mnemonic phrase allows you to restore your wallet through any Bitcoin wallet application. Be aware that anyone who gains access to this list also gains access to your funds.
 
-Ví Bitcoin là phần mềm cho phép bạn lưu trữ và giao dịch bitcoin. Có nhiều loại: ví di động hoặc PC, tiện lợi cho số lượng nhỏ và/hoặc chi tiêu thường xuyên; ví vật lý, phù hợp hơn để lưu trữ bitcoin trong trung và dài hạn; ví multisig, phức tạp hơn để quản lý và yêu cầu nhiều chữ ký để thực hiện giao dịch.
-Khi tạo ví, bạn phải sao lưu khóa riêng của mình trước tiên. Sao lưu này dưới dạng một danh sách 12 hoặc 24 từ, hoặc 12 từ mà bạn có thể viết trên một tờ giấy hoặc một tấm kim loại. Cụm từ ghi nhớ này cho phép bạn khôi phục ví của mình trên bất kỳ ứng dụng ví Bitcoin nào. Bất kỳ ai có quyền truy cập vào danh sách này cũng có quyền truy cập vào bitcoin của bạn. Trong Bitcoin, chủ quyền tài chính đi đôi với trách nhiệm cá nhân, vì vậy rất quan trọng khi bạn bảo vệ quyền truy cập vào ví và bản sao lưu của mình. Để làm điều này, quan trọng là phải tuân theo một số quy tắc:
+In the world of Bitcoin, financial sovereignty is closely tied to individual responsibility, making it essential to secure access to your wallets and backups. To achieve this, it’s important to follow certain guidelines:
 
-- Tạo một kế hoạch thừa kế: để đảm bảo rằng người thân của bạn có thể lấy lại tiền trong trường hợp có vấn đề.
-- Tránh các sàn giao dịch: nên tránh để Bitcoin của bạn trên các sàn giao dịch, vì chúng có thể dễ bị tấn công bởi hacker.
-- Điều chỉnh mức độ bảo mật của bạn: dành thời gian để giải thích nhu cầu và sử dụng của bạn, điều này sẽ giúp bạn lựa chọn trong số các ví Bitcoin khác nhau có sẵn.
 
-Bây giờ chúng ta đã đề cập đến cơ bản của ví Bitcoin và các phương pháp hay nhất để bảo mật chúng, chúng ta sẽ tiếp tục với hoạt động kỹ thuật của Bitcoin trong chương tiếp theo. Một lần nữa, việc biết đến cơ bản của giao thức Bitcoin sẽ cho phép bạn hiểu rõ hơn về cách thức hoạt động của nó, điều này sẽ giúp bạn sử dụng nó một cách tốt hơn.
+- Create an inheritance plan to ensure that your loved ones can retrieve the money in case of any problem.
+- Avoid leaving your Bitcoins on exchange platforms as they can be susceptible to hacker attacks.
+- Adapt your level of security to your needs and use cases, in order to choose well among the different Bitcoin wallets available.
 
-# Các khía cạnh kỹ thuật của Bitcoin.
+Now that we have covered the basics of Bitcoin wallets and the best practices for securing them, in the next chapter we will explore the technical features of Bitcoin. Once again, understanding the basics of the Bitcoin protocol will enhance your comprehension of how it works, empowering you to make better use of it.
+
+# The Technical Aspects of Bitcoin.
 
 <partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
 
-## Khởi động Bitcoin
+## Launching Bitcoin
 
 <chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
 
-### Hãy bắt đầu với một chút lịch sử.
+### Let's start with a bit of history.
 
 ![image](assets/en/39.webp)
-Ngày 31 tháng 10 năm 2008 đánh dấu sự ra đời của một công nghệ tài chính mới: Bitcoin. Đó là ngày mà Satoshi Nakamoto, tác giả ẩn danh của Bitcoin, giới thiệu sáng tạo của mình cho thế giới thông qua một email được phân phối đến danh sách gửi thư của cypherpunk, một cộng đồng những người đam mê mã hóa học đam mê về quyền riêng tư trên internet.
-Email này chứa một tài liệu, được gọi là "Bản Trắng," mô tả cách hoạt động của Bitcoin. Trước những thất bại của các hệ thống tiền điện tử trước đó, sáng kiến này không ngay lập tức tạo ra sự hứng thú. Tuy nhiên, Bản Trắng này cuối cùng đã trở thành một tài liệu tham khảo cho người dùng Bitcoin và đã trở thành đề tài của nhiều cuộc tranh luận trong hệ sinh thái Bitcoin.
+
+October 31, 2008 marks the birth of the new financial technology that is Bitcoin. On this day, the anonymous Satoshi Nakamoto presented his innovation to the world through an email sent to the mailing list of the cypherpunks, a community of cryptography enthusiasts dedicated to promoting privacy on the internet. This email contained a document called "White Paper", which presented how Bitcoin worked.
+
+This initiative did not immediately generate enthusiasm, probably because of the previous failures in the attempts to create a digital cash systems. Nevertheless, this White Paper eventually became a reference for Bitcoin users and has been the subject of many debates in the Bitcoin ecosystem through the years.
 
 ![image](assets/en/40.webp)
 
-Ngày 3 tháng 1 năm 2009, Satoshi chính thức khai trương mạng lưới Bitcoin bằng cách tạo ra khối đầu tiên, còn được biết đến là khối sơ khai, đánh dấu sự khởi đầu của chuỗi khối Bitcoin. Khối này chứa một thông điệp tiết lộ về sứ mệnh của Bitcoin: "03/jan/2009 Thủ tướng trên bờ vực của viện trợ thứ hai cho các ngân hàng."
+On January 3, 2009, Satoshi officially inaugurated the Bitcoin network by creating the first block, also known as the "Genesis block", which marked the launch of the Bitcoin blockchain. This block contains a revealing message reflecting the mission of Bitcoin: "03/jan/2009 Chancellor on brink of second bailout for banks."
 
 ![image](assets/en/41.webp)
 
-> "Chúng ta có thể giành chiến thắng trong cuộc đua vũ trang và giành được
-> một lãnh thổ tự do mới trong nhiều năm.” - Satoshi Nakamoto
+> "We can win a major battle in the arms race and gain a
+> new territory of freedom for several years.” - Satoshi Nakamoto
+![image](assets/en/42.webp)
 
-![image](assets/en/chapter9/7.webp)
+### The Bitcoin protocol comes to life
 
-### Giao thức Bitcoin bắt đầu hoạt động
-
-Ngày 8 tháng 1 năm 2009, Satoshi thông báo về việc phát hành Bitcoin-0.1.0. Ngay sau đó, Hal Finney tiếp nhận phần mềm và tham gia vào mạng lưới. Bây giờ, đã có 2 nút, và do đó là 2 thợ đào, trong mạng lưới. Finney ghi lại bước tiến này bằng cách tweet "Running Bitcoin". Ngày 12 tháng 1 năm 2009, giao dịch Bitcoin đầu tiên được thực hiện giữa Satoshi và Hal Finney. Giao dịch này, với 10 BTC, được ghi lại trong khối 170.
+On January 9, 2009, Satoshi announced the release of Bitcoin 0.1.0 version. Shortly after, Hal Finney took hold of the software and joined the network, which marked the presence of two nodes and, therefore, two miners in the network. Finney even immortalized this step by tweeting, 'Running Bitcoin'. On January 12, 2009, the first Bitcoin transaction of 10 BTC was made between Satoshi and Hal Finney, and you can easily find it, if you go back to block 170.
 
 ![image](assets/en/43.webp)
 
-Sự quan tâm đối với Bitcoin tăng nhanh chóng, và nhiều người bắt đầu thử nghiệm, tranh luận, giải quyết lỗi, và suy ngẫm về các khía cạnh đạo đức, kinh tế, và triết học của Bitcoin. Để tạo điều kiện cho những trao đổi này, diễn đàn BitcoinTalk được Satoshi tạo ra vào ngày 22 tháng 11 năm 2009.
-Diễn đàn này nhanh chóng trở thành nơi thảo luận ưa thích của người dùng Bitcoin. Tại đây, nhiều meme và biểu tượng liên quan đến Bitcoin đã được sinh ra, như [logo Bitcoin](https://bitcointalk.org/index.php?topic=64.0), cái nổi tiếng [Hodl](https://bitcointalk.org/index.php?topic=375643.0), hay thậm chí là [Ngày Pizza](https://bitcointalk.org/index.php?topic=137.msg1195).
+Interest in Bitcoin grew rapidly, leading many people to test it, engage in debates, solve bugs, and reflect on its ethical, economic, and philosophical aspects. People were so captivated that Satoshi created the BitcoinTalk forum on November 22, 2009, in order to facilitate these types of confrontation.
 
-> **Bạn có biết?** Thật vậy, vào ngày 22 tháng 5 năm 2010, Laszlo Hanyecz đã tạo nên lịch sử với Bitcoin bằng cách đề nghị mua 2 chiếc pizza với 10,000 BTC. Đây là lần đầu tiên Bitcoin được sử dụng để mua hàng hóa vật lý.
+The forum quickly became the preferred place of discussion for Bitcoin users, so much so that famous memes and symbols associated with Bitcoin were born from it, such as the [Bitcoin logo](https://bitcointalk.org/index.php?topic=64.0), the famous [Hodl](https://bitcointalk.org/index.php?topic=375643.0), or even [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
+
+**Did you know?** On May 22, 2010, Laszlo Hanyecz made history by offering to buy two pizzas for 10.000 BTC: it was the first time that Bitcoin was used to purchase physical goods.
 
 ![image](assets/en/44.webp)
 
-### Sự biến mất của Satoshi Nakamoto
+### The disappearance of Satoshi Nakamoto
 
-Năm 2010, khi Bitcoin bắt đầu thu hút sự chú ý của truyền thông, Satoshi quyết định lùi lại. Ngày 12 tháng 12 năm 2010, ông đăng bài viết cuối cùng trên diễn đàn, thông báo về sự ra đi của mình. Ngày 23 tháng 4 năm 2011, ông thực hiện trao đổi riêng tư cuối cùng qua email mà người ta biết đến. Sau đó, Satoshi biến mất, để lại sáng tạo của mình trong tay cộng đồng.
+In 2010, as Bitcoin started attracting media attention, Satoshi decided to distance himself by announcing his departure in a forum post on December 12, 2010. On April 23, 2011, he made his last known private exchange via email, then disappeared, leaving his creation in the hands of the community.
 
-> “Chính phủ giỏi trong việc cắt đầu của các mạng lưới trung ương
-> như Napster, nhưng các mạng lưới P2P thuần túy như
-> Gnutella và Tor dường như đang tự giữ vững.” - Satoshi Nakamoto
-> Mặc dù Satoshi đã vắng mặt, Bitcoin vẫn tiếp tục phát triển. Mỗi 10 phút, lịch sử của Bitcoin lại được viết lên, và giao thức tiếp tục hoạt động như đã được thiết kế. Bất chấp nỗi sợ hãi, sự không chắc chắn, hoặc nghi ngờ (FOMO cho Nỗi Sợ Bỏ Lỡ hoặc FUD cho Nỗi Sợ Hãi Không Chắc Chắn Nghi Ngờ), Bitcoin vẫn tiếp tục tiến lên, với khả năng truy cập trực tuyến là 99.988%.
+> “Governments are good at cutting off the heads of a centrally
+> controlled networks like Napster, but pure P2P networks like
+> Gnutella and Tor seem to be holding their own.” - Satoshi Nakamoto
+Despite Satoshi's absence, Bitcoin continued to be developed: the history of Bitcoin is written every 10 minutes, and the protocol continues to function to this day as intended. Regardless of any fear, uncertainty, or doubt, Bitcoin continues to move forward, with a very strong online availability. In fact, according to this [website](https://bitcoinuptime.com/), Bitcoin has been functional and running without massive issues for 99.988% of the time since it was created.
 
-Mỗi người có cách nhìn nhận Bitcoin một cách khác nhau. Đối với một số người, đó là một thực thể giống như nấm [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), đối với những người khác, đó là một [hố đen](https://dergigi.com/2019/05/01/bitcoins-gravity/). Dù yêu hay ghét, Bitcoin vẫn tồn tại, với nhịp độ không đổi 10 phút mỗi khối, như nhịp đập của một hệ thống tiền tệ mới.
+For some, Bitcoin is a defined as fungal entity like a [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), while others descrive it as a [black hole](https://dergigi.com/). Love it or hate it, Bitcoin continues to exist, with its constant rhythm of 10 minutes per block, like the heartbeat of a new monetary system.
 
-Để tìm hiểu thêm về các bài viết của Satoshi Nakamoto, tôi khuyên bạn đọc cuốn sách của Phil Champagne [Phil Champagne's book](https://planb.network/resources/books) hoặc xem bộ phim tài liệu của ARTE "le mystaire Satoshi".
+To learn more about Satoshi Nakamoto's writings, we recommend reading ["The Book of Satoshi"](https://planb.network/en/resources/books/98) by Phil Champagne or the ARTE documentary "Le mystaire Satoshi".
 
 ![image](assets/en/45.webp)
 
-> “Vấn đề cốt lõi với tiền tệ thông thường là tất cả sự tin tưởng cần thiết để nó hoạt động. Ngân hàng trung ương phải được tin tưởng là không làm mất giá tiền tệ, nhưng lịch sử của các đồng tiền fiat đầy rẫy những vi phạm niềm tin đó. Các ngân hàng phải được tin tưởng để giữ tiền của chúng ta và chuyển nó điện tử, nhưng họ lại cho vay nó ra trong các đợt bong bóng tín dụng với chỉ một phần nhỏ dự trữ.”
+> “The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve” - [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
+Now that we have some background, let's examine how a Bitcoin transaction works in general.
 
-Giờ đây, khi chúng ta đã có một số nền tảng, hãy xem xét cách một giao dịch Bitcoin hoạt động nói chung.
-
-
-
-## Giao dịch Bitcoin
+## Bitcoin Transactions
 
 <chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
 
-Một giao dịch Bitcoin đơn giản là việc chuyển quyền sở hữu Bitcoin, sử dụng một địa chỉ Bitcoin. Lấy ví dụ, hai nhân vật: Alice và Bob. Alice muốn mua Bitcoin, trong khi Bob đã sở hữu một số.
+A Bitcoin transaction is simply a transfer of ownership of bitcoins through the use of a Bitcoin address. In order to describe this process, let's introduce two protagonists: Alice and Bob. Alice wishes to acquire bitcoins, while Bob already owns some.
 
-### Bước 1 - Tạo giao dịch qua ví
+### Step 1 - Creating the transaction via the wallet
 
-Để Bob chuyển Bitcoin cho Alice, Alice phải cung cấp cho Bob một trong những địa chỉ Bitcoin của mình. Địa chỉ này, được tạo ra từ khóa công khai của Alice, là duy nhất với ví Bitcoin của cô ấy.
+For Bob to transfer bitcoins to Alice, she must provide him with one of her Bitcoin addresses, which are unique to her Bitcoin wallet. Just like the private key is used to generate the public key, the latter is then used to generate addresses.
 
-Cụ thể, Alice mở ví của mình và nhấn "nhận". Một mã QR hoặc địa chỉ như bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr sẽ được hiển thị. Đó là "IBAN Bitcoin" của cô ấy. Cô ấy cung cấp nó cho Bob.
+In concrete terms, when Alice opens her wallet and presses "receive", a QR code or an address (like this bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr) will be displayed. This serves as her 'Bitcoin IBAN' of sorts, which she then provides to Bob.
 
-Sau đó, Bob khởi tạo giao dịch sử dụng địa chỉ nhận của Alice. Bob lần lượt mở ví Bitcoin của mình, nhấn "gửi", sao chép và dán địa chỉ, thêm một số tiền và phí giao dịch. Những phí này là động lực cho các thợ mỏ để bao gồm giao dịch trong khối tiếp theo.
+Afterwards, Bob makes the transaction by opening his Bitcoin wallet and pressing "send". He then copies and pastes Alice's address into the required field, adds the amount he wishes to send, and decides on the transaction fees, which serve as an incentive for miners to include the transaction in the next block. In fact, the higher the fees Bob pays, the better his chances are of having the transaction included in the next block added to the blockchain, i.e. a public and immutable ledger recording all Bitcoin transactions.
+
+To finalize the transaction, Bob must sign it with his private key to verify that he is the owner of the bitcoins he wants to transfer. This step is usually automatic on mobile wallets, or it takes the form of a confirmation on your physical wallet: "Are you sure you want to send X to Y? Yes or no".
 
 ![image](assets/en/46.webp)
 
-> **Tại sao phải trả phí?** Những phí này là cần thiết để tạo ra một thị trường tự do cho việc bao gồm giao dịch trong các khối, vì số lượng giao dịch trong một khối là có hạn. Thực tế, một khối có kích thước là 1 MB, tương đương với vài nghìn giao dịch mỗi khối. Phí của một giao dịch tỷ lệ với kích thước của nó. Kích thước của giao dịch, đổi lại, phụ thuộc vào độ phức tạp của giao dịch.
+**Why do we pay fees?** Fees are essential to create a free market for including transactions in blocks. In fact, a block has a size of 1 MB (which was expanded to 4MB after the Segwit update), so the number of transactions that can be "inserted" in a block is limited to a few thousand transactions per block. The size of a transaction depends on its complexity. Therefore, more complex transactions typically incur higher fees.
 
-Để hoàn tất giao dịch, Bob phải cung cấp một chữ ký với khóa riêng của địa chỉ mà anh ta sử dụng để trả cho Alice. Điều này xác minh rằng anh ta là chủ sở hữu của Bitcoin mà anh ta muốn chuyển. Bước này thường được thực hiện tự động trên ví di động, hoặc là một xác nhận trên ví vật lý của bạn: "Bạn có chắc chắn muốn gửi X cho Y? Có hay không".
+### Step 2: Propagation of the transaction through nodes
 
-### Bước 2: Lan truyền giao dịch qua các nút đến các thợ mỏ
+At this stage, the transaction has been created and Bob's wallet will share it with the Bitcoin network. To do this, his wallet will communicate with a node of the Bitcoin network, which will propagate this information to other nodes. This kind of process allows the entire network to see this new transaction and take it into account.
 
-Tại giai đoạn này, giao dịch đã được tạo và ví của Bob sẽ chia sẻ nó với mạng lưới Bitcoin. Để làm điều này, ví của anh ấy sẽ giao tiếp với một nút của mạng lưới Bitcoin, và nút này sẽ lan truyền thông tin này đến các nút khác. Bước lan truyền này cho phép toàn bộ mạng lưới biết về giao dịch mới này và xem xét nó.
+![image](assets/en/47.webp)
 
-![hình ảnh](assets/en/47.webp)
+At this point, even though this transaction is known to everyone (via a tool called Mempool), it cannot be considered confirmed until it gets inserted in a block by a miner, who is the only one who validates transactions by including them in the blockchain.
 
-Mặc dù giao dịch này bây giờ đã được biết đến bởi mọi người (thông qua một công cụ gọi là Mempool), giao dịch này không nhất thiết được coi là đã xác nhận! Thực tế, đó là các thợ mỏ (miner) xác nhận các giao dịch bằng cách bao gồm chúng trong một khối của blockchain nổi tiếng của chúng ta.
+In fact, miners have the role of gathering valid and unconfirmed transactions to compile them into a block. In a nutshell, they must solve a cryptographic puzzle in a process called "proof of work" in order for their block to be the next one in the Bitcoin blockchain.
 
-Các thợ mỏ có nhiệm vụ lấy các giao dịch hợp lệ và chưa được xác nhận, sau đó biên soạn chúng vào một khối. Để khối của họ là khối tiếp theo trong blockchain Bitcoin, họ phải giải một câu đố mật mã trong quá trình gọi là "proof of work" (chứng minh công việc).
+![image](assets/en/48.webp)
 
-![hình ảnh](assets/en/48.webp)
+### Step 3: The transaction is mined in a block by a miner.
 
-### Bước 3: Giao dịch được khai thác trong một khối bởi một thợ mỏ.
+The Proof of work system requires finding a valid "hash" for the block in question: think of it as a unique fingerprint associated with the block, composed of 256 characters. The validity of this hash depends on the difficulty rate of the Bitcoin network (we will go into more details later). For now, consider that a miner has found a valid block, and that Bob's transaction to Alice is included in it. Then, the new valid block is added to the blockchain, the common ledger for all Bitcoin users.
 
-Chứng minh công việc này đòi hỏi tìm một "hash" hợp lệ cho khối đó. Hãy nghĩ về nó như một dấu vân tay độc đáo liên kết với khối, bao gồm 256 ký tự. Tính hợp lệ của hash này phụ thuộc vào độ khó của mạng lưới Bitcoin. Chúng ta sẽ đi sâu vào cơ chế này sau. Bây giờ, hãy coi là một thợ mỏ đã tìm thấy một khối hợp lệ và giao dịch của Bob với Alice được bao gồm trong đó.
+![image](assets/en/49.webp)
 
-Khối hợp lệ mới này được thêm vào blockchain Bitcoin, là một sổ cái công cộng và không thể thay đổi của tất cả các giao dịch Bitcoin. Hãy nghĩ về nó như một sổ cái chung cho tất cả người dùng Bitcoin. Theo quy tắc giao thức, một khối được thêm vào khoảng mỗi mười phút nhờ điều chỉnh độ khó. Chúng ta sẽ xem trong phần về các thợ mỏ cơ chế nào ngăn chặn sự thay đổi của sổ cái giao dịch Bitcoin.
+### Step 4: The block is valid and verified by Alice's referent node.
 
-![hình ảnh](assets/en/49.webp)
+At this stage, the transaction is considered valid: the miner will then propagate the new block to the network through their node, and Alice's wallet will be updated.
 
-### Bước 4: Khối được xác thực và kiểm tra bởi nút ví của Alice.
+![image](assets/en/50.webp)
 
-Tại giai đoạn này, giao dịch được coi là hợp lệ, thợ mỏ sau đó sẽ lan truyền khối mới qua nút của họ đến mạng lưới, và ví của Alice sẽ được cập nhật.
+**Note:** Even if Alice is notified that she has received bitcoins at one of her addresses, it is advisable to consider the transaction immutable only after it has received **six** confirmations. This means that six additional blocks have to be mined on top of the block containing Bob's transaction. In other words, the older a transaction is in the blockchain, the more immutable it becomes.
 
-![hình ảnh](assets/en/50.webp)
+### What is the importance of this process?
 
-> Lưu ý: Ngay cả khi Alice thấy rằng cô ấy đã nhận được bitcoin trên một trong số các địa chỉ của mình, nó được khuyến nghị coi giao dịch là không thể thay đổi chỉ khi nó có 6 xác nhận. Điều này có nghĩa là 6 khối khác đã được khai thác trên khối chứa giao dịch của Bob. Nói cách khác, càng lâu một giao dịch tồn tại trong blockchain, nó càng trở nên không thể thay đổi.
+The Bitcoin transaction system is decentralized and works peer-to-peer, without any trusted intermediaries.
 
+Bob sends his transaction to the Bitcoin network, and when a miner publishes a valid block containing Bob's transaction, Alice can start considering that the bitcoins belong to her. Trust is not required at any step of the bitcoin ownership transfer: the protocol rules and economic incentives alone make it prohibitively costly to act maliciously within the Bitcoin system.
 
+In fact, users transfer ownership of their funds by digitally signing transactions with their own private keys. On the other hand, miners hold limited power, and users maintain significant control by using Bitcoin nodes to validate the new blocks and the included transactions. Every node has either a full or a partial copy of the ledger, so the network formed by the Bitcoin nodes makes the system truly decentralized.
 
-### Ý nghĩa của tất cả điều này là gì?
+As a consequence, for the Bitcoin network to be completely destroyed, every copy of the blockchain on all Bitcoin nodes would need to be eliminated, which is a practically impossible task due to the geographical distribution of these nodes and the difficulty of physically seizing them.
 
-Cuối cùng, hệ thống giao dịch Bitcoin là phi tập trung và hoạt động theo nguyên tắc ngang hàng, không cần bất kỳ trung gian đáng tin cậy nào.
+Let's take a closer look at how a Bitcoin node works.
 
-Bob gửi giao dịch của mình đến mạng lưới Bitcoin, và khi một thợ mỏ công bố một khối hợp lệ chứa giao dịch của Bob, Alice có thể bắt đầu coi bitcoin là thuộc về mình. Không cần tin tưởng ở bất kỳ bước nào trong quá trình chuyển giao quyền sở hữu bitcoin; chỉ có quy tắc giao thức và động cơ kinh tế làm cho việc hành động ác ý trong giao thức Bitcoin trở nên quá tốn kém.
-
-Người dùng chuyển giao quyền sở hữu tiền của họ bằng cách ký số giao dịch với khóa riêng của họ. Các thợ mỏ giữ rất ít quyền lực, vì người dùng cũng có quyền kiểm soát đáng kể thông qua các nút Bitcoin xử lý việc xác thực các khối mới và các giao dịch được bao gồm. Chính thông qua mạng lưới các nút Bitcoin này mà mạng lưới thực sự được phi tập trung.
-Trên thực tế, để mạng lưới Bitcoin bị phá hủy hoàn toàn, tất cả các bản sao của blockchain trên tất cả các nút Bitcoin sẽ phải bị hủy - một nhiệm vụ thực tế là không thể do sự phân bố địa lý của các nút này và khó khăn trong việc thu giữ chúng về mặt vật lý. Hãy cùng xem xét kỹ hơn cách một nút Bitcoin hoạt động.
-
-## Nút Bitcoin
+## Bitcoin Nodes
 
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
-Nút là một yếu tố cơ bản trong kiến trúc mạng lưới Bitcoin. Chúng thực hiện nhiều chức năng quan trọng:
+Nodes are a fundamental element of the Bitcoin network architecture, as they perform various crucial functions:
 
-- Duy trì một bản sao của blockchain Bitcoin
-- Xác thực giao dịch
-- Truyền thông tin cho các nút khác
-- Thực thi các quy tắc của giao thức Bitcoin.
 
-Do đó, bất kỳ thiết bị nào chạy phần mềm Bitcoin, được gọi là nút Bitcoin (thường qua [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), đều góp phần vào việc phân cấp mạng lưới.
+- Maintaining a copy of the Bitcoin blockchain
+- Validating transactions
+- Transmitting information to other nodes
+- Enforcing the rules of the Bitcoin protocol.
+
+Therefore, any device running a piece of Bitcoin software, called Bitcoin node (often using [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), contributes to the decentralization of the network.
 
 ![image](assets/en/51.webp)
 
-### Vì vậy, nút chính là trung tâm cốt lõi của Bitcoin.
+### Nodes are the central core of Bitcoin.
 
-Mỗi nút giữ một bản sao của blockchain, cho phép xác minh giao dịch và ngăn chặn bất kỳ nỗ lực gian lận nào. Khía cạnh phân cấp của mạng lưới mang lại cho Bitcoin sự kiên cường và vững chắc đặc biệt - để dừng giao thức Bitcoin, tất cả các nút trên toàn thế giới sẽ phải được tắt. Để bạn biết, hiện nay (tháng 9 năm 2023) có khoảng [45,000 nút](https://bitnodes.io/nodes/all/) được phân bố trên toàn cầu.
+Each node holds a copy of the blockchain, which permits transaction verification and prevents any fraud attempt. The decentralized nature of the network gives Bitcoin exceptional resilience and robustness. In fact, to stop the Bitcoin protocol, all nodes around the world would have to be shut down. For your information, as of September 2023 there were approximately [45,000 nodes](https://bitnodes.io/nodes/all/) distributed across the globe.
 
-Nút có khả năng xác minh tính hợp lệ của các khối và giao dịch vì chúng tuân theo các quy tắc của sự đồng thuận Bitcoin. Những quy tắc này quản lý, trong số các điều khác, chính sách tiền tệ của Bitcoin như số lượng thưởng cho các thợ mỏ (mà chúng ta sẽ thảo luận chi tiết hơn trong phần tiếp theo) và số lượng bitcoin đang lưu hành. Nút hoạt động như hệ thống pháp lý của mạng lưới một cách nào đó. Nhờ có chúng, tất cả các bên tham gia mạng lưới tuân theo cùng một quy tắc. Chúng đảm bảo tính trung lập của giao thức Bitcoin. Các quy tắc đồng thuận thay đổi rất ít, nếu có, bởi vì để thực hiện thay đổi, sự chấp thuận của tất cả các nút là cần thiết.
+Nodes are capable of verifying the validity of blocks and transactions because they follow the rules of the Bitcoin consensus. These rules establish the Bitcoin's monetary policy, such as the amount of miners' reward (which we will discuss in more detail in the next section) and the amount of bitcoin in circulation. In a way, nodes act as the network's legal system because all network participants follow the same rules because of them, so they ensure the neutrality of the Bitcoin protocol. Consensus rules hardly vary, if at all, because to make changes, the approval of all nodes is required.
 
 ![image](assets/en/52.webp)
 
-Quản trị trong giao thức nằm ngoài phạm vi của khóa học này, nhưng biết rằng mỗi người dùng chạy một nút Bitcoin quyết định họ muốn tuân theo quy tắc nào. Do đó, một người dùng có thể quyết định tuân theo các quy tắc khác (tức là, thực hiện các thay đổi đối với mã), nhưng nếu những thay đổi này làm mất hiệu lực các quy tắc đồng thuận hiện tại, thì nút này sẽ không còn là một phần của mạng lưới Bitcoin nữa. Do đó, các thay đổi lớn là hiếm và đòi hỏi sự phối hợp đáng kể giữa hàng nghìn người chơi với các ý tưởng và lợi ích khác nhau, buộc giao thức chỉ sản xuất các cập nhật làm cho nó "tốt hơn" theo nghĩa của tất cả người dùng Bitcoin.
+Governance within the protocol is beyond the scope of this basic course, but it's important to note that each user running a Bitcoin node can decide which rules to follow. A user may choose to adhere to different rules (i.e., make modifications to the code), but if these changes invalidate the current consensus rules, that node will no longer be part of the Bitcoin network. Consequently, major modifications are rare and require significant coordination among thousands of participants with diverse ideologies and interests, which forces them to provide updates that are considered 'better' by all Bitcoin users.
 
-### Một nút trông như thế nào?
+### What does a node look like?
 
-Chúng ta có một số lựa chọn khi muốn có nút riêng của mình, và chi phí bảo trì của chúng thay đổi. Bạn có thể đơn giản chạy phần mềm Bitcoin Core trên máy tính của mình, nhưng điều này sẽ yêu cầu một lượng lớn không gian lưu trữ vì blockchain khoảng ~500GB. Để vượt qua ràng buộc này, bạn có thể chọn chỉ giữ lại N khối cuối cùng trong bộ nhớ, được gọi là "nút tỉa". Đối với loại giải pháp này, chi phí là không đáng kể vì nút chỉ được bật khi bạn cần nó.
+There are several options available when you want to install your own node, with different maintenance costs. You can simply run the Bitcoin Core software on your computer, but it will require a significant amount of storage space, as the blockchain is about ~500GB. To overcome this constraint, you can choose to only keep the last N blocks in the memory by creating a "pruned node". For this second solution, the cost is negligible because the node is only active when you need it.
 
 ![image](assets/en/53.webp)
 
-Một lựa chọn thứ hai là sử dụng phần cứng chuyên dụng cho mục đích này, chẳng hạn như Raspberry Pi 4 với một ổ SSD đủ lớn (khoảng ~1TB). Lựa chọn thứ hai này đắt hơn nếu bạn phải mua phần cứng, nhưng về mặt tiêu thụ điện năng, nó chiếm ít hơn €10 mỗi năm.
-Từ góc độ băng thông, xem xét 1 khối 1MB mỗi 10 phút, điều này tương đương với khoảng 5GB mỗi tháng.
+A second option is to use a dedicated piece of hardware for this purpose, such as a Raspberry Pi 4 with a sufficiently large SSD (about ~1TB). This other option is more expensive if you have to buy the hardware, but it represents a little less than €10,00 per year in terms of electricity consumption.
 
-### Nút phải luôn dễ tiếp cận với mọi người!
+From a bandwidth perspective, considering 1 block of 1MB every 10 minutes, it corresponds approximately to 5GB per month.
 
-Chi phí phải chăng và khả năng tiếp cận của một nút Bitcoin về mặt tài nguyên phần cứng, lưu trữ và băng thông là một khía cạnh rất quan trọng vì nó thúc đẩy sự phân quyền của mạng lưới.
-Thực sự, mọi người đều có lý do chính đáng để chạy một nút! Giá cả và công sức bỏ ra là tối thiểu so với lợi ích thu được. Bạn chỉ cần bắt đầu cuộc phiêu lưu và tham gia cùng hàng ngàn người khác vì cùng nhau chúng ta tạo nên mạng lưới Bitcoin.
+### Nodes must remain accessible to everyone!
 
-![hình ảnh](assets/en/54.webp)
+The affordable cost and accessibility of a Bitcoin node in terms of hardware resources, storage, and bandwidth is a very important characteristic, as it facilitates the decentralization of the network.
 
-Ví dụ, nếu các khối nặng hơn 100 lần, chúng ta chắc chắn có thể thực hiện 100 lần nhiều giao dịch hơn mỗi 10 phút, nhưng việc chạy một nút Bitcoin sẽ yêu cầu một ổ cứng 50TB, băng thông trên 500GB/tháng, và phần cứng có khả năng xác thực hàng trăm nghìn giao dịch trong ít hơn 10 phút. Trong tình huống giả định này với các khối lớn hơn 100 lần, việc chạy một nút Bitcoin sẽ không thể tiếp cận được với người dùng trung bình, điều này sẽ làm tổn hại đến sự phân quyền của giao thức và tính bất biến của giao dịch và quy tắc đồng thuận. Do đó, các hạn chế của giao thức cũng đã được chọn để cho phép càng nhiều người càng tốt có thể chạy nút Bitcoin của riêng họ.
+Indeed, everyone has a good reason to run a node! The costs and efforts are minimal compared to the benefit obtained. You just have to embark on the adventure and join thousands of other bitcoiners to form the Bitcoin network all together.
 
-Tình huống này không phải là giả định vì năm 2017 đã chứng kiến một cuộc tranh cãi gay gắt được biết đến là "cuộc chiến khối". Cuộc xung đột này đối đầu giữa các bên muốn sửa đổi Bitcoin bằng cách tăng kích thước khối để tăng khả năng giao dịch, với những người tìm cách bảo vệ quyền lực và độc lập của người dùng. Cuối cùng, người dùng và các nút đã chiến thắng bằng cách từ chối thay đổi được đề xuất bởi các thợ đào, nền tảng giao dịch, và các tổ chức.
+![image](assets/en/54.webp)
 
-Sau chiến thắng này, các nút đã kích hoạt một bản cập nhật gọi là SegWit, mở đường cho việc triển khai Lightning Network, một mạng lưới thanh toán Bitcoin tức thì sử dụng blockchain Bitcoin. Tình huống này chứng minh rằng người dùng, thông qua các nút của họ, giữ quyền lực thực sự trong Bitcoin, cho phép họ đứng lên chống lại các tổ chức lớn.
+On the contrary, if the blocks were 100 times heavier, we could certainly make 100 times more transactions every 10 minutes, but running a Bitcoin node would require a 50TB hard disk, a bandwidth of over 500GB/month, and a piece of hardware capable of validating hundreds of thousands of transactions in less than 10 minutes. In this hypothetical situation with 100 times larger blocks, running a Bitcoin node would not be accessible to the average person, which would compromise both the decentralization of the protocol and the immutability of transactions and consensus rules.
 
+Thus, the protocol constraints have been designed to enable as many people as possible to run their own Bitcoin nodes. In fact, the year 2017 was marked by an intense controversy known as the "block size war". This conflict pitted those who wanted to modify Bitcoin by increasing the block size to enhance transaction capacity (miners, exchange platforms, and institutions) against those who sought to preserve the independence and power of users (nodes and users). In the end, the second party triumphed.
 
+Following this victory, the nodes activated an update called SegWit, paving the way for the implementation of the Lightning Network, an instant Bitcoin payment network built as a second layer of the Bitcoin blockchain. This situation demonstrates that users, through their nodes, hold real power within Bitcoin, allowing them to stand up to large institutions in times of disagreement.
 
-## Thợ Đào
+## Miners
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-> Thợ đào giúp bảo vệ mạng lưới và thêm giao dịch vào các khối. Họ sử dụng điện qua máy ASIC để giải quyết bằng chứng công việc của Bitcoin.
+**Miners secure the network and add transactions to the blocks. They use electricity through ASIC machines to solve the Bitcoin proof of work.**
 
-![hình ảnh](assets/en/55.webp)
+![image](assets/en/55.webp)
 
-### Giải thích về Bằng Chứng Công Việc
+### Explanation of Proof of Work
 
-Bằng Chứng Công Việc, còn được biết đến là "Proof of Work" (POW), là giao thức đồng thuận bảo mật của Bitcoin. Đó là quy tắc cho phép Bitcoin hoạt động và đảm bảo sự vững chắc của nó. POW là nền tảng của mọi thứ và đóng một vai trò quan trọng trong lý thuyết trò chơi của Bitcoin.
+The "Proof of Work" (POW) is the security consensus mechanism of the Bitcoin protocol. It is the foundation of everything and plays a crucial role in the game theory of Bitcoin.
 
-Hãy nghĩ về nó như một xổ số khổng lồ mà mọi người đều có thể tham gia. Mục tiêu là tìm ra một số cụ thể sẽ cho phép ký một khối hợp lệ, và người chiến thắng nhận được phần thưởng bằng bitcoin. Số này rất đơn giản để xác minh nhưng khó tìm. Thực tế, việc xác minh dễ dàng được thực hiện thông qua hàm băm SHA-256, được bao gồm trong thuật toán đào. Để tìm ra số này, các tham gia (thợ đào) sẽ thử hàng tỷ tỷ khả năng, như 1, 52, 2648, 26874615, 15344854131318631, v.v.
+To explain how it works, envision a universal lottery where everyone can participate. The goal is to find a specific number that enables the winner to sign a valid block, earning a reward in Bitcoin. This number is very simple to verify using the SHA-256 hash function, but difficult to find: participants (miners) will try billions upon billions of possibilities, such as 1, 52, 2648, 26874615, 15344854131318631, and so on, until they discover the right one.
 
-Nếu số được chọn là đúng: Jackpot! Nếu không, việc tìm kiếm tiếp tục. Để tối ưu hóa số lần thử, họ sẽ sử dụng các máy chuyên dụng gọi là ASICs, có nhiệm vụ duy nhất là tính toán hàng tỷ khả năng mỗi giây. Tổng số lần thử được gọi là HashRate và cho phép định lượng mức độ an toàn của giao thức Bitcoin. Để vận hành những máy này, cần tiêu thụ lượng lớn điện năng. Do đó, POW chuyển đổi năng lượng thành tiền tệ, kết nối thế giới thực và thế giới số để tạo ra đồng tiền dựa trên năng lượng đầu tiên.
-Các máy móc hoạt động và sau khoảng trung bình 10 phút, một người chiến thắng sẽ xuất hiện. Họ sẽ tìm ra được hash chính xác dưới ngưỡng khó khăn. Người chiến thắng duy nhất và vĩ đại sau đó sẽ ký vào khối mới của máy chủ dấu thời gian và tiếp tục chuỗi khối. Người chiến thắng nhận phần thưởng của mình và quay trở lại để thử vận may cho khối tiếp theo. Quá trình này đã lặp lại trong 12 năm, và cứ mỗi 10 phút, một người chiến thắng xác nhận các giao dịch Bitcoin trong khi tiếp tục bảo vệ các giao dịch trước đó. Điều này làm cho chuỗi khối Bitcoin của chúng ta trở nên mạnh mẽ và an toàn hơn.
-Cứ mỗi 2 tuần (2016 khối), việc điều chỉnh độ khó cân bằng lại trò chơi khai thác toàn cầu dựa trên số lượng người tham gia.
+If the chosen number is correct: Jackpot! Otherwise, the search continues.
+
+To optimize the number of attempts, they will use specific machines called ASICs, which have the sole role of calculating billions of possibilities per second (the total quantity of attempts is called "HashRate"). To operate these machines, large quantities of electricity must be consumed. Therefore, POW transforms energy into currency, connecting the real world and the digital world to create the first energy-based currency.
+
+The machines operate continuously, and after an average of 10 minutes, a winner emerges: this participant has successfully found the correct hash that falls below the difficulty threshold. The grand and sole winner will then sign the new block of the timestamp server, adding it to the blockchain. They receive their rewards and return to try their luck at mining the next block. This process has been ongoing for more than ten years, with a winner confirming Bitcoin transactions every 10 minutes while also securing past transactions, thereby making the Bitcoin blockchain more robust and secure.
+
+Every 2016 blocks (approximately every two weeks), the **difficulty adjustment** rebalances the global mining game based on the number of participants. This adjustment is necessary because the number of miners and their combined computing power can vary significantly over time. To maintain the target block time, the network recalibrates the difficulty level based on how quickly the last 2016 blocks were mined. If they were mined too quickly, the difficulty increases, making it harder to find the correct hash. On the contrary, if they were mined too slowly, the difficulty decreases, making it easier.
 
 ![image](assets/en/24.webp)
 
-### Việc khai thác đang không ngừng phát triển
+### Mining is constantly evolving
 
-Trải qua nhiều năm, các thợ mỏ đã trang bị cho mình phần cứng máy tính ngày càng hiệu quả để sản xuất càng nhiều hash mỗi giây (gọi là HashRate) trong khi tiêu thụ ít năng lượng nhất theo cách tiết kiệm chi phí nhất có thể. Những thợ mỏ đầu tiên như Satoshi hay Hal Finney đã khai thác chỉ với CPU của họ, sau đó những người khác bắt đầu khai thác với card đồ họa của họ. Ngày nay, các thợ mỏ sử dụng những gì được gọi là ASICs (Mạch Tích Hợp Đặc Biệt cho Ứng Dụng), máy móc được thiết kế riêng để áp dụng thuật toán SHA256.
+Over the years, miners have equipped themselves with increasingly efficient computer hardware to produce as many hashes as possible per second (HashRate) while consuming the least amount of energy in the most cost-effective way possible. The early miners like Satoshi or Hal Finney mined using just their CPU, then others started mining with their graphics cards. Nowadays, miners use ASICs (Application-Specific Integrated Circuit): machines solely designed to apply the SHA256 algorithm.
 
 ![image](assets/en/56.webp)
 
-Hashrate của mạng Bitcoin đại diện cho số lần thử tìm khối tiếp theo mỗi giây. Ngày nay, con số này là khoảng 400 TH/s, tức là 400,000 tỷ lần thử mỗi giây! Hashrate toàn cầu càng cao, thì việc một tác nhân xấu muốn độc quyền nguồn lực cần thiết để giành được đa số việc khai thác và thực hiện giao dịch kép càng khó khăn. Do đó, việc tuân theo các quy tắc của giao thức Bitcoin càng trở nên kinh tế hơn là hành động chống lại chúng. Điều này đặt ra một question: làm thế nào các thợ mỏ được trả công?
+The Hashrate of the Bitcoin network represents the number of attempts made per second to find the next block. Today it even surpassed 500 TH/s, which is 500,000 billion attempts per second! The higher the global hashrate, the more difficult it is for a malicious actor to monopolize the resources needed to obtain the majority of the mining power and spend their funds more than once (double spending problem). It is therefore more economically viable to follow the rules of the Bitcoin protocol than to act against them.
 
 ![image](assets/en/57.webp)
 
-### Có gì trong một khối?
+### What can be found in a block?
 
-![image](assets/en/56.webp)
+The block header contains several elements such as the time, the difficulty target, the number of the last block, the version used, and the Merkle Root of the previous transactions.
 
-Tiêu đề khối chứa một số yếu tố như thời gian, mục tiêu độ khó, số của khối cuối cùng, phiên bản được sử dụng, và Merkel Root của các giao dịch trước đó.
+The **coinbase transaction** is always the first one included in the block: it contains the miner's reward for performing the validator's work. Then come the validated transactions. Miners will choose to insert the transactions which give them the most profit, namely small-sized transactions with maximum fees.
 
-Giao dịch coinbase luôn là cái đầu tiên; nó bao gồm phần thưởng nhận được cho việc thực hiện công việc của người xác thực. Sau đó là các giao dịch đã được xác thực. Thợ mỏ sẽ chọn các giao dịch trả tiền nhiều nhất và cố gắng tạo ra một khối tối đa hóa thu nhập của họ, tức là các giao dịch kích thước nhỏ với phí tối đa.
+### Miners' compensation
 
-### Phần thưởng cho thợ mỏ
+Initially, a miner is compensated when they find a valid block. More precisely, they are rewarded in two ways:
 
-Ban đầu, một thợ mỏ được trả công khi họ tìm thấy một khối hợp lệ. Cụ thể hơn, họ được trả công theo hai cách: (i) thông qua phần thưởng bao gồm trong khối và (ii) thông qua phí giao dịch trong các giao dịch bao gồm trong khối. Số lượng phần thưởng được xác định bởi các quy tắc đồng thuận và phụ thuộc vào Kỷ nguyên mà chúng ta đang ở.
 
-Thực sự, cho những khối đầu tiên, phần thưởng là 50 bitcoins, sau đó cứ mỗi 210,000 khối (khoảng mỗi 4 năm), nó được giảm một nửa. Ngày nay (năm 2023), chúng ta đang ở Kỷ nguyên thứ 4; do đó, phần thưởng là 6.25 bitcoins. Phần thưởng này là cơ chế tạo ra bitcoins mới trong Bitcoin. Khi phần thưởng giảm dần theo thời gian, điều này có nghĩa là có một giới hạn 21 triệu bitcoins - hiện tại, đã có hơn 19.4 triệu bitcoins đang lưu hành, chiếm hơn 92%.
+- through the subsidy (newly minted bitcoins) included in the block;
+- through transaction fees from the transactions included in the block.
+
+The amount of the subsidy is defined by the consensus rules and depends on the Epoch: **block reward = block subsidy + transaction fees**.
+
+Indeed, for the first blocks, the block subsidy was 50 bitcoins. Every 210,000 blocks (approximately every 4 years), this amount is halved. Today (in 2024), we are in the 5th Epoch, which means that the subsidy is 3.125 bitcoins. In short, this is the automatic mechanism that releases new bitcoins in the system. The subsidy decreases over time, until it meets the limit of issuance of 21 million bitcoins. There are already over 19.4 million bitcoins in circulation, which is over 92%.
 
 ![image](assets/en/58.webp)
 
-Phương thức thứ hai của việc trả công được xác định bởi số tiền mà người dùng chọn cho phí giao dịch. Vì thợ mỏ muốn tối đa hóa thu nhập của mình, họ sẽ có xu hướng ưu tiên các giao dịch với phí giao dịch cao; phí giao dịch phản ánh sự khẩn cấp của người dùng muốn giao dịch của họ được bao gồm trong khối tiếp theo.
+The second method of compensation is defined by the amount chosen by users for transaction fees, which show the urgency of the user to have their transaction included in the next block. Since miners want to maximize their income, they will tend to prioritize transactions with high transaction fees.
+
 ![image](assets/en/59.webp)
-Hơn nữa, để ổn định mô hình kinh tế của các thợ mỏ, dựa vào phần thưởng họ nhận được cho mỗi khối hợp lệ, các thợ mỏ thường hợp tác trong các nhóm thông qua "hồ bơi khai thác" (mining pools), nơi họ gộp lại nguồn lực tính toán của mình.
 
-### Tại sao phải làm tất cả những điều này?
+To stabilize their business model, which relies on the rewards they receive for each valid block, miners often create groups through "mining pools", where they pool their computing resources.
 
-Nói ngắn gọn, sự đổi mới của Bitcoin là đề xuất một giải pháp cho vấn đề chi tiêu gấp đôi thông qua việc sử dụng blockchain dựa trên Bằng chứng Công việc (Proof of Work) với độ khó thay đổi. Trong thế giới số, khái niệm sở hữu khác biệt so với thế giới vật lý. Thực sự, trong thế giới số, mọi thứ có thể được sao chép và dán, điều này gây ra vấn đề về chi tiêu gấp đôi đối với tài sản số có giá trị. Các trung gian đáng tin cậy, như ngân hàng, đã được tạo ra để giải quyết vấn đề công nghệ này và đảm bảo rằng khi một tài sản được chuyển giao, nó không còn thuộc về người gửi. Nhưng làm thế nào để thực hiện điều này mà không cần một trung gian đáng tin cậy? Vấn đề này tương đương với Vấn đề Tướng Byzantine, một vấn đề về phối hợp thông tin trong một hệ thống mà các diễn viên không thể được tin cậy.
+### Why bother doing all this?
+
+In short, the innovation of Bitcoin is to propose a solution to the problem of double spending through the use of a blockchain based on Proof of Work with a floating difficulty. In the digital world, the concept of ownership differs from that of the physical world. In fact, in the digital world, everything can be copied and pasted, which creates the risk of using digital assets of value more times. Trusted intermediaries, such as banks, have been created to solve this technological problem and ensure that when an asset is transferred, it no longer belongs to the sender.
+
+But how can this be done without a trusted intermediary? This problem is well described through the Byzantine Generals' paradox, a problem of coordinating information in a system where various actors cannot be trusted. In the Byzantine Generals Problem, a group of generals must coordinate an attack on a city, but some may be traitors trying to disrupt the plan. The challenge is for the loyal generals to reach a consensus on whether to attack or retreat, despite receiving potentially misleading messages from the traitors.
 
 ![image](assets/en/60.webp)
 
-Bitcoin do đó là một loại giải pháp để giải quyết vấn đề này, hoặc ít nhất là để tìm cách vượt qua nó. Các "tướng" của Bitcoin, hay các thợ mỏ, sản xuất các khối (thông tin) và các nút Bitcoin xác minh giao dịch tài chính sử dụng các quy tắc đồng thuận để đảm bảo tính xác thực của thông tin. Sự không đối xứng về chi phí năng lượng giữa sản xuất thông tin và xác minh đảm bảo độ tin cậy của thông tin, mà không cần một bên thứ ba đáng tin cậy.
+Bitcoin is therefore a kind of solution to solve this issue, or at least to work around it. The "generals" of Bitcoin, or miners, produce blocks (of information) and Bitcoin nodes verify financial transactions using consensus rules to ensure the authenticity of the information. The asymmetry in the energy cost between information production and verification ensures the reliability of the information, without a trusted third party.
 
-Các thợ mỏ là những người xây dựng an ninh của mạng lưới Bitcoin. Bằng cách tiêu thụ năng lượng để sản xuất hash, họ xây dựng một bức tường làm cho việc viết lại lịch sử giao dịch trở nên cực kỳ tốn kém cho một đại lý xấu. Điều này ngăn chặn họ hành động không trung thực.
+Miners are the builders of the Bitcoin network security. By spending energy to produce hashes, they build a wall that makes it extremely costly for a malicious agent to rewrite the transaction history, and this economic disincentive deters others from behaving dishonestly.
 
-Ngay cả trong trường hợp của một cuộc tấn công 51%, nghĩa là một đại lý sở hữu hơn một nửa hashrate, mạng vẫn an toàn vì kẻ tấn công phải tiêu thụ nhiều năng lượng như tất cả các thợ mỏ cộng lại để cố gắng sửa đổi blockchain. Chính nhờ cơ chế bằng chứng công việc, yêu cầu năng lượng để được thực hiện, mà mạng lưới được bảo vệ.
+Even in the case of a 51% attack, where an agent would possess more than half of the hashrate, the network would remain secure because the attacker must spend as much energy as all the miners combined to attempt to modify the blockchain. This energy-intensive proof-of-work mechanism is what ensures the network's security.
 
-### Tóm tắt
+### In summary
 
-Lý thuyết trò chơi áp dụng cho Bitcoin loại bỏ các thợ mỏ không trung thực. Các thợ mỏ sử dụng máy ASIC để khai thác và nhận phần thưởng trong trường hợp thành công. Ngoài ra, họ thường tham gia vào các hồ bơi khai thác để chia sẻ sức mạnh tính toán của mình và nhận được phần thưởng nhỏ nhưng đều đặn hơn. Khai thác Bitcoin là một quá trình có chi phí năng lượng cao nhưng là cần thiết cho việc hoạt động và an ninh của mạng lưới Bitcoin. Bằng chứng công việc và blockchain giải quyết vấn đề chi tiêu gấp đôi và đảm bảo tính xác thực của thông tin mà không cần bất kỳ bên thứ ba đáng tin cậy nào. Chi phí năng lượng là cần thiết để sản xuất thông tin, nhưng việc xác minh thông tin có chi phí không đáng kể. Sự không đối xứng này đảm bảo an ninh của mạng. Do đó, việc tuân theo các quy tắc đồng thuận kinh tế hợp lý hơn là vi phạm chúng.
+The theory of game applied to Bitcoin eliminates dishonest miners, who use ASIC machines to mine and receive a reward in case of success. Additionally, they often join mining pools to share their computing power and receive smaller but more regular rewards. While Bitcoin mining incurs high energy costs, it is crucial for the operation and security of the Bitcoin network. The proof-of-work mechanism and blockchain technology address the double-spending problem and ensure the integrity of information without relying on a trusted third party. Although producing information requires significant energy expenditure, verifying that information incurs a negligible cost. This asymmetry reinforces the network's security, making it more economically viable to adhere to consensus rules rather than attempt to break them.
 
-
-
-Nếu bạn muốn tìm hiểu sâu hơn về chủ đề khai thác Bitcoin, bạn có thể tham khảo khóa học MIN 201 của chúng tôi. Bạn sẽ tìm hiểu về cách hoạt động và vai trò của Proof-of-Work, cũng như các cơ chế của ngành khai thác. Chúng tôi cũng giải thích cách biến ASIC thành lò sưởi, để bạn có thể khai thác satoshi đầu tiên trong khi sưởi ấm ngôi nhà của mình!
+If you want to delve deeper into the specific topic of Bitcoin mining, you can consult our MIN 201 course. You will discover the workings and role of Proof-of-Work, as well as the mechanics of the mining industry. We also explain how to convert an ASIC into a heater, allowing you to mine your first satoshis while heating your home!
 
 https://planb.network/courses/min201
-
-## Bitcoin và Môi trường
+## Bitcoin and Ecology
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
-Chúng ta vừa thấy trong phần trước rằng an ninh của giao thức Bitcoin dựa trên chi phí năng lượng cao để sản xuất một sổ cái công cộng của các giao dịch mà không cần một bên thứ ba đáng tin cậy. Tổng chi phí năng lượng thường được so sánh với lượng tiêu thụ điện của một quốc gia nhỏ. Nhưng liệu sự so sánh này có ý nghĩa? Liệu nó có phù hợp để hiểu những lý do đằng sau chi phí như vậy không?
+In the previous section, we understood that the security of the Bitcoin protocol relies on high energy consumption to produce a public ledger of transactions without a trusted third party. In mainstream media, the overall energy cost is often compared to the electricity usage of a small country. But does this comparison make sense? Is it relevant to understand the reasons behind such costs?
 
-### Chi phí năng lượng của Bitcoin.
+### The energy costs of Bitcoin.
 
-Đầu tiên, hãy đánh giá một cách định tính chi phí môi trường của việc khai thác. Một người khai thác cần có một máy như ASIC và một nguồn năng lượng dưới dạng điện để vận hành những máy này. ASIC chủ yếu được làm từ nhôm và có thể được tái chế hoặc tái sử dụng cho một mục đích khác (như đã được chứng minh với [dự án Attakaï](https://decouvrebitcoin.fr/attakai/), biến một Antminer S9 thành một máy sưởi không gian). Vì vậy, mối quan tâm chính là tiêu thụ năng lượng. Hãy cố gắng cung cấp thêm bối cảnh cho vấn đề này.
-![hình ảnh](assets/en/61.webp)
+First, let's qualitatively assess the environmental cost of mining. A miner must have a machine like an ASIC and a source of energy in the form of electricity to power these machines. ASICs are mostly made of aluminum and can be either recycled or reused for a second purpose (as demonstrated by the Attakaï project described in our course MIN201), which transforms an Antminer S9 into a space heater). The main concern is therefore the energy consumption.
 
-Tiêu thụ điện năng đại diện cho hầu hết chi phí cho một người khai thác. Do đó, họ được khuyến khích tìm kiếm nguồn điện giá rẻ. Tuy nhiên, vì người khai thác có thể di chuyển, họ có thể đến những nơi có nhà máy điện được lắp đặt nhưng chưa được kết nối với lưới điện của lãnh thổ. Người khai thác hành động như một người mua cuối cùng, cho phép các nhà máy điện đảm bảo tài chính ngay cả trước khi được kết nối với mạng lưới điện. Và khi chúng được kết nối, nhu cầu về điện sẽ tăng lên, điều này sẽ làm tăng giá và làm cho việc người khai thác thu được điện ở những nơi này trở nên kém lợi nhuận hơn. Người khai thác sau đó sẽ quyết định di chuyển cơ sở của mình và định cư xa hơn nơi mà nhu cầu thấp và do đó giá cũng thấp.
+![image](assets/en/61.webp)
 
-### Một cuộc tranh luận không hồi kết
+The electricity consumption represents almost all of the costs for a miner. Therefore, they are encouraged to find a cheap source of electricity, so they can go to places where power plants are installed but not yet connected to the electrical grid of the territory. In this case, miners act as a last resort buyer, allowing power plants to secure financing even before being connected to the electrical network. When they are connected, the demand for electricity will increase, which will raise the price and make it less profitable for miners to obtain electricity in these places. Sice the machines can be easily moved, miners will then decide to take their installation and settle further away where the demand is low and so is the price, most often in areas where they can get energy from green power plants.
 
-Do đó, cuộc tranh luận về tác động sinh thái của Bitcoin thường bị hiểu sai, chủ yếu do hiểu biết không đủ về tính hữu ích và cách hoạt động của nó. Bitcoin không thể được đánh giá đơn giản chỉ qua chi phí năng lượng cho mỗi giao dịch, vì người khai thác bảo vệ cả mạng lưới hiện tại và lịch sử, các giao dịch được nhóm lại và không phải tất cả đều tương đương, và tác động của Lightning Network không được tính đến. Những người tuyên bố rằng Bitcoin tiêu thụ quá nhiều năng lượng có thể có động cơ chính trị hoặc tìm cách bán giải pháp blockchain của riêng họ. Lý do sinh thái được sử dụng để biện minh cho việc cấm Bitcoin.
+### An endless debate
 
-Tuy nhiên, không nên quên rằng Bitcoin, như một phát minh mang tính cách mạng, đã cung cấp cho những cá nhân sống dưới áp bức tài chính hoặc chế độ độc tài một phương tiện để đấu tranh cho tự do của họ. Là phương tiện cuối cùng, Bitcoin cung cấp một hình thức tự do tài chính bằng cách thoát khỏi kiểm duyệt và hạn chế ngân hàng. Bitcoin hơn là một đồng tiền. Đó là một hình thức giao tiếp và biểu đạt tự do. Năng lượng tiêu thụ bởi người khai thác góp phần vào việc bảo vệ tự do của chúng ta. Bitcoin cho phép thoát khỏi hệ thống tài chính hiện tại, bị thống trị bởi nợ và sự tạo ra tiền tệ quá mức bởi các ngân hàng trung ương.
+Thus, the debate on the ecological impact of Bitcoin is often misguided, mainly due to an insufficient understanding of its usefulness. Bitcoin cannot be evaluated simply in terms of energy costs per transaction, because miners secure both the current and historical network, and transactions are grouped and not all equivalent. Besides, the impact of the Lightning Network is not even taken into account. Those who claim that Bitcoin consumes too much energy may have political motivations or seek to sell their own blockchain solution. Many times, the ecological pretext is used to justify the banning of Bitcoin.
 
-![hình ảnh](assets/en/62.webp)
+It is important to emphasize that Bitcoin, as a revolutionary invention, provides a means for individuals living under financial oppression or dictatorial regimes to fight for their freedom. As a last resort, Bitcoin offers a pathway to financial independence by circumventing censorship and banking restrictions. More than just a currency, Bitcoin serves as a form of communication and a symbol of freedom, and the energy expended by miners plays a crucial role in defending this freedom, enabling emancipation from a financial system dominated by debt and excessive monetary creation by central banks.
 
-Đối với những người sống ở các quốc gia có lạm phát cao, Bitcoin là vấn đề sinh tồn. Nó cung cấp một phương tiện để tồn tại trong tình hình tài chính bấp bênh. Hơn nữa, Bitcoin cung cấp một hệ thống tài chính công bằng và bình đẳng hơn. Nó cũng cung cấp cơ hội cho hàng tỷ người trên thế giới tiếp cận hệ thống tài chính. Nhìn từ góc độ này, liệu tiêu thụ năng lượng có được chính đáng?
+![image](assets/en/62.webp)
 
-### Bitcoin có thể là một lợi ích ròng cho môi trường?
+![image](assets/en/63.webp)
 
-Cuối cùng, việc thảo luận về các vấn đề kinh tế và môi trường của việc áp dụng Bitcoin là cần thiết.
+![image](assets/en/64.webp)
 
-Đặc biệt khi so sánh nó với hệ thống tài chính hiện tại. Hệ thống này, do khuyến khích tiêu dùng quá mức và nợ nần, gây ra những vấn đề nghiêm trọng. Việc tiếp cận dễ dàng với tín dụng, phát hành tiền tệ bởi các ngân hàng, và việc sử dụng ngân hàng dự trữ một phần là những yếu tố thúc đẩy quá nợ và do đó, tiêu dùng quá mức.
+For those living in countries with high inflation rates, Bitcoin is a matter of survival. It provides a means to survive in precarious financial situations. Furthermore, Bitcoin offers a more equitable and impartial financial system, providing billions of people worldwide with access to financial resources. Given this perspective, is the energy consumption justified?
 
-![hình ảnh](assets/en/65.webp)
+### Bitcoin could be a net positive for the environment
 
-Cần phải cải cách hệ thống tiền tệ để phản ánh sự khan hiếm của nguồn lực của chúng ta với sự khan hiếm của tiền tệ. Điều này sẽ khuyến khích tiêu dùng có trách nhiệm hơn và một tầm nhìn dài hạn. Ngược lại, lạm phát, bằng cách khuyến khích tiêu dùng và đầu tư, có tác động tiêu cực lâu dài đối với môi trường.
-Hệ thống tài chính hiện tại phù hợp với các ý tưởng của kinh tế Keynes, khác biệt với kinh tế Áo, không tính đến các khía cạnh thời gian và động của tình huống và nguồn lực. Nói cách khác, một đồng tiền không giới hạn không thể phản ánh một cách hiệu quả nguồn lực hạn chế của hành tinh chúng ta.
-![hình ảnh](assets/en/66.webp)
+Finally, it is essential to discuss the economic and environmental consequences of Bitcoin adoption.
 
-Các chính trị gia, do tầm nhìn ngắn hạn và nhu cầu về tăng trưởng kinh tế để tái đắc cử, không thể giải quyết các vấn đề sinh thái lâu dài. Ngược lại, việc áp dụng một đồng tiền vững chắc như Bitcoin là một phương án thay thế tiềm năng có thể trao quyền kinh tế cho người dân.
+When comparing it to the current financial system, the latter, due to its encouragement of overconsumption and debt, poses serious problems. Factors such as easy access to credit, monetary issuance by banks, and the practice of fractional reserve banking all contribute to overindebtedness and, as a result, excessive consumption.
 
-Ngọn lửa ở các giếng dầu, đốt cháy methane để ngăn chặn ô nhiễm, có thể được dập tắt bởi các thợ đào Bitcoin, điều này có lợi cho môi trường. Bitcoin thúc đẩy việc sử dụng năng lượng xanh. Methane có thể được chuyển đổi thành điện để cung cấp năng lượng cho máy đào, điều này có lợi cho mọi người.
+![image](assets/en/65.webp)
 
-Công nghệ của Bitcoin thường bị hiểu lầm, và những chỉ trích về tác động môi trường của nó thường đơn giản và ngắn hạn. Những chỉ trích này thường được thúc đẩy bởi lợi ích chính trị. Bitcoin có khả năng giúp đỡ trong quá trình chuyển đổi sinh thái và đóng góp vào một thế giới xanh hơn. Truyền thông thường lan truyền những ý tưởng sai lầm về Bitcoin và sinh thái. Vì vậy, hãy dành thời gian để hình thành ý kiến của riêng bạn. Mọi thứ đều minh bạch với Bitcoin.
+It is necessary to reform the monetary system in order to reflect the scarcity of our resources with the scarcity of our currency. This will encourage more responsible consumption and a long-term vision. Conversely, inflation, by encouraging consumption and investment, has a negative long-term impact on the environment.
 
-> Tuân theo một trong những châm ngôn của Bitcoin: Đừng tin, hãy tự mình kiểm chứng!
+The current financial system aligns with the ideas of Keynesian economics, which, unlike Austrian economics, does not take into account the temporal and dynamic aspects of situations and resources. In other words, an unlimited currency cannot effectively represent the limited resources of our planet.
 
+![image](assets/en/66.webp)
 
+On the other hand, politicians usually have short-term vision and they need economic growth to be reelected, so they are not able to solve ecological problems in the long term. Conversely, the adoption of a sound currency like Bitcoin is a potential alternative that could empower people economically.
 
-### Tóm tắt ngắn gọn về các khía cạnh kỹ thuật của Bitcoin
+They do not aknowledge that Bitcoin promotes the use of green energy. For example, the flames ignited in oil wells sites to burn methane and prevent pollution can be extinguished by Bitcoin miners, because methane can be converted into electricity to power mining machines, which is beneficial for the environment.
 
-Satoshi Nakamoto đã phát hành giao thức Bitcoin vào tháng 1 năm 2009, kể từ đó đã phát triển nhờ vào cộng đồng ngày càng lớn của các nhà phát triển, thợ đào, và người dùng với các nút Bitcoin. Bằng cách giữ bản sao riêng của blockchain Bitcoin, một sổ cái công khai của tất cả giao dịch Bitcoin, những nút này có thể đảm bảo tính hợp lệ của giao dịch theo các quy tắc đồng thuận của Bitcoin. Điều này bao gồm việc đảm bảo rằng các thợ đào sản xuất các khối hợp lệ, chứa hàng nghìn giao dịch đang chờ xử lý.
+**Follow one of Bitcoin's maxims: Don't trust, verify for yourself!**
 
-Trung bình, một khối được tạo ra mỗi 10 phút, và thợ đào tìm thấy hash hợp lệ cho khối tiếp theo được thưởng bởi giao thức với một số tiền được định nghĩa bởi các quy tắc đồng thuận, cũng như phí giao dịch từ tất cả các giao dịch được bao gồm trong khối hợp lệ. Do kết quả của thuật toán băm (SHA256) cho một đầu vào được coi là không thể dự đoán, quá trình đào bao gồm việc xây dựng nhiều khối ứng viên và kiểm tra xem hash của chúng có hợp lệ hay không. Tuy nhiên, để đảm bảo thời gian trung bình giữa hai khối ổn định (~10 phút) bất kể số lượng thợ đào và sức mạnh tính toán của họ, độ khó của việc tìm ra một hash hợp lệ điều chỉnh sau mỗi 2016 khối, khoảng cách mỗi 2 tuần. Các thợ đào đã phát triển các máy SHA256 chuyên dụng theo thời gian, được gọi là ASICS, để tăng tỷ lệ hash trên mỗi joule, nghĩa là số lần thử mỗi giây và mỗi năng lượng tiêu thụ.
+### Brief summary of the technical features of Bitcoin
 
-Để các thợ đào có thể sinh lời nhất có thể trong hoạt động của mình, họ phải thu được điện giá rẻ nhất có thể, thường ở các địa điểm xa xôi, trong các nhà máy điện chưa được kết nối với lưới điện. Thợ đào sau đó hành động như một người mua cuối cùng, và ngay khi giá điện tăng do tăng cầu, thợ đào sẽ có xu hướng di dời hoạt động của mình sang nơi khác.
-Vì vậy, giao thức Bitcoin là một hệ thống tiền tệ không thể kiểm duyệt và không thể ngăn chặn bởi vì mỗi thành phần của giao thức được phân bố địa lý trên khắp thế giới - ví dụ, có khoảng 40.000 nút Bitcoin trên tất cả các lục địa. Quy tắc đồng thuận của Bitcoin được thiết lập sao cho việc tuân theo chúng có lợi kinh tế hơn là cố gắng phá vỡ chúng, và do đó không cần sự tin tưởng giữa các bên tham gia. Bitcoin không có người lãnh đạo và không thể bị dừng lại. Có thể quản lý các nền tảng giao dịch để hạn chế Bitcoin, nhưng điều này có tác động hạn chế. Nói ngắn gọn, không có thẩm phán hay nhà nước nào có thể kiểm duyệt hoặc ngăn chặn Bitcoin.
+Satoshi Nakamoto released the Bitcoin protocol in January 2009, which has since evolved thanks to a growing community of developers, miners, and users with Bitcoin nodes. By keeping their own copy of the Bitcoin blockchain, a public ledger of all Bitcoin transactions, these nodes can ensure the validity of transactions according to Bitcoin's consensus rules. This includes ensuring that miners produce valid blocks, which contain thousands of pending transactions.
 
-# Làm thế nào để có được Bitcoin?
+On average, a block is created every 10 minutes, and the miner who finds a valid hash for the next block is rewarded by the protocol with both an amount that is defined by the consensus rules, as well as the transaction fees from all transactions included in the valid block. Since the result of the hashing algorithm (SHA256) for a given input is considered unpredictable, the mining process involves building numerous candidate blocks and testing if their hash is valid or not. However, to ensure that the average time between two blocks remains constant (~10 mins) regardless of the number of miners and their computing power, the difficulty of finding a valid hash adjusts every 2016 blocks, approximately every 2 weeks. Miners have developed specialized SHA256 machines over time, called ASICS, to increase the hash rate per joule, which means the number of attempts per second and per consumed energy.
+
+In order for miners to be as profitable as possible in their activity, they must obtain the cheapest electricity possible, which is often in remote locations, within power plants that are not yet connected to the grid. The miner then acts as a buyer of last resort, and, as soon as the price of electricity increases due to an rise in demand, the miner will tend to relocate their activity elsewhere.
+
+Thus, the Bitcoin protocol is an uncensorable and unstoppable monetary system because each component of the protocol is distributed geographically across the globe. For example, there are more than 40,000 Bitcoin nodes across all continents. Bitcoin's consensus rules are such that it is economically more profitable to follow them than to try to break them, and therefore no trust is required between actors. Bitcoin has no leader and cannot be stopped. Even if it is possible to regulate exchange platforms to limit Bitcoin, this approach has a marginal impact on the system. In short, no judge or state can censor or stop Bitcoin.
+
+# How do You Obtain Bitcoin?
 
 <partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
 
-## Bitcoin không bao giờ ngủ!
+## Bitcoin Never Sleeps!
 
 <chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
 
-Giá của Bitcoin thường xuyên biến động mạnh. Giá trị của nó có thể thay đổi đáng kể tùy thuộc vào biến động thị trường và các giai đoạn thị trường tăng giá và giảm giá. Điều này xuất hiện trong 100% thị trường tài chính, bao gồm cả Bitcoin.
+The price of Bitcoin is often characterized by significant volatility. Its value can fluctuate considerably depending on market variations or on bullish and bearish phases, just like any other financial market.
 
 ![image](assets/en/67.webp)
 
-> Để nói một cách đơn giản: con người mua cùng một lúc và bán cùng một lúc. Bitcoin không nằm ngoài ảnh hưởng của bản chất con người.
+To put it simply, humans tend to buy everything at once and sell everything at once. **Bitcoin is not immune to human nature.**
 
-### Hiểu về Làn sóng Nhận thức
+### Understanding adoption waves
 
-Sự phát triển và tiến hóa của Bitcoin chủ yếu liên kết với các nhóm người dùng khác nhau đã dần dần tích hợp vào hệ sinh thái của nó.
+Both the development and the evolution of Bitcoin are largely linked to the different groups of actors who have gradually integrated its ecosystem.
 
 ![image](assets/en/68.webp)
 
-- Những người tin tưởng:
 
-Những người dùng đầu tiên của Bitcoin chủ yếu là những người yêu thích công nghệ, cypherpunks, những người theo chủ nghĩa tự do, và những người hâm mộ vàng. Những nhóm này bị thu hút bởi Bitcoin vì khả năng của nó trong việc cung cấp các giải pháp như tiền mặt điện tử không cần tin cậy, khả năng chống kiểm duyệt, hoặc chính sách tiền tệ minh bạch và không thể thay đổi.
+- The believers:
 
-- Dark web & tội phạm
+The early users of Bitcoin were mainly technophiles, cypherpunks, libertarians, and gold enthusiasts. These groups were attracted to it because of its value as trustless electronic cash, its resistance to censorship, and its transparent, immutable monetary policy.
 
-Sau đó, việc sử dụng Bitcoin mở rộng sang các thị trường dark web như Silk Road do bản chất không thể kiểm soát và ẩn danh của nó. Trang web này đã thu hút sự chú ý đến bản chất không thể kiểm soát và ẩn danh của Bitcoin, điều này đã thúc đẩy một số tác nhân tội phạm sử dụng nó. Tuy nhiên, cần lưu ý rằng việc sử dụng một công cụ, không phải chính công cụ đó, quyết định tính hợp pháp hoặc bất hợp pháp của nó. Cần lưu ý rằng việc sử dụng Bitcoin một cách bất hợp pháp không làm cho một người trở thành tội phạm. Đó là việc sử dụng, không phải công cụ, có thể được phân loại là bất hợp pháp. Ví dụ, việc sử dụng Bitcoin cho các hoạt động như mua một số loại ma túy có thể hợp pháp hoặc bất hợp pháp tùy thuộc vào quy định của lãnh thổ nơi hoạt động diễn ra.
 
-- Cơn sốt ICO và sự xuất hiện của công chúng
+- The dark web & criminals
 
-Năm 2017 được đánh dấu bởi một bong bóng đầu cơ đáng kể trong thế giới tiền mã hóa, đặc biệt là với sự ra đời của hàng nghìn Initial Coin Offerings (ICOs). Tuy nhiên, nhiều loại tiền mã hóa mới này không có sự phát triển hoặc tiện ích cụ thể và nhanh chóng biến mất. Bong bóng năm 2017 này được theo sau bởi một đợt điều chỉnh mạnh mẽ vào năm 2018-2019.
+Then, Bitcoin's use expanded into dark web marketplaces like Silk Road, largely due to its uncontrollable and pseudonymous nature, which also attracted individuals beyond that platform, including some people engaged in criminal activities. However, it's important to emphasize that it is the application of a tool, rather than the tool itself, that determines legality. The illegal use of Bitcoin does not inherently make someone a criminal; rather, it is the specific actions that can be classified as illegal. For instance, using Bitcoin to purchase certain drugs may be legal or illegal depending on the regulations governing the territory where the transaction occurs.
 
-- Bong bóng NFT và DeFi
 
-Một lần nữa vào năm 2020, thị trường lại trải qua một bong bóng đầu cơ khác khiến giá Bitcoin tăng lên $60,000. Bong bóng này khác biệt so với những bong bóng trước đó bởi sự đa dạng hóa lớn hơn của các nhà đầu tư, bao gồm cả các tổ chức tài chính và công ty lớn. Nhưng một lần nữa, những điều chỉnh mạnh mẽ xảy ra một khi cơn sốt hạ nhiệt.
+- The ICO frenzy and the arrival of the general public.
 
-### Bitcoin & Biến động
+The year 2017 was marked by a significant speculative bubble in the cryptocurrency world, especially with the launch of thousands of Initial Coin Offerings (ICOs). However, many of these new cryptocurrencies had no concrete development or utility, and quickly disappeared. This 2017 bubble was followed by a strong correction in 2018-2019.
 
-Dựa trên các chu kỳ trước, có vẻ như chu kỳ kinh tế của Bitcoin tương đương với thời gian giữa hai sự kiện halving. Có lẽ vì sự kiện halving hoạt động như một kích hoạt bằng cách giảm một nửa lượng Bitcoin mới được phát hành.
 
-Những biến động đáng kể này đã tạo nên danh tiếng cho Bitcoin như một tài sản cực kỳ nguy hiểm khiến người dùng mất tiền. Mặc dù giá có thể giảm 10-20 hoặc thậm chí 50% trong vài ngày, điều quan trọng cần hiểu là Bitcoin, giao thức, không bị ảnh hưởng bởi những thay đổi về giá.
-Sự biến động đáng kể này ngày nay được các nhà hoạt động Bitcoin chấp nhận hoàn toàn và có thể được giảm nhẹ bởi một số giải pháp như các công cụ tài chính phòng hộ (stablecoins), một niềm tin lâu dài mạnh mẽ (hodling), hoặc đơn giản là không đầu tư 100% số tiền của mình vào Bitcoin mà không hiểu bất cứ điều gì. Việc hiểu tại sao giá Bitcoin biến động nhiều như vậy là rất cần thiết để có thể tiến bộ trong ngành này bởi vì cuối cùng, chính giá cả và chu kỳ điều chỉnh và quản lý thị trường của chúng ta đến một mức độ nào đó. Tuy nhiên, chúng ta có thể lưu ý rằng khi Bitcoin phát triển và trưởng thành, sự biến động trở nên ít đáng kể hơn.
+- The NFT bubble and DeFi
+
+Then again in 2020, the market experienced another speculative bubble that drove the price of Bitcoin to $60,000. This bubble was different from the previous ones because of the broader diversification of investors, including financial institutions and large corporations. However, as with previous bubbles, significant corrections tend to follow once the initial euphoria fades.
+
+### Bitcoin and volatility
+
+Based on past cycles, it seems that the periodicity of Bitcoin's economic cycles is equivalent to the duration between two halvings, perhaps because the halving event acts as a trigger by cutting the emission of new bitcoins in half.
+
+These significant fluctuations have earned Bitcoin a reputation as a highly volatile asset, often leading to substantial losses for its users. Although the price can drop by 10%, 20% or even 50% in a few days, it is important to understand that the Bitcoin protocol itself is not affected by price changes.
+
+This significant volatility is fully accepted today by Bitcoin actors and can be mitigated by several solutions such as financial hedges (stablecoins), a strong long-term belief (hodling), or simply avoiding the risk of investing 100% of one’s funds in Bitcoin without a solid understanding. Understanding why the price of Bitcoin fluctuates so much is therefore essential to progress in this industry, as it is ultimately the price movements and cycles that help temper and regulate the market to some extent. However, it is fundamental to note that as Bitcoin grows and matures, volatility becomes less impactful.
+
 ![image](assets/en/69.webp)
 
-Mặc dù cặp btc/dollar biến động trong ngắn hạn, Bitcoin, do số lượng hạn chế là 21 triệu bitcoin và quá trình halving (giảm một nửa sự tạo ra tiền tệ mỗi 4 năm trung bình), theo một xu hướng tăng chung một cách gần như cơ học. Tất nhiên, như bất kỳ tài sản tài chính nào, Bitcoin cũng chịu ảnh hưởng của các chu kỳ kinh tế bao gồm các giai đoạn phấn khích, bong bóng đầu cơ và điều chỉnh. Hiện tượng này khá phổ biến trong các công nghệ mới nổi, nơi thị trường không luôn luôn hợp lý hoặc hiệu quả.
+Although the btc/dollar pair fluctuates in the short term, bitcoin, due to its limited quantity of 21 million bitcoins and its halving process (halving the monetary creation every 4 years on average), follows a general upward trend in a quasi-mechanical manner. Of course, like any financial asset, bitcoin is subject to economic cycles including periods of euphoria, speculative bubbles, and corrections. This phenomenon is quite common in emerging technologies, where the market is not always rational or efficient.
 
-### Một thị trường độc nhất
+### A unique market
 
-Những chu kỳ bong bóng đầu cơ này khá độc đáo trên thế giới, vì rất hiếm khi cùng một tài sản trải qua nhiều bong bóng như vậy một cách liên tiếp. Điều này có thể được giải thích đơn giản bởi vì Bitcoin không phải là một bong bóng sẽ biến mất mà là một loại tiền tệ thực sự được sử dụng khắp nơi trên thế giới. Giao thức Bitcoin độc đáo ở chỗ nó hoạt động trên quy mô toàn cầu, 24 giờ một ngày, 7 ngày một tuần, khiến việc quản lý khó khăn cho các cơ quan tài chính.
+These cycles of speculative bubbles are quite unique in the world, s it is rare for a single asset to experience such a series of bubbles in succession. This phenomenon can be attributed to the fact that Bitcoin is not merely a bubble destined to burst. Rather, it functions as a currency that is actively used around the globe. The Bitcoin protocol stands out for its ability to operate on a global scale, 24/7, which poses significant challenges for financial authorities attempting to regulate it.
+
 ![image](assets/en/70.webp)
 
-Hôm nay, vào năm 2023, Bitcoin tiếp tục tồn tại và phát triển thêm nữa bằng cách hòa nhập ngày càng nhiều vào thị trường truyền thống. Sự xuất hiện sắp tới của Bitcoin ETFs, quy định rõ ràng hơn, và các công cụ mua hoặc lưu trữ tốt hơn chỉ khuyến khích xu hướng này. Bitcoin đã MỘT LẦN NỮA sống sót qua bong bóng đầu cơ của mình, vậy có lẽ nó không phải là chuyện vô nghĩa!
+Today, Bitcoin continues to survive and grow even more by being integrated more and more into the traditional market, and the introduction of Bitcoin ETFs, clearer regulations, and improved tools for acquisition and storage are all contributing to this positive momentum. Bitcoin has ONCE AGAIN survived its speculative bubble, so maybe it's not ajust hot air after all!
+
 ![image](assets/en/71.webp)
 
-
-
-## Kiếm Bitcoin bằng cách làm việc
+## Obtaining Bitcoins by Working
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
 
-### Một nền kinh tế song song đang phát triển
+### A parallel economy is developing
 
-Bitcoin có thể được coi là một nền kinh tế song song với các đồng tiền fiat. Điều này có nghĩa là có thể bán hàng hóa hoặc dịch vụ và được thanh toán bằng Bitcoin. Giao dịch có thể được thực hiện trực tiếp bằng Bitcoin, không cần phải qua một nền tảng trao đổi, chỉ cần từ ví Bitcoin này sang ví Bitcoin khác.
+Bitcoin can be seen as the tool to create a parallel economy to fiat currencies, because it is possible to sell goods or services and be paid in bitcoin. Transactions can be made directly in Bitcoin, without the need to go through an exchange platform, but simply going from a Bitcoin wallet to another.
 
-Nền kinh tế Bitcoin tồn tại và đang phát triển ở một số khu vực trên thế giới, như El Salvador, nơi Bitcoin đã được chấp nhận là tiền tệ hợp pháp từ năm 2021. Hơn nữa, một số cá nhân, doanh nghiệp và tổ chức đã chấp nhận Bitcoin như một phương tiện thanh toán cho sản phẩm hoặc dịch vụ của họ.
+The Bitcoin economy exists and is developing in certain regions of the world, like in El Salvador, where Bitcoin has been a legal tender since 2021. All around us there are some individuals, businesses, and organizations that already accept Bitcoin as a means of payment for their products or services.
+
 ![image](assets/en/72.webp)
 
-Ngoài ra, để tạo điều kiện sử dụng Bitcoin trong các giao dịch hàng ngày, một dự án mã nguồn mở và hợp tác đã được khởi xướng: BTCMap (https://btcmap.org/map#2/21.28937/5.46680). Nền tảng này liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin cũng như các cộng đồng Bitcoin khác nhau trên thế giới. Bạn có thể truy cập trang web của họ để khám phá hệ sinh thái Bitcoin xung quanh bạn. Như vậy, mặc dù có những khó khăn và do dự, có những sáng kiến như BTCMap góp phần làm cho nền kinh tế Bitcoin trở nên dễ tiếp cận và thuận tiện hơn cho mọi người.
+In addition, an open-source and collaborative project has been launched, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), to facilitate the use of Bitcoin in everyday transactions. This platform lists all the merchants that accept Bitcoin, as well as the different Bitcoin communities around the world, so you can visit their website to discover the Bitcoin ecosystem around you. Thus, despite the difficulties and the hesitations, there are initiatives like BTCMap that contribute to making the Bitcoin economy more accessible and convenient for everyone.
 
-### Tại sao chấp nhận Bitcoin thay vì mua nó?
+### Why should we accept Bitcoin instead of buying it?
 
-Để có được bitcoin, bạn có thể mua chúng trên các nền tảng được quản lý bởi các tổ chức như AMF (Autorité des Marchés Financiers) ở Pháp. Phương pháp này mang theo một số rủi ro và khả năng theo dõi giao dịch của bạn. Một phương pháp khác để có được bitcoin là chấp nhận chúng như một phương tiện thanh toán cho các sản phẩm hoặc dịch vụ bạn cung cấp. Phương pháp này cho phép bạn thu được bitcoin thông qua công việc của mình mà không cần phải lo lắng liên tục về giá của Bitcoin.
-Hơn nữa, việc chấp nhận Bitcoin như một người bán có một số lợi ích, bao gồm khả năng chống kiểm duyệt, giảm phí giao dịch, tăng hiệu quả, bảo vệ chống lạm phát, cũng như tự do tài chính và chủ quyền.
+To obtain bitcoins, you can buy them on platforms regulated by organizations such as the AMF (Autorité des Marchés Financiers) in France, or the Securities & Exchange Commission (SEC) in Usa, but this solution entails the traceability of your transactions. Another method to obtain bitcoins is to accept them as a means of payment for the products or services you offer, so you can acquire bitcoins through your work without constantly worrying about the price of Bitcoin.
+
+Furthermore, accepting Bitcoin as a merchant has several advantages, including censorship resistance, reduced transaction fees, increased efficiency, protection against inflation, as well as financial freedom and sovereignty.
 
 ![image](assets/en/73.webp)
 
-### Cách tiến hành:
+### How can you proceed?
 
-Để chấp nhận Bitcoin, cần phải nghiên cứu các giải pháp khả dụng khác nhau và chọn lựa cái phù hợp nhất với doanh nghiệp của bạn. Không có giải pháp hoàn hảo, và cần phải xem xét một số yếu tố để đưa ra lựa chọn, như khối lượng giao dịch dự kiến, ngân sách được phân bổ, và loại hình doanh nghiệp (trực tuyến hoặc thực tế).
+To accept Bitcoin, it is necessary to study the different available solutions and choose the one that best suits your business. There is no perfect solution, and several factors must be taken into account to make your choice, such as the expected transaction volume, allocated budget, and type of business (online or physical).
 
-Chúng tôi sẽ đề cập đến chủ đề này chi tiết trong một khóa học khác, nhưng để giữ mọi thứ đơn giản, chúng ta có thể xem xét một số loại hình doanh nghiệp và do đó là các giải pháp liên quan:
+We will cover this topic in detail in another course, but to keep it simple, we can consider several categories of businesses and therefore related solutions.
 
-- Giải pháp trực tuyến đơn giản: OpenNode
+
+- Simple online solution: OpenNode
 
 https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-- Giải pháp cho thương gia nghiệp dư: Swiss Bitcoin Pay
+- Solution for amateur merchants: Swiss Bitcoin Pay
 
 https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-- Giải pháp cho các cấu trúc lớn hoặc những người đam mê bitcoin: BTCpay Server
+- Solution for large structures or passionate bitcoiners: BTCpay Server
 
-https://planb.network/courses/btc305
-
-
-
-## Tiết kiệm với Bitcoin
+## Saving with Bitcoin
 
 <chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
 
-### Cảnh báo trước khi bắt đầu!
+### A warning before getting started!
 
-Bitcoin đã trở thành một tài sản tài chính quan trọng, chủ yếu do nguồn cung hạn chế và nhu cầu tăng lên. Tuy nhiên, việc mua Bitcoin mang theo rủi ro đòi hỏi sự chú ý đặc biệt. Do đó, bạn được khuyến nghị thực hiện nghiên cứu cá nhân và tìm hiểu thêm về chủ đề để làm quen với công nghệ trước khi đầu tư.
+Bitcoin has become a major financial asset, mainly due to its limited supply and increasing demand. However, buying Bitcoin carries risks that require special attention. It is therefore recommended to conduct your own research and learn more about the subject to become familiar with the technology before investing any funds.
 
-- Chỉ đầu tư số tiền bạn có thể chấp nhận mất.
-- Bitcoin là một tài sản tài chính có tính biến động cao; giá của nó có thể giảm xuống 0.
-- Hiệu suất trong quá khứ không là dấu hiệu của hiệu suất tương lai.
-- Liên hệ với cố vấn tài chính của bạn nếu cần.
 
-> Plan ₿ Network không cung cấp lời khuyên đầu tư và mọi thông tin ở đây không nên được coi là như vậy.
+- Only invest what you can afford to lose.
+- Bitcoin is a highly volatile financial asset, and its price can drop to 0.
+- Past performance is not a reliable indicator of future performance.
+- Contact your financial advisor if needed.
 
-### Danh sách kiểm tra Mini trước khi nhảy vào
+**Plan ₿ Network does not provide any investment advice, and nothing stated here should be considered as such**
 
-Trước khi lao vào mua Bitcoin, hãy đảm bảo bạn có:
+### Mini Checklist before taking the plunge
 
-- Một ví an toàn.
-- Hiểu biết vững chắc về Bitcoin.
-- Một kế hoạch tiết kiệm để theo dõi.
-- Một tầm nhìn dài hạn.
+Before diving into buying Bitcoin, make sure you have:
 
-Nếu chủ đề vẫn còn mơ hồ, hãy biết rằng khóa học BTC102 sẽ hướng dẫn bạn cách bảo mật và thu được những bitcoin đầu tiên của mình. Ở đây, chúng tôi chỉ đề cập sơ lược về chủ đề.
 
-Cụ thể, có hai câu hỏi bạn cần tự hỏi:
+- A secure wallet.
+- A solid understanding of Bitcoin.
+- A savings plan to follow.
+- A long-term vision.
 
-- Chiến lược mua hàng nào để áp dụng: dần dần hay một lần?
-- Nền tảng nào để sử dụng: được quản lý hay không được quản lý?
+If the subject is still unclear, be aware that the BTC102 course will guide you in securing and acquiring your first bitcoins. Here, we will only skim the surface of the topic.
 
-### Chiến lược mua hàng
+In concrete terms, there are two questions to ask yourself:
 
-- Trung bình chi phí đô la
 
-Mua hàng định kỳ bao gồm việc mua một lượng nhỏ Bitcoin tại các khoảng thời gian đều đặn. Phương pháp này làm mịn giá theo thời gian và cung cấp sự tăng trưởng liên tục trong số lượng Bitcoin sở hữu. Đây là giải pháp lý tưởng cho việc tiết kiệm lâu dài mà không cần lo lắng về giá và biến động của Bitcoin. Thiết lập nó và quên đi nó.
+- Should you adopt a gradual or an all-at-once acquisition strategy?
+- Should you use a regulated or an unregulated platform?
+
+### Acquisition strategies
+
+
+- Dollar Cost Average
+
+A gradual strategy involves recurring purchases, meaning buying small amounts of Bitcoin at regular intervals. This method smooths out the price over time and provides continuous growth in the amount of bitcoin owned. It is an ideal solution for long-term savings, and alleviates the concerns about Bitcoin's price volatility. Once set up, you can simply forget about it and watch your investment grow.
 
 ![image](assets/en/74.webp)
 
-> Cảnh báo về UTXOs: Nhớ kết hợp các UTXO trong ví của bạn từ thời gian này sang thời gian khác. Thực hành này là cần thiết để quản lý bitcoin của bạn một cách hiệu quả và tránh phí không cần thiết trong quá trình giao dịch.
+**Beware of UTXOs**: Remember to consolidate your UTXOs in your wallets from time to time. This practice is essential for effectively managing your bitcoins and avoiding unnecessary fees during transactions.
 
-- Mua hàng tức thì
 
-Mua hàng tức thì được sử dụng để ngay lập tức tiếp xúc với Bitcoin. Dù là mua trong một đợt sụt giảm hay tận dụng một ưu đãi, quyết định là của bạn. Bạn sẽ cần phải tự tin và nhấn nút mua.
-Do với sự biến động đáng kể của Bitcoin, cần phải chú ý đặc biệt đến cảm xúc của bạn. FOMO (Nỗi sợ bỏ lỡ) và FUD (Nỗi sợ, Sự không chắc chắn, Nghi ngờ) là những kẻ thù tồi tệ nhất trong bối cảnh này! Hãy giữ bình tĩnh và tuân theo chiến lược bạn đã xác định trước để tránh ra quyết định một cách bốc đồng và có thể gây hại.
+- Spontaneous purchase
 
-### Chúng ta nên mua Bitcoin từ ai?
+An all-at-once solution could be a spontaneous purchase, which is used to immediately gain exposure to bitcoin. Whether it's buying during a crash or taking advantage of a bonus, the decision is yours. You will need to muster up your courage and press the buy-button.
 
-Có một số cách để mua Bitcoins, mỗi cách đều có quy định riêng. Một số nền tảng yêu cầu xác minh danh tính, trong khi một số khác thì không. Việc hiểu rõ các quy định liên quan đến từng nền tảng là rất quan trọng.
+In this case, you should be careful and control your emotions, as the price of bitcoin can be quite volative. In fact, FOMO (Fear of Missing Out) and FUD (Fear, Uncertainty, Doubt) are your worst enemies! Remember to stay calm and follow the strategy you have established in advance, to avoid impulsive and potentially harmful decision-making.
 
-- Nền tảng DCA
+### Who should we buy our bitcoin from?
 
-Một phương pháp phổ biến để tích lũy Bitcoins là Dollar Cost Averaging (DCA), bao gồm việc đầu tư định kỳ một số tiền nhỏ. Một số nền tảng cung cấp dịch vụ này, như được liệt kê trên [trang dành riêng](https://planb.network/tutorials/exchange) của chúng tôi. Ngoài sự đơn giản trong việc thiết lập DCA, việc rút tiền về ví của bạn thường là tự động, nghĩa là bạn luôn kiểm soát được tài sản của mình.
+There are several ways to acquire bitcoins, each subject to its own set of regulations that can vary by jurisdiction. Some platforms require identification for verification (KYC), while others do not. Therefore, it is crucial to understand the regulations associated with each platform.
 
-Ngày nay, hầu hết các giải pháp DCA đều khá hiệu quả và có phí tương đối tương tự, vì vậy sự lựa chọn sẽ phụ thuộc nhiều hơn vào việc có sẵn ở quốc gia của bạn.
 
-- Nền tảng môi giới
+- DCA platforms
 
-Đối với các khoản đầu tư quy mô lớn, các nền tảng được quản lý và công nhận như Kraken, Bitstamp và Paymium được khuyến nghị. Những nền tảng này cung cấp một môi trường an toàn và bảo mật cho các giao dịch lớn.
+As we introduced above, a common method to accumulate bitcoins is the Dollar Cost Averaging (DCA), which involves regularly buying small amounts. Several platforms offer this service, such as those listed on our [dedicated page](https://planb.network/tutorials/exchange). In addition to the simplicity of setting up a DCA, withdrawals to your wallet are generally automatic, meaning you will always have control over your assets.
 
-Việc sử dụng chúng đơn giản và dễ tiếp cận với mọi người:
+Today, almost all DCA solutions are relatively efficient and have almost similar fees, so the choice will depend more on availability in your country.
 
-1. Thiết lập một tài khoản KYC/\*
-2. Chuyển tiền vào tài khoản của bạn
-3. Mua Bitcoin
-4. Rút Bitcoin về ví của bạn
+
+- Broker platforms
+
+For large-scale investments, regulated and recognized platforms such as Kraken, Bitstamp, and Paymium are recommended. They offer a safe and secure environment for high-volume transactions.
+
+Their use is simple and accessible to everyone:
+
+1. Set up a KYC/\* account
+
+2. Transfer funds to your account
+
+3. Purchase bitcoin
+
+4. Withdraw bitcoin to your wallet
 
 ![image](assets/en/75.webp)
 
-Sau khi mua, nên rút ngay Bitcoins khỏi các nền tảng giao dịch để giảm thiểu rủi ro bị hack và chặn quỹ. Phí rút có thể cao, đôi khi lên đến 25 euro tùy thuộc vào nền tảng.
+After the purchase, it is advisable to immediately withdraw the bitcoins from the exchange platforms to minimize the risks of hacking and fund blocking. Be aware that withdrawal fees can be high, sometimes up to 25 euros depending on the platform.
 
-> Quy định Know Your Customer (KYC) yêu cầu người dùng cung cấp thông tin nhận dạng để chống tài trợ khủng bố, trốn thuế và rửa tiền.
+**Know Your Customer (KYC) regulations require users to provide identification to combat terrorism financing, tax evasion, and money laundering.**
 
-Quan trọng là phải lưu ý rằng KYC là một chủ đề quan trọng trong ngành của chúng tôi vì hiệu quả của nó vẫn dễ tranh cãi trong khi những khía cạnh tiêu cực của nó là nhiều. Trong nhiều chương trình đào tạo và nội dung của trường đại học của chúng tôi, chúng tôi khuyên không sử dụng các nền tảng KYC đầy đủ nếu bạn đã là một người dùng nâng cao.
+It is essential to recognize that KYC is a significant topic of discussion in the Bitcoin industry. While many people debate its effectiveness, there are numerous concerns associated with it. In many of our academy's training programs and content, we advise advanced users to avoid platforms that require KYC, as there are often more privacy-focused alternatives available.
 
-### Giải pháp Không KYC
+### Non-KYC solutions
 
-Ngoài ra, có một số [thị trường](https://planb.network/tutorials/exchange) để mua và bán bitcoin từ người này sang người khác. Nếu bạn quan tâm đến những điều này, bạn có thể tham gia khóa học BTC 205 của chúng tôi về chủ đề này. Nói chung, những giải pháp này bao gồm:
+In addition, there are several [marketplaces](https://planb.network/tutorials/exchange) where to buy and sell bitcoins in a peer-to-peer exchange. In general, you mau consider the following:
 
-- Máy ATM Bitcoin
-- Các cuộc gặp gỡ trực tiếp với những người đam mê bitcoin khác
-- Các nền tảng bất hợp pháp và không được quản lý
-- Giải pháp kết nối người mua và người bán từ người này sang người khác
-- Neobanks hoạt động tại các quốc gia thân thiện với Bitcoin.
+
+- Bitcoin ATMs
+- Physical meetings with other bitcoin enthusiasts
+- Illegal and unregulated platforms
+- Peer-to-peer matchmaking solutions
+- Neobanks operating in Bitcoin-friendly nations.
 
 ![image](assets/en/76.webp)
 
-Cũng quan trọng là phải lưu ý rằng thuế có thể được áp dụng trong quyền hạn của bạn. Chúng tôi mời bạn tham khảo quy định của quốc gia mình trước khi thực hiện bất kỳ hành động nào có thể đặt bạn vào rủi ro.
-
-
+Finally, it is important to note that tax obligations may vary depending on the jurisdiction, so we strongly encourage you to consult the regulations in your country before taking any actions that could put you at risk.
 
 ## Hyper-bitcoinization
 
 <chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
 
-### Cuộc đua hoang dã mới chỉ bắt đầu!
+### The wild race is just beginning!
 
-Như mọi công nghệ mới, việc áp dụng Bitcoin tuân theo một đường cong S. Chúng ta đã vượt qua kỷ nguyên của những người tiếp nhận sớm và các chỉ số dường như chỉ ra sự dân chủ hóa hoàn toàn của Bitcoin. Đây là một công nghệ lan truyền không thể ngăn cản. El Salvador đã thực hiện một canh bạc táo bạo bằng cách áp dụng Bitcoin một cách toàn diện, tuyên bố nó là tiền tệ hợp pháp. Tuy nhiên, mỗi quốc gia phản ứng khác nhau với công nghệ này. Một số đã cấm và tuyên bố sử dụng nó là bất hợp pháp, làm tăng thêm sự phức tạp của việc áp dụng Bitcoin dựa trên văn hóa, thời đại và quốc gia.
+Like any new technology, the adoption of Bitcoin follows an S-curve, illustrating the progression from early adopters to broader acceptance. We have moved beyond the era of early adopters, and indicators suggest a potential democratization of Bitcoin. After all, it is a viral technology that cannot be easily halted. On the one hand, El Salvador has taken the bold step of fully adopting Bitcoin as legal tender. On the opposite, other countries have responded by banning it and criminalizing its usage, which shows that Bitcoin adoption is complex and is exposed to the influence of cultural, historical, and national factors.
 
 ![image](assets/en/02.webp)
-Sự phát triển của Bitcoin buộc các công ty, trường đại học, cơ quan quản lý và cá nhân phải tính đến công nghệ mới này. Cần phải tạo ra các công cụ mới, dịch vụ cần được điều chỉnh, và đổi mới phải tiếp tục để đảm bảo sự tồn tại của họ. Bối cảnh này đặt ra nhiều câu hỏi liên quan đến các lĩnh vực khác nhau, bao gồm mật mã học, lý thuyết trò chơi, kinh tế và chính sách tiền tệ, khoa học máy tính, triết học, năng lượng, luật pháp và quy định. Nói ngắn gọn, Bitcoin là một đối tượng đa ngành.
+
+The rise of Bitcoin forces companies, universities, regulators, and individuals to take this new technology into account. New tools need to be created, services need to be adapted, and innovation must continue to ensure their survival. This context raises many questions related to various fields, including cryptography, game theory, economics and monetary policy, computer science, philosophy, energy, laws, and regulation. In short, Bitcoin is a multidisciplinary subject.
+
 ![image](assets/en/01.webp)
 
-### Bitcoin là một bước tiến từ 0 đến 1
+### Bitcoin is a 0 to 1
 
-Chúng tôi mời bạn suy ngẫm về cuộc cách mạng tiền tệ mới này. Có rất nhiều điều để khám phá với Bitcoin đến mức việc tiếp thu tất cả cùng một lúc trở nên phức tạp. Hãy dành thời gian của bạn, Bitcoin không biến mất. Ngược lại, cuộc cách mạng mới chỉ bắt đầu. Cùng nhau, chúng tôi tin rằng chúng ta có khả năng tạo ra thế giới mà chúng ta muốn giao cho con cái mình. Một thế giới nơi chủ quyền của con người là một quyền, nơi quyền riêng tư được tôn trọng mặc định, và nơi tiền tệ không bị thao túng. Chúng tôi hy vọng rằng cùng nhau chúng ta sẽ đạt được điều này.
+In the end, we invite you to reflect on this new monetary revolution. There is so much to explore with Bitcoin that it is complicated to assimilate everything at once. Take your time, Bitcoin is not going to disappear. On the contrary, the revolution has just begun. We believe we are capable of creating the world we want to entrust to our children: a world where human sovereignty is a right, where privacy is respected by default, and where money is not manipulated. We hope that, together, we will achieve this.
 
 ![image](assets/en/77.webp)
 
-Nếu bạn muốn mở rộng kiến thức về Bitcoin, một số lượng lớn tác giả, nhà tư tưởng, và nhà luận thuyết đã đóng góp vào lớp giáo dục của Bitcoin. Trong vài năm qua, chúng tôi đã liệt kê và phân loại các tác phẩm này để cung cấp một [thư viện tài nguyên](https://planb.network/resources) cho những người trong số bạn tò mò nhất. Bạn sẽ tìm thấy những podcast, trang web, bài viết, hướng dẫn, sách, và nội dung khác tốt nhất.
+If you want to broaden your knowledge about Bitcoin, this is the right time: a large number of authors, thinkers, and essayists have created educational content about Bitcoin. For the past few years, we have been listing and categorizing these works to offer a [library of resources](https://planb.network/resources) to the most curious among you. In that section, You will find the best podcasts, websites, articles, tutorials, books, and other content.
 
-> Milton Friedman, một nhà kinh tế học nổi tiếng, đã dự đoán vào năm 1999: "Tôi nghĩ rằng Internet sẽ trở thành một trong những lực lượng chính giảm bớt vai trò của chính phủ. Điều duy nhất còn thiếu, nhưng sẽ sớm được phát triển, là một phương thức e-cash đáng tin cậy - một phương thức mà trên Internet bạn có thể chuyển tiền từ A sang B mà không cần A biết B hoặc B biết A."
-
-
-
-# Tương Lai của Bitcoin: Mạng Lưới Lightning
+> "I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that's missing, but that will soon be developed, is a reliable e-cash - a method whereby on the Internet you can transfer funds from A to B without A knowing B or B knowing A." - Milton Friedman prediction in 1999
+# The Future of Bitcoin: The Lightning Network
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Giới Thiệu Ngắn Gọn về Mạng Lưới Lightning
+## A Brief Introduction to the Lightning Network
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Bây giờ chúng ta đã biết cơ bản về giao thức Bitcoin, chúng ta sẽ giới thiệu một mạng lưới thanh toán sử dụng giao thức Bitcoin để kích hoạt các giao dịch cực kỳ nhanh. Chúng tôi đang nói về Mạng Lưới Lightning!
+Now that we have the basics of the Bitcoin protocol, we will introduce a payment network that uses the Bitcoin protocol to enable lightning-fast transactions: Lightning Network!
 
-### Trong Một Lõi Đậu
+Be aware that the following is only a general description, so, if you want to understand it in deeper details, we invite you to check our LNP201 course.
 
-Mạng Lưới Lightning là một công nghệ cách mạng đã thay đổi sâu sắc cách chúng ta nhìn nhận về Bitcoin. Đó là một giải pháp giải quyết vấn đề khả năng mở rộng của Bitcoin.
+### In a nutshell
 
-Để hiểu đầy đủ về Mạng Lưới Lightning, điều quan trọng là phải hiểu cách Bitcoin phát triển. Bitcoin phát triển theo các lớp cơ sở hạ tầng: lớp đầu tiên là blockchain, và lớp thứ hai là Mạng Lưới Lightning.
+The Lightning Network is a revolutionary technology that has profoundly changed our perception of Bitcoin, as it addresses the scalability issue of Bitcoin.
+
+To fully grasp the Lightning Network, it is crucial to understand how Bitcoin evolves and develops in infrastructure layers: the first layer is the blockchain, and the second one is the Lightning Network.
 
 ![image](assets/en/78.webp)
 
-Được công nhận là một lớp của Bitcoin, Mạng Lưới Lightning đã được xác nhận và triển khai vào năm 2017. Nó cho phép thực hiện các giao dịch Bitcoin tức thì với chi phí thấp, do đó giải quyết vấn đề khả năng mở rộng của Bitcoin. Nhưng vấn đề khả năng mở rộng mà Bitcoin đối mặt là gì?
+### A Blockchain cannot grow indefinitely
 
-### Một Blockchain Không Thể Phát Triển Vô Hạn
+Lightning Network was validated and implemented in 2017 to solve the scalability problem of Bitcoin, as it allows for instant, low-cost Bitcoin transactions.
 
-Vấn đề khả năng mở rộng đề cập đến thách thức trong việc triển khai một hệ thống tiền tệ có khả năng cung cấp một số lượng giao dịch mỗi giây ngày càng tăng khi nó được áp dụng. Điều này liên quan đến bài toán ba không gian của blockchain. Hãy tưởng tượng một tam giác với ba đỉnh là phi tập trung, an ninh, và khả năng mở rộng.
+The scalability problem refers to the challenge of implementing a monetary system capable of providing an ever-increasing number of transactions per second to face the increasing adoption. This issue relates to the blockchain trilemma. Imagine a triangle with decentralization, security, and scalability as its vertices.
 
 ![image](assets/en/79.webp)
-Một giao thức dựa trên blockchain chỉ có thể đáp ứng hai trong số ba khía cạnh này. Trong giao thức Bitcoin, các lựa chọn đã được thực hiện để ưu tiên cho sự phân quyền/an ninh. Một mặt, kích thước khối 1MB và thời gian giữa hai khối (trung bình 10 phút) cho phép vận hành một nút Bitcoin với chi phí thấp hơn, ủng hộ sự phân quyền. Mặt khác, việc sản xuất khối thông qua Proof-of-Work làm cho gian lận trong giao thức trở nên cực kỳ tốn kém trong khi tạo điều kiện thuận lợi cho việc xác minh bởi các nút mạng, do đó ủng hộ an ninh. Tuy nhiên, những lựa chọn này đặt ra một giới hạn về số lượng giao dịch trung bình trong một khối, tương đương với vài giao dịch mỗi giây. Con số này là không đáng kể khi so sánh với khả năng xử lý của các bộ xử lý thanh toán như VISA, là 1700/s. Tuy nhiên, giới hạn này là cần thiết để giao dịch với Bitcoin một cách chống kiểm duyệt và không cần tin cậy. Dù vậy, những người phát triển trên Bitcoin đã suy nghĩ về vấn đề này từ đầu.
 
-### Lightning như một Lớp phía trên
+According to it, a protocol based on a blockchain can only satisfy two out of these three features. Within the Bitcoin protocol, developers have made choices to favor decentralization and security. On the one hand, the block size of 1MB and the time between two blocks (on average 10 minutes) allow for running a Bitcoin node at a lower cost, favoring decentralization. On the other hand, the production of blocks through Proof-of-Work makes fraud within the protocol extremely costly, while facilitating verification by network nodes and favoring security. However, these choices impose a limit on the average number of transactions in a block, roughly corresponding to a few transactions per second. This number is ridiculous when compared to the computational capacity of payment processors like VISA (1700/s), but this limit is necessary in order to transact with Bitcoin in a censorship-resistant and trustless manner. Nevertheless, those developing on Bitcoin have been thinking about this problem since the beginning.
 
-Sau nhiều năm suy ngẫm và nhiều nỗ lực, giao thức Lightning xuất hiện. Sử dụng một số thông số kỹ thuật nhất định, giao thức này cho phép xây dựng một mạng lưới thanh toán ngang hàng bằng cách tận dụng an ninh và khả năng lập trình của giao thức giao dịch Bitcoin. Mạng lưới Lightning hoạt động như một mạng lưới các kênh thanh toán, cho phép thực hiện giao dịch tức thì với phí thấp cho người gửi. Mạng lưới các kênh thanh toán này thậm chí còn cho phép giao dịch giữa các cá nhân không có kết nối kênh trực tiếp.
+### Lightning as a layer on top
+
+After years of consideration and multiple attempts, the Lightning protocol emerged. Using a certain number of specifications, this protocol constructs a peer-to-peer payment network by leveraging the security and programmability of Bitcoin's transaction protocol. The Lightning Network acts as a network of payment channels, enabling instant transactions with low fees for the sender, and it even creates exchange routes between individuals who do not have a direct channel connection.
 
 ![image](assets/en/80.webp)
 
-Các dịch vụ chuyển tiền truyền thống như Western Union, ngân hàng trung ương, Visa và Mastercard có thể biến mất nếu họ không áp dụng công nghệ Mạng lưới Lightning. Mạng lưới Lightning hiệu quả và tiết kiệm chi phí hơn so với các hệ thống thanh toán hiện tại. Thực sự, Mạng lưới Lightning cho phép gần như không giới hạn giao dịch giữa hai bên chia sẻ một kênh, mà không tốn năng lượng cho blockchain cơ bản ngoại trừ giao dịch để thông báo việc tạo ra kênh.
+Traditional money transfer services such as Western Union, central banks, Visa, and Mastercard could disappear if they do not adopt the Lightning Network technology, which is more efficient and cost-effective than current payment systems. In fact, the Lightning Network enables nearly unlimited transactions between two peers sharing a channel, incurring only the energy costs associated with the transaction to announce the creation of the channel, rather than on each individual transaction.
 
 ![image](assets/en/81.webp)
 
-Giao dịch được bảo mật thông qua mã hóa và gián tiếp thông qua năng lượng tiêu thụ bởi các thợ mỏ trên Bitcoin. Giao dịch có thể được thực hiện ngay lập tức, không có giới hạn địa lý, và phí rất thấp, thường ít hơn 0.5%.
+Transactions are secured through cryptography and indirectly through the energy consumed by miners on Bitcoin. They can be made instantly, without geographical limitations, with extremely low fees (often less than 0.5%).
 
-Tóm lại, Mạng lưới Lightning là một nỗ lực hứa hẹn để triển khai một hệ thống thanh toán hiệu quả cho việc giao dịch bằng Bitcoin. Đã có nhiều ví Lightning khác nhau có sẵn, mà bạn có thể khám phá trong phần hướng dẫn của chúng tôi hoặc qua đào tạo Mạng lưới Lightning của chúng tôi.
+In summary, Lightning Network is a promising attempt to deploy an efficient payment system to buy and sell in Bitcoin. There are already numerous Lightning wallets available, which you can discover in our tutorial section or through our Lightning Network courses.
 
-
-
-Nếu bạn muốn tìm hiểu sâu hơn ngoài phần giới thiệu này và hiểu tất cả các cơ chế của Lightning Network, tôi khuyên bạn nên tham gia khóa học xuất sắc này của Fanis Michalakis về chủ đề này:
+If you want to go beyond this introduction and understand all the workings of the Lightning Network, we recommend taking this excellent course by Fanis Michalakis on the subject:
 
 https://planb.network/courses/lnp201
-
-## Các Trường Hợp Sử Dụng của Mạng lưới Lightning
+## Lightning Network Use Cases
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
-Như chúng ta vừa thấy, giao thức Bitcoin, mặc dù mang tính cách mạng, đối mặt với những thách thức đáng kể về khả năng mở rộng để xử lý tất cả các giao dịch hàng ngày của chúng ta. Để giải quyết những vấn đề này, một giải pháp lớp thứ hai được biết đến với tên gọi Mạng lưới Lightning đã được đề xuất vào năm 2016 và hiện nay có một số triển khai khác nhau, tất cả đều tương thích với nhau:
+As we have just seen, the Bitcoin protocol, although revolutionary, faces significant challenges in terms of the scalability needed to handle all of our daily transactions. To solve these problems, the Lightning Network was proposed and has since developed into several different implementations, all of which are interoperable:
 
-- Core-lightning của Blockstream
-- Eclair của Acinq
-- LND của Lightning strike
 
-Mạng lưới ngang hàng này nhằm mục đích tạo điều kiện cho các micro-giao dịch, là các giao dịch có giá trị rất thấp mà nếu không sẽ không khả thi do phí cao và thời gian xác nhận dài trên blockchain Bitcoin.
+- Core-lightning by Blockstream
+- Eclair by Acinq
+- LND by Lightning strike
 
-### Các trường hợp sử dụng của mạng lưới là gì?
+This peer-to-peer network aims to facilitate micro-transactions (with very low value) that would otherwise be impractical due to high fees and long confirmation times on the Bitcoin blockchain.
 
-Công nghệ này mở ra cánh cửa cho một loạt các ứng dụng tiềm năng cho Bitcoin mà trước đây không thể tiếp cận do những hạn chế cần thiết để đảm bảo an ninh và sự phân quyền của Bitcoin. Trong số những ứng dụng này trong cuộc sống hàng ngày, chúng ta có thể kể đến việc thanh toán tức thì trong thương mại (cả vật lý và trực tuyến), chuyển tiền theo thời gian thực và micro-donations cho nội dung. Bằng cách triển khai một mạng lưới giao dịch gần như tức thì, an toàn và chi phí thấp (trung bình dưới 0.5%), nhiều mô hình kinh doanh trước đây không thể tưởng tượng được có thể được triển khai. Điều này có thể thực hiện được vì Lightning Network sử dụng sats (phần thập phân của bitcoin) để hoạt động.
+### What are the use cases of the network?
+
+This technology opens the door to a wide range of potential applications for Bitcoin that were previously out of reach because of the necessary constraints to ensure the security and decentralization of Bitcoin. Among these everyday use cases, we can mention instant billing in both physical and online commerce, streaming money for real-time payments, and micro-donations for content creators. By enabling a network of nearly instant, secure, and low-cost transactions (averaging less than 0.5%), many previously unimaginable business models can be realized. This is made possible because the Lightning Network operates using satoshis (sats), the smallest unit of Bitcoin.
+
 ![image](assets/en/82.webp)
 
-Ngành công nghiệp trò chơi video cung cấp một ví dụ đặc biệt thú vị về cách Lightning Network có thể được sử dụng để biến đổi các mô hình kinh doanh hiện tại. Khái niệm "skin in the game" là một ý tưởng đã gần đây nhận được sự phổ biến trong bối cảnh này. Nó cơ bản liên quan đến việc có một phần tài chính trong kết quả của một trò chơi.
-Lightning Network cho phép người chơi đặt cược số tiền rất nhỏ khi chơi game, như một vài satoshis (khoảng một phần của cent euro). Điều này cho phép thiết lập một phần vốn kích thích sự cạnh tranh trong khi đáng kể tăng chi phí triển khai bot.
+The video game industry offers a particularly interesting example of how the Lightning Network can be used to transform existing business models. The concept of "skin in the game" is an idea that has recently gained popularity in this context. It essentially involves having a financial stake in the outcome of a game. In fact, Lightning Network allows players to wager very small amounts of money when playing games, such as a few satoshis (about a fraction of a euro cent) to establish a stake that stimulates competition while significantly increasing the cost of using bots.
 
 ![image](assets/en/83.webp)
 
-Tóm lại, tương lai của micro-transactions với Bitcoin trông rất hứa hẹn nhờ vào những đổi mới như Lightning Network. Khi những công nghệ này tiếp tục phát triển và trưởng thành, chúng ta có thể mong đợi thấy những ứng dụng mới và thú vị xuất hiện trong tương lai gần. Lấy ví dụ, khái niệm "money streaming." Với Lightning Network, chúng ta có thể thực hiện micro-transactions mỗi phút (có thể không cần một bên thứ ba đáng tin cậy), mở ra cánh cửa để thử nghiệm với các mô hình kinh tế nơi người tiêu dùng trả tiền cho nội dung dựa trên những gì họ tiêu thụ.
+In summary, the future of micro-transactions with Bitcoin looks promising thanks to innovations like Lightning Network. As these technologies continue to develop and mature, we can expect to see new and exciting applications emerge in the near future.
 
 ![image](assets/en/84.webp)
 
-Trong một hệ thống như vậy, tiền được tự động chia, dựa trên một tỷ lệ phần trăm được xác định trước, giữa các đóng góp viên khác nhau cho một dịch vụ hoặc sản phẩm. Điều này có thể cách mạng hóa cách chúng ta nghĩ về các mô hình thanh toán. Ví dụ, thay vì trả một khoản đăng ký hàng tháng cho một dịch vụ, người dùng có thể được tính phí theo phút, hoặc thậm chí theo giây, cho thời gian họ sử dụng dịch vụ. Một mô hình kinh tế như vậy có thể có những hậu quả sâu rộng đối với các nhà sản xuất nội dung, những người sẽ được khuyến khích sản xuất nội dung chất lượng để giữ chân sự chú ý của người dùng. Người dùng, ngược lại, chỉ trả tiền cho nội dung họ tiêu thụ, do đó loại bỏ phí đăng ký trả trước. Thậm chí có thể sử dụng hệ thống này cho việc thuê hàng hóa.
+Another example could be "money streaming": through Lightning Network, we can make micro-transactions every minute (potentially without a trusted third party), which opens the door to experimenting with economic models where consumers pay for content based on their actual consumption. It is even conceivable to use this system for renting goods. In such a system, money is automatically divided, based on a predefined percentage, among the different contributors to a service or product. This could revolutionize the way we think about payment models: instead of paying a monthly subscription for a service, users could be charged per minute, or even per second, for the time they spend using the service. Such an economic model could have profound implications for content creators, who would be incentivized to produce quality content to keep users' attention.
 
 ![image](assets/en/85.webp)
 
-Kết luận, Lightning Network mở ra một loạt các trường hợp sử dụng thú vị cho người dùng Bitcoin. Các mô hình kinh tế và cơ hội kinh doanh phát sinh là nhiều và đa dạng. Chúng tôi khuyến khích bạn tự mình thử nghiệm bằng cách thử ứng dụng podcast [Fountain](https://www.fountain.fm/), cho phép bạn được thưởng một vài sats cho việc nghe các podcast yêu thích của mình!
+In conclusion, Lightning Network opens up a multitude of exciting use cases for Bitcoin users. The resulting economic models and business opportunities are numerous and varied, and we encourage you to check for yourself by trying the podcast application [Fountain](https://www.fountain.fm/), which allows you to be rewarded with a few sats for listening to your favorite podcasts!
 
-
-
-## Viên thuốc đỏ hay viên thuốc xanh?
+## Red Pill or Blue Pill?
 
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
-Như Morpheus đã nói với Neo: "Bạn uống viên thuốc xanh, câu chuyện kết thúc, bạn thức dậy trên giường của mình, và bạn tin vào bất cứ điều gì bạn muốn tin. Bạn uống viên thuốc đỏ, bạn ở lại Wonderland, và tôi sẽ cho bạn thấy con thỏ hố sâu như thế nào." Bạn đã sẵn sàng để khám phá con thỏ hố của Bitcoin? Hãy cẩn thận, vì bạn có thể tái khám phá tự do tài chính của mình!
+As Morpheus said to Neo: "You take the blue pill, the story ends, you wake up in your bed, and you believe whatever you want to believe. You take the red pill, you stay in Wonderland, and I show you how deep the rabbit hole goes." Are you ready to explore the rabbit hole of Bitcoin? Be careful, as you might rediscover your financial freedom!
+
+### Technological future and its implications
+
+Technology is evolving exponentially, and no one can predict its future developments with certainty. World connectivity and artificial intelligence continue to advance, and the knowledge that an individual can acquire through the internet is becoming increasingly immeasurable over time.
+
+If we take AI as an example, these technologies have already surpassed or are approaching human-level performance in a growing number of domains, such as video games, image and text production, and data analysis. One potential implication is that over 80% of jobs will disappear due to AI and automation. As a consequence, several options are available to us, such as restraining technological progress or harnessing the increased capital from productivity gains created by AI.
+
+We have some essential questions to ask ourselves:
 
 
-### Tương lai công nghệ và những hệ quả của nó
+- How do we manage a society where 80% of jobs will disappear?
+- How do we revitalize a population?
+- Is there a need for as many teachers?
+- The geopolitical, political, and human consequences of automation are not sufficiently discussed.
 
-Công nghệ đang phát triển theo cấp số nhân, và không ai có thể dự đoán chính xác các phát triển tương lai của nó. Sự kết nối của thế giới và trí tuệ nhân tạo tiếp tục tiến bộ. Kiến thức mà một cá nhân có thể thu thập qua internet ngày càng trở nên không thể đo lường được theo thời gian.
+Computing, the internet, streaming, and VR will change education. We could have a universal course for all French students managed by the government and teachers who no longer give lectures but directly accompany the students. Children could go into a virtual world and be accompanied in learning history.
 
-Hãy lấy AI làm ví dụ. Công nghệ này đã vượt qua hoặc đang tiến gần đến hiệu suất ngang bằng con người trong một số lĩnh vực ngày càng tăng, như trò chơi video, sản xuất hình ảnh và văn bản, và phân tích dữ liệu. Một hậu quả tiềm năng là hơn 80% công việc sẽ biến mất do AI và tự động hóa. Chúng ta có một số lựa chọn, như kiềm chế tiến bộ công nghệ hoặc tận dụng vốn tăng thêm từ lợi ích năng suất do AI tạo ra.
 
-Những câu hỏi cần đặt ra là:
+- Where is the boundary between a teacher and an AI personification?
+- How can we guarantee a society that lives in prosperity?
 
-- Làm thế nào chúng ta quản lý một xã hội nơi 80% công việc sẽ biến mất?
-- Làm thế nào chúng ta tái sinh một dân số?
-- Liệu có cần nhiều giáo viên như vậy không?
-- Hậu quả địa chính trị, chính trị, và nhân văn của tự động hóa không được thảo luận đủ.
-  Công nghệ máy tính, internet, phát trực tuyến, và VR sẽ thay đổi giáo dục. Chúng ta có thể có một khóa học chung cho tất cả học sinh Pháp do chính phủ và giáo viên quản lý, những người không còn giảng bài mà trực tiếp hỗ trợ học sinh. Trẻ em có thể bước vào một thế giới ảo và được hỗ trợ học lịch sử.
+These fundamental questions for our future must be debated and collectively decided.
 
-- Ranh giới giữa giáo viên và AI ở đâu?
-- Làm thế nào chúng ta đảm bảo một xã hội sống trong thịnh vượng?
+What is the connection with Bitcoin? Just as the Internet revolutionized modes of communication, Bitcoin represents a technological revolution for new forms of large-scale organization, enabling us to exchange value without relying on any trusted third party. Do we want to hinder the technological evolution of the monetary system, or do we wish to embrace the potential for increased capital through the tenfold productivity gains offered by using Bitcoin and Lightning protocols?
 
-Những câu hỏi cơ bản cho tương lai của chúng ta cần được tranh luận và quyết định tập thể. Nhưng mối liên hệ với Bitcoin là gì? Giống như internet đối với các phương thức giao tiếp, Bitcoin là một cuộc cách mạng công nghệ cho các phương thức tổ chức quy mô lớn mới, mang lại cho chúng ta khả năng trao đổi giá trị mà không cần bên thứ ba đáng tin cậy. Chúng ta có muốn cản trở sự tiến hóa công nghệ của hệ thống tiền tệ hay thu lợi từ việc tăng vốn thông qua lợi ích năng suất gấp mười lần từ việc sử dụng Bitcoin và các giao thức Lightning?
+### What is the future of finance?
 
-### Tương lai của tài chính là gì?
+These considerations also raise questions about who should hold, authorize, and trace the money we use. The goal is to decide between a closed system with unelected leaders or an open system without trusted third parties, where neutrality prevails.
 
-Những suy ngẫm này cũng đặt ra câu hỏi về ai nên giữ, ủy quyền, và theo dõi tiền mà chúng ta sử dụng. Mục tiêu là quyết định giữa một hệ thống đóng với các lãnh đạo không được bầu chọn hoặc một hệ thống mở không có bên thứ ba đáng tin cậy, nơi sự trung lập chiếm ưu thế.
 
-- Tiền tệ có phải là một hình thức tài sản riêng tư không?
-- Tài khoản của người biểu tình có thể bị chặn mà không cần lệnh của Tòa án Tối cao không?
-- Ai đảm bảo hệ thống tài chính?
-- Làm thế nào một cá nhân có thể tự chủ về tiền của mình và dựa vào một bên thứ ba đáng tin cậy?
-- Có thể gửi tiền sang phía bên kia của thế giới mà không cần phí hoặc trung gian không?
+- Is currency a form of private property?
+- Can protesters' accounts be blocked without a Supreme Court order?
+- Who guarantees the financial system?
+- How can an individual be sovereign over their money and rely on a trusted third party?
+- Can money be sent to the other side of the world without fees or intermediaries?
 
-Việc chấp nhận những công nghệ mới này có thể tạo ra quy mô kinh tế lớn trên toàn thế giới. Chúng ta có nên cho phép tự do di chuyển dòng vốn không? Các lệnh cấm quốc tế có hậu quả kinh tế và chính trị. Liệu có đạo đức khi sử dụng các trung gian tài chính như Western Union, đôi khi thu phí lên đến 25% không? Chúng tôi tin rằng trong một thế giới ngày càng số hóa, tiền tệ nên được dân chủ hóa và coi là tài sản chung thuộc về người dân chứ không phải nhà nước hay các tổ chức tài chính mờ ám.
+Accepting these new technologies could generate massive economies of scale worldwide. Should we allow the free movement of capital flows? International blockades have economic and political consequences. Is it ethical to use financial intermediaries like Western Union, which sometimes charge up to 25% in fees? We believe that in an increasingly digital world, money should be democratized and considered a common good belonging to the people rather than to the state or to opaque financial institutions.
 
-Câu hỏi về ai nên kiểm soát hệ thống ngân hàng là rất quan trọng vì các quy tắc của trò chơi ngân hàng không minh bạch và dễ hiểu cho tất cả, cho phép một tầng lớp chính trị gia và quản lý giữ vững quyền lực trên hệ thống. Quan trọng là phải đặt câu hỏi liệu thị trường tự do hay một nhóm trí thức nên kiểm soát hệ thống ngân hàng.
+The question of who should control the banking system is crucial because the rules of the banking game are not transparent and understandable to all, allowing a caste of politicians and regulators to maintain their grip on the system, so it is important to question whether the free market or a group of intellectuals should have the power over it.
 
-### Tự do của chúng ta đang bị đe dọa.
+### Our freedom is at stake.
 
-Việc kiểm duyệt cũng cần được đặt câu hỏi vì ai có kiến thức để quyết định cái gì nên được kiểm duyệt hay không? Truyền thông đã thay đổi quan điểm về một số thông tin và những người từng bị kiểm duyệt trước đây nay không còn bị kiểm duyệt nữa.
+Censorship must also be questioned: who has the knowledge to decide what should be censored or not? The media has changed their position on certain information and those who were censored before are no longer censored today.
 
-- Ai quyết định cái gì là kiểm duyệt hay tuyên truyền?
-- Ai có quyền lực tối cao trên hệ thống của chúng ta?
-  Chấp nhận kiểm duyệt có thể phá hủy tự do ngôn luận và quyền tụ tập. Việc thực hiện kiểm duyệt là kỹ thuật khó khăn mà không tạo ra một xã hội hoàn toàn độc tài. Thực thể nào nên có quyền kiểm duyệt? Câu hỏi về kiểm duyệt phức tạp và khó biết ai nên bị kiểm duyệt hay không. Kiểm duyệt có thể có tác động tiêu cực đến sự đổi mới và tự do kinh doanh.
 
-Có 2.4 tỷ người trên thế giới không có tài khoản ngân hàng, điều này tạo ra bất bình đẳng địa lý. Bitcoin cho phép bình đẳng trong giao dịch, bất kể địa vị xã hội hay vị trí chính trị của bạn. Giao thức Bitcoin là phi chính trị và không cấp quyền lợi đặc biệt cho tổng thống hay các nhân vật khác. Lãnh đạo nên có cùng quyền lợi như người dân thường để thúc đẩy phát triển lên cao hơn thay vì để một số người ở trên cao và những người khác ở dưới thấp. Liệu mọi người có nên sử dụng cùng một loại tiền tệ, bất kể địa vị xã hội của họ? Quan trọng là phải suy nghĩ về thế giới mà chúng ta muốn để lại cho con cái mình. Chúng ta mong muốn để lại một thế giới mở cửa, nơi họ tự do làm những gì họ muốn với tiền của mình.
+- Who decides what is censorship or propaganda?
+- Who has the divine hand over our system?
 
-Bitcoin quan trọng và không nên được coi chỉ là trò chơi may rủi. Việc tiếp tục đặt câu hỏi về Bitcoin là rất quan trọng.
+We strongly believe that tolerating censorship can destroy freedom of expression and the right to assembly, as it can have a negative impact on innovation and free will. Imposing censorship is technically difficult without creating a complete dystopia. Thus, which entity should have the power of censorship? The matter is complicated, and it is also difficult to decide who should be restricted or not.
 
-### Bitcoin: một giao thức cách mạng
+There are 2.4 billion people in the world without a bank account, which necessarily creates geographical inequalities. On the other hand, Bitcoin grants transactions equality, disregarding your social status or political position. The protocol is apolitical and does not grant specific privileges to leaders or other influential figures, ensuring that everyone has the same opportunities to drive development forward, rather than allowing a few to remain at the top while others are left behind. Should everyone have access to the same currency, regardless of their social status? It is essential to consider the world we want to leave to our children, and we aspire to create an open world where they are free to manage their money as they choose.
 
-Như chúng ta đã thấy trong chương trước, giao thức Bitcoin là trung lập đối với tất cả người dùng của nó. Nhờ các quy tắc đồng thuận và mật mã học, chúng ta có thể ghi lại các giao dịch một cách bất biến trong một sổ cái công cộng toàn cầu, đảm bảo chuyển giao giá trị tiền tệ mà không cần bên thứ ba đáng tin cậy. Cơ sở hạ tầng lớp thứ hai (và sớm là lớp thứ ba, với RGB) cho phép mạng lưới có khả năng mở rộng và phát triển các chức năng mới, đặc biệt là để giải quyết các vấn đề về quy mô.
+Bitcoin is important and should not be considered just a game of chance, so it is crucial to keep asking questions about Bitcoin and its consequences on the world.
 
-Bitcoin có tất cả các đặc tính cần thiết để trở thành một đồng tiền hiệu quả và lành mạnh: có thể chia nhỏ, vận chuyển tức thì, không thể kiểm duyệt, chi phí xác minh không đáng kể, và với một chính sách tiền tệ đã được thiết lập cho hàng thế kỷ tới với 21 triệu đơn vị này. Bitcoin là ẩn danh và có thể được trao đổi ở bất cứ đâu trên thế giới mà không cần sự cho phép từ bất kỳ thực thể nào, bạn chỉ cần giữ chìa khóa riêng của mình - như câu nói "Không phải chìa khóa của bạn, không phải bitcoin của bạn".
+### Bitcoin: a revolutionary protocol
 
-Bitcoin được nhóm người đa dạng từ các nhà mật mã học đến những người tự do chủ nghĩa đến các doanh nghiệp truyền thống và thậm chí là một quốc gia. Tuy nhiên, Bitcoin dành cho tất cả mọi người, và số lượng người dùng của nó đang tăng lên, cũng như số lượng nút Bitcoin phục vụ như những người bảo vệ lịch sử giao dịch, đảm bảo sự phi tập trung của nó.
+As we have seen in the previous chapter, the Bitcoin protocol is neutral towards all its users. Thanks to consensus rules and cryptography, we can immutably record transactions in a global public ledger, guaranteeing monetary value transfers without any trusted third party. The second-layer infrastructure (and soon the third layer, with RGB) is used for network scalability and the development of new functionalities.
 
-Bitcoin không thể bị dừng lại và không thể bị kiểm duyệt nữa. Đây là một cuộc cách mạng hòa bình để thay đổi hệ thống tiền tệ và cho phép sự bao trùm tài chính. Người dùng có thể nhận Bitcoin bằng cách chấp nhận chúng cho giao dịch của họ hoặc mua chúng thông qua các nền tảng được quản lý hoặc không được quản lý. Bitcoin có thể được lưu trữ trong ví, ứng dụng di động, hoặc thiết bị vật lý. Không có trung gian đáng tin cậy trong Bitcoin, Bitcoin ủng hộ sự minh bạch, tự do, và trách nhiệm cá nhân - như câu nói "Đừng Tin, Hãy Kiểm Chứng".
+Bitcoin has all the necessary characteristics to be an efficient and healthy currency: divisible, instantly transportable, uncensorable, negligible verification costs, and with a monetary policy already set to 21 million units for centuries to come. Bitcoin is pseudonymous and can be exchanged anywhere in the world without any authorization from any entity. You just need to hold your own private keys and remember the saying "Not your keys, not your bitcoins".
 
-Thay đổi hệ thống tài chính đòi hỏi phải thay đổi tiền tệ. Satoshi đã tạo ra Bitcoin vào năm 2008 để đề xuất một nỗ lực như vậy. Việc tiếp cận với tiền "ma thuật" dễ dàng làm hỏng. Do đó, Bitcoin là một lựa chọn để xây dựng một hệ thống tiền tệ trung lập mới. Bitcoin cho phép giải phóng khỏi hệ thống ngân hàng. Đó là một hiện tượng xã hội dẫn chúng ta tham gia vào một cuộc cách mạng hòa bình. Bạn đã sẵn sàng tham gia chưa?
+It is adopted by diverse groups of people, from cryptographers, to libertarians, to traditional businesses, and even entire countries. However, Bitcoin is for everyone, and as the number of users is growing, so does the number of Bitcoin nodes that serve as guardians of transaction history, ensuring its decentralization.
 
-# Kết luận
+Bitcoin cannot be stopped and cannot be censored anymore. It is a peaceful revolution that changes the monetary system and enables financial inclusivity. Users can obtain bitcoins by accepting them for their trade or by buying them through regulated or unregulated platforms. They can store funds in their wallets, mobile applications, or physical devices, without the need of trusted intermediaries. Bitcoin advocates transparency, freedom, and individual responsibility: as the saying goes "Don't Trust, Verify".
+
+Satoshi created Bitcoin in 2008 to propose a change the financial system, through the change of the currency, because he knew that having access to easy and "magical" money easily brings to corruption. Bitcoin is therefore an alternative to build a new neutral monetary system, as it allows for the emancipation from the banking system. In the end, it is a social phenomenon that encourages us to participate in a peaceful revolution.
+
+Are you ready to join?
+
+# Conclusion
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-## Nhận xét & Đánh giá
+## Reviews & Ratings
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+
 <isCourseReview>true</isCourseReview>
 
-## Kỳ thi cuối khóa
+## Final Exam
 
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+
 <isCourseExam>true</isCourseExam>
 
-## Kết luận
+## Conclusion
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+
 <isCourseConclusion>true</isCourseConclusion>

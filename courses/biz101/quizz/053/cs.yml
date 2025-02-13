@@ -1,0 +1,9 @@
+question: Jaké klíčové údaje o platbě musí být zdokumentovány u každé transakce s bitcoiny?
+answer: Datum, částka, ekvivalentní hodnota v penězích fiat a související adresy
+wrong_answers:
+  - ID transakce, síťový poplatek a adresa obchodníka
+  - Datum, směnný kurz, typ peněženky a zeměpisná poloha
+  - Číslo bloku Bitcoinu, časové razítko a použitý skript
+explanation: |
+  Zdokumentování těchto údajů zajišťuje přehlednost a pomáhá účetním při rozlišování příchozích a odchozích toků.
+reviewed: false

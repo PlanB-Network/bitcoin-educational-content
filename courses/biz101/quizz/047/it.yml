@@ -1,0 +1,9 @@
+question: Perché la scarsità è una proprietà essenziale di una buona moneta?
+answer: Conserva il valore
+wrong_answers:
+  - Garantisce che solo i beni fisici possano essere utilizzati come moneta
+  - Garantisce che la moneta sia ampiamente disponibile per ogni individuo
+  - Garantisce che la moneta sia sempre sostenuta da un bene come l'oro
+explanation: |
+  La scarsità impedisce la creazione eccessiva di moneta, mantenendone così il valore e il potere d'acquisto nel tempo.
+reviewed: false

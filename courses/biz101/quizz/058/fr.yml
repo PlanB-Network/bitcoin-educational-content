@@ -1,0 +1,9 @@
+question: Quel est l'avantage d'utiliser un portefeuille de dépôt pour le profil Starter ?
+answer: Réduction des responsabilités techniques
+wrong_answers:
+  - Contrôle accru des clés privées
+  - Meilleure protection de la vie privée grâce à une autonomie totale en matière de transactions
+  - Élimination des frais de transaction
+explanation: |
+  Les portefeuilles de garde gèrent les clés privées, ce qui allège les charges techniques pour les utilisateurs.
+reviewed: false

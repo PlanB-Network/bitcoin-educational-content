@@ -1,0 +1,9 @@
+question: Millist rolli mängivad sellised vahendid nagu Zaprite ja Musqet Professional makselahenduses?
+answer: Nad täiustavad kassakogemust
+wrong_answers:
+  - Nad tegelevad mitme vääringu konverteerimise ja fiat'i väljamaksetega
+  - Nad keskenduvad tehinguandmete krüpteerimisele ja privaatvõtmete haldamisele
+  - Need on põhilised POS-süsteemid
+explanation: |
+  Zaprite ja Musqet lisavad kassaprotsessi kohandamise ja aruandluse täiustusi, mis täiendavad põhilist makseinfrastruktuuri.
+reviewed: false

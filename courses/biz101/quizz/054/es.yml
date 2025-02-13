@@ -1,0 +1,9 @@
+question: ¿Cuál de los siguientes programas no es una solución de contabilidad Bitcoin?
+answer: Gorrión
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow no es una solución de contabilidad Bitcoin, mientras que las otras sí lo son (es un software de Bitcoin Wallet).
+reviewed: false

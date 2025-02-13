@@ -1,0 +1,9 @@
+question: Milline detail EI ole selgelt dokumenteeritud tüüpilises Bitcoini tehingu csv-failis, nagu on kirjeldatud kursusel?
+answer: Kasutatud skripti tüüp
+wrong_answers:
+  - Tehingu kuupäev
+  - Ekvivalentne fiatväärtus
+  - Asjaomased Bitcoini aadressid
+explanation: |
+  Tüüpilises Bitcoini tehingu csv-failis on tavaliselt märgitud kuupäev, summa, fiat-ekvivalent ja Bitcoini aadressid, kuid mitte kasutatud skripti tüüp.
+reviewed: false

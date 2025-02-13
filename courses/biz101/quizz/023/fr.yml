@@ -1,0 +1,9 @@
+question: Lequel des éléments suivants n'est PAS l'une des trois principales méthodes mentionnées pour acquérir des bitcoins ?
+answer: Recevoir des bitcoins sous la forme d'une subvention gouvernementale pour le développement des entreprises.
+wrong_answers:
+  - Obtenir des bitcoins en échange de biens ou de services.
+  - L'exploitation minière de Bitcoin nécessite du matériel spécialisé et consomme de l'énergie.
+  - L'achat de bitcoins auprès d'une plateforme ou d'un courtier.
+explanation: |
+  Le chapitre mentionne trois façons principales d'acquérir des bitcoins : en les acceptant comme paiement, en les minant ou en les achetant. Recevoir des bitcoins sous la forme d'une subvention gouvernementale n'est pas une méthode d'acquisition standard reconnue.
+reviewed: false

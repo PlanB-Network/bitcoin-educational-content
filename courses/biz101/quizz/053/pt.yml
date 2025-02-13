@@ -1,0 +1,9 @@
+question: Quais os principais detalhes de pagamento que devem ser documentados para cada transação de Bitcoin?
+answer: A data, o montante, o valor fiduciário equivalente e os endereços associados
+wrong_answers:
+  - O ID da transação, a taxa de rede e o endereço do comerciante
+  - A data, a taxa de câmbio, o tipo de carteira e a localização geográfica
+  - O número do bloco Bitcoin, o carimbo de data/hora e o script utilizado
+explanation: |
+  A documentação destes pormenores garante clareza e ajuda os contabilistas a diferenciar os fluxos de entrada e de saída.
+reviewed: false

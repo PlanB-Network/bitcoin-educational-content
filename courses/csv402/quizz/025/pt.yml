@@ -1,0 +1,8 @@
+question: Quais são os quatro componentes que definem um contrato RGB?
+answer: Génese, esquema, interface e implementação da interface
+wrong_answers:
+  - Génese, esquema, transição e implementação da interface
+  - Génese, Interface, Transição e Extensão
+  - Génese, interface, implementação da interface e extensão
+  An RGB contract is made up of four distinct elements: Genesis, Schema, Interface and Interface Implementation.
+reviewed: false

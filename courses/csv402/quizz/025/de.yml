@@ -1,0 +1,8 @@
+question: Welches sind die vier Komponenten, die einen RGB-Vertrag definieren?
+answer: Genese, Schema, Schnittstelle und Schnittstellenimplementierung
+wrong_answers:
+  - Genese, Schema, Übergang und Schnittstellenimplementierung
+  - Entstehung, Schnittstelle, Übergang und Erweiterung
+  - Genese, Schnittstelle, Schnittstellenimplementierung und Erweiterung
+  An RGB contract is made up of four distinct elements: Genesis, Schema, Interface and Interface Implementation.
+reviewed: false

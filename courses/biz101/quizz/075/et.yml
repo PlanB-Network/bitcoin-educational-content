@@ -1,0 +1,9 @@
+question: Mis on ettevõtte tasandi Bitcoini maksete rakendamise peamine eesmärk?
+answer: Täielikult integreerida Bitcoini maksed organisatsiooni põhiprotsessidesse
+wrong_answers:
+  - Bitcoiniga eksperimenteerimine väikeses mahus
+  - Bitcoini kasutamine turunduslikel eesmärkidel
+  - Bitcoini vastuvõtmine ilma teistesse süsteemidesse integreerimata
+explanation: |
+  Ettevõtete lahenduste eesmärk on viia Bitcoini maksed vastavusse põhiliste äritegevuse töövoogude ja süsteemidega.
+reviewed: false

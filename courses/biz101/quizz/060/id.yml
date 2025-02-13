@@ -1,0 +1,9 @@
+question: Apa persyaratan perangkat keras utama untuk profil Pemula agar dapat menerima pembayaran Bitcoin?
+answer: Sebuah smartphone
+wrong_answers:
+  - Seorang penambang Bitcoin ASIC
+  - Dompet perangkat keras
+  - Server yang dihosting sendiri
+explanation: |
+  Profil Starter hanya membutuhkan smartphone atau tablet dengan dompet Lightning, menjadikannya solusi yang ringan.
+reviewed: false

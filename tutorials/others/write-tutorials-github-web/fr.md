@@ -367,6 +367,8 @@ Avant de continuer, vérifiez soigneusement en bas de l'interface que ces modifi
 
 ![GITHUB](assets/fr/37.webp)
 
+Assurez-vous, en haut de l'interface, que votre branche de travail soit bien fusionnée sur la branche `dev` du dépôt Plan ₿ Network (qui est la branche principale).
+
 Indiquez un titre qui résume brièvement les modifications que vous souhaitez fusionner avec le dépôt source. Ajoutez un bref commentaire décrivant ces changements (si vous avez un numéro d'issue associé à la création de votre tutoriel, pensez à noter en commentaire `Closes #{le numéro de l'issue}`), puis cliquez sur le bouton vert "*Create pull request*" pour confirmer la demande de fusion :
 
 ![GITHUB](assets/fr/38.webp)

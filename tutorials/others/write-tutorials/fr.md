@@ -82,11 +82,11 @@ Pour contribuer sur Plan ₿ Network, vous avez 3 options selon votre niveau d'e
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- **Débutants (local)** : Si vous n'êtes pas familier avec l'utilisation de Git, la première option consiste à configurer facilement votre propre environnement local pour contribuer sur Plan ₿ Network. Cette approche est recommandée pour les contributions significatives, telles que la rédaction d'un tutoriel complet. Pour ce faire, suivez pas à pas le tutoriel détaillé ci-dessous :
+- **Intermédiaire (GitHub Desktop)** : Si vous n'êtes pas familier avec l'utilisation de Git, la première option consiste à configurer facilement votre propre environnement local pour contribuer sur Plan ₿ Network. Cette approche est recommandée pour les contributions significatives, telles que la rédaction d'un tutoriel complet. Pour ce faire, suivez pas à pas le tutoriel détaillé ci-dessous :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- **Débutants (web)** : Vous pouvez également opter pour l'utilisation directe de l'interface web de GitHub, sans nécessiter la configuration d'un environnement local complet. Cette méthode peut être envisagée pour des contributions mineures. Cependant, pour des contributions majeures, telles que l'ajout d'un nouveau tutoriel complet, cette option peut s'avérer plus complexe que la configuration d'un environnement local. Je vous explique tout de même comment le faire dans ce tutoriel :
+- **Débutants (interface web)** : Vous pouvez également opter pour l'utilisation directe de l'interface web de GitHub, sans nécessiter la configuration d'un environnement local complet. Cette méthode peut être envisagée pour des contributions mineures. Cependant, pour des contributions majeures, telles que l'ajout d'un nouveau tutoriel complet, cette option peut s'avérer plus complexe que la configuration d'un environnement local. Je vous explique tout de même comment le faire dans ce tutoriel :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 

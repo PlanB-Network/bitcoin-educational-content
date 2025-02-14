@@ -1,5 +1,5 @@
 ---
-name: Contribution - Tutoriel avec GitHub Desktop
+name: Contribution - Tutoriel avec GitHub Desktop (intermédiaire)
 description: Guide complet pour proposer un tutoriel sur Plan ₿ Network avec GitHub Desktop
 ---
 ![cover](assets/cover.webp)
@@ -23,7 +23,7 @@ Si vous préférez ne pas configurer votre environnement local, suivez cet autre
 
 - **Débutants (interface web)** :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Prérequis
 

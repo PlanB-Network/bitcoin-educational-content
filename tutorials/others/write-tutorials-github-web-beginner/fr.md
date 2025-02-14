@@ -1,5 +1,5 @@
 ---
-name: Contribution - Tutoriel avec GitHub Web
+name: Contribution - Tutoriel avec GitHub Web (débutant)
 description: Guide complet pour proposer un tutoriel sur Plan ₿ Network avec GitHub Web
 ---
 ![cover](assets/cover.webp)
@@ -21,7 +21,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0
 
 - **Intermédiaire (GitHub Desktop)** :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Prérequis
 

@@ -1,5 +1,5 @@
 ---
-name: Contribution - Tutoriel avec Git
+name: Contribution - Tutoriel avec Git (avancé)
 description: Guide pour utilisateurs avancés pour proposer un tutoriel sur Plan ₿ Network avec Git
 ---
 ![cover](assets/cover.webp)
@@ -17,11 +17,11 @@ Dans ce tutoriel destiné aux utilisateurs expérimentés de Git, nous allons br
 
 - **Intermédiaire (GitHub Desktop)** :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - **Débutants (interface web)** :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Outils suggérés
 

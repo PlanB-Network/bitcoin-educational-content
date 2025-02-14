@@ -12,9 +12,15 @@ Dans ce tutoriel, nous allons voir comment ajouter un nouveau contenu, tel qu'un
 
 Les deux principales sections de notre plateforme sont les cours et les tutoriels. Les cours fournissent des ressources éducatives théoriques, tandis que les tutoriels offrent des contenus pratiques montrant comment utiliser un outil spécifique (par exemple, un hardware wallet ou un logiciel) ou une pratique particulière (comme sécuriser une phrase mnémonique ou vérifier l'authenticité d'un logiciel).
 
+Les cours sont naturellement plus longs et plus structurés que les tutoriels. Ils doivent explorer un sujet spécifique lié à Bitcoin ou à son écosystème de manière approfondie, précise et détaillée.
+
+[Découvrir les cours de Plan ₿ Network.](https://planb.network/courses)
+
 ![TUTO](assets/fr/37.webp)
 
-Les cours sont naturellement plus longs et plus structurés que les tutoriels. Ils doivent explorer un sujet spécifique lié à Bitcoin ou à son écosystème de manière approfondie, précise et détaillée. Les tutoriels sont généralement plus courts. Ils doivent servir de guides expliquant étape par étape comment réaliser une tâche spécifique en lien avec Bitcoin, avec des images comme support.
+Les tutoriels sont généralement plus courts. Ils doivent servir de guides expliquant étape par étape comment réaliser une tâche spécifique en lien avec Bitcoin, avec des images comme support.
+
+[Découvrir les tutoriels de Plan ₿ Network.](https://planb.network/tutorials)
 
 ![TUTO](assets/fr/38.webp)
 

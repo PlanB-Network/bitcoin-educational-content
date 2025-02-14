@@ -245,7 +245,7 @@ Nommez le fichier en utilisant le code de votre langue. Dans mon cas, le tutorie
 
 ![GITHUB](assets/fr/18.webp)
 
-Nous commençons par remplir la section `Properties` en haut du document. Ajoutez manuellement et remplissez le bloc de code suivant :
+Nous commençons par remplir la section `Properties` en haut du document. Ajoutez manuellement et remplissez le bloc de code suivant (les clés `name:` et `description:` doivent être conservées en anglais, mais leur valeur doit être rédigée dans la langue utilisée pour votre tutoriel) :
 
 ```markdown
 ---

@@ -13,9 +13,15 @@ Vous avez déjà :
 - Contacté l'équipe de Plan ₿ Network via [le groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou paolo@planb.network ;
 - Choisi vos outils de contribution.
 
-Dans ce tutoriel destiné aux utilisateurs expérimentés de Git, nous allons brièvement résumer les étapes clés et les directives essentielles pour proposer un nouveau tutoriel sur Plan ₿ Network. Si vous n'êtes pas familier avec Git et GitHub, je vous recommande plutôt de suivre cet autre tutoriel plus détaillé qui vous accompagnera pas à pas :
+Dans ce tutoriel destiné aux utilisateurs expérimentés de Git, nous allons brièvement résumer les étapes clés et les directives essentielles pour proposer un nouveau tutoriel sur Plan ₿ Network. Si vous n'êtes pas familier avec Git et GitHub, je vous recommande plutôt de suivre un de ces 2 autres tutoriels plus détaillés qui vous accompagneront pas à pas :
+
+- **Intermédiaire (GitHub Desktop)** :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-4a36a052-1000-4191-890a-9a1dc65f8957
+
+- **Débutants (interface web)** :
+
+https://planb.network/tutorials/others/contribution/write-tutorials-github-web-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Outils suggérés
 

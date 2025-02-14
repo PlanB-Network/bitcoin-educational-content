@@ -15,7 +15,15 @@ Vous avez déjà :
 
 Dans ce tutoriel, nous allons voir comment ajouter votre tutoriel sur Plan ₿ Network en configurant votre environnement local avec GitHub Desktop. Si vous maîtrisez déjà Git, ce tutoriel très détaillé n'est peut-être pas nécessaire pour vous. Je vous recommande plutôt de consulter cet autre tutoriel où je présente uniquement les grandes lignes directrices, sans accompagnement détaillé étape par étape :
 
+- **Utilisateurs expérimentés** :
+
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+
+Si vous préférez ne pas configurer votre environnement local, suivez cet autre tutoriel conçu pour les débutants, où nous effectuons les modifications directement via l'interface web de GitHub :
+
+- **Débutants (interface web)** :
+
+https://planb.network/tutorials/others/contribution/write-tutorials-github-web-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Prérequis
 

@@ -10,7 +10,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 
 Vous avez déjà :
 - Choisi le thème de votre tutoriel ;
-- Contacté l'équipe de Plan ₿ Network via [le groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ;
+- Contacté l'équipe de Plan ₿ Network via [le groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou paolo@planb.network ;
 - Choisi vos outils de contribution.
 
 Dans ce tutoriel destiné aux utilisateurs expérimentés de Git, nous allons brièvement résumer les étapes clés et les directives essentielles pour proposer un nouveau tutoriel sur Plan ₿ Network. Si vous n'êtes pas familier avec Git et GitHub, je vous recommande plutôt de suivre cet autre tutoriel plus détaillé qui vous accompagnera pas à pas :

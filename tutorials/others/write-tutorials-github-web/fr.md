@@ -10,7 +10,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 
 Vous avez déjà :
 - Choisi le thème de votre tutoriel ;
-- Contacté l'équipe de Plan ₿ Network via [le groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ;
+- Contacté l'équipe de Plan ₿ Network via [le groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou paolo@planb.network ;
 - Choisi vos outils de contribution.
 
 Dans ce tutoriel, nous allons voir comment ajouter votre tutoriel sur Plan ₿ Network en utilisant la version web de GitHub. Si vous maîtrisez déjà Git, ce tutoriel très détaillé n'est peut-être pas nécessaire pour vous. Je vous recommande plutôt de consulter cet autre tutoriel où je présente uniquement les grandes lignes directrices, sans accompagnement détaillé étape par étape :

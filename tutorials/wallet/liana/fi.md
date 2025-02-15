@@ -303,18 +303,6 @@ Tapahtuman pitäisi näkyä päänäytöllä. Kun se on vahvistettu, palautus on
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Videot
-
-Jos haluat tietää enemmän Lanasta, voit tutustua videosisältöön, jonka avulla saat selkeämmän käsityksen sen toiminnasta. Tässä on videoesittely Lianasta, jossa ovat mukana Kévin Loaec ja Antoine Poinsot :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Ja tässä on Antoine Poinsot'n opetusohjelma Lianan käytöstä:
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Jälkimmäisessä esitetyt manipulaatiot ovat samanlaisia kuin tässä opetusohjelmassa esitetyt.
-
 ## Bonus: kuvaaja-analyysi
 
 Kuvaaja on ihmisen luettavissa oleva merkkijono, joka kuvaa tyhjentävästi joukon osoitteita. Siinä yhdistyvät useat olennaiset tiedot, joita tarvitaan kehittyneen salkun osien (UTXO) hakemiseen. Kuvaajan kirjoitustapa perustuu Andrew Poelstran, Pieter Wuillen ja Sanket Kanjalkarin vuonna 2019 kehittämään skriptikieleen [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/).

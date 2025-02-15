@@ -303,18 +303,6 @@ Transaksjonen skal vises på hovedskjermen. Når dette er bekreftet, er gjenoppr
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Videoer
-
-Hvis du vil vite mer om Liana, kan du se noen videoer som gir deg en klarere idé om hvordan det fungerer. Her er en videopresentasjon av Liana med Kévin Loaec og Antoine Poinsot :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Og her er en veiledning om hvordan du bruker Liana, med Antoine Poinsot :
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Manipulasjonene som vises i sistnevnte, ligner på dem som presenteres i denne veiledningen.
-
 ## Bonus: Deskriptoranalyse
 
 Deskriptoren er en tegnstreng som kan leses av mennesker, og som gir en uttømmende beskrivelse av et sett med adresser. Den kombinerer en rekke viktige opplysninger som er nødvendige for å finne delene (UTXO) i en avansert portefølje. Måten deskriptoren skrives på, er basert på [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), skriptspråket som ble utviklet av Andrew Poelstra, Pieter Wuille og Sanket Kanjalkar i 2019.

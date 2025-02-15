@@ -303,18 +303,6 @@ A transação deve aparecer no ecrã principal. Uma vez confirmada, a recuperaç
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Vídeos
-
-Se quiser saber mais sobre o Liana, há alguns conteúdos de vídeo que lhe darão uma ideia mais clara do seu funcionamento. Aqui está um vídeo de apresentação do Liana com Kévin Loaec e Antoine Poinsot :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-E aqui está um tutorial sobre como utilizar o Liana, com Antoine Poinsot :
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-As manipulações apresentadas neste último são semelhantes às apresentadas neste tutorial.
-
 ## Bónus: análise de descritores
 
 O descritor é uma cadeia de caracteres legível por humanos que descreve exaustivamente um conjunto de endereços. Combina uma série de informações essenciais para recuperar as partes (UTXO) de uma carteira avançada. A forma como o descritor é escrito baseia-se na [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), a linguagem de scripting desenvolvida por Andrew Poelstra, Pieter Wuille e Sanket Kanjalkar em 2019.

@@ -303,18 +303,6 @@ Die Transaktion sollte auf dem Hauptbildschirm erscheinen. Sobald dies bestätig
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Videos
-
-Wenn Sie mehr über Liana erfahren möchten, finden Sie hier einige Videos, die Ihnen eine bessere Vorstellung von der Funktionsweise vermitteln. Hier ist eine Video-Präsentation von Liana mit Kévin Loaec und Antoine Poinsot:
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Und hier ist eine Anleitung zur Verwendung von Liana, mit Antoine Poinsot:
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Die dort gezeigten Manipulationen ähneln denen, die in diesem Lernprogramm vorgestellt werden.
-
 ## Bonus: Deskriptoranalyse
 
 Der Deskriptor ist eine vom Menschen lesbare Zeichenkette, die eine Reihe von Adressen erschöpfend beschreibt. Er fasst eine Reihe wesentlicher Informationen zusammen, um die Teile (UTXO) eines erweiterten Portfolios abzurufen. Die Art und Weise, wie der Deskriptor geschrieben wird, basiert auf [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), der von Andrew Poelstra, Pieter Wuille und Sanket Kanjalkar im Jahr 2019 entwickelten Skriptsprache.

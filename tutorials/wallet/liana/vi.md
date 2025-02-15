@@ -303,18 +303,6 @@ The transaction should appear on the main screen. Once confirmed, recovery is co
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Videos
-
-If you'd like to know more about Liana, there's some video content that will give you a clearer idea of how it works. Here's a video presentation of Liana with Kévin Loaec and Antoine Poinsot :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-And here's a tutorial on how to use Liana, with Antoine Poinsot :
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-The manipulations shown in the latter are similar to those presented in this tutorial.
-
 ## Bonus: descriptor analysis
 
 The descriptor is a human-readable character string that exhaustively describes a set of addresses. It combines a number of essential pieces of information for retrieving the parts (UTXO) of an advanced portfolio. The way the descriptor is written is based on [Miniscript syntax](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), the scripting language developed by Andrew Poelstra, Pieter Wuille and Sanket Kanjalkar in 2019.

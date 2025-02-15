@@ -303,18 +303,6 @@ wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJ
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## 视频
-
-如果您想了解有关 Liana 的更多信息，一些视频内容可以让您更清楚地了解它是如何工作的。下面是 Kévin Loaec 和 Antoine Poinsot 介绍 Liana 的视频：
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-下面是 Antoine Poinsot 介绍如何使用 Liana 的教程：
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-后者显示的操作与本教程中介绍的类似。
-
 ## 奖励：描述符分析
 
 描述符是一个人类可读字符串，详尽描述了一组地址。它结合了检索高级组合部件（UTXO）所需的大量基本信息。描述符的书写方式基于[Miniscript 语法](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/)，这是安德鲁-波尔斯特拉（Andrew Poelstra）、彼得-乌伊尔（Pieter Wuille）和桑凯特-坎贾卡尔（Sanket Kanjalkar）于 2019 年开发的脚本语言。

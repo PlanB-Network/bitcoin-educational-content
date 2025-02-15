@@ -303,18 +303,6 @@ Sign*」をクリックして取引に署名し、ハードウェアウォレッ
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## ビデオ
-
-Lianaについてもっとお知りになりたい方は、ビデオコンテンツをご覧ください。Kévin LoaecとAntoine PoinsotによるLianaのプレゼンテーションビデオです：
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-そして、アントワーヌ・ポアンソによるリアナの使い方のチュートリアルだ：
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-後者で示されている操作は、このチュートリアルで紹介されているものと同様である。
-
 ## ボーナス：ディスクリプター分析
 
 記述子は、アドレスの集合を網羅的に記述した、人間が読める文字列である。これは、アドバンストポートフォリオのパーツ(UTXO)を検索するために不可欠な情報のいくつかを組み合わせたものである。記述子の記述方法は、2019年にAndrew Poelstra、Pieter Wuille、Sanket Kanjalkarによって開発されたスクリプト言語である[Miniscript syntax](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/)に基づいている。

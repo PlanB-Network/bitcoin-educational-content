@@ -303,18 +303,6 @@ La transazione dovrebbe apparire nella schermata principale. Una volta confermat
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Video
-
-Se volete saperne di più su Liana, ci sono alcuni contenuti video che vi daranno un'idea più chiara del suo funzionamento. Ecco un video di presentazione di Liana con Kévin Loaec e Antoine Poinsot:
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Ed ecco un tutorial su come usare Liana, con Antoine Poinsot:
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Le manipolazioni mostrate in quest'ultima sono simili a quelle presentate in questa esercitazione.
-
 ## Bonus: analisi dei descrittori
 
 Il descrittore è una stringa di caratteri leggibili dall'uomo che descrive in modo esaustivo un insieme di indirizzi. Combina una serie di informazioni essenziali per il recupero delle parti (UTXO) di un portafoglio avanzato. Il modo in cui il descrittore è scritto si basa su [Miniscript syntax](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), il linguaggio di scripting sviluppato da Andrew Poelstra, Pieter Wuille e Sanket Kanjalkar nel 2019.

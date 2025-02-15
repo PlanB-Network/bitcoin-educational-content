@@ -303,18 +303,6 @@ Transaksi akan muncul di layar utama. Setelah dikonfirmasi, pemulihan selesai!
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Video
-
-Jika Anda ingin tahu lebih banyak tentang Liana, ada beberapa konten video yang akan memberi Anda gambaran yang lebih jelas tentang cara kerjanya. Berikut ini adalah video presentasi Liana bersama Kévin Loaec dan Antoine Poinsot :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Dan berikut ini adalah tutorial tentang cara menggunakan Liana, dengan Antoine Poinsot :
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Manipulasi yang ditunjukkan dalam gambar terakhir, serupa dengan yang disajikan dalam tutorial ini.
-
 ## Bonus: analisis deskriptor
 
 Deskriptor adalah string karakter yang dapat dibaca manusia yang secara lengkap menjelaskan serangkaian alamat. Deskriptor menggabungkan sejumlah informasi penting untuk mengambil bagian-bagian (UTXO) dari portofolio tingkat lanjut. Cara penulisan deskriptor didasarkan pada [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), bahasa skrip yang dikembangkan oleh Andrew Poelstra, Pieter Wuille, dan Sanket Kanjalkar pada tahun 2019.

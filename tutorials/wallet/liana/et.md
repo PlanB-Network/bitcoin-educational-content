@@ -303,18 +303,6 @@ Tehing peaks ilmuma põhiekraanile. Pärast kinnitamist on taastamine lõpule vi
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Videod
-
-Kui soovid Liana kohta rohkem teada saada, on siin mõned videod, mis annavad sulle selgema ettekujutuse selle toimimisest. Siin on Liana video esitlus koos Kévin Loaec'i ja Antoine Poinsot'ga :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Ja siin on õpetus, kuidas kasutada Liana't, koos Antoine Poinsot'ga :
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Viimases näidatud manipulatsioonid on sarnased käesolevas õpetuses esitatud manipulatsioonidega.
-
 ## Boonus: deskriptorite analüüs
 
 Deskriptor on inimesele loetav tähemärgijada, mis kirjeldab ammendavalt aadresside kogumit. See ühendab endas mitmeid olulisi andmeid täiustatud portfelli osade (UTXO) leidmiseks. Deskriptori kirjutamise viis põhineb Andrew Poelstra, Pieter Wuille ja Sanket Kanjalkari poolt 2019. aastal välja töötatud skriptimiskeelel [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/).

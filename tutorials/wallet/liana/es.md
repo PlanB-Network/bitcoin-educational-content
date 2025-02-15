@@ -303,18 +303,6 @@ La transacción debería aparecer en la pantalla principal. Una vez confirmada, 
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Vídeos
-
-Si quiere saber más sobre Liana, hay algunos vídeos que le darán una idea más clara de cómo funciona. Aquí tienes un vídeo de presentación de Liana con Kévin Loaec y Antoine Poinsot :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Y aquí tienes un tutorial sobre el uso de Liana, con Antoine Poinsot :
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Las manipulaciones mostradas en este último son similares a las presentadas en este tutorial.
-
 ## Bonificación: análisis de descriptores
 
 El descriptor es una cadena de caracteres legible por el ser humano que describe exhaustivamente un conjunto de direcciones. Combina una serie de informaciones esenciales para recuperar las partes (UTXO) de una cartera avanzada. La forma de escribir el descriptor se basa en [Miniscript syntax](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), el lenguaje de scripting desarrollado por Andrew Poelstra, Pieter Wuille y Sanket Kanjalkar en 2019.

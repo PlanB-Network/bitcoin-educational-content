@@ -303,18 +303,6 @@ Transakce by se měla zobrazit na hlavní obrazovce. Po potvrzení je obnova dok
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Videa
-
-Pokud se chcete o Lianě dozvědět více, najdete zde několik videí, která vám přiblíží její fungování. Zde je videoprezentace systému Liana s Kévinem Loaecem a Antoinem Poinsotem :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-A zde je návod, jak používat Lianu, s Antoinem Poinsotem :
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Manipulace, které jsou v něm uvedeny, jsou podobné těm, které jsou prezentovány v tomto výukovém programu.
-
 ## Bonus: analýza deskriptorů
 
 Deskriptor je lidsky čitelný řetězec znaků, který vyčerpávajícím způsobem popisuje sadu adres. Kombinuje řadu základních informací pro vyhledávání částí (UTXO) pokročilého portfolia. Způsob zápisu deskriptoru vychází ze [syntaxe Miniscript](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), skriptovacího jazyka, který v roce 2019 vyvinuli Andrew Poelstra, Pieter Wuille a Sanket Kanjalkar.

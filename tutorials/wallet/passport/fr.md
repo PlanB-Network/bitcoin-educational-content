@@ -6,7 +6,7 @@ description: Configurer et utiliser le hardware wallet Passport en mode manuel
 
 Le Passport est un hardware wallet Bitcoin-only, conçu par Foundation Devices, une entreprise américaine fondée en avril 2020 à Boston.
 
-Le Passport "Batch 2" que nous présentons dans ce tutoriel est le successeur de l'édition "Founder's Edition". Il se distingue par son design premium, un écran couleur de haute résolution et un clavier physique ergonomique. Il fonctionne en mode "Air-Gap", ce qui garantit que les clés privées de votre portefeuille restent totalement isolées, avec des échanges possibles via une carte MicroSD ou par QR codes. L'appareil inclut une batterie amovible de 1200 mAh.
+Le Passport "Batch 2" que nous présentons dans ce tutoriel est le successeur de l'édition "Founder's Edition". Il se distingue par son design premium, un écran couleur de haute définition et un clavier physique ergonomique. Il fonctionne en mode "Air-Gap", ce qui garantit que les clés privées de votre portefeuille restent totalement isolées, avec des échanges possibles via une carte MicroSD ou par QR codes. L'appareil inclut une batterie amovible de 1200 mAh.
 
 Pour ce qui est de la connectivité, le Passport est équipé d'un port MicroSD, d'un port USB-C pour le chargement, et d'une caméra arrière pour scanner les QR codes.
 
@@ -120,7 +120,7 @@ Votre code PIN a bien été enregistré.
 
 ## Mettre à jour le firmware du Passport
 
-Votre hardware wallet vous propose de mettre à jour son micrologiciel. Je vous recommande de procéder à cette mise à jour immédiatement afin de bénéficier des améliorations et corrections apportées par les dernières versions. Pour continuer, cliquez sur le bouton de confirmation à droite.
+Votre hardware wallet vous propose de mettre à jour son micrologiciel. Je vous recommande de procéder à cette mise à jour immédiatement afin de bénéficier des améliorations et des corrections apportées par les dernières versions. Pour continuer, cliquez sur le bouton de confirmation à droite.
 
 19
 
@@ -132,7 +132,7 @@ Pour cela, utilisez la carte MicroSD incluse dans la boîte de votre Passport (o
 
 21
 
-Avant de l'installer sur votre appareil, il est vivement conseillé de vérifier l'authenticité et l'intégrité du firmware téléchargé. Si vous avez besoin d'instructions sur comment procéder, consultez ce tutoriel : 
+Avant de l'installer sur votre appareil, il est vivement conseillé de vérifier l'authenticité et l'intégrité du firmware téléchargé. Si vous avez besoin d'aide pour le faire, consultez ce tutoriel : 
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
@@ -231,7 +231,7 @@ Le sous-menu "Account Tools" offre des options telles que la vérification d'une
 
 38
 
-Dans le sous-menu "Manage Account", vous avez la possibilité de connecter votre portefeuille Bitcoin à un logiciel gestionnaire de wallet (ce que nous aborderons dans les prochaines étapes de ce tutoriel), ou de consulter et renommer votre compte.
+Dans le sous-menu "Manage Account", vous avez la possibilité de connecter votre portefeuille Bitcoin à un logiciel gestionnaire de wallet (ce que nous aborderons dans les prochaines étapes de ce tutoriel), ou de consulter et de renommer votre compte.
 
 39
 
@@ -313,7 +313,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 ## Configurer le portefeuille sur Sparrow Wallet
 
-Dans ce tutoriel je vous présente une utilisation avancée du Passport avec Sparrow Wallet. Cependant, ce hardware wallet est également compatible avec Envoy (l'application de Foundation), Keeper, BlueWallet, Nunchuk, Specter, et bien d'autres...
+Dans ce tutoriel, je vous présente une utilisation avancée du Passport avec Sparrow Wallet. Cependant, ce hardware wallet est également compatible avec Envoy (l'application de Foundation), Keeper, BlueWallet, Nunchuk, Specter, et bien d'autres...
 
 Commencez par télécharger et installer Sparrow Wallet [depuis le site officiel](https://sparrowwallet.com/) sur votre ordinateur, si ce n'est pas déjà fait.
 
@@ -369,107 +369,107 @@ Définissez un mot de passe fort pour sécuriser l'accès à votre portefeuille 
 
 Votre Passport vous invite alors à scanner la première adresse de réception pour confirmer que l'importation s'est correctement déroulée.
 
-65
+66
 
 Dans Sparrow, accédez à l'onglet "Receive" et scannez le QR code de la première adresse.
 
-66
+67
 
 Si l'opération est réussie, votre Passport affichera "Verified".
 
-67
+68
 
 Cela confirme que l'importation a été effectuée avec succès.
 
-68
+69
 
 ## Recevoir des bitcoins
 
 Maintenant que votre Passport est configuré, vous êtes prêt à recevoir vos premiers sats sur votre nouveau portefeuille Bitcoin. Pour ce faire, sur Sparrow, cliquez sur le menu "Receive".
 
-69
+70
 
 Sparrow affichera la première adresse de réception vierge de votre portefeuille. Vous pouvez y ajouter un label.
 
-70
+71
 
 Avant de l'utiliser, nous allons vérifier l'adresse sur l'écran du Passport pour nous assurer qu'elle appartient bien à notre portefeuille Bitcoin. Sur Sparrow, vous pouvez agrandir le QR code de l'adresse en cliquant dessus si nécessaire. Dans le menu "Account" de votre Passport, sélectionnez "Account Tools".
 
-71
+72
 
 Cliquez sur "Verify Address", puis scannez le QR code affiché sur Sparrow Wallet.
 
-72
+73
 
 Assurez-vous que l'adresse affichée sur le Passport corresponde exactement à celle indiquée sur Sparrow et que la mention "Verified" apparaisse.
 
-73
+74
 
 Vous pouvez désormais l'utiliser pour recevoir des bitcoins. Lorsque la transaction sera diffusée sur le réseau, elle apparaîtra sur Sparrow. Attendez d'obtenir suffisamment de confirmations pour considérer la transaction comme définitive.
 
-74
+75
 
 ## Envoyer des bitcoins
 
 Maintenant que vous avez quelques sats dans votre portefeuille, vous pouvez également en envoyer. Pour ce faire, cliquez sur le menu "UTXOs".
 
-75
+76
 
 Sélectionnez les UTXOs que vous souhaitez utiliser en tant qu'inputs pour cette transaction, puis cliquez sur "Send Selected".
 
-76
-
-Entrez l'adresse du destinataire, une étiquette pour vous rappeler de l'objectif de la transaction et le montant que vous souhaitez envoyer à cette adresse.
-
 77
 
-Ajustez le taux de frais en fonction de l'état actuel du marché, puis cliquez sur "Create Transaction".
+Entrez l'adresse du destinataire, une étiquette pour vous souvenir de l'objectif de la transaction et le montant que vous souhaitez envoyer à cette adresse.
 
 78
 
-Vérifiez que tous les paramètres de la transaction sont corrects, puis cliquez sur "Finalize Transaction for Signing".
+Ajustez le taux de frais en fonction de l'état actuel du marché, puis cliquez sur "Create Transaction".
 
 79
 
-Cliquez sur "Show QR" pour afficher la PSBT (*Partially Signed Bitcoin Transaction*). Sparrow a construit la transaction, mais il manque encore les signatures pour déverrouiller les bitcoins utilisés en input. Ces signatures ne peuvent être réalisées que par le Passport, qui héberge votre seed donnant accès aux clés privées nécessaires pour signer la transaction.
+Vérifiez que tous les paramètres de la transaction sont corrects, puis cliquez sur "Finalize Transaction for Signing".
 
 80
 
-Sur votre Passport, accédez au menu "Account" et cliquez sur "Sign with QR Code".
+Cliquez sur "Show QR" pour afficher la PSBT (*Partially Signed Bitcoin Transaction*). Sparrow a construit la transaction, mais il manque encore les signatures pour déverrouiller les bitcoins utilisés en input. Ces signatures ne peuvent être réalisées que par le Passport, qui héberge votre seed donnant accès aux clés privées nécessaires pour signer la transaction.
 
 81
 
-Scannez la PSBT (*Partially Signed Bitcoin Transaction*) affichée sur Sparrow Wallet.
+Sur votre Passport, accédez au menu "Account" et cliquez sur "Sign with QR Code".
 
 82
 
-Confirmez que l'adresse de réception et le montant envoyé sont corrects, puis appuyez sur le bouton de confirmation.
+Scannez la PSBT (*Partially Signed Bitcoin Transaction*) affichée sur Sparrow Wallet.
 
 83
 
-Vérifiez l'adresse de change. Dans mon exemple, il n'y en a pas, car la transaction comprend un seul output.
+Confirmez que l'adresse de réception et le montant envoyé sont corrects, puis appuyez sur le bouton de confirmation.
 
 84
 
-Assurez-vous que le montant des frais est celui que vous avez choisi.
+Vérifiez l'adresse de change. Dans mon exemple, il n'y en a pas, car la transaction comprend un seul output.
 
 85
 
-Si toute les informations sont bien justes, cliquez sur le bouton de confirmation pour signer la transaction.
+Assurez-vous que le montant des frais est celui que vous avez choisi.
 
 86
 
-Sur Sparrow Wallet, cliquez sur "Scan QR" et scannez le QR code affiché sur votre Passport.
+Si toutes les informations sont bien justes, cliquez sur le bouton de confirmation pour signer la transaction.
 
 87
 
-Votre transaction signée est prête à être diffusée sur le réseau Bitcoin pour être ensuite incluse dans un bloc par un mineur. Si tout est correct, cliquez sur "Broadcast Transaction".
+Sur Sparrow Wallet, cliquez sur "Scan QR" et scannez le QR code affiché sur votre Passport.
 
 88
 
-Votre transaction a été diffusée et est en attente de confirmations.
+Votre transaction signée est prête à être diffusée sur le réseau Bitcoin pour être ensuite incluse dans un bloc par un mineur. Si tout est correct, cliquez sur "Broadcast Transaction".
 
 89
+
+Votre transaction a été diffusée et est en attente de confirmations.
+
+90
 
 Félicitations, vous savez dorénavant comment configurer et utiliser le Passport. Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci !
 

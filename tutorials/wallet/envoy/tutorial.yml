@@ -1,0 +1,26 @@
+id: 3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+
+project_id: 42c3b7db-f6b4-4ad2-a755-e82d6fdc3e6b
+
+tags:
+  - wallets
+  - keys
+  - software
+
+category: mobile
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-02-17
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 0

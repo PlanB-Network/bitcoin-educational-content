@@ -18,8 +18,9 @@ Proposé à $199, le Passport se positionne comme un hardware wallet haut de gam
 
 Pour gérer votre portefeuille sécurisé sur un Passport, vous disposez de plusieurs options. Ce hardware wallet est compatible avec la majorité des logiciels de gestion de portefeuille sur le marché, y compris Sparrow Wallet, Specter Desktop, Nunchuk, Keeper, entre autres. Dans ce tutoriel, nous allons apprendre à l'utiliser avec Sparrow Wallet.
 
-Pour les débutants, l'option la plus simple est d'utiliser votre Passport avec l'application native Envoy, développée par Foundation. Pour découvrir comment utiliser Envoy avec votre Passport, consultez cet autre tutoriel :
+Si vous êtes débutant, l'option la plus simple est d'utiliser votre Passport avec l'application native Envoy, développée par Foundation. Pour découvrir comment utiliser Envoy avec votre Passport, consultez cet autre tutoriel :
 
+https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Unboxing du Passport
 

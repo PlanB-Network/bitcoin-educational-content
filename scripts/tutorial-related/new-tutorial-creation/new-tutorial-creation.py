@@ -311,10 +311,10 @@ description:
             "proofreading:",
             f"  - language: {language_code}",
             f"    last_contribution_date: {current_date}",
-            "    urgency:",
+            "    urgency: 1",
             "    contributors_id:",
             f"      - {contributor_id}",
-            "    reward:"
+            "    reward: 0"
         ])
         yaml_content = "\n".join(lines)
         with open(os.path.join(tutorial_path, "tutorial.yml"), "w", encoding="utf-8") as yaml_file:

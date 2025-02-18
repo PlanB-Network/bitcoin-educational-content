@@ -2091,13 +2091,13 @@ For å konvertere en verdi til et _bech32_-tegn ved hjelp av denne tabellen, fin
 Ved å kartlegge alle våre verdier, får vi følgende adresse:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Alt som gjenstår er å legge til HRP `bc`, som indikerer at det er en adresse for Bitcoin hovednettverket, samt skilletegnet `1`, for å få den komplette mottaksadressen:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Det spesielle med dette _bech32_-alfabetet er at det inkluderer alle alfanumeriske tegn unntatt `1`, `b`, `i`, og `o` for å unngå visuell forvirring mellom lignende tegn, spesielt under deres inntasting eller lesing av mennesker.

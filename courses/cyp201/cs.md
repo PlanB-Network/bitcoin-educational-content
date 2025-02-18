@@ -2071,13 +2071,13 @@ Pro převedení hodnoty na znak _bech32_ pomocí této tabulky jednoduše najdě
 Mapováním všech našich hodnot získáme následující adresu:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Zbývá již jen přidat HRP `bc`, což naznačuje, že se jedná o adresu pro Bitcoin mainnet, stejně jako oddělovač `1`, abychom získali kompletní přijímací adresu:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Zvláštností této abecedy _bech32_ je, že zahrnuje všechny alfanumerické znaky kromě `1`, `b`, `i` a `o`, aby se zabránilo vizuálnímu zmatení mezi podobnými znaky, zejména při jejich zadávání nebo čtení lidmi.

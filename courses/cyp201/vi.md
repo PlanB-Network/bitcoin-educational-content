@@ -2139,13 +2139,13 @@ $$
 Bằng cách ánh xạ tất cả giá trị của chúng ta, chúng ta nhận được địa chỉ sau:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Tất cả những gì còn lại là thêm HRP `bc`, chỉ ra rằng đó là một địa chỉ cho Bitcoin mainnet, cũng như dấu phân cách `1`, để nhận được địa chỉ nhận hoàn chỉnh:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Đặc điểm của bảng chữ cái *bech32* này là nó bao gồm tất cả các ký tự chữ và số trừ `1`, `b`, `i`, và `o` để tránh sự nhầm lẫn về mặt hình ảnh giữa các ký tự tương tự, đặc biệt trong quá trình nhập hoặc đọc bởi con người.

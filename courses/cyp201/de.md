@@ -2164,13 +2164,13 @@ Um einen Wert in einen _bech32_-Zeichen mithilfe dieser Tabelle umzuwandeln, suc
 Durch das Abbilden all unserer Werte erhalten wir die folgende Adresse:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Es bleibt nur noch, das HRP `bc` hinzuzufügen, was anzeigt, dass es sich um eine Adresse für das Bitcoin-Hauptnetz handelt, sowie den Separator `1`, um die vollständige Empfangsadresse zu erhalten:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Die Besonderheit dieses _bech32_-Alphabets ist, dass es alle alphanumerischen Zeichen außer `1`, `b`, `i` und `o` umfasst, um visuelle Verwechslungen zwischen ähnlichen Zeichen zu vermeiden, insbesondere während ihrer Eingabe oder beim Lesen durch Menschen.

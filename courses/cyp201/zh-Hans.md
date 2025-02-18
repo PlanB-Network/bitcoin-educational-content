@@ -2132,13 +2132,13 @@ $$
 通过映射我们所有的值，我们得到以下地址：
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 剩下的就是添加 HRP `bc`，它表示这是一个比特币主网的地址，以及分隔符 `1`，以获得完整的接收地址：
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 这个 _bech32_ 字母表的特点是，它包含了所有的字母数字字符，除了 `1`、`b`、`i` 和 `o`，以避免在人类输入或阅读时相似字符之间的视觉混淆。

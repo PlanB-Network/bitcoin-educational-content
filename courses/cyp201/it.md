@@ -2128,13 +2128,13 @@ Per convertire un valore in un carattere _bech32_ utilizzando questa tabella, è
 Mappando tutti i nostri valori, otteniamo il seguente indirizzo:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Tutto ciò che rimane da fare è aggiungere l'HRP `bc`, che indica che si tratta di un indirizzo per il mainnet di Bitcoin, così come il separatore `1`, per ottenere l'indirizzo completo di ricezione:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 La particolarità di questo alfabeto _bech32_ è che include tutti i caratteri alfanumerici tranne `1`, `b`, `i` e `o` per evitare confusione visiva tra caratteri simili, specialmente durante la loro digitazione o lettura da parte degli umani.

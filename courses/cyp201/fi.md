@@ -2104,13 +2104,13 @@ Arvon muuttaminen _bech32_-merkiksi tämän taulukon avulla on yksinkertaista: e
 Kartoittamalla kaikki arvomme saamme seuraavan osoitteen:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Ainoa jäljellä oleva tehtävä on lisätä HRP `bc`, joka osoittaa, että kyseessä on Bitcoinin pääverkon osoite, sekä erotin `1`, jotta saadaan täydellinen vastaanotto-osoite:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Tämän _bech32_-aakkoston erityispiirre on, että se sisältää kaikki alfanumeeriset merkit paitsi `1`, `b`, `i` ja `o` välttääkseen visuaalisen sekaannuksen samankaltaisten merkkien välillä, erityisesti niiden syöttämisen tai lukemisen aikana ihmisille.

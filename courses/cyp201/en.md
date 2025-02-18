@@ -2210,13 +2210,13 @@ To convert a value into a _bech32_ character using this table, simply locate the
 By mapping all our values, we obtain the following address:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 All that remains is to add the HRP `bc`, which indicates that it is an address for the Bitcoin mainnet, as well as the separator `1`, to obtain the complete receiving address:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 The particularity of this _bech32_ alphabet is that it includes all alphanumeric characters except for `1`, `b`, `i`, and `o` to avoid visual confusion between similar characters, especially during their entry or reading by humans.

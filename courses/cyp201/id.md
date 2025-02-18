@@ -2101,13 +2101,13 @@ Untuk mengonversi nilai menjadi karakter _bech32_ menggunakan tabel ini, cukup t
 Dengan memetakan semua nilai kita, kita mendapatkan alamat berikut:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Yang tersisa hanyalah menambahkan HRP `bc`, yang menunjukkan bahwa ini adalah alamat untuk Bitcoin mainnet, serta pemisah `1`, untuk mendapatkan alamat penerima lengkap:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Keunikan dari alfabet _bech32_ ini adalah termasuk semua karakter alfanumerik kecuali `1`, `b`, `i`, dan `o` untuk menghindari kebingungan visual antara karakter yang serupa, terutama selama entri atau pembacaan oleh manusia.

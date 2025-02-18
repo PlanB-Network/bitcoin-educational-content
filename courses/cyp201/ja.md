@@ -2134,13 +2134,13 @@ $$
 すべての値をマッピングすると、次のアドレスが得られます：
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 残る作業は、Bitcoinメインネットのアドレスであることを示すHRP`bc`と、セパレータ`1`を追加して、完全な受信アドレスを得ることです：
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 この*bech32*アルファベットの特徴は、`1`、`b`、`i`、`o`を除くすべての英数字文字を含んでいることで、特に人間による入力や読み取り時に、似た文字間の視覚的な混同を避けるためです。

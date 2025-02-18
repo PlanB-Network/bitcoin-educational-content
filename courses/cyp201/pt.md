@@ -2179,13 +2179,13 @@ Para converter um valor em um caractere _bech32_ usando esta tabela, basta local
 Mapeando todos os nossos valores, obtemos o seguinte endereço:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Tudo o que resta é adicionar o HRP `bc`, que indica que se trata de um endereço para a rede principal do Bitcoin, bem como o separador `1`, para obter o endereço de recebimento completo:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 A particularidade deste alfabeto _bech32_ é que ele inclui todos os caracteres alfanuméricos exceto `1`, `b`, `i` e `o` para evitar confusão visual entre caracteres similares, especialmente durante sua digitação ou leitura por humanos.

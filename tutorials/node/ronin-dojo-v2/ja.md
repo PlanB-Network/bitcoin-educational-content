@@ -205,7 +205,7 @@ RoninUIのホームページにアクセスすると、セットアップを開�
 
 ![lets start](assets/en/25.webp)
 
-この段階で、RoninUIはあなたの`root`パスワードを提示します。これを安全に保管することが重要です。物理的なバックアップを紙に取るか、[パスワードマネージャー](https://planb.network/courses/secu101/4/2)に保存することができます。
+この段階で、RoninUIはあなたの`root`パスワードを提示します。これを安全に保管することが重要です。物理的なバックアップを紙に取るか、[パスワードマネージャー](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)に保存することができます。
 
 ![root password](assets/en/26.webp)
 

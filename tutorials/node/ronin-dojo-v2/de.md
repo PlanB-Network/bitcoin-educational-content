@@ -211,7 +211,7 @@ Sobald Sie auf der RoninUI-Startseite sind, werden Sie aufgefordert, die Einrich
 
 ![lets start](assets/notext/25.webp)
 
-In diesem Stadium präsentiert Ihnen RoninUI Ihr `root`-Passwort. Es ist wesentlich, dieses sicher aufzubewahren. Sie können sich für eine physische Sicherung auf Papier entscheiden oder es in einem [Passwort-Manager](https://planb.network/courses/secu101/4/2) speichern.
+In diesem Stadium präsentiert Ihnen RoninUI Ihr `root`-Passwort. Es ist wesentlich, dieses sicher aufzubewahren. Sie können sich für eine physische Sicherung auf Papier entscheiden oder es in einem [Passwort-Manager](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f) speichern.
 
 ![root password](assets/notext/26.webp)
 

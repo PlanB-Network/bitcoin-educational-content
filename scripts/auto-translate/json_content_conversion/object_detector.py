@@ -33,7 +33,7 @@ class MDObjectDetector(BaseObjectDetector):
     def __init__(self):
         super().__init__('translation_rule_md.yml')
         self.patterns = {
-            'yml_properties': r'^(name|goal|objectives|description|question|answer|wrong_answers|explanation|reviewed|title|publication_year|cover|original|contributors):',
+            'yml_properties': r'^(name|term|goal|objectives|description|question|answer|wrong_answers|explanation|reviewed|title|publication_year|cover|original|contributors):',
             'header_separator': r'^---$',
             'markdown_header': r'^#{1,6}\s+.+$',
             'partId': r'^<partId>[^<]+</partId>$',

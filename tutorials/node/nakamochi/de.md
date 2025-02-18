@@ -1,9 +1,7 @@
-
+---
 name: Nakamochi
-
 description: Benutzerfreundlicher Node-Betrieb – Wie man die Nakamochi Bitcoin- und Lightning-Node einrichtet und nutzt.
-
-
+---
 Der Betrieb einer eigenen Bitcoin- und Lightning-Node ist längst keine komplexe Aufgabe mehr, die nur Personen mit technischen Kenntnisse vorbehalten ist. Traditionell erfordert die Einrichtung und der Betrieb von Nodes fundierte Kenntnisse in den Bereichen Kryptografie, Netzwerktechnologie und Softwareentwicklung. Nakamochi ändert das, indem es Nodes für jeden zugänglich macht.
 
 Mit Nakamochi kann jeder eine Node von zu Hause aus einrichten und betreiben, und vollständige Privatsphäre und finanzielle Unabhängigkeit erreichen. Der Betrieb einer Full Node sichert nicht nur eigene Transaktionen, sondern trägt auch zur Stärkung des Bitcoin-Netzwerks bei. Ein dezentralisiertes und widerstandsfähiges Bitcoin-Netzwerk ist auf eine breites Netzwerk von Nodes angewiesen, um seine Sicherheit und Unabhängigkeit zu gewährleisten.

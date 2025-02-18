@@ -3,74 +3,78 @@ name: Bitcoini privaatsus
 goal: Mõista ja omandada privaatsuse kaitse põhimõtteid Bitcoini kasutamisel
 objectives: 
 
-  - Määratleda teoreetilised mõisted, mis on vajalikud eraelu puutumatuse kaitse panuste mõistmiseks
-  - Teadma, kuidas tuvastada ja leevendada kasutajate privaatsuse kaotamisega seotud riske Bitcoini puhul
+  - Määratleda teoreetilised mõisted, mis on vajalikud eraelu puutumatuse mõistmiseks
+  - Bitcoini kasutajate konfidentsiaalsuse kaotamisega seotud riskide tuvastamine ja leevendamine
   - Meetodite ja tööriistade kasutamine Bitcoini privaatsuse kaitsmiseks
   - Mõista ahelaanalüüsi meetodeid ja töötada välja kaitsestrateegiad
 
 ---
 # Bitcoini privaatsuse kaitsmine
 
-Maailmas, kus finantstehingute privaatsus muutub järk-järgult luksuseks, on oluline mõista ja omandada privaatsuse kaitse põhimõtteid Bitcoini kasutamisel. See koolitus annab teile kõik võtmed, nii teoreetilised kui ka praktilised, et seda eesmärki iseseisvalt saavutada.
+Maailmas, kus finantstehingute konfidentsiaalsus muutub järk-järgult luksuseks, on Bitcoini kasutamisel oluline mõista ja omandada eraelu puutumatuse kaitse põhimõtteid. See koolituskursus annab teile kõik võtmed, nii teoreetilised kui ka praktilised, et seda iseseisvalt saavutada.
 
-Tänapäeval on Bitcoini puhul olemas ettevõtted, mis on spetsialiseerunud ahela analüüsile. Nende põhitegevus on just teie privaatsusse sekkumine, et kahjustada teie tehingute konfidentsiaalsust. Tegelikult ei ole "õigust privaatsusele" Bitcoinis olemas. Seega on teie, kasutaja, ülesanne kaitsta oma loomulikke õigusi ja oma tehingute konfidentsiaalsust, sest keegi teine ei tee seda teie eest.
+Täna on Bitcoini puhul ettevõtted spetsialiseerunud plokiahela analüüsile. Nende põhitegevus seisneb just teie privaatsfääri tungimises, et kahjustada teie tehingute konfidentsiaalsust. Tegelikkuses ei ole Bitcoinis sellist asja nagu "õigus privaatsusele". Seega on teie, kasutaja, ülesanne oma loomulikke õigusi maksma panna ja kaitsta oma tehingute konfidentsiaalsust, sest keegi teine ei tee seda teie eest.
 
-See koolitus on esitatud tervikliku, üldkoolitusena. Iga tehniline mõiste on üksikasjalik ja seda toetavad selgitavad diagrammid. Eesmärk on teha teadmised kõigile kättesaadavaks. BTC204 on seega kättesaadav nii algajatele kui ka edasijõudnutele. See koolitus pakub lisaväärtust ka kogenumatele bitcoini kasutajatele, kuna me süveneme mõnda sageli tundmatusse tehnilisse mõistesse.
+Kursus on kavandatud terviklikuks ja üldiseks. Iga tehnilist mõistet käsitletakse üksikasjalikult ja seda toetavad selgitavate diagrammide abil. Eesmärk on teha teadmised kõigile kättesaadavaks. Seetõttu on BTC204 taskukohane nii algajatele kui ka edasijõudnutele. Kursus pakub lisaväärtust ka kogenumatele bitcoini kasutajatele, kuna süveneme teatud tehnilistesse mõistetesse, mida sageli valesti mõistetakse.
 
-Liitu meiega, et muuta oma Bitcoini kasutamine ja saada teadlikuks kasutajaks, kes suudab mõista konfidentsiaalsusega seotud küsimusi ja kaitsta oma eraelu puutumatust.
+Liitu meiega, et muuta oma Bitcoini kasutamine ja saada teadlikuks kasutajaks, kes suudab mõista konfidentsiaalsuse ja privaatsuse kaitsmisega seotud küsimusi.
 
 +++
 # Sissejuhatus
 
 <partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>
 
-## Sissejuhatus koolitusse
+## Koolituse sissejuhatus
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
-Maailmas, kus finantstehingute privaatsus muutub järk-järgult luksuseks, on oluline mõista ja omandada privaatsuse kaitse põhimõtteid Bitcoini kasutamisel. See koolitus annab teile kõik võtmed, nii teoreetilised kui ka praktilised, et seda eesmärki iseseisvalt saavutada.
+![La confidentialité sur Bitcoin](https://youtu.be/V3eeFn4TuIY?feature=shared)
 
-Tänapäeval on Bitcoini ökosüsteemis ettevõtted, mis on spetsialiseerunud plokiahela analüüsile. Nende põhitegevus on just teie privaatsusse sekkumine, mis ohustab teie tehingute konfidentsiaalsust. Tegelikult "õigust privaatsusele" Bitcoinis ei ole olemas. Seetõttu on teie, kasutaja, ülesanne oma loomulikke õigusi maksma panna ja kaitsta oma tehingute konfidentsiaalsust, sest keegi teine ei tee seda teie eest.
+Maailmas, kus finantstehingute konfidentsiaalsus muutub järk-järgult luksuseks, on Bitcoini kasutamisel oluline mõista ja omandada eraelu puutumatuse kaitse põhimõtteid. See koolituskursus annab teile kõik võtmed, nii teoreetilised kui ka praktilised, et seda iseseisvalt saavutada.
 
-Bitcoin ei ole ainult "Number Go Up" ja säästude väärtuse säilitamine. Oma ainulaadsete omaduste ja ajaloo tõttu on see eelkõige alternatiivse majanduse vahend. Tänu sellele tähelepanuväärsele leiutisele saate oma raha vabalt hallata, kulutada ja koguda, ilma et keegi saaks teid peatada.
+Täna on Bitcoini puhul ettevõtted spetsialiseerunud plokiahela analüüsile. Nende põhitegevus seisneb just teie privaatsfääri tungimises, et kahjustada teie tehingute konfidentsiaalsust. Tegelikkuses ei ole Bitcoinis sellist asja nagu "õigus privaatsusele". Seega on teie, kasutaja, ülesanne oma loomulikke õigusi maksma panna ja kaitsta oma tehingute konfidentsiaalsust, sest keegi teine ei tee seda teie eest.
 
-Bitcoin pakub rahumeelset põgenemist riikide ikke alt, võimaldades teil täielikult nautida oma loomulikke õigusi, mida ei saa kehtestatud seadustega vaidlustada. Tänu Satoshi Nakamoto leiutisele on teil võim, et jõustada oma õigus eraomandile ja taastada oma lepinguvabadus.
+Bitcoin ei ole ainult "Number Go Up" ja säästude väärtuse säilitamine. Oma ainulaadsete omaduste ja ajalooga on see ennekõike vastumajanduse vahend. Tänu sellele hirmsale leiutisele saate oma raha vabalt käsutada, kulutada ja koguda, ilma et keegi saaks teid takistada.
 
-Bitcoin ei ole aga vaikimisi anonüümne, mis võib kujutada endast ohtu alternatiivse majandusega tegelevatele inimestele, eriti piirkondades, kus valitseb despootlik režiim. Kuid see ei ole ainus oht. Kuna bitcoin on väärtuslik ja tsenseerimata vara, võib see äratada varaste tähelepanu. Seetõttu muutub teie privaatsuse kaitsmine ka turvalisuse küsimuseks: see võib aidata teil vältida küberrünnakuid ja füüsilisi rünnakuid.
+Bitcoin pakub rahumeelset põgenemist riigi ikke alt, võimaldades teil täielikult nautida oma loomulikke õigusi, mida ei saa kehtestatud seadustega vaidlustada. Tänu Satoshi Nakamoto leiutisele on teil võim, et tagada oma eraomandi austamine ja taastada lepinguvabadus.
 
-Nagu me näeme, kuigi protokoll pakub teatavat eraelu puutumatuse kaitset, on oluline kasutada lisavahendeid, et optimeerida ja kaitsta seda eraelu puutumatust. See kursus on mõeldud tervikliku ja üldistava tee loomiseks Bitcoini privaatsuse mõistmiseks. Iga tehnilist mõistet käsitletakse üksikasjalikult ja seda toetavad selgitavate diagrammidega. Eesmärk on teha teadmised kättesaadavaks kõigile, sealhulgas algajatele ja edasijõudnutele. Kogenumate bitcoin'i kasutajate jaoks käsitleme selle kursuse jooksul ka väga tehnilisi ja mõnikord vähemtuntud mõisteid, et süvendada iga teema mõistmist.
+Bitcoin ei ole aga vaikimisi anonüümne, mis võib kujutada endast ohtu vastumajanduse valdkonnas tegutsevatele inimestele, eriti piirkondades, kus valitseb despootlik võim. Kuid see ei ole ainus oht. Kuna bitcoin on väärtuslik ja mõõdetamatu vara, võib see olla varaste sihtmärgiks. Seega muutub teie privaatsuse kaitsmine ka turvalisuse küsimuseks: see võib aidata teil vältida häkkimist ja füüsilisi rünnakuid.
 
-Selle kursuse eesmärk ei ole muuta teid Bitcoini kasutamisel täiesti anonüümseks, vaid pigem anda teile olulised vahendid, et teaksite, kuidas kaitsta oma privaatsust vastavalt oma isiklikele eesmärkidele. Teil on vabadus valida esitatud kontseptsioonide ja vahendite hulgast, et töötada välja oma strateegiad, mis on kohandatud teie konkreetsetele eesmärkidele ja vajadustele.
+Nagu me näeme, kuigi protokoll pakub iseenesest teatud konfidentsiaalsuskaitset, on väga oluline kasutada täiendavaid vahendeid selle konfidentsiaalsuse optimeerimiseks ja kaitsmiseks.
+
+Selle koolituskursuse eesmärk on anda põhjalik üldine ülevaade Bitcoini konfidentsiaalsusega seotud küsimustest. Iga tehnilist mõistet käsitletakse üksikasjalikult, mida toetavad selgitavad diagrammid. Eesmärk on teha need teadmised kättesaadavaks kõigile, isegi algajatele ja edasijõudnutele. Kogenumate Bitcoini kasutajate jaoks käsitleme kursuse jooksul ka väga tehnilisi ja mõnikord vähe tuntud mõisteid, et süvendada iga teema mõistmist.
+
+Selle koolituskursuse eesmärk ei ole muuta teid Bitcoini kasutamisel täiesti anonüümseks, vaid pigem anda teile olulised vahendid, et teaksite, kuidas kaitsta oma konfidentsiaalsust vastavalt oma isiklikele eesmärkidele. Teil on vabadus valida esitatud kontseptsioonide ja vahendite hulgast, et töötada välja oma strateegiad, mis on kohandatud teie konkreetsetele eesmärkidele ja vajadustele.
 
 ### 1. jagu: Mõisted ja põhimõisted
 
-Alustuseks vaatame koos põhialuseid, mis reguleerivad Bitcoini toimimist, ja seejärel läheneme rahulikult privaatsusega seotud mõistetele. On oluline omandada mõned põhimõisted, nagu UTXOd, vastuvõtuaadressid või skriptid, enne kui saame täielikult mõista mõisteid, mida käsitleme järgmistes osades. Tutvustame ka Bitcoini üldist privaatsusmudelit, nagu Satoshi Nakamoto seda ette kujutas, mis võimaldab meil mõista probleeme ja nendega seotud riske.
+Alustuseks vaatame üle Bitcoini toimimise põhiprintsiibid, et seejärel saaksime rahulikult käsitleda konfidentsiaalsusega seotud mõisteid. On oluline omandada mõned põhimõisted, nagu UTXO, aadresside vastuvõtmine ja skriptide koostamine, enne kui saate täielikult mõista mõisteid, mida käsitleme järgmistes osades. Tutvustame ka Bitcoini üldist konfidentsiaalsusmudelit, nagu Satoshi Nakamoto seda ette kujutas, mis võimaldab meil mõista sellega seotud panuseid ja riske.
 
-![BTC204](assets/it/11/1.webp)
+![BTC204](assets/fr/001.webp)
 
-### 2. jagu: Ahelaanalüüsi mõistmine ja enda kaitsmine
+### 2. jagu: Arusaamine ja kaitse ahelanalüüsi vastu
 
-Teises osas uurime plokiahela analüütikafirmade poolt kasutatavaid meetodeid, et jälgida teie tegevust Bitcoinis. Nende meetodite mõistmine on teie eraelu puutumatuse kaitse parandamiseks ülioluline. Selle osa eesmärk on uurida ründajate strateegiaid, et paremini mõista riske ja panna alus tehnikatele, mida uurime järgmistes osades. Analüüsime tehingumustreid, sisemisi ja väliseid heuristikatsioone ning nende mustrite usutavaid tõlgendusi. Lisaks teoreetilisele osale õpime praktiliste näidete ja harjutuste kaudu, kuidas kasutada plokkide uurijat ahelaanalüüsi tegemiseks.
+Teises jaotises vaatleme tehnikaid, mida plokiahela analüüsiga tegelevad ettevõtted kasutavad teie tegevuse jälgimiseks Bitcoinis. Nende meetodite mõistmine on teie eraelu puutumatuse kaitse tugevdamiseks ülioluline. Selle osa eesmärk on uurida ründajate strateegiaid, et paremini mõista riske ja valmistada ette pinnast tehnikatele, mida uurime järgmistes osades. Analüüsime tehingumustreid, sisemisi ja väliseid heuristilisi võtteid ning nende mustrite tõenäolisi tõlgendusi. Lisaks teooriale õpime praktiliste näidete ja harjutuste kaudu, kuidas kasutada ahelate analüüsiks plokkide otsijat.
 
 ![BTC204](assets/fr/002.webp)
 
-### 3. jagu: Parimate tavade valdamine teie eraelu puutumatuse kaitsmiseks
+### 3. jagu: Parimate tavade omandamine eraelu puutumatuse kaitsmiseks
 
-Meie kursuse kolmandas osas jõuame asja tuumani: praktika! Eesmärk on omandada kõik olulised parimad tavad, mis peaksid saama iga Bitcoini kasutaja jaoks loomulikuks refleksiks. Me käsitleme värskete aadresside kasutamist, märgistamist, konsolideerimist, täisnoodide kasutamist, samuti KYC- ja omandamismeetodeid. Eesmärk on anda teile põhjalik ülevaade lõksudest, mida tuleb vältida, et luua kindel alus meie püüdlustes privaatsuse kaitsmiseks. Mõnede nende tavade puhul juhatatakse teid nende rakendamiseks konkreetse juhendmaterjali juurde.
+Meie koolituskursuse kolmandas osas läheme asja juurde: praktika! Eesmärk on omandada kõik olulised parimad tavad, mis peaksid saama iga Bitcoini kasutaja jaoks loomulikuks refleksiks. Me käsitleme tühjade aadresside kasutamist, märgistamist, konsolideerimist, terviklike sõlmede kasutamist, samuti KYC- ja omandamismeetodeid. Eesmärgiks on anda teile põhjalik ülevaade lõksudest, mida vältida, et luua kindel alus meie püüdlustes kaitsta privaatsust. Mõnede nende tavade puhul juhatatakse teid konkreetse õpetuse juurde, kuidas neid rakendada.
 
-![BTC204](assets/it/11/3.webp)
+![BTC204](assets/fr/003.webp)
 
 ### 4. jagu: Coinjoin-tehingute mõistmine
 
-Kuidas me saame rääkida Bitcoini privaatsusest ilma coinjoin'i arutamata? Punktis 4 leiate kõik, mida selle segamismeetodi kohta teada peate. Saate teada, mis on coinjoin, selle ajalugu ja eesmärgid, samuti saate teada, milliseid erinevaid coinjoini tüüpe on olemas. Lõpuks, kogenumatele kasutajatele, saame teada, mis on anonset ja entroopia ning kuidas neid näitajaid arvutada.
+Kuidas me saame rääkida Bitcoini privaatsusest, ilma et mainiksime coinjoins'i? Jaotises 4 leiate kõik, mida selle segamismeetodi kohta teada peate. Saate teada, mis on coinjoinid, nende ajalugu ja eesmärgid, samuti erinevad olemasolevad coinjoini tüübid. Lõpuks vaatame kogenumatele kasutajatele, mis on anonsetid ja entroopia ning kuidas neid arvutada.
 
-![BTC204](assets/it/11/4.webp)
+![BTC204](assets/fr/004.webp)
 
-### 5. jagu: Muude täiustatud privaatsustehnikate probleemide mõistmine
+### 5. jagu: Teiste täiustatud konfidentsiaalsustehnikate probleemide mõistmine
 
-Viiendas jaotises anname ülevaate kõigist teistest olemasolevatest tehnikatest, millega saab Bitcoinis lisaks coinjoinile oma privaatsust kaitsta. Aastate jooksul on arendajad näidanud märkimisväärset loovust privaatsusele pühendatud vahendite väljatöötamisel. Uurime kõiki neid meetodeid, nagu payjoin, ühistehingud, Coin Swap ja Atomic Swap, kirjeldades üksikasjalikult nende toimimist, eesmärke ja võimalikke nõrkusi.
+Viiendas jaotises vaatleme kõiki teisi meetodeid, mis on saadaval teie privaatsuse kaitsmiseks Bitcoinis, välja arvatud coinjoin. Aastate jooksul on arendajad näidanud märkimisväärset loovust privaatsusele pühendatud vahendite väljatöötamisel. Vaatleme kõiki neid meetodeid, nagu payjoin, ühistehingud, Coin Swap ja Atomic Swap, kirjeldades üksikasjalikult nende toimimist, eesmärke ja võimalikke nõrkusi.
 
-Me käsitleme ka privaatsust sõlmede võrgu tasandil ja tehingute levitamist. Samuti arutame erinevaid protokolle, mida on aastate jooksul pakutud kasutajate privaatsuse parandamiseks Bitcoinis, sealhulgas staatilise aadressi protokollid.
+Samuti vaatleme privaatsust sõlmede võrgu ja tehingute levitamise tasandil. Samuti arutame erinevaid protokolle, mida on aastate jooksul pakutud kasutajate privaatsuse suurendamiseks Bitcoinis, sealhulgas staatiliste aadresside protokollid.
 
 ![BTC204](assets/fr/005.webp)
 
@@ -82,35 +86,39 @@ Me käsitleme ka privaatsust sõlmede võrgu tasandil ja tehingute levitamist. S
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
-Bitcoin on eelkõige valuuta, kuid kas te teate konkreetselt, kuidas BTC on protokollis esindatud?
+![La confidentialité sur Bitcoin](https://youtu.be/bE-dmcAe_wY?feature=shared)
 
-### UTXOs of Bitcoin: Mis on need?
+Bitcoin on ennekõike valuuta, kuid kas te tegelikult teate, kuidas BTC-d protokollis esindatud on?
 
-Bitcoini protokollis põhineb rahaühikute haldamine UTXO-mudelil, mis tähendab "_Unspent Transaction Output_"
+### UTXO-d Bitcoinis: mis need on?
 
-See mudel erineb oluliselt traditsioonilistest pangandussüsteemidest, mis tuginevad finantsvoogude jälgimiseks konto- ja saldomehhanismile. Tegelikult hoitakse pangandussüsteemis individuaalseid saldosid kontodel, mis on seotud identiteediga. Näiteks kui te ostate pagarilt baguette'i, debiteerib teie pank lihtsalt teie kontolt ostusumma, vähendades seega teie saldot, samal ajal kui pagari kontole kantakse sama summa, suurendades selle saldot. Selles süsteemis ei ole mingit seost teie kontole saabuva ja kontolt väljaviidava raha vahel, välja arvatud tehingukirjed.
+Bitcoini protokoll põhineb UTXO-mudelil, mis tähendab "Unspent Transaction Output".
 
-Bitcoini puhul toimivad asjad teisiti. Konto mõistet ei ole olemas ja rahaühikuid ei hallata mitte saldode, vaid UTXOde kaudu. UTXO esindab konkreetset bitcoini summat, mida ei ole veel kulutatud, moodustades seega bitcoini tükikese, mis võib olla suur või väike. Näiteks võib UTXO olla väärtusega `500 BTC` või ainult `700 SATS`.
+See mudel erineb oluliselt traditsioonilistest pangandussüsteemidest, mis tuginevad finantsvoogude jälgimiseks kontode ja saldode mehhanismile. Pangandussüsteemis säilitatakse individuaalsed saldod identiteediga seotud kontodel. Näiteks kui te ostate pagarilt baguette'i, debiteerib teie pank lihtsalt ostusumma teie kontolt, vähendades teie saldot, samal ajal kui pagari kontole kantakse sama summa, suurendades selle saldot. Selles süsteemis ei ole mingit seost teie kontole laekunud ja sealt lahkunud raha vahel, välja arvatud tehingukirjed.
 
-**> Meeldetuletus:** Satoshi, mida sageli lühendatakse sati, on Bitcoini väikseim ühik, mis on võrreldav penniga fiat-valuutades.
+![BTC204](assets/fr/006.webp)
+
+Bitcoin töötab teisiti. Konto mõistet ei ole olemas ja rahaühikuid ei hallata saldode, vaid UTXOde kaudu. UTXO esindab konkreetset bitcoinide kogust, mida ei ole veel kulutatud, moodustades seega "bitcoini tüki", mis võib olla suur või väike. Näiteks võib üks UTXO olla väärtusega `500 BTC` või lihtsalt `700 SATS`.
+
+**> Satoshi, sageli lühendatult sat, on Bitcoini väikseim ühik, mis on võrreldav fiat-valuutade sentime'iga.
 
 ```plaintext
-1 BTC = 100,000,000 SATS
+1 BTC = 100 000 000 SATS
 ```
 
-Teoreetiliselt võib UTXO esindada mis tahes väärtust bitcoinides, alates satist kuni teoreetilise maksimumini, mis on umbes 21 miljonit BTC. Siiski on loogiliselt võimatu omada kõiki 21 miljonit bitcoin'i ning on olemas madalam majanduslik lävi, mida nimetatakse "tolmuks" ja millest allapoole jäävat UTXO-d peetakse majanduslikult ebaökonoomseks kulutada.
+Teoreetiliselt võib üks UTXO esindada mis tahes väärtust bitcoinides, alates satist kuni teoreetilise maksimumini, mis on umbes 21 miljonit BTC. Siiski on loogiliselt võimatu omada kõiki 21 miljonit bitcoin'i ning on olemas madalam majanduslik lävi, mida nimetatakse "tolmuks" ja millest allapoole jäävat UTXO-d peetakse majanduslikult ebasoodsaks kulutada.
 
-**> Kas teadsid?** Bitcoini suurim kunagi loodud UTXO oli väärtusega 500 000 BTC. See loodi MtGoxi platvormil 2011. aasta novembris toimunud konsolideerimisoperatsiooni käigus: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**> Bitcoinis kunagi loodud suurima UTXO väärtus oli 500 000 BTC. See loodi MtGoxi platvormi poolt 2011. aasta novembris toimunud konsolideerimisoperatsiooni käigus: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
-### UTXO ja kulutingimused
+### UTXOd ja kulutustingimused
 
-UTXOd on Bitcoini vahetusvahendid. Iga tehing hõlmab UTXOde kui sisendite tarbimist ja uute UTXOde kui väljundite loomist. Kui tehing tehakse, loetakse sisendina kasutatud UTXOd "kulutatud" ning uued UTXOd luuakse ja määratakse tehingu väljundites märgitud saajatele. Seega kujutab UTXO lihtsalt kulutamata tehingu väljundit ja seega bitcoinide kogust, mis kuulub antud hetkel kasutajale.
+UTXOd on Bitcoini vahetusvahendid. Iga tehingu tulemuseks on UTXOde tarbimine sisendina ja uute UTXOde loomine väljundina. Kui tehing on lõpule viidud, loetakse sisendina kasutatud UTXOd "kulutatud" ning uued UTXOd luuakse ja jaotatakse tehingu väljundites märgitud saajatele. Seega kujutab UTXO lihtsalt kulutamata tehingu väljundit ja seega bitcoinide kogust, mis kuulub antud hetkel kasutajale.
 
-![BTC204](assets/it/21/2.webp)
+![BTC204](assets/fr/007.webp)
 
-Kõik UTXOd on kaitstud skriptidega, mis määravad kindlaks tingimused, mille alusel neid saab kulutada. UTXO tarbimiseks peab kasutaja tõendama võrgule, et ta vastab UTXOd kaitsvas skriptis sätestatud tingimustele. Üldiselt on UTXOd kaitstud avaliku võtmega (või seda avalikku võtit esindava vastuvõtuaadressiga). Selle avaliku võtmega seotud UTXO kasutamiseks peab kasutaja tõendama, et tal on vastav privaatne võti, andes selle võtmega tehtud digitaalallkirja. Seepärast öeldakse, et teie Bitcoini rahakott ei sisalda tegelikult bitcoin'e, vaid hoopis teie privaatvõtmeid, mis omakorda annavad teile juurdepääsu teie UTXOdele ja seega ka bitcoin'idele, mida need esindavad.
+Kõik UTXOd on tagatud skriptidega, mis määravad kindlaks tingimused, mille alusel neid saab kulutada. UTXO tarbimiseks peab kasutaja tõendama võrgule, et ta vastab UTXOd tagavas skriptis sätestatud tingimustele. Tavaliselt on UTXOd kaitstud avaliku võtmega (või seda avalikku võtit esindava vastuvõtuaadressiga). Selle avaliku võtmega seotud UTXO kulutamiseks peab kasutaja tõendama, et tal on vastav privaatne võti, esitades selle võtmega tehtud digitaalallkirja. Seepärast ütleme, et teie Bitcoini rahakott ei sisalda tegelikult bitcoin'e, vaid hoiab teie privaatvõtmeid, mis omakorda annavad teile juurdepääsu teie UTXOdele ja seega ka bitcoin'idele, mida need esindavad.
 
-![BTC204](assets/it/21/3.webp)
+![BTC204](assets/fr/008.webp)
 
 Kuna Bitcoinis puudub konto mõiste, on rahakoti saldo lihtsalt kõigi UTXOde väärtuste summa, mida ta saab kulutada. Näiteks kui teie Bitcoini rahakott saab kulutada järgmised 4 UTXO-d:
 
@@ -121,360 +129,413 @@ Kuna Bitcoinis puudub konto mõiste, on rahakoti saldo lihtsalt kõigi UTXOde v�
 - 2 BTC
 ```
 
-Teie rahakoti kogusaldo oleks `17 BTC`.
+Teie portfelli kogusaldo oleks "17 BTC".
 
-![BTC204](assets/it/21/4.webp)
+![BTC204](assets/fr/009.webp)
 
 ## Bitcoini tehingute struktuur
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/oKhgnEClQzo?feature=shared)
+
 ### Tehingu sisendid ja väljundid
 
-Bitcoini tehing on plokiahelas salvestatud tehing, mis võimaldab bitcoinide omandiõiguse üleandmist ühelt inimeselt teisele. Täpsemalt, kuna me oleme UTXO-mudelis ja kontosid ei ole, täidab tehing kulutustingimusi, mis kaitsevad ühte või mitut UTXO-d, tarbib neid ja loob samaväärselt uusi UTXO-sid, mis on varustatud uute kulutustingimustega. Lühidalt öeldes liigutab tehing bitcoin'id rahuldatud skriptist uude skripti, mis on mõeldud nende kaitsmiseks.
+Bitcoini tehing on plokiahelas salvestatud toiming, mis annab bitcoinide omandiõiguse ühelt inimeselt teisele üle. Täpsemalt, kuna me oleme UTXO-mudelil ja kontosid ei ole, täidab tehing kulutustingimusi, mis kindlustasid ühe või mitu UTXO-d, tarbib neid ja loob samaväärselt uusi UTXO-d uute kulutustingimustega. Lühidalt öeldes liigutab tehing bitcoin'id rahuldatud skriptist uude skripti, mis on mõeldud nende kindlustamiseks.
 
-![BTC204](assets/it/22/1.webp)
+![BTC204](assets/fr/010.webp)
 
 Iga Bitcoini tehing koosneb seega ühest või mitmest sisendist ja ühest või mitmest väljundist. Sisendid on UTXOd, mida tehing tarbib väljundite loomiseks. Väljundid on uued UTXOd, mida saab kasutada tulevaste tehingute sisenditena.
 
-![BTC204](assets/it/22/2.webp)
+![BTC204](assets/fr/011.webp)
 
-**> Kas teadsid?** Teoreetiliselt võib bitcoini tehingul olla lõpmatu arv sisendeid ja väljundeid. Seda arvu piirab ainult maksimaalne plokisuurus. Iga bitcoin-tehingu sisend viitab eelmisele kasutamata UTXO-le (Unspent Transaction Output). Et kasutada UTXO-d sisendina, peab selle omanik tõestama, et ta on selle õigustatud omanik, valideerides sellega seotud skripti, st rahuldades kehtestatud kulutamistingimuse. Üldiselt hõlmab see digitaalallkirja esitamist, mis on toodetud selle UTXO algselt tagatud avaliku võtmega vastava eravõti abil. Seejärel kontrollib skript, kas allkiri vastab raha saamisel kasutatud avalikule võtmele.
+**> Teoreetiliselt võib bitcoini tehingul olla lõpmatu arv sisendeid ja väljundeid. Ainus piirang on maksimaalne plokisuurus.
 
-Iga väljundi puhul määratakse kindlaks nii ülekantav bitcoinide summa kui ka saaja. Viimane määratakse uue skripti abil, mis üldjuhul lukustab äsja loodud UTXO vastuvõtva aadressi või uue avaliku võtmega.
+Iga Bitcoini tehingu sisend viitab eelmisele kasutamata UTXO-le. Et kasutada UTXO-d sisendina, peab selle omanik tõendama, et ta on õigustatud omanik, valideerides seotud skripti, st rahuldades kehtestatud kulutamistingimuse. Üldiselt tähendab see, et tuleb esitada digitaalallkiri, mis on toodetud selle avaliku võtmega, mis algselt tagas selle UTXO. Skript seisneb seega selles, et kontrollitakse, kas allkiri vastab raha saamisel kasutatud avalikule võtmele.
 
-Selleks, et tehingut saaks konsensuseeskirjade kohaselt lugeda kehtivaks, peab väljundite kogusumma olema väiksem või võrdne sisendite kogusummaga. Teisisõnu ei tohi tehingu käigus loodud uute UTXOde summa ületada sisenditena tarbitud UTXOde summat. See põhimõte on loogiline: kui teil on ainult "500 000 SATS", ei saa te teha "700 000 SATS" suurust ostu.
+![BTC204](assets/fr/012.webp)
 
-### Vahetamine ja konsolideerimine Bitcoini tehingus
+Iga väljund määrab omakorda kindlaks ülekantavate bitcoinide summa ja saaja. Viimane määratakse uue skripti abil, mis tavaliselt blokeerib äsja loodud UTXO vastuvõtva aadressi või uue avaliku võtmega.
 
-Bitcoini tehingu toimumist UTXOs võib seega võrrelda kuldmündi sulatamisega. Tegelikult ei ole UTXO jagatav, vaid ainult ühendatud. See tähendab, et kasutaja ei saa lihtsalt jagada teatud bitcoini kogust esindavat UTXO-d mitmeks väiksemaks UTXO-ks. Ta peab selle tehingu käigus täielikult ära tarbima, et luua väljundites üks või mitu uut UTXOd suvalise väärtusega, mis peavad olema väiksemad või võrdsed algväärtusega.
+Selleks, et tehing oleks konsensusreeglite kohaselt kehtiv, peab väljundite kogusumma olema väiksem või võrdne sisendite kogusummaga. Teisisõnu ei tohi tehingu poolt loodud uute UTXOde summa ületada sisenditena tarbitud UTXOde summat. See põhimõte on loogiline: kui teil on ainult `500 000 SATS`, ei saa te teha `700 000 SATS` ostu.
 
-See mehhanism on sarnane kuldmündi omaga. Kujutage ette, et teil on 2 untsi suurune münt ja te soovite maksta 1 untsi eest, eeldades, et müüja ei saa teile vahetusraha anda. Peaksite oma mündi sulatama ja vermima 2 uut münti, millest kumbki on 1 unts.
+### Vahetamine ja ühendamine Bitcoini tehingus
 
-Bitcoini puhul on toiming sarnane. Oletame, et Alice'il on UTXO 10 000 SATS ja ta soovib osta baguette'i, mis maksab 4000 SATS. Alice teeb tehingu, mille sisendiks on 1 UTXO väärtusega `10,000 SATS`, mille ta tarbib täielikult, ja väljundites loob ta 2 UTXO-d väärtusega `4,000 SATS` ja `6,000 SATS`. UTXO väärtusega `4,000 SATS` saadetakse pagarile baguette'i eest tasumiseks, samas kui UTXO väärtusega `6,000 SATS` jõuab tagasi Alice'ile vahetusena. Seda tehingu algsele saatjale tagastatavat UTXO-d nimetatakse Bitcoini žargoonis "vahetusrahaks".
+Bitcoini tehingu toimingut UTXOs võib seega võrrelda kuldmündi ümbertöötlemisega. Tõepoolest, UTXO ei ole jagatav, vaid ainult suletav. See tähendab, et kasutaja ei saa lihtsalt jagada UTXO-d, mis esindab teatud summat bitcoinides, mitmeks väiksemaks UTXO-ks. Ta peab selle tehingu käigus täielikult ära kulutama, et luua üks või mitu uut UTXOd suvalise väärtusega väljundit, mis peavad olema väiksemad või võrdsed algväärtusega.
 
-Nüüd kujutage ette, et Alice'il ei ole mitte üks UTXO 10 000 SATS, vaid kaks UTXO-d 3000 SATS. Sellises olukorras ei ole ükski üksikutest UTXOdest piisav, et katta 4 000 SATSi eest baguette'i. Seetõttu peab Alice kasutama oma tehingu sisendina samaaegselt mõlemat UTXOd summas "3 000 SATS". Sel viisil jõuab kogusisend 6 000 SATSini, mis võimaldab tal katta pagarile 4000 SATSi suuruse makse. Seda meetodit, mis hõlmab mitmete UTXOde rühmitamist tehingu sisenditeks, nimetatakse sageli "konsolideerimiseks".
+See mehhanism on sarnane kuldmündi omaga. Oletame, et teil on 2 untsi suurune münt ja te soovite maksta 1 untsi eest, eeldades, et müüja ei saa teile vahetusraha anda. Peaksite oma mündi sulatama ja valama 2 uut, igaüks 1 untsiga.
+
+Bitcoin töötab sarnaselt. Kujutame ette, et Alice'il on UTXO 10 000 SATS ja ta soovib osta 4000 SATS maksva baguette'i. Alice teeb tehingu, mille sisendiks on 1 UTXO väärtusega 10 000 SATS, mille ta tarbib täielikult, ja väljundiks 2 UTXO väärtusega 4 000 SATS ja 6 000 SATS. TÜXO summas `4 000 SATS` saadetakse pagarile pagari eest tasumiseks, samas kui TÜXO summas `6 000 SATS` jõuab tagasi Alice'ile vahetusena. See UTXO, mis naaseb tehingu algsele väljastajale, on Bitcoini žargoonis tuntud kui "vahetus".
+
+![BTC204](assets/fr/013.webp)
+
+Kujutame nüüd ette, et Alice'il ei ole mitte üks UTXO suurusega "10 000 SATS", vaid kaks UTXOd suurusega "3000 SATS". Sellises olukorras ei ole kumbki UTXO eraldi piisav, et määrata saua `4,000 SATS`. Seetõttu peab Alice kasutama tehingu sisenditena samaaegselt kahte UTXOd väärtusega `3,000 SATS`. Sel viisil jõuab sisendite kogusumma 6000 SATSini, mis võimaldab tal rahuldada pagarile tehtava 4000 SATSi makse. Seda meetodit, mille puhul mitu UTXOd koondatakse tehingu sisenditeks, nimetatakse sageli "ühendamiseks".
+
+![BTC204](assets/fr/014.webp)
 
 ### Tehingutasud
 
-Intuitiivselt võiks arvata, et ka tehingutasu on tehingu väljund. Kuid tegelikkuses ei ole see nii. Tehingutasud kujutavad endast sisendite ja väljundite kogusumma vahet. See tähendab, et pärast seda, kui osa sisendite väärtusest on kasutatud tehingu soovitud väljundite katmiseks, jääb teatav summa sisenditest kasutamata. See ülejäänud summa moodustab tehingutasu.
+Intuitiivselt võiks arvata, et tehingukulud kujutavad endast ka tehingu väljundit. Kuid tegelikkuses ei ole see nii. Tehingukulud kujutavad endast sisendite ja väljundite kogusumma vahet. See tähendab, et pärast seda, kui osa sisendite väärtusest on kasutatud tehingu soovitud väljundite katmiseks, jääb teatud summa sisenditest kasutamata. See jääksumma moodustab tehingukulud.
 
 ```plaintext
-Commissioni = input totali - output totali
+Frais = total inputs - total outputs
 ```
 
-Tuleme tagasi Alice'i näite juurde, kelle UTXO on 10 000 SATS ja kes soovib osta baguette'i 4000 SATS eest. Alice loob tehingu, mille sisendiks on tema UTXO 10 000 SATS. Seejärel genereerib ta väljundiks 4 000 SATS, mis on mõeldud pagarile pagari eest maksmiseks. Et julgustada kaevandajaid tema tehingut plokki lisama, määrab Alice komisjonitasuks 200 SATS. Seejuures loob ta teise toodangu, mis on talle tagastatav jääk ja mille suurus on `5,800 SATS`.
+Võtame näiteks Alice'i, kelle UTXO on 10 000 SATS ja kes soovib osta baguette'i hinnaga 4 000 SATS. Alice loob tehingu, mille sisendiks on tema UTXO 10 000 SATS. Seejärel genereerib ta pagarile pagari eest tasumiseks väljundiks 4 000 SATS. Et julgustada kaevandajaid tema tehingut plokki integreerima, määrab Alice 200 SATSi tasu. Seejärel loob ta teise väljundi, vahetuse, mis tagastatakse talle summas `5,800 SATS`.
 
-Kohaldades komisjonitasu valemit, näeme, et kaevuritele on jäänud "200 SATSi":
+![BTC204](assets/fr/015.webp)
+
+Tasu valemit rakendades näeme, et alaealistele on tõepoolest jäänud 200 SATSi:
 
 ```plaintext
-Commissioni = input totali - output totali
-Spese = 10.000 - (4.000 + 5.800)
-Spese = 10.000 - 9.800
-Spese = 200
+Frais = total inputs - total outputs
+Frais = 10 000 - (4 000 + 5 800)
+Frais = 10 000 - 9 800
+Frais = 200
 ```
 
-Kui kaevandaja kinnitab edukalt ploki, on tal õigus koguda neid tasusid kõigi oma plokis sisalduvate tehingute eest nn coinbase'i tehingu kaudu.
+Kui kaevuril õnnestub plokk valideerida, on tal õigus koguda neid tasusid kõigi tema plokis sisalduvate tehingute eest nn coinbase'i tehingu kaudu.
 
-### UTXO loomine Bitcoini kohta
+### UTXO-de loomine Bitcoini kohta
 
-Kui olete eelmisi lõike hoolikalt jälginud, siis teate nüüd, et UTXOsid saab luua ainult teisi olemasolevaid UTXOsid tarbides. Seega moodustavad Bitcoini mündid pideva ahela. Te võite aga küsida, kuidas tekkisid selles ahelas esimesed UTXOd. See tõstatab sarnase probleemi nagu kana ja muna: kust need algsed UTXO-d pärit on?
+Kui olete eelmisi lõike tähelepanelikult jälginud, siis teate nüüd, et UTXOsid saab luua ainult teisi olemasolevaid UTXOsid tarbides. Sel viisil moodustavad Bitcoini mündid pideva ahela. Siiski võib teid huvitada, kuidas tekkisid selles ahelas esimesed UTXO-d. See tõstatab sarnase probleemi nagu kana ja muna: kust need algsed UTXO-d pärit on?
 
-Vastus peitub **coinbase'i tehingus**.
+Vastus on **transaktsioonis coinbase**.
 
-Coinbase on teatud tüüpi Bitcoini tehing, mis on igas plokis ainulaadne ja alati esimene. See võimaldab kaevandajal, kes on leidnud kehtiva töötõendi, saada oma ploki tasu. See tasu koosneb kahest elemendist: **plokktoetus** ja **tehingutasu**, mida käsitleti eelmises osas.
+Coinbase on teatud tüüpi Bitcoini tehing, mis on iga ploki puhul unikaalne ja on alati esimene neist. See võimaldab kaevandajal, kes on leidnud kehtiva töötõendi, saada oma ploki tasu. See tasu koosneb kahest elemendist: **blokipreemia** ja **tehingutasu**, mida on käsitletud eelmises punktis.
 
-Coinbase'i tehingu unikaalne omadus on see, et see on ainus, mis suudab luua bitcoin'e tühjalt kohalt, ilma et oleks vaja tarbida sisendeid oma väljundite genereerimiseks. Need äsja loodud bitcoinid moodustavad selle, mida võiks nimetada "algseteks UTXOdeks"
+Coinbase'i tehing on ainulaadne selle poolest, et see on ainus, mis suudab luua bitcoine ex nihilo, ilma et väljundite genereerimiseks oleks vaja tarbida sisendeid. Neid äsja loodud bitcoin'e võiksime nimetada "algseteks UTXO-deks".
 
-Blokkrahadest saadud bitcoinid on uued BTC-d, mis luuakse õhust, järgides konsensuse reeglites etteantud emissiooniplaani. Plokkide toetus vähendatakse poole võrra iga 210 000 ploki järel, umbes iga nelja aasta tagant, protsessis, mida nimetatakse "poolitamiseks" Esialgu loodi 50 bitcoin'i ühe plokkitoetuse kohta, kuid see summa on järk-järgult vähenenud; praegu on see 3 125 bitcoin'i ühe ploki kohta.
+![BTC204](assets/fr/016.webp)
 
-Mis puutub tehingutasu osasse, siis kuigi see kujutab endast vastloodud BTC-d, ei tohi need ületada kõigi ploki tehingute sisendite ja väljundite kogusumma erinevust. Nägime varem, et need tasud esindavad sisendite osa, mida ei kasutata tehingute väljundites. See osa on tehniliselt "kadunud" tehingu käigus ja kaevandajal on õigus see väärtus ühe või mitme uue UTXO kujul uuesti luua. Seega on tegemist väärtuse ülekandmisega tehingu saatjalt kaevandajale, kes lisab selle plokiahelasse.
+Blokisubsideeritud bitcoinid on uued BTC-d, mis on loodud nullist, vastavalt konsensuse reeglites eelnevalt kehtestatud emiteerimisskeemile. Plokkide toetus vähendatakse poole võrra iga 210 000 ploki järel, st umbes iga nelja aasta tagant, protsessis, mida nimetatakse "poolitamiseks". Algselt loodi iga toetusega 50 bitcoin'i, kuid see summa on järk-järgult vähenenud; praegu on see 3,125 bitcoin'i ühe ploki kohta.
 
-**> Kas teadsid?** Coinbase'i tehingust genereeritud bitcoinide suhtes kehtib 100 bloki küpsemisperiood, mille jooksul kaevandaja ei saa neid kulutada. Selle reegli eesmärk on vältida komplikatsioone, mis on seotud äsja loodud bitcoinide kasutamisega ahelas, mis võib hiljem vananeda.
+Mis puutub tehingutasudesse, siis kuigi need esindavad samuti äsja loodud BTC-d, ei tohi need ületada kõigi ploki tehingute sisendite ja väljundite kogusumma erinevust. Nägime varem, et need tasud esindavad sisendite osa, mida ei kasutata tehingu väljundites. See osa on tehniliselt "kadunud" tehingu käigus ja kaevandajal on õigus see väärtus ühe või mitme uue UTXO kujul uuesti luua. See on väärtuse ülekandmine tehingu väljastaja ja kaevandaja vahel, kes lisab selle plokiahelasse.
+
+**> Coinbase'i tehinguga genereeritud bitcoinid kehtivad 100 ploki pikkuse tähtaja jooksul, mille jooksul kaevandaja ei saa neid kulutada. Selle reegli eesmärk on vältida komplikatsioone, mis on seotud äsja loodud bitcoinide kasutamisega ahelas, mis võivad hiljem vananeda.
 
 ### UTXO mudeli mõju
 
-Esiteks mõjutab UTXO mudel otseselt Bitcoini tehingutasusid. Kuna iga ploki mahutavus on piiratud, eelistavad kaevandajad tehinguid, mis pakuvad parimaid tasusid võrreldes plokis hõivatud kohaga. Mida rohkem UTXO-d sisaldab tehing sisendiks ja väljundiks, seda raskem on see ja nõuab seega kõrgemaid tasusid. See on üks põhjusi, miks sageli püütakse vähendada UTXOde arvu meie portfellis, mis võib mõjutada ka privaatsust, teemat, mida uurime üksikasjalikult selle koolituse kolmandas osas.
+Esiteks mõjutab UTXO mudel otseselt Bitcoini tehingutasusid. Kuna iga ploki mahutavus on piiratud, eelistavad kaevandajad tehinguid, mis pakuvad parimaid tasusid võrreldes plokis hõivatud ruumiga. Tõepoolest, mida rohkem UTXOsid sisaldab tehing oma sisendites ja väljundites, seda raskem on see ja nõuab seetõttu kõrgemaid tasusid. See on üks põhjustest, miks me sageli püüame vähendada UTXOde arvu oma portfellis, mis võib mõjutada ka konfidentsiaalsust, teemat, mida käsitleme üksikasjalikult selle kursuse kolmandas osas.
 
-Nagu eelmistes osades mainitud, on Bitcoini mündid sisuliselt UTXOde ahel. Seega loob iga tehing seose ühe eelmise UTXO ja ühe tulevase UTXO vahel. UTXOd võimaldavad seega jälgida bitcoinide teekonda alates nende loomisest kuni nende praeguse kulutamiseni. Sellist läbipaistvust võib pidada positiivseks, sest see võimaldab igal kasutajal tagada saadud bitcoinide autentsuse. Sellele jälgitavuse ja kontrollitavuse põhimõttele tugineb aga ka ahelate analüüs, mis on mõeldud teie privaatsuse kahjustamiseks. Seda praktikat uurime põhjalikult koolituse teises osas.
+Teiseks, nagu eelnevates punktides mainitud, on Bitcoini mündid sisuliselt UTXOde ahel. Seega loob iga tehing seose ühe varasema UTXO ja ühe tulevase UTXO vahel. UTXOd võimaldavad seega selgesõnaliselt jälgida bitcoinide teekonda alates nende loomisest kuni nende praeguste kulutusteni. Sellist läbipaistvust võib pidada positiivseks, sest see võimaldab igal kasutajal veenduda saadud bitcoinide ehtsuses. Kuid just sellel jälgitavuse ja kontrollitavuse põhimõttel põhineb ka plokiahela analüüs, mille eesmärk on ohustada teie konfidentsiaalsust. Seda praktikat käsitleme põhjalikult kursuse teises osas.
 
 ## Bitcoini privaatsusmudel
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
-### Valuuta: Autentsus, terviklikkus ja topeltkulutused: autentsus, terviklikkus ja topeltkulutused
+![La confidentialité sur Bitcoin](https://youtu.be/ca80pCpMID0?feature=shared)
 
-Üks valuuta funktsioonidest on lahendada vajaduste kahekordse kokkulangevuse probleem. Vahetuskaubandusel põhinevas süsteemis on vaja mitte ainult leida isik, kes pakub minu vajadust rahuldavat kaupa, vaid ka pakkuda talle samaväärse väärtusega kaupa, mis rahuldab tema vajadust. Selle tasakaalu leidmine osutub keeruliseks.
+### Raha: autentsus, ausus ja topeltkulutused
 
-Seetõttu kasutatakse valuutat, mis võimaldab väärtuse ülekandmist nii ruumis kui ka ajas.
+Üks raha funktsioone on lahendada vajaduste kahekordse kokkulangevuse probleem. Vahetuskaubandusel põhinevas süsteemis on vahetuse lõpuleviimiseks vaja mitte ainult leida indiviid, kes loobub minu vajadusele vastavast kaubast, vaid ka pakkuda talle samaväärse väärtusega kaupa, mis rahuldab tema enda vajadust. Selle tasakaalu leidmine on keeruline ülesanne.
 
-Valuuta probleemi lahendamiseks on oluline, et kaupa või teenust pakkuv osapool oleks veendunud, et ta suudab hiljem selle summa ära kulutada. Seetõttu tagab iga ratsionaalne inimene, kes soovib võtta vastu mingi valuuta, olgu see siis digitaalne või füüsiline, et see vastab kahele põhikriteeriumile:
+![BTC204](assets/fr/017.webp)
+
+Seepärast kasutame raha väärtuse liigutamiseks nii ruumis kui ka ajas.
+
+![BTC204](assets/fr/018.webp)
+
+Selleks, et rahasüsteem lahendaks selle probleemi, on oluline, et kaupa või teenust pakkuv pool oleks veendunud, et ta suudab selle summa hiljem ära kulutada. Seega tagab iga ratsionaalne inimene, kes soovib võtta vastu münti, olgu see siis digitaalne või füüsiline, et see vastab kahele põhikriteeriumile:
 
 
-- Mündi peab olema puutumatu ja ehtne;**- **ja seda ei tohi kulutada kaks korda
+- Töö peab olema terviklik ja autentne ;**
+- ja neid ei tohi topelt kulutada.**
 
-Füüsilise raha kasutamisel on esimene omadus kõige keerulisem kinnitada. Erinevatel ajaloolistel perioodidel on metallmüntide puutumatust sageli kahjustatud näiteks lõikamise või löömise teel. Näiteks antiik-Rooma ajal oli tavaline, et kodanikud kraapisid kuldmüntide servi, et koguda osa väärismetallist, säilitades neid samal ajal tulevaste tehingute jaoks. Nii vähendati mündi sisemist väärtust, kuid selle nimiväärtus jäi samaks. See on tähelepanuväärne põhjus, miks hiljem mündi servale hakati vermima triipe.
+Kui te kasutate füüsilist valuutat, on see esimene omadus, mida on kõige keerulisem kinnitada. Erinevatel ajaloolistel perioodidel on metallmüntide terviklikkust sageli mõjutanud sellised tavad nagu trimmimine või augustamine. Vana-Roomas oli näiteks tavaline tava, et kodanikud kraapisid kuldmüntide servi, et koguda veidi väärismetalli, säilitades neid samal ajal tulevaste tehingute jaoks. Nii vähendati mündi sisemist väärtust, kuid selle nimiväärtus jäi samaks. See on üks põhjustest, miks mündi serva hiljem sooniti.
 
-Autentsust on raske kontrollida ka füüsiliste rahaliste vahenditega. Tänapäeval on võltsimise vastu võitlemise meetodid üha keerulisemad, mis sunnib kaupmehi investeerima kallidesse kontrollsüsteemidesse.
+Autentsust on samuti raske kontrollida füüsilisel rahalisel andmekandjal. Tänapäeval on võltsimise vastu võitlemise meetodid üha keerulisemad, mis sunnib jaemüüjaid investeerima kulukatesse kontrollsüsteemidesse.
 
-Teisest küljest ei ole füüsiliste valuutade puhul nende olemuse tõttu topeltmaksed probleemiks. Kui ma annan teile 10-eurose pangatähe, läheb see minu valdusest pöördumatult teie valdusesse, mis loomulikult välistab võimaluse kulutada samu rahaühikuid mitu korda. Lühidalt öeldes ei saa ma seda 10-eurost rahatähte enam kulutada.
+Teisest küljest ei ole füüsiliste valuutade puhul nende olemuse tõttu topeltkulutused probleemiks. Kui ma annan teile 10-eurose pangatähe, siis läheb see pöördumatult minu valdusest teie valdusesse, mis loomulikult välistab igasuguse võimaluse selle rahaühiku mitmekordseks kulutamiseks. Lühidalt öeldes ei saa ma seda 10-eurost rahatähte uuesti kulutada.
 
-Digitaalse valuuta puhul on raskused teised. Mündi ehtsuse ja terviklikkuse tagamine on sageli lihtsam. Nagu nägime eelmises punktis, võimaldab Bitcoini UTXO-mudel jälgida mündi päritolu ja seega kontrollida, et see on tõepoolest loodud konsensuse reeglite kohaselt kaevandaja poolt.
+![BTC204](assets/fr/019.webp)
 
-Topeltmaksete puudumise tagamine on aga keerulisem, sest iga digitaalne kaup on sisuliselt teave. Erinevalt füüsilistest kaupadest ei jagune teave vahetuse käigus, vaid levib mitmekordistumise teel. Näiteks kui ma saadan teile dokumendi e-postiga, siis see dubleerub. Te omalt poolt ei saa kindlalt kontrollida, kas ma olen originaaldokumendi kustutanud.
+Digitaalse valuuta puhul on raskused teised. Mündi ehtsuse ja terviklikkuse tagamine on sageli lihtsam. Nagu nägime eelmises punktis, võimaldab Bitcoini UTXO-mudel jälgida mündi päritolu ja seega kontrollida, et see on tõepoolest loodud kaevandaja poolt kooskõlas konsensuse reeglitega.
 
-### Bitcoini topeltmaksete vältimine
+Teisest küljest on topeltkulutuste vältimise tagamine keerulisem, sest kõik digitaalsed kaubad on sisuliselt teave. Erinevalt füüsilistest kaupadest ei jaotata teavet vahetamisel, vaid see levib mitmekordistamise teel. Näiteks kui ma saadan teile e-kirjaga dokumendi, siis see dubleerub. Te ei saa olla kindel, et ma olen originaaldokumendi kustutanud.
 
-Ainus viis vältida digitaalse vara dubleerimist on olla teadlik kõigist süsteemis toimuvatest vahetustest. Nii saate teada, kellele mis kuulub, ja ajakohastada igaühe omandiõigust tehtud tehingute põhjal. Seda tehakse näiteks pangasüsteemis käsikirjalise rahaga. Kui te maksate kaupmehele krediitkaardiga 10 eurot, registreerib pank selle vahetuse ja ajakohastab pearaamatu.
+![BTC204](assets/fr/020.webp)
 
-Bitcoini puhul toimub topeltmaksete vältimine samamoodi. Eesmärgiks on kinnitada, et ei ole toimunud tehingut, mille käigus on juba kulutatud asjaomased mündid. Kui neid münte ei ole kunagi kasutatud, siis võime olla kindlad, et topeltmakset ei toimu. Seda põhimõtet kirjeldas Satoshi Nakamoto valges raamatus selle kuulsa lausega:
+### Bitcoini topeltkulutuste vältimine
 
-**"Ainus viis kinnitada tehingu puudumist on olla teadlik kõigist tehingutest." **
+Ainus viis vältida seda digitaalse vara dubleerimist on olla teadlik kõigist süsteemis toimuvatest vahetustest. Sel viisil saame teada, kellele mis kuulub, ja ajakohastada iga isiku osalust vastavalt tehtud tehingutele. See on see, mis juhtub näiteks pangasüsteemis oleva käsikirjalise rahaga. Kui te maksate kaupmehele krediitkaardiga 10 eurot, registreerib pank selle vahetuse ja ajakohastab kontoraamatu.
 
-Erinevalt pangandusmudelist ei ole aga soovi Bitcoini puhul usaldada keskset üksust. On vaja, et kõik kasutajad saaksid seda topeltmaksete puudumist kinnitada, ilma et nad peaksid toetuma kolmandale osapoolele. Seetõttu peavad kõik olema teadlikud kõigist Bitcoini tehingutest. Seepärast edastatakse Bitcoini tehingud avalikult kõigis võrgu sõlmedes ja salvestatakse plokiahelas lihtsas tekstis.
+![BTC204](assets/fr/021.webp)
 
-Just selline teabe avalik levitamine muudab Bitcoini privaatsuse kaitse keeruliseks. Traditsioonilises pangandussüsteemis on tehtud tehingutest teoorias teadlik ainult finantsasutus. Bitcoinis seevastu on kõik kasutajad oma sõlmede kaudu kõigist tehingutest informeeritud.
+Bitcoini puhul on topeltkulutamine samamoodi takistatud. Me püüame kinnitada, et ei ole toimunud tehingut, mille käigus on kõnealused mündid juba kulutatud. Kui münte ei ole kunagi kasutatud, siis võime olla kindlad, et topeltkulutusi ei toimu. Seda põhimõtet kirjeldas Satoshi Nakamoto valges raamatus kuulsa fraasiga:
 
-### Privaatsusmudel: pangandussüsteem vs. Bitcoin
+**Ainsaks viisiks, kuidas kinnitada tehingu puudumist, on olla teadlik kõigist tehingutest
 
-Traditsioonilises süsteemis on teie pangakonto seotud teie identiteediga. Pankur on võimeline teadma, milline klient millisele pangakontole kuulub ja millised tehingud on sellega seotud. See teabevoog on aga panga ja avalikkuse vahel katkenud. Teisisõnu, teisele isikule kuuluva pangakonto saldot ja tehinguid ei ole võimalik teada saada. Ainult pangal on juurdepääs sellele teabele.
+Kuid erinevalt pangandusmudelist ei taha me Bitcoini puhul usaldada keskset üksust. Seega peavad kõik kasutajad olema võimelised seda topeltkulutuste puudumist kinnitama, ilma et nad peaksid toetuma kolmandale osapoolele. Seega peavad kõik olema teadlikud kõigist Bitcoini tehingutest. Seepärast edastatakse Bitcoini tehingud avalikult kõigis võrgusõlmedes ja salvestatakse plokiahelas selge tekstina.
 
-Näiteks teab teie pankur, et te ostate igal hommikul naabruses asuvast pagariärist baguette'i, kuid teie naaber ei tea sellest tehingust. Seega on infovoog huvitatud isikutele, eelkõige pangale, kättesaadav, kuid jääb kõrvalistele isikutele kättesaamatuks.
+Just selline teabe avalik levitamine muudab Bitcoini privaatsuse kaitse keeruliseks. Traditsioonilises pangandussüsteemis on teostatud tehingutest teoorias teadlik ainult finantsasutus. Bitcoini puhul seevastu on kõik kasutajad oma sõlmede kaudu kõigist tehingutest informeeritud.
 
-Eelmises osas kirjeldatud tehingute avaliku levitamise piirangu tõttu ei saa Bitcoini privaatsusmudel järgida pangandussüsteemi mudelit. Kuna Bitcoini puhul ei saa teabevoolu katkestada tehingute ja avalikkuse vahel, põhineb **privaatsusmudel kasutaja identiteedi ja tehingute endi** eraldamisel.
+### Konfidentsiaalsusmudel: pangandussüsteem vs. Bitcoin
 
-Näiteks kui te ostate pagarilt BTC-ga makstes baguette'i, näeb teie naaber, kes omab oma täielikku sõlme, teie tehingu toimumist, nagu ta näeb ka kõiki teisi tehinguid süsteemis. Kui aga järgitakse privaatsuspõhimõtteid, ei tohiks nad seda konkreetset tehingut teie identiteediga siduda.
+Traditsioonilises süsteemis on teie pangakonto seotud teie identiteediga. Pankur saab teada, milline pangakonto millisele kliendile kuulub ja millised tehingud on sellega seotud. See teabevoog on aga panga ja avalikkuse vahel ära lõigatud. Teisisõnu ei ole võimalik teada saada teisele isikule kuuluva pangakonto saldot ja tehinguid. Ainult pangal on juurdepääs sellele teabele.
 
-Kuid kuna Bitcoini tehingud on avalikustatud, on siiski võimalik luua nendevahelisi seoseid, et teha järeldusi asjaosaliste kohta. See tegevus moodustab isegi omaette eriala, mida nimetatakse "ahelaanalüüsiks" Kursuse järgmises osas kutsun teid üles uurima ahelaanalüüsi põhialuseid, et mõista, kuidas teie bitcoin'e jälgitakse, ja osata end paremini kaitsta.
+![BTC204](assets/fr/022.webp)
 
-# Ahelaanalüüsi mõistmine ja enda kaitsmine
+Näiteks teab teie pankur, et te ostate igal hommikul kohalikult pagarilt baguette'i, kuid teie naaber ei tea sellest tehingust midagi. Sel viisil on teabevoog asjaomastele osapooltele, eelkõige pangale, kättesaadav, kuid jääb kõrvalistele isikutele kättesaamatuks.
+
+![BTC204](assets/fr/023.webp)
+
+Eelmises punktis kirjeldatud tehingute avaliku levitamise piirangu tõttu ei saa Bitcoini konfidentsiaalsusmudel järgida pangandussüsteemi mudelit. Kuna Bitcoini puhul ei saa teabevoolu katkestada tehingute ja avalikkuse vahel, **toetub privaatsusmudel kasutaja identiteedi ja tehingute** enda eraldamisele.
+
+![BTC204](assets/fr/024.webp)
+
+Näiteks kui te ostate pagarilt baguette'i, makstes BTC-ga, näeb teie naaber, kellel on oma täielik sõlmpunkt, teie tehingu toimumist, nagu ta näeb ka kõiki teisi tehinguid süsteemis. Kui aga järgitakse konfidentsiaalsuse põhimõtteid, ei tohiks ta seda konkreetset tehingut teie identiteediga seostada.
+
+![BTC204](assets/fr/025.webp)
+
+Kuid kuna Bitcoini tehingud on avalikustatud, on siiski võimalik luua nende vahel seoseid, et tuletada teavet asjaosaliste kohta. See tegevus moodustab isegi omaette eriala, mida nimetatakse "plokiahela analüüsiks". Kursuse järgmises osas kutsun teid üles uurima plokiahela analüüsi põhialuseid, et saaksite aru, kuidas teie bitcoin'e jälgitakse, ja saaksite end nende eest paremini kaitsta.
+
+# Arusaamine ja kaitse ahelanalüüsi vastu
 
 <partId>4739371e-9fef-45b0-bcaa-b7a4df6b4470</partId>
 
-## Mis on ahelanalüüs Bitcoini kohta?
+## Mis on Bitcoini ahela analüüs?
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
+![La confidentialité sur Bitcoin](https://youtu.be/PtAUOGgHEAY?feature=shared)
+
 ### Määratlus ja toimimine
 
-Ahelanalüüs on praktika, mis hõlmab kõiki meetodeid, mida kasutatakse bitcoinide liikumise jälgimiseks plokiahelas. Üldiselt põhineb ahelaanalüüs varasemate tehingute näidiste omaduste jälgimisel. Seejärel hõlmab see samade tunnuste tuvastamist tehingus, mida soovitakse analüüsida, ja usutavate tõlgenduste tuletamist. Seda probleemi lahendamise meetodit praktilisest lähenemisest lähtuvalt piisavalt hea lahenduse leidmiseks nimetatakse "heuristikaks"
+Plokiahela analüüs on bitcoinide liikumise jälgimine plokiahelas. Üldiselt põhineb ahelaanalüüs varasemate tehingute näidiste omaduste vaatlusel. Seejärel seisneb see samade tunnuste tuvastamises tehingus, mida tahetakse analüüsida, ja nende põhjal usutavate tõlgenduste tuletamises. Seda probleemilahenduse meetodit, mis põhineb praktilisel lähenemisel piisavalt hea lahenduse leidmiseks, nimetatakse "heuristikaks".
 
-Lihtsustamise eesmärgil toimub ahelanalüüs kolmes peamises etapis:
+Tavainimese keeles on ahelanalüüsil kolm peamist etappi:
 
-1. **Blokiahela jälgimine;**
+1. **Blokiahelat jälgides ;**
 
-2. **Tuvastage teadaolevad omadused;**
+2. **Tuntud tunnuste tuvastamine ;**
 
-3. **Ettearvamuste dedutseerimine.**
+3. **Eelduste mahaarvamine **
 
-Blockchaini analüüsi saab teha igaüks. Tehingute liikumise jälgimiseks ja oletuste tegemiseks piisab sellest, kui on juurdepääs plokiahela avalikule teabele täieliku sõlme kaudu. On olemas ka tasuta vahendeid, mis hõlbustavad seda analüüsi, näiteks veebisait [OXT.me](https://oxt.me/), mida uurime üksikasjalikult käesoleva osa kahes viimases peatükis. Peamine privaatsusrisk tuleneb siiski ettevõtetest, mis on spetsialiseerunud ahelate analüüsile. Need ettevõtted on viinud ahelanalüüsi tööstuslikule tasemele ja müüvad oma teenuseid finantsasutustele või valitsustele. Nendest ettevõtetest on Chainalysis ilmselt kõige tuntum.
+![BTC204](assets/fr/026.webp)
+
+Blockchaini analüüsi saab teha igaüks. Kõik, mida vajate, on juurdepääs plokiahela avalikule teabele täieliku sõlme kaudu, et jälgida tehingute liikumist ja teha hüpoteese. On olemas ka tasuta tööriistad, mis hõlbustavad seda analüüsi, näiteks [OXT.me](https://oxt.me/), mida uurime üksikasjalikult käesoleva osa kahes viimases peatükis. Peamine oht konfidentsiaalsusele tuleneb siiski stringianalüüsile spetsialiseerunud ettevõtetest. Need ettevõtted on viinud plokiahela analüüsi tööstuslikule tasemele ja müüvad oma teenuseid finantsasutustele ja valitsustele. Nendest ettevõtetest on Chainalysis kindlasti kõige tuntum.
 
 ### Ahelaanalüüsi eesmärgid
 
-Üks ahelaanalüüsi eesmärk on grupeerida erinevaid tegevusi Bitcoinis, et teha kindlaks, milline kasutaja neid sooritas. Seejärel on võimalik püüda siduda see tegevuste kogum tegeliku identiteediga.
+Üks plokiahela analüüsi eesmärk on grupeerida erinevaid tegevusi Bitcoinis, et teha kindlaks nende teostanud kasutaja unikaalsus. Seejärel on võimalik püüda siduda see tegevuste kogum tegeliku identiteediga.
 
-Tuletage meelde eelmist peatükki. Selgitasin, miks Bitcoini privaatsusmudel algselt põhines kasutajate identiteedi eraldamisel nende tehingutest. Seetõttu oleks ahvatlev arvata, et ahelasisene analüüs on kasutu, sest isegi kui saab rühmitada ahelasisesed tegevused, ei saa neid seostada tegeliku identiteediga.
+![BTC204](assets/fr/027.webp)
 
-Teoreetiliselt on see väide õige. Selle koolituse esimeses osas nägime, et UTXO tingimuste kehtestamiseks kasutatakse krüptograafilisi võtmepaare. Sisuliselt ei avalda need võtmepaarid mingit teavet nende omanike identiteedi kohta. Seega, isegi kui me suudame rühmitada erinevate võtmepaaridega seotud tegevusi, ei ütle see meile midagi nende tegevuste taga oleva üksuse kohta.
+Mõelge tagasi eelmisele peatükile. Selgitasin, miks Bitcoini privaatsusmudel algselt põhines kasutaja identiteedi ja tehingute eraldamisel. Seetõttu oleks ahvatlev arvata, et plokiahela analüüs on kasutu, sest isegi kui meil õnnestub ahelas toiminguid koondada, ei saa me neid seostada tegeliku identiteediga.
 
-Praktiline tegelikkus on siiski palju keerulisem. On olemas hulk käitumisviise, mis ohustavad tegeliku identiteedi sidumist ahelas toimuvaga. Analüüsis nimetatakse seda sisenemispunktiks ja neid on palju.
+Teoreetiliselt on see väide õige. Selle kursuse esimeses osas nägime, et UTXO tingimuste kehtestamiseks kasutatakse krüptograafilisi võtmepaare. Sisuliselt ei avalda need võtmepaarid mingit teavet nende omanike identiteedi kohta. Seega, isegi kui meil õnnestub rühmitada erinevate võtmepaaridega seotud tegevusi, ei ütle see meile midagi nende tegevuste taga oleva üksuse kohta.
 
-Kõige tavalisem on muidugi KYC (_Know Your Customer_). Kui te võtate oma bitcoinid välja reguleeritud platvormilt ühele oma isiklikule vastuvõtuaadressile, siis on mõned inimesed võimelised teie identiteeti selle aadressiga seostama. Üldisemalt võib sisenemiskohaks olla igasugune suhtlus teie reaalse elu ja bitcoin-tehingu vahel. Näiteks kui te avaldate vastuvõtuaadressi oma suhtlusvõrgustikes, võib see olla sisenemispunktiks analüüsiks. Kui teete oma pagarile bitcoin-makse, võivad nad seostada teie näo (mis on osa teie identiteedist) Bitcoin-aadressiga.
+![BTC204](assets/fr/028.webp)
 
-Need sisenemiskohad on Bitcoini kasutamisel peaaegu vältimatud. Kuigi võite püüda nende ulatust piirata, jäävad nad siiski alles. Seetõttu on väga oluline kombineerida meetodeid, mille eesmärk on teie privaatsuse säilitamine. Kuigi teie tegeliku identiteedi ja tehingute eraldamine on atraktiivne lähenemisviis, jääb see tänapäeval ebapiisavaks. Tõepoolest, kui kõik teie ahelasisesed tegevused saab rühmitada kokku, siis on tõenäoline, et vähimgi sisenemiskoht ohustab teie kehtestatud privaatsuse ühe kihi.
+Praktiline tegelikkus on aga palju keerulisem. On olemas hulk käitumisviise, mis võivad siduda reaalse identiteedi ja ahelas toimuva tegevuse. Analüüsis nimetatakse seda sisenemispunktiks ja neid on väga palju.
+
+Kõige tavalisem on KYC (*Know Your Customer*). Kui te võtate oma bitcoinid reguleeritud platvormilt välja ühele oma isiklikule vastuvõtuaadressile, siis on mõned inimesed võimelised teie identiteeti selle aadressiga seostama. Laiemalt võib sisenemiskohaks olla igasugune suhtlus teie tegeliku elu ja Bitcoini tehingu vahel. Näiteks kui te avaldate vastuvõtuaadressi oma suhtlusvõrgustikes, võib see olla sisenemispunktiks analüüsiks. Kui te maksate oma pagarile bitcoinidega, saab ta seostada teie nägu (osa teie identiteedist) Bitcoini aadressiga.
+
+Need sisenemiskohad on Bitcoini kasutamisel praktiliselt vältimatud. Kuigi me võime püüda nende ulatust piirata, on need alati olemas. Seetõttu on väga oluline kombineerida meetodeid, mille eesmärk on teie privaatsuse säilitamine. Kuigi teie tegeliku identiteedi ja tehingute vahelise eraldatuse säilitamine on huvitav lähenemine, jääb see täna ebapiisavaks. Tõepoolest, kui kõik teie ahelasisesed tegevused saab rühmitada, siis võib isegi kõige väiksem sisenemiskoht ohustada teie kehtestatud ühtset konfidentsiaalsuskihti.
+
+![BTC204](assets/fr/029.webp)
 
 ### Kaitsmine ahelanalüüsi vastu
 
-Seetõttu on vaja ka Bitcoini kasutamisel tegeleda plokiahela analüüsiga. Selliselt toimides saame minimeerida meie tegevuse koondumist ja piirata sisenemispunkti mõju meie privaatsusele.
+Seega peame Bitcoini kasutamisel hakkama saama ka plokiahela analüüsiga. Seda tehes saame minimeerida meie tegevuse koondamist ja piirata sisenemispunkti mõju meie privaatsusele.
 
-Tegelikult, et paremini võidelda plokiahela analüüsi vastu, mis oleks parem lähenemine kui tutvuda plokiahela analüüsis kasutatavate meetoditega? Kui soovite teada, kuidas parandada oma privaatsust Bitcoinis, peate neid meetodeid mõistma. See võimaldab teil paremini mõista selliseid tehnikaid nagu coinjoin või payjoin (tehnikaid, mida õpime koolituse lõpuosas) ja vähendada vigu, mida võite teha.
+![BTC204](assets/fr/030.webp)
 
-Selles kontekstis võime teha analoogia krüptograafia ja krüptoanalüüsiga. Hea krüptograaf on eelkõige hea krüptoanalüütik. Uue krüptograafilise algoritmi väljatöötamiseks on vaja teada, milliste rünnakutega see silmitsi seisab, ja uurida ka seda, miks eelmisi algoritme on häkitud. Sama põhimõte kehtib ka Bitcoini privaatsuse kohta. Plokiahela analüüsimeetodite mõistmine on selle vastu kaitsmise võti. Seepärast pakun selles koolituses välja terve plokiahela analüüsi käsitleva osa.
+Mis oleks parem viis plokiahela analüüsile vastu astuda, kui õppida tundma selles kasutatavaid meetodeid? Kui soovite teada, kuidas parandada oma privaatsust Bitcoinis, peate neid meetodeid mõistma. See annab teile parema arusaamise sellistest tehnikatest nagu coinjoin või payjoin (tehnikaid vaatame kursuse lõpuosades) ja vähendab vigu, mida võite teha.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
-### Blockchaini analüüsi meetodid
+Siinkohal võib tuua analoogia krüptograafia ja krüptoanalüüsiga. Hea krüptograaf on eelkõige hea krüptoanalüütik. Uue krüpteerimisalgoritmi väljatöötamiseks on vaja teada, milliste rünnakutega see silmitsi seisab, ja uurida ka seda, miks eelmised algoritmid on murdunud. Sama põhimõte kehtib ka Bitcoini privaatsuse kohta. Plokiahela analüüsimeetodite mõistmine on nende eest kaitsmise võti. Seepärast olen sellesse koolituskursusesse lisanud terve peatüki ahelate analüüsi kohta.
 
-Oluline on mõista, et plokiahela analüüs ei ole täpne teadus. See tugineb varasematest tähelepanekutest või loogilistest tõlgendustest tuletatud heuristikale. Need reeglid võimaldavad küllaltki usaldusväärseid tulemusi, kuid mitte kunagi absoluutse täpsusega. Teisisõnu, **plokiahelaanalüüs sisaldab alati tõenäosuse mõõdet väljastatud järeldustes**. Näiteks saab suurema või väiksema kindlusega hinnata, et kaks aadressi kuuluvad samale üksusele, kuid täielik kindlus on alati kättesaamatu.
+### Ahelate analüüsi meetodid
 
-Plokiahela analüüsi peamine eesmärk seisneb just erinevate heuristikate koondamises, et minimeerida veaohtu. Tegemist on teatud mõttes tõendite kogumisega, mis võimaldab meil tegelikkusele lähemale jõuda.
+Oluline on mõista, et stringianalüüs ei ole täpne teadus. See tugineb varasematest vaatlustest või loogilistest tõlgendustest tuletatud heuristikale. Need reeglid võimaldavad meil saada üsna usaldusväärseid tulemusi, kuid mitte kunagi absoluutse täpsusega. Teisisõnu, **ahelaanalüüs sisaldab alati mingi tõenäosuse mõõdet tehtud järeldustes**. Näiteks võib olla võimalik erineva kindlusega hinnata, et kaks aadressi kuuluvad samale üksusele, kuid täielik kindlus on alati kättesaamatu.
 
-Need kuulsad heuristikud võib rühmitada mitmesse kategooriasse, mida me koos üksikasjalikult kirjeldame:
+Kogu ahelanalüüsi mõte seisneb just erinevate heuristikate koondamises, et minimeerida veaohtu. Teatud mõttes on see tõendite kogumine, mis toob meid tegelikkusele lähemale.
+
+Need kuulsad heuristikud võib rühmitada erinevatesse kategooriatesse, mida kirjeldame üksikasjalikult allpool:
 
 
-- Tehingumudelid (või tehingumudelid);**
-- Tehingu sisemine heuristika;**
+- Tehingumustrid ;**
+- Tehingusisene heuristika ;**
 - Tehinguväline heuristika**
 
-### Satoshi Nakamoto ja plokiahela analüüs
+### Satoshi Nakamoto ja ahela analüüs
 
-Tuleb märkida, et kaks esimest heuristikat ahelanalüüsi jaoks avastas Satoshi Nakamoto ise. Ta arutab neid Bitcoini valge raamatu 10. osas. Need on järgmised:
+Kaks esimest ahelaanalüüsi heuristikat avastas Satoshi Nakamoto ise. Ta räägib neist Bitcoini valge raamatu 10. osas. Need on :
 
 
-- ühine sisendomaduste heuristika (Common Input Property Heuristics, CIOH);
-- ja aadresside korduvkasutamine.
+- cIOH (*Common Input Ownership Heuristic*);
+- ja aadressi korduvkasutamine.
 
 ![BTC204](assets/fr/031.webp)
 
-Allikas: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System," https://bitcoin.org/bitcoin.pdf, 2009.
+Allikas: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
-Järgmistes peatükkides uurime, mida see kõik tähendab, kuid juba praegu on huvitav märkida, et need kaks heuristikat on ahelanalüüsis endiselt tähtsal kohal.
+Millised need on, näeme järgmistes peatükkides, kuid juba praegu on huvitav märkida, et need kaks heuristikat säilitavad ahelate analüüsis tänaseni esikoha.
 
-## Tehingu mallid
+## Tehingumustrid
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
 
-Tehingumudel on lihtsalt tüüpilise tehingu üldine muster või struktuur, mida võib leida plokiahelas, mille tõlgendamine on eeldatavasti teada. Kui me uurime mustreid, keskendume ühele tehingule, mida analüüsime kõrgel tasemel.
+![La confidentialité sur Bitcoin](https://youtu.be/FA4VLQHr8wU?feature=shared)
 
-Teisisõnu, me vaatame ainult UTXOde arvu sisendites ja UTXOde arvu väljundites, ilma et me peatuksime tehingu täpsematel üksikasjadel või keskkonnas. Jälgitud mustri põhjal saame tõlgendada tehingu olemust. Seejärel otsime selle struktuuris eripärasid ja järeldame tõlgenduse.
+Tehingumuster on lihtsalt tüüpilise tehingu üldine mudel või struktuur, mida võib leida plokiahelas ja mille tõenäoline tõlgendus on teada. Mustrite uurimisel keskendume ühele tehingule ja analüüsime seda kõrgel tasemel.
 
-![BTC204](assets/it/32/01.webp)
+Teisisõnu, me vaatame ainult UTXOde arvu sisendites ja UTXOde arvu väljundites, ilma et me peatuksime tehingu täpsemate üksikasjade või keskkonna juures. Täheldatud mustri põhjal saame tõlgendada tehingu olemust. Seejärel otsime selle struktuuri omadusi ja tuletame tõlgenduse.
 
-Selles osas avastame koos peamised tehingumustrid, mida võib ahelanalüüsis kohata, ja iga mustri puhul annan teile selle struktuuri tõenäolise tõlgenduse koos konkreetse näitega.
+![BTC204](assets/fr/032.webp)
 
-### Lihtne saatmine (või lihtne maksmine)
+Selles jaotises vaatleme koos peamisi tehingumudeleid, millega ahelanalüüsis kokku puututakse, ja iga mudeli puhul annan teile selle struktuuri tõenäolise tõlgenduse ning konkreetse näite.
 
-Alustame väga populaarsest mudelist, sest see on see, mis esineb enamikus bitcoin-maksetes. Lihtsat maksemudelit iseloomustab see, et sisendites tarbitakse ühte või mitut UTXOd ja väljundites toodetakse 2 UTXOd. See mudel näeb seega välja järgmiselt:
+### Ühekordne saadetis (või ühekordne makse)
 
-![BTC204](assets/it/32/02.webp)
+Alustame väga levinud mustriga, sest see on see, mis ilmneb enamiku bitcoin-maksete puhul. Lihtsat maksemudelit iseloomustab ühe või mitme UTXO tarbimine sisendina ja 2 UTXO tootmine väljundina. See mudel näeb seega välja selline:
 
-Kui me tuvastame selle tehingu struktuuri plokiahelas, saame juba teha tõlgenduse. Nagu nimigi ütleb, näitab see muster, et tegemist on saatmis- või maksetehinguga. Kasutaja on tarbinud oma UTXO-d sisendina, et rahuldada väljundis makse UTXO ja muutus UTXO (samale kasutajale tagastatud raha).
+![BTC204](assets/fr/033.webp)
 
-Seega teame, et vaadeldav kasutaja tõenäoliselt ei oma enam ühte kahest väljundi UTXOst (makse), kuid omab endiselt teist UTXOd (muutuse UTXO).
+Kui me märkame seda tehingustruktuuri plokiahelas, saame juba teha tõlgenduse. Nagu nimigi ütleb, näitab see mudel, et tegemist on saatmis- või maksetehinguga. Kasutaja on tarbinud oma UTXO sisendina, et rahuldada väljundina makse UTXO ja vahetus UTXO (samale kasutajale tagastatud raha).
 
-Praegu ei ole meil võimalik täpsustada, milline väljund esindab millist UTXO-d, sest see ei ole mudelite uurimise eesmärk. Me saavutame selle eesmärgi, tuginedes heuristikale, mida uurime järgmistes osades. Praeguses etapis piirdub meie eesmärk kõnealuse tehingu olemuse tuvastamisega, mis antud juhul on lihtne saatmine.
+Seega teame, et vaadeldav kasutaja ei oma tõenäoliselt enam ühte kahest väljundi UTXOst (makse UTXO), kuid teine UTXO (vahetus UTXO) on endiselt tema valduses.
 
-Näiteks siin on Bitcoini tehing, mis võtab vastu lihtsa saatmise mudeli:
+Hetkel ei saa me täpsustada, milline väljund esindab millist UTXO-d, sest see ei ole musteruuringu eesmärk. Me jõuame selleni, tuginedes heuristikale, mida uurime järgmistes lõikudes. Praeguses etapis piirdub meie eesmärk kõnealuse tehingu olemuse tuvastamisega, mis antud juhul on lihtne saatmine.
+
+Näiteks siin on Bitcoini tehing, mis võtab vastu lihtsa saatmise mustri:
 
 ```plaintext
 b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
 ```
 
-![BTC204](assets/it/32/03.webp)
+![BTC204](assets/fr/034.webp)
 
-Fonte: [Mempool.space](https://mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769)
+Source : [Mempool.space](https://mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769)
 
-Pärast seda esimest näidet peaks teil olema parem arusaam sellest, mida tähendab "tehingumudeli" uurimine Me uurime tehingut, keskendudes ainult selle struktuurile, võtmata arvesse selle keskkonda või tehinguspetsiifilisi üksikasju. Selles esimeses etapis vaatleme seda ainult globaalselt.
+Pärast seda esimest näidet peaks teil olema parem arusaam sellest, mida tähendab "tehingumudeli" uurimine. Me uurime tehingut, keskendudes ainult selle struktuurile, võtmata arvesse selle keskkonda või tehingu konkreetseid üksikasju. Selles esimeses etapis vaatleme ainult suurt pilti.
 
-Nüüd, kui te mõistate, mis on mudel, liigume edasi teiste olemasolevate mudelite juurde.
+Nüüd, kui te mõistate, mis on muster, liigume edasi teiste olemasolevate mudelite juurde.
 
 ### Pühkimine
 
-Seda teist mudelit iseloomustab see, et see tarbib sisendina ühte UTXO-d ja toodab väljundina ühte UTXO-d.
+Seda teist mudelit iseloomustab ühe UTXO tarbimine sisendina ja ühe UTXO tootmine väljundina.
 
-![BTC204](assets/it/32/04.webp)
+![BTC204](assets/fr/035.webp)
 
-Selle mudeli tõlgendus on, et tegemist on automaatse ülekandega. Kasutaja on oma bitcoinid üle kandnud iseendale, teisele talle kuuluvale aadressile. Kuna tehingus puudub jääk, on väga ebatõenäoline, et tegemist on maksega. Tegelikult on maksmise korral peaaegu võimatu, et maksja UTXO oleks täpselt sama suur kui müüja poolt nõutud summa, millele lisanduvad tehingutasud. Üldiselt on maksja seetõttu sunnitud tootma jääkväljundit.
+Selle mudeli tõlgendus on see, et me oleme eneseväljenduses. Kasutaja on oma bitcoinid üle kandnud iseendale, teisele talle kuuluvale aadressile. Kuna tehingul puudub vahetus, on väga ebatõenäoline, et me oleme makse juures. Tõepoolest, kui makse tehakse, on peaaegu võimatu, et maksjal oleks UTXO, mis vastab täpselt müüja poolt nõutavale summale, millele lisandub tehingutasu. Üldiselt on maksja seega kohustatud tootma vahetustulemust.
 
-Seega teame, et vaadeldav kasutaja on tõenäoliselt endiselt selle UTXO valduses. Kui me teame ahelanalüüsi kontekstis, et tehingus sisendina kasutatud UTXO kuulub Alice'ile, võime eeldada, et ka väljundis olev UTXO kuulub talle. Hiljem muutub huvitavaks leida tehingusiseseid heuristikatsioone, mis võivad seda eeldust tugevdada (neid heuristikatsioone uurime punktis 3.3).
+Siis teame, et see UTXO on tõenäoliselt ikka veel vaatluse all oleva kasutaja valduses. Kui me teame ahelanalüüsi kontekstis, et tehingu sisendina kasutatud UTXO kuulub Alice'ile, võime eeldada, et ka väljundina kasutatud UTXO kuulub talle. Hiljem muutub huvitavaks leida tehingusiseseid heuristikuid, mis võiksid seda eeldust kinnitada (neid heuristikuid vaatleme peatükis 3.3).
 
-Siin on näiteks Bitcoini tehing, mis võtab kasutusele pühkimismudeli:
+Siin on näiteks Bitcoini tehing, mis võtab kasutusele pühkimismustri:
 
 ```plaintext
 35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
 ```
 
-![BTC204](assets/it/32/05.webp)
+![BTC204](assets/fr/036.webp)
 
-Allikas: [Mempool.space](https://mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d) Selline muster võib aga paljastada ka enda ülekande krüptovaluutavahetus platvormi kontole. See on teadaolevate aadresside uurimine ja tehingu kontekst, mis võimaldab meil teada saada, kas tegemist on konsolideerimisega isevahetusrahakotti või väljavõtmisega platvormile. Vahetusplatvormide aadressid on tõepoolest sageli kergesti tuvastatavad.
+Source : [Mempool.space](https://mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
 
-Tuleme tagasi Alice'i näite juurde: kui konsolideerimine viib tuntud platvormi (näiteks Binance'i) aadressile, võib see tähendada, et bitcoinid viidi Alice'i otsesest valdusest välja, tõenäoliselt kavatsusega neid müüa või hoiustada sellel platvormil. Teisalt, kui sihtaadress on tundmatu, on mõistlik eeldada, et tegemist on lihtsalt teise rahakotiga, mis kuulub endiselt Alice'ile. Kuid selline uuring kuulub pigem heuristika, mitte mustrite uurimise alla.
+Kuid olge ettevaatlik, et sedalaadi muster võib paljastada ka enda ülekande krüptoraha vahetusplatvormi kontole. Just teadaolevate aadresside uurimine ja tehingu kontekst ütlevad meile, kas tegemist on tõmbega isevarustavasse rahakotti või väljamaksega platvormile. Vahetusplatvormide aadressid on tõepoolest sageli kergesti tuvastatavad.
+
+Võtame uuesti Alice'i näite: kui skaneerimine viib aadressile, mis on tuntud platvormile (näiteks Binance'ile), võib see tähendada, et bitcoinid on Alice'i otsesest valdusest välja viidud, tõenäoliselt kavatsusega neid müüa või hoiustada sellel platvormil. Teisalt, kui sihtaadress on tundmatu, on mõistlik eeldada, et tegemist on lihtsalt teise rahakotiga, mis kuulub endiselt Alice'ile. Kuid seda tüüpi uuring kuulub pigem heuristika kui mustrite kategooriasse.
 
 ### Konsolideerimine
 
-Sellele mudelile on iseloomulik, et see tarbib sisendina mitu UTXO-d ja toodab väljundina ühe UTXO-d.
+Seda mudelit iseloomustab mitme UTXO tarbimine sisendil ja ühe UTXO tootmine väljundil.
 
-![BTC204](assets/it/32/06.webp)
+![BTC204](assets/fr/037.webp)
 
-Selle mustri tõlgendus on see, et me oleme konsolideerumise ees. See on Bitcoini kasutajate seas tavaline tava, et nad ühendavad mitu UTXOd, et oodata võimalikku tehingutasude tõusu. Tehes selle operatsiooni ajal, mil tasud on madalad, on võimalik säästa tulevaste tasude pealt. Sellest tavast räägime lähemalt peatükis 4.3.
+Selle mustri tõlgendus on see, et me oleme konsolideerumise ees. See on Bitcoini kasutajate seas levinud tava, mille eesmärk on mitme UTXO ühendamine, et oodata võimalikku tehingutasude tõusu. Tehes selle operatsiooni ajal, mil tasud on madalad, on võimalik säästa tulevaste tasude pealt. Sellest praktikast räägime lähemalt peatükis 4.3.
 
-Me võime järeldada, et selle tehingumudeli taga olev kasutaja valdas tõenäoliselt kõiki sisend-TTXOsid ja valdab endiselt väljund-TTXOd. Tegemist on kindlasti automaatse ülekandega.
+Me võime järeldada, et selle tehingumudeli taga olev kasutaja valdas tõenäoliselt kõiki UTXOsid sisendis ja valdab endiselt UTXOd väljundis. Seega on tegemist tõenäoliselt automaatse ülekandega.
 
-Nii nagu konsolideerimine, võib ka selline muster paljastada enese ülekandmist vahetusplatvormi kontole. See on teadaolevate aadresside uurimine ja tehingu kontekst, mis võimaldab meil teada saada, kas tegemist on konsolideerimisega enesehalduse rahakotti või väljavõtmisega platvormile.
+Sarnaselt pühkimisele võib ka seda tüüpi muster paljastada enda ülekandmist vahetusplatvormi kontole. See on teadaolevate aadresside uurimine ja tehingu kontekst, mis ütleb meile, kas tegemist on konsolideerimisega eneseportfellile või väljavõtmisega platvormile.
 
-Näiteks siin on Bitcoini tehing, mis võtab vastu konsolideerimisskeemi:
+Näiteks siin on Bitcoini tehing, mis võtab vastu konsolideerimismustri:
 
 ```plaintext
 77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94
 ```
 
-![BTC204](assets/it/32/07.webp)
+![BTC204](assets/fr/038.webp)
 
-Fonte: [Mempool.space](https://mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
+Source : [Mempool.space](https://mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 
-Ahelaanalüüsi kontekstis võib see mudel paljastada palju teavet. Näiteks kui me teame, et üks sisenditest kuulub Alice'ile, võime eeldada, et kõik teised selle tehingu sisendid ja väljundid kuuluvad talle. See eeldus võimaldab meil seejärel jälgida eelmisi tehinguahelaid, et leida ja analüüsida teisi tehinguid, mis tõenäoliselt on seotud Alice'iga.
+Ahelanalüüsis võib see mudel paljastada palju teavet. Näiteks kui me teame, et üks sisenditest kuulub Alice'ile, võime eeldada, et ka kõik teised sisendid ja selle tehingu väljund kuuluvad talle. See eeldus võimaldab seejärel minna tagasi eelmiste tehingute ahelas, et leida ja analüüsida teisi tehinguid, mis tõenäoliselt on seotud Alice'iga.
 
-![BTC204](assets/it/32/08.webp)
+![BTC204](assets/fr/039.webp)
 
-### Grupeeritud kulutused
+### Grupeeritud kulud
 
-Seda mudelit iseloomustab mõne UTXO tarbimine sisendina (sageli ainult üks) ja arvukate UTXOde tootmine väljundina.
+Seda mudelit iseloomustab mõne UTXO tarbimine sisendina (sageli ainult üks) ja paljude UTXOde tootmine väljundina.
 
-![BTC204](assets/it/32/09.webp)
+![BTC204](assets/fr/040.webp)
 
-Selle mustri tõlgendus on, et tegemist on komplekteeritud kulutustega. See on tava, mis tõenäoliselt näitab märkimisväärset majandustegevust, näiteks vahetusplatvormi. Grupeeritud kulutused võimaldavad neil üksustel säästa tasude pealt, koondades oma kulutused ühte tehingusse.
+Selle mudeli tõlgendus on, et me oleme rühmitatud kulutuste olemasolul. See on tava, mis tõenäoliselt näitab väga suurt majandustegevust, näiteks vahetusplatvormi. Grupeeritud kulutused võimaldavad neil üksustel kulusid kokku hoida, ühendades oma kulutused ühte tehingusse.
 
-Sellest mudelist võime järeldada, et UTXO sisend pärineb märkimisväärse majandustegevusega ettevõttest ja et UTXO väljundid hajuvad. Paljud neist kuuluvad ettevõtte klientidele, kes võtsid platvormilt bitcoin'e välja. Teised võivad minna partnerettevõtetele. Lõpuks on kindlasti üks või mitu vahetust, mis lähevad tagasi väljaandnud ettevõttele.
+Sellest mudelist võime järeldada, et UTXO sisendis pärineb suure majandustegevusega ettevõttest ja et UTXO toodangus hajub. Paljud neist kuuluvad ettevõtte klientidele, kes on platvormilt bitcoine välja võtnud. Teised võivad minna partnerettevõtetele. Lõpuks on kindlasti üks või mitu vahetust, mis lähevad tagasi emiteerivale ettevõttele.
 
-Siin on näiteks Bitcoini tehing, mis võtab kasutusele rühmitatud kulutuste mudeli (tõenäoliselt on tegemist Bybit platvormi poolt väljastatud tehinguga):
+Siin on näiteks Bitcoini tehing, mis võtab vastu komplekteeritud kulutuste mustri (eeldatavasti on tegemist Bybit platvormi poolt väljastatud tehinguga):
 
 ```plaintext
 8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43
 ```
 
-![BTC204](assets/it/32/10.webp)
+![BTC204](assets/fr/041.webp)
 
-Fonte: [Mempool.space](https://mempool.space/fr/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
+Source : [Mempool.space](https://mempool.space/fr/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
 ### Protokolliga seotud tehingud
 
-Tehingumustrite hulgas saame tuvastada ka mustreid, mis näitavad konkreetse protokolli kasutamist. Näiteks Whirlpool coinjoins (mida arutame 5. osas) on kergesti tuvastatav struktuur, mis võimaldab neid eristada teistest traditsioonilisematest tehingutest.
+Tehingumustrite hulgast saame tuvastada ka need, mis näitavad konkreetse protokolli kasutamist. Näiteks Whirlpool coinjoins (mida käsitletakse 5. osas) on kergesti tuvastatav struktuur, mis eristab neid teistest tavalisematest tehingutest.
 
-![BTC204](assets/it/32/11.webp)
+![BTC204](assets/fr/042.webp)
 
-Selle mustri analüüs viitab sellele, et tõenäoliselt on tegemist koostööga. Samuti on võimalik täheldada kaasühendust. Kui viimane hüpotees osutub õigeks, siis võib väljundite arv anda meile ligikaudse hinnangu coinjoin'is osalejate arvu kohta.
+Selle mustri analüüs viitab sellele, et tõenäoliselt on tegemist koostööga. Samuti on võimalik täheldada koosliitumist. Kui see viimane hüpotees osutub õigeks, siis võib väljumiste arv anda meile ligikaudse hinnangu ühisettevõtmises osalejate arvu kohta.
 
-Siin on näiteks Bitcoini tehing, mis võtab kasutusele coinjoin'i ühistehingu tüüpi mudeli:
+Siin on näiteks Bitcoini tehing, mis võtab kasutusele coinjoin'i ühistehingu mustri:
 
 ```plaintext
 00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
 ```
 
-![BTC204](assets/it/32/12.webp)
+![BTC204](assets/fr/043.webp)
 
-Fonte: [Mempool.space](https://mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
+Source : [Mempool.space](https://mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
-On palju teisi protokolle, millel on oma spetsiifilised struktuurid. Nii võiksime näiteks eristada Wabisabi tüüpi tehinguid, Stamps tehinguid või isegi Runes'i tehinguid.
+On palju teisi protokolle, millel on oma spetsiifilised struktuurid. Näiteks on olemas Wabisabi tehingud, Stamps tehingud ja Runes tehingud.
 
-Tänu nendele tehingumudelitele saame me juba tõlgendada teatavat teavet konkreetse tehingu kohta. Kuid tehingu struktuur ei ole ainus teabeallikas, mida analüüsida. Me saame uurida ka selle üksikasju. Neid tehingusiseseid üksikasju nimetan ma "sisemisteks heuristikateks" ja me uurime neid järgmises peatükis.
+Tänu nendele tehingumustritele saame me juba tõlgendada teatavat teavet konkreetse tehingu kohta. Kuid tehingu struktuur ei ole ainus teabeallikas, mida saab analüüsida. Me võime uurida ka selle üksikasju. Neid sisemisi detaile nimetan ma hea meelega "sisemisteks heuristikateks" ja me vaatleme neid järgmises peatükis.
 
 ## Sisemine heuristika
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
-Sisemine heuristika on konkreetne tunnusjoon, mis on tuvastatud tehingus endas, ilma et oleks vaja uurida selle keskkonda, mis võimaldab meil teha järeldusi. Erinevalt mudelitest, mis keskenduvad tehingu üldisele struktuurile kõrgel tasemel, põhinevad sisemised heuristikud ekstraheeritavate andmete kogumil. See hõlmab järgmist:
+![La confidentialité sur Bitcoin](https://youtu.be/mMBZ_diMC3g?feature=shared)
+
+Sisemine heuristika on konkreetne omadus, mille me tuvastame tehingus endas, ilma et peaksime uurima selle keskkonda, ja mis võimaldab meil teha järeldusi. Erinevalt mustritest, mis keskenduvad tehingu üldisele struktuurile kõrgel tasemel, põhineb sisemine heuristika ekstraheeritavate andmete kogumil. See hõlmab järgmist:
 
 
-- Erinevate UTXOde sisse- ja väljamineku kogused;
-- Kõik, mis puudutab skripte: aadresside vastuvõtmine, versioonimine, lukuaeg jne.
+- Erinevate UTXOde sisse- ja väljamineku summad;
+- Kõik, mis on seotud skriptidega: vastuvõtuaadressid, versioonimine, lukuaeg...
 
-Üldiselt võimaldab selline heuristika tuvastada konkreetse tehingu ülejäänu. Seda tehes saame seejärel jätkata üksuse jälgimist mitme tehingu jooksul. Kui me tuvastame UTXO, mis kuulub kasutajale, keda me tahame jälgida, siis on väga oluline kindlaks teha, millised väljundid on tehingu tegemisel üle antud teisele kasutajale ja millised väljundid kujutavad endast jääki, mis jääb seega tema valdusesse.
+Üldiselt võimaldab selline heuristika tuvastada konkreetse tehingu vahetust. Seda tehes saame seejärel jätkata üksuse jälgimist mitme erineva tehingu jooksul. Tõepoolest, kui me tuvastame UTXO, mis kuulub kasutajale, keda me tahame jälgida, on väga oluline kindlaks teha, kui ta teeb tehingu, milline väljund on üle antud teisele kasutajale ja milline väljund kujutab endast vahetust, mis seega jääb tema valdusse.
 
-![BTC204](assets/it/33/01.webp)
+![BTC204](assets/fr/044.webp)
 
-Tuletan veelkord meelde, et need heuristikud ei ole mingil juhul täpsed. Üksikult võttes võimaldavad nad meil ainult tuvastada usutavaid stsenaariume. Just erinevate heuristikate kogunemine aitab vähendada ebakindlust, kuid ei kõrvalda seda kunagi täielikult.
+Lubage mul veel kord meelde tuletada, et need heuristikud ei ole absoluutselt täpsed. Üksikult võttes võimaldavad nad meil ainult tuvastada tõenäolisi stsenaariume. Just mitme heuristiku kogunemine aitab vähendada ebakindlust, ilma et seda kunagi täielikult kõrvaldada.
 
 ### Sisemine sarnasus
 
-See heuristika hõlmab sama tehingu sisendite ja väljundite sarnasuste uurimist. Kui me täheldame sama tunnust tehingu sisenditel ja ainult ühel väljundil, siis on tõenäoline, et see väljund moodustab ülejäänud osa.
+See heuristika hõlmab sama tehingu sisendite ja väljundite sarnasuste uurimist. Kui sisendite ja ainult ühe tehingu väljundite puhul on täheldatud sama tunnus, siis on tõenäoline, et see väljund moodustab vahetuse.
 
 Kõige ilmsem omadus on vastuvõtva aadressi korduvkasutamine samas tehingus.
 
-![BTC204](assets/it/33/02.webp)
+![BTC204](assets/fr/045.webp)
 
-See heuristika jätab vähe ruumi kahtlustele. Välja arvatud juhul, kui isiku privaatne võti on häkitud, paljastab sama vastuvõtuaadress paratamatult ühe kasutaja tegevuse. Sellest tulenev tõlgendus on, et ülejäänud tehing on väljund sama aadressiga kui sisend. See võimaldab isiku pidevat jälgimist selle ülejäänu põhjal.
+See heuristika jätab vähe ruumi kahtlustele. Kui tema isiklikku võtit ei ole häkitud, näitab sama vastuvõtuaadress tingimata ühe kasutaja tegevust. Sellest tulenev tõlgendus on, et tehinguvahetus on väljund sama aadressiga kui sisend. Seejärel saame jätkata üksikisiku jälgimist sellest vahetusest.
 
-Siin on näiteks üks tehing, mille puhul saab seda heuristikat mõistlikult rakendada:
+Siin on näiteks üks tehing, mille puhul seda heuristikat võib tõenäoliselt rakendada:
 
 ```plaintext
 54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0
@@ -482,15 +543,15 @@ Siin on näiteks üks tehing, mille puhul saab seda heuristikat mõistlikult rak
 
 ![BTC204](assets/fr/046.webp)
 
-Fonte: [Mempool.space](https://mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
+Source : [Mempool.space](https://mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
 
-Need sarnasused sisendi ja väljundi vahel ei lõpe aadressi korduvkasutamisega. Igasugune sarnasus skriptide kasutamisel võib võimaldada heuristikate rakendamist. Näiteks võib mõnikord täheldada sama versioonimist sisendi ja ühe tehingu väljundi vahel.
+Need sisendite ja väljundite sarnasused ei piirdu aadressi taaskasutamisega. Igasugust sarnasust skriptide kasutamisel saab kasutada heuristikat. Näiteks võime mõnikord täheldada sama versioonimist sisendi ja ühe tehingu väljundi vahel.
 
-![BTC204](assets/it/33/04.webp)
+![BTC204](assets/fr/047.webp)
 
-Sellel diagrammil näeme, et sisend nr 0 avab P2WPKH skripti (SegWit V0, mis algab `bc1q`). Väljund nr 0 kasutab sama tüüpi skripti. Väljund nr 1 kasutab aga P2TR-skripti (SegWit V1, mis algab numbriga `bc1p`). Selle tunnuse tõlgendus on see, et tõenäoliselt on ülejäänud aadressiks sama versiooniga aadress, mis on sisendil. Seega kuuluks see ikkagi samale kasutajale.
+Sellel diagrammil näeme, et sisend nr 0 avab P2WPKH skripti (SegWit V0 alates `bc1q`). Väljund nr 0 kasutab sama tüüpi skripti. Väljund nr 1 seevastu kasutab P2TR-skripti (SegWit V1, mis algab numbriga `bc1p`). Selle tunnuse tõlgendus seisneb selles, et tõenäoliselt on vahetusaadressiks aadress, millel on sama versiooning kui sisendil. Seega kuuluks see alati samale kasutajale.
 
-Siin on üks tehing, mille puhul seda heuristikat saab mõistlikult rakendada:
+Siin on üks tehing, mille puhul seda heuristikat võib tõenäoliselt rakendada:
 
 ```plaintext
 db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
@@ -498,32 +559,34 @@ db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 
 ![BTC204](assets/fr/048.webp)
 
-Fonte: [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
+Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
-Antud juhul näeme, et sisend nr 0 ja väljund nr 1 kasutavad P2WPKH skripte (SegWit V0), samas kui väljund nr 0 kasutab teist tüüpi skripte, P2PKH (Legacy). 2010. aastate alguses oli see skripti versioonil põhinev heuristika suhteliselt vähe kasulik, sest olemasolevad skripti tüübid olid piiratud. Aja jooksul ja Bitcoini hilisemate uuendustega on aga kasutusele võetud üha rohkem erinevaid skripttüüpe. See heuristika muutub üha asjakohasemaks, sest skripttüüpide suurema hulga puhul jagunevad kasutajad väiksemateks rühmadeks, mis suurendab selle sisemise versiooni taaskasutamise heuristika rakendamise võimalusi. Seetõttu on juba ainuüksi privaatsuse seisukohast soovitatav valida kõige levinum skripttüüp. Näiteks, kui ma neid ridu kirjutan, kasutatakse Taproot-skripte (`bc1p`) harvemini kui SegWit V0-skripte (`bc1q`). Kuigi esimesed pakuvad teatud spetsiifilistes kontekstides majanduslikke ja privaatsuse eeliseid, võib traditsioonilisemate ühe allkirja kasutusalade puhul olla mõistlik jääda privaatsuse huvides vanema standardi juurde, kuni uus standard on laialdasemalt kasutusele võetud.
+Viimase puhul näeme, et sisend nr 0 ja väljund nr 1 kasutavad P2WPKH skripte (SegWit V0), samas kui väljund nr 0 kasutab teistsugust P2PKH skripti (Legacy).
 
-### Ümardatud arvudega maksed
+2010. aastate alguses oli see skriptide versioonil põhinev heuristika suhteliselt vähekasulik, kuna skriptide tüübid olid piiratud. Aja jooksul ja järjestikuste Bitcoini uuendustega on siiski kasutusele võetud üha rohkem erinevaid skripttüüpe. Seetõttu muutub see heuristika üha asjakohasemaks, kuna skripti tüüpide laiema valiku korral jagunevad kasutajad väiksemateks gruppideks, mis suurendab selle sisemise versioonide taaskasutamise heuristika rakendamise võimalusi. Sel põhjusel on üksnes konfidentsiaalsuse seisukohalt soovitatav valida kõige levinum skriptitüüp. Näiteks, kui ma neid ridu kirjutan, kasutatakse Taproot-skripte (`bc1p`) harvemini kui SegWit V0-skripte (`bc1q`). Kuigi esimesed pakuvad teatud spetsiifilistes kontekstides majanduslikke ja konfidentsiaalsuse eeliseid, võib traditsioonilisemate ühe allkirja kasutusalade puhul olla mõistlik jääda konfidentsiaalsuse huvides vanema standardi juurde, kuni uus standard on laiemalt kasutusele võetud.
 
-Teine sisemine heuristika, mis võib aidata meil kindlaks teha jäägi, on ümardatud arvu puhul. Üldiselt, kui lihtsa makseskeemiga (1 sisend ja 2 väljundit) silmitsi seistes, siis kui üks väljunditest kulutab ümardatud summa, siis kujutab see endast makset.
+### Ümmargused maksed
 
-![BTC204](assets/it/33/06.webp)
+Teine sisemine heuristika, mis aitab meil vahetust tuvastada, on ümmarguse numbri heuristika. Üldiselt võib öelda, et kui lihtsa maksemustri (1 sisend ja 2 väljundit) puhul kulutab üks väljunditest ümmarguse summa, siis on tegemist maksega.
 
-Kui üks väljund kujutab endast makset, siis teine kujutab endast muutust. Seega võib järeldada, et tõenäoliselt on tehingu sisestanud kasutaja endiselt valduses väljund, mis on identifitseeritud kui muutus.
+![BTC204](assets/fr/049.webp)
 
-Tuleb märkida, et see heuristika ei ole alati kohaldatav, sest enamik makseid tehakse ikka veel fiat-valuutaühikutes. Tegelikult, kui kaupmees Prantsusmaal aktsepteerib bitcoin'e, ei näita ta tavaliselt stabiilset hinda satsides. Ta valib pigem eurodes väljendatud hinna ja bitcoinis makstava summa ümberarvestuse. Seetõttu ei tohiks tehingu väljundis olla ümardatud numbrit.
+Kui üks väljund kujutab endast makset, siis teine väljund kujutab endast vahetust. Seega võib tõlgendada, et tõenäoliselt on sisendkasutajal alati käes väljund, mis on identifitseeritud vahetuseks.
 
-Analüütik võib siiski üritada seda ümberarvestust teha, võttes arvesse tehingu võrgu kaudu edastamise ajal kehtinud vahetuskurssi. Võtame näiteks tehingu, mille sisendiks on "97,552 sats" ja kaks väljundit, millest üks on "31,085 sats" ja teine "64,152 sats". Esmapilgul ei tundu, et see tehing sisaldaks ümardatud summasid. Kui aga kohaldada tehingu toimumise ajal kehtinud vahetuskurssi 64,339 eurot, saame eurodeks ümberarvestuse, mis näeb välja järgmiselt:
+Tuleb rõhutada, et see heuristika ei ole alati kohaldatav, sest enamik makseid tehakse ikka veel usaldusühikutes. Tõepoolest, kui jaemüüja Prantsusmaal aktsepteerib bitcoin'e, ei näita ta tavaliselt stabiilset hinda satsides. Selle asemel valib ta eurodes väljendatud hinna ja bitcoinides makstava summa ümberarvestuse. Seega ei tohiks tehingu lõpus olla ümardatud numbreid.
+
+Analüütik võib siiski proovida seda ümberarvestust teha, võttes arvesse tehingu võrgus edastamise ajal kehtinud vahetuskurssi. Võtame näiteks tehingu, mille sisendiks on "97,552 sats" ja kaks väljundit, millest üks on "31,085 sats" ja teine "64,152 sats". Esmapilgul ei tundu, et see tehing oleks seotud ümmarguste summadega. Kui aga kohaldada 64,339 euro suurust vahetuskurssi tehingu toimumise ajal, saame eurodeks ümberarvestuse järgmiselt:
 
 
 - Sissemakse 62,76 eurot;
 - Väljund 20 eurot;
 - Väljund 41,27 eurot.
 
-Kui see tehing on konverteeritud fiat-valuutaks, võimaldab see tehing kohaldada ümardatud summadega maksete heuristikat. Väljund 20 eurot oli tõenäoliselt mõeldud kaupmehele või muudeti muul viisil omanikku. Järelikult jäi 41,27 euro suurune väljund tõenäoliselt algse kasutaja valdusesse.
+Kui see tehing on konverteeritud fiat-valuutaks, saab seda kasutada ümmarguse summa maksmise heuristikat. Tõenäoliselt läks 20 euro suurune väljund kaupmehele või vähemalt vahetas omanikku. Järelduse kohaselt on 41,27 euro suurune väljund tõenäoliselt jäänud algse kasutaja valdusesse.
 
-![BTC204](assets/it/33/07.webp)
+![BTC204](assets/fr/050.webp)
 
-Kui ühel päeval muutub Bitcoin meie tehingute eelistatud arvestusühikuks, võib see heuristika muutuda analüüsiks veelgi kasulikumaks.
+Kui ühel päeval muutub bitcoin meie börsidel eelistatud arvestusühikuks, võib see heuristika muutuda analüüsiks veelgi kasulikumaks.
 
 Siin on näiteks üks tehing, mille puhul seda heuristikat võib tõenäoliselt rakendada:
 
@@ -533,17 +596,17 @@ Siin on näiteks üks tehing, mille puhul seda heuristikat võib tõenäoliselt 
 
 ![BTC204](assets/fr/051.webp)
 
-Fonte: [Mempool.space](https://mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a)
+Source : [Mempool.space](https://mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a)
 
-### Suurim väljund
+### Suurim toodang
 
-Kui tehingu kahe väljundi vahel on lihtsa maksemudeli puhul märkimisväärselt suur erinevus, võib hinnata, et suurem väljund on tõenäoliselt jääk.
+Kui me tuvastame piisavalt suure vahe 2 tehingu väljundi vahel lihtsa maksemudeli puhul, saame hinnata, et suurim väljund on tõenäoliselt välisvaluuta.
 
-![BTC204](assets/it/33/09.webp)
+![BTC204](assets/fr/052.webp)
 
-See suurim väljundheuristik on tõenäoliselt kõige ebatäpsem kõigist. Kui see tuvastatakse üksi, on see üsna nõrk. Siiski saab seda omadust kombineerida teiste heuristikaga, et vähendada meie tõlgenduse ebakindlust.
+See suurim väljundheuristik on kindlasti kõige ebatäpsem kõigist. Iseenesest on see üsna nõrk. Siiski saab seda omadust kombineerida teiste heuristikatega, et vähendada meie tõlgenduse ebakindlust.
 
-Näiteks kui me uurime tehingut, mille üks väljund on ümmarguse summaga ja teine väljund suurema summaga, võimaldab ümmarguste maksete heuristikate ja suurema väljundiga seotud heuristikate ühine rakendamine vähendada meie ebakindluse taset.
+Näiteks kui me vaatleme tehingut, mille puhul on tegemist ümmarguse ja suurema maksega, vähendab ümmarguse makse heuristika ja suurema makse heuristika koos rakendamine meie ebakindlust.
 
 Siin on näiteks üks tehing, mille puhul seda heuristikat võib tõenäoliselt rakendada:
 
@@ -553,105 +616,121 @@ b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 
 ![BTC204](assets/fr/053.webp)
 
-Fonte: [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
+Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
 
 ## Väline heuristika
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
 
-Välise heuristika uurimine hõlmab teatud elementide sarnasuste, mustrite ja omaduste analüüsimist, mis ei ole tehingu enda sisemised. Teisisõnu, kui varem piirdusime tehingule omaste elementide ärakasutamisega sisemise heuristikaga, siis nüüd laiendame oma analüüsi valdkonda tehingu keskkonnale välise heuristika abil.
+![La confidentialité sur Bitcoin](https://youtu.be/WZ2B5cXp14w?feature=shared)
 
-### Aadresside korduvkasutamine
+Välise heuristika uurimine tähendab teatud elementide sarnasuste, mustrite ja omaduste analüüsimist, mis ei ole tehingu enda jaoks spetsiifilised. Teisisõnu, kui varem piirdusime sisemise heuristikaga tehingule omaste elementide ärakasutamisega, siis nüüd laiendame oma analüüsivälja tänu välisele heuristikale ka tehingukeskkonnale.
 
-See on Bitcoini entusiastide seas üks tuntumaid heuristikuid. Aadressi korduvkasutamine võimaldab luua ühenduse erinevate tehingute ja erinevate UTXOde vahel. Seda täheldatakse, kui Bitcoini vastuvõtuaadressi kasutatakse mitu korda.
+### Aadressi korduvkasutamine
 
-Seega on võimalik kasutada aadressi korduvkasutamist sama tehingu sees sisemise heuristikana, et tuvastada ülejäänud (nagu nägime eelmises peatükis). Kuid aadressi korduvkasutamine võib olla ka väline heuristika, et tuvastada üksuse ainulaadsust mitme tehingu taga.
+See on üks bitcoin'ide tuntumaid heuristikuid. Aadressi korduvkasutamine võimaldab luua seose erinevate tehingute ja erinevate UTXOde vahel. See toimub siis, kui Bitcoini vastuvõtuaadressi kasutatakse mitu korda.
 
-Aadressi korduvkasutust tõlgendatakse nii, et kõik sellele aadressile lukustatud UTXOd kuuluvad (või on kuulunud) samale üksusele. See heuristika jätab vähe ruumi ebakindlusele. Kui seda on võimalik tuvastada, vastab järgnev tõlgendus kõige tõenäolisemalt tegelikkusele. Seega võimaldab see erinevate onchain-tegevuste rühmitamist.
+Seega on võimalik kasutada aadressi korduvkasutamist sama tehingu sees sisemise heuristikana, et tuvastada vahetust (nagu nägime eelmises peatükis). Kuid aadressi korduvkasutust saab kasutada ka välise heuristikana, et tuvastada üksuse unikaalsus mitme tehingu taga.
 
-![BTC204](assets/it/34/01.webp)
+Aadressi korduvkasutust tõlgendatakse nii, et kõik sellel aadressil blokeeritud UTXOd kuuluvad (või on kuulunud) samale üksusele. See heuristika jätab vähe ruumi ebakindlusele. Kui see on tuvastatud, vastab saadud tõlgendus tõenäoliselt tegelikkusele. Seetõttu võimaldab see rühmitada erinevaid ahelas toimuvaid tegevusi.
 
-Nagu on selgitatud käesoleva 3. osa sissejuhatuses, avastas selle heuristika Satoshi Nakamoto ise. Valges raamatus mainib ta konkreetselt lahendust, kuidas kasutajad seda vältida, mis seisneb lihtsalt selles, et iga uue tehingu puhul tuleb kasutada uut aadressi:
+![BTC204](assets/fr/054.webp)
 
-"_A täiendava kaitsena võiks iga tehingu puhul kasutada uut võtmepaari, et vältida nende seostamist ühise omanikuga."
+Nagu 3. osa sissejuhatuses selgitatud, avastas selle heuristika Satoshi Nakamoto ise. Valges raamatus mainib ta lahendust, mis aitab kasutajatel vältida selle genereerimist, milleks on lihtsalt tühja aadressi kasutamine iga uue tehingu puhul:
+
+"_Täiendava tulemüürina võiks iga tehingu jaoks kasutada uut võtmepaari, et need ei oleks seotud ühise omanikuga."
 
 ![BTC204](assets/fr/055.webp)
 
-Allikas: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System," https://bitcoin.org/bitcoin.pdf, 2009.
+Allikas: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
-Näiteks siin on aadress, mida kasutatakse korduvalt mitmes tehingus:
+Siin on näiteks aadress, mida kasutatakse korduvalt mitmes tehingus:
 
 ```plaintext
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
-Allikas:[Mempool.space](https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
+![BTC204](assets/fr/056.webp)
 
-### Skriptide sarnasus ja rahakottide sõrmejäljed
+Allikas : [Mempool.space](https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
-Lisaks aadresside korduvkasutamisele on olemas ka mitmeid muid heuristilisi meetodeid, mille abil saab aktsiaid siduda sama portfelliga või aadresside klastriga.
+### Skripti sarnasus ja rahakoti jäljendid
 
-Esiteks saab analüütik ära kasutada sarnasusi skriptide kasutamisel. Näiteks on teatud vähemuste skriptid, näiteks multisig, kergemini tuvastatavad kui SegWit V0 skriptid. Mida suuremasse gruppi me end varjame, seda raskem on meid tuvastada. Seepärast kasutavad heades Coinjoin-protokollides kõik osalejad täpselt sama tüüpi skripte.
+Lisaks aadresside korduvkasutamisele on palju muid heuristilisi võimalusi, mis võimaldavad siduda tegevusi sama portfelli või aadressiklastriga.
 
-Üldisemalt võib analüütik keskenduda ka portfelli sõrmejälje omadustele. Need on konkreetsed kasutamisega seotud protsessid, mida võiks püüda tuvastada eesmärgiga kasutada neid jälgimisheuristikana. Teisisõnu, kui jälgitavale üksusele omistatud tehingute puhul täheldatakse samade sisemiste tunnuste kuhjumist, võib püüda tuvastada samu tunnuseid ka teiste tehingute puhul.
+Esiteks võib analüütik otsida sarnasusi skriptide kasutamises. Näiteks võib teatud vähemuste skripte, nagu multisig, olla lihtsam märgata kui SegWit V0 skripte. Mida suurem on grupp, milles me peidus oleme, seda raskem on meid märgata. See on üks põhjus, miks heade Coinjoin-protokollide puhul kasutavad kõik osalejad täpselt sama tüüpi skripte.
 
-Näiteks on võimalik tuvastada, et jälgitav kasutaja saadab oma ülejäänu süstemaatiliselt P2TR-aadressidele (`bc1p...`). Kui see protsess kordub, saab seda kasutada heuristikana meie analüüsi jätkamisel. Võib kasutada ka muid sõrmejälgi, näiteks UTXOde järjekorda, jääkide paigutust väljundites, RBF (Replace-by-Fee) signalisatsiooni või isegi versiooni numbrit, `nSequence`-välja ja `nLockTime`-välja.
+Üldisemalt võib analüütik keskenduda ka portfelli iseloomulikele sõrmejälgedele. Need on kasutusspetsiifilised protsessid, mida saab tuvastada, et kasutada neid jälgimisheuristikana. Teisisõnu, kui me täheldame jälgitavale üksusele omistatud tehingute puhul samade sisemiste tunnuste kuhjumist, võime püüda tuvastada neid samu tunnuseid ka teiste tehingute puhul.
 
-Nagu [@LaurentMT](https://twitter.com/LaurentMT) täpsustab [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (prantsuskeelne podcast), suureneb rahakoti sõrmejälgede kasulikkus ahela analüüsis aja jooksul märkimisväärselt. Tõepoolest, erinevusi rõhutavad skriptitüüpide arvu suurenemine ja nende uute võimaluste üha järkjärgulisem kasutuselevõtt rahakoti tarkvara poolt. Võib isegi juhtuda, et jälgitava üksuse poolt kasutatav tarkvara saab täpselt tuvastada. Seetõttu on oluline mõista, et rahakoti digitaalse jalajälje uurimine osutub eriti oluliseks hiljutiste tehingute puhul, rohkem kui 2010. aastate alguses algatatud tehingute puhul.
+Näiteks suudame tuvastada, et jälgitav kasutaja saadab süstemaatiliselt oma muutusi P2TR-aadressidele (`bc1p...`). Kui see protsess kordub, saame seda kasutada heuristikana ülejäänud analüüsis. Me võime kasutada ka muid sõrmejälgi, näiteks UTXOde järjekorda, muudatuse kohta väljundites, RBF (Replace-by-Fee) signalisatsiooni või versiooni numbrit, `nSequence` välja ja `nLockTime` välja.
 
-Kokkuvõttes võib sõrmejälg olla mis tahes konkreetne, rahakoti poolt automaatselt või kasutaja poolt käsitsi sooritatud tegevus, mida võib leida teistest tehingutest, et aidata meie analüüsil.
+![BTC204](assets/fr/057.webp)
 
-### Sisendite ühise omandiõiguse heuristika (CIOH)
+Nagu [@LaurentMT](https://twitter.com/LaurentMT) märgib [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (prantsuskeelne podcast), on portfelli sõrmejälgede kasulikkus ahelaanalüüsis aja jooksul oluliselt suurenenud. Tõepoolest, skriptitüüpide kasvav arv ja nende uute funktsioonide üha progressiivsem kasutuselevõtt portfooliotarkvara poolt rõhutavad erinevusi. Mõnel juhul on isegi võimalik tuvastada täpselt tarkvara, mida jälgitav üksus kasutab. Seetõttu on oluline mõista, et portfellijälgede uurimine on eriti oluline hiljutiste tehingute puhul, mitte aga 2010. aastate alguses algatatud tehingute puhul.
 
-CIOH (inglise keeles "Common Input Ownership Heuristic") on heuristika, mis väidab, et kui tehing sisaldab mitut sisendit, on tõenäoline, et need pärinevad ühelt üksuselt. Selle tulemusena on nende omandiõigus ühine.
+Kokkuvõttes võib jalajälg olla mis tahes konkreetne tegevus, mida rahakott automaatselt või kasutaja käsitsi teeb, mida me saame leida teistest tehingutest, et aidata meid analüüsis.
 
-Sisendite ühise omandiõiguse heuristika (Common Ownership Heuristics of Inputs, CIOH) kohaldamiseks vaatleme kõigepealt tehingut, millel on mitu sisendit. See võib olla minimaalselt 2 sisendit kuni maksimaalselt 30 sisendit. Kui see tunnus on tuvastatud, kontrollime, kas tehing ei sobi teadaoleva tehingumudeli alla. Näiteks kui sellel on 5 ligikaudu võrdse suurusega sisendit ja 5 täpselt sama suurusega väljundit, siis teame, et tegemist on coinjoin'i struktuuriga. Seetõttu ei saa me IOCH-i kohaldada.
+### Ühise sisendi omandiõiguse heuristika (Common Input Ownership Heuristic, CIOH)
 
-Kui aga tehing ei sobi ühegi teadaoleva ühistehingu mudeliga, siis võime järeldada, et kõik sisendid pärinevad tõenäoliselt samast üksusest. See võib olla väga kasulik teadaoleva klastri laiendamiseks või jälgimise jätkamiseks.
+Common Input Ownership Heuristic (CIOH) on heuristika, mis väidab, et kui tehingul on mitu sisendit, pärinevad need tõenäoliselt kõik ühelt üksuselt. Järelikult on nende omandiõigus ühine.
 
-CIOH avastas Satoshi Nakamoto. Ta arutab seda valge raamatu 10. osas:
+![BTC204](assets/fr/058.webp)
 
-"_[...] seos on vältimatu mitme sisendi tehingutega, mis ilmselgelt näitavad, et nende sisendid kuulusid ühele ja samale omanikule. Oht on selles, et kui võtme omanik paljastub, võivad lingid paljastada teised tehingud, mis kuulusid samale omanikule._"
+CIOH-i kohaldamiseks jälgime kõigepealt mitme sisendiga tehingut. See võib olla 2 sisendit või 30 sisendit. Kui see tunnus on tuvastatud, kontrollime, kas tehing sobib teadaolevasse tehingumudelisse. Näiteks kui on 5 sisendit, millel on ligikaudu sama summa, ja 5 väljundit, millel on täpselt sama summa, siis teame, et tegemist on mündiühenduse struktuuriga. Me ei saa rakendada CIOHi.
 
-Eriti põnev on märkida, et Satoshi Nakamoto oli juba enne Bitcoini ametlikku käivitamist tuvastanud kaks peamist kasutajate privaatsuse haavatavust, nimelt IOCH ja aadressi korduvkasutamine. Selline ennustus on üsna tähelepanuväärne, sest need kaks heuristikat on tänaseni kõige kasulikumad plokiahela analüüsis.
+![BTC204](assets/fr/059.webp)
 
-Näitena on siin üks tehing, mille puhul me saame tõenäoliselt kohaldada IOCHi:
+Teisest küljest, kui tehing ei sobi ühtegi teadaolevasse ühistehingu mudelisse, siis võime tõlgendada, et kõik sisendid pärinevad tõenäoliselt samalt üksuselt. See võib olla väga kasulik juba teadaoleva klastri laiendamiseks või jälgede jätkamiseks.
+
+![BTC204](assets/fr/060.webp)
+
+CIOH avastas Satoshi Nakamoto. Ta räägib sellest valge raamatu 10. osas:
+
+"_[...] seostamine on vältimatu mitme kirjega tehingute puhul, mis ilmselgelt näitavad, et nende kirjed olid ühe ja sama omaniku käes. Oht on see, et kui võtme omanik paljastub, võivad lingid paljastada teised tehingud, mis kuulusid samale omanikule._"
+
+![BTC204](assets/fr/061.webp)
+
+Eriti põnev on märkida, et Satoshi Nakamoto oli juba enne Bitcoini ametlikku käivitamist tuvastanud kasutajate jaoks kaks peamist privaatsuse haavatavust, nimelt CIOH ja aadressi taaskasutamine. Selline ettenägelikkus on üsna tähelepanuväärne, sest need kaks heuristikat on ka praegu plokiahela analüüsis kõige kasulikumad.
+
+Näitena on siin üks tehing, mille puhul me saame tõenäoliselt kohaldada CIOHi:
 
 ```plaintext
 20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712
 ```
 
-Fonte: [Mempool.space](https://mempool.space/tx/20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712)
+![BTC204](assets/fr/062.webp)
 
-### Offchain andmed
+Source : [Mempool.space](https://mempool.space/tx/20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712)
 
-Loomulikult ei piirdu ahelasisene analüüs ainult ahelasisestele andmetele. Analüüsi täpsustamiseks võib kasutada ka varasematest analüüsidest saadud või Internetis kättesaadavaid andmeid.
+### Ahelavälised andmed
 
-Näiteks kui täheldatakse, et jälgitavad tehingud edastatakse süstemaatiliselt samast Bitcoini sõlme ja selle IP-aadressi saab tuvastada, võib olla võimalik tuvastada teisi sama üksuse tehinguid ning määrata kindlaks osa saatja identiteedist. Kuigi seda praktikat ei ole lihtne teostada, kuna see nõuab paljude sõlmede toimimist, on võimalik, et mõned ahelate analüüsile spetsialiseerunud ettevõtted kasutavad seda.
+Loomulikult ei piirdu ahelate analüüs ainult ahelate andmetega. Analüüsi täpsustamiseks võib kasutada ka mis tahes andmeid, mis pärinevad varasemast analüüsist või on kättesaadavad Internetis.
 
-Analüütikul on ka võimalus tugineda varem avaldatud analüüsidele või oma varasematele analüüsidele. Võib-olla võib leida väljundi, mis viitab juba tuvastatud aadressiklastrile. Mõnikord on võimalik tugineda ka väljundile, mis osutab vahetusplatvormile, mille aadressid on üldiselt teada.
+Näiteks kui me täheldame, et jälgitavad tehingud edastatakse süstemaatiliselt samast Bitcoini sõlme ja meil õnnestub tuvastada selle IP-aadress, siis võime tuvastada teisi sama üksuse tehinguid ning määrata kindlaks osa emitendi identiteedist. Kuigi see praktika ei ole kergesti saavutatav, kuna see nõuab paljude sõlmede toimimist, võivad seda kasutada mõned plokiahela analüüsile spetsialiseerunud ettevõtted.
 
-Samamoodi võib teha analüüsi kõrvaldamise teel. Näiteks kui kahe väljundiga tehingu analüüsimisel on üks neist seotud juba teadaoleva, kuid jälgitavast üksusest erineva aadressikogumiga, siis võib tõlgendada, et teine väljund esindab tõenäoliselt ülejäänud üksust.
+Analüütikul on ka võimalus tugineda varem avaldatud analüüsidele või oma varasematele analüüsidele. Võib-olla leiame tulemuse, mis viitab juba tuvastatud aadresside klastrile. Mõnikord on võimalik tugineda ka väljunditele, mis osutavad vahetusplatvormile, sest nende ettevõtete aadressid on üldiselt teada.
 
-Ahelanalüüs hõlmab ka OSINT (_Open Source Intelligence_) osa, mis on veidi üldisemalt seotud internetiotsingutega. Seetõttu ei ole soovitatav otse sotsiaalmeedias või veebilehel pseudonüümi all või ilma pseudonüümita saamisaadresside avaldamine.
+Samamoodi saab teha analüüsi kõrvaldamise teel. Näiteks kui kahe väljundiga tehingu analüüsimisel on üks neist seotud juba teadaoleva, kuid meie poolt jälgitavast üksusest erineva aadressiklastriga, siis võime tõlgendada, et teine väljund esindab tõenäoliselt vahetust.
+
+Kanalite analüüs hõlmab ka veidi üldisemat OSINT (*Open Source Intelligence*) komponenti, mis hõlmab internetiotsinguid. Seetõttu soovitame mitte avaldada otse sotsiaalvõrgustikes või veebisaidil pseudonüümseid või mitte pseudonüümseid aadresse.
 
 ![BTC204](assets/fr/063.webp)
 
-### Ajalised mustrid
+### Ajalised mudelid
 
-Seda võetakse vähem arvesse, kuid teatud inimkäitumised on ahelas äratuntavad. Kõige kasulikum analüüsis võib olla teie magamisviis! Jah, kui sa magad, siis sa eeldatavasti ei edasta Bitcoini tehinguid. Kuna te üldiselt magate samadel aegadel, siis on ahelasiseses analüüsis tavaline kasutada ajalist analüüsi. See tähendab lihtsalt seda, et katalogiseeritakse ajad, mil konkreetse üksuse tehinguid Bitcoini võrku edastatakse. Nende ajaliste mustrite analüüsimine võimaldab palju teavet tuletada.
+Me mõtleme sellele vähem, kuid teatud inimkäitumised on äratuntavad onchain. Võib-olla kõige kasulikum analüüsis on teie unemustrid! Jah, kui sa magad, siis sa ei edasta Bitcoini tehinguid. Kuid üldiselt magate te enam-vähem samal ajal. Seepärast ongi plokiahela analüüsis levinud praktika kasutada ajalist analüüsi. Lihtsalt öeldes on see loendus, millal konkreetse üksuse tehinguid Bitcoini võrku edastatakse. Neid ajalisi mustreid analüüsides saame tuletada hulgaliselt teavet.
 
-Kõigepealt tuvastab ajaline analüüs mõnikord jälgitava üksuse olemuse olemuse. Kui täheldatakse, et tehinguid edastatakse järjepidevalt 24 tunni jooksul, siis näitab see tugevat majandustegevust. Nende tehingute taga olev üksus on tõenäoliselt ettevõte, mis võib olla rahvusvaheline ja millel on võib-olla ettevõttesiseselt automatiseeritud menetlused.
+Kõigepealt võib ajaline analüüs mõnikord tuvastada jälgitava üksuse olemuse olemuse. Kui me täheldame, et tehinguid edastatakse järjepidevalt 24 tunni jooksul, siis reedab see suurt majandustegevust. Nende tehingute taga olev üksus on tõenäoliselt ettevõte, mis võib olla rahvusvaheline ja millel on võib-olla automatiseeritud sisemised menetlused.
 
-Näiteks [olin selle mustri ära tundnud paar kuud tagasi](https://twitter.com/Loic_Pandul/status/1701127409712452072), analüüsides [tehingut, mille puhul oli ekslikult eraldatud 19 bitcoin'i tasud](https://mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Lihtne ajaline analüüs oli võimaldanud mul oletada, et tegemist on automatiseeritud teenusega ja seega tõenäoliselt suure üksusega, näiteks vahetusplatvormiga.
+Näiteks [ma tundsin selle mustri ära paar kuud tagasi](https://twitter.com/Loic_Pandul/status/1701127409712452072), kui analüüsisin [tehingut, mille puhul oli ekslikult eraldatud 19 bitcoin'i tasu](https://mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Lihtne ajaline analüüs võimaldas mul oletada, et tegemist on automatiseeritud teenusega ja seega tõenäoliselt suure üksusega, näiteks vahetusplatvormiga.
 
-Tegelikult selgus paar päeva hiljem, et raha kuulus Paxose vahetusplatvormi kaudu PayPalile.
+Mõni päev hiljem selgus, et raha kuulus Paxose vahetusplatvormi kaudu PayPalile.
 
-Seevastu kui näeme, et ajamuster on pigem jaotunud 16 väga konkreetse tunni peale, siis võime hinnata, et tegemist on üksiku kasutajaga või ehk kohaliku ettevõttega, sõltuvalt kaubeldavatest mahtudest.
+Vastupidi, kui me näeme, et ajaline muster on pigem jaotunud 16 konkreetse tunni peale, siis võime hinnata, et tegemist on üksiku kasutajaga või ehk kohaliku ettevõttega, sõltuvalt vahetatud mahtudest.
 
-Lisaks vaadeldava üksuse olemusele võib ajaline mudel anda meile ka kasutaja ligikaudse asukoha ajavööndite kaudu. Seejärel saame seostada teisi tehinguid ja kasutada nende ajatemplite abil täiendavaid heuristilisi andmeid, mida saab meie analüüsile lisada.
+Lisaks vaadeldava üksuse olemusele võib ajaline muster tänu ajavöönditele öelda meile ka kasutaja ligikaudse asukoha. Sel viisil saame sobitada teisi tehinguid ja kasutada nende ajatemplina täiendavat heuristikat, mida saab meie analüüsi lisada.
 
-Näiteks eespool mainitud korduvkasutatava aadressi puhul võime täheldada, et nii sissetulevad kui ka väljaminevad tehingud on koondunud 13-tunnisele ajavahemikule.
+Näiteks eespool mainitud mitmekordselt kasutataval aadressil näeme, et nii sissetulevad kui ka väljaminevad tehingud on koondunud 13-tunnisele ajavahemikule.
 
 ```plaintext
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
@@ -659,69 +738,71 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 
 ![BTC204](assets/fr/064.webp)
 
-Allikas: OXT.me
+Allikas : OXT.me
 
-See vahemik vastab tõenäoliselt Euroopale, Aafrikale või Lähis-Idale. Seega võime järeldada, et nende tehingute taga olev kasutaja elab seal.
+See vahemik vastab tõenäoliselt Euroopale, Aafrikale või Lähis-Idale. Seega võime eeldada, et nende tehingute taga olev kasutaja elab nendes piirkondades.
 
-Erinevas registris on ka selline ajaanalüüs, mis võimaldas oletada, et Satoshi Nakamoto ei tegutsenud mitte Jaapanist, vaid tegelikult Ameerika Ühendriikidest: [_The time-zones of Satoshi Nakamoto_](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f)
+Erinevalt sellest viis selline ajaanalüüs ka hüpoteesini, et Satoshi Nakamoto ei tegutsenud Jaapanist, vaid USA-st: [*The Time Zones of Satoshi Nakamoto*](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f)
 
-## Praktiline rakendus koos Block Exploreriga
+## Selle rakendamine praktikas koos plokkide uurijaga
 
 <chapterId>6493cf2f-225c-405f-9375-c4304f1087ed</chapterId>
 
-Selles viimases peatükis hakkame seni õpitud mõisteid konkreetselt rakendama. Esitan näiteid reaalsetest Bitcoini tehingutest ja teil tuleb minu poolt küsitud teave välja võtta.
+Selles viimases peatükis rakendame seni õpitud mõisteid praktikas. Näitan teile näiteid reaalsetest Bitcoini tehingutest ja teil tuleb minu poolt küsitud teave välja võtta.
 
-Ideaaljuhul oleks nende harjutuste puhul soovitav kasutada professionaalset ahelaanalüüsi vahendit. Kuid pärast Samourai rahakoti loojate tegevuse lõpetamist ei ole ainus tasuta analüüsivahend OXT.me enam kättesaadav. Seetõttu valime nende harjutuste jaoks klassikalise plokkide uurija. Soovitan kasutada [Mempool.space](https://mempool.space/) selle paljude funktsioonide ja ahelate analüüsitööriistade valiku tõttu, kuid võite valida ka mõne muu exploreri, näiteks [Bitcoin Explorer](https://bitcoinexplorer.org/). Alustuseks tutvustan harjutusi. Kasutage nende täitmiseks oma plokkide ekspluateerija ja kirjutage oma vastused paberile. Seejärel annan selle peatüki lõpus vastused, et saaksite oma tulemusi kontrollida ja parandada.
+Ideaaljuhul oleks nende ülesannete täitmiseks soovitav kasutada professionaalset ahelaanalüüsi vahendit. Kuid pärast Samourai rahakoti loojate arreteerimist ei ole ainus tasuta analüüsivahend OXT.me enam kättesaadav. Seetõttu valime nende harjutuste jaoks klassikalise plokkide uurimise tööriista. Soovitan kasutada [Mempool.space](https://mempool.space/) selle paljude funktsioonide ja ahelate analüüsitööriistade valiku tõttu, kuid võite valida ka mõne teise exploreri, näiteks [Bitcoin Explorer](https://bitcoinexplorer.org/).
 
-_Tehingud, mis valiti nende jaoks välja, valiti üksnes nende omaduste tõttu mõnevõrra juhuslikult. See peatükk on mõeldud ainult hariduslikel ja informatiivsetel eesmärkidel. Tahan selgeks teha, et ma ei propageeri ega julgusta nende vahendite kasutamist pahatahtlikel eesmärkidel. Eesmärk on õpetada teid, kuidas kaitsta end ahelanalüüsi eest, mitte viia läbi analüüsi, et paljastada teiste inimeste privaatset teavet _
+Alustuseks tutvustan teile harjutusi. Kasutage nende täitmiseks oma plokkide uurijat ja kirjutage oma vastused paberilehele. Seejärel annan teile selle peatüki lõpus vastused, et saaksite oma tulemusi kontrollida ja parandada.
+
+*Nendeks tehinguteks valitud tehingud on valitud puhtalt nende omaduste alusel mõnevõrra juhuslikult. Käesolev peatükk on mõeldud üksnes õppe- ja informatiivsetel eesmärkidel. Soovin selgeks teha, et ma ei toeta ega julgusta nende vahendite kasutamist pahatahtlikel eesmärkidel. Eesmärgiks on õpetada teid, kuidas kaitsta end stringianalüüsi eest, mitte teostada analüüsi teiste inimeste privaatse teabe paljastamiseks.*
 
 ### Harjutus 1
 
-Analüüsitava tehingu ID:
+Analüüsitava tehingu identifikaator :
 
 ```plaintext
 3769d3b124e47ef4ffb5b52d11df64b0a3f0b82bb10fd6b98c0fd5111789bef7
 ```
 
-Milline on selle tehingu mudelinimi ja milliseid usutavaid tõlgendusi saab teha, kui uurida ainult selle mudelit, st tehingu struktuuri?
+Kuidas nimetatakse selle tehingu mudelit ja milliseid usutavaid tõlgendusi saab teha, kui uurida ainult selle mudelit, st tehingu struktuuri?
 
 ### Harjutus 2
 
-Analüüsitava tehingu ID:
+Analüüsitava tehingu identifikaator :
 
 ```plaintext
 baa228f6859ca63e6b8eea24ffad7e871713749d693ebd85343859173b8d5c20
 ```
 
-Milline on selle tehingu mudelinimi ja milliseid usutavaid tõlgendusi saab teha, kui uurida ainult selle mudelit, st tehingu struktuuri?
+Kuidas nimetatakse selle tehingu mudelit ja milliseid usutavaid tõlgendusi saab teha, kui uurida ainult selle mudelit, st tehingu struktuuri?
 
 ### Harjutus 3
 
-Analüüsitava tehingu ID:
+Analüüsitava tehingu identifikaator :
 
 ```plaintext
 3a9eb9ccc3517cc25d1860924c66109262a4b68f4ed2d847f079b084da0cd32b
 ```
 
-Milline on selle tehingu muster?
+Milline on selle tehingu mudel?
 
-Pärast selle mudeli tuvastamist, kasutades tehingu sisemist heuristikat, millist väljundit esindab tõenäoliselt ülejäänud?
+Pärast selle mudeli tuvastamist, kasutades tehingu sisemist heuristikat, millist väljundit see vahetus tõenäoliselt esindab?
 
 ### Harjutus 4
 
-Analüüsitava tehingu ID:
+Analüüsitava tehingu identifikaator :
 
 ```plaintext
 35f0b31c05503ebfdf7311df47f68a048e992e5cf4c97ec34aa2833cc0122a12
 ```
 
-Milline on selle tehingu muster?
+Milline on selle tehingu mudel?
 
-Pärast selle mudeli tuvastamist, kasutades tehingu sisemist heuristikat, millist väljundit esindab tõenäoliselt ülejäänud?
+Pärast selle mudeli tuvastamist, kasutades tehingu sisemist heuristikat, millist väljundit see vahetus tõenäoliselt esindab?
 
 ### Harjutus 5
 
-Kujutage ette, et Loïc postitas ühe oma Bitcoini aadressi, et saada makseid sotsiaalvõrgustikus Twitter:
+Kujutame ette, et Loïc on postitanud ühe oma Bitcoini vastuvõtu aadressi sotsiaalvõrgustikus Twitter :
 
 ![BTC204](assets/fr/065.webp)
 
@@ -729,19 +810,25 @@ Kujutage ette, et Loïc postitas ühe oma Bitcoini aadressi, et saada makseid so
 bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
-Kasutades **ainult aadressi taaskasutamise heuristikat**, milliseid Bitcoini tehinguid saame seostada Loïci identiteediga?
+Milliseid Bitcoini tehinguid saab selle teabe põhjal ja kasutades **ainult aadressi taaskasutamise heuristikat** seostada Loïci identiteediga?
 
-_Se on selge, et ma ei ole selle vastuvõtuaadressi tegelik omanik ja ma ei ole seda sotsiaalmeedias avaldanud. See on aadress, mille ma valisin juhuslikult plokiahelast._
+*Ilmselt ei ole ma selle vastuvõtu aadressi tegelik omanik ja ma ei postitanud seda sotsiaalvõrgustikesse. See on aadress, mille võtsin juhuslikult blockchainist*
 
 ### Harjutus 6
 
-Pärast harjutust 5, kasutades aadressi taaskasutamise heuristikat, suutsite tuvastada mitu Bitcoini tehingut, milles Loïc näib olevat seotud. Tavaliselt oleksite tuvastatavate tehingute hulgast pidanud tuvastama selle ühe:
+Pärast 5. harjutust suutsite tänu aadressi taaskasutamise heuristikale tuvastada mitu Bitcoini tehingut, milles Loïc näib olevat seotud. Tavaliselt oleksite tuvastatud tehingute hulgas pidanud märkama selle tehingu:
 
-See tehing on esimene, mis saadab raha Loïci aadressile. Mis te arvate, kust Loïci poolt selle tehingu kaudu saadud bitcoinid pärinevad?
+```plaintext
+2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
+```
+
+See tehing on esimene, millega saadetakse raha Loïci aadressile. Mis te arvate, kust Loïci poolt selle tehingu kaudu saadud bitcoinid pärinevad?
 
 ### Harjutus 7
 
-Pärast harjutust 5, kasutades aadressi taaskasutamise heuristikat, suutsite tuvastada mitu Bitcoini tehingut, milles Loïc näib olevat seotud. Nüüd soovite teada saada, kust Loïc pärit on. Viige leitud tehingute põhjal läbi ajaanalüüs, et leida Loïci poolt tõenäoliselt kasutatud ajavöönd. Selle ajavööndi põhjal määrake kindlaks asukoht, kus Loïc näib elavat (riik, osariik/piirkond, linn...).
+Pärast 5. harjutust olete tänu aadressi taaskasutamise heuristikale suutnud tuvastada mitu Bitcoini tehingut, milles Loïc näib olevat seotud. Nüüd soovite teada saada, kust Loïc pärit on. Tehke leitud tehingute põhjal ajaanalüüs, et leida ajavöönd, mida Loïc kõige tõenäolisemalt kasutas. Selle ajavööndi põhjal määrake asukoht, kus Loïc näib elavat (riik, osariik/piirkond, linn...).
+
+![BTC204](assets/fr/066.webp)
 
 ### Harjutus 8
 
@@ -753,33 +840,33 @@ bb346dae645d09d32ed6eca1391d2ee97c57e11b4c31ae4325bcffdec40afd4f
 
 Kui vaadata ainult seda tehingut, siis millist teavet saame tõlgendada?
 
-### Harjutuste lahendused
+### Harjutuslahendused
 
-**_Harjutus 1:_**
+***Harjutus 1:***
 
-Selle tehingu mudel on lihtne makse. Kui me uurime ainult selle struktuuri, saame tõlgendada, et üks väljund kujutab muutust ja teine väljund kujutab tegelikku makset. Siis teame, et vaadeldav kasutaja ei oma tõenäoliselt enam ühte väljundite kahest UTXOst (makset tähistavat), kuid teine UTXO (muutust tähistav) on endiselt tema valduses.
+Selle tehingu mudel on lihtne maksemudel. Kui me uurime ainult selle struktuuri, saame tõlgendada, et üks väljund kujutab endast vahetust ja teine väljund tegelikku makset. Seega teame, et vaadeldav kasutaja ei oma tõenäoliselt enam ühte kahest UTXO-st väljundis (makse), kuid omab endiselt teist UTXO-d (vahetus).
 
-**_Harjutus 2:_**
+***Harjutus 2:***
 
-Selle tehingu puhul on tegemist partiide kaupa tehtavate kulutustega. See muster viitab tõenäoliselt olulisele majandustegevusele, näiteks vahetusplatvormile. Me võime järeldada, et sisendiks olev UTXO pärineb märkimisväärse majandustegevusega ettevõttest ja et väljundiks olev UTXO hajub. Osa neist kuulub ettevõtte klientidele, kes on oma bitcoinid välja võtnud isehoidvatesse rahakottidesse. Teised võivad minna partnerettevõtetele. Lõpuks jääb kindlasti ka ülejäänu, mis naaseb väljaandnud ettevõttele.
+Selle tehingu puhul on tegemist rühmitatud kulutuste mudeliga. See mudel näitab tõenäoliselt laiaulatuslikku majandustegevust, näiteks vahetusplatvormi. Me võime järeldada, et sisend UTXO pärineb suure majandustegevusega ettevõttest ja et väljund UTXO on hajutatud. Osa neist kuulub ettevõtte klientidele, kes on oma bitcoinid välja võtnud isehoidvatesse rahakottidesse. Teised võivad minna partnerettevõtetele. Lõpuks on kahtlemata ka mõned vahetused, mis lähevad tagasi emiteerivale ettevõttele.
 
-**_Harjutus 3:_**
+***Harjutus 3:***
 
-Selle tehingu mudel on lihtne makse. Seetõttu võime kohaldada tehingu suhtes sisemist heuristikat, et püüda tuvastada ülejäänu.
+Selle tehingu mudel on lihtne makse. Seetõttu võime kohaldada tehingu suhtes sisemist heuristikat, et püüda tuvastada vahetust.
 
-Mina isiklikult olen tuvastanud vähemalt kaks sisemist heuristikat, mis toetavad sama hüpoteesi:
+Olen isiklikult tuvastanud vähemalt kaks sisemist heuristikat, mis toetavad sama hüpoteesi:
 
 
-- Sama tüüpi käsikirja taaskasutamine;
-- Suurim toodang.
+- Sama tüüpi käsikirja korduvkasutamine ;
+- Suurim väljund.
 
-Kõige ilmsem heuristika on sama tüüpi skriptide korduvkasutamine. Tegelikult on väljund `0` on `P2SH`, mis on äratuntav selle vastuvõtuaadressi järgi, mis algab `3`-ga:
+Kõige ilmsem heuristika on sama tüüpi skriptide korduvkasutamine. Tõepoolest, väljund `0` on `P2SH`, mis on äratuntav selle vastuvõtuaadressi järgi, mis algab numbriga `3` :
 
 ```plaintext
 3Lcdauq6eqCWwQ3UzgNb4cu9bs88sz3mKD
 ```
 
-Samas kui väljund `1` on `P2WPKH`, mis on identifitseeritav selle aadressi järgi, mis algab `bc1q`:
+Samas kui väljund "1" on "P2WPKH", mis on identifitseeritav selle aadressi järgi, mis algab "bc1q" :
 
 ```plaintext
 bc1qya6sw6sta0mfr698n9jpd3j3nrkltdtwvelywa
@@ -791,31 +878,31 @@ UTXO, mida kasutatakse selle tehingu sisendina, kasutab samuti skripti `P2WPKH`:
 bc1qyfuytw8pcvg5vx37kkgwjspg73rpt56l5mx89k
 ```
 
-Seega võime eeldada, et väljund `0` vastab maksele ja väljund `1` on ülejäänud tehing, mis tähendab, et väljund `1` kuulub endiselt sisendkasutajale.
+Seega võime eeldada, et väljund `0` vastab maksele ja väljund `1` on tehinguvahetus, mis tähendab, et väljund `1` kuulub alati sisendkasutajale.
 
-Selle hüpoteesi toetamiseks või ümberlükkamiseks võime otsida teisi heuristilisi tunnuseid, mis kinnitavad meie mõtlemist või vähendavad tõenäosust, et meie hüpotees on õige.
+Selle hüpoteesi toetamiseks või ümberlükkamiseks võime otsida teisi heuristilisi tunnuseid, mis kas kinnitavad meie mõtlemist või vähendavad tõenäosust, et meie hüpotees on õige.
 
-Olen tuvastanud vähemalt ühe teise heuristliku elemendi. See on suurim väljund. Väljund "0" mõõdab "123,689 sats", samas kui "1" väljund mõõdab "505,839 sats". Seega on nende kahe väljundi vahel märkimisväärne erinevus. Suurema väljundi heuristika näitab, et mahukam väljund on tõenäoliselt ülejäänu. See heuristika tugevdab seega veelgi meie esialgset hüpoteesi.
+Ma olen tuvastanud vähemalt ühe teise heuristliku näitaja. See on suurim väljundheuristika. Väljund "0" mõõdab "123,689 sats", samas kui väljund "1" mõõdab "505,839 sats". Seega on nende kahe väljundi vahel märkimisväärne erinevus. Suurima väljundi heuristika näitab, et suurim väljund on tõenäoliselt välisvaluuta. See heuristika tugevdab veelgi meie esialgset hüpoteesi.
 
-Tundub tõenäoline, et kasutaja, kes andis sisendi UTXO, omab endiselt väljundit `1`, mis näib esindavat ülejäänud tehingut.
+Seetõttu tundub tõenäoline, et UTXO sisendiks andnud kasutajal on endiselt käes väljund "1", mis näib kehastavat tehingu vahetust.
 
-**_Harjutus 4:_**
+***Harjutus 4:***
 
-Selle tehingu mudel on lihtne makse. Seetõttu võime kohaldada tehingu suhtes sisemist heuristikat, et püüda tuvastada ülejäänu.
+Selle tehingu mudel on lihtne makse. Seetõttu võime kohaldada tehingu suhtes sisemist heuristikat, et püüda tuvastada vahetust.
 
 Olen isiklikult tuvastanud vähemalt kaks sisemist heuristikat, mis toetavad sama hüpoteesi:
 
 
-- Sama tüüpi käsikirja taaskasutamine;
-- Ümmarguse summa väljund.
+- Sama tüüpi käsikirja korduvkasutamine ;
+- Ümmarguse posti väljund.
 
-Kõige ilmsem heuristika on sama tüüpi skriptide korduvkasutamine. Tegelikult on väljund `0` on `P2SH`, mis on äratuntav selle vastuvõtuaadressi järgi, mis algab `3`-ga:
+Kõige ilmsem heuristika on sama tüüpi skriptide korduvkasutamine. Tõepoolest, väljund `0` on `P2SH`, mis on äratuntav selle vastuvõtuaadressi järgi, mis algab numbriga `3` :
 
 ```plaintext
 3FSH5Mnq6S5FyQoKR9Yjakk3X4KCGxeaD4
 ```
 
-Samas kui väljund `1` on `P2WPKH`, mis on identifitseeritav selle aadressi järgi, mis algab `bc1q`:
+Samas kui väljund "1" on "P2WPKH", mis on identifitseeritav selle aadressi järgi, mis algab "bc1q" :
 
 ```plaintext
 bc1qvdywdcfsyavt4v8uxmmrdt6meu4vgeg439n7sg
@@ -827,17 +914,17 @@ UTXO, mida kasutatakse selle tehingu sisendina, kasutab samuti skripti `P2WPKH`:
 bc1qku3f2y294h3ks5eusv63dslcua2xnlzxx0k6kp
 ```
 
-Seega võime eeldada, et väljund "0" vastab maksele ja väljund "1" on ülejäänud tehing, mis tähendab, et sisendkasutajal on endiselt väljund "1".
+Seega võime eeldada, et väljund `0` vastab maksele ja väljund `1` on tehinguvahetus, mis tähendab, et väljund `1` kuulub alati sisendkasutajale.
 
-Selle hüpoteesi toetamiseks või ümberlükkamiseks võime otsida teisi heuristilisi tunnuseid, mis kinnitavad meie mõtlemist või vähendavad tõenäosust, et meie hüpotees on õige.
+Selle hüpoteesi toetamiseks või ümberlükkamiseks võime otsida teisi heuristilisi tunnuseid, mis kas kinnitavad meie mõtlemist või vähendavad tõenäosust, et meie hüpotees on õige.
 
-Olen tuvastanud vähemalt ühe teise heuristliku elemendi. See on ümmarguse summa väljund. Väljund `0` mõõdab `70,000 sats`, samas kui väljund `1` mõõdab `22,962 sats`. Seega on tegemist täiesti ümmarguse väljundiga BTC arvestusühikutes. Ümmarguse väljundi heuristika näitab, et UTXO ühe ümmarguse summaga on tõenäoliselt makse, ja kõrvaldamise teel kujutab teine summa ülejäänud summat. See heuristika tugevdab seega veelgi meie esialgset hüpoteesi.
+Ma olen tuvastanud vähemalt ühe teise heuristliku näitaja. See on ümmarguse summa väljund. Väljund `0` mõõdab `70,000 sats`, samas kui väljund `1` mõõdab `22,962 sats`. Seega on meil täiesti ümmargune väljund BTC arvestusühikus. Ümmarguse väljundi heuristika näitab, et ümmarguse summaga UTXO on kõige tõenäolisemalt see, mis on makse, ja et kõrvaldamise teel esindab teine summa vahetust. See heuristika tugevdab veelgi meie esialgset hüpoteesi.
 
-Selle näite puhul võib aga veel üks heuristika meie esialgse eelduse kahtluse alla seada. Tegelikult on väljund "0" suurem kui väljund "1". Kui me lähtume heuristikast, et suurim väljund on tavaliselt jääk, võime järeldada, et väljund `0` on jääk. See vastuhüpotees tundub aga ebatõenäoline, kuna kaks muud heuristikat tunduvad oluliselt veenvamad kui suurima väljundi heuristika. Järelikult tundub mõistlik säilitada meie esialgne hüpotees vaatamata sellele ilmsele vastuolule.
+Selle näite puhul võib aga veel üks heuristika meie esialgse hüpoteesi kahtluse alla seada. Tõepoolest, väljund "0" on suurem kui väljund "1". Tuginedes heuristikale, et suurim väljund on tavaliselt välisvaluuta, võiksime järeldada, et väljund `0` on välisvaluuta. See vastuhüpotees tundub siiski ebatõenäoline, kuna kaks muud heuristikat tunduvad oluliselt veenvamad kui suurima toodangu heuristika. Järelikult tundub mõistlik säilitada meie esialgne hüpotees vaatamata sellele ilmsele vastuolule.
 
-Seetõttu tundub tõenäoline, et UTXO sisendiks andnud kasutaja käes on endiselt väljund "1", mis näib kujutavat endast ülejäänud tehingu osa.
+Seetõttu tundub tõenäoline, et UTXO sisendiks andnud kasutajal on endiselt käes väljund "1", mis näib kehastavat tehingu vahetust.
 
-**_Harjutus 5:_**
+***Harjutus 5:***
 
 Näeme, et Loïci identiteediga saab seostada 8 tehingut. Neist 4 on seotud bitcoinide vastuvõtmisega:
 
@@ -848,7 +935,7 @@ d5864ea93e7a8db9d3fb113651d2131567e284e868021e114a67c3f5fb616ac4
 bc4dcf2200c88ac1f976b8c9018ce70f9007e949435841fc5681fd33308dd762
 ```
 
-Teised 4 on bitcoinide saatmise kohta:
+Ülejäänud 4 puudutavad bitcoini saadetisi:
 
 ```plaintext
 8b52fe3c2cf8bef60828399d1c776c0e9e99e7aaeeff721fff70f4b68145d540
@@ -857,11 +944,11 @@ a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
 3aeb7ce02c35eaecccc0a97a771d92c3e65e86bedff42a8185edd12ce89d89cc
 ```
 
-**_Harjutus 6:_**
+***Harjutus 6:***
 
-Kui me uurime selle tehingu mustrit, siis on ilmne, et tegemist on grupiviisiliste kuludega. Tegelikult on tehingul üks sisend ja 51 väljundit, mis viitab märkimisväärsele majandustegevusele. Seega võime oletada, et Loïc tegi bitcoini väljavõtte vahetusplatvormilt.
+Kui me vaatame selle tehingu mudelit, siis on selge, et tegemist on komplekssete kuludega. Tõepoolest, tehingul on üks sisend ja 51 väljundit, mis näitab suurt majandustegevust. Seega võime oletada, et Loïc on võtnud bitcoine välja vahetusplatvormilt.
 
-Seda hüpoteesi kinnitavad mitmed elemendid. Esiteks on UTXO sisendi kaitsmiseks kasutatav skript tüüp P2SH multisig 2/3 skript, mis viitab vahetusplatvormidele iseloomulikule kõrgetasemelisele turvalisusele:
+Seda hüpoteesi kinnitavad mitmed tegurid. Esiteks on UTXO sisendi turvamiseks kasutatud skript tüüp P2SH 2/3 multisig skript, mis viitab vahetusplatvormidele iseloomulikule kõrgetasemelisele turvalisusele:
 
 ```plaintext
 OP_PUSHNUM_2
@@ -872,13 +959,15 @@ OP_PUSHNUM_3
 OP_CHECKMULTISIG
 ```
 
-Lisaks kasutati analüüsitud aadressi `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` enam kui 220 000 erinevas tehingus, mis on sageli iseloomulik vahetusplatvormidele, mis üldiselt ei hooli oma privaatsusest. Selle aadressi suhtes kohaldatud ajaline heuristika näitab samuti tehingute regulaarset levikut peaaegu iga päev kolme kuu jooksul, kusjuures pikemad tunnid on üle 24 tunni, mis viitab vahetusplatvormi pidevale tegevusele.
+Veelgi enam, uuritud aadressi `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` kasutatakse uuesti üle 220 000 erineva tehingu puhul, mis on sageli iseloomulik vahetusplatvormidele, mis üldiselt ei hooli nende konfidentsiaalsusest.
 
-Lõpuks on selle üksuse poolt töödeldavad mahud tohutud. Tegelikult sai ja saatis aadress 2022. aasta detsembrist kuni 2023. aasta märtsini 222 262 tehingu jooksul 44 BTC. Need märkimisväärsed mahud kinnitavad veelgi vahetusplatvormi tegevuse tõenäolist olemust.
+Selle aadressi suhtes kohaldatud ajaline heuristika näitab samuti tehingute regulaarset ülekandmist peaaegu iga päev kolme kuu jooksul, pikema aja jooksul üle 24 tunni, mis viitab vahetusplatvormi pidevale tegevusele.
 
-**_Harjutus 7:_**
+Lõpuks, selle üksuse poolt käideldavad mahud on kolossaalsed. See aadress sai ja saatis 2022. aasta detsembrist kuni 2023. aasta märtsini 222 262 tehinguga 44 BTC. Need suured mahud kinnitavad veelgi vahetusplatvormi tegevuse tõenäolist olemust.
 
-Analüüsides tehingu kinnitamise aega, on näha järgmised UTC-ajad:
+***Harjutus 7:***
+
+Analüüsides tehingu kinnitamise aega, saab tuvastada järgmised UTC-ajad:
 
 ```plaintext
 05:43
@@ -891,7 +980,7 @@ Analüüsides tehingu kinnitamise aega, on näha järgmised UTC-ajad:
 21:55
 ```
 
-Neid kellaaegu analüüsides selgub, et UTC-7 ja UTC-8 ajavööndid on enamiku aegade puhul kooskõlas tavaliste inimtegevuste vahemikuga (vahemikus 8.00-23.00):
+Nende ajakavade analüüs näitab, et UTC-7 ja UTC-8 on enamiku ajakavade puhul kooskõlas praeguse inimtegevuse vahemikuga (vahemikus 08:00-23:00):
 
 ```plaintext
 05:43 UTC > 22:43 UTC-7
@@ -912,62 +1001,67 @@ Neid kellaaegu analüüsides selgub, et UTC-7 ja UTC-8 ajavööndid on enamiku a
 21:55 UTC > 13:55 UTC-8
 ```
 
-UTC-7 ajavöönd on eriti oluline suvel, kuna see hõlmab selliseid riike ja piirkondi nagu:
+![BTC204](assets/fr/066.webp)
+
+UTC-7 ajavöönd on eriti oluline suvel, kuna see hõlmab selliseid riike ja piirkondi nagu :
 
 
 - California (sellised linnad nagu Los Angeles, San Francisco ja San Diego);
-- Nevada (koos Las Vegasiga);
-- Oregon (koos Portlandiga);
-- Washington (koos Seattle'iga);
+- Nevada (koos Las Vegasiga) ;
+- Oregon (koos Portlandiga) ;
+- Washington (koos Seattle'iga) ;
 - Kanada piirkond British Columbia (kus asuvad sellised linnad nagu Vancouver ja Victoria).
 
-Selle teabe põhjal võib oletada, et Loïc võib elada Ameerika Ühendriikide läänerannikul või Kanadas.
+Selle teabe põhjal võib oletada, et Loïc elab tõenäoliselt Ameerika Ühendriikide läänerannikul või Kanadas.
 
-**_Harjutus 8:_**
+***Harjutus 8:***
 
-Selle tehingu analüüs näitab 5 sisendit ja ühte väljundit, mis näib viitavat konsolideerimisele. CIOH heuristika rakendamine näitab, et kõik sisendite UTXOd kuuluvad ühele üksusele ja et ka väljundis olev UTXO kuulub sellele üksusele. Tundub, et kasutaja otsustas koondada mitu talle kuuluvat UTXOd üheks UTXOks väljundis, eesmärgiga konsolideerida oma münte. Seda lähenemisviisi ajendas tõenäoliselt soov kasutada ära praeguseid madalaid tehingutasusid, et vähendada tulevasi tasusid.
+Selle tehingu analüüs näitab 5 sisendit ja ühte väljundit, mis viitab konsolideerimisele. Rakendades CIOH heuristikat, võime eeldada, et kõik sisendtarbed UTXOd kuuluvad ühele üksusele ja et ka väljundtarbed UTXO kuulub sellele üksusele. Tundub, et kasutaja otsustas koondada mitu talle kuuluvat UTXO-d, et moodustada väljundis üks UTXO, eesmärgiga konsolideerida oma osad. Seda sammu ajendas tõenäoliselt soov kasutada ära tolleaegseid madalaid tehingukulusid, et vähendada tulevasi kulusid.
 
----
-_Käesoleva 3. osa kirjutamisel ahelanalüüsi kohta tuginesin järgmistele allikatele:_
+___
 
-
-- _Nelja artikli seeria pealkirjaga: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), toodetud Samourai rahakoti poolt 2021;_
-- [OXT Research] (https://medium.com/oxt-research) erinevad aruanded, samuti nende tasuta ahelate analüüsi tööriist (mis ei ole praegu pärast Samourai rahakoti asutajate vahistamist enam kättesaadav);_
-- _Üldisemalt pärinevad minu teadmised [@LaurentMT](https://twitter.com/LaurentMT) ja [@ErgoBTC](https://twitter.com/ErgoBTC) erinevatest tweettidest ja sisust;_
-- \_The [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), milles osalesin koos [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene\_\_\_](https://twitter.com/Sosthene___) ja [@LaurentMT](https://twitter.com/LaurentMT).\_
-
-ma soovin tänada nende autoreid, arendajaid ja tootjaid. Tänan ka retsensente, kes parandasid põhjalikult artikli, mis oli selle 3. osa aluseks, ja austasid mind oma asjatundlike nõuannetega:_
+*Selle 3. osa kirjutamiseks ahelanalüüsi kohta kasutasin järgmisi ressursse:*
 
 
-- _[Gilles Cadignan](https://twitter.com/gillesCadignan);_
-- _[Ludovic Lars](https://viresinnumeris.fr/)._
+- Neljast artiklist koosnev seeria pealkirjaga: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), mille on koostanud Samourai Wallet aastal 2021 ;*
+- Erinevad aruanded [OXT Research](https://medium.com/oxt-research), samuti nende tasuta plokiahela analüüsi tööriist (ei ole hetkel enam saadaval pärast Samourai rahakoti asutajate arreteerimist) ;*
+- Laias laastus pärinevad minu teadmised erinevatest tweettidest ja sisust [@LaurentMT](https://twitter.com/LaurentMT) ja [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
+- [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), milles osalesin [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) ja [@LaurentMT](https://twitter.com/LaurentMT) seltskonnas.*
 
-# Parimate tavade omandamine teie eraelu puutumatuse kaitsmiseks
+*Tahaksin tänada nende autoreid, arendajaid ja tootjaid. Tänan ka korrektoreid, kes parandasid hoolikalt artiklit, millel see 3. osa põhineb, ja andsid mulle oma asjatundlikke nõuandeid :*
+
+
+- [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
+- [Ludovic Lars](https://viresinnumeris.fr/)
+
+# Parimate tavade omandamine eraelu puutumatuse kaitsmiseks
 
 <partId>9bd04b63-f1af-4e50-9061-6bc90009df68</partId>
 
-## Aadresside korduvkasutamine
+## Aadressi korduvkasutamine
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
-Olles uurinud meetodeid, mis võivad teie privaatsust Bitcoinis ohustada, uurime nüüd selles kolmandas osas parimaid tavasid, mida saate enda kaitsmiseks kasutusele võtta. Selle osa eesmärk ei ole uurida meetodeid privaatsuse parandamiseks - seda teemat käsitletakse hiljem -, vaid pigem mõista, kuidas Bitcoiniga õigesti suhelda, et säilitada selle loomulikul viisil pakutav privaatsus, ilma et peaks kasutama lisatehnikaid.
+![La confidentialité sur Bitcoin](https://youtu.be/qq_rdiujQTI?feature=shared)
 
-Loomulikult räägime selle kolmanda osa alguses aadressi korduvkasutamisest. See nähtus on peamine oht kasutajate privaatsusele. Seetõttu on see peatükk ilmselt kõige olulisem kogu kursuse jooksul.
+Olles uurinud meetodeid, mis võivad teie Bitcoini konfidentsiaalsust rikkuda, vaatleme nüüd selles kolmandas osas parimaid tavasid, mida enda kaitsmiseks vastu võtta. Selle osa eesmärk ei ole uurida konfidentsiaalsuse parandamise meetodeid - seda teemat käsitletakse hiljem -, vaid pigem mõista, kuidas Bitcoiniga õigesti suhelda, et säilitada selle loomulikul teel pakutav konfidentsiaalsus, ilma et peaks kasutama lisatehnikaid.
+
+Ilmselt räägime selle kolmanda osa alguses aadressi korduvkasutamisest. See nähtus on peamine oht kasutajate konfidentsiaalsusele. See peatükk on kindlasti kogu kursuse kõige olulisem.
 
 ### Mis on vastuvõtuaadress?
 
-Bitcoini vastuvõtuaadress on tähemärgijada või identifikaator, mida kasutatakse bitcoinide vastuvõtmiseks rahakotti.
+Bitcoini vastuvõtuaadress on string või identifikaator, mida kasutatakse bitcoinide vastuvõtmiseks rahakotis.
 
-Tehniliselt ei "võta" bitcoini vastuvõtuaadress sõna otseses mõttes bitcoine vastu, vaid määrab pigem tingimused, mille alusel bitcoine saab kulutada. Täpsemalt öeldes, kui teile saadetakse makse, loob saatja tehing sisendites tarbitud UTXOdest uus UTXO, mis on ette nähtud teie jaoks väljundis. Sellele väljundile rakendatakse skripti, mis määrab, kuidas seda UTXO-d saab hiljem kulutada. Seda skripti nimetatakse "_ScriptPubKey_" või "_Locking Script_" Teie vastuvõtuaadress, täpsemalt selle kasutamiskoormus, on sellesse skripti sisse põimitud. Lihtsustatult ütleb see skript sisuliselt järgmist:
+Tehniliselt ei "võta" Bitcoini vastuvõtuaadress bitcoin'i sõna otseses mõttes vastu, vaid pigem määratleb tingimused, mille alusel bitcoin'e saab kulutada. Konkreetselt öeldes, kui teile saadetakse makse, loob saatja tehing teile väljundina uue UTXO, mille ta on tarbinud UTXO-dest, mida ta on sisendina tarbinud. Sellele väljundile kinnitab ta skripti, mis määrab, kuidas seda UTXO-d saab hiljem kulutada. See skript on tuntud kui "*SkriptPubKey*" või "*Locking Script*". Teie vastuvõtuaadress või täpsemalt selle kasutamiskoormus on integreeritud sellesse skripti. Maaliku keeles öeldes ütleb see skript põhimõtteliselt:
 
-> "_Uue UTXO kulutamiseks tuleb esitada digitaalallkiri, kasutades selle vastuvõtva aadressiga seotud privaatvõtit._"
+> "*Uue UTXO kulutamiseks peate andma digitaalallkirja, kasutades selle vastuvõtuaadressiga seotud privaatvõtit.*"
 ![BTC204](assets/fr/067.webp)
 
-Bitcoini aadressid on erinevat tüüpi sõltuvalt kasutatavast skripti mudelist. Esimesed mudelid, mida tuntakse kui "_Legacy_", hõlmavad `P2PKH` (_Pay-to-PubKey-Hash_) ja `P2SH` (_Pay-to-Script-Hash_) aadresse. P2PKH-aadressid algavad alati numbriga `1` ja P2SH-aadressid numbriga `3`. Kuigi need formaadid on endiselt turvalised, on need nüüdseks vananenud, sest nende puhul on tehingutasud kõrgemad ja need pakuvad vähem privaatsust kui uued standardid.
+Bitcoini aadressid on eri tüüpi, sõltuvalt kasutatavast skriptimudelist. Esimesed mudelid, mida tuntakse kui "Legacy*", hõlmavad `P2PKH` (*Pay-to-PubKey-Hash*) ja `P2SH` (*Pay-to-Script-Hash*) aadresse. P2PKH-aadressid algavad alati numbriga `1` ja P2SH-aadressid numbriga `3`. Kuigi need vormingud on endiselt turvalised, on need nüüdseks vananenud, kuna nendega kaasnevad suuremad tehingukulud ja nad pakuvad vähem konfidentsiaalsust kui uued standardid.
 
-SegWit V0 (`P2WPKH` ja `P2WSH`) ja Taproot / SegWit V1 (`P2TR`) aadressid esindavad kaasaegseid formaate. SegWit-aadressid algavad tähega `bc1q` ja 2021. aastal kasutusele võetud Taproot-aadressid algavad tähega `bc1p`.
+SegWit V0 (`P2WPKH` ja `P2WSH`) ja Taproot / SegWit V1 (`P2TR`) aadressid esindavad kaasaegseid formaate. SegWit-aadressid algavad sõnaga `bc1q` ja 2021. aastal kasutusele võetud Taproot-aadressid algavad sõnaga `bc1p`.
 
-Näiteks siin on Taproot'i vastuvõtu aadress:
+Näiteks siin on Taprooti vastuvõtu aadress:
 
 ```text
 bc1ps5gd2ys8kllz9alpmcwxqegn7kl3elrpnnlegwkm3xpq2h8da07spxwtf5
@@ -975,7 +1069,9 @@ bc1ps5gd2ys8kllz9alpmcwxqegn7kl3elrpnnlegwkm3xpq2h8da07spxwtf5
 
 See, kuidas ScriptPubKey konstrueeritakse, sõltub kasutatavast standardist:
 
-| Script Template | ScriptPubKey || ---------------- | ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
+| ScriptPubKey | Script malli
+
+| ---------------- | ----------------------------------------------------------- |
 
 | P2PKH | OP_DUP OP_HASH160 `<pubKeyHash>` OP_EQUALVERIFY OP_CHECKSIG |
 
@@ -991,402 +1087,464 @@ See, kuidas ScriptPubKey konstrueeritakse, sõltub kasutatavast standardist:
 
 | P2TR | 1 `<pubKey>` |
 
-Mis puutub vastuvõtvate aadresside ehitusse, siis see sõltub samuti valitud skripti mallist:
+Vastuvõtuaadresside konstrueerimine sõltub ka valitud skripti mudelist:
 
 
-- "P2PKH" ja "P2WPKH" aadresside puhul kujutab kasuliku koormuse ehk aadressi tuuma avaliku võtme hash-ühendust;
-- P2SH- ja P2WSH-aadresside puhul kujutab kasulik koormus endast skripti hash'i;
-- Nagu ka "P2TR" aadresside puhul, on kasuliku koormuse puhul tegemist muudetud avaliku võtmega. `P2TR` väljundid kombineerivad _Pay-to-PubKey_ ja _Pay-to-Script_ aspekte. Muudetud avalik võti on klassikalise kulutamise avaliku võtme lisamise tulemus koos "modifikatsiooniga", mis on tuletatud skriptide kogumi Merkle-juurest, mida saab kasutada ka bitcoinide kulutamiseks.
+- "P2PKH" ja "P2WPKH" aadresside puhul kujutab kasuliku koormuse, st aadressi tuuma, avaliku võtme hash-ühendust;
+- P2SH ja P2WSH aadresside puhul kujutab kasulikku koormust ;
+- Nagu ka "P2TR" aadresside puhul, on kasuliku koormuse puhul tegemist muudetud avaliku võtmega. P2TR-väljundid kombineerivad _Pay-to-PubKey_ ja _Pay-to-Script_ aspekte. Tweaked avalik võti on klassikalise kulutamise avaliku võtme lisamise tulemus koos "tweakiga", mis on tuletatud skriptide kogumi Merkle-juurest, mida saab kasutada ka bitcoinide kulutamiseks.
 
-![BTC204](assets/it/67/01.webp)
+![BTC204](assets/fr/068.webp)
 
-Teie rahakoti tarkvaras kuvatavad aadressid sisaldavad ka HRP (_Human-Readable Part_), tavaliselt `bc` post-SegWit aadresside puhul, eraldusmärk `1` ja versiooninumber `q` SegWit V0 ja `p` Taproot/SegWit V1 puhul. Samuti lisatakse kontrollsumma, et tagada aadressi terviklikkus ja kehtivus selle edastamise ajal.
+Teie portfoolio tarkvaras kuvatavad aadressid sisaldavad ka HRP (*Human-Readable Part*), tavaliselt `bc` post-SegWit aadresside puhul, eraldusmärk `1` ja versiooninumber `q` SegWit V0 puhul ja `p` Taproot/SegWit V1 puhul. Samuti lisatakse kontrollsumma, et tagada aadressi terviklikkus ja kehtivus edastamise ajal.
 
 Lõpuks pannakse aadressid standardvormingusse:
 
 
-- Base58check vanade Legacy-aadresside jaoks;
-- Bech32 SegWit-aadresside jaoks;
+- Base58check vanade Legacy-aadresside jaoks ;
+- Bech32 SegWit-aadresside jaoks ;
 - Bech32m Taproot-aadresside jaoks.
 
 Siin on bech32 ja bech32m formaatide (SegWit ja Taproot) liitmismaatriks baasist 10:
 
 | + | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
-| 0 | q | p | z | r | y | 9 | x | 8 | 8
+| 0 | q | p | z | r | y | 9 | x | 8 |
 
 | 8 | g | f | 2 | t | v | d | w | 0 |
 
-| 16 | s | 3 | j | n | 5 | 4 | k | h | 24 | c | e | 6 | m | u | a | 7 | l | l
+| 16 | s | 3 | j | n | 5 | 4 | k | h |
+
+| 24 | c | e | 6 | m | u | a | 7 | l |
 
 ### Mis on aadressi korduvkasutamine?
 
-Aadressi korduvkasutamine tähendab, et sama vastuvõtuaadressi kasutatakse mitme erineva UTXO blokeerimiseks.
+Aadressi korduvkasutamine on sama vastuvõtuaadressi kasutamine mitme erineva UTXO blokeerimiseks.
 
-Nagu nägime eelmises jaotises, on igal UTXO-l oma ScriptPubKey, mis lukustab selle ja peab olema täidetud, et UTXO-d saaks kasutada uue tehingu sisendina. Selle ScriptPubKey sees ongi vastuvõtuaadressid (payloads) sisse põimitud.
+Nagu nägime eelmises jaotises, on igal UTXO-l oma ScriptPubKey, mis lukustab selle ja peab olema täidetud, et UTXO-d saaks kasutada uue tehingu sisendina. Just sellesse ScriptPubKey'sse on integreeritud kasuliku koormuse aadressid.
 
-Kui mitu ScriptPubKey'd sisaldavad sama vastuvõtuaadressi, nimetatakse seda aadressi korduvkasutamiseks. Praktikas tähendab see, et kasutaja on andnud sama aadressi mitu korda saatjatele, et saada bitcoine mitme makse kaudu. Ja tõepoolest, see praktika on teie privaatsuse jaoks katastroofiline.
+Kui erinevad ScriptPubKeys sisaldavad sama vastuvõtuaadressi, nimetatakse seda aadressi korduvkasutamiseks. Praktikas tähendab see, et kasutaja on korduvalt andnud sama aadressi saatjatele, et saada bitcoine mitme makse kaudu. Ja just see praktika on teie privaatsuse jaoks katastroofiline.
 
-### Miks on aadressi korduvkasutamine probleem?
+### Miks on aadressi korduvkasutamine probleemiks?
 
-Kuna plokiahel on avalik, on lihtne näha, millised aadressid milliseid UTXOsid blokeerivad ja kui palju bitcoine. Kui sama aadressi kasutatakse mitme tehingu puhul, on võimalik järeldada, et kõik selle aadressiga seotud bitcoinid kuuluvad samale isikule. Selline praktika ohustab kasutajate privaatsust, võimaldades erinevate tehingute vahel deterministlikke seoseid luua ja bitcoinide jälgimist plokiahelas. Satoshi Nakamoto ise rõhutas seda probleemi Bitcoini valges raamatus:
+Kuna plokiahel on avalik, on lihtne näha, millised aadressid lukustavad milliseid UTXOsid ja kui palju bitcoine. Kui sama aadressi kasutatakse mitme tehingu puhul, on võimalik järeldada, et kõik selle aadressiga seotud bitcoinid kuuluvad ühele ja samale isikule. Selline praktika ohustab kasutajate privaatsust, võimaldades erinevate tehingute vahel luua deterministlikke seoseid ja bitcoinide jälgitavust plokiahelas. Satoshi Nakamoto ise rõhutas seda probleemi juba Bitcoini valges raamatus:
 
-> _Tuletõkkena võiks iga tehingu jaoks kasutada uut võtmepaari, et vältida nende seostamist ühise omanikuga
+> *Täiendava tulemüürina võiks iga tehingu puhul kasutada uut võtmepaari, et hoida neid ühise omanikuga sidumata*
 ![BTC204](assets/fr/055.webp)
 
-Allikas: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System," https://bitcoin.org/bitcoin.pdf, 2009.
+Allikas: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
-Satoshi eesmärk, mida ta selle avaldusega taotles, oli luua täiendav tulemüür kasutaja identiteedi ja Bitcoini võtmepaari vahelise seose korral, et vältida kogu nende tegevuse avalikku seostamist nende identiteediga. Tänapäeval, kui plokiahela analüütikafirmad ja KYC-eeskirjad on üha enam levinud, ei ole unikaalsete aadresside kasutamine enam "täiendav tulemüür", vaid vajalik tava kõigile, kes soovivad oma privaatsust minimaalselt säilitada.
+Satoshi kavatses selle lausega luua täiendava tulemüüri juhul, kui kasutaja identiteedi ja Bitcoini võtmepaari vahel tekib seos, et kogu tema tegevus ei oleks avalikult seotud tema identiteediga. Tänapäeval, kui plokiahelat analüüsivate ettevõtete ja KYC-eeskirjade levikuga, ei ole unikaalsete aadresside kasutamine enam "täiendav tulemüür", vaid hädavajalik tava kõigile, kes soovivad säilitada minimaalset privaatsust.
 
-Kui te kasutate aadressi uuesti, loote peaaegu vaieldamatu seose kõigi selle aadressiga seotud tehingute vahel. Kuigi see ei ohusta otseselt teie raha, sest elliptiliste kõverate krüpteerimine tagab teie isiklike võtmete turvalisuse, muudab see teie tegevuse jälgimise lihtsamaks. Tegelikult võib igaüks, kellel on sõlme, jälgida teie tehinguid ja aadresside saldosid, ohustades täielikult teie anonüümsust.
+Kui te kasutate aadressi uuesti, loob te peaaegu vaieldamatu seose kõigi selle aadressiga seotud tehingute vahel. Kuigi see ei ohusta otseselt teie rahalisi vahendeid, sest elliptilise kõveraga krüptograafia tagab teie privaatvõtmete turvalisuse, muudab see teie tegevuse jälgimise lihtsamaks. Tõepoolest, igaüks, kellel on sõlme, saab jälgida aadresside tehinguid ja saldosid, ohustades täielikult teie anonüümsust.
 
-![BTC204](assets/it/34/01.webp)
+![BTC204](assets/fr/054.webp)
 
-Selle punkti illustreerimiseks võtame näiteks Bobi, kasutaja, kes ostab regulaarselt bitcoin'eid väikestes kogustes DCA (Dollar Cost Averaging) kaudu ja saadab need alati samale aadressile. Kahe aasta pärast on sellel aadressil märkimisväärne kogus bitcoine. Kui Bob kasutab seda aadressi, et teha makse kohalikule kaupmehele, võib kaupmees näha kõiki sellega seotud vahendeid ja arvata Bobi varanduse maha. See võib kaasa tuua isiklikke turvariske, sealhulgas vargus- või väljapressimiskatseid. Kui Bob oleks kasutanud iga perioodilise ostu vastuvõtmiseks uut aadressi, oleks ta avaldanud kaupmehele lõpmatult vähem teavet.
+Selle punkti illustreerimiseks võtame näiteks Bobi, kasutaja, kes ostab regulaarselt bitcoine väikestes kogustes DCA-s ja saadab need alati samale aadressile. Kahe aasta pärast on sellel aadressil märkimisväärne kogus bitcoine. Kui Bob kasutab seda aadressi, et teha makse kohalikule kaupmehele, saab viimane näha kõiki sellega seotud vahendeid ja järeldada Bobi varandust. See võib kaasa tuua isiklikke turvariske, näiteks varguse või väljapressimise katse. Kui Bob oleks kasutanud iga perioodilise ostu vastuvõtmiseks tühja aadressi, oleks ta avaldanud kaupmehele tunduvalt vähem teavet.
 
-Ahelaanalüüsis eristame 2 tüüpi aadressi korduvkasutust:
+Stringianalüüsis on 2 tüüpi aadressi korduvkasutust:
 
 
-- Väline taaskasutus;
+- Väline taaskasutus ;
 - Tehingusisene korduvkasutamine.
 
-Esimest täheldatakse, kui aadressi kasutatakse uuesti mitmes erinevas Bitcoini tehingus. Seda arutasime varem: see heuristika võimaldab järeldada, et kõik UTXOd, mis läbivad seda aadressi, kuuluvad ühele üksusele.
+Esimene on see, kui aadressi kasutatakse uuesti mitmes erinevas Bitcoini tehingus. Sellest rääkisime varem: see heuristika järeldab, et kõik selle aadressi kaudu läbitud UTXOd kuuluvad ühele isikule.
 
-Siseaadresside korduvkasutust ei täheldata mitte siis, kui korduvkasutamine toimub mitme tehingu vahel, vaid siis, kui see toimub ühe ja sama tehingu sees. Tõepoolest, kui sama aadressi, mida kasutati sisendi lukustamiseks, kasutatakse ühes tehingus väljundina, siis võime järeldada, et see väljund kuulub endiselt samale kasutajale (jääk) ja et teine väljund kujutab endast tegelikku makset. See teine heuristika võimaldab raha jälgida mitme tehingu lõikes.
+Sisemine aadressi korduvkasutamine ei toimu siis, kui korduvkasutamine toimub mitme tehingu vahel, vaid siis, kui see toimub ühe tehingu sees. Tõepoolest, kui sama aadressi, mida kasutatakse sisendi lukustamiseks, kasutatakse ka tehingu väljundina, siis võime järeldada, et see väljund kuulub endiselt samale kasutajale (vahetusele) ja et teine väljund kujutab endast tegelikku makset. See teine heuristika võimaldab raha jälgimist mitme tehingu vältel.
 
-![BTC204](assets/it/33/02.webp)
+![BTC204](assets/fr/045.webp)
 
-Aadressi korduvkasutamine on Bitcoini tõeline nuhtlus. Veebisaidi OXT.me (praegu kättesaamatu) andmetel oli aadresside taaskasutamise üldine määr Bitcoinis 2022. aastal umbes 52 protsenti:
+Aadressi korduvkasutamine on Bitcoini tõeline nuhtlus. OXT.me veebisaidi (praegu kättesaamatu) andmetel oli aadresside taaskasutamise üldine määr Bitcoinis 2022. aastal umbes 52%:
 
 ![BTC204](assets/fr/069.webp)
 
-See määr on tohutu, kuid see pärineb valdavalt vahetusplatvormidelt, mitte üksikutelt kasutajatelt.
+See määr on tohutu, kuid see pärineb valdavalt pigem vahetusplatvormidelt kui üksikutelt kasutajatelt.
 
 ### Kuidas vältida aadressi korduvkasutust?
 
-Aadressi korduvkasutamise vältimine on üsna lihtne: **Kasutage lihtsalt uut aadressi iga uue rahakotti saabuva makse jaoks**.
+Aadressi korduvkasutamise vältimine on üsna lihtne: **Kasutage lihtsalt uut, tühja aadressi kõigi uute maksete tegemiseks oma rahakotti**.
 
-Tänu BIP32-le on kaasaegsed portfellid nüüd deterministlikud ja hierarhilised. See tähendab, et kasutaja saab luua suure hulga aadresse ühest algteabest: seemnest. Selle üheainsa teabe salvestamisega saab taastada kõik rahakoti privaatvõtmed ja seega pääseda ligi vastavate aadressidega tagatud rahalistele vahenditele.
+Tänu BIP32-le on kaasaegsed portfellid nüüd deterministlikud ja hierarhilised. See tähendab, et kasutaja saab luua suure hulga aadresse ühest algteabest: seemnest. Selle üheainsa teabe salvestamisega on võimalik taastada kõik portfellis olevad isiklikud võtmed, võimaldades juurdepääsu vastavate aadressidega tagatud rahalistele vahenditele.
 
 ![BTC204](assets/fr/070.webp)
 
-Seepärast pakutakse teile iga kord, kui vajutate rahakoti tarkvaras nuppu "_saa_", kasutamata vastuvõtuaadressi. Pärast bitcoinide vastuvõtmist sellele aadressile pakub tarkvara automaatselt uut aadressi.
+Seepärast pakutakse iga kord, kui vajutate rahakoti tarkvaras nuppu "*saada*", kasutamata vastuvõtuaadressi. Pärast bitcoinide vastuvõtmist sellele aadressile pakub tarkvara automaatselt uut aadressi.
 
-> _PS: Hiljuti teatas mõni rahakoti tarkvara oma kavatsusest lõpetada tühjade aadresside genereerimine, kuna kardavad, et ametiasutused võivad seda pidada rahapesuks. Kui teie tarkvara kuulub nende hulka, siis soovitan tungivalt, et vahetaksite selle kohe välja, sest see ei ole kasutajale vastuvõetav
-Kui teil on maksete vastuvõtmiseks vaja staatilist identifikaatorit, näiteks annetuste vastuvõtmiseks, ei ole klassikalise Bitcoini aadressi kasutamine taaskasutamise ohu tõttu soovitatav. Eelistate Lightning-aadressi kasutamist või staatilise ahelasisese makse identifikaatori jaoks võite valida BIP47 või Silent Payments. Kuidas need protokollid toimivad, on üksikasjalikult kirjeldatud käesoleva koolituse 6. osas.
+> *PS: Hiljuti teatasid mõned rahakoti tarkvara programmid oma kavatsusest lõpetada tühjade aadresside genereerimine, kuna kardavad, et ametiasutused peavad seda rahapesuks. Kui teie tarkvara on üks neist, soovitan tungivalt, et te vahetaksite selle kohe välja, sest see ei ole kasutajale vastuvõetav.*
+Kui teil on maksete vastuvõtmiseks vaja staatilist identifikaatorit, näiteks annetuste vastuvõtmiseks, ei ole soovitatav kasutada klassikalist Bitcoini aadressi, sest on oht, et seda võidakse uuesti kasutada. Selle asemel kasutage Lightning-aadressi või valige staatiline ahelasisene makse identifikaator, näiteks BIP47 või Silent Payments. Neid protokolle selgitatakse üksikasjalikult selle koolituskursuse 6. osas.
 
-## Mündi märgistamine ja kontroll
+## Osade märgistamine ja kontrollimine
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
-Nagu me avastasime ahelanalüüsi käsitlevas osas, on olemas hulk heuristikat ja mustreid, mida saab kasutada tehingu kohta teabe tuletamiseks. Kasutajana on oluline olla neist tehnikatest teadlik, et end paremini kaitsta.
+![La confidentialité sur Bitcoin](https://youtu.be/EhF0AlTv-uY?feature=shared)
 
-See hõlmab suuresti isikliku rahakoti ranget haldamist, mis hõlmab nii oma UTXOde päritolu teadmist kui ka maksete ajal tarbitavate UTXOde läbimõeldud valikut. Selline tõhus rahakoti haldamine tugineb heade Bitcoini rahakottide kahele olulisele omadusele: märgistamine ja mündikontroll.
+Nagu me avastasime stringianalüüsi käsitlevas osas, on olemas hulk heuristikat ja mustreid, mida saab kasutada tehingu kohta teabe tuletamiseks. Kasutajana on oluline olla neist tehnikatest teadlik, et end nende eest paremini kaitsta.
 
-Selles peatükis uurime neid funktsioone ja vaatame, kuidas saaksite neid nutikalt kasutada, lisamata liiga suurt töökoormust, et optimeerida oma privaatsust Bitcoinis.
+See eeldab oma rahakoti ranget haldamist isehalduses, mis tähendab, et peate teadma oma UTXOde päritolu ning valima hoolikalt, milliseid UTXOsid maksete tegemisel tarbida. Selline tõhus rahakoti haldamine tugineb heade Bitcoini rahakottide kahele olulisele omadusele: märgistamine ja mündikontroll.
+
+Selles peatükis vaatleme neid funktsioone ja vaatame, kuidas saate neid arukalt kasutada, lisamata liiga suurt töökoormust, et optimeerida oma privaatsust Bitcoinis.
 
 ### Mis on märgistamine?
 
-Märgistamine on tava, mis hõlmab märkuse või sildi määramist konkreetsele UTXO-le Bitcoini rahakotis. Neid märkusi salvestatakse lokaalselt rahakoti tarkvara poolt ja neid ei edastata kunagi Bitcoini võrgu kaudu. Märgistamine on seega isikliku haldamise vahend.
+Märgistamine on praktika, mille käigus määratakse Bitcoini rahakotis konkreetsele UTXO-le märkus või silt. Neid märkusi salvestatakse lokaalselt rahakoti tarkvara poolt ja neid ei edastata kunagi Bitcoini võrgu kaudu. Märgistamine on seega isiklik haldusvahend.
 
-Näiteks, kui ma oman UTXO-d, mis on saadud Bisqi P2P-ostustelt koos Charlesiga, võin anda sellele sildi "`Non-KYC Bisq Charles`".
+Näiteks, kui mul on UTXO P2P-ostustelt Bisqis koos Charlesiga, võiksin selle märgistada "`Non-KYC Bisq Charles`".
 
-Märgistamine on hea tava, mis aitab meeles pidada UTXO päritolu või sihtkohta, hõlbustades seeläbi vahendite haldamist ja optimeerides privaatsust. Tegelikult sisaldab teie Bitcoini rahakott tõenäoliselt mitut UTXO-d. Kui nende UTXOde allikad on erinevad, ei pruugi te neid UTXOsid tulevikus ühendada, sest vastasel juhul võite paljastada nende ühise omandiõiguse. Kõikide oma müntide nõuetekohase märgistamisega tagate, et mäletate nende päritolu, kui neid vajate, isegi kui see juhtub alles mitme aasta pärast.
+Märgistamine on hea tava, mis aitab meeles pidada UTXO päritolu või sihtkohta, mis hõlbustab seega vahendite haldamist ja eraelu puutumatuse optimeerimist. Tõepoolest, teie Bitcoini rahakott kindlustab kindlasti mitu UTXO-d. Kui nende UTXOde allikad on erinevad, ei pruugi te tulevikus neid UTXOsid ühendada, sest muidu võiksite paljastada nende ühise omandiõiguse. Kui märgistate kõik oma osad korralikult, võite olla kindel, et mäletate, kust need pärinevad, kui teil on vaja neid kasutada, isegi kui see toimub aastate pärast.
 
-### Mis on mündikontroll?
+### Mis on nurgakontroll?
 
-Sildistamise aktiivne kasutamine muutub veelgi atraktiivsemaks, kui seda kombineerida rahakoti tarkvara mündikontrolli võimalusega.
+Aktiivne märgistuse kasutamine muutub veelgi huvitavamaks, kui see on ühendatud portfelli tarkvara mündikontrolli võimalusega.
 
-Mündikontroll on hea Bitcoini rahakoti tarkvara funktsioon, mis võimaldab teil käsitsi valida konkreetseid UTXOsid, mida kasutada tehingu sooritamiseks sisendina. Tegelikult peate väljamineva makse rahuldamiseks tarbima vastutasuks sissetuleva UTXO. Mitmel põhjusel, mida näeme hiljem, võite soovida täpselt valida, milliseid münte tarbida sisendina konkreetse makse rahuldamiseks. Just seda võimaldab mündikontroll. Analoogia mõttes on see funktsionaalsus sarnane tegevusega, mille puhul valite oma rahakotis konkreetse mündi, kui maksate oma baguette'i eest.
+Mündikontroll on hea Bitcoini rahakoti tarkvara funktsioon, mis võimaldab teil käsitsi valida konkreetseid UTXOsid, mida kasutada sisendina tehingu lõpuleviimiseks. Tegelikult peate väljundmakse rahuldamiseks tarbima vastutasuks sisendiks UTXO. Mitmel põhjusel, mida vaatleme hiljem, võite soovida täpselt valida, milliseid osi tarbida sisendina, et rahuldada antud makse. Just seda võimaldab teil teha mündikontroll. Analoogia mõttes on see funktsioon sarnane sellega, kui valite oma rahakotist konkreetse mündi, kui maksate oma baguette'i eest.
 
-Mündi kontrollitava rahakoti tarkvara kasutamine koos UTXOde märgistamisega võimaldab kasutajatel täpselt eristada ja valida UTXOd oma tehinguteks.
+![BTC204](assets/fr/071.webp)
 
-### Kuidas märgistada oma UTXO-d õigesti?
+Mündikontrolliga portfelli tarkvara kasutamine koos UTXO märgistusega võimaldab kasutajatel nii eristada kui ka täpselt valida UTXOd oma tehingute jaoks.
 
-UTXOde märgistamiseks ei ole olemas universaalset meetodit, mis sobiks kõigile. Teie ülesanne on määratleda märgistamissüsteem, et saaksite oma portfellis hõlpsasti orienteeruda. Igal juhul pidage meeles, et hea märgistus on see, millest te saate aru, kui seda vajate. Kui teie Bitcoini rahakott on peamiselt säästmiseks, võib juhtuda, et sildid ei ole teile kasulikud enne mitme aastakümne möödumist. Seepärast veenduge, et need on selged, täpsed ja kõikehõlmavad.
+### Kuidas märgistate oma UTXO-d?
 
-Oluline on, et teie lähedased saaksid hõlpsasti tuvastada vahendite päritolu, kui nad ühel päeval vajavad juurdepääsu teie portfellile. See võib aidata neid nii privaatsuse kui ka juriidiliste vajaduste tõttu, kui nad peaksid ametiasutuse ees raha päritolu põhjendama.
+UTXOde märgistamiseks ei ole olemas ühtset meetodit. See on teie otsustada, milline on teie portfelli jaoks kergesti arusaadav märgistamissüsteem. Igal juhul pidage meeles, et hea märgistamine on märgistamine, millest te saate aru, kui seda vajate. Kui teie Bitcoini rahakott on mõeldud eelkõige säästmiseks, ei pruugi sildid teile aastakümneid kasulikud olla. Seega veenduge, et need on selged, täpsed ja põhjalikud.
 
-Märgistuse kõige olulisem aspekt on märkida UTXO allikas. Te peaksite lihtsalt märkima, kuidas see münt teie rahakotti sattus. Kas see tuli ostu teel vahetusplatvormilt? Kliendi poolt tehtud maksest? Peer-to-peer-vahetusest? Või on see ostu jääk? Nii et te võiksite täpsustada:
+On oluline, et teie lähedased saaksid hõlpsasti tuvastada raha päritolu, kui nad ühel päeval vajavad juurdepääsu teie portfellile. See aitab neid nii konfidentsiaalsuse kui ka juriidilistel eesmärkidel, kui neil on vaja põhjendada vahendite päritolu mõnele asutusele.
 
-
-- `Pickup Exchange.com`;
-- "Makseklient David";
-- "Osta P2P Charles";
-- `Sohva ostmisest kinnipidamine`
-
-Et täiustada UTXOde haldamist ja järgida oma fondide eraldamise strateegiaid portfelli sees, võiksite oma märgiseid rikastada täiendava märgistusega, mis kajastaks neid eraldamisi. Kui teie portfell sisaldab kahte liiki UTXOsid, mida te ei soovi segada, võiksite lisada märgistuse, et neid rühmi selgelt eristada. Need eraldusmärgised sõltuvad teie kriteeriumidest, näiteks KYCiga seotud omandamisprotsessist pärit UTXOde või professionaalsete ja isiklike fondide eristamine. Võttes eelnevalt mainitud märgiste näiteid, võiks see väljenduda järgmiselt:
+Kõige olulisem on märkida etiketil UTXO allikas. Te peaksite lihtsalt märkima, kuidas münt teie rahakotti sattus. Kas see on vahetusplatvormil tehtud ostu tulemus? Kliendilt saadud arve maksmisest? Peer-to-peer-vahetusest? Või kujutab see endast mingi kulu vahetamist? Näiteks võite täpsustada:
 
 
-- `KYC - Exchange.com väljavõtmine`;
-- "KYC - kliendi makse David";
-- `NO KYC - ostu P2P Charles`;
-- "NO KYC - Ülejäänu diivanite ostmisest
+- eemaldada Exchange.com` ;
+- kliendi makse David` ;
+- osta P2P Charles` ;
+- `Vaheta diivani ostu`
 
-Samuti on soovitav mündi märgistus tehingute ajal jäädvustada. Näiteks UTXOde konsolideerimisel ilma KYC-ta, märgistage saadud UTXOd mitte ainult kui "konsolideerimine", vaid konkreetselt kui "no-KYC konsolideerimine", et säilitada selge jälg mündi päritolu.
+![BTC204](assets/fr/072.webp)
 
-Lõpuks ei ole kuupäeva märkimine etiketile kohustuslik. Enamik rahakoti tarkvara näitab juba tehingu kuupäeva ja seda teavet on alati võimalik välja otsida plokkide uurija abil, kasutades selle TXID-d.
-
-### Kuidas valida oma mündid õigesti?
-
-Kui teete tehingu, võimaldab mündikontroll teil konkreetselt valida, milliseid UTXOsid kasutada sisendina, et rahuldada makse väljund. Selle valiku tegemisel tuleks arvesse võtta kahte aspekti:
+Selleks, et täpsustada oma UTXO juhtimist ja järgida fondide eraldamise strateegiaid oma portfellis, võiksite oma märgiseid rikastada täiendava näitajaga, mis kajastab neid eraldamisi. Kui teie portfellis on kaks liiki UTXOsid, mida te ei soovi segada, võiksite lisada märgistesse tähise, et neid rühmi selgelt eristada. Need eraldusmärgised sõltuvad teie enda kriteeriumidest, näiteks eristate KYCi hõlmava omandamisprotsessi tulemusel tekkinud UTXOsid või ametialaseid ja isiklikke fonde. Võttes aluseks eespool nimetatud märgistuse näited, võiks see olla järgmine:
 
 
-- Makse saaja võimalus siduda osa teie identiteedist sisendina kasutatud UTXOdega;
+- `KYC - tagasivõtmise Exchange.com` ;
+- `KYC - Klientide makse David` ;
+- `NO KYC - Osta P2P Charles` ;
+- `NO KYC - Muuda diivan ostu`
+
+![BTC204](assets/fr/073.webp)
+
+Samuti on soovitav jäädvustada osa märgistus tehingute käigus. Näiteks UTXO no-KYC konsolideerimisel märgistage saadud UTXO mitte ainult kui "konsolideerimine", vaid konkreetselt kui "konsolideerimine no-KYC", et oleks selge, kust mündid pärinevad.
+
+Lõpuks ei ole kuupäeva märkimine sildile kohustuslik. Enamik rahakoti tarkvara kuvab juba tehingu kuupäeva ja seda teavet on alati võimalik leida plokkide otsingumootorist tänu selle TXID-le.
+
+### Kuidas valida õiged osad?
+
+Tehingu sooritamisel saate mündi kontrolli abil konkreetselt valida, milliseid UTXOsid kasutada sisendina, et rahuldada makse väljundit. Sellel valikul on kaks aspekti:
+
+
+- Makse saaja võimalus siduda osa teie identiteedist sisendites kasutatud UTXOdega;
 - Välise vaatleja võime luua seoseid kõigi sisendina tarbitavate UTXOde vahel.
 
-Esimese punkti illustreerimiseks võtame konkreetse näite. Oletame, et ostate oma kohalikult pagarilt bitcoinidega baguette'i. Te kasutate sisendina ühte või mitut oma UTXOd, et katta vähemalt baguette'i hind väljundina, millele lisanduvad tehingutasud. Seejärel võib pagar potentsiaalselt seostada teie näo või mis tahes muu teie identiteedi osa, mida ta teab, sisendina kasutatud müntidega. Teades selle seose olemasolu, võite makse tegemisel eelistada ühe konkreetse UTXO-d teisele.
+Esimese punkti illustreerimiseks võtame konkreetse näite. Oletame, et ostate pagarilt baguette'i bitcoin'idega. Te kasutate ühte või mitut UTXOd, mis on teie käes sisendina, et katta vähemalt baguette'i hind väljundites, samuti tehingutasud. Teie pagar võib seejärel potentsiaalselt seostada teie nägu või mis tahes muud talle teadaolevat osa teie identiteedist sisendina kasutatud müntidega. Teades selle seose olemasolu, võite makse sooritamisel eelistada konkreetse UTXO valimist, mitte mõne teise.
 
-Näiteks kui üks teie UTXO on pärit vahetusplatvormilt ja te eelistate, et pagariäri ei oleks teadlik teie kontost sellel platvormil, siis vältige selle UTXO kasutamist maksmiseks. Kui teil on suure väärtusega UTXO, mis paljastab märkimisväärse bitcoinide summa, võite samuti otsustada seda mitte kasutada, et pagar ei saaks teada teie BTC-vara.
+![BTC204](assets/fr/074.webp)
 
-Selle esimese punkti puhul kasutatavate UTXOde valik põhineb seega isiklikul otsusel, mida mõjutab see, mida olete valmis avalikustama või mitte. Sildid, mille olete oma UTXOdele nende kättesaamisel määranud, aitavad teil valida need, mis kulutamisel näitavad ainult seda teavet, mida te olete nõus vastuvõtjale avaldama.
+Näiteks kui üks teie UTXO on pärit vahetusplatvormilt ja te eelistate, et pagar ei teaks teie kontost sellel platvormil, siis väldite selle UTXO kasutamist maksmiseks. Kui teil on suure väärtusega UTXO, mis paljastab märkimisväärse hulga bitcoine, võite samuti otsustada seda mitte kasutada, et pagar ei saaks teada teie BTC-varandusest.
 
-Lisaks teabe potentsiaalsele avalikustamisele vastuvõtjale mõjutab teie sisendite valik ka seda, mida te avalikustate kõigile plokiahela vaatlejatele. Kasutades oma tehingu sisenditena mitut UTXO-d, paljastate te tegelikult, et need kuuluvad samale üksusele, vastavalt sisendite ühisele omandiõiguse heuristikale (Common Ownership Heuristics of Inputs, CIOH).
+Selle esimese punkti puhul kasutatava UTXO valimine on seega isiklik otsus, mida mõjutab see, mida olete valmis avaldama või mitte. Sildid, mida te oma UTXOdele nende saamisel annate, aitavad teil valida need, mis pärast kulutamist paljastavad ainult sellist teavet, mida te olete nõus saajale avaldama.
 
-Kui te valite oma münte, peaksite seetõttu olema teadlik, et tehing, mida te kavatsete edastada, loob seose kõigi kasutatavate UTXOde vahel. See seos võib teie isikliku privaatsuse seisukohast olla problemaatiline, eriti kui UTXOd pärinevad erinevatest allikatest.
+Lisaks teabe potentsiaalsele avaldamisele vastuvõtjale mõjutab sisendite valik ka seda, mida avaldate kõigile plokiahela vaatlejatele. Kasutades oma tehingu sisenditena mitut UTXO-d, paljastate te tõepoolest, et need kuuluvad CIOH-heuristiku (Common Input Ownership Heuristic_) kohaselt ühele ja samale üksusele.
 
-Tulles tagasi oma UTXO ilma KYC-ta Bisqist; ma tahan vältida selle kombineerimist UTXOga näiteks reguleeritud vahetusplatvormilt, mis teab minu identiteeti. Kui ma kasutaksin neid 2 UTXOd sisendina samas tehingus, saaks reguleeritud platvorm tegelikult minu identiteedi siduda Bisqist ostetud UTXOga, samas kui varem ei olnud see minu identiteediga seotud.
+![BTC204](assets/fr/075.webp)
 
-Lõpuks, et valida õigesti, milliseid UTXOsid tehingu sisendiks tarbida, on kõige olulisem vältida mitme UTXO kasutamist. Kui võimalik, valige üks mündi, mis on piisavalt suur, et katta teie makse. Seda tehes väldite täielikult COINJOINiga seotud riske. Kui aga teie makse jaoks ei piisa ühest UTXO-st ja teil on vaja tarbida mitut, veenduge, et need pärinevad sarnastest allikatest, et vähendada soovimatute ühenduste riske. Samuti pidage meeles, et saaja võib seostada teie kohta olemasolevat teavet sisendina kasutatud müntide ajalooga.
+Osade valimisel peate seega olema teadlik, et tehing, mida te kavatsete edastada, loob seose kõigi kasutatavate UTXOde vahel. See seos võib teie isikliku privaatsuse seisukohast olla problemaatiline, eriti kui UTXOd pärinevad erinevatest allikatest.
 
-### Automaatse mündi valiku mõistmine
+![BTC204](assets/fr/076.webp)
 
-Eelmistes punktides käsitleti UTXOde käsitsi valimist tehingu jaoks. Aga mis juhtub siis, kui rahakoti tarkvara teeb selle valiku automaatselt? Kulutatavate müntide kindlaksmääramiseks on mitmeid meetodeid ja UTXOde valimine on Bitcoinis tõeline uurimisvaldkond. Selle automaatse protsessi peamine eesmärk on sageli vähendada kasutaja jaoks tehingutasusid.
+Võtame näiteks minu KYC-vaba UTXO Bisqist; ma tahan vältida selle kombineerimist UTXOga näiteks reguleeritud vahetusplatvormilt, mis teab minu identiteeti. Kui ma kunagi kasutan neid 2 UTXOd sama tehingu sisendina, saab reguleeritud platvorm tõepoolest seostada minu identiteedi Bisqist ostetud UTXOga, mis ei olnud eelnevalt minu identiteediga seotud.
 
-UTXO valikumeetodid nagu FIFO (_First In First Out_) ja LIFO (_Last In First Out_) on ühed lihtsaimad, kuid ka kõige vähem tõhusad. FIFO puhul kasutatakse kõigepealt portfelli vanimaid münte. See lähenemisviis on üldiselt ebatõhus nii tehingutasude minimeerimiseks kui ka privaatsuse säilitamiseks, välja arvatud juhul, kui kasutatakse suhtelisi ajamäärasid, mida tuleb regulaarselt uuendada. Seevastu LIFO puhul eelistatakse kõige uuemate UTXOde kasutamist. Kuigi need kaks meetodit on lihtsad, osutuvad need sageli ebatõhusaks.
+![BTC204](assets/fr/077.webp)
 
-Edasijõudnud meetod on _Knapsack Solver_. Seda meetodit kasutati Bitcoin Core'i rahakotis kuni versioonini 0.17. See hõlmab rahakoti UTXOde iteratiivset ja juhuslikku valimist, nende summeerimist alagruppidesse ja selle lahenduse säilitamist, mis vähendab tehingu kaalu võimalikult palju, et vähendada kasutustasusid.
+Lõpuks, kui valite, milliseid UTXOsid tehingu sisendina kasutada, on kõige olulisem vältida mitme UTXO kasutamise võimalust. Kui saate, valige maksimaalselt üks mündi, mis on piisavalt suur, et rahuldada teie makse. Nii väldite täielikult CIOHiga seotud riske. Kui aga maksmiseks ei piisa ühest UTXO-st ja teil on vaja tarbida mitut, veenduge, et need on pärit sarnastest allikatest, et vähendada soovimatute seoste riski. Pidage ka meeles, et saaja võib seostada teie kohta käivat teavet kasutatud müntide ajalooga sisendites.
 
-_Branch-and-Bound_ (BNB), mida sageli nimetatakse "Murchi algoritmiks", viidates selle leiutajale, asendas alates versioonist 0.17 Bitcoin Core'is _Knapsack Solver_. Selle arenenuma meetodi eesmärk on leida UTXOde kogum, mis vastab täpselt tehingu väljundite rahuldamiseks vajalikule summale. BNB eesmärk on minimeerida nii jääkide kogust kui ka tasusid, vähendades nn raiskamiskriteeriumi, mis võtab arvesse nii koheseid kulusid kui ka oodatavaid tulevasi kulusid jääkide eest. See meetod on tuletatud Ailsa Landi ja Alison Harcourti 1960. aastal loodud algsest _Branch-and-Bound_-kontseptsioonist ning pakub täpsemat vahendustasude optimeerimist kui _Knapsack Solver_.
+### Automaatse osa valiku mõistmine
 
-Kõik need automaatsed UTXO valikumeetodid võivad olla tõhusad tehingutasude vähendamisel, kuid sageli ei ole need tõhusad kasutaja privaatsuse säilitamisel. Tegelikult võivad need algoritmid ühendada mitu UTXOd sisendiks, paljastades seega nende UTXOde ühise omandiõiguse COH tõttu. On selge, et need meetodid ei saa arvesse võtta UTXOdele lisatud märgiseid, mis on olulised, et teadlikult valida, milliseid münte tehingu saajale avaldada. Praegu on ainus lahendus müntide valiku privaatsuse optimeerimiseks see, et seda tehakse käsitsi.
+Eelmistes punktides käsitleti tehingu jaoks kasutatavate UTXOde käsitsi valimist. Aga mis juhtub siis, kui rahakoti tarkvara teeb selle valiku automaatselt? Kasutatavate müntide kindlaksmääramiseks on olemas mitu meetodit ja UTXOde valimine moodustab Bitcoini kohta tõelise uurimisvaldkonna. Selle automaatse protsessi peamine eesmärk on sageli vähendada kasutaja jaoks tehingukulusid.
+
+UTXO valikumeetodid nagu FIFO (*First In First Out*) ja LIFO (*Last In First Out*) on ühed lihtsaimad, kuid ka kõige vähem tõhusad. FIFO puhul kasutatakse kõigepealt portfelli vanimaid osi. See lähenemisviis on üldiselt ebatõhus nii tehingukulude minimeerimiseks kui ka konfidentsiaalsuse säilitamiseks, välja arvatud juhtudel, kui kasutatakse suhtelisi ajamäärasid, mida tuleb regulaarselt uuendada. Seevastu LIFO puhul eelistatakse kõige uuemate UTXOde kasutamist. Mõlemad meetodid on küll lihtsad, kuid osutuvad sageli ebatõhusaks.
+
+Täiustatud meetod on *Knapsack Solver*. Seda kasutati Bitcoin Core'i rahakotis kuni versioonini 0.17. See seisneb iteratiivses ja juhuslikus UTXOde valimises rahakotist, nende liitmises alamkogumite kaupa ja selle lahenduse säilitamises, mis vähendab tehingu kaalu võimalikult palju, et vähendada kasutaja kulusid.
+
+*Branch-and-Bound* (BNB), mida sageli kutsutakse selle leiutaja järgi "Murchi algoritmiks", on alates versioonist 0.17 Bitcoin Core'is asendanud *Knapsack Solver*. Selle arenenuma meetodi eesmärk on leida UTXOde kogum, mis vastab täpselt summale, mis on vajalik tehingu väljundite rahuldamiseks. BNB eesmärk on minimeerida nii vahetussummat kui ka tasusid, vähendades nn raiskamise kriteeriumi, mis võtab arvesse nii vahetuse koheseid kulusid kui ka eeldatavaid tulevasi kulusid. See meetod on tuletatud Ailsa Landi ja Alison Harcourti 1960. aastal välja töötatud *Branch-and-Bound* originaalkontseptsioonist ja pakub täpsemat tasude optimeerimist kui *Knapsack Solver*.
+
+Kõik need automaatsed UTXO valikumeetodid võivad olla tõhusad tehingukulude vähendamisel, kuid sageli ei ole need tõhusad kasutaja konfidentsiaalsuse säilitamisel. Need algoritmid võivad tõepoolest ühendada mitu UTXOd sisendiks, paljastades seega nende UTXOde ühise omaduse CIOHi tõttu. Ilmselgelt ei saa need meetodid võtta arvesse UTXOdele kinnitatud märgiseid, mis on siiski otsustava tähtsusega, et teadlikult valida, milliseid osi tehingu saajale avaldada. Praegu on ainus võimalus optimeerida konfidentsiaalsust müntide valimisel käsitsi.
 
 ### UTXO märgistamise õpetus
 
-Kui soovite teada saada, kuidas oma UTXO-d märgistada, oleme koostanud põhjaliku õpetuse peamise olemasoleva Bitcoini rahakoti tarkvara kohta:
+Kui soovid teada saada, kuidas oma UTXOsid märgistada, oleme teinud põhjaliku õpetuse peamise Bitcoini rahakoti tarkvara kohta:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
-## KYC ja võtme identifitseerimine
+## KYC ja võtmete tuvastamine
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
-KYC tähendab "tunne oma klienti", mis on regulatiivne menetlus, mida mõned Bitcoini tööstuses tegutsevad ettevõtted rakendavad. Selle menetluse eesmärk on kontrollida ja registreerida oma klientide identiteeti, mille eesmärgiks on võidelda rahapesu ja terrorismi rahastamise vastu.
+![La confidentialité sur Bitcoin](https://youtu.be/oqS0GGsoVUE?feature=shared)
 
-Konkreetselt hõlmab KYC mitmesuguste isikuandmete kogumist kliendilt, mis võivad sõltuvalt jurisdiktsioonist erineda, kuid üldjuhul hõlmab isikut tõendavat dokumenti, fotot ja elukohatõendit. Seejärel kontrollitakse ja säilitatakse need andmed edaspidiseks kasutamiseks.
+KYC tähendab "tunne oma klienti". See on regulatiivne menetlus, mida teatavad Bitcoini sektoris tegutsevad ettevõtted rakendavad. Selle menetluse eesmärk on kontrollida ja registreerida oma klientide identiteeti, mille eesmärk on võidelda rahapesu ja terrorismi rahastamise vastu.
 
-See menetlus on enamikus lääneriikides muutunud kohustuslikuks kõigi reguleeritud vahetusplatvormide jaoks. See tähendab, et igaüks, kes soovib nende platvormide kaudu fiatvaluutat bitcoini vastu vahetada, peab täitma KYC nõudeid.
+Praktikas tähendab KYC mitmesuguste isikuandmete kogumist kliendilt, mis võivad sõltuvalt jurisdiktsioonist erineda, kuid üldjuhul hõlmavad isikut tõendavat dokumenti, fotot ja aadressitõendit. Seejärel kontrollitakse ja säilitatakse need andmed edaspidiseks kasutamiseks.
 
-See menetlus ei ole riskivaba kasutaja privaatsusele ja turvalisusele. Käesolevas peatükis uurime neid riske üksikasjalikult ning analüüsime KYC- ja identifitseerimisprotsesside konkreetseid mõjusid Bitcoini kasutajate privaatsusele.
+See menetlus on muutunud kohustuslikuks enamikus lääneriikides kõigi reguleeritud vahetusplatvormide jaoks. See tähendab, et igaüks, kes soovib nende platvormide kaudu riigi valuutat bitcoini vastu vahetada, peab täitma KYC nõudeid.
 
-### Onchain jälgimise hõlbustamine
+See menetlus ei ole kasutajate privaatsust ja turvalisust ohustamata. Käesolevas peatükis uurime neid riske üksikasjalikult ja analüüsime KYC- ja identifitseerimisprotsesside konkreetseid mõjusid Bitcoini kasutajate eraelu puutumatusele.
 
-Esimene risk, mis on seotud KYCiga, on see, et see annab eelistatud sisenemispunkti plokiahela analüüsile. Nagu nägime eelmises punktis, saavad analüütikud rühmitada ja jälgida tegevust plokiahelas, kasutades tehingumustreid ja heuristikat. Kui neil on õnnestunud kasutaja plokiahelas toimuv tegevus rühmitada, piisab kõigi tema tehingute ja võtmete hulgast vaid ühe sisenemispunkti leidmisest, et täielikult ohtu seada privaatsus.
+### Järelevalveahela jälgimise hõlbustamine
+
+Esimene risk, mis on seotud KYCiga, on see, et see pakub eelisjuurdepääsu plokiahela analüüsile. Nagu nägime eelmises punktis, saavad analüütikud klasterdada ja jälgida tegevust plokiahelas, kasutades tehingumustreid ja heuristikat. Kui neil on õnnestunud klasterdada kasutaja tegevused plokiahelas, tuleb neil vaid leida üks sisenemispunkt kõigi tema tehingute ja võtmete hulgast, et täielikult ohustada tema konfidentsiaalsust.
 
 ![BTC204](assets/fr/078.webp)
 
-Kui te esitate KYC-i, annate väga kvaliteetse sisenemispunkti ahela analüüsiks, kuna te seostate oma bitcoinide väljavõtmisel vahetusplatvormilt kasutatavad vastuvõtuaadressid teie täieliku ja kontrollitud identiteediga. Teoreetiliselt on see teave teada ainult ettevõttele, kellele te selle andsite, kuid nagu me hiljem näeme, on andmete kadumise oht reaalne. Lisaks võib juba ainuüksi asjaolu, et ettevõte seda teavet omab, olla problemaatiline, isegi kui ta seda ei jaga.
+Kui teete KYC-i, annate kvaliteetse sisenemispunkti plokiahela analüüsiks, kuna seostate oma bitcoinide väljavõtmisel vahetusplatvormilt kasutatud vastuvõtuaadressid oma täieliku, kontrollitud identiteediga. Teoreetiliselt on see teave teada ainult ettevõttele, kellele te selle andsite, kuid nagu allpool näeme, on andmete lekkimise oht reaalne. Veelgi enam, ainuüksi asjaolu, et ettevõte seda teavet omab, võib olla problemaatiline, isegi kui nad seda ei jaga.
 
-Seega, kui ei võeta muid meetmeid, et piirata oma tegevuse koondamist plokiahelas, võib igaüks, kes on teadlik KYC-i sisenemispunktist, potentsiaalselt siduda kogu oma tegevuse Bitcoinis oma identiteediga. Selle ettevõtte seisukohast kaotab Bitcoini kasutamine seega igasuguse konfidentsiaalsuse.
+Seega, kui te ei võta muid meetmeid, et piirata oma tegevuse koondamist plokiahelas, võib igaüks, kes teab seda KYC-sisestuspunkti, potentsiaalselt siduda kogu teie tegevuse Bitcoinis teie identiteediga. Selle ettevõtte seisukohast kaotab teie Bitcoini kasutamine igasuguse konfidentsiaalsuse.
 
 ![BTC204](assets/fr/079.webp)
 
-Võrdlusega illustreerimiseks võib öelda, et kui pangatöötaja _Pangas X_ oleks juurdepääs mitte ainult kõikidele tehingutele, mis on tehtud _Pangas X_, vaid saaks jälgida ka tehinguid _Pangas Y_ ja kõiki omaenda sularahatehinguid.
+Et seda võrdluse abil illustreerida, on see nii, nagu oleks teie pankur *Pangas X* mitte ainult juurdepääs kõikidele teie tehingutele *Pangas X*, vaid saaks jälgida ka teie tehinguid *Pangas Y* ja kõiki teie sularahatehinguid.
 
-Tuletame meelde selle koolituse esimesest osast: Satoshi Nakamoto loodud Bitcoini privaatsusmudel põhineb kasutaja identiteedi ja tema võtmepaaride eraldamisel. Kuigi see privaatsuse kiht ei ole tänapäeval enam piisav, on siiski mõistlik piirata selle lagunemist nii palju kui võimalik.
+Tuletage meelde selle koolituse esimest osa: Bitcoini konfidentsiaalsusmudel, nagu Satoshi Nakamoto seda kavandas, põhineb kasutaja identiteedi ja tema võtmepaaride eraldamisel. Kuigi see konfidentsiaalsuse kiht ei ole tänapäeval enam piisav, on siiski mõistlik piirata selle lagunemist nii palju kui võimalik.
 
 ### Kokkupuude riikliku järelevalvega
 
-Teine suur probleem KYCi puhul on see, et see näitab riigile, et keegi on mingil ajal bitcoin'i omanud. Kui te ostate bitcoin'e reguleeritud toimija kaudu, saab riik sellest valdusest teada. Praegu võib see tunduda triviaalne, kuid on oluline meeles pidada, et oma riigi poliitiline ja majanduslik tulevik ei ole enda käes.
+Teine suur probleem KYCi puhul on see, et see näitab riigile, et olete mingil ajal bitcoini omanikuks olnud. Kui te ostate bitcoin'e reguleeritud toimija kaudu, saab riik sellest omamisest teada. Praegu võib see tunduda triviaalne, kuid on oluline meeles pidada, et teie riigi poliitiline ja majanduslik tulevik ei ole teie käes.
 
-Esiteks võib riik kiiresti võtta autoritaarse hoiaku. Ajalugu on täis näiteid, kus poliitika on järsult muutunud. Täna võivad Bitcoini entusiastid Euroopas kirjutada artikleid Bitcoini kohta, osaleda konverentsidel ja hallata omaenda enesehoiu rahakotte. Kuid kes oskab öelda, mida toob homne päev? Kui Bitcoinist saab äkki avalik vaenlane number üks, võib sellega seostamine riiklikes registrites osutuda problemaatiliseks.
+Esiteks võib riik kiiresti võtta autoritaarse hoiaku. Ajalugu on täis näiteid, kus poliitika on järsult muutunud. Täna võivad Bitcoini kasutajad Euroopas kirjutada artikleid Bitcoini kohta, osaleda konverentsidel ja hallata oma rahakotti ise. Kuid kes teab, mida toob homne päev? Kui Bitcoinist saab äkki avalik vaenlane number üks, võib sellega seostamine valitsuse toimikutes osutuda problemaatiliseks.
 
-Hiljem, tõsise majanduskriisi korral võib riik kaaluda kodanike valduses olevate bitcoinide konfiskeerimist. Võib-olla peetakse homme bitcoin'iomanikke kriisi ära kasutavateks ja nende kapitalitulu tõttu fiatvaluuta devalveerimise tõttu üle maksustatakse.
+Siis võib riik tõsise majanduskriisi korral kaaluda kodanike valduses olevate bitcoinide konfiskeerimist. Võib-olla hakatakse homme bitcoin'i omanikke pidama kriisikasuvõtjateks ja nende kapitalikasumit maksustatakse fiatvaluuta devalveerimise tõttu ülemäära kõrgelt.
 
-Te võite arvata, et see ei ole probleem, sest teie bitcoinid on segatud ja seega jälgimatud. Kuid jälgitavus ei ole siinkohal probleemiks. Tegelik probleem on see, et riik teab, et teil on bitcoinid olemas. Sellest lihtsast teabest võib piisata, et teid süüdistada või nõuda kontot. Te võite üritada väita, et olete bitcoinid ära kulutanud, kuid see peaks kajastuma teie maksudeklaratsioonis ja teid avastataks. Võiksite ka öelda, et kaotasite oma võtmed laevaõnnetuses, kuid kas te tõesti arvate, et peale Twitteri nalja piisab sellest, et teid õigeks mõista?
+Te võite arvata, et see ei ole probleem, sest teie bitcoinid on segatud ja seega jälgimatud. Kuid jälgitavus ei ole siinkohal probleemiks. Tegelik probleem on see, et riik teab, et te olete bitcoinide omanik. Ainuüksi sellest teabest võib piisata, et teid süüdi mõista või vastutusele võtta. Sa võid püüda väita, et oled oma bitcoinid ära kulutanud, kuid see peaks kajastuma sinu maksudeklaratsioonis ja sa jääksid kinni. Võiksite ka öelda, et kaotasite oma võtmed laevaõnnetuses, kuid kas te tõesti arvate, et peale Twitteri nalja piisab sellest, et teid õigeks mõista?
 
-Seetõttu on oluline kaaluda riski, mis on seotud lihtsa asjaoluga, et riik võib teada saada, et te omate BTC-d, kuigi see risk võib täna tunduda kaugel.
+Seega on oluline arvestada riskiga, et riik teab, et te olete BTC omanikuks olnud, ükskõik kui väike see risk täna ka ei tunduks.
 
-Teine küsimus, mida KYC tekitab riikliku järelevalve osas, on reguleeritud platvormide kohustuslik aruandlus. Kuigi ma ei tunne teiste jurisdiktsioonide regulatsioone, on Prantsusmaal _digitaalsete varade teenusepakkujad_ (PSAN) kohustatud teatama finantsjärelevalvele igast rahaliste vahendite liikumisest, mida nad peavad kahtlaseks.
+Teine probleem, mida KYC tekitab riikliku järelevalve seisukohalt, on reguleeritud platvormide kohustuslik aruandlus. Kuigi ma ei ole kursis teiste jurisdiktsioonide regulatsioonidega, on Prantsusmaal *Prestataires de Services sur Actifs Numériques* (PSAN) kohustatud teatama finantsjärelevalveasutustele igast rahaliste vahendite liikumisest, mida nad peavad kahtlaseks.
 
-Seega teatasid PSANid Prantsusmaal 2023. aastal 1449 kahtlastest tegudest. Praegu on enamik neist tegudest seotud kuritegevusega. Kuid ametiasutused paluvad ka reguleeritud platvormidel teatada kõigist kahtlastest Bitcoini tehingutest, mis põhinevad üksnes selle struktuuril. Kui te teete ühistehingu või isegi lihtsalt tehingu, millel on mõnevõrra ebatüüpiline muster, ja see tehing toimub nende platvormide bitcoinide väljavõtmise läheduses, võite sattuda ametiasutustele teatada. Isegi kui te ei ole rikkunud midagi ja kasutate oma õigusi seaduslikult, võib see teatamine kaasa tuua suurema kontrolli ja järelevalve, mis on ebamugavused, mida te oleksite ilma KYC-ta vältinud.
+Prantsusmaal teatasid 2023. aastal PSANid 1449 kahtlastest tegudest. Praegu on enamik neist tegudest seotud kuritegevusega. Siiski paluvad ametiasutused ka reguleeritud platvormidel teatada kõigist kahtlastest Bitcoini tehingutest üksnes nende struktuuri alusel. Kui te teostate ühistehingu või isegi lihtsalt veidi ebatüüpilise mustriga tehingu ja see tehing toimub mitte kaugel teie bitcoinide väljavõtmisest nendelt platvormidelt, võite leida end ametiasutustele teatatuna. Isegi kui ei ole tegemist kuritahtliku tegevusega ja te kasutate oma õigusi õiguspäraselt, võib selline teatamine viia suurenenud kontrollide ja järelevalvega, mida te oleksite ilma KYC-ta vältinud.
 
-### Isikuandmete kadumise oht
+### Isikuandmete lekke oht
 
-Teine probleem KYCi puhul seisneb selles, et see nõuab kõigi teie isikuandmete säilitamist eraettevõtte serverites. Hiljutised sündmused on meile meelde tuletanud, et keegi ei ole kaitstud ebaõnnestumiste eest, olgu need siis finants- või IT-ga seotud. Aastal 2022 kannatasid Celsiuse kliendid selle tagajärgede all. Ettevõtte pankroti tagajärjel avalikustas USA õigussüsteem haldusmenetluse käigus võlausaldajate nimed ja nende varade suuruse.
+Teine probleem KYCi puhul on see, et see nõuab kõigi teie isikuandmete salvestamist eraettevõtte serverites.
 
-Veidi üle kahe aasta tagasi varastati ühe juhtiva küberturvalisuse üksuse krüptovaluutade valdkonnas klientide isikuandmeid. Kuigi see juhtum ei olnud otseselt seotud bitcoini ostmisega, jääb see risk ka vahetusplatvormide jaoks. Seega on nende isikuandmetega seotud risk kindlalt olemas.
+Hiljutised sündmused on meile meelde tuletanud, et keegi ei ole finants- või IT-katkestuste eest kaitstud. Aastal 2022 kannatasid Celsiuse kliendid tagajärgede all. Pärast ettevõtte pankrotti avalikustasid Ameerika kohtud haldusmenetluse käigus võlausaldajate nimed ja nende varade suuruse.
 
-On tõsi, et me usaldame juba praegu suure osa oma isikuandmetest eraettevõtetele. Kuid siin on oht kahekordne, sest need andmed ei võimalda teid mitte ainult tuvastada, vaid on seotud ka bitcoini tegevusega. Tõepoolest, kui häkkeril on võimalik pääseda ligi vahetusplatvormi klientide andmetele, võib ta põhjendatult eeldada, et need kliendid on bitcoinide omanikud. Seda riski suurendab seega asjaolu, et bitcoin, nagu iga muu väärtuslik vara, äratab varaste huvi.
+Veidi rohkem kui kaks aastat tagasi oli tegemist krüptoraha küberturvalisuse lipulaevaga, mille klientide isikuandmed varastati. Kuigi see intsident ei olnud otseselt seotud bitcoinide ostmisega, jääb selline risk ka vahetusplatvormidele. Isikuandmetega on seega kindel risk.
 
-Andmekaitserikkumise korral võite parimal juhul olla sihtotstarbeliste andmepüügikatsete sihtmärgiks. Halvemal juhul võite sattuda oma kodu füüsilise ohu keskmesse.
+On tõsi, et me usaldame juba praegu paljud oma isikuandmed eraettevõtetele. Kuid siin on oht kahekordne, sest need andmed mitte ainult ei identifitseeri teid, vaid on seotud ka Bitcoini tegevusega. Tõepoolest, kui häkker saab juurdepääsu vahetusplatvormi kliendiandmetele, võib ta põhjendatult eeldada, et need kliendid omavad Bitcoine. Seda riski suurendab asjaolu, et Bitcoin, nagu iga muu väärtuslik vara, äratab varaste tähelepanu.
 
-Lisaks Bitcoiniga seotud spetsiifilistele riskidele tuleb arvestada ka isikut tõendavate dokumentide edastamisega seotud ohtudega. Nimelt on andmete lekkimise korral võimalik sattuda identiteedivarguse ohvriks. Seega ei piirdu kaalul olevad küsimused ainult tehingute konfidentsiaalsuse kaitsmisega, vaid mõjutavad ka iga üksikisiku isiklikku turvalisust.
+Andmete lekkimise korral võite parimal juhul olla sihtotstarbeliste andmepüügikatsete sihtmärgiks. Halvemal juhul võite sattuda oma kodu füüsilise ohu keskmesse.
 
-### Levinud vääritimõistmised seoses KYCiga
+Lisaks Bitcoiniga seotud konkreetsetele riskidele on olemas ka ohud, mis on seotud isikut tõendavate dokumentide edastamisega. Nimelt on andmete lekkimise korral võimalik sattuda identiteedivarguse ohvriks. Seega ei piirdu panused ainult tehingute konfidentsiaalsuse kaitsmisega, vaid puudutavad ka iga üksikisiku isiklikku turvalisust.
 
-Oluline on hajutada mõned levinud väärarusaamad KYCi kohta, mida sageli Twitteris või meie aruteludes bitcoin'i kasutajate seas leidub.
+### Mõned eelarvamused KYCi kohta
 
-Esiteks on vale arvata, et KYC (Know Your Customer) kaudu omandatud bitcoinide privaatsuse kaitsmine on kasutu. Bitcoini privaatsuse tagamise vahendid ja meetodid on mitmekesised ja teenivad erinevaid eesmärke. Näiteks KYCist bitcoini tehingute kasutamine coinjoiniga ei ole halb mõte. Loomulikult peate olema ettevaatlik reguleeritud vahetusplatvormide puhul, et vältida oma konto külmutamist või keelustamist, kuid rangelt tehnilisest vaatenurgast ei ole need tavad ühildamatud. Coinjoinil on müntide ajaloo katkestamine, mis aitab võidelda mõne KYC-ga seotud ahelanalüüsi riski vastu. Kuigi see ei kõrvalda kõiki riske, on see juba märkimisväärne eelis.
+Oluline on lahti mõtestada mõned eelarvamused KYCi kohta, millega me sageli Twitteris või bitcoin'idega suhtlemisel kokku puutume.
 
-Bitcoini privaatsust ei tohiks vaadelda binaarselt, eristades "anonüümseid" bitcoine ja teisi, mis ei ole seda. KYCi kaudu omandatud bitcoinide omamine ei tähenda, et kõik on kadunud; vastupidi, privaatsusvahendite kasutamine võib osutuda isegi kasulikumaks.
+Esiteks on ebatäpne arvata, et KYC-i kaudu omandatud bitcoinide privaatsuse kaitsmine on mõttetu. Bitcoini privaatsusvahendid ja -meetodid on erinevad ja teenivad erinevaid eesmärke. Näiteks KYC-i kaudu omandatud Bitcoinide puhul ei ole coinjoin-tehingute kasutamine halb mõte. Loomulikult peate olema ettevaatlik reguleeritud vahetusplatvormide puhul, et vältida oma konto külmutamist või keelustamist, kuid rangelt tehnilisest vaatenurgast ei ole need tavad ühildamatud. Coinjoinil on müntide ajaloo purustamine, mis aitab teil seega ära hoida teatud KYC-ga seotud ahelanalüüsi riske. Kuigi see ei kõrvalda kõiki riske, on see siiski märkimisväärne eelis.
 
-Seevastu bitcoinide omandamine mitte-KYC-meetodi kaudu ei taga täiuslikku privaatsust ega vabasta teid vajadusest võtta muid kaitsemeetmeid. Kui te omate mitte-KYC bitcoin'e, kuid kasutate vastuvõtuaadresse mitu korda uuesti, võidakse teie tehinguid jälgida ja rühmitada. Väikseimgi ühendus bitcoini välise maailmaga võib ohustada teie ainukest privaatsuskihti. Seetõttu on oluline pidada kõiki vahendeid ja meetodeid, mis parandavad Bitcoini privaatsust, üksteist täiendavaks. Iga tehnika tegeleb konkreetse riskiga ja võib lisada täiendava kaitsekihi. Seega ei vabasta KYC-väliste bitcoinide omamine teid absoluutselt teiste ettevaatusabinõude võtmisest.
+![BTC204](assets/fr/080.webp)
 
-### Kas KYC-i saab tühistada?
+Bitcoini konfidentsiaalsust ei tohiks vaadelda binaarselt, eristades "anonüümseid" bitcoine ja teisi, mis ei ole seda. KYC-i kaudu omandatud bitcoinide omamine ei tähenda, et kõik on kadunud; vastupidi, konfidentsiaalsusvahendite kasutamine võib osutuda isegi kasulikumaks.
 
-Minult küsitakse mõnikord, kas pärast KYCi lõpetamist on võimalik "tagasi minna", ja nagu eelnevatest lõikudest võite ette kujutada, on vastus nüansirikas. KYC-ga seotud riskide vältimiseks on kõige lihtsam meetod, kui seda bitcoinide omandamisel ei kasutata. Seda teemat käsitleme lähemalt järgmises peatükis. Kui aga KYC on juba tehtud ja bitcoinid on ostetud, siis kas on võimalusi tekkinud riskide vähendamiseks?
+Seevastu bitcoini omandamine mitte-KYC-meetodi kaudu ei taga täiuslikku konfidentsiaalsust ega vabasta teid vajadusest võtta muid kaitsemeetmeid. Kui te omate bitcoin'e, mis ei ole KYC, kuid kasutate vastuvõtuaadresse mitu korda, võidakse teie tehinguid jälgida ja koondada. Väikseimgi side Bitcoini välise maailmaga võib ohustada teie ainukest konfidentsiaalsuskihti. Seega on oluline pidada kõiki Bitcoini privaatsust suurendavaid vahendeid ja meetodeid üksteist täiendavaks. Iga tehnika tegeleb konkreetse riskiga ja võib lisada täiendava kaitsekihi. Seega ei tähenda KYC-i mittekasutava Bitcoini omamine, et te ei pea võtma muid ettevaatusabinõusid.
 
-Mis puutub tehingute jälgimise riski, siis üks lahendus on coinjoini kasutamine. Seda meetodit käsitleme üksikasjalikult hiljem koolituse käigus, kuid teadke, et coinjoin võib häirida mündi ajalugu ja takistada selle mineviku- oleviku ja oleviku- mineviku jälgitavust. Isegi BTC puhul, mis on saadud reguleeritud platvormi kaudu, võib see meetod takistada selle jälgitavust.
+### Kas KYCi saab tühistada?
 
-Kuid coinjoin ei kõrvalda teist KYC-ga seotud riski: asjaolu, et riik on teie bitcoinide valdustest informeeritud. Tegelikult, isegi kui teie mündid ei ole enam jälgitavad, võib riigil sõltuvalt jurisdiktsioonist olla juurdepääs teie krüptoaktiivsetele võõrandamisaruannetele. Kuna see risk ei ole tehniline, vaid halduslik, ei ole bitcoin-spetsiifilisi lahendusi selle kõrvaldamiseks, välja arvatud esialgu KYC-ga kokkupuute vältimine. Ainus seaduslik lähenemisviis selle riski vähendamiseks on müüa oma reguleeritud platvormide kaudu omandatud bitcoinid reguleeritud platvormidel ja seejärel osta need tagasi ilma KYC-ta vahendite abil. Müües ja deklareerides võõrandamise, peaks administratsioon märkima, et te ei ole enam nende omanik.
+Minult küsitakse mõnikord, kas pärast KYCi sooritamist on võimalik "tagasi minna", ja nagu eelnevatest punktidest võite ette kujutada, on vastus nüansirikas. Kõige lihtsam viis KYCiga seotud riskide vältimiseks on mitte kasutada seda bitcoinide omandamisel. Vaatleme seda teemat põhjalikumalt järgmises peatükis. Kui aga KYC on juba läbi viidud ja bitcoinid ostetud, siis kas on võimalusi, kuidas sellega seotud riske leevendada?
 
-Mis puutub teie isikuandmete ja isikut tõendavate dokumentide avalikustamise ohtu, siis see on Bitcoini väline oht ja selle vältimiseks ei ole tehnilist lahendust. Kui teie andmed on avalikustatud, on seda raske tagasi pöörata. Võite proovida oma konto platvormil sulgeda, kuid see ei garanteeri teie KYC-andmete kõrvaldamist, eriti kui identiteedi kontroll on sisse ostetud. Teie andmete täieliku kõrvaldamise kontrollimine on võimatu. Seetõttu ei ole võimalik seda riski täielikult ära hoida ja tagada, et seda enam ei eksisteeriks.
+Kui tegemist on teie tehingute jälgimise riskiga, on lahenduseks coinjoin'i kasutamine. Vaatame seda meetodit üksikasjalikult hiljem kursuse jooksul, kuid te peaksite teadma, et coinjoin võimaldab teil katkestada mündi ajalugu ja vältida selle jälgimist minevikust-olevikust ja olevikust-olevikust. Isegi reguleeritud platvormi kaudu saadud BTC puhul saab selle tehnikaga vältida nende jälgitavust.
+
+Coinjoin ei kõrvalda siiski teist KYC-ga seotud riski: asjaolu, et riiki võidakse teavitada teie bitcoinide omamisest. Isegi kui teie mündid ei ole enam jälgitavad, võib riigil sõltuvalt jurisdiktsioonist olla juurdepääs teie krüptovarade ülekandmise deklaratsioonidele. Kuna see risk ei ole tehniline, vaid administratiivne, ei ole selle kõrvaldamiseks mingeid Bitcoin-spetsiifilisi lahendusi, välja arvatud see, et KYC-ile üldse mitte avatud olla. Ainus seaduslik lähenemisviis selle riski vähendamiseks on müüa reguleeritud platvormidel oma reguleeritud platvormide kaudu omandatud bitcoinid ja osta need seejärel KYC-vabalt tagasi. Müües ja deklareerides ülekande, peaksid ametiasutused nägema, et te ei ole enam nende omanik.
+
+Mis puutub isikuandmete ja isikut tõendavate dokumentide lekkimise ohtu, siis see on Bitcoini väline oht ja selle vältimiseks ei ole tehnilist lahendust. Kui teie andmed on kord avalikustatud, on operatsiooni raske tagasi võtta. Võite proovida oma konto platvormil sulgeda, kuid see ei garanteeri teie KYC-andmete kustutamist, eriti kui identiteedi kontrollimine on sisse ostetud. Teie andmete täieliku kustutamise kontrollimine on võimatu. Seetõttu ei ole võimalik seda riski täielikult ära hoida ja tagada, et seda enam ei eksisteeriks.
 
 ### Erinevus KYC ja võtme identifitseerimise vahel
 
-Mõnikord kalduvad mõned bitcoin'i kasutajad laiendama terminit "KYC" mis tahes BTC-vahetusele, mis hõlmab ülekannet või krediitkaardimakseid, kuna need vahendid võivad samuti paljastada makse päritolu, nagu KYC. Siiski on oluline mitte segi ajada KYCi ja võtme tuvastamist. Isiklikult pean tunnistama, et minu arusaam sellest teemast on aja jooksul muutunud.
+Mõnikord kalduvad mõned bitcoin'i kasutajad laiendama terminit "KYC" mis tahes BTC-vahetusele, mis hõlmab ülekannet või krediitkaardimakseid, kuna need vahendid võivad samuti paljastada makse päritolu, täpselt nagu KYC. KYCi ei tohiks siiski segi ajada võtme tuvastamisega. Isiklikult pean tunnistama, et minu arusaam sellest teemast on aja jooksul muutunud.
 
-KYC viitab konkreetselt regulatiivsele menetlusele, mida mõned ettevõtted rakendavad oma klientide isikusamasuse kontrollimiseks ja registreerimiseks. See on binaarne küsimus: kui te omandate bitcoin'e, siis kas allute KYC-le või ei allu. Kuid võtme tuvastamine, mille eesmärk on siduda kasutaja identiteedi aspekt ahelas toimuva tegevusega, ei ole nii binaarne, vaid kujutab endast pigem kontiinumit. Bitcoini ostmise või müümise kontekstis on see identifitseerimine tõepoolest alati erineval määral võimalik.
+KYC viitab konkreetselt regulatiivsele menetlusele, mida teatavad ettevõtted rakendavad oma klientide isikusamasuse kontrollimiseks ja registreerimiseks. See on binaarne asi: bitcoinide omandamisel kas teete KYC-i või mitte. Kuid võtme tuvastamine, mis puudutab seost kasutaja identiteedi ühe tahu ja ahelas toimuva tegevuse vahel, ei ole nii binaarne, vaid kujutab endast pigem kontinuumi. Bitcoini omandamise või ülekandmise kontekstis on selline identifitseerimine tõepoolest alati erineval määral võimalik.
 
-Näiteks kui ostate bitcoini Šveitsis reguleeritud platvormilt, ei ole KYC (Know Your Customer) nõutav. Siiski võib olla teie võtmete tuvastamine, kuna ost toimus teie pangakonto kaudu. Siinkohal tekivad kaks esimest KYC-ga seotud riski - ahela jälgimise hõlbustamine ja kokkupuude valitsuse jälgimisega -, mis võivad ilmneda ka KYC-ga mitteseotud vahetuses. Kui Šveitsi üksus teatab teie riigi ametiasutustele kahtlastest tehingutest, võivad nad teie isiku tuvastamiseks lihtsalt kontrollida ostuks kasutatud pangakontot. Seega on ilma KYC-ta ostmine reguleeritud platvormidel võtme tuvastamise riskiskaalal üsna kõrge.
+Näiteks kui ostate bitcoin'e Šveitsis reguleeritud platvormilt, ei ole KYC nõutav. Siiski võidakse teie võtmed tuvastada, kuna ostu sooritati teie pangakonto kaudu. Siinkohal võivad KYC-ga seotud kaks esimest riski - ahela jälgimise hõlbustamine ja kokkupuude riikliku järelevalvega - ilmneda ka KYC-ita vahetuses. Kui Šveitsi üksus teatab teie riigi ametiasutustele kahtlastest tehingutest, võivad nad teie isiku tuvastamiseks lihtsalt kontrollida ostuks kasutatud pangakontot. Seega on ilma KYC-ta ostmine reguleeritud platvormidel võtme tuvastamise riskiskaalal üsna kõrge.
 
-Reguleeritud platvormide vältimine ja P2P (Peer-to-Peer) omandamismeetodite valimine ei kõrvalda siiski täielikult võtmete tuvastamise riski, vaid vähendab seda lihtsalt. Võtame näiteks ostu Bisqi või mõne muu P2P-platvormi kaudu. Vastaspoolega arveldamiseks kasutate tõenäoliselt oma pangakontot. Kui ametiasutused küsitlevad isikut, kellega te kauplesite, ja küsivad teie nime, puutume kokku eespool nimetatud riskidega 1 ja 2. Need riskid on kindlasti palju väiksemad kui platvormil ilma KYC-ga ostmisel ja isegi väiksemad kui KYC-ga ostmisel, kuid need on siiski vähesel määral olemas.
+![BTC204](assets/fr/081.webp)
 
-Lõpuks, isegi kui ostate bitcoinid füüsilise rahavahetuse kaudu, ei ole te täiesti anonüümne. Isik, kellega te äri tegite, nägi teie nägu, mis on osa teie identiteedist. Kuigi selle näite puhul on tuvastamisvõtme võimalus minimaalne, on see siiski olemas.
+Reguleeritud platvormide vältimine ja P2P omandamismeetodite valimine ei kõrvalda siiski täielikult võtmete tuvastamise riski, vaid üksnes vähendab seda. Võtame näiteks ostu Bisqi või mõne muu P2P-platvormi kaudu. Oma vastaspoolele maksmiseks kasutate tõenäoliselt oma pangakontot. Kui ametiasutused küsitlevad isikut, kellega olete kaubelnud, ja küsivad teie nime, oleme taas riskide 1 ja 2 juures. Kuigi need riskid on palju väiksemad kui KYC-ta ostmisel platvormilt ja isegi väiksemad kui KYC-ga ostmisel, on need siiski vähesel määral olemas.
 
-Kokkuvõtteks, bitcoini vahetamise ajal teiste varade vastu, olgu see siis fiat-valuuta ost või müük reaalse vara vastu, on alati olemas mingi võtme identifitseerimise vorm. Sõltuvalt valitud vahetusmeetodist võib see identifitseerimine olla erineva intensiivsusega. Oluline on mitte segi ajada seda identifitseerimist KYCiga, mis on täpselt määratletud regulatiivne protsess. Küll aga on KYC ja identifitseerimisspektri vahel seos, sest KYC on selle spektri ülemises otsas, kuna see hõlbustab süstemaatiliselt kasutajate võtmete tuvastamist ametiasutuste poolt.
+![BTC204](assets/fr/082.webp)
+
+Lõpuks, isegi kui te omandate oma bitcoinid füüsilise rahavahetuse kaudu, ei ole te täiesti anonüümne. Isik, kellega vahetasite, on näinud teie nägu, mis on osa teie identiteedist. Kuigi selle näite puhul on see minimaalne, on siiski võimalus võtme tuvastamiseks.
+
+![BTC204](assets/fr/083.webp)
+
+Kokkuvõtteks, kui bitcoinid vahetatakse teiste varade vastu, olgu see siis ostmine riigi valuutas või müük reaalse kauba vastu, on alati olemas mingi võtme identifitseerimise vorm. Sõltuvalt valitud vahetamismeetodist võib see identifitseerimine olla erineva intensiivsusega. Oluline on mitte segi ajada seda identifitseerimist KYCiga, mis on täpselt määratletud regulatiivne protsess. Küll aga on olemas seos KYCi ja identifitseerimisspektri vahel, sest KYC on spektri kõrgemas otsas, kuna see hõlbustab süstemaatiliselt kasutajate võtmete tuvastamist ametiasutuste poolt.
 
 ## Müügi- ja omandamismeetodid
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
-Pärast eelmise peatüki lugemist võite mõelda, kuidas osta või müüa bitcoin'e, ilma et peaksite läbima isikusamasuse kontrollimise protsessi, et vältida KYC-ga seotud riske. Vahetuste tegemiseks on mitmeid meetodeid.
+![La confidentialité sur Bitcoin](https://youtu.be/tSLMwfvQVWQ?feature=shared)
 
-### P2P-vahetused sularahas
+Pärast eelmise peatüki lugemist võite küsida, kuidas saate osta või müüa bitcoine, ilma et peaksite läbima isikusamasuse kontrollimise protseduuri, et vältida KYC-ga seotud riske. Bitcoiniga kauplemiseks on mitu võimalust.
 
-Nagu me nägime, on privaatsuse seisukohast parim meetod endiselt P2P (peer-to-peer) vahetus koos sularahaarveldusega. See meetod võimaldab vähendada maha jäävaid jälgi ja vähendab oluliselt võtme tuvastamise võimalust, olgu te siis ostja või müüja.
+### P2P sularahavahetused
 
-See praktika toob aga kaasa isiklikke julgeolekuriske. Peamine oht seisneb selles, et vahetuse ajal saab vastaspool teada, et teil on märkimisväärne summa kas sularahas või bitcoinides. See teave võib äratada pahatahtlike isikute tähelepanu. Tegelikult soovitatakse üldiselt jääda bitcoinide omamise osas diskreetseks. Seda nõuannet võib kohaldada ka sularaha suhtes. Isikliku vahetuse ajal on aga vältimatu avaldada, et te omate bitcoin'e, mis võib tekitada ahnust.
+Nagu me nägime, on konfidentsiaalsuse seisukohalt parim meetod endiselt P2P (person-to-person) vahetus koos sularahaarveldusega. See meetod võimaldab teil minimeerida maha jäävaid jälgi ja vähendab oluliselt võtme tuvastamise võimalust, olenemata sellest, kas te ostate või müüte.
 
-Selle riski piiramiseks soovitan teil eelistada sularahatehinguid usaldusväärsete inimestega, näiteks pereliikmete või lähedaste sõpradega. Alternatiivina võite kaaluda ka [kohalikel Bitcoini kohtumistel] (https://btcmap.org/communities/map) tehtavaid vahetusi, kui olete seal mitu korda osalenud. See võimaldab teil teisi osalejaid paremini tundma õppida ja mitte olla füüsilise vahetuse ajal üksi. Oluline on siiski tunnistada, et P2P-sularahavahetusega kaasnevad olemuslikult riskid teie isiklikule turvalisusele, mida ei ole olemas, kui teete oste reguleeritud platvormi ja pangakonto kaudu.
+![BTC204](assets/fr/084.webp)
 
-Samuti võib sõltuvalt elukohast suurte rahasummade transportimine ja hoiustamine kujutada endast ohtu, olenemata sellest, kas tegemist on bitcoini või sularahaga.
+Sellest hoolimata on isikliku julgeoleku riskid. Peamine oht seisneb selles, et vahetuse ajal saab vastaspool teada, et teil on suur summa raha kas sularahas või bitcoinides. See teave võib äratada pahatahtlike isikute tähelepanu. Tõepoolest, üldiselt on soovitav olla oma bitcoinide valduste suhtes diskreetne. Seda nõuannet võiks kohaldada ka sularaha suhtes. Isiklikult vahetades on aga paratamatu avaldada, et te omate bitcoin'e, ja see võib äratada ebasoovitavat tähelepanu.
 
-Sularaha vahetamine võib politsei- või muude kontrollide käigus tekitada ka õiguslikke riske. Kuigi enamikus riikides ei ole sularahasumma kaasaskandmisele piiranguid, võivad liiga suured summad tekitada kahtlusi. Seepärast olge ettevaatlik, eriti kui peate reisima pikemaid vahemaid, ja vältige korraga liiga suuri tehinguid, et te ei peaks põhjendama märkimisväärsete summade omamist.
+![BTC204](assets/fr/085.webp)
 
-Lõpuks on P2P-ostude teine puudus see, et hind on sageli kõrgem kui reguleeritud platvormidel täheldatud hind. Müüjad kehtestavad sageli lisatasu, mis ulatub 1%-st kuni mõnikord üle 10%. Seda hinnavahe on seletatav mitmel põhjusel. Esiteks on see P2P-müüjate seas levinud tava, mis on aja jooksul välja kujunenud. Lisaks sellele on müüjatel ostjale raha saatmisega seotud tehingutasud. Samuti on P2P-müügi puhul suurem vargusrisk kui platvormitehingute puhul, mis õigustab tasu võtmise riski eest. Lõpuks võib lisatasu olla seotud nõudluse ja börsi kvaliteediga seoses privaatsusega. Ostjana hinnatakse privaatsustasu sisse müüja poolt nõutavasse lisatasu. Mõned bitcoin'i kasutajad usuvad ka, et P2P-s ostetud BTC-de kõrgem hind peegeldab nende tegelikku väärtust, ja väidavad, et reguleeritud platvormidel kehtivad madalamad hinnad on teie isikliku teabe privaatsuse kompromissi tulemus.
+Selle riski piiramiseks soovitan teil eelistada sularahatehinguid usaldusväärsete isikutega, näiteks pereliikmete või lähedaste sõpradega. Alternatiivina võiksite kaaluda ka [kohalikel Bitcoini kohtumistel] (https://btcmap.org/communities/map) kauplemist, kui olete paar korda seal osalenud. See võimaldab teil teisi osalejaid paremini tundma õppida ja mitte olla füüsiliselt vahetades üksi. Siiski on oluline tunnistada, et P2P-sularahavahetusega kaasnevad olemuslikult riskid teie isiklikule turvalisusele, mida ei ole olemas, kui ostate reguleeritud platvormi ja pangakonto kaudu.
 
-### P2P-vahetused sobitusplatvormi kaudu
+Veelgi enam, sõltuvalt sellest, kus te elate, võib suurte rahasummade transportimine ja säilitamine olla riskantne, olenemata sellest, kas tegemist on bitcoini või sularahaga.
+
+Sularaha vahetamine võib politsei- või muude kontrollide korral kujutada endast ka õiguslikke riske. Kuigi enamikus riikides ei ole piiranguid sularahasumma suhtes, mida võite kaasas kanda, võivad liigsed summad tekitada kahtlusi. Seega olge ettevaatlik, eriti kui peate reisima pikemaid vahemaid, ja vältige liiga paljude suurte tehingute tegemist korraga, et mitte põhjendada suurte summade omamist.
+
+Lõpuks on P2P-ostude teine puudus see, et hind on sageli kõrgem kui reguleeritud platvormidel. Müüjad võtavad sageli hinnalisandit, mis ulatub 1%-st kuni mõnikord üle 10%. Sellel hinnavaheel on mitu põhjust. Esiteks on see P2P-müüjate seas levinud tava, mis on aja jooksul välja kujunenud. Teiseks on müüjatel tehinguga seotud tasud, et saata raha ostjale. Samuti on P2P-müügi puhul suurem varguse oht võrreldes platvormitehingutega, mis õigustab võetud riski hüvitamist. Lõpuks võib lisakulu olla seotud nõudluse ja vahetuse kvaliteediga konfidentsiaalsuse osas. Ostjana on konfidentsiaalsuse suurendamise hind, mis kajastub müüja poolt kohaldatavas hinnalisas. Mõned bitcoin'i kasutajad usuvad ka, et P2P kaudu ostetud BTC hinnalisand peegeldab selle tegelikku hinda, ja väidavad, et reguleeritud platvormidel kehtivad madalamad hinnad tulenevad teie isikuandmete konfidentsiaalsuse kompromissist.
+
+![BTC204](assets/fr/086.webp)
+
+### P2P-vahetused vahendusplatvormi kaudu
 
 Isikliku turvalisuse seisukohalt on vähem riskantne alternatiiv P2P-vahetuste tegemine ainult internetis, kasutades elektroonilisi makseviise, nagu PayPal, pangaülekanded või Revolut.
 
-Selline lähenemine aitab vältida paljusid sularahatehingutega seotud riske. Siiski on suurem risk, et vastaspool ei täida oma kohustusi veebipõhise vahetuse ajal. Kui te füüsilise vahetuse ajal annate raha üle müüjale, kes ei saada teile bitcoine vastutasuks, saate teda kohe välja kutsuda, sest ta seisab teie ees. Internetis seevastu on sageli võimatu leida inimest, kes on sinult varastanud.
+![BTC204](assets/fr/087.webp)
 
-Selle riski vähendamiseks võib P2P-vahetuseks kasutada spetsiaalseid sobitusplatvorme. Need platvormid kasutavad konfliktide lahendamise mehhanisme, et kaitsta kahjustatud kasutajaid. Üldiselt pakuvad nad eskrovisüsteemi, kus bitcoine hoitakse seni, kuni müüja on kinnitanud makse fiat-valuutas.
+Selline lähenemine väldib paljusid sularahatehingutega seotud riske. Samas on internetipõhise vahetuse puhul suurem oht, et vastaspool ei suuda täita oma kohustusi. Tõepoolest, kui te füüsilise vahetuse puhul annate raha üle müüjale, kes ei saada teile bitcoine vastutasuks, saate teda kohe vastutusele võtta, sest ta seisab teie ees. Internetis seevastu on sageli võimatu leida kedagi, kes on sinult varastanud.
 
-Isikliku turvalisuse seisukohalt on see ostumeetod oluliselt turvalisem kui füüsiline sularaha vahetamine. Kuid nagu varem mainitud, jätavad veebipõhised P2P-vahetused rohkem jälgi kui füüsiline vahetus, mis võib kahjustada Bitcoini privaatsust. Kasutades veebipõhist fiat-makseviisi, näiteks pangas, paljastate rohkem teavet, mis võib hõlbustada võtme tuvastamist.
+![BTC204](assets/fr/088.webp)
 
-Veel kord, ma soovitan nende platvormide puhul vältida suuri tehinguid ühe tehinguga. Tehinguid jagades hajutate vastaspoole võimaliku vargusega seotud riske.
+Selle riski vähendamiseks on võimalik kasutada P2P-vahetuseks spetsialiseeritud platvorme. Need platvormid kasutavad konfliktide lahendamise mehhanisme, et kaitsta kahjustatud kasutajaid. Tavaliselt pakuvad nad eskrovisüsteemi, kus bitcoine hoitakse seni, kuni müüja on kinnitanud makse fiat-valuutas.
 
-Teine P2P-ostude puudus on see, et hind on sageli kõrgem kui reguleeritud platvormidel täheldatud hind. Müüjad kehtestavad sageli lisatasu, mis ulatub 1%-st kuni mõnikord üle 10%. Seda hinnavahe on seletatav mitmel põhjusel. Esiteks on see P2P-müüjate seas levinud tava, mis on aja jooksul välja kujunenud. Lisaks sellele on müüjatel ostjale raha saatmisega seotud tehingutasud. Samuti on P2P-müügi puhul suurem vargusrisk kui platvormitehingute puhul, mis õigustab tasu võtmise riski eest. Lõpuks võib lisatasu olla seotud nõudluse ja börsi kvaliteediga seoses privaatsusega. Ostjana hinnatakse privaatsustasu sisse müüja poolt nõutavasse lisatasu. Mõned bitcoin'i kasutajad usuvad ka, et P2P kaudu ostetud BTC kõrgem hind peegeldab selle tegelikku väärtust, ja väidavad, et reguleeritud platvormidel kehtivad madalamad hinnad on teie isikliku teabe privaatsuse kompromissi tulemus.
+![BTC204](assets/fr/089.webp)
 
-Mis puutub lahendustesse, siis mina isiklikult olen alati kasutanud [Bisq](https://bisq.network/) ja olen nendega väga rahul. Nende süsteem on hästi tõestatud ja tundub usaldusväärne. Bisq on siiski saadaval ainult arvutis ja selle kasutajaliides võib olla algajatele liiga keeruline. Teine puudus on see, et Bisq töötab ainult onchain-tehingutega, mis võib Bitcoini kõrgete tehingutasude ajal muutuda kalliks.
+Isikliku turvalisuse seisukohalt on see ostumeetod oluliselt turvalisem kui füüsiline sularaha vahetamine. Kuid nagu eespool mainitud, jätavad veebipõhised P2P-vahetused rohkem jälgi kui füüsiline vahetus, mis võib kahjustada Bitcoini privaatsust. Kasutades veebipõhist fiat-makseviisi, näiteks pangas, paljastate rohkem teavet, mis võib hõlbustada võtme tuvastamist.
 
--> Tutvuge meie õpetusega Bisq.
+![BTC204](assets/fr/090.webp)
+
+Taas kord ei soovitaks ma neil platvormidel teha liiga palju suuri tehinguid ühe tehinguga. Jagades oma tehingud osadeks, hajutate vastaspoole varguse riski.
+
+Taas üks P2P-ostude puudus on see, et hind on sageli kõrgem kui reguleeritud platvormidel täheldatud hind. Müüjad võtavad sageli hinnalisandit, mis ulatub 1%-st kuni mõnikord üle 10%. Sellisel hinnavaheel on mitu põhjust. Esiteks on see P2P-müüjate seas levinud tava, mis on aja jooksul välja kujunenud. Teiseks on müüjatel tehinguga seotud tasud, et saata raha ostjale. Samuti on P2P-müügi puhul suurem varguse oht võrreldes platvormitehingutega, mis õigustab võetud riski hüvitamist. Lõpuks võib lisakulu olla seotud nõudluse ja vahetuse kvaliteediga konfidentsiaalsuse osas. Ostjana on konfidentsiaalsuse suurendamise hind, mis kajastub müüja poolt kohaldatavas hinnalisas. Mõned bitcoin'i kasutajad usuvad ka, et P2P kaudu ostetud BTC hinnalisand peegeldab selle tegelikku hinda, ja väidavad, et reguleeritud platvormidel kehtivad madalamad hinnad tulenevad teie isikuandmete konfidentsiaalsuse kompromissist.
+
+![BTC204](assets/fr/086.webp)
+
+Mis puutub lahendustesse, siis mina isiklikult olen alati kasutanud [Bisq](https://bisq.network/) ja olen sellega väga rahul. Nende süsteem on järeleproovitud ja tundub usaldusväärne. Siiski on Bisq saadaval ainult PC-l ja selle kasutajaliides võib olla algajatele liiga keeruline. Teine puudus on see, et Bisq töötab ainult onchain-tehingutega, mis võib muutuda kulukaks ajal, mil Bitcoini tehingutasud on kõrged.
+
+-> Vaata meie Bisqi õpetust.
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
-Lihtsama võimaluse saamiseks võite proovida [Peach] (https://peachbitcoin.com/), mobiilirakendust, mis hõlbustab ostjate ja müüjate vahelist ühendust koos integreeritud vaidluste lahendamise süsteemiga. Protsess on intuitiivsem kui Bisqi oma.
+Lihtsama variandi jaoks võite proovida [Peach] (https://peachbitcoin.com/), mobiilirakendust, mis ühendab ostjad ja müüjad sisseehitatud konfliktide lahendamise süsteemiga. Protsess on intuitiivsem kui Bisqi oma.
 
--> Tutvu meie õpetusega Peach'i kohta.
-
-Teine online-võimalus on [HodlHodl](https://hodlhodl.com/), mis on tuntud platvorm, mis pakub head likviidsust, kuigi ma isiklikult ei ole seda testinud.
-
--> Tutvu meie HodlHodli õpetusega.
+-> Vaata meie õpetust "Virsik".
 
 https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+Teine online-variant on [HodlHodl](https://hodlhodl.com/), mis on hästi tuntud platvorm, mis pakub head likviidsust, kuigi ma ei ole seda isiklikult testinud.
+
+-> Vaata meie HodlHodli õpetust.
+
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
-Lightning Networkil põhinevate lahenduste puhul võite proovida [RoboSats](https://learn.robosats.com/) ja [LNP2PBot](https://lnp2pbot.com/). RoboSats on kättesaadav veebisaidi kaudu ja seda on suhteliselt lihtne kasutada. LNP2PBot on ebatüüpilisem, sest see toimib sõnumivahetussüsteemi Telegram kaudu.
+Lightning Networkil põhinevate lahenduste jaoks proovige [RoboSats](https://learn.robosats.com/) ja [LNP2PBot](https://lnp2pbot.com/). RoboSats on kättesaadav veebisaidi kaudu ja seda on suhteliselt lihtne kasutada. LNP2PBot on ebatüüpilisem, sest see töötab Telegrami sõnumivahetussüsteemi kaudu.
 
--> Vaadake meie õpetust RoboSatsi kohta.
+-> Vaata meie RoboSatsi õpetust.
 
--> Vaadake meie õpetust LNP2PBoti kohta.
+-> Vaata meie LNP2PBot õpetust.
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+![BTC204](assets/fr/091.webp)
+
 ### Reguleeritud platvormid ilma KYC-ta
 
-Sõltuvalt sellest, millises riigis te elate, võib teil olla juurdepääs reguleeritud platvormidele, mis ei nõua bitcoini ostmiseks või müümiseks KYC-protseduuri. Näiteks Šveitsis saate kasutada selliseid platvorme nagu [Relai](https://relai.app/) ja [MtPelerin](https://www.mtpelerin.com/).
+Sõltuvalt riigist, kus te elate, võib teil olla juurdepääs reguleeritud platvormidele, mis ei nõua bitcoinide ostmiseks või müümiseks KYC-menetlust. Näiteks Šveitsis saate kasutada selliseid platvorme nagu [Relai](https://relai.app/) ja [MtPelerin](https://www.mtpelerin.com/).
 
--> Tutvu meie õpetusega Relai.
-
-Nagu nägime eelmises peatükis, säästab seda tüüpi platvorm teid KYC-menetlustega seotud riskidest, kuid need kujutavad endast suuremat riski võtmete tuvastamisel. Bitcoini privaatsuse seisukohast pakuvad need platvormid seega paremat kaitset kui KYC-ostumeetodid, kuid on vähem atraktiivsed kui P2P-vahetused.
-
-Isikliku turvalisuse seisukohast on nende platvormide kasutamine siiski oluliselt vähem riskantne kui P2P-börside kasutamine. Samuti on neid sageli lihtsam kasutada kui P2P-vahetust hõlbustavaid platvorme.
+-> Vaata meie õpetust Relai.
 
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
-### ATM
+Nagu nägime eelmises peatükis, säästab seda tüüpi platvorm teid KYC-menetlustega seotud riskidest, kuid need kujutavad endast suuremat riski võtmete tuvastamisel. Bitcoini konfidentsiaalsuse seisukohast pakuvad need platvormid seega paremat kaitset kui KYC-ga ostumeetodid, kuid nad jäävad vähem atraktiivseks kui P2P-vahetused.
 
-Teine võimalus bitcoini ostmiseks või müümiseks ilma KYC-ta on krüptoraha sularahaautomaadid (ATM). Minul isiklikult ei ole kunagi olnud võimalust seda lahendust katsetada, sest minu riigis ei ole neid olemas. Kuid see meetod võib olla väga huvitav, sõltuvalt sellest, kus te elate.
+Isikliku turvalisuse seisukohast on nende platvormide kasutamine siiski palju vähem riskantne kui P2P-vahetusportaalide kasutamine. Samuti on neid sageli lihtsam kasutada kui P2P-platvorme.
 
-Probleem sularahaautomaatidega on see, et mõnes riigis on need keelatud või teistes rangelt reguleeritud. Kui sularahaautomaat nõuab isikusamasuse kontrollimist, siis on sellega seotud samad riskid, mis on seotud reguleeritud KYC-platvormidega. Kui aga sularahaautomaat võimaldab väikeste summade puhul tehinguid ilma isikusamasuse kontrollimiseta, siis võib selle kasutamine pakkuda sularahapõhise P2P-vahetuse tasemega võrreldavat privaatsust, vältides suurema osa selle tüüpi vahetusega seotud riskidest.
+### Sularahaautomaadid
 
-Pangaautomaatide peamine puudus seisneb nende sageli kõrgetes valuutavahetustasudes, mis ulatuvad mõnest protsendist mõnikord kuni 15 protsendini vahetatavast summast.
+Teine võimalus bitcoinide ostmiseks või müümiseks ilma KYC-ta on krüptoraha sularahaautomaadid. Minul isiklikult ei ole kunagi olnud võimalust seda lahendust katsetada, kuna minu riigis ei ole neid olemas. Kuid see meetod võib olla väga huvitav, sõltuvalt sellest, kus te elate.
+
+![BTC204](assets/fr/092.webp)
+
+Probleem sularahaautomaatidega on see, et mõnes riigis on need kas keelatud või teistes rangelt reguleeritud. Kui sularahaautomaat nõuab isikusamasuse kontrollimise menetlust, siis on see avatud samadele riskidele, mis on omane KYC-reguleeritud platvormidele. Teisest küljest, kui sularahaautomaat lubab väikeste summade puhul teha tehinguid ilma isikusamasuse kontrollimiseta, siis võib selle kasutamine pakkuda konfidentsiaalsuse taset, mis on võrreldav P2P-sularahavahetusega, vältides samas enamikku selle tüüpi vahetusega seotud riskidest.
+
+Pangaautomaatide peamine puudus on nende sageli kõrged valuutavahetustasud, mis ulatuvad mõnest protsendist kuni mõnikord 15% vahetatavast summast.
 
 ### Kinkekaardid
 
-Lõpuks tahtsin esitada ka lahenduse, mis sobib hästi neile, kes soovivad kasutada oma bitcoin'eid igapäevaselt ostude tegemiseks, mitte müüa neid fiat-valuutade eest.
+Lõpetuseks tahtsin teile tutvustada ka lahendust, mis sobib hästi neile, kes soovivad oma bitcoin'eid kasutada igapäevaselt ostude tegemiseks, mitte müüa neid fiat-valuutade vastu.
 
-Parim viis BTC kulutamiseks on ilmselgelt kasutada Bitcoini otse või Lightning Networki kaudu kaupade või teenuste ostmiseks. Paljudes riikides on aga bitcoini aktsepteerivate kaupmeeste arv endiselt piiratud. Praktiline alternatiiv on seega kinkekaartide kasutamine.
+Parim viis BTC kulutamiseks on muidugi kasutada Bitcoini või Lightning Networki otse kauba või teenuse ostmiseks. Paljudes riikides on siiski veel piiratud arv kaupmehi, kes aktsepteerivad Bitcoini. Praktiline alternatiiv on kasutada kinkekaarte.
 
-Mitmed platvormid, mis ei nõua KYC-protseduuri, pakuvad võimalust vahetada bitcoine kinkekaartide vastu, mida saab kasutada suuremates kauplustes. Nende platvormide hulka kuuluvad [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) ja [Bitrefill](https://www.bitrefill.com/). Need platvormid lihtsustavad oluliselt teie bitcoinide igapäevast kasutamist, võimaldades teil kasutada paljusid tooteid ja teenuseid, ilma et peaksite läbima fiat-valuuta konverteerimise.
+Mitmed platvormid, mis ei nõua KYC-menetlusi, pakuvad võimalust vahetada bitcoin'e kinkekaartide vastu, mida saab kasutada suuremates jaemüügiettevõtetes. Nende hulka kuuluvad [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) ja [Bitrefill](https://www.bitrefill.com/). Need platvormid muudavad bitcoinide igapäevase kasutamise palju lihtsamaks, andes teile juurdepääsu paljudele toodetele ja teenustele, ilma et peaksite neid fiat-valuutaks konverteerima.
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+![BTC204](assets/fr/093.webp)
+
 ### Muud omandamismeetodid
 
-Muude meetodite hulgas, kuidas bitcoini omandada, kaitstes samal ajal oma privaatsust, on muidugi kaevandamine. Sati kaevandamise alustamiseks ei pea te oma identiteeti paljastama; leidke lihtsalt kehtiv töötõend ja esitage see võrku. Kui otsustate koondatud kaevandamise kasuks, nõuavad mõned poolid mingisugust isikut tõendavat dokumenti, näiteks KYC, teised aga mitte.
+Muud viisid bitcoinide omandamiseks, kaitstes samal ajal oma privaatsust, on muidugi ka kaevandamine. Sati kaevandamise alustamiseks ei pea te oma identiteeti paljastama; leidke lihtsalt kehtiv töötõend ja esitage see võrku. Kui otsustate koondkaevandamise kasuks, nõuavad mõned koondid mingisugust identifitseerimist, näiteks KYC, teised aga mitte.
 
-Teine meetod on töötada bitcoini vastu. See omandamisviis võib olla atraktiivne, kuid nõutav identifitseerimise tase varieerub suuresti sõltuvalt asjaoludest.
+Teine meetod on töötada bitcoinide vastu. See omandamisviis võib olla huvitav, kuid nõutav identifitseerimise tase varieerub oluliselt sõltuvalt asjaoludest.
 
-\_ Selle peatüki kirjutamiseks kasutasin Plan ₿ Network'is [@pivi\_\__](https://x.com/pivi___) loodud BTC205 kursust (esialgu ainult prantsuse keeles).\_
+*Selle peatüki kirjutamiseks kasutasin [@pivi___](https://x.com/pivi___) poolt Plan ₿ Network'is antud BTC205 koolituskursust (hetkel ainult prantsuse keeles)
 
-## Konsolideerimine, UTXO ja CIOH juhtimine
+## Konsolideerimine, UTXO juhtimine ja CIOH
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
 
-Üks kõige keerukamaid aspekte, mida hallata, kui teil on oma enesekorterite portfell, on kahtlemata konsolideerimine. Kas peaksite konsolideerima? Mis on selle eesmärk? Millist UTXO suurust peaksite püüdma saavutada? Millised on kompromissid eraelu puutumatuse osas? Seda püüame käesolevas osas uurida.
+![La confidentialité sur Bitcoin](https://youtu.be/5mynikwUkLs?feature=shared)
+
+Üks keerulisemaid aspekte isevalitseja portfelli juhtimisel on konsolideerimine. Kas peaksite konsolideerima? Milleks on mõtet? Millist UTXO suurust tuleks järgida? Millised on kompromissid konfidentsiaalsuse osas? Seda vaatleme selles jaotises.
 
 ### Mis on konsolideerimine?
 
-Bitcoini toimimine sarnaneb oksjonituruga, kus kaevandajad eelistavad parimaid tasusid pakkuvaid tehinguid. Igal plokil on siiski maksimaalne kaal, mis piirab tehingute arvu, mida saab kaasata. Kuna plokki toodetakse keskmiselt iga 10 minuti tagant, on igas plokis olemasolev ruum haruldane ressurss.
+Bitcoin toimib nagu oksjoniturg, kus kaevurid eelistavad madalaimaid tasusid pakkuvaid tehinguid. Igal plokil on siiski maksimaalne kaal, mis piirab tehingute arvu, mida saab lisada. Kuna plokki toodetakse keskmiselt iga 10 minuti järel, on igas plokis olemasolev ruum piiratud ressurss.
 
-Kaevandajad, kelle tegevus on seotud märkimisväärsete elektri-, kapitali- ja hoolduskuludega, püüavad loomulikult maksimeerida oma kasumlikkust. Nad kipuvad eelistama tehinguid, mis pakuvad neile nende kaalu suhtes kõige kõrgemaid tasusid.
+Kaevandajad, kelle tegevus tekitab märkimisväärseid kulusid elektri, põhivara ja hoolduse osas, püüavad loomulikult maksimeerida oma kasumlikkust. Seetõttu kipuvad nad eelistama tehinguid, mis toovad võrreldes nende kaaluga kõige suuremaid tasusid.
 
-Tegelikult ei ole kõik Bitcoini tehingud ühesuguse kaaluga. Need, millel on rohkem sisendit ja väljundit, kaaluvad rohkem. Võtame näiteks 2 tehingut:
+Kõik Bitcoini tehingud ei ole sama kaaluga. Need, millel on rohkem sisendeid ja väljundeid, kaaluvad rohkem. Näiteks kujutame ette 2 tehingut:
 
 
-- Tehing A sisaldab 1 sisendit ja 1 väljundit. See määrab 1,994 sats tasu ja selle kaal on 141 vB;
-- Keerukam tehing B, millel on 2 sisendit ja 2 väljundit, jaotab 2640 sati komisjonitasu, mille kaal on 220 vB.
+- Tehing A koosneb 1 sisendist ja 1 väljundist. See jaotab 1,994 sats tasusid ja selle kaal on 141 vB ;
+- Tehing B, mis on keerulisem tehing, millel on 2 sisendit ja 2 väljundit, jaotab 2640 sati tasu 220 vB kaaluga.
 
-Kuigi tehing B pakub kõrgemat komisjonitasu, eelistavad kaevurid näites tehingut A, sest see pakub paremat komisjonitasu suhet. Siin on iga tehingu arvutused, väljendatuna satsides virtuaalse baidi kohta (sat/vB):
+![BTC204](assets/fr/094.webp)
+
+Selles näites, kuigi tehing B pakub suuremat kogutasu, eelistavad kaevandajad tehingut A, kuna see pakub paremat tasu ja kaalu suhet. Siin on iga tehingu arvutused, väljendatud satsides virtuaalse baidi kohta (sat/vB):
 
 ```text
-TXA: 1994 / 141 = 14 sat/vB
-TXB: 2640 / 220 = 12 sat / vB
+TXA : 1994 / 141 = 14 sats/vB
+TXB : 2640 / 220 = 12 sats / vB
 ```
 
-See tähendab, et tehing A pakub iga kaaluühiku eest rohkem tasu kui tehing B, kuigi viimane pakub absoluutväärtuses rohkem tasu.
+See tähendab, et iga kaaluühiku kohta pakub tehing A rohkem kulusid kui tehing B, kuigi tehing B pakub absoluutarvudes rohkem kulusid.
 
-Seetõttu on kasutaja jaoks üha atraktiivsem tarbida oma tehingutes võimalikult vähe sisendit. Siiski on vaja tarbida piisavas koguses, et rahuldada väljundmakse. Oma portfelli haldamisel on seega vaja piisavalt suuri UTXOsid.
+![BTC204](assets/fr/095.webp)
 
-Konsolideerimise põhimõte seisneb just selles, et kasutada ära perioodid, mil Bitcoini tasud on madalad, et ühendada oma väikesed UTXOd üheks suuremaks UTXOks. Seega, kui Bitcoini tasud tõusevad, saab teha tehinguid minimaalse sisendiga ja seega kulutada vähem absoluutseid tasusid. Eesmärk on planeerida kohustuslike tehingute tegemine kõrgete tasude perioodidel.
+Seetõttu on kasutaja jaoks alati huvitavam tarbida oma tehingutes võimalikult vähe sisendit. Siiski tuleb tarbida piisavalt palju, et rahuldada väljundmakse. Portfelli haldamisel on vaja piisavalt suuri UTXOsid.
 
-Lisaks tehingutasude kokkuhoiule aitab UTXOde konsolideerimine vältida "tolmu" tekkimist Tolmu all mõeldakse UTXOsid, mille väärtus satsides on nii väike, et sellest ei piisa nende kulutamiseks vajalike tehingutasude katmiseks. See muudab nende UTXOde kasutamise majanduslikult ebamõistlikuks, kuni tehingutasud on kõrged. Kui te rühmitate oma UTXO-d ennetavalt, takistate nende tolmuks muutumist, tagades, et kõik teie rahalised vahendid jäävad kasutuskõlblikuks.
+Konsolideerimise põhimõte seisneb just selles, et kasutada ära perioodid, mil Bitcoini tasud on madalad, et ühendada oma väiksemad UTXOd üheks suuremaks. Sel viisil, kui tasud Bitcoinis tõusevad, saate teha tehinguid minimaalsete sisenditega ja seega kulutada absoluutarvudes vähem tasusid. Eesmärk on seega ennetada kõrgete tasude perioodidel tehtavaid kohustuslikke tehinguid.
+
+![BTC204](assets/fr/096.webp)
+
+Lisaks tehingukulude kokkuhoiule aitab UTXOde konsolideerimine vältida "tolmu" tekkimist. Tolm" viitab UTXOdele, mille väärtus satsides on nii madal, et see ei ole piisav, et katta nende kulutamiseks vajalikke tehingukulusid. See muudab nende UTXOde kasutamise majanduslikult ebamõistlikuks nii kaua, kui tehingukulud on kõrged. Oma UTXOde ennetava koondamisega takistate nende tolmuks muutumist, tagades, et kõik teie rahalised vahendid jäävad kasutuskõlblikuks.
 
 ### Milline on teie UTXOde minimaalne suurus?
 
-Mõnikord küsitakse minult, milline on UTXO minimaalne soovitatav väärtus. Kahjuks ei ole universaalset vastust, sest see sõltub teie eelistustest ja turutingimustest komisjonitasude osas. Siin on siiski valem, mis aitab teil määrata teie vajadustele vastava künnise:
+Minult küsitakse mõnikord, milline on UTXO soovitatav miinimumväärtus. Kahjuks ei ole universaalset vastust, sest see sõltub teie eelistustest ja tasuturu tingimustest. Siin on siiski valem, mis võib aidata teil määrata teie vajadustele sobiva piirmäära:
 
 $$
 \frac {P \times F}T = M
@@ -1395,144 +1553,157 @@ $$
 Kus:
 
 
-- $P$ on tehingu kaal;
-- $F$ tähistab maksimaalset määra satoshi vbyte'i kohta (sats/vB), mida olete valmis katma;
-- $T$ on tehingutasu protsent, mida olete valmis maksma UTXO koguväärtusest;
-- $M$ on iga UTXO minimaalne summa satoshides.
+- p$ on tehingu kaal;
+- $F$ tähistab maksimaalset laengu määra satoshi vb kohta (sats/vB), mille vastu te maandate;
+- t$ on tehingutasu protsent, mida olete valmis maksma UTXO koguväärtusest ;
+- m$ on iga UTXO minimaalne summa satoshis.
 
-Eeldades, et soovite katta 1 sisendi ja 2 väljundiga standardse SegWit-tehingu komisjonitasud, kaalub 141 vB. Kui te katate kuni 800 sats/vB ja olete valmis kulutama maksimaalselt kuni 12 protsenti UTXO väärtusest komisjonitasudeks, siis oleks arvutus järgmine:
+Oletame, et te kavatsete katta tasud standardse SegWit-tehingu eest, millel on 1 sisend ja 2 väljundit, kaaludes 141 vB. Kui te maandate kuni 800 sats/vB ja olete valmis kulutama maksimaalselt kuni 12% UTXO väärtusest tasudeks, siis oleks arvutus järgmine:
 
 $$
 \frac{141 \times 800}{0.12} = 940\ 000
 $$
 
-Selle näite puhul oleks mõistlik säilitada UTXOde miinimumväärtus 940 000 sat oma portfellis.
+Selle näite puhul oleks seega mõistlik hoida UTXOde minimaalne väärtus oma portfellis 940 000 sati.
 
-### Konsolideerimine ja COIH
+### Konsolideerimine ja CIOH
 
-Üks kõige laialdasemalt kasutatav heuristika plokiahela analüüsis on COIH (_Common Input Ownership Heuristic_), mis võimaldab meil eeldada, et kõik Bitcoini tehingu sisendid kuuluvad samale üksusele. Täpsemalt on konsolideerimise põhimõte see, et sisendina tarbitakse mitu UTXOd ja väljundina luuakse üks UTXO. Seetõttu võimaldab konsolideerimine COIHi kohaldamist.
+Üks kõige laialdasemalt kasutatav heuristika plokiahela analüüsis on CIOH (*Common Input Ownership Heuristic*), mis eeldab, et kõik Bitcoini tehingu sisendid kuuluvad samale üksusele. Konsolideerimise põhimõte seisnebki selles, et sisendina tarbitakse mitu UTXOd ja väljundina luuakse üks UTXO. Konsolideerimine võimaldab seega kohaldada ICOH-d.
 
 ![BTC204](assets/fr/097.webp)
 
-Praktikas tähendab see, et väline vaatleja võib järeldada, et kõik konsolideeritud UTXOd kuuluvad tõenäoliselt samale isikule ja et ainus genereeritud väljund kuulub samuti talle. Selline olukord võib ohustada teie privaatsust, kuna erinevaid tehingulugusid seotakse omavahel. Näiteks ütleme, et ma konsolideerin 3 P2P kaudu omandatud UTXOd ühe UTXOga, mis on saadud KYCi nõudva platvormi kaudu:
+Praktikas tähendab see, et väline vaatleja võib järeldada, et kõik konsolideeritud UTXOd kuuluvad tõenäoliselt samale isikule ja et ka genereeritud unikaalne väljund kuulub talle. Selline olukord võib ohustada teie konfidentsiaalsust, kui te seostate erinevaid tehingulugusid. Oletame näiteks, et ma konsolideerin 3 UTXOd, mis on saadud P2P kaudu, ühe UTXOga, mis on saadud KYCi nõudva platvormi kaudu :
 
 ![BTC204](assets/fr/098.webp)
 
-Seda tehes saab iga üksus, kellel on juurdepääs vahetusplatvormi andmetele, sealhulgas potentsiaalselt valitsusasutused, tuvastada, et mul on muid summasid BTC-s. Varem ei olnud need UTXOd otseselt minu identiteediga seotud; nüüd on nad seda. Peale selle paljastab see kõigile allikatele, et mul on teatud summa bitcoine.
+Seda tehes saab iga üksus, kellel on juurdepääs vahetusplatvormi andmetele, sealhulgas potentsiaalselt valitsusasutused, tuvastada, et ma oman muudes kogustes BTC-d. Varem ei olnud need UTXOd otseselt minu identiteediga seotud; nüüd on see nii. Veelgi enam, see paljastab kõikidele allikatele, et mul on teatud kogus bitcoine.
 
-TÜKide haldamisel on majanduslikud kaalutlused, mis nõuavad konsolideerimist tasude vähendamiseks, seega vastuolus heade privaatsustavadega, mis soovitavad mitte kunagi oma TÜKe ühendada. Valik majanduse ja eraelu puutumatuse vahel sõltub seega iga kasutaja prioriteetidest.
+TÜKide haldamisel satuvad majanduslikud kaalutlused, mis ajendavad konsolideerimist kulude vähendamiseks, vastuollu hea privaatsustavaga, mis soovitab mitte kunagi TÜKe ühendada. Seega sõltub valik ökonoomsuse ja konfidentsiaalsuse vahel iga kasutaja prioriteetidest.
 
-Kui saate vältida konsolideerimist, säilitades samal ajal UTXOde märkimisväärse suuruse, on see ideaalne. Selleks optimeerige oma omandamismeetodeid. Kui ostate oma bitcoinid DCA-s, püüdke oma ühekordsed ostud võimalikult laialt paigutada, et koondada väärtus vähemasse UTXOsse. Lihtsam on hallata 1000 euro suurust ühekordset ostu iga kahe kuu tagant kui 120 euro suurust ostu iga nädal. See minimeerib loodud UTXOde arvu ja lihtsustab teie portfelli haldamist, säilitades samal ajal teie privaatsust.
+Kui saate vältida konsolideerimist, säilitades samal ajal märkimisväärse UTXO, on see ideaalne. Selleks optimeerige oma omandamismeetodeid. Kui ostate oma bitcoine DCA-s, püüdke oma ühekordseid oste võimalikult palju hajutada, et konsolideerida väärtus vähemate UTXO-de peale. Lihtsam on hallata 1000 euro suurust ühekordset ostu iga kahe kuu tagant, kui 120 euro suurust ostu iga nädal. See minimeerib loodud UTXOde arvu ja lihtsustab teie portfelli haldamist, säilitades samal ajal teie konfidentsiaalsuse.
 
-Kui teil on vaja oma bitcoine konsolideerida, siis seadke prioriteediks samast allikast pärit UTXOde konsolideerimine. Näiteks 10 UTXO ühendamine ühelt platvormilt mõjutab teie privaatsust vähem kui 5 UTXO ühendamine platvormilt A ja 5 UTXO platvormilt B. Kui eri allikatest pärit konsolideerimine on vältimatu, püüdke neid eraldada vastavalt nende omadustele. Näiteks grupeerige KYCi kaudu saadud UTXOd ühte tehingusse ja P2P kaudu saadud UTXOd teise tehingusse.
+Kui teil on vaja oma bitcoine konsolideerida, eelistage kõigepealt samast allikast pärit UTXOde konsolideerimist. Näiteks 10 UTXO ühendamine ühelt platvormilt mõjutab teie konfidentsiaalsust vähem kui 5 UTXO ühendamine platvormilt A ja 5 UTXO platvormilt B. Kui erinevate allikate konsolideerimine on vältimatu, püüdke neid eraldada vastavalt nende omadustele. Näiteks koondage KYC kaudu saadud UTXOd ühte tehingusse ja P2P kaudu saadud UTXOd teise tehingusse.
 
-Igal juhul pidage meeles, et igasugune konsolideerimine toob paratamatult kaasa eraelu puutumatuse kaotuse. Seetõttu hinnake hoolikalt selle vajadust ja võimalikku mõju teie eraelu puutumatusele, võttes arvesse riski.
+Igal juhul ärge unustage, et igasugune konsolideerimine toob paratamatult kaasa konfidentsiaalsuse kaotuse. Seega hinnake hoolikalt selle toimingu vajadust ja võimalikku mõju teie privaatsusele, võttes arvesse CIOH-i.
 
-## Muud head tavad
+## Muud parimad tavad
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
-Uurime koos mõningaid teisi parimaid tavasid, mis aitavad teil Bitcoini privaatsust optimeerida.
+![La confidentialité sur Bitcoin](https://youtu.be/mKuyVKi_JKM?feature=shared)
+
+Vaatame veel mõningaid parimaid tavasid Bitcoini privaatsuse optimeerimiseks.
 
 ### Täielik sõlm
 
-Oma bitcoinide hoidmine on hea, kuid oma täieliku sõlme kasutamine on parem! Seepärast on oma sõlme omamine bitcoini täiesti suveräänseks kasutamiseks ülioluline:
+Oma bitcoinide omamine iseenda eestkostes on suurepärane, kuid omaenda täieliku sõlme kasutamine on veelgi parem! Siin on selgitatud, miks oma sõlme omamine on Bitcoini täiesti suveräänseks kasutamiseks ülioluline:
 
 
 - Vastupanu tsensuurile**: Teie tehinguid ei saa keegi blokeerida;
 - Sõltumatus kolmandatest isikutest**: Te ei sõltu enam ühestki välisest teenusest, et kontrollida plokiahela andmeid;
-- Aktiivne osalemine**: Teil on võimalus kehtestada oma valideerimisreeglid ja osaleda otse konsensuses;
-- Panus võrgustikku**: Kasutades sõlme, aitate tugevdada ja levitada Bitcoini võrgustikku;
-- Tehniline haridus**: Täieliku sõlme käivitamine on suurepärane võimalus süvendada oma tehnilisi teadmisi Bitcoini kohta.
+- Aktiivne osalemine**: Saate ise määrata oma valideerimisreeglid ja osaleda otse konsensuses;
+- Võrgu panus**: Kasutades sõlme, aitate tugevdada ja levitada Bitcoini võrku;
+- Tehniline haridus**: Täieliku sõlme haldamine on suurepärane võimalus süvendada oma tehnilisi teadmisi Bitcoini kohta.
 
-Lisaks nendele eelistele parandab täieliku sõlme kasutamine ka teie privaatsust tehingute edastamisel. Kui te annate tehingu välja, luuakse ja allkirjastatakse see kõigepealt teie rahakoti kaudu. Selle edastamiseks Bitcoini võrgus peab see olema teada vähemalt ühele sõlmpunktile. Kasutades oma sõlme, kontrollite seda edastamist otse, parandades seega oma privaatsust ja piirates andmekaotuse ohtu.
+Lisaks nendele eelistele parandab täieliku sõlme kasutamine ka teie tehingute edastamise konfidentsiaalsust. Kui te väljastate tehingu, luuakse ja allkirjastatakse see kõigepealt teie rahakoti kaudu. Selle edastamiseks Bitcoini võrgus peab seda teadma vähemalt üks sõlm. Kasutades oma sõlme, on teil otsene kontroll selle levitamise üle, mis tugevdab teie konfidentsiaalsust ja piirab andmete lekkimise ohtu.
 
 ![BTC204](assets/fr/099.webp)
 
-Kui teil ei ole oma Bitcoini sõlme, olete sunnitud kasutama kolmanda osapoole sõlme, näiteks rahakoti tarkvara pakkuja pakutavat sõlme. Lisaks tehingute edastamisele vajab teie rahakott juurdepääsu erinevatele andmetele, nagu näiteks pooleliolevad tehingud, teie aadressidega seotud saldod või teie tehingute kinnituste arv. Kõigile nendele andmetele juurdepääsuks peate tegema päringu sõlme.
+Kui teil ei ole oma Bitcoini sõlme, olete sunnitud kasutama kolmanda osapoole sõlme, näiteks seda, mida pakub teie rahakoti tarkvara pakkuja. Lisaks tehingute edastamisele vajab teie rahakott juurdepääsu mitmesugusele teabele, näiteks pooleliolevatele tehingutele, teie aadressidega seotud saldodele ja teie tehingute kinnituste arvule. Kõigile nendele andmetele juurdepääsuks peate tegema päringu sõlme.
 
 ![BTC204](assets/fr/100.webp)
 
-Peamine risk, kui te ei kasuta oma Bitcoini sõlme, on see, et kolmanda osapoole sõlme operaator võib jälgida teie tegevust plokiahelas või isegi jagada seda teavet teiste üksustega. Selle riski piiramiseks on vahepealne lahendus kasutada rahakoti tarkvara, mis võimaldab teil oma ühendusi Tori kaudu maskeerida. See võib vähendada teie andmete paljastamist. Optimaalne lahendus on siiski endiselt oma Bitcoini sõlme omamine ja selle kasutamine oma tehingute edastamiseks. Loomulikult peate ka tagama, et teie sõlme kaudu ei lekiks mingit teavet, kuid see on teine teema, mida käsitleme järgmistes punktides.
+Peamine risk, kui te ei kasuta oma Bitcoini sõlme, on see, et kolmanda osapoole sõlme operaator võib jälgida teie tegevust plokiahelas või isegi jagada seda teavet teiste üksustega. Selle riski piiramiseks on vahepealne lahendus kasutada rahakoti tarkvara, mis maskeerib teie ühendused Tori kaudu. See võib vähendada teie andmete paljastamist. Optimaalne lahendus on siiski oma Bitcoini sõlme omamine ja selle kasutamine oma tehingute edastamiseks. Loomulikult peate olema ettevaatlik, et teie sõlme kaudu ei lekiks mingit teavet, kuid see on teine teema, mida vaatleme hilisemates osades.
 
-Lisaks ilmselgele kasule teie privaatsusele tagab oma täieliku sõlme omamine ka andmete tõepärasuse plokiahelas, kaitseb tsensuuri eest ja võimaldab teil aktiivselt osaleda Bitcoini juhtimises. Kasutades oma sõlme, panustate oma majandusliku kaalu valitud plokiahelasse, mis on oluline kogukonnas toimuvate konfliktide ajal, nagu näiteks aastatel 2015-2017 toimunud plokisõja ajal. Kahvli korral võib kolmanda osapoole sõlme kasutamine viia selleni, et toetate ahelat, mida te ei soovi eelistada, sest sõlme operaator teeb teie eest valiku. Nagu saate aru, on privaatsuse ja üldisemalt individuaalse suveräänsuse seisukohast oluline käivitada ja kasutada oma täielikku sõlme!
+Lisaks teie privaatsuse ilmselgele eelisele tagab teie enda tervikliku sõlme olemasolu ka andmete tõepärasuse plokiahelas, kaitseb teid tsensuuri eest ja võimaldab teil aktiivselt osaleda Bitcoini juhtimises. Kasutades oma sõlme, panustate oma majandusliku kaalu valitud ahelasse, mis on oluline kogukonnas toimuvate konfliktide ajal, nagu näiteks aastatel 2015-2017 toimunud plokisõja ajal. Kahvli korral võib kolmanda osapoole sõlme kasutamine viia selleni, et toetate ahelat, mida te ei soovi eelistada, sest sõlme operaator teeb teie eest valiku.
 
-### Petturanalüüsi heuristika
+Nagu näete, on konfidentsiaalsuse ja individuaalse suveräänsuse huvides hädavajalik käivitada ja kasutada oma täielikku sõlme!
 
-Üldisemalt on oluline mõista eelmises punktis käsitletud heuristikat, et neid paremini vältida või petta. Mitmete parimate tavade omaksvõtmine võib osutuda kasulikuks, isegi kui need ei ole hädavajalikud. Need pakuvad täiendavat kaitsekihti, mis võib olla oluline hea privaatsuse säilitamiseks Bitcoini kasutamisel.
+### Petturlikud analüüsiheuristikud
 
-Esimene nõuanne, mida ma võiksin anda, on sulanduda kõige tihedamasse rahvamassi. Bitcoini puhul tähendab see kõige laialdasemalt kasutatavate skripti mallide kasutamist. Näiteks P2WSH skriptid, mida kasutatakse sageli multisig SegWit V0 konfiguratsioonide jaoks, on väga haruldased. Need ei võimalda teil varjuda suures koguses anonüümsust. Sama kehtib ka vanemate mudelite, näiteks P2PKH või P2SH kohta. Kuigi need on UTXO komplektis laialdaselt esindatud, kasutatakse neid üha vähem uute tehingute puhul.
+Laiemalt on oluline mõista heuristikat, millest rääkisime eelmises punktis, et neid paremini vältida või petta. Mitmete parimate tavade omaksvõtmine võib olla kasulik, isegi kui need ei ole hädavajalikud. Need pakuvad täiendavat kaitsekihti, mis võib Bitcoini kasutamisel olla oluline konfidentsiaalsuse säilitamisel.
 
-Üldiselt on turvalisem liikuda uusima skriptistandardi suunas, kui see on piisavalt omaks võetud. Seega, kui 2022. aastal oleksin soovitanud mitte kasutada P2TR-i (Taproot), kuna see on vähe levinud, siis 2024. aastaks soovitaksin valida seda tüüpi skripti või selle puudumisel SegWit V0 skripti, kuna P2TR-i kasutavate tehingute arv hakkab moodustama väga märkimisväärse osa.
+Esimene nõuanne, mida ma võiksin anda, on sulanduda kõige tihedamasse rahvamassi. Bitcoini puhul tähendab see kõige laialdasemalt kasutatavate skripti mallide kasutamist. Näiteks P2WSH-skriptid, mida kasutatakse sageli SegWit V0 multisig-konfiguratsioonide jaoks, on väga haruldased. Need ei võimalda teil varjuda suures anonüümsuse komplektis. Sama kehtib ka vanemate mudelite, näiteks P2PKH või P2SH kohta. Kuigi need on UTXO komplektis laialdaselt esindatud, kasutatakse neid üha vähem uute tehingute puhul.
 
-Allikas:[txstats.com](https://txstats.com/d/000000054/utxo-set-repartition-by-output-type)
+Üldiselt on targem valida kõige uuem skriptimisstandard, tingimusel, et see on piisavalt omaks võetud. Seega, kui 2022. aastal oleksin soovitanud mitte kasutada P2TR-i (Taproot) selle vähese vastuvõtmise tõttu, siis 2024. aastal soovitaksin valida selle asemel seda tüüpi skripti või selle puudumisel SegWit V0 skripti, kuna P2TR-i kasutavate tehingute arv hakkab moodustama väga märkimisväärse osa.
 
-Veel üks nõuanne privaatsuse säilitamiseks on püüda mööda hiilida sisemist tehinguheuristikat. Näiteks makse tegemisel võiksite püüda vältida ümmarguse summaga väljundi loomist, sest see võib anda märku, et teine väljund kujutab endast muutust. Kui teil on vaja saata sõbrale 100k satoshi, kaaluge selle heuristika vältimiseks veidi suurema summa ülekandmist. Samamoodi püüdke mitte luua jäägi väljundeid, mis on ebaproportsionaalselt suured võrreldes tehtud maksega, sest see võib samuti paljastada, milline väljund kujutab endast jääki.
+![BTC204](assets/fr/101.webp)
 
-Lõpuks, kui teete regulaarselt Bitcoin-tehinguid, veenduge, et te ei edasta neid alati samal ajal. Kui jaotate oma tehingute edastamise üle päeva ja nädala, väldite seda, et välised vaatlejad saaksid tuvastada ajavöönditel põhinevat ajamustrit, mis võiks nende analüüsi parandada.
+Allikas : [txstats.com](https://txstats.com/d/000000054/utxo-set-repartition-by-output-type)
 
-Lisaks kõigile neile parimatele tavadele, mida igapäevaselt rakendada, on veelgi tõhusamaid meetodeid, et täielikult katkestada oma bitcoinide jälgitavus. Nende hulka kuuluvad muidugi coinjoin-tehingud, mida uurime põhjalikult järgmises jaotises.
+Teine nõuanne konfidentsiaalsuse säilitamiseks on püüda mööda minna tehingu sisemisest heuristikast. Näiteks makse tegemisel võite püüda vältida ümmarguse summaga väljundi loomist, sest see võib anda märku, et teine väljund kujutab endast välisvaluutat. Kui teil on vaja saata sõbrale 100 k sati, kaaluge selle heuristika vältimiseks veidi suurema summa ülekandmist. Samamoodi püüdke mitte luua välisvaluuta väljundeid, mis on tehtud makse suhtes ebaproportsionaalselt suured, sest see võib samuti näidata, milline väljund kujutab endast välisvaluutat.
+
+![BTC204](assets/fr/102.webp)
+
+Lõpuks, kui teete regulaarselt Bitcoin-tehinguid, veenduge, et te ei edasta neid alati samal ajal. Hajutades oma tehingute edastamist üle päeva ja nädala, väldite võimalust, et välised vaatlejad saaksid tuvastada ajavööndipõhise ajalise mustri, mis võiks nende analüüsi tugevdada.
+
+Lisaks kõigile nendele headele tavadele, mida tuleb igapäevaselt rakendada, on veelgi tõhusamaid meetodeid, kuidas oma bitcoinide jälgitavust täielikult rikkuda. Nende hulka kuuluvad muidugi coinjoin-tehingud, mida vaatleme põhjalikult järgmises jaotises.
 
 # Coinjoin-tehingute mõistmine
 
 <partId>6d0bbf16-3714-4db1-9897-2d45019f6bdc</partId>
 
-## Mis on Coinjoin-tehing?
+## Mis on coinjoin-tehing?
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
 
-Olles uurinud privaatsuse kaitse põhitõdesid, arutame nüüd keerukamaid tehnikaid, mille eesmärk on aktiivselt kaitsta teie privaatsust, eelkõige bitcoinide ajaloo lahtiseletamise kaudu. Järgmises osas uurime mitmeid väiksemaid tehnikaid, kuid kõigepealt tahan teile rääkida coinjoinist.
+![La confidentialité sur Bitcoin](https://youtu.be/D9-2dTpmWNU?feature=shared)
 
-Coinjoini peetakse sageli kõige tõhusamaks viisiks Bitcoini kasutajate privaatsuse kaitsmiseks. Kuid mis on täpselt coinjoin-tehing? Uurime seda koos.
+Olles uurinud privaatsuse kaitse põhialuseid, vaatleme nüüd keerukamaid tehnikaid, mille eesmärk on kaitsta aktiivselt oma konfidentsiaalsust, eelkõige bitcoin'i ajaloo lahtiseletamise kaudu. Järgmises osas vaatleme terve hulga väikseid tehnikaid, kuid kõigepealt tahaksin teile rääkida coinjoinist.
 
-### Coinjoini põhiprintsiibid
+Coinjoini peetakse sageli kõige tõhusamaks meetodiks Bitcoini kasutajate privaatsuse kaitsmisel. Kuid mis on täpselt coinjoin-tehing? Uurime seda välja.
 
-Coinjoin on tehnika, mis häirib bitcoinide jälgimist plokiahelas. Selle aluseks on koostöötehing, millel on samanimeline eriline struktuur: coinjoin-tehing.
+### Coinjoin'i põhiprintsiibid
 
-Nagu me nägime selle koolituse esimestes osades, on Bitcoini tehingud kõigile kasutajatele teada nende sõlme kaudu. Seetõttu on lihtne kontrollida iga mündi elektroonilise allkirja ahelat ja jälgida selle ajalugu. See tähendab, et kõik kasutajad saavad proovida analüüsida teiste kasutajate tehinguid. Selle tulemusena on anonüümsus tehingu tasandil võimatu. Anonüümsus säilib aga individuaalse identifitseerimise tasandil. Erinevalt traditsioonilisest pangandusest, kus iga konto on seotud isikliku identiteediga, on Bitcoinis raha seotud krüptograafiliste võtmepaaridega (või skriptidega), pakkudes seega kasutajatele krüptograafiliste identifikaatorite taga pseudonüümsust.
+Coinjoin on meetod bitcoini jälgimise lõhkumiseks plokiahelas. Selle aluseks on koostöötehing, millel on eriline samanimeline struktuur: coinjoin-tehing.
 
-![BTC204](assets/it/51/01.webp)
+Nagu me nägime selle kursuse esimestes osades, on Bitcoini tehingud kõigile kasutajatele teada nende sõlme kaudu. Seetõttu on lihtne kontrollida iga mündi elektroonilise allkirja ahelat ja jälgida selle ajalugu. See tähendab, et kõik kasutajad saavad proovida analüüsida teiste kasutajate tehinguid. Selle tulemusena on anonüümsus tehingu tasandil võimatu. Anonüümsus säilib aga individuaalse identifitseerimise tasandil. Erinevalt tavapärasest pangandussüsteemist, kus iga konto on seotud isikliku identiteediga, on Bitcoinis raha seotud krüptograafiliste võtmepaaridega (või skriptidega), mis pakub kasutajatele krüptograafiliste identifikaatorite taga pseudonüümsust.
 
-Seega on bitcoini konfidentsiaalsus ohus, kui välised vaatlejad saavad seostada konkreetseid UTXOsid tuvastatud kasutajatega. Kui see seos on loodud, on võimalik jälgida nende tehinguid ja analüüsida nende bitcoinide ajalugu. Coinjoin on just UTXOde jälgimise häirimiseks välja töötatud tehnika, et tagada Bitcoini kasutajatele teatud tasemel konfidentsiaalsus tehingu tasandil.
+![BTC204](assets/fr/103.webp)
 
-Coinjoins parandab Bitcoini kasutajate konfidentsiaalsust, raskendades ahela analüüsi kõrvaliste vaatlejate jaoks. Nende struktuur võimaldab ühendada mitu eri kasutajate münti üheks tehinguks, mis muudab jäljed ebaselgeks ja raskendab seoste kindlaksmääramist sisend- ja väljundaadresside vahel.
+Bitcoini konfidentsiaalsust õõnestab see, kui välised vaatlejad saavad seostada konkreetseid UTXOsid tuvastatud kasutajatega. Kui see seos on loodud, on võimalik jälgida nende tehinguid ja analüüsida nende Bitcoini ajalugu. Coinjoin on just UTXOde jälgitavuse murdmiseks välja töötatud tehnika, et pakkuda Bitcoini kasutajatele teatavat konfidentsiaalsuse taset tehingu tasandil.
 
-Oluline on mõista, et coinjoin-tehingu eesmärk on katkestada mündi ajalugu. Vastupidiselt sellele, mida võiks arvata, ei anna see tehnika püsivat anonüümsust ega lõpeta lõplikult bitcoinide jälgitavust. Coinjoin'i eesmärk on katkestada ajalugu vaid hetkel, mil coinjoin-tehing tehakse. Kuid enne ja pärast seda tehingut on mündi suhtes endiselt samad privaatsusriskid.
+Coinjoins tugevdab Bitcoini kasutajate konfidentsiaalsust, muutes ahela analüüsi keerulisemaks väliste vaatlejate jaoks. Nende struktuur võimaldab ühendada mitu eri kasutajate münti üheks tehinguks, mis hägustab piire ja muudab sisend- ja väljundaadresside vaheliste seoste kindlaksmääramise keeruliseks.
+
+Oluline on mõista, et coinjoin-tehingu eesmärk on murda mündi ajalugu. See tehnika ei anna püsivat anonüümsust ega blokeeri lõplikult bitcoini jälgimist, vastupidiselt sellele, mida te võiksite arvata. Coinjoin'i eesmärk on murda ajalugu ainult hetkel, mil coinjoin-tehing tehakse. Enne ja pärast seda toimingut on mündi suhtes siiski endiselt samad riskid konfidentsiaalsuse osas.
 
 ![BTC204](assets/fr/104.webp)
 
 ### Kuidas toimivad ühisliited?
 
-Coinjoin'i põhimõte põhineb koostööl: mitu kasutajat, kes soovivad oma bitcoin'eid segada, hoiustavad ühesuguseid summasid sama tehingu sisenditesse. Seejärel jaotatakse need summad igale kasutajale võrdse väärtusega väljunditeks ümber.
+Coinjoin'i põhimõte põhineb koostööl: mitu kasutajat, kes soovivad oma bitcoine segada, annavad samasse tehingusse sisendiks identsed summad. Seejärel jaotatakse need summad igale kasutajale võrdse väärtusega väljunditena ümber.
 
 ![BTC204](assets/fr/105.webp)
 
-Tehingu lõpus on võimatu seostada konkreetset väljundit teadaoleva kasutaja sisendiga. Sisendite ja väljundite vahel puudub otsene seos, mis katkestab seose kasutajate ja nende UTXOde vahel, samuti iga mündi ajaloo.
+Tehingu lõpus muutub võimatuks konkreetse väljundi seostamine sisendina tuntud kasutajaga. Sisendite ja väljundite vahel puudub otsene seos, mis katkestab kasutajate ja nende UTXOde vahelise seose, samuti iga osa ajaloo.
 
 ![BTC204](assets/fr/106.webp)
 
-Võtame näiteks Alice'i. Ta soovib saata oma õele Eve'ile sünnipäevaks umbes 100 000 satoshi (sats). Alice ei taha aga, et Eve saaks jälgida tema tehingulugu, sest ta ei taha avaldada, kui palju bitcoine ta omab või kuidas ta need sai. Selleks otsustab Alice katkestada oma UTXO ajaloo coinjoin-tehinguga. Ta lepib Bobi, Charlesi, Davidi ja Frankiga kokku, et nad teevad ühistehingu: Alice, Bob, Charles, David ja Frank lubavad igaüks tehingu sisendiks 105 000 sati UTXO (koos 5000 sati kaevandamistasuga):
+Võtame Alice'i näite. Ta soovib saata oma õele Eve'ile sünnipäevaks umbes 100 000 sati. Alice ei taha aga, et Eve saaks jälgida tema tehingulugu, sest ta ei taha avaldada, kui palju bitcoine tal on või kuidas ta need sai. Selleks otsustab Alice murda oma UTXO ajaloo coinjoin-tehinguga. Ta korraldab koos Bobi, Charlesi, Davidi ja Frankiga ühise tehingu:
+
+
+- Alice, Bob, Charles, David ja Frank annavad igaüks tehingu sisendiks 105 000 sati UTXO (koos 5000 sati kaevandamistasuga):
 
 ![BTC204](assets/fr/107.webp)
 
 
-- Vastutasuks nende sisendite kasutamise eest genereerib igaüks uue aadressi, et luua viis identset väljundit 100 000 satsiga igaüks. Iga osaleja saab ühe väljundi:
+- Vastutasuks nende sisendite tarbimise eest genereerib igaüks tühja aadressi, et luua viis identset väljundit, millest igaühel on 100 000 sati. Igaüks hangib ühe väljundi:
 
 ![BTC204](assets/fr/108.webp)
 
 
-- Alice jõuab 100 000 satelliidi UTXO-ga, mille ajalugu on segane. Ta kasutab seda UTXO-d uues tehingus, et saata summa Eve'ile tema sünnipäevaks:
+- Alice leiab end 100 000 satsist koosneva UTXOga, mille ajalugu on segi ajatud. Ta kasutab seda UTXO-d uues tehingus, et saata summa Eve'ile tema sünnipäevaks:
 
 ![BTC204](assets/fr/109.webp)
 
 
-- Kui Eve üritab seda tehingut analüüsida, et saada teavet, siis satub ta kokku coinjoin-tehinguga, mis hõlmab Alice'i, Bobi, Charlesi, Davidit ja Franki. Kuna Eve ei saa summade ühetaolisuse tõttu eristada, kellele iga sisend kuulub, ei saa ta jälgida Alice'i UTXO ajalugu ega kindlaks teha, kui palju bitcoin'e tema õde omab või kuidas ta need omandas:
+- Kui Eve üritab seda tehingut analüüsida, et saada teavet, satub ta vastamisi Alice'i, Bobi, Charlesi, Davidi ja Franki vahelise coinjoin-tehinguga. Kuna Eve ei suuda summade ühetaolisuse tõttu eristada, milline sisend kellele kuulub, ei saa ta jälgida Alice'i UTXO ajalugu ega määrata, mitu bitcoin'i tema õde omab või kuidas ta need omandas:
 
 ![BTC204](assets/fr/110.webp)
 
-Selles stsenaariumis kasutas Alice coinjoin-tehnikat, et suurendada oma privaatsust tagurpidi analüüsi vastu. Tegelikult kaitseb Alice end Eve'i võimaliku analüüsi eest, mis lähtuks konkreetsest tehingust, et jälgida UTXO ajalugu tagasi. Sellist kaitset analüüside eest olevikust minevikku nimetame tagasiulatuvaks anonüümseks (retrospective anonset). Uurime seda mõistet üksikasjalikumalt selle osa viimastes peatükkides.
+Käesoleval juhul on Alice kasutanud coinjoin-tehnikat, et suurendada konfidentsiaalsust seoses tagasiulatuva analüüsiga. Tegelikult kaitseb Alice end Eve'i võimaliku analüüsi eest, kes alustaks konkreetsest tehingust ja töötaks tagasi läbi UTXO ajaloo. Sellist kaitset praegusest minevikku ulatuva analüüsi eest nimetatakse tagasiulatuvaks anonüümseks. Vaatleme seda mõistet üksikasjalikumalt käesoleva osa viimastes peatükkides.
 
-Siiski pakub coinjoin ka võimalust parandada privaatsust minevikust olevikku analüüsi vastu, mida nimetatakse prospektiivseks anonsetiks. Tuleme tagasi meie näite juurde, kus Alice saatis Eve'ile 98 000 sati tema sünnipäeval, kuid vahetame rollid ümber. Kujutame nüüd ette, et see on Eve, kes on mures oma privaatsuse pärast. Tegelikult võib Alice'il tekkida kiusatus jälgida tema poolt Eve'ile saadetud münti, et koguda teavet. Eve võiks seda äsja saadud UTXO-d konsolideerida kõigi oma teiste UTXO-dega, mis võiks Alice'ile paljastada, kui palju bitcoin'e ta oma rahakotis hoiab. Selle vältimiseks võib Eve häirida ka äsja saadud mündi ajalugu.
+Samas pakub coinjoin ka võimalust tugevdada konfidentsiaalsust minevikust tänasesse analüüsi, mida nimetatakse prospektiivseks anonsetiks. Tuleme tagasi meie näite juurde, kus Alice saatis Eve'ile 98 000 sati tema sünnipäevaks, kuid rollid on vahetatud. Kujutame nüüd ette, et see on Eve, kes muretseb oma privaatsuse pärast. Tõepoolest, Alice'il võib tekkida kiusatus jälgida münti, mille ta Eve'ile saatis, et sellest teavet välja võtta. Eve võib selle UTXO, mille ta just sai, hästi konsolideerida kõigi oma teiste UTXOdega, mis võib Alice'ile paljastada, kui palju bitcoin'e tal oma rahakotis on. Selle vältimiseks võib Eve murda ka selle mündi ajaloo, mille ta just sai:
 
 
 - Eve, Grace, Mallory, Oscar ja Victor panid igaüks 98 000 sati UTXO-d Bitcoini tehingu sisendiks:
@@ -1540,222 +1711,265 @@ Siiski pakub coinjoin ka võimalust parandada privaatsust minevikust olevikku an
 ![BTC204](assets/fr/111.webp)
 
 
-- Vastutasuks nende sisendite kasutamise eest annab igaüks uue aadressi, et luua 5 väljundit 97 500 sati kohta, mis on täiesti võrdsed. Iga kasutaja saab ühe väljundi:
+- Vastutasuks nende sisendite tarbimise eest annab iga kasutaja tühja aadressi, mille abil luuakse 5 väljundit 97 500 täiesti võrdse satsiga. Iga kasutaja saab ühe väljundi:
 
 ![BTC204](assets/fr/112.webp)
 
 
-- Eve omab nüüd 97 500 sati UTXO-d, mille ajalugu on katkenud. Ta võib seda kartuseta kasutada tulevaste tehingute tegemiseks. Tegelikult, kui Alice üritab jälgida tema poolt Eve'ile saadetud bitcoine, satub ta coinjoin-tehingule. Ta ei suuda kindlaks teha, millisesse UTXO väljundisse Eve kuulub. Analüüs muutub siis võimatuks:
+- Eve omab nüüd UTXO 97 500 sati, mille ajalugu on katkenud. Ta võib seda kartuseta kasutada tulevaste tehingute tegemiseks. Tõepoolest, kui Alice üritab jälgida tema poolt Eve'ile saadetud bitcoin'e, satub ta silmitsi coinjoin-tehinguga. Ta ei suuda kindlaks teha, milline väljaminev UTXO kuulub Eve'ile. Analüüs muutub võimatuks:
 
 ![BTC204](assets/fr/113.webp)
 
-Esimeses näites nägime, kuidas coinjoin võib kaitsta mündi privaatsust seoses selle minevikuga ja teises näites, kuidas see võib kindlustada mündi ajalugu ka seoses selle tulevikuga. Seepärast mainisin, et coinjoin'i tuleks vaadelda kui ühekordset sündmust, mis segmenteerib mündi ajalugu mõlemas suunas:
+Esimeses näites nägime, kuidas coinjoin võib kaitsta ruumi privaatsust seoses selle minevikuga, ja teises näites, kuidas see võib kindlustada ruumi ajalugu ka seoses selle tulevikuga. Seepärast mainisin, et coinjoin'i tuleks vaadelda kui ühekordset sündmust, mis segmenteerib osa ajalugu mõlemas suunas:
 
 ![BTC204](assets/fr/104.webp)
 
-### Segamine, koosliitmised, segajad... Mis vahe on?
+### Mikser, koosliitmine, segisti... Mis vahe on?
 
-Mõnikord kasutatakse terminit "segamine", mida mõned bitcoin'id ei kasuta, sest kardavad segiajamist hoiusegajatega. Minu arvates on see kartus siiski alusetu, sest matemaatilises kontekstis kehastab coinjoin just segamise mõistet.
+Coinjoneid kirjeldatakse mõnikord kui "miksereid", terminit, mille mõned bitcoin'id tagasi lükkavad, kuna kardavad, et seda võidakse segi ajada custodial mixers'iga. Usun siiski, et see kartus on põhjendamatu, sest matemaatilises kontekstis kehastab coinjoin just segamise mõistet.
 
-Üldises matemaatikas tähendab segunemine dünaamilise süsteemi omadust, mille puhul teatava aja möödudes võivad kõik algruumi osad teoreetiliselt seguneda mis tahes muu osaga. Segunemine tähendab, et osakese asukoht või süsteemi olek areneb nii, et selle tulevane jaotus ei sõltu selle algjaotusest, saavutades seega seisundi, kus algseisundi omadused on süsteemi ruumis ühtlaselt jaotunud. Just see juhtub bitcoinidega seotud mündiühenduses. Seega on minu arvates coinjoin tegelikult mündi segamise meetod.
+Üldises matemaatikas tähendab segunemine dünaamilise süsteemi omadust, mille puhul teatava aja möödudes võivad teoreetiliselt kõik algruumi osad seguneda mis tahes muu osaga. Segunemine tähendab, et osakese asukoht või süsteemi olek areneb nii, et selle tulevane jaotus ei sõltu selle algjaotusest, saavutades seega seisundi, kus algse seisundi omadused on ühtlaselt jaotunud kogu süsteemi ruumis. Just see juhtub bitcoin'idega seotud mündiühenduses. Seega on minu arvates coinjoin tõepoolest mündi segamise meetod.
 
 ![BTC204](assets/fr/114.webp)
 
-Oluline on siiski eristada koosliiteid segajatest. Mikser on teenus, kuhu kasutajad saadavad oma bitcoinid segamiseks. Need teenused olid 2010. aastatel populaarsed, kuid nende kasutamine on kahanenud kahe peamise puuduse tõttu võrreldes coinjoiniga:
+Teisest küljest on oluline eristada coinjoin'i ja shufflers'i. Shuffler on teenus, kuhu kasutajad saadavad oma bitcoine segamiseks. Need teenused olid 2010. aastatel populaarsed, kuid nende kasutamine on vähenenud kahe peamise puuduse tõttu võrreldes coinjoiniga:
 
 
-- Nad nõuavad, et kasutajad loovutaksid oma rahaliste vahendite hoidmise segamise ajal, mis tähendab, et nad on avatud varguse ohule;
-- Ei ole mingit garantiid, et mikser ei salvesta tehingu üksikasju või isegi ei müü seda teavet plokiahela analüütikafirmadele.
+- Nad nõuavad, et kasutajad loobuksid segamise ajal oma rahaliste vahendite hoidmisest, mis seab nad ohtu, et neid võidakse varastada;
+- Ei ole mingit garantiid, et mikser ei salvesta tehingu üksikasju või isegi ei müü seda teavet ahelanalüüsi firmadele.
 
 ![BTC204](assets/fr/115.webp)
 
-Seetõttu eelistavad kasutajad tänapäeval coinjoin'i, kuna see võimaldab neil säilitada kogu protsessi jooksul täieliku kontrolli oma raha üle. Coinjoinis osalejad ei riski, et nende bitcoinid varastatakse teiste osapoolte poolt. Uurime üheskoos, kuidas see on võimalik järgmises peatükis.
+Tänapäeva kasutajad eelistavad seega coinjoin'i, kuna see võimaldab neil säilitada täieliku kontrolli oma raha üle kogu protsessi vältel. Coinjoinis osalejatel ei ole ohtu, et teised osapooled nende bitcoinid varastavad. Vaatame järgmises peatükis, kuidas see kõik võimalik on.
 
-## Zerolink ja Chaumian Coinjoins
+## Zerolink ja chaumian coinjoins
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
-Koondise poolt pakutav privaatsus põhineb selle rühma suurusel, kuhu meie tükk on peidetud. Seetõttu on vaja leida võimalikult palju osalejaid. On täiesti võimalik käivitada coinjoin käsitsi, sõltumatult leitud kasutajatega, kuid see meetod on keeruline ja ei võimalda suuri anonüümide kogumeid.
+![La confidentialité sur Bitcoin](https://youtu.be/JYBh0_u62Yc?feature=shared)
 
-Seetõttu on Bitcoini kohta välja töötatud coinjoin-koordinaatorid. Nende ülesanne on ühendada erinevad kasutajad ja edastada ühistehingu edukaks lõpuleviimiseks vajalikku teavet.
+Mündiühendusest tulenev privaatsus on teenitud grupi suurusega, kuhu meie tükk on peidetud. See tähendab, et tuleb leida võimalikult palju osalejaid. On täiesti võimalik luua coinjoin käsitsi, ise leitud kasutajatega, kuid see on keeruline protsess ja sellega ei võida suuri anonüüme.
+
+Seetõttu on Bitcoini kohta välja töötatud coinjoin-koordinaatorid. Nende roll on panna erinevad kasutajad omavahel kontakti ja edastada ühistehingu lõpuleviimiseks vajalikku teavet.
 
 ![BTC204](assets/fr/116.webp)
 
-Kuid kuidas saame tagada, et koordinaatoril ei ole kunagi kontrolli kasutajate bitcoinide üle, ja kuigi ta on isik, kes konstrueerib coinjoin-tehingu, kuidas saame tagada, et ta ei saa ühendada kasutajate sisendeid ja väljundeid, mis võib tähendada privaatsuse kaotamist?
+Kuid kuidas saame tagada, et koordinaatoril ei ole kunagi kasutajate bitcoinid käes, ja vaatamata sellele, et ta on inimene, kes ehitab coinjoin-tehingut, kuidas saame tagada, et ta ei saa kasutajate sisendeid ja väljundeid ühendada, mis võib kujutada endast konfidentsiaalsuse leket?
 
 ### Chaumi pimedad allkirjad
 
-Kaasaegsed coinjoin rakendused kasutavad David Chaumi pimesi allkirju, et vältida teabe lekkimist. Uurime koos kiiresti, kuidas need pimedad allkirjad töötavad.
+Kaasaegsed coinjoin rakendused kasutavad David Chaumi pimesi allkirju, et vältida teabe lekkimist. Vaatame lühidalt, kuidas need pimedad allkirjad töötavad.
 
-Chaumi pimedad allkirjad on digitaalallkirja vorm, mille puhul allkirja andja ei tea allkirjastatava sõnumi sisu. Allkirja saab aga hiljem kontrollida originaalsõnumi abil. Selle tehnika töötas 1983. aastal välja krüptograaf David Chaum.
+Chaumi pimedad allkirjad on digitaalallkirja vorm, mille puhul allkirja andja ei tea allkirjastatava sõnumi sisu. Kuid allkirja saab seejärel kontrollida originaalsõnumi suhtes. Selle tehnika töötas 1983. aastal välja krüptograaf David Chaum.
 
-Võtame näiteks ettevõtte, kes soovib autentida konfidentsiaalset dokumenti, näiteks lepingut, paljastamata selle sisu. Ettevõte rakendab maskeerimisprotsessi, mis muudab originaaldokumenti krüptograafiliselt pöördvõrreldes. See muudetud dokument saadetakse sertifitseerimisasutusele, kes annab pimesi allkirja, teadmata selle sisu. Pärast allkirjastatud dokumendi kättesaamist eemaldab ettevõte allkirjast maskeeringu. Tulemuseks on originaaldokument, mis on kinnitatud asutuse allkirjaga, ilma et asutus oleks kunagi näinud algset sisu.
+![BTC204](assets/fr/117.webp)
 
-Chaumi pimedad allkirjad võimaldavad seega dokumendi autentsuse tõendamist ilma selle sisu tundmata, tagades nii kasutaja andmete konfidentsiaalsuse kui ka allkirjastatud dokumendi terviklikkuse.
+Võtame näiteks ettevõtte, kes soovib autentida konfidentsiaalset dokumenti, näiteks lepingut, paljastamata selle sisu. Ettevõte rakendab maskeerimisprotsessi, mis muudab originaaldokumenti krüptograafiliselt ümberpööratavalt. See muudetud dokument saadetakse sertifitseerimisasutusele, kes annab pimesi allkirja, teadmata selle sisu. Pärast allkirjastatud dokumendi kättesaamist teeb ettevõte allkirja lahti. Tulemuseks on originaaldokument, mis on kinnitatud asutuse allkirjaga, ilma et asutus oleks kunagi näinud originaalsisu.
 
-### Chaumian Coinjoins
+Chaumi pimedad allkirjad võimaldavad seega tõendada dokumendi autentsust, ilma et oleks teada selle sisu, tagades seega nii kasutaja andmete konfidentsiaalsuse kui ka allkirjastatud dokumendi terviklikkuse.
 
-Chaumian CoinJoins'i puhul kombineeritakse Tor ja David Chaumi pimedad allkirjad, et koordinaator ei saaks teada, millisele kasutajale iga väljund kuulub. Coinjoin-tehingute loomise protsess koosneb kolmest peamisest etapist: sisendi registreerimine, väljundi registreerimine ja tehingu allkirjastamine. Vaatleme seda protsessi ühe coinjoin'i osaleja Alice'i näitel. Kõik teised osalejad järgivad samu samu samme nagu Alice, igaüks omaette.
+### Chaumian coinjoins
 
-**Samm 1: Sisendite registreerimine.**
+Niinimetatud "Chaumian" coinjoins ühendab Tor ja David Chaumi pimedad allkirjad, et koordinaator ei saaks teada, milline väljund millisele kasutajale kuulub.
 
+Coinjoin-tehingute loomise protsess hõlmab 3 peamist etappi: sisendi registreerimine, väljundi registreerimine ja tehingu allkirjastamine. Vaatleme seda protsessi ühe coinjoin'i osaleja Alice'i näitel. Kõik teised osalejad järgivad samu samu etappe nagu Alice, igaüks neist omal käel.
 
-- Alice saadab koordinaatorile UTXO, mida ta soovib kasutada tehingu sisendina, ning maskeeritud vastuvõtu aadressi, mida ta soovib kasutada väljundina oma bitcoinide vastuvõtmiseks. Seetõttu ei saa koordinaator teada Alice'i aadressi. Ta näeb ainult tema maskeeritud versiooni.
-- Koordinaator kontrollib sisendite kehtivust, seejärel allkirjastab Alice'i maskeeritud aadressi tema isikliku võtmega. Seejärel saadab ta Alice'ile pimeallkirja.
-
-**Samm 2: Väljundite salvestamine.**
+**Samm 1: Sisendregistreerimine
 
 
-- Alice saab nüüd eemaldada maskeeringu oma aadressilt, mis on allkirjastatud koordinaatori privaatvõtmega. Ta loob uue ühenduse teise Tori identiteedi all. Koordinaator ei saa tuvastada, et see on Alice, kes ühendub selle uue identiteedi all.
-- Alice saadab varjatud aadressi ja allkirja koordinaatorile (kes ei tea endiselt, et tegemist on Alice'iga).
+- Alice edastab koordinaatorile UTXO, mida ta soovib kasutada tehingu sisendina, ning maskeeritud vastuvõtu aadressi, mida ta soovib kasutada väljundina oma bitcoinide vastuvõtmiseks. Koordinaatoril ei ole seega võimalik teada Alice'i aadressi. Ta näeb ainult tema maskeeritud versiooni:
 
-**Samm 3: allkirjastage tehing.**
+![BTC204](assets/fr/118.webp)
 
 
-- Koordinaator hangib samamoodi kõigilt osalejatelt maskeerimata väljundid. Seotud allkirjade abil saab ta kontrollida, et iga anonüümselt saadetud väljund on tegelikult eelnevalt tema isikliku võtmega allkirjastatud, tagades selle õiguspärasuse. Seejärel on ta valmis koostama mündiühendustehingu ja saadab selle osalejatele allkirjastamiseks.
-- Alice, nagu ka teised osalejad, kontrollib, et tema sisend ja väljund on korrektselt lisatud koordinaatori koostatud tehingusse. Kui kõik on rahuldav, saadab ta koordinaatorile allkirja, mis avab tema sisendi käsikirja.
-- Pärast allkirjade kogumist kõigilt coinjoin'i osalejatelt saab koordinaator edastada tehingu Bitcoini võrgu kaudu, et see saaks lisada blokki.
+- Koordinaator kontrollib sisendite kehtivust, seejärel allkirjastab Alice'i maskeeritud aadressi oma isikliku võtmega. Ta tagastab Alice'ile pime allkirja:
 
-Selles süsteemis ei ole koordinaatoril võimalik sisendit konkreetse väljundiga siduda. Lisaks sellele ei saa ta osalejate rahalisi vahendeid enda valdusesse võtta, kuna tal ei ole kunagi juurdepääsu nende UTXOde avamiseks vajalikele isiklikele võtmetele. Kogu protsessi jooksul ja kuni 3. etapi lõpuni ei ole tal isegi juurdepääsu allkirjadele. Kui Alice ja teised osalejad allkirjastavad üldise tehingu, ei saa koordinaator pärast selle õigsuse kontrollimist enam seda tehingut, sealhulgas väljundeid, muuta, ilma et see kehtetuks muutuks. See takistab seega bitcoinide vargust koordinaatori poolt.
+![BTC204](assets/fr/119.webp)
 
-Lõpuks, kui nad registreerivad oma toodangu tehingus, soovib coinjoin kasutaja tagatisi, mis sarnanevad valimistel hääletava kodaniku tagatistega. Nende tegevuste avaliku ja erasektori aspektide vahel on kaksikmõju. Ühelt poolt on see, mida tahetakse hoida privaatsena: valija puhul ei taha ta, et tema hääletussedelit seostatakse tema identiteediga; coinjoin-kasutajal ei taha ta, et tema väljundit seostatakse tema sisendiga. Tegelikult, kui koordinaator või mõni muu osapool suudab luua seose sisendi ja väljundi vahel, kaotab coinjoin kogu oma eesmärgi. Nagu varem selgitatud, peab coinjoin toimima kui katkestus mündi ajaloos. See paus tekib just seetõttu, et coinjoin-tehingus ei ole võimalik seostada konkreetset sisendit konkreetse väljundiga (prospektiivne anonset) ja vastupidi (retrospektiivne anonset).
+**Samm 2: väljundite registreerimine**
 
-Teisest küljest on olemas avalik aspekt: valija tahab veenduda, et tema hääletussedel on hääletuskasti lisatud; samamoodi tahab coinjoin'i kasutaja veenduda, et tema väljund on lisatud coinjoin'i tehingusse. Tegelikult on absoluutselt vajalik, et coinjoinis osalejad saaksid enne tehingu allkirjastamist kontrollida oma väljundi olemasolu, sest vastasel juhul võib koordinaator raha varastada.
 
-Just need 2 avalikku ja privaatset aspekti, mis on võimalik David Chaumi pimedate allkirjade abil, tagavad Chaumians coinjoin'i osalejatele, et nende bitcoine ei varastata ja et nende raha ei ole võimalik jälgida.
+- Alice saab oma aadressi, mis on nüüd allkirjastatud koordinaatori privaatvõtmega, avalikustada. Ta loob uue ühenduse teise Tori identiteedi all. Koordinaator ei saa tuvastada, et see on Alice, kes ühendub selle uue identiteedi all:
 
-### Kes leiutas mõiste coinjoin?
+![BTC204](assets/fr/120.webp)
 
-On raske kindlalt kindlaks teha, kes esimesena tutvustas Bitcoini mündiühenduste ideed ja kes tuli välja ideega kasutada David Chaumi pimedat allkirja selles kontekstis. Sageli arvatakse, et Gregory Maxwell mainis seda esimesena [2013. aasta postituses BitcoinTalkis](https://bitcointalk.org/index.php?topic=279249.0):
 
-Chaumi pimedate allkirjade kasutamine: Kasutajad ühenduvad ja esitavad sisendi (ja aadressid muu hulgas) ning krüptograafiliselt varjatud versiooni aadressist, kuhu nad soovivad saata oma privaatseid münte; server allkirjastab märgid ja saadab need kasutajatele tagasi. Kasutajad ühenduvad uuesti anonüümselt, paljastavad oma väljundaadressid ja saadavad need serverile tagasi. Server näeb, et kõik väljundid on tema poolt allkirjastatud ja seega on kõik väljundid pärit kehtivatelt osalejatelt. Hiljem ühenduvad inimesed uuesti ja allkirjastavad.
+- Alice saadab maskeerimata aadressi ja allkirja koordinaatorile (kes ikka veel ei tea, et see on Alice):
 
-Maxwell, G. (2013, 22. august). _CoinJoin: Bitcoini privaatsus reaalses maailmas_. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
+![BTC204](assets/fr/121.webp)
 
-Siiski on varem mainitud mõlemat Chaumi allkirja segunemise ja kaasühenduste kontekstis. [2011. aasta juunis tutvustas Duncan Townsend BitcoinTalkis](https://bitcointalk.org/index.php?topic=12751.0) segajat, mis kasutab Chaumi allkirju üsna sarnaselt tänapäeva Chaumi coinjoinidega.
+**Samm 3: Tehingu allkirjastamine**
 
-Samas teemas on [hashcoini sõnum vastuseks Duncan Townsendile](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793), et parandada tema mikserit. Selles sõnumis kirjeldatud protsess kujutab endast just seda, mis on kõige lähemal coinjoinile. Sarnast süsteemi mainitakse ka [Alex Mizrahi sõnumis 2012. aastal](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), kuna ta nõustas Tenebrixi loojaid, mis oli üks esimesi altcoin'e, mis hiljem oli aluseks Litecoini loomisele. Isegi terminit "coinjoin" ise ei leiutanud Greg Maxwell, vaid see tulenes Peter Toddi ideest.
+
+- Samamoodi hangib koordinaator kõigilt osalejatelt maskeerimata väljundid. Tänu seotud allkirjadele saab ta kontrollida, et iga anonüümselt esitatud väljund on eelnevalt allkirjastatud tema isikliku võtmega, tagades seega nende õiguspärasuse. Seejärel on ta valmis koostama mündiühendustehingu ja saadab selle osalejatele allkirjastamiseks:
+
+![BTC204](assets/fr/122.webp)
+
+
+- Alice, nagu ka teised osalejad, kontrollib, et tema sisend ja väljund on korrektselt lisatud koordinaatori koostatud tehingusse. Kui kõik on rahuldav, saadab ta koordinaatorile allkirja, mis vabastab tema sisendskripti:
+
+![BTC204](assets/fr/123.webp)
+
+
+- Pärast allkirjade kogumist kõigilt coinjoin'i osalejatelt saab koordinaator edastada tehingu Bitcoini võrgus, et see saaks lisada blokki.
+
+Selles süsteemis ei ole koordinaatoril võimalik sisendit konkreetse väljundiga siduda. Veelgi enam, ta ei saa osalejate rahalisi vahendeid omastada, sest tal ei ole kunagi juurdepääsu nende UTXOde avamiseks vajalikele privaatvõtmetele. Kogu protsessi jooksul, kuni 3. etapi lõpuni, ei ole tal ka juurdepääsu allkirjadele. Kui Alice ja teised osalejad allkirjastavad üldise tehingu, ei saa koordinaator pärast selle kontrollimist, et kõik on õige, enam tehingut, sealhulgas väljundeid, muuta ilma seda kehtetuks muutmata. See takistab koordinaatoril bitcoinide varastamist.
+
+Lõpuks soovib coinjoin'i kasutaja oma väljundit tehingus registreerides samasuguseid tagatisi nagu valimistel hääletav kodanik. Nende tegevuste avaliku ja erasektori aspektide vahel on kaksikmõju. Ühelt poolt on see, mida tahetakse hoida privaatsena: valija puhul ei taha ta, et tema hääletussedel oleks seotud tema identiteediga; coinjoin-kasutajal ei taha, et tema väljundit seostataks tema sisendiga. Kui koordinaatoril või mõnel muul osapoolel õnnestub tõepoolest luua seos sisendi ja väljundi vahel, kaotab coinjoin igasuguse huvi. Nagu eespool selgitatud, peab coinjoin toimima katkestusena mündi ajaloos. See peatumine toimub just seetõttu, et coinjoin-tehingus ei ole võimalik seostada konkreetset sisendit konkreetse väljundiga (prospektiivne anonset) ja vastupidi (retrospektiivne anonset).
+
+Teisest küljest on olemas avalik aspekt: valija tahab olla kindel, et tema hääletussedel on hääletuskasti lisatud; samamoodi tahab coinjoin'i kasutaja olla kindel, et tema väljund on lisatud coinjoin'i tehingusse. Coinjoin'i osalejad peavad tõepoolest tingimata saama enne tehingu allkirjastamist kontrollida oma väljundi olemasolu, sest vastasel juhul võib koordinaator raha varastada.
+
+Just need 2 avalikku ja privaatset aspekti, mida võimaldab David Chaumi pimedate allkirjade kasutamine, tagavad Chaumian coinjoins'is osalejatele, et nende bitcoine ei varastata ja et nende raha ei ole võimalik jälgida.
+
+### Kes leiutas mündiühenduse kontseptsiooni?
+
+On raske öelda kindlalt, kes esimesena tutvustas Bitcoinile coinjoin'i ideed ja kes tuli välja ideega kasutada David Chaumi pimedat allkirja selles kontekstis. Sageli arvatakse, et see oli Gregory Maxwell, kes mainis seda esimesena [ühes sõnumis BitcoinTalkis 2013. aastal](https://bitcointalk.org/index.php?topic=279249.0) :
+
+> *"Chaumi pimedate allkirjade kasutamine: Kasutajad logivad sisse ja annavad sisendid (ja vahetavad aadressid) ning krüptograafiliselt pimendatud versiooni aadressist, millele nad soovivad saata oma privaatseid osi; server allkirjastab märgid ja saadab need tagasi. Kasutajad ühenduvad uuesti anonüümselt, maskeerivad oma väljundaadressid lahti ja saadavad need serverile tagasi. Server näeb, et kõik väljundid on tema poolt allkirjastatud ja et järelikult pärinevad kõik väljundid kehtivatelt osalejatelt. Hiljem ühenduvad inimesed uuesti ja logivad sisse
+Maxwell, G. (2013, 22. august). *CoinJoin: Bitcoini privaatsus reaalses maailmas*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
+
+![BTC204](assets/fr/124.webp)
+
+Siiski on ka teisi varasemaid viiteid, nii Chaumi allkirjade kui segunemise osa kohta, aga ka coinjoinide kohta. [2011. aasta juunis tutvustas Duncan Townsend BitcoinTalkis](https://bitcointalk.org/index.php?topic=12751.0) segajat, mis kasutab Chaumi allkirju üsna sarnaselt tänapäevastele Chaumi coinjoinidele.
+
+Samast teemast leiame [hashcoini sõnumi vastuseks Duncan Townsendile](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793), et parandada oma segajat. Selles sõnumis kirjeldatud protsess on täpselt see, mida coinjoins endast kujutab. Samasuguse süsteemi mainimist võib leida ka [Alex Mizrahi sõnumist 2012. aastal](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), kui ta nõustas Tenebrixi, ühe esimese altcoini loojaid, mis oli aluseks hilisemale Litecoini loomisele. Isegi termin "coinjoin" ise ei ole väidetavalt Greg Maxwelli poolt välja mõeldud, vaid pärineb Peter Toddi ideest.
 
 ![BTC204](assets/fr/125.webp)
 
 ### Zerolink
 
-Zerolink on terviklik seguprotokoll, mis integreerib Chaumiani mündiühendused ja erinevad strateegiad, et kaitsta kasutaja anonüümsust erinevate ahelate analüüsi vormide eest, vähendades oluliselt rahakoti haldamisega seotud vigu. Selle protokolli [tutvustasid 2017. aastal nopara73 ja TDevD](https://github.com/nopara73/ZeroLink/blob/master/README.md).
+Zerolink on terviklik seguprotokoll, mis sisaldab Chaumian coinjoins'i ja erinevaid strateegiaid kasutajate anonüümsuse kaitsmiseks mitme ahelanalüüsi vormi eest, eelkõige minimeerides portfellihaldusega seotud vigu. Seda protokolli [tutvustasid 2017. aastal nopara73 ja TDevD](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 ![BTC204](assets/fr/126.webp)
 
-Nagu nimigi ütleb, on Zerolinki põhimõte teha coinjoin-tehinguid, mis tagavad, et sisendite ja väljundite vahelisi seoseid ei ole võimalik jälgida. See omadus saavutatakse tagades, et kõik väljundid on täiesti identsed.
+Nagu nimigi ütleb, on Zerolinki põhimõte luua coinjoin-tehinguid, mis tagavad, et sisendite ja väljundite vahelisi seoseid ei ole võimalik jälgida. See saavutatakse tagades, et kõik väljundid on täiesti identsed.
 
 ![BTC204](assets/fr/127.webp)
 
-Zerolinki oluline ennetav meede hõlmab segamata UTXOde täielikku eraldamist segatud UTXOdest, kasutades selleks eraldi krüptograafilisi võtmekomplekte või isegi eraldi rahakotte. Sel viisil eristatakse "segamiseelne" rahakott, mis on mõeldud müntidele enne segamist, "segamisjärgsest" rahakotist, mis on reserveeritud segatud müntidele.
+Zerolinki oluline ennetav meede on hoida segamata UTXOd täielikult lahus segatud UTXOdest, kasutades selleks eraldi krüptograafilisi võtmekomplekte või isegi eraldi portfelle. See eristab "*pre-mix*" rahakoti, mis on mõeldud osadele enne segamist, "*post-mix*" rahakotist, mis on reserveeritud segatud osadele.
 
 ![BTC204](assets/fr/128.webp)
 
-Selline UTXOde range eraldamine on eelkõige selleks, et vältida juhuslikke assotsiatsioone segatud ja segamata UTXOde vahel. Tegelikult, kui sellised seosed tekivad, muutub coinjoin'i tõhusus segatud UTXOs kasutaja teadmata olematuks, ohustades seega sellise UTXO konfidentsiaalsust, mille ajalugu arvati olevat rikutud. Sellised seosed võivad tekkida kas aadressi taaskasutamise kaudu, et kindlustada segatud UTXO segamata UTXOga, või ühise sisendi omandiõiguse heuristika (Common Input Ownership Heuristics, CIOH) rakendamise kaudu, kui kasutaja kasutab segatud ja segamata UTXOd sama tehingu sisenditena. Segamiseelsete ja segamisejärgsete portfellide eraldamisega välditakse selliseid juhuslikke ühendusi ja kaitstakse kasutajat tahtmatute vigade eest.
+TÜKide range eraldamine aitab eelkõige vältida juhuslikke seoseid segatud TÜKi ja segamata TÜKi vahel. Kui sellised seosed tekivad, tühistatakse segatud UTXOs coinjoin'i tõhusus, ilma et kasutaja sellest teadlik oleks, ohustades seega UTXO konfidentsiaalsust, mille ajalugu ta arvas, et on rikkunud. Sellised seosed võivad tekkida kas aadressi taaskasutamise kaudu segatud UTXO kindlustamisel segamata UTXOga või CIOH (_Common-Input-Ownership Heuristic_) kohaldamise kaudu, kui kasutaja kasutab segatud ja segamata UTXOsid sama tehingu sisendina. Segamiseelse ja -järgse portfelli eraldamisega väldime selliseid juhuslikke ühendusi ja kaitseme kasutajat tahtmatute vigade eest.
 
 ![BTC204](assets/fr/129.webp)
 
-Selline eraldamine annab ka võimaluse kohaldada portfelli tarkvara tasandil erinevaid eeskirju portfellide segunemiseelse ja segunemisejärgse segunemise vahel. Näiteks võib tarkvara segunemisjärgse portfelli puhul keelata sisendiks olevate UTXOde ühendamise, et vältida CIOHi kohaldamist, mis kahjustaks kasutaja anonset. Samuti on võimalik standardiseerida skriptide ja tehinguvalikute (näiteks RBF-signalisatsioon) kasutamist, et vältida tuvastamist rahakoti sõrmejälgede abil.
+Selline eraldamine annab ka võimaluse kohaldada portfelli tarkvara tasandil erinevaid reegleid segunemiseelsete ja segunemiseelsete portfellide vahel. Näiteks võib tarkvara segamisjärgse portfelli puhul keelata UTXOde ühendamise sisenditesse, et vältida CIOHi kohaldamist, mis ohustaks kasutaja anonset. Samuti on võimalik standardiseerida skriptide ja tehinguvalikute kasutamist (näiteks RBF-aruandlus), et vältida rahakoti sõrmejälgede abil tuvastamist.
 
-Hetkel on Whirlpool ainus coinjoini rakendus, mis järgib rangelt Zerolinki protokolli. Järgnevas peatükis uurime erinevaid olemasolevaid coinjoini rakendusi ning nende eeliseid ja puudusi.
+Praegu on Whirlpool ainus coinjoin rakendamine, mis kohaldab rangelt Zerolinki protokolli. Järgmises peatükis vaatleme erinevaid olemasolevaid coinjoini rakendusi ning nende eeliseid ja puudusi.
 
 ## Coinjoin rakendused
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
-_2024. aastal näeme olulisi muudatusi tööriistades, mis on kättesaadavad kasutajatele, kes soovivad Bitcoini mündiühendusi käivitada. Oleme praegu otsustaval perioodil ja coinjoin-turul toimub suur ümberstruktureerimine. Seetõttu ajakohastatakse seda peatükki tõenäoliselt aja jooksul._
+![La confidentialité sur Bitcoin](https://youtu.be/cKNB1_840Ic?feature=shared)
 
-Hetkel on Bitcoinis peamiselt 3 erinevat coinjoin'i rakendust:
+*2024. aastal oleme tunnistajaks olulistele muudatustele tööriistades, mis on kättesaadavad kasutajatele, kes soovivad Bitcoinis coinjoneid teha. Oleme praegu pöördepunktis ja coinjoin-turul on toimumas suured ümberkorraldused. Seda peatükki uuendatakse kindlasti aja jooksul
+
+Hetkel on Bitcoinis peamiselt 3 erinevat coinjoin rakendust:
 
 
 - Whirlpool;
 - Wabisabi;
 - JoinMarket.
 
-Kõigi nende rakenduste eesmärk on murda UTXOde ajalugu coinjoin-tehingute kaudu. Nende mehhanismid erinevad siiski märkimisväärselt. Seetõttu on oluline mõista, kuidas iga neist töötab, et valida teie vajadustele kõige paremini sobiv variant.
+Kõigi nende rakenduste eesmärk on murda UTXOde ajalugu coinjoin-tehingute kaudu. Nende mehhanismid erinevad siiski märkimisväärselt. Seetõttu on oluline mõista, kuidas iga neist töötab, et saaksite valida oma vajadustele kõige paremini sobivaima võimaluse.
 
 ### JoinMarket
 
-2015. aastal Adam Gibsoni ja Chris Belcheri poolt loodud JoinMarket erineb teistest coinjoin'i rakendustest oma ainulaadse kasutaja sobitusmudeli poolest. See süsteem põhineb P2P-vahetusturul, kus mõned kasutajad, "tegijad", teevad oma bitcoinid segamiseks kättesaadavaks, samas kui teised, "võtjad", kasutavad neid vahendeid tasu eest coinjoinide teostamiseks.
+2015. aastal Adam Gibsoni ja Chris Belcheri poolt asutatud JoinMarket eristub selgelt teistest coinjoini rakendustest tänu kasutajate ühendamise ainulaadsele mudelile. Süsteem põhineb P2P-vahetusturul, kus mõned kasutajad, nn tegijad, teevad oma bitcoinid segamiseks kättesaadavaks, teised, nn võtjad, kasutavad seda raha tasu eest coinjoinide tegemiseks.
 
 ![BTC204](assets/fr/130.webp)
 
-Selle mudeli puhul jätavad "tegijad" oma bitcoinid "võtjatele" kättesaadavaks ja saavad oma teenuse eest tasu. Teisalt maksavad "võtjad" "tegijate" bitcoinide kasutamise eest, et teha oma coinjoin-tehinguid. Teenustasud varieeruvad vastavalt rollile: "tegijad" koguvad tasu oma likviidsuse pakkumise eest, samas kui "võtjad" maksavad komisjonitasu. See turg toimib vabalt ilma kasutustingimusteta.
+Selle mudeli puhul teevad "tegijad" oma bitcoinid kättesaadavaks "võtjatele" ja saavad oma teenuse eest tasu. Võtjad omakorda maksavad selle eest, et nad saaksid kasutada tegijate bitcoin'eid oma coinjoin-tehingute tegemiseks. Teenustasu varieerub sõltuvalt täidetavast rollist: "Tegijad" koguvad tasu likviidsuse pakkumise eest, samas kui "võtjad" maksavad tasu. Turg toimib vabalt, ilma kasutustingimusteta.
 
-JoinMarketi peamine puudus on selle kasutamise keerukus, mis eeldab selle tõhusaks kasutamiseks mõningaid teadmisi terminalidest. Kuigi see keerukus ei ole kogenud kasutajale takistuseks, võib see piirata üldsuse juurdepääsu. Hiljuti kasutusele võetud veebiliides nimega JAM on siiski mõnevõrra lihtsustanud selle kasutamist.
+Üks JoinMarketi peamisi puudusi on selle kasutamise keerukus, mis eeldab selle tõhusaks kasutamiseks teatavat mugavust terminalidega. Kuigi see keerukus ei ole kogenud kasutajale takistuseks, võib see piirata juurdepääsu üldsusele. Hiljuti kasutusele võetud veebiliides nimega JAM on siiski muutnud selle kasutamise veidi lihtsamaks.
 
 ![BTC204](assets/fr/131.webp)
 
-Allikas: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Allikas : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
 
-Tehnilised takistused on siiski endiselt suur takistus. Coinjoini ökosüsteemis, kus konfidentsiaalsust suurendab osalejate arv, mõjutab igasugune piirang, mis vähendab ligipääsetavust, otseselt kättesaadavat likviidsust, mis on oluline tegur segunemise tõhususe seisukohast. Bitcoin, mis on juba nišši finantstehingute valdkonnas, näeb coinjoinide kasutamist alamnišina ning JoinMarket esindab veelgi spetsialiseeritumat osa, piirates seega selle potentsiaali kasutajate anonüümsuse suurendamiseks.
+Tehnilised takistused on siiski endiselt suur takistus. Coinjoini ökosüsteemis, kus konfidentsiaalsust tugevdab osalejate arv, mõjutab igasugune ligipääsetavust vähendav piirang otseselt kättesaadavat likviidsust, mis on kombinatsiooni tõhususe seisukohalt oluline tegur. Bitcoin, mis on juba nišš finantstehingute valdkonnas, näeb coinjoinide kasutamist alamniššina ning JoinMarket esindab sellest veelgi spetsialiseeritumat osa, mis seetõttu piirab selle potentsiaali kasutajate anonüümide suurendamisel.
 
-Hoolimata oma uuenduslikust P2P-mudelist, mis sobib mündiühenduste jaoks, on JoinMarketil mõned olulised puudused, eriti tehingustruktuuri osas. Erinevalt teistest rakendustest, nagu Whirlpool, ei taga JoinMarket täiuslikku võrdsust väljundite vahel ning sisendite ja väljundite vahel saab luua deterministlikke seoseid. Samuti puuduvad vahendid, mis takistaksid juba segatud müntide uuesti segamist, mis võib ohustada kasutajate soovitud konfidentsiaalsust. Lõpuks, kuigi JoinMarketi kontseptsioon on atraktiivne, eriti neile, kes on huvitatud dünaamilisest likviidsusturust, muudavad selle struktuurilised puudused ja tehniline keerukus selle minu arvates vähem atraktiivseks nii algajatele kui ka ekspertidele, kes otsivad coinjoini rakendamist.
+Hoolimata oma uuenduslikust P2P-ühendusmudelist coinjoineritele, on JoinMarketil mõned olulised puudused, eriti tehingustruktuuri osas. Erinevalt teistest rakendustest, nagu Whirlpool, ei taga JoinMarket täiuslikku võrdsust väljundite vahel ning on võimalik jälgida deterministlikke seoseid sisendite ja väljundite vahel. Lisaks puuduvad vahendid, mis takistaksid juba omavahel segatud osade uuesti segamist, mis võib ohustada kasutajate soovitud konfidentsiaalsust.
+
+Lõpuks, kuigi JoinMarket'i kontseptsioon on huvitav, eriti neile, kes on huvitatud dünaamilisest likviidsusturust, muudavad selle struktuurilised puudused ja tehniline keerukus selle minu arvates vähem huvitavaks nii algajatele kui ka ekspertidele, kes otsivad coinjoin'i rakendamist.
 
 ### Wabisabi
 
-Wabisabi on veel üks coinjoini rakendus, mille puhul on tehingute koordineerimine tsentraliseeritud. Selle mudeli kavandasid Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero ja István András Seres 2021. aastal ning see integreeriti Wasabi 2.0 tarkvarasse järgmisel aastal. Wabisabi kujutab endast täpselt 2018. aastal käivitatud Wasabi tarkvara coinjoin-mudeli edasiarendust.
+Wabisabi on veel üks coinjoini rakendus, mille lähenemisviis tsentraliseerib tehingu koordineerimise. Selle mudeli mõtlesid Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero ja István András Seres välja 2021. aastal ning see integreeriti Wasabi 2.0 tarkvarasse järgmisel aastal. Wabisabi on just 2018. aastal käivitatud Wasabi tarkvara mündiühendusmudeli edasiarendus.
 
-2010. aastate lõpus võttis Wasabi kasutusele oma coinjoinide tehingustruktuuri, mis erines radikaalselt Whirlpooli omast. Osalejate anonüümsuse suurendamiseks kasutas Wasabi väga suuri coinjoin-tehinguid, mis koondasid kümneid osalejaid. Seevastu Whirlpool valis mitu väikest tehingut, mis võimaldas iga tsükliga anonüümide arvu eksponentsiaalset suurenemist.
+![BTC204](assets/fr/132.webp)
 
-Ülejäänu käsitlemise meetodid eristasid samuti kahte rakendust. Whirlpooli puhul jäeti jääk välja ja isoleeriti UTXOdest enne coinjoin'i tsüklit TX0 abil, mida ma selgitan lähemalt järgmises peatükis. Seevastu Wasabi puhul moodustas jäägid ühe coinjoin-tehingu väljundi, säilitades deterministlikke seoseid mõnede sisendite ja väljundite vahel.
+2010. aastate lõpu poole võttis Wasabi kasutusele Whirlpoolist radikaalselt erineva coinjoin-tehingute struktuuri. Wasabi kasutas väga suuri coinjoin-tehinguid, mis hõlmasid kümneid osalejaid, et suurendada osalejate anonset'i. Seevastu Whirlpool valis mitu väikest tehingut, mis võimaldas iga tsükliga anonsettide eksponentsiaalset kasvu.
 
-Wabisabi versioon 2.0 on kohandanud oma lähenemist coinjoins'ile nii, et see oleks lähedane Whirlpooli omale. Kuigi coinjoin-tehingud on endiselt väga suured, on nüüd võimalik mitu järjestikust vooru aheldada, järgides seega Whirlpooli mudelit. Erilist tähelepanu on pööratud ka vahetusraha haldamisele: erinevalt Wasabi 1.0-st, kus vahetusraha oli otseselt seotud kasutaja sisestusega, püüab Wabisabi vahetusraha jagada mitmeks väikeseks summaks, mis jagatakse kõigile osalejatele võrdsete nimiväärtustega.
+Ka vahetuse haldamise meetodid erinesid kahest rakendusest. Whirlpooliga välistati ja isoleeriti välisvaluuta UTXOdest enne coinjoin'i tsüklit tänu TX0-le, mida ma selgitan lähemalt järgmises peatükis. Seevastu Wasabi puhul moodustas välisvaluuta ühe coinjoin-tehingu väljunditest, säilitades deterministlikke seoseid teatavate sisendite ja väljundite vahel.
 
-Illustreerime seda lihtsustatud näite abil, mis hõlmab ainult 2 kasutajat: Alice soovib segada 115 000 sati ja Bob 210 000 sati. Ignoreerides komisjonitasusid, oleks Wasabi 1.0 puhul coinjoin-tehing tekitanud 3 väljundit 100 000 satsist, pluss 1 jääk 15 000 satsist Alice'ile ja 1 jääk 10 000 satsist Bobile. Ülejäänud väljundid oleksid alati seotud sisenditega:
+![BTC204](assets/fr/133.webp)
 
-Wabisabi puhul toodaks sama tehing 3 väljundit 100 000 satsist ja 5 väljundit 5000 satsist, hajutades seega ülejäänu nii, et see ei ole otseselt seostatav konkreetse sisendiga:
+Wabisabi versioon 2.0 on kohandanud oma lähenemist coinjoins'ile, et see vastaks Whirlpooli omale. Kuigi coinjoin-tehingud on endiselt väga suured, on nüüd võimalik Whirlpooli mudelit järgides mitu järjestikust tsüklit aheldada. Erilist tähelepanu on pööratud ka vahetuskursi haldamisele: erinevalt Wasabi 1.0 versioonist, kus vahetuskurss oli otseselt seotud kasutaja sisendiga, püütakse Wabisabis jagada vahetuskurss mitmeks väikeseks summaks, mis on jagatud kõigile osalejatele võrdseteks nimiväärtusteks.
 
-Mina isiklikult usun, et muudatuste haldamine Wabisabis kätkeb endas mitmeid riske, mis võivad ohustada selle tõhusust eraelu puutumatuse osas:
+Illustreerime seda lihtsustatud näite abil, mis hõlmab vaid 2 kasutajat: Alice soovib segada 115 000 satelliiti ja Bob 210 000 satelliiti. Kui jätta tasud kõrvale, siis Wasabi 1.0 puhul oleks coinjoin-tehing tekitanud 3 väljundit 100 000 sati ulatuses, lisaks 1 vahetus 15 000 sati ulatuses Alice'ile ja 1 vahetus 10 000 sati ulatuses Bobile. Vahetuse väljundid oleksid endiselt seotud sisenditega:
+
+![BTC204](assets/fr/134.webp)
+
+Wabisabi puhul oleks sama tehingu tulemuseks olnud 3 väljundit 100 000 sati ja 5 väljundit 5000 sati, mis hajutab vahetuse nii, et seda ei saa otseselt seostada konkreetse sisendiga:
+
+![BTC204](assets/fr/135.webp)
+
+Mina isiklikult leian, et Wabisabi valuutahaldus kujutab endast mitmeid riske, mis võivad ohustada selle tõhusust konfidentsiaalsuse osas:
 
 
-- Kui kasutaja panustab teiste osalejate omast oluliselt suurema UTXO, siis jõuab ta paratamatult muutuste summa, mis on seotud tema panusega. See on vastuolus protokolli algse eesmärgiga, mille eesmärk on kõrvaldada igasugune tuvastatav muutus;
-- Nimetuste paljundamine, et ülejäänud killustada, võib paradoksaalselt kahjustada segamise tõhusust. See protsess võib viia teatud väljundite anonüümide vähenemiseni, kuna need muutuvad kergemini identifitseeritavaks;
-- See meetod tekitab ka madala väärtusega UTXOsid, mis tekitavad kasutajale haldusprobleeme. Need väikesed UTXOd võivad muutuda "tolmuks", kui nende kulutamine muutub nende väärtuse suhtes liiga kalliks See nähtus sunnib kasutajat oma tulevastes tehingutes mitu sisendtuletatud UTXOd ühendama või neid konsolideerima. Mõlemal juhul võib see COH tõttu vähendada saadud anonüümseid summasid või tühistada täielikult esialgsest mündiühendusest saadud privaatsuse eelised.
+- Kui kasutaja panustab UTXO, mis on oluliselt suurem kui teiste osalejate panus, saab ta paratamatult vahetussumma, mis on seotud tema panusega. See on vastuolus protokolli algse eesmärgiga, milleks on kõigi identifitseeritavate vahetuste kõrvaldamine;
+- Nomenklatuuride mitmekordistamine eesmärgiga killustada vahetust võib paradoksaalselt olla segamise tõhususele kahjulik. See protsess võib viia teatavate väljundite anonüümide vähenemiseni, kuna need muutuvad kergemini identifitseeritavaks;
+- See meetod tekitab ka madala väärtusega UTXOsid, mis tekitavad kasutajale haldusprobleeme. Kui need väikesed UTXOd muutuvad oma väärtusega võrreldes liiga kulukaks, võivad need muutuda "tolmuks". See nähtus sunnib kasutajat ühendama mitu UTXOd tulevaste tehingute sisenditeks või konsolideerima neid. Mõlemal juhul võib see CIOHi tõttu kas vähendada saadud anonüümset või tühistada täielikult esialgse mündiühendusega saadud konfidentsiaalsuse eelised.
 
-Erinevalt Whirlpoolist, mis rakendab ZeroLink-protokolli, tagades UTXO eelsegude ja järelsegude range eraldatuse, ei säilita Wabisabi sellist ranget eraldatust. Samuti on esinenud probleeme aadresside korduvkasutamisega mõnede Wasabi klientide poolt, mis on ilmselgelt väga kahjulik kasutajale.
+Erinevalt Whirlpoolist, mis rakendab ZeroLink-protokolli, mis tagab segieelsete ja segamisjärgsete UTXOde range eraldatuse, ei kasuta Wabisabi sellist ranget eraldatust. Mõne Wasabi kliendi puhul on esinenud ka probleeme aadresside korduvkasutamisega, mis on kasutajale ilmselgelt väga kahjulik.
 
-Wasabi versioonis 2.0 võeti kasutusele uus coinjoin-hinnakujunduspoliitika. Nüüd on koordinaatoritasud määratud 0,3 protsendile UTXOde puhul, mis on suuremad kui 0,01 bitcoini, samas kui väiksemate UTXOde puhul on need tasud täielikult nullis. Lisaks on nende väiksemate UTXOde puhul remixid tasuta, kuigi kaevandamistasud jäävad kõigi tehingute, sealhulgas remixide eest.
+Wasabi versioonis 2.0 on rakendatud uus coinjoin-tasupoliitika. Nüüdsest alates on koordinaatoritasud 0,3% üle 0,01 bitcoini suuruste UTXOde puhul, samas kui väiksemate UTXOde puhul pakutakse neid tasusid täies mahus. Lisaks on nende väiksemate UTXOde puhul remixid tasuta, kuigi kaevandamistasud jäävad kasutaja poolt tasumisele kõigi tehingute, sealhulgas remixide eest.
 
-See poliitika erineb Whirlpooli omast, kus komisjonitasud jäävad fikseerituks, sõltumata saadud anonüümide suurusest. Wasabi 2.0 puhul, kuigi koordinaatorite komisjonitasud on väikeste UTXOde puhul nullistatud, peab kasutaja ikkagi maksma kaevandamise komisjonitasu kõigi tehingute, sealhulgas remixide eest.
+See on vastuolus Whirlpooli poliitikaga, mille kohaselt jäävad tasud fikseeritud, sõltumata saadud anonsetite suurusest. Wasabi 2.0 puhul loobutakse küll väikeste UTXOde puhul koordinaatoritasudest, kuid kasutaja peab siiski maksma kaevandamistasu kõigi tehingute, sealhulgas remixide eest.
 
-Käesoleva artikli kirjutamise ajal on Wabisabi kasutamine muutunud hiljutiste sündmuste tõttu märkimisväärselt keerulisemaks. Tõepoolest, pärast Samourai rahakoti asutajate vahistamist teatas Wasabi arendamist rahastav ja haldav ettevõte zkSNACKs, et lõpetab 1. juunil 2024 oma mündiühenduse koordineerimisteenuse. See koordineerija, mis oli määratud Wasabile vaikimisi, omas valdavat osa likviidsusest.
+Kui ma neid ridu kirjutan, on Wabisabi kasutamine hiljutiste sündmuste tõttu muutunud oluliselt keerulisemaks. Pärast Samourai rahakoti asutajate vahistamist teatas Wasabi arendamist rahastav ja haldav ettevõte zkSNACKs, et selle mündiühenduste koordinaatorteenus lõpetatakse 1. juunil 2024. aastal. See koordinaator, mis oli Wasabil vaikimisi loodud, oli vastutav suurema osa likviidsuse eest.
 
-Pärast selle peamise koordinaatori sulgemist peavad kasutajad nüüd ühendust võtma uute sõltumatute koordinaatoritega. See muudatus tekitab probleeme: ühelt poolt ei pruugi uutel koordinaatoritel olla piisavat likviidsust, mis vähendab koosliitumise tõhusust privaatsuse seisukohast. Teisest küljest on oht, et võib tekkida pahatahtlik koordinaator. Selline olukord lisab olulisi uusi riske neile, kes soovivad Wabisabi kasutada.
+Selle põhikoordinaatori tegevuse lõpetamisega peavad kasutajad nüüd ühenduma uute, sõltumatute koordinaatoritega. See muudatus tekitab mitmeid probleeme: ühelt poolt ei pruugi uutel koordinaatoritel olla piisavat likviidsust, mis vähendab koosliitumise tõhusust konfidentsiaalsuse seisukohast. Teisest küljest on oht sattuda pahatahtliku koordinaatori vastu. Selline olukord lisab olulisi uusi riske neile, kes soovivad Wabisabi kasutada.
 
-Lisaks tehnilistele küsimustele tõstatab Wasabi taga oleva ettevõtte zkSNACKs otsus kasutada plokiahela analüütikaettevõtte teenuseid, et filtreerida osalejaid mündiühendustesse, tõsiseid eetilisi ja strateegilisi küsimusi. Esialgne idee oli takistada kurjategijate poolt Wasabil coinjoinide kasutamist, mis võib tunduda õiguspärane samm. Siiski tekitab see paradoksi: tasude maksmine koordinaatorile, kelle peamine ülesanne on suurendada kasutajate privaatsust, ainult selleks, et seejärel rahastada ettevõtet, mille eesmärk on kahjustada sama privaatsust.
+Lisaks tehnilistele küsimustele tõstatab Wasabi taga oleva ettevõtte zkSNACKs otsus kasutada stringianalüüsi ettevõtte teenuseid coinjoin'i osalejate filtreerimiseks tõsiseid eetilisi ja strateegilisi küsimusi. Esialgne idee oli takistada kurjategijate poolt Wasabil coinjoini kasutamist, mis võib tunduda õiguspärane. Siiski tekitab see paradoksi: maksta tasu koordinaatorile, kelle peamine ülesanne on kasutajate konfidentsiaalsuse tugevdamine, ainult selleks, et ta rahastaks ettevõtet, mille eesmärk on kahjustada sama konfidentsiaalsust.
 
-Veelgi murettekitavam on filtreerimise põhimõte, mis on teravas vastuolus Bitcoini filosoofiaga pakkuda avatud ja tsenseerimata finantssüsteemi. Kuigi võib tunduda õigustatud soov välistada kuritegelik tegevus, võib selline filtreerimine olla suunatud ka üksikisikutele, kelle tegevus võib olla moraalselt õigustatud või sotsiaalselt kasulik, ehkki see on mõnes kontekstis ebaseaduslikuks liigitatud. Edward Snowdeni näide illustreerib seda dihhotoomiat suurepäraselt: mõned valitsused peavad teda oma paljastuste tõttu kurjategijaks, teised aga näevad teda kui informaatorit, kes tegutses avalikes huvides. See keerukus rõhutab filtreerimise võimalikku ohtu, mis võib hoolimata heast kavatsusest kahjustada õiguspärase kasutaja õigusi ja turvalisust. Oleksin võinud mainida ka teatud autoritaarsete režiimide all tagakiusatud aktiviste ja ajakirjanikke. Nagu te olete võib-olla arvanud, on minu eelistus kahtlemata Whirlpool-mudel Bitcoini mündiühenduste läbiviimiseks. See süsteem paistab silma oma ranguse poolest ja pakub paremaid tagatisi privaatsuse osas. Samuti on see ainus, mis pakub välja matemaatilises kontekstis täiuslikuks peetava segunemise. Minu arvates esindab see mudel Bitcoini mündiliitude tulevikku. Seetõttu kutsun teid üles seda mudelit järgmises peatükis põhjalikumalt uurima.
+Veelgi murettekitavam on filtreerimise põhimõte, mis vastandub radikaalselt Bitcoini filosoofiale pakkuda avatud, tsenseerimata finantssüsteemi. Kuigi võib tunduda õigustatud soov välistada kuritegelik tegevus, võib selline filtreerimine mõjutada ka isikuid, kelle tegevus võib olla moraalselt õigustatud või sotsiaalselt kasulik, ehkki see on teatud kontekstis ebaseaduslikuks liigitatud. Edward Snowdeni näide illustreerib seda dihhotoomiat suurepäraselt: mõned valitsused peavad teda oma paljastuste tõttu kurjategijaks, teised aga näevad teda kui informaatorit, kes tegutses avalikes huvides. See keerukus rõhutab filtreerimise võimalikku ohtu, mis võib hoolimata heast eesmärgist kahjustada õiguspärase kasutaja õigusi ja turvalisust. Oleksin võinud mainida ka aktiviste ja ajakirjanikke, keda teatud autoritaarsete režiimide all tagakiusatakse.
 
-## Whirlpooli tegevus
+Nagu te nüüdseks olete juba aru saanud, eelistan Bitcoini mündiühenduste puhul kindlasti Whirlpool-mudelit. See süsteem paistab silma oma ranguse poolest ja pakub suurepäraseid konfidentsiaalsuse garantiisid. Samuti on see ainus, mis pakub matemaatilises kontekstis täiuslikuks peetavat kombinatsiooni. Minu arvates esindab see mudel Bitcoini mündiliitude tulevikku. Kutsun teid üles seda mudelit järgmises peatükis põhjalikumalt uurima.
+
+## Kuidas Whirlpool töötab
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
 
-Whirlpool erineb teistest coinjoin meetoditest selle poolest, et kasutab "_ZeroLink_" tehinguid, mis tagavad, et kõigi sisendite ja väljundite vahel ei ole tehniliselt võimalik mingit ühendust. Selline täiuslik segunemine saavutatakse struktuuri abil, kus iga osaleja panustab sisendina ühesuguse summa (välja arvatud kaevandamistasud), tekitades seega täiesti võrdseid väljundeid.
+![La confidentialité sur Bitcoin](https://youtu.be/JQ12fBHsLtY?feature=shared)
+
+Whirlpooli eristab teistest coinjoin meetoditest "_ZeroLink_" tehingute kasutamine, mis tagab, et kõigi sisendite ja väljundite vahel ei ole rangelt mingit võimalikku tehnilist seost. See täiuslik kombinatsioon saavutatakse struktuuri abil, kus iga osaleja panustab ühesuguse koguse sisendi (välja arvatud kaevandamistasud), tekitades täiesti võrdse koguse väljundid.
 
 Selline piirav lähenemine sisenditele annab Whirlpooli coinjoin-tehingutele ainulaadse omaduse: sisendite ja väljundite vaheliste deterministlike seoste täielik puudumine. Teisisõnu on igal väljundil võrdne tõenäosus, et see omistatakse mis tahes osalejale, võrreldes kõigi teiste tehingu väljunditega.
 
 ![BTC204](assets/fr/136.webp)
 
-### Whirlpooli üldine tegevus
+### Kuidas Whirlpool töötab
 
-Esialgu oli igas Whirlpool coinjoin'is osalejate arv piiratud 5 osalejaga, kellest 2 olid uued osalejad ja 3 remixer (selgitame neid mõisteid hiljem). Kuid 2023. aastal täheldatud ahelas toimuvate tehingute tasude suurenemine ajendas Samourai meeskondi oma mudelit ümber mõtlema, et parandada privaatsust ja vähendada samal ajal kulusid. Seega, võttes arvesse komisjonitasu turuolukorda ja osalejate arvu, võib koordinaator nüüd korraldada mündiühendusi, mis hõlmavad 6, 7 või 8 osalejat. Need täiustatud seansid on tähistatud nime "_Surge Cycles_" all Oluline on märkida, et olenemata konfiguratsioonist on Whirlpool coinjoinides alati ainult 2 uut osalejat.
+Esialgu oli igas Whirlpool coinjoin'is osalejate arv piiratud 5 osalejaga, kellest 2 olid uued osalejad ja 3 remikserid (selgitame neid mõisteid hiljem). Kuid 2023. aastal täheldatud tehingutasude suurenemine ahelas ajendas Samourai meeskondi oma mudelit ümber mõtlema, et parandada konfidentsiaalsust, vähendades samal ajal kulusid. Seega, võttes arvesse tasude turuolukorda ja osalejate arvu, võib koordinaator nüüd korraldada 6, 7 või 8 osalejat hõlmavaid coinjoine'e. Neid täiustatud seansse nimetatakse "Surge Cycles". Oluline on märkida, et olenemata konfiguratsioonist on Whirlpool coinjoinides alati ainult 2 uut osalejat.
 
-Seega iseloomustab Whirlpooli tehinguid identne arv sisendeid ja väljundeid, mis võivad olla:
+Seega iseloomustab Whirlpooli tehinguid identne arv sisendeid ja väljundeid, mida saab :
 
 
-- 5 sisendit ja 5 väljundit;
+- 5 sisendit ja 5 väljundit ;
 
 ![BTC204](assets/fr/137.webp)
 
 
-- 6 sisendit ja 6 väljundit;
+- 6 sisendit ja 6 väljundit ;
 
 ![BTC204](assets/fr/138.webp)
 
 
-- 7 sisendit ja 7 väljundit;
+- 7 sisendit ja 7 väljundit ;
 
 ![BTC204](assets/fr/139.webp)
 
@@ -1764,37 +1978,41 @@ Seega iseloomustab Whirlpooli tehinguid identne arv sisendeid ja väljundeid, mi
 
 ![BTC204](assets/fr/140.webp)
 
-Whirlpooli pakutud mudel põhineb seega väikestel coinjoin-tehingutel. Erinevalt Wabisabist ja JoinMarketist, kus anonüümide tugevus põhineb ühe tsükli (või mõne tsükli) osalejate mahul, tugineb Whirlpool mitme väikese tsükli liitmisele. Selle mudeli puhul tekivad kasutajatele kulud ainult nende esmasel sisenemisel ühisesse kogumisse, mis võimaldab neil ilma lisakuludeta osaleda mitmetes remixides. Uued osalejad katavad remixerite kaevandamiskulud.
+Whirlpooli mudel põhineb väikestel coinjoin-tehingutel. Erinevalt Wabisabist ja JoinMarketist, kus anonüümide robustsus põhineb osalejate mahul ühes tsüklis (või mõnes tsüklis), tugineb Whirlpool mitme väikese tsükli järjestusele.
 
-Iga täiendava coinjoiniga, milles münt osaleb, koos varem kohatud eakaaslastega, kasvavad anonsetid eksponentsiaalselt. Eesmärk on seega kasutada ära neid tasuta remixe, mis iga esinemisega aitavad tugevdada iga mündiseguga seotud anonsettide tihedust.
+Selle mudeli puhul maksavad kasutajad tasu ainult siis, kui nad esimest korda basseiniga liituvad, mis võimaldab neil ilma lisakuludeta osaleda paljudes remixides. Uued osalejad maksavad kaevandamistasusid remixeritele.
 
-Whirlpooli projekteerimisel on silmas peetud kahte olulist nõuet:
+Iga täiendava coinjoin'iga, milles tükike osaleb, ning ka tema varasemate kaaslaste puhul kasvab anonsettide arv eksponentsiaalselt. Eesmärgiks on kasutada ära neid tasuta remixe, mis iga kord, kui nad toimuvad, aitavad kaasa iga segatud tükiga seotud anonsettide tiheduse tugevdamisele.
 
+![BTC204](assets/fr/141.webp)
 
-- Rakendamise kättesaadavus mobiilseadmetes, kuna Samourai Wallet on peamiselt nutitelefonirakendus;
-- Remissioonitsüklite kiirus, et soodustada anonüümide märkimisväärset suurenemist.
-
-Samourai rahakoti arendajad lähtusid Whirlpooli kujundamisel nendest nõudmistest, mistõttu nad piirasid osalejate arvu tsükli kohta. Liiga vähe osalejaid oleks ohustanud coinjoini tõhusust, vähendades drastiliselt igas tsüklis loodud anonsette, samas kui liiga palju osalejaid oleks tekitanud haldusprobleeme mobiilirakendustes ja takistanud tsüklite kulgemist.
-
-Lõppkokkuvõttes ei ole Whirlpoolis coinjoinimiseks vaja suurt arvu osalejaid, kuna anonsetid realiseeruvad mitme coinjoinitsükli kogunemisel. Kõige olulisem põhimõte on siinkohal kõigi osalejate UTXOde homogeensus, kuna see võimaldab täiuslikku segunemist ja seega saada täielikku kasu segunemis- ja remixing-tsüklitest.
-
-### Coinjoin basseinid ja tariifid
-
-Selleks, et need mitmekordsed tsüklid suurendaksid tõhusalt segamüntide anonüümsust, tuleb kehtestada mingi raamistik, et piirata kasutatava UTXO koguseid. Whirlpool määratleb seetõttu mitu basseinit.
-
-Pool kujutab endast rühma kasutajaid, kes soovivad koos segada, kes lepivad kokku UTXO koguses, et optimeerida coinjoin-protsessi, säilitades samal ajal täiusliku mündi homogeensuse. Iga koondis määrab kindlaks UTXO fikseeritud summa, mida kasutaja peab osalemiseks täitma. Seega tuleb Whirlpooliga coinjoin'ide tegemiseks valida bassein. Praegu on saadaval järgmised basseinid:
+Whirlpool on projekteeritud kahte olulist nõuet silmas pidades:
 
 
-- 0.5 bitcoin;
-- 0.05 bitcoin;
-- 0.01 bitcoin;
+- Rakenduse kättesaadavus mobiilseadmetes, arvestades, et Samourai Wallet on eelkõige nutitelefonirakendus;
+- Kiire remissioonitsükkel, et soodustada anonüümide märkimisväärset suurenemist.
+
+Samourai rahakoti arendajad lähtusid Whirlpooli kujundamisel nendest vajadustest, mistõttu nad piirasid osalejate arvu tsükli kohta piiratud arvuga. Liiga vähe osalejaid oleks ohustanud mündiühenduste tõhusust, vähendades oluliselt ühe tsükli jooksul genereeritud anonüümide arvu, samas kui liiga palju osalejaid oleks tekitanud haldusprobleeme mobiilirakendustes ja takistanud tsükli kulgemist.
+
+Lõpuks, Whirlpoolis ei ole vaja suurt arvu osalejaid ühe coinjoini kohta, kuna anonsetid tehakse mitme coinjoini tsükli kogunemisel. Kõige olulisem põhimõte on siinkohal kõigi osalejate UTXOde homogeensus, sest see tagab täiusliku segunemise ja seega täieliku kasu segunemis- ja remixing-tsüklitest.
+
+### Coinjoin basseinid ja tasud
+
+Et need mitmekordsed tsüklid suurendaksid segatud osade anonüümsust, on vaja teatavat raamistikku, et piirata kasutatavate UTXOde koguseid. Whirlpool määratleb erinevad basseinid.
+
+Pooli kujutab endast rühma kasutajaid, kes soovivad koos segada ja kes lepivad kokku UTXOde koguses, et optimeerida ühisliitmise protsessi, säilitades samal ajal täiusliku osade homogeensuse. Iga koondis määrab kindlaks fikseeritud UTXO-koguse, millest kasutaja peab osalemiseks kinni pidama. Seega tuleb Whirlpooliga coinjoinide tegemiseks valida bassein. Praegu on saadaval järgmised basseinid:
+
+
+- 0.5 bitcoinid ;
+- 0.05 Bitcoin ;
+- 0.01 Bitcoin ;
 - 0.001 bitcoin (= 100 000 sats).
 
-Kui liitute oma bitcoin'idega, jagatakse need nii, et tekivad UTXO-d, mis on täiesti homogeensed teiste osalejate omadega. Igal basseinil on maksimaalne piir; seetõttu olete seda piiri ületavate summade puhul sunnitud kas tegema kaks eraldi sissekannet samasse basseini või pöörduma teise, suurema summaga basseini:
+Kui te sisenete oma bitcoin'idega basseini, jagatakse need nii, et tekivad UTXOd, mis on täiesti homogeensed teiste basseini osalejate omadega. Igal basseinil on maksimumpiir, nii et seda piiri ületavate summade puhul peate kas tegema kaks eraldi sissekannet samasse basseini või liikuma teise, suurema summaga basseini:
 
 | Pool (bitcoin) | Maksimaalne summa kirje kohta (bitcoin) |
 
-|----------------|----------------------------------------|
+|----------------|--------------------------------------|
 
 | 0,5 | 35 |
 
@@ -1804,247 +2022,259 @@ Kui liitute oma bitcoin'idega, jagatakse need nii, et tekivad UTXO-d, mis on tä
 
 | 0,001 | 0,025 |
 
-UTXO loetakse koondisse kuuluvaks siis, kui see on valmis ühendusse integreeritavaks. See ei tähenda siiski, et kasutaja kaotab selle valduse. Nagu me nägime selle osa esimestes peatükkides, säilitate te erinevate segunemistsüklite kaudu täieliku kontrolli oma võtmete ja seega ka bitcoinide üle. See ongi see, mis eristab coinjoin-tehnikat teistest tsentraliseeritud segamistehnikatest.
+UTXO loetakse koondisse kuuluvaks siis, kui see on valmis ühendusse integreeritavaks. See ei tähenda siiski, et kasutaja kaotab selle valduse. Nagu me nägime käesoleva peatüki esimestes peatükkides, säilitate te erinevate segamistsüklite kaudu täieliku kontrolli oma võtmete ja seega ka bitcoinide üle. See ongi see, mis eristab coinjoin-tehnikat teistest tsentraliseeritud segamistehnikatest.
 
-Coinjoin-pooliga liitumiseks tuleb maksta nii teenustasusid kui ka kaevandamistasusid. Teenustasu on iga basseini puhul fikseeritud ja selle eesmärk on kompenseerida Whirlpooli arendamise ja hoolduse eest vastutavad meeskonnad.
+Coinjoin-pooliga liitumiseks peate maksma teenustasu ja kaevandamistasu. Teenustasu on iga basseini puhul fikseeritud ja selle eesmärk on tasustada Whirlpooli arendamise ja hoolduse eest vastutavaid meeskondi.
 
-Whirlpooli kasutamise teenustasu tuleb maksta ühekordselt basseini sisenemisel. Kui see samm on tehtud, on teil võimalus osaleda piiramatul arvul remixides ilma lisatasudeta. Siin on esitatud iga basseini praegused fikseeritud tasud:
+Whirlpooli kasutamise eest tuleb maksta teenustasu ainult üks kord basseiniga liitumisel. Kui olete liitunud, võite osaleda piiramatul arvul remixides ilma lisatasuta. Siin on esitatud iga basseini praegused fikseeritud tasud:
 
-| Pool (bitcoin) | Sisendtasu (bitcoin) |
+| Pool (bitcoin) | Osavõtutasu (bitcoin) |
 
-| -------------- | --------------------------------- |
+|----------------|---------------------------------|
 
-| 0.5 | 0.0175 |
+| 0,5 | 0,0175 |
 
-| 0.05 | 0.00175 |
+| 0,05 | 0,00175 |
 
 | 0,01 | 0,0005 (50 000 sats) |
 
 | 0,001 | 0,00005 (5000 sats) |
 
-Need tasud toimivad sisuliselt nagu pilet valitud basseini, sõltumata summast, mille sisestate coinjoin'i. Nii et olenemata sellest, kas sisenete 0,01 BTC basseini täpselt 0,01 BTC-ga või sisenete 0,5 BTC-ga, jäävad tasud absoluutväärtuselt samaks.
+Need tasud toimivad sisuliselt nagu pilet valitud basseini, olenemata sellest, kui palju te panete coinjoin'i. Seega, olenemata sellest, kas sisenete 0,01 basseini täpselt 0,01 BTCga või 0,5 BTCga, jäävad tasud absoluutarvudes samaks.
 
-Enne Whirlpool-ühenduste jätkamist on kasutajal valida 2 strateegia vahel:
+Enne Whirlpool-ühenduste jätkamist saab kasutaja valida 2 strateegia vahel:
 
 
-- Valivad väiksema fondi, et vähendada teenustasusid, teades, et nad saavad vastutasuks mitu väiksemat UTXO-d;
-- Või eelistavad suuremat kogumit, nõustudes maksma suuremaid tasusid, et saada lõpuks väike arv suurema väärtusega UTXOsid.
+- Valida väiksem bassein, et vähendada teeninduskulusid, teades, et ta saab vastutasuks mitu väiksemat UTXO-d;
+- Või valida suurema reservi, olles valmis maksma kõrgemaid tasusid, et saada lõpuks vähem väärtuslikumaid UTXOsid.
 
-Üldiselt ei ole soovitatav mitu segatud UTXOd pärast coinjoin'i tsüklit ühendada, kuna see võib ohustada saavutatud privaatsust, eriti ühise sisendi omandiõiguse heuristiku (CIOH: _Common-Input-Ownership-Heuristic_) tõttu. Seetõttu võib olla mõistlik valida suurem bassein, isegi kui see tähendab, et tuleb maksta rohkem, et vältida liiga paljude väikese väärtusega UTXOde saamist väljundiks. Kasutaja peab hindama neid kompromisse, et valida talle meelepärane bassein.
+Üldiselt ei ole soovitav mitu segatud UTXO-d pärast coinjoin'i tsüklit ühendada, kuna see võib ohustada omandatud konfidentsiaalsust, eriti ühise sisendi omandiõiguse heuristiku (CIOH: *Common-Input-Ownership-Heuristic*) tõttu. Sellest tulenevalt võib olla mõistlik valida suurem kogum, isegi kui see tähendab, et tuleb maksta rohkem, et vältida liiga paljude väikese väärtusega UTXOde tekkimist. Kasutaja peab neid kompromisse hindama, et valida talle sobiv bassein.
 
-Lisaks teenustasudele tuleb arvestada ka iga Bitcoini tehinguga kaasnevaid kaevandamistasusid. Whirlpooli kasutajana peate maksma kaevandamistasusid nii ettevalmistustehingu (`Tx0`) kui ka esimese mündiühendusega seotud tasu. Kõik edasised taasühendused on tasuta, kuna Whirlpooli mudel on uute sisenejate jaoks tasuline.
+Lisaks teenustasule tuleb arvesse võtta ka iga Bitcoini tehingu kaevandamistasu. Whirlpooli kasutajana peate maksma kaevandamistasu nii ettevalmistustehingu (`Tx0`) kui ka esimese mündiühingu eest. Kõik edasised remissioonid on tänu Whirlpooli mudelile, mis põhineb uute sisenejate maksmisel, tasuta.
 
-Tegelikult on igas Whirlpool coinjoin'is 2 kasutajat sisendite hulgas uued osalejad. Ülejäänud sisendid pärinevad remixeritelt. Selle tulemusena katavad kõigi tehingus osalejate kaevandamistasud need 2 uut osalejat, kes saavad seejärel ka tasuta remixe:
+Tegelikult on igas Whirlpooli ühisliitumises 2 kasutajat sisendite hulgas uued sisenejad. Ülejäänud sisendid pärinevad remixeritelt. Selle tulemusena kannavad kõigi tehingus osalejate kaevandamiskulud need 2 uut sisenejat, kes saavad seejärel ka tasuta remiksid:
 
-![BTC204](assets/it/54/07.webp)
+![BTC204](assets/fr/142.webp)
 
-Selle tasusüsteemi tõttu erineb Whirlpool tõepoolest teistest coinjoini rakendustest, sest UTXOde anonsetid ei ole proportsionaalsed kasutaja poolt makstud hinnaga. Seega on võimalik saavutada märkimisväärselt kõrge anonüümsuse tase, makstes ainult basseini sisenemistasu ja kaevandamistasu 2 tehingu eest (`Tx0` ja algsegu).
+Tänu sellele tasusüsteemile eristub Whirlpool tõesti teistest coinjoini rakendustest, kuna UTXOde anonsetid ei ole proportsionaalsed kasutaja poolt makstud hinnaga. Selle tulemusel on võimalik saavutada märkimisväärselt suurem anonüümsus, makstes ainult basseini sisenemistasu ja kaevandamistasu 2 tehingu eest (`Tx0` ja algsegu).
 
-Oluline on märkida, et kasutaja peab ka katma kaevandamistasud oma UTXOde väljavõtmise eest basseinist pärast mitme coinjoini käivitamist, välja arvatud juhul, kui ta on valinud võimaluse "mix to", mis võimaldab tal anda välise aadressi, mis saab raha otse coinjoini väljundina, ilma täiendava tehinguta.
+Oluline on märkida, et kasutaja peab ka maksma kaevandamistasusid, et võtta oma UTXO-d välja basseinist pärast mitme coinjoini lõpetamist, kui ta ei ole valinud võimalust "mix to", mis annab välise aadressi, mis saab raha otse coinjoinist, ilma täiendava tehinguta.
 
-### HD Wallet kontod
+### HD portfelli kontod
 
-Whirlpooli kaudu coinjoini tegemiseks peab rahakott looma mitu eraldi kontot. See on ZeroLink-protokolli põhimõte. Konto moodustab HD (_Hierarhical Deterministic_) rahakoti kontekstis teistest täielikult isoleeritud osa, see eraldamine toimub rahakoti hierarhia kolmandal sügavustasemel, st `xpub` tasandil.
+Whirlpooli kaudu coinjoini loomiseks peab rahakott looma mitu eraldi kontot. See on ZeroLink-protokolli põhimõte. Konto moodustab HD (*Hierarhical Deterministic*) portfelli kontekstis teistest täielikult eraldatud osa, kusjuures see eraldamine toimub portfellihierarhia kolmanda sügavuse tasemel, st `xpub` tasemel.
 
-![BTC204](assets/it/54/08.webp)
+![BTC204](assets/fr/143.webp)
 
 HD rahakott võib teoreetiliselt tuletada kuni `2^(32/2)` erinevaid kontosid. Algne konto, mida kasutatakse vaikimisi kõigis Bitcoini rahakottides, vastab `0'`indeksile.
 
-Whirlpoolile kohandatud portfellide puhul kasutatakse 4 kontot, et täita ZeroLink protsessi nõudeid:
+Whirlpoolile kohandatud portfellide puhul kasutatakse 4 kontot, et vastata ZeroLink protsessi vajadustele:
 
 
-- **Hoiustuskonto**, mida tähistab indeks "0";
-- **Paha pangakonto** (või "mürgine börs"), mida tähistab indeks `2 147 483 644'`;
-- **premix-konto**, mida tähistatakse indeksiga "2 147 483 645";
-- **postmix-konto**, mis on identifitseeritud indeksiga "2 147 483 646".
+- **Hoiuse** konto, mis on identifitseeritud indeksiga `0'` ;
+- **Paha pank** (või "doksiline muutus"), mida tähistab indeks "2,147,483,644"` ;
+- **premix** konto, mida tähistatakse indeksiga "2 147 483 645'`" ;
+- **postmix** konto, mis on identifitseeritud indeksiga "2 147 483 646".
 
-Igaüks neist kontodest täidab ühisliitmise protsessis konkreetset funktsiooni, mida me uurime järgmistes punktides.
+Igaüks neist kontodest täidab ühisliitmise protsessis teatud funktsiooni, mida me uurime järgmistes osades.
 
-Kõik need kontod on seotud ühe seemnega, mis võimaldab kasutajal taastada juurdepääsu kõigile oma bitcoinidele, kasutades oma taastamislauset ja vajaduse korral oma salasõna. Selle taastamisoperatsiooni käigus tuleb aga tarkvarale täpsustada kasutatud kontode erinevad indeksid.
+Kõik need kontod on seotud ühe seemnega, mis võimaldab kasutajal taastada juurdepääsu kõikidele oma bitcoinidele, kasutades oma taastamislauset ja vajaduse korral oma paroollauset. Taastamisoperatsiooni ajal tuleb aga tarkvara teavitada erinevatest kasutatud kontoindeksitest.
 
-Uurime nüüd nende kontode raames Whirlpool-koosliitumise eri etappe.
+Vaatleme nende kontode raames Whirlpooli coinjoini erinevaid etappe.
 
 ### TX0
 
-Mis tahes Whirlpooli mündiühenduse lähtepunktiks on **deposiitkonto**. Seda kontot kasutate automaatselt, kui loote uue bitcoini rahakoti. Sellele kontole tuleb krediteerida bitcoinid, mida soovite segada.
+Mis tahes Whirlpooli coinjoini lähtepunkt on **deposiitkonto**. See on konto, mida kasutate automaatselt uue Bitcoini rahakoti loomisel. Sellele kontole tuleb krediteerida bitcoinid, mida soovite segada.
 
-Tx0 kujutab endast esimest sammu Whirlpooli segamisprotsessis. Selle eesmärk on valmistada ette ja ühtlustada UTXOd koosmõjude ühendamiseks, jagades need valitud basseini kogusele vastavateks ühikuteks, et tagada segamise homogeensus. Seejärel saadetakse ühtlustatud UTXOd **eelsegamise kontole**. Mis puutub vahe, mis ei saa koondada, siis see eraldatakse spetsiaalsele kontole: **paha pank** (või "mürgine vahetus").
+Tx0" on Whirlpooli segamisprotsessi esimene samm. Selle eesmärk on valmistada ette ja võrdsustada UTXOd koosliitmiseks, jagades need valitud basseini kogusele vastavateks ühikuteks, et tagada homogeenne segamine. Selliselt ühtlustatud UTXOd saadetakse seejärel **eelsegamise** kontole. Mis puutub vahe, mis ei saa koondada, siis see eraldatakse spetsiaalsele kontole: **paha pank** (või "doksiline vahetus").
 
-See esialgne "Tx0" tehing on ühtlasi ka mündiühenduse koordinaatorile makstavate teenustasude tasumiseks. Erinevalt järgmistest etappidest ei ole see tehing koostööpõhine; seega peab kasutaja kandma kaevandamistasude kulud täies ulatuses:
+Seda esialgset "Tx0" tehingut kasutatakse ka coinjoin'i koordinaatorile makstava teenustasu maksmiseks. Erinevalt järgmistest sammudest ei ole see tehing koostööpõhine, seega peab kasutaja kandma kõik kaevandamise kulud:
 
-![BTC204](assets/it/54/09.webp)
+![BTC204](assets/fr/144.webp)
 
-Selles `Tx0` tehingu näites jagatakse meie **deposiidikontolt** saadud 372 000 sati suurune sisend mitmeks UTXO väljundiks, mis jagunevad järgmiselt:
+Selles "TX0" tehingu näites jagatakse meie **deposiidikontolt** saadud 372 000 sati sisend mitmeks UTXO väljundiks, mis jagunevad järgmiselt:
 
 
-- 5 000 sati suurune summa, mis on eraldatud koordinaatorile teenustasudeks, mis vastab 100 000 sati koondisesse kandmisele;
-- 3 UTXO-d on segamiseks ette valmistatud, suunatud meie **premix-kontole** ja registreeritud koordinaatori juures. Need UTXOd on võrdsustatud hinnaga `108 000 sats` igaüks, et katta nende tulevase algse segamise kaevandamistasud;
-- Ülejääk, mis ei saa basseini siseneda, kuna see on liiga väike, loetakse mürgiseks vahetuseks. See saadetakse oma konkreetsele kontole. Siinkohal on see vahetus 40 000 sati suurune;
-- Lõpuks on veel "3000 sati", mis ei kujuta endast väljundit, vaid on "Tx0" kinnitamiseks vajalikud kaevandamistasud.
+- 5 000 sati suurune summa koordinaatorile teenustasude eest, mis vastab 100 000 sati koondkandidaadile;
+- 3 UTXO-d on segamiseks ette valmistatud, suunatud meie **premix**-kontole ja registreeritud koordinaatori juures. Need UTXOd on võrdsustatud hinnaga `108,000 sats` igaüks, et katta kaevandamiskulud nende tulevase algse segamise jaoks;
+- Ülejääk, mida ei saa koondada, sest see on liiga väike, loetakse mürgiseks välisvaluutaks. See saadetakse oma konkreetsele kontole. Siinkohal on see vahetus 40 000 sati suurune;
+- Lõpuks on jäänud "3000 sati", mis ei kujuta endast väljundit, vaid on kaevandamiskulud, mis on vajalikud "Tx0" kinnitamiseks.
 
-Siin on näiteks tõeline Tx0 Whirlpool (mitte minu):[edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://mempool.space/fr/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
+Näiteks siin on tõeline Whirlpool Tx0 (mitte minu): [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://mempool.space/fr/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
 
 ![BTC204](assets/fr/145.webp)
 
-### Mürgine muutus
+### Doksilised muutused
 
-Ülejääk, mida ei suudetud koondada reservi, mis vastab siinkohal 40 000 satsile, suunatakse ümber **paha pangakontole**, mida nimetatakse ka "toksiliseks vahetuseks", et tagada range eraldatus portfelli teistest UTXOdest.
+Ülejääk, mida ei ole võimalik koondada, mis vastab siinkohal 40 000 satsile, suunatakse ümber **paha pangakontole**, mida nimetatakse ka "doksiliseks vahetuseks", et tagada range eraldatus teistest portfelli kuuluvatest UTXOdest.
 
-See UTXO on ohtlik kasutaja privaatsusele, sest see ei ole mitte ainult seotud kasutaja minevikuga ja seega võimalik, et ka selle omaniku identiteediga, vaid see on ka tähistatud kui kasutaja, kes on osalenud coinjoin'is.
+See UTXO on ohtlik kasutaja konfidentsiaalsusele, sest mitte ainult ei ole see endiselt seotud oma minevikuga ja seega võimalik, et ka omaniku identiteediga, vaid see on märgitud ka kasutajale kuuluvaks, kes on teinud coinjoini.
 
 ![BTC204](assets/fr/146.webp)
 
-Kui see UTXO ühendatakse segatud väljunditega, kaotavad nad kogu privaatsuse, mis on saadud coinjoin'i tsüklite ajal, suuresti CIOH (Common-Input-Ownership-Heuristic_) tõttu. Kui see liidetakse teiste mürgiste muudatustega, riskib kasutaja privaatsuse kaotamisega, kuna see ühendab erinevaid sisendeid coinjoin'i tsüklitest. Seetõttu tuleks seda käsitleda ettevaatlikult. Nende toksiliste UTXOde haldamist arutame üksikasjalikumalt selle peatüki viimases osas.
+Kui see UTXO ühendatakse segaväljunditega, kaotab viimane kogu konfidentsiaalsuse, mis on saadud coinjoin'i tsüklite käigus, eelkõige CIOH (*Common-Input-Ownership-Heuristic*) tõttu. Kui see liidetakse muude doksiliste muudatustega, on oht, et kasutaja kaotab konfidentsiaalsuse, sest see ühendab erinevaid coinjoin'i tsükli kirjeid. Seetõttu tuleks sellesse suhtuda ettevaatlikult. Me käsitleme nende UTXOs doxxic'ide haldamist üksikasjalikumalt selle peatüki viimases osas.
 
 ### Esialgne segu
 
-Pärast `Tx0` lõpuleviimist saadetakse tasandatud UTXOd meie portfelli **premix** kontole, mis on valmis oma esimesse mündiühendustsüklisse, mida nimetatakse ka "esmaseks seguks" Kui, nagu meie näites, `Tx0` tekitab mitu segamiseks mõeldud UTXOd, integreeritakse igaüks neist eraldi algsesse segusse.
+Pärast `Tx0` saadetakse tasandatud UTXOd meie portfelli **premix** kontole, mis on valmis oma esimesse mündiühendustsüklisse, mida tuntakse ka kui "esialgset segu". Kui, nagu meie näites, `Tx0` genereerib mitu UTXOd segamiseks, integreeritakse igaüks neist eraldi algsesse segusse.
 
-Nende esimeste segude lõpus on **premix** konto tühi, samas kui meie mündid, mis on maksnud kaevandamistasud selle esimese mündiühingu eest, arveldatakse täpselt valitud basseini poolt määratud summa ulatuses. Meie näites on meie esialgne UTXOs `108,000 sats` vähenenud täpselt `100,000 sats`ni.
+Nende esimeste segude lõpus on **premix** konto tühi, samas kui meie mündid, mis on maksnud kaevandamistasud selle esimese mündiühingu eest, kohandatakse täpselt valitud basseini poolt määratud summale. Meie näites on meie esialgne UTXOs `108,000 sats` vähenenud täpselt `100,000 sats`ni.
 
 ![BTC204](assets/fr/147.webp)
 
 ### Remiksid
 
-Pärast esialgset segamist kantakse UTXOd üle **postmix** kontole. Sellele kontole kogutakse nii juba segatud UTXOd kui ka need, mis ootavad uuesti segamist. Kui Whirlpool-klient on aktiivne, on **postmix**-kontol olevad UTXOd automaatselt saadaval remiximiseks ja need valitakse juhuslikult välja uutes voorudes osalemiseks.
+Pärast esialgset segamist kantakse UTXOd üle **postmix** kontole. Sellele kontole kogutakse juba segatud UTXOd ja need, mis ootavad uuesti segamist. Kui Whirlpooli klient on aktiivne, on **postmix**-kontol asuvad UTXOd automaatselt kättesaadavad remiximiseks ja need valitakse juhuslikult välja, et osaleda nendes uutes tsüklites.
 
-Meeldetuletuseks, et remixid on siis täiesti tasuta: täiendavaid teenustasusid või kaevandamistasusid ei nõuta. UTXOde hoidmine **postmix** kontol hoiab seega nende väärtuse puutumatuna ja parandab samal ajal nende anonsetid. Seepärast on oluline, et need mündid saaksid osaleda mitmes coinjoin'i tsüklis. See ei maksa teile absoluutselt midagi ja suurendab nende anonset taset.
+Meeldetuletuseks, et remixid on seejärel 100% tasuta: ei nõuta täiendavaid teenustasusid ega kaevandamistasusid. UTXOde hoidmine **postmix** kontol hoiab seega nende väärtuse puutumatuna ja parandab samal ajal nende anonsetid. Seepärast on oluline, et need mündid saaksid osaleda mitmes coinjoin'i tsüklis. See ei maksa teile absoluutselt midagi ja suurendab nende anonüümsuse taset.
 
-Kui te otsustate kulutada segatud UTXOd, saate seda teha otse sellelt **postmix**-kontolt. Soovitatav on hoida segatud UTXOd sellel kontol, et saada kasu tasuta remixidest ja vältida nende lahkumist Whirlpooli ringkonnast, mis võib vähendada nende privaatsust.
+Kui te otsustate kulutada segatud UTXOsid, saate seda teha otse sellelt **postmix** kontolt. Soovitame hoida segatud UTXOd sellel kontol, et saada kasu tasuta remixidest ja vältida nende lahkumist Whirlpooli ringkonnast, mis võib vähendada nende konfidentsiaalsust.
 
-### Kuidas oma postmixi kontot õigesti hallata?
+### Kuidas te haldate oma postmixe?
 
-Pärast coinjoin'i tsüklite käivitamist on parim strateegia hoida oma UTXO-d **postmix** kontol, oodates nende edaspidist kasutamist. Soovitav on isegi lasta neil lõputult remixida, kuni teil on vaja neid kulutada.
+Pärast coinjoin'i tsüklite käivitamist on parim strateegia hoida oma UTXO-d **postmix** kontol, oodates tulevast kasutamist. Soovitav on isegi lasta neil lõputult remixida, kuni teil on vaja neid kulutada.
 
-Mõned kasutajad võivad kaaluda oma segatud bitcoinide ülekandmist kaitstud riistvara rahakotti. See on võimalik, kuid oluline on hoolikalt järgida Samourai Walleti soovitusi, et mitte ohustada saavutatud konfidentsiaalsust.
+Mõned kasutajad võivad kaaluda oma segatud bitcoinide ülekandmist riistvaralise rahakoti poolt turvatud rahakotti. See on võimalik, kuid oluline on järgida täpselt Samourai Walleti soovitusi, et mitte ohustada omandatud konfidentsiaalsust.
 
-Kõige sagedamini tehtud viga on UTXOde kombineerimine. Tuleb vältida segatud UTXOde kombineerimist segamata UTXOdega samas tehingus, et vältida CIOH (Common-Input-Ownership) heuristikat. See nõuab oma UTXOde hoolikat haldamist portfelli sees, eriti märgistamise osas.
+Kõige tavalisem viga on UTXOde ühendamine. CIOH (*Common-Input-Ownership-Heuristic*) vältimiseks tuleb vältida segatud UTXOde kombineerimist segamata UTXOdega samas tehingus. See nõuab oma UTXOde hoolikat haldamist oma portfelli sees, eelkõige märgistamise osas.
 
 ![BTC204](assets/fr/148.webp)
 
-Samuti on oluline olla ettevaatlik segatud UTXOde konsolideerimisel. Mõõdukad konsolideerimised on mõeldavad, kui teie segatud UTXO-del on märkimisväärne anonset, kuid see vähendab paratamatult teie müntide konfidentsiaalsust. Veenduge, et konsolideerimised ei ole liiga märkimisväärsed või et neid ei tehta pärast ebapiisavat arvu taasühendamisi, riskides sellega, et teie UTXOde vahel tekivad tuletatud seosed enne ja pärast mündiühendamistsükleid. Nende manipulatsioonide kahtluse korral on parim tava mitte konsolideerida UTXOsid pärast segamist ja kanda need ükshaaval üle oma riistvara rahakotti, luues iga kord uue tühja aadressi. Ärge unustage siiski, et iga saadud UTXO korralikult märgistada.
+Ettevaatlik tuleb olla ka kombineeritud UTXOde konsolideerimisel. Mõõdukas konsolideerimine on võimalik, kui teie segatud UTXO-del on märkimisväärne anonset, kuid see vähendab paratamatult teie osade konfidentsiaalsust. Veenduge, et konsolideerimine ei ole liiga ulatuslik ega toimu pärast ebapiisavat arvu taasühendamisi, mis võib tekitada teie UTXOde vahel tuletatavaid seoseid enne ja pärast koosühendamistsükleid. Nende manipulatsioonide kahtluse korral on parim tava mitte konsolideerida segunemisjärgseid UTXOsid, vaid kanda need ükshaaval oma riistvaralise rahakoti jaoks üle, luues iga kord uue tühja aadressi. Veel kord, ärge unustage märgistada iga saadud UTXO.
 
-Samuti ei ole soovitatav kanda oma UTXO postmixe üle rahakotti, mis kasutab ebatavalisi skripte. Näiteks kui sisestate Whirlpooli multisigiga rahakotist, mis kasutab `P2WSH` skripte, on väike võimalus, et teid segatakse teiste kasutajatega, kellel on algselt sama tüüpi rahakott. Kui te võtate oma postmixid välja selles samas multisig rahakotis, väheneb teie segatud bitcoinide privaatsuse tase oluliselt. Lisaks skriptidele on palju muid rahakoti sõrmejälgi, mis võivad teid petta.
+Samuti ei ole soovitatav kanda oma postmix UTXO-d rahakotti üle, kasutades skripte, mida ei kasutata laialdaselt. Näiteks kui sisestate Whirlpooli multisigiga rahakotist, kasutades `P2WSH` skripte, on vähe tõenäoline, et teid segatakse teiste kasutajatega, kellel oli algselt sama tüüpi rahakott. Kui te segate oma postmixe uuesti sellesse samasse multisig rahakotti, väheneb teie segatud bitcoinide konfidentsiaalsuse tase oluliselt. Peale skriptide on palju muid rahakoti sõrmejälgi, mis võivad teile trikke teha.
 
-Nagu iga Bitcoini tehingu puhul, on ka siin oluline mitte kasutada vastuvõtuaadresse uuesti. Iga uus tehing tuleks vastu võtta uuele, tühjale aadressile.
+Nagu iga Bitcoini tehingu puhul, on ka siin oluline mitte kasutada vastuvõtvat aadressi uuesti. Iga uus tehing tuleb vastu võtta uuele, tühjale aadressile.
 
-Kõige lihtsam ja turvalisem lahendus on lasta oma segatud UTXO-del puhata oma **postmix** kontol, lubades neid remixida ja puudutada neid ainult kulutamiseks. Samourai ja Sparrow portfellidel on täiendav kaitse kõigi nende ahelanalüüsi riskide vastu. Need kaitsed aitavad teil vältida vigu.
+Kõige lihtsam ja turvalisem lahendus on jätta oma segatud UTXOd oma **postmix** kontole, lastes neil uuesti segada ja puudutades neid ainult kulutamiseks. Samurai ja Sparrow rahakottidel on lisakaitsed kõigi nende ahelanalüüsi riskide vastu. Need kaitsed aitavad teil vältida vigu.
 
-### Kuidas oma mürgiseid muutusi korralikult hallata?
+### Kuidas hallata toksilisi vahetusi?
 
-Järgmisena peate olema ettevaatlik oma mürgise vahetusraha käitlemisel - vahetusraha, mis ei saanud siseneda mündiühenduste kogumisse. Need mürgised UTXOd, mis tulenevad Whirlpooli kasutamisest, kujutavad endast ohtu teie privaatsusele, sest need loovad seose teie ja coinjoin'i kasutamise vahel. Seetõttu on hädavajalik neid käsitleda ettevaatlikult ja mitte kombineerida neid teiste UTXOdega, eriti segatud UTXOdega.
+Järgmisena peate olema ettevaatlik oma doxxic-vahetuse, vahetuse, mis ei pääsenud coinjoin-pool'i, haldamise suhtes. Need mürgised UTXOd, mis tulenevad Whirlpooli kasutamisest, kujutavad endast ohtu teie privaatsusele, kuna need loovad teie ja coinjoin'i kasutaja vahel seose. Seetõttu on hädavajalik neid hoolikalt hallata ja mitte ühendada neid teiste UTXOdega, eriti segatud UTXOdega.
 
-Siin on mitu strateegiat, mida nende kasutamiseks kaaluda:
+Siin on mõned strateegiad nende kasutamiseks:
 
 
-- Segage neid väiksemates basseinides:** Kui teie mürgine UTXO on piisavalt suur, et mahutada seda üksi väiksemasse basseini, kaaluge selle segamist. See on sageli parim variant. Mitme mürgise UTXO kokku segamine basseini pääsemiseks ei ole siiski soovitatav, sest see võib teie erinevaid sissepääse ühendada.
-- Märgista need "mittekasutatavaks":** Teine lähenemisviis on lõpetada nende kasutamine, märkida need "mittekasutatavaks" nende spetsiaalsel kontol ja lihtsalt hodlida. See tagab, et te ei kuluta neid kogemata. Kui bitcoinide väärtus tõuseb, võivad tekkida uued, teie mürgiste UTXOde jaoks sobivamad basseinid;
-- Annetuste tegemine:** Kaaluge isegi tagasihoidlike annetuste tegemist Bitcoini ja sellega seotud tarkvara arendajatele. Võite annetada ka organisatsioonidele, kes aktsepteerivad BTC-d. Kui oma mürgiste UTXOde haldamine tundub liiga keeruline, võite neist lihtsalt annetusega vabaneda.
-- Osta kinkekaarte:** Platvormid nagu [Bitrefill](https://www.bitrefill.com/) võimaldavad vahetada bitcoine kinkekaartide vastu, mida saab kasutada erinevates kauplustes. See võib olla viis, kuidas oma mürgiseid UTXOsid ära kasutada, ilma et kaotaksite sellega seotud väärtust.
-- Konsolideerige need Monero:** Samourai rahakott pakub BTC ja XMR vahelist aatomivahetusteenust. See on ideaalne mürgiste UTXO-de haldamiseks, konsolideerides need Monero's, ilma et teie privaatsust KYC-i kaudu ohustataks, enne nende saatmist tagasi Bitcoin'ile. See võimalus võib siiski olla kulukas kaevandamistasude ja preemiate osas likviidsuspiirangute tõttu.
-- Saatke need Lightning-võrku:** Nende UTXOde ülekandmine Lightning-võrku, et saada kasu vähendatud tehingutasudest, on atraktiivne võimalus. See meetod võib aga sõltuvalt Lightningi kasutamisest avaldada mõningaid andmeid ja seetõttu tuleks seda kasutada ettevaatlikult.
+- Segage neid väiksematesse basseinidesse:** Kui teie mürgine UTXO on piisavalt suur, et mahutada seda üksi väiksemasse basseini, kaaluge selle segamist. See on sageli parim variant. Siiski ei ole soovitatav ühendada mitu mürgist UTXOd, et pääseda basseini, sest see võib teie erinevaid kirjeid ühendada;
+- Märgista need "mittekasutatavaks":** Teine lähenemisviis on lõpetada nende kasutamine, märkida need "mittekasutatavaks" nende spetsiaalsel kontol ja lihtsalt hodl. See tagab, et te ei kuluta neid kogemata. Kui bitcoinide väärtus tõuseb, võivad tekkida uued, teie mürgistele UTXOdele sobivamad basseinid;
+- Tehke annetusi:** Kaaluge, kas teha annetusi, olgu need ka tagasihoidlikud, arendajatele, kes töötavad Bitcoini ja sellega seotud tarkvara kallal. Võite annetada ka ühendustele, mis aktsepteerivad BTC-d. Kui oma mürgiste UTXOde haldamine tundub liiga keeruline, võite neist lihtsalt lahti saada ja annetada;
+- Osta kinkekaarte:** Platvormid nagu [Bitrefill](https://www.bitrefill.com/) võimaldavad vahetada bitcoine kinkekaartide vastu, mida saab kasutada erinevates kauplustes. See võib olla viis, kuidas oma mürgistest UTXOdest ilma nendega seotud väärtust kaotamata lahti saada;
+- Konsolideerige neid Monero:** Samourai rahakott pakub BTC ja XMR vahelist aatomivahetusteenust. See on ideaalne toksiliste UTXO-de haldamiseks, konsolideerides need Monero's, ilma et teie konfidentsiaalsus oleks ohustatud CIOH-i kaudu, enne nende saatmist tagasi Bitcoin'ile. See võimalus võib siiski olla kulukas kaevandamistasude ja preemia osas likviidsuspiirangute tõttu;
+- Saatke need Lightning-võrku:** Nende UTXOde ülekandmine Lightning-võrku, et saada kasu vähendatud tehingutasudest, võib olla atraktiivne võimalus. See meetod võib aga sõltuvalt Lightningu kasutamise viisist avaldada teatud teavet ja seetõttu tuleks seda kasutada ettevaatlikult.
 
-### Kuidas kasutada Whirlpooli?
+### Kuidas ma kasutan Whirlpooli?
 
-Pärast Samourai rahakoti asutajate vahistamist ja nende serverite konfiskeerimist 24. aprillil 2024 ei tööta enam Whirlpool tööriist, isegi nende jaoks, kellel on oma Dojo. Varem oli see saadaval Samourai Walletis ja Sparrow Walletis.
+Pärast Samourai rahakoti asutajate vahistamist ja nende serverite konfiskeerimist 24. aprillil 2024 ei tööta Whirlpool tööriist enam, isegi nende jaoks, kellel on oma Dojo. Varem oli see saadaval Samourai Walletis ja Sparrow Walletis.
 
 ![BTC204](assets/fr/149.webp)
 
-Siiski on võimalik, et see vahend võetakse lähinädalatel uuesti kasutusele, sõltuvalt katsete tulemustest, või taaskäivitatakse muul viisil. Igal juhul usun, et Bitcoini coinjoin-turg ei jää kaua ilma pakkumiseta, sest nõudlus on selgelt olemas. Lisaks sellele kasutatakse Whirlpooli mudelit, mis on privaatsuse osas kõige arenenum, tulevikus kindlasti ka teiste rakenduste puhul.
+Siiski on võimalik, et see vahend võetakse lähinädalatel uuesti kasutusele, sõltuvalt katsete tulemustest, või käivitatakse uuesti muul viisil. Igal juhul ei usu ma, et Bitcoin coinjoin turg jääb kaua ilma pakkumiseta, sest nõudlus on olemas. Veelgi enam, kuna Whirlpooli mudel on konfidentsiaalsuse poolest kõige arenenum, on see kindlasti tulevikus teiste rakenduste jaoks valitud mudel.
 
-Jälgime tähelepanelikult nii selle juhtumi arengut kui ka sellega seotud vahenditega seotud arenguid. Võite olla kindel, et uuendame seda koolitust, kui uus teave muutub kättesaadavaks.
+Jälgime seda juhtumit ja sellega seotud vahendite arengut tähelepanelikult. Võite olla kindel, et uuendame seda koolitust, kui uus teave muutub kättesaadavaks.
 
 Järgmises peatükis saame teada, mis on "anonsetid", kuidas neid näitajaid arvutatakse ja kuidas need aitavad meil hinnata coinjoin'i tsüklite tõhusust.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
-## Anonüümsuse komplekt
+## Anonüümsuse komplektid
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
-Olles uurinud, kuidas koosliitmised toimivad ja millised on tõhusa segamisega seotud probleemid, õpime nüüd, kuidas seda tõhusust mõõta. Kuidas teha kindlaks, kas coinjoin-protsess oli tõhus ja millise anonüümsuse astme saavutas coinjoin? Seda uurime selles peatükis anonüümsuse komplektide ehk inglise keeles "anonsets" abil.
+![La confidentialité sur Bitcoin](https://youtu.be/9nMLaYf6yx0?feature=shared)
 
-### Meeldetuletus Coinjoini kasulikkuse kohta
+Olles uurinud, kuidas coinjoinid toimivad ja millised on tõhusa segamisega seotud probleemid, selgitame nüüd välja, kuidas nende tõhusust mõõta. Kuidas saame kindlaks teha, kas koosliitmine on olnud tõhus ja millise anonüümsuse astme on osa omandanud? Seda hakkame selles peatükis välja selgitama anonüümsuse komplektide ehk "anonüümsete komplektide" abil.
 
-CoinJoin'i kasulikkus seisneb selle võimes luua usutav eitatavus, asetades oma mündi eristamatute müntide rühma. Selle tegevuse eesmärk on katkestada jälgitavuse seosed nii minevikust olevikku kui ka olevikust minevikku.
+### Meenutus coinjoin'i kasulikkusest
 
-Teisisõnu, analüütik, kes teab teie esialgset tehingut (`Tx0`) CoinJoin tsüklite sisenemisel, ei tohiks olla võimeline kindlalt tuvastama teie UTXO-d remix-tsüklite väljumisel (analüüs tsükli sisenemisest tsüklist väljumiseni).
+Coinjoin'i kasulikkus seisneb selle võimes tekitada usutavat eitatavust, paigutades oma osa eristamatute osade rühma. Selle tegevuse eesmärk on katkestada jälgitavuse seosed nii minevikust olevikku kui ka olevikust minevikku.
 
-![BTC204](assets/it/55/01.webp)
+Teisisõnu, analüütik, kes teab teie algset tehingut (`Tx0`) mündiühendustsüklite sisenemisel, ei tohiks olla võimeline kindlalt tuvastama teie UTXO-d remix-tsüklite väljumisel (tsükli sisenemise ja tsükli väljumise analüüs).
 
-Seevastu analüütik, kes teab teie UTXO-d CoinJoin-tsüklite väljundis, ei tohiks olla võimeline määrama algset tehingut tsüklite sisendil (analüüs tsükli väljundist tsükli sisendini).
+![BTC204](assets/fr/150.webp)
 
-![BTC204](assets/it/55/02.webp)
+Seevastu analüütik, kes teab teie UTXO-d mündiühendustsüklite väljumisel, ei tohi olla võimeline määrama algset tehingut tsüklite sisenemisel (tsüklist väljumise ja tsükli sisenemise analüüs).
 
-Et hinnata, kui raske on analüütikul siduda minevikku ja olevikku ning vastupidi, on vaja kvantifitseerida nende homogeensete müntide rühmade suurust, mille sees teie münt on peidetud. See meede ütleb meile, kui suur on nende analüüside arv, mille tõenäosus on identne. Seega, kui õige analüüs hukkub 3 teise võrdse tõenäosusega analüüsi vahel, on teie peitmise tase väga madal. Kui aga õige analüüs on 20 000 analüüsi hulgas, mis kõik on võrdse tõenäosusega, on teie münt väga hästi peidetud. Ja just nende kogude suurus kujutab endast näitajaid, mida nimetatakse anonsettideks.
+![BTC204](assets/fr/151.webp)
+
+Et hinnata, kui raske on analüütikul siduda minevikku olevikuga ja vastupidi, peame kvantifitseerima nende homogeensete osade rühmade suurust, mille sees teie osa on peidetud. See meede ütleb meile, kui paljude analüüside puhul on sama tõenäosus. Niisiis, kui õige analüüs upub 3 teise võrdse tõenäosusega analüüsi hulka, on teie varjamise tase väga madal. Teisalt, kui õige analüüs leitakse 20 000 võrdse tõenäosusega analüüsi hulgast, on teie osa väga hästi varjatud. Nende rühmade suurus kujutab endast näitajaid, mida tuntakse kui "anonsetid".
 
 ### Anonüümide mõistmine
 
-Anonsetid on näitajad, mille abil saab hinnata konkreetse UTXO privaatsuse astet. Täpsemalt öeldes mõõdavad nad eristamatute UTXOde arvu kogumis, mis sisaldab uuritavat mündi. Homogeense UTXO kogumi nõue tähendab, et anonsetid arvutatakse tavaliselt CoinJoini tsüklite alusel. Nende näitajate kasutamine on eriti oluline Whirlpool CoinJoins'i puhul, sest need on ühetaolised.
+Anonüümseid andmeid kasutatakse näitajatena, et hinnata konkreetse UTXO konfidentsiaalsuse astet. Täpsemalt öeldes mõõdavad nad eristamatute UTXOde arvu uuritavat osa sisaldavas kogumis. Nõue homogeense UTXOde kogumi kohta tähendab, et anonsetid arvutatakse tavaliselt coinjoini tsüklite alusel. Nende näitajate kasutamine on eriti oluline Whirlpool-koinjointide puhul, kuna need on ühetaolised.
 
-Anonsetid võimaldavad vajaduse korral hinnata CoinJoins'i kvaliteeti. Suur anonseti suurus tähendab kõrget anonüümsuse taset, kuna homogeenses kogumis on raske eristada konkreetset UTXO-d.
+Vajaduse korral võib kasutada anonset'i, et hinnata koosliidete kvaliteeti. Suur anonset tähendab kõrget anonüümsuse taset, kuna homogeenses kogumis on raske eristada konkreetset UTXO-d.
 
-On olemas 2 tüüpi anonüümide tüüpe:
+on olemas 2 tüüpi anonüümide tüüpe:
 
 
-- Tulevane anonset;**
+- Tulevane anonset ;**
 - Retrospektiivne anonset.**
 
-### Tulevane Anonset
+### Tulevane anonset
 
-Tulevikku suunatud anonset näitab selle rühma suurust, mille hulgas uuritav UTXO on tsükli väljumisel peidetud, teades UTXO-d sisenemisel, st selles rühmas olevate eristamatute müntide arvu. Inglise keeles on selle näitaja nimi "forward anonset" ehk "forward-looking metrics"
+Ettepoole suunatud anonset näitab selle rühma suurust, mille hulgas tsükli lõpus uuritud UTXO on varjatud, arvestades UTXO-d alguses, st selles rühmas esinevate eristamatute osade arvu. Selle näitaja nimetus on "tulevikumeetrika".
 
-See näitaja näitab valuuta privaatsuskindlust minevikust tänasesse (sisendist väljundisse) analüüsiga võrreldes.
+See näitaja mõõdab ruumi konfidentsiaalsuse vastupidavust minevikust olevikku (sisend-väljund) analüüsile.
 
-![BTC204](assets/it/55/03.webp)
+![BTC204](assets/fr/152.webp)
 
-See mõõdik hindab, mil määral on teie UTXO kaitstud katsete eest rekonstrueerida selle ajalugu alates selle sisenemispunktist kuni selle väljumispunktini coinjoin-protsessis.
+Seda mõõdikut kasutatakse selleks, et hinnata, mil määral on teie UTXO kaitstud katsete eest rekonstrueerida selle ajalugu alates selle sisenemiskohast kuni selle väljumiskohani coinjoin-protsessis.
 
-Näiteks kui teie tehing osales esimeses mündiühendustsüklis ja kaks täiendavat langevat tsüklit on lõpetatud, oleks teie mündi eeldatav anonset `13`:
+Näiteks kui teie tehing on osalenud esimeses mündiühendustsüklis ja kaks järgmist langevat tsüklit on lõpetatud, siis on teie mündi eeldatav anonset `13` :
 
 ![BTC204](assets/fr/153.webp)
 
-Kujutame näiteks ette, et meie mündi mündiühendustsükli alguses on võimalik saada anonset "86,871". Praktiliselt tähendab see, et see on peidetud `86,871` eristamatute müntide hulka. Väline vaatleja, kes teab seda münti mündiühendustsükli alguses ja üritab jälgida selle väljumist, seisab silmitsi `86,871` võimaliku UTXOga, millest igaühe puhul on tõenäosus, et tegemist on otsitava mündiga, identne.
+Kujutame näiteks ette, et meie mündi anonset on mündiühendustsükli alguses "86,871". Praktiliselt tähendab see, et see on peidetud `86,871` eristamatute osade vahele. Välise vaatleja jaoks, kes tunneb seda münti mündiühendustsükli alguses ja üritab jälgida selle väljumist, seisab ta silmitsi `86,871` võimaliku UTXOga, millest igaühel on identne tõenäosus olla see münt, mida ta otsib.
 
-![BTC204](assets/it/55/05.webp)
+![BTC204](assets/fr/154.webp)
 
-### Retrospektiivne Anonset
+### Tagasiulatuv anonset
 
-Retrospektiivne anonset näitab antud mündi võimalike allikate arvu, teades UTXO-d tsükli väljumisel. See näitaja mõõdab mündi privaatsuskindlust praegusest minevikusse analüüsi (väljumise ja sisenemise vahel), st kui raske on analüütikul jälgida teie mündi päritolu, enne mündiühendustsükleid. Inglise keeles on selle näitaja nimi "backward anonset" ehk "tagasiulatuv meetrika"
+Tagasiulatuv anonset näitab konkreetse osa võimalike allikate arvu, teades UTXO-d tsükli lõpus. See näitaja mõõdab osa konfidentsiaalsuse vastupidavust praegusest minevikku (väljundist sisendisse) analüüsile, st kui raske on analüütikul teie osa päritolu tagasi jälgida, enne coinjoini tsüklit. Selle näitaja nimetus on "tagasiulatuv anonset" ehk "tagasiulatuv metrika".
 
-Teades teie UTXO-d tsüklitest väljumisel, määrab retrospektiivne anonset kindlaks potentsiaalsete Tx0 tehingute arvu, mis oleksid võinud moodustada teie sisenemise mündiühendustsüklitesse. Allpool esitatud joonisel vastab see kõigi oranžide kuplite summale.
+![BTC204](assets/fr/155.webp)
 
-Kujutame näiteks ette, et meie mündi mündiühendustsükli väljumisel saab tagantjärele anonset "42,185". Praktiliselt tähendab see, et selle UTXO jaoks on `42,185` võimalikku allikat. Kui väline vaatleja tuvastab selle mündi tsükli lõpus ja püüab selle päritolu jälgida, siis on tema ees `42,185` võimalikku allikat, mis kõik on võrdse tõenäosusega otsitava päritoluga.
+Teades teie UTXO-d tsüklitest väljumisel, määrab retrospektiivne anonset kindlaks võimalike Tx0 tehingute arvu, mis võisid moodustada teie sisenemise mündiühendustsüklitesse. Allpool esitatud joonisel vastab see kõigi oranžide kuplite summale.
 
-### Kuidas konkreetselt arvutada anonsetid?
+![BTC204](assets/fr/156.webp)
 
-Väikeste komplektide puhul saate oma anonsetid käsitsi arvutada, kasutades plokkide otsingumootorit. Suuremate anonsettide puhul on aga hädavajalik kasutada spetsiaalset tööriista. Minu teada on ainus tarkvara, mis on võimeline seda ülesannet täitma, _Whirlpool Stats Tool_, mis on Samourai ja OXT meeskondade poolt välja töötatud Pythoni tööriist. Kahjuks on see tööriist praegu pärast Samourai asutajate vahistamist ja OXT tegevuse lõpetamist, mida kasutati plokiahela andmete väljavõtmiseks, kasutusest kõrvaldatud.
+Kujutame näiteks ette, et meie coinjoin osa on tagasiulatuvalt anonsetiga `42,185`. Praktiliselt tähendab see, et selle UTXO jaoks on `42,185` potentsiaalset allikat. Kui väline vaatleja tuvastab selle mündi tsüklite lõpus ja püüab jälgida selle päritolu, siis seisab ta silmitsi `42,185` võimaliku allikaga, mis kõik on võrdse tõenäosusega otsitava päritoluga.
 
-Nagu me selles peatükis nägime, saab anonüüme arvutada ainult siis, kui ühisliidete struktuuris on mingi homogeensus. Ja täpselt, järgmises peatükis selgitame välja, kuidas seda homogeensust Bitcoini tehingus kvantifitseerida, olgu see siis coinjoin või traditsioonilisem tehing.
+![BTC204](assets/fr/157.webp)
+
+### Kuidas arvutatakse anonsetid?
+
+Väikeste ansamblite puhul on võimalik anonüümide arvutamine käsitsi, kasutades plokkide otsingut. Suuremate anonsettide puhul muutub aga hädavajalikuks spetsiaalse tööriista kasutamine. Minu teada on ainus tarkvara, mis on võimeline seda ülesannet täitma, *Whirlpool Stats Tool*, mis on Samourai ja OXT meeskondade poolt välja töötatud Python-tööriist. Kahjuks on see tööriist praegu pärast Samourai asutajate vahistamist ja OXT katkestamist, mida kasutati plokiahela andmete väljavõtmiseks, kasutusest väljas.
+
+![BTC204](assets/fr/158.webp)
+
+Nagu me selles peatükis nägime, saab anonüüme arvutada ainult siis, kui ühisliidete struktuuris on teatav homogeensus. Järgmises peatükis saame teada, kuidas seda homogeensust Bitcoini tehingu puhul kvantifitseerida, olgu see siis coinjoin või traditsioonilisem tehing.
 
 https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 ## Entroopia
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 
-Nagu me nägime selles mündiühendusi käsitlevas osas, mängib UTXOde sisendite ja väljundite homogeensus olulist rolli Bitcoini tehingu konfidentsiaalsuse parandamisel. See parameeter võimaldab usutavat eitamist ahela analüüsi vastu. Seda homogeensust saab mõõta mitmete meetoditega, kuid minu arvates on üks tõhusamaid OXT ja Samourai rahakoti meeskondade poolt välja töötatud _Boltzmanni_ tööriista pakutavate näitajate kasutamine, täpsemalt tehingu entroopia. Seda uurime käesolevas peatükis üksikasjalikult.
+![La confidentialité sur Bitcoin](https://youtu.be/yGr34eyMPtA?feature=shared)
 
-Erinevalt anonsettidest, mida arvutatakse tehingute kogumi põhjal, keskenduvad siin esitatud näitajad ainult ühele tehingule, olgu see siis coinjoin või traditsiooniline tehing.
+Nagu me nägime käesolevas punktis coinjoinide kohta, mängib UTXOde homogeensus sisend- ja väljundis olulist rolli Bitcoini tehingu konfidentsiaalsuse parandamisel. See parameeter loob plokiahela analüüsile usutava eitatavuse. Selle homogeensuse mõõtmiseks saab kasutada mitmeid meetodeid, kuid minu arvates on üks tõhusamaid OXT ja Samourai rahakoti meeskondade poolt välja töötatud *Boltzmanni* tööriista pakutavate näitajate ja eelkõige tehingu entroopia kasutamine. Seda vaatleme selles peatükis üksikasjalikult.
+
+Erinevalt anonsettidest, mida arvutatakse tehingute kogumi põhjal, keskenduvad siin esitatud näitajad ühele tehingule, olgu see siis coinjoin või traditsiooniline tehing.
 
 ### Tõlgenduste arv
 
-Esimene näitaja, mida saab Bitcoini tehingu puhul jälgida, on tehingut analüüsiva välise vaatleja silmis võimalike tõlgenduste koguarv. Võttes arvesse tehinguga seotud UTXOde väärtusi, näitab see näitaja, kui palju on võimalusi, kuidas sisendeid saab väljunditega seostada. Teisisõnu, see määrab kindlaks võimalike tõlgenduste arvu, mida tehing võib bitcoinide voos tekitada seda analüüsiva välise vaatleja seisukohast.
+Esimene näitaja, mida saab Bitcoini tehingu puhul jälgida, on võimalike tõlgenduste koguarv, mis seisavad silmitsi välise vaatleja analüüsiga. Võttes arvesse tehinguga seotud UTXOde väärtusi, näitab see näitaja, kui palju on viise, kuidas sisendeid saab väljunditega seostada. Teisisõnu, see määrab kindlaks võimalike tõlgenduste arvu, mida tehing võib bitcoin-voogudes esile kutsuda seda analüüsiva välise vaatleja seisukohast.
 
-Näiteks lihtsal maksetehingul, millel on 1 sisend ja 2 väljundit, on ainult üks tõlgendus, nimelt et sisend #0 rahastab väljundit #0 ja väljund #1. Muid võimalikke tõlgendusi ei ole:
+Näiteks lihtsal maksetehingul, millel on 1 sisend ja 2 väljundit, on ainult üks tõlgendus, nimelt et sisend #0 rahastab väljund #0 ja väljund #1. Muid tõlgendusvõimalusi ei ole:
 
 ![BTC204](assets/fr/159.webp)
 
-Seevastu Whirlpooli 5x5 mudeli järgi struktureeritud mündiühendusel on 1496 võimalikku kombinatsiooni:
+Teisest küljest on Whirlpool 5x5 nurgas 1\,496$ võimalikke kombinatsioone:
 
 ![BTC204](assets/fr/160.webp)
 
-Whirlpool Surge Cycle 8x8 mündiühendusega tuleb välja 9 934 563 dollarit võimalikke tõlgendusi:
+Whirlpool Surge Cycle 8x8 coinjoinil on 9\ 934\ 563$ võimalikud tõlgendused:
 
 ![BTC204](assets/fr/161.webp)
 
@@ -2052,120 +2282,120 @@ Whirlpool Surge Cycle 8x8 mündiühendusega tuleb välja 9 934 563 dollarit või
 
 Bitcoini tehingu tõlgenduste arvu põhjal saame arvutada selle entroopiat.
 
-Krüptograafia ja teabe üldises kontekstis on entroopia andmeallikaga või juhusliku protsessiga seotud ebakindluse või ettearvamatuse kvantitatiivne mõõt. Teisisõnu, entroopia on viis mõõta, kui raske on teavet ennustada või ära arvata.
+Krüptograafia ja teabe üldises kontekstis on entroopia andmeallikaga või juhusliku protsessiga seotud ebakindluse või ettearvamatuse kvantitatiivne mõõt. Teisisõnu, entroopia on viis mõõta, kui raske on mingi teabeosa ennustada või ära arvata.
 
-Konkreetses ahelanalüüsi kontekstis on entroopia ka Shannoni entropiast tuletatud ja [LaurentMT poolt leiutatud](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf) näitaja nimi, mida saab arvutada Bitcoini tehingu kohta.
+Konkreetselt plokiahela analüüsi kontekstis on entroopia ka Shannoni entropiast tuletatud ja [LaurentMT poolt leiutatud](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf) näitaja nimi, mida saab arvutada Bitcoini tehingu kohta.
 
-Kui tehingul on suur arv võimalikke tõlgendusi, on sageli asjakohasem viidata selle entroopiale. See näitaja näitab analüütikute teadmatust tehingu täpse konfiguratsiooni kohta. Teisisõnu, mida suurem on entroopia, seda raskem on analüütikutel tuvastada bitcoinide voogusid sisendite ja väljundite vahel.
+Kui tehingul on suur hulk võimalikke tõlgendusi, on sageli asjakohasem viidata selle entroopiale. See näitaja mõõdab analüütikute teadmatust tehingu täpse konfiguratsiooni kohta. Teisisõnu, mida suurem on entroopia, seda raskem on analüütikutel tuvastada bitcoinide liikumist sisendite ja väljundite vahel.
 
-Praktikas näitab entroopia, kas välise vaatleja seisukohast on tehingul mitu võimalikku tõlgendust, mis põhinevad ainult sisend- ja väljundkogustel, arvestamata muid väliseid või sisemisi mustreid ja heuristikat. Kõrge entroopia on seega sünonüümiks tehingu suuremale konfidentsiaalsusele.
+Praktikas näitab entroopia, kas välise vaatleja seisukohalt on tehingul mitu võimalikku tõlgendust, mis põhinevad üksnes sisend- ja väljundisummadel, võtmata arvesse muid väliseid või sisemisi mustreid ja heuristikat. Kõrge entroopia on seega tehingu suurema konfidentsiaalsuse sünonüüm.
 
-Entroopia on defineeritud kui võimalike kombinatsioonide arvu binaarne logaritm. Siin on kasutatud valemit, kus $E$ tähistab tehingu entroopiat ja $C$ võimalike tõlgenduste arvu:
+Entroopia on defineeritud kui võimalike kombinatsioonide arvu binaarne logaritm. Siin on kasutatud valemit, kus $E$ on tehingu entroopia ja $C$ võimalike tõlgenduste arv:
 
 $$
 E = \log_2(C)
 $$
 
-Matemaatikas vastab binaarne logaritm (logaritm baasini 2) pöördvõrrandile, mille puhul 2 tõstetakse teatud potentsile. Teisisõnu, $x$ binaarne logaritm on eksponent, millele $2$ tuleb tõsta, et saada $x$. Seda näitajat väljendatakse seega bittides.
+Matemaatikas on binaarne logaritm (baas-2 logaritm) 2 eksponentimise pöördoperatsioon. Teisisõnu, $x$ binaarne logaritm on eksponent, millele $2$ tuleb tõsta, et saada $x$. Seda näitajat väljendatakse seega bittides.
 
-Võtame näiteks 5x5 Whirlpool-mudeli järgi struktureeritud coinjoin-tehingu entroopia arvutamise, mille tõlgendamisvõimaluste arv on, nagu eelmises punktis mainitud, 1496 dollarit:
-
-$$
-\begin{align*}
-C &= 1.496 \\
-E &= \log_2(1.496) \\
-E &= 10.5469 \text{ bit}
-\end{align*}
-$$
-
-Seega on selle mündiühendustehingu entroopia 10,5469$ bitti, mida peetakse väga rahuldavaks. Mida suurem on see väärtus, seda rohkem erinevaid tõlgendusi on tehingule lubatud, parandades seega selle privaatsustaset.
-
-8x8 mündiühendustehingu puhul, millel on 9 934 563 dollarit tõlgendusi, oleks entroopia järgmine:
+Võtame näite entroopia arvutamisest Whirlpool 5x5 mudeli järgi struktureeritud coinjoin-tehingu puhul, mille tõlgendamisvõimaluste arv on, nagu eelmises punktis mainitud, $1\,496$ :
 
 $$
 \begin{align*}
-C &= 9.934.563 \\
-E &= \log_2(9.934.563) \\
-E &= 23,244 \text{ bit}
+C &= 1\,496 \\
+E &= \log_2(1\,496) \\
+E &= 10.5469 \text{ bits}
 \end{align*}
 $$
 
-Võtame teise näite standardse maksetehinguga, millel on 1 sisend ja 2 väljundit: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
+Seega on selle mündiühendustehingu entroopia 10,5469$ bitti, mida peetakse väga rahuldavaks. Mida suurem on see väärtus, seda rohkem erinevaid tõlgendusi on tehingule lubatud, mis tugevdab selle konfidentsiaalsuse taset.
+
+8x8 mündiühendusega tehingu puhul, kus on $9\,934\,563$ tõlgendusi, oleks entroopia :
+
+$$
+\begin{align*}
+C &= 9\,934\,563 \\
+E &= \log_2(9\,934\,563) \\
+E &= 23.244 \text{ bits}
+\end{align*}
+$$
+
+Võtame teise näite klassikalise maksetehinguga, millel on 1 sisend ja 2 väljundit: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
 
 ![BTC204](assets/fr/162.webp)
 
-Selle tehingu puhul on ainus võimalik tõlgendus: `(In.0) > (Out.0 ; Out.1)`. Järelikult on selle entroopia väärtus $0$:
+Selle tehingu puhul on ainus võimalik tõlgendus: `(In.0) > (Out.0 ; Out.1)`. Järelikult on selle entroopia $0$ :
 
 $$
 \begin{align*}
 C &= 1 \\
 E &= \log_2(1) \\
-E &= 0 \text{ bit}
+E &= 0 \text{ bits}
 \end{align*}
 $$
 
 ### Efektiivsus
 
-Tehingu entroopia põhjal saame arvutada ka selle privaatsuse tõhususe. See näitaja hindab tehingu tõhusust, võrreldes seda optimaalse tehinguga, mis on mõeldav samasuguse konfiguratsiooni korral.
+Tehingu entroopia põhjal saame arvutada ka selle tõhusust konfidentsiaalsuse osas. Selle näitajaga hinnatakse tehingu tõhusust, võrreldes seda optimaalse tehinguga, mida võiks ette näha samasuguse konfiguratsiooni korral.
 
-See viib meid arutlema maksimaalse entroopia mõiste üle, mis vastab suurimale entroopiale, mida konkreetne tehingustruktuur teoreetiliselt saavutada võiks. Seejärel arvutatakse tehingu tõhusus, võrreldes seda maksimaalset entroopiat analüüsitud tehingu tegeliku entroopiaga.
+See toob meid maksimaalse entroopia mõiste juurde, mis vastab suurimale entroopiale, mida konkreetne tehingustruktuur teoreetiliselt saavutada võib. Tehingu tõhusus arvutatakse seejärel, võrreldes seda maksimaalset entroopiat analüüsitava tehingu tegeliku entroopiaga.
 
-Kasutatakse järgmist valemit:
+Kasutatakse järgmist valemit koos :
 
 
-- $E_R$: tehingu tegelik entroopia bittides;
-- $E_M$: tehingu struktuuri maksimaalne võimalik entroopia, mis on samuti väljendatud bittides;
-- $Ef$: tehingu tõhusus bittides:
+- e_R$: tehingu tegelik entroopia bittides;
+- e_M$: tehingustruktuuri maksimaalne võimalik entroopia, mis on samuti väljendatud bittides;
+- $Ef$: tehingu tõhusus bittides :
 
 $$
 Ef = E_R - E_M
 $$
 
-Näiteks Whirlpool 5x5 tüüpi coinjoin struktuuri puhul on maksimaalne entroopia $10.5469$:
+Näiteks Whirlpool 5x5 coinjoin struktuuri puhul on maksimaalne entroopia $10.5469$ :
 
 $$
 \begin{align*}
-E_R &= 10,5469 \\
-E_M &= 10,5469 \\
+E_R &= 10.5469 \\
+E_M &= 10.5469 \\
 Ef &= E_R - E_M \\
-Ef &= 10,5469 - 10,5469 \\
-Ef &= 0 \text{ bit}
+Ef &= 10.5469 - 10.5469 \\
+Ef &= 0 \text{ bits}
 \end{align*}
 $$
 
-Seda näitajat väljendatakse samuti protsentides. Kasutatakse järgmist valemit:
+Seda näitajat väljendatakse samuti protsentides. Kasutatakse järgmist valemit: :
 
 
-- $C_R$: võimalike reaalsete tõlgenduste arv;
-- $C_M$: sama struktuuriga võimalike tõlgenduste maksimaalne arv;
+- c_R$ : võimalike reaalsete tõlgenduste arv ;
+- c_M$: ühe ja sama struktuuri maksimaalne võimalik tõlgenduste arv;
 - $Ef$: tõhusus väljendatuna protsentides:
 
 $$
 \begin{align*}
 E_f &= \frac{C_R}{C_M} \\
-E_f &= \frac{1.496}{1.496} \\
-E_f &= 100\%
+E_f &= \frac{1\,496}{1\,496} \\
+E_f &= 100 \%
 \end{align*}
 $$
 
-Seega näitab tõhusus $100\%$, et tehing maksimeerib oma struktuurist lähtuvalt oma privaatsuspotentsiaali.
+Tõhusus 100 dollarit näitab, et sõltuvalt tehingu struktuurist kasutatakse tehingu konfidentsiaalsuspotentsiaali maksimaalselt ära.
 
 ### Entroopia tihedus
 
-Entroopia on hea näitaja tehingu privaatsuse mõõtmiseks, kuid see sõltub osaliselt tehingu sisendite ja väljundite arvust. Et võrrelda 2 erineva tehingu, mille sisendite ja väljundite arv ei ole sama, entroopiat, saab arvutada entroopia tihedust. See näitaja annab ülevaate entroopiast iga tehingu sisendi või väljundi suhtes. Tihedus on kasulik eri suurusega tehingute tõhususe hindamisel ja võrdlemisel.
+Entroopia on hea näitaja tehingu konfidentsiaalsuse mõõtmiseks, kuid see sõltub osaliselt tehingu sisendite ja väljundite arvust. Et võrrelda 2 erineva sisendite ja väljundite arvuga tehingu entroopiat, võime arvutada entroopia tiheduse. See näitaja annab ülevaate entroopiast iga tehingu sisendi või väljundi suhtes. Tihedus on kasulik eri suurusega tehingute tõhususe hindamiseks ja võrdlemiseks.
 
-Selle arvutamiseks tuleb lihtsalt jagada tehingu kogu entroopia tehingus osalevate sisendite ja väljundite koguarvuga:
+Selle arvutamiseks jagame lihtsalt tehingu kogu entroopia tehingus osalevate sisendite ja väljundite koguarvuga:
 
 
-- $E_D$: entroopia tihedus väljendatuna bittides;
-- $E$: tehingu entroopia väljendatuna bittides;
-- $T$: tehingu sisendite ja väljundite koguarv:
+- e_D$: entroopia tihedus väljendatuna bittides;
+- e$: tehingu entroopia väljendatuna bittides;
+- t$: tehingu sisendite ja väljundite koguarv:
 
 $$
 E_D = \frac{E}{T}
 $$
 
-Võtame näiteks 5x5 Whirlpooli koosliitumise:
+Võtame näiteks Whirlpool 5x5 mündiühendust:
 
 $$
 \begin{align*}
@@ -2173,7 +2403,7 @@ T &= 5 + 5 = 10 \\
 E &= 10.5469 \\
 E_D &= \frac{E}{T} \\
 E_D &= \frac{10.5469}{10} \\
-E_D &= 1.054 \text{ bit}
+E_D &= 1.054 \text{ bits}
 \end{align*}
 $$
 
@@ -2185,78 +2415,88 @@ T &= 8 + 8 = 16 \\
 E &= 23.244 \\
 E_D &= \frac{E}{T} \\
 E_D &= \frac{23.244}{16} \\
-E_D &= 1.453 \text{ bit}
+E_D &= 1.453 \text{ bits}
 \end{align*}
 $$
 
-Analüüsides nende kahe koosliidutüübi entroopiatihedust, selgub, et isegi kui entroopiat normaliseerida elementide arvu järgi, tekitab "Surge Cycle 8x8" koosliitmine analüüsi jaoks rohkem ebakindlust.
+Analüüsides nende kahe koosliitmise tüübi entroopiatihedust, selgub, et isegi kui entroopiat normaliseerida elementide arvu järgi, tekitab "Surge Cycle 8x8" koosliitmine analüüsi jaoks rohkem ebakindlust.
 
-### Boltzmanni tulemus
+### Boltzmanni skoor
 
-Teine tehingus analüüsitav teave on iga elemendi Boltzmanni skoor teise elemendi suhtes. See on tabel, mis näitab sisendite ja väljundite vastavuse tõenäosust. See tabel näitab Boltzmanni skoori kaudu tingimuslikku tõenäosust, et konkreetne sisend on seotud konkreetse väljundiga. Seega on see tingimusliku tõenäosuse kvantitatiivne näitaja, et seos sisendi ja väljundi vahel esineb tehingus, mis määratakse selle sündmuse soodsate esinemiste arvu ja võimalike esinemiste koguarvu suhte alusel tõlgenduste kogumis.
+Teine tehingus analüüsitav teave on iga elemendi Boltzmanni skoor teise elemendi suhtes. See on sisendite ja väljundite vaheliste vastavustõenäosuste tabel. See tabel näitab Boltzmanni skoori kaudu tingimuslikku tõenäosust, et konkreetne sisend on seotud konkreetse väljundiga. Seega on see kvantitatiivne mõõt, mis näitab tingimuslikku tõenäosust, et mingi sisendi ja väljundi vaheline seos mingis tehingus esineb, tuginedes selle sündmuse soodsate esinemiste arvu suhtele võimalike esinemiste koguarvule tõlgenduste kogumis.
 
-Kui võtta Whirlpool coinjoin'i näide, siis tingimusliku tõenäosuse tabel tõstaks esile iga sisendi ja väljundi vahelise seose võimalused, andes kvantitatiivse mõõtme tehingu seoste mitmetähenduslikkusele:
+Kasutades Whirlpool coinjoin'i näidet, tooks tingimusliku tõenäosuse tabel esile iga sisendi ja väljundi vahelise seose tõenäosuse, pakkudes kvantitatiivset mõõdet tehingu assotsiatsioonide mitmetähenduslikkusele:
 
 | % | Väljund 0 | Väljund 1 | Väljund 2 | Väljund 3 | Väljund 4 |
 
 | ------- | -------- | -------- | -------- | -------- | -------- |
 
-Siinkohal on selge, et iga sisend on sama suure tõenäosusega seotud mis tahes väljundiga, mis suurendab tehingu konfidentsiaalsust.
+| Sisend 0 | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% |
 
-Boltzmanni skoori arvutamisel jagatakse tõlgenduste arv, milles teatav sündmus esineb, olemasolevate tõlgenduste koguarvuga. Seega, et määrata skoor, seostades sisend #0 väljundiga #3 (sündmus, mis esineb 512$ tõlgenduses), on protsess järgmine:
+| Sisend 1 | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | Sisend 1
+
+| Sisend 2 | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34 %
+
+| Sisend 3 | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | Sisend 3
+
+| Sisend 4 | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34% | 34 %
+
+On selge, et igal sisendil on võrdne võimalus olla seotud mis tahes väljundiga, mis tugevdab tehingu konfidentsiaalsust.
+
+Boltzmanni skoor arvutatakse, jagades tõlgenduste arvu, milles teatav sündmus esineb, olemasolevate tõlgenduste koguarvuga. Seega, et määrata skoor, mis seostab sisendit #0 väljundiga #3 (sündmus esineb $512$ tõlgendustes), toimime järgmiselt:
 
 $$
 \begin{align*}
-\text{Interpretazioni (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretazioni Totali} &= 1496 \\
-\text{Punteggio} &= \frac{512}{1496} \\
-\text{Punteggio} &= 34\%
+\text{Interpretations (IN.0 > OUT.3)} &= 512 \\
+\text{Interpretations totales} &= 1496 \\
+\text{Score} &= \frac{512}{1496} \\
+\text{Score} &= 34 \%
 \end{align*}
 $$
 
-Kui me vaatame uuesti üle näite Surge 8x8 Whirlpool coinjoin tsükli kohta, siis Boltzmanni tabel näeb välja selline:
+Kui võtame näiteks Whirlpool 8x8 Surge Cycle coinjoin'i, siis Boltzmanni tabel näeb välja selline:
 
-| | OUT.0 | OUT.1 | OUT.2 | OUT.3 | OUT.4 | OUT.5 | OUT.6 | OUT.7 | OUT.7 | OUT.7 |
+| OUT.0 | OUT.1 | OUT.2 | OUT.3 | OUT.4 | OUT.5 | OUT.6 | OUT.7 | OUT.7 |
 
-| ---- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|
 
-| IN.0 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
+| IN.0 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
 
-| IN.1 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
+| IN.1 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
 
-| IN.2 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
+| IN.2 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
 
-| IN.3 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
+| IN.3 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
 
-| IN.4 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
+| IN.4 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
 
-| IN.5 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
+| IN.5 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
 
-| IN.6 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
+| IN.6 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
 
-| IN.7 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
+| IN.7 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
 
-Kuid lihtsa tehingu puhul, mis hõlmab ühte sisendit ja kahte väljundit, on olukord teistsugune:
+Kuid lihtsa tehingu puhul, millel on üks sisend ja kaks väljundit, on olukord teistsugune:
 
-| % | Väljund 0 | Väljund 1 |
+| Väljund 0 | Väljund 1 |
 
-| ------- | -------- | -------- |
+|---------|----------|----------|
 
 | Sisend 0 | 100% | 100% | 100% |
 
-Siinkohal täheldame, et iga sisendist #0 pärineva väljundi tõenäosus on 100%. Väiksem tõenäosus toob seega kaasa suurema privaatsuse, kuna lahjendab otseseid seoseid sisendite ja väljundite vahel.
+Siin näeme, et tõenäosus, et iga väljund pärineb sisendist #0, on 100%. Väiksem tõenäosus peegeldab seega suuremat konfidentsiaalsust, mis lahjendab otseseid seoseid sisendite ja väljundite vahel.
 
 ### Deterministlikud lingid
 
-Samuti on võimalik arvutada tehingu deterministlike linkide arvu. See näitaja näitab, kui palju analüütilise tehingu sisendite ja väljundite vahelisi seoseid on 100%-lise tõenäosusega vaieldamatult olemas. Seda näitajat saab seejärel täiendada, arvutades deterministlike linkide suhtarvu. Suhtarv annab ülevaate nende deterministlike linkide osakaalust tehingu kõigi linkide hulgas.
+Samuti saame arvutada deterministlike linkide arvu tehingus. See näitaja näitab, kui paljud ühendused analüüsitava tehingu sisendite ja väljundite vahel on 100% tõenäosusega vaieldamatud. Seda näitajat saab seejärel täiendada, arvutades deterministlike linkide suhtarvu. Suhtarv annab ülevaate nende deterministlike linkide osakaalust tehingu kõigi linkide hulgas.
 
-Näiteks Whirlpooli coinjoin-tehingu puhul ei ole sisendite ja väljundite vahel mingit deterministlikku seost, seega on näitaja 0 seost ja suhtarv 0%. Seevastu meie teise vaadeldud lihtsa maksetehingu puhul (ühe sisendi ja 2 väljundiga) näitab näitaja, et on 2 deterministlikku seost ja suhtarv ulatub 100%-ni. Seega annab null näitaja märku suurepärasest privaatsusest, sest sisendite ja väljundite vahel puuduvad otsesed ja vaieldamatud seosed.
+Näiteks Whirlpool coinjoin-tehingu puhul ei ole sisendite ja väljundite vahel mingeid deterministlikke seoseid ja seetõttu on näitajaks 0 seost ja suhtarvuks 0%. Seevastu meie teise vaadeldud lihtsa maksetehingu puhul (ühe sisendi ja 2 väljundiga) näitab näitaja, et on 2 deterministlikku seost ja suhe ulatub 100%-ni. Teisisõnu, nullnäitaja näitab suurepärast konfidentsiaalsust tänu otseste ja vaieldamatute seoste puudumisele sisendite ja väljundite vahel.
 
-### Kuidas neid näitajaid arvutada?
+### Kuidas te neid näitajaid arvutate?
 
-Nende näitajate arvutamine käsitsi, kasutades minu esitatud võrrandeid, on suhteliselt lihtne. Peamine raskus seisneb tehingu võimalike tõlgenduste arvu kindlaksmääramises. Standardse tehingu puhul saab selle arvutuse teha käsitsi. Koondtehingu puhul on see ülesanne aga oluliselt keerulisem.
+Nende näitajate arvutamine käsitsi, kasutades minu esitatud võrrandeid, on suhteliselt lihtne. Raskus seisneb peamiselt tehingu võimalike tõlgenduste arvu kindlaksmääramises. Klassikalise tehingu puhul saab seda arvutust teha käsitsi. Koondumise puhul on see ülesanne aga palju keerulisem.
 
-Varem oli OXT ja Samourai meeskondade poolt välja töötatud Pythoni tööriist nimega _Boltzmann Calculator_, mis võimaldas kõigi nende näitajate automaatset arvutamist Bitcoini tehingu jaoks:
+Varem oli OXT ja Samourai meeskondade poolt välja töötatud Pythoni tööriist nimega _Boltzmann Calculator_, mis arvutas automaatselt kõik need näitajad Bitcoini tehingu jaoks:
 
 ![BTC204](assets/fr/163.webp)
 
@@ -2264,12 +2504,12 @@ Nende analüüside tegemiseks oli võimalik kasutada ka KYCP.org veebilehte:
 
 ![BTC204](assets/fr/164.webp)
 
-Kahjuks ei ole need vahendid pärast Samourai asutajate vahistamist praegu töökorras.
+Kahjuks ei ole need vahendid pärast Samourai asutajate vahistamist enam töökorras.
 
-Nüüd, kui me oleme arutanud üksikasjalikult coinjoine'i, uurime meie koolituse viimases osas teisi Bitcoini privaatsustehnikaid. Me uurime payjoin-tehinguid, konkreetseid pseudocoinjoin-tehingutüüpe, staatilisi aadressiprotokolle, samuti meetmeid privaatsuse parandamiseks mitte tehingu tasandil, vaid sõlmede võrgu tasandil.
+Nüüd, kui me oleme käsitlenud üksikasjalikult coinjoins, vaatame meie kursuse viimases osas teisi Bitcoini privaatsustehnikaid. Vaatleme payjoin'eid, konkreetseid pseudocoinjoin'i tehingutüüpe, staatilisi aadressiprotokolle, samuti meetmeid, mis tugevdavad konfidentsiaalsust mitte tehingute endi, vaid sõlmede võrgu tasandil.
 
 https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
-# Mõista muude täiustatud privaatsustehnikate panuseid
+# Teiste täiustatud konfidentsiaalsusmeetoditega seotud probleemide mõistmine
 
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
@@ -2277,438 +2517,531 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
-Praegu on mündiühendus kõige tõhusam meetod, et tuua ebakindlust mündi jälgimisse ahelanalüüsi käigus. Nagu eelmistes peatükkides nägime, peavad sisendid ja väljundid tõhusa segamise saavutamiseks olema võimalikult homogeensed. Lisaks on oluline, et coinjoins oleks integreeritud võimalikult suurde gruppi, et maksimeerida anonsetid. Seega, et coinjoins oleks tõhus, peavad need hõlmama suurt hulka ühtlasi ka münte. Selline nõuete paljusus tähendab, et mündiliitude tehingutel on väga jäik struktuur: summad on eelnevalt kindlaks määratud ja kõik osalejad peavad neist kinni pidama, et tagada protsessi ühtsus. Lisaks nõuavad coinjoinid tehingu ülesehituse ajal kõigi osalejate ja koordinaatori vahelist sünkroniseerimist.
+![La confidentialité sur Bitcoin](https://youtu.be/e4i66QXWCvs?feature=shared)
 
-Need nõuded muudavad coinjoin'i otsetoetuste puhul ebasobivaks. Näiteks kui teil on 1 miljoni sati suurune tükk coinjoin-poolis, oleks selle otsene kasutamine maksetena keeruline. See nõuaks sünkroniseerimist teiste osalejatega ja koordinaatoriga, et luua täpselt ajal, mil teil on vaja makse sooritada, ühistehing, ning ostusumma peaks täpselt vastama teie tüki väärtusele, mis on praktiliselt teostamatu. Seetõttu on coinjoin-tehing oma olemuselt koostööl põhinev puhastustehing, mis tähendab, et üldjuhul on väljundites samad sisendite omanikud.
+Coinjoin on praegu kõige tõhusam meetod ebakindluse lisamiseks osade jälgimisse ahelanalüüsis. Nagu oleme eelmistes peatükkides näinud, peavad sisendid ja väljundid olema võimalikult homogeensed, et saada suure jõudlusega kombinatsioon. Lisaks on oluline, et osad oleksid integreeritud võimalikult suurde gruppi, et maksimeerida anonsetid. Seega, et koosliitmised oleksid tõhusad, peavad need hõlmama suurt hulka ühtlasi ühtlasi ka osi. See nõuete paljusus tähendab, et coinjoin-tehingutel on väga jäik struktuur: summad on eelnevalt kindlaks määratud ja kõik osalejad peavad neist kinni pidama, et tagada protsessi ühetaolisus. Lisaks nõuavad coinjoin-tehingud sünkroniseerimist kõigi osalejate ja koordinaatori vahel tehingu koostamise ajal.
 
-Siiski oleks huvitav, kui tehingustruktuurid võimaldaksid praktilisi makseid, tuues ahelaanalüüsi sisse kahtluse. Just seda uurime käesolevas ja järgmises peatükis.
+Need nõuded muudavad coinjoin'i otsetoetuste puhul ebasobivaks. Näiteks kui teil on 1 miljoni satsiga münt coinjoin-poolis, oleks selle otsene kasutamine maksetena keeruline. See nõuaks sünkroniseerimist teiste osalejatega ja koordinaatoriga, et koostada ühistehing täpselt sel hetkel, kui teil on vaja makse sooritada, ning ostusumma peaks täpselt vastama teie mündi väärtusele, mis on praktiliselt teostamatu. Coinjoin-tehing on seega oma olemuselt koostööst tulenev pühkimistehing, st tavaliselt on sisendite omanikud samad, keda leiame ka väljunditest.
+
+Siiski oleks huvitav, kui tehingustruktuurid võimaldaksid makseid teha praktilisel viisil, kuid samas tekitaksid kahtlusi ahelate analüüsis. Just seda vaatleme selles ja järgmises peatükis.
 
 ### Mis on payjoin-tehing?
 
-Payjoin on konkreetne Bitcoini tehingustruktuur, mis suurendab kasutaja privaatsust kulutuste ajal, tehes koostööd makse saajaga.
+Payjoin on konkreetne Bitcoini tehingustruktuur, mis suurendab kasutaja privaatsust kulutuste tegemisel, tehes koostööd makse saajaga.
 
-2015. aastal mainis LaurentMT seda meetodit esmakordselt "steganograafiliste tehingute" nime all, vastavalt kättesaadavale dokumendile [siin](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Hiljem võttis selle tehnika kasutusele Samourai Wallet, mis 2018. aastal oli esimene klient, kes rakendas seda Stowaway tööriistaga. Payjoin'i kontseptsiooni leiab ka töödest [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) ja [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Payjoini tähistamiseks kasutatakse seega mitmeid termineid:
+LaurentMT nimetas seda meetodit esimest korda "*steganograafilisteks tehinguteks*" 2015. aastal, vastavalt dokumendile, mis on kättesaadav [siin](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Hiljem võttis selle tehnika kasutusele Samourai Wallet, mis 2018. aastal sai esimeseks kliendiks, kes rakendas seda Stowaway tööriistaga. Payjoini kontseptsiooniga saab tutvuda ka [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) ja [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Payjoini tähistamiseks kasutatakse mitmeid termineid:
 
 
-- Payjoin;
+- Payjoin ;
 - Stowaway;
-- P2EP (_Pay-to-End-Point_);
+- P2EP (*Pay-to-End-Point*) ;
 - Steganograafiline tehing.
 
-Payjoin'i ainulaadsus seisneb selles, et ta suudab luua tehingu, mis esmapilgul tundub tavaline, kuid tegelikult on tegemist kahe inimese vahelise mini Coinjoin'iga. Selleks on tehingu struktuuris sisenditesse kaasatud makse saaja koos tegeliku saatjaga. Seejärel lisab vastuvõtja tehingu keskel endale makse, mis võimaldab talle maksta.
+Payjoini eripära seisneb selles, et ta suudab luua tehingu, mis esmapilgul tundub tavaline, kuid on tegelikult kahe inimese vaheline mini Coinjoin. Selle saavutamiseks on tehingu struktuuris sisenditesse kaasatud makse saaja koos tegeliku saatjaga. Seega sisaldab saaja tehingu keskel ka iseendale tehingu makset, mis omakorda võimaldab talle maksta.
 
-Võtame selle protsessi paremaks mõistmiseks näite. Alice ostab baguette 4000 sati eest, kasutades UTXO 10 000 sati ja valib payjoin'i. Tema pagar, Bob, lisab oma UTXO 15 000 satsiga sisendiks, mille ta lisaks Alice'i 4000 satsile täielikult tagasi saab väljundina.
+Võtame selle protsessi paremaks mõistmiseks näite. Alice ostab baguette'i 4000 sati eest, kasutades UTXO 10 000 sati ja valib payjoin'i. Tema pagar, Bob, lisab sisendina talle kuuluva UTXO 15 000 satsiga, mille ta lisaks Alice'i 4000 satsile täies ulatuses väljundina tagasi saab.
 
-Näites, kus pagar Bob sisestab 15 000 sati ja saab välja 19 000 sati, on vahe täpselt 4000 sati, mis on baguette'i hind. Alice omalt poolt sisestab 10 000 sati ja saab väljundiks 6 000 sati, mis moodustab saldo -4 000 sati, mis on baguette'i hind. Näite lihtsustamiseks jätsin selle tehingu puhul tahtlikult välja kaevandamistasud.
+![BTC204](assets/fr/165.webp)
 
-### Mis on payjoini eesmärk?
+Selles näites sisestab pagar Bob 15 000 sati sisendiks ja väljub 19 000 sati, kusjuures vahe on täpselt 4000 sati, s.t. baguette'i hind. Alice sisestab 10 000 sati ja saab väljundiks 6 000 sati, mis tähendab, et saldo on -4 000 sati, s.t. baguette'i hind. Näite lihtsustamiseks olen tahtlikult jätnud selle tehingu puhul kaevandamiskulud välja.
 
-Payjoin-tehing täidab kaks eesmärki, mis võimaldavad kasutajatel parandada makse privaatsust.
+### Milleks on payjoin?
 
-Esiteks on payjoin'i eesmärk petta välist vaatlejat, luues ahelaanalüüsis kõrvalekalde. See on võimalik tänu _Common Input Ownership Heuristic_ (CIOH). Nagu me nägime 3. osas, eeldatakse tavaliselt, et kui plokiahelas toimuval tehingul on mitu sisendit, et kõik need sisendid kuuluvad ühele ja samale üksusele või kasutajale.
+Payjoin-tehing täidab kaks eesmärki, võimaldades kasutajatel suurendada oma makse konfidentsiaalsust.
 
-Seega, kui analüütik uurib payjoin-tehingut, usub ta, et kõik sisendid pärinevad ühelt ja samalt isikult. See arusaam on aga vale, sest koos tegeliku maksjaga annab sisendeid ka makse saaja. Seega on ahelanalüüs kallutatud tõlgenduse suunas, mis osutub valeks.
+Esiteks on payjoin'i eesmärk eksitada välist vaatlejat, luues ahelanalüüsis peibutuse. Seda võimaldab CIOH-heuristika (*Common Input Ownership Heuristic*). Nagu me nägime 3. osas, eeldatakse tavaliselt, et kui plokiahelas on tehingul mitu sisendit, et kõik need sisendid kuuluvad ühele ja samale üksusele või kasutajale.
 
-Tuleme tagasi meie näite juurde, mis käsitleb payjoin-tehingut, et maksta baguette'i eest:
+Seega, kui analüütik uurib payjoin-tehingut, usub ta, et kõik sisendid pärinevad ühelt ja samalt isikult. See arusaam on aga vale, sest lisaks tegelikule maksjale panustab sisenditesse ka makse saaja. Seega suunatakse ahela analüüs ümber tõlgenduse suunas, mis osutub valeks.
 
-Seda tehingut plokiahelas nähes tõlgendaks väline vaatleja, kes järgib tavapäraseid ahelaanalüüsi heuristikat, seda nii: "Alice liitus 2 UTXOga tehingu sisendiks, et maksta Bobile 19 000 sati."
+Võtame näite payjoin-tehingust, mille eesmärk on maksta baguette'i eest:
 
-See tõlgendus on selgelt vale; nagu te juba teate, ei kuulu kaks UTXOd sisendiks olevale isikule. Üks on Alice'ilt, baguette'i ostjalt, ja teine on Bobilt, pagarilt.
+![BTC204](assets/fr/166.webp)
 
-Seega on välise vaatleja analüüs suunatud ekslikule järeldusele, mis tagab sidusrühmade konfidentsiaalsuse säilimise.
+Seda tehingut plokiahelas nähes saaks väline vaatleja, kes järgib plokiahela analüüsi tavapärast heuristikat, järgmise tõlgenduse: "*Alice ühendas tehingu sisendiks 2 UTXOd, et maksta Bobile 19 000 sati*".
+
+![BTC204](assets/fr/167.webp)
+
+See tõlgendus on ilmselgelt vale, sest nagu te juba teate, ei kuulu kaks UTXO-sisendit ühele ja samale isikule. Üks pärineb Alice'ilt, baguette'i ostjalt, ja teine Bobilt, pagarilt.
+
+![BTC204](assets/fr/168.webp)
+
+Sel viisil suunatakse välise vaatleja analüüs eksliku järelduse suunas, tagades sidusrühmade konfidentsiaalsuse säilimise.
 
 ### Steganograafiline tehing
 
-Teine eesmärk on petta kõrvalist vaatlejat tehtud makse tegeliku summa osas. Tehingu struktuuri uurides võib analüütik uskuda, et makse on võrdne ühe väljundi summaga.
+Payjoin'i teine eesmärk on eksitada kõrvalist vaatlejat tehtud makse tegeliku summa osas. Tehingu struktuuri uurides võib analüütik arvata, et makse on võrdne ühe väljundi summaga.
 
-Kui võtame meie näite baguette'i ostmisest, siis analüütik arvab, et maksesumma vastab kas 6000 sati UTXO-le või 19 000 sati UTXO-le. Antud juhul arvab analüütik pigem, et maksesumma on 19 000 sati, sest väljundis on 2 UTXOd, millest vähemalt üks on suurem kui 6000 sati (ei ole mingit loogilist põhjust kasutada 2000 sati maksmiseks 2 UTXOd, kui selle makse jaoks oleks piisanud ühest UTXOst).
+Kui me pöördume tagasi meie näite juurde, mis käsitleb baguette'i ostmist, siis analüütik arvab, et maksesumma vastab kas 6000 sati UTXO-le või 19 000 sati UTXO-le. Antud juhul arvab analüütik pigem, et maksesumma on 19 000 sati, sest väljundites on 2 UTXOd, millest vähemalt üks on suurem kui 6000 sati (ei ole mingit loogilist põhjust kasutada 2000 sati maksmiseks 2 UTXOd, kui selle makse rahuldamiseks oleks piisanud ühest UTXOst).
 
-Kuid tegelikkuses on see analüüs vale. Maksesumma ei vasta ühelegi väljundile. Tegelikult on see väljundi saaja UTXO ja sisendi saaja UTXO vahe.
+![BTC204](assets/fr/169.webp)
 
-Seejuures kuulub payjoin-tehing steganograafia valdkonda. See võimaldab tehingu tegelikku summat varjata võltsitud tehingu sisse, mis toimib kõrvalekaldumiseks.
+Tegelikkuses on see analüüs aga vigane. Maksesumma ei vasta ühelegi väljundile. See on tegelikult erinevus abisaaja UTXO väljundi ja abisaaja UTXO sisendi vahel.
 
-Steganograafia on tehnika, mille abil saab teavet teiste andmete või objektide sisse peita nii, et peidetud teabe olemasolu ei ole märgatav. Näiteks võib salajase sõnumi peita mitteseotud teksti punkti sisse, muutes selle palja silmaga avastamatuks (see on [micropoint](https://fr.wikipedia.org/wiki/Micropoint) tehnika).
+![BTC204](assets/fr/170.webp)
 
-Erinevalt krüpteerimisest, mis muudab teabe ilma dekrüpteerimisvõtmeta arusaamatuks, ei muuda steganograafia teavet. Need jäävad nähtavaks. Pigem on selle eesmärk varjata salajase sõnumi olemasolu, samas kui krüptograafia paljastab selgelt varjatud teabe olemasolu, kuigi see on ilma võtmeta kättesaamatu. Seetõttu oli payjoini esialgne nimetus "steganograafilised tehingud"
+Selles suhtes kuulub payjoin-tehing steganograafia valdkonda. See võimaldab tehingu tegelikku summat varjata võltsitud tehingu sisse, mis toimib peibutusena.
 
-Analoogia võib teha krüptograafia ja coinjoin'i ning steganograafia ja payjoin'i vahel. Tegelikult on coinjoin'il sarnased omadused nagu krüptograafial: meetod on äratuntav, kuid teave on salastamatu. Seevastu payjoin on sarnane steganograafiale: teave on teoreetiliselt kättesaadav, kuid kuna selle varjamise meetod ei ole äratuntav, muutub see kättesaamatuks.
+Steganograafia on tehnika, mille abil saab teavet varjata teiste andmete või objektide sisse, nii et varjatud teabe olemasolu ei ole märgatav. Näiteks võib salajase sõnumi peita punktiga mitteseotud teksti sisse, muutes selle palja silmaga märkamatuks (see on [microdot](https://fr.wikipedia.org/wiki/Micropoint) tehnika).
+
+Erinevalt krüpteerimisest, mis muudab teabe arusaamatuks ilma dekrüpteerimisvõtmeta, ei muuda steganograafia teavet. See jääb selgeks tekstiks. Selle eesmärk on pigem varjata salajase sõnumi olemasolu, samas kui krüpteerimine paljastab selgelt varjatud teabe olemasolu, kuigi see on ilma võtmeta kättesaamatu. Seepärast oli payjoini algne nimi "steganograafilised tehingud".
+
+Krüptograafia ja coinjoin ning steganograafia ja payjoin vahel võib tõmmata analoogia. Coinjoinil on sarnased omadused nagu krüpteerimisel: meetod on äratuntav, kuid informatsioon on salastamatu. Seevastu payjoin sarnaneb steganograafiale: teave on teoreetiliselt kättesaadav, kuid kuna varjamise meetod ei ole äratuntav, muutub see kättesaamatuks.
 
 ### Kuidas kasutada payjoin'i?
 
-Tuntud tarkvara, mis toetab payjoin'i, on Sparrow Wallet, Wasabi Wallet, Mutiny, BitMask, BlueWallet ja JoinMarket, samuti BTCPay makseprotsessor.
+Tuntud tarkvaraprogrammid, mis toetavad payjoin'i, on Sparrow Wallet, Wasabi Wallet, Mutiny, BitMask, BlueWallet ja JoinMarket, samuti makseprotsessor BTCPay.
 
-Kõige arenenum rakendamine payjoin oli ainult Stowaway on Samourai rahakott. Kuid alates tarkvara asutajate sulgemisest töötab see tööriist nüüd ainult osaliselt. Stowaway eelis on see, et tegemist on täieliku ja väga lihtsasti kasutatava protokolliga, mis toetab nii payjoini vastuvõtmist kui ka saatmist. Osaliselt allkirjastatud tehinguid saab vahetada käsitsi, skaneerides mitut QR-koodi, või automaatselt Tori kaudu Sorobani kaudu. Just viimane suhtlusvõimalus ei ole praegu kasutusel.
+![BTC204](assets/fr/171.webp)
 
-Payjoini kasutamise raskuseks on selle sõltuvus kaupmehe osalusest. Kliendina on payjoini kasutamine võimatu, kui kaupmees seda ei toeta. See lisab ostu sooritamisel täiendava raskuse: mitte ainult ei ole keeruline leida kaupmehi, kes aktsepteerivad bitcoine, vaid kui otsida ka neid, kes toetavad payjoini, muutub see veelgi keerulisemaks.
+Kõige arenenum payjoin rakendamine oli ainult Stowaway Samourai rahakotis. Kuid pärast tarkvara asutajate vahistamist on see tööriist nüüdseks vaid osaliselt toimiv. Stowaway eelis on see, et tegemist on põhjaliku ja lihtsasti kasutatava protokolliga, mis toetab nii payjoini vastuvõtmist kui ka saatmist. Osaliselt allkirjastatud tehinguid saab vahetada käsitsi, skaneerides mitmeid QR-koode, või automaatselt Tori kaudu Sorobani kaudu. Viimane suhtlemisvõimalus on praegu välja lülitatud.
 
-Üheks lahenduseks võiks olla tehingustruktuuride kasutamine, mis lisavad ahelaanalüüsi mitmetähenduslikkust, ilma et see nõuaks vastuvõtja koostööd. See võimaldaks parandada maksete privaatsust, sõltumata kaupmeeste aktiivsest osalusest. Just seda uurime järgmises peatükis.
+![BTC204](assets/fr/172.webp)
+
+Payjoini kasutamise raskuseks on selle sõltuvus kaupmehe osalusest. Kliendina ei saa te payjoini kasutada, kui kaupmees seda ei toeta. See lisab ostuprotsessile veel ühe raskuse: mitte ainult ei ole raske leida kaupmehi, kes aktsepteerivad bitcoine, vaid kui otsida ka neid, kes toetavad payjoini, muutub asi veelgi keerulisemaks.
+
+Üks lahendus oleks kasutada tehingustruktuure, mis toovad ahelaanalüüsi mitmetähenduslikkust, ilma et see nõuaks vastuvõtja koostööd. See võimaldaks meil parandada maksete konfidentsiaalsust ilma kaupmeeste aktiivsele osalusele tuginemata. Just seda vaatleme järgmises peatükis.
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
-## Mini-coinjoin makse
+## Makse mini-mündiühendus
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
-Kui soovite teha maksetehinguid, säilitades samal ajal teatud privaatsust, on payjoin hea valik. Kuid nagu me nägime, nõuab payjoin vastuvõtja kaasamist. Mida siis teha, kui viimane keeldub payjoinis osalemast või kui te lihtsalt eelistate teda mitte kaasata? Üks alternatiiv on kasutada Stonewall- või Stonewall x2-tehingut. Vaatame neid kahte tüüpi tehinguid lähemalt.
+![La confidentialité sur Bitcoin](https://youtu.be/SUMLsQSytbE?feature=shared)
 
-### Stonewalli tehing
+Kui soovite sooritada maksetehingu, säilitades samal ajal teatava konfidentsiaalsuse, on payjoin hea valik. Kuid nagu me just nägime, nõuab payjoin vastuvõtja kaasamist. Mida siis teha, kui saaja keeldub payjoinis osalemast või kui te lihtsalt eelistate teda mitte kaasata? Üks alternatiiv on kasutada Stonewall- või Stonewall x2-tehingut. Vaatame neid kahte tehinguliiki lähemalt.
 
-Stonewall on konkreetne Bitcoini tehingu vorm, mille eesmärk on suurendada kasutaja privaatsust osturetke ajal, jäljendades pseudo-coinjoin'i kahe inimese vahel, kuid ilma, et see tegelikult oleks üks neist. Tegelikult ei ole see tehing ühiselt sooritatav. Kasutaja võib selle ise ehitada, kaasates sisendina ainult talle kuuluvad UTXOd. Seejärel saab luua Stonewall-tehingu mis tahes korral, ilma et oleks vaja teise kasutaja või saajaga sünkroniseerida.
+### Stonewall-tehing
 
-Stonewall-tehingu toimimine on järgmine: tehingu sisendiks kasutab saatja 2 talle kuuluvat UTXO-d. Väljundis toodab tehing 4 UTXOd, millest 2 on täpselt sama palju. Ülejäänud 2 UTXOd moodustavad ülejäänu. Neist 2 sama summa suurusest väljundist läheb tegelikult ainult üks makse saajale.
+Stonewall on Bitcoini tehingu erivorm, mille eesmärk on suurendada kasutaja konfidentsiaalsust kulutuste tegemisel, imiteerides pseudomündiühendust kahe inimese vahel, ilma et see tegelikult oleks üks. Tegelikult ei ole see tehing koostööpõhine. Kasutaja võib selle ise ehitada, kasutades sisenditena ainult talle kuuluvaid UTXOsid. Seega saate luua Stonewall-tehingu ükskõik millisel juhul, ilma et peaksite teise kasutaja või saajaga sünkroonima.
 
-Stonewall-tehingu puhul on ainult 2 rolli:
+Stonewall-tehing toimib järgmiselt: tehingu sisendina kasutab emitent 2 talle kuuluvat UTXO-d. Tehingu väljundiks on 4 UTXOd, millest 2 on täpselt sama suurused. Ülejäänud 2 UTXOd moodustavad välisvaluuta. Väljundite 2-st sama suurest summast läheb tegelikult ainult üks makse saajale.
+
+Seega on Stonewalli tehingus ainult 2 rolli:
 
 
-- Saatja, kes teeb makse;
-- Saaja, kes ei pruugi olla teadlik tehingu konkreetsest olemusest ja lihtsalt ootab saatjalt makset.
+- Emitent, kes teeb makse ;
+- Saaja, kes ei pruugi olla teadlik tehingu eripärast ja lihtsalt ootab saatjalt makset.
 
-Võtame selle tehingustruktuuri mõistmiseks näite. Alice on pagar Bobi juures, et osta oma baguette'i, mis maksab 4000 sati. Ta soovib maksta bitcoiniga, säilitades samal ajal oma makse suhtes teatud privaatsuse. Seetõttu otsustab ta maksmiseks konstrueerida Stonewall-tehingu.
+Võtame selle tehingustruktuuri mõistmiseks näite. Alice läheb pagar Bobi juurde, et osta oma baguette'i, mis maksab 4000 sati. Ta soovib maksta bitcoin'idega, säilitades samal ajal mingi konfidentsiaalsuse oma makse suhtes. Seega otsustab ta ehitada makse jaoks Stonewall-tehingu.
 
-Analüüsides seda tehingut, näeme, et pagar Bob sai tegelikult 4000 sati tasu baguette'i eest. Alice kasutas sisendina 2 UTXO-d: üks 10 000 sati ja üks 15 000 sati. Väljundina sai ta 3 UTXOd: ühe 4000 sati, ühe 6000 sati ja ühe 11 000 sati. Seega on Alice'i netosaldo selle tehingu puhul -4 000 sati, mis on täpselt sama palju kui baguette'i hind.
+![BTC204](assets/fr/173.webp)
 
-Selles näites olen arusaadavuse huvides tahtlikult jätnud kõrvale kaevandamistasud. Tegelikkuses kannab tehingutasud täielikult saatja.
+Analüüsides seda tehingut, näeme, et pagar Bob sai tegelikult 4000 sati tasu baguette'i eest. Alice kasutas sisendina 2 UTXO-d: üks 10 000 sati ja teine 15 000 sati eest. Väljunditeks on ta saanud 3 UTXOd: ühe 4000 sati eest, ühe 6000 sati eest ja ühe 11 000 sati eest. Seega on Alice'i netosaldo selle tehingu puhul -4 000 sati, mis vastab baguette'i hinnale.
+
+Selles näites olen tahtlikult jätnud kaevandamistasud välja, et muuta see arusaadavamaks. Tegelikkuses kannab tehingukulud täielikult emitent.
 
 ### Millised on Stonewall-tehingu eesmärgid?
 
-Stonewalli struktuur lisab tehingule palju entroopiat ja segab ahelanalüüsi jälgi. Väljastpoolt võib sellist tehingut tõlgendada kui kahe inimese vahelist mini-mündiühendust. Tegelikult on see aga makse. Seega tekitab see meetod ahelaanalüüsis ebakindlust või viib isegi valede jälgede tekkimiseni.
+Stonewalli struktuur lisab tehingule tohutult entroopiat, mis hägustab ahelanalüüsi piire. Väljastpoolt vaadatuna võib sellist tehingut tõlgendada kui kahe inimese vahelist mini-mündiühendust. Tegelikkuses on see aga makse. Seega tekitab see meetod ahelaanalüüsis ebakindlust või viib isegi valede juhtnöörideni.
 
-Tuleme tagasi Alice'i näite juurde Bobi pagari juures. Tehing plokiahelas näeks välja järgmiselt:
+Võtame näite Alice'i kohta pagar Bobi juures. Tehing plokiahelas näeks välja järgmiselt:
 
 ![BTC204](assets/fr/174.webp)
 
-Väline vaatleja, kes tugineb ahelanalüüsi üldisele heuristikale, võib ekslikult järeldada, et "_kaks inimest tegid väikese mündiühenduse, mille sisendiks oli üks UTXO ja väljundiks kaks UTXOd" Selle tehingu analüüs väljastpoolt ei vii sisendi ühise omandiõiguse heuristika (CIOH) kohaldamiseni, sest kahe sama suure väljundi olemasolu viitab coinjoin-mustrile. Väljastpoolt vaadatuna ei ole CIOH seega antud juhul kohaldatav.
+Väline vaatleja, kes tugineb tavalisele ahelaanalüüsi heuristikale, võib ekslikult järeldada, et "*kaks inimest on teinud väikese mündiühenduse, mille sisendiks on üks UTXO ja väljundiks kaks UTXOd*". Seda tehingut väljastpoolt analüüsides ei saa CIOH-i rakendada, sest kahe sama suure väljundi olemasolu viitab coinjoin-mustrile. Väljastpoolt vaadatuna ei ole CIOH seega sellel konkreetsel juhul kohaldatav.
 
 ![BTC204](assets/fr/175.webp)
 
-See tõlgendus on ebatäpne, sest, nagu te teate, üks UTXO saadeti Bob Bakerile, 2 UTXOd sisendiks tulid Alice'ilt ja ta sai 3 ülejäänud väljundit.
+See tõlgendus on ebatäpne, sest nagu te teate, saadeti üks UTXO pagarile Bobile, 2 UTXO sisendit tulid Alice'ilt ja ta sai tagasi 3 vahetusväljundit.
 
 ![BTC204](assets/fr/176.webp)
 
-Ja mis on Stonewalli tehingu struktuuri puhul eriti huvitav, on see, et välise vaatleja seisukohast näeb see välja täpselt nagu Stonewall x2 tehing.
+Ja mis on Stonewalli tehingu struktuuris eriti huvitav, on see, et välise vaatleja vaatepunktist sarnaneb see igati Stonewall x2 tehinguga.
 
 ### Stonewall-tehing x2
 
-Stonewall x2 on veel üks konkreetne Bitcoini tehingu vorm, mille eesmärk on samuti suurendada kasutaja privaatsust kulutuste ajal, kuid seekord koostöös kolmanda osapoolega, kes ei ole kulutustega seotud. See meetod toimib kahe osaleja vahelise pseudocoin-ühendusena, tehes samal ajal makse kolmandale osapoolele.
+Stonewall x2 on veel üks konkreetne Bitcoini tehingu vorm, mille eesmärk on samuti suurendada kasutaja konfidentsiaalsust kulutuste tegemisel, kuid seekord koostöös kolmanda isikuga, kes ei ole selles kulutuses osalenud. See meetod toimib nagu pseudocoinjoin kahe osaleja vahel, tehes samal ajal makse kolmandale isikule.
 
-Stonewall x2 tehingu toimimine on suhteliselt lihtne: makse tegemiseks kasutatakse enda valduses olevat UTXOd ja kasutatakse kolmanda isiku abi, kes samuti panustab oma UTXOd. Tehing lõpeb nelja väljundiga: kaks võrdset summat, millest üks läheb makse saaja aadressile, teine maksjale kuuluvale aadressile. Kolmas UTXO saadetakse teisele panustajale kuuluvale aadressile, mis võimaldab tal esialgset summat tagasi saada (tema jaoks neutraalne tegevus, millest on maha arvatud kaevandamistasud), ning viimane UTXO jõuab tagasi meile kuuluvale aadressile, mis moodustab ülejäänud makse.
+Stonewall x2 tehingu toimimine on suhteliselt lihtne: me kasutame makse tegemiseks enda valduses olevat UTXO-d ja võtame appi kolmanda isiku, kes samuti panustab talle kuuluva UTXO-ga. Tehingu tulemuseks on neli väljundit: kaks neist on võrdse suurusega, millest üks on mõeldud makse saaja aadressile, teine aga koostööpartnerile kuuluvale aadressile. Kolmas UTXO saadetakse tagasi teisele, koostööpartnerile kuuluvale aadressile, mis võimaldab tal saada tagasi algse summa (tema jaoks neutraalne tegevus, moduleerides kaevandamiskulusid), ning viimane UTXO saadetakse tagasi meile kuuluvale aadressile, mis moodustab makse vahetuse.
 
-Seega on Stonewall x2 tehingutes määratletud kolm erinevat rolli:
+Stonewall x2 tehingutes on seega määratletud kolm erinevat rolli:
 
 
-- Saatja, kes teeb tegeliku makse;
-- Vastuvõtja, kes ei pruugi olla teadlik tehingu eripärast ja lihtsalt ootab saatjalt makset;
-- Koostööpartner, kes annab bitcoini, et tekitada kahtlusi tehingu analüüsis, taastab oma raha täielikult lõpus (neutraalne tegevus nende jaoks, ilma kaevandamistasudeta).
+- Emitent, kes teeb tegeliku makse ;
+- Saaja, kes ei pruugi olla teadlik tehingu eripärast ja lihtsalt ootab saatjalt makset;
+- Koostööpartner, kes teeb bitcoinid kättesaadavaks, et seada kahtluse alla tehingu analüüs, saades samal ajal oma vahendid lõpus täielikult tagasi (tema jaoks neutraalne tegevus, modulo kaevandamiskulud).
 
-Tuleme tagasi meie näite juurde Alice'iga, kes on pagar Bobi juures, et osta oma baguette'i, mis maksab 4000 sati. Ta soovib maksta bitcoiniga, säilitades samal ajal oma makse suhtes teatava privaatsuse. Seega helistab ta oma sõbrale Charlesile, kes teda selles protsessis aitab.
+Tuleme tagasi meie näite juurde Alice'iga, kes on pagar Bobi juures, et osta oma baguette'i, mis maksab 4000 sati. Ta soovib maksta bitcoin'idega, säilitades samal ajal teatava konfidentsiaalsuse oma makse suhtes. Seega pöördub ta oma sõbra Charlesi poole, kes teda selles protsessis aitab.
 
 ![BTC204](assets/fr/177.webp)
 
-Analüüsides seda tehingut, näeme, et pagar Bob sai tegelikult 4000 sati tasu baguette'i eest. Alice kasutas sisendina 10 000 sati ja sai väljundina tagasi 6 000 sati, mille tulemuseks on netosaldo -4 000 sati, mis vastab baguette'i hinnale. Charles andis sisendiks 15 000 sati ja sai kaks väljundit: ühe 4000 sati ja teise 11 000 sati, mille tulemuseks on saldo 0.
+Analüüsides seda tehingut, näeme, et pagar Bob sai tegelikult 4000 sati tasu baguette'i eest. Alice kasutas sisendina 10 000 sati ja sai väljundina tagasi 6 000 sati, st netosaldo oli -4 000 sati, mis vastab baguette'i hinnale. Charles andis sisendiks 15 000 sati ja sai kaks väljundit: üks 4 000 sati ja teine 11 000 sati, mis annab saldo 0 sati.
 
-Selles näites olen tahtlikult jätnud välja komisjonid, et hõlbustada mõistmist. Tegelikkuses jagunevad kaevandamistasud üldiselt võrdselt makse väljastaja ja maksja vahel.
+Selles näites olen tahtlikult jätnud tasud välja, et asi oleks lihtsamini arusaadav. Tegelikkuses jagunevad kaevandamistasud üldiselt võrdselt makse tegija ja maksja vahel.
 
 ### Millised on Stonewall x2 tehingu eesmärgid?
 
-Sarnaselt Stonewalli struktuuriga lisab ka Stonewall x2 struktuur tehingule märkimisväärse hulga entroopiat ja varjab ahelanalüüsi jäljed. Väljastpoolt vaadatuna võiks sellist tehingut tõlgendada kui väikest mündiühendust kahe inimese vahel. Tegelikkuses on see aga makse. Seega tekitab see meetod ahelanalüüsis ebakindlust, mis viib ka valede jälgedeni.
+Sarnaselt Stonewalli struktuuriga lisab ka Stonewall x2 struktuur tehingule palju entroopiat ja ajab ahelanalüüsi segadusse. Väljastpoolt vaadatuna võib sellist tehingut tõlgendada kui kahe inimese vahelist väikest ühisliitu. Kuid tegelikkuses on see makse. Seetõttu tekitab see meetod ahelaanalüüsis ebakindlust või viib isegi valede juhtnöörideni.
 
-Vaatame üle Alice'i, pagar Bobi ja Charlesi näite. Tehing plokiahelas näeks välja järgmiselt:
+Võtame näiteks Alice'i, pagar Bobi ja Charlesi. Tehing plokiahelas näeks välja järgmiselt:
 
 ![BTC204](assets/fr/178.webp)
 
-Väline vaatleja, kes tugineb ahelanalüüsi üldisele heuristikale, võib ekslikult järeldada, et "_Alice ja Charles viisid läbi väikese coinjoini, mille sisendiks oli kummalgi üks UTXO ja väljundiks kaks UTXOd_" Jällegi, seda tehingut väljastpoolt analüüsides ei saa rakendada sisendi ühise omandiõiguse heuristikat (CIOH), sest kahe sama suure väljundi olemasolu viitab coinjoin-mustrile. Väljastpoolt vaadatuna ei ole CIOH seega antud juhul kohaldatav.
+Väline vaatleja, kes tugineb tavalisele ahelaanalüüsi heuristikale, võib ekslikult järeldada, et "*Alice ja Charles on teinud väikese coinjoini, mille sisendiks on üks UTXO ja väljundiks kaks UTXOd*". Jällegi, analüüsides seda tehingut väljastpoolt, ei viita ICOH kohaldamine, sest kahe sama suure väljundi olemasolu viitab coinjoin-mustrile. Väljastpoolt vaadatuna ei ole CIOH seega antud konkreetsel juhul kohaldatav.
 
 ![BTC204](assets/fr/179.webp)
 
-See tõlgendus on ebatäpne, sest nagu te teate, saadeti üks UTXO Bakerile Bobile, Alice'il on ainult üks puhkeallikas ja Charlesil on kaks.
+See tõlgendus on vale, sest nagu te teate, on üks UTXO saadetud pagarile Bobile, Alice'il on ainult üks vahetusväljund ja Charlesil on kaks vahetusväljundit.
 
 ![BTC204](assets/fr/180.webp)
 
-Ja jällegi, mis on Stonewall x2 tehingu struktuuri puhul eriti huvitav, on see, et välise vaatleja seisukohast näeb see välja täpselt nagu Stonewalli tehing.
+Ja veel kord, mis on Stonewall x2 tehingu struktuuris eriti huvitav, on see, et välise vaatleja vaatepunktist sarnaneb see igati Stonewalli tehinguga.
 
 ### Mis vahe on Stonewalli ja Stonewall x2 vahel?
 
-StonewallX2-tehing toimib täpselt nagu Stonewall-tehing, ainult et esimene on koostööl põhinev, teine aga mitte. Nagu me nägime, osaleb StonewallX2-tehingus kolmas osapool (Charles), kes on makse suhtes väline ja kes annab oma bitcoinid, et suurendada tehingu konfidentsiaalsust. Klassikalise Stonewall-tehingu puhul võtab panustaja rolli üle saatja.
+StonewallX2-tehing toimib täpselt nagu Stonewall-tehing, ainult et esimene on koostöövõimalus, teine aga mitte. Nagu me nägime, osaleb StonewallX2-tehingus kolmas osapool (Charles), kes on makse suhtes väline ja kes teeb oma bitcoinid kättesaadavaks, et suurendada tehingu konfidentsiaalsust. Klassikalise Stonewall-tehingu puhul võtab koostööpartneri rolli üle saatja.
 
 ![BTC204](assets/fr/181.webp)
 
-Väliselt vaadatuna on tehingumudel seega täpselt sama.
+Väliselt vaadatuna on tehingumuster täpselt sama.
 
-Asjaolu, et need kaks tehingustruktuuri jagavad täpselt sama mustrit, tähendab, et isegi kui väline vaatleja suudab tuvastada "Stonewall(x2)" mustri, ei ole tal kogu teave olemas. Ta ei suuda kindlaks teha, milline kahest samade summade UTXOst vastab maksele. Samuti ei suuda ta kindlaks teha, kas kaks sisestatud UTXOd pärinevad kahelt erinevalt inimeselt (Stonewall x2) või kuulusid nad ühele ja samale isikule, kes neid ühendas (Stonewall).
+![BTC204](assets/fr/182.webp)
 
-Viimane punkt tuleneb asjaolust, et Stonewall x2 tehingud järgivad täpselt sama skeemi kui Stonewall tehingud. Väljastpoolt ja ilma täiendava kontekstiteabeta on võimatu eristada Stonewall-tehingut Stonewall x2-tehingust. Siiski ei ole esimesed tehingud koostöövõimalused, samas kui viimased on. See lisab ühe sellise tehingu analüüsile veelgi rohkem kahtlusi.
+Asjaolu, et need kaks tehingustruktuuri jagavad täpselt sama mustrit, tähendab, et isegi kui välise vaatleja suudab tuvastada "Stonewall(x2)" mustri, ei ole tal kogu teave olemas. Ta ei suuda kindlaks teha, milline kahest samade summade UTXOst vastab maksele. Peale selle ei saa ta kindlaks teha, kas kaks UTXOd koos sisenditega pärinevad kahelt erinevalt inimeselt (Stonewall x2) või kuuluvad nad ühele isikule, kes on neid ühendanud (Stonewall).
 
-### Millal kasutada Stonewall ja Stonewall x2 tehinguid?
+Viimane punkt tuleneb asjaolust, et Stonewall x2 tehingud järgivad täpselt sama skeemi kui Stonewall tehingud. Väljastpoolt vaadatuna ja ilma täiendava kontekstilise teabeta on võimatu eristada Stonewall-tehingut Stonewall x2-tehingust. Esimesed ei ole koostööga seotud tehingud, samas kui viimased on koostööga seotud tehingud. See lisab ühe sellise tehingu analüüsile veelgi rohkem kahtlusi.
 
-Loogika peaks olema järgmine, kui soovite kasutada privaatsusvahendit tehingu jaoks:
+### Millal tuleks kasutada Stonewall ja Stonewall x2 tehinguid?
+
+Loogika peaks olema järgmine, kui soovite kasutada konfidentsiaalsusvahendit kulude jaoks:
 
 
-- Esmajärjekorras saate valida, kas soovite teha tasulise liitumise;
+- Prioriteedina saame valida, kas teha tasuline liitumine;
 - Kui kaupmees ei toeta payjoins'i, saab teha ühistehingu teise isikuga väljaspool makset, kasutades Stonewall x2 struktuuri;
-- Kui te ei leia kedagi, kellega Stonewall x2 tehingut teha, võite ise teha Stonewall-tehingu, mis imiteerib Stonewall x2 tehingu käitumist.
+- Kui te ei leia kedagi Stonewall x2 tehingu tegemiseks, võite teha ainult Stonewall tehingu, mis imiteerib Stonewall x2 tehingu käitumist.
 
 ### Kuidas kasutada Stonewall ja Stonewall x2 tehinguid?
 
-Stonewall ja Stonewall x2 tehingud on saadaval nii Samourai Walleti rakenduses kui ka Sparrow Walleti tarkvaras.
+Stonewall ja Stonewall x2 tehingud on saadaval nii Samourai Wallet'i rakenduses kui ka Sparrow Wallet'i tarkvaras.
 
-Kuid nagu ka Payjoini puhul, toimivad Stonewall x2 tehingud pärast Samourai asutajate vahistamist nüüd ainult käsitsi PSBT-de vahetamise teel osapoolte vahel. Automaatne vahetamine Sorobani kaudu ei ole hetkel kahjuks võimalik.
+![BTC204](assets/fr/183.webp)
 
-Seda tüüpi tehinguid saab teha ka käsitsi mis tahes Bitcoini rahakoti tarkvarast.
+Kuid nagu ka payjoins'i puhul, toimivad Stonewall x2 tehingud pärast Samourai asutajate vahistamist nüüd ainult asjaomaste osapoolte vahel käsitsi PSBTde vahetamise teel. Kahjuks ei ole automaatne vahetamine Sorobani kaudu enam võimalik.
 
-Järgmises peatükis uurime lisaks juba uuritud tehnikale veel üht suhteliselt tundmatut, kuid väga kasulikku privaatsustehnikat.
+Seda tüüpi tehinguid on võimalik teha ka käsitsi mis tahes Bitcoini rahakoti tarkvarast.
+
+Järgmises peatükis vaatleme veel üht konfidentsiaalsustehnikat, mis on suhteliselt tundmatu, kuid mis on väga kasulik täienduseks sellele, mida oleme juba uurinud.
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
-## Reboundid
+## Ritsikad
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
-Bitcoini tehingustruktuuride kasutamine, mis lisavad ahela analüüsis ebaselgust, nagu näiteks coinjoin, on eriti kasulik privaatsuse kaitsmiseks. Kuid nagu me arutasime payjoini peatükis, on coinjoini tehingud ahelas loomulikult tuvastatavad. Tuletage meelde analoogiat, mille me krüptograafia ja coinjoin'ide vahel kindlaks tegime: kui faili krüpteeritakse, ei saa kolmas isik, kes avastab selle krüpteeritud faili, selle sisule ligi, kuid ta saab selgelt tuvastada, et faili on muudetud, et selle sisu varjata. Sama kehtib ka coinjoini puhul: kui analüütik uurib coinjoini tehingut, siis isegi kui ta ei suuda tuvastada otseseid seoseid sisendite ja väljundite vahel (ja vastupidi), saab ta siiski tuvastada, et vaadeldav tehing on coinjoin.
+![La confidentialité sur Bitcoin](https://youtu.be/TfOsnqXtJ8g?feature=shared)
 
-Sõltuvalt mündi kasutusotstarbest pärast mündiühendust võib selle protsessi läbimine olla problemaatiline. Näiteks kui te kavatsete müüa oma mündi reguleeritud vahetusplatvormil, kuid see on hiljuti läbinud coinjoini, tuvastab platvormi ahelaanalüüsi tööriist selle asjaolu. Platvorm võib siis keelduda teie UTXO-d, mis on läbinud coinjoini, vastu võtmast või isegi nõuda teilt selgitusi, millega kaasneb oht, et teie konto peatatakse või raha külmutatakse. Mõnel juhul võib platvorm teatada teie käitumisest ka riigiasutustele (näiteks nõuab seda TRACFIN Prantsusmaal digitaalsete varade teenusepakkujatelt (PSAN)).
+Bitcoini tehingustruktuuride kasutamine, mis lisavad ahela analüüsile ebaselgust, nagu näiteks coinjoin, on eriti kasulik privaatsuse kaitsmiseks. Kuid nagu me arutasime payjoini peatükis, on coinjoini tehingud ahelas loomulikult tuvastatavad. Tuletage meelde analoogiat, mille me tõime krüpteerimise ja coinjoini vahel: kui fail on krüpteeritud, ei pääse kolmas isik, kes avastab krüpteeritud faili, selle sisule ligi, kuid saab selgelt tuvastada, et faili on muudetud selle sisu varjamiseks. Sama kehtib ka coinjoini kohta: kui analüütik uurib coinjoini tehingut, siis kuigi ta ei saa tuvastada otseseid seoseid sisendite ja väljundite vahel (ja vastupidi), saab ta siiski tuvastada, et vaadeldav tehing on coinjoin.
 
-Selle vältimiseks oleks vaja vahendit, mis suudaks Bitcoini mündi mineviku jäljed hägustada, et taastada mingi vahetatavus. Just see ongi rikošeti eesmärk.
+Sõltuvalt sellest, kuidas te kavatsete oma detaili pärast koosliitmist kasutada, võib asjaolu, et see on selle protsessi läbinud, olla problemaatiline. Näiteks kui te kavatsete müüa oma mündi reguleeritud vahetusplatvormil, kuid see on hiljuti läbinud coinjoini, tuvastab platvormi ahelaanalüüsi tööriist selle asjaolu. Platvorm võib siis keelduda teie coinjoined UTXO-d vastu võtmast või isegi nõuda teilt selgitust, millega kaasneb oht, et teie konto peatatakse või teie raha külmutatakse. Mõnel juhul võib platvorm teatada teie käitumisest ka riigiasutustele (seda nõuab näiteks TRACFIN Prantsusmaal PSAN-ilt).
+
+![BTC204](assets/fr/184.webp)
+
+Selle vältimiseks on vaja vahendit, mis suudaks Bitcoini mündi mineviku jäljed hägustada, et taastada mingi vorm asendatavust. Just see ongi rikošeti eesmärk.
+
+![BTC204](assets/fr/185.webp)
 
 ### Mis on rikošett?
 
-Ricochet on tehnika, mis hõlmab mitme fiktiivse tehingu sooritamist iseendale (pühkimine), et simuleerida bitcoinide omandiõiguse üleandmist. See vahend erineb teistest käsitletud tehingustruktuuridest, sest see ei võimalda prospektiivset anonüümsust, vaid pigem tagantjärele anonüümsust. Tegelikult võimaldab ricochet hägustada erisusi, mis võivad ohustada bitcoini mündi vahetatavust selle mineviku tõttu.
+Rikošet on tehnika, mis seisneb mitme fiktiivse tehingu sooritamises enda suhtes (sweep), et simuleerida bitcoini omandiõiguse üleandmist. See vahend erineb teistest käsitletud tehingustruktuuridest selle poolest, et sellega ei saavutata mitte tulevikku suunatud anonüümsust, vaid pigem tagantjärele suunatud anonüümsuse vormi. Tegelikult hägustab ricochet erisused, mis võivad mineviku tõttu ohustada Bitcoini mündi vahetatavust.
 
-Selleks, et hägustada müntidele minevikus toimunud sündmuse, näiteks mündiühendustsüklite, jäetud jäljendit, teostab ricochet neli järjestikust tehingut, mille käigus kasutaja kannab endale raha üle erinevatel aadressidel.
+Selleks, et tasandada müntidele minevikus toimunud sündmuse, näiteks mündiühendustsüklite, poolt jäetud jälgi, teostab ricochet neli järjestikust tehingut, mille käigus kasutaja kannab endale raha üle erinevatel aadressidel.
 
-Pärast seda tehingute jada suunab ricochet tööriist bitcoinid lõpuks nende lõppsihtkohta kui vahetusplatvormi.
+![BTC204](assets/fr/186.webp)
 
-Eesmärk on luua vahemaa, mis mõjutab mündi vahetatavust, näiteks mündiühendustehingu ja lõpliku kulutuse, mis võib selle mündi mineviku tõttu tagasi lükata. Seega võivad ahelanalüüsi vahendid järeldada, et tõenäoliselt toimus pärast sündmust omanikuvahetus, ja pidada seda münti asendatavaks. Coinjoini puhul võiksid ahelanalüüsi tööriistad seejärel eeldada, et tegemist ei ole sama isikuga, kes bitcoinid saatis ja coinjoini teostas, ning seega on mõttetu algatada meetmeid saatja vastu.
+Pärast seda tehingute jada suunab ricochet tööriist bitcoinid lõpuks nende lõppsihtkohta, näiteks vahetusplatvormile.
+
+![BTC204](assets/fr/187.webp)
+
+Eesmärgiks on luua distants, mis mõjutab mündi vahetatavust, näiteks mündiühendustehing, ja lõplikku kulutustehingut, mis võib selle mündi mineviku tõttu tagasi lükata. Seega võivad ahelanalüüsi vahendid järeldada, et tõenäoliselt toimus pärast sündmust omanikuvahetus, ja pidada seda münti asendatavaks. Coinjoin'i puhul võiksid plokiahela analüüsivahendid siis eeldada, et see ei olnud sama isik, kes bitcoinid saatis ja coinjoin'i teostas, ning et seetõttu ei ole mõtet saatja vastu meetmeid võtta.
+
+![BTC204](assets/fr/188.webp)
 
 ### Miks see toimib?
 
-Sellise rikošeti meetodi puhul võiks ette kujutada, et ahelate analüüsi tarkvara süvendaks nende uurimist kaugemale kui neli hüpet. Siiski seisavad need platvormid avastamislävendi optimeerimisel dilemma ees. Nad peavad seadma piiri hüppete arvule, mille järel nad tunnistavad, et tõenäoliselt on toimunud omanikuvahetus ja et seos varasema sündmusega (nt coinjoin) tuleks ignoreerida.
+Sellise rikošeti meetodi puhul võiks arvata, et ahelanalüüsi tarkvara süvendaks oma uuringut nelja põrgatuse järel. Siiski seisavad need platvormid avastamislävendi optimeerimisel dilemma ees. Nad peavad seadma piiri hüppete arvule, mille järel nad aktsepteerivad, et tõenäoliselt on toimunud omaduste muutus ja et seos varasema sündmusega (näiteks coinjoin) tuleks ignoreerida.
 
-Selle lävendi kindlaksmääramine osutub siiski riskantseks: iga vaadeldava vahelejäämiste arvu pikendamine suurendab eksponentsiaalselt valepositiivsete andmete hulka, st isikuid, kes on valesti märgitud sündmuses osalejateks, kuigi tehingu sooritas keegi teine. See stsenaarium kujutab endast suuremat riski nendele ettevõtetele, kuna valepositiivsed tulemused põhjustavad rahulolematust, mis võib mõjutada kliente konkurentide poole. Pikemas perspektiivis viib liiga suur tuvastamise künnis selleni, et platvorm kaotab rohkem kliente kui tema konkurendid, mis võib ohustada tema püsimajäämist. Seetõttu on nende platvormide jaoks keeruline suurendada täheldatud hüpete arvu ja 4 on sageli piisav arv, et nende analüüsile vastu astuda.
+![BTC204](assets/fr/189.webp)
 
-Siin täheldatud nähtus on mõnevõrra analoogne kuue eraldusastme teooriale.
+Selle künnise kehtestamine on siiski riskantne: iga vaadeldud hüppete arvu suurenemine suurendab eksponentsiaalselt valepositiivsete tulemuste hulka, st isikuid, kes on ekslikult märgitud sündmuses osalejateks, kuigi tegelikult on toimingu sooritanud keegi teine. See stsenaarium kujutab endast suurt ohtu nendele ettevõtetele, sest valepositiivsed juhtumid põhjustavad rahulolematust, mis võib mõjutada kliente konkurentide poole. Pikemas perspektiivis viib liiga kõrge tuvastamise künnis selleni, et platvorm kaotab rohkem kliente kui tema konkurendid, mis võib ohustada tema elujõulisust. Seetõttu on nende platvormide jaoks keeruline suurendada täheldatud tagasilöökide arvu ja 4 on sageli piisav arv, et nende analüüside vastu võidelda.
 
-Kuue eraldusastme teooria kohaselt on iga inimene Maal seotud iga teisega teadmiste ahela kaudu, mis hõlmab mitte rohkem kui kuus vahendajat. Piisab, kui läbida kuus inimest, kellest igaüks tunneb järgmist isiklikult, et jõuda ükskõik millise inimeseni maailmas.
+Siin täheldatud nähtus on mõnevõrra analoogne kuue eraldusastme teooriaga.
 
-Bitcoini tehingute puhul on sarnane nähtus. Jälgides piisaval arvul Bitcoini tehinguid, satutakse paratamatult coinjoin'ile. Ricochet-meetod kasutab seda põhimõtet ära, kasutades rohkem hüppeid, kui vahetusplatvormid suudavad mõistlikult jälgida. Kui platvormid otsustavad jälgida rohkem tehinguid, siis on võimalik lihtsalt lisada täiendav hüpe, et sellest meetmest mööda minna.
+Kuue eraldusastme teooria kohaselt on iga inimene Maal seotud iga teise inimesega suhete ahelaga, mis koosneb maksimaalselt kuuest vahendajast. Seega piisab, kui läbida kuus inimest, kellest igaüks tunneb isiklikult järgmist, et jõuda mis tahes üksikisikuni maailmas.
+
+Bitcoini tehingute puhul leiame sarnase nähtuse. Jälgides piisaval arvul Bitcoini tehinguid, satume paratamatult coinjoini. Ricochet-meetod kasutab seda põhimõtet ära, kasutades suuremat arvu hüppeid, kui vahetusplatvormid suudavad mõistlikult jälgida. Kui platvormid otsustavad jälgida rohkem tehinguid, siis on võimalik sellest meetmest kõrvalehoidmiseks lihtsalt lisada üks lisahüpe.
 
 ### Millal ja kuidas kasutada rikošetti?
 
-Kõige tavalisem rikošeti kasutusjuhtum on see, kui on vaja varjata varasemat osalemist UTXOs, mis on teie omanduses, toimunud mündiühenduses. Ideaalis on kõige parem vältida coinjoini läbinud bitcoinide ülekandmist reguleeritud üksustele. Juhul, kui keegi leiab, et tal puuduvad muud võimalused, eriti kui on vaja bitcoinid kiiresti fiat-valuutaks likvideerida, pakub ricochet siiski tõhusat lahendust.
+Kõige sagedamini kasutatakse rikošetti siis, kui on vaja varjata varasemat osalemist UTXOs, mis on sinu omanduses, toimunud mündiühenduses. Ideaalis on kõige parem vältida coinjoini läbinud bitcoinide ülekandmist reguleeritud üksustele. Sellele vaatamata, juhul kui teil ei ole muud võimalust, eriti kui teil on hädasti vaja bitcoinid riigi vääringus likvideerida, pakub ricochet tõhusat lahendust.
 
-See meetod on tõhus mitte ainult mündiühenduste puhul, vaid ka mis tahes muude märkide puhul, mis võivad ohustada mündi vahetatavust.
+See meetod on tõhus mitte ainult koosliidete puhul, vaid ka mis tahes muude märkide puhul, mis võivad kahjustada detaili asendatavust.
 
-Selle rikošeti meetodi idee pärineb algselt Samourai Wallet'i meeskonnalt, kes integreeris selle oma rakendusse, et automatiseerida protsessi. Samourai teenus on tasuline, kuna rikošeti eest tuleb lisaks kaevandamistasudele maksta 100 000 sati teenustasu. Seetõttu on selle kasutamine pigem soovitatav märkimisväärsete summade ülekannete puhul.
+Selle rikošeti meetodi idee pärineb algselt Samourai Wallet'i meeskonnalt, kes integreeris selle oma rakendusse, et automatiseerida protsessi. Teenus ei ole Samourai jaoks tasuta, sest rikošeti eest tuleb maksta 100 000 sati teenustasu, millele lisanduvad kaevandamiskulud. Seetõttu on selle kasutamine soovitatav märkimisväärsete summade ülekannete puhul.
 
-Samourai rakendus pakub kahte varianti rikošetist:
+![BTC204](assets/fr/190.webp)
+
+Samurai rakendus pakub kahte rikošeti varianti:
 
 
-- Täiustatud rikošett ehk "etapiviisiline tarne", mille eeliseks on Samourai teenustasude jaotamine viie järjestikuse tehingu peale. See võimalus tagab ka selle, et iga tehing edastatakse eraldi ajal ja salvestatakse erinevas plokis, mis võimaldab jäljendada võimalikult täpselt omaniku vahetuse käitumist. Kuigi see meetod on aeglasem, on see eelistatav neile, kes ei kiirusta, sest see maksimeerib rikošeti tõhusust, tugevdades selle vastupidavust ahelanalüüsile;
-- Klassikaline rikošet, mis on mõeldud operatsiooni kiireks teostamiseks, edastades kõik tehingud lühikese aja jooksul. Seetõttu pakub see meetod vähem privaatsust ja vähem vastupidavust analüüsile kui täiustatud meetod. Seda tuleks kasutada ainult kiireloomuliste esitamiste puhul.
+- Tugevdatud rikošett ehk "astmeline tarne", mille eeliseks on Samurai teenustasude jaotamine viie järjestikuse tehingu peale. See võimalus tagab ka selle, et iga tehing edastatakse eraldi ajal ja salvestatakse erinevas plokis, jäljendades võimalikult täpselt omaniku vahetuse käitumist. Kuigi see meetod on aeglasem, on see eelistatav neile, kes ei kiirusta, sest see maksimeerib rikošeti tõhusust, tugevdades selle vastupidavust ahelanalüüsile;
 
-Recochet seisneb lihtsalt bitcoini saatmises endale. On täiesti võimalik teha ricochet käsitsi mis tahes rahakoti tarkvaraga, ilma spetsiaalset tööriista kasutamata. Lihtsalt kandke sama münt endale hiljem üle, kasutades iga kord uut tühja aadressi.
+![BTC204](assets/fr/191.webp)
 
-Järgnevas peatükis uurime mitmeid salajase omandi üleandmise meetodeid. Need meetodid erinevad radikaalselt seni uuritud meetoditest nii nende tööpõhimõtete kui ka tulemuste poolest.
+
+- Klassikaline rikošett, mis on mõeldud operatsiooni kiireks teostamiseks, edastades kõik tehingud lühendatud ajavahemiku jooksul. Seetõttu pakub see meetod vähem konfidentsiaalsust ja vähem vastupidavust analüüsile kui tugevdatud meetod. Seda tuleks kasutada ainult kiireloomuliste saadetiste puhul.
+
+![BTC204](assets/fr/192.webp)
+
+Ricocheting tähendab lihtsalt bitcoinide saatmist endale. On täiesti võimalik rikošeti bitcoine käsitsi mis tahes rahakoti tarkvaraga, ilma spetsiaalset tööriista kasutamata, rikošeti saata. Kõik, mida sa pead tegema, on sama mündi järjestikune ülekandmine endale, kasutades iga kord uut, tühja aadressi.
+
+Järgmises peatükis vaatleme erinevaid salajase omandiõiguse ülemineku tehnikaid. Need meetodid erinevad radikaalselt seni vaadeldud meetoditest nii toimimise kui ka tulemuste poolest.
 
 https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
-## Salajased kinnisvaraülekanded
+## Salajane omandiõiguse üleminek
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
-Bitcoini privaatsustehnikate hulka kuulub ka salajane omandiõiguse üleandmine. Selle meetodi eesmärk on bitcoinide omandiõiguse ülekandmine ühelt isikult teisele ja vastupidi, ilma et see tehing oleks plokiahelas selgelt nähtav. Uurime koos erinevaid olemasolevaid tehnikaid ning nende eeliseid ja puudusi.
+![La confidentialité sur Bitcoin](https://youtu.be/zfl5c5yeoTk?feature=shared)
 
-### CoinSwap
+Teine Bitcoini konfidentsiaalsusmeetod on salajane omandiõiguse üleandmine. Selle meetodi eesmärk on kanda Bitcoine ühelt inimeselt teisele ja vastupidi üle, ilma et tehing oleks plokiahelas selgelt nähtav. Vaatleme erinevaid olemasolevaid tehnikaid koos nende eeliste ja puudustega.
 
-CoinSwap põhineb suhteliselt lihtsal kontseptsioonil: see kasutab arukaid lepinguid, et hõlbustada bitcoinide omandiõiguse ülekandmist kahe kasutaja vahel, ilma et oleks vaja usaldust ja ilma et see ülekanne oleks plokiahelas selgelt nähtav.
+### Müntide vahetamine
 
-Kujutame ette lihtsustatud näidet Alice'i ja Bobiga. Alice'il on 1 BTC, mis on kaitstud privaatvõtmega $A$, ja Bobil on samuti 1 BTC, mis on kaitstud privaatvõtmega $B$. Teoreetiliselt võiksid nad salajase ülekande tegemiseks vahetada oma isiklikke võtmeid välise sidekanali kaudu.
+Coinwap põhineb suhteliselt lihtsal kontseptsioonil: see kasutab arukaid lepinguid, et hõlbustada bitcoinide omandiõiguse ülekandmist kahe kasutaja vahel, ilma et oleks vaja usaldust ja ilma et see ülekanne oleks plokiahelas selgelt nähtav.
 
-Selline naiivne meetod kujutab endast siiski suurt riski usalduse osas. Mitte miski ei takista Alice'il pärast vahetust $A$ privaatvõtme koopiat hoida ja seda hiljem bitcoinide varastamiseks kasutada, kui võti on Bobi valduses.
+![BTC204](assets/fr/193.webp)
 
-Lisaks ei ole mingit garantiid, mis takistaks Alice'il saada Bobi privaatvõtit $B$ ja mitte kunagi saata vastutasuks oma privaatvõtit $A$. Seega põhineb see andmevahetus osapoolte vahelisel ülemäärasel usaldusel ja osutub ebatõhusaks, et tagada salajane omandiõiguse üleandmine turvalisel viisil.
+Kujutleme naiivset näidet Alice'i ja Bobiga. Alice'il on 1 BTC, mis on kaitstud privaatvõtmega $A$, ja Bobil on samuti 1 BTC, mis on kaitstud privaatvõtmega $B$. Nad võiksid teoreetiliselt vahetada oma isiklikke võtmeid välise sidekanali kaudu, et teostada salajane ülekanne.
 
-Nende probleemide lahendamiseks ja selleks, et võimaldada vahetusi selliste osapoolte vahel, kes üksteist ei usalda, saame kasutada hoopis arukaid lepingusüsteeme. Arukas leping on programm, mis käivitub automaatselt, kui eelnevalt määratletud tingimused on täidetud, mis meie puhul tagab, et vara vahetamine toimub automaatselt, ilma et oleks vaja vastastikust usaldust.
+![BTC204](assets/fr/194.webp)
 
-Selleks võime kasutada HTLC (_Hash Time-Locked Contracts_) või PTLC (_Point Time-Locked Contracts_). Need kaks protokolli töötavad sarnaselt, kasutades ajalukustussüsteemi, mis tagab, et vahetus on edukalt lõpetatud või täielikult tühistatud, kaitstes seega mõlema osapoole vahendite terviklikkust. Peamine erinevus HTLC ja PTLC vahel seisneb selles, et HTLC-d kasutavad tehingu kindlustamiseks hashes'e ja eelkujutisi, PTLC-d aga Adaptive Signatures'e.
+Selline naiivne meetod kujutab endast siiski suurt riski usalduse osas. Mitte miski ei takista Alice'i, kes hoiab pärast vahetust $A$ privaatvõtme koopiat ja kasutab seda hiljem bitcoinide varastamiseks, kui võti on Bobi käes.
 
-CoinSwap stsenaariumis, kus kasutatakse HTLC või PTLC abil Alice'i ja Bobi vahel, toimub vahetus turvaliselt: kas see õnnestub ja kumbki saab teise BTC, või ebaõnnestub ja kumbki jätab oma BTC endale. Seega ei saa kumbki osapool petta ega varastada teise BTC-d.
+![BTC204](assets/fr/195.webp)
 
-> hTLC-d on ka mehhanism, mida kasutatakse maksete turvaliseks suunamiseks Lightning Networki kahesuunaliste kanalite kaudu
-> Kohandatavate allkirjade kasutamine on selles kontekstis eriti huvitav, kuna see võimaldab traditsioonilisi skripte vältida (seda mehhanismi nimetatakse mõnikord "_skriptideta skriptideks_"). See funktsioon aitab vähendada vahetusega seotud tasusid. Adaptive Signatures'i teine oluline eelis on see, et nad ei nõua tehingu mõlema poole jaoks ühise hash'i kasutamist, vältides seega teatud tüüpi vahetuste puhul otsese seose paljastamist.
-### Kohanduvad allkirjad
+Lisaks ei ole mingit garantiid, et Alice ei saa Bobi privaatvõtit $B$ ja ei anna selle eest kunagi edasi oma privaatvõtit $A$. Seetõttu sõltub see vahetus osapoolte vahelisest liigsest usaldusest ja on ebatõhus, et tagada turvaline salajane omandiõiguse üleandmine.
 
-Kohanduvad allkirjad on krüptograafiline meetod, mis ühendab kehtiva allkirja täiendava allkirjaga, mida nimetatakse "_kohanduvaks allkirjaks_", et paljastada salajane andmestik. See mehhanism on kavandatud nii, et kolme järgmise elemendi - kehtiva allkirja, adaptiivse allkirja ja saladuse - teadmine võimaldab tuletada kolmanda puuduva elemendi. Selle meetodi huvitav omadus on see, et kui me teame oma vastaspoole adaptiivset allkirja ja konkreetset punkti elliptilisel kõveral, mis on seotud selle adaptiivse allkirja arvutamiseks kasutatud saladusega, saame tuletada oma adaptiivse allkirja, mis on kooskõlas sama saladusega, ilma et meil oleks otsene juurdepääs saladusele endale.
+![BTC204](assets/fr/196.webp)
 
-Mündivahetuses võimaldab kohanduvate allkirjade kasutamine kahe tundliku teabe üheaegset avalikustamist osalejate vahel, vältides seega vajadust vastastikuse usalduse järele. Võtame selle protsessi illustreerimiseks näite Alice'i ja Bobiga, kes soovivad vahetada kumbki 1 BTC omanikuks, kuid ei usalda teineteist. Nad kasutavad Adaptive Signatures'i, et kaotada selle vahetuse puhul vajadus usalduse järele. Nad toimivad järgmiselt:
+Nende probleemide lahendamiseks ja üksteist mitte usaldavate osapoolte vahelise vahetuse võimaldamiseks kasutame hoopis arukaid lepingusüsteeme. Nutikas leping on programm, mis käivitub automaatselt, kui eelnevalt määratletud tingimused on täidetud. Meie puhul tagab see, et vara vahetamine toimub automaatselt, ilma et oleks vaja vastastikust usaldust.
+
+Seda on võimalik saavutada HTLC (*Hash Time-Locked Contracts*) või PTLC (*Point Time-Locked Contracts*) abil. Need kaks protokolli toimivad sarnaselt, kasutades ajalukustussüsteemi, mis tagab, et vahetus kas lõpetatakse edukalt või tühistatakse täielikult, kaitstes seega mõlema osapoole vahendite terviklikkust. Peamine erinevus HTLC ja PTLC vahel seisneb selles, et HTLC kasutab tehingu kindlustamiseks hash'e ja eelkujutisi, PTLC aga Adaptor-allkirju.
+
+Mündivahetuse stsenaariumis, kus kasutatakse HTLC või PTLC abil Alice'i ja Bobi vahel, toimub vahetus turvaliselt: kas see õnnestub ja kumbki saab teise BTC, või ebaõnnestub ja kumbki jätab oma BTC endale. See muudab võimatuks, et kumbki osapool saaks petta või teise BTC-d varastada.
+
+> *HTLC on ka mehhanism, mida kasutatakse maksete turvaliseks suunamiseks Lightning Networki kahesuunaliste kanalite kaudu*
+Adaptori allkirjade kasutamine on selles kontekstis eriti huvitav, kuna see võimaldab loobuda traditsioonilistest skriptidest (mehhanism, mida mõnikord nimetatakse "skriptideta skriptideks"). See funktsioon vähendab vahetusega seotud kulusid. Teine oluline eelis on see, et Adaptor-allkirjade puhul ei ole vaja kasutada mõlema tehingu osapoole ühist hash'i, mistõttu ei ole vaja teatavat tüüpi vahetuste puhul nende vahelist otsest seost avaldada.
+
+### Adaptori allkirjad
+
+Adaptiivsed allkirjad on krüptograafiline meetod, mis ühendab kehtiva allkirja täiendava allkirjaga, mida nimetatakse "_adaptiivseks allkirjaks_", et paljastada salajased andmed. See mehhanism on kavandatud nii, et kolme järgmise elemendi - kehtiva allkirja, adapterallkirja ja saladuse - teadmine võimaldab järeldada puuduvat kolmandat elementi. Selle meetodi huvitav omadus on see, et kui me teame meie vastaspoole adapteri allkirja ja konkreetset punkti elliptilisel kõveral, mis on seotud selle adapteri allkirja arvutamiseks kasutatud saladusega, saame tuletada omaenda adapteri allkirja, mis on kooskõlas sama saladusega, ilma et meil oleks otsene juurdepääs saladusele endale.
+
+Mündivahetuse puhul võimaldab adaptori allkirja kasutamine kahe tundliku teabe üheaegset avalikustamist osalejate vahel, vältides seega vajadust vastastikuse usalduse järele. Võtame selle protsessi illustreerimiseks näite Alice'i ja Bobiga, kes soovivad vahetada kumbki 1 BTC valdust, kuid ei usalda teineteist. Nad kasutavad Adaptori allkirju, et kaotada vajadus üksteise usaldamise järele selles vahetuses. Nad teevad seda järgmiselt:
 
 
-- Alice algatab vahetuse, luues tehingu $m_A$, mis saadab Bobile 1 BTC. Ta genereerib allkirja $s_A$, mis kinnitab selle tehingu, kasutades oma isiklikku võtit $p_A$ ($P_A = p_A \cdot G$), nonce $n_A$ ($N_A = n_A \cdot G$) ja saladust $t$ ($T = t \cdot G$):
+- Alice algatab vahetuse, luues $m_A$ tehingu, mis saadab 1 BTC Bobile. Ta genereerib allkirja $s_A$, mis kinnitab selle tehingu, kasutades oma privaatvõtit $p_A$ ($P_A = p_A \cdot G$), nonce $n_A$ ($N_A = n_A \cdot G$) ja salajase $t$ ($T = t \cdot G$) :
 
 $$s_A = n_A + t + H(N_A + T \paralleel P_A \paralleel m_A) \cdot p_A$$$
 
 
-- Alice arvutab adaptiivse allkirja $s_A'$, lahutades salajase $t$ tema tegelikust allkirjast $s_A$:
+- Alice arvutab adapteri allkirja $s_A'$, lahutades oma tegelikust allkirjast $s_A$ salajase $t$ :
 
 $$s_A' = s_A - t$$$
 
 
-- Alice saadab Bobile oma adaptiivse allkirja $s'_A$, oma allkirjastamata tehingu $m_A$, punkti, mis vastab saladusele ($T$), ja punkti, mis vastab nonce'ile ($N_A$). Need elemendid moodustavad nn "_adapteri_" Oluline on märkida, et ainult selle teabega ei saa Bob Alice'i BTC-d kätte.
-- Bobil on aga võimalus kontrollida, et Alice ei ürita temalt midagi varastada. Selleks kontrollib ta, kas Alice'i kohanduv allkiri $s_A'$ vastab tegelikult kavandatavale tehingule $m_A$. Kui järgmine võrrand on õige, võib ta olla kindel, et Alice'i kohanduv allkiri on kehtiv:
+- Alice saadab Bobile oma allkirjaadapteri $s'_A$, oma allkirjastamata tehingu $m_A$, salale vastava punkti ($T$) ja nonce'ile vastava punkti ($N_A$). Need elemendid moodustavad niinimetatud "adapteri". Oluline on märkida, et ainult selle teabega ei saa Bob Alice'i BTC-d taastada.
+- Bob saab siiski kontrollida, et Alice ei püüa temalt varastada. Selleks kontrollib ta, kas Alice'i adapteri allkiri $s_A'$ vastab tegelikult kavandatud tehingule $m_A$. Kui järgmine võrrand on õige, siis võib ta olla kindel, et Alice'i allkirjaadapter on kehtiv:
 
 $$s_A' \cdot G = N_A + H(N_A + T \paralleel P_A \paralleel m_A) \cdot P_A$$$
 
 
-- See kontrollimine annab Bobile piisava kindluse, et vahetusega kindlalt jätkata. Seejärel loob ta oma tehingu $m_B$, mille eesmärk on saata Alice'ile 1 BTC, ja genereerib oma adaptiivse allkirja $s_B'$, mis on samuti seotud sama saladusega $t$. Sel hetkel teab ainult Alice väärtust $t$; Bob teab ainult vastavat punkti $T$, mille Alice talle edastas:
+- See kontrollimine annab Bobile piisavad tagatised, et ta võib vahetust täiesti kindlalt jätkata. Seejärel loob ta oma tehingu $m_B$, mille eesmärk on saata Alice'ile 1 BTC, ja genereerib oma adapteri allkirja $s_B'$, mis on samuti seotud sama saladusega $t$. Selles etapis teab ainult Alice väärtust $t$; Bob teab ainult vastavat punkti $T$, mille Alice on talle edastanud:
 
 $$s_B' = n_B + H(N_B + T \paralleel P_B \paralleel m_B) \cdot p_B$$$
 
 
-- Bob edastab Alice'ile oma adaptiivse allkirja $s_B'$, oma allkirjastamata tehingu $m_B$, samuti punkti, mis vastab saladusele ($T$) ja punkti, mis vastab nonce'ile ($N_B$). Alice, kes teab saladust $t$, saab nüüd kombineerida Bobi adaptiivset allkirja $s_B'$ selle saladusega, et luua kehtiv allkiri $s_B$ tehingu $m_B$ jaoks, millega Bobi BTC-d talle üle kantakse:
+- Bob saadab Alice'ile oma adapteri allkirja $s_B'$, oma allkirjastamata tehingu $m_B$, samuti punkti, mis vastab saladusele ($T$) ja punkti, mis vastab nonce'ile ($N_B$). Alice, kes teab saladust $t$, saab nüüd kombineerida Bobi adapteri allkirja $s_B'$ selle saladusega, et luua kehtiv allkiri $s_B$ tehingu $m_B$ jaoks, millega Bobi BTC-d talle üle kantakse:
 
 $$s_B = s_B' + t$$$
 
 $$(s_B' + t) \cdot G = N_B + T + H(N_B + T \paralleel P_B \paralleel m_B) \cdot P_B$$$
 
 
-- Alice edastab selle allkirjastatud tehingu $m_B$ Bitcoini plokiahelas, et saada Bobi poolt lubatud BTC. Kui Bob näeb seda tehingut plokiahelas, saab ta välja võtta allkirja $s_B = s_B' + t$. Selle teabe abil saab Bob seejärel eraldada talle vajaliku kuulsa $t$ saladuse:
+- Alice edastab selle allkirjastatud $m_B$ tehingu Bitcoini plokiahelas, et saada Bobi poolt lubatud BTC. Kui Bob näeb seda tehingut plokiahelas, saab ta välja võtta allkirja $s_B = s_B' + t$. Selle teabe abil on Bobil võimalik eraldada kuulus saladus $t$, mida ta vajas:
 
 $$t = (s_B' + t) - s_B' = s_B - s_B'$$$
 
 
-- Ja tegelikult oli see salajane $t$ ainus puuduv element, mille abil Bob sai Alice'i adapteri allkirjast $s_A'$ luua kehtiva allkirja $s_A$. See allkiri võimaldab valideerida tehingu $m_A$, mis saadab BTC-d Alice'ilt Bobile. Seejärel arvutab Bob $s_A$ ja edastab omakorda tehingu $m_A$ plokiahelas:
+- Ja see saladus $t$ oli ainus element, mis puudus Bobil, et genereerida kehtiv allkiri $s_A$ Alice'i adapteri allkirja $s_A'$ põhjal. See allkiri valideerib tehingu $m_A$, mis saadab Alice'ilt Bobile BTC. Seejärel arvutab Bob $s_A$ ja edastab $m_A$ tehingu plokiahelas:
 
 $$s_A = s_A' + t$$$
 
 $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \paralleel P_A \paralleel m_A) \cdot P_A$$
 
-Võtame kokku, kuidas allkirjaadapter töötab mündivahetuses. Esialgu saadab Alice Bobile allkirjastamata tehingu koos adapteriga, mis võimaldab Bobil kontrollida, et hiljem avalikustatud saladus annab talle juurdepääsu bitcoinidele. Vastutasuks saadab Bob Alice'ile oma allkirjastamata tehingu ja adapteri. Seejärel saab Alice Bobi tehingu lõplikult vormistada ja bitcoinid tagasi saada, edastades kehtiva tehingu, milles kasutatakse saladust. Kui see tehing avaldatakse plokiahelas, on Bobil võimalik saladus välja võtta ja seega Alice'i tehing lahti lukustada. Järelikult, kui Alice algatab Bobi bitcoinide ülekande, saab ta omakorda juurdepääsu Alice'i bitcoinidele, ilma et oleks vaja vastastikust usaldust.
+Võtame kokku, kuidas Adaptori allkiri toimib müntide vahetamisel. Esialgu saadab Alice Bobile allkirjastamata tehingu koos adaptoriga, mis võimaldab Bobil kontrollida, et hiljem avalikustatud saladus annab talle juurdepääsu bitcoinidele. Vastutasuks saadab Bob Alice'ile oma allkirjastamata tehingu ja adapteri. Seejärel saab Alice Bobi tehingu lõpule viia ja bitcoinid kätte saada, edastades tänu saladusele kehtiva tehingu. Kui see tehing avaldatakse plokiahelas, on Bobil võimalik saladus välja võtta ja seega Alice'i tehing avada. Järelikult, kui Alice algatab Bobi bitcoinide ülekande, saab Bob omakorda ligi Alice'i bitcoinidele ilma vastastikuse usalduse vajaduseta.
 
-Oluline on märkida, et mündivahetust pakkus esimesena välja [Gregory Maxwell oktoobris 2013 BitcoinTalkis](https://bitcointalk.org/index.php?topic=321228.0).
+Pange tähele, et coinswaps'i pakkus esimest korda välja [Gregory Maxwell oktoobris 2013 BitcoinTalkis](https://bitcointalk.org/index.php?topic=321228.0).
 
-### Aatomivahetus
+### Aatomi vahetus
 
-Sarnaselt mündivahetusega ja kasutades samalaadseid arukaid lepinguid, on võimalik teostada ka aatomivahetust. Aatomivahetus võimaldab erinevate krüptovaluutade, näiteks BTC ja XMR, otsevahetust kahe kasutaja vahel, ilma et oleks vaja usaldust või vahendaja sekkumist. Neid vahetusi nimetatakse "aatomivahetusteks", sest neil on ainult kaks võimalikku tulemust: kas vahetus õnnestub ja mõlemad pooled on rahul või ebaõnnestub ja kumbki jätab oma algsed krüptovaluutad alles, seega ei ole vaja usaldust teise osapoole vastu.
+Sarnaselt müntide vahetamisega ja kasutades samalaadseid arukaid lepinguid, on võimalik teostada ka aatomivahetusi. Aatomivahetus võimaldab erinevate krüptovaluutade, näiteks BTC ja XMR, otsevahetust kahe kasutaja vahel ilma usalduse või vahendaja sekkumiseta. Neid vahetusi nimetatakse "aatomivahetusteks", sest neil on ainult kaks võimalikku tulemust: kas vahetus on edukas ja mõlemad osapooled on rahul või ebaõnnestub ja kumbki jätab oma algsed krüptovaluutad alles, kaotades vajaduse usaldada teist osapoolt.
 
 ![BTC204](assets/fr/197.webp)
 
-Aatomivahetusel ja mündivahetusel on sarnane töömeetod ja neil on samad eelised ja puudused privaatsuse osas. Tegelikult on aatomivahetus Bitcoini seisukohast võrreldav mündivahetusega, mis toimub kahes etapis. Kõigepealt vahetame oma BTC teise krüptovaluuta vastu ja seejärel saab seda krüptovaluutat vahetada teiste BTCde vastu. Lõpuks saame tagasi teise kasutaja BTC. Seepärast liigitan need kaks protokolli privaatsusküsimuste analüüsis salajase varade vahetamise kategooriasse.
+Aatomivahetusel ja mündivahetusel on sarnane töömeetod ja neil on samad eelised ja puudused konfidentsiaalsuse osas. Bitcoini seisukohast on aatomivahetus tõepoolest võrreldav kahes etapis toimuva mündivahetusega. Kõigepealt vahetame oma BTC teise krüptovaluuta vastu, seejärel saab seda krüptovaluutat vahetada teise BTC vastu. Lõpuks saame tagasi teise kasutaja BTC. Seepärast liigitan ma need kaks protokolli konfidentsiaalsusküsimuste analüüsis varalise salajase vahetuse kategooriasse.
 
 ![BTC204](assets/fr/198.webp)
 
-Kuid erinevalt mündivahetusest võib aatomivahetusel olla tasakaalustamatus olemasoleva likviidsuse osas, eriti BTC/XMR-vahetuses. Üldiselt on bitcoini vahetamine altcoini vastu lihtsam, sest bitcoini järele on suur nõudlus, mis hoiab selle konverteerimissuuna preemiad madalad. Altcoini vahetamine BTC saamiseks võib aga väiksema nõudluse tõttu olla keerulisem, mille tulemuseks on sageli väga kõrged preemiad.
+Kuid olge ettevaatlik, et erinevalt coinswapist võib aatomivahetusel olla tasakaalustamatus olemasoleva likviidsuse osas, eriti BTC/XMR-vahetusbörsidel. Üldiselt on bitcoinide vahetamine altcoinide vastu lihtsam, kuna bitcoinide järele on suur nõudlus, mis hoiab selle konverteerimissuuna preemiad madalad. Altcoinide vahetamine BTC vastu võib aga väiksema nõudluse tõttu olla keerulisem, mille tulemuseks on sageli väga kõrged preemiad.
 
-Lõpuks, kui aatomivahetuses osalevad Lightning-võrgus olevad bitcoinid ja bitcoinid, nimetame seda "_submersible exchange_"
+Lõpuks, kui aatomivahetuse puhul on tegemist Lightning-võrgus olevate bitcoinide ja bitcoinide vahetusega, siis räägime "allveelaevavahetus" (submarine swap).
 
 ### Kas see on tõesti kasulik?
 
-Salajased omandiõiguse ülekanded, nagu mündivahetused ja aatomivahetused, on eeliseks ahelanalüüsi heuristikate lollitamisel. Need meetodid võivad jätta mulje, et tehingud hõlmavad sama kasutajat, isegi kui tegelik omanik on vahetanud omanikku. Nende meetodite peamine puudus on aga see, et need on väga riskantsed, kui ei kasutata täiendavat tehnikat mündi ajaloo häirimiseks.
+Salajased omandiõiguse ülekanded, nagu mündivahetused ja aatomivahetused, on eeliseks ahelanalüüsi heuristikate lollitamisel. Need meetodid võivad jätta mulje, et tehingutes osaleb sama kasutaja, kuigi tegelik omanik on vahetanud omanikku. Nende meetodite peamine puudus on aga see, et need on väga riskantsed, kui ei kasutata täiendavat tehnikat mündi ajaloo murdmiseks.
 
-Kui Alice teeb mündivahetuse või aatomivahetuse Bobiga, siis vahetab ta oma bitcoinide omandiõiguse Bobi bitcoinide vastu. Aatomivahetuse puhul hõlmab vahetus ka altcoini, kuid põhimõte jääb samaks. Seega saab Alice lõpuks mündi $B$ ja Bob mündi $A$. See lisab ahela analüüsile kahtlusi, kuid müntide ajalugu jääb jälgitavaks. Kui analüütik uurib münti $A$, saab ta jälgida Alice'i varasemat tegevust ja vastupidi mündi $B$ puhul.
+Kui Alice teeb Bobiga mündivahetuse või aatomivahetuse, vahetab ta oma bitcoinid Bobi omadega. Aatomivahetuse puhul hõlmab vahetus ka altcoini, kuid põhimõte jääb samaks. Seega saab Alice lõpuks $B$ mündi ja Bob $A$ mündi. See lisab ahela analüüsile kahtlusi, kuid müntide ajalugu jääb jälgitavaks. Kui analüütik uurib osa $A$, saab ta jälgida Alice'i varasemat tegevust ja vastupidi osa $B$ puhul.
 
-Alice'i seisukohalt on oht, et teatud üksused võivad $B$ mündi ajalugu pidada kahtlaseks. Kui Bob oleks näiteks omandanud $B$ mündi kuritegeliku teo, näiteks häkkimise käigus, jääks see münt tema ebaseadusliku tegevusega seotuks. Alice võib siis sattuda mündi valdusesse, mida ta ei saa üle kanda reguleeritud kauplemisplatvormidele, ilma et ta riskiks oma vahendite külmutamisega või isegi sellega, et teda süüdistatakse Bobi kuritegudes, kuigi tal ei ole nendega midagi pistmist.
+![BTC204](assets/fr/199.webp)
 
-Ja muidugi eelistavad kurjategijad, kelle vahendeid ametiasutused jälgivad, selliseid privaatsusmeetodeid nagu mündivahetus või aatomivahetus. Need protokollid annavad neile võimaluse võõrandada oma jälgitud bitcoinid täiesti asendatavate bitcoinide vastu. See võimaldab neil luua ka diversiooni, suunates ametiasutused teistele kasutajatele. Seega on neil inimestel kahekordne kasu.
+Alice'i seisukohalt on oht, et teatud üksused võivad $B$ mündi ajalugu pidada kahtlaseks. Kui Bob oleks näiteks omandanud $B$ mündi kuritegeliku teo, näiteks häkkimise teel, jääks see münt tema ebaseadusliku tegevusega seotuks. Alice võib siis sattuda mündi valdusesse, mida ta ei saa kanda üle reguleeritud vahetusplatvormidele, ilma et riskiks oma raha külmutamisega või isegi sellega, et teda süüdistatakse Bobi kuritegudes, kuigi tal ei ole nendega midagi pistmist.
 
-Coinjoiniga on mündi ajalugu katki, isegi kui teie münt on segatud jälgitavate bitcoinidega, mis tagab usutava eitatavuse, mida ei ole olemas salajase vara üleandmise protokollides, nagu mündivahetus või aatomivahetus.
+![BTC204](assets/fr/200.webp)
 
-Kui Alice tahab vältida igasugust riski, peab ta tingimata kasutama meetodit, mis häirib $B$ mündi ajalugu, näiteks jooksutades seda läbi coinjoins'i. See tõstatab küsimuse, kas salajase omandiõiguse üleandmise ja coinjoin'i kombineerimine on kasulik. Coinjoin, katkestades mündi ajaloo, tagab Alice'ile juba piisava salastatuse taseme. Seega olen seisukohal, et kui Alice soovib kaitsta oma privaatsust, oleks mõistlikum jätkata otse coinjoiniga kui tegeleda mündivahetusega, millele järgneb coinjoin.
+Paratamatult eelistavad kurjategijad, kelle raha on ametiasutuste järelevalve all, selliseid konfidentsiaalsusmeetodeid nagu müntide vahetamine või aatomivahetus. Need protokollid võimaldavad neil oma jälgimise all olevatest bitcoinidest vabaneda, vahetades need täiesti asendatavate bitcoinide vastu. Samuti võimaldab see neil luua kõrvalekaldeid, suunates ametiasutused teiste kasutajate poole. Seega on neil inimestel kahekordne eesmärk.
 
-Selleks, et salajase omandiõiguse üleandmise meetodid oleksid tõeliselt tõhusad ja väldiksid riski, et $A$ kasutaja ajalugu seostatakse $B$ kasutajaga, oleks paradoksaalselt vajalik, et nende kasutamine oleks laialdaselt teada. Kui mündivahetust kasutatakse massiliselt ja ametiasutused on sellest levinud praktikast teadlikud, siis on võimalik luua usutav eitamisvõimalus. Kuid seni, kuni nende ülekannete kasutamine jääb marginaalseks, jäävad need meetodid minu arvates kasutajate jaoks liiga riskantseks.
+Coinjoiniga on mündi ajalugu katki, isegi kui teie münt on segatud jälgitavate bitcoinidega, mis tagab usutava eitatavuse, mida ei ole olemas salajase omandiõiguse üleandmise protokollides nagu coinswap või atomic swap.
 
-Seni oleme uurinud peamiselt privaatsusmeetodeid tehingu tasandil. Järgmises peatükis uurime küsimusi võrgustiku tasandil ja tehingu levikut.
+![BTC204](assets/fr/201.webp)
+
+Kui Alice soovib vältida igasugust riski, peab ta tingimata kasutama meetodit, et katkestada $B$ müntide ajalugu, näiteks edastades seda läbi mündiühenduste. See tõstatab küsimuse, kas salajase omandiõiguse üleandmise ja coinjoin'i kombineerimine on kasulik. Müntide ühendamine, murdes mündi ajaloo, pakub Alice'ile juba piisavat salastatuse taset. Seega on minu arvamus, et kui Alice soovib kaitsta oma privaatsust, oleks targem minna otse mündivahetuse juurde, kui teha mündivahetus, millele järgneb mündivahetus.
+
+Selleks, et salajase omandiõiguse üleandmise meetodid oleksid tõeliselt tõhusad ja väldiksid riski, et $A$ kasutaja ajalugu seostatakse $B$ kasutajaga, oleks paradoksaalselt vajalik, et nende kasutamine oleks laialdaselt teada. Kui müntide vahetamist kasutatakse massiliselt ja ametiasutused on sellest levinud tavast teadlikud, siis võiks luua usutava eitamise vormi. Kuid seni, kuni nende ülekannete kasutamine jääb marginaalseks, jäävad need meetodid minu arvates kasutajate jaoks liiga riskantseks.
+
+Seni oleme uurinud peamiselt konfidentsiaalsusmeetodeid tehingute tasandil. Järgmises peatükis vaatleme küsimusi võrgu tasandil ja tehingu levitamisel.
 
 ## Privaatsus P2P-võrgus
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
-Neljandas osas arutasime, kui oluline on kasutada täielikku sõlme, et kaitsta oma tehingute privaatsust. Siiski on oluline mõista, et teie sõlme ise võidakse rünnata, et saada teavet teie tegevuse kohta. Käesolevas peatükis vaatleme seetõttu erinevaid privaatsuskaitsemeetmeid mitte tehingute endi või bitcoinide voogude tasandil, vaid võrgu tasandil.
+![La confidentialité sur Bitcoin](https://youtu.be/z3PMxy7xpuU?feature=shared)
+
+Neljandas osas arutasime, kui oluline on kasutada täielikku sõlme, et kaitsta oma tehingute konfidentsiaalsust. Siiski on oluline mõista, et teie sõlme võivad ka teie enda vastu suunatud rünnakud, mille eesmärk on teie tegevust puudutava teabe väljavõtmine. Seetõttu vaatleme selles peatükis erinevaid meetmeid, mida saate võtta oma privaatsuse kaitsmiseks mitte tehingute endi või bitcoini voogude tasandil, vaid võrgu tasandil.
 
 ### Võilill
 
-Üks võimalus vältida erinevaid deanonümiseerimisrünnakuid on kasutada pakutud Dandelion'i. See ülekandeprotokoll vormistati BIP156s, kuid seda ei ole kunagi Bitcoinis rakendatud. Dandelioni idee on parandada tehingu marsruutimise privaatsust Bitcoini võrgus, et nurjata erinevaid rünnakuid. Selle peamine eesmärk on varjata võrgus tehingu algselt edastav lähtesõlm. Selle sõlme avalikustamine võib siduda Bitcoini tehingu konkreetse IP-aadressiga (kui sõlm tegutseb krüpteerimata võrgus), pakkudes seega sisenemispunkti ahela analüüsiks.
+Üks võimalus vältida erinevaid deanonüümimise ründeid on kasutada Dandelioni ettepanekut. See ringhäälinguprotokoll vormistati BIP156s, kuid seda ei ole kunagi Bitcoinis rakendatud.
 
-Selline seos Bitcoini tegevuse ja IP-aadressi vahel kujutab endast märkimisväärset ohtu kasutaja privaatsusele. Tegelikult saavad paljud üksused kergesti seostada IP-aadressi isikliku identiteediga. See hõlmab märkimisväärselt valitsusi ja Interneti-teenuste pakkujaid. Lisaks võib see teave muutuda avalikult kättesaadavaks, näiteks kui teie IP-aadress ja isikuandmed satuvad veebilehe andmebaasi häkkimise käigus toimuva andmete lekkimise tõttu avalikkuse ette.
+Dandelioni idee on parandada tehingu marsruutimise konfidentsiaalsust Bitcoini võrgus, et võidelda erinevate rünnakute vastu. Selle peamine eesmärk on varjata võrgus tehingu algselt edastanud lähtesõlme. Selle sõlme avalikustamine võib võimaldada Bitcoini tehingu sidumist konkreetse IP-aadressiga (kui sõlme tegutseb clearnetis), mis võib pakkuda sisenemispunkti ahela analüüsiks.
 
-Bitcoini tavapärase toimimise puhul edastatakse kasutaja poolt tema tarkvaralehel tehtud tehingud tema isiklikku sõlme. See sõlmpunkt edastab uue tehingu kohe kõigile eakaaslastele, kellega ta on ühendatud.
+Selline seos Bitcoini tegevuse ja IP-aadressi vahel kujutab endast märkimisväärset ohtu kasutaja konfidentsiaalsusele. Paljud üksused on tõepoolest võimelised IP-aadressi hõlpsasti isikuga seostama. Siia kuuluvad valitsused ja Interneti-teenuste pakkujad. Veelgi enam, see teave võib muutuda avalikult kättesaadavaks, näiteks kui teie IP-aadress ja isikuandmed lekivad, kui veebisaidi andmebaasi häkitakse.
 
-Seejärel kontrollivad need eakaaslased tehingut, et tagada selle vastavus konsensusreeglitele ja kohalikele standardimisreeglitele. Kui tehing on kinnitatud, edastab iga partner omakorda tehingu oma partneritele ja nii edasi.
+Klassikalise Bitcoini toimimise puhul edastatakse kasutaja poolt tema rahakoti tarkvaras tehtud tehingud tema isiklikku sõlme. See sõlmpunkt edastab uue tehingu kohe kõigile eakaaslastele, kellega ta on ühendatud.
 
-Integreerimist ootavate tehingute jaotumine plokis toimub üsna tasakaalustatult ja statistiliselt ennustatavalt. Seda haavatavust võivad ära kasutada kokkumängivad spioonisõlmed, mis teevad koostööd võrgu jälgimiseks ja analüüsimiseks, et tuvastada esimene tehingu edastav sõlm. Kui vaatleja suudab leida lähtesõlme, võib ta eeldada, et tehing pärineb selle sõlme operaatorilt. Selline vaatlus võib siduda tavaliselt anonüümsed tehingud konkreetsete IP-aadressidega.
+![BTC204](assets/fr/202.webp)
 
-BIP156 eesmärk on selle probleemi lahendamine. Selleks võetakse uue tehingu edastamisel kasutusele täiendav etapp, et säilitada anonüümsus enne laiaulatuslikku avalikku levitamist. Dandelion kasutab kõigepealt "varre" etappi, kus tehing saadetakse läbi juhusliku sõlmede tee.
+Seejärel kontrollivad need kolleegid tehingut, et tagada selle vastavus konsensuse ja kohalikele standardimisreeglitele. Kui tehing on kinnitatud, edastab iga eakaaslane omakorda tehingu oma eakaaslastele ja nii edasi.
 
-Seejärel edastatakse tehing kogu võrku "fluff" (blowhole) etapis.
+![BTC204](assets/fr/203.webp)
 
-Tüvi ja võilill on viited tehingu võrgu kaudu levimise käitumisele, mis meenutab võilille kuju.
+Selline plokki integreerimist ootavate tehingute jaotus on üsna tasakaalustatud ja statistiliselt prognoositav. Seda nõrkust võivad ära kasutada spioonisõlmed, kes teevad koostööd võrgu jälgimiseks ja analüüsimiseks, et tuvastada esimene tehingu edastanud sõlm. Kui vaatlejal õnnestub allikasõlme leida, võib ta oletada, et tehing pärineb selle sõlme operaatorilt. Seda tüüpi vaatlust saab kasutada selleks, et siduda tavaliselt anonüümseid tehinguid konkreetsete IP-aadressidega.
 
-Seega saavad luurajad potentsiaalselt jälgida tehingu tagasi selle sõlme juurde, mis algatas puhumisfaasi (massiline edastamine), kuid see sõlme ei ole see, kes edastas tehingu esimesena, sest ta sai selle viimaselt tüve sõlmedelt. Kui spioonisõlmed ei saa jälgida tüve, ei saa nad ka lähtesõlme tuvastada.
+![BTC204](assets/fr/204.webp)
 
-Isegi spioonisõlmede olemasolul tüveprotsessi ajal jääb alati kahtlus, sest niipea, kui nad kohtuvad ausa sõlmega levikegraafis, ei suuda spioonid kindlaks teha, kas see sõlme on algne allikas või lihtsalt vahendaja.
+BIP156 eesmärk on selle probleemi lahendamine. Selleks kehtestatakse uue tehingu levitamisel täiendav etapp, et säilitada anonüümsus enne laialdast avalikku levitamist. Dandelion kasutab kõigepealt "varre" faasi, kus tehing saadetakse läbi juhusliku sõlmede tee.
 
-Selline marsruutimismeetod muudab raskemini jälgitavaks lähtesõlme, muutes tehingu jälgimise läbi võrgu selle päritoluni keeruliseks. Dandelion parandab seega eraelu puutumatust, piirates vastaste võimalusi võrgu deanonüümseks muutmiseks. See meetod on veelgi tõhusam, kui tehing läbib "varre" faasis sõlme, mis krüpteerib oma võrgusuhtluse, nagu Tor või P2P Transport V2.
+![BTC204](assets/fr/205.webp)
 
-BIP156 ei ole integreeritud Bitcoin Core'i ja on praegu klassifitseeritud staatusega "tagasi lükatud" Selle protokolliga seotud peamine mure seisneb selles, et tüveprotsessi ajal peavad tehinguid enne verifitseerimist edastama vahesõlmed. Nagu me nägime, kontrollib tavalises Bitcoini mudelis iga sõlmpunkt esmalt tehingu enne selle edastamist eakaaslastele. Kui tehing ei vasta sõlme konsensuse või kohaliku standardimise reeglitele, siis seda ignoreeritakse ja seda ei edastata. See protsess on oluline DoS-rünnakute tõrjumiseks, kuna kogu võrku edastatakse ainult kehtivad tehingud. Mittekehtivad tehingud, mis võivad tekkida massiliselt võrgu ülekoormamiseks, peatatakse esimeses sõlmes ja need ei levi edasi. Dandelion'i peamine oht on, et see uus protokoll võib tekitada uusi DoS-rünnakute vektoreid, võimaldades kehtetute tehingute edastamist läbi osa võrgu.
+Seejärel jaotatakse tehing kogu võrgule "kapituleerimise" faasis.
+
+![BTC204](assets/fr/206.webp)
+
+Tüvi ja lillepea on viited tehingu võrgu kaudu levimise käitumisele, mis meenutab võilille kuju.
+
+Seega saavad luurajad potentsiaalselt jälgida tehingu tagasi sõlme, mis käivitas kapituleerumisfaasi (masssaatmine), kuid see sõlme ei ole see, kes esimesena tehingu edastas, sest ta sai selle viimaselt tüve sõlmedelt. Kui spioonisõlmed ei saa jälgida tüve, ei saa nad ka lähtesõlme tuvastada.
+
+![BTC204](assets/fr/207.webp)
+
+Isegi spioonisõlmede olemasolul tüveprotsessi ajal jääb alati kahtlus, sest niipea, kui nad kohtavad ausat sõlme levikegraafis, ei suuda spioonid kindlaks teha, kas see sõlme on algne allikas või lihtsalt vahendaja.
+
+![BTC204](assets/fr/208.webp)
+
+Selline marsruutimismeetod ähmastab jälgi, mis viivad tagasi lähtesõlme, mistõttu on raske jälgida tehingut läbi võrgu tagasi selle päritoluni. Dandelion parandab seega konfidentsiaalsust, piirates vastaste võimet võrgu anonüümsuse kaotamiseks. See meetod on veelgi tõhusam, kui tehing läbib "tümitamisetapis" sõlme, mis krüpteerib oma võrgusuhtluse, nagu Tor või P2P Transport V2.
+
+BIP156 ei ole integreeritud Bitcoin Core'i ja on praegu klassifitseeritud kui "tagasi lükatud". Üks peamisi probleeme selle protokolliga on see, et tehingud tuleb enne verifitseerimist tüveprotsessi ajal edastada läbi vahepealsete sõlmede. Nagu me nägime, kontrollib tavalise Bitcoini mudeli puhul iga sõlmpunkt esmalt tehingu enne selle edastamist oma eakaaslastele. Kui tehing ei vasta sõlme konsensusreeglitele või kohalikele standardimisreeglitele, ignoreerib sõlm seda ja ei levita seda. See protsess on oluline DoS-rünnakute tõrjumiseks, kuna kogu võrku edastatakse ainult kehtivad tehingud. Mittekehtivad tehingud, mis võivad tekkida massiliselt võrgu ülekoormamiseks, peatatakse esimeses sõlmes ja need ei levi. Dandelioni peamine oht on, et see uus protokoll võib tekitada uusi DoS-rünnakute vektoreid, võimaldades kehtetute tehingute edastamist üle kogu võrgu.
 
 ### P2P transport V2
 
-P2P Transport V2 on teine võrguprotokoll, mis on esitatud BIP324-s. See on uus versioon Bitcoini P2P transpordiprotokollist, mis sisaldab oportunistlikku krüptograafiat, et parandada sõlmedevahelise side konfidentsiaalsust ja turvalisust.
+P2P transport V2 on teine võrguprotokoll, mis on esitatud BIP324-s. See on uus versioon Bitcoini P2P transpordiprotokollist, mis sisaldab oportunistlikku krüpteerimist, et parandada sõlmedevahelise side konfidentsiaalsust ja turvalisust.
 
-Selle täiustamise eesmärk on lahendada mitu P2P-protokolli põhiversiooniga seotud probleemi. Esiteks muudab see vahetatavad andmed passiivse vaatleja jaoks eristamatuks muudest Internetis liikuvatest andmetest. Peamine eesmärk on takistada valitsustel, Interneti- või VPN-teenuse pakkujatel Bitcoini kasutajate massilist jälgimist. See muudab ka nende üksuste jaoks keerulisemaks kindlaks teha, kas internetikasutaja on ka Bitcoini kasutaja, st kas ta kasutab täielikku sõlme.
+Selle täienduse eesmärk on lahendada mitmeid P2P-protokolli põhiversiooni probleeme. Ühest küljest muudab see vahetatavad andmed passiivse vaatleja jaoks eristamatuks muudest Internetis liikuvatest andmetest. Peamine eesmärk on takistada valitsustel, Interneti- ja VPN-teenuste pakkujatel Bitcoini kasutajate massilist jälgimist. Samuti muudab see nende üksuste jaoks keerulisemaks kindlaks teha, kas internetikasutaja on ka Bitcoini kasutaja, st kas ta opereerib täielikku sõlme.
 
-P2P V2 aitab ka vähendada tsensuuri ja rünnakute ohtu, tuvastades andmepakettide konkreetseid mustreid. See muudab mitmesuguste Sybil-rünnakute läbiviimise võrgu tasandil keerulisemaks ja kulukamaks. Sybil-rünnak toimub siis, kui toimija loob mitu valeidentiteeti, et saada põhjendamatuid eeliseid. Bitcoini võrgu kontekstis väljendub see sageli selles, et tegutseja kontrollib suurt arvu täielikke sõlmi ja kasutab neid agressiivselt ühenduste mitmekordistamiseks. Sybil-rünnakud võivad olla passiivsed, mille eesmärk on koguda teavet ja ohustada kasutajate konfidentsiaalsust, või aktiivsed, Eclipse-rünnakute kujul. Viimased isoleerivad konkreetse sõlme ülejäänud võrgust, võimaldades tal tsenseerida kasutajat või muuta saadud andmeid. Lõpuks muudab P2P V2 _Man-In-The-Middle_ (MITM) rünnakud kallimaks ja kergemini avastatavaks.
+P2P V2 aitab ka vähendada tsensuuri ja rünnakute ohtu, tuvastades andmepakettide spetsiifilisi mustreid. See muudab keerulisemaks ja kulukamaks eri tüüpi Sybil-rünnakute läbiviimise võrgu tasandil. Sybil-rünnak toimub siis, kui toimija loob mitu valeidentiteeti, et saada ebaõiglane eelis. Bitcoini võrgu kontekstis väljendub see sageli selles, et tegutseja kontrollib suurt arvu täielikke sõlmi ja kasutab neid agressiivselt ühenduste mitmekordistamiseks. Sybil-rünnakud võivad olla passiivsed, et koguda teavet ja ohustada kasutajate konfidentsiaalsust, või aktiivsed, Eclipse-rünnakute kujul. Viimased isoleerivad konkreetse sõlme ülejäänud võrgust, kas tsenseerides kasutajat või muutes tema poolt vastu võetud andmeid. Lõpuks muudab P2P V2 ka *Man-In-The-Middle* (MITM) rünnakud kulukamaks ja kergemini avastatavaks.
 
-P2P V2 rakendatud krüpteerimine ei sisalda autentimist, et mitte lisada asjatut keerukust ja mitte ohustada võrguühenduse loata olemust. See uus P2P-ülekandeprotokoll pakub siiski paremat turvalisust passiivsete rünnakute vastu ning muudab aktiivsed rünnakud oluliselt kulukamaks ja avastatavamaks. Pseudosituatsioonilise andmevoo lisamine võrgusõnumitesse raskendab ründajate, kes soovivad tsenseerida või manipuleerida sidet, tööd.
+P2P V2 rakendatud krüpteerimine ei sisalda autentimist, et mitte lisada asjatut keerukust või ohustada asjaolu, et ühendus võrguga jääb lubadeta. Sellegipoolest pakub see uus P2P-transpordiprotokoll paremat turvalisust passiivsete rünnakute vastu ning muudab aktiivsed rünnakud oluliselt kulukamaks ja avastatavamaks. Pseudosituatsioonilise andmevoo lisamine võrgusõnumitesse muudab ründajate jaoks keerulisemaks side tsenseerimise või manipuleerimise.
 
-P2P V2 transport lisati lisavõimalusena (vaikimisi välja lülitatud) Bitcoin Core'i versiooni 26.0, mis võeti kasutusele detsembris 2023. Seejärel lülitati see vaikimisi sisse versioonis 27.0 aprillis 2024. Seda saab muuta konfiguratsioonifaili valikuga `v2transport=`.
+P2P V2 transport lisati valikuna (vaikimisi välja lülitatud) Bitcoin Core'i versiooni 26.0, mis võeti kasutusele 2023. aasta detsembris. Seejärel lülitati see vaikimisi sisse 2024. aasta aprilli versioonis 27.0. Seda saab muuta konfiguratsioonifaili valikuga `v2transport=`.
 
 ### Tor
 
-Suhteliselt lihtne lahendus võrgu tasemel sõlme konfidentsiaalsuse kaotamise ohu vältimiseks on käivitada see täielikult Tori all. Tor on releeserverite (sõlmede) võrgustik, mis anonüümsustab TCP-ühenduste päritolu Internetis. See toimib andmete kapseldamise teel mitme krüpteerimiskihiga. Iga releesõlm eemaldab ühe kihi, et paljastada järgmise sõlme aadress, kuni lõpliku sihtkohani jõutakse. Tor-võrk tagab anonüümsuse, takistades vahesõlmedel teada saada nii andmete päritolu kui ka sihtkohta, mistõttu on vaatlejal väga raske jälgida kasutaja tegevust.
+Teine lihtne lahendus, et vältida võrgusõlme konfidentsiaalsuse kaotamise ohtu, on käivitada see täielikult Tori all.
 
-Tor mitte ainult ei krüpteeri edastatavaid andmeid, vaid võimaldab ka side päritolu ja sihtkoha maskeerimist. Kasutades Tor'i oma isiklike sõlmede sidepidamiseks, parandame oma tehingute privaatsust: Interneti-teenuse pakkuja (ISP) ei saa sidet dekrüpteerida ja teised Bitcoini võrgu sõlmed ei saa tuvastada lähtesõlme IP-aadressi. Lisaks varjab Tor Bitcoini kasutamist ka oma Interneti-teenuse pakkuja eest.
+Tor on releeserverite (sõlmede) võrgustik, mis anonüümsustab TCP-ühenduste päritolu Internetis. See toimib andmete kapseldamise teel mitme krüpteerimiskihiga. Iga releesõlm eemaldab ühe kihi, et paljastada järgmise sõlme aadress, kuni lõpliku sihtkohani jõutakse. Tor-võrk tagab anonüümsuse, takistades vahendussõlmedel teada saada nii andmete päritolu kui ka sihtkohta, mistõttu on vaatlejal väga raske jälgida kasutaja tegevust.
 
-Selle meetodiga seotud peamine risk on see, et Tor on Bitcoinist sõltumatu protokoll. Kui teil on Tori all Bitcoin-sõlm ja Tor lakkab töötamast, siis ei saa teie Bitcoin-sõlm enam suhelda.
+![BTC204](assets/fr/209.webp)
 
-Samuti on oluline märkida, et Toril toimuv side on aeglasem. See viivitus on eriti tülikas sõlme esialgse käivitamise ajal, kuna algne bloki allalaadimine (IBD) nõuab palju suhtlust. Selle tulemusena võib esialgne sünkroniseerimine Bitcoini võrguga olla Tori abil oluliselt pikem. Samuti on võimalik teha IBD avatud võrgus ja seejärel aktiveerida Tor hiljem. Kuigi see meetod paljastab teie Bitcoini sõlme olemasolu teie internetiteenuse pakkujale, kaitseb see teie isiklikku tehinguinfot, kui te vahetate Tori vastu.
+Tor mitte ainult ei krüpteeri andmeid, vaid maskeerib ka side päritolu ja sihtkoha. Kasutades Tor'i oma isikliku sõlme sidepidamiseks, tugevdate oma tehingute konfidentsiaalsust: teie Interneti-teenuse pakkuja ei saa sidet dekrüpteerida ja teised Bitcoini võrgu sõlmed ei saa tuvastada lähtesõlme IP-aadressi. Veelgi enam, Tor varjab ka teie enda Bitcoini kasutamist teie Interneti-teenuse pakkuja eest.
 
-Olles uurinud erinevaid privaatsusmeetodeid võrgutasandil, tahan järgmistes peatükkides tutvustada ka kahte elegantset lahendust aadresside korduvkasutamise vältimiseks: BIP47 ja Silent Payments.
+Selle meetodi peamine risk on see, et Tor on Bitcoinist sõltumatu protokoll. Kui teil on Tori all töötav Bitcoini sõlmpunkt ja Tor lakkab töötamast, siis ei saa teie Bitcoini sõlmpunkt enam suhelda.
+
+Samuti on oluline märkida, et Toril toimuv side on aeglasem. See viivitus on eriti häiriv sõlme algse käivitamise ajal, kuna IBD (*Initial Block Download*) nõuab palju suhtlust. Selle tulemusena võib teie esialgne sünkroniseerimine Bitcoini võrguga võtta Tori kasutades oluliselt kauem aega. Samuti on võimalik teostada IBD clearnetis, seejärel aktiveerida Tor teise sammuna. Kuigi see meetod avalikustab teie Bitcoini sõlme olemasolu teie Interneti-teenuse pakkujale, kaitseb see teie isiklikke tehinguandmeid, kui te lülitute Torile.
+
+Olles uurinud erinevaid konfidentsiaalsusmeetodeid võrgu tasandil, tahaksin teile järgmistes peatükkides tutvustada ka kahte elegantset lahendust aadresside korduvkasutamise vältimiseks: BIP47 ja Silent Payments.
 
 ## BIP47 ja korduvkasutatavad maksekoodid
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
-Nagu nägime 3. osas, on aadresside korduvkasutamine tõsine takistus kasutajate privaatsusele Bitcoini protokollis. Nende riskide vähendamiseks on tungivalt soovitatav luua uus vastuvõtuaadress iga uue rahakotti laekunud makse jaoks. Kuigi tänapäeval on uue aadressi genereerimine tänu kaasaegse tarkvara ja hierarhiliste deterministlike rahakottide kasutamisele lihtsustatud, võib see praktika tunduda vastunäidustatud.
+![La confidentialité sur Bitcoin](https://youtu.be/QxbNReGAsvg?feature=shared)
 
-Traditsioonilises pangandussüsteemis oleme näiteks harjunud jagama oma IBANi, mis jääb alati samaks. Kui me seda kellelegi ütleme, võib ta saata meile mitu makset, ilma et ta peaks meiega uuesti suhtlema. Neopangad pakuvad ka moodsamaid võimalusi, näiteks unikaalsete e-posti aadresside kasutamine PayPalis või RevTagide kasutamine Revolutis. Isegi väljaspool finantsvaldkonda on meie igapäevased tunnused, nagu postiaadress, telefoninumber ja e-posti aadress, unikaalsed ja püsivad. Me ei pea neid iga uue suhtluse korral uuendama.
+Nagu nägime 3. osas, on aadresside korduvkasutamine tõsine takistus kasutajate konfidentsiaalsusele Bitcoini protokollis. Nende riskide vähendamiseks on tungivalt soovitatav luua iga uue rahakotti laekunud makse jaoks tühi vastuvõtuaadress. Kuigi uue aadressi genereerimine on nüüd tänu kaasaegse tarkvara ja hierarhiliste deterministlike rahakottide kasutamisele lihtsustatud, võib see praktika tunduda vastunäidustatud.
 
-Bitcoini tööpõhimõte on aga teistsugune: iga sissetuleva tehingu jaoks tuleb luua uus vastuvõtuaadress. See kompromiss kasutusmugavuse ja privaatsuse vahel ulatub tagasi Bitcoini valge raamatu algusaegadesse. Satoshi Nakamoto hoiatas meid selle ohu eest juba oma esimese versiooni avaldamisest alates 2008. aasta lõpus:
+![BTC204](assets/fr/210.webp)
 
-**"_"Täiendava tulemüürina võiks iga tehingu jaoks kasutada uut võtmepaari, et hoida neid ühise omanikuga sidumata._"**"
+Traditsioonilises pangandussüsteemis oleme näiteks harjunud jagama oma IBANi, mis jääb alati samaks. Kui oleme selle kellelegi andnud, saab ta saata meile mitu makset, ilma et ta peaks meiega uuesti suhtlema. Neopangad pakuvad ka moodsamaid võimalusi, näiteks unikaalsete e-posti aadresside kasutamine PayPalis või RevTagide kasutamine Revolutis. Isegi väljaspool finantssfääri on meie igapäevased tunnused, nagu meie postiaadress, telefoninumber ja e-posti aadress, samuti unikaalsed ja püsivad. Me ei pea neid iga uue suhtluse puhul uuendama.
 
-On mitmeid meetodeid, kuidas saada mitu makset ühe identifikaatori kohta, ilma et see põhjustaks aadressi korduvkasutust. Igal neist meetoditest on omad kompromissid ja puudused. Nende meetodite hulgas on Justus Ranvieri väljatöötatud ja 2015. aastal avaldatud ettepanek BIP47 . Selle ettepaneku eesmärk on luua korduvkasutatavad maksekoodid, mis võimaldavad mitu tehingut samale isikule, vältides samal ajal aadressi korduvkasutamist. Sisuliselt püüab BIP47 pakkuda intuitiivset maksesüsteemi kui unikaalset identifikaatorit, säilitades samal ajal tehingute privaatsuse.
+![BTC204](assets/fr/211.webp)
+
+Bitcoin töötab aga teisiti: iga sissetuleva tehingu jaoks tuleb luua uus vastuvõtuaadress. See kompromiss kasutusmugavuse ja konfidentsiaalsuse vahel ulatub tagasi Bitcoini valge raamatu algusaegadesse. Juba oma dokumendi esimese versiooni avaldamisel 2008. aasta lõpus hoiatas Satoshi Nakamoto meid selle ohu eest:
+
+**Tuletõkke lisana võiks iga tehingu jaoks kasutada uut võtmepaari, et need ei oleks seotud ühise omanikuga
+
+On mitmeid viise, kuidas saada mitu makset ühe identifikaatori kohta, ilma et peaks aadressi uuesti kasutama. Igal neist on omad kompromissid ja puudused. Nende meetodite hulgas on Justus Ranvieri väljatöötatud ja 2015. aastal avaldatud ettepanek BIP47 . Selle ettepaneku eesmärk on luua korduvkasutatavad maksekoodid, mis võimaldavad teha mitu tehingut ühe ja sama isiku vastu, vältides samal ajal aadressi korduvkasutamist. Lühidalt öeldes on BIP47 eesmärk pakkuda maksesüsteemi, mis on sama intuitiivne kui unikaalne identifikaator, säilitades samal ajal tehingute konfidentsiaalsuse.
 
 ![BTC204](assets/fr/212.webp)
 
-BIP47 ei paranda otseselt kasutajate privaatsust, kuna BIP47 makse pakub sama suurt privaatsust kui klassikaline Bitcoini tehing, mille puhul kasutatakse värskeid aadresse. Siiski muudab see Bitcoini kasutamise mugavamaks ja intuitiivsemaks, mis tavaliselt ohustab privaatsust. Tänu BIP47-le saavutab see kasutusmugavus sama privaatsuse taseme kui klassikaline tehing. Seetõttu on BIP47 väärtuslik vahend privaatsuse säilitamiseks.
+BIP47 ei paranda otseselt kasutajate konfidentsiaalsust, kuna BIP47 makse pakub sama suurt konfidentsiaalsust kui klassikaline Bitcoini tehing, mille puhul kasutatakse tühja aadressi. Siiski muudab see Bitcoini kasutamise mugavamaks ja intuitiivsemaks, mis tavaliselt ohustab konfidentsiaalsust. Tänu BIP47-le saavutab see kasutusmugavus sama konfidentsiaalsuse taseme kui klassikaline tehing. Seetõttu on BIP47 nii väärtuslik vahend privaatsuse säilitamiseks.
 
-Esialgu oli BIP47 ettepanek, mis oli sõnastatud Bitcoin Core'ile integreerimiseks, kuid seda ei võetud kunagi vastu. Mõned tarkvarad otsustasid seda siiski rakenduste tasandil iseseisvalt rakendada. Seega arendasid Samourai rahakoti meeskonnad oma BIP47 rakendamise nimega "PayNym"
+Esialgu tehti ettepanek integreerida BIP47 Bitcoin Core'i, kuid seda ei rakendatud kunagi. Mõned tarkvararakendused otsustasid seda siiski ise rakendada. Näiteks Samourai rahakoti meeskonnad on välja töötanud oma BIP47 rakendamise nimega "PayNym".
 
-### BIP47 ja PayNymi üldine põhimõte
+### BIP47 ja PayNym üldpõhimõte
 
-BIP47 eesmärk on võimaldada arvukate maksete vastuvõtmist ilma aadressi korduvkasutamist põhjustamata. See põhineb korduvkasutatava maksekoodi kasutamisel, mis võimaldab erinevatel saatjatel saata mitu makset ühele teisele kasutajale kuuluvale koodile. Seega ei pea saaja iga tehingu jaoks uut aadressi esitama, mis lihtsustab oluliselt nende teabevahetust, säilitades samal ajal nende privaatsust.
+BIP47 eesmärk on võimaldada suure hulga maksete vastuvõtmist ilma aadresside korduvkasutamiseta. See põhineb korduvkasutatava maksekoodi kasutamisel, mis võimaldab erinevatel emitentidel saata mitu makset ühele koodile, mis kuulub teisele kasutajale. Selle tulemusena ei pea saaja iga tehingu puhul esitama uut, tühja aadressi, mis lihtsustab oluliselt andmevahetust, säilitades samas konfidentsiaalsuse.
 
-![BTC204](assets/it/66/4.webp)
+![BTC204](assets/fr/213.webp)
 
-Seejärel saab kasutaja oma maksekoodi vabalt jagada kas sotsiaalvõrgustikes või oma veebisaidil, ilma et ta riskiks privaatsuse kaotamisega, erinevalt sellest, mis juhtuks klassikalise vastuvõtuaadressi või avaliku võtme puhul.
+Seega võib kasutaja oma maksekoodi täiesti vabalt jagada, kas sotsiaalvõrgustikes või oma veebisaidil, ilma et ta riskiks konfidentsiaalsuse kaotamisega, erinevalt tavapärasest vastuvõtja aadressist või avalikust võtmest.
 
-Tehingu tegemiseks peab mõlemal osapoolel olema Bitcoini rahakott, mis on rakendatud BIP47, näiteks PayNym Samourai rahakotis või Sparrow rahakotis. Nende maksekoodide ühine kasutamine loob nende vahel salajase kanali. Selle kanali tõhusaks loomiseks peab saatja tegema Bitcoini plokiahelas konkreetse tehingu, mida nimetatakse "teavitustehinguks" (selle kohta annan hiljem täpsemalt teavet).
+Tehingu sooritamiseks vajavad mõlemad osapooled BIP47 rakendusega Bitcoini rahakotti, näiteks PayNym on Samurai Wallet või Sparrow Wallet. Nende maksekoodide ühine kasutamine loob nende vahel salajase kanali. Selle kanali tõhusaks loomiseks peab väljastaja tegema Bitcoini plokiahelas konkreetse tehingu, mida nimetatakse "teavitustehinguks" (sellest lähemalt hiljem).
 
-Mõlema kasutaja maksekoodide kombinatsioon loob ühised saladused, mis omakorda võimaldavad luua suure hulga unikaalseid Bitcoini vastuvõtuaadresse (täpselt 2^32 ehk umbes 4 miljardit). Seega ei ole BIP47 kaudu tehtud maksed tegelikult adresseeritud mitte maksekoodile endale, vaid pigem klassikalistele vastuvõtuaadressidele, mis on tuletatud asjaomaste kasutajate maksekoodidest.
+Kahe kasutaja maksekoodide kombineerimine tekitab ühiseid saladusi, mis omakorda loovad suure hulga unikaalseid Bitcoini vastuvõtuaadresse (täpselt 2^32 ehk umbes 4 miljardit). Seega ei ole BIP47 kaudu tehtud maksed tegelikult adresseeritud mitte maksekoodile endale, vaid pigem klassikalistele vastuvõtuaadressidele, mis on tuletatud asjaomaste kasutajate maksekoodidest.
 
-Maksekood on siis virtuaalne identifikaator, mis on tuletatud rahakoti seemnest. Portfelli hierarhilises tuletamisstruktuuris on maksekood paigutatud 3. tasandile, st kontotasandile.
+Maksekood on seega virtuaalne identifikaator, mis on tuletatud portfelli seemnest. Portfelli hierarhilises tuletamisstruktuuris asub maksekood 3. tasandil, st kontotasandil.
 
-![BTC204](assets/it/66/5.webp)
+![BTC204](assets/fr/214.webp)
 
-BIP47 tuletamise sihtmärk on identifitseeritud indeksiga `47'` (`0x8000002F`), mis viitab BIP47-le. Taaskasutatava maksekoodi tuletamise tee näide on järgmine:
+BIP47 tuletamise sihtmärk on identifitseeritud indeksiga "47" ("0x8000002F"), mis viitab BIP47-le. Taaskasutatava maksekoodi tuletamise tee näide on järgmine:
 
 ```plaintext
 m/47'/0'/0'/
@@ -2717,12 +3050,12 @@ m/47'/0'/0'/
 Et anda teile aimu, kuidas maksekood välja näeb, on siin minu oma:
 
 ```plaintext
-M8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
+PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
 
-Seda koodi saab lihtsaks suhtlemiseks kodeerida ka QR-koodiks, nagu klassikalist vastuvõtuaadressi.
+Seda koodi saab kodeerida ka QR-koodina, et lihtsustada suhtlemist, nagu tavalist vastuvõtuaadressi.
 
-Mis puutub PayNym Bots'i, siis need Twitteris mõnikord nähtud robotid on Samourai rahakoti poolt loodud maksekoodi visuaalsed kujutised. Need genereeritakse hashing-funktsiooni abil, mis annab neile peaaegu unikaalsuse. Nad ilmuvad väikese märgijada kujul, mis algab tähega `+`:
+Mis puutub PayNym Bots, robotid, mida mõnikord Twitteris näha, siis need on Samourai rahakoti poolt loodud maksekoodi visuaalsed kujutised. Need genereeritakse hash-funktsiooni abil, mis annab neile peaaegu unikaalsuse. Nad on väikese tähemärkide jada kujul, mis algab tähega `+` :
 
 ```plaintext
 +throbbingpond8B1
@@ -2734,28 +3067,28 @@ Neid avatare saab esitada ka piltidena:
 
 ![BTC204](assets/fr/215.webp)
 
-Kuigi neil robotitel ei ole konkreetset tehnilist funktsiooni BIP47 raamistikus, mängivad nad rolli kasutajate vahelise suhtluse hõlbustamisel, pakkudes kergesti äratuntavat visuaalset identiteeti.
+Kuigi neil robotitel ei ole konkreetset tehnilist funktsiooni BIP47 raamistikus, mängivad nad siiski rolli kasutajate suhtluse hõlbustamisel, pakkudes kergesti äratuntavat visuaalset identiteeti.
 
 ---
-*Käesoleva peatüki järgmistes BIP47-le pühendatud osades uurime selle toimimist üksikasjalikult, keskendudes eelkõige kasutatud krüptograafilistele meetoditele. Nende üsna tehniliste selgituste täielikuks mõistmiseks on kõigepealt oluline mõista HD-kontode struktuuri, võtmete tuletamise protsesse ja elliptilisel kõveral põhineva krüptograafia aluspõhimõtteid. Kui soovite nende mõistete kohta rohkem teada saada, on veel üks tasuta kursus kättesaadav Plan ₿ Network'is:*
+*Käesoleva peatüki järgmistes BIP47-le pühendatud osades vaatame üksikasjalikult, kuidas see töötab, pöörates erilist tähelepanu kasutatud krüptograafilistele meetoditele. Nende mõnevõrra tehniliste selgituste täielikuks mõistmiseks on esmalt oluline mõista HD-kontode struktuuri, võtme tuletamise protseduure ja elliptilise kõveruse krüptograafia põhialuseid. Kui soovite neisse mõistetesse süveneda, siis on veel üks tasuta koolituskursus saadaval Plan ₿ Network :*
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
-*Soovitan seda väga jälgida, sest BIP47 tehnilise toimimise mõistmine aitab teil palju lihtsamini mõista teisi sarnaseid ettepanekuid, mida arutame järgmistes peatükkides.*
+*Soovitan teil neid siiski jälgida, sest BIP47 tehnilise toimimise mõistmine teeb teile palju lihtsamaks teiste sarnaste ettepanekute mõistmise, mida arutame järgmistes peatükkides*
 
 ---
 ### Taaskasutatav maksekood
 
-Nagu eespool mainitud, asub korduvkasutatav maksekood HD rahakoti 3. tasandil, mis teeb selle võrreldavaks "xpubiga" nii oma positsiooni poolest rahakoti struktuuris kui ka oma rolli poolest.
+Nagu eespool mainitud, asub korduvkasutatav maksekood HD rahakoti 3. sügavusel, mis teeb selle võrreldavaks "xpubiga" nii oma positsiooni poolest rahakoti struktuuris kui ka oma rolli poolest.
 
-80 baidine maksekood jaguneb järgmiselt:
+80 baidi pikkune maksekood jaguneb järgmiselt:
 
 
 - Byte "0": Versioon**. BIP47 esimese versiooni puhul on selle baidi väärtuseks "0x01";
-- Byte "1": Bittväli**. See koht on reserveeritud lisamärkide lisamiseks konkreetsete kasutuste ajal. PayNymi standardkasutusel on see bait määratletud kui "0x00";
-- Byte "2": Pariteet `y`**. See bait on `0x02` või `0x03`, mis näitab, kas avaliku võtme ordinaat on paariline või paaritu, kuna kasutatakse kokkusurutud avalikku võtit;
-- Alates baidist "3" kuni baidini "34": Väärtus `x`**. Need baitid kujutavad avaliku võtme absisset. `x` ja pariteedi `y` liitmine moodustab täieliku kokkusurutud avaliku võtme;
-- Alates baidist "35" kuni baidini "66": Ketikood**. See ala sisaldab avaliku võtmega seotud ahelakoodi;
-- Alates baidist "67" kuni baidini "79": Täitmine**. See koht on ette nähtud võimalikuks edasiseks arendamiseks. Praeguse versiooni puhul on siia lihtsalt paigutatud nullid, et saavutada 80 baidi suurune väljund, mis on vajalik `OP_RETURN` väljundiks.
+- Byte "1": Bittväli**. See koht on reserveeritud lisamärkide integreerimiseks konkreetsete kasutusalade jaoks. Klassikalise PayNymi kasutamisel on selle baidi väärtuseks "0x00";
+- 2" bait: Pariteet `y`**. See bait on `0x02` või `0x03`, mis näitab, kas avaliku võtme ordinaat on paariline või paaritu, kuna kasutatakse kokkusurutud avalikku võtit;
+- Alates baidist "3" kuni baidini "34": Väärtus `x`**. Need baitid esindavad avaliku võtme absisset. `x` ja pariteedi `y` liitmine moodustab täieliku kokkusurutud avaliku võtme;
+- Alates baidist "35" kuni baidini "66": Stringkood**. See ala sisaldab avaliku võtmega seotud stringikoodi;
+- Alates baidist "67" kuni baidini "79": Täidis**. See ruum on ette nähtud võimalike tulevaste arengute jaoks. Praeguse versiooni puhul paigutame siia lihtsalt nullid, et saavutada 80 baidi suurust, mis on vajalik `OP_RETURN` väljundi jaoks.
 
 Siin on minu eelmises punktis juba esitatud korduvkasutatava maksekoodi heksadetsimaalne esitus:
 
@@ -2763,106 +3096,108 @@ Siin on minu eelmises punktis juba esitatud korduvkasutatava maksekoodi heksadet
 0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
-![BTC204](assets/it/66/7.webp)
+![BTC204](assets/fr/216.webp)
 
-Kõigepealt on vaja lisada algusesse eesliite "P", et selgelt näidata, et tegemist on maksekoodiga. Seda baiti tähistab `0x47`:
+Seejärel tuleb lisada algusse eesliite "P", mis näitab selgelt, et tegemist on maksekoodiga. Seda baiti tähistab "0x47":
 
 ```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
-Lõpuks, et tagada maksekoodi terviklikkus, arvutatakse kontrollsumma, kasutades `HASH256`, mis koosneb kahekordsest hashimisest funktsiooniga `SHA256`. Seejärel ühendatakse selle hashi tulemusel saadud neli esimest baiti maksekoodi lõppu:
+Lõpuks, et tagada maksekoodi terviklikkus, arvutatakse kontrollsumma, kasutades `HASH256`, mis koosneb kahekordsest hashist, kasutades `SHA256` funktsiooni. Seejärel ühendatakse selle hashi esimesed neli baiti maksekoodi lõppu:
 
 ```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
 ```
 
-Kui need sammud on lõpetatud, on maksekood valmis. Ainus järelejäänud samm on selle teisendamine baas 58-ks, et saada selle lõplik versioon:
+![BTC204](assets/fr/217.webp)
+
+Kui need sammud on lõpetatud, on maksekood valmis. Lõpliku versiooni saamiseks tuleb see vaid teisendada baas 58-ks:
 
 ```plaintext
 PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
 
-Selle maksekoodi loomise käigus kasutame tihendatud avalikku võtit ja ahelakoodi. Mõlemad tuletatakse rahakoti seemnest deterministliku ja hierarhilise tuletamise teel. Selleks kasutatav tuletamise tee on järgmine:
+Maksekoodi loomisel kasutame kokkusurutud avalikku võtit ja string-koodi. Mõlemad tuletatakse deterministlikult ja hierarhiliselt rahakoti seemnest. Selleks kasutatav tuletamise tee on :
 
 ```plaintext
 m/47'/0'/0'/
 ```
 
-Taaskasutatava maksekoodi kokkusurutud avaliku võtme ja sellega seotud ahelakoodi genereerimiseks arvutame esmalt rahakoti seemnest peamise privaatvõtme. Seejärel tuletame tütarvõtmepaari, kasutades indeksit `47 + 2^31` (tugevdatud tuletamine). Sellele sammule järgneb veel kaks järjestikust tütarvõtmepaari tuletamist, kasutades indeksit `2^31` (tugevdatud tuletamine).
+Konkreetselt öeldes, et genereerida kokkusurutud avalik võti ja korduvkasutatava maksekoodiga seotud string-kood, alustame rahakoti seemnest peamise privaatvõtme arvutamisega. Seejärel jätkame tütrivõtmete paari tuletamist, kasutades indeksit `47 + 2^31` (tugevdatud tuletamine). Sellele järgneb veel kaks järjestikust tütrepaari tuletamist, kasutades indeksit `2^31` (tugevdatud tuletamine).
 
-### Elliptilise kurvi Diffie-Hellmani võtmevahetus (ECDH)
+![BTC204](assets/fr/218.webp)
 
-BIP47 keskmes olevale krüptograafilisele protokollile viidatakse akronüümiga ECDH, mis tähendab _Elliptic-Curve Diffie-Hellman_. See meetod on algse Diffie-Hellmani võtmevahetuse variant.
+### Diffie-Hellmani võtmevahetus elliptilistel kõveratel (ECDH)
 
-1976. aastal kasutusele võetud Diffie-Hellmani protokoll on võtmekokkuleppe protokoll, mis võimaldab kahel osapoolel, kellel mõlemal on võtmepaar (avalik ja privaatne), leppida kokku ühises saladuses, isegi kui nad suhtlevad ainult avaliku, ebaturvalise kanali kaudu.
+BIP47 keskmes olev krüptograafiline protokoll on tuntud lühendi ECDH all, mis tähendab *Elliptic-Curve Diffie-Hellman*. See meetod on algse Diffie-Hellmani võtmevahetuse variant.
 
-![BTC204](assets/it/66/10.webp)
+1976. aastal kasutusele võetud Diffie-Hellmani protokoll on võtmekokkuleppe protokoll, mis võimaldab kahel osapoolel, kellel mõlemal on võtmepaar (avalik ja privaatne), leppida kokku ühises saladuses, isegi kui nad suhtlevad ainult avaliku, turvamata kanali kaudu.
 
-Seda jagatud saladust (siin sinine võti) saab seejärel kasutada teisteks toiminguteks. Tavaliselt saab seda jagatud saladust kasutada ebaturvalise võrgu kaudu toimuva side krüpteerimiseks ja dekrüpteerimiseks:
+![BTC204](assets/fr/219.webp)
+
+Seda jagatud saladust (antud juhul sinist võtit) saab seejärel kasutada teisteks toiminguteks. Tavaliselt saab seda jagatud saladust kasutada side krüpteerimiseks ja dekrüpteerimiseks turvamata võrgus:
 
 ![BTC204](assets/fr/220.webp)
 
-Diffie-Hellman kasutab jagatud saladuse arvutamiseks modulaararvutust. Siin on lihtsustatud selgitus selle toimimisest:
+Selle saavutamiseks kasutab Diffie-Hellman jagatud saladuse arvutamiseks moodulaararitmeetikat. Siin on, kuidas see töötab maakeelselt:
 
 
-- Alice ja Bob lepivad kokku ühises värvitoonis, siinkohal kollane, mis kujutab endast avalikke andmeid (ründajad teavad seda värvi);
-- Alice valib salajase värvi, siinkohal punase, ja segab neid kahte, et saada oranž;
-- Bob valib ka salajase värvi, siin sinise, ja segab selle kollase värviga, et saada roheline;
-- Seejärel vahetavad nad saadud värvid, oranži ja rohelise. See vahetus võib toimuda ebaturvalises, jälgitavas võrgus;
-- Segades Bobi rohelist värvi oma salajase värviga, toodab Alice pruuni;
-- Bob, kes teeb sama Alice'i oranži ja tema salajase sinise värviga, saab ka pruuni.
+- Alice ja Bob lepivad kokku ühises värvis, antud juhul kollases, mis on avalikud andmed (ründajad teavad seda värvi);
+- Alice valib salajase värvi, antud juhul punase, ja segab neid kahte, et saada oranž;
+- Bob valib ka salajase värvi, antud juhul sinise, ja segab selle kollase värviga, et saada roheline;
+- Seejärel vahetavad nad saadud värvid, oranži ja rohelise. See vahetus võib toimuda ebaturvalises võrgus ja olla ründajate poolt jälgitav;
+- Segades Bobi rohelist värvi oma salajase värviga, toodab Alice pruuni värvi;
+- Bob, tehes sama Alice'i oranži ja salajase sinisega, saab ka pruuni.
 
-![BTC204](assets/it/66/12.webp)
+![BTC204](assets/fr/221.webp)
 
-Selles lihtsustuses tähistab pruun värv Alice'i ja Bobi vahel jagatud saladust. Oluline on mõista, et tegelikkuses on ründajal võimatu eraldada oranži ja rohelist värvi, et avastada Alice'i või Bobi salajasi värve.
+Selles populariseerimises tähistab pruun värv Alice'i ja Bobi jagatud saladust. Kujutage ette, et tegelikkuses on ründajal võimatu eraldada oranži ja rohelist värvi, et leida Alice'i või Bobi salajane värv.
 
-Uurime nüüd, kuidas see protokoll tegelikult toimib, mitte värvianaloogiate, vaid reaalarvude ja moodularvutuse abil!
+Nüüd vaatame, kuidas see protokoll tegelikult toimib, mitte värvianaloogiate, vaid reaalarvude ja moodularvutuse abil!
 
-Enne Diffie-Hellmani mehhanismide arutamist tuletan teile lühidalt meelde kahte olulist matemaatilist mõistet, mida me vajame:
+Enne kui me käsitleme Diffie-Hellmani mehhanisme, lubage mul lühidalt meelde tuletada kahte olulist matemaatilist mõistet, mida me vajame:
 
 
-- **Primusarv** on naturaalarv, millel on ainult kaks jagajat: $1$ ja tema ise. Näiteks $7$ on algarv, sest seda saab jagada ainult $1$ ja $7$. Seevastu $8$ ei ole algarv, sest ta on jagatav $1$, $2$, $4$ ja $8$ga. Seega on tal kahe positiivse täisarvu asemel neli positiivset jagajat;
-- **mod** (tähistatakse $mod$ või $\%$) on matemaatiline operatsioon, mis kahe täisarvu vahel annab tagasi esimese jagatise jäägi viimase eukleidilise jagamise jäägi. Näiteks $16 \bmod 5 = 1$.
+- **Primusarv** on naturaalarv, millel on ainult kaks jagajat: $1$ ja tema ise. Näiteks $7$ on algarv, sest seda saab jagada ainult $1$ ja $7$. Seevastu $8$ ei ole algarv, sest see on jagatav $1$, $2$, $4$ ja $8$ga. Seega on tal kahe positiivse täisarvu asemel neli positiivset jagajat;
+- **modulo** (tähistatud $mod$ või $\%$) on matemaatiline operatsioon, mis annab kahe täisarvu vahel tagasi esimese jagatise jäägi teise jagatise eukleidilise jäägi. Näiteks $16\bmod 5 = $1$.
 
 **Diffie-Hellmani võtmevahetus Alice'i ja Bobi vahel toimub järgmiselt:**
 
 
-- Alice ja Bob lepivad kokku kahes ühises arvus: $p$ ja $g$. $p$ on algarv ja mida suurem on see arv, seda turvalisem on Diffie-Hellmani süsteem. $g$ on $p$ algjuur. Neid kahte arvu saab avalikult edastada turvamata võrgu kaudu. Nad esindavad ülaltoodud lihtsustuses **kollase värvi** ekvivalenti. Seetõttu on oluline, et Alice ja Bob kasutaksid täpselt samu väärtusi $p$ ja $g$ jaoks.
+- Alice ja Bob lepivad kokku kahes ühises arvus: $p$ ja $g$. $p$ on algarv, ja mida suurem arv, seda turvalisem on Diffie-Hellman. $g$ on $p$ algjuur. Neid kahte numbrit saab turvalises võrgus vabalt edastada. Nad esindavad **kollase värvi** ekvivalenti eelmises populariseerimises. Seetõttu on oluline, et Alice ja Bob kasutaksid täpselt samu väärtusi $p$ ja $g$ jaoks.
+- Kui need parameetrid on kindlaks määratud, valivad Alice ja Bob kumbki salajase juhusliku arvu. Alice nimetab oma salajase juhusliku arvu $a$ (vastab **punasele värvile**) ja Bob oma $b$ (vastab **sinisele värvile**). Need numbrid peavad jääma salajaseks.
+- Selle asemel, et vahetada numbreid $a$ ja $b$ otse, arvutab kumbki osapool $A$ ja $B$ järgmiselt:
 
-Kui need parameetrid on määratletud, valivad Alice ja Bob kumbki juhusliku salajase numbri. Alice nimetab oma juhusliku salajase arvu $a$ (vastab **punasele värvile**) ja Bob nimetab oma $b$ (vastab **sinisele värvile**). Need numbrid peavad jääma rangelt konfidentsiaalseks.
-
-Selle asemel, et vahetada numbreid $a$ ja $b$ otse, arvutab kumbki pool $A$ ja $B$ järgmiselt:
-
-$A$ on võrdne $g$, mis on tõstetud $a$ potentsile $p$:
+$A$ on võrdne $g$ võimsusega $a$ moodulitega $p$ :
 
 $$
 A = g^a \bmod p
 $$
 
-$B$ on võrdne $g$, mis on tõstetud $b$ võimsusega $p$:
+$B$ on võrdne $g$ võimsusega $b$ moodulitega $p$ :
 
 $$
 B = g^b \bmod p
 $$
 
-Kahe osapoole vahel vahetatakse väärtusi $A$ (vastab **oranžile värvile**) ja $B$ (vastab **rohelisele värvile**). See vahetus võib toimuda avalikult turvamata võrgu kaudu;
 
-Alice, kes on saanud $B$, arvutab $z$ väärtuse järgmiselt:
+- Kahe osapoole vahel vahetatakse väärtusi $A$ (vastab **oranžile värvile**) ja $B$ (vastab **rohelisele värvile**). See andmevahetus võib toimuda selge tekstina turvamata võrgus;
+- Alice, kes on saanud $B$, arvutab $z$ väärtuse järgmiselt:
 
-$z$ on võrdne $B$, mis on tõstetud $a$ potentsile $p$:
+$z$ on võrdne $B$ võimsusega $a$ moodulitega $p$ :
 
 $$
 z = B^a \bmod p
 $$
 
-Meenuta:
+Meeldetuletus:
 
 $$
 B = g^b \bmod p
 $$
 
-Seega saame:
+Tulemuseks on :
 
 $$
 z = B^a \bmod p
@@ -2872,28 +3207,28 @@ $$
 z = (g^b)^a \bmod p
 $$
 
-Eksponentide reeglite rakendamine:
+Kohaldades võimsuseeskirju :
 
 $$
 (x^n)^m = x^{nm}
 $$
 
-Seega saame:
+Tulemuseks on :
 
 $$
 z = g^{ba} \bmod p
 $$
 
 
-- Bob, kes on saanud $A$, arvutab ka $z$ väärtuse järgmiselt:
+- Bob, kes on saanud $A$, arvutab omalt poolt ka $z$ väärtuse järgmiselt:
 
-$z$ on võrdne $A$, mis on tõstetud $b$ potentsile $p$:
+$z$ on võrdne $A$ võimsusega $b$ moodulitega $p$ :
 
 $$
 z = A^b \bmod p
 $$
 
-Seega saame:
+Tulemuseks on :
 
 $$
 z = (g^a)^b \bmod p
@@ -2907,17 +3242,19 @@ $$
 z = g^{ba} \bmod p
 $$
 
-Modulo-operaatori distributivsuse tõttu saavad Alice ja Bob täpselt sama $z$ väärtuse. See arv esindab nende ühist saladust, mis on samaväärne **pruuni värviga** eelmises lihtsustuses värvipottidega. Nüüd saavad nad kasutada seda ühist saladust oma side sümmeetriliseks krüpteerimiseks turvamata võrgus.
+Tänu modulo-operaatori distributiivsusele saavad Alice ja Bob täpselt sama väärtuse $z$. See arv esindab nende ühist saladust, mis on samaväärne **pruuni värviga** eelmises populariseerimises värvipurkidega. Nüüd saavad nad seda ühist saladust kasutada oma side sümmeetriliseks krüpteerimiseks turvamata võrgus.
 
-Ründaja, isegi kui ta teab $p$, $g$, $A$ ja $B$ (avalikud väärtused), ei saa arvutada $a$, $b$ või $z$ (privaatsed väärtused). Selleks oleks vaja pöörata eksponentsiaal, mis on võimatu ülesanne, ilma et prooviks kõiki võimalusi ükshaaval läbi, sest see on samaväärne diskreetse logaritmi, st eksponentsiaalarvu pöördväärtuse arvutamisega piiratud tsüklilises rühmas.
+![BTC204](assets/fr/222.webp)
 
-Seega, kui $a$, $b$ ja $p$ väärtused on piisavalt suured, on Diffie-Hellmani protokoll turvaline. Tavaliselt oleks 2048-bitiste parameetrite puhul (600-kohaline arv kümnendmurdes) kõigi võimaluste $a$ ja $b$ testimine ebapraktiline. Praeguseks peetakse seda algoritmi selliste arvude puhul turvaliseks.
+Ründaja, isegi kui ta teab $p$, $g$, $A$ ja $B$ (avalikud väärtused), ei saa arvutada $a$, $b$ või $z$ (privaatsed väärtused). Selleks tuleks eksponentimine ümber pöörata, mis on võimatu, kui ei proovita kõiki võimalusi ükshaaval, sest see võrdub diskreetse logaritmi, st eksponendi pöördväärtuse arvutamisega piiratud tsüklilises rühmas.
 
-Just selles seisnebki Diffie-Hellmani protokolli peamine puudus. Et olla turvaline, peab algoritm kasutama suuri numbreid. Seepärast eelistatakse tänapäeval ECDH (_Elliptic Curve Diffie-Hellman_) algoritmi, mis on Diffie-Hellmani variant, mis põhineb algebralisel kõveral, täpsemalt elliptilisel kõveral. See lähenemisviis võimaldab töötada palju väiksemate arvudega, säilitades samas samaväärse turvalisuse, vähendades seega arvutamiseks ja salvestamiseks vajalikke ressursse.
+Niisiis, kui $a$, $b$ ja $p$ väärtused on piisavalt suured, on Diffie-Hellmani protokoll turvaline. Tavaliselt oleks 2048-bitiste parameetrite (600-kohaline kümnendarv) korral kõigi võimalike $a$ ja $b$ võimaluste testimine ebapraktiline. Praeguseks peetakse seda algoritmi selliste arvude puhul turvaliseks.
 
-Algoritmi üldine põhimõte jääb samaks. Kuid selle asemel, et kasutada juhuslikku arvu $a$ ja arvu $A$, mis on arvutatud $a$ põhjal modulaarse ekponentseerimise teel, kasutame me elliptilisel kõveral loodud võtmepaari. Selle asemel, et tugineda modulo-operaatori jaotatavusele, kasutame me elliptiliste kõverate grupiseadust, täpsemalt selle seaduse assotsiatiivsust.
+Siin peitubki Diffie-Hellmani protokolli peamine puudus. Et olla turvaline, peab algoritm kasutama suuri numbreid. Seepärast eelistame tänapäeval kasutada ECDH (*Elliptic Curve Diffie-Hellman*) algoritmi, mis on Diffie-Hellmani variant, mis põhineb algebralisel kõveral, täpsemalt elliptilisel kõveral. See lähenemisviis võimaldab töötada palju väiksemate arvudega, säilitades samas samaväärse turvalisuse, vähendades seega arvutamiseks ja salvestamiseks vajalikke ressursse.
 
-Lühidalt selgitades elliptilise kõveruse krüptograafia põhimõtet, kujutab privaatne võti endast juhuslikku arvu vahemikus $1$ kuni $n-1$, kus $n$ tähistab kõveruse järjestust. Avalik võti seevastu on konkreetne punkt sellel kõveral, mis saadakse privaatvõttest punktide liitmise ja kahekordistamise operatsioonide abil, mis algavad genereerimispunktist, vastavalt võrrandile:
+Algoritmi üldine põhimõte jääb samaks. Kuid selle asemel, et kasutada juhuslikku arvu $a$ ja arvu $A$, mis arvutatakse $a$ põhjal modulaarse ekponentseerimise teel, kasutame me elliptilisel kõveral loodud võtmepaari. Selle asemel, et tugineda modulo-operaatori jaotatavusele, kasutame elliptiliste kõverate grupiseadust, täpsemalt selle seaduse assotsiatiivsust.
+
+Lühidalt selgitades krüptograafia põhimõtet elliptiliste kõverate puhul, kujutab privaatne võti endast juhuslikku arvu vahemikus $1$ kuni $n-1$, kus $n$ tähistab kõvera järjekorda. Avalik võti seevastu on konkreetne punkt sellel kõveral, mis saadakse privaatvõttest, lisades ja kahekordistades punkte genereerivast punktist vastavalt võrrandile :
 
 $$
 K = k \cdot G
@@ -2925,12 +3262,12 @@ $$
 
 Selles valemis tähistab $K$ avalikku võtit, $k$ privaatvõtit ja $G$ genereerimispunkti.
 
-Nende võtmete üks olulisi omadusi on see, et $K$ on lihtne arvutada $k$-st ja $G$-st, samas kui $k$ leidmine $K$-st ja $G$-st on praktiliselt võimatu. See asümmeetria tekitab ühesuunalise funktsiooni. Teisisõnu, avaliku võtme arvutamine on lihtne, kui on teada salajane võti, kuid salajase võtme leidmine avaliku võtme põhjal on võimatu. See turvalisus tugineb endiselt diskreetse logaritmi arvutuslikule keerukusele.
+Nende võtmete oluline omadus on see, et $K$ on lihtne arvutada $k$ ja $G$ põhjal, samas kui $k$ leidmine $K$ ja $G$ põhjal on praktiliselt võimatu. See asümmeetria tekitab ühesuunalise funktsiooni. Teisisõnu, avaliku võtme arvutamine on lihtne, kui on teada privaatne võti, kuid avaliku võtme põhjal on privaatse võtme leidmine võimatu. Seda turvalisust toetab veelgi diskreetse logaritmi arvutuslik keerukus.
 
-Kasutame seda omadust meie Diffie-Hellmani algoritmi kohandamiseks. **ECDH tööpõhimõte on järgmine:**
+Kasutame seda omadust, et kohandada meie Diffie-Hellmani algoritmi. **ECDH tööpõhimõte on järgmine:**
 
 
-- Alice ja Bob lepivad koos kokku krüptograafiliselt turvalises elliptilises kõveras ja selle parameetrites. See teave on avalik;
+- Alice ja Bob lepivad kokku krüptograafiliselt turvalises elliptilises kõveras ja selle parameetrites. See teave on avalik;
 - Alice genereerib juhusliku arvu $ka$, mis on tema privaatne võti. See privaatne võti peab jääma salajaseks. Ta määrab oma avaliku võtme $Ka$ valitud elliptilise kõvera punktide liitmise ja kahekordistamise teel:
 
 $$
@@ -2938,7 +3275,7 @@ K_a = k_a \cdot G
 $$
 
 
-- Bob genereerib ka juhusliku arvu $kb$, mis on tema privaatne võti. Ta arvutab sellega seotud avaliku võtme $kb$:
+- Bob genereerib ka juhusliku arvu $kb$, mis on tema privaatne võti. Ta arvutab sellega seotud avaliku võtme $Kb$ :
 
 $$
 K_b = k_b \cdot G
@@ -2946,537 +3283,966 @@ $$
 
 
 - Alice ja Bob vahetavad oma avalikke võtmeid $Ka$ ja $Kb$ turvamata avalikus võrgus.
-- Alice arvutab punkti $(x,y)$ kõveral, rakendades oma isiklikku võtit $ka$ Bobi avalikule võtmele $Kb$:
+- Alice arvutab punkti $(x,y)$ kõveral, rakendades oma privaatvõtit $ka$ Bobi avalikule võtmele $Kb$ :
 
 $$
 (x,y) = k_a \cdot K_b
 $$
 
 
-- Bob arvutab punkti $(x,y)$ kõveral, rakendades oma isiklikku võtit $kb$ Alice'i avalikule võtmele $Ka$:
+- Bob arvutab punkti $(x,y)$ kõveral, rakendades oma privaatvõtit $kb$ Alice'i avalikule võtmele $Ka$ :
 
 $$
 (x,y) = k_b \cdot K_a
 $$
 
 
-- Alice ja Bob saavad sama punkti elliptilisel kõveral. Jagatud saladus on selle punkti $x$ koordinaat.
+- Alice ja Bob saavad sama punkti elliptilisel kõveral. Jagatud saladus on selle punkti absiksis $x$.
 
-Tegelikult saavad nad sama ühise saladuse, sest:
+Nad saavad sama ühise saladuse, sest :
 
+$$
 (x,y) = k_a \cdot K_b = k_a \cdot (k_b \cdot G) = (k_a \cdot k_b) \cdot G = (k_b \cdot k_a) \cdot G = k_b \cdot (k_a \cdot G) = k_b \cdot K_a
-
-$$
-Un attaccante che osserva la rete pubblica non protetta può ottenere solo le chiavi pubbliche di ciascuna parte e i parametri della curva ellittica scelta. Come precedentemente spiegato, queste informazioni da sole non sono sufficienti per determinare le chiavi private. Pertanto, l'attaccante non può trovare il segreto condiviso tra Alice e Bob.
-ECDH è quindi un algoritmo che consente lo scambio di chiavi. È spesso utilizzato in combinazione con altri metodi crittografici per stabilire un protocollo completo. Ad esempio, ECDH è integrato nel nucleo di TLS (_Transport Layer Security_), un protocollo di crittografia e autenticazione utilizzato per il livello di trasporto di Internet. TLS utilizza ECDHE per lo scambio di chiavi, una variante di ECDH dove le chiavi sono effimere, per garantire la confidenzialità persistente. Inoltre, TLS utilizza algoritmi di autenticazione come ECDSA, algoritmi di crittografia come AES e funzioni hash come SHA256.
-TLS è notevolmente responsabile della `s` in `https` così come del lucchetto visibile nella barra degli indirizzi del tuo browser, simboli delle comunicazioni criptate. Seguendo questo corso, stai quindi utilizzando ECDH, ed è molto probabile che lo usi quotidianamente senza nemmeno saperlo.
-### La Transazione di Notifica
-Come abbiamo visto nella sezione precedente, ECDH è una variante dello scambio Diffie-Hellman che utilizza coppie di chiavi stabilite su una curva ellittica. Convenientemente, possediamo già molte coppie di chiavi aderenti a questo standard nei nostri portafogli Bitcoin! L'idea di BIP47 è di utilizzare le coppie di chiavi dei portafogli Bitcoin gerarchici deterministici di entrambe le parti per stabilire segreti condivisi ed effimeri tra di loro. Nel contesto di BIP47, viene utilizzato ECDHE (_Elliptic Curve Diffie-Hellman Ephemeral_).
-ECDHE viene utilizzato per la prima volta in BIP47 per trasmettere il codice di pagamento dal mittente al destinatario. Questo è il famoso **notification transaction**. Questo passaggio è essenziale perché affinché BIP47 funzioni efficacemente, entrambe le parti coinvolte (il mittente e il destinatario) devono conoscere il codice di pagamento dell'altro. Questa conoscenza consente la derivazione di chiavi pubbliche effimere e, di conseguenza, indirizzi di ricezione vuoti associati.
-Prima di questo scambio, il mittente è logicamente già a conoscenza del codice di pagamento del destinatario poiché lo ha recuperato off-chain, ad esempio, dal loro sito web, una fattura o i loro social media. Tuttavia, il destinatario potrebbe non conoscere necessariamente il codice di pagamento del mittente. Eppure, questo codice deve essere trasmesso a loro; altrimenti, non saranno in grado di derivare le chiavi effimere necessarie per identificare gli indirizzi dove sono conservati i loro bitcoin, né accedere ai loro fondi. Sebbene questa trasmissione del codice del mittente possa tecnicamente essere effettuata off-chain attraverso altri mezzi di comunicazione, ciò pone un problema se il portafoglio deve essere recuperato solo dal seme.
-Infatti, a differenza degli indirizzi convenzionali, gli indirizzi BIP47 non sono derivati direttamente dal seed del destinatario—utilizzare un `xpub` sarebbe più semplice in questo caso—ma risultano da un calcolo che combina i codici di pagamento di entrambi: quello del mittente e quello del destinatario. Pertanto, se il destinatario perde il proprio portafoglio e tenta di ripristinarlo dal proprio seed, recupererà il proprio codice di pagamento, che è derivato direttamente dal loro seed. Tuttavia, per trovare gli indirizzi effimeri, sarà essenziale per loro avere anche i codici di pagamento di tutti coloro che hanno inviato loro bitcoin tramite BIP47. Da qui l'importanza della transazione di notifica, che consente di salvare queste informazioni sulla blockchain di Bitcoin, pur essendo in grado di trovarle molto facilmente senza dover cercare tra il miliardo di transazioni eseguite dal suo lancio nel 2009.
-![BTC204](assets/it/66/15.webp)
-Pertanto, sarebbe possibile implementare BIP47 senza ricorrere alla transazione di notifica, a condizione che ogni utente conservi un backup dei codici di pagamento dei propri pari. Tuttavia, questo metodo si rivela complesso da gestire finché non viene sviluppata una soluzione semplice, robusta ed efficiente per creare, conservare e aggiornare questi backup. Nello stato attuale delle cose, la transazione di notifica diventa quasi indispensabile.
-Nei capitoli seguenti, studieremo altri protocolli con obiettivi simili a quelli di BIP47, ma che non richiedono una transazione di notifica. Queste alternative, tuttavia, introducono i propri compromessi.
-Oltre al suo ruolo nel backup dei codici di pagamento, la transazione di notifica serve anche una funzione di notifica per il destinatario, come suggerisce il suo nome. Segnala al client del destinatario che è stato stabilito un nuovo canale di pagamento e suggerisce quindi di monitorare gli indirizzi effimeri risultanti.
-### Il Modello di Privacy di BIP47
-Prima di dettagliare il funzionamento tecnico della transazione di notifica, è importante discutere il modello di privacy associato a BIP47, che giustifica alcune misure prese durante la creazione di questa transazione iniziale.
-Il codice di pagamento, di per sé, non rappresenta un rischio diretto per la privacy. A differenza del modello Bitcoin tradizionale, che mira a rompere il collegamento tra l'identità di un utente e le sue transazioni (che sono pubbliche) preservando l'anonimato di chiavi e indirizzi, il codice di pagamento può essere apertamente associato a un'identità senza rappresentare una minaccia.
-Infatti, il codice di pagamento non è utilizzato per derivare direttamente gli indirizzi che ricevono pagamenti BIP47. Questi indirizzi sono invece generati attraverso l'applicazione di ECDH tra le chiavi derivate dai codici di pagamento delle due parti coinvolte.
-Così, un codice di pagamento di per sé non porta direttamente a una perdita di privacy, poiché solo l'indirizzo di notifica è derivato da esso. Sebbene questo indirizzo possa rivelare alcune informazioni, normalmente non consente di scoprire le parti con cui si stanno conducendo transazioni, a meno che non si effettui un'analisi approfondita della catena. Infatti, se il mittente utilizza UTXO che possono essere collegati alla loro identità per eseguire la transazione di notifica, allora diventa possibile dedurre che la loro identità è probabilmente collegata ai pagamenti BIP47 al tuo codice di pagamento. Questo non rivelerà le transazioni sottostanti, ma indicherà la loro probabile esistenza.
-Pertanto, è essenziale mantenere questa stretta separazione tra i codici di pagamento degli utenti. Verso questo obiettivo, il passo iniziale di comunicazione del codice è un momento critico per la privacy del pagamento, ma obbligatorio per il corretto funzionamento del protocollo. Se uno dei codici di pagamento può essere ottenuto pubblicamente (come su un sito web), il secondo codice, quello del mittente, non deve essere collegato al primo in nessun caso.
-Prendiamo un esempio concreto: voglio fare una donazione a un movimento politico tramite BIP47:
-- L'organizzazione ha reso pubblico il suo codice di pagamento sul suo sito web o tramite i suoi social network;
-- Questo codice è quindi collegato al movimento politico;
-- Recupero questo codice di pagamento;
-- Prima di procedere con un invio, devo assicurarmi che conoscano il mio codice di pagamento, che è anche collegato alla mia identità poiché lo uso per ricevere transazioni sui miei social network.
-Come trasmettere il mio codice senza rischi? L'uso di mezzi di comunicazione convenzionali potrebbe portare a una fuga di informazioni e, di conseguenza, associarmi a questo movimento politico. La transazione di notifica offre una soluzione grazie a uno strato di crittografia che impedisce precisamente questa associazione tra due codici. Sebbene questo non sia l'unico metodo per trasmettere segretamente il codice di pagamento del mittente, si dimostra molto efficace.
-Nel diagramma sottostante, le linee arancioni indicano i punti in cui il flusso di informazioni deve essere interrotto, e le frecce nere mostrano le connessioni che potrebbero potenzialmente essere osservate da terze parti:
-![BTC204](assets/it/66/16.webp)
-In realtà, all'interno del modello tradizionale di privacy di Bitcoin, è spesso complesso dissociare completamente il flusso di informazioni tra la coppia di chiavi e l'utente, specialmente durante le transazioni a distanza. Ad esempio, nel contesto di una campagna di donazione, il destinatario deve inevitabilmente divulgare un indirizzo o una chiave pubblica tramite il loro sito web o social network. L'uso corretto di BIP47, in particolare con la transazione di notifica, permette di aggirare questo problema grazie a ECDHE e allo strato di crittografia che studieremo ulteriormente.
-Ovviamente, il modello classico di privacy di Bitcoin si applica ancora alle chiavi pubbliche effimere, che sono derivate dalla combinazione dei due codici di pagamento. I due modelli sono in realtà complementari. Quello che voglio evidenziare qui è che, contrariamente all'uso abituale di una chiave pubblica per ricevere bitcoin, il codice di pagamento può essere collegato a una specifica identità, perché l'informazione "_Alice effettua una transazione con Bob_" viene interrotta in un'altra fase. Il codice di pagamento viene utilizzato per generare indirizzi di pagamento, ma basandosi unicamente sull'osservazione della blockchain, è impossibile collegare una transazione di pagamento BIP47 ai codici di pagamento utilizzati per eseguirla, a meno che gli UTXO coinvolti non fossero già collegati a un'identità precedentemente e gli utenti non abbiano associato i loro codici di pagamento alle rispettive identità.
-Per riassumere, il modello di privacy offerto dai pagamenti BIP47 potrebbe essere considerato superiore a quello della base di Bitcoin, anche se non è magico in alcun modo.
-### Costruzione della Transazione di Notifica
-Ora, vediamo come funziona questa transazione di notifica. Immaginiamo che Alice voglia inviare fondi a Bob con BIP47. Nel mio esempio, Alice agisce come mittente e Bob come destinatario. Quest'ultimo ha pubblicato il suo codice di pagamento sul suo sito web. Pertanto, Alice è già a conoscenza del codice di pagamento di Bob.
-**1- Alice calcola un segreto condiviso con ECDH:**
-- Seleziona una coppia di chiavi dal suo portafoglio HD situato su un ramo diverso dal suo codice di pagamento. Nota, questa coppia non dovrebbe essere facilmente associata all'indirizzo di notifica di Alice, né all'identità di Alice (vedi sezione precedente);
-- Alice seleziona la chiave privata da questa coppia. La chiamiamo $a$ (minuscolo);
 $$
 
+Võimalik ründaja, kes jälgib turvamata avalikku võrku, saab teada ainult iga isiku avalikud võtmed ja valitud elliptilise kõveruse parameetrid. Nagu eespool selgitatud, ei piisa ainult sellest teabest isiklike võtmete kindlaksmääramiseks. Järelikult ei saa ründaja leida Alice'i ja Bobi vahel jagatud saladust.
+
+ECDH on seega võtmevahetusalgoritm. Seda kasutatakse sageli koos teiste krüptograafiliste meetoditega, et luua terviklik protokoll. Näiteks ECDH on TLS-i (*Transport Layer Security*), Interneti transpordikihi jaoks kasutatava krüpteerimis- ja autentimisprotokolli keskmes. TLS kasutab ECDHE-d võtmevahetuseks, mis on ECDH variant, kus võtmed on ajutised, et tagada püsiv konfidentsiaalsus. Lisaks kasutab TLS autentimisalgoritme, nagu ECDSA, krüpteerimisalgoritme, nagu AES, ja hash-funktsioone, nagu SHA256.
+
+TLS vastutab "s" eest sõnas "https" ja tabaluku eest teie brauseri aadressiribal - need on krüpteeritud side sümbolid. Selle kursuse läbimisel kasutate ECDH-d ja suure tõenäosusega kasutate seda igapäevaselt, ilma et te sellest isegi teaksite.
+
+### Teatamistehing
+
+Nagu nägime eelmises punktis, on ECDH Diffie-Hellmani andmevahetuse variant, mis kasutab elliptilisel kõveral loodud võtmepaare. Hea, et meil on juba palju seda standardit järgivaid võtmepaare meie Bitcoini rahakottides! BIP47 idee on kasutada mõlema osapoole hierarhiliste deterministlike Bitcoini rahakottide võtmepaare, et luua nende vahel jagatud, efemeersed saladused. BIP47 kasutab selle asemel ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***).
+
+![BTC204](assets/fr/223.webp)
+
+ECDHE-d kasutatakse kõigepealt BIP47-s, et edastada maksekood saatjalt saajale. See on kuulus **teavitustehing**. See etapp on oluline, sest BIP47 tõhusaks toimimiseks peavad mõlemad osapooled (saatja ja vastuvõtja) teineteise maksekoode tundma. See teadmine võimaldab tuletada ajutisi avalikke võtmeid ja seega ka nendega seotud tühje vastuvõtuaadresse.
+
+Enne seda vahetust on saatja loogiliselt juba teadlik saaja maksekoodist, olles selle saanud väljaspool ahelat, näiteks oma veebisaidilt, arvelt või sotsiaalvõrgustikust. Kuid saaja ei ole tingimata teadlik saatja maksekoodist. Kood tuleb talle siiski edastada; vastasel juhul ei ole tal võimalik tuletada efektseid võtmeid, mis on vajalikud aadresside tuvastamiseks, kus tema bitcoinid on salvestatud, või juurdepääsuks oma rahalistele vahenditele. Kuigi saatja koodi edastamist saab tehniliselt teostada väljaspool ahelat muude sidevahendite abil, tekitab see probleemi, kui rahakotti soovitakse kätte saada ainult seemnest.
+
+Selle põhjuseks on see, et erinevalt tavapärastest aadressidest ei tuletata BIP47-aadressid otse saaja seemnest - sellisel juhul oleks lihtsam kasutada "xpub"-i -, vaid need tulenevad kahe maksekoodi - saatja ja saaja koodi - kombineerimisest. Seega, kui saaja kaotab oma rahakoti ja üritab seda taastada oma seemnest, saab ta tagasi oma maksekoodi, mis on tuletatud otse tema seemnest. Kuid selleks, et taastada efemeriaalseid aadresse, vajab ta ka kõigi nende maksekoode, kes on talle BIP47 kaudu bitcoine saatnud. Siit ka teavitustehingu tähtsus, mis võimaldab seda teavet Bitcoini plokiahelasse salvestada, kuid samas on see väga lihtsalt leitav, ilma et peaks otsima läbi miljardite tehingute, mis on tehtud alates selle käivitamisest 2009. aastal.
+
+![BTC204](assets/fr/224.webp)
+
+Seega oleks võimalik rakendada BIP47 ilma teavitustehingut kasutamata, tingimusel, et iga kasutaja säilitab varukoopiaid oma eakaaslaste maksekoodidest. Seda meetodit on aga keeruline hallata, kuni ei ole välja töötatud lihtsat, töökindlat ja tõhusat lahendust nende varukoopiate koostamiseks, säilitamiseks ja ajakohastamiseks. Praeguse seisuga on teavitustehing peaaegu vältimatu.
+
+Järgmistes peatükkides vaatleme aga teisi protokolle, millel on sarnased eesmärgid nagu BIP47, kuid mis ei nõua teatamistehingut. Need alternatiivid toovad siiski kaasa oma kompromissid.
+
+Lisaks maksekoodide salvestamise rollile on teavitustehingul, nagu nimigi ütleb, ka teavitamisfunktsioon saaja jaoks. See teavitab saaja klienti sellest, et uus maksetunnel on loodud, ja soovitab tal jälgida tekkinud eufemeriaalseid aadresse.
+
+### BIP47 konfidentsiaalsusmudel
+
+Enne teatamistehingu tehnilise toimimise üksikasjalikku kirjeldamist on oluline arutada konfidentsiaalsusmudelit, mis on seotud piiripunktiga47 ja mis õigustab teatavaid meetmeid, mida võetakse selle esialgse tehingu loomisel.
+
+Maksekood ise ei kujuta endast otsest ohtu konfidentsiaalsusele. Erinevalt traditsioonilisest Bitcoini mudelist, mille eesmärk on katkestada seos kasutaja identiteedi ja tema tehingute (mis on avalikud) vahel, säilitades võtmete ja aadresside anonüümsuse, saab maksekoodi avalikult seostada identiteediga, ilma et see kujutaks endast ohtu.
+
+Seda seetõttu, et maksekoodi ei kasutata otseselt BIP47 makseid saavate aadresside tuletamiseks. Selle asemel genereeritakse need aadressid ECDH-rakenduse kaudu kahe osapoole maksekoodidest tuletatud võtmete vahel.
+
+Seega ei põhjusta maksekood iseenesest otseselt konfidentsiaalsuse kaotust, sest sellest tuletatakse ainult teate aadress. Kuigi see aadress võib avaldada teatud teavet, ei avalda see tavaliselt osapooli, kellega te tehinguid teete, välja arvatud juhul, kui tehakse põhjalik ahelaanalüüs. Tõepoolest, kui saatja kasutab teatistehingu sooritamiseks UTXOsid, mida saab seostada tema identiteediga, siis on võimalik järeldada, et tema identiteet on tõenäoliselt seotud BIP47 maksetega teie maksekoodiga. See ei paljasta aluseks olevaid tehinguid, kuid näitab nende tõenäolist olemasolu.
+
+Seetõttu on oluline säilitada see range eraldatus kasutajate maksekoodide vahel. Seda silmas pidades on koodi esialgne edastamine maksete konfidentsiaalsuse seisukohast kriitiline hetk, mis on protokolli nõuetekohaseks toimimiseks hädavajalik. Kui üks maksekoodidest on avalikult kättesaadav (näiteks veebisaidil), ei tohi teine kood, st saatja kood, mingil juhul olla seotud esimese koodiga.
+
+Võtame konkreetse näite: Soovin teha annetuse poliitilisele liikumisele BIP47 kaudu:
+
+
+- Organisatsioon on oma maksekoodi avalikustanud oma veebilehel või sotsiaalvõrgustikes;
+- See kood on seega seotud poliitilise liikumisega;
+- Ma saan selle maksekoodi ;
+- Enne saatmist pean veenduma, et nad teavad minu enda maksekoodi, mis on samuti seotud minu identiteediga, kuna kasutan seda oma sotsiaalvõrgustike tehingute vastuvõtmiseks.
+
+Kuidas ma saan oma koodi riskivabalt edasi anda? Tavapäraste sidevahendite kasutamine võib viia teabe lekkimiseni ja seeläbi seostada mind selle poliitilise liikumisega. Teatistehing pakub lahenduse tänu krüpteerimiskihile, mis takistab just sellist seost kahe koodi vahel. Kuigi see ei ole ainus meetod saatja maksekoodi salajaseks edastamiseks, on see väga tõhus meetod.
+
+Alloleval joonisel näitavad oranžid jooned punkte, kus infovoog peab olema katkestatud, ja mustad nooled näitavad ühendusi, mida kolmandad isikud võivad jälgida:
+
+![BTC204](assets/fr/225.webp)
+
+Tegelikkuses on Bitcoini traditsioonilise konfidentsiaalsusmudeli puhul sageli keeruline täielikult eraldada teabevoolu võtmepaari ja kasutaja vahel, eriti kaugtehingute puhul. Näiteks annetuskampaania raames peab saaja paratamatult avalikustama aadressi või avaliku võtme oma veebisaidi või sotsiaalvõrgustike kaudu. BIP47 korrektne kasutamine, eriti teavitustehingu puhul, võimaldab seda probleemi vältida tänu ECDHE-le ja krüpteerimiskihile, mida me hiljem vaatleme.
+
+Loomulikult kehtib Bitcoini klassikaline konfidentsiaalsusmudel endiselt efemeersete avalike võtmete suhtes, mis on tuletatud kahe maksekoodi kombinatsioonist. Need kaks mudelit on tegelikult üksteist täiendavad. Siinkohal tahan rõhutada, et erinevalt tavalisest avaliku võtme kasutamisest Bitcoini vastuvõtmiseks saab maksekoodi siduda konkreetse identiteediga, sest teave "_Alice teeb tehinguid Bobiga_" on teises etapis katkenud. Maksekoodi kasutatakse makseaadresside genereerimiseks, kuid üksnes plokiahela vaatluse põhjal on võimatu siduda BIP47 maksetehingut selle teostamiseks kasutatud maksekoodidega, välja arvatud juhul, kui asjaomased UTXOd olid juba varem identiteediga seotud ja kasutajad seostasid oma maksekoodid oma vastavate identiteetidega.
+
+Kokkuvõtteks võib öelda, et BIP47 maksete pakutavat konfidentsiaalsusmudelit võib pidada paremaks kui Bitcoini põhimudelit, kuigi see ei tähenda, et see on maagiline.
+
+### Teavitustehingu koostamine
+
+Nüüd vaatame, kuidas see teavitustehing toimib. Kujutame ette, et Alice soovib saata raha Bobile, kasutades BIP47. Minu näites on Alice saatja ja Bob vastuvõtja. Bob on oma veebilehel avaldanud oma maksekoodi. Alice teab seega juba Bobi maksekoodi.
+
+**1- Alice arvutab ECDH-ga jagatud saladuse :**
+
+
+- Ta valib võtmepaari oma HD-panga rahakotist oma maksekoodist erinevas harus. Pange tähele, et see paar ei tohi olla kergesti seostatav Alice'i teatamisaadressiga ega Alice'i identiteediga (vt eelmine lõik);
+- Alice valib selle paari jaoks privaatvõtme. Nimetame seda $a$ (väiketähtedega);
+
+$$
 a
-
 $$
-```text
-- Alice recupera la chiave pubblica associata all'indirizzo di notifica di Bob. Questa chiave è la prima figlia derivata dal codice di pagamento di Bob (indice $/0$). Chiamiamo questa chiave pubblica $B$ (maiuscolo). La chiave privata associata a questa chiave pubblica è chiamata $b$ (minuscolo). $B$ è determinata dall'addizione e dal raddoppio dei punti sulla curva ellittica da $G$ (il punto generatore) con $b$ (la chiave privata):
-$$ B = b \cdot G $$
-- Alice calcola un punto segreto $S$ (maiuscolo) sulla curva ellittica tramite l'addizione e il raddoppio dei punti applicando la sua chiave privata $a$ dalla chiave pubblica di Bob $B$.
-$$ S = a \cdot B $$
-- Alice calcola il fattore di oscuramento $f$ che le permetterà di criptare il suo codice di pagamento. Per fare ciò, determinerà un numero pseudo-casuale con la funzione HMAC-SHA512. Nel secondo input di questa funzione, utilizza un valore che solo Bob potrà recuperare: $x$ che è l'ascissa del punto segreto precedentemente calcolato. Il primo input è $o$ che è l'UTXO consumato in input di questa transazione (outpoint).
-$$ f = \text{HMAC-SHA512}(o, x) $$
-**2- Alice converte il suo codice di pagamento personale in base 2 (binario).**
-**3- Utilizza questo fattore di oscuramento come chiave per eseguire la crittografia simmetrica sul payload del suo codice di pagamento.** L'algoritmo di crittografia utilizzato è semplicemente un `XOR`. L'operazione eseguita è paragonabile alla cifratura di Vernam, anche denominata "One-Time Pad".
-- Alice prima divide il suo fattore di oscuramento in due: i primi 32 byte sono denominati $f1$ e gli ultimi 32 byte sono denominati $f2$. Quindi, abbiamo:
-$$ f = f1 || f2 $$
-- Alice calcola l'$x'$ criptato dell'ascissa della chiave pubblica $x$ del suo codice di pagamento, e il $c'$ criptato del suo codice catena $c$ separatamente. $f1$ e $f2$ agiscono rispettivamente come chiavi di crittografia. L'operazione utilizzata è il `XOR` (o esclusivo).
-$$ x' = x \oplus f1 $$
-$$ c' = c \oplus f2 $$
-- Alice sostituisce i valori reali dell'ascissa della chiave pubblica $x$ e del codice catena $c$ nel suo codice di pagamento con i valori criptati $x'$ e $c'$.
-**4-** Alice ora ha il suo codice di pagamento con un payload criptato. Costruirà e trasmetterà una transazione che coinvolge la sua chiave pubblica $A$ come input, un output all'indirizzo di notifica di Bob, e un output `OP_RETURN` contenente il suo codice di pagamento con il payload criptato. **Questa transazione è la transazione di notifica**.
-Un `OP_RETURN` è un opcode che segna un output di una transazione Bitcoin come non valido. Oggi, è utilizzato per trasmettere o ancorare informazioni sulla blockchain di Bitcoin. Fino a 80 byte di dati possono essere memorizzati, che sono scritti sulla catena e quindi visibili a tutti gli altri utenti.
-Come abbiamo visto nelle sezioni precedenti, ECDH è utilizzato per generare un segreto condiviso tra due utenti che comunicano su una rete non sicura, potenzialmente osservata da attaccanti. In BIP47, ECDH è utilizzato per la comunicazione sulla rete Bitcoin, che per sua natura è una rete di comunicazione trasparente osservata da molti attaccanti. Il segreto condiviso calcolato tramite lo scambio di chiavi ECDH è poi utilizzato per criptare le informazioni segrete da trasmettere: il codice di pagamento del mittente (di Alice).
-Ricapitoliamo i passaggi che abbiamo appena esaminato insieme per eseguire una transazione di notifica:
-- Alice recupera il codice di pagamento e l'indirizzo di notifica di Bob;
-- Alice seleziona un UTXO che possiede nel suo portafoglio HD con la corrispondente coppia di chiavi;
-- Calcola un punto segreto sulla curva ellittica utilizzando ECDH;
-- Utilizza questo punto segreto per calcolare un HMAC, che è il fattore di oscuramento;
-- Utilizza questo fattore di oscuramento per criptare il payload del suo codice di pagamento personale.
-- Lei utilizza un output di transazione `OP_RETURN` per comunicare il codice di pagamento mascherato a Bob.
-![BTC204](assets/it/66/17.webp)
-### Transazione di Notifica: Studio Concreto
-Per comprendere meglio il suo funzionamento, in particolare l'uso di `OP_RETURN`, esaminiamo insieme una vera transazione di notifica. Ho eseguito tale transazione sulla testnet, che potete trovare [cliccando qui](https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
+
+
+- Alice hangib Bobi teavitusaadressiga seotud avaliku võtme. See võti on Bobi maksekoodist (indeks $/0$) tuletatud esimene laps. Nimetame seda avalikku võtit $B$ (suurtähtedega). Selle avaliku võtmega seotud privaatne võti kannab nime $b$ (väiketähtedega). $B$ määratakse elliptilise kõvera punktide liitmise ja kahekordistamise teel alates $G$-st (genereerimispunkt) koos $b$-ga (privaatne võti):
+
+$$ B = b \cdot G $$ $$
+
+
+- Alice arvutab salajase punkti $S$ (suurtähtedega) elliptilisel kõveral, lisades ja kahekordistades punkte, rakendades oma isiklikku võtit $a$ Bobi avalikust võtmest $B$.
+
+$$ S = a \cdot B $$ $$
+
+
+- Alice arvutab pimendusteguri $f$, mida kasutatakse tema maksekoodi krüpteerimiseks. Selleks kasutab ta HMAC-SHA512 funktsiooni, et määrata pseudosrandomarv. Selle funktsiooni teine sisend on väärtus, mida ainult Bob saab leida: $x$, mis on eespool arvutatud salajase punkti absiss. Esimene sisend on $o$, mis on UTXO, mis tarbitakse selle tehingu sisendiks (väljundpunkt).
+
+$$ f = \text{HMAC-SHA512}(o, x) $$$
+
+**2 - Alice konverteerib oma isikliku maksekoodi baasil 2 (binaarseks) **
+
+**3- See kasutab seda pimendustegurit võtmena, et teostada sümmeetrilist krüpteerimist oma maksekoodi kasuliku koormuse suhtes.** Kasutatav krüpteerimisalgoritm on lihtsalt `XOR`. Tehtav operatsioon on võrreldav Vernami šifriga, mida tuntakse ka kui "One-Time Pad".
+
+
+- Alice jagab kõigepealt oma pimendusteguri kaheks: esimesed 32 baiti nimetatakse $f1$ ja viimased 32 baiti $f2$. See annab meile :
+
+$$ f = f1 || f2 $$$
+
+
+- Alice arvutab eraldi välja oma maksekoodi avaliku võtme $x$ abssifti $x'$ ja oma stringikoodi $c'$ šifti $c$. $f1$ ja $f2$ toimivad vastavalt salastamisvõttena. Kasutatakse operatsiooni `XOR` (ehk eksklusiivne).
+
+$$ x' = x \oplus f1 $$ $$
+
+$$ c' = c \oplus f2 $$ $$
+
+
+- Alice asendab oma maksekoodis avaliku võtme abscissat $x$ ja stringikoodi $c$ reaalväärtused krüpteeritud väärtustega $x'$ ja $c'$.
+
+**4-** Alice'il on seega praegu oma maksekood koos krüpteeritud kasuliku koormusega. Ta koostab ja edastab tehingu, mis sisaldab tema avalikku võtit $A$ sisendina, väljundit Bobi teavitusaadressile ja väljundit `OP_RETURN`, mis koosneb tema maksekoodist koos krüpteeritud kasuliku koormusega. **See tehing on teavitustehing**.
+
+OP_RETURN on op-kood, mis tähistab Bitcoini tehingu väljundit kehtetuna. Tänapäeval kasutatakse seda Bitcoini plokiahelas teabe edastamiseks või ankurdamiseks. See võib salvestada kuni 80 baiti andmeid, mis seejärel kirjutatakse ahelasse ja on nähtav kõigile teistele kasutajatele.
+
+Nagu me nägime eelmistes punktides, kasutatakse ECDH-d selleks, et luua jagatud saladus kahe kasutaja vahel, kes suhtlevad ebaturvalise võrgu kaudu ja mida ründajad võivad jälgida. BIP47-s kasutatakse ECDH-d Bitcoini võrgus suhtlemiseks, mis on oma olemuselt läbipaistev suhtlusvõrk ja mida paljud ründajad jälgivad. ECDH võtmevahetuse kaudu arvutatud jagatud saladust kasutatakse seejärel edastatava salajase teabe - saatja maksekoodi (Alice) - krüpteerimiseks.
+
+Võtan kokku just nähtud sammud, mida me koos nägime, et viia läbi teavitustehing:
+
+
+- Alice hangib Bobi maksekoodi ja teavitusaadressi;
+- Alice valib oma HD portfellist UTXO koos vastava võtmepaariga;
+- See arvutab salajase punkti elliptilisel kõveral, kasutades ECDH ;
+- See kasutab seda salajast punkti HMAC arvutamiseks, mis on pimendustegur;
+- Ta kasutab seda pimendustegurit oma isikliku maksekoodi krüpteerimiseks;
+- See kasutab "OP_RETURN" tehingu väljundit, et edastada Bobile varjatud maksekood.
+
+![BTC204](assets/fr/226.webp)
+
+### Tehingu teatamine: praktiline uuring
+
+Et mõista selle toimimist üksikasjalikumalt ja eelkõige `OP_RETURN` kasutamist, vaatame ühte reaalset teavitustehingut. Viisin sellise tehingu läbi testneti, mille leiate [siia klõpsates](https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
+
 ![BTC204](assets/fr/227.webp)
-Osservando questa transazione, possiamo vedere che ha un singolo input e 4 output:
-- Il primo output è l'`OP_RETURN` che contiene il mio codice di pagamento mascherato;
-- Il secondo output di 546 sats punta all'indirizzo di notifica del mio destinatario;
-- Il terzo output di 15.000 sats rappresenta le commissioni di servizio, poiché ho utilizzato Samourai Wallet per costruire questa transazione;
-- Il quarto output di 2 milioni di sats rappresenta il resto, ovvero la differenza rimanente dal mio input che ritorna a un altro indirizzo che mi appartiene.
-Il più interessante da studiare è ovviamente l'output 0 che utilizza l'`OP_RETURN`. Vediamo più da vicino cosa contiene. Ecco lo `scriptPubKey` in esadecimale:
+
+Vaadates seda tehingut, näeme juba, et sellel on üks sisend ja 4 väljundit:
+
+
+- Esimene väljund on `OP_RETURN`, mis sisaldab minu varjatud maksekoodi;
+- Teine väljund 546 sats osutab minu saaja teavitusaadressile;
+- Kolmas väljund 15000 sati kujutab endast teenustasu, kuna kasutasin selle tehingu tegemiseks Samourai rahakotti;
+- Neljas väljund 2 miljonit sati kujutab endast vahetuskurssi, st minu sisendi järelejäänud erinevust, mis naaseb teisele mulle kuuluvale aadressile.
+
+Kõige huvitavam on ilmselt uurida väljundit 0, kasutades `OP_RETURN`. Vaatame lähemalt, mida see sisaldab. Siin on `scriptPubKey` heksadekaalarvudes :
+
+```text
 6a4c50010002b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164927b0e88f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d800000000000000000000000000
 ```
 
+Selles käsikirjas on mitu osa. Esiteks, :
+
 ```text
-In questo script, possiamo sezionare diverse parti. Prima di tutto, gli opcode:
 6a4c
 ```
 
+Operatsioonikoodide hulgas võime ära tunda `0x6a`, mis tähistab `OP_RETURN` ja `0x4c`, mis tähistab `OP_PUSHDATA1`.
+
+Viimasele opkoodile järgnev bait näitab järgneva maksekoormuse suurust. See näitab `0x50` ehk 80 baiti:
+
 ```text
-Tra gli opcode, possiamo riconoscere `0x6a` che designa l'`OP_RETURN` e `0x4c` che designa l'`OP_PUSHDATA1`.
-Il byte seguente questo ultimo opcode indica la dimensione del payload che segue. Indica `0x50`, ovvero 80 byte:
 6a4c50
 ```
 
+Järgmisena on meil minu maksekoodi metaandmed selge tekstina:
+
 ```text
-Poi, abbiamo i metadati del mio codice di pagamento in chiaro:
 010002
 ```
 
+Minu maksekoodi avaliku võtme krüpteeritud abscissa :
+
 ```text
-La coordinata x criptata della chiave pubblica del mio codice di pagamento:
 b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164
 ```
 
+Minu maksekoodi krüpteeritud string-kood :
+
 ```text
-Il codice catena criptato del mio codice di pagamento:
 927b0e88f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d8
 ```
 
+Ja lõpuks täidetakse 80 baidini, mis on `OP_RETURN` standardne suurus:
+
 ```text
-E infine, il padding per raggiungere 80 byte, la dimensione standard di un `OP_RETURN`:
 00000000000000000000000000
 ```
 
-```
-Per capire meglio, ecco il mio codice di pagamento in chiaro in base 58:
-````text
+Et aidata teil mõista, siin on minu maksekood tavalises tekstis baas 58 :
+
+```text
 PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU
-Quando si confronta il mio codice di pagamento in chiaro con l'`OP_RETURN`, è evidente che l'HRP (`0x47`) e il checksum (`0x8604e4db`) non vengono trasmessi. Questo è previsto, poiché queste informazioni sono destinate agli esseri umani.
-Successivamente, possiamo identificare la versione (`0x01`), il campo di bit (`0x00`) e la parità della chiave pubblica (`0x02`). E, alla fine del codice di pagamento, i byte vuoti (`0x00000000000000000000000000`) sono utilizzati per riempire il codice fino a un totale di 80 byte. Tutti questi metadati vengono trasmessi in chiaro (non criptati).
-Infine, si può osservare che la coordinata x della chiave pubblica (`0x77507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42a`) e il codice catena (`0xdd94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc`) sono stati criptati. Questo costituisce il payload del codice di pagamento.
-### Cos'è XOR?
-Nelle sezioni precedenti, abbiamo visto che il codice di pagamento è stato trasmesso criptato utilizzando l'operazione XOR. Prendiamoci un momento per capire come funziona questo operatore, poiché è ampiamente utilizzato nella crittografia.
-XOR è un operatore logico bit a bit basato sull'algebra booleana. Con due operandi bit, restituisce `1` se i bit dello stesso rango sono diversi, e restituisce `0` se i bit dello stesso rango sono uguali. Ecco la tabella di verità di XOR basata sui valori degli operandi `D` e `E`:
-| D   | E   | D XOR E |
+```
+
+Ja baasil 16 :
+
+```text
+4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc000000000000000000000000008604e4db
+```
+
+Kui me võrdleme minu lihtkirjas maksekoodi ja `OP_RETURN`, näeme, et HRP (`0x47`) ja kontrollsumma (`0x8604e4db`) ei ole edastatud. See on normaalne, sest see teave on mõeldud inimestele.
+
+Järgmisena saame tuvastada versiooni (`0x01`), bitivälja (`0x00`) ja avaliku võtme pariteedi (`0x02`). Ja maksekoodi lõpus tühjad baitid (`0x000000000000000000000000000000000000000000`), mis võimaldavad polsterdamist, et saavutada kokku 80 baiti. Kõik need metaandmed edastatakse krüpteerimata.
+
+Lõpuks võime täheldada, et avaliku võtme abscissa (`0x77507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42a`) ja string-kood (`0xdd94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc`) on krüpteeritud. See on maksekoodi kasulik koormus.
+
+### Mis on XOR?
+
+Eelmistes punktides nägime, et maksekood edastatakse krüpteeritult XOR-operatsiooni abil. Vaatame lähemalt, kuidas see operaator töötab, sest seda kasutatakse krüptograafias laialdaselt.
+
+XOR on biti kaupa loogiline operaator, mis põhineb Bool'i algebral. Arvestades kahte bittidena esitatud operandit, annab ta tagasi `1`, kui sama astme bitid on erinevad, ja `0`, kui sama astme bitid on võrdsed. Siin on XOR tõesustabel vastavalt operandide `D` ja `E` väärtustele:
+
+| D | E | D XOR E |
+
 | --- | --- | ------- |
-| 0   | 0   | 0       |
-| 0   | 1   | 1       |
-| 1   | 0   | 1       |
-| 1   | 1   | 0       |
-Per esempio:
-$$
+
+| 0 | 0 | 0 |
+
+| 0 | 1 | 1 |
+
+| 1 | 0 | 1 |
+
+| 1 | 1 | 0 |
+
+Näiteks:
 
 $$
 0110 \oplus 1110 = 1000
-Oppure:
 $$
+
+Või :
 
 $$
 010011 \oplus 110110 = 100101
-Con ECDH, l'uso di XOR come strato di crittografia è particolarmente adatto. Innanzitutto, a causa di questo operatore, la crittografia è simmetrica. Questo consente al destinatario di decifrare il codice di pagamento con la stessa chiave utilizzata per la crittografia. La chiave di crittografia e decrittografia viene calcolata dal segreto condiviso grazie a ECDH. Questa simmetria è resa possibile dalle proprietà commutativa e associativa dell'operatore XOR:
-- Altre proprietà:
 $$
+
+ECDH puhul on XOR-i kasutamine krüpteerimiskihina eriti järjekindel. Esiteks on krüpteerimine tänu sellele operaatorile sümmeetriline. See tähendab, et saaja saab maksekoodi dekrüpteerida sama võtmega, mida kasutati krüpteerimiseks. Krüpteerimis- ja dekrüpteerimisvõtmed arvutatakse ECDH abil jagatud saladusest. Selline sümmeetria on võimalik tänu XOR-operaatori kommutatiivsuse ja assotsiatiivsuse omadustele:
+
+
+- Muud omadused :
 
 $$
 D \oplus D = 0
-D ⊕ 0 = D
-- Commutatività:
 $$
+
+$$
+D \oplus 0 = D
+$$
+
+
+- Kommutatiivsus :
 
 $$
 D \oplus E = E \oplus D
-- Associatività:
 $$
+
+
+- Assotsiatiivsus :
 
 $$
 D \oplus (E \oplus Z) = (D \oplus E) \oplus Z = D \oplus E \oplus Z
-Se:
 $$
+
+Kui :
 
 $$
 D \oplus E = L
-Allora:
 $$
+
+Siis :
 
 $$
 D \oplus L = D \oplus (D \oplus E) = D \oplus D \oplus E = 0 \oplus E = E \\
 \therefore D \oplus L = E
-Successivamente, questo metodo di cifratura assomiglia molto al cifrario di Vernam (One-Time Pad), l'unico algoritmo di cifratura conosciuto fino ad oggi che possiede sicurezza incondizionata (o assoluta). Affinché il cifrario di Vernam abbia questa caratteristica, la chiave di cifratura deve essere perfettamente casuale, deve essere della stessa dimensione del messaggio e deve essere utilizzata una sola volta. Nel metodo di cifratura utilizzato qui per BIP47, la chiave è effettivamente della stessa dimensione del messaggio, il fattore di offuscamento è esattamente della stessa dimensione della concatenazione della coordinata x della chiave pubblica con il codice catena del codice di pagamento. Questa chiave di cifratura è effettivamente utilizzata una sola volta. Tuttavia, questa chiave non è il risultato di una casualità perfetta poiché è un HMAC. È piuttosto pseudo-casuale. Pertanto, non si tratta di un cifrario di Vernam, ma il metodo è simile.
-### Ricezione della Transazione di Notifica
-Ora che Alice ha inviato la transazione di notifica a Bob, vediamo come lui la interpreta. Come promemoria, Bob deve essere in grado di accedere al codice di pagamento di Alice. Senza queste informazioni, come vedremo nella sezione seguente, non sarà in grado di derivare le coppie di chiavi create da Alice e, quindi, non sarà in grado di accedere ai suoi bitcoin ricevuti tramite BIP47. Per ora, il payload del codice di pagamento di Alice è criptato. Vediamo come Bob lo decifra.
-**1-** Bob monitora le transazioni che creano output con il suo indirizzo di notifica.
-**2-** Quando una transazione ha un output sul suo indirizzo di notifica, Bob la analizza per vedere se contiene un output OP_RETURN che segue lo standard BIP47.
-**3-** Se il primo byte del payload OP_RETURN è `0x01`, Bob inizia la sua ricerca di un possibile segreto condiviso con ECDH:
-- Bob seleziona la chiave pubblica nell'input della transazione. Ovvero, la chiave pubblica di Alice denominata $A$ con:
-$$ A = a \cdot G $$
-- Bob seleziona la chiave privata $b$ associata al suo indirizzo di notifica personale:
-$$ b $$
-- Bob calcola il punto segreto $S$ (segreto condiviso ECDH) sulla curva ellittica sommando e raddoppiando i punti, applicando la sua chiave privata $b$ alla chiave pubblica di Alice $A$:
-$$ S = b \cdot A $$
-- Bob determina il fattore di offuscamento $f$ che gli permetterà di decifrare il payload del codice di pagamento di Alice. Nello stesso modo in cui Alice aveva precedentemente calcolato, Bob troverà $f$ applicando HMAC-SHA512 su $x$ la coordinata x del punto segreto $S$, e su $o$ l'UTXO consumato come input in questa transazione di notifica:
-$$ f = \text{HMAC-SHA512}(o, x) $$
-**4-** Bob interpreta i dati nell'OP_RETURN della transazione di notifica come un codice di pagamento. Egli semplicemente decifra il payload di questo potenziale codice di pagamento usando il fattore di offuscamento $f$:
-- Bob divide il fattore di offuscamento $f$ in 2 parti: i primi 32 byte di $f$ saranno $f1$ e gli ultimi 32 byte saranno $f2$;
-- Bob decifra la coordinata x cifrata $x'$ della chiave pubblica dal codice di pagamento di Alice:
-$$ x = x' \oplus f1 $$
-- Bob decifra il valore del codice catena cifrato $c'$ dal codice di pagamento di Alice:
-$$ c = c' \oplus f2 $$
-**5-** Bob verifica se il valore della chiave pubblica dal codice di pagamento di Alice è effettivamente parte del gruppo secp256k1. Se è così, lo interpreta come un codice di pagamento valido. Altrimenti, ignora questa transazione.
-Ora che Bob è a conoscenza del codice di pagamento di Alice, lei può inviargli fino a `2^32` pagamenti, senza mai dover effettuare un'altra transazione di notifica di questo tipo.
-Perché funziona? Come fa Bob a determinare lo stesso fattore di offuscamento di Alice, e quindi a decifrare il suo codice di pagamento? Esaminiamo più da vicino il ruolo di ECDH in quello che abbiamo appena descritto.
-Prima di tutto, stiamo trattando con la crittografia simmetrica. Questo significa che la chiave di cifratura e la chiave di decifratura sono lo stesso valore. Questa chiave nella transazione di notifica è il fattore di offuscamento:
-$$ f = f1 || f2 $$
-Pertanto, Alice e Bob devono ottenere lo stesso valore per $f$, senza trasmetterlo direttamente poiché un attaccante potrebbe rubarlo e decifrare le informazioni segrete. Questo fattore di offuscamento si ottiene applicando HMAC-SHA512 su 2 valori:
-- la coordinata x di un punto segreto;
-- e l'UTXO consumato come input nella transazione.
-Bob, quindi, ha bisogno di queste due informazioni per decifrare il payload del codice di pagamento di Alice. Per l'UTXO come input, Bob può semplicemente recuperarlo osservando la transazione di notifica. Per il punto segreto, Bob dovrà usare ECDH. Come visto nella sezione precedente su Diffie-Hellman, semplicemente scambiando le rispettive chiavi pubbliche e applicando segretamente le proprie chiavi private alla chiave pubblica dell'altro, Alice e Bob possono trovare un punto specifico e segreto sulla curva ellittica. La transazione di notifica si basa su questo meccanismo:
-- Coppia di chiavi di Bob:
-$$ B = b \cdot G $$
-- Coppia di chiavi di Alice:
-$$ A = a \cdot G $$
-- Per un segreto $S (x, y)$:
-$$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
-Ora che Bob conosce il codice di pagamento di Alice, sarà in grado di rilevare i suoi pagamenti BIP47, e può derivare le chiavi private che bloccano i bitcoin ricevuti.
-Ricapitoliamo i passaggi che abbiamo appena esaminato per ricevere e interpretare una transazione di notifica:
-- Bob monitora gli output delle transazioni al suo indirizzo di notifica;
-- Quando ne rileva uno, recupera le informazioni contenute nell'OP_RETURN;
-- Bob seleziona la chiave pubblica in input e calcola un punto segreto usando ECDH;
-- Usa questo punto segreto per calcolare un HMAC che è il fattore di offuscamento;
-- Usa questo fattore di offuscamento per decifrare il payload del codice di pagamento di Alice contenuto nell'OP_RETURN.
-### La Transazione di Pagamento BIP47
-Studiamo ora insieme il processo di pagamento con BIP47. Per ricordarvi lo stato attuale delle cose:
-- Alice conosce il codice di pagamento di Bob, che ha semplicemente recuperato dal suo sito web;
-- Bob conosce il codice di pagamento di Alice grazie alla transazione di notifica;
-- Alice effettuerà un primo pagamento a Bob. Potrà effettuarne molti altri allo stesso modo.
-Prima di spiegare questo processo, penso sia importante ricordare gli indici su cui stiamo attualmente lavorando. Il percorso di derivazione di un codice di pagamento è descritto come segue: `m/47'/0'/0'`. La profondità successiva distribuisce gli indici in questo modo:
-- La prima coppia di chiavi figlio normali (non rinforzate) è quella utilizzata per generare l'indirizzo di notifica di cui abbiamo parlato nella parte precedente: `m/47'/0'/0'/0`;
-- Le coppie di chiavi figlio normali sono utilizzate all'interno di ECDH per generare indirizzi di ricezione dei pagamenti BIP47 come vedremo in questa sezione: da `m/47'/0'/0'/0` a `m/47'/0'/0'/2 147 483 647`;
-- Le coppie di chiavi figlio rinforzate sono codici di pagamento effimeri: da `m/47'/0'/0'/0'` a `m/47'/0'/0'/2 147 483 647'`.
-Ogni volta che Alice desidera inviare un pagamento a Bob, deriva un nuovo indirizzo vergine unico, grazie ancora al protocollo ECDH:
-- Alice seleziona la prima chiave privata derivata dal suo codice di pagamento personale riutilizzabile:
-$$ a $$
-- Alice seleziona la prima chiave pubblica inutilizzata derivata dal codice di pagamento di Bob. Questa chiave pubblica, la chiameremo $B$. È associata alla chiave privata $b$ che solo Bob conosce:
-$$ B = b \cdot G $$
-- Alice calcola un punto segreto $S$ sulla curva ellittica tramite addizione e raddoppio di punti applicando la sua chiave privata $a$ alla chiave pubblica $B$ di Bob:
-$$ S = a \cdot B $$
-- Da questo punto segreto, Alice calcolerà il segreto condiviso $s$ (minuscolo). Per fare ciò, seleziona la coordinata x del punto segreto $S$ denominata $Sx$, e passa questo valore attraverso la funzione hash SHA256:
-$$ S = (Sx, Sy) $$
-$$ s = \text{SHA256}(Sx) $$
-- Alice utilizza questo segreto condiviso $s$ per calcolare un indirizzo Bitcoin di ricezione dei pagamenti. Inizialmente, verifica che $s$ sia contenuto nell'ordine della curva secp256k1. In caso contrario, incrementa l'indice della chiave pubblica di Bob per derivare un altro segreto condiviso;
-- In secondo luogo, calcola una chiave pubblica $K0$ aggiungendo sulla curva ellittica i punti $B$ e $s·G$. In altre parole, Alice aggiunge la chiave pubblica derivata dal codice di pagamento di Bob $B$ con un altro punto calcolato sulla curva ellittica tramite addizione e raddoppio con il segreto condiviso $s$ dal punto generatore della curva secp256k1 $G$. Questo nuovo punto rappresenta una chiave pubblica, e lo chiamiamo $K0$:
-$$ K0 = B + s \cdot G $$
-- Con questa chiave pubblica $K0$, Alice può derivare un indirizzo vergine standard di ricezione (per esempio, SegWit V0 in bech32).
-Una volta che Alice ha ottenuto l'indirizzo di ricezione di Bob $K0$, può eseguire una transazione Bitcoin in modo standard. Per fare ciò, seleziona un UTXO di sua proprietà, assicurato da una coppia di chiavi di un ramo diverso del suo portafoglio HD, e lo spende per soddisfare un output all'indirizzo di Bob $K0$. È importante notare che questo pagamento, una volta derivato l'indirizzo, segue un processo convenzionale e non dipende più dalle chiavi associate a BIP47.
-Ricapitoliamo i passaggi che abbiamo appena eseguito insieme per inviare un pagamento BIP47:
-- Alice seleziona la prima chiave privata derivata dal suo codice di pagamento personale;
-- Calcola un punto segreto sulla curva ellittica utilizzando ECDH dalla prima chiave pubblica derivata non utilizzata dal codice di pagamento di Bob;
-- Utilizza questo punto segreto per calcolare un segreto condiviso con SHA256;
-- Utilizza questo segreto condiviso per calcolare un nuovo punto segreto sulla curva ellittica;
-- Aggiunge questo nuovo punto segreto alla chiave pubblica di Bob;
-- Ottiene una nuova chiave pubblica effimera per la quale solo Bob ha la chiave privata associata;
-- Alice può effettuare una transazione standard a Bob con l'indirizzo di ricezione effimero derivato.
-![BTC204](assets/it/66/21.webp)
-Se Alice desidera effettuare un secondo pagamento, seguirà gli stessi passaggi di prima, eccetto che questa volta selezionerà la seconda chiave pubblica derivata dal codice di pagamento di Bob. Specificamente, utilizzerà la prossima chiave non utilizzata. Otterrà così un nuovo indirizzo di ricezione appartenente a Bob, designato $K1$:
-![BTC204](assets/it/66/22.webp)
-Può continuare in questo modo e derivare fino a `2^32` indirizzi non utilizzati appartenenti a Bob.
-Da un punto di vista esterno, osservando la blockchain, è teoricamente impossibile differenziare un pagamento BIP47 da un pagamento standard. Ecco un esempio di transazione di pagamento BIP47 sul Testnet:
-```
-
-94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254
-````
-Questo sembra una transazione standard con un input consumato, un output di pagamento e un resto:
-![BTC204](assets/fr/232.webp)
-### Ricevere il Pagamento BIP47 e Derivare la Chiave Privata
-Alice ha appena effettuato il suo primo pagamento a un nuovo indirizzo BIP47 appartenente a Bob. Ora vediamo come Bob riceve questo pagamento. Vedremo anche perché Alice non ha accesso alla chiave privata dell'indirizzo che ha appena generato da sola, e come Bob recupera questa chiave per spendere i bitcoin che ha appena ricevuto.
-Non appena Bob riceve la transazione di notifica da Alice, deriva la chiave pubblica BIP47 $K0$ anche prima che lei abbia inviato qualsiasi pagamento. Poi monitora qualsiasi pagamento all'indirizzo associato. Infatti, deriva immediatamente diversi indirizzi che monitorerà ($K0$, $K1$, $K2$, $K3$...). Ecco come deriva questa chiave pubblica $K0$:
-- Bob seleziona la prima chiave privata derivata dal suo codice di pagamento. Questa chiave privata è denominata $b$. È associata alla chiave pubblica $B$ con cui Alice aveva fatto i suoi calcoli nel passaggio precedente:
-$$ b $$
-- Bob seleziona la prima chiave pubblica di Alice derivata dal suo codice di pagamento. Questa chiave è denominata $A$. È associata alla chiave privata $a$ con cui Alice aveva fatto i suoi calcoli, e di cui solo Alice è a conoscenza. Bob può eseguire questo processo poiché è a conoscenza del codice di pagamento di Alice che le è stato trasmesso con la transazione di notifica:
-$$ A = a \cdot G $$
-- Bob calcola il punto segreto $S$, mediante addizione e raddoppio di punti sulla curva ellittica, applicando la sua chiave privata $b$ alla chiave pubblica di Alice $A$. Qui troviamo l'uso di ECDH che garantisce che questo punto $S$ sarà lo stesso sia per Bob che per Alice:
-$$ S = b \cdot A $$
-- Proprio come ha fatto Alice, Bob isola la coordinata x di questo punto $S$. Abbiamo chiamato questo valore $Sx$. Egli passa questo valore attraverso la funzione SHA256 per trovare il segreto condiviso $s$ (minuscolo):
-$$ s = \text{SHA256}(Sx) $$
-- Proprio come Alice, Bob calcola il punto $s·G$ sulla curva ellittica. Poi, aggiunge questo punto segreto alla sua chiave pubblica $B$. Ottiene così un nuovo punto sulla curva ellittica che interpreta come una chiave pubblica $K0$:
-$$ K0 = B + s \cdot G $$
-Una volta che Bob ha questa chiave pubblica $K0$, può derivare la chiave privata associata per essere in grado di spendere i suoi bitcoin. È l'unico che può generare questa chiave privata:
-- Bob aggiunge la sua chiave privata figlio $b$ derivata dal suo codice di pagamento personale. È l'unico che può ottenere il valore di $b$. Poi, aggiunge $b$ con il segreto condiviso $s$ per ottenere $k0$, la chiave privata di $K0$:
-$$ k0 = b + s $$
-Grazie alla legge di gruppo della curva ellittica, Bob ottiene esattamente la chiave privata corrispondente alla chiave pubblica usata da Alice. Abbiamo quindi:
-$$ K0 = k0 \cdot G $$
-Riassumerò i passaggi che abbiamo appena esaminato insieme per ricevere un pagamento BIP47 e calcolare la chiave privata corrispondente:
-- Bob seleziona la prima chiave privata figlio derivata dal suo codice di pagamento personale;
-- Calcola un punto segreto sulla curva ellittica usando ECDH dalla prima chiave pubblica figlio derivata dal codice catena di Alice;
-- Usa questo punto segreto per calcolare un segreto condiviso con SHA256;
-- Usa questo segreto condiviso per calcolare un nuovo punto segreto sulla curva ellittica;
-- Aggiunge questo nuovo punto segreto alla sua chiave pubblica personale;
-- Ottiene una nuova chiave pubblica effimera, alla quale Alice invierà il suo primo pagamento;
-- Bob calcola la chiave privata associata a questa chiave pubblica effimera aggiungendo la sua chiave privata figlio derivata dal suo codice di pagamento e il segreto condiviso.
-![BTC204](assets/it/66/24.webp)
-Poiché Alice non può ottenere $b$ (la chiave privata di Bob), lei non è in grado di determinare $k0$ (la chiave privata associata all'indirizzo di ricezione BIP47 di Bob). Schematicamente, possiamo rappresentare il calcolo del segreto condiviso $S$ così:
-![BTC204](assets/it/66/19.webp)
-Una volta trovato il segreto condiviso con ECDH, Alice e Bob calcolano la chiave pubblica di pagamento BIP47 $K0$, e Bob calcola anche la chiave privata associata $k0$:
-![BTC204](assets/it/66/25.webp)
-### Rimborsare il Pagamento BIP47
-Poiché Bob è a conoscenza del codice di pagamento riutilizzabile di Alice, ha già tutte le informazioni necessarie per inviarle un rimborso. Non avrà bisogno di contattare nuovamente Alice per chiedere informazioni. Dovrà semplicemente notificarla con una transazione di notifica, specialmente affinché lei possa recuperare i suoi indirizzi BIP47 con il suo seed, e poi potrà anche inviarle fino a `2^32` pagamenti.
-La funzionalità di rimborso è specifica per BIP47 ed è uno dei suoi vantaggi rispetto ad altri metodi che studieremo nei prossimi capitoli, come i Pagamenti Silenziosi.
-Bob può quindi rimborsare Alice nello stesso modo in cui lei gli ha inviato i pagamenti. I ruoli si invertono:
-![BTC204](assets/it/66/26.webp)
-_Un grande ringraziamento a [Fanis Michalakis](https://x.com/FanisMichalakis) per la sua revisione e preziosi consigli esperti sull'articolo che ha ispirato la scrittura di questo capitolo!_
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
-## Pagamenti Silenziosi
-<chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
-Il BIP47 è stato criticato per la sua inefficienza sulla blockchain. Come spiegato nel capitolo precedente, richiede una transazione di notifica per ogni nuovo destinatario. Questo vincolo diventa trascurabile se si prevede di stabilire un canale di pagamento duraturo con questo destinatario. Infatti, una singola transazione di notifica apre la strada a un numero quasi infinito di pagamenti BIP47 successivi.
-Tuttavia, in determinate situazioni, la transazione di notifica può rappresentare un ostacolo per l'utente. Prendiamo l'esempio di una donazione una tantum a un destinatario: con un indirizzo Bitcoin classico, una singola transazione è sufficiente per effettuare la donazione. Ma con il BIP47, sono necessarie due transazioni: una per la notifica e un'altra per il pagamento effettivo. Quando la domanda di spazio nel blocco è bassa e le commissioni di transazione sono minime, questo passaggio aggiuntivo generalmente non rappresenta un problema. Tuttavia, durante i periodi di congestione, le commissioni di transazione possono diventare esorbitanti per un singolo pagamento, potenzialmente raddoppiando il costo per l'utente rispetto a una transazione Bitcoin standard, il che può essere inaccettabile per l'utente.
-Per situazioni in cui l'utente prevede di effettuare solo pochi pagamenti a un identificatore statico, sono state sviluppate altre soluzioni. Tra queste ci sono i Pagamenti Silenziosi, descritti nel [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Questo protocollo consente l'uso di un identificatore statico per ricevere pagamenti senza generare riutilizzo dell'indirizzo e senza richiedere l'uso di transazioni di notifica. Esaminiamo come funziona questo protocollo.
----
-_Per comprendere appieno questo capitolo, è essenziale essere familiari con il funzionamento di ECDH (Elliptic Curve Diffie-Hellman) e la derivazione delle chiavi crittografiche in un portafoglio HD. Questi concetti sono stati dettagliati nel capitolo precedente sul BIP47. Non li ripeterò qui. Se non sei ancora familiare con queste nozioni, ti consiglio di consultare il capitolo precedente prima di continuare con questo. Non riprenderò nemmeno i rischi associati al riutilizzo degli indirizzi di ricezione, né l'importanza di avere un identificatore unico per ricevere pagamenti._
----
-### Perché non spostare la notifica?
-Come discusso nel capitolo sul BIP47, la transazione di notifica svolge principalmente due funzioni:
-- Notifica il destinatario;
-- Trasmette il codice di pagamento del mittente.
-Si potrebbe ingenuamente pensare che questo processo di notifica potrebbe essere effettuato off-chain. In teoria, ciò è completamente fattibile: sarebbe sufficiente per il destinatario indicare un mezzo di comunicazione per ricevere i codici di pagamento BIP47 dai mittenti. Tuttavia, questo approccio presenta due problemi principali:
-- Primo, ciò sposterebbe il processo di trasmissione del codice su un altro protocollo di comunicazione. Le questioni relative ai costi e alla privacy dello scambio rimarrebbero, ma sarebbero semplicemente trasferite a questo nuovo protocollo. In termini di privacy, ciò potrebbe anche creare un collegamento tra l'identità di un utente e l'attività sulla blockchain, cosa che cerchiamo di evitare eseguendo la notifica direttamente sulla blockchain. Inoltre, effettuare la notifica fuori dalla blockchain introdurrebbe rischi di censura (come il blocco dei fondi) che non esistono su Bitcoin;
-Successivamente, ciò porrebbe un problema di recupero. Con BIP47, il destinatario deve assolutamente conoscere i codici di pagamento dei mittenti per accedere ai fondi. Questo è vero al momento della ricezione, ma anche in caso di recupero dei fondi tramite il seed in caso di perdita del portafoglio. Con le notifiche onchain, questo rischio viene evitato, poiché l'utente può trovare e decifrare le transazioni di notifica semplicemente conoscendo il proprio seed. Tuttavia, se la notifica viene eseguita fuori dalla blockchain, l'utente dovrebbe mantenere un backup dinamico di tutti i codici di pagamento ricevuti, il che è impraticabile per l'utente medio.
-Tutti questi vincoli rendono l'uso della notifica onchain indispensabile nel contesto di BIP47. Eppure, i Pagamenti Silenziosi cercano specificamente di evitare questo passaggio di notifica onchain a causa del suo costo. Pertanto, la soluzione adottata non è spostare la notifica, ma eliminarla completamente. Per raggiungere questo obiettivo, deve essere accettato un compromesso: quello della scansione. A differenza di BIP47, dove l'utente sa esattamente dove trovare i propri fondi grazie alle transazioni di notifica, nel contesto dei Pagamenti Silenziosi, l'utente deve esaminare tutte le transazioni Bitcoin esistenti per rilevare eventuali pagamenti che potrebbero essere destinati a loro. Per ridurre questo onere operativo, la ricerca di Pagamenti Silenziosi è limitata solo alle transazioni che probabilmente contengono tali pagamenti, ovvero quelle che includono almeno un output Taproot P2TR. La scansione si concentra esclusivamente anche sulle transazioni dalla data di creazione del portafoglio (non c'è bisogno di scandire transazioni risalenti al 2009 se il portafoglio è stato creato nel 2024).
-Pertanto, potete vedere perché BIP47 e Pagamenti Silenziosi, sebbene mirino a un obiettivo simile, comportano compromessi diversi e **quindi si rivolgono effettivamente a casi d'uso distinti**. Per i pagamenti una tantum, come le donazioni occasionali, i Pagamenti Silenziosi sono più appropriati a causa del loro costo inferiore. Al contrario, per le transazioni regolari allo stesso destinatario, come nel caso delle piattaforme di scambio o dei pool di mining, BIP47 potrebbe essere preferito.
-Esploriamo insieme il funzionamento tecnico dei Pagamenti Silenziosi per capirne meglio le implicazioni. Per fare ciò, suggerisco di adottare lo stesso approccio del documento esplicativo di BIP352. Scomporremo gradualmente i calcoli da eseguire, elemento per elemento, giustificando ogni nuova aggiunta.
-### Alcuni concetti da comprendere
-Prima di iniziare, è importante chiarire che i Pagamenti Silenziosi si basano esclusivamente sull'uso di tipi di script P2TR (_Pay to Taproot_). A differenza di BIP47, non è necessario derivare gli indirizzi di ricezione dalle chiavi pubbliche figlie tramite hashing. Infatti, nello standard P2TR, la chiave pubblica modificata viene utilizzata direttamente e apertamente nell'indirizzo. Così, un indirizzo di ricezione Taproot è essenzialmente una chiave pubblica accompagnata da alcuni metadati. Questa chiave pubblica modificata è l'aggregazione di altre due chiavi pubbliche: una che consente la spesa diretta e tradizionale tramite una semplice firma, e l'altra che rappresenta la radice di Merkle del MAST, che autorizza la spesa soggetta alla soddisfazione di una delle condizioni potenzialmente iscritte nell'albero di Merkle.
-![BTC204](assets/it/67/01.webp)
-La decisione di limitare i Pagamenti Silenziosi esclusivamente a Taproot è motivata da due ragioni principali:
-- Primo, facilita significativamente l'implementazione e gli aggiornamenti futuri nel software del portafoglio, poiché è necessario aderire a un solo standard;
-- In secondo luogo, questo approccio aiuta a migliorare l'insieme di anonimato degli utenti incoraggiandoli a non disperdersi tra diversi tipi di script, che generano impronte di portafoglio distinte nell'analisi della catena (per maggiori informazioni su questo concetto, vi invito a consultare il capitolo 4 della parte 2).
-### Derivazione naive di una chiave pubblica di Pagamenti Silenziosi
-Iniziamo con un semplice esempio che ti aiuterà a comprendere il funzionamento di base dei Pagamenti Silenziosi (SP, Silent Payments). Prendiamo Alice e Bob, due utenti Bitcoin. Alice vuole inviare bitcoin a Bob su un nuovo indirizzo di ricezione. Tre obiettivi devono essere raggiunti in questo processo:
-- Alice deve essere in grado di generare un nuovo indirizzo;
-- Bob deve essere in grado di identificare un pagamento inviato a questo specifico indirizzo;
-- Bob deve essere in grado di ottenere la chiave privata associata a questo indirizzo per poter spendere i suoi fondi.
-Alice ha un UTXO nel suo portafoglio Bitcoin protetto con la seguente coppia di chiavi:
-- $a$: la chiave privata;
-- $A$: la chiave pubblica ($A = a \cdot G$)
-Bob ha un indirizzo SP che ha pubblicato su internet con:
-- $b$: la chiave privata;
-- $B$: la chiave pubblica ($B = b \cdot G$)
-Recuperando l'indirizzo di Bob, Alice è in grado di calcolare un nuovo indirizzo vuoto che appartiene a Bob usando ECDH. Chiamiamo questo indirizzo $P$:
-$$ P = B + \text{hash}(a \cdot B) \cdot G $$
-In questa equazione, Alice ha semplicemente calcolato il prodotto scalare della sua chiave privata $a$ e della chiave pubblica di Bob $B$. Ha passato questo risultato attraverso una funzione hash conosciuta da tutti. Il valore di output è poi moltiplicato scalarmente per il punto generatore $G$ della curva ellittica `secp256k1`. Infine, Alice aggiunge il punto ottenuto alla chiave pubblica di Bob $B$. Una volta che Alice ha questo indirizzo $P$, lo usa come output in una transazione, il che significa che invia bitcoin ad esso.
-> _Nel contesto dei Pagamenti Silenziosi, la funzione "hash" corrisponde a una funzione hash SHA256 etichettata specificamente con `BIP0352/SharedSecret`, assicurando che gli hash generati siano unici per questo protocollo e non possano essere riutilizzati in altri contesti, fornendo anche una protezione aggiuntiva contro il riutilizzo di nonce nelle firme. Questo standard corrisponde a quello [specificato nel BIP340 per le firme Schnorr](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) su `secp256k1`._
-Grazie alle proprietà della curva ellittica su cui si basa ECDH, sappiamo che:
-$$ a \cdot B = b \cdot A $$
-Bob sarà quindi in grado di calcolare l'indirizzo di ricezione su cui Alice ha inviato i bitcoin. Per fare ciò, monitora tutte le transazioni Bitcoin che soddisfano i criteri dei Pagamenti Silenziosi e applica il seguente calcolo a ciascuna di esse per vedere se il pagamento è indirizzato a lui (_scanning_):
-$$ P' = B + \text{hash}(b \cdot A) \cdot G $$
-Quando esamina la transazione di Alice, si rende conto che $P'$ è uguale a $P$. Sa quindi che questo pagamento è indirizzato a lui:
-$$ P' = B + \text{hash}(b \cdot A) \cdot G = B + \text{hash}(a \cdot B) \cdot G = P $$
-Da qui, Bob sarà in grado di calcolare la chiave privata $p$ che consente di spendere l'indirizzo $P$:
-$$ p = (b + \text{hash}(b \cdot A)) \bmod n $$
-Come puoi vedere, per calcolare questa chiave privata $p$, è necessario avere la chiave privata $b$. Solo Bob ha questa chiave privata $b$. Sarà quindi effettivamente l'unico in grado di spendere i bitcoin inviati al suo indirizzo di Pagamenti Silenziosi.
-![BTC204](assets/fr/236.webp)
-_Didascalia:_
-- $B$: La chiave pubblica / indirizzo statico pubblicato da Bob
-- $b$: La chiave privata di Bob
-- $A$: La chiave pubblica dell'UTXO di Alice usata come input per la transazione
-- $a$: La chiave privata di Alice
-- $G$: Il punto generatore della curva ellittica `secp256k1`
-- $\text{SHA256}$: La funzione di hashing SHA256 etichettata con `BIP0352/SharedSecret`
-- $s$: Il segreto comune ECDH
-- $P$: La chiave pubblica / indirizzo unico per il pagamento a Bob
-Ecco un approccio inizialmente piuttosto ingenuo nell'uso dell'indirizzo statico di Bob, denotato $B$, per derivare un indirizzo unico $P$ per inviare bitcoin. Tuttavia, questo metodo è troppo semplicistico e presenta diversi difetti che necessitano di correzione. Il primo problema è che, in questo schema, Alice non può creare molteplici output per Bob all'interno della stessa transazione.
-### Come creare molteplici output?
-Nell'esempio della sezione precedente, Alice crea un singolo output che andrà a Bob al suo indirizzo unico $P$. Con lo stesso input selezionato, è impossibile per Alice creare due indirizzi vergini distinti per Bob, poiché il metodo utilizzato porterebbe sempre allo stesso risultato per $P$, quindi allo stesso indirizzo. Tuttavia, ci possono essere molte situazioni in cui Alice desidera dividere il suo pagamento a Bob in diverse piccole somme, creando così molteplici UTXO. È quindi necessario trovare un metodo che permetta di farlo.
-Per raggiungere questo obiettivo, modificheremo leggermente il calcolo che Alice esegue per derivare $P$, in modo che possa generare due indirizzi distinti per Bob, ovvero $P_0$ e $P_1$.
-Per modificare il calcolo e ottenere 2 indirizzi diversi, è sufficiente aggiungere un intero che modifica il risultato. Così, Alice aggiungerà $0$ nel suo calcolo per ottenere l'indirizzo $P_0$ e $1$ per ottenere l'indirizzo $P_1$. Chiamiamo questo intero $i$:
-$$ P_i = B + \text{hash}(a \cdot B \text{ ‖ } i) \cdot G $$
-Il processo di calcolo rimane invariato rispetto al metodo precedente, eccetto che questa volta Alice concatenerà $a \cdot B$ con $i$ prima di procedere al hash. È quindi sufficiente cambiare $i$ per avere un nuovo indirizzo appartenente a Bob. Ad esempio:
-$$ P_0 = B + \text{hash}(a \cdot B \text{ ‖ } 0) \cdot G $$
-$$ P_1 = B + \text{hash}(a \cdot B \text{ ‖ } 1) \cdot G $$
-Quando Bob esamina la blockchain per i Pagamenti Silenziosi destinati a lui, inizia utilizzando $i = 0$ per l'indirizzo $P_0$. Se non trova nessun pagamento su $P_0$, conclude che questa transazione non contiene nessun Pagamento Silenzioso per lui e smette di analizzarla. Tuttavia, se $P_0$ è valido e contiene un pagamento per lui, procede con $P_1$ nella stessa transazione per verificare se Alice ha effettuato un secondo pagamento. Se $P_1$ risulta essere invalido, interrompe la sua ricerca per questa transazione; altrimenti, continua a testare valori successivi di $i$.
-$$ P_1 = B + \text{hash}(b \cdot A \text{ ‖ } 1) \cdot G $$
-Poiché Bob si ferma immediatamente a $i = 0$ se $P_0$ non produce risultati, l'uso di questo intero aggiunge quasi nessun onere operativo aggiuntivo a Bob per la fase di scansione delle transazioni.
-Bob può quindi calcolare le chiavi private nello stesso modo:
 $$
 
+Teiseks on see krüpteerimismeetod väga sarnane Vernami (One-Time Pad) krüpteerimismeetodiga, mis on ainus seni teadaolev krüpteerimisalgoritm, millel on tingimusteta (või absoluutne) turvalisus. Selleks, et Vernami šifril oleks see omadus, peab krüpteerimisvõti olema täiesti juhuslik, sama suur kui sõnum ja seda tuleb kasutada ainult üks kord. BIP47 puhul kasutatud krüpteerimismeetodi puhul on võti tõepoolest sama suur kui sõnum ja pimendustegur on täpselt sama suur kui avaliku võtme abssiidiumi ja maksekoodi stringikoodi ahelat. Seda krüpteerimisvõtit kasutatakse ainult üks kord. Teisest küljest ei ole see võti tuletatud täiuslikust juhuslikkusest, kuna tegemist on HMAC-ga. Pigem on see pseudosjuhuslik. Seega ei ole tegemist Vernami salakirjaga, kuid meetod on sellele lähedane.
+
+### Teatistehingu kättesaamine
+
+Nüüd, kui Alice on saatnud teatistehingu Bobile, vaatame, kuidas Bob seda tõlgendab. Meeldetuletuseks, et Bobil peab olema juurdepääs Alice'i maksekoodile. Ilma selle teabeta, nagu me järgmises osas näeme, ei saa ta tuletada Alice'i loodud võtmepaare ja seega ei saa ta juurdepääsu oma BIP47 kaudu saadud bitcoinidele. Hetkel on Alice'i maksekoodi maksekoormus krüpteeritud. Vaatame, kuidas Bob selle dekrüpteerib.
+
+**1-** Bob jälgib tehinguid, mis loovad väljundeid tema teavitusaadressiga.
+
+**2-** Kui tehingu teavitusaadressil on väljund, analüüsib Bob seda, et näha, kas see sisaldab OP_RETURN väljundit, mis vastab BIP47 standardile.
+
+**3-** Kui OP_RETURN-i esimene bait on `0x01`, alustab Bob võimaliku ECDH-ga jagatud saladuse otsimist:
+
+
+- Bob valib tehingu jaoks sisendiks avaliku võtme. See tähendab, et Alice'i avalik võti nimega $A$ koos :
+
+$$ A = a \cdot G $$ $$
+
+
+- Bob valib oma isikliku teavitusaadressiga seotud privaatvõtme $b$ :
+
+$$ b $$
+
+
+- Bob arvutab salajase punkti $S$ (jagatud saladus ECDH) elliptilisel kõveral, lisades ja kahekordistades punkte, rakendades oma isiklikku võtit $b$ Alice'i avalikule võtmele $A$ :
+
+$$ S = b \cdot A $$ $$
+
+
+- Bob määrab kindlaks pimendusteguri $f$, mis võimaldab Alice'i maksekoodi kasuliku koormuse dekrüpteerimist. Samamoodi, nagu Alice oli selle eelnevalt välja arvutanud, leiab Bob $f$, kohaldades HMAC-SHA512 salajase punkti $x$ absissiväärtusele $S$ ja $o$ UTXO-le, mis on selle teatamistehingu sisendiks tarbitud:
+
+$$ f = \text{HMAC-SHA512}(o, x) $$$
+
+**4-** Bob tõlgendab OP_RETURN andmeid teatistehingus maksekoodina. Ta lihtsalt dekrüpteerib selle potentsiaalse maksekoodi kasuliku koormuse, kasutades $f$ pimendustegurit:
+
+
+- Bob jagab pimendusteguri $f$ kaheks osaks: $f$ esimesed 32 baiti on $f1$ ja viimased 32 baiti on $f2$ ;
+- Bob dekrüpteerib krüpteeritud abssiba $x'$ väärtuse Alice'i maksekoodi avalikust võtmest:
+
+$$ x = x' \oplus f1 $$ $$
+
+
+- Bob dekrüpteerib Alice'i maksekoodist krüpteeritud stringikoodi $c'$ väärtuse:
+
+$$ c = c' \oplus f2 $$ $$
+
+**5-** Bob kontrollib, kas Alice'i maksekoodi avaliku võtme väärtus kuulub gruppi secp256k1. Kui jah, tõlgendab ta seda kui kehtivat maksekoodi. Kui mitte, ignoreerib ta tehingu.
+
+Nüüd, kui Bob teab Alice'i maksekoodi, võib Alice saata talle kuni `2^32` makset, ilma et ta peaks kunagi kordama seda tüüpi teavitustehingut.
+
+Miks see toimib? Kuidas saab Bob määrata sama pimendustegurit kui Alice ja seega dešifreerida tema maksekoodi? Vaatleme lähemalt ECDH tegevust, mida me just kirjeldasime.
+
+Esiteks, me tegeleme sümmeetrilise krüpteerimisega. See tähendab, et krüpteerimisvõti ja dekrüpteerimisvõti on sama väärtus. See võti on teavitustehingus pimendav tegur:
+
+$$ f = f1 || f2 $$$
+
+Alice ja Bob peavad seega saama sama väärtuse $f$ jaoks, ilma seda otse edastamata, sest ründaja võib selle varastada ja salajase teabe dekrüpteerida. See pimendustegur saadakse, kui rakendada HMAC-SHA512 2 väärtusele:
+
+
+- salajase punkti absissat ;
+- ja UTXO, mis tarbitakse tehingu sisendil.
+
+Seega vajab Bob Alice'i maksekoodi kasuliku koormuse dekrüpteerimiseks mõlemat nimetatud teavet. Sisendi UTXO saab Bob lihtsalt kätte, jälgides teavitustehingut. Salajase punkti jaoks peab Bob kasutama ECDH-d. Nagu eelmises Diffie-Hellmani käsitlevas osas näha, saavad Alice ja Bob lihtsalt oma vastavate avalike võtmete vahetamise ja oma privaatvõtmete salajase kohaldamise teel teineteise avaliku võtme suhtes leida täpse salajase punkti elliptilisel kõveral. Teatamistehing põhineb sellel mehhanismil:
+
+
+- Bobi võtmepaar :
+
+$$ B = b \cdot G $$ $$
+
+
+- Alice'i võtmepaar :
+
+$$ A = a \cdot G $$ $$
+
+
+- Saladuse $S (x, y)$ puhul :
+
+$$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
+
+![BTC204](assets/fr/228.webp)
+
+Nüüd, kui Bob teab Alice'i maksekoodi, saab ta tuvastada tema BIP47-makseid ja ta saab tuletada privaatvõtmed, mis blokeerivad saadud bitcoinid.
+
+Võtan kokku äsja koos nähtud sammud, et saada ja tõlgendada teavitustehingut:
+
+
+- Bob jälgib tehingu väljundit oma teavitusaadressile;
+- Kui ta tuvastab ühe, küsib ta OP_RETURNis sisalduvat teavet;
+- Bob valib sisendiks avaliku võtme ja arvutab ECDH abil salajase punkti;
+- See kasutab seda salajast punkti HMAC arvutamiseks, mis on pimendustegur;
+- Ta kasutab seda pimendustegurit, et dekrüpteerida Alice'i maksekoodi maksekoormus, mis sisaldub OP_RETURNis.
+
+![BTC204](assets/fr/229.webp)
+
+### BIP47 maksetehing
+
+Vaatleme makseprotsessi koos BIP47-ga. Meenutada teile praegust olukorda :
+
+
+- Alice teab Bobi maksekoodi, mille ta lihtsalt sai tema veebisaidilt;
+- Bob teab Alice'i maksekoodi teatamistehingust;
+- Alice teeb oma esimese makse Bobile. Ta võib samal viisil teha veel palju teisi.
+
+Enne selle protsessi selgitamist on minu arvates oluline meeles pidada, milliste indeksitega me praegu töötame. Maksekoodi tuletamise tee on kirjeldatud järgmiselt: `m/47'/0'/0'`. Järgnev sügavus jagab indeksid järgmiselt:
+
+
+- Esimene tavaline (tugevdamata) tütarpaar on see, mida kasutatakse eelmises punktis käsitletud teatamisaadressi genereerimiseks: `m/47'/0'/0'/0'/0` ;
+- ECDH-s kasutatakse tavalisi tütarvõtmepaare, et genereerida BIP47 maksekviitungi aadressid, nagu me näeme selles jaotises: alates `m/47'/0'/0'/0'/0` kuni `m/47'/0'/0'/0'/2,147,483,647` ;
+- Tugevdatud tütarvõtmepaarid on efemeersed maksekoodid: alates `m/47'/0'/0'/0'/0'kuni `m/47'/0'/0'/0'/2,147,483,647'`.
+
+Iga kord, kui Alice soovib saata makse Bobile, tuletab ta uue unikaalse tühja aadressi, kasutades jällegi ECDH-protokolli:
+
+
+- Alice valib esimese privaatvõtme, mis on tuletatud tema isiklikust korduvkasutatavast maksekoodist :
+
+$$ a $$
+
+
+- Alice valib esimese kasutamata avaliku võtme, mis on saadud Bobi maksekoodist. Nimetame seda avalikku võtit $B$. See on seotud ainult Bobile teadaoleva privaatvõtmega $b$:
+
+$$ B = b \cdot G $$ $$
+
+
+- Alice arvutab salajase punkti $S$ elliptilisel kõveral, lisades ja kahekordistades punkte, rakendades oma privaatvõtit $a$ Bobi avalikust võtmest $B$ :
+
+$$ S = a \cdot B $$ $$
+
+
+- Sellest salajasest punktist arvutab Alice välja jagatud saladuse $s$ (väiketähtedega). Selleks valib ta salajase punkti $S$ nimega $Sx$ abssiidiumi ja edastab selle väärtuse SHA256-hash-funktsioonile:
+
+$$ S = (Sx, Sy) $$$
+
+$$ s = \text{SHA256}(Sx) $$$
+
+
+- Alice kasutab seda jagatud saladust $s$, et arvutada Bitcoini makse vastuvõtu aadress. Kõigepealt kontrollib ta, et $s$ sisaldub secp256k1 kõvera järjekorras. Kui see ei ole nii, suurendab ta Bobi avaliku võtme indeksit, et tuletada teine jagatud saladus ;
+- Teises etapis arvutab ta avaliku võtme $K0$, liites punktid $B$ ja $s-G$ elliptilisel kõveral. Teisisõnu lisab Alice Bobi maksekoodist $B$ saadud avaliku võtme teise punkti, mis arvutatakse elliptilisel kõveral punktide liitmise ja kahekordistamise teel, kus on jagatud saladus $s$ secp256k1 kõvera generaatori punktist $G$. See uus punkt kujutab endast avalikku võtit ja me nimetame seda $K0$ :
+
+$$ K0 = B + s \cdot G $$ $$
+
+
+- Selle avaliku võtme $K0$ abil saab Alice tuletada tühja vastuvõtuaadressi standardsel viisil (nt SegWit V0 bech32-s).
+
+Kui Alice on saanud Bobi $K0$ vastuvõtuaadressi, saab ta teha Bitcoini tehingu tavalisel viisil. Selleks valib ta enda omanduses oleva UTXO, mis on tagatud tema HD rahakoti teise haru võtmepaariga, ja tarbib selle, et rahuldada väljund Bobi $K0$-aadressile. Oluline on märkida, et see makse, kui aadress on tuletatud, järgib klassikalist protsessi ja ei sõltu enam BIP47-ga seotud võtmetest.
+
+Võtan kokku just nähtud sammud, mida me koos nägime, et saata BIP47 makse:
+
+
+- Alice valib esimese tütre isikliku maksekoodist tuletatud isikliku võtme ;
+- See arvutab salajase punkti elliptilisel kõveral, kasutades ECDH-d, esimesest kasutamata tütre avalikust võtmest, mis on tuletatud Bobi maksekoodist;
+- See kasutab seda salajase punkti SHA256 abil jagatud saladuse arvutamiseks;
+- Ta kasutab seda jagatud saladust uue salajase punkti arvutamiseks elliptilisel kõveral;
+- Ta lisab selle uue salajase punkti Bobi avalikule võtmele;
+- Ta saab uue ajutise avaliku võtme, mille privaatne võti on ainult Bobil;
+- Alice saab teha Bobile klassikalise tehingu tuletatud efemerse vastuvõtuaadressiga.
+
+![BTC204](assets/fr/230.webp)
+
+Kui Alice soovib teha teise makse, teeb ta samu samu samu samme nagu varem, kuid seekord valib ta teise avaliku võtme, mis on saadud Bobi maksekoodist. Täpsemalt kasutab ta järgmist kasutamata võtit. Nii saab ta uue Bobile kuuluva vastuvõtuaadressi, mille nimeks on $K1$ :
+
+![BTC204](assets/fr/231.webp)
+
+See võib nii jätkata ja tuletada kuni `2^32` tühja aadressi, mis kuuluvad Bobile.
+
+Väljastpoolt vaadates on plokiahelat vaadates teoreetiliselt võimatu eristada BIP47 makset tavalisest maksest. Siin on näide BIP47 maksetehingu kohta Testnetis:
+
+```text
+94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254
+```
+
+See näeb välja nagu klassikaline tehing, kus on tarbitud sisend, makse väljund ja vahetuskurss:
+
+![BTC204](assets/fr/232.webp)
+
+### BIP47 makse saamine ja eravõti tuletamine
+
+Alice on just teinud oma esimese makse Bobile kuuluvale tühjale BIP47 aadressile. Nüüd vaatame, kuidas Bob selle makse kätte saab. Samuti vaatame, miks Alice'il ei ole juurdepääsu äsja loodud aadressi privaatvõtmele ja kuidas Bob leiab selle võtme, et kulutada äsja saadud bitcoinid.
+
+Niipea kui Bob saab Alice'ilt teatistehingu, tuletab ta avaliku võtme BIP47 $K0$ juba enne, kui tema korrespondent on saatnud makse. Seega jälgib ta mis tahes makseid seotud aadressile. Tegelikult tuletab ta kohe mitu aadressi, mida ta jälgib ($K0$, $K1$, $K2$, $K3$...). Siin on, kuidas ta tuletab selle avaliku võtme $K0$ :
+
+
+- Bob valib oma maksekoodist tuletatud esimese tütarettevõtte privaatvõtme. Selle privaatvõtme nimi on $b$. See on seotud avaliku võtmega $B$, millega Alice tegi oma arvutused eelmises etapis:
+
+$$ b $$
+
+
+- Bob valib Alice'i esimese avaliku võtme, mis on tuletatud tema maksekoodist. Selle võtme nimi on $A$. See on seotud privaatvõtmega $a$, millega Alice tegi oma arvutused ja mis on teada ainult Alice'ile. Bob saab seda protsessi teostada, kuna ta teab Alice'i maksekoodi, mis saadeti talle koos teatistehinguga:
+
+$$ A = a \cdot G $$ $$
+
+
+- Bob arvutab salajase punkti $S$, lisades ja kahekordistades punkte elliptilisel kõveral, rakendades oma isiklikku võtit $b$ Alice'i avalikule võtmele $A$. Ka siin kasutatakse ECDH-d, et tagada, et see punkt $S$ on nii Bobi kui ka Alice'i jaoks sama:
+
+$$ S = b \cdot A $$ $$
+
+
+- Sarnaselt Alice'ile isoleerib Bob selle punkti $S$ absissat. Me nimetasime selle väärtuse $Sx$. Ta edastab selle väärtuse SHA256-funktsioonile, et leida jagatud saladus $s$ (väiketähtedega):
+
+$$ s = \text{SHA256}(Sx) $$$
+
+
+- Samamoodi nagu Alice, arvutab Bob $s-G$ punkti elliptilisel kõveral. Seejärel lisab ta selle salajase punkti oma avalikule võtmele $B$. Seejärel saab ta uue punkti elliptilisel kõveral, mida ta tõlgendab avaliku võtmena $K0$ :
+
+$$ K0 = B + s \cdot G $$ $$
+
+Kui Bobil on see avalik võti $K0$, saab ta tuletada sellega seotud privaatvõtme, et kulutada oma bitcoine. Ainult tema saab selle privaatvõtme genereerida:
+
+
+- Bob lisab oma tütre privaatvõtme $b$, mis on saadud tema isiklikust maksekoodist. Ainult ta saab $b$ väärtuse. Seejärel lisab ta $b$ jagatud saladusele $s$, et saada $k0$, $K0$i privaatvõti:
+
+$$ k0 = b + s $$ $$
+
+Tänu elliptilise kõvera grupiseadusele saab Bob täpselt Alice'i kasutatud avalikule võtmele vastava isikliku võtme. Seega on meil :
+
+$$ K0 = k0 \cdot G $$ $$
+
+Võtan kokku just nähtud sammud, et saada BIP47 makse ja arvutada vastav privaatne võti:
+
+
+- Bob valib esimese tütre isikliku võtme, mis on tuletatud tema isiklikust maksekoodist ;
+- See arvutab salajase punkti elliptilisel kõveral ECDH abil Alice'i string-koodist tuletatud esimesest tütre avalikust võtmest;
+- See kasutab seda salajase punkti SHA256 abil jagatud saladuse arvutamiseks;
+- Ta kasutab seda jagatud saladust uue salajase punkti arvutamiseks elliptilisel kõveral;
+- Ta lisab selle uue salajase punkti oma isikliku avaliku võtme juurde;
+- Ta saab uue ajutise avaliku võtme, millele Alice saadab oma esimese makse;
+- Bob arvutab selle ajutise avaliku võtmega seotud privaatvõtme, lisades oma tütarettevõtte privaatvõtme, mis on saadud tema maksekoodist ja jagatud saladusest.
+
+![BTC204](assets/fr/233.webp)
+
+Kuna Alice ei saa $b$ (Bobi privaatne võti), ei ole tal võimalik kindlaks teha $k0$ (Bobi BIP47 vastuvõtu aadressiga seotud privaatne võti). Skeemiliselt võime esitada jagatud saladuse $S$ arvutamise järgmiselt:
+
+![BTC204](assets/fr/228.webp)
+
+Kui jagatud saladus on ECDH abil leitud, arvutavad Alice ja Bob BIP47 makse avaliku võtme $K0$ ning Bob arvutab ka sellega seotud privaatvõtme $k0$ :
+
+![BTC204](assets/fr/234.webp)
+
+### BIP47 makse tagasimaksmine
+
+Kuna Bob teab Alice'i korduvkasutatavat maksekoodi, on tal juba olemas kogu teave, mida ta vajab, et saata Alice'ile raha tagasi. Ta ei pea Alice'iga uuesti ühendust võtma, et küsida mingit teavet. Ta peab lihtsalt teavitama teda teavitustehinguga, et ta saaks oma BIP47-aadressid oma seemnega kätte ja seejärel saab ta saata talle ka kuni `2^32` makset.
+
+Tagasimakse funktsioon on BIP47 eripära ja on üks selle eeliseid teiste meetodite, näiteks vaikivate maksete ees, mida me vaatleme hilisemates peatükkides.
+
+Bob saab seejärel hüvitada Alice'ile sama moodi, kuidas ta talle makseid saatis. Rollid on ümberpööratud:
+
+![BTC204](assets/fr/235.webp)
+
+*Suur tänu [Fanis Michalakisele](https://x.com/FanisMichalakis) selle peatüki kirjutamise aluseks olnud artikli korrektuuri ja asjatundlike nõuannete eest!
+
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+## Vaikivad maksed
+
+<chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+![La confidentialité sur Bitcoin](https://youtu.be/lG6JamNlwXY?feature=shared)
+
+BIP47 on laialdaselt kritiseeritud selle ebaefektiivsuse tõttu. Nagu eelmises peatükis selgitatud, nõuab see iga uue vastuvõtja puhul teatamistehingu sooritamist. See piirang muutub ebaoluliseks, kui me kavatseme luua selle saajaga jätkusuutliku maksekanali. Üks teatamistehing sillutab teed peaaegu lõpmatule arvule järgnevatele BIP47 maksetele.
+
+Teatud olukordades võib teavitustehing siiski olla kasutajale takistuseks. Võtame näiteks ühekordse annetuse saajale: klassikalise Bitcoini aadressi puhul piisab annetuse lõpuleviimiseks ühest tehingust. BIP47 puhul on aga vaja kahte tehingut: üks teavitamiseks ja teine tegelikuks maksmiseks. Kui nõudlus plokiruumi järele on väike ja tehingutasud madalad, ei ole see täiendav samm tavaliselt probleemiks. Ülekoormuse ajal võivad aga tehingutasud ühe makse eest muutuda ülemääraseks, mis võib kasutaja jaoks kahekordistada kulusid võrreldes tavalise Bitcoini tehinguga, mis võib osutuda kasutajale vastuvõetamatuks.
+
+Olukordade jaoks, kus kasutaja kavatseb teha ainult mõned maksed staatilisele identifikaatorile, on välja töötatud muid lahendusi. Nende hulka kuuluvad vaikivad maksed, mida on kirjeldatud dokumendis [BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). See protokoll võimaldab kasutada staatilist identifikaatorit maksete vastuvõtmiseks ilma aadressi korduvkasutust tekitamata ja ilma, et oleks vaja kasutada teatamistehinguid. Vaatame, kuidas see protokoll töötab.
+
+---
+*Selle peatüki täielikuks mõistmiseks on oluline omandada ECDH (Elliptic Curve Diffie-Hellman) ja krüptograafilise võtme tuletamise tööpõhimõte HD rahakotis. Neid mõisteid käsitleti üksikasjalikult eelmises peatükis BIP47 kohta. Ma ei hakka neid siinkohal kordama. Kui te ei ole nende mõistetega veel tuttav, soovitan teil enne selle peatüki jätkamist tutvuda eelmise peatükiga. Ma ei hakka siinkohal veel kord üle vaatama vastuvõtuaadresside korduvkasutamisega seotud riske ega ka seda, kui oluline on unikaalne identifikaator maksete vastuvõtmiseks *, vaid mainin siinkohal vaid mõned punktid, mida tahaksin siinkohal välja tuua
+
+---
+### Miks ei saa teadet liigutada?
+
+Nagu on käsitletud peatükis BIP47 , on teatamistehingul kaks põhifunktsiooni:
+
+
+- See teavitab vastuvõtjat ;
+- See edastab saatja maksekoodi.
+
+Võib naiivselt arvata, et seda teavitamisprotsessi võiks teostada väljaspool ahelat. Teoreetiliselt on see täiesti teostatav: vastuvõtja peaks vaid näitama sidevahendi, et saada saatjatelt BIP47 maksekoodid. Selle lähenemisviisiga on aga kaks suurt probleemi:
+
+
+- Esiteks, see viiks koodi edastamise protsessi üle teisele sideprotokollile. Probleemid, mis on seotud teabevahetuse kulude ja konfidentsiaalsusega, jääksid alles, kuid viidaks lihtsalt üle kõnealusesse uude protokolli. Mis puutub konfidentsiaalsusesse, siis võib see luua ka seose kasutaja identiteedi ja ahelas toimuva tegevuse vahel, mida me püüame vältida, teostades teavitamist otse plokiahelas. Lisaks sellele tooks teatamine väljaspool plokiahelat kaasa tsensuuririskid (näiteks vahendite blokeerimine), mida Bitcoinis ei ole;
+- Teiseks tekitab see taastamise probleemi. BIP47 puhul peab saaja teadma saatjate maksekoode, et pääseda ligi rahalistele vahenditele. See kehtib nii kättesaamisel kui ka juhul, kui rahakoti kadumise korral saadakse raha tagasi seemne kaudu. Onchain-teavituste puhul on see risk välditud, sest kasutaja saab teavitustehinguid kätte ja dekrüpteerida, teades lihtsalt oma seemet. Kui aga teade tehakse väljaspool plokiahelat, peaks kasutaja säilitama kõigi saadud maksekoodide dünaamilise varukoopia, mis on keskmise kasutaja jaoks ebapraktiline.
+
+Kõik need piirangud muudavad ahelateatise kasutamise BIP47 jaoks hädavajalikuks. Silent Payments püüab aga vältida seda teatamise etappi just selle maksumuse tõttu. Seega ei ole valitud lahendus mitte teatamise üleviimine, vaid selle täielik kaotamine. Selleks tuleb leppida kompromissiga: skaneerimine. Erinevalt BIP47-st, kus kasutaja teab täpselt, kust ta tänu teavitustehingutele oma raha leiab, peab kasutaja Silent Payments'i puhul uurima kõiki olemasolevaid Bitcoini tehinguid, et tuvastada talle mõeldud makseid. Selle operatiivkoormuse vähendamiseks piirdub Silent Payments'i otsing ainult tehingutega, mis tõenäoliselt sisaldavad selliseid makseid, st tehingutega, millel on vähemalt üks Taproot P2TR väljund. Samuti keskendub otsing ainult rahakoti loomise kuupäevast alates tehtud tehingutele (kui rahakott on loodud 2024. aastal, ei ole vaja otsida tehinguid, mis pärinevad aastast 2009).
+
+Seega näete, miks BIP47 ja vaikimisi maksed, kuigi nende eesmärk on sarnane, hõlmavad erinevaid kompromisse ja seega **vastavad tegelikult erinevatele kasutusviisidele**. Ühekordsete maksete, näiteks ühekordsete annetuste puhul on vaikimisi maksed madalamate kulude tõttu sobivamad. Teisest küljest, kui tegemist on korrapäraste tehingutega samale saajale, näiteks vahetusplatvormide või kaevandamisbasseinide puhul, võib eelistada BIP47.
+
+Vaadakem Silent Payments'i tehnilist toimimist, et paremini mõista, mis on kaalul. Selleks soovitan kasutada sama lähenemisviisi nagu BIP352 selgitavas dokumendis. Jagame järk-järgult läbi viidavad arvutused elementide kaupa, põhjendades iga uut lisandit.
+
+### Mõned mõisted, millest tuleb aru saada
+
+Enne alustamist on oluline rõhutada, et Silent Payments tugineb ainult P2TR (*Pay to Taproot*) skriptitüüpide kasutamisele. Erinevalt BIP47-st ei ole vaja tuletada vastuvõtuaadressid lapse avalikest võtmetest hashimise teel. P2TR-standardis kasutatakse aadressis otse ja krüpteerimata tiritud avalikku võtit. Seega on Taproot-vastuvõtuaadress sisuliselt avalik võti koos mõningate metaandmetega. See kohandatud avalik võti on kahe teise avaliku võtme kombinatsioon: üks võimaldab otsest, traditsioonilist kulutamist lihtsa allkirja kaudu ja teine esindab MASTi Merkle'i juurt, mis lubab kulutamist, kui on täidetud üks Merkle'i puule potentsiaalselt sisse kirjutatud tingimustest.
+
+![BTC204](assets/fr/068.webp)
+
+Otsusel piirata vaikimisi makseid ainult Taprootiga on kaks peamist põhjust:
+
+
+- Esiteks lihtsustab see märkimisväärselt portfelli tarkvara rakendamist ja tulevasi uuendusi, kuna tuleb järgida ainult ühte standardit;
+- Teiseks aitab selline lähenemisviis parandada kasutajate anonüümsust, julgustades neid mitte jagama end eri tüüpi skriptide vahel, mis loovad ahelanalüüsis erinevaid portfelli sõrmejälgi (lisateavet selle kontseptsiooni kohta leiate 2. osa 4. peatükist).
+
+### Vaikiva makse avaliku võtme naiivne tuletamine
+
+Alustame lihtsa näitega, et mõista, kuidas SP-d (vaiksed maksed) toimivad. Võtame Alice'i ja Bobi, kaks Bitcoini kasutajat. Alice soovib saata Bitcoine Bobile tühjale vastuvõtuaadressile. Sellel protsessil on kolm eesmärki:
+
+
+- Alice peab suutma genereerida tühja aadressi;
+- Bob peab suutma tuvastada sellele konkreetsele aadressile saadetud makse;
+- Bobil peab olema võimalik saada selle aadressiga seotud privaatne võti, et oma raha kulutada.
+
+Alice'il on UTXO oma turvalises Bitcoini rahakotis järgmise võtmepaariga:
+
+
+- $a$: privaatne võti ;
+- $A$: avalik võti ($A = a \cdot G$)
+
+Bobil on SP-aadress, mille ta on avaldanud internetis aadressil :
+
+
+- $b$: privaatne võti ;
+- $B$: avalik võti ($B = b \cdot G$)
+
+Bobi aadressi välja otsides saab Alice arvutada uue tühja aadressi, mis kuulub Bobile, kasutades ECDH-d. Nimetagem seda aadressi $P$ :
+
+$$ P = B + \text{hash}(a \cdot B) \cdot G $$ $$
+
+Selles võrrandis on Alice lihtsalt arvutanud oma isikliku võtme $a$ ja Bobi avaliku võtme $B$ skalaartulemuse. Selle tulemuse on ta sisestanud kõigile teadaolevasse hash-funktsiooni. Seejärel korrutatakse saadud väärtus skalaarselt elliptilise kõvera `secp256k1` genereerimispunktiga $G$. Lõpuks lisab Alice saadud punkti Bobi avalikule võtmele $B$. Kui Alice'il on see aadress $P$, kasutab ta seda tehingu väljundina, st ta saadab sellele bitcoine.
+
+> *Silent Payments'i kontekstis vastab "hash" funktsioon SHA256 hash-funktsioonile, mis on spetsiaalselt märgistatud "BIP0352/SharedSecret", mis tagab, et genereeritud hashid on unikaalsed selle protokolli jaoks ja neid ei saa teistes kontekstides uuesti kasutada, pakkudes samal ajal täiendavat kaitset allkirjades olevate mittetähenduste taaskasutamise vastu. See standard vastab standardile, mis on sätestatud [BIP340-s Schnorr'i allkirjade jaoks](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) "secp256k1" kohta
+Tänu ECDH aluseks oleva elliptilise kõvera omadustele teame, et :
+
+$$ a \cdot B = b \cdot A $$ $$
+
+Bob saab seega välja arvutada vastuvõtva aadressi, kuhu Alice on bitcoinid saatnud. Selleks jälgib ta kõiki vaikivate maksete kriteeriumidele vastavaid Bitcoini tehinguid ja rakendab igaühe suhtes järgmist arvutust, et näha, kas makse on adresseeritud talle (*scanning*):
+
+$$ P' = B + \text{hash}(b \cdot A) \cdot G $$ $$
+
+Kui ta skaneerib Alice'i tehingut, mõistab ta, et $P'$ on võrdne $P$. Seega teab ta, et makse on adresseeritud talle:
+
+$$ P' = B + \text{hash}(b \cdot A) \cdot G = B + \text{hash}(a \cdot B) \cdot G = P $$ $$
+
+Siit saab Bob välja arvutada privaatvõtme $p$, mis võimaldab aadressi $P$ kulutada:
+
+$$ p = (b + \text{hash}(b \cdot A)) \bmod n $$ $$
+
+Nagu näete, peab teil selle privaatvõtme $p$ arvutamiseks olema privaatvõti $b$. Ainult Bobil on see privaatvõti $b$. Seega on ta ainus, kes saab oma Silent Payments'i aadressile saadetud bitcoin'e kulutada.
+
+![BTC204](assets/fr/236.webp)
+
+*Legend:*
+
+
+- $B$ : Bobi avaldatud avalik võti/staatiline aadress
+- $b$ : Bobi privaatne võti
+- $A$ : Alice'i UTXO avalik võti, mida kasutatakse tehingu sisendina
+- $a$ : Alice'i privaatne võti
+- $G$ : elliptilise kõvera "secp256k1" genereerimispunkt
+- $\text{SHA256}$ : SHA256 hash-funktsioon, mis on märgistatud koodiga `BIP0352/SharedSecret`
+- $s$ : ECDH ühine saladus
+- $P$ : Avalik võti/üksikne aadress, mille alusel toimub makse Bobile
+
+Siin on üsna naiivne esialgne lähenemine Bobi staatilise aadressi (märgitud $B$) kasutamiseks, et tuletada unikaalne aadress $P$, kuhu bitcoine saata. See meetod on siiski liiga lihtsustatud ja sellel on mitmeid puudusi, mis tuleb parandada. Esimene probleem seisneb selles, et selle skeemi puhul ei saa Alice ühe ja sama tehingu raames luua mitu väljundit Bobile.
+
+### Kuidas luua mitu väljundit?
+
+Eelmises punktis toodud näites loob Alice ühe väljundi, mis läheb Bobile tema unikaalsele aadressile $P$. Sama sisendi valimisel ei ole Alice'il võimalik luua Bobile kahte eraldi tühja aadressi, sest kasutatav meetod annaks $P$ jaoks alati sama tulemuse, st sama aadressi. Siiski võib esineda mitmeid olukordi, kus Alice soovib jagada oma makse Bobile mitmeks väiksemaks summaks, luues seega mitu UTXOd. Seetõttu on vaja leida meetod, kuidas seda saavutada.
+
+Selle saavutamiseks muudame veidi arvutust, mida Alice teeb $P$ tuletamiseks, nii et ta saab genereerida Bobile kaks erinevat aadressi, nimelt $P_0$ ja $P_1$.
+
+Arvutuse muutmiseks ja 2 erineva aadressi saamiseks tuleb lihtsalt lisada täisarv, mis muudab tulemust. Seega lisab Alice arvutusele $0$, et saada aadress $P_0$ ja $1$, et saada aadress $P_1$. Nimetagem seda täisarvu $i$ :
+
+$$ P_i = B + \text{hash}(a \cdot B \text{ ‖ } i) \cdot G $$ $$
+
+Arvutamisprotsess ei muutu võrreldes eelmise meetodiga, välja arvatud see, et seekord liita Alice enne hash-arvutuse jätkamist $a \cdot B$ ja $i$. Seejärel muudetakse lihtsalt $i$, et saada uus Bobile kuuluv aadress. Näiteks:
+
+$$ P_0 = B + \text{hash}(a \cdot B \text{ ‖ } 0) \cdot G $$ $$
+
+$$ P_1 = B + \text{hash}(a \cdot B \text{ ‖ } 1) \cdot G $$ $$
+
+Kui Bob otsib plokiahelas temale mõeldud Vaikseid makseid, kasutab ta alguses aadressi $P_0$ jaoks $i = 0$. Kui ta ei leia ühtegi makset aadressilt $P_0$, järeldab ta, et see tehing ei sisalda talle mõeldud vaikseid makseid, ja jätab skaneerimise pooleli. Kui aga $P_0$ on kehtiv ja sisaldab talle mõeldud makseid, jätkab ta sama tehingu $P_1$ abil, et kontrollida, kas Alice on teinud teise makse. Kui $P_1$ osutub kehtetuks, lõpetab ta selle tehingu otsimise; vastasel juhul jätkab ta järjestikuste $i$ väärtuste testimist:
+
+$$ P_0 = B + \text{hash}(b \cdot A \text{ ‖ } 0) \cdot G $$ $$
+
+$$ P_1 = B + \text{hash}(b \cdot A \text{ ‖ } 1) \cdot G $$ $$
+
+Kuna Bob peatub kohe $i = 0$ juures, kui $P_0$ ei tööta, ei lisa selle täisarvu kasutamine Bobile peaaegu mingit täiendavat töökoormust tehingu skaneerimise etapis.
+
+Bob saab seejärel samamoodi arvutada isiklikud võtmed:
+
+$$
 p_0 = (b + \text{hash}(b \cdot A \text{ ‖ } 0)) \bmod n
+$$
 
 $$
 p_1 = (b + \text{hash}(b \cdot A \text{ ‖ } 1)) \bmod n
 $$
 
-_Didascalia:_
+![BTC204](assets/fr/237.webp)
+
+*Legend:*
 
 
-- $B$: La chiave pubblica / indirizzo statico pubblicato da Bob
-- $b$: La chiave privata di Bob
-- $A$: La chiave pubblica dell'UTXO di Alice usata come input per la transazione
-- $a$: La chiave privata di Alice
-- $G$: Il punto generatore della curva ellittica `secp256k1`
-- $\text{SHA256}$: La funzione di hash SHA256 etichettata con `BIP0352/SharedSecret`
-- $s_0$: Il primo segreto condiviso ECDH
-- $s_1$: Il secondo segreto condiviso ECDH
-- $P_0$: La prima chiave pubblica / indirizzo unico per il pagamento a Bob
-- $P_1$: La seconda chiave pubblica / indirizzo unico per il pagamento a Bob
+- $B$ : Bobi avaldatud avalik võti/staatiline aadress
+- $b$ : Bobi privaatne võti
+- $A$ : Alice'i UTXO avalik võti, mida kasutatakse tehingu sisendina
+- $a$ : Alice'i privaatne võti
+- $G$ : elliptilise kõvera "secp256k1" genereerimispunkt
+- $\text{SHA256}$ : SHA256 hash-funktsioon, mis on märgistatud koodiga `BIP0352/SharedSecret`
+- $s_0$ : esimene ühine saladus ECDH
+- $s_1$ : teine ECDH ühine saladus
+- $P_0$ : Esimene avalik võti / unikaalne aadress, mille alusel saab Bobile maksta
+- $P_1$ : Teine avalik võti / unikaalne aadress, mille alusel saab Bobile maksta
 
-Con questo metodo, iniziamo ad avere un bel protocollo, ma ci sono ancora alcune sfide da superare, in particolare la prevenzione del riutilizzo degli indirizzi.
+Selle meetodi abil hakkame saama kena protokolli, kuid on veel mõned probleemid, mida tuleb ületada, eelkõige aadressi korduvkasutamise vältimine.
 
-### Come evitare il riutilizzo degli indirizzi?
+### Kuidas vältida aadressi korduvkasutust?
 
-Come abbiamo visto nelle sezioni precedenti, Alice utilizza la coppia di chiavi che proteggono il suo UTXO, che spenderà per calcolare il segreto condiviso ECDH con Bob. Questo segreto le permette di derivare l'indirizzo unico $P_0$. Tuttavia, la coppia di chiavi ($a$, $A$) usata da Alice può proteggere più UTXO se ha riutilizzato questo indirizzo diverse volte. Juhul kui Alice kasutab Bobi statilise koodi $B$ puhul kaks korda makseid, kasutades sama koodi $A$ kaitstud UTXO-d, on tegemist Bobi jaoks sama koodi kasutamisega, mis tähendab, et ta kasutab sama koodi uuesti.
+Nagu me nägime eelmistes punktides, kasutab Alice võtmepaari, mis kindlustab tema UTXO, mida ta kasutab ECDH jagatud saladuse arvutamiseks Bobiga. See saladus võimaldab tal tuletada unikaalse aadressi $P_0$. Alice'i kasutatav võtmepaar ($a$, $A$) võib aga kindlustada mitu UTXOd, kui ta on seda aadressi mitu korda korduvalt kasutanud. Kui Alice teeb kaks makset Bobi staatilisele aadressile $B$, kasutades kahte UTXOd, mis on tagatud sama võtmega $A$, siis on see Bobi jaoks aadressi korduvkasutamine.
 
-> _Il riutilizzo degli indirizzi è una pratica molto negativa per la privacy degli utenti. Per capire perché, vi consiglio di rivedere le prime parti di questa formazione._
-Infatti, poiché l'indirizzo unico $P_0$ è derivato da $A$ e $B$, se Alice deriva un secondo indirizzo per un secondo pagamento a $B$, con la stessa chiave $A$, finirà per ottenere lo stesso indirizzo $P_0$. Et vältida seda riski ja vältida riutilizzo degli indirizzi all'interno dei Pagamenti Silenziosi, dobbiamo modificare leggermente i nostri calcoli.
+> *Aadressi korduvkasutamine on kasutajate konfidentsiaalsuse seisukohast väga halb tava. Et teada saada, miks, soovitan teil tutvuda selle koolituse esimeste osadega.*
+Tõepoolest, kuna unikaalne aadress $P_0$ on tuletatud $A$ ja $B$ põhjal, siis kui Alice tuletab teise aadressi teise makse jaoks $B$-le sama võtmega $A$, satub ta täpselt samale aadressile $P_0$. Et vältida seda riski ja vältida aadresside korduvkasutamist vaikivate maksete raames, peame oma arvutusi veidi muutma.
 
-Quello che vogliamo è che ogni UTXO consumato da Alice come input di un pagamento dia un indirizzo unico dal lato di Bob, anche se più UTXO sono protetti dalla stessa coppia di chiavi. È quindi sufficiente aggiungere un riferimento all'UTXO nel calcolo dell'indirizzo unico $P_0$. Questo riferimento sarà semplicemente l'hash dell'UTXO consumato come input:
+Me tahame, et iga UTXO, mida Alice kasutab makse sisendina, annaks Bobi poolel unikaalse aadressi, isegi kui mitu UTXOd on kaitstud sama võtmepaariga. Seega peame vaid lisama unikaalse aadressi $P_0$ arvutamisel viite UTXO-le. See viide on lihtsalt sisendina tarbitava UTXO hash:
 
 $$ \text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A) $$
 
-E questo riferimento di input, Alice lo aggiungerà nel suo calcolo dell'indirizzo unico $P_0$:
+Ja Alice lisab selle viite oma unikaalse aadressi $P_0$ arvutamise sisendiks:
 
-Durante la sua scansione, Bob può anche aggiungere $\text{inputHash}$, poiché tutto ciò che deve fare è osservare la transazione per dedurre $\text{outpoint}$:
+$$ P_0 = B + \text{hash}(\text{inputHash} \cdot a \cdot B \text{ ‖ } 0) \cdot G $$
+
+Skaneerimisel saab Bob lisada ka $\text{inputHash}$ , kuna ta peab ainult jälgima tehingut, et järeldada $\text{outpoint}$ :
 
 $$ P_0 = B + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0) \cdot G $$ $$
 
-Quando trova un valido $P_0$, può calcolare la corrispondente chiave privata $p_0$:
+Kui ta leiab kehtiva $P_0$, saab ta arvutada vastava $p_0$ privaatvõtme:
 
 $$
 p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
 $$
 
-```text
-_Legenda:_
-- $B$: La chiave pubblica / indirizzo statico pubblicato da Bob
-- $b$: La chiave privata di Bob
-- $A$: La chiave pubblica dell'UTXO di Alice usata come input per la transazione
-- $a$: La chiave privata di Alice
-- $H$: L'hash dell'UTXO usato come input
-- $G$: Il punto generatore della curva ellittica `secp256k1`
-- $\text{SHA256}$: La funzione di hash SHA256 etichettata con `BIP0352/SharedSecret`
-- $s_0$: Il primo segreto condiviso ECDH
-- $P_0$: La prima chiave pubblica / indirizzo unico per il pagamento a Bob
-Al momento, i nostri calcoli presuppongono che Alice utilizzi un singolo input per la sua transazione. Tuttavia, dovrebbe essere in grado di utilizzare più input. Di conseguenza, da parte di Bob, per ogni transazione contenente più input, teoricamente avrebbe bisogno di calcolare l'ECDH per ogni input per determinare se un pagamento è destinato a lui. Questo metodo non è soddisfacente, quindi abbiamo bisogno di trovare una soluzione per ridurre il carico di lavoro!
-### Modificare le chiavi pubbliche negli input
-Per risolvere questo problema, invece di utilizzare la coppia di chiavi che protegge un input specifico da parte di Alice, useremo la somma di tutte le coppie di chiavi utilizzate negli input della transazione. Questa somma sarà quindi considerata come una nuova coppia di chiavi. Questa tecnica è nota come "tweak".
-Per esempio, immagina che la transazione di Alice abbia 3 input, ognuno protetto con una coppia di chiavi diversa:
-- $a_0$ protegge l'input #0;
-- $a_1$ protegge l'input #1;
-- $a_2$ protegge l'input #2.
-Seguendo il metodo descritto sopra, Alice dovrebbe scegliere una singola coppia di chiavi tra $a_0$, $a_1$ e $a_2$ per calcolare il segreto ECDH e generare l'indirizzo di pagamento unico $P$ dall'indirizzo statico $B$ di Bob. Tuttavia, questo approccio richiede a Bob di testare ogni possibilità sequenzialmente, partendo da $a_0$, poi $a_1$, e così via, fino all'identificazione di una coppia che genera un indirizzo valido $P$. Questo processo richiede che Bob esegua il calcolo ECDH su tutti gli input di tutte le transazioni, aumentando significativamente il carico di lavoro operativo di scansione.
-Per evitare ciò, chiederemo ad Alice di eseguire il suo calcolo di $P$ utilizzando la somma di tutte le chiavi in input. Prendendo il nostro esempio, la chiave privata modificata $a$ sarebbe calcolata come segue:
-$$ a = a_0 + a_1 + a_2 $$
-Allo stesso modo, Alice e Bob saranno in grado di calcolare la chiave pubblica modificata:
-$$ A = A_0 + A_1 + A_2 $$
-Grazie a questo metodo, a Bob basta calcolare la somma delle chiavi pubbliche della transazione, poi calcolare il segreto ECDH da $A$ soltanto, il che riduce notevolmente il numero di calcoli da fare per la fase di scansione. Tuttavia, ricorda dalla sezione precedente. Avevamo incluso nel nostro calcolo l'hash $\text{inputHash}$ che viene usato come nonce per prevenire il riutilizzo degli indirizzi:
+![BTC204](assets/fr/238.webp)
+
+*Legend:*
+
+
+- $B$ : Bobi avaldatud avalik võti/staatiline aadress
+- $b$ : Bobi privaatne võti
+- $A$ : Alice'i UTXO avalik võti, mida kasutatakse tehingu sisendina
+- $a$ : Alice'i privaatne võti
+- $H$ : sisendina kasutatav UTXO hash
+- $G$ : elliptilise kõvera "secp256k1" genereerimispunkt
+- $\text{SHA256}$ : SHA256 hash-funktsioon, mis on märgistatud koodiga `BIP0352/SharedSecret`
+- $s_0$ : esimene ECDH ühine saladus
+- $P_0$ : Esimene avalik võti / unikaalne aadress, mille alusel saab Bobile maksta
+
+Praegu eeldatakse meie arvutustes, et Alice kasutab tehingu tegemiseks ühte sisendit. Ta peaks siiski suutma kasutada mitut sisendit. Järelikult peaks Bob iga tehingu puhul, mis hõlmab mitut sisendit, teoreetiliselt arvutama ECDH iga sisendi kohta, et teha kindlaks, kas makse on mõeldud talle. See meetod ei ole rahuldav, seega peame leidma lahenduse töökoormuse vähendamiseks!
+
+### Avalike võtmete muutmine sisenditeks
+
+Selle probleemi lahendamiseks kasutame selle asemel, et kasutada võtmepaari, mis kindlustab konkreetse sisendi Alice'i poolel, kõigi tehingu sisendites kasutatud võtmepaaride summat. Seda summat käsitletakse seejärel uue võtmepaarina. Seda tehnikat nimetatakse "tweaking'iks".
+
+Kujutame näiteks ette, et Alice'i tehingul on 3 sisendit, millest igaüks on kaitstud erineva võtmepaariga:
+
+
+- $a_0$ kasutatakse sisendi #0 kindlustamiseks;
+- $a_1$ kasutatakse sisendi nr 1 kindlustamiseks;
+- $a_2$ tagab sisendi nr 2.
+
+![BTC204](assets/fr/239.webp)
+
+Eelnevalt kirjeldatud meetodi kohaselt peab Alice valima ühe võtmepaari $a_0$, $a_1$ ja $a_2$ hulgast, et arvutada ECDH-saladus ja genereerida Bobi staatilisest aadressist $B$ üks makseaadress $P$. Selle lähenemisviisi puhul peab Bob siiski katsetama iga võimalust järjestikku, alustades $a_0$, seejärel $a_1$ ja nii edasi, kuni ta leiab paari, mis genereerib kehtiva $P$-aadressi. See protsess nõuab Bobilt ECDH-arvutuste tegemist kõigi tehingute kõigi sisendite kohta, mis suurendab oluliselt skaneerimise töökoormust.
+
+Selle vältimiseks palume Alice'il arvutada $P$, kasutades kõigi sisendvõtmete summat. Kasutades meie näidet, arvutatakse muudetud privaatne võti $a$ järgmiselt:
+
+$$ a = a_0 + a_1 + a_2 $$ $$
+
+Samamoodi saavad Alice ja Bob arvutada muudetud avaliku võtme:
+
+$$ A = A_0 + A_1 + A_2 $$ $$
+
+Selle meetodi puhul peab Bob arvutama ainult tehingu avalike võtmete summa ja seejärel arvutama ECDH-saladuse ainult $A$ põhjal, mis vähendab oluliselt skaneerimise etapis vajalike arvutuste arvu.
+
+Kuid pidage meeles eelmist lõiku. Me olime lisanud oma arvutustesse $\text{inputHash}$ hashi, mida kasutatakse nonce'ina, et vältida aadressi korduvkasutamist:
+
 $$ \text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A) $$
-Ma se ci sono più input in una transazione, è necessario determinare quale $\text{outpoint}$ viene scelto in questo calcolo. Secondo il BIP352, il criterio di selezione per $\text{outpoint}$ da usare è scegliere il più piccolo lessicograficamente, il che significa selezionare l'UTXO che appare per primo in ordine alfabetico. Questo metodo standardizza l'UTXO da scegliere in ogni transazione. Ad esempio, se questo $\text{outpoint}$ più piccolo lessicograficamente è $\text{outpoint}_L$, il calcolo di $\text{inputHash}$ sarà:
-$$ \text{inputHash} = \text{hash}(\text{outpoint}\_L \text{ ‖ } A) $$
-I calcoli rimangono quindi identici a quelli presentati nella sezione precedente, eccetto che la chiave privata $a$ e la sua corrispondente chiave pubblica $A$ non rappresentano più una coppia che protegge un singolo input, ma ora rappresentano la modifica di tutte le coppie di chiavi negli input.
-### Separare le Chiavi di Spesa e di Scansione
-Finora, abbiamo discusso dell'indirizzo statico di Pagamento Silenzioso $B$ come di una chiave pubblica unica. Ricorda, è questa chiave pubblica $B$ che viene usata da Alice per creare il segreto condiviso ECDH, che a sua volta viene usato per calcolare l'indirizzo di pagamento unico $P$. Bob usa questa chiave pubblica $B$ e la corrispondente chiave privata $b$ per la fase di scansione. Ma userà anche la chiave privata $b$ per calcolare la chiave privata $p$ che consente di spendere dall'indirizzo $P$.
-Lo svantaggio di questo metodo è che la chiave privata $b$, che viene usata per calcolare tutte le chiavi private per gli indirizzi che ricevono Pagamenti Silenziosi, viene anche usata da Bob per scansionare le transazioni. Questo passaggio richiede che la chiave $b$ sia disponibile su un software di portafoglio connesso a Internet, il che la espone a un rischio maggiore di furto rispetto al mantenerla su un portafoglio freddo. Idealmente, sarebbe vantaggioso poter approfittare dei Pagamenti Silenziosi mantenendo la chiave privata $b$, che controlla l'accesso a tutte le altre chiavi private, al sicuro su un portafoglio hardware. Fortunatamente, il protocollo è stato adattato per permettere esattamente questo.
-Per raggiungere questo obiettivo, il BIP352 specifica che il ricevente usa 2 diverse coppie di chiavi:
-- $B_{\text{spend}}$: per calcolare le chiavi private degli indirizzi di pagamento unici;
-- $B_{\text{scan}}$: per trovare indirizzi di pagamento unici.
-In questo modo, Bob può mantenere la chiave privata $b_{\text{spend}}$ su un portafoglio hardware e usare la chiave privata $b_{\text{scan}}$ su software online per trovare i suoi Pagamenti Silenziosi, senza rivelare $b_{\text{spend}}$. Tuttavia, le chiavi pubbliche $B_{\text{scan}}$ e $B_{\text{spend}}$ sono entrambe pubblicamente rivelate, poiché si trovano nell'indirizzo statico di Bob $B$:
-Per calcolare un indirizzo di pagamento unico $P_0$ appartenente a Bob, Alice eseguirà il seguente calcolo:
-$$ P*0 = B*{\text{spend}} + \text{hash}(\text{inputHash} \cdot a \cdot B\_{\text{scan}} \text{ ‖ } 0) \cdot G $$
-Per trovare i pagamenti indirizzati a lui, Bob eseguirà il seguente calcolo:
-$$ P*0 = B*{\text{spend}} + \text{hash}(\text{inputHash} \cdot b\_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G $$
-Come puoi vedere, fino a questo momento, Bob non ha avuto bisogno di usare $b_{\text{spend}}$ che si trova sul suo portafoglio hardware. Quando desidera spendere $P_0$, può quindi eseguire il seguente calcolo per trovare la chiave privata $p_0$:
-$$ p*0 = (b*{\text{spend}} + \text{hash}(\text{inputHash} \cdot b\_{\text{scan}} \cdot A \text{ ‖ } 0)) \bmod n $$
-_Didascalia:_
-- $B_{\text{scan}}$: Chiave pubblica di scansione di Bob (indirizzo statico)
-- $b_{\text{scan}}$: Chiave privata di scansione di Bob
-- $B_{\text{spend}}$: Chiave pubblica di spesa di Bob (indirizzo statico)
-- $b_{\text{spend}}$: Chiave privata di spesa di Bob
-- $A$: La somma delle chiavi pubbliche in input (tweak)
-- $a$: La chiave privata corrispondente alla chiave pubblica modificata
-- $H$: L'hash dell'UTXO più piccolo (lessicograficamente) usato in input
-- $G$: Il punto generatore della curva ellittica `secp256k1`
-- $\text{SHA256}$: La funzione di hashing SHA256 etichettata con `BIP0352/SharedSecret`
-- $s_0$: Il primo segreto condiviso ECDH
-- $P_0$: La prima chiave pubblica / indirizzo di pagamento unico per Bob
-### Utilizzando indirizzi SP con un'etichetta
-Bob ha quindi un indirizzo statico $B$ per i Pagamenti Silenziosi come segue:
-$$ B = B*{\text{scan}} \text{ ‖ } B*{\text{spend}} $$
-Il problema con questo metodo è che non permette di segregare i diversi pagamenti inviati a questo indirizzo. Ad esempio, se Bob ha 2 clienti diversi per la sua attività e vuole differenziare chiaramente i pagamenti da ciascuno, avrebbe bisogno di 2 indirizzi statici diversi. Una soluzione ingenua, con l'approccio attuale, sarebbe che Bob crei due portafogli separati, ognuno con il proprio indirizzo statico, o addirittura stabilisca due indirizzi statici diversi all'interno dello stesso portafoglio. Tuttavia, questa soluzione richiede la scansione dell'intera blockchain due volte (una per ciascun indirizzo) per rilevare rispettivamente i pagamenti destinati a ciascun indirizzo. Questa doppia scansione aumenta in modo irragionevole l'onere operativo per Bob.
-Per risolvere questo problema, BIP352 utilizza un sistema di etichettatura che consente di avere diversi indirizzi statici senza aumentare in modo irragionevole il carico di lavoro per trovare Pagamenti Silenziosi sulla blockchain. Per fare ciò, viene aggiunto un intero $m$ alla chiave pubblica di spesa $B_{\text{spend}}$. Questo intero può assumere il valore di $1$ per il primo indirizzo statico, poi $2$ per il secondo, e così via. Le chiavi di spesa $B_{\text{spend}}$ saranno d'ora in poi chiamate $B_m$ e saranno costruite in questo modo:
-$$ B*m = B*{\text{spend}} + \text{hash}(b\_{\text{scan}} \text{ ‖ } m) \cdot G $$
-Per esempio, per la prima chiave di spesa con l'etichetta $1$:
-$$ B*1 = B*{\text{spend}} + \text{hash}(b\_{\text{scan}} \text{ ‖ } 1) \cdot G $$
-L'indirizzo statico pubblicato da Bob consisterà ora di $B_{\text{scan}}$ e $B_m$. Per esempio, il primo indirizzo statico con l'etichetta $1$ sarà:
-$$ B = B\_{\text{scan}} \text{ ‖ } B_1 $$
-> _Iniziamo solo dall'etichetta 1 perché l'etichetta 0 è riservata per il resto._
-Alice, da parte sua, deriverà l'indirizzo di pagamento unico $P$ nello stesso modo di prima, ma utilizzando il nuovo $B_1$ invece di $B_{\text{spend}}$.
-$$ P*0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B*{\text{scan}} \text{ ‖ } 0) \cdot G $$
-In realtà, Alice potrebbe non sapere nemmeno che Bob ha un indirizzo etichettato, poiché lei semplicemente utilizza la seconda parte dell'indirizzo statico che lui le ha fornito, che in questo caso, è il valore $B_1$ piuttosto che $B_{\text{spend}}$.
-Per scansionare i pagamenti, Bob utilizzerà sempre il valore del suo indirizzo statico iniziale con $B_{\text{spend}}$ in questo modo:
-$$ P*0 = B*{\text{spend}} + \text{hash}(\text{inputHash} \cdot b\_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G $$
-Poi, semplicemente sottrae il valore che trova per $P_0$ da ogni output uno per uno. Poi controlla se uno dei risultati di queste sottrazioni corrisponde al valore di una delle etichette che usa nel suo portafoglio. Se corrisponde, per esempio, per l'output #4 con l'etichetta $1$, ciò significa che questo output è un Pagamento Silenzioso associato al suo indirizzo statico etichettato $B_1$:
-$$ Out*4 - P_0 = \text{hash}(b*{\text{scan}} \text{ ‖ } 1) \cdot G $$
-Questo funziona perché:
-$$ B*1 = B*{\text{spend}} + \text{hash}(b*{\text{scan}} \text{ ‖ } 1) \cdot G $$
-Grazie a questo metodo, Bob può utilizzare una moltitudine di indirizzi statici ($B_1$, $B_2$, $B_3$...), tutti derivati dal suo indirizzo statico base ($B = B*{\text{scan}} \text{ ‖ } B*{\text{spend}}$), al fine di separare correttamente gli usi.
-Tuttavia, questa separazione degli indirizzi statici è valida solo da una prospettiva di gestione personale del portafoglio e non consente la separazione delle identità. Poiché tutti hanno lo stesso $B*{\text{scan}}$, è molto facile associare tutti gli indirizzi statici insieme e dedurre che appartengono a una singola entità.
-_Didascalia:_
-- $B_{\text{scan}}$: chiave pubblica di scansione di Bob (indirizzo statico)
-- $b_{\text{scan}}$: chiave privata di scansione di Bob
-- $B_{\text{spend}}$: chiave pubblica di spesa di Bob (indirizzo iniziale)
-- $B_m$: chiave pubblica di spesa etichettata di Bob (indirizzo statico)
-- $b_m$: chiave privata di spesa etichettata di Bob
-- $A$: La somma delle chiavi pubbliche in input (tweak)
-- $a$: La chiave privata corrispondente alla chiave pubblica modificata
-- $H$: L'hash del più piccolo UTXO (lessicograficamente) utilizzato come input
-- $G$: Il punto generatore della curva ellittica `secp256k1`
-- $\text{SHA256}$: La funzione di hashing SHA256 etichettata con `BIP0352/SharedSecret`
-- $s_0$: Il primo segreto condiviso ECDH
-- $P_0$: La prima chiave pubblica / indirizzo unico per il pagamento a Bob
-- $p_0$: La chiave privata del primo indirizzo di pagamento unico a Bob
-- $X$: L'hash della chiave privata di scansione con l'etichetta
-### Come Costruire un Indirizzo per Pagamenti Silenziosi?
-Per costruire un indirizzo dedicato ai Pagamenti Silenziosi, è necessario prima derivare 2 coppie di chiavi nel proprio portafoglio Bitcoin HD:
-- La coppia $b_{\text{scan}}$, $B_{\text{scan}}$ per cercare i pagamenti indirizzati a noi;
-- La coppia $b_{\text{spend}}$, $B_{\text{spend}}$ per spendere i bitcoin che abbiamo ricevuto.
-Queste coppie sono derivate seguendo questi percorsi (_Bitcoin Mainnet_):
-scan: m / 352' / 0' / 0' / 1' / 0
-spend: m / 352' / 0' / 0' / 0' / 0
-```
+
+Kuid kui teil on mitu sisendit tehingus, peate olema võimeline määrama, milline $\text{outpoint}$ valitakse selles arvutuses. Vastavalt BIP352-le on $\text{outpoint}$ valikukriteerium, mida tuleb kasutada, et valida leksikograafiliselt väikseim, mis tähendab, et valitakse UTXO, mis esineb tähestikulises järjekorras esimesena. See meetod standardiseerib igas tehingus valitava UTXO. Näiteks kui see leksikograafiliselt väikseim $\text{outpoint}$ on $\text{outpoint}_L$, siis arvutatakse $\text{inputHash}$ :
+
+$$ \text{inputHash} = \text{hash}(\text{outpoint}_L \text{ ‖ } A) $$
+
+Arvutused jäävad siis samaks, mis eelmises jaotises, ainult et privaatvõti $a$ ja vastav avalik võti $A$ ei ole enam paar, mida kasutatakse ühe sisendi kindlustamiseks, vaid kujutavad nüüd kõigi sisendite võtmepaaride tweak'i.
+
+### Eraldi kulu- ja skaneerimisvõtmed
+
+Hetkel oleme viidanud vaikiva makse staatilisele aadressile $B$ kui unikaalsele avalikule võtmele. Pidage meeles, et just seda avalikku võtit $B$ kasutab Alice jagatud saladuse ECDH loomiseks, mis omakorda arvutab unikaalse makseaadressi $P$. Bob kasutab seda avalikku võtit $B$ ja vastavat privaatvõtit $b$ skaneerimisetapis. Kuid ta kasutab ka privaatvõtit $b$ selleks, et arvutada privaatvõti $p$, mis võimaldab aadressilt $P$ teha kulutusi.
+
+Selle meetodi puuduseks on see, et Bob kasutab tehingute skaneerimiseks ka $b$ privaatvõtit, mida kasutatakse kõigi vaikimisi makseid saanud aadresside privaatvõtmete arvutamiseks. See samm nõuab, et $b$ võti oleks kättesaadav internetiga ühendatud rahakoti tarkvaras, mis seab selle varguse ohule rohkem ohtu kui selle hoidmine külmas rahakotis. Ideaaljuhul oleks kasulik kasutada Silent Payments'i võimalusi, kuid hoida $b$ privaatvõtit, mis kontrollib juurdepääsu kõikidele teistele privaatvõtmetele, turvaliselt riistvaralises rahakotis. Õnneks on protokoll kohandatud just seda võimaldama.
+
+BIP352 nõuab selleks, et vastuvõtja kasutaks 2 erinevat võtmepaari:
+
+
+- b_{\text{spend}}$: unikaalsete makseaadresside privaatvõtmete arvutamiseks;
+- b_{\text{scan}}$: unikaalsete makseaadresside leidmiseks.
+
+Sel viisil saab Bob hoida privaatvõtit $b_{\text{spend}}$ riistvaralises rahakotis ja kasutada privaatvõtit $b_{\text{scan}}$ veebitarkvaras, et leida oma Vaikseid makseid, ilma et $b_{\text{spend}}$ paljastataks. Teisalt on avalikud võtmed $B_{\text{scan}}$ ja $B_{\text{spend}}$ mõlemad avalikult avalikustatud, kuna need asuvad Bobi staatilises aadressil $B$ :
+
+$$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
+
+Et arvutada Bobile kuuluv unikaalne makseaadress $P_0$, teeb Alice nüüd järgmise arvutuse:
+
+$$ P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G $$
+
+Talle adresseeritud maksete leidmiseks teeb Bob järgmised arvutused:
+
+$$ P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G $$
+
+Nagu näete, ei ole Bobil seni olnud vaja kasutada $b_{\text{spend}}$, mis on tema riistvara rahakotis. Kui ta tahab kulutada $P_0$ , võib ta teha järgmise arvutuse, et leida privaatne võti $p_0$ :
+
+$$ p_0 = (b_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0)) \bmod n $$
+
+![BTC204](assets/fr/240.webp)
+
+*Legend:*
+
+
+- $B_{\text{scan}}$: Bobi avalik skaneerimisvõti (staatiline aadress)
+- $b_{\text{scan}}$ : Bobi privaatne skaneerimisvõti
+- $B_{\text{spend}}$ : Bobi avalik kulutuste võti (staatiline aadress)
+- $b_{\text{spend}}$ : Bobi privaatne kulutuste võti
+- $A$ : avaliku võtme sisendite summa (tweak)
+- $a$ : muudetud avalikule võtmele vastav privaatne võti
+- $H$ : väikseima sisendina kasutatud UTXO (leksikograafiliselt) hash
+- $G$ : elliptilise kõvera "secp256k1" genereerimispunkt
+- $\text{SHA256}$ : SHA256 hash-funktsioon, mis on märgistatud koodiga `BIP0352/SharedSecret`
+- $s_0$ : esimene ühine saladus ECDH
+- $P_0$ : Esimene avalik võti / unikaalne aadress, mille alusel saab Bobile maksta
+
+### SP-aadresside kasutamine koos sildiga
+
+Bobil on seega staatiline aadress $B$ Vaiksete maksete jaoks, näiteks :
+
+$$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
+
+Selle meetodi probleem on selles, et see ei võimalda eraldada sellele aadressile saadetud erinevaid makseid. Näiteks kui Bobil on oma ettevõtte jaoks 2 erinevat klienti ja ta soovib makseid kummalegi eristada, vajab ta 2 erinevat staatilist aadressi. Naiivne lahendus praeguse lähenemisviisi puhul oleks Bobil luua kaks eraldi rahakotti, millel mõlemal oleks oma staatiline aadress, või isegi luua kaks erinevat staatilist aadressi ühe rahakoti sees. See lahendus nõuab aga kogu plokiahelat kaks korda (üks kord kummalegi aadressile), et tuvastada mõlemale aadressile mõeldud maksed. Selline kahekordne skaneerimine suurendab põhjendamatult Bobi töökoormust.
+
+Selle probleemi lahendamiseks kasutab BIP352 märgistussüsteemi, mis võimaldab erinevaid staatilisi aadresse, ilma et see suurendaks põhjendamatult töömahtu, mis on seotud Silent Payments'i leidmisega plokiahelas. Selleks lisame avalikule kulutuste võtmele $B_{\text{spend}}$ täisarvu $m$. See täisarv võib võtta esimese staatilise aadressi puhul väärtuse $1$, teise puhul $2$ jne. Kulutamisvõtteid $B_{\text{spend}}$ nimetatakse nüüd $B_m$ ja need konstrueeritakse sel viisil:
+
+$$ B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G $ $$
+
+Näiteks esimese kuluklahvi puhul, millel on silt $1$ :
+
+$$ B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G $$
+
+Bobi avaldatud staatiline aadress koosneb nüüd $B_{\text{scan}}$ ja $B_m$. Näiteks esimene staatiline aadress märgisega $1$ on :
+
+$$ B = B_{\text{scan}} \text{ ‖ } B_1 $$
+
+> *Alustame ainult sildist 1, sest silt 0 on reserveeritud muutuse jaoks.*
+Alice omalt poolt tuletab ühe makse aadressi $P$ samamoodi nagu varem, kuid kasutab $B_{\text{spend}}$ asemel uut $B_1$ :
+
+$$ P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G $$
+
+Tegelikkuses ei pruugi Alice isegi teada, et Bobil on märgistatud aadress, sest ta kasutab lihtsalt tema esitatud staatilise aadressi teist osa, ja sel juhul on see väärtus $B_1$, mitte $B_{teksti{kulutada}}$.
+
+Maksete skaneerimiseks kasutab Bob alati oma esialgse staatilise aadressi väärtust koos $B_{\text{spend}}$ sellisel viisil:
+
+$$ P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G $$
+
+Seejärel ta lihtsalt lahutab igast väljundist ükshaaval $P_0$ väärtuse, mille ta leiab. Seejärel kontrollib ta, kas üks nende lahutuste tulemustest vastab ühe tema portfellis kasutatava sildi väärtusele. Kui näiteks väljund #4 vastab märgisele $1$ , tähendab see, et see väljund on vaikiv makse, mis on seotud tema staatiliselt märgistatud aadressiga $B_1$ :
+
+$$ Out_4 - P_0 = \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G $$
+
+See toimib, sest :
+
+$$ B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G $$
+
+Tänu sellele meetodile saab Bob kasutada mitmeid staatilisi aadresse ($B_1$, $B_2$, $B_3$...), mis kõik on tuletatud tema põhilisest staatilisest aadressist ($B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}}$), et hoida kasutamine eraldi.
+
+Pange siiski tähele, et selline staatiliste aadresside eraldamine kehtib ainult isikliku portfelli haldamise seisukohast, kuid ei erista identiteete. Kuna neil kõigil on sama $B_{\text{scan}}$, on väga lihtne seostada kõik staatilised aadressid omavahel ja järeldada, et nad kuuluvad ühele üksusele.
+
+![BTC204](assets/fr/241.webp)
+
+*Legend:*
+
+
+- $B_{\text{scan}}$: Bobi avalik skaneerimisvõti (staatiline aadress)
+- $b_{\text{scan}}$ : Bobi privaatne skaneerimisvõti
+- $B_{\text{spend}}$ : Bobi avalik kulutuste võti (algne aadress)
+- $B_m$ : Bobi avalik kulutuste võti, mis on märgistatud (staatiline aadress)
+- $b_m$: Bobi privaatne kulutuste võti, mis on märgistatud järgmiselt
+- $A$ : avaliku võtme sisendite summa (tweak)
+- $a$ : muudetud avalikule võtmele vastav privaatne võti
+- $H$ : väikseima sisendina kasutatud UTXO (leksikograafiliselt) hash
+- $G$ : elliptilise kõvera "secp256k1" genereerimispunkt
+- $\text{SHA256}$ : SHA256 hash-funktsioon, mis on märgistatud koodiga `BIP0352/SharedSecret`
+- $s_0$ : esimene ECDH ühine saladus
+- $P_0$ : Esimene avalik võti / unikaalne aadress, mille alusel saab Bobile maksta
+- $p_0$ : Bobi esimese unikaalse makseaadressi privaatvõti
+- $X$ : privaatse skaneerimisvõtme hash koos märgisega
+
+### Kuidas luua vaikiva makse aadressi?
+
+Vaiksete maksete jaoks mõeldud aadressi loomiseks peate esmalt tuletama 2 võtmepaari oma Bitcoin HD rahakotist:
+
+
+- Paar $b_{\text{scan}}$, $B_{\text{scan}}$ meile adresseeritud maksete otsimiseks;
+- Paar $b_{\text{spend}}$, $B_{\text{spend}}$, et mõelda saadud bitcoinidele.
+
+Need paarid on tuletatud kasutades järgmisi teid (*Bitcoin Mainnet*):
 
 ```text
-Una volta disponibili queste 2 coppie di chiavi, si concatenano semplicemente (una di seguito all'altra) per creare il payload dell'indirizzo statico:
-$$ B = B*{\text{scan}} \text{ ‖ } B*{\text{spend}} $$
-Se si desidera utilizzare etichette, $B_{\text{spend}}$ viene sostituito con $B_m$:
-$$ B = B\_{\text{scan}} \text{ ‖ } B_m $$
-Con l'etichetta $m$:
-$$ B*m = B*{\text{spend}} + \text{hash}(b\_{\text{scan}} \text{ ‖ } m) \cdot G $$
-Una volta disponibile questo payload, si aggiunge la HRP (_Human-Readable Part_) `sp` e la versione `q` (= versione 0). Viene anche aggiunto un checksum, e l'indirizzo è formattato in bech32m.
-Ad esempio, ecco il mio indirizzo statico per i Pagamenti Silenziosi:
+scan : m / 352' / 0' / 0' / 1' / 0
+spend : m / 352' / 0' / 0' / 0' / 0
+```
+
+Kui meil on need 2 võtmepaari, siis lihtsalt ühendame need (otsast lõpuni), et luua staatilise aadressi kasuliku koormuse:
+
+$$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
+
+Kui me tahame kasutada silte, siis asendame $B_{\text{spend}}$ väärtusega $B_m$ :
+
+$$ B = B_{\text{scan}} \text{ ‖ } B_m $$ $$
+
+Märgisega $m$ :
+
+$$ B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G $ $$
+
+Kui meil on see kasulik koormus olemas, lisame HRP (*Human-Readable Part*) `sp` ja versiooni `q` (= versioon 0). Samuti lisame kontrollsumma ja vormindame aadressi kujul bech32m.
+
+Näiteks siin on minu vaikivate maksete staatiline aadress:
+
+```text
 sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ryc7aam6jrvrg0d0uuyzecfhx2wgsumcurv77e
 ```
+
+Oluline punkt staatiliste aadresside kohta, millest olete võib-olla eelmistes punktides aru saanud, on see, et need aadressid ei ole Bitcoini tehingutes nähtavad. Ainult väljundites kasutatavad $P$ makseaadressid ilmuvad plokiahelas standardses Taproot-formaadis. Seega on väljastpoolt vaadates võimatu eristada Silent Paymentiga seotud tehingut tavalisest tehingust, mis kasutab P2TR-väljundeid.
+
+Nagu ka BIP47 puhul, ei ole võimalik luua seost staatilise aadressi $B$ ja $B$-st tuletatud makseaadressi $P$ vahel. Tõepoolest, isegi kui Eve, potentsiaalne ründaja, üritab Bobi staatilise $B$ aadressi abil plokiahelat skaneerida, ei suuda ta teha arvutusi, mis on vajalikud $P$ määramiseks. Selleks oleks tal vaja kas Bobi privaatvõtit $b_{\text{scan}}$ või saatja privaatvõtit $a$, kuid mõlemad on loomulikult privaatsed. Seega on võimalik selgesõnaliselt siduda oma staatiline aadress mingi isikliku identiteediga.
+
+### Kuidas kasutada vaikseid makseid?
+
+Silent Payments'i ettepanek on suhteliselt hiljutine ja seda on hetkel rakendanud vaid väga vähesed rahakotid. Minu teada on ainult 3 tarkvaratoodet, mis neid toetavad:
+
+
+- [CakeWallet](https://cakewallet.com/)
+- [Silentium](https://app.silentium.dev/)
+- [DonationWallet](https://github.com/Sosthene00/donationwallet)
+
+Varsti anname teile üksikasjaliku õpetuse, kuidas luua oma vaikiva makse staatiline aadress.
+
+Kuna see funktsioon on uus, soovitame olla ettevaatlik ja vältida suurte summade puhul vaikivate maksete kasutamist Mainnetis.
+
+*Selle vaikimisi makseid käsitleva peatüki koostamiseks kasutasin [vaikimisi makseid selgitavat veebilehte](https://silentpayments.xyz/) ja [BIP352 selgitavat dokumenti](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
+
+# Kokkuvõte
+
+<partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
+
+## Arvamused ja hinnangud
+
+<chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
+
+<isCourseReview>true</isCourseReview>
+
+## Lõpueksam
+
+<chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
+
+<isCourseExam>true</isCourseExam>
+
+## Kokkuvõte
+
+<chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+
+<isCourseConclusion>true</isCourseConclusion>

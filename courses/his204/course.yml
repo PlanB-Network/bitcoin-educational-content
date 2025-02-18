@@ -1,0 +1,25 @@
+id: ccbd62a8-e90b-4030-95bf-ba735804655d
+topic: social studies
+subtopic: history
+level: intermediate
+hours: 5
+
+professors:
+  - peace-advice
+
+contributors:
+  - rabbit-hole
+  - another-satoshi
+
+published_at: 2025-02-18
+test_only: true
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    - Asi0Flammeus
+    reward: 0

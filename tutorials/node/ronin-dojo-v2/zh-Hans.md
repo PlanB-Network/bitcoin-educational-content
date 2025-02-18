@@ -208,7 +208,7 @@ RoninDojo 提供了一个用于在 [RockPro64](https://ronindojo.io/en/download)
 
 ![lets start](assets/notext/25.webp)
 
-在这个阶段，RoninUI会向您展示您的 `root` 密码。保管好它是至关重要的。您可以选择物理备份，比如纸质备份，或者保存在[密码管理器](https://planb.network/courses/secu101/4/2)中。
+在这个阶段，RoninUI会向您展示您的 `root` 密码。保管好它是至关重要的。您可以选择物理备份，比如纸质备份，或者保存在[密码管理器](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)中。
 
 ![root password](assets/notext/26.webp)
 

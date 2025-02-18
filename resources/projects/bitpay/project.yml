@@ -1,0 +1,21 @@
+id: 7ea7ba53-0ced-4cc4-9928-242e5f1fa6fd
+name: BitPay
+category: infrastructure
+
+links:
+  website: https://bitpay.com/
+  twitter: https://x.com/BitPay
+
+tags:
+  - business
+  - adoption
+  - user-friendly
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-18
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

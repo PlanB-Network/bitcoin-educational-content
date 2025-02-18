@@ -1,0 +1,21 @@
+id: 4de90f4a-ddc8-42c3-adb2-5e445ba0a3db
+name: Blockdaemon
+category: infrastructure
+
+links:
+  website: https://www.blockdaemon.com/
+  twitter: https://x.com/BlockdaemonHQ
+
+tags:
+  - software
+  - business
+  - use-case
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-18
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

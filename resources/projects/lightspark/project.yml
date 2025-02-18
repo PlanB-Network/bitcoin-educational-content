@@ -1,0 +1,21 @@
+id: 075f376a-1f2a-480c-b3a9-1aef182fec53
+name: Lightspark
+category: infrastructure
+
+links:
+  website: https://www.lightspark.com/
+  twitter: https://x.com/lightspark
+
+tags:
+  - software
+  - business
+  - development
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-18
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

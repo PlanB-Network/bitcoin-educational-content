@@ -220,7 +220,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c2
 
 ![JADE-PLUS-GREEN](assets/fr/33.webp)
 
-然后输入Jade上的PIN码，就可以重新连接了。
+然后输入Jade上的PIN码之后，您就可以重新连接了。
 
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 

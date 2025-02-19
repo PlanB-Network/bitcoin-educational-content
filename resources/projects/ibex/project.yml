@@ -1,0 +1,21 @@
+id: e32d7286-78a5-40bf-994a-4830e1760939
+name: Ibex
+category: infrastructure
+
+links:
+  website: https://www.poweredbyibex.io/
+  twitter: https://x.com/PoweredbyIBEX
+
+tags:
+  - software
+  - adoption
+  - use-case
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-19
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

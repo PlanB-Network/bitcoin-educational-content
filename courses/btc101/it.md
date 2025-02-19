@@ -1362,7 +1362,7 @@ Siete pronti a partecipare?
 
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 
-<isCourseExam>vero</isCourseExam>
+<isCourseExam>true</isCourseExam>
 
 ## Conclusione
 

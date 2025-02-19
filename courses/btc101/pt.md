@@ -1362,10 +1362,10 @@ Está pronto para aderir?
 
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 
-<isCourseExam>verdadeiro</isCourseExam>
+<isCourseExam>true</isCourseExam>
 
 ## Conclusão
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-<isCourseConclusion>verdadeiro</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

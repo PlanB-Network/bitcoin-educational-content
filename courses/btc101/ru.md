@@ -1356,13 +1356,13 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 
-<isCourseReview>true</isCourseReview
+<isCourseReview>true</isCourseReview>
 
 ## Итоговый экзамен
 
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 
-<isCourseExam>true</isCourseExam
+<isCourseExam>true</isCourseExam>
 
 ## Заключение
 

@@ -1356,7 +1356,7 @@ Jste připraveni se připojit?
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
 
@@ -1368,4 +1368,4 @@ Jste připraveni se připojit?
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-<isCourseConclusion>pravdivý</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

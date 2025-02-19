@@ -1356,16 +1356,16 @@ AI を例にとれば、これらのテクノロジーは、ビデオゲーム�
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 
-<isCourseReview>真</isCourseReview>。
+<isCourseReview>true</isCourseReview>
 
 ## 最終試験
 
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 
-<isCourseExam>真</isCourseExam>。
+<isCourseExam>true</isCourseExam>
 
 ## 結論
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-<isCourseConclusion>真</isCourseConclusion>。
+<isCourseConclusion>true</isCourseConclusion>

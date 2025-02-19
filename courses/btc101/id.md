@@ -1368,4 +1368,4 @@ Apakah Anda siap untuk bergabung?
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-<isCourseConclusion>benar</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

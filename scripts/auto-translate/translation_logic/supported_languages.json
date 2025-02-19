@@ -106,6 +106,12 @@
       "code_translator": "RU"
     },
     {
+      "code": "sv",
+      "name": "Swedish",
+      "translator": "deepl",
+      "code_translator": "SV"
+    },
+    {
       "code": "th",
       "name": "Thai",
       "translator": "openai",

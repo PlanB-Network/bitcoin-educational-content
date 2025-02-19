@@ -1,0 +1,25 @@
+id: 0bee0bba-ab62-4db0-8c63-b2ad698ca178
+
+project_id: d655e18b-d299-4c88-beb5-e6b688d86024
+
+tags:
+  - wallets
+  - keys
+
+category: desktop
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-02-19
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 0

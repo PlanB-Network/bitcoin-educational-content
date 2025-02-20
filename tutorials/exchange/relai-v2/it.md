@@ -6,7 +6,7 @@ description: Un semplice tutorial sull'utilizzo di Relai per il vostro viaggio i
 
 ## Introduzione al Relai
 
-Relai è un'applicazione mobile semplice e intuitiva progettata per aiutare privati e aziende a investire in Bitcoin senza sforzo. Che siate nuovi investitori in Bitcoin o esperti, l'interfaccia intuitiva di Relai e le sue funzioni semplificano l'avvio e il mantenimento di un piano di risparmio in Bitcoin. A differenza delle piattaforme tradizionali, Relai non richiede una conoscenza approfondita del Bitcoin o di sistemi finanziari complessi: basta scaricare l'app e iniziare a risparmiare.
+Relai è un'applicazione mobile semplice e intuitiva progettata per aiutare privati e aziende a investire in Bitcoin senza sforzo. Che siate nuovi in Bitcoin o investitori esperti, L'interfaccia intuitiva di Relai e le sue funzionalità semplificate rendono facile avviare e gestire un piano di risparmio in Bitcoin. A differenza delle piattaforme tradizionali, Relai non richiede una conoscenza approfondita del Bitcoin o di sistemi finanziari complessi: basta scaricare l'app e iniziare a risparmiare.
 
 Relai si distingue per la semplicità, l'accessibilità e l'attenzione al risparmio di Bitcoin a lungo termine. Sia che vogliate impostare un piano di risparmio ricorrente o fare acquisti una tantum, Relai vi copre. Vediamo come iniziare a utilizzare questo fantastico strumento.
 

@@ -115,7 +115,7 @@ rgb schemata
 创建新资产有两种方法：
 
 
-- 我们可以使用 Rust 中的脚本或代码，通过填充模式字段（全局状态（global state）、自有状态（Owned States)等）来构建合约，并生成`.rgb`或`.rgba`文件；
+- 我们可以使用 Rust 中的脚本或代码，通过填充模式字段（全局状态（global state）、拥有状态（Owned States)等）来构建合约，并生成`.rgb`或`.rgba`文件；
 - 或者直接使用 `issue` 子命令，用YAML（或TOML）文件描述代币的属性。
 
 您可以在Rust的`examples`文件夹中找到示例，其中说明了如何构建`ContractBuilder`、填写`global state`（资产名称、代号、供应量、日期等）、定义 Owned State（分配给哪个UTXO），然后将所有编纂成您可以导出、验证并导入储藏库的*合约委托（Contract consignment）*。
@@ -223,13 +223,13 @@ rgb dump
 
 这将生成一个文件夹，其中包含整个储藏库的详细信息。
 
-## 转账和部分签名的比特币交易（PSBT）
+## 转账和PSBT（部分签名的比特币交易）
 
 如果您想要进行转账，您需要改造一个本地比特币钱包来管理 "Tapret "或 "Opret "承诺（commitment）。
 
 ### 生成发票
 
-在大多数情况下，合约参与者（如Alice和 Bob）之间的互动是通过生成发票来实现的。如果Alice想要Bob执行某些操作（代币转移、重新发行、DAO中的操作等），Alice就会创建一张发票，详细说明她对Bob的指示。因此，Alice和Bob的角色如下：
+在大多数情况下，合约参与者（如Alice和Bob）之间的互动是通过生成发票来实现的。如果Alice想要Bob执行某些操作（代币转移、重新发行、DAO中的操作等），Alice就会创建一张发票，详细说明她对Bob的指示。因此，Alice和Bob的角色如下：
 
 
 - Alice（发票发行人） ；

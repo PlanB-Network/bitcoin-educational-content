@@ -84,7 +84,7 @@ To add a new account, click on "*Add account*".
 
 ![Image](assets/fr/14.webp)
 
-To create a new portfolio, click on the "*+*" symbol next to "*Wallets*".
+To create a new wallet, click on the "*+*" symbol next to "*Wallets*".
 
 ![Image](assets/fr/15.webp)
 

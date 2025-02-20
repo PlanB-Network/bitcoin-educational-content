@@ -138,7 +138,7 @@ For my part, having opted for a withdrawal via Lightning, I have three options f
 - By providing my Lightning address ;
 - By providing an invoice for the amount of the purchase.
 
-The LNURL method is the simplest. It is available in most Lightning portfolios, such as Phoenix, where you simply select "*Receive*" then "*Scan*".
+The LNURL method is the simplest. It is available in most Lightning wallets, such as Phoenix, where you simply select "*Receive*" then "*Scan*".
 
 ![BULL](assets/fr/24.webp)
 

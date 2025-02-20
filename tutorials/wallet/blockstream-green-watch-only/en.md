@@ -1,10 +1,10 @@
 ---
 name: Blockstream Green - Watch-Only
-description: Watch-only portfolio configuration
+description: Watch-only wallet configuration
 ---
 ![cover](assets/cover.webp)
 
-In this tutorial, you'll discover how to easily set up a "watch-only" portfolio on mobile using the Blockstream Green application.
+In this tutorial, you'll discover how to easily set up a "watch-only" wallet on mobile using the Blockstream Green application.
 
 ## What is a Watch-Only Wallet?
 
@@ -22,11 +22,11 @@ In this tutorial, I'd like to introduce you to one of the most popular watch-onl
 
 ## Introducing Blockstream Green
 
-Blockstream Green is a software application available on mobile and desktop. Formerly known as Green Address, this portfolio became a Blockstream project following its acquisition in 2016.
+Blockstream Green is a software application available on mobile and desktop. Formerly known as Green Address, this wallet became a Blockstream project following its acquisition in 2016.
 
 Green is a very easy-to-use application, making it particularly suitable for beginners. It offers a range of functions, such as management of hot wallets, hardware wallets and Liquid sidechain wallets.
 
-In this tutorial, we'll concentrate solely on creating a watch-only portfolio. To explore other uses of Green, please consult our other dedicated tutorials:
+In this tutorial, we'll concentrate solely on creating a watch-only wallet. To explore other uses of Green, please consult our other dedicated tutorials:
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -46,7 +46,7 @@ Launch the application, then check the "I accept the conditions...*" box.
 
 ![GREEN-WATCH-ONLY](assets/fr/05.webp)
 
-When you open Green for the first time, the home screen appears without a configured portfolio. Later, if you create or import portfolios, they will appear in this interface. Before going on to create a portfolio, I advise you to adjust the application settings to suit your needs. Click on "Application settings".
+When you open Green for the first time, the home screen appears without a configured wallet. Later, if you create or import wallets, they will appear in this interface. Before going on to create a wallet, I advise you to adjust the application settings to suit your needs. Click on "Application settings".
 
 ![GREEN-WATCH-ONLY](assets/fr/06.webp)
 
@@ -70,13 +70,13 @@ Once you've adjusted these settings to your needs, click on the "*Save*" button 
 
 ![GREEN-WATCH-ONLY](assets/fr/11.webp)
 
-## Create a watch-only portfolio on Blockstream Green
+## Create a watch-only wallet on Blockstream Green
 
-You are now ready to create a watch-only portfolio. Click on the "*Get Started*" button.
+You are now ready to create a watch-only wallet. Click on the "*Get Started*" button.
 
 ![GREEN-WATCH-ONLY](assets/fr/12.webp)
 
-You'll be able to choose between several types of wallet. For this tutorial, we want to create a watch-only portfolio, so click on the corresponding button.
+You'll be able to choose between several types of wallet. For this tutorial, we want to create a watch-only wallet, so click on the corresponding button.
 
 ![GREEN-WATCH-ONLY](assets/fr/13.webp)
 

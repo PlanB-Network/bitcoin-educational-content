@@ -218,7 +218,7 @@ Click on "*New Seed Words*".
 
 ![CCQ](assets/fr/029.webp)
 
-You can choose the length of your sentence. I recommend that you opt for a 12-word sentence, as it's less complex to manage and offers no less portfolio security than a 24-word sentence.
+You can choose the length of your sentence. I recommend that you opt for a 12-word sentence, as it's less complex to manage and offers no less wallet security than a 24-word sentence.
 
 ![CCQ](assets/fr/030.webp)
 
@@ -238,7 +238,7 @@ You can write it down on the cardboard supplied with your COLDCARD, or for added
 
 Write down the words provided on the screen on the physical medium of your choice. Depending on your security strategy, you may consider making several complete physical copies of the sentence (but above all, don't split it up). It's important to keep the words numbered and in sequential order.
 
-Obviously, **you must never share these words** on the Internet, unlike in this tutorial. This sample portfolio will be used only on Testnet and will be deleted at the end of the tutorial.
+Obviously, **you must never share these words** on the Internet, unlike in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial.
 
 After writing down the words, press "*ENTER*".
 
@@ -256,7 +256,7 @@ You now access your COLDCARD's main menu.
 
 ![CCQ](assets/fr/036.webp)
 
-## Setting up a new portfolio on Sparrow
+## Setting up a new wallet on Sparrow
 
 There are several options for establishing communication between the Sparrow Wallet software and your COLDCARD. The most straightforward is to use a USB-C cable. However, by default, your COLDCARD has cable and NFC communications disabled. To reactivate them, navigate to "*Settings*", then "*Hardware On/Off*", and activate the desired communication option.
 

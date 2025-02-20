@@ -183,7 +183,7 @@ Determine the transaction priority. For a no-fee withdrawal, choose "*Standard*"
 
 ![Image](assets/fr/32.webp)
 
-If you're not familiar with how a self-custody portfolio works, we offer tutorials on most of the solutions available [on Plan ₿ Network in the "*Wallet*" section](https://planb.network/tutorials/wallet).
+If you're not familiar with how a self-custody wallet works, we offer tutorials on most of the solutions available [on Plan ₿ Network in the "*Wallet*" section](https://planb.network/tutorials/wallet).
 
 ## Selling bitcoin
 

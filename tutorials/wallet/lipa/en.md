@@ -39,8 +39,8 @@ The Android version is currently under development and will be available soon.
 Once you've launched the application, you'll arrive on the home screen, which offers you two options:
 
 
-- Create a new portfolio
-- Restore an existing portfolio from a backup
+- Create a new wallet
+- Restore an existing wallet from a backup
 
 Once you've chosen your option, the application prompts you to enable notifications. This step is important, as notifications are necessary for :
 
@@ -82,7 +82,7 @@ This gesture reveals additional functions such as :
 - Creating Lightning invoices to receive bitcoins
 - Lightning invoice payment
 
-## Save your portfolio
+## Save your wallet
 
 To back up your wallet, go to the "Settings" tab and select "Recovery phrase". Lipa uses a recovery phrase which it is essential to write down carefully on a physical medium (paper, metal). This phrase is the only way to recover your funds if your phone is lost or stolen. To validate your backup, the application will ask you to confirm 3 random words from your phrase.
 

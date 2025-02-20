@@ -1,6 +1,6 @@
 ---
 name: Blockstream Green - Mobile
-description: Setting up a mobile software portfolio
+description: Setting up a mobile software wallet
 ---
 ![cover](assets/cover.webp)
 
@@ -39,7 +39,7 @@ Launch the application, then check the "I accept the conditions...*" box.
 
 ![GREEN](assets/fr/04.webp)
 
-When you open Green for the first time, the home screen appears without a configured portfolio. Later, if you create or import portfolios, they will appear in this interface. Before going on to create a portfolio, I advise you to adjust the application settings to suit your needs. Click on "Application settings".
+When you open Green for the first time, the home screen appears without a configured wallet. Later, if you create or import wallets, they will appear in this interface. Before going on to create a wallet, I advise you to adjust the application settings to suit your needs. Click on "Application settings".
 
 ![GREEN](assets/fr/05.webp)
 
@@ -71,7 +71,7 @@ You're now ready to create a Bitcoin wallet. Click on the "*Get Started*" button
 
 You can choose between creating a local software wallet or managing a cold wallet via a hardware wallet. For this tutorial, we'll concentrate on creating a hot wallet, so you'll need to select the "*On This Device*" option. In a future tutorial, I'll show you how to use the other option.
 
-The "*Watch-only*" option, meanwhile, lets you import an extended public key (`xpub`) to view a portfolio's transactions without being able to spend the associated funds, which is handy for tracking a portfolio on a hardware wallet, for example.
+The "*Watch-only*" option, meanwhile, lets you import an extended public key (`xpub`) to view a wallet's transactions without being able to spend the associated funds, which is handy for tracking a wallet on a hardware wallet, for example.
 
 ![GREEN](assets/fr/12.webp)
 
@@ -89,7 +89,7 @@ Green will then provide you with your mnemonic phrase. Before continuing, make s
 
 It restores access to your bitcoins in the event of loss, theft or breakage of your phone. So it's very important to back it up carefully **on a physical medium (not digital)** and store it in a secure place. You can write it down on a piece of paper, or for added security, if this is a large wallet, I recommend engraving it on a stainless steel support to protect it from the risk of fire, flood or collapse (for a hot wallet designed to secure a small quantity of bitcoins, a simple paper backup is probably sufficient).
 
-*Obviously, you must never share these words on the Internet, as I do in this tutorial. This sample portfolio will be used only on Testnet and will be deleted at the end of the tutorial.*
+*Obviously, you must never share these words on the Internet, as I do in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial.*
 
 ![GREEN](assets/fr/15.webp)
 
@@ -107,7 +107,7 @@ Enter your PIN a second time to confirm it.
 
 ![GREEN](assets/fr/18.webp)
 
-Wait for your portfolio to be created, then click on the "*Create an account*" button.
+Wait for your wallet to be created, then click on the "*Create an account*" button.
 
 ![GREEN](assets/fr/19.webp)
 
@@ -124,13 +124,13 @@ Your Bitcoin wallet has now been created using the Green application!
 Before you receive your first bitcoins in your wallet, **I strongly advise you to perform an empty recovery test**. Make a note of some reference information, such as your xpub or first receiving address, then delete your wallet on the Green app while it's still empty. Then try to restore your wallet on Green using your paper backups. Check that the cookie information generated after the restore matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable. To find out more about how to carry out a test recovery, please consult this other tutorial:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
-## Setting up your portfolio on Blockstream Green
+## Setting up your wallet on Blockstream Green
 
-If you wish to personalize your portfolio, click on the three small dots in the top right-hand corner.
+If you wish to personalize your wallet, click on the three small dots in the top right-hand corner.
 
 ![GREEN](assets/fr/22.webp)
 
-The "*Rename*" option lets you customize the name of your portfolio, which is particularly useful if you manage several portfolios on the same application.
+The "*Rename*" option lets you customize the name of your wallet, which is particularly useful if you manage several wallets on the same application.
 
 ![GREEN](assets/fr/23.webp)
 
@@ -158,7 +158,7 @@ Now that your Bitcoin wallet is set up, you're ready to receive your first sats!
 
 Green will then display the first blank receiving address in your wallet. You can either scan the associated QR code, or copy the address directly to send bitcoins. This type of address does not specify the amount to be sent by the payer. You can, however, generate an address that requests a specific amount, by clicking on the three small dots in the top right-hand corner, then on "*Request amount*", and entering the desired amount.
 
-Since you're using a Segwit v0 account (BIP84), your address will start with `bc1q...`. In my example, I'm using a Testnet portfolio, so the prefix is slightly different.
+Since you're using a Segwit v0 account (BIP84), your address will start with `bc1q...`. In my example, I'm using a Testnet wallet, so the prefix is slightly different.
 
 ![GREEN](assets/fr/29.webp)
 

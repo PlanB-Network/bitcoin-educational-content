@@ -10,7 +10,7 @@ In 2024, Blockstream Green is only compatible with Ledger Nano S (old version), 
 
 ## Introducing Blockstream Green
 
-Blockstream Green is a software application available on mobile and desktop. Formerly known as Green Address, this portfolio became a Blockstream project following its acquisition in 2016.
+Blockstream Green is a software application available on mobile and desktop. Formerly known as Green Address, this wallet became a Blockstream project following its acquisition in 2016.
 
 Green is a very easy-to-use application, making it particularly suitable for beginners. It offers various functionalities, such as management of hot wallets, hardware wallets, as well as wallets on the Liquid sidechain. You can also use it to set up a watch-only wallet.
 
@@ -30,7 +30,7 @@ Launch the application, then check the "I accept the conditions...*" box.
 
 ![GREEN-DESKTOP](assets/fr/03.webp)
 
-When you open Green for the first time, the home screen appears without a configured portfolio. Later, if you create or import portfolios, they will appear in this interface. Before going on to create a portfolio, I recommend that you adjust the application's settings to suit your needs. Click on the Settings icon in the bottom left-hand corner.
+When you open Green for the first time, the home screen appears without a configured wallet. Later, if you create or import wallets, they will appear in this interface. Before going on to create a wallet, I recommend that you adjust the application's settings to suit your needs. Click on the Settings icon in the bottom left-hand corner.
 
 ![GREEN-DESKTOP](assets/fr/04.webp)
 
@@ -60,7 +60,7 @@ You're now ready to import your Bitcoin wallet. Click on the "**Get Started**" b
 
 You can choose between creating a local software wallet or managing a cold wallet via a hardware wallet. For this tutorial, we'll concentrate on managing a hardware wallet, so you'll need to select the "*On Hardware Wallet*" option.
 
-The "*Watch-only*" option lets you import an extended public key (`xpub`) to view portfolio transactions without being able to spend the associated funds.
+The "*Watch-only*" option lets you import an extended public key (`xpub`) to view wallet transactions without being able to spend the associated funds.
 
 ![GREEN-DESKTOP](assets/fr/10.webp)
 
@@ -72,7 +72,7 @@ Connect your hardware wallet to the computer and select Green.
 
 ![GREEN-DESKTOP](assets/fr/12.webp)
 
-Wait for Green to import your portfolio information, after which you can access it.
+Wait for Green to import your wallet information, after which you can access it.
 
 ![GREEN-DESKTOP](assets/fr/13.webp)
 

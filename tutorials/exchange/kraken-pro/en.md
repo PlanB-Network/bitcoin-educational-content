@@ -161,7 +161,7 @@ For these transactions, you can choose between different order types: *Market*, 
 
 ## 7 - Transaction management and accounting
 
-As a business, you'll probably need to export details of your Kraken transactions for accounting purposes. Kraken offers tools to facilitate the export of transaction histories and provides a detailed view of your portfolio.
+As a business, you'll probably need to export details of your Kraken transactions for accounting purposes. Kraken offers tools to facilitate the export of transaction histories and provides a detailed view of your wallet.
 
 For a simplified view of your transaction history, go to the "*Transactions*" menu.
 

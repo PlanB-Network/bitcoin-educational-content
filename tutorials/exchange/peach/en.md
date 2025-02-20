@@ -145,7 +145,7 @@ Country-specific payment systems :
 
 **Security note**: Your payment information is encrypted and only shared with your exchange partner during a transaction.
 
-### 4. How to secure your portfolio
+### 4. How to secure your wallet
 
 **Understanding your Peach account
 
@@ -175,7 +175,7 @@ Two types of backup are available:
 The file backup restores your complete Peach account, including :
 
 
-- Your portfolio
+- Your wallet
 - Your payment methods
 - Conversation history
 - Payment data
@@ -226,7 +226,7 @@ For optimum security, we recommend that you perform both types of backup.
 
 - Track the status of your transaction
 - Check confirmation of receipt of bitcoins
-- Funds will be available in your Peach portfolio
+- Funds will be available in your Peach wallet
 
 ### 2. How to sell Bitcoins
 

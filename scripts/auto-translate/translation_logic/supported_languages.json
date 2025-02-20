@@ -106,6 +106,12 @@
       "code_translator": "RU"
     },
     {
+      "code": "si",
+      "name": "Sinhala",
+      "translator": "openai",
+      "code_translator": "si"
+    },
+    {
       "code": "sv",
       "name": "Swedish",
       "translator": "deepl",

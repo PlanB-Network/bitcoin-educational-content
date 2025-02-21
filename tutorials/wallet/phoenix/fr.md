@@ -17,7 +17,7 @@ En contrepartie, certains frais s’appliquent :
 
 Selon moi, Phoenix représente une excellente solution intermédiaire entre les portefeuilles Lightning custodiaux et la gestion manuelle d'un nœud Lightning. Cette application convient aussi bien aux débutants qu'aux utilisateurs avancés qui préfèrent ne pas s'occuper en détail de la gestion de leur propre LND ou Core Lightning. Découvrons ensemble comment l'utiliser !
 
-01
+![Image](assets/fr/01.webp)
 
 ## Installer l'application
 
@@ -25,25 +25,25 @@ Rendez-vous sur votre store d'applications et installez Phoenix :
 - Sur le [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet) ;
 - Sur l'[App Store](https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB).
 
-02
+![Image](assets/fr/02.webp)
 
 Vous pouvez également installer l'application [avec le fichier apk sur leur dépôt GitHub](https://github.com/ACINQ/phoenix/releases).
 
-03
+![Image](assets/fr/03.webp)
 
 ## Création du portefeuille
 
-Une fois l'application démarrée, cliquez sur le bouton "Suivant" pour passer la présentation, puis sur "Commencer".
+Une fois l'application démarrée, cliquez sur le bouton "*Suivant*" pour passer la présentation, puis sur "*Commencer*".
 
-04
+![Image](assets/fr/04.webp)
 
-Sélectionnez "Créer un nouveau wallet".
+Sélectionnez "*Créer un nouveau wallet*".
 
-05
+![Image](assets/fr/05.webp)
 
 Et voilà, votre portefeuille et nœud Lightning sont désormais créés.
 
-06
+![Image](assets/fr/06.webp)
 
 ## Sauvegarde de la phrase mnémonique
 
@@ -57,115 +57,115 @@ Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer v
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Cliquez sur le message affiché en haut de l'interface "Sauvegarder votre wallet...".
+Cliquez sur le message affiché en haut de l'interface "*Sauvegarder votre wallet...*".
 
-07
+![Image](assets/fr/07.webp)
 
-Cliquez ensuite sur "Sauvegarder mon wallet".
+Cliquez ensuite sur "*Sauvegarder mon wallet*".
 
-08
+![Image](assets/fr/08.webp)
 
-Puis, cliquez sur "Voir ma clé" et sauvegardez votre phrase mnémonique sur un support physique.
+Puis, cliquez sur "*Voir ma clé*" et sauvegardez votre phrase mnémonique sur un support physique.
 
-09
+![Image](assets/fr/09.webp)
 
 Cochez les deux cases en bas de l'interface pour confirmer que la sauvegarde a été correctement effectuée.
 
-10
+![Image](assets/fr/10.webp)
 
 ## Paramétrage de l'application
 
 Avant de réaliser vos premières transactions, vous pouvez personnaliser les paramètres en cliquant sur l'icône de roue crantée située en bas à gauche de l'interface.
 
-11
+![Image](assets/fr/11.webp)
 
-Dans le menu "Display", vous pouvez choisir le thème de l'application, la dénomination utilisée pour le bitcoin, et votre monnaie fiat locale.
+Dans le menu "*Display*", vous pouvez choisir le thème de l'application, la dénomination utilisée pour le bitcoin, et votre monnaie fiat locale.
 
-12
+![Image](assets/fr/12.webp)
 
-Dans "Payment options", vous trouverez différents paramètres avancés pour les paiements Lightning. Vous pouvez conserver les paramètres par défaut.
+Dans "*Payment options*", vous trouverez différents paramètres avancés pour les paiements Lightning. Vous pouvez conserver les paramètres par défaut.
 
-13
+![Image](assets/fr/13.webp)
 
-Dans "Channel management", définissez le montant maximal de frais que vous êtes prêt à payer lors de l'ouverture d'un canal Lightning.
+Dans "*Channel management*", définissez le montant maximal de frais que vous êtes prêt à payer lors de l'ouverture d'un canal Lightning.
 
-14
+![Image](assets/fr/14.webp)
 
-Dans le menu "Access control", je vous recommande fortement d'activer un système d'authentification pour sécuriser l'accès à l'application sur votre téléphone. Cela empêchera toute personne ayant accès à votre téléphone déverrouillé d'accéder à Phoenix et de voler vos bitcoins.
+Dans le menu "*Access control*", je vous recommande fortement d'activer un système d'authentification pour sécuriser l'accès à l'application sur votre téléphone. Cela empêchera toute personne ayant accès à votre téléphone déverrouillé d'accéder à Phoenix et de voler vos bitcoins.
 
-15
+![Image](assets/fr/15.webp)
 
-Dans le menu "Electrum server", si vous disposez d'un serveur Electrs, vous pouvez le connecter pour la diffusion de vos transactions.
+Dans le menu "*Electrum server*", si vous disposez d'un serveur Electrs, vous pouvez le connecter pour la diffusion de vos transactions.
 
-16
+![Image](assets/fr/16.webp)
 
-Pour renforcer la confidentialité de vos connexions, activez les connexions via Tor dans le menu "Tor". Bien que l'utilisation de Tor puisse légèrement ralentir vos paiements et nécessite que l'application Phoenix soit ouverte en premier plan lors de la réception, cela augmente significativement votre confidentialité.
+Pour renforcer la confidentialité de vos connexions, activez les connexions via Tor dans le menu "*Tor*". Bien que l'utilisation de Tor puisse légèrement ralentir vos paiements et nécessite que l'application Phoenix soit ouverte en premier plan lors de la réception, cela augmente significativement votre confidentialité.
 
-17
+![Image](assets/fr/17.webp)
 
 ## Recevoir des bitcoins on-chain
 
 Lors de la première utilisation, vous avez la possibilité de charger votre portefeuille Phoenix avec des fonds on-chain. Vous pouvez également effectuer ce premier dépôt directement depuis Lightning (voir la section suivante), mais dans tous les cas, des frais supplémentaires seront appliqués pour l'ouverture de votre premier canal.
 
-Cliquez sur le bouton "Receive".
+Cliquez sur le bouton "*Receive*".
 
-18
+![Image](assets/fr/18.webp)
 
 Faites glisser le QR code vers la droite pour révéler une adresse de réception Bitcoin. Envoyez-y le montant que vous souhaitez déposer sur Phoenix.
 
-19
+![Image](assets/fr/19.webp)
 
 Le montant reçu on-chain apparaîtra d'abord en attente sous le solde de votre portefeuille. Il faudra attendre 3 confirmations pour que les fonds soient utilisables.
 
-20
+![Image](assets/fr/20.webp)
 
 Une fois les fonds reçus, Phoenix ouvre automatiquement un canal Lightning pour vous. Vous pouvez désormais envoyer et recevoir des bitcoins via le Lightning Network.
 
-21
+![Image](assets/fr/21.webp)
 
 ## Recevoir des bitcoins via Lightning
 
-Pour recevoir des sats via le Lightning Network, cliquez sur le bouton "Receive".
+Pour recevoir des sats via le Lightning Network, cliquez sur le bouton "*Receive*".
 
-22
+![Image](assets/fr/22.webp)
 
 Phoenix génère une invoice Lightning. Vous pouvez soit la scanner, soit l'envoyer à la personne qui souhaite vous transférer des sats.
 
-23
+![Image](assets/fr/23.webp)
 
-En cliquant sur le bouton "Edit", vous avez la possibilité d'ajouter une description qui sera visible par le payeur sur l'invoice, et de définir un montant spécifique que le payeur devra envoyer.
+En cliquant sur le bouton "*Edit*", vous avez la possibilité d'ajouter une description qui sera visible par le payeur sur l'invoice, et de définir un montant spécifique que le payeur devra envoyer.
 
-24
+![Image](assets/fr/24.webp)
 
 Les invoices classiques mentionnées ci-dessus ne sont utilisables qu'une seule fois. Pour une option de paiement réutilisable, vous pouvez utiliser votre QR code réutilisable, qui est une offre BOLT12.
 
-25
+![Image](assets/fr/25.webp)
 
 Une fois l'invoice ou l'offre BOLT12 réglée, la transaction apparaîtra sur votre portefeuille Lightning.
 
-26
+![Image](assets/fr/26.webp)
 
 ## Envoyer des bitcoins via Lightning
 
-Maintenant que vous disposez de sats sur Phoenix, vous êtes prêt à effectuer des paiements via le Lightning Network. Commencez par cliquer sur le bouton "Send".
+Maintenant que vous disposez de sats sur Phoenix, vous êtes prêt à effectuer des paiements via le Lightning Network. Commencez par cliquer sur le bouton "*Send*".
 
-27
+![Image](assets/fr/27.webp)
 
-Plusieurs options s'offrent à vous. En cliquant sur "Scan QR code", vous pouvez scanner une invoice Lightning, une offre BOLT12, ou même une adresse de réception pour un paiement on-chain.
+Plusieurs options s'offrent à vous. En cliquant sur "*Scan QR code*", vous pouvez scanner une invoice Lightning, une offre BOLT12, ou même une adresse de réception pour un paiement on-chain.
 
-28
+![Image](assets/fr/28.webp)
 
-Vous pouvez également entrer ces informations manuellement via le clavier dans le champ situé en haut de l'interface, ou saisir une adresse Lightning (BOLT12 ou LNURL). Vous avez aussi la possibilité de coller les informations directement avec le bouton "Paste".
+Vous pouvez également entrer ces informations manuellement via le clavier dans le champ situé en haut de l'interface, ou saisir une adresse Lightning (BOLT12 ou LNURL). Vous avez aussi la possibilité de coller les informations directement avec le bouton "*Paste*".
 
-29
+![Image](assets/fr/29.webp)
 
-Pour cet exemple, j'ai scanné une invoice de 10 000 sats. Pour effectuer le paiement, il suffit de cliquer sur "Pay".
+Pour cet exemple, j'ai scanné une invoice de 10 000 sats. Pour effectuer le paiement, il suffit de cliquer sur "*Pay*".
 
-30
+![Image](assets/fr/30.webp)
 
 La transaction est réalisée.
 
-31
+![Image](assets/fr/31.webp)
 
 Félicitations, vous savez dorénavant comment configurer et utiliser Phoenix. Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci !
 

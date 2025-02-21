@@ -1,0 +1,26 @@
+id: 0f681345-abff-4bdc-819c-4ae800129cdf
+
+project_id: 0c272f89-0633-41b5-8d03-a37682738985
+
+tags:
+  - lightning
+  - wallets
+  - node
+
+category: mobile
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-02-21
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 0

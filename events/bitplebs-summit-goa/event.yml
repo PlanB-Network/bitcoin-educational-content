@@ -1,0 +1,19 @@
+id: 57f77252-811f-4dce-9638-23225a5ec9db
+start_date: 2025-03-30 05:00:00
+end_date: 2025-03-30 12:00:00
+timezone: Asia/Kolkata
+address_line_1: Colva, Goa
+name: Bitplebs Summit Goa
+builder: Bitshala
+type: conference
+description: An open gathering of developers, creators, entrepreneurs, community leaders, educators, hodlers and everyday plebs together building India’s Bitcoin ecosystem.
+language:
+  - en
+links:
+  website: https://lu.ma/cd55r5d4
+tags:
+  - adoption
+  - cypherpunk
+  - future-outlook
+
+project_id: 5cffb254-278e-4d87-a4d6-4efe5a538dde

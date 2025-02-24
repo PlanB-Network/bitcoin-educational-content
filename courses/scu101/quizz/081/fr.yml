@@ -1,0 +1,9 @@
+question: Que permet le site Have I Been Pwned ?
+answer: Vérifier si une adresse mail a été compromise
+wrong_answers:
+  - Générer de nouveaux mots de passe forts et aléatoires
+  - Créer une boîte mail sécurisée
+  - Synchroniser les comptes de messagerie pour faciliter leur utilisation
+explanation: |
+  Ce site permet de détecter les fuites de données et de vérifier la sécurité de son adresse mail.
+reviewed: false

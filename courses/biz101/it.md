@@ -186,63 +186,64 @@ Così come siamo passati dal pagamento al minuto delle chiamate vocali all'utili
 
 <chapterId>4488fe33-663f-41a3-a668-e9ca2fb7122e</chapterId>
 
-**CHE COS'È IL BITCOIN?
+**CHE COS'È BITCOIN?**
 
-Il Bitcoin è un sistema di scambio di valuta digitale **peer-to-peer** (contante elettronico). Il termine "Bitcoin" si riferisce ai seguenti componenti:
+Il protocollo Bitcoin è un sistema di scambio di valuta digitale **peer-to-peer** (contante elettronico). Il termine _"Bitcoin"_ si riferisce ai seguenti componenti:
 
 
-- Protocollo informatico** che facilita lo scambio di valori su Internet senza intermediari, senza richiedere autorizzazioni e in modo pseudonimo. Utilizza principi crittografici avanzati.
-- Una rete fisica** di macchine collegate a Internet (nodi, minatori, ecc.) gestite da privati e aziende, che formano un sistema decentralizzato (senza autorità centrale o singolo punto di controllo).
-- L'unità di conto** all'interno del sistema. Non esisteranno mai più di 21 milioni di bitcoin. Ogni bitcoin è divisibile in 100 milioni di unità chiamate "satoshi", in onore del suo anonimo creatore.
+- **Protocollo informatico** che facilita lo scambio di valori su Internet senza intermediari, senza richiedere autorizzazioni e in modo pseudonimo. Utilizza principi crittografici avanzati.
+- **Un network fisico** di macchine collegate a Internet (nodi, miner, ecc.) gestite da privati e aziende, che formano un sistema decentralizzato (senza autorità centrale o singolo punto di controllo).
+- **Unità di conto** all'interno del sistema. Non esisteranno mai più di 21 milioni di bitcoin. Ogni bitcoin è divisibile in 100 milioni di unità chiamate _"satoshi"_, in onore del suo anonimo creatore.
 
-Insieme fanno del Bitcoin un **bearer asset** e una valuta digitale **senza emittente**. La proprietà è assicurata esclusivamente dal possesso della **chiave crittografica privata**, che garantisce il pieno controllo **senza intermediari o terze parti fidate**. Quando viene trasferita, la **finalità** della proprietà è immediata: il nuovo possessore la possiede completamente senza dover fare affidamento su un'autorità centrale per la protezione o la convertibilità. Le transazioni sono **immutabili**: una volta registrate sulla blockchain, non possono essere alterate o cancellate.
+Insieme fanno del Bitcoin un **bearer asset** e una valuta digitale **senza emittente**. La proprietà è assicurata esclusivamente dal possesso della **chiave crittografica privata**, che garantisce il pieno controllo **senza intermediari o terze parti fidate**. Quando viene trasferita, la **finalità** della proprietà è immediata: il nuovo possessore la controlla completamente senza dover fare affidamento su un'autorità centrale per la protezione o la convertibilità. Le transazioni sono **immutabili**: una volta registrate sulla blockchain, non possono essere alterate o cancellate.
 
 ![BIZ101](assets/en/11.webp)
 
-Il Bitcoin ha una politica monetaria fissa, con un **cap di 21 milioni di bitcoin**, di cui ~19,8 milioni sono già stati distribuiti. Questo lo rende **deflazionistico**, con il suo valore che aumenta nel tempo man mano che gli utenti vi accumulano risparmi e guadagni di produttività.
+Bitcoin ha una politica monetaria fissa, con un **cap di 21 milioni di bitcoin**, di cui ~19,83 milioni sono già stati distribuiti. Questo lo rende **deflazionistico**, con il suo valore che aumenta nel tempo man mano che gli utenti vi accumulano risparmi e guadagni di produttività.
 
-Le sue caratteristiche tecniche superano quelle dell'oro e del dollaro messi insieme, rendendolo l'asset finanziario più difficile mai creato. Il Bitcoin è sia una riserva di valore che un mezzo di scambio, una moneta in divenire. Immaginate di trasferire il valore dalla tesoreria di un'azienda a quella di un'altra in modo rapido, senza intermediari, a costi minimi, senza frodi, 24 ore su 24, 7 giorni su 7 e senza l'intervento di terzi.
+Le sue caratteristiche tecniche superano quelle dell'oro e del dollaro messi insieme, rendendolo l'asset finanziario più strutturato mai creato. Bitcoin è sia una riserva di valore che un mezzo di scambio, una moneta in divenire. Immaginate di trasferire il valore dalla tesoreria di un'azienda a quella di un'altra in modo rapido, senza intermediari, a costi minimi, senza frodi, 24 ore su 24, 7 giorni su 7 e senza l'intervento di terzi.
 
 ![BIZ101](assets/en/03.webp)
 
-Il Bitcoin conserva efficacemente il valore perché il suo libro mastro è a prova di manomissione. Il suo valore aumenta grazie alla rarità e alla limitatezza dell'offerta combinata con il crescente numero di opportunità di scambio, guidato dall'aumento del numero di utenti.
+Bitcoin conserva efficacemente il valore perché il suo libro mastro è a prova di manomissione. Il suo valore aumenta grazie alla rarità e alla limitatezza dell'offerta combinata con il crescente numero di opportunità di scambio, guidato dall'aumento del numero di utenti.
 
-Il Bitcoin è dirompente perché ci spinge a imparare concetti di matematica, crittografia, economia e storia che non ci sono mai stati insegnati. Sebbene sia spesso percepito come complesso, è in realtà un'innovazione accessibile attraverso la pratica e la sperimentazione.
+Bitcoin è dirompente perché ci spinge a imparare concetti di matematica, crittografia, economia e storia che non ci sono mai stati insegnati. Sebbene sia spesso percepito come complesso, è in realtà un'innovazione accessibile attraverso la pratica e la sperimentazione.
 
-Il Bitcoin ci sfida a riconsiderare la natura stessa del denaro. Potrebbe spiegare cos'è veramente il denaro? Un lavoratore dipendente o un imprenditore potrebbe spendere dalle 50.000 alle 100.000 ore della propria vita per guadagnare denaro, ma quanti **dedicano anche solo 100 ore per comprenderlo meglio** e conservarlo? Il Bitcoin ci spinge a mettere in discussione le ragioni fondamentali del nostro bisogno di denaro e la nostra prospettiva temporale. Il denaro serve per il lusso immediato o per la resistenza a lungo termine? Se avessimo un bene che si apprezza e che ci permette di ritardare gli acquisti, quali scelte faremmo? Quali conversazioni vorremmo avere con noi stessi tra 20 o 30 anni?
+Bitcoin ci sfida a riconsiderare la natura stessa del denaro. Potresti spiegare cos'è veramente il denaro? Un lavoratore dipendente o un imprenditore potrebbe spendere dalle 50.000 alle 100.000 ore della propria vita per guadagnare denaro, ma quanti **dedicano anche solo 100 ore per comprenderlo meglio** e conservarlo? Bitcoin ci spinge a mettere in discussione le ragioni fondamentali del nostro bisogno di denaro e la nostra prospettiva temporale. Il denaro serve per il lusso immediato o per la resistenza a lungo termine? Se avessimo un bene che si apprezza e che ci permette di ritardare gli acquisti, quali scelte faremmo? Quali conversazioni vorremmo avere con noi stessi tra 20 o 30 anni?
 
-**CARTA D'IDENTITÀ DEI BITCOIN**
+**CARTA D'IDENTITÀ DI BITCOIN**
 
 
-- Età:** 15 anni (3 gennaio 2009)
-- Valore di scambio giornaliero:** 10 miliardi di dollari (> CAC40)
-- Capitalizzazione di mercato:** 1,8 trilioni di dollari (> Meta, Visa, Argento; < Apple, Google, Oro)
-- Utenti:** ~100-200 milioni (1-2% della popolazione mondiale)
-- Volatilità:** intrinsecamente nulla (1 Bitcoin = 1 Bitcoin), molto alta esternamente (negli scambi di valuta fiat)
-- Performance:** Prima transazione a $0,0009; ora $100.000 (x100 milioni)
-- Disponibilità della rete (uptime):** 100% dal 2013
-- Dichiarato morto o criticato:** Una volta al mese
+- **Età:** 16 anni (3 gennaio 2009)
+- **Valore di scambio giornaliero:** 10 miliardi di dollari (> CAC40)
+- **Capitalizzazione di mercato:** 1,8 trilioni di dollari (> Meta, Visa, Argento; < Apple, Google, Oro)
+- **Utenti:** ~100-200 milioni (1-2% della popolazione mondiale)
+- **Volatilità:** intrinsecamente nulla (1 Bitcoin = 1 Bitcoin), molto alta esternamente (negli scambi con valuta fiat)
+- **Performance:** prima transazione a 0,0009$; ora 100.000$ (x100 milioni)
+- **Disponibilità della rete (uptime):** 100% dal 2013
+- **Dichiarato morto o criticato:** una volta al mese, circa.
 
-**Una meraviglia della cooperazione umana
+**Una meraviglia della cooperazione umana**
 
 
 - Completamente **open-source**
-- Entità giuridica:** Nessuna
-- CEO:** Nessuno
-- Investimenti in capitale di rischio:** Nessuno
-- Marketing:** Nessuno
-- R&S:** Volontariato
-- Governance:** Da parte degli utenti
-- Modello economico innovativo:** La creazione di blocchi è sovvenzionata dalle commissioni di transazione (basate su aste)
+- **Entità giuridica:** Nessuna
+- **CEO:** Nessuno
+- **Investimenti in capitale di rischio:** Nessuno
+- **Marketing:** Nessuno
+- **R&S:** Volontariato
+- **Governance:** Da parte degli utenti
+- **Modello economico innovativo:** La creazione di blocchi è sovvenzionata dalle commissioni di transazione (basate su aste)
 
 Per ulteriori informazioni su Bitcoin, la sua storia, il suo funzionamento e il suo utilizzo, suggerisco di seguire anche questo altro corso completo:
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+
 ## Introduzione alla rete Lightning
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
-**CHE COS'È IL FULMINE?
+**CHE COS'È IL FULMINE?**
 
 La Lightning Network è **un protocollo e una rete** che facilita le transazioni Bitcoin con un'interazione minima con la blockchain principale di Bitcoin. Ecco come funziona:
 

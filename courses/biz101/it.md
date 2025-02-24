@@ -238,52 +238,51 @@ Bitcoin ci sfida a riconsiderare la natura stessa del denaro. Potresti spiegare 
 Per ulteriori informazioni su Bitcoin, la sua storia, il suo funzionamento e il suo utilizzo, suggerisco di seguire anche questo altro corso completo:
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
-
 ## Introduzione alla rete Lightning
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
-**CHE COS'È IL FULMINE?**
+**CHE COS'È LIGHTNING NETWORK?**
 
-La Lightning Network è **un protocollo e una rete** che facilita le transazioni Bitcoin con un'interazione minima con la blockchain principale di Bitcoin. Ecco come funziona:
+Lightning Network è **un protocollo e un network** che facilita le transazioni Bitcoin con un'interazione minima con la blockchain principale di Bitcoin. Ecco come funziona:
 
 
-- Configurazione iniziale:** I fondi sono bloccati (escrowed) sulla blockchain principale per stabilire un canale di pagamento tra 2 parti.
-- Rete di pagamento:** Una rete di canali di pagamento tra più parti forma una rete di pagamento (routing e interconnessione).
-- Transazioni fuori catena:** Le transazioni avvengono tra le parti ma non sono **immediatamente pubblicate** sulla blockchain principale di Bitcoin (**"fuori catena "**).
-- Regolamenti on-chain:** Solo il **saldo finale** delle transazioni di un canale viene pubblicato sulla blockchain principale di Bitcoin (**"on-chain**"), consentendo a numerose transazioni di avvenire nel frattempo. Questo raggruppamento di più pagamenti riduce la congestione e quindi le commissioni rispetto all'esecuzione di molte transazioni on-chain.
-- Chiusura del canale:** Un utente può chiudere il proprio canale in qualsiasi momento e recuperare il proprio Bitcoin pubblicando lo stato dell'ultima transazione. Questo è il principio per cui le transazioni sono **"pubblicabili" in qualsiasi momento ma "non pubblicate "** fino a quando non è necessario. L'uscita (chiusura del canale) può essere unilaterale (decisa da una qualsiasi delle due parti in qualsiasi momento) o decisa reciprocamente (con conseguente riduzione delle commissioni sulla catena)
+- **Configurazione iniziale:** I fondi sono bloccati (escrowed) sulla blockchain principale per stabilire un canale di pagamento tra 2 parti.
+- **Network di pagamento:** Una rete di canali di pagamento tra più parti forma un network di pagamento (routing e interconnessione).
+- **Transazioni fuori catena:** Le transazioni avvengono tra le parti ma non sono **immediatamente pubblicate** sulla blockchain principale di Bitcoin (**"fuori catena "**).
+- **Regolamenti on-chain:** Solo il **saldo finale** delle transazioni di un canale viene pubblicato sulla blockchain principale di Bitcoin (**"on-chain**"), consentendo a numerose transazioni di avvenire nel frattempo. Questo raggruppamento di più pagamenti riduce la congestione e quindi le commissioni rispetto all'esecuzione di molte transazioni on-chain.
+- **Chiusura del canale:** Un utente può chiudere il proprio canale in qualsiasi momento e recuperare il proprio Bitcoin pubblicando lo stato dell'ultima transazione. Questo è il principio per cui le transazioni sono **"pubblicabili" in qualsiasi momento ma "non pubblicate "** fino a quando non è necessario. L'uscita (chiusura del canale) può essere unilaterale (decisa da una qualsiasi delle due parti in qualsiasi momento) o decisa reciprocamente (con conseguente riduzione delle commissioni on-chain)
 
 ![BIZ101](assets/en/04.webp)
 
-Questo approccio evita la lentezza e la complessità di eseguire ogni transazione direttamente sulla blockchain principale di Bitcoin, registrando solo i saldi finali e mantenendone la sicurezza. La Lightning Network è un livello "superiore" a Bitcoin, ma rimane ancorata ad esso.
+Questo approccio evita la lentezza e la complessità di eseguire ogni transazione direttamente sulla blockchain principale di Bitcoin, registrando solo i saldi finali e mantenendone la sicurezza. Lightning Network è un livello _"al di sopra"_ di Bitcoin, ma rimane ancorato ad esso.
 
-**Una rete di pagamento globale
+**Un network di pagamento globale**
 
-Il protocollo crea una **rete** di macchine in cui i canali formano un sistema di pagamento universale. Questi nodi possono essere gestiti liberamente da privati o aziende, rendendola una rete completamente aperta.
+Il protocollo crea una **network** di macchine in cui i canali formano un sistema di pagamento universale. Questi nodi possono essere gestiti liberamente da privati o aziende, rendendolo un network completamente aperto.
 
-La Lightning Network consente lo scambio istantaneo di valore alla velocità della luce. È come un protocollo di posta elettronica applicato ai pagamenti: una rete di pagamento di nuova generazione. Trasforma radicalmente il modo in cui il "denaro" si muove, rendendolo libero e veloce come la trasmissione dei dati su Internet.
+Lightning Network consente lo scambio istantaneo di valore alla velocità della luce. È come un protocollo di posta elettronica applicato ai pagamenti: una rete di pagamento di nuova generazione. Trasforma radicalmente il modo in cui il _"denaro"_ si muove, rendendolo libero e veloce come la trasmissione dei dati su Internet.
 
 ![BIZ101](assets/en/12.webp)
 
-**Vantaggi principali
+**Vantaggi principali**
 
 
-- Velocità: ** Transazioni istantanee.
-- Spese ridotte:** Costi molto più bassi rispetto alle reti bancarie tradizionali.
-- Facilità di adozione:** Le aziende possono configurarsi rapidamente per accettare i pagamenti Lightning utilizzando semplicemente un'app per smartphone o un pulsante di pagamento sul proprio sito web.
+- **Velocità:** transazioni istantanee.
+- **Spese ridotte:** costi molto più bassi rispetto alle reti bancarie tradizionali.
+- **Facilità di adozione:** le aziende possono configurarsi rapidamente per accettare i pagamenti Lightning utilizzando semplicemente un'app per smartphone o un pulsante di pagamento sul proprio sito web.
 
 L'infrastruttura Lightning supera i sistemi di pagamento tradizionali in termini di velocità, costi ed efficienza energetica. Con la crescente adozione da parte degli esercenti, lo slancio si accelererà: se i pagamenti possono bypassare la rete interbancaria vincolata, perché continuare a cedere una percentuale significativa di ricavi agli attuali intermediari?
 
-**Casi d'uso infiniti
+**Casi d'uso infiniti**
 
-Le applicazioni di Lightning vanno ben oltre le basse commissioni e la velocità. Offrendo un sistema di pagamento istantaneo e completamente gratuito, apre vaste opportunità in tutta l'economia.
+Le applicazioni di Lightning vanno ben oltre le basse commissioni e la velocità. Offrendo un sistema di pagamento istantaneo e completamente gratuito, aprendo a vaste opportunità per tutta l'economia.
 
-**Potenziamento delle capacità di scambio di Bitcoin
+**Potenziamento delle capacità di scambio di Bitcoin**
 
-Lightning amplifica il ruolo di Bitcoin come "mezzo di scambio" Aumentando la frequenza e la libertà delle transazioni, rafforza la funzione primaria del denaro: facilitare gli scambi economici e la creazione di valore per tutti i partecipanti.
+Lightning amplifica il ruolo di Bitcoin come _"mezzo di scambio"_ aumentando la frequenza e la libertà delle transazioni, rafforza la funzione primaria del denaro: facilitare gli scambi economici e la creazione di valore per tutti i partecipanti.
 
-La futura ascesa della "smart machine economy" richiederà un sistema di pagamento ultraveloce e ad alta frequenza, uno standard tecnico che solo Lightning può soddisfare. Ciò consente la creazione di un maggior numero di beni e servizi. Poiché l'offerta di Bitcoin rimane limitata, il potere d'acquisto di ogni unità aumenterà. Bitcoin e Lightning si rafforzano insieme all'espansione delle loro reti.
+La futura ascesa della _"smart machine economy"_ richiederà un sistema di pagamento ultraveloce e ad alta frequenza, uno standard tecnico che solo Lightning può soddisfare. Ciò consente la creazione di un maggior numero di beni e servizi. Poiché l'offerta di Bitcoin rimane limitata, il potere d'acquisto di ogni unità aumenterà. Bitcoin e Lightning si rafforzano insieme all'espansione delle loro reti.
 
 Lightning offre uno sguardo al futuro in cui tutte le attività commerciali basate su Internet diventeranno basate anche su Bitcoin.
 
@@ -292,23 +291,23 @@ Lightning offre uno sguardo al futuro in cui tutte le attività commerciali basa
 La rete Lightning è ideale per i pagamenti in Bitcoin nei negozi fisici o online, grazie alla sua velocità e alla finalità del pagamento.
 
 
-- Velocità:** Lightning (~500ms a pochi secondi) è significativamente più veloce della rete principale di Bitcoin, dove le transazioni possono richiedere circa 30 minuti per essere confermate. Per acquisti di grandi dimensioni (ben oltre i 1.000 dollari), la rete principale di Bitcoin può essere ancora preferita, in quanto la velocità è meno critica. Tuttavia, questi dettagli sono spesso nascosti all'utente medio, poiché le applicazioni gestiscono queste decisioni senza problemi in background.
-- Finalità:** Una volta effettuato il pagamento su Lightning, questo è definitivo. Non vi è alcuna possibilità di riaddebito da parte di terzi o di controversie legate a frodi.
-- Commissioni:** Le commissioni di transazione sulla rete Lightning sono minime e vengono pagate dall'utente, non dal commerciante. I commercianti incorrono in commissioni solo se in seguito devono trasferire i loro Bitcoin a un'altra rete o servizio.
+- **Velocità:** transazione Lightning (da ~500ms a pochi secondi) è significativamente più veloce della rete principale di Bitcoin, dove le transazioni possono richiedere circa 30 minuti per essere confermate. Per acquisti di grandi dimensioni (ben oltre i 1.000 dollari), la rete principale di Bitcoin può essere ancora preferita, in quanto la velocità è meno critica. Tuttavia, questi dettagli sono spesso nascosti all'utente medio, poiché le applicazioni gestiscono queste decisioni senza problemi in background.
+- **Finalità:** una volta effettuato il pagamento su Lightning, questo è definitivo. Non vi è alcuna possibilità di riaddebito da parte di terzi o di controversie legate a frodi.
+- **Commissioni:** le commissioni di transazione sulla rete Lightning sono minime e vengono pagate dall'utente, non dal commerciante. I commercianti incorrono in commissioni solo se in seguito devono trasferire i loro bitcoin a un'altra rete o servizio.
 
-**CARTA D'IDENTITÀ ILLUMINATA*
+**CARTA D'IDENTITÀ LIGHTNING NETWORK**
 
 
-- Invenzione:** 2015
-- Lancio:** 2016
-- Età:** 7 anni (prima transazione: 28 dicembre 2017)
-- Capacità tecnica della rete:** in scala può gestire un numero di transazioni istantanee 1.000 volte superiore a quello dei sistemi tradizionali.
-- Dimensioni delle transazioni:** Varia da un minimo di 1.000 volte a un massimo di 1.000 volte rispetto ai sistemi tradizionali.
-- Velocità di transazione:** Fino a 100 volte più veloce.
-- Tasse:** Fino al 90% in meno.
-- Finalità del pagamento:** Quasi istantanea (spesso ~500 millisecondi, a volte pochi secondi).
-- Consumo energetico:** ~8% del sistema monetario globale tradizionale.
-- Caratteristiche:**
+- **Invenzione:** 2015
+- **Lancio:** 2016
+- **Età:** 7 anni (prima transazione: 28 dicembre 2017)
+- **Capacità tecnica della rete:** in scala può gestire un numero di transazioni istantanee 1.000 volte superiore a quello dei sistemi tradizionali.
+- **Dimensioni delle transazioni:** Range da grandi valori a 1.000 volte più piccoli rispetto ai sistemi tradizionali.
+- **Velocità di transazione:** fino a 100 volte più veloce.
+- **Commissioni di transazione:** fino al 90% in meno.
+- **Finalità del pagamento:** quasi istantanea (spesso ~500 millisecondi, a volte pochi secondi).
+- **Consumo energetico:** ~8% del sistema monetario globale tradizionale.
+- **Caratteristiche:**
     - Peer-to-peer
     - Universale
     - Senza permesso

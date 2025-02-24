@@ -1,0 +1,9 @@
+question: Trình quản lý mật khẩu là gì?
+answer: Một công cụ lưu trữ, tạo và quản lý mật khẩu.
+wrong_answers:
+  - Phần mềm chống virus để ngăn chặn hacker.
+  - Dịch vụ nhắn tin an toàn.
+  - Công cụ sao lưu dữ liệu danh tính cá nhân.
+explanation: |
+  Trình quản lý mật khẩu tập trung lưu trữ và tạo mật khẩu.
+reviewed: false

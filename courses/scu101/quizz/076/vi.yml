@@ -1,0 +1,9 @@
+question: Tại sao nên sử dụng mật khẩu được tạo ngẫu nhiên?
+answer: Để chống lại các cuộc tấn công brute-force.
+wrong_answers:
+  - Để dễ ghi nhớ hơn.
+  - Để giảm độ phức tạp.
+  - Để chống lại các cuộc tấn công Sybil.
+explanation: |
+  Tính ngẫu nhiên làm cho mật khẩu khó đoán hơn bằng phương pháp thử và sai, do đó tăng cường bảo mật trước các cuộc tấn công brute-force.
+reviewed: false

@@ -1,0 +1,18 @@
+id: 9c70b176-fcfa-473c-81d1-e7823d1e168b
+start_date: 2025-03-27 23:00:00
+end_date: 2025-03-30 07:00:00
+timezone: Australia/Victoria
+address_line_1: Beechworth, Australia
+name: Beechworth Bitcoin Bush Bash
+builder: Bitcoin Bush Bash
+type: meetup
+description: For our next gathering, we're heading to Beechworth, Victoria, a picturesque town nestled in the foothills of the Victorian Alps. This charming historic destination provides the perfect backdrop for an inspiring and fun-filled weekend. 
+language:
+  - en
+links:
+  website: https://bitcoinbushbash.info/
+tags:
+  - adoption
+  - use-case
+
+porject_id: 2509a2dd-5592-4097-a68f-bd7e5e228b04

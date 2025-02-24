@@ -801,6 +801,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 I tankesettet til den paranoide personen er forsiktighet, sikkerhet og anonymitet av største viktighet. Disse prioriteringene dikterer en gjennomtenkt og veloverveid tilnærming til bruk av Bitcoin, fremmer selvstendighet og forsiktighet. Den paranoide personen er villig til å investere tid og krefter for å sikre sikkerheten og privatlivet til sine bitcoins mens de dyktig navigerer i økosystemet for å unngå unødvendig eksponering. Selv om det kan virke overforsiktig for noen, anser den paranoide personen sin grundighet og oppmerksomhet på detaljer som essensiell for vellykket og sikker deltakelse i Bitcoin-verdenen.
 
+# Beskytte arvingene og formuen
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Lage en arveplan
 

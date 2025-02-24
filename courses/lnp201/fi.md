@@ -174,27 +174,27 @@ On huomionarvoista, että Lightning-solmu voi kommunikoida P2P-protokollan kautt
 
 ### Vaiheet Lightning-kanavan avaamiseksi
 
-1. **Viestien vaihto**: Alice haluaa avata kanavan Bobin kanssa. Hän lähettää Bobille viestin, joka sisältää summan, jonka hän haluaa tallettaa kanavalle (130 000 satsia) ja hänen julkisen avaimensa. Bob vastaa jakamalla oman julkisen avaimensa.
+- **Viestien vaihto**: Alice haluaa avata kanavan Bobin kanssa. Hän lähettää Bobille viestin, joka sisältää summan, jonka hän haluaa tallettaa kanavalle (130 000 satsia) ja hänen julkisen avaimensa. Bob vastaa jakamalla oman julkisen avaimensa.
 
 ![LNP201](assets/en/11.webp)
 
-2. **Moniallekirjoitusosoitteen luominen**: Näillä kahdella julkisella avaimella Alice luo **2/2 moniallekirjoitusosoitteen**, mikä tarkoittaa, että myöhemmin tähän osoitteeseen talletetut varat vaativat molempien allekirjoitukset (Alicen ja Bobin) käytettäväksi.
+- **Moniallekirjoitusosoitteen luominen**: Näillä kahdella julkisella avaimella Alice luo **2/2 moniallekirjoitusosoitteen**, mikä tarkoittaa, että myöhemmin tähän osoitteeseen talletetut varat vaativat molempien allekirjoitukset (Alicen ja Bobin) käytettäväksi.
 
 ![LNP201](assets/en/12.webp)
 
-3. **Talletustransaktio**: Alice valmistelee Bitcoin-transaktion tallettaakseen varoja tähän moniallekirjoitusosoitteeseen. Esimerkiksi hän voi päättää lähettää **130 000 satoshia** tähän moniallekirjoitusosoitteeseen. Tämä transaktio on **muodostettu, mutta ei vielä julkaistu** lohkoketjussa.
+- **Talletustransaktio**: Alice valmistelee Bitcoin-transaktion tallettaakseen varoja tähän moniallekirjoitusosoitteeseen. Esimerkiksi hän voi päättää lähettää **130 000 satoshia** tähän moniallekirjoitusosoitteeseen. Tämä transaktio on **muodostettu, mutta ei vielä julkaistu** lohkoketjussa.
 
 ![LNP201](assets/en/13.webp)
 
-4. **Nostotransaktio**: Ennen talletustransaktion julkaisemista Alice muodostaa nostotransaktion, jotta hän voi palauttaa varansa ongelmatilanteessa Bobin kanssa. Todellakin, kun Alice julkaisee talletustransaktion, hänen satsinsa lukitaan 2/2 moniallekirjoitusosoitteeseen, joka vaatii sekä hänen että Bobin allekirjoituksen vapautettavaksi. Alice suojautuu tämän tappioriskin varalta muodostamalla nostotransaktion, joka mahdollistaa hänen varojensa palauttamisen.
+- **Nostotransaktio**: Ennen talletustransaktion julkaisemista Alice muodostaa nostotransaktion, jotta hän voi palauttaa varansa ongelmatilanteessa Bobin kanssa. Todellakin, kun Alice julkaisee talletustransaktion, hänen satsinsa lukitaan 2/2 moniallekirjoitusosoitteeseen, joka vaatii sekä hänen että Bobin allekirjoituksen vapautettavaksi. Alice suojautuu tämän tappioriskin varalta muodostamalla nostotransaktion, joka mahdollistaa hänen varojensa palauttamisen.
 
 ![LNP201](assets/en/14.webp)
 
-5. **Bobin allekirjoitus**: Alice lähettää talletustransaktion Bobille todisteena ja pyytää häntä allekirjoittamaan nostotransaktion. Kun Bobin allekirjoitus on saatu nostotransaktioon, Alice on varmistunut siitä, että hän voi palauttaa varansa milloin tahansa, koska nyt tarvitaan vain hänen oma allekirjoituksensa moniallekirjoitusosoitteen vapauttamiseen.
+- **Bobin allekirjoitus**: Alice lähettää talletustransaktion Bobille todisteena ja pyytää häntä allekirjoittamaan nostotransaktion. Kun Bobin allekirjoitus on saatu nostotransaktioon, Alice on varmistunut siitä, että hän voi palauttaa varansa milloin tahansa, koska nyt tarvitaan vain hänen oma allekirjoituksensa moniallekirjoitusosoitteen vapauttamiseen.
 
 ![LNP201](assets/en/15.webp)
 
-6. **Talletustransaktion julkaiseminen**: Kun Bobin allekirjoitus on saatu, Alice voi julkaista talletustransaktion Bitcoin-lohkoketjussa, virallisesti avaten Lightning-kanavan kahden käyttäjän välille.
+- **Talletustransaktion julkaiseminen**: Kun Bobin allekirjoitus on saatu, Alice voi julkaista talletustransaktion Bitcoin-lohkoketjussa, virallisesti avaten Lightning-kanavan kahden käyttäjän välille.
 
 ![LNP201](assets/en/16.webp)
 
@@ -302,8 +302,8 @@ Vielä pahempaa, Alice voisi julkaista kaikkein ensimmäisen nostotapahtuman, se
 
 Estääkseen tällaisen huijauksen Alicen toimesta, Lightning-verkossa sitoumustapahtumiin lisätään **turvamekanismeja**:
 
-1. **Timelock**: Jokainen sitoumustapahtuma sisältää aikalukon Alicen varoille. Aikalukko on älykäs sopimusprimitiivi, joka asettaa aikaehtoja, jotka on täytettävä, jotta tapahtuma voidaan lisätä lohkoon. Tämä tarkoittaa, että Alice ei voi palauttaa varojaan ennen kuin tietty määrä lohkoja on kulunut, jos hän julkaisee jonkin sitoumustapahtumista. Tämä aikalukko alkaa soveltua sitoumustapahtuman vahvistamisesta. Sen kesto on yleensä suhteessa kanavan kokoon, mutta sen voi myös määrittää manuaalisesti.
-2. **Revocation Key**: Alicen varat voidaan myös välittömästi käyttää Bobin toimesta, jos hänellä on **revocation key**. Tämä avain koostuu salaisuudesta, joka on Alicen hallussa, ja salaisuudesta, joka on Bobin hallussa. Huomaa, että tämä salaisuus on erilainen jokaiselle sitoumustapahtumalle.
+- **Timelock**: Jokainen sitoumustapahtuma sisältää aikalukon Alicen varoille. Aikalukko on älykäs sopimusprimitiivi, joka asettaa aikaehtoja, jotka on täytettävä, jotta tapahtuma voidaan lisätä lohkoon. Tämä tarkoittaa, että Alice ei voi palauttaa varojaan ennen kuin tietty määrä lohkoja on kulunut, jos hän julkaisee jonkin sitoumustapahtumista. Tämä aikalukko alkaa soveltua sitoumustapahtuman vahvistamisesta. Sen kesto on yleensä suhteessa kanavan kokoon, mutta sen voi myös määrittää manuaalisesti.
+- **Revocation Key**: Alicen varat voidaan myös välittömästi käyttää Bobin toimesta, jos hänellä on **revocation key**. Tämä avain koostuu salaisuudesta, joka on Alicen hallussa, ja salaisuudesta, joka on Bobin hallussa. Huomaa, että tämä salaisuus on erilainen jokaiselle sitoumustapahtumalle.
    Näiden kahden yhdistetyn mekanismin ansiosta Bobilla on aikaa havaita Alicen yritys huijata, ja rangaista häntä palauttamalla hänen tulonsa peruutusavaimella, mikä Bobille tarkoittaa kanavan kaikkien varojen takaisin saamista. Uusi sitoumustapahtumamme näyttää nyt tältä:
    ![LNP201](assets/en/25.webp)
 
@@ -318,11 +318,11 @@ Kun Alice ja Bob päivittävät kanavan tilan uudella Lightning-tapahtumalla, he
 
 Otetaan esimerkki ymmärtääksemme tämän prosessin hyvin:
 
-1. **Alkutila**: Alicella on **100 000 satoshia**, Bobilla **30 000 satoshia**.
+- **Alkutila**: Alicella on **100 000 satoshia**, Bobilla **30 000 satoshia**.
 
 ![LNP201](assets/en/26.webp)
 
-2. Bob haluaa saada 40 000 satoshia Alicelta heidän Lightning-kanavansa kautta. Tehdäkseen niin:
+- Bob haluaa saada 40 000 satoshia Alicelta heidän Lightning-kanavansa kautta. Tehdäkseen niin:
    - Hän lähettää hänelle laskun yhdessä salaisuutensa kanssa peruutusavaimen edellisen sitoumustapahtuman osalta.
    - Vastauksena Alice antaa allekirjoituksensa Bobin uudelle sitoumustapahtumalle sekä oman salaisuutensa edellisen tapahtuman peruutusavaimelle.
    - Lopuksi Bob lähettää allekirjoituksensa Alicen uudelle sitoumustapahtumalle.
@@ -330,7 +330,7 @@ Otetaan esimerkki ymmärtääksemme tämän prosessin hyvin:
 
 ![LNP201](assets/en/27.webp)
 
-3. Jos Alice yrittää julkaista vanhan sitoumustapahtuman, jossa hänellä oli edelleen **100 000 satoshia**, Bob, saatuaan peruutusavaimen, voi välittömästi palauttaa varat käyttämällä tätä avainta, kun taas Alice on estetty aikaviiveen vuoksi.
+- Jos Alice yrittää julkaista vanhan sitoumustapahtuman, jossa hänellä oli edelleen **100 000 satoshia**, Bob, saatuaan peruutusavaimen, voi välittömästi palauttaa varat käyttämällä tätä avainta, kun taas Alice on estetty aikaviiveen vuoksi.
 
 ![LNP201](assets/en/28.webp)
 
@@ -361,9 +361,9 @@ Tässä luvussa keskustelemme **kanavan sulkemisesta** Lightning-verkossa, joka 
 
 On kolme pääasiallista tapaa sulkea tämä kanava, joita voidaan kutsua **hyväksi, pahaksi ja rumaksi** (inspiroituneena Andreas Antonopoulosin teoksesta _Mastering the Lightning Network_):
 
-1. **Hyvä**: **yhteistyöllinen sulkeminen**, jossa Alice ja Bob sopivat kanavan sulkemisesta.
-2. **Paha**: **pakotettu sulkeminen**, jossa yksi osapuolista päättää sulkea kanavan rehellisesti, mutta ilman toisen suostumusta.
-3. **Ruma**: **huijaamisella tapahtuva sulkeminen**, jossa yksi osapuolista yrittää varastaa varoja julkaisemalla vanhan sitoumustransaktion (mikä tahansa paitsi viimeisin, joka heijastaa todellista ja reilua varojen jakautumista).
+- **Hyvä**: **yhteistyöllinen sulkeminen**, jossa Alice ja Bob sopivat kanavan sulkemisesta.
+- **Paha**: **pakotettu sulkeminen**, jossa yksi osapuolista päättää sulkea kanavan rehellisesti, mutta ilman toisen suostumusta.
+- **Ruma**: **huijaamisella tapahtuva sulkeminen**, jossa yksi osapuolista yrittää varastaa varoja julkaisemalla vanhan sitoumustransaktion (mikä tahansa paitsi viimeisin, joka heijastaa todellista ja reilua varojen jakautumista).
 
 Otetaan esimerkki:
 
@@ -376,13 +376,13 @@ Otetaan esimerkki:
 
 **Yhteistyöllisessä sulkemisessa** Alice ja Bob sopivat kanavan sulkemisesta. Näin se tapahtuu:
 
-1. Alice lähettää Bobille viestin Lightning-viestintäprotokollan kautta ehdottaakseen kanavan sulkemista.
-2. Bob suostuu, ja kaksi osapuolta eivät tee enää transaktioita kanavassa.
+- Alice lähettää Bobille viestin Lightning-viestintäprotokollan kautta ehdottaakseen kanavan sulkemista.
+- Bob suostuu, ja kaksi osapuolta eivät tee enää transaktioita kanavassa.
 
 ![LNP201](assets/en/31.webp)
 
-3. Alice ja Bob neuvottelevat yhdessä **sulkemistransaktion** kulut. Nämä kulut lasketaan yleensä Bitcoinin kulupörssin perusteella sulkemishetkellä. On tärkeää huomata, että **se henkilö, joka avasi kanavan** (esimerkissämme Alice) maksaa sulkemiskulut.
-4. He rakentavat uuden **sulkemistransaktion**. Tämä transaktio muistuttaa sitoumustransaktiota, mutta ilman aikalukkoja tai peruutusmekanismeja, koska molemmat osapuolet tekevät yhteistyötä eikä huijaamisen riskiä ole. Tämä yhteistyöllinen sulkemistransaktio on siis erilainen kuin sitoumustransaktiot.
+- Alice ja Bob neuvottelevat yhdessä **sulkemistransaktion** kulut. Nämä kulut lasketaan yleensä Bitcoinin kulupörssin perusteella sulkemishetkellä. On tärkeää huomata, että **se henkilö, joka avasi kanavan** (esimerkissämme Alice) maksaa sulkemiskulut.
+- He rakentavat uuden **sulkemistransaktion**. Tämä transaktio muistuttaa sitoumustransaktiota, mutta ilman aikalukkoja tai peruutusmekanismeja, koska molemmat osapuolet tekevät yhteistyötä eikä huijaamisen riskiä ole. Tämä yhteistyöllinen sulkemistransaktio on siis erilainen kuin sitoumustransaktiot.
    Esimerkiksi, jos Alice omistaa **100 000 satoshia** ja Bob **30 000 satoshia**, lopetustransaktio lähettää **100 000 satoshia** Alicen osoitteeseen ja **30 000 satoshia** Bobin osoitteeseen ilman aikalukkorajoituksia. Kun molemmat osapuolet ovat allekirjoittaneet tämän transaktion, Alice julkaisee sen. Kun transaktio on vahvistettu Bitcoin-lohkoketjussa, Lightning-kanava suljetaan virallisesti.
    ![LNP201](assets/en/32.webp)
 
@@ -419,9 +419,9 @@ Ilmeisesti petos voi potentiaalisesti onnistua, jos Bob ei toimi aikalukon Alice
 
 Kanavan sulkemiseen on kolme tapaa:
 
-1. **Yhteistyöllinen sulkeminen**: Nopea ja vähemmän kallis, missä molemmat osapuolet suostuvat sulkemaan kanavan ja julkaisemaan räätälöidyn sulkemistransaktion.
-2. **Pakotettu sulkeminen**: Vähemmän toivottava, koska se perustuu sitoumustapahtuman julkaisemiseen, mahdollisesti sopimattomilla maksuilla ja aikalukolla, mikä hidastaa sulkemista.
-3. **Huijaaminen**: Jos jompikumpi osapuolista yrittää varastaa varoja julkaisemalla vanhan transaktion, toinen voi käyttää peruutusavainta rangaistakseen tästä huijauksesta.
+- **Yhteistyöllinen sulkeminen**: Nopea ja vähemmän kallis, missä molemmat osapuolet suostuvat sulkemaan kanavan ja julkaisemaan räätälöidyn sulkemistransaktion.
+- **Pakotettu sulkeminen**: Vähemmän toivottava, koska se perustuu sitoumustapahtuman julkaisemiseen, mahdollisesti sopimattomilla maksuilla ja aikalukolla, mikä hidastaa sulkemista.
+- **Huijaaminen**: Jos jompikumpi osapuolista yrittää varastaa varoja julkaisemalla vanhan transaktion, toinen voi käyttää peruutusavainta rangaistakseen tästä huijauksesta.
    Tulevissa luvuissa tutkimme Lightning-verkkoa laajemmasta näkökulmasta, keskittyen siihen, miten sen verkosto toimii.
 
 # Likviditeettiverkosto
@@ -453,8 +453,8 @@ Jos Alice haluaa lähettää varoja Bobille avaamatta suoraa kanavaa hänen kans
 
 Oletetaan, että Alice haluaa lähettää **50 000 satoshia** Bobille:
 
-1. **Alice** lähettää 50 000 satoshia **Suzielle** heidän yhteisessä kanavassaan.
-2. **Suzie** toistaa tämän siirron lähettämällä 50 000 satoshia **Bobille** heidän kanavassaan.
+- **Alice** lähettää 50 000 satoshia **Suzielle** heidän yhteisessä kanavassaan.
+- **Suzie** toistaa tämän siirron lähettämällä 50 000 satoshia **Bobille** heidän kanavassaan.
 
 ![LNP201](assets/en/38.webp)
 Näin ollen maksu ohjataan Bobille liikuttamalla likviditeettiä kussakin kanavassa. Toimenpiteen lopussa Alicella on 50 000 satsia. Hän on todellakin siirtänyt 50 000 satsia, koska alun perin hänellä oli 100 000. Bob puolestaan päätyy 50 000 satsin lisäyksellä. Suzielle (välisolmulle) tämä toimenpide on neutraali: alun perin hänellä oli 30 000 satsia kanavassaan Alicen kanssa ja 250 000 satsia kanavassaan Bobin kanssa, yhteensä 280 000 satsia. Toimenpiteen jälkeen hänellä on 80 000 satsia kanavassaan Alicen kanssa ja 200 000 satsia kanavassaan Bobin kanssa, mikä on sama summa kuin alussa.
@@ -473,9 +473,9 @@ Otetaan teoreettinen esimerkki toisesta verkosta, jossa on:
 Suurin summa, jonka Alice voi lähettää Bobille tässä konfiguraatiossa, on **90 000 satoshia**, koska hän on rajoitettu pienimmän likviditeetin mukaan kanavassa **Suzielta Carolille**. Vastakkaiseen suuntaan (Bobilta Alicelle) maksu ei ole mahdollinen, koska **Suzien** puolella kanavassa **Alicen** kanssa ei ole satosheja. Siksi **ei ole reittiä** käytettävissä siirrolle tässä suunnassa.
 Alice lähettää **40 000 satoshia** Bobille kanavien kautta:
 
-1. Alice siirtää 40 000 satoshia kanavaansa Suzien kanssa.
-2. Suzie siirtää 40 000 satoshia Carolille heidän yhteisessä kanavassaan.
-3. Carol lopulta siirtää 40 000 satoshia Bobille.
+- Alice siirtää 40 000 satoshia kanavaansa Suzien kanssa.
+- Suzie siirtää 40 000 satoshia Carolille heidän yhteisessä kanavassaan.
+- Carol lopulta siirtää 40 000 satoshia Bobille.
 
 ![LNP201](assets/en/40.webp)
 
@@ -491,8 +491,8 @@ Välisolmujen rooli on siis erittäin tärkeä Lightning Networkin toiminnassa. 
 
 Välisolmut soveltavat palkkioita salliakseen maksujen kulkemisen kanaviensa kautta. Nämä palkkiot asettaa **jokainen solmu kullekin kanavalleen**. Palkkiot koostuvat kahdesta osasta:
 
-1. "**Peruspalkkio**": kiinteä määrä per kanava, usein oletuksena **1 sat**, mutta muokattavissa.
-2. "**Muuttuva maksu**": siirretyn summan prosenttiosuus, laskettuna **miljoonasosina (ppm)**. Oletusarvoisesti se on **1 ppm** (1 sat miljoonaa siirrettyä satoshia kohden), mutta sitä voidaan myös säätää.
+- "**Peruspalkkio**": kiinteä määrä per kanava, usein oletuksena **1 sat**, mutta muokattavissa.
+- "**Muuttuva maksu**": siirretyn summan prosenttiosuus, laskettuna **miljoonasosina (ppm)**. Oletusarvoisesti se on **1 ppm** (1 sat miljoonaa siirrettyä satoshia kohden), mutta sitä voidaan myös säätää.
    Maksut vaihtelevat myös siirron suunnan mukaan. Esimerkiksi siirrossa Alicelta Suzielle sovelletaan Alicen maksuja. Päinvastaisesti Suzielta Alicelle siirrettäessä käytetään Suzien maksuja.
 
 Esimerkiksi kanavalla Alicen ja Suzien välillä meillä voisi olla:
@@ -535,9 +535,9 @@ Maksun reitittämiseksi lähettäjältä vastaanottajalle Lightning Network käy
 - **Jokainen välisolmu tuntee vain välittömän naapurinsa**: Suzie tietää vain, että hän sai varoja Alicelta ja että hänen täytyy siirtää ne Carolille. Suzie ei kuitenkaan tiedä, onko Alice lähdesolmu vai välisolmu, eikä hän myöskään tiedä, onko Carol vastaanottajasolmu vai vain toinen välisolmu. Tämä periaate pätee myös Caroliin ja kaikkiin muihin polun solmuihin. Sipulireititys näin ollen säilyttää tapahtumien luottamuksellisuuden peittämällä lähettäjän ja lopullisen vastaanottajan identiteetin. Jotta lähettävä solmu voi laskea täydellisen reitin vastaanottajalle sipulireitityksessä, sen on ylläpidettävä **verkkograafia** tietääkseen sen topologian ja määrittääkseen mahdolliset reitit.
   **Mitä sinun tulisi oppia tästä luvusta?**
 
-1. Lightning-verkossa maksut voidaan reitittää solmujen välillä epäsuorasti välisolmukanavien kautta. Jokainen näistä välisolmuista helpottaa likviditeetin välitystä.
-2. Välisolmut saavat palvelustaan komission, joka koostuu kiinteistä ja muuttuvista maksuista.
-3. Sipulireititys mahdollistaa lähettävän solmun laskea täydellisen reitin ilman, että välisolmut tietävät lähteen tai lopullisen määränpään.
+- Lightning-verkossa maksut voidaan reitittää solmujen välillä epäsuorasti välisolmukanavien kautta. Jokainen näistä välisolmuista helpottaa likviditeetin välitystä.
+- Välisolmut saavat palvelustaan komission, joka koostuu kiinteistä ja muuttuvista maksuista.
+- Sipulireititys mahdollistaa lähettävän solmun laskea täydellisen reitin ilman, että välisolmut tietävät lähteen tai lopullisen määränpään.
 
 Tässä luvussa tutkimme maksujen reititystä Lightning-verkossa. Mutta herää kysymys: mikä estää välisolmuja hyväksymästä tulevaa maksua ilman, että se välittää sen seuraavaan määränpäähän, tavoitteenaan kaapata transaktio? Tämä on juuri HTLC:iden rooli, joita tutkimme seuraavassa luvussa.
 
@@ -653,9 +653,9 @@ Lopulta, jos yhteistyössä tapahtuvan kanavan sulkemisen aikana HTLC on aktiivi
 
 HTLC:t mahdollistavat Lightning-maksujen reitittämisen useiden solmujen kautta ilman, että niitä tarvitsee luottaa. Tässä ovat keskeiset muistettavat asiat:
 
-1. HTLC:t takaavat maksujen turvallisuuden salaisuuden (preimage) ja vanhentumisajan kautta.
-2. HTLC:iden ratkaisu tai vanhentuminen noudattaa tiettyä järjestystä: sitten määränpäästä lähteeseen, jotta jokainen solmu suojataan.
-3. Niin kauan kuin HTLC:tä ei ole ratkaistu eikä se ole vanhentunut, se säilytetään ulostulona viimeisimmissä sitoumustapahtumissa.
+- HTLC:t takaavat maksujen turvallisuuden salaisuuden (preimage) ja vanhentumisajan kautta.
+- HTLC:iden ratkaisu tai vanhentuminen noudattaa tiettyä järjestystä: sitten määränpäästä lähteeseen, jotta jokainen solmu suojataan.
+- Niin kauan kuin HTLC:tä ei ole ratkaistu eikä se ole vanhentunut, se säilytetään ulostulona viimeisimmissä sitoumustapahtumissa.
 
 Seuraavassa luvussa tutustumme siihen, miten solmu, joka lähettää Lightning-transaktion, löytää ja valitsee reitit maksunsa toimittamiseksi vastaanottavalle solmulle.
 
@@ -716,9 +716,9 @@ Koska Alice ei kuitenkaan tiedä tarkkaa varojen jakautumista kussakin kanavassa
 - **Välisolmujen määrä**: lopulta, laajemmin ottaen, lähetysolmu pyrkii löytämään reitin, jossa on mahdollisimman vähän solmuja, vähentääkseen vikojen riskiä ja rajoittaakseen Lightning-siirtomaksuja.
   Näitä kriteereitä analysoimalla lähetysolmu voi testata todennäköisimpiä reittejä ja yrittää optimoida niitä. Esimerkissämme Alice voisi arvottaa parhaat reitit seuraavasti:
 
-1. `Alice → 1 → 2 → 5 → Bob`, koska se on lyhin reitti suurimmalla kapasiteetilla.
-2. `Alice → 1 → 2 → 4 → 5 → Bob`, koska tämä reitti tarjoaa hyvät kapasiteetit, vaikkakin se on pidempi kuin ensimmäinen.
-3. `Alice → 1 → 2 → 3 → Bob`, koska tämä reitti sisältää kanavan `2 → 3`, jolla on hyvin rajoitettu kapasiteetti, mutta on silti mahdollisesti käyttökelpoinen.
+- `Alice → 1 → 2 → 5 → Bob`, koska se on lyhin reitti suurimmalla kapasiteetilla.
+- `Alice → 1 → 2 → 4 → 5 → Bob`, koska tämä reitti tarjoaa hyvät kapasiteetit, vaikkakin se on pidempi kuin ensimmäinen.
+- `Alice → 1 → 2 → 3 → Bob`, koska tämä reitti sisältää kanavan `2 → 3`, jolla on hyvin rajoitettu kapasiteetti, mutta on silti mahdollisesti käyttökelpoinen.
 
 ### Maksun suoritus
 
@@ -736,9 +736,9 @@ On huomionarvoista, että Bob voi antaa Alicelle tietoja **laskussa** helpottaak
 
 **Mitä sinun tulisi ottaa tästä luvusta mukaasi?**
 
-1. Solmut ylläpitävät karttaa verkon topologiasta ilmoitusten kautta ja seuraamalla kanavien sulkemisia Bitcoin-lohkoketjussa.
-2. Optimaalisen reitin etsintä maksulle on todennäköisyyspohjaista ja riippuu monista kriteereistä.
-3. Bob voi antaa vihjeitä **laskussa** ohjatakseen Alicen reititystä ja säästääkseen häntä testaamasta epätodennäköisiä reittejä.
+- Solmut ylläpitävät karttaa verkon topologiasta ilmoitusten kautta ja seuraamalla kanavien sulkemisia Bitcoin-lohkoketjussa.
+- Optimaalisen reitin etsintä maksulle on todennäköisyyspohjaista ja riippuu monista kriteereistä.
+- Bob voi antaa vihjeitä **laskussa** ohjatakseen Alicen reititystä ja säästääkseen häntä testaamasta epätodennäköisiä reittejä.
 
 Seuraavassa luvussa tutkimme erityisesti laskujen toimintaa, lisäksi joitakin muita Lightning-verkon käyttämiä työkaluja.
 
@@ -757,8 +757,8 @@ Tässä luvussa tarkastelemme tarkemmin Lightning **laskujen** toimintaa, eli ma
 
 Kuten HTLC-luvussa selitettiin, jokainen maksu alkaa **laskun** luomisella vastaanottajan toimesta. Tämä lasku välitetään sitten maksajalle (QR-koodin tai kopioimalla ja liittämällä) maksun aloittamiseksi. Lasku koostuu kahdesta pääosasta:
 
-1. **Ihmislukukelpoinen osa**: tämä osio sisältää selvästi näkyvää metadataa käyttökokemuksen parantamiseksi.
-2. **Tietosisältö**: tämä osio sisältää koneiden käsiteltäväksi tarkoitettua tietoa maksun suorittamiseksi.
+- **Ihmislukukelpoinen osa**: tämä osio sisältää selvästi näkyvää metadataa käyttökokemuksen parantamiseksi.
+- **Tietosisältö**: tämä osio sisältää koneiden käsiteltäväksi tarkoitettua tietoa maksun suorittamiseksi.
 
 Tyypillisen laskun rakenne alkaa tunnisteella `ln` "Lightning" varten, jonka jälkeen tulee `bc` Bitcoinille, sitten laskun summa. Erotin `1` erottaa ihmislukukelpoisen osan tietosisällöstä (payload).
 
@@ -849,9 +849,9 @@ Yksinkertaistaen, tässä protokollassa lähettäjä luo salaisuuden, jota käyt
 
 **Mitä sinun tulisi ottaa mukaasi tästä luvusta?**
 
-1. **Lightning-lasku** on maksupyyntö, joka koostuu ihmisen luettavasta osasta ja koneen datan osasta.
-2. Lasku on koodattu **bech32**:lla, jossa on `1` erotin kopioinnin helpottamiseksi ja datan osa, joka sisältää kaikki maksun käsittelyyn tarvittavat tiedot.
-3. Lightningissa on olemassa muita maksuprosesseja, erityisesti **LNURL-Withdraw** nostojen helpottamiseksi, ja **Keysend** suorille siirroille ilman laskua.
+- **Lightning-lasku** on maksupyyntö, joka koostuu ihmisen luettavasta osasta ja koneen datan osasta.
+- Lasku on koodattu **bech32**:lla, jossa on `1` erotin kopioinnin helpottamiseksi ja datan osa, joka sisältää kaikki maksun käsittelyyn tarvittavat tiedot.
+- Lightningissa on olemassa muita maksuprosesseja, erityisesti **LNURL-Withdraw** nostojen helpottamiseksi, ja **Keysend** suorille siirroille ilman laskua.
 
 Seuraavassa luvussa näemme, kuinka solmuoperaattori voi hallita likviditeettiä kanavissaan, jotta ei koskaan jää jumiin ja voi aina lähettää ja vastaanottaa maksuja Lightning-verkossa.
 
@@ -867,9 +867,9 @@ Tässä luvussa tutkimme strategioita tehokkaaseen likviditeetin hallintaan Ligh
 
 Lightning-verkossa on kolme pääkäyttäjäprofiilia, joilla kullakin on erityiset likviditeettitarpeet:
 
-1. **Maksaja**: Tämä on henkilö, joka suorittaa maksuja. He tarvitsevat lähtevää likviditeettiä voidakseen siirtää varoja muille käyttäjille. Esimerkiksi tämä voisi olla kuluttaja.
-2. **Myyjä (tai Saaja)**: Tämä on henkilö, joka vastaanottaa maksuja. He tarvitsevat saapuvaa likviditeettiä voidakseen hyväksyä maksuja omaan solmuunsa. Esimerkiksi tämä voisi olla yritys tai verkkokauppa.
-3. **Reititin**: Välisolmu, joka on usein erikoistunut maksujen reitittämiseen, ja jonka on optimoitava likviditeettinsä kussakin kanavassa voidakseen reitittää mahdollisimman monta maksua ja ansaita palkkioita.
+- **Maksaja**: Tämä on henkilö, joka suorittaa maksuja. He tarvitsevat lähtevää likviditeettiä voidakseen siirtää varoja muille käyttäjille. Esimerkiksi tämä voisi olla kuluttaja.
+- **Myyjä (tai Saaja)**: Tämä on henkilö, joka vastaanottaa maksuja. He tarvitsevat saapuvaa likviditeettiä voidakseen hyväksyä maksuja omaan solmuunsa. Esimerkiksi tämä voisi olla yritys tai verkkokauppa.
+- **Reititin**: Välisolmu, joka on usein erikoistunut maksujen reitittämiseen, ja jonka on optimoitava likviditeettinsä kussakin kanavassa voidakseen reitittää mahdollisimman monta maksua ja ansaita palkkioita.
 
 Nämä profiilit eivät tietenkään ole kiinteitä; käyttäjä voi vaihtaa maksajan ja saajan roolien välillä riippuen transaktioista. Esimerkiksi Bob voisi vastaanottaa palkkansa Lightning-verkossa työnantajaltaan, mikä asettaisi hänet "myyjän" asemaan tarviten saapuvaa likviditeettiä. Myöhemmin, jos hän haluaa käyttää palkkaansa ruoan ostamiseen, hänestä tulee "maksaja" ja hänen on silloin oltava lähtevää likviditeettiä.
 
@@ -937,12 +937,12 @@ Tämän koulutuksen tavoitteena oli tarjota sinulle kattava ja tekninen ymmärry
 
 Alkuluvuissa tutkimme, miten kaksi osapuolta voi suorittaa transaktioita Bitcoinin lohkoketjun ulkopuolella avaamalla maksukanavan. Tässä ovat käsitellyt vaiheet:
 
-1. **Kanavan Avaaminen**: Kanavan luominen tapahtuu Bitcoin-transaktiolla, joka lukitsee varat 2/2 moniallekirjoitusosoitteeseen. Tämä talletus edustaa Lightning-kanavaa lohkoketjussa.
+- **Kanavan Avaaminen**: Kanavan luominen tapahtuu Bitcoin-transaktiolla, joka lukitsee varat 2/2 moniallekirjoitusosoitteeseen. Tämä talletus edustaa Lightning-kanavaa lohkoketjussa.
 
 ![LNP201](assets/en/76.webp) 2. **Transaktiot Kanavassa**: Tässä kanavassa on sitten mahdollista suorittaa lukuisia transaktioita julkaisematta niitä lohkoketjussa. Jokainen Lightning-transaktio luo kanavan uuden tilan, joka heijastuu sitoutumistransaktiossa.
 ![LNP201](assets/en/77.webp)
 
-3. **Turvaaminen ja Sulkeminen**: Osallistujat sitoutuvat kanavan uuteen tilaan vaihtamalla peruutusavaimia varojen turvaamiseksi ja huijaamisen estämiseksi. Molemmat osapuolet voivat sulkea kanavan yhteistyössä tekemällä uuden transaktion Bitcoinin lohkoketjussa, tai viimeisenä keinona pakotetun sulkemisen kautta. Tämä jälkimmäinen vaihtoehto, vaikka se on vähemmän tehokas koska se on pidempi ja joskus huonosti arvioitu maksujen suhteen, sallii silti varojen palauttamisen. Huijauksen tapauksessa uhri voi rangaista huijaria palauttamalla kaikki kanavan varat lohkoketjussa.
+- **Turvaaminen ja Sulkeminen**: Osallistujat sitoutuvat kanavan uuteen tilaan vaihtamalla peruutusavaimia varojen turvaamiseksi ja huijaamisen estämiseksi. Molemmat osapuolet voivat sulkea kanavan yhteistyössä tekemällä uuden transaktion Bitcoinin lohkoketjussa, tai viimeisenä keinona pakotetun sulkemisen kautta. Tämä jälkimmäinen vaihtoehto, vaikka se on vähemmän tehokas koska se on pidempi ja joskus huonosti arvioitu maksujen suhteen, sallii silti varojen palauttamisen. Huijauksen tapauksessa uhri voi rangaista huijaria palauttamalla kaikki kanavan varat lohkoketjussa.
 
 ![LNP201](assets/en/78.webp)
 

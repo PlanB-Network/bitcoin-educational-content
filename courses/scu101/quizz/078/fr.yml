@@ -1,0 +1,9 @@
+question: Quel critère est fondamental lors de la création d'une nouvelle boîte mail ?
+answer: Utiliser un mot de passe unique et fort
+wrong_answers:
+  - Réutiliser le mot de passe d'autres comptes
+  - Choisir un mot de passe simple pour faciliter la mémorisation
+  - Choisir un mot de passe avec le nom de son animal de compagnie
+explanation: |
+  Un mot de passe unique et fort est indispensable pour empêcher les pirates d'accéder à la boîte mail.
+reviewed: false

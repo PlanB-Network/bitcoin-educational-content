@@ -118,83 +118,67 @@ I sistemi di pagamento sono metodi e infrastrutture che consentono il trasferime
 
 ### Tipi comuni di metodi di pagamento
 
-1. **Contanti:** Valuta fisica scambiata direttamente tra due parti.
+1. **Contanti:** valuta fisica scambiata direttamente tra due parti.
 
-2. **Assegni:** Documenti cartacei che ordinano a una banca di pagare un determinato importo dal conto del pagatore al beneficiario.
+2. **Assegni:** documenti cartacei che ordinano a una banca di pagare un determinato importo dal conto del pagatore al beneficiario.
 
-3. **Trasferimenti via cavo:** Trasferimento elettronico di fondi tra banche, spesso utilizzato per somme maggiori e pagamenti transfrontalieri.
+3. **Trasferimenti via cavo:** trasferimento elettronico di fondi tra banche, spesso utilizzato per somme maggiori e pagamenti transfrontalieri.
 
-4. **Carte di pagamento (credito/debito):** Carte plastificate o digitali collegate a una rete di carte, che consentono di trasferire fondi dal conto bancario (o dalla linea di credito) del titolare della carta a un esercente.
+4. **Carte di pagamento (credito/debito):** carte plastificate o digitali collegate a una rete di carte, che consentono di trasferire fondi dal conto bancario (o dalla linea di credito) del titolare della carta a un esercente.
 
-5. **Portafogli digitali e pagamenti mobili:** Applicazioni o dispositivi che memorizzano le informazioni di pagamento (ad esempio, Apple Pay, WeChatPay, AliPay, PayPal), consentendo trasferimenti rapidi e spesso senza contatto.
+5. **Portafogli digitali e pagamenti mobili:** applicazioni o dispositivi che memorizzano le informazioni di pagamento (ad esempio, Apple Pay, WeChatPay, AliPay, PayPal), consentendo trasferimenti rapidi e spesso senza contatto.
 
 **Utilizzo nel B2C e nel B2B:**
 
 
-- B2C (Business-to-Consumer):**
+- **B2C (Business-to-Consumer):**
     - I consumatori utilizzano spesso contanti, carte e portafogli digitali per gli acquisti di tutti i giorni, come la spesa, lo shopping online o servizi come il ride-hailing.
     - Velocità, convenienza e spese ridotte (per il consumatore) sono spesso le priorità principali.
-    - I pagamenti contactless e mobili sono sempre più popolari in questo spazio grazie alla loro facilità d'uso.
-- B2B (Business-to-Business):**
+    - I pagamenti contactless e mobile sono sempre più popolari in questo spazio grazie alla loro facilità d'uso.
+- **B2B (Business-to-Business):**
     - Le aziende si affidano comunemente a bonifici, assegni e sistemi di fatturazione per pagare i fornitori, saldare grandi fatture o gestire pagamenti ricorrenti.
     - L'attenzione è spesso rivolta alla tracciabilità, alla documentazione e alla capacità di gestire transazioni di valore superiore.
     - L'uso della carta esiste, ma tende a essere meno comune a causa di commissioni e limiti di transazione più elevati. Stanno emergendo soluzioni digitali, come le piattaforme di pagamento integrate, per snellire e automatizzare i processi di pagamento e incasso.
 
 ![BIZ101](assets/en/01.webp)
 
-*Grafico: Tendenze globali nei metodi di pagamento al punto vendita (POS) (2023-2027), The Global Payments Report 2024, Worldpay.*
+*Grafico: Tendenze globali nei metodi di pagamento al punto vendita (POS) (2023-2027), da "The Global Payments Report 2024, Worldpay."*
 
 ### La complessità che si cela dietro un semplice pagamento con carta di credito
 
-Quando un cliente utilizza una carta di credito in un negozio, la carta viene letta dal terminale POS, che trasmette in modo sicuro i dati della transazione alla banca acquirente dell'esercente. L'acquirer inoltra queste informazioni alla rete di carte di credito (ad esempio, Visa o Mastercard), che inoltra la richiesta all'emittente - la banca che ha fornito la carta al cliente. L'emittente controlla il conto o la linea di credito del cliente e invia un'autorizzazione attraverso la rete e l'acquirer, consentendo all'esercente di accettare il pagamento.
+Quando un cliente utilizza una carta di credito in un negozio, la carta viene letta dal terminale POS, che trasmette in modo sicuro i dati della transazione alla banca acquirente dell'esercente. La banca dell'acquirente inoltra queste informazioni alla rete di carte di credito (ad esempio, Visa o Mastercard), che inoltra la richiesta all'emittente - la banca che ha fornito la carta al cliente. L'emittente controlla il conto o la linea di credito del cliente e invia un'autorizzazione attraverso la rete alla banca acquirente, consentendo all'esercente di accettare il pagamento.
 
 ![BIZ101](assets/en/02.webp)
 
-Questa transazione, apparentemente semplice, comporta in realtà oltre 15 passaggi, 7 intermediari e richiede in media dalle 48 ore ai 5 giorni prima che il commerciante riceva i fondi. Nei giorni successivi si verifica un processo di compensazione e regolamento. La rete di carte aggrega le transazioni del giorno e coordina l'interscambio di fondi tra l'acquirer e l'emittente. Una banca centrale garantisce l'accuratezza e la stabilità di questi regolamenti interbancari. Alla fine, il conto bancario dell'esercente riceve l'importo netto (meno le commissioni) accreditato dall'acquirer, completando così il ciclo di vita della transazione.
+Questa transazione, apparentemente semplice, comporta in realtà oltre 15 passaggi, 7 intermediari e richiede in media dalle 48 ore ai 5 giorni prima che il commerciante riceva i fondi. Nei giorni successivi si verifica un processo di compensazione e regolamento. La rete di carte aggrega le transazioni del giorno e coordina l'interscambio di fondi tra la banca dell'acquirente e l'emittente. Una banca centrale garantisce l'accuratezza e la stabilità di questi regolamenti interbancari. Alla fine, il conto bancario dell'esercente riceve l'importo netto (meno le commissioni) accreditato dalla banca dell'acquirente, completando così il ciclo di vita della transazione.
 
 Nel complesso, questo processo è intricato, lungo e costoso per quello che dovrebbe essere un semplice atto di trasferimento di valore da una parte all'altra.
 
 ### Metodi di pagamento a confronto
 
-| Metodo di pagamento | Autorizzazione necessaria?           | Tempo di approvazione della transazione (vista dall'esercente) | Velocità di regolamento (fondi completamente regolati) | Finalità (facilità di storno) | Numero di intermediari | Commissioni tipiche (al beneficiario) |
-
-| ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
-
-| **Cash** | No | Immediato (scambio fisico) | Immediato (nessun ritardo di liquidazione) | Alto (irreversibile una volta pagato) | Nessuno | Nessuno | Nessuno
-
-| **Assegni** | Sì (compensazione bancaria) | Accettazione al momento del deposito (non garantita) | Diversi giorni (processo di compensazione dell'assegno) | Medio (può essere respinto/arrestato prima della compensazione) | Banca | **Da basso a medio** (commissioni bancarie) |
-
-| **Trasferimenti via cavo** | Sì (Banca/Rete) | Conferma entro poche ore | Stesso giorno o giorno successivo (nazionale) | Alto (di solito irreversibile una volta inviato) | Banche, Reti di pagamento | **Medio**(Fisso/Percentuale) |
-
-| **Carte di pagamento** | Sì (Autorizzazione dell'emittente della carta) | Da secondi a minuti (Codice di autorizzazione) | Alcuni giorni (Regolamento interbancario) | Medio (Possibilità di addebiti) | Emittente, Acquirer, Rete di carte | **Variabile (1-3% della transazione)** |
-
-| **Portafogli digitali/Mobile Pay** | Sì (Provider di Portafoglio/Banca) | Secondi (Conferma istantanea) | In genere 1-2 giorni (Dipende dalla fonte di finanziamento) | Medio (Possibilità di rimborso/diffida) | Banche, Operatori di Portafoglio | **Da basso a medio (Varia)** |
+| Metodo di pagamento                | Autorizzazione necessaria?                     | Tempo di approvazione della transazione (vista dall'esercente) | Velocità di regolamento (fondi completamente regolati)      | Finalità (facilità di storno)                                   | Numero di intermediari             | Commissioni tipiche (al beneficiario)       |
+| ---------------------------------- | ---------------------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------- | ---------------------------------- | ------------------------------------------- |
+| **Cash**                           | No                                             | Immediato (scambio fisico)                                     | Immediato (nessun ritardo di liquidazione)                  | Alto (irreversibile una volta pagato)                           | Nessuno                            | Nessuno                                     |
+| **Assegni**                        | Sì (compensazione bancaria)                    | Accettazione al momento del deposito (non garantita)           | Diversi giorni (processo di compensazione dell'assegno)     | Medio (può essere respinto/arrestato prima della compensazione) | Banca                              | **Da basso a medio** (commissioni bancarie) |
+| **Trasferimenti via cavo**         | Sì (Banca/Rete)                                | Conferma entro poche ore                                       | Stesso giorno o giorno successivo (nazionale)               | Alto (di solito irreversibile una volta inviato)                | Banche, Reti di pagamento          | **Medio**(Fisso/Percentuale)                |
+| **Carte di pagamento**             | Sì (Autorizzazione dell'emittente della carta) | Da secondi a minuti (Codice di autorizzazione)                 | Alcuni giorni (Regolamento interbancario)                   | Medio (Possibilità di addebiti)                                 | Emittente, Acquirer, Rete di carte | **Variabile (1-3% della transazione)**      |
+| **Portafogli digitali/Mobile Pay** | Sì (Provider di Portafoglio/Banca)             | Secondi (Conferma istantanea)                                  | In genere 1-2 giorni (Dipende dalla fonte di finanziamento) | Medio (Possibilità di rimborso/diffida)                         | Banche, Operatori di Portafoglio   | **Da basso a medio (Varia)**                |
 
 ### Limiti delle soluzioni esistenti
 
-L'industria dei pagamenti tradizionali rappresenta un'economia annuale di circa 2.200 miliardi di dollari, circa un decimo del PIL degli Stati Uniti o pari al PIL della Francia. Poiché le valute funzionano come reti autorizzate, la concorrenza è limitata, rendendo questo "servizio" più simile a una tassa imposta all'economia produttiva. Oltre agli oneri di costo che crea, ci sono diverse altre limitazioni, come illustrato di seguito.
+L'industria dei pagamenti tradizionali rappresenta un'economia del valore annuale di circa 2.200 miliardi di dollari, circa un decimo del PIL degli Stati Uniti o pari al PIL della Francia. Poiché le valute funzionano come reti autorizzate, la concorrenza è limitata, rendendo questo _"servizio"_ più simile a una tassa imposta all'economia produttiva. Oltre agli oneri di costo che crea, ci sono diverse altre limitazioni, come illustrato di seguito.
 
-| Limitazione, spiegazione, impatto..
-
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-
-| Commissioni di interscambio (~0,3%), commissioni di rete (fisse o 0,3%-1%), abbonamenti a terminali/PSP e margini bancari (0,5%-1,7%) si sommano a un costo sostanziale, simile a una "tassa" globale sui settori produttivi, pari a trilioni di dollari.     | Aumenta i costi degli esercenti, riducendo i margini e potenzialmente aumentando i prezzi al consumo.                  |
-
-| Il regolamento dei fondi può richiedere fino a 5 giorni, rallentando il flusso di denaro e l'attività economica complessiva.                                                                                                                                | Ritarda la liquidità per i commercianti e riduce la velocità della circolazione economica.                        |
-
-| Frodi | I canali di e-commerce sono fortemente bersagliati dalle frodi, che contribuiscono a perdite significative (ad esempio, 28 miliardi di dollari). I chargeback potrebbero raggiungere ~174 miliardi di dollari a livello globale entro il 2024. La gestione di queste controversie richiede tempo e stress mentale. | Aumento dei costi operativi, complesse misure di prevenzione delle frodi e diminuzione della fiducia dei clienti.       |
-
-| Abbandono del carrello | I passaggi di sicurezza aggiuntivi (codici una tantum, autenticazione a due fattori secondo la PSD2) introducono attriti al momento del checkout.                                                                                                                   | Una maggiore complessità del checkout porta all'abbandono del carrello e alla perdita di vendite.                       |
-
-| Soglie minime di spesa sulle carte possono costringere commercianti e consumatori a condizioni di prezzo o di acquisto scomode, scoraggiando le transazioni di piccolo valore.                                                                       | Riducono la soddisfazione e la flessibilità dei clienti, limitando potenzialmente gli acquisti d'impulso o di basso valore.  |
-
-| I sistemi attuali non sono in grado di gestire transazioni alla velocità di un millisecondo o di supportare flussi di pagamento continui e in tempo reale.                                                                                                                   | Limita i casi d'uso che richiedono pagamenti istantanei o in streaming, limitando l'innovazione e la scalabilità. |
-
-| L'accesso a questi metodi di pagamento richiede un conto bancario o una carta collegata, escludendo automaticamente coloro che ne sono sprovvisti.                                                                                                       | Limita l'inclusione finanziaria, riducendo l'accesso alle popolazioni non bancarizzate o sottobanco.                 |
-
+| Limitazione                           | Spiegazione                                                                                                                                                                                                                                                                                                        | Impatto                                                                                 |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| Alte commissioni sulle carte          | Commissioni di interscambio (~0,3%), commissioni di rete (fisse o 0,3%-1%), abbonamenti a terminali/PSP e margini bancari (0,5%-1,7%) si sommano a un costo sostanziale, simile a una "tassa" globale sui settori produttivi, pari a trilioni di dollari.                                                          | Aumenta i costi degli esercenti, riducendo i margini e potenzialmente aumentando i prezzi al consumo.                          |
+| Processo di compensazione molto lento | Il regolamento dei fondi può richiedere fino a 5 giorni, rallentando il flusso di denaro e l'attività economica complessiva.                                                                                                                                                                                       | Ritarda la liquidità per i commercianti e riduce la velocità della circolazione economica.                       |
+| Frodi                                 | I canali di e-commerce sono fortemente bersagliati dalle frodi, che contribuiscono a perdite significative (ad esempio, 28 miliardi di dollari). I chargeback potrebbero raggiungere ~174 miliardi di dollari a livello globale entro il 2024. La gestione di queste controversie richiede tempo e stress mentale. | Aumento dei costi operativi, complesse misure di prevenzione delle frodi e diminuzione della fiducia dei clienti.       |
+| Abbandono del carrello                | I passaggi di sicurezza aggiuntivi (codici una tantum, autenticazione a due fattori secondo la PSD2) introducono attriti al momento del checkout.                                                                                                                   | Una maggiore complessità del checkout porta all'abbandono del carrello e alla perdita di vendite.                       |
+| Importi di transazione minimi elevati | Soglie minime di spesa sulle carte possono costringere commercianti e consumatori a condizioni di prezzo o di acquisto scomode, scoraggiando le transazioni di piccolo valore.                                                                       | Riducono la soddisfazione e la flessibilità dei clienti, limitando potenzialmente gli acquisti d'impulso o di basso valore.  |
+| Pre-Authorizzazione lenta | I sistemi attuali non sono in grado di gestire transazioni alla velocità di un millisecondo o di supportare flussi di pagamento continui e in tempo reale.                                                                                                                   | Limita i casi d'uso che richiedono pagamenti istantanei o in streaming, limitando l'innovazione e la scalabilità. |
+| Bisogno di un conto bancario / carta | L'accesso a questi metodi di pagamento richiede un conto bancario o una carta collegata, escludendo automaticamente coloro che ne sono sprovvisti.                                                                                                       | Limita l'inclusione finanziaria, riducendo l'accesso alle popolazioni non bancarizzate o sottobanco.                 |
 | Creazione ripetuta di account online | Gli utenti devono spesso creare più account online, con conseguente stanchezza, minore comodità e maggiore esposizione dei dati personali.                                                                                                | Peggiora l'esperienza dell'utente, solleva problemi di privacy e aumenta il rischio di violazione dei dati.          |
-
-| La mancanza di un'unità di conto universale costringe a costose conversioni di valuta per le transazioni transfrontaliere.                                                                                                                              | Aggiunge costi aggiuntivi al commercio internazionale, rendendo le transazioni globali meno convenienti.             |
+| Tariffe scambi esteri (FX) | La mancanza di un'unità di conto universale costringe a costose conversioni di valuta per le transazioni transfrontaliere.                                                                                                                              | Aggiunge costi aggiuntivi al commercio internazionale, rendendo le transazioni globali meno convenienti.             |
 
 Così come siamo passati dal pagamento al minuto delle chiamate vocali all'utilizzo quasi gratuito delle comunicazioni su IP, l'emergere di reti più aperte ed efficienti può ridefinire i pagamenti, riducendo i costi e gli intermediari e favorendo nuovi modelli di business.
 

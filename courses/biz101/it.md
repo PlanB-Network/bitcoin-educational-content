@@ -699,43 +699,43 @@ Oltre alle commissioni e alla velocità di esecuzione, _che contano meno se si p
 
 <chapterId>99af1203-bc84-4acc-9780-f733e7998335</chapterId>
 
-In primo luogo, è importante capire che il Bitcoin è una perturbazione della stessa portata di Internet.
+In primo luogo, è importante capire che Bitcoin è uno _"sconvolgimento"_ della stessa portata di Internet.
 
 Agli albori, la rete Internet ha permesso di eliminare gli intermediari dai canali di comunicazione, e poi questa infrastruttura ha portato a innumerevoli applicazioni prima inimmaginabili. Oggi, quale azienda non ha una presenza online?
 
-Il Bitcoin è un'infrastruttura di fiducia, la cui prima applicazione è quella di eliminare gli intermediari dalla conservazione e dallo scambio di valore-denaro. Altre applicazioni attualmente inimmaginabili emergeranno su questa infrastruttura. La vostra presenza iniziale qui è l'equivalente di avere un sito web: un gateway per i pagamenti peer-to-peer e gli scambi di valore.
+Bitcoin è un'infrastruttura di fiducia, la cui prima applicazione è quella di eliminare gli intermediari dalla conservazione e dallo scambio di valore-denaro. Altre applicazioni attualmente inimmaginabili emergeranno su questa infrastruttura. La vostra presenza iniziale qui è l'equivalente di avere un sito web: un gateway per i pagamenti peer-to-peer e gli scambi di valore.
 
 ![BIZ101](assets/en/17.webp)
 
-Considerate ora la prospettiva di un'azienda pratica la cui attività principale non ha nulla a che fare con i Bitcoin. Perché dovrebbe scegliere di accettare pagamenti in Bitcoin?
+Considerate ora la prospettiva di un'azienda pratica la cui attività principale non ha nulla a che fare con Bitcoin. Perché dovrebbe scegliere di accettare pagamenti in Bitcoin?
 
 
-- Costruire un tesoro in Bitcoin:**
+- **Costruire una tesoreria in Bitcoin:**
 
-Si veda il nostro precedente articolo sull'acquisto di Bitcoin. Per convinzione o come strategia di diversificazione, alcuni professionisti scelgono di accettare pagamenti in Bitcoin. Alcuni Bitcoiners sostengono che quanto meno un'azienda è dotata di capacità finanziarie, ovvero non ha né il tempo né gli strumenti per impegnarsi in complesse manovre finanziarie, tanto più è fondamentale che venga pagata con la forma di denaro più difficile disponibile**. In questo modo, si livella il campo di gioco, consentendo anche alle piccole imprese con problemi di tempo di preservare il valore senza rimanere invischiate in giochi finanziari.
+Si veda il nostro precedente articolo sull'acquisto di Bitcoin. Per convinzione o come strategia di diversificazione, alcuni professionisti scelgono di accettare pagamenti in Bitcoin. Alcuni Bitcoiner sostengono che quanto meno un'azienda è dotata di capacità finanziarie, ovvero non ha né il tempo né gli strumenti per impegnarsi in complesse manovre finanziarie, **tanto più è fondamentale che venga pagata con la forma di denaro più difficile disponibile**. In questo modo, si livella il campo di gioco, consentendo anche alle piccole imprese con problemi di tempo di preservare il valore senza rimanere invischiate in giochi finanziari.
 
 
-- Raggiungere una nuova fascia demografica:**
+- **Raggiungere una nuova fascia demografica:**
 
 Il numero di utenti di Bitcoin è in crescita e ha un notevole potere d'acquisto. Naturalmente graviteranno verso le attività commerciali che accettano la loro valuta. Inoltre, trattandosi della prima moneta universale e nativa di Internet, è possibile attirare anche clienti internazionali di passaggio.
 
 
-- Aumentare la visibilità:**
+- **Aumentare la visibilità:**
 
 Inserendo la vostra attività su piattaforme come BTCmap.org, ad esempio. Attualmente solo poche aziende accettano Bitcoin, quindi il passaparola va a vostro vantaggio. Inoltre, vi distingue dai vostri concorrenti.
 
 
-- Tasse più basse:**
+- **Commissioni di transazione più basse:**
 
-I pagamenti istantanei in Bitcoin avvengono tramite la rete Lightning. **Le spese sono minime e vengono pagate dall'acquirente**. Non ci sono spese per i terminali di pagamento, non ci sono fallimenti nell'autorizzazione dei pagamenti e non ci sono frodi. A titolo di confronto, il settore dei pagamenti (carte, terminali, trasferimenti, PSP, ecc.) costa circa 2,2 trilioni di dollari all'anno a livello globale. Se a ciò si aggiungono i chargeback e le frodi, si ottiene che quasi un decimo dell'equivalente del PIL degli Stati Uniti viene "scremato" dalle aziende produttive di tutto il mondo solo per trasferire valore. Indipendentemente dalla vostra attività, le commissioni finanziarie sono un onere che dovrebbe essere ottimizzato e, in alcuni casi, le commissioni elevate possono soffocare alcuni modelli di business.
+I pagamenti istantanei in Bitcoin avvengono tramite Lightning Network. **Le spese sono minime e vengono pagate dall'acquirente**. Non ci sono spese per i terminali di pagamento, non ci sono fallimenti nell'autorizzazione dei pagamenti e non ci sono frodi. A titolo di confronto, il settore dei pagamenti (carte, terminali, trasferimenti, PSP, ecc.) costa circa 2,2 trilioni di dollari all'anno a livello globale. Se a ciò si aggiungono i chargeback e le frodi, si ottiene che quasi un decimo dell'equivalente del PIL degli Stati Uniti viene _"prosciugato"_ dalle aziende produttive di tutto il mondo solo per trasferire valore. Indipendentemente dalla vostra attività, le commissioni finanziarie sono un onere che dovrebbe essere ottimizzato e, in alcuni casi, le commissioni elevate possono soffocare alcuni modelli di business.
 
 
-- Libertà e senza permessi, 24 ore su 24, 7 giorni su 7:**
+- **Libertà e senza permessi, 24 ore su 24, 7 giorni su 7:**
 
 Non c'è bisogno di chiedere il permesso per usare Bitcoin. Chiunque può partecipare all'economia in pochi minuti utilizzando un'applicazione per smartphone. È possibile inviare o ricevere un pagamento da chiunque - persone fisiche o aziende - in qualsiasi momento, senza vincoli di orario o ritardi.
 
 
-- Sfruttare la rete Bitcoin per i suoi vantaggi:**
+- **Sfruttare il Network di Bitcoin per i suoi vantaggi:**
 
 Non siete obbligati a mantenere i vostri pagamenti in Bitcoin, soprattutto se dovete pagare i fornitori o versare l'IVA. Alcuni servizi possono convertire tutti o parte dei vostri pagamenti in Bitcoin nella valuta di vostra scelta (ad esempio, euro al vostro IBAN) a pagamento. In questo scenario, il vantaggio di accettare Bitcoin potrebbe risiedere nell'attrarre nuovi utenti o nei vantaggi intrinseci di Bitcoin (come le commissioni più basse, il funzionamento 24 ore su 24 e l'assenza di rischi di frode o chargeback).
 
@@ -743,7 +743,7 @@ Non siete obbligati a mantenere i vostri pagamenti in Bitcoin, soprattutto se do
 
 È relativamente facile iniziare ad accettare pagamenti in Bitcoin. Per scegliere la soluzione giusta, considerate le caratteristiche delle transazioni che gestite: l'importo medio dei pagamenti, la frequenza delle transazioni e se accetterete pagamenti in un ambiente fisico, online o entrambi.
 
-Anche la vostra mentalità di commercianti è importante. State eseguendo un semplice test o prevedete che Bitcoin diventi una fonte di guadagno significativa e ricorrente? In quest'ultimo caso, avrete bisogno di una configurazione solida, completa e personalizzabile.
+Anche la vostra mentalità di commercianti è importante. State eseguendo un semplice test o prevedete che Bitcoin diventi una fonte di introiti significativa e ricorrente? In quest'ultimo caso, avrete bisogno di una configurazione solida, completa e personalizzabile.
 
 Non dimenticate di considerare i diversi ruoli dei vostri dipendenti e le loro sedi. In ogni caso, ricordate che dovete essere in grado di fornire tutte le informazioni necessarie al vostro commercialista e di snellire il processo contabile.
 
@@ -751,133 +751,77 @@ Per semplificare il processo decisionale, abbiamo definito quattro profili azien
 
 ### I profili aziendali
 
-#### Profilo 1 - Lo starter
+#### Profilo 1 - Lo _"Starter"_
 
-| Attributo | L'avviamento
+| Caratterisitica                      | Lo _"Starter"_                                                                                                                                                    |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stato d'animo**                    | _"provare il mio primo pagamento fisico"_, _"accettare una mancia per i miei contenuti online"_, _"puntare a entrate molto piccole"_                              |
+| **Frequenza delle transazioni**      | _"prima transazione per imparare"_, _"pagamento una volta ogni tanto"_                                                                                            |
+| **Esempi di tipi di business**       | Economia creativa (creatori di contenuti, blog, articoli, ecc.), consigli occasionali, vendita di prodotti di persona una tantum, associazioni, eventi una tantum |
+| **Tipo di pagamento**                | In genere da pochi centesimi a pochi euro/dollari; sotto i ~300 euro/dollari per articolo                                                                         |
+| **Complessività delle impostazioni** | Nessuno                                                                                                                                                           |
+| **Esempio di soluzione consigliata** | Un portafoglio Lightning custodial come Wallet of Satoshi o un portafoglio non custodiale come Phoenix                                                            |
+| **Interfaccia per il commerciante**  | Portafoglio semplice Bitcoin Lightning: un'applicazione su un telefono cellulare                                                                                  |
+| **Interfaccia per il cliente**       | Codice di pagamento Bitcoin QR, scansionato tramite il portafoglio personale del cliente                                                                          |
+| **Commission di transazione (fee)**  | Il cliente paga le spese di Bitcoin Lightning più le eventuali spese per l'applicazione                                                                           |
+| **Dispositivo per il punto vendita** | Applicazione gratuita per smartphone o opzione per un terminale fisico (ad es. Bitcoinize)                                                                        |
+| **Gestione e ruoli**                 | Gestione di un'unica app; differenziazione minima dei ruoli                                                                                                       |
+| **Esportazioni contabili**           | Elenchi di base della cronologia delle transazioni                                                                                                                |
+| **API**                              | No                                                                                                                                                                |
 
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+#### Profilo 2 - L'Essenziale
 
-**Stato d'animo** | "provare il mio primo pagamento fisico", "accettare una mancia per i miei contenuti online", "puntare a entrate molto piccole" |
+| Caratteristiche                      | L'Essenziale
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stato d'animo**                    | _"Accetto Bitcoin nella mia attività, ma non mi aspetto un volume significativo"_                                                                             |
+| **Frequenza delle transazioni**      | Poche transazioni al mese                                                                                                                                     |
+| **Esempi di tipi di business**       | Bar, ristoranti, vendita semi-regolare di prodotti freschi o di provenienza diretta, negozi multipli con un unico proprietario, economia creativa per artisti |
+| **Tipi di pagamento**                | Generalmente si va da pochi euro/dollari a qualche centinaio per articolo; sotto i ~300€/$ per articolo e sotto i ~3.000€/$ al mese                                 |
+| **Complessità delle impostazioni**   | Minima (applicazione mobile)                                                                                                                                  |
+| **Esempio di soluzione consigliata** | Swiss Bitcoin Pay                                                                                                                                             |
+| **Interfaccia per il commerciante**  | Semplice portafoglio Bitcoin Lightning: un'app sul cellulare; semplice fatturazione con dettagli minimi                                                       |
+| **Interfaccia per il cliente**       | Codice di pagamento Bitcoin QR, scansionato tramite il portafoglio personale del cliente                                                                      |
+| **Commission di transazione (fee)**  | In genere <1% per l'invio a un indirizzo Bitcoin, e <1,5% per la conversione in fiat                                                                          |
+| **Dispositivo per il punto vendita** | Applicazione gratuita per smartphone o opzione per un terminale fisico (ad es. Bitcoinize)                                                                    |
+| **Gestione e ruoli**                 | Possibilità di un ruolo di sola vendita per i dipendenti; dashboard online per l'amministrazione                                                              |
+| **Esportazioni contabili**           | Esportazione CSV con tutti i dettagli delle transazioni                                                                                                       |
+| **API**                              | Sì                                                                                                                                                            |
 
-| **Frequenza delle transazioni** | "prima transazione per imparare", "pagamento una volta ogni tanto"                                                                    |
+#### Profilo 3 - Il Professionista
 
-| Esempi di tipi di business** | Economia creativa (creatori di contenuti, blog, articoli, ecc.), consigli occasionali, vendita di prodotti di persona una tantum, associazioni, eventi una tantum
+| Caratteristiche                      | Il Professionista                                                                                                                                                                             |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stato d'animo**                    | Un metodo di pagamento come un altro per il mio e-commerce - O una gestione congiunta per un gruppo di aziende pronte a volumi più elevati                                                    |
+| **Frequenza delle transazioni**      | Più transazioni al giorno                                                                                                                                                                     |
+| **Esempi di tipi di business**       | Siti di e-commerce con un volume moderato, piccoli marketplace, gruppi di negozi fisici (ad esempio, Click & Collect), attività di PMI                                                        |
+| **Tipi di pagamento**                | Generalmente si va da pochi euro/dollari a qualche centinaio; non c'è un limite fisso di pagamenti; meno di 250.000 all'anno                                                                  |
+| **Complessità delle impostazioni**   | Da leggero a completo (hosting locale o cloud), spesso richiede un negozio di e-commerce                                                                                                      |
+| **Esempio di soluzione consigliata** | BTC Pay Server per l'e-commerce e/o gli ambienti fisici; ZapRite, Musqet o PayWithFlash per il checkout, Be-BOP per un e-store integrato                                                      |
+| **Interfaccia per il commerciante**  | Sito web (mobile e desktop) con modifica delle fatture, opzioni per il carrello della spesa e creazione di pulsanti di pagamento; fatturazione automatizzata con integrazione dell'e-commerce |
+| **Interfaccia per il cliente**       | Codice di pagamento Bitcoin QR, scansionato tramite il portafoglio personale del cliente                                                                                                      |
+| **Commission di transazione (fee)**  | Mix di backend open-source gratuito e di hosting/servizi Lightning a pagamento; le spese di front-end includono le spese di Bitcoin Lightning e le spese di conversione <1,5%                 |
+| **Dispositivo per il punto vendita** | Negozio sul sito web, display fisico opzionale (ad es. iPad che mostra il sito o terminale Bitcoin)                                                                                           |
+| **Gestione e ruoli**                 | Negozio completo con ruoli di amministrazione multipli; dipendenti e clienti interagiscono con il sistema                                                                                     |
+| **Esportazioni contabili**           | Esportazione CSV con tutti i dettagli delle transazioni                                                                                                                                       |
+| **API**                              | Sì                                                                                                                                                                                            |
 
-| **Tipo di pagamento** | In genere da pochi centesimi a pochi euro/dollari; sotto i ~300 euro/dollari per articolo |
+#### Profilo 4 - L'Impresa
 
-| **Complessività delle impostazioni** | Nessuno |
-
-| Un portafoglio Lightning custodiale come Wallet of Satoshi o un portafoglio non custodiale come Phoenix
-
-| **Interfaccia commerciante** | Portafoglio semplice Bitcoin Lightning: un'applicazione su un telefono cellulare |
-
-| **Interfaccia cliente** | Codice di pagamento Bitcoin QR, scansionato tramite il portafoglio personale del cliente |
-
-| **Tasse** | Il cliente paga le spese di Bitcoin Lightning più le eventuali spese per l'applicazione
-
-| Dispositivo per il punto vendita** | Applicazione gratuita per smartphone o opzione per un terminale fisico (ad es. Bitcoinize)
-
-| Gestione e ruoli** | Gestione di un'unica app; differenziazione minima dei ruoli
-
-| **Esportazioni contabili** | Elenchi di base della cronologia delle transazioni |
-
-**API** | No |
-
-#### Profilo 2 - L'essenziale
-
-| Attributo | L'essenziale
-
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
-**State of Mind** | "Accetto Bitcoin nella mia attività, ma non mi aspetto un volume significativo" |
-
-| Frequenza di transazione** | Poche transazioni al mese
-
-| Bar, ristoranti, vendita semi-regolare di prodotti freschi o di provenienza diretta, negozi multipli con un unico proprietario, economia creativa per artisti
-
-| Generalmente si va da pochi euro/dollari a qualche centinaio per articolo; sotto i ~300 per articolo e sotto i ~3.000 al mese
-
-**Complessità delle impostazioni** | Minima (applicazione mobile) |
-
-**Soluzione consigliata di esempio** | Swiss Bitcoin Pay |
-
-| **Interfaccia per il commerciante** | Semplice portafoglio Bitcoin Lightning: un'app sul cellulare; semplice fatturazione con dettagli minimi
-
-| **Interfaccia cliente** | Codice di pagamento Bitcoin QR, scansionato tramite il portafoglio personale del cliente |
-
-| In genere <1% per l'invio a un indirizzo Bitcoin, e <1,5% per la conversione in fiat
-
-| Dispositivo per il punto vendita** | Applicazione gratuita per smartphone o opzione per un terminale fisico (ad es. Bitcoinize)
-
-| **Gestione e ruoli** | Possibilità di un ruolo di sola vendita per i dipendenti; dashboard online per l'amministrazione |
-
-| Esportazione CSV con tutti i dettagli delle transazioni
-
-**API** | Sì |
-
-#### Profilo 3 - Il professionista
-
-| Attributo | Il Professionista |
-
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| Un metodo di pagamento come un altro per il mio e-commerce - O una gestione congiunta per un gruppo di aziende pronte a volumi più elevati
-
-| Frequenza delle transazioni** | Più transazioni al giorno
-
-| Esempi di tipi di aziende** | Siti di e-commerce con un volume moderato, piccoli marketplace, gruppi di negozi fisici (ad esempio, Click & Collect), attività di PMI
-
-| Generalmente si va da pochi euro/dollari a qualche centinaio; non c'è un limite fisso di pagamenti; meno di 250.000 all'anno
-
-| **Complessità delle impostazioni** | Da leggero a completo (hosting locale o cloud), spesso richiede un negozio di e-commerce
-
-**Esempio di soluzione consigliata** | BTC Pay Server per l'e-commerce e/o gli ambienti fisici; ZapRite, Musqet o PayWithFlash per il checkout, Be-BOP per un e-store integrato
-
-| Interfaccia per il commerciante** | Sito web (mobile e desktop) con modifica delle fatture, opzioni per il carrello della spesa e creazione di pulsanti di pagamento; fatturazione automatizzata con integrazione dell'e-commerce
-
-| **Interfaccia cliente** | Codice di pagamento Bitcoin QR, scansionato tramite il portafoglio personale del cliente |
-
-**Tasse** | Mix di backend open-source gratuito e di hosting/servizi Lightning a pagamento; le spese di front-end includono le spese di Bitcoin Lightning e le spese di conversione <1,5% |
-
-| Dispositivo per il punto vendita** | Negozio sul sito web, display fisico opzionale (ad es. iPad che mostra il sito o terminale Bitcoin)
-
-| **Gestione e ruoli** | Negozio completo con ruoli di amministrazione multipli; dipendenti e clienti interagiscono con il sistema |
-
-| Esportazione CSV con tutti i dettagli delle transazioni
-
-**API** | Sì |
-
-#### Profilo 4 - L'impresa
-
-| Attributo | L'impresa |
-
-| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-
-| Un metodo di pagamento strategico per l'azienda - Con un po' di sviluppo per integrarlo nella piattaforma di servizi secondo le specifiche
-
-| Frequenza delle transazioni** | Illimitata, transazioni ad alta frequenza
-
-**Esempi di tipi di aziende** | Medie imprese, società di servizi IT, grandi aziende, grandi marketplace |
-
-**Tipo di pagamento** | Qualsiasi dimensione o volume |
-
-| **Complesso delle impostazioni** | Da medio ad alto, a seconda della scelta dell'architettura |
-
-| Architettura personalizzata o orchestrazione di soluzioni ospitate in SaaS, potenzialmente utilizzando servizi LSP (*Lightning Service Provider*) di terze parti
-
-| Interfacce front-end e back-end completamente personalizzate e completamente integrate nei flussi di lavoro e nei processi aziendali
-
-**Interfaccia cliente** | Che va da un codice di pagamento Bitcoin QR a un'interfaccia utente completamente personalizzata e/o all'integrazione di API
-
-| Il cliente paga le commissioni di Bitcoin Lightning più eventuali commissioni di transazione da parte dei fornitori di servizi
-
-| Dispositivo per il punto vendita** | Soluzioni progettate su misura per l'ambiente aziendale
-
-**Gestione e ruoli** | Ruoli completamente personalizzati per le vendite, l'amministrazione, il devops, la contabilità e la finanza
-
-**Esportazioni contabili** | Esportazioni contabili completamente personalizzate
-
-**API** | Sì |
+| Caratteristiche                      | L'Impresa |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stato d'animo**                    | Un metodo di pagamento strategico per l'azienda - Con un po' di sviluppo per integrarlo nella piattaforma di servizi secondo le specifiche                       |
+| **Frequenza delle transazioni**      | Illimitata, transazioni ad alta frequenza                                                                                                                        |
+| **Esempi di tipi di business**       | Medie imprese, società di servizi IT, grandi aziende, grandi marketplace                                                                                         |
+| **Tipi di pagamento**                | Qualsiasi dimensione o volume                                                                                                                                    |
+| **Complessità delle impostazioni**   | Da medio ad alto, a seconda della scelta dell'architettura                                                                                                       |
+| **Esempio di soluzione consigliata** | Architettura personalizzata o orchestrazione di soluzioni ospitate in SaaS, potenzialmente utilizzando servizi LSP (*Lightning Service Provider*) di terze parti |
+| **Interfaccia per il commerciante**  | Interfacce front-end e back-end completamente personalizzate e completamente integrate nei flussi di lavoro e nei processi aziendali                             |
+| **Interfaccia per il cliente**       | Che va da un codice di pagamento Bitcoin QR a un'interfaccia utente completamente personalizzata e/o all'integrazione di API                                     |
+| **Commission di transazione (fee)**  | Il cliente paga le commissioni di Bitcoin Lightning più eventuali commissioni di transazione da parte dei fornitori di servizi                                   |
+| **Dispositivo per il punto vendita** | Soluzioni progettate su misura per l'ambiente aziendale                                                                                                          |
+| **Gestione e ruoli**                 | Ruoli completamente personalizzati per le vendite, l'amministrazione, lo sviluppo, la contabilità e la finanza                                                   |
+| **Esportazioni contabili**           | Esportazioni contabili completamente personalizzate                                                                                                              |
+| **API**                              | Sì                                                                                                                                                               |
 
 Nei capitoli successivi, illustreremo nel dettaglio ogni profilo aziendale e le soluzioni adatte a ciascuno di essi.
 

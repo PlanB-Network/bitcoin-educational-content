@@ -926,7 +926,7 @@ Per quanto riguarda la tecnologia e gli strumenti, soluzioni come **BTC Pay Serv
 
 Inoltre, strumenti come [Zaprite](https://zaprite.com/) o [Musqet](https://musqet.tech/) possono perfezionare ulteriormente l'esperienza di checkout, consentendo una personalizzazione più granulare (dalle scelte di branding alle sofisticate funzionalità di reporting). Chi preferisce un ambiente di vendita al dettaglio online all-in-one può orientarsi verso [Be-BOP](https://be-bop.io/), una soluzione di e-store costruita per facilitare i pagamenti in Bitcoin senza sacrificare la facilità d'uso.
 
-![BIZ101-profiles](assets/en/28.webp)
+![BIZ101-profiles](assets/en/28.webp) <!-- chiedere se inserire anche le icone di be-bop e musqet come riferito nel testo -->
 
 Implementare queste tecnologie in un contesto professionale significa prestare molta attenzione alla **complessità operativa**. I flussi di lavoro automatizzati per la fatturazione, la visualizzazione di più valute e la sincronizzazione con i sistemi di inventario esistenti sono tutti segni distintivi di una piattaforma ben integrata. La capacità di esportare con precisione i dati delle transazioni (sia come file CSV, sia come chiamate API dirette o formati personalizzati) aiuta le aziende a riconciliare le vendite di bitcoin con altri flussi di entrate in modo efficiente.
 

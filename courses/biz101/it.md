@@ -9,7 +9,7 @@ objectives:
   - Essere preparati a gestire i requisiti fiscali e contabili
 
 ---
-# Inizia il viaggio della tua azienda attraverso il network di Bitcoin
+# Inizia il viaggio con la tua azienda attraverso il network di Bitcoin
 
 Scoprirete le funzionalità pratiche di Bitcoin e di Lightning Network ed esplorerete il modo in cui, proprio come Internet, possono **trasformare le vostre operazioni commerciali**. Dal capitale digitale ai pagamenti veloci, economici e scalabili, Bitcoin offre un vasto spettro di **casi d'uso per le aziende**.
 

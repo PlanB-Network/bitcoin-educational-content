@@ -446,143 +446,128 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ### Le sfide della tesoreria aziendale
 
-La tesoreria è il luogo in cui si mettono le cose preziose. Un'azienda sana è adeguatamente capitalizzata per poter affrontare l'incertezza futura e pianificare gli investimenti. Al giorno d'oggi, parte della tesoreria in eccesso viene investita in attività finanziarie considerate altamente "liquide", come obbligazioni, depositi a termine e così via.
+La tesoreria è il luogo in cui si mettono le cose preziose. Un'azienda sana è adeguatamente capitalizzata per poter affrontare l'incertezza futura e pianificare gli investimenti. Al giorno d'oggi, parte della tesoreria in eccesso viene investita in attività finanziarie considerate altamente _"liquide"_, come obbligazioni, depositi a termine e così via.
 
 Per un orizzonte temporale molto lungo, alcune società utilizzano asset illiquidi come gli immobili senza rendersi conto di alcuni pericoli:
 
 
-- Illiquidità in caso di crisi
-- In definitiva, rendimenti piuttosto bassi una volta detratte le commissioni
-- Un rendimento che non superi l'inflazione reale, quella dell'offerta di moneta (~7% all'anno, vedi sotto)
-- Il rischio nascosto è che gli immobili perdano parte della loro funzione di "risparmio" a vantaggio di asset come il Bitcoin. Di conseguenza, potrebbe tornare più vicino al suo "valore d'uso": fornire un riparo.
+- illiquidità in caso di crisi;
+- in definitiva, rendimenti piuttosto bassi una volta detratte le commissioni;
+- un rendimento che non superi l'inflazione reale, quella dell'offerta di moneta (~7% all'anno, vedi sotto);
+- il rischio nascosto è che gli immobili perdano parte della loro funzione di "risparmio" a vantaggio di asset come Bitcoin. Di conseguenza, potrebbe tornare più vicino al suo _"valore d'uso"_: fornire un riparo.
 
 Passiamo rapidamente in rassegna l'ambiente in cui operano le imprese.
 
-**Inflazione reale**: Con grande disappunto del loro mandato, le banche centrali mirano a un'inflazione annua del 2%, il che significa una perdita di valore della valuta del 40% in 20 anni. Se si aggiungono i periodi di inflazione più pronunciata, diventa chiaro che le aziende non possono utilizzare la sola valuta per conservare i frutti del loro lavoro. Devono attuare strategie finanziarie complesse, necessariamente accompagnate da una serie di rischi. Queste strategie sono ovviamente **inaccessibili alle imprese molto piccole**, già fortemente impegnate nelle loro attività principali.
+**Inflazione reale**: Con grande noncuranza del loro mandato, le banche centrali mirano a un'inflazione annua del 2%, il che significa una perdita di valore della valuta del 40% in 20 anni. Se si aggiungono i periodi di inflazione più pronunciata, diventa chiaro che le aziende non possono utilizzare la sola valuta per conservare i frutti del loro lavoro. Devono attuare strategie finanziarie complesse, necessariamente accompagnate da una serie di rischi. Queste strategie sono ovviamente **inaccessibili alle imprese molto piccole**, già fortemente impegnate nelle loro attività principali.
 
-**Inflazione nascosta**: In un sistema monetario basato sul debito e sulla riserva frazionaria, sostenuto dalle banche centrali, l'offerta di moneta cresce in media di circa il 7% all'anno** (ad esempio, M1 nell'Eurozona o negli Stati Uniti). Ciò significa che la vostra "fetta di torta" si dimezza in pochi anni, a meno che non abbiate un accesso privilegiato al rubinetto finanziario e possiate continuare a crescere facendo leva e acquistando rapidamente beni a "vecchi prezzi" prima che il denaro appena creato li faccia salire. Questo è l'effetto Cantillon, che spiega in parte il trasferimento di ricchezza ai più abbienti, mentre il "capitale" viene erroneamente additato come il colpevole (si veda la nostra introduzione sul capitale).
+**Inflazione nascosta**: In un sistema monetario basato sul debito e sulla riserva frazionaria, sostenuto dalle banche centrali, **l'offerta di moneta cresce in media di circa il 7% all'anno** (ad esempio, M1 nell'Eurozona o negli Stati Uniti). Ciò significa che la vostra _"fetta di torta"_ si dimezza in pochi anni, a meno che non abbiate un accesso privilegiato al rubinetto finanziario e possiate continuare a crescere facendo leva e acquistando rapidamente beni a _"vecchi prezzi"_ prima che il denaro appena creato li faccia salire. Questo è l'effetto Cantillon, che spiega in parte il trasferimento di ricchezza ai più abbienti, mentre il _"capitale"_ viene erroneamente additato come il colpevole (si veda la nostra introduzione sul capitale).
 
-**Rischi di controparte**: L'attuale sistema finanziario è rischioso e potreste non avere sempre accesso ai "vostri soldi" Senza evocare l'immagine di un castello di carte, bisogna riconoscere che le istituzioni finanziarie privatizzano i profitti e socializzano le perdite alla minima crisi. In un sistema di denaro "scritturale" (denaro registrato in un libro mastro), il denaro in banca è solo un "credito"; non lo si possiede veramente, e le banche stesse "non lo possiedono" (riserve frazionarie). Questo denaro è, in un certo senso, davvero magico. Alcune prestigiose banche che un tempo deridevano i Bitcoin oggi non esistono più, come il Credit Suisse.
+**Rischi di controparte**: L'attuale sistema finanziario è rischioso e potreste non avere sempre accesso ai _"vostri soldi"_. Senza evocare l'immagine di un castello di carte, bisogna riconoscere che le istituzioni finanziarie privatizzano i profitti e socializzano le perdite alla minima crisi. In un sistema di denaro _"scritturale"_ (denaro registrato in un libro mastro), il denaro in banca è solo un _"credito"_; non lo si possiede veramente, e le banche stesse _"non lo detengono realmente"_ (riserve frazionarie). Questo denaro è, in un certo senso, davvero magico. Alcune prestigiose banche che un tempo deridevano Bitcoin oggi non esistono più, come il Credit Suisse.
 
-Questa mancanza di fiducia dà il via a una rinascita di beni "al portatore" come l'oro (anche se è complicato da proteggere, trasportare, dividere, ecc.) e, naturalmente, il nuovo arrivato Bitcoin.
+Questa mancanza di fiducia dà il via a una rinascita di beni _"al portatore"_ come l'oro (anche se è complicato da proteggere, trasportare, dividere, ecc.) e, naturalmente, il nuovo arrivato Bitcoin.
 
 ### Il Bitcoin come attività finanziaria
 
-Il Bitcoin offre un'alternativa radicale. È **un bene al portatore, senza emittente centrale**, è quasi impossibile da sequestrare e beneficia degli effetti di rete. i "veri" utenti di Bitcoin scelgono di usarlo per immagazzinare i frutti del loro lavoro, poiché è visto come una riserva di valore resistente sia alla censura che all'inflazione. Grazie all'effetto rete, illustrato dalla legge di Metcalfe, ogni nuovo utente convinto aumenta il valore della rete; al crescere del numero di partecipanti, l'utilità di Bitcoin aumenta esponenzialmente. Questo modello lo rende una forma di capitale distintiva e promettente, costruita sull'adozione e sulla fiducia degli utenti.
+Bitcoin offre un'alternativa radicale. È **un bene al portatore, senza emittente centrale**, è quasi impossibile da sequestrare e beneficia degli effetti di rete. I _"veri"_ utenti di Bitcoin scelgono di usarlo per immagazzinare i frutti del loro lavoro, poiché è visto come una riserva di valore resistente sia alla censura che all'inflazione. Grazie all'effetto network, illustrato dalla legge di Metcalfe, ogni nuovo utente consapevole aumenta il valore della rete; al crescere del numero di partecipanti, l'utilità di Bitcoin aumenta esponenzialmente. Questo modello lo rende una forma di capitale distintiva e promettente, costruita sull'adozione e sulla fiducia degli utenti.
 
-Il Bitcoin è l'asset **più liquido al mondo** e funziona 24 ore su 24, 7 giorni su 7, senza interruzioni, a differenza dei mercati finanziari tradizionali che hanno orari di chiusura e "interruzioni di circuito" Questa liquidità consente agli utenti di acquistare o vendere bitcoin in qualsiasi momento, sia in risposta a notizie positive che negative (ad esempio, lancio di missili, guerre, ecc.).
+Bitcoin è l'asset **più liquido al mondo** e funziona 24 ore su 24, 7 giorni su 7, senza interruzioni, a differenza dei mercati finanziari tradizionali che hanno orari di chiusura e _"interruzioni di circuito"_ Questa liquidità consente agli utenti di acquistare o vendere bitcoin in qualsiasi momento, sia in risposta a notizie positive che negative (ad esempio, lancio di missili, guerre, ecc.).
 
-In un decennio, il Bitcoin ha registrato una crescita media annua superiore al 60%. Questa performance unica ha permesso ai detentori a lungo termine di preservare il capitale iniziale, a differenza di altri strumenti.
+In un decennio, Bitcoin ha registrato una crescita media annua superiore al 60%. Questa performance unica ha permesso ai detentori a lungo termine di preservare il capitale iniziale, a differenza di altri strumenti.
 
 Tuttavia, ci sono diversi fattori chiave da tenere in considerazione:
 
-In primo luogo, **le prestazioni passate non garantiscono i risultati futuri**. Finché il Bitcoin rimarrà **sicuro e decentralizzato**, si può ragionevolmente sperare in un apprezzamento annuale del prezzo ben superiore al 20% all'anno per il prossimo decennio, rendendolo un valido strumento di tesoreria.
+In primo luogo, **le prestazioni passate non garantiscono i risultati futuri**. Finché Bitcoin rimarrà **sicuro e decentralizzato**, si può ragionevolmente sperare in un apprezzamento annuale del prezzo ben superiore al 20% all'anno per il prossimo decennio, rendendolo un valido strumento di tesoreria.
 
-In secondo luogo, il Bitcoin ha finora sperimentato **cicli di 4 anni**, il che significa che con un orizzonte temporale di oltre 4 anni, la scommessa è sempre stata redditizia. Per chi vede il Bitcoin come un investimento, un orizzonte temporale a breve termine (<4 anni) può essere rischioso.
+In secondo luogo, Bitcoin ha finora sperimentato **cicli di 4 anni**, il che significa che con un orizzonte temporale di oltre 4 anni, la scommessa è sempre stata redditizia. Per chi vede Bitcoin come un investimento, un orizzonte temporale a breve termine (<4 anni) può essere rischioso.
 
 ![BIZ101](assets/en/07.webp)
 
-*MICHAEL SAYLOR: "Il miglior segnale di prezzo del Bitcoin è la media mobile semplice a 4 anni. "* Vedi grafico sopra.
+*MICHAEL SAYLOR (MicroStrategy Inc.): "Il miglior segnale di prezzo del Bitcoin è la media mobile semplice a 4 anni."*  Vedi grafico sopra.
 
-Inoltre, è consigliabile mantenere la propria esposizione al Bitcoin **proporzionale** al proprio livello di comprensione. È anche importante non avere fretta o cercare di cronometrare perfettamente il mercato.
+Inoltre, è consigliabile mantenere la propria esposizione in Bitcoin **proporzionale** al proprio livello di comprensione. È anche importante non avere fretta o cercare di analizzare perfettamente il mercato.
 
-Infine, il Bitcoin è considerato **volatile**. Per essere precisi, lo è il suo prezzo espresso in unità di moneta fiat. Parte di questa volatilità è naturale per un asset ancora giovane, ma è anche amplificata dalla presenza di speculatori che non lo usano come riserva di valore a lungo termine, ma cercano guadagni rapidi. Inoltre, il trading con leva finanziaria (l'utilizzo di fondi presi in prestito per aumentare le posizioni di trading) accentua i movimenti di prezzo sia al rialzo che al ribasso, impedendo al Bitcoin di seguire un percorso lineare al rialzo. Questo porta a fluttuazioni più pronunciate, ma nel tempo, con la crescita della base di utenti impegnati, questa volatilità sembra stabilizzarsi. In sintesi, è **impossibile avere un asset ad alta performance come il Bitcoin senza volatilità**, ma è certamente possibile avere asset molto meno performanti con meno volatilità.
+Infine, Bitcoin è considerato **volatile**. Per essere precisi, lo è il suo prezzo espresso in unità di moneta fiat. Parte di questa volatilità è naturale per un asset ancora giovane, ma è anche amplificata dalla presenza di speculatori che non lo usano come riserva di valore a lungo termine, ma cercano guadagni rapidi. Inoltre, il trading con leva finanziaria (l'utilizzo di fondi presi in prestito per aumentare le posizioni di trading) accentua i movimenti di prezzo sia al rialzo che al ribasso, impedendo a Bitcoin di seguire un percorso lineare al rialzo. Questo porta a fluttuazioni più pronunciate, ma nel tempo, con la crescita della base di utenti impegnati, questa volatilità sembra stabilizzarsi. In sintesi, è **impossibile avere un asset ad alta performance come Bitcoin senza volatilità**, ma è certamente possibile avere asset molto meno performanti con meno volatilità.
 
 ### Bitcoin adottato da Wall Street
 
 L'adozione del Bitcoin da parte delle istituzioni finanziarie rafforza ulteriormente la sua posizione nel mercato globale.
 
-Le recenti dichiarazioni di **BlackRock** evidenziano il potenziale del Bitcoin come riserva di valore e strumento di diversificazione del portafoglio. Il gigante istituzionale globale ha recentemente suggerito che la crescita degli utenti di **Bitcoin sta superando quella di internet** o dei telefoni cellulari, spinta in particolare da **cambiamenti demografici e generazionali**, oltre che dalla crescente sfiducia nelle istituzioni finanziarie tradizionali (!). A causa della sua natura scarsa, non sovrana e decentralizzata, alcuni investitori considerano il Bitcoin un'opzione di rifugio sicuro **in tempi di instabilità fiscale e monetaria**, di paura o di eventi geopolitici dirompenti.
+Le recenti dichiarazioni di **BlackRock** evidenziano il potenziale di Bitcoin come riserva di valore e strumento di diversificazione del portafoglio. Il gigante istituzionale globale ha recentemente suggerito che la crescita degli utenti di **Bitcoin sta superando quella di internet** o dei telefoni cellulari, spinta in particolare da **cambiamenti demografici e generazionali**, oltre che dalla crescente sfiducia nelle istituzioni finanziarie tradizionali (!). A causa della sua natura scarsa, non sovrana e decentralizzata, alcuni investitori considerano Bitcoin un'opzione di rifugio sicuro **in tempi di instabilità fiscale e monetaria**, di paura o di eventi geopolitici dirompenti.
 
-I **Spot Bitcoin ETF**, lanciati nel gennaio 2024, hanno riscosso un successo fenomenale - il lancio di ETF di maggior successo della storia - con quasi 20 miliardi di dollari di afflussi netti da gennaio a novembre. Si tratta di un risultato quattro volte superiore al lancio dell'ETF successivo migliore, il Nasdaq-100 QQQ. Questi ETF forniscono un accesso più facile e regolamentato al Bitcoin, il che ha **legittimato** ulteriormente il Bitcoin e ha attirato un notevole afflusso di capitale istituzionale.
+Gli **ETF Spot su Bitcoin**, lanciati nel gennaio 2024, hanno riscosso un successo fenomenale - il lancio di ETF di maggior successo della storia - con quasi 20 miliardi di dollari di afflussi netti da gennaio a novembre. Si tratta di un risultato quattro volte superiore al lancio dell'ETF successivo migliore, il Nasdaq-100 QQQ. Questi ETF forniscono un accesso più facile e regolamentato a Bitcoin, il che ha **legittimato** ulteriormente Bitcoin e ha attirato un notevole afflusso di capitale istituzionale.
 
-Gli ETF Bitcoin sono in testa con un ampio margine in termini di **adozione istituzionale**, superando i primi dieci ETF a più rapida crescita, sia in termini di numero di istituzioni coinvolte che di dimensioni del patrimonio in gestione (AUM). Il successo di questi ETF Bitcoin sottolinea la crescente domanda di veicoli di investimento legati agli asset digitali, consolidando così il posto del Bitcoin nel panorama finanziario tradizionale.
+Gli ETF Bitcoin primeggiano con un ampio margine in termini di **adozione istituzionale**, superando i primi dieci ETF a più rapida crescita, sia in termini di numero di istituzioni coinvolte che di dimensioni del patrimonio in gestione (AUM). Il successo di questi ETF Bitcoin sottolinea la crescente domanda di veicoli di investimento legati agli asset digitali, consolidando così il posto di Bitcoin nel panorama finanziario tradizionale.
 
-Il Bitcoin ora gioca nel **mercato** degli "store of value". Rappresenta solo una goccia nel mare in termini di scala: appena 1.800 miliardi di dollari rispetto ai 18.000 miliardi di dollari dell'oro o ai 500.000 miliardi di dollari del settore immobiliare. Tuttavia, la sua quota di mercato dello 0,1% circa le offre un enorme spazio di crescita, soprattutto se si considera che i suoi concorrenti faticano ad attirare nuovi utenti.
+Bitcoin ora compete nel **mercato** degli _"store of value"_. Rappresenta solo una goccia nel mare in termini di scala: appena 1.800 miliardi di dollari rispetto ai 18.000 miliardi di dollari dell'oro o ai 500.000 miliardi di dollari del settore immobiliare. Tuttavia, la sua quota di mercato dello 0,1% circa le offre un enorme spazio di crescita, soprattutto se si considera che i suoi concorrenti faticano ad attirare nuovi utenti.
 
-| Ticker | 1D Flusso (M USD) | 1W Flusso (M USD) | 1M Flusso (M USD) | 3M Flusso (M USD) | YTD Flusso (M USD) |
+| Ticker     | 1D Flusso (M USD) | 1W Flusso (M USD) | 1M Flusso (M USD) | 3M Flusso (M USD) | YTD Flusso (M USD) |
+| ---------- | ----------------- | ----------------- | ----------------- | ----------------- | ------------------ |
+| **Totale** | +457,19           | +1.507,95         | +2.888,01         | +3.672,29         | **+20.262,94**     |
+| IBIT       | +393,40           | +750,91           | +1.536,47         | +3.821,37         | +22.460,44         |
+| FBTC       | +14,81            | +372,40           | +627,16           | +458,71           | +10.266,69         |
+| ARKB       | +11,51            | +163,26           | +295,92           | -3,88             | +2.647,32          |
+| BITB       | +12,93            | +146,50           | +263,30           | +97,46            | +2.262,69          |
+| HODL       | +5,75             | +38,77            | +94,54            | +100,39           | +682,03            |
+| BRRR       | +1,92             | +4,72             | +17,76            | +20,54            | +540,19            |
+| EZBC       | +11,79            | +17,53            | +39,29            | +47,48            | +439,45            |
+| BTC        | 0.00              | -3.13             | +36.59            | +419.18           | +419.18            |
+| BTCO       | +6,43             | +19,25            | +47,30            | +56,41            | +394,82            |
+| BTCW       | 0.00              | +2,84             | +6,04             | +146,69           | +217,47            |
+| YBIT       | -1,34             | -10,26            | +5,06             | +13,81            | +76,30             |
+| DEFI       | 0.00              | 0.00              | 0.00              | -2.03             | -1.79              |
+| GBTC       | 0.00              | +5,16             | -81,42            | -1503,84          | -20.141,85         |
 
-| ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
-
-| **Somma** | +457,19 | +1.507,95 | +2.888,01 | +3.672,29 | **+20.262,94** |
-
-| IBIT | +393,40 | +750,91 | +1.536,47 | +3.821,37 | +22.460,44 |
-
-| FBTC | +14,81 | +372,40 | +627,16 | +458,71 | +10.266,69 |
-
-| ARKB | +11,51 | +163,26 | +295,92 | -3,88 | +2.647,32 |
-
-| BITB | +12,93 | +146,50 | +263,30 | +97,46 | +2.262,69 |
-
-| HODL | +5,75 | +38,77 | +94,54 | +100,39 | +682,03 |
-
-| BRRR | +1,92 | +4,72 | +17,76 | +20,54 | +540,19 |
-
-| EZBC | +11,79 | +17,53 | +39,29 | +47,48 | +439,45 |
-
-| BTC | .00 | -3.13 | +36.59 | +419.18 | +419.18 |
-
-| BTCO | +6,43 | +19,25 | +47,30 | +56,41 | +394,82 |
-
-| BTCW | .00 | +2,84 | +6,04 | +146,69 | +217,47 |
-
-| YBIT | -1,34 | -10,26 | +5,06 | +13,81 | +76,30 |
-
-dEFI | .00 | .00 | .00 | .00 | -2.03 | -1.79 |
-
-| GBTC | .00 | +5,16 | -81,42 | -1503,84 | -20.141,85 |
-
-*20 miliardi di dollari in 10 mesi: Gli ETF sul Bitcoin hanno raggiunto in meno di un anno quello che gli ETF sull'oro hanno impiegato 5 anni. Fonte: Flussi di investimento dei fondi in USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
+*20 miliardi di dollari in 10 mesi: Gli ETF su Bitcoin hanno raggiunto in meno di un anno quello che gli ETF sull'oro sono riusciti a fare in 5 anni. Fonte: Flussi di investimento dei fondi in USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
 
 ### Bitcoin nel kit di strumenti aziendali
 
-La crescente adozione del Bitcoin negli Stati Uniti sta influenzando la mentalità anche in altre parti del mondo, in particolare tra i professionisti della gestione patrimoniale che non possono più permettersi di non includerlo nella loro gamma di strumenti, soprattutto quando i prodotti finanziari tradizionali stanno sottoperformando o affrontando periodi difficili. Solo le banche tradizionali sembrano ancora potersi permettere di ignorarlo.
+La crescente adozione di Bitcoin negli Stati Uniti sta influenzando la percezione anche in altre parti del mondo, in particolare tra i professionisti della gestione patrimoniale che non possono più permettersi di non includerlo nella loro gamma di strumenti, soprattutto quando i prodotti finanziari tradizionali stanno sottoperformando o affrontando periodi difficili. Solo le banche tradizionali sembrano ancora potersi permettere di ignorarlo.
 
-Da un punto di vista puramente finanziario, il Bitcoin è riconosciuto come un asset di diversificazione. Non solo non è correlato con altre classi di attività, ma sembra anche prosperare durante i periodi di nuove iniezioni di liquidità - un altro episodio di questo tipo sembra essere iniziato con la riduzione dei tassi di interesse da parte della BCE, della Fed e della Cina.
+Da un punto di vista puramente finanziario, Bitcoin è riconosciuto come un asset di diversificazione. Non solo non è correlato con altre classi di attività, _ma sembra anche prosperare durante i periodi di nuove iniezioni di liquidità_. Un altro episodio di questo tipo sembra essere iniziato con la riduzione dei tassi di interesse da parte della BCE, della Fed e della Cina.
 
-In sintesi, per il caso d'uso più comune - l'investimento in eccesso di tesoreria per almeno una finestra di quattro anni - il Bitcoin si adatta perfettamente. Vale la pena di combinarlo con una strategia di ingresso graduale: investire importi fissi a intervalli regolari per rendere più agevole il punto di ingresso o di uscita.
+In sintesi, per il caso d'uso più comune _l'investimento in eccesso di tesoreria per almeno una finestra di quattro anni_, a questo Bitcoin si adatta perfettamente. Vale la pena di combinarlo con una strategia di ingresso graduale: investire importi fissi a intervalli regolari per rendere più agevole il punto di ingresso o di uscita.
 
-Altri casi d'uso rendono il Bitcoin un asset strategico per la tesoreria, ad esempio:
+Altri casi d'uso rendono Bitcoin un asset strategico per la tesoreria, ad esempio:
 
 
-- Essere in grado di inviare **collaterale** o liquidità 24 ore su 24, 7 giorni su 7
-- Potersi trasferire alla tesoreria di un'altra società **in modo rapido e in qualsiasi momento**
-- Copertura del **rischio di cambio di valuta estera**
-- Pagare un **fornitore** che lo accetta, soprattutto in situazioni di emergenza
+- Essere in grado di inviare **collaterale** o liquidità 24 ore su 24, 7 giorni su 7.
+- Poter trasferire la tesoreria a un'altra società **in modo rapido e in qualsiasi momento**.
+- Copertura del **rischio di cambio di valuta estera**.
+- Pagare un **fornitore** che lo accetta, soprattutto in situazioni di emergenza.
 
 ### Il Bitcoin è troppo costoso?
 
-Non è necessario acquistare esattamente 1 Bitcoin, perché il Bitcoin è divisibile in sottounità chiamate satoshis, in onore del suo anonimo creatore. Un bitcoin equivale a **100 milioni di satoshis**, consentendo agli utenti di acquistare, vendere o scambiare anche **frazioni molto piccole di un bitcoin**. In effetti, nel codice sorgente di Bitcoin, tutte le transazioni sono contabilizzate in satoshi e il termine "bitcoin" compare solo nella "coinbase", la transazione speciale che i minatori creano per ricevere la loro ricompensa.
+Non è necessario acquistare esattamente 1 bitcoin, perché bitcoin è divisibile in sottounità chiamate satoshi, in onore del suo anonimo creatore. Un bitcoin equivale a **100 milioni di satoshi**, consentendo agli utenti di acquistare, vendere o scambiare anche **frazioni molto piccole di un bitcoin**. In effetti, nel codice sorgente di Bitcoin, tutte le transazioni sono contabilizzate in satoshi e il termine "bitcoin" compare solo nella "coinbase", la transazione speciale che i miner creano per ricevere la loro ricompensa.
 
-Inoltre, il totale di 21 milioni di bitcoin - ovvero **2,1 quadrilioni di satoshi** - può essere rappresentato in modo efficiente da un numero intero a 64 bit. Ciò significa che, nonostante il prezzo elevato per bitcoin intero, questo rimane accessibile a un'ampia gamma di investitori grazie alla sua divisibilità. Non è quindi necessario acquistare un bitcoin intero per partecipare alla rete o investire in questo asset digitale.
+Inoltre, il totale di 21 milioni di bitcoin - ovvero **2,1 quadrilioni di satoshi** - può essere rappresentato in modo efficiente da un numero intero a 64 bit. Ciò significa che, nonostante il prezzo elevato per bitcoin intero, questo rimane accessibile a un'ampia gamma di investitori grazie alla sua divisibilità. Non è quindi necessario acquistare un bitcoin intero per partecipare al network o investire in questo asset digitale.
 
 ![BIZ101](assets/en/08.webp)
 
-Ricordiamo che la sua capitalizzazione di mercato totale relativamente bassa, rispetto ad altri asset come azioni, oro o immobili, lascia intatta la sua capacità di apprezzamento. Con una penetrazione ancora molto bassa (circa l'1% della popolazione globale), si pensa che siamo solo all'inizio della sua ascesa. Questo lo rende **la scommessa più asimmetrica della nostra generazione**: c'è una probabilità molto bassa che si azzeri a questo punto, e una forte probabilità che continui a guadagnare terreno.
+Ricordiamo che la sua capitalizzazione di mercato totale relativamente bassa, rispetto ad altri asset come azioni, oro o immobili, lascia intatta la sua capacità di apprezzamento. Con una penetrazione ancora molto bassa (circa l'1% della popolazione globale), si stima di essere solo all'inizio della sua ascesa. Questo lo rende **la scommessa più asimmetrica della nostra generazione**: c'è una probabilità molto bassa che si azzeri a questo punto, e una forte probabilità che continui a guadagnare terreno.
 
 ### La decisione di allocare la tesoreria aziendale in Bitcoin
 
 Il **processo decisionale** per investire in Bitcoin sarà fortemente influenzato dalla vostra posizione all'interno dell'azienda. Se siete un **proprietario di maggioranza, siete liberi** di allocare i fondi di tesoreria in eccesso secondo il vostro giudizio. Al contrario, se siete un socio o un azionista all'interno di una struttura decisionale collettiva, dovrete prendere decisioni comuni, il che può complicare le cose.
 
-In questo secondo scenario, l'armonizzazione dei diversi punti di vista diventa essenziale, in quanto **dipende in larga misura dalla comprensione dell'asset Bitcoin da parte di ciascun stakeholder**. Come dice il proverbio: "Bitcoin è tutto ciò che la gente non sa dei computer combinato con tutto ciò che non capisce del denaro" Anche se un partner si è sforzato di comprendere a fondo il Bitcoin, trasmettere questa conoscenza agli altri può essere difficile. In questi casi, è **consigliabile coinvolgere una risorsa esterna** per evitare che l'idea si identifichi troppo strettamente con una sola persona, il che potrebbe generare resistenza.
+In questo secondo scenario, l'armonizzazione dei diversi punti di vista diventa essenziale, in quanto **dipende in larga misura dalla comprensione dell'asset Bitcoin da parte di ciascun stakeholder**. Come dice il proverbio: _"Bitcoin è tutto ciò che la gente non sa dei computer combinato con tutto ciò che non capisce del denaro"_. Anche se un partner si è sforzato di comprendere a fondo Bitcoin, trasmettere questa conoscenza agli altri può essere difficile. In questi casi, è **consigliabile coinvolgere una risorsa esterna** per evitare che l'idea si identifichi troppo strettamente con una sola persona, il che potrebbe generare resistenza.
 
 Attualmente, lo scenario di un proprietario di maggioranza che prende le decisioni è il più rappresentativo tra le aziende che detengono Bitcoin. Ecco alcuni esempi reali:
 
 
-- Professionisti indipendenti**: Consulenti, operatori sanitari o avvocati che investono parte del loro patrimonio a lungo termine in Bitcoin. In genere, questi professionisti sono già titolari di conti di risparmio o di depositi a termine con rendimenti modesti.
-- Dirigenti del settore tecnologico**: Un dirigente che ha venduto la propria azienda e ha investito parte dei proventi della propria holding personale in Bitcoin qualche anno fa. Oggi gode di una situazione finanziaria confortevole e reinveste in nuove iniziative.
-- Proprietari di imprese molto piccole** : Imprenditori del settore dei servizi, dell'agricoltura o dell'artigianato che hanno compreso il potenziale di Bitcoin e vi destinano una parte del loro patrimonio. La loro motivazione principale è la diversificazione e la libertà che offre
-- Società quotate in borsa** come MicroStrategy hanno creato un precedente convertendo una parte significativa della loro tesoreria aziendale in Bitcoin, dimostrando un cambiamento globale nelle strategie di allocazione del capitale aziendale. Entro l'autunno del 2024, numerose altre società hanno seguito l'esempio, legittimando ulteriormente questa tendenza.
+- **Professionisti indipendenti**: consulenti, operatori sanitari o avvocati che investono parte del loro patrimonio a lungo termine in Bitcoin. In genere, questi professionisti sono già titolari di conti di risparmio o di depositi a termine con rendimenti modesti.
+- **Dirigenti del settore tecnologico**: un dirigente che ha venduto la propria azienda e ha investito parte dei proventi della propria holding personale in Bitcoin qualche anno fa. Oggi gode di una situazione finanziaria confortevole e reinveste in nuove iniziative.
+- **Proprietari di imprese molto piccole** : imprenditori del settore dei servizi, dell'agricoltura o dell'artigianato che hanno compreso il potenziale di Bitcoin e vi destinano una parte del loro patrimonio. La loro motivazione principale è la diversificazione e la libertà che offre.
+- **Società quotate in borsa** come MicroStrategy hanno creato un precedente convertendo una parte significativa della loro tesoreria aziendale in Bitcoin, dimostrando un cambiamento globale nelle strategie di allocazione del capitale aziendale. Entro l'autunno del 2024, numerose altre società hanno seguito l'esempio, legittimando ulteriormente questa tendenza.
 
 ### Tassazione dei bitcoin detenuti dalle imprese
 
-Per le imprese che non sono strutturate come entità legali separate - come le ditte individuali o altre entità non costituite in società - la tassazione delle transazioni di Bitcoin spesso rispecchia il trattamento applicato alle persone fisiche. In molti casi, si applicano le stesse norme che regolano le plusvalenze o i redditi, proprio come nel caso di una persona fisica che vende Bitcoin. Ad esempio, in alcuni Paesi i profitti possono essere considerati parte del reddito personale dell'imprenditore, soggetto a **scaglioni di imposta sul reddito personale**.
+Per le imprese che non sono strutturate come entità legali separate - come le ditte individuali o altre entità non costituite in società - la tassazione delle transazioni di bitcoin spesso rispecchia il trattamento applicato alle persone fisiche. In molti casi, si applicano le stesse norme che regolano le plusvalenze o i redditi, proprio come nel caso di una persona fisica che vende bitcoin. Ad esempio, in alcuni Paesi i profitti possono essere considerati parte del reddito personale dell'imprenditore, soggetto a **scaglioni di imposta sul reddito personale**.
 
-Tuttavia, le **imprese societarie** - quelle soggette all'imposta sul reddito delle società - spesso beneficiano di un quadro fiscale più favorevole. A differenza delle persone fisiche, che possono trovarsi di fronte a restrizioni sulla compensazione di guadagni e perdite tra diverse classi di attività, le società possono generalmente integrare le plusvalenze o le minusvalenze realizzate sulle transazioni in Bitcoin direttamente nel loro conto economico annuale. Questo può portare a una posizione fiscale più flessibile e talvolta più vantaggiosa.
+Tuttavia, le **imprese societarie** - quelle soggette all'imposta sul reddito delle società - spesso beneficiano di un quadro fiscale più favorevole. A differenza delle persone fisiche, che possono trovarsi di fronte a restrizioni sulla compensazione di guadagni e perdite tra diverse classi di attività, le società possono generalmente integrare le plusvalenze o le minusvalenze realizzate sulle transazioni in bitcoin direttamente nel loro conto economico annuale. Questo può portare a una posizione fiscale più flessibile e talvolta più vantaggiosa.
 
 Le aliquote e i trattamenti fiscali specifici variano notevolmente a seconda della giurisdizione. Ad esempio, in Francia e in molti Paesi occidentali, le società possono essere soggette ad aliquote fiscali di circa il 25%, che potrebbero essere inferiori alle imposte forfettarie che le persone fisiche pagano sui guadagni da investimento.
 
-A causa di queste differenze, **alcuni imprenditori scelgono di acquistare e detenere Bitcoin attraverso le loro strutture societarie**, in quanto ciò può fornire **opportunità di pianificazione fiscale più efficienti**. Come sempre, è consigliabile consultare un professionista fiscale che abbia familiarità con le norme della/e giurisdizione/i interessata/e per garantire la conformità e ottimizzare la strategia fiscale.
+A causa di queste differenze, **alcuni imprenditori scelgono di acquistare e detenere dei bitcoin attraverso le loro strutture societarie**, in quanto ciò può fornire **opportunità di pianificazione fiscale più efficienti**. Come sempre, è consigliabile consultare un professionista fiscale che abbia familiarità con le norme della/e giurisdizione/i interessata/e per garantire la conformità e ottimizzare la strategia fiscale.
 
 ## Come acquisire Bitcoin
 

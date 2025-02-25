@@ -1197,136 +1197,136 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 
 <chapterId>763f6f20-9181-495a-bf7d-b405899e65ec</chapterId>
 
-### Caso d'uso 1: Negozio al dettaglio che converte i pagamenti in Bitcoin in euro
+### Caso d'uso 1: Negozio al dettaglio che converte i pagamenti da bitcoin in euro
 
-**Scenario**: Una piccola panetteria accetta Bitcoin come metodo di pagamento, ma converte immediatamente tutti i Bitcoin ricevuti in euro per evitare l'esposizione alla volatilità delle criptovalute.
+**Scenario**: una piccola panetteria accetta Bitcoin come metodo di pagamento, ma converte immediatamente tutti i bitcoin ricevuti in euro per evitare l'esposizione alla volatilità delle criptovalute.
 
 **Esempio**:
 
 
-- Tasso di conversione dei Bitcoin**: 1 Bitcoin = 40.000 euro.
-- Operazione 1**: Il cliente acquista più pasticcini per 20 euro.
-    - Equivalente in Bitcoin: (20 / 40.000) = 0,0005 Bitcoin = 50.000 Satoshi.
+- **Tasso di conversione dei Bitcoin**: 1 bitcoin = 40.000 euro.
+- **Operazione 1**: il cliente acquista più pasticcini per 20 euro.
+    - Equivalente in bitcoin: (20 / 40.000) = 0,0005 bitcoin = 50.000 satoshi.
     - Commissione di conversione: 1,5% (20 euro × 0,015) = 0,30 euro.
     - Incasso netto: 20 euro - 0,30 euro = 19,70 euro.
-- Operazione 2**: Il cliente acquista un caffè per 5 euro.
-    - Equivalente in Bitcoin: (5 / 40.000) = 0,000125 Bitcoin = 12.500 Satoshis.
+- **Operazione 2**: il cliente acquista un caffè per 5 euro.
+    - Equivalente in bitcoin: (5 / 40.000) = 0,000125 bitcoin = 12.500 satoshi.
     - Commissione di conversione: 1,5% (5 euro × 0,015) = 0,075 euro.
     - Incasso netto: 5 euro - 0,075 euro = 4,93 euro.
 
 **Riepilogo delle transazioni**:
 
 
-- Vendite totali**: 25 euro.
-- Totale tasse**: 0,375 euro.
-- Euro netti ricevuti**: 24,625 euro.
+- **Vendite totali**: 25 euro.
+- **Totale commissione di conversione**: 0,375 euro.
+- **Euro netti ricevuti**: 24,625 euro.
 
 **Implicazioni contabili**:
 
 
 - Registrare le vendite totali (25 euro) come ricavi.
 - Dedurre le spese di conversione (0,375 euro) come spesa.
-- Nel bilancio non compaiono partecipazioni in Bitcoin, poiché tutti gli importi sono stati convertiti immediatamente.
+- Nel bilancio non compaiono partecipazioni in bcoin, poiché tutti gli importi sono stati convertiti immediatamente.
 
-### Caso d'uso 2: Negozio al dettaglio che trattiene il 50% dei pagamenti in Bitcoin
+### Caso d'uso 2: Negozio al dettaglio che trattiene il 50% dei pagamenti in bitcoin
 
-**Scenario**: Lo stesso panificio sceglie di conservare il 50% dei pagamenti in Bitcoin come attività di tesoreria, mentre converte l'altro 50% in euro.
+**Scenario**: Lo stesso panificio sceglie di conservare il 50% dei pagamenti in bitcoin come attività di tesoreria, mentre converte l'altro 50% in euro.
 
 **Esempio**:
 
 
-- Tasso di conversione dei Bitcoin**: 1 Bitcoin = 40.000 euro.
-- Transazione da parte del cliente**: Il cliente acquista pasticcini per 50 euro.
-    - Equivalente in Bitcoin: (50 / 40.000) = 0,00125 Bitcoin = 125.000 Satoshis.
-    - Conversione (50%): 25 euro di Bitcoin = 0,000625 Bitcoin = 62.500 satoshi.
+- **Tasso di conversione dei bitcoin**: 1 bitcoin = 40.000 euro.
+- **Transazione da parte del cliente**: Il cliente acquista pasticcini per 50 euro.
+    - Equivalente in bitcoin: (50 / 40.000) = 0,00125 bitcoin = 125.000 satoshi.
+    - Conversione (50%): 25 euro di bitcoin = 0,000625 bitcoin = 62.500 satoshi.
         - Commissione di conversione: 1,5% (25 euro × 0,015) = 0,375 euro.
         - Netto ricevuto in euro: 25 euro - 0,375 euro = 24,625 euro.
-    - Ritenuta in Bitcoin (50%): 62.500 Satoshis = 0,000625 Bitcoin.
+    - Ritenuta in Bitcoin (50%): 62.500 satoshi = 0,000625 bitcoin.
 
 **Riepilogo**:
 
 
-- Totale vendite**: 50 euro.
-- Tasse**: 0,375 euro.
-- Euro netti ricevuti**: 24,625 euro.
-- Bitcoin trattenuti**: 62.500 Satoshis.
+- **Totale vendite**: 50 euro.
+- **Totale commissione di conversione***: 0,375 euro.
+- **Euro netti ricevuti**: 24,625 euro.
+- **I bitcoin trattenuti**: 62.500 satoshi.
 
 **Implicazioni contabili**:
 
 
 - Registrare le vendite totali (50 euro) come ricavi.
 - Dedurre le spese di conversione (0,375 euro) come spesa.
-- Il Bitcoin trattenuto (62.500 Satoshis) compare nel bilancio come attività digitale.
-- Guadagno non realizzato: se la valutazione dei bitcoin alla fine dell'anno fiscale è più alta o più bassa, ci sarà un guadagno o una perdita non realizzati che saranno indicati nelle note finanziarie ma non realizzati come reddito
+- I bitcoin trattenuti (62.500 satoshi) compaiono nel bilancio come attività digitale.
+- Guadagno non realizzato: se la valutazione dei bitcoin alla fine dell'anno fiscale è più alta o più bassa, ci sarà un guadagno o una perdita non realizzati che saranno indicati nelle note finanziarie ma non realizzati come reddito.
 
-### Caso d'uso 3: Servizio professionale che trattiene Bitcoin per investimenti a lungo termine
+### Caso d'uso 3: Servizio professionale che trattiene i bitcoin per investimenti a lungo termine
 
-**Scenario**: Un grafico freelance accetta Bitcoin come pagamento e trattiene tutti i Bitcoin ricevuti come investimento a lungo termine.
+**Scenario**: un grafico freelance accetta pagamenti in bitcoin e trattiene tutti i bitcoin ricevuti come investimento a lungo termine.
 
 **Esempio**:
 
 
-- Tasso di conversione dei Bitcoin al momento del pagamento**: 1 Bitcoin = 30.000 euro.
-- Transazione da parte del cliente**: Il cliente paga per servizi del valore di 3.000 euro.
-    - Equivalente in Bitcoin: (3.000 / 30.000) = 0,1 Bitcoin = 10.000.000 di Satoshi.
-- Valutazione di fine anno**:
-    - Tasso di conversione dei Bitcoin a fine anno: 1 Bitcoin = 35.000 euro.
-    - Valutazione della partecipazione in Bitcoin: 0.1 Bitcoin × 35.000 euro = 3.500 euro.
+- **Tasso di conversione dei bitcoin al momento del pagamento**: 1 bitcoin = 30.000 euro.
+- **Transazione da parte del cliente**: ll cliente paga per servizi del valore di 3.000 euro.
+    - Equivalente in bitcoin: (3.000 / 30.000) = 0,1 bitcoin = 10.000.000 di satoshi.
+- **Valutazione di fine anno**:
+    - Tasso di conversione dei bitcoin a fine anno: 1 bitcoin = 35.000 euro.
+    - Valutazione della partecipazione in bitcoin: 0.1 Bitcoin × 35.000 euro = 3.500 euro.
     - Guadagno non realizzato: 3.500 euro - 3.000 euro = 500 euro.
 
 **Riepilogo**:
 
 
-- Totale ricavi riconosciuti**: 3.000 euro.
-- Partecipazione in Bitcoin**: 0.1 Bitcoin valutato a 3.500 euro sul bilancio.
-- Utili non realizzati**: 500 euro indicati nelle note finanziarie ma non realizzati come ricavi.
+- **Totale ricavi riconosciuti**: 3.000 euro.
+- **Partecipazione in bitcoin**: 0.1 bitcoin valutato a 3.500 euro sul bilancio.
+- **Utili non realizzati**: 500 euro indicati nelle note finanziarie ma non realizzati come ricavi.
 
 **Implicazioni contabili**:
 
 
 - Registrare le entrate (3.000 euro) al momento della prestazione.
-- Bitcoin ha mantenuto (0,1) un valore di 3.500 euro nel bilancio.
+- I bitcoin (0,1) ha mantenuto un valore di 3.500 euro nel bilancio.
 - Le plusvalenze non realizzate sono tracciate ma non incluse nel conto economico.
 
-### Caso d'uso 4: il proprietario di un'azienda vende il 50% dei Bitcoin dopo l'aumento del prezzo
+### Caso d'uso 4: il proprietario di un'azienda vende il 50% dei bitcoin dopo l'aumento del prezzo
 
-**Scenario**: Un imprenditore effettua tre acquisti di Bitcoin nel corso dell'anno, detiene i Bitcoin come attività e ne vende il 50% dopo un significativo aumento di prezzo.
+**Scenario**: un imprenditore effettua tre acquisti di bitcoin nel corso dell'anno, detiene i bitcoin come attività e ne vende il 50% dopo un significativo aumento di prezzo.
 
 **Esempio**:
 
 
-- Acquisti di Bitcoin da parte dei clienti**:
-    - Acquisto 1: 2.000 euro a 20.000 euro/BTC = 0,1 Bitcoin = 10.000.000 di satoshi.
-    - Acquisto 2: 3.000 euro a 25.000 euro/BTC = 0,12 Bitcoin = 12.000.000 di satoshi.
-    - Acquisto 3: 5.000 euro a 30.000 euro/BTC = 0,1667 Bitcoin = 16.670.000 satoshi.
-    - Totale Bitcoin detenuti**: 0.3867 Bitcoin = 38.670.000 Satoshi.
-- Valutazione di fine anno**:
-    - Prezzo del Bitcoin a fine anno: 40.000 €/BTC.
-    - Valore totale: 0,3867 Bitcoin × 40.000 euro = 15.468 euro.
+- **Acquisti di Bitcoin da parte dei clienti**:
+    - Acquisto 1: 2.000 euro a 20.000 €/BTC = 0,1 bitcoin = 10.000.000 satoshi.
+    - Acquisto 2: 3.000 euro a 25.000 €/BTC = 0,12 bitcoin = 12.000.000 satoshi.
+    - Acquisto 3: 5.000 euro a 30.000 €/BTC = 0,1667 bitcoin = 16.670.000 satoshi.
+    - **Totale Bitcoin detenuti**: 0.3867 bitcoin = 38.670.000 satoshi.
+- **Valutazione di fine anno**:
+    - Prezzo dei bitcoin a fine anno: 40.000 €/BTC.
+    - Valore totale: 0,3867 bitcoin × 40.000 euro = 15.468 euro.
     - Guadagno non realizzato: 15.468 euro - 10.000 euro (costo totale) = 5.468 euro.
-- Vendita del 50% di Bitcoin**:
-    - Bitcoin venduti: 0,19335 Bitcoin.
-    - Ricavo della vendita: 0.19335 Bitcoin × 40.000 € = 7.734 €.
+- **Vendita del 50% dei bitcoin**:
+    - I bitcoin venduti: 0,19335 bitcoin.
+    - Ricavo della vendita: 0.19335 bitcoin × 40.000 euro = 7.734 euro.
     - Base di costo (media ponderata):
         - Costo totale: 2.000 € + 3.000 € + 5.000 € = 10.000 €.
-        - Prezzo medio ponderato: 10.000 euro / 0,3867 Bitcoin = 25.850 euro/BTC.
-        - Costo del Bitcoin venduto: 0,19335 Bitcoin × 25.850 euro = 4.999 euro.
+        - Prezzo medio ponderato: 10.000 euro / 0,3867 bitcoin = 25.850 €/BTC.
+        - Costo dei bitcoin venduti: 0,19335 bitcoin × 25.850 euro = 4.999 euro.
     - Guadagno realizzato: 7.734 euro - 4.999 euro = 2.735 euro.
 
 **Riepilogo**:
 
 
-- Bitcoin rimanenti**: 0.19335 Bitcoin per un valore di 7.734 euro (a 40.000 euro/BTC).
-- Utili realizzati**: 2.735 euro inclusi nel conto economico.
-- Utili non realizzati**: 5.468 euro indicati nelle note finanziarie (compreso il valore non realizzato del Bitcoin residuo).
+- ** I bitcoin rimanenti**: 0.19335 bitcoin per un valore di 7.734 euro (a 40.000 €/BTC).
+- **Utili realizzati**: 2.735 euro inclusi nel conto economico.
+- **Utili non realizzati**: 5.468 euro indicati nelle note finanziarie (compreso il valore non realizzato dei bitcoin residui).
 
 **Implicazioni contabili**:
 
 
 - Registrare il ricavato della vendita (7.734 euro) come reddito.
-- Dedurre il costo del Bitcoin venduto (4.999 euro) per calcolare il guadagno realizzato.
-- Il Bitcoin a nuovo (0,19335) figura nello stato patrimoniale con un valore di 7.734 euro.
-- Plusvalenze non realizzate di 5.468 euro su Bitcoin non distribuito, indicate nelle note finanziarie.
+- Dedurre il costo dei bitcoin venduti (4.999 euro) per calcolare il guadagno realizzato.
+- I bitcoin trattenuti (0,19335) figurano nello stato patrimoniale con un valore di 7.734 euro.
+- Plusvalenze non realizzate di 5.468 euro sui bitcoin non distribuiti, indicate nelle note finanziarie.
 
 # Conclusione
 

@@ -965,7 +965,7 @@ Per garantire un'implementazione fluida e sicura a livello aziendale, la maggior
 
 <chapterId>59ff43a1-98e2-4a81-af3e-9654bdd60952</chapterId>
 
-Ci sono sempre dei compromessi per ogni categoria di soluzione. Ad esempio, nella "fase di prova" iniziale, i portafogli proposti sono progettati per essere il più semplici possibile in termini di interfaccia utente, ma sono ospitati (**custodiali**). Ciò significa che i fondi sono controllati dal fornitore dell'applicazione. Tuttavia, l'etica di Bitcoin incoraggia il passaggio alla piena proprietà dei fondi da parte dell'utente (**autocustodia**). In questo caso, si consiglia di passare alla categoria successiva non appena vengono effettuate le prime vendite, in sostanza, una volta confermata la presenza di clienti disposti a pagare in Bitcoin.
+Ci sono sempre dei compromessi per ogni categoria di soluzione. Ad esempio, nella _"fase di prova"_ iniziale, gli wallet proposti sono progettati per essere il più semplici possibile in termini di interfaccia utente, ma sono custodial (**custodiali**). Ciò significa che i fondi sono controllati dal fornitore dell'applicazione. Tuttavia, l'etica di Bitcoin incoraggia il passaggio alla piena proprietà dei fondi da parte dell'utente (**autocustodia**). In questo caso, si consiglia di passare alla categoria successiva non appena vengono effettuate le prime vendite, in sostanza, una volta confermata la presenza di clienti disposti a pagare in Bitcoin.
 
 Uno dei vantaggi principali di Bitcoin è la possibilità di spostare fondi a piacimento, rendendo **molto facile cambiare fornitore** o componenti della soluzione. Inoltre, tutte le applicazioni e le soluzioni si evolvono rapidamente. Per esempio, consideriamo Bitcoinize, che ora fornisce un terminale fisico per il punto vendita (POS) che si integra con molte applicazioni sul mercato, una soluzione che non esisteva solo pochi mesi fa.
 
@@ -974,8 +974,8 @@ Uno dei vantaggi principali di Bitcoin è la possibilità di spostare fondi a pi
 Se state partendo da zero - senza negozio, senza software di gestione dei prodotti e senza sistema POS - avete un paio di opzioni:
 
 
-- Outsourcing:** Potete esternalizzare la creazione di un sito web con opzioni di acquisto e poi aggiungere le funzionalità di pagamento Bitcoin accanto alle tradizionali soluzioni in negozio.
-- Soluzioni semplici:** In alternativa, potete utilizzare piattaforme come Accessing.app per farlo da soli. I vantaggi principali includono:
+- **Outsourcing:** potete esternalizzare la creazione di un sito web con opzioni di acquisto e poi aggiungere le funzionalità di pagamento Bitcoin accanto alle tradizionali soluzioni in negozio.
+- **Soluzioni semplici:** in alternativa, potete utilizzare piattaforme come Accessing.app per farlo da soli. I vantaggi principali includono:
     - Creare un negozio online o fisico in modo rapido e conveniente.
     - Adatto per attività stagionali, eventi, ristoranti o negozi al dettaglio.
     - Definizione e gestione dei prodotti per le vendite fisiche e online.
@@ -984,32 +984,32 @@ Se state partendo da zero - senza negozio, senza software di gestione dei prodot
 
 ### Come procede l'adozione dei pagamenti lampo?
 
-Sebbene la rete Lightning offra un'efficienza superiore e commissioni più basse, la sua adozione è ancora in fase iniziale. Invece di concentrarsi sulle limitazioni attuali, vale la pena ricordare come si sono svolte le trasformazioni storiche delle infrastrutture:
+Sebbene Lightning Network offra un'efficienza superiore e commissioni più basse, la sua adozione è ancora in fase iniziale. Invece di concentrarsi sulle limitazioni attuali, vale la pena ricordare come si sono svolte le trasformazioni storiche delle infrastrutture:
 
 
 - Quando le automobili sono apparse per la prima volta, non c'erano abbastanza automobili per giustificare la costruzione di strade, né abbastanza strade per giustificare il possesso di automobili.
-- Quando è stata introdotta l'elettricità, non c'erano abbastanza clienti per giustificare la costruzione di reti elettriche, né abbastanza reti per attirare i clienti.
+- Quando è stata introdotta l'elettricità, non c'erano abbastanza clienti per giustificare la costruzione di reti elettriche, né abbastanza reti elettriche per attirare i clienti.
 
-Le nuove infrastrutture hanno successo perché sono più efficienti e gli early adopters vi aderiscono perché ne traggono vantaggi tangibili. Ecco le osservazioni sulla Rete di Lightning nel 2024:
+Le nuove infrastrutture hanno successo perché sono più efficienti e gli _"early adopters"_ (primi utilizzatori) vi aderiscono perché ne traggono vantaggi tangibili. Ecco le osservazioni sul Lightning Network nel 2024:
 
 
-- Transazioni ultraveloci:** Le transazioni sono spesso quasi istantanee (<500ms) e hanno un tasso di fallimento estremamente basso.
-- Professionalizzazione della rete:** Gli operatori più grandi assicurano la liquidità della rete, mentre i singoli hanno smesso di instradare i pagamenti e ora gestiscono principalmente i "nodi periferici"
-- Esperienza utente migliorata:** Le applicazioni mobili per i singoli utenti sono state notevolmente migliorate. Funzionalità come lo splicing, le fatture statiche Bolt12 e i pagamenti a conferma zero (0-conf) sono ampiamente disponibili, rendendo le interazioni senza soluzione di continuità. I problemi di interoperabilità (ad esempio, le chiusure forzate) non sono più un problema.
-- Gestione dei nodi e dei canali migliorata:** Le soluzioni individuali e professionali sono migliorate. Ad esempio, BTC Pay Server supporta ora numerosi plugin per la connessione con altri provider (PSP, rampe on/off, ecc.). Sono entrati in produzione anche nuovi fornitori di infrastrutture, come LightSpark e Alby Hub.
-- Crescita dell'adozione da parte degli esercenti:** Esercenti come BitRefill segnalano un aumento dei pagamenti in Bitcoin tra i loro utenti attivi, con un chiaro spostamento verso Bitcoin rispetto a Lightning. Inoltre, le commissioni bassissime di Lightning lo rendono la scelta preferita per i piccoli pagamenti (in media 32 euro per transazione).
+- **Transazioni ultraveloci:** le transazioni sono spesso quasi istantanee (<500ms) e hanno un tasso di fallimento estremamente basso.
+- **Professionalizzazione della rete:** gli operatori più grandi assicurano la liquidità della rete, mentre i singoli hanno smesso di instradare i pagamenti e ora gestiscono principalmente i _"nodi periferici"_.
+- **Esperienza utente migliorata:** le applicazioni mobile per i singoli utenti sono state notevolmente migliorate. Funzionalità come lo _"splicing"_, le fatture statiche _"Bolt12"_ e i pagamenti a conferma zero (0-conf) sono ampiamente disponibili, rendendo le interazioni senza soluzione di continuità. I problemi di interoperabilità (ad esempio, le chiusure forzate) non sono più una preoccupazione.
+- **Gestione dei nodi e dei canali migliorata:** le soluzioni individuali e professionali sono migliorate. Ad esempio, BTC Pay Server supporta ora numerosi plugin per la connessione con altri provider (PSP, rampe on/off, ecc.). Sono entrati in produzione anche nuovi fornitori di infrastrutture, come LightSpark e Alby Hub.
+- **Crescita dell'adozione da parte degli esercenti:** esercenti come BitRefill segnalano un aumento dei pagamenti in Bitcoin tra i loro utenti attivi, con un chiaro spostamento verso Bitcoin rispetto a Lightning. Inoltre, le commissioni bassissime di Lightning lo rendono la scelta preferita per i piccoli pagamenti (in media 32 euro per transazione).
 
 ![BIZ101-profiles](assets/en/30.webp)
 
 *[Fonte: BTC Map](https://btcmap.org/)*
 
+- **Metriche di rete:** il numero totale di canali e di Bitcoin bloccati su Lightning rimane stabile, con circa 20.000 nodi, 5.200 BTC e 60.000 canali. Tuttavia, questo dato riflette solo una parte del network e indica una alternanza tra i partecipanti, con meno individui e più professionisti che partecipano.
+- **Lightning come ponte tra le reti:** l'efficienza e la disponibilità del Lightning Network l'hanno già posizionata come ponte verso altre reti interconnesse (ad esempio, FediMint, Liquid, ecc.).
 
-- Metriche di rete:** Il numero totale di canali e di Bitcoin bloccati su Lightning rimane stabile, con circa 20.000 nodi, 5.200 BTC e 60.000 canali. Tuttavia, questo dato riflette solo una parte della rete e indica una rotazione tra i partecipanti, con meno individui e più professionisti che partecipano.
-- Lightning come ponte tra le reti:** L'efficienza e la disponibilità della rete Lightning l'hanno già posizionata come ponte verso altre reti interconnesse (ad esempio, FediMint, Liquid, ecc.).
 
-**Il ritorno del portafoglio**
+**Il ritorno dei wallet**
 
-Bitcoin e la Lightning Network stanno completando la **rivoluzione dei portafogli digitali**. I nuovi servizi web consentono ora **transazioni senza la necessità di creare un account** - il vostro portafoglio diventa la vostra identità! Grazie a protocolli come **Nostr Wallet Connect (NWC)** e **LN-URL-AUTH**, i portafogli possono autenticare senza problemi gli utenti e consentire transazioni senza conti tradizionali. Sono finiti i giorni in cui bisognava fare i conti per semplici acquisti o abbonamenti. Non è più necessario fornire informazioni personali o di pagamento che potrebbero finire per essere violate e vendute sul dark web, come ci ricordano troppo spesso gli eventi recenti.
+Bitcoin e Lightning Network stanno completando la **rivoluzione dei wallet digitali**. I nuovi servizi web consentono ora **transazioni senza la necessità di creare un account** - il vostro portafoglio diventa la vostra identità! Grazie a protocolli come **Nostr Wallet Connect (NWC)** e **LN-URL-AUTH**, i wallet possono autenticare senza problemi gli utenti e consentire transazioni senza conti tradizionali. Sono finiti i giorni in cui bisognava fare i conti per semplici acquisti o abbonamenti. Non è più necessario fornire informazioni personali o di pagamento che potrebbero finire per essere violate e vendute sul dark web, come ci ricordano troppo spesso gli eventi recenti.
 
 ![BIZ101](assets/en/10.webp)
 

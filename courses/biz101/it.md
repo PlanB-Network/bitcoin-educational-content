@@ -864,7 +864,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-## L'essenziale
+## L'essenztiale
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
 
@@ -882,25 +882,28 @@ I pagamenti possono essere ritirati in Bitcoin a un indirizzo specifico o conver
 
 Le commissioni sono competitive: 0,21% per il primo anno, poi 1% per i pagamenti in Bitcoin e 1,5% per i pagamenti con conversione in fiat, compresi i costi delle transazioni in Bitcoin. Swiss Bitcoin Pay offre una pratica via di mezzo tra soluzioni di custodia come Open Node e complessi sistemi autogestiti come BTCPay Server, dando priorità alla semplicità, alla sicurezza e all'autonomia finanziaria.
 
-Questo tipo di configurazione consente alle attività commerciali in sede di generare rapidamente fatture di pagamento, presentare codici QR agli avventori e accettare transazioni Lightning o on-chain con un attrito minimo. Il personale ha bisogno solo di un breve orientamento per gestire questi pagamenti, mentre i gestori possono accedere a una dashboard online per riconciliare le vendite giornaliere e accedere ai report di base. La disponibilità di una console amministrativa semplificata aiuta anche i piccoli esercizi a tenere traccia dei ricavi sia in valuta che in criptovaluta da un'unica interfaccia, attenuando così la confusione e riducendo il tempo dedicato alla contabilità manuale.
+Questo tipo di configurazione consente alle attività commerciali in sede di generare rapidamente fatture di pagamento, presentare codici QR agli avventori e accettare transazioni Lightning o on-chain con un attrito minimo. Il personale ha bisogno solo di un breve orientamento per gestire questi pagamenti, mentre i gestori possono accedere a una dashboard online per riconciliare le vendite giornaliere e accedere ai report di base. La disponibilità di una console amministrativa semplificata aiuta anche i piccoli esercizi a tenere traccia dei ricavi sia in valuta che in bitcoin da un'unica interfaccia, attenuando così la confusione e riducendo il tempo dedicato alla contabilità manuale.
 
 ![BIZ101-profiles](assets/en/23.webp)
 
 Un altro vantaggio fondamentale dell'approccio Essential è l'enfasi posta sulla rapidità di implementazione e sulla riduzione al minimo delle interruzioni. Soluzioni come Swiss Bitcoin Pay possono essere installate in poche ore anziché in giorni o settimane. Per il proprietario o il gestore di un ristorante di modeste dimensioni, ad esempio, l'obiettivo finale è integrare l'accettazione di Bitcoin senza causare ritardi alla cassa o confusione tra il personale. Una volta configurato il POS, il gestore può semplicemente fornire ai dipendenti istruzioni rapide sulla visualizzazione della fattura e sulla verifica dell'avvenuto pagamento. Nel migliore dei casi, la transazione del cliente viene confermata quasi istantaneamente tramite la rete Lightning e il pannello amministrativo dell'azienda registra contemporaneamente un nuovo pagamento in tempo reale.
 
-Sebbene il profilo Essential non richieda sistemi di contabilità altamente sofisticati, è comunque saggio mantenere un'adeguata registrazione delle transazioni. Strumenti come Swiss Bitcoin Pay offrono funzioni di esportazione CSV, consentendo ai gestori di acquisire il valore equivalente in fiat di ogni vendita di Bitcoin e di tenerne traccia insieme ad altre fonti di reddito. Questo livello di documentazione è sufficiente per la maggior parte delle piccole imprese, e una conoscenza rudimentale dei tassi di cambio è utile per la compilazione delle dichiarazioni fiscali e per la sorveglianza finanziaria generale.
+Sebbene il profilo Essential non richieda sistemi di contabilità altamente sofisticati, è comunque saggio mantenere un'adeguata registrazione delle transazioni. Strumenti come Swiss Bitcoin Pay offrono funzioni di esportazione CSV, consentendo ai gestori di acquisire il valore equivalente in fiat di ogni vendita di bitcoin e di tenerne traccia insieme ad altre fonti di reddito. Questo livello di documentazione è sufficiente per la maggior parte delle piccole imprese, e una conoscenza rudimentale dei tassi di cambio è utile per la compilazione delle dichiarazioni fiscali e per la sorveglianza finanziaria generale.
 
 ![BIZ101-profiles](assets/en/24.webp)
 
 La soluzione ibrida più adatta al vostro profilo è probabilmente Swiss Bitcoin Pay:
 
 https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-Un'altra soluzione facile da implementare, ma con l'inconveniente di essere al 100% di proprietà del custode, è Open Node:
+
+Un'altra soluzione facile da implementare, ma con l'inconveniente di essere al 100% custodal, è Open Node:
 
 https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
 Se siete pronti a sporcarvi le mani e volete avere il pieno controllo del processo, il software BTCPay Server è un'opzione eccellente. Tuttavia, il principale svantaggio di BTCPay Server è che la sua configurazione e gestione richiedono tempo e un certo livello di competenza tecnica, ma potete seguire le nostre guide:
 
 https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+
 Infine, come complemento ai punti vendita fisici, si potrebbe considerare la creazione di [un Bitcoinize PoS](https://bitcoinize.com/).
 
 ## Il professionista

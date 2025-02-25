@@ -135,15 +135,16 @@ Literally EVERY LANGUAGE is needed!
 
 If you are enthusiastic about this initiative and you would like to help us, please add your local language to the github repo and the website. Kindly follow the following steps:
 
-1. Join the [PBN Content Builder TG group](https://t.me/PlanBNetwork_ContentBuilder) and present the languages you speak.
-2. [Add the new language](https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86) on the Weblate app (an account on Weblate is required).
-3. [Start translating the static elements](https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295) of the website.
-4. When you finish, go back to the [TG group](https://t.me/PlanBNetwork_ContentBuilder) and inform us that you have completed the task to receive the reward in sats.
-5. Thanks to the [LLM-Translator](https://github.com/Asi0Flammeus/LLM-Translator), we'll get the automatic translation of both the BTC101 and the SCU101 courses to benchmark the automatic translation accuracy.
-6. [Start proofreading](https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6) the BTC101 and SECU101 courses on GitHub (an account on GitHub is required) in the corresponding language.
-7. After you finish and we merge the PR, we will send you the reward in sats.
-8. If the automatic translation is good enough, we will automatically translate all the educational content of PBN and publish it on the website.
-9. Then, anyone will be able to choose any content in that language to proofread and receive the associated reward.
+1. Join the [Contributors TG group](https://t.me/PlanBNetwork_ContentBuilder) and present the languages you speak.
+2. You will be contacted by our team member and maybe added to a specific group dedicated to one language.
+3. The first step will be to [add the new language](https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86) on the Weblate app (an account on Weblate is required).
+4. Then, you can [start translating the static elements](https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295) of the website.
+5. When you finish, go back to the [TG group](https://t.me/PlanBNetwork_ContentBuilder) or reach out to the translation coordinator to inform you have completed the task.
+6. Thanks to the [LLM-Translator](https://github.com/Asi0Flammeus/LLM-Translator), we'll get the automatic translation of the BTC101 course to benchmark the automatic translation accuracy.
+7. [Start proofreading](https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6) BTC101 on GitHub (an account on GitHub is required) in the corresponding language.
+8. After you finish and we merge the PR, we will send you the reward in sats for both contributions, using a Lightning Network invoice or LN address.
+9. If the automatic translation is good enough, we will automatically translate all the educational content of Plan ₿ Network and publish it on the website.
+10. Then, anyone will be able to choose any content in that language to proofread and receive the associated reward.
 
 # Why do we use the value-4-value PoW model?
 

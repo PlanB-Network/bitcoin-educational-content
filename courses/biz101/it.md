@@ -1,6 +1,6 @@
 ---
 name: Bitcoin per le aziende
-goal: Imparate le nozioni di base sui pagamenti e sulla tesoreria per portare la vostra azienda sul mercato dei bitcoin
+goal: Imparate le nozioni di base sui pagamenti e sulla tesoreria per portare la vostra azienda nel mercato di Bitcoin
 objectives: 
 
   - Bitcoin come valuta emergente e strumento di business
@@ -1029,110 +1029,110 @@ Il seguente contenuto è solo a scopo educativo e non deve essere considerato co
 
 **Ogni transazione in Bitcoin deve essere registrata e può comportare un evento imponibile**
 
-A livello globale, il Bitcoin viene spesso classificato non come una valuta ma come un bene digitale. Questa distinzione ha un impatto significativo sul modo in cui il Bitcoin viene contabilizzato nelle aziende, influenzando gli obblighi fiscali, la rendicontazione finanziaria e i requisiti di conformità. Le aziende che accettano il Bitcoin come metodo di pagamento o lo utilizzano come strumento di tesoreria devono comprendere queste sfumature normative.
+A livello globale, Bitcoin viene spesso classificato non come una valuta ma come un bene digitale. Questa distinzione ha un impatto significativo sul modo in cui Bitcoin viene contabilizzato nelle aziende, influenzando gli obblighi fiscali, la rendicontazione finanziaria e i requisiti di conformità. Le aziende che accettano Bitcoin come metodo di pagamento o lo utilizzano come strumento di tesoreria devono comprendere queste sfumature normative.
 
 La **conseguenza più importante** da tenere a mente è che, nella maggior parte delle giurisdizioni, guadagnare, vendere, scambiare o usare Bitcoin per fare acquisti, di solito crea **un evento imponibile** e i guadagni sono soggetti all'imposta sulle plusvalenze.
 
 Un altro aspetto della contabilità Bitcoin è la differenziazione tra due tipi di plusvalenze:
 
 
-- Guadagni/perdite latenti: ** guadagni o perdite non realizzati basati sul valore dei Bitcoin detenuti alla fine di un periodo contabile.
-- Guadagni/perdite effettivi: ** Guadagni o perdite realizzati quando il Bitcoin viene venduto o scambiato durante l'anno fiscale.
+- **Guadagni/perdite latenti:** guadagni o perdite non realizzati basati sul valore dei bitcoin detenuti alla fine di un periodo contabile.
+- **Guadagni/perdite effettivi:** guadagni o perdite realizzati quando i bitcoin vengono venduti o scambiati durante l'anno fiscale.
 
-Questi calcoli dipendono in larga misura dal fatto che la Bitcoin sia detenuta per un investimento a lungo termine o per un uso operativo a breve termine. Inoltre, le aziende devono allineare le loro pratiche contabili con le strutture fiscali locali, poiché le normative variano notevolmente da Paese a Paese.
+Questi calcoli dipendono in larga misura dal fatto che i bitcoin siano detenuti per un investimento a lungo termine o per un uso operativo a breve termine. Inoltre, le aziende devono allineare le loro pratiche contabili con le strutture fiscali locali, poiché le normative variano notevolmente da Paese a Paese.
 
-La contabilità per le aziende che detengono Bitcoin è piuttosto complessa perché ogni transazione deve essere meticolosamente monitorata per calcolare i profitti o le perdite realizzati o non realizzati. Per ogni vendita effettuata accettando Bitcoin come forma di pagamento, o ogni volta che si acquista o si vende Bitcoin, è necessario registrare:
+La contabilità per le aziende che detengono Bitcoin è piuttosto complessa perché ogni transazione deve essere meticolosamente monitorata per calcolare i profitti o le perdite realizzate o non realizzate. Per ogni vendita effettuata accettando i bitcoin come forma di pagamento, o ogni volta che si acquista o si vende bitcoin, è necessario registrare:
 
 
 - il tempo specifico
 - il prezzo di vendita (in valuta fiat)
-- il prezzo di costo del Bitcoin (il prezzo al quale il Bitcoin è stato inizialmente acquistato).
+- il prezzo di costo dei bitcoin (il prezzo al quale i bitcoin sono stati inizialmente acquistati).
 
 In questo modo sarà possibile calcolare la differenza per determinare il profitto o la perdita.
 
 **Esempio:** Un'azienda acquista 1 BTC a 30.000 dollari. Successivamente, vende 0,5 BTC a 20.000 dollari. Per calcolare il profitto o la perdita, l'azienda deve:
 
 
-- Aver registrato l'ora, il prezzo di costo fiat e la quantità di Bitcoin acquistati
-- Aver registrato l'ora, il prezzo di vendita fiat e la quantità di Bitcoin venduta
-- Determinare il costo del Bitcoin venduto: 0,5 BTC: $30.000 ÷ 2 = $15.000.
-- Confrontate il prezzo di vendita con il prezzo di costo: 20.000 dollari (prezzo di vendita) - 15.000 dollari (prezzo di costo) = 5.000 dollari di profitto.
-- Aggiornare le disponibilità di Bitcoin con il nuovo prezzo di costo
+- Aver registrato l'ora, il prezzo di costo fiat e la quantità dei bitcoin acquistati
+- Aver registrato l'ora, il prezzo di vendita fiat e la quantità dei bitcoin venduta
+- Determinare il costo dei bitcoin venduti: 0,5 BTC: $30.000 ÷ 2 = $15.000.
+- Confrontare il prezzo di vendita con il prezzo di costo: 20.000 dollari (prezzo di vendita) - 15.000 dollari (prezzo di costo) = 5.000 dollari di profitto.
+- Aggiornare le disponibilità dei bitcoin con il nuovo prezzo di costo
 
-Questo processo deve essere ripetuto per ogni transazione e la natura fluttuante del prezzo del Bitcoin rende la registrazione ancora più complicata.
+Questo processo deve essere ripetuto per ogni transazione e la natura fluttuante del prezzo deil bitcoin rende la registrazione ancora più complicata.
 
-**Come funzionerebbe se il Bitcoin fosse una valuta?
+**Come funzionerebbe se Bitcoin fosse una valuta?**
 
-Se il Bitcoin fosse trattato come una valuta, le aziende lo gestirebbero come qualsiasi altra valuta nel loro sistema contabile. Invece di tenere traccia della base dei costi e dei profitti realizzati/non realizzati per ogni transazione, le disponibilità di Bitcoin verrebbero semplicemente registrate in un conto in valuta. Alla fine di ogni periodo di rendicontazione, il valore di tutte le disponibilità in valuta, compreso il Bitcoin, verrebbe convertito nella valuta di contabilità (ad esempio, USD o EUR) utilizzando il tasso di cambio corrente.
+Se Bitcoin fosse trattato come una valuta, le aziende lo gestirebbero come qualsiasi altra valuta nel loro sistema contabile. Invece di tenere traccia della base dei costi e dei profitti realizzati/non realizzati per ogni transazione, le disponibilità dei bitcoin verrebbero semplicemente registrate in un conto in valuta. Alla fine di ogni periodo di rendicontazione, il valore di tutte le disponibilità in valuta, compreso i bitcoin, verrebbero convertiti nella valuta di contabilità (ad esempio, USD o EUR) utilizzando il tasso di cambio corrente.
 
 **Esempio aggiornato se Bitcoin fosse riconosciuto come moneta:**
 
 
-- Un'azienda detiene 1 BTC quando il Bitcoin vale 30.000 dollari. Successivamente, l'azienda utilizza 0,5 BTC per un pagamento quando il Bitcoin vale 40.000 dollari.
+- Un'azienda detiene 1 BTC quando i bitcoin valgono 30.000 dollari. Successivamente, l'azienda utilizza 0,5 BTC per un pagamento quando i bitcoin valgono 40.000 dollari.
 - L'azienda non calcola l'utile o la perdita realizzati. La transazione viene invece registrata come:
     - Pagamento: 20.000 dollari (0,5 BTC × 40.000 dollari).
-    - Saldo Bitcoin rimanente: 0.5 BTC, che ora valgono 20.000 dollari (aggiornato al tasso di cambio attuale).
+    - Saldo dei bitcoin rimanenti: 0.5 BTC, che ora valgono 20.000 dollari (aggiornato al tasso di cambio attuale).
 
-**Il vantaggio principale se il Bitcoin fosse riconosciuto come valuta
+**Il vantaggio principale se Bitcoin fosse riconosciuto come valuta**
 
 
-- L'azienda deve solo aggiustare periodicamente l'equivalente in fiat delle sue disponibilità in Bitcoin (ad esempio, per i rapporti mensili o annuali), proprio come per gli euro, gli yen o le altre valute che detiene.
+- L'azienda deve solo aggiustare periodicamente l'equivalente in fiat delle sue disponibilità in bitcoin (ad esempio, per i rapporti mensili o annuali), proprio come per gli euro, gli yen o le altre valute che detiene.
 - Questo elimina la necessità di tracciare i costi a livello di transazione e semplifica la contabilità, soprattutto per le aziende con frequenti transazioni in Bitcoin.
 
-Questo approccio renderebbe la contabilità del Bitcoin molto più semplice, ridurrebbe gli oneri amministrativi e si allineerebbe al trattamento delle altre valute, nell'ipotesi che il Bitcoin venga pienamente riconosciuto come tale in termini legali e normativi. Non siamo ancora a questo punto.
+Questo approccio renderebbe la contabilità dei bitcoin molto più semplice, ridurrebbe gli oneri amministrativi e si allineerebbe al trattamento delle altre valute, nell'ipotesi che Bitcoin venga pienamente riconosciuto come tale in termini legali e normativi. Non siamo ancora a questo punto.
 
 ### Distinzione tra contabilità individuale e contabilità aziendale
 
-Il trattamento legale e contabile dei Bitcoin differisce in modo significativo tra persone fisiche e società. Per le persone fisiche, i guadagni derivanti dalle transazioni in Bitcoin possono essere soggetti all'imposta sul reddito, spesso con un'aliquota più elevata. Le società, invece, possono beneficiare di aliquote fiscali potenzialmente più basse, ma devono attenersi a standard contabili più severi.
+Il trattamento legale e contabile dei bitcoin differisce in modo significativo tra persone fisiche e società. Per le persone fisiche, i guadagni derivanti dalle transazioni in Bitcoin possono essere soggetti all'imposta sul reddito, spesso con un'aliquota più elevata. Le società, invece, possono beneficiare di aliquote fiscali potenzialmente più basse, ma devono attenersi a standard contabili più severi.
 
-Per le aziende, i Bitcoin possono essere classificati in diversi conti a seconda dell'uso che se ne intende fare:
+Per le aziende, i bitcoin possono essere classificati in diversi conti a seconda dell'uso che se ne intende fare:
 
 
-- Immobilizzazioni:** Per il Bitcoin detenuto a lungo termine come investimento strategico.
-- Azioni:** Per il Bitcoin utilizzato nei processi di produzione (un caso d'uso raro, ad esempio è il caso dei trader professionisti).
-- Conti di cassa o di tesoreria:** Per il Bitcoin detenuto come attività liquida, principalmente per transazioni operative o per la gestione della tesoreria a breve termine.
+- **Immobilizzazioni:** per i bitcoin detenuti a lungo termine come investimento strategico.
+- **Azioni:** per i bitcoin utilizzato nei processi di produzione (un caso d'uso raro, ad esempio è il caso dei trader professionisti).
+- **Conti di cassa o di tesoreria:** per i bitcoin detenuti come attività liquida, principalmente per transazioni operative o per la gestione della tesoreria a breve termine.
 
 La scelta della classificazione dipende dall'attività e dalla strategia dell'azienda, con implicazioni per la rendicontazione finanziaria e gli obblighi fiscali. Verificare sempre le normative locali, poiché le classificazioni possono variare a seconda del Paese.
 
 ### Quadro giuridico
 
-Il riconoscimento legale e il trattamento del Bitcoin variano a seconda della giurisdizione. Alcuni Paesi, come El Salvador, hanno riconosciuto il Bitcoin come moneta legale, semplificandone l'uso nelle transazioni ma complicando la rendicontazione finanziaria internazionale. Altri trattano il Bitcoin come un bene digitale soggetto a specifiche norme fiscali e contabili.
+Il riconoscimento legale e il trattamento dei bitcoin variano a seconda della giurisdizione. Alcuni Paesi, come El Salvador, hanno riconosciuto i bitcoin come moneta legale, semplificandone l'uso nelle transazioni ma complicando la rendicontazione finanziaria internazionale. Altri trattano i bitcoin come un bene digitale soggetto a specifiche norme fiscali e contabili.
 
-Nella maggior parte dei Paesi, il Bitcoin è classificato come attività digitale e il suo trattamento è regolato da norme contabili generali. Le imprese devono contabilizzare le transazioni in Bitcoin come segue:
+Nella maggior parte dei Paesi, i bitcoin sono classificati come attività digitali e il loro trattamento è regolato da norme contabili generali. Le imprese devono contabilizzare le transazioni in bitcoin come segue:
 
 
-- Registrazione delle plusvalenze/minusvalenze:** Le imprese devono contabilizzare le plusvalenze e le minusvalenze realizzate nei loro risultati finanziari.
-- Valutazione dei guadagni/perdite latenti: ** I guadagni o le perdite non realizzati devono spesso essere dichiarati, ma possono non avere un impatto diretto sul reddito imponibile.
-- Conformità agli standard contabili:** Le aziende devono integrare le transazioni Bitcoin nelle pratiche contabili standard, garantendo trasparenza e accuratezza.
+- **Registrazione delle plusvalenze/minusvalenze:** le imprese devono contabilizzare le plusvalenze e le minusvalenze realizzate nei loro risultati finanziari.
+- **Valutazione dei guadagni/perdite latenti:** i guadagni o le perdite non realizzati devono spesso essere dichiarati, ma possono non avere un impatto diretto sul reddito imponibile.
+- **Conformità agli standard contabili:** le aziende devono integrare le transazioni i bitcoin nelle pratiche contabili standard, garantendo trasparenza e accuratezza.
 
 L'approccio alla contabilità dei Bitcoin varia a seconda della geografia:
 
 
-- Stati Uniti:** L'IRS classifica il Bitcoin come **proprietà, simile ad azioni, obbligazioni o immobili**. Questa classificazione significa che qualsiasi transazione che coinvolga la criptovaluta, come guadagnare, vendere, scambiare o anche usare per fare acquisti, può creare un evento imponibile e i guadagni sono soggetti all'imposta sulle plusvalenze.
-- Unione Europea:** Gli Stati membri generalmente trattano il Bitcoin come un'attività speculativa piuttosto che come una valuta funzionale. Pertanto i guadagni sono spesso soggetti all'imposta sulle plusvalenze.
-- Asia:** Paesi come Singapore e Giappone hanno adottato quadri normativi progressivi, trattando le transazioni di Bitcoin in modo favorevole in contesti specifici. Tuttavia, i Bitcoin sono generalmente contabilizzati come **attività immateriali** e sono valutati al valore equo alla data di chiusura del bilancio, con variazioni rilevate nell'utile o nella perdita.
+- **Stati Uniti:** l'IRS classifica i bitcoin come **proprietà, simile ad azioni, obbligazioni o immobili**. Questa classificazione significa che qualsiasi transazione che coinvolga la criptovaluta, come guadagnare, vendere, scambiare o anche usare per fare acquisti, può creare un evento imponibile e i guadagni sono soggetti all'imposta sulle plusvalenze.
+- **Unione Europea:** gli Stati membri generalmente trattano i bitcoin come un'attività speculativa piuttosto che come una valuta funzionale. Pertanto i guadagni sono spesso soggetti all'imposta sulle plusvalenze.
+- **Asia:** paesi come Singapore e Giappone hanno adottato quadri normativi progressivi, trattando le transazioni in bitcoin in modo favorevole in contesti specifici. Tuttavia, i bitcoin sono generalmente contabilizzati come **attività immateriali** e sono valutati al valore equo alla data di chiusura del bilancio, con variazioni rilevate nell'utile o nella perdita.
 
 È essenziale comprendere le normative del paese in cui si opera e adattare le pratiche contabili di conseguenza.
 
 ### Le sfide dell'evoluzione normativa
 
-Il rapido ritmo dell'innovazione delle criptovalute spesso supera i quadri normativi. Da quando il Bitcoin è stato riconosciuto come asset digitale, le normative globali sono state aggiornate in modo incrementale, ma le lacune rimangono:
+Il rapido ritmo dell'innovazione delle criptovalute spesso supera i quadri normativi. Da quando i bitcoin sono stati riconosciuti come asset digitale, le normative globali sono state aggiornate in modo incrementale, ma le lacune rimangono:
 
 
-- Mancanza di giurisprudenza:** Pochi casi legali hanno chiarito specifiche pratiche contabili, lasciando spazio all'interpretazione.
-- Dibattiti in corso:** Questioni come il trattamento fiscale delle perdite latenti rimangono irrisolte in molte giurisdizioni.
-- Complessità transfrontaliera:** Le aziende che operano a livello internazionale devono affrontare sfide per conciliare i diversi standard contabili nazionali.
+- **Mancanza di giurisprudenza:** pochi casi legali hanno chiarito specifiche pratiche contabili, lasciando spazio all'interpretazione.
+- **Dibattiti in corso:** questioni come il trattamento fiscale delle perdite latenti rimangono irrisolte in molte giurisdizioni.
+- **Complessità transfrontaliera:** le aziende che operano a livello internazionale devono affrontare sfide per conciliare i diversi standard contabili nazionali.
 
-Nonostante queste sfide, le posizioni proattive di molti Paesi forniscono una solida base alle imprese per incorporare il Bitcoin nelle loro attività. Aggiornamenti continui e armonizzazione internazionale saranno essenziali per affrontare le complessità emergenti nella contabilità delle criptovalute.
+Nonostante queste sfide, le posizioni proattive di molti Paesi forniscono una solida base alle imprese per incorporare Bitcoin nelle loro attività. Aggiornamenti continui e armonizzazione internazionale saranno essenziali per affrontare le complessità emergenti nella contabilità delle criptovalute.
 
 ### Classificazione del Bitcoin nei bilanci
 
-La classificazione del Bitcoin nei bilanci varia a seconda della giurisdizione e dipende dall'uso che se ne intende fare all'interno di un'azienda. In linea di massima, il Bitcoin è trattato come un'attività digitale, simile al magazzino, all'investimento o alla valuta, ma con caratteristiche uniche che ne influenzano il trattamento contabile.
+La classificazione dei bitcoin nei bilanci varia a seconda della giurisdizione e dipende dall'uso che se ne intende fare all'interno di un'azienda. In linea di massima, i bitcoin sono trattati come un'attività digitale, simile al magazzino, all'investimento o alla valuta, ma con caratteristiche uniche che ne influenzano il trattamento contabile.
 
 
-- Bene digitale o bene immateriale**: Molte giurisdizioni, tra cui la Francia e l'Unione Europea, classificano il Bitcoin come un bene digitale o immateriale piuttosto che come una valuta legale. Questa classificazione impone alle imprese di contabilizzare il Bitcoin in modo diverso rispetto alle valute fiat.
-- Inventario**: Se l'attività principale di un'azienda consiste nella negoziazione di Bitcoin, come nel caso degli scambi di criptovalute o dei broker, il Bitcoin è classificato come inventario. In questo caso, la valutazione segue i principi contabili delle scorte.
-- Investimento finanziario**: Le aziende che detengono Bitcoin come attività a lungo termine possono classificarlo come investimento finanziario. Ad esempio, negli Stati Uniti, le aziende potrebbero contabilizzare il Bitcoin secondo le linee guida del Financial Accounting Standards Board (FASB), riconoscendo le svalutazioni quando i valori di mercato diminuiscono.
+- **Bene digitale o bene immateriale**: molte giurisdizioni, tra cui la Francia e l'Unione Europea, classificano i bitcoin come beni digitali o immateriali piuttosto che come una valuta legale. Questa classificazione impone alle imprese di contabilizzare i bitcoin in modo diverso rispetto alle valute fiat.
+- **Inventario**: se l'attività principale di un'azienda consiste nella negoziazione di bitcoin, come nel caso degli exchange di criptovalute o dei broker, i bitcoin sono classificati come inventario. In questo caso, la valutazione segue i principi contabili delle scorte.
+- **Investimento finanziario**: le aziende che detengono dei bitcoin come attività a lungo termine possono classificarlo come investimento finanziario. Ad esempio, negli Stati Uniti, le aziende potrebbero contabilizzare i bitcoin secondo le linee guida del Financial Accounting Standards Board (FASB), riconoscendo le svalutazioni quando i valori di mercato diminuiscono.
 
 **Implicazioni della classificazione :**
 
@@ -1142,33 +1142,33 @@ La classificazione del Bitcoin nei bilanci varia a seconda della giurisdizione e
 
 ### Metodi di valutazione
 
-I metodi di valutazione sono tecniche contabili utilizzate per determinare la base di costo dei Bitcoin, essenziale per calcolare con precisione i guadagni o le perdite durante le transazioni. In generale, è meglio **mantenere nel sistema contabile un valore sempre aggiornato dei costi correnti dei Bitcoin posseduti**. Ciò garantisce la trasparenza, la conformità alle normative fiscali e impedisce di rimanere indietro quando è necessario eseguire i calcoli.
+I metodi di valutazione sono tecniche contabili utilizzate per determinare la base di costo dei bitcoin, essenziale per calcolare con precisione i guadagni o le perdite durante le transazioni. In generale, è meglio **mantenere nel sistema contabile un valore sempre aggiornato dei costi correnti dei bitcoin posseduti**. Ciò garantisce la trasparenza, la conformità alle normative fiscali e impedisce di rimanere indietro quando è necessario eseguire i calcoli.
 
 
-- First In, First Out (FIFO)**: Comune in giurisdizioni come l'Australia e l'India, questo metodo valuta i Bitcoin in base al primo costo di acquisizione. Questo metodo può diventare piuttosto **complicato** in quanto può richiedere di tenere traccia di ogni frazione di bitcoin separatamente quando si verifica una vendita.
-- Costo medio ponderato (WAC)**: Spesso preferito per le transazioni ad alto volume grazie alla sua **semplicità**, come si vede in paesi come gli Stati Uniti.
+- **First In, First Out (FIFO)**: comune in giurisdizioni come l'Australia e l'India, questo metodo valuta i bitcoin in base al primo costo di acquisizione. Questo metodo può diventare piuttosto **complicato** in quanto può richiedere di tenere traccia di ogni frazione di bitcoin separatamente quando si verifica una vendita.
+- **Costo medio ponderato (WAC)**: spesso preferito per le transazioni ad alto volume grazie alla sua **semplicità**, come si vede in paesi come gli Stati Uniti.
 
-Si raccomanda vivamente di mantenere un registro di lavoro dettagliato che tenga traccia dei costi dei Bitcoin **dal momento in cui un'azienda inizia ad acquistare Bitcoin o ad accettarli come pagamento** per garantire una registrazione accurata e organizzata. Questa considerazione dovrebbe essere la prima cosa da tenere presente quando si sceglie una soluzione software per accettare pagamenti in bitcoin o per acquistare bitcoin.
+Si raccomanda vivamente di mantenere un registro di lavoro dettagliato che tenga traccia dei costi dei bitcoin **dal momento in cui un'azienda inizia ad acquistare dei bitcoin o ad accettarli come pagamento** per garantire una registrazione accurata e organizzata. Questa considerazione dovrebbe essere la prima cosa da tenere presente quando si sceglie una soluzione software per accettare pagamenti in bitcoin o per acquistare bitcoin.
 
 ### Contabilità delle transazioni nel commercio al dettaglio e nell'e-commerce
 
-I rivenditori devono registrare per ogni transazione il tasso di cambio tra Bitcoin e fiat. Ad esempio, in molti Paesi, le aziende utilizzano il tasso di cambio al momento della vendita per calcolare l'IVA.
+I rivenditori devono registrare per ogni transazione il tasso di cambio tra i bitcoin e le monete fiat. Ad esempio, in molti Paesi, le aziende utilizzano il tasso di cambio al momento della vendita per calcolare l'IVA.
 
 Le aziende devono assicurarsi che gli strumenti di **pagamento** che utilizzano offrano la possibilità di:
 
 
 - generare una fattura con l'importo fiat locale (euro, dollari, sterline), l'IVA o altre imposte locali, l'equivalente in bitcoin, la data e l'ora, il tasso di cambio bitcoin e la fonte di cambio, ecc
 - esportare tutte le ricevute di pagamento, almeno in formato .csv, con tutte le informazioni di cui sopra, in modo che il commercialista possa elaborarle facilmente
-- idealmente avere una registrazione del valore aggiornato del costo-base per il Bitcoin corrente detenuto in tesoreria
+- idealmente avere una registrazione del valore aggiornato del costo-base per i bitcoin correnti detenuti in tesoreria
 
 ### Sfide
 
 
-- Volatilità**: Il prezzo del Bitcoin fluttua in modo significativo, creando difficoltà nella valutazione delle partecipazioni e nella previsione dei risultati finanziari futuri.
-- Controllo normativo**: In paesi come la Cina, lo stato di restrizione del Bitcoin ne limita l'uso come attività di tesoreria.
-- Incertezza normativa** : L'evoluzione del panorama normativo di Bitcoin lascia spesso le aziende nel limbo. Ad esempio, i cambiamenti nelle politiche fiscali, come quelli in India o negli Stati Uniti, possono avere un impatto sulle pratiche contabili da un giorno all'altro.
-- Rischi di cattiva gestione** : Una classificazione impropria o il mancato monitoraggio delle transazioni Bitcoin possono portare a problemi di conformità, sanzioni o danni alla reputazione.
-- Rischi di riqualificazione**: Mantenere una parte significativa della tesoreria di un'azienda in Bitcoin espone l'azienda a potenziali perdite dovute a cali di prezzo. Ciò può avere gravi conseguenze, soprattutto se tali cali si verificano in occasione di pagamenti a fornitori, dipendenti o tasse. Inoltre, il proprietario dell'azienda potrebbe essere ritenuto responsabile, con conseguenti multe o altri problemi legali, come l'accusa di uso improprio dei beni aziendali.
+- **Volatilità**: il prezzo dei bitcoin fluttua in modo significativo, creando difficoltà nella valutazione delle partecipazioni e nella previsione dei risultati finanziari futuri.
+- **Controllo normativo**: in paesi come la Cina, lo stato di restrizione dei bitcoin ne limita l'uso come attività di tesoreria.
+- **Incertezza normativa**: l'evoluzione del panorama normativo di bitcoin lascia spesso le aziende nel limbo. Ad esempio, i cambiamenti nelle politiche fiscali, come quelli in India o negli Stati Uniti, possono avere un impatto sulle pratiche contabili da un giorno all'altro.
+- **Rischi di cattiva gestione**: una classificazione impropria o il mancato monitoraggio delle transazioni dei bitcoin possono portare a problemi di conformità, sanzioni o danni alla reputazione.
+- **Rischi di riqualificazione**: mantenere una parte significativa della tesoreria di un'azienda in bitcoin espone l'azienda a potenziali perdite dovute a cali di prezzo. Ciò può avere gravi conseguenze, soprattutto se tali cali si verificano in occasione di pagamenti a fornitori, dipendenti o tasse. Inoltre, il proprietario dell'azienda potrebbe essere ritenuto responsabile, con conseguenti multe o altri problemi legali, come l'accusa di uso improprio dei beni aziendali.
 
 ## Strumenti e software di contabilità
 

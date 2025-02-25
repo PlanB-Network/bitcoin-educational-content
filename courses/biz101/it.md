@@ -331,7 +331,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 **Il futuro è incerto** e le aziende devono navigare in questa incertezza concentrandosi chiaramente sulla realizzazione di profitti e sulla conservazione del capitale. Secondo l'economia austriaca, **i profitti sono il segnale definitivo della salute di un'azienda**: dimostrano che l'azienda soddisfa in modo efficiente le esigenze dei consumatori. Senza profitti, un'azienda non può sostenersi, tanto meno crescere. Per rimanere in salute, un'azienda non deve solo generare profitti, ma anche pensare al futuro, **conservando il capitale per investimenti e sfide future**.
 
-**La conservazione del capitale** è fondamentale perché consente alle imprese di adattarsi e cogliere le opportunità in un mercato imprevedibile. Si tratta di trovare un equilibrio tra il reinvestimento degli utili per la crescita e il mantenimento di una riserva finanziaria per far fronte a potenziali flessioni. L'economia austriaca sottolinea l'importanza della **"preferenza temporale "**, ovvero le aziende devono decidere attentamente quanto dare priorità ai ritorni immediati rispetto agli investimenti per il successo a lungo termine. Un'azienda sana mantiene solide le proprie fondamenta finanziarie, assicurando flessibilità sia nei momenti positivi che in quelli negativi.
+**La conservazione del capitale** è fondamentale perché consente alle imprese di adattarsi e cogliere le opportunità in un mercato imprevedibile. Si tratta di trovare un equilibrio tra il reinvestimento degli utili per la crescita e il mantenimento di una riserva finanziaria per far fronte a potenziali flessioni. L'economia austriaca sottolinea l'importanza della _**"preferenza temporale "**_, ovvero le aziende devono decidere attentamente quanto dare priorità ai ritorni immediati rispetto agli investimenti per il successo a lungo termine. Un'azienda sana mantiene solide le proprie fondamenta finanziarie, assicurando flessibilità sia nei momenti positivi che in quelli negativi.
 
 I segnali del mercato, come i prezzi e la concorrenza, guidano le imprese a prendere decisioni intelligenti sull'allocazione delle risorse. Ascoltando questi segnali, le aziende possono evitare la trappola dell'eccesso di risorse o degli investimenti sbagliati, soprattutto quelli influenzati da fattori artificiali come il credito facile. Una cattiva allocazione delle risorse non solo mette a rischio la salute dell'azienda, ma riduce anche la sua capacità di servire efficacemente i clienti.
 
@@ -345,7 +345,7 @@ Riscopriamo cosa sia veramente il capitale, un termine così spesso frainteso e 
 
 Nella teoria economica tradizionale (keynesiana), il capitale è spesso visto in termini semplificati come uno stock omogeneo di beni fisici o finanziari, utilizzato principalmente per stimolare la domanda aggregata attraverso gli investimenti. È spesso associato alla concentrazione della ricchezza e al potere economico detenuto da una piccola élite. In un contesto in cui i divari di ricchezza continuano ad aumentare, molti considerano il capitale come un simbolo di disuguaglianza economica, soprattutto quando la ricchezza accumulata sembra non offrire alcun beneficio alla maggioranza.
 
-il "capitale" viene spesso dipinto come uno strumento di sfruttamento e questa prospettiva ha influenzato profondamente vari movimenti che vedono il capitale come intrinsecamente opposto agli interessi dei lavoratori. Ma è vero? O questa percezione potrebbe essere distorta da:
+Il _"capitale"_ viene spesso dipinto come uno strumento di sfruttamento e questa prospettiva ha influenzato profondamente vari movimenti che vedono il capitale come intrinsecamente opposto agli interessi dei lavoratori. Ma è vero? O questa percezione potrebbe essere distorta da:
 
 1. Una mancanza di comprensione dei meccanismi economici (anche da parte degli stessi economisti)?
 
@@ -359,9 +359,9 @@ il "capitale" viene spesso dipinto come uno strumento di sfruttamento e questa p
 
 6. La normalizzazione culturale della retorica anticapitalista?
 
-Fortunatamente, la Bitcoin ci costringe a ripensare tutto e a mettere in discussione queste nozioni preconcette. Esiste una scuola di pensiero, la Scuola Austriaca di Economia, che può far luce su questi temi e aiutarci a riconsiderare la vera natura del capitale.
+Fortunatamente, Bitcoin ci costringe a ripensare tutto e a mettere in discussione questi preconcetti. Esiste una scuola di pensiero, la Scuola Austriaca di Economia, che può far luce su questi temi e aiutarci a riconsiderare la vera natura del capitale.
 
-**C'era una volta*
+**C'era una volta**
 
 Cominciamo con una breve storia:
 
@@ -369,7 +369,7 @@ Cominciamo con una breve storia:
 
 Prima di iniziare a costruire la lancia, il pescatore decide di mettere da parte un po' di pesce per sostenersi durante il processo di costruzione. Mangia meno del solito per alcuni giorni, risparmiando abbastanza pesce per concentrarsi sul suo progetto. Questo pesce risparmiato rappresenta il suo **capitale**, una piccola riserva che gli permette di perseguire il suo obiettivo.
 
-Mentre dedica il suo tempo alla costruzione della lancia, fa affidamento sulle sue riserve, ritardando volentieri alcune delle sue comodità immediate (un riflesso della sua **preferenza per il tempo**). Dopo diversi giorni di duro lavoro, completa una lancia robusta.
+Mentre dedica il suo tempo alla costruzione della lancia, fa affidamento sulle sue riserve, ritardando volentieri alcune delle sue comodità immediate (un riflesso della sua **preferenza temporale**). Dopo diversi giorni di duro lavoro, completa una lancia robusta.
 
 ![BIZ101](assets/en/05.webp)
 
@@ -381,33 +381,33 @@ Questa storia illustra il ruolo fondamentale del capitale, della pazienza e dell
 
 La Scuola Austriaca di Economia prende il nome dai suoi fondatori e dai primi collaboratori, originari dell'Austria. Il nome è rimasto inalterato e da allora la scuola è diventata strettamente associata al pensiero liberale classico, che enfatizza la libertà individuale, il libero mercato e il minimo intervento dello Stato.
 
-**La prospettiva austriaca sul capitale
+**La prospettiva austriaca sul capitale**
 
 Nella visione austriaca, il capitale è profondamente legato all'idea di rinviare i consumi per costruire strumenti o risorse produttive che migliorino la produzione futura. Questo processo, noto come accumulazione di capitale, è centrale nella teoria economica austriaca. Gli elementi chiave di questa prospettiva includono:
 
 
-- Preferenza temporale e consumo differito**: Gli individui preferiscono naturalmente consumare ora piuttosto che in seguito, ma possono scegliere di rinviare i consumi se si aspettano maggiori ricompense in futuro. Risparmiando oggi, le risorse possono essere investite in beni capitali (strumenti, macchine, infrastrutture) che migliorano la produttività nel tempo. Le società o gli individui con una minore preferenza temporale risparmiano di più e investono in progetti a lungo termine, favorendo una crescita sostenibile.
-- Il capitale come motore della produzione futura**: I beni capitali sono considerati strumenti intermedi utilizzati per produrre beni di consumo finali. Accumulando capitale, gli imprenditori possono aumentare la produttività e creare maggiore ricchezza in futuro. Ad esempio, invece di produrre immediatamente beni di consumo, le risorse potrebbero essere utilizzate per costruire fabbriche o macchinari. Sebbene questo riduca i consumi a breve termine, l'efficienza che ne deriva consente una maggiore produzione e prosperità in seguito.
-- Produzione indiretta ed efficienza**: Gli economisti austriaci, come Eugen Böhm-Bawerk, hanno evidenziato l'idea della produzione indiretta - processi produttivi più lunghi e complessi che coinvolgono più fasi. Sebbene questi processi richiedano tempo, alla fine producono risultati più efficienti e produttivi, come la costruzione di una segheria per lavorare il legno piuttosto che la raccolta manuale dei tronchi.
-- I tassi di interesse come segnali**: I tassi di interesse, secondo la visione austriaca, riflettono naturalmente le preferenze temporali degli individui. Tassi elevati indicano una preferenza per il consumo immediato, mentre tassi bassi incoraggiano il risparmio e gli investimenti a lungo termine. Quando le banche centrali manipolano artificialmente i tassi di interesse, distorcono questi segnali naturali, portando a una cattiva allocazione delle risorse e a investimenti non sostenibili (malinvestimento).
+- **Preferenza temporale e consumo differito**: gli individui preferiscono naturalmente consumare ora piuttosto che in seguito, ma possono scegliere di rinviare i consumi se si aspettano maggiori ricompense in futuro. Risparmiando oggi, le risorse possono essere investite in beni capitali (strumenti, macchine, infrastrutture) che migliorano la produttività nel tempo. Le società o gli individui con una minore preferenza temporale risparmiano di più e investono in progetti a lungo termine, favorendo una crescita sostenibile.
+- **Il capitale come motore della produzione futura**: i beni capitali sono considerati strumenti intermedi utilizzati per produrre beni di consumo finali. Accumulando capitale, gli imprenditori possono aumentare la produttività e creare maggiore ricchezza in futuro. Ad esempio, invece di produrre immediatamente beni di consumo, le risorse potrebbero essere utilizzate per costruire fabbriche o macchinari. Sebbene questo riduca i consumi a breve termine, l'efficienza che ne deriva consente una maggiore produzione e prosperità in seguito.
+- **Produzione indiretta ed efficienza**: gli economisti austriaci, come Eugen Böhm-Bawerk, hanno evidenziato l'idea della produzione indiretta - processi produttivi più lunghi e complessi che coinvolgono più fasi. Sebbene questi processi richiedano tempo, alla fine producono risultati più efficienti e produttivi, come la costruzione di una segheria per lavorare il legno piuttosto che la raccolta manuale dei tronchi.
+- **I tassi di interesse come segnali**: i tassi di interesse, secondo la visione austriaca, riflettono naturalmente le preferenze temporali degli individui. Tassi elevati indicano una preferenza per il consumo immediato, mentre tassi bassi incoraggiano il risparmio e gli investimenti a lungo termine. Quando le banche centrali manipolano artificialmente i tassi di interesse, distorcono questi segnali naturali, portando a una cattiva allocazione delle risorse e a investimenti non sostenibili (malinvestimento).
 
 **Le due forme di capitale nelle economie moderne**
 
-Nel quadro del sistema monetario basato sul debito in cui operiamo, **esiste un secondo tipo di capitale**: quello generato istantaneamente quando una banca crea un prestito attraverso un semplice meccanismo di credito. Si tratta di una creazione di liquidità ex nihilo, in cui la banca presta denaro che non detiene in anticipo, ma che crea sulla base di una promessa di rimborso.
+Nel quadro del sistema monetario basato sul debito in cui operiamo, **esiste un secondo tipo di capitale**: quello generato istantaneamente quando una banca crea un prestito attraverso un semplice meccanismo di credito. Si tratta di una creazione di liquidità ex novo, in cui la banca presta denaro che non detiene in anticipo, ma che crea sulla base di una promessa di rimborso.
 
-Da un lato, il capitale "austriaco" è il risultato di un risparmio reale, un processo che comporta decisioni economiche ponderate e sacrifici meticolosi. Dall'altro lato, il capitale generato attraverso la creazione di denaro a debito è un costrutto istantaneo e artificiale. Questi due tipi di capitale, sebbene **superficialmente simili nel loro utilizzo per finanziare progetti, sono fondamentalmente diversi per natura**.
+Da un lato, il capitale _"austriaco"_ è il risultato di un risparmio reale, un processo che comporta decisioni economiche ponderate e sacrifici meticolosi. Dall'altro lato, il capitale generato attraverso la creazione di denaro a debito è un costrutto istantaneo e artificiale. Questi due tipi di capitale, sebbene **superficialmente simili nel loro utilizzo per finanziare progetti, sono fondamentalmente diversi per natura**.
 
 Queste due forme di capitale non dovrebbero mai essere confuse, eppure all'interno di un sistema basato sul debito spesso lo sono, **distorcendo i segnali economici** e portando spesso a malinvestimenti. Questo fraintendimento spiega perché il capitalismo riceve spesso critiche ingiustificate
 
 **Il problema principale del keynesianesimo**
 
-Le politiche keynesiane, ampiamente adottate dalle élite globali, manipolano i tassi di interesse e stimolano la domanda attraverso il debito. Ciò incoraggia il flusso di risorse verso progetti a breve termine e non sostenibili, amplificando i cicli economici e ritardando la vera crescita radicata nel risparmio e negli investimenti produttivi. I leader aziendali osservano questa politica dannosa in prima persona, poiché le aziende sane vengono spinte ad effettuare acquisizioni sopravvalutate alla ricerca di rendimenti gonfiati, minando la crescita organica e sostenibile.
+Le politiche keynesiane, ampiamente adottate dall'élite globali, manipolano i tassi di interesse e stimolano la domanda attraverso il debito. Ciò incoraggia il flusso di risorse verso progetti a breve termine e non sostenibili, amplificando i cicli economici e ritardando la vera crescita radicata nel risparmio e negli investimenti produttivi. I leader aziendali osservano questa politica dannosa in prima persona, poiché le aziende sane vengono spinte ad effettuare acquisizioni sopravvalutate alla ricerca di rendimenti gonfiati, minando la crescita organica e sostenibile.
 
-In un simile contesto, come può il capitale "sano", accuratamente salvato dagli imprenditori, competere con il capitale "malsano" creato artificialmente? Inoltre, l'espansione unilaterale dell'offerta di moneta erode il potere d'acquisto del capitale sano, esacerbando il disorientamento economico e l'insoddisfazione della società.
+In un simile contesto, come può il capitale _"sano"_, accuratamente salvato dagli imprenditori, competere con il capitale _"malsano"_ creato artificialmente? Inoltre, l'espansione unilaterale dell'offerta di moneta erode il potere d'acquisto del capitale sano, esacerbando il disorientamento economico e l'insoddisfazione della società.
 
 **Un barlume di speranza: Bitcoin**
 
-Il Bitcoin offre un modo per accumulare e conservare il capitale a lungo termine senza l'erosione causata dall'inflazione monetaria. Come riserva di valore, consente alle aziende di pianificare gli investimenti futuri con resilienza, sfidando il dominio dei sistemi basati sul debito e favorendo il ritorno a una vera accumulazione di capitale produttivo.
+Bitcoin offre un modo per accumulare e conservare il capitale a lungo termine senza l'erosione causata dall'inflazione monetaria. Come riserva di valore, consente alle aziende di pianificare gli investimenti futuri con resilienza, sfidando il dominio dei sistemi basati sul debito e favorendo il ritorno a una vera accumulazione di capitale produttivo.
 
 ### Per saperne di più sulla scuola austriaca di economia
 
@@ -416,16 +416,16 @@ La **Scuola austriaca di economia** è una tradizione di pensiero economico che 
 **Figure chiave della Scuola Austriaca**
 
 
-- Carl Menger**: Fondatore della Scuola Austriaca, Menger sviluppò la teoria del valore soggettivo, che afferma che il valore dei beni dipende dalle preferenze individuali piuttosto che dai costi di produzione.
-- Ludwig von Mises**: Pietra miliare della Scuola Austriaca, Mises introdusse la prasseologia (la teoria dell'azione umana) e fu autore di _Azione umana_, una profonda critica del socialismo e della pianificazione centrale.
-- Friedrich Hayek**: Allievo di Mises, Hayek ha vinto il Premio Nobel per l'Economia nel 1974 per il suo lavoro sulla conoscenza decentralizzata e sulla spontaneità del mercato. Nel suo libro _La strada per la servitù_, criticò fortemente il controllo centralizzato.
-- Murray Rothbard**: Discepolo di Mises e convinto sostenitore del libertarismo, Rothbard ha sviluppato la teoria dell'anarco-capitalismo, immaginando una società senza Stato governata da contratti volontari. Il suo libro _Uomo, economia e Stato_ è un'opera fondamentale dell'economia austriaca.
+- **Carl Menger**: fondatore della Scuola Austriaca, Menger sviluppò la teoria del valore soggettivo, che afferma che il valore dei beni dipende dalle preferenze individuali piuttosto che dai costi di produzione.
+- **Ludwig von Mises**: pietra miliare della Scuola Austriaca, Mises introdusse la prasseologia (la teoria dell'azione umana) e fu autore di _Azione umana_, una profonda critica del socialismo e della pianificazione centrale.
+- **Friedrich Hayek**: allievo di Mises, Hayek ha vinto il Premio Nobel per l'Economia nel 1974 per il suo lavoro sulla conoscenza decentralizzata e sulla spontaneità del mercato. Nel suo libro _La strada per la servitù_, criticò fortemente il controllo centralizzato.
+- **Murray Rothbard**: discepolo di Mises e convinto sostenitore del libertarismo, Rothbard ha sviluppato la teoria dell'anarco-capitalismo, immaginando una società senza Stato governata da contratti volontari. Il suo libro _Uomo, economia e Stato_ è un'opera fondamentale dell'economia austriaca.
 
-**Altri economisti influenti
+**Altri economisti influenti**
 
 
-- Milton Friedman**: Pur non essendo direttamente associato alla Scuola Austriaca, Friedman ha sostenuto molte idee liberali e a favore del mercato. La sua politica monetarista differisce dal pensiero austriaco, ma ne condivide la critica all'eccessivo intervento dello Stato nell'economia.
-- Frédéric Bastiat**: Economista francese del XIX secolo, Bastiat ha influenzato la Scuola Austriaca con le sue opere sul libero scambio e sulle conseguenze invisibili delle politiche economiche. Il suo saggio _Quello che si vede e quello che non si vede_ è un testo fondamentale del liberalismo economico.
+- **Milton Friedman**: pur non essendo direttamente associato alla Scuola Austriaca, Friedman ha sostenuto molte idee liberali e a favore del mercato. La sua politica monetarista differisce dal pensiero austriaco, ma ne condivide la critica all'eccessivo intervento dello Stato nell'economia.
+- **Frédéric Bastiat**: economista francese del XIX secolo, Bastiat ha influenzato la Scuola Austriaca con le sue opere sul libero scambio e sulle conseguenze invisibili delle politiche economiche. Il suo saggio _Quello che si vede e quello che non si vede_ è un testo fondamentale del liberalismo economico.
 
 ![BIZ101](assets/en/06.webp)
 

@@ -429,7 +429,7 @@ La **Scuola austriaca di economia** è una tradizione di pensiero economico che 
 
 ![BIZ101](assets/en/06.webp)
 
-*Attribuzione: Istituto Ludwig von Mises*
+*Credit: Istituto Ludwig von Mises*
 
 **Contributi e idee fondamentali**
 
@@ -575,38 +575,38 @@ A causa di queste differenze, **alcuni imprenditori scelgono di acquistare e det
 
 ### Tre metodi di acquisizione
 
-Esistono tre modi per acquisire Bitcoin:
+Esistono tre modi per acquisire bitcoin:
 
 ![BIZ101](assets/en/09.webp)
 
 
-- In cambio di beni o servizi:**
+- **In cambio di beni o servizi:**
 
-Poiché il Bitcoin funziona come mezzo di scambio, è possibile immaginare un'economia circolare. Anche se oggi è ancora poco diffuso, sempre più aziende stanno iniziando ad accettare pagamenti in Bitcoin: perché non la vostra? (Vedi il prossimo capitolo)
-
-
-- Estrazione di Bitcoin:**
-
-Si tratta di guadagnare compensi dal funzionamento delle macchine da miniera. Per le aziende non specializzate, questo aspetto rimane relativamente marginale. Potete partecipare attraverso intermediari che vi vendono o affittano i computer, la rete e la manutenzione. Se possedete le macchine, potete contabilizzarle come beni ammortizzabili. Su larga scala, dovrete calcolare attentamente il ritorno sull'investimento perché il mercato è altamente competitivo e richiede una buona anticipazione dei costi, in particolare dell'elettricità.
-
-Per conoscere i metodi di estrazione, è possibile [consultare la sezione "estrazione" nei nostri tutorial](https://planb.network/tutorials/mining).
+Poiché Bitcoin funziona come mezzo di scambio, è possibile immaginare un'economia circolare. Anche se oggi è ancora poco diffuso, sempre più aziende stanno iniziando ad accettare pagamenti in Bitcoin: perché non la vostra? (Vedi il prossimo capitolo)
 
 
-- Acquistare Bitcoin:**
+- **Mining di bitcoin:**
 
-Questo è di gran lunga il metodo più comune, effettuato tramite scambi peer-to-peer o, più tipicamente, su piattaforme di trading specializzate. Ma quando acquistano Bitcoin come asset di tesoreria aziendale, le aziende devono rispettare solidi standard normativi e procedure Know-Your-Customer (KYC). Quando lo acquistano su piattaforme di trading specializzate, le aziende sono in genere tenute a fornire informazioni aziendali dettagliate, tra cui documenti di identificazione, rendiconti finanziari e prove di indirizzo, per soddisfare i requisiti KYC e antiriciclaggio (AML).
+Si tratta di guadagnare compensi dal funzionamento delle macchine per il mining. Per le aziende non specializzate, questo aspetto rimane relativamente marginale. Potete partecipare attraverso intermediari che vi vendono o affittano i computer, la rete e la manutenzione. Se possedete le macchine, potete contabilizzarle come beni ammortizzabili. Su larga scala, dovrete calcolare attentamente il ritorno sull'investimento perché il mercato è altamente competitivo e richiede una buona anticipazione dei costi, in particolare dell'elettricità.
+
+Per conoscere i metodi di estrazione, è possibile [consultare la sezione _"mining"_ nei nostri tutorial](https://planb.network/tutorials/mining).
+
+
+- **Acquistare bitcoin:**
+
+Questo è di gran lunga il metodo più comune, effettuato tramite scambi peer-to-peer o, più tipicamente, su piattaforme di trading specializzate. Ma quando acquistano bitcoin come asset di tesoreria aziendale, le aziende devono rispettare solidi standard normativi e procedure Know-Your-Customer (KYC). Quando lo acquistano su piattaforme di trading specializzate, le aziende sono in genere tenute a fornire informazioni aziendali dettagliate, tra cui documenti di identificazione, rendiconti finanziari e prove di indirizzo, per soddisfare i requisiti KYC e antiriciclaggio (AML).
 
 Per sapere come aprire un conto aziendale e utilizzarlo per acquistare, vendere e trasferire bitcoin, potete consultare questi due tutorial specificamente pensati per le aziende, che coprono le piattaforme Kraken e Bitfinex nelle loro versioni aziendali:
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-Per saperne di più sui metodi di acquisizione dei bitcoin tramite un exchange o un peer-to-peer, potete [consultare la sezione "exchange" nei nostri tutorial](https://planb.network/tutorials/exchange).
+Per saperne di più sui metodi di acquisizione dei bitcoin tramite un exchange o un peer-to-peer, potete [consultare la sezione _"exchange"_ nei nostri tutorial](https://planb.network/tutorials/exchange).
 
 ![BIZ101](assets/en/16.webp)
 
 ### A che prezzo?
 
-Come già detto, non solo è impossibile prevedere il prezzo futuro del Bitcoin, ma il prezzo è anche molto volatile nel breve termine. Storicamente, una strategia affidabile consiste nell'accumulare gradualmente a intervalli regolari e mantenere un orizzonte temporale di quattro anni o più.
+Come già detto, non solo è impossibile prevedere il prezzo futuro di bitcoin, ma il prezzo è anche molto volatile nel breve termine. Storicamente, una strategia affidabile consiste nell'accumulare gradualmente a intervalli regolari e mantenere un orizzonte temporale di quattro anni o più.
 
 ### Quanto si dovrebbe acquistare?
 
@@ -614,64 +614,64 @@ Controintuitivamente, è probabilmente meglio iniziare con un acquisto molto pic
 
 Come già detto, è saggio investire solo la liquidità in eccesso di cui non si avrà bisogno per diversi anni. Qualsiasi strategia mal compresa rischia di mettervi in una posizione difficile se avete improvvisamente bisogno di incassare in un momento sbagliato.
 
-Oltre a iniziare in piccolo, è utile che le tesorerie aziendali adottino una strategia di allocazione misurata. Da un lato, alcune società, come MicroStrategy, hanno adottato un approccio estremo impegnando una parte sostanziale dei loro fondi di tesoreria in eccesso in Bitcoin, riflettendo una forte convinzione istituzionale. Al contrario, una strategia più conservativa e probabilmente razionale potrebbe prevedere l'allocazione di circa il 5% della tesoreria aziendale al Bitcoin, bilanciando i potenziali guadagni con la gestione del rischio e i requisiti di liquidità.
+Oltre a iniziare in piccolo, è utile che le tesorerie aziendali adottino una strategia di allocazione misurata. Da un lato, alcune società, come MicroStrategy, hanno adottato un approccio estremo impegnando una parte sostanziale dei loro fondi di tesoreria in eccesso in bitcoin, riflettendo una forte convinzione istituzionale. Al contrario, una strategia più conservativa e probabilmente razionale potrebbe prevedere l'allocazione di circa il 5% della tesoreria aziendale in bitcoin, bilanciando i potenziali guadagni con la gestione del rischio e i requisiti di liquidità.
 
-Visualizzate questo spettro come una scala, da un'esposizione minima, che assicura alla società una liquidità sufficiente per le esigenze operative, a una posizione aggressiva volta a sfruttare il previsto apprezzamento del valore del Bitcoin a lungo termine. Mentre un'allocazione aggressiva può produrre rendimenti più elevati, un'allocazione modesta contribuisce a mitigare la volatilità, assicurando che le fondamenta finanziarie dell'azienda rimangano sicure, pur beneficiando del potenziale innovativo del Bitcoin nell'ambito delle sue operazioni di tesoreria.
+Visualizzate questo spettro come una scala, da un'esposizione minima, che assicura alla società una liquidità sufficiente per le esigenze operative, a una posizione aggressiva volta a sfruttare il previsto apprezzamento del valore economico di bitcoin a lungo termine. Mentre un'allocazione aggressiva può produrre rendimenti più elevati, un'allocazione modesta contribuisce a mitigare la volatilità, assicurando che le fondamenta finanziarie dell'azienda rimangano sicure, pur beneficiando del potenziale innovativo di Bitcoin nell'ambito delle sue operazioni di tesoreria.
 
 ### Quanto spesso?
 
-Non esiste una regola ferrea. Cercare di temporizzare il mercato andando a caccia di "cali" può essere meno efficace e più stressante che acquistare semplicemente a intervalli regolari. Anche gli investitori più esperti a volte sbagliano. Fare "all-in" in una volta sola può essere un'arma a doppio taglio.
+Non esiste una regola ferrea. Cercare di temporizzare il mercato andando a caccia di _"dips"_ (cali di valore) può essere meno efficace e più stressante che acquistare semplicemente a intervalli regolari. Anche gli investitori più esperti a volte sbagliano. Fare _"all-in"_ in una volta sola può essere un'arma a doppio taglio.
 
-In realtà, il potenziale di apprezzamento del Bitcoin è tale che, anche se si dovesse iniziare solo qualche anno più avanti, è probabile che si vedano comunque guadagni a lungo termine. È vero, è probabile che le grandi oscillazioni di prezzo diminuiscano d'intensità nel tempo. Tuttavia, in quanto moneta deflazionistica, il Bitcoin è progettato per immagazzinare efficacemente il valore e riflettere i guadagni di produttività dei suoi utenti. Per fare un'analogia: attualmente siamo nella "fase di lancio" del Bitcoin, una valuta in divenire, e nessuno conosce ancora il suo valore equo. Più avanti, forse tra 20 o 40 anni, quando sarà in una "fase di crociera" stabile, potrebbe essere incredibilmente stabile e crescere costantemente con gli aumenti di produttività della società.
+In realtà, il potenziale di apprezzamento di bitcoin è tale che, anche se si dovesse iniziare solo qualche anno più avanti, è probabile che si vedano comunque guadagni a lungo termine. È vero, è probabile che le grandi oscillazioni di prezzo diminuiscano d'intensità nel tempo. Tuttavia, in quanto moneta deflazionistica, Bitcoin è progettato per immagazzinare efficacemente il valore e riflettere i guadagni di produttività dei suoi utenti. Per fare un'analogia: attualmente siamo nella _"fase di lancio"_ di Bitcoin, una valuta in divenire, e nessuno conosce ancora il suo valore equo. Più avanti, forse tra 20 o 40 anni, quando sarà in una _"fase di crociera"_ stabile, potrebbe essere incredibilmente stabile e crescere costantemente con gli aumenti di produttività della società.
 
-L'industria immobiliare ripete spesso che "è sempre il momento giusto per comprare", dimenticando che se gli immobili dovessero perdere la loro funzione di deposito di valore - passando ad asset come il Bitcoin - i prezzi potrebbero tornare più vicini al loro valore di utilità (rifugio). Il Bitcoin, invece, non ha altro scopo se non quello di immagazzinare valore, il che potrebbe significare che "è sempre il momento giusto per comprare" Il futuro ce lo dirà.
+L'industria immobiliare ripete spesso che _"è sempre il momento giusto per comprare"_, dimenticando che se gli immobili dovessero perdere la loro funzione di deposito di valore _passando ad asset come Bitcoin_ i prezzi potrebbero tornare più vicini al loro valore di utilità (riparo). Bitcoin, invece, non ha altro scopo se non quello di immagazzinare valore, il che potrebbe significare che _"è sempre il momento giusto per comprare"_. Il futuro ce lo dirà.
 
 ![BIZ101](assets/en/13.webp)
 
-*Credito: [Bitcoin Office](https://bitcoin.gob.sv/)*
+*Credit: [Bitcoin Office](https://bitcoin.gob.sv/)*
 
 ### In quale forma acquistare? (Metodi di custodia)
 
-Non si possiede fisicamente il Bitcoin. Si possiede invece una chiave crittografica che consente di trasferire la proprietà di alcune o tutte le unità di conto a una o più altre chiavi crittografiche. Tutto questo avviene sulla blockchain di Bitcoin, replicata in decine di migliaia di nodi in tutto il mondo.
+Non si possiede fisicamente bitcoin. Si possiede invece una chiave crittografica che consente di trasferire la proprietà di alcune o tutte le unità di conto ad altre singole o molteplici chiavi crittografiche. Tutto questo avviene sulla blockchain di Bitcoin, replicata in decine di migliaia di nodi in tutto il mondo.
 
-Questa chiave crittografica è un numero casuale estremamente grande. Per semplificare l'esperienza dell'utente, viene spesso rappresentata come una sequenza di 12 o 24 parole. Queste parole possono essere caricate su un dispositivo fisico noto come "portafoglio hardware" Tuttavia, è bene ricordare che i bitcoin non sono "all'interno" di questo dispositivo: si tratta semplicemente di uno strumento per firmare crittograficamente le transazioni e trasmetterle alla rete. Ciò che conta veramente sono le 12 o 24 parole, che devono essere tenute al sicuro.
+Questa chiave crittografica è un numero casuale estremamente grande. Per semplificare l'esperienza dell'utente, viene spesso rappresentata come una sequenza di 12 o 24 parole. Queste parole possono essere caricate su un dispositivo fisico noto come _"hardware wallet"_. Tuttavia, è bene ricordare che i bitcoin non sono _"all'interno"_ di questo dispositivo: si tratta semplicemente di uno strumento per firmare crittograficamente le transazioni e trasmetterle nel network. Ciò che conta veramente sono le 12 o 24 parole, che devono essere tenute al sicuro.
 
-Questo porta alla questione della custodia: detenere Bitcoin significa detenere le chiavi. O le detenete voi stessi, o delegate il compito a una terza parte. Esistono anche soluzioni intermedie. Passiamo in rassegna gli scenari più comuni:
-
-
-- Autotutela:**
-
-Questa è l'opzione consigliata dai veri appassionati di Bitcoin, in quanto è in linea con il progetto originale di Bitcoin. L'utente agisce come la propria banca: non c'è rischio di frode da parte di terzi, ma è responsabile della sicurezza delle chiavi. Avete pieno accesso ai vostri fondi 24 ore su 24, 7 giorni su 7. In un contesto aziendale, se più persone hanno bisogno di effettuare transazioni, è necessario disporre di strumenti e procedure adeguate per gestire l'accesso e la sicurezza.
+Questo porta alla questione della custodia: detenere dei bitcoin significa detenere le chiavi. O le detenete voi stessi, o delegate il compito a una terza parte. Esistono anche soluzioni intermedie. Passiamo in rassegna gli scenari più comuni:
 
 
-- Custodia di terzi:**
+- **Autotutela:**
+
+Questa è l'opzione consigliata dai veri appassionati di Bitcoin, in quanto è in linea con il progetto originale di Bitcoin. L'utente agisce come la propria banca: non c'è rischio di frode da parte di terzi, ma si è responsabili della sicurezza delle chiavi. Avete pieno accesso ai vostri fondi 24 ore su 24, 7 giorni su 7. In un contesto aziendale, se più persone hanno bisogno di effettuare transazioni, è necessario disporre di strumenti e procedure adeguate per gestire l'accesso e la sicurezza.
+
+
+- **Custodia di terzi:**
 
 Ad esempio, una borsa o un servizio di acquisto possono creare un conto per voi, convertire la vostra valuta tradizionale in Bitcoin e conservarla per vostro conto utilizzando i loro sistemi di sicurezza. La maggior parte di questi servizi consente di ritirare i bitcoin in un portafoglio di cui solo voi possedete la chiave. Finché non lo fate, non possedete veramente i bitcoin; vi affidate alla loro promessa di restituirvi i soldi. Questo comporta un bilanciamento tra i rischi di sicurezza (i loro contro i vostri) e il rischio di controparte (potrebbero fallire o scomparire). Per alcune aziende questa soluzione è accettabile, ma in genere non è consigliata per lo stoccaggio a lungo termine o per il 100% della vostra allocazione. I servizi di custodia possono anche addebitare le spese di custodia.
 
 
-- "Bitcoin di carta" (ETF o ETP):**
+- **_"Bitcoin di carta"_ (ETF o ETP):**
 
-Si tratta di strumenti finanziari tradizionali che rappresentano frazioni di Bitcoin, replicandone la performance di prezzo. L'istituto che sta dietro al prodotto teoricamente acquista e detiene il Bitcoin sottostante. I contributi e i prelievi vengono effettuati in valuta tradizionale (ad esempio, dollari o euro), non in Bitcoin. Ad eccezione di alcuni prodotti che consentono il prelievo in Bitcoin effettivi (per evitare un evento imponibile in alcune giurisdizioni), questi strumenti comportano commissioni di gestione annuali. In questo caso, ci si affida alla sicurezza dell'istituzione e si affronta il rischio di controparte (ad esempio, se un governo decidesse di confiscare tutti i Bitcoin detenuti dalle istituzioni, come è accaduto con l'oro nel 1933 in base all'Ordine esecutivo americano 6102). Il loro vantaggio principale è la facilità di accesso, in quanto vengono distribuiti attraverso i canali finanziari tradizionali. Non richiedono la protezione delle chiavi crittografiche, ma non offrono nessuna delle proprietà intrinseche del Bitcoin: non è possibile utilizzare la rete Bitcoin 24 ore su 24, 7 giorni su 7, per spostare liberamente il valore senza autorizzazione. Replicano solo la performance finanziaria, non la funzionalità o la sovranità del Bitcoin stesso.
+Si tratta di strumenti finanziari tradizionali che rappresentano frazioni di bitcoin, replicandone la performance di prezzo. L'istituto che sta dietro al prodotto teoricamente acquista e detiene come sottostante i bitcoin. I acquisti e i prelievi vengono effettuati in valuta tradizionale (ad esempio, dollari o euro), non in bitcoin. Ad eccezione di alcuni prodotti che consentono il prelievo in Bitcoin effettivi (per evitare un evento imponibile in alcune giurisdizioni), questi strumenti comportano commissioni di gestione annuali. In questo caso, ci si affida alla sicurezza dell'istituzione e si affronta il rischio di controparte (ad esempio, se un governo decidesse di confiscare tutti i bitcoin detenuti dalle istituzioni, come è accaduto con l'oro nel 1933 in base all'Ordine Esecutivo americano 6102). Il loro vantaggio principale è la facilità di accesso, in quanto vengono distribuiti attraverso i canali finanziari tradizionali. Non richiedono la protezione delle chiavi crittografiche, ma non offrono nessuna delle proprietà intrinseche di Bitcoin: non è possibile utilizzare il network Bitcoin 24 ore su 24, 7 giorni su 7, per spostare liberamente il valore senza autorizzazione. Replicano solo la performance finanziaria, non la funzionalità o la sovranità di Bitcoin stesso.
 
 ![BIZ101](assets/en/15.webp)
 
-Inoltre, la forma in cui si detiene Bitcoin influisce in modo significativo sulle misure di sicurezza necessarie per salvaguardare la tesoreria aziendale. Sia che si scelga l'autodeposito, utilizzando portafogli hardware a firma singola o multipla, ecc. per mantenere il controllo diretto delle chiavi, sia che si deleghi questo compito a servizi di custodia di terzi o a ETF, ogni opzione comporta un proprio profilo di rischio. Ad esempio, l'autocustodia offre un accesso completo ma richiede rigorosi protocolli di sicurezza interni, mentre le soluzioni di terzi riducono l'onere di gestione al costo del rischio di controparte. Per illustrare ulteriormente le distinzioni, questo grafico illustra il modello di sicurezza per ogni tipo di custodia, aiutandovi a selezionare l'approccio più adatto alle esigenze della vostra organizzazione:
+Inoltre, la forma in cui si detengono dei bitcoin influisce in modo significativo sulle misure di sicurezza necessarie per salvaguardare la tesoreria aziendale. Sia che si scelga l'autodeposito, utilizzando portafogli hardware a firma singola o multipla, ecc. per mantenere il controllo diretto delle chiavi, sia che si deleghi questo compito a servizi di custodia di terzi o a ETF, ogni opzione comporta un proprio profilo di rischio. Ad esempio, l'autocustodia offre un accesso completo ma richiede rigorosi protocolli di sicurezza interni, mentre le soluzioni di terzi riducono l'onere di gestione al costo del rischio di controparte. Per illustrare ulteriormente le distinzioni, questo grafico illustra il modello di sicurezza per ogni tipo di custodia, aiutandovi a selezionare l'approccio più adatto alle esigenze della vostra organizzazione:
 
 ![BIZ101](assets/en/14.webp)
 
 ### Da chi comprare?
 
-Se si opta per il "Bitcoin cartaceo", ci si rivolge a istituzioni finanziarie come banche o borse valori online.
+Se si opta per il _"bitcoin cartaceo"_, ci si rivolge a istituzioni finanziarie come banche o borse valori online.
 
-Se si sceglie di acquistare Bitcoin reali attraverso un marketplace (exchange) o un broker, si hanno diverse categorie principali:
+Se si sceglie di acquistare bitcoin reali attraverso un marketplace (exchange) o un broker, si hanno diverse categorie principali:
 
 
-- Grandi piattaforme internazionali o estere:**
+- **Grandi piattaforme internazionali o estere:**
 
 Tra gli esempi vi sono Kraken, Coinbase o Binance, storicamente utilizzati da molti privati. Alcuni hanno riscontrato problemi ed è difficile dare una raccomandazione chiara. Un consiglio: se li utilizzate, non lasciate i vostri bitcoin lì più del necessario.
 
 
-- Fornitori di servizi regolamentati (fornitori di servizi di asset digitali registrati):**
+- **Fornitori di servizi regolamentati (fornitori di servizi di asset digitali registrati):**
 
 Ad esempio, in Francia piattaforme come Paymium (exchange) o BullBitcoin (broker) sono note per avere al timone veri appassionati di Bitcoin e hanno costruito un solido track record. Negli Stati Uniti ci sono fornitori di servizi come River o Swann. In generale, è importante esaminare il pedigree del fornitore: la sua reputazione, il suo curriculum, la sua popolarità all'interno della comunità Bitcoin e se la sua leadership è allineata con i valori fondamentali di Bitcoin.
 
@@ -681,15 +681,15 @@ Ad esempio, in Francia piattaforme come Paymium (exchange) o BullBitcoin (broker
 - Un **exchange** vi permette di piazzare ordini di acquisto al prezzo che scegliete, ma dovete aspettare l'esecuzione fino a quando il prezzo di mercato e i venditori si allineano.
 - Un **broker** vi offre un prezzo fisso e può completare la transazione più rapidamente.
 
-Oltre alle commissioni e alla velocità di esecuzione, che contano meno se si pensa a lungo termine (diversi anni), un'azienda dovrebbe considerare anche le spese:
+Oltre alle commissioni e alla velocità di esecuzione, _che contano meno se si pensa a lungo termine (diversi anni)_, un'azienda dovrebbe considerare anche:
 
 
-- Interfaccia utente:** La piattaforma è di facile utilizzo?
-- Caratteristiche contabili:** Come minimo, la possibilità di esportare la cronologia delle transazioni in formato .CSV.
-- Custodia e sicurezza:** La piattaforma detiene i bitcoin per conto dell'utente o ne trasferisce la proprietà a quest'ultimo? Qual è la loro configurazione di sicurezza? Hanno "blocchi di prelievo" o altre limitazioni di prelievo?
-- Assistenza clienti:** La qualità, la reattività e l'assistenza personalizzata, soprattutto quando si inizia.
-- Reputazione ed ethos:** Affidabilità e valori della piattaforma.
-- Supporto per gli acquisti ricorrenti:** Se avete intenzione di accumulare Bitcoin nel tempo con acquisti programmati.
+- **Interfaccia utente:** la piattaforma è di facile utilizzo?
+- **Caratteristiche contabili:** come minimo, la possibilità di esportare la cronologia delle transazioni in formato .CSV.
+- **Custodia e sicurezza:** la piattaforma detiene i bitcoin per conto dell'utente o ne trasferisce la proprietà a quest'ultimo? Qual è la loro configurazione di sicurezza? Hanno _"franchige di prelievo"_ o altre limitazioni di prelievo?
+- **Assistenza clienti:** la qualità, la reattività e l'assistenza personalizzata, soprattutto quando si inizia.
+- **Reputazione ed ethos:** affidabilità e valori della piattaforma.
+- **Supporto per gli acquisti ricorrenti:** se avete intenzione di accumulare dei bitcoin nel tempo con acquisti programmati.
 
 # Soluzioni di pagamento Bitcoin su misura per ogni azienda
 

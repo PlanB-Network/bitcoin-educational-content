@@ -131,6 +131,8 @@ Literally EVERY LANGUAGE is needed!
 <img src="https://weblate.planb.network/widget/planb-network-website/website-elements/multi-auto.svg" alt="Translation status" />
 </a>
 
+The image above displays the percentage of static elements on our website that have been translated, per language.
+
 ### The 8-step process to add a new language on PBN
 
 If you are enthusiastic about this initiative and you would like to help us, please add your local language to the github repo and the website. Kindly follow the following steps:

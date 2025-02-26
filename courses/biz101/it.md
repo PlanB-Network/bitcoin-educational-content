@@ -438,8 +438,11 @@ Questi pensatori hanno dato forma all'idea che l'intervento dello Stato distorce
 Per ulteriori informazioni su questo argomento:
 
 https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+
 https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+
 ## Detenzione di bitcoin in tesoreria
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>

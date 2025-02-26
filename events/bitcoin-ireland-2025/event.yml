@@ -1,0 +1,19 @@
+id: 7e80adaa-ea83-4025-a90c-3620428a5aec
+start_date: 2025-05-24 08:00:00
+end_date: 2025-05-24 17:00:00
+timezone: Europe/Dublin
+address_line_1: The Green Isle Hotel Dublin, Dublin, Ireland
+name: Bitcoin Ireland 2025
+builder: Bitcoin Ireland
+type: conference
+description: Our mission is to connect Irish based Bitcoiners, support & promote Bitcoin friendly businesses, educate the public & provide an online resource for anyone who's interested in learning more. We do this because we believe Bitcoin can help make the world a better place.
+language:
+  - en
+links:
+  website: https://www.bitcoinireland.eu/home
+tags:
+  - adoption
+  - software
+  - future-outlook
+
+project_id: 6bf543a6-638f-4467-839e-78b596a77381

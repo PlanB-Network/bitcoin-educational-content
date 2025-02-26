@@ -1,0 +1,18 @@
+id: 26156f07-b29a-4fe2-b9bc-f809f6e2d7a7
+start_date: 2025-06-06 09:00:00
+end_date: 2025-06-07 17:00:00
+timezone: Europe/Madrid
+address_line_1: Barcelona, Spain
+name: Barcelona Cypherpunks Conference 25
+builder: Barcelona Cyphers Conference
+type: conference
+description: BCC8333 aims to create a yearly gathering to unite open-source developers, builders, and freedom fighters to collaborate and find solutions to their most pressing challenges. We strive to empower individuals with the tools, resources, and knowledge needed to overcome obstacles in building accessible, secure, and privacy-respecting technologies.
+language:
+  - es
+links:
+  website: https://tickets.bcc8333.com/
+tags:
+  - self-sovereignty
+  - cypherpunk
+
+project_id: 6d6cedde-3ba0-4eaa-b539-676132a89d27

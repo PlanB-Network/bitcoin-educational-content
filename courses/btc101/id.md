@@ -1,4 +1,4 @@
---- 
+--- try
 name: Perjalanan Bitcoin
 goal: Temukan dasar-dasar Bitcoin, termasuk proposisi nilai moneter, penambang, transaksi, dan dompet.
 objectives:

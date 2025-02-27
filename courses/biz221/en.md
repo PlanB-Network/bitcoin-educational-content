@@ -1152,6 +1152,8 @@ Plan ₿ Biz School is more than just a course—it’s a growing educational in
 
 Stay tuned—more details coming soon!
 
+https://planb.network/en/courses/c762773a-9017-4129-bc0e-06adf86050ef
+
 # Conclusion
 <partId>891d2578-3bba-4be4-9ace-e480265a0800</partId>
 

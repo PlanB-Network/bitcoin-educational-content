@@ -87,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.2
+tags:
+  - software
+  - node
+  - wallets

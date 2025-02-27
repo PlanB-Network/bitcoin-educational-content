@@ -107,3 +107,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - keys
+  - backup
+  - user-friendly

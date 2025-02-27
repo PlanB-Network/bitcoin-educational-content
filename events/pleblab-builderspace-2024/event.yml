@@ -22,3 +22,7 @@ start_date: '2024-08-13 14:00:00'
 timezone: America/Chicago
 type: course
 project_id: b35f4cff-c9fd-4e51-8771-ed1b4d3184fd
+tags:
+  - DIY
+  - development
+  - business

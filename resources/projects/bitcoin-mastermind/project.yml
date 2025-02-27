@@ -14,3 +14,6 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.07
+tags:
+  - deep-dive
+  - evaluation

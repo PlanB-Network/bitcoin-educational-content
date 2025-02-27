@@ -11,3 +11,6 @@ affiliations:
 
 tips:
   lightning_address: jakespeed@speed.app
+tags:
+  - lightning
+  - experimental

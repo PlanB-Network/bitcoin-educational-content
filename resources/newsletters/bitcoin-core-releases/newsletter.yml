@@ -12,3 +12,7 @@ description: |
   bitcoiners to plan the udpate of their self-hosted setup, if existent.
 contributors:
   - hunt-wood
+tags:
+  - node
+  - update
+  - software

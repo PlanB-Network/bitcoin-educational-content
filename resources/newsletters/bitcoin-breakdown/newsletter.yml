@@ -13,3 +13,7 @@ description: |
   cypherpunk topics and pieces of advice on network-security .
 contributors:
   - hunt-wood
+tags:
+  - cypherpunk
+  - network-security
+  - user-friendly

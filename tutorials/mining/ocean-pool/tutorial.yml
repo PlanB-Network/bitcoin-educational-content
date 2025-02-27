@@ -90,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 7.35
+tags:
+  - mining
+  - hardware
+  - proof-of-work

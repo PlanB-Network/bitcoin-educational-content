@@ -93,3 +93,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.65
+tags:
+  - development
+  - guides
+  - technical-analysis

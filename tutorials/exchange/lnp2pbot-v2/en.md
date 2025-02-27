@@ -39,7 +39,7 @@ To use Lnp2pbot, you will need :
 
 Start by installing a compatible Lightning wallet. Here are our detailed recommendations:
 
-**Recommended portfolios**
+**Recommended wallets**
 
 
 - [Breez](https://breez.technology)**:
@@ -74,16 +74,16 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 Below is the link to the tutorial for this wallet:
 
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
-**Important notes on other portfolios**
+**Important notes on other wallets**
 
-⚠️ **Important**: Before selling sats, make sure your portfolio supports "hold" invoices, which are used by the bot as an escrow system.
+⚠️ **Important**: Before selling sats, make sure your wallet supports "hold" invoices, which are used by the bot as an escrow system.
 
 
 - Wallet of Satoshi**: Works well for receiving sats, but can have delays in updating the balance if a sale is cancelled.
 - Muun**: Not recommended as payments may fail due to bot routing fee limits (maximum 0.2%).
 - Aqua**: Works to receive sats, but can have long delays (up to 48 hours) for balance updates in the event of a sale cancellation.
 
-💡 **Tip**: For optimum experience, opt for recommended portfolios (Breez, Phoenix or Blixt).
+💡 **Tip**: For optimum experience, opt for recommended wallets (Breez, Phoenix or Blixt).
 
 ⚠️ **Important**: Don't forget to save your recovery phrases in a safe place.
 

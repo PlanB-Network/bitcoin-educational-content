@@ -829,7 +829,7 @@ Es gibt mehrere Optionen, wenn Sie Ihren eigenen Knotenpunkt installieren möcht
 
 ![image](assets/en/53.webp)
 
-Eine zweite Möglichkeit ist die Verwendung einer speziellen Hardware für diesen Zweck, z. B. eines Raspberry Pi 4 mit einer ausreichend großen SSD (ca. 1 TB). Diese andere Option ist zwar teurer, wenn Sie die Hardware kaufen müssen, aber der Stromverbrauch liegt bei etwas weniger als 10,00 € pro Jahr.
+Eine zweite Möglichkeit ist die Verwendung einer speziellen Hardware für diesen Zweck, z. B. eines Raspberry Pi 4 mit einer ausreichend großen SSD (ca. 2 TB). Diese andere Option ist zwar teurer, wenn Sie die Hardware kaufen müssen, aber der Stromverbrauch liegt bei etwas weniger als 10,00 € pro Jahr.
 
 Aus Sicht der Bandbreite entspricht ein Block von 1 MB alle 10 Minuten ungefähr 5 GB pro Monat.
 

@@ -1,0 +1,9 @@
+question: What is the main advantage of using a password manager?
+answer: Remembering only one master password.
+wrong_answers:
+  - No longer creating new passwords.
+  - Helping to memorize all passwords using mnemonic techniques.
+  - Eliminating the need for online accounts.
+explanation: |
+  The user only needs to remember one password to access all the others.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual critério é fundamental ao criar uma nova conta de e-mail?
+answer: Usar uma senha única e forte.
+wrong_answers:
+  - Reutilizar a senha de outras contas.
+  - Escolher uma senha simples para facilitar a memorização.
+  - Escolher uma senha com o nome do seu animal de estimação.
+explanation: |
+  Uma senha única e forte é essencial para impedir que hackers acessem a conta de e-mail.
+reviewed: false

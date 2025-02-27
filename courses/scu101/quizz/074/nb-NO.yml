@@ -1,0 +1,9 @@
+question: Hva er hovedfunksjonene til en passordbehandler?
+answer: Lagring, generering og organisering av passord.
+wrong_answers:
+  - Analysere og fjerne virus.
+  - Sikkerhetskopiere og organisere personlige dokumenter.
+  - Optimalisere tilkoblingshastigheten.
+explanation: |
+  De viktigste funksjonene inkluderer lagring, generering og organisering av passord.
+reviewed: false

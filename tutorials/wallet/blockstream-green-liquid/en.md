@@ -1,6 +1,6 @@
 ---
 name: Blockstream Green - Liquid
-description: Setting up a portfolio on the Liquid Network sidechain
+description: Setting up a wallet on the Liquid Network sidechain
 ---
 ![cover](assets/cover.webp)
 
@@ -51,7 +51,7 @@ Launch the application, then check the "I accept the conditions...*" box.
 
 ![LIQUID GREEN](assets/fr/06.webp)
 
-When you open Green for the first time, the home screen appears without a configured portfolio. Later, if you create or import portfolios, they will appear in this interface. Before going on to create a portfolio, I recommend that you adjust the application settings to suit your needs. Click on "Application settings".
+When you open Green for the first time, the home screen appears without a configured wallet. Later, if you create or import wallets, they will appear in this interface. Before going on to create a wallet, I recommend that you adjust the application settings to suit your needs. Click on "Application settings".
 
 ![LIQUID GREEN](assets/fr/07.webp)
 
@@ -75,9 +75,9 @@ Once you've adjusted these settings to your needs, click on the "*Save*" button 
 
 ![LIQUID GREEN](assets/fr/12.webp)
 
-## Create a Liquid portfolio on Blockstream Green
+## Create a Liquid wallet on Blockstream Green
 
-You are now ready to create a Liquid portfolio. Click on the "*Get Started*" button.
+You are now ready to create a Liquid wallet. Click on the "*Get Started*" button.
 
 ![LIQUID GREEN](assets/fr/13.webp)
 
@@ -99,7 +99,7 @@ Green will then provide you with your mnemonic phrase. Before continuing, make s
 
 It restores access to your bitcoins in the event of loss, theft or breakage of your phone. So it's very important to back it up carefully **on a physical medium (not digital)** and store it in a secure place. You can write it down on a piece of paper, or for added security, if this is a large wallet, I recommend engraving it on a stainless steel support to protect it from the risk of fire, flood or collapse (for a hot wallet designed to secure a small quantity of bitcoins, a simple paper backup is probably sufficient).
 
-*Obviously, you must never share these words on the Internet, as I'm doing in this tutorial. This sample portfolio will be used only on Liquid's Testnet and will be deleted at the end of the tutorial.*
+*Obviously, you must never share these words on the Internet, as I'm doing in this tutorial. This sample wallet will be used only on Liquid's Testnet and will be deleted at the end of the tutorial.*
 
 ![LIQUID GREEN](assets/fr/17.webp)
 
@@ -117,7 +117,7 @@ Enter your PIN a second time to confirm it.
 
 ![LIQUID GREEN](assets/fr/20.webp)
 
-Wait for your portfolio to be created, then click on the "*Create an account*" button.
+Wait for your wallet to be created, then click on the "*Create an account*" button.
 
 ![LIQUID GREEN](assets/fr/21.webp)
 
@@ -132,13 +132,13 @@ And that's it, your Liquid wallet has been created using the Green application!
 Before you receive your first bitcoins on your Liquid wallet, **I strongly advise you to perform an empty recovery test**. Make a note of some reference information, such as your xpub or first receiving address, then delete your wallet on the Green app while it's still empty. Then try to restore your wallet on Green using your paper backups. Check that the cookie information generated after the restore matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable. To find out more about how to carry out a test recovery, please consult this other tutorial:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
-## Setting up your Liquid portfolio
+## Setting up your Liquid wallet
 
-If you wish to personalize your portfolio, click on the three small dots in the top right-hand corner.
+If you wish to personalize your wallet, click on the three small dots in the top right-hand corner.
 
 ![LIQUID GREEN](assets/fr/24.webp)
 
-The "*Rename*" option lets you customize the name of your portfolio, which is particularly useful if you manage several portfolios on the same application.
+The "*Rename*" option lets you customize the name of your wallet, which is particularly useful if you manage several wallets on the same application.
 
 ![LIQUID GREEN](assets/fr/25.webp)
 
@@ -150,7 +150,7 @@ The "*Settings*" menu provides access to the various options of your Bitcoin wal
 
 ![LIQUID GREEN](assets/fr/27.webp)
 
-Here, for example, you'll find your *descriptor*, which may come in handy if you plan to set up a watch-only portfolio from this Liquid portfolio.
+Here, for example, you'll find your *descriptor*, which may come in handy if you plan to set up a watch-only wallet from this Liquid wallet.
 
 ![LIQUID GREEN](assets/fr/28.webp)
 
@@ -158,9 +158,9 @@ You can also change your wallet PIN and activate a biometric connection.
 
 ![LIQUID GREEN](assets/fr/29.webp)
 
-## Using your Liquid portfolio
+## Using your Liquid wallet
 
-Now that your Liquid portfolio is set up, you're ready to receive your first L-sats!
+Now that your Liquid wallet is set up, you're ready to receive your first L-sats!
 
 If you don't yet have L-BTC, you have several options. The first is to have some sent directly to you. If someone wants to pay you in bitcoins on Liquid, simply give them a receiving address. The other option is to exchange your bitcoins onchain or on the Lightning network for L-BTC. To do this, you can use [a bridge such as Boltz](https://boltz.exchange/). Simply enter your Liquid address on the site, then make payment either via the Lightning network or onchain.
 
@@ -182,7 +182,7 @@ Wait until you've received enough confirmations to consider the transaction defi
 
 ![LIQUID GREEN](assets/fr/34.webp)
 
-With L-sats in your Liquid portfolio, you can now also send them. Click on "*Send*".
+With L-sats in your Liquid wallet, you can now also send them. Click on "*Send*".
 
 ![LIQUID GREEN](assets/fr/35.webp)
 

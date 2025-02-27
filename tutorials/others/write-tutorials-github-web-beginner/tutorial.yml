@@ -1,0 +1,25 @@
+id: e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
+builder: Plan ₿ Network
+
+tags:
+  - guides
+  - DIY
+
+category: contribution
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-02-03
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 0

@@ -829,7 +829,7 @@ Det er flere alternativer tilgjengelig når du ønsker å installere din egen no
 
 ![image](assets/en/53.webp)
 
-Et annet alternativ er å bruke en dedikert maskinvare til dette formålet, for eksempel en Raspberry Pi 4 med en tilstrekkelig stor SSD (ca. 1 TB). Dette alternativet er dyrere hvis du må kjøpe maskinvaren, men det utgjør litt mindre enn € 10,00 per år når det gjelder strømforbruk.
+Et annet alternativ er å bruke en dedikert maskinvare til dette formålet, for eksempel en Raspberry Pi 4 med en tilstrekkelig stor SSD (ca. 2 TB). Dette alternativet er dyrere hvis du må kjøpe maskinvaren, men det utgjør litt mindre enn € 10,00 per år når det gjelder strømforbruk.
 
 Fra et båndbreddeperspektiv, med en blokk på 1 MB hvert 10. minutt, tilsvarer det omtrent 5 GB per måned.
 

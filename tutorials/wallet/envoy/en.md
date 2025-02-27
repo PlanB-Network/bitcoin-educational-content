@@ -214,7 +214,7 @@ Now it's time to create a new Bitcoin wallet. Click on the confirmation button.
 
 ![Image](assets/fr/27.webp)
 
-To create a new portfolio, click on "*Create New Seed*".
+To create a new wallet, click on "*Create New Seed*".
 
 ![Image](assets/fr/28.webp)
 
@@ -236,7 +236,7 @@ Enter your "*Backup Code*" to confirm that you have saved it correctly.
 
 ![Image](assets/fr/32.webp)
 
-If a MicroSD has been inserted, the encrypted backup of your portfolio has been saved there.
+If a MicroSD has been inserted, the encrypted backup of your wallet has been saved there.
 
 ![Image](assets/fr/33.webp)
 
@@ -253,7 +253,7 @@ Click on the confirmation button to see your mnemonic phrase.
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
-of course, you must never share these words on the Internet, as I'm doing in this tutorial. This sample portfolio will be used only on Testnet and will be deleted at the end of the tutorial.**_
+of course, you must never share these words on the Internet, as I'm doing in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial.**_
 
 Make a physical backup of this sentence.
 
@@ -263,7 +263,7 @@ Your Passport has been successfully configured. Click on the confirmation button
 
 ![Image](assets/fr/36.webp)
 
-## Setting up the portfolio on Envoy
+## Setting up the wallet on Envoy
 
 In this tutorial, I'll show you how to use the Passport with the Envoy application. However, this hardware wallet is also compatible with Sparrow Wallet, Keeper, BlueWallet, Nunchuk, Specter, and many others...
 
@@ -306,7 +306,7 @@ In the "*Account*" menu, you'll find the main features of your Bitcoin wallet. Y
 
 ![Image](assets/fr/37.webp)
 
-The "*Account Tools*" submenu offers options such as verifying an address, signing a message, or consulting the addresses in your portfolio.
+The "*Account Tools*" submenu offers options such as verifying an address, signing a message, or consulting the addresses in your wallet.
 
 ![Image](assets/fr/38.webp)
 
@@ -316,7 +316,7 @@ In the "*Manage Account*" submenu, you can connect your Bitcoin wallet to a wall
 
 ### More" menu
 
-In the "*More*" menu, you can create a new account in your portfolio, linked to the same mnemonic phrase.
+In the "*More*" menu, you can create a new account in your wallet, linked to the same mnemonic phrase.
 
 ![Image](assets/fr/40.webp)
 
@@ -334,7 +334,7 @@ The "*Device*" submenu gives you options for customizing screen brightness, sett
 
 ![Image](assets/fr/43.webp)
 
-The "*Backup*" submenu lets you export your encrypted portfolio backup, check the validity of an existing backup, or look up your "*Backup Code*" again.
+The "*Backup*" submenu lets you export your encrypted wallet backup, check the validity of an existing backup, or look up your "*Backup Code*" again.
 
 ![Image](assets/fr/44.webp)
 

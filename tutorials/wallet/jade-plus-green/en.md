@@ -12,7 +12,7 @@ It is available from $149.99 in the basic black version, and the price can rise 
 
 ![JADE-PLUS-GREEN](assets/fr/01.webp)
 
-Jade Plus is compatible with most portfolio management software. Here is a summary of compatibility at the time of writing (January 2025):
+Jade Plus is compatible with most wallet management software. Here is a summary of compatibility at the time of writing (January 2025):
 
 | Desktop | Mobile | USB | Bluetooth | QR | JadeLink | Management software
 
@@ -109,7 +109,7 @@ You can write it on the cardboard supplied in the box, or for added security, I 
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
-***Obviously, you must never share these words on the Internet, as I do in this tutorial. This sample portfolio will be used only on Testnet and will be deleted at the end of the tutorial
+***Obviously, you must never share these words on the Internet, as I do in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial
 
 Click on the arrow on the right of the screen to display the following words.
 
@@ -127,7 +127,7 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 For instructions on installing and setting up the Blockstream Green application, please see the first part of this other tutorial:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
-Once on the Blockstream Green application, click on the "*Configure a new portfolio*" button.
+Once on the Blockstream Green application, click on the "*Configure a new wallet*" button.
 
 ![JADE-PLUS-GREEN](assets/fr/13.webp)
 
@@ -193,11 +193,11 @@ Your bitcoin wallet has been created.
 
 ## Create a Bitcoin account
 
-You must now create an account within your portfolio. Click on the "*Create an account*" button.
+You must now create an account within your wallet. Click on the "*Create an account*" button.
 
 ![JADE-PLUS-GREEN](assets/fr/28.webp)
 
-Choose "*Standard*" if you wish to create a classic single-sig portfolio.
+Choose "*Standard*" if you wish to create a classic single-sig wallet.
 
 ![JADE-PLUS-GREEN](assets/fr/29.webp)
 
@@ -208,11 +208,11 @@ Your account has been created.
 
 ![JADE-PLUS-GREEN](assets/fr/30.webp)
 
-If you wish to personalize your Green portfolio, click on the three small dots at top right.
+If you wish to personalize your Green wallet, click on the three small dots at top right.
 
 ![JADE-PLUS-GREEN](assets/fr/31.webp)
 
-The "*Rename*" option lets you customize the name of your portfolio, which is particularly useful if you manage several portfolios on the same application. The "*Unit*" menu lets you change the basic unit of your portfolio. For example, you can choose to display it in satoshis rather than bitcoins. Finally, the "*Parameters*" menu gives you access to other options. Here, for example, you'll find your extended public key and its descriptor, useful if you're planning to set up a watch-only wallet from your Jade.
+The "*Rename*" option lets you customize the name of your wallet, which is particularly useful if you manage several wallets on the same application. The "*Unit*" menu lets you change the basic unit of your wallet. For example, you can choose to display it in satoshis rather than bitcoins. Finally, the "*Parameters*" menu gives you access to other options. Here, for example, you'll find your extended public key and its descriptor, useful if you're planning to set up a watch-only wallet from your Jade.
 
 ![JADE-PLUS-GREEN](assets/fr/32.webp)
 
@@ -235,7 +235,7 @@ Now that your Bitcoin wallet is set up, you're ready to receive your first sats!
 
 ![JADE-PLUS-GREEN](assets/fr/35.webp)
 
-Green displays a reception address, but before using it, it's essential to check it on the Jade to confirm that it actually belongs to our portfolio. To do this, click on the "*Verify on device*" button.
+Green displays a reception address, but before using it, it's essential to check it on the Jade to confirm that it actually belongs to our wallet. To do this, click on the "*Verify on device*" button.
 
 ![JADE-PLUS-GREEN](assets/fr/36.webp)
 

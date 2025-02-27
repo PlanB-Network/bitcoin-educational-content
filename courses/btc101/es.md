@@ -829,7 +829,7 @@ Hay varias opciones disponibles cuando desea instalar su propio nodo, con difere
 
 ![image](assets/en/53.webp)
 
-Una segunda opción es utilizar una pieza de hardware dedicada a este fin, como una Raspberry Pi 4 con un SSD suficientemente grande (alrededor de ~1TB). Esta otra opción es más cara si tienes que comprar el hardware, pero representa algo menos de 10,00 € al año en términos de consumo eléctrico.
+Una segunda opción es utilizar una pieza de hardware dedicada a este fin, como una Raspberry Pi 4 con un SSD suficientemente grande (alrededor de ~2TB). Esta otra opción es más cara si tienes que comprar el hardware, pero representa algo menos de 10,00 € al año en términos de consumo eléctrico.
 
 Desde el punto de vista del ancho de banda, considerando 1 bloque de 1MB cada 10 minutos, corresponde aproximadamente a 5GB al mes.
 

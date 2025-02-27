@@ -1,0 +1,22 @@
+id: d0c4d0fe-94a1-4490-a262-bf074b5731ff
+name: Minibits
+category: wallet
+
+links:
+  website: https://www.minibits.cash/
+  twitter: https://x.com/MinibitsCash
+  Github: https://github.com/minibits-cash/minibits_wallet
+
+tags:
+  - layers
+  - offchain
+  - lightning
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-22
+    urgency: 1
+    contributors_id:
+      - PaoloFoti
+    reward: 0

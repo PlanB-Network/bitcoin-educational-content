@@ -99,7 +99,7 @@ If you want to learn more about it, go have a [look here](#why-value-4-value-PoW
 
 # How can you contribute?
 
-Bitcoin is for everyone, and so is Plan ₿ Network, which means that e veryone who has a specific talent can contribute to the growth of the network. Whether you are a nerdy, super coder or a social media influencer, your knowledge and skills are essential to spread Bitcoin knowledge across the world.
+Bitcoin is for everyone, and so is Plan ₿ Network, which means that everyone who has a specific talent can contribute to the growth of the network. Whether you are a nerdy, super coder or a social media influencer, your knowledge and skills are essential to spread Bitcoin knowledge across the world.
 
 ## Be a node of the network
 

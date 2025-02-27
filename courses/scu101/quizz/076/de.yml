@@ -1,0 +1,9 @@
+question: Warum wird empfohlen, zufällig generierte Passwörter zu verwenden?
+answer: Um Brute-Force-Angriffen zu widerstehen.
+wrong_answers:
+  - Um sie leichter zu merken.
+  - Um ihre Komplexität zu reduzieren.
+  - Um Sybil-Angriffen zu widerstehen.
+explanation: |
+  Zufälligkeit macht Passwörter schwerer zu erraten und erhöht somit ihre Sicherheit gegen Brute-Force-Angriffe.
+reviewed: false

@@ -829,7 +829,7 @@ Plusieurs options s'offrent à vous lorsque vous souhaitez installer votre propr
 
 ![image](assets/en/53.webp)
 
-Une deuxième option consiste à utiliser un matériel dédié à cet effet, tel qu'un Raspberry Pi 4 équipé d'un disque SSD suffisamment grand (environ 1 To). Cette autre option est plus coûteuse si vous devez acheter le matériel, mais elle représente un peu moins de 10,00 € par an en termes de consommation d'électricité.
+Une deuxième option consiste à utiliser un matériel dédié à cet effet, tel qu'un Raspberry Pi 4 équipé d'un disque SSD suffisamment grand (environ 2 To). Cette autre option est plus coûteuse si vous devez acheter le matériel, mais elle représente un peu moins de 10,00 € par an en termes de consommation d'électricité.
 
 Du point de vue de la largeur de bande, si l'on considère un bloc de 1 Mo toutes les 10 minutes, cela correspond approximativement à 5 Go par mois.
 

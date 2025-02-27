@@ -1,0 +1,9 @@
+question: Apa saja fitur utama dari pengelola kata sandi?
+answer: Menyimpan, menghasilkan, dan mengatur kata sandi.
+wrong_answers:
+  - Menganalisis dan menghapus virus.
+  - Mencadangkan dan mengatur dokumen pribadi.
+  - Mengoptimalkan kecepatan koneksi.
+explanation: |
+  Fungsi utama meliputi penyimpanan, pembuatan, dan pengelolaan kata sandi.
+reviewed: false

@@ -829,7 +829,7 @@ Existem várias opções disponíveis quando se pretende instalar o seu próprio
 
 ![image](assets/en/53.webp)
 
-Uma segunda opção é utilizar um hardware dedicado para o efeito, como um Raspberry Pi 4 com um SSD suficientemente grande (cerca de ~1TB). Esta outra opção é mais cara se tiver de comprar o hardware, mas representa um pouco menos de 10,00 euros por ano em termos de consumo de eletricidade.
+Uma segunda opção é utilizar um hardware dedicado para o efeito, como um Raspberry Pi 4 com um SSD suficientemente grande (cerca de ~2TB). Esta outra opção é mais cara se tiver de comprar o hardware, mas representa um pouco menos de 10,00 euros por ano em termos de consumo de eletricidade.
 
 Do ponto de vista da largura de banda, considerando 1 bloco de 1MB a cada 10 minutos, corresponde aproximadamente a 5GB por mês.
 

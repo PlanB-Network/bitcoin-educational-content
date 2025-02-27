@@ -1,0 +1,9 @@
+question: Những tính năng chính của trình quản lý mật khẩu là gì?
+answer: Lưu trữ, tạo và sắp xếp mật khẩu.
+wrong_answers:
+  - Phân tích và loại bỏ virus.
+  - Sao lưu và tổ chức tài liệu cá nhân.
+  - Tối ưu hóa tốc độ kết nối.
+explanation: |
+  Các chức năng chính bao gồm lưu trữ, tạo và sắp xếp mật khẩu.
+reviewed: false

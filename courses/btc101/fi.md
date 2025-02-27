@@ -829,7 +829,7 @@ Kun haluat asentaa oman solmun, käytettävissä on useita vaihtoehtoja, joiden 
 
 ![image](assets/en/53.webp)
 
-Toinen vaihtoehto on käyttää tähän tarkoitukseen tarkoitettua laitteistoa, kuten Raspberry Pi 4:ää, jossa on riittävän suuri SSD-levy (noin ~1TB). Tämä toinen vaihtoehto on kalliimpi, jos joudut ostamaan laitteiston, mutta sähkönkulutuksen osalta se on hieman alle 10,00 euroa vuodessa.
+Toinen vaihtoehto on käyttää tähän tarkoitukseen tarkoitettua laitteistoa, kuten Raspberry Pi 4:ää, jossa on riittävän suuri SSD-levy (noin ~2TB). Tämä toinen vaihtoehto on kalliimpi, jos joudut ostamaan laitteiston, mutta sähkönkulutuksen osalta se on hieman alle 10,00 euroa vuodessa.
 
 Kaistanleveyden näkökulmasta katsottuna, kun otetaan huomioon 1 1MB:n lohko 10 minuutin välein, se vastaa noin 5GB kuukaudessa.
 

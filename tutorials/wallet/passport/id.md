@@ -193,7 +193,8 @@ Jika MicroSD telah dimasukkan, cadangan terenkripsi portofolio Anda telah disimp
 
 Paspor Anda akan menampilkan frasa mnemonik 12 kata. Kata mnemonik ini memberikan Anda akses penuh dan tidak terbatas ke semua bitcoin Anda. Siapa pun yang memiliki frasa ini dapat mencuri dana Anda, bahkan tanpa akses fisik ke Paspor Anda.
 
-Frasa 12 kata ini akan memulihkan akses ke bitcoin Anda jika terjadi kehilangan, pencurian, atau kerusakan pada Paspor Anda. Oleh karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menyimpannya di lokasi yang aman.
+Frasa 12 kata ini mengembalikan akses ke bitcoin Anda jika terjadi kehilangan, pencurian, atau kerusakan pada Paspor Anda. Oleh karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menyimpannya di lokasi yang aman.
+
 
 Anda bisa menuliskannya pada karton yang disertakan dalam kotak, atau untuk keamanan tambahan, saya sarankan untuk mengukirnya pada dasar baja tahan karat untuk melindunginya dari kebakaran, banjir atau keruntuhan.
 
@@ -298,7 +299,8 @@ Masukkan kata sandi Anda menggunakan keypad aA1, dan pastikan Anda menyimpannya 
 
 ![Image](assets/fr/51.webp)
 
-Harap diperhatikan bahwa kata sandi BIP39 peka terhadap huruf besar-kecil dan kesalahan pengetikan. Jika Anda memasukkan kata sandi yang sedikit berbeda dengan yang dikonfigurasikan pada awalnya, Passport tidak akan melaporkan kesalahan, tetapi akan mendapatkan satu set kunci kriptografi lain yang tidak sama dengan kunci yang ada di dompet awal Anda.
+Harap diperhatikan bahwa kata sandi BIP39 peka terhadap huruf besar-kecil dan kesalahan ketik. Jika Anda memasukkan kata sandi yang sedikit berbeda dengan yang dikonfigurasikan pada awalnya, Passport tidak akan melaporkan kesalahan, tetapi akan mendapatkan satu set kunci kriptografi lain yang tidak sama dengan kunci yang ada di dompet awal Anda.
+
 
 Oleh karena itu, penting sekali, ketika mengonfigurasi, untuk mencatat di suatu tempat sidik jari kunci utama yang akan diberikan pada langkah berikutnya. Sebagai contoh, dengan kata sandi saya `Plan B Network`, sidik jari kunci utama saya adalah `745D526B`.
 
@@ -306,7 +308,9 @@ Oleh karena itu, penting sekali, ketika mengonfigurasi, untuk mencatat di suatu 
 
 Setiap kali Anda membuka kunci Passport, Anda harus kembali ke menu ini untuk memasukkan kata sandi dan menerapkannya ke dompet. Passport tidak menyimpan kata sandi.
 
-Setiap kali Anda membuka kunci, setelah menuliskan kata sandi, periksa pada layar konfirmasi bahwa sidik jari yang diberikan sama dengan yang Anda tuliskan selama konfigurasi. Jika ya, kata sandi Anda sudah benar dan Anda mengakses dompet Bitcoin yang benar. Jika tidak, Anda berada di dompet yang salah dan perlu mencoba lagi, berhati-hatilah agar tidak melakukan kesalahan input.
+ fix-nakamochi-elysium-tutos
+Setiap kali Anda membuka kunci, setelah menuliskan kata sandi, periksa pada layar konfirmasi bahwa sidik jari yang diberikan sama dengan yang Anda tuliskan selama konfigurasi. Jika ya, kata sandi Anda sudah benar dan Anda mengakses dompet Bitcoin yang benar. Jika tidak, Anda menggunakan dompet yang salah dan perlu mencoba lagi, berhati-hatilah agar tidak melakukan kesalahan input.
+
 
 Sebelum Anda menerima bitcoin pertama Anda di dompet Anda, **Saya sangat menyarankan Anda untuk melakukan tes pemulihan kosong**. Catatlah beberapa informasi referensi, seperti xpub atau alamat penerima pertama Anda, kemudian hapus wallet Anda di Passport saat masih kosong (`Pengaturan -> Lanjutan -> Hapus Passport`). Kemudian coba pulihkan dompet Anda menggunakan cadangan kertas dari frasa mnemonik dan kata sandi apa pun. Periksa apakah informasi cookie yang dihasilkan setelah pemulihan sesuai dengan yang Anda tulis sebelumnya. Jika sesuai, Anda bisa yakin bahwa cadangan kertas Anda dapat diandalkan. Untuk mengetahui lebih lanjut tentang cara melakukan pemulihan tes, silakan baca tutorial lainnya:
 

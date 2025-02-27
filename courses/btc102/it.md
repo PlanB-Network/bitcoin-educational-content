@@ -808,6 +808,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 Nello spirito del Paranoico, la prudenza, la sicurezza e l'anonimato sono fondamentali. Queste priorità guidano un approccio deliberato e ben ponderato all'uso di Bitcoin, promuovendo l'autosufficienza e la cautela. Il Paranoico è disposto a investire tempo ed energie per garantire la sicurezza e la privacy dei suoi bitcoin, navigando abilmente nell'ecosistema per evitare esposizioni inutili. Sebbene possa sembrare eccessivamente prudente per alcuni, il Paranoico ritiene che la sua diligenza e attenzione ai dettagli siano essenziali per una partecipazione di successo e sicura nel mondo di Bitcoin.
 
+# Proteggere i propri eredi e il patrimonio
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Creazione di un piano di eredità
 

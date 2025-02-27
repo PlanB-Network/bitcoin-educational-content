@@ -33,7 +33,7 @@ To ensure your autonomy in the event of Blockstream failure (for example, in the
 
 This method significantly increases the security of your hot wallet, while leaving you in control of your bitcoins and facilitating its daily use. However, it does require regular timelock refreshes to maintain the security of the 2FA. The 360-day countdown, during which your funds are protected by the 2FA, begins as soon as you receive bitcoins. If, 360 days after this receipt, you have not carried out a transaction spending these funds, your bitcoins will only be protected by your local key, without the 2FA.
 
-This constraint makes the 2FA option more suitable for a spending portfolio, where regular transactions automatically renew timelocks. For a long-term savings portfolio, this can be problematic, as you'll need to think about making a sweep transaction to yourself each year before the timelock expires.
+This constraint makes the 2FA option more suitable for a spending wallet, where regular transactions automatically renew timelocks. For a long-term savings wallet, this can be problematic, as you'll need to think about making a sweep transaction to yourself each year before the timelock expires.
 
 Another disadvantage of this security method is that you'll have to use minority script templates. This means that, from a confidentiality point of view, things get more complicated: very few people use the same type of script as you, making it easier for an outside observer to identify your wallet fingerprint. What's more, these scripts will incur higher transaction costs due to their larger size.
 
@@ -56,7 +56,7 @@ Launch the application, then check the "I accept the conditions...*" box.
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
-When you open Green for the first time, the home screen appears without a configured portfolio. Later, if you create or import portfolios, they will appear in this interface. Before going on to create a portfolio, I advise you to adjust the application settings to suit your needs. Click on "Application settings".
+When you open Green for the first time, the home screen appears without a configured wallet. Later, if you create or import wallets, they will appear in this interface. Before going on to create a wallet, I advise you to adjust the application settings to suit your needs. Click on "Application settings".
 
 ![GREEN 2FA MULTISIG](assets/fr/06.webp)
 
@@ -104,7 +104,7 @@ Green will then provide you with your mnemonic phrase. Before continuing, make s
 
 It allows you to restore access to your local keys in the event of loss, theft or breakage of your phone. So it's very important to back it up carefully **on a physical medium (not digital)** and store it in a secure place. You can write it down on a piece of paper, or for added security, if it's a large wallet, I recommend engraving it on a stainless steel support to protect it from the risk of fire, flood or collapse (for a hot wallet designed to secure a small quantity of bitcoins, a simple paper backup is probably sufficient).
 
-*Obviously, you must never share these words on the Internet, as I do in this tutorial. This sample portfolio will be used only on Testnet and will be deleted at the end of the tutorial.*
+*Obviously, you must never share these words on the Internet, as I do in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial.*
 
 ![GREEN 2FA MULTISIG](assets/fr/16.webp)
 
@@ -122,7 +122,7 @@ Enter your PIN a second time to confirm it.
 
 ![GREEN 2FA MULTISIG](assets/fr/19.webp)
 
-Wait for your portfolio to be created, then click on the "*Create an account*" button.
+Wait for your wallet to be created, then click on the "*Create an account*" button.
 
 ![GREEN 2FA MULTISIG](assets/fr/20.webp)
 
@@ -171,21 +171,21 @@ Enter the 6-digit dynamic code present on your authentication application.
 
 ![GREEN 2FA MULTISIG](assets/fr/29.webp)
 
-By browsing this menu, you can also set the timelock duration. This countdown starts as soon as the bitcoins are received, and once the timelock has expired, your funds can only be spent with your local key, without the need for 2FA. The default duration is set at 12 months, but for a savings portfolio, it may make sense to choose 15 months to minimize the frequency of timelock renewal. Conversely, for a spending portfolio, a 6-month timelock may be preferable, as it will be frequently renewed with your daily transactions, and a shorter timelock reduces the wait in the event of a problem with the 2FA. It's up to you to determine the timelock duration that suits you best.
+By browsing this menu, you can also set the timelock duration. This countdown starts as soon as the bitcoins are received, and once the timelock has expired, your funds can only be spent with your local key, without the need for 2FA. The default duration is set at 12 months, but for a savings wallet, it may make sense to choose 15 months to minimize the frequency of timelock renewal. Conversely, for a spending wallet, a 6-month timelock may be preferable, as it will be frequently renewed with your daily transactions, and a shorter timelock reduces the wait in the event of a problem with the 2FA. It's up to you to determine the timelock duration that suits you best.
 
 ![GREEN 2FA MULTISIG](assets/fr/30.webp)
 
-You can now exit this menu. Your multisig portfolio is ready!
+You can now exit this menu. Your multisig wallet is ready!
 
 ![GREEN 2FA MULTISIG](assets/fr/31.webp)
 
-## Setting up your portfolio on Blockstream Green
+## Setting up your wallet on Blockstream Green
 
-If you wish to personalize your portfolio, click on the three small dots in the top right-hand corner.
+If you wish to personalize your wallet, click on the three small dots in the top right-hand corner.
 
 ![GREEN 2FA MULTISIG](assets/fr/32.webp)
 
-The "*Rename*" option lets you customize the name of your portfolio, which is particularly useful if you manage several portfolios on the same application.
+The "*Rename*" option lets you customize the name of your wallet, which is particularly useful if you manage several wallets on the same application.
 
 ![GREEN 2FA MULTISIG](assets/fr/33.webp)
 

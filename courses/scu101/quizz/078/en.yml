@@ -1,0 +1,9 @@
+question: What is a fundamental criterion when creating a new email account?
+answer: Use a unique and strong password.
+wrong_answers:
+  - Reuse the password from other accounts.
+  - Choose a simple password for easy memorization.
+  - Choose a password with the name of your pet.
+explanation: |
+  A unique and strong password is essential to prevent hackers from accessing the email account.
+reviewed: false

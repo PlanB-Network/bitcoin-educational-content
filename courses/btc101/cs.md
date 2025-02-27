@@ -829,7 +829,7 @@ Pokud si chcete nainstalovat vlastní uzel, máte k dispozici několik možnost�
 
 ![image](assets/en/53.webp)
 
-Druhou možností je použít k tomuto účelu specializovaný hardware, například Raspberry Pi 4 s dostatečně velkým SSD (asi ~1TB). Tato druhá možnost je sice dražší, pokud si musíte hardware koupit, ale z hlediska spotřeby elektřiny představuje o něco méně než 10,00 EUR ročně.
+Druhou možností je použít k tomuto účelu specializovaný hardware, například Raspberry Pi 4 s dostatečně velkým SSD (asi ~2TB). Tato druhá možnost je sice dražší, pokud si musíte hardware koupit, ale z hlediska spotřeby elektřiny představuje o něco méně než 10,00 EUR ročně.
 
 Z hlediska šířky pásma, pokud vezmeme v úvahu 1 blok o velikosti 1 MB každých 10 minut, to odpovídá přibližně 5 GB měsíčně.
 

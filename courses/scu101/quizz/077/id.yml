@@ -1,0 +1,9 @@
+question: Mengapa penting untuk mengamankan kotak surat Anda?
+answer: Karena dapat mereset kata sandi Anda
+wrong_answers:
+- Karena fungsinya untuk menerima newsletter
+- Karena berisi seluruh kata sandi Anda
+- Karena berisi data bank Anda
+explanation: Kotak surat adalah titik akses pusat untuk mengambil kata sandi dan membahayakan
+  beberapa akun jika terjadi kebocoran.
+reviewed: false

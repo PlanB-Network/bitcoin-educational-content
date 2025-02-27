@@ -829,7 +829,7 @@ Kui soovite oma sõlme paigaldada, on saadaval mitu võimalust, mille hoolduskul
 
 ![image](assets/en/53.webp)
 
-Teine võimalus on kasutada selleks otstarbeks spetsiaalset riistvara, näiteks Raspberry Pi 4 koos piisavalt suure SSD-plaadiga (umbes ~1TB). See teine võimalus on kallim, kui riistvara tuleb osta, kuid elektritarbimise poolest moodustab see veidi vähem kui 10,00 eurot aastas.
+Teine võimalus on kasutada selleks otstarbeks spetsiaalset riistvara, näiteks Raspberry Pi 4 koos piisavalt suure SSD-plaadiga (umbes ~2TB). See teine võimalus on kallim, kui riistvara tuleb osta, kuid elektritarbimise poolest moodustab see veidi vähem kui 10,00 eurot aastas.
 
 Kui võtta arvesse 1 plokk 1 MB iga 10 minuti tagant, vastab see umbes 5 GB-le kuus.
 

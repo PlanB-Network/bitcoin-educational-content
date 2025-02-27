@@ -1,0 +1,9 @@
+question: Hvilket kriterium er grunnleggende når du oppretter en ny e-postkonto?
+answer: Bruke et unikt og sterkt passord.
+wrong_answers:
+  - Gjenbruke passord fra andre kontoer.
+  - Velge et enkelt passord for å gjøre det lettere å huske.
+  - Velge et passord med navnet på kjæledyret ditt.
+explanation: |
+  Et unikt og sterkt passord er avgjørende for å forhindre hackere i å få tilgang til e-postkontoen.
+reviewed: false

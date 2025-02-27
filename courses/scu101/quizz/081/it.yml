@@ -1,0 +1,9 @@
+question: Cosa permette di fare il sito Have I Been Pwned?
+answer: Verificare se un indirizzo email è stato compromesso.
+wrong_answers:
+  - Generare nuove password forti e casuali.
+  - Creare una casella email sicura.
+  - Sincronizzare gli account email per facilitarne l'uso.
+explanation: |
+  Questo sito aiuta a rilevare le violazioni dei dati e a verificare la sicurezza di un indirizzo email.
+reviewed: false

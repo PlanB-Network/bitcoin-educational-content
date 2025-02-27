@@ -801,6 +801,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 Paranoian henkilön mielessä varovaisuus, turvallisuus ja nimettömyys ovat ensisijaisia. Nämä prioriteetit ohjaavat harkittua ja hyvin suunniteltua lähestymistapaa Bitcoinin käyttöön, edistäen omavaraisuutta ja varovaisuutta. Paranoiainen henkilö on valmis investoimaan aikaa ja vaivaa bitcoinsiensa turvallisuuden ja yksityisyyden varmistamiseen samalla taitavasti navigoiden ekosysteemissä välttääkseen tarpeetonta altistumista. Vaikka jotkut saattavat pitää sitä liiallisena varovaisuutena, paranoiainen henkilö pitää huolellisuuttaan ja yksityiskohtien huomioimista olennaisena menestyksekkääseen ja turvalliseen osallistumiseen Bitcoinin maailmassa.
 
+# Perillisten ja omaisuuden suojaaminen
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Perintösuunnitelman luominen
 

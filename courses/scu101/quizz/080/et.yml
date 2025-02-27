@@ -1,0 +1,9 @@
+question: Miks on soovitatav luua kaks eraldi e-posti aadressi?
+answer: Üldise suhtluse eraldamiseks konto taastamisest.
+wrong_answers:
+  - Tööalase ja isikliku suhtluse eraldamiseks.
+  - Mitme konto loomiseks ja veebinähtavuse suurendamiseks.
+  - Rohkem rämpsposti saamiseks.
+explanation: |
+  E-posti aadresside eraldamine aitab vähendada riske ja paremini kaitsta tundlike kontode juurdepääsu.
+reviewed: false

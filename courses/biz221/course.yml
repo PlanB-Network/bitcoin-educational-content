@@ -3,7 +3,7 @@ topic: business
 subtopic: business
 level: beginner
 hours: 102
-
+test_only: true
 
 professors:
   - old-uncle
@@ -12,7 +12,7 @@ contributors:
   - rabbit-hole
   - another-satoshi
   
-published_at: 2025-01-21
+published_at: 2025-02-27
 
 original_language: en
 proofreading:

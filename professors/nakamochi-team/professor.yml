@@ -1,4 +1,4 @@
-id: eef89f42-d077-4248-8cb3-9e5aceaf9e68 
+id: eef89f42-d077-4248-8cb3-9e5aceaf9e68
 name: Nakamochi Team
 
 contributor_id: original-switch
@@ -7,10 +7,5 @@ links:
   website: https://nakamochi.io/
   twitter: https://x.com/nakamochiq
   github: https://github.com/nakamochi/
-
-tags:
-  - lightning
-  - use-case
-  - node
 
 company: Nakamochi

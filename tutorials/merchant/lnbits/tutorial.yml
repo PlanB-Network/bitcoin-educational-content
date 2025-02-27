@@ -4,15 +4,6 @@ builder: LNbits
 level: advanced
 
 category: merchant
-tags:
-  - point of sales
-  - non-KYC
-  - open-source
-  - wallets management
-  - NFC cards
-  - bitcoin switches
-  - marketplace
-  - multiple extensions
 credits:
   professor: motor-chef
 

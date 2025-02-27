@@ -3,11 +3,6 @@ chapterId: d4d80e07-5eac-5b29-a93a-123180e97047
 difficulty: easy
 duration: 30
 author: pretty-private
-tags:
-  - offchain
-  - layers
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: fr

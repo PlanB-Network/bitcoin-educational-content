@@ -4,11 +4,6 @@ builder: Nakamochi
 credits:
   professor: rebuild-kiss
 
-tags:
-  - node
-  - lightning
-  - decentralization
-
 category: lightning-network
 
 level: advanced

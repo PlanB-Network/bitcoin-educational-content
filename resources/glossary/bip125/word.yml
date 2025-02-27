@@ -2,10 +2,6 @@ id: 230d202a-343e-49ce-a5fe-03bb5432fbc0
 en_word: BIP125
 related_words:
   - RBF (REPLACE-BY-FEE)
-tags:
-  - ''
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: en

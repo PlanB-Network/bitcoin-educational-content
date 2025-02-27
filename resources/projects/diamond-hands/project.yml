@@ -6,18 +6,12 @@ address_line_2:
 address_line_3:
 language:
   - ja
-  - - en
+  -   - en
 links:
   website: https://diamondhands.technology/en/
   twitter: https://twitter.com/DiamondHandsLN
   youtube: https://www.youtube.com/@diamondhands_jp
 
-tags:
-  - development
-  - education
-  - lightning network
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en

@@ -7,14 +7,10 @@ address_line_2: Caudan Arts Centre
 name: Africa Bitcoin Conference 2025
 builder: Africa Bitcoin Conference
 type: conference
-description: We are Africans from various parts of the continent who believe in the Bitcoin revolution and are building a movement to bolster its Adoption.
+description: We are Africans from various parts of the continent who believe in the
+  Bitcoin revolution and are building a movement to bolster its Adoption.
 language:
   - en
 links:
   website: https://afrobitcoin.org/
-tags:
-  - adoption
-  - investment
-  - use-case
-
 project_id: db0f0b26-3fd8-4d3b-94cc-1f55f30fe768

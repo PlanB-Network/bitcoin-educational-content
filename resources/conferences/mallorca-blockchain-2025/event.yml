@@ -6,14 +6,11 @@ address_line_1: Palma, Mallorca, Spain
 name: Bitcoin Mallorca Blockchain Day VI
 builder: Mallorca Blockchain
 type: conference
-description: Are you obsessed with bitcoin and liberty? We are, too. Join us at the Mallorca Blockchain Days VI
+description: Are you obsessed with bitcoin and liberty? We are, too. Join us at the
+  Mallorca Blockchain Days VI
 language:
   - en
   - es
 links:
   website: https://mallorcablockchaindays.com/index.html
-tags:
-  - adoption
-  - layers
-
 project_id: 20e43d58-a2ea-4c6f-84c5-7a7a634b7412

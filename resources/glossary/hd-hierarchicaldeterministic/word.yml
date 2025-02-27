@@ -3,10 +3,6 @@ en_word: HD (HIERARCHICAL-DETERMINISTIC)
 related_words:
   - BIP32
   - BIP44
-tags:
-  - ''
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: en

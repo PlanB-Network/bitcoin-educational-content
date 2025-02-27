@@ -6,14 +6,11 @@ address_line_1: Mexico city, Mexico
 name: AI Agents & Bitcoin
 builder: La Casa de Satoshi
 type: meetup
-description: El hogar de los partidarios de la tecnología de la libertad en la Ciudad de México. // The home for freedom tech supporters in Mexico City.
+description: El hogar de los partidarios de la tecnología de la libertad en la Ciudad
+  de México. // The home for freedom tech supporters in Mexico City.
 language:
   - es
   - en
 links:
   website: https://lu.ma/mrcrb1lu
-tags:
-  - market-trends
-  - technical-analysis
-  - deep-dive
 project_id: af197ba8-460b-4523-80f4-36b5fe3d54b9

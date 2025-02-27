@@ -23,7 +23,7 @@ Bitfinex 还开发了`rgb-lightning-node` (RLN) 项目。这是一个基于 `rus
 
 RLN代码仍处于开发阶段：我们建议仅在 **regtest** 或 **testnet** 上使用。
 
-## RGB协议提醒
+## RGB协议复习
 
 RGB是一个运行于比特币之上的协议，可模拟智能合约功能和数字资产管理，而不会对其所基于的区块链造成过载。与传统的链上智能合约（如以太坊上）不同，RGB 依赖于 "*客户端验证*"系统：大部分数据和状态历史记录都由参与方独自交换和存储，而比特币区块链只承载小规模的加密承诺（通过*Tapret*或*Opret*等机制）。因此，在RGB协议中，比特币区块链只充当时间戳服务器和双重消费保护系统。
 
@@ -57,7 +57,7 @@ cargo install --locked --debug --path .
 
 - `--locked` "可确保依赖项的版本得到尊重；
 - `--debug` "不是必须的，但可以帮助你集中注意力（如果你愿意，也可以使用"--release"）；
-- `--path .` 告诉 `cargo install` 从当前目录安装。
+- `--path .` 将让 `cargo install` 从当前目录安装。
 
 命令结束后，您的 `$CARGO_HOME/bin/` 目录中将出现一个 `rgb-lightning-node` 可运行文件。请确保该路径位于您的 `$PATH` 中，这样您就可以从任何目录调用该命令。
 
@@ -66,17 +66,17 @@ cargo install --locked --debug --path .
 `rgb-lightning-node` "守护进程需要 .NET Framework 2.0 的存在和配置才能运行：
 
 
-- 一个 `bitcoind`** 节点
+- 一个 `bitcoind` 节点
 
 每个RLN实例都需要与 `bitcoind` 通信，以广播和监控其链上交易。您需要向守护进程提供身份验证（登录名/密码）和URL（主机/端口）。
 
 
-- 索引器**（Electrum 或 Esplora）
+- 索引器（Electrum 或 Esplora）
 
 守护进程必须能够列出并探索链上交易，尤其是找到资产锚定的UTXO。您需要指定 Electrum 服务器或 Esplora 的 URL。
 
 
-- RGB** 代理
+- RGB代理
 
 代理服务器是一个组件（可选择的，但强烈建议使用），用于简化闪电对等设备之间的 RGB分配交换。您也必须指定一个URL。
 
@@ -103,7 +103,7 @@ cargo install --locked --debug --path .
 
 ![RLN](assets/fr/04.webp)
 
-接下来，我们将启动几个RLN节点。在不同的shell（壳层）中运行，例如（为了启动3 个RLN节点） ：
+接下来，我们将启动几个RLN节点。在不同的shell（壳层）中运行，例如（为了启动3个RLN节点） ：
 
 ```bash
 # 1st shell
@@ -282,7 +282,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/openchannel
 ```
 
-了解更多信息：
+参数说明如下：
 
 
 - `peer_pubkey_and_opt_addr`：我们想要连接的对等节点的标识符（我们之前找到的公钥）；

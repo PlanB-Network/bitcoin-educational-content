@@ -6,7 +6,7 @@ description: Konfigurace a používání hardwarové peněženky Passport v ruč
 
 Passport je hardwarová peněženka pouze pro bitcoiny, kterou navrhla americká společnost Foundation Devices založená v dubnu 2020 v Bostonu.
 
-Passport "*Batch 2*", který představujeme v tomto návodu, je nástupcem "*Founder's Edition*". Má prémiový design, barevnou obrazovku s vysokým rozlišením a ergonomickou fyzickou klávesnici. Pracuje v režimu "*Air-Gap*", který zajišťuje, že soukromé klíče vaší peněženky zůstanou zcela izolované, přičemž výměna je možná prostřednictvím karty MicroSD nebo kódů QR. Součástí zařízení je odnímatelná baterie s kapacitou 1200 mAh.
+Passport "*Batch 2*", který představujeme v tomto tutoriálu, je nástupcem edice "*Founder's Edition*". Vyniká prémiovým designem, vysoce kvalitním barevným displejem a ergonomickou fyzickou klávesnicí. Funguje v režimu "*Air-Gap*", což zajišťuje, že soukromé klíče vaší peněženky zůstanou zcela izolované, přičemž komunikace probíhá prostřednictvím karty MicroSD nebo QR kódů. Zařízení je vybaveno vyměnitelnou dobíjecí baterií Nokia BL-5C s kapacitou 1200 mAh. Tato běžně dostupná baterie může být snadno nahrazena, protože model BL-5C lze snadno najít v obchodech.
 
 Co se týče konektivity, je Passport vybaven portem MicroSD, portem USB-C pro nabíjení a zadní kamerou pro snímání QR kódů.
 

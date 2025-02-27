@@ -116,5 +116,5 @@ For å gå et skritt videre og styrke sikkerhetsstrategien din ytterligere, anbe
 
 Derfor inviterer jeg deg til å ta det gratis CYP201-opplæringskurset som tilbys av Plan ₿ Network. Dette kurset forklarer i detalj alle funksjonene til Bitcoin-lommebøker, slik at du kan mestre de tekniske aspektene som er viktige for å sikre pengene dine effektivt:
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legger igjen en grønn tommel nedenfor. Del gjerne denne artikkelen på dine sosiale nettverk. Tusen takk skal du ha!

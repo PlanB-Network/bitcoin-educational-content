@@ -679,7 +679,7 @@ $$
 
 如果您希望了解更多关于现代密码学的数学基础，我还推荐咨询Plan ₿ Network上的这门其他课程：
 
-https://planb.network/courses/cyp302
+https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## 从私钥计算公钥
 
@@ -1064,7 +1064,7 @@ Schnorr 签名方案为比特币提供了几个相对于原始的 ECDSA 算法�
 
 为了深入了解闪电网络，在CYP201课程之后，我强烈推荐由Fanis Michalakis开设的LNP201课程，该课程详细讲解了这个主题：
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 在下一部分，我建议探索构成您比特币钱包基础的助记词是如何工作的。
 
@@ -1097,7 +1097,7 @@ UTXOs因此代表了不同大小的比特币碎片，只要满足其*scriptPubKe
 
 要了解更多关于比特币隐私模型的信息，并发现保护你隐私的方法，我还推荐你关注我在Plan ₿ Network上的BTC204课程：
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD 钱包（_层次化确定性_）
 
@@ -2132,13 +2132,13 @@ $$
 通过映射我们所有的值，我们得到以下地址：
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 剩下的就是添加 HRP `bc`，它表示这是一个比特币主网的地址，以及分隔符 `1`，以获得完整的接收地址：
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 这个 _bech32_ 字母表的特点是，它包含了所有的字母数字字符，除了 `1`、`b`、`i` 和 `o`，以避免在人类输入或阅读时相似字符之间的视觉混淆。

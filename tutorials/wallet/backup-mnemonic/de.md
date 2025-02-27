@@ -116,5 +116,5 @@ Um einen Schritt weiter zu gehen und Ihre Sicherheitsstrategie weiter zu stärke
 
 Deshalb lade ich Sie ein, den kostenlosen CYP201-Kurs zu besuchen, der vom Plan ₿ Network angeboten wird. Dieser Kurs erklärt detailliert die Funktionsweise von Bitcoin-Wallets und ermöglicht es Ihnen, die technischen Aspekte zu beherrschen, die für die effektive Sicherung Ihrer Gelder unerlässlich sind:
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unten einen grünen Daumen hinterlassen würden. Sie können diesen Artikel auch gerne in Ihren sozialen Netzwerken teilen. Ich danke Ihnen sehr!

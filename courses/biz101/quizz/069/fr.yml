@@ -1,0 +1,9 @@
+question: Quel logiciel libre est adapté au système de paiement professionnel Bitcoin ?
+answer: Serveur BTC Pay
+wrong_answers:
+  - Swiss Bitcoin Pay
+  - Nœud ouvert
+  - Bitcoinize PoS
+explanation: |
+  BTC Pay Server est présenté dans le cours comme la principale solution open-source pour les installations professionnelles en raison de ses options d'intégration et de son contrôle étendus.
+reviewed: false

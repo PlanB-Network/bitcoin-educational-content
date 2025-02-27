@@ -1,0 +1,9 @@
+question: 入门者配置文件中考虑了哪两种钱包类型？
+answer: 托管和非托管闪电钱包
+wrong_answers:
+  - 热存储和冷存储比特币钱包
+  - 多重签名和纸质比特币钱包
+  - 硬件和大脑闪电钱包
+explanation: |
+  启动器配置文件使用托管或非托管闪电钱包。
+reviewed: false

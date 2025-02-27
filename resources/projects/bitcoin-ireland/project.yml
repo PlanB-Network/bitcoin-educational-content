@@ -1,0 +1,20 @@
+id: 6bf543a6-638f-4467-839e-78b596a77381
+name: Bitcoin Ireland
+category: conference
+
+links:
+  website: https://www.bitcoinireland.eu/home
+  twitter: https://x.com/BitcoinconfIRL
+
+tags:
+  - adoption
+  - self-sovereignty
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-26
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

@@ -14,7 +14,7 @@ Un contratto RGB è strutturato come una macchina a stati evolutiva. Inizia con 
 
 Per saperne di più sul funzionamento del protocollo RGB, vi consiglio di seguire questo corso di formazione completo:
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 La logica interna di RGB si basa su librerie Rust che voi, come sviluppatori, potete importare nei vostri progetti per gestire la parte di *convalida lato cliente*. Inoltre, il team di LNP/BP sta lavorando a legami per altre lingue, ma non sono ancora stati finalizzati. Inoltre, altre entità come Bitfinex stanno sviluppando i propri stack di integrazione, ma ne parleremo in un altro tutorial. Per il momento, la CLI `rgb` è il riferimento ufficiale, anche se rimane relativamente poco rifinita.
 
 ## Installazione e presentazione dello strumento rgb CLI

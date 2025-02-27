@@ -1,0 +1,9 @@
+question: Quel est l'objectif principal des outils comptables spécialisés dans le Bitcoin ?
+answer: Simplifier la collecte et le traitement automatiques des données relatives à Bitcoin
+wrong_answers:
+  - Renforcer la sécurité des clés privées de Bitcoin
+  - Faciliter les échanges directs de bitcoins sur les bourses décentralisées pour les entreprises
+  - Mettre en place un système PoS pour accepter les paiements en bitcoins
+explanation: |
+  Ces outils sont conçus pour automatiser la collecte des données, la conversion des formats, le calcul des taxes et la catégorisation des transactions.
+reviewed: false

@@ -712,7 +712,7 @@ La matematica delle curve ellittiche sui campi finiti è analoga a quella sui ca
 
 Se desideri approfondire le basi matematiche della crittografia moderna, ti consiglio anche di consultare questo altro corso su Plan ₿ Network:
 
-https://planb.network/courses/cyp302
+https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Calcolare la Chiave Pubblica dalla Chiave Privata
 
@@ -1095,7 +1095,7 @@ Se questa flag sighash viene integrata in Bitcoin, consentirà l'uso di covenant
 
 Per approfondire la tua conoscenza della Lightning Network, dopo il corso CYP201, ti consiglio vivamente il corso LNP201 di Fanis Michalakis, che copre l'argomento in dettaglio:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Nella prossima parte, propongo di scoprire come funziona la frase mnemonica alla base del tuo portafoglio Bitcoin.
 
@@ -1128,7 +1128,7 @@ Questo vincolo deriva dal modello di privacy di Bitcoin. Riutilizzando lo stesso
 
 Per saperne di più sul modello di privacy di Bitcoin e scoprire metodi per proteggere la tua privacy, ti consiglio anche di seguire il mio corso BTC204 su Plan ₿ Network:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Portafogli HD (_Hierarchical Deterministic_)
 
@@ -2128,13 +2128,13 @@ Per convertire un valore in un carattere _bech32_ utilizzando questa tabella, è
 Mappando tutti i nostri valori, otteniamo il seguente indirizzo:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Tutto ciò che rimane da fare è aggiungere l'HRP `bc`, che indica che si tratta di un indirizzo per il mainnet di Bitcoin, così come il separatore `1`, per ottenere l'indirizzo completo di ricezione:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 La particolarità di questo alfabeto _bech32_ è che include tutti i caratteri alfanumerici tranne `1`, `b`, `i` e `o` per evitare confusione visiva tra caratteri simili, specialmente durante la loro digitazione o lettura da parte degli umani.

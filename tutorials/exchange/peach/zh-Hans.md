@@ -10,7 +10,7 @@ description: 使用 Peach 和以 P2P 方式交换比特币的完整指南
 
 无 KYC 的点对点（P2P）交易所对于保护用户的保密性和金融自主权至关重要。它们实现了个人之间的直接交易，无需身份验证，这对于重视隐私的人来说至关重要。如需更深入地了解理论概念，请参阅 BTC204 课程：
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### 1.什么是桃子？
 
 Peach 是一个 P2P 交易所平台，允许用户在无需 KYC 的情况下买卖比特币。它提供直观的界面和先进的安全功能。与 Bisq、HodlHodl 和 Robosat 等其他解决方案相比，Peach 以其易用性和低费用脱颖而出。
@@ -33,7 +33,7 @@ Peach 是一个 P2P 交易所平台，允许用户在无需 KYC 的情况下买�
 
 *如需了解散列的更多信息，请参阅此课程：*
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 **谁可以查看我的付款详情？
 
 

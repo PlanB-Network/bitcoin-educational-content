@@ -12,7 +12,7 @@ Dans ce tutoriel, nous allons découvrir le processus de création d’un compte
 
 Si ce sujet de l'intégration du bitcoin à votre entreprise vous intéresse, je vous conseille également de découvrir notre formation théorique complète sur ce sujet :
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Création d’un compte sur Bitfinex
 
@@ -156,7 +156,7 @@ Bitfinex offre aussi des options de dépôt et de retrait via le Lightning Netwo
 
 Si le Lightning Network vous intéresse, nous avons également une formation complète pour comprendre son fonctionnement :
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Achat et vente de bitcoins sur Bitfinex
 
@@ -233,4 +233,4 @@ En fonction des objectifs et de la structure de votre entreprise, l'utilisation 
 
 Pour approfondir ce sujet, je vous recommande de consulter cette formation complète sur l'intégration du bitcoin aux entreprises, qui couvre dans le détail l'ajout en trésorerie, l'acceptation des paiements en bitcoins, et la comptabilité :
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

@@ -1,3 +1,12 @@
+
+⚠️ ***These guidelines are no longer up to date. You can find the latest guidelines in this tutorial on the platform:***
+
+https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+
+
+___
+
+
 ## Workflow
 
 ### 1. Configure your local environment

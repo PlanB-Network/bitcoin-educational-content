@@ -163,7 +163,7 @@ Neben Betrügereien mit Kryptowährungen und Finanzangelegenheiten ist der Haupt
 
 Wenn Ihnen dieses Thema völlig unbekannt ist, könnte der Kurs SCU 101 interessant sein, um es im Detail zu vertiefen.
 
-https://planb.network/courses/scu101
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Es ist entscheidend, Ihren Computer in einem optimalen Zustand zu halten, unabhängig davon, ob Sie sich für Bitcoin interessieren oder nicht. Ein Update dient nicht nur dazu, neue Funktionen hinzuzufügen, sondern korrigiert auch Fehler und verbessert die Sicherheit Ihrer Software. Stellen Sie daher sicher, dass Sie:
 
@@ -812,6 +812,10 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
   Obwohl Anonymität und Sicherheit geschätzt werden, bleibt der Paranoiker pragmatisch in seinen Entscheidungen und nutzt bewährte und zuverlässige Lösungen, um seine Bitcoins zu sichern und gleichzeitig im Kryptowährungsökosystem zu navigieren.
 
 Im Geiste des Paranoikers sind Vorsicht, Sicherheit und Anonymität von größter Bedeutung. Diese Prioritäten bestimmen einen bewussten und wohlüberlegten Ansatz für die Verwendung von Bitcoin, der Selbstständigkeit und Vorsicht fördert. Der Paranoiker ist bereit, Zeit und Mühe zu investieren, um die Sicherheit und Vertraulichkeit seiner Bitcoins zu gewährleisten und geschickt im Ökosystem zu navigieren, um unnötige Exposition zu vermeiden. Obwohl er für manche übermäßig vorsichtig erscheinen mag, betrachtet der Paranoiker seine Sorgfalt und Aufmerksamkeit für Details als wesentlich für eine erfolgreiche und sichere Teilnahme an der Welt von Bitcoin.
+
+# Schutz der Erben und des Vermögens
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Erstellung eines Nachlassplans
 

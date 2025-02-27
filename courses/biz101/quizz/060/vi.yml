@@ -1,0 +1,9 @@
+question: What is the primary hardware requirement for a Starter profile to accept Bitcoin payments?
+answer: A smartphone
+wrong_answers:
+  - A Bitcoin miner ASIC
+  - An hardware wallet
+  - A self-hosted server
+explanation: |
+  The Starter profile requires only a smartphone or tablet with a Lightning wallet, making it a lightweight solution.
+reviewed: false

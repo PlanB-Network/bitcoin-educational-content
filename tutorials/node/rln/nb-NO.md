@@ -31,7 +31,7 @@ En RGB-kontrakt er strukturert som en evolusjonær tilstandsmaskin. Den starter 
 
 Hvis du vil lære mer om hvordan RGB-protokollen fungerer, anbefaler jeg at du tar dette omfattende opplæringskurset:
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 ## RGB-kompatibel Lightning node-installasjon
 
 For å kompilere og installere `rgb-lightning-node`-binærfilen, starter vi med å klone repositoryet og dets undermoduler, og deretter kjører vi :

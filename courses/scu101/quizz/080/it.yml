@@ -1,0 +1,9 @@
+question: Perché è consigliato creare due indirizzi email distinti?
+answer: Per separare le comunicazioni generali dal recupero dell'account.
+wrong_answers:
+  - Per separare le comunicazioni professionali da quelle personali.
+  - Per creare più account e aumentare la visibilità online.
+  - Per ricevere più spam.
+explanation: |
+  La separazione degli indirizzi email aiuta a ridurre i rischi e a proteggere meglio l'accesso agli account critici.
+reviewed: false

@@ -8,7 +8,7 @@ description: Komplett guide til bruk av Bisq 2 og veksling av bitcoins P2P
 
 KYC-frie peer-to-peer-børser (P2P) er avgjørende for å bevare brukernes konfidensialitet og økonomiske uavhengighet. De muliggjør direkte transaksjoner mellom enkeltpersoner uten behov for identitetsbekreftelse, noe som er avgjørende for de som verdsetter personvern. For en mer inngående forståelse av de teoretiske konseptene, ta en titt på BTC204-kurset:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### Hva er Bisq 2?
 
 Bisq 2 er den nye versjonen av den populære desentraliserte Bisq-børsen, som ble lansert i 2024. I motsetning til forgjengeren er Bisq 2 utviklet for å støtte flere utvekslingsprotokoller, noe som gir brukerne større fleksibilitet.

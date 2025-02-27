@@ -12,7 +12,7 @@ If you wish to contribute to the PlanB Network, you will need to use GitHub to p
 
 If you have no idea what GitHub is, or if you want to learn more about the technical terms related to Git and GitHub, I recommend you read our introductory article to familiarize yourself with these concepts.
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 

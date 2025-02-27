@@ -1,0 +1,9 @@
+question: 基本配置文件用于帮助员工在 PoS 处理付款的是什么？
+answer: 在 PoS 应用程序上创建包含项目价格的菜单
+wrong_answers:
+  - 记录销售额的手工账簿
+  - 每笔交易的纸质发票系统
+  - 自动会计记录系统，记录来自 PoS 的交易
+explanation: |
+  基本配置文件中的 PoS 应用程序可让员工从预设菜单中选择项目，从而简化计费流程。
+reviewed: false

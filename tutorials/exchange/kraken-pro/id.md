@@ -10,7 +10,7 @@ Dalam tutorial ini, kita akan membahas proses pembuatan akun bisnis Kraken, memb
 
 Jika Anda tertarik dengan topik mengintegrasikan bitcoin ke dalam bisnis Anda, saya juga merekomendasikan untuk mempelajari kursus pelatihan teori lengkap kami tentang topik ini:
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## 1 - Membuat akun perusahaan Kraken
 
 Langkah pertama dalam menggunakan Kraken untuk mengelola keuangan perusahaan Anda, tentu saja, adalah membuat akun. Di sini, kami tidak akan membuat akun untuk individu, tetapi akun perusahaan, yang tidak hanya memastikan kepatuhan terhadap peraturan, tetapi juga menawarkan fitur-fitur yang dirancang khusus seperti ekspor akuntansi.
@@ -216,4 +216,4 @@ Tergantung pada tujuan dan struktur perusahaan Anda, penggunaan Kraken dapat ber
 
 Untuk melihat topik ini secara lebih mendalam, saya merekomendasikan kursus pelatihan komprehensif tentang mengintegrasikan bitcoin ke dalam bisnis, yang mencakup secara rinci menambah arus kas, menerima pembayaran bitcoin, dan akuntansi:
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

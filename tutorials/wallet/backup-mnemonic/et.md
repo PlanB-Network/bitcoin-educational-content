@@ -116,5 +116,5 @@ Et minna sammu võrra kaugemale ja tugevdada oma turvastrateegiat, soovitan teil
 
 Seepärast kutsun teid osalema tasuta CYP201 koolitusel, mida pakub Plan ₿ Network. See koolituskursus selgitab üksikasjalikult kõiki Bitcoini rahakotide tööpõhimõtteid, võimaldades teil omandada tehnilised aspektid, mis on olulised teie vahendite tõhusaks kaitsmiseks :
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 Kui leidsid selle õpetuse kasulikuks, oleksin tänulik, kui jätaksid alla rohelise pöidla. Jaga seda artiklit julgelt oma suhtlusvõrgustikes. Tänan teid väga!

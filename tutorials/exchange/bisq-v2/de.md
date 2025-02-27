@@ -8,7 +8,7 @@ description: Vollständige Anleitung zur Verwendung von Bisq 2 und zum P2P-Tausc
 
 KYC-freie Peer-to-Peer-Börsen (P2P) sind für die Wahrung der Vertraulichkeit und der finanziellen Autonomie der Nutzer unerlässlich. Sie ermöglichen direkte Transaktionen zwischen Einzelpersonen, ohne dass eine Identitätsprüfung erforderlich ist, was für diejenigen, die Wert auf ihre Privatsphäre legen, entscheidend ist. Für ein tieferes Verständnis der theoretischen Konzepte schauen Sie sich den Kurs BTC204 an:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### Was ist Bisq 2?
 
 Bisq 2 ist die neue Version der beliebten dezentralen Bisq-Börse, die im Jahr 2024 eingeführt wurde. Im Gegensatz zu seinem Vorgänger wurde Bisq 2 entwickelt, um mehrere Austauschprotokolle zu unterstützen und den Nutzern mehr Flexibilität zu bieten.

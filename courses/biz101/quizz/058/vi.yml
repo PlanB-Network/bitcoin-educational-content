@@ -1,0 +1,9 @@
+question: What is one benefit of using a custodial wallet for the Starter profile?
+answer: Reduced technical responsibilities
+wrong_answers:
+  - Increased control over private keys
+  - Enhanced privacy with full autonomy over transactions
+  - Elimination of transaction fees
+explanation: |
+  Custodial wallets manage private keys, easing technical burdens for users.
+reviewed: false

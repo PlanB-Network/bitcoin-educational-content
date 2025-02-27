@@ -1,8 +1,0 @@
-question: Mục đích của trang web Have I Been Pwned là gì?
-answer: Để kiểm tra xem địa chỉ email của bạn có bị xâm phạm không và được thông báo về các vụ vi phạm dữ liệu trong tương lai.
-wrong_answers:
-  - Để kiểm tra xem địa chỉ email của bạn có hợp lệ không và được thông báo về các vụ vi phạm dữ liệu trong tương lai.
-  - Để kiểm tra xem địa chỉ email của bạn có sẵn không, và nếu có, sử dụng nó để đăng ký vào một cửa hàng cầm đồ trực tuyến nổi tiếng.
-  - Để kiểm tra xem địa chỉ email của bạn có bị chặn do sự cố vi phạm dữ liệu không.
-explanation:
-  Trang web Have I Been Pwned cho phép bạn kiểm tra xem địa chỉ email của bạn có bị xâm phạm trong một vụ vi phạm dữ liệu không và được thông báo về các vụ vi phạm dữ liệu trong tương lai.

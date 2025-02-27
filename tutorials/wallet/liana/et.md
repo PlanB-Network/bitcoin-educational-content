@@ -27,7 +27,7 @@ Allpool olev skeem illustreerib kahe kulureaga portfelli toimimist:
 See toiming võimaldab seadistada erinevaid konfiguratsioone, sealhulgas :
 
 
-- Pärimis- (või pärimis-) plaan, mis võimaldab pärijatel kasutaja surma korral raha tagasi saada. Lisateavet selle teema kohta soovitame lugeda [4. osa] (https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038) kursusest BTC102.
+- Pärimis- (või pärimis-) plaan, mis võimaldab pärijatel kasutaja surma korral raha tagasi saada. Lisateavet selle teema kohta soovitame lugeda [4. osa] (https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kursusest BTC102.
 - Tugevdatud varukoopia koos taastamisajaga, mis annab kasutajale võimaluse kasutada oma rahakotti, ilma et ta peaks hoidma vastavat salajast lauset ja riskima selle vargusega, näiteks sissemurdmise ajal.
 - Turvavõrk inimestele, kes alustavad Bitcoiniga: nad haldavad oma rahakotti ise ja nende "eestkostja" (näiteks sugulane) jätab endale õiguse oma raha teatud aja möödudes tagasi saada.
 - Mitme osapoolega allkirjastamise skeem (*multisig*), mille nõuded vähenevad aja jooksul, et tulla toime ühe või mitme osaleja, näiteks ettevõtte partnerite kadumisega.
@@ -192,7 +192,7 @@ Saate kontrollida oma vahendite aegumise staatust, kui lähete vahekaardile "*M�
 
 Bitcoinis kasutatava UTXO esindusmudeli paremaks mõistmiseks võite tutvuda Loïc Moreli kirjutatud Bitcoini konfidentsiaalsuse kursuse esimese osaga:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ## Jooksvad kulud
 
 Praegused kulutused on Liana kasutamise normaalne olukord. Bitcoinide saatmine põhivõtmega toimib nagu kõigis klassikalistes Bitcoini rahakottides, näiteks Electrum või Sparrow.
@@ -303,18 +303,6 @@ Tehing peaks ilmuma põhiekraanile. Pärast kinnitamist on taastamine lõpule vi
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Videod
-
-Kui soovid Liana kohta rohkem teada saada, on siin mõned videod, mis annavad sulle selgema ettekujutuse selle toimimisest. Siin on Liana video esitlus koos Kévin Loaec'i ja Antoine Poinsot'ga :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Ja siin on õpetus, kuidas kasutada Liana't, koos Antoine Poinsot'ga :
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Viimases näidatud manipulatsioonid on sarnased käesolevas õpetuses esitatud manipulatsioonidega.
-
 ## Boonus: deskriptorite analüüs
 
 Deskriptor on inimesele loetav tähemärgijada, mis kirjeldab ammendavalt aadresside kogumit. See ühendab endas mitmeid olulisi andmeid täiustatud portfelli osade (UTXO) leidmiseks. Deskriptori kirjutamise viis põhineb Andrew Poelstra, Pieter Wuille ja Sanket Kanjalkari poolt 2019. aastal välja töötatud skriptimiskeelel [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/).
@@ -350,4 +338,4 @@ Selle portfoolio abil loodud skriptid võtavad järgmise kuju:
 
 Kuna teie Bitcoini rahakoti turvalisus sõltub ka teie arusaamisest selle toimimisest, soovitan teil uurida põhjalikult deterministlike ja hierarhiliste rahakottide mehhanisme, võttes selle tasuta koolituskursuse Plan ₿ Network :
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

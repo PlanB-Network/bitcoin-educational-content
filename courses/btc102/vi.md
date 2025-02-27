@@ -161,7 +161,7 @@ Ngoài lừa đảo tiền mã hóa và lừa đảo tài chính, lý do chính 
 
 Nếu chủ đề này hoàn toàn mới mẻ với bạn, bạn nên khám phá chi tiết khóa học SECU 101, đó là một khoá học rất thú vị.
 
-https://planb.network/courses/scu101
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Việc giữ cho máy tính của bạn ở tình trạng làm việc tối ưu là rất quan trọng, cho dù bạn quan tâm đến Bitcoin hay không. Một bản cập nhật không chỉ để thêm tính năng mới: nó cũng sửa chữa lỗi và cải thiện bảo mật của phần mềm của bạn. Vì vậy, hãy đảm bảo:
 
@@ -799,6 +799,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
   Trong khi đánh giá cao sự ẩn danh và an toàn, Bitcoiner "hoài nghi" vẫn thực dụng trong các lựa chọn của mình, sử dụng các giải pháp đã được kiểm chứng và đáng tin cậy để bảo vệ bitcoin của mình trong quá trình khám phá hệ sinh thái tiền mã hóa.
   Trong tâm trí của Bitcoiner "hoài nghi", sự cẩn trọng, bảo mật và ẩn danh là tối quan trọng. Những ưu tiên này định hình một cách tiếp cận cẩn thận và được suy nghĩ kỹ lưỡng khi sử dụng Bitcoin, thúc đẩy sự tự lực và cẩn trọng. Bitcoiner "hoài nghi" sẵn lòng đầu tư thời gian và công sức để đảm bảo an toàn và riêng tư cho bitcoin của họ, đồng thời khéo léo khám phá, sử dụng hệ sinh thái để không làm lộ thông tin. Mặc dù sẽ có một số người "cẩn thận quá mức", Bitcoiner "hoài nghi" cho rằng sự chăm chỉ và chú ý tới các chi tiết là điều cốt lõi dẫn tới sự thành công và an toàn của họ trong thế giới Bitcoin.
 
+# Bảo vệ người thừa kế và tài sản của bạn
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Tạo kế hoạch thừa kế
 

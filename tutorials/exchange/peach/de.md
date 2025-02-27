@@ -10,7 +10,7 @@ description: Vollständiger Leitfaden zur Verwendung von Peach und zum P2P-Tausc
 
 KYC-freie Peer-to-Peer-Börsen (P2P) sind für die Wahrung der Vertraulichkeit und der finanziellen Autonomie der Nutzer unerlässlich. Sie ermöglichen direkte Transaktionen zwischen Einzelpersonen, ohne dass eine Identitätsprüfung erforderlich ist, was für diejenigen, die Wert auf ihre Privatsphäre legen, entscheidend ist. Für ein tieferes Verständnis der theoretischen Konzepte schauen Sie sich den Kurs BTC204 an:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### 1. Was ist Pfirsich?
 
 Peach ist eine P2P-Austauschplattform, die es Nutzern ermöglicht, Bitcoins ohne KYC zu kaufen und zu verkaufen. Sie bietet eine intuitive Benutzeroberfläche und erweiterte Sicherheitsfunktionen. Im Vergleich zu anderen Lösungen wie Bisq, HodlHodl und Robosat zeichnet sich Peach durch seine Benutzerfreundlichkeit und niedrigen Gebühren aus.
@@ -33,7 +33,7 @@ Zur Erinnerung: Ein Hash ist ein unkenntlich gemachter Datensatz, ähnlich wie b
 
 *Für weitere Informationen über Hashing können Sie diesen Kurs besuchen:*
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 **Wer kann meine Zahlungsdaten einsehen?
 
 

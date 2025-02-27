@@ -1,0 +1,9 @@
+question: Que solução alternativa é mencionada para as empresas que preferem um ambiente de retalho em linha tudo-em-um?
+answer: Be-BOP
+wrong_answers:
+  - Fénix
+  - Nó aberto
+  - Swiss Bitcoin Pay
+explanation: |
+  A Be-BOP é uma opção para quem deseja uma loja virtual integrada que facilite os pagamentos em Bitcoin.
+reviewed: false

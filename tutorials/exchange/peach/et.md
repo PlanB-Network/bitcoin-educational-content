@@ -10,7 +10,7 @@ description: Täielik juhend Peach'i kasutamise ja bitcoinide P2P vahetamise koh
 
 KYC-vabad peer-to-peer (P2P) börsid on kasutajate konfidentsiaalsuse ja finantsautonoomia säilitamiseks hädavajalikud. Need võimaldavad otsetehinguid üksikisikute vahel ilma isikusamasuse kontrollimiseta, mis on oluline nende jaoks, kes hindavad privaatsust. Teoreetiliste mõistete põhjalikumaks mõistmiseks vaadake kursust BTC204:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### 1. Mis on virsik?
 
 Peach on P2P-vahetusplatvorm, mis võimaldab kasutajatel osta ja müüa bitcoine ilma KYC-ta. See pakub intuitiivset kasutajaliidest ja täiustatud turvaelemente. Võrreldes teiste lahendustega, nagu Bisq, HodlHodl ja Robosat, paistab Peach silma oma kasutusmugavuse ja madalate tasude poolest.
@@ -33,7 +33,7 @@ Meeldetuletuseks: hash on andmed, mis on sarnaselt krüpteerimisele muudetud tun
 
 *Lisateavet hashimise kohta saate sellest kursusest:*
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 **Kes saab minu makseandmeid näha?
 
 

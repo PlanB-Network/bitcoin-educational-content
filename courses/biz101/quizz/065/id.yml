@@ -1,0 +1,9 @@
+question: Apa solusi pembayaran utama yang direkomendasikan untuk bisnis profil Essential?
+answer: Pembayaran Bitcoin Swiss
+wrong_answers:
+  - Simpul Terbuka
+  - Server BTCPay
+  - Bitcoinize PoS
+explanation: |
+  Kami menyoroti Swiss Bitcoin Pay sebagai solusi yang direkomendasikan untuk profil Essential, yang menyeimbangkan kesederhanaan dan keamanan.
+reviewed: false

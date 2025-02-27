@@ -1,0 +1,23 @@
+id: 24c835b1-26df-45a2-a94b-a92d5911f369
+name: Blink
+category: wallet
+
+links:
+  website: https://www.blink.sv/
+  twitter: https://x.com/blinkbtc
+  Github: https://github.com/GaloyMoney/blink-mobile
+  youtube: done
+
+tags:
+  - adoption
+  - software
+  - wallets
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-18
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

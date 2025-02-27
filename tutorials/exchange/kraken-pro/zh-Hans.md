@@ -10,7 +10,7 @@ Kraken 是世界上最著名的加密货币交易平台之一。它为希望将�
 
 如果你对将比特币融入你的业务感兴趣，我还建议你了解我们关于这个主题的完整理论培训课程：
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## 1 - 创建 Kraken 企业账户
 
 使用Kraken管理公司财务的第一步当然是创建一个账户。在这里，我们要创建的不是个人账户，而是公司账户。公司账户不仅能确保遵守法规，还能提供专门定制的功能，如会计导出。
@@ -216,4 +216,4 @@ Kraken 提供不同的交易界面，每个界面都是为满足特定需求而�
 
 如果想更深入地了解这一主题，我推荐这门关于将比特币融入企业的综合培训课程，其中详细介绍了增加现金流、接受比特币支付和会计等内容：
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

@@ -1,0 +1,9 @@
+question: Hvilken av følgende programvare er ikke en Bitcoin-regnskapsløsning?
+answer: Spurv
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow er ikke en Bitcoin-regnskapsløsning, mens de andre er det (det er en Bitcoin Wallet-programvare).
+reviewed: false

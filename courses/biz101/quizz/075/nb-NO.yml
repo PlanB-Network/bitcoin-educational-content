@@ -1,0 +1,9 @@
+question: Hva er hovedmålet med implementering av Bitcoin-betalinger på bedriftsnivå?
+answer: Å integrere Bitcoin-betalinger fullt ut i organisasjonens kjerneprosesser
+wrong_answers:
+  - Å eksperimentere med Bitcoin i liten skala
+  - Å bruke Bitcoin til markedsføringsformål
+  - Å akseptere Bitcoin uten integrering i andre systemer
+explanation: |
+  Bedriftsløsninger har som mål å tilpasse Bitcoin-betalinger til kjernevirksomhetens arbeidsflyter og systemer.
+reviewed: false

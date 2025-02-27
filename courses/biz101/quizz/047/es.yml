@@ -1,0 +1,9 @@
+question: ¿Por qué la escasez es una propiedad esencial de una buena moneda?
+answer: Conserva el valor
+wrong_answers:
+  - Garantiza que sólo los activos físicos puedan utilizarse como moneda
+  - Garantiza que la moneda esté al alcance de todos
+  - Garantiza que la moneda esté siempre respaldada por una mercancía como el oro
+explanation: |
+  La escasez impide la creación excesiva de moneda, manteniendo así su valor y poder adquisitivo a lo largo del tiempo.
+reviewed: false

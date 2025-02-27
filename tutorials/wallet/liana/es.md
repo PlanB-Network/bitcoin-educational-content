@@ -27,7 +27,7 @@ El diagrama siguiente ilustra el funcionamiento de una cartera con dos vías de 
 Esta operación permite establecer varias configuraciones, entre ellas :
 
 
-- Un plan de sucesión (o herencia), que permite a los herederos recuperar los fondos en caso de fallecimiento del usuario. Para más información sobre este tema, recomendamos la lectura de la [parte 4](https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038) del curso BTC102.
+- Un plan de sucesión (o herencia), que permite a los herederos recuperar los fondos en caso de fallecimiento del usuario. Para más información sobre este tema, recomendamos la lectura de la [parte 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) del curso BTC102.
 - Una copia de seguridad reforzada con un tiempo de recuperación, dando al usuario la posibilidad de utilizar su monedero sin tener que guardar la frase secreta correspondiente y arriesgarse a que se la roben, durante un robo por ejemplo.
 - Una red de seguridad para las personas que se inician en Bitcoin: gestionarán su propio monedero, y su "tutor" (un familiar, por ejemplo) se reservará el derecho a recuperar sus fondos tras un periodo determinado.
 - Un esquema de firma multiparte (*multisig*) con requisitos reducidos en el tiempo, para hacer frente a la desaparición de uno o más de los participantes, como los socios de una empresa.
@@ -192,7 +192,7 @@ Puedes comprobar el estado de expiración de tus fondos yendo a la pestaña "*Co
 
 Para comprender mejor el modelo de representación UTXO utilizado en Bitcoin, puede consultar la primera parte del curso sobre confidencialidad en Bitcoin escrito por Loïc Morel :
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ## Gastos corrientes
 
 El gasto corriente es la situación normal para usar Liana. El envío de bitcoins con la llave maestra funciona como en todos los monederos Bitcoin clásicos como Electrum o Sparrow.
@@ -303,18 +303,6 @@ La transacción debería aparecer en la pantalla principal. Una vez confirmada, 
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Vídeos
-
-Si quiere saber más sobre Liana, hay algunos vídeos que le darán una idea más clara de cómo funciona. Aquí tienes un vídeo de presentación de Liana con Kévin Loaec y Antoine Poinsot :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Y aquí tienes un tutorial sobre el uso de Liana, con Antoine Poinsot :
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Las manipulaciones mostradas en este último son similares a las presentadas en este tutorial.
-
 ## Bonificación: análisis de descriptores
 
 El descriptor es una cadena de caracteres legible por el ser humano que describe exhaustivamente un conjunto de direcciones. Combina una serie de informaciones esenciales para recuperar las partes (UTXO) de una cartera avanzada. La forma de escribir el descriptor se basa en [Miniscript syntax](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), el lenguaje de scripting desarrollado por Andrew Poelstra, Pieter Wuille y Sanket Kanjalkar en 2019.
@@ -350,4 +338,4 @@ Los guiones creados por esta cartera tendrán la siguiente forma:
 
 Dado que la seguridad de tu monedero Bitcoin también depende de que entiendas cómo funciona, te sugiero que estudies en profundidad los mecanismos de los monederos deterministas y jerárquicos realizando este curso de formación gratuito sobre Plan ₿ Network :
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

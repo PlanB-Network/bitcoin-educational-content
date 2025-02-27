@@ -1,0 +1,21 @@
+id: eb398219-d700-43b9-bbd5-351670c72eb1
+name: Mercari
+category: merchant
+
+links:
+  website: https://www.mercari.com/
+  twitter: https://x.com/mercari_app
+
+tags:
+  - market-trends
+  - business
+  - use-case
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-17
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

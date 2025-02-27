@@ -1,0 +1,9 @@
+question: Hvorfor er knapphet en viktig egenskap ved en god valuta?
+answer: Det bevarer verdien
+wrong_answers:
+  - Det garanterer at kun fysiske eiendeler kan brukes som valuta
+  - Det sikrer at valutaen er allment tilgjengelig for hver enkelt
+  - Det sikrer at valutaen alltid må være støttet av en råvare som gull
+explanation: |
+  Knapphet forhindrer overdreven produksjon av valuta, og opprettholder dermed valutaens verdi og kjøpekraft over tid.
+reviewed: false

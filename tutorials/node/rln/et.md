@@ -31,7 +31,7 @@ RGB leping on üles ehitatud nagu evolutsiooniline riigimasin. See algab Genesis
 
 Kui soovite rohkem teada saada, kuidas RGB-protokoll töötab, soovitan teil läbida selle põhjaliku koolituskursuse:
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 ## RGB-ühilduv Lightning-sõlme paigaldus
 
 Selleks, et kompileerida ja installeerida `rgb-lightning-node` binaarsüsteemi, alustame repositooriumi ja selle alammoodulite kloonimisest, seejärel käivitame :

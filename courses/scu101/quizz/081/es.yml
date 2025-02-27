@@ -1,0 +1,9 @@
+question: ¿Qué permite el sitio Have I Been Pwned?
+answer: Verificar si una dirección de correo ha sido comprometida.
+wrong_answers:
+  - Generar nuevas contraseñas seguras y aleatorias.
+  - Crear una cuenta de correo segura.
+  - Sincronizar cuentas de correo para facilitar su uso.
+explanation: |
+  Este sitio permite detectar filtraciones de datos y verificar la seguridad de una dirección de correo electrónico.
+reviewed: false

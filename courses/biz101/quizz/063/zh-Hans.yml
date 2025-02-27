@@ -1,0 +1,9 @@
+question: 哪种情况最能说明比特币支付的基本配置文件的用途？
+answer: 每月接受几笔比特币付款的餐厅
+wrong_answers:
+  - 一家跨国公司，每天处理数千笔交易
+  - 接受比特币发票付款的独立自由职业者
+  - 高频比特币交易平台
+explanation: |
+  Essential profile 的目标客户是很少进行比特币交易的中小型企业，如餐馆。
+reviewed: false

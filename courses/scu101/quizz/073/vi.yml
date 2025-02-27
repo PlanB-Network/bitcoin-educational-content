@@ -1,0 +1,9 @@
+question: Lợi ích chính của việc sử dụng trình quản lý mật khẩu là gì?
+answer: Chỉ cần nhớ một mật khẩu chính.
+wrong_answers:
+  - Không cần tạo mật khẩu mới nữa.
+  - Hỗ trợ ghi nhớ tất cả mật khẩu bằng kỹ thuật ghi nhớ.
+  - Loại bỏ nhu cầu có tài khoản trực tuyến.
+explanation: |
+  Người dùng chỉ cần nhớ một mật khẩu để truy cập tất cả các mật khẩu khác.
+reviewed: false

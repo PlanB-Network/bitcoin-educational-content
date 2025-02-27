@@ -10,7 +10,7 @@ En este tutorial, cubriremos el proceso de creación de una cuenta comercial en 
 
 Si te interesa el tema de la integración del bitcoin en tu negocio, te recomiendo también que descubras nuestro completo curso de formación teórica sobre el tema:
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## 1 - Crear una cuenta corporativa de Kraken
 
 El primer paso para utilizar Kraken para gestionar las finanzas de su empresa es, por supuesto, crear una cuenta. En este caso, no vamos a crear una cuenta para particulares, sino una cuenta corporativa, que no solo garantiza el cumplimiento de la normativa, sino que también ofrece funciones especialmente adaptadas, como las exportaciones contables.
@@ -216,4 +216,4 @@ Dependiendo de los objetivos y la estructura de su empresa, el uso de Kraken pue
 
 Para profundizar en este tema, recomiendo este completo curso de formación sobre la integración de bitcoin en las empresas, que cubre en detalle la adición al flujo de caja, la aceptación de pagos bitcoin, y la contabilidad :
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

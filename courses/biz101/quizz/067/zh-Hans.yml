@@ -1,0 +1,9 @@
+question: Zaprite 和 Musqet 等工具在专业支付解决方案中扮演什么角色？
+answer: 它们完善了结账体验
+wrong_answers:
+  - 他们处理多种货币兑换和法币支付业务
+  - 它们侧重于加密交易数据和管理私钥
+  - 它们是基本的 POS 系统
+explanation: |
+  Zaprite 和 Musqet 为结账流程增加了定制和报告功能，是对核心支付基础设施的补充。
+reviewed: false

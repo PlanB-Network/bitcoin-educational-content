@@ -1,0 +1,21 @@
+id: 3aa98f63-8466-4a3f-85f3-8d6ddf5369a4
+name: Satsback
+category: service
+
+links:
+  website: https://satsback.com/
+  twitter: https://x.com/Satsback
+
+tags:
+  - software
+  - lightning
+  - use-case
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-18
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

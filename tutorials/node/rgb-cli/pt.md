@@ -14,7 +14,7 @@ Um contrato RGB está estruturado como uma máquina de estado evolutiva. Começa
 
 Para saber mais sobre o funcionamento do protocolo RGB, recomendo que faça este curso de formação abrangente:
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 A lógica interna do RGB é baseada em bibliotecas Rust que vocês, como programadores, podem importar para os vossos projectos para gerir a parte da *Validação do lado do cliente*. Além disso, a equipa LNP/BP está a trabalhar em ligações para outras linguagens, mas isto ainda não foi finalizado. Além disso, outras entidades, como a Bitfinex, estão a desenvolver as suas próprias pilhas de integração, mas falaremos sobre elas noutro tutorial. Por enquanto, o `rgb` CLI é a referência oficial, mesmo que permaneça relativamente pouco polido.
 
 ## Instalação e apresentação da ferramenta rgb CLI

@@ -10,7 +10,7 @@ description: Täydellinen opas Peachin käyttöön ja bitcoinien P2P-vaihtoon
 
 KYC-vapaat P2P-pörssit ovat olennaisen tärkeitä käyttäjien luottamuksellisuuden ja taloudellisen riippumattomuuden säilyttämiseksi. Ne mahdollistavat suorat transaktiot yksityishenkilöiden välillä ilman henkilöllisyyden todentamista, mikä on ratkaisevan tärkeää yksityisyyttä arvostaville. Jos haluat syvällisemmän käsityksen teoreettisista käsitteistä, tutustu BTC204-kurssiin:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### 1. Mikä on persikka?
 
 Peach on P2P-pörssialusta, jonka avulla käyttäjät voivat ostaa ja myydä bitcoineja ilman KYC:tä. Se tarjoaa intuitiivisen käyttöliittymän ja kehittyneitä turvaominaisuuksia. Verrattuna muihin ratkaisuihin, kuten Bisqiin, HodlHodliin ja Robosatiin, Peach erottuu edukseen helppokäyttöisyytensä ja edullisten maksujensa ansiosta.
@@ -33,7 +33,7 @@ Muistutuksena mainittakoon, että hash on tietoa, joka on tehty tunnistamattomak
 
 *Jos haluat lisätietoa hashingista, voit seurata tätä kurssia:*
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 **Kuka näkee maksutietoni?
 
 

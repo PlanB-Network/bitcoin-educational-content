@@ -1,0 +1,21 @@
+id: 63c351c0-fd3c-4047-96f5-664cedf8840f
+name: Geyser Fund
+category: service
+
+links:
+  website: https://geyser.fund/
+  twitter: https://x.com/geyserfund
+
+tags:
+  - use-case
+  - decentralization
+  - proof-of-work
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-18
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

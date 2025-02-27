@@ -163,7 +163,7 @@ Bitfinex offre aussi des options de dépôt et de retrait via le Lightning Netwo
 
 Si le Lightning Network vous intéresse, nous avons également une formation complète pour comprendre son fonctionnement :
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Après l'achat de vos premiers bitcoins, vous avez évidemment la possibilité de les laisser sur la plateforme, mais je vous recommande fortement de les transférer vers votre propre portefeuille en self-custody. Si vous ne savez pas encore comment utiliser un portefeuille Bitcoin, je vous invite à explorer [la section "Wallet" sur Plan ₿ Network](https://planb.network/tutorials/wallet).
 

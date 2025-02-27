@@ -124,7 +124,7 @@ Kirjoita haluamasi määrä. Sinun on myös valittava, miten haluat nostaa satsi
 
 Jos et ole perehtynyt Bitcoin-, Lightning- tai Liquid-lompakoiden käyttöön, suosittelen, että osallistut erityiselle koulutuskurssillemme:
 
-https://planb.network/courses/btc102
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 Voit myös tutustua [yksityiskohtaisiin ohjeisiimme parhaista Bitcoin-lompakoista](https://planb.network/tutorials/wallet).
 
 Vahvista sitten ostoksesi klikkaamalla "*Vahvista osto*".

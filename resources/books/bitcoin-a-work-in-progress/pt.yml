@@ -1,0 +1,14 @@
+title: "Bitcoin: um trabalho em progresso"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  Com milhares de projectos de "criptomoedas" por aí, dizem que o Bitcoin é velho e
+  aborrecido, mas nada poderia estar mais longe da verdade. Este livro guiá-lo-á
+  através dos últimos desenvolvimentos na Bitcoin, vistos pelos olhos de um dos
+  os seus muitos criadores.
+  Ficará a saber mais sobre o mais recente soft fork conhecido como Taproot, os desafios de manter o software de código aberto livre de bugs e malware que roubam dinheiro, novas formas de proteger os nós contra malfeitores na Internet, como lidar com a blockchain em constante crescimento e muito mais!
+  Cada capítulo está ligado a um episódio correspondente do podcast Bitcoin, Explained. O livro também contém links para mais de duzentos artigos, vídeos, podcasts e até mesmo o código-fonte. E graças a um pequeno código QR ao lado de cada link, nunca mais será necessário digitar URLs longos.
+  O autor é um programador de software baseado em Utrecht, Países Baixos. Ele trabalha na indústria de Bitcoin desde 2014 e tornou-se um colaborador do Bitcoin Core em 2017, dando-lhe um lugar na primeira fila para todos os desenvolvimentos técnicos mais recentes e emocionantes. Ele é co-apresentador do podcast da Bitcoin Magazine Bitcoin, Explained.
+contributors:
+  - hunt-wood

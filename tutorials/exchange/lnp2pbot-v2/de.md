@@ -8,7 +8,7 @@ description: Vollständige Anleitung zu LNP2PBot und P2P-Bitcoin-Handel
 
 KYC-freie Peer-to-Peer-Börsen (P2P) sind für die Wahrung der Vertraulichkeit und der finanziellen Autonomie der Nutzer unerlässlich. Sie ermöglichen direkte Transaktionen zwischen Einzelpersonen, ohne dass eine Identitätsprüfung erforderlich ist, was für diejenigen, die Wert auf ihre Privatsphäre legen, entscheidend ist. Für ein tieferes Verständnis der theoretischen Konzepte schauen Sie sich den Kurs BTC204 an:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 Der Kauf und Verkauf von Bitcoin über Peer-to-Peer (P2P) ist eine der privatesten Methoden, Bitcoins zu erwerben oder zu veräußern. LNP2PBot ist ein Open-Source-Telegram-Bot, der P2P-Börsen auf dem Lightning-Netzwerk erleichtert und schnelle, kostengünstige und KYC-freie Transaktionen ermöglicht.
 
 ### Warum Lnp2pbot verwenden?

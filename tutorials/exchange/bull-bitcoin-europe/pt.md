@@ -124,7 +124,7 @@ Introduza o montante que pretende comprar. Também terá de escolher como preten
 
 Se não estiver familiarizado com a utilização das carteiras Bitcoin, Lightning ou Liquid, sugiro que faça o nosso curso de formação dedicado:
 
-https://planb.network/courses/btc102
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 Também pode explorar [os nossos tutoriais detalhados sobre as melhores carteiras Bitcoin] (https://planb.network/tutorials/wallet).
 
 Em seguida, confirme a sua compra clicando em "*Confirmar compra*".

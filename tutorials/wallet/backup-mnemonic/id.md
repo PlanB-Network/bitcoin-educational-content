@@ -116,5 +116,5 @@ Untuk melangkah lebih jauh dan memperkuat strategi keamanan Anda, saya sarankan 
 
 Itulah mengapa saya mengundang Anda untuk mengikuti kursus pelatihan CYP201 gratis yang ditawarkan oleh Plan ₿ Network. Kursus pelatihan ini menjelaskan secara rinci semua cara kerja dompet Bitcoin, sehingga Anda dapat menguasai aspek-aspek teknis yang penting untuk mengamankan dana Anda secara efektif:
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda memberikan jempol hijau di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih banyak!

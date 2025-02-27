@@ -1,0 +1,21 @@
+id: 5708f9b0-d7a5-4ba4-b21c-4f4deb29723d
+name: Money Badger
+category: service
+
+links:
+  website: https://moneybadger.co.za/
+  twitter: https://x.com/MoneyBadgerPay
+
+tags:
+  - software
+  - business
+  - adoption
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-18
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

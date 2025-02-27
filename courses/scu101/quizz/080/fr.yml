@@ -1,0 +1,9 @@
+question: Pourquoi est-il conseillé de créer deux adresses mail distinctes ?
+answer: Pour séparer les communications générales de la récupération de compte
+wrong_answers:
+  - Pour séparer les communications professionnelles des communications personnelles
+  - Pour multiplier les comptes afin d'augmenter la visibilité en ligne
+  - Pour recevoir plus de spam
+explanation: |
+  La séparation des adresses permet de limiter les risques et de mieux protéger l'accès aux comptes critiques.
+reviewed: false

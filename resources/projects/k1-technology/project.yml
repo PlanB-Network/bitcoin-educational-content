@@ -1,0 +1,21 @@
+id: d5933dca-2fe1-45b5-8e2e-d6295de3f871
+name: K1 Technology
+category: manufacturer
+
+links:
+  website: https://www.k1.sv/
+  twitter: https://x.com/k1elsalvador
+
+tags:
+  - hardware
+  - lightning
+  - software
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-19
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

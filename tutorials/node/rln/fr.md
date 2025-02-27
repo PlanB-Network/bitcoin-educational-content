@@ -29,7 +29,7 @@ Un contrat RGB se structure comme une machine à états évolutive. Il démarre 
 
 Pour en savoir plus sur le fonctionnement du protocole RGB, je vous conseille de suivre cette formation complète :
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## Installation du nœud Lightning compatible RGB
 

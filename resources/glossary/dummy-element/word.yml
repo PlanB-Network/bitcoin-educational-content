@@ -92,3 +92,9 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.4
+
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.47

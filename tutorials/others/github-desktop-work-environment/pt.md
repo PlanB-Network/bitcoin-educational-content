@@ -12,7 +12,7 @@ Se você deseja contribuir para a Rede PlanB, precisará usar o GitHub para prop
 
 Se você não tem ideia do que é o GitHub, ou se quer aprender mais sobre os termos técnicos relacionados ao Git e GitHub, recomendo que leia nosso artigo introdutório para se familiarizar com esses conceitos.
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 

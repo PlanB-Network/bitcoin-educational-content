@@ -116,5 +116,5 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 そのため、Plan ₿ Networkが提供する無料のCYP201トレーニングコースを受講することをお勧めします。このトレーニングコースでは、ビットコインウォレットのすべての仕組みを詳しく説明し、資金を効果的に確保するために不可欠な技術的側面をマスターすることができます：
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 このチュートリアルが役に立ったと思ったら、下に緑の親指を残してくれるとありがたい。この記事をソーシャルネットワークでシェアしてください。ありがとうございました！

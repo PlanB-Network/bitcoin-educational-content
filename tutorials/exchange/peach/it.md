@@ -10,7 +10,7 @@ description: Guida completa all'utilizzo di Peach e allo scambio di bitcoin P2P
 
 Gli scambi peer-to-peer (P2P) senza KYC sono essenziali per preservare la riservatezza e l'autonomia finanziaria degli utenti. Permettono di effettuare transazioni dirette tra individui senza la necessità di verificare l'identità, il che è fondamentale per coloro che tengono alla privacy. Per una comprensione più approfondita dei concetti teorici, date un'occhiata al corso BTC204:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### 1. Che cos'è la pesca?
 
 Peach è una piattaforma di scambio P2P che consente agli utenti di acquistare e vendere bitcoin senza KYC. Offre un'interfaccia intuitiva e funzioni di sicurezza avanzate. Rispetto ad altre soluzioni come Bisq, HodlHodl e Robosat, Peach si distingue per la facilità d'uso e le basse commissioni.
@@ -33,7 +33,7 @@ Come promemoria, un hash è un dato reso irriconoscibile, simile alla crittograf
 
 *Per ulteriori informazioni sull'hashing, è possibile seguire questo corso:*
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 **Chi può vedere i miei dati di pagamento?
 
 

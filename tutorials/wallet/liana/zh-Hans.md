@@ -27,7 +27,7 @@ Liana 以比特币的可编程性为基础，创建了一个先进的钱包。�
 通过该操作可以设置各种配置，包括 ：
 
 
-- 继承（或继承）计划，使继承人能够在用户死亡时收回资金。有关此主题的更多信息，建议阅读 BTC102 课程的 [第 4 部分](https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038)。
+- 继承（或继承）计划，使继承人能够在用户死亡时收回资金。有关此主题的更多信息，建议阅读 BTC102 课程的 [第 4 部分](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038)。
 - 有恢复时间的强化备份，让用户可以使用自己的钱包，而不必保留相应的密语，也不必冒钱包被盗的风险，例如在入室盗窃时。
 - 为刚开始使用比特币的人提供一个安全网：他们将管理自己的钱包，而他们的 "监护人"（例如亲戚）将保留在一定期限后收回资金的权利。
 - 多方签名方案（*multisig*）随着时间的推移要求降低，以应对一个或多个参与者（如公司的合作伙伴）消失的情况。
@@ -192,7 +192,7 @@ Liana 的主屏幕显示您的余额以及与您的投资组合相关的交易�
 
 要更好地理解比特币中使用的 UTXO 表示模型，可以参考 Loïc Morel 撰写的比特币保密性课程的第一部分：
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ## 经常性开支
 
 当前支出是使用 Liana 的正常情况。使用主密钥发送比特币与所有经典比特币钱包（如 Electrum 或 Sparrow）一样有效。
@@ -303,18 +303,6 @@ wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJ
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## 视频
-
-如果您想了解有关 Liana 的更多信息，一些视频内容可以让您更清楚地了解它是如何工作的。下面是 Kévin Loaec 和 Antoine Poinsot 介绍 Liana 的视频：
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-下面是 Antoine Poinsot 介绍如何使用 Liana 的教程：
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-后者显示的操作与本教程中介绍的类似。
-
 ## 奖励：描述符分析
 
 描述符是一个人类可读字符串，详尽描述了一组地址。它结合了检索高级组合部件（UTXO）所需的大量基本信息。描述符的书写方式基于[Miniscript 语法](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/)，这是安德鲁-波尔斯特拉（Andrew Poelstra）、彼得-乌伊尔（Pieter Wuille）和桑凯特-坎贾卡尔（Sanket Kanjalkar）于 2019 年开发的脚本语言。
@@ -350,4 +338,4 @@ wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJ
 
 由于比特币钱包的安全性也取决于你对其工作原理的理解，我建议你参加 Plan ₿ Network 的免费培训课程，深入学习确定性钱包和分层钱包的机制：
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

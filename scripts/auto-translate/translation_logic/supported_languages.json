@@ -45,8 +45,8 @@
     {
       "code": "hi",
       "name": "Hindi",
-      "translator": "openai",
-      "code_translator": "Standard Modern Hindi"
+      "translator": "google",
+      "code_translator": "hi"
     },
     {
       "code": "id",
@@ -100,13 +100,13 @@
       "code": "th",
       "name": "Thai",
       "translator": "openai",
-      "code_translator": "TH"
+      "code_translator": "Thai"
     },
     {
       "code": "vi",
       "name": "Vietnamese",
-      "translator": "deepl",
-      "code_translator": "VI"
+      "translator": "google",
+      "code_translator": "vi"
     },
     {
       "code": "zh-Hans",

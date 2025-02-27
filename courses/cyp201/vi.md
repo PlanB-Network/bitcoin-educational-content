@@ -704,7 +704,7 @@ Toán học của đường cong elliptic trên trường hữu hạn tương đ
 
 Nếu bạn muốn tìm hiểu thêm về nền tảng toán học của mật mã học hiện đại, tôi cũng khuyên bạn tham khảo khóa học khác trên Plan ₿ Network:
 
-https://planb.network/courses/cyp302
+https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Tính Khóa Công Khai từ Khóa Riêng
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
@@ -1103,7 +1103,7 @@ Nếu cờ sighash này được tích hợp vào Bitcoin, nó sẽ cho phép s�
 
 Để mở rộng kiến thức về Mạng Lưới Lightning, sau khóa học CYP201, tôi rất khuyên bạn nên tham gia khóa học LNP201 của Fanis Michalakis, nơi đề cập đến chủ đề này một cách chi tiết:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Trong phần tiếp theo, tôi đề xuất khám phá cách hoạt động của cụm từ ghi nhớ tạo nên ví Bitcoin của bạn.
 
@@ -1136,7 +1136,7 @@ Ràng buộc này xuất phát từ mô hình bảo mật của Bitcoin. Bằng 
 
 Để tìm hiểu thêm về mô hình bảo mật của Bitcoin và khám phá các phương pháp để bảo vệ sự riêng tư của bạn, tôi cũng khuyến nghị theo dõi khóa học BTC204 của tôi trên Plan ₿ Network:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Ví HD (_Hierarchical Deterministic_)
 
@@ -2139,13 +2139,13 @@ $$
 Bằng cách ánh xạ tất cả giá trị của chúng ta, chúng ta nhận được địa chỉ sau:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Tất cả những gì còn lại là thêm HRP `bc`, chỉ ra rằng đó là một địa chỉ cho Bitcoin mainnet, cũng như dấu phân cách `1`, để nhận được địa chỉ nhận hoàn chỉnh:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Đặc điểm của bảng chữ cái *bech32* này là nó bao gồm tất cả các ký tự chữ và số trừ `1`, `b`, `i`, và `o` để tránh sự nhầm lẫn về mặt hình ảnh giữa các ký tự tương tự, đặc biệt trong quá trình nhập hoặc đọc bởi con người.

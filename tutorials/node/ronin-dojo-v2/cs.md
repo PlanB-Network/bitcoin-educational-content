@@ -209,7 +209,7 @@ Po přechodu na domovskou stránku RoninUI budete vyzváni k zahájení nastaven
 
 ![lets start](assets/notext/25.webp)
 
-V této fázi vám RoninUI představí vaše heslo `root`. Je zásadní jej bezpečně uložit. Můžete si vybrat fyzickou zálohu, na papíře, nebo uložení v [správci hesel](https://planb.network/courses/secu101/4/2).
+V této fázi vám RoninUI představí vaše heslo `root`. Je zásadní jej bezpečně uložit. Můžete si vybrat fyzickou zálohu, na papíře, nebo uložení v [správci hesel](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 

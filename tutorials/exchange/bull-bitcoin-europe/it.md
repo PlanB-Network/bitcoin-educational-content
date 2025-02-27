@@ -124,7 +124,7 @@ Inserire l'importo che si desidera acquistare. Dovrete anche scegliere la modali
 
 Se non avete familiarità con l'uso dei portafogli Bitcoin, Lightning o Liquid, vi suggerisco di seguire il nostro corso di formazione dedicato:
 
-https://planb.network/courses/btc102
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 Potete anche esplorare [i nostri tutorial dettagliati sui migliori portafogli Bitcoin](https://planb.network/tutorials/wallet).
 
 Quindi confermare l'acquisto facendo clic su "*Conferma acquisto*".

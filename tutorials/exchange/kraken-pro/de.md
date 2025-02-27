@@ -10,7 +10,7 @@ In diesem Tutorial werden wir den Prozess der Erstellung eines Kraken-Geschäfts
 
 Wenn Sie sich für das Thema der Integration von Bitcoin in Ihr Unternehmen interessieren, empfehle ich Ihnen auch unsere komplette theoretische Schulung zu diesem Thema zu entdecken:
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## 1 - Erstellen eines Kraken-Firmenkontos
 
 Der erste Schritt bei der Nutzung von Kraken zur Verwaltung der Finanzen Ihres Unternehmens ist natürlich die Erstellung eines Kontos. In diesem Fall werden wir kein Konto für Einzelpersonen erstellen, sondern ein Unternehmenskonto, das nicht nur die Einhaltung gesetzlicher Vorschriften gewährleistet, sondern auch speziell zugeschnittene Funktionen wie Buchhaltungsexporte bietet.
@@ -216,4 +216,4 @@ Je nach den Zielen und der Struktur Ihres Unternehmens kann der Einsatz von Krak
 
 Für einen tieferen Einblick in dieses Thema empfehle ich diesen umfassenden Schulungskurs über die Integration von Bitcoin in Unternehmen, der im Detail das Hinzufügen von Cashflow, die Annahme von Bitcoin-Zahlungen und die Buchhaltung behandelt:
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

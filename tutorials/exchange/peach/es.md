@@ -10,7 +10,7 @@ description: Guía completa para usar Peach e intercambiar bitcoins P2P
 
 Los intercambios P2P (peer-to-peer) son esenciales para preservar la confidencialidad y la autonomía financiera de los usuarios. Permiten transacciones directas entre particulares sin necesidad de verificar la identidad, lo que es crucial para quienes valoran la privacidad. Para profundizar en los conceptos teóricos, consulte el curso BTC204:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### 1. ¿Qué es el melocotón?
 
 Peach es una plataforma de intercambio P2P que permite a los usuarios comprar y vender bitcoins sin KYC. Ofrece una interfaz intuitiva y funciones de seguridad avanzadas. En comparación con otras soluciones como Bisq, HodlHodl y Robosat, Peach destaca por su facilidad de uso y sus bajas comisiones.
@@ -33,7 +33,7 @@ Como recordatorio, un hash son datos convertidos en irreconocibles, de forma sim
 
 *Para más información sobre hashing, puedes seguir este curso:*
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 **¿Quién puede ver mis datos de pago?
 
 

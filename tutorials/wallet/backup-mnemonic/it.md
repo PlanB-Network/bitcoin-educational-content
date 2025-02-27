@@ -116,5 +116,5 @@ Per fare un ulteriore passo avanti e rafforzare la vostra strategia di sicurezza
 
 Ecco perché vi invito a seguire il corso di formazione gratuito CYP201 offerto da Plan ₿ Network. Questo corso di formazione spiega in dettaglio tutti i meccanismi dei portafogli Bitcoin, consentendovi di padroneggiare gli aspetti tecnici essenziali per proteggere efficacemente i vostri fondi:
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 Se avete trovato utile questa guida, vi sarei grato se lasciaste un pollice verde qui sotto. Sentitevi liberi di condividere questo articolo sui vostri social network. Grazie mille!

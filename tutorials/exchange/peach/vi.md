@@ -10,7 +10,7 @@ description: Complete guide to using Peach and exchanging bitcoins P2P
 
 KYC-free peer-to-peer (P2P) exchanges are essential for preserving users' confidentiality and financial autonomy. They enable direct transactions between individuals without the need for identity verification, which is crucial for those who value privacy. For a more in-depth understanding of the theoretical concepts, take a look at the BTC204 course:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### 1. What is Peach?
 
 Peach is a P2P exchange platform that allows users to buy and sell bitcoins without KYC. It offers an intuitive interface and advanced security features. Compared to other solutions such as Bisq, HodlHodl, and Robosat, Peach stands out for its ease of use and low fees.
@@ -33,7 +33,7 @@ As a reminder, a hash is data rendered unrecognizable, similar to encryption. Th
 
 *For more information on hashing, you can follow this course:*
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 **Who can see my payment details?
 
 

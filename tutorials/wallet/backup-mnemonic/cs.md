@@ -116,5 +116,5 @@ Chcete-li jít ještě o krok dál a dále posílit svou bezpečnostní strategi
 
 Proto vás zvu na bezplatné školení CYP201, které nabízí společnost Plan ₿ Network. Tento školicí kurz podrobně vysvětluje veškeré fungování bitcoinových peněženek a umožní vám zvládnout technické aspekty nezbytné pro efektivní zabezpečení vašich finančních prostředků :
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 Pokud pro vás byl tento návod užitečný, budu vám vděčný, když mi níže zanecháte zelený palec. Neváhejte tento článek sdílet na svých sociálních sítích. Moc vám děkuji!

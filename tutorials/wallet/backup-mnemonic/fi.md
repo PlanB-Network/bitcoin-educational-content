@@ -116,5 +116,5 @@ Jos haluat mennä askeleen pidemmälle ja vahvistaa turvallisuusstrategiaasi ent
 
 Siksi kutsun sinut osallistumaan Plan ₿ Networkin tarjoamaan ilmaiseen CYP201-koulutukseen. Tällä kurssilla selitetään yksityiskohtaisesti kaikki Bitcoin-lompakoiden toiminta, jotta voit hallita tekniset näkökohdat, jotka ovat välttämättömiä varojen tehokkaan turvaamisen kannalta:
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit vihreän peukalon alle. Voit vapaasti jakaa tämän artikkelin sosiaalisissa verkostoissa. Kiitos paljon!

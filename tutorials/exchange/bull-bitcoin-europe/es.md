@@ -124,7 +124,7 @@ Introduzca el importe que desea comprar. También tendrás que elegir cómo quie
 
 Si no está familiarizado con el uso de los monederos Bitcoin, Lightning o Liquid, le sugiero que realice nuestro curso de formación dedicado:
 
-https://planb.network/courses/btc102
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 También puede explorar [nuestros tutoriales detallados sobre los mejores monederos Bitcoin](https://planb.network/tutorials/wallet).
 
 A continuación, confirme su compra haciendo clic en "*Confirmar compra*".

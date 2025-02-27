@@ -10,7 +10,7 @@ Tässä oppaassa käsittelemme Kraken-yritystilin luomista, bitcoinien ostamista
 
 Jos olet kiinnostunut bitcoinin integroimisesta yritykseesi, suosittelen myös tutustumaan täydelliseen teoreettiseen koulutuskurssiimme aiheesta:
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## 1 - Kraken-yritystilin luominen
 
 Ensimmäinen askel Krakenin käyttämisessä yrityksesi talouden hallintaan on tietenkin tilin luominen. Tässä yhteydessä emme aio luoda tiliä yksityishenkilöille, vaan yritystilin, joka ei ainoastaan takaa säännösten noudattamisen, vaan tarjoaa myös erityisesti räätälöityjä ominaisuuksia, kuten kirjanpidon viennin.
@@ -216,4 +216,4 @@ Krakenin käyttö voi vaihdella yrityksesi tavoitteista ja rakenteesta riippuen.
 
 Jos haluat syvällisemmin tarkastella tätä aihetta, Suosittelen tätä kattavaa koulutusta integrointiin Bitcoin yrityksiin, joka kattaa yksityiskohtaisesti lisäämällä kassavirran, hyväksymällä Bitcoin maksut, ja kirjanpito :
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

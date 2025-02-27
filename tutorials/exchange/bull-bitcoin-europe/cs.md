@@ -124,7 +124,7 @@ Zadejte částku, kterou chcete zakoupit. Musíte také zvolit, jakým způsobem
 
 Pokud nejste obeznámeni s používáním peněženek Bitcoin, Lightning nebo Liquid, doporučuji vám absolvovat náš specializovaný školící kurz:
 
-https://planb.network/courses/btc102
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 Můžete si také prohlédnout [naše podrobné návody na nejlepší bitcoinové peněženky](https://planb.network/tutorials/wallet).
 
 Poté potvrďte nákup kliknutím na "*Potvrdit nákup*".

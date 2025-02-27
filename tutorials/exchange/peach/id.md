@@ -10,7 +10,7 @@ description: Panduan lengkap untuk menggunakan Peach dan menukar bitcoin P2P
 
 Pertukaran peer-to-peer (P2P) yang bebas KYC sangat penting untuk menjaga kerahasiaan dan otonomi keuangan pengguna. Bursa ini memungkinkan transaksi langsung antar individu tanpa memerlukan verifikasi identitas, yang sangat penting bagi mereka yang menghargai privasi. Untuk pemahaman yang lebih mendalam mengenai konsep teoretis, lihatlah kursus BTC204:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### 1. Apa itu Peach?
 
 Peach adalah platform pertukaran P2P yang memungkinkan pengguna untuk membeli dan menjual bitcoin tanpa KYC. Ini menawarkan antarmuka yang intuitif dan fitur keamanan tingkat lanjut. Dibandingkan dengan solusi lain seperti Bisq, HodlHodl, dan Robosat, Peach menonjol karena kemudahan penggunaan dan biaya yang rendah.
@@ -33,7 +33,7 @@ Sebagai pengingat, hash adalah data yang tidak dapat dikenali, mirip dengan enkr
 
 *Untuk informasi lebih lanjut tentang hashing, Anda dapat mengikuti kursus ini:*
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 **Siapa saja yang dapat melihat detail pembayaran saya?
 
 

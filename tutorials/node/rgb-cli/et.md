@@ -14,7 +14,7 @@ RGB leping on üles ehitatud nagu evolutsiooniline riigimasin. See algab Genesis
 
 Kui soovite rohkem teada saada, kuidas RGB-protokoll töötab, soovitan teil läbida selle põhjaliku koolituskursuse:
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 RGB sisemine loogika põhineb Rust-raamatukogudel, mida te arendajatena saate oma projektidesse importida, et hallata *kliendipoolset valideerimist*. Lisaks töötab LNP/BP meeskond teiste keelte jaoks mõeldud sidemete kallal, kuid see ei ole veel lõplikult välja töötatud. Lisaks arendavad teised üksused, nagu Bitfinex, oma integratsioonipakette, kuid nendest räägime teises õpetuses. Hetkel on `rgb` CLI ametlik viide, isegi kui see on veel suhteliselt viimistlemata.
 
 ## Tööriista rgb CLI paigaldamine ja tutvustamine

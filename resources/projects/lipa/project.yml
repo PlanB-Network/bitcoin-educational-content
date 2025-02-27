@@ -1,0 +1,22 @@
+id: 9e772cca-d361-49f2-96d3-0607dcde0403
+name: Lipa
+
+links:
+  website: https://lipa.swiss/
+  twitter: https://x.com/lipa_btc
+
+tags:
+  - offchain
+  - wallets
+
+category: wallet
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-02-11
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward:

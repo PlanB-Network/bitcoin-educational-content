@@ -24,7 +24,7 @@ Si previamente has contribuido a la Red PlanB, es probable que ya tengas un ID d
 - Tener un fork del [repositorio fuente de la Red PlanB](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Si necesitas ayuda para obtener estos prerrequisitos, mis otros tutoriales te guiarán:**
-**[Entendiendo Git y GitHub](https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb)**
+**[Entendiendo Git y GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
 **[Creando una Cuenta de GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
 **[Configurando Tu Entorno de Trabajo](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
 

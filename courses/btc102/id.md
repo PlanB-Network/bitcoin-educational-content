@@ -161,7 +161,7 @@ Selain penipuan kriptokurensi dan penipuan finansial, alasan utama kehilangan bi
 
 Jika topik ini sepenuhnya baru bagi Anda, pelatihan SCU 101 bisa menjadi menarik untuk mendalami secara detail.
 
-https://planb.network/courses/scu101
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Sangat penting untuk menjaga komputer Anda dalam kondisi kerja optimal, apakah Anda tertarik dengan Bitcoin atau tidak. Pembaruan tidak hanya ada untuk menambahkan fitur baru: itu juga memperbaiki bug dan meningkatkan keamanan perangkat lunak Anda. Jadi, pastikan untuk:
 
@@ -799,6 +799,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 Dalam pola pikir individu Paranoid, kehati-hatian, keamanan, dan anonimitas adalah yang utama. Prioritas ini menentukan pendekatan yang disengaja dan dipikirkan dengan baik dalam menggunakan Bitcoin, mempromosikan kemandirian dan kehati-hatian. Individu Paranoid bersedia menginvestasikan waktu dan usaha untuk memastikan keamanan dan privasi bitcoin mereka sambil dengan terampil menavigasi ekosistem untuk menghindari paparan yang tidak perlu. Meskipun mungkin tampak terlalu hati-hati bagi sebagian orang, individu Paranoid menganggap kecermatan dan perhatian terhadap detail mereka penting untuk partisipasi yang sukses dan aman dalam dunia Bitcoin.
 
+# Melindungi ahli waris dan aset Anda
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Membuat rencana warisan
 

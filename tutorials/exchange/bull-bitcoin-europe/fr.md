@@ -123,7 +123,7 @@ Indiquez le montant que vous souhaitez acheter. Vous devrez également choisir l
 
 Si vous n'êtes pas familier avec l'utilisation des portefeuilles Bitcoin, Lightning ou Liquid, je vous suggère de suivre notre formation dédiée :
 
-https://planb.network/courses/btc102
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Vous pouvez aussi explorer [nos tutoriels détaillés sur les meilleurs portefeuilles Bitcoin](https://planb.network/tutorials/wallet).
 

@@ -1,0 +1,22 @@
+id: abea501d-1760-4f77-9c00-76a9400a3085
+name: Bitnob
+category: infrastructure
+
+links:
+  website: https://bitnob.com/
+  twitter: https://x.com/bitnob_official
+  Github: https://github.com/bitnob
+
+tags:
+  - software
+  - business
+  - scalability
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-17
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

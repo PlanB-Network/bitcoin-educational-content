@@ -234,7 +234,7 @@ Bitcoin challenges us to reconsider the nature of money itself. Could you explai
 
 For more information on Bitcoin, its history, how it works, and its use, I also suggest following this other comprehensive course:
 
-https://planb.network/courses/btc101
+https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Introduction to the Lightning Network
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -307,7 +307,7 @@ The Lightning Network is ideal for Bitcoin payments in physical or online stores
 
 For more information on the technical workings of the Lightning Network, I also suggest following this other comprehensive course:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 # Bitcoin in treasury
@@ -426,11 +426,11 @@ These thinkers shaped the idea that state intervention distorts markets and that
 
 For more information on this topic:
 
-https://planb.network/courses/eco201
+https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/phi201
+https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/eco102
+https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Holding bitcoin in treasury
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -908,7 +908,7 @@ When it comes to real-world examples, consider a mid-sized e-commerce store spec
 
 To delve deeper into implementation specifics and to explore hands-on configurations of BTC Pay Server, refer to the following course:
 
-https://planb.network/courses/btc305
+https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 ## The Enterprise

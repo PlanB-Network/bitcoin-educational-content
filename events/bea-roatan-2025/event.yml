@@ -1,0 +1,18 @@
+id: 949ac131-4c1f-48d3-88c0-2220ed273186
+start_date: 2025-03-07 09:00:00
+end_date: 2025-03-09 16:00:00
+timezone: Europe/Rome
+address_line_1: Roatan, Honduras
+name: Bitcoin Educators Academy Roatan 2025
+builder: Amity Age
+type: course
+description: Experience 3 intense days of learning how to communicate and educate Bitcoin in a simple and efficient way!
+language:
+  - en
+links:
+  website: https://docs.google.com/forms/d/e/1FAIpQLSejIxrpdGdkQgjcrkltA9-YUiAJLlHS2OPk98E6wYMLMVphug/viewform
+tags:
+  - proof-of-work
+  - DIY
+  - deep-dive
+project_id: d3d09b8a-dfbe-4475-921c-589c03953316

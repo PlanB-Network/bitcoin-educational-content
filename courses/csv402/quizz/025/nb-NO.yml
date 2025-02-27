@@ -1,0 +1,9 @@
+question: Hva er de fire komponentene som definerer en RGB-kontrakt?
+answer: Genesis, skjema, grensesnitt og implementering av grensesnitt
+wrong_answers:
+  - Genesis, skjema, overgang og implementering av grensesnitt
+  - Genesis, grensesnitt, overgang og utvidelse
+  - Genesis, grensesnitt, grensesnittimplementering og utvidelse
+explanation: |
+  En RGB-kontrakt består av fire forskjellige elementer: Genesis, Schema, Grensesnitt og Grensesnittimplementering.
+reviewed: false

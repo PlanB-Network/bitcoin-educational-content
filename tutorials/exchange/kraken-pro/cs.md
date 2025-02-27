@@ -10,7 +10,7 @@ V tomto tutoriálu se budeme zabývat procesem vytvoření podnikatelského úč
 
 Pokud vás zajímá téma integrace bitcoinu do vašeho podnikání, doporučuji vám také objevit naše kompletní teoretické školení na toto téma:
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## 1 - Vytvoření firemního účtu Kraken
 
 Prvním krokem při používání služby Kraken ke správě firemních financí je samozřejmě vytvoření účtu. Zde nebudeme vytvářet účet pro fyzické osoby, ale firemní účet, který nejen zajišťuje soulad s předpisy, ale také nabízí speciálně přizpůsobené funkce, jako jsou například účetní exporty.
@@ -216,4 +216,4 @@ Použití systému Kraken se může lišit v závislosti na cílech a struktuře
 
 Pro podrobnější pohled na toto téma doporučuji toto komplexní školení o integraci bitcoinu do podnikání, které se podrobně zabývá přidáváním do cash flow, přijímáním plateb v bitcoinech a účetnictvím:
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

@@ -163,7 +163,7 @@ Además de las estafas relacionadas con criptomonedas y finanzas, la principal r
 
 Si este tema te resulta completamente desconocido, el curso SCU 101 puede ser interesante para profundizar en él en detalle.
 
-https://planb.network/courses/scu101
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Es crucial mantener tu computadora en un estado óptimo de funcionamiento, ya sea que estés interesado en Bitcoin o no. Una actualización no solo agrega nuevas funciones, sino que también corrige errores y mejora la seguridad de tus software. Por lo tanto, asegúrate de:
 
@@ -808,6 +808,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 En la mentalidad del Paranoico, la precaución, la seguridad y el anonimato son primordiales. Estas prioridades dictan un enfoque deliberado y bien pensado para el uso de Bitcoin, promoviendo la autosuficiencia y la prudencia. El Paranoico está dispuesto a invertir tiempo y esfuerzo para garantizar la seguridad y privacidad de sus bitcoins, mientras navega hábilmente en el ecosistema para evitar cualquier exposición innecesaria. Aunque puede parecer excesivamente cauteloso para algunos, el Paranoico considera que su diligencia y atención al detalle son esenciales para una participación exitosa y segura en el mundo de Bitcoin.
 
+# Proteger a tus herederos y tu patrimonio
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Creación de un plan de herencia
 

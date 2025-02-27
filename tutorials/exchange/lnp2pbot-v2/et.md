@@ -8,7 +8,7 @@ description: Täielik juhend LNP2PBot ja P2P bitcoin kauplemine
 
 KYC-vabad peer-to-peer (P2P) börsid on kasutajate konfidentsiaalsuse ja finantsautonoomia säilitamiseks hädavajalikud. Need võimaldavad otsetehinguid üksikisikute vahel ilma isikusamasuse kontrollimiseta, mis on oluline nende jaoks, kes hindavad privaatsust. Teoreetiliste mõistete põhjalikumaks mõistmiseks vaadake kursust BTC204:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 Bitcoini ostmine ja müümine peer-to-peer (P2P) on üks kõige privaatsemaid meetodeid bitcoinide omandamiseks või võõrandamiseks. LNP2PBot on avatud lähtekoodiga Telegrami bot, mis hõlbustab P2P-vahetust Lightning-võrgus, võimaldades kiireid, odavaid ja KYC-vabasid tehinguid.
 
 ### Miks kasutada Lnp2pbot'i?

@@ -42,9 +42,9 @@ proofreading:
   - language: it
     last_contribution_date: 2025-02-06
     urgency: 1
-    contributors_id: 
+    contributors_id:
       - PaoloFoti
-    reward: 0.23
+    reward: 0.11
   - language: ja
     last_contribution_date:
     urgency: 1

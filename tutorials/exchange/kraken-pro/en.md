@@ -10,7 +10,7 @@ In this tutorial, we'll cover the process of creating a Kraken business account,
 
 If you're interested in the subject of integrating bitcoin into your business, I'd also recommend discovering our complete theoretical training course on the subject:
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## 1 - Creating a Kraken corporate account
 
 The first step in using Kraken to manage your company's finances is, of course, to create an account. Here, we're not going to create an account for individuals, but a corporate account, which not only ensures regulatory compliance, but also offers specially tailored features such as accounting exports.
@@ -161,7 +161,7 @@ For these transactions, you can choose between different order types: *Market*, 
 
 ## 7 - Transaction management and accounting
 
-As a business, you'll probably need to export details of your Kraken transactions for accounting purposes. Kraken offers tools to facilitate the export of transaction histories and provides a detailed view of your portfolio.
+As a business, you'll probably need to export details of your Kraken transactions for accounting purposes. Kraken offers tools to facilitate the export of transaction histories and provides a detailed view of your wallet.
 
 For a simplified view of your transaction history, go to the "*Transactions*" menu.
 
@@ -216,4 +216,4 @@ Depending on your company's objectives and structure, the use of Kraken may vary
 
 For a more in-depth look at this topic, I recommend this comprehensive training course on integrating bitcoin into businesses, which covers in detail adding to cash flow, accepting bitcoin payments, and accounting :
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

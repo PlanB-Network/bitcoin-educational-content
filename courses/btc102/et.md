@@ -162,7 +162,7 @@ Lisaks krüptoraha pettustele ja finantspettustele on bitcoine kaotamise peamine
 
 Kui see teema on teile täiesti tundmatu, võib SCU 101 koolitus olla huvitav, et sellesse detailsemalt süveneda.
 
-https://planb.network/courses/scu101
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 On oluline hoida oma arvuti optimaalses töökorras, olenemata sellest, kas olete huvitatud Bitcoinist või mitte. Uuendus ei ole ainult uute funktsioonide lisamiseks: see parandab ka vigu ja tõstab teie tarkvara turvalisust. Seega veenduge, et:
 
@@ -800,6 +800,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 Paranoilise isiku mõtteviisis on ettevaatlikkus, turvalisus ja anonüümsus ülimad. Need prioriteedid dikteerivad läbimõeldud ja hästi kaalutletud lähenemise Bitcoini kasutamisele, edendades iseseisvust ja ettevaatlikkust. Paranoiline isik on valmis investeerima aega ja vaeva, et tagada oma bitcoinide turvalisus ja privaatsus, samal ajal oskuslikult navigeerides ökosüsteemis, et vältida tarbetut kokkupuudet. Kuigi mõne jaoks võib see tunduda liiga ettevaatlik, peab paranoiline isik oma hoolsust ja detailidele tähelepanu pööramist eduka ja turvalise osalemise jaoks Bitcoini maailmas hädavajalikuks.
 
+# Oma pärijate ja vara kaitsmine
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Pärandiplaani loomine
 

@@ -116,5 +116,5 @@ To go one step further and further strengthen your security strategy, I recommen
 
 That's why I invite you to take the free CYP201 training course offered by Plan ₿ Network. This training course explains in detail all the workings of Bitcoin wallets, enabling you to master the technical aspects essential to effectively securing your funds :
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 If you found this tutorial useful, I'd be grateful if you'd leave a green thumb below. Feel free to share this article on your social networks. Thank you very much!

@@ -8,7 +8,7 @@ description: Guía completa sobre LNP2PBot y el comercio bitcoin P2P
 
 Los intercambios P2P (peer-to-peer) son esenciales para preservar la confidencialidad y la autonomía financiera de los usuarios. Permiten transacciones directas entre particulares sin necesidad de verificar la identidad, lo que es crucial para quienes valoran la privacidad. Para profundizar en los conceptos teóricos, consulte el curso BTC204:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 Comprar y vender bitcoins peer-to-peer (P2P) es uno de los métodos más privados de adquirir o deshacerse de bitcoins. LNP2PBot es un bot de Telegram de código abierto que facilita los intercambios P2P en la red Lightning, permitiendo transacciones rápidas, de bajo coste y libres de KYC.
 
 ### ¿Por qué utilizar Lnp2pbot?

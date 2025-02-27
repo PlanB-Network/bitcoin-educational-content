@@ -1,0 +1,9 @@
+question: Hva er de tradisjonelle betalingssystemenes primære funksjon?
+answer: For å muliggjøre overføring av midler mellom to parter
+wrong_answers:
+  - Å skape en felles global valuta som reguleres av en sentral myndighet
+  - Å legge til rette for internasjonal handel
+  - Begrense pengeoverføringer til kun å gjelde kontantutveksling ved personlig oppmøte
+explanation: |
+  Tradisjonelle betalingssystemer tilbyr mekanismer og infrastruktur for overføring av penger mellom betalere og betalingsmottakere i både lokale og internasjonale sammenhenger.
+reviewed: false

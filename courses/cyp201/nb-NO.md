@@ -683,7 +683,7 @@ Matematikken til elliptiske kurver over endelige felt er analog med de over felt
 
 Hvis du ønsker å lære mer om de matematiske grunnlagene for moderne kryptografi, anbefaler jeg også å konsultere dette andre kurset på Plan ₿ Network:
 
-https://planb.network/courses/cyp302
+https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Beregning av den offentlige nøkkelen fra den private nøkkelen
 
@@ -1066,7 +1066,7 @@ Hvis dette sighash-flagget integreres i Bitcoin, vil det muliggjøre bruk av cov
 
 For å fordype din kunnskap om Lightning Network, etter CYP201-kurset, anbefaler jeg på det sterkeste LNP201-kurset av Fanis Michalakis, som dekker emnet i detalj:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 I neste del foreslår jeg å oppdage hvordan den mnemoniske frasen som ligger til grunn for din Bitcoin-lommebok fungerer.
 
@@ -1099,7 +1099,7 @@ Denne begrensningen stammer fra Bitcoins personvernmodell. Ved å gjenbruke samm
 
 For å lære mer om Bitcoins personvernmodell og oppdage metoder for å beskytte ditt personvern, anbefaler jeg også å følge mitt BTC204 kurs på Plan ₿ Network:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Lommebøker (_Hierarchical Deterministic_)
 
@@ -2091,13 +2091,13 @@ For å konvertere en verdi til et _bech32_-tegn ved hjelp av denne tabellen, fin
 Ved å kartlegge alle våre verdier, får vi følgende adresse:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Alt som gjenstår er å legge til HRP `bc`, som indikerer at det er en adresse for Bitcoin hovednettverket, samt skilletegnet `1`, for å få den komplette mottaksadressen:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Det spesielle med dette _bech32_-alfabetet er at det inkluderer alle alfanumeriske tegn unntatt `1`, `b`, `i`, og `o` for å unngå visuell forvirring mellom lignende tegn, spesielt under deres inntasting eller lesing av mennesker.

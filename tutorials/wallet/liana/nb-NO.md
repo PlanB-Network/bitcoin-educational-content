@@ -27,7 +27,7 @@ Diagrammet nedenfor illustrerer hvordan en portefølje med to utgiftsbaner funge
 Denne operasjonen lar deg sette opp ulike konfigurasjoner, inkludert :
 
 
-- En arveplan som gjør det mulig for arvingene å få tilbake midler i tilfelle brukerens død. For mer informasjon om dette emnet anbefaler vi at du leser [del 4] (https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038) i BTC102-kurset.
+- En arveplan som gjør det mulig for arvingene å få tilbake midler i tilfelle brukerens død. For mer informasjon om dette emnet anbefaler vi at du leser [del 4] (https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) i BTC102-kurset.
 - En forsterket sikkerhetskopi med gjenopprettingstid, noe som gir brukeren mulighet til å bruke lommeboken uten å måtte oppbevare den tilhørende hemmelige frasen og risikere at den blir stjålet, for eksempel under et innbrudd.
 - Et sikkerhetsnett for folk som begynner med Bitcoin: De vil administrere sin egen lommebok, og deres "verge" (for eksempel en slektning) vil forbeholde seg retten til å få tilbake pengene deres etter en gitt periode.
 - En flerpartssignaturordning (*multisig*) med reduserte krav over tid, for å håndtere at en eller flere av deltakerne forsvinner, for eksempel et selskaps partnere.
@@ -192,7 +192,7 @@ Du kan sjekke utløpsstatusen til midlene dine ved å gå til "*Coins*"-fanen. D
 
 For å bedre forstå UTXO-representasjonsmodellen som brukes i Bitcoin, kan du konsultere den første delen av kurset om konfidensialitet i Bitcoin skrevet av Loïc Morel :
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ## Løpende utgifter
 
 Løpende utgifter er den normale situasjonen for bruk av Liana. Å sende bitcoins med hovednøkkelen fungerer som i alle klassiske Bitcoin-lommebøker som Electrum eller Sparrow.
@@ -303,18 +303,6 @@ Transaksjonen skal vises på hovedskjermen. Når dette er bekreftet, er gjenoppr
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Videoer
-
-Hvis du vil vite mer om Liana, kan du se noen videoer som gir deg en klarere idé om hvordan det fungerer. Her er en videopresentasjon av Liana med Kévin Loaec og Antoine Poinsot :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Og her er en veiledning om hvordan du bruker Liana, med Antoine Poinsot :
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Manipulasjonene som vises i sistnevnte, ligner på dem som presenteres i denne veiledningen.
-
 ## Bonus: Deskriptoranalyse
 
 Deskriptoren er en tegnstreng som kan leses av mennesker, og som gir en uttømmende beskrivelse av et sett med adresser. Den kombinerer en rekke viktige opplysninger som er nødvendige for å finne delene (UTXO) i en avansert portefølje. Måten deskriptoren skrives på, er basert på [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), skriptspråket som ble utviklet av Andrew Poelstra, Pieter Wuille og Sanket Kanjalkar i 2019.
@@ -350,4 +338,4 @@ Skriptene som opprettes av denne porteføljen, vil ha følgende form:
 
 Siden sikkerheten til Bitcoin-lommeboken din også avhenger av din forståelse av hvordan den fungerer, foreslår jeg at du studerer mekanismene til deterministiske og hierarkiske lommebøker i dybden ved å ta dette gratis opplæringskurset på Plan ₿ Network :
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

@@ -162,7 +162,7 @@ Kromě podvodů s kryptoměnami a finančních podvodů je hlavním důvodem ztr
 
 Pokud je pro vás toto téma zcela neznámé, školení SCU 101 může být zajímavé pro podrobné prozkoumání.
 
-https://planb.network/courses/scu101
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Je zásadní udržovat váš počítač ve vynikajícím pracovním stavu, ať už vás Bitcoin zajímá, nebo ne. Aktualizace není jen pro přidání nových funkcí: také opravuje chyby a zlepšuje bezpečnost vašeho softwaru. Takže se ujistěte, že:
 
@@ -798,6 +798,10 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
   Přestože si cení anonymity a bezpečnosti, paranoidní jedinec zůstává pragmatický ve svých volbách, používá osvědčená a spolehlivá řešení k zabezpečení svých bitcoinů při navigaci ekosystémem kryptoměn.
 
 V myšlení paranoidního jedince jsou opatrnost, bezpečnost a anonymita na prvním místě. Tyto priority dikutují promyšlený a dobře zvážený přístup k používání Bitcoinu, podporují soběstačnost a opatrnost. Paranoidní jedinec je ochoten investovat čas a úsilí, aby zajistil bezpečnost a soukromí svých bitcoinů, zatímco zručně naviguje ekosystémem, aby se vyhnul zbytečnému vystavení. I když se to některým může zdát přehnaně opatrné, paranoidní jedinec považuje svou pečlivost a pozornost k detailům za nezbytné pro úspěšnou a bezpečnou účast ve světě Bitcoinu.
+
+# Ochrana dědiců a majetku
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Vytvoření plánu dědictví
 

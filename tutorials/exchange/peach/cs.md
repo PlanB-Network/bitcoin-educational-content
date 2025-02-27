@@ -10,7 +10,7 @@ description: Kompletní průvodce používáním Peach a výměnou bitcoinů P2P
 
 Pro zachování důvěrnosti a finanční nezávislosti uživatelů jsou zásadní výměnné burzy P2P (peer-to-peer) bez nutnosti KYC. Umožňují přímé transakce mezi jednotlivci bez nutnosti ověřování totožnosti, což je zásadní pro ty, kteří si cení soukromí. Chcete-li teoretickým konceptům porozumět hlouběji, podívejte se na kurz BTC204:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### 1. Co je to broskev?
 
 Peach je výměnná platforma P2P, která uživatelům umožňuje nakupovat a prodávat bitcoiny bez nutnosti KYC. Nabízí intuitivní rozhraní a pokročilé bezpečnostní funkce. Ve srovnání s jinými řešeními, jako jsou Bisq, HodlHodl a Robosat, Peach vyniká snadným používáním a nízkými poplatky.
@@ -33,7 +33,7 @@ Připomínáme, že hash je podobně jako šifrování nerozpoznatelný údaj. S
 
 *Další informace o hashování naleznete v tomto kurzu:*
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 **Kdo může vidět mé platební údaje?
 
 

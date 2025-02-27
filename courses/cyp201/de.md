@@ -741,7 +741,7 @@ Die Mathematik der elliptischen Kurven über endlichen Feldern ist analog zu der
 
 Wenn Sie mehr über die mathematischen Grundlagen der modernen Kryptographie erfahren möchten, empfehle ich auch, diesen anderen Kurs im Plan ₿ Network zu konsultieren:
 
-https://planb.network/courses/cyp302
+https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Berechnung des öffentlichen Schlüssels aus dem privaten Schlüssel
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
@@ -1140,7 +1140,7 @@ Wenn dieses Sighash-Flag in Bitcoin integriert wird, ermöglicht es die Verwendu
 
 Um Ihr Wissen über das Lightning-Netzwerk zu vertiefen, empfehle ich nach dem CYP201-Kurs den LNP201-Kurs von Fanis Michalakis, der das Thema detailliert behandelt:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Im nächsten Teil schlage ich vor, zu entdecken, wie die mnemonische Phrase, die die Basis Ihrer Bitcoin-Wallet bildet, funktioniert.
 
@@ -1173,7 +1173,7 @@ Diese Einschränkung ergibt sich aus dem Datenschutzmodell von Bitcoin. Durch di
 
 Um mehr über das Datenschutzmodell von Bitcoin zu erfahren und Methoden zum Schutz Ihrer Privatsphäre zu entdecken, empfehle ich auch, meinem BTC204-Kurs im Plan ₿ Network zu folgen:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Wallets (_Hierarchical Deterministic_)
 
@@ -2164,13 +2164,13 @@ Um einen Wert in einen _bech32_-Zeichen mithilfe dieser Tabelle umzuwandeln, suc
 Durch das Abbilden all unserer Werte erhalten wir die folgende Adresse:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Es bleibt nur noch, das HRP `bc` hinzuzufügen, was anzeigt, dass es sich um eine Adresse für das Bitcoin-Hauptnetz handelt, sowie den Separator `1`, um die vollständige Empfangsadresse zu erhalten:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Die Besonderheit dieses _bech32_-Alphabets ist, dass es alle alphanumerischen Zeichen außer `1`, `b`, `i` und `o` umfasst, um visuelle Verwechslungen zwischen ähnlichen Zeichen zu vermeiden, insbesondere während ihrer Eingabe oder beim Lesen durch Menschen.

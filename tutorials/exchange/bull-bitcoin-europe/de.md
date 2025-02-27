@@ -124,7 +124,7 @@ Geben Sie den Betrag ein, den Sie kaufen möchten. Sie müssen auch wählen, wie
 
 Wenn Sie mit der Verwendung von Bitcoin-, Lightning- oder Liquid-Wallets nicht vertraut sind, empfehle ich Ihnen, unseren speziellen Schulungskurs zu besuchen:
 
-https://planb.network/courses/btc102
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 Sie können auch [unsere ausführlichen Anleitungen zu den besten Bitcoin-Wallets](https://planb.network/tutorials/wallet) erkunden.
 
 Bestätigen Sie dann Ihren Kauf, indem Sie auf "*Kauf bestätigen*" klicken.

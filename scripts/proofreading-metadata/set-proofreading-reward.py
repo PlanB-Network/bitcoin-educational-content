@@ -26,7 +26,7 @@ difficulty_factors = {
     'beginner': 1,
     'intermediate': 2,
     'advanced': 3,
-    'wizard': 4
+    'expert': 4
 }
 
 

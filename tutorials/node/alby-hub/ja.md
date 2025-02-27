@@ -363,4 +363,4 @@ Finish*」をクリックする。
 
 このチュートリアルで操作したすべてのライトニング・メカニズムの詳細を理解するには、このテーマに関する無料のトレーニングをご覧になることを強くお勧めします：
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -1,0 +1,9 @@
+question: Che ruolo ha un LSP nei pagamenti Enterprise Bitcoin?
+answer: Gestire transazioni ad alto volume su Lightning
+wrong_answers:
+  - Memorizzare le chiavi private del portafoglio Lightning
+  - Stampa delle fatture Lightning
+  - Elaborazione manuale dei rimborsi su Lightning
+explanation: |
+  Gli LSP gestiscono operazioni complesse e ad alto volume su Lightning.
+reviewed: false

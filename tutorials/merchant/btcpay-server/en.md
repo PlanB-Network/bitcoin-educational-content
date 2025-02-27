@@ -15,4 +15,4 @@ BTCpay Server - Accept Bitcoin Payments In Minutes by BTCSession
 
 We have a complete course about BTCPay Server, You are welcome to view the complete course for free so you can expand your knowledge of this amazing tool.
 
-[**-> Learn more about BTCPay Server and their utility in our couse**](https://planb.network/courses/btc305)
+[**-> Learn more about BTCPay Server and their utility in our couse**](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)

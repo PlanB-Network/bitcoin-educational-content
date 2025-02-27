@@ -84,3 +84,15 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.2
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.2
+
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.22

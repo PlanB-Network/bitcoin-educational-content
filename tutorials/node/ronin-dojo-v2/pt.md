@@ -211,7 +211,7 @@ Uma vez na página inicial do RoninUI, será solicitado que você inicie a confi
 
 ![vamos começar](assets/notext/25.webp)
 
-Nesta etapa, o RoninUI apresenta a você sua senha `root`. É essencial mantê-la segura. Você pode optar por um backup físico, em papel, ou salvar em um [gerenciador de senhas](https://planb.network/courses/secu101/4/2).
+Nesta etapa, o RoninUI apresenta a você sua senha `root`. É essencial mantê-la segura. Você pode optar por um backup físico, em papel, ou salvar em um [gerenciador de senhas](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![senha root](assets/notext/26.webp)
 

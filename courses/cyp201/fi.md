@@ -682,7 +682,7 @@ Elliptisten käyrien matematiikka äärellisillä kentillä on analoginen reaali
 
 Jos haluat oppia lisää modernin kryptografian matemaattisista perusteista, suosittelen myös tutustumaan tähän toiseen kurssiin Plan ₿ Networkissa:
 
-https://planb.network/courses/cyp302
+https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Julkisen avaimen laskeminen yksityisavaimesta
 
@@ -1068,7 +1068,7 @@ Jos tämä sighash-lippu integroidaan Bitcoiniin, se mahdollistaa kovenanttien k
 
 Syventääksesi tietämystäsi Lightning-verkosta, CYP201-kurssin jälkeen suosittelen lämpimästi LNP201-kurssia, jonka pitää Fanis Michalakis ja joka käsittelee aihetta yksityiskohtaisesti:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Seuraavassa osassa ehdotan, että tutustumme siihen, miten Bitcoin-lompakkosi perustana oleva mnemonic-lause toimii.
 
@@ -1101,7 +1101,7 @@ Tämä rajoitus juontuu Bitcoinin yksityisyysmallista. Saman osoitteen uudelleen
 
 Lisätietoja Bitcoinin yksityisyysmallista ja menetelmistä yksityisyytesi suojaamiseksi suosittelen myös seuraamaan BTC204-kurssiani Plan ₿ Networkissa:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Lompakot (_Hierarchical Deterministic_)
 
@@ -2104,13 +2104,13 @@ Arvon muuttaminen _bech32_-merkiksi tämän taulukon avulla on yksinkertaista: e
 Kartoittamalla kaikki arvomme saamme seuraavan osoitteen:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Ainoa jäljellä oleva tehtävä on lisätä HRP `bc`, joka osoittaa, että kyseessä on Bitcoinin pääverkon osoite, sekä erotin `1`, jotta saadaan täydellinen vastaanotto-osoite:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Tämän _bech32_-aakkoston erityispiirre on, että se sisältää kaikki alfanumeeriset merkit paitsi `1`, `b`, `i` ja `o` välttääkseen visuaalisen sekaannuksen samankaltaisten merkkien välillä, erityisesti niiden syöttämisen tai lukemisen aikana ihmisille.

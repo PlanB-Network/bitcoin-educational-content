@@ -124,7 +124,7 @@ Sisestage summa, mida soovite osta. Samuti peate valima, kuidas soovite oma sats
 
 Kui te ei ole kursis Bitcoini, Lightningi või Liquid rahakoti kasutamisega, soovitan teil läbida meie spetsiaalne koolituskursus:
 
-https://planb.network/courses/btc102
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 Võite uurida ka [meie üksikasjalikke õpetusi parimate Bitcoini rahakottide kohta](https://planb.network/tutorials/wallet).
 
 Seejärel kinnitage oma ostu, klõpsates "*Kinnitage ostu*".

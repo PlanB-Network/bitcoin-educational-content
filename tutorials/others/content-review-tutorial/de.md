@@ -33,7 +33,7 @@ Sie müssen kein GitHub-Experte sein, um Inhalte zu überprüfen. Obwohl es imme
 
 Wenn Sie jedoch mit Git und GitHub nicht vertraut sind und mehr darüber erfahren möchten, können Sie sich unseren Einführungsartikel über diese Tools ansehen:
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Ein Konto erstellen
 
 

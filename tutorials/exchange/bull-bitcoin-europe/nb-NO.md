@@ -124,7 +124,7 @@ Angi beløpet du ønsker å kjøpe. Du må også velge hvordan du ønsker å ta 
 
 Hvis du ikke er kjent med å bruke Bitcoin, Lightning eller Liquid lommebøker, foreslår jeg at du tar vårt dedikerte opplæringskurs:
 
-https://planb.network/courses/btc102
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 Du kan også utforske [våre detaljerte veiledninger om de beste Bitcoin-lommebøkene] (https://planb.network/tutorials/wallet).
 
 Bekreft deretter kjøpet ved å klikke på "*Bekreft kjøp*".

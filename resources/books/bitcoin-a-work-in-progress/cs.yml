@@ -1,0 +1,14 @@
+title: "Bitcoin: Práce na vývoji"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  S tisíci "krypto" projekty tam, říkají Bitcoin je starý a
+  nudné, ale nic nemůže být vzdálenější pravdě. Tato kniha vás provede
+  o nejnovějším vývoji v oblasti bitcoinu očima jednoho z nich
+  jeho mnoha vývojářů.
+  Dozvíte se o nejnovějším soft forku známém jako Taproot, o problémech s udržováním open source softwaru bez chyb a malwaru, který krade peníze, o nových způsobech ochrany uzlů před zloduchy na internetu, o tom, jak se vypořádat se stále rostoucím blockchainem, a o dalších věcech!
+  Každá kapitola odkazuje na odpovídající epizodu podcastu Bitcoin, Explained. Kniha také odkazuje na více než dvě stovky článků, videí, podcastů a dokonce i na zdrojový kód. A díky malému QR kódu u každého odkazu už nikdy nebudete muset psát dlouhé adresy URL.
+  Autor je softwarový vývojář z Utrechtu v Nizozemsku. V oblasti bitcoinu pracuje od roku 2014 a v roce 2017 se stal přispěvatelem do jádra bitcoinu, díky čemuž má přístup ke všem nejnovějším a nejzajímavějším technickým novinkám. Je spolumoderátorem podcastu Bitcoin Magazine Bitcoin, Explained.
+contributors:
+  - hunt-wood

@@ -1,0 +1,9 @@
+question: Em que é que uma transação com cartão de crédito difere normalmente de uma simples transação em numerário?
+answer: Envolve múltiplos intermediários
+wrong_answers:
+  - Acontece instantaneamente, sem qualquer envolvimento de intermediários
+  - Requer apenas a troca física de moeda
+  - Obriga a que ambas as partes produzam bens idênticos
+explanation: |
+  Ao contrário do dinheiro, que é trocado imediatamente, as transacções com cartões de crédito passam por uma série de etapas que envolvem bancos, redes de cartões e processos de compensação, o que resulta em atrasos e custos adicionais.
+reviewed: false

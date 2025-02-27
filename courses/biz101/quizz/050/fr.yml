@@ -1,0 +1,9 @@
+question: En quoi une transaction par carte de crédit diffère-t-elle généralement d'une simple transaction en espèces ?
+answer: Elle implique de multiples intermédiaires
+wrong_answers:
+  - Elle se fait instantanément, sans intervention d'un intermédiaire
+  - Il ne nécessite que l'échange physique de devises
+  - Il impose aux deux parties de produire des biens identiques
+explanation: |
+  Contrairement aux espèces, qui sont échangées immédiatement, les transactions par carte de crédit passent par une série d'étapes impliquant les banques, les réseaux de cartes et les processus de compensation, ce qui entraîne des retards et des coûts supplémentaires.
+reviewed: false

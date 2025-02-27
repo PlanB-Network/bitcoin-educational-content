@@ -363,4 +363,4 @@ Nå vet du hvordan du bruker Lightning med din egen node ved hjelp av Alby Hub-v
 
 For å forstå i detalj alle Lightning-mekanismene som vi har manipulert i denne opplæringen, anbefaler jeg deg på det sterkeste å oppdage vår gratis opplæring om emnet :
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

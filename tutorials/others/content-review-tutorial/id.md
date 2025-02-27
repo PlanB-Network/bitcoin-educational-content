@@ -33,7 +33,7 @@ Anda tidak perlu menjadi ahli GitHub untuk meninjau konten. Meskipun akan lebih 
 
 Namun, jika Anda tidak terbiasa dengan Git dan GitHub dan ingin mempelajari lebih lanjut, Anda dapat melihat artikel pengantar kami tentang alat bantu ini:
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Membuat akun
 
 

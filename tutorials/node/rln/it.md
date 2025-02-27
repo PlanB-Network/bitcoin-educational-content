@@ -31,7 +31,7 @@ Un contratto RGB è strutturato come una macchina a stati evolutiva. Inizia con 
 
 Per saperne di più sul funzionamento del protocollo RGB, vi consiglio di seguire questo corso di formazione completo:
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 ## Installazione del nodo Lightning compatibile con RGB
 
 Per compilare e installare il binario `rgb-lightning-node', si inizia clonando il repository e i suoi sottomoduli, quindi si esegue il comando :

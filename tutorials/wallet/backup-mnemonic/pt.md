@@ -116,5 +116,5 @@ Para dar um passo em frente e reforçar ainda mais a sua estratégia de seguran�
 
 É por isso que o convido a fazer o curso de formação gratuito CYP201 oferecido pela Plan ₿ Network. Este curso de formação explica em pormenor todo o funcionamento das carteiras Bitcoin, permitindo-lhe dominar os aspectos técnicos essenciais para proteger eficazmente os seus fundos:
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 Se achou este tutorial útil, agradecia que deixasse um polegar verde abaixo. Sinta-se à vontade para partilhar este artigo nas suas redes sociais. Muito obrigado!

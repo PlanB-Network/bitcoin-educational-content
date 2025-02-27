@@ -1,0 +1,9 @@
+question: Kuidas uuendavad Enterprise'i süsteemid inventuuri automaatselt?
+answer: Töökorralduse käivitajate kaudu
+wrong_answers:
+  - Manuaalsed uuendused
+  - Päeva lõpu üleslaadimine
+  - Plaanilised aruanded
+explanation: |
+  Töövoogude käivitajad ajakohastavad süsteeme reaalajas.
+reviewed: false

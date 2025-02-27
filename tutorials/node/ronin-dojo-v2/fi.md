@@ -211,7 +211,7 @@ RoninUI:n kotisivulla sinua pyydetään aloittamaan asetusten määrittäminen. 
 
 ![lets start](assets/notext/25.webp)
 
-Tässä vaiheessa RoninUI esittelee sinulle `root` salasanasi. On olennaista pitää se turvassa. Voit valita fyysisen varmuuskopion, paperille, tai tallentaa sen [salasananhallintaohjelmaan](https://planb.network/courses/secu101/4/2).
+Tässä vaiheessa RoninUI esittelee sinulle `root` salasanasi. On olennaista pitää se turvassa. Voit valita fyysisen varmuuskopion, paperille, tai tallentaa sen [salasananhallintaohjelmaan](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 

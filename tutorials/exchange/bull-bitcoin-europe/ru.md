@@ -124,7 +124,7 @@ https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49
 
 Если вы не знакомы с использованием кошельков Bitcoin, Lightning или Liquid, я предлагаю вам пройти наш специальный обучающий курс:
 
-https://planb.network/courses/btc102
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 Вы также можете изучить [наши подробные руководства по лучшим кошелькам Bitcoin](https://planb.network/tutorials/wallet).
 
 Затем подтвердите покупку, нажав на кнопку "*Подтвердить покупку*".

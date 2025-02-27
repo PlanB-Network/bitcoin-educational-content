@@ -1,0 +1,21 @@
+id: 4db16541-e5b7-497f-99d0-bd48e914ef39
+name: THNDR
+category: infrastructure
+
+links:
+  website: https://www.thndr.gg/
+  twitter: https://x.com/THNDRGAMES
+
+tags:
+  - software
+  - development
+  - innovation
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-17
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

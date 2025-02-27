@@ -1,0 +1,9 @@
+question: Millised omadused määratlevad hea parooli?
+answer: Pikk, keerukas ja ainulaadne.
+wrong_answers:
+  - Lühike, lihtne ja kergesti meeldejääv.
+  - Põhineb isiklikul teabel.
+  - Identne kõigi kontode jaoks.
+explanation: |
+  Hea parool peaks olema piisavalt pikk, keerukas ja seda ei tohiks taaskasutada.
+reviewed: false

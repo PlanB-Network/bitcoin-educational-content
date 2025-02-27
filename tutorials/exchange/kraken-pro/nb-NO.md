@@ -10,7 +10,7 @@ I denne veiledningen går vi gjennom prosessen med å opprette en Kraken-forretn
 
 Hvis du er interessert i å integrere bitcoin i virksomheten din, vil jeg også anbefale at du tar en titt på vårt komplette teoretiske kurs om emnet:
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## 1 - Opprette en Kraken bedriftskonto
 
 Det første steget i å bruke Kraken til å administrere bedriftens økonomi er selvsagt å opprette en konto. Her skal vi ikke opprette en konto for enkeltpersoner, men en bedriftskonto, som ikke bare sikrer overholdelse av regelverket, men som også tilbyr spesialtilpassede funksjoner som regnskapseksport.
@@ -216,4 +216,4 @@ Bruken av Kraken kan variere avhengig av bedriftens mål og struktur.
 
 For en mer inngående titt på dette emnet anbefaler jeg dette omfattende kurset om integrering av bitcoin i virksomheter, som går i detalj inn på kontantstrøm, mottak av bitcoin-betalinger og regnskap:
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

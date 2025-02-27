@@ -116,5 +116,5 @@ Para ir un paso más allá y reforzar aún más tu estrategia de seguridad, te r
 
 Por eso le invito a realizar el curso de formación gratuito CYP201 ofrecido por Plan ₿ Network. Este curso de formación explica en detalle todo el funcionamiento de los monederos Bitcoin, lo que le permite dominar los aspectos técnicos esenciales para asegurar eficazmente sus fondos :
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar verde a continuación. No dudes en compartir este artículo en tus redes sociales. ¡Muchas gracias!

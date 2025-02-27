@@ -116,5 +116,5 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 因此，我邀请您参加 Plan ₿ Network 提供的免费 CYP201 培训课程。该培训课程详细讲解了比特币钱包的所有工作原理，使您能够掌握有效保护资金安全所必需的技术方面：
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 如果您觉得本教程有用，请在下方留下绿色拇指，我将不胜感激。欢迎在您的社交网络上分享本文。非常感谢

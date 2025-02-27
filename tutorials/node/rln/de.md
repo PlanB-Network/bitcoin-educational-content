@@ -31,7 +31,7 @@ Ein RGB-Vertrag ist wie eine evolutionäre Zustandsmaschine aufgebaut. Er beginn
 
 Um mehr über die Funktionsweise des RGB-Protokolls zu erfahren, empfehle ich Ihnen diesen umfassenden Schulungskurs:
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 ## RGB-kompatible Lightning-Knoten-Installation
 
 Um die Binärdatei `rgb-lightning-node` zu kompilieren und zu installieren, beginnen wir mit dem Klonen des Repositorys und seiner Untermodule, dann führen wir das :

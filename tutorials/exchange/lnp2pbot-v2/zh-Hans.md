@@ -8,7 +8,7 @@ description: LNP2PBot 和 P2P 比特币交易完整指南
 
 无 KYC 的点对点（P2P）交易所对于保护用户的保密性和金融自主权至关重要。它们实现了个人之间的直接交易，无需身份验证，这对于重视隐私的人来说至关重要。如需更深入地了解理论概念，请参阅 BTC204 课程：
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 点对点（P2P）买卖比特币是获取或处置比特币最隐秘的方法之一。LNP2PBot 是一个开源的 Telegram 机器人，可促进闪电网络上的点对点交换，实现快速、低成本、无 KYC 的交易。
 
 ### 为什么使用 Lnp2pbot？

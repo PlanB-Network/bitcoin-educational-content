@@ -124,7 +124,7 @@ Masukkan jumlah yang ingin Anda beli. Anda juga harus memilih bagaimana Anda ing
 
 Jika Anda belum terbiasa menggunakan dompet Bitcoin, Lightning atau Liquid, saya sarankan Anda untuk mengikuti kursus pelatihan khusus kami:
 
-https://planb.network/courses/btc102
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 Anda juga dapat menjelajahi [tutorial terperinci kami tentang dompet Bitcoin terbaik](https://planb.network/tutorials/wallet).
 
 Kemudian konfirmasikan pembelian Anda dengan mengklik "*Konfirmasi Pembelian*".

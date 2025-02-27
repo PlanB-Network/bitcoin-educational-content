@@ -363,4 +363,4 @@ Dan itu saja, Anda sekarang tahu cara menggunakan Lightning dengan node Anda sen
 
 Untuk memahami secara detail semua mekanisme Lightning yang telah kami manipulasi dalam tutorial ini, saya sangat menyarankan Anda untuk menemukan pelatihan gratis kami tentang subjek ini :
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

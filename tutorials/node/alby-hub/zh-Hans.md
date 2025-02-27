@@ -363,4 +363,4 @@ Alby 为您提供闪电地址选项。这样，您就可以在节点上接收付
 
 要详细了解我们在本教程中使用的所有 "闪电 "机制，我强烈建议您了解我们关于该主题的免费培训：
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

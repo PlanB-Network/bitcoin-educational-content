@@ -10,7 +10,7 @@ Selles õpetuses käsitleme Krakeni ärikonto loomise protsessi, bitcoinide ostm
 
 Kui olete huvitatud bitcoini integreerimisest oma ettevõttesse, siis soovitan ka meie täielikku teoreetilist koolituskursust sel teemal:
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## 1 - Krakeni ettevõtte konto loomine
 
 Esimene samm Krakeni kasutamisel ettevõtte rahaasjade haldamiseks on loomulikult konto loomine. Siinkohal ei loo me mitte üksikisikute kontot, vaid ettevõtte kontot, mis mitte ainult ei taga regulatiivset nõuetele vastavust, vaid pakub ka spetsiaalselt kohandatud funktsioone, nagu näiteks raamatupidamiseksport.
@@ -216,4 +216,4 @@ Sõltuvalt teie ettevõtte eesmärkidest ja struktuurist võib Krakeni kasutamin
 
 Sest põhjalikumalt vaadelda seda teemat, Soovitan seda põhjalikku koolituse integreerimise Bitcoin arvesse ettevõtete, mis hõlmab üksikasjalikult lisades rahavoogude, vastuvõtva Bitcoin maksete, ja raamatupidamine :
 
-https://planb.network/courses/biz101
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

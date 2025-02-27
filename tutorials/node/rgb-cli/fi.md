@@ -14,7 +14,7 @@ RGB-sopimus on rakenteeltaan kuin evolutiivinen tilakone. Se alkaa Genesiksellä
 
 Jos haluat lisätietoja RGB-protokollan toiminnasta, suosittelen, että osallistut tälle kattavalle koulutuskurssille:
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 RGB:n sisäinen logiikka perustuu Rust-kirjastoihin, jotka voit kehittäjänä tuoda projekteihisi hallitsemaan *asiakaspuolen validointiosuutta*. Lisäksi LNP/BP-tiimi työstää sidoksia muille kielille, mutta tätä ei ole vielä viimeistelty. Lisäksi muut tahot, kuten Bitfinex, kehittävät omia integraatiopinojaan, mutta puhumme niistä toisessa opetusohjelmassa. Toistaiseksi `rgb` CLI on virallinen referenssi, vaikka se onkin vielä suhteellisen hiomaton.
 
 ## Rgb CLI -työkalun asennus ja esittely

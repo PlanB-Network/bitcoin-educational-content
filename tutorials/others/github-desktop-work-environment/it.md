@@ -12,7 +12,7 @@ Se desideri contribuire alla Rete PlanB, dovrai utilizzare GitHub per proporre m
 
 Se non hai idea di cosa sia GitHub, o se vuoi saperne di più sui termini tecnici relativi a Git e GitHub, ti consiglio di leggere il nostro articolo introduttivo per familiarizzare con questi concetti.
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 

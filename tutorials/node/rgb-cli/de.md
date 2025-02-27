@@ -14,7 +14,7 @@ Ein RGB-Vertrag ist wie eine evolutionäre Zustandsmaschine aufgebaut. Er beginn
 
 Um mehr über die Funktionsweise des RGB-Protokolls zu erfahren, empfehle ich Ihnen diesen umfassenden Schulungskurs:
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 Die interne Logik von RGB basiert auf Rust-Bibliotheken, die Sie als Entwickler in Ihre Projekte importieren können, um den Teil der *Client-side Validation* zu verwalten. Darüber hinaus arbeitet das LNP/BP-Team an Bindungen für andere Sprachen, was aber noch nicht abgeschlossen ist. Darüber hinaus entwickeln andere Unternehmen wie Bitfinex ihre eigenen Integrationsstacks, aber darüber werden wir in einem anderen Tutorial sprechen. Für den Moment ist das `rgb` CLI die offizielle Referenz, auch wenn es noch relativ unausgereift ist.
 
 ## Installation und Vorstellung des CLI-Tools rgb

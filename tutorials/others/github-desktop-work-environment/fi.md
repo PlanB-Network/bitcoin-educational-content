@@ -12,7 +12,7 @@ Jos haluat osallistua PlanB-verkkoon, sinun on käytettävä GitHubia ehdottaaks
 
 Jos sinulla ei ole aavistustakaan, mikä GitHub on, tai jos haluat oppia lisää Gitin ja GitHubin teknisistä termeistä, suosittelen, että luet johdantoartikkelimme tutustuaksesi näihin käsitteisiin.
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 

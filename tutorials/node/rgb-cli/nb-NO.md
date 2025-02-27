@@ -14,7 +14,7 @@ En RGB-kontrakt er strukturert som en evolusjonær tilstandsmaskin. Den starter 
 
 Hvis du vil lære mer om hvordan RGB-protokollen fungerer, anbefaler jeg at du tar dette omfattende opplæringskurset:
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 Den interne logikken i RGB er basert på Rust-biblioteker som du som utvikler kan importere til prosjektene dine for å håndtere *Klientsidevalidering*-delen. I tillegg jobber LNP/BP-teamet med bindinger for andre språk, men dette er ennå ikke ferdigstilt. I tillegg utvikler andre enheter som Bitfinex sine egne integrasjonsstabler, men vi vil snakke om disse i en annen veiledning. Inntil videre er `rgb` CLI den offisielle referansen, selv om den fortsatt er relativt upolert.
 
 ## Installasjon og presentasjon av rgb CLI-verktøyet

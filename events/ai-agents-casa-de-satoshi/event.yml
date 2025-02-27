@@ -1,0 +1,19 @@
+id: c1eb3327-694a-464c-a5ea-1c792a4803e9
+start_date: 2025-03-04 22:30:00
+end_date: 2025-03-04 23:30:00
+timezone: America/Mexico_City
+address_line_1: Mexico city, Mexico
+name: AI Agents & Bitcoin
+builder: La Casa de Satoshi
+type: meetup
+description: El hogar de los partidarios de la tecnología de la libertad en la Ciudad de México. // The home for freedom tech supporters in Mexico City.
+language:
+  - es
+  - en
+links:
+  website: https://lu.ma/mrcrb1lu
+tags:
+  - market-trends
+  - technical-analysis
+  - deep-dive
+project_id: af197ba8-460b-4523-80f4-36b5fe3d54b9

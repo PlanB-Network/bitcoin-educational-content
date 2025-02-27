@@ -1,0 +1,9 @@
+question: Mikä on erikoistuneiden Bitcoin-kirjanpitotyökalujen päätavoite?
+answer: Yksinkertaistetaan Bitcoiniin liittyvien tietojen automaattista keräämistä ja käsittelyä
+wrong_answers:
+  - Bitcoinin yksityisten avainten turvallisuuden parantaminen
+  - Helpottaa yritysten suoraa kaupankäyntiä Bitcoinilla hajautetuissa pörsseissä
+  - PoS-järjestelmän perustaminen Bitcoin-maksujen vastaanottamiseksi
+explanation: |
+  Nämä työkalut on suunniteltu automatisoimaan tiedonkeruu, formaatin muuntaminen, verolaskenta ja tapahtumien luokittelu.
+reviewed: false

@@ -124,7 +124,7 @@ SEPA転送*」を選択する。
 
 ビットコイン、ライトニング、リキッドウォレットの使用に慣れていない場合は、専用のトレーニングコースを受講することをお勧めします：
 
-https://planb.network/courses/btc102
+https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 また、[最高のビットコインウォレットに関する詳細なチュートリアル](https://planb.network/tutorials/wallet)を探索することもできます。
 
 その後、"*Confirm Buy*"をクリックして購入を確定してください。

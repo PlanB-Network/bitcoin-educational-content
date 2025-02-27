@@ -1,0 +1,9 @@
+question: Was sind die Hauptfunktionen eines Passwort-Managers?
+answer: Speichern, generieren und organisieren von Passwörtern.
+wrong_answers:
+  - Analysieren und Entfernen von Viren.
+  - Sichern und Organisieren persönlicher Dokumente.
+  - Optimierung der Verbindungsgeschwindigkeit.
+explanation: |
+  Die wesentlichen Funktionen umfassen das Speichern, Generieren und Organisieren von Passwörtern.
+reviewed: false

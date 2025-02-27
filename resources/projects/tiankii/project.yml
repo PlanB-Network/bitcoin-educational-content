@@ -1,0 +1,21 @@
+id: 5222b8d2-076e-45d4-92a1-d4e908d6686e
+name: Tiankii
+category: infrastructure
+
+links:
+  website: https://www.tiankii.com/
+  twitter: https://x.com/tiankii_Tech
+
+tags:
+  - software
+  - adoption
+  - development
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-19
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

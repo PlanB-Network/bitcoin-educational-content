@@ -1,0 +1,9 @@
+question: Hvilke viktige betalingsdetaljer må dokumenteres for hver Bitcoin-transaksjon?
+answer: Dato, beløp, tilsvarende fiat-verdi og tilknyttede adresser
+wrong_answers:
+  - Transaksjons-ID, nettverksavgift og forhandlerens adresse
+  - Dato, valutakurs, lommeboktype og geografisk plassering
+  - Bitcoin-blokknummeret, tidsstempelet og skriptet som ble brukt
+explanation: |
+  Dokumentasjon av disse detaljene sikrer klarhet og hjelper regnskapsførerne med å skille mellom innkommende og utgående strømmer.
+reviewed: false

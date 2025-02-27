@@ -1,0 +1,21 @@
+id: f2849fe6-e8b2-45c8-9c02-01cac6f4b578
+name: Coinbase
+category: exchange
+
+links:
+  website: https://www.coinbase.com/
+  twitter: https://x.com/coinbase
+
+tags:
+  - finance
+  - user-friendly
+  - business
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-18
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

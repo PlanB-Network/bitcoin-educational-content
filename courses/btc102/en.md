@@ -163,9 +163,9 @@ In addition to cryptocurrency scams and financial scams, the main reason for los
 - Keep your computer up to date and free of malware,
 - Value your privacy by using dedicated tools (Signal, Tor, ProtonMail).
 
-If this topic is completely unknown to you, the SCU 101 course  can be interesting to delve into it in detail.
+If this topic is completely unknown to you, the SCU 101 course can be interesting to delve into it in detail.
 
-https://planb.network/en/courses/scu101
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 It is crucial to keep your computer in optimal working condition, whether you are interested in Bitcoin or not. An update is not only there to add new features: it also fixes bugs and improves the security of your software. So make sure to:
 
@@ -819,6 +819,10 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
   While valuing anonymity and security, the Paranoid individual remains pragmatic in their choices, using proven and reliable solutions to secure their bitcoins while navigating the cryptocurrency ecosystem.
 
 In the mindset of the Paranoid individual, caution, security, and anonymity are paramount. These priorities dictate a deliberate and well-thought-out approach to using Bitcoin, promoting self-sufficiency and caution. The Paranoid individual is willing to invest time and effort to ensure the security and privacy of their bitcoins while skillfully navigating the ecosystem to avoid unnecessary exposure. While it may seem overly cautious to some, the Paranoid individual considers their diligence and attention to detail essential for successful and secure participation in the world of Bitcoin.
+
+# Protecting Your Heirs and Assets
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Creating an inheritance plan
 

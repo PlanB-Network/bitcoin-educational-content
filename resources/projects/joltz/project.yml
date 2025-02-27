@@ -1,0 +1,22 @@
+id: dd2294de-4bb5-46e5-8927-e5ff546582b2
+name: Joltz
+category: infrastructure
+
+links:
+  website: https://joltz.app/
+  twitter: https://x.com/Joltz_btc
+  Github: https://github.com/joltzrewards
+
+tags:
+  - software
+  - business
+  - self-sovereignty
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-18
+    urgency: 1
+    contributors_id:
+      - jramos0
+    reward: 0

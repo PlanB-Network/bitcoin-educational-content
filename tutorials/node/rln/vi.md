@@ -31,7 +31,7 @@ An RGB contract is structured like an evolutionary state machine. It starts with
 
 To learn more about how the RGB protocol works, I recommend you take this comprehensive training course:
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 ## RGB-compatible Lightning node installation
 
 To compile and install the `rgb-lightning-node` binary, we start by cloning the repository and its sub-modules, then we run the :

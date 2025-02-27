@@ -1,0 +1,9 @@
+question: Apa itu pengelola kata sandi?
+answer: Alat yang menyimpan, menghasilkan, dan mengelola kata sandi.
+wrong_answers:
+  - Perangkat lunak antivirus terhadap serangan peretasan.
+  - Layanan email yang aman.
+  - Alat pencadangan data identitas pribadi.
+explanation: |
+  Pengelola kata sandi mengelola penyimpanan dan pembuatan kata sandi secara terpusat.
+reviewed: false

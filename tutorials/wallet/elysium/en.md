@@ -7,35 +7,27 @@ description: Setup and how to use an Elysium Wallet
 
 Elysium Wallet is the first non-custodial software wallet from Swiss startup Elysium Labs.
 
-Thanks to the innovative key management system, you can access your digital assets using elements that are part of everyday life: your username, passkey, password or passcode.
-That's right: it is no longer strictly necessary to use a Seed Phrase to regain access to your digital assets.
-This simplification could accelerate the spread of Bitcoin around the world.
+Thanks to the innovative key management system, you can access your digital assets using elements that are part of everyday life: your username, passkey, password or passcode. That's right: it is no longer strictly necessary to use a Seed Phrase to regain access to your digital assets. This simplification could accelerate the spread of Bitcoin around the world.
 
 ## How to Open an Account?
 
-Download the Elysium Wallet App from the Apple Store or Google Play, then open the Elysium Wallet app that you downloaded on your device. Tap on "Create a new wallet", at such point, it will appear the terms and conditions of use screen.
-To accept and proceed with the creation of your account, tap on "Begin Setup", then enter your username; please note the profile picture is customizable: choose one from the options provided, by taking a photo or uploading an image from your device.
-When you have chosen, tap "Continue".
+Download the Elysium Wallet App from the Apple Store or Google Play, then open the Elysium Wallet app that you downloaded on your device. Tap on "Create a new wallet", at such point, it will appear the terms and conditions of use screen. To accept and proceed with the creation of your account, tap on "Begin Setup", then enter your username; please note the profile picture is customizable: choose one from the options provided, by taking a photo or uploading an image from your device. When you have chosen, tap "Continue".
 
-![image](assets/open.webp)
+![image](assets/en/02.webp)
 
-Elysium stands out for its innovative multi-factor algorithm, which combines Passkey, PassCode and PassWord.
-PassKeys are mandatory.
-They allow you to authenticate quickly and securely using your device's built-in security features, such as Face ID or fingerprint scanning.
-They are your main layer of protection, ensuring fast and secure access.
+Elysium stands out for its innovative multi-factor algorithm, which combines Passkey, PassCode and PassWord. PassKeys are mandatory. They allow you to authenticate quickly and securely using your device's built-in security features, such as Face ID or fingerprint scanning. They are your main layer of protection, ensuring fast and secure access.
 
-![image](assets/passkey.webp)
+![image](assets/en/03.webp)
 
-Choose your second level: PassCode or PassWord
-Next, you will need to choose a second level of security:
+Choose your second level: PassCode or PassWord; next, you will need to choose a second level of security:
 
 - PassCode: 6-digit code that is easy to remember. Perfect for adding an extra layer of protection.
 - Password: Create a strong password of at least 8 characters, adding even more security.
 
 You must use Passkeys in conjunction with a PassCode or PassWord.
 
-![image](assets/secondfactor.webp)
-Note: To set up your account, you need at least 2 factors, one of which must be the Passkey.
+![image](assets/en/04.webp)
+**Note:** To set up your account, you need at least 2 factors, one of which must be the Passkey.
 
 To further increase security, you can add a third layer of protection (Passkey + PassCode + PassWord).
 
@@ -44,7 +36,7 @@ You will always use Passkey as the primary factor. For the second layer, choose 
 If you have chosen PassCode as the second factor, you can add PassWord as the third layer or vice versa. This flexible approach ensures that your assets are protected according to your preferences.
 You can add the third security factor during the setup phase (see images) or later by going to Settings > Improve security.
 
-![image](assets/thirdfactor.webp)
+![image](assets/en/05.webp)
 
 However, if you forget one of the factors, please note that:
 
@@ -57,7 +49,7 @@ We strongly recommend setting up all three factors from the beginning for maximu
 
 Open the Elysium app and go to the main menu, then Tap 'Receive'.
 
-![image](assets/receive1.webp)
+![image](assets/en/06.webp)
 
 Now, select the chain you want to receive payment on (Bitcoin or Polygon) and you can simply share the QR code of your Elysium wallet with the person who needs to pay you, they will take care of the rest.
 
@@ -65,40 +57,40 @@ Now, select the chain you want to receive payment on (Bitcoin or Polygon) and yo
 
 **Step 1:** By tapping “Request Payment” you request a Bitcoin payment via Lightning Network.
 
-![image](assets/requestpayment1.webp)
+![image](assets/en/07.webp)
 
 **Step 2:** Enter the amount you want to request, select the currency you want to receive, and add a description if necessary.
 
-![image](assets/requestpayment2.webp)
+![image](assets/en/08.webp)
 
 **Note:** There is a small fee for the first Lightning Network (LN) payment to open the LN channel. After that, all subsequent payments are free.
 
 ## How to send a transaction?
 
 **Step 1:** Go to the main menu and tap "Send".
-![image](assets/send1.webp)
 
-**Step 2:** Scan the recipient's QR code from their Elysium Wallet to automatically save their contact to your address book.
-Alternatively, manually copy their address and paste it into the recipient field.
-After selecting the recipient or adding them to your address book, tap "Send Payment".
+![image](assets/en/09.webp)
 
-![image](assets/payment1.webp)
+**Step 2:** Scan the recipient's QR code from their Elysium Wallet to automatically save their contact to your address book. Alternatively, manually copy their address and paste it into the recipient field. After selecting the recipient or adding them to your address book, tap "Send Payment".
+
+![image](assets/en/10.webp)
 
 Already have the contact? Choose it directly from the address book.
 
-![image](assets/addressbook1.webp)
+![image](assets/en/11.webp)
 
 **Step 3:** Enter the amount you want to send and select the asset you want to transfer.
 For BTC transactions, you can select your preferred network speed and fees (as shown in the third image)
 
-![image](assets/payment2.webp)
+![image](assets/en/12.webp)
 
 Your transaction has been submitted! You can easily check your Elysium Wallet's updated balance and transaction status.
 
-## How to send a transaction in Lightning Network (LN)?
+## How to send a transaction in Lightning Network?
+
+![image](assets/en/13.webp)
 
 **Step 1:** Tap "Scan" to open the scanner.
-![image](assets/paymentLN1.webp)
 
 **Step 2:** Scan the LN QR code for payment.
 
@@ -110,12 +102,11 @@ Your transaction has been submitted! You can easily check your Elysium Wallet's 
 
 Go to the main menu and tap "Hub". Select Settings and tap "Extract private key".
 
-![image](assets/extract1.webp)
+![image](assets/en/14.webp)
 
-Log in with your passkey and enter your password and/or passcode.
-The seed phrase will be displayed in 24-word format.
+Log in with your passkey and enter your password and/or passcode. The seed phrase will be displayed in 24-word format.
 
-![image](assets/seed1.webp)
+![image](assets/en/15.webp)
 
 Don't share it with anyone!
 
@@ -123,14 +114,13 @@ Don't share it with anyone!
 
 Need help with Elysium Wallet? We're here to help!
 
-Download the App.
-Here's how you can contact our customer support team directly from the app:
+Download the App, and here's how you can contact our customer support team directly from the app:
 
 1. Go to Hub
 2. Tap Settings
 3. Select Help
 
-![image](assets/help1.webp)
+![image](assets/en/16.webp)
 
 A form will appear where you can describe the issue you are experiencing.
 
@@ -138,4 +128,4 @@ Once submitted, our team will respond as soon as possible with a solution!
 
 To report a bug or provide us with feedback, click on the widget on the home page:
 
-![image](assets/help2.webp)
+![image](assets/en/17.webp)

@@ -14,7 +14,7 @@ Kontrak RGB terstruktur seperti mesin status evolusioner. Dimulai dengan Genesis
 
 Untuk mempelajari lebih lanjut mengenai cara kerja protokol RGB, saya sarankan Anda mengikuti kursus pelatihan komprehensif ini:
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 Logika internal RGB didasarkan pada pustaka Rust yang dapat Anda, sebagai pengembang, impor ke dalam proyek Anda untuk mengelola bagian *Client-side Validation*. Selain itu, tim LNP/BP sedang mengerjakan binding untuk bahasa lain, tetapi ini belum selesai. Selain itu, entitas lain seperti Bitfinex sedang mengembangkan tumpukan integrasi mereka sendiri, tetapi kita akan membicarakannya di tutorial lain. Untuk saat ini, CLI `rgb` adalah referensi resmi, meskipun masih relatif belum sempurna.
 
 ## Instalasi dan presentasi alat bantu CLI rgb

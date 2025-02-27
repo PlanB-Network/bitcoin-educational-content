@@ -40,7 +40,7 @@ Pour interagir avec le réseau Bitcoin et diffuser vos transactions, Sparrow doi
 
 - 🔵 Connexion via un serveur Electrum. Si votre nœud Bitcoin est équipé d'Electrs, comme c'est le cas pour des solutions node-in-a-box telles que Umbrel ou Start9, vous pouvez vous y connecter à distance depuis Sparrow.
 
-**Il est préférable d'opter pour une connexion via Electrs ou Bitcoin Core sur votre propre nœud pour réduire le besoin de confiance envers un tiers et optimiser votre confidentialité.**
+**Il est préférable d'utiliser une connexion via Electrs ou Bitcoin Core sur votre propre nœud pour réduire le besoin de confiance envers un tiers et optimiser votre confidentialité.**
 
 ### Se connecter à un nœud public 🟡
 
@@ -219,7 +219,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 **Évidemment, vous ne devez jamais partager ces mots sur internet, contrairement à ce que je fais dans ce tutoriel. Ce portefeuille en exemple sera utilisé uniquement sur le Testnet et sera supprimé à l'issue du tutoriel.**
 
-Vous pouvez également choisir d'ajouter une passphrase BIP39 en cliquant sur la case "Use passphrase". Attention, utiliser une passphrase peut être très utile, mais si vous ne comrpenez pas comment cela fonctionne, cela peut être très risqué. C'est pourquoi je vous conseille fortement de lire ce petit article théorique sur le sujet :
+Vous pouvez également choisir d'ajouter une passphrase BIP39 en cliquant sur la case "Use passphrase". Attention, utiliser une passphrase peut être très utile, mais si vous ne comprenez pas comment cela fonctionne, cela peut être très risqué. C'est pourquoi je vous conseille fortement de lire ce petit article théorique sur le sujet :
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
@@ -227,7 +227,7 @@ Après avoir enregistré votre phrase mnémonique et votre éventuelle passphras
 
 27
 
-Saisissez à nouveau vos 12 mots pour confirmer leur sauvegarde correcte, puis cliquez sur "Create Keystore".
+Saisissez de nouveau vos 12 mots pour confirmer leur sauvegarde correcte, puis cliquez sur "Create Keystore".
 
 28
 
@@ -247,7 +247,7 @@ Votre portefeuille chaud est maintenant créé. Vous pouvez passer directement �
 
 ## Gérer un portefeuille froid
 
-La deuxième méthode pour utiliser Sparrow Wallet est de le configurer comme gestionnaire de portefeuilles avec un hardware wallet. Dans cette configuration, les clés privées de votre portefeuille Bitcoin restent exclusivement sur le hardware wallet, tandis que Sparrow n'accède qu'aux informations publiques. Cette approche offre un niveau de sécurité supérieur aux portefeuilles chauds abordés précédemment, car les clés privées sont conservées sur un dispositif spécialisé, souvent doté d'une puce sécurisée, qui n'est pas connecté à Internet et présente donc une surface d'attaque très réduite par rapport à un ordinateur traditionnel.
+La seconde méthode pour utiliser Sparrow Wallet est de le configurer comme gestionnaire de portefeuilles avec un hardware wallet. Dans cette configuration, les clés privées de votre portefeuille Bitcoin restent exclusivement sur le hardware wallet, tandis que Sparrow n'accède qu'aux informations publiques. Cette approche offre un niveau de sécurité supérieur aux portefeuilles chauds abordés précédemment, car les clés privées sont conservées sur un dispositif spécialisé, souvent doté d'une puce sécurisée, qui n'est pas connecté à Internet et présente donc une surface d'attaque très réduite par rapport à un ordinateur traditionnel.
 
 Il y a deux principales méthodes pour connecter votre hardware wallet à Sparrow :
 - Par câble, communément utilisé avec des modèles d'entrée de gamme tels que le Trezor Safe 3 ou le Ledger Nano S Plus ;
@@ -269,7 +269,7 @@ Nommez votre portefeuille et cliquez sur "Create Wallet". Je vous conseille de m
 
 En haut de l'interface, choisissez entre un portefeuille "Single Signature" ou "Multi Signature". Pour notre exemple, nous allons configurer un portefeuille single-sig.
 
-Juste en dessous, sélectionnez le type de script pour verrouiller vos UTXOs. Si votre hardware wallet le prend en charge, je vous conseille d'opter pour "Taproot (P2TR)".
+Juste en dessous, sélectionnez le type de script pour verrouiller vos UTXOs. Si votre hardware wallet le prend en charge, je vous conseille de choisir "Taproot (P2TR)".
 
 34
 
@@ -345,7 +345,7 @@ Entrez l'adresse du destinataire dans le champ "Pay to". Vous avez également la
 
 49
 
-Ajoutez un label à votre transaction pour vous rappeler de son objectif. Ce label sera aussi associé à votre éventuel change.
+Ajoutez un label à votre transaction pour vous souvenir de son objectif. Ce label sera aussi associé à votre éventuel change.
 
 50
 
@@ -361,7 +361,7 @@ En bas de l'interface, vous pouvez choisir entre "Efficiency" et "Privacy". Dans
 
 53
 
-Sparrow affiche un schéma récapitulatif montrant vos inputs, vos outputs, ainsi que les frais de transaction (notez que les frais ne sont pas un output en réalité, contrairement à ce que l'aisse penser ce schéma). Si tout vous convient, cliquez sur "Create Transaction".
+Sparrow affiche un schéma récapitulatif montrant vos inputs, vos outputs, ainsi que les frais de transaction (notez que les frais ne sont pas un output en réalité, contrairement à ce que laisse penser ce schéma). Si tout vous convient, cliquez sur "Create Transaction".
 
 54
 

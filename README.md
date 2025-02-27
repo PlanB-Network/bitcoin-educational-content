@@ -36,7 +36,7 @@
     Welcome to the Plan ₿ Network Content Repo!
   </h3>
   <p>
-    Welcome to the Plan ₿ Network Content Repo! There's a chance that if you are here, it is to contribute to this larger-than-us project, which aims at consolidating the first multilingual and open-source e-learning platform focused on Bitcoin.
+    Welcome to the Plan ₿ Network Content Repo! If you are here, there's a chance you want to contribute to this larger-than-us project, which aims at consolidating the first multilingual and open-source e-learning platform focused on Bitcoin.
   </p>
 </div>
 <br />

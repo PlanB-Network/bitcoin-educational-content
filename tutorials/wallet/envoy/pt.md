@@ -6,7 +6,7 @@ description: Configurar e utilizar um Passaporte com a aplicação Envoy
 
 Envoy é uma aplicação de gestão de carteiras Bitcoin desenvolvida pela Foundation. Foi especialmente concebida para ser utilizada com a carteira de hardware Passport.
 
-O Passport "*Batch 2*" que apresentamos neste tutorial com a aplicação Envoy é o sucessor do "*Founder's Edition*". Apresenta um design premium, um ecrã a cores de alta definição e um teclado físico ergonómico. Funciona em modo "*Air-Gap*", assegurando que as chaves privadas da sua carteira permanecem totalmente isoladas, com trocas possíveis através de um cartão MicroSD ou códigos QR. O dispositivo inclui uma bateria amovível de 1200 mAh.
+O Passport "*Batch 2*" apresentado neste tutorial com o aplicativo Envoy é o sucessor da edição "*Founder's Edition*". Ele se destaca pelo design premium, tela colorida de alta definição e teclado físico ergonômico. Opera no modo "*Air-Gap*", garantindo que as chaves privadas da sua carteira permaneçam totalmente isoladas, com trocas possíveis via cartão MicroSD ou códigos QR. O dispositivo possui uma bateria removível e recarregável Nokia BL-5C de 1200 mAh. Esta bateria não proprietária pode ser facilmente substituída, pois o modelo BL-5C é amplamente disponível no mercado.
 
 Quanto à conetividade, o Passport está equipado com uma porta MicroSD, uma porta USB-C para carregamento e uma câmara traseira para leitura de códigos QR.
 

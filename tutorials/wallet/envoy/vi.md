@@ -6,7 +6,7 @@ description: Thiết lập và sử dụng Passport với ứng dụng Envoy
 
 Envoy là ứng dụng quản lý ví Bitcoin do Foundation phát triển. Ứng dụng này được thiết kế đặc biệt để sử dụng với ví phần cứng Passport.
 
-Passport "*Batch 2*" mà chúng tôi giới thiệu trong hướng dẫn này với ứng dụng Envoy là phiên bản kế nhiệm của "*Founder's Edition*". Nó có thiết kế cao cấp, màn hình màu độ nét cao và bàn phím vật lý tiện dụng. Nó hoạt động ở chế độ "*Air-Gap*", đảm bảo rằng khóa riêng của ví của bạn vẫn hoàn toàn tách biệt, có thể trao đổi thông qua thẻ MicroSD hoặc mã QR. Thiết bị bao gồm pin 1200 mAh có thể tháo rời.
+Passport "*Batch 2*" được giới thiệu trong hướng dẫn này cùng với ứng dụng Envoy là phiên bản kế nhiệm của "*Founder's Edition*". Nó nổi bật với thiết kế cao cấp, màn hình màu độ phân giải cao và bàn phím vật lý tiện dụng. Thiết bị hoạt động ở chế độ "*Air-Gap*", đảm bảo rằng khóa riêng tư của ví của bạn luôn được cách ly hoàn toàn, với việc trao đổi dữ liệu thông qua thẻ MicroSD hoặc mã QR. Thiết bị được trang bị pin sạc có thể tháo rời Nokia BL-5C dung lượng 1200 mAh. Pin này không độc quyền và có thể dễ dàng thay thế vì mẫu BL-5C có sẵn rộng rãi trên thị trường.
 
 Về khả năng kết nối, Passport được trang bị cổng MicroSD, cổng USB-C để sạc và camera sau để quét mã QR.
 

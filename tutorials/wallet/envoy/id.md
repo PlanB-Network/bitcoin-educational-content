@@ -6,7 +6,7 @@ description: Menyiapkan dan menggunakan Paspor dengan aplikasi Envoy
 
 Envoy adalah sebuah aplikasi manajemen dompet Bitcoin yang dikembangkan oleh Foundation. Aplikasi ini dirancang khusus untuk digunakan dengan dompet perangkat keras Passport.
 
-Passport "*Batch 2*" yang kami sajikan dalam tutorial ini dengan aplikasi Envoy adalah penerus "*Founder's Edition*". Passport ini memiliki desain premium, layar warna definisi tinggi dan keyboard fisik yang ergonomis. Perangkat ini beroperasi dalam mode "*Air-Gap*", memastikan bahwa kunci pribadi dompet Anda tetap terisolasi sepenuhnya, dengan pertukaran dapat dilakukan melalui kartu MicroSD atau kode QR. Perangkat ini dilengkapi baterai 1200 mAh yang dapat dilepas.
+Passport "*Batch 2*" yang kami perkenalkan dalam tutorial ini dengan aplikasi Envoy adalah penerus dari edisi "*Founder's Edition*". Perangkat ini memiliki desain premium, layar warna berdefinisi tinggi, dan keyboard fisik yang ergonomis. Beroperasi dalam mode "*Air-Gap*", memastikan kunci pribadi dompet Anda tetap sepenuhnya terisolasi, dengan pertukaran data yang dilakukan melalui kartu MicroSD atau kode QR. Perangkat ini dilengkapi dengan baterai isi ulang yang dapat dilepas, Nokia BL-5C berkapasitas 1200 mAh. Baterai non-proprietary ini mudah diganti karena model BL-5C tersedia luas di pasaran.
 
 Sedangkan untuk konektivitas, Passport dilengkapi dengan port MicroSD, port USB-C untuk pengisian daya, dan kamera belakang untuk memindai kode QR.
 

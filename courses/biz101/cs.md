@@ -9,7 +9,7 @@ objectives:
   - Připravte se na správu fiskálních a účetních požadavků
 
 ---
-# Nastartujte cestu své společnosti v síti Bitcoin
+# Nastartujte cestu své společnosti v síti Bitcoinnn
 
 Objevte praktické možnosti bitcoinu a Lightning Network a zjistěte, jak mohou podobně jako internet **proměnit vaše obchodní operace**. Bitcoin nabízí široké spektrum **případů využití pro podniky** - od digitálního kapitálu po rychlé, úsporné a škálovatelné platby.
 

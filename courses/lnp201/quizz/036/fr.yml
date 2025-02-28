@@ -1,0 +1,9 @@
+question: Quelle condition doit être remplie pour que le destinataire d'un HTLC reçoive les fonds ?
+answer: Il doit fournir un secret (préimage) pour déverrouiller le paiement
+wrong_answers:
+  - Il doit accepter les frais de routage de chaque nœud intermédiaire
+  - Il doit signer une nouvelle transaction d'engagement
+  - Il doit attendre l'expiration du timelock avant de récupérer les fonds
+explanation: |
+  Pour recevoir les fonds dans un HTLC, le destinataire doit fournir un secret spécifique qui permet de déverrouiller le paiement sécurisé par le hachage.
+reviewed: false

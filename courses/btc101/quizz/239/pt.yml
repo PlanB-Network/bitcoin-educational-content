@@ -1,0 +1,14 @@
+question: Qual das seguintes não é uma característica chave das microtransações na Lightning Network?
+answer: Tempos de pagamento longos.
+wrong_answers:
+  - Taxas baixas.
+  - Pagamentos instantâneos.
+  - Escalabilidade.
+explanation: |
+  Com as microtransações na Lightning Network, os usuários podem
+  ter taxas de transação baixas, tornando econômico enviar
+  quantidades muito pequenas de Bitcoin. Eles também podem ter pagamentos
+  instantâneos, permitindo transações em tempo real. Por último, eles
+  podem obter escalabilidade, possibilitando o manejo de um grande
+  número de transações simultaneamente. Assim, a resposta errada é tempos de pagamento longos.
+reviewed: true

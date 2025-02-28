@@ -1,0 +1,9 @@
+question: Was ist der Hauptunterschied zwischen P2PK und P2PKH?
+answer: P2PK verwendet direkt den rohen öffentlichen Schlüssel, während P2PKH den Hash des öffentlichen Schlüssels verwendet.
+wrong_answers:
+  - P2PK ist mit SegWit kompatibel, während P2PKH es nicht ist.
+  - P2PK verwendet eine Schnorr-Signatur, während P2PKH eine ECDSA-Signatur verwendet.
+  - P2PK ist für Multisigs gedacht, während P2PKH für einfache Skripte verwendet wird.
+explanation: |
+  P2PK sperrt die Mittel mit einem rohen öffentlichen Schlüssel, während P2PKH einen Hash des öffentlichen Schlüssels verwendet.
+reviewed: false

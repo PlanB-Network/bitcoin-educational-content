@@ -1,0 +1,9 @@
+question: Qual é a tendência geral do Bitcoin, considerando seu fornecimento limitado e o processo de halving?
+answer: Uma tendência geral de alta.
+wrong_answers:
+  - Uma tendência geral de baixa.
+  - Nenhuma tendência.
+  - Uma tendência que flutua selvagemente sem um padrão discernível.
+explanation: >-
+  O Bitcoin, devido à sua quantidade limitada de 21 milhões de bitcoins e seu processo de halving (reduzindo a criação monetária pela metade a cada 4 anos, em média), segue uma tendência geral de alta.
+reviewed: true

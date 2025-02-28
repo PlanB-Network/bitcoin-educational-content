@@ -1,0 +1,9 @@
+question: Která operace se obvykle používá k kombinaci klíčového proudu a zprávy ve streamovém šifrování?
+answer: XOR
+wrong_answers:
+  - Násobení
+  - Modulární posun
+  - Substituce každého písmene
+explanation: |
+  Ve streamovém šifrování se obecně používá operace XOR k kombinaci klíčového proudu se zprávou, protože je jednoduchá a reverzibilní.
+reviewed: false

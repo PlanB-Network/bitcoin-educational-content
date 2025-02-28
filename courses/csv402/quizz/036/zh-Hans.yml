@@ -1,0 +1,9 @@
+question: 储藏室的作用是什么？
+answer: 在本地保存所有客户端数据
+wrong_answers:
+  - 在区块链上自动发布交易
+  - 汇编和存储所有生成的发票
+  - 管理比特币私钥
+explanation: |
+  储藏库是用户为一个或多个 RGB 合约在本地存储的客户端数据集，以便执行客户端验证。
+reviewed: false

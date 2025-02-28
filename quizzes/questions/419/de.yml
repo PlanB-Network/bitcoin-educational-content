@@ -1,9 +1,0 @@
-question: Was ist der Hauptvorteil der SHA256-Hash-Funktion?
-answer: Ihre Robustheit, um den Eingang aus dem Hash zu finden, während die Überprüfung des Hashes für eine gegebene Eingabe eine mechanisch einfache Aktion ist.
-wrong_answers:
-  - Ihre Fähigkeit, einen 512-Bit-Hash aus einer variablen Eingabe zu generieren.
-  - Ihre Verwendung von Padding-Bits, um die Größe der Eingabe zu erhöhen.
-  - Ihre Verwendung der XOR-, AND- und NOT-Operatoren zur Verarbeitung der Bits.
-explanation: |
-  Der Hauptvorteil der SHA256-Hash-Funktion besteht darin, dass sie robust ist, um den Eingang aus dem Hash zu finden, während die Überprüfung des Hashes für eine gegebene Eingabe eine mechanisch einfache Aktion ist. Dies macht sie zu einer bevorzugten Wahl für die Sicherung zahlreicher digitaler Systeme, insbesondere im Bitcoin-Protokoll.
-reviewed: false

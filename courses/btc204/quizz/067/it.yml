@@ -1,0 +1,13 @@
+question: Quale euristica può essere utilizzata per collegare tutti gli input di una consolidazione?
+
+answer: La CIOH.
+
+wrong_answers:
+  - Riutilizzo dell'indirizzo.
+  - L'output più grande.
+  - Pagamento arrotondato.
+
+explanation: |
+  Un osservatore esterno può applicare la CIOH per ipotizzare che tutti gli input di una consolidazione appartengano alla stessa entità.
+
+reviewed: false

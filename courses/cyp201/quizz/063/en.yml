@@ -1,0 +1,9 @@
+question: What information is not included in an extended key?
+answer: The key's transaction history
+wrong_answers:
+  - The key's index number
+  - The key (private or public)
+  - The chain code
+explanation: |
+  An extended key contains only the information necessary to derive child keys, not information related to transactions.
+reviewed: false

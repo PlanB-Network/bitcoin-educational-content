@@ -1,0 +1,11 @@
+question: Hva er den anbefalte bruken av en offline, eller kald, fysisk lommebok?
+answer: For å lagre større beløp
+wrong_answers:
+  - For daglige utgifter
+  - For små beløp
+  - For kortsiktige sparepenger
+explanation: |
+  En offline, eller kald, fysisk lommebok anbefales for lagring av større
+  beløp fordi den er mindre sårbar for online trusler. Det er imidlertid ikke anbefalt
+  for daglige utgifter fordi den er mindre tilgjengelig for daglige transaksjoner.
+reviewed: true

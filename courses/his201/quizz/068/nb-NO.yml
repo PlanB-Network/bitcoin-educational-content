@@ -1,0 +1,9 @@
+question: Hvilken sykdom ble cypherpunk Hal Finney diagnostisert med i august 2009, noen måneder etter å ha oppdaget Bitcoin?
+answer: Lou Gehrigs sykdom
+wrong_answers:
+  - Huntingtons sykdom
+  - Alzheimers sykdom
+  - Parkinsons sykdom
+explanation: |
+  Denne sykdommen, kjent som amyotrofisk lateralsklerose (ALS) i den engelsktalende verden, ble [diagnostisert](https: //www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) i august 2009. Han døde av denne sykdommen i 2014.
+reviewed: false

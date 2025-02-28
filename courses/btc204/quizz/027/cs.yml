@@ -1,0 +1,9 @@
+question: Která technika pomáhá chránit před rizikem sledování vyvolaným KYC?
+answer: Transakce Coinjoin
+wrong_answers:
+  - Použití VPN
+  - Použití úplného uzlu
+  - Ověření prostřednictvím proof of work
+explanation: |
+  Coinjoin má za účinek přerušení historie mince, což vám pomáhá čelit riziku sledování spojenému s KYC.
+reviewed: false

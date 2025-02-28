@@ -1,0 +1,10 @@
+question: Apa saja dompet yang mungkin digunakan oleh seorang Bitcoiner yang paranoid?
+answer: Dompet Samourai untuk dompet panas, Coldcard dan/atau Seed Signer untuk dompet dingin
+wrong_answers:
+  - Dompet Coinbase untuk dompet panas, Ledger untuk dompet dingin
+  - Dompet Binance untuk dompet panas, Trezor untuk dompet dingin
+  - PayPal untuk dompet panas, Rekening bank untuk dompet dingin
+explanation: |
+  Bab ini menyebutkan dompet Samourai untuk dompet panas dan Coldcard dan/atau
+  Seed Signer untuk dompet dingin sebagai dompet yang mungkin digunakan oleh seorang Bitcoiner yang paranoid.
+reviewed: false

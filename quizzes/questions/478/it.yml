@@ -1,9 +1,0 @@
-question: Qual è lo scopo dell'entropia nella generazione di una frase mnemonica per un portafoglio Bitcoin?
-answer: È il fondamento della sicurezza del portafoglio HD.
-wrong_answers:
-  - Determina il numero di parole nella frase di recupero.
-  - Crittografa la frase di recupero per una maggiore sicurezza.
-  - Verifica l'accuratezza della frase di recupero.
-explanation: |
-  L'entropia è il fondamento della sicurezza del portafoglio HD. È fondamentale che questa entropia sia casuale o pseudo-casuale per garantire la sicurezza del portafoglio.
-reviewed: false

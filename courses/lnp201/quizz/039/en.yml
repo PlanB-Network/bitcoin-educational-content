@@ -1,0 +1,9 @@
+question: What happens if a channel with an active HTLC is closed forcibly?
+answer: The HTLC is included in the commitment transactions as an output.
+wrong_answers:
+  - The HTLC is automatically cancelled.
+  - The funds are redistributed to the previous nodes.
+  - The channel cannot be closed until the HTLC has expired.
+explanation: |
+  During a forced closure, pending HTLCs are represented as outputs in the commitment transactions, thus ensuring their execution or return according to the defined conditions.
+reviewed: false

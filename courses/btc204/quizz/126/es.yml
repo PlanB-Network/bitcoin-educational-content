@@ -1,0 +1,13 @@
+question: ¿Qué método criptográfico se puede utilizar en los intercambios de monedas para asegurar la seguridad del intercambio sin necesidad de confianza?
+
+answer: Firmas Adaptadoras
+
+wrong_answers:
+  - Cifrado simétrico
+  - ECDH
+  - Cifrado asimétrico
+
+explanation: |
+  Para realizar un intercambio de monedas, se pueden usar HTLCs o PTLCs. Estos dos protocolos funcionan de manera similar utilizando un sistema de bloqueo por tiempo que asegura que el intercambio se complete con éxito o se cancele completamente, lo que protege la integridad de los fondos de ambas partes. La principal diferencia entre HTLCs y PTLCs es que los HTLCs usan hashes e imágenes previas para asegurar la transacción, mientras que los PTLCs usan Firmas Adaptadoras.
+
+reviewed: false

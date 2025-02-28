@@ -1,0 +1,9 @@
+question: What is the name of a problem where it is easy to compute a result in one direction but almost impossible to reverse?
+answer: A one-way function
+wrong_answers:
+  - A linear function
+  - An exponential function
+  - A reversible function
+explanation: |
+  One-way functions allow for quick computation in one direction, but make the inverse solving practically impossible, hence their utility in cryptography.
+reviewed: false

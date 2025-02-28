@@ -1,0 +1,9 @@
+question: Qu'est-ce que l'identification des clés ?
+answer: Le fait de pouvoir associer une facette de l'identité d'un utilisateur avec une activité onchain.
+wrong_answers:
+  - Le processus d'attribution d'une clé publique à chaque nouvelle transaction onchain.
+  - Le fait de pouvoir tracer des transactions onchain grâce à l'heuristique de propriété commune des inputs.
+  - Le processus par lequel une clé publique est dérivée depuis une clé privée.
+explanation: |
+  L'identification des clés concerne la possibilité de liaison entre une facette de l'identité d'un utilisateur et une activité onchain.
+reviewed: false

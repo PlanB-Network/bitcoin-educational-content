@@ -1,9 +1,0 @@
-question: ¿Con qué frecuencia se reduce a la mitad la recompensa por la minería?
-answer: Cada 210,000 bloques
-wrong_answers:
-  - Cada 120,000 bloques
-  - Cada 540,000 bloques
-  - Cada 2,100,000 bloques
-explanation: |
-  La recompensa por la minería está programada para reducirse a la mitad cada 210,000 bloques, lo cual ocurre aproximadamente cada cuatro años, en un evento conocido como "halving".
-reviewed: false

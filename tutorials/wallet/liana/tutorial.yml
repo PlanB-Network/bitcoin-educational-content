@@ -1,10 +1,111 @@
-builder: Wizard Sardine
+id: 306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
-level: advanced
+builder: Wizard Sardine
 
 category: desktop
 
+level: intermediate
+
+credits:
+  professor: satoshi-brother
+
+# Proofreading metadata
+
+project_id: aa91f010-ea13-44f1-ac91-d3f02aea8f21
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-01-17
+    urgency: 1
+    contributors_id:
+      - lugaxker
+    reward: 2.58
+
+
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10.2
+
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5.15
+
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5.15
+
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7.68
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10.2
+
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10.2
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12.73
+
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7.68
+
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15.25
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10.2
+
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5.15
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 10.2
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 15.25
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12.73
 tags:
-  - timelocked
-  - open-source
-  - self-custodial
+  - wallets
+  - guides
+  - good-practice

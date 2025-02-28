@@ -1,0 +1,9 @@
+question: Was ist für Bastiat die politische Ökonomie?
+answer: Die Theorie des Austauschs
+wrong_answers:
+  - Die Theorie des Werts
+  - Die Theorie des Reichtums
+  - Die Theorie der Kaufkraft
+explanation: |
+  Bastiat definiert die politische Ökonomie als die Theorie des Austauschs.
+reviewed: false

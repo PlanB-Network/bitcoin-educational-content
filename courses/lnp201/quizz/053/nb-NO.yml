@@ -1,0 +1,8 @@
+question: Hvorfor må en ruter opprettholde god likviditetsfordeling i sine kanaler?
+answer: For å maksimere antallet betalinger den kan rute
+wrong_answers:
+  - For å redusere transaksjonsgebyrer
+  - For å unngå å åpne nye kanaler
+  - For å begrense bruken av Bitcoin-blockchainen
+explanation: |
+  En ruter har som mål å rute så mange betalinger som mulig for å samle inn gebyrer, noe som krever en god fordeling av likviditet på begge sider av kanalene for å sikre rutekapasitet.

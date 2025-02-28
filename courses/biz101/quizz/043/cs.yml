@@ -1,0 +1,9 @@
+question: Co vám Bitcoin umožňuje dělat bez zprostředkovatelů?
+answer: Výměna hodnot na internetu
+wrong_answers:
+  - Vytváření centralizovaných aplikací
+  - Získání bankovních úvěrů
+  - Ukládání osobních údajů
+explanation: |
+  Bitcoin umožňuje výměnu hodnot na internetu bez prostředníků prostřednictvím protokolu peer-to-peer.
+reviewed: false

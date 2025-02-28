@@ -1,0 +1,9 @@
+question: Mikä on absoluuttisen edun käsite työnjaon kontekstissa?
+answer: Yksilöllä on parempi kyky suorittaa tiettyjä tehtäviä kuin hänen vertaisillaan.
+wrong_answers:
+  - Yksilöllä on parempi kyky suorittaa kaikki tehtävät kuin hänen vertaisillaan.
+  - Yksilöllä on yhtä suuri kyky suorittaa tiettyjä tehtäviä kuin hänen vertaisillaan.
+  - Yksilöllä on huonompi kyky suorittaa tiettyjä tehtäviä kuin hänen vertaisillaan.
+explanation: |
+  Työnjaon kontekstissa absoluuttinen etu viittaa tilanteeseen, jossa yksilöllä on parempi kyky suorittaa tiettyjä tehtäviä kuin hänen vertaisillaan. Tällöin yksilöllä on intressi erikoistua kyseisen hyödykkeen tuotantoon ja vaihtaa saatu ylijäämä haluamiinsa hyödykkeisiin.
+reviewed: false

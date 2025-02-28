@@ -1,0 +1,9 @@
+question: Wie sollte ein Unternehmen eine Bitcoin-Zahlungslösung auswählen, die seinen Bedürfnissen entspricht?
+answer: Indem Sie Faktoren wie die Transaktionshäufigkeit, den durchschnittlichen Zahlungsbetrag und die Frage, ob es sich um eine Online- oder persönliche Zahlung handelt, berücksichtigen und dann eine auf diese Kategorie zugeschnittene Lösung auswählen.
+wrong_answers:
+  - Wir wählen immer die einfachste Lösung, unabhängig von Transaktionsvolumen und Komplexität.
+  - Indem sie nur die größte und teuerste verfügbare Lösung verwenden, unabhängig von der Unternehmensgröße.
+  - Indem man sich ausschließlich auf Vermutungen verlässt, ohne die spezifischen Anforderungen des Unternehmens zu berücksichtigen.
+explanation: |
+  Verschiedene Unternehmen haben unterschiedliche Bedürfnisse. Die Bewertung von Faktoren wie Transaktionsvolumen, Zahlungsmethoden (online vs. physisch) und Skalierbarkeit hilft einem Unternehmen, die richtige Bitcoin-Zahlungslösung zu finden.
+reviewed: false

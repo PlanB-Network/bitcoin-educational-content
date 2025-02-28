@@ -1,0 +1,11 @@
+question: What is one of the disadvantages of gold as a form of money?
+answer: It is not easily divisible.
+wrong_answers:
+  - It does not keep its value across space.
+  - It erodes over time.
+  - It easy to produce.
+explanation: |
+  One of the main disadvantages of gold as a form of money is
+  to be difficult to divide into small units as the need
+  occurs, which makes it less practical to use.
+reviewed: true

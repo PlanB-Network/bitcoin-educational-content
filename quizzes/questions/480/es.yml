@@ -1,9 +1,0 @@
-question: ¿Qué es una frase mnemotécnica en el contexto de una billetera de Bitcoin?
-answer: Es una copia de seguridad de la billetera.
-wrong_answers:
-  - Es una contraseña para la billetera.
-  - Es un historial de transacciones de la billetera.
-  - Es una firma digital de la billetera.
-explanation: |
-  Se genera una frase mnemotécnica para asegurar la copia de seguridad de la billetera de Bitcoin.
-reviewed: false

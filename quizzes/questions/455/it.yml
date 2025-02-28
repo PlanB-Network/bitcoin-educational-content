@@ -1,9 +1,0 @@
-question: Qual è lo scopo del nonce nel contesto delle transazioni Bitcoin?
-answer: Viene utilizzato nella creazione di una firma digitale.
-wrong_answers:
-  - Viene utilizzato per crittografare i dati della transazione.
-  - Viene utilizzato per memorizzare i dati della transazione.
-  - Viene utilizzato per trasmettere i dati della transazione.
-explanation: |
-  Nel contesto delle transazioni Bitcoin, un nonce viene utilizzato nella creazione di una firma digitale. In particolare, viene utilizzato nel calcolo di un numero specifico V e della firma digitale composta da due parti, S1 e S2.
-reviewed: false

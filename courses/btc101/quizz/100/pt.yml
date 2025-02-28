@@ -1,0 +1,11 @@
+question: O que a ausência de uma frase mnemônica em uma carteira indica?
+answer: Indica que a carteira não é segura para armazenamento de longo prazo de Bitcoin.
+wrong_answers:
+  - Indica que a carteira é totalmente segura e não requer nenhum backup.
+  - Significa que a carteira pode conter muitos tipos diferentes de títulos.
+  - Sugere que a carteira é automaticamente respaldada pelo seu dispositivo.
+explanation: |
+  A ausência de uma lista de 12 ou 24 palavras, que é a
+  frase mnemônica, em uma carteira deve alertá-lo de que a
+  carteira não é segura, pois não segue os procedimentos padrão de backup.
+reviewed: true

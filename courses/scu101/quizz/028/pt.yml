@@ -1,0 +1,11 @@
+question: Qual é o primeiro vetor de ataque para hackers?
+answer: Emails
+wrong_answers:
+  - Redes sociais
+  - Sites de compras online
+  - Sites de bancos
+explanation: |
+  Emails são o primeiro vetor de ataque para hackers. Eles usam
+  tentativas de phishing para extrair informações sensíveis como
+  suas credenciais e senhas.
+reviewed: false

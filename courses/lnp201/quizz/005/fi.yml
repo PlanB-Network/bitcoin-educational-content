@@ -1,0 +1,9 @@
+question: Mikä on yksityisen avaimen ensisijainen rooli Bitcoin-järjestelmässä?
+answer: Allekirjoittaa siirtoja skriptin vaatimusten täyttämiseksi
+wrong_answers:
+  - Toimia tunnisteena bitcoinien vastaanottamiseksi
+  - Säilyttää varoja turvallisesti lohkoketjussa
+  - Luoda lukitusskriptejä bitcoinien suojaamiseksi
+explanation: |
+  Yksityistä avainta käytetään siirtojen allekirjoittamiseen skriptin vaatimusten täyttämiseksi ja bitcoinien vapauttamiseen.
+reviewed: false

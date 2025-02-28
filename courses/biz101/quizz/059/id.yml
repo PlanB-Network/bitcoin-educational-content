@@ -1,0 +1,9 @@
+question: Dua jenis wallet apa saja yang termasuk dalam profil Starter?
+answer: Dompet Lightning kustodian dan non-kustodian
+wrong_answers:
+  - Dompet Bitcoin penyimpanan panas dan dingin
+  - Dompet Bitcoin multisig dan kertas
+  - Perangkat keras dan otak Dompet petir
+explanation: |
+  Profil Pemula menggunakan dompet Lightning kustodian atau non-kustodian.
+reviewed: false

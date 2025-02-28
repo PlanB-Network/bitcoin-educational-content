@@ -1,0 +1,9 @@
+question: Mikä on yksinkertaistetun maksun kaava Bitcoinissa?
+answer: 1 tai useampi UTXO syötteissä ja 2 UTXOa tulosteissa.
+wrong_answers:
+  - 1 UTXO syötteessä ja 1 UTXO tulosteessa
+  - Useita UTXOja syötteessä ja 1 UTXO tulosteessa
+  - 5 UTXOa syötteissä ja 5 UTXOa tulosteissa
+explanation: |
+  Yksinkertaistetussa maksussa käyttäjä käyttää yhtä tai useampaa UTXOa syötteinä täyttääkseen tulosteissa maksu-UTXOn ja vaihtorahan UTXOn (eli 2 UTXOa).
+reviewed: false

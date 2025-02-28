@@ -1,0 +1,9 @@
+question: Mis on üks põhjustest, miks Bitcoin kogeb nii palju spekulatiivseid mullistumisi?
+answer: Kuna Bitcoin on valuuta, mida tegelikult kasutatakse kõikjal maailmas.
+wrong_answers:
+  - Kuna Bitcoini tegelikult ei kasutata kusagil.
+  - Kuna Bitcoin on mull, mis kaob.
+  - Kuna Bitcoin ei allu majandustsüklitele.
+explanation: >-
+  Bitcoin kogeb palju spekulatiivseid mullistumisi, kuna see on valuuta,
+  mida tegelikult kasutatakse kõikjal maailmas.

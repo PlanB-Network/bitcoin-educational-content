@@ -1,0 +1,13 @@
+question: Jaké informace by měly být uvedeny na štítku?
+
+answer: Původ UTXO.
+
+wrong_answers:
+  - Datum vytvoření UTXO.
+  - Velikost UTXO.
+  - Výše poplatků spojených s vytvořením UTXO.
+
+explanation: |
+  Označování je dobrá praxe, která pomáhá si pamatovat původ UTXO.
+
+  kontrolováno: false

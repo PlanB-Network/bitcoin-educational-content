@@ -1,9 +1,0 @@
-question: Wie wird die Anzahl der Wörter in der Wiederherstellungsphrase bei der Generierung einer mnemonischen Phrase für eine Bitcoin-Wallet bestimmt?
-answer: Es hängt von der Größe der Entropie ab.
-wrong_answers:
-  - Es hängt von der Größe der Prüfsumme ab.
-  - Es sind immer 24 Wörter.
-  - Es wird zufällig generiert.
-explanation: |
-  Abhängig von der Größe der Entropie besteht die Wiederherstellungsphrase aus 12 Wörtern für 128 Bits, 15 Wörtern für 160 Bits und 24 Wörtern für 256 Bits.
-reviewed: false

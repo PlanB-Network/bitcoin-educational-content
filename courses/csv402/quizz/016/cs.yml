@@ -1,0 +1,9 @@
+question: Jaké jsou dvě hlavní složky stavu inteligentní smlouvy v systému RGB?
+answer: Globální stát a vlastní státy
+wrong_answers:
+  - Závazek a Genesis
+  - Definice plomby a přechod stavu
+  - Valence a smluvní práva
+explanation: |
+  Globální stav obsahuje veřejná data, zatímco vlastní stavy jsou prostřednictvím UTXO přiřazeny konkrétním držitelům.
+reviewed: false

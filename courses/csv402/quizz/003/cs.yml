@@ -1,0 +1,9 @@
+question: Jaký je důsledek ztráty skrýše v protokolu RGB?
+answer: Historie smluv a související údaje se stanou neobnovitelnými
+wrong_answers:
+  - Data lze rekonstruovat z blockchainu, pokud máte seed
+  - Kopie dat je k dispozici na serverech společnosti RGB ve Švýcarsku
+  - Data jsou automaticky replikována pro všechny účastníky
+explanation: |
+  Při ověřování na straně klienta je každý uživatel zodpovědný za svou skrýš, která není replikována jinde, takže její ztráta je definitivní.
+reviewed: false

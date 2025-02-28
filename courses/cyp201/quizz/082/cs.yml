@@ -1,0 +1,9 @@
+question: Jaký je hlavní rozdíl mezi P2PK a P2PKH?
+answer: P2PK přímo používá surový veřejný klíč, zatímco P2PKH používá hash veřejného klíče.
+wrong_answers:
+  - P2PK je kompatibilní se SegWit, zatímco P2PKH není.
+  - P2PK používá Schnorrův podpis, zatímco P2PKH používá podpis ECDSA.
+  - P2PK je určen pro multisigy, zatímco P2PKH je pro jednoduché skripty.
+explanation: |
+  P2PK uzamkne prostředky pomocí surového veřejného klíče, zatímco P2PKH používá hash veřejného klíče.
+reviewed: false

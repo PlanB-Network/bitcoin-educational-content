@@ -1,0 +1,9 @@
+question: Jaké je omezení pro odvození dětského veřejného klíče z rodičovského veřejného klíče?
+answer: Dětský klíč musí být normální
+wrong_answers:
+  - Dětský klíč musí být zpevněný
+  - Řetězový kód musí být identický s kódem rodičovského klíče
+  - Proces musí zahrnovat soukromý klíč rodiče
+explanation: |
+  Dětský veřejný klíč lze odvodit z rodičovského veřejného klíče pouze pokud je normální, nikoli zpevněný.
+reviewed: false

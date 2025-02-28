@@ -1,0 +1,9 @@
+question: What type of key is used to lock UTXOs on Bitcoin?
+answer: Public key
+wrong_answers:
+  - Private key
+  - Seed hash
+  - Mnemonic phrase
+explanation: |
+  UTXOs are locked with a public key or its hash, and unlocked with the corresponding private key.
+reviewed: false

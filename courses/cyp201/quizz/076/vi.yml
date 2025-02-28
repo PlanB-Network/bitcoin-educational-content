@@ -1,0 +1,9 @@
+question: Ký hiệu /<0;1>/* trong một mô tả tương ứng với gì?
+answer: Đến chuỗi bên ngoài và chuỗi bên trong với sự phát sinh tuần tự
+wrong_answers:
+  - Đến một địa chỉ đa chữ ký được sắp xếp
+  - Đến một checksum cho các đường dẫn phát sinh
+  - Đến một đường dẫn phát sinh cứng
+explanation: |
+  Ký hiệu /<0;1>/* chỉ ra rằng mô tả có thể tạo ra địa chỉ cho chuỗi bên ngoài (0) và chuỗi bên trong (1), với sự phát sinh tuần tự nhờ vào ký tự đại diện (*).
+reviewed: false

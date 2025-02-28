@@ -1,0 +1,9 @@
+question: Chiến lược nào được các cơ quan trung ương sử dụng để làm giảm giá trị của một đồng tiền tệ?
+answer: Họ tăng khối lượng tiền tệ một vài phần trăm mỗi năm.
+wrong_answers:
+  - Họ giảm khối lượng tiền tệ một vài phần trăm mỗi năm.
+  - Họ giữ khối lượng tiền tệ của mình ổn định so với khối lượng ban đầu.
+  - Họ khiến khối lượng tiền tệ của mình dao động một cách ngẫu nhiên so với khối lượng ban đầu.
+explanation: |
+  Các cơ quan trung ương thường làm giảm giá trị của một đồng tiền bằng cách tăng khối lượng tiền tệ của nó so với khối lượng ban đầu một vài phần trăm mỗi năm. Sự giảm giá trị âm thầm này thường được biện minh là vì lợi ích của người dân.
+reviewed: true

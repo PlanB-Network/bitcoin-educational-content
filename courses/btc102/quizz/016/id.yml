@@ -1,0 +1,10 @@
+question: Apa salah satu langkah untuk menjaga komputer Anda dalam kondisi kerja optimal?
+answer: Secara rutin membackup data Anda
+wrong_answers:
+  - Membagi password Anda
+  - Menggunakan password yang sama untuk semua akun
+  - Mengabaikan pembaruan komputer Anda
+explanation: |
+  Secara rutin membackup data Anda adalah salah satu langkah untuk menjaga komputer
+
+  Anda dalam kondisi kerja optimal. Ini juga merupakan langkah dasar untuk meningkatkan kebiasaan keamanan online.

@@ -1,0 +1,9 @@
+question: Teknik apa yang membantu melindungi dari risiko pelacakan yang diinduksi oleh KYC?
+answer: Transaksi Coinjoin
+wrong_answers:
+  - Penggunaan VPN
+  - Penggunaan node penuh
+  - Validasi melalui bukti kerja
+explanation: |
+  Coinjoin memiliki efek memutus sejarah sebuah koin, yang membantu Anda melawan risiko pelacakan yang terkait dengan KYC.
+reviewed: false

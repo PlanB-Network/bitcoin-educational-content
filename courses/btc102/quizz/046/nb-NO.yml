@@ -1,0 +1,11 @@
+question: Hva er den største risikoen ved å la dine bitcoins være på en børsplattform?
+answer: Plattformen kan bli hacket, beslaglagt, gå konkurs, eller rett og slett forsvinne med pengene dine
+wrong_answers:
+  - Prisen på Bitcoin kan plutselig falle
+  - Plattformen kan øke gebyrene sine
+  - Plattformen kan begrense antallet bitcoins du kan kjøpe eller selge
+explanation: |
+  Kapittelinnholdet advarer om at børsplattformer presenterer betydelige
+  risikoer og bør unngås så mye som mulig. De kan bli hacket, beslaglagt, gå
+  konkurs, eller rett og slett forsvinne med pengene dine.
+reviewed: false

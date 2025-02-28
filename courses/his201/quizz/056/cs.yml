@@ -1,0 +1,9 @@
+question: Jaké byly standardní vzory výstupu skriptů rozpoznané softwarem v září 2010?
+answer: Přijetí veřejným klíčem (P2PK) a přijetí na adresu (P2PKH)
+wrong_answers:
+  - Přijetí na adresu (P2PKH) a přijetí multisignaturním skriptem (P2MS)
+  - Přijetí na adresu (P2PKH) a přijetí skriptem (P2SH)
+  - Přijetí veřejným klíčem (P2PK) a přijetí skriptem (P2SH)
+explanation: |
+  To byly dva typy používané od začátku Bitcoinu. Typ P2MS byl standardizován v březnu 2012. Typ P2SH byl přidán do protokolu v dubnu 2012.
+reviewed: false

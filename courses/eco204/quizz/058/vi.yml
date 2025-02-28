@@ -1,0 +1,13 @@
+question: Đặc điểm độc đáo của các tờ giấy hứa thanh toán được giới thiệu tại Sở Giao dịch Chứng khoán Antwerp vào thế kỷ 16 là gì?
+
+answer: Chúng ghi rõ tên và ngày đáo hạn
+
+wrong_answers:
+  - Chúng được làm từ vàng
+  - Chúng được phát hành bởi Ngân hàng Amsterdam
+  - Chúng có thể được đổi thành florins
+
+explanation: |
+  Sở Giao dịch Chứng khoán Antwerp đã giới thiệu các tờ giấy hứa thanh toán ghi rõ tên và ngày đáo hạn. Điều này làm cho chúng khó có thể được trao đổi trước ngày đáo hạn. Tuy nhiên, sở giao dịch đã giới thiệu phương thức giảm giá các tờ giấy này trước ngày đáo hạn, làm cho chúng trở nên dễ dàng hơn trong việc lưu chuyển và giới thiệu khái niệm về giá trị thời gian của tiền tệ.
+
+reviewed: false

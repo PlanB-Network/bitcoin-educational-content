@@ -1,0 +1,9 @@
+question: Thuật toán chữ ký nào đã được giới thiệu trong Bitcoin với Taproot?
+answer: Schnorr signature scheme
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Thuật toán chữ ký Schnorr đã được giới thiệu vào tháng 11 năm 2021 với bản cập nhật Taproot.
+reviewed: false

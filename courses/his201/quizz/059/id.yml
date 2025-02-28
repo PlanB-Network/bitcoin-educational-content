@@ -1,0 +1,9 @@
+question: Anggota forum mana yang membuat algoritma penambangannya menjadi publik setelah menerima donasi besar dari Jeff Garzik pada 18 September 2010?
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  Sampai saat itu, mereka telah mendapatkan keuntungan dari komisi penggunaan perangkat lunak mereka. Mereka [menerbitkan](https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135) di bawah lisensi gratis.
+reviewed: false

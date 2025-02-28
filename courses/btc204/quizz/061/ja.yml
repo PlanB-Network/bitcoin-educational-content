@@ -1,0 +1,13 @@
+question: Bitcoinウォレットソフトウェアの「coin control」オプションの目的は何ですか？
+
+answer: トランザクションの入力として消費するUTXOを選択すること。
+
+wrong_answers:
+  - UTXOを暗号化してウォレットのセキュリティを向上させるため。
+  - 疑わしいソースからのUTXOを検出してブロックするため。
+  - ウォレット内の各UTXOにラベルを付けるため。
+
+explanation: |
+  Coin controlは、良質なBitcoinウォレットソフトウェアに見られる機能で、トランザクションを行う際に特定のUTXOを入力として手動で選択する能力を提供します。
+
+reviewed: false

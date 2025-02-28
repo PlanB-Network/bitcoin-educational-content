@@ -1,9 +1,0 @@
-question: Uma frase de acesso é mais segura do que uma senha simples?
-answer: Sim
-wrong_answers:
-  - Não
-  - Depende do comprimento da senha
-  - Depende da complexidade da senha
-explanation: |
-  Uma frase de acesso é mais segura do que uma senha simples. A frase de acesso ideal é longa, variada e aleatória. Ela pode aumentar a segurança de uma carteira ou software de criptomoedas.
-reviewed: false

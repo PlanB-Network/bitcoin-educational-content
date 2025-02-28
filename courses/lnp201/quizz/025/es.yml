@@ -1,0 +1,9 @@
+question: ¿Cuáles son los tres métodos para cerrar un canal en la Red Lightning?
+answer: Cierre cooperativo, cierre forzado, cierre con engaño
+wrong_answers:
+  - Cierre rápido, cierre lento, cierre con doble firma
+  - Cierre seguro, cierre automatizado, cierre con pérdida de fondos
+  - Cierre directo, cierre indirecto, cierre con reclamación
+explanation: |
+  Hay tres métodos: cierre cooperativo donde las partes están de acuerdo, cierre forzado sin respuesta de una de las partes, y cierre con engaño donde una parte intenta publicar una transacción antigua.
+reviewed: false

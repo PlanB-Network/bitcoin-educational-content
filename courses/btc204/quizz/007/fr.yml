@@ -1,0 +1,9 @@
+question: Qu'est-ce qu'une “fusion” dans une transaction ?
+answer: C'est l'action de consommer plusieurs UTXOs en inputs.
+wrong_answers:
+  - C'est l'action de créer plusieurs UTXOs en outputs.
+  - C'est le fait de combiner plusieurs adresses en une seule.
+  - C'est le fait de combiner plusieurs blocs dans la blockchain.
+explanation: |
+  Lorsque l'utilisateur n'a aucun UTXO supérieur ou égal à la somme qu'il souhaite envoyer, il doit utiliser plusieurs de ses UTXOs afin de satisfaire les outputs. Cette pratique s'appelle “fusionner”.
+reviewed: false

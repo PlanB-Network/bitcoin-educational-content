@@ -1,0 +1,14 @@
+title: "Aldeia Bitcoin"
+publication_year: 2023
+cover: cover_en.webp
+original: true
+description: |
+  Com Bitcoin Village, o autor leva-nos numa viagem informativa por esta tecnologia, explorando desde as origens do dinheiro até ao núcleo do protocolo informático. Reflecte também sobre os impactos sociais e políticos, definindo as bases que a Bitcoin está a lançar para uma sociedade mais justa e consciente.
+contributors:
+  - another-satoshi
+original_language: en
+proofreading:
+  - language: en
+    urgency: 1
+    contributors_id:
+      - davidecoltro

@@ -1,0 +1,10 @@
+question: Hva kalles hendelsen når belønningen for gruvedrift halveres?
+answer: Halvering
+wrong_answers:
+  - Fordobling
+  - Firedeling
+  - Tredobling
+explanation: |
+  Hendelsen når belønningen for gruvedrift halveres kalles halvering. Denne
+  hendelsen gir utstedelseskurven for valutaen en trappelignende form.
+reviewed: true

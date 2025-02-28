@@ -1,0 +1,9 @@
+question: Quel est le point de départ pour calculer une signature ECDSA ?
+answer: Le hash du message
+wrong_answers:
+  - La clé publique
+  - Un nonce fixe
+  - Une courbe elliptique personnalisée
+explanation: |
+  Une signature ECDSA commence par le calcul du hash du message à signer, souvent avec SHA256.
+reviewed: false

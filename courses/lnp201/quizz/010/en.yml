@@ -1,0 +1,9 @@
+question: What is the first step in opening a Lightning channel between two participants?
+answer: Exchange messages containing the amounts and public keys
+wrong_answers:
+  - Immediately publish a deposit transaction on the blockchain
+  - Create a 2/2 multisignature address without prior exchange
+  - Sign the withdrawal transaction before the exchange of public keys
+explanation: |
+  The opening of a channel begins with an exchange of messages between the two parties, where they share the amounts they wish to commit and their public keys.
+reviewed: false

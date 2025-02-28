@@ -1,0 +1,9 @@
+question: In a Bitcoin transaction, what does the locking script do?
+answer: It imposes specific conditions to spend the associated funds
+wrong_answers:
+  - It automatically sends the funds to multiple addresses
+  - It determines the value of the UTXO to be created
+  - It temporarily locks the funds to prevent excessive spending
+explanation: |
+  The locking script imposes conditions, such as signing with a private key, to unlock and use the funds in a transaction.
+reviewed: false

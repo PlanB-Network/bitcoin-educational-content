@@ -1,10 +1,9 @@
 ---
-name: Trezor modelo One
-
+name: Trezor model One
 description: Configuración y uso del Trezor modelo One
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Billetera física en frío: 60€ - Principiante - Seguridad entre 2 000€ y 50 000€.
 

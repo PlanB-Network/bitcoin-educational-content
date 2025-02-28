@@ -1,9 +1,0 @@
-question: Quel est l'objectif principal de la KYC?
-answer: Lutter contre le blanchiment d'argent, le financement du terrorisme et l'évasion fiscale.
-wrong_answers:
-  - Augmenter le coût de conformité pour les entreprises
-  - Centraliser les bases de données sensibles contenant des informations personnelles sur les utilisateurs
-  - Décourager les entreprises françaises et nuire à leur compétitivité
-explanation: |
-  La KYC, ou "Know Your Customer" (Connaissez Votre Client), est une norme réglementaire qui vise à lutter contre le blanchiment d'argent, le financement du terrorisme et l'évasion fiscale en exigeant la collecte d'informations privées sur les clients.
-reviewed: false

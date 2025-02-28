@@ -1,0 +1,9 @@
+question: Mida tähendab jõumeetodil ründamine?
+answer: Kõikide võimalike võtmete proovimine kuni õige leidmiseni
+wrong_answers:
+  - Teksti muutmine, et muuta see arusaamatuks
+  - Avaliku võtme kasutamine sõnumi dekrüpteerimiseks
+  - Arvuti väga kõvasti löömine, et sundida seda loovutama salajast võtit
+explanation: |
+  Jõumeetodil ründamine hõlmab süstemaatilist kõikide võimalike võtmete testimist, et dekrüpteerida krüpteeritud sõnum.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wie wird der Prozess genannt, der Transaktionen im Bitcoin-Netzwerk verifiziert?
+answer: Mining
+wrong_answers:
+  - Graben
+  - Ernten
+  - Bewirtschaften
+explanation: |
+  Der Prozess, der Transaktionen im Bitcoin-Netzwerk verifiziert, wird als Mining bezeichnet. Miner führen eine kryptografische Aufgabe aus und werden mit der Ausgabe neuer Bitcoins belohnt.
+reviewed: true

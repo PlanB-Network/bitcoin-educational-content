@@ -1,0 +1,9 @@
+question: Welcher Dienst ermöglicht es, Liquidität auf die gegenüberliegende Seite eines Kanals zu verschieben, während gleichzeitig Mittel on-chain abgerufen werden?
+answer: Loop Out
+wrong_answers:
+  - Keysend
+  - LNURL
+  - CoinSwap
+explanation: |
+  Der Loop Out-Dienst von Lightning Labs ermöglicht die Übertragung von Mitteln aus einem Lightning-Kanal auf die on-chain Blockchain, wodurch die Empfangskapazität optimiert wird, während gleichzeitig Bitcoins auf der Hauptkette abgerufen werden.
+reviewed: false

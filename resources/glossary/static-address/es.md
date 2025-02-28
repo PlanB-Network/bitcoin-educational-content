@@ -1,0 +1,7 @@
+---
+term: DIRECCIÓN ESTÁTICA
+
+---
+En el contexto de los pagos silenciosos, se refiere a un identificador único que permite la recepción de pagos sin reutilización de la dirección, sin interacción y sin un vínculo visible en la cadena entre los distintos pagos y la dirección estática. Esta técnica elimina la necesidad de generar nuevas direcciones de recepción no utilizadas para cada transacción, evitando así las interacciones habituales en Bitcoin en las que el receptor debe proporcionar una nueva dirección al pagador. Es algo equivalente al código de pago reutilizable en el contexto de BIP47.
+
+Esta dirección se compone de dos claves públicas: $B_{{text{scan}}$ para escanear y $B_{{text{spend}}$ para gastar, concatenadas para formar la dirección estática $B = B_{{text{scan}} \text{ ‖ } B_{texto{gasto}}$. El destinatario publica esta dirección, lo que permite a los remitentes obtener direcciones de pago únicas sin necesidad de interactuar con el destinatario. Para gestionar varias fuentes de pago distintas, se puede añadir una etiqueta a $B_{text{spend}}$, creando así varias direcciones estáticas etiquetadas de $B_1$, $B_2$, etc. Esto permite la segregación de los pagos mientras se utiliza una única dirección base, reduciendo así la carga de trabajo para el escaneo de la cadena de bloques. Sin embargo, todas las direcciones estáticas de una entidad pueden asociarse fácilmente debido al uso común de $B_{text{scan}}.

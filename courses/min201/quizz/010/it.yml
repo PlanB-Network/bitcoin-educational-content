@@ -1,0 +1,9 @@
+question: In che modo i minatori di Bitcoin possono aiutare nella gestione degli eccessi di energia e nella stabilizzazione delle reti elettriche?
+answer: I minatori di Bitcoin possono assorbire gli eccessi di energia, agendo come un buffer flessibile, regolando la domanda piuttosto che l'offerta. In un mondo in cui la produzione di elettricità da fonti rinnovabili (non controllabili) è in costante aumento, i minatori possono svolgere un ruolo chiave nel garantire l'equilibrio delle nostre reti elettriche, beneficiando allo stesso tempo di elettricità a basso costo o in eccesso per alimentare le loro operazioni di mining.
+wrong_answers:
+  - I minatori di Bitcoin possono aiutare nella gestione degli eccessi di energia immagazzinando l'energia in eccesso nelle batterie.
+  - I minatori di Bitcoin possono aiutare nella gestione degli eccessi di energia vendendo l'energia in eccesso alla rete.
+  - I minatori di Bitcoin possono aiutare nella gestione degli eccessi di energia convertendo l'energia in eccesso in calore.
+explanation: |
+  Il capitolo spiega che i minatori di Bitcoin possono assorbire gli eccessi di energia, agendo come un buffer flessibile, regolando la domanda piuttosto che l'offerta. Questo può aiutare nella gestione degli eccessi di energia e nella stabilizzazione delle reti elettriche.
+reviewed: vero

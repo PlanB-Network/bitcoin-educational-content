@@ -1,0 +1,10 @@
+question: Mikä on 2% inflaation vaikutus ostovoimaan viiden vuoden aikana?
+answer: Menetät 10% ostovoimastasi.
+wrong_answers:
+  - Menetät 2% ostovoimastasi.
+  - Menetät 5% ostovoimastasi.
+  - Menetät 20% ostovoimastasi.
+explanation: |
+  2% inflaation myötä menetät vuosittain 2% ostovoimastasi,
+  mikä kertyy 10%; iin viiden vuoden aikana.
+reviewed: true

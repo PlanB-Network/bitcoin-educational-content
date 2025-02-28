@@ -1,0 +1,10 @@
+question: What is the impact of 2% inflation on purchasing power over 5 years?
+answer: You lose 10% of your purchasing power.
+wrong_answers:
+  - You lose 2% of your purchasing power.
+  - You lose 5% of your purchasing power.
+  - You lose 20% of your purchasing power.
+explanation: |
+  With 2% inflation, you lose 2% of your purchasing power
+  annually, which amounts to 10% over 5 years.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Mục đích của tùy chọn kiểm soát tiền xu trong phần mềm ví Bitcoin là gì?
+
+answer: Để chọn các UTXO sẽ được sử dụng làm đầu vào cho các giao dịch.
+
+wrong_answers:
+  - Để mã hóa UTXO nhằm tăng cường bảo mật cho ví.
+  - Để phát hiện và chặn các UTXO từ nguồn gốc đáng ngờ.
+  - Để gắn nhãn cho mỗi UTXO trong ví.
+
+explanation: |
+  Kiểm soát tiền xu là một tính năng được tìm thấy trong phần mềm ví Bitcoin tốt, cho phép bạn tự chọn cụ thể các UTXO để sử dụng làm đầu vào khi thực hiện một giao dịch.
+
+reviewed: false

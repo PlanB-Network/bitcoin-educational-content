@@ -1,0 +1,9 @@
+question: Jaký je doporučený postup týkající se úschovy při pořizování bitcoinů?
+answer: Zvažte řešení pro vlastní úschovu po počátečních nákupech, aby firma skutečně kontrolovala svůj majetek.
+wrong_answers:
+  - Nikdy a za žádných okolností nevybírejte bitcoiny z burzy.
+  - Vždy důvěřujte jedinému správci bez přezkoumání bezpečnostních opatření.
+  - Ukládání všech bitcoinů na veřejnou webovou stránku s jednoduchým heslem
+explanation: |
+  Po nákupu bitcoinů je přesun do vlastní peněženky zajistí, že podnik bude mít nad svými prostředky přímou kontrolu. Zatímco správci třetích stran mohou být pohodlní, self-custody je v souladu s principem finanční suverenity Bitcoinu.
+reviewed: false

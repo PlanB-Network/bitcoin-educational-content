@@ -1,10 +1,10 @@
 ---
-name: ZEUS
+name: Zeus
 
 description: Configuration du portefeuille Zeus
 ---
 
-![Zeus](assets/cover.jpeg)
+![Zeus](assets/cover.webp)
 
 **Zeus est un portefeuille Bitcoin open-source et non-custodial** qui vous donne un contrôle total sur la façon dont vous effectuez des paiements.
 

@@ -1,0 +1,9 @@
+question: Mikä termi kuvaa tietoa, joka yhdistää joukon ketjussa tapahtuvaa toimintaa todelliseen identiteettiin?
+answer: Sisääntulopiste.
+wrong_answers:
+  - Yhdistävä avain.
+  - Sormenjälkilinkki.
+  - Analyysimerkki.
+explanation: |
+  Käyttäytymiset ja tiedot, jotka voivat yhdistää todellisen identiteetin ketjussa tapahtuvaan toimintaan, kutsutaan sisääntulopisteiksi.
+reviewed: false

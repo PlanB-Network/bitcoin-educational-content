@@ -1,0 +1,9 @@
+question: Quel type de clé est associé au préfixe zpub ?
+answer: Une clé publique étendue pour SegWit V0 sur le Mainnet
+wrong_answers:
+  - Une clé privée étendue pour SegWit V1 sur le Mainnet
+  - Une clé publique étendue pour Legacy sur le Testnet
+  - Une clé publique étendue pour SegWit V2 sur le Testnet
+explanation: |
+  Le préfixe zpub désigne une clé publique étendue pour les scripts SegWit V0 sur le Mainnet.
+reviewed: false

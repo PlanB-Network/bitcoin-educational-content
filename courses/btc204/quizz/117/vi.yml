@@ -1,0 +1,11 @@
+question: Một ricochet cổ điển thường thực hiện bao nhiêu giao dịch liên tiếp?
+
+answer: 5
+
+wrong_answers:
+  - 2
+  - 8
+  - 14
+
+explanation: |
+  Phương pháp ricochet thường bao gồm việc thực hiện 4 giao dịch cho chính mình, và một giao dịch cuối cùng để gửi tiền cho người nhận cuối cùng.

@@ -1,0 +1,9 @@
+question: Bagaimana sistem Perusahaan memperbarui inventaris secara otomatis?
+answer: Melalui pemicu alur kerja
+wrong_answers:
+  - Pembaruan manual
+  - Unggahan akhir hari
+  - Laporan terjadwal
+explanation: |
+  Alur kerja memicu pembaruan sistem secara real time.
+reviewed: false

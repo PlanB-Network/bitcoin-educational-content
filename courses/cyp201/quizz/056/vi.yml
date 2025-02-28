@@ -1,0 +1,8 @@
+question: Hằng số nào được sử dụng để tạo ra khóa riêng tư chính từ seed?
+answer: Bitcoin Seed
+wrong_answers:
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
+explanation: |
+  Hằng số Bitcoin Seed được sử dụng như một khóa trong hàm HMAC-SHA512 để tạo ra khóa riêng tư chính và mã chuỗi chính.

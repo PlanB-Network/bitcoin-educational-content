@@ -1,9 +1,0 @@
-question: Quel est un facteur à prendre en compte lors du choix d'une solution pour accepter Bitcoin pour votre entreprise?
-answer: Le volume de transactions attendu
-wrong_answers:
-  - La couleur de votre logo
-  - Le nombre d'employés
-  - L'emplacement de votre siège social
-explanation: |
-  Lors du choix d'une solution pour accepter Bitcoin pour votre entreprise, plusieurs facteurs doivent être pris en compte, tels que le volume de transactions attendu, le budget alloué et le type d'activité (en ligne ou physique).
-reviewed: false

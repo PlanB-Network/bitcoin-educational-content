@@ -1,9 +1,0 @@
-question: Benötigen Linux und Mac häufig Antivirensoftware?
-answer: Nein
-wrong_answers:
-  - Ja
-  - Nur Linux benötigt Antivirensoftware.
-  - Nur Mac benötigt Antivirensoftware.
-explanation: |
-  Linux und Mac benötigen aufgrund ihres Benutzerrechte-Trennungssystems oft keine Antivirensoftware.
-reviewed: false

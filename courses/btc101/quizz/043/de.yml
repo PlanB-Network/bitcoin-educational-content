@@ -1,0 +1,12 @@
+question: Welchen historischen Weg haben Institutionen bei der Einführung von Fiatwährungen verfolgt?
+answer: Führer zentralisieren Gold und führen eine neue Währung ein, die dem Goldwert entspricht, welche dann schrittweise abgewertet wird.
+wrong_answers:
+  - Führer führen eine neue, durch Gold gedeckte Währung ein, die dann schrittweise im Wert gesteigert wird.
+  - Führer führen eine neue Währung ohne inneren Wert ein, die dann schrittweise im Wert gesteigert wird.
+  - Führer führen eine neue, durch einen Warenkorb gedeckte Währung ein, die dann stabil im Wert gehalten wird.
+explanation: |
+  Historisch gesehen haben Führer Gold zentralisiert und
+  eine neue Währung eingeführt, die dem Goldwert entspricht.
+  Diese neue Währung wird dann schrittweise abgewertet, oft
+  unter dem Vorwand, es diene dem Interesse der Bevölkerung.
+reviewed: true

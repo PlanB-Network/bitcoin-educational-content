@@ -1,0 +1,14 @@
+title: "Bitcoin: Et pågående arbeid"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  Med tusenvis av "krypto"-prosjekter der ute, sier de at Bitcoin er gammelt og
+  kjedelig, men ingenting kunne være lenger fra sannheten. Denne boken vil veilede deg
+  gjennom den siste utviklingen innen Bitcoin, sett gjennom øynene til en av de
+  sine mange utviklere.
+  Du vil lære om den nyeste soft fork'en kjent som Taproot, utfordringene med å holde programvare med åpen kildekode fri for bugs og skadevare som stjeler penger, nye måter å beskytte noder mot onde gjerningsmenn på internett, hvordan du håndterer den stadig voksende blokkjeden, og mer!
+  Hvert kapittel lenker til en tilsvarende episode av podcasten Bitcoin, Explained. Boken inneholder også lenker til mer enn to hundre artikler, videoer, podcaster og til og med kildekoden. Og takket være en liten QR-kode ved siden av hver lenke, slipper du å skrive lange nettadresser.
+  Forfatteren er programvareutvikler med base i Utrecht i Nederland. Han har jobbet i Bitcoin-bransjen siden 2014 og ble Bitcoin Core-bidragsyter i 2017, noe som gir ham et sete på første rad til all den nyeste og mest spennende tekniske utviklingen. Han er medvert på Bitcoin Magazine-podkasten Bitcoin, Explained.
+contributors:
+  - hunt-wood

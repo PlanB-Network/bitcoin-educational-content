@@ -1,0 +1,9 @@
+question: PRNGとTRNGの主な違いは何ですか？
+answer: PRNGは決定論的であり、TRNGは真のランダム数を生成します。
+wrong_answers:
+  - 大きな数に対してPRNGの方がTRNGより速い。
+  - PRNGは暗号化にのみ使用され、TRNGは使用されない。
+  - PRNGは秘密鍵を使用し、TRNGは公開鍵を使用する。
+explanation: |
+  PRNGは決定論的であり、初期状態からシーケンスを再生産できることを意味しますが、TRNGはそうではありません。
+reviewed: false

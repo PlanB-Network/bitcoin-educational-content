@@ -1,0 +1,11 @@
+question: Entre las siguientes respuestas, ¿cuál no representa un beneficio de usar tu propio nodo?
+
+answer: Reducir las tarifas de transacción.
+
+wrong_answers:
+  - Participar en el consenso.
+  - Ser independiente de terceras partes.
+  - Ser capaz de resistir la censura de transacciones.
+
+explanation: |
+  Aquí está el porqué tener tu propio nodo es crucial para un uso completamente soberano de Bitcoin: Resistencia a la censura; Tus transacciones no pueden ser bloqueadas por nadie; Independencia de terceras part- language; es Ya no dependes de ningún servicio externo para verificar los datos de la blockchain; Participación activa; Tienes la capacidad de establecer tus propias reglas de validación y participar directamente en el consenso; Contribución a la red; Al ejecutar un nodo, ayudas a fortalecer y distribuir la red de Bitcoin; Educación técnica; Gestionar un nodo completo es una excelente manera de profundizar tu conocimiento técnico sobre Bitcoin.

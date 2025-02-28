@@ -1,0 +1,13 @@
+question: Mikä on Bitcoinin asema El Salvadorissa?
+answer: Laillinen maksuväline.
+wrong_answers:
+  - Kriminalisoitu.
+  - Tuntematon.
+  - Sääntelemätön.
+explanation: |
+  Kurssitekstissä mainitaan, että jotkut maat ovat kieltäneet
+  ja kriminalisoineet Bitcoinin käytön, mikä lisää
+  Bitcoinin omaksumisen monimutkaisuutta kulttuurien, aikakausien ja
+  kansakuntien mukaan. El Salvador oli kuitenkin rohkea ottaessaan sen
+  käyttöön laillisena maksuvälineenä.
+reviewed: true

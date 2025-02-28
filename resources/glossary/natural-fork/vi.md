@@ -1,0 +1,5 @@
+---
+term: NATURAL FORK
+
+---
+A temporary separation of the blockchain resulting from the nearly simultaneous broadcast of several blocks by different miners at the same height. This situation occurs when two blocks, designated as $A$ and $B$, are found almost at the same time, leading to a temporary division of the network. Since each node considers the first block it received as valid, but not everyone received the same block first, part of the nodes follow the chain containing block $A$, while the other part follows the one with block $B$. This fork is resolved when one of the two competing chains surpasses the other in terms of accumulated work. At that point, all the nodes in the network automatically agree on the longer chain (with the most accumulated work), a process known as reorganization or resynchronization. These natural forks are inherent to the distributed operation of Bitcoin. They are perfectly normal and resolve spontaneously after a few blocks (usually just one). If they occur too frequently, however, these forks can still be detrimental, as they lead to a waste of computational power on a branch that will eventually become obsolete.

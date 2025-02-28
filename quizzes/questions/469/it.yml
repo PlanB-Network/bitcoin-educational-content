@@ -1,9 +1,0 @@
-question: Perché è consigliato utilizzare portafogli open-source per le transazioni Bitcoin?
-answer: Essi consentono la verifica della generazione di numeri casuali.
-wrong_answers:
-  - Sono più economici rispetto ai portafogli closed-source.
-  - Sono più veloci rispetto ai portafogli closed-source.
-  - Sono più sicuri rispetto ai portafogli closed-source.
-explanation: |
-  I portafogli open-source consentono agli utenti di verificare la generazione del numero casuale, che è un passaggio cruciale per garantire la sicurezza delle chiavi private e delle transazioni Bitcoin.
-reviewed: false

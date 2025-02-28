@@ -1,0 +1,9 @@
+question: Apa dampak potensial dari sistem keuangan saat ini terhadap aktor politik?
+answer: Mereka tidak memiliki insentif untuk melakukan perubahan radikal, memungkinkan sistem untuk terus berjalan hingga kemungkinan terjadi kehancuran.
+wrong_answers:
+  - Mereka memiliki insentif untuk melakukan perubahan radikal guna mencegah kemungkinan kehancuran.
+  - Mereka tidak memiliki insentif untuk mempertahankan status quo demi memastikan kekayaan mereka sendiri.
+  - Mereka memiliki insentif untuk berpikir jangka panjang.
+explanation: |
+  Karena aktor politik mendapat manfaat dari sistem keuangan saat ini, mereka tidak memiliki insentif untuk melakukan perubahan radikal. Hal ini memungkinkan sistem untuk terus berjalan hingga kemungkinan terjadi kehancuran, karena sistem diatur dan dibatasi untuk menghindari keruntuhan.
+reviewed: true

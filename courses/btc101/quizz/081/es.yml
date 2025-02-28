@@ -1,0 +1,12 @@
+question: ¿Cuál es la pregunta central que debes hacerte al elegir una cartera de Bitcoin, en términos de auto custodia?
+answer: ¿Eres el propietario de los fondos o dejas el control de tu dinero a un tercero?
+wrong_answers:
+  - ¿Está la cartera asegurada con una frase de paso?
+  - ¿Permite la cartera recibir y enviar bitcoins?
+  - ¿Puedo compartir mi cartera con otra persona?
+explanation: |
+  Al elegir una cartera de Bitcoin, la pregunta central es:
+  ¿eres el propietario de los fondos o dejas el control de
+  tu dinero a un tercero? Esto se debe a que el poseedor de
+  la clave privada es el propietario de los Bitcoins.
+reviewed: true

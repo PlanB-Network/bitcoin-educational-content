@@ -1,0 +1,9 @@
+question: Quel est le rôle principal du code de chaîne dans la dérivation des clés enfants ?
+answer: Introduire une source d'entropie supplémentaire
+wrong_answers:
+  - Identifier la profondeur hiérarchique
+  - Stocker les index des clés enfants
+  - Garantir la compatibilité avec le protocole Bitcoin
+explanation: |
+  Le code de chaîne est utilisé pour introduire une source d'entropie supplémentaire et unique pour chaque clé dérivée.
+reviewed: false

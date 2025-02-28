@@ -1,9 +1,0 @@
-question: Wie validieren Minenarbeiter Transaktionen und fügen sie in einen Block ein?
-answer: Proof of work
-wrong_answers:
-  - Proof of stake
-  - Proof of authority
-  - Proof of burn
-explanation: |
-  Minenarbeiter validieren Transaktionen und fügen sie durch einen Prozess namens "Proof of Work" in einen Block ein. Dies beinhaltet das Lösen eines kryptografischen Rätsels.
-reviewed: false

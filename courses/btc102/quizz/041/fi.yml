@@ -1,0 +1,9 @@
+question: Mihin Bitcoin on natiivi?
+answer: Internetiin
+wrong_answers:
+  - Lohkoketjuun
+  - Pankkijärjestelmään
+  - Osakemarkkinoille
+explanation: |
+  Luvussa todetaan, että Bitcoin on natiivi internetille, tehden siitä
+  saavutettavan kenelle tahansa, jolla on internetyhteys.

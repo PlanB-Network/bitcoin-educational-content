@@ -1,9 +1,0 @@
-question: Qual é a característica chave do Bitcoin que o diferencia das moedas fiduciárias?
-answer: Sua política monetária é aplicada por meio de um consenso geral.
-wrong_answers:
-  - Pode ser impresso em quantidades ilimitadas pelos bancos centrais.
-  - É respaldado por uma mercadoria física como ouro ou prata.
-  - É regulado por um banco central.
-explanation: |
-  O Bitcoin, por meio de sua natureza descentralizada e criptográfica, não pode ser falsificado, entre outras coisas, e está limitado a 21 milhões de unidades. Essa é uma característica chave que o diferencia das moedas fiduciárias, cuja política monetária pode ser alterada pelos bancos centrais.
-reviewed: false

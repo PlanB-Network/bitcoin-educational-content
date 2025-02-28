@@ -1,9 +1,0 @@
-question: ¿Cuál es la tarea principal de los mineros en la red de Bitcoin?
-answer: Resolver un rompecabezas digital y validar un nuevo bloque
-wrong_answers:
-  - Crear nuevos bitcoins
-  - Controlar el precio de Bitcoin
-  - Verificar la identidad de los usuarios de Bitcoin
-explanation: |
-  En el contexto de la minería de Bitcoin, los mineros se esfuerzan por resolver rápidamente un rompecabezas digital. El primer minero en resolver el rompecabezas presenta su solución a toda la red, que luego puede verificar fácilmente su validez. Esta verificación exitosa permite al minero validar un nuevo bloque y agregarlo a la cadena de tiempo de Bitcoin.
-reviewed: false

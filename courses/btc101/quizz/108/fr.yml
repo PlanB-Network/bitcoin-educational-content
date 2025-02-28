@@ -1,0 +1,11 @@
+question: Quel est le but d'un portefeuille Bitcoin ?
+answer: Stocker les clés privées afin de réaliser des transactions en bitcoins.
+wrong_answers:
+  - Utiliser les ressources de l'appareil pour miner des bitcoins.
+  - Acheter des bitcoins via la clé publique.
+  - Stocker des bitcoins sur un appareil.
+explanation: |
+  Les portefeuilles Bitcoin sont un type de logiciel utilisé pour
+  stocker les clés privées qui vous permettent de réaliser vos
+  transactions en bitcoins.
+reviewed: true

@@ -1,0 +1,9 @@
+question: ¿Qué permite la Red Lightning en comparación con las transacciones tradicionales en la blockchain de Bitcoin?
+answer: Transacciones rápidas con tarifas mínimas
+wrong_answers:
+  - Transacciones anónimas e imposibles de rastrear
+  - Transacciones en grandes cantidades sin límites de volumen
+  - Transacciones entre diferentes blockchains
+explanation: |
+  La Red Lightning permite transacciones rápidas y de bajo costo a través de canales de pago fuera de la cadena, lo cual difiere de las transacciones regulares en la blockchain.
+reviewed: false

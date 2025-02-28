@@ -1,0 +1,9 @@
+question: Qual é o padrão de um pagamento simplificado em Bitcoin?
+answer: 1 ou mais UTXOs em entradas e 2 UTXOs em saídas.
+wrong_answers:
+  - 1 UTXO em entrada e 1 UTXO em saída
+  - Vários UTXOs em entrada e 1 UTXO em saída
+  - 5 UTXOs em entradas e 5 UTXOs em saídas
+explanation: |
+  Em um pagamento simplificado, o usuário consome um ou mais UTXOs como entradas para cumprir nas saídas um UTXO de pagamento e um UTXO de troco (assim, 2 UTXOs).
+reviewed: false

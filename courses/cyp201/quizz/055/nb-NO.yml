@@ -1,0 +1,9 @@
+question: I hvor mange deler deles utdataen fra HMAC-SHA512-funksjonen som er anvendt på frøet?
+answer: To deler på 256 bit
+wrong_answers:
+  - En enkelt del på 512 bit
+  - Tre deler på 170 bit
+  - Fire deler på 128 bit
+explanation: |
+  Utdataen fra HMAC-SHA512 deles inn i to deler: hovedprivatnøkkelen (256 bit) og hovedkjedekoden (256 bit).
+reviewed: false

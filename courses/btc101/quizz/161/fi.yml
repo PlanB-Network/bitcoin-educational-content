@@ -1,0 +1,9 @@
+question: Mikä on päähuoli Bitcoin-louhinnan ympäristökustannuksista?
+answer: Energiankulutus.
+wrong_answers:
+  - ASICien tuotanto.
+  - ASICien kierrätys.
+  - Sähkön hinta.
+explanation: >-
+  Bitcoin-louhinnan pääasiallinen ympäristöhuoli on energiankulutus. Vaikka ASICit on pääasiassa valmistettu alumiinista ja ne voidaan kierrättää tai uudelleenkäyttää, näiden koneiden käyttämä energia on merkittävää.
+reviewed: true

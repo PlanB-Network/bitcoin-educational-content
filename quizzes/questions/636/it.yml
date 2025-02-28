@@ -1,9 +1,0 @@
-question: Cos'è un canale di pagamento Lightning?
-answer: Un tipo di "corsia privata" tra due utenti che consente transazioni Bitcoin veloci e ripetitive.
-wrong_answers:
-  - Un tipo di portafoglio Bitcoin
-  - Un metodo di mining Bitcoin
-  - Un tipo di scambio Bitcoin
-explanation: |
-  Un canale di pagamento Lightning è un tipo di "corsia privata" tra due utenti che consente transazioni Bitcoin veloci e ripetitive.
-reviewed: false

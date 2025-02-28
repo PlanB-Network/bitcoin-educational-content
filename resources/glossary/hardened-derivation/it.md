@@ -1,0 +1,5 @@
+---
+term: DERIVAZIONE INDURITA
+
+---
+Il processo di generazione delle chiavi figlio nei portafogli HD. La derivazione protetta utilizza la chiave privata del genitore come input per la funzione `HMAC-SHA512`, rendendo impossibile la generazione di chiavi pubbliche figlio dalla chiave pubblica del genitore e dal codice di catena del genitore. Il processo prevede la concatenazione della chiave privata del genitore e di un indice maggiore o uguale a $2^{31}$, seguita dall'applicazione di `HMAC-SHA512` con il codice di catena del genitore. Il risultato viene diviso in due parti: i primi 256 bit vengono aggiunti alla chiave privata del genitore per ottenere la chiave privata del figlio, mentre i restanti 256 bit formano il codice di catena del figlio. Questo metodo garantisce che anche se una chiave pubblica estesa è compromessa, non può essere utilizzata per derivare le chiavi pubbliche dei figli. Nella derivazione standard, la derivazione protetta viene utilizzata a tutti i livelli di derivazione fino alla profondità dell'account. Nelle notazioni dei percorsi di derivazione, una derivazione protetta è identificata con un apostrofo `'` o più raramente con una `h`.

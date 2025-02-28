@@ -1,0 +1,9 @@
+question: Mikä Yhdysvaltain liittovaltion tiedustelupalvelu kutsui Gavin Andresenin esittelemään Bitcoinia huhtikuussa 2011 muutamaa kuukautta myöhemmin?
+answer: CIA
+wrong_answers:
+  - FBI
+  - NSA
+  - DEA
+explanation: |
+  Tarkemmin sanottuna kutsun esitti In-Q-Tel, amerikkalainen pääomasijoitusrahasto, jota CIA hallinnoi, mutta vierailu todella tapahtui CIA: n päämajassa.
+reviewed: false

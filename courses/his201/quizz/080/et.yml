@@ -1,0 +1,9 @@
+question: Millisele domeeninimele koliti Bitcoin'i foorum 1. augustil 2011?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  Pärast kolimist forum.bitcoin.org-le 17. mail, vahetati alates 1. augustist URL bitcointalk.org vastu. Aastate jooksul tuntakse seda kui BitcoinTalk.
+reviewed: false

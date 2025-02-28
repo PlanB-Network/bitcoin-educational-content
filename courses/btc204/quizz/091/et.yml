@@ -1,0 +1,13 @@
+question: Miks ei soovitata mitme UTXO ühendamist pärast coinjoin tsükleid?
+
+answer: See võib ohustada privaatsust CIOH tõttu.
+
+wrong_answers:
+  - See vähendab tehingute kiirust.
+  - See paljastab koordinaatorile kahtlase tegevuse.
+  - See võib ohustada privaatsust ringmakse heuristika tõttu.
+
+explanation: |
+  On oluline vältida segatud UTXO-de ühendamist segamata UTXO-dega samas tehingus, aga ka UTXO-de omavahelist segamist, et vältida ühise sisendi omandi heuristikat (Common-Input-Ownership-Heuristic, CIOH).
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Proč je dnes mnohem těžší koupit dům než v 80. letech?
+answer: Potlačené úrokové sazby činí dluh atraktivnějším a inflace
+wrong_answers:
+  - Inflace a nájemné sazby
+  - Rostoucí náklady na život a růst populace
+  - Nedostatek nemovitostí a potlačené úrokové sazby činící dluh atraktivnějším
+explanation: |
+  Zatímco inflace snižuje kupní sílu naší měny, což ztěžuje spoření, potlačené úrokové sazby činí spotřebu dluhu atraktivnější. Když je cena kapitálu tak nízká, lidé si půjčují nad své možnosti, čímž směřují více kapitálu do aktiv a zvyšují ceny.
+reviewed: true

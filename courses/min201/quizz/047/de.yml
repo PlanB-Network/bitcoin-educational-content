@@ -1,0 +1,14 @@
+question: Was ist das Hauptrisiko, das mit Investitionen in Unternehmen verbunden ist, die Mining-Hardware verkaufen und die Maschinen an Standorten mit günstigen Energiekosten betreiben?
+answer: Probleme mit der Stromversorgung und Maschinenausfälle können Investoren machtlos zurücklassen, mit teurer Ausrüstung, die sie nicht kontrollieren.
+wrong_answers:
+  - Die Unternehmen könnten bankrott gehen und die Investoren könnten ihr Geld verlieren.
+  - Die Unternehmen könnten Betrügereien sein und die Investoren könnten ihr Geld verlieren.
+  - Die Unternehmen sind möglicherweise nicht in der Lage, die abgebauten Bitcoins zu verkaufen, und die Investoren könnten ihr Geld verlieren.
+explanation: |
+  Das Hauptrisiko bei Investitionen in Unternehmen, die
+  Mining-Hardware verkaufen und die Maschinen an Standorten
+  mit günstigen Energiekosten betreiben, besteht darin, dass
+  Probleme mit der Stromversorgung und Maschinenausfälle
+  Investoren machtlos zurücklassen können, mit teurer
+  Ausrüstung, die sie nicht kontrollieren.
+reviewed: true

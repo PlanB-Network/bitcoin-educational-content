@@ -1,0 +1,9 @@
+question: Jak online služba ověří heslo bez jeho přímého ukládání?
+answer: Porovnáním hash hodnoty zadaného hesla s tou v databázi
+wrong_answers:
+  - Dekryptováním uloženého hesla pro jeho ověření
+  - Použitím veřejného klíče pro ověření identity
+  - Přímým porovnáním hesla s hesly ostatních uživatelů
+explanation: |
+  Služba generuje hash zadaného hesla a porovnává jej s uloženým, aniž by heslo přímo ukládala, čímž zajišťuje zvýšenou bezpečnost.
+reviewed: false

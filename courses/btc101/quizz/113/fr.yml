@@ -1,0 +1,12 @@
+question: Qu'est-ce qui empêche tout le monde d'utiliser le même portefeuille Bitcoin ?
+answer: Les différents individus ont besoin de différents cas d'utilisation.
+wrong_answers:
+  - Il est coûteux d'utiliser un portefeuille Bitcoin.
+  - Il est illégal d'utiliser un portefeuille Bitcoin.
+  - Les gens ne seront jamais d'accord sur le nom d'un tel portefeuille.
+explanation: |
+  Alors qu'une personne pourrait prioriser la sécurité, une autre
+  pourrait valoriser la convivialité ou des fonctionnalités spécifiques. Par conséquent, un
+  seul portefeuille Bitcoin pourrait ne pas répondre aux besoins de tous,
+  rendant nécessaire l'existence de multiples options de portefeuilles.
+reviewed: true

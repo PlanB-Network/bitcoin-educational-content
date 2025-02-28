@@ -1,0 +1,9 @@
+question: ¿Cuál es el tamaño de una clave privada sin procesar utilizada en Bitcoin?
+answer: 256 bits
+wrong_answers:
+  - 128 bits
+  - 512 bits
+  - 1024 bits
+explanation: |
+  Una clave privada en Bitcoin es un entero aleatorio de 256 bits, asegurando un espacio de clave lo suficientemente grande para garantizar la seguridad.
+reviewed: false

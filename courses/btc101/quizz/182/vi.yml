@@ -1,0 +1,10 @@
+question: Đặc điểm nào sau đây đã góp phần vào sự mở rộng việc sử dụng Bitcoin trong các chợ trời mạng đen như Silk Road? 
+answer: Bản chất không thể kiểm soát và ẩn danh.
+wrong_answers:
+  - Sự kiểm soát tập trung của nó.
+  - Tính dễ dàng truy vết và có thể kiểm soát của nó.
+  - Thiếu ẩn danh của nó.
+explanation: >-
+  Việc sử dụng Bitcoin mở rộng ra các chợ trời mạng đen như Silk Road do
+  bản chất không thể kiểm soát và ẩn danh của nó.
+reviewed: true

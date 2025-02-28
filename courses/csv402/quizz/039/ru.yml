@@ -1,0 +1,9 @@
+question: Какая команда экспортирует контракт из тайника во внешний файл?
+answer: rgb export '<ContractId>' myContractPBN.rgb
+wrong_answers:
+  - rgb download '<ContractId>' myContractPBN.rgb
+  - rgb dump '<ContractId>' myContractPBN.rgb
+  - rgb issue '<ContractId>' myContractPBN.rgb
+explanation: |
+  Команда "rgb export" используется для извлечения контракта из тайника и сохранения его в файл для удобства обмена.
+reviewed: false

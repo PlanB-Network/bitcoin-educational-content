@@ -1,0 +1,8 @@
+question: Mikä ehto on täytettävä, jotta HTLC; n vastaanottaja saa varat?
+answer: Heidän on annettava salaisuus (preimage) maksun avaamiseksi.
+wrong_answers:
+  - Heidän on hyväksyttävä jokaisen välittävän solmun reititysmaksut.
+  - Heidän on allekirjoitettava uusi sitoumustapahtuma.
+  - Heidän on odotettava aikalukon umpeutumista ennen varojen noutamista.
+explanation: |
+  Saadakseen varat HTLC: ssä, vastaanottajan on annettava tietty salaisuus, joka mahdollistaa maksun avaamisen hashin turvaamana.

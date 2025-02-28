@@ -1,0 +1,5 @@
+---
+term: LOODUSLIK KAHVEL
+
+---
+Plokiahela ajutine eraldamine, mis tuleneb mitme ploki peaaegu samaaegsest edastamisest erinevate kaevurite poolt samal kõrgusel. Selline olukord tekib siis, kui kaks plokki, mida nimetatakse $A$ ja $B$, leitakse peaaegu samal ajal, mis viib võrgu ajutise jagunemiseni. Kuna iga sõlmpunkt peab esimest saadud plokki kehtivaks, kuid mitte kõik ei saanud esimesena sama plokki, järgib osa sõlmpunktidest plokki $A$ sisaldavat ahelat, teine osa aga plokki $B$ sisaldavat ahelat. See hargnemine laheneb, kui üks kahest konkureerivast ahelast ületab teist kogutud töö poolest. Sel hetkel lepivad kõik võrgu sõlmed automaatselt kokku pikemas ahelas (suurima kogutud tööga), seda protsessi nimetatakse reorganiseerimiseks või resünkroniseerimiseks. Need loomulikud hargnemised on Bitcoini hajutatud töö iseloomulikud. Need on täiesti normaalsed ja lahenevad spontaanselt pärast paari plokki (tavaliselt vaid üks). Kui need hargnemised toimuvad liiga sageli, võivad need siiski olla kahjulikud, kuna need viivad arvutusvõimsuse raiskamiseni harule, mis lõpuks vananeb.

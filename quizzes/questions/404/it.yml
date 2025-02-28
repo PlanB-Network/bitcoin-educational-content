@@ -1,9 +1,0 @@
-question: Quali sono le quattro caratteristiche che una funzione hash crittografica deve avere per essere riconosciuta come sicura?
-answer: Irreversibilità, resistenza alla falsificazione, resistenza alle collisioni e resistenza alla seconda preimmagine.
-wrong_answers:
-  - Velocità, efficienza, resistenza alle collisioni e irreversibilità.
-  - Resistenza alle collisioni, resistenza alla falsificazione, scalabilità e irreversibilità.
-  - Irreversibilità, resistenza alle collisioni, resistenza alla falsificazione e velocità.
-explanation: |
-  Una funzione hash crittografica sicura deve avere quattro caratteristiche chiave: irreversibilità (cioè è impossibile derivare l'input originale dall'output), resistenza alla falsificazione (cioè è difficile creare un input diverso che produce lo stesso output), resistenza alle collisioni (cioè è difficile trovare due input diversi che producono lo stesso output) e resistenza alla seconda preimmagine (cioè è difficile trovare un input diverso che produce lo stesso output di un dato input).
-reviewed: false

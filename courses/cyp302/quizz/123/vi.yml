@@ -1,0 +1,8 @@
+question: Vấn đề gì sẽ xảy ra nếu Jim's Sporting Goods sử dụng cùng một cặp khóa cho tất cả khách hàng?
+answer: Bất kỳ khách hàng nào cũng có thể truy cập vào thông tin liên lạc của người khác
+wrong_answers:
+  - Khóa sẽ trở nên quá lớn
+  - Việc liên lạc sẽ bị chậm lại
+  - Khách hàng sẽ phải thay đổi khóa với mỗi lần mua hàng
+explanation: |
+  Bằng cách sử dụng cùng một khóa cho mọi người, Jim's Sporting Goods sẽ làm mất đi tính bảo mật và toàn vẹn, vì mỗi khách hàng có thể tiềm năng truy cập vào dữ liệu của khách hàng khác.

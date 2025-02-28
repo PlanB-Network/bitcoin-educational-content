@@ -1,9 +1,0 @@
-question: Quelle est la relation entre la clé privée principale et les clés étendues du portefeuille ?
-answer: La clé privée principale est la première clé privée dérivée de la graine et n'a aucun lien avec les clés étendues du portefeuille.
-wrong_answers:
-  - La clé privée principale est dérivée des clés étendues du portefeuille.
-  - La clé privée principale est identique aux clés étendues du portefeuille.
-  - La clé privée principale est utilisée pour générer les clés étendues du portefeuille.
-explanation: |
-  La clé privée principale est la première clé privée dérivée de la graine et n'a aucun lien avec les clés étendues du portefeuille.
-reviewed: false

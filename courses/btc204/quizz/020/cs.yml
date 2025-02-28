@@ -1,0 +1,9 @@
+question: Když hledáme vzor, kterou část transakce budeme studovat?
+answer: Její strukturu
+wrong_answers:
+  - Její metadata
+  - Její skripty
+  - Její podpis
+explanation: |
+  Vzor transakce je jednoduše model nebo celková struktura typické transakce, která může být nalezena na blockchainu, jejíž pravděpodobná interpretace je známá.
+reviewed: false

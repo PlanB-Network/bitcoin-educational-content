@@ -1,0 +1,12 @@
+question: Điểm chính của khóa học Bitcoin này là gì?
+answer: Các khía cạnh tiền tệ của Bitcoin.
+wrong_answers:
+  - Các khía cạnh lập trình của Bitcoin.
+  - Ảnh hưởng sinh thái của Bitcoin.
+  - Các khía cạnh quy định của Bitcoin.
+explanation: |
+  Khóa học Bitcoin này tập trung vào các khía cạnh tiền tệ của
+  Bitcoin, bao gồm cách mua và bán bitcoin, lưu trữ an toàn
+  chúng trong ví điện tử, và sử dụng chúng cho
+  các giao dịch.
+reviewed: true

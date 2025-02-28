@@ -1,0 +1,13 @@
+question: Quel est l'avantage principal d'une transaction payjoin par rapport à une transaction de paiement classique ?
+
+answer: Elle améliore la confidentialité
+
+wrong_answers:
+  - Elle augmente la vitesse de confirmation
+  - Elle réduit les frais de transaction
+  - Elle induit le destinataire en erreur
+
+explanation: |
+  La transaction payjoin permet d'améliorer la confidentialité des parties prenantes en induisant l'analyse de chaîne en erreur.
+
+reviewed: false

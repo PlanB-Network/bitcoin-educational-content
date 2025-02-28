@@ -1,0 +1,7 @@
+---
+term: DISKRÉTNÍ LOGARITMUS
+
+---
+Diskrétní logaritmus je matematická úloha, která se používá v některých kryptografických algoritmech s veřejným klíčem. V cyklické grupě řádu $q$ s generátorem $g$, máme-li rovnici tvaru $g^x = h$, pak se $x$ nazývá diskrétní logaritmus $h$ vzhledem k základu $g$, modulo $q$. Zjednodušeně řečeno jde o určení exponentu $x$, když jsou známy $g$, $h$ a $q$. Diskrétní logaritmus je tedy inverzí exponenciály v konečné cyklické grupě. Pro velké hodnoty $q$ je však řešení úlohy diskrétního logaritmu považováno za algoritmicky obtížné. Tato vlastnost se využívá k zajištění bezpečnosti mnoha kryptografických protokolů, například Diffieho-Hellmanova protokolu pro výměnu klíčů.
+
+Diskrétní logaritmus se používá také v kryptografii eliptických křivek (ECC), včetně algoritmu ECDSA (*Elliptic Curve Digital Signature Algorithm*). V kontextu eliptických křivek se problém diskrétního logaritmu rozšiřuje na nalezení skaláru $k$ takového, že $k \cdot G = K$, kde $G$ a $K$ jsou body na křivce a $\cdot$ představuje operaci násobení bodů. V kontextu Bitcoinu mohou skripty k uzamčení UTXO použít buď ECDSA, nebo Schnorrův protokol. Oba se spoléhají na neproveditelnost výpočtu diskrétního logaritmu.

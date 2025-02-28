@@ -1,9 +1,0 @@
-question: Was ist der Zweck des Timelocks in einer Commitment-Transaktion?
-answer: Er sperrt die Gelder bis zu einem bestimmten Block.
-wrong_answers:
-  - Er sperrt die Transaktion bis zu einem bestimmten Block.
-  - Er sperrt den Kanal bis zu einem bestimmten Block.
-  - Er sperrt den Widerrufsschlüssel bis zu einem bestimmten Block.
-explanation: |
-  Der Timelock in einer Commitment-Transaktion sperrt die Gelder bis zu einem bestimmten Block. Dadurch wird verhindert, dass die Partei, die die Transaktion erstellt hat, ihr Geld sofort wiedererlangt.
-reviewed: false

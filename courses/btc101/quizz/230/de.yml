@@ -1,0 +1,10 @@
+question: Was ermöglicht das Lightning-Netzwerk?
+answer: Transaktionen zwischen Personen, die keine direkte Kanalverbindung haben.
+wrong_answers:
+  - Nur direkte Kanalverbindungen mit zentralisierten Börsen zu erstellen.
+  - Kanalverbindungen zu erstellen, die für jede Transaktion mehrere Bestätigungen erfordern.
+  - Direkte Kanalverbindungen zu etablieren, die nur auf große Transaktionen beschränkt sind.
+explanation: |
+  Das Lightning-Netzwerk ermöglicht es, Transaktionen zwischen
+  Personen durchzuführen, die keine direkte Kanalverbindung haben.
+reviewed: true

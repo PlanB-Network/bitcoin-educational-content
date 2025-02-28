@@ -1,0 +1,9 @@
+question: Hva er navnet på nettsiden som bidro betydelig til å gjøre Bitcoin kjent i juli 2010?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation: |
+  Den 11. juli 2010 ble en presentasjon av Bitcoin skrevet av Teppy publisert på dette populære nettstedet, noe som førte til en massiv tilstrømning av brukere.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is the main function of a hash function?
+answer: It converts information of arbitrary length into a fixed-size fingerprint
+wrong_answers:
+  - It encrypts messages to make them unreadable
+  - It is only used to verify the integrity of Bitcoin software
+  - It generates private keys for Bitcoin wallets
+explanation: |
+  A hash function transforms data of any size into a fixed-size hash, crucial for many applications in Bitcoin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Miten tuon "NonInflatableAsset.rgb" -kaavion paikalliseen kätköön?
+answer: rgb tuonti schemata/NonInflatableAssets.rgb
+wrong_answers:
+  - rgb import schema/NonInflatableAssets.rgb
+  - rgb klooni schemata/NonInflatableAssets.rgb
+  - rgb klooni schema/NonInflatableAssets.rgb
+explanation: |
+  Koottu skeema tuodaan paikalliseen kätköön komennolla "rgb import schemata/NonInflatableAssets.rgb".
+reviewed: false

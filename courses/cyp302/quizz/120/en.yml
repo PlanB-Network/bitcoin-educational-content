@@ -1,0 +1,9 @@
+question: What was the impact of distribution and key management issues before the 1970s?
+answer: They limited the security and efficiency of large-scale communications
+wrong_answers:
+  - They prevented the transmission of encrypted messages on public networks
+  - They required public keys for each message
+  - They mandated the use of homomorphic cryptography
+explanation: |
+  Before the 1970s, issues with key distribution and management made it difficult to secure communications on a large scale, thus hindering the development of modern applications such as online shopping.
+reviewed: false

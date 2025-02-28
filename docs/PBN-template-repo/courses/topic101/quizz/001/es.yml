@@ -1,0 +1,25 @@
+## Contenido de la pregunta
+
+# pregunta
+# Escribe la pregunta completa
+question: ¿Qué es un quizz?
+
+# respuesta
+# Escribe la respuesta correcta a la pregunta
+answer: Es una pregunta de opción múltiple con solo una respuesta correcta.
+
+# respuestas_incorrectas
+# Lista 3 respuestas estrictamente incorrectas
+wrong_answers:
+  - Es un nuevo tipo de moneda digital
+  - No es una pregunta de opción múltiple con solo una respuesta correcta.
+  - Es un método para evaluar si te convertirás en el gobernante de este mundo.
+
+# explicación
+# Proporciona información adicional, explicando por qué la respuesta es verdadera, y/o por qué no lo son las otras
+explanation: |
+  Tendrás que confiar en mí en esto. Pero no olvides el dicho de Bitcoin: no confíes, verifica.
+  
+# revisado
+# Define si la pregunta ha sido revisada por al menos 2 personas diferentes.
+reviewed: true

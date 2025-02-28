@@ -1,0 +1,9 @@
+question: Mis on loodusseaduse ja inimseaduse vaheline suhe Thomas Aquinase järgi?
+answer: Inimseadus peab olema kooskõlas loodusseadusega, et olla õiglane ja legitiimne.
+wrong_answers:
+  - Inimseadus on loodusseadusest üle, kuna selle on kehtestanud legitiimsed autoriteedid.
+  - Loodusseadus on võrdne inimseadusega.
+  - Inimseadus kehtib ainult osaliselt.
+explanation: |
+  Thomas Aquinase jaoks tuletatakse inimseaduse legitiimsus selle kooskõlast loodusseadusega, mis väljendab universaalseid moraalipõhimõtteid. Kui inimseadus on vastuolus loodusseadusega, kaotab see oma õigluse ja legitiimsuse.
+reviewed: false

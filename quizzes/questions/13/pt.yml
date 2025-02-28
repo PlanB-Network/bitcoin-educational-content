@@ -1,9 +1,0 @@
-question: Quem são os cypherpunks?
-answer: Um grupo de pessoas que começaram a questionar profundamente o papel da privacidade e da liberdade na era digital.
-wrong_answers:
-  - Um grupo de hackers que roubam informações de governos.
-  - Um grupo de pessoas que inventaram o Bitcoin.
-  - Um grupo de pessoas que se opõem ao uso da tecnologia.
-explanation: |
-  Os cypherpunks são um grupo de indivíduos que acreditavam que a criptografia poderia servir como uma ferramenta para proteger os direitos individuais contra interferências de governos e grandes corporações.
-reviewed: false

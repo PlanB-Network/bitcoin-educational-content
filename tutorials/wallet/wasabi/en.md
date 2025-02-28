@@ -4,7 +4,7 @@ name: Wasabi Wallet
 description: learn how to regain your privacy
 ---
 
-![wasabi](assets/cover.jpeg)
+![wasabi](assets/cover.webp)
 
 Open-source, non-custodial, privacy focused Bitcoin wallet for Desktop
 https://www.wasabiwallet.io/

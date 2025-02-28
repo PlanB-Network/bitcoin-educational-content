@@ -1,0 +1,9 @@
+question: ビットコインの総取引量のうち、不正な活動に使用されたのは何パーセントですか？
+answer: 1%未満
+wrong_answers:
+  - 2-4%
+  - 5%以上
+  - 不明
+explanation: |
+  2020年のChainalysisのレポートによると、不正な活動はビットコイン取引全体の約0.34%を占めるに過ぎません。
+reviewed: true

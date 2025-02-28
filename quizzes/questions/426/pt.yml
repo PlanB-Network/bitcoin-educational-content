@@ -1,9 +1,0 @@
-question: Quais são os dois principais componentes no mecanismo de segurança do protocolo Bitcoin?
-answer: Algoritmos de derivação HMAC e PBKDF2
-wrong_answers:
-  - Funções de hash SHA-256 e RIPEMD-160
-  - Algoritmo de Assinatura Digital de Curva Elíptica (ECDSA) e função de hash SHA-256
-  - RSA e troca de chaves Diffie-Hellman
-explanation: |
-  Os algoritmos de derivação HMAC e PBKDF2 são componentes-chave no mecanismo de segurança do protocolo Bitcoin. Eles impedem uma variedade de ataques potenciais e garantem a integridade das carteiras Bitcoin.
-reviewed: false

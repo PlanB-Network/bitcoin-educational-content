@@ -1,9 +1,0 @@
-question: Quel est le nombre maximum de bitcoins qui peuvent être créés ?
-answer: 21 millions
-wrong_answers:
-  - 18 millions
-  - 25 millions
-  - 30 millions
-explanation: |
-  La création de Bitcoin est caractérisée par une limite fixe de 21 millions d'unités.
-reviewed: false

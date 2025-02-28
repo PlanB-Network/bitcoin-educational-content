@@ -1,0 +1,8 @@
+question: ¿Cuál es la función principal de una factura Lightning?
+answer: Solicitar un pago del nodo emisor
+wrong_answers:
+  - Enviar fondos sin una transacción en cadena
+  - Activar HTLCs en un canal
+  - Abrir un nuevo canal Lightning
+explanation: |
+  Una factura Lightning es una solicitud de pago, transmitida por el nodo receptor al nodo emisor para iniciar un pago en la Red Lightning.

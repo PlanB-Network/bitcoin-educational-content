@@ -1,9 +1,0 @@
-question: ¿Qué función se utiliza para generar la semilla a partir de la frase de contraseña en una billetera de Bitcoin?
-answer: pbkdf2
-wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
-explanation: |
-  La función pbkdf2 se utiliza para generar la semilla a partir de la frase de contraseña en una billetera de Bitcoin. Esta semilla permite la derivación de todos los pares de claves secundarias de la billetera.
-reviewed: false

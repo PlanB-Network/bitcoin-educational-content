@@ -1,0 +1,9 @@
+question: Se, em uma transação de pagamento simples, o mesmo endereço é usado em uma entrada e em uma das 2 saídas, qual saída provavelmente representa o troco?
+answer: A que tem o mesmo endereço que a entrada.
+wrong_answers:
+  - A que tem o endereço mais recente.
+  - A que tem um endereço diferente da entrada.
+  - A que tem um endereço desconhecido.
+explanation: |
+  Se ocorrer uma reutilização de endereço dentro da mesma transação, é razoável assumir que o usuário ainda possui o UTXO associado. Portanto, a saída com o mesmo endereço que a entrada provavelmente é o troco.
+reviewed: false

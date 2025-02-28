@@ -1,0 +1,13 @@
+question: Co je unikátní na remixech ve Whirlpool ve srovnání s ostatními implementacemi coinjoin?
+
+answer: Jsou zcela zdarma.
+
+wrong_answers:
+  - Je nutné zaplatit pouze těžební poplatky.
+  - Jsou omezeny na jednoho uživatele.
+  - Je nutné zaplatit pouze servisní poplatky.
+
+explanation: |
+  Remixy ve Whirlpool jsou 100% zdarma: nejsou vyžadovány žádné další servisní ani těžební poplatky.
+
+reviewed: false

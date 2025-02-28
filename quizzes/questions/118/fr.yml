@@ -1,9 +1,0 @@
-question: Quand Satoshi Nakamoto a-t-il disparu ?
-answer: En 2010
-wrong_answers:
-  - En 2008
-  - En 2009
-  - En 2023
-explanation: |
-  Satoshi Nakamoto a disparu en 2010, laissant sa création entre les mains de la communauté.
-reviewed: false

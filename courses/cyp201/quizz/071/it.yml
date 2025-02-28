@@ -1,0 +1,9 @@
+question: A quale profondità nel percorso di derivazione si specifica il tipo di valuta?
+answer: Profondità 2
+wrong_answers:
+  - Profondità 1
+  - Profondità 3
+  - Profondità 4
+explanation: |
+  La Profondità 2 è utilizzata per identificare la valuta in portafogli multi-valuta, come Bitcoin (indice 0') o Litecoin (indice 2').
+reviewed: false

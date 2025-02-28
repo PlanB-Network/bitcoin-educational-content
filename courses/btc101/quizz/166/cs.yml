@@ -1,0 +1,11 @@
+question: Co mohou těžaři udělat pro ty elektrárny, které ještě nejsou připojeny k síti?
+answer: Mohou působit jako kupci poslední instance.
+wrong_answers:
+  - Mohou poskytovat elektrárny elektřinou.
+  - Mohou připojit elektrárny k síti.
+  - Mohou regulovat cenu elektřiny.
+explanation: |
+  Těžaři mohou působit jako kupci poslední instance pro elektrárny,
+  které ještě nejsou připojeny k síti. To umožňuje elektrárnám
+  zabezpečit financování ještě před připojením k elektrické síti.
+reviewed: true

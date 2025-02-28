@@ -1,9 +1,0 @@
-question: Cosa è una frase mnemonica nel contesto di un portafoglio Bitcoin?
-answer: È un backup del portafoglio.
-wrong_answers:
-  - È una password per il portafoglio.
-  - È una cronologia delle transazioni del portafoglio.
-  - È una firma digitale del portafoglio.
-explanation: |
-  Una frase mnemonica viene generata per garantire il backup del portafoglio Bitcoin.
-reviewed: false

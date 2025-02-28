@@ -1,0 +1,11 @@
+question: Was ist eines der Risiken, die mit dem Kauf von Bitcoin verbunden sind?
+answer: Sein Preis kann auf 0 fallen.
+wrong_answers:
+  - Es kann leicht gestohlen werden.
+  - Es kann dupliziert werden.
+  - Es kann physisch verloren gehen.
+explanation: |
+  Der Kursinhalt erwähnt, dass Bitcoin ein hochvolatiles
+  Finanzinstrument ist und sein Preis auf 0 fallen kann, was eines
+  der Risiken beim Kauf von Bitcoin darstellt.
+reviewed: true

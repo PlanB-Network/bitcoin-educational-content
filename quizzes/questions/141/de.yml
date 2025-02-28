@@ -1,9 +1,0 @@
-question: Wie groß ist die Bitcoin-Blockchain?
-answer: Etwa 500GB
-wrong_answers:
-  - Etwa 100GB
-  - Etwa 1TB
-  - Etwa 2TB
-explanation: |
-  Die Bitcoin-Blockchain hat eine Größe von etwa 500GB.
-reviewed: false

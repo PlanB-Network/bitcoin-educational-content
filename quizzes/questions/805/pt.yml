@@ -1,9 +1,0 @@
-question: Qual é a prática recomendada ao inserir um pen drive USB no seu computador?
-answer: Não insira pen drives USB desconhecidos ou suspeitos.
-wrong_answers:
-  - Insira qualquer pen drive USB sem verificar.
-  - Sempre formate o pen drive USB antes de inserir.
-  - Insira o pen drive USB e depois verifique se há vírus.
-explanation: |
-  Inserir pen drives USB desconhecidos ou suspeitos pode expor o sistema a programas maliciosos que podem ser executados automaticamente ao serem inseridos. Verificar o pen drive USB será inútil uma vez que ele tenha sido inserido.
-reviewed: false

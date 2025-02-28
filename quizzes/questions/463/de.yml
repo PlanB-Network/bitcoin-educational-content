@@ -1,9 +1,0 @@
-question: Wie lautet der grobe Name, der manchmal verwendet wird, um die Sammlung von privaten Schlüsseln in einer Bitcoin-Wallet zu bezeichnen?
-answer: Just a Bunch Of Keys (JBOC)
-wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
-explanation: |
-  Die Sammlung von privaten kryptografischen Schlüsseln, die aus einem einzigen Master-Schlüssel in einer Bitcoin-Wallet abgeleitet werden, wird manchmal mit dem etwas derberen Namen "Just a Bunch Of Keys" (JBOC) bezeichnet.
-reviewed: false

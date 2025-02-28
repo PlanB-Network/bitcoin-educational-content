@@ -1,0 +1,12 @@
+question: Hva er hovedfunksjonen til en passordbehandler?
+answer: Å lagre og håndtere passordene dine
+wrong_answers:
+  - Å generere tilfeldige passord
+  - Å huske brukernavnene dine
+  - Å beskytte datamaskinen din mot virus
+explanation: |
+  En passordbehandler er en programvare som lagrer og håndterer passordene dine.
+
+  Den hjelper deg med å aldri bruke samme passord to ganger, velge komplekse og sikre passord,
+
+  og letter håndteringen av din online sikkerhet.

@@ -1,0 +1,9 @@
+question: What is the effect of a Bitcoin transaction on the UTXOs in outputs?
+answer: It creates them by using the UTXOs consumed in inputs.
+wrong_answers:
+  - It consumes them to satisfy the inputs.
+  - It encrypts them to anonymize the recipient.
+  - It temporarily divides them for verification.
+explanation: |
+  The UTXOs in outputs of the transaction are created by consuming the UTXOs in inputs. It is, in a way, the destination of the money.
+reviewed: false

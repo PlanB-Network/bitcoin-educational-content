@@ -1,0 +1,9 @@
+question: O que acontece se Bob enviar uma fatura para Alice de 30.000 satoshis?
+answer: Alice cria uma transação de compromisso para transferir 30.000 satoshis para Bob no canal.
+wrong_answers:
+  - Alice deve abrir um novo canal para fazer essa transferência.
+  - Bob automaticamente recebe os 30.000 satoshis na sua carteira.
+  - A fatura é paga através de uma transação on-chain no Bitcoin.
+explanation: |
+  Quando Bob envia uma fatura para Alice, ela cria e assina uma nova transação de compromisso para ajustar a distribuição de fundos, transferindo assim 30.000 satoshis no canal.
+reviewed: false

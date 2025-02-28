@@ -1,9 +1,0 @@
-question: Quelle est l'importance de la sécurité de la clé privée dans l'écosystème Bitcoin?
-answer: Elle garantit la sécurité des transactions Bitcoin.
-wrong_answers:
-  - Elle garantit la rapidité des transactions Bitcoin.
-  - Elle garantit l'anonymat des transactions Bitcoin.
-  - Elle garantit la légalité des transactions Bitcoin.
-explanation: |
-  Les clés privées sont la pierre angulaire qui garantit la sécurité des transactions Bitcoin. Elles doivent être générées de manière vraiment aléatoire pour éviter toute vulnérabilité liée à la prévisibilité.
-reviewed: false

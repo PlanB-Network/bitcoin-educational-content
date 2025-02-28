@@ -1,0 +1,9 @@
+question: Mikä kultaan ja hopeaan perustuva valuutta loi Bernard von NotHaus vuonna 1998?
+answer: Liberty Dollar
+wrong_answers:
+  - Liberty Reserve
+  - e-gold
+  - GoldMoney
+explanation: |
+  Tämä valuutta oli saatavilla hopeakolikoiden ja edustavien seteleiden muodossa, ja sitten digitaalisessa muodossa alkaen vuodesta 2003.
+reviewed: false

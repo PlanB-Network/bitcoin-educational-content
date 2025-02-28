@@ -1,0 +1,9 @@
+question: ¿Cuál es el rol principal de una clave privada en el sistema Bitcoin?
+answer: Firmar transacciones para satisfacer un script
+wrong_answers:
+  - Servir como un identificador para recibir bitcoins
+  - Almacenar fondos de manera segura en la blockchain
+  - Crear scripts de bloqueo para proteger los bitcoins
+explanation: |
+  La clave privada se utiliza para firmar transacciones para satisfacer un script y desbloquear los bitcoins.
+reviewed: false

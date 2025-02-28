@@ -1,0 +1,13 @@
+question: Qual é a principal desvantagem das moedas fiduciárias?
+answer: Seu valor é constantemente erodido pela inflação monetária.
+wrong_answers:
+  - Elas não são facilmente transportáveis.
+  - Seu valor é constantemente apreciado pela inflação monetária.
+  - Elas não são divisíveis.
+explanation: |
+  A principal desvantagem das moedas fiduciárias, como o
+  dólar e o euro, é que seu valor é constantemente
+  erodido pela inflação monetária. Isso se deve à
+  desvalorização causada pelas entidades que as controlam (rei,
+  banco central, imperador, ditador).
+reviewed: true

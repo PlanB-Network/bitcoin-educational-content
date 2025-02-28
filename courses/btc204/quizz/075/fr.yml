@@ -1,0 +1,13 @@
+question: Quel est l'objectif principal d'une transaction coinjoin ?
+
+answer: Rompre l'historique d'une pièce.
+
+wrong_answers:
+  - Réduire les frais de transaction.
+  - Rendre des bitcoins indétectables.
+  - Augmenter la vitesse de confirmation.
+
+explanation: |
+  L'objectif d'une transaction coinjoin est de rompre l'historique d'une pièce. Cette technique ne confère pas un anonymat permanent ni ne bloque définitivement le traçage des bitcoins, contrairement à ce que l'on peut penser. Le coinjoin vise uniquement à casser l'historique au point où la transaction coinjoin est effectuée.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Why is scarcity considered an important property of a good currency?
+answer: Because limited supply protects its value from being diluted by overproduction.
+wrong_answers:
+  - Because it ensures that everyone can easily mint their own currency.
+  - Because it makes it harder for the currency to be recognized.
+  - Because it discourages the use of currency in long-distance trade.
+explanation: |
+  A currency with controlled scarcity maintains its purchasing power over time. Without scarcity, excessive issuance could lead to inflation, eroding the currency’s value.
+reviewed: false

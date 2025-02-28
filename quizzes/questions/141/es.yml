@@ -1,9 +1,0 @@
-question: ¿Cuál es el tamaño de la cadena de bloques de Bitcoin?
-answer: Aproximadamente 500GB
-wrong_answers:
-  - Aproximadamente 100GB
-  - Aproximadamente 1TB
-  - Aproximadamente 2TB
-explanation: |
-  La cadena de bloques de Bitcoin tiene un tamaño de aproximadamente 500GB.
-reviewed: false

@@ -1,0 +1,11 @@
+question: Was können Miner für Kraftwerke tun, die noch nicht an das Netz angeschlossen sind?
+answer: Sie können als Käufer in letzter Instanz fungieren.
+wrong_answers:
+  - Sie können Kraftwerken mit Elektrizität versorgen.
+  - Sie können Kraftwerke an das Netz anschließen.
+  - Sie können den Preis für Elektrizität regulieren.
+explanation: |
+  Miner können als Käufer in letzter Instanz für Kraftwerke agieren,
+  die noch nicht an das Netz angeschlossen sind. Dies ermöglicht es Kraftwerken,
+  Finanzierungen zu sichern, selbst bevor sie mit dem elektrischen Netzwerk verbunden sind.
+reviewed: true

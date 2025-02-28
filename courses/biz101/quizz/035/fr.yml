@@ -1,0 +1,9 @@
+question: Comment l'efficacité et la rapidité accrues du Lightning Network se comparent-elles aux méthodes de paiement traditionnelles ?
+answer: Il est nettement plus rapide, réglant souvent les transactions en moins d'une seconde, avec des frais moins élevés et sans avoir recours à de multiples intermédiaires.
+wrong_answers:
+  - Il correspond aux délais bancaires traditionnels, le délai de règlement étant souvent de 2 à 5 jours.
+  - Il est plus lent que les paiements par carte traditionnelle et comporte des frais plus élevés.
+  - Il nécessite l'approbation de plusieurs entités, tout comme les virements bancaires actuels.
+explanation: |
+  En permettant des transactions hors chaîne et en finalisant les paiements presque instantanément, Lightning offre un avantage en termes de rapidité et d'efficacité par rapport aux méthodes traditionnelles qui reposent sur plusieurs intermédiaires.
+reviewed: false

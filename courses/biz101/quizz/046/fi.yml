@@ -1,0 +1,9 @@
+question: Mikä on valuutan ensisijainen tehtävä?
+answer: Toimia välittäjänä, joka yksinkertaistaa arvonvaihtoa
+wrong_answers:
+  - Sisäisen arvon säilyttäminen fyysisessä muodossa
+  - Korvata vaihtokauppa kokonaan suoralla tavaroiden vaihdolla tavaraa vastaan
+  - Keskittää kaikki taloudelliset liiketoimet yhden viranomaisen kautta
+explanation: |
+  Valuutta yksinkertaistaa kaupankäyntiä toimimalla yhteisenä välineenä, joka vähentää vaihtokauppajärjestelmässä tarvittavien valuuttakurssien monimutkaista verkostoa ja helpottaa siten liiketoimia.
+reviewed: false

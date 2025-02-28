@@ -1,0 +1,11 @@
+question: Apa yang mempengaruhi berat sebuah transaksi Bitcoin?
+
+answer: Jumlah input dan output.
+
+wrong_answers:
+  - Ukuran blockchain.
+  - Jumlah dari input dan output.
+  - Usia dari UTXO yang digunakan.
+
+explanation: |
+  Semakin banyak input dan output yang dimiliki sebuah transaksi Bitcoin, semakin berat transaksi tersebut dalam satuan vB.

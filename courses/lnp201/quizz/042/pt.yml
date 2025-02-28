@@ -1,0 +1,9 @@
+question: Qual critério pode ajudar um nó a escolher uma rota de pagamento eficiente?
+answer: A probabilidade de sucesso baseada na capacidade total dos canais
+wrong_answers:
+  - A distância geográfica entre os nós
+  - A presença de nós com um nível baixo de taxa
+  - O número de pagamentos feitos pelo nó alvo
+explanation: |
+  A capacidade total dos canais pode indicar uma maior probabilidade de sucesso, pois sugere uma maior disponibilidade de liquidez para transações.
+reviewed: false

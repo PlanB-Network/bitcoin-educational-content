@@ -1,0 +1,10 @@
+question: Mis oli DigiCash projekt?
+answer: Katse luua anonüümset elektroonilist raha David Chaumi poolt.
+wrong_answers:
+  - Projekt digitaalse rahakoti loomiseks Bitcoinile.
+  - Projekt kogu füüsilise sularaha digitaliseerimiseks.
+  - Projekt krüptoraha loomiseks Bitcoin'i põhjal.
+explanation: |
+  David Chaum tutvustas anonüümse elektroonilise raha kontseptsiooni
+  oma projektiga DigiCash 1980ndatel.
+reviewed: true

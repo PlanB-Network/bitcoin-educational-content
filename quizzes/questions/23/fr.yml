@@ -1,9 +1,0 @@
-question: Pourquoi l'or est-il devenu le moyen d'échange standard ?
-answer: En raison de sa rareté, de sa durabilité et de sa divisibilité.
-wrong_answers:
-  - En raison de son abondance, de sa durabilité et de son indivisibilité.
-  - En raison de sa rareté, de sa périssabilité et de sa divisibilité.
-  - En raison de son abondance, de sa périssabilité et de son indivisibilité.
-explanation: |
-  L'or est devenu le moyen d'échange standard en raison de sa rareté, de sa durabilité et de sa divisibilité. Sa rareté empêche sa dévaluation due à la production, sa durabilité garantit qu'il ne s'érode pas avec le temps et sa divisibilité lui permet d'être utilisé dans des transactions de différentes tailles.
-reviewed: false

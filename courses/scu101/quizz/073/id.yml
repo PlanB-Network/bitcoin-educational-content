@@ -1,0 +1,9 @@
+question: Apa keuntungan utama menggunakan pengelola kata sandi?
+answer: Mengingat hanya satu kata sandi utama.
+wrong_answers:
+  - Tidak perlu lagi membuat kata sandi baru.
+  - Membantu mengingat semua kata sandi menggunakan teknik mnemonik.
+  - Menghilangkan kebutuhan untuk memiliki akun online.
+explanation: |
+  Pengguna hanya perlu mengingat satu kata sandi untuk mengakses semua yang lain.
+reviewed: false

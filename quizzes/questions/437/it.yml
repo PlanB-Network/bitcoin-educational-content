@@ -1,9 +1,0 @@
-question: Qual è l'equazione che definisce una curva ellittica?
-answer: "y\xB2 = x\xB3 + ax + b"
-wrong_answers:
-  - "y\xB2 = x\xB3 + ax"
-  - "y\xB2 = x\xB3 + b"
-  - "y\xB2 = x\xB3 + ax - b"
-explanation: |
-  "Una curva ellittica è definita dall'equazione y\xB2 = x\xB3 + ax + b. Ogni punto su questa curva ha una simmetria distintiva che è fondamentale per la sua utilità in crittografia."
-reviewed: false

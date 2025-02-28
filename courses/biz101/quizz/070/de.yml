@@ -1,0 +1,9 @@
+question: Welche erweiterten Funktionen werden typischerweise von Unternehmen mit professionellem Profil verlangt?
+answer: Erweiterte Berichts-Dashboards und mehrere Verwaltungsrollen
+wrong_answers:
+  - Grundlegende Transaktionserfassung und Standardbelege
+  - Einfache Integration von Brieftaschen und QR-Code-Generierung
+  - Automatische Umrechnung in Fiat ohne Meldeoptionen
+explanation: |
+  Professionelle Unternehmen benötigen anpassbare Rechnungen, ausgefeilte Berichte und ein Rollenmanagement, das ihren komplexen Arbeitsabläufen gerecht wird.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvem foreslo ideen om konkurranse mellom private valutaer?
+answer: Friedrich Hayek
+wrong_answers:
+  - John Maynard Keynes
+  - Jacques Rueff
+  - Satoshi Nakamoto
+explanation: |
+  Friedrich Hayek foreslo ideen om konkurranse mellom private valutaer for å redusere regjeringers innflytelse på valuta og oppmuntre til monetær stabilitet basert på markedet heller enn sentraliserte politikker.
+reviewed: false

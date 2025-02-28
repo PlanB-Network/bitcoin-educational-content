@@ -1,0 +1,9 @@
+question: Mikä sosiaalisen järjestämisen muoto katsotaan olevan ihmisen päämäärän mukainen Tracyn mukaan?
+answer: Omaisuus
+wrong_answers:
+  - Demokratia
+  - Palkkatyö
+  - Tasavalta
+explanation: |
+  Tracy pitää yksityisomaisuutta olennaisena, koska se mahdollistaa yksilön tarpeiden tyydyttämisen ja velvollisuuksien täyttämisen.
+reviewed: false

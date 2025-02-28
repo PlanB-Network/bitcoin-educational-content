@@ -1,0 +1,9 @@
+question: Quel est le résultat potentiel d'une dépréciation soudaine ou d'une perte de confiance dans une monnaie fiduciaire ?
+answer: Hyperinflation.
+wrong_answers:
+  - Déflation.
+  - Une économie stable.
+  - Une augmentation de la valeur de la monnaie.
+explanation: |
+  Une dévaluation soudaine ou une perte de confiance dans une monnaie fiduciaire peut conduire à l'hyperinflation. Il s'agit d'une situation où les prix des biens et services augmentent à un taux extrêmement élevé, menant souvent à une instabilité économique.
+reviewed: true

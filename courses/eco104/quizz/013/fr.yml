@@ -1,0 +1,13 @@
+question: Comment le Bitcoin profite-t-il aux individus dans les pays déchirés par la guerre ou instables ?
+answer: Il permet de stocker de la valeur de manière décentralisée et sécurisée, offrant une plus grande résistance au vol
+wrong_answers:
+  - Il permet l'accès aux services bancaires traditionnels
+  - Il fournit un actif physique qui peut prendre de la valeur
+  - Il offre une protection contre la déflation
+explanation: |
+  Dans les pays déchirés par la guerre ou instables, les individus peuvent avoir du mal à 
+  accéder aux services bancaires traditionnels ou faire face au risque de vol ou 
+  de confiscation d'actifs physiques. Le Bitcoin permet aux individus de stocker de la valeur 
+  de manière décentralisée et sécurisée sans nécessiter d'intermédiaires 
+  ou d'actifs physiques vulnérables à des risques tels que l'inflation, le vol ou la confiscation.
+reviewed: true

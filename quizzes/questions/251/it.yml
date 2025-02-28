@@ -1,9 +1,0 @@
-question: Qual è una delle principali preoccupazioni riguardo al sistema bancario?
-answer: Le regole del gioco bancario non sono trasparenti e comprensibili per tutti.
-wrong_answers:
-  - Il sistema bancario è troppo facile da capire.
-  - Il sistema bancario è troppo trasparente.
-  - Il sistema bancario è troppo decentralizzato.
-explanation: |
-  Il testo menziona che la questione di chi dovrebbe controllare il sistema bancario è cruciale perché le regole del gioco bancario non sono trasparenti e comprensibili per tutti.
-reviewed: false

@@ -1,0 +1,5 @@
+---
+term: ERHOLUNGSPFAD
+
+---
+In einer Wallet-Software, die Miniscript verwendet, wie z. B. Liana, beziehen sich die Wiederherstellungspfade auf Schlüsselsätze, die erst nach einer bestimmten Zeit der Inaktivität im Skript, das die Bitcoins sperrt (Timelock), funktionsfähig werden. Die Wiederherstellungspfade sind erst dann nutzbar, wenn die Zeitsperren abgelaufen sind, und bieten somit eine Methode zur Wiederherstellung von Geldern, wenn der primäre Pfad nicht verfügbar ist. Betrachten wir das Beispiel eines Skripts, das zwei verschiedene Schlüssel enthält: Schlüssel A, der das sofortige Ausgeben von Bitcoins erlaubt, und Schlüssel B, der das Ausgeben von Bitcoins nach einer durch eine Zeitsperre von 52.560 Blöcken definierten Verzögerung erlaubt. In diesem Beispiel stammt Schlüssel A aus dem primären Pfad, während Schlüssel B aus dem Wiederherstellungspfad stammt.

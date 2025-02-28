@@ -1,0 +1,11 @@
+question: Hva anses Bitcoin som i forhold til fiatvalutaer?
+answer: En parallell økonomi
+wrong_answers:
+  - En erstatningsøkonomi
+  - En sekundær økonomi
+  - En tertiær økonomi
+explanation: >-
+  Bitcoin anses som en parallell økonomi til fiatvalutaer, noe som betyr at den
+  opererer ved siden av tradisjonelle økonomier og kan brukes for transaksjoner direkte,
+  uten behov for å gå gjennom en utvekslingsplattform.
+reviewed: false

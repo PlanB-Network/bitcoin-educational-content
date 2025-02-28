@@ -1,0 +1,9 @@
+question: Que signifie le préfixe `wpkh` dans un descriptor ?
+answer: Pay-to-Witness-PubKey-Hash
+wrong_answers:
+  - Pay-to-PubKey
+  - Pay-to-Script-Hash
+  - Witness Script Hash
+explanation: |
+  Le préfixe `wpkh` indique un script SegWit v0 utilisant des adresses Pay-to-Witness-Public-Key-Hash.
+reviewed: false

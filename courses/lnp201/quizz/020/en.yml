@@ -1,0 +1,9 @@
+question: What is the main risk in commitment transactions on the Lightning Network?
+answer: Publishing an old transaction to reclaim more funds
+wrong_answers:
+  - Forgetting to sign the commitment transaction
+  - Accidentally sending funds to another channel
+  - Blocking the transaction with an inappropriate timelock
+explanation: |
+  The main risk is that a party may attempt to cheat by publishing an old commitment transaction, which could allow them to reclaim funds they no longer have.
+reviewed: false

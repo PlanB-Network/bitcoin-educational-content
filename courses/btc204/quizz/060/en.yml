@@ -1,0 +1,13 @@
+question: What information should be indicated on a label?
+
+answer: The origin of a UTXO.
+
+wrong_answers:
+  - The creation date of a UTXO.
+  - The size of a UTXO.
+  - The amount of fees associated with the creation of a UTXO.
+
+explanation: |
+  Labeling is a good practice that helps to remember the origin of a UTXO.
+
+reviewed: false

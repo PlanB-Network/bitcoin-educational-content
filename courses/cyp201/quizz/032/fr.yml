@@ -1,0 +1,9 @@
+question: Quel sighash flag permet de faire des financements participatifs en couvrant un seul input et tous les outputs ?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL combiné avec SIGHASH_ANYONECANPAY permet d'ajouter des inputs sans modifier les outputs.
+reviewed: false

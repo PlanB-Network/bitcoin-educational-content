@@ -1,0 +1,13 @@
+question: Vai trò của giao dịch thông báo trong BIP47 là gì?
+
+answer: Để truyền mã thanh toán cho người nhận và báo hiệu rằng các khoản thanh toán sắp được thực hiện.
+
+wrong_answers:
+  - Xác thực địa chỉ nhận Bitcoin cho các giao dịch tương lai thông qua mã thanh toán.
+  - Xác nhận việc nhận bitcoin bởi người nhận với BIP47.
+  - Gửi các khóa riêng tạm thời của người gửi cho người nhận để họ có thể chi tiêu bitcoin.
+
+explanation: |
+  Giao dịch thông báo cho phép truyền đạt mã thanh toán từ người gửi đến người nhận, để người nhận có thể biết và tìm thấy mã đó sau này chỉ từ seed của họ trong trường hợp khôi phục ví. Như tên gọi của nó, nó cũng đóng vai trò thông báo.
+
+reviewed: false

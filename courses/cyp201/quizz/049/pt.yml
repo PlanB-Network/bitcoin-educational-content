@@ -1,0 +1,8 @@
+question: Qual é o propósito da frase mnemônica em uma carteira Bitcoin HD?
+answer: Derivar deterministicamente todas as chaves
+wrong_answers:
+  - Para assinar transações diretamente
+  - Para criptografar endereços Bitcoin
+  - Para gerar um hash para os UTXOs
+explanation: |
+  A frase mnemônica permite a derivação de todas as chaves privadas e públicas em uma carteira, facilitando assim o backup e a recuperação.

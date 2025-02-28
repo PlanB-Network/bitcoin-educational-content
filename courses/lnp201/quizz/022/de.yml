@@ -1,0 +1,9 @@
+question: Was ermöglicht der Widerrufsschlüssel im Falle eines Betrugs?
+answer: Alle Gelder durch Bestrafung des Betrügers wiederherstellen
+wrong_answers:
+  - Das Commitment-Transaktion abbrechen
+  - Die Kapazität des Kanals verdoppeln
+  - Weitere Transaktionen im Kanal verhindern
+explanation: |
+  Der Widerrufsschlüssel ermöglicht es der geschädigten Partei, alle Gelder im Falle eines Betrugsversuchs durch die andere Partei wiederherzustellen.
+reviewed: false

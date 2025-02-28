@@ -1,0 +1,9 @@
+question: BitcoinのTaprootで導入された署名アルゴリズムは何ですか？
+answer: Schnorr署名方式
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Schnorr署名方式は、2021年11月のTaprootアップデートで導入されました。
+reviewed: false

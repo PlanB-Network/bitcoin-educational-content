@@ -1,0 +1,11 @@
+question: Qual è l'impatto potenziale di un divieto di mining in una regione?
+answer: Può portare a un calo significativo del hashrate e del prezzo del Bitcoin
+wrong_answers:
+  - Può portare a un aumento del prezzo del Bitcoin
+  - Può portare a un aumento del hashrate della rete
+  - Può portare a un aumento del numero di nodi attivi nella rete
+explanation: |
+  Un divieto di mining in una regione, come quello avvenuto in Cina,
+  può portare a un calo significativo del hashrate e del prezzo del
+  Bitcoin. Tuttavia, questi possono recuperare rapidamente.
+reviewed: true

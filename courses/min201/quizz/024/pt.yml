@@ -1,0 +1,9 @@
+question: Como é chamado o evento em que a recompensa por minerar transações de Bitcoin é reduzida pela metade?
+answer: Halving
+wrong_answers:
+  - Dobrando
+  - Quarteirando
+  - Triplicando
+explanation: |
+  A redução programada das recompensas de mineração, que ocorre pela metade a cada quatro anos, é um evento conhecido como halving.
+reviewed: true

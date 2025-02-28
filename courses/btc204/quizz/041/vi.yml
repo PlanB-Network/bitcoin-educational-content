@@ -1,0 +1,9 @@
+question: Nhược điểm chính của Máy rút tiền tự động (ATM) là gì?
+answer: Thường xuyên có phí rất cao.
+wrong_answers:
+  - Cần có kết nối internet nhanh.
+  - Không hỗ trợ tiền tệ địa phương.
+  - Không đảm bảo an toàn giao dịch.
+explanation: |
+  Việc mua bitcoin qua ATM là một giải pháp thú vị cho sự riêng tư của người dùng, nhưng nhược điểm chính của chúng là thường xuyên thu phí cao ngất ngưởng.
+reviewed: false

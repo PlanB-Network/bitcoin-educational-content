@@ -1,0 +1,9 @@
+question: Mitä taloudellista harhaluuloa Bastiat kritisoi, joka ilmestyisi uudelleen 20. vuosisadalla?
+answer: Että valtio voi luoda työpaikkoja
+wrong_answers:
+  - Että markkinat tarvitsevat valtiota
+  - Että markkinat voivat itse-säännellä
+  - Että yritykset voivat luoda vaurautta ilman sääntelyä
+explanation: |
+  Bastiat kritisoi ajatusta, että valtio voisi luoda työpaikkoja vahingoittamatta muita työpaikkoja verojen vaikutuksen vuoksi, jotka olivat tarpeen näiden luomisten rahoittamiseksi.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Quelle est l'une des principales caractéristiques de Bitcoin?
-answer: Il peut être échangé n'importe où dans le monde sans aucune autorisation d'une quelconque entité.
-wrong_answers:
-  - Il ne peut être utilisé que par un groupe restreint de personnes.
-  - Il nécessite une autorisation d'une autorité centrale pour être utilisé.
-  - Il ne peut être utilisé que dans certains pays.
-explanation: |
-  Le texte mentionne que Bitcoin est pseudonyme et peut être échangé n'importe où dans le monde sans aucune autorisation d'une quelconque entité.
-reviewed: false

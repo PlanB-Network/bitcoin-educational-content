@@ -1,0 +1,10 @@
+question: Qu'est-ce que le Lightning Network rend possible ?
+answer: Réaliser des transactions entre individus qui n'ont pas de connexion directe de canal.
+wrong_answers:
+  - Créer des connexions de canal direct uniquement avec des échanges centralisés.
+  - Créer des connexions de canal qui nécessitent plusieurs confirmations pour toute transaction.
+  - Établir des connexions de canal direct qui sont limitées uniquement aux grandes transactions.
+explanation: |
+  Le Lightning Network permet de réaliser des transactions entre
+  individus qui n'ont pas de connexion directe de canal.
+reviewed: true

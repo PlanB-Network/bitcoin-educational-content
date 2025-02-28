@@ -1,0 +1,9 @@
+question: Mạng Lưới Lightning cho phép gửi tiền đến một nút không kết nối trực tiếp như thế nào?
+answer: Bằng cách điều hướng thanh toán qua các nút trung gian
+wrong_answers:
+  - Bằng cách sử dụng giao dịch trên chuỗi giữa các nút
+  - Bằng cách tự động thiết lập một kênh tạm thời
+  - Bằng cách gửi trực tiếp tiền qua các địa chỉ đa chữ ký
+explanation: |
+  Mạng Lưới Lightning cho phép điều hướng một khoản thanh toán qua nhiều nút trung gian, mà không yêu cầu một kênh trực tiếp giữa người gửi và người nhận.
+reviewed: false

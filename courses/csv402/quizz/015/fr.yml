@@ -1,0 +1,9 @@
+question: Quel concept historique RGB applique-t-il au monde numérique ?
+answer: Les instruments au porteur
+wrong_answers:
+  - Les bases de données centralisées
+  - Les réseaux peer-to-peer sans validation
+  - Les registres ouverts accessibles à tous
+explanation: |
+  RGB transpose l'idée des instruments au porteur au numérique.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Was ist die Rolle der Bergleute in Bezug auf Kraftwerke, die noch nicht an das Stromnetz angeschlossen sind?
-answer: Sie fungieren als Käufer letzter Instanz.
-wrong_answers:
-  - Sie versorgen die Kraftwerke mit Strom.
-  - Sie schließen die Kraftwerke ans Stromnetz an.
-  - Sie regulieren den Strompreis.
-explanation: |
-  > Bergleute fungieren als Käufer letzter Instanz für Kraftwerke, die noch nicht an das Stromnetz angeschlossen sind. Dadurch können die Kraftwerke bereits vor der Anbindung an das Stromnetz eine Finanzierung sichern.
-reviewed: false

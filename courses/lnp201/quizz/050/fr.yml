@@ -1,0 +1,9 @@
+question: Pourquoi un vendeur pourrait-il effectuer un paiement fictif dans un canal ?
+answer: Pour déplacer la liquidité vers le côté opposé
+wrong_answers:
+  - Pour diminuer les frais de routage
+  - Pour augmenter la capacité totale de ses canaux
+  - Pour verrouiller les fonds à long terme
+explanation: |
+  En effectuant un paiement fictif, un vendeur déplace la liquidité de son côté vers le côté opposé du canal, libérant ainsi de la capacité entrante pour recevoir des paiements.
+reviewed: false

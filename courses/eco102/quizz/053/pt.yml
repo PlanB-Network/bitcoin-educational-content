@@ -1,0 +1,9 @@
+question: Qual conceito econômico Bastiat destaca em sua análise do custo da destruição?
+answer: Custo de oportunidade
+wrong_answers:
+  - Custo marginal
+  - Produtividade marginal
+  - Custo de produção
+explanation: |
+  Bastiat enfatiza a importância do custo de oportunidade, ilustrando que recursos usados para reparar a destruição poderiam ter sido usados para criar riqueza em outro lugar.
+reviewed: false

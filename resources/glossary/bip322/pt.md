@@ -1,0 +1,5 @@
+---
+term: BIP322
+
+---
+Propõe um novo padrão para substituir o BIP137 para assinar mensagens com chaves privadas Bitcoin e seus endereços associados, a fim de provar a propriedade de um endereço. Essas assinaturas são úteis para várias aplicações, como prova de fundos, auditoria e outros usos que exigem autenticação de um endereço por meio de sua chave privada. Em comparação com a BIP137, a BIP322 alarga a norma de assinatura de mensagens para além dos endereços tradicionais, utilizando uma abordagem baseada em scripts. Permite que o software de carteira assine uma mensagem para qualquer script que possa ser desbloqueado para gastar bitcoins. Para isso, o método envolve a assinatura de um texto produzindo uma assinatura para uma transação virtual de Bitcoin. Para os endereços P2PKH tradicionais, o BIP322 continua a ser compatível com o formato de assinatura tradicional.

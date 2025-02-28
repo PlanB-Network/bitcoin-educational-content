@@ -1,0 +1,9 @@
+question: What is a UTXO on Bitcoin?
+answer: A piece of bitcoin that has not yet been spent.
+wrong_answers:
+  - A Bitcoin address to receive funds.
+  - A special type of Bitcoin wallet.
+  - An encryption algorithm for Bitcoin.
+explanation: |
+  A UTXO is an unspent transaction output, so it is essentially a “piece of bitcoin”.
+reviewed: false

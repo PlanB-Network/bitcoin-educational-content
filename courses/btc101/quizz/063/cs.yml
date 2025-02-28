@@ -1,0 +1,9 @@
+question: Jaký matematický koncept je založen na lidské racionalitě a používá se u Bitcoinu?
+answer: Teorie her.
+wrong_answers:
+  - Teorie pravděpodobnosti.
+  - Číselná teorie.
+  - Teorie množin.
+explanation: |
+  Teorie her je matematický koncept, který je založen na lidské racionalitě. U Bitcoinu jsou změny protokolu prosazovány uživateli, což činí jakoukoliv modifikaci Bitcoinového protokolu vysoce složitou.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Tại sao việc tạo entropy một cách thủ công cho một ví HD lại rủi ro?
+answer: Nó có thể giới thiệu những điểm yếu hoặc độ chệch dự đoán của con người
+wrong_answers:
+  - Nó dẫn đến việc tạo ra các khóa công khai không hợp lệ
+  - Nó ngăn chặn việc phái sinh các khóa riêng tư
+  - Nó hạn chế kích thước của các cụm từ mnemonic được tạo ra
+explanation: |
+  Việc tạo entropy một cách thủ công có thể giới thiệu độ chệch hoặc lỗi, làm cho các khóa dễ bị tấn công hơn.

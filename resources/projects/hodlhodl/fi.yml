@@ -1,0 +1,10 @@
+description: |
+  Hodl Hodl on turvallinen, ei-huolehtiva Bitcoin-kaupankäyntialusta, joka arvostaa yksityisyyttäsi. Yli 7 vuoden toiminnan aikana alusta mahdollistaa nimettömät vertaiskaupat omilla ehdoillasi, tukien yli 100 valuuttaa, yli 100 000 rekisteröityneellä käyttäjällä ja 50 000 päätetyllä kaupalla.
+
+  Alusta toimii multisig (P2SH) sopimuksilla, mikä tarkoittaa, että hallitset varojen avaimia escrow'ssa koko sopimuksen ajan. Vahvistusta ei vaadita, mikä mahdollistaa saumattoman ja yksityisen kaupankäyntikokemuksen.
+
+  Kaupankäynnin aloittamisen prosessi on suoraviivainen. Käyttäjät solmivat sopimuksen, ja Hodl Hodl luo ainutlaatuisen multisig escrow-osoitteen. Myyjä tallettaa bitcoineja escrow'hun suoraan omasta lompakostaan, ja ostaja maksaa myyjälle sovitun maksutavan mukaisesti. Lopuksi myyjä vapauttaa bitcoinit escrow'sta suoraan ostajan lompakkoon, viimeistellen sopimuksen.
+
+  Hodl Hodl mahdollistaa tarjouksen luomisen omilla ehdoillasi, hinnan asettamisen, useiden maksutapojen käytön ja stop-loss arvon asettamisen. Alustan läpinäkyvät maksut jaetaan ostajan ja myyjän kesken ja ne vähennetään BTC-määrästä. Hodl Hodlilla voit käydä kauppaa globaalisti, käyttäen mitä tahansa maksujärjestelmää, mille tahansa valuutalle.
+contributors:
+  - rabbit-hole

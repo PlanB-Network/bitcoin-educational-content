@@ -1,0 +1,8 @@
+question: Mikä on pääsääntö osallistujan kanavaan lähettämien varojen suhteen?
+answer: He voivat lähettää vain varoja omalta puoleltaan kanavassa.
+wrong_answers:
+  - He voivat lähettää korkeintaan puolet kanavan kokonaiskapasiteetista.
+  - He voivat lähettää minkä tahansa summan, kunhan siitä on etukäteen sovittu.
+  - He voivat tarvittaessa lainata varoja toisen osallistujan puolelta.
+explanation: |
+  Kukin osallistuja on rajoitettu kanavassa pitämiensä satoshien määrään transaktioitaan varten, varmistaen, että varat ovat aina katettu.

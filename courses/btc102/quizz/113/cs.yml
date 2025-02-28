@@ -1,0 +1,12 @@
+question: Jaký je účel dvoufaktorové autentizace (2FA) u Bitcoinu?
+answer: Zvýšit bezpečnost transakcí s Bitcoinem.
+wrong_answers:
+  - Těžit nové Bitcoiny.
+  - Obchodovat s Bitcoiny.
+  - Převést Bitcoiny na jiné kryptoměny.
+explanation: |
+  Dvoufaktorová autentizace (2FA) je metoda potvrzení uživatelovy deklarované
+  identity pomocí něčeho, co uživatel zná (heslo) a druhého faktoru, kterým není
+  něco, co uživatel má, nebo něco, čím je. Používá se k zvýšení bezpečnosti
+  transakcí s Bitcoinem.
+reviewed: false

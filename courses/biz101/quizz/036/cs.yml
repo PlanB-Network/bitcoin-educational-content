@@ -1,0 +1,9 @@
+question: Jak Lightning Network pomáhá utvářet budoucnost online obchodování a digitálních služeb?
+answer: Umožňuje okamžité mikrotransakce bez tření a oprávnění, čímž otevírá nové obchodní modely a zdroje příjmů.
+wrong_answers:
+  - Zabránit vzniku nových obchodních modelů na internetu.
+  - Tím, že obchodníci musí používat stejně pomalé a nákladné platební koleje jako dříve.
+  - Znemožněním prodeje digitálního zboží kvůli vysokým poplatkům.
+explanation: |
+  Schopnost blesku okamžitě a s nízkými náklady posílat malé částky hodnoty podporuje inovace v oblastech, jako je placený obsah, streamované platby a transakce mezi stroji, a potenciálně mění způsob zpeněžování online služeb.
+reviewed: false

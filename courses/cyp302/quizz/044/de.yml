@@ -1,0 +1,9 @@
+question: Warum bildet die Menge der ganzen Zahlen mit Addition eine Gruppe, während sie dies bei Multiplikation nicht tut?
+answer: Die Menge erfüllt nicht die Inversionsbedingung bei der Multiplikation.
+wrong_answers:
+  - Die Menge ist unter Multiplikation nicht abgeschlossen
+  - Multiplikation ist über die ganzen Zahlen nicht assoziativ
+  - Es gibt kein neutrales Element für die Multiplikation
+explanation: |
+  Die Menge der ganzen Zahlen erfüllt die Inversionsbedingung bei der Multiplikation nicht, da es keinen Kehrwert für jede ganze Zahl gibt, der multipliziert 1 ergibt. Nur die Elemente 1 und -1 erfüllen diese Bedingung.
+reviewed: false

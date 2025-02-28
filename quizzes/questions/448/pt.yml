@@ -1,9 +1,0 @@
-question: Qual é o papel da curva elíptica na geração de chaves públicas e privadas?
-answer: Ela é usada para gerar chaves públicas e privadas seguras.
-wrong_answers:
-  - Ela é usada para criptografar as chaves.
-  - Ela é usada para armazenar as chaves.
-  - Ela é usada para transmitir as chaves.
-explanation: |
-  A curva elíptica é uma construção matemática usada na geração de chaves públicas e privadas seguras. Um número aleatório, frequentemente chamado de nonce, é escolhido como chave privada e usado na equação da curva elíptica para gerar a chave pública correspondente.
-reviewed: false

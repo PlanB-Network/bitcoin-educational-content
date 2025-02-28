@@ -1,0 +1,9 @@
+question: Quel est le point commun utilisé par tous les participants pour calculer une clé publique dans Bitcoin ?
+answer: Le point générateur G
+wrong_answers:
+  - Le hash SHA256
+  - Une phrase mnémonique
+  - La clé publique compressée
+explanation: |
+  Le point générateur G de la courbe elliptique secp256k1 est utilisé pour calculer les clés publiques à partir des clés privées.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Proč se doporučuje mít export všech transakcí Bitcoin do formátu CSV?
+answer: Poskytuje přehledný a strukturovaný záznam o každé transakci, což účetním usnadňuje jejich začlenění do finančních výkazů a daňových přiznání.
+wrong_answers:
+  - Protože papírové účtenky jsou jedinými právně přijatelnými účetními doklady.
+  - Protože export dat automaticky dokončí daňové přiznání bez nutnosti kontroly.
+  - Protože soubory CSV eliminují potřebu sledovat nákladovou základnu.
+explanation: |
+  Digitální záznam ve společném formátu umožňuje bezproblémovou integraci do účetních systémů, pomáhá udržovat auditní záznamy a podporuje přesné vykazování v oblasti daní a dodržování předpisů.
+reviewed: false

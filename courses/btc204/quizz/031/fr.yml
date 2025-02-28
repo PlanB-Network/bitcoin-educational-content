@@ -1,0 +1,9 @@
+question: Si l'on observe dans une transaction de paiement simple qu'une même adresse est utilisée en input et sur un des 2 outputs, quel output représente vraisemblablement le change ?
+answer: Celui avec la même adresse que l'input.
+wrong_answers:
+  - Celui avec l'adresse la plus récente.
+  - Celui avec une adresse différente de l'input.
+  - Celui avec une adresse inconnue.
+explanation: |
+  Si une réutilisation d'adresse se produit au sein même d'une transaction, on peut vraisemblablement penser que l'utilisateur est toujours en possession de l'UTXO associé. L'output avec la même adresse que l'input est donc sûrement le change.
+reviewed: false

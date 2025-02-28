@@ -1,0 +1,9 @@
+question: RGB 如何防止状态转换期间的重复消费？
+answer: 关闭现有印章并创建新印章
+wrong_answers:
+  - 通过验证区块链上的所有交易
+  - 通过对每项操作实施多重签名
+  - 验证全球状态数据
+explanation: |
+  用废UTXO关闭封印证明过渡是唯一的、不可撤销的。
+reviewed: false

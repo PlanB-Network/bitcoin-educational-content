@@ -1,0 +1,9 @@
+question: Mis on Voltaire'i kirjutise keskne mõte Londoni börsi kohta?
+answer: Erinevate usundite ärimehed jätavad oma erimeelsused kõrvale, et keskenduda ühisele kasule.
+wrong_answers:
+  - Maailma erinevate usundite esindajad kogunevad börsile, et rahus oma usku praktiseerida.
+  - Londoni börs on spekulatsiooni ja korruptsiooni koht, kus moraalsed väärtused jäetakse tähelepanuta.
+  - Usul pole kohta ärimaailmas, mida domineerib konkurentsi vaim ja individualism.
+explanation: |
+  Voltaire toob esile, et Londoni börsil ületavad ärimehed oma usulised erinevused, et koostööd teha ühise majandusliku eesmärgi nimel, illustreerides materiaalse huvi ülimuslikkust usuliste lahkhelide üle.
+reviewed: false

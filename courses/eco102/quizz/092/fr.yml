@@ -1,0 +1,8 @@
+question: Si la propriété est une convention instituée par la volonté générale, comme le pense Rousseau, quelle en est la conséquence ?
+answer: Le législateur peut organiser, modifier, voire supprimer la propriété
+wrong_answers:
+  - Le législateur est alors lié par cette convention et ne peut toucher à la propriété
+  - La volonté générale ne veut jamais toucher à la propriété
+  - Le législateur est tenu de protéger la propriété sans exception
+explanation: |
+  Selon Rousseau, la propriété étant issue de la volonté générale, elle peut être modifiée ou supprimée par le législateur en fonction de cette même volonté.

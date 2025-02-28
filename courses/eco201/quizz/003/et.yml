@@ -1,0 +1,10 @@
+question: Mis põhjustab majanduskriise vastavalt kursusele?
+answer: Majanduskriisid võivad olla tingitud inimlikust ebakompetentsusest, turumanipulatsioonidest või inimeste kollektiivsest eufooriast.
+wrong_answers:
+  - Majanduskriisid on ainult turumanipulatsioonide tõttu.
+  - Majanduskriisid on ainult inimliku ebakompetentsuse tõttu.
+  - Majanduskriisid on ainult inimeste kollektiivse eufooria tõttu.
+explanation: |
+  Peatükk mainib, et kursus uurib, kuidas majanduskriisid
+  võivad olla tingitud inimlikust ebakompetentsusest, turumanipulatsioonidest või inimeste kollektiivsest eufooriast.
+reviewed: false

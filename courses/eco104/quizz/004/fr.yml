@@ -1,0 +1,11 @@
+question: Quelle est une raison pour laquelle la monnaie fiduciaire conduit à un contrôle centralisé ?
+answer: Elle permet aux gouvernements de contrôler l'offre de monnaie et les taux d'intérêt.
+wrong_answers:
+  - Elle est soutenue par des biens physiques comme l'or et l'argent.
+  - Elle est résistante à l'inflation.
+  - Elle encourage les systèmes financiers décentralisés.
+explanation: |
+  La monnaie fiduciaire donne aux gouvernements le pouvoir de contrôler l'offre de monnaie et
+  les taux d'intérêt, leur permettant d'influencer l'activité économique et
+  résultant en un contrôle centralisé.
+reviewed: true

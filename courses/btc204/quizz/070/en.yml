@@ -1,0 +1,13 @@
+question: What risks are associated with using a third-party node?
+
+answer: Censorship and monitoring of activities.
+
+wrong_answers:
+  - Loss of bitcoins.
+  - Increase in transaction fees.
+  - Theft of bitcoins and tracking.
+
+explanation: |
+  If you use a node that does not belong to you, you run the risk of having your transaction broadcasts blocked and being monitored by the operator.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jak Lightning Network pomáhá snižovat poplatky za transakce s bitcoiny?
+answer: Provádění většiny transakcí mimo řetězec a zveřejňování pouze transakcí vypořádání kanálů v hlavním blockchainu.
+wrong_answers:
+  - Odstranění veškerého kryptografického ověřování plateb.
+  - Centralizací řízení v jednom velkém platebním uzlu.
+  - Požadavek, aby obchodníci platili veškeré náklady na síť předem.
+explanation: |
+  Vzhledem k tomu, že transakce Lightning probíhají mimo řetězec, jsou v blockchainu bitcoinu vypořádány pouze konečné stavy kanálů. Tím se snižuje zahlcení a tím i poplatky, protože se zamezí provádění mnoha transakcí v řetězci.
+reviewed: false

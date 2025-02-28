@@ -1,0 +1,10 @@
+question: Lightning Network -verkon transaktiomaksut ovat erittäin alhaiset, usein alle...?
+answer: 0,5%.
+wrong_answers:
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+  Lightning Network -verkon transaktiomaksut ovat erittäin alhaiset, usein
+  alle 0,5%.
+reviewed: true

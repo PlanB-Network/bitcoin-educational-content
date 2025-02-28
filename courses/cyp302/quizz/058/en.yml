@@ -1,0 +1,9 @@
+question: Why do chemists use group theory?
+answer: To classify the shapes of molecules
+wrong_answers:
+  - To analyze chemical bonds
+  - To calculate molecular mass
+  - To predict chemical reactions
+explanation: |
+  Group theory allows chemists to classify molecular shapes based on their symmetries, which helps in understanding their structural properties.
+reviewed: false

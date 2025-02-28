@@ -1,0 +1,9 @@
+question: Hvilken kombinasjon av hash-funksjoner brukes for å generere kortere fingeravtrykk i Bitcoin?
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160 kombinerer SHA256 og RIPEMD160 for å generere 160-bits fingeravtrykk, spesielt for Bitcoin-adresser.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Co je Lightning Network?
+answer: Je to druhá vrstva Bitcoinu.
+wrong_answers:
+  - Je to kryptoměnová burza.
+  - Je to typ Bitcoinové peněženky.
+  - Je to Bitcoinový těžební pool.
+explanation: |
+  Lightning Network je technologie druhé vrstvy aplikovaná na bitcoin,
+  která využívá mikroplatební kanály k rozšíření schopnosti jeho blockchainu
+  provádět transakce.
+reviewed: false

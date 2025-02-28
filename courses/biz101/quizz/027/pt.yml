@@ -1,0 +1,9 @@
+question: Qual é uma prática sugerida relativamente à custódia na aquisição de Bitcoin?
+answer: Considere soluções de auto-custódia após as aquisições iniciais, para que a empresa controle verdadeiramente os seus activos.
+wrong_answers:
+  - Nunca retire Bitcoin da bolsa em nenhuma circunstância.
+  - Confiar sempre numa única entidade de custódia sem rever as medidas de segurança.
+  - Armazenar todas as Bitcoin num sítio Web público com uma palavra-passe simples
+explanation: |
+  Depois de comprar Bitcoin, transferi-lo para uma carteira de autocustódia garante que a empresa tenha controle direto sobre seus fundos. Embora os custodiantes de terceiros possam ser convenientes, a autocustódia se alinha com o princípio de soberania financeira do Bitcoin.
+reviewed: false

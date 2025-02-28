@@ -1,0 +1,9 @@
+question: Which operation is typically used to combine the keystream and the message in a stream cipher?
+answer: XOR
+wrong_answers:
+  - Multiplication
+  - Modular shifting
+  - Substitution of each letter
+explanation: |
+  In a stream cipher, the XOR operation is generally used to combine the keystream with the message because it is simple and reversible.
+reviewed: false

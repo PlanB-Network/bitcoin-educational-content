@@ -1,0 +1,9 @@
+question: Mikä on älykkäiden sopimusten päätarkoitus RGB-ympäristössä?
+answer: Toteuttaa automatisoituja Bitcoin-kauppoja ilman keskitettyä rekisteriä
+wrong_answers:
+  - Keskitettyjen Bitcoin-rekisterien luomisen helpottaminen
+  - Tarjota julkinen käyttöliittymä kaikille Bitcoin-tapahtumille
+  - ERC-20-tunnisteiden suorittamisen yksinkertaistaminen Bitcoinissa
+explanation: |
+  RGB-älykkäät sopimukset mahdollistavat sopimusten automatisoinnin välttäen samalla keskitettyjen rekisterien käyttöä ja tukeutuen Bitcoiniin kryptografisten ankkureiden osalta.
+reviewed: false

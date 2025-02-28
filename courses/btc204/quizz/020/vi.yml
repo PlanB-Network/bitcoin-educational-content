@@ -1,0 +1,9 @@
+question: Khi tìm kiếm một mẫu, chúng ta sẽ nghiên cứu phần nào của giao dịch?
+answer: Cấu trúc của nó
+wrong_answers:
+  - Metadata của nó
+  - Scripts của nó
+  - Chữ ký của nó
+explanation: |
+  Một mẫu giao dịch đơn giản chỉ là một mô hình hoặc cấu trúc tổng thể của một giao dịch điển hình có thể được tìm thấy trên blockchain, mà ý nghĩa có khả năng được biết đến.
+reviewed: false

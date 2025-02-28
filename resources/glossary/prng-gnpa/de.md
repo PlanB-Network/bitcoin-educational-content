@@ -1,0 +1,5 @@
+---
+term: PRNG (GNPA)
+
+---
+Akronym für "Pseudo-Zufallszahlengenerator" PRNGs sind eine Kategorie von Algorithmen, die dazu dienen, ausgehend von einem als Seed bezeichneten Ausgangszustand annähernd zufällige Zahlenfolgen zu erzeugen. In der Kryptografie werden PRNGs zur Erzeugung von Schlüsseln, Initialisierungsvektoren und anderen Elementen verwendet, die Zufälligkeit erfordern. Ein guter PRNG muss Eigenschaften wie Gleichmäßigkeit der Ausgabe, Unvorhersehbarkeit und Widerstandsfähigkeit gegen prädiktive Angriffe aufweisen. Im Gegensatz zu echten Zufallszahlengeneratoren sind PRNGs deterministisch und reproduzierbar. Bei Bitcoin können PRNGs in Wallet-Verwaltungssoftware oder Hardware-Wallets verwendet werden, um die Recovery Phrase zu generieren, die die Grundlage für deterministische und hierarchische Wallets ist.

@@ -1,0 +1,9 @@
+question: Millal võime öelda, et kaks sündmust on sõltumatud?
+answer: Ühe sündmuse tõenäosus ei mõjuta teise sündmuse tõenäosust
+wrong_answers:
+  - Kaks sündmust toimuvad alati samaaegselt
+  - Need on vastastikku välistavad
+  - Nende ühine tõenäosus on võrdne kahe sündmuse kõrgeima tõenäosusega
+explanation: |
+  Kaks sündmust on sõltumatud, kui ühe sündmuse tõenäosus ei muuda teise sündmuse tõenäosust, näiteks loteriitõmbamine ei mõjuta järgmise päeva ilma.
+reviewed: false

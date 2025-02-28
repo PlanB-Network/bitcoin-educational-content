@@ -1,0 +1,9 @@
+question: Mezi odpověďmi, která z nich představuje jeden z hlavních cílů analýzy řetězce?
+answer: Seskupit různé aktivity na Bitcoinu za účelem určení jedinečnosti uživatele.
+wrong_answers:
+  - Optimalizovat výkon těžby v síti.
+  - Spravovat spravedlnost v protokolu za účelem vynucení zákona podle jurisdikcí.
+  - Zvýšit důvěrnost transakcí Bitcoinu.
+explanation: |
+  Jedním z cílů analýzy řetězce je seskupit různé aktivity na Bitcoinu za účelem určení jedinečnosti uživatele, který je provedl. Následně bude možné pokusit se tuto skupinu aktivit spojit s reálnou identitou.
+reviewed: false

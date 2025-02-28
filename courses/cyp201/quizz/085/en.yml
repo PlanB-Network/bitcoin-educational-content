@@ -1,0 +1,9 @@
+question: What operation is necessary to calculate a Taproot public key Q?
+answer: Add the tweak tG to the public key P
+wrong_answers:
+  - Multiply the private key p by the tweak
+  - Hash the public key P with SHA256
+  - Concatenate the tweak t and the public key P
+explanation: |
+  The Taproot public key Q is obtained by adding the scalar product of the tweak t by the generator G to the public key P.
+reviewed: false

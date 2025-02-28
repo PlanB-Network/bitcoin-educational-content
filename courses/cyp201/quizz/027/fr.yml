@@ -1,0 +1,9 @@
+question: Quelle vulnérabilité des signatures ECDSA a été corrigée par SegWit ?
+answer: La malléabilité
+wrong_answers:
+  - La vérification par lot
+  - Le manque d'agrégation
+  - La taille excessive des signatures
+explanation: |
+  SegWit a corrigé la malléabilité des signatures ECDSA, permettant des usages comme le Lightning Network.
+reviewed: false

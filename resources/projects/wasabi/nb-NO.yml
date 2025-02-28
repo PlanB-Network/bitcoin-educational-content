@@ -1,0 +1,6 @@
+description: |
+  Wasabi Wallet er designet for de som verdsetter personvern, i en verden hvor overvåking og misbruk av informasjon er utbredt.
+
+  Som en programvare med nullkunnskap, sikrer den at brukerens bitcoin-transaksjoner forblir deres private anliggende. Wasabi Wallet er åpen kildekode, noe som tillater hvem som helst å verifisere eller bidra til koden. Dens design er uten tillit, noe som sikrer at verken offentligheten eller utviklerne kan krenke ditt personvern. Lommeboken er ikke-forvaring, noe som lar deg opprettholde kontroll over dine private nøkler og oppnå ekte finansiell suverenitet. Til tross for sine avanserte funksjoner, er Wasabi designet for å være brukervennlig og håndtere personvern automatisk. Den bruker WabiSabi, et anonymt legitimasjonsskjema, for å gjøre coinjoins mer tilgjengelige og effektive. Videre er den rimelig, og tar en beskjeden avgift for coinjoining av mynter over 0.01 BTC, mens innskudd på 0.01 BTC eller lavere og remikser er fri for koordinatoravgifter.
+contributors:
+  - rabbit-hole

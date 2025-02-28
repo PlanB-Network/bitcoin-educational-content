@@ -1,0 +1,9 @@
+question: How many bits of entropy are used for a 24-word mnemonic phrase?
+answer: 256 bits
+wrong_answers:
+  - 128 bits
+  - 512 bits
+  - 64 bits
+explanation: |
+  A 24-word mnemonic phrase is based on 256 bits of entropy, ensuring very high security.
+reviewed: false

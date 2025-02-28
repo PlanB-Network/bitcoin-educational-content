@@ -1,0 +1,14 @@
+question: ¿Cuál es el propósito del mecanismo de ajuste de dificultad en la red de Bitcoin?
+answer: Asegurar que los bloques se minen en promedio cada 10 minutos
+wrong_answers:
+  - Aumentar la dificultad de minería con el tiempo
+  - Disminuir la dificultad de minería con el tiempo
+  - Asegurar que el mismo minero no mine bloques consecutivos
+explanation: |
+  El ajuste de dificultad es un mecanismo crucial en la
+  operación de la red de Bitcoin, asegurando que los bloques se
+  minen en promedio cada 10 minutos. Este mecanismo de ajuste
+  asegura que el tiempo de minería para los nuevos bloques
+  permanezca constante a lo largo del tiempo, independientemente del número de
+  mineros o del poder computacional total de la red.
+reviewed: true

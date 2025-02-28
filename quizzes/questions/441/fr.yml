@@ -1,9 +1,0 @@
-question: Quelle est la taille d'une clé privée Bitcoin ?
-answer: Nombre de 256 bits
-wrong_answers:
-  - Nombre de 512 bits
-  - Nombre de 128 bits
-  - Nombre de 1024 bits
-explanation: |
-  Dans le système Bitcoin, la clé privée est un nombre aléatoire ou pseudo-aléatoire de 256 bits.
-reviewed: false

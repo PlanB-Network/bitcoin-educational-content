@@ -1,0 +1,9 @@
+question: What is an advantage of Lightning Network payments for merchants at the point of sale?
+answer: Lightning payments settle almost instantly and don’t require multiple intermediaries, reducing fees and settlement delays.
+wrong_answers:
+  - Lightning payments need weeks to confirm and require heavy paperwork.
+  - Lightning payments only occur if approved by a central bank’s authority.
+  - Lightning payments can be reversed at will by the buyer after the sale.
+explanation: |
+  The Lightning Network makes transactions faster and cheaper by allowing off-chain settlement. Merchants can receive funds almost instantly, with minimal fees, and without relying on traditional payment intermediaries.
+reviewed: false

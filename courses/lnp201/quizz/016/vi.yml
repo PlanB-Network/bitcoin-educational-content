@@ -1,0 +1,11 @@
+question: Khi nào một giao dịch cam kết được công bố trên blockchain Bitcoin?
+
+answer: Cuối cùng khi kênh được đóng lại
+
+wrong_answers:
+  - Ngay sau mỗi lần chuyển tiền trong kênh
+  - Trước mỗi giao dịch cam kết mới
+  - Khi số tiền có sẵn được tiêu hết
+
+explanation:
+  Giao dịch cam kết được xây dựng và ký kết cho mỗi sự thay đổi trong phân bổ, nhưng chúng chỉ được công bố trên blockchain trong trường hợp kênh đóng lại.

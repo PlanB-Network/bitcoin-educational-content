@@ -1,9 +1,0 @@
-question: Qual è lo scopo dei pool di mining?
-answer: I pool di mining consentono ai minatori di unire le loro risorse di calcolo e ricevere ricompense più piccole ma più regolari.
-wrong_answers:
-  - I pool di mining vengono utilizzati per aumentare l'HashRate della rete Bitcoin.
-  - I pool di mining vengono utilizzati per diminuire la difficoltà del mining.
-  - I pool di mining vengono utilizzati per aumentare la ricompensa per il mining.
-explanation: |
-  I pool di mining sono gruppi di minatori che combinano la loro potenza di calcolo per aumentare le loro possibilità di estrarre un blocco. Unendo le loro risorse, possono estrarre blocchi più frequentemente e ricevere ricompense più piccole ma più regolari.
-reviewed: false

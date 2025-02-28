@@ -1,0 +1,9 @@
+question: ECDSA署名を計算する際の開始点は何ですか？
+answer: メッセージのハッシュ
+wrong_answers:
+  - 公開鍵
+  - 固定されたノンス
+  - カスタム楕円曲線
+explanation: |
+  ECDSA署名は、署名されるメッセージのハッシュを計算することから始まります。これは、しばしばSHA256を用いて行われます。
+reviewed: false

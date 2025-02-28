@@ -1,0 +1,9 @@
+question: What prefix is used to indicate a compressed public key with an odd y-coordinate?
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  The prefix 0x03 indicates a compressed public key with an odd y-coordinate.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Quelle information faut-il indiquer sur un étiquetage ?
+
+answer: L'origine d'un UTXO.
+
+wrong_answers:
+  - La date de création d'un UTXO.
+  - La taille d'un UTXO.
+  - La quantité de frais associée à la création d'un UTXO.
+
+explanation: |
+  L'étiquetage est une bonne pratique qui aide à se rappeler l'origine d'un UTXO.
+
+reviewed: false

@@ -1,0 +1,11 @@
+question: Mis on peamine põhjus, miks ei maksta häkkeritele lunaraha või muud tüüpi rünnakute korral?
+answer: Lunaraha maksmine ei garanteeri teie andmete taastamist ja võib julgustada küberkurjategijaid oma pahatahtlikke tegevusi jätkama.
+wrong_answers:
+  - Häkkeritele maksmine on ebaseaduslik.
+  - Häkkerid küsivad pärast esialgset makset rohkem raha.
+  - Makseviis on tavaliselt jälitamatu.
+explanation: |
+  Lunaraha maksmine ei garanteeri, et saate oma andmed tagasi.
+  Lisaks julgustab see küberkurjategijaid oma pahatahtlikke tegevusi jätkama, kuna
+  nad näevad seda kasumliku ettevõtmisena.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Điểm mới chính của kịch bản P2WPKH so với P2PKH là gì?
+answer: Chữ ký được chuyển vào trường Witness.
+wrong_answers:
+  - Địa chỉ được mã hóa trong base58check.
+  - scriptPubKey bao gồm hash của khóa riêng.
+  - P2WPKH không tương thích với SegWit.
+explanation: |
+  P2WPKH, được giới thiệu với SegWit, chuyển chữ ký vào một phần riêng biệt gọi là Witness để ngăn chặn sự biến đổi giao dịch.

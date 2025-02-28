@@ -1,0 +1,9 @@
+question: ¿Cuál es la característica única de las direcciones SegWit v1 (P2TR) en comparación con las direcciones SegWit v0?
+answer: Utilizan directamente la clave pública cruda en la dirección.
+wrong_answers:
+  - Están codificadas en base58check.
+  - Requieren dos firmas para ser válidas.
+  - Utilizan el hash de la clave pública en la dirección.
+explanation: |
+  Las direcciones SegWit v1 (P2TR) no utilizan un hash de la clave pública, sino directamente la clave pública Taproot.
+reviewed: false

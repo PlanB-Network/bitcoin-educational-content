@@ -1,0 +1,9 @@
+question: Pourquoi un routeur doit-il maintenir une bonne répartition de liquidité dans ses canaux ?
+answer: Pour maximiser le nombre de paiements qu'il peut router
+wrong_answers:
+  - Pour réduire les frais de transaction
+  - Pour éviter d'ouvrir de nouveaux canaux
+  - Pour limiter l'utilisation de la blockchain Bitcoin
+explanation: |
+  Un routeur vise à router le maximum de paiements pour percevoir des frais, ce qui nécessite une bonne répartition de liquidité de part et d'autre des canaux pour assurer la capacité de routage.
+reviewed: false

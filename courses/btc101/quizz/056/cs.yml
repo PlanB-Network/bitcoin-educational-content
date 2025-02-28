@@ -1,0 +1,11 @@
+question: Jaká byla míra inflace v Maďarsku v červenci 1946?
+answer: 41 900 000 000 000 000 %
+wrong_answers:
+  - 207 %
+  - 50 %
+  - 100 %
+explanation: |
+  Měsíc s nejvyšší inflací v Maďarsku byl červenec
+  1946, kdy dosáhla rekordní míry inflace
+  41 900 000 000 000 000 %.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaký je hlavní rozdíl mezi PRNG a TRNG?
+answer: PRNG je deterministický, zatímco TRNG generuje skutečně náhodná čísla.
+wrong_answers:
+  - PRNG je rychlejší než TRNG pro velká čísla.
+  - PRNG se používá pouze pro šifrování, na rozdíl od TRNG.
+  - PRNG využívá soukromé klíče, TRNG využívá veřejné klíče.
+explanation: |
+  PRNG jsou deterministické, což znamená, že mohou reprodukovat sekvence z počátečního stavu, na rozdíl od TRNG.
+reviewed: false

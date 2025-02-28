@@ -1,0 +1,25 @@
+## Contenu de la question
+
+# question
+# Écrivez la question complète
+question: Qu'est-ce qu'un quiz ?
+
+# answer
+# Écrivez la réponse correcte à la question
+answer: C'est une question à choix multiples avec une seule réponse correcte.
+
+# wrong_answers
+# Listez 3 autres réponses strictement incorrectes
+wrong_answers:
+  - C'est un nouveau type de monnaie numérique
+  - Ce n'est pas une question à choix multiples avec une seule réponse correcte.
+  - C'est une méthode pour évaluer si vous allez devenir le maître du monde.
+
+# explanation
+# Donnez des informations supplémentaires, expliquant pourquoi la réponse est vraie, et/ou pourquoi les autres ne le sont pas
+explanation: |
+  Vous allez devoir me faire confiance sur ce point. Mais n'oubliez pas le dicton de Bitcoin : ne faites confiance à personne, vérifiez par vous-même.
+  
+# reviewed
+# Définissez si la question a été révisée par au moins 2 personnes différentes.
+reviewed: true

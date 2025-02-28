@@ -1,0 +1,11 @@
+---
+term: PAYJOIN
+
+---
+Erityinen Bitcoin-tapahtumarakenne, joka parantaa käyttäjän yksityisyyttä rahankäytön aikana tekemällä yhteistyötä maksun vastaanottajan kanssa. Payjoinin ainutlaatuisuus piilee sen kyvyssä luoda transaktio, joka näyttää ensi silmäyksellä tavalliselta, mutta on itse asiassa kahden osapuolen välinen minikolikkoyhteys. Tätä varten transaktiorakenne ottaa maksun vastaanottajan mukaan syötteisiin varsinaisen lähettäjän rinnalle. Siten vastaanottaja sisällyttää maksutapahtuman keskelle itselleen maksun, jonka avulla hänelle voidaan maksaa. Jos esimerkiksi ostat patongin 6 000 satsilla käyttäen 10 000 satsin UTXO:ta ja valitset Payjoinin, leipurisi lisää panokseksi hänelle kuuluvan 15 000 satsin UTXO:n, jonka hän noutaa kokonaisuudessaan tuotoksena 6 000 satsin lisäksi.
+
+Payjoin-tapahtumalla on kaksi tavoitetta. Ensinnäkin sen tarkoituksena on johtaa ulkopuolista tarkkailijaa harhaan luomalla houkutin ketjuanalyysissä Common Input Ownership Heuristic (CIOH) -menetelmällä. Yleensä kun lohkoketjussa tapahtumassa on useita syötteitä, oletetaan, että kaikki nämä syötteet kuuluvat todennäköisesti samalle taholle. Kun analyytikko siis tutkii Payjoin-transaktiota, hän saa käsityksen, että kaikki syötteet ovat peräisin samalta henkilöltä. Tämä käsitys on kuitenkin virheellinen, koska myös maksun vastaanottaja osallistuu panoksiin varsinaisen maksajan ohella. Toiseksi Payjoin harhauttaa ulkopuolista tarkkailijaa myös suoritetun maksun todellisesta määrästä. Tarkastelemalla tapahtuman rakennetta analyytikko saattaa uskoa, että maksu vastaa yhden tuotoksen määrää. Todellisuudessa maksun määrä ei vastaa yhtään tuotosta. Se on itse asiassa erotus vastaanottajan UTXO:n tuotoksen ja vastaanottajan UTXO:n tulon välillä. Tässä mielessä Payjoin-transaktio kuuluu steganografian piiriin. Sen avulla transaktion todellinen määrä voidaan piilottaa väärän transaktion sisään, joka toimii harhautuksena.
+
+![](../../dictionnaire/assets/14.webp)
+
+> ► *Payjoinia kutsutaan joskus myös nimellä "P2EP (Pay-to-End-Point)", "Stowaway" tai "steganografinen transaktio".*

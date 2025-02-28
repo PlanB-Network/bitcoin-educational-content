@@ -1,0 +1,9 @@
+question: Miks on ettevõtjatele soovitatav alustada väikese esialgse Bitcoini ostuga?
+answer: See võimaldab neil saada praktilisi kogemusi ja arusaamist enne suuremate summade eraldamist.
+wrong_answers:
+  - See takistab juriidiliselt ettevõtte maksukohustuste tekkimist.
+  - See tagab ettevõttele koheselt maksimaalse tulu.
+  - See muudab ettevõtte immuunseks kõigi krüptoraha pettuste suhtes.
+explanation: |
+  Väike alginvesteering aitab ettevõtetel õppida Bitcoini ostmise, säilitamise ja haldamise praktilisi aspekte ilma märkimisväärse riski võtmata.
+reviewed: false

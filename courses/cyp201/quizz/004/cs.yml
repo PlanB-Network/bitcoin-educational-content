@@ -1,0 +1,9 @@
+question: Která kombinace hašovacích funkcí se používá pro generování kratších otisků v Bitcoinu?
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160 kombinuje SHA256 a RIPEMD160 pro generování 160bitových otisků, zejména pro adresy Bitcoinu.
+reviewed: false

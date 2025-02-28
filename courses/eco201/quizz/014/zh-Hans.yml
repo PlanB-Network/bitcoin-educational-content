@@ -1,0 +1,8 @@
+question: Carl Menger的边际价值理论与Leon Walras和William Stanley Jevons的理论之间的根本区别是什么？
+answer: Menger的理论主要是主观的，而Walras和Jevons认为价值是一个客观且可测量的现象。
+wrong_answers:
+  - Menger的理论主要是客观的，而Walras和Jevons认为价值是一个主观且不可测量的现象。
+  - Menger的理论基于劳动价值理论，而Walras和Jevons认为价值基于生产中使用的土地数量。
+  - Menger的理论基于重农主义的土地价值理论，而Walras和Jevons认为价值基于生产中使用的劳动。
+explanation: |
+  根据章节内容，Menger的边际价值理论是主观的，意味着它基于个体对他们能从商品或服务中获得的效用的感知。另一方面，Walras和Jevons认为价值是一个客观且可测量的现象。

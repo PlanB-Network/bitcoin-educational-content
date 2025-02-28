@@ -1,0 +1,9 @@
+question: Hva er hovedformålet med deterministiske Bitcoin-forpliktelser?
+answer: Sikre at én enkelt forpliktelse settes inn i en transaksjon
+wrong_answers:
+  - Forenkling av strukturen for Bitcoin-transaksjoner
+  - Reduser RGB-transaksjonskostnadene
+  - Optimalisering av generering av RGB-multisignaturer
+explanation: |
+  Bitcoins deterministiske forpliktelser garanterer at én enkelt forpliktelse settes inn i en transaksjon, slik at man unngår skjulte konkurrerende forpliktelser.
+reviewed: false

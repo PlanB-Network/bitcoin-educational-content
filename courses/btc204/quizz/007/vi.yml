@@ -1,0 +1,9 @@
+question: Merge trong một giao dịch là gì?
+answer: Đó là hành động sử dụng nhiều UTXO làm đầu vào.
+wrong_answers:
+  - Đó là hành động tạo ra nhiều UTXO làm đầu ra.
+  - Đó là hành động kết hợp nhiều địa chỉ thành một.
+  - Đó là hành động kết hợp nhiều khối trong blockchain.
+explanation: |
+  Khi người dùng không có bất kỳ UTXO nào lớn hơn hoặc bằng số lượng họ muốn gửi, họ phải sử dụng nhiều UTXO của mình để đáp ứng các đầu ra. Thực hành này được gọi là merging.
+reviewed: false

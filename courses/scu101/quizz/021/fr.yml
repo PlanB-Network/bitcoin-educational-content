@@ -1,0 +1,12 @@
+question: Quel est le risque potentiel de l'utilisation de logiciels crackés qui ne peuvent pas être mis à jour ?
+answer: L'arrivée d'un virus lors de son téléchargement illégal et une utilisation non sécurisée face à de nouvelles formes d'attaque.
+wrong_answers:
+  - Le logiciel cessera de fonctionner après une certaine période.
+  - Le logiciel n'aura aucune nouvelle fonctionnalité.
+  - Le logiciel consommera plus de ressources système.
+explanation: |
+  Les logiciels crackés qui ne peuvent pas être mis à jour représentent une double
+  menace potentielle. Ils peuvent amener un virus lors de leur téléchargement illégal
+  depuis un site web suspect et ils peuvent être non sécurisés
+  contre de nouvelles formes d'attaque.
+reviewed: true

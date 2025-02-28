@@ -1,0 +1,9 @@
+question: Điều kiện nào phải được thỏa mãn để người nhận của một HTLC có thể nhận được tiền?
+answer: Họ phải cung cấp một bí mật (preimage) để mở khóa khoản thanh toán.
+wrong_answers:
+  - Họ phải chấp nhận phí định tuyến của từng nút trung gian.
+  - Họ phải ký một giao dịch cam kết mới.
+  - Họ phải đợi cho đến khi hết thời gian khóa trước khi lấy lại tiền.
+explanation: |
+  Để nhận được tiền trong một HTLC, người nhận phải cung cấp một bí mật cụ thể cho phép mở khóa khoản thanh toán được bảo vệ bởi hash.
+reviewed: false

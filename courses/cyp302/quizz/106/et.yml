@@ -1,0 +1,8 @@
+question: Milline mehhanism takistab peegeldusrünnete toimumist turvalises suhtluses?
+answer: Iga osaleja jaoks unikaalse identifikaatori lisamine
+wrong_answers:
+  - Võtme pikkuse suurendamine
+  - Iga sõnumi jaoks mitme võtme kasutamine
+  - Iga sõnumi juurde lisavõtme lisamine
+explanation: |
+  Iga osaleja jaoks unikaalse identifikaatori lisamine krüpteeritud sõnumisse takistab peegeldusrünnete toimumist, kuna see võimaldab eristada sõnumite päritolu.

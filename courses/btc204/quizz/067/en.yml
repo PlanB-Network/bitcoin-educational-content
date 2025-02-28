@@ -1,0 +1,13 @@
+question: Which heuristic can be used to link all the inputs of a consolidation?
+
+answer: The CIOH.
+
+wrong_answers:
+  - Address reuse.
+  - The largest output.
+  - Round payment.
+
+explanation: |
+  An external observer can apply the CIOH to hypothesize that all the inputs of a consolidation belong to the same entity.
+
+reviewed: false

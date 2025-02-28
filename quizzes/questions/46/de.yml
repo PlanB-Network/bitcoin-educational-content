@@ -1,9 +1,0 @@
-question: Was ist das Hauptmerkmal von Bitcoin, das es von Fiat-Währungen unterscheidet?
-answer: Seine Geldpolitik wird durch einen allgemeinen Konsens durchgesetzt.
-wrong_answers:
-  - Es kann von Zentralbanken in unbegrenzten Mengen gedruckt werden.
-  - Es wird durch eine physische Ware wie Gold oder Silber gestützt.
-  - Es wird von einer Zentralbank reguliert.
-explanation: |
-  Bitcoin kann aufgrund seiner dezentralen und kryptografischen Natur unter anderem nicht gefälscht werden und ist auf 21 Millionen Einheiten begrenzt. Dies ist ein Hauptmerkmal, das es von Fiat-Währungen unterscheidet, deren Geldpolitik von Zentralbanken geändert werden kann.
-reviewed: false

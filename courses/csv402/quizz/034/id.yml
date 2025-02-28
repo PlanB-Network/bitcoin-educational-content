@@ -1,0 +1,9 @@
+question: Tindakan apa yang dilakukan Bob (penerima) setelah ia menerima kiriman terminal dari Alice (pembayar)?
+answer: Periksa validitas Transisi Negara dan tandatangani
+wrong_answers:
+  - Ubah Skema Kontrak dan kirimkan ke Alice
+  - Membuat faktur untuk operasi baru
+  - Tanda tangani PSBT Alice dan distribusikan pada rantai
+explanation: |
+  Bob memeriksa kiriman tersebut, memastikan bahwa transisi tersebut sesuai dengan aturan, dan menandatangani untuk mengonfirmasi persetujuannya.
+reviewed: false

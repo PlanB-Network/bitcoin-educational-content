@@ -1,0 +1,9 @@
+question: Mis juhtub, kui intressimäärad langevad tänu säästude suurenemisele vastavalt Austria äritsükli teooriale?
+answer: Lõpptoodete tarbimise maht väheneb, intressimäärad langevad, ettevõtjad kasutavad seda kapitali juurdevoolu uute investeerimiskaupade loomiseks ja seeläbi tootmisstruktuuri pikendamiseks.
+wrong_answers:
+  - Lõpptoodete tarbimise maht suureneb, intressimäärad tõusevad, ettevõtjad kasutavad seda kapitali juurdevoolu uute investeerimiskaupade loomiseks ja seeläbi tootmisstruktuuri lühendamiseks.
+  - Lõpptoodete tarbimise maht väheneb, intressimäärad tõusevad, ettevõtjad kasutavad seda kapitali juurdevoolu uute investeerimiskaupade loomiseks ja seeläbi tootmisstruktuuri lühendamiseks.
+  - Lõpptoodete tarbimise maht suureneb, intressimäärad langevad, ettevõtjad kasutavad seda kapitali juurdevoolu uute investeerimiskaupade loomiseks ja seeläbi tootmisstruktuuri lühendamiseks.
+explanation: |
+  Austria äritsükli teooria kohaselt, kui intressimäärad langevad tänu säästude suurenemisele, väheneb lõpptoodete tarbimise maht, kuna säästmine tähendab osa oma tarbimise edasilükkamist hilisemaks ajaks. Selle tulemusena intressimäärad langevad, kuna kapitali pakkumine suureneb. See võimaldab ettevõtjatel kasutada seda kapitali juurdevoolu uute investeerimiskaupade loomiseks ja seeläbi tootmisstruktuuri pikendamiseks.
+reviewed: false

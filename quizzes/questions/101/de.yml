@@ -1,9 +1,0 @@
-question: Was bedeutet das Fehlen einer mnemonischen Phrase in einer Brieftasche?
-answer: Die Brieftasche ist nicht sicher für die langfristige Aufbewahrung.
-wrong_answers:
-  - Die Brieftasche ist sicher für die langfristige Aufbewahrung.
-  - Die Brieftasche ist nicht sicher für die kurzfristige Aufbewahrung.
-  - Die Brieftasche ist nicht sicher für Ausgaben.
-explanation: |
-  Das Fehlen einer Liste von 12 oder 24 Wörtern, das heißt der mnemonischen Phrase, in einer Brieftasche sollte Sie darauf aufmerksam machen, dass die Brieftasche nicht sicher ist, da sie nicht dem Standard-Backup-Verfahren folgt.
-reviewed: false

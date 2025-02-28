@@ -1,0 +1,9 @@
+question: 运行兼容 RGB 的 Lightning 节点需要哪些主要组件？
+answer: 比特币、索引器和 RGB 代理服务器
+wrong_answers:
+  - 一个 Lightning 节点、一个索引器和一个 IPFS 服务器
+  - 一个 RGB 移动钱包、一个 RGB 代理服务器和一个 bitcoind
+  - 网络客户端、索引器和 RGB 代理服务器
+explanation: |
+  要运行支持 RGB 的闪电节点，您需要一个 bitcoind 节点来与比特币区块链交互，一个索引器来挖掘链上交易，以及一个 RGB 代理服务器来促进同行之间的委托交换。
+reviewed: false

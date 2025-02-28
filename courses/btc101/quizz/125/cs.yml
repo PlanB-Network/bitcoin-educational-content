@@ -1,0 +1,9 @@
+question: Jaké je datum poslední známé soukromé zprávy od Satoshi Nakamota poslané emailem?
+answer: 23. dubna 2011.
+wrong_answers:
+  - 12. prosince 2010.
+  - 8. ledna 2009.
+  - 31. října 2008.
+explanation: |
+  Datum poslední známé soukromé zprávy od Satoshi Nakamota poslané emailem je 23. dubna 2011. Byla poslána vývojáři Mike Hearn.
+reviewed: true

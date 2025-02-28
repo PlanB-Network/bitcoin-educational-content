@@ -1,0 +1,9 @@
+question: Was ermöglicht die Funktion LNURL-withdraw den Benutzern?
+answer: Mittel von einem Dienst abheben, indem sie einen QR-Code scannen
+wrong_answers:
+  - Eine direkte Zahlung ohne Routing-Gebühren tätigen
+  - Ihr Lightning-Wallet ohne Passwort verbinden
+  - Mittel ohne Bestätigung des Empfängers senden
+explanation: |
+  LNURL-withdraw ermöglicht es Benutzern, Mittel von einem Dienst abzuheben, indem sie einen QR-Code scannen, wodurch der Abhebungsprozess vereinfacht wird.
+reviewed: false

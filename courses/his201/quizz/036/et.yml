@@ -1,0 +1,9 @@
+question: Kes disainis esimese päris Bitcoin'i logo (kuldne suurtäht B, millest lähevad läbi kaks vertikaalset joont) veebruaris 2010?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  Ta kasutas NewLibertyStandard'i ettepanekut kasutada Tai bahti sümbolit (฿). Oranž logo loodi hiljem kellegi poolt, kes on tuntud kui bitboy.
+reviewed: false

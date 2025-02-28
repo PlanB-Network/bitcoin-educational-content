@@ -1,9 +1,0 @@
-question: Qual è la pratica consigliata per conservare la password per la crittografia dei dati?
-answer: Scrivere la password su un foglio di carta da conservare in un luogo sicuro.
-wrong_answers:
-  - Conservare la password in un file di testo sul computer.
-  - Condividere la password con amici fidati.
-  - Utilizzare una password comune che sia facile da ricordare.
-explanation: |
-  Si consiglia di scrivere la password per la crittografia dei dati su un foglio di carta e conservarla in un luogo sicuro. Questo serve a prevenire la perdita dell'accesso ai dati crittografati.
-reviewed: false

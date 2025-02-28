@@ -1,0 +1,9 @@
+question: In una semplice transazione di pagamento dove c'è un input di 500.000 sats diviso in un output di 47.500 sats e un altro di 451.000 sats, quale UTXO è probabilmente il resto?
+answer: Quello di 451.000 sats.
+wrong_answers:
+  - Quello di 500.000 sats.
+  - Quello di 47.500 sats.
+  - Nessuno di questi.
+explanation: |
+  Quando c'è una differenza sufficientemente grande tra due output in una transazione su un modello di pagamento semplice, si può stimare che l'output più grande sia probabilmente il resto.
+reviewed: false

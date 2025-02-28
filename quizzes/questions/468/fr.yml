@@ -1,9 +1,0 @@
-question: Quel est le principal avantage des portefeuilles hiérarchiques déterministes (HD wallets) ?
-answer: Ils permettent la génération déterministe et hiérarchique de paires de clés enfant à partir d'une seule pièce d'information.
-wrong_answers:
-  - Ils permettent la génération de plusieurs clés privées à partir d'une seule clé publique.
-  - Ils permettent la génération de plusieurs clés publiques à partir d'une seule clé privée.
-  - Ils permettent la génération de plusieurs portefeuilles à partir d'une seule paire de clés.
-explanation: |
-  Les portefeuilles hiérarchiques déterministes (HD wallets) permettent la génération déterministe et hiérarchique de paires de clés enfant à partir d'une seule pièce d'information. Cela facilite la génération et la gestion des clés tout en maintenant un niveau élevé de sécurité.
-reviewed: false

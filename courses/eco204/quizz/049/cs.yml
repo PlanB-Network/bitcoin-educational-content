@@ -1,0 +1,9 @@
+question: Podle Bernolda, jaká je jediná metoda ukončení inflace?
+answer: Provést měnovou reformu a zavést omezení pro vládu
+wrong_answers:
+  - Zvýšit peněžní zásobu
+  - Snížit peněžní zásobu
+  - Přijmout cizí měnu
+explanation: |
+  Bernold naznačuje, že jediný způsob, jak ukončit inflaci, je provést měnovou reformu a zavést omezení pro vládu. To zahrnuje zřízení instituce, jako je centrální banka, která funguje nezávisle na politických rozhodnutích vlády.
+reviewed: false

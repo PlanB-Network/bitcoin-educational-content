@@ -1,0 +1,9 @@
+question: Kích thước tính bằng bit của một đoạn nhị phân được sử dụng để tạo ra mỗi từ gợi nhớ là bao nhiêu?
+answer: 11 bit
+wrong_answers:
+  - 8 bit
+  - 16 bit
+  - 10 bit
+explanation: |
+  Mỗi đoạn 11-bit tương ứng với một từ trong danh sách chuẩn hóa gồm 2048 từ trong BIP39.
+reviewed: false

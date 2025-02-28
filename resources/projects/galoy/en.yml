@@ -1,0 +1,10 @@
+description: |
+  Galoy offers an open-source core banking platform designed to launch enterprise-scale Bitcoin and Lightning applications. It provides accelerated development of Bitcoin banking solutions through self-hosted infrastructure or a managed "Banking-as-a-Service" implementation.
+
+  The platform enables organizations to launch a Bitcoin community bank using a shared custody model and an easy-to-use Lightning wallet. It's the same technology that helped Bitcoin Beach build a circular economy. This proven infrastructure can also be used by governments to provide 21st-century financial services to anyone with a mobile phone and an internet connection.
+
+  Founded on the belief that Bitcoin is money, Galoy empowers organizations of any size to create their own Bitcoin-based bank. It was the backbone of the Bitcoin Beach Wallet project in El Zonte, El Salvador, which was instrumental in developing a sustainable Bitcoin economy and has seen significant growth since the country's adoption of Bitcoin as legal tender.
+
+  Galoy is the bridge for organizations looking to integrate with the Lightning network, and a beacon for open-source contributors striving to build a better financial system.
+contributors:
+  - rabbit-hole

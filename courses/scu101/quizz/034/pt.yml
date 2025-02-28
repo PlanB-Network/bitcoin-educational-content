@@ -1,0 +1,11 @@
+question: Que conteúdo malicioso podem conter os anexos e imagens de e-mails?
+answer: Malware
+wrong_answers:
+  - Spam
+  - Anúncios
+  - Conteúdo promocional
+explanation: |
+  Anexos e imagens de e-mails podem conter malware.
+  Portanto, você não deve baixar ou abrir anexos de
+  remetentes desconhecidos ou suspeitos.
+reviewed: true

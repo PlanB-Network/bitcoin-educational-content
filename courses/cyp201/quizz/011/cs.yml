@@ -1,0 +1,8 @@
+question: Jaká hashovací funkce je používána HMAC v kontextu Bitcoinu?
+answer: SHA512
+wrong_answers:
+  - SHA256
+  - RIPEMD160
+  - HASH160
+explanation: |
+  HMAC používá SHA512 pro vytvoření bezpečného 512-bitového hash.

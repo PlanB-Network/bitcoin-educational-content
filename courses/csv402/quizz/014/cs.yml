@@ -1,0 +1,9 @@
+question: Jakou roli hraje schéma v systému RGB?
+answer: Definice smluvních proměnných, pravidel a obchodní logiky
+wrong_answers:
+  - Výměna zásilek mezi účastníky
+  - Ověřování Pedersenových závazků u transakcí Bitcoin
+  - Vytvoření definic pečetí pro každý UTXO
+explanation: |
+  Schéma strukturuje stav smlouvy a určuje povolené přechody a podmínky validace.
+reviewed: false

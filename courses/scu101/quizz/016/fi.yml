@@ -1,0 +1,10 @@
+question: Mikä on yksi hyöty VPN; n käytöstä kotona internetiä selatessa?
+answer: Se parantaa verkkoliikenteen turvallisuutta vähentämällä kolmansien osapuolien aiheuttamaa uhkaa.
+wrong_answers:
+  - Se voi lisätä internet-yhteytesi perusnopeutta.
+  - Se aina mahdollistaa pääsyn useammille verkkosivuille.
+  - Se säästää mobiilidatan kulutusta verrattuna tilanteeseen, jossa VPN-yhteyttä ei ole muodostettu.
+explanation: |
+  VPN: n käyttö kotona voi parantaa vaihtamasi datan turvallisuutta verkossa. Tämä johtuu siitä, että VPN salaa datan,
+  mikä tekee siitä vaikeampaa kolmansien osapuolien kaapata.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Hva er ransomware?
+answer: En type skadelig programvare som krypterer brukerdata og krever løsepenger for å dekryptere dem.
+wrong_answers:
+  - En type antivirusprogramvare.
+  - En type programvare brukt for datagjenoppretting.
+  - En type programvare brukt for databackup.
+explanation: |
+  Ransomware er en type skadelig programvare som krypterer brukerdata og
+  krever løsepenger for å dekryptere dem. Det blir stadig mer vanlig og kan være svært
+  problematisk for et selskap eller en enkeltperson.
+reviewed: false

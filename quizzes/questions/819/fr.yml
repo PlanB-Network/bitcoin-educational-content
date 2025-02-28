@@ -1,9 +1,0 @@
-question: Quel est le but du site web Have I Been Pwned?
-answer: Vérifier si votre adresse e-mail a été compromise et être informé des futures violations de données.
-wrong_answers:
-  - Vérifier si votre adresse e-mail est valide.
-  - Vérifier si votre adresse e-mail est disponible.
-  - Vérifier si votre adresse e-mail a été bloquée.
-explanation: |
-  Le site web Have I Been Pwned vous permet de vérifier si votre adresse e-mail a été compromise lors d'une violation de données et d'être informé des futures violations de données.
-reviewed: false

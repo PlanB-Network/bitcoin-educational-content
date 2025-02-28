@@ -1,0 +1,9 @@
+question: What is the main goal of the Lightning Network?
+answer: To improve Bitcoin's scalability to enable fast and low-cost payments
+wrong_answers:
+  - Eliminate transaction fees on the Bitcoin blockchain
+  - Create an alternative to Bitcoin for high-value payments
+  - Simplify exchanges between different cryptocurrencies
+explanation: |
+  The Lightning Network aims to enhance Bitcoin's scalability by enabling fast and inexpensive transactions through off-chain payment channels.
+reviewed: false

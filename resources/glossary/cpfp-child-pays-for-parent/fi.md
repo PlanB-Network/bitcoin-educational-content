@@ -1,0 +1,7 @@
+---
+term: CPFP (CHILD PAYS FOR PARENT)
+
+---
+Transaktiomekanismi, jonka tarkoituksena on nopeuttaa Bitcoin-tapahtuman vahvistamista, samaan tapaan kuin Replace-by-Fee (RBF), mutta vastaanottajan puolelta. Kun transaktio, jonka maksut ovat liian alhaiset markkinoihin verrattuna, jää jumiin solmujen mempoolissa eikä vahvistu riittävän nopeasti, vastaanottaja voi tehdä uuden transaktion ja käyttää estyneessä transaktiossa saadut bitcoinit, vaikka sitä ei ole vielä vahvistettu. Tämä toinen transaktio edellyttää välttämättä, että ensimmäinen on louhittu, jotta se voidaan vahvistaa. Louhijoiden on siis pakko sisällyttää molemmat transaktiot yhteen. Toisesta transaktiosta maksetaan paljon enemmän transaktiomaksuja kuin ensimmäisestä, niin että keskimääräinen maksu kannustaa louhijoita sisällyttämään molemmat transaktiot. Lapsitransaktio (toinen) maksaa jumissa olevan emotransaktion (ensimmäinen). Tämän vuoksi sitä kutsutaan "CPFP:ksi"
+
+Näin ollen CPFP:n ansiosta vastaanottaja voi saada rahansa nopeammin, vaikka lähettäjälle aiheutuvat alkuperäiset maksut ovat alhaiset, toisin kuin RBF (*Replace-By-Fee*), jossa lähettäjä voi tehdä aloitteen nopeuttaakseen omaa maksutapahtumaansa korottamalla maksuja.

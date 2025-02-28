@@ -1,0 +1,5 @@
+---
+term: KOMPAKTES BLOCKRELAIS
+
+---
+Protokoll, das 2016 durch BIP152 in Bitcoin Core eingeführt wurde und eine bandbreitenschonende Methode für Netzwerkknoten vorschlägt. Compact Block Relay ermöglicht die Übermittlung von Blockinformationen auf kompakte Weise, basierend auf der Annahme, dass die Knoten bereits die meisten Transaktionen eines aktuellen Blocks in ihrem Mempool haben. Anstatt jede Transaktion vollständig zu übermitteln, was zu Doppelarbeit führen würde, schlägt Compact Block Relay vor, nur kurze Identifikatoren für Transaktionen zu senden, die den Peers bereits bekannt sind, zusammen mit einigen ausgewählten Transaktionen (insbesondere die Coinbase-Transaktion und solche, die der Knoten wahrscheinlich nicht kennt). Der Knoten kann dann alle fehlenden Transaktionen von seinen Peers anfordern. Compact Block Relay reduziert somit die Datenmenge, die während der Blockübertragung ausgetauscht wird, was wiederum die Bandbreitenspitzen verringert und die Gesamteffizienz des Netzes verbessert.

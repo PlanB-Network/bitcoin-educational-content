@@ -1,0 +1,9 @@
+question: What element was missing from the design of Bitcoin on October 31, 2008?
+answer: The finite amount of units
+wrong_answers:
+  - Proof of work
+  - Simplified payment verification
+  - The blockchain
+explanation: |
+  The initial monetary policy corresponded to a constant issuance (X BTC/block) as indicated by the first version of the white paper and Satoshi's [exchanges](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) with Ray Dillinger.
+reviewed: false

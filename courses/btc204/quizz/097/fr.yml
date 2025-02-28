@@ -1,0 +1,13 @@
+question: Qu'indique un grand anonset sur la confidentialité d'un UTXO ?
+
+answer: Une meilleure confidentialité.
+
+wrong_answers:
+  - Une moins bonne la confidentialité.
+  - Une meilleure traçabilité.
+  - Une meilleure vitesse des transactions coinjoin.
+
+explanation: |
+  Un anonset de grande taille indique un niveau d'anonymat élevé, car il devient difficile de distinguer un UTXO spécifique au sein de l'ensemble homogène.
+
+reviewed: false

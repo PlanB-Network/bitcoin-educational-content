@@ -1,0 +1,9 @@
+question: Quel est le modèle de confidentialité du système bancaire ?
+answer: Seule la banque a accès aux détails des transactions.
+wrong_answers:
+  - Les transactions sont publiques, mais l'identité des utilisateurs n'est pas connue.
+  - Les transactions sont anonymes et cachées à tous, y compris à la banque.
+  - Seuls les gouvernements ont accès aux détails des transactions.
+explanation: |
+  Dans le système traditionnel, chaque compte bancaire est lié à une identité. Mais le flux d'informations est coupé entre la banque et le domaine public.
+reviewed: false

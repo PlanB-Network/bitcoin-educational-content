@@ -1,0 +1,9 @@
+question: Qual è il nome del modello che consiste in un singolo UTXO in ingresso e un singolo UTXO in uscita?
+answer: Sweeping
+wrong_answers:
+  - Consolidamento
+  - Coinjoin
+  - Spesa in batch
+explanation: |
+  L'interpretazione di questa struttura è che ci troviamo di fronte a uno sweeping, ovvero un'autotrasferimento di bitcoin.
+reviewed: false

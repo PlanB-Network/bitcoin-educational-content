@@ -1,0 +1,9 @@
+question: Why is it risky to manually generate entropy for an HD wallet?
+answer: It can introduce human weaknesses or predictable biases
+wrong_answers:
+  - It results in invalid public keys
+  - It blocks the derivation of private keys
+  - It limits the size of the generated mnemonic phrases
+explanation: |
+  Manually generating entropy can introduce biases or errors, making the keys more vulnerable to attacks.
+reviewed: false

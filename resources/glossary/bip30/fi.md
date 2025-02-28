@@ -1,0 +1,5 @@
+---
+term: BIP30
+
+---
+Parannusehdotus, johon sisältyy 15. maaliskuuta 2012 toteutettu pehmeä haarautuminen, jolla ratkaistaan transaktioiden päällekkäisten tunnisteiden ongelma. Ennen BIP30:tä oli teknisesti mahdollista, että lohkoketjussa oli kaksi eri transaktiota, joilla oli sama transaktiotunniste (TXID). Tämä tapahtui kahdesti coinbase-tapahtumien kohdalla: lohkossa 91,880 olevalla tapahtumalla on sama TXID kuin lohkon 91,722 coinbase-tapahtumalla ja lohkossa 91,842 olevalla tapahtumalla on sama TXID kuin lohkon 91,812 coinbase-tapahtumalla. BIP30 ratkaisi tämän virheen ottamalla käyttöön uuden yksinkertaisen säännön: millään uudella transaktiolla ei voi olla samaa TXID-tunnusta kuin aiemmin kirjatulla transaktiolla, ellei alkuperäistä transaktiota ole käytetty kokonaan (eli kaikki sen tuotot on käytetty). Tämä pehmeä haarautuminen aktivoitiin flag day -menetelmällä. Näin ollen se on yksi ensimmäisistä UASF:istä.

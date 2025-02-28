@@ -1,0 +1,13 @@
+question: Sự khác biệt chính giữa kinh tế Keynes và kinh tế Áo là gì?
+answer: Kinh tế Keynes tin vào việc in tiền và chi tiêu để thúc đẩy tăng trưởng, trong khi kinh tế Áo nhấn mạnh vào một tầm nhìn điềm đạm hơn về tăng trưởng và lý trí con người.
+wrong_answers:
+  - Kinh tế Keynes nhấn mạnh vào một tầm nhìn điềm đạm hơn về tăng trưởng và lý trí con người, trong khi kinh tế Áo tin vào việc in tiền và chi tiêu để thúc đẩy tăng trưởng.
+  - Kinh tế Keynes tập trung vào việc sản xuất và quản lý tiền tệ bởi các ngân hàng trung ương, trong khi kinh tế Áo tin vào sự phân quyền của quyền lực tiền tệ.
+  - Kinh tế Keynes tin vào sự tập trung quyền lực tiền tệ, trong khi kinh tế Áo tập trung vào việc sản xuất và quản lý tiền tệ bởi các ngân hàng trung ương.
+explanation: |
+  Chương này giải thích rằng kinh tế Keynes ủng hộ ý tưởng rằng
+  việc sản xuất và quản lý tiền tệ là trách nhiệm của các ngân hàng trung ương,
+  và rằng việc in tiền và chi tiêu thúc đẩy tăng trưởng. Mặt khác, kinh tế
+  Áo, với hơn 200 năm nghiên cứu và phát triển, suy ngẫm triết học,
+  và các tác phẩm của các tác giả nổi tiếng, nhấn mạnh vào một tầm nhìn điềm đạm hơn về tăng trưởng và lý trí con người trong nền kinh tế của chúng ta.
+reviewed: false

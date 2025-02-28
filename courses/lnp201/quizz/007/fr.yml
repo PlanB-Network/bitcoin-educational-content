@@ -1,0 +1,9 @@
+question: Pourquoi les UTXO sont-ils souvent comparés à des billets de banque ?
+answer: Ils doivent être dépensés en totalité
+wrong_answers:
+  - Ils peuvent être utilisés plusieurs fois jusqu'à épuisement
+  - Ils ne sont utilisables que dans certaines transactions spécifiques
+  - Ils représentent de petits montants fixes de bitcoins
+explanation: |
+  Comme un billet de banque, un UTXO doit être dépensé en entier dans une transaction, et tout excédent est renvoyé à l'expéditeur comme change.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Trong một giao dịch thanh toán đơn giản khi có một đầu vào là 500,000 sats được chia thành một đầu ra là 47,500 sats và đầu ra khác là 451,000 sats, UTXO nào có khả năng là tiền thối?
+answer: Đầu ra 451,000 sats.
+wrong_answers:
+  - Đầu ra 500,000 sats.
+  - Đầu ra 47,500 sats.
+  - Không có cái nào.
+explanation: |
+  Khi có sự chênh lệch đủ lớn giữa hai đầu ra trong một giao dịch theo mô hình thanh toán đơn giản, có thể ước lượng rằng đầu ra lớn hơn có khả năng là tiền thối.
+reviewed: false

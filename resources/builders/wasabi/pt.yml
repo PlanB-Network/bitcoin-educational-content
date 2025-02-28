@@ -1,7 +1,0 @@
-description: |
-  A Carteira Wasabi é projetada para aqueles que valorizam a privacidade, em um mundo onde a vigilância e o uso indevido de informações são desenfreados.
-  
-  Como um software de conhecimento zero, garante que as transações de bitcoin do usuário permaneçam como negócios privados. A Carteira Wasabi é de código aberto, permitindo que qualquer pessoa verifique ou contribua para o código. Seu design é sem confiança, garantindo que nem o público nem os desenvolvedores possam infringir sua privacidade. A carteira é não custodial, permitindo que você mantenha o controle sobre suas chaves privadas e alcance verdadeira soberania financeira. Apesar de seus recursos avançados, a Wasabi é projetada para ser fácil de usar e lidar com a privacidade automaticamente. Usa o WabiSabi, um esquema de credencial anônimo, para tornar as coinjoins mais acessíveis e eficientes. Além disso, é acessível, cobrando uma taxa modesta para coinjoin de moedas acima de 0,01 BTC, enquanto entradas de 0,01 BTC ou abaixo e remixes são gratuitos de taxas de coordenador.
-contributors:
-  - rabbit-hole
-  - another-satoshi

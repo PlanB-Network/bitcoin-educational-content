@@ -1,0 +1,9 @@
+question: Bagaimana RGB membuka jalan bagi DEX layer-2?
+answer: Dengan memungkinkan pertukaran aset off-chain melalui saluran Lightning dan atomic swap
+wrong_answers:
+  - Dengan memungkinkan penggunaan bursa terpusat untuk semua transaksi RGB
+  - Dengan memungkinkan pertukaran aset melalui kontrak pintar on-chain
+  - Dengan memungkinkan pertukaran aset antar-blockchain melalui pertukaran atom
+explanation: |
+  Kemampuan untuk melakukan pertukaran dan pertukaran atom melalui saluran Lightning menawarkan kemungkinan untuk membuat DEX yang terdesentralisasi, tanpa kerugian dari pertukaran on-chain.
+reviewed: false

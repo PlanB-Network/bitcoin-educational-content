@@ -1,0 +1,9 @@
+question: Dopo l'incidente del valore overflow, quale meccanismo è stato aggiunto al software da Satoshi per limitare l'impatto delle potenziali vulnerabilità sul sistema?
+answer: Il sistema di allerta
+wrong_answers:
+  - La natura standard delle transazioni
+  - Il limite di dimensione del blocco
+  - Gli op codes OP_NOP
+explanation: |
+  Questo efficace sistema di allerta gli permetteva, con l'uso di una chiave privata, di avvisare i nodi della rete in caso di problema tecnico e di sospendere alcuni comandi API.
+reviewed: false

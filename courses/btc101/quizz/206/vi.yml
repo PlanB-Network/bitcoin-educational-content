@@ -1,0 +1,11 @@
+question: FOMO và FUD là gì?
+answer: Cảm xúc có thể dẫn đến quyết định mua bán bốc đồng và có thể gây hại.
+wrong_answers:
+  - Các loại ví Bitcoin.
+  - Chiến lược mua Bitcoin.
+  - Quy định liên quan đến Bitcoin.
+explanation: >-
+  Văn bản giải thích rằng FOMO (Nỗi sợ bỏ lỡ) và FUD (Nỗi sợ, Sự không chắc chắn,
+  Nghi ngờ) là những cảm xúc có thể dẫn đến quyết định mua bán bốc đồng và có thể gây hại
+  khi mua Bitcoin.
+reviewed: true

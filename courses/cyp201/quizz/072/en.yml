@@ -1,0 +1,9 @@
+question: What does an apostrophe (') or the h in a derivation path mean?
+answer: A hardened derivation
+wrong_answers:
+  - A normal derivation
+  - An external derivation
+  - A non-standard derivation
+explanation: |
+  An apostrophe indicates that the derivation is hardened, requiring a parent private key to generate the child key.
+reviewed: false

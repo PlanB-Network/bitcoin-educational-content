@@ -1,0 +1,13 @@
+question: ¿Cuál es la principal preocupación con el Single Sign-On (SSO) ofrecido por los gigantes de internet?
+answer: Plantea problemas en términos de disponibilidad y riesgos de censura.
+wrong_answers:
+  - Es difícil de usar.
+  - Requiere mucho espacio de almacenamiento.
+  - No es compatible con todos los sitios web.
+explanation: |
+  El Single Sign-On (SSO) ofrecido por los gigantes de internet
+  plantea problemas en términos de disponibilidad y riesgos de censura.
+  Esto se debe a que si el proveedor de SSO experimenta una interrupción
+  o decide bloquear a un usuario, el usuario podría perder acceso a
+  todos los servicios que utilizan ese SSO para la autenticación.
+reviewed: true

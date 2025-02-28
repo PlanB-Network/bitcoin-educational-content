@@ -1,0 +1,9 @@
+question: If we observe a transaction with 1 UTXO in input and 43 UTXOs in outputs, what pattern can we recognize?
+answer: A batched spend
+wrong_answers:
+  - A consolidation
+  - A simplified payment
+  - A collaborative transaction
+explanation: |
+  The interpretation of this pattern is that we are dealing with a batched spend. This structure allows entities such as exchange platforms to save on fees by grouping their expenses into a single transaction.
+reviewed: false

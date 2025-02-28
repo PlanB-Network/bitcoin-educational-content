@@ -1,0 +1,9 @@
+question: ¿Qué debe hacer Alice (remitente) tras recibir la factura de Bob?
+answer: Construir un PSBT con su UTXO y generar la terminal de consignación de transferencias
+wrong_answers:
+  - Firmar la transacción Bitcoin que gasta su UTXO que contiene el sello de un solo uso
+  - Importe el envío a su propio monedero para conocer los detalles del contrato
+  - Emitir una nueva factura para una emisión de activos
+explanation: |
+  Alice debe crear un PSBT para gastar el UTXO asociado al activo y, a continuación, generar un envío terminal que incluya la nueva transición a Bob.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Näistä vaihtoehdoista, mikä ei ole menetelmä automaattiseen osavalintaan?
+
+answer: Silent Payments
+
+wrong_answers:
+  - Branch-and-Bound
+  - FIFO
+  - Knapsack Solver
+
+explanation: |
+  Toisin kuin kolme muuta vaihtoehtoa, Silent Payments ei ole menetelmä osien valintaan, vaan protokolla staattisten osoitteiden käyttöön.

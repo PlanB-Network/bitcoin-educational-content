@@ -1,0 +1,14 @@
+title: "Деревня биткойнов"
+publication_year: 2023
+cover: cover_en.webp
+original: true
+description: |
+  В книге "Деревня Биткойн" автор проводит нас в познавательное путешествие по этой технологии, исследуя от истоков денег до сути компьютерного протокола. Он также размышляет о социальных и политических последствиях, определяя основы, которые биткойн закладывает для более справедливого и сознательного общества.
+contributors:
+  - another-satoshi
+original_language: en
+proofreading:
+  - language: en
+    urgency: 1
+    contributors_id:
+      - davidecoltro

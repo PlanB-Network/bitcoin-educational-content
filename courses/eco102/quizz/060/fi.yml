@@ -1,0 +1,9 @@
+question: Mikä on pääongelma julkisessa menossa Bastiat'n mukaan?
+answer: Sitä tuhlataan usein
+wrong_answers:
+  - Se luo liikaa työpaikkoja
+  - Se on epäreilua varakkaimpia kohtaan
+  - Se on välttämätöntä yhteiskunnan toiminnalle
+explanation: |
+  Bastiat pitää julkista menoa tuhlaamisen lähteenä, koska yksilöiltä konfiskoituja varoja käytetään usein väärin valtion toimesta.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wie wird das doppelte Ausgeben bei Bitcoin verhindert?
+answer: Durch die öffentliche Übertragung aller Systemtransaktionen.
+wrong_answers:
+  - Durch die Überprüfung der Identität der Nutzer vor jeder Transaktion.
+  - Durch die periodische Überprüfung der Transaktionen durch Prüfer.
+  - Durch die Begrenzung der Anzahl der Transaktionen pro Nutzer.
+explanation: |
+  Um das Fehlen einer Transaktion zu bestätigen und somit doppeltes Ausgeben zu vermeiden, ist es notwendig, dass jeder Nutzer über alle vergangenen Transaktionen informiert ist.
+reviewed: false

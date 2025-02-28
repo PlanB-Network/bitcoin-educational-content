@@ -1,9 +1,0 @@
-question: Was ist der Zweck einer Bitcoin-Wallet?
-answer: Um den privaten Schlüssel zu speichern, um Bitcoins zu übertragen.
-wrong_answers:
-  - Um Geräteressourcen zum Mining von Bitcoins zu nutzen.
-  - Um Bitcoins mit dem öffentlichen Schlüssel zu kaufen.
-  - Um Bitcoins auf einem Gerät zu speichern.
-explanation: |
-  Bitcoin-Wallets sind Software, die es Ihnen ermöglicht, die privaten Schlüssel zu speichern, die es Ihnen ermöglichen, Ihre Bitcoins zu übertragen.
-reviewed: false

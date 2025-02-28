@@ -1,0 +1,18 @@
+---
+term: CHAUMIAN COINJOIN
+
+---
+Coinjoin-protokolla, jossa käytetään David Chaumin sokeaa allekirjoitusta ja Toria osallistujien ja koordinaattorin palvelimen väliseen viestintään. Chaumin coinjoinin tavoitteena on varmistaa osallistujille, että koordinaattori ei voi varastaa bitcoineja eikä yhdistää tuloja ja lähtöjä toisiinsa.
+
+Tätä varten käyttäjät toimittavat koordinaattorille syötteensä ja salatun vastaanotto-osoitteensa. Kun tämä osoite on vapautettu, sen on tarkoitus vastaanottaa bitcoinit coinjoinin tuloksena. Koordinaattori allekirjoittaa nämä rahakkeet ja palauttaa ne käyttäjille. Tämän jälkeen käyttäjät ottavat uudelleen yhteyden anonyymisti koordinaattorin palvelimeen uudella Tor-tunnuksella ja paljastavat lähtöosoitteensa selväkielisenä transaktion rakentamista varten. Koordinaattori voi varmistaa, että kaikki nämä vastaanottoosoitteet ovat peräisin laillisilta käyttäjiltä, koska hän on aiemmin allekirjoittanut niiden sokkoutetun version yksityisellä avaimellaan. Hän ei kuitenkaan voi yhdistää tiettyä lähtöosoitetta tiettyyn tulokäyttäjään. Näin ollen tulo- ja lähtöosoitteiden välillä ei ole yhteyttä edes koordinaattorin näkökulmasta. Kun koordinaattori on rakentanut transaktion, hän lähettää sen takaisin osallistujille, jotka allekirjoittavat sen avatakseen syötteensä varmistettuaan, että heidän tulosteensa todella kuuluu tähän transaktioon. Osallistujat lähettävät allekirjoituksen koordinaattorille. Kun kaikki allekirjoitukset on kerätty, koordinaattori voi lähettää coinjoin-transaktion Bitcoin-verkossa.
+
+![](../../dictionnaire/assets/38.webp)
+
+Tällä menetelmällä varmistetaan, että koordinaattori ei voi vaarantaa osallistujien anonymiteettiä eikä varastaa bitcoineja koko coinjoin-prosessin aikana.
+
+On vaikea määritellä varmasti, kuka esitteli ensimmäisenä Bitcoinin coinjoinin idean ja kuka sai idean käyttää David Chaumin sokeita allekirjoituksia tässä yhteydessä. Usein ajatellaan, että Gregory Maxwell keskusteli asiasta ensimmäisenä [BitcoinTalkin viestissä vuonna 2013] (https://bitcointalk.org/index.php?topic=279249.0):
+
+> *"Käyttämällä Chaumin sokeaa allekirjoitusta: Käyttäjät muodostavat yhteyden ja antavat syötteet (ja vaihtavat osoitteita) sekä kryptografisesti sokean version osoitteesta, johon he haluavat lähettää yksityiset kolikkonsa; palvelin allekirjoittaa merkit ja palauttaa ne. Käyttäjät yhdistyvät uudelleen nimettöminä, paljastavat lähtöosoitteensa ja palauttavat ne palvelimelle. Palvelin näkee, että hän on allekirjoittanut kaikki lähetykset ja että kaikki lähetykset ovat siis peräisin päteviltä osallistujilta. Myöhemmin ihmiset ottavat uudelleen yhteyden ja allekirjoittavat." *
+Maxwell, G. (2013, 22. elokuuta). *CoinJoin: Bitcoinin yksityisyys reaalimaailmassa*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
+
+On kuitenkin olemassa muitakin aiempia mainintoja sekä Chaumin allekirjoituksista sekoittamisen yhteydessä että rinnakkaisliitoksista. [Kesäkuussa 2011 Duncan Townsend esitteli BitcoinTalkissa](https://bitcointalk.org/index.php?topic=12751.0) sekoittajan, joka käyttää Chaumin allekirjoituksia tavalla, joka on melko samanlainen kuin nykyaikaiset Chaumin coinjoinit. Samassa viestiketjussa on [hashcoinin viesti vastauksena Duncan Townsendille](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) hänen mikserinsä parantamiseksi. Tässä viestissä esitetään nimenomaan se, mikä muistuttaa eniten coinjoineja. Samankaltaisesta järjestelmästä on maininta myös [Alex Mizrahin viestissä vuodelta 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), kun hän neuvoi Tenebrixin tekijöitä. Itse termi "coinjoin" ei olisi Greg Maxwellin keksimä, vaan se olisi peräisin Peter Toddin ideasta.

@@ -1,0 +1,9 @@
+question: Miks kritiseerib Bastiat progressiivse ümberjaotava maksu kontseptsiooni?
+answer: Kuna see võimaldab enamuse poolt vähemuse arvelt legaliseeritud röövimist
+wrong_answers:
+  - Kuna see on ebatõhus maksutulu genereerimisel
+  - Kuna see toob kasu ainult töötavatele klassidele
+  - Kuna see toob peamiselt kasu eraettevõtetele
+explanation: |
+  Bastiat usub, et progressiivne ümberjaotav maks võimaldab enamusel ära kasutada vähemust, muutes maksu legaliseeritud röövimise vahendiks.
+reviewed: false

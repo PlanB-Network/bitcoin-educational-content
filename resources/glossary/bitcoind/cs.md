@@ -1,0 +1,5 @@
+---
+term: BITCOIND
+
+---
+Akronym pro "*Bitcoin Daemon*". Jedná se o software, který implementuje protokol Bitcoin a umožňuje uživatelům spouštět uzel pro takzvané RPC (*Remote Procedure Call*) operace. Jedná se o program pro příkazový řádek (bez grafického uživatelského rozhraní), který slouží jako komunikační rozhraní s Bitcoinem. Jinými slovy se jedná o program, který běží na pozadí a se kterým může uživatel komunikovat (démon). `Bitcoind` byl součástí původního klienta Satoshiho Nakamota. Někteří jej považují za druhého klienta v historii Bitcoinu po Satoshiho prvním, protože verze softwaru 0.2.6 umožňovala spuštění jako démon bez grafického rozhraní. Později byl v roce 2011 přibalen klient Bitcoin QT, který byl následně v roce 2014 přejmenován na "Bitcoin Core". Dnes je `bitcoind` plně integrován do klienta Bitcoin Core.

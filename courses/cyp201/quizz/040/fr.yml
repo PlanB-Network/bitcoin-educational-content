@@ -1,0 +1,9 @@
+question: Pourquoi est-il risqué de générer manuellement l'entropie pour un portefeuille HD ?
+answer: Cela peut introduire des faiblesses humaines ou des biais prédictibles
+wrong_answers:
+  - Cela entraîne des clés publiques non valides
+  - Cela bloque la dérivation des clés privées
+  - Cela limite la taille des phrases mnémoniques générées
+explanation: |
+  Générer manuellement l'entropie peut introduire des biais ou des erreurs, rendant les clés plus vulnérables à des attaques.
+reviewed: false

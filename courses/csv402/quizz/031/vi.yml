@@ -1,0 +1,9 @@
+question: What can I do with an invoice in an RGB transfer?
+answer: Indicate the type of transaction, the quantity of assets required and the recipient's seal definition
+wrong_answers:
+  - Create a new Genesis for the asset
+  - Generate a new Schema to modify the asset's business logic
+  - Building a PSBT to replace the Bitcoin transaction
+explanation: |
+  The invoice is used to inform the issuer of the transaction of the type of operation, the quantity of assets to be transferred and the destination (seal definition).
+reviewed: false

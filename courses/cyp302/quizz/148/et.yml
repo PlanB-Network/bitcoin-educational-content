@@ -1,0 +1,9 @@
+question: Millist funktsiooni kasutatakse arvu N-ga vastastikku algarvuliste täisarvude arvu arvutamiseks?
+answer: Euleri Phi funktsioon
+wrong_answers:
+  - Logaritmiline funktsioon
+  - Euleri Gamma funktsioon
+  - Gaussi funktsioon
+explanation: |
+  Euleri Phi funktsiooni (või totiendi funktsiooni) kasutatakse arvu N-ga vastastikku algarvuliste täisarvude arvu arvutamiseks, eriti mitte-algarvude puhul.
+reviewed: false

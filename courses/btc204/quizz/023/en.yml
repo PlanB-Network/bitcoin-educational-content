@@ -1,0 +1,9 @@
+question: If we observe a transaction with 6 UTXOs as inputs and only one UTXO as output, what likely interpretation can we draw?
+answer: All the UTXOs in inputs belonged to the same user, and this user is still in possession of the UTXO in output.
+wrong_answers:
+  - The UTXOs in inputs came from different users collaborating for a single transaction.
+  - All the UTXOs in inputs belonged to the same user, and the one in output now belongs to another user.
+  - The UTXOs in inputs came from 2 different users, and the one in output still belongs to these 2 users.
+explanation: |
+  We are likely in the presence of a consolidation. Therefore, there is a common ownership of the inputs and the output.
+reviewed: false

@@ -1,0 +1,8 @@
+question: 在移位加密中，使用密钥17对单词DOG加密的结果是什么？
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation:
+  在字母表中移位17位，D变成U，O变成F，G变成X。因此，加密后的单词是UFX。

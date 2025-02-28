@@ -1,0 +1,9 @@
+question: Mida illustreerib kaluri lugu kapitali olemuse kohta?
+answer: Kapital kujutab endast säästetud ressursse, mis võimaldavad ehitusvahendeid tulevase tootlikkuse parandamiseks.
+wrong_answers:
+  - Kapital on lihtsalt tarbekaupade varu, mis ootab kohe tarbimist.
+  - Kapital tuleb luua koheselt riiklike laenude kaudu.
+  - Kapital on oluline ainult suurettevõtete, mitte väikeettevõtjate jaoks.
+explanation: |
+  Kalamees, kes säästab mõne päeva kala, et ehitada oda, lükkab kohese tarbimise edasi tulevase kasu nimel. See näide näitab, kuidas säästmine (kapitali akumuleerimine) toob kaasa suurema tõhususe ja suurema tootmise.
+reviewed: false

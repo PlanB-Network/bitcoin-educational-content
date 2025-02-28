@@ -1,0 +1,8 @@
+question: Qual é o propósito do índice na derivação de chaves filhas?
+answer: Distinguir pares de chaves irmãs
+wrong_answers:
+  - Identificar a natureza da chave (pública ou privada)
+  - Especificar o nível de segurança da chave
+  - Adicionar uma camada extra de segurança
+explanation: |
+  O índice permite diferenciar chaves filhas derivadas do mesmo par de pais.

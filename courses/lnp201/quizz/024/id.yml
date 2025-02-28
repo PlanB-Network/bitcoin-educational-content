@@ -1,0 +1,9 @@
+question: Apa efek gabungan dari timelock dan kunci pembatalan pada transaksi komitmen?
+answer: Mereka mencegah peserta dari kecurangan dengan menawarkan hukuman segera
+wrong_answers:
+  - Mereka mengurangi kapasitas saluran dalam kasus kecurangan
+  - Mereka secara otomatis mengunci dana pihak yang bersalah
+  - Mereka memaksa pembukaan saluran baru jika transaksi tidak benar
+explanation: |
+  Timelock dan kunci pembatalan mencegah peserta dari kecurangan dengan memastikan bahwa setiap upaya untuk curang mengakibatkan kehilangan dana segera bagi pihak yang bersalah.
+reviewed: false

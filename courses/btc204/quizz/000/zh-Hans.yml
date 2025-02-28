@@ -1,0 +1,8 @@
+question: 英文中的缩写词UTXO代表什么？
+answer: 未花费交易输出
+wrong_answers:
+  - 统一交易输出
+  - 用户仅交易
+  - 实用代币交换选项
+explanation: |
+  UTXO是一笔交易的输出，这部分输出尚未被花费。

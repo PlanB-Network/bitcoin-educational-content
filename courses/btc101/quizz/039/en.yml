@@ -1,0 +1,13 @@
+question: What is the main objective behind the creation of Bitcoin?
+answer: To separate the State from money.
+wrong_answers:
+  - To eliminate the gold standard.
+  - To make transactions faster and cheaper.
+  - To make everyone rich.
+explanation: |
+  Bitcoin was created with the aim of separating the State
+  from money. It is a response to the systemic challenges of
+  the current financial system, where the State has full
+  control over the money supply and can manipulate it to its
+  own advantage.
+reviewed: true

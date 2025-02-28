@@ -1,9 +1,0 @@
-question: Was ist der Vorteil von Einmalpasswörtern (HOTP und TOTP) gegenüber SMS für die Zwei-Faktor-Authentifizierung (2FA)?
-answer: Einmalpasswörter erfordern kryptografische Berechnungen und werden lokal gespeichert, anstatt im Speicher.
-wrong_answers:
-  - Sie sind schneller.
-  - Sie sind günstiger.
-  - Sie sind leichter zu merken.
-explanation: |
-  Einmalpasswörter (HOTP und TOTP) sind sicherer als SMS, da sie kryptografische Berechnungen erfordern und lokal gespeichert werden, anstatt im Speicher.
-reviewed: false

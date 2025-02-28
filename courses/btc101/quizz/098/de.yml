@@ -1,0 +1,11 @@
+question: Was ist eine empfohlene Alternative zur Verwendung von Papier zur Speicherung Ihrer mnemonischen Phrase?
+answer: Sie in eine Metallplatte eingravieren.
+wrong_answers:
+  - In einer digitalen Datei speichern.
+  - Auf ein Whiteboard schreiben.
+  - Als Kontakt in Ihrem Telefon speichern.
+explanation: |
+  Eine der empfohlenen Alternativen zu Papier für die Speicherung
+  Ihrer mnemonischen Phrase ist, sie in eine Metallplatte zu gravieren. Diese
+  Lösung ist haltbarer und langlebiger.
+reviewed: true

@@ -1,0 +1,5 @@
+---
+term: KOVETETTU JOHDANNAINEN
+
+---
+Prosessi, jossa luodaan lapsiavaimia HD-lompakoissa. Hardened derivation käyttää vanhemman yksityistä avainta syöttötietona `HMAC-SHA512`-funktiolle, jolloin on mahdotonta luoda lapsen julkisia avaimia vanhemman julkisesta avaimesta ja vanhemman ketjukoodista. Prosessi sisältää vanhemman yksityisen avaimen ja indeksin, joka on vähintään $2^{31}$, ketjuttamisen, minkä jälkeen `HMAC-SHA512`-ohjelmaa sovelletaan vanhemman ketjukoodin kanssa. Tulos jaetaan kahteen osaan: ensimmäiset 256 bittiä lisätään vanhemman yksityiseen avaimeen, jotta saadaan lapsen yksityinen avain, ja loput 256 bittiä muodostavat lapsen ketjukoodin. Tällä menetelmällä varmistetaan, että vaikka laajennettu julkinen avain vaarantuisi, sitä ei voida käyttää julkisten lapsiavainten johtamiseen. Standardijohdannassa käytetään karkaistua johdantoa kaikilla johdannaiskerroilla tilisyvyyteen asti. Derivointipolkujen merkinnöissä karkaistu derivointi merkitään apostrofilla `'`` tai harvemmin `h`-merkillä.

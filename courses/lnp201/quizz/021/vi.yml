@@ -1,0 +1,9 @@
+question: Timelock bảo vệ chống lại gian lận trong các giao dịch cam kết như thế nào?
+answer: Nó ngăn chặn bên vi phạm lấy lại ngay lập tức số tiền của họ
+wrong_answers:
+  - Nó tự động hoàn tiền cho kẻ gian lận
+  - Nó hủy bỏ giao dịch trong trường hợp có sự cố gắng gian lận
+  - Nó chặn việc sử dụng khóa thu hồi
+explanation: |
+  Timelock áp đặt một khoảng thời gian chờ trong đó kẻ gian lận không thể lấy lại số tiền của mình, do đó cho phép bên kia có cơ hội phản ứng.
+reviewed: false

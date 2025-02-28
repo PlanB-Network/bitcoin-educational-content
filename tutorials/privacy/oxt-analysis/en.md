@@ -2,7 +2,15 @@
 name: OXT - Chain Analysis
 description: Master the basics of chain analysis on Bitcoin
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
+
+***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, **the website OXT.me is currently inaccessible**. However, it remains possible that this tool might be relaunched in the coming weeks. In the meantime, you can still benefit from this tutorial to understand the basics of chain analysis on Bitcoin. All heuristics and patterns presented here remain applicable to Bitcoin transactions. Even though these tools are less optimized than OXT, you can temporarily use [Mempool.space](https://mempool.space/) or [Bitcoin Explorer](https://bitcoinexplorer.org/) to put the theoretical concepts of this article into practice.*
+
+_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
+
+_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
+
+---
 
 In this article, you will learn the essential theoretical foundations needed to embark on basic chain analyses on Bitcoin, and more importantly, to understand how those observing you operate. Although this article is not a practical tutorial on the OXT tool (a topic we will cover in a future tutorial), it compiles a set of crucial knowledge for its use. For each model, metric, and indicator presented, a link to an example transaction on OXT is provided, which will allow you to better understand its use and to practice alongside your reading.
 
@@ -33,7 +41,7 @@ Since Bitcoin transactions are made public, it becomes possible to establish lin
 
 The majority of companies specializing in chain analysis operate as black boxes, and do not disclose their methodologies. Therefore, it is difficult to obtain information about this practice. For the writing of this article, I mainly relied on the few open resources available:
 - The bulk of my article is extracted from the series of four articles named: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produced by Samourai Wallet in 2021;
-- I also used various reports from [OXT Research](https://medium.com/oxt-research), as well as [their free chain analysis tool](https://oxt.me/);
+- I also used various reports from [OXT Research](https://medium.com/oxt-research), as well as their free chain analysis tool ;
 - More broadly, my knowledge comes from the different tweets and content from [@LaurentMT](https://twitter.com/LaurentMT) and [@ErgoBTC](https://twitter.com/ErgoBTC);
 - I was also inspired by [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) in which I participated alongside [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___), and [@LaurentMT](https://twitter.com/LaurentMT).
 
@@ -57,7 +65,7 @@ Remember my introduction. I explained why Bitcoin's privacy model originally rel
 However, the practical reality is much more complex. There are a multitude of behaviors that risk linking a real identity to an on-chain activity. In analysis, this is called an entry point, and there are many of them. The most common, of course, is KYC (Know Your Customer). If you withdraw your bitcoins from a regulated platform to one of your personal receiving addresses, then some people are able to link your identity to this address. More broadly, an entry point can be any form of interaction between your real life and a Bitcoin transaction. For example, if you publish a receiving address on your social networks, this can be an entry point for analysis. If you make a payment in bitcoins to your baker, they can associate your face (which is part of your identity) with a Bitcoin address.
 These entry points are almost inevitable when using Bitcoin. Although one might seek to limit their scope, they will remain present. That's why it's crucial to combine methods aimed at preserving your privacy. While maintaining an acceptable separation between your real identity and your transactions is a commendable approach, it remains insufficient. Indeed, if all your on-chain activities can be grouped together, then even the smallest entry point could compromise the single layer of privacy you had established.
 
-Therefore, it's also necessary to deal with chain analysis in our use of Bitcoin. By doing so, we can minimize the aggregation of our activities and limit the impact of an entry point on our privacy. Precisely, to better counteract chain analysis, what better approach than to familiarize oneself with the methods used in chain analysis? If you want to know how to improve your privacy on Bitcoin, you must understand these methods. This will allow you to better grasp techniques like [Coinjoin](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet) or [Payjoin](https://planb.network/en/tutorials/privacy/payjoin), and to reduce the mistakes you might make.
+Therefore, it's also necessary to deal with chain analysis in our use of Bitcoin. By doing so, we can minimize the aggregation of our activities and limit the impact of an entry point on our privacy. Precisely, to better counteract chain analysis, what better approach than to familiarize oneself with the methods used in chain analysis? If you want to know how to improve your privacy on Bitcoin, you must understand these methods. This will allow you to better grasp techniques like [Coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) or [Payjoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), and to reduce the mistakes you might make.
 
 In this, we can draw an analogy with cryptography and cryptanalysis. A good cryptographer is first and foremost a good cryptanalyst. To imagine a new encryption algorithm, one must know what attacks it will face, and also study why previous algorithms were broken. The same principle applies to privacy on Bitcoin. Understanding the methods of chain analysis is the key to protecting against it. That's why I'm offering you this article.
 
@@ -97,7 +105,7 @@ This model is characterized by the consumption of a single UTXO as input and the
 The interpretation of this model is that we are in the presence of a self-transfer. The user has transferred their bitcoins to themselves, to another address they own. Indeed, since there is no change in the transaction, it is very unlikely that we are dealing with a payment. We then know that the observed user is likely still in possession of this UTXO.
 
 For example, here is a Bitcoin transaction that adopts the sweep pattern:
-[35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d](https://oxt.me/transaction/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
+[35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d](https://mempool.space/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
 
 However, this type of pattern can also reveal a self-transfer to an exchange account (cryptocurrency exchange platform). It will be the study of known addresses and the context of the transaction that will allow us to know if it's a sweep to a self-custody wallet or a withdrawal to a platform.
 
@@ -113,7 +121,7 @@ We can deduce that the user behind this transaction was likely in possession of 
 Just like the sweep, this type of pattern can also reveal a self-transfer to an exchange account. It will be the study of known addresses and the context of the transaction that will allow us to know if it's a consolidation to a self-custody wallet or a withdrawal to a platform.
 
 For example, here is a Bitcoin transaction that adopts the consolidation pattern:
-[77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94](https://oxt.me/transaction/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
+[77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94](https://mempool.space/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 ### The Batch Spending Model
 This model is characterized by the consumption of a few UTXOs as input (often only one) and the production of many UTXOs as output.
 
@@ -124,7 +132,7 @@ The interpretation of this model is that we are in the presence of a batch spend
 We can deduce that the UTXO input comes from a company with significant economic activity and that the UTXOs outputs will disperse. Some will belong to the company's clients. Others may go towards partner companies. Finally, there will certainly be a change that returns to the issuing company.
 
 For example, here is a Bitcoin transaction that adopts the batch spending pattern:
-[8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43](https://oxt.me/transaction/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
+[8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43](https://mempool.space/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
 ### Protocol-Specific Transactions
 Among the transaction patterns, we can also identify models that reveal the use of a specific protocol. For example, Whirlpool coinjoins will have an easily identifiable structure that allows them to be differentiated from other classic transactions.
@@ -134,7 +142,7 @@ Among the transaction patterns, we can also identify models that reveal the use 
 The analysis of this pattern suggests that we are likely in the presence of a collaborative transaction. It is also possible to observe a coinjoin. If this latter hypothesis proves to be accurate, then the number of outputs could provide us with an approximate estimate of the number of participants.
 
 For example, here is a Bitcoin transaction that adopts the pattern of the collaborative transaction type coinjoin:
-[00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea](https://oxt.me/transaction/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
+[00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea](https://mempool.space/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
 There are many other protocols that have their own specific structures. Thus, we could distinguish transactions of the Wabisabi type or Stamps transactions, for example.
 
@@ -157,14 +165,14 @@ The most obvious characteristic is the reuse of a receiving address in the same 
 This heuristic leaves little room for doubt. Unless their private key has been compromised, the same receiving address inevitably reveals the activity of a single user. The interpretation that follows is that the change of the transaction is the output with the same address as the input. This allows us to continue tracing the individual from this change.
 
 For example, here is a transaction where this heuristic can likely be applied:
-[54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0](https://oxt.me/transaction/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
+[54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0](https://mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
 
 These similarities between the inputs and outputs do not stop at address reuse. Any resemblance in the use of scripts can allow for the application of a heuristic. For example, sometimes the same versioning between an input and one of the outputs of the transaction can be observed.
 
 ![analysis](assets/en/8.webp)
 In this diagram, we can see that input number 0 unlocks a P2WPKH script (SegWit V0 starting with "bc1q"). Output number 0 uses the same type of script. However, output number 1 uses a P2TR script (SegWit V1 starting with "bc1p"). The interpretation of this characteristic is that it is likely that the address with the same versioning as the input is the change address. It would therefore still belong to the same user.
 Here is a transaction where this heuristic can likely be applied:
-[db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578](https://oxt.me/transaction/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
+[db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
 In this transaction, we can see that input number 0 and output number 1 use P2WPKH scripts (SegWit V0), while output number 0 uses a different script type, P2PKH (Legacy).
 
@@ -191,7 +199,7 @@ This heuristic of the largest output is probably the most imprecise of all. If i
 For example, if we examine a transaction featuring an output with a round amount and another output with a larger amount, the joint application of the round payments heuristic and that concerning the largest output allows us to reduce our level of uncertainty.
 
 For instance, here is a transaction where this heuristic can likely be applied:
-[b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf](https://oxt.me/transaction/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
+[b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
 
 ## External Heuristics to the Transaction
 The study of external heuristics is the analysis of similarities, patterns, and characteristics of certain elements that are not inherent to the transaction itself. In other words, if previously we limited ourselves to exploiting elements intrinsic to the transaction with internal heuristics, we are now expanding our field of analysis to the transaction's environment thanks to external heuristics.
@@ -203,7 +211,7 @@ The interpretation of address reuse is that all the UTXOs locked on this address
 As explained in the introduction, this heuristic was discovered by Satoshi Nakamoto himself. In the White Paper, he specifically mentions a solution to prevent users from producing it, which is simply to use a fresh address for each new transaction: "*As an additional firewall, a new pair of keys could be used for each transaction to keep them unlinked to a common owner.*"
 
 For example, here is an address reused across multiple transactions:
-[bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
+[bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
 ### The Similarity of Scripts and Wallet Fingerprints
 Beyond address reuse, there are many other heuristics that can link actions to the same wallet or to a cluster of addresses.
@@ -252,8 +260,8 @@ Conversely, if one sees that the temporal pattern is rather spread over 16 speci
 Beyond the nature of the observed entity, the temporal pattern can also give us an approximate location of the user. We can thus correlate other transactions, and use the timestamp of these as an additional heuristic that can be added to our analysis.
 
 For example, on the address reused several times that I previously mentioned, one can observe that the transactions, whether incoming or outgoing, are concentrated over a 13-hour interval.
-![analysis](assets/en/12.webp)
-*Credit: [https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)*
+![analysis](assets/notext/12.webp)
+*Credit: OXT*
 
 This interval likely corresponds to Europe, Africa, or the Middle East. Therefore, it can be interpreted that the user behind these transactions lives there.
 
@@ -276,7 +284,7 @@ De facto, this claim-right to privacy on Bitcoin does not exist. It is therefore
 First of all, before considering more radical methods, it is advisable to limit our exposure to the heuristics used for chain analysis as much as possible. As mentioned earlier, the two most powerful heuristics are address reuse and the COINJOIN.
 
 The basic principle for ensuring your privacy on Bitcoin lies in using a new, clean address for each incoming transaction to your wallet. Address reuse is truly the main threat to confidentiality on Bitcoin.
-For an individual user, generating a new address for each incoming payment is very simple. Modern wallets do this automatically as soon as you click on "Receive". So, if you place even the slightest importance on the privacy of your transactions, using fresh addresses represents the bare minimum. If you ever need a static point of contact on the internet, instead of putting a receiving address, you can use solutions [like PayNym that implement BIP47](https://planb.network/en/tutorials/privacy/paynym-bip47).
+For an individual user, generating a new address for each incoming payment is very simple. Modern wallets do this automatically as soon as you click on "Receive". So, if you place even the slightest importance on the privacy of your transactions, using fresh addresses represents the bare minimum. If you ever need a static point of contact on the internet, instead of putting a receiving address, you can use solutions [like PayNym that implement BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
 Next, if you want to act against chain analysis, avoid merging UTXOs at the input of a transaction. At a minimum, if you really need to merge, prefer UTXOs that have the same source. This recommendation implies having good management of your UTXOs. When buying your bitcoins, prefer transfers involving large amounts to maximize the number of payments you can make without having to merge. I also advise you to label your UTXOs in your software to identify their origin and avoid merging from distinct sources.
 
 More broadly, for all other heuristics, you need to know them to try not to fall into them:
@@ -291,16 +299,16 @@ More broadly, for all other heuristics, you need to know them to try not to fall
 You can also turn to methods that make your use of Bitcoin ambiguous in order to prevent or deceive chain analysis.
 
 The most popular technique is surely Coinjoin, a collaborative transaction structure that mobilizes several UTXOs of the same amounts. The goal here is to break deterministic links, thus preventing analyses from the present to the past and from the past to the present. Coinjoin allows for plausible deniability by hiding your coins within a large group of indistinguishable coins. If you want to learn more about Coinjoin, both technically and practically, I suggest you read these other articles and tutorials:
-- [COINJOIN - SAMOURAI WALLET](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet);
-- [COINJOIN - SPARROW WALLET](https://planb.network/en/tutorials/privacy/coinjoin-sparrow-wallet);
-- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/en/tutorials/privacy/wst-anonsets).
+- [COINJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef);
+- [COINJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b);
+- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 ![analysis](assets/en/13.webp)
 
 CoinJoin is an excellent tool for creating plausible deniability for coins, but it is not optimized for all user privacy needs. Specifically, CoinJoin was not designed to become a payment tool. It is very rigid about the amounts exchanged in order to perfect the production of plausible deniability. Since one cannot freely choose the amount of transaction outputs, CoinJoin cannot be used to make payments in bitcoins.
 
 For instance, imagine I want to pay for my baguette in bitcoins while optimizing my privacy. Given the impossibility of selecting the amount of the resulting UTXO from the CoinJoin, I would find myself unable to adjust the amount of my expenditure to the price set by the baker. Therefore, CoinJoin proves inadequate for payment transactions.
 
-Other tools have been conceived to meet privacy needs in more specific use cases. For example, we have [PayJoin](https://planb.network/en/tutorials/privacy/payjoin), a kind of mini-CoinJoin, involving only two participants and based on a structure that allows for payment.
+Other tools have been conceived to meet privacy needs in more specific use cases. For example, we have [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), a kind of mini-CoinJoin, involving only two participants and based on a structure that allows for payment.
 
 The uniqueness of PayJoin lies in its ability to produce a transaction that looks ordinary, while it is actually a mini-CoinJoin between two users. In this structure, the recipient of the transaction participates among the inputs alongside the actual sender. Thus, the recipient inserts a payment to themselves within the transaction that facilitates the actual payment.
 
@@ -315,15 +323,15 @@ The second goal of PayJoin is to deceive the analyst about the actual amount of 
 
 Indeed, if we revisit our example of using PayJoin to buy a baguette, an external observer might think that we are dealing with a payment of 4,000 sats or 21,000 sats. In reality, the payment for the baguette is 6,000 sats: 21,000 - 15,000 = 6,000. The real value of the payment is therefore hidden within a fake payment that acts as a decoy for chain analysis.
 
-Beyond PayJoin and CoinJoin, there are many other Bitcoin transaction structures that either block chain analysis or deceive it. Among these, I could mention the [Stonewall](https://planb.network/en/tutorials/privacy/stonewall) and [StonewallX2](https://planb.network/en/tutorials/privacy/stonewall-x2) transactions, which allow either to make a flexible mini Coinjoin or to imitate a flexible mini Coinjoin. There are also [Ricochet](https://planb.network/en/tutorials/privacy/ricochet) transactions that simulate a change of ownership of bitcoins by making a multitude of fake transfers to oneself.
+Beyond PayJoin and CoinJoin, there are many other Bitcoin transaction structures that either block chain analysis or deceive it. Among these, I could mention the [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) and [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b) transactions, which allow either to make a flexible mini Coinjoin or to imitate a flexible mini Coinjoin. There are also [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) transactions that simulate a change of ownership of bitcoins by making a multitude of fake transfers to oneself.
 
 All these tools are available on Samourai Wallet on mobile, and Sparrow Wallet on PC. If you want to learn more about these specific transaction structures, I advise you to discover my tutorials:
-- [PAYJOIN](https://planb.network/en/tutorials/privacy/payjoin);
-- [PAYJOIN - SAMOURAI WALLET](https://planb.network/en/tutorials/privacy/payjoin-samourai-wallet);
-- [PAYJOIN - SPARROW WALLET](https://planb.network/en/tutorials/privacy/payjoin-sparrow-wallet);
-- [STONEWALL](https://planb.network/en/tutorials/privacy/stonewall);
-- [STONEWALL X2](https://planb.network/en/tutorials/privacy/stonewall-x2);
-- [RICOCHET](https://planb.network/en/tutorials/privacy/ricochet).
+- [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
+- [PAYJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
+- [PAYJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
+- [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
+- [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 ## Conclusion
 Chain analysis is a practice that involves trying to trace the flow of bitcoins on-chain. To do this, analysts look for patterns and characteristics in order to draw more or less plausible hypotheses and interpretations.
@@ -342,3 +350,9 @@ As a Bitcoin user, it is essential to master the fundamental principles of chain
 **P2WPKH:** Acronym for Pay to Witness Public Key Hash. It is a standard script model used to establish spending conditions on a UTXO. P2WPKH was introduced with the implementation of SegWit in August 2017. This script is similar to P2PKH (Pay to Public Key Hash), in that it also locks bitcoins based on the hash of a public key, that is, a receiving address. The difference lies in how signatures and scripts are included in the transaction. In the case of P2WPKH, the signature script information (ScriptSig) is moved from the traditional transaction structure to a separate section called Witness. This move is a feature of the SegWit (Segregated Witness) update. This technique has the advantage of reducing the size of transaction data in the main body, while retaining the necessary script information for validation in a separate section. Consequently, P2WPKH transactions are generally less expensive in terms of fees compared to Legacy transactions. P2WPKH addresses are written using Bech32 encoding, which contributes to a more concise and less error-prone writing thanks to the BCH checksum. These addresses always start with bc1q, making them easily distinguishable from Legacy receiving addresses. P2WPKH is a version 0 SegWit output.
 
 **UTXO:** Acronym for Unspent Transaction Output. A UTXO is a transaction output that has not yet been spent or used as an input for a new transaction. UTXOs represent the fraction of bitcoins that a user owns and that are currently available to be spent. Each UTXO is associated with a specific output script, which defines the necessary conditions to spend the bitcoins. Transactions in Bitcoin consume these UTXOs as inputs and create new UTXOs as outputs. The UTXO model is fundamental to Bitcoin, as it allows for easy verification that transactions are not trying to spend bitcoins that do not exist or have already been spent. Essentially, a UTXO is a piece of Bitcoin.
+
+
+
+
+
+

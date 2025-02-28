@@ -1,0 +1,9 @@
+question: 奇数のy座標を持つ圧縮された公開鍵を示すために使用される接頭辞は何ですか？
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  接頭辞0x03は、奇数のy座標を持つ圧縮された公開鍵を示します。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Miksi yritys voisi päättää pitää Bitcoinia pitkäaikaisena sijoituksena taseessaan?
+answer: Koska se voi toimia arvon säilyttäjänä, joka saattaa ajan mittaan arvonnousun myötä suojautua inflaatiolta.
+wrong_answers:
+  - Koska se takaa kaikkien valuuttaan liittyvien verojen välittömän poistamisen.
+  - Koska kansainväliset tilinpäätösstandardit edellyttävät sitä.
+  - Koska Bitcoin tarjoaa luonnostaan taattuja voittoja ilman riskiä.
+explanation: |
+  Jotkin yritykset pitävät Bitcoinia strategisena pitkän aikavälin omaisuutena, jonka arvo voi säilyä tai kasvaa, joka suojaa perinteisten valuuttojen heikkenemiseltä ja monipuolistaa niiden kassavaroja.
+reviewed: false

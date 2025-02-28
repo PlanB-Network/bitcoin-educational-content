@@ -1,0 +1,9 @@
+question: In an RGB contract, what is the function of the Interface?
+answer: Make contract data easy to read and manipulate
+wrong_answers:
+  - Running validation scripts on the blockchain
+  - Store Genesis data on the customer's side
+  - Define strict type system for reports
+explanation: |
+  The aim of the Interface is to present contract information in a way that is clear to users and software, without affecting the business logic.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Como este curso descreve o Bitcoin?
+answer: Uma disciplina multidisciplinar.
+wrong_answers:
+  - Uma disciplina simples.
+  - Uma disciplina física.
+  - Uma disciplina de única disciplina.
+explanation: |
+  O Bitcoin é descrito como uma disciplina multidisciplinar porque
+  levanta questões relacionadas a vários campos, incluindo
+  criptografia, teoria dos jogos, economia e política monetária,
+  ciência da computação, filosofia, energia, leis e regulamentação.
+reviewed: true

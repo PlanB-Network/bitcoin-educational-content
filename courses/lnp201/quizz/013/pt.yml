@@ -1,0 +1,9 @@
+question: O que acontece se Alice não obtiver a assinatura de Bob para a transação de retirada?
+answer: Ela corre o risco de perder o acesso aos seus fundos depositados no endereço de múltiplas assinaturas
+wrong_answers:
+  - Ela não pode mais se comunicar com Bob na Lightning Network
+  - O canal é aberto com capacidade limitada
+  - Bob automaticamente recebe os fundos no canal
+explanation: |
+  Sem a assinatura de Bob na transação de retirada, Alice não pode garantir a recuperação de seus fundos em caso de problema, representando um risco de perda.
+reviewed: false

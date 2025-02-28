@@ -1,0 +1,9 @@
+question: Mida võimaldab Have I Been Pwned veebisait?
+answer: Kontrollida, kas e-posti aadress on lekkinud.
+wrong_answers:
+  - Genereerida uusi tugevaid ja juhuslikke paroole.
+  - Luua turvaline e-posti postkast.
+  - Sünkroonida e-posti kontod kasutamise hõlbustamiseks.
+explanation: |
+  See veebisait aitab tuvastada andmelekked ja kontrollida e-posti aadressi turvalisust.
+reviewed: false

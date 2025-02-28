@@ -1,0 +1,9 @@
+question: Warum ist eine sorgfältige Buchführung beim Umgang mit Bitcoin in der Buchhaltung eines Unternehmens so wichtig?
+answer: Denn jede Bitcoin-Transaktion kann zu einem steuerpflichtigen Ereignis führen, und es sind genaue Aufzeichnungen erforderlich, um Gewinne, Verluste und Steuerschulden zu berechnen.
+wrong_answers:
+  - Weil die Blockchain automatisch Steuern im Namen des Unternehmens abführt.
+  - Weil für Bitcoin-Transaktionen überhaupt keine Rechnungslegungsstandards gelten.
+  - Denn es ist unmöglich, einmal aufgezeichnete Bitcoin-Transaktionen zurückzuverfolgen.
+explanation: |
+  Jeder Kauf, Verkauf oder jede Zahlung in Bitcoin kann steuerliche Auswirkungen haben. Detaillierte Aufzeichnungen über die Kostenbasis, den Verkaufspreis und den Zeitpunkt gewährleisten eine korrekte und konforme Steuerberichterstattung.
+reviewed: false

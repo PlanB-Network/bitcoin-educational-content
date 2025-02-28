@@ -1,0 +1,13 @@
+question: Qu'est-ce que l'entropie maximale d'une transaction ?
+
+answer: L'entropie la plus élevée qu'une structure de transaction puisse atteindre.
+
+wrong_answers:
+  - L'entropie la plus faible qu'une structure de transaction puisse atteindre.
+  - L'entropie réelle d'une transaction.
+  - L'efficacité d'une transaction.
+
+explanation: |
+  L'entropie maximale correspond à l'entropie la plus élevée qu'une structure de transaction spécifique puisse théoriquement atteindre.
+
+reviewed: false

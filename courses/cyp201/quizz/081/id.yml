@@ -1,0 +1,8 @@
+question: Apa kebaruan utama dari skrip P2WPKH dibandingkan dengan P2PKH?
+answer: Tanda tangan dipindahkan ke bidang Witness.
+wrong_answers:
+  - Alamat dienkripsi dalam base58check.
+  - scriptPubKey mencakup hash dari kunci privat.
+  - P2WPKH tidak kompatibel dengan SegWit.
+explanation: |
+  P2WPKH, yang diperkenalkan dengan SegWit, memindahkan tanda tangan ke sebuah bagian terpisah yang disebut Witness untuk mencegah malleability transaksi.

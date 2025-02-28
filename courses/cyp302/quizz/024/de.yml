@@ -1,0 +1,9 @@
+question: Was ist der Wert von 42 mod 2?
+answer: 0
+wrong_answers:
+  - 1
+  - 2
+  - 42
+explanation: |
+  Wenn man 42 durch 2 teilt, ist der Rest null, daher ist 42 mod 2 gleich 0.
+reviewed: false

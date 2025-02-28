@@ -1,0 +1,9 @@
+question: ¿Por qué es esencial llevar un registro cuidadoso cuando se trata de Bitcoin en la contabilidad de una empresa?
+answer: Porque cada transacción de Bitcoin puede crear un hecho imponible, y se necesitan registros precisos para calcular ganancias, pérdidas y obligaciones fiscales.
+wrong_answers:
+  - Porque la cadena de bloques declara automáticamente los impuestos en nombre de la empresa.
+  - Porque no se aplica ninguna norma contable a las transacciones de Bitcoin.
+  - Porque es imposible rastrear las transacciones de Bitcoin una vez registradas.
+explanation: |
+  Cada compra, venta o pago realizado en Bitcoin puede tener implicaciones fiscales. Llevar un registro detallado de la base de coste, el precio de venta y el momento en que se realiza garantiza una declaración de impuestos correcta y conforme.
+reviewed: false

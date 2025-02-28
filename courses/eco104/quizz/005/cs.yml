@@ -1,0 +1,10 @@
+question: Jak inflace ovlivňuje kupní sílu zaměstnanců v průběhu času?
+answer: Inflace snižuje kupní sílu, protože mzdy často zaostávají za skutečnou mírou inflace.
+wrong_answers:
+  - Inflace zvyšuje kupní sílu, protože mzdy rostou rychleji než ceny.
+  - Inflace nemá žádný vliv na kupní sílu.
+  - Inflace ovlivňuje kupní sílu pouze těch, kteří investují na finančních trzích.
+explanation: |
+  Inflace vede k trvalému nárůstu cen spotřebitelského zboží, čímž snižuje kupní sílu zaměstnanců, jelikož jejich mzdy typicky zaostávají za skutečnou mírou inflace.
+  To zaměstnancům ztěžuje dosažení jejich dlouhodobých úsporných cílů a udržení jejich životní úrovně.
+reviewed: true

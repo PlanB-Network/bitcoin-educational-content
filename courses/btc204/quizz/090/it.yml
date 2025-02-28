@@ -1,0 +1,13 @@
+question: Cosa rende unici i remix in Whirlpool rispetto ad altre implementazioni di coinjoin?
+
+answer: Sono completamente gratuiti.
+
+wrong_answers:
+  - Richiedono solo il pagamento delle commissioni di mining.
+  - Sono limitati a uno per utente.
+  - Richiedono solo il pagamento delle commissioni di servizio.
+
+explanation: |
+  I remix in Whirlpool sono al 100% gratuiti: non sono richieste commissioni di servizio aggiuntive o commissioni di mining.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa fungsi utama dari Kode Autentikasi Pesan (MAC)?
+answer: Memastikan keaslian dan integritas pesan
+wrong_answers:
+  - Mengenkripsi pesan untuk memastikan kerahasiaan
+  - Mencegah penyadapan pesan
+  - Menghasilkan kunci privat untuk setiap komunikasi
+explanation: |
+  MAC adalah skema kriptografi yang memungkinkan verifikasi bahwa sebuah pesan benar-benar berasal dari pengirim yang sah dan tidak telah diubah, sehingga memastikan keaslian dan integritas.
+reviewed: false

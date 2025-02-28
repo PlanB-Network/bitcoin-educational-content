@@ -1,0 +1,9 @@
+question: Tại sao mã hóa xác thực có khả năng chống lại các cuộc tấn công bằng văn bản mã chọn trước?
+answer: Bởi vì bất kỳ sự thay đổi nào của văn bản mã bởi kẻ tấn công sẽ làm cho thẻ (tag) trở nên không hợp lệ
+wrong_answers:
+  - Bởi vì nó sử dụng một thuật toán mã hóa duy nhất
+  - Bởi vì bất kỳ sự thay đổi nào của văn bản mã bởi kẻ tấn công sẽ làm cho khóa trở nên không hợp lệ
+  - Bởi vì nó chỉ mã hóa thông điệp mà không có thẻ
+explanation: |
+  Một lược đồ mã hóa xác thực được thiết kế để phát hiện sự thay đổi của văn bản mã, điều này làm cho thẻ không hợp lệ trong trường hợp có nỗ lực can thiệp và đảm bảo khả năng chống lại các cuộc tấn công bằng văn bản mã chọn trước.
+reviewed: false

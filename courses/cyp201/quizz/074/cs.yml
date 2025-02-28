@@ -1,0 +1,9 @@
+question: Co značí index /84'/ na hloubce 1 cesty derivace?
+answer: Standard P2WPKH (SegWit v0)
+wrong_answers:
+  - Standard P2TR (SegWit v1)
+  - Měna Bitcoin testnetu
+  - Měna Bitcoin mainnetu
+explanation: |
+  Index /84'/ je definován v BIP84 jako označení použití standardu SegWit v0 s adresami P2WPKH na hloubce 1 (tj. cíle derivace).
+reviewed: false

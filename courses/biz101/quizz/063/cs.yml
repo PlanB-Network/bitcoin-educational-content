@@ -1,0 +1,9 @@
+question: Který scénář nejlépe ilustruje použití profilu Essential pro platby bitcoinem?
+answer: Restaurace, která přijímá několik plateb v bitcoinech měsíčně
+wrong_answers:
+  - Nadnárodní společnost zpracovávající tisíce transakcí denně
+  - Nezávislý freelancer, který přijímá platby za své faktury v bitcoinech
+  - Vysoce frekventované obchodování s bitcoiny
+explanation: |
+  Profil Essential se zaměřuje na malé a střední podniky s malým počtem transakcí s bitcoiny, jako je například restaurace.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Among the following answers, which one does not allow to deceive the chain analysis heuristics?
+
+answer: Always using the same receiving address.
+
+wrong_answers:
+  - Creating a change whose value is close to the payment.
+  - Making outputs of irregular, non-round amounts.
+  - Distributing the spread of transactions throughout the day.
+
+explanation: |
+  One should especially not use a receiving address multiple times. All the other answers allow avoiding the chain analysis heuristics.
+
+reviewed: false

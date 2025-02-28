@@ -1,9 +1,0 @@
-question: Qual é a vantagem de usar o HASH160 no protocolo Bitcoin?
-answer: Isso permite a segurança do SHA-256 enquanto reduz o tamanho da impressão digital.
-wrong_answers:
-  - Aumenta o tamanho da impressão digital para maior segurança.
-  - É mais resistente a colisões do que o SHA-256.
-  - É mais rápido para calcular do que o SHA-256.
-explanation: |
-  O HASH160 no protocolo Bitcoin é vantajoso porque mantém a segurança do SHA-256 enquanto reduz o tamanho da impressão digital. Isso torna mais eficiente sem comprometer a segurança.
-reviewed: false

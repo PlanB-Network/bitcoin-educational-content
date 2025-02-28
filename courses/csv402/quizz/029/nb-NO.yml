@@ -1,0 +1,9 @@
+question: Hva er den viktigste rollen til Schema i en RGB-kontrakt?
+answer: Beskriv kontraktens forretningslogikk og datastruktur
+wrong_answers:
+  - Definere grensesnittet for RGB-lommebøker
+  - Håndtering av kompilering av skript på blokkjeden
+  - Kryptografisk validering i kjeden
+explanation: |
+  Skjemaet definerer den deklarative strukturen, datatypene og valideringsreglene for kontrakten, slik at du kan administrere forretningslogikken på kundens side.
+reviewed: false

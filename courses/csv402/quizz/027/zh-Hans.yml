@@ -1,0 +1,9 @@
+question: RGB 中的模式组件与面向对象编程 (OOP) 的对应关系是什么？
+answer: 类别定义
+wrong_answers:
+  - 类构造函数
+  - 实现接口
+  - 方法原型
+explanation: |
+  模式相当于 OOP 中类的定义，描述了业务逻辑的属性、方法和规则。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Que permet de faire l’émission d’une invoice dans le cadre d’un transfert RGB ?
+answer: Indiquer le type d’opération, la quantité d’actif souhaitée et la seal definition du destinataire
+wrong_answers:
+  - Créer une nouvelle Genesis pour l’actif
+  - Générer un nouveau Schema pour modifier la logique métier de l'actif
+  - Construire une PSBT pour remplacer la transaction Bitcoin
+explanation: |
+  L’invoice sert à informer l’émetteur de la transaction du type d’opération, de la quantité d’actif à transférer et de la destination (seal definition).
+reviewed: false

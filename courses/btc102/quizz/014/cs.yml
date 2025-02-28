@@ -1,0 +1,11 @@
+question: Jaký je hlavní účel používání nástrojů jako Signal, Tor a ProtonMail?
+answer: Ocenit a chránit vaše soukromí
+wrong_answers:
+  - Zrychlit vaše internetové připojení
+  - Chránit váš počítač před viry
+  - Poskytnout zdarma přístup k placeným službám
+explanation: |
+  Nástroje jako Signal, Tor a ProtonMail slouží k ocenění a ochraně
+
+  vašeho soukromí. Jsou součástí opatření pro zlepšení návyků v online bezpečnosti.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Mikä on solmujen tarkoitus Bitcoin-verkossa?
+answer: Ylläpitää ja turvata lohkoketjua
+wrong_answers:
+  - Käsitellä transaktioita
+  - Ehdottaa ja toteuttaa muutoksia Bitcoinin koodikantaan
+  - Kilpailla muiden louhijoiden kanssa
+explanation: |
+  Solmut ovat olennaisen tärkeitä Bitcoin-verkon eheyden ja turvallisuuden kannalta.
+  Ne toimivat järjestelmän vartijoina, varmistaen, että transaktiot
+  käsitellään tarkasti ja sääntöjen mukaisesti.
+reviewed: false

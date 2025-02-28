@@ -1,0 +1,9 @@
+question: Qual era la definizione di proprietà in latino secondo i Romani?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  Nel diritto romano, jus utendi et abutendi definisce la proprietà come il diritto di usare e abusare, sottolineando l'uso senza approfondirne le cause.
+reviewed: false

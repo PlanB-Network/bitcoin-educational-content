@@ -1,0 +1,9 @@
+question: Co je UTXO na Bitcoinu?
+answer: Kus bitcoinu, který ještě nebyl utracen.
+wrong_answers:
+  - Bitcoinová adresa pro příjem prostředků.
+  - Speciální typ Bitcoinové peněženky.
+  - Šifrovací algoritmus pro Bitcoin.
+explanation: |
+  UTXO je nevyužitý výstup transakce, takže je to v podstatě kus bitcoinu.
+reviewed: false

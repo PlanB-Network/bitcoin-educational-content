@@ -1,0 +1,12 @@
+question: Pourquoi le SMS n'est-il pas considéré comme la meilleure option pour la 2FA ?
+answer: Cette méthode est vulnérable à différentes attaques, comme l'arnaque au swap de SIM.
+wrong_answers:
+  - Il est trop lent et coûteux, un appel téléphonique sera plus efficace.
+  - Il fournit uniquement une preuve de possession d'un numéro de téléphone.
+  - C'est trop compliqué à configurer sur le plan technique.
+explanation: |
+  Le SMS n'est pas considéré comme la meilleure option pour la 2FA car c'est
+  une méthode de 2FA vulnérable à différentes attaques, comme l'arnaque au swap de SIM. Une fois
+  exploitées avec succès, ces vulnérabilités détruisent totalement toute protection offerte par la
+  couche supplémentaire d'authentification 2FA.
+reviewed: true

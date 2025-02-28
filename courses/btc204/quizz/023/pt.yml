@@ -1,0 +1,9 @@
+question: Se observarmos uma transação com 6 UTXOs como entradas e apenas um UTXO como saída, qual interpretação provável podemos inferir?
+answer: Todos os UTXOs nas entradas pertenciam ao mesmo usuário, e este usuário ainda está na posse do UTXO na saída.
+wrong_answers:
+  - Os UTXOs nas entradas vieram de diferentes usuários colaborando para uma única transação.
+  - Todos os UTXOs nas entradas pertenciam ao mesmo usuário, e o que está na saída agora pertence a outro usuário.
+  - Os UTXOs nas entradas vieram de 2 usuários diferentes, e o que está na saída ainda pertence a esses 2 usuários.
+explanation: |
+  Provavelmente estamos diante de uma consolidação. Portanto, existe uma propriedade comum das entradas e da saída.
+reviewed: false

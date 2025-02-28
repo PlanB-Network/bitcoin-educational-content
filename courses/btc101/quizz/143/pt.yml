@@ -1,0 +1,11 @@
+question: O que aconteceria se um usuário de nó escolhesse seguir regras diferentes que contradizem as regras de consenso existentes?
+answer: O nó não fará mais parte da rede Bitcoin.
+wrong_answers:
+  - O nó se tornará parte de uma rede Bitcoin diferente.
+  - O nó será penalizado pela rede Bitcoin.
+  - O nó será recompensado pela rede Bitcoin.
+explanation: |
+  Se um usuário de nó decidisse seguir outras regras que
+  invalidam as regras de consenso atuais, então esse nó
+  não faria mais parte da rede Bitcoin.
+reviewed: true

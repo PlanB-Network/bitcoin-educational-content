@@ -1,0 +1,9 @@
+question: I hvilken enhet måles nettverkets hash rate i løpet av andre halvdel av året 2010?
+answer: I GH/s
+wrong_answers:
+  - I MH/s
+  - I TH/s
+  - I PH/s
+explanation: |
+  Hash raten økte fra 1.35 GH/s den 13. juli til 120 GH/s den 31. desember 2010.
+reviewed: false

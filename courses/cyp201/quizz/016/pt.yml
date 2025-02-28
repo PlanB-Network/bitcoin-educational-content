@@ -1,0 +1,9 @@
+question: Qual algoritmo de assinatura foi introduzido no Bitcoin com o Taproot?
+answer: Esquema de assinatura Schnorr
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  O esquema de assinatura Schnorr foi introduzido em novembro de 2021 com a atualização do Taproot.
+reviewed: false

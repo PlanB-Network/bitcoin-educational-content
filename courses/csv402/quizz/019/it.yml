@@ -1,0 +1,9 @@
+question: Qual è lo scopo principale dei contratti intelligenti nell'ambiente RGB?
+answer: Implementazione di transazioni Bitcoin automatizzate senza un registro centralizzato
+wrong_answers:
+  - Facilitare la creazione di registri centralizzati di Bitcoin
+  - Fornire un'interfaccia pubblica per tutte le transazioni Bitcoin
+  - Semplificare l'esecuzione dei token ERC-20 su Bitcoin
+explanation: |
+  Gli smart contract RGB consentono di automatizzare gli accordi evitando l'uso di registri centralizzati, affidandosi a Bitcoin per gli ancoraggi crittografici.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel type de liquidité un vendeur sur le Lightning Network doit-il principalement gérer pour accepter des paiements ?
+answer: De la liquidité entrante
+wrong_answers:
+  - De la liquidité sortante
+  - Une capacité totale de canal élevée
+  - Un solde on-chain élevé
+explanation: |
+  Pour recevoir des paiements, un vendeur doit disposer de liquidité entrante, c'est-à-dire que des fonds doivent être disponibles du côté opposé du canal pour qu'il puisse accepter des paiements.
+reviewed: false

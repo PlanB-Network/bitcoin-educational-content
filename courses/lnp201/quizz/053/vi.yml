@@ -1,0 +1,9 @@
+question: Tại sao một bộ định tuyến cần duy trì sự phân bố thanh khoản tốt trong các kênh của mình?
+answer: Để tối đa hóa số lượng thanh toán mà nó có thể định tuyến
+wrong_answers:
+  - Để giảm phí giao dịch
+  - Để tránh mở kênh mới
+  - Để hạn chế việc sử dụng blockchain Bitcoin
+explanation: |
+  Một bộ định tuyến nhằm mục đích định tuyến càng nhiều thanh toán càng tốt để thu phí, điều này đòi hỏi một sự phân bố thanh khoản tốt ở cả hai bên của các kênh để đảm bảo khả năng định tuyến.
+reviewed: false

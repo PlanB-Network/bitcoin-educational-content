@@ -1,0 +1,8 @@
+question: 比特币启动时使用了哪种数字签名算法？
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  比特币最初使用基于椭圆曲线的签名协议ECDSA，在2021年引入Schnorr签名之前。

@@ -1,0 +1,9 @@
+question: Quelle est l'une des raisons pour lesquelles les investisseurs institutionnels et les grandes entreprises s'intéressent au bitcoin ?
+answer: L'adoption du bitcoin par de grands acteurs financiers, comme BlackRock, et le succès des ETF Spot Bitcoin, l'ont légitimé en tant qu'actif de réserve de valeur.
+wrong_answers:
+  - Le prix du bitcoin est fixé et garanti par des agences gouvernementales.
+  - Les transactions en bitcoins sont entièrement assurées par les banques centrales.
+  - Il ne nécessite aucune compréhension des actifs numériques ou des réglementations financières.
+explanation: |
+  Lorsque les grandes institutions reconnaissent le bitcoin comme un investissement valable, elles signalent au marché qu'il a dépassé le stade de la spéculation. Des produits tels que les ETF Spot Bitcoin permettent aux entreprises de s'exposer plus facilement, ce qui favorise l'acceptation par le grand public.
+reviewed: false

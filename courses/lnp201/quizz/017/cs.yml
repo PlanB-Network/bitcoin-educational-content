@@ -1,0 +1,9 @@
+question: Co se stane, pokud Bob pošle Aleně fakturu na 30 000 satoshi?
+answer: Alena vytvoří závaznou transakci pro převod 30 000 satoshi Bobovi v kanálu.
+wrong_answers:
+  - Alena musí otevřít nový kanál, aby mohla provést tento převod.
+  - Bob automaticky obdrží 30 000 satoshi ve své peněžence.
+  - Faktura je zaplacena prostřednictvím on-chain transakce na Bitcoinu.
+explanation: |
+  Když Bob pošle Aleně fakturu, ona vytvoří a podepíše novou závaznou transakci pro úpravu rozdělení prostředků, čímž převede 30 000 satoshi v kanálu.
+reviewed: false

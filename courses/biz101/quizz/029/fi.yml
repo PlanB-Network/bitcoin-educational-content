@@ -1,0 +1,9 @@
+question: Mikä on Lightning Network -maksujen etu kauppiaille myyntipisteessä?
+answer: Salamamaksut suoritetaan lähes välittömästi, eivätkä ne vaadi useita välittäjiä, mikä vähentää maksuja ja maksuviiveitä.
+wrong_answers:
+  - Salamamaksujen vahvistaminen kestää viikkoja, ja ne vaativat paljon paperityötä.
+  - Salamamaksuja suoritetaan vain keskuspankin viranomaisen hyväksymällä tavalla.
+  - Ostaja voi peruuttaa salamamaksut halutessaan myynnin jälkeen.
+explanation: |
+  Lightning Network tekee transaktioista nopeampia ja halvempia mahdollistamalla ketjun ulkopuolisen selvityksen. Kauppiaat voivat saada varoja lähes välittömästi, minimaalisilla maksuilla ja ilman perinteisiä maksujen välittäjiä.
+reviewed: false

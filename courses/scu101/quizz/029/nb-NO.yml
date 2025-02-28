@@ -1,0 +1,9 @@
+question: Hva er en enkel løsning for å beskytte dataene dine mot ransomware-angrep?
+answer: Sikkerhetskopier viktige data regelmessig til en ekstern lagringsenhet eller en sikker nettbasert lagringstjeneste.
+wrong_answers:
+  - Installer flere antivirusprogrammer på datamaskinen din.
+  - Bytt datamaskin regelmessig.
+  - Bruk et offentlig Wi-Fi-nettverk.
+explanation: |
+  Å sikkerhetskopiere dataene dine regelmessig gjør at du kan gjenopprette dataene dine i
+  tilfelle et cyberangrep eller maskinvaresvikt uten å miste viktig informasjon.

@@ -1,0 +1,11 @@
+question: Jaký je běžný podvod související s online dary v krypto sektoru?
+answer: Nabídky tvrdící, že zdvojnásobí nebo znásobí bitcoiny, které pošlete.
+wrong_answers:
+  - Nabídky tvrdící, že zdvojnásobí nebo znásobí vaše fyzické zboží.
+  - Nabídky tvrdící, že zdvojnásobí nebo znásobí vaši fiat měnu.
+  - Nabídky tvrdící, že zdvojnásobí nebo znásobí vaše softwarové produkty.
+explanation: |
+  Klasickým příkladem tohoto typu podvodu je nabídka tvrdící, že zdvojnásobí
+  nebo znásobí bitcoiny, které pošlete. Je důležité pochopit, že neexistuje
+  žádné magické řešení, jak se stát okamžitě bohatým.
+reviewed: false

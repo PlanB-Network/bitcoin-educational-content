@@ -1,0 +1,9 @@
+question: Mitä lisäominaisuuksia Professional-profiilin yritykset tyypillisesti vaativat?
+answer: Kehittyneet raportointikojelaudat ja useat hallinnolliset roolit
+wrong_answers:
+  - Liiketapahtumien kirjaaminen ja vakiokuitit
+  - Yksinkertainen lompakon integrointi ja QR-koodien luominen
+  - Automaattinen muuntaminen fiatiksi ilman raportointivaihtoehtoja
+explanation: |
+  Ammattimaiset yritykset tarvitsevat mukautettavia laskuja, kehittynyttä raportointia ja roolien hallintaa monimutkaisten työnkulkujensa mukaisesti.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilken rolle spiller en LSP i Enterprise Bitcoin-betalinger?
+answer: Håndter store transaksjonsvolumer på Lightning
+wrong_answers:
+  - Lagre private nøkler til Lightning-lommeboken
+  - Skriv ut lynfakturaer
+  - Behandle refusjoner manuelt på Lightning
+explanation: |
+  LSP-er håndterer komplekse og høyvolumoperasjoner på Lightning.
+reviewed: false

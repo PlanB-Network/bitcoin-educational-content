@@ -1,0 +1,13 @@
+question: O que é uma carteira multisig?
+answer: Um conjunto de carteiras que requer múltiplas assinaturas para realizar uma transação.
+wrong_answers:
+  - Uma carteira que requer uma única assinatura para realizar uma transação.
+  - Uma carteira que não requer assinaturas para realizar uma transação.
+  - Uma carteira que requer uma assinatura física para realizar uma transação.
+explanation: |
+  Uma carteira multisig é um tipo de carteira Bitcoin que requer
+  múltiplas assinaturas para realizar uma transação. Isso adiciona uma
+  camada extra de segurança, pois significa que uma única pessoa
+  não pode realizar uma transação sem a aprovação de
+  outras.
+reviewed: true

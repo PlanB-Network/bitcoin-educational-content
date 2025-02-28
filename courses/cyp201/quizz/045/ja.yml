@@ -1,0 +1,9 @@
+question: 助記符フレーズのチェックサムを計算するために使用されるハッシュ関数は何ですか？
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+explanation: |
+  助記符フレーズのチェックサムは、エントロピーに単純なSHA256ハッシュを適用することによって計算されます。
+reviewed: false

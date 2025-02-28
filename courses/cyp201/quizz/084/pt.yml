@@ -1,0 +1,9 @@
+question: Qual é o papel principal de um endereço Bitcoin em uma transação?
+answer: Bloquear UTXOs no scriptPubKey
+wrong_answers:
+  - Desbloquear os UTXOs no scriptSig
+  - Sinalizar o fim da transação
+  - Identificar o bloco de confirmação
+explanation: |
+  Um endereço Bitcoin é incorporado no scriptPubKey para bloquear os UTXOs. Ele determina as condições necessárias para desbloquear os fundos.
+reviewed: false

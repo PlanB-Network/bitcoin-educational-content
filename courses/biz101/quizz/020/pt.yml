@@ -1,0 +1,9 @@
+question: O que é a "inflação oculta" no contexto de um sistema monetário baseado na dívida?
+answer: É o aumento da massa monetária (cerca de 7% ao ano) que reduz a sua parte do valor global se não investir ou aumentar os seus activos em conformidade.
+wrong_answers:
+  - É um termo económico oficial para taxas de juro fixas.
+  - Refere-se a números de inflação não publicados pelos bancos centrais.
+  - Significa que os preços nunca aumentam, mesmo quando a massa monetária se expande.
+explanation: |
+  A inflação oculta ocorre quando a oferta de moeda se expande, diminuindo o poder de compra das poupanças. Se uma empresa não investir proactivamente ou não proteger o seu património, arrisca-se a perder valor devido a esta forma silenciosa de diluição monetária.
+reviewed: false

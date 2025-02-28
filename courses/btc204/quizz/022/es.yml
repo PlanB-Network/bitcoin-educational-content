@@ -1,0 +1,9 @@
+question: ¿Cuál es el nombre del patrón que consiste en una única UTXO de entrada y una única UTXO de salida?
+answer: Barrido
+wrong_answers:
+  - Consolidación
+  - Coinjoin
+  - Gasto por lotes
+explanation: |
+  La interpretación de esta estructura es que estamos ante un barrido, lo que significa una auto-transferencia de bitcoins.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Que représente la profondeur 0 dans la hiérarchie des portefeuilles HD ?
+answer: La clé maîtresse et le code de chaîne maître
+wrong_answers:
+  - La chaîne externe des adresses
+  - Le compte par défaut
+  - Le type de devise
+explanation: |
+  La profondeur 0 correspond à la clé maîtresse et au code de chaîne maître, point de départ de toutes les dérivations dans un portefeuille HD.
+reviewed: false

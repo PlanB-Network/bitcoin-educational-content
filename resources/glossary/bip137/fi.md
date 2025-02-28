@@ -1,0 +1,5 @@
+---
+term: BIP137
+
+---
+Ehdotetaan standardoitua muotoa viestien allekirjoittamiseksi Bitcoinin yksityisillä avaimilla ja niihin liittyvillä osoitteilla osoitteen omistajuuden todistamiseksi. Tämän BIP:n tarkoituksena on ratkaista epäselvyys, joka liittyy erityyppisiin Bitcoin-osoitteisiin (P2PKH, P2SH, P2WPKH...) viestiä allekirjoitettaessa. Siinä otetaan käyttöön menetelmä, jolla nämä osoitemuodot voidaan nimenomaisesti erottaa toisistaan allekirjoitusten avulla. Allekirjoitukset ovat hyödyllisiä erilaisissa sovelluksissa, kuten varojen todentamisessa, tilintarkastuksessa ja muissa käyttötarkoituksissa, jotka edellyttävät osoitteen todentamista sen yksityisen avaimen avulla. BIP322 on sittemmin ottanut käyttöön uuden allekirjoitusmuodon, jonka avulla tätä standardia voidaan laajentaa ja yleistää kaikenlaisiin käsikirjoituksiin.

@@ -1,0 +1,11 @@
+question: Hva er formålet med mining-pools?
+answer: Mining-pools lar gruvearbeidere samle sine databehandlingsressurser og motta mindre, men mer regelmessige belønninger.
+wrong_answers:
+  - Mining-pools brukes til å øke HashRate i Bitcoin-nettverket.
+  - Mining-pools brukes til å redusere vanskelighetsgraden av mining.
+  - Mining-pools brukes til å øke belønningen for mining.
+explanation: >-
+  Mining-pools er grupper av gruvearbeidere som kombinerer sin databehandlingskraft
+  for å øke sjansene sine for å mine en blokk. Ved å samle ressursene sine, kan de
+  mine blokker oftere og motta mindre, men mer regelmessige belønninger.
+reviewed: false

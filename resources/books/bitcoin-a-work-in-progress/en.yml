@@ -1,0 +1,17 @@
+title: "Bitcoin: A Work in Progress"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  With thousands of “crypto” projects out there, they say Bitcoin is old and
+  boring, but nothing could be further from the truth. This book will guide you
+  through the latest developments in Bitcoin, as seen through the eyes of one of
+  its many developers.
+
+  You'll learn about the latest soft fork known as Taproot, the challenges of keeping open source software free of money-stealing bugs and malware, new ways to protect nodes against evildoers on the internet, how to deal with the ever-growing blockchain, and more!
+
+  Each chapter links to a corresponding episode of the Bitcoin, Explained podcast. The book also links to more than two hundred articles, videos, podcasts, and even the source code. And thanks to a tiny QR code next to every link, you'll never have to type long URLs.
+
+  The author is a software developer based in Utrecht, The Netherlands. He has been working in the Bitcoin industry since 2014 and became a Bitcoin Core contributor in 2017, giving him a front row seat to all the latest and most exciting technical developments. He is a co-host on the Bitcoin Magazine podcast Bitcoin, Explained.
+contributors:
+  - hunt-wood

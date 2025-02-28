@@ -1,0 +1,9 @@
+question: En quoi le capital créé artificiellement à partir de la monnaie basée sur la dette diffère-t-il du capital de type autrichien ?
+answer: Le capital de type autrichien découle de l'épargne réelle et des sacrifices, tandis que le capital basé sur la dette est créé instantanément à partir du crédit et peut fausser les signaux économiques.
+wrong_answers:
+  - Le capital de type autrichien est généré en imprimant plus d'argent chaque fois que cela est nécessaire.
+  - Le capital basé sur la dette ne nécessite jamais de remboursement et équivaut à une épargne réelle.
+  - Il n'y a pas de différence, les deux formes de capital sont identiques en nature et en effet.
+explanation: |
+  Le capital autrichien est le fruit d'un renoncement réel à la consommation et d'un investissement prudent. Le capital basé sur la dette, créé facilement par le biais de prêts, peut induire les entrepreneurs en erreur et conduire à des investissements inefficaces, car il ne reflète pas l'épargne réelle ou les préférences des consommateurs.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Số lượng bitcoin tối đa có thể được tạo ra là bao nhiêu?
+answer: khoảng 21 triệu đơn vị
+wrong_answers:
+  - khoảng 18 triệu đơn vị
+  - khoảng 25 triệu đơn vị
+  - khoảng 30 triệu đơn vị
+explanation: |
+  Việc tạo ra Bitcoin được đặc trưng bởi một giới hạn cố định là
+  21 triệu đơn vị.
+reviewed: true

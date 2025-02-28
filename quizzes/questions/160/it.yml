@@ -1,9 +1,0 @@
-question: Qual è il significato del costo energetico nel mining di Bitcoin?
-answer: La spesa energetica è necessaria per produrre le informazioni, ma la verifica delle informazioni ha un costo trascurabile. Questa asimmetria garantisce la sicurezza della rete.
-wrong_answers:
-  - Il costo energetico è necessario per alimentare le macchine ASIC utilizzate nel mining.
-  - Il costo energetico è necessario per mantenere la rete Bitcoin.
-  - Il costo energetico è necessario per creare nuovi bitcoin.
-explanation: |
-  Il costo energetico nel mining di Bitcoin è un aspetto cruciale della sicurezza della rete. L'alto costo energetico del mining rende estremamente costoso per un attore malintenzionato manipolare la blockchain, mentre il basso costo della verifica delle transazioni garantisce che chiunque possa partecipare alla rete.
-reviewed: false

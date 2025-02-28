@@ -1,0 +1,8 @@
+question: Ifølge Eulers teorem, hva er resultatet av eksponensieringen a^ϕ(N) mod N for to heltall a og N som er relativt primiske?
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explanation: |
+  Eulers teorem sier at for to heltall a og N som er relativt primiske, er eksponensieringen a^ϕ(N) mod N alltid lik 1 mod N, en egenskap som brukes i kryptografi.

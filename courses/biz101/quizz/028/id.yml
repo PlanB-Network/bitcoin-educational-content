@@ -1,0 +1,9 @@
+question: Mengapa sebuah bisnis memilih untuk menerima pembayaran Bitcoin dari pelanggan?
+answer: Untuk memanfaatkan basis pengguna yang terus bertambah, berpotensi menurunkan biaya transaksi, dan menyimpan aset berharga dalam perbendaharaan.
+wrong_answers:
+  - Untuk menjamin bahwa semua pelanggan akan membayar lebih dari harga yang tercantum.
+  - Untuk memastikan bahwa tidak ada pajak atau persyaratan peraturan yang berlaku.
+  - Untuk membuat proses checkout menjadi lebih lambat dan rumit.
+explanation: |
+  Menerima Bitcoin dapat menarik demografi pembeli baru, mengurangi biaya pemrosesan pembayaran, dan membangun penyimpan nilai. Hal ini juga dapat meningkatkan jangkauan global, karena Bitcoin tidak mengenal batas dan beroperasi sepanjang waktu.
+reviewed: false

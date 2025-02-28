@@ -1,0 +1,12 @@
+question: What is hyperinflation?
+answer: A drastic increase in the monetary mass.
+wrong_answers:
+  - A small increase in the monetary mass.
+  - A drastic decrease in the monetary mass.
+  - A small decrease in the monetary mass.
+explanation: |
+  Hyperinflation is a monetary phenomenon characterized by a
+  drastic increase in inflation through the monetary printing
+  by authorities, which leads to a complete loss of
+  confidence in a currency.
+reviewed: true

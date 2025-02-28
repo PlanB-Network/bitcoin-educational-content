@@ -1,0 +1,9 @@
+question: ¿Por qué es importante el tope de 21 millones en la emisión de Bitcoin?
+answer: Crea un activo deflacionista, protegiendo su valor contra la inflación arbitraria.
+wrong_answers:
+  - Garantiza que los gobiernos puedan imprimir tantos bitcoins como sea necesario.
+  - Impide que nadie envíe transacciones una vez alcanzado el tope.
+  - Elimina toda volatilidad en el precio de Bitcoin.
+explanation: |
+  Al tener una oferta máxima de 21 millones, la escasez de Bitcoin está codificada, lo que la diferencia fundamentalmente de las monedas inflacionistas, en las que la oferta puede aumentar a voluntad.
+reviewed: false

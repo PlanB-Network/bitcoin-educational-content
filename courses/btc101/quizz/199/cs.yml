@@ -1,0 +1,12 @@
+question: Co je průměrování nákladů v dolarech?
+answer: Kupování malých množství Bitcoinu v pravidelných intervalech.
+wrong_answers:
+  - Kupování velkého množství Bitcoinu najednou.
+  - Kupování Bitcoinu pouze když cena klesne.
+  - Kupování Bitcoinu pouze když cena stoupne.
+explanation: |
+  Text kurzu vysvětluje, že technika průměrování nákladů v dolarech
+  zahrnuje kupování malých množství Bitcoinu v pravidelných intervalech.
+  Tato metoda vyrovnává cenové výkyvy v čase a zajišťuje kontinuální růst v
+  množství vlastněných Bitcoinů.
+reviewed: true

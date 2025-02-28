@@ -1,0 +1,9 @@
+question: Quale affermazione descrive meglio il ruolo di Bitcoin come rete e risorsa per le aziende?
+answer: Può fungere sia da riserva di valore che da mezzo di scambio in un sistema globale e decentralizzato.
+wrong_answers:
+  - Può funzionare solo come sistema locale di carte regalo.
+  - Si tratta esclusivamente di uno strumento di trading speculativo senza alcuna utilità reale.
+  - Per funzionare deve essere legato alle politiche monetarie di un singolo Paese.
+explanation: |
+  Il design globale e nativo di Internet consente a Bitcoin di fungere non solo da riserva di valore, ma anche da mezzo di scambio, fornendo alle aziende un regolamento rapido, senza permessi e definitivo delle transazioni in tutto il mondo.
+reviewed: false

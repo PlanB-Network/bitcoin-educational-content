@@ -1,0 +1,9 @@
+question: Mis on üks peamisi põhjuseid, miks Bitcoin loodi?
+answer: Pakkuda katset muuta finantssüsteemi.
+wrong_answers:
+  - Pakkuda katset kaotada raha.
+  - Pakkuda katset luua uut tüüpi AI tehnoloogiat.
+  - Pakkuda katset kontrollida maailma rahvastikku.
+explanation: >-
+  Tekstis mainitakse, et Satoshi lõi Bitcoini 2008. aastal, et pakkuda katset muuta finantssüsteemi.
+reviewed: false

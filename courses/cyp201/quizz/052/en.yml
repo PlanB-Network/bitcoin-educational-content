@@ -1,0 +1,9 @@
+question: What is the purpose of using a decoy wallet with a passphrase?
+answer: To simulate a wallet with a small amount in case of physical coercion
+wrong_answers:
+  - Add an automatic backup of transactions
+  - Generate an additional mnemonic phrase
+  - Protect UTXOs from a double spend
+explanation: |
+  A decoy wallet is used to divert an attacker's attention by providing access to a wallet containing a small amount of bitcoins.
+reviewed: false

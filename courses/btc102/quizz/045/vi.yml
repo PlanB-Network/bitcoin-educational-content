@@ -1,0 +1,9 @@
+question: Vai trò chính của các nhà phát triển Bitcoin Core là gì?
+answer: Họ chịu trách nhiệm cho việc phát triển chính của giao thức Bitcoin và các tính năng cốt lõi của nó.
+wrong_answers:
+  - Họ kiểm soát mạng lưới Bitcoin
+  - Họ tạo ra bitcoin mới
+  - Họ điều chỉnh giá của Bitcoin
+explanation: |
+  Nội dung chương giải thích rằng các nhà phát triển Bitcoin Core chịu trách nhiệm cho việc phát triển chính của giao thức Bitcoin và các tính năng cốt lõi của nó. Họ không kiểm soát mạng lưới Bitcoin, tạo ra bitcoin mới, hoặc điều chỉnh giá của Bitcoin.
+reviewed: false

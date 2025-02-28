@@ -1,9 +1,0 @@
-question: Auf welchem Prinzip basiert das Bitcoin-Mining?
-answer: Das Bitcoin-Mining basiert auf einem Lotterieprinzip, bei dem die Chancen, alle zehn Minuten einen Block zu gewinnen (und somit die Bitcoin-Belohnung), für einen einzelnen kleinen Miner äußerst gering sind.
-wrong_answers:
-  - Das Bitcoin-Mining basiert auf einem First-Come-First-Serve-Prinzip, bei dem der erste Miner, der ein komplexes mathematisches Problem löst, die Bitcoin-Belohnung erhält.
-  - Das Bitcoin-Mining basiert auf einem Bietungsprinzip, bei dem der Miner, der das höchste Gebot abgibt, die Bitcoin-Belohnung erhält.
-  - Das Bitcoin-Mining basiert auf einem Rotationsprinzip, bei dem jeder Miner an der Reihe ist, einen Block zu minen und die Bitcoin-Belohnung zu erhalten.
-explanation: |
-  Das Kapitel erklärt, dass das Bitcoin-Mining auf einem Lotterieprinzip basiert, bei dem die Chancen, alle zehn Minuten einen Block zu gewinnen (und somit die Bitcoin-Belohnung), für einen einzelnen kleinen Miner äußerst gering sind.
-reviewed: false

@@ -1,0 +1,11 @@
+question: 什么是coinjoin交易？
+
+answer: 多个用户合并他们的UTXOs的协作交易。
+
+wrong_answers:
+  - 仅两个用户之间的协作交易。
+  - 单个用户向多个地址发送资金的交易。
+  - 一个中心参与者混合其客户的比特币的交易。
+
+explanation: |
+  coinjoin交易是一种多个用户混合他们的硬币的协作交易。

@@ -1,0 +1,9 @@
+question: Quando uma transação de compromisso é publicada na blockchain do Bitcoin?
+answer: Eventualmente quando o canal é fechado
+wrong_answers:
+  - Imediatamente após cada transferência no canal
+  - Antes de cada nova transação de compromisso
+  - Quando os fundos disponíveis estão esgotados
+explanation: |
+  As transações de compromisso são construídas e assinadas para cada mudança na alocação, mas elas são publicadas na blockchain apenas eventualmente, no evento de fechamento do canal.
+reviewed: false

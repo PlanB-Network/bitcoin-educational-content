@@ -1,10 +1,9 @@
 ---
-name: Trezor modelo One
-
+name: Trezor model One
 description: Configuração e uso do Trezor modelo One
 ---
 
-![capa](assets/cover.jpeg)
+![capa](assets/cover.webp)
 
 Portfólio de hardware frio - 60€ - Iniciante - Seguro entre 2 000€ e 50 000€.
 

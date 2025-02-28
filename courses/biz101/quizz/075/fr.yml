@@ -1,0 +1,9 @@
+question: Quel est l'objectif principal de la mise en œuvre de paiements en bitcoins au niveau de l'entreprise ?
+answer: Intégrer pleinement les paiements en bitcoins dans les processus de base de l'organisation
+wrong_answers:
+  - Expérimenter Bitcoin à petite échelle
+  - Utiliser Bitcoin à des fins de marketing
+  - Accepter les bitcoins sans intégration dans d'autres systèmes
+explanation: |
+  Les solutions d'entreprise visent à aligner les paiements en bitcoins sur les flux de travail et les systèmes de base de l'entreprise.
+reviewed: false

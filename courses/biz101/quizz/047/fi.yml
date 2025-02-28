@@ -1,0 +1,9 @@
+question: Miksi niukkuus on hyvän valuutan olennainen ominaisuus?
+answer: Se säilyttää arvon
+wrong_answers:
+  - Se takaa, että valuuttana voidaan käyttää vain fyysistä omaisuutta
+  - Se varmistaa, että valuutta on laajalti jokaisen henkilön saatavilla
+  - Se varmistaa, että valuutan vakuutena on aina oltava jokin hyödyke, kuten kulta
+explanation: |
+  Niukkuus estää valuutan liiallisen luomisen, jolloin sen arvo ja ostovoima säilyvät pitkällä aikavälillä.
+reviewed: false

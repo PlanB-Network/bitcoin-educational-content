@@ -1,0 +1,9 @@
+question: How does the Lightning Network allow sending funds to a node that is not directly connected?
+answer: By routing the payment through intermediary nodes
+wrong_answers:
+  - By using on-chain transactions between each node
+  - By automatically establishing a temporary channel
+  - By sending the funds directly with multisignature addresses
+explanation: |
+  The Lightning Network enables the routing of a payment through several intermediary nodes, without requiring a direct channel between the sender and the recipient.
+reviewed: false

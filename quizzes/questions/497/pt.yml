@@ -1,9 +1,0 @@
-question: Qual é a relação entre a chave privada mestra e as chaves estendidas da carteira?
-answer: A chave privada mestra é a primeira chave privada derivada da semente e não tem conexão com as chaves estendidas da carteira.
-wrong_answers:
-  - A chave privada mestra é derivada das chaves estendidas da carteira.
-  - A chave privada mestra é a mesma que as chaves estendidas da carteira.
-  - A chave privada mestra é usada para gerar as chaves estendidas da carteira.
-explanation: |
-  A chave privada mestra é a primeira chave privada derivada da semente e não tem conexão com as chaves estendidas da carteira.
-reviewed: false

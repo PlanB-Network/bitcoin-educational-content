@@ -1,0 +1,9 @@
+question: ¿Cuál es una consideración clave a la hora de elegir una plataforma o un intermediario para comprar Bitcoin para una empresa?
+answer: La reputación del proveedor, las medidas de seguridad y la capacidad de exportar historiales de transacciones para la contabilidad.
+wrong_answers:
+  - Asegurarse de que la plataforma sólo admite criptomonedas poco conocidas.
+  - Encontrar un proveedor que se niega a ofrecer asistencia al cliente.
+  - Utilizar un servicio que prohíba retirar Bitcoin a un monedero de autocustodia.
+explanation: |
+  Una plataforma fiable debe tener una reputación sólida, buena seguridad y herramientas para el mantenimiento de registros. La capacidad de retirar Bitcoin e integrarse con software de contabilidad también es crucial para las operaciones comerciales.
+reviewed: false

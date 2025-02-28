@@ -1,107 +1,184 @@
-# The Sovereign University Content Repo
+<div align="center">
+  <a href="https://planb.network">
+    <picture>
+      <source srcset="docs/assets/black_and_orange_gradient.png" media="(prefers-color-scheme: light)">
+      <source srcset="docs/assets/horizontal_logo.png" media="(prefers-color-scheme: dark)">
+      <img src="docs/assets/black_and_orange_gradient.png" alt="PBN Logo" width="37%">
+    </picture>
+  </a>
+</div>
 
-Welcome to the Sovereign University Content Repo! There's a chance that if you are here, it is to contribute to this larger-than-us project, which aims at consolidating the first multilingual and open-source e-learning platform focused on Bitcoin. (If you're just lost on GitHub, visit our [website](https://planb.network/) to learn more about Bitcoin).
+<div align="center">
+  <h1 style="margin-top: 0;"></h1>
+  <a href="https://planb.network/en/node-network">
+    <img alt="Website" src="https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Fstart9.com&logo=website&label=%F0%9F%8C%90%20Become a P₿N Node&color=ff5c00">
+  </a>
+  <a href="https://twitter.com/planb_network">
+    <img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/planb_network">
+  </a>
+  <a href="https://t.me/PlanBNetwork_ContentBuilder">
+    <img alt="Static Badge" src="https://img.shields.io/badge/community-telegram-blue?logo=telegram">
+  </a>
+  <a href="https://planb.network">
+    <img alt="Website" src="https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Fstart9.com&logo=website&label=%F0%9F%8C%90%20P₿N Platform&color=ff5c00">
+  </a>
+  <a href="https://weblate.planb.network/engage/planb-network-website/">
+    <img src="https://weblate.planb.network/widget/planb-network-website/website-elements/svg-badge.svg" alt="Translation status" />
+  </a>
+  <a href="https://github.com/PlanB-Network/bitcoin-educational-content">
+    <img src="https://img.shields.io/github/contributors/DecouvreBitcoin/sovereign-university-data?label=Contributors&color=ff5c00" alt="Contributors">
+  </a>
+</div>
 
-Assuming you're here to contribute, I will detail the inner workings of the content management and how you can assist us -- either by producing new content or translating/reviewing content in your language.
+<br />
+<div align="center">
+  <h3>
+    Welcome to the Plan ₿ Network Content Repo!
+  </h3>
+  <p>
+    Welcome to the Plan ₿ Network Content Repo! If you are here, there's a chance you want to contribute to this larger-than-us project, which aims at consolidating the first multilingual and open-source e-learning platform focused on Bitcoin.
+  </p>
+</div>
+<br />
+<p align="center">
+  <a href="https://planb.network">
+    <img src="docs/assets/PBN-banner.png" alt="P₿N banner" width="100%">
+  </a></p>
+<br />
 
-Thank you for your time, involvement, and effort in this project. Here we believe in a [value-for-value model](https://dergigi.com/2021/12/30/the-freedom-of-value/) and we'll do our best to reciprocate for your contribution based on your Proof-of-Work. Moreover, by participating in creating valuable Bitcoin resources for your local community, tips from them could also come your way.
+---
 
-## Repo Structure and Content Management
+If you're just lost on GitHub, visit our [website](https://planb.network) to learn more about Bitcoin.
+
+However, we hope you're here to contribute, so here we will present the inner workings of this content management system and how you can assist us -- either by adding new material or translating/proofreading content in your language.
+
+Thank you for your time, involvement, and effort in this project. Here, we believe in a [value-for-value model](https://dergigi.com/2021/12/30/the-freedom-of-value/) and we'll do our best to reciprocate your contribution on the basis of your Proof-of-Work. Moreover, by participating in the creation of valuable Bitcoin resources for your local community, you could also get some useful insight into how to spread that knowledge locally.
+
+# Why do we do it?
+
+Plan ₿ Network was born from our belief in the transformative power of Bitcoin to create a decentralized future. We are inspired by the Cypherpunk Manifesto, which emphasizes the importance of knowledge as the foundation of freedom and change. Our ultimate goal is to empower individuals all over the world with the knowledge they have been deprived of, in order to revolutionize the world.
+
+# How does it work?
+
+Plan ₿ Network helps communities worldwide get organized to provide better education. The platform develops the necessary tools to achieve this goal through the [online academy](https://planb.network/courses), the [tutorials portal](https://planb.network/tutorials), and the [resource portal](https://planb.network/resources).
+
+Before getting onto the platform, contents are published here, in this repository, as a central public
+place for Bitcoin Education. Any piece of content is specifically formatted to
+facilitate data parsing and (so) rendering on websites or apps.
+
+## Repository Structure
 
 This repo is organized around three main directories, which are:
 
-- `courses`: comprising all the courses about Bitcoin, Lightning, Cryptography, Mining, and so on.
-- `resources`: consisting of various types of resources about Bitcoin, such as books, company info, or podcasts.
-- `tutorials`: consisting of how-to articles, categorized into themes like exchange, merchant, node, privacy, and so on.
-- `quizz`: comprising all the questions that accompagnies the chapter of each courses.
-  
-Each individual content piece, which is a markdown file, is defined by its location in this tree structure and by its language in the name. For instance, the Italian tutorial about Nerd-Miner would have the following path: `sovereign-university-data/tutorials/mining/nerd-miner/it.md`.
+- `courses`, comprising all the courses about Bitcoin, Lightning, Cryptography, Mining, and so on.
+- `resources`, consisting of various types of resources about Bitcoin, such as books, videos, or podcasts.
+- `tutorials`, containing "how-to" articles, categorized into themes like exchange, merchant, node, privacy, and so on.
 
-The different images referred to in the content are saved in the `assets` folder, which is at the same level as the corresponding content.
+Each individual piece of content, which is a markdown file, is defined by its location in this tree structure and by its language (indicated in the name code). For instance, the Italian tutorial about Nerd-Miner would have the following path:
 
-## How to Become a PlanB Network Content Builder?
+```
+./tutorials/mining/nerd-miner/it.md
+```
 
-### Become a Translator/Reviewer
+If you want to learn more about our repo structure and content format, check out our [documentation](./docs/README.md).
 
-To scale the translation process, we are testing a combined AI x Human approach. We believe that with the use of Large Language Models (LLMs), like the infamous ChatGPT, we can translate a vast number of resources in a relatively short amount of time. We therefore created a [simple program](https://github.com/Asi0Flammeus/LLM-Translator) that leverages the ChatGPT API to translate technical contents and can add support for an additional language with ease.
+Instead, if you want to have a bird-eye view of our published content and proposals, check the below:
 
-While this kind of automated translation is more effective and efficient than traditional methods, such as Google Translate or DeepL, it is far from perfect -- that's when the human factor comes in. Indeed, once new content is produced (pushed into the `main` branch), it is automatically translated into the supported languages. Then, those translations MUST be reviewed by a fluent language speaker to ensure high-quality content in all languages. Most of the time, these reviews will correct wrongly translated expressions or grammatical sentence structures.
-Once content is reviewed, it will be reviewed by other peers before being merged into the dedicated branch for the corresponding language, which will periodically be merged into the main branch.
+- [Course Dashboard](https://github.com/orgs/PlanB-Network/projects/5)
+- [Tutorial Dashboard](https://github.com/orgs/PlanB-Network/projects/6)
+- [Resources Dashboard](https://github.com/orgs/PlanB-Network/projects/4)
 
-Now that you understand the high-level procedure of the translation, you want to review a content you have to complete its associated issue via a PR from your local branch to the corresponding language branch (e.g. `italian-translation-and-review`).
+## Incentive model: Value-4-Value
 
-**If you are not familiar with Git, don't worry, we have made a [step-by-step tutorial](https://notes.decouvrebitcoin.com/s/K9ijdGj9X) with comprehensive explanations.** 
-Moreover, we are working on a [local interface](https://github.com/pythcoiner/planb_contributor_client) to ease the workflow by hiding all Github mechanics to contributors. 
+We believe in the power of Proof Of Work and how it enables a value-4-value model. In the words of one of the greatest poets of our times, DerGigi, we consider time, talent and treasure. Thus, we are committed to give back to those who enrich us with their time and talent.
 
-### Sat Reward 
+In practical terms, it means that any task (content creation, peer-reviewing,
+proofreading), explicitly as an individual Github issue, is correlated to a reward in sats. When the issue is closed, the reward is sent to the contributor who completed the task.
 
-We consider that any review should be rewarding in sat, so we have derived a equation to compute the corresponding reward to any review contribution:
-$$R(W)=B+U\cdot D_C \cdot D_L \cdot W$$
+If you want to learn more about it, go have a [look here](#why-value-4-value-PoW-model?)
 
-with $R$ the reward, $B$ the base fee (currently 2,500 sats), $U$ the review urgency, $D_C$ the difficulty content, $D_L$ the language difficulty (see below for factor values) and $W$ the number of words in the content.
+# How can you contribute?
 
-| Urgency    | Factor |
-|------------|--------|
-| Non-Urgent | 1      |
-| Urgent     | 10     |
+Bitcoin is for everyone, and so is Plan ₿ Network, which means that everyone who has a specific talent can contribute to the growth of the network. Whether you are a nerdy, super coder or a social media influencer, your knowledge and skills are essential to spread Bitcoin knowledge across the world.
 
-| Content Difficulty | Factor |
-|--------------------|--------|
-| Easy               | 1      |
-| Intermediate       | 2      |
-| Hard               | 4      |
+## Be a node of the network
 
-| Language   | Language Code | Difficulty Factor | Branch Name                            |
-|------------|---------------|-------------------|----------------------------------------|
-| English    | EN            | 1.0               | `english-translation-and-review`       |
-| German     | DE            | 1.0               | `german-translation-and-review`        |
-| French     | FR            | 1.0               | `french-translation-and-review`        |
-| Italian    | IT            | 1.5               | `italian-translation-and-review`       |
-| Portuguese | PT            | 1.0               | `portuguese-translation-and-review`    |
-| Spanish    | ES            | 1.5               | `spanish-translation-and-review`       |
-| Danish     | DA            | 2.0               | `danish-translation-and-review`        |
-| Finish     | FI            | 2.0               | `finnish-translation-and-review`        |
-| Dutch      | NL            | 1.5               |           Not yet created              |
-| Greek      | EL            | 2.5               |           Not yet created              |
-| Hindi      | HI            | 3.0               |           Not yet created              |
-| Polish     | PL            | 2.0               |           Not yet created              |
-| Swahili    | SW            | 2.5               | `swahili-translation-and-review`       |
-| Afrikaans  | AF            | 2.5               | `afrikaans-translation-and-review`     |
-| Turkish    | TR            | 3.0               |           Not yet created              |
-| Bengali    | BN            | 4.0               |           Not yet created              |
-| Russian    | RU            | 2.0               |           Not yet created              |
-| Japanese   | JA            | 3.0               | `japanese-translation-and-review`      |
-| Arabic     | AR            | 3.0               | `arabic-translation-and-review`        |
-| Chinese    | ZH            | 2.5               |           Not yet created              |
-| Korean     | KO            | 3.0               |           Not yet created              |
-| Thai       | TH            | 3.5               |  `thai-translation-and-review`         |
+Another way to contribute might be to become a Plan ₿ Network Node. A node is a Bitcoin community that has a physical hub and wants to move to the next step to accelerate local Bitcoin adoption! There are no requirements regarding the size of its community: what is important is its dedication and the Proof-of-Work already done for the local peers.
 
+At Plan ₿ Network, we aim to improve the Bitcoin education ecosystem by providing the right tools to educate others and create local projects. So, by becoming a node, your community will get access to a large range of resources, services, special training, and more.
 
+If you want your community to be a reference in the Bitcoin world, learn more about how to become a node [here](https://planb.network/en/node-network).
 
-The reward is sent via Lightning once its review is merged into the `dev` branch. 
+## Be a Bitcoin Educator
 
-### Become a Content Producer
+If you have created some Bitcoin educational content, whether in the form of a video, book, podcast, blog, or even an entire course, Plan ₿ Network will grant you the right visibility on our global platform. We can provide the tools to translate your teaching materials and share them with people who speak many different languages.
 
-For now, DecouvreBitcoin is in charge of adding new pieces of content. But soon, we will open that process to outside contributions. Nevertheless, if you want to add some content, you should directly contact us via [mail](mailto:asi0@decouvrebitcoin.com) or do it via a PR.
+As an educator, your role is crucial. In fact, without your dedication and passion, Bitcoin only remains a piece of information. Instead, we want people to understand that Bitcoin is precious and the knowledge of it will pass through generations.
 
+To propose your content directly, you can first reach out via the
+[Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) to get assistance.
 
-## Join the Network
+## Join the Proofreading Team
 
-As part of the PlanB initiative, we believe in mutual support and knowledge-sharing among Bitcoin communities worldwide. To achieve cohesion, we aim to create a network of "Bitcoin Nodes" that share the same values and collectively promote a bottom-up approach to Bitcoin adoption.
+The key to making education powerful is to make it accessible to everybody in the world. Not everyone speaks English, or every other language on Earth! However, we are sure that together, as a network, we can make Bitcoin educational resources as open-source as the seven seas, by translating them into many languages.
 
-To bootstrap this network, we'll utilize the exceptional work of the [BTCmap](https://btcmap.org/) team and the coordination efforts from various Bitcoin communities over the past year, including [einundzwanzig](https://einundzwanzig.space/), [2140](https://2140meetups.com/), [DecouvreBitcoin](https://decouvrebitcoin.com/ambassadeurs/), [satoshispritz](https://satoshispritz.it/), and others. While the progress made thus far is exemplary, we propose advancing to the next step by organizing a global effort more efficiently. If you'd like your community to join this new initiative, please [email us](mailto:rogzy@decouvrebitcoin.com).
+If you are confident that you can help us proofread our content, we are eagerly looking for you! Just reach out via the [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder).
 
-For your application, please provide detailed information about your community so we can best assist you. Consider including:
+Literally EVERY LANGUAGE is needed!
 
-- Your community's name
-- Your BTCmap link
-- Your community size
-- Past educational efforts
-- Your needs (e.g., grants, educational content, visibility)
-- Your community's 2024 objectives
+<a href="https://weblate.planb.network/engage/planb-network-website/">
+<img src="https://weblate.planb.network/widget/planb-network-website/website-elements/multi-auto.svg" alt="Translation status" />
+</a>
 
-Please note that our review process will be thorough, so provide all essential details to assist us. Thank you for your cooperation! 
+The image above displays the percentage of static elements on our website that have been translated, per language. Feel free to reach out if you want to add your language to the platform!
 
-Stack sats and keep building!
+### How to add a new language on PBN
 
+If you are enthusiastic about this initiative and you would like to help us, please add your local language to the github repo and the website. Kindly follow the following steps:
 
+1. Join the [Contributors TG group](https://t.me/PlanBNetwork_ContentBuilder) and present the languages you speak.
+2. You will be contacted by our team member and maybe added to a specific group dedicated to one language.
+3. The first step will be to [add the new language](https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86) on the Weblate app (an account on Weblate is required).
+4. Then, you can [start translating the static elements](https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295) of the website.
+5. When you finish, go back to the [TG group](https://t.me/PlanBNetwork_ContentBuilder) or reach out to the translation coordinator to inform them you have completed the task.
+6. Thanks to the [LLM-Translator](https://github.com/Asi0Flammeus/LLM-Translator), or other tools, we will translate the BTC101 course to benchmark with you the automatic translation accuracy.
+7. [Start proofreading](https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6) BTC101 on GitHub (an account on GitHub is required) in the corresponding language after the approval of the coordinator.
+8. After you finish and we merge the PR, we will send you the reward in sats for both contributions, using a Lightning Network invoice or LN address.
+9. If the automatic translation is good enough, we will translate all the educational content of Plan ₿ Network and publish it on the website.
+10. Then, anyone will be able to choose any content in that language to proofread and receive the associated reward.
+
+# Why do we use the value-4-value PoW model?
+
+Well, because we don’t see any other way. What is the problem with the internet nowadays? It's that we think we are getting everything for free, but, in reality, we are the product. In fact, our data is used for the benefit of others. Since we believe in the freedom to choose how we handle our data and knowledge, we ensure that everything we share, build, and contribute in this open-source model is paid for in a value-for-value fashion.
+
+## How do we do it?
+
+Our first goal is to gather all the amazing content that has already been created (you can find everything on our website).
+
+But there is a catch: we want to reach every corner of the world! For this reason, we need everyone to collaborate with their own language skills. We can't get to all the people in Bangladesh if we don't have the content in Bengali.
+
+Therefore, we have implemented this incentive model. First, you will get paid per task (content creation,proofreading): there is a whole payment system set in place by Asi0 -- if
+you are curious about it, you will find some details in the [documentation](./docs/value-4-value-model.md). In short,
+each content type has a formula based on various parameters like the number of words, the content difficulty, and other criteria, so the reward associated to each task is
+defined in the assigned issue.
+
+## What's next?
+
+It's simple: as people read or use your content, they will rate it. The better the rating you get as a proofreader or verifier, the more proofreadings you will receive. This is what we like to call a proof-of-work structure.
+
+The better the quality of your work, the more content you will get. The more value you receive, the more value WE all receive.
+
+**LONG LIVE VALUE-FOR-VALUE!**
+
+# End Goal: Overcome the language barriers in Bitcoin Education
+
+So that's it, that's our plan to take over the world! We seek every role, in every language: proofreaders, educators, and most importantly, individuals that are eager to learn.
+
+If you believe you are one of them, [reach out](https://t.me/PlanBNetwork_ContentBuilder). We want to collaborate!
+
+<br />
+<p align="center">
+  <a href="https://planb.network">
+    <img src="docs/assets/doing-my-part.jpg" alt="Doing my Part meme" width="75%">
+  </a></p>
+<br />

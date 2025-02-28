@@ -1,9 +1,0 @@
-question: Warum kann nicht jeder dieselbe Bitcoin Wallet verwenden?
-answer: Weil unterschiedliche Personen unterschiedliche Anwendungsfälle haben.
-wrong_answers:
-  - Weil es teuer ist, eine Bitcoin Wallet zu verwenden.
-  - Weil es illegal ist, eine Bitcoin Wallet zu verwenden.
-  - Weil sich die Menschen nie auf den Namen einer solchen Wallet einigen werden.
-explanation: |
-  Während für eine Person möglicherweise Sicherheit Priorität hat, legt eine andere Person möglicherweise Wert auf Benutzerfreundlichkeit oder bestimmte Funktionen. Daher kann eine einzelne Bitcoin Wallet nicht allen Anforderungen gerecht werden, wodurch es notwendig ist, dass es mehrere Wallet-Optionen gibt.
-reviewed: false

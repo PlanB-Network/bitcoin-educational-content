@@ -1,0 +1,5 @@
+---
+term: VERPFLICHTUNGSGESCHÄFT
+
+---
+Im Kontext eines bidirektionalen Channels innerhalb von Lightning ist die Commitment-Transaktion eine Transaktion, die beide Parteien erstellen und unterzeichnen, ohne sie auf der Hauptkette zu veröffentlichen. Sie repräsentiert den aktuellen Stand der Geldverteilung zwischen den Parteien eines Channels, wobei jede Lightning-Zahlung zu einer neuen Commitment-Transaktion führt. Diese Transaktionen sind gültig, werden aber nur übertragen, wenn der Kanal einseitig geschlossen wird. Sie enthalten Ausgaben für jede Partei, die die Verteilung der Mittel entsprechend den seit Eröffnung des Kanals getätigten Lightning-Zahlungen widerspiegeln. Strafmechanismen sollen die Parteien davon abhalten, veraltete Zustände des Kanals zu übertragen, d. h. alte Mittelbindungstransaktionen, die eine falsche Verteilung der Mittel widerspiegeln.

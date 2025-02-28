@@ -1,0 +1,9 @@
+question: Parmi les réponses suivantes, laquelle ne fait pas partie des 3 grandes catégories d'heuristiques et de caractéristiques utilisées en analyse de chaîne ?
+answer: Les modèles de cryptographie.
+wrong_answers:
+  - Les modèles de transaction.
+  - Les heuristiques internes à la transaction.
+  - Les heuristiques externes à la transaction.
+explanation: |
+  Les heuristiques utilisées en analyse de chaîne peuvent être regroupées en trois catégories ; les patterns de transaction (ou modèles de transaction), les heuristiques internes à la transaction et les heuristiques externes à la transaction.
+reviewed: false

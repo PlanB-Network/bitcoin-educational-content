@@ -1,0 +1,7 @@
+---
+term: SERANGAN DEBU
+
+---
+Dusting Attack melibatkan pengiriman sejumlah kecil bitcoin ke sejumlah besar alamat penerima. Tujuan penyerang adalah untuk memaksa para penerima untuk menggabungkan jumlah ini dengan UTXO lainnya. Penyerang kemudian melacak pergerakan bitcoin dalam jumlah kecil ini di masa mendatang, dengan tujuan untuk membentuk kelompok alamat, yaitu untuk menentukan apakah beberapa alamat merupakan bagian dari entitas yang sama. Dengan mengkorelasikan informasi yang dikumpulkan selama serangan debu dengan data lain dan heuristik yang digunakan dalam analisis rantai, penyerang dapat mengidentifikasi entitas tertentu dan alamat terkait. Metode ini merupakan ancaman hanya pada privasi pengguna, tetapi tidak mempengaruhi keamanan dana mereka.
+
+> ► *Beberapa pengguna Bitcoin menyarankan untuk tidak lagi menggunakan istilah "serangan debu" karena istilah tersebut dapat menyesatkan. Memang, istilah "debu" menggambarkan sesuatu yang sangat spesifik dalam Bitcoin Core. Jika serangan debu benar-benar menggunakan debu seperti yang dijelaskan dalam Core, serangan tersebut tidak akan efektif. Oleh karena itu, beberapa orang menyarankan untuk menggunakan istilah "penggunaan ulang alamat secara paksa" untuk menggambarkan serangan ini dengan lebih akurat.*

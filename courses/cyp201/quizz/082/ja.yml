@@ -1,0 +1,9 @@
+question: P2PKとP2PKHの主な違いは何ですか？
+answer: P2PKは生の公開鍵を直接使用するのに対し、P2PKHは公開鍵のハッシュを使用します。
+wrong_answers:
+  - P2PKはSegWitに対応しているが、P2PKHは対応していない。
+  - P2PKはSchnorr署名を使用し、P2PKHはECDSA署名を使用する。
+  - P2PKはマルチシグ用であり、P2PKHはシンプルなスクリプト用である。
+explanation: |
+  P2PKは生の公開鍵で資金をロックするのに対し、P2PKHは公開鍵のハッシュを使用します。
+reviewed: false

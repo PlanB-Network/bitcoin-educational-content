@@ -1,0 +1,11 @@
+question: Hvorfor anbefales det ikke å bruke nettleserutvidelser for automatisk utfylling av passord?
+answer: De kan gjøre brukeren mer sårbar for phishing-angrep, øke angrepsflaten, og senke nettleserens ytelse.
+wrong_answers:
+  - De er vanskelige å bruke.
+  - De er ikke kompatible med alle nettlesere.
+  - De krever mye lagringsplass.
+explanation: |
+  Nettleserutvidelser for automatisk utfylling av passord kan gjøre brukeren mer
+  sårbar for phishing-angrep. De har også en tendens til å øke angrepsflaten og
+  kan senke nettleserens ytelse, noe som presenterer en betydelig risiko.
+reviewed: false

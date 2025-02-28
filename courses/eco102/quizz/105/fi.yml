@@ -1,0 +1,9 @@
+question: Kuka on Minä, Kynä kirjoittaja ja kuka myös käänsi Bastiat'n Laki teoksen englanniksi?
+answer: Leonard Read
+wrong_answers:
+  - Leonard Nimoy
+  - Leonard Cohen
+  - Milton Friedman
+explanation: |
+  Leonard Read tunnetaan Bastiat'n Laki teoksen kääntämisestä englanniksi ja hänen työnsä popularisoinnista Taloudellisen Koulutuksen Säätiön kautta.
+reviewed: false

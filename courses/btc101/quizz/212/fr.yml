@@ -1,0 +1,12 @@
+question: Comment ce cours décrit-il Bitcoin ?
+answer: Un sujet multidisciplinaire.
+wrong_answers:
+  - Un sujet simple.
+  - Un sujet physique.
+  - Un sujet mono-disciplinaire.
+explanation: |
+  Bitcoin est décrit comme un sujet multidisciplinaire car
+  il soulève des questions liées à divers domaines, incluant
+  la cryptographie, la théorie des jeux, l'économie et la politique monétaire,
+  l'informatique, la philosophie, l'énergie, les lois et la régulation.
+reviewed: true

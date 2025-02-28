@@ -1,0 +1,8 @@
+question: Trong một giao dịch Bitcoin, script khóa thực hiện chức năng gì?
+answer: Nó đặt ra các điều kiện cụ thể để chi tiêu các quỹ liên quan
+wrong_answers:
+  - Nó tự động gửi quỹ đến nhiều địa chỉ
+  - Nó xác định giá trị của UTXO sẽ được tạo ra
+  - Nó tạm thời khóa quỹ để ngăn chặn việc chi tiêu quá mức
+explanation: |
+  Script khóa đặt ra các điều kiện, như việc ký bằng khóa riêng, để mở khóa và sử dụng quỹ trong một giao dịch.

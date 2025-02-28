@@ -1,0 +1,11 @@
+question: Hva er en varm lommebok i konteksten av Bitcoin?
+answer: En digital lommebok brukt for å lagre, sende og motta Bitcoin
+wrong_answers:
+  - En fysisk lommebok brukt for å lagre Bitcoin
+  - En metode for å kjøpe Bitcoin
+  - En Bitcoin-utvekslingsplattform
+explanation: |
+  I konteksten av Bitcoin, er en varm lommebok en digital lommebok brukt for
+  å lagre, sende og motta Bitcoin. Den er vanligvis koblet til internett
+  og er derfor mindre sikker enn en kald lommebok.
+reviewed: false

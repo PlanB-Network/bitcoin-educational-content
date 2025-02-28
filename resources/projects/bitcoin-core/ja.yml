@@ -1,0 +1,5 @@
+description: |
+  Bitcoin Coreは、Bitcoinシステムのオープンソースのリファレンスソフトウェアであり、現在もBitcoinプロトコルの主要な実装として機能しています。多数のボランティアコントリビューターによって開発および維持されています。元々は“Bitcoin Qt”と呼ばれ、Satoshi Nakamotoによる元のBitcoinクライアントおよびBitcoindに続くBitcoinの歴史上3番目のクライアントです。Satoshiのオリジナルコードを基に開発され、グラフィカルユーザーインターフェースを導入しました。興味深いことに、Bitcoin Coreのグラフィカルインターフェースは現在でもbitcoin-qtと呼ばれています。バージョン0.5以降、bitcoindとともに提供されています。Bitcoin Coreには複数の目的があります。まず、フルノードクライアントとして機能します。Bitcoin Coreには、ビットコインを保存、管理、および直接取引するためのウォレットも含まれています。
+
+contributors:
+  - pretty-private

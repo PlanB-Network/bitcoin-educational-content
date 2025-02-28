@@ -1,0 +1,9 @@
+question: Milline plokkšifreerimise algoritm võeti kasutusele AES standardina?
+answer: Rijndaeli šiffer
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  Rijndaeli šiffer võeti NIST poolt sümmeetrilise šifreerimise standardina (AES) kasutusele, tänu selle kõrgele jõudlusele ja turvalisusele.
+reviewed: false

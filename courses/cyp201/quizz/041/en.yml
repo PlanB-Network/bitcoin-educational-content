@@ -1,0 +1,9 @@
+question: What is the main risk of using a poorly designed PRNG to generate entropy?
+answer: Private keys could be guessed by an attacker
+wrong_answers:
+  - The mnemonic phrase could contain incorrect words
+  - Digital signatures would become invalid
+  - Bitcoin addresses would be incompatible with the network
+explanation: |
+  A poorly designed PRNG can produce predictable sequences, making the keys more vulnerable to attacks.
+reviewed: false

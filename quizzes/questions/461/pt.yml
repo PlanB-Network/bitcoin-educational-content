@@ -1,9 +1,0 @@
-question: Qual é o comprimento das chaves privadas em uma carteira de Bitcoin?
-answer: 256 bits
-wrong_answers:
-  - 128 bits
-  - 512 bits
-  - 1024 bits
-explanation: |
-  As chaves privadas em uma carteira de Bitcoin, que são essenciais para a propriedade de criptomoedas, têm um comprimento fixo de 256 bits.
-reviewed: false

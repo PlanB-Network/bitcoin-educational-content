@@ -1,0 +1,9 @@
+question: Qu'est-ce que la transaction coinbase ?
+answer: La première transaction du bloc qui inclut la récompense du mineur.
+wrong_answers:
+  - Une transaction effectuée sur l'échange Coinbase.
+  - La deuxième transaction du bloc qui inclut les frais les plus élevés.
+  - Une transaction effectuée par le mineur après avoir reçu la récompense.
+explanation: >-
+  La transaction coinbase est toujours la première transaction d'un bloc. Elle inclut la récompense du mineur pour avoir effectué le travail de validateur.
+reviewed: true

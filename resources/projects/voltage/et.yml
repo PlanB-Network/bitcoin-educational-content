@@ -1,0 +1,6 @@
+description: |
+  Voltage on platvorm, mis pakub ettevõtte tasemel taristut Lightning Network'ile.
+
+  See pakub mitmesuguseid teenuseid, et aidata ettevõtetel ja arendajatel Lightning Network'il kiiremini ehitada, juurutada ja skaleerida. Peamised tooted hõlmavad Node Hostingut muretu sõlme haldamise jaoks, Surge'i teadmiste ja hoiatuste jaoks teie sõlme kohta ning Flow'd Lightning kanalite lihtsaks loomiseks. Platvorm on loodud pakkuma täielikku kontrolli, krüpteeritud turvalisust ja pidevat veebikättesaadavust. Voltage pakub samuti uuendusi, juhendeid ja teadmisi oma blogi kaudu. Kasutajad saavad platvormi proovida tasuta 7-päevase prooviperioodiga.
+contributors:
+  - rabbit-hole

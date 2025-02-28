@@ -1,0 +1,13 @@
+question: Který algoritmus pro výměnu kryptografických klíčů je jádrem operace BIP47?
+
+answer: ECDH
+
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+
+explanation: |
+  Použitým algoritmem je ECDH (Elliptic Curve Diffie-Hellman). Jedná se o variantu klasického algoritmu Diffie-Hellman, která využívá eliptické křivky.
+
+reviewed: false

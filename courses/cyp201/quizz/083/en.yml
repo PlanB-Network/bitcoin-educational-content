@@ -1,0 +1,9 @@
+question: What type of address starts with `1` and belongs to the Legacy standard?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  P2PKH addresses, encoded in base58check, come from the Legacy standard and start with the digit `1`.
+reviewed: false

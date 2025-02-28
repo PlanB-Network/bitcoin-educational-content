@@ -1,0 +1,9 @@
+question: Co se stane, pokud platba prostřednictvím HTLC není dokončena v přiděleném čase?
+answer: Platba je zrušena a prostředky se vrátí odesílateli.
+wrong_answers:
+  - Platbu si ponechá poslední prostředníkující uzel
+  - Prostředky jsou rozděleny mezi všechny uzly na cestě
+  - Prostředky jsou trvale zablokovány
+explanation: |
+  Pokud HTLC vyprší bez odhalení tajemství, platba je zrušena a prostředky se vrátí odesílateli, čímž se zabrání jakémukoli prostředníkujícímu uzlu v ponechání si prostředků.
+reviewed: false

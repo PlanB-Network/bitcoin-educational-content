@@ -1,9 +1,0 @@
-question: Qual é o tamanho do blockchain do Bitcoin?
-answer: Aproximadamente 500GB
-wrong_answers:
-  - Aproximadamente 100GB
-  - Aproximadamente 1TB
-  - Aproximadamente 2TB
-explanation: |
-  O blockchain do Bitcoin tem aproximadamente 500GB de tamanho.
-reviewed: false

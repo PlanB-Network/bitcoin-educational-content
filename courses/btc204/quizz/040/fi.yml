@@ -1,0 +1,9 @@
+question: Miksi bitcoinit, jotka on ostettu P2P-vaihtopalveluiden kautta, ovat usein kalliimpia kuin ne, jotka on ostettu säänneltyiltä alustoilta?
+answer: Lisäriskit, transaktiomaksut ja yksityisyyden suojaan liittyvä lisähinta.
+wrong_answers:
+  - Markkinoiden volatiliteetti, kaksinkertaisen kulutuksen riskit ja laillinen noudattaminen.
+  - Rekisteröintimaksut, rajalliset vaihtoehdot ja pidempi validointiaika.
+  - Rekisteröintimaksut, tiukat säännökset ja heikko turvallisuus.
+explanation: |
+  Bitcoinit, jotka myydään P2P-alustoilla, ovat yleensä kalliimpia kuin ne, jotka ovat peräisin säännellyiltä alustoilta. Tämä hintalisä johtuu useista tekijöistä: myyjä ottaa enemmän riskejä, heidän on myös katettava lisäkustannukset, ja vaihtopalvelu tarjoaa ostajalle korkeamman tason yksityisyyttä.
+reviewed: false

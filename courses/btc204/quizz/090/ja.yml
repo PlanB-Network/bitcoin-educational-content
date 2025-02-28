@@ -1,0 +1,13 @@
+question: Whirlpoolのリミックスが他のcoinjoin実装と比べてユニークな点は何ですか？
+
+answer: 完全に無料です。
+
+wrong_answers:
+  - 採掘手数料のみの支払いが必要です。
+  - ユーザーごとに1回限りです。
+  - サービス手数料のみの支払いが必要です。
+
+explanation: |
+  Whirlpoolのリミックスは100%無料です：追加のサービス手数料や採掘手数料は必要ありません。
+
+reviewed: false

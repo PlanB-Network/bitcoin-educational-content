@@ -1,0 +1,9 @@
+question: Mikä ominaisuus tekee Swiss Bitcoin Pay -ratkaisusta erityisen sopivan Essential-profiilin pienyrityksille?
+answer: Käyttäjäystävällinen PoS-sovellus
+wrong_answers:
+  - Kehittyneet monen valuutan kaupankäynnin ominaisuudet
+  - Monen allekirjoituksen lompakon hallinta
+  - Täydellinen lohkoketjuanalytiikan integrointi
+explanation: |
+  Swiss Bitcoin Pay on suunniteltu suoraviivaisella PoS-käyttöliittymällä, joka yksinkertaistaa päivittäisiä toimintoja.
+reviewed: false

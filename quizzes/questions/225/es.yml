@@ -1,9 +1,0 @@
-question: ¿Qué permite la Red Lightning?
-answer: Transacciones instantáneas de Bitcoin a bajo costo.
-wrong_answers:
-  - Transacciones instantáneas de Bitcoin a alto costo.
-  - Transacciones de Bitcoin a bajo costo con retraso.
-  - Transacciones de Bitcoin a alto costo con retraso.
-explanation: |
-  La Red Lightning permite transacciones instantáneas de Bitcoin a bajo costo, resolviendo así el problema de escalabilidad de Bitcoin.
-reviewed: false

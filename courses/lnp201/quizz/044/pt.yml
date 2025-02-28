@@ -1,0 +1,9 @@
+question: O que um nó de envio faz quando uma rota de pagamento falha devido a liquidez insuficiente?
+answer: Ele tenta outra rota até encontrar uma funcional
+wrong_answers:
+  - Ele automaticamente envia um pedido de reembolso para o destinatário
+  - Ele fecha o canal e cria um novo canal direto
+  - Ele pede aos nós intermediários para aumentarem sua liquidez
+explanation: |
+  Quando uma rota falha, o nó de envio tenta outras rotas alternativas até encontrar um caminho funcional, ou todas as opções se esgotam.
+reviewed: false

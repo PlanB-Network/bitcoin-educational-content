@@ -1,9 +1,0 @@
-question: ¿Cuál es el uso recomendado de una billetera física sin conexión o en frío?
-answer: Para almacenar cantidades mayores
-wrong_answers:
-  - Para gastos diarios
-  - Para cantidades pequeñas
-  - Para ahorros a corto plazo
-explanation: |
-  Se recomienda utilizar una billetera física sin conexión o en frío para almacenar cantidades mayores, ya que es menos vulnerable a las amenazas en línea. Sin embargo, no se recomienda para gastos diarios, ya que es menos accesible para transacciones diarias.
-reviewed: false

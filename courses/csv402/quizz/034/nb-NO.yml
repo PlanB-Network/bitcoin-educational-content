@@ -1,0 +1,9 @@
+question: Hvilken handling utfører Bob (mottaker) når han mottar terminalforsendelsen fra Alice (betaler)?
+answer: Kontroller gyldigheten av tilstandsovergangen og signer
+wrong_answers:
+  - Endre kontraktsskjemaet og send det til Alice
+  - Opprett en faktura for en ny operasjon
+  - Signer Alices PSBT og distribuer det i kjeden
+explanation: |
+  Bob undersøker forsendelsen, forsikrer seg om at overgangen er i samsvar med reglene, og signerer for å bekrefte at han er enig.
+reviewed: false

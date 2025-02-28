@@ -1,0 +1,9 @@
+question: Tấn công phản xạ trong một phiên giao tiếp là gì?
+answer: Kẻ tấn công gửi lại cho Alice một tin nhắn mà họ đã chặn giữa Alice và Bob
+wrong_answers:
+  - Kẻ tấn công đảo ngược thứ tự của các tin nhắn trong giao tiếp
+  - Kẻ tấn công gửi một tin nhắn đã được chỉnh sửa mà không có thẻ
+  - Kẻ tấn công sử dụng một tin nhắn cũ để tạo ra một tin nhắn mới
+explanation: |
+  Trong một cuộc tấn công phản xạ, kẻ tấn công chặn một tin nhắn từ Alice gửi đến Bob và gửi lại chính tin nhắn đó cho Alice, gây ra sự nhầm lẫn trong phiên giao tiếp.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Qual é o algoritmo de criptografia de bloco adotado como padrão AES?
+answer: A Cifra de Rijndael
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  A Cifra de Rijndael foi adotada como o padrão de criptografia simétrica (AES) pelo NIST, devido ao seu alto desempenho e segurança.

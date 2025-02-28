@@ -1,9 +1,0 @@
-question: Was passiert bei einer erzwungenen Schließung, wenn die Netzwerkgebühr zum Zeitpunkt der Schließung 1 SAT beträgt?
-answer: Die Transaktion wird um das 50-fache überbezahlt.
-wrong_answers:
-  - Die Transaktion wird um das 50-fache unterbezahlt.
-  - Die Transaktion wird um das 2-fache überbezahlt.
-  - Die Transaktion wird um das 2-fache unterbezahlt.
-explanation: |
-  Bei einer erzwungenen Schließung verwendet das Protokoll Gebühren, die 5-mal höher sind als die aktuellen Gebühren zum Zeitpunkt der Erstellung der Transaktion. Wenn die Netzwerkgebühr zum Zeitpunkt der Schließung 1 SAT beträgt, wird die Transaktion um das 50-fache überbezahlt.
-reviewed: false

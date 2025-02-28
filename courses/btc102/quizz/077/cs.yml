@@ -1,0 +1,10 @@
+question: Co je satoshi v kontextu Bitcoinu?
+answer: Nejmenší jednotka Bitcoinu
+wrong_answers:
+  - Typ Bitcoinové peněženky
+  - Metoda nákupu Bitcoinu
+  - Platforma pro výměnu Bitcoinů
+explanation: |
+  V kontextu Bitcoinu je satoshi (nebo SAT) nejmenší jednotkou
+  Bitcoinu. Sběratelé Bitcoinů se snaží nahromadit co nejvíce satoshi.
+reviewed: false

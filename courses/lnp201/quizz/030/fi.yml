@@ -1,0 +1,9 @@
+question: Kuinka Lightning-verkko mahdollistaa varojen lähettämisen solmulle, joka ei ole suoraan yhdistetty?
+answer: Reitittämällä maksun välisolmujen kautta
+wrong_answers:
+  - Käyttämällä on-chain-siirtoja jokaisen solmun välillä
+  - Automatisoidusti perustamalla väliaikaisen kanavan
+  - Lähettämällä varat suoraan multisignatuuri-osoitteiden avulla
+explanation: |
+  Lightning-verkko mahdollistaa maksun reitittämisen useiden välisolmujen kautta, ilman että lähettäjän ja vastaanottajan välillä tarvitsee olla suoraa kanavaa.
+reviewed: false

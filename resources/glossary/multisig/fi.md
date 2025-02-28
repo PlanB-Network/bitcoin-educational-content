@@ -1,0 +1,7 @@
+---
+term: MULTISIG
+
+---
+Multisignature-lompakot, joista käytetään usein lyhennettä "multisig", on suunniteltu parantamaan bitcoinien turvallisuutta vaatimalla useita allekirjoituksia eri yksityisavaimilla, jotta menot voidaan hyväksyä. Tämä menetelmä jakaa riskin useiden avainten kesken, mikä auttaa vähentämään sekä häviämisen että varkauden riskiä (multisig-konfiguraatiosta riippuen). Multisig-lompakot toimivat "m-of-n"-mallilla, jossa "m" tarkoittaa tapahtuman vahvistamiseen tarvittavien allekirjoitusten vähimmäismäärää ja "n" on mukana olevien avainten kokonaismäärä. Esimerkiksi 2-of-3-asetelma vaatii kaksi allekirjoitusta kolmesta mahdollisesta transaktion vahvistamiseksi. Tämä lähestymistapa tarjoaa paremman turvallisuuden kuin yhden avaimen lompakot, mutta se myös monimutkaistaa hallinnointia ja varmuuskopiointia. Lisäksi vanhemmilla multisig-standardeilla toteutetut transaktiot ovat vähemmän yksityisiä ja kalliimpia maksujen osalta kuin perinteiset singlesig-transaktiot. Viimeaikaisten innovaatioiden, kuten Taprootin ja kuvaajien käytön, odotetaan kuitenkin minimoivan tai jopa poistavan nämä multisigien haitat.
+
+> ► *Jotkut bitcoin-asiantuntijat erottavat toisistaan termit "Multisig" ja "Threshold Multisig" Jotkut väittävätkin, että multisig on välttämättä n-n:stä, kun taas threshold-multisig on m-n:stä. Yleiskielessä on kuitenkin hyväksytty, että "Multisigistä" puhutaan myös m-of-n:n osalta.*

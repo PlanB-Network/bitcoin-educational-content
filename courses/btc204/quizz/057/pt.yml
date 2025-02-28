@@ -1,0 +1,13 @@
+question: Qual é a principal ameaça associada ao reuso de endereços?
+
+answer: Permite que links determinísticos sejam estabelecidos entre diferentes transações e uma posse comum dos UTXOs em questão.
+
+wrong_answers:
+  - Expõe o endereço IP do usuário para outros participantes da rede durante a validação da transação.
+  - Reduz a eficácia dos mecanismos de assinatura digital, o que enfraquece a segurança das transações.
+  - Leva a um aumento nas taxas de transação devido à congestão causada pelo reuso de endereços.
+
+explanation: |
+  Se o mesmo endereço for usado para múltiplas transações, torna-se possível deduzir que todos os bitcoins associados a esse endereço pertencem à mesma pessoa.
+
+reviewed: false

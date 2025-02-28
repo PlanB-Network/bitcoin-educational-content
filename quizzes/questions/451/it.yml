@@ -1,9 +1,0 @@
-question: Qual è il ruolo del punto generatore nella curva ellittica?
-answer: Viene utilizzato per calcolare il punto sulla curva ellittica.
-wrong_answers:
-  - Viene utilizzato per generare il nonce.
-  - Viene utilizzato per criptare le chiavi.
-  - Viene utilizzato per memorizzare le chiavi.
-explanation: |
-  Il punto generatore è un punto specifico sulla curva ellittica che viene utilizzato nel calcolo di altri punti sulla curva. Viene utilizzato nella generazione di chiavi pubbliche e private, così come nella creazione e verifica di firme digitali.
-reviewed: false

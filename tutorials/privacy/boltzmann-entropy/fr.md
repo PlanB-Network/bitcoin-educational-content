@@ -2,14 +2,24 @@
 name: Boltzmann Calculator
 description: Comprendre le concept d'entropie et savoir utiliser Boltzmann
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
+
+***ATTENTION :** Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leurs serveurs le 24 avril dernier, le site KYCP.org n'est actuellement plus accessible. Le Gitlab qui hébergeait le code de l'outil Python Boltzmann Calculator a aussi été saisi. À l'heure actuelle, il n'est donc plus possible de télécharger cet outil. Cependant, il reste possible que le code soit republié par d'autres personnes dans les semaines à venir. En attendant, vous pouvez toujours profiter de ce tutoriel pour comprendre le fonctionnement du Boltzmann Calculator. Les indicateurs fournis par cet outil sont applicables à toute transaction Bitcoin et peuvent aussi être calculés manuellement. Je vous fournirai tous les calculs nécessaires dans ce tutoriel. Si vous aviez déjà téléchargé l'outil Python sur votre machine ou si vous utilisez un RoninDojo, vous pouvez continuer à utiliser l'outil et suivre ce tutoriel normalement, cela fonctionne toujours.*
+
+*Nous suivons de près l'évolution de cette affaire ainsi que les développements concernant les outils associés. Soyez assuré que nous mettrons ce tutoriel à jour au fur et à mesure que de nouvelles informations seront disponibles.*
+
+*Ce tutoriel est fourni à des fins éducatives et informatives uniquement. Nous ne cautionnons ni n'encourageons l'utilisation de ces outils à des fins criminelles. Il est de la responsabilité de chaque utilisateur de respecter les lois en vigueur dans sa juridiction.*
+
+---
 
 Le calculateur Boltzmann est un outil pour analyser une transaction Bitcoin en mesurant son niveau d'entropie avec d'autres métriques avancées. Il offre des informations sur les liaisons entre les entrées et les sorties d'une transaction. Ces indicateurs fournissent une évaluation quantifiée de la confidentialité d'une transaction et aident à identifier d'éventuelles erreurs.
 
 Cet outil Python a été développé par les équipes de Samourai Wallet et d'OXT, mais il peut être utilisé sur n'importe quelle transaction Bitcoin.
 
 ## Comment utiliser le calculateur Boltzmann ?
-Pour utiliser le calculateur Boltzmann, deux options s'offrent à vous. La première consiste à installer [l'outil Python](https://code.samourai.io/oxt/boltzmann) directement sur votre machine. Alternativement, vous pouvez opter pour le site [KYCP.org](https://kycp.org/#/) (_Know Your Coin Privacy_), qui offre une plateforme d'utilisation simplifiée. Pour les utilisateurs de [RoninDojo](https://planb.network/tutorials/node/ronin-dojo-v2), sachez que cet outil est déjà intégré dans votre nœud.
+Pour utiliser le calculateur Boltzmann, deux options s'offrent à vous. La première consiste à installer l'outil Python directement sur votre machine. 
+
+Alternativement, vous pouvez opter pour le site KYCP.org (_Know Your Coin Privacy_), qui offre une plateforme d'utilisation simplifiée. Pour les utilisateurs de RoninDojo, sachez que cet outil est déjà intégré dans votre nœud.
 
 L'usage du site KYCP est assez facile : il suffit de saisir l'identifiant de la transaction (TXID) désirée dans la barre de recherche et d'appuyer sur `ENTER`.
 ![KYCP](assets/1.webp)
@@ -18,8 +28,6 @@ Vous trouverez ensuite différentes informations sur la transaction, notamment l
 Vous arriverez sur la page dédiée aux indicateurs du Calculateur Boltzmann.
 ![KYCP](assets/3.webp)
 Pour ceux qui préfèrent utiliser l'outil directement depuis leur nœud RoninDojo, il est accessible via `RoninCLI > Samourai Toolkit > Boltzmann Calculator`.
-
-Pour une utilisation locale sur votre ordinateur, les instructions spécifiques à votre système sont disponibles à cette adresse : [https://code.samourai.io/oxt/boltzmann](https://code.samourai.io/oxt/boltzmann)
 
 Comme pour le site KYCP.org, une fois l'outil Python installé, il vous suffira de coller le TXID de la transaction que vous souhaitez analyser.
 
@@ -54,7 +62,7 @@ Lorsqu'une transaction présente un nombre élevé de combinaisons possibles, il
 En pratique, l'entropie révèle si, du regard d'un observateur externe, une transaction présente de multiples interprétations possibles, basées uniquement sur les montants des entrées et sorties, sans prendre en compte d'autres paternes et heuristiques externes ou internes. Une grande entropie est alors synonyme d'une meilleure confidentialité pour la transaction.
 
 L'entropie est définie comme le logarithme binaire du nombre de combinaisons possibles. Voici la formule utilisée :
-```
+```plaintext
 E : l'entropie de la transaction
 C : le nombre de combinaisons possibles pour la transaction
 
@@ -64,7 +72,7 @@ E = log2(C)
 En mathématiques, le logarithme binaire (logarithme de base 2) correspond à l'opération inverse de l'exponentiation de 2. Autrement dit, le logarithme binaire de `x` est l'exposant auquel `2` doit être élevé pour obtenir `x`. Cet indicateur s'exprime donc en bits. 
 
 Prenons l'exemple du calcul de l'entropie pour une transaction coinjoin structurée selon le modèle Whirlpool 5x5, qui, comme mentionné précédemment, offre un nombre de combinaisons possibles de `1 496` :
-```
+```plaintext
 C = 1 496
 E = log2(1 496)
 E = 10.5469 bits
@@ -73,14 +81,14 @@ E = 10.5469 bits
 Ainsi, cette transaction coinjoin affiche une entropie de `10.5469 bits`, ce qui est considéré comme très satisfaisant. Plus cette valeur est élevée, plus la transaction admet d'interprétations différentes, renforçant par conséquent son niveau de confidentialité.
 
 Pour une transaction coinjoin 8x8 présentant `9 934 563` interprétations, l'entropie serait :
-```
+```plaintext
 C = 9 934 563
 E = log2(9 934 563)
 E = 23.244 bits
 ```
 
 Prenons un exemple supplémentaire avec une transaction plus conventionnelle, comportant un input et deux outputs : [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce) Dans le cas de cette transaction, l'unique interprétation possible est : `(In.0) > (Out.0 ; Out.1)`. Par conséquent, son entropie s'établit à `0` :
-```
+```plaintext
 C = 1
 E = log2(1)
 E = 0 bits
@@ -92,7 +100,7 @@ Le troisième indicateur fourni par le Calculateur Boltzmann est dénommé `Wall
 Cela nous amène à aborder le concept d'entropie maximale, qui correspond à l'entropie la plus élevée qu'une structure de transaction spécifique puisse théoriquement atteindre. L'efficacité de la transaction est alors calculée en confrontant cette entropie maximale à l'entropie réelle de la transaction analysée. 
 
 La formule utilisée est la suivante :
-```
+```plaintext
 ER : l'entropie réelle de la transaction exprimée en bits
 EM : l'entropie maximale possible pour une structure de transaction donnée exprimée en bits
 Ef : l'efficacité de la transaction en bits
@@ -101,14 +109,14 @@ Ef = ER - EM
 ```
 
 Par exemple, pour une structure de coinjoin de type Whirlpool 5x5, l'entropie maximale est fixée à `10.5469` :
-```
+```plaintext
 ER = 10.5469
 EM = 10.5469
 Ef = 10.5469 - 10.5469 = 0 bits
 ```
 
 Cet indicateur est également exprimé en pourcentage, sa formule est alors :
-```
+```plaintext
 CR : le nombre de combinaisons possibles réelles
 CM : le nombre de combinaisons possibles au maximum avec la même structure
 Ef : l'efficacité exprimée en pourcentage
@@ -124,7 +132,7 @@ Une efficacité de `100 %` indique donc que la transaction exploite au maximum s
 Le quatrième indicateur est la densité de l'entropie noté sur l'outil `Entropy Density`. Il offre une perspective sur l'entropie relative à chaque entrée ou sortie de la transaction. Cet indicateur s'avère utile pour évaluer et comparer l'efficacité de transactions de différentes tailles. 
 
 Pour le calculer, on divise simplement l'entropie totale de la transaction par le nombre total d'entrées et de sorties impliquées :
-```
+```plaintext
 ED : la densité de l'entropie exprimée en bits
 E : l'entropie de la transaction exprimée en bits
 T : le nombre total d'inputs et d'outputs dans la transaction
@@ -133,14 +141,14 @@ ED = E / T
 ```
 
 Prenons l'exemple d'un coinjoin de type Whirlpool 5x5 :
-```
+```plaintext
 T = 5 + 5 = 10
 E = 10.5469
 ED = 10.5469 / 10 = 1.054 bits
 ```
 
 Calculons également la densité de l'entropie pour un coinjoin Whirlpool 8x8 :
-```
+```plaintext
 T = 8 + 8 = 16
 E = 23.244
 ED = 23.244 / 16 = 1.453 bits
@@ -165,7 +173,7 @@ En reprenant l'exemple d'un coinjoin Whirlpool, le tableau des probabilités con
 On voit bien ici que chaque entrée présente une chance égale d'être associée à n'importe quelle sortie, ce qui renforce la confidentialité de la transaction. 
 
 Le calcul du score de Boltzmann consiste à diviser le nombre d'interprétations dans lesquelles un certain événement se manifeste par le nombre total d'interprétations disponibles. Ainsi, pour déterminer le score associant l'entrée n°0 à la sortie n°3 (`512` interprétations), on procède de la manière suivante :
-```
+```plaintext
 Interprétations (IN.0 > OUT.3) = 512
 Interprétations totales = 1496
 Score = 512 / 1496 = 34 %
@@ -200,9 +208,9 @@ Par exemple, une transaction coinjoin de type Whirlpool ne présente aucun lien 
 
 **Ressources externes :**
 
-- [Code Boltzmann sur Samourai](https://code.samourai.io/oxt/boltzmann) 
+- Code Boltzmann sur Samourai
 - [Bitcoin Transactions & Privacy (Part I) de Laurent MT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [Bitcoin Transactions & Privacy (Part II) de Laurent MT](https://gist.github.com/LaurentMT/d361bca6dc52868573a2)
 - [Bitcoin Transactions & Privacy (Part III) de Laurent MT](https://gist.github.com/LaurentMT/e8644d5bc903f02613c6)
-- [Website de KYCP](https://kycp.org/#/)
+- Website de KYCP
 - [Article Medium sur une introduction au script Boltzmann par Laurent MT](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)

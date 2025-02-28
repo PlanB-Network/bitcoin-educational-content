@@ -1,0 +1,5 @@
+---
+term: PERKOLACE
+
+---
+Označuje model, který pomáhá pochopit šíření informací (transakcí a bloků) v síti uzlů Bitcoinu. Perkolační teorie je původně matematický a fyzikální model, který studuje pohyb a filtraci tekutin porézními materiály. Analyzuje, jak za určitou hranicí propojená síť umožňuje tekutině kontinuálně proudit materiálem. Lze ji aplikovat na počítačové sítě a zjistit, jak se šíří informace, když se uzly považují za místa, která mohou být buď aktivní, nebo neaktivní. V Bitcoinu tak uzly hrají roli pórů v perkolační teorii. Každý aktivní uzel přijímá a předává informace ostatním uzlům, které v přenosu buď pokračují, nebo jej blokují. Šíření určitých typů transakcí lze analyzovat z hlediska perkolačních prahů, kdy je nutné určité procento aktivních uzlů, aby se dostaly k těžaři, který je zařadí do bloku. Tato teorie poskytuje rámec pro posouzení toho, jak změny v síti, například úprava standardizačních pravidel některými uzly, ovlivňují kaskádový mechanismus šíření transakcí k dosažení těžaře.

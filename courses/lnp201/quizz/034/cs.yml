@@ -1,0 +1,9 @@
+question: Jaké informace musí odesílající uzel znát, aby mohl provést platbu pomocí onion routing?
+answer: Topologii sítě a kompletní trasu k příjemci
+wrong_answers:
+  - Pouze následující mezilehlý uzel
+  - Kapacitu každého kanálu
+  - Kryptografický podpis každého uzlu na cestě
+explanation: |
+  Odesílající uzel musí znát topologii sítě, aby mohl vypočítat trasu k příjemci, což mu umožní vybrat nejlepší cestu.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Qu'est-ce qu'une adresse de réception en Bitcoin ?
-answer: Une représentation alphanumérique d'une clé publique compressée.
-wrong_answers:
-  - Un identifiant unique pour chaque transaction Bitcoin.
-  - Un mot de passe pour accéder à un portefeuille Bitcoin.
-  - Une signature numérique pour les transactions Bitcoin.
-explanation: |
-  Une adresse de réception en Bitcoin est une représentation alphanumérique d'une clé publique compressée. Elle est utilisée pour recevoir des transactions Bitcoin.
-reviewed: false

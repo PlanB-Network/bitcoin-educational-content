@@ -1,0 +1,9 @@
+question: Kuidas veebiteenus kontrollib parooli ilma seda otseselt salvestamata?
+answer: Võrreldes sisestatud parooli räsiväärtust andmebaasis olevaga
+wrong_answers:
+  - Dekrüpteerides salvestatud parooli selle kontrollimiseks
+  - Kasutades avalikku võtit isiku tuvastamiseks
+  - Võrreldes parooli otseselt teiste kasutajate omadega
+explanation: |
+  Teenus genereerib sisestatud paroolist räsiväärtuse ja võrdleb seda salvestatuga, ilma parooli kunagi otseselt salvestamata, tagades nii suurema turvalisuse.
+reviewed: false

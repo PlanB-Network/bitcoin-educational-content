@@ -1,0 +1,7 @@
+---
+term: HONGKONGSKÝ KULATÝ STŮL
+
+---
+Historická událost blokové války, která se odehrála 20. února 2016 v Hongkongu. Jednalo se o významné setkání vývojářů a těžařů Bitcoin Core, na kterém se diskutovalo o škálovatelnosti systému a strategii jeho škálování. Napětí bylo před setkáním vysoké, zejména kvůli vzniku návrhu hard forku Bitcoin Classic, který podporoval Gavin Andressen a jehož cílem bylo zvýšit velikost bloku na 2 MB. Debat se zúčastnily vlivné osobnosti ekosystému, včetně Jihana Wu a Micreeho Zhana, spoluzakladatelů společnosti Bitmain, Adama Backa, prezidenta společnosti Blockstream, a Luka Dashjra, Matta Coralla a Petera Todda.
+
+Těžaři, frustrovaní nedostatečným pokrokem, pohrozili, že pokud nebude implementován hard fork 2 MB, budou podporovat Bitcoin Classic. Vývojáři obhajovali SegWit jako životaschopné řešení. Po hodinách napjatého vyjednávání bylo dosaženo dohody, podle níž budou vývojáři Bitcoin Core pracovat na hard forku až po implementaci SegWitu. Tato dohoda měla zmírnit napětí, ale nakonec vyvolala ještě větší nedůvěru a zmatek. Každá strana si dohodu vykládala jinak, což prohloubilo rozpory v komunitě. Ačkoli tato dohoda dočasně zpomalila rozmach Bitcoinu Classic, mnozí ji považovali za neuspokojivé a nešikovné řešení.

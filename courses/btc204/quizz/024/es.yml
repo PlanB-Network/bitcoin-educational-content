@@ -1,0 +1,9 @@
+question: Si observamos una transacción con 1 UTXO en entrada y 43 UTXOs en salidas, ¿qué patrón podemos reconocer?
+answer: Un gasto agrupado
+wrong_answers:
+  - Una consolidación
+  - Un pago simplificado
+  - Una transacción colaborativa
+explanation: |
+  La interpretación de este patrón es que estamos tratando con un gasto agrupado. Esta estructura permite a entidades como las plataformas de intercambio ahorrar en comisiones agrupando sus gastos en una única transacción.
+reviewed: false

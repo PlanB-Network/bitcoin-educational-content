@@ -1,0 +1,9 @@
+question: Qual tipo de criptografia simétrica é primariamente usada para comunicações contínuas, como fluxos de áudio ou vídeo?
+answer: Criptografia de fluxo
+wrong_answers:
+  - Criptografia de bloco
+  - Código de verificação
+  - Hash de mensagem
+explanation: |
+  A criptografia de fluxo é particularmente adequada para comunicações contínuas porque criptografa os dados de maneira contínua, ao contrário da criptografia de bloco, que os divide em blocos.
+reviewed: false

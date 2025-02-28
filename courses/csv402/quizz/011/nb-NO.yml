@@ -1,0 +1,9 @@
+question: Hva utgjør et anker i RGB?
+answer: Transaksjons-ID, MPC, DBC og ekstra transaksjonsbevis
+wrong_answers:
+  - Genesis, tetningsdefinisjon og overgangspakke
+  - Kontraktsskjema, forretningslogikk og eid tilstand
+  - Signatur, transaksjonshash og Pedersen-forpliktelse
+explanation: |
+  Et anker inneholder dataene som trengs for å bevise at en unik forpliktelse er inkludert i en Bitcoin-transaksjon.
+reviewed: false

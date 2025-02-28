@@ -1,0 +1,8 @@
+question: Mida võimaldab tuletada laiendatud avalik võti?
+answer: Ainult tavalised laste avalikud võtmed
+wrong_answers:
+  - Ainult tavalised laste privaatvõtmed
+  - Nii kõvastunud kui ka tavalised laste avalikud võtmed
+  - Nii kõvastunud kui ka tavalised laste privaatvõtmed
+explanation: |
+  Laiendatud avalik võti võimaldab tuletada ainult tavalisi laste avalikke võtmeid, mitte privaatvõtmeid või kõvastunud võtmeid.

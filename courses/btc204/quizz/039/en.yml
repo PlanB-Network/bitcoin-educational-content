@@ -1,0 +1,9 @@
+question: Why is it advised against posting receiving addresses on social media?
+answer: Because they can be used to link onchain activities to a real identity.
+wrong_answers:
+  - Because they can be easily hacked by malicious hackers.
+  - Because they could attract fraudulent offers and expose you to phishing campaigns.
+  - Because they can allow for the application of common input ownership heuristic.
+explanation: |
+  Sharing Bitcoin receiving addresses on the internet can be used as an entry point for chain analysis by linking an identity (real or pseudonymous) with onchain activity.
+reviewed: false

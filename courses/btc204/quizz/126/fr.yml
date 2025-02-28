@@ -1,0 +1,13 @@
+question: Quelle méthode cryptographique peut être utilisée dans les coinswaps pour garantir la sécurité de l'échange sans besoin de confiance ?
+
+answer: Les Adaptor Signatures
+
+wrong_answers:
+  - Le chiffrement symétrique
+  - ECDH
+  - Le chiffrement asymétrique
+
+explanation: |
+  Pour faire un coinswap, on peut utiliser des HTLC ou des PTLC. Ces deux protocoles fonctionnent de manière similaire en utilisant un système de verrouillage temporel qui garantit que l'échange est soit complété avec succès, soit entièrement annulé, ce qui permet de protéger l'intégrité des fonds des deux parties. La principale différence entre les HTLC et les PTLC réside dans le fait que les HTLC utilisent des hachages et des préimages pour sécuriser la transaction, tandis que les PTLC utilisent des Adaptor Signatures.
+
+reviewed: false

@@ -1,9 +1,0 @@
-question: Was ist eine potenzielle Auswirkung des Lightning-Netzwerks für Benutzer?
-answer: Sie würden nur für den Inhalt bezahlen, den sie konsumieren.
-wrong_answers:
-  - Sie müssten mehr für Inhalte bezahlen.
-  - Sie müssten eine monatliche Abonnementgebühr bezahlen.
-  - Sie müssten Inhalte im Voraus bezahlen.
-explanation: |
-  Mit dem Lightning-Netzwerk würden Benutzer nur für den Inhalt bezahlen, den sie konsumieren, wodurch die Abonnementgebühren im Voraus entfallen.
-reviewed: false

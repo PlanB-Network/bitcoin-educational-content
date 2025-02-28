@@ -1,9 +1,0 @@
-question: ¿Cuál es la relación entre el costo de Bitcoin y su precio?
-answer: El costo de Bitcoin generalmente es proporcional a su precio.
-wrong_answers:
-  - El costo de Bitcoin es inversamente proporcional a su precio.
-  - El costo de Bitcoin no está relacionado con su precio.
-  - El costo de Bitcoin siempre es mayor que su precio.
-explanation: |
-  El costo de Bitcoin, que está relacionado con la electricidad necesaria para operar las máquinas de minería, generalmente es proporcional a su precio. Esta relación proporciona una mejor comprensión de las fluctuaciones de precios y las perspectivas futuras.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on SegWit v1 (P2TR) -osoitteiden ainutlaatuinen ominaisuus verrattuna SegWit v0 -osoitteisiin?
+answer: Ne käyttävät suoraan raakaa julkista avainta osoitteessa.
+wrong_answers:
+  - Ne on koodattu base58check-muodossa.
+  - Niiden on oltava kelvollisia vaaditaan kaksi allekirjoitusta.
+  - Ne käyttävät julkisen avaimen hashausta osoitteessa.
+explanation: |
+  SegWit v1 (P2TR) -osoitteet eivät käytä julkisen avaimen hashausta, vaan suoraan Taproot-julkista avainta.
+reviewed: false

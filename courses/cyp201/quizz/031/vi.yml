@@ -1,0 +1,8 @@
+question: Bộ chỉnh sửa nào có thể được kết hợp với các cờ sighash cơ bản?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY chỉnh sửa các cờ sighash để chỉ bao gồm một đầu vào duy nhất trong khi để phần còn lại có thể được thay đổi.

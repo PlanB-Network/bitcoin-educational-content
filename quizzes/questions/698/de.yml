@@ -1,9 +1,0 @@
-question: Welche Rolle spielt der Hash r im HTLC?
-answer: Er wird in der Rechnung verwendet, die von Bob an Alice gesendet wird, und dient dazu, das HTLC einzurichten.
-wrong_answers:
-  - Er wird verwendet, um das Geheimnis S zu berechnen.
-  - Er wird verwendet, um den Kanal zu schließen.
-  - Er wird verwendet, um das Geld zu übertragen.
-explanation: |
-  Bob generiert ein Geheimnis S und berechnet den Hash r. Dieser Hash wird in der Rechnung verwendet, die von Bob an Alice gesendet wird, und dient dazu, das HTLC einzurichten.
-reviewed: false

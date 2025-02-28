@@ -1,0 +1,9 @@
+question: ¿Qué tamaño de clave se considera seguro contra ataques de fuerza bruta para la encriptación moderna?
+answer: 128 bits
+wrong_answers:
+  - 16 bits
+  - 64 bits
+  - 100 bits
+explanation: |
+  Con una clave de al menos 128 bits, la encriptación moderna se considera actualmente segura contra ataques de fuerza bruta, ya que el número de intentos sería irrealista.
+reviewed: false

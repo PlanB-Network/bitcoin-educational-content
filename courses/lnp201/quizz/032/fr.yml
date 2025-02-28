@@ -1,0 +1,9 @@
+question: Quel est le rôle des frais de routage dans le Lightning Network ?
+answer: Inciter les nœuds intermédiaires à fournir leur liquidité pour le transfert de paiements
+wrong_answers:
+  - Limiter le nombre de transactions sur le réseau
+  - Assurer que chaque canal a suffisamment de fonds
+  - Calculer automatiquement le chemin le plus court
+explanation: |
+  Les frais de routage servent à rémunérer les nœuds intermédiaires qui relaient les paiements en offrant leur liquidité pour permettre le transfert de fonds sur le réseau.
+reviewed: false

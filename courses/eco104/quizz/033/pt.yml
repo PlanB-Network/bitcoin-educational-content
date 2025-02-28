@@ -1,0 +1,12 @@
+question: Qual é um benefício das stablecoins centralizadas apesar de sua capacidade de congelar fundos?
+answer: Elas podem responder rapidamente para proteger os usuários em certos cenários
+wrong_answers:
+  - Elas oferecem completa descentralização e segurança
+  - Elas não estão sujeitas a quaisquer regulamentações ou intervenções
+  - Elas operam independentemente da aplicação da lei
+explanation: |
+  As stablecoins centralizadas têm a capacidade de intervir
+  quando está no melhor interesse dos usuários e da estabilidade geral
+  do sistema, como demonstrado por exemplos onde fundos congelados foram
+  usados para proteger consumidores e impedir que hackers lucrem.
+reviewed: true

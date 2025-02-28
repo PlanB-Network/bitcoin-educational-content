@@ -1,0 +1,12 @@
+question: Quelle est l'une des motivations derrière la consommation d'énergie par le minage de Bitcoin ?
+answer: Fournir un puissant mécanisme de défense contre la centralisation
+wrong_answers:
+  - Rendre l'utilisation du Bitcoin plus coûteuse
+  - Réduire sa valeur en augmentant les coûts énergétiques
+  - Décourager les nouveaux utilisateurs de rejoindre le réseau
+explanation: |
+  L'une des raisons pour lesquelles le Bitcoin consomme de l'énergie à travers le minage est de 
+  fournir un puissant mécanisme de défense contre la centralisation et 
+  la manipulation indue. Le réseau distribué de mineurs aide à prévenir 
+  que des entités centralisées s'emparent du réseau ou manipulent les règles à leur avantage.
+reviewed: true

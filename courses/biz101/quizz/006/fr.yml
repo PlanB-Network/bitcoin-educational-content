@@ -1,0 +1,9 @@
+question: Pourquoi le plafond de 21 millions pour l'émission de bitcoins est-il important ?
+answer: Il crée un actif déflationniste, protégeant sa valeur contre une inflation arbitraire.
+wrong_answers:
+  - Il garantit que les gouvernements peuvent imprimer autant de bitcoins que nécessaire.
+  - Il empêche quiconque d'envoyer des transactions une fois le plafond atteint.
+  - Il élimine toute volatilité du cours du bitcoin.
+explanation: |
+  Avec une offre maximale de 21 millions, la rareté du bitcoin est codée en dur, ce qui le différencie fondamentalement des monnaies inflationnistes dont l'offre peut être augmentée à volonté.
+reviewed: false

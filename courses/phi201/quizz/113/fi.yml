@@ -1,0 +1,9 @@
+question: Mikä on Hayekin pääkritiikki Keynesiläistä rahapolitiikkaa kohtaan?
+answer: Se luo talouskuplia ja taantumia
+wrong_answers:
+  - Se suosii pitkän aikavälin investointeja
+  - Se vähentää sosiaalisia eroja
+  - Se lisää kotimaista kysyntää hallitsemattomasti
+explanation: |
+  Hayek kritisoi Keynesiläistä rahapolitiikkaa toteamalla, että se kannustaa keinotekoiseen yli-investointikiertoon, mikä johtaa talouskupliin ja väistämättä taantumiin, kun nämä kuplat puhkeavat.
+reviewed: false

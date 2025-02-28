@@ -1,9 +1,0 @@
-question: ¿Qué sucede en un cierre forzado si la tarifa de red es de 1 SAT en el momento del cierre?
-answer: La transacción se paga en exceso 50 veces.
-wrong_answers:
-  - La transacción se paga de menos 50 veces.
-  - La transacción se paga en exceso 2 veces.
-  - La transacción se paga de menos 2 veces.
-explanation: |
-  En un cierre forzado, el protocolo establece las tarifas 5 veces más altas que las actuales cuando se creó la transacción. Si la tarifa de red es de 1 SAT en el momento del cierre, la transacción se paga en exceso 50 veces.
-reviewed: false

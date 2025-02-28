@@ -1,9 +1,0 @@
-question: Qual è il principale vantaggio nell'utilizzare una nuova coppia di chiavi per ogni transazione Bitcoin?
-answer: Migliora la sicurezza.
-wrong_answers:
-  - Migliora la velocità.
-  - Migliora l'anonimato.
-  - Migliora la legalità.
-explanation: |
-  Utilizzare una nuova coppia di chiavi per ogni transazione migliora la sicurezza delle transazioni Bitcoin. Tuttavia, complica il loro backup e preserva solo parzialmente la riservatezza.
-reviewed: false

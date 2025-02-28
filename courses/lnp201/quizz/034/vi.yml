@@ -1,0 +1,9 @@
+question: Thông tin nào là bắt buộc mà nút gửi cần biết để thực hiện một khoản thanh toán qua lớp vỏ hành?
+answer: Topology mạng và toàn bộ lộ trình đến người nhận
+wrong_answers:
+  - Chỉ cần biết nút trung gian tiếp theo
+  - Sức chứa của từng kênh
+  - Chữ ký mật mã của mỗi nút trên đường đi
+explanation: |
+  Nút gửi cần biết topology mạng để tính toán lộ trình đến người nhận, cho phép nó chọn lộ trình tốt nhất.
+reviewed: false

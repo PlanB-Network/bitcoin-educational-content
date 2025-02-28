@@ -1,0 +1,8 @@
+question: Mis on ajaluku ja tagasivõtmisvõtme ühine mõju kohustuslikele tehingutele?
+answer: Need takistavad osalejaid petmast, pakkudes koheseid karistusi
+wrong_answers:
+  - Need vähendavad kanali mahtu petmise korral
+  - Need lukustavad automaatselt süüdlase vahendid
+  - Need sunnivad uue kanali avamist, kui tehing on vale
+explanation: |
+  Ajalukk ja tagasivõtmisvõti takistavad osalejaid petmast, tagades, et igasugune petmise katse toob kaasa kohese rahalise kaotuse süüdlasele.

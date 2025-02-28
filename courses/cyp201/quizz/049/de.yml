@@ -1,0 +1,9 @@
+question: Was ist der Zweck der mnemonischen Phrase in einem Bitcoin HD-Wallet?
+answer: Um alle Schlüssel deterministisch abzuleiten
+wrong_answers:
+  - Um Transaktionen direkt zu signieren
+  - Um Bitcoin-Adressen zu verschlüsseln
+  - Um einen Hash für die UTXOs zu generieren
+explanation: |
+  Die mnemonische Phrase ermöglicht die Ableitung aller privaten und öffentlichen Schlüssel in einem Wallet, was die Sicherung und Wiederherstellung erleichtert.
+reviewed: false

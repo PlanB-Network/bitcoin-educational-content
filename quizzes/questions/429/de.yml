@@ -1,9 +1,0 @@
-question: Wie lautet die Gleichung der secp256k1-Kurve, die in Bitcoin verwendet wird?
-answer: "y\xB2 = x\xB3 + 7 modulo n"
-wrong_answers:
-  - "y\xB2 = x\xB3 + ax + b"
-  - "y\xB2 = x\xB3 + 7 modulo p"
-  - "y\xB2 = x\xB3 + ax + b modulo n"
-explanation: |
-  "Die in Bitcoin verwendete secp256k1-Kurve wird durch die Parameter a=0 und b=7 definiert und ihre Gleichung lautet y\xB2 = x\xB3 + 7 modulo n, wobei n die Primzahl ist, die die Ordnung der Kurve bestimmt."
-reviewed: false

@@ -1,0 +1,9 @@
+question: Taproot公開鍵Qを計算するために必要な操作は何ですか？
+answer: 公開鍵Pにtweak tGを加算する
+wrong_answers:
+  - 秘密鍵pにtweakを乗算する
+  - 公開鍵PをSHA256でハッシュする
+  - tweak tと公開鍵Pを連結する
+explanation: |
+  Taproot公開鍵Qは、tweak tと生成元Gのスカラー積を公開鍵Pに加えることによって得られます。
+reviewed: false

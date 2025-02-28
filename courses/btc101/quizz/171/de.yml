@@ -1,0 +1,13 @@
+question: Wie stellt das Bitcoin-Protokoll sicher, dass es zensurresistent und widerstandsfähig ist?
+answer: Jede Komponente des Protokolls ist geografisch über den Globus verteilt.
+wrong_answers:
+  - Es verwendet ein lokales Netzwerk von Knoten, die in Europa verteilt sind.
+  - Es verwendet einen komplexen Algorithmus zur Validierung von Transaktionen.
+  - Es verwendet ein hohes Maß an Verschlüsselung.
+explanation: |
+  Das Bitcoin-Protokoll stellt seine Zensurresistenz und
+  Widerstandsfähigkeit sicher, weil jede Komponente des Protokolls
+  geografisch über den Globus verteilt ist. Zum Beispiel
+  gibt es ungefähr 40.000 Bitcoin-Knoten auf allen
+  Kontinenten.
+reviewed: true

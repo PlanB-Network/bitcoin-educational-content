@@ -1,0 +1,8 @@
+question: Thông tin nào không được bao gồm trong một khóa mở rộng?
+answer: Lịch sử giao dịch của khóa
+wrong_answers:
+  - Số chỉ mục của khóa
+  - Khóa (riêng tư hoặc công khai)
+  - Mã chuỗi
+explanation: |
+  Một khóa mở rộng chỉ chứa thông tin cần thiết để tạo ra các khóa con, không bao gồm thông tin liên quan đến giao dịch.

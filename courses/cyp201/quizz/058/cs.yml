@@ -1,0 +1,9 @@
+question: Která funkce se používá k odvození seedu z mnemonické fráze?
+answer: PBKDF2 s HMAC-SHA512
+wrong_answers:
+  - Pouze SHA256
+  - Dvojitý SHA256
+  - AES-256
+explanation: |
+  Seed je generován pomocí funkce PBKDF2 s HMAC-SHA512 a 2048 iteracemi, z mnemonické fráze a hesla.
+reviewed: false

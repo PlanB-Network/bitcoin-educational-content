@@ -1,0 +1,8 @@
+question: Hvorfor er tvungen lukking mindre ønskelig?
+answer: Det er tregere og gebyrene kan være upassende
+wrong_answers:
+  - Det krever autorisasjon fra Satoshi Nakamoto
+  - Det tvinger frem en gjenopprettelse av en kanal senere
+  - Det forhindrer bruk av tilbakekallingsnøkkelen
+explanation: |
+  Tvungen lukking er mindre ønskelig fordi den inkluderer en tidsbegrensning, som forsinker prosessen, og gebyrene kan være upassende siden de ble satt på tidspunktet for kanalens opprettelse.

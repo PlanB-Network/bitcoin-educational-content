@@ -1,0 +1,9 @@
+question: ¿Cuál es el modelo de privacidad del sistema bancario?
+answer: Solo el banco tiene acceso a los detalles de la transacción.
+wrong_answers:
+  - Las transacciones son públicas, pero la identidad de los usuarios no se conoce.
+  - Las transacciones son anónimas y están ocultas para todos, incluido el banco.
+  - Solo los gobiernos tienen acceso a los detalles de la transacción.
+explanation: |
+  En el sistema tradicional, cada cuenta bancaria está vinculada a una identidad. Sin embargo, el flujo de información se corta entre el banco y el dominio público.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Komu předal Satoshi Nakamoto kontrolu nad webem (který zahrnuje také fórum a wiki) při svém odchodu?
+answer: Martti Malmi
+wrong_answers:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explanation: |
+  Neměl čas se o to starat a úkol rychle delegoval. Web a fórum převzali Theymos a Cøbra.
+reviewed: false

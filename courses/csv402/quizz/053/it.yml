@@ -1,0 +1,9 @@
+question: In che modo RGB apre la strada al DEX layer-2?
+answer: Consentendo lo scambio di asset fuori dalla catena attraverso i canali Lightning e gli swap atomici
+wrong_answers:
+  - Consentendo l'utilizzo di uno scambio centralizzato per tutte le transazioni RGB
+  - Consentendo lo scambio di asset tramite contratti intelligenti on-chain
+  - Consentendo lo scambio di asset tra le varie blockchain tramite swap atomici
+explanation: |
+  La possibilità di effettuare scambi atomici tramite i canali Lightning offre la possibilità di creare DEX decentralizzati, senza gli svantaggi degli scambi on-chain.
+reviewed: false

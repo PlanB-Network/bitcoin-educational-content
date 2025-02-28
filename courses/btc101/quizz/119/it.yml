@@ -1,0 +1,11 @@
+question: Cos'è BitcoinTalk?
+answer: Un luogo di discussione per gli utenti di Bitcoin.
+wrong_answers:
+  - Un software per il mining di Bitcoin.
+  - Un portafoglio Bitcoin.
+  - Una conferenza su Bitcoin.
+explanation: |
+  Il forum BitcoinTalk è un luogo di discussione per gli
+  utenti di Bitcoin. È stato creato da Satoshi Nakamoto il 22
+  novembre 2009.
+reviewed: vero

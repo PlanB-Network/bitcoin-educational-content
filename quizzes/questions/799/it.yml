@@ -1,9 +1,0 @@
-question: Qual è uno dei vantaggi nell'utilizzare una VPN per navigare su Internet a casa?
-answer: Migliora la sicurezza dei dati scambiati online.
-wrong_answers:
-  - Aumenta la velocità di Internet.
-  - Permette l'accesso a più siti web.
-  - Risparmia dati mobili.
-explanation: |
-  Utilizzare una VPN a casa può migliorare la sicurezza dei dati che si scambiano online. Questo perché le VPN criptano i dati, rendendoli più difficili da intercettare da parte di terze parti.
-reviewed: false

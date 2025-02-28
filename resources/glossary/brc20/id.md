@@ -1,0 +1,5 @@
+---
+term: BRC-20
+
+---
+Sebuah standar yang memungkinkan interaksi dengan token non-asli di Bitcoin, berdasarkan prasasti protokol Ordinals. Dibuat oleh Domo pada bulan Maret 2023, standar eksperimental ini telah memicu minat spekulatif yang signifikan, yang mengarah pada peningkatan bersejarah dalam biaya transaksi pada bulan April dan Mei 2023. Token BRC-20 menggunakan Bitcoin untuk menyimpan dan memberi cap waktu pada fungsi JSON yang mengelola aset-aset ini. Fungsi-fungsi tersebut adalah `deploy` (pembuatan token), `mint` (penerbitan token), dan `transfer` (transfer token). Untuk menjalankan protokol ini, setiap orang harus memiliki server yang menyimpan semua fungsi tersebut. Oleh karena itu, standar BRC-20 merupakan penggunaan Bitcoin yang sangat tidak efisien dibandingkan dengan protokol pembuatan token lainnya seperti RGB.

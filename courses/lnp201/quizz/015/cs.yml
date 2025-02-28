@@ -1,0 +1,9 @@
+question: Co odráží transakce závazku v kanálu Lightning?
+answer: Nové rozdělení prostředků mezi oběma stranami
+wrong_answers:
+  - Celkový počet provedených transakcí
+  - Výše poplatků k zaplacení za transakci
+  - Otevření nového platebního kanálu
+explanation: |
+  Transakce závazku představuje aktuální rozdělení prostředků v kanálu po každé transakci Lightning, ale není publikována na blockchainu, dokud zůstává kanál otevřený.
+reviewed: false

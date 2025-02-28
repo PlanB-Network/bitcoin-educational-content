@@ -1,9 +1,0 @@
-question: Come vengono trasformati i bit in frasi nella generazione di una frase mnemonica per un portafoglio Bitcoin?
-answer: Ogni segmento è associato a una parola di una lista di 2048 parole.
-wrong_answers:
-  - Ogni bit è associato a una parola di una lista di 2048 parole.
-  - Ogni segmento è associato a una parola di una lista di 1024 parole.
-  - Ogni bit è associato a una parola di una lista di 1024 parole.
-explanation: |
-  Per trasformare i bit in frasi, ogni segmento è associato a una parola di una lista di 2048 parole.
-reviewed: false

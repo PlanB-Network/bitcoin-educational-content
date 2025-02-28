@@ -1,9 +1,0 @@
-question: Was ist der Ausgangspunkt für die Berechnung aller öffentlichen Schlüssel der Benutzer im Bitcoin-System?
-answer: Punkt G
-wrong_answers:
-  - Punkt K
-  - Punkt U
-  - Punkt O
-explanation: |
-  Der Punkt G ist der Ausgangspunkt für die Berechnung aller öffentlichen Schlüssel der Benutzer im Bitcoin-System.
-reviewed: false

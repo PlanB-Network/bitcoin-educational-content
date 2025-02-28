@@ -1,0 +1,5 @@
+description: |
+  Bitcoin Core 是比特币系统的开源参考软件，也是迄今为止比特币协议的主要实现。它由一个庞大的志愿者贡献者群体开发和维护。最初名为“Bitcoin Qt”，它是比特币历史上的第三个客户端，仅次于中本聪的原始比特币客户端和 Bitcoind。它基于中本聪的原始代码开发，并引入了图形用户界面。有趣的是，比特币核心的图形界面今天仍被称为 bitcoin-qt。从版本 0.5 开始，它与 bitcoind 一起提供。Bitcoin Core 有多个用途。首先，它充当完整节点客户端。Bitcoin Core 还包括一个钱包（wallet），供希望直接使用 Bitcoin Core 存储、管理和交易的用户使用。
+
+contributors:
+  - pretty-private

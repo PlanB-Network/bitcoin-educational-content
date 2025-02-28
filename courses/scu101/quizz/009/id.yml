@@ -1,0 +1,9 @@
+question: Apa fungsi utama dari VPN dalam konteks profesional?
+answer: Ini memungkinkan karyawan untuk mengakses jaringan internal perusahaan secara aman dari jarak jauh.
+wrong_answers:
+  - Ini memungkinkan karyawan untuk menghindari pembatasan geografis.
+  - Ini memungkinkan karyawan untuk memblokir iklan online.
+  - Ini memungkinkan karyawan untuk menggunakan Wi-Fi publik secara aman.
+explanation: |
+  Dalam konteks profesional, VPN terutama digunakan untuk menyediakan akses jarak jauh yang aman ke jaringan internal perusahaan. Ini dicapai dengan mengenkripsi data yang ditukar antara karyawan dan jaringan perusahaan, membuatnya sulit bagi pihak ketiga untuk meny intercept.
+reviewed: false

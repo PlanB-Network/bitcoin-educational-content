@@ -1,0 +1,9 @@
+question: Mikä on yksi mahdollisista seurauksista, jos et noudata maasi säädöksiä ostaessasi Bitcoinia?
+answer: Saatat asettaa itsesi vaaraan.
+wrong_answers:
+  - Saatat nostaa Bitcoinin hintaa.
+  - Saatat hallita Bitcoinin tarjontaa.
+  - Saatat estää muita ostamasta Bitcoinia.
+explanation: |
+  Kurssitekstissä mainitaan, että maasi säädösten noudattamatta jättäminen Bitcoinin ostaessa saattaa asettaa sinut vaaraan.
+reviewed: true

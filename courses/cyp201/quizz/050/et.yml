@@ -1,0 +1,8 @@
+question: Mis on hea tava paroolilause turvamiseks?
+answer: Salvestage see füüsilisel kandjal, mis on eraldi mnemoonilisest fraasist
+wrong_answers:
+  - Jätke see ainult meelde, ilma seda üles märkimata
+  - Salvestage see samale füüsilisele kandjale kui mnemooniline fraas
+  - Salvestage see digitaalsel kandjal nagu Google Drive
+explanation: |
+  Paroolilause tuleb füüsiliselt salvestada ja hoida eraldi mnemoonilisest fraasist, et vältida mõlema samaaegset vargust.

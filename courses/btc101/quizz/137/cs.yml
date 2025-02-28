@@ -1,0 +1,12 @@
+question: Jak uživatelé převádějí vlastnictví svých peněz v síti Bitcoin?
+answer: Digitálním podepisováním transakcí svými soukromými klíči.
+wrong_answers:
+  - Fyzickým předáním svých Bitcoinů.
+  - Odesláním emailu příjemci.
+  - Poskytnutím své Bitcoinové adresy příjemci.
+explanation: |
+  Uživatelé v síti Bitcoin převádějí vlastnictví svých
+  peněz digitálním podepisováním transakcí svými soukromými
+  klíči. To ověřuje, že jsou vlastníky
+  bitcoinů, které chtějí převést.
+reviewed: true

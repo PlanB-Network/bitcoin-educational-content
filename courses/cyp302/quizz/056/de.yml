@@ -1,0 +1,9 @@
+question: Welche Art von algebraischer Struktur ist die Grundlage der abstrakten Algebra?
+answer: Gruppe
+wrong_answers:
+  - Körper
+  - Ring
+  - Matrix
+explanation: |
+  Die Gruppe ist die fundamentale algebraische Struktur, auf der die abstrakte Algebra basiert, definiert durch eine Menge von Elementen und eine binäre Operation, die bestimmte Eigenschaften respektiert.
+reviewed: false

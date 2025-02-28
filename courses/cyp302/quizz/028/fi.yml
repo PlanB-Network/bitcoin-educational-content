@@ -1,0 +1,8 @@
+question: Mikä on tuloksena, kun suoritetaan 0 XOR 1?
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1
+explanation: |
+  XOR-operaatiossa 0 XOR 1 tuottaa tuloksen 1, koska bitit ovat erilaiset.

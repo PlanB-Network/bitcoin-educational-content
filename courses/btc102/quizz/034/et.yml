@@ -1,0 +1,10 @@
+question: Mis on bitcoinide maksimaalne kogus, mis kunagi eksisteerima hakkab?
+answer: 21 miljonit
+wrong_answers:
+  - 100 miljonit
+  - 1 miljard
+  - Piirangut pole
+explanation: |
+  Peatükk väidab, et bitcoine ei saa kunagi olla rohkem kui 21 miljonit.
+  See piirang kehtestati Bitcoin'i protokollis Satoshi poolt ja seda ei saa täna muuta.
+reviewed: false

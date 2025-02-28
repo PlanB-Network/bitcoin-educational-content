@@ -1,9 +1,0 @@
-question: Welche Kriterien gelten für eine effektive Währung?
-answer: Fungibel, teilbar, liquide
-wrong_answers:
-  - Fungibel, teilbar, vergänglich
-  - Fungibel, unteilbar, liquide
-  - Nicht fungibel, teilbar, liquide
-explanation: |
-  Die Kriterien für eine effektive Währung sind, dass sie fungibel ist (ohne Wertverlust austauschbar), teilbar (um Transaktionen unterschiedlicher Volumina zu erleichtern) und liquide (leicht in Waren oder Dienstleistungen umwandelbar).
-reviewed: false

@@ -1,0 +1,9 @@
+question: Welche standardmäßigen Skriptausgabemuster wurden von der Software im September 2010 erkannt?
+answer: Empfang durch einen öffentlichen Schlüssel (P2PK) und Empfang durch eine Adresse (P2PKH)
+wrong_answers:
+  - Empfang durch eine Adresse (P2PKH) und Empfang durch ein Multisignatur-Signaturskript (P2MS)
+  - Empfang durch eine Adresse (P2PKH) und Empfang durch ein Skript (P2SH)
+  - Empfang durch einen öffentlichen Schlüssel (P2PK) und Empfang durch ein Skript (P2SH)
+explanation: |
+  Dies waren die beiden Typen, die seit dem Beginn von Bitcoin verwendet wurden. Der P2MS-Typ wurde im März 2012 standardisiert. Der P2SH-Typ wurde im April 2012 zum Protokoll hinzugefügt.
+reviewed: false

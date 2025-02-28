@@ -1,0 +1,5 @@
+description: |
+  BitAxe adalah proyek open-source yang dirancang untuk bereksperimen dengan penambangan Bitcoin dengan biaya rendah menggunakan chip ASIC yang digunakan kembali, seperti dari Antminer S19 yang populer. Menawarkan beberapa model yang disesuaikan dengan kebutuhan penambang, BitAxe memberikan kinerja hingga 3,3 TH/s. Berbeda dengan alat pendidikan seperti NerdMiner, BitAxe memungkinkan partisipasi dalam pool penambangan untuk menghasilkan hadiah Bitcoin secara reguler, tetap mudah diakses dan dapat dikonfigurasi. Alat yang ideal untuk penggemar yang ingin mengeksplorasi penambangan.
+
+contributors:
+  - pretty-private

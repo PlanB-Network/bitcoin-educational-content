@@ -1,0 +1,5 @@
+---
+term: BEITRAGSZAHLER (KERN)
+
+---
+Ein Mitwirkender im Kontext von Bitcoin Core (der Mehrheitsimplementierung der Knoten im Bitcoin-Netzwerk) ist eine Person, die sich aktiv an der Entwicklung der Software beteiligt, indem sie Code schreibt, die von anderen vorgeschlagenen Änderungen überprüft und testet. Im Gegensatz zu Maintainern haben Contributors nicht die Macht, Änderungen in den Hauptcode einzubringen; ihre Rolle besteht vielmehr darin, Pull Requests (PR) einzureichen und sich an der Diskussion und Validierung dieser Vorschläge zu beteiligen. Jede interessierte Person kann ein Mitwirkender werden, ohne dass eine Nominierung oder eine formale Genehmigung erforderlich ist, was einen Unterschied zu den Betreuern darstellt, die mit höheren Verwaltungs- und Entscheidungsbefugnissen im Projekt beauftragt sind.

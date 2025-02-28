@@ -1,0 +1,10 @@
+question: What kind of network does Lightning Network create?
+answer: A network of payment channels.
+wrong_answers:
+  - A network of mining nodes.
+  - A network of blockchain nodes.
+  - A network of cryptocurrency exchanges.
+explanation: >-
+  The Lightning Network acts as a network of payment channels, enabling
+  instant transactions with low fees for the sender.
+reviewed: true

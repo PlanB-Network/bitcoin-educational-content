@@ -1,0 +1,11 @@
+question: Welche der folgenden Maßnahmen kann denen helfen, die Bitcoin im Alltag nutzen möchten?
+answer: Eine Liste aller Händler haben, die Bitcoin akzeptieren.
+wrong_answers:
+  - Den Preis von Bitcoin erhöhen.
+  - Die Anzahl der Bitcoins verringern.
+  - Die Nutzung von Bitcoin einschränken.
+explanation: >-
+  Eine Möglichkeit, die Nutzung von Bitcoin im täglichen Geschäftsverkehr zu erleichtern,
+  besteht darin, alle Händler aufzulisten, die Bitcoin akzeptieren. Dies kann über Plattformen
+  wie BTCMap erfolgen.
+reviewed: true

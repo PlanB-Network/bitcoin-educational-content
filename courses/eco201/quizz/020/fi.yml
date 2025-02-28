@@ -1,0 +1,9 @@
+question: Mitä itävaltalaisten taloustieteilijöiden mukaan seuraa siitä, että yksilöt erikoistuvat työssään ja osallistuvat vaihtoon?
+answer: Yksilöt ovat aina paremmassa asemassa.
+wrong_answers:
+  - Yksilöt ovat aina huonommassa asemassa.
+  - Yksilöiden tilanteessa ei tapahdu muutosta.
+  - Tulokset vaihtelevat yksilöittäin.
+explanation: |
+  Itävaltalaisten taloustieteilijöiden mukaan yksilöiden erikoistuminen työssään ja osallistuminen vaihtoon johtaa siihen, että he ovat aina paremmassa asemassa. Tämä johtuu siitä, että erikoistuminen ja vaihto mahdollistavat yksilöiden subjektiivisen hyödyn maksimoinnin.
+reviewed: false

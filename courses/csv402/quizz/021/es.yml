@@ -1,0 +1,9 @@
+question: ¿Qué contiene una Consignación en RGB?
+answer: Los datos del cliente necesarios para validar una transición
+wrong_answers:
+  - Una copia completa de la cadena de bloques de Bitcoin
+  - Una lista de los compromisos públicos de Bitcoin
+  - Claves públicas de los participantes en la transición de estado
+explanation: |
+  El envío incluye la información RGB que permite al receptor validar la transición de estado de acuerdo con las normas del contrato.
+reviewed: false

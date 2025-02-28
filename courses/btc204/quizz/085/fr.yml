@@ -1,0 +1,13 @@
+question: Quel est le modèle spécifique de mise en relation des utilisateurs utilisé par JoinMarket ?
+
+answer: Marché P2P entre makers et takers.
+
+wrong_answers:
+  - Serveur qui assigne aléatoirement les participants.
+  - Échanges basés sur des enchères hollandaises.
+  - Service de médiation qui sélectionne manuellement les participants.
+
+explanation: |
+  JoinMarket repose sur un marché d'échange P2P où certains utilisateurs, les makers, mettent à disposition leurs bitcoins pour le mixage, tandis que d'autres, les takers, utilisent ces liquidités pour réaliser des coinjoins moyennant une rémunération.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaké jsou hlavní funkce správce hesel?
+answer: Ukládání, generování a organizace hesel.
+wrong_answers:
+  - Analýza a odstranění virů.
+  - Zálohování a organizace osobních dokumentů.
+  - Optimalizace rychlosti připojení.
+explanation: |
+  Základní funkce zahrnují ukládání, generování a organizaci hesel.
+reviewed: false

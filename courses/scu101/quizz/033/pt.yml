@@ -1,0 +1,12 @@
+question: Qual é a possível desvantagem de criar um backup na nuvem usando serviços como ProtonMail Drive, Sync ou Google Drive?
+answer: Seus dados estão potencialmente na internet e sob a guarda de uma terceira parte confiável.
+wrong_answers:
+  - Esses serviços são potencialmente não confiáveis para backup de dados.
+  - Esses serviços às vezes perdem dados do usuário e pode ser difícil transferi-los para outro provedor de nuvem.
+  - Esses serviços geralmente não fornecem espaço de armazenamento suficiente e sofrem com baixa velocidade de conexão.
+explanation: |
+  Embora os serviços de backup na nuvem ofereçam uma maneira conveniente de
+  fazer backup dos seus dados, eles também significam que seus dados estão
+  potencialmente na internet e sob a guarda de uma terceira parte confiável. Isso poderia
+  potencialmente expor seus dados a riscos adicionais.
+reviewed: true

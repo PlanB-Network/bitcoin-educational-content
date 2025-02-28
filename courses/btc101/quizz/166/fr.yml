@@ -1,0 +1,11 @@
+question: Que peuvent faire les mineurs pour les centrales électriques qui ne sont pas encore connectées au réseau ?
+answer: Ils peuvent agir comme acheteur de dernier recours.
+wrong_answers:
+  - Ils peuvent fournir de l'électricité aux centrales électriques.
+  - Ils peuvent connecter les centrales électriques au réseau.
+  - Ils peuvent réguler le prix de l'électricité.
+explanation: |
+  Les mineurs peuvent agir comme acheteur de dernier recours pour les centrales électriques
+  qui ne sont pas encore connectées au réseau. Cela permet aux centrales électriques
+  de sécuriser un financement même avant d'être connectées au réseau électrique.
+reviewed: true

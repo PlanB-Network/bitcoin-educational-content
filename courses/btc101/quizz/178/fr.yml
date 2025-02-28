@@ -1,0 +1,9 @@
+question: Quelle est la tendance générale du Bitcoin, compte tenu de son offre limitée et du processus de halving ?
+answer: Une tendance générale à la hausse.
+wrong_answers:
+  - Une tendance générale à la baisse.
+  - Aucune tendance particulière.
+  - Une tendance qui fluctue de manière extrême sans motif discernable.
+explanation: >-
+  Le Bitcoin, en raison de sa quantité limitée à 21 millions de bitcoins et de son processus de halving (réduisant de moitié la création monétaire tous les 4 ans en moyenne), suit une tendance générale à la hausse.
+reviewed: true

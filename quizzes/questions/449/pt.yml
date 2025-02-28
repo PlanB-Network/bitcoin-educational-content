@@ -1,9 +1,0 @@
-question: Qual é o objetivo de uma assinatura digital no contexto das transações de Bitcoin?
-answer: Provar que você é o detentor de uma chave privada sem revelá-la.
-wrong_answers:
-  - Criptografar os dados da transação.
-  - Armazenar os dados da transação.
-  - Transmitir os dados da transação.
-explanation: |
-  No contexto das transações de Bitcoin, uma assinatura digital é usada para provar que você é o detentor de uma chave privada sem revelá-la. Isso é alcançado usando o algoritmo ECDSA.
-reviewed: false

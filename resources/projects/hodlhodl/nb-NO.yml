@@ -1,0 +1,10 @@
+description: |
+  Hodl Hodl er en sikker, ikke-depot Bitcoin handelsplattform som verdsetter ditt personvern. Med over 7 år i bransjen, legger plattformen til rette for anonyme peer-to-peer avtaler på dine egne vilkår, og støtter over 100 valutaer, med mer enn 100 000 registrerte brukere og 50 000 avsluttede avtaler.
+
+  Plattformen opererer med multisig (P2SH) kontrakter, noe som betyr at du kontrollerer nøklene til midlene i depot gjennom hele avtalen. Ingen verifisering er nødvendig, noe som muliggjør en sømløs og privat handelsopplevelse.
+
+  Prosessen for å starte handel er enkel. Brukere inngår en kontrakt, og Hodl Hodl genererer en unik multisig depotadresse. Selgeren deponerer bitcoins i depot direkte fra sin lommebok, og kjøperen betaler selgeren i henhold til den avtalte betalingsmetoden. Til slutt frigjør selgeren bitcoins fra depotet direkte til kjøperens lommebok, og fullfører dermed kontrakten.
+
+  Hodl Hodl lar deg opprette et tilbud på dine vilkår, sette din pris, bruke flere betalingsmetoder, og sette opp en stop-loss verdi. Plattformens gjennomsiktige gebyrer deles mellom kjøper og selger og trekkes fra BTC-beløpet. Med Hodl Hodl kan du handle globalt, bruke hvilket som helst betalingssystem, for enhver valuta.
+contributors:
+  - rabbit-hole

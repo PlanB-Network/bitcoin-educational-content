@@ -1,9 +1,0 @@
-question: Quel est le résultat de l'algorithme HMAC SHA-512 ?
-answer: Un nombre de 512 bits, divisé en deux parties ; les 256 bits les plus à gauche représentent la clé privée principale, tandis que les 256 bits les plus à droite représentent le code de chaîne principal.
-wrong_answers:
-  - Un nombre de 256 bits qui représente la clé privée principale.
-  - Un nombre de 256 bits qui représente le code de chaîne principal.
-  - Un nombre de 512 bits qui représente la graine.
-explanation: |
-  Le résultat de HMAC SHA-512 est un nombre de 512 bits, divisé en deux parties ; les 256 bits les plus à gauche représentent la clé privée principale, tandis que les 256 bits les plus à droite représentent le code de chaîne principal.
-reviewed: false

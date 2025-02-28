@@ -1,0 +1,8 @@
+question: Jaký je účel mnemonické fráze v Bitcoin HD peněžence?
+answer: Deterministicky odvodit všechny klíče
+wrong_answers:
+  - K přímému podepisování transakcí
+  - K šifrování Bitcoinových adres
+  - K generování hash pro UTXO
+explanation: |
+  Mnemonická fráze umožňuje odvození všech soukromých a veřejných klíčů v peněžence, což usnadňuje zálohování a obnovu.

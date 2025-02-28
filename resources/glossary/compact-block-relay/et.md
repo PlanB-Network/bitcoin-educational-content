@@ -1,0 +1,5 @@
+---
+term: KOMPAKTPLOKK-RELEE
+
+---
+Protokoll, mis võeti Bitcoin Core'is kasutusele 2016. aastal BIP152 kaudu, mis pakub võrgu sõlmede jaoks välja ribalaiust säästva meetodi. Compact Block Relay võimaldab blokiteabe edastamist kompaktselt, lähtudes eeldusest, et sõlmedel on juba enamik hiljutise ploki tehinguid oma mempoolis. Selle asemel, et edastada iga tehing täies mahus, mis tooks kaasa dubleerimise, pakub Compact Block Relay välja saata ainult lühikesi identifikaatoreid tehingutele, mis on kolleegidele juba teada, koos mõne valitud tehinguga (eelkõige coinbase'i tehing ja need, mida sõlmpunkt tõenäoliselt ei tea). Seejärel saab sõlmpunkt taotleda oma kolleegidelt kõiki puuduvaid tehinguid. Compact Block Relay vähendab seega plokkide levitamise ajal vahetatavate andmete hulka, mis omakorda vähendab ribalaiuse piike ja parandab võrgu üldist tõhusust.

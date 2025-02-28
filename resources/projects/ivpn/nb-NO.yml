@@ -1,0 +1,12 @@
+description: |
+  IVPN er en personvern-fokusert VPN-tjeneste som ikke logger brukeraktivitet og ikke samler eller lagrer personlige data ved registrering. Vi aksepterer betalinger i kontanter, Monero og Bitcoin. Vi er forpliktet til åpenhet og sikkerhet, med vår nettside og alle IVPN-applikasjoner som er åpen kildekode.
+
+  Våre servere, inkludert e-post og live chat, er selvhostede og operert av oss. Vi forplikter oss til årlige uavhengige sikkerhetsrevisjoner og unngår falsk reklame, som å betale for anmeldelser eller love anonymitet.
+
+  Vi bidrar regelmessig til organisasjoner som EFF, Open Rights Group og Tor-prosjektet. Vår forretningsmodell er utelukkende basert på betalte abonnementer, uten noen tilleggstjenester eller VPN-anmeldelsessider.
+
+  Våre funksjoner inkluderer et valg av WireGuard, OpenVPN eller IPSec-protokoller, AntiTracker som blokkerer annonser og sporing, Killswitch/Firewall-alternativ, private ikke-loggførende DNS-servere, multi-hop VPN-ruter, portvideresending og Obfsproxy for å omgå sensur.
+
+  Selv om vi klargjør at VPN-er ikke kan oppnå anonymitet eller forhindre datainnsamling av gigantene som Google eller Facebook, forsikrer vi at en pålitelig VPN som vår kan effektivt kryptere dataene dine og DNS-forespørsler, øke sikkerheten på upålitelige offentlige nettverk, maskere IP-adressen din og omgå sensur eller geografiske blokkeringer. Vi er en pålitelig del av din personvernbeskyttelsesstrategi, forutsatt at du stoler på oss mer enn din ISP.
+contributors:
+  - rabbit-hole

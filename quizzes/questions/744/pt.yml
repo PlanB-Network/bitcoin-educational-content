@@ -1,9 +1,0 @@
-question: Qual é o princípio em que a mineração de Bitcoin funciona?
-answer: A mineração de Bitcoin funciona com base no princípio da loteria, onde as chances de ganhar um bloco (e, portanto, a recompensa em Bitcoin) a cada dez minutos são extremamente baixas para um pequeno minerador individual.
-wrong_answers:
-  - A mineração de Bitcoin funciona com base no princípio do primeiro a chegar, primeiro a ser servido, onde o primeiro minerador a resolver um problema matemático complexo recebe a recompensa em Bitcoin.
-  - A mineração de Bitcoin funciona com base no princípio de leilão, onde o minerador que fizer o lance mais alto recebe a recompensa em Bitcoin.
-  - A mineração de Bitcoin funciona com base no princípio de rotação, onde cada minerador tem sua vez de minerar um bloco e receber a recompensa em Bitcoin.
-explanation: |
-  O capítulo explica que a mineração de Bitcoin funciona com base no princípio da loteria, onde as chances de ganhar um bloco (e, portanto, a recompensa em Bitcoin) a cada dez minutos são extremamente baixas para um pequeno minerador individual.
-reviewed: false

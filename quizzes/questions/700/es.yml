@@ -1,9 +1,0 @@
-question: ¿Qué es la Red Lightning?
-answer: Un sistema que utiliza contratos HTLC para garantizar pagos seguros y verificables en transacciones de Bitcoin.
-wrong_answers:
-  - Un tipo de criptomoneda.
-  - Un método de cifrado de datos.
-  - Un tipo de blockchain.
-explanation: |
-  La Red Lightning es un sistema que utiliza Contratos Hash Time-Locked (HTLC) para garantizar pagos seguros y verificables en transacciones de Bitcoin.
-reviewed: false

@@ -1,0 +1,13 @@
+question: What is an OP_RETURN in a Bitcoin transaction?
+
+answer: An opcode that marks an output as invalid and allows for data storage.
+
+wrong_answers:
+  - An opcode that verifies the validity of a signature in a Bitcoin transaction.
+  - An opcode that contains a hyperlink to a file stored on IPFS.
+  - A command that deletes a transaction from the Bitcoin blockchain.
+
+explanation: |
+  The OP_RETURN is an opcode that signals an invalid script, rendering the output it contains as provably unspendable. Thus, network nodes can remove this output from their UTXO set. The OP_RETURN is often used to record arbitrary data in the blockchain.
+
+reviewed: false

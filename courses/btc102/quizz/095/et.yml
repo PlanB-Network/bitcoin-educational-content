@@ -1,0 +1,10 @@
+question: Millised on mõned paranoiaga Bitcoini kasutaja tunnusjooned?
+answer: Valvsus, iseseisvus, umbusk, teadmised ja pragmaatilisus
+wrong_answers:
+  - Usaldus, sõltuvus, teadmatus ja ebaotstarbekus
+  - Laiskus, sõltuvus, usaldus ja teadmatus
+  - Usaldus, sõltuvus, teadmiste puudumine ja ebaotstarbekus
+explanation: |
+  Peatükk kirjeldab paranoiaga Bitcoini kasutajat kui kedagi, kes on valvas,
+  iseseisev, umbusklik, teadlik ja pragmaatiline.
+reviewed: false

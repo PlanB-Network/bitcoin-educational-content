@@ -1,0 +1,9 @@
+question: Layanan apa yang menerima Bitcoin dan dikelola oleh Teppy, orang yang memperkenalkan Bitcoin di Slashdot pada 11 Juli 2010?
+answer: MMORPG A Tale in the Desert
+wrong_answers:
+  - VPN Mullvad
+  - Layanan VoIP Link2VoIP
+  - Layanan hosting web Vekja.net
+explanation: |
+  Ini [dimulai](https: //bitcointalk.org/index.php?topic=30.msg1159#msg1159) menerima Bitcoin pada 19 Mei.
+reviewed: false

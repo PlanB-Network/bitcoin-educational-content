@@ -1,0 +1,9 @@
+question: Pokud je u jednoduché platební transakce pozorováno, že stejný typ skriptu je použit u vstupu a pouze na jednom ze dvou výstupů, který výstup pravděpodobně představuje vrácení peněz?
+answer: Ten se stejným typem skriptu jako vstup.
+wrong_answers:
+  - Ten s nejnovějším typem skriptu.
+  - Ten s odlišným typem skriptu než vstup.
+  - Ten s nestandardním typem skriptu.
+explanation: |
+  Pokud dojde k opětovnému použití verze skriptu v rámci transakce, je rozumné předpokládat, že uživatel stále vlastní přidružený UTXO. Proto je výstup se stejnou verzí skriptu jako vstup pravděpodobně vrácením peněz.
+reviewed: false

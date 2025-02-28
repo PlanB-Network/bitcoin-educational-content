@@ -1,0 +1,9 @@
+question: Jakou roli hrají nástroje jako Zaprite a Musqet v profesionálním platebním řešení?
+answer: Zlepšují zážitek při placení u pokladny
+wrong_answers:
+  - Zvládnou konverzi více měn a výplatu fiat
+  - Zaměřují se na šifrování transakčních dat a správu soukromých klíčů
+  - Slouží jako základní pokladní systémy
+explanation: |
+  Zaprite a Musqet přidávají do procesu pokladny vylepšení pro přizpůsobení a vykazování a doplňují tak základní platební infrastrukturu.
+reviewed: false

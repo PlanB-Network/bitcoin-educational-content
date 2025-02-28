@@ -1,0 +1,13 @@
+question: Welche 2 Datenschutzrisiken sind mit der Auswahl von Münzen verbunden?
+
+answer: Das CIOH und die Verbindung zwischen Eingaben / Identität durch den Empfänger.
+
+wrong_answers:
+  - IP-Adressen-Tracking und Aktivitätskorrelation.
+  - Zeitliche Verfolgung und Adressenwiederverwendung.
+  - Adressenwiederverwendung und die Verbindung zwischen Eingaben / Identität durch einen externen Beobachter.
+
+explanation: |
+  Zwei Risiken müssen bei der Auswahl von Münzen berücksichtigt werd- language: en die Möglichkeit für den Zahlungsempfänger, einen Teil Ihrer Identität mit den als Eingaben verwendeten UTXOs zu verknüpfen, und die Fähigkeit eines externen Beobachters, Verbindungen zwischen allen als Eingaben verbrauchten UTXOs herzustellen (CIOH).
+
+reviewed: false

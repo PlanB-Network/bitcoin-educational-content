@@ -1,9 +1,0 @@
-question: Welche Fähigkeiten werden in der Cybersicherheit benötigt?
-answer: Log-Analyse, Incident Response
-wrong_answers:
-  - Grafikdesign, Videobearbeitung
-  - Vertrieb, Marketing
-  - Kochen, Backen
-explanation: |
-  Das Kapitel erwähnt Log-Analyse und Incident Response als einige der Fähigkeiten, die in der Cybersicherheit benötigt werden.
-reviewed: false

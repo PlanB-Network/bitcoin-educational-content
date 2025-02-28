@@ -1,0 +1,11 @@
+question: Mikä on Hodlerin pääominaisuus Bitcoin-sijoittamisen kontekstissa?
+answer: He pitävät Bitcoinia pitkällä aikavälillä.
+wrong_answers:
+  - He käyvät kauppaa Bitcoinilla usein.
+  - He sijoittavat Bitcoiniin vain, kun sen hinta on matala.
+  - He myyvät Bitcoinin heti, kun sen hinta nousee.
+explanation: |
+  Hodler, Bitcoin-sijoittamisen kontekstissa, on henkilö, joka pitää
+  Bitcoinia pitkällä aikavälillä, lyöden vetoa sen käytön ja harvinaisuuden kasvusta
+  ajan myötä.
+reviewed: false

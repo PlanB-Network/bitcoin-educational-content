@@ -1,9 +1,0 @@
-question: Wie kann das Lightning-Netzwerk bestehende Geschäftsmodelle in der Videospielindustrie potenziell verändern?
-answer: Es ermöglicht den Spielern, sehr geringe Geldbeträge beim Spielen von Spielen zu setzen.
-wrong_answers:
-  - Es ermöglicht den Spielern, Bitcoin beim Spielen von Spielen zu schürfen.
-  - Es ermöglicht Spieleentwicklern, Bitcoin als Zahlung für ihre Spiele anzunehmen.
-  - Es ermöglicht den Spielern, In-Game-Items mit Bitcoin zu kaufen.
-explanation: |
-  Das Lightning-Netzwerk ermöglicht es den Spielern, sehr geringe Geldbeträge beim Spielen von Spielen zu setzen, wie zum Beispiel ein paar Satoshis. Dadurch wird ein Einsatz ermöglicht, der den Wettbewerb anregt und gleichzeitig die Kosten für den Einsatz von Bots erheblich erhöht.
-reviewed: false

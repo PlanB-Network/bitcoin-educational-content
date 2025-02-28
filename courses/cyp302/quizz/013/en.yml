@@ -1,0 +1,9 @@
+question: What constitutes the physical basis of the majority of communications in the developed world?
+answer: Fiber optic cable networks
+wrong_answers:
+  - Satellites for every connection
+  - Only coaxial cables
+  - Copper wires only
+explanation: |
+  The majority of modern communications rely on fiber optic cable networks, which ensure high-speed data exchanges, although some uses of satellites and coaxial cables remain.
+reviewed: false

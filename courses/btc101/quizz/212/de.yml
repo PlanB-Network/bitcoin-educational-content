@@ -1,0 +1,12 @@
+question: Wie wird Bitcoin in diesem Kurs beschrieben?
+answer: Als ein multidisziplinäres Fachgebiet.
+wrong_answers:
+  - Ein einfaches Fachgebiet.
+  - Ein physisches Fachgebiet.
+  - Ein einzel-disziplinäres Fachgebiet.
+explanation: |
+  Bitcoin wird als ein multidisziplinäres Fachgebiet beschrieben, weil
+  es Fragen in Bezug auf verschiedene Felder aufwirft, einschließlich
+  Kryptographie, Spieltheorie, Wirtschafts- und Geldpolitik,
+  Informatik, Philosophie, Energie, Gesetze und Regulierung.
+reviewed: true

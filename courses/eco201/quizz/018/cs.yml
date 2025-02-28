@@ -1,0 +1,12 @@
+question: Co je koncept absolutní výhody v kontextu dělby práce?
+answer: Jedinec má nadřazenou schopnost vykonávat určité úkoly lépe než jeho kolegové.
+wrong_answers:
+  - Jedinec má nadřazenou schopnost vykonávat všechny úkoly lépe než jeho kolegové.
+  - Jedinec má stejnou schopnost vykonávat určité úkoly jako jeho kolegové.
+  - Jedinec má nižší schopnost vykonávat určité úkoly než jeho kolegové.
+explanation: |
+  V kontextu dělby práce se absolutní výhoda vztahuje na
+  situaci, kdy jedinec má nadřazenou schopnost vykonávat určité úkoly
+  lépe než jeho kolegové. Tento jedinec pak má zájem specializovat se na výrobu
+  daného zboží a poté vyměňovat získaný přebytek za zboží, které si přeje.
+reviewed: false

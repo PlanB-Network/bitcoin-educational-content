@@ -1,0 +1,11 @@
+question: What is one of the reasons why you should consolidate your UTXOs in your wallets from time to time?
+answer: To avoid unnecessary fees during transactions.
+wrong_answers:
+  - To increase the value of your bitcoins.
+  - To prevent your bitcoins from being stolen.
+  - To ensure your bitcoins are always available.
+explanation: >-
+  The text mentions that consolidating your UTXOs in your wallets from
+  time to time is essential for effectively managing your bitcoins and avoiding unnecessary
+  fees during transactions.
+reviewed: true

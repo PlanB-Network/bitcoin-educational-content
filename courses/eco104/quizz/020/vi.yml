@@ -1,0 +1,16 @@
+question: Các stablecoin của Tether đóng góp như thế nào vào tự do tài chính cho cá nhân trong các nền kinh tế không ổn định?
+
+answer: Bằng cách cung cấp quyền truy cập vào các loại tiền tệ có tỷ giá hối đoái ổn định
+
+wrong_answers:
+  - Bằng cách loại bỏ nhu cầu về tiền mặt vật lý
+  - Bằng cách cung cấp lãi suất cao hơn cho tiền tiết kiệm
+  - Bằng cách cho phép giao dịch toàn cầu tức thì
+
+explanation:
+  Các stablecoin của Tether được neo vào các tài sản ổn định như đô la Mỹ 
+  hoặc vàng. Sự ổn định này cho phép cá nhân trong các nền kinh tế không ổn định 
+  có thể chuyển tiền của họ vào một loại tiền tệ không chịu ảnh hưởng bởi tỷ lệ 
+  lạm phát giống như vậy, giúp họ duy trì giá trị của khoản tiết kiệm.
+
+reviewed: true

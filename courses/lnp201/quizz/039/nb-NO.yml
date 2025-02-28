@@ -1,0 +1,8 @@
+question: Hva skjer hvis en kanal med en aktiv HTLC blir tvunget lukket?
+answer: HTLC-en er inkludert i forpliktelsestransaksjonene som en utgang.
+wrong_answers:
+  - HTLC-en blir automatisk kansellert.
+  - Midlene blir redistribuert til de forrige nodene.
+  - Kanalen kan ikke lukkes før HTLC-en har utløpt.
+explanation: |
+  Under en tvungen lukking, representeres ventende HTLC-er som utganger i forpliktelsestransaksjonene, noe som sikrer deres utførelse eller retur i henhold til de definerte betingelsene.

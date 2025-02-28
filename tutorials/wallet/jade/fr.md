@@ -1,10 +1,10 @@
 ---
-name: JADE
+name: Jade
 
 description: Comment configurer votre appareil JADE
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 ## Vidéo tutorielle
 

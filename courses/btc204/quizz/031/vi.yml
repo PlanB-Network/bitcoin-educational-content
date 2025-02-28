@@ -1,0 +1,9 @@
+question: Nếu trong một giao dịch thanh toán đơn giản cùng một địa chỉ được sử dụng trong một đầu vào và một trong hai đầu ra, đầu ra nào có khả năng đại diện cho tiền thối?
+answer: Đầu ra có cùng địa chỉ với đầu vào.
+wrong_answers:
+  - Đầu ra có địa chỉ mới nhất.
+  - Đầu ra có địa chỉ khác với đầu vào.
+  - Đầu ra có địa chỉ không xác định.
+explanation: |
+  Nếu một địa chỉ được tái sử dụng trong cùng một giao dịch, có thể giả định rằng người dùng vẫn sở hữu UTXO liên quan. Do đó, đầu ra có cùng địa chỉ với đầu vào có khả năng là tiền thối.
+reviewed: false

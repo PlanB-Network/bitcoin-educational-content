@@ -1,0 +1,9 @@
+question: Jaká je základní vlastnost jednorázových plomb používaných v systému RGB?
+answer: Lze je uzavřít pouze jednou
+wrong_answers:
+  - Lze je uzavřít pouze dvakrát
+  - Zaručují důvěrnost transakcí
+  - Eliminují potřebu konsensu v blockchainu
+explanation: |
+  Jednorázové pečetě umožňují vytvářet jedinečné kryptografické závazky, které zabraňují duplicitě nebo dvojímu vydání.
+reviewed: false

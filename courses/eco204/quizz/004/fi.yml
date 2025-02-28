@@ -1,0 +1,10 @@
+question: Mikä on inflaation määritelmä Laroussen mukaan?
+answer: Inflaatio on ilmiö, jolle on ominaista yleinen ja jatkuva hintatason nousu.
+wrong_answers:
+  - Inflaatio on ilmiö, jolle on ominaista yleinen ja jatkuva hintatason lasku.
+  - Inflaatio on ilmiö, jolle on ominaista tietty ja jatkuva hintatason nousu.
+  - Inflaatio on ilmiö, jolle on ominaista yleinen ja ajoittainen hintatason nousu.
+explanation: |
+  Laroussen mukaan inflaatio määritellään ilmiönä, jolle on ominaista
+  yleinen ja jatkuva hintatason nousu.
+reviewed: false

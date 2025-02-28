@@ -1,0 +1,9 @@
+question: What happens if you lose the passphrase associated with your HD wallet?
+answer: You lose access to the bitcoins linked to that wallet
+wrong_answers:
+  - You can still access the wallet with the mnemonic phrase alone
+  - You can reset the passphrase by contacting Bitcoin support
+  - You only lose the unconfirmed transactions
+explanation: |
+  The passphrase is an essential component in key derivation. Without it, it's impossible to recreate the keys and therefore access the bitcoins.
+reviewed: false

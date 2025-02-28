@@ -1,9 +1,0 @@
-question: Qu'est-ce que le HashRate ?
-answer: La quantité totale de tentatives pour trouver le bon nombre dans la Preuve de Travail.
-wrong_answers:
-  - La vitesse à laquelle un mineur peut résoudre la Preuve de Travail.
-  - Le nombre total de mineurs dans le réseau Bitcoin.
-  - Le montant total de bitcoins extraits.
-explanation: |
-  Le HashRate fait référence au nombre total de tentatives que les mineurs effectuent par seconde pour résoudre la Preuve de Travail. C'est une mesure de la puissance de calcul du réseau Bitcoin.
-reviewed: false

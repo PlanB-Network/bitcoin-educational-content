@@ -1,0 +1,9 @@
+question: Co je to "definice pečetě" v kontextu přiřazení RGB?
+answer: Odkaz na UTXO, který zakládá vlastnictví vlastněného státu
+wrong_answers:
+  - Seskupení dat vyměňovaných mezi stranami, které podléhá ověření na straně klienta
+  - Kompilování smluv ve spustitelném kódu mimo řetězec
+  - Větev DAG historie přechodu stavu
+explanation: |
+  "Definice plomby" spojuje UTXO s konkrétní částí smluvního stavu a zaručuje správné přidělení práva nebo aktiva.
+reviewed: false

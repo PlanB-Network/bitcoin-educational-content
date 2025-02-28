@@ -1,0 +1,10 @@
+question: Mikä on UTXO Bitcoinin kontekstissa?
+answer: Käyttämätön transaktiotuotos
+wrong_answers:
+  - Tuntematon transaktiotuotos
+  - Jäljittämätön transaktiotuotos
+  - Vahvistamaton transaktiotuotos
+explanation: |
+  Bitcoinin kontekstissa UTXO tarkoittaa Käyttämätöntä Transaktiotuotosta.
+  Tämä on termi, jota käytetään kuvaamaan transaktion tuotosta, jonka käyttäjä voi kuluttaa.
+reviewed: false

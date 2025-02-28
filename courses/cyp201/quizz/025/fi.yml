@@ -1,0 +1,9 @@
+question: Mikä Schnorrin ominaisuus mahdollistaa useiden julkisten avainten yhdistämisen yhdeksi?
+answer: Avainten aggregointi
+wrong_answers:
+  - Erän varmennus
+  - Muokattavuus
+  - Allekirjoituksen tiivistäminen
+explanation: |
+  Schnorr mahdollistaa useiden julkisten avainten aggregoinnin yhdeksi ainoaksi avaimiksi.
+reviewed: false

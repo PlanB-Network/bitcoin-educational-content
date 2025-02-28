@@ -1,0 +1,13 @@
+question: Miks ei saa koordinaator pärast kõikide osalejate allkirjade kogumist coinjoin tehingut muuta?
+
+answer: Muutmine muudaks tehingu kehtetuks.
+
+wrong_answers:
+  - Neil puudub juurdepääs osalejate vastuvõtvatele aadressidele.
+  - Allkirjad on krüpteeritud.
+  - Tehing on juba Bitcoin võrgus levitatud.
+
+explanation: |
+  Kui osalejad on kogu tehingu allkirjastanud, pärast kõige korrektsuse tagamist, ei saa koordinaator seda tehingut enam muuta, sealhulgas väljundeid, ilma seda kehtetuks muutmata, kuna allkiri hõlmab kogu tehingut.
+
+reviewed: false

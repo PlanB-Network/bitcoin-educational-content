@@ -1,0 +1,14 @@
+question: Mitä sinun tulee varmuuskopioida käyttäessäsi lompakkoa, jossa on salasana?
+answer: Sinun tulee varmuuskopioida sekä 12 tai 24 sanan lista että salasanasi.
+wrong_answers:
+  - Sinun tarvitsee varmuuskopioida vain 12 tai 24 sanan lista.
+  - Sinun tarvitsee varmuuskopioida vain salasanasi.
+  - Sinun ei tarvitse varmuuskopioida kumpaakaan, 12 tai 24 sanan listaa tai salasanaasi.
+explanation: |
+  Kun käytät lompakkoa, jossa on salasana, sinun tulee varmuuskopioida
+  sekä 12 tai 24 sanan lista että salasanasi,
+  koska sekä sanalista että salasana ovat molemmat
+  välttämättömiä päästäksesi käsiksi varoihisi, jos menetät
+  puhelimesi tai tietokoneesi. Ilman toista tai toista,
+  varat eivät ole saavutettavissa.
+reviewed: true

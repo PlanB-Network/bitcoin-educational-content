@@ -1,9 +1,0 @@
-question: Was ist der Hauptnachteil bei der Verwendung eines selbst gehosteten Passwort-Managers?
-answer: Es erfordert mehr technisches Wissen zur Verwendung.
-wrong_answers:
-  - Es ist teurer als Dienste von Drittanbietern.
-  - Es bietet nicht so viele Funktionen wie Dienste von Drittanbietern.
-  - Es ist nicht so sicher wie Dienste von Drittanbietern.
-explanation: |
-  Ein selbst gehosteter Passwort-Manager erfordert mehr technisches Wissen zur Verwendung, da Sie Ihren eigenen Server einrichten und verwalten müssen. Allerdings kann er mehr Kontrolle und Sicherheit bieten.
-reviewed: false

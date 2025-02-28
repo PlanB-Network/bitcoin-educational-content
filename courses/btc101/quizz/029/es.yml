@@ -1,0 +1,9 @@
+question: ¿Por qué el oro no es un material portátil?
+answer: Porque es denso y pesado, lo que lo hace incómodo de llevar en grandes cantidades.
+wrong_answers:
+  - Porque es demasiado valioso para ser movido.
+  - Porque no se puede moldear fácilmente en formas más pequeñas.
+  - Porque es un líquido a temperatura ambiente.
+explanation: |
+  El oro es denso y pesado, lo que significa que llevar grandes cantidades de él puede ser físicamente desafiante. Este peso lo hace menos conveniente para el transporte en comparación con materiales más ligeros.
+reviewed: true

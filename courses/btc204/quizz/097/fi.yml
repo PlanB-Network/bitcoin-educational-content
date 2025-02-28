@@ -1,0 +1,11 @@
+question: Mitä suuri anonset kertoo UTXO; n yksityisyydestä?
+
+answer: Parantunut yksityisyys.
+
+wrong_answers:
+  - Heikentynyt yksityisyys.
+  - Parantunut jäljitettävyys.
+  - Nopeammat coinjoin-siirtonopeudet.
+
+explanation: |
+  Suuri anonset viittaa korkeaan nimettömyyden tasoon, sillä tietyn UTXO: n erottaminen homogeenisestä joukosta muuttuu vaikeaksi.

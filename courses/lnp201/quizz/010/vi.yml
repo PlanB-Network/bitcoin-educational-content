@@ -1,0 +1,9 @@
+question: Bước đầu tiên trong việc mở một kênh Lightning giữa hai bên tham gia là gì?
+answer: Trao đổi tin nhắn chứa các số tiền và khóa công khai
+wrong_answers:
+  - Ngay lập tức công bố một giao dịch ký gửi trên blockchain
+  - Tạo một địa chỉ đa chữ ký 2/2 mà không cần trao đổi trước
+  - Ký giao dịch rút tiền trước khi trao đổi khóa công khai
+explanation: |
+  Việc mở một kênh bắt đầu với việc trao đổi tin nhắn giữa hai bên, nơi họ chia sẻ số tiền họ muốn cam kết và khóa công khai của họ.
+reviewed: false

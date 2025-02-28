@@ -1,0 +1,8 @@
+question: Apa yang membuat RC4 rentan saat ini meskipun populer di masa lalu?
+answer: Kelemahan yang terdokumentasi dengan baik dalam generasi aliran kunci
+wrong_answers:
+  - Kunci yang terlalu pendek untuk menjamin keamanan
+  - Ketidakmampuannya untuk bekerja dengan teks panjang
+  - Persyaratan untuk menggunakan kunci publik selain kunci privat
+explanation: |
+  RC4 memiliki kelemahan signifikan dalam generasi aliran kunci, yang membuat enkripsi terpapar pada serangan, sehingga secara bertahap ditinggalkan dalam protokol keamanan modern.

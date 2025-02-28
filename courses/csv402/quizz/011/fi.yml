@@ -1,0 +1,9 @@
+question: Mikä muodostaa ankkurin RGB:ssä?
+answer: Transaktiotunnus, MPC, DBC ja ylimääräinen transaktiotodiste
+wrong_answers:
+  - Genesis, sinetin määritelmä ja siirtymäpaketti
+  - Sopimusskeema, liiketoimintalogiikka ja omistettu tila
+  - Allekirjoitus, transaktioviittaus ja Pedersen-sitoumus
+explanation: |
+  Ankkuri sisältää tiedot, joita tarvitaan todistamaan yksilöllisen sitoumuksen sisällyttäminen Bitcoin-tapahtumaan.
+reviewed: false

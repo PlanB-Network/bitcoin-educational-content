@@ -1,0 +1,9 @@
+question: Đặc điểm nào dưới đây mô tả một người dùng Bitcoin thực dụng và cam kết?
+answer: Họ tham gia tích cực vào hệ sinh thái và hỗ trợ nó thông qua việc sử dụng thường xuyên.
+wrong_answers:
+  - Họ chỉ sử dụng Bitcoin thỉnh thoảng.
+  - Họ chỉ sử dụng Bitcoin cho mục đích đầu tư dài hạn.
+  - Họ chỉ sử dụng Bitcoin trên một sàn giao dịch.
+explanation: |
+  Người dùng Bitcoin thực dụng và cam kết tham gia tích cực vào hệ sinh thái Bitcoin và hỗ trợ nó thông qua việc sử dụng thường xuyên.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaký by mohl být hlavní problém týkající se bankovního systému?
+answer: Pravidla bankovního systému nejsou transparentní a srozumitelná pro všechny.
+wrong_answers:
+  - Bankovní systém je příliš snadno pochopitelný.
+  - Bankovní systém je příliš transparentní.
+  - Bankovní systém je příliš decentralizovaný.
+explanation: >-
+  Text uvádí, že otázka, kdo by měl kontrolovat bankovní systém, je klíčová, protože pravidla bankovního systému nejsou transparentní a srozumitelná pro všechny.
+reviewed: true

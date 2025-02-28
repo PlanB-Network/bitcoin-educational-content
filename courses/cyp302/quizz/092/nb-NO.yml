@@ -1,0 +1,9 @@
+question: Hvordan kan en blokk-krypter bli transformert til en strømkrypter?
+answer: Ved å bruke moduser som OFB som genererer en nøkkelstrøm fra blokk-krypteren
+wrong_answers:
+  - Ved å dele klarteksten inn i bytes og kryptere dem en etter en
+  - Ved å anvende padding til meldinger før kryptering
+  - Ved å øke nøkkellengden for hver krypterte blokk
+explanation: |
+  Moduser som OFB tillater en blokk-krypter å fungere som en strømkrypter ved å generere en nøkkelstrøm, som deretter brukes for hver del av klarteksten.
+reviewed: false

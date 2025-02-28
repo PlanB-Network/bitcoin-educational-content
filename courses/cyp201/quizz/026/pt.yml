@@ -1,0 +1,9 @@
+question: Qual é o ponto de partida para calcular uma assinatura ECDSA?
+answer: O hash da mensagem
+wrong_answers:
+  - A chave pública
+  - Um nonce fixo
+  - Uma curva elíptica personalizada
+explanation: |
+  Uma assinatura ECDSA começa com o cálculo do hash da mensagem a ser assinada, frequentemente com SHA256.
+reviewed: false

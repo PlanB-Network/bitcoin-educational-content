@@ -1,0 +1,13 @@
+question: Tại sao lập luận cho rằng bitcoin không có giá trị vì nó không được bảo chứng bởi bất cứ thứ gì là sai lầm?
+answer: Giá trị là chủ quan và dựa trên niềm tin và trải nghiệm của mọi người.
+wrong_answers:
+  - Bitcoin được bảo chứng bởi vàng, điều này mang lại giá trị nội tại cho nó.
+  - Giá trị của Bitcoin được xác định bởi sự khan hiếm và các tính năng an ninh của nó.
+  - Giá trị của Bitcoin dựa trên sự chấp nhận của các chính phủ và ngân hàng.
+explanation: |
+  Giá trị là chủ quan và tùy thuộc vào người đánh giá. Bitcoin có giá trị 
+  vì mọi người tin rằng nó có giá trị, giống như nghệ thuật có thể có giá trị dù 
+  chỉ làm từ vải bố và sơn. Lập luận rằng tiền tệ phải được bảo chứng bởi 
+  một thứ gì đó có giá trị là không chính xác, vì giá trị của các đồng tiền tệ giấy 
+  như đô la Mỹ dựa trên sự tin tưởng và niềm tin tương tự.
+reviewed: false

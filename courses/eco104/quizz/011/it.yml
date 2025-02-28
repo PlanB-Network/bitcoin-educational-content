@@ -1,0 +1,19 @@
+question: Cosa distingue Bitcoin dalle valute tradizionali controllate dalle banche centrali o dai governi?
+answer: Tutti questi fattori
+wrong_answers:
+  - Bitcoin richiede la collaborazione tra minatori, nodi e sviluppatori
+  - Bitcoin consente a chiunque di partecipare alla rete e svolgere ruoli chiave
+  - Bitcoin si basa su un sistema di consenso decentralizzato
+explanation: |
+  Ciò che distingue Bitcoin dalle valute fiat tradizionali è che si tratta di 
+  uno sforzo collaborativo tra tre ruoli essenziali e la comunità.
+  I nodi assicurano l'integrità e la sicurezza della rete fungendo da guardiani.
+  I minatori sono responsabili dell'elaborazione delle transazioni e del mantenimento della blockchain.
+  Gli sviluppatori sono membri altamente qualificati della comunità Bitcoin che lavorano insieme 
+  per mantenere e migliorare il software che alimenta la rete.
+  La comunità, attraverso l'uso di bitcoin, è ciò che ne conferisce valore.
+  Ognuno di questi ruoli è essenziale per la funzionalità e il successo di Bitcoin come 
+  valuta digitale. Affidando questi compiti cruciali ai protagonisti chiave, Bitcoin può 
+  operare come un mezzo di scambio decentralizzato, sicuro, trasparente e responsabile per 
+  tutti gli utenti, rendendolo significativamente diverso dalle valute centralizzate che usiamo oggi.
+reviewed: false

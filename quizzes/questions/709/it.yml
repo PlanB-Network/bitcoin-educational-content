@@ -1,9 +1,0 @@
-question: Qual è il ruolo dell'hash della preimmagine nel processo di routing della Lightning Network?
-answer: Viene utilizzato dal destinatario per recuperare l'importo della transazione bloccato nell'HTLC.
-wrong_answers:
-  - Viene utilizzato per crittografare i dati della transazione.
-  - Viene utilizzato per calcolare le commissioni di transazione.
-  - Viene utilizzato per verificare l'indirizzo del destinatario.
-explanation: |
-  Nella Lightning Network, l'hash della preimmagine viene utilizzato dal destinatario per recuperare l'importo della transazione bloccato nell'HTLC. Il mittente fornisce l'hash della preimmagine al destinatario, che può quindi utilizzarlo per sbloccare i fondi.
-reviewed: false

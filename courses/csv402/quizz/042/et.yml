@@ -1,0 +1,9 @@
+question: Mis juhtub RGB-kanali makse korral RGB-väljunditega kulukohustustehingutes?
+answer: Neid ajakohastatakse, et kajastada varade ümberjaotamist osalejate vahel
+wrong_answers:
+  - Need jäävad muutumatuks, et säilitada esialgne ajalugu kuni kanali sulgemiseni
+  - Need on eemaldatud ja asendatud uute multi-sigiga
+  - Nad on ümber konverteeritud klassikalisteks Bitcoin UTXO-deks
+explanation: |
+  Kui makse on tehtud, kohandab RGB-staatuse üleminek RGB-väljundeid, et jaotada varad ümber vastavalt uuele kanalite tasakaalule.
+reviewed: false

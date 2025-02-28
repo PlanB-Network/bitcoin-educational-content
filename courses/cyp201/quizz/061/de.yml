@@ -1,0 +1,9 @@
+question: Wie groß ist die Gesamtgröße eines erweiterten Schlüssels mit Prüfsumme?
+answer: 82 Bytes
+wrong_answers:
+  - 78 Bytes
+  - 64 Bytes
+  - 128 Bytes
+explanation: |
+  Ein erweiterter Schlüssel ist ohne die Prüfsumme 78 Bytes groß und mit der Prüfsumme inbegriffen 82 Bytes.
+reviewed: false

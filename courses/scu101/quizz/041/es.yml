@@ -1,0 +1,12 @@
+question: ¿Cuál es la ventaja de usar un gestor de contraseñas autoalojado como Bitwarden o KeePass?
+answer: Puedes controlar dónde se almacenan tus contraseñas, ofreciendo más seguridad y control.
+wrong_answers:
+  - Son más fáciles y siempre más seguros de usar que los servicios de terceros.
+  - Suelen ofrecer más características que los servicios de terceros, aunque son más caros.
+  - Son más baratos y rápidos que los servicios de terceros.
+explanation: |
+  Los gestores de contraseñas autoalojados como Bitwarden o KeePass
+  te permiten controlar dónde se almacenan tus contraseñas,
+  ofreciendo potencialmente más seguridad y control. Sin embargo,
+  pueden requerir más conocimientos técnicos para su uso.
+reviewed: true

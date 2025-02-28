@@ -1,0 +1,11 @@
+question: BIP47操作的核心使用的是哪种加密密钥交换算法？
+
+answer: ECDH
+
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+
+explanation:
+  使用的算法是ECDH（椭圆曲线Diffie-Hellman）。它是经典Diffie-Hellman算法的一个变种，使用椭圆曲线。

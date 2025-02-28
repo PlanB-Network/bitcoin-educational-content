@@ -1,0 +1,11 @@
+question: Was ist die Blocknummer der ersten Bitcoin-Transaktion?
+answer: Block 170.
+wrong_answers:
+  - Block 1.
+  - Block 17.
+  - Block 1700.
+explanation: |
+  Die erste Bitcoin-Transaktion, bei der es sich um eine Transaktion von
+  10 BTC zwischen Satoshi Nakamoto und Hal Finney handelte, ist in
+  Block 170 aufgezeichnet.
+reviewed: true

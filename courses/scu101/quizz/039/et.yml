@@ -1,0 +1,12 @@
+question: Millised on hea parooli omadused?
+answer: Pikk, keeruline, ainulaadne ja mitte põhinev isiklikul informatsioonil.
+wrong_answers:
+  - Lühike, lihtne ja kergesti meeldejääv.
+  - Põhineb isiklikul informatsioonil nagu sünnikuupäevad ja nimed.
+  - Sama parool kõikide kontode jaoks.
+explanation: |
+  Hea parool on pikk (vähemalt 12 tähemärki), keeruline (segamini
+
+  suur- ja väiketähed, numbrid ja sümbolid), ainulaadne (ei kasutata uuesti
+
+  erinevate kontode jaoks) ja ei põhine isiklikul informatsioonil.

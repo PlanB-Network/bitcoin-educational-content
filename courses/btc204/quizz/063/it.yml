@@ -1,0 +1,13 @@
+question: Quali sono i 2 rischi per la privacy associati alla selezione delle monete?
+
+answer: Il CIOH e il collegamento tra input/identità da parte del destinatario.
+
+wrong_answers:
+  - Tracciamento dell'indirizzo IP e correlazione delle attività.
+  - Tracciamento temporale e riutilizzo degli indirizzi.
+  - Riutilizzo degli indirizzi e il collegamento tra input/identità da parte di un osservatore esterno.
+
+explanation: |
+  Due rischi devono essere considerati quando si selezionano le monete: la possibilità per il destinatario del pagamento di collegare una parte della tua identità agli UTXO utilizzati come input e la capacità di un osservatore esterno di stabilire collegamenti tra tutti gli UTXO consumati come input (CIOH).
+
+reviewed: false

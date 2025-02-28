@@ -1,0 +1,9 @@
+question: Qual é o inconveniente dos sistemas monetários centralizados modernos?
+answer: Muitas vezes, falta-lhes transparência e auditabilidade na gestão da massa monetária.
+wrong_answers:
+  - Proporcionam um valor estável e imutável para cada unidade monetária.
+  - Eliminam todos os intermediários e aceleram as liquidações para milissegundos.
+  - Asseguram que a emissão de moeda é totalmente descentralizada e à prova de inflação.
+explanation: |
+  Os sistemas centralizados podem emitir dinheiro à vontade, muitas vezes sem uma supervisão transparente. Este facto pode minar a confiança devido à inflação, às complexas liquidações interbancárias e a uma potencial má gestão.
+reviewed: false

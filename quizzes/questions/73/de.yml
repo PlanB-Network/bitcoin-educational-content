@@ -1,9 +1,0 @@
-question: Was sind die drei Hauptfunktionen einer Bitcoin-Wallet?
-answer: Empfangen von Bitcoins, Senden von Bitcoins, Schutz vor Hacking und Diebstahlversuchen
-wrong_answers:
-  - Speichern von Bitcoins, Senden von Bitcoins, Schutz vor Hacking und Diebstahlversuchen
-  - Empfangen von Bitcoins, Speichern von Bitcoins, Schutz vor Hacking und Diebstahlversuchen
-  - Empfangen von Bitcoins, Senden von Bitcoins, Verkauf von Bitcoins
-explanation: |
-  Eine Bitcoin-Wallet wird verwendet, um mit dem Bitcoin-Netzwerk zu interagieren. Ihre drei Hauptfunktionen bestehen darin, das Empfangen von Bitcoins zu ermöglichen, das Senden von Bitcoins zu ermöglichen und sie vor Hacking- und Diebstahlversuchen zu schützen.
-reviewed: false

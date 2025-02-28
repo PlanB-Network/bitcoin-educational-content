@@ -1,9 +1,0 @@
-question: Quali sono le caratteristiche di una passphrase efficace per un portafoglio Bitcoin?
-answer: Lunga (da 20 a 40 caratteri) e diversificata (utilizzando lettere maiuscole, lettere minuscole, numeri e simboli)
-wrong_answers:
-  - Corta e semplice
-  - Lunga e semplice
-  - Corta e diversificata
-explanation: |
-  Una passphrase efficace dovrebbe essere lunga (da 20 a 40 caratteri) e diversificata (utilizzando lettere maiuscole, lettere minuscole, numeri e simboli). Non dovrebbe essere direttamente correlata all'utente o al suo ambiente.
-reviewed: false

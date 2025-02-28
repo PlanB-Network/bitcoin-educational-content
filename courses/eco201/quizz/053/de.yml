@@ -1,0 +1,9 @@
+question: Was bedeutet Cherry-Picking im wirtschaftlichen Kontext?
+answer: Cherry-Picking beinhaltet das selektive Auswählen von Daten, um Beziehungen zwischen Variablen herzustellen.
+wrong_answers:
+  - Cherry-Picking beinhaltet das Ignorieren aller Daten und das alleinige Verlassen auf Hypothesen.
+  - Cherry-Picking beinhaltet die Verwendung aller verfügbaren Daten ohne jegliche Auswahl.
+  - Cherry-Picking beinhaltet die Verwendung nur der Daten, die die Politik der Regierung unterstützen.
+explanation: |
+  Im wirtschaftlichen Kontext beinhaltet Cherry-Picking das selektive Auswählen von Daten, um Beziehungen zwischen Variablen herzustellen. Es wird als unwissenschaftliche und ungenaue Methode betrachtet.
+reviewed: false

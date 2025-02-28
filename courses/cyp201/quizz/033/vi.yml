@@ -1,0 +1,8 @@
+question: Cờ sighash SIGHASH_NONE cho phép làm gì?
+answer: Chỉnh sửa các đầu ra sau khi ký
+wrong_answers:
+  - Chỉnh sửa các đầu vào sau khi ký
+  - Bao gồm tất cả các đầu vào và đầu ra
+  - Hạn chế chỉnh sửa chỉ một đầu ra
+explanation: |
+  SIGHASH_NONE chỉ bao gồm các đầu vào, để lại các đầu ra có thể được chỉnh sửa sau khi ký.

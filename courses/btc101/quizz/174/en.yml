@@ -1,0 +1,10 @@
+question: What are the typical costs for a miner?
+answer: Electricity consumption and hardware purchase.
+wrong_answers:
+  - Only hardware purchase.
+  - Transaction fees. 
+  - Electricity consumption and transaction fees.
+explanation: >-
+  Mining Bitcoin requires substantial computational power, which in turn consumes electricity. 
+  Besides, miners need to invest in specialized hardware to effectively mine it.
+reviewed: false

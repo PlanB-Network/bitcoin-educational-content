@@ -1,9 +1,0 @@
-question: Quels sont les deux composants clés du mécanisme de sécurité du protocole Bitcoin ?
-answer: Les algorithmes de dérivation HMAC et PBKDF2
-wrong_answers:
-  - Les fonctions de hachage SHA-256 et RIPEMD-160
-  - L'algorithme de signature numérique à courbes elliptiques (ECDSA) et la fonction de hachage SHA-256
-  - RSA et l'échange de clés Diffie-Hellman
-explanation: |
-  Les algorithmes de dérivation HMAC et PBKDF2 sont des composants clés du mécanisme de sécurité du protocole Bitcoin. Ils empêchent diverses attaques potentielles et garantissent l'intégrité des portefeuilles Bitcoin.
-reviewed: false

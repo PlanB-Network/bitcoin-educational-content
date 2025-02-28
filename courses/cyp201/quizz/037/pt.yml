@@ -1,0 +1,9 @@
+question: Qual é a principal limitação das carteiras JBOK?
+answer: Elas requerem um backup independente para cada chave privada
+wrong_answers:
+  - Elas não permitem a geração de novos endereços
+  - Elas são incompatíveis com assinaturas digitais
+  - Elas usam chaves públicas não comprimidas
+explanation: |
+  As carteiras JBOK obrigam o usuário a fazer backup de cada chave privada individualmente, complicando seu gerenciamento.
+reviewed: false

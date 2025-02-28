@@ -1,0 +1,9 @@
+question: Qual modelo de transação invalida o uso de CIOH?
+answer: A transação colaborativa.
+wrong_answers:
+  - Pagamento simples.
+  - Consolidação.
+  - Varredura.
+explanation: |
+  CIOH não é aplicável a transações que adotam um padrão colaborativo, porque neste caso específico, as entradas necessariamente vêm de diferentes entidades.
+reviewed: false

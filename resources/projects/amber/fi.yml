@@ -1,0 +1,6 @@
+description: |
+  Amber on mobiilisovellus, joka on omistettu Bitcoin-siirtojen yksinkertaistamiseen.
+
+  Suunniteltu sekä iOS- että Android-laitteille, Amber tarjoaa nopean, turvallisen ja käyttäjäystävällisen alustan Bitcoinien ostamiseen, myymiseen ja hallinnoimiseen. Sen Bitcoin-keskeinen painotus varmistaa tehokkaat siirrot, kun taas sen turvatoimet, mukaan lukien autentikointi, salaus ja yhteistyössä tapahtuva hallinta, tarjoavat käyttäjille mielenrauhaa. Sen dollar cost averaging (DCA) -ominaisuuden avulla Amber mahdollistaa käyttäjille säännöllisen aikataulun asettamisen Bitcoinien hankkimiseksi, tehden siitä kätevän työkalun sekä uusille että kokeneille Bitcoin-käyttäjille.
+contributors:
+  - rabbit-hole

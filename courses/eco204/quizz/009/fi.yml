@@ -1,0 +1,9 @@
+question: Mikä on inflaation ja deflaation välinen suhde taloudessa?
+answer: Inflaatio ja deflaatio ovat kuin kommunikoivat astiat taloudessa. Tuotannon kasvu voi johtaa deflaatioon, mutta jos rahamäärää lisätään samanaikaisesti, deflatorinen vaikutus kumoutuu, mikä johtaa inflaatioon.
+wrong_answers:
+  - Inflaatio ja deflaatio ovat toisistaan riippumattomia taloudessa.
+  - Inflaatio johtaa aina deflaatioon taloudessa.
+  - Deflaatio johtaa aina inflaatioon taloudessa.
+explanation: |
+  Luku selittää, että inflaatio ja deflaatio ovat kuin kommunikoivat astiat taloudessa. Tuotannon kasvu voi johtaa deflaatioon, mutta jos rahamäärää lisätään samanaikaisesti, deflatorinen vaikutus kumoutuu, mikä johtaa inflaatioon.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vai trò chính của mã chuỗi trong việc tạo ra các khóa con là gì?
+answer: Giới thiệu một nguồn entropy bổ sung
+wrong_answers:
+  - Xác định độ sâu phân cấp
+  - Lưu trữ các chỉ số của các khóa con
+  - Đảm bảo tính tương thích với giao thức Bitcoin
+explanation: |
+  Mã chuỗi được sử dụng để giới thiệu một nguồn entropy bổ sung và độc đáo cho mỗi khóa được tạo ra.
+reviewed: false

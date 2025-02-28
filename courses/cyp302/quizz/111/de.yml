@@ -1,0 +1,9 @@
+question: Was ist asynchrone Stromverschlüsselung?
+answer: Eine Verschlüsselung, deren Schlüsselstrom sowohl vom Schlüssel als auch von Elementen des zuvor verschlüsselten Textes abhängt
+wrong_answers:
+  - Eine Verschlüsselung, die bei jedem Gebrauch einen zufälligen Schlüsselstrom erzeugt
+  - Eine Verschlüsselung, bei der der Schlüssel für jede Nachricht geändert werden muss
+  - Eine Verschlüsselung, deren Schlüsselstrom nur vom Anfangsschlüssel abhängt
+explanation: |
+  Asynchrone Stromverschlüsselung ist eine Art der Verschlüsselung, bei der der Schlüsselstrom durch den Schlüssel und Elemente des verschlüsselten Textes beeinflusst wird.
+reviewed: false

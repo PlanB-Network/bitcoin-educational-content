@@ -1,9 +1,0 @@
-question: ¿Cuál es una práctica recomendada para gestionar la contraseña maestra de un gestor de contraseñas?
-answer: Escríbela en papel y guárdala en un lugar oculto y seguro.
-wrong_answers:
-  - Almacénala en tu correo electrónico.
-  - Utiliza la misma contraseña para todas las cuentas.
-  - Memorízala.
-explanation: |
-  Se recomienda escribir la contraseña maestra de un gestor de contraseñas en papel, pero debe mantenerse en un lugar oculto y seguro. Esto se debe a que si el disco duro está encriptado y el ordenador está bloqueado, la contraseña no será accesible, incluso en caso de robo.
-reviewed: false

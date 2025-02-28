@@ -1,0 +1,9 @@
+question: Apa nama peristiwa ketika hadiah untuk menambang transaksi Bitcoin dibagi dua?
+answer: Halving
+wrong_answers:
+  - Penggandaan
+  - Pembagian Empat
+  - Penggandaan Tiga
+explanation: |
+  Pengurangan hadiah penambangan yang diprogram, yang terjadi setiap empat tahun sekali, dikenal sebagai halving.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Qual é a preocupação futura em relação ao uso do espaço em blocos do Bitcoin?
+answer: A preocupação futura é que, com o crescimento esperado da Lightning Network e o consequente aumento nas aberturas e fechamentos de canais, o espaço nos blocos do Bitcoin se tornará cada vez mais valioso.
+wrong_answers:
+  - A preocupação futura é que o tamanho dos blocos do Bitcoin se tornará grande demais para ser gerenciado.
+  - A preocupação futura é que o número de blocos do Bitcoin excederá a capacidade da rede.
+  - A preocupação futura é que a complexidade dos blocos do Bitcoin aumentará, tornando-os difíceis de processar.
+explanation: |
+  Com o crescimento esperado da Lightning Network e o
+  consequente aumento nas aberturas e fechamentos de canais, o espaço
+  nos blocos do Bitcoin se tornará cada vez mais valioso. Isso
+  levou a discussões sobre o uso legítimo do espaço em blocos, com preocupações sobre spam na blockchain de
+  transações consideradas não essenciais.
+reviewed: true

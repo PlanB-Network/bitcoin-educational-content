@@ -1,9 +1,0 @@
-question: Wie werden Bergleute für ihre Arbeit entschädigt?
-answer: Bergleute werden durch die Belohnung, die in den Block eingebettet ist, und durch Transaktionsgebühren entschädigt.
-wrong_answers:
-  - Bergleute werden vom Bitcoin-Netzwerk bezahlt.
-  - Bergleute erhalten ein festes Gehalt für ihre Arbeit.
-  - Bergleute werden mit neuen Bitcoins entschädigt.
-explanation: |
-  Wenn ein Bergmann erfolgreich einen Block abbaut, erhält er eine Belohnung in Form von neuen Bitcoins. Diese Belohnung ist in dem von ihm abgebauten Block enthalten. Darüber hinaus erhalten Bergleute auch Transaktionsgebühren von den in dem Block enthaltenen Transaktionen.
-reviewed: false

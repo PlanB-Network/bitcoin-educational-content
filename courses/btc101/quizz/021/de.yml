@@ -1,0 +1,11 @@
+question: Was ist einer der Nachteile von Gold als Geldform?
+answer: Es ist nicht leicht teilbar.
+wrong_answers:
+  - Es behält seinen Wert nicht überall bei.
+  - Es erodiert über die Zeit.
+  - Es ist leicht herzustellen.
+explanation: |
+  Einer der Hauptnachteile von Gold als Geldform ist,
+  dass es schwierig ist, es bei Bedarf in kleine Einheiten zu teilen,
+  was es weniger praktisch in der Verwendung macht.
+reviewed: true

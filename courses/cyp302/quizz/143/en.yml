@@ -1,0 +1,9 @@
+question: What is the estimated time to factorize a 2048-bit integer using all current computing resources?
+answer: Well beyond the age of the universe
+wrong_answers:
+  - A few months with classical computers
+  - A few minutes with supercomputers
+  - A few decades for a Bitcoin mining farm
+explanation: |
+  The complexity of factoring 2048-bit numbers is such that it would be virtually impossible to solve, even using all existing computing resources over a period exceeding the age of the universe.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä mahdollistaa reaaliaikaisen tietojen synkronoinnin Enterprise Bitcoin -järjestelmien ja ERP-ohjelmistojen välillä?
+answer: API:t
+wrong_answers:
+  - CSV-tiedostot
+  - Erälataukset
+  - Sähköpostiraportit
+explanation: |
+  API:t mahdollistavat jatkuvan, reaaliaikaisen integroinnin.
+reviewed: false

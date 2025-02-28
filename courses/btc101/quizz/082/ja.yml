@@ -1,0 +1,9 @@
+question: Bitcoinウォレットを使用して資金を安全に使用するために使われる技術は何ですか？
+answer: 楕円曲線暗号。
+wrong_answers:
+  - 対称暗号。
+  - 量子暗号。
+  - RSA暗号。
+explanation: |
+  Bitcoinを使用するには、所有者が楕円曲線デジタル署名アルゴリズム(ECDSA)を使用して署名を生成し、Bitcoinトランザクションの伝播のためにこれを用います。
+reviewed: true

@@ -1,0 +1,11 @@
+question: ¿Cuál es el propósito de los grupos de minería?
+answer: Los grupos de minería permiten a los mineros agrupar sus recursos computacionales y recibir recompensas más pequeñas pero más regulares.
+wrong_answers:
+  - Los grupos de minería se utilizan para aumentar el HashRate de la red Bitcoin en general.
+  - Los grupos de minería se utilizan para disminuir la dificultad de la minería.
+  - Los grupos de minería se utilizan para aumentar la recompensa por minar.
+explanation: >-
+  Los grupos de minería son grupos de mineros que combinan su poder computacional
+  para aumentar sus posibilidades de minar un bloque. Al agrupar sus recursos, pueden
+  minar bloques más frecuentemente y recibir recompensas más pequeñas pero más regulares.
+reviewed: true

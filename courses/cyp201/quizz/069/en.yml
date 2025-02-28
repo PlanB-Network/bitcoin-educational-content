@@ -1,0 +1,9 @@
+question: What is the main role of the chain code in the derivation of child keys?
+answer: Introduce an additional source of entropy
+wrong_answers:
+  - Identify the hierarchical depth
+  - Store the indexes of the child keys
+  - Ensure compatibility with the Bitcoin protocol
+explanation: |
+  The chain code is used to introduce an additional and unique source of entropy for each derived key.
+reviewed: false

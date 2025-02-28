@@ -1,0 +1,9 @@
+question: Quel préfixe est utilisé pour indiquer une clé publique compressée avec une coordonnée y impaire ?
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  Le préfixe 0x03 indique une clé publique compressée dont la coordonnée y est impaire.
+reviewed: false

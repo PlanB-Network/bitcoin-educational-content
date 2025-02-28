@@ -1,0 +1,12 @@
+title: "用 Rust 构建比特币"
+publication_year: 2024
+cover: cover_en.webp
+original: true
+description: |
+  Lukáš Hozda 的 "用 Rust 构建比特币 "是一本通俗易懂的指南，适用于以下人群
+  对 Rust 编程语言和比特币技术都感兴趣。
+  本书专为 IT 学生和专业人士设计，带领读者了解
+  在理解比特币核心概念的过程中，同时教授
+  他们用 Rust 来构建项目。
+contributors:
+  - It’s perfect for anyone who is curious about Rust, a programming language praised for its safety and performance, or bitcoin, the world’s first decentralized cryptocurrency. Through hands-on development of a bitcoin miner, wallet, and node, this book helps readers sharpen their Rust skills and explore bitcoin’s infrastructure, making it an ideal starting point for building on bitcoin.another-satoshi

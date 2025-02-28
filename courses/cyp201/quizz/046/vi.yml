@@ -1,0 +1,9 @@
+question: Checksum cho một entropy 128 bit có bao nhiêu bit?
+answer: 4 bit
+wrong_answers:
+  - 8 bit
+  - 16 bit
+  - 6 bit
+explanation: |
+  Độ dài của checksum được tính toán bằng công thức CS = ENT / 32, tương đương với 4 bit cho một entropy 128 bit.
+reviewed: false

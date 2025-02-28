@@ -1,0 +1,13 @@
+question: Việc hợp nhất bao gồm những gì?
+
+answer: Gộp nhiều đầu vào để tạo ra một đầu vào lớn hơn.
+
+wrong_answers:
+  - Chia một đầu vào lớn thành nhiều đầu vào nhỏ hơn.
+  - Chuyển đầu vào từ nhiều ví sang một ví duy nhất.
+  - Chuyển giao các đầu vào không sử dụng sang các địa chỉ mới.
+
+explanation: |
+  Nguyên tắc của việc hợp nhất là tận dụng các khoảng thời gian khi phí trên Bitcoin thấp để gộp các UTXO nhỏ hơn vào một UTXO lớn hơn.
+
+reviewed: false

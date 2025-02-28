@@ -1,0 +1,9 @@
+question: What is the pattern of a simplified payment on Bitcoin?
+answer: 1 or more UTXOs in inputs and 2 UTXOs in outputs.
+wrong_answers:
+  - 1 UTXO in input and 1 UTXO in output
+  - Several UTXOs in input and 1 UTXO in output
+  - 5 UTXOs in inputs and 5 UTXOs in outputs
+explanation: |
+  In a simplified payment, the user consumes one or more UTXOs as inputs to fulfill in outputs a payment UTXO and a change UTXO (thus 2 UTXOs).
+reviewed: false

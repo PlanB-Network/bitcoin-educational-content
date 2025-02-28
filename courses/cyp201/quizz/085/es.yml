@@ -1,0 +1,8 @@
+question: ¿Qué operación es necesaria para calcular una clave pública Taproot Q?
+answer: Sumar el ajuste tG a la clave pública P
+wrong_answers:
+  - Multiplicar la clave privada p por el ajuste
+  - Hashear la clave pública P con SHA256
+  - Concatenar el ajuste t y la clave pública P
+explanation: |
+  La clave pública Taproot Q se obtiene sumando el producto escalar del ajuste t por el generador G a la clave pública P.

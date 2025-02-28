@@ -1,0 +1,9 @@
+question: Mikä on pääasiallinen ero Bitcoinin ja muiden kryptovaluuttojen välillä hajautuksen suhteen?
+answer: Bitcoin on hajautettu, kun taas useimmat muut kryptovaluutat eivät ole
+wrong_answers:
+  - Sekä Bitcoin että muut kryptovaluutat ovat hajautettuja
+  - Sekä Bitcoin että muut kryptovaluutat eivät ole hajautettuja
+  - Muut kryptovaluutat ovat hajautettuja, kun taas Bitcoin ei ole
+explanation: |
+  Luvun sisältö selvästi toteaa, että Bitcoin on hajautettu, kun taas useimmat muut kryptovaluutat eivät ole. Tämä on keskeinen ominaisuus, joka erottaa Bitcoinin muista kryptovaluutoista.
+reviewed: false

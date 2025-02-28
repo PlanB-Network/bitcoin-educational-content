@@ -1,0 +1,5 @@
+---
+term: NATURLIG FORK
+
+---
+En midlertidig separasjon av blokkjeden som følge av nesten samtidig kringkasting av flere blokker av forskjellige utvinnere i samme høyde. Denne situasjonen oppstår når to blokker, betegnet som $A$ og $B$, blir funnet nesten samtidig, noe som fører til en midlertidig oppdeling av nettverket. Siden hver node anser den første blokken den mottok som gyldig, men ikke alle mottok den samme blokken først, følger en del av nodene kjeden som inneholder blokk $A$, mens den andre delen følger den med blokk $B$. Denne gaffelen løses når en av de to konkurrerende kjedene overgår den andre når det gjelder akkumulert arbeid. På det tidspunktet blir alle nodene i nettverket automatisk enige om den lengste kjeden (med mest akkumulert arbeid), en prosess som kalles reorganisering eller resynkronisering. Disse naturlige gaflene er iboende i den distribuerte driften av Bitcoin. De er helt normale og løser seg spontant etter noen få blokker (vanligvis bare én). Hvis de forekommer for ofte, kan de likevel være skadelige, ettersom de fører til sløsing med regnekraft på en gren som etter hvert vil bli foreldet.

@@ -1,0 +1,9 @@
+question: Jak se jmenuje vzor, který se skládá z jednoho UTXO na vstupu a jednoho UTXO na výstupu?
+answer: Sweeping
+wrong_answers:
+  - Konsolidace
+  - Coinjoin
+  - Hromadné utrácení
+explanation: |
+  Interpretací této struktury je, že jsme svědky operace typu sweep, což znamená samopřevod bitcoinů.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mitkä ovat älykkään sopimuksen tilan kaksi pääkomponenttia RGB:ssä?
+answer: Globaali valtio ja omistusvaltiot
+wrong_answers:
+  - Sitoutuminen ja syntyperä
+  - Sinetin määritelmä ja tilan siirtyminen
+  - Valenssi ja sopimusoikeudet
+explanation: |
+  Globaali tila sisältää julkisia tietoja, kun taas omistetut tilat liittyvät tiettyihin haltijoihin UTXO:iden kautta.
+reviewed: false

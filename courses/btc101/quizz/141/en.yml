@@ -1,0 +1,11 @@
+question: What is the cost of running a Bitcoin node on a Raspberry Pi 4 in terms of electricity consumption per year (as of 2023)?
+answer: A little less than 10€ per year.
+wrong_answers:
+  - A little more than 50€ per year.
+  - A little less than 100€ per year.
+  - About 200€ per year.
+explanation: |
+  Running a Bitcoin node on a Raspberry Pi 4 costs a little
+  less than 10€ per year in terms of electricity consumption
+  as of 2023.
+reviewed: true

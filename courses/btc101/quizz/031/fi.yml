@@ -1,0 +1,13 @@
+question: Mikä seuraavista ei ole Bitcoinin etu valuuttana?
+answer: Sitä käytetään verojen maksamiseen.
+wrong_answers:
+  - Se on jaettavissa.
+  - Se on siirrettävissä.
+  - Siihen ei tarvita lupaa.
+explanation: |
+  Bitcoinin ominaisuudet, kuten sen jaettavuus,
+  todennettavuus, luvan puuttuminen ja siirrettävyys,
+  tarjoavat erinomaisen arvon säilyttäjän. Lisäksi neutraalina
+  internet-valuuttana se edustaa hyvää vaihdon välinettä,
+  joka ei tunne rajoja.
+reviewed: true

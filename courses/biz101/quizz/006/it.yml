@@ -1,0 +1,9 @@
+question: Perché il tetto di 21 milioni di emissioni di Bitcoin è significativo?
+answer: Crea un asset deflazionistico, proteggendo il suo valore da un'inflazione arbitraria.
+wrong_answers:
+  - Assicura che i governi possano stampare tutti i bitcoin necessari.
+  - Impedisce a chiunque di inviare transazioni dopo il raggiungimento del limite massimo.
+  - Elimina tutta la volatilità del prezzo del Bitcoin.
+explanation: |
+  Avendo un'offerta massima di 21 milioni, la scarsità di Bitcoin è codificata, il che la rende fondamentalmente diversa dalle valute inflazionistiche in cui l'offerta può essere aumentata a piacimento.
+reviewed: false

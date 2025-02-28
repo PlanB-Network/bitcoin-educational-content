@@ -1,0 +1,9 @@
+question: Hvorfor er det viktig å spore fiat-verdien i øyeblikket for hver Bitcoin-transaksjon?
+answer: For å sikre nøyaktig bokføring og overholdelse av skatteregler
+wrong_answers:
+  - Slik øker du automatisk saldoen i lommeboken
+  - For å muliggjøre markedshandel i sanntid direkte fra lommeboken
+  - For å redusere transaksjonsgebyrene som pålegges av nettverket
+explanation: |
+  Sporing av fiat-verdien hjelper bedrifter med å håndtere bokføring med svingende Bitcoin-priser.
+reviewed: false

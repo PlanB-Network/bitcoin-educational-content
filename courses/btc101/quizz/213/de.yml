@@ -1,0 +1,9 @@
+question: Was ist das Hauptziel der Bitcoin-Revolution laut diesem Kurs?
+answer: Eine Welt zu schaffen, in der menschliche Souveränität ein Recht ist, Privatsphäre standardmäßig respektiert wird und Geld nicht manipuliert wird.
+wrong_answers:
+  - Eine Welt zu schaffen, in der Privatsphäre kein Menschenrecht ist und Geld von den Banken manipuliert wird.
+  - Eine Welt zu schaffen, in der Regierungen keine Macht haben und die Gesellschaft chaotisch ist.
+  - Eine Welt zu schaffen, in der Bargeld überflüssig ist.
+explanation: |
+  Dieser Kurstext legt nahe, dass das Hauptziel der Bitcoin-Revolution darin besteht, eine Welt zu schaffen, in der menschliche Souveränität ein Recht ist, Privatsphäre standardmäßig respektiert wird und Geld nicht manipuliert wird.
+reviewed: true

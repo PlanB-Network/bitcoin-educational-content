@@ -1,9 +1,0 @@
-question: ¿Cuál fue la primera forma de moneda a menudo relacionada con?
-answer: Bienes esenciales como granos, ganado y otras mercancías
-wrong_answers:
-  - Oro y plata
-  - Billetes de papel
-  - Activos digitales
-explanation: |
-  La primera forma de moneda a menudo estaba relacionada con bienes esenciales como granos, ganado y otras mercancías. Sin embargo, estos bienes tenían grandes inconvenientes, como la perecibilidad, lo que dificultaba su uso como medio de ahorro a largo plazo.
-reviewed: false

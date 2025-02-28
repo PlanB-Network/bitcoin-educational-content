@@ -1,0 +1,9 @@
+question: Hvorfor anbefales det å ha en CSV-eksport av alle Bitcoin-transaksjoner?
+answer: Det gir en oversiktlig og strukturert oversikt over alle transaksjoner, noe som gjør det enklere for regnskapsførere å integrere disse i finansielle rapporter og skatteinnberetninger.
+wrong_answers:
+  - Fordi papirkvitteringer er de eneste juridisk akseptable regnskapsdokumentene.
+  - Fordi eksport av data automatisk fullfører selvangivelsen uten gjennomgang.
+  - Fordi CSV-filer eliminerer behovet for å spore kostnadsgrunnlaget.
+explanation: |
+  Å ha en digital oversikt i et felles format muliggjør sømløs integrering i regnskapssystemer, bidrar til å opprettholde revisjonsspor og støtter nøyaktig skatte- og compliancerapportering.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mitkä ovat ketjuanalyysin heuristiikat, jotka Satoshi Nakamoto mainitsee Bitcoinin valkoisessa kirjassa? (vain yksi vastaus mahdollinen)
+answer: CIOH ja osoitteen uudelleenkäyttö.
+wrong_answers:
+  - Ryhmittely allekirjoituksen ja aikakorrelaation perusteella.
+  - Pyöristettyjen summan maksut ja suuri tulos.
+  - Volyymianalyysi ja skriptien yhtäläisyydet.
+explanation: |
+  Bitcoinin valkoisen kirjan osassa 10 Satoshi Nakamoto varoittaa käyttäjiä CIOH: sta (Common Input Ownership Heuristic) ja saman avainparin uudelleenkäytöstä.
+reviewed: false

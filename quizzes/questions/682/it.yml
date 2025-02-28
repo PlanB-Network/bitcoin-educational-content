@@ -1,9 +1,0 @@
-question: Cosa succede in una chiusura cooperativa?
-answer: I due partecipanti comunicano e concordano di chiudere il canale, convalidano uno stato finale del canale e creano una transazione di chiusura.
-wrong_answers:
-  - Un partecipante forza la chiusura del canale.
-  - Un partecipante cerca di imbrogliare pubblicando una vecchia transazione di impegno.
-  - I due partecipanti litigano per i SAT rimanenti nel canale.
-explanation: |
-  In una chiusura cooperativa, i due partecipanti comunicano e concordano di chiudere il canale. Interrompono tutte le transazioni e convalidano uno stato finale del canale. Successivamente, creano la transazione di chiusura.
-reviewed: false

@@ -1,0 +1,8 @@
+question: Đầu ra của hàm HMAC-SHA512 khi áp dụng vào seed được chia thành bao nhiêu phần?
+answer: Hai phần, mỗi phần 256 bit
+wrong_answers:
+  - Một phần duy nhất 512 bit
+  - Ba phần, mỗi phần 170 bit
+  - Bốn phần, mỗi phần 128 bit
+explanation: |
+  Đầu ra của HMAC-SHA512 được chia thành hai phần: khóa riêng tư chính (256 bit) và mã chuỗi chính (256 bit).

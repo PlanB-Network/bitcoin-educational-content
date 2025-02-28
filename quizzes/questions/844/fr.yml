@@ -1,9 +1,0 @@
-question: Quel est l'un des aspects de la cybersécurité qui nécessite une surveillance régulière ?
-answer: L'évolution constante des menaces
-wrong_answers:
-  - Le marché boursier
-  - La météo
-  - Les actualités
-explanation: |
-  Le chapitre mentionne que l'évolution constante des menaces en cybersécurité nécessite une surveillance régulière.
-reviewed: false

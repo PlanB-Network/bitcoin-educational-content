@@ -1,0 +1,9 @@
+question: ¿Cuál es el término para la información que vincula un conjunto de actividades en cadena con una forma de identidad real?
+answer: Un punto de entrada.
+wrong_answers:
+  - Una clave de enlace.
+  - Un enlace de huella digital.
+  - Un marcador de análisis.
+explanation: |
+  Los comportamientos e información que pueden vincular una identidad real con actividad en cadena se llaman puntos de entrada.
+reviewed: false

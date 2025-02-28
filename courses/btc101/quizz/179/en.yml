@@ -1,0 +1,10 @@
+question: What is one of the reasons why Bitcoin experiences so many speculative bubbles?
+answer: Because of its limited supply combined with high demand.
+wrong_answers:
+  - Because Bitcoin is not actually used anywhere.
+  - Because Bitcoin is a bubble that will disappear.
+  - Because Bitcoin is not subject to economic cycles.
+explanation: >-
+  Bitcoin experiences many speculative bubbles because it is a currency
+  that is actually used everywhere in the world.
+reviewed: true

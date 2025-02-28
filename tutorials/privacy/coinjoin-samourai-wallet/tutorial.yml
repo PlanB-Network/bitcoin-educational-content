@@ -1,13 +1,97 @@
-builder: Coinjoin - Samourai Wallet
+id: e566803d-ab3f-4d98-9136-5462009262ef
+builder: Samourai
 
-tags:
-  - privacy
-  - coinjoin
-  - mix
-
-category: bitcoin
+category: on-chain
 
 level: intermediate
 
 credits:
   professor: pretty-private
+
+# Proofreading metadata
+project_id: f8ab03d0-0308-4ac1-a223-9c8e7600ff63
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16.28
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8.19
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8.19
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 12.24
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16.28
+  - language: fr
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 4.1
+  - language: it
+    last_contribution_date: 2024-09-09
+    urgency: 1
+    contributors_id:
+      - Tinf0ilHat1
+    reward: 6.12
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 24.37
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8.19
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16.28
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 24.37
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16.28
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 20.33
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 20.33
+
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 16.28
+tags:
+  - wallets
+  - privacy
+  - guides

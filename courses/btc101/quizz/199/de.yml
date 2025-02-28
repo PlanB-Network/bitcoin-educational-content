@@ -1,0 +1,13 @@
+question: Was ist Dollar Cost Averaging?
+answer: Regelmäßiger Kauf kleiner Bitcoin-Beträge in festen Intervallen.
+wrong_answers:
+  - Auf einmal eine große Menge Bitcoin kaufen.
+  - Bitcoin nur kaufen, wenn der Preis fällt.
+  - Bitcoin nur kaufen, wenn der Preis steigt.
+explanation: |
+  Der Kursinhalt erklärt, dass die Dollar-Cost-Averaging-Technik
+  den Kauf kleiner Bitcoin-Beträge in regelmäßigen Abständen
+  umfasst. Diese Methode gleicht die Preisschwankungen über die Zeit
+  aus und gewährleistet ein kontinuierliches Wachstum der
+  Menge an besessenen Bitcoins.
+reviewed: true

@@ -1,0 +1,7 @@
+---
+term: INITIAL BLOCK DOWNLOAD (IBD)
+
+---
+Refererer til prosessen der en node laster ned og verifiserer blokkjeden fra Genesis-blokken, og synkroniserer med andre noder i Bitcoin-nettverket. IBD må utføres når en ny, full node startes. Ved begynnelsen av denne første synkroniseringen har noden ingen informasjon om tidligere transaksjoner. Den laster derfor ned hver blokk fra andre noder i nettverket, verifiserer dens gyldighet og legger den deretter til i sin lokale versjon av blokkjeden. Det er verdt å merke seg at IBD kan ta lang tid og være ressurskrevende på grunn av den voksende størrelsen på blokkjeden og UTXO-settet. Hastigheten på utførelsen avhenger av databehandlingskapasiteten til datamaskinen som er vert for noden, RAM-kapasiteten, hastigheten på lagringsenheten og båndbredden. For å gi deg en idé: Hvis du har en kraftig internettforbindelse og noden er lagret på den nyeste MacBook-maskinen med rikelig med RAM, vil IBD-en bare ta noen timer. Hvis du derimot bruker en mikrodatamaskin som en Raspberry Pi, kan IBD-en ta en uke eller mer.
+
+> på fransk er det vanlig å referere direkte til en IBD. Oversettelsen som noen ganger brukes er "synchronisation initiale", eller "téléchargement initial des blocs"

@@ -1,0 +1,4 @@
+description: |
+  Satoshiの目は、BOLT13に準拠したLightningウォッチタワーで、Rustで書かれています。
+contributors:
+  - rabbit-hole

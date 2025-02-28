@@ -1,0 +1,9 @@
+question: Ảnh hưởng của vấn đề phân phối và quản lý khóa trước những năm 1970 là gì?
+answer: Chúng hạn chế sự an toàn và hiệu quả của giao tiếp quy mô lớn
+wrong_answers:
+  - Chúng ngăn chặn việc truyền tải các tin nhắn được mã hóa trên các mạng công cộng
+  - Chúng yêu cầu khóa công khai cho mỗi tin nhắn
+  - Chúng yêu cầu sử dụng mật mã hóa hình học
+explanation: |
+  Trước những năm 1970, các vấn đề về phân phối và quản lý khóa đã làm cho việc bảo mật giao tiếp trên quy mô lớn trở nên khó khăn, do đó cản trở sự phát triển của các ứng dụng hiện đại như mua sắm trực tuyến.
+reviewed: false

@@ -1,0 +1,9 @@
+question: どのサービスがチャネルの反対側に流動性を移動させ、オンチェーンで資金を回収することを可能にしますか？
+answer: Loop Out
+wrong_answers:
+  - Keysend
+  - LNURL
+  - CoinSwap
+explanation: |
+  Lightning LabsのLoop Outサービスは、Lightningチャネルからオンチェーンブロックチェーンへの資金の転送を可能にし、メインチェーン上でビットコインを回収しながら受信容量を最適化します。
+  レビュー済み: false

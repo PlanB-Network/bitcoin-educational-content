@@ -1,0 +1,11 @@
+question: Qual análise heurística da cadeia é utilizada pela transação payjoin para atuar como uma decepção para análise?
+
+answer: O CIOH
+
+wrong_answers:
+  - Reutilização de endereço
+  - Identificação de carteira
+  - Reutilização de versão
+
+explanation: |
+  Quando um analista examina uma transação payjoin, é levado a acreditar que todos os inputs vêm da mesma pessoa por causa do CIOH. No entanto, essa percepção é incorreta, pois o destinatário do pagamento também contribui para os inputs ao lado do pagador real. Portanto, a análise da cadeia é desviada para uma interpretação que acaba sendo falsa.

@@ -1,0 +1,13 @@
+question: ¿Cómo se almacenan las etiquetas asociadas con una cartera de Bitcoin?
+
+answer: Localmente en el software de la cartera.
+
+wrong_answers:
+  - En una base de datos centralizada controlada por el desarrollador.
+  - En la blockchain de Bitcoin a través de un OP_RETURN.
+  - Solo en RAM durante la ejecución del software.
+
+explanation: |
+  Las etiquetas son almacenadas localmente por el software de la cartera y nunca se transmiten a través de la red de Bitcoin. Por lo tanto, el etiquetado es una herramienta de gestión personal.
+
+reviewed: false

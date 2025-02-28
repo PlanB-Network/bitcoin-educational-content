@@ -1,9 +1,0 @@
-question: Qual é o processo pelo qual os mineradores validam transações e as incluem em um bloco?
-answer: Prova de trabalho
-wrong_answers:
-  - Prova de participação
-  - Prova de autoridade
-  - Prova de queima
-explanation: |
-  Os mineradores validam transações e as incluem em um bloco por meio de um processo chamado "prova de trabalho". Isso envolve resolver um quebra-cabeça criptográfico.
-reviewed: false

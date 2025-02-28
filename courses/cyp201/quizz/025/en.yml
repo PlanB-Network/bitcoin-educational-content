@@ -1,0 +1,9 @@
+question: What property of Schnorr allows combining multiple public keys into one?
+answer: Key Aggregation
+wrong_answers:
+  - Batch Verification
+  - Malleability
+  - Signature Compaction
+explanation: |
+  Schnorr allows for the aggregation of multiple public keys into a single key.
+reviewed: false

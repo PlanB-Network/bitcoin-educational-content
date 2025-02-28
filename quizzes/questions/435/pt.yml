@@ -1,9 +1,0 @@
-question: Qual é o principal objetivo das assinaturas digitais no protocolo Bitcoin?
-answer: Para demonstrar a posse de uma chave privada associada a uma chave pública específica.
-wrong_answers:
-  - Para criptografar os dados da transação
-  - Para gerar novos bitcoins
-  - Para verificar a identidade do remetente
-explanation: |
-  No cerne do protocolo Bitcoin, as assinaturas digitais são usadas como provas matemáticas que demonstram a posse de uma chave privada associada a uma chave pública específica.
-reviewed: false

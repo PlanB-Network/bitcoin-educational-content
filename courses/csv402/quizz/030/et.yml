@@ -1,0 +1,9 @@
+question: Millised komponendid sisalduvad RGB-saadetises, mille Bob (vastuvõtja) saab lepingu alusel?
+answer: Genesis, skeem, kasutajaliides ja kasutajaliidese rakendamine
+wrong_answers:
+  - Genesis, skeem, üleminek ja laiendamine
+  - Skeem, liides, allkiri ja PSBT
+  - Genesis, liides, PSBT ja ajalugu
+explanation: |
+  RGB-lepingu saadetis sisaldab Genesis, Schema, Interface ja Interface Implementation, mis sisaldavad kõiki lepingu valideerimiseks vajalikke andmeid.
+reviewed: false

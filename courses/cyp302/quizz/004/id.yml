@@ -1,0 +1,9 @@
+question: Apa alasan utama mengapa sandi-sandi Beale lainnya tetap tidak terpecahkan?
+answer: Kunci dari sandi-sandi tersebut masih belum diketahui
+wrong_answers:
+  - Teks yang dienkripsi terlalu tua
+  - Kotak tersebut hilang sebelum bisa dipecahkan
+  - Peneliti kekurangan dokumen sejarah yang dapat diandalkan
+explanation: |
+  Sandi-sandi Beale lainnya tidak pernah dapat dipecahkan karena kunci yang diperlukan untuk membacanya masih belum diketahui, meskipun telah banyak upaya yang dilakukan.
+  diulas: false

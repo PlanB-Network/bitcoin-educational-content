@@ -1,9 +1,0 @@
-question: Qual é o objetivo das taxas de transação nas transações de Bitcoin?
-answer: Elas são um incentivo para os mineradores incluírem a transação no próximo bloco.
-wrong_answers:
-  - Elas são um imposto imposto pelo governo.
-  - Elas são uma taxa cobrada pela rede Bitcoin pelo uso de seus serviços.
-  - Elas são uma taxa cobrada pelo provedor de carteira.
-explanation: |
-  As taxas de transação nas transações de Bitcoin servem como um incentivo para os mineradores incluírem a transação no próximo bloco. As taxas criam um mercado livre para a inclusão de transações em blocos.
-reviewed: false

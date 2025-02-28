@@ -1,0 +1,9 @@
+question: Quelles sont les trois méthodes de fermeture d'un canal sur le Lightning Network ?
+answer: Fermeture coopérative, fermeture forcée, fermeture avec tricherie
+wrong_answers:
+  - Fermeture rapide, fermeture lente, fermeture avec double signature
+  - Fermeture sécurisée, fermeture automatisée, fermeture avec perte de fonds
+  - Fermeture directe, fermeture indirecte, fermeture avec réclamation
+explanation: |
+  Il existe trois méthodes: la fermeture coopérative où les parties s'accordent, la fermeture forcée sans réponse d'une partie, et la fermeture avec tricherie où une partie tente de publier une ancienne transaction.
+reviewed: false

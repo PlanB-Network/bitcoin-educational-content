@@ -1,0 +1,9 @@
+question: What are the two main components of a smart contract state in RGB?
+answer: Global State and Owned States
+wrong_answers:
+  - Commitment and Genesis
+  - Seal Definition and State Transition
+  - Valency and Contract Rights
+explanation: |
+  The Global State contains public data, while Owned States are associated with specific holders via UTXOs.
+reviewed: false

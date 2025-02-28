@@ -1,0 +1,9 @@
+question: Bitcoinの文脈でDCAとは何を意味しますか？
+answer: ドルコスト平均法
+wrong_answers:
+  - デジタル通貨協会
+  - 直接現金アクセス
+  - 分散型暗号資産
+explanation: |
+  Bitcoinの文脈でDCAはドルコスト平均法を意味します。これは、投資家が全体の投資額を定期的な購入に分割して、全体の購入におけるボラティリティの影響を減らす戦略です。
+reviewed: false

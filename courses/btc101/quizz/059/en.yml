@@ -1,0 +1,9 @@
+question: Which of the following is not a Bitcoin characteristic?
+answer: It gets easily censored.
+wrong_answers:
+  - It is instantly transportable.
+  - It has negligible costs of verification.
+  - It has a fixed monetary policy.
+explanation: |
+  Bitcoin has all the necessary characteristics to be an efficient and healthy currency: divisible, instantly transportable, uncensorable, negligible cost for verification, and with a monetary policy already set for centuries to come with 21 million units.
+reviewed: true

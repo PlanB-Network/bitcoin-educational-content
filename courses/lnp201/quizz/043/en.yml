@@ -1,0 +1,9 @@
+question: What information can Bob include in an invoice to facilitate routing?
+answer: Nearby channels with sufficient liquidity or the existence of private channels
+wrong_answers:
+  - The private key of intermediate nodes
+  - The complete map of all the network's channels
+  - The exact amount of available liquidity for each channel
+explanation: |
+  By indicating nearby channels with liquidity or revealing private channels, Bob helps Alice to choose routes with a better probability of success.
+reviewed: false

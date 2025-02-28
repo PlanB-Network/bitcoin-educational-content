@@ -1,0 +1,11 @@
+question: Mikä skriptimalli on suositeltavin vuonna 2024 parannetun yksityisyyden saavuttamiseksi Bitcoinissa?
+
+answer: P2TR
+
+wrong_answers:
+  - P2PK
+  - P2PKH
+  - P2SH
+
+explanation: |
+  Suurimman mahdollisen joukon sekaan sulautumiseksi on suositeltavaa käyttää laajimmin käytössä olevaa skriptimallia. P2TR-skriptit ovat tällä hetkellä eniten käytettyjä Bitcoin-siirroissa.

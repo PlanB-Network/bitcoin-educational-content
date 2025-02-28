@@ -1,0 +1,8 @@
+question: 对于一个Hodler来说，推荐的初始钱包是什么？
+answer: 像Bitbox02、Trezor或Ledger这样的冷钱包。
+wrong_answers:
+  - 一个热钱包移动应用程序。
+  - 一个实体钱包。
+  - 一张纸钱包。
+explanation:
+  对于一个Hodler来说，建议从像Bitbox02、Trezor或Ledger这样的冷钱包开始。这些设备为比特币的长期安全提供了保障。

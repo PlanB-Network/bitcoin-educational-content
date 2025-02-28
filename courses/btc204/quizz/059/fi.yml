@@ -1,0 +1,13 @@
+question: Missä määrin Bitcoinin osoitteiden uudelleenkäyttö on yleistä?
+
+answer: Noin 50%
+
+wrong_answers:
+  - Noin 5%
+  - Noin 15%
+  - Noin 40%
+
+explanation: |
+  2010-luvun alusta lähtien Bitcoinin osoitteiden uudelleenkäytön yleisyys on vaihdellut noin 50%; n tuntumassa.
+
+reviewed: false

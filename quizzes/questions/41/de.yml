@@ -1,9 +1,0 @@
-question: Welche Strategie verwenden Zentralinstanzen, um eine Fiat-Währung abzuwerten?
-answer: Sie erhöhen die anfängliche Geldmenge jedes Jahr um einige Prozent.
-wrong_answers:
-  - Sie verringern die anfängliche Geldmenge jedes Jahr um einige Prozent.
-  - Sie halten die Geldmenge konstant im Vergleich zur anfänglichen Menge.
-  - Sie lassen die Geldmenge im Vergleich zur anfänglichen Menge zufällig schwanken.
-explanation: |
-  Zentralinstanzen werten oft eine neue Währung ab, indem sie die Geldmenge im Vergleich zur anfänglichen Menge jedes Jahr um einige Prozent erhöhen. Diese stille Abwertung wird oft damit gerechtfertigt, im Interesse des Volkes zu sein.
-reviewed: false

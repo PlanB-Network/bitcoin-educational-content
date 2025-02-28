@@ -1,9 +1,0 @@
-question: Was ist der Hauptvorteil von Fiat-Währungen?
-answer: Sie sind leicht teilbar.
-wrong_answers:
-  - Sie werden von einer zentralen Partei kontrolliert.
-  - Sie sind nicht leicht transportierbar.
-  - Sie sind effektiv, um den Wert über die Zeit zu halten.
-explanation: |
-  Fiat-Währungen wie der Dollar und der Euro sind sehr liquide und leicht transportierbar, da sie heute größtenteils digital sind. Allerdings wird ihr Wert ständig durch monetäre Inflation erodiert.
-reviewed: false

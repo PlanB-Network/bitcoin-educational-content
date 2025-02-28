@@ -1,0 +1,9 @@
+question: Trong các câu trả lời sau, đâu không phải là một trong ba loại chính về phương pháp và đặc điểm được sử dụng trong phân tích chuỗi?
+answer: Mô hình mật mã.
+wrong_answers:
+  - Mô hình giao dịch.
+  - Heuristics giao dịch nội bộ.
+  - Heuristics giao dịch bên ngoài.
+explanation: |
+  Các heuristics được sử dụng trong phân tích chuỗi có thể được nhóm vào ba loại; mô hình giao dịch (hoặc mô hình giao dịch), heuristics giao dịch nội bộ, và heuristics giao dịch bên ngoài.
+reviewed: false

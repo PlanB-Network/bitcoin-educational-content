@@ -1,0 +1,9 @@
+---
+term: TIMESTAMP
+
+---
+O registo de data e hora, ou "timestamp" em inglês, é um mecanismo que envolve a associação de um marcador temporal preciso a um evento, dado ou mensagem. No contexto geral dos sistemas informáticos, a marcação temporal é utilizada para determinar a ordem cronológica das operações e para verificar a integridade dos dados ao longo do tempo.
+
+No caso específico da Bitcoin, os carimbos temporais são utilizados para estabelecer a cronologia das transacções e dos blocos. Cada bloco da cadeia de blocos contém um carimbo de data/hora que indica o momento aproximado da sua criação. Satoshi Nakamoto fala mesmo de um "servidor de carimbo de data/hora" no seu Livro Branco, para descrever aquilo a que hoje chamaríamos a "cadeia de blocos" O papel do timestamping na Bitcoin é determinar a cronologia das transacções, de modo a determinar, sem a intervenção de uma autoridade central, qual a transação que veio primeiro. Este mecanismo permite a cada utilizador verificar a inexistência de uma transação no passado e, assim, impedir que um utilizador mal-intencionado efectue um gasto duplo. Este mecanismo é justificado por Satoshi Nakamoto no seu Livro Branco com a famosa frase: "*A única forma de confirmar a ausência de uma transação é estar ciente de todas as transacções*" Este padrão é estabelecido no tempo Unix, que representa o total de segundos passados desde 1 de janeiro de 1970.
+
+> ► *O carimbo de data/hora do bloco na Bitcoin é relativamente flexível, uma vez que, para que um carimbo de data/hora seja considerado válido, basta que seja superior ao tempo médio dos 11 blocos anteriores (MTP) e inferior à mediana dos tempos devolvidos pelos nós (tempo ajustado à rede) mais 2 horas.*

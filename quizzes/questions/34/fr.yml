@@ -1,9 +1,0 @@
-question: Pourquoi Bitcoin est une nouvelle forme de monnaie ?
-answer: Parce que c'est une monnaie numérique sans entité centrale.
-wrong_answers:
-  - Parce que c'est une monnaie numérique adossée à l'or.
-  - Parce que c'est une monnaie qui nécessite une blockchain.
-  - Parce que la Réserve fédérale le dit.
-explanation: |
-  Bitcoin peut être considéré comme une nouvelle forme de monnaie, car il émerge d'un réseau peer-to-peer sans entité centrale.
-reviewed: false

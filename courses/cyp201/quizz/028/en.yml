@@ -1,0 +1,9 @@
+question: What is the size of a compressed public key using the Schnorr protocol?
+answer: 32 bytes
+wrong_answers:
+  - 33 bytes
+  - 64 bytes
+  - 128 bits
+explanation: |
+  A Schnorr public key is represented only by the x-coordinate of the point on the elliptic curve, which reduces its size to 32 bytes.
+reviewed: false

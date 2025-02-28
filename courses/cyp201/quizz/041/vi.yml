@@ -1,0 +1,8 @@
+question: Rủi ro chính khi sử dụng một PRNG thiết kế kém để tạo entropy là gì?
+answer: Khóa riêng có thể bị đoán bởi kẻ tấn công
+wrong_answers:
+  - Cụm từ ghi nhớ có thể chứa từ không chính xác
+  - Chữ ký số sẽ trở nên không hợp lệ
+  - Địa chỉ Bitcoin sẽ không tương thích với mạng
+explanation: |
+  Một PRNG được thiết kế kém có thể tạo ra các chuỗi dễ đoán, làm cho các khóa dễ bị tấn công hơn.

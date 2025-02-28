@@ -1,0 +1,10 @@
+question: Mis on hüperinflatsiooni viimane faas?
+answer: Uue valuuta teke
+wrong_answers:
+  - Usalduse kaotus
+  - Valuuta kokkukukkumine & hinnatõus
+  - Raha trükkimise nõiaring
+explanation: |
+  Hüperinflatsiooni viimane faas on siis, kui tutvustatakse uut valuutat,
+  et asendada vana.
+reviewed: true

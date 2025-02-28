@@ -1,0 +1,8 @@
+question: Mitä tietoa ei sisälly laajennettuun avaimessa?
+answer: Avaimen transaktiohistoria
+wrong_answers:
+  - Avaimen indeksinumero
+  - Avain (yksityinen tai julkinen)
+  - Ketjukoodi
+explanation: |
+  Laajennettu avain sisältää vain tarvittavat tiedot lapsiavainten johdattamiseksi, ei tietoja liittyen transaktioihin.

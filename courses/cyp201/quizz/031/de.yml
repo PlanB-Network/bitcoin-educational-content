@@ -1,0 +1,9 @@
+question: Welcher Modifikator kann mit den grundlegenden Sighash-Flags kombiniert werden?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY modifiziert die Sighash-Flags so, dass nur ein einzelner Input abgedeckt wird, während der Rest modifizierbar bleibt.
+reviewed: false

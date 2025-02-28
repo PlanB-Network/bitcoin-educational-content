@@ -1,0 +1,11 @@
+question: Milline järgnevatest on vajalik edukaks tehinguks vahetussüsteemis?
+answer: Kahekordne soovide kokkulangemine
+wrong_answers:
+  - Ühine arvestusühik
+  - Keskne pangandusasutus
+  - Minimaalne saldo nõue
+explanation: |
+  Vahetussüsteemis toimuvad tehingud otse kahe osapoole vahel, kes vahetavad kaupu või 
+  teenuseid ilma raha kasutamata. Edukaks tehinguks on vajalik kahekordne soovide kokkulangemine, 
+  mis tähendab, et mõlemal poolel peab olema midagi, mida teine soovib vahetada.
+reviewed: true

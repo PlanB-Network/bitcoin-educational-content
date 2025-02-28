@@ -1,0 +1,13 @@
+question: How are addresses used to lock UTXOs?
+
+answer: They are integrated into the ScriptPubKey
+
+wrong_answers:
+  - They are integrated into the ScriptSig
+  - They are integrated into the coinbase.
+  - They are integrated nowhere.
+
+explanation: |
+  When a payment is made, the transaction creates a new UTXO as output from the UTXOs consumed as inputs. On this output, a script is placed defining how this UTXO can be spent later. This script is known as the ScriptPubKey. The receiving address is integrated into this script.
+
+reviewed: false

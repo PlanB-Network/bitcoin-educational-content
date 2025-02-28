@@ -1,0 +1,11 @@
+question: Qual é uma maneira de testar a Lightning Network por conta própria?
+answer: Experimentando o aplicativo de podcast chamado Fountain.
+wrong_answers:
+  - Minerando Bitcoin usando um computador pessoal.
+  - Comprando Bitcoin do banco.
+  - Criando uma nova criptomoeda.
+explanation: >-
+  Uma maneira de testar a Lightning Network por conta própria é experimentando o
+  aplicativo de podcast Fountain, que permite ser recompensado com alguns sats por
+  ouvir seus podcasts favoritos.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Was ist der Zweck der Zeilen verschieben-Operation in AES?
+answer: Die Diffusion zu erhöhen, indem die Bytes im Zustandstabellen neu angeordnet werden
+wrong_answers:
+  - Sicherstellen, dass jeder Block die gleiche Länge hat
+  - Einen geheimen Schlüssel auf jede Zeile der Zustandstabelle anwenden
+  - Zusätzliche Verwirrung durch das Ersetzen von Bytes einführen
+explanation: |
+  Die Zeilen verschieben-Operation in AES ordnet die Bytes in der Zustandstabelle neu an, um die Informationen zu verteilen und dadurch die Diffusion zu erhöhen.
+reviewed: false

@@ -1,9 +1,0 @@
-question: ¿Qué es una clave extendida en una billetera HD?
-answer: Se obtiene mediante la concatenación de una clave principal con su código de cadena.
-wrong_answers:
-  - Es el elemento más alto en la jerarquía de la billetera HD.
-  - Se utiliza para generar la semilla de la billetera.
-  - Se utiliza para calcular el checksum.
-explanation: |
-  La derivación de una clave secundaria depende de varios factores, incluyendo la clave principal y el código de cadena correspondiente. Se obtiene una clave extendida mediante la concatenación de una clave principal con su código de cadena.
-reviewed: false

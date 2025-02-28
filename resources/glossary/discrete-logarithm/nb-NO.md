@@ -1,0 +1,7 @@
+---
+term: DISKRET LOGARITME
+
+---
+Den diskrete logaritmen er et matematisk problem som brukes i noen kryptografiske algoritmer med offentlig nøkkel. I en syklisk gruppe av orden $q$, med en generator $g$, hvis man har en ligning av formen $g^x = h$, så kalles $x$ den diskrete logaritmen til $h$ med hensyn til basen $g$, modulo $q$. Enkelt sagt handler det om å bestemme eksponenten $x$ når $g$, $h$ og $q$ er kjent. Den diskrete logaritmen er dermed den inverse av eksponentialen i en endelig syklisk gruppe. For store verdier av $q$ anses det imidlertid som algoritmisk vanskelig å løse problemet med den diskrete logaritmen. Denne egenskapen utnyttes for å garantere sikkerheten i mange kryptografiske protokoller, for eksempel Diffie-Hellman-protokollen for nøkkelutveksling.
+
+Den diskrete logaritmen brukes også i elliptisk kurvekryptografi (ECC), blant annet i ECDSA (*Elliptic Curve Digital Signature Algorithm*). I forbindelse med elliptiske kurver utvides problemet med diskret logaritme til å finne en skalar $k$ slik at $k \cdot G = K$, der $G$ og $K$ er punkter på kurven, og $\cdot$ representerer punktmultiplikasjonsoperasjonen. I forbindelse med Bitcoin kan skript bruke enten ECDSA eller Schnorr-protokollen til å låse UTXOer. Begge baserer seg på at det ikke er mulig å beregne den diskrete logaritmen.

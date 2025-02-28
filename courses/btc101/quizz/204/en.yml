@@ -1,0 +1,11 @@
+question: What is one of the things you should consider when choosing a DCA platform?
+answer: Availability in your country.
+wrong_answers:
+  - The color of the platform's logo.
+  - The number of users on the platform.
+  - The age of the platform.
+explanation: |
+  This course text mentions that when choosing a DCA
+  platform, the right choice will depend more on its
+  availability in your country.
+reviewed: true

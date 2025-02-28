@@ -1,0 +1,9 @@
+question: UTXO trên Bitcoin là gì?
+answer: Một phần bitcoin chưa được chi tiêu.
+wrong_answers:
+  - Một địa chỉ Bitcoin để nhận tiền.
+  - Một loại ví Bitcoin đặc biệt.
+  - Một thuật toán mã hóa cho Bitcoin.
+explanation: |
+  UTXO là một đầu ra giao dịch chưa được chi tiêu, vì vậy nó cơ bản là “một phần của bitcoin”.
+reviewed: false

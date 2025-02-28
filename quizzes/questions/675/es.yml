@@ -1,9 +1,0 @@
-question: ¿Qué sucede cuando Alice intenta hacer trampa publicando una transacción de compromiso antigua?
-answer: Bob utiliza la clave de revocación para castigar a Alice y tomar todos los SAT del canal.
-wrong_answers:
-  - Alice es recompensada por su astucia.
-  - Alice y Bob dividen los SAT del canal.
-  - La transacción es rechazada y no sucede nada.
-explanation: |
-  La Lightning Network tiene un mecanismo para prevenir el fraude. Si Alice intenta hacer trampa publicando una transacción de compromiso antigua, Bob puede utilizar la clave de revocación para castigar a Alice y tomar todos los SAT del canal.
-reviewed: false

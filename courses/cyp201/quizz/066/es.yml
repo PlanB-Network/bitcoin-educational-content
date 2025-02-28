@@ -1,0 +1,8 @@
+question: ¿Qué parte del resultado de HMAC-SHA512 se utiliza como el código de cadena hijo?
+answer: Los últimos 32 bytes
+wrong_answers:
+  - Los primeros 32 bytes
+  - Los 64 bytes completos
+  - El hash SHA256 de los 32 bytes medios
+explanation: |
+  Los últimos 32 bytes del resultado de HMAC-SHA512 sirven como el código de cadena para la clave hijo.

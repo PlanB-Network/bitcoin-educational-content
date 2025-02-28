@@ -1,0 +1,12 @@
+question: ¿Cómo afecta la inflación el poder adquisitivo de los asalariados a lo largo del tiempo?
+answer: La inflación erosiona el poder adquisitivo ya que los salarios a menudo se quedan atrás del verdadero índice de inflación.
+wrong_answers:
+  - La inflación aumenta el poder adquisitivo ya que los salarios aumentan más rápido que los precios.
+  - La inflación no tiene efecto sobre el poder adquisitivo.
+  - La inflación solo afecta el poder adquisitivo de aquellos que invierten en los mercados financieros.
+explanation: |
+  La inflación conduce a un aumento persistente en los precios al consumidor, erosionando el poder
+  adquisitivo de los asalariados ya que sus salarios típicamente se quedan atrás del verdadero índice de inflación.
+  Esto hace difícil para los asalariados alcanzar sus objetivos de ahorro a largo plazo
+  y mantener su nivel de vida.
+reviewed: true

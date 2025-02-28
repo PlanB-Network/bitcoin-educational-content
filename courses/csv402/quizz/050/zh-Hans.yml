@@ -1,0 +1,9 @@
+question: RGB 中如何使用加密承诺（通过 Taproot 或 OP_RETURN）？
+answer: 它们锚定了区块链中的状态转换
+wrong_answers:
+  - 它们将合同数据存储在区块链上
+  - 它们以链上智能合约执行取代客户端验证
+  - 它们为交易验证创建节点
+explanation: |
+  承诺使状态更新能够安全地与UTXO相连接，从而在不泄露信息本身的情况下，证明某一信息在特定时间的存在。
+reviewed: false

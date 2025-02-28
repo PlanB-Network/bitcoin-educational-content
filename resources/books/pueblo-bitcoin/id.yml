@@ -1,0 +1,14 @@
+title: "Desa Bitcoin"
+publication_year: 2023
+cover: cover_en.webp
+original: true
+description: |
+  Dengan Bitcoin Village, penulis membawa kita dalam perjalanan informatif melalui teknologi ini, menjelajahi asal-usul uang hingga inti protokol komputer. Dia juga memberikan refleksi tentang dampak sosial dan politik, mendefinisikan dasar-dasar yang diletakkan Bitcoin untuk masyarakat yang lebih adil dan lebih sadar.
+contributors:
+  - another-satoshi
+original_language: en
+proofreading:
+  - language: en
+    urgency: 1
+    contributors_id:
+      - davidecoltro

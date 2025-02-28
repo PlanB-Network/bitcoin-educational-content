@@ -1,0 +1,10 @@
+description: |
+  Galoy cung cấp một nền tảng ngân hàng mã nguồn mở được thiết kế để triển khai các ứng dụng Bitcoin và Lightning quy mô doanh nghiệp. Nó tạo điều kiện phát triển nhanh chóng các giải pháp ngân hàng Bitcoin thông qua cơ sở hạ tầng tự lưu trữ hoặc triển khai "Ngân hàng như một Dịch vụ" được quản lý.
+
+  Nền tảng này cho phép các tổ chức triển khai một ngân hàng cộng đồng Bitcoin sử dụng mô hình quản lý chung và một ví Lightning dễ sử dụng. Đây là công nghệ đã giúp Bitcoin Beach xây dựng một nền kinh tế tuần hoàn. Cơ sở hạ tầng đã được chứng minh này cũng có thể được các chính phủ sử dụng để cung cấp dịch vụ tài chính thế kỷ 21 cho bất kỳ ai có điện thoại di động và kết nối internet.
+
+  Dựa trên niềm tin rằng Bitcoin là tiền tệ, Galoy trao quyền cho các tổ chức của mọi quy mô để tạo ra ngân hàng dựa trên Bitcoin của riêng họ. Đây là xương sống của dự án Ví Bitcoin Beach tại El Zonte, El Salvador, đã đóng vai trò quan trọng trong việc phát triển một nền kinh tế Bitcoin bền vững và đã chứng kiến sự tăng trưởng đáng kể kể từ khi đất nước này chấp nhận Bitcoin là tiền tệ hợp pháp.
+
+  Galoy là cầu nối cho các tổ chức muốn tích hợp với mạng Lightning, và là ngọn hải đăng cho những người đóng góp mã nguồn mở nỗ lực xây dựng một hệ thống tài chính tốt hơn.
+contributors:
+  - rabbit-hole

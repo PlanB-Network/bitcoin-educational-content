@@ -1,9 +1,0 @@
-question: ¿Qué indica la ausencia de una frase mnemotécnica en una billetera?
-answer: La billetera no es segura para almacenamiento a largo plazo.
-wrong_answers:
-  - La billetera es segura para almacenamiento a largo plazo.
-  - La billetera no es segura para almacenamiento a corto plazo.
-  - La billetera no es segura para gastar.
-explanation: |
-  La ausencia de una lista de 12 o 24 palabras, es decir, la frase mnemotécnica, en una billetera debería alertarte de que la billetera no es segura, ya que no sigue el procedimiento estándar de respaldo.
-reviewed: false

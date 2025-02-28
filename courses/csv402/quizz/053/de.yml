@@ -1,0 +1,9 @@
+question: Wie ebnet RGB den Weg für DEX Layer 2?
+answer: Durch die Ermöglichung des Austauschs von Vermögenswerten außerhalb der Kette über Lightning-Kanäle und atomare Tauschgeschäfte
+wrong_answers:
+  - Durch die Nutzung einer zentralen Börse für alle RGB-Transaktionen
+  - Durch die Ermöglichung des Austauschs von Vermögenswerten über intelligente On-Chain-Verträge
+  - Durch die Ermöglichung des Austauschs von Vermögenswerten zwischen den Blockchains über atomare Tauschgeschäfte
+explanation: |
+  Die Möglichkeit, atomare Swaps und Tauschvorgänge über Lightning-Kanäle durchzuführen, bietet die Möglichkeit, dezentrale DEXs zu schaffen, ohne die Nachteile von On-Chain-Börsen.
+reviewed: false

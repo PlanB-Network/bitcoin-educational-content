@@ -1,0 +1,9 @@
+question: Por que razão é importante seguir o valor fiduciário no momento de cada transação de Bitcoin?
+answer: Assegurar uma contabilidade exacta e o cumprimento das obrigações fiscais
+wrong_answers:
+  - Para aumentar automaticamente o saldo da carteira
+  - Permitir a negociação no mercado em tempo real diretamente a partir da carteira
+  - Para reduzir as taxas de transação impostas pela rede
+explanation: |
+  O acompanhamento do valor fiduciário ajuda as empresas a gerir a contabilidade com a flutuação dos preços da Bitcoin.
+reviewed: false

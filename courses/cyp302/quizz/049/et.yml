@@ -1,0 +1,9 @@
+question: Milline rühm on eriti oluline avaliku võtme krüptograafia jaoks, tänu oma võimele genereerida kõik elemendid eksponenteerimise teel?
+answer: Tsüklilised rühmad
+wrong_answers:
+  - Mitteabeli rühmad
+  - Lõpmatud rühmad
+  - Kompleksarvude rühmad
+explanation: |
+  Krüptograafias on tsüklilised rühmad hädavajalikud, kuna need võimaldavad genereerida kõik rühma elemendid, kasutades ühe elemendi, mida nimetatakse generaatoriks, eksponenteerimist.
+reviewed: false

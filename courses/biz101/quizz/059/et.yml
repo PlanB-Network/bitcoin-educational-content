@@ -1,0 +1,9 @@
+question: Milliseid kahte rahakoti tüüpi käsitletakse Starter-profiilis?
+answer: Hooldusõiguslikud ja mittehooldusõiguslikud välklamblikad
+wrong_answers:
+  - Kuum ja külm ladustamine Bitcoin rahakotid
+  - Multisig ja paber Bitcoin rahakotid
+  - Riistvara ja aju Lightning rahakotid
+explanation: |
+  Starter-profiil kasutab kas eestkostetavaid või mitte-eestkostetavaid Lightning rahakotte.
+reviewed: false

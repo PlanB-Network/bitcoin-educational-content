@@ -1,0 +1,11 @@
+question: There is an historical case of a daily rate of inflation equivalent to 100%; where and when did it happen?
+answer: In Zimbabwe, 2007.
+wrong_answers:
+  - In Hungary, 1945.
+  - In China, 1940.
+  - This is actually an unrealistic case that cannot happen.
+explanation: |
+  A 100% inflation rate per day is a realistic scenario that
+  happened in Zimbabwe in 2007, where the money value roughly
+  doubled each 24 hours.
+reviewed: true

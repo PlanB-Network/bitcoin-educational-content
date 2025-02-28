@@ -1,9 +1,0 @@
-question: Quel est le but des réglementations KYC ?
-answer: Pour lutter contre le financement du terrorisme, l'évasion fiscale et le blanchiment d'argent.
-wrong_answers:
-  - Pour augmenter le prix du Bitcoin.
-  - Pour contrôler l'offre de Bitcoin.
-  - Pour empêcher les gens d'acheter du Bitcoin.
-explanation: |
-  Le texte explique que les réglementations KYC (Know Your Customer) exigent des utilisateurs de fournir une identification afin de lutter contre le financement du terrorisme, l'évasion fiscale et le blanchiment d'argent.
-reviewed: false

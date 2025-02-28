@@ -1,0 +1,10 @@
+question: Apa solusi untuk masalah pertukaran langsung dalam pembagian kerja?
+answer: Pertukaran tidak langsung yang difasilitasi oleh uang.
+wrong_answers:
+  - Pertukaran langsung yang difasilitasi oleh barter.
+  - Pertukaran tidak langsung yang difasilitasi oleh barter.
+  - Pertukaran langsung yang difasilitasi oleh uang.
+explanation: |
+  Uang memungkinkan pertukaran tidak langsung, di mana seseorang dapat membeli dari
+  orang lain, dan penjual dapat menggunakan unit moneter tersebut di tempat lain, pada waktu lain, dan
+  dengan orang lain.

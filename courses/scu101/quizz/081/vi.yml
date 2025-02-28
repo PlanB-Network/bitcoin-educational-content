@@ -1,0 +1,9 @@
+question: Trang web Have I Been Pwned cho phép bạn làm gì?
+answer: Kiểm tra xem địa chỉ email có bị xâm phạm không.
+wrong_answers:
+  - Tạo mật khẩu mạnh và ngẫu nhiên mới.
+  - Tạo hộp thư điện tử an toàn.
+  - Đồng bộ hóa tài khoản email để sử dụng dễ dàng hơn.
+explanation: |
+  Trang web này giúp phát hiện rò rỉ dữ liệu và kiểm tra mức độ an toàn của địa chỉ email.
+reviewed: false

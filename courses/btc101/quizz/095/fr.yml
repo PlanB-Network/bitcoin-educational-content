@@ -1,0 +1,9 @@
+question: Que signifie le terme hodl ?
+answer: Hodl est un terme d'argot dans la communauté des cryptomonnaies qui signifie conserver vos investissements au lieu de les vendre, surtout pendant la volatilité du marché.
+wrong_answers:
+  - Hodl fait référence à un type de cryptomonnaie qui est utilisé uniquement pour le trading.
+  - Hodl est un terme qui signifie vendre toute votre cryptomonnaie à un prix élevé.
+  - Hodl est une stratégie de trading journalier qui implique d'acheter et de vendre fréquemment.
+explanation: |
+  Le terme hodl provient d'une publication en ligne mal orthographiée en 2013 sur un forum Bitcoin. Avec le temps, hodl a évolué pour représenter une stratégie d'investissement plus large. Il encourage les investisseurs à conserver leurs cryptomonnaies sur le long terme, indépendamment des fluctuations du marché.
+reviewed: true

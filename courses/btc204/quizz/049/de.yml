@@ -1,0 +1,13 @@
+question: Warum wird der XOR-Operator in BIP47 verwendet?
+
+answer: Um den Payload des Zahlungscodes des Senders symmetrisch zu verschlüsseln.
+
+wrong_answers:
+  - Um den Payload des Zahlungscodes des Senders asymmetrisch zu verschlüsseln.
+  - Um die Metadaten des Zahlungscodes des Senders symmetrisch zu verschlüsseln.
+  - Um die Metadaten des Zahlungscodes des Senders asymmetrisch zu verschlüsseln.
+
+explanation: |
+  Der XOR-Operator wird verwendet, um den Payload des Zahlungscodes des Senders in BIP47 symmetrisch zu verschlüsseln.
+
+reviewed: false

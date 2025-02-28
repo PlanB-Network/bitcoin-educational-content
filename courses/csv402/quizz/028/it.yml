@@ -1,0 +1,9 @@
+question: In un contratto RGB, qual è la funzione dell'interfaccia?
+answer: Rendere i dati del contratto facili da leggere e da manipolare
+wrong_answers:
+  - Esecuzione di script di convalida sulla blockchain
+  - Memorizzazione dei dati Genesis da parte del cliente
+  - Definire un sistema di tipi rigoroso per i rapporti
+explanation: |
+  L'obiettivo dell'interfaccia è presentare le informazioni sul contratto in modo chiaro per gli utenti e il software, senza influenzare la logica aziendale.
+reviewed: false

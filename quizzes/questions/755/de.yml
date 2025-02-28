@@ -1,9 +1,0 @@
-question: Wie wird die Basisschicht des Bitcoin-Netzwerks oft genannt?
-answer: Die Abwicklungsschicht
-wrong_answers:
-  - Die Transaktionsschicht
-  - Die Sicherheitsschicht
-  - Die Konsensschicht
-explanation: |
-  Die Basisschicht des Bitcoin-Netzwerks, auf die das Lightning Network für das Öffnen und Schließen von Zahlungskanälen angewiesen ist, wird oft als "Abwicklungsschicht" bezeichnet.
-reviewed: false

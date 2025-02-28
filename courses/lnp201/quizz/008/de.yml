@@ -1,0 +1,9 @@
+question: Wie funktioniert eine 2/2-Multisignatur-Adresse bei Bitcoin?
+answer: Es sind zwei Unterschriften erforderlich, um die Mittel freizugeben und auszugeben.
+wrong_answers:
+  - Es ermöglicht das Ausgeben der Mittel mit nur einem der beiden Schlüssel.
+  - Es autorisiert Transaktionen nur in spezifischen Fällen des Sperrens.
+  - Es wird nur verwendet, um Mittel an öffentliche Adressen zu senden.
+explanation: |
+  Eine 2/2-Multisignatur-Adresse erfordert die Unterschriften beider beteiligten Parteien, damit die Mittel ausgegeben werden können, was zur Sicherheit von Lightning-Kanälen verwendet wird.
+reviewed: false

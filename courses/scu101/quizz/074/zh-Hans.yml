@@ -1,0 +1,9 @@
+question: 密码管理器的主要功能是什么？
+answer: 存储、生成和管理密码。
+wrong_answers:
+  - 分析和删除病毒。
+  - 备份和整理个人文件。
+  - 优化连接速度。
+explanation: |
+  主要功能包括存储、生成和管理密码。
+reviewed: false

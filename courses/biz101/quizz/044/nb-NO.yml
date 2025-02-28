@@ -1,0 +1,9 @@
+question: Hva er en av de største fordelene for selgere som bruker Lightning Network?
+answer: Reduserte transaksjonsgebyrer
+wrong_answers:
+  - Betalinger garantert av banker
+  - Automatisk økning i salget
+  - Avskaffelse av næringsskatter
+explanation: |
+  Transaksjonsgebyrene i Lightning Network er svært lave, noe som gjør det til en kostnadseffektiv løsning for selgere.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Was passiert, wenn die Passphrase einer Bitcoin-Wallet geändert wird?
-answer: Die Bitcoin-Wallet wird komplett anders.
-wrong_answers:
-  - Die Bitcoin-Wallet wird unzugänglich.
-  - Die Bitcoin-Wallet bleibt gleich.
-  - Die Bitcoin-Wallet verliert alle ihre Bitcoins.
-explanation: |
-  Wenn die Passphrase geändert wird, wird die Bitcoin-Wallet komplett anders, da die Passphrase eine Rolle bei der Konstruktion und Berechnung aller Schlüssel der Wallet spielt.
-reviewed: false

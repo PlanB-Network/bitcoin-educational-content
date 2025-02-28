@@ -1,0 +1,9 @@
+---
+term: REKURSIV (BUND)
+
+---
+Eine rekursive Vereinbarung auf Bitcoin ist eine Art intelligenter Vertrag, der Bedingungen nicht nur für die aktuelle Transaktion, sondern auch für zukünftige Transaktionen auferlegt, die die Ergebnisse dieser Transaktion ausgeben. Dies ermöglicht die Erstellung von Transaktionsketten, bei denen jede Transaktion bestimmte Regeln einhalten muss, die von der ersten in der Kette definiert wurden. Die Rekursivität schafft eine Abfolge von Transaktionen, bei denen jede die Beschränkungen der übergeordneten Transaktion erbt. Dies würde eine komplexe und langfristige Kontrolle darüber ermöglichen, wie Bitcoins ausgegeben werden können, aber es würde auch Risiken hinsichtlich der Ausgabefreiheit und Fungibilität mit sich bringen.
+
+Zusammenfassend lässt sich sagen, dass eine nicht-rekursive Vereinbarung sich nur auf die Transaktion beschränkt, die unmittelbar auf die Transaktion folgt, die die Regeln aufgestellt hat. Im Gegensatz dazu kann eine rekursive Vereinbarung einem Bitcoin bestimmte Bedingungen auf unbestimmte Zeit auferlegen. Die Transaktionen können aufeinander folgen, aber der betreffende Bitcoin behält immer die ursprünglichen Bedingungen, die ihm auferlegt wurden. Technisch gesehen liegt eine nicht-rekursive Vereinbarung vor, wenn der "scriptPubKey" eines UTXO Beschränkungen für den "scriptPubKey" der Ausgaben einer Transaktion definiert, die diesen UTXO ausgibt. Dagegen liegt eine rekursive Vereinbarung vor, wenn der "ScriptPubKey" eines UTXO Beschränkungen für den "ScriptPubKey" der Ausgaben einer Transaktion, die diesen UTXO ausgibt, und für alle "ScriptPubKeys", die auf die Ausgabe dieses UTXO folgen, definiert.
+
+Allgemeiner ausgedrückt: In der Informatik bezeichnet "Rekursivität" die Fähigkeit einer Funktion, sich selbst aufzurufen und so eine Art Schleife zu bilden.

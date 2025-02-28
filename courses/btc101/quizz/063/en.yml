@@ -1,0 +1,12 @@
+question: What is the mathematical concept that is based on human rationality and is used in Bitcoin?
+answer: Game theory.
+wrong_answers:
+  - Probability theory.
+  - Number theory.
+  - Set theory.
+explanation: |
+  Game theory is a mathematical concept that is based on
+  human rationality. In Bitcoin, protocol changes are
+  enforced by users, making any modification to the Bitcoin
+  protocol highly complex.
+reviewed: true

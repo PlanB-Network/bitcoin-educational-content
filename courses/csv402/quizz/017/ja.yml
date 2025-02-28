@@ -1,0 +1,9 @@
+question: RGBにおけるトランジションの時間的一貫性を保証する構造とは？
+answer: DAG（有向非循環グラフ）
+wrong_answers:
+  - 単純な一次チェーン
+  - ダイナミックなピアツーピアネットワーク
+  - UTXOのバイナリーツリー
+explanation: |
+  DAGは状態遷移を構造化し、矛盾のない並列進化を可能にする。
+reviewed: false

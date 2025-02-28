@@ -1,0 +1,13 @@
+question: Jaký je základní rozdíl mezi zvýšením cen a inflací?
+answer: Zvýšení cen může být specifické pro určitý sektor a vyvolané různými faktory, zatímco inflace je definována jako generalizované zvýšení cen napříč širokým spektrem zboží a služeb.
+wrong_answers:
+  - Zvýšení cen je generalizované zvýšení cen napříč širokým spektrem zboží a služeb, zatímco inflace je specifická pro určitý sektor a vyvolaná různými faktory.
+  - Zvýšení cen a inflace jsou to samé, obě se vztahují k generalizovanému zvýšení cen napříč širokým spektrem zboží a služeb.
+  - Zvýšení cen se vztahuje k poklesu cen, zatímco inflace se vztahuje k zvýšení cen.
+explanation: |
+  Kapitola vysvětluje, že zvýšení cen může být specifické pro určitý sektor
+  a vyvolané různými faktory, jako je snížení produkce OPEC pro ropu nebo nepříznivé
+  povětrnostní podmínky pro pšenici. Inflace na druhé straně je definována jako generalizované
+  zvýšení cen napříč širokým spektrem zboží a služeb, nikoli jen v konkrétním
+  sektoru.
+reviewed: false

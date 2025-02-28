@@ -1,0 +1,10 @@
+---
+term: NONCE
+
+---
+Tietojenkäsittelyn yhteydessä termi "nonce" viittaa numeroon, jota käytetään vain kerran ja joka korvataan sen jälkeen. Se on usein satunnainen tai pseudosattumanvarainen. Nonceja käytetään erilaisissa salausprotokollissa prosessin turvallisuuden varmistamiseksi. Esimerkiksi Bitcoin-protokollassa käytetyt ECDSA-allekirjoitukset sisältävät nonceen käytön. Tämä tarkoittaa, että tämän numeron on oltava uusi jokaisessa allekirjoituksessa. Jos näin ei ole, on mahdollista laskea käytetty yksityinen avain vertaamalla kahta allekirjoitusta, jotka käyttävät samaa noncea.
+
+Nonceja käytetään myös Bitcoinin louhintaprosessissa. Louhijat kasvattavat näitä muokattavia arvoja ehdokaslohkoissaan. He muokkaavat nonce-arvoa löytääkseen kryptografisen hashin, joka on pienempi tai yhtä suuri kuin vaikeustavoite. Tämä prosessi vaatii huomattavaa laskentatehoa, koska siihen liittyy tyhjentävä haku suuren määrän mahdollisten nonce-arvojen joukosta. Kun louhija löytää nonce-koodin, joka lohkoonsa sisällytettynä tuottaa vaikeusasteen kriteerit täyttävän salauksen, lohko lähetetään verkkoon, ja louhija saa palkkion.
+
+> ► * Vuonna 2010 tutkijat havaitsivat, että Sonyn PlayStation 3 käytti samaa noncea allekirjoittaessaan eri koodipaketteja. Tämä nonceen uudelleenkäyttö mahdollisti sen, että hyökkääjät pystyivät laskemaan ohjelmiston allekirjoittamiseen käytetyn yksityisen avaimen. Kun yksityinen avain oli hallussaan, hyökkääjät pystyivät luomaan kelvollisia allekirjoituksia mille tahansa koodille, minkä ansiosta he pystyivät ajamaan luvattomia ohjelmistoja, kuten laittomia pelejä tai mukautettuja käyttöjärjestelmiä, suoraan PS3:lla.* *
+> ► *Ei ole yleinen väärinkäsitys termin "nonce" alkuperästä Jotkut väittävät, että se on lyhenne sanoista "number only used once" eli "vain kerran käytettävä numero" Todellisuudessa sanan alkuperä juontaa juurensa 1700-luvulta ja on peräisin vanhan englannin kielen ilmaisun "then anes" semanttisesta kehityksestä, joka tarkoitti "tilaisuutta varten" *

@@ -1,9 +1,0 @@
-question: Por que SHA0, SHA1 e MD5 são consideradas funções de hash desatualizadas?
-answer: Elas perderam sua resistência a colisões.
-wrong_answers:
-  - Elas são muito lentas para calcular.
-  - Elas produzem impressões digitais muito grandes.
-  - Elas não são irreversíveis.
-explanation: |
-  SHA0, SHA1 e MD5 são consideradas funções de hash desatualizadas porque perderam sua resistência a colisões. Isso significa que é relativamente fácil encontrar duas entradas diferentes que produzem a mesma saída, o que é uma grande falha de segurança.
-reviewed: false

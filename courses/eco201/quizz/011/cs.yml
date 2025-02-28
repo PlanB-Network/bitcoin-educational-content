@@ -1,0 +1,14 @@
+question: Jaké jsou důsledky politik nulových úrokových sazeb (ZIRP)?
+answer: ZIRP eroduje marže bank, odrazuje od půjčování podnikatelům a riskantním investorům a podněcuje vlády k rozsáhlým výdajům, což vede ke zvýšení veřejného dluhu.
+wrong_answers:
+  - ZIRP zvyšuje zisky bank, podněcuje půjčování podnikatelům a riskantním investorům a odrazuje vlády od výdajů.
+  - ZIRP nemá žádný významný dopad na banky, praktiky půjčování nebo vládní výdaje.
+  - ZIRP snižuje veřejný dluh, podněcuje půjčování podnikatelům a riskantním investorům a odrazuje vlády od výdajů.
+explanation: |
+  Politiky nulových úrokových sazeb (ZIRP) mohou mít několik nezamýšlených důsledků.
+  Banky mají omezené možnosti obnovit svůj kapitál, protože jejich marže jsou
+  erodovány. Také mají malou motivaci půjčovat, zejména podnikatelům a
+  dalším riskantním investorům. Místo toho alokují své zdroje na sekuritizaci stávajícího
+  kapitálu nebo poskytují půjčky proti zajištění. Kromě toho ZIRP podněcuje vlády
+  k rozsáhlým výdajům, což vede k významnému nárůstu úrovní veřejného dluhu.
+reviewed: false

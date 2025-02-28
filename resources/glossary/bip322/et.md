@@ -1,0 +1,5 @@
+---
+term: BIP322
+
+---
+Tehakse ettepanek uue standardi loomiseks, mis asendaks BIP137-i sõnumite allkirjastamiseks Bitcoini privaatvõtmete ja nendega seotud aadressidega, et tõestada aadressi omandiõigust. Need allkirjad on kasulikud mitmesuguste rakenduste puhul, näiteks raha tõendamiseks, auditeerimiseks ja muudeks kasutusaladeks, mis nõuavad aadressi autentimist selle eravõti abil. Võrreldes BIP137-ga laiendab BIP322 sõnumi allkirjastamise standardit traditsioonilistest aadressidest kaugemale, kasutades skriptidel põhinevat lähenemisviisi. See võimaldab rahakoti tarkvaral allkirjastada sõnumi mis tahes skripti jaoks, mida nad võiksid bitcoinide kulutamiseks avada. Selleks hõlmab meetod teksti allkirjastamist, andes allkirja virtuaalsele Bitcoini tehingule. Traditsiooniliste P2PKH-aadresside puhul on BIP322 endiselt kooskõlas traditsioonilise allkirjaformaadiga.

@@ -1,9 +1,0 @@
-question: Qual è l'algoritmo che Bitcoin utilizza per collegare le chiavi private e pubbliche?
-answer: Elliptic Curve Digital Signature Algorithm (ECDSA)
-wrong_answers:
-  - Advanced Encryption Standard (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Secure Hash Algorithm 2 (SHA-2)
-explanation: |
-  Bitcoin utilizza l'Elliptic Curve Digital Signature Algorithm (ECDSA) per collegare le chiavi private e pubbliche.
-reviewed: false

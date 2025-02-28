@@ -1,0 +1,10 @@
+description: |
+  Breez er en innovativ plattform dedikert til å utnytte kraften i Bitcoin for å åpne opp verdenen av peer-to-peer betalinger for enkeltpersoner og applikasjoner. Med Breez mobilapp kan brukere sende og motta øyeblikkelige Bitcoin-betalinger, og gjøre lommen til en ikke-forvaringsbasert Lightning-node.
+
+  Plattformen inkluderer også en Podcasting 2.0-spiller for strømming av sats og ideer, og et Point-of-Sale-system som aksepterer Lightning-betalinger uten KYC-krav. Breez fungerer også som en Lightning Service Provider, som tilbyr likviditet og nettverkskonnektivitet.
+
+  For de som søker å integrere P2P Lightning-betalinger i sine apper, tilbyr Breez et SDK for maksimal tilpasning med minimal programmering. Breez Cloud forbedrer ytterligere brukeropplevelsen, ved å kombinere suvereniteten til ikke-forvaringsbasert Lightning med bekvemmeligheten av forvaringsbaserte tjenester for allsidige betalinger når som helst.
+
+  Breez former fremtiden for Lightning-økonomien, og gjør Bitcoin-betalinger mer tilgjengelige og effektive enn noen gang før.
+contributors:
+  - rabbit-hole

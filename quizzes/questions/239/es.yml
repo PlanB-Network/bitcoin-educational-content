@@ -1,9 +1,0 @@
-question: ¿Cuál es el concepto de "money streaming" en el contexto de la Red Lightning?
-answer: Realizar microtransacciones cada minuto
-wrong_answers:
-  - Transmitir contenido de video a cambio de Bitcoin
-  - Transmitir contenido de audio a cambio de Bitcoin
-  - Transmitir transacciones de Bitcoin en tiempo real
-explanation: |
-  Con la Red Lightning, podemos realizar microtransacciones cada minuto, lo que abre la puerta a experimentar con modelos económicos en los que los consumidores pagan por el contenido en función de lo que consumen.
-reviewed: false

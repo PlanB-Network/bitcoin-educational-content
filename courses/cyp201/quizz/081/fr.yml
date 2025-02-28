@@ -1,0 +1,9 @@
+question: Quelle est la nouveauté principale des scripts P2WPKH par rapport à P2PKH ?
+answer: Les signatures sont déplacées dans le champ Witness.
+wrong_answers:
+  - Les adresses sont encodées en base58check.
+  - Le scriptPubKey inclut le hash de la clé privée.
+  - P2WPKH est incompatible avec SegWit.
+explanation: |
+  P2WPKH, introduit avec SegWit, déplace les signatures dans une section distincte appelée Witness pour empêcher la malléabilité des transactions.
+reviewed: false

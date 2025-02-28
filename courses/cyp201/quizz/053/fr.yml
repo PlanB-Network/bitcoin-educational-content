@@ -1,0 +1,9 @@
+question: Que se passe-t-il si vous perdez la passphrase associée à votre portefeuille HD ?
+answer: Vous perdez l'accès aux bitcoins liés à ce portefeuille
+wrong_answers:
+  - Vous pouvez toujours accéder au portefeuille avec la phrase mnémonique seule
+  - Vous pouvez réinitialiser la passphrase en contactant le support de Bitcoin
+  - Vous perdez uniquement les transactions non confirmées
+explanation: |
+  La passphrase est une composante indispensable dans la dérivation des clés. Sans elle, il est impossible de recréer les clés et donc d'accéder aux bitcoins.
+reviewed: false

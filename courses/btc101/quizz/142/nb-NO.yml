@@ -1,0 +1,10 @@
+question: Hva er en beskåret node i konteksten av Bitcoin?
+answer: En node som kun beholder de siste N blokkene i minnet
+wrong_answers:
+  - En node som kun validerer transaksjoner
+  - En node som kun overfører informasjon til andre noder
+  - En node som kun håndhever reglene til Bitcoin-protokollen
+explanation: >-
+  En beskåret node i konteksten av Bitcoin er en node som kun beholder
+  de siste N blokkene i minnet.
+reviewed: false

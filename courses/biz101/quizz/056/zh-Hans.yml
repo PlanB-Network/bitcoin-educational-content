@@ -1,0 +1,9 @@
+question: 对于 Starter 用户来说，非托管钱包在功能上有什么不同？
+answer: 企业主可以完全控制私钥
+wrong_answers:
+  - 它能自动将比特币兑换成法定货币
+  - 无需备份程序或安全措施
+  - 它通过第三方服务管理所有交易
+explanation: |
+  非托管钱包将私钥和交易的控制权完全交给用户。
+reviewed: false

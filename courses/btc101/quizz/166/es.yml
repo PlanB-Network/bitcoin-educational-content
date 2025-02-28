@@ -1,0 +1,12 @@
+question: ¿Qué pueden hacer los mineros por aquellas plantas de energía que aún no están conectadas a la red?
+answer: Pueden actuar como compradores de último recurso.
+wrong_answers:
+  - Pueden proporcionar electricidad a las plantas de energía.
+  - Pueden conectar las plantas de energía a la red.
+  - Pueden regular el precio de la electricidad.
+explanation: |
+  Los mineros pueden actuar como compradores de último recurso para las plantas de energía que
+  aún no están conectadas a la red. Esto permite que las plantas de energía
+  aseguren financiamiento incluso antes de estar conectadas a la
+  red eléctrica.
+reviewed: true

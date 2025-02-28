@@ -1,0 +1,9 @@
+question: Among these risks, which one is not associated with cash P2P exchanges?
+answer: Risk of data leakage.
+wrong_answers:
+  - Risk to personal safety.
+  - Risk of theft.
+  - Legal risk.
+explanation: |
+  Cash P2P exchanges present many risks, but they do not require performing a KYC. Therefore, there is no risk of data leakage.
+reviewed: false

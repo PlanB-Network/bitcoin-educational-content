@@ -1,0 +1,5 @@
+---
+term: ETIKETT
+
+---
+Etikett eller merknad som tildeles en UTXO i en Bitcoin-lommebok for å huske dens opprinnelse. Hvis jeg for eksempel eier en UTXO som kommer fra et P2P-kjøp på Bisq med Charles, kan jeg tildele den etiketten `Non-KYC Bisq Charles`. Dette er en god praksis som hjelper deg med å huske opprinnelsen eller den tiltenkte destinasjonen til UTXO-en, noe som gjør det enklere å forvalte fond og optimalisere personvernet. Merking blir enda viktigere når det brukes sammen med myntkontroll. Ved at brukerne kan skille mellom og velge UTXO-er for transaksjonene sine, bidrar denne praksisen til å unngå sammenslåing av UTXO-er fra ulike kilder. Dette begrenser risikoen forbundet med Common Input Ownership Heuristic (CIOH), som kan avsløre felles eierskap av inndataene i en transaksjon.

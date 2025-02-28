@@ -1,9 +1,0 @@
-question: ¿Cuál es el proceso mediante el cual los mineros validan las transacciones y las incluyen en un bloque?
-answer: Prueba de trabajo
-wrong_answers:
-  - Prueba de participación
-  - Prueba de autoridad
-  - Prueba de quemado
-explanation: |
-  Los mineros validan las transacciones y las incluyen en un bloque a través de un proceso llamado "prueba de trabajo". Esto implica resolver un rompecabezas criptográfico.
-reviewed: false

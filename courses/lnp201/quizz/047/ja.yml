@@ -1,0 +1,9 @@
+question: Lightning取引におけるLNURLの役割は何ですか？
+answer: ノードとLightningアプリケーション間のやり取りを簡素化すること
+wrong_answers:
+  - 各支払いに対してチャネルを作成することを容易にする
+  - 支払い情報の機密性を保証する
+  - トランザクション手数料を自動的に計算する
+explanation: |
+  LNURLは、ノードとLightningアプリケーション間のやり取り、例えば引き出しや支払いなどを簡素化するために設計された通信プロトコルです。
+reviewed: false

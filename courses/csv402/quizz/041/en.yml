@@ -1,0 +1,9 @@
+question: What elements are needed to create a Lightning channel carrying RGB assets?
+answer: Funding in bitcoins and funding in RGB assets
+wrong_answers:
+  - Bitcoin-only funding to start with
+  - RGB-only funding to start with
+  - No funding required
+explanation: |
+  The channel requires both bitcoin funding on a 2/2 multisig, as well as RGB asset funding to allocate assets on the same channel.
+reviewed: false

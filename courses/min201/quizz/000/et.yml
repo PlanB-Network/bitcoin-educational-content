@@ -1,0 +1,15 @@
+question: Mis on praegune kaevandamise tasu Bitcoin'i võrgus?
+answer: Uute bitcoinide loomine ja tehingutasud
+wrong_answers:
+  - Ainult uute bitcoinide loomine
+  - Ainult tehingutasud
+  - Uute bitcoinide loomine, tehingutasud ja boonus kiireimale kaevandajale
+explanation: |
+  Praegune kaevandamise tasu Bitcoin'i võrgus on
+  kahekordne. See hõlmab uute bitcoinide loomist, mis
+  on alates algsest 50 bitcoinist iga kümne minuti järel
+  vähenenud tänaseks (2023) 6,25 bitcoinini. See hõlmab ka
+  tehingutasusid ehk kaevandamistasusid, mis tulevad
+  tehingutest, mille kaevandaja on otsustanud oma plokki
+  lisada.
+reviewed: true

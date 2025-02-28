@@ -1,0 +1,9 @@
+question: What information must the sending node know to perform an onion routing payment?
+answer: The network topology and the complete route to the recipient
+wrong_answers:
+  - Only the next intermediate node
+  - The capacity of each channel
+  - The cryptographic signature of each node on the path
+explanation: |
+  The sending node must know the network topology to calculate the route to the recipient, allowing it to choose the best path.
+reviewed: false

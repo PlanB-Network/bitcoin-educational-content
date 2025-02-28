@@ -1,0 +1,9 @@
+question: Milline järgmistest kirjeldab kõige paremini seda, kuidas Bitcoini tehingud saavutavad lõplikkuse?
+answer: Kui tehingud on salvestatud plokiahelasse, on need muutumatud ja neid ei saa muuta.
+wrong_answers:
+  - Vaidluse korral võivad pangad tehinguid tühistada.
+  - Kasutajad peavad tehingu lõpuleviimiseks saama heakskiidu mitmelt valitsusasutuselt.
+  - Iga osaleja saab soovi korral muuta minevikutehinguid, kui tal on erikood.
+explanation: |
+  Bitcoin s blockchain on võltsimiskindel pearaamat. Kui tehing on kinnitatud ja lisatud plokki, muutub see osaks alalisest registrist, tagades lõplikkuse.
+reviewed: false

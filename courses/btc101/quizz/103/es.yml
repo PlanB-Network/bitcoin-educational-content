@@ -1,0 +1,13 @@
+question: ¿Cuál es el propósito de crear un plan de herencia para tus bitcoins?
+answer: Asegurar que tus bitcoins sean administrados correctamente después de tu muerte.
+wrong_answers:
+  - Evitar impuestos sobre tus bitcoins.
+  - Disminuir el valor de tus bitcoins.
+  - Prevenir que tus bitcoins sean robados.
+explanation: |
+  Un plan de herencia asegura que tus bitcoins serán
+  administrados correctamente después de tu muerte. Puede incluir una
+  carta escrita a mano detallando tus activos, sus métodos de acceso,
+  y la información de contacto de personas de confianza
+  a ser contactadas.
+reviewed: true

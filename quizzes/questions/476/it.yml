@@ -1,9 +1,0 @@
-question: Come viene determinato il numero di parole nella frase di recupero nella generazione di una frase mnemonica per un portafoglio Bitcoin?
-answer: Ciò dipende dalla dimensione dell'entropia.
-wrong_answers:
-  - Dipende dalla dimensione del checksum.
-  - Sono sempre 24 parole.
-  - Viene generato casualmente.
-explanation: |
-  A seconda della dimensione dell'entropia, la frase di recupero sarà composta da 12 parole per 128 bit, 15 parole per 160 bit e 24 parole per 256 bit.
-reviewed: false

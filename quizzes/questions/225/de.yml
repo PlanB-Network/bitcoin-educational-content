@@ -1,9 +1,0 @@
-question: Was ermöglicht das Lightning-Netzwerk?
-answer: Sofortige, kostengünstige Bitcoin-Transaktionen.
-wrong_answers:
-  - Sofortige, kostspielige Bitcoin-Transaktionen.
-  - Verzögerte, kostengünstige Bitcoin-Transaktionen.
-  - Verzögerte, kostspielige Bitcoin-Transaktionen.
-explanation: |
-  Das Lightning-Netzwerk ermöglicht sofortige, kostengünstige Bitcoin-Transaktionen und löst somit das Skalierbarkeitsproblem von Bitcoin.
-reviewed: false

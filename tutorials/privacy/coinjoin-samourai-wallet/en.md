@@ -2,9 +2,17 @@
 name: Coinjoin - Samourai Wallet
 description: How to perform a coinjoin on Samourai Wallet?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
-"*a bitcoin wallet for the streets*"
+***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, the Whirlpool tool no longer functions, even for individuals who have their own Dojo or are using Sparrow Wallet. However, it remains possible that this tool could be reinstated in the coming weeks or relaunched in a different manner. Moreover, the theoretical part of this article remains relevant for understanding the principles and objectives of coinjoins in general (not just Whirlpool), as well as understanding the effectiveness of the Whirlpool model.*
+
+_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
+
+_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
+
+---
+
+> *a bitcoin wallet for the streets*
 
 In this tutorial, you will learn what a coinjoin is and how to perform one using the Samourai Wallet software and the Whirlpool implementation.
 
@@ -14,7 +22,7 @@ In this tutorial, you will learn what a coinjoin is and how to perform one using
 Coinjoins enhance the privacy of Bitcoin users by complicating chain analysis for external observers. Their structure allows merging multiple coins from different users into a single transaction, thus obscuring the trails and making it difficult to determine the links between input and output addresses.
 
 The principle of coinjoin is based on a collaborative approach: several users who wish to mix their bitcoins deposit identical amounts as inputs of the same transaction. These amounts are then redistributed as outputs of equal value to each user. At the end of the transaction, it becomes impossible to associate a specific output with a known user in input. No direct link exists between the inputs and outputs, breaking the association between users and their UTXO, as well as the history of each coin.
-![coinjoin](assets/en/1.webp)
+![coinjoin](assets/notext/1.webp)
 
 Example of a coinjoin transaction (not from me): [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://mempool.space/en/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
 
@@ -41,13 +49,13 @@ Initially, the number of participants in each Whirlpool coinjoin was limited to 
 
 Thus, Whirlpool transactions are characterized by an identical number of inputs and outputs, which can be:
 - 5 inputs and 5 outputs;
-![coinjoin](assets/en/2.webp)
+![coinjoin](assets/notext/2.webp)
 - 6 inputs and 6 outputs;
-![coinjoin](assets/en/3.webp)
+![coinjoin](assets/notext/3.webp)
 - 7 inputs and 7 outputs;
-![coinjoin](assets/en/4.webp)
+![coinjoin](assets/notext/4.webp)
 - 8 inputs and 8 outputs.
-![coinjoin](assets/en/5.webp)
+![coinjoin](assets/notext/5.webp)
 The model proposed by Whirlpool is thus based on small coinjoin transactions. Unlike Wasabi and JoinMarket, where the robustness of the anonsets relies on the volume of participants in a single cycle, Whirlpool bets on the chaining of several small-sized cycles.
 
 In this model, the user pays the fees only upon their initial entry into a pool, allowing them to participate in a multitude of remixes without additional fees. It is the new entrants who cover the mining fees for the remixers.
@@ -60,7 +68,7 @@ Whirlpool was designed taking into account two important requirements:
 These imperatives guided the developers of Samourai Wallet in the design of Whirlpool, leading them to limit the number of participants per cycle. Too few participants would have compromised the efficiency of the coinjoin, drastically reducing the anonsets generated each cycle, while too many participants would have posed management issues on mobile applications and would have hindered the flow of cycles.
 **Ultimately, there is no need to have a high number of participants per coinjoin on Whirlpool since the anonsets are achieved through the accumulation of several coinjoin cycles.**
 
-[-> Learn more about Whirlpool anonsets.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Learn more about Whirlpool anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### The pools and coinjoin fees
 For these multiple cycles to effectively increase the anonsets of the mixed coins, a certain framework must be established to restrict the amounts of UTXO used. Whirlpool thus defines different pools.
@@ -84,12 +92,14 @@ As mentioned previously, a UTXO is considered to belong to a pool when it is rea
 
 To enter a coinjoin pool, service fees as well as mining fees must be paid. The service fees are fixed for each pool and are intended to compensate the teams responsible for the development and maintenance of Whirlpool.
 Service fees for using Whirlpool are to be paid only once upon entering the pool. After this step, you have the opportunity to participate in an unlimited number of remixes without any additional fees. Here are the current fixed fees for each pool:
+
 | Pool (bitcoin) | Entry Fee (bitcoin)        |
-|----------------|----------------------------|
-| 0.5            | 0.0175                     |
-| 0.05           | 0.00175                    |
-| 0.01           | 0.0005 (50,000 sats)       |
-| 0.001          | 0.00005 (5,000 sats)       |
+|----------------|---------------------------|
+| 0.5            | 0.0175                    |
+| 0.05           | 0.00175                   |
+| 0.01           | 0.0005 (50,000 sats)      |
+| 0.001          | 0.00005 (5,000 sats)      |
+
 
 These fees essentially act as an entry ticket for the chosen pool, regardless of the amount you put in coinjoin. Thus, whether you join the 0.01 pool with exactly 0.01 BTC or enter it with 0.5 BTC, the fees will remain the same in absolute value.
 
@@ -158,6 +168,7 @@ When you decide to spend mixed UTXOs, you can do so directly from this **postmix
 
 As we will see in the following tutorial, there is also the `mix to` option which offers the possibility to automatically send your mixed coins to another wallet, such as a cold wallet, after a defined number of coinjoins.
 After covering the theory, let's dive into practice with a tutorial on using Whirlpool through the Samourai Wallet Android app!
+
 ## Tutorial: Coinjoin Whirlpool on Samourai Wallet
 There are numerous options for using Whirlpool. The one I want to introduce here is the Samourai Wallet option (without Dojo), an open-source Bitcoin wallet management application on Android.
 
@@ -170,55 +181,55 @@ However, this method has two notable drawbacks:
 The ideal solution to overcome these limitations is to operate your own Dojo associated with a Whirlpool CLI instance on your personal Bitcoin node. This way, you will avoid any information leakage and achieve complete independence. Although the tutorial presented below is useful for certain goals or for beginners, to truly optimize your coinjoin session, using your own Dojo is recommended. A detailed guide on setting up this configuration will soon be available on PlanB Network.
 
 ### Installing Samourai Wallet
-To start, you will obviously need the Samourai Wallet application. You can download it directly from [the official website](https://samouraiwallet.com/download) with the APK, on [their GitLab](https://code.samourai.io/wallet/samourai-wallet-android), or on the [Google Play Store](https://play.google.com/store/apps/details?id=com.samourai.wallet&pcampaignid=web_share).
+To start, you will obviously need the Samourai Wallet app. You can download it directly from the official website using the APK, from their GitLab, or from the Google Play Store.
 
 ### Creating a Software Wallet
 After installing the software, you will need to proceed with creating a Bitcoin wallet on Samourai. If you already have one, you can skip directly to the next step.
 
 Upon opening the application, press the blue `Start` button. You will then be asked to select a location in your phone's files where the encrypted backup of your new wallet will be stored.
 
-![samourai](assets/en/9.webp)
+![samourai](assets/notext/9.webp)
 Activate Tor by clicking on the corresponding notch. At this stage, you also have the option to select a specific Dojo. However, in this tutorial, we will continue with the default Dojo; so you can leave the option disabled. When Tor is connected, press the `Create a new wallet` button.
-![samourai](assets/en/10.webp)
+![samourai](assets/notext/10.webp)
 
 Samourai Wallet then prompts you to set a BIP39 passphrase. This additional password is very important as it directly acts in the derivation of your private keys. A potential loss of this passphrase would result in the inability to access your bitcoins, making them irretrievably lost. To restore your Samourai wallet, it is imperative to have both your 12-word recovery phrase and the passphrase.
 
 It is therefore essential to choose a robust passphrase and to make one or more physical copies, on paper or on a metallic medium, to ensure the security of your bitcoins. After completing these tasks, check the box `I am aware that in case of loss...`, then press the `NEXT` button.
 
-![samourai](assets/en/11.webp)
+![samourai](assets/notext/11.webp)
 
 You must then define a PIN code consisting of 5 to 8 digits. This code will secure access to your wallet on your phone. It will be requested every time you want to open the Samourai application. Opt for a robust PIN code and make sure to keep a backup copy. After that, you can press the `NEXT` button.
 
-![samourai](assets/en/12.webp)
+![samourai](assets/notext/12.webp)
 
 Samourai will invite you to enter your PIN code again for confirmation. Enter it, then press `FINALIZE`.
 
-![samourai](assets/en/13.webp)
+![samourai](assets/notext/13.webp)
 
 You will then access your recovery phrase composed of 12 words. This phrase allows you to recover your wallet with the previously entered passphrase. It is strongly recommended to make one or more copies of this phrase on physical media, such as paper or a metallic material, to ensure the security of your bitcoins in case of a problem.
 
 After making these backups, you will be directed to the interface of your new Samourai wallet.
 
-![samourai](assets/en/14.webp)
+![samourai](assets/notext/14.webp)
 
 You are offered to obtain your PayNym Bot. You can request it if you wish, although it is not essential for our tutorial.
 
-![samourai](assets/en/15.webp)
+![samourai](assets/notext/15.webp)
 Before proceeding to receive bitcoins on this new wallet, it is strongly recommended to recheck the validity of your wallet backups (the passphrase and the recovery phrase). To verify the passphrase, you can select the icon of your PayNym Bot located at the top left of the screen, then follow the path:
-```
+```plaintext
 Settings > Troubleshooting > Passphrase/backup test
 ```
 
 Enter your passphrase to perform the verification.
 
-![samourai](assets/en/16.webp)
+![samourai](assets/notext/16.webp)
 
 Samourai will confirm if it is valid.
 
-![samourai](assets/en/17.webp)
+![samourai](assets/notext/17.webp)
 
 To verify your backup of the recovery phrase, access the icon of your PayNym Bot, located at the top left of the screen, and follow this path:
-```
+```plaintext
 Settings > Wallet > Show 12-word recovery phrase
 ```
 
@@ -231,46 +242,46 @@ After creating your wallet, you will start with a single account, identified by 
 
 To do this, click on the blue `+` symbol located at the bottom right of the screen.
 
-![samourai](assets/en/18.webp)
+![samourai](assets/notext/18.webp)
 
 Then click on the green `Receive` button.
 
-![samourai](assets/en/19.webp)
+![samourai](assets/notext/19.webp)
 
 Samourai will automatically generate a new blank address to receive bitcoins.
 
-![samourai](assets/en/20.webp)
+![samourai](assets/notext/20.webp)
 
 You can send the bitcoins to be mixed there.
 
-![samourai](assets/en/21.webp)
+![samourai](assets/notext/21.webp)
 
 ### Making the Tx0
 When the transaction is confirmed, we can start the coinjoins process. To do this, click on the blue `+` button at the bottom right of the screen.
 
-![samourai](assets/en/22.webp)
+![samourai](assets/notext/22.webp)
 
 Then click on `Whirlpool` in blue.
 
-![samourai](assets/en/23.webp)
+![samourai](assets/notext/23.webp)
 
 Wait while Whirlpool initializes and Samourai creates the necessary accounts.
 
-![samourai](assets/en/24.webp)
+![samourai](assets/notext/24.webp)
 
 You will then arrive at the Whirlpool homepage. Click on `Start`.
-![samourai](assets/en/25.webp)
+![samourai](assets/notext/25.webp)
 Select the UTXO from the **deposit** account that you wish to send in coinjoin cycles, then click on `Next`.
 
-![samourai](assets/en/26.webp)
+![samourai](assets/notext/26.webp)
 
 In the next step, you will need to choose the fee level to allocate to the `Tx0` as well as to your first mix. This setting will determine the speed at which your `Tx0` and your initial coinjoin (or initial coinjoins) will be confirmed. Keep in mind that the mining fees for the `Tx0` and the initial mix are your responsibility, but you will not have to pay mining fees for the subsequent remixes. You have the choice between `Low`, `Normal`, or `High` options.
 
-![samourai](assets/en/27.webp)
+![samourai](assets/notext/27.webp)
 
 In the same window, you have the option to choose the pool you will enter. Given that I initially selected a UTXO of `454,258 sats`, my only possible choice is the `100,000 sats` pool. This page also presents you with the pool's service fees, in addition to the mining fees, which allows you to know the total cost for this coinjoin cycle. If everything suits you, select the appropriate pool and continue by clicking on the blue `VERIFY CYCLE DETAILS` button.
 
-![samourai](assets/en/28.webp)
+![samourai](assets/notext/28.webp)
 
 You can then see all the details of your coinjoin cycle:
 - the number of UTXOs that will enter the pool;
@@ -279,101 +290,103 @@ You can then see all the details of your coinjoin cycle:
 
 Verify the information, then click on the green `START CYCLE` button.
 
-![samourai](assets/en/29.webp)
+![samourai](assets/notext/29.webp)
 
 A window will appear to offer you to mark the toxic change resulting from your entry into the coinjoin cycle as "non-spendable". By selecting `YES`, this UTXO will not be visible in your wallet and cannot be selected for future transactions. However, it will remain accessible in the list of UTXOs in your wallet, where you can manually change its status. It is recommended to opt for this option to avoid any handling error that could compromise your privacy later on. If you choose `NO`, the toxic change will remain available for use in your wallet. If you want to learn more about managing and using this toxic change, I advise you to read the last part of this tutorial.
 
-![samourai](assets/en/30.webp)
+![samourai](assets/notext/30.webp)
 
 Samourai will then broadcast your Tx0.
 
-![samourai](assets/en/31.webp)
+![samourai](assets/notext/31.webp)
 
 ### Making the coinjoins
 Once the Tx0 is broadcasted, you can find it in the `Transactions` tab of the Whirlpool menu.
 
-![samourai](assets/en/32.webp)
+![samourai](assets/notext/32.webp)
 Your UTXOs ready to be mixed are in the `Mixing in progress...` tab, which corresponds to the **Premix** account.
-![samourai](assets/en/33.webp)
+![samourai](assets/notext/33.webp)
 
 Once the `Tx0` is confirmed, your UTXOs will be automatically registered with the coordinator, and the initial mixes will start successively in an automatic manner.
 
-![samourai](assets/en/34.webp)
+![samourai](assets/notext/34.webp)
 
-By checking the `Remixing` tab, which corresponds to the **Postmix** account, you will observe the UTXOs resulting from the initial mixes. These coins will remain ready for subsequent remixing, which will not incur any additional fees. I recommend consulting this other article to learn more about the remixing process and the efficiency of a coinjoin cycle: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool).
+By checking the `Remixing` tab, which corresponds to the **Postmix** account, you will observe the UTXOs resulting from the initial mixes. These coins will remain ready for subsequent remixing, which will not incur any additional fees. I recommend consulting this other article to learn more about the remixing process and the efficiency of a coinjoin cycle: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
-![samourai](assets/en/35.webp)
+![samourai](assets/notext/35.webp)
 
 It is possible to temporarily suspend the remixing of a UTXO by pressing the pause button located to its right. To make it eligible for remixing again, simply click on the same button a second time. It is important to note that only one coinjoin can be performed per user and per pool simultaneously. Thus, if you have 6 UTXOs of `100 000 sats` ready for the coinjoin, only one of them can be mixed. After mixing a UTXO, Samourai Wallet proceeds to randomly select a new UTXO from your availability, in order to diversify and balance the remixing of each coin.
 
-![samourai](assets/en/36.webp)
+![samourai](assets/notext/36.webp)
 
 To ensure continuous availability of your UTXOs for remixing, it is necessary to keep the Samourai application active in the background. You should see a notification on your phone confirming that Whirlpool is running. Closing the application or turning off your phone will pause the coinjoins.
 
 ### Completing the coinjoins
 To spend your mixed bitcoins, go to the **Postmix** account noted `Remixing` in the Whirlpool menu tabs.
 
-![samourai](assets/en/37.webp)
+![samourai](assets/notext/37.webp)
 
 Click on the blue Whirlpool logo located at the bottom right.
 
-![samourai](assets/en/38.webp)
+![samourai](assets/notext/38.webp)
 
 Then click on `Spend Mixed UTXOs`.
 
-![samourai](assets/en/39.webp)
+![samourai](assets/notext/39.webp)
 
 You can then enter the recipient's address and the amount to send, in the same way as for any other transaction made with Samourai Wallet. The blue background indicates that the funds are being spent from a Whirlpool account, and not from the **deposit** account.
 
-![samourai](assets/en/40.webp)
+![samourai](assets/notext/40.webp)
 
 By clicking on the 3 small dots at the top right, you have the option to select specific UTXOs.
-![samourai](assets/en/41.webp)
+![samourai](assets/notext/41.webp)
 By clicking on the white square at the top right of the window, you can scan the QR code of the receiving address with your camera.
 
-![samourai](assets/en/42.webp)
+![samourai](assets/notext/42.webp)
 
 Enter the necessary information for your spending transaction, then click on the blue `VERIFY TRANSACTION` button.
 
-![samourai](assets/en/43.webp)
+![samourai](assets/notext/43.webp)
 
 In the next step, you have the option to modify the fee rate associated with your transaction. You can also enable the Stonewall option by checking the corresponding box. If the Stonewall option is not selectable, it means that your **Postmix** account does not contain a UTXO of sufficient size to support this particular transaction structure.
 
-[-> Learn more about Stonewall transactions.](https://planb.network/tutorials/privacy/stonewall)
+[-> Learn more about Stonewall transactions.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 If everything is to your satisfaction, click on the green `SEND ... BTC` button.
 
-![samourai](assets/en/44.webp)
+![samourai](assets/notext/44.webp)
 
 Samourai will then proceed to sign your transaction before broadcasting it on the network. You just need to wait until it is added to a block by a miner.
 
-![samourai](assets/en/45.webp)
+![samourai](assets/notext/45.webp)
 
 ### Using an SCODE
 Sometimes, the Samourai Wallet teams offer "SCODEs". An SCODE is a promotional code that provides a discount on the service fees of the pool. Samourai Wallet occasionally offers such codes to its users during special events. I advise you [to follow Samourai Wallet](https://twitter.com/SamouraiWallet) on social media so as not to miss out on future SCODES.
 
 To apply an SCODE on Samourai, before starting a new coinjoin cycle, go to the Whirlpool menu and select the three small dots located at the top right of the screen.
 
-![samourai](assets/en/46.webp)
+![samourai](assets/notext/46.webp)
 
 Click on `SCODE (promo code) Whirlpool`.
 
-![samourai](assets/en/47.webp)
+![samourai](assets/notext/47.webp)
 
 Enter the SCODE in the window that opened, then validate by clicking on `OK`.
 
-![samourai](assets/en/48.webp)
+![samourai](assets/notext/48.webp)
 
 Whirlpool will automatically close. Wait for Samourai to finish loading, then open the Whirlpool menu again.
 
-![samourai](assets/en/49.webp)
+![samourai](assets/notext/49.webp)
 
 Make sure your SCODE has been correctly registered by clicking once more on the three small dots, then selecting `SCODE (promo code) Whirlpool`. If everything is in order, you are ready to start a new Whirlpool cycle with a discount on the service fees. It is important to note that these SCODEs are temporary: they remain valid for a few days before becoming obsolete.
 
 ## How to know the quality of our coinjoin cycles?
-For a coinjoin to be truly effective, it is essential that it demonstrates good uniformity between the amounts of inputs and outputs. This uniformity amplifies the number of possible interpretations in the eyes of an external observer, thereby increasing the uncertainty surrounding the transaction. To quantify this uncertainty generated by a coinjoin, one can resort to calculating the transaction's entropy. For an in-depth exploration of these indicators, I refer you to the tutorial: [BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). The Whirlpool model is recognized as the one that brings the most homogeneity to coinjoins.
+For a coinjoin to be truly effective, it is essential that it demonstrates good uniformity between the amounts of inputs and outputs. This uniformity amplifies the number of possible interpretations in the eyes of an external observer, thereby increasing the uncertainty surrounding the transaction. To quantify this uncertainty generated by a coinjoin, one can resort to calculating the transaction's entropy.
 
-Next, the performance of several coinjoin cycles is evaluated based on the extent of the groups in which a coin is concealed. The size of these groups defines what is called the anonsets. There are two types of anonsets: the first assesses the privacy obtained against a retrospective analysis (from the present to the past) and the second, against a prospective analysis (from the past to the present). For a detailed explanation of these two indicators, I invite you to consult the tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets).
+For an in-depth exploration of these indicators (the Whirlpool model is recognized as the one that brings the most homogeneity to coinjoins), I refer you to the tutorial: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
+
+Next, the performance of several coinjoin cycles is evaluated based on the extent of the groups in which a coin is concealed. The size of these groups defines what is called the anonsets. There are two types of anonsets: the first assesses the privacy obtained against a retrospective analysis (from the present to the past) and the second, against a prospective analysis (from the past to the present). For a detailed explanation of these two indicators, I invite you to consult the tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ## How to manage postmix?
 After performing coinjoin cycles, the best strategy is to keep your UTXOs in the **postmix** account, waiting for their future use. It is even advisable to let them remix indefinitely until you need to spend them.
@@ -401,7 +414,11 @@ Next, you must be careful in managing doxxic change, the change that could not e
 Detailed tutorials on implementing these different techniques will be offered soon on PlanB Network.
 
 **Additional resources:**
-- [Samourai Wallet video tutorial](https://planb.network/tutorials/wallet/samourai);
+[Samourai Wallet video tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Samourai Wallet Documentation - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter thread on coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blog post on coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
+
+
+

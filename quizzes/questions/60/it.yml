@@ -1,9 +1,0 @@
-question: Qual è la quantità massima di unità di Bitcoin che possono esistere?
-answer: 21 milioni di unità
-wrong_answers:
-  - 25 milioni di unità
-  - 30 milioni di unità
-  - 50 milioni di unità
-explanation: |
-  Il codice informatico di Bitcoin e il consenso di tutti gli utenti che partecipano al protocollo determinano che la quantità massima di unità di Bitcoin che possono esistere è di 21 milioni.
-reviewed: false

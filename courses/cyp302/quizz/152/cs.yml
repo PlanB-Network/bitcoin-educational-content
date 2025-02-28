@@ -1,0 +1,9 @@
+question: Jaká je funkce soukromého klíče d v kryptosystému RSA?
+answer: Používá se k dešifrování zpráv pomocí modulu N
+wrong_answers:
+  - Používá se pouze k šifrování zpráv
+  - Používá se k odemykání bitcoinů
+  - Používá se k výpočtu φ(N)
+explanation: |
+  Soukromý klíč d se používá k dešifrování zašifrovaných zpráv, a to dokončením výpočtu s modulem N.
+reviewed: false

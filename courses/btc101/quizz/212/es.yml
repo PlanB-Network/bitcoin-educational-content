@@ -1,0 +1,12 @@
+question: ¿Cómo describe este curso a Bitcoin?
+answer: Una materia multidisciplinaria.
+wrong_answers:
+  - Una materia simple.
+  - Una materia física.
+  - Una materia de una sola disciplina.
+explanation: |
+  Bitcoin se describe como una materia multidisciplinaria porque
+  plantea preguntas relacionadas con varios campos, incluyendo
+  criptografía, teoría de juegos, economía y política monetaria,
+  ciencias de la computación, filosofía, energía, leyes y regulación.
+reviewed: true

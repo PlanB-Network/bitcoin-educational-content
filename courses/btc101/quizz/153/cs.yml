@@ -1,0 +1,13 @@
+question: Jaký je účel úpravy obtížnosti při těžbě Bitcoinu?
+answer: Vyvažuje globální hru těžby na základě počtu účastníků.
+wrong_answers:
+  - Zvyšuje odměnu za těžbu.
+  - Sníží počet bitcoinů v oběhu.
+  - Zvyšuje bezpečnost sítě Bitcoin.
+explanation: >-
+  Úprava obtížnosti při těžbě Bitcoinu je navržena tak, aby zajistila, že
+  čas potřebný k vytěžení bloku zůstává přibližně konstantní, bez ohledu na
+  celkový výpočetní výkon sítě. Upravuje obtížnost matematického
+  problému, který musí těžaři vyřešit, na základě počtu těžařů účastnících se v
+  síti.
+reviewed: true

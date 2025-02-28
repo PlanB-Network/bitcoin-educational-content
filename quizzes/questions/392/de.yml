@@ -1,9 +1,0 @@
-question: Was sind die Macher und Nehmer im Zusammenhang mit Orderbüchern?
-answer: Macher sind Auftragsanbieter und Nehmer sind Auftragsnehmer.
-wrong_answers:
-  - Macher sind Auftragsnehmer und Nehmer sind Auftragsanbieter.
-  - Macher sind Auftragsmacher und Nehmer sind Auftragsnehmer.
-  - Macher sind Auftragsnehmer und Nehmer sind Auftragsmacher.
-explanation: |
-  Im Zusammenhang mit Orderbüchern sind Macher diejenigen, die Aufträge bereitstellen, und Nehmer sind diejenigen, die Aufträge entgegennehmen.
-reviewed: false

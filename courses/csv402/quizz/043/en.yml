@@ -1,0 +1,9 @@
+question: What does the "RGB state transition" represent in the context of the Lightning Network?
+answer: Updated RGB asset allocation integrated into commitment transactions
+wrong_answers:
+  - A new state of multisig 2/2 onchain
+  - Updated RGB asset allocation integrated into the funding transaction
+  - On-chain validation script replaced by HTLC
+explanation: |
+  The RGB state transition updates the distribution of RGB assets in the channel using commitment transactions.
+reviewed: false

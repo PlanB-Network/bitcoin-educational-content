@@ -1,0 +1,9 @@
+question: If an integer N is the product of two prime numbers p and q, how is the order of N calculated?
+answer: (p - 1) * (q - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+explanation: |
+  For N equal to the product of two prime numbers p and q, the order of N is calculated as (p - 1) * (q - 1).
+reviewed: false

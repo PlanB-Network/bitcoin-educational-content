@@ -1,0 +1,9 @@
+question: 2023年現在、Raspberry Pi 4でBitcoinノードを運用する際の電気消費による年間コストはいくらですか？
+answer: 年間10ユーロ弱です。
+wrong_answers:
+  - 年間50ユーロ強です。
+  - 年間100ユーロ弱です。
+  - 約200ユーロです。
+explanation: |
+  2023年現在、Raspberry Pi 4でBitcoinノードを運用する際の電気消費による年間コストは10ユーロ弱です。
+  レビュー済み: true

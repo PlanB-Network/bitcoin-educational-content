@@ -1,0 +1,8 @@
+question: На какое доменное имя был перенесен форум Bitcoin 1 августа 2011 года?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  После перехода на forum.bitcoin.org 17 мая, начиная с 1 августа, он был перенесен на URL bitcointalk.org. Со временем он стал известен как BitcoinTalk.

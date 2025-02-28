@@ -1,0 +1,9 @@
+question: ビットコインネットワークで今日の鉱夫が主に使用しているツールは何ですか？
+answer: ASIC
+wrong_answers:
+  - CPU
+  - GPU
+  - FPGA
+explanation: |
+  現在、鉱夫はこの操作に専用のASICを排他的に使用しています。これは、可能な限り少ないエネルギー消費で最大数の組み合わせをテストし、できるだけ迅速に行うように最適化されています。
+reviewed: true

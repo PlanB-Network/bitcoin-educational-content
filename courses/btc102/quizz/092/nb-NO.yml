@@ -1,0 +1,9 @@
+question: Hva er den primære grunnen til at en paranoid Bitcoiner ville bruke sin egen LN-node?
+answer: For å opprettholde personvern og sikkerhet
+wrong_answers:
+  - For å unngå KYC-prosesser
+  - For å håndtere sine UTXOer
+  - For å blande sine mynter
+explanation: |
+  Kapittelet nevner at en paranoid Bitcoiner ville bruke sin egen LN-node som en del av deres fokus på sikkerhet. Selv om det å unngå KYC-prosesser, håndtere UTXOer, og blande mynter også er aktiviteter en paranoid Bitcoiner kan engasjere seg i, er disse ikke direkte relatert til bruken av en LN-node.
+reviewed: false

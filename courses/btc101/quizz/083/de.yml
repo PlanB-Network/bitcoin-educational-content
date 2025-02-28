@@ -1,0 +1,9 @@
+question: Welche Analogie wird in diesem Kurs verwendet, um zu erklären, wie man Bitcoins empfangen kann, ohne dem Absender zu erlauben, deine Mittel zu stehlen?
+answer: Ein Briefkasten.
+wrong_answers:
+  - Ein Bankkonto.
+  - Ein Safe.
+  - Ein Haus.
+explanation: |
+  Die Analogie, die verwendet wird, um zu erklären, wie man Bitcoins empfangen kann, ohne dem Absender zu erlauben, deine Mittel zu stehlen, ist ein Briefkasten. Die Leute deponieren Geld darin, aber nur du kannst ihn öffnen.
+reviewed: true

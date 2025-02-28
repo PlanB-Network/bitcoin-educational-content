@@ -1,0 +1,13 @@
+question: Mikä on pääasiallinen uhka, joka liittyy osoitteen uudelleenkäyttöön?
+
+answer: Se mahdollistaa determinististen linkkien luomisen eri transaktioiden välille ja yhteisen omistajuuden kyseisten UTXO; iden osalta.
+
+wrong_answers:
+  - Se paljastaa käyttäjän IP-osoitteen muille verkon osallistujille transaktion vahvistuksen aikana.
+  - Se vähentää digitaalisen allekirjoitusmekanismin tehokkuutta, mikä heikentää transaktioiden turvallisuutta.
+  - Se johtaa transaktiomaksujen kasvuun osoitteen uudelleenkäytöstä johtuvan ruuhkautumisen vuoksi.
+
+explanation: |
+  Jos samaa osoitetta käytetään useissa transaktioissa, on mahdollista päätellä, että kaikki kyseiseen osoitteeseen liitetyt bitcoinit kuuluvat samalle henkilölle.
+
+reviewed: false

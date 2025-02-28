@@ -1,0 +1,9 @@
+question: Hvem foreslo å kontakte organisasjonen WikiLeaks for å oppmuntre dem til å akseptere bitcoin i november 2010?
+answer: Amir Taaki
+wrong_answers:
+  - Wladimir van der Laan
+  - Robert Horning
+  - Satoshi Nakamoto
+explanation: |
+  Han begrunnet det med å skrive at organisasjonen hadde sett sine midler frosset flere ganger. Merkbart hadde Moneybookers frosset WikiLeaks' konto i oktober.
+reviewed: false

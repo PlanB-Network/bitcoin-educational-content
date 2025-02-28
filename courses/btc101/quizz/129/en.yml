@@ -1,0 +1,10 @@
+question: What is the Bitcoin blockchain?
+answer: A public and immutable ledger of all Bitcoin transactions.
+wrong_answers:
+  - A private and mutable ledger of all Bitcoin transactions.
+  - A public and mutable ledger of all Bitcoin transactions.
+  - A private and immutable ledger of all Bitcoin transactions.
+explanation: >-
+  The Bitcoin blockchain is a public and immutable ledger of all Bitcoin
+  transactions. It is a common ledger for all Bitcoin users.
+reviewed: true

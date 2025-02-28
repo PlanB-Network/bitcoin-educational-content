@@ -1,0 +1,9 @@
+question: Pourquoi est-il difficile pour un nœud émetteur d'estimer la liquidité exacte d'un canal ?
+answer: Car seuls les deux participants connaissent la répartition précise des fonds
+wrong_answers:
+  - Car la capacité totale des canaux change constamment
+  - Car les frais des nœuds intermédiaires ne sont pas publiés
+  - Car les canaux se ferment automatiquement après chaque transaction
+explanation: |
+  La répartition précise des fonds dans un canal est uniquement visible par les deux nœuds participants, ce qui empêche les autres nœuds d'estimer la liquidité disponible pour le routage.
+reviewed: false

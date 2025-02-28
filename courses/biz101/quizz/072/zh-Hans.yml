@@ -1,0 +1,9 @@
+question: 企业系统如何自动更新库存？
+answer: 通过工作流程触发器
+wrong_answers:
+  - 手动更新
+  - 日终上传
+  - 计划报告
+explanation: |
+  工作流程触发器实时更新系统。
+reviewed: false

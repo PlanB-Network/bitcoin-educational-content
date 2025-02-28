@@ -1,0 +1,9 @@
+question: Quel est le risque principal dans les transactions d'engagement sur le Lightning Network ?
+answer: Publier une ancienne transaction pour récupérer plus de fonds
+wrong_answers:
+  - Oublier de signer la transaction d'engagement
+  - Envoyer les fonds par erreur à un autre canal
+  - Bloquer la transaction avec un timelock inapproprié
+explanation: |
+  Le risque principal est qu'une partie tente de tricher en publiant une ancienne transaction d'engagement, ce qui pourrait lui permettre de récupérer des fonds qu'elle n'a plus.
+reviewed: false

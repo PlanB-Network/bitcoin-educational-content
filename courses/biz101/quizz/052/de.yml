@@ -1,0 +1,9 @@
+question: Welches Detail ist NICHT explizit in einer typischen Bitcoin-Transaktions-csv-Datei dokumentiert, wie im Kurs beschrieben?
+answer: Der verwendete Skripttyp
+wrong_answers:
+  - Das Datum der Transaktion
+  - Der entsprechende Fiat-Wert
+  - Die beteiligten Bitcoin-Adressen
+explanation: |
+  In einer typischen csv-Datei für Bitcoin-Transaktionen werden in der Regel Datum, Betrag, Fiat-Gegenwert und Bitcoin-Adressen angegeben, aber nicht der verwendete Skripttyp.
+reviewed: false

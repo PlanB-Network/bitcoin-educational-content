@@ -1,0 +1,9 @@
+question: Welche 3 grundlegenden Kriterien ermöglichen es einer Person, sicherzustellen, dass sie eine Münze später ausgeben kann?
+answer: Die Münze muss intakt, authentisch sein und darf nicht doppelt ausgegeben werden.
+wrong_answers:
+  - Die Münze muss antik, selten und in gutem Zustand sein.
+  - Die Münze muss universell akzeptiert, legal und in einer Bank aufbewahrt werden.
+  - Die Münze muss vom Staat genehmigt, registriert und haltbar sein.
+explanation: |
+  Jede rationale Person, die eine Münze akzeptieren möchte, ob digital oder physisch, stellt sicher, dass sie nicht verändert wurde, dass es sich tatsächlich um eine echte Münze handelt und dass sie nicht vom Aussteller wiederverwendet werden kann.
+reviewed: false

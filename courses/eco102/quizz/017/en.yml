@@ -1,0 +1,9 @@
+question: For Bastiat, what is political economy?
+answer: The theory of exchange
+wrong_answers:
+  - The theory of value
+  - The theory of wealth
+  - The theory of purchasing power
+explanation: |
+  Bastiat defines political economy as the theory of exchange.
+reviewed: false

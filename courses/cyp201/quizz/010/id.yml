@@ -1,0 +1,9 @@
+question: Algoritma derivasi apa yang digunakan untuk menghitung kode autentikasi berdasarkan kunci rahasia?
+answer: HMAC-SHA512
+wrong_answers:
+  - SHA512
+  - SHA256
+  - RIPEMD160
+explanation: |
+  HMAC-SHA512 adalah algoritma yang menggabungkan fungsi hash dan kunci rahasia untuk menghitung kode autentikasi.
+ditinjau: false

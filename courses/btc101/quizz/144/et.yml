@@ -1,0 +1,9 @@
+question: Mis on ribalaiuse nõue Bitcoin'i sõlme käitamiseks, arvestades 1MB suurust plokki iga 10 minuti järel?
+answer: Umbes 5GB kuus
+wrong_answers:
+  - Umbes 1GB kuus
+  - Umbes 10GB kuus
+  - Umbes 20GB kuus
+explanation: >-
+  Arvestades 1MB suurust plokki iga 10 minuti järel, nõuab Bitcoin'i sõlme käitamine umbes 5GB kuus ribalaiust.
+reviewed: false

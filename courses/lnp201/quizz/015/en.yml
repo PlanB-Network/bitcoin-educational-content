@@ -1,0 +1,9 @@
+question: What does a commitment transaction in a Lightning channel reflect?
+answer: The new distribution of funds between the two parties
+wrong_answers:
+  - The total number of transactions made
+  - The amount of fees to be paid for the transaction
+  - The opening of a new payment channel
+explanation: |
+  A commitment transaction represents the current distribution of funds in the channel after each Lightning transaction, but is not published on the blockchain as long as the channel remains open.
+reviewed: false

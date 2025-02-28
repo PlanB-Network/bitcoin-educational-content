@@ -1,0 +1,9 @@
+question: Qual é o termo para informações que ligam um conjunto de atividades on-chain a uma forma de identidade real?
+answer: Um ponto de entrada.
+wrong_answers:
+  - Uma chave de ligação.
+  - Um link de impressão digital.
+  - Um marcador de análise.
+explanation: |
+  Comportamentos e informações que podem ligar uma identidade real a atividades on-chain são chamados de pontos de entrada.
+reviewed: false

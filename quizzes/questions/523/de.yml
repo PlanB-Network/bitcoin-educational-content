@@ -1,9 +1,0 @@
-question: Was ist der Zweck von Depth 2 in der HD Wallet-Struktur?
-answer: Es ermöglicht die Unterscheidung von Konten für verschiedene Kryptowährungen oder Netzwerke.
-wrong_answers:
-  - Es wird verwendet, um Kinderschlüssel für einen bestimmten Zweck abzuleiten.
-  - Es wird für den Empfang von Adressen in einer Standard-Wallet verwendet.
-  - Es entspricht den externen und internen Ketten.
-explanation: |
-  In der HD Wallet-Struktur ermöglicht Depth 2 die Unterscheidung von Konten für verschiedene Kryptowährungen oder Netzwerke. Dadurch kann die Wallet basierend auf verschiedenen Geldquellen organisiert werden.
-reviewed: false

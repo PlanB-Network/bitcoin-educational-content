@@ -1,0 +1,9 @@
+question: Qual é o principal papel do código de cadeia na derivação de chaves filhas?
+answer: Introduzir uma fonte adicional de entropia
+wrong_answers:
+  - Identificar a profundidade hierárquica
+  - Armazenar os índices das chaves filhas
+  - Garantir compatibilidade com o protocolo Bitcoin
+explanation: |
+  O código de cadeia é usado para introduzir uma fonte adicional e única de entropia para cada chave derivada.
+reviewed: false

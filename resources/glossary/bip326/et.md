@@ -1,0 +1,5 @@
+---
+term: BIP326
+
+---
+Parandusettepanek, mis on suunatud Taproot-tehinguid toetava Bitcoini rahakoti tarkvara arendajatele. Selle peamine eesmärk on parandada teise kihi protokollide privaatsust, mis võivad kasutada PTLCsid (*Point Time Locked Contracts*), näiteks CoinSwap, Lightning Network või DLCd (*Discreet Log Contracts*). Selle saavutamiseks püütakse ettepanekuga luua usutav eitatavus, konfigureerides automaatselt Taproot-tehingute välja `nSequence` samamoodi, nagu muud tüüpi tehingutes konfigureeriti väli `nLocktime`, et takistada tasurirünnakuid (fee sniping). Teisisõnu, BIP326 palub rahakoti tarkvara kasutada väljal "nSequence" väljal "nLocktime", et takistada tasurirünnakuid, et tagada suurem privaatsus kõikidele ahelavälise protokollide puhul, mis kasutavad seda välja sarnaselt. Seega võib Taproot-tehing, millel on konkreetne väärtus väljal `nSequence`, olla kas tavaline rahakoti kulu või teise kihi protokolli arveldustehing, millel on ajalukk, muutes need kaks juhtumit eristamatuks. Kui Bitcoini rahakoti tarkvara arendajad võtavad selle parendusettepaneku laialdaselt vastu, parandaks see oluliselt Bitcoini privaatsust ja asendatavust üldiselt.

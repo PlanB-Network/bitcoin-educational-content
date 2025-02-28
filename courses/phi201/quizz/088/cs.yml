@@ -1,0 +1,9 @@
+question: Jaký je vztah mezi politickou svobodou a ekonomickou svobodou podle Constanta?
+answer: Tyto dvě svobody jsou vzájemně závislé.
+wrong_answers:
+  - Politická svoboda je nezbytným předpokladem pro ekonomickou svobodu.
+  - Ekonomická svoboda je nezbytným předpokladem pro politickou svobodu.
+  - Tyto dvě svobody jsou navzájem neslučitelné.
+explanation: |
+  Pro Benjamina Constanta jsou politická svoboda a ekonomická svoboda úzce spojeny, jelikož individuální autonomie závisí stejně tak na možnosti účastnit se veřejných záležitostí, jako na svobodě provádět ekonomické aktivity bez překážek.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Qual è il concetto matematico che si basa sulla razionalità umana ed è utilizzato in Bitcoin?
+answer: Teoria dei giochi.
+wrong_answers:
+  - Teoria della probabilità.
+  - Teoria dei numeri.
+  - Teoria degli insiemi.
+explanation: |
+  La teoria dei giochi è un concetto matematico che si basa
+  sulla razionalità umana. In Bitcoin, i cambiamenti al protocollo sono
+  applicati dagli utenti, rendendo qualsiasi modifica al protocollo di Bitcoin
+  estremamente complessa.
+reviewed: true

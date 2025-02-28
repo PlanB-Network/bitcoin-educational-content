@@ -1,0 +1,9 @@
+question: Quale operazione del contratto RGB crea un nuovo stato senza chiudere un sigillo?
+answer: Estensione dello Stato
+wrong_answers:
+  - Transizione di stato
+  - Genesi
+  - Attivazione della valenza
+explanation: |
+  L'estensione Stato consente di creare un nuovo Stato o diritti (Valenze), senza che il sigillo venga immediatamente chiuso.
+reviewed: false

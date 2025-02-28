@@ -1,0 +1,5 @@
+description: |
+  KeePass er en åpen kildekode passordbehandler designet for å lagre og organisere påloggingsinformasjon sikkert. Den fungerer lokalt og bruker robust kryptering for å beskytte sensitive data. KeePass støtter plugins for å legge til funksjoner og tilpasse seg ulike behov.
+
+contributors:
+  - pretty-private

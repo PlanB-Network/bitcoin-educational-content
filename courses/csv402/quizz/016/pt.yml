@@ -1,0 +1,9 @@
+question: Quais são os dois principais componentes do estado de um contrato inteligente em RGB?
+answer: Estado Global e Estados Próprios
+wrong_answers:
+  - Compromisso e Génesis
+  - Definição de selo e transição de estado
+  - Valência e direitos contratuais
+explanation: |
+  O Estado Global contém dados públicos, enquanto os Estados Próprios estão associados a titulares específicos através de UTXOs.
+reviewed: false

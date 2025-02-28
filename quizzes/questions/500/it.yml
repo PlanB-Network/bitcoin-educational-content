@@ -1,9 +1,0 @@
-question: Qual è la frase utilizzata con l'algoritmo HMAC SHA-512 per calcolare la chiave privata principale?
-answer: SEED Bitcoin
-wrong_answers:
-  - CHIAVE Bitcoin
-  - PORTAFOGLIO Bitcoin
-  - HASH Bitcoin
-explanation: |
-  La chiave privata principale viene calcolata dal seed e dalla frase "SEED Bitcoin". Questa frase è identica per tutte le derivazioni del portafoglio HD, garantendo coerenza tra i portafogli.
-reviewed: false

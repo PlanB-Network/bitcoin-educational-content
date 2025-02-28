@@ -1,9 +1,0 @@
-question: Que se passe-t-il lors d'une fermeture forcée du canal ?
-answer: Toutes les transactions HTLC en cours sont publiées, ce qui peut devenir très coûteux et compliqué.
-wrong_answers:
-  - Les paiements sont interrompus et les HTLC sont résolus, ce qui est généralement moins coûteux.
-  - Le canal est immédiatement fermé sans aucune étape supplémentaire.
-  - Toutes les transactions HTLC en cours sont annulées.
-explanation: |
-  Lors d'une fermeture forcée, toutes les transactions HTLC en cours sont publiées. Cela peut devenir très coûteux et compliqué en raison de la complexité et du nombre de transactions impliquées.
-reviewed: false

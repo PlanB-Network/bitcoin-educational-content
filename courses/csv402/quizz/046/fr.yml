@@ -1,0 +1,9 @@
+question: Quel standard RGB permet de créer des actifs uniques ou "NFT" ?
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  Le standard RGB21 est conçu pour gérer des actifs uniques, permettant d'associer des métadonnées privées aux NFT.
+reviewed: false

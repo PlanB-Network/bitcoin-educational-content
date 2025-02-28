@@ -1,0 +1,5 @@
+---
+term: BIT ORO
+
+---
+Bit gold es un sistema de moneda digital descentralizado conceptualizado por Nick Szabo en 1998 y descrito públicamente en 2005. Bit gold fue diseñado para generar e intercambiar un recurso virtual llamado bit gold. Este sistema no se basaba en ningún bien físico, sino que pretendía crear una forma de escasez infalsificable. El protocolo del oro de bits se basaba en la creación de moneda mediante pruebas de trabajo, en las que se creaban piezas de oro de bits utilizando la potencia de cálculo de los ordenadores, formando así una cadena de pruebas de trabajo. Cada prueba de trabajo se sellaba con una marca de tiempo y se añadía a un registro de propiedad. La verificación y transferencia de la propiedad del oro de bits se realizaba a través de un registro público, en el que los usuarios se identificaban mediante claves públicas. El oro de bits se quedó en una fase conceptual y nunca llegó a implantarse. Este sistema es uno de los precursores de Bitcoin, junto con b-money y RPoW, pero Satoshi no parecía ser consciente de su existencia antes de la creación de Bitcoin. Fue mencionado más tarde en la página web y el foro de Bitcoin.

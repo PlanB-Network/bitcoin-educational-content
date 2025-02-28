@@ -1,0 +1,8 @@
+question: Qual é a construção usada pelo SHA256 para processar mensagens de comprimento arbitrário?
+answer: A construção de Merkle-Damgård
+wrong_answers:
+  - A construção Euclidiana
+  - A construção de Rivest-Shamir-Adleman
+  - A construção de Knuth-Morris-Pratt
+explanation: |
+  A construção de Merkle-Damgård permite transformar uma função de compressão em uma função hash para mensagens de comprimento variável.

@@ -1,9 +1,0 @@
-question: Quel(s) élément(s) ne sont pas un avantage du Bitcoin en tant que monnaie ?
-answer: Il est utilisé pour payer des impôts
-wrong_answers:
-  - Il est divisible
-  - Il est transportable
-  - C'est de l'argent sans permission
-explanation: |
-  Le Bitcoin, grâce à ses propriétés telles que sa divisibilité, sa vérifiabilité, son aspect sans permission et sa transportabilité, offre un excellent moyen de stockage de valeur. De plus, en tant que monnaie neutre sur internet, il représente un bon moyen d'échange qui ne connaît pas de frontières.
-reviewed: false

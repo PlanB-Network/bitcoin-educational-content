@@ -1,0 +1,9 @@
+question: ¿Quién descubrió la heurística de reutilización de direcciones?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  La primera persona en discutir este concepto fue Satoshi Nakamoto en la parte 10 del Bitcoin White Paper.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Qu'est-ce qu'une plateforme DCA ?
+answer: Un service qui permet aux utilisateurs d'investir un montant fixe d'argent dans un actif à intervalles réguliers.
+wrong_answers:
+  - Un type de bourse de cryptomonnaies qui permet uniquement le trading de Bitcoin.
+  - Un service financier qui fournit des prêts aux investisseurs pour le trading sur marge.
+  - Un outil logiciel qui suit les prix des actions en temps réel sans aucune fonctionnalité d'investissement.
+explanation: |
+  Une plateforme DCA fait référence à une plateforme qui facilite
+  le Dollar-Cost Averaging (DCA), une stratégie d'investissement où
+  un individu investit un montant fixe d'argent dans un
+  actif particulier à intervalles réguliers, indépendamment du
+  prix de l'actif.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Tính ẩn danh tiến lên đo lường điều gì?
+
+answer: Sự kháng cự của quyền riêng tư đối với phân tích từ quá khứ đến hiện tại.
+
+wrong_answers:
+  - Sự kháng cự của quyền riêng tư đối với phân tích từ hiện tại đến quá khứ.
+  - Sự kháng cự của quyền riêng tư đối với phân tích từ tương lai đến hiện tại.
+  - Sự kháng cự của quyền riêng tư đối với phân tích từ tương lai đến quá khứ.
+
+explanation: |
+  Tính ẩn danh tiến lên đo lường sự kháng cự của quyền riêng tư của một đồng tiền đối với phân tích từ quá khứ đến hiện tại (đầu vào đến đầu ra).
+
+reviewed: false

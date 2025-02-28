@@ -1,0 +1,9 @@
+question: Co znamená prefix `wpkh` v popisu?
+answer: Platba na Witness-PubKey-Hash
+wrong_answers:
+  - Platba na PubKey
+  - Platba na Script-Hash
+  - Witness Script Hash
+explanation: |
+  Prefix `wpkh` označuje SegWit v0 skript používající adresy typu Platba na Witness-Public-Key-Hash.
+reviewed: false

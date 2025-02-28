@@ -1,0 +1,8 @@
+question: Hvilken operasjon er nødvendig for å beregne en Taproot offentlig nøkkel Q?
+answer: Legg til justeringen tG til den offentlige nøkkelen P
+wrong_answers:
+  - Multipliser den private nøkkelen p med justeringen
+  - Hash den offentlige nøkkelen P med SHA256
+  - Konkatener justeringen t og den offentlige nøkkelen P
+explanation: |
+  Den Taproot offentlige nøkkelen Q oppnås ved å legge til det skalarproduktet av justeringen t med generatoren G til den offentlige nøkkelen P.

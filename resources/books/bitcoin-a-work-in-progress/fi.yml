@@ -1,0 +1,14 @@
+title: "Bitcoin: keskeneräinen työ"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  Tuhansia "krypto" hankkeita on olemassa, he sanovat Bitcoin on vanha ja
+  tylsää, mutta mikään ei voisi olla kauempana totuudesta. Tämä kirja opastaa sinua
+  bitcoinin viimeisimmän kehityksen kautta, nähtynä erään
+  sen monet kehittäjät.
+  Opit uusimmasta pehmeästä haarasta, joka tunnetaan nimellä Taproot, avoimen lähdekoodin ohjelmistojen pitämisen haasteista vapaana rahaa varastavista bugeista ja haittaohjelmista, uusista tavoista suojata solmuja pahantekijöiltä internetissä, miten käsitellä jatkuvasti kasvavaa lohkoketjua ja paljon muuta!
+  Kukin luku on linkki vastaavaan Bitcoin, Explained -podcastin jaksoon. Kirjassa on myös linkkejä yli kahteensataan artikkeliin, videoon, podcastiin ja jopa lähdekoodiin. Jokaisen linkin vieressä olevan pienen QR-koodin ansiosta sinun ei koskaan tarvitse kirjoittaa pitkiä URL-osoitteita.
+  Kirjoittaja on ohjelmistokehittäjä Utrechtissa, Alankomaissa. Hän on työskennellyt Bitcoin-alan parissa vuodesta 2014, ja hänestä tuli Bitcoin Core -osallistuja vuonna 2017, mikä antaa hänelle eturivin paikan seurata viimeisintä ja jännittävintä teknistä kehitystä. Hän on toinen isäntä Bitcoin Magazine -podcastissa Bitcoin, Explained.
+contributors:
+  - hunt-wood

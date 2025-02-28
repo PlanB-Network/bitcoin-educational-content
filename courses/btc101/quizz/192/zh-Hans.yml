@@ -1,0 +1,8 @@
+question: 什么是OpenNode?
+answer: 一个让企业接受比特币的简单在线解决方案
+wrong_answers:
+  - 一种比特币
+  - 一个比特币挖矿软件
+  - 一个比特币交易平台
+explanation: >-
+  OpenNode是一个让企业接受比特币的简单在线解决方案。其他解决方案包括为业余商家提供的Swiss Bitcoin Pay和为大型结构或热情的比特币用户提供的BTCpay Server。

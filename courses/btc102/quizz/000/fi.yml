@@ -1,0 +1,11 @@
+question: Mikä on yleinen piirre Ponzi-huijauksissa kryptovaluutta-alalla?
+answer: Ne käyttävät uusien sijoittajien rahoja maksamaan vanhemmille osallistujille.
+wrong_answers:
+  - Ne aina sisältävät Bitcoinin.
+  - Ne ovat aina laillisia ja säänneltyjä.
+  - Ne aina sisältävät fyysisiä omaisuuksia.
+explanation: |
+  Ponzi-huijaukset kryptovaluutta-alalla toimivat usein käyttämällä uusien
+  sijoittajien rahoja maksamaan vanhemmille osallistujille. Tämä kestämätön luonne ja riippuvuus
+  uusista tulokkaista tekevät niistä todennäköisesti väistämättä romahtavia.
+reviewed: false

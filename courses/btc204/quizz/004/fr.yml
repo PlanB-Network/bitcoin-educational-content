@@ -1,0 +1,9 @@
+question: Grâce à quoi sont sécurisés les UTXOs sur Bitcoin ?
+answer: Grâce à des scripts qui définissent les conditions de dépense.
+wrong_answers:
+  - Grâce à une vérification périodique par les mineurs.
+  - Grâce à une base de données centralisée.
+  - Grâce à la vérification de l'identité de l'utilisateur.
+explanation: |
+  Les outputs de la transaction Bitcoin sont des UTXOs sur lesquels on appose un script. Ce script exige que les conditions de dépense prédéfinies soient remplies pour dépenser l'UTXO.
+reviewed: false

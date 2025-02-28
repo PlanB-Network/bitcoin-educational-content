@@ -1,0 +1,9 @@
+question: Mục đích của cụm từ ghi nhớ trong ví HD Bitcoin là gì?
+answer: Để suy ra một cách có hệ thống tất cả các khóa
+wrong_answers:
+  - Để trực tiếp ký các giao dịch
+  - Để mã hóa địa chỉ Bitcoin
+  - Để tạo một băm cho các UTXOs
+explanation: |
+  Cụm từ ghi nhớ cho phép suy ra tất cả các khóa riêng tư và công khai trong ví, do đó tạo điều kiện thuận lợi cho việc sao lưu và khôi phục.
+reviewed: false

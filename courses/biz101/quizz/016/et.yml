@@ -1,0 +1,9 @@
+question: Mille poolest erineb võlapõhisest rahast kunstlikult loodud kapital Austria stiilis kapitalist?
+answer: Austria stiilis kapital tuleneb reaalsest säästmisest ja ohvritest, samas kui võlapõhine kapital luuakse koheselt krediidist ja see võib moonutada majandussignaale.
+wrong_answers:
+  - Austria stiilis kapitali luuakse raha trükkimisega, kui seda on vaja.
+  - Võlapõhine kapital ei nõua kunagi tagasimaksmist ja on samaväärne tegelike säästudega.
+  - Erinevust ei ole; mõlemad kapitalivormid on oma olemuselt ja mõjult identsed.
+explanation: |
+  Austria kapital tekib tegelikust tarbimisest loobumisest ja hoolikast investeerimisest. Võlapõhine kapital, mis luuakse kergesti laenude kaudu, võib ettevõtjaid eksitada ja viia ebatõhusate investeeringuteni, sest see ei kajasta tegelikku säästmist ega tarbijate eelistusi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Which channel closing method is the most economical and fast?
+answer: Cooperative closure
+wrong_answers:
+  - Forced closure
+  - Closure with cheating
+  - None are more economical and fast
+explanation: |
+  Cooperative closure is the fastest and most economical method because both parties agree to close the channel, adjusting the fees according to market conditions.
+reviewed: false

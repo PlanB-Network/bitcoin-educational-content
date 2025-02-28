@@ -1,0 +1,9 @@
+question: Bitcoinの文脈でHMACによって使用されるハッシュ関数は何ですか？
+answer: SHA512
+wrong_answers:
+  - SHA256
+  - RIPEMD160
+  - HASH160
+explanation: |
+  HMACは、安全な512ビットのハッシュを生成するためにSHA512を使用します。
+reviewed: false

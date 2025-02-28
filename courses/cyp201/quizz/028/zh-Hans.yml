@@ -1,0 +1,8 @@
+question: 使用Schnorr协议压缩的公钥大小是多少？
+answer: 32字节
+wrong_answers:
+  - 33字节
+  - 64字节
+  - 128位
+explanation: |
+  Schnorr公钥仅由椭圆曲线上点的x坐标表示，这减小了其大小到32字节。

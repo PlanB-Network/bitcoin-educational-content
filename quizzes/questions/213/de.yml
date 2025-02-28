@@ -1,9 +1,0 @@
-question: Wie wird Bitcoin im Text beschrieben?
-answer: Ein multidisziplinäres Objekt
-wrong_answers:
-  - Ein einfaches Objekt
-  - Ein komplexes Objekt
-  - Ein einseitiges Objekt
-explanation: |
-  Bitcoin wird als multidisziplinäres Objekt beschrieben, da es Fragen in verschiedenen Bereichen aufwirft, einschließlich Kryptographie, Spieltheorie, Wirtschaft und Geldpolitik, Informatik, Philosophie, Energie, Recht und Regulierung.
-reviewed: false

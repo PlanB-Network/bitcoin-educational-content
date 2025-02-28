@@ -1,0 +1,9 @@
+question: Parmi ces 4 méthodes d'acquisition de bitcoins, laquelle expose le moins au risque d'identification des clés ?
+answer: L'achat en P2P avec des espèces
+wrong_answers:
+  - L'achat via une plateforme régulée sans KYC
+  - L'achat via une plateforme régulée avec KYC
+  - L'achat par PayPal via une plateforme de mise en relation P2P
+explanation: |
+  L'achat de bitcoins en pair-à-pair avec des espèces est la méthode qui expose le moins aux risques d'identification des clés, car elle ne nécessite pas de passer par une entreprise régulée et ne laisse aucune trace dans le système bancaire. De plus, cette méthode ne requiert généralement pas la divulgation d'informations personnelles.
+reviewed: false

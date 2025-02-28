@@ -1,0 +1,15 @@
+question: Apa hubungan antara preferensi waktu dan suku bunga dalam ekonomi dengan pasar modal yang tidak dimanipulasi?
+answer: Peningkatan suku bunga merupakan hasil dari peningkatan permintaan terhadap kapital dibandingkan dengan pasokan, menunjukkan preferensi waktu yang lebih tinggi. Sebaliknya, penurunan suku bunga terjadi karena peningkatan tabungan, yang merupakan peningkatan dalam pasokan kapital, menunjukkan penurunan dalam preferensi waktu.
+wrong_answers:
+  - Peningkatan suku bunga menunjukkan penurunan dalam preferensi waktu, sementara penurunan suku bunga menunjukkan peningkatan dalam preferensi waktu.
+  - Preferensi waktu dan suku bunga memiliki hubungan yang berkebalikan.
+  - Preferensi waktu dan suku bunga tidak memiliki hubungan langsung.
+explanation: |
+  Dalam ekonomi dengan pasar modal yang tidak dimanipulasi, suku bunga referensi
+  ditentukan pada titik pertemuan antara pasokan dan permintaan kapital. Oleh karena itu,
+  suku bunga tersebut mewakili keadaan preferensi waktu untuk seluruh ekonomi. Peningkatan
+  suku bunga merupakan hasil dari peningkatan permintaan terhadap kapital dibandingkan
+  dengan pasokan, menunjukkan preferensi waktu yang lebih tinggi. Sebaliknya, penurunan suku
+  bunga terjadi karena peningkatan tabungan, yang merupakan peningkatan dalam pasokan
+  kapital, menunjukkan penurunan dalam preferensi waktu.
+reviewed: false

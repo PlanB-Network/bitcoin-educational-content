@@ -1,0 +1,13 @@
+question: ¿Qué es una dirección de recepción de Bitcoin?
+
+answer: Una cadena de caracteres utilizada para recibir bitcoins.
+
+wrong_answers:
+  - Un código utilizado para enviar bitcoins.
+  - Un algoritmo para minar bitcoins.
+  - Un contrato inteligente.
+
+explanation: |
+  Una dirección de recepción se utiliza para recibir bitcoins en una billetera.
+
+reviewed: false

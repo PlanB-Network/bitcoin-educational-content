@@ -1,0 +1,9 @@
+question: Si une transaction dispose de 2 UTXOs de 5 000 sats en inputs et de 3 UTXOs de 3 000 sats en outputs, à combien s'élèvent ses frais de transaction ?
+answer: 1 000 sats
+wrong_answers:
+  - 1 500 sats
+  - 2 500 sats
+  - 3 000 sats
+explanation: |
+  Les frais d'une transaction représentent la différence entre le total des inputs et le total des outputs. C'est ce qu'il reste après avoir consommé tous les inputs et créé tous les outputs. Le calcul est donc ; frais = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

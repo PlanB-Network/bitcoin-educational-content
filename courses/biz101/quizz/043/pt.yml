@@ -1,0 +1,9 @@
+question: O que é que a Bitcoin permite fazer sem intermediários?
+answer: Valor de troca na Internet
+wrong_answers:
+  - Criar aplicações centralizadas
+  - Obter empréstimos bancários
+  - Armazenar dados pessoais
+explanation: |
+  A Bitcoin permite a troca de valores na Internet sem intermediários através do seu protocolo peer-to-peer.
+reviewed: false

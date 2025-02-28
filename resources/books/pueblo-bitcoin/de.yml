@@ -1,0 +1,14 @@
+title: "Bitcoin-Dorf"
+publication_year: 2023
+cover: cover_en.webp
+original: true
+description: |
+  Mit Bitcoin Village nimmt uns der Autor mit auf eine informative Reise durch diese Technologie, die von den Ursprüngen des Geldes bis zum Kern des Computerprotokolls reicht. Er stellt auch Überlegungen zu den sozialen und politischen Auswirkungen an und definiert die Grundlagen, die Bitcoin für eine gerechtere und bewusstere Gesellschaft legt.
+contributors:
+  - another-satoshi
+original_language: en
+proofreading:
+  - language: en
+    urgency: 1
+    contributors_id:
+      - davidecoltro

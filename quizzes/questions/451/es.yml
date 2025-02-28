@@ -1,9 +1,0 @@
-question: ¿Cuál es el papel del punto generador en la curva elíptica?
-answer: Se utiliza para calcular el punto en la curva elíptica.
-wrong_answers:
-  - Se utiliza para generar el nonce.
-  - Se utiliza para encriptar las claves.
-  - Se utiliza para almacenar las claves.
-explanation: |
-  El punto generador es un punto específico en la curva elíptica que se utiliza en el cálculo de otros puntos en la curva. Se utiliza en la generación de claves públicas y privadas, así como en la creación y verificación de firmas digitales.
-reviewed: false

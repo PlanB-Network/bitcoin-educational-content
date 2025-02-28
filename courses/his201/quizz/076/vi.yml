@@ -1,0 +1,9 @@
+question: Ai đã khởi xướng hệ thống Đề xuất Cải tiến Bitcoin, một quy trình nhằm phối hợp cải thiện Bitcoin, vào tháng 9 năm 2011?
+answer: Amir Taaki
+wrong_answers:
+  - Gavin Andresen
+  - Jeff Garzik
+  - Nils Schneider
+explanation: |
+  Hệ thống này được mô phỏng theo Đề xuất Cải tiến Python (PEP) dành riêng cho ngôn ngữ lập trình Python.
+reviewed: false

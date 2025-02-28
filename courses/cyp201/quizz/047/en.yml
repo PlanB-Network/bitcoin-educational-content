@@ -1,0 +1,9 @@
+question: What is the size in bits of a binary segment used to create each mnemonic word?
+answer: 11 bits
+wrong_answers:
+  - 8 bits
+  - 16 bits
+  - 10 bits
+explanation: |
+  Each 11-bit segment corresponds to a word from the standardized list of 2048 words in BIP39.
+reviewed: false

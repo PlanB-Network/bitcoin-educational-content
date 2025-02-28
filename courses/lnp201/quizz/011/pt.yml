@@ -1,0 +1,8 @@
+question: Por que Alice cria uma transação de retirada antes de publicar a transação de depósito?
+answer: Para recuperar seus fundos em caso de problema com Bob
+wrong_answers:
+  - Para aumentar a capacidade do canal com cada transação
+  - Para realizar uma transação Lightning imediatamente após a abertura
+  - Para permitir que Bob gaste os fundos diretamente
+explanation: |
+  Alice cria uma transação de retirada para recuperar seus fundos se ocorrer um problema com Bob, garantindo assim a segurança de seu depósito.

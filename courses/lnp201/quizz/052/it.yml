@@ -1,0 +1,9 @@
+question: Quale servizio consente di spostare la liquidità sul lato opposto di un canale mentre si recuperano fondi on-chain?
+answer: Loop Out
+wrong_answers:
+  - Keysend
+  - LNURL
+  - CoinSwap
+explanation: |
+  Il servizio Loop Out di Lightning Labs consente il trasferimento di fondi da un canale Lightning alla blockchain on-chain, ottimizzando così la capacità di ricezione mentre si recuperano bitcoin sulla catena principale.
+reviewed: false

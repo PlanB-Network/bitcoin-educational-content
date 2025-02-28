@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan rgb-lightning-node dalam ekosistem RGB?
+answer: Daemon untuk mengelola saluran Lightning yang kompatibel dengan RGB
+wrong_answers:
+  - Dompet seluler untuk mengelola aset RGB
+  - Server proxy untuk bertukar log RGB
+  - Alat penambangan untuk aset RGB di Bitcoin
+explanation: |
+  rgb-lightning-node adalah daemon Rust yang dirancang untuk mengintegrasikan aset RGB ke dalam saluran Lightning dengan menambahkan transisi status RGB ke transaksi keterlibatan.
+reviewed: false

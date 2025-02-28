@@ -1,0 +1,9 @@
+question: Que se passe-t-il lors de chaque tour de compression dans SHA256 ?
+answer: Les variables d'état sont mises à jour à partir des mots de message et des constantes
+wrong_answers:
+  - Le hash final est généré progressivement après chaque tour
+  - Les bits du message sont réorganisés
+  - Les valeurs initiales des variables restent inchangées
+explanation: |
+  Chaque tour modifie les variables d'état à l'aide des mots, des constantes et des opérations logiques pour diffuser l'information.
+reviewed: false

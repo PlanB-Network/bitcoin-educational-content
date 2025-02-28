@@ -1,0 +1,9 @@
+question: Jika dalam sebuah transaksi pembayaran sederhana alamat yang sama digunakan pada input dan salah satu dari 2 output, output mana yang kemungkinan mewakili kembalian?
+answer: Yang memiliki alamat yang sama dengan input.
+wrong_answers:
+  - Yang memiliki alamat paling baru.
+  - Yang memiliki alamat berbeda dari input.
+  - Yang memiliki alamat tidak dikenal.
+explanation: |
+  Jika terjadi penggunaan ulang alamat dalam transaksi yang sama, wajar untuk mengasumsikan bahwa pengguna masih memiliki UTXO yang terkait. Oleh karena itu, output dengan alamat yang sama dengan input kemungkinan adalah kembalian.
+reviewed: false

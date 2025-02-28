@@ -1,0 +1,7 @@
+---
+term: EELDATAVALT VÄÄRTUSLIK
+
+---
+Konfiguratsiooniparameeter enamiku klientide Bitcoin Core'is, mis võimaldab sõlme, mis on just initsialiseeritud (kuid ei ole veel IBD-d teostanud), jätta allkirjade kontrollimise vahele kõigi enne teatud plokki sisalduvate tehingute puhul. See kuulus plokk on määratletud selle päise, st selle hash'i jäljendiga. Valitud plokki uuendatakse iga uue Bitcoin Core'i versiooniga. Kui sõlm on selle parameetri aktiveerinud, kontrollib ta seega selle initsialiseerimisel ploki päiseahelat, et leida kõige rohkem kogunenud tööga haru. Kui sõlmpunkt tuvastab Core'i pakutava hashi valitud harus, jätab ta eelnevate plokkide allkirjade kontrollimise ära. Vastasel juhul jätkab sõlme traditsioonilise sünkroniseerimisega (IBD), et kontrollida kõike ise.
+
+Assume Valid'i eesmärk on kiirendada sõlme esialgse sünkroniseerimise protsessi ilma turvalisust kahjustamata, eeldades, et suurem osa võrgustikust on need tehingud juba varem valideerinud. Ainus tegelik kompromiss sõlme jaoks on see, et varasemate bitcoinide varguse korral ei teavitata teda. Siiski saab ta siiski tagada väljastatud bitcoinide summa täpsuse. Sõlmed jätkavad allkirjade kontrollimist tehingute puhul pärast blokki Assume Valid. See lähenemisviis põhineb eeldusel, et kui võrk on tehingu piisavalt kaua vaidlustamata heaks kiitnud, siis on ebatõenäoline, et tegemist on pettusega.

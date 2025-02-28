@@ -1,0 +1,9 @@
+question: Quelle est l'action d'une transaction Bitcoin sur les UTXOs en inputs ?
+answer: Elle les consomme pour satisfaire les outputs.
+wrong_answers:
+  - Elle les archive dans la blockchain pour référence future.
+  - Elle les chiffre pour sécuriser la transaction.
+  - Elle les duplique pour créer de nouveaux UTXOs.
+explanation: |
+  Les UTXOs en entrées de transaction sont consommés afin de financer les sorties. C'est en quelque sorte la provenance de l'argent.
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: BIP43
+
+---
+Propuesta de mejora que introduce el uso de un nivel de ruta de derivación para describir el campo de propósito en la estructura de los monederos HD, previamente introducido en la BIP32. Según la BIP43, el primer nivel de derivación de un monedero HD, justo después de la clave maestra denotada como `m/`, está reservado para el número de propósito que indica el estándar de derivación utilizado para el resto de la ruta. Este número se registra como un índice endurecido. Por ejemplo, si la cartera sigue el estándar SegWit (BIP84), el comienzo de su ruta de derivación sería: `m/84'/`. BIP43 permite así clarificar los estándares a los que se adhiere cada software de monedero para tener una mejor interoperabilidad entre ellos. La normalización del resto de la ruta de derivación se describe en BIP44.

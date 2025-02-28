@@ -1,0 +1,13 @@
+question: Quelle étape du processus de coinjoin chaumien implique un changement d'identité sur Tor pour garantir l'anonymat ?
+
+answer: L'inscription des outputs.
+
+wrong_answers:
+  - L'inscription des inputs.
+  - La signature de la transaction.
+  - La diffusion de la transaction.
+
+explanation: |
+  Afin d'éviter que le coordinateur puisse lier un output spécifique avec un input, les utilisateurs changent d'identité Tor avant d'envoyer leurs adresses de réception en clair au coordinateur.
+
+reviewed: false

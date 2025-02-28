@@ -1,0 +1,9 @@
+question: What is the main goal of classical cryptography that is still present in modern cryptography?
+answer: The confidentiality of messages
+wrong_answers:
+  - The simplification of messages
+  - The repetition of messages
+  - The automation of message sending
+explanation: |
+  Classical cryptography was primarily focused on confidentiality, and this goal remains essential in modern cryptography, although other themes, such as integrity and authenticity, have been added.
+reviewed: false

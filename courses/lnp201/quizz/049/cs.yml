@@ -1,0 +1,9 @@
+question: Jaká je hlavní funkce Lightning faktury?
+answer: Požádat o platbu od odesílajícího uzlu
+wrong_answers:
+  - Poslat prostředky bez transakce na blockchainu
+  - Aktivovat HTLCs na kanálu
+  - Otevřít nový Lightning kanál
+explanation: |
+  Lightning faktura je žádost o platbu, kterou přijímající uzel přenáší odesílajícímu uzlu, aby inicioval platbu na Lightning Network.
+reviewed: false

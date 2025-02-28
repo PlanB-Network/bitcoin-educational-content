@@ -1,0 +1,5 @@
+---
+term: BIP30
+
+---
+Verbesserungsvorschlag für einen Soft Fork, der am 15. März 2012 eingeführt wurde, um das Problem der doppelten Transaktionskennungen zu lösen. Vor BIP30 war es technisch möglich, zwei verschiedene Transaktionen mit der gleichen Transaktionskennung (TXID) in der Blockchain zu haben. Dies war bei Coinbase-Transaktionen zweimal der Fall: Die Transaktion in Block 91.880 hat die gleiche TXID wie die Coinbase-Transaktion in Block 91.722, und die Transaktion in Block 91.842 hat die gleiche TXID wie die Coinbase-Transaktion in Block 91.812. BIP30 hat diesen Fehler durch eine neue, einfache Regel behoben: Keine neue Transaktion kann dieselbe TXID wie eine zuvor aufgezeichnete Transaktion haben, es sei denn, die ursprüngliche Transaktion wurde vollständig ausgegeben (d. h. alle ihre Ausgaben wurden verwendet). Diese Soft Fork wurde mit der Flag-Day-Methode aktiviert. Es handelt sich also um eine der ersten UASFs.

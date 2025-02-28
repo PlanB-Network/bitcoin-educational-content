@@ -1,0 +1,11 @@
+question: Mis vahe on nõudlusest tingitud ja kuludest tingitud inflatsioonil?
+answer: Nõudlusest tingitud inflatsioon on olukord, kus majanduses nõudlus ületab olemasoleva tootmise, samas kui kuludest tingitud inflatsioon on seotud tootmiskulude tõusuga.
+wrong_answers:
+  - Nõudlusest tingitud inflatsioon on seotud tootmiskulude tõusuga, samas kui kuludest tingitud inflatsioon on olukord, kus majanduses nõudlus ületab olemasoleva tootmise.
+  - Nõudlusest tingitud ja kuludest tingitud inflatsioon on samad, mõlemad viitavad olukorrale, kus majanduses nõudlus ületab olemasoleva tootmise.
+  - Nõudlusest tingitud ja kuludest tingitud inflatsioon on samad, mõlemad viitavad tootmiskulude tõusule.
+explanation: |
+  Peatükk selgitab, et nõudlusest tingitud inflatsiooni kirjeldatakse sageli
+  olukorrana, kus majanduses nõudlus ületab olemasoleva tootmise. Teisest
+  küljest on kuludest tingitud inflatsioon seotud tootmiskulude tõusuga.
+reviewed: false

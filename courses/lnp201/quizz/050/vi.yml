@@ -1,0 +1,9 @@
+question: Tại sao một người bán có thể thực hiện một khoản thanh toán giả tạo trong một kênh?
+answer: Để chuyển thanh khoản sang phía đối diện
+wrong_answers:
+  - Để giảm phí định tuyến
+  - Để tăng tổng dung lượng của các kênh của họ
+  - Để khóa vốn lâu dài
+explanation: |
+  Bằng cách thực hiện một khoản thanh toán giả tạo, người bán chuyển thanh khoản từ phía của họ sang phía đối diện của kênh, do đó giải phóng khả năng tiếp nhận thanh toán đến.
+reviewed: false

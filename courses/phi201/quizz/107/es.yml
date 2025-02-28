@@ -1,0 +1,9 @@
+question: ¿Cuál es la crítica de Hayek al socialismo?
+answer: Critica los medios utilizados por el socialismo para alcanzar sus objetivos, como la planificación central y la eliminación de la propiedad privada.
+wrong_answers:
+  - Rechaza los objetivos del socialismo como la justicia y la igualdad.
+  - Piensa que el socialismo es una doctrina demasiado antigua.
+  - Ninguna de las anteriores.
+explanation: |
+  Hayek critica al socialismo no por sus objetivos, sino por sus métodos, como la planificación central y la abolición de la propiedad privada, los cuales considera peligrosos para la libertad individual y la eficiencia económica.
+reviewed: false

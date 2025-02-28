@@ -1,0 +1,13 @@
+question: Qual è l'incentivo economico nell'usare un miner di Bitcoin invece di un semplice termosifone elettrico?
+answer: Il miner non solo fornisce calore ma anche una ricompensa in Bitcoin.
+wrong_answers:
+  - Il miner utilizza meno elettricità rispetto a un semplice termosifone elettrico.
+  - Il miner produce più calore rispetto a un semplice termosifone elettrico.
+  - Il miner è più economico di un semplice termosifone elettrico.
+explanation: |
+  La differenza nell'usare un miner rispetto a un semplice termosifone
+  elettrico risiede nel fatto che il miner non solo fornisce
+  calore ma anche una ricompensa in Bitcoin. Questa ricompensa aggiuntiva
+  potrebbe aiutare ad alleviare le preoccupazioni riguardo l'alto consumo
+  energetico dei miner.
+reviewed: true

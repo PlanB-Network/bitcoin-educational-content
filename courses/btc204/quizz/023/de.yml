@@ -1,0 +1,9 @@
+question: Wenn wir eine Transaktion beobachten, die 6 UTXOs als Eingaben und nur ein UTXO als Ausgabe hat, welche wahrscheinliche Interpretation können wir daraus ziehen?
+answer: Alle UTXOs in den Eingaben gehörten demselben Benutzer, und dieser Benutzer ist immer noch im Besitz des UTXO in der Ausgabe.
+wrong_answers:
+  - Die UTXOs in den Eingaben stammten von verschiedenen Benutzern, die für eine einzelne Transaktion zusammenarbeiteten.
+  - Alle UTXOs in den Eingaben gehörten demselben Benutzer, und der in der Ausgabe gehört jetzt einem anderen Benutzer.
+  - Die UTXOs in den Eingaben kamen von 2 verschiedenen Benutzern, und der in der Ausgabe gehört immer noch diesen 2 Benutzern.
+explanation: |
+  Wir befinden uns wahrscheinlich in der Präsenz einer Konsolidierung. Daher gibt es ein gemeinsames Eigentum an den Eingaben und der Ausgabe.
+reviewed: false

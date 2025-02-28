@@ -4,7 +4,7 @@ name: Ledger Nano S
 description: Comment configurer votre appareil Ledger Nano S
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 Portefeuille physique à froid - 60 € - Débutant - Pour sécuriser de 2 000 € à 50 000 €
 
@@ -212,3 +212,8 @@ Conseils :
 
 Adresse Lightning statique : dandysack84@walletofsatoshi.com
 https://armantheparman.com/ledgersparrow/'
+
+Pour approfondir ce sujet et renforcer la sécurité de votre portefeuille sur une Ledger Nano avec une passphrase BIP39, je vous invite à consulter ce tutoriel complet :
+
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+

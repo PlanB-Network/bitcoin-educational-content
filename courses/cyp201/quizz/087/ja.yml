@@ -1,0 +1,9 @@
+question: SegWit v0アドレスと比較して、SegWit v1 (P2TR) アドレスのユニークな特徴は何ですか？
+answer: アドレスに生の公開鍵を直接使用します。
+wrong_answers:
+  - base58checkでエンコードされています。
+  - 有効であるためには2つの署名が必要です。
+  - アドレスに公開鍵ハッシュを使用します。
+explanation: |
+  SegWit v1 (P2TR) アドレスは、公開鍵のハッシュを使用せず、直接Taproot公開鍵を使用します。
+reviewed: false

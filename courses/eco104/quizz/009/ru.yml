@@ -1,0 +1,10 @@
+question: Каково значение цитаты The Times 03/Jan/2009 Chancellor on brink of second bailout for banks в первом блоке Bitcoin?
+answer: Это подчеркивает способность нашей финансовой системы социализировать убытки
+wrong_answers:
+  - Это означает признание Сатоши газетой The Times
+  - Это дает отличный пример того, как спасательные операции принесли пользу нашему обществу
+  - Это показывает способность Bitcoin хранить сообщения в блокчейне
+explanation: |
+  Это ссылка на статью газеты The Times [article](https: //www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h), отражающую опасения Сатоши о том, что банки занимаются рискованным поведением с небольшими 
+  последствиями для себя, и что убытки будут распределены среди держателей валюты.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Mikä on säästöjen rooli epävarmoina aikoina?
+answer: Säästöt toimivat keinona epävarmuutta vastaan tarjoten taloudellisia varantoja ennakoimattomien tilanteiden hallintaan.
+wrong_answers:
+  - Säästöt eivät ole tarpeellisia epävarmoina aikoina.
+  - Säästöjä käytetään talouden elvyttämiseen epävarmoina aikoina.
+  - Säästöjä käytetään velkojen maksuun epävarmoina aikoina.
+explanation: |
+  Säästöt ovat aina olleet keino epävarmuutta vastaan. Taloudellisten varantojen
+  olemassaolo ennakoimattomien tilanteiden hallitsemiseksi edistää mielenrauhaa ja vahvistaa
+  sosiaalista yhteenkuuluvuutta.
+reviewed: false

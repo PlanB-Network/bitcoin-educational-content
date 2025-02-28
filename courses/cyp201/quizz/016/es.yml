@@ -1,0 +1,9 @@
+question: ¿Qué algoritmo de firma se introdujo en Bitcoin con Taproot?
+answer: Esquema de firma Schnorr
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  El esquema de firma Schnorr se introdujo en noviembre de 2021 con la actualización de Taproot.
+reviewed: false

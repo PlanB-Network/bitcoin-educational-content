@@ -1,9 +1,0 @@
-question: Come potrebbe il Lightning Network cambiare potenzialmente i modelli di pagamento?
-answer: Gli utenti potrebbero essere addebitati al minuto, o addirittura al secondo, per il tempo che trascorrono utilizzando un servizio.
-wrong_answers:
-  - Gli utenti potrebbero essere addebitati una tariffa fissa per l'utilizzo di un servizio.
-  - Gli utenti potrebbero essere addebitati in base alla quantità di dati che utilizzano.
-  - Gli utenti potrebbero essere addebitati in base al numero di transazioni che effettuano.
-explanation: |
-  Con il Lightning Network, invece di pagare un abbonamento mensile per un servizio, gli utenti potrebbero essere addebitati al minuto, o addirittura al secondo, per il tempo che trascorrono utilizzando il servizio.
-reviewed: false

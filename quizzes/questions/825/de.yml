@@ -1,9 +1,0 @@
-question: Warum ist es wichtig, zufällig generierte Passwörter zu verwenden?
-answer: Sie bieten ein höheres Maß an Sicherheit und sind widerstandsfähiger gegen Brute-Force-Angriffe.
-wrong_answers:
-  - Sie sind leichter zu merken.
-  - Sie sind kürzer und einfacher.
-  - Sie werden von den meisten Online-Diensten benötigt.
-explanation: |
-  Zufällig generierte Passwörter bieten ein höheres Maß an Sicherheit, da sie widerstandsfähiger gegen Brute-Force-Angriffe sind, bei denen versucht wird, Passwörter durch Ausprobieren aller möglichen Kombinationen von Zeichen zu erraten.
-reviewed: false

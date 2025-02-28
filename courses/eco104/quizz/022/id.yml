@@ -1,0 +1,10 @@
+question: Bagaimana stablecoin membantu mengurangi biaya yang terkait dengan remitansi?
+answer: Dengan menawarkan biaya lebih rendah daripada layanan tradisional
+wrong_answers:
+  - Dengan menyediakan layanan transfer uang gratis
+  - Dengan memberikan individu tarif tukar yang lebih baik daripada layanan tradisional
+  - Dengan mendigitalkan mata uang fiat
+explanation: |
+  Stablecoin, tidak seperti layanan transfer uang tradisional, memiliki biaya yang 
+  jauh lebih rendah karena mereka tidak memerlukan perantara seperti bank atau 
+  layanan transfer uang.

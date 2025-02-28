@@ -1,0 +1,6 @@
+description: |
+  BTCPay Server on itse-hostattava, avoimen lähdekoodin Bitcoin-maksuprosessori.
+
+  Tämä ohjelmisto mahdollistaa Bitcoin (BTC) maksujen vastaanottamisen suoraan lompakkoosi ilman kuluja tai kolmannen osapuolen välittäjää. Se tarjoaa parannetun yksityisyyden ja turvallisuuden, muokattavan käyttöliittymän sekä ominaisuuksia sekä e-kauppaan että kassapisteiden käyttöön. Alusta tukee integraatiota erilaisten e-kauppa-alustojen, kuten WordPressin, Magneton, Drupalin ja muiden kanssa. Se on monipuolinen ratkaisu yrityksille, hyväntekeväisyysjärjestöille, sisällöntuottajille ja yksilöille, jotka etsivät itsehallinnollista Bitcoin-maksujärjestelmää.
+contributors:
+  - rabbit-hole

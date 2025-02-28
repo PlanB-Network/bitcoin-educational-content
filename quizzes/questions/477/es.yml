@@ -1,9 +1,0 @@
-question: ¿Cuál es el estándar más comúnmente utilizado para una frase de recuperación de 24 palabras en una billetera de Bitcoin?
-answer: Una entropía de 256 bits.
-wrong_answers:
-  - Una entropía de 128 bits.
-  - Una entropía de 160 bits.
-  - Una entropía de 512 bits.
-explanation: |
-  El estándar más comúnmente utilizado para una frase de recuperación de 24 palabras es una entropía de 256 bits.
-reviewed: false

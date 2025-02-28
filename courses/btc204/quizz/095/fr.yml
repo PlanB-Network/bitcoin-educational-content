@@ -1,0 +1,13 @@
+question: Qu'indique l'anonset prospectif ?
+
+answer: La taille du groupe d'UTXOs indiscernables en sortie de cycles.
+
+wrong_answers:
+  - La taille du groupe d'UTXOs indiscernables en entrée de cycles.
+  - La taille du groupe d'UTXOs indiscernables dans une pool.
+  - Le nombre de transactions nécessaires pour atteindre l'anonymat.
+
+explanation: |
+  L'anonset prospectif indique la taille du groupe parmi lequel se cache l'UTXO étudié en sortie de cycle, sachant l'UTXO en entrée, c'est-à-dire le nombre de pièces indifférenciables présentes au sein de ce groupe.
+
+reviewed: false

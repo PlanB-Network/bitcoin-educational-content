@@ -1,0 +1,5 @@
+---
+term: BIP16
+
+---
+BIP16 esitteli käsitteen *Pay-to-Script-Hash* (P2SH), joka tarkoittaa "maksa käsikirjoituksen hashista". Alun perin vuonna 2012 ehdotetun ja vuonna 2013 aktivoidun BIP16:n tavoitteena oli yksinkertaistaa monimutkaisia skriptejä vaativien transaktioiden, kuten moniäänisten transaktioiden, käyttöä sallimalla käyttäjien maksaa itse skriptin sijaan sen skriptin hashille, jota tarvitaan kyseisten bitcoinien käyttämiseen. Tämä innovaatio vähensi alkuperäisessä transaktiossa tarvittavien tietojen määrää ja siirsi täydellisen käsikirjoituksen toimittamisesta aiheutuvan taakan bitcoineja käyttävälle osapuolelle. Se mahdollisti myös sen, että käsikirjoitus paljastui vasta silloin, kun bitcoineja käytettiin, eikä vasta kuittaushetkellä. BIP16:lla on historiallista merkitystä, sillä se on yksi ensimmäisistä merkittävistä muutoksista Bitcoin-protokollaan Nakamoton vetäydyttyä vuonna 2011. Tästä BIP:stä käytiin erittäin kiivaita keskusteluja, jotka saivat jopa Gavin Andresenin, Satoshin seuraajan johtavana ylläpitäjänä, jäämään lomalle. Lukuisia muita ehdotuksia oli olemassa, ja jotkut niistä olivat jopa lähellä aktivoitua BIP16:n sijasta.

@@ -1,0 +1,13 @@
+question: Mikä on mnemoninen lauseke Bitcoin-lompakossa?
+answer: 12 tai 24 sanan lista, jonka avulla voit päästä käsiksi bitcoineihisi.
+wrong_answers:
+  - Valittu salasana Bitcoin-lompakon käyttöön.
+  - Koodi Bitcoin-siirtojen salaamiseen.
+  - Salainen palautuslauseke, joka tuhoaa Bitcoin-lompakon tarvittaessa.
+explanation: |
+  Vuodesta 2017 lähtien yksityinen avain voidaan koodata yksinkertaiseen
+  12 tai 24 sanan listaan, jota kutsutaan mnemoniseksi lausekkeeksi. Tämä lauseke
+  on varmuuskopio Bitcoin-lompakostasi, joten se mahdollistaa
+  pääsyn bitcoineihisi käyttämällä mitä tahansa Bitcoin-lompakko
+  ohjelmistoa/sovellusta.
+reviewed: true

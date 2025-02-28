@@ -1,0 +1,9 @@
+question: ¿Por qué el cifrado por desplazamiento es vulnerable a ataques de fuerza bruta?
+answer: Porque solo tiene 26 posibles claves
+wrong_answers:
+  - Porque utiliza una clave pública
+  - Porque se basa en cifrado simétrico
+  - Porque utiliza números aleatorios
+explanation: |
+  El cifrado por desplazamiento es fácilmente susceptible a ataques de fuerza bruta porque solo tiene 26 posibles claves, de 0 a 25, debido al uso del módulo 26 que a su vez depende del tamaño del alfabeto. No se pueden usar claves válidas más grandes, ya que de todos modos serían equivalentes a una clave entre 0 y 25. Por lo tanto, es suficiente probar cada una de ellas para encontrar el mensaje.
+reviewed: false

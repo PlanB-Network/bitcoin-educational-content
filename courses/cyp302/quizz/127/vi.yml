@@ -1,0 +1,8 @@
+question: Khái niệm toán học nào là cơ sở của sự trao đổi khóa Diffie-Hellman?
+answer: Một hàm một chiều với một cánh cửa sau
+wrong_answers:
+  - Một hàm mũ nghịch đảo
+  - Một thuật toán băm mật mã
+  - Một phép chia mô-đun đơn giản
+explanation: |
+  Diffie-Hellman dựa trên một hàm một chiều dễ dàng tính toán theo một hướng nhưng gần như không thể đảo ngược mà không có một mảnh thông tin bí mật, được gọi là cánh cửa sau.

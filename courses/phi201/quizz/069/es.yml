@@ -1,0 +1,9 @@
+question: ¿Cuál era la actitud de Turgot hacia la verdad religiosa?
+answer: La verdad religiosa es un asunto de conciencia individual y no puede ser impuesta por ninguna autoridad.
+wrong_answers:
+  - La verdad religiosa es relativa y depende de la cultura y época en la que uno vive.
+  - La verdad religiosa es inaccesible para el hombre y no puede ser objeto de ninguna certeza.
+  - La verdad religiosa debe ser determinada por el poder político e impuesta a todos los ciudadanos.
+explanation: |
+  Turgot consideraba la verdad religiosa como un asunto personal que pertenece a la conciencia individual, afirmando que la autoridad no tiene el derecho de imponer creencias religiosas a los individuos.
+reviewed: false

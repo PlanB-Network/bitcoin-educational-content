@@ -1,0 +1,11 @@
+question: Perché l'esperienza pratica è importante nella cybersecurity?
+answer: Ti permette di applicare le tue conoscenze teoriche in situazioni reali
+wrong_answers:
+  - È un requisito per tutti i lavori nel campo della cybersecurity
+  - È più importante della conoscenza accademica
+  - È l'unico modo per imparare sulla cybersecurity
+explanation: |
+  Il capitolo sottolinea l'importanza dell'esperienza
+  pratica poiché permette di applicare le proprie conoscenze
+  teoriche in situazioni reali.
+reviewed: true

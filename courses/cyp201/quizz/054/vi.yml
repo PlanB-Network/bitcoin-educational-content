@@ -1,0 +1,9 @@
+question: Vai trò chính của cụm từ bí mật trong ví HD Bitcoin là gì?
+answer: Để thay đổi việc phát sinh khóa nhằm tăng cường bảo mật
+wrong_answers:
+  - Giải mã các giao dịch đang chờ xử lý
+  - Tạo UTXOs của ví
+  - Bảo vệ quyền truy cập vào ví bằng Face ID
+explanation: |
+  Cụm từ bí mật hoạt động như một yếu tố bảo mật thứ hai, thay đổi hạt giống phát sinh khóa để ngăn chặn quyền truy cập vào ví trong trường hợp cụm từ ghi nhớ bị xâm phạm.
+reviewed: false

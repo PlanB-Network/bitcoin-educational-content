@@ -4,7 +4,7 @@ name: Attakaï
 description: transformação de um S9 em aquecimento residencial
 ---
 
-![capa](assets/cover.png)
+![capa](assets/cover.webp)
 
 # Attakai - a mineração em casa tornada possível e acessível!
 

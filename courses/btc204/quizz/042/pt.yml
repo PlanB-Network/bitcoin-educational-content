@@ -1,0 +1,9 @@
+question: Entre esses riscos, qual não está associado a trocas P2P em dinheiro?
+answer: Risco de vazamento de dados.
+wrong_answers:
+  - Risco para a segurança pessoal.
+  - Risco de roubo.
+  - Risco legal.
+explanation: |
+  Trocas P2P em dinheiro apresentam muitos riscos, mas não exigem a realização de um KYC. Portanto, não há risco de vazamento de dados.
+reviewed: false

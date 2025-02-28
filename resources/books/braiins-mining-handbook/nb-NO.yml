@@ -1,0 +1,15 @@
+title: "Bitcoin Mining Handbook"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  Den første boken i serien, Bitcoin Mining Handbook, starter med det grunnleggende
+  av gruvedrift, forklaring av insentivene til bevis på arbeid, noen praktiske tips for
+  gruvedrift selv, og oppklare en vanlig misforståelse ved å forklare at
+  gruvearbeidere IKKE løser komplekse matematiske problemer. Så dykker den litt dypere,
+  om fremveksten av tilpasset fastvare for gruvearbeidere, viktigheten av
+  Stratum V2-protokolloppgradering, og den forretningsmessige siden av gruveindustrien.
+  Til slutt avsluttes boken med et utvalg av de fineste gruvememene fra tidlig
+  2022.
+contributors:
+  - another-satoshi

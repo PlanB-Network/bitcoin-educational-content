@@ -4,7 +4,7 @@ name: Kraken
 description: How to use kraken
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 kraken (https://www.kraken.com/) is a Bitcoin Buy-Sell Platform, it's KYC and LN Compatible.
 

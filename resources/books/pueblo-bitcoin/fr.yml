@@ -1,0 +1,14 @@
+title: "Le village du bitcoin"
+publication_year: 2023
+cover: cover_en.webp
+original: true
+description: |
+  Avec Le Village du Bitcoin, l'auteur nous emmène dans un voyage instructif à travers cette technologie, explorant les origines de l'argent jusqu'au cœur du protocole informatique. Il propose également des réflexions sur les impacts sociaux et politiques, définissant les bases que Bitcoin pose pour une société plus juste et plus consciente.
+contributors:
+  - another-satoshi
+original_language: en
+proofreading:
+  - language: en
+    urgency: 1
+    contributors_id:
+      - davidecoltro

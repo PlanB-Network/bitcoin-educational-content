@@ -1,0 +1,9 @@
+question: 模式在 RGB 中扮演什么角色？
+answer: 定义合同变量、规则和业务逻辑
+wrong_answers:
+  - 参加者之间交换寄售物品
+  - 验证比特币交易中的 Pedersen 承诺
+  - 为每个 UTXO 创建密封定义
+explanation: |
+  模式构造了合约的状态，并确定了允许的转换和验证条件。
+reviewed: false

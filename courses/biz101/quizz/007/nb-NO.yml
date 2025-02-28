@@ -1,0 +1,9 @@
+question: Hvilket av følgende beskriver best hvordan Bitcoin-transaksjoner oppnår finalitet?
+answer: Når transaksjonene er registrert i blokkjeden, er de uforanderlige og kan ikke endres.
+wrong_answers:
+  - Transaksjoner kan reverseres av bankene hvis det oppstår en tvist.
+  - Brukerne må få godkjenning fra flere offentlige instanser for å fullføre en transaksjon.
+  - Alle deltakere kan redigere tidligere transaksjoner når de vil, hvis de har en spesiell kode.
+explanation: |
+  Bitcoins blokkjede er en manipuleringssikker hovedbok. Når en transaksjon er bekreftet og inkludert i en blokk, blir den en del av det permanente registeret, noe som sikrer at den er endelig.
+reviewed: false

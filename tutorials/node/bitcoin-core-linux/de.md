@@ -3,7 +3,7 @@ name: Bitcoin Core-Knotenpunkt (Linux)
 description: Führen Sie Ihren eigenen Knotenpunkt mit Bitcoin Core aus
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 # Führen Sie Ihren eigenen Knotenpunkt mit Bitcoin Core aus
 

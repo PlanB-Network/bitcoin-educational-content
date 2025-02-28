@@ -1,0 +1,9 @@
+question: Qui a découvert l'heuristique de la réutilisation d'adresse de réception ?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  La première personne qui a évoqué ce concept est Satoshi Nakamoto dans la partie 10 du White Paper de Bitcoin.
+reviewed: false

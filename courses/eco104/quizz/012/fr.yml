@@ -1,0 +1,12 @@
+question: Quel avantage le réseau Bitcoin offre-t-il par rapport aux systèmes financiers traditionnels ?
+answer: Décentralisation et sécurité
+wrong_answers:
+  - Taux d'inflation accrus
+  - Dépendance vis-à-vis des intermédiaires
+  - Contrôle centralisé des transactions
+explanation: |
+  Le réseau décentralisé de Bitcoin offre un moyen sûr et efficace de 
+  réaliser des transactions sans nécessiter d'intermédiaires ou de tiers. 
+  Cela réduit le risque de censure et de modifications non autorisées des transactions,
+  tout en augmentant la confidentialité.
+reviewed: true

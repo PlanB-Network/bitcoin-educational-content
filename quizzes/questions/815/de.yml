@@ -1,9 +1,0 @@
-question: Was ist Ransomware?
-answer: Eine Art von bösartiger Software, die Benutzerdaten verschlüsselt und ein Lösegeld verlangt, um sie zu entschlüsseln.
-wrong_answers:
-  - Eine Art von Antivirensoftware.
-  - Eine Art von Software zur Datenwiederherstellung.
-  - Eine Art von Software zur Datensicherung.
-explanation: |
-  Ransomware ist eine Art von bösartiger Software, die Benutzerdaten verschlüsselt und ein Lösegeld verlangt, um sie zu entschlüsseln. Sie wird immer häufiger und kann für ein Unternehmen oder eine Einzelperson sehr lästig sein.
-reviewed: false

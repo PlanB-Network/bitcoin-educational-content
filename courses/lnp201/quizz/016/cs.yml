@@ -1,0 +1,9 @@
+question: Kdy je transakce závazku publikována na Bitcoin blockchainu?
+answer: Nakonec, když je kanál uzavřen
+wrong_answers:
+  - Ihned po každém převodu v kanálu
+  - Před každou novou transakcí závazku
+  - Když jsou dostupné prostředky vyčerpány
+explanation: |
+  Transakce závazků jsou sestaveny a podepsány pro každou změnu alokace, ale jsou publikovány na blockchainu pouze nakonec v případě uzavření kanálu.
+reviewed: false

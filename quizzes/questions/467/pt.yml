@@ -1,9 +1,0 @@
-question: Qual é o objetivo da função de hash SHA-256 na geração de um bom número aleatório?
-answer: Ela reduz uma peça inicial de informação muito grande para 256 bits.
-wrong_answers:
-  - Ela aumenta o tamanho da informação inicial.
-  - Ela criptografa a informação inicial.
-  - Ela verifica a autenticidade da informação inicial.
-explanation: |
-  A função de hash SHA-256 é usada para reduzir uma peça inicial de informação muito grande para 256 bits. Esse processo ajuda na geração de um bom número aleatório, o que é crucial para a segurança das chaves privadas e das transações de Bitcoin.
-reviewed: false

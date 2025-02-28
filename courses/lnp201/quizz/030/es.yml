@@ -1,0 +1,8 @@
+question: ¿Cómo permite la Lightning Network enviar fondos a un nodo que no está conectado directamente?
+answer: Mediante el enrutamiento del pago a través de nodos intermediarios
+wrong_answers:
+  - Utilizando transacciones en cadena entre cada nodo
+  - Estableciendo automáticamente un canal temporal
+  - Enviando los fondos directamente con direcciones multisignatura
+explanation: |
+  La Lightning Network permite el enrutamiento de un pago a través de varios nodos intermediarios, sin requerir un canal directo entre el emisor y el receptor.

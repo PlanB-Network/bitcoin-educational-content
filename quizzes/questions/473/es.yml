@@ -1,9 +1,0 @@
-question: ¿Cuál es la principal ventaja de utilizar un nuevo par de claves para cada transacción de Bitcoin?
-answer: Mejora la seguridad.
-wrong_answers:
-  - Mejora la velocidad.
-  - Mejora el anonimato.
-  - Mejora la legalidad.
-explanation: |
-  Utilizar un nuevo par de claves para cada transacción mejora la seguridad de las transacciones de Bitcoin. Sin embargo, complica su respaldo y solo preserva parcialmente la confidencialidad.
-reviewed: false

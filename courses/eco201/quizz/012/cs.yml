@@ -1,0 +1,12 @@
+question: Jaký je hlavní cíl kurzu o Bitcoinu zmíněného v kapitole?
+answer: Hlavním cílem kurzu je vzdělávat nové nadšence pro Bitcoin v základech ekonomických principů.
+wrong_answers:
+  - Hlavním cílem kurzu je naučit nové nadšence pro Bitcoin, jak těžit Bitcoin.
+  - Hlavním cílem kurzu je naučit nové nadšence pro Bitcoin, jak investovat do Bitcoinu.
+  - Hlavním cílem kurzu je naučit nové nadšence pro Bitcoin, jak vytvořit vlastní kryptoměny.
+explanation: |
+  Kurz má za cíl vzdělávat nové nadšence pro Bitcoin o základních
+  principech ekonomie, zejména těch z Rakouské školy ekonomie.
+  Toto poznání je klíčové pro pochopení hodnoty a potenciálu Bitcoinu jako
+  alternativy k tradičním měnovým systémům.
+reviewed: false

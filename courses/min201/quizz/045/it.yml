@@ -1,0 +1,15 @@
+question: Qual è il principale vantaggio di possedere la propria attrezzatura per il mining?
+answer: Acquisire bitcoin vergini.
+wrong_answers:
+  - Evitare la necessità di acquistare direttamente Bitcoin.
+  - Realizzare un profitto dalla vendita successiva dell'attrezzatura.
+  - Evitare la necessità di fidarsi di altri minatori.
+explanation: |
+  Possedere la propria attrezzatura per il mining offre notevoli
+  vantaggi. Oltre alla soddisfazione personale di
+  contribuire attivamente alla sicurezza della rete Bitcoin
+  e vedere le ricompense cadere nel proprio portafoglio, c'è
+  l'aspetto attraente dei bitcoin vergini. Questi sono
+  bitcoin appena minati che non sono mai stati spesi e non
+  hanno alcuna storia a loro collegata.
+reviewed: true

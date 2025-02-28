@@ -1,0 +1,13 @@
+question: Was ist die Rolle der Benachrichtigungstransaktion in BIP47?
+
+answer: Den Zahlungscode an den Empfänger übermitteln und signalisieren, dass Zahlungen ankommen werden.
+
+wrong_answers:
+  - Die Bitcoin-Empfangsadresse für zukünftige Transaktionen über Zahlungscodes validieren.
+  - Den Empfang von Bitcoins durch den Empfänger mit BIP47 bestätigen.
+  - Die ephemeren privaten Schlüssel des Senders an den Empfänger senden, damit dieser die Bitcoins ausgeben kann.
+
+explanation: |
+  Die Benachrichtigungstransaktion ermöglicht die Übertragung des Zahlungscodes vom Sender zum Empfänger, sodass letzterer diesen kennen und später nur aus seinem Seed im Falle einer Wallet-Wiederherstellung finden kann. Wie der Name schon sagt, spielt sie auch eine Benachrichtigungsrolle.
+
+reviewed: false

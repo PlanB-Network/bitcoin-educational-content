@@ -1,0 +1,13 @@
+question: Quelle est la principale différence entre un ricochet renforcé et un ricochet classique ?
+
+answer: La répartition des transactions dans le temps
+
+wrong_answers:
+  - Le nombre de transactions utilisées
+  - Le type d'adresse utilisé
+  - Le nombre d'outputs dans les transactions
+
+explanation: |
+  Le ricochet renforcé assure que chaque transaction soit diffusée à un moment distinct et inscrite dans un bloc différent, alors que le ricochet classique diffuse toutes les transactions dans un intervalle de temps réduit.
+
+reviewed: false

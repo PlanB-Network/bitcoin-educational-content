@@ -1,0 +1,95 @@
+id: 557be706-35a9-4375-a563-d55ab5c69f55
+builder: Braiins
+
+category: pools
+
+level: advanced
+
+credits:
+  professor: case-memory
+
+# Proofreading metadata
+project_id: 9c8ef98b-a33c-4ccc-8d72-43299a47887b
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.02
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.06
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1.03
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.04
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.02
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.06
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.04
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5.98
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.06
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.02
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5.98
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.02
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5.0
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5.0
+
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.02
+tags:
+  - mining
+  - software

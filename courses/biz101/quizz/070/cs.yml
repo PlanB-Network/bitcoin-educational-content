@@ -1,0 +1,9 @@
+question: Jaké pokročilé funkce obvykle požadují firmy s profesionálním profilem?
+answer: Pokročilé přehledy a více správcovských rolí
+wrong_answers:
+  - Základní záznam transakcí a standardní účtenky
+  - Jednoduchá integrace peněženky a generování QR kódu
+  - Automatická konverze na fiat bez možnosti hlášení
+explanation: |
+  Profesionální firmy vyžadují přizpůsobitelné faktury, sofistikované výkazy a správu rolí, aby vyhovovaly jejich složitým pracovním postupům.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Apa peran utama dari dompet Bitcoin?
+answer: Mengelola dan mengamankan kunci privat
+wrong_answers:
+  - Menyimpan bitcoin pengguna
+  - Menjamin kerahasiaan transaksi secara otomatis
+  - Menghasilkan bitcoin untuk setiap pengguna
+explanation: |
+  Dompet Bitcoin tidak secara langsung menyimpan bitcoin tetapi mengelola kunci privat yang diperlukan untuk membuka UTXO yang mewakili bitcoin.

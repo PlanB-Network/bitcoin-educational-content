@@ -1,0 +1,9 @@
+question: Comment l'inflation affecte-t-elle le pouvoir d'achat des salariés au fil du temps ?
+answer: L'inflation érode le pouvoir d'achat car les salaires ont souvent du retard par rapport au taux réel d'inflation.
+wrong_answers:
+  - L'inflation augmente le pouvoir d'achat car les salaires augmentent plus rapidement que les prix.
+  - L'inflation n'a aucun effet sur le pouvoir d'achat.
+  - L'inflation n'affecte le pouvoir d'achat que de ceux qui investissent dans les marchés financiers.
+explanation: |
+  L'inflation conduit à une augmentation persistante des prix à la consommation, érodant le pouvoir d'achat des salariés puisque leurs salaires ont généralement du retard par rapport au taux réel d'inflation. Cela rend difficile pour les salariés d'atteindre leurs objectifs d'épargne à long terme et de maintenir leur niveau de vie.
+reviewed: true

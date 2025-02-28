@@ -1,0 +1,9 @@
+question: Která z těchto odpovědí není jedním ze 3 hlavních rizik pro uživatele podstupujícího KYC?
+answer: Nefungibilita zakoupených bitcoinů
+wrong_answers:
+  - Expozice státnímu dohledu
+  - Ulehčení onchain sledování
+  - Riziko úniku dat
+explanation: |
+  KYC zahrnuje riziko úniku dat, protože vaše informace jsou uloženy, riziko expozice státnímu dohledu, protože vaše informace mohou být předány nebo zabaveny, a riziko sledování, jelikož KYC může sloužit jako vstupní bod. Avšak KYC nesnižuje fungibilitu zakoupených bitcoinů.
+reviewed: false

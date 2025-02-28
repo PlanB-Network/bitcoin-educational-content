@@ -1,0 +1,7 @@
+---
+term: UASF
+
+---
+Acrónimo de "*User-Activated Soft Fork*" (bifurcación suave activada por el usuario). Describe una bifurcación suave en Bitcoin cuando es iniciada y aplicada por los usuarios de la red a través de sus nodos, sin depender de la aprobación de los mineros. Los nodos de la red actualizan su software para adoptar las nuevas reglas de la bifurcación suave, ¡y que caigan las fichas donde caigan!
+
+Utilizado habitualmente en situaciones de emergencia, especialmente cuando los mineros se oponen mayoritariamente a la adopción de una bifurcación suave, el UASF sirve como medio de presión para evitar una concentración excesiva de poder entre los mineros. En la práctica, la UASF se ha convertido incluso en una herramienta de disuasión, esgrimida por los operadores de nodos cuando los mineros abusan de su poder. Sin embargo, si el UASF se implanta realmente, conlleva riesgos, como la posibilidad de una escisión de la blockchain, creando una nueva cadena que podría carecer de valor económico y seguridad. La primera propuesta formal de un UASF vino del desarrollador Shaolin Fry, que impulsó el BIP148 en marzo de 2017 para presionar a los mineros que se negaban a señalar para SegWit.

@@ -1,9 +1,0 @@
-question: Was würde passieren, wenn ein Benutzer beschließt, anderen Regeln zu folgen, die die aktuellen Konsensregeln ungültig machen?
-answer: Der Knoten wird nicht mehr Teil des Bitcoin-Netzwerks sein.
-wrong_answers:
-  - Der Knoten wird Teil eines anderen Bitcoin-Netzwerks sein.
-  - Der Knoten wird vom Bitcoin-Netzwerk bestraft.
-  - Der Knoten wird vom Bitcoin-Netzwerk belohnt.
-explanation: |
-  Wenn ein Benutzer beschließt, anderen Regeln zu folgen, die die aktuellen Konsensregeln ungültig machen, wird dieser Knoten nicht mehr Teil des Bitcoin-Netzwerks sein.
-reviewed: false

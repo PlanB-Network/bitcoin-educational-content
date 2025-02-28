@@ -2,7 +2,15 @@
 name: Stonewall
 description: Entendiendo y utilizando transacciones Stonewall
 ---
-![cover stonewall](assets/cover.jpeg)
+![cover stonewall](assets/cover.webp)
+
+***ADVERTENCIA:** Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril, el uso de la aplicación Samourai Wallet ahora requiere una conexión a su propio Dojo para funcionar correctamente. Aparte de esto, las transacciones Stonewall no se ven afectadas en absoluto y pueden seguir realizándose sin problemas. De hecho, este tipo de transacciones se llevan a cabo de manera autónoma, sin necesidad de colaboración externa ni conexión a través de Soroban.*
+
+_Estamos siguiendo de cerca la evolución de este caso así como los desarrollos relacionados con las herramientas asociadas. Ten la seguridad de que actualizaremos este tutorial a medida que estén disponibles nuevas informaciones._
+
+_Este tutorial se proporciona únicamente con fines educativos e informativos. No respaldamos ni alentamos el uso de estas herramientas para fines criminales. Es responsabilidad de cada usuario cumplir con las leyes en su jurisdicción._
+
+---
 
 > *"Rompe las suposiciones del análisis de blockchain con dudas matemáticamente probables entre el emisor y el receptor de tus transacciones."*
 
@@ -31,7 +39,7 @@ Desde una perspectiva externa, el patrón de la transacción habría permanecido
 
 En resumen, las transacciones Stonewall y Stonewall x2 comparten una estructura idéntica. La distinción entre las dos radica en su naturaleza colaborativa. La transacción Stonewall se desarrolla individualmente, sin necesidad de colaboración. En contraste, la transacción Stonewall x2 depende de la cooperación entre dos individuos para su implementación.
 
-[**-> Descubre más sobre las transacciones Stonewall x2**](https://planb.network/tutorials/privacy/stonewall-x2)
+[**-> Descubre más sobre las transacciones Stonewall x2**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 ## ¿Cuál es el propósito de una transacción Stonewall?
 La estructura Stonewall añade una cantidad significativa de entropía a la transacción y oscurece el análisis de la cadena. Desde una perspectiva externa, tal transacción puede interpretarse como un pequeño coinjoin entre dos personas. Pero en realidad, al igual que la transacción Stonewall x2, es un pago. Este método, por lo tanto, crea incertidumbres en el análisis de la cadena, y puede incluso llevar a pistas falsas.
@@ -54,5 +62,4 @@ A diferencia de las transacciones Stowaway o Stonewall x2 (cahoots), la transacc
 ![Tutorial de Stonewall - Sparrow Wallet](https://youtu.be/su89ljkV_OI?si=1jNaSJGvECUYe6Or)
 
 **Recursos Externos:**
-- https://docs.samourai.io/en/spend-tools#stonewall ;
-- https://samouraiwallet.com/stonewall.
+- https://docs.samourai.io/en/spend-tools#stonewall.

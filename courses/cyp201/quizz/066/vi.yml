@@ -1,0 +1,8 @@
+question: Phần nào của kết quả HMAC-SHA512 được sử dụng làm mã chuỗi con?
+answer: 32 byte cuối
+wrong_answers:
+  - 32 byte đầu tiên
+  - Toàn bộ 64 byte
+  - Băm SHA256 của 32 byte giữa
+explanation: |
+  32 byte cuối của kết quả HMAC-SHA512 được sử dụng làm mã chuỗi cho khóa con.

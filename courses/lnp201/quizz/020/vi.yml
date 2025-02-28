@@ -1,0 +1,9 @@
+question: Rủi ro chính trong các giao dịch cam kết trên Mạng Lưới Lightning là gì?
+answer: Đăng một giao dịch cũ để lấy lại nhiều tiền hơn
+wrong_answers:
+  - Quên ký vào giao dịch cam kết
+  - Vô tình gửi tiền đến một kênh khác
+  - Chặn giao dịch bằng một thời gian chờ không phù hợp
+explanation: |
+  Rủi ro chính là một bên có thể cố gắng gian lận bằng cách đăng một giao dịch cam kết cũ, điều này có thể cho phép họ lấy lại những khoản tiền mà họ không còn quyền sở hữu.
+reviewed: false

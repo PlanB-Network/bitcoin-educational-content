@@ -1,0 +1,9 @@
+question: Tra questi 4 metodi di acquisizione di bitcoin, quale ti espone meno al rischio di identificazione delle chiavi?
+answer: Acquistare in P2P con contanti
+wrong_answers:
+  - Acquistare tramite una piattaforma regolamentata senza KYC
+  - Acquistare tramite una piattaforma regolamentata con KYC
+  - Acquistare tramite PayPal attraverso una piattaforma di matchmaking P2P
+explanation: |
+  Acquistare bitcoin peer-to-peer con contanti è il metodo che ti espone meno ai rischi di identificazione delle chiavi perché non richiede di passare attraverso una società regolamentata e non lascia tracce nel sistema bancario. Inoltre, questo metodo generalmente non richiede la divulgazione di informazioni personali.
+reviewed: false

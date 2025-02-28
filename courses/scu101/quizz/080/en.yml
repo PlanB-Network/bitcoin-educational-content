@@ -1,0 +1,9 @@
+question: Why is it advised to create two separate email addresses?
+answer: To separate general communications from account recovery.
+wrong_answers:
+  - To separate professional and personal communications.
+  - To create multiple accounts and increase online visibility.
+  - To receive more spam.
+explanation: |
+  Separating email addresses helps limit risks and better protect access to critical accounts.
+reviewed: false

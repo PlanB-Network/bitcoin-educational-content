@@ -1,9 +1,0 @@
-question: Quel est le problème de scalabilité de Bitcoin?
-answer: Le défi consiste à mettre en place un système monétaire capable de fournir un nombre croissant de transactions par seconde à mesure qu'il est adopté.
-wrong_answers:
-  - La difficulté de miner de nouveaux Bitcoins.
-  - La volatilité du prix du Bitcoin.
-  - Le manque de réglementation pour le Bitcoin.
-explanation: |
-  Le problème de scalabilité fait référence au défi de mettre en place un système monétaire capable de fournir un nombre croissant de transactions par seconde à mesure qu'il est adopté.
-reviewed: false

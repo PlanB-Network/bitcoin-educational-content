@@ -1,9 +1,0 @@
-question: Quanti bitcoin si stima siano in circolazione dopo il primo dimezzamento?
-answer: 10.500.000 BTC
-wrong_answers:
-  - 5.250.000 BTC
-  - 15.750.000 BTC
-  - 21.000.000 BTC
-explanation: |
-  Dopo il primo dimezzamento, che avviene al blocco 210.000, si stima che il numero di bitcoin in circolazione sia di 10.500.000 BTC, che corrisponde alla metà del numero totale di bitcoin che saranno in circolazione.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Co umožňuje příznak sighash SIGHASH_NONE?
+answer: Modifikaci výstupů po podpisu
+wrong_answers:
+  - Modifikaci vstupů po podpisu
+  - Pokrytí všech vstupů a výstupů
+  - Omezení modifikací pouze na jeden výstup
+explanation: |
+  SIGHASH_NONE pokrývá pouze vstupy, což zanechává výstupy modifikovatelné po podpisu.
+reviewed: false

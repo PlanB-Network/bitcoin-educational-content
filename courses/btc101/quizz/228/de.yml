@@ -1,0 +1,10 @@
+question: Wie niedrig sind die Gebühren für Transaktionen im Lightning-Netzwerk, oft weniger als...?
+answer: 0,5%.
+wrong_answers:
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+  Die Gebühren für Transaktionen im Lightning-Netzwerk sind extrem niedrig, oft
+  weniger als 0,5%.
+reviewed: true

@@ -1,0 +1,11 @@
+description: |
+  Hodl Hodl è una piattaforma di trading Bitcoin sicura e non custodiale che valorizza la tua privacy. Con oltre 7 anni di esperienza, la piattaforma facilita scambi anonimi peer-to-peer secondo le tue condizioni, supportando oltre 100 valute, con più di 100.000 utenti registrati e 50.000 scambi conclusi.
+
+  La piattaforma opera con contratti multisig (P2SH), il che significa che controlli le chiavi dei fondi in escrow durante l'intero scambio. Non è richiesta alcuna verifica, consentendo un'esperienza di trading senza soluzione di continuità e privata.
+
+  Il processo per iniziare a fare trading è semplice. Gli utenti stipulano un contratto e Hodl Hodl genera un indirizzo di escrow multisig unico. Il venditore deposita i bitcoin in escrow direttamente dal suo portafoglio e l'acquirente paga il venditore secondo il metodo di pagamento concordato. Infine, il venditore rilascia i bitcoin dall'escrow direttamente al portafoglio dell'acquirente, completando il contratto.
+
+  Hodl Hodl ti consente di creare un'offerta secondo le tue condizioni, impostare il tuo prezzo, utilizzare più metodi di pagamento e impostare un valore di stop-loss. Le trasparenti commissioni della piattaforma sono divise tra acquirente e venditore e sono dedotte dall'importo in BTC. Con Hodl Hodl, puoi fare trading a livello globale, utilizzando qualsiasi sistema di pagamento, per qualsiasi valuta.
+contributors:
+  - rabbit-hole
+  - another-satoshi

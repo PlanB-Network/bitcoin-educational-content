@@ -1,0 +1,9 @@
+question: Jaká matematická operace je základem bezpečnosti eliptické křivkové kryptografie?
+answer: Diskrétní logaritmus
+wrong_answers:
+  - Faktorizace prvočísel
+  - Výpočet kvadratických zbytků
+  - Diskrétní kubický problém
+explanation: |
+  Bezpečnost eliptické křivkové kryptografie je založena na obtížnosti řešení problému diskrétního logaritmu na těchto křivkách.
+reviewed: false

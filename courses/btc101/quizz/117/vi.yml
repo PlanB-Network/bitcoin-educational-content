@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto biến mất vào năm nào?
+answer: Vào năm 2010
+wrong_answers:
+  - Vào năm 2008
+  - Vào năm 2009
+  - Vào năm 2023
+explanation: |
+  Satoshi Nakamoto biến mất vào năm 2010, để lại tạo tác của mình cho cộng đồng.
+reviewed: true

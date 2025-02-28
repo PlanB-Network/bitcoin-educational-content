@@ -1,0 +1,12 @@
+question: Welche Nachricht ist im ersten Block der Bitcoin-Blockchain enthalten?
+answer: 03/Jan/2009 Kanzler am Rande des zweiten Rettungspakets für Banken.
+wrong_answers:
+  - Wir können eine große Schlacht im Rüstungswettlauf gewinnen und ein neues Territorium der Freiheit für mehrere Jahre erobern.
+  - Regierungen sind gut darin, die Köpfe von zentral gesteuerten Netzwerken wie Napster abzuschneiden, aber reine P2P-Netzwerke wie Gnutella und Tor scheinen sich zu behaupten.
+  - Keine der oben genannten.
+explanation: |
+  Der erste Block der Bitcoin-Blockchain, auch bekannt als
+  der Genesis-Block, enthält die Nachricht 03/Jan/2009
+  Kanzler am Rande des zweiten Rettungspakets für Banken, was
+  der Titel der Zeitung Time an diesem Tag ist, um den Genesis-Block zu datieren.
+reviewed: true

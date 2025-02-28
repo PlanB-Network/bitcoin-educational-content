@@ -1,0 +1,9 @@
+question: Was kann ich mit einer Rechnung bei einer RGB-Übertragung machen?
+answer: Geben Sie die Art der Transaktion, die Menge der benötigten Vermögenswerte und die Siegeldefinition des Empfängers an
+wrong_answers:
+  - Erstellen Sie eine neue Genesis für das Asset
+  - Generieren Sie ein neues Schema, um die Geschäftslogik des Assets zu ändern
+  - Aufbau eines PSBT, das die Bitcoin-Transaktion ersetzt
+explanation: |
+  Die Rechnung dient dazu, den Aussteller der Transaktion über die Art des Vorgangs, die Menge der zu übertragenden Vermögenswerte und den Bestimmungsort zu informieren (Siegeldefinition).
+reviewed: false

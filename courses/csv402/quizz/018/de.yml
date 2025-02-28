@@ -1,0 +1,9 @@
+question: Welche Operationen bestimmen die Entwicklung eines intelligenten Vertrags in RGB?
+answer: Zustandsübergang, Genese und Zustandsausdehnung
+wrong_answers:
+  - Siegelerstellung, Vertragserfüllung und endgültige Validierung
+  - UTXO-Übertragung, Prooferzeugung und Hash Commitment
+  - Übergangsbündel, Siegel für den einmaligen Gebrauch und Erzeugung von Valenzen
+explanation: |
+  Durch diese Vorgänge wird der Zustand des Vertrags erstellt oder geändert, wobei seine Gültigkeit durch Bitcoin-Anker garantiert wird.
+reviewed: false

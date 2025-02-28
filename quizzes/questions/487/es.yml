@@ -1,9 +1,0 @@
-question: ¿Cuál es la diferencia entre una frase de contraseña y una frase mnemotécnica en una billetera de Bitcoin?
-answer: La frase de contraseña es libre y puede tener un tamaño casi infinito, mientras que la frase mnemotécnica es estandarizada y debe seguir ciertas restricciones de tamaño, checksum y codificación.
-wrong_answers:
-  - La frase de contraseña es estandarizada, mientras que la frase mnemotécnica es libre y puede tener un tamaño casi infinito.
-  - La frase de contraseña y la frase mnemotécnica son iguales.
-  - La frase de contraseña es opcional, mientras que la frase mnemotécnica es obligatoria.
-explanation: |
-  Para derivar las claves de una billetera HD, tanto la frase mnemotécnica como la frase de contraseña son necesarias. La frase de contraseña es libre y puede tener un tamaño casi infinito. No se incluye en la frase mnemotécnica, que es estandarizada y debe seguir ciertas restricciones de tamaño, checksum y codificación.
-reviewed: false

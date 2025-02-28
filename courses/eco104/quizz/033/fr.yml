@@ -1,0 +1,12 @@
+question: Quel est un avantage des stablecoins centralisés malgré leur capacité à geler les fonds ?
+answer: Ils peuvent réagir rapidement pour protéger les utilisateurs dans certains scénarios
+wrong_answers:
+  - Ils offrent une décentralisation complète et une sécurité
+  - Ils ne sont soumis à aucune régulation ou intervention
+  - Ils opèrent indépendamment des forces de l'ordre
+explanation: |
+  Les stablecoins centralisés ont la capacité d'intervenir
+  lorsque cela est dans le meilleur intérêt des utilisateurs et la stabilité globale
+  du système, comme démontré par des exemples où le gel des fonds a été
+  utilisé pour protéger les consommateurs et empêcher les pirates de réaliser des profits.
+reviewed: true

@@ -1,9 +1,0 @@
-question: Qual è un modo per confermare che ti trovi sul sito che intendi visitare?
-answer: Controlla gli URL e il lucchetto piccolo nella barra degli indirizzi.
-wrong_answers:
-  - Controlla il numero di annunci sul sito.
-  - Controlla la velocità del sito.
-  - Controlla lo schema di colori del sito.
-explanation: |
-  Controllare gli URL e il lucchetto piccolo nella barra degli indirizzi è un modo per confermare che ti trovi sul sito che intendi visitare. Il lucchetto indica che il sito sta utilizzando il protocollo HTTPS, che crittografa i dati per uno scambio sicuro.
-reviewed: false

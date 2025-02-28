@@ -1,0 +1,5 @@
+---
+term: BIP322
+
+---
+Navrhuje nový standard, který by nahradil BIP137 pro podepisování zpráv soukromými klíči Bitcoin a jejich přidruženými adresami, aby bylo možné prokázat vlastnictví adresy. Tyto podpisy jsou užitečné pro různé aplikace, jako je důkaz finančních prostředků, audit a další použití vyžadující ověření adresy prostřednictvím jejího soukromého klíče. Oproti BIP137 rozšiřuje BIP322 standard podepisování zpráv nad rámec tradičních adres a používá přístup založený na skriptech. Umožňuje softwaru peněženky podepsat zprávu pro jakýkoli skript, který by mohl odemknout za účelem utrácení bitcoinů. Za tímto účelem metoda zahrnuje podepisování textu vytvořením podpisu pro virtuální bitcoinovou transakci. Pro tradiční adresy P2PKH zůstává BIP322 kompatibilní s tradičním formátem podpisu.

@@ -1,0 +1,8 @@
+question: ¿Qué permite lograr la técnica de apertura triangular a los nodos participantes?
+answer: Liquidez entrante y saliente en cada canal
+wrong_answers:
+  - Tarifas de enrutamiento reducidas
+  - Un número ilimitado de transacciones sin confirmación
+  - Un enlace directo con cada otro nodo de la red
+explanation: |
+  La técnica de apertura triangular permite a cada nodo lograr una liquidez equilibrada, tanto entrante como saliente, formando un bucle de canales entre varios participantes.

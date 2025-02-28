@@ -1,0 +1,9 @@
+question: Co představuje změna v transakci?
+answer: Výstup, který se vrací původnímu odesílateli transakce.
+wrong_answers:
+  - Poplatek vybíraný Bitcoinovou sítí.
+  - Výstup převedený na příjemce transakce.
+  - Bonus udělený odesílateli za rychlé transakce.
+explanation: |
+  Změna je výstup, který představuje část vstupů nevyužitých k pokrytí platby, a tedy se vrací původnímu odesílateli transakce.
+reviewed: false

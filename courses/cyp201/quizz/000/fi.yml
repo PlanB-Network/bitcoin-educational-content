@@ -1,0 +1,9 @@
+question: Mikä on hajautusfunktion päätehtävä?
+answer: Se muuntaa minkä tahansa pituisen tiedon kiinteänkokoiseksi sormenjäljeksi
+wrong_answers:
+  - Se salaa viestit tekemällä ne lukukelvottomiksi
+  - Sitä käytetään vain Bitcoin-ohjelmiston eheyden varmistamiseen
+  - Se luo yksityisiä avaimia Bitcoin-lompakoille
+explanation: |
+  Hajautusfunktio muuntaa minkä tahansa kokoisen datan kiinteänkokoiseksi hajautusarvoksi, mikä on ratkaisevan tärkeää monissa Bitcoinin sovelluksissa.
+reviewed: false

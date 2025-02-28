@@ -1,0 +1,9 @@
+question: Warum werden UTXOs oft mit Banknoten verglichen?
+answer: Sie müssen in ihrer Gesamtheit ausgegeben werden
+wrong_answers:
+  - Sie können mehrmals verwendet werden, bis sie aufgebraucht sind
+  - Sie sind nur in bestimmten spezifischen Transaktionen nutzbar
+  - Sie repräsentieren kleine feste Beträge von Bitcoins
+explanation: |
+  Wie eine Banknote muss ein UTXO in einer Transaktion vollständig ausgegeben werden, und jeglicher Überschuss wird dem Sender als Wechselgeld zurückgegeben.
+reviewed: false

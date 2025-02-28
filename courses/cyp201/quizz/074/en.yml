@@ -1,0 +1,9 @@
+question: What does the index /84'/ at depth 1 of a derivation path indicate?
+answer: The P2WPKH standard (SegWit v0)
+wrong_answers:
+  - The P2TR standard (SegWit v1)
+  - A Bitcoin testnet currency
+  - A Bitcoin mainnet currency
+explanation: |
+  The index /84'/ is defined in BIP84 to indicate the use of the SegWit v0 standard with P2WPKH addresses at depth 1 (that of the derivation target).
+reviewed: false

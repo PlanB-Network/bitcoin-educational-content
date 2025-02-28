@@ -1,0 +1,9 @@
+question: Kuidas Lightning Network parandab Bitcoin'i tehingute skaleeritavust?
+answer: See kasutab p2p võrgustikku maksekanalitest, et luua tehinguid väljaspool plokiahelat.
+wrong_answers:
+  - See kasutab usaldusväärset tsentraliseeritud osapoolt tehingute tõhusaks töötlemiseks.
+  - See kasutab teist plokiahelat, et koondada tehinguid suurtesse plokkidesse.
+  - See kasutab usaldusväärseid kasutajaid, et luua bitcoinide föderaalreserv.
+explanation: |
+  Lightning Network suudab maksekanalite kasutamisega suunata tehinguid väljaspool plokiahelat madalamate kuludega ja kiiremini.
+reviewed: true

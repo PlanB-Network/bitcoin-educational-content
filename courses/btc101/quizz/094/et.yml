@@ -1,0 +1,10 @@
+question: Mis on multisig rahakoti kasutamise risk?
+answer: Mitte omada piisavalt erinevaid osi multisig varukoopiast
+wrong_answers:
+  - Omada piisavalt erinevaid osi multisig varukoopiast
+  - Jagada võtmeid teiste osapooltega
+  - Mitte jagada võtmeid teiste osapooltega
+explanation: |
+  Multisig rahakoti kasutamisel tuleks iga multisigi osa hoida erinevates asukohtades. See on seetõttu, et multisig nõuab tehingu sooritamiseks mitme allkirja olemasolu, seega on vajalik teatud arv rahakotte, ja iga osa hoidmine erinevas asukohas lisab
+  lisaturvalisuse kihi.
+reviewed: true

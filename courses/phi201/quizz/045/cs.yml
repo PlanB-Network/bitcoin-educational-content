@@ -1,0 +1,9 @@
+question: Jaká je hlavní teze Tomáše Akvinského ohledně vztahu mezi rozumem a vírou?
+answer: Rozum a víra se doplňují a mohou se navzájem podporovat.
+wrong_answers:
+  - Rozum a víra jsou dvě nezávislé a protikladné zdroje poznání.
+  - Všechny ostatní odpovědi jsou správné.
+  - Víra je nadřazená rozumu a může se obejít bez jeho argumentů.
+explanation: |
+  Tomáš Akvinský tvrdí, že rozum a víra se doplňují: rozum může pomoci pochopit a vysvětlit pravdy víry, zatímco víra směřuje rozum k pravdám, které by jinak byly pro něj nedostupné.
+reviewed: false

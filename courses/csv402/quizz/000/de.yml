@@ -1,0 +1,9 @@
+question: Was ist die Hauptfunktion der Blockchain in dem von RGB verwendeten Paradigma der clientseitigen Validierung?
+answer: Zeitstempel erstellen und Doppelausgaben verhindern
+wrong_answers:
+  - Alle Zustandsübergänge speichern
+  - Replikation von Smart-Contract-Daten
+  - Gewährleistung der globalen Datenverfügbarkeit
+explanation: |
+  Die Bitcoin-Blockchain wird in RGB verwendet, um Zusagen mit einem Zeitstempel zu versehen und Doppelausgaben zu verhindern, ohne alle Zustandsübergänge zu speichern.
+reviewed: false

@@ -1,0 +1,13 @@
+question: En quoi consiste la consolidation ?
+
+answer: Fusionner plusieurs inputs pour en créer un seul plus gros.
+
+wrong_answers:
+  - Diviser un grand input en plusieurs plus petits.
+  - Transférer des inputs de plusieurs portefeuilles vers un seul.
+  - Réassigner les inputs inutilisés à de nouvelles adresses.
+
+explanation: |
+  Le principe de la consolidation est de profiter des périodes où les frais sont bas sur Bitcoin pour fusionner ses petits UTXOs en un seul plus gros.
+
+reviewed: false

@@ -1,0 +1,8 @@
+question: Kích thước tổng cộng của một khóa mở rộng kèm theo checksum là bao nhiêu?
+answer: 82 byte
+wrong_answers:
+  - 78 byte
+  - 64 byte
+  - 128 byte
+explanation: |
+  Một khóa mở rộng không kèm checksum có kích thước là 78 byte và khi bao gồm checksum thì kích thước là 82 byte.

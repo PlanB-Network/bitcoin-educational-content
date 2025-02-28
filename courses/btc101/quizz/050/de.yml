@@ -1,0 +1,10 @@
+question: Was ist die letzte Phase des Hyperinflationsphänomens?
+answer: Eine neue Währung entsteht.
+wrong_answers:
+  - Verlust des Vertrauens.
+  - Währungszusammenbruch & Preisanstieg.
+  - Der Teufelskreis des Gelddruckens.
+explanation: |
+  Die letzte Phase der Hyperinflation tritt ein, wenn eine neue
+  Währung eingeführt wird, um die alte zu ersetzen.
+reviewed: true

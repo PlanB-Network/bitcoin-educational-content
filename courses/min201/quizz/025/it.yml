@@ -1,0 +1,11 @@
+question: Qual è il livello di base della rete Bitcoin comunemente definito?
+answer: Il livello di regolamento
+wrong_answers:
+  - Il livello delle transazioni
+  - Il livello di sicurezza
+  - Il livello di consenso
+explanation: |
+  Il livello di base della rete Bitcoin, su cui si basa la Lightning
+  Network per l'apertura e la chiusura dei canali di pagamento,
+  è comunemente definito come il livello di regolamento.
+reviewed: true

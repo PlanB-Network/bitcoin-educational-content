@@ -1,0 +1,8 @@
+question: Hva skjer hvis du mister passfrasen som er assosiert med din HD-lommebok?
+answer: Du mister tilgangen til bitcoinene som er knyttet til den lommeboken
+wrong_answers:
+  - Du kan fortsatt få tilgang til lommeboken kun med den mnemoniske frasen
+  - Du kan tilbakestille passfrasen ved å kontakte Bitcoin-støtte
+  - Du mister kun de ubekreftede transaksjonene
+explanation: |
+  Passfrasen er en essensiell komponent i nøkkelavledningen. Uten den er det umulig å gjenskape nøklene og derfor umulig å få tilgang til bitcoinene.

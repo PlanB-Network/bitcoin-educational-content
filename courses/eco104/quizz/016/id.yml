@@ -1,0 +1,14 @@
+question: Saat mengambil kendali pribadi atas dompet digital Anda, apa hal pertama yang harus dilakukan untuk meminimalisir risiko kehilangan?
+answer: Cadangkan frasa pemulihan dompet Anda
+wrong_answers:
+  - Bagikan kunci pribadi Anda dengan pihak yang dipercaya
+  - Catat frasa pemulihan Anda dan simpan di komputer Anda
+  - Nonaktifkan otentikasi dua faktor (2FA)
+explanation: |
+  Pertama dan terutama, cadangkan dompet Anda saat mengambil kendali pribadi.
+  Dompet perangkat keras dilengkapi dengan frasa pemulihan, serangkaian kata yang
+  dapat digunakan untuk memulihkan kunci pribadi Anda jika perangkat hilang atau rusak.
+  Buatlah salinan fisik, seperti [papan benih](https: //coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) dari frasa pemulihan ini dan
+  simpan di tempat yang aman. Sangat penting untuk menjaga keamanan frasa pemulihan ini.
+  JANGAN pernah membagikannya dengan siapapun.
+reviewed: true

@@ -1,9 +1,0 @@
-question: Quand le Lightning Network a-t-il été validé et mis en œuvre?
-answer: 2017
-wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: |
-  Le Lightning Network a été validé et mis en œuvre en 2017.
-reviewed: false

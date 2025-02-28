@@ -1,0 +1,6 @@
+description: |
+  BitBox02 Bitcoin-only edition on sveitsiläinen laitteistolompakko, joka tarjoaa huipputason turvallisuutta Bitcoinillesi.
+
+  Siinä on kaksisiruinen suunnittelu turvasirulla, ja sen avoimen lähdekoodin on riippumattomasti tarkastanut turvallisuustutkijat. Intuitiivisen BitBoxApp-käyttöliittymän avulla tämä lompakko tekee Bitcoiniesi hallinnasta yksinkertaista ja turvallista. Keskeisiä ominaisuuksia ovat nopea ja helppo asennus välittömällä varmuuskopioinnilla microSD-kortille, turvallinen multisig-toiminnallisuus, salattu viestintä ja anti-klepto suojaus. Käyttäjien suosittelemana BitBox02 Bitcoin-only edition pitää korkeimman käyttäjäarvion laitteistolompakoiden joukossa Trustpilotissa.
+contributors:
+  - rabbit-hole

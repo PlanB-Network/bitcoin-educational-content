@@ -1,0 +1,9 @@
+question: ¿Cuál es la función principal de una función hash?
+answer: Convierte información de longitud arbitraria en una huella digital de tamaño fijo
+wrong_answers:
+  - Encripta mensajes para hacerlos ilegibles
+  - Se utiliza únicamente para verificar la integridad del software de Bitcoin
+  - Genera claves privadas para carteras de Bitcoin
+explanation: |
+  Una función hash transforma datos de cualquier tamaño en un hash de tamaño fijo, crucial para muchas aplicaciones en Bitcoin.
+reviewed: false

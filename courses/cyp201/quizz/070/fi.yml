@@ -1,0 +1,9 @@
+question: Mitä syvyys 0 edustaa HD-lompakoiden hierarkiassa?
+answer: Pääavain ja pääketjukoodi
+wrong_answers:
+  - Ulkoinen osoiteketju
+  - Oletustili
+  - Valuutan tyyppi
+explanation: |
+  Syvyys 0 vastaa pääavainta ja pääketjukoodia, jotka ovat lähtökohtia kaikille johdannaisille HD-lompakossa.
+reviewed: false

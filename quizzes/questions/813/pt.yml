@@ -1,9 +1,0 @@
-question: Qual é a regra de ouro para se proteger de e-mails fraudulentos?
-answer: Verifique cuidadosamente o nome completo do remetente, bem como a origem do e-mail.
-wrong_answers:
-  - Sempre responda a e-mails suspeitos.
-  - Abra todos os anexos de e-mail para verificar seu conteúdo.
-  - Compartilhe suas informações pessoais apenas com remetentes conhecidos.
-explanation: |
-  A regra de ouro para se proteger de e-mails fraudulentos é verificar cuidadosamente o nome completo do remetente, bem como a origem do e-mail. Em caso de dúvida, exclua-o!
-reviewed: false

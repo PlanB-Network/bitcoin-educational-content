@@ -1,0 +1,9 @@
+question: Mitä Alicen (lähettäjän) pitäisi tehdä saatuaan Bobin laskun?
+answer: Rakennetaan PSBT ja sen UTXO ja luodaan siirtolähetysterminaali
+wrong_answers:
+  - Allekirjoita Bitcoin-tapahtuma, joka kuluttaa kertakäyttöisen sinetin sisältävän UTXO:nsa
+  - Tuo lähetys omaan lompakkoon sopimustietoja varten
+  - Uuden laskun laatiminen omaisuuserän liikkeeseenlaskua varten
+explanation: |
+  Alicen on luotava PSBT omaisuuserään liittyvän UTXO:n käyttämiseksi ja luotava sen jälkeen päätepostilähetys, joka sisältää uuden siirtymän Bobille.
+reviewed: false

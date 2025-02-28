@@ -2,7 +2,17 @@
 name: Stonewall x2
 description: Understanding and using Stonewall x2 transactions
 ---
-![cover stonewall x2](assets/cover.jpeg)
+![cover stonewall x2](assets/cover.webp)
+
+***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, Stonewallx2 transactions only function by manually exchanging PSBTs between the concerned parties, provided both users are connected to their own Dojo. However, it is possible that these tools could be relaunched in the coming weeks. In the meantime, you can still consult this article to understand the theoretical operation of Stonewallx2 and learn how to do them manually.*
+
+_If you are considering performing a Stonewallx2 manually, the procedure is very similar to the one described in this tutorial. The main difference lies in the choice of the type of Stonewallx2 transaction: instead of selecting `Online`, click on `In Person / Manual`. Then, you will need to manually exchange the PSBTs to construct the Stonewallx2 transaction. If you are physically close to your collaborator, you can scan the QR codes successively. If you are at a distance, JSON files can be exchanged via a secure communication channel. The rest of the tutorial remains unchanged._
+
+_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
+
+_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
+
+---
 
 > *Make every spend a coinjoin.*
 
@@ -38,7 +48,7 @@ Therefore, the logic should be as follows when using a Samourai spending tool:
 
 If you want to find a collaborator who is willing to assist you in a Stonewall X2 transaction, you can also visit this Telegram group (unofficial) maintained by Samourai users to connect senders and collaborators: [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
 
-[**-> Learn more about Stonewall transactions**](https://planb.network/tutorials/privacy/stonewall)
+[**-> Learn more about Stonewall transactions**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 ## What is the purpose of a Stonewall x2 transaction?
 
@@ -63,34 +73,34 @@ If you choose the second option, you will need to establish a connection between
 
 To start, it is necessary to obtain the payment code of your collaborator's Paynym. In the Samourai Wallet application, your collaborator must press the icon of their Paynym (the little robot) located at the top left of the screen, then click on their Paynym nickname, starting with `+...`. For example, mine is `+namelessmode0aF`.
 
-![samourai paynym](assets/en/6.webp)
-If your collaborator is using Sparrow Wallet, they should click on the 'Tools' tab, then on 'Show PayNym'.![paynym sparrow](assets/en/7.webp)
+![samourai paynym](assets/notext/6.webp)
+If your collaborator is using Sparrow Wallet, they should click on the 'Tools' tab, then on 'Show PayNym'.![paynym sparrow](assets/notext/7.webp)
 **Following your collaborator's PayNym from Samourai Wallet:**
 
 If you are using Samourai Wallet, launch the application and access the 'PayNyms' menu in the same way. If this is your first time using your PayNym, you will need to obtain its identifier.
 
-![request paynym samourai](assets/en/8.webp)
+![request paynym samourai](assets/notext/8.webp)
 
 Then click on the blue '+' at the bottom right of the screen.
-![add collaborator paynym](assets/en/9.webp)
+![add collaborator paynym](assets/notext/9.webp)
 You can then paste your collaborator's payment code by selecting 'PASTE PAYMENT CODE', or open the camera to scan their QR code by pressing 'SCAN QR CODE'.
-![paste paynym identifier](assets/en/10.webp)
+![paste paynym identifier](assets/notext/10.webp)
 
 Click on the 'FOLLOW' button.
-![follow paynym](assets/en/11.webp)
+![follow paynym](assets/notext/11.webp)
 Confirm by clicking 'YES'.
-![confirm follow paynym](assets/en/12.webp)
-The software will then offer you a 'CONNECT' button. It is not necessary to click on this button for our tutorial. This step is only required if you plan to make payments to the other PayNym as part of the [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), which is unrelated to our tutorial.
-![connect paynym](assets/en/13.webp)
+![confirm follow paynym](assets/notext/12.webp)
+The software will then offer you a 'CONNECT' button. It is not necessary to click on this button for our tutorial. This step is only required if you plan to make payments to the other PayNym as part of the BIP47, which is unrelated to our tutorial.
+![connect paynym](assets/notext/13.webp)
 Once your PayNym is following your collaborator's PayNym, repeat this process in the opposite direction so that your collaborator can also follow you. You can then perform a Stonewall x2 transaction.
 
 **Following your collaborator's PayNym from Sparrow Wallet:**
 
 If you are using Sparrow Wallet, open your wallet and access the 'Show PayNym' menu. If you are using your PayNym for the first time, you will need to obtain an identifier by clicking on 'Retrieve PayNym'.
-![request paynym sparrow](assets/en/14.webp)
+![request paynym sparrow](assets/notext/14.webp)
 Then enter your collaborator's PayNym identifier (either their nickname '+...' or their payment code 'PM...') in the 'Find Contact' box, and click on the 'Add Contact' button.
-![add contact paynym](assets/en/15.webp)
-The software will then offer you a 'Link Contact' button. It is not necessary to click on this button for our tutorial. This step is only required if you plan to make payments to the indicated PayNym as part of the [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), which is unrelated to our tutorial.
+![add contact paynym](assets/notext/15.webp)
+The software will then offer you a 'Link Contact' button. It is not necessary to click on this button for our tutorial. This step is only required if you plan to make payments to the indicated PayNym as part of the BIP47, which is unrelated to our tutorial.
 
 Once your PayNym is following your collaborator's PayNym, repeat this process in the opposite direction so that your collaborator can also follow you. You can then perform a Stonewall x2 transaction.
 ## How to make a Stonewall x2 transaction on Samourai Wallet?

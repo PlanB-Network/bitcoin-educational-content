@@ -1,0 +1,9 @@
+question: Mikä on FOMO Bitcoin-sijoittamisen kontekstissa?
+answer: Pelko jäämisestä paitsi, mikä voi johtaa impulsiivisiin sijoituksiin.
+wrong_answers:
+  - Pelko tarjousten tekemisestä, mikä voi johtaa epäröintiin sijoittamisessa.
+  - Pelko markkinoiden heilahteluista, mikä voi johtaa ahdistukseen markkinoiden volatiliteetista.
+  - Pelko rahallisen ylikuormituksen, mikä voi johtaa ylisijoittamiseen.
+explanation: |
+  Bitcoin-sijoittamisen kontekstissa FOMO tarkoittaa pelkoa jäämisestä paitsi. Tämä voi johtaa impulsiivisiin sijoituksiin, kun sijoittajat kiirehtivät ostamaan Bitcoinia pelosta jäädä paitsi mahdollisista voitoista.
+reviewed: false

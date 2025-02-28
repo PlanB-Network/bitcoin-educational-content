@@ -1,9 +1,0 @@
-question: Welche Rolle spielen kryptografische Hash-Funktionen bei der Überprüfung der Integrität von heruntergeladener Software?
-answer: Sie fungieren als digitale Wächter und überprüfen die Integrität von heruntergeladener Software.
-wrong_answers:
-  - Sie verschlüsseln die Software, um sie vor Hackern zu schützen.
-  - Sie komprimieren die Software, um die Download-Zeit zu verkürzen.
-  - Sie generieren einen eindeutigen Schlüssel für jeden Download.
-explanation: |
-  Kryptografische Hash-Funktionen spielen eine entscheidende Rolle bei der Überprüfung der Integrität von heruntergeladener Software. Durch den Vergleich des Hash-Werts der heruntergeladenen Datei mit dem erwarteten Hash-Wert kann man überprüfen, ob die Datei nicht manipuliert wurde.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Lihtsas maksetehingus, kus sisend on 500,000 satsi, jagatuna üheks väljundiks 47,500 satsi ja teiseks 451,000 satsi, milline UTXO on tõenäoliselt vahetusraha?
+answer: See 451,000 satsi.
+wrong_answers:
+  - See 500,000 satsi.
+  - See 47,500 satsi.
+  - Ükski neist.
+explanation: |
+  Kui lihtsa maksemudeli tehingus on kahe väljundi vahel piisavalt suur erinevus, võib hinnata, et suurem väljund on tõenäoliselt vahetusraha.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Kích thước của hạt giống được tạo ra bởi PBKDF2 là bao nhiêu?
+
+answer: 512 bit
+
+wrong_answers:
+  - 128 bit
+  - 256 bit
+  - Thay đổi tùy thuộc vào độ dài của cụm từ ghi nhớ
+
+explanation:
+  Bất kể độ dài của cụm từ ghi nhớ là bao nhiêu, PBKDF2 luôn tạo ra một hạt giống 512-bit.

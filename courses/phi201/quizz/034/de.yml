@@ -1,0 +1,9 @@
+question: Was ist der Unterschied zwischen Naturrecht und positivem Recht nach römischem Denken?
+answer: Das Naturrecht ist universell und unveränderlich, während das positive Recht variabel ist und von menschlichen Gesetzen abhängt.
+wrong_answers:
+  - Das Naturrecht ist das Recht der Mächtigen, während das positive Recht das Recht der Schwachen ist.
+  - Das Naturrecht basiert auf Religion, während das positive Recht auf Vernunft basiert.
+  - Das Naturrecht gilt nur für römische Bürger, während das positive Recht für alle Bewohner des Reiches gilt.
+explanation: |
+  Im römischen Denken wird das Naturrecht als universell und unveränderlich angesehen, das aus unveränderlichen Prinzipien stammt, während das positive Recht eine Reihe von Regeln ist, die von Menschen festgelegt wurden und sich entsprechend sozialen und politischen Kontexten ändern können.
+reviewed: false

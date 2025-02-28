@@ -1,0 +1,8 @@
+question: Miksi myyjä saattaisi tehdä kuvitteellisen maksun kanavassa?
+answer: Siirtääkseen likviditeetin vastakkaiselle puolelle
+wrong_answers:
+  - Vähentääkseen reititysmaksuja
+  - Lisätäkseen kanaviensa kokonaiskapasiteettia
+  - Lukitakseen varoja pitkäaikaisesti
+explanation: |
+  Tekemällä kuvitteellisen maksun, myyjä siirtää likviditeetin omalta puoleltaan kanavan vastakkaiselle puolelle, vapauttaen näin tulopuolen kapasiteettia vastaanottamaan maksuja.

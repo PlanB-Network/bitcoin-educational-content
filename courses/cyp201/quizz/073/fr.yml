@@ -1,0 +1,9 @@
+question: Quel index représente la chaîne externe d'un compte dans un chemin de dérivation ?
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  La chaîne externe est identifiée par l'index /0/ dans la profondeur 4 du chemin de dérivation.
+reviewed: false

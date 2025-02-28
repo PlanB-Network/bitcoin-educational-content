@@ -1,0 +1,9 @@
+question: Quelle est la principale leçon à retenir de l'exemple du crayon ?
+answer: Le rôle de la coordination spontanée dans l'économie
+wrong_answers:
+  - La complexité de la production industrielle
+  - L'importance de savoir écrire
+  - La nécessité d'une planification centralisée
+explanation: |
+  L'exemple du crayon montre que la coordination spontanée du marché permet de produire des biens complexes sans planification centralisée.
+reviewed: false

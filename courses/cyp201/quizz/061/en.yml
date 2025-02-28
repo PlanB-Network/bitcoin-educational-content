@@ -1,0 +1,9 @@
+question: What is the total size of an extended key with the checksum?
+answer: 82 bytes
+wrong_answers:
+  - 78 bytes
+  - 64 bytes
+  - 128 bytes
+explanation: |
+  An extended key is 78 bytes without the checksum and 82 bytes with the checksum included.
+reviewed: false

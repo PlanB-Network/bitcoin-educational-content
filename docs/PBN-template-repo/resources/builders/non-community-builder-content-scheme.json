@@ -1,0 +1,23 @@
+{
+  "$once": "http://json-schema.org/draft-07/schema#",
+  "title": "language-specific-builder-characteristics",
+  "type": "object",
+  "properties": {
+    "description": {
+      "type": "string",
+      "description": "A detailed description of the builder, which can span multiple lines."
+    },
+    "contributors": {
+      "type": "array",
+      "description": "List of contributors who help format, review, or translate the course, identified by their UUID.",
+      "items": {
+        "type": "string",
+        "description": "UUID of a contributor."
+      },
+      "minItems": 1
+    }
+  },
+  "required": ["description", "contributors"],
+  "additionalProperties": false
+}
+

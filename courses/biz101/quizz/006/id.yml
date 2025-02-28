@@ -1,0 +1,9 @@
+question: Mengapa batasan 21 juta untuk penerbitan Bitcoin menjadi signifikan?
+answer: Ini menciptakan aset deflasi, melindungi nilainya dari inflasi yang sewenang-wenang.
+wrong_answers:
+  - Hal ini memastikan bahwa pemerintah dapat mencetak bitcoin sebanyak yang dibutuhkan.
+  - Ini mencegah siapa pun mengirim transaksi setelah batas tercapai.
+  - Ini menghilangkan semua volatilitas harga Bitcoin.
+explanation: |
+  Dengan memiliki pasokan maksimum 21 juta, kelangkaan Bitcoin sudah dikodekan dengan baik, sehingga secara fundamental berbeda dengan mata uang inflasi yang pasokannya dapat ditingkatkan sesuka hati.
+reviewed: false

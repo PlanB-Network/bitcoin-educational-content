@@ -1,13 +1,10 @@
+id: e320ccda-be59-492b-a81b-243d9acb592f
 name: Ajelex
 
 contributor_id: diamond-jar
 
 links:
   twitter: https://twitter.com/ajelexBTC
-
-tags:
-  - mining
-  - el salvador
 
 tips:
   lightning_address: balmystretch76@walletofsatoshi.com
@@ -16,3 +13,7 @@ company: DecouvreBitcoin
 
 affiliations:
   - DécouvreBitcoin
+tags:
+  - mining
+  - DIY
+  - guides

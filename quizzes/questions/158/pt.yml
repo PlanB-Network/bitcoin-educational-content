@@ -1,9 +1,0 @@
-question: Qual é o Problema dos Generais Bizantinos e como o Bitcoin o resolve?
-answer: É um problema de coordenação de informações em um sistema onde os vários atores não podem ser confiáveis. O Bitcoin o resolve através do uso de uma blockchain baseada em Proof of Work com uma dificuldade flutuante.
-wrong_answers:
-  - É um problema de verificação de transações em uma rede descentralizada. O Bitcoin o resolve através do uso de assinaturas digitais.
-  - É um problema de prevenção de gastos duplos em uma moeda digital. O Bitcoin o resolve através do uso de um livro-razão público.
-  - É um problema de manter o consenso em uma rede descentralizada. O Bitcoin o resolve através do uso de um algoritmo de Proof of Stake.
-explanation: |
-  O Problema dos Generais Bizantinos é um problema clássico na computação distribuída, que envolve alcançar um consenso em uma rede onde alguns dos nós podem ser defeituosos ou maliciosos. O Bitcoin resolve esse problema através do uso de uma blockchain baseada em Proof of Work, que garante que todos os nós concordem com o estado do histórico de transações.
-reviewed: false

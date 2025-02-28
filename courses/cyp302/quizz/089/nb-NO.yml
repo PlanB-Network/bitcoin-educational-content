@@ -1,0 +1,9 @@
+question: Hva er viktigheten av å bruke en tilfeldig nonce i CBC- og OFB-metodene?
+answer: Det sikrer at hver krypteringssesjon er unik, selv for identiske data.
+wrong_answers:
+  - Det reduserer nøkkellengden gjennom krypteringsprosessen.
+  - Det gjør krypteringen raskere.
+  - Det gjør algoritmens kode mer estetisk tiltalende for mennesker.
+explanation: |
+  Ved å bruke en tilfeldig nonce for hver sesjon, sikrer CBC- og OFB-metodene at hver kryptering er unik, noe som forhindrer angrep som utnytter identiske data.
+reviewed: false

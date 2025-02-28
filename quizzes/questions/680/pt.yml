@@ -1,9 +1,0 @@
-question: O que acontece em um fechamento forçado se a taxa de rede for de 1 SAT no momento do fechamento?
-answer: A transação é paga em excesso em 50 vezes.
-wrong_answers:
-  - A transação é paga em falta em 50 vezes.
-  - A transação é paga em excesso em 2 vezes.
-  - A transação é paga em falta em 2 vezes.
-explanation: |
-  Em um fechamento forçado, o protocolo assume taxas 5 vezes mais altas do que as atuais quando a transação foi criada. Se a taxa de rede for de 1 SAT no momento do fechamento, a transação é paga em excesso em 50 vezes.
-reviewed: false

@@ -1,0 +1,13 @@
+question: What are the 2 privacy risks associated with selecting coins?
+
+answer: The CIOH and the link between inputs / identity by the recipient.
+
+wrong_answers:
+  - IP address tracking and activity correlation.
+  - Temporal tracking and address reuse.
+  - Address reuse and the link between inputs / identity by an external observer.
+
+explanation: |
+  Two risks need to be considered when selecting coins: the possibility for the payment recipient to link a part of your identity to the UTXOs used as inputs and the ability of an external observer to establish links between all the UTXOs consumed as inputs (CIOH).
+
+reviewed: false

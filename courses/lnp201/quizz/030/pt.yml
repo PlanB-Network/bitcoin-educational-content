@@ -1,0 +1,9 @@
+question: Como a Lightning Network permite enviar fundos para um nó que não está diretamente conectado?
+answer: Através do roteamento do pagamento por nós intermediários
+wrong_answers:
+  - Usando transações on-chain entre cada nó
+  - Estabelecendo automaticamente um canal temporário
+  - Enviando os fundos diretamente com endereços de assinatura múltipla
+explanation: |
+  A Lightning Network possibilita o roteamento de um pagamento através de vários nós intermediários, sem exigir um canal direto entre o remetente e o destinatário.
+reviewed: false

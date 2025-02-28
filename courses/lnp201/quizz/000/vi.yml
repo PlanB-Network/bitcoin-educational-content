@@ -1,0 +1,9 @@
+question: Mục tiêu chính của Lightning Network là gì?
+answer: Cải thiện khả năng mở rộng của Bitcoin để kích hoạt các giao dịch nhanh chóng và chi phí thấp
+wrong_answers:
+  - Loại bỏ hoàn toàn phí giao dịch trên blockchain của Bitcoin
+  - Tạo ra một lựa chọn thay thế cho Bitcoin đối với các giao dịch giá trị cao
+  - Đơn giản hóa việc trao đổi giữa các loại tiền mã hóa khác nhau
+explanation: |
+  Lightning Network nhằm mục đích tăng cường khả năng mở rộng của Bitcoin bằng cách kích hoạt các giao dịch nhanh chóng và ít tốn kém thông qua các kênh thanh toán ngoại tuyến.
+reviewed: false

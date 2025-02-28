@@ -1,0 +1,10 @@
+question: Какие платформы может использовать параноидальный биткойнер для покупок без KYC между частными лицами?
+answer: Peach, Robosats, Bisq, HodlHodl
+wrong_answers:
+  - Coinbase, Binance, Kraken
+  - PayPal, Venmo, Cash App
+  - Кредитная карта, банковский перевод, наличные
+explanation: |
+  В главе упоминаются Peach, Robosats, Bisq и HodlHodl как платформы,
+  которые может использовать параноидальный биткойнер для покупок без KYC между частными лицами.
+reviewed: false

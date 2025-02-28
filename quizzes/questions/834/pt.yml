@@ -1,9 +1,0 @@
-question: Qual é a vantagem das senhas de uso único (HOTP e TOTP) em relação ao SMS para autenticação de dois fatores (2FA)?
-answer: Elas exigem cálculos criptográficos e são armazenadas localmente, em vez de na memória.
-wrong_answers:
-  - Elas são mais rápidas
-  - Elas são mais baratas
-  - Elas são mais fáceis de lembrar
-explanation: |
-  As senhas de uso único (HOTP e TOTP) são mais seguras do que o SMS porque exigem cálculos criptográficos e são armazenadas localmente, em vez de na memória.
-reviewed: false

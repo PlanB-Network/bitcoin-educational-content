@@ -1,0 +1,8 @@
+question: Apa yang unik tentang RPOW dibandingkan dengan konsep mata uang digital lainnya seperti eCash, b-money, dan bit gold?
+answer: Berbasis pada server yang transparan
+wrong_answers:
+  - Menggunakan bukti kerja
+  - Satuan akunnya tidak didukung oleh apapun
+  - Pengguna memegang catatan digital dengan denominasi tertentu daripada akun
+explanation: |
+  RPOW menggunakan bukti kerja seperti b-money dan bit gold. Tidak ada dukungan seperti dalam bit gold. Seperti eCash (dan seperti Bitcoin kemudian), RPOW memungkinkan untuk memegang catatan digital individu, daripada sebuah akun, dan dalam hal ini relatif rahasia.

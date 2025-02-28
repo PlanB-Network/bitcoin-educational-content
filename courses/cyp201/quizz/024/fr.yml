@@ -1,0 +1,9 @@
+question: Quelle est la taille d'une clé privée brute utilisée sur Bitcoin ?
+answer: 256 bits
+wrong_answers:
+  - 128 bits
+  - 512 bits
+  - 1024 bits
+explanation: |
+  Une clé privée dans Bitcoin est un entier aléatoire de 256 bits, assurant un espace de clés suffisamment large pour garantir la sécurité.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Warum gilt das Faktorisieren eines Produkts aus zwei sehr großen Primzahlen als schwieriges Problem?
+answer: Weil es selbst für Supercomputer eine verboten große Menge an Rechenzeit erfordert.
+wrong_answers:
+  - Weil es für jeden Faktor einen öffentlichen Schlüssel benötigt.
+  - Weil es nur grundlegende Operationen in der Berechnung beinhaltet.
+  - Weil es auf Multiplikation und nicht auf Division beruht.
+explanation: |
+  Das Faktorisieren einer riesigen Zahl, das Produkt aus zwei großen Primzahlen, verlangt Rechenleistungen, die die Kapazität aktueller Computer übersteigen, was diese Aufgabe praktisch undurchführbar macht.
+reviewed: false

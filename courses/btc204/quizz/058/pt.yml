@@ -1,0 +1,13 @@
+question: Qual é a diferença entre reutilização de endereço externo e interno em uma transação?
+
+answer: A reutilização externa é observada em múltiplas transações, enquanto a reutilização interna é observada dentro da mesma transação.
+
+wrong_answers:
+  - A reutilização externa diz respeito a endereços públicos, enquanto a reutilização interna diz respeito a endereços privados usados em scripts de transação.
+  - A reutilização interna é observada em múltiplas transações, enquanto a reutilização externa é observada dentro da mesma transação.
+  - A reutilização interna diz respeito a endereços públicos, enquanto a reutilização externa diz respeito a endereços privados usados em scripts de transação.
+
+explanation: |
+  A reutilização de endereço externo é observada quando um endereço é reutilizado em várias transações diferentes, enquanto a reutilização interna diz respeito a um endereço que é usado tanto nas entradas quanto nas saídas da mesma transação.
+
+reviewed: false

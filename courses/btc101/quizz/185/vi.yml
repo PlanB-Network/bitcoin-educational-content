@@ -1,0 +1,12 @@
+question: So với tiền tệ fiat, Bitcoin được nhìn nhận như thế nào?
+
+answer: Như một nền kinh tế song song.
+
+wrong_answers:
+  - Như một nền kinh tế thay thế.
+  - Như một nền kinh tế công nghiệp.
+  - Như một nền kinh tế dịch vụ.
+
+explanation: Bitcoin được coi là một nền kinh tế song song với tiền tệ fiat, nghĩa là nó hoạt động cùng lúc với các nền kinh tế truyền thống và có thể được sử dụng cho các giao dịch trực tiếp, mà không cần phải qua một nền tảng trao đổi.
+
+reviewed: true

@@ -1,0 +1,7 @@
+---
+term: DESCARREGAMENTO INICIAL DE BLOCOS (IBD)
+
+---
+Refere-se ao processo pelo qual um nó descarrega e verifica o blockchain do bloco Genesis, e sincroniza com outros nós na rede Bitcoin. O IBD deve ser realizado ao lançar um novo nó completo. No início desta sincronização inicial, o nó não tem informações sobre as transacções anteriores. Portanto, ele baixa cada bloco de outros nós na rede, verifica sua validade e, em seguida, adiciona-o à sua versão local do blockchain. Vale a pena notar que o IBD pode ser demorado e consumir muitos recursos devido ao tamanho crescente da blockchain e do conjunto UTXO. A velocidade da sua execução depende das capacidades de computação do computador que aloja o nó, da sua capacidade de RAM, da velocidade do dispositivo de armazenamento e da largura de banda. Para se ter uma ideia, se tiver uma ligação à Internet potente e o nó estiver alojado no MacBook mais recente com muita RAM, o IBD demorará apenas algumas horas. Por outro lado, se usar um microcomputador como um Raspberry Pi, o IBD pode demorar uma semana ou mais.
+
+> ► *Em francês, é geralmente aceite a referência direta a uma IBD. A tradução por vezes utilizada é "synchronisation initiale", ou "téléchargement initial des blocs".*

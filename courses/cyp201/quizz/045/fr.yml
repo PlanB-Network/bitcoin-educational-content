@@ -1,0 +1,9 @@
+question: Quelle est la fonction de hachage utilisée pour calculer la checksum d'une phrase mnémonique ?
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+explanation: |
+  La checksum d'une phrase mnémonique est calculée en appliquant un hachage SHA256 simple sur l'entropie.
+reviewed: false

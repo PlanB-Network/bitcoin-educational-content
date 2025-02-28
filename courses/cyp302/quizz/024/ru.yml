@@ -1,0 +1,9 @@
+question: Каково значение 42 mod 2?
+answer: 0
+wrong_answers:
+  - 1
+  - 2
+  - 42
+explanation: |
+  Деля 42 на 2, остаток равен нулю, следовательно, 42 mod 2 равно 0.
+reviewed: false

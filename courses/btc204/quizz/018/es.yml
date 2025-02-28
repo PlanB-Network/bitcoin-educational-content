@@ -1,0 +1,9 @@
+question: Entre las siguientes respuestas, ¿cuál no forma parte de las 3 principales categorías de heurísticas y características utilizadas en el análisis de cadenas?
+answer: Modelos de criptografía.
+wrong_answers:
+  - Modelos de transacción.
+  - Heurísticas de transacciones internas.
+  - Heurísticas de transacciones externas.
+explanation: |
+  Las heurísticas utilizadas en el análisis de cadenas pueden agruparse en tres categorías; patrones de transacción (o modelos de transacción), heurísticas de transacciones internas y heurísticas de transacciones externas.
+reviewed: false

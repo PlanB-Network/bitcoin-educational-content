@@ -1,0 +1,9 @@
+question: Quando si acquista Bitcoin, qual è l'approccio consigliato per gestire la volatilità del prezzo?
+answer: Accumulare gradualmente Bitcoin a intervalli regolari e mantenere una prospettiva a lungo termine.
+wrong_answers:
+  - Cercare di prevedere i picchi di mercato a breve termine e vendere immediatamente.
+  - Andare all-in con l'intera tesoreria dell'azienda in una sola volta.
+  - Acquistate Bitcoin solo nei giorni in cui il suo prezzo è salito bruscamente.
+explanation: |
+  Gli acquisti regolari nel tempo (dollar-cost averaging) contribuiscono ad attenuare la volatilità. Un orizzonte temporale più lungo (ad esempio, 4 anni) riduce l'impatto delle oscillazioni di prezzo a breve termine.
+reviewed: false

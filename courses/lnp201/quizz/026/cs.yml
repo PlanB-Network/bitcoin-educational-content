@@ -1,0 +1,9 @@
+question: Která metoda uzavírání kanálu je nejekonomičtější a nejrychlejší?
+answer: Kooperativní uzavření
+wrong_answers:
+  - Vynucené uzavření
+  - Uzavření s podvodem
+  - Žádná není ekonomičtější a rychlejší
+explanation: |
+  Kooperativní uzavření je nejrychlejší a nejekonomičtější metoda, protože obě strany souhlasí s uzavřením kanálu a přizpůsobují poplatky podle tržních podmínek.
+reviewed: false

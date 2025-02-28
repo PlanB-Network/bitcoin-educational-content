@@ -1,0 +1,110 @@
+id: 5a75db51-a6a1-4338-a02a-164a8d91b895
+
+builder: Plan ₿ Network
+
+category: backup
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-10-14
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 0.43
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.6
+
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.85
+
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.85
+
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.23
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.6
+
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.6
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.98
+
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.23
+
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.35
+
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.85
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.6
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.35
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.98
+
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.6
+tags:
+  - backup
+  - good-practice
+  - personal-security

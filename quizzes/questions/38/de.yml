@@ -1,9 +1,0 @@
-question: Wer ist für die Ausgabe von Treuhandwährung zuständig?
-answer: Zentralbank
-wrong_answers:
-  - Geschäftsbank
-  - Regierung
-  - Private Institutionen
-explanation: |
-  Zentralbanken sind die Institutionen, die für die Ausgabe von Treuhandwährung zuständig sind. Sie legen die Geldpolitik fest und bestimmen, wie viel Geld in Umlauf gebracht oder gedruckt werden soll.
-reviewed: false

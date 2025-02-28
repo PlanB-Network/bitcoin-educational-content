@@ -1,0 +1,9 @@
+question: Phép toán toán học nào là cơ sở của sự an toàn trong mật mã học đường cong elliptic?
+answer: Vấn đề logarit rời rạc
+wrong_answers:
+  - Phân tích số nguyên tố
+  - Tính toán dư thừa bậc hai
+  - Vấn đề lập phương rời rạc
+explanation: |
+  Sự an toàn của mật mã học đường cong elliptic dựa trên sự khó khăn trong việc giải quyết vấn đề logarit rời rạc trên các đường cong này.
+reviewed: false

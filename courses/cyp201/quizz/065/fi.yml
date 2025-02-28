@@ -1,0 +1,9 @@
+question: Mikä on ero tavallisen lapsiavaimen ja kovennetun lapsiavaimen välillä?
+answer: Kovennettu lapsiavain vaatii johdannaisensa muodostamiseen vanhemman yksityisavaimen.
+wrong_answers:
+  - Tavallinen lapsiavain ei voi johtua julkisista avaimista.
+  - Kovennettu lapsiavain käyttää paritonta indeksiä.
+  - Tavallinen lapsiavain on turvallisempi kuin kovennettu lapsiavain.
+explanation: |
+  Tavallisen lapsiavaimen voi johtaa vanhemman julkisesta avaimesta, toisin kuin kovennetun lapsiavaimen, joka vaatii vanhemman yksityisavaimen.
+reviewed: false

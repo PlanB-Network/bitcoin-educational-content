@@ -1,0 +1,10 @@
+question: Quel est le rôle de la clé publique dans un portefeuille Bitcoin ?
+answer: Elle est utilisée pour générer des adresses Bitcoin et ainsi recevoir de l'argent.
+wrong_answers:
+  - Elle est utilisée pour chiffrer les transactions Bitcoin.
+  - Elle est utilisée pour accéder au portefeuille Bitcoin.
+  - Elle est utilisée pour sauvegarder le portefeuille Bitcoin.
+explanation: |
+  La clé publique est dérivée de la clé privée et est utilisée
+  pour générer des adresses Bitcoin afin de recevoir de l'argent.
+reviewed: true

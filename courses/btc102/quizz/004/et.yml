@@ -1,0 +1,10 @@
+question: Mis on üks levinumaid omadusi krüptoraha valdkonna petuskeemides?
+answer: Ebareaalsete tuluootuste lubamine.
+wrong_answers:
+  - Füüsiliste kaupade lubamine.
+  - Tarkvaratoodete lubamine.
+  - Fiatriaha lubamine.
+explanation: |
+  Krüptoraha valdkonna petuskeemid lubavad tihti ebareaalseid tuluootusi.
+  On oluline mitte pimesi usaldada, eriti kui tegemist on interneti bänneriga.
+reviewed: false

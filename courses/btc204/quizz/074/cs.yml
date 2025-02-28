@@ -1,0 +1,11 @@
+question: Která z následujících odpovědí neznamená výhodu používání vlastního uzlu?
+
+answer: Snížení transakčních poplatků.
+
+wrong_answers:
+  - Účast na konsensu.
+  - Nezávislost na třetích stranách.
+  - Možnost odolávat cenzuře transakcí.
+
+explanation: |
+  Zde je důvod, proč je mít vlastní uzel klíčové pro plně suverénní používání Bitcoinu: Odolnost proti cenzuře; Vaše transakce nemohou být nikým blokovány; Nezávislost na třetích stranách; Už nezávisíte na žádné externí službě pro ověření dat blockchainu; Aktivní účast; Máte možnost nastavit vlastní pravidla ověřování a přímo se účastnit konsensu; Příspěvek do sítě; Provozováním uzlu pomáháte posilovat a distribuovat síť Bitcoinu; Technické vzdělání; Správa plného uzlu je vynikající způsob, jak prohloubit vaše technické znalosti o Bitcoinu.

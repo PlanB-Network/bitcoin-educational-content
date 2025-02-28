@@ -1,0 +1,9 @@
+question: Tại sao Bitcoin được coi là một hình thức tiền tệ mới?
+answer: Bởi vì đó là một loại tiền tệ số không có cơ quan trung ương nào quản lý.
+wrong_answers:
+  - Bởi vì đó là một loại tiền tệ số được bảo chứng bởi vàng.
+  - Bởi vì đó là một loại tiền tệ yêu cầu blockchain của ngân hàng.
+  - Bởi vì Cục Dự trữ Liên bang nói vậy.
+explanation: |
+  Bitcoin có thể được xem như một hình thức tiền tệ mới, khi nó xuất phát từ một mạng lưới ngang hàng mà không có cơ quan trung ương nào.
+reviewed: true

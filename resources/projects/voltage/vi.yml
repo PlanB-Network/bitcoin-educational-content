@@ -1,0 +1,6 @@
+description: |
+  Voltage là một nền tảng cung cấp cơ sở hạ tầng cấp doanh nghiệp cho Lightning Network.
+
+  Nó cung cấp các dịch vụ đa dạng để hỗ trợ các doanh nghiệp và nhà phát triển xây dựng, triển khai và mở rộng trên Lightning Network một cách nhanh chóng. Các sản phẩm chính bao gồm Dịch vụ Hosting Node cho việc quản lý node không gặp rắc rối, Surge cho cái nhìn sâu sắc và cảnh báo về node của bạn, và Flow cho việc tạo kênh Lightning dễ dàng. Nền tảng được thiết kế để cung cấp quyền kiểm soát tuyệt đối, bảo mật mã hóa và khả năng truy cập trực tuyến liên tục. Voltage cũng cung cấp các bản cập nhật, hướng dẫn và cái nhìn sâu sắc thông qua blog của mình. Người dùng có thể thử nghiệm nền tảng với gói dùng thử miễn phí 7 ngày.
+contributors:
+  - rabbit-hole

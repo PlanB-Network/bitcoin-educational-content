@@ -1,0 +1,9 @@
+question: Millele vastab kirjeldajas notatsioon /<0;1>/*?
+answer: Välimisele ja sisemisele ahelale järjestikuse tuletamisega
+wrong_answers:
+  - Sorteeritud multisignatuuri aadressile
+  - Tuletamisteede kontrollsummale
+  - Kindlustatud tuletamisteele
+explanation: |
+  Notatsioon /<0;1>/* näitab, et kirjeldaja suudab genereerida aadresse välimisele (0) ja sisemisele (1) ahelale, kasutades järjestikust tuletamist tänu metamärgile (*).
+reviewed: false

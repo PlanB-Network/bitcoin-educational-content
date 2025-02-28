@@ -1,0 +1,13 @@
+question: Hva er hovedideen bak konseptet tidsverdi av penger?
+answer: Tid har verdi
+wrong_answers:
+  - Penger mister verdi over tid
+  - Penger kan byttes mot tid
+  - Tid kan byttes mot penger
+explanation: |
+  Hovedideen bak konseptet tidsverdi av penger er at
+  tid
+
+  har verdi. Hvis noen bestemmer seg for å betale et løfte om betaling verdt $100 en måned i forveien,
+
+  kan de skaffe det for, for eksempel, $98 og motta de $100 på forfallsdatoen.

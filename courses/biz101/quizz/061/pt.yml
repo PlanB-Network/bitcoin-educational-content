@@ -1,0 +1,9 @@
+question: O que é que o perfil Essential utiliza para ajudar os empregados a processar os pagamentos nos terminais de pagamento automático?
+answer: A criação de um menu com os preços dos artigos na aplicação PdV
+wrong_answers:
+  - Um livro de contabilidade manual para registar as vendas
+  - Um sistema de faturação em papel para cada transação
+  - Um sistema de registo contabilístico automático para as transacções do ponto de venda
+explanation: |
+  A aplicação PoS no perfil Essential permite aos empregados selecionar itens de um menu pré-definido, simplificando o processo de faturação.
+reviewed: false

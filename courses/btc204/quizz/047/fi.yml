@@ -1,0 +1,13 @@
+question: Mikä on ilmoitustransaktion rooli BIP47; ssä?
+
+answer: Välittää maksukoodin vastaanottajalle ja ilmoittaa, että maksuja on tulossa.
+
+wrong_answers:
+  - Vahvistaa Bitcoinin vastaanotto-osoitteen tulevia transaktioita varten maksukoodien kautta.
+  - Vahvistaa bitcoinien vastaanoton vastaanottajalle BIP47: n avulla.
+  - Lähettää lähettäjän kertakäyttöiset yksityiset avaimet vastaanottajalle, jotta tämä voi käyttää bitcoineja.
+
+explanation: |
+  Ilmoitustransaktio mahdollistaa maksukoodin välittämisen lähettäjältä vastaanottajalle, jotta jälkimmäinen voi tietää sen ja löytää sen myöhemmin vain siemenensä avulla lompakon palautuksen yhteydessä. Kuten sen nimi viittaa, sillä on myös ilmoitustehtävä.
+
+reviewed: false

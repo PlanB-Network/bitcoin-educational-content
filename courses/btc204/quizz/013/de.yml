@@ -1,0 +1,9 @@
+question: Was ist das Datenschutzmodell des Bankensystems?
+answer: Nur die Bank hat Zugang zu den Transaktionsdetails.
+wrong_answers:
+  - Die Transaktionen sind öffentlich, aber die Identität der Nutzer ist nicht bekannt.
+  - Die Transaktionen sind anonym und vor allen verborgen, einschließlich der Bank.
+  - Nur Regierungen haben Zugang zu den Transaktionsdetails.
+explanation: |
+  Im traditionellen System ist jedes Bankkonto mit einer Identität verknüpft. Der Informationsfluss wird jedoch zwischen der Bank und der Öffentlichkeit unterbrochen.
+reviewed: false

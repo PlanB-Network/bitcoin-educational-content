@@ -1,9 +1,0 @@
-question: Em que a segurança das chaves públicas e privadas é baseada?
-answer: O problema do logaritmo discreto
-wrong_answers:
-  - O problema da fatorização de primos
-  - O problema da mochila
-  - O problema do caixeiro-viajante
-explanation: |
-  A segurança das chaves públicas e privadas depende do problema do logaritmo discreto, uma questão matemática complexa.
-reviewed: false

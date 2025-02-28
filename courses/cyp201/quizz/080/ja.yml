@@ -1,0 +1,9 @@
+question: SegWit v0アドレスを表現するために使用されるエンコーディングは何ですか？
+answer: bech32
+wrong_answers:
+  - base58check
+  - bech32m
+  - base64
+explanation: |
+  SegWit v0アドレス、例えばP2WPKHやP2WSHのためのものは、SegWitで導入されたbech32エンコーディングを使用します。
+reviewed: false

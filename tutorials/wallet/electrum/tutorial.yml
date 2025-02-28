@@ -1,14 +1,98 @@
+id: efec9166-46b5-4937-8cee-6bc310975177
 builder: Electrum
 
 level: advanced
 
 category: desktop
 
-tags:
-  - self-custodial
-  - open-source
-  - privacy
-
 credits:
   Professor: rebuild-kiss
   link: https://armantheparman.com/electrum/
+
+# Proofreading metadata
+project_id: 45198444-27c2-4fc1-a761-eb321093642f
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 37.77
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18.94
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 9.47
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 28.36
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 37.77
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18.94
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 28.36
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 56.61
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 18.94
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 37.77
+  - language: vi
+    last_contribution_date: 2024-11-16
+    urgency: 1
+    contributors_id:
+      - Henry-Da0
+    reward: 28.31
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 37.77
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 47.19
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 47.19
+
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 37.77
+tags:
+  - wallets
+  - guides
+  - technical-analysis

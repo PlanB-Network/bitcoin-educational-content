@@ -1,0 +1,12 @@
+question: Mikä on DCA-alusta?
+answer: Palvelu, joka mahdollistaa käyttäjien sijoittaa kiinteän summan rahaa omaisuuserään säännöllisin väliajoin.
+wrong_answers:
+  - Kryptovaluuttapörssi, joka sallii vain Bitcoinin kaupankäynnin.
+  - Rahoituspalvelu, joka tarjoaa lainoja sijoittajille marginaalikaupankäyntiin.
+  - Ohjelmistotyökalu, joka seuraa osakekursseja reaaliajassa ilman sijoitusominaisuuksia.
+explanation: |
+  DCA-alusta viittaa alustaan, joka helpottaa
+  Dollar-Cost Averaging (DCA) -sijoitusstrategian toteuttamista, missä
+  yksilö sijoittaa kiinteän summan rahaa tiettyyn omaisuuserään
+  säännöllisin väliajoin, riippumatta omaisuuserän hinnasta.
+reviewed: true

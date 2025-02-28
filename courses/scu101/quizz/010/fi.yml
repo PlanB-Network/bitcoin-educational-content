@@ -1,0 +1,13 @@
+question: Mikä on ero yritys-VPN; ien ja kuluttaja-VPN; ien välillä?
+answer: Yritys-VPN; t ovat kalliimpia ja monimutkaisempia, kun taas kuluttaja-VPN; t ovat helpommin saavutettavissa ja käyttäjäystävällisempiä.
+wrong_answers:
+  - Yritys-VPN: t ovat yleensä turvallisempia kuin kuluttaja-VPN; t, koska ne ovat aina kalliimpia.
+  - Kuluttaja-VPN: t ovat aina kalliimpia kuin yritys-VPN; t niiden taloudellisen mittakaavan vuoksi, johon jälkimmäiset pääsevät käsiksi.
+  - Vaativamman kohdeyleisönsä vuoksi yritys-VPN: t salaa aina tiedot, kun taas kuluttaja-VPN; t eivät.
+explanation: |
+  Yritys-VPN: t on suunniteltu yrityksille ja ne ovat
+  tyypillisesti kalliimpia ja monimutkaisempia perustaa ja hallinnoida.
+  Toisaalta, kuluttaja-VPN: t on suunniteltu
+  yksittäisille käyttäjille ja ne ovat yleisesti ottaen helpommin saavutettavissa ja
+  käyttäjäystävällisempiä.
+reviewed: true

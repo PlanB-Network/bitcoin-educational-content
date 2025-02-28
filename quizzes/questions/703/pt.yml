@@ -1,9 +1,0 @@
-question: Que informações o destinatário pode fornecer ao remetente para facilitar a busca de rotas na Lightning Network?
-answer: O valor, o endereço dele, o hash da pré-imagem e indicações sobre seus canais.
-wrong_answers:
-  - O endereço do remetente, o valor da transação e a chave privada do destinatário.
-  - O endereço do destinatário, o valor da transação e a chave privada do remetente.
-  - O valor da transação, o endereço do destinatário e o hash da pré-imagem.
-explanation: |
-  Para facilitar a busca de rotas na Lightning Network, o destinatário pode fornecer ao remetente várias informações. Isso inclui o valor da transação, o endereço do destinatário, o hash da pré-imagem (que é usado para criar o HTLC) e indicações sobre os canais do destinatário (que podem ajudar a identificar canais com liquidez suficiente).
-reviewed: false

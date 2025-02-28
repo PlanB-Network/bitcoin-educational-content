@@ -1,0 +1,9 @@
+question: Quelle est la conséquence de l'hyperinflation ?
+answer: Une diminution drastique de la valeur de la monnaie.
+wrong_answers:
+  - Une petite diminution de la valeur de la monnaie.
+  - Une augmentation drastique de la valeur de la monnaie.
+  - Une petite augmentation de la valeur de la monnaie.
+explanation: |
+  À cause de l'hyperinflation, les individus perdent rapidement toute confiance dans la monnaie, ce qui conduit à une diminution drastique de sa valeur sur une courte période de temps.
+reviewed: true

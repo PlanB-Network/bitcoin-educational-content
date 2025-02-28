@@ -1,0 +1,14 @@
+title: "比特币村"
+publication_year: 2023
+cover: cover_en.webp
+original: true
+description: |
+  在《比特币村》中，作者带领我们进行了一次内容丰富的技术之旅，从货币的起源探索到计算机协议的核心。他还对比特币的社会和政治影响进行了反思，明确了比特币为建立一个更加公平、更加自觉的社会所奠定的基础。
+contributors:
+  - another-satoshi
+original_language: en
+proofreading:
+  - language: en
+    urgency: 1
+    contributors_id:
+      - davidecoltro

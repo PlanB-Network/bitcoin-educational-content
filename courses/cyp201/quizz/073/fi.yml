@@ -1,0 +1,8 @@
+question: Mikä indeksi edustaa tilin ulkoista ketjua johdospolussa?
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  Ulkoinen ketju tunnistetaan indeksillä /0/ johdospolun syvyydessä 4.

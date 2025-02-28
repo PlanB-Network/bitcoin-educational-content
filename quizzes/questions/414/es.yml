@@ -1,9 +1,0 @@
-question: ¿Cuál es el papel del operador XOR en la función de compresión de SHA256?
-answer: Para procesar los bits uno por uno según su posición
-wrong_answers:
-  - Devolver 1 solo si ambos operandos son iguales a 1
-  - Devolver el valor opuesto de un operando
-  - Desplazar los bits hacia la derecha por un número elegido
-explanation: |
-  En la función de compresión de SHA256, el operador XOR se utiliza para procesar los bits uno por uno según su posición. Esto se hace utilizando una tabla de verdad.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Làm thế nào để xác định một khóa trong mã hóa dịch chuyển?
+answer: Một số từ 0 đến 25
+wrong_answers:
+  - Một từ ngẫu nhiên
+  - Bất kỳ số ngẫu nhiên nào không giới hạn
+  - Một số từ 1 đến 26
+explanation: |
+  Trong mã hóa dịch chuyển, khóa là một số từ 0 đến 25, tương ứng với số vị trí dịch chuyển áp dụng cho mỗi chữ cái của thông điệp trong bảng chữ cái gồm 26 chữ cái.
+reviewed: false

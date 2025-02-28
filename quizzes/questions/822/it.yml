@@ -1,9 +1,0 @@
-question: Quali sono le caratteristiche di una buona password?
-answer: Lunga, complessa, unica e non basata su informazioni personali.
-wrong_answers:
-  - Corta, semplice e facile da ricordare.
-  - Basata su informazioni personali come date di nascita e nomi.
-  - La stessa password per tutti gli account.
-explanation: |
-  Una buona password è lunga (almeno 12 caratteri), complessa (una combinazione di lettere maiuscole e minuscole, numeri e simboli), unica (non riutilizzata per account diversi) e non basata su informazioni personali.
-reviewed: false

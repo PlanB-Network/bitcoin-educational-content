@@ -1,0 +1,9 @@
+question: PBKDF2によって生成されるシードのサイズは何ビットですか？
+answer: 512ビット
+wrong_answers:
+  - 128ビット
+  - 256ビット
+  - ニーモニックフレーズの長さによって変わる
+explanation: |
+  ニーモニックフレーズの長さに関わらず、PBKDF2は常に512ビットのシードを生成します。
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué es una estructura algebraica en álgebra abstracta?
+answer: Un conjunto de elementos con una o más operaciones que se adhieren a ciertos axiomas
+wrong_answers:
+  - Un conjunto de números primos organizados en filas que se adhieren a ciertos axiomas
+  - Una serie de algoritmos para resolver ecuaciones lineales
+  - Un grupo de transformaciones geométricas aleatorias dispuestas en adherencia a ciertos axiomas
+explanation: |
+  Una estructura algebraica es un conjunto de elementos definidos con una o más operaciones, como la adición o la multiplicación, que se adhieren a ciertos axiomas, y es esencial para estructurar conceptos en teoría de números.
+reviewed: false

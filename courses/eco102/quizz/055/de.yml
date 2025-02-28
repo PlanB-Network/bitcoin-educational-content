@@ -1,0 +1,9 @@
+question: Wer gilt in dieser Geschichte als der unfaire Konkurrent der Kerzenhersteller?
+answer: Die Sonne
+wrong_answers:
+  - Ausländische Kerzenhersteller
+  - Elektrizität
+  - Öllampen
+explanation: |
+  In seiner Satire bezeichnet Bastiat die Sonne als den unfairen Konkurrenten und hebt die Absurdität protektionistischer Maßnahmen hervor, indem er die Forderungen der Kerzenhersteller übertreibt.
+reviewed: false

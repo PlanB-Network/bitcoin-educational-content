@@ -1,0 +1,7 @@
+---
+term: HONG-KONG RUNDBORDSKONFERANSE
+
+---
+En historisk hendelse i Blocksize War som fant sted 20. februar 2016 i Hong Kong. Det var et viktig møte mellom Bitcoin Core-utviklere og utvinnere for å diskutere systemets skalerbarhet og strategien for å skalere det. Spenningen var høy før møtet, særlig på grunn av fremveksten av Bitcoin Classic, et hard fork-forslag støttet av Gavin Andressen som hadde som mål å øke blokkstørrelsen til 2 MB. Innflytelsesrike personer i økosystemet deltok i debattene, deriblant Jihan Wu og Micree Zhan, medgrunnleggerne av Bitmain, Adam Back, presidenten i Blockstream, og Luke Dashjr, Matt Corallo og Peter Todd.
+
+Utvinnere, frustrerte over mangelen på fremgang, truet med å støtte Bitcoin Classic hvis en 2 MB hard fork ikke ble implementert. Utviklerne forsvarte SegWit som en levedyktig løsning. Etter flere timer med anspente forhandlinger ble det inngått en avtale om at Bitcoin Core-utviklerne skulle jobbe med en hard fork etter implementeringen av SegWit. Denne avtalen skulle dempe spenningene, men den skapte til slutt mer mistillit og forvirring. Hver side tolket avtalen ulikt, noe som forsterket splittelsen i samfunnet. Selv om denne avtalen midlertidig bremset fremdriften til Bitcoin Classic, ble den av mange sett på som en utilfredsstillende og klønete løsning.

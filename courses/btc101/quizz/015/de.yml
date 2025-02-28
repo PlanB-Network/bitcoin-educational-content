@@ -1,0 +1,13 @@
+question: Was ist die Unabhängigkeitserklärung des Cyberspace?
+answer: Ein Text, der behauptet, dass der Cyberspace eine eigene Sphäre abseits der physischen Welt ist und nicht denselben Gesetzen unterliegen sollte.
+wrong_answers:
+  - Eine Erklärung, die die Unabhängigkeit von Bitcoin von traditionellen Finanzsystemen feststellt.
+  - Ein Text, der behauptet, dass der Cyberspace durch staatliche Regulierung kontrolliert werden sollte.
+  - Eine Erklärung, die für die Unabhängigkeit der Piratenbewegung von jeglicher Regulierung eintritt.
+explanation: |
+  Die Unabhängigkeitserklärung des Cyberspace wurde
+  1996 von John Perry Barlow verfasst. Dieses Dokument behauptet,
+  dass der Cyberspace eine eigene Sphäre abseits der physischen
+  Welt ist, sodass industrielle Regierungen dort ihre
+  Autorität nicht durchsetzen können.
+reviewed: true

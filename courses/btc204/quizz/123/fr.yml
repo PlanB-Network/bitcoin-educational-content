@@ -1,0 +1,13 @@
+question: Quel est le principal inconvénient de l'utilisation de Tor pour un nœud Bitcoin ?
+
+answer: Réduction de la vitesse de communication
+
+wrong_answers:
+  - Augmentation des frais de transaction
+  - Risque de censure des transactions
+  - Risque d'attaque Eclipse sur le nœud
+
+explanation: |
+  Les communications sur Tor sont plus lentes. Cette latence est particulièrement embêtante lors du lancement initial d'un nœud, car l'IBD (*Initial Block Download*) nécessite beaucoup de communications.
+
+reviewed: false

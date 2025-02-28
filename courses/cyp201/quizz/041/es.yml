@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal riesgo de usar un PRNG mal diseñado para generar entropía?
+answer: Las claves privadas podrían ser adivinadas por un atacante
+wrong_answers:
+  - La frase mnemotécnica podría contener palabras incorrectas
+  - Las firmas digitales se volverían inválidas
+  - Las direcciones de Bitcoin serían incompatibles con la red
+explanation: |
+  Un PRNG mal diseñado puede producir secuencias predecibles, haciendo las claves más vulnerables a ataques.
+reviewed: false

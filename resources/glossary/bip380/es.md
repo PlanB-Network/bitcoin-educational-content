@@ -1,0 +1,5 @@
+---
+term: BIP380
+
+---
+Una propuesta de mejora que introduce un lenguaje estándar para describir las colecciones de scripts de salida de los monederos HD Bitcoin. Este lenguaje se llama "Output Script Descriptors" Su objetivo es estandarizar la forma de representar y gestionar los scripts de salida, con el fin de facilitar la copia de seguridad, exportación e importación de monederos. Además de datos privados como la frase de recuperación, los descriptores proporcionan toda la información necesaria para recuperar los pares de claves utilizados en un monedero HD. BIP380 describe el funcionamiento general de los descriptores, mientras que BIP381, BIP382, BIP383, BIP384, BIP385 y BIP386 especifican las expresiones utilizadas. BIP380 fue implementado junto con todos los demás BIPs relacionados con descriptores (excepto BIP386) en la versión 0.17 de Bitcoin Core.

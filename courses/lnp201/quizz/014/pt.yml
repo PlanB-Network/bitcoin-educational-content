@@ -1,0 +1,9 @@
+question: Qual é o último passo para abrir um canal na Lightning Network?
+answer: Publicar a transação de depósito na blockchain do Bitcoin
+wrong_answers:
+  - Assinar uma transação de retirada para recuperar os fundos
+  - Enviar uma mensagem de confirmação da abertura para a outra parte
+  - Verificar o saldo de fundos de cada participante
+explanation: |
+  O último passo para abrir um canal é publicar a transação de depósito na blockchain, o que oficialmente abre o canal.
+reviewed: false

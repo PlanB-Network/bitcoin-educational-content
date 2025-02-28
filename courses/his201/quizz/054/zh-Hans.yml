@@ -1,0 +1,8 @@
+question: 哪位美国开发者在2010年8月15日的值溢出事件中发现了一个“奇怪的区块”？
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation:
+  这个区块利用了一个漏洞，创造了超过1840亿比特币。

@@ -1,0 +1,9 @@
+question: Which concept is not exclusively related to symmetric or asymmetric cryptography schemes?
+answer: Hash functions
+wrong_answers:
+  - Public and private key pairs
+  - Asymmetric cryptography
+  - Symmetric cryptography
+explanation: |
+  Hash functions are a key component of modern cryptography, but they are not specifically associated with either symmetric or asymmetric schemes, unlike public and private keys.
+reviewed: false

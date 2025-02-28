@@ -1,0 +1,10 @@
+question: Která z následujících vlastností přispěla k rozšíření používání Bitcoinu na tržištích dark webu, jako je Silk Road?
+answer: Jeho nekontrolovatelná a pseudonymní povaha.
+wrong_answers:
+  - Jeho centralizovaná kontrola.
+  - Jeho sledovatelnost a kontrolovatelná povaha.
+  - Jeho nedostatek pseudonymity.
+explanation: >-
+  Používání Bitcoinu se na tržištích dark webu, jako je Silk Road, rozšířilo
+  díky jeho nekontrolovatelné a pseudonymní povaze.
+reviewed: true

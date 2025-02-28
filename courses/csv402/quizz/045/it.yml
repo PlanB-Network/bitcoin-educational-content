@@ -1,0 +1,9 @@
+question: Quale standard RGB viene utilizzato per definire i token fungibili?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20 è lo standard utilizzato per creare e gestire gettoni fungibili attraverso il protocollo RGB.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Qu'est-ce que le Problème des Généraux Byzantins et comment Bitcoin le résout-il ?
-answer: Il s'agit d'un problème de coordination de l'information dans un système où les différents acteurs ne peuvent pas être fiables. Bitcoin le résout grâce à l'utilisation d'une blockchain basée sur la Preuve de Travail avec une difficulté variable.
-wrong_answers:
-  - Il s'agit d'un problème de vérification des transactions dans un réseau décentralisé. Bitcoin le résout grâce à l'utilisation de signatures numériques.
-  - Il s'agit d'un problème de prévention de la double dépense dans une monnaie numérique. Bitcoin le résout grâce à l'utilisation d'un registre public.
-  - Il s'agit d'un problème de maintien du consensus dans un réseau décentralisé. Bitcoin le résout grâce à l'utilisation d'un algorithme de Preuve d'Enjeu.
-explanation: |
-  Le Problème des Généraux Byzantins est un problème classique en informatique distribuée, qui consiste à parvenir à un consensus dans un réseau où certains nœuds peuvent être défectueux ou malveillants. Bitcoin résout ce problème grâce à l'utilisation d'une blockchain basée sur la Preuve de Travail, qui garantit que tous les nœuds sont d'accord sur l'état de l'historique des transactions.
-reviewed: false

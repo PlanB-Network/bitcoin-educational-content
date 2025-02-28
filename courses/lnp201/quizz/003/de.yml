@@ -1,0 +1,9 @@
+question: Was ist die Hauptregel bezüglich der Mittel, die ein Teilnehmer in einem Zahlungskanal senden kann?
+answer: Sie können nur die Mittel von ihrer eigenen Seite des Kanals senden.
+wrong_answers:
+  - Sie können bis zur Hälfte der Gesamtkapazität des Kanals senden.
+  - Sie können jeden Betrag senden, solange es eine vorherige Vereinbarung gibt.
+  - Sie können bei Bedarf Mittel von der Seite des anderen Teilnehmers leihen.
+explanation: |
+  Jeder Teilnehmer ist durch die Anzahl der Satoshis, die er im Kanal für seine Transaktionen hält, begrenzt, um sicherzustellen, dass die Mittel immer gedeckt sind.
+reviewed: false

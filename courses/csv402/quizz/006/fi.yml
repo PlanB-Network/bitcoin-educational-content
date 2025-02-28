@@ -1,0 +1,9 @@
+question: Missä on RGB:ssä sitoumus, kun kertakäyttöinen sinetti suljetaan?
+answer: Tapahtuman ulostulossa, joka käyttää outpointin
+wrong_answers:
+  - Tapahtuman tulon yhteydessä menojen lähtöpaikka
+  - TapahtumanSig-skriptissä, jossa käytetään lähtöpistettä
+  - Todistajana tapahtuman kuluttamisen yhteydessä outpointin
+explanation: |
+  Sitoumus lisätään sen tapahtuman ulostuloon, joka käyttää kertakäyttöisen sinetin määrittelevän ulostulopisteen.
+reviewed: false

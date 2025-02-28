@@ -1,0 +1,9 @@
+question: Qual è la conseguenza della perdita della scorta nel protocollo RGB?
+answer: Lo storico dei contratti e i dati associati diventano irrecuperabili
+wrong_answers:
+  - I dati possono essere ricostruiti dalla blockchain se si dispone del seed
+  - Una copia dei dati è disponibile sui server di RGB in Svizzera
+  - I dati vengono replicati automaticamente per tutti i partecipanti
+explanation: |
+  Nella convalida lato client, ogni utente è responsabile della propria scorta, che non viene replicata altrove, rendendo definitiva la sua perdita.
+reviewed: false

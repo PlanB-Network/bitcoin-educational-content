@@ -1,0 +1,10 @@
+question: Một trong những vấn đề chính liên quan đến kiểm duyệt là gì?
+answer: Nó có thể phá hủy quyền tự do biểu đạt và quyền tự do tập hợp.
+wrong_answers:
+  - Nó có thể dẫn đến việc thực thi quyền tự do biểu đạt.
+  - Nó có thể dẫn đến nhiều sự ủng hộ hơn cho quyền tự do tập hợp.
+  - Nó có thể dẫn đến sự giảm sút trong đổi mới sáng tạo.
+explanation: >-
+  Văn bản đề cập rằng việc chấp nhận kiểm duyệt có thể phá hủy quyền tự do biểu đạt
+  và quyền tự do tập hợp.
+reviewed: true

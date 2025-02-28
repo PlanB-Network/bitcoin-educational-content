@@ -1,0 +1,9 @@
+question: Quais são os três métodos de fechamento de um canal na Lightning Network?
+answer: Fechamento cooperativo, fechamento forçado, fechamento com trapaça
+wrong_answers:
+  - Fechamento rápido, fechamento lento, fechamento com dupla assinatura
+  - Fechamento seguro, fechamento automatizado, fechamento com perda de fundos
+  - Fechamento direto, fechamento indireto, fechamento com reivindicação
+explanation: |
+  Existem três métodos: fechamento cooperativo onde as partes concordam, fechamento forçado sem uma resposta de uma das partes, e fechamento com trapaça onde uma parte tenta publicar uma transação antiga.
+reviewed: false

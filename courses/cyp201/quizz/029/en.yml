@@ -1,0 +1,9 @@
+question: Which digital signature algorithm was used at the launch of Bitcoin?
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  Bitcoin initially used ECDSA, a signature protocol based on elliptic curves, before the introduction of Schnorr signatures in 2021.
+reviewed: false

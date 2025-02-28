@@ -1,9 +1,0 @@
-question: ¿Cuál es el tiempo promedio entre dos bloques en el protocolo de Bitcoin?
-answer: 10 minutos
-wrong_answers:
-  - 5 minutos
-  - 15 minutos
-  - 20 minutos
-explanation: |
-  En promedio, el tiempo entre dos bloques en el protocolo de Bitcoin es de 10 minutos.
-reviewed: false

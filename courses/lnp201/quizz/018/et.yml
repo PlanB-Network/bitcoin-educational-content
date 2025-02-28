@@ -1,0 +1,8 @@
+question: Kuidas luuakse uus kanali olek pärast iga ülekannet?
+answer: Loome uue kohustusliku tehingu uuendatud jaotusega
+wrong_answers:
+  - Postitades iga ülekande järel on-chain tehingu
+  - Suurendades kanali koguvõimsust
+  - Sulgedes ja taasavades kanali pärast iga tehingut
+explanation: |
+  Iga tehing kanalis uuendab kanali olekut uue kohustusliku tehinguga, peegeldades kahe osaleja vaheliste vahendite praegust jaotust.

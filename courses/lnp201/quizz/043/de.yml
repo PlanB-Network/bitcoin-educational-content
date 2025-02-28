@@ -1,0 +1,9 @@
+question: Welche Informationen kann Bob in einer Rechnung angeben, um die Weiterleitung zu erleichtern?
+answer: Nahegelegene Kanäle mit ausreichender Liquidität oder die Existenz von privaten Kanälen
+wrong_answers:
+  - Der private Schlüssel von Zwischenknoten
+  - Die komplette Karte aller Netzwerkskanäle
+  - Die exakte Menge an verfügbarer Liquidität für jeden Kanal
+explanation: |
+  Indem Bob nahegelegene Kanäle mit Liquidität angibt oder private Kanäle offenlegt, hilft er Alice, Routen mit einer besseren Erfolgswahrscheinlichkeit auszuwählen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: En quoi consiste l'heuristique de propriété commune des entrées (CIOH) ?
+answer: Lorsqu'une transaction comporte plusieurs inputs, ces derniers proviennent vraisemblablement tous d'une entité unique.
+wrong_answers:
+  - Lorsqu'une transaction comporte plusieurs inputs, ces derniers proviennent vraisemblablement tous d'une entité différente.
+  - Lorsqu'une transaction comporte plusieurs outputs, ces derniers vont vraisemblablement tous vers une entité unique.
+  - Lorsqu'une transaction comporte plusieurs outputs, ces derniers vont vraisemblablement tous vers des entités différentes.
+explanation: |
+   La CIOH est une heuristique stipulant que lorsqu'une transaction comporte plusieurs inputs, ces derniers émanent vraisemblablement tous d'une entité unique. En conséquence, leur propriété est commune.
+reviewed: false

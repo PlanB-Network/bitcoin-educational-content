@@ -1,0 +1,9 @@
+question: Cosa fa un nodo mittente quando un percorso di pagamento fallisce a causa di liquidità insufficiente?
+answer: Prova un altro percorso fino a trovare quello funzionante
+wrong_answers:
+  - Invia automaticamente una richiesta di rimborso al destinatario
+  - Chiude il canale e crea un nuovo canale diretto
+  - Chiede ai nodi intermedi di aumentare la loro liquidità
+explanation: |
+  Quando un percorso fallisce, il nodo mittente prova altri percorsi alternativi fino a trovare un percorso funzionante, o fino all'esaurimento di tutte le opzioni.
+reviewed: false

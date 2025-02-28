@@ -1,0 +1,13 @@
+question: Qual é o status do Bitcoin em El Salvador?
+answer: Moeda legal.
+wrong_answers:
+  - Criminalizado.
+  - Desconhecido.
+  - Não regulamentado.
+explanation: |
+  O texto do curso menciona que alguns países proibiram
+  e criminalizaram o uso do Bitcoin, aumentando a
+  complexidade da adoção do Bitcoin com base em culturas, épocas e
+  nações. No entanto, El Salvador foi corajoso o suficiente para adotá-lo
+  como uma moeda legal.
+reviewed: true

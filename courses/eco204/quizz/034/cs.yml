@@ -1,0 +1,12 @@
+question: Co je to zombie společnost?
+answer: Společnost, která za normálních tržních podmínek by byla nesolventní nebo blízko bankrotu, ale nadále funguje převážně díky půjčkám s nízkými náklady.
+wrong_answers:
+  - Společnost, která podniká více než 100 let.
+  - Společnost působící v technologickém sektoru.
+  - Společnost, která byla zachráněna vládní pomocí.
+explanation: |
+  Zombie společnost je společnost, která za normálních tržních podmínek by
+  byla nesolventní nebo blízko bankrotu, ale nadále funguje převážně díky půjčkám s nízkými
+  náklady. Tyto společnosti vydělávají právě tolik peněz, aby pokryly své dluhy, ale nejsou schopny
+  výrazně růst.
+reviewed: false

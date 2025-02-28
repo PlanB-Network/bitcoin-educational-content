@@ -1,0 +1,9 @@
+question: Hva er definisjonen av en tilfeldig variabel i konteksten av kryptografi?
+answer: En variabel som kan ta flere mulige verdier med en positiv sannsynlighet
+wrong_answers:
+  - En variabel som endrer verdi i hvert øyeblikk
+  - En variabel hvis verdier er faste og forhåndsdefinerte
+  - En variabel som alltid er definert i konteksten av et spesifikt fysisk eksperiment
+explanation: |
+  En tilfeldig variabel kan ta to eller flere verdier, hver med en positiv sannsynlighet, og den er ofte definert abstrakt i konteksten av kryptografi.
+reviewed: false

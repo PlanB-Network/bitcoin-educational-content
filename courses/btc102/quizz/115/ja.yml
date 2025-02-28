@@ -1,0 +1,9 @@
+question: Bitcoinにおけるパスワードマネージャーの目的は何ですか？
+answer: Bitcoin取引のパスワードを安全に保存し管理することです。
+wrong_answers:
+  - 新しいBitcoinを採掘すること。
+  - Bitcoinを取引すること。
+  - Bitcoinを他の暗号通貨に変換すること。
+explanation: |
+  パスワードマネージャーは、さまざまなオンラインアカウントのパスワードを保存し管理するために使用されるソフトウェアアプリケーションです。Bitcoinの文脈では、Bitcoin取引のパスワードを安全に保存し管理するために使用されます。
+reviewed: false

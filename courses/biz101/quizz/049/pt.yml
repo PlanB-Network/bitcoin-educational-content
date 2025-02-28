@@ -1,0 +1,9 @@
+question: Qual é a principal vantagem do papel-moeda em relação às moedas nos sistemas de pagamento tradicionais?
+answer: Maior portabilidade e eficiência
+wrong_answers:
+  - Aumento do valor intrínseco através de metais preciosos
+  - Verificação automática de cada transação
+  - Eliminação total dos riscos de contrafação
+explanation: |
+  O papel-moeda, sendo leve e mais fácil de transportar do que as moedas, permitiu um comércio de longa distância mais eficiente e reduziu os desafios logísticos.
+reviewed: false

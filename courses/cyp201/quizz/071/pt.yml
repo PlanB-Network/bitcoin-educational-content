@@ -1,0 +1,8 @@
+question: Qual profundidade no caminho de derivação especifica o tipo de moeda?
+answer: Profundidade 2
+wrong_answers:
+  - Profundidade 1
+  - Profundidade 3
+  - Profundidade 4
+explanation: |
+  A Profundidade 2 é usada para identificar a moeda em carteiras multi-moedas, como Bitcoin (índice 0') ou Litecoin (índice 2').

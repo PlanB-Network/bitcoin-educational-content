@@ -1,0 +1,8 @@
+question: Mida tähendab vahetusraha tehingus?
+answer: Väljund, mis naaseb tehingu algsele saatjale.
+wrong_answers:
+  - Tasu, mida võtab Bitcoin'i võrk.
+  - Väljund, mis kantakse üle tehingu saajale.
+  - Boonus, mis antakse saatjale kiirete tehingute eest.
+explanation: |
+  Vahetusraha on väljund, mis esindab makse täitmiseks kasutamata jäänud sisendite osa ja seega naaseb algsele saatjale tehingus.

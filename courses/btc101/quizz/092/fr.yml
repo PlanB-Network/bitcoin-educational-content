@@ -1,0 +1,13 @@
+question: Quel est l'usage recommandé d'un portefeuille multisig ?
+answer: Stocker de grandes quantités pour un usage corporatif.
+wrong_answers:
+  - Stocker de petites quantités pour un usage personnel.
+  - Stocker des quantités moyennes pour un usage à but non lucratif.
+  - Stocker les dépenses quotidiennes pour un usage individuel.
+explanation: |
+  Un portefeuille multisig est recommandé pour stocker de grandes quantités
+  et pour un usage corporatif car il nécessite plusieurs
+  signatures pour effectuer une transaction. Ce processus ajoute une
+  couche supplémentaire de sécurité, car une seule personne ne peut pas
+  réaliser une transaction sans l'approbation des autres.
+reviewed: true

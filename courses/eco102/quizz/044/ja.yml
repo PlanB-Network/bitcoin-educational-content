@@ -1,0 +1,9 @@
+question: BastiatがCobdenへの手紙で指摘した社会不安の主な原因は何ですか？
+answer: 一般大衆の経済的無知
+wrong_answers:
+  - 裕福な階級の低課税
+  - 主要産業の台頭
+  - 社会改革の遅れ
+explanation: |
+  Bastiatは、社会不安を経済的無知に帰しており、これが人々を社会主義のユートピア的な考えに弱くさせているとしています。
+reviewed: false

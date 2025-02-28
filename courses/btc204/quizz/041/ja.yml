@@ -1,0 +1,9 @@
+question: Automated Teller Machines (ATM)の主な欠点は何ですか？
+answer: 非常に高い手数料がかかることです。
+wrong_answers:
+  - 高速なインターネット接続が必要です。
+  - 地元の通貨に対応していない。
+  - 取引のセキュリティが保証されていない。
+explanation: |
+  ATMを通じてビットコインを購入することは、ユーザープライバシーにとって興味深い解決策ですが、その主な欠点は、しばしば法外な手数料がかかることです。
+reviewed: false

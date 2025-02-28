@@ -1,0 +1,9 @@
+question: Quelle est la contrainte pour dériver une clé publique enfant à partir d'une clé publique parent ?
+answer: La clé enfant doit être normale
+wrong_answers:
+  - La clé enfant doit être endurcie
+  - Le code de chaîne doit être identique à celui de la clé parent
+  - Le processus doit inclure la clé privée parent
+explanation: |
+  Une clé publique enfant ne peut être dérivée à partir d'une clé publique parent que si elle est normale, et non endurcie.
+reviewed: false

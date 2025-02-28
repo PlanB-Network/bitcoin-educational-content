@@ -1,0 +1,9 @@
+question: Proč je důležité sledovat hodnotu fiat v okamžiku každé transakce s bitcoiny?
+answer: Zajištění přesného vedení účetnictví a dodržování daňových předpisů
+wrong_answers:
+  - Automatické zvýšení zůstatku v peněžence
+  - Umožnění obchodování na trhu v reálném čase přímo z peněženky
+  - Snížení transakčních poplatků uložených sítí
+explanation: |
+  Sledování hodnoty fiat pomáhá podnikům řídit účetnictví při kolísajících cenách bitcoinu.
+reviewed: false

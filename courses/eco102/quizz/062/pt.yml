@@ -1,0 +1,8 @@
+question: Segundo Laffer, o que acontece com as receitas fiscais quando as taxas de impostos são excessivamente aumentadas?
+answer: Elas diminuem
+wrong_answers:
+  - Elas aumentam
+  - Elas permanecem estáveis
+  - Elas flutuam de forma imprevisível
+explanation: |
+  De acordo com a curva de Laffer, um aumento excessivo nas taxas de impostos leva a uma diminuição nas receitas fiscais porque desencoraja o trabalho, o investimento e a produção.

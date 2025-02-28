@@ -1,0 +1,13 @@
+question: Pourquoi utilise-t-on l'opérateur XOR dans le BIP47 ?
+
+answer: Pour chiffrer de manière symétrique la charge utile du code de paiement de l'envoyeur.
+
+wrong_answers:
+  - Pour chiffrer de manière asymétrique la charge utile du code de paiement de l'envoyeur.
+  - Pour chiffrer de manière symétrique les métadonnées du code de paiement de l'envoyeur.
+  - Pour chiffrer de manière asymétrique les métadonnées du code de paiement de l'envoyeur.
+
+explanation: |
+  L'opérateur XOR est utilisé pour chiffrer de manière symétrique la charge utile du code de paiement de l'envoyeur dans le BIP47.
+
+reviewed: false

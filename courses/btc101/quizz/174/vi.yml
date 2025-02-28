@@ -1,0 +1,9 @@
+question: Chi phí thường gặp cho một người đào coin là gì?
+answer: Tiêu thụ điện năng và mua sắm phần cứng.
+wrong_answers:
+  - Chỉ mua sắm phần cứng.
+  - Phí giao dịch.
+  - Tiêu thụ điện năng và phí giao dịch.
+explanation: >-
+  Việc đào Bitcoin đòi hỏi sức mạnh tính toán đáng kể, điều này đồng nghĩa với việc tiêu thụ điện năng.
+  Ngoài ra, các thợ đào cần đầu tư vào phần cứng chuyên dụng để có thể đào hiệu quả.

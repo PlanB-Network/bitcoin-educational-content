@@ -1,0 +1,5 @@
+---
+term: NSEQUENCE
+
+---
+Feltet `nSequence` i en Bitcoin-transaksjonspost brukes til å angi hvordan denne posten er tidslåst. Opprinnelig var det ment å tillate dynamisk utskifting av transaksjoner i mempools for å muliggjøre et betalingssystem som ligner på Lightning. Bruken har imidlertid utviklet seg med innføringen av relativ tidslåsing gjennom BIP68. Feltet `nSequence` kan nå spesifisere en relativ forsinkelse før en transaksjon kan inkluderes i en blokk. Denne forsinkelsen kan defineres som antall blokker eller som et multiplum av 512 sekunder (dvs. sanntid). Det er viktig å merke seg at denne nye tolkningen av `nSequence`-feltet bare er gyldig hvis `nVersion`-feltet er større enn eller lik `2`. Denne tolkningen av `nSequence`-feltet er på nivå med Bitcoins konsensusregler. Videre, på nivået av standardiseringsregler, brukes dette feltet også til å signalisere RBF (Replace-By-Fee). Hvis en transaksjon inkluderer en `nSequence` som er lavere enn `0xfffffffffe`, kan den erstattes via RBF på noder som følger denne policyen.

@@ -1,0 +1,10 @@
+question: Na co byste měli myslet při výběru platformy pro DCA?
+answer: Dostupnost ve vaší zemi.
+wrong_answers:
+  - Barva loga platformy.
+  - Počet uživatelů na platformě.
+  - Stáří platformy.
+explanation: |
+  Tento kurzovní text zmíní, že při výběru platformy pro DCA
+  je správná volba více závislá na její dostupnosti ve vaší zemi.
+reviewed: true

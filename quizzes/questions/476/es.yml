@@ -1,9 +1,0 @@
-question: ¿Cómo se determina el número de palabras en la frase de recuperación en la generación de una frase mnemotécnica para una billetera de Bitcoin?
-answer: Depende del tamaño de la entropía.
-wrong_answers:
-  - Depende del tamaño del checksum.
-  - Siempre son 24 palabras.
-  - Se genera de forma aleatoria.
-explanation: |
-  Dependiendo del tamaño de la entropía, la frase de recuperación consistirá en 12 palabras para 128 bits, 15 palabras para 160 bits y 24 palabras para 256 bits.
-reviewed: false

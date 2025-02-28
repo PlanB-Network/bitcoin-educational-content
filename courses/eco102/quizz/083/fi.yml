@@ -1,0 +1,8 @@
+question: Bastiatin mukaan, mikä on liiallisen valtion sekaantumisen seuraus yksilön vastuulle?
+answer: Se tuhoaa vastuullisuuden suojaten yksilöitä heidän tekojensa seurauksilta
+wrong_answers:
+  - Se vahvistaa yksilön vastuuta perustamalla lisää sääntöjä
+  - Se kannustaa kansalaisia aktiivisesti osallistumaan julkiseen elämään
+  - Se takaa oikeudenmukaisemman sosiaalisen oikeudenmukaisuuden
+explanation: |
+  Bastiat uskoo, että liiallinen valtion sekaantuminen poistaa yksilöiltä mahdollisuuden täysin kantaa vastuuta tekojensa seurauksista, mikä heikentää heidän vastuuntuntoaan.

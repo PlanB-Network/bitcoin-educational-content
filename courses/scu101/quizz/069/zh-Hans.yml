@@ -1,0 +1,9 @@
+question: 使用DOH（DNS over HTTPS）和DOT（DNS over TLS）的优势是什么？
+answer: 它们加密DNS连接，提供更高的隐私和安全性，并避免“中间人”攻击。
+wrong_answers:
+  - 它们加速互联网连接。
+  - 它们阻止所有广告。
+  - 它们允许访问被封锁的网站。
+explanation: |
+  DOH（DNS over HTTPS）和DOT（DNS over TLS）通过加密DNS连接，提供更高的隐私和安全性。这些协议因其增强的安全性而被广泛用于企业，并且得到了Windows、Android和iPhone的原生支持。它们通过避免“中间人”攻击来提高隐私和安全性。
+reviewed: false

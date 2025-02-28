@@ -1,0 +1,13 @@
+question: Qual è l'uso consigliato di un portafoglio multisig?
+answer: Conservare grandi quantità per uso aziendale.
+wrong_answers:
+  - Conservare piccole quantità per uso personale.
+  - Conservare quantità medie per uso no-profit.
+  - Conservare le spese quotidiane per uso individuale.
+explanation: |
+  Si raccomanda l'uso di un portafoglio multisig per conservare grandi quantità
+  e per l'uso aziendale perché richiede multiple
+  firme per eseguire una transazione. Questo processo aggiunge un
+  ulteriore livello di sicurezza, poiché una singola persona non può
+  condurre una transazione senza l'approvazione degli altri.
+reviewed: true

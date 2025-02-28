@@ -1,9 +1,0 @@
-question: Worauf werden Bergleute als Entschädigung angewiesen sein, nachdem alle 21 Millionen Bitcoins erstellt wurden?
-answer: Bergleute werden ausschließlich auf Transaktionsgebühren als Entschädigung angewiesen sein.
-wrong_answers:
-  - Bergleute werden ausschließlich auf Blockbelohnungen als Entschädigung angewiesen sein.
-  - Bergleute werden ausschließlich auf Transaktionsbestätigungen als Entschädigung angewiesen sein.
-  - Bergleute werden ausschließlich auf Netzwerkgebühren als Entschädigung angewiesen sein.
-explanation: |
-  Ab dem Jahr 2140 werden keine neuen Bitcoins mehr erstellt. Zu diesem Zeitpunkt werden Bergleute ausschließlich auf Transaktionsgebühren als Entschädigung angewiesen sein.
-reviewed: false

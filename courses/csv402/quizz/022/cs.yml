@@ -1,0 +1,9 @@
+question: Která operace smlouvy RGB vytvoří nový stav bez uzavření pečeti?
+answer: Státní prodloužení
+wrong_answers:
+  - Přechod stavu
+  - Genesis
+  - Aktivace valence
+explanation: |
+  Rozšíření stavu umožňuje vytvořit nový stav nebo práva (Valence), aniž by se pečeť okamžitě uzavřela.
+reviewed: false

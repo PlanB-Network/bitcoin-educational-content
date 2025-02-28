@@ -1,9 +1,0 @@
-question: Qual è il ruolo della curva ellittica nella generazione di chiavi pubbliche e private?
-answer: Viene utilizzata per generare chiavi pubbliche e private sicure.
-wrong_answers:
-  - Viene utilizzata per crittografare le chiavi.
-  - Viene utilizzata per memorizzare le chiavi.
-  - Viene utilizzata per trasmettere le chiavi.
-explanation: |
-  La curva ellittica è una costruzione matematica utilizzata nella generazione di chiavi pubbliche e private sicure. Viene scelto un numero casuale, spesso chiamato nonce, come chiave privata e utilizzato nell'equazione della curva ellittica per generare la corrispondente chiave pubblica.
-reviewed: false

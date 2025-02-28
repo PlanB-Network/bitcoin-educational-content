@@ -1,0 +1,9 @@
+question: Qual è stata la disponibilità online di Bitcoin dal 2009?
+answer: 99,988%.
+wrong_answers:
+  - 100%.
+  - 90,009%.
+  - 80,17%.
+explanation: |
+  La disponibilità online di Bitcoin è del 99,988% dal 2009.
+reviewed: vero

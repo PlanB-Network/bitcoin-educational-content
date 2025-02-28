@@ -1,0 +1,8 @@
+question: ¿Qué tipo de liquidez debe gestionar principalmente un vendedor en la Red Lightning para aceptar pagos?
+answer: Liquidez entrante
+wrong_answers:
+  - Liquidez saliente
+  - Una alta capacidad total del canal
+  - Un alto saldo en cadena
+explanation: |
+  Para recibir pagos, un vendedor necesita tener liquidez entrante, lo que significa que los fondos deben estar disponibles en el lado opuesto del canal para que puedan aceptar pagos.

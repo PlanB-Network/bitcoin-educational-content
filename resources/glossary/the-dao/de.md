@@ -1,0 +1,5 @@
+---
+term: DIE DAO
+
+---
+Projekt, das 2016 auf Ethereum gestartet wurde und darauf abzielt, einen autonomen, durch intelligente Verträge verwalteten Investmentfonds zu schaffen. Obwohl The DAO in erster Linie mit Ethereum in Verbindung gebracht wird, hatte es einen erheblichen Einfluss auf die Entwicklung von Bitcoin. Im Juni 2016 wurde The DAO Opfer eines massiven Hacks. Als Reaktion darauf führte die Ethereum-Community eine Hardfork durch, die sich als durchschlagender Misserfolg erwies. Dieser Vorfall festigte die konservativen Positionen der kleinen Blocker während des Bitcoin Blocksize War. Sie nutzten dieses Ereignis, um gegen schnelle Änderungen am Bitcoin-Protokoll zu argumentieren, wie sie von den Big Blockern befürwortet wurden, und gegen die Idee, Hardforks durchzuführen, wie es bei Ethereum nach dem DAO-Hack der Fall war.

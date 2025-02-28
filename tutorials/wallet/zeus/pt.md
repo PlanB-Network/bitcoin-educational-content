@@ -1,10 +1,10 @@
 ---
-name: ZEUS
+name: Zeus
 
 description: Configuração da carteira Zeus
 ---
 
-![Zeus](assets/cover.jpeg)
+![Zeus](assets/cover.webp)
 
 **Zeus é uma carteira de Bitcoin de código aberto e não custodial** que lhe dá controle total sobre como você faz pagamentos.
 

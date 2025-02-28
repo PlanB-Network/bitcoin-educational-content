@@ -1,0 +1,9 @@
+question: Какой сервис обмена, созданный в марте 2010 года, был самым популярным до появления Mt. Gox в июле?
+answer: Bitcoin Market
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  Это был пиринговый рынок с использованием PayPal, который был запущен 16 марта 2010 года индивидуумом под псевдонимом dwdollar и был основной платформой до появления Mt. Gox.
+reviewed: false

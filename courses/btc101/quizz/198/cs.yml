@@ -1,0 +1,9 @@
+question: Co byste měli mít před koupí Bitcoinu?
+answer: Bezpečnou peněženku.
+wrong_answers:
+  - Fyzický trezor.
+  - Bankovní účet.
+  - Kreditní kartu.
+explanation: |
+  Text kurzu uvádí, že před koupí Bitcoinu byste měli mít bezpečnou peněženku, kde budete uchovávat své klíče.
+reviewed: true

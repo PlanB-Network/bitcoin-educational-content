@@ -1,0 +1,12 @@
+question: ¿Cuál es el papel de un nodo de Bitcoin en la red de Bitcoin?
+answer: Valida nuevos bloques y transacciones incluidas.
+wrong_answers:
+  - Crea nuevos Bitcoins y los coloca en los bloques.
+  - Regula el precio de Bitcoin.
+  - Gestiona la red de Bitcoin.
+explanation: |
+  Un nodo de Bitcoin en la red de Bitcoin se encarga de
+  la validación de nuevos bloques y transacciones incluidas. Es
+  esta red de nodos de Bitcoin la que la hace verdaderamente
+  descentralizada.
+reviewed: true

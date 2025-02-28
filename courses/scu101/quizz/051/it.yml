@@ -1,0 +1,11 @@
+question: Qual è la regola d'oro della cybersecurity?
+answer: La cybersecurity è un obiettivo in movimento che si adatterà al tuo percorso di apprendimento.
+wrong_answers:
+  - La cybersecurity è una configurazione una tantum
+  - La cybersecurity non è necessaria per gli account personali
+  - La cybersecurity è solo per persone esperte di tecnologia
+explanation: |
+  La cybersecurity è un obiettivo in movimento perché le minacce e
+  le misure di sicurezza sono in costante evoluzione. È importante
+  continuare ad imparare e adattare le proprie pratiche.
+reviewed: true

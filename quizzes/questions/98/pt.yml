@@ -1,9 +1,0 @@
-question: O que acontece se sua chave privada for revelada a terceiros?
-answer: Os fundos associados não estão mais seguros.
-wrong_answers:
-  - A terceira parte só pode visualizar o histórico de transações.
-  - A terceira parte pode alterar sua chave privada.
-  - A terceira parte pode acessar suas informações pessoais.
-explanation: |
-  Se sua chave privada for revelada a terceiros, os fundos associados não estarão mais seguros. Isso ocorre porque a chave privada representa o acesso aos seus fundos.
-reviewed: false

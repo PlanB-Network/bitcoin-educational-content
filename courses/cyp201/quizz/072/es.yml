@@ -1,0 +1,9 @@
+question: ¿Qué significa un apóstrofo (') o la h en una ruta de derivación?
+answer: Una derivación endurecida
+wrong_answers:
+  - Una derivación normal
+  - Una derivación externa
+  - Una derivación no estándar
+explanation: |
+  Un apóstrofo indica que la derivación es endurecida, requiriendo una clave privada padre para generar la clave hija.
+reviewed: false

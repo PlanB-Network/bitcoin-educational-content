@@ -1,9 +1,0 @@
-question: Wer bezahlt die Abschlussgebühren bei einer kooperativen Schließung?
-answer: Die Person, die den Kanal eröffnet hat.
-wrong_answers:
-  - Die Person, die den Kanal geschlossen hat.
-  - Beide Parteien zu gleichen Teilen.
-  - Die Person mit den meisten SAT im Kanal.
-explanation: |
-  Bei einer kooperativen Schließung einigen sich die beiden Teilnehmer auf einen endgültigen Zustand des Kanals. Die Person, die den Kanal eröffnet hat, trägt die Abschlussgebühren.
-reviewed: false

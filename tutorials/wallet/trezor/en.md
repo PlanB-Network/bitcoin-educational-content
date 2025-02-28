@@ -4,9 +4,9 @@ name: Trezor model One
 description: Set up and use of Trezor model One
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
-Cold hardware portfolio – 60€ – Beginner – Secure between 2 000€ and 50 000€.
+Cold hardware wallet – 60€ – Beginner – Secure between 2 000€ and 50 000€.
 
 As cold physical wallet, Trezor is ideal to starting in Bitcoin. It’s easy to use, not too expensive and functional.
 

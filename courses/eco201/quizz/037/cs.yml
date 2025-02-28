@@ -1,0 +1,9 @@
+question: Co se stane, když dojde k poklesu úrokových sazeb v důsledku zvýšení úvěrovosti podle Rakouské teorie hospodářského cyklu?
+answer: Podnikatelé mohou půjčit více zdrojů a tím vytvořit výrobní stupně vyššího řádu. Toto rozšíření výrobní struktury nevede k snížení spotřeby, protože nedošlo k odkladu současné spotřeby ze strany spotřebitelů. Jinými slovy, HDP roste.
+wrong_answers:
+  - Podnikatelé mohou půjčit méně zdrojů a tím vytvořit výrobní stupně nižšího řádu. Toto rozšíření výrobní struktury povede ke zvýšení spotřeby, protože došlo k odkladu současné spotřeby ze strany spotřebitelů. Jinými slovy, HDP klesá.
+  - Podnikatelé mohou půjčit více zdrojů a tím vytvořit výrobní stupně nižšího řádu. Toto rozšíření výrobní struktury povede ke snížení spotřeby, protože nedošlo k odkladu současné spotřeby ze strany spotřebitelů. Jinými slovy, HDP klesá.
+  - Podnikatelé mohou půjčit méně zdrojů a tím vytvořit výrobní stupně vyššího řádu. Toto rozšíření výrobní struktury povede ke zvýšení spotřeby, protože došlo k odkladu současné spotřeby ze strany spotřebitelů. Jinými slovy, HDP roste.
+explanation: |
+  Podle Rakouské teorie hospodářského cyklu, když dojde k poklesu úrokových sazeb v důsledku zvýšení úvěrovosti, podnikatelé mohou půjčit více zdrojů a tím vytvořit výrobní stupně vyššího řádu. Toto rozšíření výrobní struktury nevede ke snížení spotřeby, protože nedošlo k odkladu současné spotřeby ze strany spotřebitelů. Jinými slovy, HDP roste.
+reviewed: false

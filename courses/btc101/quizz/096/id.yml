@@ -1,0 +1,10 @@
+question: Apa yang seringkali mewakili kunci privat dalam dompet Bitcoin?
+answer: Sebuah daftar 12 atau 24 kata
+wrong_answers:
+  - Sebuah daftar 12 atau 48 kata
+  - Sebuah daftar 32 kata
+  - Sebuah daftar 64 kata
+explanation: |
+  Dalam dompet Bitcoin, kunci privat seringkali diwakili oleh sebuah daftar
+  12 atau 24 kata, yang juga dikenal sebagai seed atau frasa mnemonik.
+reviewed: true

@@ -1,0 +1,9 @@
+question: What is the difference between a discrete random variable and a continuous one?
+answer: A discrete variable has a finite number of possible outcomes, whereas a continuous variable can take an infinite number of values within an interval.
+wrong_answers:
+  - A discrete variable constantly changes value, while a continuous variable remains stable.
+  - A discrete variable is specific to physical experiments conducted, a continuous variable is abstract in its interval.
+  - Discrete variables do not exist in modern cryptography, only continuous variables are used.
+explanation: |
+  Discrete variables have a finite set of outcomes, while continuous variables can take any value within an interval, such as the real numbers between 0 and 1.
+reviewed: false

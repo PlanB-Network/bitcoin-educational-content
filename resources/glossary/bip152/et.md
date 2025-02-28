@@ -1,0 +1,5 @@
+---
+term: BIP152
+
+---
+Ettepanek "Compact Block Relay", mille eesmärk on vähendada blokki edastamiseks vajalikku ribalaiust Bitcoini võrgus. 2016. aasta novembris Bitcoin Core'i versioonis 0.13.0 vastu võetud protokoll võimaldab blokiteabe edastamist kompaktselt, lähtudes eeldusest, et sõlmedel on juba suur osa hiljutise ploki tehingutest oma mempoolis. Selle asemel, et edastada iga tehing täies mahus, mis tooks kaasa dubleerimise, teeb BIP152 ettepaneku saata ainult lühikesi identifikaatoreid tehingute kohta, mis on eakaaslastele juba teada, koos mõne valitud tehinguga (eelkõige coinbase'i tehing ja need, mida sõlmpunkt tõenäoliselt ei tea). Seejärel saab sõlmpunkt taotleda oma kolleegidelt kõiki puuduvaid tehinguid. Compact Block Relay vähendab seega plokkide levitamise ajal vahetatavate andmete hulka, mis vähendab ribalaiuse piike ja parandab võrgu üldist tõhusust.

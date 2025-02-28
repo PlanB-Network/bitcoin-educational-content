@@ -1,0 +1,8 @@
+question: Welche Konstante wird verwendet, um den Master-Privatschlüssel aus dem Seed abzuleiten?
+answer: Bitcoin Seed
+wrong_answers:
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
+explanation: |
+  Die Konstante Bitcoin Seed wird als Schlüssel in der HMAC-SHA512-Funktion verwendet, um den Master-Privatschlüssel und den Master-Chain-Code abzuleiten.

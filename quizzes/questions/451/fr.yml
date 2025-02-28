@@ -1,9 +1,0 @@
-question: Quel est le rôle du point générateur dans la courbe elliptique ?
-answer: Il est utilisé pour calculer le point sur la courbe elliptique.
-wrong_answers:
-  - Il est utilisé pour générer le nonce.
-  - Il est utilisé pour chiffrer les clés.
-  - Il est utilisé pour stocker les clés.
-explanation: |
-  Le point générateur est un point spécifique sur la courbe elliptique qui est utilisé dans le calcul d'autres points sur la courbe. Il est utilisé dans la génération de clés publiques et privées, ainsi que dans la création et la vérification de signatures numériques.
-reviewed: false

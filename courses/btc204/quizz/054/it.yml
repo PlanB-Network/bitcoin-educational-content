@@ -1,0 +1,13 @@
+question: Qual è il nome dell'algoritmo crittografico utilizzato nei Pagamenti Silenziosi per stabilire un segreto condiviso tra il ricevente e il pagante?
+
+answer: ECDH
+
+wrong_answers:
+  - RSA
+  - DH
+  - SHA256
+
+explanation: |
+  L'algoritmo ECDH (Elliptic-Curve Diffie-Hellman) è utilizzato nei Pagamenti Silenziosi tra la coppia di chiavi di scansione del ricevente e la somma della coppia di chiavi del mittente per stabilire il segreto condiviso che permetterà la derivazione dell'indirizzo di pagamento unico.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was stellt das Wechselgeld bei einer Transaktion dar?
+answer: Ein Output, der zum ursprünglichen Absender der Transaktion zurückkehrt.
+wrong_answers:
+  - Eine Gebühr, die vom Bitcoin-Netzwerk genommen wird.
+  - Ein Output, der an den Empfänger der Transaktion übertragen wird.
+  - Ein Bonus, der dem Sender für schnelle Transaktionen gewährt wird.
+explanation: |
+  Das Wechselgeld ist ein Output, der den Teil der Inputs darstellt, der nicht verwendet wurde, um die Zahlung zu erfüllen, und somit zum ursprünglichen Absender der Transaktion zurückkehrt.
+reviewed: false

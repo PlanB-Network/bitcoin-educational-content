@@ -1,0 +1,13 @@
+question: Hvorfor kan ikke koordinatoren endre coinjoin-transaksjonen etter å ha samlet inn signaturer fra alle deltakerne?
+
+answer: Å endre den ville ugyldiggjøre transaksjonen.
+
+wrong_answers:
+  - De har ikke tilgang til deltakernes mottaksadresser.
+  - Signaturene er kryptert.
+  - Transaksjonen har allerede blitt kringkastet på Bitcoin-nettverket.
+
+explanation: |
+  Når deltakerne har signert den samlede transaksjonen, etter å ha forsikret seg om at alt er korrekt, kan ikke koordinatoren lenger endre denne transaksjonen, inkludert utgangene, uten å ugyldiggjøre den, fordi signaturen dekker hele transaksjonen.
+
+reviewed: false

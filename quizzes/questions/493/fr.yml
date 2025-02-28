@@ -1,9 +1,0 @@
-question: Quelle est la fonction de la fonction pbkdf2 dans la création de la graine ?
-answer: Elle est utilisée avec la phrase mnémonique et la phrase secrète pour obtenir la graine.
-wrong_answers:
-  - Elle est utilisée pour générer la clé privée principale.
-  - Elle est utilisée pour dériver les paires de clés enfant.
-  - Elle est utilisée pour créer le code de chaîne principal.
-explanation: |
-  La fonction pbkdf2 (Password-Based Key Derivation Function 2) est utilisée avec la phrase mnémonique et la phrase secrète pour obtenir la graine, une séquence alphanumérique de 512 bits qui sert de base pour dériver les clés du portefeuille.
-reviewed: false

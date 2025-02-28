@@ -1,0 +1,11 @@
+question: De quoi traitait la guerre des blocs en 2017 ?
+answer: Un conflit sur la question de savoir s'il fallait augmenter la taille des blocs pour étendre la capacité de transaction.
+wrong_answers:
+  - Un conflit sur la question de savoir s'il fallait réduire la taille des blocs pour diminuer la capacité de transaction.
+  - Un conflit sur la question de savoir s'il fallait augmenter la récompense de bloc pour inciter les mineurs.
+  - Un conflit sur la question de savoir s'il fallait diminuer la récompense de bloc pour décourager les mineurs.
+explanation: |
+  La guerre des blocs en 2017 était un conflit sur la question de savoir s'il fallait
+  modifier Bitcoin en augmentant la taille des blocs pour étendre
+  la capacité de transaction.
+reviewed: true

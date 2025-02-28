@@ -1,0 +1,12 @@
+question: Mis oli peamine põhjus hinnarevolutsiooniks 15. ja 17. sajandi vahel Euroopas?
+answer: Hinnarevolutsiooni peamiseks põhjustajaks oli suur hulk väärtuslikke metalle, eriti kulda ja hõbedat, mis saabusid Ameerikast.
+wrong_answers:
+  - Hinnarevolutsiooni peamiseks põhjustajaks oli suur hulk väärtuslikke metalle, eriti kulda ja hõbedat, mis viidi Ameerikasse.
+  - Hinnarevolutsiooni peamiseks põhjustajaks oli suur hulk väärtuslikke metalle, eriti kulda ja hõbedat, mis saabusid Aasiast.
+  - Hinnarevolutsiooni peamiseks põhjustajaks oli suur hulk väärtuslikke metalle, eriti kulda ja hõbedat, mis viidi Aasiasse.
+explanation: |
+  15. ja 17. sajandi vahel koges Euroopa märkimisväärset majandusnähtust,
+  mida tihti nimetatakse hinnarevolutsiooniks. See inflatsiooniperiood
+  oli suuresti põhjustatud suurest hulgast väärtuslikest metallidest, eriti
+  kullast ja hõbedast, mis saabusid Ameerikast.
+reviewed: false

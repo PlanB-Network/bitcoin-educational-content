@@ -1,3 +1,4 @@
+id: 2e1b5182-567e-453a-af29-36009340ff02
 name: Rogzy
 
 contributor_id: rabbit-hole
@@ -5,9 +6,6 @@ contributor_id: rabbit-hole
 links:
   website: https://www.decouvrebitcoin.com
   twitter: https://twitter.com/decouvrebitcoin
-
-tags:
-  - bitcoin
 
 company: DecouvreBitcoin
 
@@ -17,3 +15,7 @@ affiliations:
 
 tips:
   lightning_address: rogzy@getalby.com
+tags:
+  - adoption
+  - good-practice
+  - guides

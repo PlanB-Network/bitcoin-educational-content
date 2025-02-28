@@ -1,0 +1,8 @@
+question: ¿Qué función se utiliza para derivar la semilla de la frase mnemotécnica?
+answer: PBKDF2 con HMAC-SHA512
+wrong_answers:
+  - Solo SHA256
+  - Doble SHA256
+  - AES-256
+explanation: |
+  La semilla se genera utilizando la función PBKDF2 con HMAC-SHA512 y 2048 iteraciones, a partir de la frase mnemotécnica y la frase de paso.

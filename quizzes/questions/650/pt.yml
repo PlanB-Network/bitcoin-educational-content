@@ -1,9 +1,0 @@
-question: Qual é a importância do endereço multi-sig 2/2 no processo de abertura de um canal na Lightning Network?
-answer: É o endereço para o qual Alice envia dinheiro para abrir o canal.
-wrong_answers:
-  - É o endereço do qual Alice envia dinheiro para abrir o canal.
-  - É o endereço para o qual Bob envia dinheiro para abrir o canal.
-  - É o endereço do qual Bob envia dinheiro para abrir o canal.
-explanation: |
-  No processo de abertura de um canal, Alice cria um endereço multi-sig 2/2 usando os endereços públicos dela e de Bob. Em seguida, ela faz uma transação de bitcoin para enviar dinheiro para esse endereço e abrir o canal.
-reviewed: false

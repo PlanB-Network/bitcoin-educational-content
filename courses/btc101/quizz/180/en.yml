@@ -1,0 +1,10 @@
+question: What is one factor that makes it difficult for financial authorities to regulate Bitcoin?
+answer: It operates on a global scale, 24 hours a day, 7 days a week.
+wrong_answers:
+  - It is controlled by a central authority.
+  - It is not used anywhere in the world.
+  - It is easy to counterfeit.
+explanation: >-
+  The Bitcoin protocol is unique in that it operates on a global scale,
+  24 hours a day, 7 days a week, making regulation difficult for financial authorities.
+reviewed: true

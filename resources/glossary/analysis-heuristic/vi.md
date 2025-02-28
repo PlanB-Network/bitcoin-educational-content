@@ -1,0 +1,9 @@
+---
+term: ANALYSIS HEURISTIC
+
+---
+An analysis heuristic for Bitcoin chain is a family of empirical methods used to trace the flow of bitcoins on the blockchain based on characteristics observed in transactions. A heuristic is a practical approach to problem-solving, often through approximate methods, but represents a sufficiently good solution to achieve a given goal. These heuristics yield fairly reliable results, but never with absolute precision. In other words, chain analysis always involves a degree of likelihood in the conclusions drawn. For example, it might be estimated with more or less certainty that two addresses belong to the same entity, but total certainty is always out of reach. The whole goal of chain analysis lies precisely in the aggregation of various heuristics to minimize the risk of error. It is, in a way, an accumulation of evidence that allows us to get closer to reality. In this context, internal and external heuristics are differentiated.
+
+Internal heuristics focus on characteristics specific to an individual transaction. They include in their analysis elements such as the amounts of UTXOs, the scripts used, versions, or locktimes. For example, the round payment heuristic allows identifying a transaction output as likely being a payment if its amount is a round number. These heuristics often make it possible to identify change (money returned to the same user) and thus continue tracing.
+
+External heuristics, on the other hand, analyze similarities and characteristics beyond the transaction itself. They encompass the entire transaction environment. For example, the reuse of an address across multiple transactions is an external heuristic. The CIOH is also one.

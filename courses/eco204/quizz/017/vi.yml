@@ -1,0 +1,13 @@
+question: Phê bình chính đối với định nghĩa lạm phát cực kỳ cao của Cagan là gì?
+
+answer: Ngưỡng 50% là tùy tiện và loại trừ một số trường hợp lạm phát cao
+
+wrong_answers:
+  - Định nghĩa quá rộng và bao gồm quá nhiều trường hợp lạm phát
+  - Định nghĩa đã lỗi thời và không áp dụng được cho nền kinh tế hiện đại
+  - Định nghĩa không tính đến tác động của lạm phát đối với nền kinh tế
+
+explanation:
+  Các nhà phê bình định nghĩa của Cagan, như Bernholz, cho rằng ngưỡng 50%
+  là tùy tiện và loại trừ một số trường hợp lạm phát cao có cùng
+  các đặc điểm chất lượng như các trường hợp lạm phát cực kỳ cao.

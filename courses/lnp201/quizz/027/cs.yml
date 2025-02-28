@@ -1,0 +1,9 @@
+question: Proč je nucené uzavření méně žádoucí?
+answer: Je pomalejší a poplatky mohou být nevhodné
+wrong_answers:
+  - Vyžaduje autorizaci od Satoshi Nakamoto
+  - Nutí k pozdějšímu znovuvytvoření kanálu
+  - Brání využití klíče pro zrušení
+explanation: |
+  Nucené uzavření je méně žádoucí, protože zahrnuje časový zámek, který proces zpomaluje, a poplatky mohou být nevhodné, jelikož byly nastaveny v době vytvoření kanálu.
+reviewed: false

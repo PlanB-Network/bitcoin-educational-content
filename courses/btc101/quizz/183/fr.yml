@@ -1,0 +1,10 @@
+question: Quelle est une raison pour laquelle le prix du Bitcoin peut chuter de 10 %, 20 %, ou même 50 % en seulement quelques jours ?
+answer: Les phases haussières et baissières du marché.
+wrong_answers:
+  - Le nombre de personnes utilisant internet.
+  - La météo.
+  - Le prix de l'or.
+explanation: >-
+  Le prix du Bitcoin est souvent caractérisé par une volatilité significative,
+  qui peut être influencée par les variations du marché et les phases haussières et baissières du marché.
+reviewed: true

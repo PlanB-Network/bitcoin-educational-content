@@ -1,0 +1,9 @@
+question: Qual è la relazione tra la legge naturale e la legge umana secondo San Tommaso d'Aquino?
+answer: La legge umana deve essere in accordo con la legge naturale per essere giusta e legittima.
+wrong_answers:
+  - La legge umana è superiore alla legge naturale perché viene promulgata da autorità legittime.
+  - La legge naturale è uguale alla legge umana.
+  - La legge umana si applica solo parzialmente.
+explanation: |
+  Per San Tommaso d'Aquino, la legge umana deriva la sua legittimità dalla sua conformità con la legge naturale, che esprime principi morali universali. Se la legge umana contraddice la legge naturale, perde la sua giustizia e legittimità.
+reviewed: false

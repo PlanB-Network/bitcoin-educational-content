@@ -1,9 +1,0 @@
-question: ¿Por qué es importante reemplazar gradualmente tus contraseñas antiguas con las generadas por un administrador de contraseñas?
-answer: Las contraseñas generadas por un administrador de contraseñas son más fuertes y más largas, ofreciendo mayor seguridad.
-wrong_answers:
-  - El administrador de contraseñas elimina automáticamente las contraseñas antiguas.
-  - Los administradores de contraseñas solo pueden almacenar un número limitado de contraseñas.
-  - Los administradores de contraseñas requieren que todas las contraseñas sean generadas por ellos.
-explanation: |
-  Las contraseñas generadas por un administrador de contraseñas son más fuertes y más largas, ofreciendo mayor seguridad. Al reemplazar gradualmente tus contraseñas antiguas con estas, puedes mejorar la seguridad de tus cuentas en línea.
-reviewed: false

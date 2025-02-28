@@ -1,0 +1,9 @@
+question: Welcher Ableitungspfad wird für ein SegWit v0-Konto in einem Standard-Deskriptor verwendet?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  Der Pfad 84h/0h/0h ist in BIP84 für ein Konto definiert, das SegWit v0-Adressen mit P2WPKH ableitet.
+reviewed: false

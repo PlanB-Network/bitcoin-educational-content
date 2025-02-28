@@ -1,0 +1,9 @@
+question: Jak RGB zajišťuje důvěrnost při správě digitálních aktiv?
+answer: Registrací pouze kryptografických závazků v blockchainu
+wrong_answers:
+  - Šifrováním všech end-to-end transakcí v blockchainu
+  - Skrytí identity uživatelů prostřednictvím decentralizovaných směšovačů
+  - Používání pouze dočasných adres Bitcoin pro každý převod
+explanation: |
+  Díky ukládání pouze kryptografických důkazů v řetězci zachovává RGB důvěrnost citlivých informací o smlouvách a převodech.
+reviewed: false

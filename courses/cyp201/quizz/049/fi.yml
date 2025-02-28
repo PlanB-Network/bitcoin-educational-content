@@ -1,0 +1,9 @@
+question: Mikä on mnemonisen lauseen tarkoitus Bitcoin HD-lompakossa?
+answer: Johtaa deterministisesti kaikki avaimet
+wrong_answers:
+  - Allekirjoittaa suoraan siirtoja
+  - Salata Bitcoin-osoitteet
+  - Luoda tiiviste UTXO: ille
+explanation: |
+  Mnemoninen lause mahdollistaa kaikkien yksityisten ja julkisten avainten johtamisen lompakossa, mikä helpottaa varmuuskopiointia ja palautusta.
+reviewed: false

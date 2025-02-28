@@ -1,9 +1,0 @@
-question: ¿Cuál es la ecuación de la curva secp256k1 utilizada en Bitcoin?
-answer: "y\xB2 = x\xB3 + 7 modulo n"
-wrong_answers:
-  - "y\xB2 = x\xB3 + ax + b"
-  - "y\xB2 = x\xB3 + 7 modulo p"
-  - "y\xB2 = x\xB3 + ax + b modulo n"
-explanation: |
-  "La curva secp256k1 utilizada en Bitcoin está definida por los parámetros a=0 y b=7, y su ecuación es y\xB2 = x\xB3 + 7 modulo n, donde n representa el número primo que determina el orden de la curva."
-reviewed: false

@@ -1,9 +1,0 @@
-question: Qual è l'eventuale impatto di un divieto di estrazione mineraria in una regione?
-answer: Può portare a una significativa diminuzione del tasso di hash e del prezzo di Bitcoin.
-wrong_answers:
-  - Può portare a un aumento del prezzo di Bitcoin.
-  - Può portare a un aumento del tasso di hash della rete.
-  - Può portare a un aumento del numero di nodi attivi nella rete.
-explanation: |
-  Un divieto di estrazione mineraria in una regione, come è successo in Cina, può portare a una significativa diminuzione del tasso di hash e del prezzo di Bitcoin. Tuttavia, questi possono riprendersi rapidamente.
-reviewed: false

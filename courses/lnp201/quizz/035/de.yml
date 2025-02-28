@@ -1,0 +1,9 @@
+question: Was ist das Hauptziel von HTLCs im Lightning-Netzwerk?
+answer: Sichere Zahlungsüberweisungen über Zwischenknoten zu ermöglichen, ohne diesen vertrauen zu müssen
+wrong_answers:
+  - Die Transaktionsgebühren für jede Zahlung durch Zwischenknoten zu reduzieren
+  - Die Kapazität jedes Zahlungskanals zu erhöhen
+  - Direkte Verbindungen zwischen allen Netzwerkknoten mit deren Vertrauen herzustellen
+explanation: |
+  HTLCs (Hashed Time-Locked Contracts) stellen sicher, dass jeder Zwischenknoten die Zahlung weiterleitet, ohne die Mittel zu behalten, da er sie nur durch Abschluss der Transaktion bis zum endgültigen Empfänger entsperren kann.
+reviewed: false

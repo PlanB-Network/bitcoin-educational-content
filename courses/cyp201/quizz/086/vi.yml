@@ -1,0 +1,9 @@
+question: Checksum cho địa chỉ SegWit v0 được mã hóa trong bech32 được tính toán như thế nào?
+answer: Sử dụng mã BCH
+wrong_answers:
+  - Bằng cách áp dụng HASH256 hai lần
+  - Bằng cách thêm một hash RIPEMD160
+  - Bằng cách mã hóa trực tiếp trong base64
+explanation: |
+  Địa chỉ Bech32 sử dụng mã BCH để tính toán checksum.
+reviewed: false

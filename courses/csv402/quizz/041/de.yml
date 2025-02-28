@@ -1,0 +1,9 @@
+question: Welche Elemente werden benötigt, um einen Lightning-Kanal mit RGB-Assets zu erstellen?
+answer: Finanzierung in Bitcoins und Finanzierung in RGB-Assets
+wrong_answers:
+  - Finanzierung zunächst nur in Bitcoin
+  - Zunächst nur RGB-Finanzierung
+  - Keine Finanzierung erforderlich
+explanation: |
+  Der Kanal erfordert sowohl Bitcoin-Finanzierung auf einer 2/2-Multisig, als auch RGB-Asset-Finanzierung, um Assets auf dem gleichen Kanal zuzuweisen.
+reviewed: false

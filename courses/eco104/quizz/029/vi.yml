@@ -1,0 +1,15 @@
+question: Động cơ nào đằng sau việc Bitcoin tiêu thụ năng lượng qua quá trình đào?
+
+answer: Để cung cấp một cơ chế phòng thủ mạnh mẽ chống lại sự tập trung
+
+wrong_answers:
+  - Để làm cho Bitcoin đắt đỏ hơn khi sử dụng
+  - Để giảm giá trị của nó bằng cách tăng chi phí năng lượng
+  - Để ngăn chặn người dùng mới tham gia vào mạng lưới
+
+explanation: |
+  Một trong những lý do Bitcoin tiêu thụ năng lượng qua quá trình đào là 
+  để cung cấp một cơ chế phòng thủ mạnh mẽ chống lại sự tập trung và 
+  sự can thiệp không phù hợp. Mạng lưới phân tán của các thợ đào giúp ngăn chặn 
+  các thực thể tập trung từ việc chiếm đoạt mạng lưới hoặc thao túng các quy tắc theo lợi ích của họ.
+reviewed: false

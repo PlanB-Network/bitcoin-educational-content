@@ -1,0 +1,5 @@
+---
+term: FORPLIKTELSESTRANSAKSJON
+
+---
+I forbindelse med en toveis kanal i Lightning er forpliktelsestransaksjonen en transaksjon som begge parter oppretter og signerer, uten å publisere den på hovedkjeden. Den representerer den nåværende statusen for fordelingen av midler mellom partene i en kanal, og hver Lightning-betaling resulterer i en ny forpliktelsestransaksjon. Disse transaksjonene er gyldige, men sendes bare ut når kanalen stenges ensidig. De inneholder utdata for hver part, som gjenspeiler fordelingen av midler i henhold til Lightning-betalingene som er gjort siden kanalen ble åpnet. Straffemekanismer er knyttet til kanalen for å avskrekke partene fra å kringkaste utdaterte kanaltilstander, det vil si gamle forpliktelsestransaksjoner som gjenspeiler en feilaktig fordeling av midler.

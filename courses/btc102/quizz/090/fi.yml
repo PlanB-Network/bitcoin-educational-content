@@ -1,0 +1,10 @@
+question: Mikä on yksi joustavan ja mukautuvan Bitcoin-käyttäjän ominaisuus?
+answer: He ovat valmiita käyttämään erilaisia ratkaisuja ja alustoja vastatakseen jatkuvasti muuttuviin tarpeisiinsa.
+wrong_answers:
+  - He käyttävät vain yhtä tyyppiä Bitcoin-lompakosta.
+  - He käyttävät Bitcoinia vain pitkäaikaisena sijoituksena.
+  - He käyttävät Bitcoinia vain yhdellä vaihtoalustalla.
+explanation: |
+  Joustavat ja mukautuvat Bitcoin-käyttäjät ovat valmiita käyttämään monenlaisia
+  ratkaisuja ja alustoja vastatakseen tarpeisiinsa, jotka voivat muuttua ajan myötä.
+reviewed: false

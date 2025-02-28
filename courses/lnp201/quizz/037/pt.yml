@@ -1,0 +1,9 @@
+question: O que acontece se um pagamento por meio de HTLC não for concluído dentro do tempo alocado?
+answer: O pagamento é cancelado e os fundos retornam ao remetente.
+wrong_answers:
+  - O pagamento é retido pelo último nó intermediário
+  - Os fundos são distribuídos a todos os nós no caminho
+  - Os fundos são permanentemente bloqueados
+explanation: |
+  Se um HTLC expirar sem que o segredo seja revelado, o pagamento é cancelado e os fundos retornam ao remetente, impedindo assim que qualquer nó intermediário fique com os fundos.
+reviewed: false

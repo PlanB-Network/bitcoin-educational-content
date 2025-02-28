@@ -1,0 +1,9 @@
+question: Quelle propriété des fonctions de hachage est démontrée par une modification complète du hash lorsqu'un message change légèrement ?
+answer: L'effet avalanche
+wrong_answers:
+  - La résistance aux collisions
+  - La résistance à la seconde préimage
+  - La longueur
+explanation: |
+  Une petite modification de l'entrée entraîne un changement radical dans le hash, c'est ce que l'on appelle l'effet avalanche.
+reviewed: false

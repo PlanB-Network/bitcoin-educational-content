@@ -1,0 +1,9 @@
+question: Která funkce, navržená v říjnu 2010 těžařem m0mchil, umožnila klientům získat kandidátní blok a vrátit důkaz práce, pokud bylo nalezeno řešení?
+answer: getwork
+wrong_answers:
+  - stratum
+  - gethash
+  - getcredit
+explanation: |
+  Byla publikována 1. října. Satoshi zahrnul modifikovanou verzi této funkce do hlavního softwaru 23. listopadu.
+reviewed: false

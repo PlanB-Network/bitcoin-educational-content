@@ -1,0 +1,9 @@
+question: What are the main operations of an RGB contract?
+answer: State Transition, Genesis, and State Extension
+wrong_answers:
+  - Seal Definition, Commitment, and Validation
+  - Anchor Creation, DAG Update, and Transaction Signing
+  - Genesis Block, UTXO Allocation, and Script Validation
+explanation: |
+  These operations modify or complete the status of a contract according to its Schema.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Lequel des éléments suivants n'est PAS une des trois fonctions essentielles de l'argent ?
+answer: Source d'énergie
+wrong_answers:
+  - Réserve de valeur
+  - Moyen d'échange
+  - Unité de compte
+explanation: |
+  Les trois fonctions essentielles de l'argent sont une réserve de valeur, moyen d'échange, 
+  et unité de compte. Une source d'énergie n'est pas une fonction de l'argent.
+reviewed: true

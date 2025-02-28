@@ -1,0 +1,8 @@
+question: Mikä on vapauden ja vastuun välinen suhde?
+answer: Vastuu kumpuaa yksilön valinnanvapaudesta
+wrong_answers:
+  - Vapaus on rajoitettu toisten vastuulla
+  - Vapaus ja vastuu ovat kaksi itsenäistä käsitettä
+  - Vastuu on este vapaudelle
+explanation: |
+  Vapauden ja vastuun välinen suhde on sisäsyntyinen, sillä valintojen tekemisen vapaus merkitsee myös vastuuta näiden valintojen seurauksista, korostaen siten, että jokaiseen vapaaseen tekoon liittyy moraalinen velvoite.

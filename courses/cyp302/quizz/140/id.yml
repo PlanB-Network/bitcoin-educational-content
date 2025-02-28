@@ -1,0 +1,8 @@
+question: Apa sifat dari masalah faktorisasi yang menjadi dasar keamanan sistem kriptografi asimetris seperti RSA?
+answer: Memfaktorkan sebuah angka menjadi dua faktor prima yang sangat besar
+wrong_answers:
+  - Mendekomposisi sebuah angka menjadi faktor-faktor berturut-turut dari 2
+  - Mereduksi sebuah angka menjadi pembagi terkecilnya
+  - Mengalikan dua angka prima besar untuk mendapatkan sebuah produk
+explanation: |
+  Keamanan RSA didasarkan pada kesulitan memfaktorkan sebuah angka besar (hasil kali dari dua angka prima besar) menjadi dua faktor primanya, sebuah tugas yang hampir mustahil tanpa kunci privat.

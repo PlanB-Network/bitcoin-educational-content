@@ -1,0 +1,9 @@
+question: Jaký je důsledek poklesu úrokových sazeb v důsledku zvýšení úvěrů podle Rakouské teorie hospodářského cyklu?
+answer: Ekonomika vstupuje do recese; ceny aktiv klesají, reálné mzdy klesají, spotřebitelské ceny klesají a zásoby se hromadí.
+wrong_answers:
+  - Ekonomika vstupuje do boomu; ceny aktiv rostou, reálné mzdy rostou, spotřebitelské ceny rostou a zásoby klesají.
+  - Ekonomika vstupuje do stagnace; ceny aktiv zůstávají stejné, reálné mzdy zůstávají stejné, spotřebitelské ceny zůstávají stejné a zásoby zůstávají stejné.
+  - Ekonomika vstupuje do deflace; ceny aktiv klesají, reálné mzdy rostou, spotřebitelské ceny klesají a zásoby rostou.
+explanation: |
+  Podle Rakouské teorie hospodářského cyklu, když dojde k poklesu úrokových sazeb v důsledku zvýšení úvěrů, ekonomika vstupuje do recese; ceny aktiv klesají, reálné mzdy klesají, spotřebitelské ceny klesají a zásoby se hromadí. To je způsobeno tím, že pokles úrokových sazeb vede k špatné alokaci kapitálu, což nakonec vyústí v recesi.
+reviewed: false

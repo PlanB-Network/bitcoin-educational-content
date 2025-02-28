@@ -1,0 +1,9 @@
+question: Milline on peamine makselahendus, mida soovitatakse Essential-profiili ettevõtetele?
+answer: Šveitsi Bitcoin Pay
+wrong_answers:
+  - Avatud sõlme
+  - BTCPay server
+  - Bitcoinize PoS
+explanation: |
+  Me tõstame esile Swiss Bitcoin Pay kui Essential-profiili jaoks soovitatud lahenduse, mis tasakaalustab lihtsust ja turvalisust.
+reviewed: false

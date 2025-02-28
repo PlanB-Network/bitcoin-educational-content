@@ -1,0 +1,14 @@
+question: Hậu quả của Chính sách Lãi suất Zero (ZIRP) là gì?
+answer: ZIRP làm giảm biên lợi nhuận của các ngân hàng, làm giảm khả năng cho vay đối với các doanh nhân và người chấp nhận rủi ro, và khuyến khích chính phủ tham gia vào việc chi tiêu mở rộng, dẫn đến việc tăng nợ công.
+wrong_answers:
+  - ZIRP tăng lợi nhuận của ngân hàng, khuyến khích cho vay đối với các doanh nhân và người chấp nhận rủi ro, và làm giảm chi tiêu của chính phủ.
+  - ZIRP không có ảnh hưởng đáng kể nào đối với ngân hàng, thực hành cho vay, hoặc chi tiêu của chính phủ.
+  - ZIRP giảm nợ công, khuyến khích cho vay đối với các doanh nhân và người chấp nhận rủi ro, và làm giảm chi tiêu của chính phủ.
+explanation: |
+  Chính sách Lãi suất Zero (ZIRP) có thể dẫn đến nhiều hậu quả không mong muốn.
+  Các ngân hàng có ít cơ hội để tái xây dựng vốn chủ sở hữu của mình vì biên lợi nhuận của họ
+  bị ảnh hưởng. Họ cũng ít có động lực để cho vay, đặc biệt là cho các doanh nhân và
+  những người chấp nhận rủi ro khác. Thay vào đó, họ phân bổ nguồn lực của mình để chứng khoán hóa
+  vốn hiện có hoặc cung cấp các khoản vay có tài sản đảm bảo. Ngoài ra, ZIRP khuyến khích chính phủ
+  tham gia vào việc chi tiêu mở rộng, dẫn đến việc tăng đáng kể mức nợ công.
+reviewed: false

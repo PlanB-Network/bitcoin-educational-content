@@ -1,0 +1,9 @@
+question: Was passiert, wenn Bob Alice eine Rechnung über 30.000 Satoshis sendet?
+answer: Alice erstellt eine Commitment-Transaktion, um 30.000 Satoshis an Bob im Kanal zu übertragen.
+wrong_answers:
+  - Alice muss einen neuen Kanal öffnen, um diese Übertragung zu machen.
+  - Bob erhält automatisch die 30.000 Satoshis in seiner Wallet.
+  - Die Rechnung wird durch eine On-Chain-Transaktion auf Bitcoin bezahlt.
+explanation: |
+  Wenn Bob Alice eine Rechnung sendet, erstellt und signiert sie eine neue Commitment-Transaktion, um die Verteilung der Mittel anzupassen, wodurch 30.000 Satoshis im Kanal an Bob übertragen werden.
+reviewed: false

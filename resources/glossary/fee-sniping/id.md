@@ -1,0 +1,13 @@
+---
+term: BIAYA SNIPING
+
+---
+Skenario serangan dimana penambang berusaha untuk menulis ulang blok yang baru saja dikonfirmasi untuk mengklaim biaya transaksi yang ada di dalamnya, sambil menambahkan transaksi berbiaya tinggi yang sudah masuk ke dalam mempool. Tujuan akhir dari serangan ini bagi penambang adalah untuk meningkatkan profitabilitas mereka. Fee sniping dapat menjadi semakin menguntungkan ketika upah blok menurun dan biaya transaksi mewakili bagian yang lebih besar dari pendapatan penambang. Hal ini juga dapat menjadi menguntungkan ketika fee yang terdapat pada blok sebelumnya jauh lebih tinggi dibandingkan dengan blok kandidat terbaik berikutnya. Untuk menyederhanakan, penambang dihadapkan pada pilihan ini dalam hal insentif:
+
+
+- Menambang dengan cara normal setelah blok terakhir, dengan kemungkinan besar untuk memenangkan hadiah yang rendah;
+- Mencoba menambang blok sebelumnya (fee sniping), dengan kemungkinan kecil untuk memenangkan hadiah yang tinggi.
+
+Serangan ini menimbulkan risiko pada sistem Bitcoin, karena semakin banyak penambang yang mengadopsinya, semakin banyak penambang lain, yang awalnya jujur, terdorong untuk melakukan hal yang sama. Memang, setiap kali seorang penambang baru bergabung dengan mereka yang mencoba melakukan pemotongan biaya, kemungkinan salah satu penambang yang menyerang berhasil meningkat, dan kemungkinan salah satu penambang yang jujur untuk memperpanjang rantai akan berkurang. Jika serangan ini dilakukan secara masif dan berkelanjutan dari waktu ke waktu, konfirmasi blok tidak lagi menjadi indikator yang dapat diandalkan untuk keabadian transaksi Bitcoin. Hal ini berpotensi membuat sistem tidak dapat digunakan.
+
+Untuk mengatasi resiko ini, kebanyakan perangkat lunak dompet secara otomatis mengisi kolom `nLocktime` sehingga mengkondisikan validasi transaksi untuk dimasukkan ke dalam ketinggian blok berikutnya. Dengan demikian, menjadi tidak mungkin untuk memasukkan transaksi ke dalam penulisan ulang blok sebelumnya. Jika penggunaan `nLocktime` secara luas diadopsi oleh pengguna Bitcoin, maka secara signifikan akan mengurangi insentif untuk pemotongan biaya. Memang, ini mendorong perkembangan blockchain daripada menulis ulang dengan mengurangi potensi keuntungan darinya. Untuk transaksi Taproot, BIP326 mengusulkan untuk menggunakan field `nSequence` dengan cara yang sama untuk mendapatkan efek yang setara dengan field `nLocktime` untuk jenis transaksi lainnya. Penggunaan ini akan membunuh dua burung dengan satu batu dengan meningkatkan privasi protokol lapisan kedua yang menggunakan bidang yang sama.

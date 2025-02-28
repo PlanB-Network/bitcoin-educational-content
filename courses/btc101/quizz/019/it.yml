@@ -1,0 +1,12 @@
+question: Quali sono le tre funzioni canoniche del denaro?
+answer: Riserva di valore, Mezzo di scambio, Unità di conto.
+wrong_answers:
+  - Riserva di valore, Mezzo di scambio, Mezzo di produzione.
+  - Riserva di valore, Mezzo di produzione, Unità di conto.
+  - Mezzo di scambio, Mezzo di produzione, Unità di conto.
+explanation: |
+  Secondo Aristotele, il denaro svolge tre funzioni: è
+  una riserva di valore, un mezzo di scambio e un'unità di
+  conto. Oggi, la funzione di mezzo di scambio è
+  ampiamente riconosciuta come la principale, prima delle altre due.
+reviewed: true

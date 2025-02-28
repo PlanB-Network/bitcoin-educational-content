@@ -1,0 +1,9 @@
+question: RGB:n osalta, miksi maksusitoumuksiin suositellaan käytettäväksi Tapretia Opretin sijasta?
+answer: Näkyvyyden minimoiminen ja sensuurin välttäminen
+wrong_answers:
+  - Transaktiokustannusten vähentäminen
+  - Koska OP_RETURN ei ole Lightning-yhteensopiva
+  - Maksimoidaksesi sitoumusten koon
+explanation: |
+  Tapretin avulla voit integroida sitoumuksia huomaamattomasti, toisin kuin OP_RETURN, joka tekee niistä välittömästi näkyviä ja sensuurin alaisia.
+reviewed: false

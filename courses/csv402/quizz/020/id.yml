@@ -1,0 +1,9 @@
+question: Apa elemen kunci yang memastikan Bob menerima aset selama Transisi Negara di RGB?
+answer: Definisi Segel baru yang menunjuk ke UTXO Bob
+wrong_answers:
+  - Transaksi kontrol tanpa mengacu pada UTXO
+  - Pernyataan publik dari Alice
+  - Tanda tangan ganda yang dibagikan oleh Alice dan Bob
+explanation: |
+  Definisi Segel secara kriptografis menghubungkan aset ke UTXO milik Bob, memastikan bahwa ia memilikinya.
+reviewed: false

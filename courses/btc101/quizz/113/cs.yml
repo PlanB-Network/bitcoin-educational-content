@@ -1,0 +1,12 @@
+question: Co brání všem používat stejnou Bitcoin peněženku?
+answer: Různí jednotlivci mají různé požadavky na použití.
+wrong_answers:
+  - Používání Bitcoin peněženky je drahé.
+  - Používání Bitcoin peněženky je nelegální.
+  - Lidé se nikdy neshodnou na názvu takové peněženky.
+explanation: |
+  Zatímco jedna osoba může dávat přednost bezpečnosti, jiná
+  může cenit uživatelskou přívětivost nebo specifické funkce. Proto
+  jedna Bitcoin peněženka nemusí vyhovovat požadavkům všech,
+  což činí nutnost existence více možností peněženek.
+reviewed: true

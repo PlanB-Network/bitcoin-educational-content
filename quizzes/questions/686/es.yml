@@ -1,9 +1,0 @@
-question: ¿Qué es el enrutamiento de cebolla en el contexto de la Lightning Network?
-answer: Un método en el que los intermediarios no saben quién es el destinatario final, ni quién está enviando el pago.
-wrong_answers:
-  - Un método en el que los intermediarios conocen tanto al remitente como al destinatario.
-  - Un método en el que solo el remitente conoce la ruta y el precio.
-  - Un método en el que el destinatario final decide la ruta antes de enviar el pago.
-explanation: |
-  El enrutamiento de cebolla en la Lightning Network es un método en el que los intermediarios no saben quién es el destinatario final, ni quién está enviando el pago. El nodo debe mantener un plan de la red para encontrar su ruta, pero ninguno de los intermediarios tiene ninguna información.
-reviewed: false

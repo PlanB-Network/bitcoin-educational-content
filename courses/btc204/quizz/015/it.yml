@@ -1,0 +1,9 @@
+question: Quali sono i 3 passaggi principali di un'analisi blockchain?
+answer: Osservare la blockchain, identificare le caratteristiche e dedurre ipotesi.
+wrong_answers:
+  - Raccolta dati, archiviazione sicura e rapporto.
+  - Identificazione degli utenti, regolamentazione degli scambi e protezione contro le frodi.
+  - Raccolta dati, selezione casuale e denuncia.
+explanation: |
+  L'analisi della blockchain comporta inizialmente l'accesso ai dati della blockchain di Bitcoin, poi il tentativo di identificare caratteristiche in questi dati e infine fare interpretazioni plausibili.
+reviewed: false

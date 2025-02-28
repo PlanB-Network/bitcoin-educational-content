@@ -1,0 +1,14 @@
+question: ¿Qué es dust en el contexto de UTXOs?
+
+answer: UTXOs cuyo valor es demasiado bajo para cubrir las tarifas necesarias para gastarlos.
+
+wrong_answers:
+  - UTXOs generados por errores de transacción y que no pueden ser confirmados en la blockchain.
+  - UTXOs que están marcados como sospechosos o vinculados a actividades ilícitas en la red.
+  - UTXOs que están almacenados en direcciones no utilizadas durante mucho tiempo y considerados perdidos.
+
+explanation: |
+  Dust se refiere a UTXOs cuyo valor en sats es tan bajo que no es suficiente para cubrir las tarifas de transacción requeridas para gastarlos.
+
+reviewed: false
+

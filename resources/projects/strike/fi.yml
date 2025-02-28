@@ -1,0 +1,6 @@
+description: |
+  Strike on taloudellinen sovellus, joka mahdollistaa käyttäjille rahansiirrot välittömästi, Bitcoinin ostamisen ja myymisen sekä palkan saamisen Bitcoinina.
+
+  Sovellus tarjoaa helpon tavan ostaa Bitcoinia välttäen transaktiomaksuja. Striken API:a käyttävät yritykset yhdistääkseen globaaliin, välittömien maksujen verkkoon. Tämä on hyödyllistä markkinapaikoille, jotka mahdollistavat maksut ostajien ja myyjien välillä, sekä kauppiaille, jotka hyväksyvät maksuja asiakkailta globaalisti. Strike mahdollistaa myös rajattomat maksut, jotka ovat välittömiä ja turvallisia ilman lisättyjä transaktiomaksuja. Lisäksi käyttäjät voivat muuntaa palkkansa Bitcoiniksi saumattomasti.
+contributors:
+  - rabbit-hole

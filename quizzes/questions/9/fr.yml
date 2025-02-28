@@ -1,9 +1,0 @@
-question: Que signifie-t-il pour Bitcoin d'être une monnaie neutre ?
-answer: Elle n'est pas contrôlée par une entité ou une institution.
-wrong_answers:
-  - Elle est contrôlée par une seule entité ou institution.
-  - Elle est réglementée par le gouvernement.
-  - Elle est utilisée uniquement pour des transactions neutres.
-explanation: |
-  Bitcoin est une monnaie neutre, ce qui signifie qu'elle n'est pas contrôlée par une entité ou une institution et que chaque utilisateur a les mêmes droits. C'est un aspect clé de sa décentralisation.
-reviewed: false

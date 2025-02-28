@@ -1,0 +1,5 @@
+---
+term: BIP322
+
+---
+Propone un nuovo standard per sostituire il BIP137 per la firma dei messaggi con le chiavi private di Bitcoin e i loro indirizzi associati, al fine di dimostrare la proprietà di un indirizzo. Queste firme sono utili per varie applicazioni, come la prova dei fondi, l'auditing e altri usi che richiedono l'autenticazione di un indirizzo tramite la sua chiave privata. Rispetto al BIP137, il BIP322 estende lo standard di firma dei messaggi oltre gli indirizzi tradizionali, utilizzando un approccio basato sugli script. Consente ai software dei portafogli di firmare un messaggio per qualsiasi script che potrebbero sbloccare per spendere bitcoin. A tal fine, il metodo prevede la firma di un testo producendo una firma per una transazione Bitcoin virtuale. Per gli indirizzi P2PKH tradizionali, BIP322 rimane compatibile con il formato di firma tradizionale.

@@ -1,0 +1,9 @@
+question: Que désigne l'index /84'/ en profondeur 1 d'un chemin de dérivation ?
+answer: Le standard P2WPKH (SegWit v0)
+wrong_answers:
+  - Le standard P2TR (SegWit v1)
+  - Une devise Bitcoin testnet
+  - Une devise Bitcoin mainnet
+explanation: |
+  L'index /84'/ est défini dans le BIP84 pour indiquer l'utilisation du standard SegWit v0 avec des adresses P2WPKH en profondeur 1 (celle de l'objectif de dérivation).
+reviewed: false

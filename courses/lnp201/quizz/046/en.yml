@@ -1,0 +1,9 @@
+question: In a Lightning invoice, what does the prefix lnbc in the human-readable part mean?
+answer: It indicates a Lightning transaction on the Bitcoin blockchain
+wrong_answers:
+  - That the invoice is valid only on the Bitcoin testnet
+  - That the invoice is encoded in bech32
+  - That it is an on-chain transaction
+explanation: |
+  The prefix lnbc signifies that the invoice is for a Lightning transaction on the Bitcoin network, and not on another network.
+reviewed: false

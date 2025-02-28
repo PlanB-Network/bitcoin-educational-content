@@ -1,0 +1,13 @@
+question: Quelle mesure intermédiaire peut être prise pour masquer les connexions lorsque vous n'utilisez pas votre propre nœud Bitcoin ?
+
+answer: Utilisation de Tor.
+
+wrong_answers:
+  - Utilisation d'un pare-feu.
+  - Utilisation d'un portefeuille chiffré.
+  - Utilisation d'un double portefeuille.
+
+explanation: |
+  Pour limiter le risque d'observation, une solution intermédiaire consiste à utiliser un logiciel de portefeuille permettant de masquer vos connexions via Tor.
+
+reviewed: false

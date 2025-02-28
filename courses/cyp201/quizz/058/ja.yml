@@ -1,0 +1,8 @@
+question: 助記符フレーズからシードを導出するために使用される関数は何ですか？
+answer: PBKDF2 with HMAC-SHA512
+wrong_answers:
+  - SHA256 単体
+  - Double SHA256
+  - AES-256
+explanation: |
+  シードは、助記符フレーズとパスフレーズから、PBKDF2関数をHMAC-SHA512と2048回の繰り返しで使用して生成されます。

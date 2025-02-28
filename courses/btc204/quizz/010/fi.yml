@@ -1,0 +1,9 @@
+question: Millä kolmella perustekijällä henkilö voi varmistaa, että hän voi käyttää kolikkoa myöhemmin?
+answer: Kolikon on oltava ehjä, aito ja sitä ei saa olla käytetty kahdesti.
+wrong_answers:
+  - Kolikon on oltava antiikkinen, harvinainen ja hyväkuntoinen.
+  - Kolikon on oltava yleisesti hyväksytty, laillinen ja säilytettävä pankissa.
+  - Kolikon on oltava valtion hyväksymä, rekisteröity ja kestävä.
+explanation: |
+  Jokainen järkevä henkilö, joka haluaa hyväksyä kolikon, olipa se digitaalinen tai fyysinen, varmistaa, että sitä ei ole muutettu, että se todella on aito kolikko, ja että sitä ei voi käyttää uudelleen liikkeeseenlaskijan toimesta.
+reviewed: false

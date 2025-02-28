@@ -1,0 +1,10 @@
+question: Minkä tyyppisen verkon Lightning Network luo?
+answer: Maksukanavien verkon.
+wrong_answers:
+  - Louhintasolmujen verkon.
+  - Lohkoketjusolmujen verkon.
+  - Kryptovaluuttapörssien verkon.
+explanation: >-
+  Lightning Network toimii maksukanavien verkkona, mahdollistaen välittömät
+  transaktiot pienin kuluin lähettäjälle.
+reviewed: true

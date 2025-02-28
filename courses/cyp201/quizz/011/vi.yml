@@ -1,0 +1,9 @@
+question: Hàm băm nào được HMAC sử dụng trong bối cảnh của Bitcoin?
+answer: SHA512
+wrong_answers:
+  - SHA256
+  - RIPEMD160
+  - HASH160
+explanation: |
+  HMAC sử dụng SHA512 để tạo ra một băm an toàn 512-bit.
+reviewed: false

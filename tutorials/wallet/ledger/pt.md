@@ -4,7 +4,7 @@ name: Ledger Nano S
 description: Como configurar o seu dispositivo Ledger Nano S
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 Carteira física fria - €60 - Iniciante - Para proteger de €2.000 a €50.000
 
@@ -211,3 +211,9 @@ Dicas:
 
 Endereço Estático do Lightning: dandysack84@walletofsatoshi.com
 https://armantheparman.com/ledgersparrow/'
+
+
+Para aprofundar este tema e reforçar a segurança da sua carteira num Ledger Nano com uma passphrase BIP39, convido-o a consultar este tutorial completo:
+
+https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+

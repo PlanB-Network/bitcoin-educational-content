@@ -1,0 +1,9 @@
+question: To whom did Satoshi Nakamoto transfer control of the website (which also includes the forum and the wiki) upon his departure?
+answer: Martti Malmi
+wrong_answers:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explanation: |
+  He did not have time to manage it and quickly delegated the task. The site and forum were taken over by Theymos and Cøbra.
+reviewed: false

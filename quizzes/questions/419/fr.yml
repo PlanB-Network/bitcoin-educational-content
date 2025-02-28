@@ -1,9 +1,0 @@
-question: Quel est le principal avantage de la fonction de hachage SHA256 ?
-answer: Sa robustesse pour trouver l'entrée à partir du hachage, tout en vérifiant le hachage pour une entrée donnée est une action mécaniquement simple.
-wrong_answers:
-  - Sa capacité à générer un hachage de 512 bits à partir d'une entrée de taille variable
-  - Son utilisation de bits de remplissage pour augmenter la taille de l'entrée
-  - Son utilisation des opérateurs XOR, AND et NOT pour traiter les bits
-explanation: |
-  Le principal avantage de la fonction de hachage SHA256 est sa robustesse pour trouver l'entrée à partir du hachage, tout en vérifiant le hachage pour une entrée donnée est une action mécaniquement simple. Cela en fait un choix préféré pour sécuriser de nombreux systèmes numériques, notamment dans le protocole Bitcoin.
-reviewed: false

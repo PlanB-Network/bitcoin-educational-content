@@ -1,0 +1,9 @@
+question: Theo Laffer, điều gì xảy ra với doanh thu thuế khi tỷ lệ thuế tăng quá mức?
+answer: Chúng giảm
+wrong_answers:
+  - Chúng tăng
+  - Chúng ổn định
+  - Chúng biến động không lường trước được
+explanation: |
+  Theo đường cong Laffer, việc tăng tỷ lệ thuế quá mức dẫn đến sự giảm doanh thu thuế vì nó làm giảm khuyến khích làm việc, đầu tư và sản xuất.
+reviewed: false

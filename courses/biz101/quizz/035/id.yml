@@ -1,0 +1,9 @@
+question: Bagaimana peningkatan efisiensi dan kecepatan Lightning Network dibandingkan dengan metode pembayaran tradisional?
+answer: Prosesnya jauh lebih cepat, sering kali menyelesaikan transaksi dalam waktu kurang dari satu detik, dengan biaya yang lebih rendah dan tanpa ketergantungan pada banyak perantara.
+wrong_answers:
+  - Ini sesuai dengan waktu perbankan tradisional, yang biasanya membutuhkan waktu 2-5 hari untuk menyelesaikannya.
+  - Pembayaran ini lebih lambat daripada pembayaran dengan kartu tradisional dan memiliki biaya yang lebih tinggi.
+  - Ini membutuhkan beberapa entitas yang menyetujui, sama seperti transfer bank saat ini.
+explanation: |
+  Dengan memungkinkan transaksi off-chain dan menyelesaikan pembayaran hampir seketika, Lightning menawarkan keunggulan kecepatan dan efisiensi dibandingkan metode tradisional yang mengandalkan beberapa perantara.
+reviewed: false

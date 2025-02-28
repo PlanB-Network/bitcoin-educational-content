@@ -1,0 +1,13 @@
+question: Quelle heuristique d'analyse de chaîne est utilisée par la transaction payjoin agit-elle comme pour tromper l'analyse ?
+
+answer: La CIOH
+
+wrong_answers:
+  - La réutilisation d'adresse
+  - L'empreinte du portefeuille
+  - La réutilisation du versionnage
+
+explanation: |
+  Lorsqu'un analyste examine une transaction payjoin, il est amené à croire que tous les inputs proviennent d'une même personne à cause de la CIOH. Toutefois, cette perception est erronée, car le destinataire du paiement contribue également aux inputs aux côtés du payeur réel. L'analyse de chaîne est donc déviée vers une interprétation qui se révèle être fausse.
+
+reviewed: false

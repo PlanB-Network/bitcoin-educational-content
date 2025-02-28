@@ -1,0 +1,8 @@
+question: Miten Keysend-teknologia mahdollistaa varojen siirron ilman laskua?
+answer: Lähettäjä luo salaisuuden HTLC; issä varojen vapauttamiseksi
+wrong_answers:
+  - Vastaanottaja luo tiivisteen siirron vahvistamiseksi
+  - Maksu vahvistetaan suoran kanavan kautta lähettäjän ja vastaanottajan välillä
+  - Varat hyvitetään suoraan ilman lisäturvatoimia
+explanation: |
+  Keysend mahdollistaa lähettäjän luoda salaisuuden, joka on sisällytetty HTLC: iin, mahdollistaen vastaanottajan vapauttaa varat ilman, että laskua on annettu.

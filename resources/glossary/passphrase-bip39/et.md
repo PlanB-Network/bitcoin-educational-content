@@ -1,0 +1,11 @@
+---
+term: (BIP39)
+
+---
+Valikuline salasõna, mis koos taastamislausega annab deterministlike ja hierarhiliste Bitcoini rahakottide jaoks täiendava turvakihi. HD-talletid genereeritakse tavaliselt 12 või 24 sõnast koosnevast taastamisfraasist. See taastamisfraas on väga oluline, sest see võimaldab rahakoti kõigi võtmete taastamist kaotsimineku korral. See kujutab endast aga ühte veapunkti (single point of failure, SPOF). Kui see on ohus, on bitcoinid ohus. Siinkohal tulebki mängu paroolifraas. See on kasutaja valitud vabatahtlik parool, mis lisatakse taastamisfraasile, et suurendada rahakoti turvalisust. Seda ei tohi segi ajada PIN-koodi või tavalise parooliga, vaid parool mängib rolli krüptograafiliste võtmete tuletamisel.
+
+See töötab koos taastamislausega, muutes seemet, millest võtmed genereeritakse. Seega, isegi kui keegi saab teie taastamisfraasi, ei saa ta ilma tunnuslauseta juurdepääsu teie rahalistele vahenditele. Salasõna kasutamine loob sisuliselt uue rahakoti, millel on erinevad võtmed. Salasõna muutmine (kasvõi veidi) loob teise rahakoti.
+
+Salasõna on suvaline ja võib olla mis tahes kasutaja valitud tähemärkide kombinatsioon. Salasõna kasutamine pakub mitmeid eeliseid. Esiteks vähendab see riske, mis on seotud taastamisfraasi kompromissiga, kuna see nõuab teist tegurit, et pääseda ligi rahalistele vahenditele. Järgmiseks saab seda strateegiliselt kasutada väikeste bitcoinide koguseid sisaldavate peibutusrahakeste loomiseks, juhul kui teie rahaliste vahendite varastamiseks kasutatakse füüsilist sundi. Lõpuks on selle kasutamine huvitav, kui tahetakse kontrollida HD rahakoti seemne genereerimise juhuslikkust. Salasõna peab olema piisavalt keerukas, et vastu seista brute force'i rünnakutele, ja see peab olema usaldusväärselt salvestatav. Salasõna kadumine võib viia rahaliste vahendite kättesaamatuseni, nagu ka taastamisfraasi kadumine.
+
+> ► *Passiivi nimetatakse mõnikord ka järgmiselt: "kahefaktoriline seemnefraas", "parool", "seemne laiendus", "laiendussõna" või isegi "13. või 25. sõna" Väärib märkimist, et Bitcoinis on kahte tüüpi paroolfraasid. Kõige tuntum on eespool kirjeldatud, mis sõltub BIP-39-st ja võimaldab kindlustada kogu HD rahakoti. BIP-38 oli aga täpsustanud ka viisi unikaalse privaatvõtme kindlustamiseks paroolifraasiga. Seda teist tüüpi salasõna ei kasutata tänapäeval enam peaaegu üldse.*

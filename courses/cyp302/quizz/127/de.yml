@@ -1,0 +1,9 @@
+question: Welches mathematische Konzept liegt dem Diffie-Hellman-Schlüsselaustausch zugrunde?
+answer: Eine Einwegfunktion mit einem Hintertürchen
+wrong_answers:
+  - Eine inverse Exponentialfunktion
+  - Ein kryptografischer Hash-Algorithmus
+  - Eine vereinfachte modulare Division
+explanation: |
+  Diffie-Hellman basiert auf einer Einwegfunktion, die in eine Richtung leicht zu berechnen ist, aber praktisch unmöglich zu umkehren, ohne ein geheimes Stück Information, genannt Hintertürchen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Warum gilt das One-Time-Pad als sichere Verschlüsselungsmethode?
+answer: Weil jedes Bit des Schlüssels zufällig ist und kein Teil wiederverwendet wird
+wrong_answers:
+  - Weil es einen zufälligen öffentlichen und privaten Schlüssel verwendet
+  - Weil es auf Primzahlen basiert
+  - Weil es nur kleine Nachrichten verschlüsselt
+explanation: |
+  Das One-Time-Pad ist sicher, weil jedes Bit des Schlüssels zufällig ist und niemals wiederverwendet wird, was sicherstellt, dass es keine ausnutzbaren Spuren für einen Angreifer hinterlässt.
+reviewed: false

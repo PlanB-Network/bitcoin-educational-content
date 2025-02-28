@@ -1,0 +1,10 @@
+question: ¿Cómo validan las transacciones los mineros y las incluyen en un bloque?
+answer: A través del proceso de Prueba de trabajo (Proof of work).
+wrong_answers:
+  - A través del proceso de Prueba de participación (Proof of stake).
+  - A través del proceso de Prueba de autoridad (Proof of authority).
+  - A través del proceso de Prueba de quema (Proof of burn).
+explanation: >-
+  Los mineros validan las transacciones y las incluyen en un bloque a través de un proceso
+  llamado prueba de trabajo (proof of work). Esto implica resolver un rompecabezas criptográfico.
+reviewed: true

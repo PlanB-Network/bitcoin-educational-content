@@ -1,0 +1,10 @@
+question: Apa saja beberapa aspek pengetahuan jaringan yang diperlukan dalam keamanan siber?
+answer: TCP/IP, VPN, firewall
+wrong_answers:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+explanation: |
+  Bab tersebut menyebutkan TCP/IP, VPN, dan firewall sebagai beberapa aspek
+
+  dari pengetahuan jaringan yang diperlukan dalam keamanan siber.

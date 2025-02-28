@@ -2,7 +2,15 @@
 name: Coinjoin - Sparrow Wallet
 description: Wie führt man einen Coinjoin mit Sparrow Wallet durch?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
+
+***ACHTUNG:** Nach der Verhaftung der Gründer von Samourai Wallet und der Beschlagnahme ihrer Server am 24. April funktioniert das Whirlpool-Tool nicht mehr, selbst für Personen, die über ihr eigenes Dojo verfügen oder Sparrow Wallet nutzen. Es bleibt jedoch möglich, dass dieses Tool in den kommenden Wochen wieder in Betrieb genommen oder auf eine andere Weise neu gestartet wird. Darüber hinaus bleibt der theoretische Teil dieses Artikels relevant, um die Prinzipien und Ziele von Coinjoins im Allgemeinen (nicht nur Whirlpool) zu verstehen sowie die Wirksamkeit des Whirlpool-Modells zu begreifen.*
+
+_Wir verfolgen die Entwicklungen in diesem Fall sowie die Entwicklungen bezüglich der zugehörigen Tools genau. Seien Sie versichert, dass wir dieses Tutorial aktualisieren werden, sobald neue Informationen verfügbar sind._
+
+_Dieses Tutorial wird nur zu Bildungs- und Informationszwecken bereitgestellt. Wir befürworten oder ermutigen die Verwendung dieser Tools zu kriminellen Zwecken nicht. Es liegt in der Verantwortung jedes Benutzers, die Gesetze in seiner Gerichtsbarkeit zu beachten._
+
+---
 
 In diesem Tutorial erfahren Sie, was ein Coinjoin ist und wie Sie einen solchen mit der Sparrow Wallet Software und der Whirlpool-Implementierung durchführen.
 
@@ -12,7 +20,7 @@ In diesem Tutorial erfahren Sie, was ein Coinjoin ist und wie Sie einen solchen 
 Coinjoins verbessern die Privatsphäre von Bitcoin-Nutzern, indem sie die Kettenanalyse für externe Beobachter erschweren. Ihre Struktur ermöglicht es, mehrere Münzen von verschiedenen Nutzern in einer einzigen Transaktion zusammenzuführen, wodurch die Spuren verwischt und es schwierig wird, die Verbindungen zwischen Eingabe- und Ausgabeadressen zu bestimmen.
 
 Das Prinzip des Coinjoin basiert auf einem kollaborativen Ansatz: Mehrere Nutzer, die ihre Bitcoins mischen möchten, hinterlegen identische Beträge als Eingaben derselben Transaktion. Diese Beträge werden dann als Ausgaben von gleichem Wert an jeden Nutzer umverteilt. Am Ende der Transaktion wird es unmöglich, eine spezifische Ausgabe einem bekannten Nutzer am Eingang zuzuordnen. Es besteht keine direkte Verbindung zwischen den Eingaben und Ausgaben, was die Zuordnung zwischen den Nutzern und ihren UTXO sowie die Geschichte jeder Münze bricht.
-![coinjoin](assets/de/1.webp)
+![coinjoin](assets/notext/1.webp)
 
 Beispiel einer Coinjoin-Transaktion (nicht von mir): [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://mempool.space/de/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
 
@@ -40,13 +48,13 @@ Ursprünglich war die Anzahl der Teilnehmer bei jedem Whirlpool-Coinjoin auf 5 b
 
 Daher sind Whirlpool-Transaktionen durch eine identische Anzahl von Eingängen und Ausgängen gekennzeichnet, die sein können:
 - 5 Eingänge und 5 Ausgänge;
-![coinjoin](assets/de/2.webp)
+![coinjoin](assets/notext/2.webp)
 - 6 Eingänge und 6 Ausgänge;
-![coinjoin](assets/de/3.webp)
+![coinjoin](assets/notext/3.webp)
 - 7 Eingänge und 7 Ausgänge;
-![coinjoin](assets/de/4.webp)
+![coinjoin](assets/notext/4.webp)
 - 8 Eingänge und 8 Ausgänge.
-![coinjoin](assets/de/5.webp)
+![coinjoin](assets/notext/5.webp)
 Das von Whirlpool vorgeschlagene Modell basiert somit auf kleinen Coinjoin-Transaktionen. Im Gegensatz zu Wasabi und JoinMarket, wo die Robustheit der Anonsets auf dem Volumen der Teilnehmer in einem einzigen Zyklus beruht, setzt Whirlpool auf die Verkettung mehrerer kleiner Zyklen.
 
 In diesem Modell fallen für den Benutzer Gebühren nur bei seinem ersten Eintritt in einen Pool an, was es ihm ermöglicht, an einer Vielzahl von Remixes ohne zusätzliche Gebühren teilzunehmen. Es sind die neuen Einsteiger, die die Mining-Gebühren für die Remixer tragen.
@@ -59,7 +67,7 @@ Whirlpool wurde unter Berücksichtigung von zwei wichtigen Anforderungen entwick
 Diese Imperative leiteten die Entscheidungen der Entwickler von Samourai Wallet bei der Gestaltung von Whirlpool, was sie dazu veranlasste, die Anzahl der Teilnehmer pro Zyklus zu begrenzen. Zu wenige Teilnehmer hätten die Wirksamkeit des Coinjoin beeinträchtigt, indem sie die mit jedem Zyklus generierten Anonsets drastisch reduziert hätten, während zu viele Teilnehmer Managementprobleme bei mobilen Anwendungen verursacht hätten und den Fluss der Zyklen behindert hätten.
 
 **Letztendlich ist es nicht notwendig, eine hohe Anzahl von Teilnehmern pro Coinjoin bei Whirlpool zu haben, da die Anonsets über die Ansammlung mehrerer Coinjoin-Zyklen gebildet werden.**
-[-> Erfahren Sie mehr über Whirlpool Anonsets.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Erfahren Sie mehr über Whirlpool Anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 ### Coinjoin-Pools und Gebühren
 Um sicherzustellen, dass mehrere Zyklen die Anonsets der gemischten Coins effektiv erhöhen, muss ein bestimmter Rahmen festgelegt werden, um die Mengen der verwendeten UTXOs zu beschränken. Whirlpool definiert dafür verschiedene Pools.
 
@@ -84,12 +92,14 @@ Um in einen Coinjoin-Pool einzutreten, müssen Servicegebühren sowie Mining-Geb
 
 Die Servicegebühren für die Nutzung von Whirlpool sind einmalig beim Eintritt in den Pool zu entrichten. Ist dieser Schritt abgeschlossen, haben Sie die Möglichkeit, an einer unbegrenzten Anzahl von Remixes ohne zusätzliche Gebühren teilzunehmen. Hier sind die aktuellen festen Gebühren für jeden Pool:
 
-| Pool (Bitcoin) | Eintrittsgebühr (Bitcoin)      |
-|----------------|--------------------------------|
-| 0,5            | 0,0175                         |
-| 0,05           | 0,00175                        |
-| 0,01           | 0,0005 (50.000 Sats)           |
-| 0,001          | 0,00005 (5.000 Sats)           |
+| Pool (bitcoin) | Eintrittsgebühr (Bitcoin) |
+| -------------- | ------------------------- |
+| 0,5            | 0,0175                    |
+| 0,05           | 0,00175                   |
+| 0,01           | 0,0005 (50 000 sats)      |
+| 0,001          | 0,00005 (5 000 sats)      |
+
+
 Diese Gebühren fungieren im Wesentlichen als Eintrittskarte für den gewählten Pool, unabhängig von der Menge, die Sie in CoinJoin einbringen. Also, egal ob Sie dem 0,01 Pool mit genau 0,01 BTC beitreten oder mit 0,5 BTC eintreten, die Gebühren bleiben im absoluten Wert gleich.
 Bevor man mit CoinJoins fortfährt, hat der Benutzer daher die Wahl zwischen 2 Strategien:
 - Sich für einen kleineren Pool entscheiden, um die Servicegebühren zu minimieren, wissend, dass sie mehrere kleine UTXOs zurückbekommen;
@@ -161,7 +171,7 @@ Die Nutzung von Sparrow hat den Vorteil, dass sie recht einfach zu beginnen ist,
 
 ### Sparrow Wallet installieren
 Um zu beginnen, benötigen Sie offensichtlich die Sparrow Wallet Software. Sie können diese direkt von [der offiziellen Webseite](https://sparrowwallet.com/download/) oder auf [ihrem GitHub](https://github.com/sparrowwallet/sparrow/releases) herunterladen.
-Bevor Sie die Software installieren, ist es wichtig, die Signatur und Integrität der gerade heruntergeladenen ausführbaren Datei zu überprüfen. Wenn Sie mehr Details zum Installationsprozess und zur Überprüfung der Sparrow-Software wünschen, rate ich Ihnen, dieses andere Tutorial zu lesen: *[Die Sparrow Wallet Anleitungen](https://planb.network/tutorials/wallet/sparrow)*.
+Bevor Sie die Software installieren, ist es wichtig, die Signatur und Integrität der gerade heruntergeladenen ausführbaren Datei zu überprüfen. Wenn Sie mehr Details zum Installationsprozess und zur Überprüfung der Sparrow-Software wünschen, rate ich Ihnen, dieses andere Tutorial zu lesen: *[Die Sparrow Wallet Anleitungen](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*
 
 ### Erstellen eines Software-Wallets
 Nach der Installation der Software müssen Sie mit der Erstellung eines Bitcoin-Wallets fortfahren. Es ist wichtig zu beachten, dass für die Teilnahme an Coinjoins die Verwendung eines Software-Wallets (auch "Hot Wallet" genannt) unerlässlich ist. Daher **wird es nicht möglich sein, Coinjoins mit einem durch ein Hardware-Wallet gesicherten Wallet durchzuführen**.
@@ -170,143 +180,143 @@ Obwohl es nicht zwingend erforderlich ist, wird im Falle, dass Sie beabsichtigen
 
 Um ein neues Wallet zu erstellen, öffnen Sie Sparrow, klicken Sie dann auf den `Datei`-Tab und `Neues Wallet`.
 
-![sparrow](assets/de/9.webp)
+![sparrow](assets/notext/9.webp)
 
 Wählen Sie einen Namen für dieses Wallet, zum Beispiel: "Coinjoin Wallet". Klicken Sie auf den `Wallet erstellen`-Button.
 
-![sparrow](assets/de/10.webp)
+![sparrow](assets/notext/10.webp)
 
 Lassen Sie die Standardeinstellungen, und klicken Sie dann auf den `Neues oder importiertes Software-Wallet`-Button.
 
-![sparrow](assets/de/11.webp)
+![sparrow](assets/notext/11.webp)
 
 Wenn Sie das Fenster zur Wallet-Erstellung öffnen, empfehle ich, eine 12-Wort-Sequenz zu wählen, da diese völlig ausreichend ist. Wählen Sie `Neu generieren`, um eine neue Wiederherstellungsphrase zu generieren, und klicken Sie auf `Passphrase verwenden`, wenn Sie eine BIP39-Passphrase hinzufügen möchten. Es ist wichtig, eine physische Sicherung Ihrer Wiederherstellungsinformationen vorzunehmen, sei es auf Papier oder auf einem Metallträger, um die Sicherheit Ihrer Bitcoins zu gewährleisten.
 
-![sparrow](assets/de/12.webp)
+![sparrow](assets/notext/12.webp)
 Stellen Sie die Gültigkeit Ihrer Sicherungskopie der Wiederherstellungsphrase sicher, bevor Sie auf `Sicherung bestätigen...` klicken. Sparrow wird Sie dann bitten, Ihre Phrase erneut einzugeben, um zu überprüfen, dass Sie diese notiert haben. Sobald dieser Schritt abgeschlossen ist, fahren Sie fort, indem Sie auf `Keystore erstellen` klicken.
-![sparrow](assets/de/13.webp)
+![sparrow](assets/notext/13.webp)
 
 Lassen Sie den vorgeschlagenen Ableitungspfad als Standard und drücken Sie `Keystore importieren`. In meinem Beispiel weicht der Ableitungspfad leicht ab, da ich das Testnet für dieses Tutorial verwende. Der Ableitungspfad, der für Sie erscheinen sollte, ist wie folgt:
-```
+```plaintext
 m/84'/0'/0'
 ```
 
-![sparrow](assets/de/14.webp)
+![sparrow](assets/notext/14.webp)
 
 Danach wird Sparrow die Ableitungsdetails Ihres neuen Wallets anzeigen. Falls Sie eine Passphrase festgelegt haben, wird dringend empfohlen, Ihren `Master-Fingerabdruck` zu notieren. Obwohl dieser Master-Key-Fingerabdruck keine sensiblen Daten sind, wird er Ihnen später nützlich sein, um zu überprüfen, dass Sie tatsächlich auf das richtige Wallet zugreifen und um die Abwesenheit von Fehlern bei der Eingabe Ihrer Passphrase zu bestätigen.
 
 Klicken Sie auf den `Anwenden`-Button.
 
-![sparrow](assets/de/15.webp)
+![sparrow](assets/notext/15.webp)
 
 Sparrow lädt Sie ein, ein Passwort für Ihr Wallet zu erstellen. Dieses Passwort wird benötigt, um darauf über die Sparrow Wallet Software zuzugreifen. Wählen Sie ein starkes Passwort, machen Sie eine Sicherung davon und klicken Sie dann auf `Passwort festlegen`.
 
-![sparrow](assets/de/16.webp)
+![sparrow](assets/notext/16.webp)
 
 ### Bitcoins empfangen
 Nachdem Sie Ihre Wallet erstellt haben, werden Sie zunächst ein einzelnes Konto haben, mit dem Index `0'`. Dies ist das **Einzahlungs**konto, über das wir in den vorherigen Teilen gesprochen haben. Dies ist das Konto, an das Sie die Bitcoins senden müssen, um sie zu mischen.
 Um dies zu tun, wählen Sie den `Receive`-Tab auf der linken Seite des Fensters. Sparrow wird automatisch eine neue leere Adresse generieren, um Bitcoins zu empfangen.
 
-![sparrow](assets/de/17.webp)
+![sparrow](assets/notext/17.webp)
 
 Sie können dieser Adresse ein Label geben und dann die zu mischenden Bitcoins dorthin senden.
 
-![sparrow](assets/de/18.webp)
+![sparrow](assets/notext/18.webp)
 
 ### Die Tx0 erstellen
 Sobald Ihre Transaktion bestätigt wurde, können Sie zum `UTXOs`-Tab gehen.
 
-![sparrow](assets/de/19.webp)
+![sparrow](assets/notext/19.webp)
 
 Wählen Sie als Nächstes die UTXO(s), die Sie den Coinjoin-Zyklen unterziehen möchten. Um mehrere UTXOs gleichzeitig auszuwählen, halten Sie die `Strg`-Taste gedrückt, während Sie auf die UTXOs Ihrer Wahl klicken.
 
-![sparrow](assets/de/20.webp)
+![sparrow](assets/notext/20.webp)
 
 Klicken Sie dann auf den `Mix Selected`-Button am unteren Rand des Fensters. Wenn dieser Button in Ihrer Oberfläche nicht erscheint, liegt das daran, dass Sie eine Wallet verwenden, die mit einem Hardware-Wallet gesichert ist. Sie müssen eine Software-Wallet verwenden, um Coinjoins mit Sparrow durchzuführen.
-![sparrow](assets/de/21.webp)
+![sparrow](assets/notext/21.webp)
 Ein Fenster öffnet sich, um zu erklären, wie Whirlpool funktioniert. Dies ist eine Vereinfachung dessen, was ich in den vorherigen Teilen erklärt habe. Klicken Sie auf `Next`, um fortzufahren.
 
-![sparrow](assets/de/22.webp)
+![sparrow](assets/notext/22.webp)
 
 Auf der nächsten Seite können Sie einen "SCODE" eingeben, falls Sie einen haben. Ein SCODE ist ein Werbecode, der einen Rabatt auf die Servicegebühren des Pools bietet. Samourai Wallet bietet solche Codes gelegentlich seinen Nutzern während besonderer Veranstaltungen an. Ich rate Ihnen, [Samourai Wallet auf den sozialen Medien zu folgen](https://twitter.com/SamouraiWallet), damit Sie zukünftige SCODES nicht verpassen.
 
 Auf derselben Seite müssen Sie auch die Gebührenrate für die `Tx0` und Ihren ersten Mix festlegen. Diese Wahl wird die Bestätigungsgeschwindigkeit für Ihre vorbereitende Transaktion und Ihren ersten Coinjoin beeinflussen. Denken Sie daran, dass Sie für die Mining-Gebühren der `Tx0` und des ersten Mixes verantwortlich sind, aber Sie werden keine Mining-Gebühren für nachfolgende Remixes schulden. Passen Sie den `Premix Priority`-Regler nach Ihren Vorlieben an, dann klicken Sie auf `Next`.
 
-![sparrow](assets/de/23.webp)
+![sparrow](assets/notext/23.webp)
 
 In diesem neuen Fenster haben Sie die Möglichkeit, den Pool auszuwählen, in den Sie eintreten möchten, indem Sie die Dropdown-Liste verwenden. In meinem Fall, da ich ursprünglich ein UTXO von `456 214 Sats` ausgewählt habe, ist meine einzige mögliche Wahl der Pool von `100 000 Sats`. Diese Schnittstelle informiert Sie auch über die zu zahlenden Servicegebühren sowie die Anzahl der UTXOs, die in den Pool integriert werden. Wenn die Bedingungen für Sie zufriedenstellend erscheinen, fahren Sie fort, indem Sie auf `Preview Premix` klicken.
 
-![sparrow](assets/de/24.webp)
+![sparrow](assets/notext/24.webp)
 
 Nach diesem Schritt wird Sparrow Sie auffordern, das Passwort für Ihre Wallet einzugeben, das Sie bei der Erstellung in der Software festgelegt haben. Sobald das Passwort eingegeben wurde, erhalten Sie eine Vorschau Ihrer `Tx0`. Auf der linken Seite Ihres Fensters sehen Sie, dass Sparrow die verschiedenen für die Nutzung von Whirlpool erforderlichen Konten generiert hat (`Deposit`, `Premix`, `Postmix` und `Badbank`). Sie haben auch die Möglichkeit, die Struktur Ihrer `Tx0` zu betrachten, mit den verschiedenen Ausgängen:
 - Die Servicegebühren;
 - Die ausgeglichenen UTXOs, die beabsichtigen, in den Pool einzutreten; - Der toxische Wechsel (Doxxic Change).
 
-![sparrow](assets/de/25.webp)
+![sparrow](assets/notext/25.webp)
 
 Wenn die Transaktion Ihren Vorstellungen entspricht, klicken Sie auf `Broadcast Transaction`, um Ihre `Tx0` zu übertragen. Andernfalls haben Sie die Möglichkeit, die Parameter dieser `Tx0` anzupassen, indem Sie `Clear` auswählen, um die eingegebenen Daten zu löschen und den Erstellungsprozess von vorne zu beginnen.
 
 ### Coinjoins durchführen
 Sobald die Tx0 übertragen wurde, finden Sie Ihre UTXOs bereit zum Mischen im `Premix`-Konto.
-![sparrow](assets/de/26.webp)
+![sparrow](assets/notext/26.webp)
 
 Sobald die `Tx0` bestätigt ist, werden Ihre UTXOs beim Koordinator registriert, und die ersten Mischvorgänge starten automatisch nacheinander.
 
-![sparrow](assets/de/27.webp)
+![sparrow](assets/notext/27.webp)
 
 Wenn Sie das `Postmix`-Konto überprüfen, werden Sie die UTXOs beobachten, die aus den ersten Mischungen resultieren. Diese Münzen bleiben bereit für nachfolgende Remixe, die keine zusätzlichen Gebühren verursachen werden.
 
-![sparrow](assets/de/28.webp)
+![sparrow](assets/notext/28.webp)
 
 In der Spalte `Mixes` ist es möglich, die Anzahl der von jeder Ihrer Münzen durchgeführten Coinjoins zu sehen. Wie wir in den folgenden Abschnitten sehen werden, ist nicht so sehr die Anzahl der Remixe an sich von Bedeutung, sondern eher die damit verbundenen Anonsets, obwohl diese beiden Indikatoren teilweise zusammenhängen.
 
-![sparrow](assets/de/29.webp)
+![sparrow](assets/notext/29.webp)
 
 Um die Coinjoins vorübergehend zu stoppen, klicken Sie einfach auf `Stop Mixing`. Sie haben jederzeit die Möglichkeit, den Betrieb durch Auswahl von `Start Mixing` wieder aufzunehmen.
 
-![sparrow](assets/de/30.webp)
+![sparrow](assets/notext/30.webp)
 
 Um eine kontinuierliche Verfügbarkeit Ihrer UTXOs für das Remixen zu gewährleisten, ist es notwendig, die Sparrow-Software aktiv zu halten. Das Schließen der Software oder das Ausschalten Ihres Computers wird die Coinjoins pausieren. Eine Lösung, um dieses Problem zu umgehen, besteht darin, die Schlaffunktionen über die Einstellungen Ihres Betriebssystems zu deaktivieren. Zusätzlich bietet Sparrow eine Option, um zu verhindern, dass Ihr Computer automatisch in den Schlafmodus geht, die Sie unter dem Reiter `Tools` mit dem Titel `Prevent Computer Sleep` finden können.
 
-![sparrow](assets/de/31.webp)
+![sparrow](assets/notext/31.webp)
 
 ### Die Coinjoins abschließen
 Um Ihre gemischten Bitcoins auszugeben, haben Sie mehrere Optionen. Die direkteste Methode ist der Zugriff auf das `Postmix`-Konto und die Auswahl des Reiters `Send`.
 
-![sparrow](assets/de/32.webp)
+![sparrow](assets/notext/32.webp)
 
 In diesem Abschnitt haben Sie die Möglichkeit, die Zieladresse, den zu sendenden Betrag und die Transaktionsgebühren einzugeben, genauso wie bei jeder anderen Transaktion, die mit Sparrow Wallet durchgeführt wird. Wenn Sie möchten, können Sie auch von erweiterten Datenschutzfunktionen wie Stonewall profitieren, indem Sie auf den Button `Privacy` klicken.
 
-![sparrow](assets/de/33.webp)
+![sparrow](assets/notext/33.webp)
 
-[-> Erfahren Sie mehr über Stonewall-Transaktionen.](https://planb.network/tutorials/privacy/stonewall)
+[-> Erfahren Sie mehr über Stonewall-Transaktionen.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Wenn Sie eine präzisere Auswahl Ihrer Münzen zum Ausgeben treffen möchten, gehen Sie zum Reiter `UTXOs`. Wählen Sie die UTXOs aus, die Sie speziell verbrauchen möchten, und drücken Sie dann den Button `Send Selected`, um die Transaktion zu initiieren.
 
-![sparrow](assets/de/34.webp)
+![sparrow](assets/notext/34.webp)
 Schließlich ermöglicht die Option `Mix to...`, die bei Sparrow verfügbar ist, das automatische Entfernen eines ausgewählten UTXO aus Coinjoin-Zyklen, ohne zusätzliche Gebühren zu verursachen. Diese Funktion ermöglicht die Festlegung einer Anzahl von Remixes, nach denen der UTXO nicht wieder in Ihr `Postmix`-Konto reintegriert wird, sondern stattdessen direkt in eine andere Wallet übertragen wird. Diese Option wird oft verwendet, um gemischte Bitcoins automatisch an eine Cold Wallet zu senden. Um diese Option zu nutzen, beginnen Sie damit, die Empfänger-Wallet neben Ihrer Coinjoin-Wallet innerhalb der Sparrow-Software zu öffnen.
 
-![sparrow](assets/de/35.webp)
+![sparrow](assets/notext/35.webp)
 
 Gehen Sie dann zum Tab `UTXOs` und wählen Sie die Münzen aus, die Sie interessieren, und klicken Sie dann auf den Button `Mix to...` am unteren Rand des Fensters.
 
-![sparrow](assets/de/36.webp)
+![sparrow](assets/notext/36.webp)
 
 Ein Fenster öffnet sich, beginnen Sie damit, die Ziel-Wallet aus der Dropdown-Liste auszuwählen.
 
-![sparrow](assets/de/37.webp)
+![sparrow](assets/notext/37.webp)
 
-Wählen Sie die Coinjoin-Schwelle, jenseits derer die Auszahlung automatisch erfolgen wird. Ich kann Ihnen keine genaue Anzahl von Remixes geben, die durchgeführt werden sollen, da dies je nach Ihrer persönlichen Situation und Ihren Datenschutzzielen variiert, aber vermeiden Sie es, eine zu niedrige Schwelle zu wählen. Ich empfehle, diesen anderen Artikel zu konsultieren, um mehr über den Remixing-Prozess zu erfahren: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool).
+Wählen Sie die Coinjoin-Schwelle, jenseits derer die Auszahlung automatisch erfolgen wird. Ich kann Ihnen keine genaue Anzahl von Remixes geben, die durchgeführt werden sollen, da dies je nach Ihrer persönlichen Situation und Ihren Datenschutzzielen variiert, aber vermeiden Sie es, eine zu niedrige Schwelle zu wählen. Ich empfehle, diesen anderen Artikel zu konsultieren, um mehr über den Remixing-Prozess zu erfahren: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 Sie können die Option `Index range` auf ihrem Standardwert `Full` belassen. Diese Funktion ermöglicht das Mischen gleichzeitig von verschiedenen Clients, aber das ist nicht, was wir in diesem Tutorial tun wollen. Um die Option `Mix to...` zu finalisieren und zu aktivieren, drücken Sie `Restart Whirlpool`.
 
-![sparrow](assets/de/38.webp)
+![sparrow](assets/notext/38.webp)
 
 Seien Sie jedoch vorsichtig bei der Verwendung der Option `Mix to`, da das Entfernen gemischter Münzen aus Ihrem `Postmix`-Konto das Risiko, Ihre Privatsphäre zu kompromittieren, erheblich erhöhen kann. Die Gründe für dieses Potenzial werden in den folgenden Abschnitten detailliert beschrieben.
 
 ## Wie kann man die Qualität unserer Coinjoin-Zyklen erkennen?
-Damit ein Coinjoin wirklich effektiv ist, ist es wesentlich, dass er eine gute Homogenität zwischen den Beträgen von Inputs und Outputs aufweist. Diese Uniformität verstärkt die Anzahl der möglichen Interpretationen in den Augen eines externen Beobachters und erhöht damit die Unsicherheit rund um die Transaktion. Um diese durch einen Coinjoin erzeugte Unsicherheit zu quantifizieren, kann man auf die Berechnung der Entropie der Transaktion zurückgreifen. Für eine vertiefende Erkundung dieser Indikatoren verweise ich Sie auf das Tutorial: [BOLTZMANN CALCULATOR](https://planb.network/de/tutorials/privacy/boltzmann-entropy). Das Whirlpool-Modell wird als dasjenige anerkannt, das die meiste Homogenität in Coinjoins bringt.
-Als Nächstes wird die Leistung mehrerer Coinjoin-Zyklen basierend auf der Größe der Gruppen bewertet, in denen eine Münze versteckt ist. Die Größe dieser Gruppen definiert das, was als Anonsets bezeichnet wird. Es gibt zwei Arten von Anonsets: Die erste bewertet den Datenschutzgewinn gegen retrospektive Analyse (von der Gegenwart in die Vergangenheit) und die zweite, gegen prospektive Analyse (von der Vergangenheit in die Gegenwart). Für eine detaillierte Erklärung dieser beiden Indikatoren lade ich Sie ein, das Tutorial zu konsultieren: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets).
+Damit ein Coinjoin wirklich effektiv ist, ist es wesentlich, dass er eine gute Homogenität zwischen den Beträgen von Inputs und Outputs aufweist. Diese Uniformität verstärkt die Anzahl der möglichen Interpretationen in den Augen eines externen Beobachters und erhöht damit die Unsicherheit rund um die Transaktion. Um diese durch einen Coinjoin erzeugte Unsicherheit zu quantifizieren, kann man auf die Berechnung der Entropie der Transaktion zurückgreifen. Für eine vertiefende Erkundung dieser Indikatoren verweise ich Sie auf das Tutorial: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Das Whirlpool-Modell wird als dasjenige anerkannt, das die meiste Homogenität in Coinjoins bringt.
+Als Nächstes wird die Leistung mehrerer Coinjoin-Zyklen basierend auf der Größe der Gruppen bewertet, in denen eine Münze versteckt ist. Die Größe dieser Gruppen definiert das, was als Anonsets bezeichnet wird. Es gibt zwei Arten von Anonsets: Die erste bewertet den Datenschutzgewinn gegen retrospektive Analyse (von der Gegenwart in die Vergangenheit) und die zweite, gegen prospektive Analyse (von der Vergangenheit in die Gegenwart). Für eine detaillierte Erklärung dieser beiden Indikatoren lade ich Sie ein, das Tutorial zu konsultieren: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ## Wie verwaltet man Postmix?
 Nachdem Coinjoin-Zyklen durchgeführt wurden, ist die beste Strategie, Ihre UTXOs im **Postmix**-Konto zu behalten, in Erwartung ihrer zukünftigen Verwendung. Es ist sogar ratsam, sie unendlich remixen zu lassen, bis Sie sie ausgeben müssen.
@@ -331,8 +341,9 @@ Als Nächstes müssen Sie vorsichtig sein, wenn Sie toxisches Wechselgeld verwal
 Detaillierte Tutorials zur Implementierung dieser verschiedenen Techniken werden bald im PlanB Network angeboten.
 
 **Zusätzliche Ressourcen:**
-- [Sparrow Wallet Video-Tutorial](https://planb.network/tutorials/wallet/sparrow);
-- [Samourai Wallet Video-Tutorial](https://planb.network/tutorials/wallet/samourai);
+[Sparrow Wallet Video-Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)
+[Samourai Wallet Video-Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Samourai Wallet Dokumentation - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter-Thread über CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogbeitrag über CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+

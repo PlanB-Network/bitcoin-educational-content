@@ -1,0 +1,13 @@
+question: Pourquoi est-il beaucoup plus difficile d'acheter une maison aujourd'hui qu'en 1980 ?
+answer: Les taux d'intérêt réduits rendent la dette plus séduisante et l'inflation
+wrong_answers:
+  - L'inflation et les taux de location
+  - L'augmentation du coût de la vie et la croissance démographique
+  - Le manque de propriétés et les taux d'intérêt réduits rendant la dette plus séduisante
+explanation: |
+  Alors que l'inflation dévalue le pouvoir d'achat de notre monnaie, rendant 
+  l'épargne plus difficile, les taux d'intérêt réduits rendent la consommation 
+  de dette plus séduisante. Quand le coût du capital est si bon marché, les gens 
+  empruntent au-delà de leurs moyens, injectant plus de capital dans les actifs, 
+  et faisant monter les prix.
+reviewed: true

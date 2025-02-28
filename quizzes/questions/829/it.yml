@@ -1,9 +1,0 @@
-question: Qual è il principale svantaggio nell'utilizzare un gestore di password auto-ospitato?
-answer: Richiede una maggiore conoscenza tecnica per l'utilizzo.
-wrong_answers:
-  - È più costoso rispetto ai servizi di terze parti.
-  - Non offre tante funzionalità come i servizi di terze parti.
-  - Non è altrettanto sicuro come i servizi di terze parti.
-explanation: |
-  Un gestore di password auto-ospitato richiede una maggiore conoscenza tecnica per l'utilizzo, in quanto è necessario configurare e gestire il proprio server. Tuttavia, può offrire maggiore controllo e sicurezza.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Was bedeutet ein Brute-Force-Angriff?
+answer: Alle möglichen Schlüssel ausprobieren, bis der richtige gefunden ist
+wrong_answers:
+  - Den Text ändern, um ihn unverständlich zu machen
+  - Einen öffentlichen Schlüssel verwenden, um die Nachricht zu entschlüsseln
+  - Den Computer sehr hart schlagen, um ihn dazu zu bringen, den geheimen Schlüssel preiszugeben
+explanation: |
+  Ein Brute-Force-Angriff beinhaltet das systematische Testen aller möglichen Schlüssel, um eine verschlüsselte Nachricht zu entschlüsseln.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er hensikten med grensesnittimplementering i RGB-arkitekturen?
+answer: Tilordne skjemafelter til navn definert i grensesnittet
+wrong_answers:
+  - Kompilere AluVM-skript for validering
+  - For å definere kontraktens globale tilstander og eide tilstander
+  - For å lagre kryptografiske bevis på klientsiden
+explanation: |
+  Grensesnittimplementeringen etablerer koblingen mellom skjemaets forretningslogikk og den presentasjonen som kan leses av grensesnittet.
+reviewed: false

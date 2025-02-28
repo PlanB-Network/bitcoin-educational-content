@@ -1,0 +1,10 @@
+question: Apa potensi kerugian dari mata uang digital bank sentral (CBDCs)?
+answer: Mereka dapat menghambat kebebasan finansial individu dan memfasilitasi penyalahgunaan otoriter.
+wrong_answers:
+  - Mereka dapat menyebabkan penurunan dalam pasokan uang.
+  - Mereka dapat menyebabkan penurunan dalam nilai Bitcoin.
+  - Mereka dapat menyebabkan penurunan dalam nilai emas.
+explanation: |
+  Mata uang digital bank sentral (CBDCs) berpotensi menghambat kebebasan finansial individu dan memfasilitasi penyalahgunaan otoriter. Hal ini karena mereka akan menawarkan ekonomi yang lebih terpusat, dengan bank sentral memiliki lebih banyak kontrol
+  atas pasokan uang.
+reviewed: true

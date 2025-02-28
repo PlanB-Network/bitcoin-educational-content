@@ -1,0 +1,9 @@
+question: Mitä lukitusskripti tekee Bitcoin-siirrossa?
+answer: Se asettaa tiettyjä ehtoja varojen käyttämiseksi
+wrong_answers:
+  - Se lähettää automaattisesti varat useisiin osoitteisiin
+  - Se määrittää luotavan UTXO: n arvon
+  - Se lukitsee varat väliaikaisesti estääkseen liiallisen kuluttamisen
+explanation: |
+  Lukitusskripti asettaa ehtoja, kuten yksityisellä avaimella allekirjoittamisen, jotta varoja voidaan käyttää siirrossa.
+reviewed: false

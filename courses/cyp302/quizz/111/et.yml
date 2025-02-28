@@ -1,0 +1,9 @@
+question: Mis on asünkroonne voogkrüpteerimine?
+answer: Krüpteerimine, mille võtmehoidla sõltub nii võtmest kui ka eelnevalt krüpteeritud teksti elementidest
+wrong_answers:
+  - Krüpteerimine, mis genereerib iga kasutuskorra jaoks juhusliku võtmehoidla
+  - Krüpteerimine, kus võtit tuleb iga sõnumi jaoks muuta
+  - Krüpteerimine, mille võtmehoidla sõltub ainult algsest võtmest
+explanation: |
+  Asünkroonne voogkrüpteerimine on krüpteerimise tüüp, kus võtmehoidla mõjutatakse nii võtme kui ka krüpteeritud teksti elementide poolt.
+reviewed: false

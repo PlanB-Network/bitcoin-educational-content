@@ -1,0 +1,9 @@
+question: Jaký je vliv transakce Bitcoinu na UTXO výstupů?
+answer: Vytváří je použitím UTXO spotřebovaných na vstupech.
+wrong_answers:
+  - Spotřebovává je k uspokojení vstupů.
+  - Šifruje je pro anonymizaci příjemce.
+  - Dočasně je dělí pro ověření.
+explanation: |
+  UTXO na výstupech transakce jsou vytvořeny spotřebováním UTXO na vstupech. Je to jakýsi cíl peněz.
+reviewed: false

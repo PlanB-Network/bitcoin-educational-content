@@ -1,0 +1,15 @@
+title: "Bitcoin-louhinnan käsikirja"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  Sarjan 1. kirja, Bitcoin Mining Handbook, alkaa perusasioista
+  kaivostoiminnan, selittää kannustimet todisteiden työn, joitakin käytännön vinkkejä varten
+  kaivostoiminta itse, ja selventää yleistä väärinkäsitystä selittämällä, että
+  kaivostyöläiset EIVÄT ratkaise monimutkaisia matemaattisia ongelmia. Sitten se sukeltaa hieman syvemmälle,
+  koskettaa kaivostyöläisten mukautetun laiteohjelmiston syntymistä, kaivostoiminnan merkitystä
+  Stratum V2 -protokollan päivitys ja kaivosteollisuuden liiketoiminta.
+  Kirjan lopussa on valikoima parhaita kaivostoiminnan meemejä alkuvuosilta
+  2022.
+contributors:
+  - another-satoshi

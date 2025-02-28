@@ -1,0 +1,5 @@
+---
+term: NSEQUENCE
+
+---
+Bitcoini tehingukirje väli "nSequence" näitab, kuidas see kirje on ajaliselt lukustatud. Algselt oli see mõeldud selleks, et võimaldada tehingute dünaamilist asendamist mempools, et võimaldada Lightning'ile sarnast maksesüsteemi pealekandmist. Kuid selle kasutamine on muutunud suhtelise ajatõkke kasutuselevõtuga BIP68 kaudu. Väljal `nSequence` saab nüüd määrata suhtelise viivituse, enne kui tehingu saab blokki lisada. Seda viivitust saab määratleda plokkide arvuna või 512 sekundi (st reaalajas) korrutisena. Oluline on märkida, et see `nSequence` välja uus tõlgendus kehtib ainult siis, kui `nVersion` väli on suurem või võrdne `2`ga. See `nSequence` välja tõlgendus on Bitcoini konsensusreeglite tasemel. Lisaks kasutatakse seda välja standardimisreeglite tasandil ka RBF (Replace-By-Fee) signalisatsiooniks. Kui tehing sisaldab `nSequence` väiksema väärtusega kui `0xfffffffffe`, siis saab seda RBF-i kaudu asendada sõlmedes, mis järgivad seda poliitikat.

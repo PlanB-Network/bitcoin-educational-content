@@ -1,0 +1,9 @@
+question: Co se stane, pokud Alice nezíská Bobův podpis pro transakci výběru?
+answer: Riskuje ztrátu přístupu ke svým prostředkům uloženým na multisignaturní adrese
+wrong_answers:
+  - Již nemůže komunikovat s Bobem na Lightning Network
+  - Kanál se otevře s omezenou kapacitou
+  - Bob automaticky obdrží prostředky v kanálu
+explanation: |
+  Bez Bobova podpisu na transakci výběru nemůže Alice zajistit obnovení svých prostředků v případě problému, což představuje riziko ztráty.
+reviewed: false

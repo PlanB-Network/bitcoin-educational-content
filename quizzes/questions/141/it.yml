@@ -1,9 +1,0 @@
-question: Qual è la dimensione della blockchain di Bitcoin?
-answer: Circa 500GB
-wrong_answers:
-  - Circa 100GB
-  - Circa 1TB
-  - Circa 2TB
-explanation: |
-  La blockchain di Bitcoin ha una dimensione di circa 500GB.
-reviewed: false

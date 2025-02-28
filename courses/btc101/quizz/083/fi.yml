@@ -1,0 +1,10 @@
+question: Mikä analogiaa käytetään tässä kurssissa selittämään, miten voit vastaanottaa bitcoineja ilman, että annat lähettäjän varastaa varojasi?
+answer: Postilaatikko.
+wrong_answers:
+  - Pankkitili.
+  - Kassakaappi.
+  - Talo.
+explanation: |
+  Analogia, jota käytetään selittämään, miten voit vastaanottaa bitcoineja
+  ilman, että annat lähettäjän varastaa varojasi, on postilaatikko. Ihmiset voivat tallettaa rahaa siihen, mutta vain sinä voit avata sen.
+reviewed: true

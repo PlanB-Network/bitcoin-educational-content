@@ -1,0 +1,8 @@
+question: Milline omadus tagab, et sisendi taastamine räsi põhjal on arvutuslikult võimatu?
+answer: Eelkujutise vastupanu
+wrong_answers:
+  - Kollisioonivastupanu
+  - Lumelaviini efekt
+  - Teise eelkujutise vastupanu
+explanation: |
+  Eelkujutise vastupanu tagab, et algse sõnumi leidmine selle räsi põhjal on praktiliselt võimatu.

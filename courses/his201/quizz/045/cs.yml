@@ -1,0 +1,9 @@
+question: Jak se jmenuje webová stránka, která významně přispěla k rozšíření Bitcoinu v červenci 2010?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation: |
+  Dne 11. července 2010 byla na této populární stránce zveřejněna prezentace o Bitcoinu, kterou napsal Teppy, což vedlo k masivnímu přílivu uživatelů.
+reviewed: false

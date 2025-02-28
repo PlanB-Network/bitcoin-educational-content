@@ -1,0 +1,9 @@
+question: ¿Qué información puede incluir Bob en una factura para facilitar el enrutamiento?
+answer: Canales cercanos con suficiente liquidez o la existencia de canales privados
+wrong_answers:
+  - La clave privada de los nodos intermedios
+  - El mapa completo de todos los canales de la red
+  - La cantidad exacta de liquidez disponible para cada canal
+explanation: |
+  Al indicar canales cercanos con liquidez o revelar canales privados, Bob ayuda a Alice a elegir rutas con una mejor probabilidad de éxito.
+reviewed: false

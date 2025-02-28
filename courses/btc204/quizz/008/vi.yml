@@ -1,0 +1,9 @@
+question: Nếu một giao dịch có 2 UTXO với mỗi UTXO là 5,000 sats làm đầu vào và 3 UTXO với mỗi UTXO là 3,000 sats làm đầu ra, phí giao dịch là bao nhiêu?
+answer: 1,000 sats
+wrong_answers:
+  - 1,500 sats
+  - 2,500 sats
+  - 3,000 sats
+explanation: |
+  Phí của một giao dịch được tính bằng sự chênh lệch giữa tổng số đầu vào và tổng số đầu ra. Đó là số lượng còn lại sau khi sử dụng hết tất cả các đầu vào và tạo ra tất cả các đầu ra. Vì vậy, phí được tính như sau; phí = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

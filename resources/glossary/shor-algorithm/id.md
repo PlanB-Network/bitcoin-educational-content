@@ -1,0 +1,5 @@
+---
+term: SHOR (ALGORITMA)
+
+---
+Algoritma Quantum ditemukan pada tahun 1994 oleh Peter Shor yang memungkinkan faktorisasi bilangan bulat besar menjadi hasil kali bilangan prima dalam waktu polinomial. Dengan mengurangi jumlah operasi yang dibutuhkan untuk memfaktorkan bilangan bulat, Shor dapat membuat algoritma kriptografi yang dibuat berdasarkan masalah matematika ini menjadi tidak praktis, seperti RSA. Shor dapat sedikit dimodifikasi untuk bekerja pada hampir semua algoritma yang menggunakan struktur grup. Algoritma ini telah memiliki varian yang efisien pada kriptografi kurva eliptik (ECDSA, Schnorr...). Oleh karena itu, Shor dan varian-varian dekatnya efektif pada algoritma kriptografi asimetris. Saat ini, kita belum memiliki sebuah komputer kuantum yang cukup kuat dan stabil untuk menjalankan algoritma Shor.

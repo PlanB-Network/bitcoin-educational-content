@@ -1,0 +1,9 @@
+question: How can a key be defined in shift encryption?
+answer: A number from 0 to 25
+wrong_answers:
+  - A random word
+  - Any random number without restriction
+  - A number from 1 to 26
+explanation: |
+  In shift encryption, the key is a number between 0 and 25, which corresponds to the number of shift positions applied to each letter of the message in a 26-letter alphabet.
+reviewed: false

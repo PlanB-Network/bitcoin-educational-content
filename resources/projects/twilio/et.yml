@@ -1,0 +1,5 @@
+description: |
+  Twilio on ettevõte, mis on spetsialiseerunud pilvepõhistele kommunikatsioonilahendustele, sealhulgas SMS-ide, häälkõnede ja teavituste saatmisele API kaudu. See pakub ka Authyt, kahefaktorilise autentimise (2FA) rakendust, mis turvab kontod ajutiste koodide genereerimise teel.
+
+contributors:
+  - pretty-private

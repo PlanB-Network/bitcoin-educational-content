@@ -1,9 +1,0 @@
-question: Quelle est l'importance d'utiliser un mot de passe fort pour la sécurité informatique ?
-answer: Pour prévenir l'accès non autorisé au système.
-wrong_answers:
-  - Pour rendre le système plus rapide.
-  - Pour augmenter la capacité de stockage.
-  - Pour améliorer l'interface utilisateur.
-explanation: |
-  Un mot de passe fort est crucial pour la sécurité informatique afin de prévenir l'accès non autorisé au système.
-reviewed: false

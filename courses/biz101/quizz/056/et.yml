@@ -1,0 +1,9 @@
+question: Mille poolest erineb Starter-kasutajate jaoks mittekasutatav rahakott funktsionaalsuse poolest?
+answer: See annab ettevõtte omanikule täieliku kontrolli privaatvõtmete üle
+wrong_answers:
+  - See võib automaatselt konverteerida bitcoins fiat valuuta
+  - See ei nõua mingeid varumeetmeid ega turvameetmeid
+  - See haldab kõiki tehinguid kolmanda osapoole teenuse kaudu
+explanation: |
+  Mittekaitstavates rahakottides on kontroll privaatvõtmete ja tehingute üle täielikult kasutaja käes.
+reviewed: false

@@ -1,0 +1,13 @@
+question: What is the main threat associated with address reuse?
+
+answer: It allows for deterministic links to be established between different transactions and a common ownership of the concerned UTXOs.
+
+wrong_answers:
+  - It exposes the user's IP address to other network participants during transaction validation.
+  - It reduces the effectiveness of digital signature mechanisms, which weakens the security of transactions.
+  - It leads to an increase in transaction fees due to congestion caused by address reuse.
+
+explanation: |
+  If the same address is used for multiple transactions, it becomes possible to deduce that all bitcoins associated with that address belong to the same person.
+
+reviewed: false

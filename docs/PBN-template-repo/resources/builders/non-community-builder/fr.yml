@@ -1,0 +1,17 @@
+## Caractéristiques spécifiques à la langue des constructeurs
+
+# description
+# Rédigez une description du livre
+description: |
+   Ceci est utilisé pour décrire le constructeur en quelques phrases.
+   Et cela peut s'étendre sur plusieurs lignes
+   tout comme
+   ceci
+   
+# contributeurs
+# Liste des contributeurs qui aident à formater, réviser,
+# traduire le cours.
+# Ils sont identifiés par leur UUID
+# Actuellement, il n'existe aucun enregistrement partagé de ces UUIDs
+contributeurs:
+  - another-satoshi

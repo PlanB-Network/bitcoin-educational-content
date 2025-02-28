@@ -1,0 +1,9 @@
+question: Как импортировать схему "NonInflatableAsset.rgb" в локальный тайник?
+answer: rgb import schemata/NonInflatableAssets.rgb
+wrong_answers:
+  - rgb import schema/NonInflatableAssets.rgb
+  - rgb clone schemata/NonInflatableAssets.rgb
+  - rgb clone schema/NonInflatableAssets.rgb
+explanation: |
+  Скомпилированная схема импортируется в локальное хранилище с помощью команды "rgb import schemata/NonInflatableAssets.rgb".
+reviewed: false

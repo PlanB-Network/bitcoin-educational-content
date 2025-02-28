@@ -1,0 +1,14 @@
+question: Apa itu konsep preferensi waktu?
+answer: Preferensi waktu adalah evaluasi subjektif terhadap nilai barang masa depan dibandingkan dengan barang saat ini. Dengan asumsi semua hal lain sama, barang saat ini secara inheren lebih dipilih daripada barang masa depan.
+wrong_answers:
+  - Preferensi waktu adalah evaluasi objektif terhadap nilai barang masa depan dibandingkan dengan barang saat ini.
+  - Preferensi waktu adalah preferensi inheren untuk barang masa depan daripada barang saat ini.
+  - Preferensi waktu adalah evaluasi subjektif terhadap nilai barang saat ini dibandingkan dengan barang masa depan.
+explanation: |
+  Preferensi waktu adalah evaluasi subjektif terhadap nilai barang masa depan
+  dibandingkan dengan barang saat ini. Karena kita adalah makhluk fana, dan masa depan selalu tidak pasti,
+  kita secara alami lebih memilih untuk memiliki akses ke suatu barang sekarang daripada nanti. Meskipun preferensi waktu
+  dapat berbeda antar individu, karena berbagai faktor seperti budaya, kekayaan,
+  pendidikan, fisiologi, dll., preferensi waktu selalu positif, artinya
+  dengan asumsi semua hal lain sama, kita selalu menghargai barang saat ini lebih dari barang masa depan.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Co znamená onion routing v Lightning Network?
+answer: Znamená to, že každý mezilehlý uzel zná pouze své bezprostřední sousedy na cestě.
+wrong_answers:
+  - Přímý přenos prostředků z uzlu na uzel s vědomím konečného příjemce
+  - Vypočítat poplatky pro každý mezilehlý uzel nezávisle
+  - Poslat prostředky všem uzlům na cestě současně
+explanation: |
+  Onion routing znamená, že každý mezilehlý uzel zná pouze předchozí a následující uzel, čímž se zachovává důvěrnost konečného příjemce.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mitä sipulireititys Lightning-verkossa tarkoittaa?
+answer: Se tarkoittaa, että jokainen välisolmu tuntee vain välittömät naapurinsa polulla.
+wrong_answers:
+  - Välittää varoja suoraan solmulta solmulle tietäen lopullisen vastaanottajan
+  - Laskea maksut jokaiselle välisolmulle itsenäisesti
+  - Lähettää varoja kaikille polun solmuille samanaikaisesti
+explanation: |
+  Sipulireititys tarkoittaa, että jokainen välisolmu tuntee vain edellisen ja seuraavan solmun, säilyttäen näin lopullisen vastaanottajan luottamuksellisuuden.
+reviewed: false

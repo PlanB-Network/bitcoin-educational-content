@@ -1,0 +1,9 @@
+question: Quelle est la taille de la graine générée par PBKDF2 ?
+answer: 512 bits
+wrong_answers:
+  - 128 bits
+  - 256 bits
+  - Variable selon la longueur de la phrase mnémonique
+explanation: |
+  Quelle que soit la longueur de la phrase mnémonique, PBKDF2 génère toujours une graine de 512 bits.
+reviewed: false

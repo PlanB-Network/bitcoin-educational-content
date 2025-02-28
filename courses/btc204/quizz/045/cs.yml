@@ -1,0 +1,13 @@
+question: Jaký je hlavní cíl BIP47?
+
+answer: Mít jedinečný identifikátor pro přijímání BTC bez opakovaného používání adres.
+
+wrong_answers:
+  - Zvětšit velikost bloků pro rychlejší transakce.
+  - Umožnit transakce bez poplatků na síti Bitcoin.
+  - Udělat transakce na Bitcoinu zcela anonymní.
+
+explanation: |
+  Cílem BIP47 je poskytnout jedinečný identifikátor, který umožňuje opakovaně přijímat bitcoiny od více lidí, ale bez opakovaného používání adres, jelikož je to velmi špatná praxe z hlediska soukromí uživatele.
+
+  kontrolováno: false

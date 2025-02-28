@@ -1,0 +1,9 @@
+question: In che modo il capitale creato artificialmente dalla moneta a debito differisce dal capitale di tipo austriaco?
+answer: Il capitale di tipo austriaco deriva da risparmi e sacrifici reali, mentre il capitale basato sul debito viene creato istantaneamente dal credito e può distorcere i segnali economici.
+wrong_answers:
+  - Il capitale di tipo austriaco viene generato stampando più denaro ogni volta che è necessario.
+  - Il capitale di debito non deve mai essere rimborsato ed è equivalente a un risparmio reale.
+  - Non c'è alcuna differenza: entrambe le forme di capitale sono identiche per natura ed effetto.
+explanation: |
+  Il capitale austriaco emerge da un consumo effettivamente rinunciato e da investimenti accurati. Il capitale basato sul debito, creato facilmente attraverso i prestiti, può ingannare gli imprenditori e portare a investimenti inefficienti, poiché non riflette il vero risparmio o le preferenze dei consumatori.
+reviewed: false

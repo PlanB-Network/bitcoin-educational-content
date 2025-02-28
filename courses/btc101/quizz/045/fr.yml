@@ -1,0 +1,13 @@
+question: Quelle est une caractéristique clé de Bitcoin qui le différencie des monnaies fiduciaires ?
+answer: Sa politique monétaire est appliquée par un consensus général.
+wrong_answers:
+  - Il peut être imprimé en quantités illimitées par les banques centrales.
+  - Il est soutenu par une marchandise physique comme l'or ou l'argent.
+  - Il est régulé par une banque centrale.
+explanation: |
+  En raison de sa nature décentralisée et cryptographique,
+  Bitcoin ne peut pas être falsifié et est limité à 21 millions
+  d'unités. C'est une caractéristique clé qui le différencie
+  des monnaies fiduciaires, qui suivent une politique monétaire qui peut être
+  modifiée par les banques centrales.
+reviewed: true

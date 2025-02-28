@@ -1,0 +1,9 @@
+question: O que é que uma consignação em RGB contém?
+answer: Os dados do lado do cliente necessários para validar uma transição
+wrong_answers:
+  - Uma cópia completa da cadeia de blocos da Bitcoin
+  - Uma lista dos compromissos públicos da Bitcoin
+  - Chaves públicas dos participantes na transição de estado
+explanation: |
+  A consignação inclui a informação RGB que permite ao recetor validar a transição de estado de acordo com as regras do contrato.
+reviewed: false

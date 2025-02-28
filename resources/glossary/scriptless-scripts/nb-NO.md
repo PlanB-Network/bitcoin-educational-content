@@ -1,0 +1,5 @@
+---
+term: SKRIPTLØSE SKRIPT
+
+---
+Dette konseptet ble opprinnelig utviklet av Andrew Poelstra, og gjør det mulig å utføre smartkontrakter uten å eksponere kontraktens logikk eksplisitt på Bitcoin-blokkjeden. Som navnet "scriptless scripts" antyder, er ideen basert på å utføre skript (eller kontrakter) uten eksplisitt bruk av skript. Disse kontraktene utnytter egenskapene til Schnorr-signaturer, som muliggjør bruk av *Adaptor Signatures*, særlig for å gjennomføre *Atomic Swaps*. Kontraktsvilkårene brukes og utføres utenfor kjeden av de involverte partene, som er de eneste som kjenner til vilkårene. I motsetning til tradisjonelle smartkontrakter minimerer *Scriptless Scripts* fotavtrykket sitt på blokkjeden, og reduserer dermed driftskostnadene. Disse kontraktene er også mer diskrete enn tradisjonelle smartkontrakter, som etterlater seg spor i blokkjeden. Dermed ligner de på vanlige transaksjoner, noe som øker anonymiteten deres.

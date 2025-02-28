@@ -1,9 +1,0 @@
-question: Qual é uma das principais características do protocolo Bitcoin?
-answer: Ele é neutro em relação a todos os seus usuários.
-wrong_answers:
-  - Favorece certos usuários em relação a outros.
-  - É tendencioso em relação a certos usuários.
-  - Beneficia apenas um grupo seleto de usuários.
-explanation: |
-  O texto menciona que o protocolo Bitcoin é neutro em relação a todos os seus usuários.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Wer initiiert den Prozess des Öffnens eines Kanals im Lightning-Netzwerk?
-answer: Alice
-wrong_answers:
-  - Bob
-  - Sowohl Alice als auch Bob
-  - Weder Alice noch Bob
-explanation: |
-  Im Prozess des Öffnens eines Kanals im Lightning-Netzwerk ist Alice diejenige, die den Prozess initiiert. Sie teilt Bob ihre Absicht mit, einen Kanal zu öffnen, und Bob antwortet mit seiner öffentlichen Adresse.
-reviewed: false

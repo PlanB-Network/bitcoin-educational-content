@@ -1,0 +1,9 @@
+question: Miten velkapohjaisesta rahasta keinotekoisesti luotu pääoma eroaa itävaltalaistyylisestä pääomasta?
+answer: Itävaltalaistyylinen pääoma on peräisin todellisista säästöistä ja uhrauksista, kun taas velkapohjainen pääoma syntyy välittömästi luotosta ja voi vääristää taloudellisia signaaleja.
+wrong_answers:
+  - Itävaltalaistyylinen pääoma luodaan painamalla lisää rahaa aina tarvittaessa.
+  - Velkapääoma ei koskaan vaadi takaisinmaksua, ja se vastaa todellisia säästöjä.
+  - Ei ole mitään eroa; molemmat pääoman muodot ovat luonteeltaan ja vaikutuksiltaan samanlaisia.
+explanation: |
+  Itävaltalainen pääoma syntyy todellisesta kulutuksesta luopumisesta ja huolellisista investoinneista. Velkaan perustuva pääoma, joka syntyy helposti lainojen avulla, voi johtaa yrittäjiä harhaan ja johtaa tehottomiin investointeihin, koska se ei heijasta todellista säästämistä tai kuluttajien mieltymyksiä.
+reviewed: false

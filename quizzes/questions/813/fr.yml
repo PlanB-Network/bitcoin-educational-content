@@ -1,9 +1,0 @@
-question: Quelle est la règle d'or pour se protéger des courriels frauduleux ?
-answer: Vérifiez attentivement le nom complet de l'expéditeur ainsi que l'origine du courriel.
-wrong_answers:
-  - Répondez toujours aux courriels suspects.
-  - Ouvrez toutes les pièces jointes pour vérifier leur contenu.
-  - Ne partagez vos informations personnelles qu'avec des expéditeurs connus.
-explanation: |
-  La règle d'or pour se protéger des courriels frauduleux est de vérifier attentivement le nom complet de l'expéditeur ainsi que l'origine du courriel. En cas de doute, supprimez-le !
-reviewed: false

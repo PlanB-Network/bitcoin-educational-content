@@ -1,9 +1,0 @@
-question: Que suggère le texte sur le rythme d'apprentissage du Bitcoin ?
-answer: Il est compliqué d'assimiler tout en une fois, donc prenez votre temps.
-wrong_answers:
-  - Il est facile d'apprendre tout en une fois.
-  - Il est impossible d'apprendre tout sur le Bitcoin.
-  - Il est inutile d'apprendre tout sur le Bitcoin.
-explanation: |
-  Le texte suggère qu'il y a tellement de choses à explorer avec le Bitcoin qu'il est compliqué d'assimiler tout en une fois, donc il faut prendre son temps.
-reviewed: false

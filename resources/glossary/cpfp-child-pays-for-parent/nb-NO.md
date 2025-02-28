@@ -1,0 +1,7 @@
+---
+term: CPFP (BARN BETALER FOR FORELDER)
+
+---
+En transaksjonsmekanisme som tar sikte på å akselerere bekreftelsen av en Bitcoin-transaksjon, på samme måte som Replace-by-Fee (RBF) gjør, men fra mottakerens side. Når en transaksjon med for lave gebyrer sammenlignet med markedet blir stående fast i nodenes mempools og ikke bekreftes raskt nok, kan mottakeren foreta en ny transaksjon og bruke bitcoinsene som ble mottatt i den blokkerte transaksjonen, selv om den ennå ikke er bekreftet. Denne andre transaksjonen krever nødvendigvis at den første utvinnes for å bli bekreftet. Utvinnere er dermed tvunget til å inkludere begge transaksjonene sammen. Den andre transaksjonen vil gi mye mer i transaksjonsgebyr enn den første, slik at det gjennomsnittlige gebyret oppmuntrer utvinnere til å inkludere begge transaksjonene. Barnetransaksjonen (den andre) betaler for foreldretransaksjonen som sitter fast (den første). Dette er grunnen til at det kalles en "CPFP"
+
+CPFP gjør det dermed mulig for mottakeren å få pengene sine raskere til tross for de lave startgebyrene som påløper hos avsenderen, i motsetning til RBF (*Replace-By-Fee*), som lar avsenderen ta initiativ til å fremskynde sin egen transaksjon ved å øke gebyrene.

@@ -1,0 +1,8 @@
+title: "Salaman Hallinta"
+publication_year: 2020
+cover: cover_en.webp
+original: true
+description: |
+  "Salaman Hallinta" kirjoittanut Andreas M. Antonopoulos ja René Pickhardt on keskitason kirja Lightning-verkosta, joka on Bitcoinin kerros 2 skaalausratkaisu. Kirja käsittelee teknisiä yksityiskohtia siitä, miten Lightning-verkko toimii, sekä sen mahdollista vaikutusta Bitcoinin skaalautuvuuteen ja yksityisyyteen. Kirjoittajat tarjoavat vaiheittaiset ohjeet Lightning-solmun pystyttämiseen ja Lightning-lompakoiden käyttöön, ja he keskustelevat myös teknologian sosiaalisista ja taloudellisista vaikutuksista. Kaiken kaikkiaan kirja on arvokas resurssi kenelle tahansa, joka on kiinnostunut ymmärtämään Lightning-verkon ja sen roolin Bitcoinin tulevaisuudessa.
+contributors:
+  - rabbit-hole

@@ -1,0 +1,9 @@
+question: Millest koosneb õnn Rooma filosoofi Seneca järgi?
+answer: Vooruse praktiseerimisest
+wrong_answers:
+  - Rikkus
+  - Nauding
+  - Kõik eelnevad
+explanation: |
+  Seneca jaoks peitub tõeline õnn vooruse praktiseerimises, mis võimaldab inimesel elada kooskõlas mõistusega ja saavutada kestva sisemise rahu, sõltumata naudingutest või rikkusest.
+reviewed: false

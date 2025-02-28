@@ -1,0 +1,9 @@
+question: Quais são os principais componentes necessários para executar um nó Lightning compatível com RGB?
+answer: Um bitcoind, um indexador e um servidor proxy RGB
+wrong_answers:
+  - Um nó do Lightning, um indexador e um servidor IPFS
+  - Uma carteira móvel RGB, um servidor proxy RGB e um bitcoind
+  - Cliente Web, indexador e servidor proxy RGB
+explanation: |
+  Para executar um nó Lightning habilitado para RGB, é necessário um nó bitcoind para interagir com o blockchain Bitcoin, um indexador para minerar transações na cadeia e um servidor proxy RGB para facilitar a troca de remessas entre pares.
+reviewed: false

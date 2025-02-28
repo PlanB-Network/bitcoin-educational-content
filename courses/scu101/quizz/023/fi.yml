@@ -1,0 +1,10 @@
+question: Mikä on vahvan salasanan käytön merkitys tietokoneen turvallisuudessa?
+answer: Estääkseen luvattoman pääsyn järjestelmään.
+wrong_answers:
+  - Nopeuttaakseen järjestelmän toimintaa.
+  - Lisätäkseen tallennuskapasiteettia.
+  - Parantaakseen käyttöliittymää.
+explanation: |
+  Vahva salasana on ratkaisevan tärkeä tietokoneen turvallisuudelle
+  estääkseen luvattoman pääsyn järjestelmään.
+reviewed: true

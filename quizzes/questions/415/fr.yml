@@ -1,9 +1,0 @@
-question: Quel est le rôle de l'opérateur AND dans la fonction de compression de SHA256?
-answer: Pour retourner 1 uniquement si les deux opérandes sont égaux à 1
-wrong_answers:
-  - Pour traiter les bits un par un selon leur rang
-  - Pour retourner la valeur opposée d'un opérande
-  - Pour décaler les bits vers la droite d'un nombre choisi
-explanation: |
-  Dans la fonction de compression de SHA256, l'opérateur AND est utilisé pour retourner 1 uniquement si les deux opérandes sont égaux à 1. Cela est fait en utilisant une table de vérité.
-reviewed: false

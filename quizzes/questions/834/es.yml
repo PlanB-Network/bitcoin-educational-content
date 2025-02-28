@@ -1,9 +1,0 @@
-question: ¿Cuál es la ventaja de las contraseñas de un solo uso (HOTP y TOTP) sobre los mensajes de texto (SMS) para la autenticación de dos factores (2FA)?
-answer: Requieren cálculos criptográficos y se almacenan localmente en lugar de en la memoria.
-wrong_answers:
-  - Son más rápidas
-  - Son más baratas
-  - Son más fáciles de recordar
-explanation: |
-  Las contraseñas de un solo uso (HOTP y TOTP) son más seguras que los mensajes de texto (SMS) porque requieren cálculos criptográficos y se almacenan localmente en lugar de en la memoria.
-reviewed: false

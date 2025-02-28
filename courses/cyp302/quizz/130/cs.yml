@@ -1,0 +1,9 @@
+question: Jakou roli hrají certifikační autority v procesu distribuce veřejných klíčů?
+answer: Vydávají certifikáty, které zaručují autentičnost veřejných klíčů
+wrong_answers:
+  - Generují soukromé klíče pro uživatele
+  - Uchovávají veřejné klíče pro všechny uživatele
+  - Zajišťují šifrování zpráv mezi uživateli
+explanation: |
+  Certifikační autority vydávají certifikáty, které spojují veřejný klíč s jeho majitelem, což uživatelům umožňuje ověřit autentičnost veřejných klíčů, které používají.
+reviewed: false

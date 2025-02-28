@@ -1,0 +1,10 @@
+question: Что такое BitcoinTalk?
+answer: Место обсуждения для пользователей Bitcoin
+wrong_answers:
+  - Программное обеспечение для майнинга Bitcoin
+  - Биткойн-кошелек
+  - Конференция по Bitcoin
+explanation: |
+  Форум BitcoinTalk - это место обсуждения для пользователей Bitcoin. Он
+  был создан Сатоши Накамото 22 ноября 2009 года.
+reviewed: true

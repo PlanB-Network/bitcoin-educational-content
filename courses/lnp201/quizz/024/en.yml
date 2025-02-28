@@ -1,0 +1,9 @@
+question: What is the combined effect of the timelock and the revocation key on commitment transactions?
+answer: They deter participants from cheating by offering an immediate punishment
+wrong_answers:
+  - They reduce the channel's capacity in case of cheating
+  - They automatically lock the funds of the guilty party
+  - They force the opening of a new channel if the transaction is incorrect
+explanation: |
+  The timelock and the revocation key deter participants from cheating by ensuring that any attempt to cheat results in an immediate loss of funds for the guilty party.
+reviewed: false

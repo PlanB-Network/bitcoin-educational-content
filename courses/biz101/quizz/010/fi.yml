@@ -1,0 +1,9 @@
+question: Miten Lightning Network auttaa vähentämään Bitcoin-tapahtumien maksuja?
+answer: Suorittamalla useimmat transaktiot ketjun ulkopuolella ja julkaisemalla vain kanavan selvitystapahtumat päälohkoketjussa.
+wrong_answers:
+  - Poistamalla kaikki kryptografinen todentaminen maksuista.
+  - Keskittämällä valvonta yhteen suureen maksukeskukseen.
+  - Vaatimalla kauppiaita maksamaan kaikki verkkokustannukset etukäteen.
+explanation: |
+  Koska Lightning-tapahtumat tapahtuvat ketjun ulkopuolella, vain lopulliset kanavatilat kirjataan Bitcoin-lohkoketjuun. Tämä vähentää ruuhkautumista ja siten alentaa maksuja, koska vältytään tekemästä monia ketjussa tapahtuvia transaktioita.
+reviewed: false

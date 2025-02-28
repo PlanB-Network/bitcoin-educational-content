@@ -1,0 +1,8 @@
+question: Kapan transaksi komitmen dipublikasikan di blockchain Bitcoin?
+answer: Akhirnya ketika saluran ditutup
+wrong_answers:
+  - Segera setelah setiap transfer dalam saluran
+  - Sebelum setiap transaksi komitmen baru
+  - Ketika dana yang tersedia habis
+explanation: |
+  Transaksi komitmen dibangun dan ditandatangani untuk setiap perubahan alokasi, tetapi mereka hanya akhirnya dipublikasikan di blockchain dalam kejadian penutupan saluran.

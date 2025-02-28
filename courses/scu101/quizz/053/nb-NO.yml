@@ -1,0 +1,8 @@
+question: Hvorfor anses biometriske data som mindre sikre enn kombinasjonen av kunnskap og besittelse for 2FA?
+answer: Biometriske data bør forbli på autentiseringsenheten og ikke avsløres på nettet.
+wrong_answers:
+  - Biometriske data er lettere å forfalske
+  - Biometriske data er vanskeligere å huske
+  - Biometriske data er dyrere å implementere
+explanation: |
+  Biometriske data anses som mindre sikre fordi de bør forbli på autentiseringsenheten og ikke avsløres på nettet. Hvis de blir avslørt på nettet, kan de bli stjålet og brukt for uautorisert tilgang.

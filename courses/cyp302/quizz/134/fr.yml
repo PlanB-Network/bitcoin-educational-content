@@ -1,0 +1,9 @@
+question: Quel est l'objectif principal de la cryptographie asymétrique dans le cadre de la communication entre Alice et Bob ?
+answer: Permettre à Bob de transmettre un message secret à Alice en utilisant sa clé publique
+wrong_answers:
+  - Permettre à Bob de chiffrer et déchiffrer les messages sans clé publique
+  - Empêcher Alice de déchiffrer les messages de Bob
+  - Permettre à Alice de chiffrer le message pour vérifier son intégrité
+explanation: |
+  En cryptographie asymétrique, la clé publique d'Alice permet à Bob d'envoyer un message chiffré qu'elle seule peut déchiffrer, garantissant ainsi la confidentialité du message.
+reviewed: false

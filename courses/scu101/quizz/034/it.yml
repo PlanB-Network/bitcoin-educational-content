@@ -1,0 +1,11 @@
+question: Quali contenuti dannosi possono contenere gli allegati e le immagini delle email?
+answer: Malware
+wrong_answers:
+  - Spam
+  - Pubblicità
+  - Contenuti promozionali
+explanation: |
+  Gli allegati e le immagini delle email possono contenere malware.
+  Pertanto, non dovresti scaricare o aprire allegati provenienti da
+  mittenti sconosciuti o sospetti.
+reviewed: true

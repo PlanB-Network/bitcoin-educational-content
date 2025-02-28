@@ -1,9 +1,0 @@
-question: Was ist ein gültiger "Hash" im Zusammenhang mit dem Mining eines Blocks im Bitcoin-Netzwerk?
-answer: Ein eindeutiger Fingerabdruck, der mit dem Block verbunden ist und aus 256 Zeichen besteht.
-wrong_answers:
-  - Ein eindeutiger Code, der verwendet wird, um auf den Block zuzugreifen.
-  - Ein eindeutiges Passwort, das zum Mining des Blocks erforderlich ist.
-  - Eine eindeutige Kennung für den Miner, der den Block gemined hat.
-explanation: |
-  Im Zusammenhang mit dem Mining eines Blocks im Bitcoin-Netzwerk ist ein gültiger "Hash" ein eindeutiger Fingerabdruck, der mit dem Block verbunden ist und aus 256 Zeichen besteht. Die Gültigkeit dieses Hashes hängt von der Schwierigkeit des Bitcoin-Netzwerks ab.
-reviewed: false

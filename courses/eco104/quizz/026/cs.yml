@@ -1,0 +1,12 @@
+question: Co je blockchainové trilema v oblasti kryptoměn?
+answer: Kompromis mezi škálovatelností, bezpečností a decentralizací u kryptoměn
+wrong_answers:
+  - Charakteristika Bitcoinu, která dává přednost decentralizaci a bezpečnosti před škálovatelností
+  - Obtížnost určení trajektorie a hodnot kryptoměn
+  - Omezení technologie Bitcoinu ve srovnání s ostatními kryptoměnami
+explanation: |
+  Koncept blockchainového trilematu spočívá v myšlence, že kryptoměny 
+  musí dát přednost dvěma ze tří důležitých charakteristik; škálovatelnost, 
+  bezpečnost a decentralizace. Bitcoin dává přednost decentralizaci a bezpečnosti, 
+  což ovlivňuje jeho škálovatelnost, ale dosahuje toho prostřednictvím alternativních způsobů.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Wie wird die Sicherheit eines RGB-Übergangs in einem Lightning-Kanal gewährleistet, wenn ein veralteter Zustand übertragen wird?
+answer: Durch die Bestrafungsmechanismen des Blitzkanals
+wrong_answers:
+  - Durch die automatische Stornierung aller früheren Transaktionen
+  - Durch die Bestrafungsmechanismen des RGB-Protokolls
+  - Durch das Eingreifen des Emittenten des RGB-Vermögenswertes über seine mit der Genesis verbundene Signatur
+explanation: |
+  Der klassische Strafmechanismus des Lightning Network stellt sicher, dass die Verbreitung eines alten Zustands durch die Rückforderung aller beteiligten Gelder, einschließlich der RGB-Gelder, bestraft werden kann.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Platební lišty postavené nad tradičními měnovými systémy jsou ?
+answer: V podstatě je platí obchodníci prostřednictvím poplatků zpracovatelů plateb
+wrong_answers:
+  - V podstatě zdarma, protože zákazník platí cenu zobrazenou obchodníkem
+  - Hrazeno zákazníkem nad rámec nabídkové ceny obchodníka
+  - Platí je karetní společnosti, které údaje zákazníků dále prodávají
+explanation: |
+  Nic není zadarmo. Platební koleje zabudované v tradičních měnových systémech provozují různí dodavatelé, jako jsou karetní společnosti a acquiringové banky, které si za každou transakci účtují pevný poplatek a/nebo procentní poplatek
+reviewed: false

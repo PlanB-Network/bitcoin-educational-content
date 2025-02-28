@@ -1,0 +1,11 @@
+question: Existe um caso histórico de uma taxa diária de inflação equivalente a 100%; onde e quando isso aconteceu?
+answer: No Zimbábue, 2007.
+wrong_answers:
+  - Na Hungria, 1945.
+  - Na China, 1940.
+  - Este é na verdade um caso irrealista que não pode acontecer.
+explanation: |
+  Uma taxa de inflação de 100% por dia é um cenário realista que
+  aconteceu no Zimbábue em 2007, onde o valor do dinheiro
+  dobrava aproximadamente a cada 24 horas.
+reviewed: true

@@ -1,0 +1,13 @@
+question: What is the main goal of the ricochet technique?
+
+answer: To blur the traces of a coin's past
+
+wrong_answers:
+  - To increase the prospective anonset of transactions
+  - To increase the entropy of a transaction
+  - To pay less in transaction fees in the future
+
+explanation: |
+  The goal of a ricochet is to simulate a change of ownership of a Bitcoin coin in order to restore its fungibility by blurring its past marks.
+
+reviewed: false

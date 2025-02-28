@@ -1,0 +1,9 @@
+question: Který příkaz v RLN nainstaluje binární soubor "rgb-lightning-node" po naklonování úložiště?
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  Příkaz "cargo install --locked --debug --path ." zkompiluje a nainstaluje binární soubor "rgb-lightning-node".
+reviewed: false

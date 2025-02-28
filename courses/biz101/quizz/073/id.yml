@@ -1,0 +1,9 @@
+question: Apa yang memungkinkan sinkronisasi data secara real-time antara sistem Enterprise Bitcoin dan perangkat lunak ERP?
+answer: API
+wrong_answers:
+  - File CSV
+  - Unggahan batch
+  - Laporan email
+explanation: |
+  API memungkinkan integrasi real-time yang berkelanjutan.
+reviewed: false

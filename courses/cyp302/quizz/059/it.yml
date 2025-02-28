@@ -1,0 +1,9 @@
+question: Quale matematico francese ha introdotto il concetto di gruppi nel XIX secolo?
+answer: Évariste Galois
+wrong_answers:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+explanation: |
+  Évariste Galois ha sviluppato la teoria dei gruppi per studiare le soluzioni delle equazioni polinomiali di grado superiore a cinque.
+reviewed: false

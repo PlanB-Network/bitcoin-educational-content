@@ -1,0 +1,9 @@
+question: Qual è l'idea centrale di Margaret Thatcher riguardo alla curva di Laffer?
+answer: Le tasse dovrebbero essere ridotte per stimolare l'economia
+wrong_answers:
+  - Le tasse sui ricchi dovrebbero essere aumentate
+  - Le aliquote fiscali elevate dovrebbero essere mantenute per finanziare i servizi pubblici
+  - Tutte le tasse dovrebbero essere mantenute
+explanation: |
+  Ispirata dalla curva di Laffer, Margaret Thatcher sosteneva la riduzione delle tasse per stimolare la crescita economica.
+reviewed: false

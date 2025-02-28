@@ -1,0 +1,10 @@
+question: What is a unique characteristic of the Bitcoin protocol?
+answer: It operates on a global scale, 24 hours a day, 7 days a week.
+wrong_answers:
+  - It only operates during business hours.
+  - It is controlled by a central authority.
+  - It can be easily hacked.
+explanation: >-
+  The Bitcoin protocol is unique in that it operates on a global scale,
+  24 hours a day, 7 days a week, making regulation difficult for financial authorities.
+reviewed: true

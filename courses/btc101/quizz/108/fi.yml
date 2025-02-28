@@ -1,0 +1,11 @@
+question: Mikä on Bitcoin-lompakon tarkoitus?
+answer: Säilyttää yksityisiä avaimia, jotta voi suorittaa bitcoin-siirtoja.
+wrong_answers:
+  - Käyttää laitteen resursseja bitcoinien louhimiseen.
+  - Ostaa bitcoineja julkisen avaimen kautta.
+  - Säilyttää bitcoineja laitteella.
+explanation: |
+  Bitcoin-lompakot ovat tyyppiä ohjelmisto, jota käytetään
+  säilyttämään yksityisiä avaimia, jotka mahdollistavat
+  bitcoiniesi siirtämisen.
+reviewed: true

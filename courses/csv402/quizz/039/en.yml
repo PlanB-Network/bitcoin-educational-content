@@ -1,0 +1,9 @@
+question: Which command exports a contract from the stash to an external file?
+answer: rgb export '<ContractId>' myContractPBN.rgb
+wrong_answers:
+  - rgb download '<ContractId>' myContractPBN.rgb
+  - rgb dump '<ContractId>' myContractPBN.rgb
+  - rgb issue '<ContractId>' myContractPBN.rgb
+explanation: |
+  The "rgb export" command is used to extract a contract from the stash and save it as a file for easy sharing.
+reviewed: false

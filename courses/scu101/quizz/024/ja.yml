@@ -1,0 +1,9 @@
+question: 異なるオペレーティングシステムでのデータ暗号化の解決策には何がありますか？
+answer: WindowsにはBitLocker、LinuxにはLUKS、Macには組み込みオプションがあります。
+wrong_answers:
+  - LinuxにはBitLocker、MacにはLUKS、Windowsには組み込みオプションがあります。
+  - MacにはBitLocker、WindowsにはLUKS、Linuxには組み込みオプションがあります。
+  - すべてのオペレーティングシステムにLUKSがあります。
+explanation: |
+  異なるオペレーティングシステムには、データ暗号化のための異なる解決策があります。WindowsにはBitLockerが、LinuxにはLUKSが、そしてMacにはデータ暗号化のための組み込みオプションがあります。
+reviewed: true

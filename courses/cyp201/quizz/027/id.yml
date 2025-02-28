@@ -1,0 +1,9 @@
+question: Apa kerentanan tanda tangan ECDSA yang diperbaiki oleh SegWit?
+answer: Malleability (Kemudahan Perubahan Bentuk)
+wrong_answers:
+  - Verifikasi Batch
+  - Kurangnya agregasi
+  - Ukuran tanda tangan yang berlebihan
+explanation: |
+  SegWit memperbaiki malleability (kemudahan perubahan bentuk) dari tanda tangan ECDSA, memungkinkan penggunaan seperti Lightning Network.
+ditinjau: false

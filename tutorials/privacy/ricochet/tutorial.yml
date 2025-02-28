@@ -1,12 +1,97 @@
-builder: Ricochet
+id: e0bb1afe-becd-44a6-a940-88a463756589
+builder: Samourai
 
-tags:
-  - privacy
-  - Samourai
-
-category: bitcoin
+category: on-chain
 
 level: advanced
 
 credits:
   professor: pretty-private
+
+# Proofreading metadata
+project_id: f8ab03d0-0308-4ac1-a223-9c8e7600ff63
+original_language: fr
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.02
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.06
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.06
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.04
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.02
+  - language: fr
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 1.03
+  - language: it
+    last_contribution_date: 2024-09-24
+    urgency: 1
+    contributors_id:
+      - TinF0ilHat1
+    reward: 1.52
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5.98
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.06
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.02
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5.98
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.02
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5.0
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5.0
+
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.02
+tags:
+  - protocols
+  - privacy
+  - guides

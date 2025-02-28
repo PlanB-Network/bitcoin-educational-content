@@ -1,0 +1,12 @@
+question: Quel est le chemin historique suivi par les institutions dans l'introduction des monnaies fiduciaires ?
+answer: Les dirigeants centralisent l'or et introduisent une nouvelle monnaie équivalente à l'or en valeur, qui est ensuite progressivement dévaluée.
+wrong_answers:
+  - Les dirigeants introduisent une nouvelle monnaie soutenue par l'or, qui est ensuite progressivement augmentée en valeur.
+  - Les dirigeants introduisent une nouvelle monnaie sans valeur intrinsèque, qui est ensuite progressivement augmentée en valeur.
+  - Les dirigeants introduisent une nouvelle monnaie soutenue par un panier de marchandises, qui est ensuite maintenue stable en valeur.
+explanation: |
+  Historiquement, les dirigeants ont centralisé l'or et introduit
+  une nouvelle monnaie équivalente en valeur à l'or. Cette nouvelle
+  monnaie est ensuite progressivement dévaluée, souvent sous le prétexte
+  d'être dans l'intérêt du peuple.
+reviewed: true

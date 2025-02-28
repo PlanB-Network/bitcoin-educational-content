@@ -1,0 +1,9 @@
+question: Khi một tuyến đường thanh toán thất bại do thiếu thanh khoản, nút gửi sẽ làm gì?
+answer: Nó sẽ thử một tuyến đường khác cho đến khi tìm được một tuyến đường hoạt động
+wrong_answers:
+  - Nó tự động gửi yêu cầu hoàn tiền cho người nhận
+  - Nó đóng kênh và tạo một kênh trực tiếp mới
+  - Nó yêu cầu các nút trung gian tăng thanh khoản của họ
+explanation: |
+  Khi một tuyến đường thất bại, nút gửi sẽ thử các tuyến đường thay thế khác cho đến khi tìm được một đường đi hoạt động, hoặc tất cả các lựa chọn đều được thử qua.
+reviewed: false

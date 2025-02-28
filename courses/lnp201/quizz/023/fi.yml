@@ -1,0 +1,9 @@
+question: Miksi Alice ja Bob vaihtavat salaisuuksiaan aiempien sitoumustapahtumien osalta?
+answer: Jotta kumpikin voi suojautua, jos toinen julkaisee vanhan tapahtuman
+wrong_answers:
+  - Lisätäkseen kanavan kapasiteettia
+  - Estääkseen toistensa pääsyn varoihin
+  - Jakamaan varat tasan
+explanation: |
+  Salaisuuksien vaihtaminen aiempien tapahtumien osalta mahdollistaa kummankin osapuolen rankaisemisen toista, jos yritetään huijata julkaisemalla vanha tapahtuma.
+reviewed: false

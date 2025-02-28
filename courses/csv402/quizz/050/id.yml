@@ -1,0 +1,9 @@
+question: Bagaimana komitmen kriptografi (melalui Taproot atau OP_RETURN) digunakan dalam RGB?
+answer: Mereka mengaitkan transisi status dalam blockchain
+wrong_answers:
+  - Mereka menyimpan data kontrak pada blockchain
+  - Mereka menggantikan validasi sisi klien dengan eksekusi kontrak pintar on-chain
+  - Mereka membuat node untuk verifikasi transaksi
+explanation: |
+  Komitmen memungkinkan pembaruan status ditautkan dengan aman ke UTXO, untuk membuktikan keberadaan informasi tertentu pada waktu tertentu, tanpa mengungkapkan informasi itu sendiri.
+reviewed: false

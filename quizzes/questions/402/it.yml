@@ -1,9 +1,0 @@
-question: Qual è il principio dei cassetti nel contesto delle funzioni di hash crittografiche?
-answer: Spiega perché, nonostante i nostri migliori sforzi, è impossibile evitare le collisioni a causa della limitazione della dimensione dell'output.
-wrong_answers:
-  - Spiega il meccanismo di archiviazione delle funzioni di hash.
-  - Descrive il processo di creazione di un hash.
-  - È un principio che spiega l'irreversibilità delle funzioni di hash.
-explanation: |
-  Il principio dei cassetti nel contesto delle funzioni di hash crittografiche spiega che a causa della limitazione della dimensione dell'output, è impossibile evitare le collisioni. Ciò è dovuto al fatto che ci sono più possibili input rispetto agli output, quindi alcuni input devono inevitabilmente condividere lo stesso output.
-reviewed: false

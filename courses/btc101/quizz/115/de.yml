@@ -1,0 +1,11 @@
+question: Wer war die erste Person, die dem Bitcoin-Netzwerk nach Satoshi Nakamoto beigetreten ist?
+answer: Hal Finney.
+wrong_answers:
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
+explanation: |
+  Hal Finney war die erste Person, die dem Bitcoin-Netzwerk
+  nach Satoshi Nakamoto selbst beigetreten ist. Er twitterte sogar Running
+  Bitcoin, um den Anlass zu markieren.
+reviewed: true

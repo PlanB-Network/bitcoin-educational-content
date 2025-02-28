@@ -1,0 +1,12 @@
+question: Mikä on hyperinflaatio?
+answer: Jyrkkä kasvu rahamäärässä.
+wrong_answers:
+  - Pieni kasvu rahamäärässä.
+  - Jyrkkä lasku rahamäärässä.
+  - Pieni lasku rahamäärässä.
+explanation: |
+  Hyperinflaatio on rahailmiö, jolle on ominaista
+  jyrkkä inflaation kasvu rahanpainamisen kautta
+  viranomaisten toimesta, mikä johtaa täydelliseen
+  luottamuksen menetykseen valuuttaa kohtaan.
+reviewed: true

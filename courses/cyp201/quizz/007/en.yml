@@ -1,0 +1,9 @@
+question: What is the main difference between ShR and RotR operations?
+answer: ShR shifts bits by adding zeros, RotR reinserts the shifted bits
+wrong_answers:
+  - ShR removes the shifted bits, RotR multiplies their value
+  - ShR shifts to the left, RotR shifts to the right
+  - ShR is a logical operation, RotR is arithmetic
+explanation: |
+  ShR shifts bits to the right by adding zeros, while RotR performs a circular rotation of the bits.
+reviewed: false

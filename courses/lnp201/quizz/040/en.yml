@@ -1,0 +1,9 @@
+question: What is the main role of the sending node in routing on the Lightning Network?
+answer: Calculate the complete route to the recipient
+wrong_answers:
+  - Store the liquidity information of all the network's channels
+  - Determine the transaction fees for each intermediary node
+  - Communicate directly with all intermediary nodes
+explanation: |
+  The sending node is responsible for calculating the entire route to the recipient, as intermediary nodes only know their immediate neighbor.
+reviewed: false

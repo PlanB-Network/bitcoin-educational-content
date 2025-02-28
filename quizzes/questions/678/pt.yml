@@ -1,9 +1,0 @@
-question: Quem paga as taxas de encerramento em um fechamento cooperativo?
-answer: A pessoa que abriu o canal.
-wrong_answers:
-  - A pessoa que fechou o canal.
-  - Ambas as partes igualmente.
-  - A pessoa com mais SAT no canal.
-explanation: |
-  Em um fechamento cooperativo, os dois pares concordam com um estado final do canal. A pessoa que abriu o canal paga as taxas de encerramento.
-reviewed: false

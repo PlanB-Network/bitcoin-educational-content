@@ -1,0 +1,9 @@
+question: Tại sao các loại script ít được sử dụng thường dễ được nhận diện hơn so với các script được sử dụng rộng rãi?
+answer: Bởi vì nhóm giao dịch sử dụng cùng một loại script nhỏ hơn.
+wrong_answers:
+  - Bởi vì chúng yêu cầu nhiều sự xác thực hơn từ các miner.
+  - Bởi vì chúng sử dụng các thuật toán mã hóa yếu hơn.
+  - Bởi vì chúng thường xuyên bị các nút mạng Bitcoin từ chối.
+explanation: |
+  Nếu tổng số nhóm giao dịch sử dụng cùng một loại script mà chúng ta đang ẩn nhỏ, chúng ta dễ dàng được nhận diện hơn trong một nhóm giao dịch rất lớn.
+reviewed: false

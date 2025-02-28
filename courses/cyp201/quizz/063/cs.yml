@@ -1,0 +1,9 @@
+question: Jaká informace není zahrnuta v rozšířeném klíči?
+answer: Historie transakcí klíče
+wrong_answers:
+  - Číslo indexu klíče
+  - Klíč (soukromý nebo veřejný)
+  - Kód řetězce
+explanation: |
+  Rozšířený klíč obsahuje pouze informace nezbytné pro odvození dceřiných klíčů, nikoli informace související s transakcemi.
+reviewed: false

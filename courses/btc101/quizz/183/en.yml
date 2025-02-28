@@ -1,0 +1,10 @@
+question: What is one reason why the price of Bitcoin can drop by 10%, 20%, or even 50% in just a few days?
+answer: Bullish and bearish market phases.
+wrong_answers:
+  - The number of people using the internet.
+  - The weather.
+  - The price of gold.
+explanation: >-
+  The price of Bitcoin is often characterized by significant volatility,
+  which can be influenced by market variations and bullish and bearish market phases.
+reviewed: true

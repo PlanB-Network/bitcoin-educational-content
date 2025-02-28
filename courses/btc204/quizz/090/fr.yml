@@ -1,0 +1,13 @@
+question: Quelle est la particularité des remixages dans Whirlpool par rapport à d'autres implémentations de coinjoin ?
+
+answer: Ils sont complètement gratuits.
+
+wrong_answers:
+  - Ils nécessitent seulement de payer les frais de minage.
+  - Ils sont limités à un par utilisateur.
+  - Ils nécessitent seulement de payer les frais de service.
+
+explanation: |
+  Les remixages Whirlpool sont à 100 % gratuits: aucuns frais de service additionnels ou frais de minage sont requis.
+
+reviewed: false

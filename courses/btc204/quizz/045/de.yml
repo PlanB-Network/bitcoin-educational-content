@@ -1,0 +1,13 @@
+question: Was ist das Hauptziel von BIP47?
+
+answer: Ein einzigartiges Identifikationsmerkmal bereitzustellen, um BTC zu empfangen, ohne Adressen wiederzuverwenden.
+
+wrong_answers:
+  - Die Größe von Blöcken zu erhöhen, um schnellere Transaktionen zu ermöglichen.
+  - Gebührenfreie Transaktionen im Bitcoin-Netzwerk zu ermöglichen.
+  - Transaktionen auf Bitcoin vollständig anonym zu machen.
+
+explanation: |
+  Das Ziel von BIP47 ist es, ein einzigartiges Identifikationsmerkmal bereitzustellen, das es ermöglicht, mehrmals und von mehreren Personen Bitcoins zu empfangen, aber ohne Adressen wiederzuverwenden, da dies eine sehr schlechte Praxis für die Privatsphäre der Nutzer ist.
+
+reviewed: false

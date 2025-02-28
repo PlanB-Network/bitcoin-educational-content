@@ -1,0 +1,9 @@
+question: Millist funktsiooni kasutatakse arvutamaks, mitu täisarvu, mis on väiksemad kui N, on N-ga vastastikku algarvulised?
+answer: Euleri fi-funktsioon
+wrong_answers:
+  - Euleri gammafunktsioon
+  - Euleri sigmafunktsioon
+  - Dirichleti beetafunktsioon
+explanation: |
+  Euleri fi-funktsioon määrab täisarvude arvu, mis on väiksemad kui N ja on N-ga vastastikku algarvulised, mis on keskne kontseptsioon krüptograafia teoreemides, mis põhinevad algarvudel.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Mis on HTTPS protokolli eesmärk?
+answer: See krüpteerib veebisaitidel andmeid, et tagada turvaline vahetus kasutaja ja veebisaidi vahel.
+wrong_answers:
+  - See võimaldab kasutajatel mööda minna geograafilistest piirangutest.
+  - See võimaldab kasutajatel blokeerida veebireklaame.
+  - See võimaldab kasutajatel kasutada internetti andmeid kasutamata.
+explanation: |
+  HTTPS protokolli kasutatakse andmete krüpteerimiseks veebisaitidel, tagades, et
+  andmevahetus kasutaja ja veebisaidi vahel on turvaline. See aitab kaitsta
+  kolmandate osapoolte poolt andmete pealtkuulamise eest.
+reviewed: false

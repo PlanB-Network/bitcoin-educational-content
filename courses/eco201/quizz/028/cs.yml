@@ -1,0 +1,9 @@
+question: Jaký je vztah mezi časovou preferencí a úrokovými sazbami v ekonomice s nemanipulovanými kapitálovými trhy?
+answer: Zvýšení úrokových sazeb je výsledkem relativního zvýšení poptávky po kapitálu ve srovnání s nabídkou, což ukazuje vyšší časové preference. Naopak, snížení úrokových sazeb nastává díky zvýšení úspor, což je zvýšení nabídky kapitálu, což ukazuje snížení časových preferencí.
+wrong_answers:
+  - Zvýšení úrokových sazeb naznačuje snížení časových preferencí, zatímco snížení úrokových sazeb naznačuje zvýšení časových preferencí.
+  - Časová preference a úrokové sazby jsou nepřímo propojené.
+  - Časová preference a úrokové sazby nemají přímý vztah.
+explanation: |
+  V ekonomice s nemanipulovanými kapitálovými trhy jsou referenční úrokové sazby určeny v bodě, kde se setkává nabídka a poptávka kapitálu. Tyto sazby tedy reprezentují stav časových preferencí celé ekonomiky. Zvýšení úrokové sazby je výsledkem relativního zvýšení poptávky po kapitálu ve srovnání s nabídkou, což ukazuje vyšší časové preference. Naopak, snížení úrokových sazeb nastává díky zvýšení úspor, což je zvýšení nabídky kapitálu, což ukazuje snížení časových preferencí.
+reviewed: false

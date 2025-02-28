@@ -1,0 +1,9 @@
+question: Mikä on pääongelma osittaisvarantojärjestelmässä?
+answer: Osittaisvarantojärjestelmän pääongelma on, että merkittävät nostot tietyltä pankilta voivat mahdollisesti johtaa sen konkurssiin.
+wrong_answers:
+  - Osittaisvarantojärjestelmän pääongelma on, että se estää pankkeja lainaamasta rahaa.
+  - Osittaisvarantojärjestelmän pääongelma on, että se vaatii pankkeja pitämään enemmän varantoja kuin mitä ne saavat talletuksina.
+  - Osittaisvarantojärjestelmän pääongelma on, että se estää pankkeja luomasta uutta rahaa.
+explanation: |
+  Osittaisvarantojärjestelmässä pankit pitävät vain osan tallettajiensa varoista varantona, lainaten loput. Jos monet asiakkaat samanaikaisesti ryntäävät nostamaan varojaan, pankilla ei ehkä ole tarpeeksi varantoja näiden vaatimusten täyttämiseen, mikä mahdollisesti johtaa konkurssiin.
+reviewed: false

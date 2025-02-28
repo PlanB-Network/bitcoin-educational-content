@@ -1,0 +1,11 @@
+---
+term: MINERAÇÃO EGOÍSTA
+
+---
+Estratégia (ou ataque) no sector mineiro, em que um mineiro ou um grupo de mineiros guarda intencionalmente blocos com uma prova de trabalho válida sem os transmitir imediatamente para a rede. O objetivo é manter uma vantagem sobre os outros mineiros em termos de prova de trabalho, o que potencialmente lhes permite extrair vários blocos seguidos e publicá-los todos de uma só vez, maximizando assim os seus ganhos.
+
+Por outras palavras, o grupo atacante de mineiros não extrai o último bloco validado por toda a rede, mas sim um bloco criado por eles próprios, que difere do validado pela rede. Este processo gera uma espécie de bifurcação secreta da cadeia de blocos, que permanece desconhecida de toda a rede até que esta cadeia alternativa ultrapasse potencialmente a cadeia de blocos honesta. Quando a cadeia secreta dos mineiros atacantes se torna mais longa (ou seja, contém mais trabalho acumulado) do que a cadeia honesta e pública, é então transmitida para toda a rede. Nessa altura, os nós da rede, que seguem a cadeia mais longa (com mais trabalho acumulado), sincronizar-se-ão com esta nova cadeia. Isto resulta numa reorganização.
+
+A mineração egoísta é problemática porque diminui a segurança do sistema ao desperdiçar parte do poder computacional da rede. Se for bem sucedida, também leva a reorganizações da cadeia de blocos, afectando assim a fiabilidade das confirmações de transacções para os utilizadores. Esta prática continua a ser arriscada para o grupo de mineiros atacante, uma vez que é frequentemente mais rentável minerar normalmente no último bloco conhecido publicamente do que afetar poder computacional a um fork secreto que provavelmente nunca ultrapassará a cadeia de blocos honesta. Quanto maior o número de blocos na reorganização, menor a probabilidade de sucesso do ataque.
+
+> ► *A tradução inglesa de "minage égoïste" é "selfish mining". Note-se que um ataque de mineração egoísta não deve ser confundido com um ataque de retenção de blocos.*

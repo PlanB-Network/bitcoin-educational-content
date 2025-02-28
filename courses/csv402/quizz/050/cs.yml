@@ -1,0 +1,9 @@
+question: Jak se v RGB používají kryptografické závazky (prostřednictvím Taproot nebo OP_RETURN)?
+answer: Ukotvují přechody mezi stavy v blockchainu
+wrong_answers:
+  - Ukládají data smlouvy do blockchainu
+  - Nahrazují ověřování na straně klienta prováděním chytrých smluv v řetězci
+  - Vytvářejí uzly pro ověřování transakcí
+explanation: |
+  Závazky umožňují bezpečně propojit aktualizace stavu s UTXO, aby bylo možné prokázat existenci určité informace v daném čase, aniž by byla odhalena samotná informace.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Co znamená 2FA?
+answer: Dvoufaktorová autentizace
+wrong_answers:
+  - Dvoufaktorová autorizace
+  - Dvouprvková autentizace
+  - Dvoufunkční autentizace
+explanation: |
+  2FA znamená Dvoufaktorová autentizace. Poskytuje další
+
+  vrstvu
+
+  zabezpečení vašich nejcitlivějších účtů.
+reviewed: false

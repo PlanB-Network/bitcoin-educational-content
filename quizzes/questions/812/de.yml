@@ -1,9 +1,0 @@
-question: Was ist eine einfache Lösung, um Ihre Daten vor Ransomware-Angriffen zu schützen?
-answer: Sichern Sie regelmäßig Ihre wichtigen Daten auf einem externen Speichergerät oder einem sicheren Online-Speicherdienst.
-wrong_answers:
-  - Installieren Sie mehrere Antivirenprogramme auf Ihrem Computer.
-  - Wechseln Sie regelmäßig Ihren Computer.
-  - Verwenden Sie ein öffentliches WLAN-Netzwerk.
-explanation: |
-  Durch regelmäßiges Sichern Ihrer Daten können Sie Ihre Daten im Falle eines Cyberangriffs oder Hardwareausfalls wiederherstellen, ohne wichtige Informationen zu verlieren.
-reviewed: false

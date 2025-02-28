@@ -1,0 +1,5 @@
+---
+term: BAKOVERKOMPATIBILITET
+
+---
+Refererer til evnen en oppdatering av protokollregler har til å opprettholde kompatibilitet med tidligere versjoner. Dette betyr at endringene er utformet på en slik måte at eldre noder (noder som kjører versjoner før regelendringen) fortsatt kan samhandle med nettverket og følge kjeden med mest akkumulert arbeid. Derfor er det viktig at de eldre nodene verken avviser de nye blokkene eller de nye transaksjonene. Bakoverkompatibilitet reduserer sannsynligheten for at en oppdatering vil fragmentere nettverket, slik at man unngår at noder deles inn i undergrupper på ulike kjeder. For å sikre kompatibilitet med tidligere versjoner av protokollen må en oppdatering gjøre de eksisterende reglene strengere eller innføre nye. Dette prinsippet definerer en "soft fork". Hvis en oppdatering derimot lemper på de eksisterende reglene eller fjerner noen av dem, vil den ikke være bakoverkompatibel. Dette vil være en "hard fork".

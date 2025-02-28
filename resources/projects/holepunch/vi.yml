@@ -1,0 +1,6 @@
+description: |
+  Holepunch là một nền tảng cho phép tạo ứng dụng không cần máy chủ sử dụng bộ sưu tập các module Javascript nhỏ của chúng tôi, Hypercore.
+
+  Bạn có thể xây dựng, cập nhật và mở rộng ứng dụng ngay từ laptop của mình. Các ứng dụng của chúng tôi, như công cụ giao tiếp Keet, là riêng tư và được mã hóa, đảm bảo an ninh dữ liệu. Với Holepunch, hãy tận hưởng quá trình phát triển và phân phối ứng dụng hiệu quả, được tăng cường bởi một cơ sở người dùng giúp ứng dụng của bạn mạnh mẽ hơn bằng cách tái lưu trữ nó. Chúng tôi đang cách mạng hóa việc phát triển ứng dụng với không có máy chủ, không có trung gian, chỉ có ứng dụng tốt hơn.
+contributors:
+  - rabbit-hole

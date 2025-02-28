@@ -1,0 +1,9 @@
+question: Quelle est la principale caractéristique de la multiplication scalaire sur les courbes elliptiques ?
+answer: Fonction à sens unique
+wrong_answers:
+  - Reversible facilement
+  - Basée sur la factorisation de nombres premiers
+  - Très longue à calculer
+explanation: |
+  La multiplication scalaire sur les courbes elliptiques est une fonction à sens unique, rendant impossible de retrouver la clé privée à partir de la clé publique.
+reviewed: false

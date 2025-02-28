@@ -1,0 +1,11 @@
+question: Hva er risikoen ved å dele den offentlige nøkkelen til en Bitcoin-lommebok?
+answer: Risiko for personvern
+wrong_answers:
+  - Risiko for å ødelegge Bitcoin-lommeboken
+  - Risiko for å miste Bitcoins
+  - Risiko for hacking av Bitcoin-lommeboken
+explanation: |
+  Å dele den offentlige nøkkelen innebærer risiko for personvern, men ikke for sikkerhet.
+  Dette er fordi den offentlige nøkkelen brukes til å generere Bitcoin-adresser og dermed motta
+  penger, men den representerer ikke eierskap til Bitcoins.
+reviewed: true

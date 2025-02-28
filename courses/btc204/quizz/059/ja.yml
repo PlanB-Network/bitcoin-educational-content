@@ -1,0 +1,13 @@
+question: Bitcoinにおけるアドレスの再利用の全体的な割合は、おおよそどのレベルですか？
+
+answer: 約50%
+
+wrong_answers:
+  - 約5%
+  - 約15%
+  - 約40%
+
+explanation: |
+  2010年代初頭から、Bitcoinにおけるアドレスの再利用の全体的な割合は約50%の周辺で変動しています。
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: 在闪电网络中，"RGB 状态转换 "代表什么？
+answer: 将更新的 RGB 资产分配纳入承诺交易
+wrong_answers:
+  - 多标识 2/2 onchain 的新状态
+  - 将更新的 RGB 资产分配纳入资金交易
+  - 用 HTLC 取代链上验证脚本
+explanation: |
+  RGB 状态转换使用承诺交易更新通道中 RGB 资产的分布。
+reviewed: false

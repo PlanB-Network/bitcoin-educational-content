@@ -1,0 +1,9 @@
+question: Chìa khóa thu hồi cho phép làm gì trong trường hợp gian lận?
+answer: Thu hồi toàn bộ số tiền bằng cách trừng phạt kẻ gian lận
+wrong_answers:
+  - Hủy bỏ giao dịch cam kết
+  - Gấp đôi khả năng của kênh
+  - Ngăn chặn mọi giao dịch tiếp theo trong kênh
+explanation: |
+  Chìa khóa thu hồi cho phép bên bị hại thu hồi toàn bộ số tiền trong trường hợp có sự cố gian lận được cố gắng thực hiện bởi bên kia.
+reviewed: false

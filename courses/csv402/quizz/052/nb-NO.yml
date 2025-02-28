@@ -1,0 +1,9 @@
+question: Hva er validering på klientsiden i RGB-protokollen?
+answer: Lokal verifisering av kontraktsdata og overganger
+wrong_answers:
+  - Utføre smartkontrakter direkte på Bitcoin-blokkjeden
+  - Bruk av sentraliserte noder for å validere transaksjoner
+  - Automatisk tilbakestilling av kontraktshistorikk i tilfelle avvik
+explanation: |
+  Validering på klientsiden gjør det mulig for hver enkelt deltaker å verifisere at de mottatte dataene er i samsvar med reglene som er definert i RGB-kontrakten.
+reviewed: false

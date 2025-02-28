@@ -1,0 +1,15 @@
+title: "Manual de mineração de Bitcoin"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  O primeiro livro da série, o Bitcoin Mining Handbook, começa com os princípios básicos
+  de mineração, explicando os incentivos da prova de trabalho, algumas dicas práticas para
+  e esclarecer um equívoco comum, explicando que
+  os mineiros NÃO estão a resolver problemas matemáticos complexos. Depois mergulha um pouco mais fundo,
+  abordando o surgimento de firmware personalizado para os mineiros, a importância do
+  Atualização do protocolo Stratum V2 e a vertente comercial da indústria mineira.
+  Por fim, o livro termina com uma seleção dos melhores memes mineiros dos primeiros tempos
+  2022.
+contributors:
+  - another-satoshi

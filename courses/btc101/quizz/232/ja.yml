@@ -1,0 +1,9 @@
+question: Bitcoinプロトコルにおけるブロックサイズはどのくらいですか？
+answer: 1MB。
+wrong_answers:
+  - 0.5MB。
+  - 2MB。
+  - 3MB。
+explanation: >-
+  Bitcoinプロトコルにおけるブロックサイズは1MBです。
+reviewed: true

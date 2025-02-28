@@ -1,0 +1,9 @@
+question: Se in una semplice transazione di pagamento lo stesso indirizzo viene utilizzato in un input e in uno dei 2 output, quale output rappresenta probabilmente il resto?
+answer: Quello con lo stesso indirizzo dell'input.
+wrong_answers:
+  - Quello con l'indirizzo più recente.
+  - Quello con un indirizzo diverso dall'input.
+  - Quello con un indirizzo sconosciuto.
+explanation: |
+  Se si verifica un riutilizzo dell'indirizzo all'interno della stessa transazione, è ragionevole supporre che l'utente possieda ancora l'UTXO associato. Pertanto, l'output con lo stesso indirizzo dell'input è probabilmente il resto.
+reviewed: false

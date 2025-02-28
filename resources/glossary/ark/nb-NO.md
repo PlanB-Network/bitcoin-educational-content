@@ -1,0 +1,5 @@
+---
+term: ARK
+
+---
+Ny tolagsprotokoll avduket av Burak i mai 2023. I likhet med Lightning Network er Ark et system som opererer på toppen av Bitcoins hovedblokkjede. Det vil muliggjøre betalinger i bitcoins utenfor kjeden på en rask, anonym og rimelig måte. Sammenlignet med Lightning krever ikke Ark innkommende likviditet for å motta betalinger, noe som forbedrer brukeropplevelsen betydelig. I tillegg tilbyr den personvern på samme måte som coinjoin-transaksjoner, mens Lightning er en relativt dårlig modell for å beskytte personvernet. Til slutt kan Ark også være ikke-interaktiv hvis Bitcoin blir utstyrt med klausuler. Burak kritiserer ofte Lightnings skalerbarhet på grunn av dens avhengighet av hovedkjeden, og foreslår at Ark i teorien kan romme hele verdens befolkning i selvforvaring. Selv om Ark kan bli sett på som en konkurrerende protokoll til Lightning Network, kan de to faktisk sameksistere. De kan til og med være komplementære. Det er imidlertid viktig å merke seg at Ark foreløpig bare er et konsept. Burak har ennå ikke avslørt koden for oppfinnelsen sin.

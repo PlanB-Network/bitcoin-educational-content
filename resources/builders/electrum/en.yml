@@ -1,6 +1,0 @@
-description: |
-  Electrum is a versatile Bitcoin wallet that prioritizes user safety and flexibility. 
-  
-  It supports multiple platforms including mobile, desktop, and command line interfaces. Your private keys are encrypted and kept on your device, ensuring that they're never exposed. Moreover, Electrum uses a secret phrase to allow the recovery of funds, and provides fast access to the Bitcoin blockchain via its server network. It supports offline "cold storage" to keep your private keys secure, and offers multisig capabilities to split permission for coin spending. Electrum also verifies all transactions in your history using Simplified Payment Verification (SPV), and allows third-party plugin integrations, like multisig services and hardware wallets.
-contributors:
-  - rabbit-hole

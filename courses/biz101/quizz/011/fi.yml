@@ -1,0 +1,9 @@
+question: Mitä etuja Lightning tarjoaa kauppiaille maksujen lopullisuuden osalta?
+answer: Lightning-maksut suoritetaan lähes välittömästi, mikä vähentää peruutusten tai petosten riskiä.
+wrong_answers:
+  - Se vaatii 24 tunnin odottelun, ennen kuin varat voidaan käyttää.
+  - Sen avulla asiakkaat voivat periä maksunsa takaisin milloin tahansa.
+  - Sen ansiosta liiketoimet ovat täysin peruutettavissa jopa 90 päivän ajan.
+explanation: |
+  Lightningin avulla maksu on lopullinen, kun se on reititetty ja maksettu verkon kautta. Tämä eliminoi perinteisten maksujärjestelmien aiheuttamat takaisinkirjaukset.
+reviewed: false

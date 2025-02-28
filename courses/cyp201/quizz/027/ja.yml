@@ -1,0 +1,9 @@
+question: SegWitによって修正されたECDSA署名の脆弱性は何ですか？
+answer: 変更可能性
+wrong_answers:
+  - バッチ検証
+  - 集約の欠如
+  - 署名の過大なサイズ
+explanation: |
+  SegWitはECDSA署名の変更可能性を修正し、Lightning Networkなどの用途を可能にしました。
+reviewed: false

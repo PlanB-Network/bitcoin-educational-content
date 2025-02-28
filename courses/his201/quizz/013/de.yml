@@ -1,0 +1,9 @@
+question: Welche Forscher wurden von Satoshi Nakamoto im Bitcoin-Whitepaper für ihre Arbeit an zertifiziertem Zeitstempeln zitiert?
+answer: Stuart Haber und Scott Stornetta
+wrong_answers:
+  - Leslie Lamport, Robert Shostak und Marshall Pease
+  - Cynthia Dwork und Moni Naor
+  - Ronald Rivest und Adi Shamir
+explanation: |
+  Drei Arbeiten von Haber und Stornetta aus den 90ern wurden im Whitepaper zitiert. Sie sind bekannt für die Erstellung [der ersten zeitgestempelten Blockchain](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), die ab 1992 in der New York Times veröffentlicht wurde.
+reviewed: false

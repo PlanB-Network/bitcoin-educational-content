@@ -1,9 +1,0 @@
-question: Quel est l'impact d'une inflation de 20% sur le pouvoir d'achat sur 3 ans ?
-answer: Vous perdez 50% de votre pouvoir d'achat.
-wrong_answers:
-  - Vous perdez 100% de votre pouvoir d'achat.
-  - Vous perdez 60% de votre pouvoir d'achat.
-  - Vous perdez 30% de votre pouvoir d'achat.
-explanation: |
-  Avec une inflation de 20%, vous perdez presque la moitié de votre pouvoir d'achat en 3 ans.
-reviewed: false

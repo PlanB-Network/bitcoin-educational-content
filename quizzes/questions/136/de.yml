@@ -1,9 +1,0 @@
-question: Was ist die Bedeutung der Schwierigkeitsanpassung im Bitcoin-Netzwerk?
-answer: Sie stellt sicher, dass etwa alle zehn Minuten ein Block hinzugefügt wird.
-wrong_answers:
-  - Sie bestimmt den Preis von Bitcoin.
-  - Sie reguliert die Anzahl der Bitcoins, die abgebaut werden können.
-  - Sie bestimmt die Größe eines Blocks.
-explanation: |
-  Die Schwierigkeitsanpassung im Bitcoin-Netzwerk stellt sicher, dass etwa alle zehn Minuten ein Block hinzugefügt wird. Dies ist Teil der Protokollregeln des Bitcoin-Netzwerks.
-reviewed: false

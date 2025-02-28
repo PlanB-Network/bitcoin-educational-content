@@ -1,0 +1,10 @@
+question: What is one of the main questions raised regarding the future of finance?
+answer: Who should hold, authorize, and trace the money we use?
+wrong_answers:
+  - How can we eliminate money entirely?
+  - How can we ensure that everyone has the same amount of money?
+  - How can we make money obsolete?
+explanation: >-
+  The text raises several questions about the future of finance, one of
+  which is who should hold, authorize, and trace the money we use.
+reviewed: true

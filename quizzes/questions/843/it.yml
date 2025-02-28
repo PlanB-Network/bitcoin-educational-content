@@ -1,9 +1,0 @@
-question: Quali sono alcune delle competenze necessarie nella sicurezza informatica?
-answer: Analisi dei log, risposta agli incidenti
-wrong_answers:
-  - Progettazione grafica, montaggio video
-  - Vendite, marketing
-  - Cucina, pasticceria
-explanation: |
-  Il capitolo menziona l'analisi dei log e la risposta agli incidenti come alcune delle competenze necessarie nella sicurezza informatica.
-reviewed: false

@@ -1,9 +1,0 @@
-question: Em qual ano ocorrerá o 7º halving?
-answer: 2036
-wrong_answers:
-  - 2032
-  - 2028
-  - 2048
-explanation: |
-  O 7º halving deve ocorrer em 2036, e o número estimado de bitcoins em circulação será de 20.835.937,5 btc, ou 99,22% do fornecimento total.
-reviewed: false

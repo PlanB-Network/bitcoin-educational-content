@@ -1,9 +1,0 @@
-question: Quais são os prefixos mais comumente usados para chaves estendidas?
-answer: xpub e zpub
-wrong_answers:
-  - xprv e zprv
-  - ypub e zpub
-  - xpub e ypub
-explanation: |
-  Os prefixos mais comumente usados são xpub e zpub, que correspondem aos padrões legacy, segwit v1 e segwit v0, respectivamente.
-reviewed: false

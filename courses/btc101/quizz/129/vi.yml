@@ -1,0 +1,9 @@
+question: Blockchain Bitcoin là gì?
+answer: Một sổ cái công khai và không thể thay đổi của tất cả các giao dịch Bitcoin.
+wrong_answers:
+  - Một sổ cái riêng tư và có thể thay đổi của tất cả các giao dịch Bitcoin.
+  - Một sổ cái công khai và có thể thay đổi của tất cả các giao dịch Bitcoin.
+  - Một sổ cái riêng tư và không thể thay đổi của tất cả các giao dịch Bitcoin.
+explanation: >-
+  Blockchain Bitcoin là một sổ cái công khai và không thể thay đổi của tất cả các giao dịch Bitcoin. Đây là một sổ cái chung cho tất cả người dùng Bitcoin.
+reviewed: true

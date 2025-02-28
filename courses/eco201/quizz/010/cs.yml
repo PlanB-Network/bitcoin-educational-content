@@ -1,0 +1,12 @@
+question: Co je to frakční rezervní bankovnictví?
+answer: Frakční rezervní bankovnictví je bankovní praxe, kdy banky nejsou povinny držet tolik rezerv, kolik přijmou na vkladech, což jim umožňuje vytvářet novou kupní sílu při poskytování půjček.
+wrong_answers:
+  - Frakční rezervní bankovnictví je bankovní praxe, kdy banky jsou povinny držet více rezerv, než kolik přijmou na vkladech.
+  - Frakční rezervní bankovnictví je bankovní praxe, kdy bankám není dovoleno poskytovat půjčky.
+  - Frakční rezervní bankovnictví je bankovní praxe, kdy banky jsou povinny držet přesně stejné množství rezerv, jaké přijmou na vkladech.
+explanation: |
+  Frakční rezervní bankovnictví je systém, ve kterém banky drží pouze část
+  prostředků svých vkladatelů v rezervě a zbytek půjčují. Tento systém umožňuje
+  bankám vytvářet nové peníze ve formě půjček, což zvyšuje celkovou peněžní
+  nabídku v ekonomice.
+reviewed: false

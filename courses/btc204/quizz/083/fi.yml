@@ -1,0 +1,13 @@
+question: Miksi koordinaattori ei voi muokata coinjoin-tapahtumaa kerättyään allekirjoitukset kaikilta osallistujilta?
+
+answer: Muokkaaminen mitätöisi tapahtuman.
+
+wrong_answers:
+  - Heillä ei ole pääsyä osallistujien vastaanotto-osoitteisiin.
+  - Allekirjoitukset on salattu.
+  - Tapahtuma on jo lähetetty Bitcoin-verkkoon.
+
+explanation: |
+  Kun osallistujat ovat allekirjoittaneet koko tapahtuman varmistettuaan, että kaikki on oikein, koordinaattori ei enää voi muokata tätä tapahtumaa, mukaan lukien lähdöt, mitätöimättä sitä, koska allekirjoitus kattaa koko tapahtuman.
+
+reviewed: false

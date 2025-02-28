@@ -1,0 +1,8 @@
+question: Que tipo de chave é usada para bloquear UTXOs no Bitcoin?
+answer: Chave pública
+wrong_answers:
+  - Chave privada
+  - Hash da semente
+  - Frase mnemônica
+explanation: |
+  UTXOs são bloqueados com uma chave pública ou seu hash, e desbloqueados com a chave privada correspondente.

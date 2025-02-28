@@ -1,0 +1,10 @@
+question: Dove sono conservati i bitcoin?
+answer: Nella blockchain di Bitcoin.
+wrong_answers:
+  - Nel portafoglio Bitcoin.
+  - Sul dispositivo dove è installato il portafoglio.
+  - Nella cassaforte della Federal Reserve.
+explanation: |
+  Sebbene le tue chiavi private siano conservate nel tuo portafoglio, i
+  bitcoin in realtà sono conservati nella blockchain di Bitcoin, che è il registro distribuito pubblico all'interno della rete peer-to-peer di Bitcoin.
+reviewed: vero

@@ -1,0 +1,11 @@
+question: ¿Cuál de los siguientes es necesario para una transacción exitosa en un sistema de trueque?
+answer: Una doble coincidencia de deseos
+wrong_answers:
+  - Una unidad común de cuenta
+  - Una autoridad bancaria central
+  - Un requisito de saldo mínimo
+explanation: |
+  En un sistema de trueque, las transacciones se realizan directamente entre dos partes que intercambian bienes o 
+  servicios sin el uso de dinero. Una transacción exitosa requiere una doble coincidencia de 
+  deseos, lo que significa que ambas partes deben tener algo que la otra desea intercambiar.
+reviewed: false

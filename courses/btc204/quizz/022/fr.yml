@@ -1,0 +1,9 @@
+question: Quel est le nom du pattern constitué d'un seul UTXO en input et un seul UTXO en output ?
+answer: Le balayage
+wrong_answers:
+  - La consolidation
+  - Le coinjoin
+  - La dépense groupée
+explanation: |
+  L'interprétation de cette structure est que nous sommes en présence d'un balayage, c'est-à-dire d'un auto-transfert de bitcoins.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mô hình giao dịch nào làm mất hiệu lực việc sử dụng CIOH?
+answer: Giao dịch hợp tác.
+wrong_answers:
+  - Thanh toán đơn giản.
+  - Hợp nhất.
+  - Quét.
+explanation: |
+  CIOH không áp dụng cho các giao dịch áp dụng mô hình hợp tác, bởi vì trong trường hợp cụ thể này, các đầu vào cần thiết phải đến từ các thực thể khác nhau.
+reviewed: false

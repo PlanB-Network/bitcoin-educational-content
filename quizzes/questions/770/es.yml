@@ -1,9 +1,0 @@
-question: ¿Qué establece la minería para Bitcoin?
-answer: Un precio mínimo
-wrong_answers:
-  - Un precio máximo
-  - Un precio fijo
-  - Un precio variable
-explanation: |
-  La minería establece un precio mínimo para Bitcoin, por debajo del cual los mineros venderían a pérdida. El costo de la minería influye significativamente en el precio de Bitcoin.
-reviewed: false

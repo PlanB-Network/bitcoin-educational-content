@@ -1,0 +1,13 @@
+question: Quelle est la différence entre la réutilisation d'adresse externe et interne à une transaction ?
+
+answer: La réutilisation externe s'observe sur plusieurs transactions, tandis que la réutilisation interne s'observe au sein d'une même transaction.
+
+wrong_answers:
+  - La réutilisation externe concerne les adresses publiques, tandis que la réutilisation interne concerne les adresses privées utilisées dans les scripts de transaction.
+  - La réutilisation interne s'observe sur plusieurs transactions, tandis que la réutilisation externe s'observe au sein d'une même transaction.
+  - La réutilisation interne concerne les adresses publiques, tandis que la réutilisation externe concerne les adresses privées utilisées dans les scripts de transaction.
+
+explanation: |
+  La réutilisation d'adresse externe s'observe lorsqu'une adresse est réutilisée sur plusieurs transactions différentes, tandis que la réutilisation interne concerne une adresse qui est utilisée à la fois dans les inputs et dans les outputs d'une même transaction.
+
+reviewed: false

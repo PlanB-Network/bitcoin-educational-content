@@ -1,0 +1,11 @@
+question: Millised on mõned võrguteadmiste aspektid, mis on vajalikud küberjulgeolekus?
+answer: TCP/IP, VPN, tulemüür
+wrong_answers:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+explanation: |
+  Peatükk mainib TCP/IP-d, VPN-i ja tulemüüri kui mõningaid aspekte
+
+
+  võrguteadmistest, mis on vajalikud küberjulgeolekus.

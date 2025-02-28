@@ -1,0 +1,9 @@
+question: Hàm băm nào được sử dụng để tính toán giá trị kiểm tra của một cụm từ ghi nhớ?
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+explanation: |
+  Giá trị kiểm tra của một cụm từ ghi nhớ được tính toán bằng cách áp dụng một hàm băm SHA256 đơn giản lên entropy.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa perbedaan antara variabel acak diskrit dan kontinu?
+answer: Variabel diskrit memiliki jumlah hasil yang mungkin terbatas, sedangkan variabel kontinu dapat mengambil jumlah nilai yang tak terbatas dalam sebuah interval.
+wrong_answers:
+  - Variabel diskrit terus-menerus berubah nilai, sementara variabel kontinu tetap stabil.
+  - Variabel diskrit spesifik untuk eksperimen fisik yang dilakukan, variabel kontinu abstrak dalam intervalnya.
+  - Variabel diskrit tidak ada dalam kriptografi modern, hanya variabel kontinu yang digunakan.
+explanation: |
+  Variabel diskrit memiliki satu set hasil yang terbatas, sementara variabel kontinu dapat mengambil nilai apa saja dalam sebuah interval, seperti angka-angka riil antara 0 dan 1.
+reviewed: false

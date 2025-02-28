@@ -1,0 +1,13 @@
+question: Bitcoin取引の重さに影響を与えるものは何ですか？
+
+answer: 入力と出力の数。
+
+wrong_answers:
+  - ブロックチェーンのサイズ。
+  - 入力と出力の量。
+  - 使用されるUTXOsの年齢。
+
+explanation: |
+  Bitcoin取引における入力と出力の数が多いほど、vBでの重さが増します。
+
+reviewed: false

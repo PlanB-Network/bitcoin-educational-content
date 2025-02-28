@@ -1,0 +1,11 @@
+question: Mis on preemia kaevuritele Bitcoin'i võrgus?
+answer: Uued bitcoinid ja tehingutasud.
+wrong_answers:
+  - Ainult uued bitcoinid.
+  - Ainult tehingutasud.
+  - Kaevuritele ei ole preemiat.
+explanation: |
+  Kaevurid Bitcoin'i võrgus saavad preemiaks uusi
+  bitcoine ja tehingutasusid oma töö eest, mis seisneb
+  tehingute valideerimises ja plokkide loomises.
+reviewed: true

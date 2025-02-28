@@ -1,0 +1,5 @@
+description: |
+  Bitcoin Core on avoimen lähdekoodin viiteohjelmisto Bitcoin-järjestelmälle ja se on edelleen Bitcoin-protokollan tärkein toteutus. Sitä kehittää ja ylläpitää suuri joukko vapaaehtoisia. Alun perin nimellä “Bitcoin Qt” tunnettu Bitcoin Core on kolmas asiakasohjelma Bitcoinin historiassa, Satoshi Nakamoton alkuperäisen Bitcoin-ohjelman ja Bitcoindin jälkeen. Se on kehitetty Satoshin alkuperäisestä koodista ja toi mukanaan graafisen käyttöliittymän. Mielenkiintoisesti Bitcoin Coren käyttöliittymää kutsutaan yhä nimellä bitcoin-qt. Versiosta 0.5 alkaen se on toimitettu yhdessä bitcoindin kanssa. Bitcoin Corella on useita käyttötarkoituksia. Ensinnäkin se toimii täyden solmun asiakasohjelmana. Bitcoin Core sisältää myös lompakon (wallet), jonka avulla käyttäjät voivat tallentaa, hallita ja suorittaa transaktioita suoraan Bitcoin Corella.
+
+contributors:
+  - pretty-private

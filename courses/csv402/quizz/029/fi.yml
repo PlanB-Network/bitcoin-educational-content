@@ -1,0 +1,9 @@
+question: Mikä on skeeman tärkein tehtävä RGB-sopimuksessa?
+answer: Kuvaa sopimuksen liiketoimintalogiikka ja tietorakenne
+wrong_answers:
+  - RGB-lompakoiden käyttöliittymän määrittäminen
+  - Lohkoketjun skriptien kokoamisen hallinta
+  - Ketjussa tapahtuva kryptografinen validointi
+explanation: |
+  Skeema määrittelee sopimuksen deklaratiivisen rakenteen, tietotyypit ja validointisäännöt, joiden avulla voit hallita liiketoimintalogiikkaa asiakkaan puolella.
+reviewed: false

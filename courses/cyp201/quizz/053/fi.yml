@@ -1,0 +1,8 @@
+question: Mitä tapahtuu, jos menetät salasanan, joka on yhdistetty HD-lompakkoosi?
+answer: Menetät pääsyn kyseiseen lompakkoon linkitettyihin bitcoineihin
+wrong_answers:
+  - Voit silti päästä käsiksi lompakkoon pelkän muistisäännön avulla
+  - Voit nollata salasanan ottamalla yhteyttä Bitcoin-tukeen
+  - Menetät vain vahvistamattomat siirrot
+explanation: |
+  Salasana on olennainen osa avainjohdannaisessa. Ilman sitä avaimia on mahdotonta uudelleenluoda, ja siksi bitcoineihin pääsy estyy.

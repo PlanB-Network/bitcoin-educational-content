@@ -1,0 +1,8 @@
+question: Nende vastuste hulgast, milline ei kuulu ahela analüüsis kasutatavate 3 peamise heuristika ja omaduste kategooriasse?
+answer: Krüptograafia mudelid.
+wrong_answers:
+  - Tehingu mudelid.
+  - Sisemised tehingu heuristikad.
+  - Välised tehingu heuristikad.
+explanation: |
+  Ahela analüüsis kasutatavad heuristikad jagunevad kolme kategooriasse; tehingumustrid (või tehingu mudelid), sisemised tehingu heuristikad ja välised tehingu heuristikad.

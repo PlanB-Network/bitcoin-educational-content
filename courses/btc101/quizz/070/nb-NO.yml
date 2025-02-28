@@ -1,0 +1,9 @@
+question: Hva er BTC-belønningen etter det fjerde halvering?
+answer: 3.125 BTC
+wrong_answers:
+  - 1.5625 BTC
+  - 6.25 BTC
+  - 12.5 BTC
+explanation: >-
+  Etter det fjerde halvering, som skjer ved blokkhøyde 840,000, er BTC-belønningen for gruvedrift 3.125 BTC.
+reviewed: true

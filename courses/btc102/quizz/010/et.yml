@@ -1,0 +1,11 @@
+question: Mille lühend on 2FA?
+answer: Kahefaktoriline autentimine
+wrong_answers:
+  - Kahefaktoriline autoriseerimine
+  - Kaheomaduseline autentimine
+  - Kahefunktsiooniline autentimine
+explanation: |
+  2FA tähistab kahefaktorilist autentimist. See pakub lisakihti
+  
+  turvalisust sinu kõige tundlikumatele kontodele.
+reviewed: false

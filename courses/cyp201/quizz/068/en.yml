@@ -1,0 +1,9 @@
+question: What is the constraint for deriving a child public key from a parent public key?
+answer: The child key must be normal
+wrong_answers:
+  - The child key must be hardened
+  - The chain code must be identical to that of the parent key
+  - The process must include the parent private key
+explanation: |
+  A child public key can only be derived from a parent public key if it is normal, not hardened.
+reviewed: false

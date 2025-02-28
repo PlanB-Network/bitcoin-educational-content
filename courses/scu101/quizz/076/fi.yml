@@ -1,0 +1,9 @@
+question: Miksi suositellaan satunnaisesti luotuja salasanoja?
+answer: Jotta ne kestävät brute force -hyökkäyksiä.
+wrong_answers:
+  - Jotta ne olisi helpompi muistaa.
+  - Jotta niiden monimutkaisuus vähenisi.
+  - Jotta ne kestävät Sybil-hyökkäyksiä.
+explanation: |
+  Satunnaisuus tekee salasanoista vaikeammin arvattavia kokeilemalla, mikä parantaa niiden turvallisuutta brute force -hyökkäyksiä vastaan.
+reviewed: false

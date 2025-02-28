@@ -1,0 +1,7 @@
+description: |
+  ThunderHub on avoimen lähdekoodin alusta, joka mahdollistaa Lightning-solmusi hallinnan ja seurannan mistä tahansa laitteesta.
+
+  Joitakin avainominaisuuksia ovat sekä Lightning- että On-Chain-maksujen lähettäminen ja vastaanottaminen, uudelleentasapainotusvaihtoehdot, ln-pay ja ln-withdraw -toimintojen käyttö kotisivulta sekä kanavien hallinta optimaalisen likviditeetin saavuttamiseksi. ThunderHub on integroitu BTCPayn, RaspiBlitzin, MyNoden, Voltagen, Umbrelin ja Start9:n EmbassyOS:n kanssa, ja se tukee uusimpia LND-solmuversioita. Alusta tarjoaa myös raportteja tapahtumista ja tietoja välitettyjen maksujen yksityiskohdista sekä tarjoaa käyttäjän mukavuuden vuoksi sekä Yö-/Päivätilan.
+
+contributors:
+  - rabbit-hole

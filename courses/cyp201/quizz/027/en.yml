@@ -1,0 +1,9 @@
+question: What ECDSA signature vulnerability was corrected by SegWit?
+answer: Malleability
+wrong_answers:
+  - Batch verification
+  - Lack of aggregation
+  - Excessive size of signatures
+explanation: |
+  SegWit corrected the malleability of ECDSA signatures, enabling uses such as the Lightning Network.
+reviewed: false

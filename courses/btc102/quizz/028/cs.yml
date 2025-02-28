@@ -1,0 +1,11 @@
+question: Co znamená, že Bitcoin je open source?
+answer: Každý může nahlédnout do toho, jak Bitcoin funguje, je transparentní a tedy auditovatelný
+wrong_answers:
+  - Každý si může vytvořit vlastní verzi Bitcoinu
+  - Bitcoin je zdarma k použití
+  - Kód Bitcoinu je veřejně dostupný pro úpravy
+explanation: |
+  Být open source znamená, že kód Bitcoinu je veřejně dostupný
+  pro kontrolu kýmkoli. To zajišťuje jeho transparentnost a auditovatelnost, což zaručuje, že protokol
+  je stejný pro všechny.
+reviewed: false

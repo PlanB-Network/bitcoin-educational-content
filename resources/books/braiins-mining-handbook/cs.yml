@@ -1,0 +1,15 @@
+title: "Příručka k těžbě bitcoinů"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  První kniha z této série, Příručka o těžbě bitcoinů, začíná základy
+  těžby, vysvětlení pobídek k prokazování práce, několik praktických tipů pro
+  a vysvětluje častý omyl tím, že vysvětluje
+  horníci NEřeší složité matematické problémy. Pak se ponoří trochu hlouběji,
+  se dotkl vzniku vlastního firmwaru pro těžaře, významu
+  Upgrade protokolu Stratum V2 a obchodní stránka těžebního průmyslu.
+  Kniha je zakončena výběrem těch nejlepších hornických meme z počátků
+  2022.
+contributors:
+  - another-satoshi

@@ -1,9 +1,0 @@
-question: Quais são os três tipos de pessoas na Lightning Network?
-answer: Compradores, comerciantes e nós de roteamento
-wrong_answers:
-  - Compradores, vendedores e intermediários
-  - Usuários, comerciantes e nós
-  - Compradores, comerciantes e mineradores
-explanation: |
-  Na Lightning Network, existem três tipos de pessoas: compradores, que precisam de liquidez de saída; comerciantes, que precisam de liquidez de entrada; e nós de roteamento, que buscam ter liquidez equilibrada em ambos os lados.
-reviewed: false

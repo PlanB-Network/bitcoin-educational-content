@@ -1,0 +1,13 @@
+question: Vai trò chính của giao dịch Tx0 trong Whirlpool là gì?
+
+answer: Để cân bằng các UTXO.
+
+wrong_answers:
+  - Để thực hiện lần trộn đầu tiên.
+  - Để loại bỏ các UTXO khỏi bể.
+  - Để tiêu các UTXO đã trộn.
+
+explanation: |
+  Tx0 nhằm mục đích chuẩn bị và cân bằng các UTXO cho coinjoin, bằng cách chia chúng thành các đơn vị tương ứng với số lượng của bể được chọn, nhằm đảm bảo sự đồng nhất của quá trình trộn.
+
+reviewed: false

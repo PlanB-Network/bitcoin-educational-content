@@ -1,0 +1,8 @@
+question: Qual é a principal função de uma chave estendida em uma carteira HD?
+answer: Permitir a derivação de chaves filhas
+wrong_answers:
+  - Armazenar as transações da carteira
+  - Gerar diretamente os UTXOs
+  - Criptografar as chaves públicas
+explanation: |
+  Uma chave estendida combina uma chave (seja privada ou pública) com um código de cadeia associado, ou seja, os dois elementos necessários para derivar chaves filhas.

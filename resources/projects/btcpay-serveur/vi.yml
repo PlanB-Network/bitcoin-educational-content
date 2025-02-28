@@ -1,0 +1,6 @@
+description: |
+  BTCPay Server là một bộ xử lý thanh toán Bitcoin mã nguồn mở, tự lưu trữ.
+
+  Phần mềm này cho phép bạn chấp nhận thanh toán Bitcoin (BTC) trực tiếp vào ví của mình, không qua trung gian hay phí tổn. Nó cung cấp tính riêng tư và bảo mật tăng cường, giao diện người dùng tùy chỉnh, và các tính năng cho cả việc sử dụng thương mại điện tử và điểm bán hàng. Nền tảng hỗ trợ tích hợp với các nền tảng thương mại điện tử như WordPress, Magneto, Drupal, và các nền tảng khác. Đây là một giải pháp linh hoạt cho các doanh nghiệp, tổ chức từ thiện, nhà sáng tạo nội dung, và cá nhân đang tìm kiếm một hệ thống thanh toán Bitcoin tự chủ.
+contributors:
+  - rabbit-hole

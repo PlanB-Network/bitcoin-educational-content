@@ -1,0 +1,9 @@
+question: Was ist das Ziel der internen Transaktionsheuristiken?
+answer: Den Austausch zu identifizieren.
+wrong_answers:
+  - Fraudulente Transaktionen in Echtzeit zu identifizieren.
+  - Transaktionsmuster zu identifizieren.
+  - Einen Cluster zu identifizieren, der zur selben Entität gehört.
+explanation: |
+  Die internen Heuristiken ermöglichen es uns, den Austausch zu identifizieren mit dem Ziel, den Benutzer in nachfolgenden Transaktionen zu beobachten.
+reviewed: false

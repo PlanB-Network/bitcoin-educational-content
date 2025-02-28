@@ -2,19 +2,27 @@
 name: Coinjoin - Samourai Wallet
 description: Como realizar um coinjoin no Samourai Wallet?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
+
+***ATENÇÃO:** Após a prisão dos fundadores da Samourai Wallet e a apreensão dos seus servidores em 24 de abril, a ferramenta Whirlpool não funciona mais, mesmo para pessoas que têm seu próprio Dojo ou usam Sparrow Wallet. No entanto, ainda é possível que essa ferramenta seja reativada nas próximas semanas ou relançada de uma forma diferente. Além disso, a parte teórica deste artigo permanece relevante para entender os princípios e objetivos dos coinjoins em geral (não apenas Whirlpool), bem como a eficácia do modelo Whirlpool.*
+
+_Estamos acompanhando de perto a evolução deste caso, bem como os desenvolvimentos relacionados às ferramentas associadas. Fique assegurado de que atualizaremos este tutorial à medida que novas informações estiverem disponíveis._
+
+_Este tutorial é fornecido apenas para fins educativos e informativos. Não endossamos nem encorajamos o uso dessas ferramentas para fins criminosos. É responsabilidade de cada usuário cumprir as leis em sua jurisdição._
+
+---
 
 "*uma carteira bitcoin para as ruas*"
 
 Neste tutorial, você aprenderá o que é um coinjoin e como realizar um usando o software Samourai Wallet e a implementação Whirlpool.
 
 ## O que é um coinjoin no Bitcoin?
-**Coinjoin é uma técnica que quebra a rastreabilidade dos bitcoins na blockchain**. Ela depende de uma transação colaborativa com uma estrutura específica de mesmo nome: a transação coinjoin.
+**Coinjoin é uma técnica que quebra a rastreabilidade dos bitcoins na blockchain**. Ela depende de uma transação colaborativa com uma estrutura específica de mesmo name: a transação coinjoin.
 
 Coinjoins aumentam a privacidade dos usuários do Bitcoin ao complicar a análise de cadeia para observadores externos. Sua estrutura permite a fusão de múltiplas moedas de diferentes usuários em uma única transação, obscurecendo assim os rastros e tornando difícil determinar os vínculos entre endereços de entrada e saída.
 
 O princípio do coinjoin é baseado em uma abordagem colaborativa: vários usuários que desejam misturar seus bitcoins depositam quantias idênticas como entradas da mesma transação. Essas quantias são então redistribuídas como saídas de igual valor para cada usuário. Ao final da transação, torna-se impossível associar uma saída específica a um usuário conhecido na entrada. Não existe um vínculo direto entre as entradas e saídas, quebrando a associação entre usuários e seus UTXO, bem como o histórico de cada moeda.
-![coinjoin](assets/pt/1.webp)
+![coinjoin](assets/notext/1.webp)
 
 Exemplo de uma transação coinjoin (não minha): [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://mempool.space/pt/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
 
@@ -39,13 +47,13 @@ Inicialmente, o número de participantes em cada coinjoin do Whirlpool era limit
 
 Assim, as transações do Whirlpool são caracterizadas por um número idêntico de entradas e saídas, que podem ser:
 - 5 entradas e 5 saídas;
-![coinjoin](assets/pt/2.webp)
+![coinjoin](assets/notext/2.webp)
 - 6 entradas e 6 saídas;
-![coinjoin](assets/pt/3.webp)
+![coinjoin](assets/notext/3.webp)
 - 7 entradas e 7 saídas;
-![coinjoin](assets/pt/4.webp)
+![coinjoin](assets/notext/4.webp)
 - 8 entradas e 8 saídas.
-![coinjoin](assets/pt/5.webp)
+![coinjoin](assets/notext/5.webp)
 O modelo proposto pelo Whirlpool é baseado em pequenas transações de coinjoin. Ao contrário de Wasabi e JoinMarket, onde a robustez dos anonsets depende do volume de participantes em um único ciclo, Whirlpool aposta no encadeamento de vários ciclos de pequeno porte.
 
 Neste modelo, o usuário paga as taxas apenas na sua entrada inicial em um pool, permitindo-lhes participar de uma multitude de remixes sem taxas adicionais. São os novos entrantes que cobrem as taxas de mineração para os remixers.
@@ -56,7 +64,7 @@ O Whirlpool foi projetado levando em conta dois requisitos importantes:
 Esses imperativos guiaram os desenvolvedores do Samourai Wallet no design do Whirlpool, levando-os a limitar o número de participantes por ciclo. Poucos participantes teriam comprometido a eficiência do coinjoin, reduzindo drasticamente os anonsets gerados a cada ciclo, enquanto muitos participantes teriam apresentado problemas de gestão em aplicativos móveis e teriam impedido o fluxo de ciclos.
 **Em última análise, não é necessário ter um alto número de participantes por coinjoin no Whirlpool, já que os anonsets são alcançados através do acúmulo de vários ciclos de coinjoin.**
 
-[-> Saiba mais sobre os anonsets do Whirlpool.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Saiba mais sobre os anonsets do Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### As piscinas e as taxas de coinjoin
 Para que esses múltiplos ciclos aumentem efetivamente os anonsets das moedas misturadas, um certo quadro deve ser estabelecido para restringir as quantidades de UTXO usadas. O Whirlpool define diferentes piscinas assim.
@@ -80,11 +88,14 @@ Como mencionado anteriormente, um UTXO é considerado pertencente a uma piscina 
 
 Para entrar em uma piscina de coinjoin, taxas de serviço, bem como taxas de mineração, devem ser pagas. As taxas de serviço são fixas para cada piscina e destinam-se a compensar as equipes responsáveis pelo desenvolvimento e manutenção do Whirlpool.
 As taxas de serviço para usar o Whirlpool devem ser pagas apenas uma vez ao entrar na piscina. Após esta etapa, você tem a oportunidade de participar de um número ilimitado de remixes sem quaisquer taxas adicionais. Aqui estão as taxas fixas atuais para cada piscina:
-| Piscina (bitcoin) | Taxa de Entrada (bitcoin) |
-|-------------------|---------------------------|
-| 0.5            | 0.0175                     || 0.05           | 0.00175                    |
-| 0.01           | 0.0005 (50,000 sats)       |
-| 0.001          | 0.00005 (5,000 sats)       |
+
+| Pool (bitcoin) | Taxa de Entrada (bitcoin) |
+| -------------- | ------------------------- |
+| 0,5            | 0,0175                    |
+| 0,05           | 0,00175                   |
+| 0,01           | 0,0005 (50 000 sats)      |
+| 0,001          | 0,00005 (5 000 sats)      |
+
 
 Essas taxas funcionam essencialmente como um ingresso de entrada para o pool escolhido, independentemente do montante que você coloca no coinjoin. Assim, seja você entrando no pool de 0.01 com exatamente 0.01 BTC ou entrando com 0.5 BTC, as taxas permanecerão as mesmas em valor absoluto.
 
@@ -162,53 +173,53 @@ No entanto, este método tem duas desvantagens notáveis:
 A solução ideal para superar essas limitações é operar seu próprio Dojo associado a uma instância Whirlpool CLI em seu nó Bitcoin pessoal. Desta forma, você evitará qualquer vazamento de informações e alcançará completa independência. Embora o tutorial apresentado abaixo seja útil para certos objetivos ou para iniciantes, para otimizar verdadeiramente sua sessão de coinjoin, usar seu próprio Dojo é recomendado. Um guia detalhado sobre a configuração desta configuração estará disponível em breve na PlanB Network.
 
 ### Instalando a Samourai Wallet
-Para começar, você obviamente precisará da aplicação Samourai Wallet. Você pode baixá-la diretamente do [site oficial](https://samouraiwallet.com/download) com o APK, no [GitLab deles](https://code.samourai.io/wallet/samourai-wallet-android), ou na [Google Play Store](https://play.google.com/store/apps/details?id=com.samourai.wallet&pcampaignid=web_share).
+Para começar, você obviamente precisará do aplicativo Samourai Wallet. Você pode baixá-lo diretamente do site oficial usando o APK, do GitLab deles, ou da Google Play Store.
 
 ### Criando uma Carteira de Software
 Após instalar o software, você precisará prosseguir com a criação de uma carteira Bitcoin no Samourai. Se você já tem uma, pode pular diretamente para o próximo passo.
 
 Ao abrir a aplicação, pressione o botão azul `Start`. Então, será solicitado que você selecione um local nos arquivos do seu telefone onde o backup criptografado da sua nova carteira será armazenado.
 
-![samourai](assets/pt/9.webp)
+![samourai](assets/notext/9.webp)
 Ative o Tor clicando na respectiva marcação. Neste estágio, você também tem a opção de selecionar um Dojo específico. No entanto, neste tutorial, continuaremos com o Dojo padrão; então, você pode deixar a opção desativada. Quando o Tor estiver conectado, pressione o botão `Criar uma nova carteira`.
-![samourai](assets/pt/10.webp)
+![samourai](assets/notext/10.webp)
 
 A Samourai Wallet então solicita que você defina uma frase-senha BIP39. Esta senha adicional é muito importante, pois atua diretamente na derivação de suas chaves privadas. Uma possível perda desta frase-senha resultaria na incapacidade de acessar seus bitcoins, tornando-os irrecuperavelmente perdidos. Para restaurar sua carteira Samourai, é imperativo ter tanto sua frase de recuperação de 12 palavras quanto a frase-senha.
 
 Portanto, é essencial escolher uma frase-senha robusta e fazer uma ou mais cópias físicas, em papel ou em um meio metálico, para garantir a segurança de seus bitcoins. Após completar essas tarefas, marque a caixa `Estou ciente de que em caso de perda...`, então pressione o botão `PRÓXIMO`.
 
-![samourai](assets/pt/11.webp)
+![samourai](assets/notext/11.webp)
 
 Você deve então definir um código PIN consistindo de 5 a 8 dígitos. Este código irá garantir o acesso à sua carteira no seu telefone. Ele será solicitado toda vez que você quiser abrir a aplicação Samourai. Opte por um código PIN robusto e certifique-se de manter uma cópia de backup. Depois disso, você pode pressionar o botão `PRÓXIMO`.
-![samourai](assets/pt/12.webp)
+![samourai](assets/notext/12.webp)
 Samourai irá convidá-lo a inserir seu código PIN novamente para confirmação. Insira-o e pressione `FINALIZE`.
 
-![samourai](assets/pt/13.webp)
+![samourai](assets/notext/13.webp)
 
 Você então terá acesso à sua frase de recuperação composta por 12 palavras. Esta frase permite que você recupere sua carteira com a passphrase previamente inserida. É altamente recomendado fazer uma ou mais cópias desta frase em um meio físico, como papel ou um material metálico, para garantir a segurança de seus bitcoins em caso de problema.
 
 Após fazer esses backups, você será direcionado para a interface da sua nova carteira Samourai.
 
-![samourai](assets/pt/14.webp)
+![samourai](assets/notext/14.webp)
 
 É oferecido para você obter seu PayNym Bot. Você pode solicitá-lo se desejar, embora não seja essencial para o nosso tutorial.
 
-![samourai](assets/pt/15.webp)
+![samourai](assets/notext/15.webp)
 Antes de proceder para receber bitcoins nesta nova carteira, é altamente recomendado verificar novamente a validade dos backups da sua carteira (a passphrase e a frase de recuperação). Para verificar a passphrase, você pode selecionar o ícone do seu PayNym Bot localizado no canto superior esquerdo da tela, e seguir o caminho:
-```
+```plaintext
 Settings > Troubleshooting > Passphrase/backup test
 ```
 
 Insira sua passphrase para realizar a verificação.
 
-![samourai](assets/pt/16.webp)
+![samourai](assets/notext/16.webp)
 
 Samourai confirmará se é válida.
 
-![samourai](assets/pt/17.webp)
+![samourai](assets/notext/17.webp)
 
 Para verificar seu backup da frase de recuperação, acesse o ícone do seu PayNym Bot, localizado no canto superior esquerdo da tela, e siga este caminho:
-```
+```plaintext
 Settings > Wallet > Show 12-word recovery phrase
 ```
 
@@ -221,45 +232,45 @@ Após criar sua carteira, você começará com uma única conta, identificada pe
 
 Para fazer isso, clique no símbolo azul `+` localizado no canto inferior direito da tela.
 
-![samourai](assets/pt/18.webp)
+![samourai](assets/notext/18.webp)
 
 Em seguida, clique no botão verde `Receive`.
 
-![samourai](assets/pt/19.webp)
+![samourai](assets/notext/19.webp)
 
 Samourai irá gerar automaticamente um novo endereço em branco para receber bitcoins.
 
-![samourai](assets/pt/20.webp)
+![samourai](assets/notext/20.webp)
 
 Você pode enviar os bitcoins a serem misturados para lá.
 
-![samourai](assets/pt/21.webp)
+![samourai](assets/notext/21.webp)
 
 ### Realizando o Tx0
 Quando a transação for confirmada, podemos iniciar o processo de coinjoins. Para fazer isso, clique no botão azul `+` no canto inferior direito da tela.
 
-![samourai](assets/pt/22.webp)
+![samourai](assets/notext/22.webp)
 
 Em seguida, clique em `Whirlpool` em azul.
 
-![samourai](assets/pt/23.webp)
+![samourai](assets/notext/23.webp)
 
 Aguarde enquanto o Whirlpool inicializa e o Samourai cria as contas necessárias.
 
-![samourai](assets/pt/24.webp)
+![samourai](assets/notext/24.webp)
 
 Você então chegará à página inicial do Whirlpool. Clique em `Start`.
-![samourai](assets/pt/25.webp)
+![samourai](assets/notext/25.webp)
 Selecione o UTXO da conta de **depósito** que deseja enviar em ciclos de coinjoin e, em seguida, clique em `Próximo`.
-![samourai](assets/pt/26.webp)
+![samourai](assets/notext/26.webp)
 
 No próximo passo, você precisará escolher o nível de taxa para alocar ao `Tx0` assim como para sua primeira mistura. Esta configuração determinará a velocidade com que seu `Tx0` e seu coinjoin inicial (ou coinjoins iniciais) serão confirmados. Tenha em mente que as taxas de mineração para o `Tx0` e a mistura inicial são de sua responsabilidade, mas você não terá que pagar taxas de mineração para os remixes subsequentes. Você tem a escolha entre as opções `Baixa`, `Normal` ou `Alta`.
 
-![samourai](assets/pt/27.webp)
+![samourai](assets/notext/27.webp)
 
 Na mesma janela, você tem a opção de escolher o pool que entrará. Dado que inicialmente selecionei um UTXO de `454,258 sats`, minha única escolha possível é o pool de `100,000 sats`. Esta página também apresenta as taxas de serviço do pool, além das taxas de mineração, o que permite saber o custo total para este ciclo de coinjoin. Se tudo estiver de acordo, selecione o pool apropriado e continue clicando no botão azul `VERIFICAR DETALHES DO CICLO`.
 
-![samourai](assets/pt/28.webp)
+![samourai](assets/notext/28.webp)
 
 Você pode então ver todos os detalhes do seu ciclo de coinjoin:
 - o número de UTXOs que entrarão no pool;
@@ -268,97 +279,97 @@ Você pode então ver todos os detalhes do seu ciclo de coinjoin:
 
 Verifique as informações e, em seguida, clique no botão verde `INICIAR CICLO`.
 
-![samourai](assets/pt/29.webp)
+![samourai](assets/notext/29.webp)
 
 Uma janela aparecerá para oferecer a você marcar a troca tóxica resultante de sua entrada no ciclo de coinjoin como "não gastável". Ao selecionar `SIM`, este UTXO não será visível em sua carteira e não poderá ser selecionado para futuras transações. No entanto, permanecerá acessível na lista de UTXOs em sua carteira, onde você pode alterar manualmente seu status. É recomendado optar por esta opção para evitar qualquer erro de manipulação que possa comprometer sua privacidade mais tarde. Se você escolher `NÃO`, a troca tóxica permanecerá disponível para uso em sua carteira. Se você quiser saber mais sobre o gerenciamento e uso dessa troca tóxica, aconselho que leia a última parte deste tutorial.
 
-![samourai](assets/pt/30.webp)
+![samourai](assets/notext/30.webp)
 
 O Samourai então transmitirá seu Tx0.
 
-![samourai](assets/pt/31.webp)
+![samourai](assets/notext/31.webp)
 
 ### Realizando os coinjoins
 Uma vez que o Tx0 é transmitido, você pode encontrá-lo na aba `Transações` do menu Whirlpool.
 
-![samourai](assets/pt/32.webp)
+![samourai](assets/notext/32.webp)
 Seus UTXOs prontos para serem misturados estão na aba `Misturando em progresso...`, que corresponde à conta **Premix**.
-![samourai](assets/pt/33.webp)
+![samourai](assets/notext/33.webp)
 
 Uma vez que o `Tx0` é confirmado, seus UTXOs serão automaticamente registrados com o coordenador, e as misturas iniciais começarão sucessivamente de maneira automática.
 
-![samourai](assets/pt/34.webp)
-Ao verificar a aba `Remixing`, que corresponde à conta **Postmix**, você observará os UTXOs resultantes das misturas iniciais. Essas moedas permanecerão prontas para remixagens subsequentes, o que não incorrerá em quaisquer taxas adicionais. Recomendo consultar este outro artigo para aprender mais sobre o processo de remixagem e a eficiência de um ciclo de coinjoin: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool).
-![samourai](assets/pt/35.webp)
+![samourai](assets/notext/34.webp)
+Ao verificar a aba `Remixing`, que corresponde à conta **Postmix**, você observará os UTXOs resultantes das misturas iniciais. Essas moedas permanecerão prontas para remixagens subsequentes, o que não incorrerá em quaisquer taxas adicionais. Recomendo consultar este outro artigo para aprender mais sobre o processo de remixagem e a eficiência de um ciclo de coinjoin: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+![samourai](assets/notext/35.webp)
 
 É possível suspender temporariamente a remixagem de um UTXO pressionando o botão de pausa localizado à sua direita. Para torná-lo elegível para remixagem novamente, basta clicar no mesmo botão uma segunda vez. É importante notar que apenas um coinjoin pode ser realizado por usuário e por pool simultaneamente. Assim, se você tem 6 UTXOs de `100 000 sats` prontos para o coinjoin, apenas um deles pode ser misturado. Após misturar um UTXO, a Samourai Wallet procede à seleção aleatória de um novo UTXO da sua disponibilidade, a fim de diversificar e equilibrar a remixagem de cada moeda.
 
-![samourai](assets/pt/36.webp)
+![samourai](assets/notext/36.webp)
 
 Para garantir a disponibilidade contínua dos seus UTXOs para remixagem, é necessário manter o aplicativo Samourai ativo em segundo plano. Você deve ver uma notificação no seu telefone confirmando que o Whirlpool está funcionando. Fechar o aplicativo ou desligar o telefone pausará os coinjoins.
 
 ### Completando os coinjoins
 Para gastar seus bitcoins misturados, vá para a conta **Postmix** notada `Remixing` nas abas do menu Whirlpool.
 
-![samourai](assets/pt/37.webp)
+![samourai](assets/notext/37.webp)
 
 Clique no logo Whirlpool azul localizado no canto inferior direito.
 
-![samourai](assets/pt/38.webp)
+![samourai](assets/notext/38.webp)
 
 Em seguida, clique em `Spend Mixed UTXOs`.
 
-![samourai](assets/pt/39.webp)
+![samourai](assets/notext/39.webp)
 
 Você pode então inserir o endereço do destinatário e o valor a enviar, da mesma forma que para qualquer outra transação feita com a Samourai Wallet. O fundo azul indica que os fundos estão sendo gastos de uma conta Whirlpool, e não da conta **depósito**.
 
-![samourai](assets/pt/40.webp)
+![samourai](assets/notext/40.webp)
 
 Ao clicar nos 3 pequenos pontos no canto superior direito, você tem a opção de selecionar UTXOs específicos.
-![samourai](assets/pt/41.webp)
+![samourai](assets/notext/41.webp)
 Ao clicar no quadrado branco no canto superior direito da janela, você pode escanear o código QR do endereço de recebimento com sua câmera.
 
-![samourai](assets/pt/42.webp)
+![samourai](assets/notext/42.webp)
 
 Insira as informações necessárias para sua transação de gastos, em seguida, clique no botão azul `VERIFY TRANSACTION`.
 
-![samourai](assets/pt/43.webp)
+![samourai](assets/notext/43.webp)
 
 Na próxima etapa, você tem a opção de modificar a taxa associada à sua transação. Você também pode habilitar a opção Stonewall marcando a caixa correspondente. Se a opção Stonewall não for selecionável, significa que sua conta **Postmix** não contém um UTXO de tamanho suficiente para suportar essa estrutura de transação específica.
 
-[-> Saiba mais sobre transações Stonewall.](https://planb.network/tutorials/privacy/stonewall)
+[-> Saiba mais sobre transações Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Se tudo estiver ao seu gosto, clique no botão verde `SEND ... BTC`.
 
-![samourai](assets/pt/44.webp)
+![samourai](assets/notext/44.webp)
 
 A Samourai então procederá à assinatura da sua transação antes de transmiti-la na rede. Você só precisa esperar até que ela seja adicionada a um bloco por um minerador.
-![samourai](assets/pt/45.webp)
+![samourai](assets/notext/45.webp)
 ### Usando um SCODE
 Às vezes, as equipes da Samourai Wallet oferecem "SCODEs". Um SCODE é um código promocional que fornece um desconto nas taxas de serviço do pool. A Samourai Wallet ocasionalmente oferece tais códigos aos seus usuários durante eventos especiais. Eu aconselho você [a seguir a Samourai Wallet](https://twitter.com/SamouraiWallet) nas redes sociais para não perder futuros SCODES.
 
 Para aplicar um SCODE no Samourai, antes de iniciar um novo ciclo de coinjoin, vá ao menu Whirlpool e selecione os três pequenos pontos localizados no canto superior direito da tela.
 
-![samourai](assets/pt/46.webp)
+![samourai](assets/notext/46.webp)
 
 Clique em `SCODE (código promocional) Whirlpool`.
 
-![samourai](assets/pt/47.webp)
+![samourai](assets/notext/47.webp)
 
 Digite o SCODE na janela que abriu, em seguida, valide clicando em `OK`.
 
-![samourai](assets/pt/48.webp)
+![samourai](assets/notext/48.webp)
 
 O Whirlpool fechará automaticamente. Aguarde o Samourai terminar de carregar, depois abra o menu Whirlpool novamente.
 
-![samourai](assets/pt/49.webp)
+![samourai](assets/notext/49.webp)
 
 Certifique-se de que seu SCODE foi corretamente registrado clicando mais uma vez nos três pequenos pontos, em seguida, selecionando `SCODE (código promocional) Whirlpool`. Se tudo estiver em ordem, você está pronto para iniciar um novo ciclo Whirlpool com um desconto nas taxas de serviço. É importante notar que esses SCODEs são temporários: eles permanecem válidos por alguns dias antes de se tornarem obsoletos.
 
 ## Como saber a qualidade dos nossos ciclos de coinjoin?
-Para que um coinjoin seja verdadeiramente eficaz, é essencial que demonstre boa uniformidade entre as quantidades de entradas e saídas. Essa uniformidade amplifica o número de interpretações possíveis aos olhos de um observador externo, aumentando assim a incerteza em torno da transação. Para quantificar essa incerteza gerada por um coinjoin, pode-se recorrer ao cálculo da entropia da transação. Para uma exploração aprofundada desses indicadores, refiro-me ao tutorial: [BOLTZMANN CALCULATOR](https://planb.network/pt/tutorials/privacy/boltzmann-entropy). O modelo Whirlpool é reconhecido como aquele que traz mais homogeneidade aos coinjoins.
+Para que um coinjoin seja verdadeiramente eficaz, é essencial que demonstre boa uniformidade entre as quantidades de entradas e saídas. Essa uniformidade amplifica o número de interpretações possíveis aos olhos de um observador externo, aumentando assim a incerteza em torno da transação. Para quantificar essa incerteza gerada por um coinjoin, pode-se recorrer ao cálculo da entropia da transação. Para uma exploração aprofundada desses indicadores, refiro-me ao tutorial: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). O modelo Whirlpool é reconhecido como aquele que traz mais homogeneidade aos coinjoins.
 
-Em seguida, o desempenho de vários ciclos de coinjoin é avaliado com base na extensão dos grupos nos quais uma moeda é ocultada. O tamanho desses grupos define o que é chamado de anonsets. Existem dois tipos de anonsets: o primeiro avalia a privacidade obtida contra uma análise retrospectiva (do presente para o passado) e o segundo, contra uma análise prospectiva (do passado para o presente). Para uma explicação detalhada desses dois indicadores, convido você a consultar o tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets).
+Em seguida, o desempenho de vários ciclos de coinjoin é avaliado com base na extensão dos grupos nos quais uma moeda é ocultada. O tamanho desses grupos define o que é chamado de anonsets. Existem dois tipos de anonsets: o primeiro avalia a privacidade obtida contra uma análise retrospectiva (do presente para o passado) e o segundo, contra uma análise prospectiva (do passado para o presente). Para uma explicação detalhada desses dois indicadores, convido você a consultar o tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ## Como gerenciar o pós-mix?
 Após realizar ciclos de coinjoin, a melhor estratégia é manter seus UTXOs na conta **pós-mix**, aguardando seu uso futuro. É até aconselhável deixá-los remixar indefinidamente até que você precise gastá-los.
@@ -384,7 +395,11 @@ A seguir, você deve ter cuidado ao gerenciar a mudança tóxica, a mudança que
 Tutoriais detalhados sobre a implementação dessas diferentes técnicas serão oferecidos em breve na PlanB Network.
 
 **Recursos adicionais:**
-- [Tutorial em vídeo da Samourai Wallet](https://planb.network/tutorials/wallet/samourai);
+[Tutorial em vídeo da Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Documentação da Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Thread no Twitter sobre coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Post no blog sobre coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
+
+
+

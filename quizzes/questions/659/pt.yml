@@ -1,9 +1,0 @@
-question: Qual é o papel da transação de compromisso na Lightning Network?
-answer: Ela atualiza o saldo do canal após cada transferência.
-wrong_answers:
-  - Ela abre o canal.
-  - Ela fecha o canal.
-  - Ela transfere os fundos.
-explanation: |
-  A transação de compromisso é uma transação mais recente que atualiza o saldo do canal após cada transferência. Ela não é executada a menos que o canal seja fechado.
-reviewed: false

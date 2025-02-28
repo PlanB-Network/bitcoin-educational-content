@@ -1,0 +1,9 @@
+question: What depth in the derivation path specifies the currency type?
+answer: Depth 2
+wrong_answers:
+  - Depth 1
+  - Depth 3
+  - Depth 4
+explanation: |
+  Depth 2 is used to identify the currency in multi-currency wallets, such as Bitcoin (index 0') or Litecoin (index 2').
+reviewed: false

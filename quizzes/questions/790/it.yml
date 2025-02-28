@@ -1,9 +1,0 @@
-question: Cosa è la navigazione privata?
-answer: Una funzione che impedisce ai browser internet di memorizzare la cronologia di navigazione, i file temporanei di internet, i dati dei moduli, i cookie e i nomi utente e le password.
-wrong_answers:
-  - Una funzione che nasconde la tua attività online al tuo provider di servizi internet.
-  - Una funzione che ti permette di navigare su internet in modo anonimo.
-  - Una funzione che protegge il tuo dispositivo da virus e altri software dannosi.
-explanation: |
-  La navigazione privata è una funzione che impedisce ai browser internet di memorizzare la cronologia di navigazione, i file temporanei di internet, i dati dei moduli, i cookie e i nomi utente e le password. Tuttavia, non nasconde la tua attività online al tuo provider di servizi internet né ti permette di navigare su internet in modo anonimo.
-reviewed: false

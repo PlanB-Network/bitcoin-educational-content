@@ -1,0 +1,7 @@
+---
+term: ATAQUE DE POEIRA
+
+---
+Um Dusting Attack envolve o envio de pequenas quantidades de bitcoins para um grande número de endereços de receção. O objetivo do atacante é obrigar os destinatários a consolidar estes montantes com outros UTXOs. Em seguida, o atacante rastreia os movimentos futuros dessas pequenas quantidades de bitcoins, com o objetivo de formar grupos de endereços, ou seja, determinar se vários endereços pertencem à mesma entidade. Ao correlacionar as informações recolhidas durante um ataque de dusting com outros dados e heurísticas utilizados na análise da cadeia, é possível ao atacante identificar determinadas entidades e os seus endereços associados. Este método representa uma ameaça apenas para a privacidade dos utilizadores, mas não afecta a segurança dos seus fundos.
+
+> ► *Alguns bitcoiners sugerem que não se utilize mais o termo "dusting attack", pois pode ser enganador. De facto, o termo "dust" descreve algo muito específico no Bitcoin Core. Se o ataque de dusting realmente usasse dust como descrito no Core, o ataque seria ineficaz. Por conseguinte, alguns sugerem a utilização do termo "reutilização forçada de endereços" para descrever com maior exatidão este ataque.*

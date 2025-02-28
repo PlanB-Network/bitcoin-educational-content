@@ -1,0 +1,9 @@
+question: Qual è il termine per le informazioni che collegano un insieme di attività on-chain a una forma di identità reale?
+answer: Un punto di ingresso.
+wrong_answers:
+  - Una chiave di collegamento.
+  - Un collegamento impronta digitale.
+  - Un marcatore di analisi.
+explanation: |
+  I comportamenti e le informazioni che possono collegare un'identità reale a un'attività on-chain sono chiamati punti di ingresso.
+reviewed: false

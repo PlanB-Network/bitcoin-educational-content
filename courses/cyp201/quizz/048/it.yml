@@ -1,0 +1,9 @@
+question: Perché una frase mnemonica di 24 parole è spesso considerata superflua per un portafoglio Bitcoin?
+answer: Le chiavi derivate offrono solo 128 bit di sicurezza
+wrong_answers:
+  - Il software non supporta frasi di 24 parole
+  - Non permette la derivazione di chiavi pubbliche
+  - Le frasi più corte non sono standardizzate
+explanation: |
+  Sebbene una frase di 24 parole offra 256 bit di sicurezza, le chiavi private Bitcoin derivate garantiscono solo 128 bit di sicurezza, rendendo l'eccesso non necessario.
+recensito: false

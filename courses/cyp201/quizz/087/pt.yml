@@ -1,0 +1,9 @@
+question: Qual é a característica única dos endereços SegWit v1 (P2TR) em comparação com os endereços SegWit v0?
+answer: Eles usam diretamente a chave pública bruta no endereço.
+wrong_answers:
+  - Eles são codificados em base58check.
+  - Eles requerem duas assinaturas para serem válidos.
+  - Eles usam o hash da chave pública no endereço.
+explanation: |
+  Os endereços SegWit v1 (P2TR) não usam um hash da chave pública, mas diretamente a chave pública Taproot.
+reviewed: false

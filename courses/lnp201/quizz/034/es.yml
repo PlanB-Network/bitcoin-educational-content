@@ -1,0 +1,9 @@
+question: ¿Qué información debe conocer el nodo emisor para realizar un pago mediante enrutamiento onion?
+answer: La topología de la red y la ruta completa hasta el destinatario
+wrong_answers:
+  - Solo el siguiente nodo intermedio
+  - La capacidad de cada canal
+  - La firma criptográfica de cada nodo en el camino
+explanation: |
+  El nodo emisor debe conocer la topología de la red para calcular la ruta hasta el destinatario, lo que le permite elegir el mejor camino.
+reviewed: false

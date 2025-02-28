@@ -1,0 +1,11 @@
+question: Ifølge Carl Menger, hvorfor finner frivillig utveksling sted mellom to individer?
+answer: Hver part tror det vil øke deres subjektive nytte.
+wrong_answers:
+  - Hver part tror det vil redusere deres subjektive nytte.
+  - Hver part tror det vil opprettholde deres subjektive nytte.
+  - Hver part tror det vil ikke ha noen effekt på deres subjektive nytte.
+explanation: |
+  Menger konkluderer med at frivillig utveksling mellom to individer finner
+  sted fordi hver part tror det vil øke deres subjektive nytte. Dette
+  betyr at hver part tror de vil være bedre stilt etter utvekslingen.
+reviewed: false

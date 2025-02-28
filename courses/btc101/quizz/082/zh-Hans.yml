@@ -1,0 +1,9 @@
+question: 比特币钱包中用于保护花费资金的技术是什么？
+answer: 椭圆曲线密码学
+wrong_answers:
+  - 对称密码学
+  - 量子密码学
+  - RSA密码学
+explanation:
+  花费比特币需要所有者使用椭圆曲线来为比特币交易生成一个签名。
+reviewed: true

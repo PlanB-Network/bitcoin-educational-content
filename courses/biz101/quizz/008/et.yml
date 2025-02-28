@@ -1,0 +1,9 @@
+question: Milline väide kirjeldab kõige paremini Bitcoini rolli võrgustiku ja varana ettevõtete jaoks?
+answer: See võib toimida nii väärtuse säilitaja kui ka vahetusvahendina globaalses, detsentraliseeritud süsteemis.
+wrong_answers:
+  - See saab toimida ainult kohaliku kinkekaardisüsteemina.
+  - See on ainult spekulatiivne kauplemisvahend, millel puudub tegelik kasu.
+  - See peab toimimiseks olema seotud ühe riigi rahapoliitikaga.
+explanation: |
+  Bitcoin'i globaalne, internetipõhine disain võimaldab seda kasutada mitte ainult väärtuse säilitajana, vaid ka vahetusvahendina, pakkudes ettevõtetele kiireid, lubadusteta ja lõplikke tehinguid kogu maailmas.
+reviewed: false

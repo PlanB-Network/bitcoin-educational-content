@@ -1,0 +1,9 @@
+question: Why do we pay fees in Bitcoin?
+answer: To create a free market for including transactions in blocks.
+wrong_answers:
+  - To introduce how to mine Bitcoin.
+  - To let rich people pay more.
+  - To exclude governments from the network.
+explanation: |
+  Fees are essential to create a free market for including transactions in blocks. In fact, a block has a size of 1 MB (which was expanded to 4MB after the Segwit update), so the number of transactions that can be "inserted" in a block is limited to a few thousand transactions per block.
+reviewed: true

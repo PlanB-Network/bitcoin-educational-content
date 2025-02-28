@@ -1,0 +1,9 @@
+question: Mikä on laajennetun avaimen kokonaiskoko tarkistussumman kanssa?
+answer: 82 tavua
+wrong_answers:
+  - 78 tavua
+  - 64 tavua
+  - 128 tavua
+explanation: |
+  Laajennettu avain on 78 tavua ilman tarkistussummaa ja 82 tavua tarkistussumman kanssa mukana.
+reviewed: false

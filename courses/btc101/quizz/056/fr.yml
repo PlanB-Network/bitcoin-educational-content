@@ -1,0 +1,11 @@
+question: Quel était le taux d'inflation en Hongrie en juillet 1946 ?
+answer: 41 900 000 000 000 000 %
+wrong_answers:
+  - 207 %
+  - 50 %
+  - 100 %
+explanation: |
+  Le mois ayant connu l'inflation la plus élevée en Hongrie était juillet
+  1946, avec une inflation record des prix de
+  41 900 000 000 000 000 %.
+reviewed: true

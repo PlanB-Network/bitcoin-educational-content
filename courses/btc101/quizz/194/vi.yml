@@ -1,0 +1,12 @@
+question: Công cụ nào dùng để chấp nhận Bitcoin cho các tổ chức lớn hoặc những người đam mê Bitcoin?
+answer: BTCpay Server.
+wrong_answers:
+  - Ví Bitcoin.
+  - Sàn giao dịch Bitcoin.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server là công cụ dùng để chấp nhận Bitcoin cho các
+  cơ cấu lớn hoặc những người đam mê bitcoin. Các giải pháp khác
+  bao gồm OpenNode cho các doanh nghiệp trực tuyến đơn giản và Swiss
+  Bitcoin Pay cho các thương nhân nghiệp dư.
+reviewed: true

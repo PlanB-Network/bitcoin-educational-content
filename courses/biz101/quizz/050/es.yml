@@ -1,0 +1,9 @@
+question: ¿En qué se diferencia una transacción con tarjeta de crédito de una simple transacción en efectivo?
+answer: Implica a múltiples intermediarios
+wrong_answers:
+  - Ocurre al instante, sin intermediarios
+  - Sólo requiere el cambio físico de moneda
+  - Exige que ambas partes produzcan bienes idénticos
+explanation: |
+  A diferencia del efectivo, que se intercambia inmediatamente, las transacciones con tarjeta de crédito pasan por una serie de pasos en los que intervienen bancos, redes de tarjetas y procesos de compensación, lo que provoca retrasos y costes adicionales.
+reviewed: false

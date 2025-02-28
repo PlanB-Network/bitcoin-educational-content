@@ -1,0 +1,9 @@
+question: What is the function of the key generation algorithm in a symmetric encryption scheme?
+answer: It generates a private key
+wrong_answers:
+  - It generates a public key
+  - It hashes the message
+  - It encrypts the message
+explanation: |
+  In a symmetric encryption scheme, the key generation algorithm produces a private key, which will then be used to encrypt and decrypt messages.
+reviewed: false

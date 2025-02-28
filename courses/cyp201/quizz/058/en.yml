@@ -1,0 +1,9 @@
+question: Which function is used to derive the seed from the mnemonic phrase?
+answer: PBKDF2 with HMAC-SHA512
+wrong_answers:
+  - SHA256 alone
+  - Double SHA256
+  - AES-256
+explanation: |
+  The seed is generated using the PBKDF2 function with HMAC-SHA512 and 2048 iterations, from the mnemonic phrase and the passphrase.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Was sind die Vorteile der Verwendung von Passkeys als Alternative zu traditionellen Passwörtern?
-answer: Sie bieten verschlüsselte zufällige Schlüssel in Kombination mit einem lokalen Faktor, die von einem Anbieter gehostet werden, aber außerhalb ihrer Reichweite bleiben.
-wrong_answers:
-  - Sie sind einfacher zu merken als traditionelle Passwörter.
-  - Sie erfordern keine zusätzlichen Authentifizierungsfaktoren.
-  - Sie können auf allen Websites ohne Aktualisierungen verwendet werden.
-explanation: |
-  Passkeys bieten verschlüsselte zufällige Schlüssel in Kombination mit einem lokalen Faktor (Biometrie oder PIN), die von einem Anbieter gehostet werden, aber außerhalb ihrer Reichweite bleiben. Dieser Ansatz beseitigt die Notwendigkeit von Passwörtern und bietet somit ein hohes Maß an Sicherheit ohne die Einschränkungen, die mit traditionellen Passwörtern verbunden sind.
-reviewed: false

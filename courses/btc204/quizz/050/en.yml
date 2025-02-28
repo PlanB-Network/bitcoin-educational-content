@@ -1,0 +1,13 @@
+question: What is the main advantage of Silent Payments compared to BIP47?
+
+answer: They do not require a notification transaction.
+
+wrong_answers:
+  - They offer complete transaction privacy.
+  - They allow for a refund from the receiver.
+  - They ensure compatibility with all wallets.
+
+explanation: |
+  Silent Payments operate without a notification transaction, which saves on transaction fees and avoids overloading the blockchain.
+
+reviewed: false

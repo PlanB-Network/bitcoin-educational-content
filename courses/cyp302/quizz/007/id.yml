@@ -1,0 +1,8 @@
+question: Apa yang membedakan skema kriptografi modern dari skema enkripsi sederhana?
+answer: Jaminan integritas dan keaslian pesan
+wrong_answers:
+  - Penggunaan satu kunci rahasia
+  - Desentralisasi kunci
+  - Anonimisasi pesan
+explanation: |
+  Kriptografi modern mencakup skema yang melampaui kerahasiaan untuk memastikan integritas dan keaslian, serta non-repudiasi, tidak seperti skema enkripsi sederhana.

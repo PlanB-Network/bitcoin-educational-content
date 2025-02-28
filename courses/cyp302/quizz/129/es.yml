@@ -1,0 +1,9 @@
+question: ¿Qué otro descubrimiento británico realizado por investigadores de GCHQ precedió al de Diffie y Hellman, pero permaneció en secreto?
+answer: Los conceptos de criptografía asimétrica e intercambio de claves
+wrong_answers:
+  - Un protocolo de encriptación simétrica avanzado sin la necesidad de una clave
+  - Un nuevo método de hashing criptográfico asimétrico
+  - Un método para crear dinero electrónico
+explanation: |
+  Criptógrafos británicos, trabajando para GCHQ, desarrollaron de manera independiente ideas similares a las de Diffie y Hellman, pero estos avances permanecieron confidenciales hasta que se revelaron en 1997.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Qual è l'ente responsabile dell'emissione di valuta fiduciaria?
-answer: Banca Centrale
-wrong_answers:
-  - Banca Commerciale
-  - Governo
-  - Istituzioni Private
-explanation: |
-  Le banche centrali sono gli enti responsabili dell'emissione di valuta fiduciaria. Decidono la politica monetaria e determinano quanto denaro deve essere messo in circolazione o stampato.
-reviewed: false

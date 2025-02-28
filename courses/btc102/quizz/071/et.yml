@@ -1,0 +1,9 @@
+question: Mis on kuum LN rahakoti roll Hodleri jaoks, kes soovib edasi minna?
+answer: Mõne Bitcoini kulutamiseks.
+wrong_answers:
+  - Rohkemate Bitcoinide ostuks.
+  - Kõigi oma Bitcoinide hoidmiseks.
+  - Bitcoinidega kauplemiseks.
+explanation: |
+  Hodler, kes soovib edasi minna, saab kasutada kuuma LN rahakotti mõne Bitcoini kulutamiseks, lisaks sellele, et hoida seda pikemas perspektiivis.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on üks peamine kaalutlus, kui valite platvormi või maakleri, et osta Bitcoini äri jaoks?
+answer: Teenusepakkuja maine, turvameetmed ja võime eksportida tehingute ajalugu raamatupidamiseks.
+wrong_answers:
+  - Tagades, et platvorm toetab ainult hämaramaid krüptovaluutasid.
+  - Leida teenusepakkuja, kes keeldub kliendituge pakkumast.
+  - Kasutades teenust, mis keelab Bitcoini väljavõtmise iseteeninduslikule rahakotile.
+explanation: |
+  Usaldusväärsel platvormil peaks olema kindel maine, hea turvalisus ja arvestuse pidamise vahendid. Äritegevuse jaoks on oluline ka võimalus Bitcoini väljavõtmiseks ja raamatupidamistarkvaraga integreerimiseks.
+reviewed: false

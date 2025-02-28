@@ -1,0 +1,9 @@
+question: Milline on varanduse roll?
+answer: Säilitada kõik kliendipoolsed andmed lokaalselt
+wrong_answers:
+  - Automaatselt avaldada tehinguid plokiahelas
+  - Koostada ja salvestada kõik genereeritud arved
+  - Bitcoini privaatvõtmete haldamine
+explanation: |
+  Varamu on kliendipoolsete andmete kogum, mille kasutaja salvestab lokaalselt ühe või mitme RGB-lepingu jaoks, et teostada kliendipoolset valideerimist.
+reviewed: false

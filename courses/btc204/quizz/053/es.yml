@@ -1,0 +1,13 @@
+question: ¿Cuál es el propósito de las Etiquetas en los Pagos Silenciosos?
+
+answer: Usar múltiples direcciones estáticas diferentes sin aumentar de manera irrazonable la carga de trabajo de escaneo.
+
+wrong_answers:
+  - Para encriptar las transacciones de Pagos Silenciosos y ocultar al verdadero destinatario de la transacción.
+  - Usar múltiples direcciones estáticas diferentes que no pueden ser vinculadas por un observador externo.
+  - Colocar una etiqueta visible en la cadena de bloques para identificar los Pagos Silenciosos de manera similar a una referencia de pago.
+
+explanation: |
+  Las etiquetas se utilizan para generar múltiples direcciones estáticas a partir de la dirección estática principal, lo que facilita la organización de la billetera. Sin embargo, un observador externo podría establecer fácilmente un vínculo entre estas direcciones estáticas etiquetadas, ya que la clave pública de escaneo es la misma para todas.
+
+reviewed: false

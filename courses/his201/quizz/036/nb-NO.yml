@@ -1,0 +1,9 @@
+question: Hvem designet det første ekte Bitcoin-logoet (en gyllen stor B krysset av to vertikale linjer) i februar 2010?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  Han brukte NewLibertyStandards forslag om å bruke det thailandske baht-symbolet (฿). Det oransje logoet ble senere skapt av noen kjent som bitboy.
+reviewed: false

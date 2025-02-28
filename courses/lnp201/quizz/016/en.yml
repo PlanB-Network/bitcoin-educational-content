@@ -1,0 +1,9 @@
+question: When is a commitment transaction published on the Bitcoin blockchain?
+answer: Eventually when the channel is closed
+wrong_answers:
+  - Immediately after each transfer in the channel
+  - Before each new commitment transaction
+  - When the available funds are exhausted
+explanation: |
+  Commitment transactions are built and signed for each change in allocation, but they are only eventually published on the blockchain in the event of channel closure.
+reviewed: false

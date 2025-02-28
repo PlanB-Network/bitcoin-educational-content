@@ -1,0 +1,9 @@
+question: Payment rails built on top of traditional currency systems are ?
+answer: Essentially paid for by the merchants through fees of the payment processors
+wrong_answers:
+  - Essentially free because the customer pays the price displayed by the merchant
+  - Paid for by the customer on top of the merchant's asking price
+  - Paid for by the card companies who resell customer's data
+explanation: |
+  Nothing is free. The payment rails built in the traditional currency systems are operated by various vendors such as card companies and acquiring banks who charge a fixed fee and/or a precent fee for each transaction
+reviewed: false

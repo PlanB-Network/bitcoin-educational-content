@@ -1,0 +1,9 @@
+question: Que tipo de criptografia utiliza blocos de dados fixos?
+answer: Criptografia de bloco
+wrong_answers:
+  - Criptografia de fluxo
+  - Código de autenticação de mensagem
+  - Chave pública
+explanation: |
+  A criptografia de bloco divide os dados em blocos de tamanho fixo e os criptografa independentemente.
+reviewed: false

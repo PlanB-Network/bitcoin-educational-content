@@ -1,9 +1,0 @@
-question: Quais são algumas das linguagens de programação usadas em segurança cibernética?
-answer: Python, C, Java
-wrong_answers:
-  - HTML, CSS, JavaScript
-  - Swift, Kotlin, Ruby
-  - PHP, Perl, Lua
-explanation: |
-  O capítulo lista Python, C e Java como algumas das linguagens de programação usadas em segurança cibernética.
-reviewed: false

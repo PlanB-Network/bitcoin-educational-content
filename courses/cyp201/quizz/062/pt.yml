@@ -1,0 +1,8 @@
+question: O que uma chave pública estendida permite derivar?
+answer: Apenas chaves públicas filhas normais
+wrong_answers:
+  - Apenas chaves privadas filhas normais
+  - Tanto chaves públicas filhas endurecidas quanto normais
+  - Tanto chaves privadas filhas endurecidas quanto normais
+explanation: |
+  Uma chave pública estendida permite apenas a derivação de chaves públicas filhas normais, não chaves privadas ou chaves endurecidas.

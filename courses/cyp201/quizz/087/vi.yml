@@ -1,0 +1,9 @@
+question: Đặc điểm độc đáo của địa chỉ SegWit v1 (P2TR) so với địa chỉ SegWit v0 là gì?
+answer: Chúng trực tiếp sử dụng khóa công khai thô trong địa chỉ.
+wrong_answers:
+  - Chúng được mã hóa trong base58check.
+  - Chúng yêu cầu hai chữ ký để được coi là hợp lệ.
+  - Chúng sử dụng băm khóa công khai trong địa chỉ.
+explanation: |
+  Địa chỉ SegWit v1 (P2TR) không sử dụng băm của khóa công khai, mà trực tiếp sử dụng khóa công khai Taproot.
+reviewed: false

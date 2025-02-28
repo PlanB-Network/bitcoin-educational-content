@@ -1,0 +1,9 @@
+question: Quelle est la taille en bits d'un segment binaire utilisé pour créer chaque mot mnémonique ?
+answer: 11 bits
+wrong_answers:
+  - 8 bits
+  - 16 bits
+  - 10 bits
+explanation: |
+  Chaque segment de 11 bits correspond à un mot de la liste standardisée de 2048 mots du BIP39.
+reviewed: false

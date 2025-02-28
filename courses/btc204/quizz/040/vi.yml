@@ -1,0 +1,9 @@
+question: Tại sao bitcoin mua qua các sàn giao dịch P2P thường đắt hơn so với những cái được mua trên các nền tảng được quản lý?
+answer: Rủi ro bổ sung, phí giao dịch, và phụ phí cho sự riêng tư.
+wrong_answers:
+  - Biến động thị trường, rủi ro gấp đôi chi tiêu, và tuân thủ pháp luật.
+  - Phí đăng ký, lựa chọn hạn chế, và thời gian xác thực lâu hơn.
+  - Phí đăng ký, quy định nghiêm ngặt, và an ninh thấp.
+explanation: |
+  Bitcoin bán trên các nền tảng P2P nói chung đắt hơn so với những cái từ các nền tảng được quản lý. Sự chênh lệch giá này là do một số yếu tố: người bán phải chịu nhiều rủi ro hơn, họ cũng phải trang trải thêm chi phí, và sàn giao dịch cung cấp cho người mua một mức độ riêng tư cao hơn.
+reviewed: false

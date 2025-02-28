@@ -1,0 +1,9 @@
+question: Que permet le sighash flag SIGHASH_NONE ?
+answer: Modifier les outputs après la signature
+wrong_answers:
+  - Modifier les inputs après la signature
+  - Couvrir tous les inputs et outputs
+  - Restreindre les modifications uniquement à un output
+explanation: |
+  SIGHASH_NONE couvre uniquement les inputs, laissant les outputs modifiables après la signature.
+reviewed: false

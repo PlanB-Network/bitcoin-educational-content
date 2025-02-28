@@ -1,0 +1,9 @@
+question: Qual é o principal objetivo dos HTLCs na Lightning Network?
+answer: Permitir transferências de pagamento seguras por meio de nós intermediários sem exigir confiança neles
+wrong_answers:
+  - Reduzir as taxas de transação para cada pagamento por meio de nós intermediários
+  - Aumentar a capacidade de cada canal de pagamento
+  - Estabelecer conexões diretas entre todos os nós da rede com sua confiança
+explanation: |
+  Os HTLCs (Hashed Time-Locked Contracts) garantem que cada nó intermediário transferirá o pagamento sem reter os fundos, pois só pode desbloqueá-los completando a transação até o destinatário final.
+reviewed: false

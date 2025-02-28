@@ -4,7 +4,7 @@ name: Blue Wallet
 description: Radically Simple and Powerful Bitcoin Wallet
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Blue Wallet is an open-source bitcoin wallet that is extremely easy to use yet flexible.
 

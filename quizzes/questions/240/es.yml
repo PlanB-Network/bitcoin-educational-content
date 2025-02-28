@@ -1,9 +1,0 @@
-question: ¿Cómo podría el Lightning Network cambiar potencialmente los modelos de pago?
-answer: Los usuarios podrían ser cobrados por minuto, o incluso por segundo, por el tiempo que pasen utilizando un servicio.
-wrong_answers:
-  - Los usuarios podrían ser cobrados una tarifa fija por utilizar un servicio.
-  - Los usuarios podrían ser cobrados en función de la cantidad de datos que utilicen.
-  - Los usuarios podrían ser cobrados en función del número de transacciones que realicen.
-explanation: |
-  Con el Lightning Network, en lugar de pagar una suscripción mensual por un servicio, los usuarios podrían ser cobrados por minuto, o incluso por segundo, por el tiempo que pasen utilizando el servicio.
-reviewed: false

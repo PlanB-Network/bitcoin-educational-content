@@ -1,9 +1,0 @@
-question: Wie kann man bestätigen, dass man sich auf der beabsichtigten Website befindet?
-answer: Überprüfen Sie die URLs und das kleine Vorhängeschloss in der Adressleiste.
-wrong_answers:
-  - Überprüfen Sie die Anzahl der Werbeanzeigen auf der Website.
-  - Überprüfen Sie die Geschwindigkeit der Website.
-  - Überprüfen Sie das Farbschema der Website.
-explanation: |
-  Das Überprüfen der URLs und des kleinen Vorhängeschlosses in der Adressleiste ist eine Möglichkeit, zu bestätigen, dass Sie sich auf der beabsichtigten Website befinden. Das Vorhängeschloss zeigt an, dass die Website das HTTPS-Protokoll verwendet, das Daten für einen sicheren Austausch verschlüsselt.
-reviewed: false

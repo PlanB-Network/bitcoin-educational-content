@@ -1,9 +1,0 @@
-question: Was ist die empfohlene Verwendung einer mobilen Geldbörse?
-answer: Für tägliche Ausgaben
-wrong_answers:
-  - Für langfristige Ersparnisse
-  - Für mittelfristige Ersparnisse
-  - Für große Beträge
-explanation: |
-  Eine mobile Geldbörse wird für tägliche Ausgaben empfohlen, da es einfach ist, Transaktionen damit durchzuführen. Es wird jedoch nicht empfohlen, große Beträge darin zu speichern oder für langfristige Ersparnisse zu verwenden, da sie potenziell anfällig für Online-Bedrohungen ist.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Quel Président des États-Unis, durant sa jeunesse, a diffusé les idées de Bastiat lors de séminaires en entreprise ?
+answer: Ronald Reagan
+wrong_answers:
+  - Franklin Roosevelt
+  - George Bush
+  - Dwight D. Eisenhower
+explanation: |
+  Ronald Reagan, avant de devenir président, a diffusé les idées libérales de Bastiat et autres économistes lors de séminaires pour General Electric.
+reviewed: false

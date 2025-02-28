@@ -1,0 +1,9 @@
+question: Pourquoi est-il important de suivre la valeur fiduciaire au moment de chaque transaction en bitcoins ?
+answer: Assurer une comptabilité précise et la conformité fiscale
+wrong_answers:
+  - Pour augmenter automatiquement le solde du portefeuille
+  - Permettre des transactions en temps réel directement à partir du portefeuille
+  - Réduire les frais de transaction imposés par le réseau
+explanation: |
+  Le suivi de la valeur en monnaie fiduciaire aide les entreprises à gérer la comptabilité en fonction des fluctuations du cours du bitcoin.
+reviewed: false

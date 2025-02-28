@@ -1,0 +1,8 @@
+question: Mikä on PBKDF2 n ensisijainen rooli Bitcoinissa?
+answer: HD-lompakon siemenen generointi
+wrong_answers:
+  - Transaktioiden autentikointi
+  - Yksityisavainten salaus
+  - Bitcoin-osoitteiden luonti
+explanation: |
+  PBKDF2 tä käytetään johdattamaan siemen muistisanoista ja valinnaisesta salasanasta.

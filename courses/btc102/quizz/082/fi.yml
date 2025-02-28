@@ -1,0 +1,9 @@
+question: Mikä on Bitcoin-sijoittajan päätavoite sijoituspäätöksissä?
+answer: Kerätä mahdollisimman paljon satosheja
+wrong_answers:
+  - Lyhyen aikavälin hintaliikkeet
+  - Tavaroiden tai palveluiden myyminen Bitcoinissa
+  - Suuren määrän Bitcoinin ostaminen kerralla
+explanation: |
+  Bitcoin-sijoittajan päätavoite sijoituspäätöksissä on kerätä mahdollisimman paljon satosheja. Tämä saavutetaan Dollar-Cost Averaging (DCA) -suunnitelman laatimisella ja muiden ratkaisujen etsimisellä satoshien kerryttämiseksi.
+reviewed: false

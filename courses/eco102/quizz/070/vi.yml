@@ -1,0 +1,9 @@
+question: Lực lượng chính thúc đẩy tổ chức xã hội theo Bastiat là gì?
+answer: Thị trường
+wrong_answers:
+  - Nhà nước
+  - Tôn giáo
+  - Truyền thống
+explanation: |
+  Bastiat tin rằng thị trường tự do là lực lượng thực sự thúc đẩy tổ chức xã hội vì nó cho phép sự phối hợp tự phát và hiệu quả giữa các cá nhân.
+reviewed: false

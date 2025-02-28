@@ -1,0 +1,11 @@
+question: Qual è la regola d'oro per proteggersi dalle email fraudolente?
+answer: Controllare attentamente il nome completo del mittente così come l'origine dell'email.
+wrong_answers:
+  - Rispondere sempre alle email sospette.
+  - Aprire tutti gli allegati email per controllarne il contenuto.
+  - Condividere le proprie informazioni personali solo con mittenti conosciuti.
+explanation: |
+  La regola d'oro per proteggersi dalle email fraudolente
+  è controllare attentamente il nome completo del mittente
+  così come l'origine dell'email. In caso di dubbio, eliminarla!
+reviewed: true

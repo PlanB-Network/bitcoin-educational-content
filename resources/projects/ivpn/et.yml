@@ -1,0 +1,12 @@
+description: |
+  IVPN on privaatsust väärtustav VPN-teenus, mis ei logi kasutaja tegevust ning ei kogu ega säilita registreerimisel isikuandmeid. Me aktsepteerime makseid sularahas, Moneros ja Bitcoinis. Oleme pühendunud läbipaistvusele ja turvalisusele, meie veebisait ja kõik IVPN-i rakendused on avatud lähtekoodiga.
+
+  Meie serverid, sealhulgas e-post ja reaalajas vestlus, on ise majutatud ja meie poolt opereeritud. Me võtame kohustuseks teha igal aastal sõltumatuid turvaauditeid ning ei tegele vale reklaamiga, nagu arvustuste eest maksmine või anonüümsuse lubamine.
+
+  Me regulaarselt toetame organisatsioone nagu EFF, Open Rights Group ja Tor projekt. Meie ärimudel põhineb ainult tasulistel tellimustel, ilma kõrvalteenusteta või VPN-i arvustuste saitideta.
+
+  Meie funktsioonide hulka kuuluvad valik WireGuard, OpenVPN või IPSec protokolle, AntiTracker, mis blokeerib reklaame ja jälgijaid, Killswitch/Firewall valik, privaatsed logimata DNS-serverid, mitmehüppelised VPN marsruudid, pordi suunamine ja Obfsproxy tsensuuri ümbersõitmiseks.
+
+  Kuigi me selgitame, et VPN-id ei saavuta anonüümsust ega takista andmete kogumist selliste hiiglaste poolt nagu Google või Facebook, kinnitame, et usaldusväärne VPN nagu meie suudab tõhusalt krüpteerida teie andmeid ja DNS päringuid, suurendada turvalisust usaldamatutel avalikel võrkudel, maskeerida teie IP-aadressi ning ümbersõita tsensuuri või geograafilisi blokke. Oleme usaldusväärne osa teie privaatsuskaitse strateegiast, eeldusel, et usaldate meid rohkem kui oma ISP-d.
+contributors:
+  - rabbit-hole

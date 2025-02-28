@@ -1,0 +1,9 @@
+question: What are the 2 elements that make up the block reward in a coinbase transaction?
+answer: The block subsidy and the transaction fees.
+wrong_answers:
+  - The block subsidy and the speed bonuses.
+  - The emission rights and the security premiums.
+  - The mining dividends and the network taxes.
+explanation: |
+  When a miner finds a valid block, they are entitled to a reward composed of, on one hand, the block subsidy, and on the other hand, the fees of the transactions they have included in their block.
+reviewed: false

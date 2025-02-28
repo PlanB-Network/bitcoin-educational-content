@@ -1,0 +1,9 @@
+question: Co systém transakcí s pevným závazkem zaručuje účastníkům Lightning kanálu?
+answer: Že každý může obnovit své prostředky zveřejněním poslední podepsané transakce
+wrong_answers:
+  - Že transakce jsou viditelné na Bitcoin blockchainu
+  - Že kapacita kanálu se zvyšuje s každou transakcí
+  - Že poplatky jsou sdíleny mezi oběma účastníky
+explanation: |
+  Podepsané transakce s pevným závazkem zajišťují, že každý účastník může obnovit své prostředky zveřejněním nejnovější verze v případě, že se kanál uzavře.
+reviewed: false

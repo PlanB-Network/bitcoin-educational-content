@@ -1,0 +1,9 @@
+question: Jaká je role poplatků za směrování v Lightning Network?
+answer: Motivovat prostředníkové uzly, aby poskytovali svou likviditu pro přenos plateb
+wrong_answers:
+  - Omezit počet transakcí v síti
+  - Zajistit, aby každý kanál měl dostatečné finanční prostředky
+  - Automaticky vypočítat nejkratší cestu
+explanation: |
+  Poplatky za směrování se používají k odměně prostředníkových uzlů, které přeposílají platby tím, že nabízejí svou likviditu pro umožnění přenosu finančních prostředků napříč sítí.
+reviewed: false

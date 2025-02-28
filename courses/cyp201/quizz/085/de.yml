@@ -1,0 +1,9 @@
+question: Welche Operation ist notwendig, um einen Taproot-Öffentlichen Schlüssel Q zu berechnen?
+answer: Den Tweak tG zum öffentlichen Schlüssel P addieren
+wrong_answers:
+  - Den privaten Schlüssel p mit dem Tweak multiplizieren
+  - Den öffentlichen Schlüssel P mit SHA256 hashen
+  - Den Tweak t und den öffentlichen Schlüssel P konkatenieren
+explanation: |
+  Der Taproot-Öffentliche Schlüssel Q wird erhalten, indem das Skalarprodukt des Tweak t mit dem Generator G zum öffentlichen Schlüssel P addiert wird.
+reviewed: false

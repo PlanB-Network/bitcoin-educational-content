@@ -1,0 +1,9 @@
+question: ¿Por qué es impráctico el intercambio de claves en persona para las comunicaciones en línea seguras?
+answer: Conduce a altos costos organizacionales mientras es ineficiente
+wrong_answers:
+  - Hace que la comunicación cifrada sea inutilizable
+  - Requiere el uso de múltiples claves por cliente
+  - Impide la reutilización de claves para transacciones repetidas
+explanation: |
+  Intercambiar claves en persona es costoso e ineficiente, especialmente a gran escala, ya que ralentiza las transacciones e impone significativos costos logísticos para cada nuevo cliente.
+reviewed: false

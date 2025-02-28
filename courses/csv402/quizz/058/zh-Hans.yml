@@ -1,0 +1,9 @@
+question: curl -X POST /issueassetnia "可以在RLN上做什么？
+answer: 创建新的可替代、非通胀 RGB 资产
+wrong_answers:
+  - 创建新的不可磨损 RGB 资产
+  - 创建新的可替代通胀 RGB 资产
+  - 创建一个新的半封闭 RGB 资产
+explanation: |
+  /issueassetnia "命令用于签发新的 RGB NIA（"非充气资产"）令牌。
+reviewed: false

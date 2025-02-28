@@ -1,0 +1,9 @@
+question: Jaký je poslední krok pro otevření kanálu na Lightning Network?
+answer: Publikovat transakci vkladu na Bitcoin blockchainu
+wrong_answers:
+  - Podepsat transakci pro vybrání prostředků k jejich získání zpět
+  - Poslat potvrzovací zprávu o otevření druhé straně
+  - Ověřit zůstatek prostředků každého účastníka
+explanation: |
+  Posledním krokem pro otevření kanálu je publikování transakce vkladu na blockchain, což oficiálně otevírá kanál.
+reviewed: false

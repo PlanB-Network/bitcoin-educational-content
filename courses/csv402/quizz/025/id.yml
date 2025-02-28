@@ -1,0 +1,9 @@
+question: Apa saja empat komponen yang menentukan kontrak RGB?
+answer: Kejadian, Skema, Antarmuka, dan Implementasi Antarmuka
+wrong_answers:
+  - Kejadian, Skema, Transisi, dan Implementasi Antarmuka
+  - Kejadian, Antarmuka, Transisi, dan Ekstensi
+  - Kejadian, Antarmuka, Implementasi Antarmuka, dan Ekstensi
+explanation: |
+  Kontrak RGB terdiri dari empat elemen yang berbeda; Genesis, Skema, Antarmuka, dan Implementasi Antarmuka.
+reviewed: false

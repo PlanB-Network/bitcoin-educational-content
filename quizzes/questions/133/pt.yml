@@ -1,9 +1,0 @@
-question: Qual é a importância da distribuição geográfica dos nós do Bitcoin?
-answer: Isso torna praticamente impossível destruir todas as cópias do blockchain.
-wrong_answers:
-  - Isso determina o preço do Bitcoin em diferentes regiões.
-  - Isso afeta a velocidade das transações do Bitcoin.
-  - Isso determina a quantidade de Bitcoins que podem ser minerados em uma região.
-explanation: |
-  A distribuição geográfica dos nós do Bitcoin torna praticamente impossível destruir todas as cópias do blockchain. Isso ocorre porque os nós estão espalhados e seria difícil apreendê-los fisicamente.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Como as várias stablecoins da Tether contribuem para a liberdade financeira de indivíduos em economias instáveis?
+answer: Ao proporcionar acesso a moedas com taxas de câmbio estáveis
+wrong_answers:
+  - Ao eliminar a necessidade de dinheiro físico
+  - Ao oferecer taxas de juros mais altas sobre poupanças
+  - Ao possibilitar transações globais instantâneas
+explanation: |
+  As várias stablecoins da Tether são atreladas a ativos estáveis como o dólar americano ou ouro. Essa estabilidade permite que indivíduos em economias instáveis movam seu dinheiro para uma moeda que não está sujeita às mesmas taxas de inflação, ajudando-os a manter o valor de suas economias.
+reviewed: true

@@ -1,0 +1,9 @@
+question: ¿Cuál es el objetivo principal de los compromisos deterministas de Bitcoin?
+answer: Garantizar que se inserta un único compromiso en una transacción
+wrong_answers:
+  - Simplificar la estructura de las transacciones Bitcoin
+  - Reducir los costes de transacción de RGB
+  - Optimización de la generación de multifirmas RGB
+explanation: |
+  Los compromisos deterministas de Bitcoin garantizan que se inserte un único compromiso en una transacción, para evitar compromisos ocultos en competencia.
+reviewed: false

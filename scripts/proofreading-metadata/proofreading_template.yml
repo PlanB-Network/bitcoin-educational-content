@@ -1,0 +1,20 @@
+original_language: en
+proofreading:
+  - language: fr
+    last_contribution_date: 2024-06-19
+    urgency: 1
+    contributors_id:
+      - user123
+      - user234
+    reward: 20000
+  - language: en # content reviewed once
+    last_contribution_date: 2024-06-19
+    urgency: 1
+    contributors_id:
+      - user123
+    reward: 20000
+  - language: es # language present but never reviewed
+    last_contribution_date:
+    urgency: 5 # can be set to 0, 1, 2, 5, 10
+    contributors_id:
+    reward: 80000

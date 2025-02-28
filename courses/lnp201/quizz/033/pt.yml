@@ -1,0 +1,8 @@
+question: O que significa roteamento em cebola na Rede Lightning?
+answer: Significa que cada nó intermediário só conhece seus vizinhos imediatos no caminho.
+wrong_answers:
+  - Transmitir fundos diretamente de nó para nó sabendo o destinatário final
+  - Calcular taxas para cada nó intermediário independentemente
+  - Enviar fundos para todos os nós no caminho simultaneamente
+explanation: |
+  Roteamento em cebola significa que cada nó intermediário só conhece o nó anterior e o próximo, preservando assim a confidencialidade do destinatário final.

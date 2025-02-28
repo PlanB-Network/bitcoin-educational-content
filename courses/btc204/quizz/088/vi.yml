@@ -1,0 +1,11 @@
+question: Wabisabi sử dụng chiến lược gì để tăng anonsets cho người tham gia?
+
+answer: Với một vài giao dịch lớn.
+
+wrong_answers:
+  - Với nhiều giao dịch nhỏ.
+  - Với một giao dịch nhỏ.
+  - Không có giao dịch nào.
+
+explanation: |
+  Để tăng anonsets cho người tham gia, Wabisabi sử dụng các giao dịch coinjoin rất lớn, kết hợp hàng chục người tham gia lại với nhau.

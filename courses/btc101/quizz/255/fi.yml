@@ -1,0 +1,10 @@
+question: Mikä on yksi pääsyy siihen, miksi Bitcoin luotiin?
+answer: Ehdottamaan rahoitusjärjestelmän muutosta.
+wrong_answers:
+  - Ehdottamaan rahan poistamista.
+  - Ehdottamaan uudenlaisen tekoälyteknologian luomista.
+  - Ehdottamaan maailman väestön hallinnan ottamista.
+explanation: |
+  Tekstissä mainitaan, että Satoshi Nakamoto loi Bitcoinin
+  vuonna 2008 ehdottaakseen rahoitusjärjestelmän muutosta.
+reviewed: true

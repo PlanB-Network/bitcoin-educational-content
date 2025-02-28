@@ -1,0 +1,12 @@
+question: Wie belohnt das Bitcoin-Protokoll den Miner, der einen gültigen Hash für den nachfolgenden Block findet?
+answer: Mit einer durch Konsensregeln definierten Belohnung und mit den Gebühren aus allen Transaktionen, die im gültigen Block enthalten sind.
+wrong_answers:
+  - Mit einer festgelegten Menge an Bitcoins, die nicht durch Konsensregeln definiert ist.
+  - Mit einem Prozentsatz der gesamten Bitcoin-Versorgung und den Gebühren aus allen Transaktionen, die in den vorherigen Blöcken enthalten sind.
+  - Mit den Gebühren aus allen Transaktionen, die im gültigen Block enthalten sind.
+explanation: |
+  Das Bitcoin-Protokoll belohnt den Miner, der einen gültigen
+  Hash für den nachfolgenden Block findet, mit einer Belohnung, deren Höhe
+  durch die Konsensregeln definiert ist, zusammen mit den Gebühren aus
+  allen Transaktionen, die im gültigen Block enthalten sind.
+reviewed: true

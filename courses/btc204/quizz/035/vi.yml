@@ -1,0 +1,9 @@
+question: Ai đã phát hiện ra phương pháp thủ công về việc tái sử dụng địa chỉ?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  Người đầu tiên thảo luận về khái niệm này là Satoshi Nakamoto trong phần 10 của Bản Thảo Bitcoin.
+reviewed: false

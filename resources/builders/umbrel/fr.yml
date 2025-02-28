@@ -1,7 +1,0 @@
-description: |
-  Umbrel est un système d'exploitation open-source qui permet aux utilisateurs de faire fonctionner un serveur personnel chez eux, offrant la commodité du stockage en nuage avec la confidentialité et le contrôle du stockage de données local.
-  
-  Les utilisateurs peuvent héberger eux-mêmes diverses applications, notamment Nextcloud pour le stockage en nuage privé, PhotoPrism pour le stockage de photos et de vidéos, ainsi que des nœuds Bitcoin et Lightning personnels pour les transactions Bitcoin. Umbrel dispose également de sa propre boutique d'applications pour des applications auto-hébergées supplémentaires, des capacités de blocage des publicités et des intégrations d'automatisation domestique.
-contributors:
-  - rabbit-hole
-  - another-satoshi

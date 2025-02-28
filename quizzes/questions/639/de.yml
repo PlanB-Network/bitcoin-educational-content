@@ -1,9 +1,0 @@
-question: Sind Lightning-Zahlungskanäle bidirektional?
-answer: Ja
-wrong_answers:
-  - Nein
-  - Nur in einigen Fällen
-  - Es hängt vom Bitcoin-Netzwerk ab
-explanation: |
-  Zahlungskanäle sind bidirektional, das bedeutet, sie haben zwei "Seiten". Zum Beispiel können Alice und Bob einen Zahlungskanal eröffnen, und Alice kann Bitcoin an Bob senden und Bob kann Bitcoin an Alice senden.
-reviewed: false

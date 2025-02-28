@@ -1,0 +1,9 @@
+question: Which feature makes the Swiss Bitcoin Pay solution especially suitable for small businesses in the Essential profile?
+answer: A user-friendly PoS app
+wrong_answers:
+  - Advanced multi-currency trading features
+  - A multi-signature wallet management
+  - Full blockchain analytics integration
+explanation: |
+  Swiss Bitcoin Pay is designed with a straightforward PoS interface that simplifies day-to-day operations.
+reviewed: false

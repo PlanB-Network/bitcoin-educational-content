@@ -1,0 +1,13 @@
+question: Wenn Alice 40.000 Satoshis an Bob über einen Zahlungskanal sendet, in dem sie ursprünglich 100.000 Satoshis hat, wie viel Guthaben hat sie nach der Transaktion noch?
+
+answer: 60.000 Satoshis
+
+wrong_answers:
+  - 30.000 Satoshis
+  - 40.000 Satoshis
+  - 140.000 Satoshis
+
+explanation: |
+  Nachdem Alice 40.000 Satoshis gesendet hat, beträgt ihr Guthaben im Kanal 60.000 Satoshis.
+
+reviewed: false

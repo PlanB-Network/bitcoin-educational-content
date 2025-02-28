@@ -4,7 +4,7 @@ name: Breez
 description: A powerfull lightning wallet
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 To find all the importante information please refer to their extensive guide: https://doc.breez.technology/
 

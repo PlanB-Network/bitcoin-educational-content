@@ -1,0 +1,13 @@
+question: Quali sono i vantaggi dell'utilizzo dei Passkey come alternativa alle password tradizionali?
+answer: Offrono chiavi casuali criptate combinate con un fattore locale, che sono ospitate da un fornitore ma rimangono al di fuori del loro accesso.
+wrong_answers:
+  - Sono più facili da ricordare rispetto alle password tradizionali.
+  - Non richiedono alcun fattore di autenticazione aggiuntivo.
+  - Possono essere utilizzati su tutti i siti web senza alcun aggiornamento.
+explanation: |
+  I Passkey offrono chiavi casuali criptate, combinate con un
+  fattore locale (biometrico o PIN), che sono ospitate da un fornitore
+  ma rimangono al di fuori del loro accesso. Questo approccio elimina la
+  necessità di password, fornendo così un alto livello di sicurezza
+  senza i vincoli associati alle password tradizionali.
+reviewed: true

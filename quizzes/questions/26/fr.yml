@@ -1,9 +1,0 @@
-question: Quel est le principal avantage de Bitcoin par rapport aux autres formes de monnaie?
-answer: Il offre un excellent moyen de stockage de valeur en raison de son offre strictement limitée et de sa neutralité.
-wrong_answers:
-  - Il est indivisible et transportable
-  - Il est soumis à l'inflation monétaire
-  - Il est largement accepté dans le commerce
-explanation: |
-  Le principal avantage de Bitcoin par rapport aux autres formes de monnaie est qu'il offre un excellent moyen de stockage de valeur en raison de son offre strictement limitée et de l'absence de tiers de confiance. Cela en fait un bon choix pour l'épargne à long terme.
-reviewed: false

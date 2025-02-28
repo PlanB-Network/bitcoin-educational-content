@@ -1,0 +1,9 @@
+question: Berapa harga tertinggi yang pernah dicapai Bitcoin pada Juni 2011?
+answer: $32
+wrong_answers:
+  - $1
+  - $3
+  - $8
+explanation: |
+  Pada tanggal 8 Juni, harga Bitcoin mencapai puncak historisnya sebesar $32 di Mt. Gox. Namun, harga tersebut cepat jatuh setelah itu.
+reviewed: false

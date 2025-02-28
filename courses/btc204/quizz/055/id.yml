@@ -1,0 +1,13 @@
+question: Apa itu alamat penerimaan Bitcoin?
+
+answer: Sebuah rangkaian karakter yang digunakan untuk menerima bitcoin.
+
+wrong_answers:
+  - Kode yang digunakan untuk mengirim bitcoin.
+  - Algoritma untuk menambang bitcoin.
+  - Kontrak pintar.
+
+explanation: |
+  Alamat penerimaan digunakan untuk menerima bitcoin ke dalam dompet.
+
+reviewed: false

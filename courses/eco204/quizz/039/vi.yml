@@ -1,0 +1,9 @@
+question: Tác động của lạm phát cực kỳ cao đối với giá trị của tiền là gì?
+answer: Nó khiến tiền nhanh chóng mất giá trị.
+wrong_answers:
+  - Nó khiến tiền tăng giá trị.
+  - Nó không có tác động gì đến giá trị của tiền.
+  - Nó khiến giá trị của tiền biến động một cách không lường trước được.
+explanation: |
+  Trong một giai đoạn lạm phát cực kỳ cao, tiền nhanh chóng mất giá trị, làm cho việc lập kế hoạch dài hạn trở nên khó khăn.
+reviewed: false

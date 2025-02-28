@@ -1,0 +1,9 @@
+question: Hva er en kald lommebok i konteksten av Bitcoin?
+answer: En lommebok for å lagre store mengder Bitcoin offline
+wrong_answers:
+  - En lommebok som brukes for transaksjoner i kalde klima
+  - En lommebok som brukes for å lagre små mengder Bitcoin
+  - En lommebok som brukes for å lagre Bitcoin over en kort periode
+explanation: |
+  En kald lommebok er en lommebok for å lagre store mengder Bitcoin offline.
+  Den anses som mer sikker enn en varm lommebok siden den er mindre utsatt for hacking.

@@ -1,0 +1,9 @@
+question: Một trường có số lượng phần tử hữu hạn được gọi là gì?
+answer: Một trường Galois
+wrong_answers:
+  - Một trường nhân
+  - Một trường đối xứng
+  - Một trường vectơ
+explanation: |
+  Một trường hữu hạn còn được biết đến với tên là trường Galois, được đặt theo tên của nhà toán học Évariste Galois, và nó rất quan trọng trong mật mã học hiện đại.
+reviewed: false

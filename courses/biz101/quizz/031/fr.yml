@@ -1,0 +1,9 @@
+question: Comment une entreprise peut-elle choisir une solution de paiement Bitcoin adaptée à ses besoins ?
+answer: En tenant compte de facteurs tels que la fréquence des transactions, le montant moyen des paiements et le fait qu'ils soient effectués en ligne ou en personne, puis en sélectionnant une solution adaptée à cette catégorie.
+wrong_answers:
+  - En choisissant toujours la solution la plus simple, quel que soit le volume ou la complexité de la transaction.
+  - En n'utilisant que la solution la plus grande et la plus chère disponible, quelle que soit la taille de l'entreprise.
+  - En se basant uniquement sur des suppositions sans tenir compte des besoins spécifiques de l'entreprise.
+explanation: |
+  Les besoins varient d'une entreprise à l'autre. L'évaluation de facteurs tels que le volume de transactions, les méthodes de paiement (en ligne ou physique) et l'évolutivité permet à une entreprise de choisir la bonne solution de paiement en bitcoins.
+reviewed: false

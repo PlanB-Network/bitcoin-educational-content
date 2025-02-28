@@ -1,0 +1,9 @@
+question: How can a block cipher be transformed into a stream cipher?
+answer: By using modes like OFB that generate a key stream from the block cipher
+wrong_answers:
+  - By dividing the plaintext into bytes and encrypting them one by one
+  - By applying padding to messages before encryption
+  - By increasing the key length for each encrypted block
+explanation: |
+  Modes like OFB allow a block cipher to act as a stream cipher by generating a key stream, which is then used for each portion of the plaintext.
+reviewed: false

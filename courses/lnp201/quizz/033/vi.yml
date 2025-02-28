@@ -1,0 +1,11 @@
+question: Onion routing trong Lightning Network có nghĩa là gì?
+
+answer: Nó có nghĩa là mỗi nút trung gian chỉ biết về các nút láng giềng trực tiếp trên đường đi.
+
+wrong_answers:
+  - Chuyển tiền trực tiếp từ nút này sang nút khác biết người nhận cuối cùng
+  - Tính phí cho mỗi nút trung gian một cách độc lập
+  - Gửi tiền đến tất cả các nút trên đường đi cùng một lúc
+
+explanation:
+  Onion routing có nghĩa là mỗi nút trung gian chỉ biết về nút trước và nút tiếp theo, do đó bảo vệ sự bảo mật của người nhận cuối cùng.

@@ -1,9 +1,0 @@
-question: Qual è il tempo medio tra due blocchi nel protocollo Bitcoin?
-answer: 10 minuti
-wrong_answers:
-  - 5 minuti
-  - 15 minuti
-  - 20 minuti
-explanation: |
-  In media, il tempo tra due blocchi nel protocollo Bitcoin è di 10 minuti.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Welche elliptische Kurve wird im Bitcoin-Protokoll verwendet?
+answer: secp256k1
+wrong_answers:
+  - secp256r1
+  - ed25519
+  - P-384
+explanation: |
+  Bitcoin verwendet die secp256k1-Kurve, definiert durch die Gleichung y² = x³ + 7, für seine kryptografischen Operationen.
+reviewed: false

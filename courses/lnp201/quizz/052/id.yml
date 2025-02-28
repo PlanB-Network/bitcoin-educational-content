@@ -1,0 +1,8 @@
+question: Layanan apa yang memungkinkan pemindahan likuiditas ke sisi berlawanan dari sebuah saluran sambil mengambil dana di blockchain?
+answer: Loop Out
+wrong_answers:
+  - Keysend
+  - LNURL
+  - CoinSwap
+explanation: |
+  Layanan Loop Out dari Lightning Labs memungkinkan transfer dana dari saluran Lightning ke blockchain on-chain, dengan demikian mengoptimalkan kapasitas penerimaan sambil mengambil bitcoin di rantai utama.

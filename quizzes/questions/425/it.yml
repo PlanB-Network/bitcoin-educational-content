@@ -1,9 +1,0 @@
-question: Quante iterazioni esegue PBKDF2 utilizzando HMAC SHA512?
-answer: 2048 iterazioni
-wrong_answers:
-  - 1024 iterazioni
-  - 512 iterazioni
-  - 4096 iterazioni
-explanation: |
-  PBKDF2 viene utilizzato per convertire una frase mnemonica in un seed. Questo algoritmo esegue 2048 iterazioni utilizzando HMAC SHA512.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Come fa l'RGB a minimizzare la sua visibilità?
+answer: Taproot (Tapret)
+wrong_answers:
+  - OP_RETURN (Opret)
+  - Modifica della sigla
+  - Modifica dei tasti
+explanation: |
+  Taproot (Tapret) consente di inserire gli impegni in una transazione in modo discreto ed efficiente, garantendo al contempo la compatibilità con gli standard attuali.
+reviewed: false

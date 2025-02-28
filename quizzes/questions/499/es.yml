@@ -1,9 +1,0 @@
-question: ¿Qué es la semilla en el contexto de la Cartera HD?
-answer: Una secuencia alfanumérica de 512 bits que sirve como base para derivar las claves de la cartera.
-wrong_answers:
-  - Una contraseña utilizada para asegurar la cartera.
-  - Un identificador único para la cartera.
-  - Un código utilizado para generar la frase mnemotécnica.
-explanation: |
-  La semilla es una secuencia alfanumérica de 512 bits que sirve como base para derivar las claves de la cartera. Se obtiene utilizando la función pbkdf2 con la frase mnemotécnica y la contraseña.
-reviewed: false

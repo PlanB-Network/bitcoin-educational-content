@@ -1,9 +1,0 @@
-question: Was ist der Zweck von gehärteten Indizes in der HD Wallet-Struktur?
-answer: Sie werden mit einem Apostroph für bestimmte Ableitungen verwendet.
-wrong_answers:
-  - Sie werden verwendet, um Kinderschlüssel für einen bestimmten Zweck abzuleiten.
-  - Sie ermöglichen die Unterscheidung von Konten für verschiedene Kryptowährungen oder Netzwerke.
-  - Sie entsprechen den externen und internen Ketten.
-explanation: |
-  In der HD Wallet-Struktur werden gehärtete Indizes mit einem Apostroph für bestimmte Ableitungen verwendet.
-reviewed: false

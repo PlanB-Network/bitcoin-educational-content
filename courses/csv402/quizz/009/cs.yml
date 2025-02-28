@@ -1,0 +1,9 @@
+question: Proč se u závazků RGB doporučuje používat Tapret místo Opretu?
+answer: Minimalizovat viditelnost a vyhnout se cenzuře
+wrong_answers:
+  - Snížení transakčních nákladů
+  - Protože OP_RETURN není kompatibilní se systémem Lightning
+  - Maximalizovat velikost závazků
+explanation: |
+  Tapret umožňuje integrovat závazky diskrétně, na rozdíl od OP_RETURN, který je okamžitě zviditelňuje a podléhá cenzuře.
+reviewed: false

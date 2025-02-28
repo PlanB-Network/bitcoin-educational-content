@@ -1,0 +1,9 @@
+question: Mikä on todennetun salausjärjestelmän päätavoite?
+answer: Varmistaa viestinnän luottamuksellisuus ja aitous
+wrong_answers:
+  - Avainten luominen turvallisella tavalla
+  - MACien korvaaminen kryptografisissa vaihdoissa
+  - Salattujen viestien automaattinen purkaminen
+explanation: |
+  Todennettu salausjärjestelmä yhdistää salauksen ja autentikointikoodin (MAC) taatakseen sekä viestien luottamuksellisuuden että niiden aitouden.
+reviewed: false

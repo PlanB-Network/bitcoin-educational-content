@@ -1,0 +1,9 @@
+question: Why is scarcity an essential property of a good currency?
+answer: It preserves value
+wrong_answers:
+  - It guarantees that only physical assets can be used as currency
+  - It ensures that the currency is widely available to every individual
+  - It ensures that the currency must always be backed by a commodity like gold
+explanation: |
+  Scarcity prevents the excessive creation of currency, thereby maintaining its value and purchasing power over time.
+reviewed: false

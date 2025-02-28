@@ -1,0 +1,8 @@
+question: What is the main function of output script descriptors?
+answer: To fully describe an output script and provide the information needed to restore a wallet
+wrong_answers:
+  - Automatically generate multisignature addresses
+  - Replace the mnemonic phrase in wallet backups
+  - Simplify the calculations of digital signatures
+explanation: |
+  Descriptors encapsulate all the necessary information to track a particular script, including the derivation path and the keys used, but not the recovery phrase.

@@ -1,9 +1,0 @@
-question: Qual é o limite para transações sem identificação em caixas eletrônicos na França?
-answer: 500 euros
-wrong_answers:
-  - 1000 euros
-  - 2000 euros
-  - 3000 euros
-explanation: |
-  Os caixas eletrônicos na França são regulamentados e exigem identificação para transações acima de 500 euros.
-reviewed: false

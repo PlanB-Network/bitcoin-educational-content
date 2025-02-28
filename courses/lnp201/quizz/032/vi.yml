@@ -1,0 +1,13 @@
+question: Vai trò của phí định tuyến trong Mạng Lưới Lightning là gì?
+
+answer: Để khuyến khích các nút trung gian cung cấp tính thanh khoản của họ cho việc chuyển giao thanh toán
+
+wrong_answers:
+  - Để hạn chế số lượng giao dịch trên mạng
+  - Để đảm bảo mỗi kênh có đủ quỹ
+  - Để tự động tính toán đường đi ngắn nhất
+
+explanation: |
+  Phí định tuyến được sử dụng để bù đắp cho các nút trung gian chuyển tiền bằng cách cung cấp tính thanh khoản của họ để kích hoạt việc chuyển tiền qua mạng.
+
+reviewed: false

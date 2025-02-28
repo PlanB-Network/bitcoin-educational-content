@@ -1,0 +1,13 @@
+question: Wie können wir die Auswirkungen von COIH beim Zusammenführen von UTXOs minimieren?
+
+answer: Indem wir nur UTXOs aus der gleichen Quelle zusammenführen.
+
+wrong_answers:
+  - Indem wir UTXOs an Adressen Dritter senden.
+  - Indem wir UTXOs zufällig auswählen, um erkennbare Muster zu vermeiden.
+  - Indem wir UTXOs in Zeiten geringer Aktivität zusammenführen.
+
+explanation: |
+  Wenn Sie in der Situation sind, Ihre Bitcoins zusammenführen zu müssen, priorisieren Sie zuerst das Zusammenführen von UTXOs aus der gleichen Quelle.
+
+reviewed: false

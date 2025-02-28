@@ -1,0 +1,9 @@
+question: Quale dei seguenti software non è una soluzione contabile Bitcoin?
+answer: Passero
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow non è una soluzione di contabilità Bitcoin, mentre le altre lo sono (è un software per portafogli Bitcoin).
+reviewed: false

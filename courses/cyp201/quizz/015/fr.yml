@@ -1,0 +1,9 @@
+question: Quel type de clé est utilisée pour verrouiller les UTXOs sur Bitcoin ?
+answer: Clé publique
+wrong_answers:
+  - Clé privée
+  - Hachage de graine
+  - Phrase mnémonique
+explanation: |
+  Les UTXOs sont verrouillés avec une clé publique ou son hachage, et déverrouillés avec la clé privée correspondante.
+reviewed: false

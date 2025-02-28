@@ -1,0 +1,9 @@
+question: Qual è il ruolo principale di una chiave privata nel sistema Bitcoin?
+answer: Firmare le transazioni per soddisfare uno script
+wrong_answers:
+  - Funzionare come identificatore per ricevere bitcoin
+  - Conservare i fondi in modo sicuro sulla blockchain
+  - Creare script di blocco per proteggere i bitcoin
+explanation: |
+  La chiave privata è utilizzata per firmare le transazioni al fine di soddisfare uno script e sbloccare i bitcoin.
+reviewed: false

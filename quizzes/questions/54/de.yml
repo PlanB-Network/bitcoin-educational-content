@@ -1,9 +1,0 @@
-question: In welchem Fall wurde eine äquivalente tägliche Inflationsrate von 100% beobachtet?
-answer: In Simbabwe, 2007
-wrong_answers:
-  - In Ungarn, 1945
-  - In China, 1940
-  - Dies ist ein unrealistischer Fall, der nicht eintreten kann
-explanation: |
-  Eine Inflationsrate von 100% pro Tag ist ein realistisches Szenario, das in Simbabwe im Jahr 2007 aufgetreten ist, da der Geldwert sich ungefähr alle 24 Stunden verdoppelt hat.
-reviewed: false

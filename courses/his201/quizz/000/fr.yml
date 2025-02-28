@@ -1,0 +1,9 @@
+question: En quelle année la cryptographie asymétrique a-t-elle été officiellement découverte ?
+answer: 1976
+wrong_answers:
+  - 1676
+  - 1776
+  - 1876
+explanation: |
+  Elle a été présentée par Whitfield Diffie et Martin Hellman, deux cryptographes de l'université Stanford, dans un article publié en novembre 1976.
+reviewed: false

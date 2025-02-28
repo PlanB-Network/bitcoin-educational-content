@@ -1,0 +1,9 @@
+question: Why is exchanging keys in person impractical for secure online communications?
+answer: It leads to high organizational costs while being inefficient
+wrong_answers:
+  - It makes encrypted communication unusable
+  - It requires the use of multiple keys per client
+  - It prevents the reuse of keys for repeated transactions
+explanation: |
+  Exchanging keys in person is costly and inefficient, especially on a large scale, as it slows down transactions and imposes significant logistical costs for each new client.
+reviewed: false

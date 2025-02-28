@@ -1,0 +1,9 @@
+question: Pourquoi est-il déconseillé de publier des adresses de réception sur les réseaux sociaux ?
+answer: Parce qu'elles peuvent permettre de relier des activités onchain à une identité réelle.
+wrong_answers:
+  - Parce qu'elles peuvent être facilement piratées par des hackers malveillants.
+  - Parce qu'elles pourraient attirer des offres frauduleuses et vous exposer à des campagnes d'hameçonnage.
+  - Parce qu'elles peuvent permettre d'appliquer l'heuristique de propriété commune des inputs.
+explanation: |
+   La diffusion d'adresses de réception Bitcoin sur internet peut être utilisée comme un point d'entrée pour une analyse de chaîne en reliant une identité (réelle ou pseudonyme) avec une activité onchain.
+reviewed: false

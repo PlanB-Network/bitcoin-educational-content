@@ -1,0 +1,11 @@
+question: ¿Por qué es crucial actualizar regularmente el sistema operativo y las aplicaciones?
+answer: Para protegerse contra nuevas amenazas y vulnerabilidades.
+wrong_answers:
+  - Para hacer la máquina obsoleta.
+  - Para ralentizar la máquina.
+  - Para cambiar la interfaz de usuario.
+explanation: |
+  Las actualizaciones regulares son esenciales para proteger el sistema de
+  nuevas amenazas y vulnerabilidades. No tienen como objetivo
+  hacer la máquina obsoleta o más lenta.
+reviewed: true

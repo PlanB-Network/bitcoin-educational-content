@@ -1,0 +1,9 @@
+question: ¿Por qué una empresa podría considerar mantener Bitcoin en lugar de activos "seguros" tradicionales como los bienes inmuebles?
+answer: Bitcoin puede superar potencialmente la inflación real y no está ligado a la iliquidez y los costes de mantenimiento de los bienes inmuebles.
+wrong_answers:
+  - Los bienes inmuebles son siempre más baratos que Bitcoin y nunca necesitan mantenimiento.
+  - Bitcoin ofrece garantías respaldadas por el gobierno que los bienes inmuebles no ofrecen.
+  - Los bienes inmuebles se revalorizan más rápido que el Bitcoin en todas las condiciones de mercado.
+explanation: |
+  Los bienes inmuebles a menudo implican restricciones de liquidez y costes continuos, y pueden no seguir el ritmo de la inflación oculta en un sistema monetario basado en la deuda. La escasez y el alcance global de Bitcoin ofrecen una propuesta de depósito de valor distinta que puede superar a los activos tradicionales a largo plazo.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Qual è il ruolo dei minatori di Bitcoin nel mondo dell'energia?
-answer: I minatori di Bitcoin sono costantemente alla ricerca di fonti di energia a basso costo, spesso quelle che vengono sprecate o non sfruttate. Possono agire come una fonte di domanda flessibile, pronti a consumare questa energia "orfana", contribuendo così a compensare i costi infrastrutturali.
-wrong_answers:
-  - I minatori di Bitcoin sono costantemente alla ricerca di fonti di energia rinnovabile per ridurre la loro impronta di carbonio.
-  - I minatori di Bitcoin sono costantemente alla ricerca di fonti di energia nucleare per alimentare le loro operazioni di mining.
-  - I minatori di Bitcoin sono costantemente alla ricerca di fonti di energia solare per alimentare le loro operazioni di mining.
-explanation: |
-  Il capitolo spiega che i minatori di Bitcoin sono costantemente alla ricerca di fonti di energia a basso costo, spesso quelle che vengono sprecate o non sfruttate. Possono agire come una fonte di domanda flessibile, pronti a consumare questa energia "orfana", contribuendo così a compensare i costi infrastrutturali.
-reviewed: false

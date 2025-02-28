@@ -1,0 +1,11 @@
+question: What does it mean for Bitcoin to be a neutral currency?
+answer: It is not controlled by any entity or institution.
+wrong_answers:
+  - It is controlled by a single entity or institution.
+  - It is regulated by the government.
+  - It is only used for big transactions.
+explanation: |
+  Bitcoin is a neutral currency, meaning it is not controlled
+  by any entity or institution, so every user has the same
+  rights. This is a key aspect of its decentralization.
+reviewed: true

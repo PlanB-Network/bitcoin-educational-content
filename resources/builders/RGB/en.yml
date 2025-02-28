@@ -1,9 +1,0 @@
-description: |
-  RGB is a protocol to create contracts for the issuance of assets or more generic rights on top of Bitcoin. A contract defines the rights being issued and the validation rules to transfer them to future owners.
-  
-  The protocol embraces the client-side validation model, which consists in keeping all the transaction specific data off-chain, have them exchanged only between the sender and the receiver of the transaction and use the Bitcoin blockchain only as a commitment. Doing so, scalability, privacy and extensibility advantages are gained compared to alternative protocols that keep all the logic on-chain.
-  
-  The most immediate use cases for RGB are fungible and collectible assets issuance, but the protocol is sufficiently generalised to also support other use cases, such as decentralised identities, decentralised DNS and proof-of-publication.
-  
-contributors:
-  - rabbit-hole

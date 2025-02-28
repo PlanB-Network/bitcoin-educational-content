@@ -1,0 +1,12 @@
+question: Quelles sont certaines opportunités commerciales offertes par le Lightning Network ?
+answer: Nouveaux modèles économiques où les consommateurs paient pour le contenu en fonction de ce qu'ils consomment.
+wrong_answers:
+  - Nouveaux modèles économiques où les consommateurs paient en utilisant différentes cryptomonnaies.
+  - Nouveaux modèles économiques où les consommateurs utilisent des blockchains personnalisées.
+  - Nouveaux modèles économiques où les consommateurs ne paient pas pour aucun contenu.
+explanation: >-
+  Le Lightning Network ouvre la porte à une multitude de cas d'utilisation passionnants pour
+  les utilisateurs de Bitcoin. Les modèles économiques et les opportunités commerciales qui en résultent sont nombreux
+  et variés, incluant de nouveaux modèles économiques où les consommateurs paient pour le contenu
+  en fonction de ce qu'ils consomment.
+reviewed: true

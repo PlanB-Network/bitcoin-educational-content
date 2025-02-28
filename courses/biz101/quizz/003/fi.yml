@@ -1,0 +1,9 @@
+question: Mikä on yksi nykyaikaisten keskitettyjen valuuttajärjestelmien haittapuoli?
+answer: Niiltä puuttuu usein avoimuus ja tarkastettavuus rahan tarjonnan hallinnoinnissa.
+wrong_answers:
+  - Ne tarjoavat vakaan, muuttumattoman arvon jokaiselle valuuttayksikölle.
+  - Ne poistavat kaikki välikädet ja nopeuttavat maksuja millisekunneissa.
+  - Ne varmistavat, että rahan liikkeeseenlasku on täysin hajautettua ja inflaationkestävää.
+explanation: |
+  Keskitetyt järjestelmät voivat laskea rahaa liikkeelle mielensä mukaan, usein ilman avointa valvontaa. Tämä voi heikentää luottamusta inflaation, monimutkaisten pankkien välisten selvitysten ja mahdollisen huonon hallinnon vuoksi.
+reviewed: false

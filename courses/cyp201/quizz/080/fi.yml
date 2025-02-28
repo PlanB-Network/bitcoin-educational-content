@@ -1,0 +1,9 @@
+question: Mitä koodausta käytetään edustamaan SegWit v0 -osoitteita?
+answer: bech32
+wrong_answers:
+  - base58check
+  - bech32m
+  - base64
+explanation: |
+  SegWit v0 -osoitteet, kuten P2WPKH ja P2WSH -osoitteet, käyttävät bech32-koodausta, joka otettiin käyttöön SegWitin yhteydessä.
+reviewed: false

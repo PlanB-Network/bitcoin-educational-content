@@ -1,0 +1,9 @@
+question: Se Alice invia 40.000 satoshi a Bob da un canale di pagamento dove inizialmente possiede 100.000 satoshi, quanti fondi le rimangono dopo la transazione?
+answer: 60.000 satoshi
+wrong_answers:
+  - 30.000 satoshi
+  - 40.000 satoshi
+  - 140.000 satoshi
+explanation: |
+  Dopo aver inviato 40.000 satoshi, il saldo di Alice nel canale è di 60.000 satoshi.
+reviewed: false

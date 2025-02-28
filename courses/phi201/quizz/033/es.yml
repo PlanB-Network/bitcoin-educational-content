@@ -1,0 +1,9 @@
+question: Según el filósofo romano Séneca, ¿en qué consiste la felicidad?
+answer: La práctica de la virtud
+wrong_answers:
+  - Riqueza
+  - Placer
+  - Todas las anteriores
+explanation: |
+  Para Séneca, la verdadera felicidad reside en la práctica de la virtud, lo que permite a un individuo vivir de acuerdo con la razón y alcanzar una paz interior duradera, independiente de los placeres o la riqueza.
+reviewed: false

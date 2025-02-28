@@ -1,0 +1,9 @@
+question: Mikä on avaintunnistus?
+answer: Kyky yhdistää käyttäjän identiteetin osa-alue lohkoketjuaktiviteettiin.
+wrong_answers:
+  - Prosessi, jossa julkisen avaimen osoittaminen jokaiseen uuteen lohkoketjutapahtumaan.
+  - Kyky jäljittää lohkoketjutapahtumia yhteisen omistajuuden heuristiikan kautta syötteissä.
+  - Prosessi, jonka kautta julkinen avain johdetaan yksityisestä avaimesta.
+explanation: |
+  Avaintunnistus sisältää mahdollisuuden linkittää käyttäjän identiteetin osa-alue lohkoketjuaktiviteettiin.
+reviewed: false

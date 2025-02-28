@@ -1,0 +1,9 @@
+question: Linux和Mac经常需要杀毒软件吗？
+answer: 这是错误的
+wrong_answers:
+  - 这是正确的
+  - 只有Linux需要杀毒软件。
+  - 只有Mac需要杀毒软件。
+explanation: |
+  Linux和Mac，由于它们的用户权限分离系统，通常不需要杀毒软件。
+reviewed: false

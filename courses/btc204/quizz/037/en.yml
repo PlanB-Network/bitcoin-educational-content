@@ -1,0 +1,9 @@
+question: What does the Common Input Ownership Heuristic (CIOH) entail?
+answer: When a transaction includes multiple inputs, these are likely all from a single entity.
+wrong_answers:
+  - When a transaction includes multiple inputs, these likely all come from different entities.
+  - When a transaction includes multiple outputs, these are likely all going to a single entity.
+  - When a transaction includes multiple outputs, these are likely all going to different entities.
+explanation: |
+  The CIOH is a heuristic suggesting that when a transaction includes multiple inputs, these inputs probably all originate from a single entity. Consequently, their ownership is common.
+reviewed: false

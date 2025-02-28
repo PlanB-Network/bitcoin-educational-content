@@ -1,0 +1,9 @@
+question: 确定性比特币承诺的主要目的是什么？
+answer: 确保在事务中插入单一承诺
+wrong_answers:
+  - 简化比特币交易结构
+  - 降低 RGB 交易成本
+  - 优化 RGB 多重签名生成
+explanation: |
+  比特币的确定性承诺保证在交易中只插入一个承诺，以避免隐藏的竞争承诺。
+reviewed: false

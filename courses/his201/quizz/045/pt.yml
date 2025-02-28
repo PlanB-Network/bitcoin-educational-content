@@ -1,0 +1,8 @@
+question: Qual é o nome do site que contribuiu significativamente para tornar o Bitcoin conhecido em julho de 2010?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation: |
+  Em 11 de julho de 2010, uma apresentação sobre o Bitcoin escrita por Teppy foi publicada neste site popular, o que levou a um grande influxo de usuários.

@@ -1,0 +1,13 @@
+question: Wie beeinflussen Regulierungen und Stromtarife das Bitcoin-Mining?
+
+answer: Regulierungen und Stromtarife haben einen erheblichen Einfluss auf das Bitcoin-Mining. Miner suchen ständig nach kostengünstigem Strom, um ihre Gewinne zu maximieren. Daher ziehen die hohen Stromkosten in bestimmten Regionen Miner nicht an diese Orte. Miner neigen dazu, sich Regionen mit niedrigen Stromtarifen zuzuwenden, oft in Schwellenländern oder Ländern mit Energieüberschüssen.
+
+wrong_answers:
+  - Regulierungen und Stromtarife beeinflussen das Bitcoin-Mining, indem sie bestimmen, welche Art von Mining-Maschinen verwendet werden können.
+  - Regulierungen und Stromtarife beeinflussen das Bitcoin-Mining, indem sie bestimmen, welche Art von Mining-Software verwendet werden kann.
+  - Regulierungen und Stromtarife beeinflussen das Bitcoin-Mining, indem sie bestimmen, welche Größe des Mining-Pools gebildet werden kann.
+
+explanation:
+  Das Kapitel erklärt, dass Regulierungen und Stromtarife einen erheblichen Einfluss auf das Bitcoin-Mining haben. Miner suchen ständig nach kostengünstigem Strom, um ihre Gewinne zu maximieren und neigen daher dazu, sich Regionen mit niedrigen Stromtarifen zuzuwenden.
+
+reviewed: true

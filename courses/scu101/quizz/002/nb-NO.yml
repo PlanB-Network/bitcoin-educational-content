@@ -1,0 +1,10 @@
+question: Hvorfor anbefales det å laste ned programvare fra utgiverens offisielle nettsted i stedet for generiske nettsteder?
+answer: For å sikre at programvaren er fri for skadelig programvare.
+wrong_answers:
+  - For å støtte utgiveren økonomisk.
+  - Fordi programvaren vanligvis er billigere på det offisielle nettstedet.
+  - Fordi programvaren på generiske nettsteder vanligvis er utdatert.
+explanation: |
+  Å laste ned programvare fra utgiverens offisielle nettsted sikrer
+  at du får den legitime versjonen av programvaren, som er fri for
+  enhver skadelig programvare som kunne skade enheten din eller stjele dataene dine.

@@ -1,0 +1,9 @@
+question: Co znamená, že Bitcoin má obecný vzestupný trend?
+answer: Obecný vzestupný trend u Bitcoinu znamená, že celkově cena Bitcoinu roste.
+wrong_answers:
+  - Obecný vzestupný trend u Bitcoinu znamená, že cena je zaručeně nastavena k neomezenému růstu bez jakýchkoliv kolísání.
+  - Obecný vzestupný trend u Bitcoinu znamená, že Bitcoin ztrácí na hodnotě a ztrácí své tržní přitažlivost.
+  - Obecný vzestupný trend u Bitcoinu znamená, že je populární pouze mezi malou skupinou investorů a nemá žádný dopad na celkový trh.
+explanation: |
+  Obecný vzestupný trend u Bitcoinu odkazuje na konzistentní nárůst jeho ceny v určitém časovém období. Je důležité si uvědomit, že i když vzestupný trend naznačuje pozitivní trajektorii, nezaručuje, že cena bude pokračovat v růstu bez jakýchkoliv kolísání.
+reviewed: true

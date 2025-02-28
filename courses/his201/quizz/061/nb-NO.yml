@@ -1,0 +1,9 @@
+question: Hvilken funksjon, designet i oktober 2010 av gruvearbeideren m0mchil, tillot klientnoder å hente en kandidatblokk og returnere proof of work hvis en løsning ble funnet?
+answer: getwork
+wrong_answers:
+  - stratum
+  - gethash
+  - getcredit
+explanation: |
+  Den ble publisert 1. oktober. Satoshi inkluderte en modifisert versjon av denne funksjonen i hovedprogramvaren den 23. november.
+reviewed: false

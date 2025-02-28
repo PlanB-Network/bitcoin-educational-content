@@ -1,9 +1,0 @@
-question: Welcher Ausdruck wird mit dem HMAC SHA-512 Algorithmus verwendet, um den Master-Privatschlüssel zu berechnen?
-answer: Bitcoin SEED
-wrong_answers:
-  - Bitcoin KEY
-  - Bitcoin WALLET
-  - Bitcoin HASH
-explanation: |
-  Der Master-Privatschlüssel wird aus dem Seed und dem Ausdruck "Bitcoin SEED" berechnet. Dieser Ausdruck ist für alle HD-Wallet-Derivationen identisch und gewährleistet Konsistenz zwischen den Wallets.
-reviewed: false

@@ -1,0 +1,12 @@
+question: Como a inflação afeta o poder de compra dos assalariados ao longo do tempo?
+answer: A inflação corrói o poder de compra, pois os salários frequentemente ficam atrás da taxa real de inflação.
+wrong_answers:
+  - A inflação aumenta o poder de compra, pois os salários aumentam mais rápido que os preços.
+  - A inflação não tem efeito sobre o poder de compra.
+  - A inflação afeta apenas o poder de compra daqueles que investem no mercado financeiro.
+explanation: |
+  A inflação leva a um aumento persistente nos preços ao consumidor, corroendo o poder
+  de compra dos assalariados, uma vez que seus salários tipicamente ficam atrás da taxa real de inflação.
+  Isso torna difícil para os assalariados alcançarem seus objetivos de poupança a longo prazo
+  e manterem seu padrão de vida.
+reviewed: true

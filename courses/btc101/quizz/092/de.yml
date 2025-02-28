@@ -1,0 +1,13 @@
+question: Was ist die empfohlene Verwendung eines Multisig-Wallets?
+answer: Speichern großer Beträge für den Unternehmenseinsatz.
+wrong_answers:
+  - Speichern kleiner Beträge für den persönlichen Gebrauch.
+  - Speichern mittlerer Beträge für den Einsatz in gemeinnützigen Organisationen.
+  - Speichern von täglichen Ausgaben für den individuellen Gebrauch.
+explanation: |
+  Ein Multisig-Wallet wird für das Speichern großer Beträge
+  und für den Unternehmenseinsatz empfohlen, weil es mehrere
+  Signaturen erfordert, um eine Transaktion durchzuführen. Dieser Prozess fügt eine
+  zusätzliche Sicherheitsebene hinzu, da eine einzelne Person keine
+  Transaktion ohne die Zustimmung anderer durchführen kann.
+reviewed: true

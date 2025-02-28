@@ -1,9 +1,0 @@
-question: Welche ist der allgemeine Trend von Bitcoin aufgrund seiner begrenzten Menge und des Halbierungsprozesses?
-answer: Ein allgemeiner Aufwärtstrend.
-wrong_answers:
-  - Ein allgemeiner Abwärtstrend.
-  - Kein Trend überhaupt.
-  - Ein Trend, der wild schwankt, ohne erkennbares Muster.
-explanation: |
-  Bitcoin folgt aufgrund seiner begrenzten Menge von 21 Millionen Bitcoins und seines Halbierungsprozesses (Halbierung der Geldschöpfung im Durchschnitt alle 4 Jahre) einem allgemeinen Aufwärtstrend.
-reviewed: false

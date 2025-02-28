@@ -1,9 +1,0 @@
-question: Was ist das Lightning Network?
-answer: Ein sofortiges Bitcoin-Zahlungsnetzwerk, das die Bitcoin-Blockchain verwendet.
-wrong_answers:
-  - Ein separates Blockchain-Netzwerk von der Bitcoin-Blockchain
-  - Ein Netzwerk von Bitcoin-Minern
-  - Ein Netzwerk von Bitcoin-Börsen
-explanation: |
-  Das Lightning Network ist ein sofortiges Bitcoin-Zahlungsnetzwerk, das die Bitcoin-Blockchain verwendet.
-reviewed: false

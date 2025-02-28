@@ -1,9 +1,0 @@
-question: ¿Qué necesitas respaldar al usar una billetera con una frase de contraseña?
-answer: Necesitas respaldar tanto la lista de 12 o 24 palabras como tu frase de contraseña.
-wrong_answers:
-  - Solo necesitas respaldar la lista de 12 o 24 palabras.
-  - Solo necesitas respaldar tu frase de contraseña.
-  - No necesitas respaldar ni la lista de 12 o 24 palabras ni tu frase de contraseña.
-explanation: |
-  Cuando usas una billetera con una frase de contraseña, necesitas respaldar tanto la lista de 12 o 24 palabras como tu frase de contraseña. Esto se debe a que tanto la lista de palabras como la frase de contraseña son necesarias para recuperar el acceso a tus fondos en caso de pérdida de tu teléfono o computadora. Sin una u otra, los fondos no son accesibles.
-reviewed: false

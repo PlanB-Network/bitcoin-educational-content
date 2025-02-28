@@ -1,0 +1,9 @@
+question: Cosa rappresenta il resto in una transazione?
+answer: Un output che ritorna al mittente originale della transazione.
+wrong_answers:
+  - Una commissione prelevata dalla rete Bitcoin.
+  - Un output trasferito al destinatario della transazione.
+  - Un bonus assegnato al mittente per transazioni veloci.
+explanation: |
+  Il resto è un output che rappresenta la parte degli input non utilizzati per completare il pagamento e quindi ritorna al mittente originale della transazione.
+reviewed: false

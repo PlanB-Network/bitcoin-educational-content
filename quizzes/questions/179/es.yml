@@ -1,9 +1,0 @@
-question: ¿Cuál es la tendencia general de Bitcoin debido a su cantidad limitada y proceso de reducción a la mitad?
-answer: Una tendencia general al alza.
-wrong_answers:
-  - Una tendencia general a la baja.
-  - Sin tendencia alguna.
-  - Una tendencia que fluctúa salvajemente sin un patrón discernible.
-explanation: |
-  Bitcoin, debido a su cantidad limitada de 21 millones de bitcoins y su proceso de reducción a la mitad (reduciendo a la mitad la creación monetaria cada 4 años en promedio), sigue una tendencia general al alza.
-reviewed: false

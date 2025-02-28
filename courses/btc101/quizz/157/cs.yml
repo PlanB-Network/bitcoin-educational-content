@@ -1,0 +1,14 @@
+question: Co je problém byzantských generálů?
+answer: Je to problém koordinace informací v systému, kde různí aktéři nemohou být považováni za důvěryhodné.
+wrong_answers:
+  - Je to problém ověřování transakcí v decentralizované síti.
+  - Je to problém zabránění dvojímu utrácení v digitální měně.
+  - Je to problém udržení konsensu v centralizované síti.
+explanation: |
+  Problém byzantských generálů je klasický problém v
+  distribuovaném výpočtu, který zahrnuje dosažení konsensu
+  v síti, kde některé uzly mohou být chybné nebo
+  zlomyslné. Bitcoin tento problém řeší pomocí
+  blockchainu založeného na důkazu práce (Proof of Work), který zajišťuje, že všechny
+  uzly souhlasí se stavem historie transakcí.
+reviewed: true

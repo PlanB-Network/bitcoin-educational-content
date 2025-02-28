@@ -1,0 +1,11 @@
+question: Quelle devrait être la principale préoccupation lorsque vous possédez des bitcoins ?
+answer: La sécurité de vos fonds.
+wrong_answers:
+  - La valeur du Bitcoin en termes de dollars.
+  - La légalité de posséder des bitcoins.
+  - La permission de dépenser vos fonds.
+explanation: |
+  Lorsque vous possédez des bitcoins, la préoccupation principale est la sécurité
+  de vos fonds. Cela est dû au fait que le Bitcoin, comme toute autre forme
+  de monnaie, peut être volé ou perdu s'il n'est pas correctement sécurisé.
+reviewed: true

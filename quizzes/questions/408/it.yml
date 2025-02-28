@@ -1,9 +1,0 @@
-question: Cosa è un hash nel contesto delle funzioni di hash crittografiche?
-answer: Un'impronta digitale unica e di dimensioni fisse prodotta da una funzione di hash.
-wrong_answers:
-  - Un tipo di algoritmo di crittografia.
-  - Una chiave utilizzata per decrittare i dati.
-  - Un metodo per comprimere i dati.
-explanation: |
-  Nel contesto delle funzioni di hash crittografiche, un hash è un'impronta digitale unica e di dimensioni fisse prodotta dalla funzione di hash. Rappresenta i dati di input in modo unico e irreversibile.
-reviewed: false

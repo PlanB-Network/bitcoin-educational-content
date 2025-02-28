@@ -1,0 +1,8 @@
+question: Apa yang memudahkan penyadapan komunikasi lokal oleh penyerang yang kurang dilengkapi?
+answer: Penggunaan gelombang radio untuk koneksi nirkabel
+wrong_answers:
+  - Mengalirkan semua data melalui satelit
+  - Hanya menggunakan kabel koaksial untuk transmisi data
+  - Mengirim data hanya melalui serat optik
+explanation: |
+  Koneksi nirkabel, yang mentransmisikan data melalui gelombang radio, membuat penyadapan lebih mudah bagi penyerang, karena mereka tidak memerlukan akses fisik ke jaringan.

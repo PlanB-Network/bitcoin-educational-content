@@ -1,0 +1,9 @@
+question: Qual é o conceito matemático que se baseia na racionalidade humana e é utilizado no Bitcoin?
+answer: Teoria dos jogos.
+wrong_answers:
+  - Teoria da probabilidade.
+  - Teoria dos números.
+  - Teoria dos conjuntos.
+explanation: |
+  A teoria dos jogos é um conceito matemático que se baseia na racionalidade humana. No Bitcoin, as mudanças de protocolo são aplicadas pelos usuários, tornando qualquer modificação no protocolo do Bitcoin extremamente complexa.
+reviewed: true

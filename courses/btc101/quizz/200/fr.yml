@@ -1,0 +1,12 @@
+question: Qu'est-ce qu'un achat spontané ?
+answer: Acheter immédiatement du Bitcoin pour obtenir une exposition.
+wrong_answers:
+  - Acheter du Bitcoin à intervalles réguliers.
+  - Acheter du Bitcoin uniquement lorsque le prix baisse.
+  - Acheter du Bitcoin uniquement lorsque le prix monte.
+explanation: |
+  Le texte du cours explique qu'un achat spontané est
+  utilisé pour obtenir immédiatement une exposition au Bitcoin. Par exemple,
+  cela pourrait signifier acheter pendant un krach ou profiter d'un
+  bonus.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mikä tulisi olla päätavoite omistaessasi bitcoineja?
+answer: Varojesi turvallisuus.
+wrong_answers:
+  - Bitcoinin arvo dollareissa.
+  - Bitcoinien omistamisen laillisuus.
+  - Lupa käyttää varojasi.
+explanation: |
+  Omistaessasi bitcoineja, päätavoite on varojesi turvallisuus. Tämä johtuu siitä, että Bitcoin, kuten mikä tahansa muu valuutta, voidaan varastaa tai menettää, jos sitä ei ole asianmukaisesti suojattu.
+reviewed: true

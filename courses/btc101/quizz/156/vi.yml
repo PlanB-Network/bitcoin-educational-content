@@ -1,0 +1,11 @@
+question: Mục đích của việc tạo hồ bơi khai thác là gì?
+answer: Hồ bơi khai thác cho phép các thợ mỏ gộp nguồn lực tính toán của họ và nhận được phần thưởng nhỏ hơn nhưng đều đặn hơn.
+wrong_answers:
+  - Hồ bơi khai thác được sử dụng để tăng HashRate của toàn bộ mạng Bitcoin.
+  - Hồ bơi khai thác được sử dụng để giảm độ khó của việc khai thác.
+  - Hồ bơi khai thác được sử dụng để tăng phần thưởng cho việc khai thác.
+explanation: >-
+  Hồ bơi khai thác là những nhóm thợ mỏ kết hợp sức mạnh tính toán của họ
+  để tăng cơ hội khai thác một khối. Bằng cách gộp nguồn lực của họ, họ có thể
+  khai thác khối thường xuyên hơn và nhận được phần thưởng nhỏ hơn nhưng đều đặn hơn.
+reviewed: true

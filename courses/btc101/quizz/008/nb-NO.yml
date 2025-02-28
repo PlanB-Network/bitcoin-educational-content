@@ -1,0 +1,10 @@
+question: Hva betyr det at Bitcoin er en nøytral valuta?
+answer: Den er ikke kontrollert av noen enhet eller institusjon.
+wrong_answers:
+  - Den er kontrollert av en enkelt enhet eller institusjon.
+  - Den er regulert av regjeringen.
+  - Den brukes kun for nøytrale transaksjoner.
+explanation: |
+  Bitcoin er en nøytral valuta, noe som betyr at den ikke er kontrollert av noen enhet
+  eller institusjon, og hver bruker har de samme rettighetene. Dette er et nøkkelaspekt ved dens desentralisering.
+reviewed: true

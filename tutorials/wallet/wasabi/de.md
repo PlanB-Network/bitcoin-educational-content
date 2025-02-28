@@ -4,7 +4,7 @@ name: Wasabi Wallet
 description: erfahren Sie, wie Sie Ihre Privatsphäre wiedererlangen können
 ---
 
-![wasabi](assets/cover.jpeg)
+![wasabi](assets/cover.webp)
 
 Open-Source, nicht verwahrende, auf Datenschutz ausgerichtete Bitcoin-Wallet für Desktop
 https://www.wasabiwallet.io/

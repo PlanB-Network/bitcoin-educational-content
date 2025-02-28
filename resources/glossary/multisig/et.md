@@ -1,0 +1,7 @@
+---
+term: MULTISIG
+
+---
+Mitme allkirjaga rahakotid, mida sageli lühendatakse kui "multisig", on mõeldud bitcoinide turvalisuse suurendamiseks, nõudes kulutuste autoriseerimiseks mitut allkirja erinevatest privaatvõtmetest. See meetod jaotab riski mitme võtme vahel, mis aitab vähendada nii kadumise kui ka varguse riski (sõltuvalt multisig-konfiguratsioonist). Multisig rahakotid töötavad "m-of-n" mudelil, kus "m" tähistab minimaalset arvu allkirju, mis on vajalik tehingu kinnitamiseks, ja "n" on kaasatud võtmete koguarv. Näiteks 2-of-3 seadistus nõuab tehingu kinnitamiseks kaks allkirja kolmest võimalikust. Selline lähenemisviis pakub paremat turvalisust võrreldes ühe võtmega rahakottidega, kuid see muudab haldamise ja varundamise keerulisemaks. Lisaks on vanemate multisig-standardite abil tehtavad tehingud vähem privaatsed ja kallimad tasude poolest kui traditsioonilised singlesig-tehingud. Hiljutised uuendused, nagu Taproot ja kirjeldajate kasutamine, peaksid siiski minimeerima, kui mitte kõrvaldama, neid multisigide puudusi.
+
+> ► * Mõni bitcoin'i kasutaja eristab mõisteid "Multisig" ja "Threshold Multisig" Mõned väidavad tõepoolest, et multisig on tingimata n-ist-n, samas kui lävend-multisig on m-ist-n. Siiski on üldkeeles aktsepteeritud, et "Multisig" tähistab ka m-of-n-i. *

@@ -1,9 +1,0 @@
-question: Qual é a função principal de uma carteira de Bitcoin?
-answer: Refere-se a uma coleção de chaves criptográficas privadas derivadas de uma única chave mestra.
-wrong_answers:
-  - É um dispositivo físico que armazena criptomoedas.
-  - É uma plataforma digital para comprar e vender criptomoedas.
-  - É um software que minera novos bitcoins.
-explanation: |
-  Uma carteira de Bitcoin, especificamente uma Carteira Determinística Hierárquica (HD wallet), é uma coleção de chaves criptográficas privadas derivadas de uma única chave mestra. Essas chaves são essenciais para a posse de criptomoedas.
-reviewed: false

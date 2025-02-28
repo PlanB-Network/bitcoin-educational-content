@@ -1,0 +1,9 @@
+question: What does an extended public key allow to derive?
+answer: Only normal child public keys
+wrong_answers:
+  - Only normal child private keys
+  - Both hardened and normal child public keys
+  - Both hardened and normal child private keys
+explanation: |
+  An extended public key only allows the derivation of normal child public keys, not private keys or hardened keys.
+reviewed: false

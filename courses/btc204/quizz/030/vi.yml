@@ -1,0 +1,9 @@
+question: Mục tiêu của các phép đoán giao dịch nội bộ là gì?
+answer: Để xác định giao dịch.
+wrong_answers:
+  - Để xác định giao dịch gian lận theo thời gian thực.
+  - Để xác định mô hình giao dịch.
+  - Để xác định một cụm thuộc về cùng một thực thể.
+explanation: |
+  Các phép đoán nội bộ cho phép chúng ta xác định giao dịch với mục đích quan sát người dùng trong các giao dịch tiếp theo.
+reviewed: false

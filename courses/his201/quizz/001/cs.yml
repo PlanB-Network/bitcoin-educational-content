@@ -1,0 +1,9 @@
+question: Kteří kryptografové vytvořili kryptosystém RSA v roce 1978?
+answer: Ronald Rivest, Adi Shamir a Leonard Adleman
+wrong_answers:
+  - Whitfield Diffie, Martin Hellman a Ralph Merkle
+  - Marc Girault, Guillaume Poupard a Jacques Stern
+  - Alfred Menezes, Minghua Qu a Scott Vanstone
+explanation: |
+  Rivest, Shamir a Adleman pojmenovali algoritmus RSA použitím prvních písmen svých jmen.
+reviewed: false

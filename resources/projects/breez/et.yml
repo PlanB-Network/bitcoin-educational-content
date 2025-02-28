@@ -1,0 +1,10 @@
+description: |
+  Breez on uuenduslik platvorm, mis on pühendunud Bitcoini võimsuse ärakasutamisele, et avada inimestele ja rakendustele peer-to-peer maksete maailm. Breezi mobiilirakenduse abil saavad kasutajad saata ja vastu võtta hetkelisi Bitcoini makseid, muutes oma tasku mittehoidmisel põhinevaks Lightning sõlmeks.
+
+  Platvorm hõlmab ka Podcasting 2.0 mängijat satside ja ideede striimimiseks ning Point-of-Sale süsteemi, mis aktsepteerib Lightning makseid ilma KYC nõueteta. Breez toimib ka Lightning Teenuse Pakkujana, pakkudes likviidsust ja võrguühenduvust.
+
+  Neile, kes soovivad integreerida P2P Lightning makseid oma rakendustesse, pakub Breez SDK-d maksimaalse kohandamise jaoks minimaalse programmeerimisega. Breez Cloud täiustab veelgi kasutajakogemust, ühendades mittehoidmisel põhineva Lightningi mugavusega, mida pakuvad hoidmisel põhinevad teenused, võimaldades mitmekülgseid makseid igal ajal.
+
+  Breez kujundab Lightning majanduse tulevikku, muutes Bitcoini maksed kättesaadavamaks ja tõhusamaks kui kunagi varem.
+contributors:
+  - rabbit-hole

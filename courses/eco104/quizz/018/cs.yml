@@ -1,0 +1,12 @@
+question: Jaké bylo významné omezení, kterému čelili jednotlivci během bankrotové krize řecké vlády v roce 2015?
+answer: Přísná bankovní reforma zavedená vládou.
+wrong_answers:
+  - Omezený přístup k digitálním bankovním službám
+  - Volatilita digitálních měn jako je Bitcoin
+  - Nedostatek fyzické měny (hotovosti)
+explanation: |
+  Během bankrotové krize řecké vlády v roce 2015 byly banky uzavřeny,
+  výběry z bankomatů byly omezeny a významná část vkladů jednotlivců
+  byla vládou vybrána k financování fiskální nezodpovědnosti.
+  Tato událost zdůraznila rizika spojená s držením peněz v tradičním bankovním systému.
+reviewed: true

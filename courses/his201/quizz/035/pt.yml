@@ -1,0 +1,9 @@
+question: Quando ocorreu a primeira troca entre bitcoin e o dólar?
+answer: 12 de outubro de 2009
+wrong_answers:
+  - 8 de maio de 2009
+  - 30 de dezembro de 2009
+  - 11 de março de 2010
+explanation: |
+  Martti transferiu 5.050 bitcoins para NLS, que então transferiu $5.02 para sua conta do PayPal. Isso correspondeu a um preço unitário de cerca de $0.001.
+reviewed: false

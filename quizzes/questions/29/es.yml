@@ -1,9 +1,0 @@
-question: ¿Cuál es la evolución de la moneda?
-answer: Piedra en bruto -> Moneda -> Billete de banco -> Tarjeta bancaria -> Blockchain -> Lightning Network
-wrong_answers:
-  - Piedra en bruto -> Moneda -> Billete de banco -> Blockchain -> Lightning Network
-  - Piedra en bruto -> Moneda -> Billete de banco -> Tarjeta bancaria -> Lightning Network
-  - Piedra en bruto -> Moneda -> Billete de banco -> Tarjeta bancaria -> Blockchain
-explanation: |
-  La moneda, como cualquier tecnología, evolucionó desde la piedra en bruto hasta la moneda metálica, luego al billete de banco, la tarjeta bancaria y finalmente las redes peer-to-peer con la blockchain de Bitcoin y la Lightning Network.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Co tvoří fyzický základ většiny komunikací ve vyspělém světě?
+answer: Sítě z optických vláken
+wrong_answers:
+  - Satelity pro každé spojení
+  - Pouze koaxiální kabely
+  - Pouze měděné dráty
+explanation: |
+  Většina moderních komunikací spoléhá na sítě z optických vláken, které zajišťují vysokorychlostní výměnu dat, ačkoli některé použití satelitů a koaxiálních kabelů zůstává.
+reviewed: false

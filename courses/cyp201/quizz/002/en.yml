@@ -1,0 +1,9 @@
+question: Which property of hash functions is demonstrated by a complete change in the hash when a message changes slightly?
+answer: The avalanche effect
+wrong_answers:
+  - Collision resistance
+  - Second preimage resistance
+  - Length
+explanation: |
+  A small change in the input results in a radical change in the hash, this is what is called the avalanche effect.
+reviewed: false

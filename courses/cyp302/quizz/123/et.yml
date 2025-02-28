@@ -1,0 +1,9 @@
+question: Milline probleem tekib, kui Jim's Sporting Goods kasutab kõigi klientide jaoks sama paari võtmeid?
+answer: Iga klient võiks pääseda ligi teiste klientide suhtlusele
+wrong_answers:
+  - Võti muutuks liiga suureks
+  - Suhtlus aeglustuks
+  - Kliendid peaksid iga ostuga võtmeid vahetama
+explanation: |
+  Kasutades kõigi jaoks sama võtit, ohustaks Jim's Sporting Goods konfidentsiaalsust ja terviklikkust, kuna iga klient võiks potentsiaalselt pääseda ligi teiste klientide andmetele.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa saja operasi utama dari kontrak RGB?
+answer: Transisi Status, Kejadian, dan Perpanjangan Status
+wrong_answers:
+  - Definisi Segel, Komitmen, dan Validasi
+  - Pembuatan Jangkar, Pembaruan DAG, dan Penandatanganan Transaksi
+  - Blok Kejadian, Alokasi UTXO, dan Validasi Skrip
+explanation: |
+  Operasi ini memodifikasi atau melengkapi status kontrak sesuai dengan Skema.
+reviewed: false

@@ -1,9 +1,0 @@
-question: ¿Cuál es el papel de una clave privada en una transacción de Bitcoin?
-answer: Se utiliza para firmar la transacción y desbloquear los bitcoins de la dirección.
-wrong_answers:
-  - Se utiliza para generar la clave pública.
-  - Se utiliza para crear una dirección de Bitcoin.
-  - Se utiliza para encriptar los datos de la transacción.
-explanation: |
-  En una transacción de Bitcoin, el remitente utiliza su clave privada para firmar la transacción, lo que efectivamente desbloquea los bitcoins de la dirección en la que están almacenados. Esta es una parte crucial del proceso de transacción, ya que garantiza que solo el propietario de los bitcoins pueda gastarlos.
-reviewed: false

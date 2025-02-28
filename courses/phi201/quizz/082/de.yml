@@ -1,0 +1,9 @@
+question: Was ist der Hauptunterschied zwischen der Amerikanischen Revolution und der Französischen Revolution?
+answer: Die Amerikanische Revolution führte zur Bildung eines dezentralisierten Rechtsstaates, während die Französische Revolution zu einer Periode des Terrors und der Diktatur führte.
+wrong_answers:
+  - Die Amerikanische Revolution wurde von den Ideen der Aufklärung inspiriert, während die Französische Revolution von religiösen Ideen inspiriert wurde.
+  - Die Amerikanische Revolution wurde von Kolonisten geführt, während die Französische Revolution von Adligen geführt wurde.
+  - Die Amerikanische Revolution war lang, während die Französische Revolution kurz war.
+explanation: |
+  Die Amerikanische Revolution resultierte in einem dezentralisierten und stabilen System, das auf dem Rechtsstaatsprinzip basiert, wohingegen die Französische Revolution schnell in Terror und Diktatur aufgrund interner Spaltungen und einer Zentralisierung der Macht abglitt.
+reviewed: false

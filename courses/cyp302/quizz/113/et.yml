@@ -1,0 +1,8 @@
+question: Mis on K massiivi roll RC4 krüpteerimises?
+answer: See algväärtustab ja muudab S massiivi, et genereerida võtmevoog
+wrong_answers:
+  - See krüpteerib otse lähteteksti
+  - See salvestab krüpteeritud teksti
+  - See toimib ainult ajutise andmehoidlana protsessi lõpuni
+explanation: |
+  K massiivi kasutatakse S massiivi muutmiseks võtme ajastamise protsessis, mis võimaldab genereerida pseudosuvalise võtmevoo lähteteksti krüpteerimiseks.

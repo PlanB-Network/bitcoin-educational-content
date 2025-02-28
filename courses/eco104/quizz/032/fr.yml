@@ -1,0 +1,11 @@
+question: Dans quel scénario un stablecoin pourrait-il être échangé au-dessus de son prix fixé ?
+answer: Lorsque la demande de stablecoins dépasse la capacité d'un échange
+wrong_answers:
+  - Lorsque l'émetteur du stablecoin gèle les fonds
+  - Lorsque le stablecoin est entièrement couvert par des réserves de liquidités
+  - Lorsqu'il y a une forte pression de vente de la part des utilisateurs
+explanation: |
+  Les stablecoins peuvent être échangés au-dessus de leur prix fixé lorsque la 
+  demande de stablecoins dépasse la capacité d'un échange à 
+  répondre aux demandes des clients, typiquement sur des échanges plus petits.
+reviewed: true

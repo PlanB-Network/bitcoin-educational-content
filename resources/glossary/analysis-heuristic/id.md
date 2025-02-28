@@ -1,0 +1,9 @@
+---
+term: ANALISIS HEURISTIK
+
+---
+Analisis heuristik untuk rantai Bitcoin adalah sebuah keluarga metode empiris yang digunakan untuk melacak aliran bitcoin pada blockchain berdasarkan karakteristik yang diamati dalam transaksi. Heuristik adalah sebuah pendekatan praktis untuk pemecahan masalah, sering kali melalui metode perkiraan, tetapi merupakan solusi yang cukup baik untuk mencapai tujuan tertentu. Heuristik ini memberikan hasil yang cukup dapat diandalkan, tetapi tidak pernah dengan ketepatan yang mutlak. Dengan kata lain, analisis rantai selalu melibatkan tingkat kemungkinan dalam kesimpulan yang diambil. Sebagai contoh, dapat diperkirakan dengan sedikit banyak kepastian bahwa dua alamat adalah milik entitas yang sama, tetapi kepastian total selalu di luar jangkauan. Seluruh tujuan dari analisis rantai terletak pada penggabungan berbagai heuristik untuk meminimalkan risiko kesalahan. Di satu sisi, analisis ini merupakan akumulasi bukti yang memungkinkan kita untuk lebih dekat dengan kenyataan. Dalam konteks ini, heuristik internal dan eksternal dibedakan.
+
+Heuristik internal berfokus pada karakteristik yang spesifik untuk setiap transaksi. Mereka memasukkan elemen analisis seperti jumlah UTXO, skrip yang digunakan, versi, atau waktu penguncian. Contohnya, heuristik pembayaran bulat memungkinkan untuk mengidentifikasi hasil transaksi yang kemungkinan besar merupakan pembayaran jika jumlahnya adalah angka bulat. Heuristik ini sering kali memungkinkan untuk mengidentifikasi kembalian (uang yang dikembalikan ke pengguna yang sama) dan dengan demikian melanjutkan penelusuran.
+
+Di sisi lain, heuristik eksternal menganalisis kesamaan dan karakteristik di luar transaksi itu sendiri. Mereka mencakup seluruh lingkungan transaksi. Sebagai contoh, penggunaan ulang alamat di beberapa transaksi adalah heuristik eksternal. CIOH juga merupakan salah satunya.

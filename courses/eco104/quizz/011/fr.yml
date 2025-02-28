@@ -1,0 +1,19 @@
+question: Qu'est-ce qui distingue Bitcoin des monnaies traditionnelles contrôlées par les banques centrales ou les gouvernements ?
+answer: Tous ces éléments
+wrong_answers:
+  - Bitcoin nécessite une collaboration entre les mineurs, les nœuds et les développeurs
+  - Bitcoin permet à quiconque de participer au réseau et d'exercer des rôles clés
+  - Bitcoin repose sur un système de consensus décentralisé
+explanation: |
+  Ce qui distingue Bitcoin des monnaies fiduciaires traditionnelles, c'est qu'il s'agit d'un 
+  effort collaboratif entre trois rôles essentiels et la communauté.
+  Les nœuds assurent l'intégrité et la sécurité du réseau en servant de gardiens.
+  Les mineurs sont responsables du traitement des transactions et de la maintenance de la blockchain.
+  Les développeurs sont des membres hautement qualifiés de la communauté Bitcoin qui travaillent ensemble 
+  pour maintenir et améliorer le logiciel qui alimente le réseau.
+  La communauté, à travers l'utilisation de bitcoin, est ce qui lui donne de la valeur.
+  Chacun de ces rôles est essentiel au fonctionnement et au succès de Bitcoin en tant que 
+  monnaie numérique. En confiant ces tâches cruciales aux acteurs clés, Bitcoin peut 
+  fonctionner comme un moyen d'échange décentralisé, sécurisé, transparent et responsable pour 
+  tous les utilisateurs, le rendant significativement différent des monnaies centralisées que nous utilisons aujourd'hui.
+reviewed: true

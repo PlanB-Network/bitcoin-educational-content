@@ -1,0 +1,13 @@
+question: Který skriptovací model se v roce 2024 doporučuje pro zvýšené soukromí na Bitcoinu?
+
+answer: P2TR
+
+wrong_answers:
+  - P2PK
+  - P2PKH
+  - P2SH
+
+explanation: |
+  Pro co největší začlenění do davu se doporučuje používat nejvíce rozšířený skriptovací model. Skripty P2TR jsou v současnosti nejvíce používané v transakcích Bitcoinu.
+
+reviewed: false

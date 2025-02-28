@@ -1,0 +1,9 @@
+question: Jaká je jedna z výhod používání úschovné peněženky pro profil Starter?
+answer: Snížení technických odpovědností
+wrong_answers:
+  - Zvýšená kontrola nad soukromými klíči
+  - Zvýšená ochrana soukromí s plnou nezávislostí na transakcích
+  - Odstranění transakčních poplatků
+explanation: |
+  Správcovské peněženky spravují soukromé klíče, čímž uživatelům ulehčují technickou zátěž.
+reviewed: false

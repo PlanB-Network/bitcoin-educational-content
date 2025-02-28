@@ -1,0 +1,8 @@
+question: Kích thước của một khóa riêng thô được sử dụng trên Bitcoin là bao nhiêu?
+answer: 256 bit
+wrong_answers:
+  - 128 bit
+  - 512 bit
+  - 1024 bit
+explanation: |
+  Một khóa riêng trong Bitcoin là một số nguyên ngẫu nhiên 256-bit, đảm bảo một không gian khóa đủ lớn để bảo đảm an ninh.

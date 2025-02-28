@@ -1,0 +1,9 @@
+question: Định nghĩa của lạm phát cực kỳ cao theo Bernholz là gì?
+answer: Lạm phát cực kỳ cao là sự gia tăng của lạm phát cao, được đặc trưng bởi các khoản thâm hụt ngân sách lớn được tài trợ bằng việc tạo ra tiền.
+wrong_answers:
+  - Lạm phát cực kỳ cao là sự giảm trong lượng tiền lưu thông.
+  - Lạm phát cực kỳ cao là sự tăng vừa phải trong lượng tiền lưu thông.
+  - Lạm phát cực kỳ cao là sự giảm trong sản xuất.
+explanation: |
+  Chương này giải thích rằng theo Bernholz, lạm phát cực kỳ cao là sự gia tăng của lạm phát cao, được đặc trưng bởi các khoản thâm hụt ngân sách lớn được tài trợ bằng việc tạo ra tiền.
+reviewed: false

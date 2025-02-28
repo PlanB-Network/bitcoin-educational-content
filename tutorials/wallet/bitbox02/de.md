@@ -4,7 +4,7 @@ name: BitBox02
 description: Einrichtung und Verwendung einer BitBox02
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Die BitBox02 (https://bitbox.swiss/) ist eine in der Schweiz hergestellte physische Geldbörse, die speziell für die Sicherung Ihrer Bitcoins entwickelt wurde. Zu ihren wichtigsten Merkmalen gehören einfache Sicherung und Wiederherstellung mit einer microSD-Karte, ein minimalistisches und diskretes Design sowie umfassende Unterstützung für Bitcoin.
 

@@ -1,0 +1,9 @@
+question: What step precedes the application of HASH160 in the generation of a SegWit v0 address?
+answer: The compression of the public key
+wrong_answers:
+  - Adding the checksum
+  - Conversion to bech32 format
+  - Encoding in base58check
+explanation: |
+  The public key must be compressed to reduce its size before going through the HASH160 hash function.
+reviewed: false

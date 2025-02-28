@@ -1,0 +1,10 @@
+question: Qual é o impacto de 20% de inflação no poder de compra ao longo de 3 anos?
+answer: Você perde 50% do seu poder de compra.
+wrong_answers:
+  - Você perde 100% do seu poder de compra.
+  - Você perde 60% do seu poder de compra.
+  - Você perde 30% do seu poder de compra.
+explanation: |
+  Com 20% de inflação, você perde quase metade do seu poder
+  de compra em 3 anos.
+reviewed: true

@@ -1,9 +1,0 @@
-question: Cosa fa il Lightning Network?
-answer: Agisce come una rete di canali di pagamento.
-wrong_answers:
-  - Una rete di nodi di mining.
-  - Una rete di nodi blockchain.
-  - Una rete di scambi di criptovalute.
-explanation: |
-  Il Lightning Network agisce come una rete di canali di pagamento, consentendo transazioni istantanee con commissioni basse per il mittente.
-reviewed: false

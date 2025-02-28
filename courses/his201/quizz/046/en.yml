@@ -1,0 +1,9 @@
+question: Which software version number was featured on Slashdot in July 2010?
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+  This version's release, long prepared by Satoshi and Martti, marked a new effort in communication.
+reviewed: false

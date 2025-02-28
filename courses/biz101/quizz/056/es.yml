@@ -1,0 +1,9 @@
+question: ¿En qué se diferencia la funcionalidad de un monedero sin custodia para los usuarios de Starter?
+answer: Da al empresario el control total de las claves privadas
+wrong_answers:
+  - Puede convertir automáticamente bitcoins en moneda fiduciaria
+  - No requiere procedimientos de respaldo ni medidas de seguridad
+  - Gestiona todas las transacciones a través de un servicio de terceros
+explanation: |
+  Los monederos sin custodia ponen el control de las claves privadas y las transacciones enteramente en manos del usuario.
+reviewed: false

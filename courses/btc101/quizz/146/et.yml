@@ -1,0 +1,10 @@
+question: Miks on Bitcoini sõlme taskukohane hind ja kättesaadavus oluline?
+answer: See soodustab võrgu detsentraliseerimist
+wrong_answers:
+  - See suurendab võrgu tehingute mahtu
+  - See vähendab võrgu tehingute mahtu
+  - See suurendab kaevuritele mõeldud plokipreemiat
+explanation: >-
+  Bitcoini sõlme taskukohane hind ja kättesaadavus on oluline,
+  kuna see soodustab võrgu detsentraliseerimist.
+reviewed: false

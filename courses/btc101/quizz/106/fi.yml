@@ -1,0 +1,9 @@
+question: Miksi on suositeltavaa välttää Bitcoinien jättämistä vaihtoalustoille?
+answer: Ne voivat olla alttiita hakkerihyökkäyksille.
+wrong_answers:
+  - Vaihtoalustat veloittavat satunnaisia maksuja.
+  - Bitcoin menettää arvoaan vaihtoalustoilla.
+  - Vaihtoalustat eivät ole säänneltyjä laitoksia.
+explanation: |
+  On suositeltavaa välttää Bitcoinien jättämistä vaihtoalustoille, koska ne voivat olla alttiita hakkerihyökkäyksille.
+reviewed: true

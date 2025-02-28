@@ -1,9 +1,0 @@
-question: Qual è lo scopo della passphrase nell'HD wallet?
-answer: Essa funge da sale crittografico che aggiunge un ulteriore livello di protezione al portafoglio.
-wrong_answers:
-  - Viene utilizzata per generare il seed del portafoglio.
-  - Viene utilizzata per derivare le chiavi figlie.
-  - Viene utilizzata per calcolare il checksum.
-explanation: |
-  La passphrase nell'HD wallet funge da sale crittografico che aggiunge un ulteriore livello di protezione al portafoglio. Viene utilizzata insieme alla frase mnemonica per generare il seed del portafoglio.
-reviewed: false

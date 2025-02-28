@@ -1,0 +1,9 @@
+question: Jaký je význam geografického rozložení uzlů Bitcoinu?
+answer: Dělá to prakticky nemožným zničit všechny kopie blockchainu.
+wrong_answers:
+  - Určuje cenu Bitcoinu v různých regionech.
+  - Ovlivňuje rychlost transakcí Bitcoinu.
+  - Určuje počet bitcoinů, které lze v regionu těžit.
+explanation: |
+  Geografické rozložení uzlů Bitcoinu dělá prakticky nemožným zničit všechny kopie blockchainu. Jelikož jsou uzly rozprostřeny, je těžké je všechny fyzicky zajistit.
+reviewed: true

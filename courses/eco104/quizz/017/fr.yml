@@ -1,0 +1,14 @@
+question: Quels sont les principaux types de stablecoins mentionnés dans le texte ?
+answer: Stablecoins adossés à des monnaies fiduciaires, stablecoins adossés à des matières premières, et stablecoins algorithmiques.
+wrong_answers:
+  - Stablecoins numériques et stablecoins physiques
+  - Stablecoins centralisés et stablecoins décentralisés
+  - Stablecoins garantis par des banques et stablecoins garantis par des particuliers
+explanation: |
+  Dans les chapitres précédents, nous avons vu trois principaux types de stablecoins ; 
+  les stablecoins adossés à des monnaies fiduciaires, qui sont garantis par des monnaies traditionnelles 
+  comme le dollar américain ; les stablecoins adossés à des matières premières, qui sont garantis par 
+  des matières premières comme l'or ou le pétrole ; et les stablecoins algorithmiques, qui s'appuient 
+  sur un ensemble de règles ou d'algorithmes pour maintenir leur valeur. Cependant, 
+  il est noté que les stablecoins algorithmiques réussis n'ont pas encore été lancés sur le marché.
+reviewed: true

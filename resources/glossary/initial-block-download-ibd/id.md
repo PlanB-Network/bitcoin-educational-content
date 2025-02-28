@@ -1,0 +1,7 @@
+---
+term: UNDUHAN BLOK AWAL (IBD)
+
+---
+Mengacu pada proses di mana sebuah node mengunduh dan memverifikasi blockchain dari blok Genesis, dan melakukan sinkronisasi dengan node lain dalam jaringan Bitcoin. IBD harus dilakukan ketika meluncurkan sebuah node baru. Pada awal sinkronisasi awal ini, node tidak memiliki informasi tentang transaksi sebelumnya. Oleh karena itu, node tersebut mengunduh setiap blok dari node lain dalam jaringan, memverifikasi validitasnya, dan kemudian menambahkannya ke versi lokal blockchain. Perlu dicatat bahwa IBD dapat berlangsung lama dan memakan banyak sumber daya karena ukuran blockchain dan set UTXO yang terus bertambah. Kecepatan eksekusinya bergantung pada kemampuan komputasi komputer yang menghosting node, kapasitas RAM, kecepatan perangkat penyimpanan, dan bandwidth. Sebagai gambaran, jika Anda memiliki koneksi internet yang kuat, dan node dihosting di MacBook terbaru dengan banyak RAM, IBD hanya akan memakan waktu beberapa jam. Sebaliknya, jika Anda menggunakan komputer mikro seperti Raspberry Pi, IBD bisa memakan waktu seminggu atau lebih.
+
+> ► *Dalam bahasa Prancis, secara umum diterima untuk secara langsung merujuk ke IBD. Terjemahan yang terkadang digunakan adalah "sinkronisasi awal", atau "téléchargement awal des blocs".*

@@ -1,0 +1,9 @@
+question: Dans un contrat RGB, quelle est la fonction de l’Interface ?
+answer: Rendre les données du contrat lisibles et manipulables
+wrong_answers:
+  - Exécuter les scripts de validation sur la blockchain
+  - Assurer le stockage des données de la Genesis côté client
+  - Définir le strict type system pour les états
+explanation: |
+  L’Interface a pour objectif d’exposer les informations du contrat de manière claire pour les utilisateurs et les logiciels, sans toucher à la logique métier.
+reviewed: false

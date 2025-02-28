@@ -1,0 +1,14 @@
+question: Minkä tyyppistä skriptiä käytetään yksinomaan Silent Payments -maksuissa?
+
+answer: P2TR
+
+wrong_answers:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+
+explanation: |
+  Tämän protokollan toteuttamisen helpottamiseksi ja sen käyttäjien nimettömyysjoukon parantamiseksi Silent Payments nojaa yksinomaan P2TR (Pay to Taproot) -skripteihin.
+
+reviewed: false
+

@@ -1,0 +1,13 @@
+question: Comment P2P transport V2 améliore-t-il la confidentialité et la sécurité des communications entre les nœuds ?
+
+answer: En intégrant du chiffrement opportuniste
+
+wrong_answers:
+  - En intégrant de l'authentification
+  - En utilisant des relais supplémentaires
+  - En utilisant Tor
+
+explanation: |
+  P2P transport V2 intègre une couche de chiffrement opportuniste pour améliorer la confidentialité et la sécurité des communications entre les nœuds.
+
+reviewed: false

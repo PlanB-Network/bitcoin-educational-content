@@ -1,0 +1,9 @@
+question: Cosa comporta l'Euristica della Comune Proprietà degli Input (CIOH)?
+answer: Quando una transazione include più input, è probabile che questi provengano tutti dalla stessa entità.
+wrong_answers:
+  - Quando una transazione include più input, è probabile che questi provengano da entità diverse.
+  - Quando una transazione include più output, è probabile che questi vadano tutti alla stessa entità.
+  - Quando una transazione include più output, è probabile che questi vadano a entità diverse.
+explanation: |
+  La CIOH è un'euristica che suggerisce che quando una transazione include più input, questi input probabilmente provengono tutti dalla stessa entità. Di conseguenza, la loro proprietà è comune.
+reviewed: false

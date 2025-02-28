@@ -1,9 +1,0 @@
-question: ¿Cuál es el papel de la transacción de compromiso en la Red Lightning?
-answer: Actualiza el saldo del canal después de cada transferencia.
-wrong_answers:
-  - Abre el canal.
-  - Cierra el canal.
-  - Transfiere los fondos.
-explanation: |
-  La transacción de compromiso es una transacción más reciente que actualiza el saldo del canal después de cada transferencia. No se ejecuta a menos que el canal esté cerrado.
-reviewed: false

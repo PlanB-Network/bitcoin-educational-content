@@ -1,0 +1,9 @@
+question: Mis on peamine erinevus ShR ja RotR operatsioonide vahel?
+answer: ShR nihutab bitte lisades nulle, RotR sisestab nihutatud bitid tagasi
+wrong_answers:
+  - ShR eemaldab nihutatud bitid, RotR korrutab nende väärtust
+  - ShR nihutab vasakule, RotR nihutab paremale
+  - ShR on loogiline operatsioon, RotR on aritmeetiline
+explanation: |
+  ShR nihutab bitte paremale lisades nulle, samal ajal kui RotR teostab bittide tsirkulaarset rotatsiooni.
+reviewed: false

@@ -1,6 +1,6 @@
 ---
-Nome: Relai
-Descrizione: Un semplice tutorial sull'utilizzo di Relai per il vostro viaggio in Bitcoin!
+Name: Relai
+Description: Un semplice tutorial sull'utilizzo di Relai per il vostro viaggio in Bitcoin!
 ---
 ![cover](assets/cover.webp)
 

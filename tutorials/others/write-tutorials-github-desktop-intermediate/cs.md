@@ -46,7 +46,7 @@ Předpoklady před zahájením výuky :
 
 Pokud potřebujete pomoci se získáním těchto předpokladů, pomohou vám mé další návody:
 
-https://planb.network/fr/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
@@ -413,3 +413,4 @@ Pokud chcete provést změny ve svém příspěvku poté, co jste již podali PR
 - V případě, že váš PR již byl sloučen s hlavní větví, budete muset proces opakovat od začátku vytvořením nové větve a následným odesláním nového PR. Před pokračováním se ujistěte, že je váš místní repozitář synchronizován se zdrojovým repozitářem sítě Plan ₿.
 
 Pokud máte technické potíže s odesláním návodu, neváhejte požádat o pomoc na [naší speciální skupině pro příspěvky na Telegramu](https://t.me/PlanBNetwork_ContentBuilder). Moc vám děkujeme!
+

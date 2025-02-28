@@ -46,7 +46,7 @@ Forutsetninger før du starter opplæringen :
 
 Hvis du trenger hjelp med å skaffe deg disse forutsetningene, kan du finne hjelp i de andre veiledningene mine:
 
-https://planb.network/fr/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
@@ -413,3 +413,4 @@ Hvis du ønsker å gjøre endringer i bidraget ditt etter at du allerede har sen
 - Hvis PR-en din allerede er slått sammen med hovedgrenen, må du gjøre prosessen på nytt fra begynnelsen ved å opprette en ny gren og deretter sende inn en ny PR. Sørg for at det lokale depotet ditt er synkronisert med Plan ₿ Network-kilderegisteret før du fortsetter.
 
 Hvis du har tekniske problemer med å sende inn opplæringen din, ikke nøl med å be om hjelp på [vår dedikerte Telegram-gruppe for bidrag] (https://t.me/PlanBNetwork_ContentBuilder). Tusen takk skal du ha!
+

@@ -46,7 +46,7 @@ Eeltingimused enne õpetuse alustamist :
 
 Kui vajate abi nende eelduste hankimisel, siis aitavad teid minu teised õpetused:
 
-https://planb.network/fr/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
@@ -413,3 +413,4 @@ Kui soovite oma panust muuta pärast seda, kui olete oma PR-i juba esitanud, sõ
 - Kui teie PR on juba ühendatud põhiharuga, peate protsessi uuesti alustama, luues uue haru ja esitades seejärel uue PR-i. Veenduge, et teie kohalik repositoorium on enne jätkamist sünkroniseeritud Plan ₿ võrgu lähtekoodide repositooriumiga.
 
 Kui teil on tehnilisi raskusi oma õpetuse esitamisel, siis paluge julgelt abi [meie spetsiaalses Telegrami grupis](https://t.me/PlanBNetwork_ContentBuilder). Suur tänu!
+

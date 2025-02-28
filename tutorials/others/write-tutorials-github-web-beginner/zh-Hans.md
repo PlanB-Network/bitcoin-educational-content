@@ -35,7 +35,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 
 如果您在获得这些先决条件方面需要帮助，我的其他教程会有所帮助：
 
-https://planb.network/fr/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
@@ -272,3 +272,4 @@ Pour insérer un schéma présent dans votre sous-dossier dans votre document de
 ![green](assets/fr/01.webp)
 
 ```
+

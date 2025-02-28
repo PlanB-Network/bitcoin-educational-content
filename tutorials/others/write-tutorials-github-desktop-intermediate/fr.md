@@ -43,7 +43,7 @@ Prérequis avant de commencer le tutoriel :
 
 Si vous avez besoin d'aide pour obtenir ces prérequis, mes autres tutoriels vous aideront :
 
-https://planb.network/fr/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
@@ -442,3 +442,4 @@ Si vous désirez apporter des modifications à votre contribution après avoir d
 - Dans le cas où votre PR a déjà été fusionnée avec la branche principale, vous devrez refaire le processus depuis le début en créant une nouvelle branche, puis en soumettant une nouvelle PR. Assurez-vous que votre dépôt local soit synchronisé avec le dépôt source de Plan ₿ Network avant de procéder.
 
 Si vous rencontrez des difficultés techniques pour soumettre votre tutoriel, n'hésitez pas à demander de l'aide sur [notre groupe Telegram dédié aux contributions](https://t.me/PlanBNetwork_ContentBuilder). Merci !
+

@@ -46,7 +46,7 @@ Pré-requisitos antes de iniciar o tutorial :
 
 Se precisar de ajuda para obter estes pré-requisitos, os meus outros tutoriais irão ajudá-lo:
 
-https://planb.network/fr/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
@@ -413,3 +413,4 @@ Se pretender alterar a sua contribuição depois de já ter apresentado o seu RP
 - No caso de o seu PR já ter sido fundido com o ramo principal, terá de refazer o processo desde o início, criando um novo ramo e, em seguida, submetendo um novo PR. Certifique-se de que o seu repositório local está sincronizado com o repositório de origem do Plan ₿ Network antes de continuar.
 
 Se tiveres dificuldades técnicas para enviar o teu tutorial, não hesites em pedir ajuda no [nosso grupo de Telegrama dedicado às contribuições] (https://t.me/PlanBNetwork_ContentBuilder). Muito obrigado!
+

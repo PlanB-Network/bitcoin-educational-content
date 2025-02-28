@@ -225,4 +225,4 @@ Agora está pronto para utilizar o Ubuntu diariamente: proteja o seu sistema, na
 
 Para levar a segurança da sua vida digital um passo mais além, recomendamos que dê uma vista de olhos ao nosso serviço de mensagens encriptadas, que é perfeitamente adequado para proteger a sua privacidade e complementa a sua instalação Ubuntu:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

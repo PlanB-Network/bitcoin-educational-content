@@ -225,4 +225,4 @@ Jetzt sind Sie bereit, Ubuntu im Alltag zu nutzen: Sichern Sie Ihr System, surfe
 
 Um die Sicherheit Ihres digitalen Lebens noch einen Schritt weiter zu bringen, empfehlen wir Ihnen unseren verschlüsselten Nachrichtendienst, der perfekt zum Schutz Ihrer Privatsphäre geeignet ist und Ihre Ubuntu-Installation ergänzt:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

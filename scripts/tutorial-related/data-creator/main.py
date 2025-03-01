@@ -3,12 +3,13 @@ from config import load_settings, save_settings
 from gui.home import HomePage
 
 def on_closing(root, settings):
-    # Mettez à jour les paramètres de la page active (par exemple, le thème, etc.)
-    if hasattr(root, "active_page") and callable(root.active_page.update_settings):
-        root.active_page.update_settings()
-    # Ne pas enregistrer la taille de la fenêtre dans les settings
+    # Récupère update_settings si elle existe, sinon retourne None
+    update_func = getattr(root.active_page, "update_settings", None)
+    if callable(update_func):
+        update_func()
     save_settings(settings)
     root.destroy()
+
 
 def main():
     settings = load_settings()

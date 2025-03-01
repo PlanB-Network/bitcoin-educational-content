@@ -8,8 +8,7 @@ def load_allowed_tags(base_path):
     """
     tags = []
     if base_path:
-        parent_dir = os.path.dirname(base_path)
-        file_path = os.path.join(parent_dir, "docs", "50-planb-tags.md")
+        file_path = os.path.join(base_path, "docs", "50-planb-tags.md")
     else:
         file_path = os.path.join("docs", "50-planb-tags.md")
     if os.path.exists(file_path):
@@ -28,8 +27,7 @@ def load_all_builders(base_path):
     builders = {}
     if not base_path:
         return builders
-    parent_dir = os.path.dirname(base_path)
-    builders_dir = os.path.join(parent_dir, "resources", "projects")
+    builders_dir = os.path.join(base_path, "resources", "projects")
     if not os.path.exists(builders_dir):
         return builders
     for d in os.listdir(builders_dir):

@@ -13,7 +13,7 @@ def create_tutorial_files(base, section_name, tutorial_name, language_code, proj
     """
     Create the necessary files for a new tutorial.
     """
-    tutorial_path = os.path.join(base, section_name, tutorial_name)
+    tutorial_path = os.path.join(base, "tutorials", section_name, tutorial_name)
     create_directory(tutorial_path)
     assets_path = os.path.join(tutorial_path, "assets")
     create_directory(assets_path)

@@ -5,16 +5,15 @@ import datetime
 import customtkinter as ctk
 from tkinter import messagebox, filedialog
 import random
-from utils.data_loader import load_allowed_tags, load_all_builders  # Si nécessaire
+from utils.data_loader import load_allowed_tags, load_all_builders
 from utils.file_ops import (
     create_directory,
     write_file,
     process_profile_image,
-    # Les fonctions create_tutorial_files, create_professor_yaml et create_language_yaml restent disponibles
     create_project_yaml,
     create_project_language_yaml
 )
-from utils.constants import PROJECT_CATEGORIES  # Import de la liste depuis constants
+from utils.constants import PROJECT_CATEGORIES
 
 class ProjectPage(ctk.CTkFrame):
     def __init__(self, parent, settings):
@@ -23,52 +22,74 @@ class ProjectPage(ctk.CTkFrame):
         self.settings = settings
         self.base_path = settings.get("base_path", "")
         
-        # Enregistrer cette page comme active
+        # Set this page as active
         self.master.active_page = self
         
-        # Charger les données temporaires si elles existent
+        # Retrieve previously saved project data, if any
         project_data = self.settings.get("project_data", {})
         
-        # Configuration de la grille
+        # Configure grid layout
         for i in range(12):
             self.grid_rowconfigure(i, weight=1)
         for j in range(4):
             self.grid_columnconfigure(j, weight=1)
         
         row = 0
-        ctk.CTkLabel(self, text="New Project Creation", font=("Arial", 20)).grid(row=row, column=0, columnspan=4, pady=10)
+        ctk.CTkLabel(self, text="New Project Creation", font=("Arial", 20)).grid(
+            row=row, column=0, columnspan=4, pady=10
+        )
         row += 1
         
-        # Nom du dossier (pour le project)
-        ctk.CTkLabel(self, text="Folder name:").grid(row=row, column=0, sticky="w", padx=10)
+        # Folder name input
+        ctk.CTkLabel(self, text="Folder name:").grid(
+            row=row, column=0, sticky="w", padx=10
+        )
         self.folder_name_var = ctk.StringVar(value=project_data.get("folder_name", ""))
-        ctk.CTkEntry(self, textvariable=self.folder_name_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
+        ctk.CTkEntry(self, textvariable=self.folder_name_var, width=200).grid(
+            row=row, column=1, padx=10, pady=5, sticky="ew"
+        )
         row += 1
         
-        # Nom du project (obligatoire)
-        ctk.CTkLabel(self, text="Project Name:").grid(row=row, column=0, sticky="w", padx=10)
+        # Project name input (required)
+        ctk.CTkLabel(self, text="Project Name:").grid(
+            row=row, column=0, sticky="w", padx=10
+        )
         self.project_name_var = ctk.StringVar(value=project_data.get("project_name", ""))
-        ctk.CTkEntry(self, textvariable=self.project_name_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
+        ctk.CTkEntry(self, textvariable=self.project_name_var, width=200).grid(
+            row=row, column=1, padx=10, pady=5, sticky="ew"
+        )
         row += 1
         
-        # Liens optionnels : website et twitter
-        ctk.CTkLabel(self, text="Website (optional):").grid(row=row, column=0, sticky="w", padx=10)
+        # Optional website and Twitter inputs
+        ctk.CTkLabel(self, text="Website (optional):").grid(
+            row=row, column=0, sticky="w", padx=10
+        )
         self.website_var = ctk.StringVar(value=project_data.get("website", ""))
-        ctk.CTkEntry(self, textvariable=self.website_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
-        ctk.CTkLabel(self, text="Twitter (optional):").grid(row=row, column=2, sticky="w", padx=10)
+        ctk.CTkEntry(self, textvariable=self.website_var, width=200).grid(
+            row=row, column=1, padx=10, pady=5, sticky="ew"
+        )
+        ctk.CTkLabel(self, text="Twitter (optional):").grid(
+            row=row, column=2, sticky="w", padx=10
+        )
         self.twitter_var = ctk.StringVar(value=project_data.get("twitter", ""))
-        ctk.CTkEntry(self, textvariable=self.twitter_var, width=200).grid(row=row, column=3, padx=10, pady=5, sticky="ew")
+        ctk.CTkEntry(self, textvariable=self.twitter_var, width=200).grid(
+            row=row, column=3, padx=10, pady=5, sticky="ew"
+        )
         row += 1
         
-        # Catégorie (liste déroulante parmi PROJECT_CATEGORIES)
-        ctk.CTkLabel(self, text="Category:").grid(row=row, column=0, sticky="w", padx=10)
+        # Category dropdown
+        ctk.CTkLabel(self, text="Category:").grid(
+            row=row, column=0, sticky="w", padx=10
+        )
         self.category_var = ctk.StringVar(value=project_data.get("category", PROJECT_CATEGORIES[0]))
         self.category_menu = ctk.CTkOptionMenu(self, values=PROJECT_CATEGORIES, variable=self.category_var, width=200)
         self.category_menu.grid(row=row, column=1, padx=10, pady=5, sticky="ew")
         row += 1
         
-        # Tags (obligatoires, minimum 2)
-        ctk.CTkLabel(self, text="Tags (min. 2):").grid(row=row, column=0, sticky="w", padx=10)
+        # Tags input and suggestions (minimum 2 tags required)
+        ctk.CTkLabel(self, text="Tags (min. 2):").grid(
+            row=row, column=0, sticky="w", padx=10
+        )
         tag_frame = ctk.CTkFrame(self, width=300)
         tag_frame.grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
         num_tags = 3
@@ -88,40 +109,60 @@ class ProjectPage(ctk.CTkFrame):
         self.tag3_entry.bind("<KeyRelease>", self.update_tag3_suggestions)
         row += 1
         
-        ctk.CTkLabel(self, text="Tag Suggestions:").grid(row=row, column=0, sticky="w", padx=10)
+        ctk.CTkLabel(self, text="Tag Suggestions:").grid(
+            row=row, column=0, sticky="w", padx=10
+        )
         tag_suggestion_frame = ctk.CTkFrame(self, width=300)
         tag_suggestion_frame.grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
-        self.tag1_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag1_selected, width=tag_field_width)
+        self.tag1_suggestions_menu = ctk.CTkOptionMenu(
+            tag_suggestion_frame, values=[], command=self.on_tag1_selected, width=tag_field_width
+        )
         self.tag1_suggestions_menu.grid(row=0, column=0, padx=(0, gap_width), sticky="ew")
-        self.tag2_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag2_selected, width=tag_field_width)
+        self.tag2_suggestions_menu = ctk.CTkOptionMenu(
+            tag_suggestion_frame, values=[], command=self.on_tag2_selected, width=tag_field_width
+        )
         self.tag2_suggestions_menu.grid(row=0, column=1, padx=(0, gap_width), sticky="ew")
-        self.tag3_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag3_selected, width=tag_field_width)
+        self.tag3_suggestions_menu = ctk.CTkOptionMenu(
+            tag_suggestion_frame, values=[], command=self.on_tag3_selected, width=tag_field_width
+        )
         self.tag3_suggestions_menu.grid(row=0, column=2, sticky="ew")
         self.update_tag1_suggestions()
         self.update_tag2_suggestions()
         self.update_tag3_suggestions()
         row += 1
         
-        # Logo image (obligatoire)
-        ctk.CTkLabel(self, text="Logo Image:").grid(row=row, column=0, sticky="w", padx=10)
+        # Logo image input
+        ctk.CTkLabel(self, text="Logo Image:").grid(
+            row=row, column=0, sticky="w", padx=10
+        )
         self.image_path_var = ctk.StringVar(value=project_data.get("image_path", ""))
-        ctk.CTkEntry(self, textvariable=self.image_path_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
-        ctk.CTkButton(self, text="Select Image", command=self.select_image, width=120).grid(row=row, column=2, padx=10, pady=5)
+        ctk.CTkEntry(self, textvariable=self.image_path_var, width=200).grid(
+            row=row, column=1, padx=10, pady=5, sticky="ew"
+        )
+        ctk.CTkButton(self, text="Select Image", command=self.select_image, width=120).grid(
+            row=row, column=2, padx=10, pady=5
+        )
         row += 1
         
-        # Description (obligatoire) : zone de texte multilignes
-        ctk.CTkLabel(self, text="Description:").grid(row=row, column=0, sticky="nw", padx=10)
+        # Description input (multiline)
+        ctk.CTkLabel(self, text="Description:").grid(
+            row=row, column=0, sticky="nw", padx=10
+        )
         self.description_textbox = ctk.CTkTextbox(self, width=400, height=100)
         self.description_textbox.grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
         if "description" in project_data:
             self.description_textbox.insert("1.0", project_data.get("description"))
         row += 1
         
-        # Boutons : Create Project et Back
+        # Buttons for creating project and going back
         button_frame = ctk.CTkFrame(self, fg_color="transparent")
         button_frame.grid(row=row, column=0, columnspan=4, pady=20, sticky="ew")
-        ctk.CTkButton(button_frame, text="Create Project", command=self.create_project).pack(side="left", padx=10, expand=True)
-        ctk.CTkButton(button_frame, text="Back", command=self.go_back).pack(side="left", padx=10, expand=True)
+        ctk.CTkButton(button_frame, text="Create Project", command=self.create_project).pack(
+            side="left", padx=10, expand=True
+        )
+        ctk.CTkButton(button_frame, text="Back", command=self.go_back).pack(
+            side="left", padx=10, expand=True
+        )
     
     def update_tag1_suggestions(self, event=None):
         allowed = load_allowed_tags(self.base_path)
@@ -180,25 +221,24 @@ class ProjectPage(ctk.CTkFrame):
         }
     
     def select_image(self):
-        file_path = filedialog.askopenfilename(title="Select Logo Image", 
-                                               filetypes=[("Image Files", "*.png;*.jpg;*.jpeg;*.webp")])
+        file_path = filedialog.askopenfilename(
+            title="Select Logo Image", 
+            filetypes=[("Image Files", "*.png;*.jpg;*.jpeg;*.webp")]
+        )
         if file_path:
             self.image_path_var.set(file_path)
     
     def create_project(self):
-        # Validation du nom du dossier
         folder_name = self.folder_name_var.get().strip()
         if not folder_name or not re.match(r'^[a-z0-9\-]+$', folder_name):
             messagebox.showerror("Error", "Invalid folder name. Use only lowercase letters, digits, and dashes.")
             return
         
-        # Validation du nom du project
         project_name = self.project_name_var.get().strip()
         if not project_name:
             messagebox.showerror("Error", "Please enter the project name.")
             return
         
-        # Vérifier l'unicité du dossier dans [base_path]/resources/projects/
         projects_dir = os.path.join(self.base_path, "resources", "projects")
         create_directory(projects_dir)
         new_folder = os.path.join(projects_dir, folder_name)
@@ -209,7 +249,6 @@ class ProjectPage(ctk.CTkFrame):
             folder_name = f"{folder_name}-{counter}"
             new_folder = os.path.join(projects_dir, folder_name)
         
-        # Vérification des tags obligatoires
         tags = [t.strip() for t in [self.tag1_var.get(), self.tag2_var.get(), self.tag3_var.get()] if t.strip()]
         if len(tags) < 2:
             messagebox.showerror("Error", "Please enter at least two tags for the project.")
@@ -220,21 +259,17 @@ class ProjectPage(ctk.CTkFrame):
                 messagebox.showerror("Error", f"Tag '{tag}' is not valid. Please select a valid tag from the suggestions.")
                 return
         
-        # Vérification de l'image logo obligatoire
         if not self.image_path_var.get().strip():
             messagebox.showerror("Error", "Please select a logo image.")
             return
         
-        # Vérification de la description obligatoire
         description = self.description_textbox.get("1.0", "end").strip()
         if not description:
             messagebox.showerror("Error", "Please enter a project description.")
             return
         
         try:
-            # Création du dossier project
             create_directory(new_folder)
-            # Création du dossier assets et traitement du logo
             assets_dir = os.path.join(new_folder, "assets")
             create_directory(assets_dir)
             logo_source = self.image_path_var.get().strip()
@@ -242,20 +277,15 @@ class ProjectPage(ctk.CTkFrame):
                 dest_logo = os.path.join(assets_dir, "logo.webp")
                 process_profile_image(logo_source, dest_logo)
             
-            # Générer un UUID pour le project
             project_uuid = str(uuid.uuid4())
             
-            # Récupérer les autres valeurs
             website = self.website_var.get().strip()
             twitter = self.twitter_var.get().strip()
             category = self.category_var.get().strip()
-            # Proofreading metadata
             language_code = self.settings.get("language", "en").split(" ")[0]
             current_date = datetime.date.today().strftime("%Y-%m-%d")
-            # Utiliser le Contributor's GitHub ID de HOME pour project.yml
             global_contributor = self.settings.get("contributor_id", "").strip()
             
-            # Générer le contenu de project.yml via la fonction utilitaire
             project_yaml_content = create_project_yaml(
                 project_uuid,
                 project_name,
@@ -270,9 +300,6 @@ class ProjectPage(ctk.CTkFrame):
             project_yaml_path = os.path.join(new_folder, "project.yml")
             write_file(project_yaml_path, project_yaml_content)
             
-            # Création du fichier de langue (ex: fr.yml)
-            # Ce fichier contiendra la description et la liste des contributors,
-            # ici le PBN Professor's ID (issu de HOME).
             professor_global = self.settings.get("professor_id", "").strip()
             lang_yaml_content = create_project_language_yaml(
                 language_code,
@@ -285,7 +312,7 @@ class ProjectPage(ctk.CTkFrame):
             messagebox.showinfo("Success", f"Project created successfully in:\n{new_folder}")
         except Exception as e:
             messagebox.showerror("Error", f"An error occurred: {e}")
-   
+    
     def update_local_state(self):
         self.settings["project_data"] = {
             "folder_name": self.folder_name_var.get(),

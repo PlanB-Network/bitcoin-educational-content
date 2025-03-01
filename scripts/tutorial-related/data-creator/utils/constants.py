@@ -158,9 +158,7 @@ OTHER_LANGUAGE_CODES = {
 SORTED_OTHER_LANGUAGES = sorted(OTHER_LANGUAGE_CODES)
 OTHER_LANGUAGE_OPTIONS = [f"{code} ({OTHER_LANGUAGE_CODES[code]})" for code in SORTED_OTHER_LANGUAGES]
 
-# ------------------
 # BIP39 WORDS LIST
-# ------------------
 
 BIP39_WORDS = [
     "abandon", "ability", "able", "about", "above", "absent", "absorb", "abstract", "absurd", "abuse",

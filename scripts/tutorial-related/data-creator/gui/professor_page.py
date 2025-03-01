@@ -23,30 +23,30 @@ class ProfessorPage(ctk.CTkFrame):
         self.parent = parent
         self.settings = settings
         self.base_path = self.settings.get("base_path", "")
-       
-        # Enregistrer cette page comme active dans le master
+        
+        # Set this page as the active page in the master
         self.master.active_page = self
-       
-        # Charger les données temporaires enregistrées (si elles existent)
+        
+        # Retrieve any previously saved professor data
         professor_data = self.settings.get("professor_data", {})
-       
-        # Configurer la grille pour occuper tout l'espace
+        
+        # Configure the grid layout
         for i in range(15):
             self.grid_rowconfigure(i, weight=1)
         for j in range(4):
             self.grid_columnconfigure(j, weight=1)
-       
+        
         row = 0
         ctk.CTkLabel(self, text="New Professor Creation", font=("Arial", 20)).grid(row=row, column=0, columnspan=4, pady=10)
         row += 1
-       
-        # Folder name (for new professor)
+        
+        # Folder name input
         ctk.CTkLabel(self, text="Folder name:").grid(row=row, column=0, sticky="w", padx=10)
         self.folder_name_var = ctk.StringVar(value=professor_data.get("folder_name", ""))
         ctk.CTkEntry(self, textvariable=self.folder_name_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
         row += 1
-       
-        # First Name and Last Name
+        
+        # First and last name inputs
         ctk.CTkLabel(self, text="First Name:").grid(row=row, column=0, sticky="w", padx=10)
         self.first_name_var = ctk.StringVar(value=professor_data.get("first_name", ""))
         ctk.CTkEntry(self, textvariable=self.first_name_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
@@ -54,16 +54,16 @@ class ProfessorPage(ctk.CTkFrame):
         self.last_name_var = ctk.StringVar(value=professor_data.get("last_name", ""))
         ctk.CTkEntry(self, textvariable=self.last_name_var, width=200).grid(row=row, column=3, padx=10, pady=5, sticky="ew")
         row += 1
-       
-        # Random Contributor ID with re-roll button
+        
+        # Random Contributor ID with re-roll functionality
         ctk.CTkLabel(self, text="Random Contributor ID:").grid(row=row, column=0, sticky="w", padx=10)
         initial_contrib = professor_data.get("prof_contrib", generate_random_contributor_id())
         self.prof_contrib_var = ctk.StringVar(value=initial_contrib)
         ctk.CTkEntry(self, textvariable=self.prof_contrib_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
         ctk.CTkButton(self, text="Re-roll", command=self.roll_contributor_id, width=100).grid(row=row, column=2, padx=10, pady=5)
         row += 1
-       
-        # Links: Website and Twitter (optionnels)
+        
+        # Optional website and Twitter inputs
         ctk.CTkLabel(self, text="Website (optional):").grid(row=row, column=0, sticky="w", padx=10)
         self.website_var = ctk.StringVar(value=professor_data.get("website", ""))
         ctk.CTkEntry(self, textvariable=self.website_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
@@ -71,14 +71,14 @@ class ProfessorPage(ctk.CTkFrame):
         self.twitter_var = ctk.StringVar(value=professor_data.get("twitter", ""))
         ctk.CTkEntry(self, textvariable=self.twitter_var, width=200).grid(row=row, column=3, padx=10, pady=5, sticky="ew")
         row += 1
-       
-        # Tips: Lightning address (optionnel)
+        
+        # Optional lightning address input
         ctk.CTkLabel(self, text="Lightning Address (optional):").grid(row=row, column=0, sticky="w", padx=10)
         self.lightning_var = ctk.StringVar(value=professor_data.get("lightning", ""))
         ctk.CTkEntry(self, textvariable=self.lightning_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
         row += 1
-       
-        # Tags (obligatoires) : minimum 2 tags et doivent être valides
+        
+        # Tags input and suggestions (minimum 2 required)
         ctk.CTkLabel(self, text="Tags (min. 2):").grid(row=row, column=0, sticky="w", padx=10)
         tag_frame = ctk.CTkFrame(self, width=300)
         tag_frame.grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
@@ -98,7 +98,7 @@ class ProfessorPage(ctk.CTkFrame):
         self.tag3_entry.grid(row=0, column=2, sticky="ew")
         self.tag3_entry.bind("<KeyRelease>", self.update_tag3_suggestions)
         row += 1
-       
+        
         ctk.CTkLabel(self, text="Tag Suggestions:").grid(row=row, column=0, sticky="w", padx=10)
         tag_suggestion_frame = ctk.CTkFrame(self, width=300)
         tag_suggestion_frame.grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
@@ -112,28 +112,28 @@ class ProfessorPage(ctk.CTkFrame):
         self.update_tag2_suggestions()
         self.update_tag3_suggestions()
         row += 1
-       
-        # Profile image (obligatoire)
+        
+        # Profile image input
         ctk.CTkLabel(self, text="Profile Image:").grid(row=row, column=0, sticky="w", padx=10)
         self.image_path_var = ctk.StringVar(value=professor_data.get("image_path", ""))
         ctk.CTkEntry(self, textvariable=self.image_path_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
         ctk.CTkButton(self, text="Select Image", command=self.select_image, width=120).grid(row=row, column=2, padx=10, pady=5)
         row += 1
-       
-        # Biography (multilines) et Short bio (obligatoire)
+        
+        # Biography and Short bio inputs
         ctk.CTkLabel(self, text="Biography:").grid(row=row, column=0, sticky="nw", padx=10)
         self.bio_textbox = ctk.CTkTextbox(self, width=400, height=100)
         self.bio_textbox.grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
         if "bio" in professor_data:
             self.bio_textbox.insert("1.0", professor_data.get("bio"))
         row += 1
-       
+        
         ctk.CTkLabel(self, text="Short bio:").grid(row=row, column=0, sticky="w", padx=10)
         self.short_bio_var = ctk.StringVar(value=professor_data.get("short_bio", ""))
         ctk.CTkEntry(self, textvariable=self.short_bio_var, width=400).grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
         row += 1
-       
-        # Boutons : Create Professor et Back
+        
+        # Buttons for creating the professor and going back
         button_frame = ctk.CTkFrame(self, fg_color="transparent")
         button_frame.grid(row=row, column=0, columnspan=4, pady=20, sticky="ew")
         ctk.CTkButton(button_frame, text="Create Professor", command=self.create_professor).pack(side="left", padx=10, expand=True)
@@ -210,8 +210,10 @@ class ProfessorPage(ctk.CTkFrame):
         }
    
     def select_image(self):
-        file_path = filedialog.askopenfilename(title="Select Profile Image", 
-                                               filetypes=[("Image Files", "*.png;*.jpg;*.jpeg;*.webp")])
+        file_path = filedialog.askopenfilename(
+            title="Select Profile Image",
+            filetypes=[("Image Files", "*.png;*.jpg;*.jpeg;*.webp")]
+        )
         if file_path:
             self.image_path_var.set(file_path)
    
@@ -270,18 +272,22 @@ class ProfessorPage(ctk.CTkFrame):
                 process_profile_image(image_path, dest_image)
            
             full_name = f"{self.first_name_var.get().strip()} {self.last_name_var.get().strip()}"
-            yaml_content = create_professor_yaml(full_name, contributor_id,
-                                                 website=self.website_var.get().strip(),
-                                                 twitter=self.twitter_var.get().strip(),
-                                                 lightning=self.lightning_var.get().strip(),
-                                                 tags=tags)
+            yaml_content = create_professor_yaml(
+                full_name, contributor_id,
+                website=self.website_var.get().strip(),
+                twitter=self.twitter_var.get().strip(),
+                lightning=self.lightning_var.get().strip(),
+                tags=tags
+            )
             yaml_file_path = os.path.join(new_folder, "professor.yml")
             write_file(yaml_file_path, yaml_content)
            
             language = self.settings.get("language", "en").split(" ")[0]
-            lang_yaml_content = create_language_yaml(language,
-                                                     self.bio_textbox.get("1.0", "end").strip(),
-                                                     self.short_bio_var.get().strip())
+            lang_yaml_content = create_language_yaml(
+                language,
+                self.bio_textbox.get("1.0", "end").strip(),
+                self.short_bio_var.get().strip()
+            )
             lang_yaml_path = os.path.join(new_folder, f"{language}.yml")
             write_file(lang_yaml_path, lang_yaml_content)
            

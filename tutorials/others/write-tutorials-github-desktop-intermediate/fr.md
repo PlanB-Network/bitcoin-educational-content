@@ -107,7 +107,7 @@ Vous devez installer sur votre machine :
 
 ```bash
 pip install customtkinter appdirs
-````
+```
 
 Pour utiliser le script, rendez-vous dans le dossier où il est stocké. Le script se trouve dans le dépôt de data de Plan ₿ Network sous le chemin : `bitcoin-educational-content/scripts/tutorial-related/new-tutorial-creation/`.
 
@@ -239,7 +239,7 @@ proofreading:
     contributors_id:
       - 
     reward:
-````
+```
 
 Voici le détail des champs obligatoires :
 

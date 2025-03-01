@@ -13,17 +13,19 @@ def load_settings():
     if os.path.exists(SETTINGS_FILE):
         with open(SETTINGS_FILE, "r", encoding="utf-8") as f:
             settings = json.load(f)
-            return settings
     else:
-        # Default settings if none exist
-        return {
-            "base_path": "",
-            "language_option": 1,
-            "language": "",
-            "contributor_id": "",
-            "professor_id": "",
-            "theme": "Light"
-        }
+        settings = {}
+    # Set default values for missing keys
+    settings.setdefault("base_path", "")
+    settings.setdefault("language_option", 1)
+    settings.setdefault("language", "")
+    settings.setdefault("contributor_id", "")
+    settings.setdefault("professor_id", "")
+    settings.setdefault("theme", "Light")
+    # Default window dimensions: reduced by ~25% compared to 1024x768 → 768x576
+    settings.setdefault("window_width", 768)
+    settings.setdefault("window_height", 576)
+    return settings
 
 def save_settings(settings):
     """Save user settings to JSON file."""

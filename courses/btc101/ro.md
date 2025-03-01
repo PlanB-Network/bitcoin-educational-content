@@ -325,7 +325,7 @@ Rezolvarea unei crize de hiperinflație necesită adesea schimbări radicale, cu
 
 - Germania, 1922-1923.
 
-Unul dintre cele mai izbitoare exemple de hiperinflație a avut loc în Republica germană de la Weimar, după Primul Război Mondial.
+Unul dintre cele mai remarcabile exemple de hiperinflație a avut loc în Republica Weimar Germană, după Primul Război Mondial.
 
 Germania împrumutase sume enorme de bani pentru a finanța războiul. Cu toate acestea, Germania nu numai că i-a pierdut, dar a trebuit să plătească miliarde de dolari în despăgubiri. Luna cu cea mai mare rată a inflației a fost octombrie 1923, cu un vârf de 29.500%, ceea ce echivala cu o rată a inflației de 20,9% pe zi. Prețurile s-au dublat la fiecare 3,7 zile!
 
@@ -380,13 +380,13 @@ Emisiunea sa monetară poate fi ilustrată printr-o curbă care reprezintă cant
 
 ### Cum sunt creați noii bitcoini?
 
-Crearea de noi bitcoini este rezultatul procesului de minerit. Pe scurt, minerii folosesc computere puternice care rezolvă probleme matematice complexe, care validează și securizează tranzacțiile. Odată ce o problemă este rezolvată, minerul adaugă un nou bloc de tranzacții la blockchain, un registru descentralizat și distribuit care înregistrează toate tranzacțiile efectuate în rețea. Blockchain asigură transparența și securitatea, deoarece fiecare bloc este legat de cel precedent, ceea ce face aproape imposibilă modificarea datelor anterioare fără consensul rețelei.
+Crearea de noi bitcoini este rezultatul procesului de mining. Pe scurt, mineri folosesc computere puternice care rezolvă probleme matematice complexe, care validează și securizează tranzacțiile. Odată ce o problemă este rezolvată, minerul adaugă un nou bloc de tranzacții la blockchain, un registru descentralizat și distribuit care înregistrează toate tranzacțiile efectuate în rețea. Blockchain asigură transparența și securitatea, deoarece fiecare bloc este legat de cel precedent, ceea ce face aproape imposibilă modificarea datelor anterioare fără consensul rețelei.
 
 ![image](assets/en/23.webp)
 
-După îndeplinirea cu succes a acestei sarcini, minerii sunt recompensați cu emiterea de noi bitcoini la fiecare zece minute. Această recompensă este programată să se înjumătățească la fiecare 210 000 de blocuri, adică aproximativ la fiecare patru ani (un eveniment cunoscut sub numele de "înjumătățire"), dând curbei de emitere monetară o formă de scară. Datorită acestui mecanism, se poate prezice matematic că crearea de noi bitcoini va înceta în jurul anului 2140, când numărul total va atinge limita de 21 de milioane.
+După îndeplinirea cu succes a acestei sarcini, mineri sunt recompensați cu emiterea de noi bitcoini la fiecare zece minute. Această recompensă este programată să se înjumătățească la fiecare 210 000 de blocuri, adică aproximativ la fiecare patru ani (un eveniment cunoscut sub numele de "halving"), dând curbei de emitere monetară o formă de scară. Datorită acestui mecanism, se poate prezice matematic că crearea de noi bitcoini va înceta în jurul anului 2140, când numărul total va atinge limita de 21 de milioane.
 
-| Numărul de înjumătățire | Înălțimea blocului | Recompensa BTC după înjumătățire | BTC estimat în circulație după înjumătățire |
+| Numărul de halving | Înălțimea blocului | Recompensa BTC după halving | BTC estimat în circulație după halving |
 
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
 
@@ -430,7 +430,7 @@ După îndeplinirea cu succes a acestei sarcini, minerii sunt recompensați cu e
 
 | 20 | 4,200,000 | 0.0000476837158203125 BTC | 20,999,979.973 BTC |
 
-Vom reveni asupra conceptului de minerit în mai multe detalii în capitolul [miner] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Vom reveni asupra conceptului de mining în mai multe detalii în capitolul [miner] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Garantarea rarității digitale
 
@@ -443,9 +443,9 @@ Dificultatea de a găsi un hash valid urmează un fel de ciclu: dacă numărul d
 
 ![image](assets/en/24.webp)
 
-Știați că minerii sunt stimulați să mineze un bloc pentru a câștiga noi bitcoini prin subvenția de bloc, precum și prin comisioanele de tranzacționare aferente tranzacțiilor pe care le includ în acel bloc?
+Știați că mineri sunt stimulați să mineze un bloc pentru a câștiga noi bitcoini prin subvenția de bloc, precum și prin comisioanele de tranzacționare aferente tranzacțiilor pe care le includ în acel bloc?
 
-Astfel, pe măsură ce numărul de bitcoini emise se apropie de limita de 21 de milioane, minerii vor fi remunerați mai mult prin comisioanele de tranzacționare decât prin subvenția de bloc.
+Astfel, pe măsură ce numărul de bitcoini emiși se apropie de limita de 21 de milioane, mineri vor fi remunerați mai mult prin comisioanele de tranzacționare decât prin subvenția de bloc.
 
 
 - Teoria jocurilor este un concept matematic care se bazează pe raționalitatea umană. Ea presupune că indivizii acționează logic, căutând să își maximizeze propriile beneficii, luând în considerare în același timp potențialele decizii ale celorlalți. În Bitcoin, teoria jocurilor contribuie la asigurarea faptului că majoritatea minerilor și a utilizatorilor vor acționa în interesul rețelei. De fapt, deoarece modificările protocolului sunt votate de utilizatori, orice modificare a protocolului Bitcoin ar necesita acordul întregii comunități de utilizatori, ceea ce este extrem de complex. Astfel, dacă cineva ar dori să creeze un bitcoin de 22 de milioane, ar trebui să convingă toți utilizatorii să își devalorizeze în mod voluntar propriile economii, ceea ce este puțin probabil să se întâmple, deoarece Bitcoin este global și nu este guvernat de un grup central.
@@ -473,7 +473,7 @@ De fapt, oricine poate face acest lucru prin intermediul unui nod Bitcoin (adic�
 }
 ```
 
-Bitcoin garantează o gestionare monetară solidă prin limitarea creației sale prin concepție, ceea ce îl face foarte diferit de alte monede, deoarece poate proteja economiile utilizatorilor. Aliniată la principiile economiei austriece, cantitatea sa stabilă și distribuția previzibilă o protejează de riscurile inerente ale inflației cu care se confruntă monedele tradiționale (consultați cursul ECO201 pentru a afla mai multe).
+Bitcoin garantează o gestionare monetară solidă prin limitarea creației sale prin concepție, ceea ce îl face foarte diferit de alte monede, deoarece poate proteja economiile utilizatorilor. Aliniat la principiile economiei austriece, cantitatea sa stabilă și distribuția previzibilă îl protejează de riscurile inerente ale inflației cu care se confruntă monedele tradiționale (consultați cursul ECO201 pentru a afla mai multe).
 
 Pe scurt, Bitcoin, prin natura sa descentralizată, raritatea programată și transparența, oferă o alternativă unică la sistemele monetare tradiționale. Acesta ilustrează modul în care tehnologia poate fi utilizată pentru a crea o monedă care nu numai că este utilă și verificabilă, dar păstrează și valoarea economiilor utilizatorilor prin limitarea strictă a ofertei sale.
 
@@ -500,7 +500,7 @@ Utilizăm portofelele pentru a interacționa cu rețeaua Bitcoin în trei moduri
 
 Un portofel Bitcoin poate avea multe forme: un software pe computer, o aplicație pe smartphone, un dispozitiv fizic precum o cheie USB sau chiar o bucată de hârtie. Fiecare dintre ele deservește cazuri de utilizare diferite. De fapt, unele sunt concepute pentru tranzacții mari, cu accent pe securitate, în timp ce altele prioritizează confidențialitatea, sau sunt destinate plăților zilnice de sume mici.
 
-Portofoliile pot fi astfel clasificate în familii largi de utilizare, centrate întotdeauna în jurul unei întrebări-cheie: sunteți proprietarul fondurilor sau lăsați controlul banilor dumneavoastră unei terțe părți? Vom explora acest subiect în detaliu în capitolul următor, dar întrebarea rămâne simplă: banii sunt în buzunarul dumneavoastră sau în buzunarul bancherului?
+Portofele pot fi astfel clasificate în familii largi de utilizare, centrate întotdeauna în jurul unei întrebări-cheie: sunteți proprietarul fondurilor sau lăsați controlul banilor dumneavoastră unei terțe părți? Vom explora acest subiect în detaliu în capitolul următor, dar întrebarea rămâne simplă: banii sunt în buzunarul dumneavoastră sau în buzunarul bancherului?
 
 ![image](assets/en/26.webp)
 
@@ -513,9 +513,9 @@ Fie că este vorba de "bancherul" tău Bitcoin sau de tine însuți, marea major
 
 La inițializarea unui portofel, o frază secretă de recuperare (cheie privată) este generată și vă este prezentată sub forma a 12 sau 24 de cuvinte.
 
-Cheia privată este fundamentală, deoarece constituie proprietatea asupra bitcoins și, prin urmare, dreptul de a le utiliza sau trimite. Prin urmare, deținătorul cheii private este adevăratul proprietar al bitcoins.
+Cheia privată este fundamentală, deoarece constituie proprietatea asupra bitcoinilor și, prin urmare, dreptul de a-i utiliza sau trimite. Prin urmare, deținătorul cheii private este adevăratul proprietar al bitcoinilor.
 
-Această cheie trebuie păstrată secretă și bine protejată, deoarece ea îți deschide norocul!
+Această cheie trebuie păstrată secretă și bine protejată, deoarece ea îți deblochează averea!
 
 
 - Cheie publică și adresă
@@ -546,7 +546,7 @@ Astfel, probabilitatea de hacking a portofelului Bitcoin este astronomic de scă
 
 Nu uitați să alegeți portofelul potrivit pentru nevoile și utilizarea dumneavoastră: tutoriale detaliate privind gestionarea și securizarea diferitelor portofele sunt disponibile în [secțiunea tutoriale a universității noastre] (https://planb.network/tutorials/wallet).
 
-Dacă, în timpul călătoriei dvs. pe gaura iepurelui, doriți să aflați mai multe despre construirea unui portofel Bitcoin, de la entropie la primirea adreselor, vă recomandăm cursul CYP 201 dedicat acestui subiect:
+Dacă, în timpul călătoriei dvs. în gaura iepurelui, doriți să aflați mai multe despre construirea unui portofel Bitcoin, de la entropie la primirea adreselor, vă recomandăm cursul CYP 201 dedicat acestui subiect:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ## Portofelele Bitcoin și securitatea
@@ -579,11 +579,11 @@ De fapt, nu există un răspuns sau o soluție universală, așa că faceți-vă
 
 - La nivelul 1**, utilizați un portofel Bitcoin pe telefon sau computer, unde sunteți singurul deținător al bitcoinilor dvs. și puteți efectua cu ușurință tranzacțiile. Instrumentul menționat anterior este denumit "hot wallet", deoarece cheia privată este stocată pe un dispozitiv cu acces la internet. În acest caz, este esențial să vă salvați fraza mnemonică pentru a avea din nou acces la fondurile dvs. în cazul în care vă pierdeți telefonul sau computerul.
 
-De exemplu, puteți utiliza Sparrow Wallet ca un portofel fierbinte:
+De exemplu, puteți utiliza Sparrow Wallet ca hot wallet:
 
 https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
-- Nivelul 2**, utilizați un portofel fizic și v-ați securizat lista de 12/24 de cuvinte. Acesta este adesea denumit "portofel rece", deoarece cheile dvs. sunt stocate pe un dispozitiv care nu este conectat la internet. În acest caz, va trebui întotdeauna să semnați fiecare tranzacție cu dispozitivul dumneavoastră, ceea ce face ca fondurile dumneavoastră să fie mai puțin accesibile zilnic.
+- Nivelul 2**, utilizați un portofel fizic și v-ați securizat lista de 12/24 de cuvinte. Acesta este adesea denumit "cold wallet", deoarece cheile dvs. sunt stocate pe un dispozitiv care nu este conectat la internet. În acest caz, va trebui întotdeauna să semnați fiecare tranzacție cu dispozitivul dumneavoastră, ceea ce face ca fondurile dumneavoastră să fie mai puțin accesibile zilnic.
 
 De exemplu, puteți utiliza un Ledger, un Satochip sau un Tapsigner:
 
@@ -611,7 +611,7 @@ Desigur, diferite cazuri de utilizare necesită, de asemenea, diferite portofele
 
 Suma pe care cineva este dispus să o lase pe un anumit nivel de securitate depinde de fiecare persoană. Pentru unii, a lăsa 1 BTC pe un portofel fierbinte este rezonabil, în timp ce, pentru alții, este opusul. În orice caz, atunci când doriți să securizați o sumă mică, vă sfătuim să nu cheltuiți prea mult pe securitate prin achiziționarea unui portofel fizic. În plus, rețineți că complicarea excesivă a securității și accesibilității bitcoinilor dvs. poate fi dăunătoare, mai ales dacă gestionați greșit copiile de siguranță ale portofelelor dvs.
 
-În concluzie, deținerea directă a propriilor bitcoini este un element esențial pentru asigurarea suveranității financiare. Se recomandă utilizarea unui portofel mobil pentru cheltuielile zilnice și a unui portofel fizic offline, sau "rece", pentru a stoca sume mai mari. Pe de altă parte, întreprinderile ar trebui să ia în considerare utilizarea sistemelor cu semnături multiple, sau "multisig", pentru o securitate sporită și comună. De asemenea, este esențial să se evite serviciile de custodie, care pot reproduce unele vulnerabilități ale sistemului financiar tradițional.
+În concluzie, deținerea directă a propriilor bitcoini este un element esențial pentru asigurarea suveranității financiare. Se recomandă utilizarea unui portofel mobil pentru cheltuielile zilnice și a unui portofel fizic offline, sau "cold", pentru a stoca sume mai mari. Pe de altă parte, întreprinderile ar trebui să ia în considerare utilizarea sistemelor cu semnături multiple, sau "multisig", pentru o securitate sporită și comună. De asemenea, este esențial să se evite serviciile de custodie, care pot reproduce unele vulnerabilități ale sistemului financiar tradițional.
 
 Ținând cont de acest lucru, putem trece acum la următoarea secțiune, în care vom descrie cum să creăm un portofel Bitcoin. Cu toate acestea, dacă doriți să explorați în continuare subiectul securității, puteți citi acest [articol de DarthCoin] (https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
@@ -626,7 +626,7 @@ Vă rugăm să rețineți că cursul BTC102 vă va ghida prin acest pas.
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ### Acest pas nu este o glumă!
 
-Atunci când configurați un portofel, software-ul creează de obicei cheia dvs. privată, reprezentată de obicei printr-o listă de 12/24 de cuvinte (adesea denumită "frază de pornire" sau "frază mnemonică"): aceste cuvinte constituie accesul la fondurile dvs. Dacă această cheie este dezvăluită vreodată unei terțe părți, trebuie să considerați că fondurile asociate sunt compromise. Prin urmare, atunci când vă configurați portofelul, este esențial să respectați aceste reguli:
+Atunci când configurați un portofel, software-ul creează de obicei cheia dvs. privată, reprezentată de obicei printr-o listă de 12/24 de cuvinte (adesea denumită "frază seed" sau "frază mnemonică"): aceste cuvinte constituie accesul la fondurile dvs. Dacă această cheie este dezvăluită vreodată unei terțe părți, trebuie să considerați că fondurile asociate sunt compromise. Prin urmare, atunci când vă configurați portofelul, este esențial să respectați aceste reguli:
 
 
 - Acoperiți toate camerele.
@@ -638,7 +638,7 @@ Atunci când configurați un portofel, software-ul creează de obicei cheia dvs.
 
 Ar trebui să luați literalmente o foaie albă de hârtie sau să imprimați acest [șablon] (https://bitcoiner.guide/backup.pdf) și să scrieți lista de cuvinte cu un stilou, urmând ordinea prezentată în mod clar și îngrijit. Fiți conștienți de faptul că, dacă cerneala se decolorează în timp, este posibil să vă pierdeți fondurile. Prin urmare, este important să păstrați această bucată de hârtie protejată de factorii de mediu care ar putea să o deterioreze, cum ar fi umiditatea sau focul.
 
-Vă rugăm să găsiți mai jos un exemplu de compilare a lucrării: cuvintele sunt false, deci nu le folosiți!
+Vă rugăm să consultați exemplul următor de compilare a documentului: cuvintele sunt false, deci nu le folosiți!
 
 ![image](assets/en/35.webp)
 
@@ -652,7 +652,7 @@ Listele de cuvinte ar trebui să fie stocate într-un loc sigur, pe care să vi-
 
 ** Cuvintele tale = banii tăi.**
 
-Atât portofelele "reci", cât și cele "calde" utilizează metoda listei de cuvinte ca standard pentru salvarea cheilor private. Prin urmare, puteți introduce fraza dvs. mnemonică în orice software sau dispozitiv de portofel compatibil pentru a vă restabili accesul. Pe de altă parte, vă recomandăm insistent să nu utilizați portofele care nu oferă o frază de început, deoarece acestea vă pot solicita să furnizați un cont, o adresă de e-mail sau, chiar mai rău, un act de identitate.
+Atât portofelele "cold", cât și cele "hot" utilizează metoda listei de cuvinte ca standard pentru salvarea cheilor private. Prin urmare, puteți introduce fraza dvs. mnemonică în orice software sau dispozitiv de portofel compatibil pentru a vă restabili accesul. Pe de altă parte, vă recomandăm insistent să nu utilizați portofele care nu oferă o frază de seed, deoarece acestea vă pot solicita să furnizați un cont, o adresă de e-mail sau, chiar mai rău, un act de identitate.
 
 **ATENTIE: Absența unei liste de 12/24 de cuvinte ar trebui să vă alerteze.**
 

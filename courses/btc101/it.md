@@ -9,7 +9,7 @@ objectives:
   - Comprendere l'impatto geopolitico e sociale di Bitcoin
 ---
 
-# La vostra prima avventura in Bitcoin
+# La vostra prima avventura in Bitcoin 
 
 In questo corso, spiegheremo le basi di Bitcoin in 25 capitoli, affinché possiate comprendere questa tecnologia in modo semplice ed efficace. Il corso esplora le basi del settore nel suo complesso, compresi argomenti come il mining, i wallet, le piattaforme di acquisto/vendita e altro ancora. Altra documentazione didattica sarà disponibile durante il percorso e vi invitiamo a consultare i "21 poster" nella sezione risorse dopo aver terminato il corso.
 

@@ -14,7 +14,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 - Plan ₿ Networkチームに[Telegram group](https://t.me/PlanBNetwork_ContentBuilder)またはpaolo@planb.network；
 - 貢献ツールを選ぶ
 
-このチュートリアルでは、Web 版 GitHub を使って Plan ↪Sc_20BF Network にチュートリアルを追加する方法を説明します。すでに Git を使いこなしている方には、この詳細なチュートリアルは必要ないかもしれません。その代わりに、他の2つのチュートリアルのいずれかをご覧になることをお勧めします。ここでは、従うべきガイドラインやローカルの.NET Frameworkから変更を加える手順について詳しく説明しています：
+このチュートリアルでは、Web 版 GitHub を使って Plan ↪Sc_20BF Network にチュートリアルを追加する方法を説明します。すでに Git を使いこなしている方には、この詳細なチュートリアルは必要ないかもしれません。その代わりに、他の2つのチュートリアルのうちの一つをご覧になることをお勧めします。そこでは、従うべきガイドラインや、ローカルの.NET Frameworkから変更を加える手順について詳しく説明しています：
 
 
 - 経験者** ：
@@ -91,7 +91,7 @@ wallet`フォルダの中に、チュートリアル専用の新しいディレ�
 
 要約すると、ファイルの階層は以下のようになる（次のセクションで作成を続ける）：
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (à modifier avec la bonne catégorie)
@@ -110,7 +110,7 @@ YAMLファイルから始めましょう。新規ファイルを作成するボ�
 
 以下のテンプレートをコピーして `tutorial.yml` ファイルを埋める：
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -130,145 +130,242 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Voici le détail des champs obligatoires :
-- **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
-- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
-- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
-- **level** : Le niveau de difficulté du tutoriel, parmi :
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
-- **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
-- **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
-- **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
-- **last_contribution_date** : Date du jour.
-- **urgency** : Laissez vide.
-- **contributors_id** : Votre ID GitHub.
-- **reward** : Laissez vide.
-Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
+```
+
+以下は必須項目です：
+
+
+- id**：チュートリアルを一意に識別するための UUID (_Universally Unique Identifier_) です。オンラインツール](https://www.uuidgenerator.net/version4) で生成できます。唯一の制約は、プラットフォーム上の他のUUIDと衝突しないように、このUUIDはランダムでなければならないということです；
+- project_id** ：チュートリアルで紹介するツールの背後にある会社または組織のUUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例えば、Green Walletソフトウェアのチュートリアルを行う場合、この`project_id`は以下のファイルにあります：bitcoin-educational-content/resources/projects/blockstream/project.yml`。この情報はチュートリアルの YAML ファイルに追加されます。これは、Plan ↪Sc_20BF がビットコインや関連プロジェクトで活動しているすべての企業や組織のデータベースを管理しているためです。リンクされたエンティティの `project_id` をチュートリアルに追加することで、2 つの要素の間にリンクが作成されます；
+- タグ**：プラン₿ネットワークタグリストから](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)、チュートリアルの内容に関連するキーワードを2つまたは3つ選びます；
+- カテゴリー** ：Plan ȏ Network structure（例：ウォレットの場合、`デスクトップ`、`ハードウェア`、`モバイル`、`バックアップ`）に従った、チュートリアルの内容に対応するサブカテゴリー；
+- レベル** ：チュートリアルの難易度：
+    - 初心者
+    - 中級
+    - 上級者向け
+    - エキスパート
+- 教授**：あなたの先生プロフィール](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors)に表示されているあなたの`contributor_id` (BIP39ワード)；
+- original_language** ：チュートリアルの元の言語 (例 `fr`、`en` など) ；
+- 校正**：校正プロセスに関する情報。自分のチュートリアルを校正することは、最初の検証としてカウントされますので、最初の部分を記入してください：
+    - 言語**：校正言語コード（例：`fr`、`en`など）。
+    - last_contribution_date**：今日の日付。
+    - 緊急度** ：空欄のまま
+    - contributors_id** ：あなたのGitHub ID。
+    - 報酬** ：空欄のまま
+
+教師IDの詳細については、対応するチュートリアルを参照してください：
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Voici un exemple de fichier `tutorial.yml` complété pour un tutoriel sur le wallet Blockstream Green :
-```
+以下は、Blockstream Green ウォレットのチュートリアル用に完成した `tutorial.yml` ファイルの例です：
 
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
-プロジェクトID3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-のタグがある：
-
-
-  - 財布
-  - ソフトウェア
-  - キー
-
-category:モバイル
-
-レベル：初心者
-
-のクレジットがある：
-
-教授：プリティ・プライベート
-
-# メタデータの校正
-
-原語: fr
-
-校正：
-
-
-  - 言語: fr
-
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
+original_language: fr
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-急を要する：
-
-contributors_id：
-
-
-      - ロイック・パンドゥル
-
-報奨金だ：
-
+urgency:
+contributors_id:
+- LoicPandul
+reward:
 ```
-Une fois la modification de votre fichier `tutorial.yml` achevée, enregistrez votre document en cliquant sur le bouton "*Commit changes...*" :
+
+tutorial.yml`ファイルの修正が終わったら、"*変更をコミットする...*"ボタンをクリックしてドキュメントを保存する：
+
 ![GITHUB](assets/fr/09.webp)
-Ajoutez un titre et une description, et assurez-vous que le commit soit réalisé sur la branche de travail que vous avez créée au début de ce tutoriel. Puis confirmez en cliquant sur "*Commit changes*".
+
+タイトルと説明を追加し、このチュートリアルの最初に作成したブランチにコミットすることを確認します。そして "*変更をコミット*" をクリックして確認します。
+
 ![GITHUB](assets/fr/10.webp)
-## 4 - Créer les sous-dossiers pour les images
-Cliquez de nouveau sur "*Add File*" puis sur "*Create new file*" :
+
+## 4 - 画像用サブフォルダーの作成
+
+もう一度 "*Add File*"をクリックし、次に "*Create new file*"をクリックする：
+
 ![GITHUB](assets/fr/11.webp)
-Entrez `assets` suivi d'un slash `/` pour créer le dossier :
+
+assets`の後にスラッシュ `/` を入力するとフォルダが作成されます：
+
 ![GITHUB](assets/fr/12.webp)
-Répétez cette étape dans le dossier `/assets` pour créer le sous-dossier de langue, par exemple `fr` si votre tutoriel est en français :
+
+このステップを `/assets` フォルダで繰り返し、言語のサブフォルダを作成します。例えば、チュートリアルがフランス語の場合は `fr` とします：
+
 ![GITHUB](assets/fr/13.webp)
-Dans ce dossier, créez un fichier factice pour obliger GitHub à conserver votre dossier (qui sinon serait vide). Nommez ce fichier `.gitkeep`. Ensuite, cliquez sur "*Commit changes...*".
+
+このフォルダに、GitHub にあなたのフォルダを保持させるためのダミーファイルを作成します。このファイルの名前を `.gitkeep` とします。そして "*変更をコミット...*" をクリックします。
+
 ![GITHUB](assets/fr/14.webp)
-Assurez-vous à nouveau que vous êtes sur la branche de travail correcte, puis cliquez sur "*Commit changes*".
+
+正しいブランチにいることをもう一度確認し、「*変更をコミット*」をクリックします。
+
 ![GITHUB](assets/fr/15.webp)
-## 5 - Créer le fichier Markdown
-Maintenant, nous allons créer le fichier qui accueillera votre tutoriel, nommé selon le code de votre langue, comme par exemple `fr.md` si l'on rédige en français. Accédez au dossier de votre tutoriel :
+
+## 5 - マークダウンファイルの作成
+
+チュートリアルのホストとなるファイルを作成します。ファイル名は言語コードに従います。チュートリアルのフォルダに移動します：
+
 ![GITHUB](assets/fr/16.webp)
-Cliquez sur "*Add file*", puis sur "*Create new file*".
+
+Add file*」をクリックし、次に「Create new file*」をクリックする。
+
 ![GITHUB](assets/fr/17.webp)
-Nommez le fichier en utilisant le code de votre langue. Dans mon cas, le tutoriel étant rédigé en français, je nomme mon fichier `fr.md`. L'extension `.md` indique que le fichier est au format Markdown.
+
+言語コードを使ってファイル名を付ける。私の場合、チュートリアルはフランス語で書かれているので、ファイル名を `fr.md` とします。拡張子 `.md` は、ファイルがMarkdownフォーマットであることを示します。
+
 ![GITHUB](assets/fr/18.webp)
-Nous commençons par remplir la section `Properties` en haut du document. Ajoutez manuellement et remplissez le bloc de code suivant (les clés `name:` et `description:` doivent être conservées en anglais, mais leur valeur doit être rédigée dans la langue utilisée pour votre tutoriel) :
+
+まずドキュメントの一番上にある `Properties` セクションを埋めることから始めます。name:`と`description:`のキーは英語でなければなりませんが、その値はチュートリアルで使用する言語で記述しなければなりません：
+
+```
+---
+name: [Titre]
+description: [Description]
+---
 ```
 
----
-name: [タイトル］
-description: 説明
----
-```
 ![GITHUB](assets/fr/19.webp)
-Remplissez le nom de votre tutoriel ainsi qu'une courte description de celui-ci :
+
+チュートリアルの名前と簡単な説明を記入してください：
+
 ![GITHUB](assets/fr/20.webp)
-Ajoutez ensuite le chemin de l'image de couverture au début de votre tutoriel. Pour ce faire, notez :
-```
 
+次に、チュートリアルの最初にカバー画像へのパスを追加します。これを行うには、：
+
+```
 ![cover-green](assets/cover.webp)
-
 ```
-Cette syntaxe vous sera utile chaque fois que l'ajout d'une image dans votre tutoriel sera nécessaire. Le point d'exclamation signale qu'il s'agit d'une image, dont le texte alternatif (alt) est spécifié entre les crochets. Le chemin d'accès à l'image est indiqué entre les parenthèses :
+
+この構文は、チュートリアルに画像を追加する必要があるときに便利です。感嘆符は画像を示し、その代替テキスト（alt）は角括弧の間に指定されます。画像へのパスは大括弧の間に示されます：
+
 ![GITHUB](assets/fr/21.webp)
-Cliquez sur le bouton "*Commit changes...*" pour enregistrer ce fichier.
+
+変更をコミット...*"ボタンをクリックして、このファイルを保存する。
+
 ![GITHUB](assets/fr/22.webp)
-Vérifiez que vous êtes sur la bonne branche, puis confirmez le commit.
+
+正しいブランチにいることを確認し、コミットを確定する。
+
 ![GITHUB](assets/fr/23.webp)
-Votre dossier de tutoriel devrait maintenant se présenter de cette manière, selon le code de votre langue :
+
+チュートリアルのフォルダは、あなたの言語コードに従って、このようになるはずです：
+
 ![GITHUB](assets/fr/24.webp)
-## 6 - Ajouter le logo et la couverture
-Au sein du dossier `assets`, vous devez ajouter un fichier nommé `logo.webp`, qui servira de vignette pour votre article. Cette image doit obligatoirement être au format `.webp` et doit respecter une dimension carrée afin de s'harmoniser avec l'interface utilisateur.
-Vous avez la liberté de choisir le logo du logiciel traité dans le tutoriel ou toute autre image pertinente, à condition que celle-ci soit libre de droits. En complément, ajoutez également au même endroit une image intitulée `cover.webp`. Celle-ci sera affichée en haut de votre tutoriel. Veillez à ce que cette image, tout comme le logo, respecte les droits d'utilisation et soit adaptée au contexte de votre tutoriel.
-Pour ajouter des images dans le dossier `/assets`, vous pouvez les glisser-déposer depuis vos fichiers locaux. Assurez-vous que vous êtes bien dans le dossier `/assets` et sur la bonne branche de travail, puis cliquez sur "*Commit changes*".
+
+## 6 - ロゴとカバーを追加
+
+assets`フォルダの中に、記事のサムネイルとなる `logo.webp` というファイルを追加する必要があります。この画像は `.webp` フォーマットで、ユーザーインターフェースに合わせて正方形のサイズでなければなりません。
+
+チュートリアルで使用するソフトウェアのロゴ、またはロイヤリティフリーの画像であれば他の関連画像も自由に選択できます。さらに、同じ場所に `cover.webp` というタイトルの画像を追加してください。これはチュートリアルの一番上に表示されます。この画像もロゴと同様に使用権を尊重し、チュートリアルの文脈にふさわしいものにしてください。
+
+画像を `/assets` フォルダに追加するには、ローカルファイルからドラッグ＆ドロップします。assets`フォルダと右のブランチにいることを確認してから、"*変更をコミット*"をクリックしてください。
+
 ![GITHUB](assets/fr/26.webp)
-Vous devriez maintenant voir les images apparaître dans le dossier.
+
+これでフォルダに画像が表示されるはずです。
+
 ![GITHUB](assets/fr/27.webp)
-## 7 - Rédiger le tutoriel
-Poursuivez la rédaction de votre tutoriel en notant votre contenu dans le fichier Markdown avec le code de langue (dans mon exemple, en français, c'est le fichier `fr.md`). Accédez au fichier et cliquez sur l'icône du crayon :
+
+## 7 - チュートリアルを書く
+
+チュートリアルを書き続けるには、Markdownファイルに言語コード（私の例ではフランス語で、`fr.md`ファイルです）を記入してください。ファイルに移動し、鉛筆のアイコンをクリックしてください：
+
 ![GITHUB](assets/fr/28.webp)
-Commencez la rédaction de votre tutoriel. Lorsque vous ajoutez un sous-titre, utilisez le formatage Markdown approprié en préfixant le texte avec `##` :
+
+チュートリアルを書き始めてください。サブタイトルを追加するときは、テキストの前に `##` を付けて、適切なMarkdownフォーマットを使用してください：
+
 ![GITHUB](assets/fr/29.webp)
-Alternez entre la vue "*Edit*" et la vue "*Preview*" pour mieux visualiser le rendu.
+
+Edit*"と "*Preview*"ビューを交互に表示することで、レンダリングをより見やすくすることができます。
+
 ![GITHUB](assets/fr/30.webp)
-Pour enregistrer votre travail, cliquez sur "*Commit Changes...*", assurez-vous d'être sur la bonne branche de travail, puis confirmez en cliquant de nouveau sur "*Commit Changes*".
+
+作業を保存するには、「*変更をコミット...*」をクリックし、正しいブランチにいることを確認してから、もう一度「*変更をコミット*」をクリックして確認します。
+
 ![GITHUB](assets/fr/31.webp)
-## 8 - Ajouter des visuels
-Le sous-dossier de langues dans le dossier `/assets` (dans mon exemple : `/assets/fr`) permet de stocker les schémas et les visuels qui accompagneront votre tutoriel. Autant que possible, évitez d'inclure du texte dans vos images pour rendre votre contenu accessible à un public international. Bien sûr, le logiciel présenté contiendra du texte, mais si vous ajoutez des schémas ou des indications supplémentaires sur les captures d'écran du logiciel, faites-le sans texte ou, si cela s'avère indispensable, utilisez l'anglais.
-Pour nommer vos images, utilisez simplement des numéros correspondant à leur ordre d'apparition dans le tutoriel, formatés sur deux chiffres (ou trois chiffres si votre tutoriel contient plus de 99 images). Par exemple, nommez votre première image `01.webp`, votre deuxième `02.webp`, et ainsi de suite.
-Le format de vos images doit être en `.webp` exclusivement. Si besoin, vous pouvez utiliser [mon logiciel de conversion d'images](https://github.com/LoicPandul/ImagesConverter).
+
+## 8 - ビジュアルを追加する
+
+assets`フォルダの言語サブフォルダ（私の例では `/assets/en`）は、あなたのチュートリアルに付随する図やビジュアルを保存するために使用します。できるだけ、画像にテキストを含めないようにしてください。もちろん、紹介するソフトウェアにはテキストが含まれますが、ソフトウェアのスクリーンショットに回路図や追加的な表示を加える場合は、テキストなしにするか、必要であれば英語を使用してください。
+
+画像に名前を付けるには、チュートリアルに登場する順番に対応する数字を2桁（チュートリアルに99枚以上の画像が含まれる場合は3桁）で入力してください。例えば、最初の画像には `01.webp`、2番目の画像には `02.webp` というように名前をつけます。
+
+画像は `.webp` 形式に限ります。必要であれば、[私の画像変換ソフト](https://github.com/LoicPandul/ImagesConverter) を使用してください。
+
 ![GITHUB](assets/fr/32.webp)
-Maintenant que vous avez ajouté vos images dans le sous-dossier, vous pouvez supprimer le fichier factice `.gitkeep`. Ouvrez ce fichier, cliquez sur les trois petits points en haut à droite, puis sur "*Delete file*".
+
+サブフォルダーに画像を追加したら、ダミーファイル `.gitkeep` を削除します。このファイルを開き、右上にある3つの小さな点をクリックして、"*Delete file*"をクリックしてください。
+
 ![GITHUB](assets/fr/33.webp)
-Enregistrez vos modifications en cliquant sur "*Commit changes...*".
+
+変更をコミットする...*"をクリックして変更を保存します。
+
 ![GITHUB](assets/fr/34.webp)
-Pour insérer un schéma présent dans votre sous-dossier dans votre document de rédaction, utilisez la commande Markdown suivante, en prenant soin de spécifier le texte alternatif approprié ainsi que le chemin correct de l'image en fonction de votre langue :
-```
 
+サブフォルダーからエディトリアル文書に図を挿入するには、以下のMarkdownコマンドを使用し、適切な代替テキストと言語に合った画像パスを指定するように注意してください：
+
+```
 ![green](assets/fr/01.webp)
-
 ```
+
+冒頭の感嘆符は画像を示す。アクセシビリティと参照に役立つ代替テキストは、角括弧の間に置かれます。最後に、画像へのパスを括弧で囲んで示します。
+
+![GITHUB](assets/fr/35.webp)
+
+独自の回路図を作成する場合は、視覚的な一貫性を確保するため、必ず Plan ₿ Network グラフィックのガイドラインに従ってください：
+
+
+- フォント**：ルービック](https://fonts.google.com/specimen/Rubik)を使う；
+- カラー** ：
+ - オレンジ#FF5C00
+ - 黒 : #000000
+ - ホワイト白：#FFFFFFF
+
+**チュートリアルに組み込まれるすべてのビジュアルは、著作権フリーであるか、ソースファイルのライセンス**を尊重することが不可欠です。そのため、Plan ₿ Networkで公開されるすべての図は、テキストと同様にCC-BY-SAライセンスの下で利用可能です。
+
+**-> ヒント：*** 画像などのファイルを公共の場で共有する場合、余計なメタデータを削除することが重要です。メタデータには、位置情報、作成日、作者の詳細などの機密情報が含まれていることがあります。プライバシーを守るためにも、このメタデータを削除するのは良いアイデアです。この作業を簡単にするために、[Exif Cleaner](https://exifcleaner.com/)のような専用ツールを使用することができます。このツールを使用すると、簡単なドラッグ＆ドロップでドキュメントのメタデータをクリーンアップすることができます。
+
+## 9 - チュートリアルの提案
+
+お好みの言語でチュートリアルを書き終えたら、次のステップは **Pull Request** を提出することです。その後、管理者がチュートリアルに不足している翻訳を追加します。
+
+プルリクエストを進めるには、すべての変更を保存した後、「*Contribute*」ボタンをクリックし、次に「*Open pull request*」をクリックします：
+
+![GITHUB](assets/fr/36.webp)
+
+プルリクエストとは、あなたのブランチからの変更を Plan ȏ Network リポジトリのメインブランチに統合するためのリクエストです。
+
+続行する前に、インターフェイスの下部で、これらの変更が期待したものであることを注意深くチェックしてください：
+
+![GITHUB](assets/fr/37.webp)
+
+インターフェイスの先頭で、作業ブランチが Plan ₿ Network リポジトリの `dev` ブランチ（メインブランチ）にマージされていることを確認します。
+
+ソースリポジトリにマージしたい変更点を簡潔にまとめたタイトルを入力してください。これらの変更を説明する簡単なコメントを追加し (チュートリアルの作成に関連する課題番号がある場合は、コメントとして `Closes #{課題番号}` と記述することを忘れないでください)、緑色の "*Create pull request*" ボタンをクリックしてマージリクエストを確定します：
+
+![GITHUB](assets/fr/38.webp)
+
+あなたのPRは、メインの Plan ₿ Network リポジトリの「*Pull Request*」タブに表示されます。あとは、管理者があなたの投稿がマージされたことを確認したり、さらなる修正を依頼したりする連絡を待つだけです。
+
+![GITHUB](assets/fr/39.webp)
+
+PR をメインブランチにマージした後は、作業ブランチ (私の例では `tuto-green-wallet`) を削除して、フォークの履歴をきれいに保つことをお勧めします。GitHub では、PR ページにこのオプションを自動的に表示します：
+
+![GITHUB](assets/fr/40.webp)
+
+すでにPRを提出した後で、自分の貢献を変更したい場合は、PRの現在のステータスによって、従うべき手順が異なります：
+
+
+- あなたのPRがまだオープンで、まだマージされていない場合は、同じワークブランチで変更を行ってください。コミットされた変更は、まだオープンなPRに追加されます；
+- あなたの PR がすでにメインブランチにマージされている場合は、新しいブランチを作成し、新しい PR を提出することで、プロセスを最初からやり直す必要があります。先に進む前に、あなたのフォークが `dev` ブランチの Plan ₿ Network ソースリポジトリと同期していることを確認してください。
+
+チュートリアルの投稿に技術的な問題がある場合は、遠慮なく[投稿専用のTelegramグループ](https://t.me/PlanBNetwork_ContentBuilder)に助けを求めてください。ありがとうございました！

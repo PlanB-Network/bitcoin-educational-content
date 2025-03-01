@@ -91,7 +91,7 @@ Do této nové podsložky určené pro váš výukový program je třeba přidat
 
 Pro shrnutí uvádíme hierarchii souborů (v jejich vytváření budeme pokračovat v další části):
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (à modifier avec la bonne catégorie)
@@ -110,7 +110,7 @@ Začněme souborem YAML. Do pole pro vytvoření nového souboru zadejte `tutori
 
 Vyplňte soubor `tutorial.yml` zkopírováním následující šablony:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -130,145 +130,242 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Voici le détail des champs obligatoires :
-- **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
-- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
-- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
-- **level** : Le niveau de difficulté du tutoriel, parmi :
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
-- **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
-- **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
-- **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
-- **last_contribution_date** : Date du jour.
-- **urgency** : Laissez vide.
-- **contributors_id** : Votre ID GitHub.
-- **reward** : Laissez vide.
-Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
+```
+
+Zde jsou povinná pole:
+
+
+- id**: UUID (_Universally Unique Identifier_), který jednoznačně identifikuje výukový program. Můžete jej vygenerovat pomocí [online nástroje](https://www.uuidgenerator.net/version4). Jediným omezením je, že tento UUID musí být náhodný, aby nedošlo ke konfliktu s jiným UUID na platformě;
+- project_id** : UUID společnosti nebo organizace, která stojí za nástrojem prezentovaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Pokud například zpracováváte výukový program o softwaru Green Wallet, najdete toto `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tato informace je přidána do souboru YAML vašeho výukového programu, protože síť Plan ₿ udržuje databázi všech společností a organizací působících na Bitcoinu nebo souvisejících projektech. Přidáním `project_id` propojené entity do svého tutoriálu vytvoříte vazbu mezi těmito dvěma prvky;
+- tagy**: 2 nebo 3 relevantní klíčová slova související s obsahem výukového programu, vybraná výhradně [ze seznamu tagů sítě Plan ₿](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- kategorie** : Podkategorie odpovídající obsahu výuky podle struktury sítě Plan ₿ (např. pro peněženky: `desktop`, `hardware`, `mobil`, `zálohování`) ;
+- úroveň** : Úroveň obtížnosti výuky, od :
+    - začátečník`
+    - `intermediate`
+    - `pokročilý`
+    - `expert`
+- profesor**: (slova BIP39), jak je zobrazeno na [profilu učitele](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- original_language** : Původní jazyk výukového programu (např. `fr`, `en` atd.) ;
+- korektury**: Informace o procesu korektury. Vyplňte první část, protože korektura vlastního výukového programu se počítá jako první ověření:
+    - jazyk**: (např. `fr`, `en` atd.).
+    - last_contribution_date**: Dnešní datum.
+    - naléhavost** : Nechte prázdné.
+    - přispěvatelé_id** : Vaše GitHub ID.
+    - odměna** : Nechte prázdné.
+
+Další podrobnosti o ID učitele naleznete v příslušném výukovém kurzu :
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Voici un exemple de fichier `tutorial.yml` complété pour un tutoriel sur le wallet Blockstream Green :
-```
+Zde je příklad souboru `tutorial.yml` vyplněného pro výukový program o peněžence Blockstream Green:
 
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-tagy:
-
-
-  - peněženky
-  - software
-  - klíče
-
-kategorie: mobilní zařízení
-
-úroveň: začátečník
-
-úvěry:
-
-profesor: pretty-private
-
-# Korektury metadat
-
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
 original_language: fr
-
-korektury:
-
-
-  - jazyk: fr
-
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-naléhavost:
-
-přispěvatelé_id:
-
-
-      - LoicPandul
-
-odměna:
-
+urgency:
+contributors_id:
+- LoicPandul
+reward:
 ```
-Une fois la modification de votre fichier `tutorial.yml` achevée, enregistrez votre document en cliquant sur le bouton "*Commit changes...*" :
+
+Po dokončení úprav souboru `tutorial.yml` uložte dokument kliknutím na tlačítko "*Odeslat změny...*":
+
 ![GITHUB](assets/fr/09.webp)
-Ajoutez un titre et une description, et assurez-vous que le commit soit réalisé sur la branche de travail que vous avez créée au début de ce tutoriel. Puis confirmez en cliquant sur "*Commit changes*".
+
+Přidejte název a popis a ujistěte se, že je revize provedena do větve, kterou jste vytvořili na začátku tohoto návodu. Poté potvrďte kliknutím na "*Odeslat změny*".
+
 ![GITHUB](assets/fr/10.webp)
-## 4 - Créer les sous-dossiers pour les images
-Cliquez de nouveau sur "*Add File*" puis sur "*Create new file*" :
+
+## 4 - Vytváření podsložek pro obrázky
+
+Znovu klikněte na "*Přidat soubor*" a poté na "*Vytvořit nový soubor*" :
+
 ![GITHUB](assets/fr/11.webp)
-Entrez `assets` suivi d'un slash `/` pour créer le dossier :
+
+Pro vytvoření složky zadejte `assets` následované lomítkem `/`:
+
 ![GITHUB](assets/fr/12.webp)
-Répétez cette étape dans le dossier `/assets` pour créer le sous-dossier de langue, par exemple `fr` si votre tutoriel est en français :
+
+Tento krok zopakujte ve složce `/assets` a vytvořte podsložku jazyka, například `fr`, pokud je váš výukový program ve francouzštině:
+
 ![GITHUB](assets/fr/13.webp)
-Dans ce dossier, créez un fichier factice pour obliger GitHub à conserver votre dossier (qui sinon serait vide). Nommez ce fichier `.gitkeep`. Ensuite, cliquez sur "*Commit changes...*".
+
+V této složce vytvořte fiktivní soubor, který donutí službu GitHub zachovat vaši složku (která by jinak byla prázdná). Tento soubor pojmenujte `.gitkeep`. Poté klikněte na tlačítko "*Odeslat změny...*".
+
 ![GITHUB](assets/fr/14.webp)
-Assurez-vous à nouveau que vous êtes sur la branche de travail correcte, puis cliquez sur "*Commit changes*".
+
+Znovu zkontrolujte, zda jste ve správné větvi, a klikněte na "*Odeslat změny*".
+
 ![GITHUB](assets/fr/15.webp)
-## 5 - Créer le fichier Markdown
-Maintenant, nous allons créer le fichier qui accueillera votre tutoriel, nommé selon le code de votre langue, comme par exemple `fr.md` si l'on rédige en français. Accédez au dossier de votre tutoriel :
+
+## 5 - Vytvoření souboru Markdown
+
+Nyní vytvoříme soubor, ve kterém bude umístěn váš výukový program, pojmenovaný podle kódu jazyka, například `fr.md`, pokud píšeme ve francouzštině. Přejděte do složky s výukovým materiálem :
+
 ![GITHUB](assets/fr/16.webp)
-Cliquez sur "*Add file*", puis sur "*Create new file*".
+
+Klikněte na "Add file*" a poté na "Create new file*".
+
 ![GITHUB](assets/fr/17.webp)
-Nommez le fichier en utilisant le code de votre langue. Dans mon cas, le tutoriel étant rédigé en français, je nomme mon fichier `fr.md`. L'extension `.md` indique que le fichier est au format Markdown.
+
+Pojmenujte soubor pomocí kódu jazyka. V mém případě, protože je návod napsán ve francouzštině, jsem soubor pojmenoval `fr.md`. Přípona `.md` označuje, že soubor je ve formátu Markdown.
+
 ![GITHUB](assets/fr/18.webp)
-Nous commençons par remplir la section `Properties` en haut du document. Ajoutez manuellement et remplissez le bloc de code suivant (les clés `name:` et `description:` doivent être conservées en anglais, mais leur valeur doit être rédigée dans la langue utilisée pour votre tutoriel) :
+
+Začneme vyplněním části `Vlastnosti` v horní části dokumentu. Ručně přidejte a vyplňte následující blok kódu (klíče `jméno:` a `popis:` musí zůstat v angličtině, ale jejich hodnoty musí být zapsány v jazyce, který používáte pro výukový program):
+
+```
+---
+name: [Titre]
+description: [Description]
+---
 ```
 
----
-name: [Název]
-description: [Popis]
----
-```
 ![GITHUB](assets/fr/19.webp)
-Remplissez le nom de votre tutoriel ainsi qu'une courte description de celui-ci :
+
+Vyplňte název výukového programu a krátký popis:
+
 ![GITHUB](assets/fr/20.webp)
-Ajoutez ensuite le chemin de l'image de couverture au début de votre tutoriel. Pour ce faire, notez :
-```
 
+Poté přidejte cestu k obrázku obálky na začátek výukového programu. K tomu si poznamenejte :
+
+```
 ![cover-green](assets/cover.webp)
-
 ```
-Cette syntaxe vous sera utile chaque fois que l'ajout d'une image dans votre tutoriel sera nécessaire. Le point d'exclamation signale qu'il s'agit d'une image, dont le texte alternatif (alt) est spécifié entre les crochets. Le chemin d'accès à l'image est indiqué entre les parenthèses :
+
+Tato syntaxe se vám bude hodit, kdykoli budete potřebovat přidat obrázek do výukového programu. Vykřičník označuje obrázek, jehož alternativní text (alt) je uveden mezi hranatými závorkami. Cesta k obrázku je uvedena mezi závorkami:
+
 ![GITHUB](assets/fr/21.webp)
-Cliquez sur le bouton "*Commit changes...*" pour enregistrer ce fichier.
+
+Kliknutím na tlačítko "*Odeslat změny...*" tento soubor uložte.
+
 ![GITHUB](assets/fr/22.webp)
-Vérifiez que vous êtes sur la bonne branche, puis confirmez le commit.
+
+Zkontrolujte, zda jste ve správné větvi, a potvrďte revizi.
+
 ![GITHUB](assets/fr/23.webp)
-Votre dossier de tutoriel devrait maintenant se présenter de cette manière, selon le code de votre langue :
+
+Vaše složka s výukovými programy by nyní měla vypadat takto, podle kódu jazyka:
+
 ![GITHUB](assets/fr/24.webp)
-## 6 - Ajouter le logo et la couverture
-Au sein du dossier `assets`, vous devez ajouter un fichier nommé `logo.webp`, qui servira de vignette pour votre article. Cette image doit obligatoirement être au format `.webp` et doit respecter une dimension carrée afin de s'harmoniser avec l'interface utilisateur.
-Vous avez la liberté de choisir le logo du logiciel traité dans le tutoriel ou toute autre image pertinente, à condition que celle-ci soit libre de droits. En complément, ajoutez également au même endroit une image intitulée `cover.webp`. Celle-ci sera affichée en haut de votre tutoriel. Veillez à ce que cette image, tout comme le logo, respecte les droits d'utilisation et soit adaptée au contexte de votre tutoriel.
-Pour ajouter des images dans le dossier `/assets`, vous pouvez les glisser-déposer depuis vos fichiers locaux. Assurez-vous que vous êtes bien dans le dossier `/assets` et sur la bonne branche de travail, puis cliquez sur "*Commit changes*".
+
+## 6 - Přidání loga a obálky
+
+Do složky `assets` je třeba přidat soubor s názvem `logo.webp`, který bude sloužit jako miniatura článku. Tento obrázek musí být ve formátu `.webp` a musí mít čtvercovou velikost, aby odpovídal uživatelskému rozhraní.
+
+Můžete si vybrat logo softwaru použité v tutoriálu nebo jakýkoli jiný vhodný obrázek, pokud je bez licenčních poplatků. Kromě toho přidejte na stejné místo obrázek s názvem `cover.webp`. Ten se bude zobrazovat v horní části výukového programu. Ujistěte se, že tento obrázek, stejně jako logo, respektuje práva na použití a je vhodný pro kontext vašeho tutoriálu.
+
+Chcete-li přidat obrázky do složky `/assets`, můžete je přetáhnout z místních souborů. Ujistěte se, že se nacházíte ve složce `/assets` a na správné větvi, a poté klikněte na "*Commit changes*".
+
 ![GITHUB](assets/fr/26.webp)
-Vous devriez maintenant voir les images apparaître dans le dossier.
+
+Obrázky by se nyní měly objevit ve složce.
+
 ![GITHUB](assets/fr/27.webp)
-## 7 - Rédiger le tutoriel
-Poursuivez la rédaction de votre tutoriel en notant votre contenu dans le fichier Markdown avec le code de langue (dans mon exemple, en français, c'est le fichier `fr.md`). Accédez au fichier et cliquez sur l'icône du crayon :
+
+## 7 - Psaní výukového programu
+
+Pokračujte v psaní výukového programu tak, že zapíšete obsah do souboru Markdown s kódem jazyka (v mém příkladu je to francouzský soubor `fr.md`). Přejděte do souboru a klikněte na ikonu tužky :
+
 ![GITHUB](assets/fr/28.webp)
-Commencez la rédaction de votre tutoriel. Lorsque vous ajoutez un sous-titre, utilisez le formatage Markdown approprié en préfixant le texte avec `##` :
+
+Začněte psát výukový program. Při přidávání titulku použijte vhodné formátování Markdown, a to tak, že text předepíšete předponou `##` :
+
 ![GITHUB](assets/fr/29.webp)
-Alternez entre la vue "*Edit*" et la vue "*Preview*" pour mieux visualiser le rendu.
+
+Střídavě přepínejte mezi zobrazeními "*Edit*" a "*Preview*", abyste lépe viděli vykreslování.
+
 ![GITHUB](assets/fr/30.webp)
-Pour enregistrer votre travail, cliquez sur "*Commit Changes...*", assurez-vous d'être sur la bonne branche de travail, puis confirmez en cliquant de nouveau sur "*Commit Changes*".
+
+Chcete-li uložit svou práci, klikněte na "*Odevzdat změny...*", ujistěte se, že jste ve správné větvi, a poté ji potvrďte opětovným kliknutím na "*Odevzdat změny*".
+
 ![GITHUB](assets/fr/31.webp)
-## 8 - Ajouter des visuels
-Le sous-dossier de langues dans le dossier `/assets` (dans mon exemple : `/assets/fr`) permet de stocker les schémas et les visuels qui accompagneront votre tutoriel. Autant que possible, évitez d'inclure du texte dans vos images pour rendre votre contenu accessible à un public international. Bien sûr, le logiciel présenté contiendra du texte, mais si vous ajoutez des schémas ou des indications supplémentaires sur les captures d'écran du logiciel, faites-le sans texte ou, si cela s'avère indispensable, utilisez l'anglais.
-Pour nommer vos images, utilisez simplement des numéros correspondant à leur ordre d'apparition dans le tutoriel, formatés sur deux chiffres (ou trois chiffres si votre tutoriel contient plus de 99 images). Par exemple, nommez votre première image `01.webp`, votre deuxième `02.webp`, et ainsi de suite.
-Le format de vos images doit être en `.webp` exclusivement. Si besoin, vous pouvez utiliser [mon logiciel de conversion d'images](https://github.com/LoicPandul/ImagesConverter).
+
+## 8 - Přidejte vizuální prvky
+
+Jazyková podsložka ve složce `/assets` (v mém příkladu: `/assets/en`) slouží k uložení diagramů a vizualizací, které budou doprovázet váš výukový program. Pokud je to možné, vyvarujte se vkládání textu do obrázků, aby byl obsah přístupný mezinárodnímu publiku. Prezentovaný software bude samozřejmě obsahovat text, ale pokud přidáváte schémata nebo další údaje na snímky softwaru, udělejte to bez textu, nebo pokud je to nezbytné, použijte angličtinu.
+
+Pro pojmenování obrázků jednoduše použijte čísla odpovídající pořadí jejich výskytu ve výukovém programu ve formátu dvou číslic (nebo tří číslic, pokud výukový program obsahuje více než 99 obrázků). Například první obrázek pojmenujte `01.webp`, druhý `02.webp` a tak dále.
+
+Vaše obrázky musí být pouze ve formátu `.webp`. V případě potřeby můžete použít [můj software pro konverzi obrázků](https://github.com/LoicPandul/ImagesConverter).
+
 ![GITHUB](assets/fr/32.webp)
-Maintenant que vous avez ajouté vos images dans le sous-dossier, vous pouvez supprimer le fichier factice `.gitkeep`. Ouvrez ce fichier, cliquez sur les trois petits points en haut à droite, puis sur "*Delete file*".
+
+Po přidání obrázků do podsložky můžete odstranit fiktivní soubor `.gitkeep`. Otevřete tento soubor, klikněte na tři malé tečky v pravém horním rohu a poté na "*Odstranit soubor*".
+
 ![GITHUB](assets/fr/33.webp)
-Enregistrez vos modifications en cliquant sur "*Commit changes...*".
+
+Uložte změny kliknutím na "*Odeslat změny...*".
+
 ![GITHUB](assets/fr/34.webp)
-Pour insérer un schéma présent dans votre sous-dossier dans votre document de rédaction, utilisez la commande Markdown suivante, en prenant soin de spécifier le texte alternatif approprié ainsi que le chemin correct de l'image en fonction de votre langue :
-```
 
+Chcete-li vložit diagram z podsložky do redakčního dokumentu, použijte následující příkaz Markdown a dbejte na zadání vhodného alternativního textu a správné cesty k obrázku pro váš jazyk:
+
+```
 ![green](assets/fr/01.webp)
-
 ```
+
+Vykřičník na začátku označuje obrázek. Alternativní text, který pomáhá s přístupností a odkazováním, je umístěn mezi hranatými závorkami. Nakonec je mezi závorkami uvedena cesta k obrázku.
+
+![GITHUB](assets/fr/35.webp)
+
+Pokud chcete vytvořit vlastní schéma, nezapomeňte dodržet grafické pokyny pro plánování sítě, abyste zajistili vizuální konzistenci:
+
+
+- Písmo**: [Rubik](https://fonts.google.com/specimen/Rubik);
+- Barvy** :
+ - Oranžová: #FF5C00
+ - Černá : #000000
+ - Bílá: #FFFFFF
+
+**Je nutné, aby všechny vizuály integrované do vašich výukových programů byly bez autorských práv nebo aby respektovaly licenci zdrojových souborů**. Proto jsou všechna schémata publikovaná v síti Plan ₿ k dispozici pod licencí CC-BY-SA, stejně jako text.
+
+**-> Tip:** Při veřejném sdílení souborů, například obrázků, je důležité odstranit nadbytečná metadata. Ta mohou obsahovat citlivé informace, jako jsou údaje o umístění, data vytvoření a údaje o autorovi. V zájmu ochrany soukromí je dobré tato metadata odstranit. Pro zjednodušení této operace můžete použít specializované nástroje, například [Exif Cleaner](https://exifcleaner.com/), který umožňuje vyčistit metadata dokumentu jednoduchým přetažením.
+
+## 9 - Navrhněte výukový program
+
+Po dokončení psaní výukového programu ve zvoleném jazyce je dalším krokem odeslání **žádosti o stažení**. Správce poté přidá chybějící překlady do vašeho tutoriálu pomocí naší metody automatického překladu s lidskou korekturou.
+
+Chcete-li pokračovat v žádosti o stažení, klikněte po uložení všech změn na tlačítko "*Přispět*" a poté na "*Otevřít žádost o stažení*" :
+
+![GITHUB](assets/fr/36.webp)
+
+Požadavek na vytažení je požadavek na začlenění změn z vaší větve do hlavní větve úložiště sítě Plan ₿, což umožňuje kontrolu a diskusi o změnách před jejich sloučením.
+
+Než budete pokračovat, zkontrolujte pečlivě v dolní části rozhraní, zda tyto změny odpovídají vašim očekáváním:
+
+![GITHUB](assets/fr/37.webp)
+
+V horní části rozhraní se ujistěte, že je vaše pracovní větev sloučena s větví `dev` síťového úložiště Plan ₿ (což je hlavní větev).
+
+Zadejte název, který stručně shrnuje změny, které chcete sloučit se zdrojovým úložištěm. Přidejte stručný komentář popisující tyto změny (pokud je s vytvořením vašeho výukového programu spojeno číslo problému, nezapomeňte jako komentář uvést `Uzavírá #{číslo problému}`) a poté kliknutím na zelené tlačítko "*Vytvořit žádost o stažení*" žádost o sloučení potvrďte:
+
+![GITHUB](assets/fr/38.webp)
+
+Vaše žádost o stažení bude poté viditelná na kartě "*Žádost o stažení*" v hlavním úložišti sítě Plán ₿. Nyní stačí počkat, až se vám ozve správce a potvrdí, že váš příspěvek byl sloučen, nebo požádá o další úpravy.
+
+![GITHUB](assets/fr/39.webp)
+
+Po sloučení vašeho PR s hlavní větví doporučujeme smazat vaši pracovní větev (v mém příkladu: `tuto-green-wallet`), aby byla zachována čistá historie vašeho forku. GitHub vám tuto možnost automaticky nabídne na stránce PR:
+
+![GITHUB](assets/fr/40.webp)
+
+Pokud chcete provést změny ve svém příspěvku poté, co jste již podali PR, závisí postup na aktuálním stavu vašeho PR:
+
+
+- Pokud je váš PR stále otevřený a ještě nebyl sloučen, proveďte změny ve stejné pracovní větvi. Změny revize budou přidány do vašeho stále otevřeného PR;
+- V případě, že váš PR již byl sloučen s hlavní větví, budete muset proces opakovat od začátku vytvořením nové větve a následným odesláním nového PR. Než budete pokračovat, ujistěte se, že je váš fork synchronizován se zdrojovým úložištěm sítě Plan ₿ ve větvi `dev`.
+
+Pokud máte technické potíže s odesláním návodu, neváhejte požádat o pomoc na [naší speciální skupině pro příspěvky na Telegramu](https://t.me/PlanBNetwork_ContentBuilder). Moc vám děkujeme!

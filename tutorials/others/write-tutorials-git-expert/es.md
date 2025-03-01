@@ -14,7 +14,7 @@ Ya tienes :
 - Póngase en contacto con el equipo de Plan ₿ Network a través de [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) o paolo@planb.network ;
 - Elige tus herramientas de contribución.
 
-En este tutorial para usuarios experimentados de Git, resumiremos brevemente los pasos clave y las pautas esenciales para ofrecer un nuevo Plan ₿ Tutorial en red. Si no estás familiarizado con Git y GitHub, te recomiendo que sigas uno de estos otros 2 tutoriales más detallados que te llevarán paso a paso..:
+En este tutorial para usuarios experimentados de Git, resumiremos brevemente los pasos clave y las pautas esenciales para ofrecer un nuevo Plan ₿ Tutorial en red. Si no estás familiarizado con Git y GitHub, te recomiendo que en su lugar sigas uno de estos otros 2 tutoriales más detallados que te llevarán paso a paso..:
 
 
 - Intermedio (GitHub Desktop)** :
@@ -63,7 +63,7 @@ Para crear diagramas y elementos visuales :
 - Sincronice la rama principal (`dev`) de su bifurcación con el repositorio fuente.
 - Actualiza tu clon local.
 
-```bash
+```
 # Cloner votre fork (si ce n'est pas déjà fait)
 git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
 cd bitcoin-educational-content
@@ -86,7 +86,7 @@ git push origin dev
 - Cree una nueva rama con un nombre descriptivo (p. ej., `tuto-verdes-wallet-loic`).
 - Publique esta rama en su bifurcación en línea.
 
-```bash
+```
 # Assurez-vous d’être sur la branche 'dev'
 git checkout dev
 # Créez une nouvelle branche avec un nom descriptif
@@ -113,7 +113,7 @@ Si prefieres hacerlo manualmente, sigue estos pasos:
     - Un archivo `tutorial.yml` que contiene metadatos (autor, etiquetas, categoría, nivel de dificultad, etc.).
     - Un archivo Markdown que contiene el tutorial, nombrado según el código del idioma (por ejemplo, `fr.md`, `en.md`, etc.).
 
-```bash
+```
 # Positionnez-vous dans le dossier approprié
 cd tutorials/wallet
 # Créez le répertoire dédié au tutoriel
@@ -132,7 +132,7 @@ touch tutorial.yml en.md
 
 - Complete el archivo `tutorial.yml` de la siguiente manera:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -152,127 +152,136 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Voici le détail des champs obligatoires :
-- **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
-- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
-- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
-- **level** : Le niveau de difficulté du tutoriel, parmi :
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
-- **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
-- **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
-- **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
-- **last_contribution_date** : Date du jour.
-- **urgency** : Laissez vide.
-- **contributors_id** : Votre ID GitHub.
-- **reward** : Laissez vide.
-Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
+```
+
+Estos son los campos obligatorios:
+
+
+- id**: Un UUID (_Universally Unique Identifier_) para identificar de forma única el tutorial. Puede generarlo con [una herramienta en línea](https://www.uuidgenerator.net/version4). La única restricción es que este UUID debe ser aleatorio, para no entrar en conflicto con otro UUID de la plataforma;
+- project_id** : El UUID de la empresa u organización que está detrás de la herramienta presentada en el tutorial [de la lista de proyectos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por ejemplo, si estás haciendo un tutorial sobre el software Green Wallet, puedes encontrar este `project_id` en el siguiente archivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Esta información se añade en el archivo YAML de su tutorial porque Plan ₿ Network mantiene una base de datos de todas las empresas y organizaciones que operan en Bitcoin o proyectos relacionados. Al añadir el `project_id` de la entidad vinculada a su tutorial, se crea un vínculo entre los dos elementos;
+- etiquetas**: 2 o 3 palabras clave relevantes relacionadas con el contenido del tutorial, elegidas exclusivamente [de la lista de etiquetas Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- categoría** : La subcategoría correspondiente al contenido del tutorial, según la estructura del Plan ₿ Red (por ejemplo, para carteras: `desktop`, `hardware`, `mobile`, `backup`) ;
+- nivel** : Nivel de dificultad del tutorial, de :
+    - principiante
+    - `intermedio`
+    - `avanzado`
+    - `experto`
+- profesor**: Su `contributor_id` (palabras BIP39) tal y como aparece en [su perfil de profesor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- idioma_original** : El idioma original del tutorial (por ejemplo, `fr`, `en`, etc.) ;
+- corrección de pruebas**: Información sobre el proceso de corrección. Rellene la primera parte, porque la corrección de su propio tutorial cuenta como primera validación:
+    - idioma**: Corrección del código de idioma (por ejemplo, `fr`, `en`, etc.).
+    - fecha_última_contribución**: La fecha de hoy.
+    - urgencia** : Dejar en blanco.
+    - contributors_id** : Tu ID de GitHub.
+    - recompensa** : Dejar en blanco.
+
+Para más detalles sobre su ID de profesor, consulte el tutorial correspondiente :
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 ```
-
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
 tags:
-
-
-  - carteras
-  - software
-  - llaves
-
-categoría: móvil
-
-nivel: principiante
-
-créditos:
-
-profesor: pretty-private
-
-# Corrección de metadatos
-
-idioma_original: fr
-
-corrección de pruebas:
-
-
-  - idioma: fr
-
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
+original_language: fr
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-urgencia:
-
-contribuyentes_id:
-
-
-      - LoicPandul
-
-recompensa:
-
-```
-### 5 - Rédigez le contenu
-- Complétez les propriétés du fichier Markdown avec :
-- Le titre (`name`).
-- Une courte description (`description`).
-- Ajoutez l’image de couverture en haut du tutoriel avec la syntaxe Markdown (remplacez "green" par le nom de l’outil présenté) :
+urgency:
+contributors_id:
+- LoicPandul
+reward:
 ```
 
+### 5 - Redactar el contenido
+
+
+- Complete las propiedades del archivo Markdown con :
+    - El título (`nombre`).
+    - Una breve descripción (`description`).
+- Añade la imagen de portada en la parte superior del tutorial utilizando la sintaxis Markdown (sustituye "verde" por el nombre de la herramienta mostrada):
+
+```
 ![cover-green](assets/cover.webp)
-
-```
-- Rédigez le contenu du tutoriel en Markdown :
-- Utilisez des titres bien structurés (`##`), des listes et des paragraphes.
-- Insérez des visuels avec la syntaxe Markdown :
 ```
 
+
+- Escriba el contenido del tutorial en Markdown :
+    - Utilice títulos bien estructurados (`##`), listas y párrafos.
+    - Insertar elementos visuales utilizando la sintaxis Markdown :
+
+```
 ![nom-image](assets/en/001.webp)
-
-```
-- Placez les schémas et images dans le sous-dossier de langue correspondant, dans `/assets`.
-### 6 - Enregistrez et soumettez le tutoriel
-- Enregistrez vos modifications localement en créant un commit avec un message descriptif.
-- Poussez les changements sur votre fork GitHub.
 ```
 
-# Crear una confirmación con un mensaje descriptivo
 
-git commit -m "Añadir tutorial sobre monedero verde"
+- Coloque los diagramas y las imágenes en la subcarpeta del idioma correspondiente, en `/assets`.
 
-# Empuje sus modificaciones en su tenedor
+### 6 - Guardar y enviar el tutorial
 
-git push origin tuto-verde-wallet-loic
 
-```
-- Une fois terminé, créez une Pull Request (PR) sur GitHub pour proposer l’intégration de vos modifications.
-- Ajoutez un titre et une brève description à la PR. Mentionnez le numéro d’issue correspondant dans le commentaire.
-### 7 - Relecture et fusion
-- Attendez la validation ou les retours d’un administrateur.
-- Si nécessaire, effectuez des corrections et poussez de nouveaux commits.
-```
-
-# Crear un commit describiendo las correcciones realizadas
-
-git commit -m "Correcciones tras la revisión del tutorial de green-wallet"
-
-# Correcciones de empuje en la horquilla
-
-git push origin tuto-verde-wallet-loic
+- Guarde sus cambios localmente creando un commit con un mensaje descriptivo.
+- Empuje los cambios a su bifurcación de GitHub.
 
 ```
-- Une fois la PR fusionnée, vous pouvez supprimer votre branche de travail.
-## Normes de création de contenu
-- **Formatage supporté sur la plateforme** :
-- Markdown classique : listes, liens, images, citations, gras, italique, etc.
-- LaTeX (en bloc uniquement, pas inline) : délimité par `$$`.
-- Code inline : Syntaxe avec un seul backtick.
-- Blocs de code : Syntaxe avec trois backtick, par exemple :
+# Créez un commit avec un message descriptif
+git commit -m "Ajout du tutoriel green-wallet"
+# Poussez vos modifications sur votre fork
+git push origin tuto-green-wallet-loic
 ```
 
-print("¡Hola, Bitcoin!")
+
+- Una vez terminado, crea una Pull Request (PR) en GitHub para proponer la integración de tus modificaciones.
+- Añada un título y una breve descripción al RP. Mencione el número de incidencia correspondiente en el comentario.
+
+### 7 - Corrección y fusión
+
+
+- Espere la validación o la respuesta de un administrador.
+- Si es necesario, haga correcciones y envíe nuevos commits.
 
 ```
+# Créez un commit décrivant les corrections apportées
+git commit -m "Corrections suite à la revue du tutoriel green-wallet"
+# Poussez les corrections sur votre fork
+git push origin tuto-green-wallet-loic
+```
+
+
+- Una vez fusionado el PR, puede eliminar su rama de trabajo.
+
+## Normas de creación de contenidos
+
+
+- Formatos compatibles con la plataforma** :
+    - Markdown clásico: listas, enlaces, imágenes, citas, negrita, cursiva, etc.
+    - LaTeX (sólo bloque, no en línea): delimitado por `$$`.
+    - Código en línea: Sintaxis con una sola marca.
+    - Bloques de código: Sintaxis con tres barras invertidas, por ejemplo :
+
+```
+print("Hello, Bitcoin!")
+```
+
+
+- Ilustraciones y diagramas** :
+    - Todas las imágenes deben estar en formato WebP. Utilice esta herramienta gratuita para convertirlas si es necesario: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
+    - Nombra los visuales con 2 o 3 dígitos (por ejemplo, `001.webp`, `002.webp`).
+    - Para los tutoriales sobre carteras móviles o de hardware, utiliza maquetas.
+    - Utilice únicamente imágenes de creación propia o libres de derechos.
+    - Asegúrese de que sean pertinentes y de calidad.
+- Carta gráfica** :
+    - Fuente: [Rubik](https://fonts.google.com/specimen/Rubik).
+    - Plan Colores ₿ Red :
+        - Naranja: `#FF5C00`
+        - Negro: `#000000`
+        - Blanco: `#FFFFFF`
+
+Si tienes dificultades técnicas para enviar tu tutorial, no dudes en pedir ayuda en [nuestro grupo de Telegram dedicado a las contribuciones](https://t.me/PlanBNetwork_ContentBuilder). Muchas gracias

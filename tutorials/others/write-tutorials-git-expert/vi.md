@@ -14,10 +14,10 @@ Bạn đã có:
 - Đã liên hệ với nhóm Plan ₿ Network qua [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) hoặc paolo@planb.network ;
 - Chọn công cụ đóng góp của bạn.
 
-Trong hướng dẫn dành cho người dùng Git có kinh nghiệm này, chúng tôi sẽ tóm tắt ngắn gọn các bước chính và hướng dẫn cần thiết để cung cấp hướng dẫn Plan ₿ Network mới. Nếu bạn không quen với Git và GitHub, tôi khuyên bạn nên làm theo một trong 2 hướng dẫn chi tiết hơn sau đây, hướng dẫn bạn từng bước:
+Trong hướng dẫn dành cho người dùng Git có kinh nghiệm này, chúng tôi sẽ tóm tắt ngắn gọn các bước chính và hướng dẫn cần thiết để cung cấp hướng dẫn Plan ₿ Network mới. Nếu bạn không quen với Git và GitHub, tôi khuyên bạn nên làm theo một trong 2 hướng dẫn chi tiết hơn sau đây sẽ hướng dẫn bạn từng bước:
 
 
-- Trung cấp (GitHub Desktop)** :
+- Trung cấp (GitHub Desktop)**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
@@ -63,7 +63,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-web-b
 - Đồng bộ hóa nhánh chính (`dev`) của nhánh fork với kho lưu trữ nguồn.
 - Cập nhật bản sao cục bộ của bạn.
 
-```bash
+```
 # Cloner votre fork (si ce n'est pas déjà fait)
 git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
 cd bitcoin-educational-content
@@ -86,7 +86,7 @@ git push origin dev
 - Tạo một nhánh mới với tên mô tả (ví dụ: `tuto-green-wallet-loic`).
 - Xuất bản nhánh này trên nhánh trực tuyến của bạn.
 
-```bash
+```
 # Assurez-vous d’être sur la branche 'dev'
 git checkout dev
 # Créez une nouvelle branche avec un nom descriptif
@@ -113,7 +113,7 @@ Nếu bạn muốn thực hiện thủ công, hãy làm theo các bước sau:
     - Tệp `tutorial.yml` chứa siêu dữ liệu (tác giả, thẻ, danh mục, mức độ khó, v.v.).
     - Tệp Markdown chứa hướng dẫn, được đặt tên theo mã ngôn ngữ (ví dụ: `fr.md`, `en.md`, v.v.).
 
-```bash
+```
 # Positionnez-vous dans le dossier approprié
 cd tutorials/wallet
 # Créez le répertoire dédié au tutoriel
@@ -132,7 +132,7 @@ touch tutorial.yml en.md
 
 - Hoàn thành tệp `tutorial.yml` như sau:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -152,127 +152,136 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Voici le détail des champs obligatoires :
-- **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
-- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
-- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
-- **level** : Le niveau de difficulté du tutoriel, parmi :
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
-- **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
-- **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
-- **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
-- **last_contribution_date** : Date du jour.
-- **urgency** : Laissez vide.
-- **contributors_id** : Votre ID GitHub.
-- **reward** : Laissez vide.
-Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
+```
+
+Sau đây là các trường bắt buộc:
+
+
+- id**: UUID (_Universally Unique Identifier_) để nhận dạng duy nhất hướng dẫn. Bạn có thể tạo nó bằng [một công cụ trực tuyến](https://www.uuidgenerator.net/version4). Hạn chế duy nhất là UUID này phải ngẫu nhiên, để không xung đột với UUID khác trên nền tảng;
+- project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ: nếu bạn đang thực hiện hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` này trong tệp sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Network duy trì cơ sở dữ liệu của tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể được liên kết vào hướng dẫn của bạn, bạn tạo liên kết giữa hai phần tử;
+- thẻ**: 2 hoặc 3 từ khóa có liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- category**: Tiểu thể loại tương ứng với nội dung hướng dẫn, theo cấu trúc Plan ₿ Network (ví dụ: đối với ví: `desktop`, `hardware`, `mobile`, `backup`);
+- level** : Mức độ khó của hướng dẫn, từ :
+    - người mới bắt đầu`
+    - `trung gian`
+    - `nâng cao`
+    - `chuyên gia`
+- giáo sư**: `contributor_id` của bạn (BIP39 từ) như được hiển thị trên [hồ sơ giáo viên của bạn](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- original_language**: Ngôn ngữ gốc của hướng dẫn (ví dụ: `fr`, `en`, v.v.);
+- soát lỗi**: Thông tin về quá trình soát lỗi. Điền vào phần đầu tiên, vì việc soát lỗi hướng dẫn của riêng bạn được tính là xác thực đầu tiên:
+    - ngôn ngữ**: Kiểm tra mã ngôn ngữ (ví dụ: `fr`, `en`, v.v.).
+    - last_contribution_date**: Ngày hôm nay.
+    - mức độ khẩn cấp**: Để trống.
+    - contributors_id**: ID GitHub của bạn.
+    - phần thưởng**: Để trống.
+
+Để biết thêm chi tiết về ID giáo viên của bạn, vui lòng tham khảo hướng dẫn tương ứng:
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 ```
-
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
-dự án_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-thẻ:
-
-
-  - ví
-  - phần mềm
-  - chìa khóa
-
-thể loại: di động
-
-trình độ: người mới bắt đầu
-
-tín dụng:
-
-giáo sư: khá riêng tư
-
-# Kiểm tra siêu dữ liệu
-
-ngôn ngữ gốc: fr
-
-hiệu đính:
-
-
-  - ngôn ngữ: fr
-
-ngày đóng góp cuối cùng: 2024-11-20
-
-tính cấp bách:
-
-người đóng góp_id:
-
-
-      - LoicPandul
-
-phần thưởng:
-
-```
-### 5 - Rédigez le contenu
-- Complétez les propriétés du fichier Markdown avec :
-- Le titre (`name`).
-- Une courte description (`description`).
-- Ajoutez l’image de couverture en haut du tutoriel avec la syntaxe Markdown (remplacez "green" par le nom de l’outil présenté) :
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
+original_language: fr
+proofreading:
+- language: fr
+last_contribution_date: 2024-11-20
+urgency:
+contributors_id:
+- LoicPandul
+reward:
 ```
 
+### 5 - Viết nội dung
+
+
+- Hoàn thiện thuộc tính tệp Markdown với:
+    - Tiêu đề (`tên`).
+    - Một mô tả ngắn (`description`).
+- Thêm ảnh bìa vào đầu phần hướng dẫn bằng cú pháp Markdown (thay thế "green" bằng tên công cụ được hiển thị):
+
+```
 ![cover-green](assets/cover.webp)
-
-```
-- Rédigez le contenu du tutoriel en Markdown :
-- Utilisez des titres bien structurés (`##`), des listes et des paragraphes.
-- Insérez des visuels avec la syntaxe Markdown :
 ```
 
+
+- Viết nội dung hướng dẫn bằng Markdown:
+    - Sử dụng các tiêu đề có cấu trúc tốt (`##`), danh sách và đoạn văn.
+    - Chèn hình ảnh bằng cú pháp Markdown:
+
+```
 ![nom-image](assets/en/001.webp)
-
-```
-- Placez les schémas et images dans le sous-dossier de langue correspondant, dans `/assets`.
-### 6 - Enregistrez et soumettez le tutoriel
-- Enregistrez vos modifications localement en créant un commit avec un message descriptif.
-- Poussez les changements sur votre fork GitHub.
 ```
 
-# Tạo một cam kết với một thông điệp mô tả
 
-git commit -m "Thêm hướng dẫn green-wallet"
+- Đặt sơ đồ và hình ảnh vào thư mục ngôn ngữ tương ứng, trong `/assets`.
 
-# Đẩy các sửa đổi của bạn vào nĩa của bạn
+### 6 - Lưu và gửi bài hướng dẫn
 
+
+- Lưu các thay đổi cục bộ bằng cách tạo một cam kết có thông báo mô tả.
+- Đẩy những thay đổi vào nhánh GitHub của bạn.
+
+```
+# Créez un commit avec un message descriptif
+git commit -m "Ajout du tutoriel green-wallet"
+# Poussez vos modifications sur votre fork
 git push origin tuto-green-wallet-loic
-
-```
-- Une fois terminé, créez une Pull Request (PR) sur GitHub pour proposer l’intégration de vos modifications.
-- Ajoutez un titre et une brève description à la PR. Mentionnez le numéro d’issue correspondant dans le commentaire.
-### 7 - Relecture et fusion
-- Attendez la validation ou les retours d’un administrateur.
-- Si nécessaire, effectuez des corrections et poussez de nouveaux commits.
 ```
 
-# Tạo một cam kết mô tả các sửa đổi đã thực hiện
 
-git commit -m "Sửa lỗi sau khi xem lại hướng dẫn về green-wallet"
+- Khi hoàn tất, hãy tạo Yêu cầu kéo (PR) trên GitHub để đề xuất tích hợp các sửa đổi của bạn.
+- Thêm tiêu đề và mô tả ngắn gọn cho PR. Đề cập đến số vấn đề tương ứng trong bình luận.
 
-# Đẩy các sửa đổi trên ngã ba của bạn
+### 7 - Kiểm tra và hợp nhất
 
+
+- Chờ xác thực hoặc phản hồi từ người quản trị.
+- Nếu cần thiết, hãy sửa lỗi và đưa ra cam kết mới.
+
+```
+# Créez un commit décrivant les corrections apportées
+git commit -m "Corrections suite à la revue du tutoriel green-wallet"
+# Poussez les corrections sur votre fork
 git push origin tuto-green-wallet-loic
-
-```
-- Une fois la PR fusionnée, vous pouvez supprimer votre branche de travail.
-## Normes de création de contenu
-- **Formatage supporté sur la plateforme** :
-- Markdown classique : listes, liens, images, citations, gras, italique, etc.
-- LaTeX (en bloc uniquement, pas inline) : délimité par `$$`.
-- Code inline : Syntaxe avec un seul backtick.
-- Blocs de code : Syntaxe avec trois backtick, par exemple :
 ```
 
-print("Xin chào, Bitcoin!")
+
+- Sau khi PR đã được hợp nhất, bạn có thể xóa nhánh đang hoạt động của mình.
+
+## Tiêu chuẩn sáng tạo nội dung
+
+
+- Định dạng được hỗ trợ trên nền tảng**:
+    - Markdown cổ điển: danh sách, liên kết, hình ảnh, trích dẫn, in đậm, in nghiêng, v.v.
+    - LaTeX (chỉ khối, không phải nội tuyến): phân cách bằng `$$`.
+    - Mã nội tuyến: Cú pháp với một dấu ngoặc đơn.
+    - Khối mã: Cú pháp với ba dấu ngoặc ngược, ví dụ:
 
 ```
+print("Hello, Bitcoin!")
+```
+
+
+- Hình ảnh minh họa và sơ đồ**:
+    - Tất cả hình ảnh phải ở định dạng WebP. Sử dụng công cụ miễn phí này để chuyển đổi chúng nếu cần: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
+    - Đặt tên hình ảnh có 2 hoặc 3 chữ số (ví dụ: `001.webp`, `002.webp`).
+    - Đối với hướng dẫn về ví di động hoặc ví phần cứng, hãy sử dụng bản mô phỏng.
+    - Chỉ sử dụng hình ảnh tự tạo hoặc không có bản quyền.
+    - Hãy đảm bảo chúng có liên quan và chất lượng cao.
+- Hiến chương đồ họa**:
+    - Phông chữ: [Rubik](https://fonts.google.com/specimen/Rubik).
+    - Kế hoạch màu sắc ₿ Mạng lưới:
+        - Màu cam: `#FF5C00`
+        - Đen: `#000000`
+        - Trắng: `#FFFFFF`
+
+Nếu bạn gặp khó khăn về mặt kỹ thuật khi gửi hướng dẫn, vui lòng đừng ngần ngại yêu cầu trợ giúp trên [nhóm Telegram chuyên dụng của chúng tôi để đóng góp](https://t.me/PlanBNetwork_ContentBuilder). Cảm ơn bạn rất nhiều!

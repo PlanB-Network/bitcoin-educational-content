@@ -87,11 +87,11 @@ Git 中的分支代表项目的一个并行版本，您可以在不影响主分�
 - 创建一个 "assets "文件夹，用于存放教程所需的所有插图；
 - 在 "assets "文件夹中，根据教程的原始语言代码创建一个子文件夹。例如，如果教程是用英语编写的，该子文件夹应命名为 `en`。将教程的所有视觉资料（图表、图像、截图等）放入该文件夹。
 - 必须创建一个 `tutorial.yml` 文件来记录教程的详细信息；
-- 必须创建一个 markdown 文件来编写教程的实际内容。该文件必须根据编写语言的代码命名。例如，对于用法语编写的教程，该文件应称为 `fr.md`。
+- 必须创建一个标记符文件来编写教程的实际内容。该文件必须根据编写语言的代码命名。例如，对于用法语编写的教程，该文件应称为 `fr.md`。
 
 下面是文件的层次结构（我们将在下一节继续创建它们）：
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (à modifier avec la bonne catégorie)
@@ -110,7 +110,7 @@ bitcoin-educational-content/
 
 复制以下模板，填写 `tutorial.yml` 文件：
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -130,145 +130,242 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Voici le détail des champs obligatoires :
-- **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
-- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
-- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
-- **level** : Le niveau de difficulté du tutoriel, parmi :
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
-- **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
-- **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
-- **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
-- **last_contribution_date** : Date du jour.
-- **urgency** : Laissez vide.
-- **contributors_id** : Votre ID GitHub.
-- **reward** : Laissez vide.
-Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
+```
+
+以下是必填字段：
+
+
+- id**：UUID（通用唯一标识符），用于唯一标识教程。您可以使用[在线工具](https://www.uuidgenerator.net/version4)生成它。唯一的限制是该 UUID 必须是随机的，以免与平台上的其他 UUID 冲突；
+- project_id** ：教程中介绍的工具背后的公司或组织的 UUID[来自项目列表](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果你正在做一个关于绿色钱包软件的教程，你可以在以下文件中找到这个 `project_id` ：bitcoin-educational-content/resources/projects/blockstream/project.yml`。之所以在教程的 YAML 文件中添加此信息，是因为 Plan ₿ Network 维护着一个所有在比特币或相关项目上运营的公司和组织的数据库。将链接实体的 `project_id` 添加到您的教程中，就在两个元素之间建立了链接；
+- 标签**：从计划₿ 网络标签列表]中专门选择 2 或 3 个与教程内容相关的关键字(https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)；
+- 类别** ：根据计划₿ 网络结构（例如钱包："桌面"、"硬件"、"移动"、"备份"），与教程内容相对应的子类别；
+- 级别** ：教程难度级别，从 ：
+    - 初学者
+    - 中级
+    - 高级
+    - 专家
+- 教授**：您在[您的教师简介](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors)中显示的 "贡献者 ID"（BIP39 字样）；
+- original_language** ：教程的原始语言（如`fr`、`en`等）；
+- 校对**：有关校对过程的信息。填写第一部分，因为校对自己的教程也算第一次验证：
+    - 语言**：校对语言代码（如`fr`、`en`等）。
+    - last_contribution_date**：今天的日期。
+    - 紧迫性** ：留空。
+    - contributors_id** ：您的 GitHub ID。
+    - 奖励** ：留空。
+
+有关教师 ID 的详细信息，请参阅相应的教程 ：
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Voici un exemple de fichier `tutorial.yml` complété pour un tutoriel sur le wallet Blockstream Green :
-```
+以下是为 Blockstream Green 钱包教程编写的`tutorial.yml`文件示例：
 
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
-project_id：3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-标签
-
-
-  - 钱包
-  - 软件
-  - 钥匙
-
-类别：移动
-
-级别：初级
-
-学分
-
-教授：pretty-private
-
-# 校对元数据
-
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
 original_language: fr
-
-校对：
-
-
-  - 语言：法语
-
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-紧迫性：
-
-贡献者_id：
-
-
-      - LoicPandul
-
-奖励：
-
+urgency:
+contributors_id:
+- LoicPandul
+reward:
 ```
-Une fois la modification de votre fichier `tutorial.yml` achevée, enregistrez votre document en cliquant sur le bouton "*Commit changes...*" :
+
+修改完 `tutorial.yml` 文件后，点击 "*提交更改...*"按钮保存文档：
+
 ![GITHUB](assets/fr/09.webp)
-Ajoutez un titre et une description, et assurez-vous que le commit soit réalisé sur la branche de travail que vous avez créée au début de ce tutoriel. Puis confirmez en cliquant sur "*Commit changes*".
+
+添加标题和描述，并确保提交到本教程开始时创建的分支。然后点击 "*提交更改*"确认。
+
 ![GITHUB](assets/fr/10.webp)
-## 4 - Créer les sous-dossiers pour les images
-Cliquez de nouveau sur "*Add File*" puis sur "*Create new file*" :
+
+## 4 - 创建图像子文件夹
+
+再次点击 "*添加文件*"，然后点击 "*创建新文件*"：
+
 ![GITHUB](assets/fr/11.webp)
-Entrez `assets` suivi d'un slash `/` pour créer le dossier :
+
+输入 "assets"，然后输入斜线"/"，以创建文件夹：
+
 ![GITHUB](assets/fr/12.webp)
-Répétez cette étape dans le dossier `/assets` pour créer le sous-dossier de langue, par exemple `fr` si votre tutoriel est en français :
+
+在 `/assets` 文件夹中重复此步骤，创建语言子文件夹，例如，如果教程是法语，则创建 `fr`：
+
 ![GITHUB](assets/fr/13.webp)
-Dans ce dossier, créez un fichier factice pour obliger GitHub à conserver votre dossier (qui sinon serait vide). Nommez ce fichier `.gitkeep`. Ensuite, cliquez sur "*Commit changes...*".
+
+在该文件夹中创建一个虚拟文件，以强制 GitHub 保留您的文件夹（否则该文件夹将为空）。将该文件命名为".gitkeep"。然后点击 "*提交更改...*"。
+
 ![GITHUB](assets/fr/14.webp)
-Assurez-vous à nouveau que vous êtes sur la branche de travail correcte, puis cliquez sur "*Commit changes*".
+
+再次检查您所在的分支是否正确，然后点击 "*提交更改*"。
+
 ![GITHUB](assets/fr/15.webp)
-## 5 - Créer le fichier Markdown
-Maintenant, nous allons créer le fichier qui accueillera votre tutoriel, nommé selon le code de votre langue, comme par exemple `fr.md` si l'on rédige en français. Accédez au dossier de votre tutoriel :
+
+## 5 - 创建 Markdown 文件
+
+现在，我们要创建一个文件来存放您的教程，该文件根据您的语言代码命名，例如，如果我们用法语编写，则命名为 `fr.md`。进入你的教程文件夹 ：
+
 ![GITHUB](assets/fr/16.webp)
-Cliquez sur "*Add file*", puis sur "*Create new file*".
+
+点击 "添加文件*"，然后点击 "创建新文件*"。
+
 ![GITHUB](assets/fr/17.webp)
-Nommez le fichier en utilisant le code de votre langue. Dans mon cas, le tutoriel étant rédigé en français, je nomme mon fichier `fr.md`. L'extension `.md` indique que le fichier est au format Markdown.
+
+使用语言代码为文件命名。在我的例子中，由于教程是用法语编写的，所以我将文件命名为 `fr.md`。扩展名 `.md` 表示文件为 Markdown 格式。
+
 ![GITHUB](assets/fr/18.webp)
-Nous commençons par remplir la section `Properties` en haut du document. Ajoutez manuellement et remplissez le bloc de code suivant (les clés `name:` et `description:` doivent être conservées en anglais, mais leur valeur doit être rédigée dans la langue utilisée pour votre tutoriel) :
+
+我们首先要填写文档顶部的 "属性 "部分。手动添加并填写以下代码块（"name:`"和 "description:`"键必须使用英文，但其值必须使用教程中使用的语言编写）：
+
+```
+---
+name: [Titre]
+description: [Description]
+---
 ```
 
----
-name: [标题]
-description: [说明]
----
-```
 ![GITHUB](assets/fr/19.webp)
-Remplissez le nom de votre tutoriel ainsi qu'une courte description de celui-ci :
+
+填写教程名称和简短说明：
+
 ![GITHUB](assets/fr/20.webp)
-Ajoutez ensuite le chemin de l'image de couverture au début de votre tutoriel. Pour ce faire, notez :
-```
 
+然后在教程开头添加封面图像的路径。为此，请注意 ：
+
+```
 ![cover-green](assets/cover.webp)
-
 ```
-Cette syntaxe vous sera utile chaque fois que l'ajout d'une image dans votre tutoriel sera nécessaire. Le point d'exclamation signale qu'il s'agit d'une image, dont le texte alternatif (alt) est spécifié entre les crochets. Le chemin d'accès à l'image est indiqué entre les parenthèses :
+
+当您需要在教程中添加图片时，这种语法就会派上用场。感叹号表示图片，其替代文本 (alt) 指定在方括号之间。图片的路径位于方括号之间：
+
 ![GITHUB](assets/fr/21.webp)
-Cliquez sur le bouton "*Commit changes...*" pour enregistrer ce fichier.
+
+点击 "*提交更改...*"按钮保存文件。
+
 ![GITHUB](assets/fr/22.webp)
-Vérifiez que vous êtes sur la bonne branche, puis confirmez le commit.
+
+检查分支是否正确，然后确认提交。
+
 ![GITHUB](assets/fr/23.webp)
-Votre dossier de tutoriel devrait maintenant se présenter de cette manière, selon le code de votre langue :
+
+根据语言代码，您的教程文件夹现在应该是这样的：
+
 ![GITHUB](assets/fr/24.webp)
-## 6 - Ajouter le logo et la couverture
-Au sein du dossier `assets`, vous devez ajouter un fichier nommé `logo.webp`, qui servira de vignette pour votre article. Cette image doit obligatoirement être au format `.webp` et doit respecter une dimension carrée afin de s'harmoniser avec l'interface utilisateur.
-Vous avez la liberté de choisir le logo du logiciel traité dans le tutoriel ou toute autre image pertinente, à condition que celle-ci soit libre de droits. En complément, ajoutez également au même endroit une image intitulée `cover.webp`. Celle-ci sera affichée en haut de votre tutoriel. Veillez à ce que cette image, tout comme le logo, respecte les droits d'utilisation et soit adaptée au contexte de votre tutoriel.
-Pour ajouter des images dans le dossier `/assets`, vous pouvez les glisser-déposer depuis vos fichiers locaux. Assurez-vous que vous êtes bien dans le dossier `/assets` et sur la bonne branche de travail, puis cliquez sur "*Commit changes*".
+
+## 6 - 添加徽标和封面
+
+在 "assets "文件夹中，您需要添加一个名为 "logo.webp "的文件，作为文章的缩略图。该图片必须为 `.webp`格式，大小必须为正方形，以便与用户界面相匹配。
+
+您可以自由选择教程中使用的软件徽标或任何其他相关图片，只要是免版税的即可。此外，请在同一位置添加一张名为 "cover.webp "的图片。这将显示在教程的顶部。请确保该图片与徽标一样，尊重使用权并适合教程的上下文。
+
+要在 `/assets` 文件夹中添加图片，可以从本地文件中拖放图片。确保您在 `/assets` 文件夹中，并且在正确的分支上，然后点击 "*提交更改*"。
+
 ![GITHUB](assets/fr/26.webp)
-Vous devriez maintenant voir les images apparaître dans le dossier.
+
+现在你应该能看到文件夹中出现图像了。
+
 ![GITHUB](assets/fr/27.webp)
-## 7 - Rédiger le tutoriel
-Poursuivez la rédaction de votre tutoriel en notant votre contenu dans le fichier Markdown avec le code de langue (dans mon exemple, en français, c'est le fichier `fr.md`). Accédez au fichier et cliquez sur l'icône du crayon :
+
+## 7 - 编写教程
+
+继续编写教程，在带有语言代码的 Markdown 文件中记录内容（在我的例子中，法语文件为 `fr.md`）。转到该文件，点击铅笔图标 ：
+
 ![GITHUB](assets/fr/28.webp)
-Commencez la rédaction de votre tutoriel. Lorsque vous ajoutez un sous-titre, utilisez le formatage Markdown approprié en préfixant le texte avec `##` :
+
+开始编写教程。添加副标题时，使用适当的 Markdown 格式，在文本前加上 `##` ：
+
 ![GITHUB](assets/fr/29.webp)
-Alternez entre la vue "*Edit*" et la vue "*Preview*" pour mieux visualiser le rendu.
+
+交替使用 "*编辑*"和 "*预览*"视图，以更好地直观呈现效果图。
+
 ![GITHUB](assets/fr/30.webp)
-Pour enregistrer votre travail, cliquez sur "*Commit Changes...*", assurez-vous d'être sur la bonne branche de travail, puis confirmez en cliquant de nouveau sur "*Commit Changes*".
+
+要保存您的工作，请点击 "*提交更改...*"，确保您在正确的分支上，然后再次点击 "*提交更改*"确认。
+
 ![GITHUB](assets/fr/31.webp)
-## 8 - Ajouter des visuels
-Le sous-dossier de langues dans le dossier `/assets` (dans mon exemple : `/assets/fr`) permet de stocker les schémas et les visuels qui accompagneront votre tutoriel. Autant que possible, évitez d'inclure du texte dans vos images pour rendre votre contenu accessible à un public international. Bien sûr, le logiciel présenté contiendra du texte, mais si vous ajoutez des schémas ou des indications supplémentaires sur les captures d'écran du logiciel, faites-le sans texte ou, si cela s'avère indispensable, utilisez l'anglais.
-Pour nommer vos images, utilisez simplement des numéros correspondant à leur ordre d'apparition dans le tutoriel, formatés sur deux chiffres (ou trois chiffres si votre tutoriel contient plus de 99 images). Par exemple, nommez votre première image `01.webp`, votre deuxième `02.webp`, et ainsi de suite.
-Le format de vos images doit être en `.webp` exclusivement. Si besoin, vous pouvez utiliser [mon logiciel de conversion d'images](https://github.com/LoicPandul/ImagesConverter).
+
+## 8 - 添加视觉效果
+
+`/assets` 文件夹中的语言子文件夹（在我的例子中为 `/assets/en`）用于存储教程中的图表和视觉效果。尽可能避免在图片中包含文字，以便国际受众也能阅读您的内容。当然，所介绍的软件会包含文字，但如果您在软件截图上添加示意图或其他说明，请不要使用文字，如果有必要，请使用英文。
+
+要为图像命名，只需使用与它们在教程中出现的顺序相对应的数字，格式为两位数（如果教程包含 99 张以上的图像，则为三位数）。例如，将第一张图片命名为 `01.webp`，第二张命名为 `02.webp`，以此类推。
+
+您的图片必须是 `.webp` 格式。如有必要，您可以使用 [我的图像转换软件](https://github.com/LoicPandul/ImagesConverter)。
+
 ![GITHUB](assets/fr/32.webp)
-Maintenant que vous avez ajouté vos images dans le sous-dossier, vous pouvez supprimer le fichier factice `.gitkeep`. Ouvrez ce fichier, cliquez sur les trois petits points en haut à droite, puis sur "*Delete file*".
+
+将图片添加到子文件夹后，就可以删除虚拟文件 `.gitkeep`了。打开该文件，点击右上角的三个小圆点，然后点击 "*删除文件*"。
+
 ![GITHUB](assets/fr/33.webp)
-Enregistrez vos modifications en cliquant sur "*Commit changes...*".
+
+点击 "*提交更改...*"保存更改。
+
 ![GITHUB](assets/fr/34.webp)
-Pour insérer un schéma présent dans votre sous-dossier dans votre document de rédaction, utilisez la commande Markdown suivante, en prenant soin de spécifier le texte alternatif approprié ainsi que le chemin correct de l'image en fonction de votre langue :
-```
 
+要在编辑文档中插入子文件夹中的图表，请使用下面的 Markdown 命令，注意为您的语言指定适当的替代文本和正确的图像路径：
+
+```
 ![green](assets/fr/01.webp)
-
 ```
+
+开头的感叹号表示图像。方括号之间是备选文本，有助于无障碍访问和引用。最后，图片的路径标注在方括号之间。
+
+![GITHUB](assets/fr/35.webp)
+
+如果您想创建自己的示意图，请务必遵循计划 ₿ 网络图形指南，以确保视觉一致性：
+
+
+- 字体**：使用 [Rubik](https://fonts.google.com/specimen/Rubik)；
+- 颜色** ：
+ - 橙色#FF5C00
+ - 黑色 : #000000
+ - 白色#FFFFFF
+
+**在您的教程中集成的所有视觉效果必须是无版权或尊重源文件许可**的。因此，在 Plan ₿ Network 上发布的所有图表均采用 CC-BY-SA 许可，与文本相同。
+
+**-> 提示：** 在公共场合共享图片等文件时，删除多余的元数据非常重要。这可能包含敏感信息，如位置数据、创建日期和作者详情。为了保护你的隐私，最好删除这些元数据。要简化这一操作，可以使用 [Exif Cleaner](https://exifcleaner.com/)等专业工具，只需简单的拖放操作就能清理文档的元数据。
+
+## 9 - 提出教程
+
+当您用自己选择的语言编写完教程后，下一步就是提交**拉动请求**。然后，管理员将使用我们的自动翻译方法和人工校对，将缺失的翻译添加到您的教程中。
+
+要继续拉动请求，在保存所有更改后，点击 "*贡献*"按钮，然后点击 "*打开拉动请求*"：
+
+![GITHUB](assets/fr/36.webp)
+
+拉动请求是将您的分支中的更改整合到 Plan ₿ Network 代码库的主分支中的请求，允许在合并之前对更改进行审查和讨论。
+
+在继续之前，请在界面底部仔细检查这些更改是否符合您的预期：
+
+![GITHUB](assets/fr/37.webp)
+
+确保在界面顶端，你的工作分支已合并到 Plan ₿ Network 代码库的 `dev` 分支（即主分支）上。
+
+输入一个标题，简要概括您希望与源代码库合并的更改。添加一个简短的注释来描述这些更改（如果您有一个与创建教程相关的问题编号，记得在注释中注明 "关闭 #{ 问题编号}"），然后点击绿色的 "*创建拉取请求*"按钮来确认合并请求：
+
+![GITHUB](assets/fr/38.webp)
+
+然后，您的 PR 就会出现在主计划₿ 网络存储库的 "*Pull Request*（*拉取请求*）"选项卡中。您现在所要做的就是等待管理员与您联系，确认您的贡献已被合并，或要求进一步修改。
+
+![GITHUB](assets/fr/39.webp)
+
+将 PR 与主分支合并后，我们建议删除工作分支（以我的例子为例：`tuto-green-wallet`），以保持分叉历史的完整性。GitHub 会在 PR 页面自动为您提供这一选项：
+
+![GITHUB](assets/fr/40.webp)
+
+如果您在提交 PR 后希望更改会费，应遵循的步骤取决于 PR 的当前状态：
+
+
+- 如果您的 PR 仍未合并，请在同一工作分支上进行更改。提交的更改将添加到您仍未合并的 PR 中；
+- 如果您的 PR 已与主分支合并，则需要从头开始重新创建一个新分支，然后提交一份新 PR。在继续之前，请确保你的分叉与 `dev` 分支上的 Plan ₿ Network 源代码库同步。
+
+如果您在提交教程时遇到技术问题，请不要犹豫，在[我们专门的 Telegram 投稿群组](https://t.me/PlanBNetwork_ContentBuilder)上寻求帮助。非常感谢！

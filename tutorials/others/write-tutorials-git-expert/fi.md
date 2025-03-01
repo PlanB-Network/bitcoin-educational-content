@@ -14,7 +14,7 @@ Sinulla on jo :
 - Ota yhteyttä Plan ₿ Network -tiimiin [Telegram-ryhmässä] (https://t.me/PlanBNetwork_ContentBuilder) tai paolo@planb.network ;
 - Valitse osallistumisvälineesi.
 
-Tässä kokeneille Git-käyttäjille suunnatussa opetusohjelmassa kerromme lyhyesti keskeiset vaiheet ja olennaiset ohjeet uuden Plan ₿ Network -oppaan tarjoamiseksi. Jos Git ja GitHub eivät ole sinulle tuttuja, suosittelen sen sijaan seuraamaan yhtä näistä kahdesta muusta, yksityiskohtaisemmasta opetusohjelmasta, jotka vievät sinut askel askeleelta :
+Tässä kokeneille Git-käyttäjille suunnatussa opetusohjelmassa kerromme lyhyesti keskeiset vaiheet ja olennaiset ohjeet uuden Plan ₿ Network -oppaan tarjoamiseksi. Jos Git ja GitHub eivät ole sinulle tuttuja, suosittelen sen sijaan seuraamaan yhtä näistä kahdesta muusta yksityiskohtaisemmasta opetusohjelmasta, jotka vievät sinut askel askeleelta :
 
 
 - Keskitason (GitHub Desktop)** :
@@ -63,7 +63,7 @@ Kaavioiden ja visuaalisten esitysten luominen :
 - Synkronoi haarasi päähaara (`dev`) lähdekoodivaraston kanssa.
 - Päivitä paikallinen kloonisi.
 
-```bash
+```
 # Cloner votre fork (si ce n'est pas déjà fait)
 git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
 cd bitcoin-educational-content
@@ -86,7 +86,7 @@ git push origin dev
 - Luo uusi haara kuvaavalla nimellä (esim. `tuto-green-wallet-loic`).
 - Julkaise tämä haara verkkohaarassasi.
 
-```bash
+```
 # Assurez-vous d’être sur la branche 'dev'
 git checkout dev
 # Créez une nouvelle branche avec un nom descriptif
@@ -113,7 +113,7 @@ Jos haluat tehdä sen manuaalisesti, noudata seuraavia ohjeita :
     - `tutorial.yml`-tiedosto, joka sisältää metatietoja (tekijä, tunnisteet, kategoria, vaikeustaso jne.).
     - Markdown-tiedosto, joka sisältää opetusohjelman ja joka on nimetty kielikoodin mukaan (esim. `fr.md`, `en.md`, jne.).
 
-```bash
+```
 # Positionnez-vous dans le dossier approprié
 cd tutorials/wallet
 # Créez le répertoire dédié au tutoriel
@@ -132,7 +132,7 @@ touch tutorial.yml en.md
 
 - Täydennä `tutorial.yml`-tiedosto seuraavasti:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -152,127 +152,136 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Voici le détail des champs obligatoires :
-- **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
-- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
-- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
-- **level** : Le niveau de difficulté du tutoriel, parmi :
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
-- **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
-- **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
-- **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
-- **last_contribution_date** : Date du jour.
-- **urgency** : Laissez vide.
-- **contributors_id** : Votre ID GitHub.
-- **reward** : Laissez vide.
-Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
+```
+
+Tässä ovat vaaditut kentät:
+
+
+- id**: UUID (_Universally Unique Identifier_), jolla opetusohjelma voidaan yksilöidä yksiselitteisesti. Voit luoda sen [online-työkalulla](https://www.uuidgenerator.net/version4). Ainoa rajoitus on, että tämän UUID-tunnuksen on oltava satunnainen, jotta se ei ole ristiriidassa alustan toisen UUID-tunnuksen kanssa;
+- project_id** : Ohjeessa esitellyn työkalun takana olevan yrityksen tai organisaation UUID-tunnus [projektiluettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi teet opetusohjelman Green Wallet -ohjelmistosta, löydät tämän `project_id`:n seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään opetusohjelmasi YAML-tiedostoon, koska Plan ₿ Network ylläpitää tietokantaa kaikista yrityksistä ja organisaatioista, jotka toimivat Bitcoinissa tai siihen liittyvissä projekteissa. Lisäämällä linkitetyn entiteetin `project_id`:n opetusohjelmaasi luot linkin näiden kahden elementin välille;
+- tagit**: 2 tai 3 relevanttia avainsanaa, jotka liittyvät opetusohjelman sisältöön ja jotka on valittu yksinomaan [Plan ₿ Network tag -luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- luokka** : Alaluokka, joka vastaa opetusohjelman sisältöä Plan ₿ Network -verkkorakenteen mukaisesti (esim. lompakoille: `desktop`, `hardware`, `mobile`, `backup`) ;
+- taso** : Tutoriaalin vaikeustaso, alkaen :
+    - aloitteleva`
+    - `välitason`
+    - `Advanced`
+    - "Asiantuntija
+- professori**: Sinun `contributor_id` (BIP39 sanat), joka näkyy [opettajaprofiilissasi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- original_language** : Ohjeen alkuperäinen kieli (esim. `fr`, `en` jne.) ;
+- oikoluku**: Tietoa oikolukuprosessista. Täytä ensimmäinen osa, koska oman opetusohjelmasi oikolukeminen lasketaan ensimmäiseksi validoinniksi:
+    - kieli**: Kielikoodin oikolukeminen (esim. "fr", "en" jne.).
+    - viimeinen_maksun_päivämäärä**: Tämän päivän päivämäärä.
+    - kiireellisyys** : Jätä tyhjäksi.
+    - contributors_id** : GitHub-tunnuksesi.
+    - palkinto** : Jätä tyhjäksi.
+
+Lisätietoja opettajatunnuksesta saat vastaavasta ohjeesta :
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 ```
-
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-tunnisteet:
-
-
-  - lompakot
-  - ohjelmisto
-  - avaimet
-
-kategoria: mobiili
-
-taso: aloittelija
-
-krediittejä:
-
-professori: pretty-private
-
-# Metatietojen oikolukeminen
-
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
 original_language: fr
-
-oikoluku:
-
-
-  - kieli: fr
-
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-kiireellisyys:
-
-avustajat_id:
-
-
-      - LoicPandul
-
-palkinto:
-
-```
-### 5 - Rédigez le contenu
-- Complétez les propriétés du fichier Markdown avec :
-- Le titre (`name`).
-- Une courte description (`description`).
-- Ajoutez l’image de couverture en haut du tutoriel avec la syntaxe Markdown (remplacez "green" par le nom de l’outil présenté) :
+urgency:
+contributors_id:
+- LoicPandul
+reward:
 ```
 
+### 5 - Kirjoita sisältö
+
+
+- Täydennä Markdown-tiedoston ominaisuudet komennolla :
+    - Otsikko (`name`).
+    - Lyhyt kuvaus (`description`).
+- Lisää kansilehden kuva ohjeen yläosaan Markdown-syntaksilla (korvaa "vihreä" näytetyn työkalun nimellä):
+
+```
 ![cover-green](assets/cover.webp)
-
-```
-- Rédigez le contenu du tutoriel en Markdown :
-- Utilisez des titres bien structurés (`##`), des listes et des paragraphes.
-- Insérez des visuels avec la syntaxe Markdown :
 ```
 
+
+- Kirjoita opetusohjelman sisältö Markdown-kielellä :
+    - Käytä hyvin jäsenneltyjä otsikoita (`##`), luetteloita ja kohtia.
+    - Sisällytä visuaalisia elementtejä Markdown-syntaksin avulla :
+
+```
 ![nom-image](assets/en/001.webp)
-
-```
-- Placez les schémas et images dans le sous-dossier de langue correspondant, dans `/assets`.
-### 6 - Enregistrez et soumettez le tutoriel
-- Enregistrez vos modifications localement en créant un commit avec un message descriptif.
-- Poussez les changements sur votre fork GitHub.
 ```
 
-# Luo commit, jolla on kuvaava viesti
 
-git commit -m "Lisää vihreän lompakon opetusohjelma"
+- Sijoita kaaviot ja kuvat vastaavaan kieliseen alikansioon `/assets`.
 
-# Työnnä muutokset haarukkaan
+### 6 - Tallenna ja lähetä opetusohjelma
 
+
+- Tallenna muutoksesi paikallisesti luomalla komento, jossa on kuvaava viesti.
+- Työnnä muutokset GitHub-haarukkaan.
+
+```
+# Créez un commit avec un message descriptif
+git commit -m "Ajout du tutoriel green-wallet"
+# Poussez vos modifications sur votre fork
 git push origin tuto-green-wallet-loic
-
-```
-- Une fois terminé, créez une Pull Request (PR) sur GitHub pour proposer l’intégration de vos modifications.
-- Ajoutez un titre et une brève description à la PR. Mentionnez le numéro d’issue correspondant dans le commentaire.
-### 7 - Relecture et fusion
-- Attendez la validation ou les retours d’un administrateur.
-- Si nécessaire, effectuez des corrections et poussez de nouveaux commits.
 ```
 
-# Luo tehtyjä korjauksia kuvaava sitoumus
 
-git commit -m "Korjaukset green-wallet-oppaaseen tehdyn tarkistuksen jälkeen"
+- Kun olet valmis, luo Pull Request (PR) GitHubiin ehdottaaksesi muutosten integrointia.
+- Lisää PR:lle otsikko ja lyhyt kuvaus. Mainitse kommentissa vastaava ongelmanumero.
 
-# Työnnä korjauksia haarukkaan
+### 7 - Tarkistaminen ja yhdistäminen
 
+
+- Odota vahvistusta tai palautetta ylläpitäjältä.
+- Tee tarvittaessa korjauksia ja siirrä uudet toimitukset.
+
+```
+# Créez un commit décrivant les corrections apportées
+git commit -m "Corrections suite à la revue du tutoriel green-wallet"
+# Poussez les corrections sur votre fork
 git push origin tuto-green-wallet-loic
-
-```
-- Une fois la PR fusionnée, vous pouvez supprimer votre branche de travail.
-## Normes de création de contenu
-- **Formatage supporté sur la plateforme** :
-- Markdown classique : listes, liens, images, citations, gras, italique, etc.
-- LaTeX (en bloc uniquement, pas inline) : délimité par `$$`.
-- Code inline : Syntaxe avec un seul backtick.
-- Blocs de code : Syntaxe avec trois backtick, par exemple :
 ```
 
-print("Hei, Bitcoin!")
+
+- Kun PR on yhdistetty, voit poistaa työhaarasi.
+
+## Sisällön luomista koskevat standardit
+
+
+- Alustan tukema muotoilu** :
+    - Klassinen Markdown: luettelot, linkit, kuvat, lainaukset, lihavointi, kursivointi jne.
+    - LaTeX (vain lohko, ei inline): erotetaan `$$`:lla.
+    - Rivikoodi: Syntaksi, jossa on yksi takaviiva.
+    - Koodilohkot: Syntaksi, jossa on kolme takaviivaa, esimerkiksi :
 
 ```
+print("Hello, Bitcoin!")
+```
+
+
+- Kuvitukset ja kaaviot** :
+    - Kaikkien kuvien on oltava WebP-muodossa. Käytä tätä ilmaista työkalua niiden muuntamiseen tarvittaessa: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
+    - Nimeä kuvatunnukset 2- tai 3-numeroisin numeroin (esim. `001.webp`, `002.webp`).
+    - Mobiililompakon tai laitteiston lompakon opetusohjelmissa kannattaa käyttää malleja.
+    - Käytä vain itse luotua tai rojaltivapaata kuvamateriaalia.
+    - Varmista, että ne ovat merkityksellisiä ja laadukkaita.
+- Graafinen charter** :
+    - Fontti: [Rubik](https://fonts.google.com/specimen/Rubik).
+    - Värit Suunnitelma ₿ Verkko :
+        - Oranssi: `#FF5C00`
+        - Musta: `#000000`
+        - Valkoinen: `#FFFFFFFF`
+
+Jos sinulla on teknisiä ongelmia opetusohjelmasi lähettämisessä, älä epäröi pyytää apua [omassa Telegram-ryhmässämme](https://t.me/PlanBNetwork_ContentBuilder). Kiitos paljon!

@@ -1,10 +1,10 @@
 ---
-name: Đóng góp - GitHub Hướng dẫn web (người mới bắt đầu)
+name: Đóng góp - GitHub Web hướng dẫn (người mới bắt đầu)
 description: Hướng dẫn đầy đủ về hướng dẫn Plan ₿ Network với GitHub Web
 ---
 ![cover](assets/cover.webp)
 
-Trước khi làm theo hướng dẫn này để thêm hướng dẫn mới, bạn cần hoàn thành một vài bước sơ bộ. Nếu bạn chưa thực hiện, vui lòng xem hướng dẫn giới thiệu này trước, sau đó quay lại đây:
+Trước khi làm theo hướng dẫn này để thêm hướng dẫn mới, bạn cần hoàn thành một vài bước sơ bộ. Nếu bạn chưa làm, vui lòng xem hướng dẫn giới thiệu này trước, sau đó quay lại đây:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 Bạn đã có:
@@ -91,7 +91,7 @@ Trong thư mục con mới dành riêng cho hướng dẫn của bạn, bạn c�
 
 Tóm lại, đây là hệ thống phân cấp tệp (chúng ta sẽ tiếp tục tạo chúng ở phần tiếp theo):
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (à modifier avec la bonne catégorie)
@@ -110,7 +110,7 @@ Chúng ta hãy bắt đầu với tệp YAML. Trong hộp để tạo tệp mớ
 
 Điền vào tệp `tutorial.yml` bằng cách sao chép mẫu sau:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -130,145 +130,242 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Voici le détail des champs obligatoires :
-- **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
-- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
-- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
-- **level** : Le niveau de difficulté du tutoriel, parmi :
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
-- **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
-- **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
-- **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
-- **last_contribution_date** : Date du jour.
-- **urgency** : Laissez vide.
-- **contributors_id** : Votre ID GitHub.
-- **reward** : Laissez vide.
-Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
+```
+
+Sau đây là các trường bắt buộc:
+
+
+- id**: UUID (_Universally Unique Identifier_) để nhận dạng duy nhất hướng dẫn. Bạn có thể tạo nó bằng [một công cụ trực tuyến](https://www.uuidgenerator.net/version4). Hạn chế duy nhất là UUID này phải ngẫu nhiên, để không xung đột với UUID khác trên nền tảng;
+- project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ: nếu bạn đang thực hiện hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` này trong tệp sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Network duy trì cơ sở dữ liệu của tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể được liên kết vào hướng dẫn của bạn, bạn tạo liên kết giữa hai phần tử;
+- thẻ**: 2 hoặc 3 từ khóa có liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- category**: Tiểu thể loại tương ứng với nội dung hướng dẫn, theo cấu trúc Plan ₿ Network (ví dụ: đối với ví: `desktop`, `hardware`, `mobile`, `backup`);
+- level** : Mức độ khó của hướng dẫn, từ :
+    - người mới bắt đầu`
+    - `trung gian`
+    - `nâng cao`
+    - `chuyên gia`
+- giáo sư**: `contributor_id` của bạn (BIP39 từ) như được hiển thị trên [hồ sơ giáo viên của bạn](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- original_language**: Ngôn ngữ gốc của hướng dẫn (ví dụ: `fr`, `en`, v.v.);
+- soát lỗi**: Thông tin về quá trình soát lỗi. Điền vào phần đầu tiên, vì việc soát lỗi hướng dẫn của riêng bạn được tính là xác thực đầu tiên:
+    - ngôn ngữ**: Kiểm tra mã ngôn ngữ (ví dụ: `fr`, `en`, v.v.).
+    - last_contribution_date**: Ngày hôm nay.
+    - mức độ khẩn cấp**: Để trống.
+    - contributors_id**: ID GitHub của bạn.
+    - phần thưởng**: Để trống.
+
+Để biết thêm chi tiết về ID giáo viên của bạn, vui lòng tham khảo hướng dẫn tương ứng:
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Voici un exemple de fichier `tutorial.yml` complété pour un tutoriel sur le wallet Blockstream Green :
-```
+Sau đây là ví dụ về tệp `tutorial.yml` được hoàn thành cho hướng dẫn về ví Blockstream Green:
 
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
-dự án_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-thẻ:
-
-
-  - ví
-  - phần mềm
-  - chìa khóa
-
-thể loại: di động
-
-trình độ: người mới bắt đầu
-
-tín dụng:
-
-giáo sư: khá riêng tư
-
-# Kiểm tra siêu dữ liệu
-
-ngôn ngữ gốc: fr
-
-hiệu đính:
-
-
-  - ngôn ngữ: fr
-
-ngày đóng góp cuối cùng: 2024-11-20
-
-tính cấp bách:
-
-người đóng góp_id:
-
-
-      - LoicPandul
-
-phần thưởng:
-
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
+original_language: fr
+proofreading:
+- language: fr
+last_contribution_date: 2024-11-20
+urgency:
+contributors_id:
+- LoicPandul
+reward:
 ```
-Une fois la modification de votre fichier `tutorial.yml` achevée, enregistrez votre document en cliquant sur le bouton "*Commit changes...*" :
+
+Sau khi hoàn tất việc sửa đổi tệp `tutorial.yml`, hãy lưu tài liệu bằng cách nhấp vào nút "*Cam kết thay đổi...*":
+
 ![GITHUB](assets/fr/09.webp)
-Ajoutez un titre et une description, et assurez-vous que le commit soit réalisé sur la branche de travail que vous avez créée au début de ce tutoriel. Puis confirmez en cliquant sur "*Commit changes*".
+
+Thêm tiêu đề và mô tả, và đảm bảo rằng cam kết được thực hiện với nhánh bạn đã tạo khi bắt đầu hướng dẫn này. Sau đó xác nhận bằng cách nhấp vào "*Cam kết thay đổi*".
+
 ![GITHUB](assets/fr/10.webp)
-## 4 - Créer les sous-dossiers pour les images
-Cliquez de nouveau sur "*Add File*" puis sur "*Create new file*" :
+
+## 4 - Tạo thư mục con cho hình ảnh
+
+Nhấp vào "*Thêm tệp*" một lần nữa rồi nhấp vào "*Tạo tệp mới*":
+
 ![GITHUB](assets/fr/11.webp)
-Entrez `assets` suivi d'un slash `/` pour créer le dossier :
+
+Nhập `assets` theo sau là dấu gạch chéo `/` để tạo thư mục:
+
 ![GITHUB](assets/fr/12.webp)
-Répétez cette étape dans le dossier `/assets` pour créer le sous-dossier de langue, par exemple `fr` si votre tutoriel est en français :
+
+Lặp lại bước này trong thư mục `/assets` để tạo thư mục con ngôn ngữ, ví dụ `fr` nếu hướng dẫn của bạn bằng tiếng Pháp:
+
 ![GITHUB](assets/fr/13.webp)
-Dans ce dossier, créez un fichier factice pour obliger GitHub à conserver votre dossier (qui sinon serait vide). Nommez ce fichier `.gitkeep`. Ensuite, cliquez sur "*Commit changes...*".
+
+Trong thư mục này, hãy tạo một tệp giả để buộc GitHub giữ thư mục của bạn (nếu không thì thư mục này sẽ trống). Đặt tên cho tệp này là `.gitkeep`. Sau đó nhấp vào "*Commit changes...*".
+
 ![GITHUB](assets/fr/14.webp)
-Assurez-vous à nouveau que vous êtes sur la branche de travail correcte, puis cliquez sur "*Commit changes*".
+
+Kiểm tra lại xem bạn đã vào đúng nhánh chưa, sau đó nhấp vào "*Xác nhận thay đổi*".
+
 ![GITHUB](assets/fr/15.webp)
-## 5 - Créer le fichier Markdown
-Maintenant, nous allons créer le fichier qui accueillera votre tutoriel, nommé selon le code de votre langue, comme par exemple `fr.md` si l'on rédige en français. Accédez au dossier de votre tutoriel :
+
+## 5 - Tạo tệp Markdown
+
+Bây giờ chúng ta sẽ tạo tệp sẽ lưu trữ hướng dẫn của bạn, được đặt tên theo mã ngôn ngữ của bạn, ví dụ `fr.md` nếu chúng ta viết bằng tiếng Pháp. Đi đến thư mục hướng dẫn của bạn:
+
 ![GITHUB](assets/fr/16.webp)
-Cliquez sur "*Add file*", puis sur "*Create new file*".
+
+Nhấp vào "Thêm tệp*", sau đó nhấp vào "Tạo tệp mới*".
+
 ![GITHUB](assets/fr/17.webp)
-Nommez le fichier en utilisant le code de votre langue. Dans mon cas, le tutoriel étant rédigé en français, je nomme mon fichier `fr.md`. L'extension `.md` indique que le fichier est au format Markdown.
+
+Đặt tên tệp bằng mã ngôn ngữ của bạn. Trong trường hợp của tôi, vì hướng dẫn được viết bằng tiếng Pháp, tôi đặt tên tệp của mình là `fr.md`. Phần mở rộng `.md` cho biết tệp ở định dạng Markdown.
+
 ![GITHUB](assets/fr/18.webp)
-Nous commençons par remplir la section `Properties` en haut du document. Ajoutez manuellement et remplissez le bloc de code suivant (les clés `name:` et `description:` doivent être conservées en anglais, mais leur valeur doit être rédigée dans la langue utilisée pour votre tutoriel) :
+
+Chúng ta bắt đầu bằng cách điền vào phần `Properties` ở đầu tài liệu. Thêm và điền thủ công khối mã sau (các khóa `name:` và `description:` phải được giữ bằng tiếng Anh, nhưng giá trị của chúng phải được viết bằng ngôn ngữ được sử dụng cho hướng dẫn của bạn):
+
+```
+---
+name: [Titre]
+description: [Description]
+---
 ```
 
----
-name: [Tiêu đề]
-description: [Sự miêu tả]
----
-```
 ![GITHUB](assets/fr/19.webp)
-Remplissez le nom de votre tutoriel ainsi qu'une courte description de celui-ci :
+
+Điền tên hướng dẫn của bạn và mô tả ngắn gọn:
+
 ![GITHUB](assets/fr/20.webp)
-Ajoutez ensuite le chemin de l'image de couverture au début de votre tutoriel. Pour ce faire, notez :
-```
 
+Sau đó thêm đường dẫn đến ảnh bìa ở đầu hướng dẫn của bạn. Để thực hiện việc này, hãy lưu ý:
+
+```
 ![cover-green](assets/cover.webp)
-
 ```
-Cette syntaxe vous sera utile chaque fois que l'ajout d'une image dans votre tutoriel sera nécessaire. Le point d'exclamation signale qu'il s'agit d'une image, dont le texte alternatif (alt) est spécifié entre les crochets. Le chemin d'accès à l'image est indiqué entre les parenthèses :
+
+Cú pháp này sẽ hữu ích bất cứ khi nào bạn cần thêm hình ảnh vào hướng dẫn của mình. Dấu chấm than chỉ ra một hình ảnh, có văn bản thay thế (alt) được chỉ định giữa các dấu ngoặc vuông. Đường dẫn đến hình ảnh được chỉ định giữa các dấu ngoặc vuông:
+
 ![GITHUB](assets/fr/21.webp)
-Cliquez sur le bouton "*Commit changes...*" pour enregistrer ce fichier.
+
+Nhấp vào nút "*Xác nhận thay đổi...*" để lưu tệp này.
+
 ![GITHUB](assets/fr/22.webp)
-Vérifiez que vous êtes sur la bonne branche, puis confirmez le commit.
+
+Kiểm tra xem bạn có đang ở đúng nhánh không, sau đó xác nhận cam kết.
+
 ![GITHUB](assets/fr/23.webp)
-Votre dossier de tutoriel devrait maintenant se présenter de cette manière, selon le code de votre langue :
+
+Theo mã ngôn ngữ của bạn, thư mục hướng dẫn của bạn bây giờ sẽ trông như thế này:
+
 ![GITHUB](assets/fr/24.webp)
-## 6 - Ajouter le logo et la couverture
-Au sein du dossier `assets`, vous devez ajouter un fichier nommé `logo.webp`, qui servira de vignette pour votre article. Cette image doit obligatoirement être au format `.webp` et doit respecter une dimension carrée afin de s'harmoniser avec l'interface utilisateur.
-Vous avez la liberté de choisir le logo du logiciel traité dans le tutoriel ou toute autre image pertinente, à condition que celle-ci soit libre de droits. En complément, ajoutez également au même endroit une image intitulée `cover.webp`. Celle-ci sera affichée en haut de votre tutoriel. Veillez à ce que cette image, tout comme le logo, respecte les droits d'utilisation et soit adaptée au contexte de votre tutoriel.
-Pour ajouter des images dans le dossier `/assets`, vous pouvez les glisser-déposer depuis vos fichiers locaux. Assurez-vous que vous êtes bien dans le dossier `/assets` et sur la bonne branche de travail, puis cliquez sur "*Commit changes*".
+
+## 6 - Thêm logo và bìa
+
+Trong thư mục `assets`, bạn cần thêm một tệp có tên `logo.webp`, tệp này sẽ đóng vai trò là hình thu nhỏ cho bài viết của bạn. Hình ảnh này phải ở định dạng `.webp` và phải có kích thước vuông để phù hợp với giao diện người dùng.
+
+Bạn được tự do lựa chọn logo phần mềm được sử dụng trong hướng dẫn hoặc bất kỳ hình ảnh có liên quan nào khác, miễn là không có bản quyền. Ngoài ra, hãy thêm một hình ảnh có tiêu đề `cover.webp` vào cùng một vị trí. Hình ảnh này sẽ được hiển thị ở đầu hướng dẫn của bạn. Hãy đảm bảo rằng hình ảnh này, giống như logo, tôn trọng quyền sử dụng và phù hợp với bối cảnh hướng dẫn của bạn.
+
+Để thêm hình ảnh vào thư mục `/assets`, bạn có thể kéo và thả chúng từ các tệp cục bộ của mình. Đảm bảo rằng bạn đang ở trong thư mục `/assets` và ở nhánh bên phải, sau đó nhấp vào "*Commit changes*".
+
 ![GITHUB](assets/fr/26.webp)
-Vous devriez maintenant voir les images apparaître dans le dossier.
+
+Bây giờ bạn sẽ thấy hình ảnh xuất hiện trong thư mục.
+
 ![GITHUB](assets/fr/27.webp)
-## 7 - Rédiger le tutoriel
-Poursuivez la rédaction de votre tutoriel en notant votre contenu dans le fichier Markdown avec le code de langue (dans mon exemple, en français, c'est le fichier `fr.md`). Accédez au fichier et cliquez sur l'icône du crayon :
+
+## 7 - Viết hướng dẫn
+
+Tiếp tục viết hướng dẫn của bạn bằng cách ghi chú nội dung của bạn trong tệp Markdown với mã ngôn ngữ (trong ví dụ của tôi, bằng tiếng Pháp, đó là tệp `fr.md`). Đi đến tệp và nhấp vào biểu tượng bút chì:
+
 ![GITHUB](assets/fr/28.webp)
-Commencez la rédaction de votre tutoriel. Lorsque vous ajoutez un sous-titre, utilisez le formatage Markdown approprié en préfixant le texte avec `##` :
+
+Bắt đầu viết hướng dẫn của bạn. Khi thêm phụ đề, hãy sử dụng định dạng Markdown phù hợp bằng cách thêm tiền tố `##` vào văn bản:
+
 ![GITHUB](assets/fr/29.webp)
-Alternez entre la vue "*Edit*" et la vue "*Preview*" pour mieux visualiser le rendu.
+
+Thay đổi giữa chế độ xem "*Chỉnh sửa*" và "*Xem trước*" để hình dung kết xuất tốt hơn.
+
 ![GITHUB](assets/fr/30.webp)
-Pour enregistrer votre travail, cliquez sur "*Commit Changes...*", assurez-vous d'être sur la bonne branche de travail, puis confirmez en cliquant de nouveau sur "*Commit Changes*".
+
+Để lưu công việc của bạn, hãy nhấp vào "*Commit Changes...*", đảm bảo rằng bạn đang ở đúng nhánh, sau đó xác nhận bằng cách nhấp vào "*Commit Changes*" một lần nữa.
+
 ![GITHUB](assets/fr/31.webp)
-## 8 - Ajouter des visuels
-Le sous-dossier de langues dans le dossier `/assets` (dans mon exemple : `/assets/fr`) permet de stocker les schémas et les visuels qui accompagneront votre tutoriel. Autant que possible, évitez d'inclure du texte dans vos images pour rendre votre contenu accessible à un public international. Bien sûr, le logiciel présenté contiendra du texte, mais si vous ajoutez des schémas ou des indications supplémentaires sur les captures d'écran du logiciel, faites-le sans texte ou, si cela s'avère indispensable, utilisez l'anglais.
-Pour nommer vos images, utilisez simplement des numéros correspondant à leur ordre d'apparition dans le tutoriel, formatés sur deux chiffres (ou trois chiffres si votre tutoriel contient plus de 99 images). Par exemple, nommez votre première image `01.webp`, votre deuxième `02.webp`, et ainsi de suite.
-Le format de vos images doit être en `.webp` exclusivement. Si besoin, vous pouvez utiliser [mon logiciel de conversion d'images](https://github.com/LoicPandul/ImagesConverter).
+
+## 8 - Thêm hình ảnh
+
+Thư mục con ngôn ngữ trong thư mục `/assets` (trong ví dụ của tôi: `/assets/en`) được sử dụng để lưu trữ sơ đồ và hình ảnh sẽ đi kèm với hướng dẫn của bạn. Tránh đưa văn bản vào hình ảnh của bạn càng nhiều càng tốt để nội dung của bạn dễ tiếp cận với đối tượng quốc tế. Tất nhiên, phần mềm được trình bày sẽ chứa văn bản, nhưng nếu bạn thêm sơ đồ hoặc chỉ dẫn bổ sung vào ảnh chụp màn hình phần mềm, hãy làm như vậy mà không có văn bản hoặc, nếu cần thiết, hãy sử dụng tiếng Anh.
+
+Để đặt tên cho hình ảnh của bạn, chỉ cần sử dụng các số tương ứng với thứ tự xuất hiện của chúng trong hướng dẫn, được định dạng thành hai chữ số (hoặc ba chữ số nếu hướng dẫn của bạn chứa hơn 99 hình ảnh). Ví dụ, đặt tên cho hình ảnh đầu tiên của bạn là `01.webp`, hình ảnh thứ hai là `02.webp`, v.v.
+
+Hình ảnh của bạn chỉ được phép ở định dạng `.webp`. Nếu cần, bạn có thể sử dụng [phần mềm chuyển đổi hình ảnh của tôi](https://github.com/LoicPandul/ImagesConverter).
+
 ![GITHUB](assets/fr/32.webp)
-Maintenant que vous avez ajouté vos images dans le sous-dossier, vous pouvez supprimer le fichier factice `.gitkeep`. Ouvrez ce fichier, cliquez sur les trois petits points en haut à droite, puis sur "*Delete file*".
+
+Bây giờ bạn đã thêm hình ảnh vào thư mục con, bạn có thể xóa tệp giả `.gitkeep`. Mở tệp này, nhấp vào ba dấu chấm nhỏ ở góc trên bên phải, sau đó nhấp vào "*Xóa tệp*".
+
 ![GITHUB](assets/fr/33.webp)
-Enregistrez vos modifications en cliquant sur "*Commit changes...*".
+
+Lưu thay đổi của bạn bằng cách nhấp vào "*Xác nhận thay đổi...*".
+
 ![GITHUB](assets/fr/34.webp)
-Pour insérer un schéma présent dans votre sous-dossier dans votre document de rédaction, utilisez la commande Markdown suivante, en prenant soin de spécifier le texte alternatif approprié ainsi que le chemin correct de l'image en fonction de votre langue :
-```
 
+Để chèn sơ đồ từ thư mục con vào tài liệu biên tập, hãy sử dụng lệnh Markdown sau, chú ý chỉ định văn bản thay thế phù hợp và đường dẫn hình ảnh chính xác cho ngôn ngữ của bạn:
+
+```
 ![green](assets/fr/01.webp)
-
 ```
+
+Dấu chấm than ở đầu chỉ ra một hình ảnh. Văn bản thay thế, giúp truy cập và tham chiếu, được đặt giữa các dấu ngoặc vuông. Cuối cùng, đường dẫn đến hình ảnh được chỉ ra giữa các dấu ngoặc vuông.
+
+![GITHUB](assets/fr/35.webp)
+
+Nếu bạn muốn tạo sơ đồ của riêng mình, hãy đảm bảo tuân theo hướng dẫn đồ họa của Plan ₿ Network để đảm bảo tính nhất quán về mặt hình ảnh:
+
+
+- Phông chữ**: Sử dụng [Rubik](https://fonts.google.com/specimen/Rubik);
+- Màu sắc** :
+ - Màu cam: #FF5C00
+ - Đen: #000000
+ - Trắng: #FFFFFF
+
+**Điều bắt buộc là tất cả hình ảnh tích hợp vào hướng dẫn của bạn phải không có bản quyền hoặc tôn trọng giấy phép tệp nguồn**. Do đó, tất cả các sơ đồ được xuất bản trên Plan ₿ Network đều được cung cấp theo giấy phép CC-BY-SA, giống như văn bản.
+
+**-> Mẹo:** Khi chia sẻ tệp ở nơi công cộng, chẳng hạn như hình ảnh, điều quan trọng là phải xóa siêu dữ liệu không cần thiết. Siêu dữ liệu này có thể chứa thông tin nhạy cảm, chẳng hạn như dữ liệu vị trí, ngày tạo và thông tin chi tiết về tác giả. Để bảo vệ quyền riêng tư của bạn, bạn nên xóa siêu dữ liệu này. Để đơn giản hóa thao tác này, bạn có thể sử dụng các công cụ chuyên dụng như [Exif Cleaner](https://exifcleaner.com/), cho phép bạn dọn dẹp siêu dữ liệu của tài liệu chỉ bằng thao tác kéo và thả đơn giản.
+
+## 9 - Đề xuất hướng dẫn
+
+Sau khi bạn hoàn thành việc viết hướng dẫn bằng ngôn ngữ bạn chọn, bước tiếp theo là gửi **Yêu cầu kéo**. Sau đó, quản trị viên sẽ thêm các bản dịch còn thiếu vào hướng dẫn của bạn bằng phương pháp dịch tự động của chúng tôi với sự hiệu đính của con người.
+
+Để tiếp tục Yêu cầu kéo, sau khi lưu tất cả các thay đổi, hãy nhấp vào nút "*Đóng góp*", sau đó nhấp vào "*Mở yêu cầu kéo*":
+
+![GITHUB](assets/fr/36.webp)
+
+Yêu cầu kéo là yêu cầu được thực hiện để tích hợp các thay đổi từ nhánh của bạn vào nhánh chính của kho lưu trữ Plan ₿ Network, cho phép xem xét và thảo luận về các thay đổi trước khi chúng được hợp nhất.
+
+Trước khi tiếp tục, hãy kiểm tra cẩn thận ở cuối giao diện để đảm bảo những thay đổi này là những gì bạn mong đợi:
+
+![GITHUB](assets/fr/37.webp)
+
+Đảm bảo rằng ở đầu giao diện, nhánh làm việc của bạn đã được hợp nhất vào nhánh `dev` của kho lưu trữ Plan ₿ Network (là nhánh chính).
+
+Nhập tiêu đề tóm tắt ngắn gọn những thay đổi bạn muốn hợp nhất với kho lưu trữ nguồn. Thêm bình luận ngắn gọn mô tả những thay đổi này (nếu bạn có số vấn đề liên quan đến việc tạo hướng dẫn của mình, hãy nhớ ghi chú `Đóng #{số vấn đề}` làm bình luận), sau đó nhấp vào nút "*Tạo yêu cầu kéo*" màu xanh lá cây để xác nhận yêu cầu hợp nhất:
+
+![GITHUB](assets/fr/38.webp)
+
+PR của bạn sau đó sẽ hiển thị trong tab "*Pull Request*" của kho lưu trữ Plan ₿ Network chính. Tất cả những gì bạn phải làm bây giờ là đợi cho đến khi quản trị viên liên hệ với bạn để xác nhận rằng đóng góp của bạn đã được hợp nhất hoặc yêu cầu bất kỳ sửa đổi nào khác.
+
+![GITHUB](assets/fr/39.webp)
+
+Sau khi hợp nhất PR của bạn với nhánh chính, chúng tôi khuyên bạn nên xóa nhánh đang hoạt động của mình (trong ví dụ của tôi: `tuto-green-wallet`) để duy trì lịch sử fork sạch sẽ. GitHub sẽ tự động cung cấp cho bạn tùy chọn này trên trang PR của bạn:
+
+![GITHUB](assets/fr/40.webp)
+
+Nếu bạn muốn thay đổi nội dung đóng góp của mình sau khi đã gửi PR, các bước thực hiện sẽ tùy thuộc vào trạng thái hiện tại của PR của bạn:
+
+
+- Nếu PR của bạn vẫn mở và chưa được hợp nhất, hãy thực hiện các thay đổi trên cùng một nhánh công việc. Các thay đổi cam kết sẽ được thêm vào PR vẫn mở của bạn;
+- Trong trường hợp PR của bạn đã được hợp nhất với nhánh chính, bạn sẽ cần phải thực hiện lại quy trình từ đầu bằng cách tạo nhánh mới, sau đó gửi PR mới. Đảm bảo nhánh của bạn được đồng bộ hóa với kho lưu trữ nguồn Plan ₿ Network trên nhánh `dev` trước khi tiếp tục.
+
+Nếu bạn gặp khó khăn về mặt kỹ thuật khi gửi hướng dẫn, vui lòng đừng ngần ngại yêu cầu trợ giúp trên [nhóm Telegram chuyên dụng của chúng tôi để đóng góp](https://t.me/PlanBNetwork_ContentBuilder). Cảm ơn bạn rất nhiều!

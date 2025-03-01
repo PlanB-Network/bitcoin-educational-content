@@ -91,7 +91,7 @@ Nesta nova subpasta dedicada ao seu tutorial, tem de adicionar vários itens:
 
 Para resumir, eis a hierarquia dos ficheiros (continuaremos a criá-los na próxima secção):
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (à modifier avec la bonne catégorie)
@@ -110,7 +110,7 @@ Vamos começar com o ficheiro YAML. Na caixa para criar um novo ficheiro, introd
 
 Preencha o ficheiro `tutorial.yml` copiando o seguinte modelo:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -130,145 +130,242 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Voici le détail des champs obligatoires :
-- **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
-- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
-- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
-- **level** : Le niveau de difficulté du tutoriel, parmi :
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
-- **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
-- **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
-- **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
-- **last_contribution_date** : Date du jour.
-- **urgency** : Laissez vide.
-- **contributors_id** : Votre ID GitHub.
-- **reward** : Laissez vide.
-Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
+```
+
+Eis os campos obrigatórios:
+
+
+- id**: Um UUID (_Universally Unique Identifier_) para identificar exclusivamente o tutorial. Pode gerá-lo com [uma ferramenta em linha] (https://www.uuidgenerator.net/version4). A única restrição é que este UUID deve ser aleatório, de modo a não entrar em conflito com outro UUID na plataforma;
+- project_id** : O UUID da empresa ou organização por detrás da ferramenta apresentada no tutorial [a partir da lista de projectos] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, se estiver a fazer um tutorial sobre o software Green Wallet, pode encontrar este `project_id` no seguinte ficheiro: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Esta informação é adicionada no arquivo YAML do seu tutorial porque o Plan ₿ Network mantém um banco de dados de todas as empresas e organizações que operam em Bitcoin ou projetos relacionados. Ao adicionar o `project_id` da entidade vinculada ao seu tutorial, você cria um link entre os dois elementos;
+- tags**: 2 ou 3 palavras-chave relevantes relacionadas com o conteúdo do tutorial, escolhidas exclusivamente [da lista de etiquetas do Plano ₿ Rede] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- categoria** : A subcategoria correspondente ao conteúdo do tutorial, de acordo com o Plano ₿ Estrutura da rede (por exemplo, para carteiras: `desktop`, `hardware`, `mobile`, `backup`) ;
+- nível** : Nível de dificuldade do tutorial, de :
+    - principiante`
+    - `intermédio`
+    - `avançado`
+    - "especialista
+- professor**: O seu `contributor_id` (palavras BIP39) tal como aparece no [seu perfil de professor] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- original_language** : A língua original do tutorial (por exemplo, `fr`, `en`, etc.) ;
+- revisão**: Informações sobre o processo de revisão. Preencha a primeira parte, porque a revisão do seu próprio tutorial conta como uma primeira validação:
+    - língua**: Código da língua de revisão (por exemplo, `fr`, `en`, etc.).
+    - last_contribution_date**: A data de hoje.
+    - urgência** : Deixar em branco.
+    - contributors_id** : O seu ID do GitHub.
+    - prémio** : Deixar em branco.
+
+Para mais informações sobre o ID do professor, consulte o tutorial correspondente :
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Voici un exemple de fichier `tutorial.yml` complété pour un tutoriel sur le wallet Blockstream Green :
-```
+Aqui está um exemplo de um arquivo `tutorial.yml` concluído para um tutorial sobre a carteira Blockstream Green:
 
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
 tags:
-
-
-  - carteiras
-  - software
-  - chaves
-
-categoria: telemóvel
-
-nível: principiante
-
-créditos:
-
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
 professor: pretty-private
-
-# Revisão de metadados
-
-língua_original: fr
-
-revisão de provas:
-
-
-  - língua: fr
-
+# Proofreading metadata
+original_language: fr
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-urgência:
-
-contribuintes_id:
-
-
-      - LoicPandul
-
-recompensa:
-
+urgency:
+contributors_id:
+- LoicPandul
+reward:
 ```
-Une fois la modification de votre fichier `tutorial.yml` achevée, enregistrez votre document en cliquant sur le bouton "*Commit changes...*" :
+
+Quando tiver terminado de modificar o seu ficheiro `tutorial.yml`, guarde o seu documento clicando no botão "*Commit changes...*":
+
 ![GITHUB](assets/fr/09.webp)
-Ajoutez un titre et une description, et assurez-vous que le commit soit réalisé sur la branche de travail que vous avez créée au début de ce tutoriel. Puis confirmez en cliquant sur "*Commit changes*".
+
+Adicione um título e uma descrição e certifique-se de que o commit é feito no ramo que criou no início deste tutorial. Em seguida, confirme clicando em "*Commit changes*".
+
 ![GITHUB](assets/fr/10.webp)
-## 4 - Créer les sous-dossiers pour les images
-Cliquez de nouveau sur "*Add File*" puis sur "*Create new file*" :
+
+## 4 - Criar subpastas para imagens
+
+Clique novamente em "*Adicionar ficheiro*" e depois em "*Criar novo ficheiro*" :
+
 ![GITHUB](assets/fr/11.webp)
-Entrez `assets` suivi d'un slash `/` pour créer le dossier :
+
+Introduza `assets` seguido de uma barra `/` para criar a pasta:
+
 ![GITHUB](assets/fr/12.webp)
-Répétez cette étape dans le dossier `/assets` pour créer le sous-dossier de langue, par exemple `fr` si votre tutoriel est en français :
+
+Repita este passo na pasta `/assets` para criar a subpasta de idioma, por exemplo `fr` se o seu tutorial estiver em francês:
+
 ![GITHUB](assets/fr/13.webp)
-Dans ce dossier, créez un fichier factice pour obliger GitHub à conserver votre dossier (qui sinon serait vide). Nommez ce fichier `.gitkeep`. Ensuite, cliquez sur "*Commit changes...*".
+
+Nesta pasta, crie um ficheiro fictício para forçar o GitHub a manter a sua pasta (que de outra forma estaria vazia). Dê a este ficheiro o nome `.gitkeep`. Em seguida, clique em "*Commit changes...*".
+
 ![GITHUB](assets/fr/14.webp)
-Assurez-vous à nouveau que vous êtes sur la branche de travail correcte, puis cliquez sur "*Commit changes*".
+
+Verifique novamente se está no ramo correto e, em seguida, clique em "*Commit changes*".
+
 ![GITHUB](assets/fr/15.webp)
-## 5 - Créer le fichier Markdown
-Maintenant, nous allons créer le fichier qui accueillera votre tutoriel, nommé selon le code de votre langue, comme par exemple `fr.md` si l'on rédige en français. Accédez au dossier de votre tutoriel :
+
+## 5 - Criar o ficheiro Markdown
+
+Agora vamos criar o ficheiro que irá alojar o seu tutorial, nomeado de acordo com o código da sua língua, por exemplo `fr.md` se estivermos a escrever em francês. Vá para a pasta do seu tutorial :
+
 ![GITHUB](assets/fr/16.webp)
-Cliquez sur "*Add file*", puis sur "*Create new file*".
+
+Clique em "Adicionar ficheiro*" e depois em "Criar novo ficheiro*".
+
 ![GITHUB](assets/fr/17.webp)
-Nommez le fichier en utilisant le code de votre langue. Dans mon cas, le tutoriel étant rédigé en français, je nomme mon fichier `fr.md`. L'extension `.md` indique que le fichier est au format Markdown.
+
+Dê um nome ao ficheiro utilizando o código da sua língua. No meu caso, como o tutorial está escrito em francês, nomeio o meu ficheiro `fr.md`. A extensão `.md` indica que o ficheiro está no formato Markdown.
+
 ![GITHUB](assets/fr/18.webp)
-Nous commençons par remplir la section `Properties` en haut du document. Ajoutez manuellement et remplissez le bloc de code suivant (les clés `name:` et `description:` doivent être conservées en anglais, mais leur valeur doit être rédigée dans la langue utilisée pour votre tutoriel) :
+
+Começamos por preencher a secção `Properties` no topo do documento. Adicione e preencha manualmente o seguinte bloco de código (as chaves `name:` e `description:` devem ser mantidas em inglês, mas seus valores devem ser escritos no idioma usado para o seu tutorial):
+
+```
+---
+name: [Titre]
+description: [Description]
+---
 ```
 
----
-name: [Título]
-description: [Descrição]
----
-```
 ![GITHUB](assets/fr/19.webp)
-Remplissez le nom de votre tutoriel ainsi qu'une courte description de celui-ci :
+
+Preencha o nome do seu tutorial e uma breve descrição:
+
 ![GITHUB](assets/fr/20.webp)
-Ajoutez ensuite le chemin de l'image de couverture au début de votre tutoriel. Pour ce faire, notez :
-```
 
+Em seguida, adicione o caminho para a imagem de capa no início do seu tutorial. Para fazer isso, observe :
+
+```
 ![cover-green](assets/cover.webp)
-
 ```
-Cette syntaxe vous sera utile chaque fois que l'ajout d'une image dans votre tutoriel sera nécessaire. Le point d'exclamation signale qu'il s'agit d'une image, dont le texte alternatif (alt) est spécifié entre les crochets. Le chemin d'accès à l'image est indiqué entre les parenthèses :
+
+Esta sintaxe será útil sempre que precisar de adicionar uma imagem ao seu tutorial. O ponto de exclamação indica uma imagem, cujo texto alternativo (alt) é especificado entre os parêntesis rectos. O caminho para a imagem é indicado entre os parêntesis:
+
 ![GITHUB](assets/fr/21.webp)
-Cliquez sur le bouton "*Commit changes...*" pour enregistrer ce fichier.
+
+Clique no botão "*Commit changes...*" para guardar este ficheiro.
+
 ![GITHUB](assets/fr/22.webp)
-Vérifiez que vous êtes sur la bonne branche, puis confirmez le commit.
+
+Verifique se está no ramo correto e, em seguida, confirme a confirmação.
+
 ![GITHUB](assets/fr/23.webp)
-Votre dossier de tutoriel devrait maintenant se présenter de cette manière, selon le code de votre langue :
+
+A sua pasta de tutoriais deve agora ter o seguinte aspeto, de acordo com o seu código de idioma:
+
 ![GITHUB](assets/fr/24.webp)
-## 6 - Ajouter le logo et la couverture
-Au sein du dossier `assets`, vous devez ajouter un fichier nommé `logo.webp`, qui servira de vignette pour votre article. Cette image doit obligatoirement être au format `.webp` et doit respecter une dimension carrée afin de s'harmoniser avec l'interface utilisateur.
-Vous avez la liberté de choisir le logo du logiciel traité dans le tutoriel ou toute autre image pertinente, à condition que celle-ci soit libre de droits. En complément, ajoutez également au même endroit une image intitulée `cover.webp`. Celle-ci sera affichée en haut de votre tutoriel. Veillez à ce que cette image, tout comme le logo, respecte les droits d'utilisation et soit adaptée au contexte de votre tutoriel.
-Pour ajouter des images dans le dossier `/assets`, vous pouvez les glisser-déposer depuis vos fichiers locaux. Assurez-vous que vous êtes bien dans le dossier `/assets` et sur la bonne branche de travail, puis cliquez sur "*Commit changes*".
+
+## 6 - Adicionar logótipo e capa
+
+Dentro da pasta `assets`, é necessário adicionar um ficheiro chamado `logo.webp`, que servirá como miniatura para o seu artigo. Esta imagem deve estar no formato `.webp` e deve ter um tamanho quadrado para corresponder à interface do utilizador.
+
+É livre de escolher o logótipo do software utilizado no tutorial, ou qualquer outra imagem relevante, desde que seja isenta de direitos de autor. Para além disso, adicione uma imagem intitulada `cover.webp` no mesmo local. Esta será exibida no topo do seu tutorial. Certifique-se de que esta imagem, tal como o logótipo, respeita os direitos de utilização e é adequada ao contexto do seu tutorial.
+
+Para adicionar imagens à pasta `/assets`, pode arrastá-las e largá-las a partir dos seus ficheiros locais. Certifique-se de que está na pasta `/assets` e no ramo correto e, em seguida, clique em "*Commit changes*".
+
 ![GITHUB](assets/fr/26.webp)
-Vous devriez maintenant voir les images apparaître dans le dossier.
+
+As imagens devem agora aparecer na pasta.
+
 ![GITHUB](assets/fr/27.webp)
-## 7 - Rédiger le tutoriel
-Poursuivez la rédaction de votre tutoriel en notant votre contenu dans le fichier Markdown avec le code de langue (dans mon exemple, en français, c'est le fichier `fr.md`). Accédez au fichier et cliquez sur l'icône du crayon :
+
+## 7 - Escrever o tutorial
+
+Continue a escrever o seu tutorial, anotando o seu conteúdo no ficheiro Markdown com o código da língua (no meu exemplo, em francês, é o ficheiro `fr.md`). Vá para o ficheiro e clique no ícone do lápis :
+
 ![GITHUB](assets/fr/28.webp)
-Commencez la rédaction de votre tutoriel. Lorsque vous ajoutez un sous-titre, utilisez le formatage Markdown approprié en préfixant le texte avec `##` :
+
+Comece a escrever o seu tutorial. Ao adicionar um subtítulo, use a formatação Markdown apropriada, prefixando o texto com `##` :
+
 ![GITHUB](assets/fr/29.webp)
-Alternez entre la vue "*Edit*" et la vue "*Preview*" pour mieux visualiser le rendu.
+
+Alternar entre as vistas "*Editar*" e "*Visualizar*" para melhor visualizar o processamento.
+
 ![GITHUB](assets/fr/30.webp)
-Pour enregistrer votre travail, cliquez sur "*Commit Changes...*", assurez-vous d'être sur la bonne branche de travail, puis confirmez en cliquant de nouveau sur "*Commit Changes*".
+
+Para guardar o seu trabalho, clique em "*Commit Changes...*", certifique-se de que está no ramo correto e, em seguida, confirme clicando novamente em "*Commit Changes*".
+
 ![GITHUB](assets/fr/31.webp)
-## 8 - Ajouter des visuels
-Le sous-dossier de langues dans le dossier `/assets` (dans mon exemple : `/assets/fr`) permet de stocker les schémas et les visuels qui accompagneront votre tutoriel. Autant que possible, évitez d'inclure du texte dans vos images pour rendre votre contenu accessible à un public international. Bien sûr, le logiciel présenté contiendra du texte, mais si vous ajoutez des schémas ou des indications supplémentaires sur les captures d'écran du logiciel, faites-le sans texte ou, si cela s'avère indispensable, utilisez l'anglais.
-Pour nommer vos images, utilisez simplement des numéros correspondant à leur ordre d'apparition dans le tutoriel, formatés sur deux chiffres (ou trois chiffres si votre tutoriel contient plus de 99 images). Par exemple, nommez votre première image `01.webp`, votre deuxième `02.webp`, et ainsi de suite.
-Le format de vos images doit être en `.webp` exclusivement. Si besoin, vous pouvez utiliser [mon logiciel de conversion d'images](https://github.com/LoicPandul/ImagesConverter).
+
+## 8 - Adicionar elementos visuais
+
+A subpasta de idioma na pasta `/assets` (no meu exemplo: `/assets/en`) é utilizada para armazenar os diagramas e imagens que acompanharão o seu tutorial. Na medida do possível, evite incluir texto nas suas imagens para tornar o seu conteúdo acessível a um público internacional. É claro que o software apresentado conterá texto, mas se acrescentar esquemas ou indicações adicionais nas imagens de ecrã do software, faça-o sem texto ou, se for essencial, utilize o inglês.
+
+Para nomear suas imagens, basta usar números correspondentes à ordem de aparecimento no tutorial, formatados com dois dígitos (ou três dígitos se o tutorial contiver mais de 99 imagens). Por exemplo, nomeie a primeira imagem como `01.webp`, a segunda como `02.webp`, e assim por diante.
+
+As suas imagens devem estar apenas no formato `.webp`. Se necessário, pode utilizar o [meu software de conversão de imagens] (https://github.com/LoicPandul/ImagesConverter).
+
 ![GITHUB](assets/fr/32.webp)
-Maintenant que vous avez ajouté vos images dans le sous-dossier, vous pouvez supprimer le fichier factice `.gitkeep`. Ouvrez ce fichier, cliquez sur les trois petits points en haut à droite, puis sur "*Delete file*".
+
+Agora que já adicionou as suas imagens à subpasta, pode apagar o ficheiro fictício `.gitkeep`. Abra este ficheiro, clique nos três pequenos pontos no canto superior direito e depois em "*Delete file*".
+
 ![GITHUB](assets/fr/33.webp)
-Enregistrez vos modifications en cliquant sur "*Commit changes...*".
+
+Guarde as suas alterações clicando em "*Commit changes...*".
+
 ![GITHUB](assets/fr/34.webp)
-Pour insérer un schéma présent dans votre sous-dossier dans votre document de rédaction, utilisez la commande Markdown suivante, en prenant soin de spécifier le texte alternatif approprié ainsi que le chemin correct de l'image en fonction de votre langue :
-```
 
+Para inserir um diagrama da sua subpasta no seu documento editorial, utilize o seguinte comando Markdown, tendo o cuidado de especificar o texto alternativo apropriado e o caminho de imagem correto para a sua língua:
+
+```
 ![green](assets/fr/01.webp)
-
 ```
+
+O ponto de exclamação no início indica uma imagem. O texto alternativo, que ajuda na acessibilidade e na referenciação, é colocado entre parêntesis rectos. Finalmente, o caminho para a imagem é indicado entre parêntesis.
+
+![GITHUB](assets/fr/35.webp)
+
+Se pretender criar os seus próprios esquemas, certifique-se de que segue as diretrizes gráficas do Plano ₿ Rede para garantir a consistência visual:
+
+
+- Tipo de letra**: Utilizar [Rubik](https://fonts.google.com/specimen/Rubik);
+- Cores** :
+ - Laranja: #FF5C00
+ - Preto : #000000
+ - Branco: #FFFFFF
+
+**É imperativo que todos os elementos visuais integrados nos seus tutoriais estejam isentos de direitos de autor ou respeitem a licença do ficheiro fonte**. Por conseguinte, todos os diagramas publicados na Plan ₿ Network são disponibilizados ao abrigo de uma licença CC-BY-SA, da mesma forma que o texto.
+
+**-> Dica:** Ao partilhar ficheiros em público, como imagens, é importante remover metadados supérfluos. Estes podem conter informações sensíveis, tais como dados de localização, datas de criação e detalhes do autor. Para proteger a sua privacidade, é uma boa ideia remover estes metadados. Para simplificar esta operação, pode utilizar ferramentas especializadas, como o [Exif Cleaner] (https://exifcleaner.com/), que lhe permite limpar os metadados de um documento com um simples arrastar e largar.
+
+## 9 - Propor o tutorial
+
+Quando tiver terminado de escrever o seu tutorial na língua da sua escolha, o próximo passo é submeter um **Pull Request**. O administrador irá então adicionar as traduções em falta ao seu tutorial, utilizando o nosso método de tradução automática com revisão humana.
+
+Para prosseguir com o Pull Request, depois de guardar todas as alterações, clique no botão "*Contribute*" e depois em "*Open pull request*" :
+
+![GITHUB](assets/fr/36.webp)
+
+Um Pull Request é um pedido feito para integrar as alterações do seu ramo no ramo principal do repositório Plan ₿ Network, o que permite a revisão e discussão das alterações antes de serem fundidas.
+
+Antes de continuar, verifique cuidadosamente na parte inferior da interface se estas alterações são as esperadas:
+
+![GITHUB](assets/fr/37.webp)
+
+Certifique-se, no topo da interface, que o seu ramo de trabalho está fundido com o ramo `dev` do repositório Plan ₿ Network (que é o ramo principal).
+
+Insira um título que resuma brevemente as alterações que você deseja mesclar com o repositório de origem. Adicione um breve comentário descrevendo essas alterações (se você tiver um número de problema associado à criação do seu tutorial, lembre-se de anotar `Fecha #{número de problema}` como um comentário) e, em seguida, clique no botão verde "*Criar pull request*" para confirmar a solicitação de merge:
+
+![GITHUB](assets/fr/38.webp)
+
+O seu PR ficará então visível no separador "*Pull Request*" do repositório principal do Plan ₿ Network. Tudo o que tem de fazer agora é esperar que um administrador o contacte para confirmar que a sua contribuição foi incorporada ou para solicitar quaisquer outras modificações.
+
+![GITHUB](assets/fr/39.webp)
+
+Depois de mesclar seu PR com o ramo principal, recomendamos excluir seu ramo de trabalho (no meu exemplo: `tuto-green-wallet`) para manter um histórico limpo de sua bifurcação. O GitHub oferecerá automaticamente essa opção na sua página de PR:
+
+![GITHUB](assets/fr/40.webp)
+
+Se pretender alterar a sua contribuição depois de já ter apresentado o seu RP, os passos a seguir dependem do estado atual do seu RP:
+
+
+- Se o seu PR ainda estiver aberto e ainda não tiver sido fundido, faça as alterações no mesmo ramo de trabalho. As alterações do commit serão adicionadas ao seu PR ainda aberto;
+- No caso de o seu PR já ter sido fundido com o ramo principal, terá de refazer o processo desde o início, criando um novo ramo e, em seguida, submetendo um novo PR. Certifique-se de que a sua bifurcação está sincronizada com o repositório de fontes da Plan ₿ Network no ramo `dev` antes de prosseguir.
+
+Se tiveres dificuldades técnicas para enviar o teu tutorial, não hesites em pedir ajuda no [nosso grupo de Telegrama dedicado às contribuições] (https://t.me/PlanBNetwork_ContentBuilder). Muito obrigado!

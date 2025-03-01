@@ -91,7 +91,7 @@ I denne nye undermappen som er dedikert til opplæringen din, må du legge til f
 
 For å oppsummere, her er filhierarkiet (vi fortsetter å opprette dem i neste avsnitt):
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (à modifier avec la bonne catégorie)
@@ -110,7 +110,7 @@ La oss begynne med YAML-filen. I boksen for å opprette en ny fil skriver du inn
 
 Fyll ut filen `tutorial.yml` ved å kopiere følgende mal:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -130,145 +130,242 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Voici le détail des champs obligatoires :
-- **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
-- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
-- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
-- **level** : Le niveau de difficulté du tutoriel, parmi :
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
-- **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
-- **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
-- **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
-- **last_contribution_date** : Date du jour.
-- **urgency** : Laissez vide.
-- **contributors_id** : Votre ID GitHub.
-- **reward** : Laissez vide.
-Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
+```
+
+Her er de obligatoriske feltene:
+
+
+- id**: En UUID (_Universally Unique Identifier_) for å identifisere opplæringen på en unik måte. Du kan generere den med [et nettbasert verktøy] (https://www.uuidgenerator.net/version4). Den eneste begrensningen er at denne UUID-en må være tilfeldig, slik at den ikke kommer i konflikt med en annen UUID på plattformen;
+- project_id** : UUID-en til selskapet eller organisasjonen som står bak verktøyet som presenteres i opplæringen [fra listen over prosjekter] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Hvis du for eksempel lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen er lagt til i YAML-filen i opplæringen din fordi Plan ₿ Network vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` for den koblede enheten i opplæringen din, oppretter du en kobling mellom de to elementene;
+- tagger**: 2 eller 3 relevante nøkkelord relatert til opplæringsinnholdet, valgt utelukkende [fra Plan ₿ Network-tagglisten] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- kategori** : Underkategorien som tilsvarer innholdet i opplæringen, i henhold til Plan ₿ Nettverksstruktur (f.eks. for lommebøker: `desktop`, `hardware`, `mobile`, `backup`) ;
+- nivå** : Opplæringens vanskelighetsgrad, fra :
+    - nybegynner``
+    - "mellomliggende
+    - `avansert`
+    - `ekspert`
+- professor**: Ditt `contributor_id` (BIP39-ord) slik det vises på [lærerprofilen din] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- original_language** : Originalspråket for opplæringen (f.eks. `fr`, `en`, osv.) ;
+- korrekturlesing**: Informasjon om korrekturlesingsprosessen. Fyll ut den første delen, fordi korrekturlesing av din egen veiledning teller som en første validering:
+    - språk**: Korrekturlesing av språkkode (f.eks. `fr`, `en` osv.).
+    - siste_bidrag_dato**: Dagens dato.
+    - haster** : La stå tomt.
+    - contributors_id** : Din GitHub-ID.
+    - belønning** : La stå tomt.
+
+For mer informasjon om lærer-ID-en din, se den tilhørende veiledningen :
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Voici un exemple de fichier `tutorial.yml` complété pour un tutoriel sur le wallet Blockstream Green :
-```
+Her er et eksempel på en `tutorial.yml`-fil som er fylt ut for en opplæring om Blockstream Green-lommeboken:
 
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
-prosjekt_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
 tags:
-
-
-  - lommebøker
-  - programvare
-  - nøkler
-
-kategori: mobil
-
-nivå: nybegynner
-
-kreditter:
-
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
 professor: pretty-private
-
-# Korrekturlesing av metadata
-
+# Proofreading metadata
 original_language: fr
-
-korrekturlesing:
-
-
-  - språk: fr
-
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-det haster:
-
-bidragsytere_id:
-
-
-      - LoicPandul
-
-belønning:
-
+urgency:
+contributors_id:
+- LoicPandul
+reward:
 ```
-Une fois la modification de votre fichier `tutorial.yml` achevée, enregistrez votre document en cliquant sur le bouton "*Commit changes...*" :
+
+Når du er ferdig med å endre filen `tutorial.yml`, lagrer du dokumentet ved å klikke på knappen "*Commit changes...*":
+
 ![GITHUB](assets/fr/09.webp)
-Ajoutez un titre et une description, et assurez-vous que le commit soit réalisé sur la branche de travail que vous avez créée au début de ce tutoriel. Puis confirmez en cliquant sur "*Commit changes*".
+
+Legg til en tittel og en beskrivelse, og sørg for at overføringen gjøres til grenen du opprettet i starten av denne veiledningen. Bekreft deretter ved å klikke på "*Commit changes*".
+
 ![GITHUB](assets/fr/10.webp)
-## 4 - Créer les sous-dossiers pour les images
-Cliquez de nouveau sur "*Add File*" puis sur "*Create new file*" :
+
+## 4 - Opprette undermapper for bilder
+
+Klikk på "*Legg til fil*" igjen og deretter på "*Opprett ny fil*":
+
 ![GITHUB](assets/fr/11.webp)
-Entrez `assets` suivi d'un slash `/` pour créer le dossier :
+
+Skriv inn `assets` etterfulgt av en skråstrek `/` for å opprette mappen:
+
 ![GITHUB](assets/fr/12.webp)
-Répétez cette étape dans le dossier `/assets` pour créer le sous-dossier de langue, par exemple `fr` si votre tutoriel est en français :
+
+Gjenta dette trinnet i mappen `/assets` for å opprette undermappen for språket, for eksempel `fr` hvis opplæringen din er på fransk:
+
 ![GITHUB](assets/fr/13.webp)
-Dans ce dossier, créez un fichier factice pour obliger GitHub à conserver votre dossier (qui sinon serait vide). Nommez ce fichier `.gitkeep`. Ensuite, cliquez sur "*Commit changes...*".
+
+I denne mappen oppretter du en dummy-fil for å tvinge GitHub til å beholde mappen din (som ellers ville vært tom). Gi denne filen navnet `.gitkeep`. Klikk deretter på "*Commit changes...*".
+
 ![GITHUB](assets/fr/14.webp)
-Assurez-vous à nouveau que vous êtes sur la branche de travail correcte, puis cliquez sur "*Commit changes*".
+
+Sjekk igjen at du er på riktig gren, og klikk deretter på "*Commit changes*".
+
 ![GITHUB](assets/fr/15.webp)
-## 5 - Créer le fichier Markdown
-Maintenant, nous allons créer le fichier qui accueillera votre tutoriel, nommé selon le code de votre langue, comme par exemple `fr.md` si l'on rédige en français. Accédez au dossier de votre tutoriel :
+
+## 5 - Opprettelse av Markdown-filen
+
+Nå skal vi opprette filen som skal være vert for opplæringen din, og navngi den i henhold til språkkoden din, for eksempel `fr.md` hvis vi skriver på fransk. Gå til opplæringsmappen din :
+
 ![GITHUB](assets/fr/16.webp)
-Cliquez sur "*Add file*", puis sur "*Create new file*".
+
+Klikk på "Legg til fil*", og deretter på "Opprett ny fil*".
+
 ![GITHUB](assets/fr/17.webp)
-Nommez le fichier en utilisant le code de votre langue. Dans mon cas, le tutoriel étant rédigé en français, je nomme mon fichier `fr.md`. L'extension `.md` indique que le fichier est au format Markdown.
+
+Navngi filen ved hjelp av språkkoden din. I mitt tilfelle, siden veiledningen er skrevet på fransk, navngir jeg filen `fr.md`. Utvidelsen `.md` indikerer at filen er i Markdown-format.
+
 ![GITHUB](assets/fr/18.webp)
-Nous commençons par remplir la section `Properties` en haut du document. Ajoutez manuellement et remplissez le bloc de code suivant (les clés `name:` et `description:` doivent être conservées en anglais, mais leur valeur doit être rédigée dans la langue utilisée pour votre tutoriel) :
+
+Vi starter med å fylle ut `Properties`-delen øverst i dokumentet. Legg til og fyll ut følgende kodeblokk manuelt (tastene `name:` og `description:` må være på engelsk, men verdiene må være skrevet på det språket som brukes i opplæringen):
+
+```
+---
+name: [Titre]
+description: [Description]
+---
 ```
 
----
-name: [Tittel]
-description: [Beskrivelse]
----
-```
 ![GITHUB](assets/fr/19.webp)
-Remplissez le nom de votre tutoriel ainsi qu'une courte description de celui-ci :
+
+Skriv inn navnet på opplæringen og en kort beskrivelse:
+
 ![GITHUB](assets/fr/20.webp)
-Ajoutez ensuite le chemin de l'image de couverture au début de votre tutoriel. Pour ce faire, notez :
-```
 
+Legg deretter til banen til forsidebildet i begynnelsen av opplæringen. Dette gjør du ved å notere :
+
+```
 ![cover-green](assets/cover.webp)
-
 ```
-Cette syntaxe vous sera utile chaque fois que l'ajout d'une image dans votre tutoriel sera nécessaire. Le point d'exclamation signale qu'il s'agit d'une image, dont le texte alternatif (alt) est spécifié entre les crochets. Le chemin d'accès à l'image est indiqué entre les parenthèses :
+
+Denne syntaksen er nyttig når du trenger å legge til et bilde i opplæringen din. Utropstegnet indikerer et bilde, hvis alternative tekst (alt) er spesifisert mellom de firkantede parentesene. Stien til bildet er angitt mellom parentesene:
+
 ![GITHUB](assets/fr/21.webp)
-Cliquez sur le bouton "*Commit changes...*" pour enregistrer ce fichier.
+
+Klikk på knappen "*Commit changes...*" for å lagre denne filen.
+
 ![GITHUB](assets/fr/22.webp)
-Vérifiez que vous êtes sur la bonne branche, puis confirmez le commit.
+
+Sjekk at du er på riktig gren, og bekreft deretter overføringen.
+
 ![GITHUB](assets/fr/23.webp)
-Votre dossier de tutoriel devrait maintenant se présenter de cette manière, selon le code de votre langue :
+
+Opplæringsmappen din skal nå se slik ut, i henhold til språkkoden din:
+
 ![GITHUB](assets/fr/24.webp)
-## 6 - Ajouter le logo et la couverture
-Au sein du dossier `assets`, vous devez ajouter un fichier nommé `logo.webp`, qui servira de vignette pour votre article. Cette image doit obligatoirement être au format `.webp` et doit respecter une dimension carrée afin de s'harmoniser avec l'interface utilisateur.
-Vous avez la liberté de choisir le logo du logiciel traité dans le tutoriel ou toute autre image pertinente, à condition que celle-ci soit libre de droits. En complément, ajoutez également au même endroit une image intitulée `cover.webp`. Celle-ci sera affichée en haut de votre tutoriel. Veillez à ce que cette image, tout comme le logo, respecte les droits d'utilisation et soit adaptée au contexte de votre tutoriel.
-Pour ajouter des images dans le dossier `/assets`, vous pouvez les glisser-déposer depuis vos fichiers locaux. Assurez-vous que vous êtes bien dans le dossier `/assets` et sur la bonne branche de travail, puis cliquez sur "*Commit changes*".
+
+## 6 - Legg til logo og omslag
+
+I mappen `assets` må du legge til en fil med navnet `logo.webp`, som skal fungere som miniatyrbilde for artikkelen din. Dette bildet må være i `.webp`-format, og det må være kvadratisk for å passe til brukergrensesnittet.
+
+Du kan velge programvarelogoen som brukes i opplæringen, eller et hvilket som helst annet relevant bilde, så lenge det er royaltyfritt. I tillegg legger du til et bilde med tittelen `cover.webp` på samme sted. Dette vil vises øverst i opplæringen. Sørg for at dette bildet, i likhet med logoen, respekterer bruksrettighetene og passer inn i konteksten til opplæringen.
+
+For å legge til bilder i `/assets`-mappen kan du dra og slippe dem fra de lokale filene dine. Sørg for at du befinner deg i mappen `/assets` og på riktig gren, og klikk deretter på "*Commit changes*".
+
 ![GITHUB](assets/fr/26.webp)
-Vous devriez maintenant voir les images apparaître dans le dossier.
+
+Du bør nå se at bildene vises i mappen.
+
 ![GITHUB](assets/fr/27.webp)
-## 7 - Rédiger le tutoriel
-Poursuivez la rédaction de votre tutoriel en notant votre contenu dans le fichier Markdown avec le code de langue (dans mon exemple, en français, c'est le fichier `fr.md`). Accédez au fichier et cliquez sur l'icône du crayon :
+
+## 7 - Skrive veiledningen
+
+Fortsett å skrive opplæringen ved å notere innholdet i Markdown-filen med språkkoden (i mitt eksempel, på fransk, er det filen `fr.md`). Gå til filen og klikk på blyantikonet :
+
 ![GITHUB](assets/fr/28.webp)
-Commencez la rédaction de votre tutoriel. Lorsque vous ajoutez un sous-titre, utilisez le formatage Markdown approprié en préfixant le texte avec `##` :
+
+Begynn å skrive veiledningen din. Når du legger til en undertittel, bruker du riktig Markdown-formatering ved å sette `##` foran teksten:
+
 ![GITHUB](assets/fr/29.webp)
-Alternez entre la vue "*Edit*" et la vue "*Preview*" pour mieux visualiser le rendu.
+
+Veksle mellom visningene "*Edit*" og "*Preview*" for å få en bedre visualisering av gjengivelsen.
+
 ![GITHUB](assets/fr/30.webp)
-Pour enregistrer votre travail, cliquez sur "*Commit Changes...*", assurez-vous d'être sur la bonne branche de travail, puis confirmez en cliquant de nouveau sur "*Commit Changes*".
+
+For å lagre arbeidet ditt klikker du på "*Commit Changes...*", forsikrer deg om at du er på riktig gren, og bekrefter deretter ved å klikke på "*Commit Changes*" igjen.
+
 ![GITHUB](assets/fr/31.webp)
-## 8 - Ajouter des visuels
-Le sous-dossier de langues dans le dossier `/assets` (dans mon exemple : `/assets/fr`) permet de stocker les schémas et les visuels qui accompagneront votre tutoriel. Autant que possible, évitez d'inclure du texte dans vos images pour rendre votre contenu accessible à un public international. Bien sûr, le logiciel présenté contiendra du texte, mais si vous ajoutez des schémas ou des indications supplémentaires sur les captures d'écran du logiciel, faites-le sans texte ou, si cela s'avère indispensable, utilisez l'anglais.
-Pour nommer vos images, utilisez simplement des numéros correspondant à leur ordre d'apparition dans le tutoriel, formatés sur deux chiffres (ou trois chiffres si votre tutoriel contient plus de 99 images). Par exemple, nommez votre première image `01.webp`, votre deuxième `02.webp`, et ainsi de suite.
-Le format de vos images doit être en `.webp` exclusivement. Si besoin, vous pouvez utiliser [mon logiciel de conversion d'images](https://github.com/LoicPandul/ImagesConverter).
+
+## 8 - Legg til visuelt materiale
+
+Språkundermappen i mappen `/assets` (i mitt eksempel: `/assets/en`) brukes til å lagre diagrammer og bilder som skal følge med opplæringen. Unngå så langt det er mulig å inkludere tekst i bildene for å gjøre innholdet tilgjengelig for et internasjonalt publikum. Programvaren som presenteres, vil selvfølgelig inneholde tekst, men hvis du legger til skjemaer eller ytterligere indikasjoner på skjermbildene av programvaren, bør du gjøre det uten tekst eller, hvis det er viktig, bruke engelsk.
+
+Når du skal navngi bildene dine, bruker du ganske enkelt numre som tilsvarer rekkefølgen de vises i i opplæringen, formatert som to sifre (eller tre sifre hvis opplæringen inneholder mer enn 99 bilder). Gi for eksempel det første bildet navnet `01.webp`, det andre `02.webp`, og så videre.
+
+Bildene dine må kun være i `.webp`-format. Om nødvendig kan du bruke [my image conversion software] (https://github.com/LoicPandul/ImagesConverter).
+
 ![GITHUB](assets/fr/32.webp)
-Maintenant que vous avez ajouté vos images dans le sous-dossier, vous pouvez supprimer le fichier factice `.gitkeep`. Ouvrez ce fichier, cliquez sur les trois petits points en haut à droite, puis sur "*Delete file*".
+
+Nå som du har lagt til bildene dine i undermappen, kan du slette dummyfilen `.gitkeep`. Åpne denne filen, klikk på de tre små prikkene øverst i høyre hjørne, og deretter på "*Delete file*".
+
 ![GITHUB](assets/fr/33.webp)
-Enregistrez vos modifications en cliquant sur "*Commit changes...*".
+
+Lagre endringene ved å klikke på "*Commit changes...*".
+
 ![GITHUB](assets/fr/34.webp)
-Pour insérer un schéma présent dans votre sous-dossier dans votre document de rédaction, utilisez la commande Markdown suivante, en prenant soin de spécifier le texte alternatif approprié ainsi que le chemin correct de l'image en fonction de votre langue :
-```
 
+Hvis du vil sette inn et diagram fra undermappen i det redaksjonelle dokumentet, bruker du følgende Markdown-kommando og sørger for å angi riktig alternativ tekst og riktig bildebane for språket ditt:
+
+```
 ![green](assets/fr/01.webp)
-
 ```
+
+Utropstegnet i begynnelsen indikerer et bilde. Den alternative teksten, som bidrar til tilgjengelighet og referanser, er plassert mellom hakeparentesene. Til slutt er stien til bildet angitt mellom parentesene.
+
+![GITHUB](assets/fr/35.webp)
+
+Hvis du ønsker å lage dine egne skjemaer, må du følge Plan ₿ Network grafiske retningslinjer for å sikre visuell konsistens:
+
+
+- Skrifttype**: Bruk [Rubik] (https://fonts.google.com/specimen/Rubik);
+- Farger** :
+ - Oransje: #FF5C00
+ - Svart : #000000
+ - Hvit: #FFFFFFFF
+
+**Det er viktig at alle bilder som integreres i opplæringsvideoene dine er fri for opphavsrett eller respekterer kildefilens lisens**. Derfor er alle diagrammer som publiseres på Plan ₿ Network gjort tilgjengelig under en CC-BY-SA-lisens, på samme måte som teksten.
+
+**-> Tips:** Når du deler filer offentlig, for eksempel bilder, er det viktig å fjerne overflødige metadata. Disse kan inneholde sensitiv informasjon, for eksempel stedsdata, dato for opprettelse og forfatterdetaljer. For å beskytte personvernet ditt er det lurt å fjerne disse metadataene. For å forenkle denne operasjonen kan du bruke spesialiserte verktøy som [Exif Cleaner] (https://exifcleaner.com/), som gjør det mulig å rydde opp i et dokuments metadata ved hjelp av enkel dra-og-slipp-funksjon.
+
+## 9 - Foreslå veiledningen
+
+Når du er ferdig med å skrive opplæringen på det språket du ønsker, er neste trinn å sende inn en **Pull Request**. Administratoren vil deretter legge til de manglende oversettelsene i opplæringen din, ved hjelp av vår automatiserte oversettelsesmetode med menneskelig korrekturlesing.
+
+For å gå videre med pull-forespørselen, etter at du har lagret alle endringene dine, klikker du på "*Bidra*"-knappen og deretter på "*Åpne pull-forespørsel*" :
+
+![GITHUB](assets/fr/36.webp)
+
+En Pull Request er en forespørsel om å integrere endringer fra din gren i hovedgrenen i Plan ₿ Network-arkivet, noe som gjør det mulig å gjennomgå og diskutere endringer før de slås sammen.
+
+Før du fortsetter, bør du sjekke nøye nederst i grensesnittet at endringene er som forventet:
+
+![GITHUB](assets/fr/37.webp)
+
+Sørg for at arbeidsgrenen din øverst i grensesnittet er slått sammen med `dev`-grenen i Plan ₿ Network repository (som er hovedgrenen).
+
+Skriv inn en tittel som kort oppsummerer endringene du ønsker å slå sammen med kildelageret. Legg til en kort kommentar som beskriver endringene (hvis du har et problemnummer knyttet til opprettelsen av opplæringen, må du huske å skrive `Lukker #{problemnummer}` som en kommentar), og klikk deretter på den grønne "*Opprett pull-forespørsel*"-knappen for å bekrefte fletteforespørselen:
+
+![GITHUB](assets/fr/38.webp)
+
+PR-en din vil da være synlig i "*Pull Request*"-fanen i Plan ₿ Network-repository. Alt du trenger å gjøre nå, er å vente til en administrator kontakter deg for å bekrefte at bidraget ditt har blitt slått sammen, eller for å be om ytterligere endringer.
+
+![GITHUB](assets/fr/39.webp)
+
+Etter at du har slått sammen PR-en din med hovedgrenen, anbefaler vi at du sletter arbeidsgrenen din (i mitt eksempel: `tuto-green-wallet`) for å opprettholde en ren historikk for gaffelen din. GitHub vil automatisk tilby deg dette alternativet på PR-siden din:
+
+![GITHUB](assets/fr/40.webp)
+
+Hvis du ønsker å gjøre endringer i bidraget ditt etter at du allerede har sendt inn PR-en din, avhenger stegene du må følge av PR-ens nåværende status:
+
+
+- Hvis PR-en din fortsatt er åpen og ennå ikke har blitt slått sammen, kan du gjøre endringene på samme arbeidsgren. Endringene vil bli lagt til i den fortsatt åpne PR-en din;
+- Hvis PR-en din allerede har blitt slått sammen med hovedgrenen, må du gjøre prosessen på nytt fra begynnelsen ved å opprette en ny gren og deretter sende inn en ny PR. Sørg for at gaffelen din er synkronisert med Plan ₿ Network-kilderegisteret på `dev`-grenen før du fortsetter.
+
+Hvis du har tekniske problemer med å sende inn opplæringen din, ikke nøl med å be om hjelp på [vår dedikerte Telegram-gruppe for bidrag] (https://t.me/PlanBNetwork_ContentBuilder). Tusen takk skal du ha!

@@ -1,4 +1,3 @@
-import os
 import customtkinter as ctk
 from tkinter import messagebox
 from utils.constants import SECTIONS, LEVELS
@@ -12,13 +11,13 @@ class TutorialPage(ctk.CTkFrame):
         self.settings = settings
         self.base_path = self.settings.get("base_path", "")
         
-        # Enregistrer cette page comme page active
+        # Set this page as the active page
         self.master.active_page = self
 
-        # Récupérer les données sauvegardées, s'il y en a
+        # Retrieve saved tutorial data if available
         tutorial_data = self.settings.get("tutorial_data", {})
 
-        # Créer des StringVar avec une valeur initiale si disponible
+        # Initialize variables with saved values if present
         self.section_var = ctk.StringVar(value=tutorial_data.get("section", ""))
         self.category_var = ctk.StringVar(value=tutorial_data.get("subcategory", ""))
         self.level_var = ctk.StringVar(value=tutorial_data.get("difficulty", ""))
@@ -29,7 +28,7 @@ class TutorialPage(ctk.CTkFrame):
         self.tag2_var = ctk.StringVar(value=tutorial_data.get("tag2", ""))
         self.tag3_var = ctk.StringVar(value=tutorial_data.get("tag3", ""))
         
-        # Configuration de la grille
+        # Set up grid layout
         total_rows = 12
         for i in range(total_rows):
             self.grid_rowconfigure(i, weight=1)
@@ -40,10 +39,15 @@ class TutorialPage(ctk.CTkFrame):
         ctk.CTkLabel(self, text=f"Base path: {self.base_path}").grid(row=row, column=0, columnspan=3, padx=10, pady=5, sticky="w")
         row += 1
         
-        # Category & Subcategory
+        # Category and subcategory selection
         ctk.CTkLabel(self, text="Category:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
-        # Utilisez self.section_var au lieu de créer une nouvelle StringVar
-        self.section_menu = ctk.CTkOptionMenu(self, values=list(SECTIONS.keys()), variable=self.section_var, command=self.update_categories, width=300)
+        self.section_menu = ctk.CTkOptionMenu(
+            self,
+            values=list(SECTIONS.keys()),
+            variable=self.section_var,
+            command=self.update_categories,
+            width=300
+        )
         self.section_menu.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         row += 1
         
@@ -52,37 +56,47 @@ class TutorialPage(ctk.CTkFrame):
         self.category_menu.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         row += 1
         
-        # Difficulty level
+        # Difficulty level selection
         ctk.CTkLabel(self, text="Difficulty level:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
         self.level_menu = ctk.CTkOptionMenu(self, values=LEVELS, variable=self.level_var, width=300)
         self.level_menu.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         row += 1
         
-        # Folder name for tutorial
+        # Tutorial folder name entry
         ctk.CTkLabel(self, text="Folder name:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
         ctk.CTkEntry(self, textvariable=self.tutorial_name_var, width=300).grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         row += 1
         
-        # Project search
+        # Project search entry
         ctk.CTkLabel(self, text="Project Name:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
-        self.builder_search_entry = ctk.CTkEntry(self, textvariable=self.builder_search_var, width=300, placeholder_text="Find the project ID")
+        self.builder_search_entry = ctk.CTkEntry(
+            self,
+            textvariable=self.builder_search_var,
+            width=300,
+            placeholder_text="Find the project ID"
+        )
         self.builder_search_entry.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         self.builder_search_entry.bind("<KeyRelease>", self.update_builder_suggestions)
         row += 1
         
-        # Project suggestions
+        # Project suggestions dropdown
         ctk.CTkLabel(self, text="Project Suggestions:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
-        self.builder_suggestions_menu = ctk.CTkOptionMenu(self, values=[], command=self.on_builder_selected, width=300)
+        self.builder_suggestions_menu = ctk.CTkOptionMenu(
+            self,
+            values=[],
+            command=self.on_builder_selected,
+            width=300
+        )
         self.builder_suggestions_menu.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         self.update_builder_suggestions()
         row += 1
         
-        # Project ID
+        # Project ID entry
         ctk.CTkLabel(self, text="Project ID:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
         ctk.CTkEntry(self, textvariable=self.project_id_var, width=300).grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         row += 1
         
-        # Tags input and suggestions
+        # Tags entry and suggestions
         ctk.CTkLabel(self, text="Tags (2 or 3):").grid(row=row, column=0, padx=10, pady=5, sticky="w")
         tag_frame = ctk.CTkFrame(self, width=300)
         tag_frame.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
@@ -115,7 +129,7 @@ class TutorialPage(ctk.CTkFrame):
         self.update_tag3_suggestions()
         row += 1
         
-        # Boutons: Create, Clear, Back
+        # Buttons for Create, Clear, and Back actions
         button_frame = ctk.CTkFrame(self, fg_color="transparent")
         button_frame.grid(row=row, column=0, columnspan=3, pady=20, sticky="ew")
         ctk.CTkButton(button_frame, text="Create Tutorial", command=self.create_tutorial).pack(side="left", padx=10, expand=True)
@@ -205,9 +219,7 @@ class TutorialPage(ctk.CTkFrame):
             messagebox.showerror("Error", "Please enter the project's ID (UUID).")
             return
         
-        # Validate project existence…
-        # (Conserver la logique de validation du projet ici)
-        
+        # Validate tutorial difficulty selection
         if not self.level_menu.get():
             messagebox.showerror("Error", "Please select the tutorial's difficulty level.")
             return
@@ -228,7 +240,7 @@ class TutorialPage(ctk.CTkFrame):
             messagebox.showerror("Error", "Please select the subcategory.")
             return
         
-        # Retrieve global settings for language, contributor and professor IDs
+        # Retrieve global settings
         language = self.settings.get("language", "")
         if not language:
             messagebox.showerror("Error", "Global language setting is missing.")
@@ -275,7 +287,7 @@ class TutorialPage(ctk.CTkFrame):
             self.tag3_var.set("")
     
     def update_local_state(self):
-        """Sauvegarder les valeurs courantes dans settings pour réutilisation."""
+        """Save current tutorial data for later reuse."""
         self.settings["tutorial_data"] = {
             "section": self.section_menu.get(),
             "subcategory": self.category_menu.get(),
@@ -289,7 +301,7 @@ class TutorialPage(ctk.CTkFrame):
         }
     
     def go_back(self):
-        # Avant de quitter, sauvegarder l'état local
+        # Save state before returning to home page
         self.update_local_state()
         from gui.home import HomePage
         self.destroy()

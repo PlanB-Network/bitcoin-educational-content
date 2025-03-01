@@ -152,3 +152,53 @@ def create_language_yaml(language_code, bio, short_bio):
         "short_bio:" + (f" {short_bio}" if short_bio else "")
     ]
     return "\n".join(lines)
+
+def create_project_yaml(project_uuid, project_name, website, twitter, category, tags, language_code, current_date, global_contributor):
+    """
+    Create the content of project.yml.
+    - global_contributor correspond au GitHub Contributor's ID (issu de HOME).
+    """
+    lines = [
+        f"id: {project_uuid}",
+        f"name: {project_name}",
+        "",
+    ]
+    if website or twitter:
+        lines.append("links:")
+        if website:
+            lines.append(f"  website: {website}")
+        if twitter:
+            lines.append(f"  twitter: {twitter}")
+        lines.append("")
+    lines.append(f"category: {category}")
+    lines.append("")
+    lines.append("tags:")
+    for t in tags:
+        lines.append(f"  - {t}")
+    lines.append("")
+    lines.append("# Proofreading metadata")
+    lines.append(f"original_language: {language_code}")
+    lines.append("proofreading:")
+    lines.append(f"  - language: {language_code}")
+    lines.append(f"    last_contribution_date: {current_date}")
+    lines.append("    urgency: 1")
+    lines.append("    contributors_id:")
+    lines.append(f"      - {global_contributor}")
+    lines.append("    reward: 0")
+    lines.append("")
+    return "\n".join(lines)
+
+def create_project_language_yaml(language_code, description, professor_global):
+    """
+    Create the content of the language YAML file for a project.
+    - description : zone de texte multi-ligne obligatoire.
+    - professor_global : le PBN Professor's ID (issu de HOME).
+    """
+    lines = [
+        f"description: |",
+        f"  {description}",
+        "contributors:",
+        f"  - {professor_global}"
+    ]
+    return "\n".join(lines)
+

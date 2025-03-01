@@ -5,19 +5,16 @@ import datetime
 import customtkinter as ctk
 from tkinter import messagebox, filedialog
 import random
-from utils.data_loader import load_allowed_tags
+from utils.data_loader import load_allowed_tags, load_all_builders  # Si nécessaire
 from utils.file_ops import (
     create_directory,
     write_file,
-    process_profile_image
+    process_profile_image,
+    # Les fonctions create_tutorial_files, create_professor_yaml et create_language_yaml restent disponibles
+    create_project_yaml,
+    create_project_language_yaml
 )
-
-# Liste des catégories de projets
-PROJECT_CATEGORIES = [
-    "communities", "conference", "education", "exchange", "infrastructure",
-    "investment", "manufacturer", "merchant", "mining", "news",
-    "node", "privacy", "service", "wallet"
-]
+from utils.constants import PROJECT_CATEGORIES  # Import de la liste depuis constants
 
 class ProjectPage(ctk.CTkFrame):
     def __init__(self, parent, settings):
@@ -32,7 +29,7 @@ class ProjectPage(ctk.CTkFrame):
         # Charger les données temporaires si elles existent
         project_data = self.settings.get("project_data", {})
         
-        # Configuration de la grille (ajustez le nombre de lignes selon vos besoins)
+        # Configuration de la grille
         for i in range(12):
             self.grid_rowconfigure(i, weight=1)
         for j in range(4):
@@ -63,14 +60,14 @@ class ProjectPage(ctk.CTkFrame):
         ctk.CTkEntry(self, textvariable=self.twitter_var, width=200).grid(row=row, column=3, padx=10, pady=5, sticky="ew")
         row += 1
         
-        # Catégorie (déroulante parmi PROJECT_CATEGORIES)
+        # Catégorie (liste déroulante parmi PROJECT_CATEGORIES)
         ctk.CTkLabel(self, text="Category:").grid(row=row, column=0, sticky="w", padx=10)
         self.category_var = ctk.StringVar(value=project_data.get("category", PROJECT_CATEGORIES[0]))
         self.category_menu = ctk.CTkOptionMenu(self, values=PROJECT_CATEGORIES, variable=self.category_var, width=200)
         self.category_menu.grid(row=row, column=1, padx=10, pady=5, sticky="ew")
         row += 1
         
-        # Tags (obligatoires, minimum 2, vérification via load_allowed_tags)
+        # Tags (obligatoires, minimum 2)
         ctk.CTkLabel(self, text="Tags (min. 2):").grid(row=row, column=0, sticky="w", padx=10)
         tag_frame = ctk.CTkFrame(self, width=300)
         tag_frame.grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
@@ -255,49 +252,33 @@ class ProjectPage(ctk.CTkFrame):
             # Proofreading metadata
             language_code = self.settings.get("language", "en").split(" ")[0]
             current_date = datetime.date.today().strftime("%Y-%m-%d")
-            # Utiliser le Contributor's GitHub ID (de HOME)
+            # Utiliser le Contributor's GitHub ID de HOME pour project.yml
             global_contributor = self.settings.get("contributor_id", "").strip()
-
-            lines = [
-                f"id: {project_uuid}",
-                f"name: {project_name}",
-                "",
-            ]
-            if website or twitter:
-                lines.append("links:")
-                if website:
-                    lines.append(f"  website: {website}")
-                if twitter:
-                    lines.append(f"  twitter: {twitter}")
-                lines.append("")
-            lines.append(f"category: {category}")
-            lines.append("")
-            lines.append("tags:")
-            for t in tags:
-                lines.append(f"  - {t}")
-            lines.append("")
-            lines.append("# Proofreading metadata")
-            lines.append(f"original_language: {language_code}")
-            lines.append("proofreading:")
-            lines.append(f"  - language: {language_code}")
-            lines.append(f"    last_contribution_date: {current_date}")
-            lines.append("    urgency: 1")
-            lines.append("    contributors_id:")
-            lines.append(f"      - {global_contributor}")
-            lines.append("    reward: 0")
-            lines.append("")
-            project_yaml_content = "\n".join(lines)
+            
+            # Générer le contenu de project.yml via la fonction utilitaire
+            project_yaml_content = create_project_yaml(
+                project_uuid,
+                project_name,
+                website,
+                twitter,
+                category,
+                tags,
+                language_code,
+                current_date,
+                global_contributor
+            )
             project_yaml_path = os.path.join(new_folder, "project.yml")
             write_file(project_yaml_path, project_yaml_content)
             
-            # Créer le fichier de langue, par exemple "fr.yml"
-            # Ce fichier contiendra la description (obligatoire) et la liste des contributors (ici, le professeur global)
+            # Création du fichier de langue (ex: fr.yml)
+            # Ce fichier contiendra la description et la liste des contributors,
+            # ici le PBN Professor's ID (issu de HOME).
             professor_global = self.settings.get("professor_id", "").strip()
-            lang_yaml_content = f"""description: |
-  {description}
-contributors:
-  - {professor_global}
-"""
+            lang_yaml_content = create_project_language_yaml(
+                language_code,
+                description,
+                professor_global
+            )
             lang_yaml_path = os.path.join(new_folder, f"{language_code}.yml")
             write_file(lang_yaml_path, lang_yaml_content)
             
@@ -318,7 +299,7 @@ contributors:
             "image_path": self.image_path_var.get(),
             "description": self.description_textbox.get("1.0", "end").strip()
         }
-   
+    
     def go_back(self):
         self.update_local_state()
         from gui.home import HomePage

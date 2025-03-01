@@ -15,6 +15,13 @@ SECTIONS = {
 # Difficulty levels
 LEVELS = ["beginner", "intermediate", "advanced", "expert"]
 
+# Project categories (for projects)
+PROJECT_CATEGORIES = [
+    "communities", "conference", "education", "exchange", "infrastructure",
+    "investment", "manufacturer", "merchant", "mining", "news",
+    "node", "privacy", "service", "wallet"
+]
+
 # Language options for main languages
 MAIN_LANGUAGE_CODES = {
     "en": "English",

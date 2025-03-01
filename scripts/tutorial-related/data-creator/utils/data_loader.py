@@ -3,8 +3,8 @@ import re
 
 def load_allowed_tags(base_path):
     """
-    Load the list of allowed tags from the markdown file.
-    The file is expected in the folder 'docs/50-planb-tags.md' relative to the repository root.
+    Load allowed tags from the markdown file located at 'docs/50-planb-tags.md'
+    relative to the repository root.
     """
     tags = []
     if base_path:
@@ -21,8 +21,8 @@ def load_allowed_tags(base_path):
 
 def load_all_builders(base_path):
     """
-    Load all builders (projects) from the repository.
-    The projects are expected to be in the folder 'resources/projects' relative to the repository root.
+    Load all builders (projects) from the 'resources/projects' directory relative to the repository root.
+    Returns a dictionary mapping builder names to their IDs.
     """
     builders = {}
     if not base_path:

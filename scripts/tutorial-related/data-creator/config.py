@@ -15,14 +15,12 @@ def load_settings():
             settings = json.load(f)
     else:
         settings = {}
-    # Set default values for missing keys
     settings.setdefault("base_path", "")
     settings.setdefault("language_option", 1)
     settings.setdefault("language", "")
     settings.setdefault("contributor_id", "")
     settings.setdefault("professor_id", "")
     settings.setdefault("theme", "Light")
-    # Default window dimensions: reduced by ~25% compared to 1024x768 → 768x576
     settings.setdefault("window_width", 768)
     settings.setdefault("window_height", 576)
     return settings

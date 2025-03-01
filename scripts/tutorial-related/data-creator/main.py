@@ -3,10 +3,13 @@ from config import load_settings, save_settings
 from gui.home import HomePage
 
 def on_closing(root, settings):
-    # Récupère update_settings si elle existe, sinon retourne None
-    update_func = getattr(root.active_page, "update_settings", None)
-    if callable(update_func):
-        update_func()
+    # Si la page active propose une méthode update_settings, on l'appelle
+    if hasattr(root, "active_page") and callable(getattr(root.active_page, "update_settings", None)):
+        root.active_page.update_settings()
+    # Supprimer les données temporaires de toutes les pages ressources avant de sauvegarder
+    settings.pop("tutorial_data", None)
+    settings.pop("professor_data", None)
+    settings.pop("project_data", None)
     save_settings(settings)
     root.destroy()
 

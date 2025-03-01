@@ -1,4 +1,3 @@
-# utils/file_ops.py
 import os
 import shutil
 import uuid
@@ -34,7 +33,7 @@ def generate_random_contributor_id():
 
 def check_contributor_id(base_path, contributor_id):
     """
-    Verify that contributor_id consists of two words from BIP39 and is not already used.
+    Verify that the contributor ID consists of two BIP39 words and is unique.
     """
     parts = contributor_id.split('-')
     from utils.constants import BIP39_WORDS
@@ -61,7 +60,7 @@ def check_contributor_id(base_path, contributor_id):
 
 def create_tutorial_files(base, section_name, tutorial_name, language_code, project_id, tags, category_value, level_value, professor_id, contributor_id):
     """
-    Create the necessary files for a new tutorial.
+    Create files required for a new tutorial.
     """
     tutorial_path = os.path.join(base, "tutorials", section_name, tutorial_name)
     create_directory(tutorial_path)
@@ -70,7 +69,6 @@ def create_tutorial_files(base, section_name, tutorial_name, language_code, proj
     assets_lang_path = os.path.join(assets_path, language_code)
     create_directory(assets_lang_path)
     
-    # Create markdown file
     md_filename = f"{language_code}.md"
     md_content = """---
 name: 
@@ -80,7 +78,6 @@ description:
 """
     write_file(os.path.join(tutorial_path, md_filename), md_content)
     
-    # Create YAML file with tutorial metadata
     uuid_value = str(uuid.uuid4())
     current_date = datetime.date.today().strftime("%Y-%m-%d")
     lines = [
@@ -118,6 +115,9 @@ description:
     return tutorial_path
 
 def create_professor_yaml(full_name, contributor_id, website=None, twitter=None, lightning=None, tags=None):
+    """
+    Generate YAML content for a new professor.
+    """
     prof_uuid = str(uuid.uuid4())
     lines = [
         f"id: {prof_uuid}",
@@ -145,6 +145,9 @@ def create_professor_yaml(full_name, contributor_id, website=None, twitter=None,
     return "\n".join(lines)
 
 def create_language_yaml(language_code, bio, short_bio):
+    """
+    Generate YAML content for language-specific project information.
+    """
     lines = [
         "bio: |",
         f"  {bio}",
@@ -155,8 +158,8 @@ def create_language_yaml(language_code, bio, short_bio):
 
 def create_project_yaml(project_uuid, project_name, website, twitter, category, tags, language_code, current_date, global_contributor):
     """
-    Create the content of project.yml.
-    - global_contributor correspond au GitHub Contributor's ID (issu de HOME).
+    Generate the content for project.yml.
+    'global_contributor' is the GitHub Contributor's ID from HOME.
     """
     lines = [
         f"id: {project_uuid}",
@@ -190,9 +193,8 @@ def create_project_yaml(project_uuid, project_name, website, twitter, category, 
 
 def create_project_language_yaml(language_code, description, professor_global):
     """
-    Create the content of the language YAML file for a project.
-    - description : zone de texte multi-ligne obligatoire.
-    - professor_global : le PBN Professor's ID (issu de HOME).
+    Generate the content for the language YAML file for a project.
+    'description' is mandatory and 'professor_global' is the PBN Professor's ID from HOME.
     """
     lines = [
         f"description: |",
@@ -201,4 +203,3 @@ def create_project_language_yaml(language_code, description, professor_global):
         f"  - {professor_global}"
     ]
     return "\n".join(lines)
-

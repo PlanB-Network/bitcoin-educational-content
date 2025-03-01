@@ -15,14 +15,20 @@ def on_closing(root, settings):
 
 def main():
     settings = load_settings()
-    # Apply the saved theme
-    ctk.set_appearance_mode(settings.get("theme", "Light"))
+    
+    # Use only the custom theme. We do not store or toggle appearance mode in config anymore.
+    ctk.set_default_color_theme("theme.json")
+    
+    # Force dark appearance mode
+    ctk.set_appearance_mode("dark")
     
     root = ctk.CTk()
-    root.title("Resource Creator")
+    root.title("Data Creator - Plan ₿ Network")
+    # Pour d'autres plateformes :
+    root.iconbitmap("favicon.ico")
     
-    # Use a default window size (768x576) at startup
-    default_width, default_height = 768, 576
+    # Default window size
+    default_width, default_height = 850, 630
     root.geometry(f"{default_width}x{default_height}")
     root.resizable(True, True)
     

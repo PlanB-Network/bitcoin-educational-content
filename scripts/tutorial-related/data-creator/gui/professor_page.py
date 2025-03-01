@@ -5,6 +5,7 @@ import random
 import customtkinter as ctk
 from tkinter import messagebox, filedialog
 from PIL import Image
+from gui.footer import create_footer
 from utils.constants import BIP39_WORDS
 from utils.data_loader import load_allowed_tags
 from utils.file_ops import (
@@ -37,76 +38,76 @@ class ProfessorPage(ctk.CTkFrame):
             self.grid_columnconfigure(j, weight=1)
         
         row = 0
-        ctk.CTkLabel(self, text="New Professor Creation", font=("Arial", 20)).grid(row=row, column=0, columnspan=4, pady=10)
+        ctk.CTkLabel(self, text="New Professor Creation", font=("Arial", 20, "bold")).grid(row=row, column=0, columnspan=4, pady=10)
         row += 1
         
         # Folder name input
-        ctk.CTkLabel(self, text="Folder name:").grid(row=row, column=0, sticky="w", padx=10)
+        ctk.CTkLabel(self, text="Folder name:", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
         self.folder_name_var = ctk.StringVar(value=professor_data.get("folder_name", ""))
-        ctk.CTkEntry(self, textvariable=self.folder_name_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
+        ctk.CTkEntry(self, textvariable=self.folder_name_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
         row += 1
         
         # First and last name inputs
-        ctk.CTkLabel(self, text="First Name:").grid(row=row, column=0, sticky="w", padx=10)
+        ctk.CTkLabel(self, text="First Name:", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
         self.first_name_var = ctk.StringVar(value=professor_data.get("first_name", ""))
-        ctk.CTkEntry(self, textvariable=self.first_name_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
-        ctk.CTkLabel(self, text="Last Name:").grid(row=row, column=2, sticky="w", padx=10)
+        ctk.CTkEntry(self, textvariable=self.first_name_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
+        ctk.CTkLabel(self, text="Last Name:", font=("Arial", 14)).grid(row=row, column=2, sticky="w", padx=10)
         self.last_name_var = ctk.StringVar(value=professor_data.get("last_name", ""))
-        ctk.CTkEntry(self, textvariable=self.last_name_var, width=200).grid(row=row, column=3, padx=10, pady=5, sticky="ew")
+        ctk.CTkEntry(self, textvariable=self.last_name_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=3, padx=10, pady=5, sticky="ew")
         row += 1
         
         # Random Contributor ID with re-roll functionality
-        ctk.CTkLabel(self, text="Random Contributor ID:").grid(row=row, column=0, sticky="w", padx=10)
+        ctk.CTkLabel(self, text="Random Contributor ID:", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
         initial_contrib = professor_data.get("prof_contrib", generate_random_contributor_id())
         self.prof_contrib_var = ctk.StringVar(value=initial_contrib)
-        ctk.CTkEntry(self, textvariable=self.prof_contrib_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
-        ctk.CTkButton(self, text="Re-roll", command=self.roll_contributor_id, width=100).grid(row=row, column=2, padx=10, pady=5)
+        ctk.CTkEntry(self, textvariable=self.prof_contrib_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
+        ctk.CTkButton(self, text="Re-roll", command=self.roll_contributor_id, width=100, font=("Arial", 14, "bold")).grid(row=row, column=2, padx=10, pady=5)
         row += 1
         
         # Optional website and Twitter inputs
-        ctk.CTkLabel(self, text="Website (optional):").grid(row=row, column=0, sticky="w", padx=10)
+        ctk.CTkLabel(self, text="Website (optional):", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
         self.website_var = ctk.StringVar(value=professor_data.get("website", ""))
-        ctk.CTkEntry(self, textvariable=self.website_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
-        ctk.CTkLabel(self, text="Twitter (optional):").grid(row=row, column=2, sticky="w", padx=10)
+        ctk.CTkEntry(self, textvariable=self.website_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
+        ctk.CTkLabel(self, text="Twitter / X (optional):", font=("Arial", 14)).grid(row=row, column=2, sticky="w", padx=10)
         self.twitter_var = ctk.StringVar(value=professor_data.get("twitter", ""))
-        ctk.CTkEntry(self, textvariable=self.twitter_var, width=200).grid(row=row, column=3, padx=10, pady=5, sticky="ew")
+        ctk.CTkEntry(self, textvariable=self.twitter_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=3, padx=10, pady=5, sticky="ew")
         row += 1
         
         # Optional lightning address input
-        ctk.CTkLabel(self, text="Lightning Address (optional):").grid(row=row, column=0, sticky="w", padx=10)
+        ctk.CTkLabel(self, text="Lightning Address (optional):", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
         self.lightning_var = ctk.StringVar(value=professor_data.get("lightning", ""))
-        ctk.CTkEntry(self, textvariable=self.lightning_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
+        ctk.CTkEntry(self, textvariable=self.lightning_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
         row += 1
         
         # Tags input and suggestions (minimum 2 required)
-        ctk.CTkLabel(self, text="Tags (min. 2):").grid(row=row, column=0, sticky="w", padx=10)
+        ctk.CTkLabel(self, text="Tags (min. 2):", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
         tag_frame = ctk.CTkFrame(self, width=300)
         tag_frame.grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
         num_tags = 3
         gap_width = 5
-        tag_field_width = int((300 - (num_tags - 1) * gap_width) / num_tags)
+        tag_field_width = int((300 - (num_tags - 1) * gap_width) / num_tags * 1.8)
         self.tag1_var = ctk.StringVar(value=professor_data.get("tag1", ""))
         self.tag2_var = ctk.StringVar(value=professor_data.get("tag2", ""))
         self.tag3_var = ctk.StringVar(value=professor_data.get("tag3", ""))
-        self.tag1_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag1_var, width=tag_field_width)
+        self.tag1_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag1_var, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag1_entry.grid(row=0, column=0, padx=(0, gap_width), sticky="ew")
         self.tag1_entry.bind("<KeyRelease>", self.update_tag1_suggestions)
-        self.tag2_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag2_var, width=tag_field_width)
+        self.tag2_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag2_var, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag2_entry.grid(row=0, column=1, padx=(0, gap_width), sticky="ew")
         self.tag2_entry.bind("<KeyRelease>", self.update_tag2_suggestions)
-        self.tag3_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag3_var, width=tag_field_width)
+        self.tag3_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag3_var, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag3_entry.grid(row=0, column=2, sticky="ew")
         self.tag3_entry.bind("<KeyRelease>", self.update_tag3_suggestions)
         row += 1
         
-        ctk.CTkLabel(self, text="Tag Suggestions:").grid(row=row, column=0, sticky="w", padx=10)
+        ctk.CTkLabel(self, text="Tag Suggestions:", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
         tag_suggestion_frame = ctk.CTkFrame(self, width=300)
         tag_suggestion_frame.grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
-        self.tag1_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag1_selected, width=tag_field_width)
+        self.tag1_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag1_selected, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag1_suggestions_menu.grid(row=0, column=0, padx=(0, gap_width), sticky="ew")
-        self.tag2_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag2_selected, width=tag_field_width)
+        self.tag2_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag2_selected, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag2_suggestions_menu.grid(row=0, column=1, padx=(0, gap_width), sticky="ew")
-        self.tag3_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag3_selected, width=tag_field_width)
+        self.tag3_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag3_selected, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag3_suggestions_menu.grid(row=0, column=2, sticky="ew")
         self.update_tag1_suggestions()
         self.update_tag2_suggestions()
@@ -114,31 +115,33 @@ class ProfessorPage(ctk.CTkFrame):
         row += 1
         
         # Profile image input
-        ctk.CTkLabel(self, text="Profile Image:").grid(row=row, column=0, sticky="w", padx=10)
+        ctk.CTkLabel(self, text="Profile Image:", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
         self.image_path_var = ctk.StringVar(value=professor_data.get("image_path", ""))
-        ctk.CTkEntry(self, textvariable=self.image_path_var, width=200).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
-        ctk.CTkButton(self, text="Select Image", command=self.select_image, width=120).grid(row=row, column=2, padx=10, pady=5)
+        ctk.CTkEntry(self, textvariable=self.image_path_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
+        ctk.CTkButton(self, text="Select Image", command=self.select_image, width=120, font=("Arial", 14, "bold")).grid(row=row, column=2, padx=10, pady=5)
         row += 1
         
         # Biography and Short bio inputs
-        ctk.CTkLabel(self, text="Biography:").grid(row=row, column=0, sticky="nw", padx=10)
+        ctk.CTkLabel(self, text="Biography:", font=("Arial", 14)).grid(row=row, column=0, sticky="nw", padx=10)
         self.bio_textbox = ctk.CTkTextbox(self, width=400, height=100)
         self.bio_textbox.grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
         if "bio" in professor_data:
             self.bio_textbox.insert("1.0", professor_data.get("bio"))
         row += 1
         
-        ctk.CTkLabel(self, text="Short bio:").grid(row=row, column=0, sticky="w", padx=10)
+        ctk.CTkLabel(self, text="Short bio (optional):", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
         self.short_bio_var = ctk.StringVar(value=professor_data.get("short_bio", ""))
-        ctk.CTkEntry(self, textvariable=self.short_bio_var, width=400).grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
+        ctk.CTkEntry(self, textvariable=self.short_bio_var, width=400, font=("Arial", 14, "bold")).grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
         row += 1
         
         # Buttons for creating the professor and going back
         button_frame = ctk.CTkFrame(self, fg_color="transparent")
         button_frame.grid(row=row, column=0, columnspan=4, pady=20, sticky="ew")
-        ctk.CTkButton(button_frame, text="Create Professor", command=self.create_professor).pack(side="left", padx=10, expand=True)
-        ctk.CTkButton(button_frame, text="Back", command=self.go_back).pack(side="left", padx=10, expand=True)
+        ctk.CTkButton(button_frame, text="Create Professor", command=self.create_professor, font=("Arial", 14, "bold")).pack(side="left", padx=10, expand=True)
+        ctk.CTkButton(button_frame, text="Back", command=self.go_back, font=("Arial", 14, "bold")).pack(side="left", padx=10, expand=True)
    
+        create_footer(self)
+
     def generate_random_contributor_id(self):
         words = random.sample(BIP39_WORDS, 2)
         return f"{words[0]}-{words[1]}"

@@ -4,7 +4,7 @@ import uuid
 import datetime
 import customtkinter as ctk
 from tkinter import messagebox, filedialog
-import random
+from gui.footer import create_footer
 from utils.data_loader import load_allowed_tags, load_all_builders
 from utils.file_ops import (
     create_directory,
@@ -35,96 +35,88 @@ class ProjectPage(ctk.CTkFrame):
             self.grid_columnconfigure(j, weight=1)
         
         row = 0
-        ctk.CTkLabel(self, text="New Project Creation", font=("Arial", 20)).grid(
-            row=row, column=0, columnspan=4, pady=10
-        )
+        ctk.CTkLabel(self, text="New Project Creation", font=("Arial", 20, "bold")).grid(row=row, column=0, columnspan=4, pady=10)
         row += 1
         
         # Folder name input
-        ctk.CTkLabel(self, text="Folder name:").grid(
+        ctk.CTkLabel(self, text="Folder name:", font=("Arial", 14)).grid(
             row=row, column=0, sticky="w", padx=10
         )
         self.folder_name_var = ctk.StringVar(value=project_data.get("folder_name", ""))
-        ctk.CTkEntry(self, textvariable=self.folder_name_var, width=200).grid(
+        ctk.CTkEntry(self, textvariable=self.folder_name_var, width=200, font=("Arial", 14, "bold")).grid(
             row=row, column=1, padx=10, pady=5, sticky="ew"
         )
         row += 1
         
         # Project name input (required)
-        ctk.CTkLabel(self, text="Project Name:").grid(
+        ctk.CTkLabel(self, text="Project Name:", font=("Arial", 14)).grid(
             row=row, column=0, sticky="w", padx=10
         )
         self.project_name_var = ctk.StringVar(value=project_data.get("project_name", ""))
-        ctk.CTkEntry(self, textvariable=self.project_name_var, width=200).grid(
+        ctk.CTkEntry(self, textvariable=self.project_name_var, width=200, font=("Arial", 14, "bold")).grid(
             row=row, column=1, padx=10, pady=5, sticky="ew"
         )
         row += 1
         
         # Optional website and Twitter inputs
-        ctk.CTkLabel(self, text="Website (optional):").grid(
+        ctk.CTkLabel(self, text="Website (optional):", font=("Arial", 14)).grid(
             row=row, column=0, sticky="w", padx=10
         )
         self.website_var = ctk.StringVar(value=project_data.get("website", ""))
-        ctk.CTkEntry(self, textvariable=self.website_var, width=200).grid(
+        ctk.CTkEntry(self, textvariable=self.website_var, width=200, font=("Arial", 14, "bold")).grid(
             row=row, column=1, padx=10, pady=5, sticky="ew"
         )
-        ctk.CTkLabel(self, text="Twitter (optional):").grid(
+        ctk.CTkLabel(self, text="Twitter / X (optional):", font=("Arial", 14)).grid(
             row=row, column=2, sticky="w", padx=10
         )
         self.twitter_var = ctk.StringVar(value=project_data.get("twitter", ""))
-        ctk.CTkEntry(self, textvariable=self.twitter_var, width=200).grid(
+        ctk.CTkEntry(self, textvariable=self.twitter_var, width=200, font=("Arial", 14, "bold")).grid(
             row=row, column=3, padx=10, pady=5, sticky="ew"
         )
         row += 1
         
         # Category dropdown
-        ctk.CTkLabel(self, text="Category:").grid(
+        ctk.CTkLabel(self, text="Category:", font=("Arial", 14)).grid(
             row=row, column=0, sticky="w", padx=10
         )
         self.category_var = ctk.StringVar(value=project_data.get("category", PROJECT_CATEGORIES[0]))
-        self.category_menu = ctk.CTkOptionMenu(self, values=PROJECT_CATEGORIES, variable=self.category_var, width=200)
+        self.category_menu = ctk.CTkOptionMenu(self, values=PROJECT_CATEGORIES, variable=self.category_var, width=200, font=("Arial", 14, "bold"))
         self.category_menu.grid(row=row, column=1, padx=10, pady=5, sticky="ew")
         row += 1
         
         # Tags input and suggestions (minimum 2 tags required)
-        ctk.CTkLabel(self, text="Tags (min. 2):").grid(
+        ctk.CTkLabel(self, text="Tags (min. 2):", font=("Arial", 14)).grid(
             row=row, column=0, sticky="w", padx=10
         )
         tag_frame = ctk.CTkFrame(self, width=300)
         tag_frame.grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
         num_tags = 3
         gap_width = 5
-        tag_field_width = int((300 - (num_tags - 1) * gap_width) / num_tags)
+        tag_field_width = int((300 - (num_tags - 1) * gap_width) / num_tags * 1.8)
         self.tag1_var = ctk.StringVar(value=project_data.get("tag1", ""))
         self.tag2_var = ctk.StringVar(value=project_data.get("tag2", ""))
         self.tag3_var = ctk.StringVar(value=project_data.get("tag3", ""))
-        self.tag1_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag1_var, width=tag_field_width)
+        self.tag1_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag1_var, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag1_entry.grid(row=0, column=0, padx=(0, gap_width), sticky="ew")
         self.tag1_entry.bind("<KeyRelease>", self.update_tag1_suggestions)
-        self.tag2_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag2_var, width=tag_field_width)
+        self.tag2_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag2_var, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag2_entry.grid(row=0, column=1, padx=(0, gap_width), sticky="ew")
         self.tag2_entry.bind("<KeyRelease>", self.update_tag2_suggestions)
-        self.tag3_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag3_var, width=tag_field_width)
+        self.tag3_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag3_var, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag3_entry.grid(row=0, column=2, sticky="ew")
         self.tag3_entry.bind("<KeyRelease>", self.update_tag3_suggestions)
         row += 1
         
-        ctk.CTkLabel(self, text="Tag Suggestions:").grid(
+        ctk.CTkLabel(self, text="Tag Suggestions:", font=("Arial", 14)).grid(
             row=row, column=0, sticky="w", padx=10
         )
         tag_suggestion_frame = ctk.CTkFrame(self, width=300)
         tag_suggestion_frame.grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
-        self.tag1_suggestions_menu = ctk.CTkOptionMenu(
-            tag_suggestion_frame, values=[], command=self.on_tag1_selected, width=tag_field_width
-        )
+        self.tag1_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag1_selected, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag1_suggestions_menu.grid(row=0, column=0, padx=(0, gap_width), sticky="ew")
-        self.tag2_suggestions_menu = ctk.CTkOptionMenu(
-            tag_suggestion_frame, values=[], command=self.on_tag2_selected, width=tag_field_width
-        )
+        self.tag2_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag2_selected, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag2_suggestions_menu.grid(row=0, column=1, padx=(0, gap_width), sticky="ew")
-        self.tag3_suggestions_menu = ctk.CTkOptionMenu(
-            tag_suggestion_frame, values=[], command=self.on_tag3_selected, width=tag_field_width
-        )
+        self.tag3_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag3_selected, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag3_suggestions_menu.grid(row=0, column=2, sticky="ew")
         self.update_tag1_suggestions()
         self.update_tag2_suggestions()
@@ -132,20 +124,20 @@ class ProjectPage(ctk.CTkFrame):
         row += 1
         
         # Logo image input
-        ctk.CTkLabel(self, text="Logo Image:").grid(
+        ctk.CTkLabel(self, text="Logo Image:", font=("Arial", 14)).grid(
             row=row, column=0, sticky="w", padx=10
         )
         self.image_path_var = ctk.StringVar(value=project_data.get("image_path", ""))
-        ctk.CTkEntry(self, textvariable=self.image_path_var, width=200).grid(
+        ctk.CTkEntry(self, textvariable=self.image_path_var, width=200, font=("Arial", 14, "bold")).grid(
             row=row, column=1, padx=10, pady=5, sticky="ew"
         )
-        ctk.CTkButton(self, text="Select Image", command=self.select_image, width=120).grid(
+        ctk.CTkButton(self, text="Select Image", command=self.select_image, width=120, font=("Arial", 14, "bold")).grid(
             row=row, column=2, padx=10, pady=5
         )
         row += 1
         
         # Description input (multiline)
-        ctk.CTkLabel(self, text="Description:").grid(
+        ctk.CTkLabel(self, text="Description:", font=("Arial", 14)).grid(
             row=row, column=0, sticky="nw", padx=10
         )
         self.description_textbox = ctk.CTkTextbox(self, width=400, height=100)
@@ -157,13 +149,11 @@ class ProjectPage(ctk.CTkFrame):
         # Buttons for creating project and going back
         button_frame = ctk.CTkFrame(self, fg_color="transparent")
         button_frame.grid(row=row, column=0, columnspan=4, pady=20, sticky="ew")
-        ctk.CTkButton(button_frame, text="Create Project", command=self.create_project).pack(
-            side="left", padx=10, expand=True
-        )
-        ctk.CTkButton(button_frame, text="Back", command=self.go_back).pack(
-            side="left", padx=10, expand=True
-        )
+        ctk.CTkButton(button_frame, text="Create Project", command=self.create_project, font=("Arial", 14, "bold")).pack(side="left", padx=10, expand=True)
+        ctk.CTkButton(button_frame, text="Back", command=self.go_back, font=("Arial", 14, "bold")).pack(side="left", padx=10, expand=True)
     
+        create_footer(self)
+
     def update_tag1_suggestions(self, event=None):
         allowed = load_allowed_tags(self.base_path)
         text = self.tag1_var.get().lower()

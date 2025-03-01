@@ -1,8 +1,10 @@
 import customtkinter as ctk
-from tkinter import messagebox
+from tkinter import messagebox, filedialog
 from utils.constants import SECTIONS, LEVELS
 from utils.data_loader import load_allowed_tags, load_all_builders
 from utils.file_ops import create_tutorial_files
+from gui.footer import create_footer
+
 
 class TutorialPage(ctk.CTkFrame):
     def __init__(self, parent, settings):
@@ -36,7 +38,7 @@ class TutorialPage(ctk.CTkFrame):
             self.grid_columnconfigure(j, weight=1)
         
         row = 0
-        ctk.CTkLabel(self, text=f"Base path: {self.base_path}").grid(row=row, column=0, columnspan=3, padx=10, pady=5, sticky="w")
+        ctk.CTkLabel(self, text="New Tutorial Creation", font=("Arial", 20, "bold")).grid(row=row, column=0, columnspan=4, pady=10)
         row += 1
         
         # Category and subcategory selection
@@ -46,71 +48,61 @@ class TutorialPage(ctk.CTkFrame):
             values=list(SECTIONS.keys()),
             variable=self.section_var,
             command=self.update_categories,
-            width=300
+            width=300,
+            font=("Arial", 14, "bold")
         )
         self.section_menu.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         row += 1
         
         ctk.CTkLabel(self, text="Subcategory:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
-        self.category_menu = ctk.CTkOptionMenu(self, values=[], variable=self.category_var, width=300)
+        self.category_menu = ctk.CTkOptionMenu(self, values=[], variable=self.category_var, width=300, font=("Arial", 14, "bold"))
         self.category_menu.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         row += 1
         
         # Difficulty level selection
         ctk.CTkLabel(self, text="Difficulty level:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
-        self.level_menu = ctk.CTkOptionMenu(self, values=LEVELS, variable=self.level_var, width=300)
+        self.level_menu = ctk.CTkOptionMenu(self, values=LEVELS, variable=self.level_var, width=300, font=("Arial", 14, "bold"))
         self.level_menu.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         row += 1
         
         # Tutorial folder name entry
         ctk.CTkLabel(self, text="Folder name:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
-        ctk.CTkEntry(self, textvariable=self.tutorial_name_var, width=300).grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
+        ctk.CTkEntry(self, textvariable=self.tutorial_name_var, width=300, font=("Arial", 14, "bold")).grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         row += 1
         
         # Project search entry
         ctk.CTkLabel(self, text="Project Name:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
-        self.builder_search_entry = ctk.CTkEntry(
-            self,
-            textvariable=self.builder_search_var,
-            width=300,
-            placeholder_text="Find the project ID"
-        )
+        self.builder_search_entry = ctk.CTkEntry(self, textvariable=self.builder_search_var, width=300, placeholder_text="Find the project ID", font=("Arial", 14, "bold"))
         self.builder_search_entry.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         self.builder_search_entry.bind("<KeyRelease>", self.update_builder_suggestions)
         row += 1
         
         # Project suggestions dropdown
         ctk.CTkLabel(self, text="Project Suggestions:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
-        self.builder_suggestions_menu = ctk.CTkOptionMenu(
-            self,
-            values=[],
-            command=self.on_builder_selected,
-            width=300
-        )
+        self.builder_suggestions_menu = ctk.CTkOptionMenu(self, values=[], command=self.on_builder_selected, width=300, font=("Arial", 14, "bold"))
         self.builder_suggestions_menu.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         self.update_builder_suggestions()
         row += 1
         
         # Project ID entry
         ctk.CTkLabel(self, text="Project ID:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
-        ctk.CTkEntry(self, textvariable=self.project_id_var, width=300).grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
+        ctk.CTkEntry(self, textvariable=self.project_id_var, width=300, font=("Arial", 14, "bold")).grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         row += 1
         
-        # Tags entry and suggestions
+        # Tags entry and suggestions with fixed width
         ctk.CTkLabel(self, text="Tags (2 or 3):").grid(row=row, column=0, padx=10, pady=5, sticky="w")
         tag_frame = ctk.CTkFrame(self, width=300)
         tag_frame.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
         num_tags = 3
         gap_width = 5
-        tag_field_width = int((300 - (num_tags - 1) * gap_width) / num_tags)
-        
-        self.tag1_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag1_var, width=tag_field_width)
+        tag_field_width = int((300 - (num_tags - 1) * gap_width) / num_tags * 1.8)
+        self.tag1_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag1_var, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag1_entry.grid(row=0, column=0, padx=(0, gap_width), sticky="ew")
         self.tag1_entry.bind("<KeyRelease>", self.update_tag1_suggestions)
-        self.tag2_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag2_var, width=tag_field_width)
+        self.tag2_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag2_var, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag2_entry.grid(row=0, column=1, padx=(0, gap_width), sticky="ew")
         self.tag2_entry.bind("<KeyRelease>", self.update_tag2_suggestions)
-        self.tag3_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag3_var, width=tag_field_width)
+        self.tag3_entry = ctk.CTkEntry(tag_frame, textvariable=self.tag3_var, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag3_entry.grid(row=0, column=2, sticky="ew")
         self.tag3_entry.bind("<KeyRelease>", self.update_tag3_suggestions)
         row += 1
@@ -118,11 +110,11 @@ class TutorialPage(ctk.CTkFrame):
         ctk.CTkLabel(self, text="Tag Suggestions:").grid(row=row, column=0, padx=10, pady=5, sticky="w")
         tag_suggestion_frame = ctk.CTkFrame(self, width=300)
         tag_suggestion_frame.grid(row=row, column=1, columnspan=2, padx=10, pady=5, sticky="ew")
-        self.tag1_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag1_selected, width=tag_field_width)
+        self.tag1_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag1_selected, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag1_suggestions_menu.grid(row=0, column=0, padx=(0, gap_width), sticky="ew")
-        self.tag2_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag2_selected, width=tag_field_width)
+        self.tag2_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag2_selected, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag2_suggestions_menu.grid(row=0, column=1, padx=(0, gap_width), sticky="ew")
-        self.tag3_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag3_selected, width=tag_field_width)
+        self.tag3_suggestions_menu = ctk.CTkOptionMenu(tag_suggestion_frame, values=[], command=self.on_tag3_selected, width=tag_field_width, font=("Arial", 14, "bold"))
         self.tag3_suggestions_menu.grid(row=0, column=2, sticky="ew")
         self.update_tag1_suggestions()
         self.update_tag2_suggestions()
@@ -132,10 +124,12 @@ class TutorialPage(ctk.CTkFrame):
         # Buttons for Create, Clear, and Back actions
         button_frame = ctk.CTkFrame(self, fg_color="transparent")
         button_frame.grid(row=row, column=0, columnspan=3, pady=20, sticky="ew")
-        ctk.CTkButton(button_frame, text="Create Tutorial", command=self.create_tutorial).pack(side="left", padx=10, expand=True)
-        ctk.CTkButton(button_frame, text="Clear", command=self.clear_fields).pack(side="left", padx=10, expand=True)
-        ctk.CTkButton(button_frame, text="Back", command=self.go_back).pack(side="left", padx=10, expand=True)
+        ctk.CTkButton(button_frame, text="Create Tutorial", command=self.create_tutorial, font=("Arial", 14, "bold")).pack(side="left", padx=10, expand=True)
+        ctk.CTkButton(button_frame, text="Clear", command=self.clear_fields, font=("Arial", 14, "bold")).pack(side="left", padx=10, expand=True)
+        ctk.CTkButton(button_frame, text="Back", command=self.go_back, font=("Arial", 14, "bold")).pack(side="left", padx=10, expand=True)
     
+        create_footer(self)
+
     def update_categories(self, *args):
         section = self.section_menu.get()
         categories = SECTIONS.get(section, [])
@@ -203,6 +197,28 @@ class TutorialPage(ctk.CTkFrame):
     
     def on_tag3_selected(self, selected_tag):
         self.tag3_var.set(selected_tag)
+    
+    def update_local_state(self):
+        self.settings["project_data"] = {
+            "folder_name": self.folder_name_var.get(),
+            "project_name": self.project_name_var.get(),
+            "website": self.website_var.get(),
+            "twitter": self.twitter_var.get(),
+            "category": self.category_var.get(),
+            "tag1": self.tag1_var.get(),
+            "tag2": self.tag2_var.get(),
+            "tag3": self.tag3_var.get(),
+            "image_path": self.image_path_var.get(),
+            "description": self.description_textbox.get("1.0", "end").strip()
+        }
+    
+    def select_image(self):
+        file_path = filedialog.askopenfilename(
+            title="Select Logo Image", 
+            filetypes=[("Image Files", "*.png;*.jpg;*.jpeg;*.webp")]
+        )
+        if file_path:
+            self.image_path_var.set(file_path)
     
     def create_tutorial(self):
         if not self.base_path:

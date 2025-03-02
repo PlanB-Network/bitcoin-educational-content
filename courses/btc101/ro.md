@@ -857,7 +857,7 @@ Există mai multe opțiuni disponibile atunci când doriți să vă instalați p
 
 ![image](assets/en/53.webp)
 
-O a doua opțiune este utilizarea unui hardware dedicat acestui scop, cum ar fi un Raspberry Pi 4 cu un SSD suficient de mare (aproximativ ~1TB). Această altă opțiune este mai costisitoare dacă trebuie să cumpărați hardware-ul, dar reprezintă puțin mai puțin de 10,00 EUR pe an în ceea ce privește consumul de energie electrică.
+O a doua opțiune este utilizarea unui hardware dedicat acestui scop, cum ar fi un Raspberry Pi 4 cu un SSD suficient de mare (aproximativ ~1TB). Această altă opțiune este mai costisitoare dacă trebuie să cumpărați hardware-ul, dar reprezintă un pic mai puțin de 10,00 EUR pe an în ceea ce privește consumul de energie electrică.
 
 Din perspectiva lățimii de bandă, luând în considerare 1 bloc de 1MB la fiecare 10 minute, aceasta corespunde aproximativ la 5GB pe lună.
 
@@ -895,13 +895,13 @@ Pentru a optimiza numărul de încercări, se vor utiliza mașini specifice numi
 
 Mașinile funcționează continuu, iar după o medie de 10 minute, apare un câștigător: acest participant a găsit cu succes hash-ul corect care se încadrează sub pragul de dificultate. Marele și singurul câștigător va semna apoi noul bloc al serverului timestamp, adăugându-l la blockchain. Ei își primesc recompensele și se întorc pentru a-și încerca norocul la minarea următorului bloc. Acest proces se desfășoară de mai bine de zece ani, un câștigător confirmând tranzacțiile Bitcoin la fiecare 10 minute și securizând în același timp tranzacțiile anterioare, făcând astfel blockchain-ul Bitcoin mai robust și mai sigur.
 
-La fiecare 2016 blocuri (aproximativ o dată la două săptămâni), **ajustarea dificultății** reechilibrează jocul minier global pe baza numărului de participanți. Această ajustare este necesară deoarece numărul de mineri și puterea lor de calcul combinată pot varia semnificativ în timp. Pentru a menține durata țintă a blocului, rețeaua recalibrează nivelul de dificultate în funcție de rapiditatea cu care au fost minate ultimele blocuri din 2016. Dacă au fost minate prea repede, dificultatea crește, făcând mai dificilă găsirea hash-ului corect. Dimpotrivă, dacă acestea au fost extrase prea lent, dificultatea scade, ceea ce ușurează căutarea.
+La fiecare 2016 blocuri (aproximativ o dată la două săptămâni), **ajustarea dificultății** reechilibrează jocul minier global pe baza numărului de participanți. Această ajustare este necesară deoarece numărul de mineri și puterea lor de calcul combinată pot varia semnificativ în timp. Pentru a menține durata țintă a blocului, rețeaua recalibrează nivelul de dificultate în funcție de rapiditatea cu care au fost minate ultimele 2016 blocuri . Dacă au fost minate prea repede, dificultatea crește, făcând mai dificilă găsirea hash-ului corect. Dimpotrivă, dacă acestea au fost extrase prea lent, dificultatea scade, ceea ce ușurează căutarea.
 
 ![image](assets/en/24.webp)
 
-### Mineritul este în continuă evoluție
+### Mining-ul este în continuă evoluție
 
-De-a lungul anilor, minerii s-au dotat cu echipamente informatice din ce în ce mai eficiente pentru a produce cât mai multe hash-uri pe secundă (HashRate), consumând în același timp cât mai puțină energie, în cel mai rentabil mod posibil. Primii mineri, precum Satoshi sau Hal Finney, minau folosind doar procesorul, apoi alții au început să mină cu ajutorul plăcilor grafice. În prezent, minerii utilizează ASIC-uri (Application-Specific Integrated Circuit): mașini concepute exclusiv pentru a aplica algoritmul SHA256.
+De-a lungul anilor, mineri s-au dotat cu echipamente informatice din ce în ce mai eficiente pentru a produce cât mai multe hash-uri pe secundă (HashRate), consumând în același timp cât mai puțină energie, în cel mai rentabil mod posibil. Primii mineri, precum Satoshi sau Hal Finney, minau folosind doar procesorul, apoi alții au început să mină cu ajutorul plăcilor grafice. În prezent, mineri utilizează ASIC-uri (Application-Specific Integrated Circuit): mașini concepute exclusiv pentru a aplica algoritmul SHA256.
 
 ![image](assets/en/56.webp)
 
@@ -913,14 +913,14 @@ Hashrate-ul rețelei Bitcoin reprezintă numărul de încercări făcute pe secu
 
 Antetul blocului conține mai multe elemente, cum ar fi ora, obiectivul de dificultate, numărul ultimului bloc, versiunea utilizată și rădăcina Merkle a tranzacțiilor anterioare.
 
-Tranzacția **coinbase** este întotdeauna prima inclusă în bloc: ea conține recompensa minerului pentru munca efectuată de validator. Apoi urmează tranzacțiile validate. Minerii vor alege să introducă tranzacțiile care le aduc cel mai mare profit, și anume tranzacțiile de dimensiuni mici, cu taxe maxime.
+Tranzacția **coinbase** este întotdeauna prima inclusă în bloc: ea conține recompensa minerului pentru munca efectuată de validator. Apoi urmează tranzacțiile validate. Mineri vor alege să introducă tranzacțiile care le oferă cel mai mare profit, și anume tranzacțiile de dimensiuni mici, cu taxe maxime.
 
 ### Indemnizația minerilor
 
 Inițial, un miner este recompensat atunci când găsește un bloc valid. Mai exact, acesta este recompensat în două moduri:
 
 
-- prin intermediul subvenției (bitcoini nou-nouți) incluse în bloc;
+- prin intermediul subvenției (bitcoini nou-nouți) incluși în bloc;
 - prin comisioane de tranzacționare pentru tranzacțiile incluse în bloc.
 
 Valoarea subvenției este definită de regulile de consens și depinde de epocă: **recompensa blocului = subvenția blocului + taxele de tranzacție**.
@@ -929,11 +929,11 @@ Valoarea subvenției este definită de regulile de consens și depinde de epocă
 
 ![image](assets/en/58.webp)
 
-A doua metodă de compensare este definită de suma aleasă de utilizatori pentru taxele de tranzacționare, care arată urgența utilizatorului de a-și include tranzacția în blocul următor. Deoarece minerii doresc să își maximizeze veniturile, aceștia vor tinde să acorde prioritate tranzacțiilor cu taxe de tranzacționare ridicate.
+A doua metodă de compensare este definită de suma aleasă de utilizatori pentru taxele de tranzacționare, care arată urgența utilizatorului de a-și include tranzacția în blocul următor. Deoarece mineri doresc să își maximizeze veniturile, aceștia vor tinde să acorde prioritate tranzacțiilor cu taxe de tranzacționare ridicate.
 
 ![image](assets/en/59.webp)
 
-Pentru a-și stabiliza modelul de afaceri, care se bazează pe recompensele pe care le primesc pentru fiecare bloc valid, minerii creează adesea grupuri prin intermediul "grupurilor de minare", unde își pun în comun resursele de calcul.
+Pentru a-și stabiliza modelul de afaceri, care se bazează pe recompensele pe care le primesc pentru fiecare bloc valid, mineri creează adesea grupuri prin intermediul "grupurilor de minare", unde își pun în comun resursele de calcul.
 
 ### De ce să vă obosiți să faceți toate astea?
 
@@ -943,15 +943,15 @@ Dar cum se poate face acest lucru fără un intermediar de încredere? Această 
 
 ![image](assets/en/60.webp)
 
-Prin urmare, Bitcoin este un fel de soluție pentru a rezolva această problemă sau, cel puțin, pentru a o ocoli. "Generalii" Bitcoin, sau minerii, produc blocuri (de informații), iar nodurile Bitcoin verifică tranzacțiile financiare folosind reguli de consens pentru a asigura autenticitatea informațiilor. Asimetria costurilor energetice între producerea și verificarea informațiilor asigură fiabilitatea informațiilor, fără o terță parte de încredere.
+Prin urmare, Bitcoin este un fel de soluție pentru a rezolva această problemă sau, cel puțin, pentru a o ocoli. "Generalii" Bitcoin, sau mineri, produc blocuri (de informații), iar nodurile Bitcoin verifică tranzacțiile financiare folosind reguli de consens pentru a asigura autenticitatea informațiilor. Asimetria costurilor energetice între producerea și verificarea informațiilor asigură fiabilitatea informațiilor, fără o terță parte de încredere.
 
-Minerii sunt cei care construiesc securitatea rețelei Bitcoin. Cheltuind energie pentru a produce hașuri, ei construiesc un zid care face extrem de costisitor pentru un agent rău intenționat să rescrie istoricul tranzacțiilor, iar această descurajare economică îi descurajează pe alții să se comporte necinstit.
+Mineri sunt cei care construiesc securitatea rețelei Bitcoin. Cheltuind energie pentru a produce hașuri, ei construiesc un zid care face extrem de costisitor pentru un agent rău intenționat să rescrie istoricul tranzacțiilor, iar această descurajare economică îi descurajează pe alții să se comporte necinstit.
 
-Chiar și în cazul unui atac de 51%, în care un agent ar deține mai mult de jumătate din hashrate, rețeaua ar rămâne sigură, deoarece atacatorul trebuie să cheltuiască la fel de multă energie ca toți minerii împreună pentru a încerca să modifice blockchain-ul. Acest mecanism proof-of-work, care consumă multă energie, este cel care asigură securitatea rețelei.
+Chiar și în cazul unui atac de 51%, în care un agent ar deține mai mult de jumătate din hashrate, rețeaua ar rămâne sigură, deoarece atacatorul trebuie să cheltuiască la fel de multă energie ca toți mineri împreună pentru a încerca să modifice blockchain-ul. Acest mecanism proof-of-work, care consumă multă energie, este cel care asigură securitatea rețelei.
 
 ### În rezumat
 
-Teoria jocurilor aplicată la Bitcoin elimină minerii necinstiți, care folosesc mașini ASIC pentru a mina și primesc o recompensă în caz de succes. În plus, aceștia se alătură adesea grupurilor de mineri pentru a-și împărți puterea de calcul și a primi recompense mai mici, dar mai regulate. Deși mineritul Bitcoin generează costuri energetice ridicate, acesta este esențial pentru funcționarea și securitatea rețelei Bitcoin. Mecanismul proof-of-work și tehnologia blockchain abordează problema dublei cheltuieli și asigură integritatea informațiilor fără a se baza pe o terță parte de încredere. Deși producerea de informații necesită un consum semnificativ de energie, verificarea informațiilor respective implică un cost neglijabil. Această asimetrie consolidează securitatea rețelei, făcând mai viabilă din punct de vedere economic aderarea la regulile de consens decât încercarea de a le încălca.
+Teoria jocurilor aplicată la Bitcoin elimină mineri necinstiți, care folosesc mașini ASIC pentru a mina și primesc o recompensă în caz de succes. În plus, aceștia se alătură adesea grupurilor de mineri pentru a-și împărți puterea de calcul și a primi recompense mai mici, dar mai regulate. Deși mineritul Bitcoin generează costuri energetice ridicate, acesta este esențial pentru funcționarea și securitatea rețelei Bitcoin. Mecanismul proof-of-work și tehnologia blockchain abordează problema dublei cheltuieli și asigură integritatea informațiilor fără a se baza pe o terță parte de încredere. Deși producerea de informații necesită un consum semnificativ de energie, verificarea informațiilor respective implică un cost neglijabil. Această asimetrie consolidează securitatea rețelei, făcând mai viabilă din punct de vedere economic aderarea la regulile de consens decât încercarea de a le încălca.
 
 Dacă doriți să aprofundați subiectul specific al mineritului Bitcoin, puteți consulta cursul nostru MIN 201. Veți descoperi funcționarea și rolul Proof-of-Work, precum și mecanismele industriei miniere. De asemenea, vă explicăm cum să transformați un ASIC într-un încălzitor, permițându-vă să minați primii satoshis în timp ce vă încălziți casa!
 
@@ -968,11 +968,11 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ![image](assets/en/61.webp)
 
-Consumul de energie electrică reprezintă aproape toate costurile pentru un miner. Prin urmare, aceștia sunt încurajați să găsească o sursă ieftină de electricitate, astfel încât să poată merge în locuri unde sunt instalate centrale electrice, dar care nu sunt încă conectate la rețeaua electrică a teritoriului. În acest caz, minerii acționează ca un cumpărător de ultimă instanță, permițând centralelor electrice să obțină finanțare chiar înainte de a fi conectate la rețeaua electrică. Atunci când acestea vor fi conectate, cererea de energie electrică va crește, ceea ce va duce la creșterea prețului și va face mai puțin rentabil pentru mineri să obțină energie electrică în aceste locuri. Deoarece utilajele pot fi mutate cu ușurință, minerii vor decide atunci să își ia instalațiile și să se stabilească mai departe, unde cererea este scăzută, la fel și prețul, cel mai adesea în zone unde pot obține energie de la centrale electrice ecologice.
+Consumul de energie electrică reprezintă aproape toate costurile pentru un miner. Prin urmare, aceștia sunt încurajați să găsească o sursă ieftină de electricitate, astfel încât să poată merge în locuri unde sunt instalate centrale electrice, dar care nu sunt încă conectate la rețeaua electrică a teritoriului. În acest caz, mineri acționează ca un cumpărător de ultimă instanță, permițând centralelor electrice să obțină finanțare chiar înainte de a fi conectate la rețeaua electrică. Atunci când acestea vor fi conectate, cererea de energie electrică va crește, ceea ce va duce la creșterea prețului și va face mai puțin rentabil pentru mineri să obțină energie electrică în aceste locuri. Deoarece utilajele pot fi mutate cu ușurință, mineri vor decide atunci să își ia instalațiile și să se stabilească mai departe, unde cererea este scăzută, la fel și prețul, cel mai adesea în zone unde pot obține energie de la centrale electrice ecologice.
 
 ### O dezbatere fără sfârșit
 
-Astfel, dezbaterea privind impactul ecologic al Bitcoin este adesea eronată, în principal din cauza unei înțelegeri insuficiente a utilității sale. Bitcoin nu poate fi evaluat doar în termeni de costuri energetice pe tranzacție, deoarece minerii securizează atât rețeaua actuală, cât și cea istorică, iar tranzacțiile sunt grupate și nu toate sunt echivalente. În plus, impactul rețelei Lightning nici măcar nu este luat în considerare. Cei care susțin că Bitcoin consumă prea multă energie pot avea motivații politice sau caută să își vândă propria soluție blockchain. De multe ori, pretextul ecologic este folosit pentru a justifica interzicerea Bitcoin.
+Astfel, dezbaterea privind impactul ecologic al Bitcoin este adesea eronată, în principal din cauza unei înțelegeri insuficiente a utilității sale. Bitcoin nu poate fi evaluat doar în termeni de costuri energetice pe tranzacție, deoarece mineri securizează atât rețeaua actuală, cât și cea istorică, iar tranzacțiile sunt grupate și nu toate sunt echivalente. În plus, impactul rețelei Lightning nici măcar nu este luat în considerare. Cei care susțin că Bitcoin consumă prea multă energie pot avea motivații politice sau caută să își vândă propria soluție blockchain. De multe ori, pretextul ecologic este folosit pentru a justifica interzicerea Bitcoin.
 
 Este important să subliniem faptul că Bitcoin, ca invenție revoluționară, oferă persoanelor care trăiesc sub opresiune financiară sau sub regimuri dictatoriale un mijloc de a lupta pentru libertatea lor. Ca ultimă soluție, Bitcoin oferă o cale către independența financiară prin eludarea cenzurii și a restricțiilor bancare. Mai mult decât o simplă monedă, Bitcoin este o formă de comunicare și un simbol al libertății, iar energia depusă de mineri joacă un rol crucial în apărarea acestei libertăți, permițând emanciparea de un sistem financiar dominat de datorii și de crearea excesivă de monedă de către băncile centrale.
 

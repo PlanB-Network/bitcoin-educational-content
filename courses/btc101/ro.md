@@ -667,7 +667,7 @@ Ca orice formă de avere, bitcoinii trebuie protejați împotriva pierderii, fur
 
 ### Gravură în oțel
 
-O metodă de a vă securiza bitcoinii pe termen lung este gravarea frazei mnemotehnice pe un material rezistent, cum ar fi oțelul, prin crearea unei copii de siguranță fizice a cheilor dvs. care este rezistentă atât la apă, cât și la incendii.
+O metodă de a vă securiza bitcoinii pe termen lung este să gravați fraza mnemonică dvs. pe un material rezistent, cum ar fi oțelul, Creând așa o copie de siguranță fizică a cheilor dvs. care este rezistentă atât la apă, cât și la incendii.
 
 Sunt disponibile diverse soluții: unele dintre ele sunt ieftine, cum ar fi "Blockmit", în timp ce altele pot necesita echipamente mai specializate. Puteți explora în continuare acest subiect în secțiunea [tutoriale](https://planb.network/en/tutorials/wallet) a academiei noastre.
 
@@ -687,7 +687,7 @@ Pe lângă crearea de copii de rezervă fizice sau elaborarea unui plan de moșt
 
 În ceea ce privește confidențialitatea, este esențial să evitați să vorbiți cu toată lumea despre bitcoinii dumneavoastră. Nu putem prezice modul în care această tehnologie va fi percepută în viitor, astfel încât păstrarea discreției cu privire la proprietatea dvs. este o alegere înțeleaptă: nu doriți să atrageți atenția asupra dvs. sau asupra portofelului dvs.
 
-În mod similar, evitați să împărtășiți în mod deschis detalii despre sistemul dvs. de securitate în timpul întâlnirilor cu bitcoin sau al întâlnirilor cu străini...
+În mod similar, evitați să împărtășiți în mod deschis detalii despre sistemul dvs. de securitate în timpul întâlnirilor despre bitcoin sau al întâlnirilor cu străini...
 
 ### Rezumat privind securitatea portofelului Bitcoin
 
@@ -721,23 +721,23 @@ Acum că am acoperit elementele de bază ale portofelelor Bitcoin și cele mai b
 
 ![image](assets/en/39.webp)
 
-31 octombrie 2008 marchează nașterea noii tehnologii financiare Bitcoin. În această zi, anonimul Satoshi Nakamoto și-a prezentat inovația lumii prin intermediul unui e-mail trimis listei de corespondență a cypherpunks, o comunitate de entuziaști ai criptografiei dedicată promovării confidențialității pe internet. Acest e-mail conținea un document numit "White Paper", care prezenta modul de funcționare al Bitcoin.
+31 octombrie 2008 marchează nașterea noii tehnologii financiare Bitcoin. În această zi, anonimul Satoshi Nakamoto și-a prezentat inovația lumii prin intermediul unui e-mail trimis pe o listă de e-mailuri cypherpunks, o comunitate de entuziaști ai criptografiei dedicată promovării confidențialității pe internet. Acest e-mail conținea un document numit "White Paper", care prezenta modul de funcționare al Bitcoin.
 
-Această inițiativă nu a generat imediat entuziasm, probabil din cauza eșecurilor anterioare în încercările de a crea un sistem de numerar digital. Cu toate acestea, această carte albă a devenit în cele din urmă o referință pentru utilizatorii Bitcoin și a fost subiectul multor dezbateri în ecosistemul Bitcoin de-a lungul anilor.
+Această inițiativă nu a generat imediat entuziasm, probabil din cauza eșecurilor anterioare în încercările de a crea un sistem de numerar digital. Cu toate astea, aceast White Paper a devenit în cele din urmă o referință pentru utilizatorii Bitcoin și a fost subiectul multor dezbateri în ecosistemul Bitcoin de-a lungul anilor.
 
 ![image](assets/en/40.webp)
 
-La 3 ianuarie 2009, Satoshi a inaugurat oficial rețeaua Bitcoin prin crearea primului bloc, cunoscut și sub numele de "Genesis block", care a marcat lansarea blockchain-ului Bitcoin. Acest bloc conține un mesaj revelator care reflectă misiunea Bitcoin: "03/ian/2009 Cancelarul în pragul celui de-al doilea plan de salvare pentru bănci"
+în 3 ianuarie 2009, Satoshi a inaugurat oficial rețeaua Bitcoin prin crearea primului bloc, cunoscut și sub numele de "Genesis block", care a marcat lansarea blockchain-ului Bitcoin. Acest bloc conține un mesaj revelator care reflectă misiunea Bitcoin: "03/ian/2009 Cancelarul în pragul celui de-al doilea plan de salvare pentru bănci"
 
 ![image](assets/en/41.webp)
 
-> "Putem câștiga o bătălie majoră în cursa înarmărilor și putem obține o
-> noul teritoriu al libertății pentru mai mulți ani" - Satoshi Nakamoto
+> "Putem câștiga o bătălie majoră în cursa înarmărilor și putem obține 
+> un nou teritoriu al libertății pentru mai mulți ani" - Satoshi Nakamoto
 ![image](assets/en/42.webp)
 
 ### Protocolul Bitcoin prinde viață
 
-Pe 9 ianuarie 2009, Satoshi a anunțat lansarea versiunii Bitcoin 0.1.0. La scurt timp, Hal Finney a pus mâna pe software și s-a alăturat rețelei, ceea ce a marcat prezența a două noduri și, prin urmare, a doi mineri în rețea. Finney chiar a imortalizat acest pas prin tweet-ul: "Running Bitcoin". La 12 ianuarie 2009, prima tranzacție Bitcoin de 10 BTC a fost efectuată între Satoshi și Hal Finney, și o puteți găsi cu ușurință, dacă vă întoarceți la blocul 170.
+Pe 9 ianuarie 2009, Satoshi a anunțat lansarea versiunii Bitcoin 0.1.0. La scurt timp, Hal Finney a pus mâna pe software și s-a alăturat rețelei, ceea ce a marcat prezența a două noduri și, prin urmare, a doi mineri în rețea. Finney chiar a imortalizat acest pas prin tweet-ul: "Running Bitcoin". în 12 ianuarie 2009, prima tranzacție Bitcoin de 10 BTC a fost efectuată între Satoshi și Hal Finney, și o puteți găsi cu ușurință, dacă vă întoarceți la blocul 170.
 
 ![image](assets/en/43.webp)
 
@@ -751,10 +751,10 @@ Forumul a devenit rapid locul preferat de discuție pentru utilizatorii Bitcoin,
 
 ### Dispariția lui Satoshi Nakamoto
 
-În 2010, pe măsură ce Bitcoin a început să atragă atenția mass-media, Satoshi a decis să se distanțeze anunțându-și plecarea într-o postare pe forum la 12 decembrie 2010. La 23 aprilie 2011, el a făcut ultimul său schimb privat cunoscut prin e-mail, apoi a dispărut, lăsându-și creația în mâinile comunității.
+În 2010, pe măsură ce Bitcoin a început să atragă atenția mass-media, Satoshi a decis să se distanțeze anunțându-și plecarea într-o postare pe forum în 12 decembrie 2010. Pe 23 aprilie 2011, el a făcut ultimul său schimb privat cunoscut prin e-mail, apoi a dispărut, lăsându-și creația în mâinile comunității.
 
-> "Guvernele se pricep să taie capetele unui sistem centralizat
-> rețele controlate precum Napster, dar rețele P2P pure precum
+> "Guvernele se pricep să taie capetele unei rețele centralizate
+> și controlate precum Napster, dar rețele P2P pure precum
 > Gnutella și Tor par să se mențină." - Satoshi Nakamoto
 În ciuda absenței lui Satoshi, Bitcoin a continuat să fie dezvoltat: istoria Bitcoin este scrisă la fiecare 10 minute, iar protocolul continuă să funcționeze până în prezent conform destinației. Indiferent de orice teamă, incertitudine sau îndoială, Bitcoin continuă să meargă înainte, cu o disponibilitate online foarte puternică. De fapt, în conformitate cu acest [site] (https://bitcoinuptime.com/), Bitcoin a fost funcțional și a funcționat fără probleme masive timp de 99,988% din timp de când a fost creat.
 
@@ -789,7 +789,7 @@ Pentru a finaliza tranzacția, Bob trebuie să o semneze cu cheia sa privată pe
 
 ### Etapa 2: Propagarea tranzacției prin noduri
 
-În această etapă, tranzacția a fost creată, iar portofelul lui Bob o va partaja cu rețeaua Bitcoin. Pentru a face acest lucru, portofelul său va comunica cu un nod al rețelei Bitcoin, care va propaga această informație către alte noduri. Acest tip de proces permite întregii rețele să vadă această nouă tranzacție și să o ia în considerare.
+În acest stadiu, tranzacția a fost creată, iar portofelul lui Bob o va partaja cu rețeaua Bitcoin. Pentru a face acest lucru, portofelul său va comunica cu un nod al rețelei Bitcoin, care va propaga această informație către alte noduri. Acest tip de proces permite întregii rețele să vadă această nouă tranzacție și să o ia în considerare.
 
 ![image](assets/en/47.webp)
 
@@ -843,9 +843,9 @@ Prin urmare, orice dispozitiv care rulează un software Bitcoin, numit nod Bitco
 
 ### Nodurile sunt nucleul central al Bitcoin.
 
-Fiecare nod deține o copie a blockchain-ului, care permite verificarea tranzacțiilor și previne orice tentativă de fraudă. Natura descentralizată a rețelei conferă Bitcoin o reziliență și o robustețe excepționale. De fapt, pentru a opri protocolul Bitcoin, ar trebui să fie oprite toate nodurile din lume. Pentru informarea dumneavoastră, în septembrie 2023 existau aproximativ [45 000 de noduri](https://bitnodes.io/nodes/all/) distribuite în întreaga lume.
+Fiecare nod deține o copie a blockchain-ului, care permite verificarea tranzacțiilor și previne orice tentativă de fraudă. Natura descentralizată a rețelei conferă Bitcoin o reziliență și o robustețe excepțională. De fapt, pentru a opri protocolul Bitcoin, ar trebui să fie oprite toate nodurile din lume. Pentru informarea dumneavoastră, în septembrie 2023 existau aproximativ [45 000 de noduri](https://bitnodes.io/nodes/all/) distribuite în întreaga lume.
 
-Nodurile sunt capabile să verifice validitatea blocurilor și a tranzacțiilor deoarece urmează regulile consensului Bitcoin. Aceste reguli stabilesc politica monetară a Bitcoin, cum ar fi valoarea recompensei minerilor (pe care o vom discuta mai în detaliu în secțiunea următoare) și valoarea bitcoin în circulație. Într-un fel, nodurile acționează ca sistemul juridic al rețelei, deoarece toți participanții la rețea urmează aceleași reguli din cauza lor, astfel încât acestea asigură neutralitatea protocolului Bitcoin. Regulile de consens nu variază aproape deloc, dacă variază, deoarece, pentru a face modificări, este necesară aprobarea tuturor nodurilor.
+Nodurile sunt capabile să verifice validitatea blocurilor și a tranzacțiilor deoarece urmează regulile consensului Bitcoin. Aceste reguli stabilesc politica monetară a Bitcoin, cum ar fi valoarea recompensei minerilor (pe care o vom discuta mai în detaliu în secțiunea următoare) și cantitatea de bitcoin în circulație. Într-un fel, nodurile acționează ca sistemul juridic al rețelei, datorită lor toți participanții la rețea urmează aceleași reguli, astfel aceștia asigură neutralitatea protocolului Bitcoin. Regulile de consens nu variază aproape deloc, deoarece pentru a face modificări, este necesară aprobarea tuturor nodurilor.
 
 ![image](assets/en/52.webp)
 

@@ -118,24 +118,24 @@ I sistemi di pagamento sono metodi e infrastrutture che consentono il trasferime
 
 ### Tipi comuni di metodi di pagamento
 
-1. **Contanti:** valuta fisica scambiata direttamente tra due parti.
+1. **Contanti**: valuta fisica scambiata direttamente tra due parti.
 
-2. **Assegni:** documenti cartacei che ordinano a una banca di pagare un determinato importo dal conto del pagatore al beneficiario.
+2. **Assegni**: documenti cartacei che ordinano a una banca di pagare un determinato importo dal conto del pagatore al beneficiario.
 
-3. **Trasferimenti via cavo:** trasferimento elettronico di fondi tra banche, spesso utilizzato per somme maggiori e pagamenti transfrontalieri.
+3. **Trasferimenti via cavo**: trasferimento elettronico di fondi tra banche, spesso utilizzato per somme maggiori e pagamenti transfrontalieri.
 
-4. **Carte di pagamento (credito/debito):** carte plastificate o digitali collegate a una rete di carte, che consentono di trasferire fondi dal conto bancario (o dalla linea di credito) del titolare della carta a un esercente.
+4. **Carte di pagamento (credito/debito)**: carte plastificate o digitali collegate a una rete di carte, che consentono di trasferire fondi dal conto bancario (o dalla linea di credito) del titolare della carta a un esercente.
 
-5. **Portafogli digitali e pagamenti mobili:** applicazioni o dispositivi che memorizzano le informazioni di pagamento (ad esempio, Apple Pay, WeChatPay, AliPay, PayPal), consentendo trasferimenti rapidi e spesso senza contatto.
+5. **Portafogli digitali e pagamenti mobili**: applicazioni o dispositivi che memorizzano le informazioni di pagamento (ad esempio, Apple Pay, WeChatPay, AliPay, PayPal), consentendo trasferimenti rapidi e spesso senza contatto.
 
-**Utilizzo nel B2C e nel B2B:**
+**Utilizzo nel B2C e nel B2B**:
 
 
-- **B2C (Business-to-Consumer):**
+- **B2C (Business-to-Consumer)**:
     - I consumatori utilizzano spesso contanti, carte e portafogli digitali per gli acquisti di tutti i giorni, come la spesa, lo shopping online o servizi come il ride-hailing.
     - Velocità, convenienza e spese ridotte (per il consumatore) sono spesso le priorità principali.
     - I pagamenti contactless e mobile sono sempre più popolari in questo spazio grazie alla loro facilità d'uso.
-- **B2B (Business-to-Business):**
+- **B2B (Business-to-Business)**:
     - Le aziende si affidano comunemente a bonifici, assegni e sistemi di fatturazione per pagare i fornitori, saldare grandi fatture o gestire pagamenti ricorrenti.
     - L'attenzione è spesso rivolta alla tracciabilità, alla documentazione e alla capacità di gestire transazioni di valore superiore.
     - L'uso della carta esiste, ma tende a essere meno comune a causa di commissioni e limiti di transazione più elevati. Stanno emergendo soluzioni digitali, come le piattaforme di pagamento integrate, per snellire e automatizzare i processi di pagamento e incasso.
@@ -159,10 +159,10 @@ Nel complesso, questo processo è intricato, lungo e costoso per quello che dovr
 | Metodo di pagamento                | Autorizzazione necessaria?                     | Tempo di approvazione della transazione (vista dall'esercente) | Velocità di regolamento (fondi completamente regolati)      | Finalità (facilità di storno)                                   | Numero di intermediari             | Commissioni tipiche (al beneficiario)       |
 | ---------------------------------- | ---------------------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------- | ---------------------------------- | ------------------------------------------- |
 | **Cash**                           | No                                             | Immediato (scambio fisico)                                     | Immediato (nessun ritardo di liquidazione)                  | Alto (irreversibile una volta pagato)                           | Nessuno                            | Nessuno                                     |
-| **Assegni**                        | Sì (compensazione bancaria)                    | Accettazione al momento del deposito (non garantita)           | Diversi giorni (processo di compensazione dell'assegno)     | Medio (può essere respinto/bloccato prima della compensazione)  | Banca                              | **Da basso a medio** (commissioni bancarie) |
-| **Trasferimenti via cavo**         | Sì (Banca/Rete)                                | Conferma entro poche ore                                       | Stesso giorno o giorno successivo (nazionale)               | Alto (di solito irreversibile una volta inviato)                | Banche, Reti di pagamento          | **Medio**(Fisso/Percentuale)                |
-| **Carte di pagamento**             | Sì (Autorizzazione dell'emittente della carta) | Da secondi a minuti (Codice di autorizzazione)                 | Alcuni giorni (Regolamento interbancario)                   | Medio (Possibilità di addebiti)                                 | Emittente, Acquirer, Rete di carte | **Variabile (1-3% della transazione)**      |
-| **Portafogli digitali/Mobile Pay** | Sì (Provider di Portafoglio/Banca)             | Secondi (Conferma istantanea)                                  | In genere 1-2 giorni (Dipende dalla fonte di finanziamento) | Medio (Possibilità di rimborso/diffida)                         | Banche, Operatori di Portafoglio   | **Da basso a medio (Varia)**                |
+| **Assegni**                        | Sì (compensazione bancaria)                    | Accettazione al momento del deposito (non garantita)           | Diversi giorni (processo di compensazione dell'assegno)     | Medio (può essere respinto/bloccato prima della compensazione)  | Banca                              | **Da basso a medio** (Commissioni bancarie) |
+| **Trasferimenti via cavo**         | Sì (Banca/Rete)                                | Conferma entro poche ore                                       | Stesso giorno o giorno successivo (nazionale)               | Alto (di solito irreversibile una volta inviato)                | Banche, Reti di pagamento          | **Medio** (Fisso/Percentuale)               |
+| **Carte di pagamento**             | Sì (Autorizzazione dell'emittente della carta) | Da secondi a minuti (Codice di autorizzazione)                 | Alcuni giorni (Regolamento interbancario)                   | Medio (Possibilità di addebiti)                                 | Emittente, Acquirer, Rete di carte | **Variabile** (1-3% della transazione)      |
+| **Portafogli digitali/Mobile Pay** | Sì (Provider di Portafoglio/Banca)             | Secondi (Conferma istantanea)                                  | In genere 1-2 giorni (Dipende dalla fonte di finanziamento) | Medio (Possibilità di rimborso/diffida)                         | Banche, Operatori di Portafoglio   | **Da basso a medio** (Varia)                |
 
 ### Limiti delle soluzioni esistenti
 
@@ -300,7 +300,7 @@ Lightning Network è ideale per i pagamenti in Bitcoin nei negozi fisici o onlin
 
 - **Invenzione**: 2015
 - **Lancio**: 2016
-- **Età:** 7 anni (prima transazione: 28 dicembre 2017)
+- **Età**: 7 anni (prima transazione: 28 dicembre 2017)
 - **Capacità tecnica della rete**: in scala può gestire un numero di transazioni istantanee 1.000 volte superiore a quello dei sistemi tradizionali
 - **Dimensioni delle transazioni**: range da grandi valori a 1.000 volte più piccoli rispetto ai sistemi tradizionali
 - **Velocità di transazione**: fino a 100 volte più veloce
@@ -689,7 +689,7 @@ Oltre alle commissioni e alla velocità di esecuzione, _che contano meno se si p
 
 - **Interfaccia utente**: la piattaforma è di facile utilizzo?
 - **Caratteristiche contabili**: come minimo, la possibilità di esportare la cronologia delle transazioni in formato .CSV.
-- **Custodia e sicurezza:**: la piattaforma detiene i bitcoin per conto dell'utente o ne trasferisce la proprietà a quest'ultimo? Qual è la loro configurazione di sicurezza? Hanno _"franchige di prelievo"_ o altre limitazioni di prelievo?
+- **Custodia e sicurezza**: la piattaforma detiene i bitcoin per conto dell'utente o ne trasferisce la proprietà a quest'ultimo? Qual è la loro configurazione di sicurezza? Hanno _"franchige di prelievo"_ o altre limitazioni di prelievo?
 - **Assistenza clienti**: la qualità, la reattività e l'assistenza personalizzata, soprattutto quando si inizia.
 - **Reputazione ed ethos**: affidabilità e valori della piattaforma.
 - **Supporto per gli acquisti ricorrenti**: se avete intenzione di accumulare dei bitcoin nel tempo con acquisti programmati.
@@ -772,9 +772,9 @@ Per semplificare il processo decisionale, abbiamo definito quattro profili azien
 | **Esportazioni contabili**           | Elenchi di base della cronologia delle transazioni                                                                                                                |
 | **API**                              | No                                                                                                                                                                |
 
-#### Profilo 2 - L'_Essential_
+#### Profilo 2 - L'_"Essential"_
 
-| Caratteristiche                      | L'_Essential_
+| Caratteristiche                      | L'_"Essential"_                                                                                                                                              |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Stato d'animo**                    | _"Accetto Bitcoin nella mia attività, ma non mi aspetto un volume significativo"_                                                                            |
 | **Frequenza delle transazioni**      | Poche transazioni al mese                                                                                                                                    |
@@ -790,9 +790,9 @@ Per semplificare il processo decisionale, abbiamo definito quattro profili azien
 | **Esportazioni contabili**           | Esportazione CSV con tutti i dettagli delle transazioni                                                                                                      |
 | **API**                              | Sì                                                                                                                                                           |
 
-#### Profilo 3 - Il _Professional_
+#### Profilo 3 - Il _"Professional"_
 
-| Caratteristiche                      | Il _Professional_                                                                                                                                                                             |
+| Caratteristiche                      | Il _"Professional"_                                                                                                                                                                           |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Stato d'animo**                    | Un metodo di pagamento come un altro per il mio e-commerce, o una gestione congiunta per un gruppo di aziende pronte a volumi più elevati                                                     |
 | **Frequenza delle transazioni**      | Più transazioni al giorno                                                                                                                                                                     |
@@ -808,9 +808,9 @@ Per semplificare il processo decisionale, abbiamo definito quattro profili azien
 | **Esportazioni contabili**           | Esportazione CSV con tutti i dettagli delle transazioni                                                                                                                                       |
 | **API**                              | Sì                                                                                                                                                                                            |
 
-#### Profilo 4 - L'_Enterprise_
+#### Profilo 4 - L'_"Enterprise"_
 
-| Caratteristiche                      | L'_Enterprise_                                                                                                                                                   |
+| Caratteristiche                      | L'_"Enterprise"_                                                                                                                                                   |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Stato d'animo**                    | Un metodo di pagamento strategico per l'azienda - Con un po' di sviluppo per integrarlo nella piattaforma di servizi secondo le specifiche                       |
 | **Frequenza delle transazioni**      | Illimitata, transazioni ad alta frequenza                                                                                                                        |
@@ -868,7 +868,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-## L'_Essential_
+## L'_"Essential"_
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
 
@@ -910,7 +910,7 @@ https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b
 
 Infine, come complemento ai punti vendita fisici, si potrebbe considerare la creazione di [un Bitcoinize PoS](https://bitcoinize.com/).
 
-## Il _Professionial_
+## Il _"Professionial"_
 
 <chapterId>4d5dfa50-c4d0-481c-ab95-1863a898750e</chapterId>
 
@@ -945,7 +945,7 @@ Per quanto riguarda gli esempi reali, si pensi a un negozio di e-commerce di med
 Per approfondire le specifiche di implementazione ed esplorare le configurazioni pratiche di BTC Pay Server, fate riferimento al seguente corso:
 
 https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
-## L'_Enterprise_
+## L'_"Enterprise"_
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
 
@@ -1139,7 +1139,7 @@ La classificazione dei bitcoin nei bilanci varia a seconda della giurisdizione e
 - **Inventario**: se l'attività principale di un'azienda consiste nella negoziazione di bitcoin, come nel caso degli exchange di criptovalute o dei broker, i bitcoin sono classificati come inventario. In questo caso, la valutazione segue i principi contabili delle scorte.
 - **Investimento finanziario**: le aziende che detengono dei bitcoin come attività a lungo termine possono classificarlo come investimento finanziario. Ad esempio, negli Stati Uniti, le aziende potrebbero contabilizzare i bitcoin secondo le linee guida del Financial Accounting Standards Board (FASB), riconoscendo le svalutazioni quando i valori di mercato diminuiscono.
 
-**Implicazioni della classificazione :**
+**Implicazioni della classificazione**:
 
 
 - Le partecipazioni a lungo termine richiedono spesso test di svalutazione e ammortamento.
@@ -1186,7 +1186,7 @@ Quando un'azienda decide di integrare Bitcoin nella propria contabilità, vari s
 - [Koinly](https://koinly.io/);
 - [TokenTax](https://tokentax.co/);
 - [ZenLedger](https://zenledger.io/).
-- 
+
 Queste piattaforme si concentrano principalmente su quattro aspetti:
 
 
@@ -1329,7 +1329,7 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 **Riepilogo**:
 
 
-- ** I bitcoin rimanenti**: 0.19335 bitcoin per un valore di 7.734 euro (a 40.000 €/BTC).
+- **I bitcoin rimanenti**: 0.19335 bitcoin per un valore di 7.734 euro (a 40.000 €/BTC).
 - **Utili realizzati**: 2.735 euro inclusi nel conto economico.
 - **Utili non realizzati**: 5.468 euro indicati nelle note finanziarie (compreso il valore non realizzato dei bitcoin residui).
 

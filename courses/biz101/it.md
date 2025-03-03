@@ -698,7 +698,7 @@ Oltre alle commissioni e alla velocità di esecuzione, _che contano meno se si p
 
 <partId>b2c8af88-6bfc-49b1-ad84-4c292c713b55</partId>
 
-## Accettare dei bitcoin come pagamento
+## Accettare i bitcoin come pagamento
 
 <chapterId>99af1203-bc84-4acc-9780-f733e7998335</chapterId>
 
@@ -713,32 +713,32 @@ Bitcoin è un'infrastruttura di fiducia, la cui prima applicazione è quella di 
 Considerate ora la prospettiva di un'azienda pratica la cui attività principale non ha nulla a che fare con Bitcoin. Perché dovrebbe scegliere di accettare pagamenti in Bitcoin?
 
 
-- **Costruire una tesoreria in Bitcoin:**
+- **Costruire una tesoreria in bitcoin**:
 
-Si veda il nostro precedente articolo sull'acquisto di Bitcoin. Per convinzione o come strategia di diversificazione, alcuni professionisti scelgono di accettare pagamenti in Bitcoin. Alcuni Bitcoiner sostengono che quanto meno un'azienda è dotata di capacità finanziarie, ovvero non ha né il tempo né gli strumenti per impegnarsi in complesse manovre finanziarie, **tanto più è fondamentale che venga pagata con la forma di denaro più difficile disponibile**. In questo modo, si livella il campo di gioco, consentendo anche alle piccole imprese con problemi di tempo di preservare il valore senza rimanere invischiate in giochi finanziari.
+Si veda il nostro precedente articolo sull'acquisto di bitcoin. Per convinzione o come strategia di diversificazione, alcuni professionisti scelgono di accettare pagamenti in bitcoin. Alcuni Bitcoiner sostengono che quanto meno un'azienda è dotata di capacità finanziarie, ovvero non ha né il tempo né gli strumenti per impegnarsi in complesse manovre finanziarie, **tanto più è fondamentale che venga pagata con la forma di denaro più resistente disponibile**. In questo modo, si livella il campo di gioco, consentendo anche alle piccole imprese con problemi di tempo di preservare il valore senza rimanere invischiate in giochi finanziari.
 
 
-- **Raggiungere una nuova fascia demografica:**
+- **Raggiungere una nuova fascia demografica**:
 
 Il numero di utenti di Bitcoin è in crescita e ha un notevole potere d'acquisto. Naturalmente graviteranno verso le attività commerciali che accettano la loro valuta. Inoltre, trattandosi della prima moneta universale e nativa di Internet, è possibile attirare anche clienti internazionali di passaggio.
 
 
-- **Aumentare la visibilità:**
+- **Aumentare la visibilità**:
 
 Inserendo la vostra attività su piattaforme come BTCmap.org, ad esempio. Attualmente solo poche aziende accettano Bitcoin, quindi il passaparola va a vostro vantaggio. Inoltre, vi distingue dai vostri concorrenti.
 
 
-- **Commissioni di transazione più basse:**
+- **Commissioni di transazione più basse**:
 
 I pagamenti istantanei in Bitcoin avvengono tramite Lightning Network. **Le spese sono minime e vengono pagate dall'acquirente**. Non ci sono spese per i terminali di pagamento, non ci sono fallimenti nell'autorizzazione dei pagamenti e non ci sono frodi. A titolo di confronto, il settore dei pagamenti (carte, terminali, trasferimenti, PSP, ecc.) costa circa 2,2 trilioni di dollari all'anno a livello globale. Se a ciò si aggiungono i chargeback e le frodi, si ottiene che quasi un decimo dell'equivalente del PIL degli Stati Uniti viene _"prosciugato"_ dalle aziende produttive di tutto il mondo solo per trasferire valore. Indipendentemente dalla vostra attività, le commissioni finanziarie sono un onere che dovrebbe essere ottimizzato e, in alcuni casi, le commissioni elevate possono soffocare alcuni modelli di business.
 
 
-- **Libertà e senza permessi, 24 ore su 24, 7 giorni su 7:**
+- **Libertà senza permessi, 24 ore su 24, 7 giorni su 7**:
 
-Non c'è bisogno di chiedere il permesso per usare Bitcoin. Chiunque può partecipare all'economia in pochi minuti utilizzando un'applicazione per smartphone. È possibile inviare o ricevere un pagamento da chiunque - persone fisiche o aziende - in qualsiasi momento, senza vincoli di orario o ritardi.
+Non c'è bisogno di chiedere il permesso per usare Bitcoin. Chiunque può partecipare a questa economia in pochi minuti utilizzando un'applicazione per smartphone. È possibile inviare o ricevere un pagamento da chiunque _persone fisiche o aziende_ in qualsiasi momento, senza vincoli di orario o ritardi.
 
 
-- **Sfruttare il Network di Bitcoin per i suoi vantaggi:**
+- **Sfruttare il Network di Bitcoin per i suoi vantaggi**:
 
 Non siete obbligati a mantenere i vostri pagamenti in Bitcoin, soprattutto se dovete pagare i fornitori o versare l'IVA. Alcuni servizi possono convertire tutti o parte dei vostri pagamenti in Bitcoin nella valuta di vostra scelta (ad esempio, euro al vostro IBAN) a pagamento. In questo scenario, il vantaggio di accettare Bitcoin potrebbe risiedere nell'attrarre nuovi utenti o nei vantaggi intrinseci di Bitcoin (come le commissioni più basse, il funzionamento 24 ore su 24 e l'assenza di rischi di frode o chargeback).
 
@@ -746,7 +746,7 @@ Non siete obbligati a mantenere i vostri pagamenti in Bitcoin, soprattutto se do
 
 È relativamente facile iniziare ad accettare pagamenti in Bitcoin. Per scegliere la soluzione giusta, considerate le caratteristiche delle transazioni che gestite: l'importo medio dei pagamenti, la frequenza delle transazioni e se accetterete pagamenti in un ambiente fisico, online o entrambi.
 
-Anche la vostra mentalità di commercianti è importante. State eseguendo un semplice test o prevedete che Bitcoin diventi una fonte di introiti significativa e ricorrente? In quest'ultimo caso, avrete bisogno di una configurazione solida, completa e personalizzabile.
+Anche la vostra mentalità di commercianti è importante. State eseguendo un semplice test o prevedete che i bitcoin diventino una fonte di introiti significativa e ricorrente? In quest'ultimo caso, avrete bisogno di una configurazione solida, completa e personalizzabile.
 
 Non dimenticate di considerare i diversi ruoli dei vostri dipendenti e le loro sedi. In ogni caso, ricordate che dovete essere in grado di fornire tutte le informazioni necessarie al vostro commercialista e di snellire il processo contabile.
 
@@ -758,43 +758,43 @@ Per semplificare il processo decisionale, abbiamo definito quattro profili azien
 
 | Caratterisitica                      | Lo _"Starter"_                                                                                                                                                    |
 | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Stato d'animo**                    | _"provare il mio primo pagamento fisico"_, _"accettare una mancia per i miei contenuti online"_, _"puntare a entrate molto piccole"_                              |
+| **Stato d'animo**                    | _"provare il mio primo pagamento fisico"_, _"accettare una mancia per i miei contenuti online"_, _"puntare a ingressi molto piccoli"_                             |
 | **Frequenza delle transazioni**      | _"prima transazione per imparare"_, _"pagamento una volta ogni tanto"_                                                                                            |
 | **Esempi di tipi di business**       | Economia creativa (creatori di contenuti, blog, articoli, ecc.), consigli occasionali, vendita di prodotti di persona una tantum, associazioni, eventi una tantum |
-| **Tipo di pagamento**                | In genere da pochi centesimi a pochi euro/dollari; sotto i ~300 euro/dollari per articolo                                                                         |
-| **Complessività delle impostazioni** | Nessuno                                                                                                                                                           |
-| **Esempio di soluzione consigliata** | Un portafoglio Lightning custodial come Wallet of Satoshi o un portafoglio non custodiale come Phoenix                                                            |
+| **Tipi di pagamento**                | In genere da pochi centesimi a pochi euro/dollari; sotto i ~300 euro/dollari per articolo                                                                         |
+| **Complessità delle impostazioni**   | Nessuna                                                                                                                                                           |
+| **Esempio di soluzione consigliata** | Un portafoglio Lightning custodial come Wallet of Satoshi o un portafoglio non custodial come Phoenix                                                             |
 | **Interfaccia per il commerciante**  | Portafoglio semplice Bitcoin Lightning: un'applicazione su un telefono cellulare                                                                                  |
 | **Interfaccia per il cliente**       | Codice di pagamento Bitcoin QR, scansionato tramite il portafoglio personale del cliente                                                                          |
-| **Commission di transazione (fee)**  | Il cliente paga le spese di Bitcoin Lightning più le eventuali spese per l'applicazione                                                                           |
+| **Commissioni di transazione (fee)** | Il cliente paga le spese di Bitcoin Lightning più le eventuali spese per l'applicazione                                                                           |
 | **Dispositivo per il punto vendita** | Applicazione gratuita per smartphone o opzione per un terminale fisico (ad es. Bitcoinize)                                                                        |
 | **Gestione e ruoli**                 | Gestione di un'unica app; differenziazione minima dei ruoli                                                                                                       |
 | **Esportazioni contabili**           | Elenchi di base della cronologia delle transazioni                                                                                                                |
 | **API**                              | No                                                                                                                                                                |
 
-#### Profilo 2 - L'Essenziale
+#### Profilo 2 - L'_Essential_
 
-| Caratteristiche                      | L'Essenziale
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Stato d'animo**                    | _"Accetto Bitcoin nella mia attività, ma non mi aspetto un volume significativo"_                                                                             |
-| **Frequenza delle transazioni**      | Poche transazioni al mese                                                                                                                                     |
-| **Esempi di tipi di business**       | Bar, ristoranti, vendita semi-regolare di prodotti freschi o di provenienza diretta, negozi multipli con un unico proprietario, economia creativa per artisti |
-| **Tipi di pagamento**                | Generalmente si va da pochi euro/dollari a qualche centinaio per articolo; sotto i ~300€/$ per articolo e sotto i ~3.000€/$ al mese                                 |
-| **Complessità delle impostazioni**   | Minima (applicazione mobile)                                                                                                                                  |
-| **Esempio di soluzione consigliata** | Swiss Bitcoin Pay                                                                                                                                             |
-| **Interfaccia per il commerciante**  | Semplice portafoglio Bitcoin Lightning: un'app sul cellulare; semplice fatturazione con dettagli minimi                                                       |
-| **Interfaccia per il cliente**       | Codice di pagamento Bitcoin QR, scansionato tramite il portafoglio personale del cliente                                                                      |
-| **Commission di transazione (fee)**  | In genere <1% per l'invio a un indirizzo Bitcoin, e <1,5% per la conversione in fiat                                                                          |
-| **Dispositivo per il punto vendita** | Applicazione gratuita per smartphone o opzione per un terminale fisico (ad es. Bitcoinize)                                                                    |
-| **Gestione e ruoli**                 | Possibilità di un ruolo di sola vendita per i dipendenti; dashboard online per l'amministrazione                                                              |
-| **Esportazioni contabili**           | Esportazione CSV con tutti i dettagli delle transazioni                                                                                                       |
-| **API**                              | Sì                                                                                                                                                            |
+| Caratteristiche                      | L'_Essential_
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Stato d'animo**                    | _"Accetto Bitcoin nella mia attività, ma non mi aspetto un volume significativo"_                                                                            |
+| **Frequenza delle transazioni**      | Poche transazioni al mese                                                                                                                                    |
+| **Esempi di tipi di business**       | Bar, ristoranti, vendita semi-regolare di prodotti freschi o di provenienza diretta, negozi diversi con un unico proprietario, economia creativa per artisti |
+| **Tipi di pagamento**                | Generalmente si va da pochi euro/dollari a qualche centinaio per articolo; sotto i ~300€/$ per articolo e sotto i ~3.000€/$ al mese                          |
+| **Complessità delle impostazioni**   | Minima (applicazione mobile)                                                                                                                                 |
+| **Esempio di soluzione consigliata** | Swiss Bitcoin Pay                                                                                                                                            |
+| **Interfaccia per il commerciante**  | Semplice portafoglio Bitcoin Lightning: un'app sul cellulare; semplice fatturazione con dettagli minimi                                                      |
+| **Interfaccia per il cliente**       | Codice di pagamento Bitcoin QR, scansionato tramite il portafoglio personale del cliente                                                                     |
+| **Commissioni di transazione (fee)** | In genere <1% per l'invio a un indirizzo Bitcoin, e <1,5% per la conversione in fiat                                                                         |
+| **Dispositivo per il punto vendita** | Applicazione gratuita per smartphone o opzione per un terminale fisico (ad es. Bitcoinize)                                                                   |
+| **Gestione e ruoli**                 | Possibilità di un ruolo di sola vendita per i dipendenti; dashboard online per l'amministrazione                                                             |
+| **Esportazioni contabili**           | Esportazione CSV con tutti i dettagli delle transazioni                                                                                                      |
+| **API**                              | Sì                                                                                                                                                           |
 
-#### Profilo 3 - Il Professionista
+#### Profilo 3 - Il _Professional_
 
-| Caratteristiche                      | Il Professionista                                                                                                                                                                             |
+| Caratteristiche                      | Il _Professional_                                                                                                                                                                             |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Stato d'animo**                    | Un metodo di pagamento come un altro per il mio e-commerce - O una gestione congiunta per un gruppo di aziende pronte a volumi più elevati                                                    |
+| **Stato d'animo**                    | Un metodo di pagamento come un altro per il mio e-commerce, o una gestione congiunta per un gruppo di aziende pronte a volumi più elevati                                                     |
 | **Frequenza delle transazioni**      | Più transazioni al giorno                                                                                                                                                                     |
 | **Esempi di tipi di business**       | Siti di e-commerce con un volume moderato, piccoli marketplace, gruppi di negozi fisici (ad esempio, Click & Collect), attività di PMI                                                        |
 | **Tipi di pagamento**                | Generalmente si va da pochi euro/dollari a qualche centinaio; non c'è un limite fisso di pagamenti; meno di 250.000 all'anno                                                                  |
@@ -802,15 +802,15 @@ Per semplificare il processo decisionale, abbiamo definito quattro profili azien
 | **Esempio di soluzione consigliata** | BTC Pay Server per l'e-commerce e/o gli ambienti fisici; ZapRite, Musqet o PayWithFlash per il checkout, Be-BOP per un e-store integrato                                                      |
 | **Interfaccia per il commerciante**  | Sito web (mobile e desktop) con modifica delle fatture, opzioni per il carrello della spesa e creazione di pulsanti di pagamento; fatturazione automatizzata con integrazione dell'e-commerce |
 | **Interfaccia per il cliente**       | Codice di pagamento Bitcoin QR, scansionato tramite il portafoglio personale del cliente                                                                                                      |
-| **Commission di transazione (fee)**  | Mix di backend open-source gratuito e di hosting/servizi Lightning a pagamento; le spese di front-end includono le spese di Bitcoin Lightning e le spese di conversione <1,5%                 |
+| **Commissioni di transazione (fee)** | Mix di backend open-source gratuito e di hosting/servizi Lightning a pagamento; le spese di front-end includono le spese di Bitcoin Lightning e le spese di conversione <1,5%                 |
 | **Dispositivo per il punto vendita** | Negozio sul sito web, display fisico opzionale (ad es. iPad che mostra il sito o terminale Bitcoin)                                                                                           |
 | **Gestione e ruoli**                 | Negozio completo con ruoli di amministrazione multipli; dipendenti e clienti interagiscono con il sistema                                                                                     |
 | **Esportazioni contabili**           | Esportazione CSV con tutti i dettagli delle transazioni                                                                                                                                       |
 | **API**                              | Sì                                                                                                                                                                                            |
 
-#### Profilo 4 - L'Impresa
+#### Profilo 4 - L'_Enterprise_
 
-| Caratteristiche                      | L'Impresa |
+| Caratteristiche                      | L'_Enterprise_                                                                                                                                                   |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Stato d'animo**                    | Un metodo di pagamento strategico per l'azienda - Con un po' di sviluppo per integrarlo nella piattaforma di servizi secondo le specifiche                       |
 | **Frequenza delle transazioni**      | Illimitata, transazioni ad alta frequenza                                                                                                                        |
@@ -820,7 +820,7 @@ Per semplificare il processo decisionale, abbiamo definito quattro profili azien
 | **Esempio di soluzione consigliata** | Architettura personalizzata o orchestrazione di soluzioni ospitate in SaaS, potenzialmente utilizzando servizi LSP (*Lightning Service Provider*) di terze parti |
 | **Interfaccia per il commerciante**  | Interfacce front-end e back-end completamente personalizzate e completamente integrate nei flussi di lavoro e nei processi aziendali                             |
 | **Interfaccia per il cliente**       | Che va da un codice di pagamento Bitcoin QR a un'interfaccia utente completamente personalizzata e/o all'integrazione di API                                     |
-| **Commission di transazione (fee)**  | Il cliente paga le commissioni di Bitcoin Lightning più eventuali commissioni di transazione da parte dei fornitori di servizi                                   |
+| **Commissioni di transazione (fee)** | Il cliente paga le commissioni di Bitcoin Lightning più eventuali commissioni di transazione da parte dei fornitori di servizi                                   |
 | **Dispositivo per il punto vendita** | Soluzioni progettate su misura per l'ambiente aziendale                                                                                                          |
 | **Gestione e ruoli**                 | Ruoli completamente personalizzati per le vendite, l'amministrazione, lo sviluppo, la contabilità e la finanza                                                   |
 | **Esportazioni contabili**           | Esportazioni contabili completamente personalizzate                                                                                                              |
@@ -828,70 +828,71 @@ Per semplificare il processo decisionale, abbiamo definito quattro profili azien
 
 Nei capitoli successivi, illustreremo nel dettaglio ogni profilo aziendale e le soluzioni adatte a ciascuno di essi.
 
-## Lo "Starter"
+## Lo _"Starter"_
 
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
-Il profilo _"Starter"_ è pensato per aziende, creatori e individui che desiderano esplorare i pagamenti Bitcoin senza impegnare risorse o competenze sostanziali. Si tratta in genere di persone che gestiscono un volume di transazioni molto ridotto (magari qualche mancia, donazione o vendita occasionale) e che cercano un'introduzione semplice e leggera all'ecosistema Bitcoin e Lightning Network. Il valore chiave dell'approccio Starter risiede nella sua configurazione minima: nella maggior parte dei casi, tutto ciò che è richiesto è uno smartphone o un tablet dotato di un portafoglio di base compatibile con Lightning.
+Il profilo _"Starter"_ è pensato per aziende, creatori e individui che desiderano esplorare i pagamenti in bitcoin senza impegnare risorse o competenze sostanziali. Si tratta in genere di persone che gestiscono un volume di transazioni molto ridotto (magari qualche mancia, donazione o vendita occasionale) e che cercano un'introduzione semplice e leggera all'ecosistema Bitcoin e Lightning Network. Il valore chiave dell'approccio Starter risiede nella sua configurazione minima: nella maggior parte dei casi, tutto ciò che è richiesto è uno smartphone o un tablet dotato di un portafoglio di base compatibile con Lightning.
 
 ![BIZ101-profiles](assets/en/18.webp)
 
 Una delle caratteristiche distintive di questo profilo è l'attenzione ai pagamenti a basso volume, che raramente superano le poche centinaia di euro o di dollari al mese. Questa scala modesta lo rende una scelta eccellente per chiunque voglia testare il mercato con Bitcoin, senza le complessità insite in implementazioni di volumi più elevati. Inoltre, consente un apprendimento pratico immediato; poiché le pressioni operative sono minori e la posta in gioco monetaria è più bassa, gli errori possono essere contenuti e le lezioni apprese rapidamente. Dagli artisti che vendono prodotti artigianali nelle fiere del fine settimana ai gruppi no-profit che accettano donazioni una tantum, gli utenti di questa categoria spesso privilegiano l'accessibilità e la facilità d'uso rispetto alle funzionalità avanzate.
 
-Le due configurazioni di portafoglio più comuni per il profilo Starter comportano la scelta tra soluzioni custodiali e non custodiali. Un portafoglio con custodia (come Wallet of Satoshi o Blink) consente a un servizio di terze parti di gestire le chiavi private e le operazioni di backend, riducendo così le responsabilità tecniche per l'utente. Questa soluzione è particolarmente interessante per chi apprezza soprattutto la convenienza e vuole un onboarding il più semplice possibile. D'altra parte, i portafogli Lightning non custodiali (come Phoenix o Breez) mettono le chiavi private e il pieno controllo nelle mani del proprietario dell'azienda, offrendo maggiore autonomia e privacy in cambio di un impegno iniziale leggermente superiore. In entrambi i casi, le moderne interfacce sono in genere così facili da usare che chiunque può svolgere le attività essenziali (generare un codice QR, inserire un importo di pagamento e confermare le transazioni) in pochi minuti.
+Le due configurazioni di portafoglio più comuni per il profilo _Starter_ comportano la scelta tra soluzioni custodiali e non custodiali. Un portafoglio con custodia (come Wallet of Satoshi o Blink) consente a un servizio di terze parti di gestire le chiavi private e le operazioni di backend, riducendo così le responsabilità tecniche per l'utente. Questa soluzione è particolarmente interessante per chi apprezza soprattutto la convenienza e vuole un onboarding il più semplice possibile. D'altra parte, i portafogli Lightning non custodiali (come Phoenix o Breez) mettono le chiavi private e il pieno controllo nelle mani del proprietario dell'azienda, offrendo maggiore autonomia e privacy in cambio di un impegno iniziale leggermente superiore. In entrambi i casi, le moderne interfacce sono in genere così facili da usare che chiunque può svolgere le attività essenziali (generare un codice QR, inserire un importo di pagamento e confermare le transazioni) in pochi minuti.
 
 ![BIZ101-profiles](assets/en/19.webp) <!-- eliminare l'icona di Zeus e inserire l'icona di Breez come riportato nel testo -->
 
 Anche se i problemi di sicurezza possono sembrare meno urgenti quando le transazioni sono di piccola entità, è comunque fondamentale mettere in atto misure di protezione di base. Anche un solo smartphone o tablet utilizzato per ricevere pagamenti in Bitcoin dovrebbe essere bloccato da una password o da una sicurezza biometrica, e le procedure di backup (che vanno dal tenere traccia delle credenziali di accesso per un wallet custodial alla salvaguardia di una seed phrase per un wallet non custodial) devono essere prese sul serio. I membri del personale che gestiscono le transazioni in un ambiente fisico trarrebbero vantaggio dal conoscere le nozioni fondamentali: come aprire l'app, come presentare un codice QR al cliente e come verificare se il pagamento è effettivamente arrivato.
 
-La contabilità e la rendicontazione, pur essendo relativamente semplici nel profilo Starter, meritano comunque un'attenta considerazione. Anche se il volume delle transazioni può essere minimo, la conservazione di registri accurati previene la confusione e aiuta a mantenere la trasparenza in caso di revisioni finanziarie o dichiarazioni fiscali. Molte applicazioni di portafoglio consentono agli utenti di esportare uno storico delle transazioni di base come file CSV; per una piccola impresa o un singolo imprenditore, salvare regolarmente questi file può rendere molto più semplice la riconciliazione dei conti. È inoltre opportuno tenere traccia del valore fiat approssimativo (ad esempio, in euro o in dollari) al momento della ricezione di ogni transazione. Poiché il prezzo dei bitcoin può fluttuare, avere un registro dei tassi di conversione è prezioso per la contabilità e la conformità fiscale.
+La contabilità e la rendicontazione, pur essendo relativamente semplici nel profilo _Starter_, meritano comunque un'attenta considerazione. Anche se il volume delle transazioni può essere minimo, la conservazione di registri accurati previene la confusione e aiuta a mantenere la trasparenza in caso di revisioni finanziarie o dichiarazioni fiscali. Molte applicazioni di portafoglio consentono agli utenti di esportare uno storico delle transazioni di base come file CSV; per una piccola impresa o un singolo imprenditore, salvare regolarmente questi file può rendere molto più semplice la riconciliazione dei conti. È inoltre opportuno tenere traccia del valore fiat approssimativo (ad esempio, in euro o in dollari) al momento della ricezione di ogni transazione. Poiché il prezzo dei bitcoin può fluttuare, avere un registro dei tassi di conversione è prezioso per la contabilità e la conformità fiscale.
 
 ![BIZ101-profiles](assets/en/20.webp)
 
-Per le aziende che desiderano integrare i pagamenti fisici o di persona con donazioni o mance online, è ora semplice integrare un pulsante di mancia Lightning o un widget di donazione in un sito web o in un blog. Piattaforme come BTCPay Server offrono pulsanti di pagamento facili da configurare, mentre alcuni social media e servizi di livestream supportano già le mance con indirizzi Lightning Network. Di conseguenza, anche un'impresa di avviamento può costruire una rete modesta ma globale di mecenati. Nel frattempo, chi preferisce non detenere Bitcoin a lungo termine può esplorare la conversione parziale o automatica in valuta fiat utilizzando alcuni portafogli di deposito o servizi di terze parti. Sebbene questa opzione comporti commissioni aggiuntive e possibili obblighi KYC, aiuta le imprese a evitare la volatilità dei tassi di cambio e a mantenere i loro flussi finanziari esistenti con un'interruzione minima.
+Per le aziende che desiderano integrare i pagamenti fisici o di persona con donazioni o mance online, è ora semplice integrare un pulsante di mancia Lightning o un widget di donazione in un sito web o in un blog. Piattaforme come BTCPay Server offrono pulsanti di pagamento facili da configurare, mentre alcuni social media e servizi di livestream supportano già le mance con indirizzi Lightning Network. Di conseguenza, anche un'impresa di avviamento può costruire una rete modesta ma globale di mecenati. Nel frattempo, chi preferisce non detenere dei bitcoin a lungo termine può esplorare la conversione parziale o automatica in valuta fiat utilizzando alcuni portafogli di deposito o servizi di terze parti. Sebbene questa opzione comporti commissioni aggiuntive e possibili obblighi KYC, aiuta le imprese a evitare la volatilità dei tassi di cambio e a mantenere i loro flussi finanziari esistenti con un'interruzione minima.
 
 Un semplice caso d'uso illustra come si combinano tutti questi elementi. Immaginate un artigiano locale che vende marmellate fatte in casa al mercato contadino del sabato. Armato di un telefono con un wallet Lightning, imposta il prezzo di ogni vasetto in euro; quando un cliente chiede di pagare in bitcoin, il commerciante inserisce rapidamente l'importo fiat corrispondente e l'app calcola automaticamente i satoshi dovuti. Il codice QR risultante viene scansionato dal portafoglio del cliente, il pagamento viene regolato in pochi secondi e l'artigiano sa immediatamente che la transazione è andata a buon fine. Alla fine della giornata, i dettagli della transazione possono essere esportati per la registrazione e il saldo della giornata può essere inviato interamente o parzialmente a una piattaforma di scambio per essere convertito in valuta fiat.
 
-Grazie all'equilibrio tra strumenti di facile utilizzo, requisiti hardware minimi e gestione semplice dei registri, le soluzioni Starter offrono l'essenziale senza sovraccaricare le aziende alle prime armi. Se i volumi delle transazioni aumentano e i requisiti operativi dell'azienda si evolvono, l'aggiornamento alle categorie più avanzate descritte nei prossimi capitoli diventa una progressione naturale.
+Grazie all'equilibrio tra strumenti di facile utilizzo, requisiti hardware minimi e gestione semplice dei registri, le soluzioni _Starter_ offrono il necessario senza sovraccaricare le aziende alle prime armi. Se i volumi delle transazioni aumentano e i requisiti operativi dell'azienda si evolvono, l'aggiornamento alle categorie più avanzate descritte nei prossimi capitoli diventa una progressione naturale.
 
 Per informazioni dettagliate sui portafogli consigliati e sulla configurazione di base, consultare le seguenti guide:
 
-**Portafogli/nodi LN autocustoditi:**
+**Portafogli/nodi LN non custodial:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
-**Portafogli LN custodiali:**
+
+**Portafogli LN custodial:**
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-## L'essenztiale
+## L'_Essential_
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
 
-Il profilo Essential è adatto alle piccole e medie imprese, potenzialmente con dipendenti, che desiderano accettare bitcoin in modo semplice e veloce senza dover disporre di conoscenze tecniche avanzate, pur disponendo di un sistema più completo e professionale di un semplice portafoglio. Questa categoria si applica spesso a ristoranti, caffè, bar o piccoli negozi al dettaglio che effettuano solo una manciata di pagamenti in Bitcoin al mese, ma che desiderano un'interfaccia semplice e sufficientemente robusta per gestire le operazioni quotidiane senza interruzioni.
+Il profilo _Essential_ è adatto alle piccole e medie imprese, potenzialmente con dipendenti, che desiderano accettare Bitcoin in modo semplice e veloce senza dover disporre di conoscenze tecniche avanzate, pur disponendo di un sistema più completo e professionale di un semplice portafoglio. Questa categoria si applica spesso a ristoranti, caffè, bar o piccoli negozi al dettaglio che effettuano solo una manciata di pagamenti in bitcoin al mese, ma che desiderano un'interfaccia semplice e sufficientemente robusta per gestire le operazioni quotidiane senza interruzioni.
 
-A differenza del profilo Starter, le aziende Essential considerano i pagamenti in Bitcoin come una parte costante del loro flusso di entrate, piuttosto che un semplice esperimento. Il volume delle transazioni è ancora relativamente basso, ma la frequenza è tale da far sì che proprietari e dipendenti traggano vantaggio da un sistema più strutturato e affidabile. Allo stesso tempo, il profilo Essential rimane incentrato sulla semplicità; pur consentendo dashboard pratici e una gestione limitata dei ruoli, non richiede risorse IT specializzate o integrazioni complesse.
+A differenza del profilo _Starter_, le aziende _Essential_ considerano i pagamenti in bitcoin come una parte costante del loro flusso di entrate, piuttosto che un semplice esperimento. Il volume delle transazioni è ancora relativamente basso, ma la frequenza è tale da far sì che proprietari e dipendenti traggano vantaggio da un sistema più strutturato e affidabile. Allo stesso tempo, il profilo _Essential_ rimane incentrato sulla semplicità; pur consentendo dashboard pratici e una gestione limitata dei ruoli, non richiede risorse IT specializzate o integrazioni complesse.
 
-Le raccomandazioni tecnologiche in questo segmento sono spesso incentrate su **Swiss Bitcoin Pay**, una soluzione semplificata che consente agli esercenti di accettare facilmente i pagamenti in Bitcoin. È dotata di un'applicazione PoS di facile utilizzo, che non richiede competenze tecniche ai dipendenti. A differenza dei portafogli Bitcoin standard, si concentra esclusivamente sulla ricezione dei pagamenti, consentendo ai dipendenti di utilizzare il dispositivo senza rischi per la sicurezza. Più app PoS possono collegarsi allo stesso account, utilizzabile su tablet, registri, smartphone o tramite una versione web per computer, che supporta Android e iOS. È inoltre possibile creare un menu con gli articoli venduti e i relativi prezzi, consentendo al dipendente di selezionare semplicemente un paniere di articoli per il cliente sul PoS e di addebitare il totale.
+Le raccomandazioni tecnologiche in questo segmento sono spesso incentrate su **Swiss Bitcoin Pay**, una soluzione semplificata che consente agli esercenti di accettare facilmente i pagamenti in bitcoin. È dotata di un'applicazione PoS di facile utilizzo, che non richiede competenze tecniche ai dipendenti. A differenza dei portafogli Bitcoin standard, si concentra esclusivamente sulla ricezione dei pagamenti, consentendo ai dipendenti di utilizzare il dispositivo senza rischi per la sicurezza. Più app PoS possono collegarsi allo stesso account, utilizzabile su tablet, registri, smartphone o tramite una versione web per computer, che supporta Android e iOS. È inoltre possibile creare un menu con gli articoli venduti e i relativi prezzi, consentendo al dipendente di selezionare semplicemente un paniere di articoli per il cliente sul PoS e di addebitare il totale.
 
 ![BIZ101-profiles](assets/en/21.webp)
 
-I pagamenti possono essere ritirati in Bitcoin a un indirizzo specifico o convertiti in valuta fiat e depositati quotidianamente su un conto bancario. Swiss Bitcoin Pay automatizza il processo, gestendo i pagamenti in Bitcoin e Lightning Network senza alcun intervento manuale. I fondi vengono trattenuti per un massimo di 24 ore prima del trasferimento. Sebbene non sia completamente privo di custodia come BTCPay Server, è in grado di bilanciare convenienza e sicurezza e non richiede KYC.
+I pagamenti possono essere ritirati in bitcoin a un indirizzo specifico o convertiti in valuta fiat e depositati quotidianamente su un conto bancario. Swiss Bitcoin Pay automatizza il processo, gestendo i pagamenti in Bitcoin e Lightning Network senza alcun intervento manuale. I fondi vengono trattenuti per un massimo di 24 ore prima del trasferimento. Sebbene non sia completamente privo di custodia come BTCPay Server, è in grado di bilanciare convenienza e sicurezza e non richiede KYC.
 
 ![BIZ101-profiles](assets/en/22.webp)
 
-Le commissioni sono competitive: 0,21% per il primo anno, poi 1% per i pagamenti in Bitcoin e 1,5% per i pagamenti con conversione in fiat, compresi i costi delle transazioni in Bitcoin. Swiss Bitcoin Pay offre una pratica via di mezzo tra soluzioni di custodia come Open Node e complessi sistemi autogestiti come BTCPay Server, dando priorità alla semplicità, alla sicurezza e all'autonomia finanziaria.
+Le commissioni sono competitive: 0,21% per il primo anno, poi 1% per i pagamenti in bitcoin e 1,5% per i pagamenti con conversione in fiat, compresi i costi delle transazioni in bitcoin. Swiss Bitcoin Pay offre una pratica via di mezzo tra soluzioni di custodia come Open Node e complessi sistemi autogestiti come BTCPay Server, dando priorità alla semplicità, alla sicurezza e all'autonomia finanziaria.
 
 Questo tipo di configurazione consente alle attività commerciali in sede di generare rapidamente fatture di pagamento, presentare codici QR agli avventori e accettare transazioni Lightning o on-chain con un attrito minimo. Il personale ha bisogno solo di un breve orientamento per gestire questi pagamenti, mentre i gestori possono accedere a una dashboard online per riconciliare le vendite giornaliere e accedere ai report di base. La disponibilità di una console amministrativa semplificata aiuta anche i piccoli esercizi a tenere traccia dei ricavi sia in valuta che in bitcoin da un'unica interfaccia, attenuando così la confusione e riducendo il tempo dedicato alla contabilità manuale.
 
 ![BIZ101-profiles](assets/en/23.webp)
 
-Un altro vantaggio fondamentale dell'approccio Essential è l'enfasi posta sulla rapidità di implementazione e sulla riduzione al minimo delle interruzioni. Soluzioni come Swiss Bitcoin Pay possono essere installate in poche ore anziché in giorni o settimane. Per il proprietario o il gestore di un ristorante di modeste dimensioni, ad esempio, l'obiettivo finale è integrare l'accettazione di Bitcoin senza causare ritardi alla cassa o confusione tra il personale. Una volta configurato il POS, il gestore può semplicemente fornire ai dipendenti istruzioni rapide sulla visualizzazione della fattura e sulla verifica dell'avvenuto pagamento. Nel migliore dei casi, la transazione del cliente viene confermata quasi istantaneamente tramite la rete Lightning e il pannello amministrativo dell'azienda registra contemporaneamente un nuovo pagamento in tempo reale.
+Un altro vantaggio fondamentale dell'approccio _Essential_ è l'enfasi posta sulla rapidità di implementazione e sulla riduzione al minimo delle interruzioni. Soluzioni come Swiss Bitcoin Pay possono essere installate in poche ore anziché in giorni o settimane. Per il proprietario o il gestore di un ristorante di modeste dimensioni, ad esempio, l'obiettivo finale è integrare l'accettazione dei bitcoin senza causare ritardi alla cassa o confusione tra il personale. Una volta configurato il POS, il gestore può semplicemente fornire ai dipendenti istruzioni rapide sulla visualizzazione della fattura e sulla verifica dell'avvenuto pagamento. Nel migliore dei casi, la transazione del cliente viene confermata quasi istantaneamente tramite la rete Lightning e il pannello amministrativo dell'azienda registra contemporaneamente un nuovo pagamento in tempo reale.
 
-Sebbene il profilo Essential non richieda sistemi di contabilità altamente sofisticati, è comunque saggio mantenere un'adeguata registrazione delle transazioni. Strumenti come Swiss Bitcoin Pay offrono funzioni di esportazione CSV, consentendo ai gestori di acquisire il valore equivalente in fiat di ogni vendita di bitcoin e di tenerne traccia insieme ad altre fonti di reddito. Questo livello di documentazione è sufficiente per la maggior parte delle piccole imprese, e una conoscenza rudimentale dei tassi di cambio è utile per la compilazione delle dichiarazioni fiscali e per la sorveglianza finanziaria generale.
+Sebbene il profilo _Essential_ non richieda sistemi di contabilità altamente sofisticati, è comunque saggio mantenere un'adeguata registrazione delle transazioni. Strumenti come Swiss Bitcoin Pay offrono funzioni di esportazione CSV, consentendo ai gestori di acquisire il valore equivalente in fiat di ogni vendita di bitcoin e di tenerne traccia insieme ad altre fonti di reddito. Questo livello di documentazione è sufficiente per la maggior parte delle piccole imprese, e una conoscenza rudimentale dei tassi di cambio è utile per la compilazione delle dichiarazioni fiscali e per la sorveglianza finanziaria generale.
 
 ![BIZ101-profiles](assets/en/24.webp)
 
@@ -909,17 +910,17 @@ https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b
 
 Infine, come complemento ai punti vendita fisici, si potrebbe considerare la creazione di [un Bitcoinize PoS](https://bitcoinize.com/).
 
-## Il professionista
+## Il _Professionial_
 
 <chapterId>4d5dfa50-c4d0-481c-ab95-1863a898750e</chapterId>
 
-Il profilo Professional si rivolge alle aziende che hanno superato i pagamenti Bitcoin occasionali o a basso volume e che ora cercano un'infrastruttura robusta per gestire più transazioni quotidiane. Queste aziende spesso operano su più canali (magari un punto vendita al dettaglio, un sito web dedicato all'e-commerce e persino vendite mobili) e quindi richiedono soluzioni di pagamento che possano essere integrate perfettamente nei loro flussi di lavoro esistenti. In molti casi, le imprese di questo livello gestiscono già sistemi di punti vendita, piattaforme di gestione degli ordini online e operazioni di back-office che richiedono un approccio affidabile e scalabile.
+Il profilo _Professional_ si rivolge alle aziende che hanno superato i pagamenti in bitcoin occasionali o a basso volume e che ora cercano un'infrastruttura robusta per gestire più transazioni quotidiane. Queste aziende spesso operano su più canali (magari un punto vendita al dettaglio, un sito web dedicato all'e-commerce e persino vendite in mobilità) e quindi richiedono soluzioni di pagamento che possano essere integrate perfettamente nei loro flussi di lavoro esistenti. In molti casi, le imprese di questo livello gestiscono già sistemi di punti vendita, piattaforme di gestione degli ordini online e operazioni di back-office che richiedono un approccio affidabile e scalabile.
 
-Una delle caratteristiche che definiscono il commerciante professionista è la necessità di **funzioni avanzate** e **soluzioni personalizzabili** che mantengano l'efficienza anche quando il volume delle transazioni cresce. A differenza degli utenti Essential, che possono accontentarsi di uno strumento semplificato che si inserisce perfettamente in un'applicazione per smartphone, i professionisti richiedono tipicamente funzionalità come la personalizzazione dettagliata delle fatture, sofisticati cruscotti di reporting e la possibilità di assegnare più ruoli amministrativi.
+Una delle caratteristiche che definiscono il commerciante professionista è la necessità di **funzioni avanzate** e **soluzioni personalizzabili** che mantengano l'efficienza anche quando il volume delle transazioni cresce. A differenza degli utenti _Essential_, che possono accontentarsi di uno strumento semplificato che si inserisce perfettamente in un'applicazione per smartphone, i professionisti richiedono tipicamente funzionalità come la personalizzazione dettagliata delle fatture, sofisticate dashboard di reporting e la possibilità di assegnare più ruoli amministrativi.
 
 ![BIZ101-profiles](assets/en/25.webp)
 
-Un gruppo di ristoranti, ad esempio, può avere membri del personale dedicati alla fatturazione e alla gestione delle scorte, mentre un team separato si occupa delle inserzioni dei prodotti e delle campagne di marketing. In questo ambiente, una soluzione di pagamento Bitcoin deve integrarsi perfettamente con queste strutture organizzative preesistenti.
+Un gruppo di ristoranti, ad esempio, può avere membri del personale dedicati alla fatturazione e alla gestione delle scorte, mentre un team separato si occupa delle inserzioni dei prodotti e delle campagne di marketing. In questo ambiente, una soluzione di pagamento in bitcoin deve integrarsi perfettamente con queste strutture organizzative preesistenti.
 
 ![BIZ101-profiles](assets/en/26.webp)
 
@@ -933,9 +934,9 @@ Inoltre, strumenti come [Zaprite](https://zaprite.com/) o [Musqet](https://musqe
 
 Implementare queste tecnologie in un contesto professionale significa prestare molta attenzione alla **complessità operativa**. I flussi di lavoro automatizzati per la fatturazione, la visualizzazione di più valute e la sincronizzazione con i sistemi di inventario esistenti sono tutti segni distintivi di una piattaforma ben integrata. La capacità di esportare con precisione i dati delle transazioni (sia come file CSV, sia come chiamate API dirette o formati personalizzati) aiuta le aziende a riconciliare le vendite di bitcoin con altri flussi di entrate in modo efficiente.
 
-La sicurezza e la gestione dei ruoli costituiscono un'altra considerazione fondamentale per gli utenti professionali. Con l'accumularsi delle transazioni giornaliere in Bitcoin, il controllo dell'accesso alle funzioni amministrative diventa una misura essenziale per la mitigazione dei rischi. In molte soluzioni, gli amministratori possono assegnare diversi livelli di autorizzazione (magari limitando ad alcuni dipendenti la visualizzazione dello storico delle transazioni e la generazione delle fatture, mentre ad altri viene concessa l'autorità di gestire l'inventario o di configurare le impostazioni a livello di sistema...). Questa struttura gerarchica non solo protegge i dati sensibili, ma semplifica anche le operazioni, chiarendo quali membri del personale sono responsabili di ciascun segmento dell'infrastruttura di pagamento.
+La sicurezza e la gestione dei ruoli costituiscono un'altra considerazione fondamentale per gli utenti professionali. Con l'accumularsi delle transazioni giornaliere in bitcoin, il controllo dell'accesso alle funzioni amministrative diventa una misura essenziale per la mitigazione dei rischi. In molte soluzioni, gli amministratori possono assegnare diversi livelli di autorizzazione (magari limitando ad alcuni dipendenti la visualizzazione dello storico delle transazioni e la generazione delle fatture, mentre ad altri viene concessa l'autorità di gestire l'inventario o di configurare le impostazioni a livello di sistema...). Questa struttura gerarchica non solo protegge i dati sensibili, ma semplifica anche le operazioni, chiarendo quali membri del personale sono responsabili di ciascun segmento dell'infrastruttura di pagamento.
 
-Per quanto riguarda gli esempi reali, si pensi a un negozio di e-commerce di medie dimensioni specializzato in accessori tecnologici. L'azienda potrebbe integrare BTC Pay Server nella sua vetrina online esistente, generando automaticamente indirizzi di pagamento Bitcoin durante il checkout. I clienti completano i loro acquisti scansionando un indirizzo Lightning o on-chain, e la piattaforma del negozio conferma istantaneamente il pagamento. Allo stesso tempo, un sistema interno aggiorna lo stato degli ordini e attiva le notifiche di spedizione. Grazie alle funzioni avanzate di reporting, il team finanziario può facilmente esaminare le vendite giornaliere di Bitcoin, esportare un libro mastro consolidato per la revisione contabile e tenere traccia del valore delle partecipazioni in BTC che l'azienda decide di conservare.
+Per quanto riguarda gli esempi reali, si pensi a un negozio di e-commerce di medie dimensioni specializzato in accessori tecnologici. L'azienda potrebbe integrare BTC Pay Server nella sua vetrina online esistente, generando automaticamente indirizzi di pagamento Bitcoin durante il checkout. I clienti completano i loro acquisti scansionando un indirizzo Lightning o on-chain, e la piattaforma del negozio conferma istantaneamente il pagamento. Allo stesso tempo, un sistema interno aggiorna lo stato degli ordini e attiva le notifiche di spedizione. Grazie alle funzioni avanzate di reporting, il team finanziario può facilmente esaminare le vendite giornaliere in bitcoin, esportare un libro mastro consolidato per la revisione contabile e tenere traccia del valore delle partecipazioni in BTC che l'azienda decide di conservare.
 
 ![BIZ101-profiles](assets/en/29.webp)
 
@@ -944,48 +945,48 @@ Per quanto riguarda gli esempi reali, si pensi a un negozio di e-commerce di med
 Per approfondire le specifiche di implementazione ed esplorare le configurazioni pratiche di BTC Pay Server, fate riferimento al seguente corso:
 
 https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
-## L'impresa
+## L'_Enterprise_
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
 
-Il profilo Enterprise si colloca all'apice delle implementazioni di pagamento Bitcoin, su misura per le grandi aziende, i principali marketplace e le imprese consolidate che richiedono soluzioni completamente personalizzate. A differenza delle implementazioni su scala ridotta o di medio livello, le operazioni di livello Enterprise integrano i pagamenti Bitcoin in un'ampia rete di flussi di lavoro e sistemi, che vanno dai dispositivi per i punti vendita in loco ai negozi di e-commerce, alle piattaforme di contabilità di back-office e ai sofisticati framework ERP.
+Il profilo _Enterprise_ si colloca all'apice delle implementazioni di pagamento in bitcoin, su misura per le grandi aziende, i principali marketplace e le imprese consolidate che richiedono soluzioni completamente personalizzate. A differenza delle implementazioni su scala ridotta o di medio livello, le operazioni di livello _Enterprise_ integrano i pagamenti in bitcoin in un'ampia rete di flussi di lavoro e sistemi, che vanno dai dispositivi per i punti vendita in loco ai negozi di e-commerce, alle piattaforme di contabilità di back-office e ai sofisticati framework ERP.
 
-A questo livello, l'obiettivo generale non è semplicemente quello di accettare Bitcoin, ma di farlo in un modo che sia completamente **allineato con i processi principali dell'organizzazione**. Questo allineamento può richiedere lo sviluppo di software specializzato, sia che la soluzione sia interamente personalizzata sia che sia orchestrata attraverso un'infrastruttura basata su SaaS e supportata da *Lightning Service Provider* (LSP) di terze parti. Questi LSP sono in grado di gestire volumi di transazioni elevati e configurazioni di rete complesse che superano la capacità degli strumenti tradizionali. L'architettura risultante incorpora quindi un'ampia gamma di considerazioni tecniche e commerciali, dalle integrazioni guidate da API alle funzionalità avanzate di gestione della tesoreria.
+A questo livello, l'obiettivo generale non è semplicemente quello di accettare dei bitcoin, ma di farlo in un modo che sia completamente **allineato con i processi principali dell'organizzazione**. Questo allineamento può richiedere lo sviluppo di software specializzato, sia che la soluzione sia interamente personalizzata sia che sia orchestrata attraverso un'infrastruttura basata su SaaS e supportata da *Lightning Service Provider* (LSP) di terze parti. Questi LSP sono in grado di gestire volumi di transazioni elevati e configurazioni di rete complesse che superano la capacità degli strumenti tradizionali. L'architettura risultante incorpora quindi un'ampia gamma di considerazioni tecniche e commerciali, dalle integrazioni guidate da API alle funzionalità avanzate di gestione della tesoreria.
 
 In un contesto aziendale, la complessità operativa è particolarmente accentuata. Una grande azienda può avere la necessità di ospitare più dipartimenti (vendite, marketing, devops, finanza e contabilità), ciascuno con responsabilità e requisiti di dati diversi. In questo scenario, una piattaforma di pagamento Bitcoin deve offrire una gestione dei ruoli altamente granulare, consentendo a ciascun reparto di accedere esattamente alle funzioni rilevanti per le proprie mansioni, pur mantenendo un controllo rigoroso sulla sicurezza e sull'integrità dei dati. Altrettanto essenziale è la capacità di personalizzare i flussi di lavoro: ad esempio, i pagamenti in entrata potrebbero attivare gli aggiornamenti dei sistemi di inventario, inviare notifiche automatiche ai responsabili delle vendite e aggiornare le registrazioni contabili per il team finanziario, il tutto in tempo reale. Gli stessi dispositivi del punto vendita sono comunemente adattati all'ambiente aziendale, con interfacce software personalizzate che si adattano al marchio e alle esigenze operative dell'azienda.
 
-**La sicurezza** è fondamentale per le imprese. Elevati volumi di transazioni e somme potenzialmente ingenti di Bitcoin richiedono un'infrastruttura robusta in grado di difendersi da attacchi malevoli o minacce interne. Le best practice spesso includono configurazioni di tesoreria multi-firma con timelocks, codebase accuratamente verificati e una stretta aderenza ai quadri normativi pertinenti. Inoltre, la conformità alle normative finanziarie locali e internazionali può essere fondamentale per preservare la reputazione e la licenza di operare dell'azienda.
+**La sicurezza** è fondamentale per le imprese. Elevati volumi di transazioni e somme potenzialmente ingenti di bitcoin richiedono un'infrastruttura robusta in grado di difendersi da attacchi malevoli o minacce interne. Le best practice spesso includono configurazioni di tesoreria multi-firma con timelocks, codebase accuratamente verificati e una stretta aderenza ai quadri normativi pertinenti. Inoltre, la conformità alle normative finanziarie locali e internazionali può essere fondamentale per preservare la reputazione e la licenza di operare dell'azienda.
 
-Lo **sviluppo personalizzato** coinvolto nella creazione o nell'integrazione di una soluzione di pagamento Bitcoin di livello aziendale va oltre la codifica di alcune funzioni dell'applicazione. In genere richiede una progettazione architettonica, protocolli di test approfonditi e un roll-out strutturato che può estendersi in più fasi (programmi pilota iniziali, test di mercato limitati e infine distribuzione globale).
+Lo **sviluppo personalizzato** coinvolto nella creazione o nell'integrazione di una soluzione di pagamento in bitcoin di livello aziendale va oltre la codifica di alcune funzioni dell'applicazione. In genere richiede una progettazione architettonica, protocolli di test approfonditi e un roll-out strutturato che può estendersi in più fasi (programmi pilota iniziali, test di mercato limitati e infine distribuzione globale).
 
-Sul fronte della contabilità, le transazioni ad alta frequenza richiedono **esportazioni personalizzate** e talvolta la sincronizzazione in tempo reale con il software finanziario aziendale. Le grandi aziende possono affidarsi a soluzioni di pianificazione delle risorse aziendali (ERP) come SAP o Oracle, che a loro volta devono interfacciarsi perfettamente con i dati dei pagamenti Bitcoin. A tal fine, le API della piattaforma scelta devono essere sofisticate e flessibili, in modo da lasciare ai team IT la libertà di creare cruscotti di reporting personalizzati, implementare processi di riconciliazione automatizzati e generare riepiloghi finanziari giornalieri o addirittura orari.
+Sul fronte della contabilità, le transazioni ad alta frequenza richiedono **esportazioni personalizzate** e talvolta la sincronizzazione in tempo reale con il software finanziario aziendale. Le grandi aziende possono affidarsi a soluzioni di pianificazione delle risorse aziendali (ERP) come SAP o Oracle, che a loro volta devono interfacciarsi perfettamente con i dati dei pagamenti in bitcoin. A tal fine, le API della piattaforma scelta devono essere sofisticate e flessibili, in modo da lasciare ai team IT la libertà di creare dashboard di reporting personalizzate, implementare processi di riconciliazione automatizzati e generare riepiloghi finanziari giornalieri o addirittura orari.
 
-Un tipico scenario aziendale potrebbe riguardare un grande mercato di e-commerce che accoglie migliaia di transazioni al giorno. Al di là del semplice inserimento di Bitcoin tra le opzioni di pagamento, questo marketplace può personalizzare ogni aspetto dell'esperienza dell'utente, dal modo in cui il flusso di pagamento Bitcoin appare sul sito web rivolto al cliente al modo in cui i rimborsi, i chargeback o le risoluzioni delle controversie vengono gestiti sul back end. Un team devops dedicato, in collaborazione con i dipartimenti finanziario e legale, supervisionerebbe la manutenzione continua, le patch di sicurezza e gli aggiornamenti di conformità. Nel caso in cui l'azienda decidesse di trattenere una parte delle entrate derivanti dai Bitcoin, un sistema di tesoreria interna terrebbe traccia delle disponibilità di bitcoin dell'azienda insieme alle riserve di valuta tradizionale.
+Un tipico scenario aziendale potrebbe riguardare un grande mercato di e-commerce che accoglie migliaia di transazioni al giorno. Al di là del semplice inserimento di Bitcoin tra le opzioni di pagamento, questo marketplace può personalizzare ogni aspetto dell'esperienza dell'utente, dal modo in cui il flusso di pagamento Bitcoin appare sul sito web rivolto al cliente al modo in cui i rimborsi, i chargeback o le risoluzioni delle controversie vengono gestiti sul back end. Un team devops dedicato, in collaborazione con i dipartimenti finanziario e legale, supervisionerebbe la manutenzione continua, le patch di sicurezza e gli aggiornamenti di conformità. Nel caso in cui l'azienda decidesse di trattenere una parte delle entrate derivanti dai bitcoin, un sistema di tesoreria interna terrebbe traccia delle disponibilità di bitcoin dell'azienda insieme alle riserve di valuta tradizionale.
 
 Per garantire un'implementazione fluida e sicura a livello aziendale, la maggior parte delle organizzazioni si rivolge a fornitori di servizi specializzati o a team di sviluppo interni con esperienza nelle integrazioni di Bitcoin e Lightning Network. Il processo inizia in genere con una valutazione approfondita delle esigenze (che copre l'infrastruttura tecnica, i requisiti di conformità e il percorso del cliente desiderato), seguita dalla progettazione di un'architettura in grado di gestire un elevato volume di traffico. A seconda della portata del progetto, è possibile affidarsi a un team multidisciplinare composto da controller finanziari, analisti della sicurezza e ingegneri software. In alternativa, un numero crescente di società di consulenza specializzate può guidarvi dalla concettualizzazione iniziale al lancio finale, assistendovi in compiti quali la valutazione di soluzioni ospitate da SaaS, la configurazione di *Lightning Service Provider* e la personalizzazione delle interfacce front-end. Collaborando con esperti del settore, le aziende possono ridurre i rischi associati all'implementazione di pagamenti su larga scala e ottenere una soluzione non solo robusta e conforme, ma anche sufficientemente flessibile per adattarsi alla crescita futura.
 
-## Soluzioni di pagamento Bitcoin: Opzioni e tendenze
+## Soluzioni di pagamento in bitcoin: Opzioni e tendenze
 
 <chapterId>59ff43a1-98e2-4a81-af3e-9654bdd60952</chapterId>
 
-Ci sono sempre dei compromessi per ogni categoria di soluzione. Ad esempio, nella _"fase di prova"_ iniziale, gli wallet proposti sono progettati per essere il più semplici possibile in termini di interfaccia utente, ma sono custodial (**custodiali**). Ciò significa che i fondi sono controllati dal fornitore dell'applicazione. Tuttavia, l'etica di Bitcoin incoraggia il passaggio alla piena proprietà dei fondi da parte dell'utente (**autocustodia**). In questo caso, si consiglia di passare alla categoria successiva non appena vengono effettuate le prime vendite, in sostanza, una volta confermata la presenza di clienti disposti a pagare in Bitcoin.
+Ci sono sempre dei compromessi per ogni categoria di soluzione. Ad esempio, nella _"fase di prova"_ iniziale, gli wallet proposti sono progettati per essere il più semplici possibile in termini di interfaccia utente, ma sono ospitati (**custodial**). Ciò significa che i fondi sono controllati dal fornitore dell'applicazione. Tuttavia, l'etica di Bitcoin incoraggia il passaggio alla piena proprietà dei fondi da parte dell'utente (**non custodial**). In questo caso, si consiglia di passare alla categoria successiva non appena vengono effettuate le prime vendite, in sostanza, una volta confermata la presenza di clienti disposti a pagare in bitcoin.
 
 Uno dei vantaggi principali di Bitcoin è la possibilità di spostare fondi a piacimento, rendendo **molto facile cambiare fornitore** o componenti della soluzione. Inoltre, tutte le applicazioni e le soluzioni si evolvono rapidamente. Per esempio, consideriamo Bitcoinize, che ora fornisce un terminale fisico per il punto vendita (POS) che si integra con molte applicazioni sul mercato, una soluzione che non esisteva solo pochi mesi fa.
 
-### Cercate una soluzione per creare un negozio e accettare pagamenti tradizionali e in Bitcoin?
+### Cercate una soluzione per creare un negozio e accettare pagamenti tradizionali e in bitcoin?
 
 Se state partendo da zero - senza negozio, senza software di gestione dei prodotti e senza sistema POS - avete un paio di opzioni:
 
 
-- **Outsourcing:** potete esternalizzare la creazione di un sito web con opzioni di acquisto e poi aggiungere le funzionalità di pagamento Bitcoin accanto alle tradizionali soluzioni in negozio.
-- **Soluzioni semplici:** in alternativa, potete utilizzare piattaforme come Accessing.app per farlo da soli. I vantaggi principali includono:
+- **Outsourcing**: potete esternalizzare la creazione di un sito web con opzioni di acquisto e poi aggiungere le funzionalità di pagamento Bitcoin accanto alle tradizionali soluzioni in negozio.
+- **Soluzioni semplici**: in alternativa, potete utilizzare piattaforme come Accessing.app per farlo da soli. I vantaggi principali includono:
     - Creare un negozio online o fisico in modo rapido e conveniente.
     - Adatto per attività stagionali, eventi, ristoranti o negozi al dettaglio.
     - Definizione e gestione dei prodotti per le vendite fisiche e online.
-    - Elaborazione di pagamenti Fiat (ad esempio, euro, dollari) tramite il proprio account Stripe.
-    - Elaborazione dei pagamenti in Bitcoin tramite il proprio conto SwissBitcoinPay.
+    - Elaborazione di pagamenti fiat (ad esempio, euro, dollari) tramite il proprio account Stripe.
+    - Elaborazione dei pagamenti in bitcoin tramite il proprio conto SwissBitcoinPay.
 
-### Come procede l'adozione dei pagamenti lampo?
+### Come procede l'adozione dei pagamenti Lightning?
 
 Sebbene Lightning Network offra un'efficienza superiore e commissioni più basse, la sua adozione è ancora in fase iniziale. Invece di concentrarsi sulle limitazioni attuali, vale la pena ricordare come si sono svolte le trasformazioni storiche delle infrastrutture:
 
@@ -996,18 +997,18 @@ Sebbene Lightning Network offra un'efficienza superiore e commissioni più basse
 Le nuove infrastrutture hanno successo perché sono più efficienti e gli _"early adopters"_ (primi utilizzatori) vi aderiscono perché ne traggono vantaggi tangibili. Ecco le osservazioni sul Lightning Network nel 2024:
 
 
-- **Transazioni ultraveloci:** le transazioni sono spesso quasi istantanee (<500ms) e hanno un tasso di fallimento estremamente basso.
-- **Professionalizzazione della rete:** gli operatori più grandi assicurano la liquidità della rete, mentre i singoli hanno smesso di instradare i pagamenti e ora gestiscono principalmente i _"nodi periferici"_.
-- **Esperienza utente migliorata:** le applicazioni mobile per i singoli utenti sono state notevolmente migliorate. Funzionalità come lo _"splicing"_, le fatture statiche _"Bolt12"_ e i pagamenti a conferma zero (0-conf) sono ampiamente disponibili, rendendo le interazioni senza soluzione di continuità. I problemi di interoperabilità (ad esempio, le chiusure forzate) non sono più una preoccupazione.
-- **Gestione dei nodi e dei canali migliorata:** le soluzioni individuali e professionali sono migliorate. Ad esempio, BTC Pay Server supporta ora numerosi plugin per la connessione con altri provider (PSP, rampe on/off, ecc.). Sono entrati in produzione anche nuovi fornitori di infrastrutture, come LightSpark e Alby Hub.
-- **Crescita dell'adozione da parte degli esercenti:** esercenti come BitRefill segnalano un aumento dei pagamenti in Bitcoin tra i loro utenti attivi, con un chiaro spostamento verso Bitcoin rispetto a Lightning. Inoltre, le commissioni bassissime di Lightning lo rendono la scelta preferita per i piccoli pagamenti (in media 32 euro per transazione).
+- **Transazioni ultraveloci**: le transazioni sono spesso quasi istantanee (<500ms) e hanno un tasso di fallimento estremamente basso.
+- **Professionalizzazione della rete**: gli operatori più grandi assicurano la liquidità della rete, mentre i singoli hanno smesso di instradare i pagamenti e ora gestiscono principalmente i _"nodi periferici"_.
+- **Esperienza utente migliorata**: le applicazioni mobile per i singoli utenti sono state notevolmente migliorate. Funzionalità come lo _"splicing"_, le fatture statiche _"Bolt12"_ e i pagamenti a conferma zero (0-conf) sono ampiamente disponibili, rendendo le interazioni senza soluzione di continuità. I problemi di interoperabilità (ad esempio, le chiusure forzate) non sono più una preoccupazione.
+- **Gestione dei nodi e dei canali migliorata**: le soluzioni individuali e professionali sono migliorate. Ad esempio, BTC Pay Server supporta ora numerosi plugin per la connessione con altri provider (PSP, rampe on/off, ecc.). Sono entrati in produzione anche nuovi fornitori di infrastrutture, come LightSpark e Alby Hub.
+- **Crescita dell'adozione da parte degli esercenti**: esercenti come BitRefill segnalano un aumento dei pagamenti in bitcoin tra i loro utenti attivi, con un chiaro spostamento verso Bitcoin su Lightning. Inoltre, le commissioni bassissime di Lightning lo rendono la scelta preferita per i piccoli pagamenti (in media 32 euro per transazione).
 
 ![BIZ101-profiles](assets/en/30.webp)
 
 *[Fonte: BTC Map](https://btcmap.org/)*
 
-- **Metriche di rete:** il numero totale di canali e di Bitcoin bloccati su Lightning rimane stabile, con circa 20.000 nodi, 5.200 BTC e 60.000 canali. Tuttavia, questo dato riflette solo una parte del network e indica una alternanza tra i partecipanti, con meno individui e più professionisti che partecipano.
-- **Lightning come ponte tra le reti:** l'efficienza e la disponibilità del Lightning Network l'hanno già posizionata come ponte verso altre reti interconnesse (ad esempio, FediMint, Liquid, ecc.).
+- **Metriche di rete**: il numero totale di canali e di bitcoin bloccati su Lightning rimane stabile, con circa 20.000 nodi, 5.200 BTC e 60.000 canali. Tuttavia, questo dato riflette solo una parte del network e indica una alternanza tra i partecipanti, con meno individui e più professionisti che partecipano.
+- **Lightning come ponte tra le reti**: l'efficienza e la disponibilità del Lightning Network l'hanno già posizionata come ponte verso altre reti interconnesse (ad esempio, FediMint, Liquid, ecc.).
 
 
 **Il ritorno dei wallet**
@@ -1028,23 +1029,24 @@ I commercianti di domani abbracceranno questa innovazione, offrendo ai clienti u
 
 Il seguente contenuto è solo a scopo educativo e non deve essere considerato come una consulenza finanziaria o contabile. Le aziende e i privati sono caldamente invitati a consultare un commercialista qualificato o un esperto legale che conosca le normative sulle criptovalute nella loro specifica giurisdizione prima di intraprendere qualsiasi azione.
 
-### Concetti chiave della contabilità Bitcoin
+### Concetti chiave della contabilità in bitcoin
 
-**Ogni transazione in Bitcoin deve essere registrata e può comportare un evento imponibile**
+**Ogni transazione in bitcoin deve essere registrata e può comportare un evento imponibile**
 
-A livello globale, Bitcoin viene spesso classificato non come una valuta ma come un bene digitale. Questa distinzione ha un impatto significativo sul modo in cui Bitcoin viene contabilizzato nelle aziende, influenzando gli obblighi fiscali, la rendicontazione finanziaria e i requisiti di conformità. Le aziende che accettano Bitcoin come metodo di pagamento o lo utilizzano come strumento di tesoreria devono comprendere queste sfumature normative.
+A livello globale, Bitcoin viene spesso classificato non come una valuta ma come un bene digitale. Questa distinzione ha un impatto significativo sul modo in cui i bitcoin viene contabilizzato nelle aziende, influenzando gli obblighi fiscali, la rendicontazione finanziaria e i requisiti di conformità. Le aziende che accettano i bitcoin come metodo di pagamento o lo utilizzano come strumento di tesoreria devono comprendere queste sfumature normative.
 
-La **conseguenza più importante** da tenere a mente è che, nella maggior parte delle giurisdizioni, guadagnare, vendere, scambiare o usare Bitcoin per fare acquisti, di solito crea **un evento imponibile** e i guadagni sono soggetti all'imposta sulle plusvalenze.
+La **conseguenza più importante** da tenere a mente è che, nella maggior parte delle giurisdizioni, guadagnare, vendere, scambiare o usare i bitcoin per fare acquisti, di solito crea **un evento imponibile** e i guadagni sono soggetti all'imposta sulle plusvalenze.
 
-Un altro aspetto della contabilità Bitcoin è la differenziazione tra due tipi di plusvalenze:
+Un altro aspetto della contabilità in bitcoin è la differenziazione tra due tipi di plusvalenze:
 
 
-- **Guadagni/perdite latenti:** guadagni o perdite non realizzati basati sul valore dei bitcoin detenuti alla fine di un periodo contabile.
-- **Guadagni/perdite effettivi:** guadagni o perdite realizzati quando i bitcoin vengono venduti o scambiati durante l'anno fiscale.
+- **Guadagni/perdite latenti**: guadagni o perdite non realizzati basati sul valore dei bitcoin detenuti alla fine di un periodo contabile.
+  
+- **Guadagni/perdite effettivi**: guadagni o perdite realizzati quando i bitcoin vengono venduti o scambiati durante l'anno fiscale.
 
 Questi calcoli dipendono in larga misura dal fatto che i bitcoin siano detenuti per un investimento a lungo termine o per un uso operativo a breve termine. Inoltre, le aziende devono allineare le loro pratiche contabili con le strutture fiscali locali, poiché le normative variano notevolmente da Paese a Paese.
 
-La contabilità per le aziende che detengono Bitcoin è piuttosto complessa perché ogni transazione deve essere meticolosamente monitorata per calcolare i profitti o le perdite realizzate o non realizzate. Per ogni vendita effettuata accettando i bitcoin come forma di pagamento, o ogni volta che si acquista o si vende bitcoin, è necessario registrare:
+La contabilità per le aziende che detengono dei bitcoin è piuttosto complessa perché ogni transazione deve essere meticolosamente monitorata per calcolare i profitti o le perdite realizzate o non realizzate. Per ogni vendita effettuata accettando dei bitcoin come forma di pagamento, o ogni volta che si acquista o si vendono dei bitcoin, è necessario registrare:
 
 
 - il tempo specifico
@@ -1053,7 +1055,7 @@ La contabilità per le aziende che detengono Bitcoin è piuttosto complessa perc
 
 In questo modo sarà possibile calcolare la differenza per determinare il profitto o la perdita.
 
-**Esempio:** Un'azienda acquista 1 BTC a 30.000 dollari. Successivamente, vende 0,5 BTC a 20.000 dollari. Per calcolare il profitto o la perdita, l'azienda deve:
+**Esempio**: Un'azienda acquista 1 BTC a 30.000 dollari. Successivamente, vende 0,5 BTC a 20.000 dollari. Per calcolare il profitto o la perdita, l'azienda deve:
 
 
 - Aver registrato l'ora, il prezzo di costo fiat e la quantità dei bitcoin acquistati
@@ -1062,13 +1064,13 @@ In questo modo sarà possibile calcolare la differenza per determinare il profit
 - Confrontare il prezzo di vendita con il prezzo di costo: 20.000 dollari (prezzo di vendita) - 15.000 dollari (prezzo di costo) = 5.000 dollari di profitto.
 - Aggiornare le disponibilità dei bitcoin con il nuovo prezzo di costo
 
-Questo processo deve essere ripetuto per ogni transazione e la natura fluttuante del prezzo deil bitcoin rende la registrazione ancora più complicata.
+Questo processo deve essere ripetuto per ogni transazione e la natura fluttuante del prezzo dei bitcoin rende la registrazione ancora più complicata.
 
-**Come funzionerebbe se Bitcoin fosse una valuta?**
+**Come funzionerebbe se i bitcoin fossero concepiti come una valuta?**
 
-Se Bitcoin fosse trattato come una valuta, le aziende lo gestirebbero come qualsiasi altra valuta nel loro sistema contabile. Invece di tenere traccia della base dei costi e dei profitti realizzati/non realizzati per ogni transazione, le disponibilità dei bitcoin verrebbero semplicemente registrate in un conto in valuta. Alla fine di ogni periodo di rendicontazione, il valore di tutte le disponibilità in valuta, compreso i bitcoin, verrebbero convertiti nella valuta di contabilità (ad esempio, USD o EUR) utilizzando il tasso di cambio corrente.
+Se i bitcoin fossero trattati come una valuta, le aziende lo gestirebbero come qualsiasi altra valuta nel loro sistema contabile. Invece di tenere traccia della base dei costi e dei profitti realizzati/non realizzati per ogni transazione, le disponibilità dei bitcoin verrebbero semplicemente registrate in un conto in valuta. Alla fine di ogni periodo di rendicontazione, il valore di tutte le disponibilità in valuta, compreso i bitcoin, verrebbero convertiti nella valuta di contabilità (ad esempio, USD o EUR) utilizzando il tasso di cambio corrente.
 
-**Esempio aggiornato se Bitcoin fosse riconosciuto come moneta:**
+**Esempio aggiornato se i bitcoin fosse riconosciuti come moneta**:
 
 
 - Un'azienda detiene 1 BTC quando i bitcoin valgono 30.000 dollari. Successivamente, l'azienda utilizza 0,5 BTC per un pagamento quando i bitcoin valgono 40.000 dollari.
@@ -1076,24 +1078,24 @@ Se Bitcoin fosse trattato come una valuta, le aziende lo gestirebbero come quals
     - Pagamento: 20.000 dollari (0,5 BTC × 40.000 dollari).
     - Saldo dei bitcoin rimanenti: 0.5 BTC, che ora valgono 20.000 dollari (aggiornato al tasso di cambio attuale).
 
-**Il vantaggio principale se Bitcoin fosse riconosciuto come valuta**
+**Il vantaggio principale se i bitcoin fossero riconosciuto come valuta**
 
 
 - L'azienda deve solo aggiustare periodicamente l'equivalente in fiat delle sue disponibilità in bitcoin (ad esempio, per i rapporti mensili o annuali), proprio come per gli euro, gli yen o le altre valute che detiene.
-- Questo elimina la necessità di tracciare i costi a livello di transazione e semplifica la contabilità, soprattutto per le aziende con frequenti transazioni in Bitcoin.
+- Questo elimina la necessità di tracciare i costi a livello di transazione e semplifica la contabilità, soprattutto per le aziende con frequenti transazioni in bitcoin.
 
-Questo approccio renderebbe la contabilità dei bitcoin molto più semplice, ridurrebbe gli oneri amministrativi e si allineerebbe al trattamento delle altre valute, nell'ipotesi che Bitcoin venga pienamente riconosciuto come tale in termini legali e normativi. Non siamo ancora a questo punto.
+Questo approccio renderebbe la contabilità dei bitcoin molto più semplice, ridurrebbe gli oneri amministrativi e si allineerebbe al trattamento delle altre valute, nell'ipotesi che i bitcoin venga pienamente riconosciuto come tale in termini legali e normativi. Non siamo ancora a questo punto.
 
 ### Distinzione tra contabilità individuale e contabilità aziendale
 
-Il trattamento legale e contabile dei bitcoin differisce in modo significativo tra persone fisiche e società. Per le persone fisiche, i guadagni derivanti dalle transazioni in Bitcoin possono essere soggetti all'imposta sul reddito, spesso con un'aliquota più elevata. Le società, invece, possono beneficiare di aliquote fiscali potenzialmente più basse, ma devono attenersi a standard contabili più severi.
+Il trattamento legale e contabile dei bitcoin differisce in modo significativo tra persone fisiche e società. Per le persone fisiche, i guadagni derivanti dalle transazioni in bitcoin possono essere soggetti all'imposta sul reddito, spesso con un'aliquota più elevata. Le società, invece, possono beneficiare di aliquote fiscali potenzialmente più basse, ma devono attenersi a standard contabili più severi.
 
 Per le aziende, i bitcoin possono essere classificati in diversi conti a seconda dell'uso che se ne intende fare:
 
 
-- **Immobilizzazioni:** per i bitcoin detenuti a lungo termine come investimento strategico.
-- **Azioni:** per i bitcoin utilizzato nei processi di produzione (un caso d'uso raro, ad esempio è il caso dei trader professionisti).
-- **Conti di cassa o di tesoreria:** per i bitcoin detenuti come attività liquida, principalmente per transazioni operative o per la gestione della tesoreria a breve termine.
+- **Immobilizzazioni**: per i bitcoin detenuti a lungo termine come investimento strategico.
+- **Azioni**: per i bitcoin utilizzati nei processi di produzione (un caso d'uso raro, ad esempio è il caso dei trader professionisti).
+- **Conti di cassa o di tesoreria**: per i bitcoin detenuti come attività liquida, principalmente per transazioni operative o per la gestione della tesoreria a breve termine.
 
 La scelta della classificazione dipende dall'attività e dalla strategia dell'azienda, con implicazioni per la rendicontazione finanziaria e gli obblighi fiscali. Verificare sempre le normative locali, poiché le classificazioni possono variare a seconda del Paese.
 
@@ -1104,16 +1106,16 @@ Il riconoscimento legale e il trattamento dei bitcoin variano a seconda della gi
 Nella maggior parte dei Paesi, i bitcoin sono classificati come attività digitali e il loro trattamento è regolato da norme contabili generali. Le imprese devono contabilizzare le transazioni in bitcoin come segue:
 
 
-- **Registrazione delle plusvalenze/minusvalenze:** le imprese devono contabilizzare le plusvalenze e le minusvalenze realizzate nei loro risultati finanziari.
-- **Valutazione dei guadagni/perdite latenti:** i guadagni o le perdite non realizzati devono spesso essere dichiarati, ma possono non avere un impatto diretto sul reddito imponibile.
-- **Conformità agli standard contabili:** le aziende devono integrare le transazioni i bitcoin nelle pratiche contabili standard, garantendo trasparenza e accuratezza.
+- **Registrazione delle plusvalenze/minusvalenze**: le imprese devono contabilizzare le plusvalenze e le minusvalenze realizzate nei loro risultati finanziari.
+- **Valutazione dei guadagni/perdite latenti**: i guadagni o le perdite non realizzati devono spesso essere dichiarati, ma possono non avere un impatto diretto sul reddito imponibile.
+- **Conformità agli standard contabili**: le aziende devono integrare le transazioni i bitcoin nelle pratiche contabili standard, garantendo trasparenza e accuratezza.
 
-L'approccio alla contabilità dei Bitcoin varia a seconda della geografia:
+L'approccio alla contabilità dei bitcoin varia a seconda della geografia:
 
 
-- **Stati Uniti:** l'IRS classifica i bitcoin come **proprietà, simile ad azioni, obbligazioni o immobili**. Questa classificazione significa che qualsiasi transazione che coinvolga la criptovaluta, come guadagnare, vendere, scambiare o anche usare per fare acquisti, può creare un evento imponibile e i guadagni sono soggetti all'imposta sulle plusvalenze.
-- **Unione Europea:** gli Stati membri generalmente trattano i bitcoin come un'attività speculativa piuttosto che come una valuta funzionale. Pertanto i guadagni sono spesso soggetti all'imposta sulle plusvalenze.
-- **Asia:** paesi come Singapore e Giappone hanno adottato quadri normativi progressivi, trattando le transazioni in bitcoin in modo favorevole in contesti specifici. Tuttavia, i bitcoin sono generalmente contabilizzati come **attività immateriali** e sono valutati al valore equo alla data di chiusura del bilancio, con variazioni rilevate nell'utile o nella perdita.
+- **Stati Uniti**: l'IRS classifica i bitcoin come **proprietà, simile ad azioni, obbligazioni o immobili**. Questa classificazione significa che qualsiasi transazione che coinvolga la criptovaluta, come guadagnare, vendere, scambiare o anche usare per fare acquisti, può creare un evento imponibile e i guadagni sono soggetti all'imposta sulle plusvalenze.
+- **Unione Europea**: gli Stati membri generalmente trattano i bitcoin come un'attività speculativa piuttosto che come una valuta funzionale. Pertanto i guadagni sono spesso soggetti all'imposta sulle plusvalenze.
+- **Asia**: paesi come Singapore e Giappone hanno adottato quadri normativi progressivi, trattando le transazioni in bitcoin in modo favorevole in contesti specifici. Tuttavia, i bitcoin sono generalmente contabilizzati come **attività immateriali** e sono valutati al valore equo alla data di chiusura del bilancio, con variazioni rilevate nell'utile o nella perdita.
 
 È essenziale comprendere le normative del paese in cui si opera e adattare le pratiche contabili di conseguenza.
 
@@ -1122,13 +1124,13 @@ L'approccio alla contabilità dei Bitcoin varia a seconda della geografia:
 Il rapido ritmo dell'innovazione delle criptovalute spesso supera i quadri normativi. Da quando i bitcoin sono stati riconosciuti come asset digitale, le normative globali sono state aggiornate in modo incrementale, ma le lacune rimangono:
 
 
-- **Mancanza di giurisprudenza:** pochi casi legali hanno chiarito specifiche pratiche contabili, lasciando spazio all'interpretazione.
-- **Dibattiti in corso:** questioni come il trattamento fiscale delle perdite latenti rimangono irrisolte in molte giurisdizioni.
-- **Complessità transfrontaliera:** le aziende che operano a livello internazionale devono affrontare sfide per conciliare i diversi standard contabili nazionali.
+- **Mancanza di giurisprudenza**: pochi casi legali hanno chiarito specifiche pratiche contabili, lasciando spazio all'interpretazione.
+- **Dibattiti in corso**: questioni come il trattamento fiscale delle perdite latenti rimangono irrisolte in molte giurisdizioni.
+- **Complessità transfrontaliera**: le aziende che operano a livello internazionale devono affrontare sfide per conciliare i diversi standard contabili nazionali.
 
 Nonostante queste sfide, le posizioni proattive di molti Paesi forniscono una solida base alle imprese per incorporare Bitcoin nelle loro attività. Aggiornamenti continui e armonizzazione internazionale saranno essenziali per affrontare le complessità emergenti nella contabilità delle criptovalute.
 
-### Classificazione del Bitcoin nei bilanci
+### Classificazione dei bitcoin nei bilanci
 
 La classificazione dei bitcoin nei bilanci varia a seconda della giurisdizione e dipende dall'uso che se ne intende fare all'interno di un'azienda. In linea di massima, i bitcoin sono trattati come un'attività digitale, simile al magazzino, all'investimento o alla valuta, ma con caratteristiche uniche che ne influenzano il trattamento contabile.
 
@@ -1161,8 +1163,8 @@ Le aziende devono assicurarsi che gli strumenti di **pagamento** che utilizzano 
 
 
 - generare una fattura con l'importo fiat locale (euro, dollari, sterline), l'IVA o altre imposte locali, l'equivalente in bitcoin, la data e l'ora, il tasso di cambio bitcoin e la fonte di cambio, ecc
-- esportare tutte le ricevute di pagamento, almeno in formato .csv, con tutte le informazioni di cui sopra, in modo che il commercialista possa elaborarle facilmente
-- idealmente avere una registrazione del valore aggiornato del costo-base per i bitcoin correnti detenuti in tesoreria
+- esportare tutte le ricevute di pagamento, almeno in formato `.csv`, con tutte le informazioni di cui sopra, in modo che il commercialista possa elaborarle facilmente
+- idealmente avere una registrazione del valore aggiornato del costo-base per i bitcoin correnti detenuti in tesoreria.
 
 ### Sfide
 
@@ -1177,7 +1179,15 @@ Le aziende devono assicurarsi che gli strumenti di **pagamento** che utilizzano 
 
 <chapterId>e7b31be5-1176-4835-944e-3cba1b7040fa</chapterId>
 
-Quando un'azienda decide di integrare Bitcoin nella propria contabilità, vari strumenti e software specializzati semplificano la raccolta e l'elaborazione dei dati. Tra le soluzioni più note vi sono [CoinTracker](https://www.cointracker.io/), [Waltio](https://www.waltio.com/), [Cryptio](https://cryptio.co/), [Koinly](https://koinly.io/), [TokenTax](https://tokentax.co/) e [ZenLedger](https://zenledger.io/). Queste piattaforme si concentrano principalmente su quattro aspetti:
+Quando un'azienda decide di integrare Bitcoin nella propria contabilità, vari strumenti e software specializzati semplificano la raccolta e l'elaborazione dei dati. Tra le soluzioni più note vi sono:
+- [CoinTracker](https://www.cointracker.io/);
+- [Waltio](https://www.waltio.com/);
+- [Cryptio](https://cryptio.co/);
+- [Koinly](https://koinly.io/);
+- [TokenTax](https://tokentax.co/);
+- [ZenLedger](https://zenledger.io/).
+- 
+Queste piattaforme si concentrano principalmente su quattro aspetti:
 
 
 - raccolta automatica dei dati;
@@ -1185,29 +1195,29 @@ Quando un'azienda decide di integrare Bitcoin nella propria contabilità, vari s
 - calcolo degli obblighi fiscali;
 - categorizzazione delle transazioni.
 
-Spesso sono un complemento sensato per le grandi organizzazioni che dispongono di più portafogli e asset su varie piattaforme o borse.
+Spesso sono un complemento sensato per le grandi organizzazioni che dispongono di più portafogli e asset su varie piattaforme o exchange.
 
 ![BIZ101](assets/en/31.webp)
 
-Tuttavia, un semplice file `.csv` contenente la cronologia delle transazioni è spesso sufficiente per la maggior parte delle piccole imprese. L'obiettivo è documentare, per ogni pagamento, la data, l'importo, il valore equivalente in euro/dollari e i relativi indirizzi Bitcoin. La maggior parte delle soluzioni di pagamento in Bitcoin (BTC Pay Server, Swiss Bitcoin Pay, ecc.) o delle piattaforme di scambio (Bitfinex, Kraken, Coinbase, ecc.) offrono già un meccanismo per esportare la cronologia delle transazioni. Fornendo questo file a un commercialista, diventa possibile snellire l'inserimento dei dati e distinguere chiaramente i flussi in entrata e in uscita relativi ai bitcoin.
+Tuttavia, un semplice file `.csv` contenente la cronologia delle transazioni è spesso sufficiente per la maggior parte delle piccole imprese. L'obiettivo è documentare, per ogni pagamento, la data, l'importo, il valore equivalente in euro/dollari e i relativi indirizzi Bitcoin. La maggior parte delle soluzioni di pagamento in bitcoin (BTC Pay Server, Swiss Bitcoin Pay, ecc.) o delle piattaforme di scambio (Bitfinex, Kraken, Coinbase, ecc.) offrono già un meccanismo per esportare la cronologia delle transazioni. Fornendo questo file a un commercialista, diventa possibile snellire l'inserimento dei dati e distinguere chiaramente i flussi in entrata e in uscita relativi ai bitcoin.
 
 Per chi custodisce autonomamente i propri bitcoin, la gestione degli UTXO (*Unspent Transaction Outputs*) è un passo importante. Una corretta etichettatura degli UTXO aiuta a tracciare l'origine di ogni frammento di BTC, a differenziare le transazioni legate all'attività professionale da quelle per spese personali e a facilitare la tracciabilità a fini legali o fiscali. La maggior parte dei buoni software per portafogli Bitcoin consente di importare il portafoglio utilizzando il file di backup (o l'xpub, a seconda della configurazione) e di etichettare gli UTXO in base alla loro origine o destinazione. Per aiutarvi, ecco un tutorial completo dedicato a questa pratica:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidata, è possibile **regolare una fattura in bitcoin**. Il segreto è documentare correttamente la transazione. Se si paga da un wallet non-custodial, è ideale generare una transazione annotando il numero della fattura e lo scopo del pagamento nelle proprie etichette. Se preferite saldare la fattura tramite uno scambio, avrete anche la possibilità di esportare una ricevuta o la cronologia della transazione da includere nei vostri registri contabili. Questa trasparenza semplificherà la tracciabilità e la rendicontazione di tutte le operazioni BTC.
 
-## Esempi pratici di contabilità Bitcoin
+## Esempi pratici di contabilità in bitcoin
 
 <chapterId>763f6f20-9181-495a-bf7d-b405899e65ec</chapterId>
 
 ### Caso d'uso 1: Negozio al dettaglio che converte i pagamenti da bitcoin in euro
 
-**Scenario**: una piccola panetteria accetta Bitcoin come metodo di pagamento, ma converte immediatamente tutti i bitcoin ricevuti in euro per evitare l'esposizione alla volatilità delle criptovalute.
+**Scenario**: una piccola panetteria accetta i bitcoin come metodo di pagamento, ma converte immediatamente tutti i bitcoin ricevuti in euro per evitare l'esposizione alla volatilità delle criptovalute.
 
 **Esempio**:
 
 
-- **Tasso di conversione dei Bitcoin**: 1 bitcoin = 40.000 euro.
+- **Tasso di conversione dei bitcoin**: 1 bitcoin = 40.000 euro.
 - **Operazione 1**: il cliente acquista più pasticcini per 20 euro.
     - Equivalente in bitcoin: (20 / 40.000) = 0,0005 bitcoin = 50.000 satoshi.
     - Commissione di conversione: 1,5% (20 euro × 0,015) = 0,30 euro.
@@ -1229,7 +1239,7 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 
 - Registrare le vendite totali (25 euro) come ricavi.
 - Dedurre le spese di conversione (0,375 euro) come spesa.
-- Nel bilancio non compaiono partecipazioni in bcoin, poiché tutti gli importi sono stati convertiti immediatamente.
+- Nel bilancio non compaiono partecipazioni in bitcoin, poiché tutti gli importi sono stati convertiti immediatamente.
 
 ### Caso d'uso 2: Negozio al dettaglio che trattiene il 50% dei pagamenti in bitcoin
 

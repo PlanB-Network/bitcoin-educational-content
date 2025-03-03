@@ -7,4 +7,3 @@ Dans les portefeuilles déterministes et hiérarchiques (HD), l'objectif, défin
 * Pour du P2WPKH-nested-in-P2SH : `49'` ;
 * Pour du P2WPKH : `84'` ;
 * Pour du P2TR : `86'`.
-![](../../dictionnaire/assets/20.png)

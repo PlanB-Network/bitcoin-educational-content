@@ -11,3 +11,4 @@ OP_2
 OP_3
 OP_CHECKMULTISIG
 ```
+> ► *Tous ces opcodes sont parfois également nommés OP_PUSHNUM_N.*

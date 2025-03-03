@@ -10,3 +10,4 @@ En complément de ces trois SigHash Flags, le modificateur `SIGHASH_ANYONECANPAY
 -`SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`) : La signature s'applique à un seul input tout en couvrant tous les outputs de la transaction ;
 -`SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`) : La signature couvre un seul input, sans engager aucun output ;
 -`SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`) : La signature s'applique à un seul input et uniquement à l'output ayant le même index que cet input.
+> ► *Un synonyme parfois utilisé de « SigHash » est « Signature Hash Types ».*

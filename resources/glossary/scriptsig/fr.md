@@ -12,4 +12,4 @@ Le `scriptPubKey` correspondant serait :
 ```text
 OP_DUP OP_HASH160 OP_PUSHBYTES_20 <adresse> OP_EQUALVERIFY OP_CHECKSIG
 ```
-![](../../dictionnaire/assets/35.png)
+> ► *Le `scriptSig` est également parfois nommé « unlocking script » ou « script de déverrouillage » en français.*

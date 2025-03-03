@@ -15,4 +15,3 @@ Par exemple, si mon adresse de réception dispose du chemin de dérivation `m / 
 * `0'` indique que l'on est sur le premier compte du portefeuille ;
 * `0` indique que c'est une adresse externe ;
 * `5` indique que c'est la sixième adresse externe de ce compte.
-![](../../dictionnaire/assets/18.png)

@@ -10,3 +10,4 @@ La combinaison de ces deux éléments permet d'identifier précisément un UTXO.
 abc...123:0
 ```
 L'outpoint est utilisé dans les inputs (`vin`) d'une nouvelle transaction pour indiquer quel UTXO est dépensé.
+> ► *Le terme « outpoint » est souvent utilisé comme synonyme de « UTXO ».*

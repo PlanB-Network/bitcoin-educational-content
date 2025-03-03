@@ -11,4 +11,4 @@ Le `scriptSig` correspondant serait :
 ```text
 <signature> <clé publique>
 ```
-![](../../dictionnaire/assets/35.png)
+> ► *Pour nommé ce script, on parle également parfois d'un « locking script » ou « script de verrouillage » en français.*

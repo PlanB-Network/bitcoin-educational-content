@@ -10,4 +10,3 @@ Fait référence à un bloc sans enfant : un bloc valide, mais exclu de la chaî
 * Il diffuse `Bloc B+1` aux nœuds du réseau ;
 * Puisque les nœuds suivent la chaîne la plus longue (avec le plus de travail accumulé), ils vont estimer que la `Chaîne B` est celle qu'il faut suivre ;
 * Ils vont abandonner le `Bloc A` qui ne fait plus partie de la chaîne principale. Il est donc devenu un bloc obsolète.
-![](../../dictionnaire/assets/9.png)

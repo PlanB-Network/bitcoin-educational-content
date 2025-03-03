@@ -9,7 +9,7 @@ objectives:
   - Realize the geopolitical and social impact of Bitcoin
 ---
 
-# Your First Bitcoin Adventure
+# Your First Bitcoin Adventure kdsfhisenfk
 
 In this course, we will explain the basics of Bitcoin in 25 chapters, so that you can understand this technology in a simple and effective way. The course explores the basics of the industry as a whole, including topics like mining, wallets, buying/selling platforms, and more. Additional educational material will be available throughout the journey, and we also invite you to check the "21 Posters" in the resources section after you finish this course.
 

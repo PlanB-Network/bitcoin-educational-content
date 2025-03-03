@@ -1,94 +1,11 @@
-id: e90df2b9-9788-40e0-b866-74646467c88a
+id: 8bb2cb2e-67e4-49c0-94c2-f47b8a7f8ced
 en_word: BITCOIN IMPLEMENTATION
 related_words: []
 original_language: fr
 proofreading:
-  - language: en
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.22
   - language: fr
-    last_contribution_date: 2024-07-26
+    last_contribution_date: 2025-03-03
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 0.11
-
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.33
-
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.22
-
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.28
-
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.33
-
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.33
-
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.39
-
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.28
-
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.33
-
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.22
-
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.33
-
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.45
-
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.39
-
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.45
+    reward: 0

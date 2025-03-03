@@ -1,94 +1,11 @@
-id: a3c5863c-49f9-4afa-8652-739c5564910c
+id: 6685d093-0126-492e-9f63-08fe05b458d9
 en_word: PASSPHRASE (BIP39)
 related_words: []
 original_language: fr
 proofreading:
-  - language: en
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.35
   - language: fr
-    last_contribution_date: 2024-07-26
+    last_contribution_date: 2025-03-03
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 0.18
-
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.61
-
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.35
-
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.48
-
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.61
-
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.61
-
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.74
-
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.48
-
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.35
-
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.61
-
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.86
-
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.74
-
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.86
-
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.61
+    reward: 0

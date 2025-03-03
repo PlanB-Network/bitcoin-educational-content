@@ -1,95 +1,11 @@
-id: 3d17dd7c-903f-4484-b2df-ff7f529d562e
+id: 69131483-4b09-4ca0-bc37-e5139a5de75f
 en_word: ANONSETS (ANONYMITY SETS)
-related_words:
-  - COINJOIN
+related_words: ["COINJOIN"]
 original_language: fr
 proofreading:
-  - language: en
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.26
   - language: fr
-    last_contribution_date: 2024-07-26
+    last_contribution_date: 2025-03-03
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 0.13
-
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.43
-
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.26
-
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.34
-
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.43
-
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.43
-
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.51
-
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.34
-
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.43
-
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.26
-
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.43
-
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.59
-
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.51
-
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.59
+    reward: 0

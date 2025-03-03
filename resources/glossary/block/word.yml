@@ -1,94 +1,11 @@
-id: 76bdb36d-b454-4a7f-9a3a-30587dd042d5
+id: d7877e8b-df27-4026-ba7b-9621195c7fd6
 en_word: BLOCK
 related_words: []
 original_language: fr
 proofreading:
-  - language: en
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.21
   - language: fr
-    last_contribution_date: 2024-07-26
+    last_contribution_date: 2025-03-03
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 0.1
-
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.31
-
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.21
-
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.26
-
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.31
-
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.31
-
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.36
-
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.26
-
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.31
-
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.21
-
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.31
-
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.42
-
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.36
-
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.42
+    reward: 0

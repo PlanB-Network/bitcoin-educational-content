@@ -1,6 +1,6 @@
-id: afb4d9fc-f8cb-4dff-843c-13137124f46f
+id: 49c7afbb-7168-4438-8727-bfd369502fae
 en_word: OP_HASH160 (0XA9)
-related_words: ["SHA256"]
+related_words: ["SHA256", "RIPEMD160"]
 original_language: fr
 proofreading:
   - language: fr

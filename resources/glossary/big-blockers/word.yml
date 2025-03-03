@@ -1,95 +1,11 @@
-id: b25364db-999c-4874-9820-89ee4f97006e
+id: 97e0c6d8-8e0b-45ce-b7c7-8715db17e79c
 en_word: BIG BLOCKERS
-related_words:
-  - BLOCKSIZE WAR
+related_words: ["BLOCKSIZE WAR"]
 original_language: fr
 proofreading:
-  - language: en
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.15
   - language: fr
-    last_contribution_date: 2024-07-26
+    last_contribution_date: 2025-03-03
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 0.07
-
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.19
-
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.15
-
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.17
-
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.19
-
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.19
-
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.22
-
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.17
-
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.19
-
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.15
-
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.19
-
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.24
-
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.22
-
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.24
+    reward: 0

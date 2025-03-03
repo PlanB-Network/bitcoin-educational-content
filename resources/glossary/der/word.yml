@@ -1,6 +1,6 @@
-id: 0a5858b6-37a1-4e47-9230-3195371ddd66
+id: e699ba77-26a1-4c72-8e51-0fc9ce3bde1c
 en_word: DER
-related_words: ["BIP66"]
+related_words: ["BIP0066", "SIGHASH FLAG"]
 original_language: fr
 proofreading:
   - language: fr

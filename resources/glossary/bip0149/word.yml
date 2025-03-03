@@ -1,0 +1,11 @@
+id: be931d82-a65d-44b8-a3b5-bb362a4f2f87
+en_word: BIP0149
+related_words: ["BIP0008", "BIP0009", "BIP0091", "BIP0148", "UASF", "MASF", "ACTIVATION METHOD"]
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-03
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 0

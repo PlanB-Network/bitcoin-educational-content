@@ -1,6 +1,6 @@
-id: c2174237-41bf-424c-a446-def7c7ef7b01
+id: c66dd38d-c14a-41af-b9f8-9c9d04279c13
 en_word: OP_NOTIF (0X64)
-related_words: []
+related_words: ["OP_IF (0X63)"]
 original_language: fr
 proofreading:
   - language: fr

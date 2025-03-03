@@ -1,0 +1,11 @@
+id: bead3f86-26b4-4d72-8548-678950a22185
+en_word: BIP0050
+related_words: ["LEVELDB", "BERKELEYDB"]
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-03
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 0

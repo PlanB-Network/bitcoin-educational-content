@@ -1,6 +1,6 @@
-id: 6c556b3b-9280-4a21-a83f-2b18f4334575
+id: 34fae23b-9b8c-41b8-808a-7b63bb51c3a1
 en_word: HD (HIERARCHICAL-DETERMINISTIC)
-related_words: ["BIP32"]
+related_words: ["BIP0032", "BIP0044"]
 original_language: fr
 proofreading:
   - language: fr

@@ -1,0 +1,11 @@
+id: 50d17ff4-3dc2-4a91-a437-924155138660
+en_word: BIP0065
+related_words: ["OP_CHECKLOCKTIMEVERIFY (0XB1)"]
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-03
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 0

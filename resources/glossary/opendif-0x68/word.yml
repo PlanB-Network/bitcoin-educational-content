@@ -1,6 +1,6 @@
-id: 7e0c6ea0-df75-49f4-9921-6d6f68d45aca
+id: b24b56c6-eaeb-4a8c-b681-0bfddcd85129
 en_word: OP_ENDIF (0X68)
-related_words: []
+related_words: ["OP_IF (0X63)"]
 original_language: fr
 proofreading:
   - language: fr

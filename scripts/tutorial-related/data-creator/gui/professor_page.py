@@ -51,7 +51,7 @@ class ProfessorPage(ctk.CTkFrame):
         ctk.CTkLabel(self, text="First Name:", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
         self.first_name_var = ctk.StringVar(value=professor_data.get("first_name", ""))
         ctk.CTkEntry(self, textvariable=self.first_name_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
-        ctk.CTkLabel(self, text="Last Name:", font=("Arial", 14)).grid(row=row, column=2, sticky="w", padx=10)
+        ctk.CTkLabel(self, text="Last Name (optional):", font=("Arial", 14)).grid(row=row, column=2, sticky="w", padx=10)
         self.last_name_var = ctk.StringVar(value=professor_data.get("last_name", ""))
         ctk.CTkEntry(self, textvariable=self.last_name_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=3, padx=10, pady=5, sticky="ew")
         row += 1
@@ -226,8 +226,8 @@ class ProfessorPage(ctk.CTkFrame):
             messagebox.showerror("Error", "Invalid folder name. Use only lowercase letters, digits, and dashes.")
             return
        
-        if not self.first_name_var.get().strip() or not self.last_name_var.get().strip():
-            messagebox.showerror("Error", "Please enter both first and last names.")
+        if not self.first_name_var.get().strip():
+            messagebox.showerror("Error", "Please enter a first name or a pseudo.")
             return
        
         contributor_id = self.prof_contrib_var.get().strip()
@@ -274,7 +274,10 @@ class ProfessorPage(ctk.CTkFrame):
                 dest_image = os.path.join(assets_dir, "profile.webp")
                 process_profile_image(image_path, dest_image)
            
-            full_name = f"{self.first_name_var.get().strip()} {self.last_name_var.get().strip()}"
+            first_name = self.first_name_var.get().strip()
+            last_name = self.last_name_var.get().strip()
+            full_name = first_name if not last_name else f"{first_name} {last_name}"
+
             yaml_content = create_professor_yaml(
                 full_name, contributor_id,
                 website=self.website_var.get().strip(),

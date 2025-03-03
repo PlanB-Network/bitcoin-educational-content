@@ -1,6 +1,6 @@
 ---
 name: Bitcoin per le aziende
-goal: Imparate le nozioni di base sui pagamenti e sulla tesoreria per portare la vostra azienda nel mercato di Bitcoin
+goal: Imparate le nozioni di base sui pagamenti e sulla tesoreria per portare la vostra azienda nel mercato dei bitcoin
 objectives: 
 
   - Bitcoin come valuta emergente e strumento di business
@@ -13,9 +13,9 @@ objectives:
 
 Scoprirete le funzionalità pratiche di Bitcoin e di Lightning Network ed esplorerete il modo in cui, proprio come Internet, possono **trasformare le vostre operazioni commerciali**. Dal capitale digitale ai pagamenti veloci, economici e scalabili, Bitcoin offre un vasto spettro di **casi d'uso per le aziende**.
 
-In questa guida imparerete a comprendere il Bitcoin come rete monetaria globale, universale e nativa di Internet. Grazie alle sue caratteristiche fondamentali uniche, **Bitcoin offre miglioramenti significativi rispetto alle reti monetarie tradizionali**. Scoprirete perché e come sfruttare Bitcoin per i classici casi d'uso finanziari, come l'accumulo di capitale e i sistemi di pagamento. Inoltre, questa guida tratterà l'acquisizione e la detenzione di Bitcoin, compresi i requisiti contabili e fiscali associati, nonché l'implementazione di soluzioni di pagamento Bitcoin semplici o su larga scala.
+In questa guida imparerete a comprendere Bitcoin come rete monetaria globale, universale e nativa di Internet. Grazie alle sue caratteristiche fondamentali uniche, **Bitcoin offre miglioramenti significativi rispetto alle reti monetarie tradizionali**. Scoprirete perché e come sfruttare Bitcoin per i classici casi d'uso finanziari, come l'accumulo di capitale e i sistemi di pagamento. Inoltre, questa guida tratterà l'acquisizione e la detenzione dei bitcoin, compresi i requisiti contabili e fiscali associati, nonché l'implementazione di soluzioni di pagamento in bitcoin semplici o su larga scala.
 
-Che siate una **piccola impresa o una grande azienda**, integrare Bitcoin nelle vostre operazioni quotidiane può rendere la vostra azienda più **resistente, produttiva e competitiva**. Ogni azienda basata su Internet diventerà un'azienda orientata al Bitcoin, e questo corso vi garantisce di essere preparati. Le sezioni iniziali riassumono le basi del funzionamento di Bitcoin, quindi anche se siete principianti, acquisirete le conoscenze fondamentali necessarie per procedere. Imparare le basi dell'invenzione di Satoshi Nakamoto è sempre una buona idea, sia prima che dopo aver seguito il corso BIZ101.
+Che siate una **piccola impresa o una grande azienda**, integrare Bitcoin nelle vostre operazioni quotidiane può rendere la vostra azienda più **resistente, produttiva e competitiva**. Ogni azienda basata su Internet diventerà un'azienda orientata al network Bitcoin, e questo corso vi garantisce di essere preparati. Le sezioni iniziali riassumono le basi del funzionamento di Bitcoin, quindi anche se siete principianti, acquisirete le conoscenze fondamentali necessarie per procedere. Imparare le basi dell'invenzione di Satoshi Nakamoto è sempre una buona idea, sia prima che dopo aver seguito il corso BIZ101.
 
 +++
 # Introduzione
@@ -26,13 +26,13 @@ Che siate una **piccola impresa o una grande azienda**, integrare Bitcoin nelle 
 
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Date il via al viaggio della vostra azienda nella rete Bitcoin con questo corso di formazione completo, che vi permetterà di capire come Bitcoin e Lightning Network possano rivoluzionare le operazioni commerciali tradizionali. Questo corso è pensato per rivenditori, imprenditori, manager e responsabili aziendali che desiderano esplorare le capacità pratiche di Bitcoin come rete monetaria globale e nativa di Internet e come solido mezzo di scambio di valore.
+Date il via al viaggio della vostra azienda nel network Bitcoin con questo corso di formazione completo, che vi permetterà di capire come Bitcoin e Lightning Network possano rivoluzionare le operazioni commerciali tradizionali. Questo corso è pensato per rivenditori, imprenditori, manager e responsabili aziendali che desiderano esplorare le capacità pratiche di Bitcoin come rete monetaria globale e nativa di internet e come solido mezzo di scambio di valore.
 
 Durante tutto il corso, verranno introdotti i principi fondamentali che rendono Bitcoin e Lightning Network decisamente innovativi. Imparerete come queste tecnologie offrano uno spettro di casi d'uso, dalla conservazione di capitale digitale ai pagamenti veloci, economici e scalabili, e come forniscano miglioramenti critici rispetto alla valuta e ai sistemi di pagamento tradizionali. Il corso BIZ101 collega la teoria economica con le applicazioni del mondo reale, chiarendo come la decentralizzazione possa ridurre la dipendenza dagli intermediari e superare i limiti insiti nei sistemi tradizionali.
 
-Il corso inizia con un esame dettagliato delle valute e dei meccanismi di pagamento convenzionali, gettando le basi per esplorare in che modo la moneta funzioni come una rete per consentire il commercio, il risparmio e la specializzazione economica. Successivamente, ci addentreremo nella tecnologia alla base di Bitcoin e nelle innovazioni introdotte da Lightning Network, rivelando il loro ruolo nel facilitare le transazioni senza soluzione di continuità, rendendole sicure e quasi istantanee effettivamente a servizio delle aziende di tutte le dimensioni. Poi ci immergeremo nelle sezioni pratiche di questo corso, iniziando con una parte sulla detenzione di bitcoin come tesoreria, seguita da una parte finale sull'accettazione di bitcoin come mezzo di pagamento.
+Il corso inizia con un esame dettagliato delle valute e dei meccanismi di pagamento convenzionali, gettando le basi per esplorare in che modo la moneta funzioni come una rete per consentire il commercio, il risparmio e la specializzazione economica. Successivamente, ci addentreremo nella tecnologia alla base di Bitcoin e nelle innovazioni introdotte da Lightning Network, rivelando il loro ruolo nel facilitare le transazioni senza soluzione di continuità, rendendole sicure e quasi istantanee effettivamente a servizio delle aziende di tutte le dimensioni. Poi ci immergeremo nelle sezioni pratiche di questo corso, iniziando con una parte sulla detenzione di bitcoin come tesoreria, seguita da una parte finale sull'accettazione dei bitcoin come mezzo di pagamento.
 
-Sia che rappresentiate una piccola impresa o una grande società, questo corso mira a fornirvi le conoscenze necessarie per integrare Bitcoin nelle vostre operazioni quotidiane, migliorando così la resilienza, l'efficienza e il vantaggio competitivo della vostra azienda. Poiché Bitcoin continua a ridisegnare il panorama economico, la comprensione di queste tecnologie rivoluzionarie non è solo un'opzione, ma una necessità strategica. Preparatevi a partecipare attraverso contenuti interessanti, esempi pratici e indicazioni strategiche i quali vi permetteranno di navigare e sfruttare l'evoluzione del mondo Bitcoin!
+Sia che rappresentiate una piccola impresa o una grande società, questo corso mira a fornirvi le conoscenze necessarie per integrare Bitcoin nelle vostre operazioni quotidiane, migliorando così la resilienza, l'efficienza e il vantaggio competitivo della vostra azienda. Poiché Bitcoin continua a ridisegnare il panorama economico, la comprensione di queste tecnologie rivoluzionarie non è solo un'opzione, ma una necessità strategica. Preparatevi a partecipare attraverso contenuti interessanti, esempi pratici e indicazioni strategiche che vi permetteranno di navigare e sfruttare l'evoluzione del mondo Bitcoin!
 
 # Valuta, sistemi di pagamento e Bitcoin
 
@@ -42,11 +42,11 @@ Sia che rappresentiate una piccola impresa o una grande società, questo corso m
 
 <chapterId>785e095c-6811-4ca2-ba46-fe38291432d4</chapterId>
 
-### Le valute sono network
+### Le valute sono dei network
 
-Le valute sono fondamentalmente network che consentono un efficiente scambio di valore.
+Le valute sono fondamentalmente dei network che consentono un efficiente scambio di valore.
 
-Senza moneta, gli individui devono affidarsi al **baratto**, un sistema in cui i beni o i servizi vengono scambiati direttamente. Il baratto è poco pratico perché richiede una "doppia coincidenza di desideri": entrambe le parti devono desiderare ciò che l'altra controparte offre nello stesso momento. Per esempio, se un agricoltore con un surplus di grano vuole delle scarpe, deve trovare un calzolaio che abbia bisogno di grano. Questo è un caso raro e inefficiente. Inoltre, **con `n` prodotti in un'economia di baratto, sono necessari ~n(n-1)/2 tassi di cambio**, creando un sistema estremamente complesso e macchinoso. Ad esempio, sarebbero necessari oltre 124.000 tassi di cambio per soli 500 prodotti.
+Senza moneta, gli individui devono affidarsi al **baratto**, un sistema in cui i beni o i servizi vengono scambiati direttamente. Il baratto è poco pratico perché richiede una _"doppia coincidenza di desideri"_: entrambe le parti devono desiderare ciò che l'altra controparte offre nello stesso momento. Per esempio, se un agricoltore con un surplus di grano vuole delle scarpe, deve trovare un calzolaio che abbia bisogno di grano. Questo è un caso raro e inefficiente. Inoltre, **con `n` prodotti in un'economia di baratto, sono necessari ~n(n-1)/2 tassi di cambio**, creando un sistema estremamente complesso e macchinoso. Ad esempio, sarebbero necessari oltre 124.000 tassi di cambio per soli 500 prodotti.
 
 La moneta semplifica tutto ciò agendo da intermediario, creando **un network che riduce il numero di tassi di cambio a n-1** per ogni prodotto rispetto alla moneta. Questo rende le transazioni molto più semplici e **consente alle persone di scambiare beni e servizi senza che sia necessaria una reciproca volontà**. Invece di scambiare direttamente il grano con le scarpe, l'agricoltore può vendere il suo grano in cambio di valuta e in seguito usare quella valuta per comprare scarpe o qualsiasi altra cosa di cui abbia bisogno.
 
@@ -56,21 +56,21 @@ La natura di rete della moneta comporta ulteriori vantaggi significativi. In pri
 
 Un altro vantaggio fondamentale della moneta è la sua capacità di **consentire scambi differiti**. Con il baratto, le transazioni sono immediate; un bene viene scambiato con un altro in tempo reale. **La moneta, invece, consente il risparmio: _gli individui possono immagazzinare valore per un uso futuro_**. Questo rappresenta un enorme passo avanti per la pianificazione economica, gli investimenti e l'accumulo di ricchezza, tutti aspetti che migliorano la vita dei partecipanti al network.
 
-In conclusione, le valute sono network progettati per spostare il valore in modo efficiente. Superano i limiti del baratto, semplificano gli scambi e creano opportunità di coordinamento e risparmio. Proprio come ogni network, il valore di una valuta dipende dalla sua adozione diffusa e dalla sua utilità: in definitiva, la valuta migliore vince.
+In conclusione, le valute sono dei network progettati per spostare il valore in modo efficiente. Superano i limiti del baratto, semplificano gli scambi e creano opportunità di coordinamento e risparmio. Proprio come ogni network, il valore di una valuta dipende dalla sua adozione diffusa e dalla sua utilità: in definitiva, la valuta migliore vince.
 
 ### Qual è una buona valuta?
 
 Una buona valuta possiede diverse proprietà essenziali che la rendono efficace per facilitare lo scambio di valore. Ecco una spiegazione concisa di ciascuna di esse:
 
 
-- **Sicurezza**: Una valuta deve essere protetta contro il furto o l'accesso non autorizzato, assicurando che gli utenti possano detenerla e trasferirla con fiducia. La sicurezza è fondamentale per creare fiducia nel sistema.
-- **A prova di contraffazione**: Una moneta deve essere estremamente difficile o impossibile da contraffare. Questo garantisce che ogni unità sia autentica, mantenga il suo valore e prevenga l'inflazione causata dall'entrata in circolazione di unità false. Ad esempio, storicamente l'oro è stato apprezzato non solo per la sua bellezza e rarità, ma anche perché è estremamente difficile da produrre. A differenza delle banconote cartacee o delle scritture digitali, l'oro non può essere "fabbricato", ma deve essere estratto dalla terra. Questa naturale scarsità e la difficoltà di produzione hanno aiutato l'oro a mantenere il suo status di riserva di valore affidabile e di punto di riferimento per l'autenticità.
-- **Scarsa**: Una buona moneta deve avere un'offerta limitata o un'emissione controllata. La scarsità garantisce che il suo valore si conservi nel tempo, evitando una sovrapproduzione che eroderebbe il potere d'acquisto. Ad esempio, alcune tribù di nativi americani usavano le perline come forma di moneta. Inizialmente, queste perline erano difficili da produrre, mantenendo la loro scarsità e il loro valore. Tuttavia, quando i commercianti europei iniziarono a produrne in massa e a inondare il mercato di perline, la loro rarità svanì. Con l'aumento dell'offerta, le perline persero il loro potere d'acquisto, compromettendo il loro ruolo di riserva di valore affidabile.
-- **Senza permesso**: In passato, le monete d'oro e d'argento erano spesso coniate da privati, autorità locali o mercanti che avevano accesso alle materie prime. Questo sistema a volte operava in base ad accordi o licenze concesse da re o governanti. Col tempo, re e governi centralizzarono questo processo per ottenere un maggiore controllo sulla stabilità economica, sulla tassazione e sul sistema monetario. Un esempio famoso è il **thaler**, una moneta d'argento coniata per la prima volta nel 1518 nella **Valle di Gioacchino** (l'odierna Jáchymov nella Repubblica Ceca) da minatori e autorità locali. Il nome _"tallero"_ deriva dalla parola tedesca **"Thal "** che significa _"valle"_. Queste monete, note per l'argento di alta qualità, furono ampiamente diffuse in tutta Europa. Nel corso del tempo, il termine si è evoluto dal punto di vista linguistico e geografico, dando origine al nome _"dollaro"_, adottato negli Stati Uniti per la loro valuta.
+- **Sicurezza**: una valuta deve essere protetta contro il furto o l'accesso non autorizzato, assicurando che gli utenti possano detenerla e trasferirla con fiducia. La sicurezza è fondamentale per creare fiducia nel sistema.
+- **A prova di contraffazione**: una moneta deve essere estremamente difficile o impossibile da contraffare. Questo garantisce che ogni unità sia autentica, mantenga il suo valore e prevenga l'inflazione causata dall'entrata in circolazione di unità false. Ad esempio, storicamente l'oro è stato apprezzato non solo per la sua bellezza e rarità, ma anche perché è estremamente difficile da produrre. A differenza delle banconote cartacee o delle scritture digitali, l'oro non può essere _"fabbricato"_, ma deve essere estratto dalla terra. Questa naturale scarsità e la difficoltà di produzione hanno aiutato l'oro a mantenere il suo status di riserva di valore affidabile e di punto di riferimento per l'autenticità.
+- **Scarsa**: una buona moneta deve avere un'offerta limitata o un'emissione controllata. La scarsità garantisce che il suo valore si conservi nel tempo, evitando una sovrapproduzione che eroderebbe il potere d'acquisto. Ad esempio, alcune tribù di nativi americani usavano le perline come forma di moneta. Inizialmente, queste perline erano difficili da produrre, mantenendo la loro scarsità e il loro valore. Tuttavia, quando i commercianti europei iniziarono a produrne in massa e a inondare il mercato di perline, la loro rarità svanì. Con l'aumento dell'offerta, le perline persero il loro potere d'acquisto, compromettendo il loro ruolo di riserva di valore affidabile.
+- **Senza permesso**: in passato, le monete d'oro e d'argento erano spesso coniate da privati, autorità locali o mercanti che avevano accesso alle materie prime. Questo sistema a volte operava in base ad accordi o licenze concesse da re o governanti. Col tempo, re e governi centralizzarono questo processo per ottenere un maggiore controllo sulla stabilità economica, sulla tassazione e sul sistema monetario. Un esempio famoso è il **thaler**, una moneta d'argento coniata per la prima volta nel 1518 nella **Valle di Gioacchino** (l'odierna Jáchymov nella Repubblica Ceca) da minatori e autorità locali. Il nome _"tallero"_ deriva dalla parola tedesca **_"Thal"_** che significa _"valle"_. Queste monete, note per l'argento di alta qualità, furono ampiamente diffuse in tutta Europa. Nel corso del tempo, il termine si è evoluto dal punto di vista linguistico e geografico, dando origine al nome _"dollaro"_, adottato negli Stati Uniti per la loro valuta.
 
-Nell'era moderna, le valute sono diventate completamente autorizzate dal sistema del signoraggio, il che significa che solo le entità autorizzate - come le banche centrali o le tesorerie - possono coniare monete o stampare banconote. Gli individui non sono più autorizzati a produrre moneta, garantendo così un controllo centralizzato sull'emissione e sulla fornitura.
+Nell'era moderna, le valute sono diventate completamente autorizzate dal _sistema del signoraggio_, il che significa che solo le entità autorizzate - come le banche centrali o le tesorerie - possono coniare monete o stampare banconote. Gli individui non sono più autorizzati a produrre moneta, garantendo così un controllo centralizzato sull'emissione e sulla fornitura.
 
-Oggi il principio del signoraggio è messo in discussione dal protocollo Bitcoin, che opera senza controllo centralizzato. Il Bitcoin è un sistema _"permissionless"_, ciò significa che chiunque può partecipare all'utilizzo della valuta senza chiedere il permesso e, attraverso il mining, alla sua creazione. Questa decentralizzazione toglie ai governi il monopolio dell'emissione, sollevando interrogativi su un potenziale ritorno a sistemi valutari competitivi e di libero mercato.
+Oggi il principio del signoraggio è messo in discussione dal protocollo Bitcoin, che opera senza controllo centralizzato. Bitcoin è un sistema _"permissionless"_, ciò significa che chiunque può partecipare all'utilizzo della valuta senza chiedere il permesso e, attraverso il _mining_, alla sua creazione. Questa decentralizzazione toglie ai governi il monopolio dell'emissione, sollevando interrogativi su un potenziale ritorno a sistemi valutari competitivi e di libero mercato.
 
 
 - **Unità di conto**: una valuta dovrebbe fornire una misura standard per confrontare il valore di beni e servizi. Questo semplifica il commercio e rende i prezzi trasparenti e coerenti nelle transazioni.
@@ -100,7 +100,7 @@ Queste moderne reti valutarie hanno comportato uno svantaggio significativo: la 
 
 **Dalla moneta centralizzata a quella decentralizzata: per migliorare la fiducia e la sovranità**
 
-Oggi, l'innovazione della moneta decentralizzata Bitcoin rappresenta il prossimo salto di qualità nelle reti valutarie. La moneta elettronica tradizionale si affida ad autorità centralizzate, come banche o governi, per gestire e verificare le transazioni. Pur essendo efficaci, questi sistemi sono vulnerabili alle inefficienze, alla censura e ai singoli punti di fallimento. Le valute decentralizzate migliorano queste proprietà del network **distribuendo la fiducia ed eliminando gli intermediari**. Ciò significa anche che il denaro può circolare molto **più velocemente** e **più a buon mercato**, perché non ci sono passaggi di autorizzazione. Infine, nessun essere umano può essere tentato di modificare il programma di fornitura della valuta bitcoin, è il software di Bitcoin a farlo.
+Oggi, l'innovazione della moneta decentralizzata bitcoin rappresenta il prossimo salto di qualità nelle reti valutarie. La moneta elettronica tradizionale si affida ad autorità centralizzate, come banche o governi, per gestire e verificare le transazioni. Pur essendo efficaci, questi sistemi sono vulnerabili alle inefficienze, alla censura e ai singoli punti di fallimento. Le valute decentralizzate migliorano queste proprietà del network **distribuendo la fiducia ed eliminando gli intermediari**. Ciò significa anche che il denaro può circolare molto **più velocemente** e **più a buon mercato**, perché non ci sono passaggi di autorizzazione. Infine, nessun essere umano può essere tentato di modificare il programma di fornitura della valuta bitcoin, è il software di Bitcoin a prevederla.
 
 Nei sistemi decentralizzati, le transazioni sono verificate da una rete globale di partecipanti che utilizzano la tecnologia blockchain, garantendo sicurezza, trasparenza e resilienza. Questa struttura minimizza il rischio di frode, riduce la dipendenza dalle autorità centrali e consente agli individui di avere un maggiore controllo sulle proprie finanze. Eliminando le barriere geografiche e istituzionali, le valute decentralizzate offrono un sistema monetario veramente globale e inclusivo.
 
@@ -114,7 +114,7 @@ Ogni fase dell'evoluzione delle reti valutarie ha migliorato le proprietà chiav
 
 <chapterId>1306196c-1e8a-454b-8e11-6887ecb3d8b4</chapterId>
 
-I sistemi di pagamento sono metodi e infrastrutture che consentono il trasferimento di fondi tra due parti, tipicamente tra un pagatore (come un consumatore) e un beneficiario (come un'azienda). Queste transazioni possono avvenire in diversi contesti: un consumatore che paga un commerciante locale, un'azienda che salda le fatture con un fornitore, o anche singoli individui che si trasferiscono denaro a vicenda. La comprensione dei sistemi di pagamento implica l'analisi dei diversi tipi di metodi di pagamento, delle loro caratteristiche e dei loro casi d'uso sia in contesti Business-to-Consumer (B2C) che Business-to-Business (B2B).
+I sistemi di pagamento sono metodi e infrastrutture che consentono il trasferimento di fondi tra due parti, tipicamente tra un pagatore (per esempio un consumatore) e un beneficiario (per esempio un'azienda). Queste transazioni possono avvenire in diversi contesti: un consumatore che paga un commerciante locale, un'azienda che salda le fatture con un fornitore, o anche singoli individui che si trasferiscono denaro a vicenda. La comprensione dei sistemi di pagamento implica l'analisi dei diversi tipi di metodi di pagamento, delle loro caratteristiche e dei loro casi d'uso sia in contesti Business-to-Consumer (B2C) che Business-to-Business (B2B).
 
 ### Tipi comuni di metodi di pagamento
 
@@ -159,7 +159,7 @@ Nel complesso, questo processo è intricato, lungo e costoso per quello che dovr
 | Metodo di pagamento                | Autorizzazione necessaria?                     | Tempo di approvazione della transazione (vista dall'esercente) | Velocità di regolamento (fondi completamente regolati)      | Finalità (facilità di storno)                                   | Numero di intermediari             | Commissioni tipiche (al beneficiario)       |
 | ---------------------------------- | ---------------------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------- | ---------------------------------- | ------------------------------------------- |
 | **Cash**                           | No                                             | Immediato (scambio fisico)                                     | Immediato (nessun ritardo di liquidazione)                  | Alto (irreversibile una volta pagato)                           | Nessuno                            | Nessuno                                     |
-| **Assegni**                        | Sì (compensazione bancaria)                    | Accettazione al momento del deposito (non garantita)           | Diversi giorni (processo di compensazione dell'assegno)     | Medio (può essere respinto/arrestato prima della compensazione) | Banca                              | **Da basso a medio** (commissioni bancarie) |
+| **Assegni**                        | Sì (compensazione bancaria)                    | Accettazione al momento del deposito (non garantita)           | Diversi giorni (processo di compensazione dell'assegno)     | Medio (può essere respinto/bloccato prima della compensazione)  | Banca                              | **Da basso a medio** (commissioni bancarie) |
 | **Trasferimenti via cavo**         | Sì (Banca/Rete)                                | Conferma entro poche ore                                       | Stesso giorno o giorno successivo (nazionale)               | Alto (di solito irreversibile una volta inviato)                | Banche, Reti di pagamento          | **Medio**(Fisso/Percentuale)                |
 | **Carte di pagamento**             | Sì (Autorizzazione dell'emittente della carta) | Da secondi a minuti (Codice di autorizzazione)                 | Alcuni giorni (Regolamento interbancario)                   | Medio (Possibilità di addebiti)                                 | Emittente, Acquirer, Rete di carte | **Variabile (1-3% della transazione)**      |
 | **Portafogli digitali/Mobile Pay** | Sì (Provider di Portafoglio/Banca)             | Secondi (Conferma istantanea)                                  | In genere 1-2 giorni (Dipende dalla fonte di finanziamento) | Medio (Possibilità di rimborso/diffida)                         | Banche, Operatori di Portafoglio   | **Da basso a medio (Varia)**                |
@@ -168,17 +168,17 @@ Nel complesso, questo processo è intricato, lungo e costoso per quello che dovr
 
 L'industria dei pagamenti tradizionali rappresenta un'economia del valore annuale di circa 2.200 miliardi di dollari, circa un decimo del PIL degli Stati Uniti o pari al PIL della Francia. Poiché le valute funzionano come reti autorizzate, la concorrenza è limitata, rendendo questo _"servizio"_ più simile a una tassa imposta all'economia produttiva. Oltre agli oneri di costo che crea, ci sono diverse altre limitazioni, come illustrato di seguito.
 
-| Limitazione                           | Spiegazione                                                                                                                                                                                                                                                                                                        | Impatto                                                                                 |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
-| Alte commissioni sulle carte          | Commissioni di interscambio (~0,3%), commissioni di rete (fisse o 0,3%-1%), abbonamenti a terminali/PSP e margini bancari (0,5%-1,7%) si sommano a un costo sostanziale, simile a una "tassa" globale sui settori produttivi, pari a trilioni di dollari.                                                          | Aumenta i costi degli esercenti, riducendo i margini e potenzialmente aumentando i prezzi al consumo.                          |
-| Processo di compensazione molto lento | Il regolamento dei fondi può richiedere fino a 5 giorni, rallentando il flusso di denaro e l'attività economica complessiva.                                                                                                                                                                                       | Ritarda la liquidità per i commercianti e riduce la velocità della circolazione economica.                       |
-| Frodi                                 | I canali di e-commerce sono fortemente bersagliati dalle frodi, che contribuiscono a perdite significative (ad esempio, 28 miliardi di dollari). I chargeback potrebbero raggiungere ~174 miliardi di dollari a livello globale entro il 2024. La gestione di queste controversie richiede tempo e stress mentale. | Aumento dei costi operativi, complesse misure di prevenzione delle frodi e diminuzione della fiducia dei clienti.       |
-| Abbandono del carrello                | I passaggi di sicurezza aggiuntivi (codici una tantum, autenticazione a due fattori secondo la PSD2) introducono attriti al momento del checkout.                                                                                                                   | Una maggiore complessità del checkout porta all'abbandono del carrello e alla perdita di vendite.                       |
-| Importi di transazione minimi elevati | Soglie minime di spesa sulle carte possono costringere commercianti e consumatori a condizioni di prezzo o di acquisto scomode, scoraggiando le transazioni di piccolo valore.                                                                       | Riducono la soddisfazione e la flessibilità dei clienti, limitando potenzialmente gli acquisti d'impulso o di basso valore.  |
-| Pre-Authorizzazione lenta | I sistemi attuali non sono in grado di gestire transazioni alla velocità di un millisecondo o di supportare flussi di pagamento continui e in tempo reale.                                                                                                                   | Limita i casi d'uso che richiedono pagamenti istantanei o in streaming, limitando l'innovazione e la scalabilità. |
-| Bisogno di un conto bancario / carta | L'accesso a questi metodi di pagamento richiede un conto bancario o una carta collegata, escludendo automaticamente coloro che ne sono sprovvisti.                                                                                                       | Limita l'inclusione finanziaria, riducendo l'accesso alle popolazioni non bancarizzate o sottobanco.                 |
-| Creazione ripetuta di account online | Gli utenti devono spesso creare più account online, con conseguente stanchezza, minore comodità e maggiore esposizione dei dati personali.                                                                                                | Peggiora l'esperienza dell'utente, solleva problemi di privacy e aumenta il rischio di violazione dei dati.          |
-| Tariffe scambi esteri (FX) | La mancanza di un'unità di conto universale costringe a costose conversioni di valuta per le transazioni transfrontaliere.                                                                                                                              | Aggiunge costi aggiuntivi al commercio internazionale, rendendo le transazioni globali meno convenienti.             |
+| Limitazione                           | Spiegazione                                                                                                                                                                                                                                                                                                        | Impatto                                                                                                                    |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| Alte commissioni sulle carte          | Commissioni di interscambio (~0,3%), commissioni di rete (fisse o 0,3%-1%), abbonamenti a terminali/PSP e margini bancari (0,5%-1,7%) si sommano a un costo sostanziale, simile a una "tassa" globale sui settori produttivi, pari a trilioni di dollari.                                                          | Aumenta i costi degli esercenti, riducendo i margini e potenzialmente aumentando i prezzi al consumo.                      |
+| Processo di compensazione molto lento | Il regolamento dei fondi può richiedere fino a 5 giorni, rallentando il flusso di denaro e l'attività economica complessiva.                                                                                                                                                                                       | Ritarda la liquidità per i commercianti e riduce la velocità della circolazione economica.                                 |
+| Frodi                                 | I canali di e-commerce sono fortemente bersagliati dalle frodi, che contribuiscono a perdite significative (ad esempio, 28 miliardi di dollari). I chargeback potrebbero raggiungere ~174 miliardi di dollari a livello globale entro il 2024. La gestione di queste controversie richiede tempo e stress mentale. | Aumento dei costi operativi, complesse misure di prevenzione delle frodi e diminuzione della fiducia dei clienti.          |
+| Abbandono del carrello                | I passaggi di sicurezza aggiuntivi (codici una tantum, autenticazione a due fattori secondo la PSD2) introducono attriti al momento del checkout.                                                                                                                                                                  | Una maggiore complessità del checkout porta all'abbandono del carrello e alla perdita di vendite.                          |
+| Importi di transazione minimi elevati | Soglie minime di spesa sulle carte possono costringere commercianti e consumatori a condizioni di prezzo o di acquisto scomode, scoraggiando le transazioni di piccolo valore.                                                                                                                                     | Riducono la soddisfazione e la flessibilità dei clienti, limitando potenzialmente gli acquisti d'impulso o di basso valore.|
+| Pre-Authorizzazione lenta             | I sistemi attuali non sono in grado di gestire transazioni alla velocità di un millisecondo o di supportare flussi di pagamento continui e in tempo reale.                                                                                                                                                         | Limita i casi d'uso che richiedono pagamenti istantanei o in streaming, limitando l'innovazione e la scalabilità.          |
+| Bisogno di un conto bancario / carta  | L'accesso a questi metodi di pagamento richiede un conto bancario o una carta collegata, escludendo automaticamente coloro che ne sono sprovvisti.                                                                                                                                                                 | Limita l'inclusione finanziaria, riducendo l'accesso alle popolazioni non bancarizzate o sottobanco.                       |
+| Creazione ripetuta di account online  | Gli utenti devono spesso creare più account online, con conseguente stanchezza, minore comodità e maggiore esposizione dei dati personali.                                                                                                                                                                         | Peggiora l'esperienza dell'utente, solleva problemi di privacy e aumenta il rischio di violazione dei dati.                |
+| Tariffe scambi esteri (FX)            | La mancanza di un'unità di conto universale costringe a costose conversioni di valuta per le transazioni transfrontaliere.                                                                                                                                                                                         | Aggiunge costi aggiuntivi al commercio internazionale, rendendo le transazioni globali meno convenienti.                   |
 
 Così come siamo passati dal pagamento al minuto delle chiamate vocali all'utilizzo quasi gratuito delle comunicazioni su IP, l'emergere di reti più aperte ed efficienti può ridefinire i pagamenti, riducendo i costi e gli intermediari e favorendo nuovi modelli di business.
 
@@ -191,11 +191,11 @@ Così come siamo passati dal pagamento al minuto delle chiamate vocali all'utili
 Il protocollo Bitcoin è un sistema di scambio di valuta digitale **peer-to-peer** (contante elettronico). Il termine _"Bitcoin"_ si riferisce ai seguenti componenti:
 
 
-- **Protocollo informatico** che facilita lo scambio di valori su Internet senza intermediari, senza richiedere autorizzazioni e in modo pseudonimo. Utilizza principi crittografici avanzati.
+- **Protocollo informatico** il quale facilita lo scambio di valori su Internet senza intermediari, senza richiedere autorizzazioni e in modo pseudonimo. Utilizza principi crittografici avanzati.
 - **Un network fisico** di macchine collegate a Internet (nodi, miner, ecc.) gestite da privati e aziende, che formano un sistema decentralizzato (senza autorità centrale o singolo punto di controllo).
 - **Unità di conto** all'interno del sistema. Non esisteranno mai più di 21 milioni di bitcoin. Ogni bitcoin è divisibile in 100 milioni di unità chiamate _"satoshi"_, in onore del suo anonimo creatore.
 
-Insieme fanno del Bitcoin un **bearer asset** e una valuta digitale **senza emittente**. La proprietà è assicurata esclusivamente dal possesso della **chiave crittografica privata**, che garantisce il pieno controllo **senza intermediari o terze parti fidate**. Quando viene trasferita, la **finalità** della proprietà è immediata: il nuovo possessore la controlla completamente senza dover fare affidamento su un'autorità centrale per la protezione o la convertibilità. Le transazioni sono **immutabili**: una volta registrate sulla blockchain, non possono essere alterate o cancellate.
+Insieme fanno dei bitcoin un **bearer asset** e una valuta digitale **senza emittente**. La proprietà è assicurata esclusivamente dal possesso della **chiave crittografica privata**, che garantisce il pieno controllo **senza intermediari o terze parti fidate**. Quando viene trasferita, la **finalità** della proprietà è immediata: il nuovo possessore la controlla completamente senza dover fare affidamento su un'autorità centrale per la protezione o la convertibilità. Le transazioni sono **immutabili**: una volta registrate sulla blockchain, non possono essere alterate o cancellate.
 
 ![BIZ101](assets/en/11.webp)
 
@@ -214,26 +214,26 @@ Bitcoin ci sfida a riconsiderare la natura stessa del denaro. Potresti spiegare 
 **CARTA D'IDENTITÀ DI BITCOIN**
 
 
-- **Età:** 16 anni (3 gennaio 2009)
-- **Valore di scambio giornaliero:** 10 miliardi di dollari (> CAC40)
-- **Capitalizzazione di mercato:** 1,8 trilioni di dollari (> Meta, Visa, Argento; < Apple, Google, Oro)
-- **Utenti:** ~100-200 milioni (1-2% della popolazione mondiale)
-- **Volatilità:** intrinsecamente nulla (1 Bitcoin = 1 Bitcoin), molto alta esternamente (negli scambi con valuta fiat)
-- **Performance:** prima transazione a 0,0009$; ora 100.000$ (x100 milioni)
-- **Disponibilità della rete (uptime):** 100% dal 2013
-- **Dichiarato morto o criticato:** una volta al mese, circa.
+- **Età**: 16 anni (3 gennaio 2009)
+- **Valore di scambio giornaliero**: 10 miliardi di dollari (> CAC40)
+- **Capitalizzazione di mercato**: 1,8 trilioni di dollari (> Meta, Visa, Argento; < Apple, Google, Oro)
+- **Utenti**: ~100-200 milioni (1-2% della popolazione mondiale)
+- **Volatilità**: intrinsecamente nulla (1 Bitcoin = 1 Bitcoin), molto alta esternamente (negli scambi con valuta fiat)
+- **Performance**: valore fiat alla prima transazione a 0,0009$; ora circa 100.000$ (x100 milioni)
+- **Disponibilità della rete (uptime)**: 100% dal 2013
+- **Dichiarato morto o criticato**: una volta al mese, circa.
 
 **Una meraviglia della cooperazione umana**
 
 
 - Completamente **open-source**
-- **Entità giuridica:** Nessuna
-- **CEO:** Nessuno
-- **Investimenti in capitale di rischio:** Nessuno
-- **Marketing:** Nessuno
-- **R&S:** Volontariato
-- **Governance:** Da parte degli utenti
-- **Modello economico innovativo:** La creazione di blocchi è sovvenzionata dalle commissioni di transazione (basate su aste)
+- **Entità giuridica**: nessuna
+- **CEO**: nessuno
+- **Investimenti in capitale di rischio**: nessuno
+- **Marketing**: nessuno
+- **Richerca e Sviluppo**: volontariato
+- **Governance**: da parte degli utenti
+- **Modello economico innovativo**: la creazione di blocchi è sovvenzionata dalle commissioni di transazione (basate su aste).
 
 Per ulteriori informazioni su Bitcoin, la sua storia, il suo funzionamento e il suo utilizzo, suggerisco di seguire anche questo altro corso completo:
 
@@ -244,14 +244,14 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 **CHE COS'È LIGHTNING NETWORK?**
 
-Lightning Network è **un protocollo e un network** che facilita le transazioni Bitcoin con un'interazione minima con la blockchain principale di Bitcoin. Ecco come funziona:
+Lightning Network è **un protocollo e un network** che facilita le transazioni dei bitcoin con un'interazione minima con la blockchain principale di Bitcoin. Ecco come funziona:
 
 
-- **Configurazione iniziale:** I fondi sono bloccati (escrowed) sulla blockchain principale per stabilire un canale di pagamento tra 2 parti.
-- **Network di pagamento:** Una rete di canali di pagamento tra più parti forma un network di pagamento (routing e interconnessione).
-- **Transazioni fuori catena:** Le transazioni avvengono tra le parti ma non sono **immediatamente pubblicate** sulla blockchain principale di Bitcoin (**"fuori catena "**).
-- **Regolamenti on-chain:** Solo il **saldo finale** delle transazioni di un canale viene pubblicato sulla blockchain principale di Bitcoin (**"on-chain**"), consentendo a numerose transazioni di avvenire nel frattempo. Questo raggruppamento di più pagamenti riduce la congestione e quindi le commissioni rispetto all'esecuzione di molte transazioni on-chain.
-- **Chiusura del canale:** Un utente può chiudere il proprio canale in qualsiasi momento e recuperare il proprio Bitcoin pubblicando lo stato dell'ultima transazione. Questo è il principio per cui le transazioni sono **"pubblicabili" in qualsiasi momento ma "non pubblicate "** fino a quando non è necessario. L'uscita (chiusura del canale) può essere unilaterale (decisa da una qualsiasi delle due parti in qualsiasi momento) o decisa reciprocamente (con conseguente riduzione delle commissioni on-chain)
+- **Configurazione iniziale**: i fondi sono bloccati (_escrowed_) sulla blockchain principale per stabilire un canale di pagamento tra 2 parti.
+- **Network di pagamento**: una rete di canali di pagamento tra più parti forma un network di pagamento (routing e interconnessione).
+- **Transazioni fuori catena**: le transazioni avvengono tra le parti ma non sono **immediatamente pubblicate** sulla blockchain principale di Bitcoin (**"fuori dalla blockchain"**).
+- **Regolamenti on-chain**: solo il **saldo finale** delle transazioni di un canale viene pubblicato sulla blockchain principale di Bitcoin (**"on-chain"**), consentendo a numerose transazioni di avvenire nel frattempo. Questo raggruppamento di più pagamenti riduce la congestione e quindi le commissioni rispetto all'esecuzione di molte transazioni on-chain.
+- **Chiusura del canale**: un utente può chiudere il proprio canale in qualsiasi momento e recuperare i propri bitcoin pubblicando lo stato dell'ultima transazione. Questo è il principio per cui le transazioni sono **_"pubblicabili"_ in qualsiasi momento ma _"non pubblicate"_** fino a quando non è necessario. L'uscita (chiusura del canale) può essere unilaterale (decisa da una qualsiasi delle due parti in qualsiasi momento) o decisa reciprocamente (con conseguente riduzione delle commissioni on-chain)
 
 ![BIZ101](assets/en/04.webp)
 
@@ -259,7 +259,7 @@ Questo approccio evita la lentezza e la complessità di eseguire ogni transazion
 
 **Un network di pagamento globale**
 
-Il protocollo crea una **network** di macchine in cui i canali formano un sistema di pagamento universale. Questi nodi possono essere gestiti liberamente da privati o aziende, rendendolo un network completamente aperto.
+Il protocollo crea un **network** di macchine in cui i canali formano un sistema di pagamento universale. Questi nodi possono essere gestiti liberamente da privati o aziende, rendendolo un network completamente aperto.
 
 Lightning Network consente lo scambio istantaneo di valore alla velocità della luce. È come un protocollo di posta elettronica applicato ai pagamenti: una rete di pagamento di nuova generazione. Trasforma radicalmente il modo in cui il _"denaro"_ si muove, rendendolo libero e veloce come la trasmissione dei dati su Internet.
 
@@ -268,9 +268,9 @@ Lightning Network consente lo scambio istantaneo di valore alla velocità della 
 **Vantaggi principali**
 
 
-- **Velocità:** transazioni istantanee.
-- **Spese ridotte:** costi molto più bassi rispetto alle reti bancarie tradizionali.
-- **Facilità di adozione:** le aziende possono configurarsi rapidamente per accettare i pagamenti Lightning utilizzando semplicemente un'app per smartphone o un pulsante di pagamento sul proprio sito web.
+- **Velocità**: transazioni istantanee
+- **Spese ridotte**: costi molto più bassi rispetto alle reti bancarie tradizionali
+- **Facilità di adozione**: le aziende possono configurare i loro sistemi rapidamente per accettare i pagamenti Lightning utilizzando semplicemente un'app per smartphone o un pulsante di pagamento sul proprio sito web.
 
 L'infrastruttura Lightning supera i sistemi di pagamento tradizionali in termini di velocità, costi ed efficienza energetica. Con la crescente adozione da parte degli esercenti, lo slancio si accelererà: se i pagamenti possono bypassare la rete interbancaria vincolata, perché continuare a cedere una percentuale significativa di ricavi agli attuali intermediari?
 
@@ -278,9 +278,9 @@ L'infrastruttura Lightning supera i sistemi di pagamento tradizionali in termini
 
 Le applicazioni di Lightning vanno ben oltre le basse commissioni e la velocità. Offrendo un sistema di pagamento istantaneo e completamente gratuito, aprendo a vaste opportunità per tutta l'economia.
 
-**Potenziamento delle capacità di scambio di Bitcoin**
+**Potenziamento delle capacità di scambio dei bitcoin**
 
-Lightning amplifica il ruolo di Bitcoin come _"mezzo di scambio"_ aumentando la frequenza e la libertà delle transazioni, rafforza la funzione primaria del denaro: facilitare gli scambi economici e la creazione di valore per tutti i partecipanti.
+Lightning amplifica il ruolo dei bitcoin come _"mezzo di scambio"_ aumentando la frequenza e la libertà delle transazioni, rafforza la funzione primaria del denaro: facilitare gli scambi economici e la creazione di valore per tutti i partecipanti.
 
 La futura ascesa della _"smart machine economy"_ richiederà un sistema di pagamento ultraveloce e ad alta frequenza, uno standard tecnico che solo Lightning può soddisfare. Ciò consente la creazione di un maggior numero di beni e servizi. Poiché l'offerta di Bitcoin rimane limitata, il potere d'acquisto di ogni unità aumenterà. Bitcoin e Lightning si rafforzano insieme all'espansione delle loro reti.
 
@@ -288,35 +288,35 @@ Lightning offre uno sguardo al futuro in cui tutte le attività commerciali basa
 
 **Pagamenti in bitcoin su Lightning: Un tipico caso d'uso per i commercianti**
 
-La rete Lightning è ideale per i pagamenti in Bitcoin nei negozi fisici o online, grazie alla sua velocità e alla finalità del pagamento.
+Lightning Network è ideale per i pagamenti in Bitcoin nei negozi fisici o online, grazie alla sua velocità e alla finalità del pagamento.
 
 
-- **Velocità:** transazione Lightning (da ~500ms a pochi secondi) è significativamente più veloce della rete principale di Bitcoin, dove le transazioni possono richiedere circa 30 minuti per essere confermate. Per acquisti di grandi dimensioni (ben oltre i 1.000 dollari), la rete principale di Bitcoin può essere ancora preferita, in quanto la velocità è meno critica. Tuttavia, questi dettagli sono spesso nascosti all'utente medio, poiché le applicazioni gestiscono queste decisioni senza problemi in background.
-- **Finalità:** una volta effettuato il pagamento su Lightning, questo è definitivo. Non vi è alcuna possibilità di riaddebito da parte di terzi o di controversie legate a frodi.
-- **Commissioni:** le commissioni di transazione sulla rete Lightning sono minime e vengono pagate dall'utente, non dal commerciante. I commercianti incorrono in commissioni solo se in seguito devono trasferire i loro bitcoin a un'altra rete o servizio.
+- **Velocità**: transazione Lightning (da ~500ms a pochi secondi) è significativamente più veloce della rete principale di Bitcoin, dove le transazioni possono richiedere circa 30 minuti per essere confermate. Per acquisti di grandi dimensioni (ben oltre i 1.000 dollari), la rete principale di Bitcoin può essere ancora preferita, in quanto la velocità è meno critica. Tuttavia, questi dettagli sono spesso nascosti all'utente medio, poiché le applicazioni gestiscono queste decisioni senza problemi in background.
+- **Finalità**: una volta effettuato il pagamento su Lightning, questo è definitivo. Non vi è alcuna possibilità di riaddebito da parte di terzi o di controversie legate a frodi.
+- **Commissioni**: le commissioni di transazione sulla rete Lightning sono minime e vengono pagate dall'utente, non dal commerciante. I commercianti incorrono in commissioni solo se in seguito devono trasferire i loro bitcoin a un'altra rete o servizio.
 
-**CARTA D'IDENTITÀ LIGHTNING NETWORK**
+**CARTA D'IDENTITÀ DI LIGHTNING NETWORK**
 
 
-- **Invenzione:** 2015
-- **Lancio:** 2016
+- **Invenzione**: 2015
+- **Lancio**: 2016
 - **Età:** 7 anni (prima transazione: 28 dicembre 2017)
-- **Capacità tecnica della rete:** in scala può gestire un numero di transazioni istantanee 1.000 volte superiore a quello dei sistemi tradizionali.
-- **Dimensioni delle transazioni:** Range da grandi valori a 1.000 volte più piccoli rispetto ai sistemi tradizionali.
-- **Velocità di transazione:** fino a 100 volte più veloce.
-- **Commissioni di transazione:** fino al 90% in meno.
-- **Finalità del pagamento:** quasi istantanea (spesso ~500 millisecondi, a volte pochi secondi).
-- **Consumo energetico:** ~8% del sistema monetario globale tradizionale.
-- **Caratteristiche:**
-    - Peer-to-peer
-    - Universale
-    - Senza permesso
-    - Buona privacy
-    - Sicurezza comprovata
-    - Alta disponibilità (eccellente uptime)
-    - Controllabile e adattabile
+- **Capacità tecnica della rete**: in scala può gestire un numero di transazioni istantanee 1.000 volte superiore a quello dei sistemi tradizionali
+- **Dimensioni delle transazioni**: range da grandi valori a 1.000 volte più piccoli rispetto ai sistemi tradizionali
+- **Velocità di transazione**: fino a 100 volte più veloce
+- **Commissioni di transazione**: fino al 90% in meno
+- **Finalità del pagamento**: quasi istantanea (spesso ~500 millisecondi, a volte pochi secondi).
+- **Consumo energetico**: ~8% del sistema monetario globale tradizionale.
+- **Caratteristiche**:
+    - peer-to-peer
+    - universale
+    - senza permesso
+    - buona privacy
+    - sicurezza comprovata
+    - alta disponibilità (eccellente uptime)
+    - controllabile e adattabile.
 
-Per ulteriori informazioni sul funzionamento tecnico della rete Lightning, vi suggerisco di seguire questo altro corso completo:
+Per ulteriori informazioni sul funzionamento tecnico di Lightning Network, vi suggerisco di seguire questo altro corso completo:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 # Bitcoin in tesoreria
@@ -359,21 +359,21 @@ Il _"capitale"_ viene spesso dipinto come uno strumento di sfruttamento e questa
 
 6. La normalizzazione culturale della retorica anticapitalista?
 
-Fortunatamente, Bitcoin ci costringe a ripensare tutto e a mettere in discussione questi preconcetti. Esiste una scuola di pensiero, la Scuola Austriaca di Economia, che può far luce su questi temi e aiutarci a riconsiderare la vera natura del capitale.
+Fortunatamente, Bitcoin ci costringe a ripensare a tutto ciò e a mettere in discussione questi preconcetti. Esiste una scuola di pensiero, la _Scuola Austriaca di Economia_, che può far luce su questi temi e aiutarci a riconsiderare la vera natura del capitale.
 
 **C'era una volta**
 
 Cominciamo con una breve storia:
 
-"Su una piccola isola deserta vive un pescatore solitario. Ogni giorno passa ore a catturare pesci a mani nude, un'attività che consuma gran parte del suo tempo e delle sue energie. Un giorno ha un'idea: costruire una lancia che gli permetta di pescare in modo più efficiente. Ma sa che questo richiederà un sacrificio.
+_"Su una piccola isola deserta vive un pescatore solitario. Ogni giorno passa ore a catturare pesci a mani nude, un'attività che consuma gran parte del suo tempo e delle sue energie. Un giorno ha un'idea: costruire una lancia che gli permetta di pescare in modo più efficiente. Ma sa che questo richiederà un sacrificio._
 
-Prima di iniziare a costruire la lancia, il pescatore decide di mettere da parte un po' di pesce per sostenersi durante il processo di costruzione. Mangia meno del solito per alcuni giorni, risparmiando abbastanza pesce per concentrarsi sul suo progetto. Questo pesce risparmiato rappresenta il suo **capitale**, una piccola riserva che gli permette di perseguire il suo obiettivo.
+_Prima di iniziare a costruire la lancia, il pescatore decide di mettere da parte un po' di pesce per sostenersi durante il processo di costruzione. Mangia meno del solito per alcuni giorni, risparmiando abbastanza pesce per concentrarsi sul suo progetto. Questo pesce risparmiato rappresenta il suo **capitale**, una piccola riserva che gli permette di perseguire il suo obiettivo._
 
-Mentre dedica il suo tempo alla costruzione della lancia, fa affidamento sulle sue riserve, ritardando volentieri alcune delle sue comodità immediate (un riflesso della sua **preferenza temporale**). Dopo diversi giorni di duro lavoro, completa una lancia robusta.
+_Mentre dedica il suo tempo alla costruzione della lancia, fa affidamento sulle sue riserve, ritardando volentieri alcune delle sue comodità immediate (un riflesso della sua **preferenza temporale**). Dopo diversi giorni di duro lavoro, completa una lancia robusta._
 
 ![BIZ101](assets/en/05.webp)
 
-Con la lancia, ora può catturare i pesci molto più velocemente e con meno sforzo. Non ha più bisogno di sfinirsi come prima e comincia addirittura ad accumulare un surplus di pesce. Questo surplus apre nuove possibilità: può conservarlo, condividerlo o investirlo in altri progetti sull'isola. Ritardando il consumo immediato e utilizzando il suo capitale, il pescatore ha migliorato significativamente la sua efficienza e le sue prospettive future"
+_Con la lancia, ora può catturare i pesci molto più velocemente e con meno sforzo. Non ha più bisogno di sfinirsi come prima e comincia addirittura ad accumulare un surplus di pesce. Questo surplus apre nuove possibilità: può conservarlo, condividerlo o investirlo in altri progetti sull'isola. Ritardando il consumo immediato e utilizzando il suo capitale, il pescatore ha migliorato significativamente la sua efficienza e le sue prospettive future"_
 
 Questa storia illustra il ruolo fondamentale del capitale, della pazienza e della lungimiranza nella costruzione di un futuro migliore, concetti centrali per la crescita economica e il progresso umano.
 
@@ -388,7 +388,7 @@ Nella visione austriaca, il capitale è profondamente legato all'idea di rinviar
 
 - **Preferenza temporale e consumo differito**: gli individui preferiscono naturalmente consumare ora piuttosto che in seguito, ma possono scegliere di rinviare i consumi se si aspettano maggiori ricompense in futuro. Risparmiando oggi, le risorse possono essere investite in beni capitali (strumenti, macchine, infrastrutture) che migliorano la produttività nel tempo. Le società o gli individui con una minore preferenza temporale risparmiano di più e investono in progetti a lungo termine, favorendo una crescita sostenibile.
 - **Il capitale come motore della produzione futura**: i beni capitali sono considerati strumenti intermedi utilizzati per produrre beni di consumo finali. Accumulando capitale, gli imprenditori possono aumentare la produttività e creare maggiore ricchezza in futuro. Ad esempio, invece di produrre immediatamente beni di consumo, le risorse potrebbero essere utilizzate per costruire fabbriche o macchinari. Sebbene questo riduca i consumi a breve termine, l'efficienza che ne deriva consente una maggiore produzione e prosperità in seguito.
-- **Produzione indiretta ed efficienza**: gli economisti austriaci, come Eugen Böhm-Bawerk, hanno evidenziato l'idea della produzione indiretta - processi produttivi più lunghi e complessi che coinvolgono più fasi. Sebbene questi processi richiedano tempo, alla fine producono risultati più efficienti e produttivi, come la costruzione di una segheria per lavorare il legno piuttosto che la raccolta manuale dei tronchi.
+- **Produzione indiretta ed efficienza**: gli economisti austriaci, come _Eugen Böhm-Bawerk_, hanno evidenziato l'idea della produzione indiretta - processi produttivi più lunghi e complessi che coinvolgono più fasi. Sebbene questi processi richiedano tempo, alla fine producono risultati più efficienti e produttivi, come la costruzione di una segheria per lavorare il legno piuttosto che la raccolta manuale dei tronchi.
 - **I tassi di interesse come segnali**: i tassi di interesse, secondo la visione austriaca, riflettono naturalmente le preferenze temporali degli individui. Tassi elevati indicano una preferenza per il consumo immediato, mentre tassi bassi incoraggiano il risparmio e gli investimenti a lungo termine. Quando le banche centrali manipolano artificialmente i tassi di interesse, distorcono questi segnali naturali, portando a una cattiva allocazione delle risorse e a investimenti non sostenibili (malinvestimento).
 
 **Le due forme di capitale nelle economie moderne**
@@ -411,7 +411,7 @@ Bitcoin offre un modo per accumulare e conservare il capitale a lungo termine se
 
 ### Per saperne di più sulla scuola austriaca di economia
 
-La **Scuola austriaca di economia** è una tradizione di pensiero economico che valorizza il libero mercato, la libertà individuale e l'importanza dell'azione umana nei processi economici. Critica l'intervento dello Stato, in particolare nella moneta e nei mercati, e sostiene che gli individui, guidati dalle loro preferenze soggettive, sono i migliori giudici dei propri interessi.
+La **Scuola austriaca di Economia** è una tradizione di pensiero economico che valorizza il libero mercato, la libertà individuale e l'importanza dell'azione umana nei processi economici. Critica l'intervento dello Stato, in particolare nella moneta e nei mercati, e sostiene che gli individui, guidati dalle loro preferenze soggettive, sono i migliori giudici dei propri interessi.
 
 **Figure chiave della Scuola Austriaca**
 
@@ -443,7 +443,7 @@ https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
-## Detenzione di bitcoin in tesoreria
+## Detenzione dei bitcoin in tesoreria
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
 
@@ -457,23 +457,23 @@ Per un orizzonte temporale molto lungo, alcune società utilizzano asset illiqui
 - illiquidità in caso di crisi;
 - in definitiva, rendimenti piuttosto bassi una volta detratte le commissioni;
 - un rendimento che non superi l'inflazione reale, quella dell'offerta di moneta (~7% all'anno, vedi sotto);
-- il rischio nascosto è che gli immobili perdano parte della loro funzione di "risparmio" a vantaggio di asset come Bitcoin. Di conseguenza, potrebbe tornare più vicino al suo _"valore d'uso"_: fornire un riparo.
+- il rischio nascosto è che gli immobili perdano parte della loro funzione di _"risparmio"_ a vantaggio di asset come bitcoin. Di conseguenza, potrebbe tornare più vicino al suo _"valore d'uso"_: fornire un riparo.
 
 Passiamo rapidamente in rassegna l'ambiente in cui operano le imprese.
 
-**Inflazione reale**: Con grande noncuranza del loro mandato, le banche centrali mirano a un'inflazione annua del 2%, il che significa una perdita di valore della valuta del 40% in 20 anni. Se si aggiungono i periodi di inflazione più pronunciata, diventa chiaro che le aziende non possono utilizzare la sola valuta per conservare i frutti del loro lavoro. Devono attuare strategie finanziarie complesse, necessariamente accompagnate da una serie di rischi. Queste strategie sono ovviamente **inaccessibili alle imprese molto piccole**, già fortemente impegnate nelle loro attività principali.
+**Inflazione reale**: con grande noncuranza del loro mandato, le banche centrali mirano a un'inflazione annua del 2%, il che significa una perdita di valore della valuta del 40% in 20 anni. Se si aggiungono i periodi di inflazione più pronunciata, diventa chiaro che le aziende non possono utilizzare la sola valuta per conservare i frutti del loro lavoro. Devono attuare strategie finanziarie complesse, necessariamente accompagnate da una serie di rischi. Queste strategie sono ovviamente **inaccessibili alle imprese molto piccole**, già fortemente impegnate nelle loro attività principali.
 
-**Inflazione nascosta**: In un sistema monetario basato sul debito e sulla riserva frazionaria, sostenuto dalle banche centrali, **l'offerta di moneta cresce in media di circa il 7% all'anno** (ad esempio, M1 nell'Eurozona o negli Stati Uniti). Ciò significa che la vostra _"fetta di torta"_ si dimezza in pochi anni, a meno che non abbiate un accesso privilegiato al rubinetto finanziario e possiate continuare a crescere facendo leva e acquistando rapidamente beni a _"vecchi prezzi"_ prima che il denaro appena creato li faccia salire. Questo è l'effetto Cantillon, che spiega in parte il trasferimento di ricchezza ai più abbienti, mentre il _"capitale"_ viene erroneamente additato come il colpevole (si veda la nostra introduzione sul capitale).
+**Inflazione nascosta**: in un sistema monetario basato sul debito e sulla riserva frazionaria, sostenuto dalle banche centrali, **l'offerta di moneta cresce in media di circa il 7% all'anno** (ad esempio, M1 nell'Eurozona o negli Stati Uniti). Ciò significa che la vostra _"fetta di torta"_ si dimezza in pochi anni, a meno che non abbiate un accesso privilegiato al rubinetto finanziario e possiate continuare a crescere facendo leva e acquistando rapidamente beni a _"vecchi prezzi"_ prima che il denaro appena creato li faccia salire. Questo è _l'effetto Cantillon_, che spiega in parte il trasferimento di ricchezza ai più abbienti, mentre il _"capitale"_ viene erroneamente additato come il colpevole (si veda la nostra introduzione sul capitale).
 
-**Rischi di controparte**: L'attuale sistema finanziario è rischioso e potreste non avere sempre accesso ai _"vostri soldi"_. Senza evocare l'immagine di un castello di carte, bisogna riconoscere che le istituzioni finanziarie privatizzano i profitti e socializzano le perdite alla minima crisi. In un sistema di denaro _"scritturale"_ (denaro registrato in un libro mastro), il denaro in banca è solo un _"credito"_; non lo si possiede veramente, e le banche stesse _"non lo detengono realmente"_ (riserve frazionarie). Questo denaro è, in un certo senso, davvero magico. Alcune prestigiose banche che un tempo deridevano Bitcoin oggi non esistono più, come il Credit Suisse.
+**Rischi di controparte**: l'attuale sistema finanziario è rischioso e potreste non avere sempre accesso ai _"vostri soldi"_. Senza evocare l'immagine di un castello di carte, bisogna riconoscere che le istituzioni finanziarie privatizzano i profitti e socializzano le perdite alla minima crisi. In un sistema di denaro _"scritturale"_ (denaro registrato in un libro mastro), il denaro in banca è solo un _"credito"_; non lo si possiede veramente, e le banche stesse _"non lo detengono realmente"_ (riserve frazionarie). Questo denaro è, in un certo senso, davvero magico. Alcune prestigiose banche che un tempo deridevano Bitcoin oggi non esistono più, come la Credit Suisse.
 
 Questa mancanza di fiducia dà il via a una rinascita di beni _"al portatore"_ come l'oro (anche se è complicato da proteggere, trasportare, dividere, ecc.) e, naturalmente, il nuovo arrivato Bitcoin.
 
-### Il Bitcoin come attività finanziaria
+### Bitcoin come attività finanziaria
 
-Bitcoin offre un'alternativa radicale. È **un bene al portatore, senza emittente centrale**, è quasi impossibile da sequestrare e beneficia degli effetti di rete. I _"veri"_ utenti di Bitcoin scelgono di usarlo per immagazzinare i frutti del loro lavoro, poiché è visto come una riserva di valore resistente sia alla censura che all'inflazione. Grazie all'effetto network, illustrato dalla legge di Metcalfe, ogni nuovo utente consapevole aumenta il valore della rete; al crescere del numero di partecipanti, l'utilità di Bitcoin aumenta esponenzialmente. Questo modello lo rende una forma di capitale distintiva e promettente, costruita sull'adozione e sulla fiducia degli utenti.
+Bitcoin offre un'alternativa radicale. È **un bene al portatore, senza emittente centrale**, è quasi impossibile da sequestrare e beneficia degli effetti di rete. I _"veri"_ utenti di Bitcoin scelgono di usarlo per immagazzinare i frutti del loro lavoro, poiché è visto come una riserva di valore resistente sia alla censura che all'inflazione. Grazie all'effetto network, illustrato dalla _legge di Metcalfe_, ogni nuovo utente consapevole aumenta il valore della rete; al crescere del numero di partecipanti, l'utilità di Bitcoin aumenta esponenzialmente. Questo modello lo rende una forma di capitale distintiva e promettente, costruita sull'adozione e sulla fiducia degli utenti.
 
-Bitcoin è l'asset **più liquido al mondo** e funziona 24 ore su 24, 7 giorni su 7, senza interruzioni, a differenza dei mercati finanziari tradizionali che hanno orari di chiusura e _"interruzioni di circuito"_ Questa liquidità consente agli utenti di acquistare o vendere bitcoin in qualsiasi momento, sia in risposta a notizie positive che negative (ad esempio, lancio di missili, guerre, ecc.).
+Bitcoin è l'asset **più liquido al mondo** e funziona 24 ore su 24, 7 giorni su 7, senza interruzioni, a differenza dei mercati finanziari tradizionali che hanno orari di chiusura e _"interruzioni di circuito"_. Questa liquidità consente agli utenti di acquistare o vendere bitcoin in qualsiasi momento, sia in risposta a notizie positive che negative (ad esempio, lancio di missili, guerre, ecc.).
 
 In un decennio, Bitcoin ha registrato una crescita media annua superiore al 60%. Questa performance unica ha permesso ai detentori a lungo termine di preservare il capitale iniziale, a differenza di altri strumenti.
 
@@ -481,31 +481,31 @@ Tuttavia, ci sono diversi fattori chiave da tenere in considerazione:
 
 In primo luogo, **le prestazioni passate non garantiscono i risultati futuri**. Finché Bitcoin rimarrà **sicuro e decentralizzato**, si può ragionevolmente sperare in un apprezzamento annuale del prezzo ben superiore al 20% all'anno per il prossimo decennio, rendendolo un valido strumento di tesoreria.
 
-In secondo luogo, Bitcoin ha finora sperimentato **cicli di 4 anni**, il che significa che con un orizzonte temporale di oltre 4 anni, la scommessa è sempre stata redditizia. Per chi vede Bitcoin come un investimento, un orizzonte temporale a breve termine (<4 anni) può essere rischioso.
+In secondo luogo, Bitcoin ha finora sperimentato **cicli di 4 anni**, il che significa che con un orizzonte temporale di oltre 4 anni, la sfida è sempre stata redditizia. Per chi vede Bitcoin come un investimento, un orizzonte temporale a breve termine (<4 anni) può essere rischioso.
 
 ![BIZ101](assets/en/07.webp)
 
-*MICHAEL SAYLOR (MicroStrategy Inc.): "Il miglior segnale di prezzo del Bitcoin è la media mobile semplice a 4 anni."*  Vedi grafico sopra.
+*MICHAEL SAYLOR (MicroStrategy Inc.): "Il miglior segnale di prezzo dei bitcoin è la media mobile semplice a 4 anni."*  Vedi grafico sopra.
 
 Inoltre, è consigliabile mantenere la propria esposizione in Bitcoin **proporzionale** al proprio livello di comprensione. È anche importante non avere fretta o cercare di analizzare perfettamente il mercato.
 
-Infine, Bitcoin è considerato **volatile**. Per essere precisi, lo è il suo prezzo espresso in unità di moneta fiat. Parte di questa volatilità è naturale per un asset ancora giovane, ma è anche amplificata dalla presenza di speculatori che non lo usano come riserva di valore a lungo termine, ma cercano guadagni rapidi. Inoltre, il trading con leva finanziaria (l'utilizzo di fondi presi in prestito per aumentare le posizioni di trading) accentua i movimenti di prezzo sia al rialzo che al ribasso, impedendo a Bitcoin di seguire un percorso lineare al rialzo. Questo porta a fluttuazioni più pronunciate, ma nel tempo, con la crescita della base di utenti impegnati, questa volatilità sembra stabilizzarsi. In sintesi, è **impossibile avere un asset ad alta performance come Bitcoin senza volatilità**, ma è certamente possibile avere asset molto meno performanti con meno volatilità.
+Infine, Bitcoin è considerato **volatile**. Per essere precisi, lo è il suo prezzo espresso in unità di moneta fiat. Parte di questa volatilità è naturale per un asset ancora giovane, ma è anche amplificata dalla presenza di speculatori che non lo usano come riserva di valore a lungo termine, ma cercano guadagni rapidi. Inoltre, il trading con leva finanziaria (l'utilizzo di fondi presi in prestito per aumentare le posizioni di trading) accentua i movimenti di prezzo sia al rialzo che al ribasso, impedendo ai bitcoin di seguire un percorso lineare al rialzo. Questo porta a fluttuazioni più pronunciate, ma nel tempo, con la crescita della base di utenti impegnati, questa volatilità sembra stabilizzarsi. In sintesi, è **impossibile avere un asset ad alta performance come Bitcoin senza volatilità**, ma è certamente possibile avere asset molto meno performanti con meno volatilità.
 
 ### Bitcoin adottato da Wall Street
 
-L'adozione del Bitcoin da parte delle istituzioni finanziarie rafforza ulteriormente la sua posizione nel mercato globale.
+L'adozione dei bitcoin da parte delle istituzioni finanziarie rafforza ulteriormente la sua posizione nel mercato globale.
 
-Le recenti dichiarazioni di **BlackRock** evidenziano il potenziale di Bitcoin come riserva di valore e strumento di diversificazione del portafoglio. Il gigante istituzionale globale ha recentemente suggerito che la crescita degli utenti di **Bitcoin sta superando quella di internet** o dei telefoni cellulari, spinta in particolare da **cambiamenti demografici e generazionali**, oltre che dalla crescente sfiducia nelle istituzioni finanziarie tradizionali (!). A causa della sua natura scarsa, non sovrana e decentralizzata, alcuni investitori considerano Bitcoin un'opzione di rifugio sicuro **in tempi di instabilità fiscale e monetaria**, di paura o di eventi geopolitici dirompenti.
+Le recenti dichiarazioni di **BlackRock** evidenziano il potenziale dei bitcoin come riserva di valore e strumento di diversificazione del portafoglio. Il gigante istituzionale globale ha recentemente suggerito che la crescita degli utenti di **Bitcoin sta superando quella di Internet** o dei telefoni cellulari, spinta in particolare da **cambiamenti demografici e generazionali**, oltre che dalla crescente sfiducia nelle istituzioni finanziarie tradizionali (!). A causa della sua natura scarsa, non sovrana e decentralizzata, alcuni investitori considerano Bitcoin un'opzione di rifugio sicuro **in tempi di instabilità fiscale e monetaria**, di paura o di eventi geopolitici dirompenti.
 
-Gli **ETF Spot su Bitcoin**, lanciati nel gennaio 2024, hanno riscosso un successo fenomenale - il lancio di ETF di maggior successo della storia - con quasi 20 miliardi di dollari di afflussi netti da gennaio a novembre. Si tratta di un risultato quattro volte superiore al lancio dell'ETF successivo migliore, il Nasdaq-100 QQQ. Questi ETF forniscono un accesso più facile e regolamentato a Bitcoin, il che ha **legittimato** ulteriormente Bitcoin e ha attirato un notevole afflusso di capitale istituzionale.
+Gli **ETF Spot sui bitcoin**, lanciati nel gennaio 2024, hanno riscosso un successo fenomenale - il lancio di ETF di maggior successo della storia - con quasi 20 miliardi di dollari di afflussi netti da gennaio a novembre. Si tratta di un risultato quattro volte superiore al lancio del secondo miglior ETF, il Nasdaq-100 QQQ. Questi ETF forniscono un accesso più facile e regolamentato ai bitcoin, il che ha **legittimato** ulteriormente Bitcoin e ha attirato un notevole afflusso di capitale istituzionale.
 
-Gli ETF Bitcoin primeggiano con un ampio margine in termini di **adozione istituzionale**, superando i primi dieci ETF a più rapida crescita, sia in termini di numero di istituzioni coinvolte che di dimensioni del patrimonio in gestione (AUM). Il successo di questi ETF Bitcoin sottolinea la crescente domanda di veicoli di investimento legati agli asset digitali, consolidando così il posto di Bitcoin nel panorama finanziario tradizionale.
+Gli ETF in bitcoin, primeggiano con un ampio margine in termini di **adozione istituzionale**, superando i primi dieci ETF a più rapida crescita, sia in termini di numero di istituzioni coinvolte che di dimensioni del patrimonio in gestione (AUM). Il successo di questi ETF in bitcoin sottolinea la crescente domanda di veicoli di investimento legati agli asset digitali, consolidando così il posto di Bitcoin nel panorama finanziario tradizionale.
 
-Bitcoin ora compete nel **mercato** degli _"store of value"_. Rappresenta solo una goccia nel mare in termini di scala: appena 1.800 miliardi di dollari rispetto ai 18.000 miliardi di dollari dell'oro o ai 500.000 miliardi di dollari del settore immobiliare. Tuttavia, la sua quota di mercato dello 0,1% circa le offre un enorme spazio di crescita, soprattutto se si considera che i suoi concorrenti faticano ad attirare nuovi utenti.
+Bitcoin ora compete nel **mercato** degli _"store of value"_. Rappresenta solo una goccia nel mare in termini di scala: appena 1.800 miliardi di dollari rispetto ai 18.000 miliardi di dollari dell'oro o ai 500.000 miliardi di dollari del settore immobiliare. Tuttavia, la sua quota di mercato dello 0,1% circa offre un enorme spazio di crescita, soprattutto se si considera che i suoi concorrenti faticano ad attirare nuovi utenti.
 
 | Ticker     | 1D Flusso (M USD) | 1W Flusso (M USD) | 1M Flusso (M USD) | 3M Flusso (M USD) | YTD Flusso (M USD) |
 | ---------- | ----------------- | ----------------- | ----------------- | ----------------- | ------------------ |
-| **Totale** | +457,19           | +1.507,95         | +2.888,01         | +3.672,29         | **+20.262,94**     |
+| **Totale** | **+457,19**       | **+1.507,95**     | **+2.888,01**     | **+3.672,29**     | **+20.262,94**     |
 | IBIT       | +393,40           | +750,91           | +1.536,47         | +3.821,37         | +22.460,44         |
 | FBTC       | +14,81            | +372,40           | +627,16           | +458,71           | +10.266,69         |
 | ARKB       | +11,51            | +163,26           | +295,92           | -3,88             | +2.647,32          |
@@ -520,7 +520,7 @@ Bitcoin ora compete nel **mercato** degli _"store of value"_. Rappresenta solo u
 | DEFI       | 0.00              | 0.00              | 0.00              | -2.03             | -1.79              |
 | GBTC       | 0.00              | +5,16             | -81,42            | -1503,84          | -20.141,85         |
 
-*20 miliardi di dollari in 10 mesi: Gli ETF su Bitcoin hanno raggiunto in meno di un anno quello che gli ETF sull'oro sono riusciti a fare in 5 anni. Fonte: Flussi di investimento dei fondi in USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
+*20 miliardi di dollari in 10 mesi: Gli ETF in bitcoin hanno raggiunto in meno di un anno quello che gli ETF sull'oro sono riusciti a fare in 5 anni. Fonte: Flussi di investimento dei fondi in USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
 
 ### Bitcoin nel kit di strumenti aziendali
 
@@ -528,7 +528,7 @@ La crescente adozione di Bitcoin negli Stati Uniti sta influenzando la percezion
 
 Da un punto di vista puramente finanziario, Bitcoin è riconosciuto come un asset di diversificazione. Non solo non è correlato con altre classi di attività, _ma sembra anche prosperare durante i periodi di nuove iniezioni di liquidità_. Un altro episodio di questo tipo sembra essere iniziato con la riduzione dei tassi di interesse da parte della BCE, della Fed e della Cina.
 
-In sintesi, per il caso d'uso più comune _l'investimento in eccesso di tesoreria per almeno una finestra di quattro anni_, a questo Bitcoin si adatta perfettamente. Vale la pena di combinarlo con una strategia di ingresso graduale: investire importi fissi a intervalli regolari per rendere più agevole il punto di ingresso o di uscita.
+In sintesi, per il caso d'uso più comune _l'investimento in eccesso di tesoreria per almeno una finestra di quattro anni_, Bitcoin si adatta perfettamente a questo. Vale la pena di combinarlo con una strategia di ingresso graduale: investire importi fissi a intervalli regolari per rendere più agevole il punto di ingresso o di uscita.
 
 Altri casi d'uso rendono Bitcoin un asset strategico per la tesoreria, ad esempio:
 
@@ -540,7 +540,7 @@ Altri casi d'uso rendono Bitcoin un asset strategico per la tesoreria, ad esempi
 
 ### Il Bitcoin è troppo costoso?
 
-Non è necessario acquistare esattamente 1 bitcoin, perché bitcoin è divisibile in sottounità chiamate satoshi, in onore del suo anonimo creatore. Un bitcoin equivale a **100 milioni di satoshi**, consentendo agli utenti di acquistare, vendere o scambiare anche **frazioni molto piccole di un bitcoin**. In effetti, nel codice sorgente di Bitcoin, tutte le transazioni sono contabilizzate in satoshi e il termine "bitcoin" compare solo nella "coinbase", la transazione speciale che i miner creano per ricevere la loro ricompensa.
+Non è necessario acquistare esattamente 1 bitcoin, perché i bitcoin sono divisibili in sottounità chiamate _satoshi_, in onore del suo anonimo creatore. Un bitcoin equivale a **100 milioni di satoshi**, consentendo agli utenti di acquistare, vendere o scambiare anche **frazioni molto piccole di un bitcoin**. In effetti, nel codice sorgente di Bitcoin, tutte le transazioni sono contabilizzate in _satoshi_ e il termine _"bitcoin"_ compare solo nella _"coinbase"_, la transazione speciale che i miner creano per ricevere la loro ricompensa.
 
 Inoltre, il totale di 21 milioni di bitcoin - ovvero **2,1 quadrilioni di satoshi** - può essere rappresentato in modo efficiente da un numero intero a 64 bit. Ciò significa che, nonostante il prezzo elevato per bitcoin intero, questo rimane accessibile a un'ampia gamma di investitori grazie alla sua divisibilità. Non è quindi necessario acquistare un bitcoin intero per partecipare al network o investire in questo asset digitale.
 
@@ -548,23 +548,23 @@ Inoltre, il totale di 21 milioni di bitcoin - ovvero **2,1 quadrilioni di satosh
 
 Ricordiamo che la sua capitalizzazione di mercato totale relativamente bassa, rispetto ad altri asset come azioni, oro o immobili, lascia intatta la sua capacità di apprezzamento. Con una penetrazione ancora molto bassa (circa l'1% della popolazione globale), si stima di essere solo all'inizio della sua ascesa. Questo lo rende **la scommessa più asimmetrica della nostra generazione**: c'è una probabilità molto bassa che si azzeri a questo punto, e una forte probabilità che continui a guadagnare terreno.
 
-### La decisione di allocare la tesoreria aziendale in Bitcoin
+### La decisione di allocare la tesoreria aziendale in bitcoin
 
-Il **processo decisionale** per investire in Bitcoin sarà fortemente influenzato dalla vostra posizione all'interno dell'azienda. Se siete un **proprietario di maggioranza, siete liberi** di allocare i fondi di tesoreria in eccesso secondo il vostro giudizio. Al contrario, se siete un socio o un azionista all'interno di una struttura decisionale collettiva, dovrete prendere decisioni comuni, il che può complicare le cose.
+Il **processo decisionale** per investire nei bitcoin sarà fortemente influenzato dalla vostra posizione all'interno dell'azienda. Se siete un **proprietario di maggioranza, siete liberi** di allocare i fondi di tesoreria in eccesso secondo il vostro giudizio. Al contrario, se siete un socio o un azionista all'interno di una struttura decisionale collettiva, dovrete prendere decisioni comuni, il che può complicare le cose.
 
-In questo secondo scenario, l'armonizzazione dei diversi punti di vista diventa essenziale, in quanto **dipende in larga misura dalla comprensione dell'asset Bitcoin da parte di ciascun stakeholder**. Come dice il proverbio: _"Bitcoin è tutto ciò che la gente non sa dei computer combinato con tutto ciò che non capisce del denaro"_. Anche se un partner si è sforzato di comprendere a fondo Bitcoin, trasmettere questa conoscenza agli altri può essere difficile. In questi casi, è **consigliabile coinvolgere una risorsa esterna** per evitare che l'idea si identifichi troppo strettamente con una sola persona, il che potrebbe generare resistenza.
+In questo secondo scenario, l'armonizzazione dei diversi punti di vista diventa essenziale, in quanto **dipende in larga misura dalla comprensione dell'asset bitcoin da parte di ciascun stakeholder**. Come dice il proverbio: _"Bitcoin è tutto ciò che la gente non sa dei computer combinato con tutto ciò che non capisce del denaro"_. Anche se un partner si è sforzato di comprendere a fondo Bitcoin, trasmettere questa conoscenza agli altri può essere difficile. In questi casi, è **consigliabile coinvolgere una risorsa esterna** per evitare che l'idea si identifichi troppo strettamente con una sola persona, il che potrebbe generare resistenza.
 
-Attualmente, lo scenario di un proprietario di maggioranza che prende le decisioni è il più rappresentativo tra le aziende che detengono Bitcoin. Ecco alcuni esempi reali:
+Attualmente, lo scenario di un proprietario di maggioranza che prende le decisioni è il più rappresentativo tra le aziende che detengono dei bitcoin. Ecco alcuni esempi reali:
 
 
-- **Professionisti indipendenti**: consulenti, operatori sanitari o avvocati che investono parte del loro patrimonio a lungo termine in Bitcoin. In genere, questi professionisti sono già titolari di conti di risparmio o di depositi a termine con rendimenti modesti.
-- **Dirigenti del settore tecnologico**: un dirigente che ha venduto la propria azienda e ha investito parte dei proventi della propria holding personale in Bitcoin qualche anno fa. Oggi gode di una situazione finanziaria confortevole e reinveste in nuove iniziative.
-- **Proprietari di imprese molto piccole** : imprenditori del settore dei servizi, dell'agricoltura o dell'artigianato che hanno compreso il potenziale di Bitcoin e vi destinano una parte del loro patrimonio. La loro motivazione principale è la diversificazione e la libertà che offre.
-- **Società quotate in borsa** come MicroStrategy hanno creato un precedente convertendo una parte significativa della loro tesoreria aziendale in Bitcoin, dimostrando un cambiamento globale nelle strategie di allocazione del capitale aziendale. Entro l'autunno del 2024, numerose altre società hanno seguito l'esempio, legittimando ulteriormente questa tendenza.
+- **Professionisti indipendenti**: consulenti, operatori sanitari o avvocati che investono parte del loro patrimonio a lungo termine in bitcoin. In genere, questi professionisti sono già titolari di conti di risparmio o di depositi a termine con rendimenti modesti.
+- **Dirigenti del settore tecnologico**: un dirigente che ha venduto la propria azienda e ha investito parte dei proventi della propria holding personale in bitcoin qualche anno fa. Oggi gode di una situazione finanziaria confortevole e reinveste in nuove iniziative.
+- **Proprietari di imprese molto piccole**: imprenditori del settore dei servizi, dell'agricoltura o dell'artigianato che hanno compreso il potenziale di Bitcoin e vi destinano una parte del loro patrimonio. La loro motivazione principale è la diversificazione e la libertà che offre.
+- **Società quotate in borsa**: come MicroStrategy hanno creato un precedente convertendo una parte significativa della loro tesoreria aziendale in bitcoin, dimostrando un cambiamento globale nelle strategie di allocazione del capitale aziendale. Entro l'autunno del 2024, numerose altre società hanno seguito l'esempio, legittimando ulteriormente questa tendenza.
 
 ### Tassazione dei bitcoin detenuti dalle imprese
 
-Per le imprese che non sono strutturate come entità legali separate - come le ditte individuali o altre entità non costituite in società - la tassazione delle transazioni di bitcoin spesso rispecchia il trattamento applicato alle persone fisiche. In molti casi, si applicano le stesse norme che regolano le plusvalenze o i redditi, proprio come nel caso di una persona fisica che vende bitcoin. Ad esempio, in alcuni Paesi i profitti possono essere considerati parte del reddito personale dell'imprenditore, soggetto a **scaglioni di imposta sul reddito personale**.
+Per le imprese che non sono strutturate come entità legali separate - come le ditte individuali o altre entità non costituite in società - la tassazione delle transazioni in bitcoin spesso rispecchia il trattamento applicato alle persone fisiche. In molti casi, si applicano le stesse norme che regolano le plusvalenze o i redditi, proprio come nel caso di una persona fisica che vende bitcoin. Ad esempio, in alcuni Paesi i profitti possono essere considerati parte del reddito personale dell'imprenditore, soggetto a **scaglioni di imposta sul reddito personale**.
 
 Tuttavia, le **imprese societarie** - quelle soggette all'imposta sul reddito delle società - spesso beneficiano di un quadro fiscale più favorevole. A differenza delle persone fisiche, che possono trovarsi di fronte a restrizioni sulla compensazione di guadagni e perdite tra diverse classi di attività, le società possono generalmente integrare le plusvalenze o le minusvalenze realizzate sulle transazioni in bitcoin direttamente nel loro conto economico annuale. Questo può portare a una posizione fiscale più flessibile e talvolta più vantaggiosa.
 
@@ -572,7 +572,7 @@ Le aliquote e i trattamenti fiscali specifici variano notevolmente a seconda del
 
 A causa di queste differenze, **alcuni imprenditori scelgono di acquistare e detenere dei bitcoin attraverso le loro strutture societarie**, in quanto ciò può fornire **opportunità di pianificazione fiscale più efficienti**. Come sempre, è consigliabile consultare un professionista fiscale che abbia familiarità con le norme della/e giurisdizione/i interessata/e per garantire la conformità e ottimizzare la strategia fiscale.
 
-## Come acquisire Bitcoin
+## Come acquisire dei bitcoin
 
 <chapterId>1e6dbaf5-581a-49a4-8f37-3728e77bda17</chapterId>
 
@@ -583,9 +583,9 @@ Esistono tre modi per acquisire bitcoin:
 ![BIZ101](assets/en/09.webp)
 
 
-- **In cambio di beni o servizi:**
+- **In cambio di beni o servizi**:
 
-Poiché Bitcoin funziona come mezzo di scambio, è possibile immaginare un'economia circolare. Anche se oggi è ancora poco diffuso, sempre più aziende stanno iniziando ad accettare pagamenti in Bitcoin: perché non la vostra? (Vedi il prossimo capitolo)
+Poiché Bitcoin funziona come mezzo di scambio, è possibile immaginare un'economia circolare. Anche se oggi è ancora poco diffuso, sempre più aziende stanno iniziando ad accettare pagamenti in bitcoin: perché non la vostra? (Vedi il prossimo capitolo).
 
 
 - **Mining di bitcoin:**
@@ -595,11 +595,11 @@ Si tratta di guadagnare compensi dal funzionamento delle macchine per il mining.
 Per conoscere i metodi di estrazione, è possibile [consultare la sezione _"mining"_ nei nostri tutorial](https://planb.network/tutorials/mining).
 
 
-- **Acquistare bitcoin:**
+- **Acquistare dei bitcoin:**
 
-Questo è di gran lunga il metodo più comune, effettuato tramite scambi peer-to-peer o, più tipicamente, su piattaforme di trading specializzate. Ma quando acquistano bitcoin come asset di tesoreria aziendale, le aziende devono rispettare solidi standard normativi e procedure Know-Your-Customer (KYC). Quando lo acquistano su piattaforme di trading specializzate, le aziende sono in genere tenute a fornire informazioni aziendali dettagliate, tra cui documenti di identificazione, rendiconti finanziari e prove di indirizzo, per soddisfare i requisiti KYC e antiriciclaggio (AML).
+Questo è di gran lunga il metodo più comune, effettuato tramite scambi peer-to-peer o, più tipicamente, su piattaforme di trading specializzate. Ma quando acquistano dei bitcoin come asset di tesoreria aziendale, le società devono rispettare solidi standard normativi e procedure Know-Your-Customer (KYC). Quando lo acquistano su piattaforme di trading specializzate, le aziende sono in genere tenute a fornire informazioni aziendali dettagliate, tra cui documenti di identificazione, rendiconti finanziari e prove di indirizzo, per soddisfare i requisiti KYC e antiriciclaggio (AML).
 
-Per sapere come aprire un conto aziendale e utilizzarlo per acquistare, vendere e trasferire bitcoin, potete consultare questi due tutorial specificamente pensati per le aziende, che coprono le piattaforme Kraken e Bitfinex nelle loro versioni aziendali:
+Per sapere come aprire un conto aziendale e utilizzarlo per acquistare, vendere e trasferire dei bitcoin, potete consultare questi due tutorial specificamente pensati per le aziende, che coprono le piattaforme Kraken e Bitfinex nelle loro versioni aziendali:
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
@@ -609,7 +609,7 @@ Per saperne di più sui metodi di acquisizione dei bitcoin tramite un exchange o
 
 ### A che prezzo?
 
-Come già detto, non solo è impossibile prevedere il prezzo futuro di bitcoin, ma il prezzo è anche molto volatile nel breve termine. Storicamente, una strategia affidabile consiste nell'accumulare gradualmente a intervalli regolari e mantenere un orizzonte temporale di quattro anni o più.
+Come già detto, non solo è impossibile prevedere il prezzo futuro dei bitcoin, ma il prezzo è anche molto volatile nel breve termine. Storicamente, una strategia affidabile consiste nell'accumulare gradualmente a intervalli regolari e mantenere un orizzonte temporale di quattro anni o più.
 
 ### Quanto si dovrebbe acquistare?
 
@@ -619,15 +619,15 @@ Come già detto, è saggio investire solo la liquidità in eccesso di cui non si
 
 Oltre a iniziare in piccolo, è utile che le tesorerie aziendali adottino una strategia di allocazione misurata. Da un lato, alcune società, come MicroStrategy, hanno adottato un approccio estremo impegnando una parte sostanziale dei loro fondi di tesoreria in eccesso in bitcoin, riflettendo una forte convinzione istituzionale. Al contrario, una strategia più conservativa e probabilmente razionale potrebbe prevedere l'allocazione di circa il 5% della tesoreria aziendale in bitcoin, bilanciando i potenziali guadagni con la gestione del rischio e i requisiti di liquidità.
 
-Visualizzate questo spettro come una scala, da un'esposizione minima, che assicura alla società una liquidità sufficiente per le esigenze operative, a una posizione aggressiva volta a sfruttare il previsto apprezzamento del valore economico di bitcoin a lungo termine. Mentre un'allocazione aggressiva può produrre rendimenti più elevati, un'allocazione modesta contribuisce a mitigare la volatilità, assicurando che le fondamenta finanziarie dell'azienda rimangano sicure, pur beneficiando del potenziale innovativo di Bitcoin nell'ambito delle sue operazioni di tesoreria.
+Visualizzate questo spettro come una scala, da un'esposizione minima, che assicura alla società una liquidità sufficiente per le esigenze operative, a una posizione aggressiva volta a sfruttare il previsto apprezzamento del valore economico dei bitcoin a lungo termine. Mentre un'allocazione aggressiva può produrre rendimenti più elevati, un'allocazione modesta contribuisce a mitigare la volatilità, assicurando che le fondamenta finanziarie dell'azienda rimangano sicure, pur beneficiando del potenziale innovativo di Bitcoin nell'ambito delle sue operazioni di tesoreria.
 
 ### Quanto spesso?
 
 Non esiste una regola ferrea. Cercare di temporizzare il mercato andando a caccia di _"dips"_ (cali di valore) può essere meno efficace e più stressante che acquistare semplicemente a intervalli regolari. Anche gli investitori più esperti a volte sbagliano. Fare _"all-in"_ in una volta sola può essere un'arma a doppio taglio.
 
-In realtà, il potenziale di apprezzamento di bitcoin è tale che, anche se si dovesse iniziare solo qualche anno più avanti, è probabile che si vedano comunque guadagni a lungo termine. È vero, è probabile che le grandi oscillazioni di prezzo diminuiscano d'intensità nel tempo. Tuttavia, in quanto moneta deflazionistica, Bitcoin è progettato per immagazzinare efficacemente il valore e riflettere i guadagni di produttività dei suoi utenti. Per fare un'analogia: attualmente siamo nella _"fase di lancio"_ di Bitcoin, una valuta in divenire, e nessuno conosce ancora il suo valore equo. Più avanti, forse tra 20 o 40 anni, quando sarà in una _"fase di crociera"_ stabile, potrebbe essere incredibilmente stabile e crescere costantemente con gli aumenti di produttività della società.
+In realtà, il potenziale di apprezzamento dei bitcoin è tale che, anche se si dovesse iniziare solo qualche anno più avanti, è probabile che si vedano comunque guadagni a lungo termine. È vero, è probabile che le grandi oscillazioni di prezzo diminuiscano d'intensità nel tempo. Tuttavia, in quanto moneta deflazionistica, Bitcoin è progettato per immagazzinare efficacemente il valore e riflettere i guadagni di produttività dei suoi utenti. Per fare un'analogia: attualmente siamo nella _"fase di lancio"_ di Bitcoin, una valuta in divenire, e nessuno conosce ancora il suo valore equo. Più avanti, forse tra 20 o 40 anni, quando sarà in una _"fase di crociera"_ stabile, potrebbe essere incredibilmente stabile e crescere costantemente con gli aumenti di produttività della società.
 
-L'industria immobiliare ripete spesso che _"è sempre il momento giusto per comprare"_, dimenticando che se gli immobili dovessero perdere la loro funzione di deposito di valore _passando ad asset come Bitcoin_ i prezzi potrebbero tornare più vicini al loro valore di utilità (riparo). Bitcoin, invece, non ha altro scopo se non quello di immagazzinare valore, il che potrebbe significare che _"è sempre il momento giusto per comprare"_. Il futuro ce lo dirà.
+L'industria immobiliare ripete spesso che _"è sempre il momento giusto per comprare"_, dimenticando che se gli immobili dovessero perdere la loro funzione di deposito di valore _passando ad asset come i bitcoin_ i prezzi potrebbero tornare più vicini al loro valore di utilità (riparo). Bitcoin, invece, non ha altro scopo se non quello di immagazzinare valore, il che potrebbe significare che _"è sempre il momento giusto per comprare"_. Il futuro ce lo dirà.
 
 ![BIZ101](assets/en/13.webp)
 
@@ -635,7 +635,7 @@ L'industria immobiliare ripete spesso che _"è sempre il momento giusto per comp
 
 ### In quale forma acquistare? (Metodi di custodia)
 
-Non si possiede fisicamente bitcoin. Si possiede invece una chiave crittografica che consente di trasferire la proprietà di alcune o tutte le unità di conto ad altre singole o molteplici chiavi crittografiche. Tutto questo avviene sulla blockchain di Bitcoin, replicata in decine di migliaia di nodi in tutto il mondo.
+Non si possiedono fisicamente dei bitcoin. Si possiede invece una chiave crittografica che consente di trasferire la proprietà di alcune o tutte le unità di conto ad altre singole o molteplici chiavi crittografiche. Tutto questo avviene sulla blockchain di Bitcoin, replicata in decine di migliaia di nodi in tutto il mondo.
 
 Questa chiave crittografica è un numero casuale estremamente grande. Per semplificare l'esperienza dell'utente, viene spesso rappresentata come una sequenza di 12 o 24 parole. Queste parole possono essere caricate su un dispositivo fisico noto come _"hardware wallet"_. Tuttavia, è bene ricordare che i bitcoin non sono _"all'interno"_ di questo dispositivo: si tratta semplicemente di uno strumento per firmare crittograficamente le transazioni e trasmetterle nel network. Ciò che conta veramente sono le 12 o 24 parole, che devono essere tenute al sicuro.
 
@@ -649,12 +649,12 @@ Questa è l'opzione consigliata dai veri appassionati di Bitcoin, in quanto è i
 
 - **Custodia di terzi:**
 
-Ad esempio, una borsa o un servizio di acquisto possono creare un conto per voi, convertire la vostra valuta tradizionale in Bitcoin e conservarla per vostro conto utilizzando i loro sistemi di sicurezza. La maggior parte di questi servizi consente di ritirare i bitcoin in un portafoglio di cui solo voi possedete la chiave. Finché non lo fate, non possedete veramente i bitcoin; vi affidate alla loro promessa di restituirvi i soldi. Questo comporta un bilanciamento tra i rischi di sicurezza (i loro contro i vostri) e il rischio di controparte (potrebbero fallire o scomparire). Per alcune aziende questa soluzione è accettabile, ma in genere non è consigliata per lo stoccaggio a lungo termine o per il 100% della vostra allocazione. I servizi di custodia possono anche addebitare le spese di custodia.
+Ad esempio, un exchange o un servizio di acquisto possono creare un conto per voi, convertire la vostra valuta tradizionale in bitcoin e conservarla per vostro conto utilizzando i loro sistemi di sicurezza. La maggior parte di questi servizi consente di ritirare i bitcoin in un portafoglio di cui solo voi possedete la chiave. Finché non lo fate, non possedete veramente i bitcoin; vi affidate alla loro promessa di restituirvi i soldi. Questo comporta un bilanciamento tra i rischi di sicurezza (i loro contro i vostri) e il rischio di controparte (potrebbero fallire o scomparire). Per alcune aziende questa soluzione è accettabile, ma in genere non è consigliata per lo stoccaggio a lungo termine o per il 100% della vostra allocazione. I servizi di custodia possono anche addebitare le spese di custodia.
 
 
 - **_"Bitcoin di carta"_ (ETF o ETP):**
 
-Si tratta di strumenti finanziari tradizionali che rappresentano frazioni di bitcoin, replicandone la performance di prezzo. L'istituto che sta dietro al prodotto teoricamente acquista e detiene come sottostante i bitcoin. I acquisti e i prelievi vengono effettuati in valuta tradizionale (ad esempio, dollari o euro), non in bitcoin. Ad eccezione di alcuni prodotti che consentono il prelievo in Bitcoin effettivi (per evitare un evento imponibile in alcune giurisdizioni), questi strumenti comportano commissioni di gestione annuali. In questo caso, ci si affida alla sicurezza dell'istituzione e si affronta il rischio di controparte (ad esempio, se un governo decidesse di confiscare tutti i bitcoin detenuti dalle istituzioni, come è accaduto con l'oro nel 1933 in base all'Ordine Esecutivo americano 6102). Il loro vantaggio principale è la facilità di accesso, in quanto vengono distribuiti attraverso i canali finanziari tradizionali. Non richiedono la protezione delle chiavi crittografiche, ma non offrono nessuna delle proprietà intrinseche di Bitcoin: non è possibile utilizzare il network Bitcoin 24 ore su 24, 7 giorni su 7, per spostare liberamente il valore senza autorizzazione. Replicano solo la performance finanziaria, non la funzionalità o la sovranità di Bitcoin stesso.
+Si tratta di strumenti finanziari tradizionali che rappresentano frazioni di bitcoin, replicandone la performance di prezzo. L'istituto che sta dietro al prodotto teoricamente acquista e detiene come sottostante i bitcoin. Gli acquisti e i prelievi vengono effettuati in valuta tradizionale (ad esempio, dollari o euro), non in bitcoin. Ad eccezione di alcuni prodotti che consentono il prelievo in bitcoin effettivi (per evitare un evento imponibile in alcune giurisdizioni), questi strumenti comportano commissioni di gestione annuali. In questo caso, ci si affida alla sicurezza dell'istituzione e si affronta il rischio di controparte (ad esempio, se un governo decidesse di confiscare tutti i bitcoin detenuti dalle istituzioni, come è accaduto con l'oro nel 1933 in base all'Ordine Esecutivo americano 6102). Il loro vantaggio principale è la facilità di accesso, in quanto vengono distribuiti attraverso i canali finanziari tradizionali. Non richiedono la protezione delle chiavi crittografiche, ma non offrono nessuna delle proprietà intrinseche di Bitcoin: non è possibile utilizzare il network Bitcoin 24 ore su 24, 7 giorni su 7, per spostare liberamente il valore senza autorizzazione. Replicano solo la performance finanziaria, non la funzionalità o la sovranità di Bitcoin stesso.
 
 ![BIZ101](assets/en/15.webp)
 
@@ -666,19 +666,19 @@ Inoltre, la forma in cui si detengono dei bitcoin influisce in modo significativ
 
 Se si opta per il _"bitcoin cartaceo"_, ci si rivolge a istituzioni finanziarie come banche o borse valori online.
 
-Se si sceglie di acquistare bitcoin reali attraverso un marketplace (exchange) o un broker, si hanno diverse categorie principali:
+Se si sceglie di acquistare dei bitcoin reali attraverso un marketplace (exchange) o un broker, si hanno diverse categorie principali:
 
 
 - **Grandi piattaforme internazionali o estere:**
 
-Tra gli esempi vi sono Kraken, Coinbase o Binance, storicamente utilizzati da molti privati. Alcuni hanno riscontrato problemi ed è difficile dare una raccomandazione chiara. Un consiglio: se li utilizzate, non lasciate i vostri bitcoin lì più del necessario.
+Tra gli esempi vi sono Kraken, Coinbase o Binance, storicamente utilizzati da molti privati. Alcuni hanno riscontrato problemi ed è difficile dare una raccomandazione chiara. Un consiglio: **_se li utilizzate, non lasciate i vostri bitcoin lì più del necessario_**.
 
 
 - **Fornitori di servizi regolamentati (fornitori di servizi di asset digitali registrati):**
 
-Ad esempio, in Francia piattaforme come Paymium (exchange) o BullBitcoin (broker) sono note per avere al timone veri appassionati di Bitcoin e hanno costruito un solido track record. Negli Stati Uniti ci sono fornitori di servizi come River o Swann. In generale, è importante esaminare il pedigree del fornitore: la sua reputazione, il suo curriculum, la sua popolarità all'interno della comunità Bitcoin e se la sua leadership è allineata con i valori fondamentali di Bitcoin.
+Ad esempio, in Francia piattaforme come Paymium (exchange) o BullBitcoin (broker) sono note per avere al timone veri appassionati di Bitcoin e hanno costruito un solido track record. Negli Stati Uniti ci sono fornitori di servizi come River o Swann. In generale, è importante esaminare il _"pedigree"_ del fornitore: la sua reputazione, il suo curriculum, la sua popolarità all'interno della comunità Bitcoin e se la sua leadership è allineata con i valori fondamentali di Bitcoin.
 
-**Scambio vs. Broker:**
+**Exchange vs. Broker:**
 
 
 - Un **exchange** vi permette di piazzare ordini di acquisto al prezzo che scegliete, ma dovete aspettare l'esecuzione fino a quando il prezzo di mercato e i venditori si allineano.
@@ -687,18 +687,18 @@ Ad esempio, in Francia piattaforme come Paymium (exchange) o BullBitcoin (broker
 Oltre alle commissioni e alla velocità di esecuzione, _che contano meno se si pensa a lungo termine (diversi anni)_, un'azienda dovrebbe considerare anche:
 
 
-- **Interfaccia utente:** la piattaforma è di facile utilizzo?
-- **Caratteristiche contabili:** come minimo, la possibilità di esportare la cronologia delle transazioni in formato .CSV.
-- **Custodia e sicurezza:** la piattaforma detiene i bitcoin per conto dell'utente o ne trasferisce la proprietà a quest'ultimo? Qual è la loro configurazione di sicurezza? Hanno _"franchige di prelievo"_ o altre limitazioni di prelievo?
-- **Assistenza clienti:** la qualità, la reattività e l'assistenza personalizzata, soprattutto quando si inizia.
-- **Reputazione ed ethos:** affidabilità e valori della piattaforma.
-- **Supporto per gli acquisti ricorrenti:** se avete intenzione di accumulare dei bitcoin nel tempo con acquisti programmati.
+- **Interfaccia utente**: la piattaforma è di facile utilizzo?
+- **Caratteristiche contabili**: come minimo, la possibilità di esportare la cronologia delle transazioni in formato .CSV.
+- **Custodia e sicurezza:**: la piattaforma detiene i bitcoin per conto dell'utente o ne trasferisce la proprietà a quest'ultimo? Qual è la loro configurazione di sicurezza? Hanno _"franchige di prelievo"_ o altre limitazioni di prelievo?
+- **Assistenza clienti**: la qualità, la reattività e l'assistenza personalizzata, soprattutto quando si inizia.
+- **Reputazione ed ethos**: affidabilità e valori della piattaforma.
+- **Supporto per gli acquisti ricorrenti**: se avete intenzione di accumulare dei bitcoin nel tempo con acquisti programmati.
 
-# Soluzioni di pagamento Bitcoin su misura per ogni azienda
+# Soluzioni di pagamento in bitcoin su misura per ogni azienda
 
 <partId>b2c8af88-6bfc-49b1-ad84-4c292c713b55</partId>
 
-## Accettare bitcoin come pagamento
+## Accettare dei bitcoin come pagamento
 
 <chapterId>99af1203-bc84-4acc-9780-f733e7998335</chapterId>
 

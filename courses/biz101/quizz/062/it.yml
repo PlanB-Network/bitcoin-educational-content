@@ -1,9 +1,9 @@
-question: Quale soluzione alternativa a Swiss Bitcoin Pay per accettare pagamenti in Bitcoin per il profilo Essential è al 100% depositaria?
-answer: Nodo aperto
+question: Quale soluzione alternativa a Swiss Bitcoin Pay per accettare pagamenti in bitcoin per il profilo Essential è al 100% depositaria?
+answer: Open Node
 wrong_answers:
   - Server BTCPay
-  - Bitcoinizzare il PoS
-  - Portafoglio Phoenix
+  - il PoS di Bitcoinize
+  - Phoenix wallet
 explanation: |
   Open Node si caratterizza come una soluzione completamente depositaria, che si differenzia dalla natura ibrida di Swiss Bitcoin Pay.
 reviewed: false

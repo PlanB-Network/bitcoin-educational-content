@@ -14,7 +14,7 @@ Anda sudah memiliki :
 - Menghubungi tim Plan ₿ Network melalui [Grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau paolo@planb.network ;
 - Pilih alat kontribusi Anda.
 
-Dalam tutorial untuk pengguna Git yang sudah berpengalaman ini, kami akan meringkas secara singkat langkah-langkah utama dan panduan penting untuk menawarkan tutorial Plan ₿ Network yang baru. Jika Anda tidak terbiasa dengan Git dan GitHub, saya sarankan Anda untuk mengikuti salah satu dari 2 tutorial lain yang lebih terperinci yang akan membawa Anda langkah demi langkah:
+Dalam tutorial untuk pengguna Git yang sudah berpengalaman ini, kami akan meringkas secara singkat langkah-langkah utama dan panduan penting untuk menawarkan tutorial Plan ₿ Network yang baru. Jika Anda tidak terbiasa dengan Git dan GitHub, saya sarankan Anda untuk mengikuti salah satu dari 2 tutorial lain yang lebih terperinci yang akan membawa Anda langkah demi langkah :
 
 
 - Menengah (GitHub Desktop)** :
@@ -63,7 +63,7 @@ Untuk membuat diagram dan visual :
 - Sinkronisasi cabang utama (`dev`) dari fork Anda dengan repositori sumber.
 - Perbarui klon lokal Anda.
 
-```bash
+```
 # Cloner votre fork (si ce n'est pas déjà fait)
 git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
 cd bitcoin-educational-content
@@ -86,7 +86,7 @@ git push origin dev
 - Buat cabang baru dengan nama deskriptif (mis. `tuto-green-wallet-loic`).
 - Publikasikan cabang ini di fork online Anda.
 
-```bash
+```
 # Assurez-vous d’être sur la branche 'dev'
 git checkout dev
 # Créez une nouvelle branche avec un nom descriptif
@@ -113,7 +113,7 @@ Jika Anda lebih suka melakukannya secara manual, ikuti langkah-langkah berikut i
     - File `tutorial.yml` yang berisi metadata (penulis, tag, kategori, tingkat kesulitan, dll.).
     - File Markdown yang berisi tutorial, diberi nama sesuai dengan kode bahasa (misalnya `fr.md`, `en.md`, dll.).
 
-```bash
+```
 # Positionnez-vous dans le dossier approprié
 cd tutorials/wallet
 # Créez le répertoire dédié au tutoriel
@@ -132,7 +132,7 @@ touch tutorial.yml en.md
 
 - Lengkapi file `tutorial.yml` sebagai berikut:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -152,127 +152,136 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Voici le détail des champs obligatoires :
-- **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
-- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
-- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
-- **level** : Le niveau de difficulté du tutoriel, parmi :
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
-- **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
-- **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
-- **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
-- **last_contribution_date** : Date du jour.
-- **urgency** : Laissez vide.
-- **contributors_id** : Votre ID GitHub.
-- **reward** : Laissez vide.
-Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
+```
+
+Berikut ini adalah bidang yang wajib diisi:
+
+
+- id**: Sebuah UUID (Pengenal Unik Universal) untuk mengidentifikasi tutorial secara unik. Anda dapat membuatnya dengan [alat bantu online] (https://www.uuidgenerator.net/version4). Satu-satunya batasan adalah UUID ini harus acak, agar tidak bertentangan dengan UUID lain di platform;
+- project_id** : UUID dari perusahaan atau organisasi di balik alat yang disajikan dalam tutorial [dari daftar proyek] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Sebagai contoh, jika Anda sedang melakukan tutorial mengenai perangkat lunak Green Wallet, Anda dapat menemukan `project_id` ini di file berikut: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informasi ini ditambahkan dalam file YAML tutorial Anda karena Plan ₿ Network menyimpan database semua perusahaan dan organisasi yang beroperasi dengan Bitcoin atau proyek-proyek terkait. Dengan menambahkan `project_id` dari entitas yang ditautkan ke tutorial Anda, Anda membuat tautan antara dua elemen;
+- tag**: 2 atau 3 kata kunci yang relevan terkait dengan konten tutorial, yang dipilih secara eksklusif [dari daftar tag Paket ₿ Jaringan](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- kategori** : Subkategori yang sesuai dengan konten tutorial, sesuai dengan Paket ₿ Struktur jaringan (misalnya untuk dompet: `deskstop`, `perangkat keras`, `seluler`, `cadangan`);
+- tingkat** : Tingkat kesulitan tutorial, dari :
+    - pemula
+    - 'menengah'
+    - `advanced`
+    - 'ahli'
+- profesor**: `kontributor_id` Anda (BIP39 kata) seperti yang ditampilkan di [profil pengajar Anda] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- bahasa_asli** : Bahasa asli tutorial (misalnya `fr`, `en`, dll.) ;
+- pengoreksian**: Informasi tentang proses proofreading. Isi bagian pertama, karena mengoreksi tutorial Anda sendiri dianggap sebagai validasi pertama:
+    - bahasa**: Mengoreksi kode bahasa (misalnya `fr`, `en`, dsb.).
+    - tanggal_kontribusi_terakhir**: Tanggal hari ini.
+    - urgensi** : Biarkan kosong.
+    - kontributor_id** : ID GitHub Anda.
+    - hadiah** : Biarkan kosong.
+
+Untuk detail lebih lanjut mengenai ID guru Anda, silakan lihat tutorial yang sesuai:
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 ```
-
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-tag:
-
-
-  - dompet
-  - perangkat lunak
-  - kunci
-
-kategori: Ponsel
-
-tingkat: Pemula
-
-kredit:
-
-profesor: cukup-pribadi
-
-# Mengoreksi metadata
-
-bahasa_asli: fr
-
-mengoreksi:
-
-
-  - bahasa: fr
-
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
+original_language: fr
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-urgensi:
-
-kontributor_id:
-
-
-      - LoicPandul
-
-hadiah:
-
-```
-### 5 - Rédigez le contenu
-- Complétez les propriétés du fichier Markdown avec :
-- Le titre (`name`).
-- Une courte description (`description`).
-- Ajoutez l’image de couverture en haut du tutoriel avec la syntaxe Markdown (remplacez "green" par le nom de l’outil présenté) :
+urgency:
+contributors_id:
+- LoicPandul
+reward:
 ```
 
+### 5 - Menulis konten
+
+
+- Lengkapi properti file Penurunan harga dengan file :
+    - Judul (`nama`).
+    - Deskripsi singkat (`description`).
+- Tambahkan gambar sampul di bagian atas tutorial menggunakan sintaks Markdown (ganti "hijau" dengan nama alat yang ditampilkan):
+
+```
 ![cover-green](assets/cover.webp)
-
-```
-- Rédigez le contenu du tutoriel en Markdown :
-- Utilisez des titres bien structurés (`##`), des listes et des paragraphes.
-- Insérez des visuels avec la syntaxe Markdown :
 ```
 
+
+- Tuliskan konten tutorial dalam Markdown :
+    - Gunakan judul, daftar, dan paragraf yang terstruktur dengan baik.
+    - Menyisipkan visual menggunakan sintaks Markdown :
+
+```
 ![nom-image](assets/en/001.webp)
-
-```
-- Placez les schémas et images dans le sous-dossier de langue correspondant, dans `/assets`.
-### 6 - Enregistrez et soumettez le tutoriel
-- Enregistrez vos modifications localement en créant un commit avec un message descriptif.
-- Poussez les changements sur votre fork GitHub.
 ```
 
-# Membuat komit dengan pesan deskriptif
 
-git commit -m "Tambahkan tutorial dompet hijau"
+- Tempatkan diagram dan gambar di subfolder bahasa yang sesuai, di `/assets`.
 
-# Dorong modifikasi Anda ke garpu Anda
+### 6 - Simpan dan kirimkan tutorial
 
-git push asal tuto-dompet-hijau-loic
 
-```
-- Une fois terminé, créez une Pull Request (PR) sur GitHub pour proposer l’intégration de vos modifications.
-- Ajoutez un titre et une brève description à la PR. Mentionnez le numéro d’issue correspondant dans le commentaire.
-### 7 - Relecture et fusion
-- Attendez la validation ou les retours d’un administrateur.
-- Si nécessaire, effectuez des corrections et poussez de nouveaux commits.
-```
-
-# Buatlah sebuah komit yang menjelaskan koreksi yang dibuat
-
-git commit -m "Koreksi setelah tinjauan ulang tutorial green-wallet"
-
-# Mendorong koreksi pada garpu Anda
-
-git push asal tuto-dompet-hijau-loic
+- Simpan perubahan Anda secara lokal dengan membuat komit dengan pesan deskriptif.
+- Dorong perubahan ke fork GitHub Anda.
 
 ```
-- Une fois la PR fusionnée, vous pouvez supprimer votre branche de travail.
-## Normes de création de contenu
-- **Formatage supporté sur la plateforme** :
-- Markdown classique : listes, liens, images, citations, gras, italique, etc.
-- LaTeX (en bloc uniquement, pas inline) : délimité par `$$`.
-- Code inline : Syntaxe avec un seul backtick.
-- Blocs de code : Syntaxe avec trois backtick, par exemple :
+# Créez un commit avec un message descriptif
+git commit -m "Ajout du tutoriel green-wallet"
+# Poussez vos modifications sur votre fork
+git push origin tuto-green-wallet-loic
 ```
 
-print("Halo, Bitcoin!")
+
+- Setelah selesai, buat Pull Request (PR) di GitHub untuk mengusulkan integrasi modifikasi Anda.
+- Tambahkan judul dan deskripsi singkat pada PR. Sebutkan nomor terbitan yang sesuai dalam komentar.
+
+### 7 - Mengoreksi dan menggabungkan
+
+
+- Tunggu validasi atau umpan balik dari administrator.
+- Jika perlu, lakukan koreksi dan dorong komit baru.
 
 ```
+# Créez un commit décrivant les corrections apportées
+git commit -m "Corrections suite à la revue du tutoriel green-wallet"
+# Poussez les corrections sur votre fork
+git push origin tuto-green-wallet-loic
+```
+
+
+- Setelah PR digabungkan, Anda dapat menghapus cabang yang sedang bekerja.
+
+## Standar pembuatan konten
+
+
+- Pemformatan yang didukung pada platform** :
+    - Penurunan Harga Klasik: daftar, tautan, gambar, kutipan, cetak tebal, cetak miring, dll.
+    - LaTeX (hanya blok, tidak sebaris): dibatasi oleh `$$`.
+    - Kode sebaris: Sintaks dengan satu backtick.
+    - Blok kode: Sintaks dengan tiga tanda centang, misalnya :
+
+```
+print("Hello, Bitcoin!")
+```
+
+
+- Ilustrasi dan diagram** :
+    - Semua gambar harus dalam format WebP. Gunakan alat gratis ini untuk mengonversinya jika diperlukan: [ImagesConverter] (https://github.com/LoicPandul/ImagesConverter).
+    - Beri nama visual dengan 2 atau 3 digit (misalnya `001.webp`, `002.webp`).
+    - Untuk tutorial dompet seluler atau perangkat keras, gunakan mock-up.
+    - Gunakan hanya visual yang dibuat sendiri atau bebas royalti.
+    - Pastikan mereka relevan dan berkualitas tinggi.
+- Piagam grafis** :
+    - Font: [Rubik] (https://fonts.google.com/specimen/Rubik).
+    - Rencana Warna ₿ Jaringan :
+        - Oranye: `#FF5C00`
+        - Hitam: `#000000`
+        - Putih: `#FFFFFF`
+
+Jika Anda mengalami kesulitan teknis dalam mengirimkan tutorial Anda, jangan ragu untuk meminta bantuan di [grup Telegram khusus untuk kontribusi](https://t.me/PlanBNetwork_ContentBuilder). Terima kasih banyak!

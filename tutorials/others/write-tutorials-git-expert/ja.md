@@ -14,7 +14,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 - Plan ₿ Networkチームに[Telegram group](https://t.me/PlanBNetwork_ContentBuilder)またはpaolo@planb.network；
 - 貢献ツールを選ぶ
 
-このチュートリアルでは、Git の経験豊富なユーザーを対象に、新しい Plan ₋ Network チュートリアルを提供するための重要なステップと重要なガイドラインを簡単にまとめます。Git や GitHub に慣れていない場合は、以下の 2 つのチュートリアルを参考にすることをお勧めします：
+このチュートリアルでは、Git の使用経験が豊富なユーザーを対象に、新しい Plan ₋ Network チュートリアルを提供するための重要なステップと重要なガイドラインを簡単にまとめます。Git や GitHub にあまりなじみがないのなら、以下の 2 つのチュートリアルを参考にすることをおすすめします：
 
 
 - 中級（GitHub Desktop）** ：
@@ -63,7 +63,7 @@ YAMLファイルの編集 ：
 - フォークのメインブランチ (`dev`) をソースリポジトリと同期させます。
 - ローカルのクローンを更新する。
 
-```bash
+```
 # Cloner votre fork (si ce n'est pas déjà fait)
 git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
 cd bitcoin-educational-content
@@ -86,7 +86,7 @@ git push origin dev
 - わかりやすい名前（例：`tuto-green-wallet-loic`）で新しいブランチを作成する。
 - このブランチをオンラインフォークで公開する。
 
-```bash
+```
 # Assurez-vous d’être sur la branche 'dev'
 git checkout dev
 # Créez une nouvelle branche avec un nom descriptif
@@ -113,7 +113,7 @@ git push -u origin tuto-green-wallet-loic
     - メタデータ（作者、タグ、カテゴリー、難易度など）を含む`tutorial.yml`ファイル。
     - チュートリアルを含む Markdown ファイルで、言語コードに従って名前が付けられます (例 `fr.md`、`en.md` など)。
 
-```bash
+```
 # Positionnez-vous dans le dossier approprié
 cd tutorials/wallet
 # Créez le répertoire dédié au tutoriel
@@ -132,7 +132,7 @@ touch tutorial.yml en.md
 
 - 以下のように`tutorial.yml`ファイルを完成させる：
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -152,127 +152,136 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Voici le détail des champs obligatoires :
-- **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
-- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
-- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
-- **level** : Le niveau de difficulté du tutoriel, parmi :
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
-- **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
-- **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
-- **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
-- **last_contribution_date** : Date du jour.
-- **urgency** : Laissez vide.
-- **contributors_id** : Votre ID GitHub.
-- **reward** : Laissez vide.
-Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
+```
+
+以下は必須項目です：
+
+
+- id**：チュートリアルを一意に識別するための UUID (_Universally Unique Identifier_) です。オンラインツール](https://www.uuidgenerator.net/version4) で生成できます。唯一の制約は、プラットフォーム上の他のUUIDと衝突しないように、このUUIDはランダムでなければならないということです；
+- project_id** ：チュートリアルで紹介するツールの背後にある会社または組織のUUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例えば、Green Walletソフトウェアのチュートリアルを行う場合、この`project_id`は以下のファイルにあります：bitcoin-educational-content/resources/projects/blockstream/project.yml`。この情報はチュートリアルの YAML ファイルに追加されます。これは、Plan ↪Sc_20BF がビットコインや関連プロジェクトで活動しているすべての企業や組織のデータベースを管理しているためです。リンクされたエンティティの `project_id` をチュートリアルに追加することで、2 つの要素の間にリンクが作成されます；
+- タグ**：プラン₿ネットワークタグリストから](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)、チュートリアルの内容に関連するキーワードを2つまたは3つ選びます；
+- カテゴリー** ：Plan ȏ Network structure（例：ウォレットの場合、`デスクトップ`、`ハードウェア`、`モバイル`、`バックアップ`）に従った、チュートリアルの内容に対応するサブカテゴリー；
+- レベル** ：チュートリアルの難易度：
+    - 初心者
+    - 中級
+    - 上級者向け
+    - エキスパート
+- 教授**：あなたの先生プロフィール](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors)に表示されているあなたの`contributor_id` (BIP39ワード)；
+- original_language** ：チュートリアルの元の言語 (例 `fr`、`en` など) ；
+- 校正**：校正プロセスに関する情報。自分自身のチュートリアルの校正は最初の検証としてカウントされますので、最初の部分を記入してください：
+    - 言語**：校正言語コード（例：`fr`、`en`など）。
+    - last_contribution_date**：今日の日付。
+    - 緊急度** ：空欄のまま
+    - contributors_id** ：あなたのGitHub ID。
+    - 報酬** ：空欄のまま
+
+教師IDの詳細については、対応するチュートリアルを参照してください：
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 ```
-
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
-プロジェクトID3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-のタグがある：
-
-
-  - 財布
-  - ソフトウェア
-  - キー
-
-category:モバイル
-
-レベル：初心者
-
-のクレジットがある：
-
-教授：プリティ・プライベート
-
-# メタデータの校正
-
-原語: fr
-
-校正：
-
-
-  - 言語: fr
-
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
+original_language: fr
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-急を要する：
-
-contributors_id：
-
-
-      - ロイック・パンドゥル
-
-報奨金だ：
-
-```
-### 5 - Rédigez le contenu
-- Complétez les propriétés du fichier Markdown avec :
-- Le titre (`name`).
-- Une courte description (`description`).
-- Ajoutez l’image de couverture en haut du tutoriel avec la syntaxe Markdown (remplacez "green" par le nom de l’outil présenté) :
+urgency:
+contributors_id:
+- LoicPandul
+reward:
 ```
 
+### 5 - コンテンツを書く
+
+
+- Markdownファイルのプロパティを：
+    - タイトル(`name`)。
+    - 短い説明 (`description`).
+- Markdown構文を使用して、チュートリアルの上部にカバー画像を追加します（"green "を表示されているツールの名前に置き換えてください）：
+
+```
 ![cover-green](assets/cover.webp)
-
-```
-- Rédigez le contenu du tutoriel en Markdown :
-- Utilisez des titres bien structurés (`##`), des listes et des paragraphes.
-- Insérez des visuels avec la syntaxe Markdown :
 ```
 
+
+- チュートリアルの内容をMarkdownで書く：
+    - 構造化された見出し(`##`)、リスト、段落を使用する。
+    - Markdown構文を使ってビジュアルを挿入する：
+
+```
 ![nom-image](assets/en/001.webp)
-
-```
-- Placez les schémas et images dans le sous-dossier de langue correspondant, dans `/assets`.
-### 6 - Enregistrez et soumettez le tutoriel
-- Enregistrez vos modifications localement en créant un commit avec un message descriptif.
-- Poussez les changements sur votre fork GitHub.
 ```
 
-# 説明的なメッセージを含むコミットを作成する
 
-git commit -m "グリーンウォレットのチュートリアルを追加"
+- ダイアグラムと画像は、`/assets`の中の対応する言語のサブフォルダーに置いてください。
 
-# 修正をフォークに押し付ける
+### 6 - チュートリアルを保存して送信する
 
+
+- 変更をローカルに保存するには、説明的なメッセージとともにコミットを作成します。
+- 変更をGitHubのフォークにプッシュする。
+
+```
+# Créez un commit avec un message descriptif
+git commit -m "Ajout du tutoriel green-wallet"
+# Poussez vos modifications sur votre fork
 git push origin tuto-green-wallet-loic
-
-```
-- Une fois terminé, créez une Pull Request (PR) sur GitHub pour proposer l’intégration de vos modifications.
-- Ajoutez un titre et une brève description à la PR. Mentionnez le numéro d’issue correspondant dans le commentaire.
-### 7 - Relecture et fusion
-- Attendez la validation ou les retours d’un administrateur.
-- Si nécessaire, effectuez des corrections et poussez de nouveaux commits.
 ```
 
-# 修正内容を記述したコミットを作成する
 
-git commit -m "グリーンウォレットのチュートリアルのレビュー後の修正"
+- 完了したら、GitHubにPull Request (PR)を作成し、修正内容の統合を提案します。
+- PRにタイトルと簡単な説明を加える。コメントには、対応する課題番号を記載してください。
 
-# フォークを押して修正する
+### 7 - 校正とマージ
 
+
+- 管理者からの検証またはフィードバックを待つ。
+- 必要であれば修正し、新しいコミットをプッシュする。
+
+```
+# Créez un commit décrivant les corrections apportées
+git commit -m "Corrections suite à la revue du tutoriel green-wallet"
+# Poussez les corrections sur votre fork
 git push origin tuto-green-wallet-loic
-
-```
-- Une fois la PR fusionnée, vous pouvez supprimer votre branche de travail.
-## Normes de création de contenu
-- **Formatage supporté sur la plateforme** :
-- Markdown classique : listes, liens, images, citations, gras, italique, etc.
-- LaTeX (en bloc uniquement, pas inline) : délimité par `$$`.
-- Code inline : Syntaxe avec un seul backtick.
-- Blocs de code : Syntaxe avec trois backtick, par exemple :
 ```
 
-print("こんにちは、ビットコイン！")
+
+- PRがマージされたら、作業ブランチを削除することができます。
+
+## コンテンツ作成基準
+
+
+- プラットフォームでサポートされているフォーマット** ：
+    - クラシックなMarkdown：リスト、リンク、画像、引用、太字、斜体など。
+    - LaTeX（ブロックのみ、インライン不可）：`$$`で区切る。
+    - インラインコード：シングル・バックティック付きの構文。
+    - コードブロック：3つのバックスティックを持つ構文：
 
 ```
+print("Hello, Bitcoin!")
+```
+
+
+- イラストと図** ：
+    - すべての画像はWebP形式でなければなりません。必要であれば、この無料ツールを使って変換してください：[ImagesConverter](https://github.com/LoicPandul/ImagesConverter)。
+    - ビジュアルに 2 桁または 3 桁の数字で名前をつけます （例：`001.webp`、`002.webp`）。
+    - モバイルウォレットやハードウェアウォレットのチュートリアルには、モックアップを使いましょう。
+    - 自作またはロイヤリティフリーのビジュアルのみを使用すること。
+    - 関連性があり、質の高いものであることを確認してください。
+- グラフィック・チャーター** ：
+    - フォント：[ルービック](https://fonts.google.com/specimen/Rubik)。
+    - カラーズプラン ȏ ネットワーク ：
+        - オレンジ: `#FF5C00`
+        - 黒: `#000000`
+        - 白: `#FFFFFF`
+
+チュートリアルの投稿に技術的な問題がある場合は、遠慮なく[投稿専用のTelegramグループ](https://t.me/PlanBNetwork_ContentBuilder)に助けを求めてください。ありがとうございました！

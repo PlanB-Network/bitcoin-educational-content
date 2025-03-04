@@ -53,7 +53,7 @@ Pour la création de schémas et visuels :
 - Synchronisez la branche principale (`dev`) de votre fork avec le dépôt source.
 - Mettez à jour votre clone local.
 
-```bash
+```
 # Cloner votre fork (si ce n'est pas déjà fait)
 git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
 cd bitcoin-educational-content
@@ -80,7 +80,7 @@ git push origin dev
 - Créez une nouvelle branche avec un nom descriptif (par exemple : `tuto-green-wallet-loic`).
 - Publiez cette branche sur votre fork en ligne.
 
-```bash
+```
 # Assurez-vous d’être sur la branche 'dev'
 git checkout dev
 
@@ -108,7 +108,7 @@ Si vous préférez le faire manuellement, suivez ces étapes :
     - Un fichier `tutorial.yml` contenant les métadonnées (auteur, tags, catégorie, niveau de difficulté, etc.).
     - Un fichier Markdown contenant le tutoriel, nommé selon le code de la langue (ex. : `fr.md`, `en.md`, etc.).
 
-```bash
+```
 # Positionnez-vous dans le dossier approprié
 cd tutorials/wallet
 
@@ -130,7 +130,7 @@ touch tutorial.yml en.md
 
 - Complétez le fichier `tutorial.yml` en suivant ce modèle :
 
-```yaml
+```
 id: 
 
 project_id: 
@@ -157,7 +157,7 @@ proofreading:
     contributors_id:
       - 
     reward:
-````
+```
 
 Voici le détail des champs obligatoires :
 
@@ -191,7 +191,7 @@ Pour davantage de détails sur votre identifiant de professeur, reportez-vous au
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 
-```yaml
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
 
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
@@ -227,7 +227,7 @@ proofreading:
     - Une courte description (`description`).
 - Ajoutez l’image de couverture en haut du tutoriel avec la syntaxe Markdown (remplacez "green" par le nom de l’outil présenté) :
 
-```markdown
+```
 ![cover-green](assets/cover.webp)
 ```
 
@@ -235,7 +235,7 @@ proofreading:
     - Utilisez des titres bien structurés (`##`), des listes et des paragraphes.
     - Insérez des visuels avec la syntaxe Markdown :
 
-```markdown
+```
 ![nom-image](assets/en/001.webp)
 ```
 
@@ -246,7 +246,7 @@ proofreading:
 - Enregistrez vos modifications localement en créant un commit avec un message descriptif.
 - Poussez les changements sur votre fork GitHub.
 
-```bash
+```
 # Créez un commit avec un message descriptif
 git commit -m "Ajout du tutoriel green-wallet"
 
@@ -262,7 +262,7 @@ git push origin tuto-green-wallet-loic
 - Attendez la validation ou les retours d’un administrateur.
 - Si nécessaire, effectuez des corrections et poussez de nouveaux commits.
 
-```bash
+```
 # Créez un commit décrivant les corrections apportées
 git commit -m "Corrections suite à la revue du tutoriel green-wallet"
 
@@ -280,7 +280,7 @@ git push origin tuto-green-wallet-loic
     - Code inline : Syntaxe avec un seul backtick.
     - Blocs de code : Syntaxe avec trois backtick, par exemple :
 
-```python
+```
 print("Hello, Bitcoin!")
 ```
 

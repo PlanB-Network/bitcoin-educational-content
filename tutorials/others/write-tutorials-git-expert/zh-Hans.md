@@ -14,7 +14,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 - 通过 [Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder) 或 paolo@planb.network 与计划 ₿ 网络团队联系；
 - 选择您的捐助工具。
 
-在这篇面向资深 Git 用户的教程中，我们将简要总结提供新计划₿ 网络教程的关键步骤和基本准则。如果您对 Git 和 GitHub 不熟悉，我建议您参考另外两个更详细的教程，它们将一步一步地教您：
+在这篇面向资深 Git 用户的教程中，我们将简要总结提供新计划 ₿ 网络教程的关键步骤和基本准则。如果您对 Git 和 GitHub 不熟悉，我建议您参考另外两本更详细的教程，它们将一步一步地指导您：
 
 
 - 中级（GitHub 桌面）** ：
@@ -63,7 +63,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-web-b
 - 将分叉的主分支 (`dev`) 与源代码版本库同步。
 - 更新本地克隆。
 
-```bash
+```
 # Cloner votre fork (si ce n'est pas déjà fait)
 git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
 cd bitcoin-educational-content
@@ -86,7 +86,7 @@ git push origin dev
 - 创建一个新分支，并使用一个描述性的名称（如 `tuto-green-wallet-loic`）。
 - 在您的在线分叉上发布该分支。
 
-```bash
+```
 # Assurez-vous d’être sur la branche 'dev'
 git checkout dev
 # Créez une nouvelle branche avec un nom descriptif
@@ -113,7 +113,7 @@ git push -u origin tuto-green-wallet-loic
     - 包含元数据（作者、标签、类别、难度等）的 `tutorial.yml` 文件。
     - 包含教程的 Markdown 文件，根据语言代码命名（如 `fr.md`、`en.md` 等）。
 
-```bash
+```
 # Positionnez-vous dans le dossier approprié
 cd tutorials/wallet
 # Créez le répertoire dédié au tutoriel
@@ -132,7 +132,7 @@ touch tutorial.yml en.md
 
 - 按如下方式完成 `tutorial.yml` 文件：
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -152,127 +152,136 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Voici le détail des champs obligatoires :
-- **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
-- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
-- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
-- **level** : Le niveau de difficulté du tutoriel, parmi :
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
-- **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
-- **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
-- **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
-- **last_contribution_date** : Date du jour.
-- **urgency** : Laissez vide.
-- **contributors_id** : Votre ID GitHub.
-- **reward** : Laissez vide.
-Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
+```
+
+以下是必填字段：
+
+
+- id**：UUID（通用唯一标识符），用于唯一标识教程。您可以使用[在线工具](https://www.uuidgenerator.net/version4)生成它。唯一的限制是该 UUID 必须是随机的，以免与平台上的其他 UUID 冲突；
+- project_id** ：教程中介绍的工具背后的公司或组织的 UUID[来自项目列表](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果你正在做一个关于绿色钱包软件的教程，你可以在以下文件中找到这个 `project_id` ：bitcoin-educational-content/resources/projects/blockstream/project.yml`。之所以在教程的 YAML 文件中添加此信息，是因为 Plan ₿ Network 维护着一个所有在比特币或相关项目上运营的公司和组织的数据库。将链接实体的 `project_id` 添加到您的教程中，就在两个元素之间建立了链接；
+- 标签**：从计划₿ 网络标签列表]中专门选择 2 或 3 个与教程内容相关的关键字(https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)；
+- 类别** ：根据计划₿ 网络结构（例如钱包："桌面"、"硬件"、"移动"、"备份"），与教程内容相对应的子类别；
+- 级别** ：教程难度级别，从 ：
+    - 初学者
+    - 中级
+    - 高级
+    - 专家
+- 教授**：您在[您的教师简介](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors)中显示的 "贡献者 ID"（BIP39 字样）；
+- original_language** ：教程的原始语言（如`fr`、`en`等）；
+- 校对**：有关校对过程的信息。填写第一部分，因为校对自己的教程也算第一次验证：
+    - 语言**：校对语言代码（如`fr`、`en`等）。
+    - last_contribution_date**：今天的日期。
+    - 紧迫性** ：留空。
+    - contributors_id** ：您的 GitHub ID。
+    - 奖励** ：留空。
+
+有关教师 ID 的详细信息，请参阅相应的教程 ：
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 ```
-
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
-project_id：3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-标签
-
-
-  - 钱包
-  - 软件
-  - 钥匙
-
-类别：移动
-
-级别：初级
-
-学分
-
-教授：pretty-private
-
-# 校对元数据
-
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
 original_language: fr
-
-校对：
-
-
-  - 语言：法语
-
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-紧迫性：
-
-贡献者_id：
-
-
-      - LoicPandul
-
-奖励：
-
-```
-### 5 - Rédigez le contenu
-- Complétez les propriétés du fichier Markdown avec :
-- Le titre (`name`).
-- Une courte description (`description`).
-- Ajoutez l’image de couverture en haut du tutoriel avec la syntaxe Markdown (remplacez "green" par le nom de l’outil présenté) :
+urgency:
+contributors_id:
+- LoicPandul
+reward:
 ```
 
+### 5 - 撰写内容
+
+
+- 用......完成 Markdown 文件属性：
+    - 标题（`name`）。
+    - 简短描述 (`description`)。
+- 使用 Markdown 语法在教程顶部添加封面图片（用显示的工具名称替换 "绿色"）：
+
+```
 ![cover-green](assets/cover.webp)
-
-```
-- Rédigez le contenu du tutoriel en Markdown :
-- Utilisez des titres bien structurés (`##`), des listes et des paragraphes.
-- Insérez des visuels avec la syntaxe Markdown :
 ```
 
+
+- 用 Markdown 编写教程内容：
+    - 使用结构合理的标题 (`##`)、列表和段落。
+    - 使用 Markdown 语法插入视觉效果：
+
+```
 ![nom-image](assets/en/001.webp)
-
-```
-- Placez les schémas et images dans le sous-dossier de langue correspondant, dans `/assets`.
-### 6 - Enregistrez et soumettez le tutoriel
-- Enregistrez vos modifications localement en créant un commit avec un message descriptif.
-- Poussez les changements sur votre fork GitHub.
 ```
 
-# 创建带有描述性信息的提交
 
-git commit -m "添加绿色钱包教程"
+- 将图表和图像放入`/assets`中相应的语言子文件夹。
 
-# 将改良品推到叉子上
+### 6 - 保存并提交教程
 
+
+- 创建带有说明性信息的提交，将更改保存到本地。
+- 将更改推送到 GitHub 分支。
+
+```
+# Créez un commit avec un message descriptif
+git commit -m "Ajout du tutoriel green-wallet"
+# Poussez vos modifications sur votre fork
 git push origin tuto-green-wallet-loic
-
-```
-- Une fois terminé, créez une Pull Request (PR) sur GitHub pour proposer l’intégration de vos modifications.
-- Ajoutez un titre et une brève description à la PR. Mentionnez le numéro d’issue correspondant dans le commentaire.
-### 7 - Relecture et fusion
-- Attendez la validation ou les retours d’un administrateur.
-- Si nécessaire, effectuez des corrections et poussez de nouveaux commits.
 ```
 
-# 创建一个提交，描述所做的更正
 
-git commit -m "审查绿色钱包教程后的更正"
+- 完成后，在 GitHub 上创建一个拉取请求 (PR)，提议整合您的修改。
+- 为 PR 添加标题和简要说明。在注释中注明相应的问题编号。
 
-# 推动叉子修正
+### 7 - 校对与合并
 
+
+- 等待管理员的确认或反馈。
+- 如有必要，进行修改并推送新的提交。
+
+```
+# Créez un commit décrivant les corrections apportées
+git commit -m "Corrections suite à la revue du tutoriel green-wallet"
+# Poussez les corrections sur votre fork
 git push origin tuto-green-wallet-loic
-
-```
-- Une fois la PR fusionnée, vous pouvez supprimer votre branche de travail.
-## Normes de création de contenu
-- **Formatage supporté sur la plateforme** :
-- Markdown classique : listes, liens, images, citations, gras, italique, etc.
-- LaTeX (en bloc uniquement, pas inline) : délimité par `$$`.
-- Code inline : Syntaxe avec un seul backtick.
-- Blocs de code : Syntaxe avec trois backtick, par exemple :
 ```
 
+
+- 合并 PR 后，就可以删除工作分支了。
+
+## 内容创建标准
+
+
+- 平台支持的格式** ：
+    - 经典 Markdown：列表、链接、图片、引号、粗体、斜体等。
+    - LaTeX（仅限块，非内联）：以 `$$` 分隔。
+    - 内联代码：带有单个回车键的语法。
+    - 代码块：带有三个反标点的语法，例如 ：
+
+```
 print("Hello, Bitcoin!")
-
 ```
+
+
+- 插图和图表** ：
+    - 所有图片必须为 WebP 格式。如有需要，请使用此免费工具进行转换：[ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
+    - 用 2 或 3 个数字为视觉效果命名（如 `001.webp`、`002.webp`）。
+    - 对于手机或硬件钱包教程，请使用模型。
+    - 仅使用自制或免版税的视觉效果。
+    - 确保它们具有相关性和高质量。
+- 图形章程** ：
+    - 字体：[Rubik](https://fonts.google.com/specimen/Rubik).
+    - 颜色计划 ₿ 网络 ：
+        - 橙色：`#FF5C00
+        - 黑色：`#000000
+        - 白色： `#FFFFFF
+
+如果您在提交教程时遇到技术问题，请不要犹豫，在[我们专门的 Telegram 投稿群组](https://t.me/PlanBNetwork_ContentBuilder)上寻求帮助。非常感谢！

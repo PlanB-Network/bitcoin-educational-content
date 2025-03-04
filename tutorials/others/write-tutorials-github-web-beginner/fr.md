@@ -91,7 +91,7 @@ Dans ce nouveau sous-dossier dédié à votre tutoriel, il faut ajouter plusieur
 
 Pour résumer, voici la hiérarchie des fichiers (nous allons continuer de les créer dans la prochaine section) :
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (à modifier avec la bonne catégorie)
@@ -110,7 +110,7 @@ Commençons par le fichier YAML. Dans la case de création d'un nouveau fichier,
 
 Remplissez le fichier `tutorial.yml` en copiant le modèle suivant :
 
-```yaml
+```
 id: 
 
 project_id: 
@@ -137,7 +137,7 @@ proofreading:
     contributors_id:
       - 
     reward:
-````
+```
 
 Voici le détail des champs obligatoires :
 
@@ -172,7 +172,7 @@ https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9b
 
 Voici un exemple de fichier `tutorial.yml` complété pour un tutoriel sur le wallet Blockstream Green :
 
-```yaml
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
 
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
@@ -247,7 +247,7 @@ Nommez le fichier en utilisant le code de votre langue. Dans mon cas, le tutorie
 
 Nous commençons par remplir la section `Properties` en haut du document. Ajoutez manuellement et remplissez le bloc de code suivant (les clés `name:` et `description:` doivent être conservées en anglais, mais leur valeur doit être rédigée dans la langue utilisée pour votre tutoriel) :
 
-```markdown
+```
 ---
 name: [Titre]
 description: [Description]
@@ -262,7 +262,7 @@ Remplissez le nom de votre tutoriel ainsi qu'une courte description de celui-ci 
 
 Ajoutez ensuite le chemin de l'image de couverture au début de votre tutoriel. Pour ce faire, notez :
 
-```markdown
+```
 ![cover-green](assets/cover.webp)
 ```
 
@@ -334,7 +334,7 @@ Enregistrez vos modifications en cliquant sur "*Commit changes...*".
 
 Pour insérer un schéma présent dans votre sous-dossier dans votre document de rédaction, utilisez la commande Markdown suivante, en prenant soin de spécifier le texte alternatif approprié ainsi que le chemin correct de l'image en fonction de votre langue :
 
-```markdown
+```
 ![green](assets/fr/01.webp)
 ```
 

@@ -172,9 +172,12 @@ Nüüd võite vahele jätta alajaotuse "Ilma minu Python-skriptita" ja ka 3. sam
 
 Lisateavet selle Python-skripti kohta leiate ka [README-failist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-### Sans mon script Python
-Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
-Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+### Ilma minu Python skriptita
+
+Avage oma failihaldur ja navigeerige kausta `bitcoin-educational-content`, mis on teie repositooriumi kohalik kloon. Tavaliselt peaksite selle leidma asukohast `Documents\GitHub\bitcoin-educational-content`.
+
+Selles kataloogis peate leidma sobiva alamkausta, kuhu oma õpetus paigutada. Kaustade struktuur peegeldab Plan ₿ Network veebisaidi erinevaid sektsioone. Meie näites, kuna soovime lisada õpetuse Sparrow Walleti kohta, peaksime minema järgmisele teele: `bitcoin-educational-content\tutorials\wallet`, mis vastab veebisaidi `WALLET` sektsioonile:
+
 ![TUTO](assets/fr/12.webp)
 
 Kausta `wallet` sees tuleb luua uus kataloog, mis on spetsiaalselt pühendatud teie õpetusele. Selle kausta nimi peaks meenutama õpetuses käsitletavat tarkvara, ühendades sõnad kindlasti kriipsudega. Minu näite puhul saab kausta pealkirjaks `sparrow-wallet`:

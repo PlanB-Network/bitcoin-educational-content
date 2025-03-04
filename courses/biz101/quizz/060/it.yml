@@ -1,7 +1,7 @@
-question: Qual è il requisito hardware principale di un profilo Starter per accettare pagamenti in Bitcoin?
+question: Qual è il requisito hardware principale di un profilo Starter per accettare pagamenti in bitcoin?
 answer: Uno smartphone
 wrong_answers:
-  - Un miner di Bitcoin ASIC
+  - Un miner ASIC di Bitcoin
   - Un portafoglio hardware
   - Un server self-hosted
 explanation: |

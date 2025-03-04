@@ -172,9 +172,12 @@ Ora puoi saltare la sottosezione "Senza il mio script Python", così come il pas
 
 Per maggiori informazioni su questo script Python, puoi consultare il [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-### Sans mon script Python
-Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
-Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+### Senza il mio script Python
+
+Apri il tuo gestore di file e vai alla cartella `bitcoin-educational-content`, che rappresenta il clone locale del tuo repository. Normalmente, dovresti trovarla in `Documents\GitHub\bitcoin-educational-content`.
+
+All'interno di questa directory, dovrai individuare la sottocartella appropriata per posizionare il tuo tutorial. L'organizzazione delle cartelle riflette le diverse sezioni del sito web di Plan ₿ Network. Nel nostro esempio, poiché vogliamo aggiungere un tutorial su Sparrow Wallet, dovremmo accedere al seguente percorso: `bitcoin-educational-content\tutorials\wallet`, che corrisponde alla sezione `WALLET` del sito web:
+
 ![TUTO](assets/fr/12.webp)
 
 All'interno della cartella `wallet`, è necessario creare una nuova cartella specificamente dedicata all'esercitazione. Il nome di questa cartella dovrebbe evocare il software trattato nel tutorial, assicurandosi di collegare le parole con dei trattini. Nel mio esempio, la cartella sarà intitolata `sparrow-wallet`:

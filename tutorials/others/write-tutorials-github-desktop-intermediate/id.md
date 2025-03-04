@@ -172,9 +172,12 @@ Anda sekarang dapat melewati subbagian "Tanpa skrip Python saya", serta langkah 
 
 Untuk informasi lebih lanjut tentang skrip Python ini, Anda juga dapat membaca [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-### Sans mon script Python
-Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
-Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+### Tanpa skrip Python saya
+
+Buka pengelola file Anda dan navigasikan ke folder `bitcoin-educational-content`, yang merupakan klon lokal dari repositori Anda. Biasanya, Anda dapat menemukannya di `Documents\GitHub\bitcoin-educational-content`.
+
+Di dalam direktori ini, Anda perlu menemukan subfolder yang sesuai untuk meletakkan tutorial Anda. Struktur folder mencerminkan berbagai bagian dari situs web Plan ₿ Network. Dalam contoh ini, karena kami ingin menambahkan tutorial tentang Sparrow Wallet, navigasikan ke jalur berikut: `bitcoin-educational-content\tutorials\wallet`, yang sesuai dengan bagian `WALLET` di situs web:
+
 ![TUTO](assets/fr/12.webp)
 
 Di dalam folder `wallet`, Anda perlu membuat direktori baru yang secara khusus didedikasikan untuk tutorial Anda. Nama folder ini harus menunjukkan perangkat lunak yang dibahas dalam tutorial, pastikan untuk menghubungkan kata-kata dengan tanda hubung. Dalam contoh saya, folder ini akan diberi nama `dompet-pelangi`:

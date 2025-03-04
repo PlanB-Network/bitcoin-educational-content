@@ -98,86 +98,83 @@ Nå som arbeidsgrenen er opprettet, er det på tide å integrere den nye opplær
 ### Med Python-skriptet mitt
 
 Du må installere på maskinen din:
+- Python 3.8 eller nyere.
 
+For å bruke skriptet, naviger til mappen der det er lagret. Skriptet ligger i Plan ₿ Network sitt datalager under banen: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
-- Python 3.8 eller nyere;
-- De nødvendige avhengighetene for skriptet. Utfør:
-
-```bash
-pip install customtkinter appdirs
-```
-
-For å bruke skriptet går du til mappen der det er lagret. Skriptet ligger i Plan ₿ Network data repository under banen: `bitcoin-educational-content/scripts/tutorial-related/new-tutorial-creation/`.
-
-Når du er i mappen, utfører du kommandoen:
+Når du er i mappen, installer avhengighetene:
 
 ```bash
-python new-tutorial-creation.py
+pip install -r requirements.txt
 ```
 
-Et grafisk brukergrensesnitt (GUI) åpnes. Første gang må du legge inn all nødvendig informasjon, men ved senere bruk av skriptet vil de personlige opplysningene dine bli husket, slik at du slipper å legge dem inn på nytt.
+Deretter starter du programvaren med følgende kommando:
 
-![TUTORIAL](assets/fr/37.webp)
+```bash
+python3 main.py
+```
 
-Begynn med å angi den lokale banen som fører til mappen `/tutorials` på klonen din av depotet (`.../bitcoin-educational-content/tutorials/`). Du kan notere den manuelt eller klikke på "Bla gjennom"-knappen for å navigere gjennom filutforskeren din.
+Et grafisk brukergrensesnitt (GUI) vil åpnes. Første gang må du fylle inn all nødvendig informasjon, men ved senere bruk vil skriptet huske dine personlige opplysninger, slik at du slipper å skrive dem inn på nytt.
 
-![TUTORIAL](assets/fr/38.webp)
+![DATA-CREATOR-PY](assets/fr/37.webp)
 
-Velg språket du vil skrive opplæringen på.
+Start med å angi den lokale banen til `/tutorials`-mappen i din klon av repositoriet (`.../bitcoin-educational-content/tutorials/`). Du kan skrive den inn manuelt eller klikke på "Browse"-knappen for å navigere via filutforskeren.
 
-![TUTORIAL](assets/fr/39.webp)
+![DATA-CREATOR-PY](assets/fr/38.webp)
 
-Velg en hovedkategori for opplæringen din.
+Velg språket du skal skrive opplæringen din på.
 
-![TUTORIAL](assets/fr/40.webp)
+![DATA-CREATOR-PY](assets/fr/39.webp)
 
-Deretter velger du en passende underkategori, avhengig av hovedkategorien du har valgt.
+I feltet "Contributor's GitHub ID", skriv inn ditt GitHub-brukernavn.
 
-![TUTORIAL](assets/fr/41.webp)
+![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Bestem en vanskelighetsgrad for opplæringen.
+I feltet "PBN professor's ID", skriv inn din identifikator ved hjelp av ordene fra BIP39-listen, slik det vises på [din professorprofil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
 
-![TUTORIAL](assets/fr/42.webp)
+![DATA-CREATOR-PY](assets/fr/41.webp)
 
-Velg navnet på katalogen som er opprettet spesielt for opplæringen. Navnet på denne mappen bør gjenspeile programvaren som dekkes i opplæringen, og du bør bruke bindestreker for å koble sammen ordene. Mappen kan for eksempel hete `red-wallet`:
-
-![TUTO](assets/fr/43.webp)
-
-Prosjekt-ID er UUID-en til selskapet eller organisasjonen som står bak verktøyet som presenteres i veiledningen, tilgjengelig [i listen over prosjekter] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, for en veiledning om Sparrow Wallet-programvaren, vil du finne denne `project_id` i filen: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Denne informasjonen er lagt til i YAML-filen til opplæringen din fordi Plan ₿ Network vedlikeholder en database over selskaper og organisasjoner som er aktive i Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` knyttet til opplæringen din, oppretter du en kobling mellom innholdet ditt og den aktuelle enheten.
-
-***I den nye versjonen av skriptet trenger du ikke lenger å skrive inn `project_id` manuelt. Det er lagt til en søkefunksjon som finner prosjektet ved hjelp av prosjektnavnet og automatisk henter det tilsvarende `project_id`. Skriv inn begynnelsen av prosjektnavnet i boksen "Prosjektnavn" for å søke etter det, og velg deretter ønsket selskap fra rullegardinmenyen. Prosjektnummeret fylles automatisk ut i boksen nedenfor. Du har også mulighet til å notere det manuelt om nødvendig.
-
-![TUTO](assets/fr/44.webp)
-
-For tagger velger du to eller tre relevante nøkkelord som er relatert til innholdet i opplæringen din, og du velger dem utelukkende [fra listen over Plan ₿ Nettverkstagger] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md).
-
-![TUTO](assets/fr/45.webp)
-
-I boksen "Contributor's GitHub ID" skriver du inn GitHub-ID-en din.
-
-![TUTO](assets/fr/46.webp)
-
-I feltet "PBN professor's ID" skriver du inn ID-en din ved å bruke ordene fra BIP39-listen, slik den vises på [din professorprofil] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
-
-![TUTO](assets/fr/47.webp)
-
-Hvis du vil ha mer informasjon om professor-ID-en din, kan du se følgende veiledning:
+Hvis du ikke har en professorprofil ennå, sjekk ut denne opplæringen:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Når all informasjon er lagt inn og bekreftet, klikker du på "Opprett opplæring" for å bekrefte opprettelsen av opplæringsfilene. Dette vil generere en lokal mappe for opplæringen og alle nødvendige filer i den valgte kategorimappen.
 
-![TUTO](assets/fr/48.webp)
+Klikk deretter på knappen "New Tutorial".
 
-Du kan nå hoppe over underavsnittet "Uten Python-skriptet mitt", samt trinn 3 "Utfylling av YAML-filen", fordi skriptet allerede har utført disse handlingene automatisk for deg. Gå direkte til trinn 4 og begynn å skrive opplæringen.
+![DATA-CREATOR-PY](assets/fr/42.webp)
 
-Hvis du vil ha mer informasjon om dette Python-skriptet, kan du også [se README] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Velg en hovedkategori for opplæringen din. Deretter velger du en passende underkategori basert på hovedkategorien du valgte.
 
-### Uten Python-skriptet mitt
+![DATA-CREATOR-PY](assets/fr/43.webp)
 
-Åpne filbehandleren og naviger til mappen `bitcoin-educational-content`, som representerer den lokale klonen av repositoriet ditt. Du finner den normalt under `Documents\GitHub\bitcoin-educational-content`.
+Bestem vanskelighetsgraden for opplæringen.
 
-I denne katalogen må du finne den riktige undermappen for å plassere opplæringen din. Organiseringen av mappene gjenspeiler de ulike delene av Plan ₿ Network-nettstedet. I vårt eksempel, siden vi ønsker å legge til en opplæring om Sparrow Wallet, er det hensiktsmessig å gå til følgende sti: `bitcoin-educational-content\tututorials\wallet`, som tilsvarer `WALLET`-delen på nettstedet:
+![DATA-CREATOR-PY](assets/fr/44.webp)
 
+Velg navnet på katalogen som er opprettet spesielt for opplæringen din. Navnet på denne mappen bør reflektere programvaren som dekkes i opplæringen og bruke bindestreker for å skille ordene. For eksempel kan mappen hete `red-wallet`:
+
+![DATA-CREATOR-PY](assets/fr/45.webp)
+
+`project_id` er UUID-en til selskapet eller organisasjonen bak verktøyet som dekkes i opplæringen, tilgjengelig [i listen over prosjekter](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, for en opplæring om Sparrow Wallet, finner du `project_id` i filen: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Denne informasjonen legges til i YAML-filen for opplæringen din, fordi Plan ₿ Network opprettholder en database over selskaper og organisasjoner som er aktive innen Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` kobler du innholdet ditt til den relevante enheten.
+
+***Oppdatering:*** I den nye versjonen av skriptet trenger du ikke lenger å skrive inn `project_id` manuelt. En søkefunksjon er lagt til for å finne prosjektet etter navn og automatisk hente den tilsvarende `project_id`. Skriv inn begynnelsen av prosjektnavnet i feltet "Project Name" for å søke etter det, og velg deretter ønsket selskap fra rullegardinmenyen. `project_id` vil automatisk fylles ut i feltet under. Du kan også skrive det inn manuelt om nødvendig.
+
+![DATA-CREATOR-PY](assets/fr/46.webp)
+
+For tagger, velg 2 eller 3 relevante nøkkelord relatert til innholdet i opplæringen din, og velg dem utelukkende fra [Plan ₿ Networks tagliste](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Programvaren har også en søkefunksjon med en rullegardinliste.
+
+![DATA-CREATOR-PY](assets/fr/47.webp)
+
+Når all informasjon er fylt inn og verifisert, klikk på "Create Tutorial" for å bekrefte opprettelsen av filene til opplæringen din. Dette vil lokalt generere opplæringsmappen din og alle nødvendige filer innenfor den valgte kategorien.
+
+![DATA-CREATOR-PY](assets/fr/48.webp)
+
+Du kan nå hoppe over underseksjonen "Uten Python-skriptet mitt", samt trinn 3 "Fylle ut YAML-filen", siden skriptet allerede har fullført disse handlingene automatisk for deg. Gå direkte til trinn 4 og begynn å skrive opplæringen din.
+
+For mer informasjon om dette Python-skriptet, kan du også lese [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+
+### Sans mon script Python
+Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
+Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
 ![TUTO](assets/fr/12.webp)
 
 I mappen `wallet` må du opprette en ny mappe som er spesielt dedikert til opplæringen din. Navnet på denne mappen skal minne om programvaren som dekkes i opplæringen, og du må sørge for å koble sammen ord med bindestreker. I mitt eksempel vil mappen hete `sparrow-wallet`:

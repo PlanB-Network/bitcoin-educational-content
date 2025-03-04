@@ -97,87 +97,84 @@ Ora che il ramo di lavoro è stato creato, è il momento di integrare il nuovo t
 
 ### Con il mio script Python
 
-È necessario installarlo sul proprio computer:
+Devi installare sulla tua macchina:
+- Python 3.8 o superiore.
 
+Per utilizzare lo script, vai nella cartella in cui è memorizzato. Lo script si trova nel repository di dati di Plan ₿ Network nel percorso: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
-- Python 3.8 o superiore;
-- Le dipendenze necessarie per lo script. Eseguire:
-
-```bash
-pip install customtkinter appdirs
-```
-
-Per utilizzare lo script, accedere alla cartella in cui è memorizzato. Lo script si trova nel repository dei dati della rete Plan ₿ nel percorso: `bitcoin-educational-content/scripts/tutorial-related/new-tutorial-creation/`.
-
-Una volta nella cartella, eseguite il comando:
+Una volta nella cartella, installa le dipendenze:
 
 ```bash
-python new-tutorial-creation.py
+pip install -r requirements.txt
 ```
 
-Si aprirà un'interfaccia grafica (GUI). La prima volta è necessario inserire tutte le informazioni necessarie, ma durante i successivi utilizzi dello script, le informazioni personali verranno ricordate, evitando così di doverle inserire nuovamente.
+Quindi avvia il software con il comando:
 
-![TUTORIAL](assets/fr/37.webp)
+```bash
+python3 main.py
+```
 
-Iniziate indicando il percorso locale che porta alla cartella `/tutorials` sul vostro clone del repository (`.../bitcoin-educational-content/tutorials/`). È possibile annotarlo manualmente o fare clic sul pulsante "Sfoglia" per navigare attraverso il proprio file explorer.
+Un'interfaccia grafica (GUI) si aprirà. La prima volta dovrai inserire tutte le informazioni necessarie, ma nelle successive esecuzioni lo script memorizzerà le tue informazioni personali, evitando di doverle reinserire ogni volta.
 
-![TUTORIAL](assets/fr/38.webp)
+![DATA-CREATOR-PY](assets/fr/37.webp)
 
-Selezionare la lingua in cui scrivere il tutorial.
+Inizia indicando il percorso locale alla cartella `/tutorials` nel tuo clone del repository (`.../bitcoin-educational-content/tutorials/`). Puoi inserirlo manualmente o fare clic sul pulsante "Browse" per navigare tramite il file explorer.
 
-![TUTORIAL](assets/fr/39.webp)
+![DATA-CREATOR-PY](assets/fr/38.webp)
 
-Scegliete una categoria principale per il vostro tutorial.
+Seleziona la lingua in cui scriverai il tuo tutorial.
 
-![TUTORIAL](assets/fr/40.webp)
+![DATA-CREATOR-PY](assets/fr/39.webp)
 
-Quindi, selezionare una sottocategoria appropriata, in base alla categoria principale scelta.
+Nel campo "Contributor's GitHub ID", inserisci il tuo identificativo GitHub.
 
-![TUTORIAL](assets/fr/41.webp)
+![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Determinare un livello di difficoltà per l'esercitazione.
+Nel campo "PBN professor's ID", inserisci il tuo identificativo utilizzando le parole della lista BIP39, come appare nel [tuo profilo professore](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
 
-![TUTORIAL](assets/fr/42.webp)
+![DATA-CREATOR-PY](assets/fr/41.webp)
 
-Scegliere il nome della cartella creata appositamente per l'esercitazione. Il nome di questa cartella deve riflettere il software trattato nell'esercitazione, usando i trattini per collegare le parole. Ad esempio, la cartella potrebbe chiamarsi `red-wallet`:
-
-![TUTO](assets/fr/43.webp)
-
-Il `project_id` è l'UUID dell'azienda o dell'organizzazione che sta dietro allo strumento presentato nel tutorial, disponibile [nell'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, per un tutorial sul software Sparrow Wallet, si può trovare questo `project_id` nel file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Questa informazione viene aggiunta al file YAML del vostro tutorial perché Plan ₿ Network mantiene un database di aziende e organizzazioni attive in Bitcoin o in progetti correlati. Aggiungendo il `project_id` associato alla propria esercitazione, si crea un collegamento tra il proprio contenuto e l'entità interessata.
-
-***Nella nuova versione dello script, non è più necessario inserire manualmente il `project_id`. È stata aggiunta una funzione di ricerca per trovare il progetto in base al suo nome e recuperare automaticamente il corrispondente `project_id`. Digitare l'inizio del nome del progetto nella casella "Nome progetto" per cercarlo, quindi selezionare la società desiderata dal menu a discesa. Il `project_id` verrà automaticamente inserito nella casella sottostante. Se necessario, è possibile annotarlo manualmente.
-
-![TUTO](assets/fr/44.webp)
-
-Per i tag, selezionare 2 o 3 parole chiave pertinenti al contenuto del tutorial, scegliendole esclusivamente [dall'elenco dei tag del Piano ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md).
-
-![TUTO](assets/fr/45.webp)
-
-Nella casella "ID GitHub del collaboratore", inserire il proprio ID GitHub.
-
-![TUTO](assets/fr/46.webp)
-
-Per il riquadro "ID professore PBN", inserire il proprio ID utilizzando le parole dell'elenco BIP39, così come appare sul [profilo del professore](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
-
-![TUTO](assets/fr/47.webp)
-
-Per maggiori dettagli sull'ID professore, consultare il seguente tutorial:
+Se non hai ancora un profilo da professore, consulta questo tutorial:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Una volta inserite e verificate tutte le informazioni, fare clic su "Crea tutorial" per convalidare la creazione dei file del tutorial. Questo genererà localmente la cartella del tutorial e tutti i file necessari nella cartella della categoria selezionata.
 
-![TUTO](assets/fr/48.webp)
+Quindi fai clic sul pulsante "New Tutorial".
 
-A questo punto si può saltare la sottosezione "Senza il mio script Python" e il passo 3 "Compilazione del file YAML", perché lo script ha già eseguito queste azioni automaticamente per voi. Passate direttamente al passo 4 e iniziate a scrivere il vostro tutorial.
+![DATA-CREATOR-PY](assets/fr/42.webp)
 
-Per ulteriori informazioni su questo script Python, si può anche [consultare il suo README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Scegli una categoria principale per il tuo tutorial. Quindi seleziona una sottocategoria appropriata in base alla categoria principale scelta.
 
-### Senza il mio script Python
+![DATA-CREATOR-PY](assets/fr/43.webp)
 
-Aprire il file manager e navigare nella cartella `bitcoin-educational-content`, che rappresenta il clone locale del repository. Di solito si trova sotto `Documents\GitHub\bitcoin-educational-content`.
+Determina il livello di difficoltà del tutorial.
 
-All'interno di questa cartella, sarà necessario individuare la sottocartella appropriata per inserire il proprio tutorial. L'organizzazione delle cartelle riflette le diverse sezioni del sito web di Plan ₿ Network. Nel nostro esempio, poiché vogliamo aggiungere un tutorial su Sparrow Wallet, è opportuno andare nel seguente percorso: `bitcoin-educational-content\tutorials\wallet` che corrisponde alla sezione `WALLET` del sito web:
+![DATA-CREATOR-PY](assets/fr/44.webp)
 
+Scegli il nome della directory creata appositamente per il tuo tutorial. Il nome di questa cartella dovrebbe riflettere il software trattato nel tutorial, utilizzando trattini per separare le parole. Ad esempio, la cartella potrebbe chiamarsi `red-wallet`:
+
+![DATA-CREATOR-PY](assets/fr/45.webp)
+
+Il `project_id` è l'UUID dell'azienda o organizzazione dietro lo strumento trattato nel tutorial, disponibile nell'[elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, per un tutorial su Sparrow Wallet, troverai il `project_id` nel file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Questa informazione viene aggiunta al file YAML del tuo tutorial perché Plan ₿ Network mantiene un database delle aziende e organizzazioni attive nel settore Bitcoin o in progetti correlati. Aggiungendo il `project_id` associato al tuo tutorial, crei un collegamento tra il tuo contenuto e l'entità corrispondente.
+
+***Aggiornamento:*** Nella nuova versione dello script, non è più necessario inserire manualmente il `project_id`. È stata aggiunta una funzione di ricerca per trovare il progetto in base al nome e recuperare automaticamente il `project_id` corrispondente. Digita l'inizio del nome del progetto nel campo "Project Name" per cercarlo, quindi seleziona l'azienda desiderata dal menu a discesa. Il `project_id` verrà compilato automaticamente nel campo sottostante. Puoi anche inserirlo manualmente se necessario.
+
+![DATA-CREATOR-PY](assets/fr/46.webp)
+
+Per i tag, seleziona 2 o 3 parole chiave pertinenti relative al contenuto del tuo tutorial, scegliendole esclusivamente dall'[elenco dei tag di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Il software offre anche una funzione di ricerca delle parole con un elenco a discesa.
+
+![DATA-CREATOR-PY](assets/fr/47.webp)
+
+Dopo aver inserito e verificato tutte le informazioni, fai clic su "Create Tutorial" per confermare la creazione dei file del tuo tutorial. Questo genererà localmente la cartella del tuo tutorial e tutti i file necessari all'interno della categoria selezionata.
+
+![DATA-CREATOR-PY](assets/fr/48.webp)
+
+Ora puoi saltare la sottosezione "Senza il mio script Python", così come il passo 3 "Compilare il file YAML", poiché lo script ha già eseguito automaticamente queste operazioni per te. Passa direttamente al passo 4 e inizia a scrivere il tuo tutorial.
+
+Per maggiori informazioni su questo script Python, puoi consultare il [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+
+### Sans mon script Python
+Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
+Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
 ![TUTO](assets/fr/12.webp)
 
 All'interno della cartella `wallet`, è necessario creare una nuova cartella specificamente dedicata all'esercitazione. Il nome di questa cartella dovrebbe evocare il software trattato nel tutorial, assicurandosi di collegare le parole con dei trattini. Nel mio esempio, la cartella sarà intitolata `sparrow-wallet`:

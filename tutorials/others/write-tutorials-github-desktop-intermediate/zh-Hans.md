@@ -97,87 +97,84 @@ https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b
 
 ### 使用我的 Python 脚本
 
-您需要在机器上安装：
+您需要在您的计算机上安装：
+- Python 3.8 或更高版本。
 
+要使用此脚本，请转到其存储的文件夹。该脚本位于 Plan ₿ Network 的数据存储库中，路径如下：`bitcoin-educational-content/scripts/tutorial-related/data-creator`。
 
-- Python 3.8 或更高版本；
-- 脚本的必要依赖项。执行：
-
-```bash
-pip install customtkinter appdirs
-```
-
-要使用脚本，请转到存放脚本的文件夹。该脚本位于 Plan ₿ Network 数据储存库的路径下：bitcoin-educational-content/scripts/tutorial-related/new-tutorial-creation/`。
-
-进入文件夹后，执行命令：
+进入文件夹后，安装依赖项：
 
 ```bash
-python new-tutorial-creation.py
+pip install -r requirements.txt
 ```
 
-此时将打开一个图形用户界面 (GUI)。第一次使用时，您需要输入所有必要的信息，但在以后使用该脚本时，您的个人信息将被记住，从而省去了再次输入的麻烦。
+然后使用以下命令启动软件：
 
-![TUTORIAL](assets/fr/37.webp)
+```bash
+python3 main.py
+```
 
-首先，在您的克隆版本库中指出通往 `/tutorials`文件夹的本地路径 (`.../bitcoin-educational-content/tutorials/`)。您可以手动记下，或者点击 "浏览 "按钮在文件资源管理器中导航。
+图形用户界面（GUI）将会打开。首次使用时，您需要输入所有必要的信息，但在后续使用中，脚本会记住您的个人信息，因此您无需再次输入。
 
-![TUTORIAL](assets/fr/38.webp)
+![DATA-CREATOR-PY](assets/fr/37.webp)
 
-选择编写教程所使用的语言。
+首先，输入您的克隆存储库中 `/tutorials` 文件夹的本地路径（`.../bitcoin-educational-content/tutorials/`）。您可以手动输入，也可以点击 "Browse" 按钮，通过文件管理器浏览选择。
 
-![TUTORIAL](assets/fr/39.webp)
+![DATA-CREATOR-PY](assets/fr/38.webp)
 
-为您的教程选择一个主要类别。
+选择您将使用的教程编写语言。
 
-![TUTORIAL](assets/fr/40.webp)
+![DATA-CREATOR-PY](assets/fr/39.webp)
 
-然后，根据您选择的主类别，选择适当的子类别。
+在 "Contributor's GitHub ID" 字段中，输入您的 GitHub 用户名。
 
-![TUTORIAL](assets/fr/41.webp)
+![DATA-CREATOR-PY](assets/fr/40.webp)
+
+在 "PBN professor's ID" 字段中，使用 BIP39 词表中的单词输入您的标识符，格式应与 [您的教授资料](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) 中显示的内容一致。
+
+![DATA-CREATOR-PY](assets/fr/41.webp)
+
+如果您还没有教授资料，请参考以下教程：
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
+然后点击 "New Tutorial" 按钮。
+
+![DATA-CREATOR-PY](assets/fr/42.webp)
+
+选择教程的主要类别。然后，根据所选主要类别，选择适当的子类别。
+
+![DATA-CREATOR-PY](assets/fr/43.webp)
 
 确定教程的难度级别。
 
-![TUTORIAL](assets/fr/42.webp)
+![DATA-CREATOR-PY](assets/fr/44.webp)
 
-选择专门为教程创建的目录名称。该文件夹的名称应反映教程中涉及的软件，使用破折号连接单词。例如，可将文件夹命名为 "red-wallet"：
+选择专门为您的教程创建的目录名称。此文件夹的名称应反映教程所涉及的软件，并使用连字符连接单词。例如，该文件夹可以命名为 `red-wallet`：
 
-![TUTO](assets/fr/43.webp)
+![DATA-CREATOR-PY](assets/fr/45.webp)
 
-project_id "是教程中介绍的工具背后的公司或组织的 UUID，可在[项目列表](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)中找到。例如，对于 Sparrow Wallet 软件的教程，您可以在文件中找到这个 `project_id` ：bitcoin-educational-content/resources/projects/sparrow/project.yml`。将此信息添加到教程的 YAML 文件中，是因为 Plan ₿ Network 维护着一个活跃于比特币或相关项目的公司和组织的数据库。通过添加与您的教程相关联的 `project_id` ，您可以在您的内容和相关实体之间创建一个链接。
+`project_id` 是教程涉及的软件背后的公司或组织的 UUID，可在 [项目列表](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) 中找到。例如，对于 Sparrow Wallet 的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/sparrow/project.yml`。此信息被添加到您的教程 YAML 文件中，因为 Plan ₿ Network 维护着一个数据库，其中包含活跃在比特币领域的公司及相关项目。通过在您的教程中添加 `project_id`，您可以将您的内容与相关实体建立联系。
 
-***更新：*** 在新版本的脚本中，您不再需要手动输入 `project_id`。新版本添加了搜索功能，可根据项目名称查找项目，并自动检索相应的 `project_id`。在 "项目名称 "框中键入项目名称的开头进行搜索，然后从下拉菜单中选择所需的公司。项目id "将自动填入下面的框中。如有必要，您也可以选择手动填写。
+***更新:*** 在最新版本的脚本中，您不再需要手动输入 `project_id`。已添加搜索功能，可根据项目名称查找项目并自动获取相应的 `project_id`。在 "Project Name" 字段中输入项目名称的开头以进行搜索，然后从下拉菜单中选择所需的公司。`project_id` 将自动填充到下方的字段中。如果需要，您仍然可以手动输入。
 
-![TUTO](assets/fr/44.webp)
+![DATA-CREATOR-PY](assets/fr/46.webp)
 
-对于标签，请从计划 ₿ 网络标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)中选择 2 或 3 个与教程内容相关的关键词。
+对于标签（tags），请选择 2 至 3 个与教程内容相关的关键字，并且必须从 [Plan ₿ Network 标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择。该软件还提供了关键字搜索功能，并带有下拉选择列表。
 
-![TUTO](assets/fr/45.webp)
+![DATA-CREATOR-PY](assets/fr/47.webp)
 
-在 "贡献者的 GitHub ID "框中，输入您的 GitHub ID。
+在输入和验证所有信息后，点击 "Create Tutorial" 以确认创建教程文件。这将在您的本地系统上生成教程文件夹以及所有必要的文件，并存放在所选类别下。
 
-![TUTO](assets/fr/46.webp)
+![DATA-CREATOR-PY](assets/fr/48.webp)
 
-在 "PBN 教授 ID "框中，使用 BIP39 列表中的单词输入您的 ID，该 ID 显示在[您的教授简介](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors)中。
+您现在可以跳过 "不使用 Python 脚本" 部分，以及第 3 步 "填写 YAML 文件"，因为脚本已经自动完成了这些步骤。请直接进入第 4 步，并开始撰写您的教程。
 
-![TUTO](assets/fr/47.webp)
+有关此 Python 脚本的更多信息，您还可以参考 [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)。
 
-有关教授 ID 的详细信息，请参阅以下教程：
-
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-输入并验证所有信息后，点击 "创建教程 "以验证教程文件的创建。这将在本地生成教程文件夹和所选类别文件夹中的所有必要文件。
-
-![TUTO](assets/fr/48.webp)
-
-现在您可以跳过 "不使用 Python 脚本 "小节和步骤 3 "填写 YAML 文件"，因为脚本已经自动为您执行了这些操作。直接进入第 4 步，开始编写教程。
-
-有关此 Python 脚本的更多信息，您还可以 [查看其 README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)。
-
-### 没有我的 Python 脚本
-
-打开你的文件管理器，导航到 `bitcoin-educational-content` 文件夹，它代表了你的仓库的本地克隆。通常您可以在 `Documents\GitHub\bitcoin-educational-content` 下找到它。
-
-在该目录中，需要找到适当的子文件夹来放置您的教程。文件夹的组织结构反映了 Plan ₿ Network 网站的不同部分。在我们的例子中，由于我们想添加关于麻雀钱包的教程，所以应该转到以下路径：bitcoin-educational-content/tutorials/wallet"，对应网站上的 "WALLET "部分：
-
+### Sans mon script Python
+Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
+Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
 ![TUTO](assets/fr/12.webp)
 
 您需要在 `wallet` 文件夹中新建一个目录，专门用于您的教程。该文件夹的名称应与教程中涉及的软件相呼应，确保用破折号将单词连接起来。在我的例子中，文件夹将命名为 `sparrow-wallet`：

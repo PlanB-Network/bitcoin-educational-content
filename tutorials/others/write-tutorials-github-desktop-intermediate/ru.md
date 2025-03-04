@@ -97,87 +97,84 @@ https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b
 
 ### С помощью моего скрипта Python
 
-Вам нужно установить его на свою машину:
+Вам необходимо установить на свой компьютер:
+- Python 3.8 или выше.
 
+Чтобы использовать скрипт, перейдите в папку, где он сохранён. Скрипт находится в репозитории данных Plan ₿ Network по следующему пути: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
-- Python 3.8 или выше;
-- Необходимые зависимости для скрипта. Выполнить:
-
-```bash
-pip install customtkinter appdirs
-```
-
-Чтобы использовать сценарий, перейдите в папку, где он хранится. Скрипт находится в хранилище данных Plan ₿ Network по пути: `bitcoin-educational-content/scripts/tutorial-related/new-tutorial-creation/`.
-
-Попав в папку, выполните команду:
+Оказавшись в папке, установите зависимости:
 
 ```bash
-python new-tutorial-creation.py
+pip install -r requirements.txt
 ```
 
-Откроется графический интерфейс пользователя (GUI). В первый раз вам нужно будет ввести всю необходимую информацию, но при последующих использованиях скрипта ваши личные данные будут запоминаться, что избавит вас от необходимости вводить их снова.
+Затем запустите программное обеспечение с помощью команды:
 
-![TUTORIAL](assets/fr/37.webp)
+```bash
+python3 main.py
+```
 
-Начните с указания локального пути, ведущего к папке `/tutorials` в вашем клоне репозитория (`.../bitcoin-educational-content/tutorials/`). Вы можете указать его вручную или нажать кнопку "Обзор", чтобы перейти через файловый проводник.
+Графический пользовательский интерфейс (GUI) откроется. В первый раз вам нужно будет ввести всю необходимую информацию, но при последующих запусках скрипт запомнит ваши личные данные, поэтому вводить их заново не потребуется.
 
-![TUTORIAL](assets/fr/38.webp)
+![DATA-CREATOR-PY](assets/fr/37.webp)
 
-Выберите язык, на котором вы будете писать учебник.
+Сначала укажите локальный путь к папке `/tutorials` в вашем клонированном репозитории (`.../bitcoin-educational-content/tutorials/`). Вы можете ввести его вручную или нажать кнопку "Browse", чтобы выбрать папку через проводник.
 
-![TUTORIAL](assets/fr/39.webp)
+![DATA-CREATOR-PY](assets/fr/38.webp)
 
-Выберите основную категорию для своего учебника.
+Выберите язык, на котором вы будете писать ваш учебник.
 
-![TUTORIAL](assets/fr/40.webp)
+![DATA-CREATOR-PY](assets/fr/39.webp)
 
-Затем выберите соответствующую подкатегорию в зависимости от выбранной вами основной категории.
+В поле "Contributor's GitHub ID" введите ваш идентификатор GitHub.
 
-![TUTORIAL](assets/fr/41.webp)
+![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Определите уровень сложности для учебника.
+В поле "PBN professor's ID" введите ваш идентификатор, используя слова из списка BIP39, как это указано в [вашем профиле профессора](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
 
-![TUTORIAL](assets/fr/42.webp)
+![DATA-CREATOR-PY](assets/fr/41.webp)
 
-Выберите имя каталога, специально созданного для вашего учебника. Имя этой папки должно отражать программное обеспечение, рассматриваемое в учебнике, с использованием тире для соединения слов. Например, папка может называться `red-wallet`:
-
-![TUTO](assets/fr/43.webp)
-
-`project_id` - это UUID компании или организации, стоящей за инструментом, представленным в учебнике, доступный [в списке проектов](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Например, для учебника по программному обеспечению Sparrow Wallet вы найдете этот `project_id` в файле: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Эта информация добавлена в YAML-файл вашего учебника, потому что Plan ₿ Network ведет базу данных компаний и организаций, активно работающих с Биткойном или связанными с ним проектами. Добавляя `project_id`, связанный с вашим учебником, вы создаете связь между вашим контентом и соответствующей организацией.
-
-***Обновление:*** В новой версии скрипта вам больше не нужно вручную вводить `project_id`. Была добавлена функция поиска проекта по его названию и автоматического получения соответствующего `project_id`. Введите начало названия проекта в поле "Название проекта", чтобы найти его, затем выберите нужную компанию из выпадающего меню. Идентификатор `project_id` будет автоматически заполнен в поле ниже. При необходимости вы также можете указать его вручную.
-
-![TUTO](assets/fr/44.webp)
-
-Для тегов выберите 2 или 3 релевантных ключевых слова, связанных с содержанием вашего учебника, выбирая их исключительно [из списка тегов Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md).
-
-![TUTO](assets/fr/45.webp)
-
-В поле "GitHub ID контрибьютора" введите свой GitHub ID.
-
-![TUTO](assets/fr/46.webp)
-
-В поле "ID профессора PBN" введите свой ID, используя слова из списка BIP39, как он отображается в [профиле вашего профессора](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
-
-![TUTO](assets/fr/47.webp)
-
-Для получения более подробной информации об идентификаторе профессора обратитесь к следующему руководству:
+Если у вас еще нет профиля профессора, ознакомьтесь с этим руководством:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-После того как вся информация введена и проверена, нажмите кнопку "Создать учебник", чтобы подтвердить создание файлов учебника. В результате локально будет создана папка с учебником и всеми необходимыми файлами в выбранной папке категории.
 
-![TUTO](assets/fr/48.webp)
+Затем нажмите кнопку "New Tutorial".
 
-Теперь вы можете пропустить подраздел "Без моего Python-скрипта", а также шаг 3 "Заполнение YAML-файла", поскольку скрипт уже выполнил эти действия за вас автоматически. Переходите непосредственно к шагу 4 и начинайте писать свой учебник.
+![DATA-CREATOR-PY](assets/fr/42.webp)
 
-Для получения дополнительной информации об этом Python-скрипте вы также можете [ознакомиться с его README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Выберите основную категорию для вашего учебника. Затем выберите подходящую подкатегорию в зависимости от выбранной основной категории.
 
-### Без моего скрипта Python
+![DATA-CREATOR-PY](assets/fr/43.webp)
 
-Откройте файловый менеджер и перейдите в папку `bitcoin-educational-content`, которая представляет собой локальный клон вашего репозитория. Обычно она находится в папке `Documents\GitHub\bitcoin-educational-content`.
+Определите уровень сложности учебника.
 
-В этой директории необходимо найти соответствующую подпапку для размещения вашего учебника. Организация папок отражает различные разделы сайта Plan ₿ Network. В нашем примере, поскольку мы хотим добавить учебник по кошельку Sparrow, следует перейти по следующему пути: `bitcoin-educational-content\tutorials\wallet`, что соответствует разделу `WALLET` на сайте:
+![DATA-CREATOR-PY](assets/fr/44.webp)
 
+Выберите название каталога, который будет создан специально для вашего учебника. Имя этой папки должно отражать программное обеспечение, рассматриваемое в учебнике, и использовать дефисы для разделения слов. Например, папку можно назвать `red-wallet`:
+
+![DATA-CREATOR-PY](assets/fr/45.webp)
+
+`project_id` — это UUID компании или организации, стоящей за инструментом, рассматриваемым в учебнике. Его можно найти [в списке проектов](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Например, для учебника о Sparrow Wallet вы найдете `project_id` в файле: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Эта информация добавляется в YAML-файл вашего учебника, так как Plan ₿ Network ведет базу данных компаний и организаций, работающих с Bitcoin и смежными проектами. Добавляя `project_id`, связанный с вашим учебником, вы создаете связь между вашим контентом и соответствующей организацией.
+
+***Обновление:*** В новой версии скрипта больше не требуется вводить `project_id` вручную. Добавлена функция поиска, позволяющая найти проект по названию и автоматически получить соответствующий `project_id`. Начните вводить название проекта в поле "Project Name" для поиска, затем выберите нужную компанию в выпадающем списке. `project_id` автоматически появится в поле ниже. При необходимости его можно ввести вручную.
+
+![DATA-CREATOR-PY](assets/fr/46.webp)
+
+Для тегов выберите 2–3 ключевых слова, связанных с содержанием вашего учебника, исключительно из [списка тегов Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Программное обеспечение также включает функцию поиска слов с выпадающим списком.
+
+![DATA-CREATOR-PY](assets/fr/47.webp)
+
+После ввода и проверки всей информации нажмите "Create Tutorial", чтобы подтвердить создание файлов вашего учебника. Локально будет сгенерирована папка учебника и все необходимые файлы в выбранной категории.
+
+![DATA-CREATOR-PY](assets/fr/48.webp)
+
+Теперь вы можете пропустить подраздел "Без моего Python-скрипта", а также шаг 3 "Заполнение YAML-файла", так как скрипт уже автоматически выполнил эти действия за вас. Перейдите сразу к шагу 4 и начните писать ваш учебник.
+
+Дополнительную информацию об этом Python-скрипте можно найти в [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+
+### Sans mon script Python
+Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
+Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
 ![TUTO](assets/fr/12.webp)
 
 В папке `wallet` необходимо создать новую директорию, специально предназначенную для вашего учебника. Название этой папки должно напоминать о программном обеспечении, о котором пойдет речь в учебнике, обязательно соединяя слова тире. В моем примере папка будет называться `parrow-wallet`:

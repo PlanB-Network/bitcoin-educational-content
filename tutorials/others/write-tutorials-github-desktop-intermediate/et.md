@@ -97,87 +97,84 @@ Nüüd, kui tööharu on loodud, on aeg integreerida oma uus õpetus. Teil on ka
 
 ### Minu Python skriptiga
 
-Sa pead installima oma masinasse:
+Peate oma arvutisse installima:
+- Python 3.8 või uuema versiooni.
 
+Skripti kasutamiseks minge kausta, kuhu see on salvestatud. Skript asub Plan ₿ Networki andmehoidlas järgmisel teel: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
-- Python 3.8 või uuem;
-- Skripti jaoks vajalikud sõltuvused. Käivita:
-
-```bash
-pip install customtkinter appdirs
-```
-
-Skripti kasutamiseks minge kausta, kus see on salvestatud. Skript asub teekonna Plan ₿ Network data repository all: `bitcoin-educational-content/scripts/tutorial-related/new-tutorial-creation/`.
-
-Kui olete kaustas, käivitage käsk:
+Kui olete kaustas, installige sõltuvused:
 
 ```bash
-python new-tutorial-creation.py
+pip install -r requirements.txt
 ```
 
-Avaneb graafiline kasutajaliides (GUI). Esimesel korral peate sisestama kogu vajaliku teabe, kuid skripti järgnevatel kasutuskordadel jääb teie isiklik teave meelde, mis säästab teid selle uuesti sisestamisest.
+Seejärel käivitage tarkvara järgmise käsuga:
 
-![TUTORIAL](assets/fr/37.webp)
+```bash
+python3 main.py
+```
 
-Alustage, märkides oma repositooriumi kloonimisel kohalik tee, mis viib kausta `/tutorials` (`.../bitcoin-educational-content/tutorials/`). Võite selle käsitsi märkida või klõpsata nupule "Browse", et navigeerida oma failiotsingumootori kaudu.
+Graafiline kasutajaliides (GUI) avaneb. Esmakordsel käivitamisel peate sisestama kõik vajalikud andmed, kuid järgmistel kasutuskordadel salvestab skript teie isikliku teabe, nii et te ei pea seda uuesti sisestama.
 
-![TUTORIAL](assets/fr/38.webp)
+![DATA-CREATOR-PY](assets/fr/37.webp)
 
-Valige keel, milles te oma õpetuse kirjutate.
+Alustage kohaliku tee sisestamisest `/tutorials` kausta teie kloonitud repositooriumis (`.../bitcoin-educational-content/tutorials/`). Selle saab sisestada käsitsi või klõpsata nupul "Browse", et sirvida seda failihalduris.
 
-![TUTORIAL](assets/fr/39.webp)
+![DATA-CREATOR-PY](assets/fr/38.webp)
 
-Valige oma õpetuse jaoks põhikategooria.
+Valige keel, milles hakkate oma õpetust kirjutama.
 
-![TUTORIAL](assets/fr/40.webp)
+![DATA-CREATOR-PY](assets/fr/39.webp)
 
-Seejärel valige sobiv alamkategooria sõltuvalt valitud põhikategooriast.
+Sisestage lahtrisse "Contributor's GitHub ID" oma GitHubi identifikaator.
 
-![TUTORIAL](assets/fr/41.webp)
+![DATA-CREATOR-PY](assets/fr/40.webp)
+
+Lahtrisse "PBN professor's ID" sisestage oma identifikaator, kasutades BIP39 loendi sõnu, nagu see on nähtav [teie professori profiilis](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+
+![DATA-CREATOR-PY](assets/fr/41.webp)
+
+Kui teil pole veel professori profiili, vaadake seda juhendit:
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
+Seejärel klõpsake nuppu "New Tutorial".
+
+![DATA-CREATOR-PY](assets/fr/42.webp)
+
+Valige oma õpetuse jaoks peamine kategooria. Seejärel valige vastavalt peamisele kategooriale sobiv alamkategooria.
+
+![DATA-CREATOR-PY](assets/fr/43.webp)
 
 Määrake õpetuse raskusaste.
 
-![TUTORIAL](assets/fr/42.webp)
+![DATA-CREATOR-PY](assets/fr/44.webp)
 
-Valige spetsiaalselt teie õpetuse jaoks loodud kataloogi nimi. Selle kausta nimi peaks kajastama õpetuses käsitletavat tarkvara, kasutades sidekriipsu sõnade ühendamiseks. Näiteks võiks kausta nimi olla `red-wallet`:
+Valige spetsiaalselt teie õpetuse jaoks loodud kausta nimi. Kausta nimi peaks kajastama õpetuses käsitletavat tarkvara ja sõnu tuleks eraldada sidekriipsudega. Näiteks võib kausta nimi olla `red-wallet`:
 
-![TUTO](assets/fr/43.webp)
+![DATA-CREATOR-PY](assets/fr/45.webp)
 
-`project_id` on [projektide nimekirjas](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) oleva ettevõtte või organisatsiooni UUID, mis seisab õpetuses esitatud tööriista taga. Näiteks Sparrow rahakoti tarkvara õpetuse puhul leiate selle `project_id` failist: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. See teave lisatakse teie õpetuse YAML-faili, sest Plan ₿ Network haldab andmebaasi Bitcoini või sellega seotud projektidega tegelevate ettevõtete ja organisatsioonide kohta. Lisades oma juhendmaterjaliga seotud `project_id`, loote lingi oma sisu ja asjaomase üksuse vahel.
+`project_id` on õpetuses käsitletava tööriista taga oleva ettevõtte või organisatsiooni UUID, mis on saadaval [projektide loendis](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks Sparrow Walleti õpetuse jaoks leiate `project_id` faili `bitcoin-educational-content/resources/projects/sparrow/project.yml` seest. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Network haldab Bitcoini või sellega seotud projektide aktiivsete ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusele seotud `project_id`, loote sisu ja vastava organisatsiooni vahelise seose.
 
-***Update:*** Skripti uues versioonis ei ole enam vaja käsitsi sisestada `project_id`. Lisatud on otsingufunktsioon, mis otsib projekti selle nime järgi ja hangib automaatselt vastava `project_id`. Projekti otsimiseks sisestage projekti nime algus lahtrisse `Projekti nimi` ja valige seejärel rippmenüüst soovitud ettevõte. `project_id` täidetakse automaatselt allolevasse lahtrisse. Vajaduse korral on teil ka võimalus seda käsitsi märkida.
+***Uuendus:*** Skripti uues versioonis pole enam vaja käsitsi `project_id` sisestada. Lisatud on otsingufunktsioon, et leida projekt nime järgi ja hankida automaatselt vastav `project_id`. Tippige välja "Project Name" algusesse projekti nimi, otsige see üles ja valige soovitud ettevõte rippmenüüst. `project_id` täidetakse automaatselt allolevasse lahtrisse. Vajadusel saate selle ka käsitsi sisestada.
 
-![TUTO](assets/fr/44.webp)
+![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Valige märksõnadeks 2 või 3 asjakohast märksõna, mis on seotud teie õpetuse sisuga, valides need eranditult [Plan ₿ Network tags'i nimekirjast](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md).
+Siltide jaoks valige 2 või 3 asjakohast märksõna, mis on seotud teie õpetuse sisuga, valides need ainult [Plan ₿ Networki siltide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Tarkvara sisaldab ka märksõnade otsingufunktsiooni koos rippmenüüga.
 
-![TUTO](assets/fr/45.webp)
+![DATA-CREATOR-PY](assets/fr/47.webp)
 
-Sisestage lahtrisse "Contributor's GitHub ID" oma GitHubi ID.
+Kui kõik andmed on sisestatud ja üle kontrollitud, klõpsake nuppu "Create Tutorial", et kinnitada õpetuse failide loomine. See loob kohapeal teie õpetuse kausta ja kõik vajalikud failid valitud kategooria sees.
 
-![TUTO](assets/fr/46.webp)
+![DATA-CREATOR-PY](assets/fr/48.webp)
 
-Lahtrisse "PBN-professori ID" sisestage oma ID, kasutades sõnu BIP39 nimekirjast, nagu see on esitatud [teie professori profiilil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Nüüd võite vahele jätta alajaotuse "Ilma minu Python-skriptita" ja ka 3. sammu "YAML-faili täitmine", kuna skript on need toimingud juba automaatselt teie eest teinud. Jätkake otse 4. sammuga ja alustage oma õpetuse kirjutamist.
 
-![TUTO](assets/fr/47.webp)
+Lisateavet selle Python-skripti kohta leiate ka [README-failist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-Lisateavet oma professori ID kohta leiate järgmisest juhendist:
-
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Kui kogu teave on sisestatud ja kontrollitud, klõpsake "Create Tutorial", et kinnitada oma õpetusfailide loomine. See loob lokaalselt teie õpetuse kausta ja kõik vajalikud failid valitud kategooria kaustas.
-
-![TUTO](assets/fr/48.webp)
-
-Nüüd võite vahele jätta alajaotuse "Ilma minu Python-skriptita", samuti sammu 3 "YAML-faili täitmine", sest skript on need toimingud juba automaatselt teie eest ära teinud. Liikuge otse sammu 4 juurde ja alustage oma õpetuse kirjutamist.
-
-Lisateavet selle Pythoni skripti kohta saate ka [vaadata selle README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
-
-### Ilma minu Python skriptita
-
-Avage oma failihaldur ja navigeerige kausta `bitcoin-educational-content`, mis kujutab endast teie repositooriumi kohalikku klooni. Tavaliselt peaksite selle leidma aadressil `Documents\GitHub\bitcoin-educational-content`.
-
-Selles kataloogis on vaja leida sobiv alamkaust, kuhu paigutada oma õpik. Kaustade korraldus kajastab Plan ₿ Network veebilehe erinevaid jaotisi. Meie näites, kuna me tahame lisada õpetuse Sparrow Wallet'i kohta, on asjakohane minna järgmisesse teekonda: `bitcoin-educational-content\tutorials\wallet`, mis vastab veebisaidi jaotisele `WALLET`:
-
+### Sans mon script Python
+Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
+Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
 ![TUTO](assets/fr/12.webp)
 
 Kausta `wallet` sees tuleb luua uus kataloog, mis on spetsiaalselt pühendatud teie õpetusele. Selle kausta nimi peaks meenutama õpetuses käsitletavat tarkvara, ühendades sõnad kindlasti kriipsudega. Minu näite puhul saab kausta pealkirjaks `sparrow-wallet`:

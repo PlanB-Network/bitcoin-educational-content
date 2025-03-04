@@ -1,5 +1,5 @@
 ---
-name: New Language
+name: Adding a new language
 description: How can you add a new language to Plan ₿ Network?
 ---
 ![cover](assets/cover.webp)

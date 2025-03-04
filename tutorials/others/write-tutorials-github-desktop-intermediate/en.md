@@ -167,9 +167,12 @@ You can now skip the subsection "Without my Python script" as well as step 3, "F
 
 For more information about this Python script, you can also check out the [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-### Sans mon script Python
-Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
-Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+### Without my Python script
+
+Open your file manager and navigate to the `bitcoin-educational-content` folder, which represents the local clone of your repository. You should typically find it under `Documents\GitHub\bitcoin-educational-content`.
+
+Within this directory, you will need to locate the appropriate subfolder for placing your tutorial. The folder organization reflects the different sections of the Plan ₿ Network website. In our example, since we want to add a tutorial about Sparrow Wallet, we should navigate to the following path: `bitcoin-educational-content\tutorials\wallet`, which corresponds to the `WALLET` section on the website:
+
 ![TUTO](assets/fr/12.webp)
 
 Within the `wallet` folder, you need to create a new directory specifically dedicated to your tutorial. The name of this folder should evoke the software covered in the tutorial, making sure to connect words with dashes. For my example, the folder will be titled `sparrow-wallet`:

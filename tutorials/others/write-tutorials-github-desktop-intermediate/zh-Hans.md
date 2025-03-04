@@ -172,9 +172,12 @@ https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9b
 
 有关此 Python 脚本的更多信息，您还可以参考 [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)。
 
-### Sans mon script Python
-Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
-Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+### 不使用我的 Python 脚本
+
+打开您的文件管理器，并导航到 `bitcoin-educational-content` 文件夹，该文件夹是您的本地克隆存储库。通常，它应该位于 `Documents\GitHub\bitcoin-educational-content` 目录下。
+
+在此目录中，您需要找到合适的子文件夹来放置您的教程。文件夹结构反映了 Plan ₿ Network 网站的不同部分。在本示例中，由于我们希望添加有关 Sparrow Wallet 的教程，因此需要导航到以下路径：`bitcoin-educational-content\tutorials\wallet`，它对应于网站上的 `WALLET` 部分：
+
 ![TUTO](assets/fr/12.webp)
 
 您需要在 `wallet` 文件夹中新建一个目录，专门用于您的教程。该文件夹的名称应与教程中涉及的软件相呼应，确保用破折号将单词连接起来。在我的例子中，文件夹将命名为 `sparrow-wallet`：

@@ -172,9 +172,12 @@ Sie können nun die Unterkategorie "Ohne mein Python-Skript" sowie Schritt 3 "Di
 
 Weitere Informationen zu diesem Python-Skript finden Sie auch in der [README-Datei](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-### Sans mon script Python
-Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
-Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+### Ohne mein Python-Skript
+
+Öffnen Sie Ihren Dateimanager und navigieren Sie zum Ordner `bitcoin-educational-content`, der den lokalen Klon Ihres Repositories darstellt. Normalerweise sollten Sie ihn unter `Documents\GitHub\bitcoin-educational-content` finden.
+
+Innerhalb dieses Verzeichnisses müssen Sie den entsprechenden Unterordner für das Platzieren Ihres Tutorials finden. Die Ordnerstruktur spiegelt die verschiedenen Abschnitte der Plan ₿ Network-Website wider. In unserem Beispiel, da wir ein Tutorial zu Sparrow Wallet hinzufügen möchten, navigieren wir zum folgenden Pfad: `bitcoin-educational-content\tutorials\wallet`, der dem Abschnitt `WALLET` auf der Website entspricht:
+
 ![TUTO](assets/fr/12.webp)
 
 Innerhalb des Ordners "wallet" müssen Sie ein neues Verzeichnis erstellen, das speziell für Ihr Lernprogramm bestimmt ist. Der Name dieses Ordners sollte an die im Tutorium behandelte Software erinnern, wobei die Wörter mit Bindestrichen verbunden werden müssen. In meinem Beispiel trägt der Ordner den Namen "Sparrow-Wallet":

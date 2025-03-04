@@ -6,15 +6,15 @@ description: How can you add a new language to Plan ₿ Network?
 
 Plan ₿ Network's mission is to provide first-class educational resources on Bitcoin and translate them into as many languages as possible. Much of the content published on the site is open-source and hosted on GitHub, allowing anyone to participate in enriching the platform. Contributions can take various forms: correcting and proofreading existing content, updating information, or creating new tutorials to add on the platform.
 
-Our website already offers a variety of languages, and we are constantly working to expand this selection. To streamline the translation of the static elements of the website, we use the Weblate tool, which facilitates collaboration and organizes translations. It's a very simple tool.
+Our website currently provides a range of languages, and we are continually working to add more. To improve the translation process for our frontend, we use the Weblate tool, which helps us collaborate and manage translations efficiently. It's a user-friendly tool.
 
-If your native language is not yet available on our site and you would like to add it, this tutorial is for you!
+If your native language is not yet available on our website and you would like to add it, this tutorial is for you!
 
-First, make sure to contact the Plan ₿ Network team via our [Telegram group](https://t.me/PlanBNetwork_ContentBuilder). If you don't have telegram, you can send an e-mail to mari@planb.network. Make sure to write a small presentation about who you are and the languages you speak.
+First, make sure to contact the Plan ₿ Network team via our [Telegram group](https://t.me/PlanBNetwork_ContentBuilder). If you don't have Telegram, you can send an e-mail to mari@planb.network. Make sure to write a small presentation about who you are and the languages you speak.
 
-## Checking for the Presence of a Language on Plan ₿ Network
+## Checking if a Language is presente on the Weblate
 
-To check if your language is not already among those we are working on.
+To check if your language is already among those we are working on.
 
 - Go to [our Weblate platform](https://weblate.planb.network/projects/planb-network-website/):
 ![language](assets/01.webp)
@@ -30,10 +30,7 @@ If your language is not there, follow the tutorial below to add it.
 
 ## Adding a New Language to Plan ₿ Network
 
-- The first step is to create an account on Weblate. You can follow our detailed guide below:
-
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
-
+- The first step is to create an account on Weblate by clicking on "Register" in the upper right corner (if you need any help, you can go back to the tutorial mentioned just above).
 
 - Once your account is created, go to the `Website elements` menu and select the `Languages` tab:
 ![language](assets/03.webp)
@@ -45,13 +42,12 @@ https://planb.network/tutorials/others/contribution/translate-front-weblate-8213
 ![language](assets/06.webp)
 - You will then arrive on the translation management page for your language:
 ![language](assets/07.webp)
-- To start translating the frontend, click on the `Translate` button: ![language](assets/08.webp)
-To be guided through the translation process, check out our dedicated tutorial on this topic!
-
-Congratulations, you have started the process of translating stating elements of Plan ₿ Network's website!
+- To start translating the static elements of the website, click on the `Translate` button: ![language](assets/08.webp)
+To be guided through the translation process, check our dedicated tutorial here below:
 
 https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
-The static elements include all the strings on the website, except the educational content (courses, tutorials...) for which we use another semi-automated method (AI translation + contributors proofreading).
+Congratulations, you have started the process of translating the static elements on the Plan ₿ Network's website!
+They include all the strings on the website, except the educational content (courses, tutorials...) for which we use another semi-automated method (AI translation + contributors proofreading).
 
-A big thank you for your valuable contribution! :)
+A big thank-you for your valuable contribution!

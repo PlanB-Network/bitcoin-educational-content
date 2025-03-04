@@ -172,9 +172,12 @@ Voit nyt ohittaa alaluvun "Ilman Python-skriptiäni" sekä vaiheen 3 "YAML-tiedo
 
 Lisätietoja tästä Python-skriptistä löydät myös [README-tiedostosta](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-### Sans mon script Python
-Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
-Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+### Ilman Python-skriptiäni
+
+Avaa tiedostonhallinta ja siirry kansioon `bitcoin-educational-content`, joka edustaa paikallista kloonia repositoriostasi. Sen pitäisi löytyä yleensä sijainnista `Documents\GitHub\bitcoin-educational-content`.
+
+Tässä hakemistossa sinun on löydettävä oikea alikansio opetusmateriaalisi sijoittamiseen. Kansiorakenne vastaa Plan ₿ Network -verkkosivuston eri osioita. Esimerkissämme, koska haluamme lisätä opetusohjelman Sparrow Walletista, meidän tulee siirtyä seuraavaan polkuun: `bitcoin-educational-content\tutorials\wallet`, joka vastaa verkkosivuston `WALLET`-osiota:
+
 ![TUTO](assets/fr/12.webp)
 
 Sinun on luotava `wallet`-kansion sisälle uusi hakemisto, joka on varattu nimenomaan opetusohjelmallesi. Tämän kansion nimen tulisi muistuttaa opetusohjelmassa käsiteltävää ohjelmistoa, ja varmista, että sanat liitetään toisiinsa katkoviivoilla. Esimerkissäni kansio on nimeltään `sparrow-wallet`:

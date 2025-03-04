@@ -1,6 +1,6 @@
 ---
 name: Translating the website
-description: How can you participate in the translation of the static elements on **planb.network**?
+description: How can you participate in the translation of the static elements on planb.network?
 ---
 ![cover](assets/cover.webp)
 
@@ -39,12 +39,12 @@ When you are ready to start translating, come back to this tutorial and go throu
 ![weblate](assets/05.webp)
 - Choose a strong password, then click on `Change my password`:
 ![weblate](assets/06.webp)
-- You can go back to the Plan ₿ Network dashboard: 
+- You can now go back to the Plan ₿ Network dashboard: 
 ![weblate](assets/07.webp)
 
 ## Start translating
 
-- Click on the `Website Element` project:
+- Click on the `Website Elements` project (not the glossary):
 ![weblate](assets/08.webp)
 - You will get to an interface, where you can see the languages in progress:
 ![weblate](assets/09.webp)
@@ -56,7 +56,7 @@ When you are ready to start translating, come back to this tutorial and go throu
 ![weblate](assets/12.webp)
 - The Weblate will then automatically suggest sentences, paragraphs, or even words to translate into the `language` box. In your case, you will probably see the English main string, and another text box for your language:
 ![weblate](assets/13.webp)
-- Your task consists in the translation of the indicated text. You must insert your text in the box corresponding to the language you have chosen. For example, if you are working on the French version, write your translation in the `French` box:
+- Your task consists in the translation of the indicated strings. You must insert your text in the box corresponding to the language you have chosen. For example, if you are working on the French version, write your translation in the `French` box:
 ![weblate](assets/14.webp)
 - Click on the `Automatic suggestion` tab:
 ![weblate](assets/15.webp)
@@ -88,4 +88,4 @@ When you are ready to start translating, come back to this tutorial and go throu
 - We are working to add an "explanation" section for any string, together with a screenshot, to help you find where a specific sentence/word appears on the website. As of right now, if you have any doubt about some words and you need to find their specific location on the website, you can ask a question in the "comments" section or ask the translation coordinator on the Telegram group mentioned at the beginning of this tutorial.
 ![weblate](assets/23.webp)
 
-Thank you in advance for your contribution to the translation of Plan ₿ Network! If you have any specific questions or comments for us, feel free to contact the Plan ₿ Network team.
+Thank you in advance for your contribution to the translation of Plan ₿ Network! If you have any specific questions or comments for us, feel free to contact us via the [Telegram group](https://t.me/PlanBNetwork_ContentBuilder).

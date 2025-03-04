@@ -172,9 +172,12 @@ https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9b
 
 この Python スクリプトの詳細については、[README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) を参照してください。
 
-### Sans mon script Python
-Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
-Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+### Python スクリプトなしで
+
+ファイルマネージャーを開き、リポジトリのローカルクローンである `bitcoin-educational-content` フォルダに移動します。通常、`Documents\GitHub\bitcoin-educational-content` にあります。
+
+このディレクトリ内で、チュートリアルを配置する適切なサブフォルダを見つける必要があります。フォルダの構成は、Plan ₿ Network のウェブサイトの各セクションを反映しています。この例では、Sparrow Wallet に関するチュートリアルを追加したいので、次のパスに移動します: `bitcoin-educational-content\tutorials\wallet`。これはウェブサイト上の `WALLET` セクションに対応しています：
+
 ![TUTO](assets/fr/12.webp)
 
 wallet`フォルダの中に、チュートリアル専用の新しいディレクトリを作成する必要があります。このフォルダの名前は、チュートリアルで扱うソフトウェアを連想させるものにします。私の例では、フォルダのタイトルは `sparrow-wallet` とします：

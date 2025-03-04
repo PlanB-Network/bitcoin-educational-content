@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ Biz School Archive
+name: Biz School Previous Editions
 goal: learn the basics of Bitcoin, with particular focus on its economical rationale, historical context, social, financial and business implications.
 objectives:
   - Master Bitcoin's economic principles and market impact.
@@ -179,7 +179,7 @@ Early civilizations struggled with the inefficiencies of barter, leading to the 
 
 As economies grew, carrying large quantities of gold or silver became impractical. This led to the development of paper money and banknotes, which initially represented a claim on stored commodities. Over time, however, governments began issuing paper money without any commodity backing, giving rise to fiat currencies. Fiat money derives its value solely from government decree rather than any intrinsic value.
 
-- **Fiat and Legal Tender**: the transition to fiat money was accompanied by legal tender laws, which forced citizens to accept government issued money for transactions. This created a system where governments could print money at will, leading to inflation and the erosion of the currency’s value&#8203;:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}.
+- **Fiat and Legal Tender**: the transition to fiat money was accompanied by legal tender laws, which forced citizens to accept government issued money for transactions. This created a system where governments could print money at will, leading to inflation and the erosion of the currency’s value.
 
 ### The role of trust and verification in monetary systems
 
@@ -187,7 +187,7 @@ As economies grew, carrying large quantities of gold or silver became impractica
 
 Throughout history, the authenticity of money has always required verification. In ancient times, this was done by weighing and assessing the purity of metals. As the monetary system evolved, trust shifted from the individual to institutions. For example, goldsmiths and religious institutions began issuing certificates that represented claims on gold, which could be redeemed later.
 
-- **The Problem of Trust**: with fiat money, trust shifted entirely to governments and central banks, raising concerns about their ability to manage the money supply responsibly. In fact, the risks of fractional reserve banking and inflation have become more pronounced as the power to create money is concentrated in fewer hands&#8203;:contentReference[oaicite:3]{index=3}.
+- **The Problem of Trust**: with fiat money, trust shifted entirely to governments and central banks, raising concerns about their ability to manage the money supply responsibly. In fact, the risks of fractional reserve banking and inflation have become more pronounced as the power to create money is concentrated in fewer hands.
 
 #### The erosion of trust
 

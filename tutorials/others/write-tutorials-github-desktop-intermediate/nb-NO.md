@@ -172,9 +172,12 @@ Du kan nå hoppe over underseksjonen "Uten Python-skriptet mitt", samt trinn 3 "
 
 For mer informasjon om dette Python-skriptet, kan du også lese [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-### Sans mon script Python
-Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
-Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+### Uten Python-skriptet mitt
+
+Åpne filbehandleren din og naviger til mappen `bitcoin-educational-content`, som representerer den lokale klonen av ditt repository. Du finner den vanligvis under `Documents\GitHub\bitcoin-educational-content`.
+
+Inne i denne katalogen må du finne riktig undermappe for å plassere opplæringen din. Mappestrukturen gjenspeiler de forskjellige seksjonene på Plan ₿ Network-nettstedet. I vårt eksempel, siden vi ønsker å legge til en opplæring om Sparrow Wallet, skal vi navigere til følgende bane: `bitcoin-educational-content\tutorials\wallet`, som tilsvarer `WALLET`-seksjonen på nettstedet:
+
 ![TUTO](assets/fr/12.webp)
 
 I mappen `wallet` må du opprette en ny mappe som er spesielt dedikert til opplæringen din. Navnet på denne mappen skal minne om programvaren som dekkes i opplæringen, og du må sørge for å koble sammen ord med bindestreker. I mitt eksempel vil mappen hete `sparrow-wallet`:

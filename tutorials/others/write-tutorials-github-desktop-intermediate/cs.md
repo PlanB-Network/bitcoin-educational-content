@@ -172,9 +172,12 @@ Nyní můžete přeskočit podčást "Bez mého Python skriptu" i krok 3 "Vypln�
 
 Pro více informací o tomto Python skriptu si můžete také přečíst [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-### Sans mon script Python
-Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
-Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+### Bez mého Python skriptu
+
+Otevřete správce souborů a přejděte do složky `bitcoin-educational-content`, což je lokální klon vašeho repozitáře. Měla by se obvykle nacházet v `Documents\GitHub\bitcoin-educational-content`.
+
+V tomto adresáři je nutné najít odpovídající podsložku pro umístění vašeho tutoriálu. Struktura složek odpovídá různým sekcím webu Plan ₿ Network. V našem příkladu, protože chceme přidat tutoriál o Sparrow Wallet, měli bychom přejít na následující cestu: `bitcoin-educational-content\tutorials\wallet`, která odpovídá sekci `WALLET` na webových stránkách:
+
 ![TUTO](assets/fr/12.webp)
 
 Ve složce `peněženka` musíte vytvořit nový adresář určený speciálně pro váš výukový program. Název této složky by měl evokovat software, který je v tutoriálu popsán, a dbejte na to, abyste slova spojovali pomlčkami. V mém případě se složka bude jmenovat `sparrow-wallet`:

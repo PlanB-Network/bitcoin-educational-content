@@ -6,7 +6,7 @@ description: How can you add a new language to Plan ₿ Network?
 
 Plan ₿ Network's mission is to provide first-class educational resources on Bitcoin and translate them into as many languages as possible. Much of the content published on the site is open-source and hosted on GitHub, allowing anyone to participate in enriching the platform. Contributions can take various forms: correcting and proofreading existing content, updating information, or creating new tutorials to add on the platform.
 
-Our website already offers a variety of languages, and we are constantly working to expand this selection. To streamline the translation of our frontend, we utilize the Weblate tool, which facilitates collaboration and organizes translations. It's a very simple tool.
+Our website already offers a variety of languages, and we are constantly working to expand this selection. To streamline the translation of the static elements of the website, we use the Weblate tool, which facilitates collaboration and organizes translations. It's a very simple tool.
 
 If your native language is not yet available on our site and you would like to add it, this tutorial is for you!
 

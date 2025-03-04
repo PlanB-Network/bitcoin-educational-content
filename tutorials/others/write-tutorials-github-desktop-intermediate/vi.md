@@ -172,9 +172,12 @@ Bây giờ bạn có thể bỏ qua phần "Không sử dụng tập lệnh Pyth
 
 Để biết thêm thông tin về tập lệnh Python này, bạn cũng có thể tham khảo [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-### Sans mon script Python
-Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
-Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+### Không sử dụng script Python của tôi
+
+Mở trình quản lý tệp của bạn và điều hướng đến thư mục `bitcoin-educational-content`, đây là bản sao cục bộ của kho lưu trữ của bạn. Bạn thường có thể tìm thấy nó trong `Documents\GitHub\bitcoin-educational-content`.
+
+Trong thư mục này, bạn cần xác định vị trí thư mục con thích hợp để đặt hướng dẫn của mình. Cấu trúc thư mục phản ánh các phần khác nhau của trang web Plan ₿ Network. Trong ví dụ của chúng tôi, vì chúng tôi muốn thêm một hướng dẫn về Sparrow Wallet, chúng tôi cần điều hướng đến đường dẫn sau: `bitcoin-educational-content\tutorials\wallet`, tương ứng với phần `WALLET` trên trang web:
+
 ![TUTO](assets/fr/12.webp)
 
 Trong thư mục `wallet`, bạn cần tạo một thư mục mới dành riêng cho hướng dẫn của bạn. Tên của thư mục này phải gợi lên phần mềm được đề cập trong hướng dẫn, đảm bảo kết nối các từ bằng dấu gạch ngang. Đối với ví dụ của tôi, thư mục sẽ có tiêu đề là `sparrow-wallet`:

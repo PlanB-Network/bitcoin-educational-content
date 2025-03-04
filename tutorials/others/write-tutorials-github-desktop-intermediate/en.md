@@ -221,12 +221,13 @@ credits:
 
 original_language:
 proofreading:
-  - language:
-```yaml
-last_contribution_date:    urgency:
+  - language: 
+    last_contribution_date:
+    urgency:
     contributors_id:
       - 
     reward:
+````
 
 Here are the details of the mandatory fields:
 

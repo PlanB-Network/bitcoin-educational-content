@@ -1,6 +1,6 @@
 ---
 name: Weblate - přidání nového jazyka
-description: Jak můžete do sítě Plan ₿ přidat nový jazyk?
+description: Jak můžete do sítě Plan ₿ Network nový jazyk?
 ---
 ![cover](assets/cover.webp)
 

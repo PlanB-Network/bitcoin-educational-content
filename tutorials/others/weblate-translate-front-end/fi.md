@@ -1,10 +1,10 @@
 ---
 name: Weblate - staattisten elementtien kääntäminen
-description: Miten voit osallistua planb.networkin staattisten elementtien kääntämiseen?
+description: Miten voit osallistua planb.network staattisten elementtien kääntämiseen?
 ---
 ![cover](assets/cover.webp)
 
-Plan ₿ Networkin tehtävänä on tarjota ensiluokkaisia koulutusresursseja Bitcoinista ja kääntää ne mahdollisimman monelle kielelle. Suuri osa sivustolla julkaistusta sisällöstä on avoimen lähdekoodin ja GitHubissa isännöityä, jolloin kuka tahansa voi osallistua alustan rikastuttamiseen. Osallistuminen voi tapahtua eri muodoissa: olemassa olevan sisällön korjaaminen ja oikolukeminen, tietojen päivittäminen tai uusien opetusohjelmien luominen alustalle lisättäväksi.
+Plan ₿ Network tehtävänä on tarjota ensiluokkaisia koulutusresursseja Bitcoinista ja kääntää ne mahdollisimman monelle kielelle. Suuri osa sivustolla julkaistusta sisällöstä on avoimen lähdekoodin ja GitHubissa isännöityä, jolloin kuka tahansa voi osallistua alustan rikastuttamiseen. Osallistuminen voi tapahtua eri muodoissa: olemassa olevan sisällön korjaaminen ja oikolukeminen, tietojen päivittäminen tai uusien opetusohjelmien luominen alustalle lisättäväksi.
 
 Tässä opetusohjelmassa näytämme sinulle, miten voit helposti osallistua sivustomme staattisten elementtien kääntämiseen. Alustan tiedot on jaettu kahteen pääluokkaan:
 
@@ -17,7 +17,7 @@ Koulutussisällön kääntämiseen käytämme [tekoälyä] (https://github.com/A
 https://planb.network/en/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 Toisaalta, jos olet kiinnostunut kääntämään verkkosivuston staattisia elementtejä (lukuun ottamatta opetussisältöä), olet oikeassa paikassa! Etusivun tehokkaaseen kääntämiseen käytämme Weblate-työkalua, joka on erittäin helppokäyttöinen ja helpottaa kääntämistä.
 
-Jos haluat lisätä kokonaan uuden kielen Plan ₿ Networkiin, ota yhteyttä Plan ₿ Network -tiimiin [Telegram-ryhmässä](https://t.me/PlanBNetwork_ContentBuilder). Jos sinulla ei ole telegramia, voit lähettää sähköpostia osoitteeseen mari@planb.network. Muista kirjoittaa pieni esittely siitä, kuka olet ja mitä kieliä puhut.
+Jos haluat lisätä kokonaan uuden kielen Plan ₿ Network, ota yhteyttä Plan ₿ Network -tiimiin [Telegram-ryhmässä](https://t.me/PlanBNetwork_ContentBuilder). Jos sinulla ei ole telegramia, voit lähettää sähköpostia osoitteeseen mari@planb.network. Muista kirjoittaa pieni esittely siitä, kuka olet ja mitä kieliä puhut.
 
 Tiimimme jäsenet antavat sinulle tarkat ohjeet ja avaavat Githubiin asiaan liittyvät "ongelmat", jotta voit koordinoida työtäsi.
 

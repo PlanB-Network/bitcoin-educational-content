@@ -1,6 +1,6 @@
 ---
 name: Weblate - thêm ngôn ngữ mới
-description: Làm thế nào để thêm ngôn ngữ mới vào Plan₿ Network?
+description: Làm thế nào để thêm ngôn ngữ mới vào Plan ₿ Network?
 ---
 ![cover](assets/cover.webp)
 
@@ -65,7 +65,7 @@ Nếu ngôn ngữ của bạn không có ở đó, hãy làm theo hướng dẫn
 Để được hướng dẫn trong suốt quá trình dịch, hãy xem hướng dẫn chuyên sâu của chúng tôi bên dưới:
 
 https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
-Xin chúc mừng, bạn đã bắt đầu quá trình dịch các thành phần tĩnh trên trang web Plan₿ Network!
+Xin chúc mừng, bạn đã bắt đầu quá trình dịch các thành phần tĩnh trên trang web Plan ₿ Network!
 
 Chúng bao gồm tất cả các chuỗi trên trang web, ngoại trừ nội dung giáo dục (khóa học, hướng dẫn...) mà chúng tôi sử dụng phương pháp bán tự động khác (dịch AI + hiệu đính của cộng tác viên).
 

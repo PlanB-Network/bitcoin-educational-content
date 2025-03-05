@@ -1,6 +1,6 @@
 ---
 name: Weblate - añadir un nuevo idioma
-description: Cómo se puede añadir un nuevo idioma a la Red Plan ₿?
+description: Cómo se puede añadir un nuevo idioma a la Plan ₿ Network?
 ---
 ![cover](assets/cover.webp)
 
@@ -31,7 +31,7 @@ Si su idioma se encuentra en esta lista, no es necesario que lo añada de nuevo.
 https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Si tu idioma no está, sigue el tutorial que aparece a continuación para añadirlo.
 
-## Añadir un nuevo idioma al Plan ₿ Red
+## Añadir un nuevo idioma al Plan ₿ Network
 
 
 - El primer paso es crear una cuenta en Weblate haciendo clic en "Registrarse" en la esquina superior derecha (si necesitas ayuda, puedes volver al tutorial mencionado anteriormente).
@@ -65,7 +65,7 @@ Si tu idioma no está, sigue el tutorial que aparece a continuación para añadi
 Para guiarle en el proceso de traducción, consulte nuestro tutorial específico:
 
 https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
-Enhorabuena, ha iniciado el proceso de traducción de los elementos estáticos del sitio web de la Red Plan ₿
+Enhorabuena, ha iniciado el proceso de traducción de los elementos estáticos del sitio web de la Plan ₿ Network
 
 Incluyen todas las cadenas del sitio web, excepto los contenidos educativos (cursos, tutoriales...) para los que utilizamos otro método semiautomatizado (traducción AI + corrección de colaboradores).
 

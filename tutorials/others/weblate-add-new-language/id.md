@@ -31,7 +31,7 @@ Jika bahasa Anda sudah ada dalam daftar ini, Anda tidak perlu menambahkannya lag
 https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Jika bahasa Anda tidak ada, ikuti tutorial di bawah ini untuk menambahkannya.
 
-## Menambahkan Bahasa Baru ke Jaringan Plan ₿
+## Menambahkan Bahasa Baru ke Plan ₿ Network
 
 
 - Langkah pertama adalah membuat akun di Weblate dengan mengklik "Daftar" di sudut kanan atas (jika Anda memerlukan bantuan, Anda dapat kembali ke tutorial yang disebutkan di atas).

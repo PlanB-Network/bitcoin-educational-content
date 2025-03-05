@@ -31,7 +31,7 @@ Wenn Ihre Sprache in dieser Liste enthalten ist, müssen Sie sie nicht erneut hi
 https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Wenn Ihre Sprache dort nicht vorhanden ist, folgen Sie der nachstehenden Anleitung, um sie hinzuzufügen.
 
-## Hinzufügen einer neuen Sprache zum Plan ₿ Netzwerk
+## Hinzufügen einer neuen Sprache zum Plan ₿ Network
 
 
 - Der erste Schritt besteht darin, ein Konto bei Weblate zu erstellen, indem Sie auf "Registrieren" in der oberen rechten Ecke klicken (falls Sie Hilfe benötigen, können Sie auf die oben erwähnte Anleitung zurückgreifen).

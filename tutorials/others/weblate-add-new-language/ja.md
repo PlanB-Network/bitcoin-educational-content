@@ -31,7 +31,7 @@ Plan ₿ Networkの使命は、ビットコインに関する一流の教育リ�
 https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 言語がない場合は、以下のチュートリアルに従って追加してください。
 
-## プランに新しい言語を追加 ₿ ネットワーク
+## プランに新しい言語を追加 Plan ₿ Network ネットワーク
 
 
 - 最初のステップは、右上にある「登録」をクリックして、ウェブレートのアカウントを作成することです（ヘルプが必要な場合は、上記のチュートリアルに戻ってください）。

@@ -59,7 +59,7 @@ https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef
 ![weblate](assets/06.webp)
 
 
-- 现在可以返回计划 ₿ 网络仪表板：
+- 现在可以返回Plan ₿ Network仪表板：
 
 ![weblate](assets/07.webp)
 

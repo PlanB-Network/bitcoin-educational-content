@@ -17,7 +17,7 @@ Para traducir los contenidos educativos, utilizamos [inteligencia artificial](ht
 https://planb.network/en/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 Por otro lado, si está interesado en traducir los elementos estáticos del sitio web (excluidos los contenidos educativos), ¡está en el lugar adecuado! Para traducir eficazmente el frontend, utilizamos la herramienta Weblate, que es muy sencilla de utilizar y facilita el planteamiento de la traducción.
 
-Si deseas añadir un idioma completamente nuevo a la Red Plan ₿, asegúrate de ponerte en contacto con el equipo de la Red Plan ₿ a través de nuestro [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder). Si no tienes telegram, puedes enviar un correo electrónico a mari@planb.network. Asegúrate de escribir una pequeña presentación sobre quién eres y los idiomas que hablas.
+Si deseas añadir un idioma completamente nuevo a Plan ₿ Network, asegúrate de ponerte en contacto con el equipo de Plan ₿ Network a través de nuestro [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder). Si no tienes telegram, puedes enviar un correo electrónico a mari@planb.network. Asegúrate de escribir una pequeña presentación sobre quién eres y los idiomas que hablas.
 
 Los miembros de nuestro equipo le darán instrucciones específicas y abrirán las "incidencias" correspondientes en Github para coordinar su trabajo.
 
@@ -59,7 +59,7 @@ Cuando estés listo para empezar a traducir, vuelve a este tutorial y repasa los
 ![weblate](assets/06.webp)
 
 
-- Ahora puede volver al panel Plan ₿ Red:
+- Ahora puede volver al panel Plan ₿ Network:
 
 ![weblate](assets/07.webp)
 
@@ -157,4 +157,4 @@ Cuando estés listo para empezar a traducir, vuelve a este tutorial y repasa los
 
 ![weblate](assets/23.webp)
 
-¡Gracias de antemano por tu contribución a la traducción del Plan ₿ Red! Si tienes alguna pregunta o comentario específico para nosotros, no dudes en ponerte en contacto con nosotros a través del [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder).
+¡Gracias de antemano por tu contribución a la traducción de Plan ₿ Network! Si tienes alguna pregunta o comentario específico para nosotros, no dudes en ponerte en contacto con nosotros a través del [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder).

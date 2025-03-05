@@ -59,7 +59,7 @@ Wenn Sie bereit sind, mit der Übersetzung zu beginnen, kehren Sie zu diesem Ler
 ![weblate](assets/06.webp)
 
 
-- Sie können nun zum Dashboard Plan ₿ Netzwerk zurückkehren:
+- Sie können nun zum Dashboard Plan ₿ Network zurückkehren:
 
 ![weblate](assets/07.webp)
 

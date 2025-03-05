@@ -59,7 +59,7 @@ Når du er klar til å begynne å oversette, kan du gå tilbake til denne veiled
 ![weblate](assets/06.webp)
 
 
-- Du kan nå gå tilbake til Plan ₿ Nettverk-dashbordet:
+- Du kan nå gå tilbake til Plan ₿ Network-dashbordet:
 
 ![weblate](assets/07.webp)
 

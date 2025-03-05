@@ -31,7 +31,7 @@ Se a sua língua estiver nesta lista, não precisa de a adicionar novamente. Par
 https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Se a sua língua não estiver presente, siga o tutorial abaixo para a adicionar.
 
-## Adicionar um novo idioma ao plano ₿ Rede
+## Adicionar um novo idioma ao Plan ₿ Network
 
 
 - O primeiro passo é criar uma conta no Weblate, clicando em "Registar" no canto superior direito (se precisar de ajuda, pode voltar ao tutorial mencionado acima).
@@ -65,7 +65,7 @@ Se a sua língua não estiver presente, siga o tutorial abaixo para a adicionar.
 Para ser guiado através do processo de tradução, consulte o nosso tutorial dedicado aqui abaixo:
 
 https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
-Parabéns, iniciou o processo de tradução dos elementos estáticos do sítio Web da Rede Plan ₿!
+Parabéns, iniciou o processo de tradução dos elementos estáticos do sítio Web da Plan ₿ Network!
 
 Incluem todas as cadeias de caracteres do sítio Web, exceto os conteúdos educativos (cursos, tutoriais...), para os quais utilizamos outro método semi-automatizado (tradução por IA + revisão pelos colaboradores).
 

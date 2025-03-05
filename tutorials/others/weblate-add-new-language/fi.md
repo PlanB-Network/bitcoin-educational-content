@@ -1,10 +1,10 @@
 ---
 name: Weblate - uuden kielen lisääminen
-description: Miten voit lisätä uuden kielen Plan ₿ -verkkoon?
+description: Miten voit lisätä uuden kielen Plan ₿ Network?
 ---
 ![cover](assets/cover.webp)
 
-Plan ₿ Networkin tehtävänä on tarjota ensiluokkaisia koulutusresursseja Bitcoinista ja kääntää ne mahdollisimman monelle kielelle. Suuri osa sivustolla julkaistusta sisällöstä on avoimen lähdekoodin ja GitHubissa isännöityä, jolloin kuka tahansa voi osallistua alustan rikastuttamiseen. Osallistuminen voi tapahtua eri muodoissa: olemassa olevan sisällön korjaaminen ja oikolukeminen, tietojen päivittäminen tai uusien opetusohjelmien luominen alustalle lisättäväksi.
+Plan ₿ Network tehtävänä on tarjota ensiluokkaisia koulutusresursseja Bitcoinista ja kääntää ne mahdollisimman monelle kielelle. Suuri osa sivustolla julkaistusta sisällöstä on avoimen lähdekoodin ja GitHubissa isännöityä, jolloin kuka tahansa voi osallistua alustan rikastuttamiseen. Osallistuminen voi tapahtua eri muodoissa: olemassa olevan sisällön korjaaminen ja oikolukeminen, tietojen päivittäminen tai uusien opetusohjelmien luominen alustalle lisättäväksi.
 
 Sivustollamme on tällä hetkellä useita kieliä, ja pyrimme jatkuvasti lisäämään niitä. Parantaaksemme etusivumme käännösprosessia käytämme Weblate-työkalua, joka auttaa meitä tekemään yhteistyötä ja hallitsemaan käännöksiä tehokkaasti. Se on käyttäjäystävällinen työkalu.
 
@@ -65,7 +65,7 @@ Jos kielesi ei ole siellä, lisää se alla olevan ohjeen avulla.
 Jos haluat saada opastusta käännösprosessin läpi, tutustu alla olevaan opetusohjelmaan:
 
 https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
-Onneksi olkoon, olet aloittanut Plan ₿ Networkin verkkosivuston staattisten elementtien kääntämisen!
+Onneksi olkoon, olet aloittanut Plan ₿ Network verkkosivuston staattisten elementtien kääntämisen!
 
 Niihin sisältyvät kaikki verkkosivujen merkkijonot, lukuun ottamatta opetussisältöä (kurssit, opetusohjelmat...), johon käytämme toista puoliautomaattista menetelmää (tekoälykäännös + oikoluku).
 

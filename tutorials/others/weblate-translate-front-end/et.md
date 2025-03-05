@@ -1,6 +1,6 @@
 ---
 name: Weblate - staatiliste elementide tõlkimine
-description: Kuidas saab osaleda planb.networki staatiliste elementide tõlkimises?
+description: Kuidas saab osaleda planb.network staatiliste elementide tõlkimises?
 ---
 ![cover](assets/cover.webp)
 
@@ -59,7 +59,7 @@ Kui olete valmis tõlkimisega alustama, tulge tagasi selle õpetuse juurde ja va
 ![weblate](assets/06.webp)
 
 
-- Nüüd saate minna tagasi plaani ₿ Võrgu armatuurlauale:
+- Nüüd saate minna tagasi Plan ₿ Network armatuurlauale:
 
 ![weblate](assets/07.webp)
 

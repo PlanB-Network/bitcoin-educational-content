@@ -59,7 +59,7 @@ Setelah Anda siap untuk mulai menerjemahkan, kembalilah ke tutorial ini dan baca
 ![weblate](assets/06.webp)
 
 
-- Sekarang Anda dapat kembali ke dasbor Paket ₿ Jaringan:
+- Sekarang Anda dapat kembali ke dasbor Plan ₿ Network:
 
 ![weblate](assets/07.webp)
 

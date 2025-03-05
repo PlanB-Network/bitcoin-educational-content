@@ -29,7 +29,7 @@ Quando estiver pronto para começar a traduzir, volte a este tutorial e percorra
 ## Registo no Weblate
 
 
-- Aceder ao [Weblate auto-hospedado do Plano ₿ Rede] (https://weblate.planb.network/):
+- Aceder ao [Weblate auto-hospedado do Plan ₿ Network] (https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 
@@ -59,7 +59,7 @@ Quando estiver pronto para começar a traduzir, volte a este tutorial e percorra
 ![weblate](assets/06.webp)
 
 
-- Pode agora voltar ao painel de controlo Plano ₿ Rede:
+- Pode agora voltar ao painel de controlo Plan ₿ Network:
 
 ![weblate](assets/07.webp)
 

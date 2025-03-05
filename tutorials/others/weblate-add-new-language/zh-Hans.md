@@ -1,6 +1,6 @@
 ---
 name: Weblate - 添加新语言
-description: 如何在 Plan ₿ 网络中添加新语言？
+description: 如何在 Plan ₿ Network中添加新语言？
 ---
 ![cover](assets/cover.webp)
 
@@ -31,7 +31,7 @@ Plan ₿ Network 的使命是提供一流的比特币教育资源，并将其翻
 https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 如果没有您的语言，请按照下面的教程添加。
 
-## 为计划 ₿ 网络添加新语言
+## 为Plan ₿ Network添加新语言
 
 
 - 第一步是点击右上角的 "注册"，在 Weblate 上创建一个帐户（如果您需要任何帮助，您可以回到上面提到的教程）。

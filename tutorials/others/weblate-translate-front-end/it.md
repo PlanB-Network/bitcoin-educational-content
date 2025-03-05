@@ -17,7 +17,7 @@ Per tradurre i contenuti didattici, utilizziamo [l'intelligenza artificiale] (ht
 https://planb.network/en/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 Se invece siete interessati a tradurre gli elementi statici del sito web (esclusi i contenuti didattici), siete nel posto giusto! Per tradurre efficacemente il frontend, utilizziamo lo strumento Weblate, che è molto semplice da usare e facilita l'approccio alla traduzione.
 
-Se si desidera aggiungere una lingua completamente nuova alla Rete Plan ₿, assicurarsi di contattare il team della Rete Plan ₿ tramite il nostro [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder). Se non avete Telegram, potete inviare un'e-mail a mari@planb.network. Assicuratevi di scrivere una piccola presentazione su chi siete e sulle lingue che parlate.
+Se si desidera aggiungere una lingua completamente nuova a Plan ₿ Network, assicurarsi di contattare il team di Plan ₿ Network tramite il nostro [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder). Se non avete Telegram, potete inviare un'e-mail a mari@planb.network. Assicuratevi di scrivere una piccola presentazione su chi siete e sulle lingue che parlate.
 
 I membri del nostro team vi daranno istruzioni specifiche e apriranno le relative "issue" su Github per coordinare il vostro lavoro.
 
@@ -59,7 +59,7 @@ Quando si è pronti per iniziare a tradurre, tornare a questa esercitazione e pa
 ![weblate](assets/06.webp)
 
 
-- Ora è possibile tornare alla dashboard Piano ₿ Rete:
+- Ora è possibile tornare alla dashboard di Plan ₿ Network:
 
 ![weblate](assets/07.webp)
 

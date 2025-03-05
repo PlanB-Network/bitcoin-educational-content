@@ -65,7 +65,7 @@ Hvis språket ditt ikke finnes der, kan du følge veiledningen nedenfor for å l
 For å få veiledning gjennom oversettelsesprosessen, se vår egen veiledning her nedenfor:
 
 https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
-Gratulerer, du har startet prosessen med å oversette de statiske elementene på Plan ₿ Nettverks nettsted!
+Gratulerer, du har startet prosessen med å oversette de statiske elementene på Plan ₿ Network nettsted!
 
 De inkluderer alle strengene på nettstedet, bortsett fra det pedagogiske innholdet (kurs, opplæringsprogrammer ...) som vi bruker en annen halvautomatisk metode for (AI-oversettelse + korrekturlesing av bidragsytere).
 

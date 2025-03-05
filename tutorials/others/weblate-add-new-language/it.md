@@ -1,18 +1,18 @@
 ---
-name: Weblate - aggiunta di una nuova lingua
-description: Come si può aggiungere una nuova lingua a Plan ₿ Network?
+name: Weblate - aggiungere una nuova lingua
+description: Come si può aggiungere una nuova lingua su Plan ₿ Network?
 ---
 ![cover](assets/cover.webp)
 
-La missione di Plan ₿ Network è quella di fornire risorse educative di prima classe su Bitcoin e di tradurle nel maggior numero di lingue possibile. Gran parte dei contenuti pubblicati sul sito sono open-source e ospitati su GitHub, permettendo a chiunque di partecipare all'arricchimento della piattaforma. I contributi possono assumere varie forme: correggere e correggere i contenuti esistenti, aggiornare le informazioni o creare nuovi tutorial da aggiungere alla piattaforma.
+La missione di Plan ₿ Network è quella di fornire risorse educative di prima classe su Bitcoin e di tradurle nel maggior numero di lingue possibile. Gran parte dei contenuti pubblicati sul sito sono open-source e si trovano su GitHub, permettendo a chiunque di partecipare all'arricchimento della piattaforma. I contributi possono assumere varie forme: fare proofreading e correggere i contenuti esistenti, aggiornare le informazioni o creare nuovi tutorial da aggiungere alla piattaforma.
 
-Attualmente il nostro sito web offre una gamma di lingue e stiamo lavorando per aggiungerne altre. Per migliorare il processo di traduzione del nostro frontend, utilizziamo lo strumento Weblate, che ci aiuta a collaborare e a gestire le traduzioni in modo efficiente. È uno strumento di facile utilizzo.
+Attualmente il nostro sito web offre una vasta gamma di lingue, e stiamo lavorando per aggiungerne altre. Per migliorare il processo di traduzione del nostro frontend, utilizziamo lo strumento Weblate, che ci aiuta a collaborare e a gestire le traduzioni in modo efficiente.
 
-Se la vostra lingua madre non è ancora disponibile sul nostro sito e volete aggiungerla, questo tutorial fa per voi!
+Se la vostra lingua non è ancora disponibile sul nostro sito e volete aggiungerla, questo tutorial fa per voi!
 
-Innanzitutto, assicuratevi di contattare il team della Rete Plan ₿ tramite il nostro [gruppo Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Se non avete Telegram, potete inviare un'e-mail a mari@planb.network. Assicuratevi di scrivere una piccola presentazione su chi siete e sulle lingue che parlate.
+Innanzitutto, assicuratevi di contattare il team di Plan ₿ Network tramite il nostro [gruppo Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Se non avete Telegram, potete inviare un'e-mail a mari@planb.network. Assicuratevi di scrivere una piccola presentazione su chi siete e sulle lingue che parlate.
 
-## Verifica della presenza di una lingua sul Weblate
+## Verificare la presenza di una lingua su Weblate
 
 Per verificare se la vostra lingua è già tra quelle su cui stiamo lavorando.
 
@@ -26,16 +26,16 @@ Per verificare se la vostra lingua è già tra quelle su cui stiamo lavorando.
 
 ![language](assets/02.webp)
 
-Se la vostra lingua è presente in questo elenco, non è necessario aggiungerla di nuovo. Per contribuire alla correzione del weblate, scoprite il seguente tutorial:
+Se la vostra lingua è presente in questo elenco, non è necessario aggiungerla di nuovo. Per contribuire alla correzione del weblate, potete dunque cliccare sul seguente tutorial:
 
 https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
-Se la vostra lingua non è presente, seguite il tutorial sottostante per aggiungerla.
+Se la vostra lingua non è presente, seguite invece il tutorial sottostante per aggiungerla.
 
-## Aggiunta di una nuova lingua al piano ₿ Rete
+## Aggiungere una nuova lingua su Plan ₿ Network
 
 
 - Il primo passo è creare un account su Weblate cliccando su "Registrati" nell'angolo in alto a destra (se avete bisogno di aiuto, potete tornare al tutorial citato poco sopra).
-- Una volta creato l'account, accedere al menu "Elementi del sito web" e selezionare la scheda "Lingue":
+- Una volta creato l'account, bisogna accedere al menu "Elementi del sito web" e selezionare la scheda "Lingue":
 
 ![language](assets/03.webp)
 

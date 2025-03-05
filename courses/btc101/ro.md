@@ -1000,15 +1000,15 @@ Sistemul financiar actual se aliniază ideilor economiei keynesiene, care, spre 
 
 Pe de altă parte, politicienii au de obicei o viziune pe termen scurt și au nevoie de creștere economică pentru a fi realeși, astfel încât nu sunt capabili să rezolve problemele ecologice pe termen lung. În schimb, adoptarea unei monede solide precum Bitcoin este o alternativă potențială care ar putea responsabiliza oamenii din punct de vedere economic.
 
-Ei nu cunosc faptul că Bitcoin promovează utilizarea energiei verzi. De exemplu, flăcările aprinse în siturile puțurilor petroliere pentru a arde metanul și a preveni poluarea pot fi stinse de minerii Bitcoin, deoarece metanul poate fi transformat în energie electrică pentru a alimenta mașinile de minerit, ceea ce este benefic pentru mediu.
+Ei nu cunosc faptul că Bitcoin promovează utilizarea energiei verzi. De exemplu, flăcările aprinse în siturile puțurilor petroliere pentru a arde metanul și a preveni poluarea pot fi stinse de minerii Bitcoin, deoarece metanul poate fi transformat în energie electrică pentru a alimenta mașinile de mining, ceea ce este benefic pentru mediu.
 
 ** Urmați una dintre maximele Bitcoin: Nu te încrede, verifică singur!**
 
 ### Scurt rezumat al caracteristicilor tehnice ale Bitcoin
 
-Satoshi Nakamoto a lansat protocolul Bitcoin în ianuarie 2009, care a evoluat de atunci datorită unei comunități în creștere de dezvoltatori, mineri și utilizatori cu noduri Bitcoin. Prin păstrarea propriei lor copii a blockchain-ului Bitcoin, un registru public al tuturor tranzacțiilor Bitcoin, aceste noduri pot asigura validitatea tranzacțiilor în conformitate cu regulile de consens ale Bitcoin. Aceasta include asigurarea faptului că minerii produc blocuri valide, care conțin mii de tranzacții în așteptare.
+Satoshi Nakamoto a lansat protocolul Bitcoin în ianuarie 2009, care a evoluat de atunci datorită unei comunități în creștere de dezvoltatori, mineri și utilizatori cu noduri Bitcoin. Prin păstrarea propriei lor copii a blockchain-ului Bitcoin, un registru public al tuturor tranzacțiilor Bitcoin, aceste noduri pot asigura validitatea tranzacțiilor în conformitate cu regulile de consens ale Bitcoin. Aceasta include asigurarea faptului că mineri produc blocuri valide, care conțin mii de tranzacții în așteptare.
 
-În medie, un bloc este creat la fiecare 10 minute, iar minerul care găsește un hash valid pentru blocul următor este recompensat de protocol atât cu o sumă care este definită de regulile de consens, cât și cu taxele de tranzacționare ale tuturor tranzacțiilor incluse în blocul valid. Deoarece rezultatul algoritmului de hashing (SHA256) pentru o anumită intrare este considerat imprevizibil, procesul de minare implică construirea a numeroase blocuri candidate și testarea dacă hash-ul acestora este valid sau nu. Cu toate acestea, pentru a se asigura că timpul mediu dintre două blocuri rămâne constant (~10 minute) indiferent de numărul de mineri și de puterea lor de calcul, dificultatea de a găsi un hash valid se ajustează la fiecare 2016 blocuri, aproximativ la fiecare 2 săptămâni. Minerii au dezvoltat de-a lungul timpului mașini SHA256 specializate, numite ASICS, pentru a crește rata de hash per joule, ceea ce înseamnă numărul de încercări pe secundă și pe energia consumată.
+În medie, un bloc este creat la fiecare 10 minute, iar minerul care găsește un hash valid pentru blocul următor este recompensat de protocol atât cu o sumă care este definită de regulile de consens, cât și cu taxele de tranzacționare ale tuturor tranzacțiilor incluse în blocul valid. Deoarece rezultatul algoritmului de hashing (SHA256) pentru o anumită intrare este considerat imprevizibil, procesul de minare implică construirea a numeroase blocuri candidate și testarea dacă hash-ul acestora este valid sau nu. Cu toate acestea, pentru a se asigura că timpul mediu dintre două blocuri rămâne constant (~10 minute) indiferent de numărul de mineri și de puterea lor de calcul, dificultatea de a găsi un hash valid se ajustează la fiecare 2016 blocuri, aproximativ la fiecare 2 săptămâni. Mineri au dezvoltat de-a lungul timpului mașini SHA256 specializate, numite ASICS, pentru a crește rata de hash per joule, ceea ce înseamnă numărul de încercări pe secundă și pe energia consumată.
 
 Pentru ca activitatea minerilor să fie cât mai profitabilă, aceștia trebuie să obțină cea mai ieftină energie electrică posibilă, care se găsește adesea în locuri îndepărtate, în centrale electrice care nu sunt încă conectate la rețea. Minerul acționează atunci ca un cumpărător de ultimă instanță și, de îndată ce prețul electricității crește din cauza unei creșteri a cererii, minerul va tinde să își mute activitatea în altă parte.
 
@@ -1026,7 +1026,7 @@ Prețul Bitcoin este adesea caracterizat de o volatilitate semnificativă. Valoa
 
 ![image](assets/en/67.webp)
 
-Mai simplu spus, oamenii au tendința de a cumpăra totul deodată și de a vinde totul deodată. **Bitcoin nu este imună la natura umană.**
+Mai simplu spus, oamenii au tendința de a cumpăra totul deodată și de a vinde totul deodată. **Bitcoin nu este imun la natura umană.**
 
 ### Înțelegerea valurilor de adopție
 
@@ -1040,10 +1040,9 @@ Atât dezvoltarea, cât și evoluția Bitcoin sunt în mare parte legate de dife
 Primii utilizatori ai Bitcoin au fost în principal tecnofili, cypherpunks, libertari și entuziaști ai aurului. Aceste grupuri au fost atrase de Bitcoin datorită valorii sale de monedă electronică fără încredere, rezistenței sale la cenzură și politicii sale monetare transparente și imuabile.
 
 
-- Internetul întunecat și infractorii
+- dark web și infractorii
 
-Ulterior, utilizarea Bitcoin s-a extins pe piețele dark web, cum ar fi Silk Road, în mare parte datorită naturii sale necontrolabile și pseudonime, care a atras și persoane din afara acestei platforme, inclusiv unele persoane implicate în activități infracționale. Cu toate acestea, este important să subliniem faptul că aplicarea unui instrument, mai degrabă decât instrumentul în sine, este cea care determină legalitatea. Utilizarea ilegală a Bitcoin nu face în mod inerent din cineva un infractor; mai degrabă, acțiunile specifice sunt cele care pot fi clasificate drept ilegale. De exemplu, utilizarea Bitcoin pentru achiziționarea anumitor medicamente poate fi legală sau ilegală în funcție de reglementările care reglementează teritoriul în care are loc tranzacția.
-
+Ulterior, utilizarea Bitcoin s-a extins pe piețele dark web, cum ar fi Silk Road, în mare parte datorită naturii sale necontrolabile și pseudonime, care a atras și persoane din afara acestei platforme, inclusiv unele persoane implicate în activități infracționale. Cu toate acestea, este important să subliniem faptul că aplicarea unui instrument, mai degrabă decât instrumentul în sine, este cea care determină legalitatea. Utilizarea ilegală a Bitcoin nu face în mod inerent din cineva un infractor; mai degrabă, acțiunile specifice sunt cele care pot fi clasificate drept ilegale. De exemplu, utilizarea Bitcoin pentru achiziționarea anumitor droguri poate fi legală sau ilegală în funcție de reglementările care se aplică pe teritoriul în care are loc tranzacția.
 
 - Frenezia ICO și sosirea publicului larg.
 
@@ -1056,7 +1055,7 @@ Apoi, din nou în 2020, piața a cunoscut o altă bulă speculativă care a dus 
 
 ### Bitcoin și volatilitatea
 
-Pe baza ciclurilor anterioare, se pare că periodicitatea ciclurilor economice ale Bitcoin este echivalentă cu durata dintre două înjumătățiri, probabil pentru că evenimentul de înjumătățire acționează ca un declanșator, reducând la jumătate emisia de bitcoini noi.
+Pe baza ciclurilor anterioare, se pare că periodicitatea ciclurilor economice ale Bitcoin este echivalentă cu durata dintre două halvinguri, probabil pentru că evenimentul de haling acționează ca un declanșator, reducând la jumătate emisia de noi bitcoini.
 
 Aceste fluctuații semnificative i-au adus Bitcoin reputația de activ extrem de volatil, ducând adesea la pierderi substanțiale pentru utilizatorii săi. Deși prețul poate scădea cu 10%, 20% sau chiar 50% în câteva zile, este important să înțelegem că protocolul Bitcoin în sine nu este afectat de variațiile de preț.
 
@@ -1064,7 +1063,7 @@ Această volatilitate semnificativă este pe deplin acceptată astăzi de actori
 
 ![image](assets/en/69.webp)
 
-Deși perechea btc/dolar fluctuează pe termen scurt, bitcoin, datorită cantității sale limitate de 21 de milioane de bitcoini și procesului său de înjumătățire (înjumătățirea creației monetare la fiecare 4 ani în medie), urmează o tendință generală ascendentă într-un mod cvasi-mecanic. Desigur, ca orice activ financiar, bitcoin este supus ciclurilor economice, inclusiv perioadelor de euforie, bulelor speculative și corecțiilor. Acest fenomen este destul de comun în cazul tehnologiilor emergente, unde piața nu este întotdeauna rațională sau eficientă.
+Deși perechea btc/dolar fluctuează pe termen scurt, bitcoin, datorită cantității sale limitate de 21 de milioane de bitcoini și procesului său de halving (înjumătățirea creației monetare la fiecare 4 ani în medie), urmează o tendință generală ascendentă într-un mod cvasi-mecanic. Desigur, ca orice activ financiar, bitcoin este supus ciclurilor economice, inclusiv perioadelor de euforie, bulelor speculative și corecțiilor. Acest fenomen este destul de comun în cazul tehnologiilor emergente, unde piața nu este întotdeauna rațională sau eficientă.
 
 ### O piață unică
 

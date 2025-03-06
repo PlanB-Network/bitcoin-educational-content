@@ -3,7 +3,7 @@ name: Sats.mobi
 
 description: Un wallet (custodial) a portata di Telegram
 ---
-![cover](assets/it/1.webp)
+![cover](assets/cover.webp)
 # Sats.Mobi
 SatsMobi è un wallet che gira su Telegram, che ha tutte le funzioni di un wallet Lightning Network (custodial) e che offre, in più, una serie di funzionalità molto divertenti.
 Nasce da un fork di LightningTipBot, ormai discontinuo, ne eredita tutte le funzionalità, aggiungendone altre, risultando così più moderno. 
@@ -14,51 +14,51 @@ Se invece si preferisce utilizzarlo in maniera semplice, è sufficiente avviare 
 # Impostazioni
 Dalla barra di ricerca di Telegram, cercare "satsmobi" e comparirà il link al [bot](@SatsMobiBot).
 
-![image](assets/it/2.webp)
+![image](assets/it/01.webp)
 
 Tutto quello che serve per avviarlo, è premere *START*
 
-![image](assets/it/3.webp)
+![image](assets/it/02.webp)
 
 Per esplorare il wallet è possibile selezionare *Menu* in basso a sinistra.
 
-![image](assets/it/4.webp)
+![image](assets/it/03.webp)
 
 Optare ora per */help* tra i comandi principali.
 
-![image](assets/it/5.webp)
+![image](assets/it/04.webp)
 
 Sats.Mobi ci da il benvenuto mostrando un messaggio, in cui sono elencate tutte le principali funzionalità.
 All'avvio il bot ha anche creato un LN Address, collegato all'handle scelto su Telegram (che è unico per default).
 Sono visibili i comandi per inviare e ricevere sats con questo wallet, così come altre funzioni che vedremo in seguito.
 È interessante dare subito un'occhiata anche al menu */advanced*
 
-![image](assets/it/6.webp)
+![image](assets/it/05.webp)
 
 Salta all'occhio che Sats.Mobi ha creato anche un LN Address anonimo, da utilizzare per guadagnare privacy.
 Il bot lavora coi comandi: basta cliccare sulla parola corrispondente, oppure digitare lo slash "/" nella barra del messaggio, seguito dal comando che si desidera fare eseguire.
 Anche se il wallet è stato appena creato, scegliere ad esempio */transactions*
 
-![cimageover](assets/it/7.webp)
+![cimageover](assets/it/06.webp)
 
 Questo comando mostra la lista delle ultime transazioni, in questo particolare caso pari a zero.
 
-![image](assets/it/8.webp)
+![image](assets/it/07.webp)
 
 # Ricevere sats
 
-Il comando per creare una invoice e ricevere sats è */invoice*. Sats.Mobi ragiona esclusivamente in satoshi, l'unità più piccola di Bitcon; per poter creare l'invoice è pertanto necessario scrivere l'importo in sats nella barra dei messaggi e, in seguito, inviarlo nella chato col bot.
+Il comando per creare una invoice e ricevere sats è */invoice*. Sats.Mobi ragiona esclusivamente in satoshi, l'unità più piccola di Bitcon; per poter creare l'invoice è pertanto necessario scrivere l'importo in sats nella barra dei messaggi e, in seguito, inviarlo nella chat col bot.
 
-![image](assets/it/9.webp)
+![image](assets/it/08.webp)
 
 Nell'esempio che segue, si è scelto di ricevere un importo pari a 210 sats.
 
-![cover](assets/it/10.webp)
+![cover](assets/it/09.webp)
 
 Dopo qualche istante di attesa per la preparazione dell'invoice, quest'ultima è disponibile come testo e come QR code.
 Pagando l'invoice il wallet mostra il saldo. Se per qualche motivo il totale non è aggiornato, scrivere */balance* + invio.
 
-![image](assets/it/11.webp)
+![image](assets/it/10.webp)
 
 # Inviare sats
 
@@ -68,12 +68,12 @@ Sebbene i sats siano un bene preziosissimo, da cui non ci si deve separare con s
 
 Il modo più semplice per pagare una invoice è quella di copiare la stringa di messaggio *lnbc1xxxxx* e incollarla nella barra del messaggio dopo aver digitato il comando */pay*. **La sintassi corretta** prevede di lasciare uno spazio dopo il comando.
 
-![image](assets/it/12.webp)
+![image](assets/it/11.webp)
 
 Il wallet manda un messaggio in cui chiede la conferma.
 Cliccando su *Pay* l'invoice viene pagata.
 
-![image](assets/it/13.webp)
+![image](assets/it/12.webp)
 
 Sats.Mobi può contare su un nodo Lightning efficiente e ben connesso, raramente i pagamenti falliscono perché riesce sempre a trovare il routing corretto.
 
@@ -86,32 +86,32 @@ Sats.Mobi è quindi programmato per facilitare al massimo l'esperienza in mobili
 
 Supponiamo, ad esempio, di voler pagare una invoice di 50 sats.
 
-![image](assets/it/22.webp)
+![image](assets/it/20.webp)
 
 Quando questa ci viene mostrata, possiamo fare la foto al relativo QR code.
 
-![image](assets/it/23.webp)
+![image](assets/it/21.webp)
 
 Apriamo quindi Telegram sul cellulare e, nella chat con Sats.Mobi, alleghiamo la foto appena scattata al QR code
 
-![cover](assets/it/24.webp)
+![cover](assets/it/22.webp)
 
 Una volta selezionata, la inviamo al bot e...
 
-![image](assets/it/25.webp)
+![image](assets/it/23.webp)
 
 Sats.Mobi decodifica la foto e **presenta immediatamente la richiesta di pagamento**, con la descrizione corretta. La chat chiede una conferma, per procedere si deve premere */pay*
 
-![image](assets/it/26.webp)
+![image](assets/it/24.webp)
 
 Qualche istante per processare il pagamento
 
-![cover](assets/it/27.webp)
+![cover](assets/it/25.webp)
 
 dopodiché l'invoice da 50 sats risulta pagata, anche senza una fotocamera e relativa funzione di scan integrata.
 
 ## Sats.Mobi nei gruppi Telegram
-![image](assets/it/30.webp)
+![image](assets/it/27.webp)
 
 Delle funzionalità che hanno reso celebre LNTipBot e che Sats.Mobi riporta su Telegram, c'è quella che rende divertente e interattiva l'esperienza dei membri in un gruppo.
 Gli owner possono invitare il bot ad unirsi nella chat di gruppo e poi nominare Sats.Mobi come admin. Da quel momento in poi inizia il bello, perché i membri possono inizare a premiare gli altri utenti per il loro contributo nel gruppo.
@@ -125,34 +125,32 @@ E se non siamo owner di un gruppo? Nessun problema: basta chiedere al fondatore 
 
 # POS
 
-![image](assets/it/30.webp)
-
 Quando si avvia per la prima volta Sats.Mobi, il bot crea per l'utente anche un'altra funzionalità: **il POS**.
 Il "dispositivo" lo attiva l'utente con il comando */pos* oppure cliccando sul relativo pulsante, sulla console in basso a destra. Di fatto il POS è una web app, che si apre come pop-up sulla chat di Telegram
 
-![image](assets/it/16.webp)
+![image](assets/it/14.webp)
 
 L'interfaccia riporta l'handle personale in alto a sinistra e si usa semplicemente come si usano tutti i POS: digitando l'importo sulla tastiera.
 Supponiamo di voler incassare 21 centesimi di euro per un servizio. Sapendo che Sats.Mobi gestisce nativamente soltanto i sats, non è semplice fare la conversione a mente. Al contrario, il POS visualizza l'euro come unità di conto, mostrando al contempo l'equivalente in satoshi.
 
-![image](assets/it/17.webp)
+![image](assets/it/15.webp)
 
 Cliccando su */OK* compare l'invoice che si può mostrare al cliente sottoforma di QR code, oppure inviare con la messaggeria istantanea, per essere pagata
 
-![image](assets/it/18.webp)
-![image](assets/it/19.webp)
+![image](assets/it/16.webp)
+![image](assets/it/17.webp)
 
 Naturalmente il POS è disponibile anche su cellulare, richiamandolo con le stesse modalità mostrate in precedenza.
 
-![image](assets/it/20.webp)
+![image](assets/it/18.webp)
 
 e si presenta ben visualizzabile anche dal display del cellulare
 
-![image](assets/it/21.webp)
+![image](assets/it/19.webp)
 
 # Nostr and Other Stuff
 Altre funzionalità completano l'offerta di Sats.Mobi che, come abbiamo visto, espande il concetto di wallet oltre le operazioni di ricezione ed invio pagamenti.
-- */nostr* per connettere il wallet al proprio user Nostr, sia per ricevere zaps che per inviarli;
+- */nostr* per connettere il wallet al proprio user Nostr per ricevere zaps;
 - */cashback* mostra un codice che si può esibire a un commerciante per ottenere il cashback di una spesa;
 - */buy* inizia una procedura guidata all'interno del bot, che permette di acquistare sats per euro:
 - */activatecard* per richiedere l'attivazione di una carta di debito NFC, ricaricabile attraverso il wallet Sats.Mobi e per la quale è possibile attivare le notifiche;

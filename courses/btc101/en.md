@@ -149,7 +149,7 @@ The evolution of money is a fascinating aspect of human history that reflects th
 ### From shells to bank accounts
 
 Originally, currency was a tangible asset, such as grain, livestock, or another commodity. However, these goods had the major disadvantage of being perishable, making it difficult to use them as a long-term savings medium. For example, poor harvests or animal illness could destroy an individual's wealth overnight.
-Thus, as civilizations advanced and trade expanded to new regions, the need for a universal medium of exchange arised. Individuals first experimented with objects such as shells and gemstones, but they were not as durable or scarse as they believed. Eventually, gold became the standard, due to its rarity, durability, and divisibility. It was, and remains to this day, a symbol of wealth and power.
+Thus, as civilizations advanced and trade expanded to new regions, the need for a universal medium of exchange arised. Individuals first experimented with objects such as shells and gemstones, but they were not as durable or scarce as they believed. Eventually, gold became the standard, due to its rarity, durability, and divisibility. It was, and remains to this day, a symbol of wealth and power.
 
 ![image](assets/en/07.webp)
 
@@ -225,7 +225,7 @@ However, these leaders then begin to devalue the new currency in a gradual way, 
 
 At a critical moment, the leader makes the announcement: the currency is no longer backed by gold. The public, now accustomed to the fiduciary currency and often misinformed about financial matters, accepts this reality, allowing the state to freely manipulate the money supply and print enormous sums of money at almost no cost.
 
-Monetary printing then leads to inflation and gradually impoverishes the population. Besides, the financial system is regulated and restricted to avoid its collapse, since any disruption could provoke a major economic crisis. Contrary to the masses, financial institutions and wealthy individuals highly benefit from this system, which creates a gap of inequality and favores authoritarianism. In this context, they are not incentivized to make radical changes, allowing the system to continue its course until a possible implosion.
+Monetary printing then leads to inflation and gradually impoverishes the population. Besides, the financial system is regulated and restricted to avoid its collapse, since any disruption could provoke a major economic crisis. Contrary to the masses, financial institutions and wealthy individuals benefit greatly from this system, which creates an inequality gap and favors authoritarianism. In this context, they are not incentivized to make radical changes, allowing the system to continue its course until a possible implosion.
 
 When well executed, this strategy can last for decades. However, it is important to note that a very fast devaluation or loss of confidence can lead to hyperinflation (see next chapter). History shows that the dollar has lost 98% of its value in 100 years, the euro 30% in 20 years, and the pound sterling 99% since its creation.
 
@@ -282,7 +282,7 @@ For hyperinflation to occur, certain events must take place.
 
 Phase 1 - Loss of confidence
 
-- Centralization of monetary power facilitates the creation of money and its abuses. In this context, some external factors can trigger hyperinflation, typically wars, social measures, or the price increase of key resources like wheat or gasoline. Thus, a loss of confidence in a currency can arise, and individuals begin to question the origin of money and the benefits of mandated monetary policy.
+- Centralization of monetary power facilitates the creation of money and its abuses. In this context, external factors like wars, government policies, or rising prices of key resources — such as wheat or gasoline — can trigger hyperinflation. Thus, a loss of confidence in a currency can arise, and individuals begin to question the origin of money and the benefits of mandated monetary policy.
 
 Phase 2 - Currency collapse and price increase
 
@@ -306,7 +306,7 @@ Resolving a hyperinflation crisis often requires radical changes, such as revolu
 
   One of the most striking examples of hyperinflation occurred in the German Weimar Republic after World War I.
 
-  Germany had borrowed enormous amounts of money to finance war. However, not only did Germany lose it, but it had to pay billions of dollars in reparations. The month with the highest inflation rate was October 1923, peaking at 29,500%, which was equal to an inflation rate of 20.9% per day. Prices doubled every 3.7 days!
+  Germany had borrowed enormous amounts of money to finance war. However, not only did Germany lose the war, but it had to pay billions of dollars in reparations. The month with the highest inflation rate was October 1923, peaking at 29,500%, which was equal to an inflation rate of 20.9% per day. Prices doubled every 3.7 days!
   The German currency became so useless that some citizens preferred to burn their paper money instead of wood because it was actually cheaper. It is even told that in restaurants, waiters had to announce the menu prices every 30 minutes to account for inflation.
 
 In the end, the authorities created a new currency, backed by the debts of Germany, France, and England, and guaranteed by German land.
@@ -329,7 +329,7 @@ In the end, the authorities created a new currency, backed by the debts of Germa
 
   In 1997, the Zimbabwean dollar collapsed by over 72% after the government agreed to compensate war veterans for the equivalent amount of 450 million US dollars. Since the government did not have such an amount in its supplies, it resorted to running the printing press. In 2005, inflation reached 586%, but the peak was in mid-November 2008 with a rate estimated at 79,600,000,000% per month.
 
-  In June 2007 the government had already reacted by imposing price controls, but this action did not have any influence on the economy. Stores were literally "looted", and merchants no longer had the means to restock their shops.
+  In June 2007 the government had already reacted by imposing price controls, but this action did not have any influence on the economy. Stores were actually looted, and merchants no longer had the means to restock their shops.
 
   In April 2009, the Minister of Finance announced the suspension of the Zimbabwean dollar and authorized the use of different foreign currencies for trade. All bank accounts, pensions, and financial institutions saw their balances evaporate overnight.
 
@@ -338,7 +338,7 @@ In the end, the authorities created a new currency, backed by the debts of Germa
 In conclusion, hyperinflation has the effect of rapidly degrading the value of the currency, leading to the erosion of savings and the loss of confidence in the monetary system. As Voltaire once suggested, a fiat currency will always eventually lose its intrinsic value and converge towards zero.
 A currency that relies on a trusted third party like a financial institution is, in practice and in the long term, a defective one, because it is unable to guarantee purchasing power or preserve savings.
 
-To delve deeper into the subject of hyperinflations, we recommend David St-Onge's ECO 204 course, where you will learn what hyperinflationary cycles are and their real impacts on our lives. You will also discover the similarities between these cycles and, most importantly, how to protect yourself from them.
+To delve deeper into the subject of hyperinflation, we recommend David St-Onge's ECO 204 course, where you will learn what hyperinflationary cycles are and their real impacts on our lives. You will also discover the similarities between these cycles and, most importantly, how to protect yourself from them.
 
 https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
@@ -356,7 +356,7 @@ Its monetary issuance can be illustrated by a curve that represents the quantity
 
 ### How are new bitcoins created?
 
-The creation of new bitcoins is the result of the mining process. In a nutshell, miners use powerful computers that solve complex mathematical problems, which validate and secure transactions. Once a problem is solved, the miner adds a new block of transactions to the blockchain, a decentralized and distributed ledger that records all transactions made on the network. The blockchain ensures transparency and security, as each block is linked to the previous one, making it nearly impossible to alter past data without consensus from the network.
+The creation of new bitcoins is the result of the mining process. In a nutshell, miners use powerful computers that solve complex mathematical problems (hash), which validate and secure transactions. Once a problem is solved (or a valid hash is found), the miner adds a new block of transactions to the blockchain, a decentralized and distributed ledger that records all transactions made on the network. The blockchain ensures transparency and security, as each block is linked to the previous one, making it nearly impossible to alter past data without consensus from the network.
 
 ![image](assets/en/23.webp)
 
@@ -393,9 +393,11 @@ The limit of 21 million is the basis of Bitcoin scarcity, and is guaranteed by t
 
 - The mining difficulty adjustment is a process that takes place every 2016 blocks, or around two weeks, to ensure that a new block is added to the blockchain every ten minutes on average. This frequency of block creation and the total quantity of bitcoins are both fixed aspects of the Bitcoin protocol and cannot be changed without a general consensus, unlike the arbitrary decisions made in traditional monetary systems.
 
-The difficulty of finding a valid hash follows a sort of cycle: if the number of miners increases, it means that the number of blocks they find is higher, which brings to a decrease in the average time to find a block. Because of it, the difficulty is increased. As a consequence, the number of blocks that miners find is lowered, which means that the mechanism goes back to the average of 10 miniutes per block. Please see the image below for a visual display.
+The difficulty of finding a valid hash follows a sort of cycle: if the number of miners increases and more blocks are found faster, this causes a decrease in the average time to find a block and so the difficulty is increased. As a consequence, the number of blocks that miners find is lowered, which means that the mechanism goes back to the average of 10 minutes per block. Please see the image below for a visual display.
 
 ![image](assets/en/24.webp)
+
+Conversely, if fewer miners work and blocks take longer, the mining difficulty decreases, speeding the average block time back up.
 
 Did you know that miners are incentivized to mine a block in order to earn new bitcoins through the block subsidy, as well as transaction fees from the transactions they include in that block?
 
@@ -407,7 +409,7 @@ Thus, as the number of bitcoins issued approaches the 21 million limit, miners w
 
 The idea of devaluing the currency goes against the fundamental philosophy of Bitcoin, so a change in its overall quantity is highly unlikely to happen.
 
-### An auditable monetary molicy: every second, from the beginning and forever!
+### An auditable monetary policy: every second, from the beginning and forever!
 
 The scarcity of Bitcoin is a major asset, and the maximum quantity of 21 million bitcoins in circulation is public and verifiable by anyone.
 
@@ -430,7 +432,7 @@ Bitcoin guarantees a sound monetary management by limiting its creation by desig
 
 In summary, Bitcoin, with its decentralized nature, programmed scarcity, and transparency, offers a unique alternative to traditional monetary systems. It illustrates how technology can be used to create a currency that not only is useful and verifiable, but also preserves the value of users' savings by strictly limiting its supply.
 
-### Conclusion of section 1!
+### Conclusion of section 2!
 
 # Bitcoin Wallets
 

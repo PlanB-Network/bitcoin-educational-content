@@ -7,6 +7,7 @@ description: プランの完全ガイド † GitHub Desktopを使ったネット
 新しいチュートリアルを追加するためのこのチュートリアルに従う前に、いくつかの予備ステップを完了する必要があります。まだ完了していない場合は、まずこの入門チュートリアルをご覧ください：
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 あなたはすでに持っている：
 
 
@@ -20,12 +21,14 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 - 経験者** ：
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+
 ローカル環境を設定したくない場合は、初心者向けのチュートリアルに従い、GitHubのウェブインターフェイスから直接変更を行ってください：
 
 
 - 初心者向け（ウェブインターフェース）** ：
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## 前提条件
 
 このチュートリアルに必要なソフトウェア ：
@@ -47,9 +50,13 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-web-b
 これらの前提条件を得るのに手助けが必要な場合は、私の他のチュートリアルが役に立つだろう：
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 すべての準備が整い、ローカル環境に独自の Plan ₿ Network フォークがセットアップされたら、チュートリアルの追加を開始できます。
 
 ## 1 - 新しいブランチを作る
@@ -141,6 +148,7 @@ Pour la case "PBN professor's ID", saisissez votre identifiant en utilisant les 
 ![TUTO](assets/fr/47.webp)
 Pour plus de détails sur votre identifiant de professeur, veuillez consulter le tutoriel suivant :
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Une fois toutes les informations saisies et vérifiées, cliquez sur "Create Tutorial" pour valider la création des fichiers de votre tutoriel. Cela générera en local le dossier de votre tutoriel et tous les fichiers nécessaires dans le dossier de la catégorie sélectionnée.
 ![TUTO](assets/fr/48.webp)
 Vous pouvez maintenant passer outre la sous-partie "Sans mon script Python", ainsi que l'étape 3 "Remplir le fichier YAML", car le script a déjà effectué ces actions automatiquement pour vous. Passez directement à l'étape 4 et à la rédaction de votre tutoriel.
@@ -246,6 +254,7 @@ contributors_id：
 教師IDの詳細については、対応するチュートリアルを参照してください：
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 以下は、Blockstream Green ウォレットのチュートリアル用に完成した `tutorial.yml` ファイルの例です：
 
 ```yaml

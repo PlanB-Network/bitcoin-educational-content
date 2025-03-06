@@ -7,6 +7,7 @@ description: 使用 COLDCARD Q 的高级选项
 在之前的教程中，我们为初学者介绍了 COLDCARD Q 的初始配置及其基本功能。如果您刚收到 COLDCARD Q，还没有对其进行设置，我建议您先从该教程开始，然后再继续学习：
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 本新教程专门介绍 COLDCARD Q 的高级选项，专为高级和偏执用户设计。事实上，COLDCARD 与其他硬件钱包的不同之处在于其拥有许多高级安全功能。当然，您不必使用所有这些选项。只需选择适合您的安全策略的选项即可。
 
 **警告**，错误使用某些高级选项可能会导致比特币丢失或硬件钱包损坏。因此，我强烈建议您仔细阅读每个选项的建议和说明。
@@ -20,6 +21,7 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 如果你不知道什么是 BIP39 口令，或者不完全清楚它是如何工作的，我强烈建议你事先看看本教程，其中涵盖了了解使用口令相关风险所需的理论基础：
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 请记住，一旦您在钱包上设置了口令，仅凭口令是不足以重新获取比特币的。您需要同时使用密码和口令。此外，每次解锁 COLDCARD Q 时，您都需要输入口令。这样可以提高安全性，因为没有口令，就无法实际访问 COLDCARD 和了解 PIN 码。
 
 在 COLDCARD 上，有两个管理密码的选项：
@@ -67,6 +69,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 请记住，使用口令意味着您需要将一组新密钥导入钱包管理软件（如 Sparrow 钱包），这组新密钥由您的记忆短语和口令组合而成。为此，请按照本教程中的 "*在 Sparrow 上配置新钱包*"步骤操作：
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 ## 解锁选项
 
 COLDCARD 在设备解锁过程中还可以使用多种选项。让我们进一步了解这些高级选项。

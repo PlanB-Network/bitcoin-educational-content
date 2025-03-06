@@ -11,6 +11,7 @@ In diesem Tutorial werden wir den Prozess der Erstellung eines Kraken-Geschäfts
 Wenn Sie sich für das Thema der Integration von Bitcoin in Ihr Unternehmen interessieren, empfehle ich Ihnen auch unsere komplette theoretische Schulung zu diesem Thema zu entdecken:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - Erstellen eines Kraken-Firmenkontos
 
 Der erste Schritt bei der Nutzung von Kraken zur Verwaltung der Finanzen Ihres Unternehmens ist natürlich die Erstellung eines Kontos. In diesem Fall werden wir kein Konto für Einzelpersonen erstellen, sondern ein Unternehmenskonto, das nicht nur die Einhaltung gesetzlicher Vorschriften gewährleistet, sondern auch speziell zugeschnittene Funktionen wie Buchhaltungsexporte bietet.
@@ -78,6 +79,7 @@ Bei den 2FA-Optionen können Sie einen physischen Sicherheitsschlüssel als zwei
 Weitere Informationen zur Verwendung dieses Gerätetyps finden Sie in unserer speziellen Anleitung:
 
 https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
 Die andere Möglichkeit ist die Verwendung einer Authentifizierungsanwendung wie Google Authenticator oder Authy. Diese Anwendungen generieren einen dynamischen 6-stelligen Code, den Sie jedes Mal eingeben müssen, wenn Sie sich anmelden.
 
 ![KRAKEN](assets/fr/12.webp)
@@ -89,6 +91,7 @@ Um diese Methode zu aktivieren, scannen Sie den QR-Code mit der Anwendung Ihrer 
 Weitere Informationen zu Authentifizierungsanwendungen finden Sie auch in diesem Tutorial:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Darunter haben Sie auch Zugriff auf erweiterte Einstellungen, einschließlich der Möglichkeit, mehrere verschiedene 2FAs festzulegen. Kraken bietet eine erweiterte Sicherheitsdelegation über 2FA. Diese Funktion ermöglicht es Ihnen, verschiedene 2FA-Stufen für verschiedene Aktionen wie Anmeldung, Auftragsvalidierung und Geldabhebung zu erstellen. Auf diese Weise ist es beispielsweise möglich, einem Buchhalter Zugang zu bestimmten Funktionen zu geben, ohne dass er oder sie Geld abheben kann. Hier sind die Optionen:
 
 

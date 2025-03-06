@@ -54,6 +54,7 @@ Bitstack 的交易费用根据过去 30 天的交易量而有所不同：
 为确保日常密码管理的安全性，强烈建议使用密码管理器。在 Plan ₿ Network 上，您可以找到一些关于现有最佳解决方案的教程，如 Bitwarden ：
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 然后，您将被要求验证身份（KYC）。根据法国的规定，您需要提供个人资料和身份证明。在方框内填写您的姓氏、名字和出生日期。
 
 ![Image](assets/fr/07.webp)

@@ -564,8 +564,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-4
 Par exemple, vous pouvez utiliser un Ledger, un Satochip ou un Tapsigner :
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Niveau 3**, vous utilisez un portefeuille de niveau 1 ou 2, mais vous avez ajouté une phrase de passe supplémentaire. Dans ce cas, vous devez sauvegarder à la fois la liste des 12/24 mots **et\*\* votre phrase de passe. Idéalement, ces deux informations sont stockées dans deux endroits différents.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Pour en savoir plus sur l'utilisation et le fonctionnement de la phrase de passe BIP39 :
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Niveau 4\*\*, vous utilisez un ensemble de portefeuilles pour créer un portefeuille "multisig", ce qui signifie que plusieurs signatures sont nécessaires pour effectuer une transaction. Dans ce cas, il faut savoir que chaque partie de la signature multiple doit être stockée à des endroits différents. Cette approche est souvent considérée comme une utilisation avancée de Bitcoin, principalement pour la gestion de montants importants et pour les entreprises.

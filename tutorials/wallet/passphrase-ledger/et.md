@@ -29,7 +29,9 @@ Selles õpetuses kasutan näitena Ledger Flexi. Kui kasutad aga mõnda teist Led
 Enne selle õpetuse alustamist veenduge, et olete oma Ledgeri juba seadistanud ja genereerinud oma mnemoonilise fraasi. Kui see pole nii ja teie Ledger on uus, järgige oma mudeli jaoks saadaolevat spetsiifilist õpetust PlanB võrgustikus. Kui see samm on lõpetatud, võite naasta selle õpetuse juurde.
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Kuidas seadistada ajutist paroolilause Ledgeris?

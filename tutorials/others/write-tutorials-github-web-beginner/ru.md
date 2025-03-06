@@ -7,6 +7,7 @@ description: Полное руководство по планированию �
 Прежде чем следовать этому руководству по добавлению нового учебника, вам необходимо выполнить несколько предварительных шагов. Если вы еще не сделали этого, ознакомьтесь сначала с этим вводным уроком, а затем вернитесь сюда:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 У вас уже есть :
 
 
@@ -24,6 +25,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0
 - Промежуточный уровень (GitHub Desktop)** :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+
 ## Пререквизиты
 
 Необходимые условия перед началом обучения :
@@ -36,9 +38,13 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 Если вам нужна помощь в получении этих предварительных условий, вам помогут другие мои руководства:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Когда все готово и у вас есть форк репозитория Plan ₿ Network, вы можете начать добавлять учебник.
 
 ## 1 - Создайте новую ветку
@@ -156,6 +162,7 @@ reward:
 Для получения более подробной информации об идентификаторе учителя обратитесь к соответствующему руководству:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Вот пример файла `tutorial.yml`, заполненного для учебника по кошельку Blockstream Green:
 
 ```

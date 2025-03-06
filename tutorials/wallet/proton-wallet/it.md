@@ -15,6 +15,7 @@ La particolarità di questo portafoglio è la possibilità di inviare bitcoin ut
 Per utilizzare Proton Wallet, è necessario disporre di un account Proton. Potete crearne uno gratuitamente seguendo i primi passi di questo tutorial dedicato alla creazione di una casella di posta elettronica Proton (solo la sezione "*Creazione di un account Proton*"). Una volta configurato l'account, si può proseguire con il resto del tutorial.
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## Connettersi a Proton Wallet
 
 Andate su [il sito web di Proton Wallet](https://proton.me/wallet) e cliccate sul pulsante "*Get Proton Wallet*".
@@ -68,6 +69,7 @@ Potete scriverlo su un foglio di carta o, per maggiore sicurezza, vi consiglio d
 Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemonica, vi consiglio di seguire quest'altro tutorial, soprattutto se siete principianti:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 naturalmente, non dovreste mai fotografare queste parole, a differenza di quanto faccio io in questo tutorial.**_
 
 Una volta salvata la frase, fate clic sul pulsante "*Fatto*".
@@ -95,6 +97,7 @@ Qui è possibile aggiungere una passphrase BIP39 a un nuovo portafoglio.
 Per approfondire la conoscenza della passphrase, vi consiglio questo tutorial:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ## Ricevere bitcoin
 
 Per ricevere bitcoin nel proprio portafoglio, selezionare il conto desiderato sulla sinistra dell'interfaccia, quindi fare clic sul pulsante "*Ricevi*".

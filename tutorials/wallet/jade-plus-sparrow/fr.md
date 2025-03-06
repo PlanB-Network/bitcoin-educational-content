@@ -432,3 +432,4 @@ Félicitations, vous savez dorénavant comment configurer et utiliser le Jade Pl
 Pour aller plus loin, je vous recommande de consulter cet autre tutoriel sur le Jade Plus, où nous le configurons en Bluetooth avec l'application mobile Green :
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+

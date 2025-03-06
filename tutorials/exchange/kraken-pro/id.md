@@ -11,6 +11,7 @@ Dalam tutorial ini, kita akan membahas proses pembuatan akun bisnis Kraken, memb
 Jika Anda tertarik dengan topik mengintegrasikan bitcoin ke dalam bisnis Anda, saya juga merekomendasikan untuk mempelajari kursus pelatihan teori lengkap kami tentang topik ini:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - Membuat akun perusahaan Kraken
 
 Langkah pertama dalam menggunakan Kraken untuk mengelola keuangan perusahaan Anda, tentu saja, adalah membuat akun. Di sini, kami tidak akan membuat akun untuk individu, tetapi akun perusahaan, yang tidak hanya memastikan kepatuhan terhadap peraturan, tetapi juga menawarkan fitur-fitur yang dirancang khusus seperti ekspor akuntansi.
@@ -78,6 +79,7 @@ Pada opsi 2FA, Anda bisa memilih untuk menggunakan kunci keamanan fisik sebagai 
 Untuk informasi lebih lanjut mengenai cara menggunakan jenis perangkat ini, lihat tutorial khusus kami:
 
 https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
 Pilihan lainnya adalah menggunakan aplikasi autentikasi seperti Google Authenticator atau Authy. Aplikasi ini menghasilkan kode 6 digit dinamis yang harus Anda masukkan setiap kali Anda masuk.
 
 ![KRAKEN](assets/fr/12.webp)
@@ -89,6 +91,7 @@ Untuk mengaktifkan metode ini, pindai kode QR dengan aplikasi pilihan Anda pada 
 Untuk informasi lebih lanjut mengenai aplikasi autentikasi, Anda juga dapat membaca tutorial ini:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Di bawahnya, Anda juga memiliki akses ke pengaturan tingkat lanjut, termasuk kemampuan untuk mengatur beberapa 2FA yang berbeda. Kraken menawarkan pendelegasian keamanan tingkat lanjut melalui 2FA. Fitur ini memungkinkan Anda untuk membuat level 2FA yang berbeda untuk berbagai tindakan, seperti login, validasi pesanan, dan penarikan dana. Hal ini memungkinkan, misalnya, untuk memberikan akses kepada akuntan ke fungsi tertentu tanpa mengizinkannya menarik dana. Berikut adalah pilihannya:
 
 

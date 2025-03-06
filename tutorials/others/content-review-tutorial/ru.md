@@ -34,6 +34,7 @@ Plan ₿ Network в основе своей многоязычна, поскол
 Однако если вы не знакомы с Git и GitHub и хотите узнать больше, вы можете ознакомиться с нашей вводной статьей об этих инструментах:
 
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 ## 1. Создать учетную запись
 
 

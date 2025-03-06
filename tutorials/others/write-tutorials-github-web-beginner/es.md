@@ -7,6 +7,7 @@ description: Guía completa para Planificar ₿ Tutoriales en red con GitHub Web
 Antes de seguir este tutorial sobre cómo añadir un nuevo tutorial, necesita haber completado algunos pasos preliminares. Si aún no lo ha hecho, eche un vistazo primero a este tutorial introductorio y luego vuelva aquí :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Ya tienes :
 
 
@@ -24,6 +25,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0
 - Intermedio (GitHub Desktop)** :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+
 ## Requisitos previos
 
 Requisitos previos antes de empezar el tutorial :
@@ -36,9 +38,13 @@ Requisitos previos antes de empezar el tutorial :
 Si necesitas ayuda para conseguir estos requisitos previos, mis otros tutoriales te ayudarán:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Una vez que todo esté en su lugar y tengas tu fork del repositorio Plan ₿ Network, puedes empezar a añadir el tutorial.
 
 ## 1 - Crear una nueva sucursal
@@ -156,6 +162,7 @@ Estos son los campos obligatorios:
 Para más detalles sobre su ID de profesor, consulte el tutorial correspondiente :
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Este es un ejemplo de un archivo `tutorial.yml` completado para un tutorial sobre el monedero Blockstream Green:
 
 ```

@@ -7,6 +7,7 @@ description: Komplett guide til Plan ₿ Nettverksopplæring med GitHub Web
 Før du følger denne veiledningen om hvordan du legger til en ny opplæring, må du ha fullført noen innledende trinn. Hvis du ikke allerede har gjort det, kan du ta en titt på denne introduksjonsveiledningen først, og deretter komme tilbake hit :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Du har allerede :
 
 
@@ -24,6 +25,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0
 - Mellomnivå (GitHub Desktop)** :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+
 ## Forutsetninger
 
 Forutsetninger før du starter opplæringen :
@@ -36,9 +38,13 @@ Forutsetninger før du starter opplæringen :
 Hvis du trenger hjelp med å skaffe deg disse forutsetningene, kan du finne hjelp i de andre veiledningene mine:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Når alt er på plass og du har en gaffel av Plan ₿ Network-depotet, kan du begynne å legge til opplæringen.
 
 ## 1 - Opprett en ny filial
@@ -156,6 +162,7 @@ Her er de obligatoriske feltene:
 For mer informasjon om lærer-ID-en din, se den tilhørende veiledningen :
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Her er et eksempel på en `tutorial.yml`-fil som er fylt ut for en opplæring om Blockstream Green-lommeboken:
 
 ```

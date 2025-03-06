@@ -20,6 +20,7 @@ En este tutorial, me gustaría presentarte una de estas soluciones: la **COLDCAR
 Como la COLDCARD Q ofrece multitud de funciones, propongo dividir su uso en 2 tutoriales. En este primer tutorial, veremos la configuración inicial y las funciones básicas del dispositivo. A continuación, en un segundo tutorial, veremos cómo aprovechar todas las opciones avanzadas de su COLDCARD.
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ---
 ## Presentación de COLDCARD Q
 
@@ -81,6 +82,7 @@ Si prefiere alimentar su COLDCARD sin conectarla a un ordenador (air-gap), inser
 Para este tutorial, también necesitarás Sparrow Wallet para gestionar tu monedero Bitcoin en tu ordenador. Descarga [Sparrow Wallet](https://sparrowwallet.com/download/) desde el sitio web oficial. Te recomiendo encarecidamente que compruebes tanto su autenticidad (con GnuPG) como su integridad (mediante hash) antes de proceder con la instalación. Si no sabes cómo hacerlo, sigue este tutorial:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ## Selección del código PIN
 
 Ahora puede encender su COLDCARD pulsando el botón situado en la esquina superior izquierda.
@@ -160,6 +162,7 @@ En este punto, recomendamos encarecidamente comprobar la integridad y autenticid
 Si no estás familiarizado con este proceso de verificación, te recomiendo que sigas este tutorial:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Tome una tarjeta microSD y transfiera a ella el archivo de firmware (documento en `.dfu`). Inserta la tarjeta microSD en uno de los puertos de tu COLDCARD.
 
 ![CCQ](assets/fr/021.webp)
@@ -199,6 +202,7 @@ En este menú encontrarás varias opciones de personalización, como ajustar el 
 Veremos otros ajustes avanzados en el próximo tutorial:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ## Crear un monedero Bitcoin
 
 Ahora es el momento de generar un nuevo monedero Bitcoin Para ello, necesita crear una frase mnemotécnica. En Coldcard, tienes tres métodos para generar esta frase:
@@ -329,6 +333,7 @@ Antes de recibir tus primeros bitcoins en tu monedero, **te aconsejo encarecidam
 Para saber más sobre cómo realizar una prueba de recuperación, te sugiero que consultes este otro tutorial:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Recibir bitcoins
 
 Para recibir tus primeros bitcoins, empieza por encender y desbloquear tu COLDCARD.
@@ -380,6 +385,7 @@ Ahora puedes añadir una "*Etiqueta*" para describir la fuente de bitcoins que s
 Para más información sobre el etiquetado, también recomiendo este otro tutorial:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 A continuación, puede utilizar esta dirección para recibir bitcoins.
 
 ![CCQ](assets/fr/063.webp)

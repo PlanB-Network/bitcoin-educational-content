@@ -452,3 +452,4 @@ Félicitations, vous savez dorénavant comment configurer et utiliser le Passpor
 Pour aller plus loin, vous pouvez également consulter notre tutoriel sur le logiciel Liana :
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

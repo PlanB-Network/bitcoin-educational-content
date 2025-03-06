@@ -54,6 +54,7 @@ Valige tugev salasõna, et tagada juurdepääs oma kontole, seejärel klõpsake 
 Igapäevaseks turvaliseks paroolide haldamiseks on väga soovitatav kasutada paroolihaldurit. Plan ₿ Networkist leiate mitmeid õpetusi parimate olemasolevate lahenduste kohta, näiteks Bitwarden :
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Seejärel palutakse teil kontrollida oma isikut (KYC). Vastavalt Prantsusmaa eeskirjadele palutakse teil esitada oma isikuandmed ja isikut tõendavad dokumendid. Täitke lahtritesse oma perekonnanimi, eesnimi ja sünniaeg.
 
 ![Image](assets/fr/07.webp)

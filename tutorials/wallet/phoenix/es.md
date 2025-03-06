@@ -60,6 +60,7 @@ Puedes escribirla en papel o, para mayor seguridad, grabarla en acero inoxidable
 Para más información sobre la forma correcta de guardar y gestionar tu frase mnemotécnica, te recomiendo encarecidamente que sigas este otro tutorial, especialmente si eres principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 Haga clic en el mensaje que aparece en la parte superior de la interfaz "*Guarde su cartera...*".
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Enhorabuena, ahora ya sabes cómo configurar y utilizar Phoenix. Si has encontra
 Para ir un paso más allá, echa un vistazo a este tutorial sobre Alby Hub, otra solución innovadora y fácil de usar para lanzar tu propio nodo Lightning:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 Y para saber más sobre el funcionamiento técnico de la Red Rayo, puedes encontrar la excelente formación gratuita de Fanis Michalakis sobre Plan ₿ Red :
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

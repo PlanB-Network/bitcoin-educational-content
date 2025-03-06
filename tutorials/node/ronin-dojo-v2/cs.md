@@ -321,6 +321,7 @@ Podrobný tutoriál je připravován, aby vás krok za krokem provedl procesem c
 Pro hlubší pochopení coinjoin a jeho použití na Bitcoinu, vás také zvu, abyste si přečetli tento další článek: Understanding and using coinjoin on Bitcoin, kde detailně popisuji vše, co potřebujete vědět o této technice.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ### Používání nástroje Whirlpool Stat Tool (WST)
 
 Po provedení coinjoinů s Whirlpool je užitečné přesně zhodnotit dosaženou úroveň soukromí pro vaše smíchané UTXO. K tomu můžete použít Python nástroj *Whirlpool Stat Tool*. Tento nástroj umožňuje měřit jak perspektivní, tak retrospektivní skóre vašich UTXO, zatímco analyzuje jejich míru rozptylu v bazénu.

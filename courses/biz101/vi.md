@@ -254,6 +254,7 @@ Bitcoin challenges us to reconsider the nature of money itself. Could you explai
 For more information on Bitcoin, its history, how it works, and its use, I also suggest following this other comprehensive course:
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+
 ## Introduction to the Lightning Network
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -335,6 +336,7 @@ The Lightning Network is ideal for Bitcoin payments in physical or online stores
 For more information on the technical workings of the Lightning Network, I also suggest following this other comprehensive course:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 # Bitcoin in treasury
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -454,8 +456,11 @@ These thinkers shaped the idea that state intervention distorts markets and that
 For more information on this topic:
 
 https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+
 https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+
 ## Holding bitcoin in treasury
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -630,7 +635,9 @@ This is by far the most common method, done either via peer-to-peer exchanges or
 To learn how to open a business account and use it to buy, sell, and transfer bitcoins, you can check out these two tutorials specifically designed for businesses, covering the Kraken and Bitfinex platforms in their corporate versions:
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+
 https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+
 To learn more about methods for acquiring bitcoins via an exchange or peer-to-peer, you can [consult the "exchange" section in our tutorials](https://planb.network/tutorials/exchange).
 
 ![BIZ101](assets/en/16.webp)
@@ -943,14 +950,21 @@ For detailed tutorials on the recommended wallets and basic setup, please consul
 **Self-custodial LN wallets/nodes:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
 https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
+
 **Custodial LN wallets:**
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+
 ## The Essential
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
@@ -982,12 +996,15 @@ Although the Essential profile does not demand highly sophisticated accounting s
 The most suitable hybrid solution for your profile is likely Swiss Bitcoin Pay:
 
 https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
 Another easy-to-implement solution, but with the drawback of being 100% custodial, is Open Node:
 
 https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
 If you are ready to get your hands dirty and want full control over the process, the BTCPay Server software is an excellent option. However, the major drawback of BTCPay Server is that its setup and management are time-consuming and require a certain level of technical expertise, but you can follow our guides:
 
 https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+
 Finally, as a complement for physical points of sale, you could consider setting up [a Bitcoinize PoS](https://bitcoinize.com/).
 
 ## The Professional
@@ -1025,6 +1042,7 @@ When it comes to real-world examples, consider a mid-sized e-commerce store spec
 To delve deeper into implementation specifics and to explore hands-on configurations of BTC Pay Server, refer to the following course:
 
 https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+
 ## The Enterprise
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
@@ -1275,6 +1293,7 @@ However, a simple `.csv` file containing the transaction history is often suffic
 For those who self-custody their Bitcoin, managing UTXOs (*Unspent Transaction Outputs*) is an important step. Proper UTXO labelling helps trace the origin of each BTC fragment, differentiate transactions related to professional activity from those for personal expenses, and facilitate traceability for legal or tax purposes. Most good Bitcoin wallet software allows you to import your wallet using your backup file (or your xpub, depending on your setup) and tag UTXOs based on their origin or destination. To assist you, here is a complete tutorial dedicated to this practice:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 Finally, whether you are a small merchant or a more established business, it is possible to **settle an invoice in Bitcoin**. The key is to properly document the transaction. If you pay from a self-custody wallet, it is ideal to generate a transaction noting the invoice number and purpose of the payment in your labels. If you prefer to settle the invoice via an exchange, you will also have the option to export a receipt or transaction history to include in your accounting records. This transparency will simplify the tracking and reporting of all your BTC operations.
 
 ## Practical Bitcoin accounting examples

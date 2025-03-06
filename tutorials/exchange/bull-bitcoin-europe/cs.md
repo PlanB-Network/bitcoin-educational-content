@@ -49,6 +49,7 @@ Naskenujte QR kód pomocí autentizační aplikace, zadejte šestimístný kód 
 Pokud nejste obeznámeni s používáním ověřovacích aplikací pro 2FA, doporučuji vám podívat se na tento návod na aplikaci Authy:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Pro potvrzení zadejte své heslo.
 
 ![BULL](assets/fr/09.webp)
@@ -125,6 +126,7 @@ Zadejte částku, kterou chcete zakoupit. Musíte také zvolit, jakým způsobem
 Pokud nejste obeznámeni s používáním peněženek Bitcoin, Lightning nebo Liquid, doporučuji vám absolvovat náš specializovaný školící kurz:
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 Můžete si také prohlédnout [naše podrobné návody na nejlepší bitcoinové peněženky](https://planb.network/tutorials/wallet).
 
 Poté potvrďte nákup kliknutím na "*Potvrdit nákup*".

@@ -37,6 +37,7 @@ Jade Plus ühildub enamiku portfellihaldustarkvaraga. Siin on kokkuvõte ühildu
 Selles õpetuses seadistame Jade Plusi täiustatud konfiguratsiooni koos töölauaprogrammi Sparrow Wallet tarkvara QR-koodide režiimiga. See konfiguratsioon sobib ideaalselt edasijõudnutele või kogenud kasutajatele. Kui otsite lihtsamat lähenemist algajatele, siis soovitan vaadata seda õpetust, kus kasutame Jade Plus'i koos Green Walletiga Bluetooth-ühenduse kaudu:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+
 ## Jade Plus ohutusmudel
 
 Jade Plus kasutab turvamudelit, mis põhineb "virtuaalsel turvalisel elemendil", mille materialiseerib "pime oraakel". Konkreetselt öeldes ühendab see mehhanism kasutaja valitud PIN-koodi, Jade'is hoitava saladuse ja oraakli (Blockstream'i hallatav server) saladuse, et luua kahe üksuse vahel jaotatud AES-256 võti. Algatamise ajal kindlustab ECDH-vahetus side oraakliga ja krüpteerib taastamislause riistvara rahakotis. Praktiliselt öeldes, kui soovite juurdepääsu seemnele tehingute allkirjastamiseks, vajate juurdepääsu :
@@ -111,6 +112,7 @@ Võite kirjutada selle karbis olevale papile või täiendava turvalisuse tagamis
 Lisateavet selle kohta, kuidas oma mnemofraasi õigesti salvestada ja hallata, soovitan kindlasti jälgida seda teist õpetust, eriti kui olete algaja:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 loomulikult ei tohi te neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus.**_
 
 Klõpsake ekraani paremas servas oleval noolega, et kuvada järgmised sõnad.
@@ -268,6 +270,7 @@ BIP39 parool on vabatahtlik salasõna, mille saate vabalt valida ja mis lisataks
 Enne selle suvandi seadistamist oma Jade Plus'is on tungivalt soovitatav lugeda seda artiklit, et mõista täielikult salasõna teoreetilist toimimist ja vältida vigu, mis võivad viia teie bitcoinide kaotamiseni:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Kui teie Jade on endiselt lukustatud (paroollauset saab sisestada ainult siis, kui seade ei ole lukustamata), avage menüü "*Options*".
 
 ![Image](assets/fr/42.webp)
@@ -320,6 +323,7 @@ Iga kord, kui avate oma Jade'i oma parooliga, kontrollige, et sõrmejälg oleks 
 Enne esimeste bitcoinide saamist oma rahakotti, ** soovitan teil tungivalt teha tühja taastamistesti**. Pange kirja mõned võrdlusandmed, näiteks oma xpub või esimene vastuvõtuaadress, seejärel kustutage oma rahakott Jade Plus'is, kui see on veel tühi (`Options -> Device -> Factory Reset`). Seejärel proovige taastada oma rahakott, kasutades oma paberkandjal varukoopiaid mälulause ja mis tahes salasõna. Kontrollige, et pärast taastamist genereeritud küpsisteave vastaks sellele, mille algselt kirja panite. Kui see vastab, võite olla kindel, et teie paberkandjal varukoopiad on usaldusväärsed. Kui soovite rohkem teada saada, kuidas teha proovitaastamist, vaadake seda teist õpetust:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Rahakoti konfigureerimine Sparrow Wallet'is
 
 Selles õpetuses tutvustan Jade Plusi täiustatud kasutamist Sparrow Wallet'i abil. See riistvaraline rahakott ühildub aga paljude teiste programmidega, näiteks Liana, Nunchuk, Specter, Green ja Keeper. Need ühilduvused erinevad ühenduste osas: USB, Bluetooth või QR-kood (vt täpsemalt tabelit sissejuhatuses).
@@ -331,6 +335,7 @@ Alustage Sparrow Walleti allalaadimisest ja installimisest [ametlikul veebisaidi
 Enne paigaldamist kontrollige kindlasti tarkvara autentsust ja terviklikkust. Kui te ei tea, kuidas seda teha, vaadake seda õpetust:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Kui Sparrow Wallet on avatud, klõpsake vahekaardil "*Fail*" ja seejärel "*Uus rahakott*".
 
 ![Image](assets/fr/51.webp)

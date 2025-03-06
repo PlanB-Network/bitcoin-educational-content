@@ -15,6 +15,7 @@ A caraterística especial desta carteira é a capacidade de enviar bitcoins util
 Para utilizar a Carteira Proton, precisa de uma conta Proton. Pode criar uma gratuitamente seguindo os primeiros passos deste tutorial dedicado à criação de uma caixa de correio Proton (apenas a secção "*Criar uma conta Proton*"). Assim que a sua conta estiver configurada, pode continuar com o resto deste tutorial.
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## Ligar à Carteira Proton
 
 Aceda ao [sítio Web da Proton Wallet] (https://proton.me/wallet) e clique no botão "*Get Proton Wallet*".
@@ -68,6 +69,7 @@ Pode escrevê-lo num pedaço de papel ou, para maior segurança, recomendo que o
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 é claro que nunca se deve tirar uma fotografia destas palavras, ao contrário do que faço neste tutorial
 
 Clique no botão "*Finalizado*" depois de ter guardado a sua frase.
@@ -95,6 +97,7 @@ Para criar uma nova carteira, clique no símbolo "*+*" junto a "*Carteiras*".
 Para aprofundar os seus conhecimentos sobre a frase-chave, recomendo este tutorial:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ## Receber bitcoins
 
 Para receber bitcoins na sua carteira, selecione a conta desejada no lado esquerdo da interface e clique no botão "*Receber*".

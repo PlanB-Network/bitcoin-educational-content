@@ -64,6 +64,7 @@ Külastage ametlikku Wizardsardine'i veebisaiti ja laadige Liana alla aadressil 
 Selleks, et teada saada, kuidas käsitsi kontrollida tarkvara autentsust ja terviklikkust enne installimist, soovitame tutvuda selle õpetusega :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Paigaldage tarkvara oma masinasse ja käivitage see. Valige oma rahakoti konfigureerimiseks valik "*Loo uus Liana rahakott*".
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -193,6 +194,7 @@ Saate kontrollida oma vahendite aegumise staatust, kui lähete vahekaardile "*M�
 Bitcoinis kasutatava UTXO esindusmudeli paremaks mõistmiseks võite tutvuda Loïc Moreli kirjutatud Bitcoini konfidentsiaalsuse kursuse esimese osaga:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Jooksvad kulud
 
 Praegused kulutused on Liana kasutamise normaalne olukord. Bitcoinide saatmine põhivõtmega toimib nagu kõigis klassikalistes Bitcoini rahakottides, näiteks Electrum või Sparrow.

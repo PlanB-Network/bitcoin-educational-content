@@ -60,6 +60,7 @@ Bạn có thể viết nó trên giấy hoặc, để tăng thêm tính bảo m�
 Để biết thêm thông tin về cách lưu và quản lý cụm từ ghi nhớ đúng cách, tôi thực sự khuyên bạn nên làm theo hướng dẫn khác này, đặc biệt nếu bạn là người mới bắt đầu:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 Nhấp vào thông báo hiển thị ở đầu giao diện "*Lưu ví của bạn...*".
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Xin chúc mừng, giờ bạn đã biết cách cấu hình và sử dụng Phoe
 Để tìm hiểu sâu hơn, hãy xem hướng dẫn này về Alby Hub, một giải pháp sáng tạo và dễ sử dụng khác để khởi chạy nút Lightning của riêng bạn:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 Và để tìm hiểu thêm về hoạt động kỹ thuật của Lightning Network, bạn có thể tìm thấy khóa đào tạo miễn phí tuyệt vời của Fanis Michalakis về Plan ₿ Network:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

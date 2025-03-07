@@ -446,7 +446,7 @@ Por ejemplo, supongamos que el dividendo es $-20$ y el divisor 3. El valor más 
 
 En cuanto a la notación, normalmente verás los siguientes tipos de expresiones: $x = [y \mod z]$. Debido a los paréntesis, la operación módulo en este caso sólo se aplica al lado derecho de la expresión. Si $y$ es igual a 25 y $z$ es igual a 4, por ejemplo, entonces $x$ se evalúa como 1.
 
-Sin paréntesis, la operación módulo actúa sobre *ambos lados* de una expresión. Supongamos, por ejemplo, la siguiente expresión: $x = y \mod z$. Si $y$ es igual a 25 y $z$ es igual a 4, entonces todo lo que sabemos es que $x \mod 4$ se evalúa a 1. Esto es consistente con cualquier valor de $x$ del conjunto ${{ldots,-7, -3, 1, 5, 9,\ldots\}$.
+Sin paréntesis, la operación módulo actúa sobre *ambos lados* de una expresión. Supongamos, por ejemplo, la siguiente expresión: $x = y \mod z$. Si $y$ es igual a 25 y $z$ es igual a 4, entonces todo lo que sabemos es que $x \mod 4$ se evalúa a 1. Esto es consistente con cualquier valor de $x$ del conjunto $\{\ldots, -7, -3, 1, 5, 9, \ldots\}.$
 
 La rama de las matemáticas que incluye operaciones modulares con números y expresiones se denomina **aritmética modular**. Se puede considerar esta rama como aritmética para casos en los que la recta numérica no es infinitamente larga. Aunque normalmente nos encontramos con operaciones modulares para números enteros (positivos) dentro de la criptografía, también se pueden realizar operaciones modulares utilizando cualquier número real.
 
@@ -454,11 +454,11 @@ La rama de las matemáticas que incluye operaciones modulares con números y exp
 
 La operación módulo es frecuente en criptografía. Para ilustrarlo, consideremos uno de los esquemas de cifrado históricos más famosos: el cifrado por turnos.
 
-Definámoslo primero. Supongamos un diccionario *D* que equipara todas las letras del alfabeto inglés, en orden, con el conjunto de números ${0, 1, 2, \ldots, 25\}$. Supongamos un espacio de mensajes **M**. El **cifrado por desplazamiento** es, entonces, un esquema de cifrado definido como sigue:
+Definámoslo primero. Supongamos un diccionario *D* que equipara todas las letras del alfabeto inglés, en orden, con el conjunto de números $\{0, 1, 2, \ldots, 25\}$. Supongamos un espacio de mensajes **M**. El **cifrado por desplazamiento** es, entonces, un esquema de cifrado definido como sigue:
 
 
 - Seleccionar uniformemente una clave $k$ del espacio de claves **K**, donde **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
-- Cifrar un mensaje $m \en \mathbf{M}$, de la siguiente manera:
+- Cifrar un mensaje $m \in \mathbf{M}$, de la siguiente manera:
     - Separar $m$ en sus letras individuales $m_0, m_1, \ldots, m_i, \ldots, m_l$
     - Convertir cada $m_i$ en un número según *D*
     - Para cada $m_i$, $c_i = [(m_i + k) \mod 26]$

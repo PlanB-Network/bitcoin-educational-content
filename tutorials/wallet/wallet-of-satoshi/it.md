@@ -3,6 +3,7 @@ name: Wallet of Satoshi (WoS)
 description: Il più semplice wallet (custodial) per iniziare
 ---
 ![cover](assets/cover.webp)
+#### Questo tutorial stato scritto da [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 # Scaricare, configurare e usare Wallet of Satoshi
 
@@ -17,7 +18,7 @@ Sono normalmente sconsigliati, se non per chi inizia da zero. WoS deve essere ut
 
 Wallet of Satoshi (WoS) è un prodotto custodial, che ha però una certa reputazione. Possiamo ragionevolmente rivolgerci ad uno strumento come WoS, ad esempio per aumentare la nostra capacità di ricevere liquidità. Deleghiamo temporaneamente a WoS “il lavoro sporco” di gestire la liquidità dei canali per noi. Una volta raggiunto un certo importo, svuoteremo WoS on-chain sul nostro wallet non-custodial.
 
-`⚠️ Si consiglia di leggere il tutorial nella sua completezza, prima di procedere`
+**ATTENZIONE⚠️: Si consiglia di leggere il tutorial nella sua completezza, prima di procedere**
 
 ## Download di Wallet of Satoshi
 
@@ -25,7 +26,7 @@ Andiamo sul playstore e scarichiamao WoS
 
 ![image](assets/it/01.webp)
 
-⚠️ WoS si scarica solo dagli store ufficiali. Se il sistema operativo del dispositivo è programmato, prima di aprire WoS avviene una parte di verifica da parte del SO stesso. Passata la fase di verifica, scegliere _Open_.
+N.B. WoS si scarica solo dagli store ufficiali. Se il sistema operativo del dispositivo è programmato, prima di aprire WoS avviene una parte di verifica da parte del SO stesso. Passata la fase di verifica, scegliere _Open_.
 
 ![image](assets/it/02.webp)
 
@@ -45,7 +46,7 @@ Essendo WoS uno strumento custodial, non possiamo fare il back up del wallet con
 
 ![image](assets/it/07.webp)
 
-Appare la finestra nella quale ci viene chiesto di inserire un indirizzo email. Può essere una mail di proton (consigliata), comunque funzionante, perché è quella che ci permetterà di recuperare i fondi del wallet, in caso di smarrimento/furto o rottura del cellulare
+Appare la finestra nella quale ci viene chiesto di inserire un indirizzo email. Può essere **una mail di Proton** (consigliata), comunque funzionante, perché è quella che ci permetterà di recuperare i fondi del wallet, in caso di smarrimento/furto o rottura del cellulare
 
 ![image](assets/it/08.webp)
 
@@ -55,7 +56,7 @@ Wallet of Satoshi ha inviato un messaggio nella casella email segnalata
 
 Nella casella di posta troveremo due parole, le dobbiamo inserire, riscrivendole, nello spazio che ci presenta l’app
 - **non attivare il traduttore: le parole sono e devono rimanere in inglese**
-- **Riscrivere le due parole facendo attenzione a maiuscole/minuscole**
+- **riscrivere le due parole facendo attenzione a maiuscole/minuscole**
 
 ![image](assets/it/10.webp)
 
@@ -167,7 +168,7 @@ Una volta re-installato, si deve rifare la procedura di registrazione account ap
 Un messaggio ci avvisa che è stata mandata via email la procedura per riattivare l’account. 
 Si deve aprire la propria casella di posta elettronica.
 
-`📍 IMPORTANTE: aprire la mail da PC o, comunque, da un dispositivo diverso da quelle su cui si sta per recuperare l’account di WoS. Nella inbox troviamo un messaggi che ci mostra un QR code da inquadrare`
+** IMPORTANTE : aprire la mail da PC o, comunque, da un dispositivo diverso da quelle su cui si sta per recuperare l’account di WoS. Nella inbox troviamo un messaggi che ci mostra un QR code da inquadrare**
 
 ![image](assets/it/34.webp)
 

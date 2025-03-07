@@ -1267,6 +1267,7 @@ Una frase di 12 parole, che offre quindi 128 bit di sicurezza, è attualmente su
 Per approfondire e imparare concretamente come generare manualmente una frase mnemonica di prova, ti consiglio di scoprire questo tutorial:
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 Prima di continuare con la derivazione del portafoglio da questa frase mnemonica, ti presenterò, nel capitolo seguente, la passphrase BIP39, poiché gioca un ruolo nel processo di derivazione, ed è allo stesso livello della frase mnemonica.
 ## La passphrase
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

@@ -60,6 +60,7 @@ Sie können ihn auf Papier schreiben oder für zusätzliche Sicherheit in Edelst
 Für weitere Informationen über die richtige Art und Weise, wie Sie Ihre mnemotechnische Phrase speichern und verwalten können, empfehle ich Ihnen, diese andere Anleitung zu lesen, insbesondere wenn Sie Anfänger sind:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 Klicken Sie auf die oben auf der Oberfläche angezeigte Meldung "*Speichern Sie Ihre Brieftasche...*".
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Herzlichen Glückwunsch, Sie wissen jetzt, wie Sie Phoenix konfigurieren und ver
 Wenn Sie noch einen Schritt weiter gehen möchten, sehen Sie sich dieses Tutorial zu Alby Hub an, einer weiteren innovativen und benutzerfreundlichen Lösung für den Start Ihres eigenen Lightning-Knotens:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 Und wenn Sie mehr über die technische Funktionsweise des Lightning Network erfahren möchten, finden Sie das ausgezeichnete kostenlose Training von Fanis Michalakis zum Plan ₿ Network :
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

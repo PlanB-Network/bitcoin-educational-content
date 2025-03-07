@@ -11,6 +11,7 @@ description: 设置和使用 Lipa lightning 移动钱包
 如果您想更多地了解闪电网络，了解它的技术运作方式，我建议您学习这门课程：
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 在本教程中，我们将介绍**Lipa**，这是一款由瑞士开发的简单有效的闪电钱包。
 
 ## 介绍利帕
@@ -91,6 +92,7 @@ Lipa 的界面围绕 4 个主要选项卡展开，可通过屏幕底部的导航
 有关如何正确备份和管理恢复短语的更多信息，我强烈推荐你阅读另一篇教程，尤其是初学者：
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ## 接收比特币
 
 要接收比特币，你有两个选项。要访问这些选项，请返回主屏幕并下拉屏幕。然后你可以选择 ：

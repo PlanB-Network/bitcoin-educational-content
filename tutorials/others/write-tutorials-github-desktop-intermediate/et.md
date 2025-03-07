@@ -7,6 +7,7 @@ description: Täielik juhend Plan ₿ Network tutorials koos GitHub Desktopiga
 Enne uue õpetuse lisamise õpetuse järgimist peate olema läbinud mõned esialgsed sammud. Kui te pole seda veel teinud, vaadake esmalt seda sissejuhatavat õpetust ja tulge siis siia tagasi:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Sul on juba olemas :
 
 
@@ -20,12 +21,14 @@ Selles õpetuses vaatame, kuidas lisada oma õpetus Plan ₿ Network'ile, konfig
 - Kogenud kasutajad** :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+
 Kui te ei soovi oma lokaalset keskkonda konfigureerida, järgige seda teist, algajatele mõeldud õpetust, kus me teeme muudatused otse GitHubi veebiliidese kaudu :
 
 
 - Algajad (veebiliides)** :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## Eeltingimused
 
 Selle õpetuse järgimiseks vajalik tarkvara :
@@ -47,9 +50,13 @@ Eeltingimused enne õpetuse alustamist :
 Kui vajate abi nende eelduste hankimisel, siis aitavad teid minu teised õpetused:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Kui kõik on paigas ja teie kohalik keskkond on seadistatud oma Plan ₿ Network forkiga, võite alustada õpetuse lisamist.
 
 ## 1 - Uue haru loomine
@@ -141,6 +148,7 @@ Pour la case "PBN professor's ID", saisissez votre identifiant en utilisant les 
 ![TUTO](assets/fr/47.webp)
 Pour plus de détails sur votre identifiant de professeur, veuillez consulter le tutoriel suivant :
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Une fois toutes les informations saisies et vérifiées, cliquez sur "Create Tutorial" pour valider la création des fichiers de votre tutoriel. Cela générera en local le dossier de votre tutoriel et tous les fichiers nécessaires dans le dossier de la catégorie sélectionnée.
 ![TUTO](assets/fr/48.webp)
 Vous pouvez maintenant passer outre la sous-partie "Sans mon script Python", ainsi que l'étape 3 "Remplir le fichier YAML", car le script a déjà effectué ces actions automatiquement pour vous. Passez directement à l'étape 4 et à la rédaction de votre tutoriel.
@@ -246,6 +254,7 @@ Siin on nõutavad väljad:
 Lisateavet õpetaja ID kohta leiate vastavast juhendmaterjalist :
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Siin on näide `tutorial.yml` failist, mis on valminud Blockstream Green rahakoti õpetuse jaoks:
 
 ```yaml

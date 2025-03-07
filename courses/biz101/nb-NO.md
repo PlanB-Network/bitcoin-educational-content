@@ -254,6 +254,7 @@ Bitcoin utfordrer oss til å revurdere selve pengenes natur. Kan du forklare hva
 For mer informasjon om Bitcoin, dets historie, hvordan det fungerer og bruken av det, anbefaler jeg også å følge dette andre omfattende kurset:
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+
 ## Introduksjon til Lightning Network
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -335,6 +336,7 @@ Lynnettverket er ideelt for Bitcoin-betalinger i fysiske butikker eller nettbuti
 Hvis du vil ha mer informasjon om hvordan Lightning Network fungerer rent teknisk, anbefaler jeg også at du følger dette andre omfattende kurset:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 # Bitcoin i statskassen
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -454,8 +456,11 @@ Disse tenkerne formet ideen om at statlig inngripen forvrenger markedene, og at 
 For mer informasjon om dette emnet:
 
 https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+
 https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+
 ## Beholdning av bitcoin i statskassen
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -630,7 +635,9 @@ Dette er den klart vanligste metoden, enten via peer-to-peer-børser eller, mer 
 Hvis du vil lære hvordan du åpner en bedriftskonto og bruker den til å kjøpe, selge og overføre bitcoins, kan du sjekke ut disse to veiledningene som er spesielt utviklet for bedrifter, og som dekker Kraken- og Bitfinex-plattformene i deres bedriftsversjoner:
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+
 https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+
 Hvis du vil lære mer om metoder for å anskaffe bitcoins via en børs eller peer-to-peer, kan du [se avsnittet "børs" i veiledningene våre] (https://planb.network/tutorials/exchange).
 
 ![BIZ101](assets/en/16.webp)
@@ -943,14 +950,21 @@ Du finner detaljerte veiledninger om de anbefalte lommebøkene og grunnleggende 
 **Selvforvaltende LN-lommebøker/noder:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
 https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
+
 **Frihetsberøvende LN-lommebøker:**
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+
 ## Det essensielle
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
@@ -982,12 +996,15 @@ Selv om Essential-profilen ikke krever svært sofistikerte regnskapssystemer, er
 Den mest passende hybridløsningen for din profil er sannsynligvis Swiss Bitcoin Pay:
 
 https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
 En annen løsning som er enkel å implementere, men som har den ulempen at den er 100 % depotbasert, er Open Node:
 
 https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
 Hvis du er klar til å skitne til hendene og vil ha full kontroll over prosessen, er BTCPay Server-programvaren et utmerket alternativ. Den største ulempen med BTCPay Server er imidlertid at oppsett og administrasjon er tidkrevende og krever et visst nivå av teknisk ekspertise, men du kan følge guidene våre:
 
 https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+
 Til slutt, som et supplement til fysiske utsalgssteder, kan du vurdere å sette opp [en Bitcoinize PoS] (https://bitcoinize.com/).
 
 ## Den profesjonelle
@@ -1025,6 +1042,7 @@ Når det gjelder eksempler fra den virkelige verden, kan du tenke deg en melloms
 Hvis du vil gå dypere inn i implementeringsdetaljer og utforske praktiske konfigurasjoner av BTC Pay Server, kan du gå til følgende kurs:
 
 https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+
 ## The Enterprise
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
@@ -1275,6 +1293,7 @@ En enkel .csv-fil som inneholder transaksjonshistorikken er imidlertid ofte tils
 For de som oppbevarer Bitcoin selv, er det viktig å håndtere UTXO-er (*Unspent Transaction Outputs*). Riktig UTXO-merking hjelper deg med å spore opprinnelsen til hvert BTC-fragment, skille transaksjoner relatert til profesjonell aktivitet fra de som gjelder personlige utgifter, og lette sporbarhet for juridiske eller skattemessige formål. De fleste gode Bitcoin-lommebøker lar deg importere lommeboken din ved hjelp av sikkerhetskopifilen din (eller xpub, avhengig av oppsettet) og merke UTXO-er basert på opprinnelse eller destinasjon. For å hjelpe deg, her er en komplett veiledning dedikert til denne praksisen:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 Til slutt, uansett om du er en liten kjøpmann eller en mer etablert virksomhet, er det mulig å **betale en faktura i Bitcoin**. Nøkkelen er å dokumentere transaksjonen på riktig måte. Hvis du betaler fra en lommebok som du selv oppbevarer, er det ideelt å generere en transaksjon som noterer fakturanummeret og formålet med betalingen i etikettene dine. Hvis du foretrekker å gjøre opp fakturaen via en børs, har du også muligheten til å eksportere en kvittering eller transaksjonshistorikk som du kan inkludere i regnskapet ditt. Denne åpenheten vil forenkle sporing og rapportering av alle BTC-operasjoner.
 
 ## Praktiske eksempler på Bitcoin-regnskap

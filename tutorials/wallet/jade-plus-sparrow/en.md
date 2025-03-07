@@ -37,6 +37,7 @@ Jade Plus is compatible with most wallet management software. Here is a summary 
 In this tutorial, we'll set up an advanced configuration of the Jade Plus with the desktop Sparrow Wallet software in QR codes mode. This configuration is ideal for intermediate or experienced users. If you're looking for a simpler approach for beginners, I recommend you take a look at this tutorial where we use the Jade Plus with Green Wallet over a Bluetooth connection:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+
 ## The Jade Plus safety model
 
 The Jade Plus uses a security model based on a "virtual secure element", materialized by a "blind oracle". In concrete terms, this mechanism combines the PIN chosen by the user, a secret hosted on the Jade and a secret held by the oracle (a server maintained by Blockstream), to create an AES-256 key distributed over two entities. During initiation, an ECDH exchange secures communication with the oracle, and encrypts the recovery phrase on the hardware wallet. In practical terms, when you want to access the seed to sign transactions, you need access to :
@@ -111,6 +112,7 @@ You can write it on the cardboard supplied in the box, or for added security, I 
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 of course, you must never share these words on the Internet, as I'm doing in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial.**_
 
 Click on the arrow on the right of the screen to display the following words.
@@ -268,6 +270,7 @@ A BIP39 passphrase is an optional password that you can choose freely, and which
 Before configuring this option on your Jade Plus, it is strongly recommended that you read this article to fully understand the theoretical operation of the passphrase and avoid errors that could lead to the loss of your bitcoins :
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 With your Jade still locked (the passphrase can only be entered when the device is not unlocked), access the "*Options*" menu.
 
 ![Image](assets/fr/42.webp)
@@ -320,6 +323,7 @@ Each time you unlock your Jade with your passphrase, check that the fingerprint 
 Before you receive your first bitcoins in your wallet, **I strongly advise you to perform an empty recovery test**. Make a note of some reference information, such as your xpub or first receiving address, then delete your wallet on the Jade Plus while it's still empty (`Options -> Device -> Factory Reset`). Then try to restore your wallet using your paper backups of the mnemonic phrase and any passphrase. Check that the cookie information generated after the restore matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable. To find out more about how to carry out a test recovery, take a look at this other tutorial:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Configuring the wallet on Sparrow Wallet
 
 In this tutorial, I present an advanced use of Jade Plus using Sparrow Wallet. However, this hardware wallet is compatible with many other programs, such as Liana, Nunchuk, Specter, Green and Keeper. These compatibilities vary in terms of connections: USB, Bluetooth or QR code (see table in introduction for details).
@@ -331,6 +335,7 @@ Start by downloading and installing Sparrow Wallet [from the official website](h
 Be sure to check the authenticity and integrity of the software before installation. If you don't know how to do this, please consult this tutorial:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Once Sparrow Wallet is open, click on the "*File*" tab, then on "*New Wallet*".
 
 ![Image](assets/fr/51.webp)

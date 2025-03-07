@@ -64,6 +64,7 @@ Besøk det offisielle Wizardsardine-nettstedet og last ned Liana på https://wiz
 For å finne ut hvordan du manuelt verifiserer ektheten og integriteten til programvaren før installasjon, anbefaler vi at du konsulterer denne veiledningen :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Installer programvaren på maskinen din og start den. Velg alternativet "*Opprett en ny Liana-lommebok*" for å konfigurere lommeboken din.
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -193,6 +194,7 @@ Du kan sjekke utløpsstatusen til midlene dine ved å gå til "*Coins*"-fanen. D
 For å bedre forstå UTXO-representasjonsmodellen som brukes i Bitcoin, kan du konsultere den første delen av kurset om konfidensialitet i Bitcoin skrevet av Loïc Morel :
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Løpende utgifter
 
 Løpende utgifter er den normale situasjonen for bruk av Liana. Å sende bitcoins med hovednøkkelen fungerer som i alle klassiske Bitcoin-lommebøker som Electrum eller Sparrow.

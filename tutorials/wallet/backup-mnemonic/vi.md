@@ -85,9 +85,11 @@ You can also enrich your backup with additional information related to your wall
 On the other hand, if you use a passphrase, make sure you don't write it down on the same medium as your mnemonic phrase. The purpose of the passphrase is to protect your wallet in the event of theft. To find out more about how to use a passphrase, take a look at this complementary tutorial:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Once you've saved your mnemonic phrase on physical media, it's strongly recommended that you perform a recovery test while your newly-created wallet is still empty. This test consists of writing down a sample piece of information, deliberately deleting the empty wallet, then trying to restore it using only your physical backup of the mnemonic phrase. This will enable you to check that your backup is complete and free of input errors. It also allows you to familiarize yourself with the recovery process. This way, if you need to recover in the future, you'll be better prepared and avoid the stress of a first attempt in a real-life situation. To find out more about how to carry out this test, see this other tutorial :
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 Finally, there's the question of the number of backups. This choice depends entirely on your personal situation. Limiting the number of copies, for example by writing your mnemonic phrase only once on a medium, reduces the risk of theft, but increases the risk of loss. Conversely, making several copies reduces the risk of loss, but increases the risk of theft. So it's up to you to find the right balance for your needs, and determine the number of copies you feel is most appropriate.
 
 ## Storage
@@ -117,4 +119,5 @@ To go one step further and further strengthen your security strategy, I recommen
 That's why I invite you to take the free CYP201 training course offered by Plan ₿ Network. This training course explains in detail all the workings of Bitcoin wallets, enabling you to master the technical aspects essential to effectively securing your funds :
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 If you found this tutorial useful, I'd be grateful if you'd leave a green thumb below. Feel free to share this article on your social networks. Thank you very much!

@@ -23,6 +23,7 @@ Trong hướng dẫn này, dành cho người mới bắt đầu và người d�
 Nếu bạn là người dùng nâng cao và muốn khám phá các tính năng phức tạp hơn, tôi khuyên bạn nên xem hướng dẫn khác này, trong đó chúng tôi cấu hình Passport bằng Sparrow Wallet:
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 ## Mở hộp Passport
 
 Khi bạn nhận được Hộ chiếu, hãy đảm bảo hộp và niêm phong trên thùng carton còn nguyên vẹn để xác nhận rằng gói hàng chưa được mở. Xác minh phần mềm về tính xác thực và tính toàn vẹn của thiết bị cũng sẽ được thực hiện khi thiết lập.
@@ -170,6 +171,7 @@ Passport của bạn đã sẵn sàng nhận chương trình cơ sở mới thô
 Trước khi cài đặt trên thiết bị của bạn, chúng tôi khuyên bạn nên kiểm tra tính xác thực và toàn vẹn của phần mềm đã tải xuống. Nếu bạn cần trợ giúp về vấn đề này, hãy tham khảo hướng dẫn này:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### Với ứng dụng Envoy
 
 Tùy chọn khác đơn giản hơn là sử dụng trực tiếp ứng dụng Envoy. Nhấp vào "*Tải xuống phần mềm*".
@@ -253,6 +255,7 @@ Nhấp vào nút xác nhận để xem cụm từ ghi nhớ của bạn.
 Để biết thêm thông tin về cách lưu và quản lý cụm từ ghi nhớ đúng cách, tôi thực sự khuyên bạn nên làm theo hướng dẫn khác này, đặc biệt nếu bạn là người mới bắt đầu:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 tất nhiên, bạn không bao giờ được chia sẻ những từ này trên Internet, như tôi đang làm trong hướng dẫn này. Danh mục mẫu này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa vào cuối hướng dẫn.**_
 
 Hãy sao lưu câu này lại.

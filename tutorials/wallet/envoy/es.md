@@ -23,6 +23,7 @@ En este tutorial, dirigido a usuarios principiantes e intermedios, vamos a descu
 Si eres un usuario avanzado y quieres explorar funciones más complejas, te recomiendo que eches un vistazo a este otro tutorial en el que configuramos Passport con Sparrow Wallet :
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 ## Unboxing del Passport
 
 Cuando reciba su Passport, asegúrese de que la caja y el precinto del cartón están intactos para confirmar que el paquete no ha sido abierto. También se llevará a cabo una verificación informática de la autenticidad e integridad del dispositivo en el momento de su instalación.
@@ -170,6 +171,7 @@ Para ello, utiliza la tarjeta MicroSD incluida en la caja de tu Passport (u otra
 Antes de instalarlo en tu dispositivo, te aconsejamos encarecidamente que compruebes la autenticidad e integridad del firmware descargado. Si necesitas ayuda para ello, consulta este tutorial :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### Con la aplicación Envoy
 
 La otra opción, más sencilla, es utilizar directamente la aplicación Envoy. Pulse en "*Descargar Firmware*".
@@ -253,6 +255,7 @@ Haga clic en el botón de confirmación para ver su frase mnemotécnica.
 Para más información sobre la forma correcta de guardar y gestionar tu frase mnemotécnica, te recomiendo encarecidamente que sigas este otro tutorial, especialmente si eres principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 por supuesto, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Esta cartera de muestra sólo se utilizará en Testnet y se eliminará al final del tutorial.**_
 
 Haga una copia de seguridad física de esta frase.

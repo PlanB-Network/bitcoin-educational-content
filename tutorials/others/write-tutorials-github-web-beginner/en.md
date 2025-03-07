@@ -7,6 +7,7 @@ description: Complete guide to Plan ₿ Network tutorials with GitHub Web
 Before following this tutorial on adding a new tutorial, you need to have completed a few preliminary steps. If you haven't already done so, please take a look at this introductory tutorial first, then come back here :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 You already have :
 
 
@@ -24,6 +25,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0
 - Intermediate (GitHub Desktop)** :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+
 ## Prerequisites
 
 Prerequisites before starting the tutorial :
@@ -36,9 +38,13 @@ Prerequisites before starting the tutorial :
 If you need help getting these prerequisites, my other tutorials will help:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Once everything is in place and you have your fork of the Plan ₿ Network repository, you can start adding the tutorial.
 
 ## 1 - Create a new branch
@@ -156,6 +162,7 @@ Here are the required fields:
 For more details on your teacher ID, please refer to the corresponding tutorial :
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Here is an example of a `tutorial.yml` file completed for a tutorial on the Blockstream Green wallet:
 
 ```

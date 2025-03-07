@@ -31,6 +31,7 @@ Hinnakujunduse osas pakub tasuta versioon kuni 5 GB salvestusruumi ja sisaldab o
 Kui teil ei ole veel Protoni kontot, peate selle looma. Viitan teid meie Proton Maili õpetusele, milles selgitame üksikasjalikult, kuidas luua tasuta Protoni konto ja seda seadistada:
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Kuidas seadistada Proton Drive'i?
 

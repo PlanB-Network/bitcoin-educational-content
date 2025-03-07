@@ -15,6 +15,7 @@ Zvláštností této peněženky je možnost posílat bitcoiny pomocí e-mailov�
 Chcete-li používat peněženku Proton, potřebujete účet Proton. Ten si můžete zdarma vytvořit podle prvních kroků tohoto návodu věnovaného vytvoření schránky Proton (pouze část "*Vytvoření účtu Proton*"). Jakmile máte účet zřízen, můžete pokračovat ve zbytku tohoto návodu.
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## Připojení k peněžence Proton
 
 Přejděte na [webové stránky Proton Wallet](https://proton.me/wallet) a klikněte na tlačítko "*Get Proton Wallet*".
@@ -68,6 +69,7 @@ Můžete ho napsat na kus papíru, nebo pro větší bezpečnost doporučuji vyr
 Pro více informací o správném způsobu ukládání a správy mnemotechnických frází vřele doporučuji sledovat tento další návod, zejména pokud jste začátečníci:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 _**Na rozdíl od toho, co dělám v tomto návodu, byste tato slova samozřejmě nikdy neměli fotit.**_
 
 Po uložení fráze klikněte na tlačítko "*Done*".
@@ -95,6 +97,7 @@ Zde můžete do nové peněženky přidat přístupovou frázi BIP39.
 Chcete-li si prohloubit znalosti o přístupové frázi, doporučuji tento výukový program:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ## Přijímání bitcoinů
 
 Chcete-li přijmout bitcoiny do své peněženky, vyberte požadovaný účet v levé části rozhraní a poté klikněte na tlačítko "*Přijmout*".

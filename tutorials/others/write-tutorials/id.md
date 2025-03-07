@@ -94,4 +94,5 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 - Pemula (antarmuka web)** : Anda juga dapat memilih untuk menggunakan antarmuka web GitHub secara langsung, tanpa harus menyiapkan lingkungan lokal yang lengkap. Metode ini dapat dipertimbangkan untuk kontribusi kecil. Namun, untuk kontribusi besar, seperti menambahkan tutorial baru yang lengkap, opsi ini mungkin terbukti lebih kompleks daripada menyiapkan lingkungan lokal. Saya akan menjelaskan cara melakukannya dalam tutorial ini:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 Pilih salah satu dari tiga opsi ini sesuai dengan tingkat pengetahuan Anda, lalu mulailah menulis tutorial Plan ₿ Network Anda yang pertama!

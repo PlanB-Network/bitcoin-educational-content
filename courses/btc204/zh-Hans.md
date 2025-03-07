@@ -345,7 +345,9 @@ Coinbase 交易的独特之处在于，它是唯一能够 "凭空 "创造比特�
 还有什么比了解区块链分析中使用的方法更好的呢？如果你想知道如何提高你在比特币上的隐私，你需要了解这些方法。这将使你更好地掌握 coinjoin 或 payjoin 等技术（我们将在课程的最后部分介绍这些技术），并减少你可能犯的错误。
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
 https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+
 在这一点上，我们可以用密码学和密码分析来类比。一名优秀的密码学家首先是一名优秀的密码分析师。要设计一种新的加密算法，你需要知道它将面临哪些攻击，还要研究以前的算法被破解的原因。同样的原则也适用于比特币隐私。了解区块链分析方法是防范这些攻击的关键。这就是为什么我在本培训课程中加入了一整节关于链分析的内容。
 
 ### 链分析方法
@@ -1282,6 +1284,7 @@ UTXO选择方法，如FIFO（*先进先出*）和LIFO（*后进先出*）是最�
 如果你想了解如何标记你的UTXOs，我们已经在主要的比特币钱包软件上做了一个全面的教程：
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 ## KYC 和关键识别
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1441,6 +1444,7 @@ KYC 特指某些公司为核实和登记客户身份而实施的监管程序。�
 -> 请参阅我们的 Bisq 教程。
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
 如果想选择更简单的方法，您可以试试 [Peach](https://peachbitcoin.com/)，这是一款连接买家和卖家的移动应用程序，内置冲突解决系统。该程序比 Bisq 更直观。
 
 -> 请参阅我们的 Peach 教程。
@@ -1452,6 +1456,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 -> 请参阅我们的 HodlHodl 教程。
 
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+
 关于基于闪电网络的解决方案，请尝试[RoboSats](https://learn.robosats.com/) 和[LNP2PBot](https://lnp2pbot.com/)。RoboSats 可通过网站访问，使用相对简单。LNP2PBot 则比较特殊，它通过 Telegram 消息应用程序上的交换系统运行。
 
 -> 请参阅我们的机器人卫星教程。
@@ -1459,7 +1464,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 -> 请参阅我们的 LNP2PBot 教程。
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
 https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+
 ![BTC204](assets/fr/091.webp)
 
 ### 无 KYC 的受监管平台
@@ -1469,6 +1476,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-
 -> 请参阅我们的 Relai 教程。
 
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+
 正如我们在上一章中看到的，这类平台可以让你免于 KYC 程序带来的风险，但它们确实会带来更高的密钥识别风险。因此，就比特币的保密性而言，这些平台提供的保护要好于 KYC 购买方式，但它们的吸引力仍不及 P2P 交易所。
 
 不过，就个人安全而言，使用这些平台的风险远低于 P2P 交易所。使用起来也往往比 P2P 平台简单。
@@ -1492,6 +1500,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 一些不需要 KYC 程序的平台提供将比特币兑换成礼品卡的可能性，这些礼品卡可以在大型零售商处使用。这些平台包括 [CoinsBee](https://www.coinsbee.com/)、[The Bitcoin Company](https://thebitcoincompany.com/) 和 [Bitrefill](https://www.bitrefill.com/)。这些平台使比特币的日常使用更加方便，让你无需将比特币兑换成法定货币，就能获得各种产品和服务。
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/fr/093.webp)
 
 ### 其他获取方法
@@ -2176,8 +2185,11 @@ Tx0 "是惠而浦混合过程的第一步。其目的是准备和均衡UTXO，�
 在下一章中，我们将了解什么是 "anonsets"、这些指标是如何计算的，以及它们如何帮助我们估算联接循环的效率。
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ## 匿名套
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -2253,6 +2265,7 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c7
 正如我们在本章中所看到的，只有在币合结构存在一定的同质性的情况下，才能计算出anonsets。在下一章中，我们将了解如何量化比特币交易中的这种同质性，无论是币合还是更传统的交易。
 
 https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 ## 熵
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2510,6 +2523,7 @@ $$
 既然我们已经详细介绍了 Cooinjoins，我们将在课程的最后一节了解比特币上的其他隐私保护技术。我们将学习支付连接、特定的伪比特币连接交易类型、静态地址协议，以及不是在交易本身层面，而是在节点网络层面加强保密性的措施。
 
 https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 # 了解其他先进保密技术的挑战
 
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2603,7 +2617,9 @@ payjoin 交易实现了两个目标，使用户能够提高支付的保密性。
 一种解决办法是使用交易结构，在不要求收款人合作的情况下将模糊性引入链分析。这样，我们就能在不依赖商家积极参与的情况下提高支付的保密性。这正是我们将在下一章讨论的内容。
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+
 ## 支付迷你币
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2725,7 +2741,9 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 在下一章中，我们将学习另一种相对陌生的保密技术，但作为我们已经学习过的技术的补充，它非常有用。
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+
 https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+
 ## 跳弹
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2799,6 +2817,7 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 在下一章中，我们将探讨不同的所有权秘密转让技术。这些方法在操作和结果上都与我们迄今为止研究过的方法截然不同。
 
 https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+
 ## 所有权的秘密转让
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -3074,6 +3093,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 *在本章有关 BIP47 的后续章节中，我们将详细介绍它的工作原理，并特别强调所使用的加密方法。要完全掌握这些略带技术性的解释，首先必须了解高清钱包的结构、密钥推导程序和椭圆曲线加密的基本原理。如果您想深入了解这些概念，Plan ₿ Network 上还有另一门免费培训课程：*。
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 *我还是建议您关注这些建议，因为了解了 BIP47 的技术运作，您就更容易理解其他类似的建议，我们将在以下章节讨论这些建议*。
 
 ---
@@ -3825,6 +3845,7 @@ $$ K0 = k0 \cdot G $$
 *非常感谢[Fanis Michalakis](https://x.com/FanisMichalakis)对文章的校对和专家建议，正是他的建议启发了本章的写作！
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+
 ## 无声支付
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>

@@ -15,6 +15,7 @@ Fitur khusus dari dompet ini adalah kemampuan untuk mengirim bitcoin menggunakan
 Untuk menggunakan Dompet Proton, Anda memerlukan akun Proton. Anda dapat membuatnya secara gratis dengan mengikuti langkah pertama tutorial ini yang didedikasikan untuk membuat kotak surat Proton (hanya bagian "*Membuat akun Proton*"). Setelah akun Anda dibuat, Anda dapat melanjutkan dengan bagian selanjutnya dari tutorial ini.
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## Hubungkan ke Dompet Proton
 
 Kunjungi [situs web Proton Wallet] (https://proton.me/wallet) dan klik tombol "*Dapatkan Proton Wallet*".
@@ -68,6 +69,7 @@ Anda bisa menuliskannya pada selembar kertas, atau untuk keamanan tambahan, saya
 Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa mnemonik Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 _**Tentu saja, Anda tidak boleh memotret kata-kata ini, tidak seperti yang saya lakukan dalam tutorial ini.**_
 
 Klik tombol "*Selesai*" setelah Anda menyimpan frasa Anda.
@@ -95,6 +97,7 @@ Di sinilah Anda dapat menambahkan kata sandi BIP39 ke dompet baru.
 Untuk memperdalam pengetahuan Anda mengenai frasa sandi, saya merekomendasikan tutorial ini:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ## Menerima bitcoin
 
 Untuk menerima bitcoin di dompet Anda, pilih akun yang diinginkan di sebelah kiri antarmuka, lalu klik tombol "*Terima*".

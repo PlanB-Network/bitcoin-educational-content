@@ -20,6 +20,7 @@ description: COLDCARD Qの設定と使い方
 COLDCARD Q は多くの機能を備えているので、その使い方を 2 つのチュートリアルに分けて説明します。最初のチュートリアルでは、COLDCARD Q の初期設定と基本的な機能について説明します。そして、2 回目のチュートリアルでは、COLDCARD の高度なオプションの利用方法について説明します。
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ---
 ## COLDCARD Qのご紹介
 
@@ -81,6 +82,7 @@ COLDCARDをコンピュータに接続せずに給電したい場合は（エア
 このチュートリアルでは、パソコンでビットコインウォレットを管理するためのSparrow Walletも必要です。公式サイトから[Sparrow Wallet](https://sparrowwallet.com/download/)をダウンロードしてください。インストールを進める前に、その真正性（GnuPGを使用）と完全性（ハッシュを使用）の両方を確認することを強くお勧めします。この方法がわからない場合は、こちらのチュートリアルを参照してください：
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ## PINコード選択
 
 左上のボタンを押して、COLDCARD の電源を入れます。
@@ -160,6 +162,7 @@ COLDCARD公式ウェブサイト](https://coldcard.com/downloads)で、新しい
 この検証プロセスに慣れていない場合は、このチュートリアルに従うことをお勧めする：
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 microSD カードを用意し、ファームウェアファイル（ドキュメント `.dfu`）を転送します。microSD カードを COLDCARD のポートに挿入します。
 
 ![CCQ](assets/fr/021.webp)
@@ -199,6 +202,7 @@ ENTER*」ボタンを押して選択を確定します。
 次のチュートリアルでは、その他の詳細設定について見ていきます：
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ## ビットコイン・ウォレットの作成
 
 さて、新しいビットコイン・ウォレットを生成する時が来た！そのためには、ニーモニックフレーズを作成する必要があります。Coldcard では、このフレーズを生成するために 3 つの方法があります：
@@ -329,6 +333,7 @@ Sparrowウォレットへのアクセスを保護するために強力なパス�
 リカバリーテストの方法については、こちらのチュートリアルを参照されたい：
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## ビットコインを受け取る
 
 最初のビットコインを受け取るには、まずCOLDCARDの電源を入れ、ロックを解除します。
@@ -380,6 +385,7 @@ COLDCARDに表示されている住所とSparrowに表示されている住所�
 ラベリングについて詳しくは、こちらのチュートリアルもおすすめ：
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 このアドレスを使ってビットコインを受け取ることができる。
 
 ![CCQ](assets/fr/063.webp)

@@ -94,4 +94,5 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 - 初心者向け（ウェブインターフェース）** ：GitHub のウェブインターフェースを直接使うこともできます。この方法は、ちょっとした貢献には使えます。しかし、全く新しいチュートリアルを追加するような大きな貢献の場合、この方法はローカル環境をセットアップするよりも複雑になるかもしれません。このチュートリアルでその方法を説明します：
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 あなたの知識レベルに応じて、これら3つのオプションから1つを選択し、最初のPlan ₿ Networkチュートリアルを書き始めてください！

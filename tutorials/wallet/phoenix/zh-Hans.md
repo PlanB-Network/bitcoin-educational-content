@@ -60,6 +60,7 @@ Phoenix 是一个自我托管的闪电钱包和节点，由法国一家专门从
 有关保存和管理记忆短语的正确方法的更多信息，我强烈推荐大家阅读另一篇教程，尤其是初学者：
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 点击界面顶部显示的信息 "*保存您的钱包...*"。
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Phoenix 会生成一张 Lightning 发票。您既可以扫描它，也可以将�
 要想更进一步，请查看 Alby Hub 的教程，这是另一种创新且易于使用的解决方案，可用于启动自己的闪电节点：
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 要了解有关闪电网络技术操作的更多信息，您可以在 Plan ₿ Network 上找到 Fanis Michalakis 的精彩免费培训：
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

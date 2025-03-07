@@ -23,9 +23,11 @@ Complete la información requerida: introduzca su dirección de correo electrón
 Para obtener consejos sobre cómo utilizar y salvaguardar contraseñas fuertes y únicas, consulte también este tutorial :
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Ahora vamos a configurar el 2FA para asegurar la cuenta. Utiliza una aplicación de autenticación en tu smartphone, como Google Authenticator o Authy por ejemplo. Encontrarás un tutorial sobre esta herramienta aquí :
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Escanee el código QR con su aplicación e introduzca los 6 dígitos proporcionados.
 
 ![BITFINEX](assets/fr/03.webp)
@@ -166,6 +168,7 @@ Bitfinex también ofrece opciones de depósito y retirada a través de Lightning
 Si estás interesado en la Red relámpago, también tenemos un curso de formación completo para ayudarte a entender cómo funciona:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 Después de comprar tus primeros bitcoins, obviamente tienes la opción de dejarlos en la plataforma, pero te recomiendo encarecidamente transferirlos a tu propio monedero en autocustodia. Si aún no sabes cómo utilizar un monedero Bitcoin, te invito a explorar [la sección "Monedero" en Plan ₿ Network](https://planb.network/tutorials/wallet).
 
 ## 6 - Compra y venta de bitcoins en Bitfinex

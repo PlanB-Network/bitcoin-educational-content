@@ -37,6 +37,7 @@ Jade Plus es compatible con la mayoría de los programas de gestión de carteras
 En este tutorial, estableceremos una configuración avanzada del Jade Plus con el software de escritorio Sparrow Wallet en modo de códigos QR. Esta configuración es ideal para usuarios intermedios o experimentados. Si buscas un enfoque más sencillo para principiantes, te recomiendo que eches un vistazo a este tutorial en el que utilizamos el Jade Plus con Green Wallet a través de una conexión Bluetooth:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+
 ## El modelo de seguridad Jade Plus
 
 El Jade Plus utiliza un modelo de seguridad basado en un "elemento seguro virtual", materializado por un "oráculo ciego". En concreto, este mecanismo combina el PIN elegido por el usuario, un secreto alojado en el Jade y un secreto en poder del oráculo (un servidor mantenido por Blockstream), para crear una clave AES-256 distribuida entre dos entidades. Durante la iniciación, un intercambio ECDH asegura la comunicación con el oráculo y cifra la frase de recuperación en el monedero físico. En términos prácticos, cuando se quiere acceder a la semilla para firmar transacciones, se necesita acceso a :
@@ -111,6 +112,7 @@ Puede escribirlo en el cartón suministrado en la caja o, para mayor seguridad, 
 Para más información sobre la forma correcta de guardar y gestionar tu frase mnemotécnica, te recomiendo encarecidamente que sigas este otro tutorial, especialmente si eres principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 por supuesto, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Esta cartera de muestra sólo se utilizará en Testnet y se eliminará al final del tutorial.**_
 
 Haz clic en la flecha de la derecha de la pantalla para que aparezcan las siguientes palabras.
@@ -268,6 +270,7 @@ Una frase de contraseña BIP39 es una contraseña opcional que puede elegir libr
 Antes de configurar esta opción en tu Jade Plus, es muy recomendable que leas este artículo para comprender perfectamente el funcionamiento teórico de la frase de contraseña y evitar errores que podrían provocar la pérdida de tus bitcoins :
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Con tu Jade aún bloqueado (la frase de contraseña sólo puede introducirse cuando el dispositivo no está desbloqueado), accede al menú "*Opciones*".
 
 ![Image](assets/fr/42.webp)
@@ -320,6 +323,7 @@ Cada vez que desbloquees tu Jade con tu frase de contraseña, comprueba que la h
 Antes de recibir tus primeros bitcoins en tu monedero, **te aconsejo encarecidamente que realices una prueba de recuperación en vacío**. Tome nota de alguna información de referencia, como su xpub o primera dirección de recepción, a continuación, elimine su cartera en el Jade Plus, mientras que todavía está vacío (`Opciones -> Dispositivo -> Factory Reset`). A continuación, intente restaurar su monedero utilizando sus copias de seguridad en papel de la frase mnemotécnica y cualquier frase de contraseña. Comprueba que la información de la cookie generada tras la restauración coincide con la que anotaste originalmente. Si es así, puede estar seguro de que sus copias de seguridad en papel son fiables. Para saber más sobre cómo realizar una recuperación de prueba, echa un vistazo a este otro tutorial:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Configuración del monedero en Sparrow Wallet
 
 En este tutorial, presento un uso avanzado de Jade Plus utilizando Sparrow Wallet. Sin embargo, esta billetera de hardware es compatible con muchos otros programas, como Liana, Nunchuk, Specter, Green y Keeper. Estas compatibilidades varían en términos de conexiones: USB, Bluetooth o código QR (ver tabla en la introducción para más detalles).
@@ -331,6 +335,7 @@ Empieza descargando e instalando Sparrow Wallet [desde el sitio web oficial](htt
 Asegúrese de comprobar la autenticidad e integridad del software antes de instalarlo. Si no sabes cómo hacerlo, consulta este tutorial:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Una vez abierta la Cartera Sparrow, haz clic en la pestaña "*Archivo*" y luego en "*Nueva Cartera*".
 
 ![Image](assets/fr/51.webp)

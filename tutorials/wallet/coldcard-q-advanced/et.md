@@ -7,6 +7,7 @@ description: COLDCARD Q täiustatud võimaluste kasutamine
 Eelmises õppematerjalis käsitlesime COLDCARD Q algkonfiguratsiooni ja selle põhifunktsioone algajatele. Kui olete oma COLDCARD Q alles kätte saanud ja pole seda veel seadistada, soovitan enne siin jätkamist alustada sellest õpetusest:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 See uus õpetus on pühendatud COLDCARD Q täiustatud võimalustele, mis on mõeldud edasijõudnutele ja paranoilistele kasutajatele. Tegelikult eristuvad COLDCARDid teistest riistvaralistest rahakottidest paljude täiustatud turvaelementide poolest. Loomulikult ei pea te kõiki neid võimalusi kasutama. Valige lihtsalt need, mis sobivad teie turvastrateegiaga.
 
 **Hoiatus**, mõnede nende täiustatud valikute ebaõige kasutamine võib põhjustada teie bitcoinide kaotuse või riistvaralise rahakoti hävimise. Seetõttu soovitan tungivalt lugeda hoolikalt iga valiku kohta antud nõuandeid ja selgitusi.
@@ -20,6 +21,7 @@ Enne alustamist veenduge, et teil on juurdepääs 12- või 24-sõnalise mnemofra
 Kui te ei tea, mis on BIP39 parool, või kui teile ei ole täiesti selge, kuidas see töötab, siis soovitan tungivalt eelnevalt tutvuda selle õpetusega, mis katab teoreetilised alused, mis on vajalikud parooli kasutamisega seotud riskide mõistmiseks:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Pidage meeles, et kui olete oma rahakotis seadistanud salasõna, ei piisa ainult teie mnemoonikast, et taastada juurdepääs oma bitcoinidele. Teil on vaja nii mnemoonikat kui ka paroolifraasi. Veelgi enam, peate sisestama paroolfraasi iga kord, kui avate oma COLDCARDi Q. See suurendab turvalisust, sest ilma paroolfraasita on füüsiline juurdepääs COLDCARDile ja PIN-koodi teadmine ebapiisav.
 
 COLDCARDi puhul on teil kaks võimalust oma salasõna haldamiseks:
@@ -67,6 +69,7 @@ Kinnitage, et kuvatav sõrmejälg vastab teie rahakoti sõrmejäljele, ja klõps
 Pidage meeles, et paroolifraasi kasutamine tähendab, et peate importima oma rahakoti haldustarkvarasse (näiteks Sparrow Wallet) uue võtmekomplekti, mis on tuletatud teie mnemoonilise fraasi ja paroolifraasi kombinatsioonist. Selleks järgige selle teise õpetuse sammu "*Uue rahakoti konfigureerimine Sparrow's*" :
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 ## Lukustusvõimaluste avamine
 
 COLDCARDid saavad kasu ka paljudest seadme avamise võimalustest. Uurime nende täiustatud võimaluste kohta lähemalt.

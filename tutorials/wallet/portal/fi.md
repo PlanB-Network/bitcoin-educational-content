@@ -67,6 +67,7 @@ Voit kaivertaa sen paperille, tai jos haluat lisätä turvallisuutta, suosittele
 Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaan oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.**_
 
 Paina portaalin painiketta lujasti siirtyäksesi seuraaviin sanoihin. Varmista, että asetat koko sormesi painikkeelle ja pidät painetta painettuna muutaman sekunnin ajan, jotta vuorovaikutus havaitaan kunnolla.

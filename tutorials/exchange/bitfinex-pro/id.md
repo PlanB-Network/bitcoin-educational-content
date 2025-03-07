@@ -13,6 +13,7 @@ Dalam tutorial ini, kita akan membahas proses pembuatan akun bisnis di Bitfinex,
 Jika Anda tertarik dengan topik mengintegrasikan bitcoin ke dalam bisnis Anda, saya juga merekomendasikan untuk mempelajari kursus pelatihan teori lengkap kami tentang topik ini:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - Membuat akun Bitfinex
 
 Kunjungi [situs web resmi Bitfinex] (https://www.bitfinex.com/). Di halaman beranda, cari dan klik opsi "*Daftar*" untuk mulai membuat akun Anda. Pada awalnya, Anda akan membuat akun standar untuk perorangan, opsi "*Corporate*" akan dipilih nanti selama proses verifikasi.
@@ -26,9 +27,11 @@ Lengkapi informasi yang diperlukan: masukkan alamat email bisnis dan negara temp
 Untuk tips menggunakan dan melindungi kata sandi yang kuat dan unik, lihat juga tutorial ini:
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Sekarang kita akan mengonfigurasi 2FA untuk mengamankan akun. Gunakan aplikasi otentikasi pada ponsel cerdas Anda, seperti Google Authenticator atau Authy misalnya. Anda akan menemukan tutorial tentang alat ini di sini:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Pindai kode QR dengan aplikasi Anda dan masukkan 6 digit yang disediakan.
 
 ![BITFINEX](assets/fr/03.webp)
@@ -158,6 +161,7 @@ Bitfinex juga menawarkan opsi setoran dan penarikan melalui Lightning Network, m
 Jika Anda tertarik dengan Lightning Network, kami juga memiliki kursus pelatihan lengkap untuk membantu Anda memahami cara kerjanya:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ## 6 - Membeli dan menjual bitcoin di Bitfinex
 
 Bitfinex menawarkan berbagai mode perdagangan. Untuk kemudahan penggunaan, pilihlah pasar spot klasik, yang juga dikenal sebagai "*Trading*" atau "*Exchange*". Di sini, Anda dapat menempatkan pesanan beli atau jual pada harga pasar, atau menetapkan harga batas.

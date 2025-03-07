@@ -60,6 +60,7 @@ Pode escrevê-la em papel ou, para maior segurança, gravá-la em aço inoxidáv
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 Clique na mensagem apresentada na parte superior da interface "*Guarde a sua carteira...*".
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Parabéns, agora já sabe como configurar e utilizar o Phoenix. Se este tutorial
 Para dar um passo em frente, consulte este tutorial sobre o Alby Hub, outra solução inovadora e fácil de utilizar para lançar o seu próprio nó Lightning:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 E para saber mais sobre o funcionamento técnico da Rede Relâmpago, pode encontrar a excelente formação gratuita de Fanis Michalakis sobre o Plano ₿ Network :
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

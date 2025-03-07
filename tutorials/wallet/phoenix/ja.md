@@ -60,6 +60,7 @@ GitHubリポジトリにあるapkファイルを使って]アプリケーショ�
 ニモニックフレーズの保存と管理の適切な方法については、特に初心者の方には、この他のチュートリアルをご覧になることを強くお勧めします：
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 インターフェースの上部に表示されるメッセージ「*Save your wallet...*」をクリックします。
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Phoenixにsatsをインストールしたら、Lightning Network経由で支払�
 さらに一歩進めるために、独自のLightningノードを立ち上げるためのもう一つの革新的で使いやすいソリューションであるAlby Hubのチュートリアルをご覧ください：
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 また、ライトニング・ネットワークの技術的な操作については、ファニス・ミハラキスによるプラン₿ネットワークに関する優れた無料トレーニングをご覧ください：
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

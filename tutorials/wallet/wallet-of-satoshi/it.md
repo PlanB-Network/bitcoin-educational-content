@@ -3,14 +3,14 @@ name: Wallet of Satoshi (WoS)
 description: Il più semplice wallet (custodial) per iniziare
 ---
 ![cover](assets/cover.webp)
-#### Questo tutorial stato scritto da [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Questo tutorial stato scritto da_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 # Scaricare, configurare e usare Wallet of Satoshi
 
 Wallet of Satoshi è un wallet lightning network, custodial, molto semplice da utilizzare.
 Per gli scopi del corso [BTC105 - Trovarsi Ora](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), è utilizzato per riscattare i voucher Lightning Network.
 
-> *«Not your keys, not your coins»*
+> **Not your keys, not your coins**
 I wallet custodial, non consentono agli utenti di disporre completamente dei propri fondi.
 Sono normalmente sconsigliati, se non per chi inizia da zero. WoS deve essere utilizzato come wallet di passaggio o per conservare la pocket money, non per accumulare fondi a lungo termine.
 
@@ -26,7 +26,7 @@ Andiamo sul playstore e scarichiamao WoS
 
 ![image](assets/it/01.webp)
 
-N.B. WoS si scarica solo dagli store ufficiali. Se il sistema operativo del dispositivo è programmato, prima di aprire WoS avviene una parte di verifica da parte del SO stesso. Passata la fase di verifica, scegliere _Open_.
+**Nota:** WoS si scarica solo dagli store ufficiali. Se il sistema operativo del dispositivo è programmato, prima di aprire WoS avviene una parte di verifica da parte del SO stesso. Passata la fase di verifica, scegliere _Open_.
 
 ![image](assets/it/02.webp)
 
@@ -100,7 +100,7 @@ Con la tastiera impostiamo l'importo
 
 ![image](assets/it/18.webp)
 
-per poi farci pagare l'invoice. Il pagamento ricevuto compare così
+per poi farci pagare l'invoice. Il pagamento ricevuto compare così:
 
 ![image](assets/it/19.webp)
 
@@ -161,7 +161,7 @@ Dalla schermata princicpale, cliccando su _History_ (subito sotto il saldo) comp
 ### Recupero dell’account di WoS
 
 In caso di furto, smarrimento o impossibilità di far funzionare il cellulare, vediamo come fare a installare WoS su un nuovo dispositivo.
-Una volta re-installato, si deve rifare la procedura di registrazione account appena spiegata, con un’unica variante: al termine della richiesta di login con la mail precedentemente impostata, WoS apparirà così
+Una volta re-installato, si deve rifare la procedura di registrazione account appena spiegata, con un’unica variante: al termine della richiesta di login con la mail precedentemente impostata, WoS apparirà così:
 
 ![image](assets/it/33.webp)
 

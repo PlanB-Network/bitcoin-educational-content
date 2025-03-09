@@ -1,19 +1,26 @@
 id: 7551c74f-8235-4c09-9aaa-b8364bc1fe7b
 project_id: 6ca330b1-d19c-470e-93a7-98bce38ff0f5
-tags: 
-- lightning-network
-- guides
-- user-friendly
+
 category: wallets
+
 level: beginner
+
 credits:
-professor: f205sats
+    professor: f205sats
+
+tags:
+    - lightning-network
+    - guides
+    - user-friendly
+
+test_only: true
+
 # Proofreading metadata
 original_language: it
 proofreading:
-- language: it
-last_contribution_date: 06/03/2025
-urgency:
-contributors_id: f205sats
--
-reward:
+  - language: it
+    last_contribution_date: 2025-03-07
+    urgency: 1
+    contributors_id:
+      - f205sats
+    reward:

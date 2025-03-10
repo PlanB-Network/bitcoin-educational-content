@@ -49,7 +49,6 @@ Prerequisiti prima di iniziare l'esercitazione :
 
 Se avete bisogno di aiuto per ottenere questi prerequisiti, le mie altre esercitazioni vi aiuteranno:
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
@@ -422,3 +421,4 @@ Se desiderate apportare modifiche al vostro contributo dopo aver già presentato
 - Nel caso in cui il vostro PR sia già stato unito al ramo principale, dovrete rifare il processo dall'inizio creando un nuovo ramo e inviando un nuovo PR. Assicuratevi che il vostro repository locale sia sincronizzato con il repository dei sorgenti di Plan ₿ Network prima di procedere.
 
 Se hai difficoltà tecniche a inviare il tuo tutorial, non esitare a chiedere aiuto su [il nostro gruppo Telegram dedicato ai contributi](https://t.me/PlanBNetwork_ContentBuilder). Grazie mille!
+

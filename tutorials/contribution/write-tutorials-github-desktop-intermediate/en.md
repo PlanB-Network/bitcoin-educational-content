@@ -49,7 +49,6 @@ Prerequisites before starting the tutorial :
 
 If you need help getting these prerequisites, my other tutorials will help:
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
@@ -422,3 +421,4 @@ If you wish to make changes to your contribution after you have already submitte
 - In the event that your PR has already been merged with the main branch, you'll need to redo the process from the beginning by creating a new branch, then submitting a new PR. Make sure your local repository is synchronized with the Plan ₿ Network source repository before proceeding.
 
 If you're having technical difficulties submitting your tutorial, please don't hesitate to ask for help on [our dedicated Telegram group for contributions](https://t.me/PlanBNetwork_ContentBuilder). Thank you very much!
+

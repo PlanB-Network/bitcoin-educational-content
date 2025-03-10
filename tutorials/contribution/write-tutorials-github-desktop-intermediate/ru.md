@@ -49,7 +49,6 @@ https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web
 
 Если вам нужна помощь в получении этих предварительных условий, вам помогут другие мои руководства:
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
@@ -422,3 +421,4 @@ Pull Request - это запрос на интеграцию изменений 
 - В случае если ваш PR уже был объединен с основной веткой, вам придется повторить процесс с самого начала, создав новую ветку и отправив новый PR. Прежде чем приступить к работе, убедитесь, что ваш локальный репозиторий синхронизирован с исходным репозиторием Plan ₿ Network.
 
 Если у вас возникли технические трудности с отправкой урока, пожалуйста, не стесняйтесь просить помощи в [нашей специальной группе Telegram для вкладов](https://t.me/PlanBNetwork_ContentBuilder). Большое спасибо!
+

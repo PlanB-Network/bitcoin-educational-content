@@ -49,7 +49,6 @@ https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web
 
 これらの前提条件を得るのに手助けが必要な場合は、私の他のチュートリアルが役に立つだろう：
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
@@ -422,3 +421,4 @@ GitHub Desktop では、フォークのメインブランチ (`dev`) に戻る�
 - PRがすでにメインブランチにマージされている場合は、新しいブランチを作成し、新しいPRを投稿して、プロセスを最初からやり直す必要があります。作業を進める前に、ローカルリポジトリが Plan ȏ Network ソースリポジトリと同期していることを確認してください。
 
 チュートリアルの投稿に技術的な問題がある場合は、遠慮なく[投稿専用のTelegramグループ](https://t.me/PlanBNetwork_ContentBuilder)に助けを求めてください。ありがとうございました！
+

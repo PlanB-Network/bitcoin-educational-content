@@ -225,4 +225,4 @@ Ora siete pronti a usare Ubuntu quotidianamente: proteggete il vostro sistema, n
 
 Per fare un ulteriore passo avanti nella sicurezza della vostra vita digitale, vi consigliamo di dare un'occhiata al nostro servizio di messaggistica criptata, che è perfettamente adatto a proteggere la vostra privacy e completa la vostra installazione di Ubuntu:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

@@ -13,74 +13,74 @@ proofreading:
   - LoicPandul
   reward: 0
 - language: cs
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 3.58
 - language: de
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 1.84
 - language: en
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 1.84
 - language: es
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 2.71
 - language: et
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 3.58
 - language: fi
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 3.58
 - language: id
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 4.44
 - language: it
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 2.71
 - language: ja
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 5.31
 - language: nb-NO
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 3.58
 - language: pt
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 1.84
 - language: ru
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 3.58
 - language: vi
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 5.31
 - language: zh-Hans
-  last_contribution_date: null
+  last_contribution_date:
   urgency: 1
-  contributors_id: null
+  contributors_id:
   reward: 4.44
 tags:
 - guides

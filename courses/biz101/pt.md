@@ -634,9 +634,9 @@ Este é, de longe, o método mais comum, efectuado através de trocas peer-to-pe
 
 Para saber como abrir uma conta empresarial e utilizá-la para comprar, vender e transferir bitcoins, pode consultar estes dois tutoriais especificamente concebidos para empresas, que abrangem as plataformas Kraken e Bitfinex nas suas versões empresariais:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 Para saber mais sobre os métodos de aquisição de bitcoins através de uma bolsa ou peer-to-peer, pode [consultar a secção "bolsa" nos nossos tutoriais] (https://planb.network/tutorials/exchange).
 

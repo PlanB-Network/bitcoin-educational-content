@@ -634,9 +634,9 @@ Sejauh ini, ini adalah metode yang paling umum, dilakukan melalui bursa peer-to-
 
 Untuk mempelajari cara membuka akun bisnis dan menggunakannya untuk membeli, menjual, dan mentransfer bitcoin, Anda dapat melihat dua tutorial yang dirancang khusus untuk bisnis, yang mencakup platform Kraken dan Bitfinex dalam versi korporatnya:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 Untuk mempelajari lebih lanjut mengenai metode-metode untuk mendapatkan bitcoin melalui bursa atau peer-to-peer, Anda bisa [lihat bagian "bursa" dalam tutorial kami](https://planb.network/tutorials/exchange).
 

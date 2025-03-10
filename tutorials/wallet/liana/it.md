@@ -1,6 +1,6 @@
 ---
 name: Liana
-description: Impostazione e utilizzo di un portafoglio su Liana
+description: Impostazione e utilizzo di un portafoglio su Liana wallet
 ---
 ![cover](assets/cover.webp)
 

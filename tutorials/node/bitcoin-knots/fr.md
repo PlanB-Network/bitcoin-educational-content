@@ -8,154 +8,275 @@ Bitcoin Knots est une implémentation alternative du protocole Bitcoin, dérivé
 
 ## Pourquoi utiliser Knots plutôt que Core ?
 
-Core est actuellement l'implémentaiton majoritaire du protocole Bitocin sur le réseau Bitcoin. En effet, le protocole Bitcoin n'est qu'un ensemble de règles, mais il faut un logiciel pour appliquer ces règles. Lorsqu'une machine fait tourner un de ces clients qui implémente le protocole Bitcoin, on appelle cela un noeud, et tous les noeuds forment le réseau Bitcoin.
+Actuellement, Core est l'implémentation majoritaire du protocole Bitcoin sur le réseau. En effet, le protocole Bitcoin n'est qu'un ensemble de règles. Il nécessite un logiciel pour leur application. Une machine exécutant un tel logiciel implémentant le protocole Bitcoin s'appelle un nœud, et tous ces nœuds réunis constituent le réseau Bitcoin.
 
-Au cours de l'histoire de Bitcoin, il y a eu de nombreux clients différents dans la lignée du logiciel originial développé par Satoshi Nakamoto. Aujourd'hui (mars 2025), c'est le logiciel Bitcoin Core qui est ultra majoritaire, puisqu'environ 98% du réseau Bitcoin est constitué de noeuds qui font tourner ce logiciel.
+Tout au long de l'histoire de Bitcoin, de nombreux clients dérivés du logiciel initial développé par Satoshi Nakamoto ont vu le jour. Aujourd'hui (mars 2025), Bitcoin Core est ultra-majoritaire, puisque près de 98 % des nœuds du réseau Bitcoin utilisent ce client.
 
-Mais il existe également des clients alternatifs. Ces logiciels ne sont pas des noeuds d'Altcoin, comme Bitcoin Cash par exemple, puisqu'ils sont compatibles avec le reste du réseau Bitcoin. Ce sont simplement des logiciels différents qui permettent de faire tourner un noeud Bitcoin. Parmis ces client alternatif, le plus connu est Bitcoin Knots, puisqu'il représente actuellement 1,4% du réseau. Les autres clients alternatifs représentent une part infime.
+Cependant, il existe aussi des logiciels alternatifs. Il ne s'agit pas de nœuds liés à des altcoins comme Bitcoin Cash, mais bien de clients alternatifs compatibles avec le vrai réseau Bitcoin. Parmi eux, Bitcoin Knots est le plus connu. Il représente actuellement environ 1,4 % du réseau. Les autres clients alternatifs demeurent très minoritaires.
 
 01
 
-Il peut y avoir principalement 2 raisons qui peuvent vous pousser à faire tourner un de ces clients plutôt que Core :
-- Technique : ces clients ont souvent quelques options différentes avec Core, par exemple au niveau des règles de mempool qui régissent quelles transaction sont acceptées et diffusées par votre noeud. Il proposent également des interface graphiques différentes ;
-- Politique : certains préfèrent utiliser ces clients alternatifs comme Knots pour des raisons qui ne sont pas techniques, par exemple pour soutenir le développement d'alternatives à Core et combattre le monopole à son échelle. Si un jour Core devient compromis, cela peut être intéressant non seulement d'avoir des clients alternatifs forts et bien maintenus, mais également de savoir comment utiliser ces clients alternatifs. Ou bien, certains font tourner Knots pour participer à un contre mouvement, parce qu'ils n'ont plus confiance en les développeurs de Core ou bien n'apprécient pas la gestion du client majoritaire.
+Deux principales raisons peuvent vous pousser à utiliser un client alternatif comme Knots au lieu de Core :
 
-## Installer Bitcoin Knots ?
+- **Technique** : Ces clients offrent souvent des options différentes de Core, notamment en matière de gestion de la mempool, en déterminant les transactions acceptées et diffusées par votre nœud.
 
-Rendez-vous [sur le site officiel de Bitcoin Knots](https://bitcoinknots.org/#download) et téléchargez le logiciel en fonction de votre système d'exploitation. Téléchargez l'empreinte et les signatures pour pouvoir le vérifier. Vous pouvez également retrouver ces fichiers [sur le dépôt GitHub de Bitcoin Knots](https://github.com/bitcoinknots/bitcoin).
+- **Politique** : Certains préfèrent utiliser des clients alternatifs tels que Knots pour des raisons non techniques, notamment pour soutenir une alternative à Core et ainsi réduire son monopole. Si Core venait un jour à être compromis, il serait alors utile de disposer d'autres clients solides et bien maintenus, mais aussi de savoir les utiliser. D'autres utilisent Knots dans une démarche contestataire, parce qu'ils ont perdu confiance dans les développeurs de Core ou désapprouvent la gestion du client majoritaire.
+
+## Comment installer Bitcoin Knots ?
+
+Rendez-vous [sur le site officiel de Bitcoin Knots](https://bitcoinknots.org/#download) pour télécharger la version correspondant à votre système d'exploitation. N'oubliez pas de récupérer également l'empreinte et les signatures pour vérifier le logiciel. Ces fichiers sont aussi disponibles [sur le dépôt GitHub de Bitcoin Knots](https://github.com/bitcoinknots/bitcoin).
 
 02
 
-Avant d'installer le logiciel sur votre machine, je vous conseille vivement de vérifier son authenticité et son intégrité. Si vous ne savez pas comment le faire, vous pouvez suivre cet autre tutoriel : 
+Avant d'installer le logiciel sur votre machine, il est fortement recommandé d'en vérifier l'authenticité et l'intégrité. Si vous ne savez pas comment le faire, consultez cet autre tutoriel :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-Une fois le logiciel vérifié, vous pouvez l'installer en suivant les étapes sur le panneaux de configuration.
+Une fois le logiciel vérifié, installez-le en suivant les étapes indiquées dans le panneau d'installation.
 
 03
 
 ## Lancer l'IBD
 
-Lors du premier démarrage de Bitcoin Knots, vous pourrez choisir le répertoire local dans lequel stocker les données du noeud (notamment la blockchain, l'UTXO set et les paramètres).
+Lors du premier lancement de Bitcoin Knots, vous pourrez choisir le répertoire local où seront stockées les données de votre nœud (notamment la blockchain, l'UTXO set et les paramètres).
 
 04
 
-Vous avez également la possibilité d'élaguer les données de la blockchain, afin de ne conserver que les blocks les plus récents. Cette option vous permet de bien vérifier tous les blocs, mais de ne jamais dépasser la limite de stockgae que vous avez paramétré, en supprimant au fur et à mesure les blocs les plus vieux. Si vous disposez de uffisament de place sur votre disque (environ 650 go actuellement, mais cette valeur ne fait évidemment qu'augmenter), vous pouvez décocher cette case. Si vous êtes limités au niveau de votre espace de stockage, vous pouvez cocher cette option, et paramétrer une valeur maximale à ne pas dépasser.
+Vous pouvez également choisir d'élaguer les données de la blockchain pour ne conserver que les blocs les plus récents. Cette option permet à votre nœud de vérifier intégralement chaque bloc tout en respectant une limite de stockage fixée, ce qui supprime donc progressivement les blocs les plus anciens. Si vous disposez de suffisamment d'espace disque (environ 650 Go actuellement, mais ce nombre ne cesse d'augmenter), laissez cette option décochée. Si votre espace disque est limité, activez l'élagage et indiquez la capacité maximale autorisée.
 
-Attention, si vous noeud est élagué et que vous l'utilisez pour sycnhorniser une récupération de portefeuille, vous ne pourrez pas retrouver les données de transactions antérieure au bloc le plus ancien que vous conservez en local. 
+Attention : Si votre nœud est élagué et que vous l'utilisez pour synchroniser un portefeuille récupéré, vous ne pourrez pas retrouver les transactions antérieures au bloc le plus ancien conservé localement.
 
 05
 
-Vous avez également la possibilité d'activer l'option "Assume Valid". Cette option permet de sauter la vérification des signatures pour toutes les transactions incluses dans les blocs antérieurs à un certain bloc donné.
+Une autre option disponible est "Assume Valid". Elle permet d'accélérer la synchronisation initiale en sautant la vérification des signatures des transactions incluses dans les blocs antérieurs à un bloc précis.
 
-L'objectif d'Assume Valid est d'accélérer le processus de synchronisation initiale de votre nœud sans compromettre la sécurité, en supposant que la majorité du réseau ait déjà validé ces transactions dans le passé. Le seul vrai compromis pour le nœud est qu'en cas de vol antérieur de bitcoins, il ne sera pas averti. Cependant, il peut toujours s'assurer de l'exactitude de la quantité de bitcoins émis. Votre nœud poursuivra tout de même la vérification des signatures de transactions postérieures au bloc "Assume Valid". Cette approche repose sur l'hypothèse que si une transaction est acceptée par le réseau depuis assez longtemps sans contestation, il est improbable qu'elle soit frauduleuse.
+L'objectif d'"Assume Valid" est d'accélérer la première synchronisation du nœud sans réduire significativement la sécurité, en présumant que ces transactions ont déjà été validées massivement par le réseau auparavant. Le seul compromis important est que votre nœud ne détectera pas d'éventuels vols antérieurs de bitcoins, mais il permettra tout de même de garantir l'exactitude du nombre total de bitcoins émis. Votre nœud vérifiera toutes les signatures des transactions situées après le bloc indiqué. Cette approche repose sur l'hypothèse qu'une transaction acceptée depuis longtemps par le réseau sans contestation est très probablement valide.
 
-Par exemple, ici, "Assume Valid" est paramétré avec le bloc n°855 000 `0000000000000000000233ea80aa10d38aa4486cd7033fffc2c4df556d0b9138` publié le 1er août 2024. Cela signifie que lors de l'IBD, mon nœud ne vérifiera les signature qu'à partir de ce bloc.
+Par exemple, ici, "Assume Valid" est paramétré sur le bloc n°855 000 `0000000000000000000233ea80aa10d38aa4486cd7033fffc2c4df556d0b9138`, publié le 1er août 2024. Durant l'IBD, mon nœud commencera donc la vérification complète des signatures seulement à partir de ce bloc.
 
 06
 
-Cliquez ensuite sur le bouton "OK" pour lancer l'*Inital Block Download*. Il faudra ensuite patienter le temps que votre nœud se synchronise. Si vous souhaitez reprendre la synchronisaiton plus tard, vous pouvez fermer le logiciel et éteindre votre ordinateur. La synchronisaiton reprendra sans problème là où vous en étiez.
+Cliquez ensuite sur le bouton "OK" pour lancer l'*Initial Block Download*. Vous devrez patienter durant la synchronisation initiale du nœud. Si vous souhaitez reprendre cette synchronisation plus tard, fermez simplement le logiciel et éteignez votre ordinateur. La synchronisation reprendra sans problème à votre prochaine ouverture.
 
 07
 
 ## Paramétrer son nœud Bitcoin Knots
 
-Cliquez sur l'onglet "Settings", puis le menu "Options".
+Cliquez sur l'onglet "Settings", puis sélectionnez "Options".
 
 08
 
-Dans l'onglet "Main", vous trouverez les paramètres principaux de votre noeud :
-- "Start..." vous permet de démarrer automatiquement votre noeud à chaque démarage de votre oridnateur afin de lancer immédiatement la synchronisation ;
-- "Prune..." vous permet d'ajuster la limite de stockage pour les blocks si vous avez un noeud élagué ;
-- "Database cash..." vous permet d'ajuster la limite maximale de mémoire vive que peut utiliser votre noeud sur votre ordinateur.
-- Et enfin, vous pouvez cocher la case "Enable RPC server" si vous souhaitez vous connecter à votre Bitcoin Knots depuis un autre logiciel de portefeuille comme Sparrow Wallet par exemple.
+Dans l'onglet "Main", vous accédez aux paramètres principaux du nœud :
+- "Start…" permet le lancement automatique du nœud au démarrage de votre ordinateur pour entamer la synchronisation immédiatement ;
+- "Prune…" permet d'ajuster la limite de stockage si vous avez choisi d'élaguer la blockchain ;
+- "Database cache…" règle la quantité maximale de mémoire vive autorisée à votre nœud ;
+- Enfin, activez "Enable RPC server" si vous souhaitez connecter votre nœud Bitcoin Knots à d'autres logiciels de portefeuille, tels que Sparrow Wallet ou Liana par exemple.
 
 09
 
-Dans l'onglet "Wallet", vous retrouvez les options du portefeuille que vous pourrez créer par la suite directement sur Knots. Je vous conseille d'activer RBF et le coin control, et vous pouvez également choisir le type de script utilisé.
+Dans l'onglet "Wallet", vous trouverez les paramètres du portefeuille intégré que vous pourrez créer ultérieurement sur Knots. Je vous recommande d'activer RBF et le coin control. Vous pouvez également définir le type de script à utiliser.
 
 10
 
-Dans "Network" vous avez les options réseau si vous avez besoin de les ajuster en fonciton de vos besoin.
+L'onglet "Network" contient les paramètres réseau que vous pourrez adapter selon vos besoins spécifiques.
 
 11
 
-L'onglet "Mempool" vous permet de paramétrer votre *Memory Pool*, notamment la manière dont les transaction non confirmées sont conservées en mémoire, et la taille de stockage que vous allouez à cette foncitonnalité (par défaut 300 MB).
+L'onglet "Mempool" permet de configurer la *Memory Pool*, c'est-à-dire la gestion des transactions non confirmées stockées en mémoire ainsi que la taille maximale attribuée à cette fonctionnalité (300 Mo par défaut).
 
 12
 
-L'onglet "Spam filtering" est une fonciotnnalité propre à Bitcoin Knots. Vous y trouverez de nombreux paramètres permettant d'ajuster les transacitons que vous acceptez de diffuser ou non. L'objectif ici est de limiter les conséquences de certaines utilisaitons marginales de Bitcoin, notamment les méta-protocoles, afin d'une part de combattre leur utilisation et d'autre part de ne pas surcharger votre noeud avec cela. C'est une prise de position politique, en fonciton de votre vision de Bitcoin.
+L'onglet "Spam filtering" est une fonctionnalité propre à Bitcoin Knots. Vous y trouverez de nombreux réglages permettant de choisir quelles transactions vous acceptez ou refusez de diffuser. L'objectif principal est de limiter certaines utilisations marginales de Bitcoin, en particulier les méta-protocoles, afin de combattre ces pratiques tout en évitant la surcharge de votre nœud. Il s'agit donc d'un choix politique selon votre vision personnelle de Bitcoin.
 
-Vous trouverez également des paramètres plus classiques comme par exemple le seuil de "Dust".
+Vous y trouverez aussi des paramètres classiques comme la définition du seuil de "Dust".
 
-Dans tous les cas, ces paramètres agissent uniquement sur les règles de standardisation, ce qui signifie que votre noeud acceptera tout de même les trnsactions qui ne respectent pas ces paramètres, mais uniquement si elles sont incluses dans un bloc. Sinon, il ne pourrait pas être compatible avec le reste du réseau Bitcoin. Ces paramètres agissent uniquement sur la manière dont votre noeud traite les transactions non confirmées et les diffuse à ses pairs. Mais puisque Knots est minoritaire, dans les faits, se sont les règles de standardisation par défaut établies sur Bitcoin Core qui font loi.
+Cependant, ces paramètres influencent uniquement les règles de standardisation. Votre nœud continuera à accepter les transactions ne respectant pas ces critères uniquement lorsqu'elles sont incluses dans un bloc, afin de rester compatible avec le reste du réseau Bitcoin. Ces paramètres modifient seulement la manière dont votre nœud traite et diffuse les transactions non confirmées à ses pairs. En pratique, comme Knots est minoritaire, ce sont les règles établies par défaut sur Bitcoin Core qui définissent la standardisation sur le réseau.
 
 13
 
-L'onglet "Mining" vous permet de paramétrer la manière dont votre noeud participe au minage (si vous souhaitez qu'il y participe).
+L'onglet "Mining" permet de configurer la participation éventuelle de votre nœud au minage, si vous souhaitez activer cette fonction.
 
 14
 
-Et enfin, dans l'onglet "Display", vous trouverez des paramètres sur l'interface graphique, notamment la langue du logiciel.
+Enfin, l'onglet "Display" concerne les paramètres relatifs à l'interface graphique, notamment la langue du logiciel.
 
 15
 
 ## Créer un portefeuille Bitcoin
 
-Une fois la synchronisation initiale terminée, votre noeud Bitcoin Knots est opérationnel. Vous pouvez maintenant soit le connecter à un autre logiciel de portefeuille, oubien utiliser le portefeuille chaud directement intégré au logiciel. Pour ce faire, cliquez sur le bouton "Create a new wallet".
+Une fois la synchronisation initiale achevée, votre nœud Bitcoin Knots est pleinement fonctionnel. Vous avez désormais la possibilité de connecter ce nœud à un autre logiciel de portefeuille, ou bien d'utiliser directement le portefeuille chaud intégré. Pour ce faire, cliquez sur le bouton "Create a new wallet".
 
 16
 
-Choisissez un nom pour votre portefeuille. Vous pouvez également le protéger avec une Passphrase BIP39 en cliquant sur "Encrypt Wallet". Puis, cliquez sur le bouton "Create".
+Donnez un nom à votre portefeuille. Vous pouvez également le protéger à l'aide d'une Passphrase BIP39 en cliquant sur "Encrypt Wallet". Une fois prêt, cliquez sur le bouton "Create".
 
 17
 
-Une passphrase BIP39 est un mot de passe optionnel que vous pouvez choisir librement, et qui vient s'ajouter à votre phrase mnémonique pour renforcer la sécurité du portefeuille. Avant de configurer cette option sur votre portefeuille, il est fortement recommandé de lire cet article pour bien comprendre le fonctionnement théorique de la passphrase et éviter les erreurs qui pourraient entraîner la perte de vos bitcoins :
+La passphrase BIP39 est un mot de passe optionnel que vous choisissez librement, venant s'ajouter à votre phrase mnémonique afin d'accroître la sécurité de votre portefeuille. Avant de configurer cette fonctionnalité, il est vivement conseillé de consulter l'article suivant, qui explique en détail le fonctionnement théorique de la passphrase et vous permet d'éviter les erreurs susceptibles d'entraîner une perte définitive de vos bitcoins :
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-Si vous avez coché l'option pour la passphrase, choisissez maintenant une passphrase forte, et faites en une ou plusieurs sauvegarde sur un support physique.
+Si vous avez activé l'option passphrase, choisissez-en une robuste et sauvegardez-la soigneusement sur un ou plusieurs supports physiques sécurisés.
 
 18
 
-Votre portefeuille Bitcoin est maintenant créé.
+Votre portefeuille Bitcoin est désormais créé.
 
 19
 
 ## Sauvegarder son portefeuille Bitcoin
 
-Avant de recevoir vos premiers bitocins, il est important de réaliser une sauvegarde de votre portefeuille Bitcoin pour pouvoir récuéprer vos fonds en cas de perte ou de casse de votre ordinateur. Pour ce faire, cliquez sur l'onglet "File" puis "Backup wallet".
+Avant même de recevoir vos premiers bitcoins, il est indispensable d'effectuer une sauvegarde de votre portefeuille Bitcoin afin de pouvoir récupérer vos fonds en cas de perte ou de panne de votre ordinateur. Pour ce faire, cliquez sur l'onglet "File" puis sur "Backup wallet".
 
 20
 
-Cela va vous permettre de générer un fichier qui a lui seul, permet de restaurer tous vos bitcoins. Faites y donc très attention et sauvegardez-le sur un support externe à votre ordinateur.
+Cette opération génère un fichier unique qui permet, à lui seul, de restaurer l'ensemble de vos bitcoins. Soyez donc très vigilant, et sauvegardez-le sur un support externe sécurisé.
 
 ## Recevoir des bitcoins
 
-Cliquez sur le bouton "Receive".
+Pour recevoir des bitcoins directement sur votre portefeuille Knots, cliquez sur le bouton "Receive".
 
 21
 
-Renseignez un "Label" sur votre adresse pour vous souvenir de son objectif et pouvoir faire du *Coin Control* par la suite. Vous pouvez également paramétrer à l'avance un montant spécifique à recevoir avec cette adresse, ou bien ajouter un message au payeur. Une fois l'adresse paramétrée, cliquez sur "Request payment".
+Attribuez un "Label" à votre adresse afin d'en identifier facilement l'objectif et faciliter l'utilisation ultérieure du *Coin Control*. Vous pouvez également définir à l'avance un montant précis à recevoir sur cette adresse, ou ajouter un message destiné au payeur. Une fois les paramètres définis, cliquez sur "Request payment".
 
 22
 
-Bitcoin Knots vous affiche une adresse de réception que vous pouvez copier ou scanner pour la transmettre au payeur.
+Bitcoin Knots affiche alors une adresse de réception que vous pouvez copier ou scanner afin de la transmettre au payeur.
 
 23
 
-Une fois la transaction diffusée, vous pouvez la voir dans le menu "Transactions".
+Une fois la transaction diffusée, vous pourrez suivre son état directement dans le menu "Transactions".
 
 24
 
 ## Envoyer des bitcoins
 
+Maintenant que vous avez des bitcoins sur votre portefeuille Knots, vous avez la possibilité d'en envoyer. Pour ce faire, cliquez sur le bouton "Send".
 
+25
 
+Cliquez sur le bouton "Inputs..." afin de sélectionner précisément l'UTXO que vous souhaitez dépenser pour cette transaction.
 
+26
+
+Indiquez l'adresse Bitcoin du destinataire.
+
+27
+
+Ajoutez un label afin de vous souvenir de l'objectif de cette transaction.
+
+28
+
+Entrez le montant que vous souhaitez envoyer à cette adresse.
+
+29
+
+Cliquez sur le bouton "Choose..." pour sélectionner le taux de frais adapté à votre transaction en fonction de l'état actuel du réseau.
+
+30
+
+Si tout vous convient, cliquez sur le bouton "Send". Si vous utilisez une passphrase, il vous sera demandé de la renseigner à cette étape.
+
+31
+
+Vérifiez une dernière fois les paramètres de votre transaction, puis, si tout est correct, cliquez à nouveau sur le bouton "Send" pour signer et diffuser votre transaction.
+
+32
+
+Votre transaction en attente de confirmation apparaît désormais dans l'onglet "Transactions".
+
+33
 
 ## Connecter son nœud à un autre logiciel
 
-L'interface de Bitocin Knots pour le portefeuille Bitcoin n'est pas forcément la plus simple à utiliser, et reste limitée en options. Mais vous pouvez également utiliser votre noeud Bitcoin Knots avec un logiciel de gestion de portefeuille spécialisé afin d'avoir accès aux informations de la blockchain Bitcoin et diffuser vos transactions.
+L'interface intégrée de Bitcoin Knots pour gérer votre portefeuille Bitcoin n'est pas forcément la plus intuitive, et ses fonctionnalités restent relativement limitées. Vous pouvez toutefois connecter votre nœud Bitcoin Knots à un logiciel spécialisé de gestion de portefeuille afin d'accéder facilement aux données de la blockchain Bitcoin et de diffuser vos transactions.
 
-La procédure va être différente en fonction du logiciel de portefeuille que vous utilisez, mais il existe généralement 2 options : 
+La procédure à suivre dépendra du logiciel utilisé, mais deux cas de figure principaux existent : soit Bitcoin Knots est installé sur le même ordinateur que votre logiciel de portefeuille, soit il fonctionne sur une machine séparée.
+
+### Avec Bitcoin Knots en local :
+
+Si Bitcoin Knots est installé sur votre ordinateur, localisez le fichier `bitcoin.conf` parmi les fichiers du logiciel. Si ce fichier n'existe pas, vous pouvez le créer. Ouvrez-le avec un éditeur de texte et insérez la ligne suivante :
+
+```ini
+server=1
+```
+
+Sauvegardez ensuite vos modifications.
+
+Vous pouvez également effectuer cette configuration via l'interface graphique de Bitcoin-QT en naviguant dans "Settings" > "Options..." et en activant l'option "Enable RPC server".
+
+N'oubliez pas de redémarrer le logiciel après ces modifications.
+
+34
+
+Rendez-vous ensuite sur votre logiciel de gestion de portefeuille (par exemple Sparrow Wallet ou Liana) et renseignez le chemin vers votre fichier de cookie, généralement situé dans le même dossier que le `bitcoin.conf`, selon votre système d'exploitation :
+
+|**macOS**|~/Library/Application Support/Bitcoin|
+|---|---|
+|**Windows**|%APPDATA%\Bitcoin|
+|**Linux**|~/.bitcoin|
+
+35
+
+Laissez les autres paramètres par défaut, l'URL `127.0.0.1` et le port `8332`, puis cliquez sur "Test Connection".
+
+36
+
+### Avec Bitcoin Knots à distance :
+
+Si Bitcoin Knots est installé sur une autre machine connectée sur le même réseau, commencez par localiser le fichier `bitcoin.conf` parmi les fichiers du logiciel. Si ce fichier n'existe pas encore, vous pouvez le créer. Ouvrez ce fichier avec un éditeur de texte et ajoutez la ligne suivante :
+
+```ini
+server=1
+```
+
+Après avoir modifié le fichier, assurez-vous de l'enregistrer dans le dossier approprié selon votre système d'exploitation :
+
+|**macOS**|~/Library/Application Support/Bitcoin|
+|---|---|
+|**Windows**|%APPDATA%\Bitcoin|
+|**Linux**|~/.bitcoin|
+
+Il est également possible de réaliser cette manipulation via l'interface graphique de Bitcoin-QT. Accédez au menu "Settings", puis "Options...", et activez l'option "Enable RPC server" en cochant la case correspondante. Si le fichier `bitcoin.conf` n'existe pas, vous pouvez le créer directement depuis cette interface en cliquant sur "Open Configuration File".
+
+37
+
+Trouvez l'adresse IP de la machine qui héberge Bitcoin Knots dans votre réseau local. Pour cela, vous pouvez utiliser un outil tel que [Angry IP Scanner](https://angryip.org/). Supposons, pour l'exemple, que l'adresse IP de votre nœud soit `192.168.1.18`.
+
+Dans le fichier `bitcoin.conf`, ajoutez les lignes suivantes, en configurant `rpcbind=192.168.1.18` pour correspondre à l'adresse IP de votre nœud.
+
+```ini
+[main]
+rpcbind=127.0.0.1
+rpcbind=192.168.1.18
+rpcallowip=127.0.0.1
+rpcallowip=192.168.1.0/24
+```
+
+38
+
+Ajoutez également dans le fichier `bitcoin.conf` un identifiant et un mot de passe pour les connexions à distance. Assurez-vous de remplacer `loic` par votre nom d'utilisateur et `my_password` par un mot de passe fort :
+
+```ini
+rpcuser=loic
+rpcpassword=my_password
+```
+
+39
+
+Après avoir modifié et sauvegardé le fichier, redémarrez Bitcoin Knots.
+
+Vous pouvez maintenant aller sur votre logiciel de gestion de portefeuille (par exemple Sparrow Wallet ou Liana). Sur Sparrow, accédez à l'onglet "User / Pass". Saisissez le nom d'utilisateur et le mot de passe que vous avez configurés dans le fichier `bitcoin.conf`. Laissez les autres paramètres par défaut, à savoir l'URL `127.0.0.1` et le port `8332`. Cliquez ensuite sur "Test Connection".
+
+40
+
+La connexion est établie.
+
+Vous savez maintenant tout sur l'implémentation alternative Bitcoin Knots.
+
+Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à le partager sur vos réseaux sociaux. Merci beaucoup !
+
+Je vous conseille également de découvrir cet autre tutoriel dans lequel je vous explique comment mettre en place votre propre nœud Lightning :
+
+https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

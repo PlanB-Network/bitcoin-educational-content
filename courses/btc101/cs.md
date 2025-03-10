@@ -564,8 +564,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-4
 Můžete například použít Ledger, Satochip nebo Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Úroveň 3**, používáte peněženku úrovně 1 nebo 2, ale přidali jste další přístupovou frázi. V takovém případě si uvědomte, že je třeba zálohovat jak seznam 12/24 slov **a\*\* vaši přístupovou frázi. V ideálním případě jsou tyto dvě informace uloženy na dvou různých místech.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Další informace o používání a fungování hesla BIP39:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Na úrovni 4\*\* vytvoříte pomocí sady peněženek "multisig peněženku", což znamená, že k provedení transakce je zapotřebí více podpisů. V tomto případě mějte na paměti, že každá část multisig by měla být uložena na jiném místě. Tento přístup je často považován za pokročilé využití Bitcoinu, především pro správu velkých částek a pro firemní účely.

@@ -7,6 +7,7 @@ description: Полное руководство по созданию учеб�
 Прежде чем следовать этому руководству по добавлению нового учебника, вы должны выполнить несколько предварительных шагов. Если вы еще не сделали этого, я приглашаю вас сначала ознакомиться с этим вводным уроком, а затем вернуться сюда:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Вы уже сделали это:
 
 
@@ -20,12 +21,14 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 - Опытные пользователи**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+
 Если вы предпочитаете не настраивать локальное окружение, следуйте другому руководству, предназначенному для новичков, где мы вносим изменения непосредственно через веб-интерфейс GitHub:
 
 
 - Новички (веб-интерфейс)**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## Пререквизиты
 
 Программное обеспечение, необходимое для выполнения данного руководства:
@@ -47,6 +50,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-web-b
 Если вам нужна помощь в получении этих необходимых условий, вам помогут другие мои учебники:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 Как только все будет готово и в вашем локальном окружении будет правильно настроен ваш собственный форк Plan ₿ Network, вы сможете приступить к добавлению учебника.
 
 ## 1 - Создайте новую ветку
@@ -264,6 +268,7 @@ proofreading:
 Для получения более подробной информации об идентификаторе профессора обратитесь к соответствующему учебному пособию:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Вот пример заполненного файла `tutorial.yml` для учебника по кошельку Blockstream Green:
 
 ```yaml

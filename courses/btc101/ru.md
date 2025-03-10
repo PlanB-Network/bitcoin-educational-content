@@ -564,8 +564,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-4
 Например, вы можете использовать Ledger, Satochip или Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Уровень 3\*\*, вы используете кошелек уровня 1 или 2, но добавили дополнительную ключевую фразу. В этом случае помните, что вам нужно сделать резервную копию как списка 12/24 слов, так и парольной фразы. В идеале эти две части информации должны храниться в двух разных местах.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Чтобы узнать больше об использовании и функционировании парольной фразы BIP39:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Уровень 4\*\*, вы используете набор кошельков для создания "мультисиг" кошелька, что означает, что для проведения транзакции требуется несколько подписей. В этом случае следует помнить, что каждая часть мультисигмы должна храниться в разных местах. Такой подход часто считается продвинутым использованием Биткойна, в первую очередь для управления большими суммами и в корпоративных целях.

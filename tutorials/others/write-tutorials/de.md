@@ -94,4 +94,5 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 - Anfänger (Weboberfläche)** : Sie können auch direkt die Weboberfläche von GitHub nutzen, ohne eine komplette lokale Umgebung einrichten zu müssen. Diese Methode kann für kleinere Beiträge in Betracht gezogen werden. Bei größeren Beiträgen, wie dem Hinzufügen eines komplett neuen Tutorials, kann sich diese Option jedoch als komplexer erweisen als das Einrichten einer lokalen Umgebung. Wie das geht, erkläre ich in diesem Tutorium:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 Wählen Sie eine dieser drei Optionen je nach Ihrem Kenntnisstand und beginnen Sie mit der Erstellung Ihres ersten Plan ₿ Network Tutorials!

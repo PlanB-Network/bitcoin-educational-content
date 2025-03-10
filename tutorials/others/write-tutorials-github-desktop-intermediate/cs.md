@@ -7,6 +7,7 @@ description: Kompletní průvodce návrhem výukového programu na síti Plan �
 Než se pustíte do tohoto návodu na přidání nového tutoriálu, musíte provést několik předběžných kroků. Pokud jste tak ještě neučinili, vyzývám vás, abyste se nejprve seznámili s tímto úvodním tutoriálem a poté se sem vrátili:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Už jste to udělali:
 
 
@@ -20,12 +21,14 @@ V tomto tutoriálu se podíváme, jak přidat svůj tutoriál do sítě Plan ₿
 - Zkušení uživatelé**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+
 Pokud nechcete nastavovat místní prostředí, postupujte podle tohoto dalšího návodu určeného pro začátečníky, kde změny provedeme přímo přes webové rozhraní GitHubu:
 
 
 - Pro začátečníky (webové rozhraní)**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## Předpoklady
 
 Software potřebný pro tento výukový program:
@@ -47,6 +50,7 @@ Předpoklady před zahájením výuky:
 Pokud potřebujete pomoci se získáním těchto předpokladů, pomohou vám mé další výukové programy:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 Jakmile je vše na svém místě a vaše místní prostředí je správně nastaveno s vlastní odnoží sítě Plan ₿, můžete začít přidávat výukový program.
 
 ## 1 - Vytvoření nové pobočky
@@ -264,6 +268,7 @@ Zde jsou uvedeny podrobnosti o povinných polích:
 Další podrobnosti o identifikátoru profesora naleznete v příslušném výukovém kurzu:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Zde je příklad vyplněného souboru `tutorial.yml` pro výukový program o peněžence Blockstream Green:
 
 ```yaml

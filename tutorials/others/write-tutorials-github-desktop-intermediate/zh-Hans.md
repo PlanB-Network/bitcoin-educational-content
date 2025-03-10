@@ -7,6 +7,7 @@ description: 使用 GitHub 桌面在 Plan ₿ 网络上提出教程的完整指�
 在学习本教程添加新教程之前，您必须完成一些初步步骤。如果您还没有这样做，我请您先查阅本入门教程，然后再回到这里：
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 你已经有了：
 
 
@@ -20,12 +21,15 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 - 经验丰富的用户**：
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+
 如果你不想设置本地环境，可以参考另一篇专为初学者设计的教程，我们将直接通过 GitHub 的网页界面进行更改：
 
 
 - 初学者（网络界面）**：
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
+
 ## 先决条件
 
 学习本教程所需的软件：
@@ -47,6 +51,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-web-b
 如果您在获得这些先决条件方面需要帮助，我的其他教程将为您提供帮助：
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 一旦一切就绪，本地环境中的 Plan ₿ Network 分支也设置妥当，就可以开始添加教程了。
 
 ## 1 - 创建新分支
@@ -260,6 +265,7 @@ last_contribution_date: 紧迫性：
 有关教授标识符的详细信息，请参阅相应的教程：
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 下面是一个完成的`tutorial.yml`文件示例，用于介绍Blockstream绿色钱包：
 
 ```yaml

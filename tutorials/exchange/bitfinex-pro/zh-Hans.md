@@ -13,6 +13,7 @@ Bitfinex 成立于 2012 年，是最早的比特币和另类币交易平台之�
 如果你对将比特币融入你的业务感兴趣，我还建议你了解我们关于这个主题的完整理论培训课程：
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - 创建 Bitfinex 账户
 
 访问 [Bitfinex 官方网站](https://www.bitfinex.com/)。在主页上找到并点击 "*注册*"选项，开始创建账户。首先，您将创建一个个人标准账户，随后在验证过程中将选择 "*公司*"选项。
@@ -26,9 +27,11 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 有关使用和保护强大、独特密码的技巧，请参阅本教程 ：
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 现在我们要配置 2FA 以确保账户安全。使用智能手机上的身份验证应用程序，例如 Google Authenticator 或 Authy。有关该工具的教程请点击此处：
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 使用您的应用程序扫描 QR 码，然后输入所提供的 6 位数字。
 
 ![BITFINEX](assets/fr/03.webp)
@@ -158,6 +161,7 @@ Bitfinex 还通过闪电网络提供存款和取款选项，使交易速度更�
 如果您对闪电网络感兴趣，我们还有完整的培训课程帮助您了解它的工作原理：
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ## 6 - 在 Bitfinex 上买卖比特币
 
 Bitfinex 提供多种交易模式。为方便使用，请选择经典的现货市场，也称为 "*Trading*"或 "*Exchange*"。在这里，您可以按市价下达买入或卖出订单，也可以设置限价。

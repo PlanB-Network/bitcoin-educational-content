@@ -23,6 +23,7 @@ Passport 的售价为 199 美元，定位为高端硬件钱包，竞争对手包
 如果您是高级用户，并想了解更复杂的功能，我建议您查看本教程，在本教程中，我们使用 Sparrow Wallet 配置 Passport：
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 ## 护照开箱
 
 当您收到 Passport 时，请确保包装盒和纸箱上的封条完好无损，以确认包装未被打开。在设置设备时，还将对设备的真实性和完整性进行软件验证。
@@ -170,6 +171,7 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 在您的设备上安装之前，我们强烈建议您检查下载固件的真实性和完整性。如果您需要帮助，请参阅本教程 ：
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### 使用特使应用程序
 
 另一种更简单的方法是直接使用 Envoy 应用程序。点击 "*下载固件*"。
@@ -253,6 +255,7 @@ Passport 文件浏览器将打开。选择文件 `vN.N.N-passport.bin`。
 有关保存和管理记忆短语的正确方法的更多信息，我强烈推荐大家阅读另一篇教程，尤其是初学者：
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 当然，你绝对不能在互联网上分享这些文字，就像我在本教程中所做的那样。本示例作品集将仅在 Testnet 上使用，并将在教程结束时删除。
 
 对这句话进行物理备份。

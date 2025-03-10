@@ -44,6 +44,7 @@ Prerequisites before starting the tutorial:
 If you need help obtaining these prerequisites, my other tutorials will assist you:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 Once everything is in place and your local environment is properly set up with your own fork of the Plan ₿ Network, you can start adding the tutorial.
 
 ## 1 - Create a new branch

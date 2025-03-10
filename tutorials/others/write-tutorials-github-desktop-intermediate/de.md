@@ -7,6 +7,7 @@ description: Vollständige Anleitung zum Vorschlagen eines Tutorials zum Plan �
 Bevor Sie diese Anleitung zum Hinzufügen eines neuen Tutorials lesen, müssen Sie einige vorbereitende Schritte durchgeführt haben. Wenn Sie das noch nicht getan haben, sollten Sie zuerst dieses einführende Tutorial lesen und dann hierher zurückkommen:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Das haben Sie bereits:
 
 
@@ -20,12 +21,14 @@ In diesem Tutorial werden wir sehen, wie Sie Ihr Tutorial zum Plan ₿ Network h
 - Erfahrene Benutzer**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+
 Wenn Sie es vorziehen, Ihre lokale Umgebung nicht einzurichten, folgen Sie dieser anderen Anleitung für Anfänger, in der wir die Änderungen direkt über die Weboberfläche von GitHub vornehmen:
 
 
 - Anfänger (Webschnittstelle)**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## Voraussetzungen
 
 Erforderliche Software, um diesem Tutorial zu folgen:
@@ -47,6 +50,7 @@ Voraussetzungen vor Beginn des Tutorials:
 Wenn Sie Hilfe benötigen, um diese Voraussetzungen zu erfüllen, werden Ihnen meine anderen Tutorials helfen:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 Sobald alles an Ort und Stelle ist und Ihre lokale Umgebung mit Ihrem eigenen Fork des Plan ₿ Network richtig eingerichtet ist, können Sie mit dem Hinzufügen des Tutorials beginnen.
 
 ## 1 - Einen neuen Zweig erstellen
@@ -264,6 +268,7 @@ Hier sind die Details zu den Pflichtfeldern:
 Weitere Einzelheiten zu Ihrer Professorenkennung finden Sie in der entsprechenden Anleitung:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Hier ist ein Beispiel für eine fertige `tutorial.yml`-Datei für ein Tutorial über die Blockstream Green Wallet:
 
 ```yaml

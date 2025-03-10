@@ -60,6 +60,7 @@ Võite selle kirjutada paberile või täiendava turvalisuse tagamiseks graveerid
 Lisateavet selle kohta, kuidas oma mnemofraasi õigesti salvestada ja hallata, soovitan kindlasti jälgida seda teist õpetust, eriti kui olete algaja:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 Klõpsake kasutajaliidese ülaosas kuvataval sõnumil "*Säästke oma rahakott...*".
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Palju õnne, te teate nüüd, kuidas Phoenixi konfigureerida ja kasutada. Kui le
 Kui soovite minna sammu võrra kaugemale, vaadake seda õpetust Alby Hubi kohta, mis on veel üks uuenduslik ja lihtne lahendus oma Lightning-sõlme käivitamiseks:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 Ja et rohkem teada saada Lightning Networki tehnilisest toimimisest, leiate Fanis Michalakise suurepärase tasuta koolituse Plan ₿ Networki kohta:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

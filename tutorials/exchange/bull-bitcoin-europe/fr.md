@@ -197,3 +197,4 @@ Vous savez maintenant comment acheter et vendre du bitcoin facilement avec Bull 
 Je vous conseille également de découvrir cet autre tutoriel complet pour apprendre à gérer votre phrase mnémonique de la bonne manière :
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+

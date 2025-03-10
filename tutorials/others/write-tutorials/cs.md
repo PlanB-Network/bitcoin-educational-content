@@ -94,4 +94,5 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 - Začátečníci (webové rozhraní)** : Můžete se také rozhodnout používat webové rozhraní GitHubu přímo, aniž byste museli nastavovat kompletní místní prostředí. Tuto metodu lze zvážit pro drobné příspěvky. U větších příspěvků, jako je například přidání kompletního nového výukového programu, se však tato možnost může ukázat jako složitější než nastavení místního prostředí. Jak to udělat, vysvětlím v tomto návodu:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 Vyberte si jednu z těchto tří možností podle úrovně svých znalostí a začněte psát svůj první tutoriál Plan ₿ Network!

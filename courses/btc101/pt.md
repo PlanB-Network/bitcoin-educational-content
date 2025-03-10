@@ -564,8 +564,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-4
 Por exemplo, pode utilizar um Ledger, um Satochip ou um Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Nível 3**, utiliza uma carteira de nível 1 ou 2, mas adicionou uma frase-chave adicional. Neste caso, tenha em atenção que precisa de fazer uma cópia de segurança tanto da lista de 12/24 palavras **como\*\* da sua frase-chave. Idealmente, estas duas informações são armazenadas em dois locais diferentes.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Para saber mais sobre a utilização e o funcionamento da frase-passe BIP39:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Nível 4\*\*, utiliza um conjunto de carteiras para criar uma carteira "multisig", o que significa que são necessárias várias assinaturas para realizar uma transação. Neste caso, tenha em atenção que cada parte do multisig deve ser armazenada em locais diferentes. Esta abordagem é frequentemente considerada uma utilização avançada da Bitcoin, principalmente para gerir grandes quantidades e para fins empresariais.

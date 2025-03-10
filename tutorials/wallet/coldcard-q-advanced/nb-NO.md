@@ -7,6 +7,7 @@ description: Bruke COLDCARD Qs avanserte alternativer
 I en tidligere veiledning gjennomgikk vi den første konfigurasjonen av COLDCARD Q og de grunnleggende funksjonene for nybegynnere. Hvis du nettopp har mottatt COLDCARD Q og ikke har konfigurert det ennå, anbefaler jeg at du starter med den veiledningen før du fortsetter her:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 Denne nye veiledningen er dedikert til COLDCARD Qs avanserte alternativer, designet for avanserte og paranoide brukere. COLDCARDs skiller seg faktisk fra andre maskinvarelommebøker ved sine mange avanserte sikkerhetsfunksjoner. Du trenger selvfølgelig ikke å bruke alle disse alternativene. Bare velg de som passer din sikkerhetsstrategi.
 
 **Advarsel**, feil bruk av noen av disse avanserte alternativene kan føre til tap av bitcoins eller ødeleggelse av maskinvarelommeboken din. Jeg anbefaler derfor på det sterkeste at du leser rådene og forklaringene for hvert alternativ nøye.
@@ -20,6 +21,7 @@ Før du begynner, må du sørge for at du har tilgang til en fysisk sikkerhetsko
 Hvis du ikke vet hva en BIP39-passordfrase er, eller hvis det ikke er helt klart for deg hvordan den fungerer, anbefaler jeg på det sterkeste at du tar en titt på denne veiledningen på forhånd, som dekker det teoretiske grunnlaget som trengs for å forstå risikoen forbundet med å bruke en passordfrase :
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Husk at når du har satt opp passordfrasen i lommeboken din, vil ikke huskeregelen alene være nok til å få tilgang til bitcoinsene dine igjen. Du trenger både huskeregelen og passordfrasen. I tillegg må du oppgi passordfrasen hver gang du låser opp COLDCARD Q. Dette øker sikkerheten ved å gjøre fysisk tilgang til COLDCARD og kjennskap til PIN-koden utilstrekkelig uten passordfrasen.
 
 På COLDCARDs har du to alternativer for å administrere passordfrasen din:
@@ -67,6 +69,7 @@ Bekreft at fingeravtrykket som vises, stemmer overens med lommeboken din, og kli
 Husk at bruk av en passordfrase betyr at du må importere et nytt sett med nøkler som er avledet fra kombinasjonen av den mnemoniske frasen og passordfrasen i lommebokadministrasjonsprogramvaren din (som Sparrow Wallet). For å gjøre dette, følg trinnet "*Konfigurer en ny lommebok på Sparrow*" i denne andre veiledningen :
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 ## Låser opp alternativer
 
 COLDCARDs drar også nytte av en rekke alternativer for opplåsingsprosessen. La oss finne ut mer om disse avanserte alternativene.

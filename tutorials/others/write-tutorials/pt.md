@@ -94,4 +94,5 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 - Iniciantes (interface web)** : Também pode optar por utilizar diretamente a interface Web do GitHub, sem ter de configurar um ambiente local completo. Este método pode ser considerado para pequenas contribuições. No entanto, para grandes contribuições, como adicionar um novo tutorial completo, esta opção pode ser mais complexa do que configurar um ambiente local. Eu explicarei como fazer isso neste tutorial:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 Escolha uma destas três opções de acordo com o seu nível de conhecimento e comece a escrever o seu primeiro tutorial Plan ₿ Network!

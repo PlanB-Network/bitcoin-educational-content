@@ -7,6 +7,7 @@ description: Utilizar as opções avançadas do COLDCARD Q
 Num tutorial anterior, abordámos a configuração inicial do COLDCARD Q e as suas funções básicas para principiantes. Se acabou de receber o seu COLDCARD Q e ainda não o configurou, recomendo que comece por esse tutorial antes de continuar aqui:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 Este novo tutorial é dedicado às opções avançadas do COLDCARD Q, concebido para utilizadores avançados e paranóicos. De facto, os COLDCARDs distinguem-se de outras carteiras de hardware pelas suas muitas caraterísticas de segurança avançadas. Naturalmente, não é necessário utilizar todas estas opções. Basta escolher as que se adequam à sua estratégia de segurança.
 
 **Aviso**, a utilização incorrecta de algumas destas opções avançadas pode resultar na perda dos seus bitcoins ou na destruição da sua carteira de hardware. Por isso, recomendo vivamente que leia atentamente os conselhos e explicações de cada opção.
@@ -20,6 +21,7 @@ Antes de começar, certifique-se de que tem acesso a uma cópia de segurança f�
 Se não sabe o que é uma frase-chave BIP39 ou se não sabe muito bem como funciona, recomendo vivamente que consulte previamente este tutorial, que cobre as bases teóricas necessárias para compreender os riscos associados à utilização de uma frase-chave:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Tenha em atenção que, depois de definir a frase-chave na sua carteira, a mnemónica não será suficiente para recuperar o acesso aos seus bitcoins. É necessário tanto a mnemónica como a frase-chave. Além disso, terá de introduzir a frase-chave de cada vez que desbloquear o seu COLDCARD Q. Isto aumenta a segurança ao tornar o acesso físico ao COLDCARD e o conhecimento do PIN insuficientes sem a frase-chave.
 
 Nos COLDCARDs, tem duas opções para gerir a sua frase-chave:
@@ -67,6 +69,7 @@ Confirme que a impressão digital apresentada corresponde à da sua carteira e c
 Tenha em atenção que utilizar uma frase-chave significa que terá de importar um novo conjunto de chaves derivadas da combinação da sua frase mnemónica e da frase-chave para o seu software de gestão de carteiras (como a Sparrow Wallet). Para o fazer, siga o passo "*Configurar uma nova carteira no Sparrow*" neste outro tutorial :
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 ## Opções de desbloqueio
 
 Os COLDCARDs também beneficiam de uma série de opções para o processo de desbloqueio do dispositivo. Vamos saber mais sobre estas opções avançadas.

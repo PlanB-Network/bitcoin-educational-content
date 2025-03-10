@@ -9,6 +9,7 @@ description: 使用 Bisq 2 和 P2P 比特币兑换完整指南
 无 KYC 的点对点（P2P）交易所对于保护用户的保密性和金融自主权至关重要。它们实现了个人之间的直接交易，无需身份验证，这对于那些重视隐私的人来说至关重要。如需更深入地了解理论概念，请参阅 BTC204 课程：
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ### 什么是 Bisq 2？
 
 Bisq 2 是广受欢迎的去中心化 Bisq 交易所的新版本，于 2024 年推出。与其前身不同，Bisq 2 的开发支持多种交易所协议，为用户提供了更大的灵活性。
@@ -86,6 +87,7 @@ Bisq 2 是广受欢迎的去中心化 Bisq 交易所的新版本，于 2024 年�
 - 验证下载文件的真实性（强烈建议）。有关签名验证的详细指南，请参阅以下教程：
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### 2.根据系统进行安装
 
 请按照适合您操作系统的安装步骤进行安装。如果在安装过程中遇到任何困难，可以查阅 [Bisq 官方维基] (https://bisq.wiki/Downloading_and_installing) 上的详细指南。

@@ -60,6 +60,7 @@ You can write it on paper or, for added security, engrave it on stainless steel 
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 Click on the message displayed at the top of the interface "*Save your wallet...*".
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Congratulations, you now know how to configure and use Phoenix. If you found thi
 To take things a step further, check out this tutorial on Alby Hub, another innovative and easy-to-use solution for launching your own Lightning node:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 And to find out more about the technical operation of the Lightning Network, you can find Fanis Michalakis' excellent free training on Plan ₿ Network :
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

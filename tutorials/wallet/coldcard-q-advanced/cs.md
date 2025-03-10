@@ -7,6 +7,7 @@ description: Použití pokročilých možností karty COLDCARD Q
 V předchozím tutoriálu jsme se zabývali počáteční konfigurací karty COLDCARD Q a jejími základními funkcemi pro začátečníky. Pokud jste právě obdrželi kartu COLDCARD Q a ještě jste ji nenastavili, doporučuji vám začít tímto návodem, než budete pokračovat zde:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 Tento nový návod je věnován pokročilým možnostem karty COLDCARD Q, které jsou určeny pro pokročilé a paranoidní uživatele. Karty COLDCARD se totiž od ostatních hardwarových peněženek liší mnoha pokročilými bezpečnostními funkcemi. Všechny tyto možnosti samozřejmě nemusíte používat. Stačí si vybrat ty, které vyhovují vaší bezpečnostní strategii.
 
 **Upozornění**: nesprávné použití některých z těchto pokročilých možností může vést ke ztrátě bitcoinů nebo zničení hardwarové peněženky. Proto důrazně doporučuji, abyste si pečlivě přečetli rady a vysvětlení k jednotlivým možnostem.
@@ -20,6 +21,7 @@ Než začnete, ujistěte se, že máte přístup k fyzické záloze své 12- neb
 Pokud nevíte, co je to přístupová fráze BIP39, nebo pokud vám není zcela jasné, jak funguje, důrazně doporučuji, abyste se předem podívali na tento výukový program, který obsahuje teoretické základy potřebné k pochopení rizik spojených s používáním přístupové fráze :
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Mějte na paměti, že po nastavení přístupové fráze v peněžence vám samotná mnemotechnická pomůcka nebude stačit k získání přístupu k bitcoinům. Budete potřebovat jak mnemotechnickou, tak přístupovou frázi. Navíc budete muset zadat přístupovou frázi pokaždé, když odemknete kartu COLDCARD Q. Tím se zvyšuje bezpečnost, protože bez přístupové fráze je fyzický přístup ke kartě COLDCARD a znalost kódu PIN nedostatečná.
 
 Na kartách COLDCARD máte dvě možnosti správy přístupové fráze:
@@ -67,6 +69,7 @@ Zkontrolujte, zda se zobrazený otisk prstu shoduje s otiskem vaší peněženky
 Mějte na paměti, že použití přístupové fráze znamená, že budete muset do softwaru pro správu peněženky (například Sparrow Wallet) importovat novou sadu klíčů odvozenou z kombinace mnemotechnické fráze a přístupové fráze. Chcete-li to provést, postupujte podle kroku "*Konfigurace nové peněženky ve Sparrow*" v tomto dalším návodu :
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 ## Možnosti odemknutí
 
 Karty COLDCARD také využívají řadu možností pro odblokování zařízení. Pojďme se o těchto pokročilých možnostech dozvědět více.

@@ -13,6 +13,7 @@ In questo tutorial, affronteremo il processo di creazione di un conto commercial
 Se siete interessati all'integrazione del bitcoin nella vostra attività, vi consiglio di scoprire anche il nostro corso di formazione teorico completo sull'argomento:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - Creare un conto Bitfinex
 
 Andate su [il sito ufficiale di Bitfinex](https://www.bitfinex.com/). Nella pagina iniziale, trovare e fare clic sull'opzione "*Iscriviti*" per iniziare a creare il proprio account. All'inizio creerete un conto standard come per le persone fisiche; l'opzione "*Corporate*" sarà selezionata successivamente durante il processo di verifica.
@@ -26,9 +27,11 @@ Completate le informazioni richieste: inserite il vostro indirizzo e-mail aziend
 Per suggerimenti sull'uso e la salvaguardia di password forti e uniche, vedere anche questo tutorial:
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Ora configureremo il 2FA per proteggere l'account. Utilizzate un'applicazione di autenticazione sul vostro smartphone, come ad esempio Google Authenticator o Authy. Troverete un tutorial su questo strumento qui:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Scansionate il codice QR con la vostra app e inserite le 6 cifre fornite.
 
 ![BITFINEX](assets/fr/03.webp)
@@ -158,6 +161,7 @@ Bitfinex offre anche opzioni di deposito e prelievo tramite la rete Lightning, c
 Se siete interessati alla rete Lightning, abbiamo anche un corso di formazione completo per aiutarvi a capire come funziona:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ## 6 - Comprare e vendere bitcoin su Bitfinex
 
 Bitfinex offre diverse modalità di trading. Per una maggiore facilità d'uso, optate per il classico mercato spot, noto anche come "*Trading*" o "*Exchange*". Qui è possibile piazzare ordini di acquisto o di vendita al prezzo di mercato o impostare un prezzo limite.

@@ -564,8 +564,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-4
 Voit käyttää esimerkiksi Ledgeriä, Satochipiä tai Tapsigneria:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Taso 3**, käytät tason 1 tai 2 lompakkoa, mutta olet lisännyt ylimääräisen salasanan. Tässä tapauksessa sinun on otettava varmuuskopio sekä 12/24 sanan luettelosta **että\*\* tunnuslauseestasi. Ihannetapauksessa nämä kaksi tietoa tallennetaan kahteen eri paikkaan.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Saat lisätietoja BIP39-salasanan käytöstä ja toiminnasta:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Taso 4\*\*, käytät useita lompakoita luodaksesi "multisig"-lompakon, mikä tarkoittaa, että tapahtuman suorittamiseen tarvitaan useita allekirjoituksia. Tässä tapauksessa on huomioitava, että multisigin jokainen osa on tallennettava eri paikkoihin. Tätä lähestymistapaa pidetään usein Bitcoinin edistyneenä käyttönä, lähinnä suurten määrien hallintaan ja yrityskäyttöön.

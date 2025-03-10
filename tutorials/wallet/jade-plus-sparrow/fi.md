@@ -37,6 +37,7 @@ Jade Plus on yhteensopiva useimpien salkunhallintaohjelmistojen kanssa. Tässä 
 Tässä oppaassa asetamme Jade Plus -laitteen edistyneen kokoonpanon työpöydän Sparrow Wallet -ohjelmiston kanssa QR-koodit-tilassa. Tämä kokoonpano sopii erinomaisesti keskitason tai kokeneille käyttäjille. Jos etsit yksinkertaisempaa lähestymistapaa aloittelijoille, suosittelen tutustumaan tähän opetusohjelmaan, jossa käytämme Jade Plus -laitetta Green Walletin kanssa Bluetooth-yhteyden kautta:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+
 ## Jade Plus -turvamalli
 
 Jade Plus -järjestelmässä käytetään turvamallia, joka perustuu "virtuaaliseen turvalliseen elementtiin", joka on toteutettu "sokean oraakkelin" avulla. Konkreettisesti tämä mekanismi yhdistää käyttäjän valitseman PIN-koodin, Jadessa olevan salaisuuden ja oraakkelin (Blockstreamin ylläpitämä palvelin) hallussa olevan salaisuuden luodakseen AES-256-avaimen, joka on jaettu kahteen yksikköön. Aloitusvaiheessa ECDH-vaihto turvaa viestinnän oraakkelin kanssa ja salaa palautuslauseen laitteistolompakossa. Käytännössä, kun haluat käyttää siementä transaktioiden allekirjoittamista varten, tarvitset pääsyn :
@@ -111,6 +112,7 @@ Voit kirjoittaa sen laatikossa olevaan pahviin, tai jos haluat lisätä turvalli
 Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaan oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.**_
 
 Napsauta näytön oikeassa reunassa olevaa nuolta näyttääksesi seuraavat sanat.
@@ -268,6 +270,7 @@ BIP39-salasana on valinnainen salasana, jonka voit valita vapaasti ja joka lisä
 Ennen kuin määrität tämän vaihtoehdon Jade Plus -laitteeseesi, on erittäin suositeltavaa, että luet tämän artikkelin, jotta ymmärrät täysin salasanan teoreettisen toiminnan ja vältät virheet, jotka voivat johtaa bitcoinien menettämiseen:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Kun Jade on edelleen lukittuna (salasana voidaan syöttää vain, kun laitteen lukitusta ei ole avattu), avaa "*Options*"-valikko.
 
 ![Image](assets/fr/42.webp)
@@ -320,6 +323,7 @@ Aina kun avaat Jaden lukituksen salasanalla, tarkista, että sormenjälki on sam
 Ennen kuin saat ensimmäiset bitcoinit lompakkoosi, **neuvon sinua tekemään tyhjän palautustestin**. Kirjoita muistiin joitakin viitetietoja, kuten xpub- tai ensimmäinen vastaanottava osoite, ja poista lompakkosi Jade Plus -laitteesta, kun se on vielä tyhjä (`Options -> Device -> Factory Reset`). Yritä sitten palauttaa lompakkosi käyttämällä paperitallennuksia muistilausekkeesta ja mahdollisesta salasanasta. Tarkista, että palautuksen jälkeen luodut evästetiedot vastaavat alun perin kirjoittamiasi tietoja. Jos ne täsmäävät, voit olla varma, että paperiset varmuuskopiot ovat luotettavia. Jos haluat lisätietoja testipalautuksen suorittamisesta, tutustu tähän toiseen opetusohjelmaan:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Lompakon määrittäminen Sparrow Walletissa
 
 Tässä opetusohjelmassa esittelen Jade Plussan edistyneen käytön Sparrow-lompakon avulla. Tämä laitteistolompakko on kuitenkin yhteensopiva monien muiden ohjelmien, kuten Liana, Nunchuk, Specter, Green ja Keeper, kanssa. Nämä yhteensopivuudet vaihtelevat yhteyksien suhteen: USB, Bluetooth tai QR-koodi (katso lisätietoja johdannossa olevasta taulukosta).
@@ -331,6 +335,7 @@ Aloita lataamalla ja asentamalla Sparrow Wallet [virallisilta verkkosivuilta](ht
 Varmista ohjelmiston aitous ja eheys ennen asennusta. Jos et tiedä, miten tämä tehdään, tutustu tähän ohjeeseen:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Kun Sparrow Wallet on avattu, napsauta välilehteä "*File*" ja sitten "*New Wallet*".
 
 ![Image](assets/fr/51.webp)

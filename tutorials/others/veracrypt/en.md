@@ -87,6 +87,7 @@ I also advise you to save your password in a password manager. This makes it eas
 For more information on managing passwords, I advise you to discover this other complete tutorial:
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Enter your password in the 2 designated fields, then click on "*Next*". ![VeraCrypt](assets/notext/25.webp)
 VeraCrypt will then ask you if you plan to store files larger than 4 GiB in the encrypted volume. This question allows the software to select the most suitable file system. Generally, the FAT system is used because it is compatible with the majority of operating systems, but it imposes a maximum file size limit of 4 GiB. If you need to manage larger files, you can opt for the exFAT system.
 ![VeraCrypt](assets/notext/26.webp)

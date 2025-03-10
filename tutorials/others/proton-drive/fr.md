@@ -34,6 +34,7 @@ Pour ce qui est des [tarifs](https://proton.me/pricing), la version gratuite vou
 Si vous n'avez pas encore de compte Proton, il va falloir en créer un. Je vous renvoie vers notre tutoriel Proton Mail dans lequel nous vous expliquons en détail comment créer un compte Proton gratuit et le configurer :
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Comment configurer Proton Drive ?
 

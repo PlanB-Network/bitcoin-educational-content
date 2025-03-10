@@ -7,6 +7,7 @@ description: Komplett veiledning for å foreslå en opplæring på Plan ₿ Netw
 Før du følger denne veiledningen om hvordan du legger til en ny opplæring, må du ha gjennomført noen innledende trinn. Hvis du ikke har gjort det ennå, anbefaler jeg at du først leser denne introduksjonsveiledningen, og deretter kommer tilbake hit:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Det har du allerede gjort:
 
 
@@ -20,12 +21,14 @@ I denne veiledningen vil vi se hvordan du legger til opplæringen din på Plan �
 - Erfarne brukere**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+
 Hvis du foretrekker å ikke sette opp ditt lokale miljø, kan du følge denne andre veiledningen for nybegynnere, der vi gjør endringene direkte via GitHubs webgrensesnitt:
 
 
 - Nybegynnere (nettgrensesnitt)**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## Forutsetninger
 
 Programvare som kreves for å følge denne opplæringen:
@@ -47,6 +50,7 @@ Forutsetninger før du starter opplæringen:
 Hvis du trenger hjelp med å skaffe deg disse forutsetningene, kan du få hjelp i de andre veiledningene mine:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 Når alt er på plass og det lokale miljøet ditt er riktig konfigurert med din egen gaffel av Plan ₿ Network, kan du begynne å legge til opplæringen.
 
 ## 1 - Opprett en ny filial
@@ -264,6 +268,7 @@ Her er detaljene for de obligatoriske feltene:
 Hvis du vil ha mer informasjon om professoridentifikatoren, kan du se den tilhørende veiledningen:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Her er et eksempel på en ferdig `tutorial.yml`-fil for en opplæring om Blockstream Green-lommeboken:
 
 ```yaml

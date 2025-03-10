@@ -15,6 +15,7 @@ Tính năng đặc biệt của ví này là khả năng gửi bitcoin bằng đ
 Để sử dụng Proton Wallet, bạn cần có tài khoản Proton. Bạn có thể tạo một tài khoản miễn phí bằng cách làm theo các bước đầu tiên của hướng dẫn này dành riêng cho việc tạo hộp thư Proton (chỉ phần "*Tạo tài khoản Proton*"). Sau khi tài khoản của bạn được thiết lập, bạn có thể tiếp tục phần còn lại của hướng dẫn này.
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## Kết nối với Ví Proton
 
 Truy cập [trang web Proton Wallet](https://proton.me/wallet) và nhấp vào nút "*Nhận Proton Wallet*".
@@ -68,6 +69,7 @@ Bạn có thể viết nó trên một tờ giấy, hoặc để an toàn hơn, 
 Để biết thêm thông tin về cách lưu và quản lý cụm từ ghi nhớ đúng cách, tôi thực sự khuyên bạn nên làm theo hướng dẫn khác này, đặc biệt nếu bạn là người mới bắt đầu:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 _**Tất nhiên, bạn không bao giờ nên chụp ảnh những từ này, không giống như những gì tôi làm trong hướng dẫn này.**_
 
 Nhấp vào nút "*Xong*" sau khi bạn đã lưu cụm từ của mình.
@@ -95,6 +97,7 @@ Giao diện của Proton Wallet rất trực quan. Ở bên trái, bạn sẽ t�
 Để hiểu sâu hơn về cụm mật khẩu, tôi xin giới thiệu hướng dẫn này:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ## Nhận bitcoin
 
 Để nhận bitcoin vào ví của bạn, hãy chọn tài khoản mong muốn ở bên trái giao diện, sau đó nhấp vào nút "*Nhận*".

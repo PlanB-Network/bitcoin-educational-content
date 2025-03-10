@@ -7,6 +7,7 @@ description: Täydellinen opas opetusohjelman ehdottamiseen Plan ₿ -verkossa G
 Ennen kuin seuraat tätä ohjeistusta uuden ohjeen lisäämisestä, sinun on suoritettava joitakin alustavia vaiheita. Jos et ole vielä tehnyt sitä, pyydän sinua tutustumaan ensin tähän johdanto-oppaaseen ja palaamaan sitten tänne:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Olette jo:
 
 
@@ -20,12 +21,14 @@ Tässä oppaassa katsotaan, miten voit lisätä oppaasi Plan ₿ -verkkoon perus
 - Kokeneet käyttäjät**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+
 Jos et halua perustaa paikallista ympäristöä, seuraa tätä toista aloittelijoille suunnattua ohjetta, jossa teemme muutokset suoraan GitHubin web-käyttöliittymän kautta:
 
 
 - Aloittelijoille (verkkokäyttöliittymä)**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## Edellytykset
 
 Tämän ohjeen seuraamiseen tarvittava ohjelmisto:
@@ -47,6 +50,7 @@ Edellytykset ennen opetusohjelman aloittamista:
 Jos tarvitset apua näiden edellytysten hankkimisessa, muut opetusohjelmani auttavat sinua:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 Kun kaikki on kunnossa ja paikallinen ympäristösi on kunnolla asennettu Plan ₿ Networkin oman haarukan kanssa, voit aloittaa opetusohjelman lisäämisen.
 
 ## 1 - Luo uusi haara
@@ -264,6 +268,7 @@ Tässä ovat pakollisten kenttien tiedot:
 Lisätietoja professorin tunnuksesta saat vastaavasta ohjeesta:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Tässä on esimerkki valmiista `tutorial.yml`-tiedostosta Blockstream Green -lompakkoa koskevaa opetusohjelmaa varten:
 
 ```yaml

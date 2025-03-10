@@ -7,6 +7,7 @@ description: Panduan lengkap untuk mengusulkan tutorial tentang Plan ₿ Network
 Sebelum mengikuti tutorial tentang cara menambahkan tutorial baru ini, Anda harus sudah menyelesaikan beberapa langkah awal. Jika Anda belum melakukannya, saya mengundang Anda untuk terlebih dahulu membaca tutorial pengantar ini, lalu kembali ke sini:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Anda sudah melakukannya:
 
 
@@ -20,12 +21,14 @@ Dalam tutorial ini, kita akan melihat cara menambahkan tutorial Anda di Plan ₿
 - Pengguna berpengalaman**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+
 Jika Anda memilih untuk tidak mengatur lingkungan lokal Anda, ikuti tutorial lain yang dirancang untuk pemula, di mana kita membuat perubahan secara langsung melalui antarmuka web GitHub:
 
 
 - Pemula (antarmuka web)**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## Prasyarat
 
 Diperlukan perangkat lunak untuk mengikuti tutorial ini:
@@ -47,6 +50,7 @@ Prasyarat sebelum memulai tutorial:
 Jika Anda memerlukan bantuan untuk mendapatkan prasyarat ini, tutorial saya yang lain akan membantu Anda:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 Setelah semuanya siap dan lingkungan lokal Anda diatur dengan benar dengan fork Anda sendiri dari Plan ₿ Network, Anda dapat mulai menambahkan tutorial.
 
 ## 1 - Membuat cabang baru
@@ -264,6 +268,7 @@ Berikut ini adalah rincian bidang yang wajib diisi:
 Untuk detail lebih lanjut tentang pengenal profesor Anda, lihat tutorial terkait:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Berikut ini adalah contoh file `tutorial.yml` yang sudah selesai untuk tutorial mengenai dompet Blockstream Green:
 
 ```yaml

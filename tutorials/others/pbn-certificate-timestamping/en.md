@@ -11,7 +11,7 @@ In this tutorial, we will discover how Plan ₿ Network issues verifiable proofs
 
 # Plan ₿ Network proof mechanism
 
-At Plan ₿ Network, we cryptographically sign certificates and diplomas, and  time-stamp them using the Timechain (i.e. The Bitcoin blockchain), using a proof mechanism that relies on 2 cryptographic operations:
+At Plan ₿ Network, we cryptographically sign certificates and diplomas, and time-stamp them using the Timechain (i.e. The Bitcoin blockchain), through a proof mechanism that relies on two cryptographic operations:
 
 1. A GPG-signature on a text file that synthesizes your achievements
 2. The timestamping of the same signed file via [opentimestamps](https://opentimestamps.org/).

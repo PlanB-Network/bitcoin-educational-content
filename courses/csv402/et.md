@@ -742,6 +742,27 @@ Kui me alustasime RGBga, vaatasime kõik need meetodid läbi, et määrata kindl
 | Tapret algoritm #4: suvaline sõlm + tõend         | 🟢                     | 🟠                 | 🟠                      | 🟢                 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
 
 
+| Deterministlik kohustuse skeem                                | Standard       | On-chain kulud                                                                                                       | Kliendipoolse tõendi suurus                                                                                     |
+| ------------------------------------------------------------- | -------------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Keytweak (deterministlik P2C)                                 | LNPBP-1, 2     | 0 baiti                                                                                                              | 33 baiti (muutmata võti)                                                                                        |
+| Sigtweak (deterministlik S2C)                                 | WIP (LNPBP-39) | 0 baiti                                                                                                              | 0 baiti                                                                                                         |
+| Opret (OP_RETURN)                                             | -              | 36 (v)baiti (lisatud TxOut)                                                                                          | 0 baiti                                                                                                         |
+| Tapret algoritm: vasak-ülemine sõlm                           | LNPBP-6        | 32 baiti tunnistajas (8 v-baiti) igas n-of-m multisigis ja skriptiraja kaudu kulutamisel                           | 0 baiti scriptless scripts taproot ~270 baiti ühe skripti korral, ~128 baiti mitme skripti korral               |
+| Tapret algoritm #4: suvaline sõlm + unikaalsuse tõend         | LNPBP-6        | 32 baiti tunnistajas (8 v-baiti) ühe skripti juhtudel, 0 baiti tunnistajas enamikul muudel juhtudel                 | 0 baiti scriptless scripts taproot, 65 baiti kuni Taptree sisaldab tosinat skripti                             |
+
+| Kiht                           | On-chain kulud (bytes/vbytes) | On-chain kulud (bytes/vbytes) | On-chain kulud (bytes/vbytes) | On-chain kulud (bytes/vbytes) | On-chain kulud (bytes/vbytes) | Kliendi kulud (bytes) | Kliendi kulud (bytes) | Kliendi kulud (bytes) | Kliendi kulud (bytes) | Kliendi kulud (bytes) |
+| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | --------------------- | --------------------- | --------------------- | --------------------- | --------------------- |
+| **Tüüp**                       | **Tapret**                   | **Tapret #4**                | **Keytweak**                 | **Sigtweak**                 | **Opret**                    | **Tapret**            | **Tapret #4**         | **Keytweak**         | **Sigtweak**         | **Opret**            |
+| Single-sig                     | 0                            | 0                            | 0                            | 0                            | 32                           | 0                     | 0                     | 32                    | 0?                    | 0                     |
+| MuSig (n-of-n)                 | 0                            | 0                            | 0                            | 0                            | 32                           | 0                     | 0                     | 32                    | ? > 0                 | 0                     |
+| Multi-sig 2-of-3               | 32/8                         | 32/8 või 0                   | 0                            | n/a                          | 32                           | ~270                  | 65                    | 32                    | n/a                   | 0                     |
+| Multi-sig 3-of-5               | 32/8                         | 32/8 või 0                   | 0                            | n/a                          | 32                           | ~340                  | 65                    | 32                    | n/a                   | 0                     |
+| Multi-sig 2-of-3 koos timeoutidega | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                     | 65                    | 32                    | n/a                   | 0                     |
+
+
+
+
+
 
 Uuringu käigus selgus, et ükski kohustusskeemidest ei ole täielikult ühilduv praeguse Lightning-standardiga (mis ei kasuta Taproot, _muSig2_ või täiendavat _commitment_-tuge). Praegu tehakse jõupingutusi, et muuta Lightning'i kanali konstruktsiooni (*BiFrost*), et võimaldada RGB-kohustuste lisamist. See on veel üks valdkond, kus me peame üle vaatama tehingu struktuuri, võtmed ja viisi, kuidas kanali uuendused allkirjastatakse.
 

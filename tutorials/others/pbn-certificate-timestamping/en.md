@@ -77,7 +77,7 @@ gpg: Total number processed: 1
 gpg:               imported: 1
 ```
 
-NOTE: If you see that 1 key has been processed and 0 keys have been imported, it likely means you have already imported the same key previously, which is perfectly fine.
+NOTE: if you see that 1 key has been processed and 0 keys have been imported, it likely means you have already imported the same key previously, which is perfectly fine.
 
 2. Verify the signature of the certificate or diploma using the following command:
 

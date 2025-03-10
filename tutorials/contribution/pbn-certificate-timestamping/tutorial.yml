@@ -1,89 +1,89 @@
-id: 48e81b31-89cb-4b7e-83ef-f2094af513c9
-builder: BTCPay Server
-category: point-of-sale
-level: intermediate
+id: dd16f8c0-00c1-45fd-8792-920612bed18f
+builder: Plan ₿ Network
+category: others
+level: beginner
 credits:
-  professor: stable-coin
-project_id: c61cbdad-03bc-4178-9d8d-0b5b7c1141a0
+  professor: quick-shade
+project_id: cd62a137-baad-4133-b90d-711963e510c7
 original_language: en
 proofreading:
 - language: en
-  last_contribution_date: 2025-01-27
+  last_contribution_date: 2025-02-04
   urgency: 1
   contributors_id:
-  - LoicPandul
-  reward: 0.09
+  - Asi0Flammeus
+  reward: 0.4
 - language: cs
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.26
+  reward: 1.49
 - language: de
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.18
+  reward: 0.8
 - language: es
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.22
+  reward: 1.15
 - language: et
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.26
+  reward: 1.49
 - language: fi
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.26
+  reward: 1.49
 - language: fr
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.18
+  reward: 0.8
 - language: id
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.3
+  reward: 1.84
 - language: it
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.22
+  reward: 1.15
 - language: ja
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.34
+  reward: 2.19
 - language: nb-NO
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.26
+  reward: 1.49
 - language: pt
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.18
+  reward: 0.8
 - language: ru
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.26
+  reward: 1.49
 - language: vi
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.34
+  reward: 2.19
 - language: zh-Hans
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.3
+  reward: 1.84
 tags:
-- software
-- guides
-- business
+- proof-of-work
+- protocols
+- smart-contracts

@@ -1,89 +1,90 @@
-id: 48e81b31-89cb-4b7e-83ef-f2094af513c9
-builder: BTCPay Server
-category: point-of-sale
-level: intermediate
+id: 044e814a-85d8-444e-bd5f-3cf739729025
+builder: LNVPN
+level: advanced
+category: communication
 credits:
-  professor: stable-coin
-project_id: c61cbdad-03bc-4178-9d8d-0b5b7c1141a0
-original_language: en
+  professor: fire-poet
+  link: https://agora256.com/lnvpn/
+project_id: deee5178-a3e8-4697-b72e-2e7e36906a9c
+original_language: fr
 proofreading:
-- language: en
-  last_contribution_date: 2025-01-27
-  urgency: 1
-  contributors_id:
-  - LoicPandul
-  reward: 0.09
 - language: cs
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.26
+  reward: 2.33
 - language: de
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.18
+  reward: 1.21
+- language: en
+  last_contribution_date: null
+  urgency: 1
+  contributors_id: null
+  reward: 1.21
 - language: es
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.22
-- language: et
-  last_contribution_date: null
-  urgency: 1
-  contributors_id: null
-  reward: 0.26
+  reward: 1.77
 - language: fi
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.26
+  reward: 2.33
 - language: fr
-  last_contribution_date: null
+  last_contribution_date: 2024-09-01
   urgency: 1
-  contributors_id: null
-  reward: 0.18
-- language: id
-  last_contribution_date: null
-  urgency: 1
-  contributors_id: null
-  reward: 0.3
+  contributors_id:
+  - Asi0Flammeus
+  reward: 0.61
 - language: it
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.22
+  reward: 1.77
 - language: ja
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.34
-- language: nb-NO
-  last_contribution_date: null
-  urgency: 1
-  contributors_id: null
-  reward: 0.26
+  reward: 3.44
 - language: pt
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.18
+  reward: 1.21
 - language: ru
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.26
+  reward: 2.33
 - language: vi
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.34
+  reward: 3.44
+- language: et
+  last_contribution_date: null
+  urgency: 1
+  contributors_id: null
+  reward: 2.33
+- language: id
+  last_contribution_date: null
+  urgency: 1
+  contributors_id: null
+  reward: 2.89
 - language: zh-Hans
   last_contribution_date: null
   urgency: 1
   contributors_id: null
-  reward: 0.3
+  reward: 2.89
+- language: nb-NO
+  last_contribution_date: null
+  urgency: 1
+  contributors_id: null
+  reward: 2.33
 tags:
-- software
+- DIY
 - guides
-- business
+- privacy

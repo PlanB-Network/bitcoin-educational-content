@@ -1,10 +1,6 @@
 id: dd16f8c0-00c1-45fd-8792-920612bed18f
 builder: Plan ₿ Network
 
-tags:
-  - business
-  - proof-of-work
-
 category: other
 
 level: beginner
@@ -105,3 +101,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.84
+tags:
+  - proof-of-work
+  - protocols
+  - smart-contracts

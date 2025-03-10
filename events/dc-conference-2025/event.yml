@@ -6,12 +6,15 @@ address_line_1: Washington D.C., United States of America
 name: The Bitcoin conference of 2025 in Washington D.C.
 builder: BTC in DC
 type: conference
-description: BTC in D.C. is an annual conference held in Washington, D.C., focused on the intersection of Bitcoin and public policy. The event brings together industry leaders, policymakers, and enthusiasts to discuss the future of Bitcoin within the regulatory and political landscape of the United States.
+description: BTC in D.C. is an annual conference held in Washington, D.C., focused
+  on the intersection of Bitcoin and public policy. The event brings together industry
+  leaders, policymakers, and enthusiasts to discuss the future of Bitcoin within the
+  regulatory and political landscape of the United States.
 language:
   - en
 links:
   website: https://btcindc.com/
 tags:
   - regulation
-  - business
-  - finance
+  - adoption
+  - future-outlook

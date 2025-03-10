@@ -6,14 +6,14 @@ address_line_1: Orlando, Florida
 name: Microstrategy World 2025
 builder: MicroStrategy
 type: conference
-description: Welcome to MicroStrategy World 2025, the premier event for AI and BI innovators!
+description: Welcome to MicroStrategy World 2025, the premier event for AI and BI
+  innovators!
 language:
   - en
 links:
   website: https://www.microstrategy.com/world25
+project_id: 78d93809-a51d-4775-8aa3-e9cd2fb11e7f
 tags:
   - business
-  - development
-  - finance
-
-project_id: 78d93809-a51d-4775-8aa3-e9cd2fb11e7f
+  - investment
+  - future-outlook

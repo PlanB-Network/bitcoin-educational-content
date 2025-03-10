@@ -2,10 +2,6 @@ id: dea93576-de65-4cf3-8ebe-13905accd05e
 en_word: OP_CHECKLOCKTIMEVERIFY (0XB1)
 related_words:
   - NLOCKTIME
-tags:
-  - ''
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: en

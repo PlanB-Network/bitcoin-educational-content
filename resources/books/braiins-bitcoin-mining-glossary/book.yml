@@ -1,11 +1,6 @@
 id: 21d5b10a-3021-4b49-9e5f-9ae71fc75b79
 author: Martin Connor
 level: beginner
-tags:
-  - mining
-  - guides
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
@@ -98,3 +93,6 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.21
+tags:
+  - mining
+  - user-friendly

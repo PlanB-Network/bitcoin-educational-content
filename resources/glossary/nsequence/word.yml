@@ -3,10 +3,6 @@ en_word: NSEQUENCE
 related_words:
   - OP_CHECKSEQUENCEVERIFY
   - TIMELOCK
-tags:
-  - ''
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: en

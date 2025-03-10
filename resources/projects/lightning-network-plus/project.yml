@@ -6,10 +6,6 @@ links:
   github: https://github.com/GaloyMoney
   nostr: npub17tlh448s3tfdfgymehqdkdn52as59qsrax0n9h58pk54wcmqyc2qklzsxj
 
-tags:
-  - lightning-infrastructure
-  - lightning-market
-
 category: service
 
 # Proofreading metadata
@@ -92,3 +88,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - lightning
+  - scalability
+  - offchain

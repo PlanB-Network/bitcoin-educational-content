@@ -12,12 +12,6 @@ links:
   twitter: https://x.com/pow_space
   instagram: https://www.instagram.com/pow_space_lugano
 
-tags:
-  - finance
-  - education
-  - technology
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -97,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - proof-of-work
+  - mining
+  - hardware

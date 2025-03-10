@@ -4,10 +4,8 @@ type: Visual Content
 links:
   download: https://workspace.planb.network/s/n5HxymBRyKsZ8He
   view:
-    - en: https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4f088ac9e6ca?page-id=c157057b-fd28-8042-8004-4f088ac9e6cb&section=interactions&index=0&share-id=c157057b-fd28-8042-8004-4f1102bda7d7&zoom=fill
-tags:
-  - bitcoin
-  - technology
+    - en: 
+        https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4f088ac9e6ca?page-id=c157057b-fd28-8042-8004-4f088ac9e6cb&section=interactions&index=0&share-id=c157057b-fd28-8042-8004-4f1102bda7d7&zoom=fill
 contributors:
   - rabbit-hole
 
@@ -93,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - high-level
+  - user-friendly
+  - adoption

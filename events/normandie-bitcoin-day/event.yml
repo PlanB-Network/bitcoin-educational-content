@@ -11,16 +11,16 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: Join us on Saturday, September 28th near Coutances (50) for a unique day dedicated to Bitcoin; One workshop, three conferences, and a roundtable discussion.
+description: Join us on Saturday, September 28th near Coutances (50) for a unique
+  day dedicated to Bitcoin; One workshop, three conferences, and a roundtable discussion.
 language:
   - fr
 links:
   website: https://bitcoin.fr/normandie-bitcoin-day/
   replay_url:
-  live_url :
-tags:
-  - Bitcoin
-  - technology
-  - community
-
+  live_url:
 project_id: ac46d8a2-7a07-4f36-862c-79f23205ddad
+tags:
+  - guides
+  - adoption
+  - user-friendly

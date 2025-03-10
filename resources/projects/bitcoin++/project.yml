@@ -6,11 +6,6 @@ links:
   website: https://btcpp.dev/
   twitter: https://x.com/btcplusplus
 
-tags:
-  - development
-  - innovation
-  - layers
-
 original_language: en
 proofreading:
   - language: en
@@ -103,3 +98,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.16
+tags:
+  - node
+  - software
+  - guides

@@ -1,11 +1,6 @@
 id: 2996d607-57f6-49de-9b22-b324c68b453a
 author: DerGigi
 level: intermediate
-tags:
-  - bitcoin
-  - technology
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.37
+tags:
+  - adoption
+  - user-friendly
+  - easy-explain

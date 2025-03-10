@@ -11,7 +11,9 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: Central America's premier Bitcoin conference, uniting global leaders, technologists, and entrepreneurs to discuss Bitcoin adoption, economics, financial freedom, and freedom of speech.
+description: Central America's premier Bitcoin conference, uniting global leaders,
+  technologists, and entrepreneurs to discuss Bitcoin adoption, economics, financial
+  freedom, and freedom of speech.
 language:
   - en
   - es
@@ -19,9 +21,8 @@ links:
   website: https://planb.sv/
   replay_url:
   live_url:
-tags:
-  - International
-  - Bitcoiner
-  - General
-
 project_id: 839be5ad-132d-469e-8ba6-143b56987461
+tags:
+  - adoption
+  - market-trends
+  - future-outlook

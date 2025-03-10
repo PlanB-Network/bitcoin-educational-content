@@ -10,16 +10,17 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: In the heart of the Amazon, where nature meets innovation, our Bitcoin & Nostr conference explores the symbiosis of technology and financial freedom, creating a harmonious future for businesses and individuals alike.
+description: In the heart of the Amazon, where nature meets innovation, our Bitcoin
+  & Nostr conference explores the symbiosis of technology and financial freedom, creating
+  a harmonious future for businesses and individuals alike.
 language:
   - en
 links:
   website: https://surinamedecentralized.com/
   replay_url:
-  live_url :
-tags:
-  - International
-  - Bitcoiner
-  - Education
-
+  live_url:
 project_id: 2bad0707-20f4-44ff-b2da-873ae54ee537
+tags:
+  - business
+  - innovation
+  - future-outlook

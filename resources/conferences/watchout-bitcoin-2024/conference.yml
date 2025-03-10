@@ -8,10 +8,6 @@ language:
 links:
   twitter: https://x.com/Wo_Bitcoin
   website: https://wobitcoin.org/
-tags:
-  - adoption
-  - business
-  - proof-of-work
 project_id: 326fd972-4807-4f01-974d-f8bfa9bfee6a
 original_language: en
 proofreading:
@@ -21,3 +17,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0.05
+tags:
+  - adoption
+  - future-outlook
+  - case-studies

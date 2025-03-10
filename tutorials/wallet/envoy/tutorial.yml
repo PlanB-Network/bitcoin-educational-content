@@ -2,11 +2,6 @@ id: 3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 project_id: 42c3b7db-f6b4-4ad2-a755-e82d6fdc3e6b
 
-tags:
-  - wallets
-  - keys
-  - software
-
 category: mobile
 
 level: beginner
@@ -24,3 +19,90 @@ proofreading:
     contributors_id:
       - LoicPandul
     reward: 0
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.42
+
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.76
+
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.76
+
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.59
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.42
+
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.42
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.25
+
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.59
+
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5.08
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.42
+
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.76
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.42
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 5.08
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.25
+tags:
+  - guides
+  - hardware
+  - wallets

@@ -6,7 +6,9 @@ links:
   trailer: https://youtu.be/G4iclApJL0c
 description: |
   Videos created by the Bitcoin Design Community, mostly recordings from our calls. We do design reviews of bitcoin applications and products, community calls for open discussion, UX research calls, and many project-specific calls for catching up on progress. Calls are open to join, find out more in our Discord.
-tags:
-  - user-friendly
 contributors:
   - hunt-wood
+tags:
+  - guides
+  - user-friendly
+  - development

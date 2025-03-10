@@ -1,12 +1,7 @@
 id: faf2dfc8-b732-4955-887f-c667500cb169
-author: Bitcoin and Bible Group, Jimmy Song, Gabe Higgins, Derek Waltchack, Robert Breedlove, J.M. Bush, Julia Tourianski, Lyle Pratt, George Mekhail
+author: Bitcoin and Bible Group, Jimmy Song, Gabe Higgins, Derek Waltchack, Robert
+  Breedlove, J.M. Bush, Julia Tourianski, Lyle Pratt, George Mekhail
 level: beginner
-tags:
-  - bitcoin
-  - economy
-  - religion
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +81,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.31
+tags:
+  - finance
+  - cypherpunk
+  - self-sovereignty

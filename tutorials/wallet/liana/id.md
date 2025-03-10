@@ -64,6 +64,7 @@ Kunjungi situs web resmi Wizardsardine dan unduh Liana di https://wizardsardine.
 Untuk mengetahui cara memverifikasi keaslian dan integritas perangkat lunak secara manual sebelum instalasi, kami sarankan Anda membaca tutorial ini:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Instal perangkat lunak pada komputer Anda dan luncurkan. Pilih opsi "*Buat dompet Liana baru*" untuk mengonfigurasi dompet Anda.
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -193,6 +194,7 @@ Anda dapat memeriksa status kedaluwarsa dana Anda dengan membuka tab "*Coins*". 
 Untuk lebih memahami model representasi UTXO yang digunakan dalam Bitcoin, Anda dapat membaca bagian pertama dari kursus tentang kerahasiaan dalam Bitcoin yang ditulis oleh Loïc Morel :
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Pengeluaran saat ini
 
 Pengeluaran saat ini adalah situasi normal untuk menggunakan Liana. Mengirim bitcoin dengan kunci utama berfungsi seperti pada semua dompet Bitcoin klasik seperti Electrum atau Sparrow.

@@ -8,10 +8,6 @@ links:
   nostr: npub186hcszhqmlw2yhc8phy7z3mchlwy96lz4neuxlrxwqj6492ngkns76zr0q
   website: https://agora256.com
 
-tags:
-  - bitcoin
-  - privacy
-
 tips:
   lightning_address: agora256@getalby.com
 
@@ -19,3 +15,7 @@ company: agora256
 
 affiliations:
   - agora256
+tags:
+  - self-sovereignty
+  - cypherpunk
+  - personal-security

@@ -1,12 +1,6 @@
 id: 76ce1852-37c7-4fe9-82d3-6f6b7780d526
 author: Peter Lynch
 level: intermediate
-tags:
-  - finance
-  - investing
-  - personal finance
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.35
+tags:
+  - investment
+  - market-trends
+  - finance

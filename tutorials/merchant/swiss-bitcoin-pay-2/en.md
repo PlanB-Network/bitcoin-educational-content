@@ -54,7 +54,7 @@ Click on the "*Dashboard*" button.
 ![SWISS BITCOIN PAY](assets/notext/02.webp)
 Click on the "*Sign up*" button.
 ![SWISS BITCOIN PAY](assets/notext/03.webp)
-Choose a name for your account. This can be the trade name of your business (this is the name that will appear on your clients' portfolio in their transaction history).
+Choose a name for your account. This can be the trade name of your business (this is the name that will appear on your clients' wallet in their transaction history).
 ![SWISS BITCOIN PAY](assets/notext/04.webp)
 Provide an email address.
 ![SWISS BITCOIN PAY](assets/notext/05.webp)

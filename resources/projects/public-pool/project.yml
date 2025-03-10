@@ -5,10 +5,6 @@ links:
   website: https://web.public-pool.io/#/
   twitter: https://x.com/Public_Pool_BTC
 
-tags:
-  - mining
-  - software
-
 category: mining
 
 # Proofreading metadata
@@ -104,3 +100,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.26
+tags:
+  - mining
+  - protocols
+  - decentralization

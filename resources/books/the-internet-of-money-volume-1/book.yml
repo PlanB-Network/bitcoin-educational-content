@@ -1,12 +1,6 @@
 id: 1aa9e14f-958d-47cd-b0aa-99521e755b99
 author: Andreas Antonopoulos
 level: beginner
-tags:
-  - bitcoin
-  - economy
-  - technology
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.25
+tags:
+  - easy-explain
+  - high-level
+  - adoption

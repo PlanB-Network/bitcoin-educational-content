@@ -2,11 +2,6 @@ id: 9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 builder: Ledger
 
-tags:
-  - good-practice
-  - risks
-  - wallets
-
 category: hardware
 
 level: advanced
@@ -109,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 8.6
+tags:
+  - wallets
+  - keys
+  - guides

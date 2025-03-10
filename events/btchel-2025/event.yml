@@ -7,14 +7,15 @@ address_line_2: Kulttuuritehdas Korjaamo, Helsinki
 name: BTC Hel Conference 2025
 builder: BTCHEL
 type: conference
-description: Join us for an immersive experience where industry leaders, innovators, and enthusiasts converge to explore the latest trends and breakthroughs in the world of bitcoin!
+description: Join us for an immersive experience where industry leaders, innovators,
+  and enthusiasts converge to explore the latest trends and breakthroughs in the world
+  of bitcoin!
 language:
   - en
 links:
   website: https://btchel.com/
-tags:
-  - software
-  - business
-  - decentralization
-
 project_id: 73208946-52c6-43df-a4ca-8275ac770d7d
+tags:
+  - adoption
+  - market-trends
+  - innovation

@@ -64,6 +64,7 @@ Visita el sitio web oficial de Wizardsardine y descarga Liana en https://wizards
 Para saber cómo verificar manualmente la autenticidad e integridad del software antes de instalarlo, le recomendamos que consulte este tutorial :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Instale el software en su máquina y ejecútelo. Elige la opción "*Crear un nuevo monedero Liana*" para configurar tu monedero.
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -193,6 +194,7 @@ Puedes comprobar el estado de expiración de tus fondos yendo a la pestaña "*Co
 Para comprender mejor el modelo de representación UTXO utilizado en Bitcoin, puede consultar la primera parte del curso sobre confidencialidad en Bitcoin escrito por Loïc Morel :
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Gastos corrientes
 
 El gasto corriente es la situación normal para usar Liana. El envío de bitcoins con la llave maestra funciona como en todos los monederos Bitcoin clásicos como Electrum o Sparrow.

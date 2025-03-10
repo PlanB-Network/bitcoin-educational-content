@@ -10,14 +10,16 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: you are curious to learn how Bitcoin fits into the process of reshaping the financial system
+description: you are curious to learn how Bitcoin fits into the process of reshaping
+  the financial system
 language:
   - en
 links:
   website: https://za25.adoptingbitcoin.org/
   replay_url:
   live_url:
-tags:
-  - adoption
-  - regulation
 project_id: 3ece7cc0-6893-4ace-ba4a-a015c2c382d1
+tags:
+  - finance
+  - adoption
+  - future-outlook

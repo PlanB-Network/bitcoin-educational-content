@@ -3,10 +3,6 @@ builder: Bitaxe
 
 category: hardware
 
-tags:
-  - mining
-  - Hardware
-
 level: advanced
 
 credits:
@@ -94,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 4.56
+tags:
+  - hardware
+  - mining
+  - guides

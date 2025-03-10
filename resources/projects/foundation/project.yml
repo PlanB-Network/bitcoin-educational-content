@@ -5,11 +5,6 @@ links:
   twitter: https://twitter.com/FOUNDATIONdvcs
   github: https://github.com/Foundation-Devices
 
-tags:
-  - wallet
-  - open-source
-  - bitcoin-only
-
 category: wallet
 
 # Proofreading metadata
@@ -92,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - historical
+  - deep-dive
+  - high-level

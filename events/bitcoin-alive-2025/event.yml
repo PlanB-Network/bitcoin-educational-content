@@ -7,14 +7,15 @@ address_line_2: The Roundhouse
 name: Bitcoin Alive 2025
 builder: 21 Million Events
 type: conference
-description: Bitcoin Alive brings together Australia’s Bitcoin community for a day of the highest quality Bitcoin content - featuring the best Bitcoin minds from Australia and the world.
+description: Bitcoin Alive brings together Australia’s Bitcoin community for a day
+  of the highest quality Bitcoin content - featuring the best Bitcoin minds from Australia
+  and the world.
 language:
   - en
 links:
   website: https://bitcoinalive.io/
-tags:
-  - adoption
-  - software
-  - decentralization
-
 project_id: 78e7aced-d230-4220-b581-36f9f8920868
+tags:
+  - case-studies
+  - adoption
+  - future-outlook

@@ -64,6 +64,7 @@ Wizardsardineの公式サイトにアクセスし、https://wizardsardine.com/li
 インストール前にソフトウェアの信頼性と完全性を手動で確認する方法については、このチュートリアルを参照することをお勧めします：
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ソフトウェアをマシンにインストールし、起動します。Create a new Liana wallet*"オプションを選択し、ウォレットを設定します。
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -193,6 +194,7 @@ wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJ
 Bitcoinで使用されているUTXO表現モデルをよりよく理解するには、Loïc Morelが書いたBitcoinの機密性に関するコースの最初の部分を参照してください：
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## 当期支出
 
 現在の支出は、Lianaを使用するための通常の状況です。マスターキーによるビットコインの送金は、ElectrumやSparrowのような古典的なビットコインウォレットと同様に機能します。

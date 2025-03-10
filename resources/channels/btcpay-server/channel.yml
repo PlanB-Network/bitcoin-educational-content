@@ -6,9 +6,9 @@ links:
   trailer: https://youtu.be/Rdd2SlBLRfU
 description: |
   Official YouTube channel of BTCPay Server. Start Accepting Bitcoin Payments With 0% Fees & No Third-party. BTCPay Server is a self-hosted, open-source cryptocurrency payment processor. It's secure, private, censorship-resistant and free. On our Youtube channel you will find our Open Community calls, tutorials, Live streams for FOSS contributing and share podcasts where contributors have spoken. ENJOY!
-tags:
-  - guides
-  - fees
-  - use-case
 contributors:
   - hunt-wood
+tags:
+  - software
+  - node
+  - self-sovereignty

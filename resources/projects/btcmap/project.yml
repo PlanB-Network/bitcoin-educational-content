@@ -6,11 +6,6 @@ links:
   github: https://github.com/teambtcmap
   nostr: npub1864jglrrhv6alguwql9pqtmd5296nww5dpcewapmmcazk8vq4mks0tt2tq
 
-tags:
-  - bitcoin-only
-  - tools
-  - marchand
-
 category: service
 
 # Proofreading metadata
@@ -93,3 +88,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.15
+tags:
+  - adoption
+  - use-case
+  - user-friendly

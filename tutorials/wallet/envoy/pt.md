@@ -23,6 +23,7 @@ Neste tutorial, destinado a utilizadores principiantes e intermédios, vamos des
 Se for um utilizador avançado e quiser explorar funcionalidades mais complexas, recomendo que consulte este outro tutorial onde configuramos o Passport com a Sparrow Wallet :
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 ## Desembalar o Passaporte
 
 Quando receber o seu Passport, certifique-se de que a caixa e o selo da embalagem estão intactos para confirmar que a embalagem não foi aberta. Será também efectuada uma verificação de software da autenticidade e integridade do dispositivo quando este for configurado.
@@ -170,6 +171,7 @@ Para o fazer, utilize o cartão MicroSD incluído na caixa do Passport (ou outro
 Antes de o instalar no seu dispositivo, aconselhamos vivamente que verifique a autenticidade e a integridade do firmware descarregado. Se precisar de ajuda para o fazer, consulte este tutorial :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### Com a aplicação Envoy
 
 A outra opção, mais simples, é utilizar diretamente a aplicação Envoy. Clique em "*Download Firmware*".
@@ -253,6 +255,7 @@ Clique no botão de confirmação para ver a sua frase mnemónica.
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 é claro que nunca deve partilhar estas palavras na Internet, como eu estou a fazer neste tutorial. Este exemplo de portefólio será utilizado apenas na Testnet e será eliminado no final do tutorial
 
 Fazer uma cópia de segurança física desta frase.

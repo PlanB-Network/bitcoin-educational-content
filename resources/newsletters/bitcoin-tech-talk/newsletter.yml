@@ -22,8 +22,9 @@ description: |
   podcast. Whether you're a developer, investor, or simply a technically-minded
   Bitcoin enthusiast, Jimmy Song's weekly newsletter provides an invaluable window
   into the inner workings of the world's premier cryptocurrency.
-tags:
-  - technical-analysis
-  - deep-dive
 contributors:
   - hunt-wood
+tags:
+  - technical-analysis
+  - development
+  - deep-dive

@@ -2,25 +2,26 @@ id: f12157a1-41cd-4063-8011-f95f157c3340
 start_date: 2024-10-11
 end_date: 2024-10-13
 address_line_1: Berlin, Germany
-address_line_2:  
-address_line_3: 
+address_line_2:
+address_line_3:
 name: Bitcoin++ mints ecash
-builder: Base58 school 
+builder: Base58 school
 type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description:  Join us in Berlin this coming October to explore the exploding ecosystem of decentralized exchange on top of the mintiest, anonymous infrastructure that's being added to the Bitcoin sovereign stack.
-language: 
+description: Join us in Berlin this coming October to explore the exploding ecosystem
+  of decentralized exchange on top of the mintiest, anonymous infrastructure that's
+  being added to the Bitcoin sovereign stack.
+language:
   - en
   - de
 links:
   website: https://btcpp.dev/conf/berlin24
   replay_url:
-  live_url :
-tags: 
-  - bitcoiner
-  - general
-
-
+  live_url:
 project_id: 81e4a931-705b-4d28-bbe7-4f4de3196034
+tags:
+  - smart-contracts
+  - innovation
+  - privacy

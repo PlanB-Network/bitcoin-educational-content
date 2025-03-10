@@ -6,15 +6,15 @@ address_line_1: Hong Kong
 name: Bitcoin Asia 2025
 builder: The Bitcoin Conference
 type: conference
-description: The main stage will welcome thousands of bitcoiners and feature hard-hitting keynotes and panels from the biggest names in bitcoin and beyond.
+description: The main stage will welcome thousands of bitcoiners and feature hard-hitting
+  keynotes and panels from the biggest names in bitcoin and beyond.
 language:
   - en
   - zh-hans
 links:
   website: https://b.tc/conference/asia
-tags:
-  - business
-  - legacy
-  - investment
-  - innovation
 project_id: 77d117fc-a2b1-4e2c-8442-ea00ff8cf70a
+tags:
+  - future-outlook
+  - adoption
+  - business

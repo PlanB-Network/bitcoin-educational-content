@@ -1,12 +1,6 @@
 id: c4e5d904-e4a1-49dc-aea1-77efeb295778
 author: Nik Bhatia
 level: intermediate
-tags:
-  - finance
-  - economy
-  - bitcoin
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.38
+tags:
+  - finance
+  - historical
+  - layers

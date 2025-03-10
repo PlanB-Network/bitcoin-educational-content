@@ -1,12 +1,6 @@
 id: d814b242-8680-4449-b390-ef500b11a431
 author: Steven Pressfield
 level: intermediate
-tags:
-  - motivation
-  - art
-  - creativity
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.36
+tags:
+  - self-sovereignty
+  - good-practice
+  - personal-security

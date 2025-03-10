@@ -46,6 +46,7 @@ A secção final é conduzida por outros oradores que apresentam aplicações co
 Este curso de formação surgiu originalmente de um bootcamp de desenvolvimento avançado de duas semanas em Viareggio, Toscana, organizado pela [Fulgur'Ventures](https://fulgur.ventures/). A primeira semana, focada em Rust e SDKs, pode ser encontrada neste outro curso:
 
 https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+
 Neste curso, concentramo-nos na segunda semana do bootcamp, que se centra no RGB.
 
 **Semana 1 - LNP402:**
@@ -1866,6 +1867,7 @@ A Lightning Network é uma rede descentralizada de canais de pagamento (ou _stat
 Para obter mais informações sobre o funcionamento do Lightning, recomendo que faça este outro curso:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 #### Compromisso multiprotocolo - MPC
 
 Multi Protocol Commitment (MPC) refere-se à estrutura de árvore Merkle utilizada no RGB para incluir, numa única transação Bitcoin, vários **Transition Bundles** de diferentes contratos. A ideia é agrupar vários compromissos (potencialmente correspondentes a diferentes contratos ou diferentes activos) num único ponto de ancoragem, de forma a otimizar a ocupação do espaço do bloco.
@@ -3306,6 +3308,7 @@ Na realidade, a Lightning Network permite que os pagamentos sejam encaminhados a
 O funcionamento do RGB no Lightning deve, portanto, ser considerado em paralelo com o da própria rede Lightning. Se quiser aprofundar este assunto, recomendo vivamente que dê uma vista de olhos a este outro curso de formação completo:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ### Mapa de código RGB
 
 Finalmente, antes de passar à secção seguinte, gostaria de dar uma visão geral do código utilizado no RGB. O protocolo baseia-se num conjunto de bibliotecas Rust e especificações de código aberto. Eis um resumo dos principais repositórios e caixas:

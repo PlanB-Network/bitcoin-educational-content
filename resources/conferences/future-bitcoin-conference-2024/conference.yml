@@ -8,11 +8,6 @@ language:
 links:
   twitter: https://x.com/Start2Bitcoin
   website: https://start2bitcoin.com/conference-2024/
-tags:
-  - business
-  - adoption
-  - technical-analysis
-#proofreading_metadata
 project_id: 53774b9c-1612-4e86-990c-221a7034b998
 original_language: en
 proofreading:
@@ -22,3 +17,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0.05
+tags:
+  - future-outlook
+  - adoption
+  - market-trends

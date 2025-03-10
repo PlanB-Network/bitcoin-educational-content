@@ -4,10 +4,6 @@ links:
   website: https://stackinsat.com/
   twitter: https://twitter.com/StackinSat_FR
 
-tags:
-  - exchange
-  - bitcoin-only
-
 category: exchange
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.22
+tags:
+  - investment
+  - software
+  - user-friendly

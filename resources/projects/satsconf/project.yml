@@ -6,9 +6,6 @@ links:
   website: https://www.satsconf.com.br
   twitter: https://x.com/satsconf_
 
-tags:
-  - adoption
-
 original_language: pt
 proofreading:
   - language: pt
@@ -17,3 +14,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.08
+tags:
+  - adoption
+  - good-practice
+  - development

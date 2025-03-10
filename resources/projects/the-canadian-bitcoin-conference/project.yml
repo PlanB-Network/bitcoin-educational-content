@@ -6,11 +6,6 @@ links:
   website: https://canadianbitcoinconf.com/
   twitter: https://twitter.com/CdnBitcoinConf
 
-tags:
-  - adoption
-  - mining
-  - use-case
-
 original_language: en
 proofreading:
   - language: en
@@ -102,3 +97,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.17
+tags:
+  - adoption
+  - market-trends
+  - business

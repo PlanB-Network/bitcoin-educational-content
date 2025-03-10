@@ -1,9 +1,9 @@
 id: fcbe7cfd-0063-447b-9626-4f8cf172e678
-start_date: 2024-05-09 
+start_date: 2024-05-09
 end_date: 2024-05-10
 address_line_1: Hong Hong, China
-address_line_2: 
-address_line_3: 
+address_line_2:
+address_line_3:
 name: Bitcoin Asia 2024
 builder: The Bitcoin Conference
 type: conference
@@ -11,15 +11,14 @@ book_online: false
 book_in_person: false
 price_dollars: 0
 description: the biggest bitcoin conferenceis coming to hong kong
-language: 
+language:
   - en
 links:
   website: https://b.tc/conference/asia
   replay_url:
-  live_url :
-tags: 
-  - bitcoiner
-  - General
-
-
+  live_url:
 project_id: 77d117fc-a2b1-4e2c-8442-ea00ff8cf70a
+tags:
+  - business
+  - market-trends
+  - adoption

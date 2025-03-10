@@ -1,11 +1,6 @@
 id: 0354b793-c301-48af-af75-f87569756375
 builder: Samourai
 
-tags:
-  - privacy
-  - WST
-  - coinjoin
-
 category: analysis
 
 level: advanced
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 9.69
+tags:
+  - privacy
+  - technical-analysis
+  - guides

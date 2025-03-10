@@ -5,10 +5,6 @@ links:
   twitter: https://twitter.com/parman_the
   nostr: npub1ltt9gry09lf2z6396rvzmk2a8wkh3yx5xhgkjzzg5znh62yr53rs0hk97y
 
-tags:
-  - education
-  - development
-
 category: education
 
 # Proofreading metadata
@@ -91,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.19
+tags:
+  - good-practice
+  - DIY
+  - user-friendly

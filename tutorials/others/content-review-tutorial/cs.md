@@ -34,6 +34,7 @@ K recenzování obsahu nemusíte být odborníkem na GitHub. I když je vždy le
 Pokud však Git a GitHub neznáte a chcete se dozvědět více, můžete se podívat na náš úvodní článek o těchto nástrojích:
 
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 ## 1. Vytvoření účtu
 
 

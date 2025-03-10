@@ -4,10 +4,6 @@ links:
   website: https://www.btrust.tech/builders
   twitter: https://x.com/btrust_builders
 
-tags:
-  - education
-  - development
-
 category: education
 
 # Proofreading metadata
@@ -90,3 +86,6 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.16
+tags:
+  - development
+  - guides

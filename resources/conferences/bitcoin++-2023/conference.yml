@@ -8,11 +8,6 @@ language:
 links:
   website: https://btcplusplus.dev/
   twitter: https://twitter.com/btcplusplus
-tags:
-  - Bitcoiner
-  - technical
-
-# Proofreading metadata
 project_id: a717b30b-153e-475d-a83b-ed1b52c9571e
 original_language: en
 proofreading:
@@ -22,3 +17,7 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - development
+  - smart-contracts
+  - technical-analysis

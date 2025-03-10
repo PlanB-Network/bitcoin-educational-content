@@ -37,6 +37,7 @@ Jade Plus je kompatibilní s většinou softwaru pro správu portfolia. Zde je p
 V tomto návodu nastavíme a budeme používat zařízení Jade Plus s mobilní aplikací Green Wallet společnosti Blockstream prostřednictvím připojení Bluetooth. Toto nastavení je ideální pro začátečníky. Pokud hledáte pokročilejší přístup, doporučuji podívat se na tento návod, kde používáme Jade Plus s peněženkou Sparrow Wallet v režimu QR kódů:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 ## Bezpečnostní model Jade Plus
 
 Jade Plus používá bezpečnostní model založený na "virtuálním bezpečném prvku", který je zhmotněn "slepým orákulem". Konkrétně tento mechanismus kombinuje PIN zvolený uživatelem, tajemství umístěné v systému Jade a tajemství držené orákulem (serverem spravovaným společností Blockstream) a vytváří klíč AES-256 distribuovaný mezi dvěma entitami. Během iniciace se výměnou ECDH zabezpečí komunikace s orákulem a zašifruje se fráze pro obnovení v hardwarové peněžence. V praxi to znamená, že když chcete získat přístup k seedu pro podepisování transakcí, potřebujete přístup k :
@@ -109,6 +110,7 @@ Můžete jej napsat na karton dodávaný v krabici, nebo pro větší bezpečnos
 Pro více informací o správném způsobu ukládání a správy mnemotechnických frází vřele doporučuji sledovat tento další návod, zejména pokud jste začátečníci:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ***Samozřejmě nesmíte tato slova nikdy sdílet na internetu, jak to dělám v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a po skončení výukového kurzu bude smazáno
 
 Kliknutím na šipku v pravé části obrazovky zobrazíte následující slova.
@@ -124,9 +126,11 @@ Po uložení fráze vás aplikace Jade Plus vyzve k jejímu potvrzení. Pomocí 
 V tomto návodu budeme ke správě peněženky umístěné v zařízení Jade Plus používat aplikaci Green Wallet. Tato metoda je vhodná zejména pro začátečníky. Pokud chcete spravovat peněženku s bitcoiny podrobněji, můžete použít také aplikaci Sparrow Wallet, které se budeme věnovat v samostatném tutoriálu:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 Pokyny k instalaci a nastavení aplikace Blockstream Green naleznete v první části tohoto dalšího návodu:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 V aplikaci Blockstream Green klikněte na tlačítko "*Konfigurace nového portfolia*".
 
 ![JADE-PLUS-GREEN](assets/fr/13.webp)
@@ -204,6 +208,7 @@ Chcete-li vytvořit klasické portfolio s jedním signálem, vyberte možnost "*
 Další informace o možnosti "*2FA*" naleznete v tomto dalším návodu:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+
 Váš účet byl vytvořen.
 
 ![JADE-PLUS-GREEN](assets/fr/30.webp)
@@ -229,6 +234,7 @@ Váš Jade je odemčen prostřednictvím "virtuálního bezpečného prvku" Bloc
 Než obdržíte své první bitcoiny do peněženky, **důrazně doporučuji provést test obnovy prázdné peněženky**. Zaznamenejte si některé referenční informace, jako je vaše xpub nebo první přijímací adresa, a poté vymažte peněženku v aplikaci Green a v Jade Plus, dokud je ještě prázdná (`Možnosti -> Zařízení -> Obnovení továrního nastavení`). Poté zkuste peněženku obnovit pomocí papírových záloh mnemotechnické fráze. Zkontrolujte, zda se informace o souboru cookie vygenerované po obnovení shodují s těmi, které jste si původně zapsali. Pokud ano, můžete si být jisti, že vaše papírové zálohy jsou spolehlivé. Další informace o tom, jak provést zkušební obnovu, najdete v tomto dalším návodu :
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Přijímání bitcoinů
 
 Nyní, když je vaše peněženka Bitcoin nastavena, jste připraveni přijímat první saty! Jednoduše klikněte na tlačítko "*Přijmout*" v zelené aplikaci.

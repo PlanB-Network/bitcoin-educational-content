@@ -1,10 +1,6 @@
 id: f8073bb7-5b4a-4664-9246-228e307be246
 builder: KeePass
 
-tags:
-  - security
-  - passwords
-
 category: general
 
 level: beginner
@@ -95,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3.23
+tags:
+  - guides
+  - personal-security
+  - DIY

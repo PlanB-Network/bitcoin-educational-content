@@ -2,24 +2,26 @@ id: 7183fa29-ba59-4e9b-81d9-0583239845ac
 start_date: 2024-09-20 14:00:00
 end_date: 2024-09-21 04:00:00
 timezone: America/Mexico_City
-address_line_1: 
+address_line_1:
 address_line_2:
-address_line_3: 
+address_line_3:
 name: Startup Day in Mexico City
 builder: PlebLab
 type: meetup
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: Join us on Friday, September, 20th, 2024 as we bring Startup Day to Mexico City.
-language: 
+description: Join us on Friday, September, 20th, 2024 as we bring Startup Day to Mexico
+  City.
+language:
   - en
 links:
-  website: https://www.pleblab.dev/startup-day-cdmx?utm_content=bufferbb591&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#tickets
+  website: 
+    https://www.pleblab.dev/startup-day-cdmx?utm_content=bufferbb591&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#tickets
   replay_url:
-  live_url :
-tags: 
-  - startup
-  - Bitcoiner
-  - Education
+  live_url:
 project_id: b35f4cff-c9fd-4e51-8771-ed1b4d3184fd
+tags:
+  - business
+  - adoption
+  - use-case

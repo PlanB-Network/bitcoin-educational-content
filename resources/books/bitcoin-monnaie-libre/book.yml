@@ -1,12 +1,6 @@
 id: f54f3850-73e8-4665-958c-ba4e4b129284
 author: Pierre Noizat
 level: intermediate
-tags:
-  - bitcoin
-  - cryptocurrency
-  - economics
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - historical
+  - user-friendly
+  - easy-explain

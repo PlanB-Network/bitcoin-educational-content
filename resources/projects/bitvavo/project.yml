@@ -6,9 +6,6 @@ links:
   website: https://bitvavo.com
   twitter: https://x.com/bitvavocom
 
-tags:
-  - investment
-
 original_language: en
 proofreading:
   - language: en
@@ -100,3 +97,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.17
+tags:
+  - business
+  - wallets
+  - user-friendly

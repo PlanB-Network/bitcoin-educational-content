@@ -2,11 +2,6 @@ id: 8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 builder: JAN3
 
-tags:
-  - lightning
-  - sidechains
-  - wallets
-
 category: mobile
 
 level: beginner
@@ -109,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.7
+tags:
+  - wallets
+  - layers
+  - protocols

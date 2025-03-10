@@ -1,12 +1,6 @@
 id: 62086bc6-fc97-4b3b-b529-c03c8de04594
 author: Knut Svanholm
 level: beginner
-tags:
-  - bitcoin
-  - technology
-  - economy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - historical
+  - deep-dive
+  - technical-analysis

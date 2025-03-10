@@ -1,12 +1,6 @@
 id: 710efa39-6840-48b4-93fa-436ae89265a5
 author: Carmen M. Reinhart and Kenneth S. Rogoff
 level: advanced
-tags:
-  - history
-  - finance
-  - economy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.6
+tags:
+  - finance
+  - historical
+  - market-trends

@@ -5,12 +5,6 @@ level: intermediate
 
 category: mobile
 
-tags:
-  - self-custodial
-  - lightning
-  - open-source
-
-# Proofreading metadata
 project_id: 41c4621e-7411-42a8-9ef9-90c29e19b76a
 original_language: en
 proofreading:
@@ -93,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.83
+tags:
+  - wallets
+  - lightning
+  - user-friendly

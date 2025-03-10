@@ -8,11 +8,6 @@ links:
   Github: https://github.com/GaloyMoney/blink-mobile
   youtube: done
 
-tags:
-  - adoption
-  - software
-  - wallets
-
 original_language: en
 proofreading:
   - language: en
@@ -21,3 +16,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+tags:
+  - lightning
+  - user-friendly
+  - innovation

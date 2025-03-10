@@ -6,15 +6,10 @@ address_line_2:
 address_line_3:
 language:
   - en
-  - - fr
+  -   - fr
 links:
   twitter: https://twitter.com/BitcoinBenin
 
-tags:
-  - bitcoin-only
-  - education
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -94,3 +89,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.22
+tags:
+  - adoption
+  - use-case
+  - business

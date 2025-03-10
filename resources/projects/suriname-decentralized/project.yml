@@ -6,11 +6,6 @@ links:
   website: https://surinamedecentralized.com/
   twitter: http://twitter.com/srdecentralized
 
-tags:
-  - adoption
-  - use-case
-  - decentralization
-
 original_language: en
 proofreading:
   - language: en
@@ -19,3 +14,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.05
+tags:
+  - adoption
+  - decentralization
+  - use-case

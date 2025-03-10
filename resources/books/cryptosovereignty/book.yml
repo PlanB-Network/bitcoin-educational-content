@@ -1,11 +1,6 @@
 id: 15351377-5e52-4d5a-8e9f-4d2538ea9f5a
 author: Erik Cason
 level: intermediate
-tags:
-  - cypherpunk
-  - self-sovereignty
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
@@ -92,3 +87,12 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.5
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.58
+tags:
+  - self-sovereignty
+  - cypherpunk

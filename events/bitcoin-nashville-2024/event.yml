@@ -1,9 +1,9 @@
 id: 15ba9ac4-1e96-4fd9-ac95-43929445db38
-start_date: 2024-07-25 
+start_date: 2024-07-25
 end_date: 2024-07-27
 address_line_1: Nashville, USA
-address_line_2: 
-address_line_3: 
+address_line_2:
+address_line_3:
 name: Bitcoin Nashville 2024
 builder: The Bitcoin Conference
 type: conference
@@ -11,15 +11,13 @@ book_online: false
 book_in_person: false
 price_dollars: 0
 description: The next bitcoin epoch begins in Nashville
-language: 
+language:
   - en
 links:
   website: https://b.tc/conference/2024
   replay_url:
-  live_url :
-tags: 
-  - bitcoiner
-  - General
-
-
+  live_url:
 project_id: 77d117fc-a2b1-4e2c-8442-ea00ff8cf70a
+tags:
+  - future-outlook
+  - adoption

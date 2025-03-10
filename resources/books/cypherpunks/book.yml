@@ -1,12 +1,6 @@
 id: eb22546f-620b-4181-872e-d41145266636
 author: Julian Assange & Jacob Appelbaum
 level: intermediate
-tags:
-  - technology
-  - privacy
-  - politics
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.75
+tags:
+  - cypherpunk
+  - privacy
+  - future-outlook

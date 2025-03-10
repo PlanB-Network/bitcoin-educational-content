@@ -10,14 +10,16 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: TABConf's mission is to create a forum for protocol and application developers to collaborate, debate, and innovate on Bitcoin.
+description: TABConf's mission is to create a forum for protocol and application developers
+  to collaborate, debate, and innovate on Bitcoin.
 language:
   - en
 links:
   website: https://6.tabconf.com/
   replay_url:
   live_url:
-tags:
-  - bitcoiner
-  - development
 project_id: 1ccbbeae-ef92-4128-ad85-24f29e1759ca
+tags:
+  - development
+  - technical-analysis
+  - innovation

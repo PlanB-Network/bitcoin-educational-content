@@ -2,11 +2,6 @@ id: befeb794-8e6b-4d38-a17e-bffd0712fdc6
 
 builder: Coinkite
 
-tags:
-  - hardware
-  - wallets
-  - keys
-
 category: hardware
 
 level: intermediate
@@ -109,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3.99
+tags:
+  - hardware
+  - wallets
+  - guides

@@ -4,10 +4,6 @@ links:
   website: https://fulgur.ventures/
   twitter: https://twitter.com/fulgurventures
 
-tags:
-  - Bitcoin-investment
-  - VC
-
 category: investment
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.17
+tags:
+  - investment
+  - business
+  - market-trends

@@ -1,12 +1,6 @@
 id: 2afa88ee-7e9a-46bb-b6d0-e3eaa6e1cfe4
 author: Yan Pritzker
 level: intermediate
-tags:
-  - bitcoin
-  - technology
-  - education
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - historical
+  - easy-explain
+  - deep-dive

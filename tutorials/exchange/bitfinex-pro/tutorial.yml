@@ -2,10 +2,6 @@ id: c8ef7476-5f60-4205-935e-a545ced0022a
 
 project_id: 3ad86f15-94ef-401c-b708-b28c7767b9be
 
-tags:
-  - guides
-  - finance
-
 category: centralized
 
 level: beginner
@@ -101,3 +97,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.74
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.27
+tags:
+  - business
+  - case-studies
+  - wallets

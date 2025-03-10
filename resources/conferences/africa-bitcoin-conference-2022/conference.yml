@@ -8,12 +8,6 @@ language:
 links:
   website: https://afrobitcoin.org/
   twitter: https://twitter.com/AfroBitcoinOrg
-tags:
-  - Bitcoiner
-  - General
-  - lightning network
-
-# Proofreading metadata
 project_id: db0f0b26-3fd8-4d3b-94cc-1f55f30fe768
 original_language: en
 proofreading:
@@ -23,3 +17,7 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - adoption
+  - market-trends
+  - business

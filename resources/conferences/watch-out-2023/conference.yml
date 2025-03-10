@@ -8,11 +8,6 @@ language:
 links:
   website: https://wobitcoin.org/
   twitter: https://twitter.com/Wo_Bitcoin
-tags:
-  - Bitcoiner
-  - General
-
-# Proofreading metadata
 project_id: 326fd972-4807-4f01-974d-f8bfa9bfee6a
 original_language: en
 proofreading:
@@ -22,3 +17,6 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - adoption
+  - user-friendly

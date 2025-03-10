@@ -5,9 +5,6 @@ links:
   twitter: https://twitter.com/thunderhubio
   github: https://github.com/apotdevin/thunderhub
 
-tags:
-  - lightning-infrastructure
-
 category: service
 
 # Proofreading metadata
@@ -91,3 +88,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.21
+tags:
+  - lightning
+  - software
+  - node

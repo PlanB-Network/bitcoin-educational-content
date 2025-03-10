@@ -11,19 +11,16 @@ type: meetup
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: Special edition of local bitcoin meetup with conference speakers and OGs. Everyone is welcome!
+description: Special edition of local bitcoin meetup with conference speakers and
+  OGs. Everyone is welcome!
 language:
   - en
   - it
 links:
   website: https://satoshispritzlugano.planb.network
   replay_url:
-  live_url :
-tags:
-  - bitcoin
-  - community
-  - user-friendly
-  - self-sovereignty
-  - mastering
-
+  live_url:
 project_id: cd62a137-baad-4133-b90d-711963e510c7
+tags:
+  - adoption
+  - user-friendly

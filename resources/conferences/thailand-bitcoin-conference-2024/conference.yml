@@ -8,12 +8,6 @@ language:
 links:
   twitter:
   website: https://www.thailandbitcoinconference.com/
-tags:
-  - adoption
-  - business
-  - protocols
-  - innovation
-#proofreading_metadata
 project_id: 77d117fc-a2b1-4e2c-8442-ea00ff8cf70a
 original_language: en
 proofreading:
@@ -23,3 +17,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0.05
+tags:
+  - adoption
+  - user-friendly
+  - future-outlook

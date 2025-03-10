@@ -1,12 +1,6 @@
 id: 4cf1fd25-aa39-46b8-8f5d-3904a56de9ed
 author: Allen Farrington
 level: advanced
-tags:
-  - bitcoin
-  - history
-  - economy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.15
+tags:
+  - finance
+  - historical
+  - market-trends

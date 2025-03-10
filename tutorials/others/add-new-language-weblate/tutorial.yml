@@ -1,10 +1,6 @@
 id: eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 builder: Plan ₿ Network
 
-tags:
-  - Weblate
-  - PlanB Network
-
 category: contribution
 
 level: beginner
@@ -94,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.81
+tags:
+  - guides
+  - development
+  - user-friendly

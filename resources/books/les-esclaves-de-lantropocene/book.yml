@@ -1,12 +1,6 @@
 id: b4093a5a-0836-4206-97cc-144c2f8d83e3
 author: Nicolas Teterel
 level: intermediate
-tags:
-  - fiction
-  - science fiction
-  - cyberpunk
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - historical
+  - future-outlook
+  - high-level

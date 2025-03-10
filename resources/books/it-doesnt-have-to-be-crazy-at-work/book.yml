@@ -1,12 +1,6 @@
 id: 3fd679ff-4233-436c-857a-7bc36a60824b
 author: David Heinemeier Hansson
 level: beginner
-tags:
-  - business
-  - management
-  - productivity
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - good-practice
+  - business
+  - user-friendly

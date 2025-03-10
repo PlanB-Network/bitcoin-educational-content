@@ -9,6 +9,7 @@ description: Kompletní průvodce používáním Bisq 2 a výměnou bitcoinů P2
 Pro zachování důvěrnosti a finanční nezávislosti uživatelů jsou zásadní výměnné burzy P2P (peer-to-peer) bez nutnosti KYC. Umožňují přímé transakce mezi jednotlivci bez nutnosti ověřování totožnosti, což je zásadní pro ty, kteří si cení soukromí. Chcete-li teoretickým konceptům porozumět hlouběji, podívejte se na kurz BTC204:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ### Co je Bisq 2?
 
 Bisq 2 je nová verze populární decentralizované burzy Bisq, která byla spuštěna v roce 2024. Na rozdíl od svého předchůdce byl Bisq 2 vyvinut tak, aby podporoval více směnných protokolů a nabízel uživatelům větší flexibilitu.
@@ -86,6 +87,7 @@ Tato příručka se zaměřuje výhradně na protokol "Bisq Easy", který je v s
 - Ověřte pravost staženého souboru (důrazně doporučujeme). Podrobného průvodce ověřením podpisu naleznete v následujícím návodu:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### 2. Instalace podle vašeho systému
 
 Při instalaci postupujte podle pokynů příslušných pro váš operační systém. Pokud se během instalace setkáte s jakýmikoli obtížemi, můžete se podívat do podrobného průvodce na [oficiální wiki Bisq](https://bisq.wiki/Downloading_and_installing).

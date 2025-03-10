@@ -1,10 +1,6 @@
 id: 6a78ad9b-f91d-4f11-94e3-b5230c16a1b0
 author: Ludovic Lars
 level: beginner
-tags:
-  - user-friendly
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: fr
@@ -91,3 +87,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.3
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.34
+tags:
+  - historical
+  - decentralization
+  - finance

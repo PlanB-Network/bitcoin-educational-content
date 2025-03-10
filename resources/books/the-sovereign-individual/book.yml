@@ -1,12 +1,6 @@
 id: 9b70f518-cc60-4ae1-b394-a8573ccd6c16
 author: James Dale Davidson, William Rees-Mogg
 level: advanced
-tags:
-  - self-sovereignty
-  - regulation
-  - future-outlook
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -87,3 +81,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.59
+tags:
+  - decentralization
+  - self-sovereignty
+  - cypherpunk

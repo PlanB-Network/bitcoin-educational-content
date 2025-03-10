@@ -7,11 +7,6 @@ language:
   - en
 links:
   youtube: https://www.youtube.com/@vlogwrap
-tags:
-  - investment
-  - protocols
-  - scalability
-#proofreading_metadata
 project_id: 57b02b5e-90a3-4b1a-aacd-67785326d267
 original_language: en
 proofreading:
@@ -21,3 +16,7 @@ proofreading:
     contributors_id:
       - Bitpreto
     reward: 0.05
+tags:
+  - historical
+  - adoption
+  - business

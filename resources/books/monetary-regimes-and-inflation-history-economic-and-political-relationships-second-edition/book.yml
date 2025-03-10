@@ -1,12 +1,6 @@
 id: d776fcca-84c2-4156-8a34-ee14f6e26aa6
 author: Peter Bernholz
 level: advanced
-tags:
-  - history
-  - international relations
-  - geopolitics
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.18
+tags:
+  - historical
+  - finance
+  - market-trends

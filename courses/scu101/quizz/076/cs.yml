@@ -1,0 +1,9 @@
+question: Proč se doporučuje používat náhodně generovaná hesla?
+answer: Aby odolala útokům hrubou silou.
+wrong_answers:
+  - Pro snazší zapamatování.
+  - Pro snížení jejich složitosti.
+  - Aby odolala útokům Sybil.
+explanation: |
+  Náhodnost činí hesla obtížnějšími k uhodnutí metodou pokus-omyl a tím zvyšuje jejich bezpečnost proti útokům hrubou silou.
+reviewed: false

@@ -1,12 +1,6 @@
 id: d89cd97f-b1cd-4ab2-bae1-9bf205bdf62d
 author: Lina Seiche
 level: beginner
-tags:
-  - easy-explain
-  - finance
-  - investment
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
@@ -93,3 +87,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.27
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.3
+tags:
+  - user-friendly
+  - finance
+  - easy-explain

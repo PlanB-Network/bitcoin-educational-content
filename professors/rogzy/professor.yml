@@ -7,9 +7,6 @@ links:
   website: https://www.decouvrebitcoin.com
   twitter: https://twitter.com/decouvrebitcoin
 
-tags:
-  - bitcoin
-
 company: DecouvreBitcoin
 
 affiliations:
@@ -18,3 +15,7 @@ affiliations:
 
 tips:
   lightning_address: rogzy@getalby.com
+tags:
+  - adoption
+  - good-practice
+  - guides

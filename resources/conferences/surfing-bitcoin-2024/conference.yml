@@ -8,9 +8,6 @@ language:
 links:
   twitter: https://x.com/SurfinBitcoin
   website: https://surfinbitcoin.com/
-tags:
-  - self-sovereignty
-#proofreading_metadata
 project_id: 3ba103b8-4537-48d5-9b29-525a5d15a5a2
 original_language: en
 proofreading:
@@ -20,3 +17,6 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0.05
+tags:
+  - adoption
+  - user-friendly

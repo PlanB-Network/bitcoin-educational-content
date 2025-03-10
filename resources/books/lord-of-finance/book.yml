@@ -1,12 +1,6 @@
 id: 075fe83c-16bb-4581-87fb-98364ae8d564
 author: Liaquat Ahamed
 level: intermediate
-tags:
-  - finance
-  - history
-  - politics
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.41
+tags:
+  - finance
+  - historical
+  - case-studies

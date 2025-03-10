@@ -2,11 +2,6 @@ id: 62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 builder: Get Alby
 
-tags:
-  - lightning
-  - wallets
-  - node
-
 category: lightning-network
 
 level: intermediate
@@ -109,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 8.34
+tags:
+  - lightning
+  - node
+  - guides

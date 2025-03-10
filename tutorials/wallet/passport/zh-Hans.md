@@ -21,6 +21,7 @@ Passport 售价 199 美元，定位为高端硬件钱包，竞争对手包括 Co
 如果您是初学者，最简单的方法是将 Passport 与基金会开发的本地 Envoy 应用程序配合使用。要了解如何在 Passport 中使用 Envoy，请查看本教程：
 
 https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+
 ## 护照开箱
 
 当您收到 Passport 时，请确保包装盒和纸箱上的封条完好无损，以确认包装未被打开。在设置设备时，还将对设备的真实性和完整性进行软件验证。
@@ -139,6 +140,7 @@ https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf
 在您的设备上安装之前，我们强烈建议您检查下载固件的真实性和完整性。如果您需要帮助，请参阅本教程 ：
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 检查`.bin`文件后，将其放在 MicroSD 上，然后插入 Passport。Passport 文件资源管理器将打开。选择文件 `vN.N.N-passport.bin`。
 
 ![Image](assets/fr/22.webp)
@@ -204,6 +206,7 @@ https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-b
 有关保存和管理记忆短语的正确方法的更多信息，我强烈推荐大家阅读另一篇教程，尤其是初学者：
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 当然，你绝对不能在互联网上分享这些文字，就像我在本教程中所做的那样。本示例作品集将仅在 Testnet 上使用，并将在教程结束时删除。
 
 对这句话进行物理备份。
@@ -290,6 +293,7 @@ Passport 界面有三个主要菜单：
 在 Passport 上配置该选项之前，强烈建议您阅读本文，以充分了解口令的理论操作，避免出现可能导致比特币丢失的错误：
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 要激活它，请进入 "*更多*"菜单并点击 "*输入密码*"。
 
 ![Image](assets/fr/50.webp)
@@ -311,6 +315,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 在您收到钱包中的第一个比特币之前，**我强烈建议您执行空恢复测试**。记下一些参考信息，如您的 xpub 或第一个接收地址，然后在 Passport 上删除您的钱包，此时钱包还是空的（"设置 -> 高级 -> 删除 Passport"）。然后尝试使用纸质备份的记忆短语和任何密码来恢复钱包。检查还原后生成的 cookie 信息是否与您最初写下的信息一致。如果吻合，您就可以放心，您的纸质备份是可靠的。要了解有关如何进行测试恢复的更多信息，请参阅本教程 ：
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ![Image](assets/fr/53.webp)
 
 ## 在麻雀钱包上配置钱包
@@ -324,6 +329,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 安装前请务必检查软件的真实性和完整性。如果您不知道如何操作，请参考本教程：
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 打开麻雀钱包后，点击 "*文件*"标签，然后点击 "*新建钱包*"。
 
 ![Image](assets/fr/55.webp)

@@ -13,8 +13,9 @@ description: |
   until now. On January 3, 2009, a certain Satoshi Nakamoto launched bitcoin, the
   very first decentralized and reliable cryptocurrency. In 2011, it disappeared
   from circulation.
-tags:
-  - proof-of-work
-  - cypherpunk
 contributors:
   - jramos0
+tags:
+  - historical
+  - decentralization
+  - easy-explain

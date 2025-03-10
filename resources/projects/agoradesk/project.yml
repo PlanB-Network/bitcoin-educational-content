@@ -5,11 +5,6 @@ links:
   twitter: https://github.com/AgoraDesk-LocalMonero
   github: https://agoradesk.com/
 
-tags:
-  - exchange
-  - peer to peer
-  - privacy
-
 category: exchange
 # Proofreading metadata
 original_language: en
@@ -91,3 +86,6 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.16
+tags:
+  - software
+  - wallets

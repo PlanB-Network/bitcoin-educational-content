@@ -5,10 +5,6 @@ links:
   twitter: https://twitter.com/lnbits
   github: https://github.com/GaloyMoney
 
-tags:
-  - open-source
-  - lightning-infrastructure
-
 category: wallet
 
 # Proofreading metadata
@@ -91,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.4
+tags:
+  - lightning
+  - wallets
+  - user-friendly

@@ -11,6 +11,7 @@ Lightning rahakotte, nagu kõiki mobiilseid rahakotte, peetakse "kuumaks" rahako
 Kui soovite rohkem teada saada Lightning-võrgustikust ja mõista, kuidas see tehniliselt toimib, siis soovitan teil läbida selle kursuse:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 Selles õpetuses vaatame **Lipa**, lihtsat ja tõhusat Lightning rahakotti, mis on välja töötatud Šveitsis.
 
 ## Tutvustame Lipa
@@ -91,6 +92,7 @@ Rahakoti varundamiseks minge vahekaardile "Seaded" ja valige "Recovery fraas". L
 Lisateavet selle kohta, kuidas korralikult varundada ja hallata oma taastamislauset, soovitan kindlasti jälgida seda teist õpetust, eriti kui olete algaja:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ## Bitcoinide vastuvõtmine
 
 Bitcoinide saamiseks on teil kaks võimalust. Nendele valikutele juurdepääsuks minge tagasi avakuvale ja tõmmake ekraani allapoole. Seejärel saate kas :

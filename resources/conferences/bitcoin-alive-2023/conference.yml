@@ -8,11 +8,6 @@ language:
 links:
   website: https://bitcoinalive.io/
   twitter: https://twitter.com/BitcoinAlive
-tags:
-  - Bitcoiner
-  - General
-
-# Proofreading metadata
 project_id: 78e7aced-d230-4220-b581-36f9f8920868
 original_language: en
 proofreading:
@@ -22,3 +17,7 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - adoption
+  - use-case
+  - user-friendly

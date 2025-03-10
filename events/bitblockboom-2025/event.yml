@@ -11,9 +11,8 @@ language:
   - en
 links:
   website: https://bitblockboom.com/
-tags:
-  - decentralization
-  - consensus
-  - network-security
-
 project_id: bd452d8f-436f-4a0f-9243-4fc23a2f142f
+tags:
+  - adoption
+  - historical
+  - case-studies

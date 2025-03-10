@@ -31,6 +31,7 @@ Ohledně [ceníku](https://proton.me/pricing), bezplatná verze nabízí až 5 G
 Pokud ještě nemáte účet Proton, budete si ho muset vytvořit. Odkazuji vás na náš tutoriál Proton Mail, ve kterém podrobně vysvětlujeme, jak vytvořit bezplatný účet Proton a nastavit ho:
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Jak nastavit Proton Drive?
 

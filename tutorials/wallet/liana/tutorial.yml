@@ -2,11 +2,6 @@ id: 306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 builder: Wizard Sardine
 
-tags:
-  - wallets
-  - personal-security
-  - keys
-
 category: desktop
 
 level: intermediate
@@ -110,3 +105,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 12.73
+tags:
+  - wallets
+  - guides
+  - good-practice

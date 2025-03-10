@@ -11,8 +11,9 @@ description: |
   and quick bits snippets of the best in BTC. Recently, Premium content has been
   added to the newsletter: supporters-only weekly articles covering
   cypherpunk topics and pieces of advice on network-security .
+contributors:
+  - hunt-wood
 tags:
   - cypherpunk
   - network-security
-contributors:
-  - hunt-wood
+  - user-friendly

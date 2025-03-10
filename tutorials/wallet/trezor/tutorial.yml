@@ -5,12 +5,6 @@ level: beginner
 
 category: hardware
 
-tags:
-  - self-custodial
-  - Open source
-  - multi-coin
-
-# Proofreading metadata
 project_id: 4595235a-f943-4976-9c16-0518dd372511
 original_language: en
 proofreading:
@@ -92,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.2
+tags:
+  - wallets
+  - keys
+  - guides

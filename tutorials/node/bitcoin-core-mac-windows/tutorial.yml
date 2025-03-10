@@ -5,11 +5,6 @@ credits:
   professor: rebuild-kiss
   link: https://armantheparman.com/bitcoincore/
 
-tags:
-  - node
-  - privacy
-  - infrastructure
-
 category: bitcoin
 
 level: advanced
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 4.07
+tags:
+  - node
+  - guides
+  - user-friendly

@@ -1,10 +1,10 @@
 id: 5ccd7016-62a7-459b-bc01-d079c4ad075b
 start_date: 2024-07-26 19:00:00
 end_date: 2024-07-26 23:00:00
-timezone:  US/Central
+timezone: US/Central
 address_line_1: Nashville, USA
 address_line_2: Game Terminal, Terminal Court
-address_line_3: 
+address_line_3:
 name: Live in Nashville 2024
 builder: PlebLab
 type: meetup
@@ -12,15 +12,14 @@ book_online: false
 book_in_person: false
 price_dollars: 0
 description: Join Us for an Exciting Event at the Game Terminal in Nashville!
-language: 
+language:
   - en
 links:
   website: https://evento.so/p/evt_gXCAucxeHtx6qBTG
   replay_url:
-  live_url :
-tags: 
-  - bitcoiner
-  - General
-
-
+  live_url:
 project_id: b35f4cff-c9fd-4e51-8771-ed1b4d3184fd
+tags:
+  - adoption
+  - business
+  - user-friendly

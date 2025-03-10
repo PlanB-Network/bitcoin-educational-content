@@ -8,11 +8,6 @@ language:
 links:
   twitter: https://x.com/tabconf
   website: https://6.tabconf.com/
-tags:
-  - development
-  - protocols
-  - software
-  - high-level
 project_id: 1ccbbeae-ef92-4128-ad85-24f29e1759ca
 original_language: en
 proofreading:
@@ -22,3 +17,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0.05
+tags:
+  - development
+  - technical-analysis
+  - deep-dive

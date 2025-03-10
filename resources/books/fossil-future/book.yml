@@ -1,12 +1,6 @@
 id: d79e4a4f-43f3-4711-b2fb-3863096a00a5
 author: Alex Epstein
 level: beginner
-tags:
-  - environment
-  - energy
-  - economy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -87,3 +81,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.24
+tags:
+  - future-outlook
+  - high-level
+  - evaluation

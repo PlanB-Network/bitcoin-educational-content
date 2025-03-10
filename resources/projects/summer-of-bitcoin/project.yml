@@ -4,9 +4,6 @@ links:
   website: https://www.summerofbitcoin.org/
   twitter: https://twitter.com/summerofbitcoin
 
-tags:
-  - education
-
 category: education
 
 # Proofreading metadata
@@ -89,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - development
+  - guides
+  - technical-analysis

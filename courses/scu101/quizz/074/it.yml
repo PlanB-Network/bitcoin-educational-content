@@ -1,0 +1,9 @@
+question: Quali sono le principali funzionalità di un gestore di password?
+answer: Archiviare, generare e organizzare le password.
+wrong_answers:
+  - Analizzare e rimuovere virus.
+  - Eseguire il backup e organizzare documenti personali.
+  - Ottimizzare la velocità di connessione.
+explanation: |
+  Le funzioni essenziali includono l'archiviazione, la generazione e l'organizzazione delle password.
+reviewed: false

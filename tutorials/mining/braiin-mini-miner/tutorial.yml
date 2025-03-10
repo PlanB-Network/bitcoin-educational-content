@@ -3,10 +3,6 @@ builder: Braiins
 
 category: hardware
 
-tags:
-  - mining
-  - Hardware
-
 level: advanced
 
 # Proofreading metadata
@@ -105,3 +101,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.39
+tags:
+  - mining
+  - DIY
+  - user-friendly

@@ -1,12 +1,6 @@
 id: 9ecb2ff0-c909-4a88-b171-048f79c9571e
 author: Neal Stephenson
 level: intermediate
-tags:
-  - technology
-  - fiction
-  - cryptography
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.66
+tags:
+  - cypherpunk
+  - keys
+  - historical

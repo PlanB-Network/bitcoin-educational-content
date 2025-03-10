@@ -1,12 +1,6 @@
 id: 92431b5d-3574-4473-906a-ffd82708d177
 author: Ray Dalio
 level: intermediate
-tags:
-  - business
-  - management
-  - personal development
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.39
+tags:
+  - evaluation
+  - good-practice
+  - case-studies

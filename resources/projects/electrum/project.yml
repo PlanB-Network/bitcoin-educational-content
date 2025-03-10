@@ -4,11 +4,6 @@ links:
   website: https://electrum.org/#home
   twitter: https://twitter.com/ElectrumWallet
   github: https://github.com/spesmilo/electrum
-tags:
-  - bitcoin-only
-  - layer-2
-  - infrastructure
-
 category: wallet
 
 # Proofreading metadata
@@ -91,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.23
+tags:
+  - wallets
+  - keys
+  - software

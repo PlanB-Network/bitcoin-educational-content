@@ -1,12 +1,6 @@
 id: 1ea0205c-1b21-4815-83f3-a5ac45282263
 author: Martin Schwartz
 level: intermediate
-tags:
-  - finance
-  - trading
-  - psychology
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.36
+tags:
+  - historical
+  - finance
+  - market-trends

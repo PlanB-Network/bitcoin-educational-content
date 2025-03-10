@@ -3,7 +3,7 @@ start_date: 2024-05-31 13:00:00
 end_date: 2024-06-01 01:00:00
 timezone: America/El_Salvador
 address_line_1: Berlín, El Salvador
-address_line_2: Bitcoin Berlín Center 
+address_line_2: Bitcoin Berlín Center
 address_line_3: 2a Calle Poniente
 name: Bitcoin Berlín Podathon
 builder: Bitcoin Berlin SV
@@ -11,15 +11,18 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: The 1st year anniversary of Bitcoin Berlin SV, We'll be livestreaming 12hrs in English & Español w special guests & loads of fun from our new podcast studio.
-language: 
+description: The 1st year anniversary of Bitcoin Berlin SV, We'll be livestreaming
+  12hrs in English & Español w special guests & loads of fun from our new podcast
+  studio.
+language:
   - en
   - es
 links:
   website: https://www.youtube.com/watch?v=KnYTDtEilWE
   replay_url:
-  live_url :
-tags: 
-  - bitcoiner
-  - communities
+  live_url:
 project_id: f77e2e6b-1f62-4020-87db-1d4cd4136d34
+tags:
+  - user-friendly
+  - case-studies
+  - good-practice

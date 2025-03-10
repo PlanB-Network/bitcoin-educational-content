@@ -49,6 +49,7 @@ Bull Bitcoin 始终坚持提供透明的服务，不收取任何隐藏费用。�
 如果你不熟悉如何使用身份验证应用程序进行 2FA，我建议你看看 Authy 应用程序的教程：
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 输入密码确认。
 
 ![BULL](assets/fr/09.webp)
@@ -125,6 +126,7 @@ Bull Bitcoin 是一个受监管的平台，要使用 Bull Bitcoin 的全部功�
 如果您不熟悉比特币、闪电钱包或液体钱包的使用，我建议您参加我们的专门培训课程：
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 您还可以浏览 [我们关于最佳比特币钱包的详细教程](https://planb.network/tutorials/wallet)。
 
 然后点击 "*确认购买*"确认购买。

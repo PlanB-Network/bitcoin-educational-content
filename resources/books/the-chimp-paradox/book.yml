@@ -1,11 +1,6 @@
 id: eec4617c-2762-4cd7-9f95-1290ae6a1542
 author: Steve Peter
 level: intermediate
-tags:
-  - self-help
-  - personal development
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +81,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.35
+tags:
+  - personal-security
+  - self-sovereignty
+  - good-practice

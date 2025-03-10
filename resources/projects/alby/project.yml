@@ -8,11 +8,6 @@ links:
 
 category: wallet
 
-tags:
-  - bitcoin-only
-  - wallet
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -92,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.18
+tags:
+  - wallets
+  - user-friendly
+  - guides

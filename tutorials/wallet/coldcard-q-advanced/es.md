@@ -7,6 +7,7 @@ description: Uso de las opciones avanzadas de COLDCARD Q
 En un tutorial anterior, cubrimos la configuración inicial de la COLDCARD Q y sus funciones básicas para principiantes. Si acabas de recibir tu COLDCARD Q y aún no la has configurado, te recomiendo que empieces por ese tutorial antes de continuar aquí:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 Este nuevo tutorial está dedicado a las opciones avanzadas de COLDCARD Q, diseñadas para usuarios avanzados y paranoicos. De hecho, las COLDCARD se distinguen de otros monederos hardware por sus numerosas funciones de seguridad avanzadas. Por supuesto, no tiene por qué utilizar todas estas opciones. Sólo tiene que elegir las que se adapten a su estrategia de seguridad.
 
 **Atención**, el uso incorrecto de algunas de estas opciones avanzadas puede provocar la pérdida de tus bitcoins o la destrucción de tu monedero hardware. Por ello, te recomiendo encarecidamente que leas atentamente los consejos y explicaciones de cada opción.
@@ -20,6 +21,7 @@ Antes de empezar, asegúrate de que tienes acceso a una copia de seguridad físi
 Si no sabes qué es una frase de contraseña BIP39, o si no te queda del todo claro cómo funciona, te recomiendo encarecidamente que eches un vistazo antes a este tutorial, que cubre las bases teóricas necesarias para entender los riesgos asociados al uso de una frase de contraseña :
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Ten en cuenta que una vez que hayas configurado la frase de contraseña en tu monedero, tu mnemotécnica por sí sola no será suficiente para recuperar el acceso a tus bitcoins. Necesitarás tanto la mnemotecnia como la frase de contraseña. Es más, tendrá que introducir la frase de contraseña cada vez que desbloquee su COLDCARD Q. Esto refuerza la seguridad haciendo que el acceso físico a la COLDCARD y el conocimiento del PIN sean insuficientes sin la frase de contraseña.
 
 En las COLDCARD, tiene dos opciones para gestionar su frase de contraseña:
@@ -67,6 +69,7 @@ Confirme que la huella digital mostrada coincide con la de su monedero y haga cl
 Ten en cuenta que utilizar una frase de contraseña significa que tendrás que importar un nuevo conjunto de claves derivadas de la combinación de tu frase mnemotécnica y la frase de contraseña a tu software de gestión de monederos (como Sparrow Wallet). Para ello, sigue el paso "*Configurar un nuevo monedero en Sparrow*" en este otro tutorial :
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 ## Opciones de desbloqueo
 
 Las COLDCARD también se benefician de una serie de opciones para el proceso de desbloqueo del dispositivo. Averigüemos más sobre estas opciones avanzadas.

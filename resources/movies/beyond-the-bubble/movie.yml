@@ -13,8 +13,9 @@ description: |
   or governments, but by the people who use it. But where did this currency come
   from? How does it work? And is it truly the way forward, or just a flash in the
   pan?
-tags:
-  - proof-of-work
-  - historical
 contributors:
   - jramos0
+tags:
+  - historical
+  - high-level
+  - easy-explain

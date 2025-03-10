@@ -6,13 +6,14 @@ address_line_1: Brescia, Italia
 name: Bitcare Forum '25
 builder: Bitcare Forum
 type: conference
-description: BitCare Forum riunisce divulgatori,sviluppatori e imprenditori da tutta Italiaper discutere di adozione di Bitcoin,tecnologia, economiae libertà finanziaria.
+description: BitCare Forum riunisce divulgatori,sviluppatori e imprenditori da tutta
+  Italiaper discutere di adozione di Bitcoin,tecnologia, economiae libertà finanziaria.
 language:
   - it
 links:
   website: https://bitcareforum.it/
-tags:
-  - self-sovereignty
-  - cypherpunk
-  - innovation
 project_id: 8d4b2973-eaa2-4954-9da6-24d620e12e7f
+tags:
+  - adoption
+  - innovation
+  - business

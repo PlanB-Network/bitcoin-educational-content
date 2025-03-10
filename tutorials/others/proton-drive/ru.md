@@ -31,6 +31,7 @@ Proton Drive предлагает гораздо больше, чем прост
 Если у вас еще нет аккаунта Proton, вам необходимо его создать. Я рекомендую вам наше руководство по Proton Mail, в котором мы подробно объясняем, как создать бесплатный аккаунт Proton и настроить его:
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Как настроить Proton Drive?
 

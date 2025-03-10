@@ -5,10 +5,6 @@ level: beginner
 
 category: mobile
 
-tags:
-  - lightning-network
-  - self-custodial
-
 credits:
   professor: write-school
   link: https://agora256.com/muun-wallet-guide-dutilisation-complet/
@@ -96,3 +92,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 4.45
+tags:
+  - guides
+  - wallets
+  - user-friendly

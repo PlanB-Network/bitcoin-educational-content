@@ -5,10 +5,6 @@ links:
   twitter: https://twitter.com/umbrel
   github: https://github.com/getumbrel/umbrel
 
-tags:
-  - Nodes
-  - open-source
-
 category: node
 
 # Proofreading metadata
@@ -91,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.2
+tags:
+  - node
+  - DIY
+  - user-friendly

@@ -5,10 +5,6 @@ category: conference
 links:
   website: https://nostr.world/index.html
 
-tags:
-  - protocols
-  - innovation
-
 original_language: en
 proofreading:
   - language: en
@@ -17,3 +13,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.06
+tags:
+  - protocols
+  - software
+  - decentralization

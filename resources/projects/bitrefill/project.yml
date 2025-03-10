@@ -4,9 +4,6 @@ links:
   website: https://www.bitrefill.com/
   twitter: https://twitter.com/bitrefill
 
-tags:
-  - exchange
-
 category: service
 
 # Proofreading metadata
@@ -89,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.16
+tags:
+  - business
+  - adoption
+  - user-friendly

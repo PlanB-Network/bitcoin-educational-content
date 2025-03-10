@@ -1,12 +1,6 @@
 id: e3f9625b-dbdc-4f7c-94eb-6b841cdb8f81
 author: Benjamin Graham
 level: advanced
-tags:
-  - investment
-  - economy
-  - finance
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.58
+tags:
+  - investment
+  - good-practice
+  - market-trends

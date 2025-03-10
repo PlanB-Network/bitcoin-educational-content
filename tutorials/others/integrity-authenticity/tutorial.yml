@@ -2,11 +2,6 @@ id: 21d0420a-be02-4663-94a3-8d487f23becc
 
 builder: Plan ₿ Network
 
-tags:
-  - guides
-  - risks
-  - good-practice
-
 category: general
 
 level: intermediate
@@ -97,3 +92,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.6
+tags:
+  - good-practice
+  - software
+  - personal-security

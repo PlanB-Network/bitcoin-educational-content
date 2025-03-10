@@ -8,10 +8,6 @@ language:
 links:
   twitter: https://x.com/hodlhodl
   website: https://baltichoneybadger.com/
-tags:
-  - decentralization
-  - self-sovereignty
-  - business
 project_id: 5e8b6610-44b7-4a69-be02-a5c62187dd02
 original_language: en
 proofreading:
@@ -21,3 +17,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0.05
+tags:
+  - adoption
+  - cypherpunk
+  - future-outlook

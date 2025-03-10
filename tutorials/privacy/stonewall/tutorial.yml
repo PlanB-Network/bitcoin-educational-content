@@ -1,11 +1,6 @@
 id: 033daa45-d42c-40e1-9511-cea89751c3d4
 builder: Samourai
 
-tags:
-  - privacy
-  - cahoots
-  - Samourai
-
 category: on-chain
 
 level: advanced
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 4.56
+tags:
+  - privacy
+  - onchain
+  - good-practice

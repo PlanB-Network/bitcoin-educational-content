@@ -5,9 +5,6 @@ category: meetup
 links:
   website: https://www.meetup.com/crypto-lyon/
 
-tags:
-  - adoption
-
 original_language: fr
 proofreading:
   - language: fr
@@ -16,3 +13,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.06
+tags:
+  - easy-explain
+  - node
+  - guides

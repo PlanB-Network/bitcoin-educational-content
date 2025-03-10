@@ -13,9 +13,9 @@ description: |
   tecnologica del protocollo, anticipazioni e sconti sui corsi e i prodotti in
   uscita, pillole e analisi su strumenti per la custodia del proprio patrimonio ed
   il mantenimento della privacy associata ad esso.
-tags:
-  - easy-explain
-  - adoption
-  - cypherpunk
 contributors:
   - hunt-wood
+tags:
+  - user-friendly
+  - privacy
+  - development

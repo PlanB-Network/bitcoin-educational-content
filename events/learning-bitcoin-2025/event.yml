@@ -11,15 +11,17 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: A Bitcoin Education Event presented by our inclusive approach ensures that everyone, regardless of their background or experience level, can embark on a journey of discovery and empowerment
+description: A Bitcoin Education Event presented by our inclusive approach ensures
+  that everyone, regardless of their background or experience level, can embark on
+  a journey of discovery and empowerment
 language:
   - en
 links:
   website: https://www.learningbitcoin.ca/
   replay_url:
   live_url:
-tags:
-  - adoption
-  - guides
-  - proof-of-work
 project_id: f5e52863-408b-4139-839c-891c12da32a9
+tags:
+  - user-friendly
+  - guides
+  - adoption

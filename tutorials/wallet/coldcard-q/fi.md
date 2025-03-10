@@ -20,6 +20,7 @@ Tässä oppaassa esittelen sinulle yhden tällaisen ratkaisun: **COLDCARD Q**.
 Koska COLDCARD Q tarjoaa monia toimintoja, ehdotan, että sen käyttö jaetaan kahteen opetusohjelmaan. Tässä ensimmäisessä opetusohjelmassa tarkastelemme laitteen alkukonfigurointia ja perustoimintoja. Toisessa opetusohjelmassa tarkastelemme sitten sitä, miten voit hyödyntää kaikkia COLDCARDin lisäasetuksia.
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ---
 ## COLDCARD Q:n esittely
 
@@ -81,6 +82,7 @@ Jos haluat syöttää COLDCARD-korttiin virtaa kytkemättä sitä tietokoneeseen
 Tätä opetusohjelmaa varten tarvitset myös Sparrow Walletin, jolla voit hallita Bitcoin-lompakkoasi tietokoneellasi. Lataa [Sparrow Wallet](https://sparrowwallet.com/download/) virallisilta verkkosivuilta. Suosittelen vahvasti tarkistamaan sekä sen aitouden (GnuPG:n avulla) että eheyden (hash-arvon avulla) ennen asennuksen aloittamista. Jos et tiedä, miten tämä tehdään, seuraa tätä ohjetta:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ## PIN-koodin valinta
 
 Voit nyt kytkeä COLDCARDin päälle painamalla vasemmassa yläkulmassa olevaa painiketta.
@@ -160,6 +162,7 @@ Tässä vaiheessa suosittelemme, että tarkistat ladatun laiteohjelmiston eheyde
 Jos et ole perehtynyt tähän todentamisprosessiin, suosittelen seuraamaan tätä ohjetta:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Ota microSD-kortti ja siirrä laiteohjelmistotiedosto (tiedostomuoto `.dfu`) sille. Aseta microSD-kortti johonkin COLDCARDin porttiin.
 
 ![CCQ](assets/fr/021.webp)
@@ -199,6 +202,7 @@ Tässä valikossa on erilaisia mukautusvaihtoehtoja, kuten näytön kirkkauden a
 Tarkastelemme muita lisäasetuksia seuraavassa opetusohjelmassa:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ## Bitcoin-lompakon luominen
 
 Nyt on aika luoda uusi Bitcoin-lompakko! Tätä varten sinun on luotava muistilauseke. Coldcardissa sinulla on kolme tapaa tämän lauseen luomiseen:
@@ -329,6 +333,7 @@ Ennen kuin saat ensimmäiset bitcoinit lompakkoosi, **neuvon sinua tekemään ty
 Jos haluat lisätietoja palautustestin suorittamisesta, suosittelen, että tutustut tähän toiseen opetusohjelmaan:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Vastaanottaa bitcoineja
 
 Saat ensimmäiset bitcoinisi aluksi kytkemällä COLDCARDin päälle ja avaamalla sen lukituksen.
@@ -380,6 +385,7 @@ Voit nyt lisätä "*Label*" kuvaamaan bitcoinien lähdettä, joka suojataan täl
 Jos haluat lisätietoja merkinnöistä, suosittelen myös tätä toista ohjetta:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 Voit sitten käyttää tätä osoitetta bitcoinien vastaanottamiseen.
 
 ![CCQ](assets/fr/063.webp)

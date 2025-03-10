@@ -4,10 +4,6 @@ links:
   website: https://bluewallet.io/
   twitter: https://twitter.com/bluewalletio
 
-tags:
-  - Open-source
-  - bitcoin-only
-
 category: wallet
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - wallets
+  - software
+  - user-friendly

@@ -3,12 +3,6 @@ chapterId: dbb8264a-7434-57e4-9d1b-fbd1bae37fdf
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
-tags:
-  - Bitcoin
-  - Byzantine Generals' Problem
-  - Proof of Work
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs

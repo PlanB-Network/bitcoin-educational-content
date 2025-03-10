@@ -6,11 +6,6 @@ links:
   website: https://www.k1.sv/
   twitter: https://x.com/k1elsalvador
 
-tags:
-  - hardware
-  - lightning
-  - software
-
 original_language: en
 proofreading:
   - language: en
@@ -19,3 +14,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+tags:
+  - keys
+  - backup
+  - personal-security

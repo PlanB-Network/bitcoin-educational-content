@@ -7,11 +7,6 @@ links:
   twitter: https://x.com/paystand
   youtube: https://www.youtube.com/@paystand-org
 
-tags:
-  - adoption
-  - use-case
-  - user-friendly
-
 original_language: en
 proofreading:
   - language: en
@@ -20,3 +15,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.06
+tags:
+  - business
+  - finance
+  - offchain

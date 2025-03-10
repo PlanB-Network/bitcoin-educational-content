@@ -1,12 +1,6 @@
 id: a196402b-a8f3-49e1-9d1a-c7172cf86759
 author: Andreas Antonopoulos
 level: intermediate
-tags:
-  - bitcoin
-  - technology
-  - education
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -87,3 +81,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.33
+tags:
+  - technical-analysis
+  - deep-dive
+  - development

@@ -3,9 +3,8 @@ type: Visual Content
 links:
   download: https://workspace.planb.network/s/BmSzTpSSNsGjSyz
   view:
-    - en: https://penpot.planb.network/#/view/7154756b-3ebd-8040-8004-503d8f0fc377?page-id=7154756b-3ebd-8040-8004-503d8f0fc378&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-50404287ffd1&zoom=fill
-tags:
-  - bitcoin
+    - en: 
+        https://penpot.planb.network/#/view/7154756b-3ebd-8040-8004-503d8f0fc377?page-id=7154756b-3ebd-8040-8004-503d8f0fc378&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-50404287ffd1&zoom=fill
 contributors:
   - rabbit-hole
 
@@ -89,3 +88,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.11
+tags:
+  - DIY
+  - guides
+  - user-friendly

@@ -6,13 +6,15 @@ address_line_1: Bedford, England
 name: Cheatcode 25
 builder: CheatCode
 type: conference
-description: Bitcoin is a CheatCode for protecting your wealth against inflation. Traditional currencies are subject to inflationary pressures, where central banks can print money at will, devaluing the currency's purchasing power.
+description: Bitcoin is a CheatCode for protecting your wealth against inflation.
+  Traditional currencies are subject to inflationary pressures, where central banks
+  can print money at will, devaluing the currency's purchasing power.
 language:
   - en
 links:
   website: https://www.cheatcode.co.uk/
+project_id: a0bae034-16f0-4da0-9fb7-39d664347672
 tags:
   - finance
+  - investment
   - self-sovereignty
-
-project_id: a0bae034-16f0-4da0-9fb7-39d664347672

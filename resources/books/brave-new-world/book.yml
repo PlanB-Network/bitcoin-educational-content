@@ -1,11 +1,6 @@
 id: c90c359a-8ae3-4917-84e3-f609c9e21fcc
 author: Aldous Huxley
 level: intermediate
-tags:
-  - science fiction
-  - social issues;
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.59
+tags:
+  - self-sovereignty
+  - risks
+  - future-outlook

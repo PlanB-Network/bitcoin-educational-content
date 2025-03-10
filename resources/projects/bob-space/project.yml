@@ -11,14 +11,9 @@ links:
   website: https://www.bobspaces.net/
   twitter: https://x.com/BOBSpace_BKK
   github: https://github.com/BOBSpaces/
-  nostr: https://snort.social/p/npub13pn45hvfxqy5vpyr03krapqvsjpj34n74u36qz9aynw4svg5ypqszxgctw
+  nostr: 
+    https://snort.social/p/npub13pn45hvfxqy5vpyr03krapqvsjpj34n74u36qz9aynw4svg5ypqszxgctw
 
-tags:
-  - finance
-  - education
-  - technology
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -98,3 +93,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - DIY
+  - self-sovereignty
+  - guides

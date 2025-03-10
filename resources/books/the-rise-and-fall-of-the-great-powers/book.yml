@@ -1,12 +1,6 @@
 id: 0f4de238-0b79-4e40-b46b-d8058e389211
 author: Paul Kennedy
 level: beginner
-tags:
-  - psychology
-  - entrepreneurship
-  - self-help
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.28
+tags:
+  - historical
+  - deep-dive
+  - finance

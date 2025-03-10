@@ -1,11 +1,6 @@
 id: 96dac2e1-a82b-450a-a37e-b64c1f40b728
 author: Ursula K. Le Guin
 level: intermediate
-tags:
-  - fiction
-  - anarchisme
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +81,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.34
+tags:
+  - decentralization
+  - self-sovereignty
+  - case-studies

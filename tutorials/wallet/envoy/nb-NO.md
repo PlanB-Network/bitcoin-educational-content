@@ -23,6 +23,7 @@ I denne veiledningen, som er rettet mot nybegynnere og viderekomne brukere, skal
 Hvis du er en avansert bruker og ønsker å utforske mer komplekse funksjoner, anbefaler jeg at du tar en titt på denne andre opplæringen der vi konfigurerer Passport med Sparrow Wallet :
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 ## Utpakking av passet
 
 Når du mottar passet ditt, må du kontrollere at esken og forseglingen på kartongen er intakt for å bekrefte at pakken ikke har blitt åpnet. En programvareverifisering av enhetens autentisitet og integritet vil også bli utført når den settes opp.
@@ -170,6 +171,7 @@ For å gjøre dette bruker du MicroSD-kortet som fulgte med Passport-esken (elle
 Før du installerer den på enheten din, anbefaler vi deg på det sterkeste å sjekke ektheten og integriteten til den nedlastede fastvaren. Hvis du trenger hjelp med dette, kan du se denne veiledningen :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### Med Envoy-applikasjonen
 
 Det andre, enklere alternativet er å bruke Envoy-applikasjonen direkte. Klikk på "*Last ned fastvare*".
@@ -253,6 +255,7 @@ Klikk på bekreftelsesknappen for å se minnefrasen din.
 Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer minnefrasen din, anbefaler jeg at du følger denne andre veiledningen, spesielt hvis du er nybegynner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 du må selvfølgelig aldri dele disse ordene på Internett, slik jeg gjør i denne opplæringen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen
 
 Lag en fysisk sikkerhetskopi av denne setningen.

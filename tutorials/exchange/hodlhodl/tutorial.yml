@@ -5,12 +5,6 @@ level: intermediate
 
 category: peer-to-peer
 
-tags:
-  - multi-coin
-  - peer-to-peer
-  - light-KYC
-
-# Proofreading metadata
 project_id: 120557b9-b1e6-4969-aff4-5bf46fff9869
 original_language: en
 proofreading:
@@ -92,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 4.82
+tags:
+  - guides
+  - user-friendly
+  - wallets

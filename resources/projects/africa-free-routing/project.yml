@@ -9,14 +9,9 @@ language:
 links:
   website: https://freerouting.africa/
   twitter: https://x.com/FreeRoutingAf
-  nostr: https://primal.net/p/npub1j8w9vaymagphmvfvkk7tt9cxfneejmctez6yw5nfp0m8qxteptcsjv8nud
+  nostr: 
+    https://primal.net/p/npub1j8w9vaymagphmvfvkk7tt9cxfneejmctez6yw5nfp0m8qxteptcsjv8nud
 
-tags:
-  - finance
-  - education
-  - lightning
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.3
+tags:
+  - lightning
+  - scalability
+  - adoption

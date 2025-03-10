@@ -1,12 +1,6 @@
 id: 532e2c78-9846-4882-b4be-e44c20f3146a
 author: Carl Menger
 level: intermediate
-tags:
-  - economy
-  - finance
-  - history
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,6 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - historical
+  - adoption

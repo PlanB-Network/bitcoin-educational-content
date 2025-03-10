@@ -5,10 +5,6 @@ category: education
 links:
   twitter: https://x.com/mayanbitcoin
 
-tags:
-  - adoption
-  - use-case
-
 original_language: en
 proofreading:
   - language: en
@@ -17,3 +13,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.05
+tags:
+  - historical
+  - case-studies
+  - adoption

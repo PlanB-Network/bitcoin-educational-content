@@ -1,10 +1,6 @@
 id: 77468b16-3a6b-47d4-88e0-68462b8e66ff
 author: David St-Onge
 level: beginner
-tags:
-  - finance
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
@@ -91,3 +87,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.32
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.37
+tags:
+  - user-friendly
+  - easy-explain
+  - high-level

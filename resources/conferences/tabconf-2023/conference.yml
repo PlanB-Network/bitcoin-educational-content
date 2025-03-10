@@ -8,12 +8,6 @@ language:
 links:
   website: https://2023.tabconf.com/
   twitter: https://twitter.com/tabconf
-tags:
-  - Bitcoiner
-  - technical
-  - lightning network
-
-# Proofreading metadata
 project_id: 1ccbbeae-ef92-4128-ad85-24f29e1759ca
 original_language: en
 proofreading:
@@ -23,3 +17,6 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - development
+  - innovation

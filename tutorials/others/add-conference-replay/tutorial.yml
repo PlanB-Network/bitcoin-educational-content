@@ -1,12 +1,6 @@
 id: 3282deba-16ab-4dd9-8357-680902bfb527
 builder: Plan ₿ Network
 
-tags:
-  - GitHub
-  - Conference
-  - Replay
-  - PlanB Network
-
 category: contribution
 
 level: beginner
@@ -96,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.99
+tags:
+  - guides
+  - user-friendly
+  - good-practice

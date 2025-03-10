@@ -4,11 +4,6 @@ links:
   website: https://river.com/
   twitter: https://twitter.com/River
 
-tags:
-  - education
-  - development
-  - privact
-
 category: infrastructure
 
 # Proofreading metadata
@@ -91,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - investment
+  - finance
+  - business

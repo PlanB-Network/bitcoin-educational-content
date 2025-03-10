@@ -6,11 +6,6 @@ links:
   website: https://en.osmowallet.com/
   twitter: https://x.com/osmowallet
 
-tags:
-  - finance
-  - software
-  - use-case
-
 original_language: es
 proofreading:
   - language: es
@@ -19,3 +14,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+tags:
+  - wallets
+  - smart-contracts
+  - user-friendly

@@ -1,10 +1,6 @@
 id: 91cf7e80-6b0b-4a06-bb19-a48718d949f4
 author: Douglas Adams
 level: beginner
-tags:
-  - sience fiction
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -84,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.2
+tags:
+  - easy-explain
+  - user-friendly
+  - high-level

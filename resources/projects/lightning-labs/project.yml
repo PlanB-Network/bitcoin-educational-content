@@ -4,11 +4,6 @@ links:
   website: https://lightning.engineering/
   twitter: https://twitter.com/lightning
   github: https://github.com/lightningnetwork/lnd
-tags:
-  - bitcoin-only
-  - open-source
-  - lightning-infrastructure
-
 category: infrastructure
 
 # Proofreading metadata
@@ -91,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.25
+tags:
+  - lightning
+  - business
+  - development

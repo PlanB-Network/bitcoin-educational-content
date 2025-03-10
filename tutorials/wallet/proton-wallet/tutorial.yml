@@ -2,10 +2,6 @@ id: 0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
 project_id: d655e18b-d299-4c88-beb5-e6b688d86024
 
-tags:
-  - wallets
-  - keys
-
 category: desktop
 
 level: beginner
@@ -23,3 +19,90 @@ proofreading:
     contributors_id:
       - LoicPandul
     reward: 0
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.44
+
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.77
+
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.77
+
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.1
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.44
+
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.44
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.77
+
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.1
+
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.1
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.44
+
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.77
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.44
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.1
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.77
+tags:
+  - wallets
+  - guides
+  - user-friendly

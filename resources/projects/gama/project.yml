@@ -6,11 +6,6 @@ links:
   website: https://www.gama.africa/
   twitter: https://x.com/gama_alliance
 
-tags:
-  - mining
-  - business
-  - decentralization
-
 original_language: en
 proofreading:
   - language: en
@@ -19,3 +14,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.08
+tags:
+  - evaluation
+  - guides
+  - personal-security

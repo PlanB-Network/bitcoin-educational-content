@@ -9,10 +9,6 @@ language:
 links:
   twitter: https://x.com/BTCPrague
   website: https://btcprague.com/
-tags:
-  - network-security
-  - proof-of-work
-  - future-outlook
 project_id: 0726adb9-4d45-4e5c-af2c-0a26db29d9b3
 original_language: en
 proofreading:
@@ -22,3 +18,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0.05
+tags:
+  - adoption
+  - future-outlook
+  - business

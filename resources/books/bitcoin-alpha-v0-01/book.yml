@@ -1,11 +1,6 @@
 id: a54ce860-0e5e-49ce-999c-fab6d4062935
 author: Pirate Hash
 level: advanced
-tags:
-  - bitcoin
-  - technology;
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.15
+tags:
+  - future-outlook
+  - high-level
+  - easy-explain

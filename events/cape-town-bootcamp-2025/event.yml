@@ -7,13 +7,17 @@ address_line_2: Digital Asset Studios, 6th Floor, Unit 605, Touchstone House
 name: Cape Town Lightning Developer Bootcamp
 builder: Africa Free Routing
 type: course
-description: Africa Free Routing, in partnership with Opensats, Tether, and African Bitcoiners, invites you to an intensive 3-day program on Bitcoin Lightning Development. This bootcamp is tailored for passionate individuals eager to sharpen their skills and drive innovation within South Africa’s rapidly growing Bitcoin and Lightning Network ecosystem.
+description: Africa Free Routing, in partnership with Opensats, Tether, and African
+  Bitcoiners, invites you to an intensive 3-day program on Bitcoin Lightning Development.
+  This bootcamp is tailored for passionate individuals eager to sharpen their skills
+  and drive innovation within South Africa’s rapidly growing Bitcoin and Lightning
+  Network ecosystem.
 language:
   - en
 links:
   website: https://freerouting.africa/cape-town-lightning-developer-bootcamp/
-tags:
-  - proof-of-work
-  - lightning
-  - decentralization
 project_id: e4214a6e-ae5d-4416-b7e7-53a8a7e2aadb
+tags:
+  - lightning
+  - development
+  - guides

@@ -1,11 +1,6 @@
 id: 47507d90-e6af-4cac-b01b-01a14d7a8228
 builder: Plan ₿ Network
 
-tags:
-  - Mnemonic Phrase
-  - Cryptography
-  - Dice Roll
-
 category: backup
 
 level: advanced
@@ -95,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 13.66
+tags:
+  - DIY
+  - keys
+  - guides

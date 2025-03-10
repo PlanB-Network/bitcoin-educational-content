@@ -4,11 +4,6 @@ links:
   website: https://makers.bolt.fun/feed
   twitter: https://twitter.com/boltfun_btc
 
-tags:
-  - bitcoin-only
-  - lightning
-  - game
-
 category: education
 
 # Proofreading metadata
@@ -91,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.17
+tags:
+  - lightning
+  - development
+  - user-friendly

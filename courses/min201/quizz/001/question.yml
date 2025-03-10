@@ -3,12 +3,6 @@ chapterId: 36a82de7-87ee-5e7a-b69e-48fc30030447
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
-tags:
-  - Bitcoin
-  - Mining
-  - Difficulty Adjustment
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs

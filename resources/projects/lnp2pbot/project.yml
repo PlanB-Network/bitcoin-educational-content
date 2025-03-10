@@ -4,11 +4,6 @@ name: Lnp2pBot
 links:
   website: https://lnp2pbot.com/
   twitter: https://twitter.com/lnp2pBot
-tags:
-  - Open-source
-  - bitcoin-only
-  - exchange
-
 category: exchange
 
 # Proofreading metadata
@@ -91,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.11
+tags:
+  - software
+  - lightning
+  - user-friendly

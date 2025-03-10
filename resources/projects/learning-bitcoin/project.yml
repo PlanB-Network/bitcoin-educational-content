@@ -6,11 +6,6 @@ links:
   website: https://www.learningbitcoin.ca/
   twitter: https://x.com/learningbtc_ca
 
-tags:
-  - decentralization
-  - proof-of-work
-  - self-sovereignty
-
 original_language: en
 proofreading:
   - language: en
@@ -103,3 +98,6 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - guides
+  - user-friendly

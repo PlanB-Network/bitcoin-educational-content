@@ -1,10 +1,6 @@
 id: 9c76449a-8a8f-4132-8bbc-c2b0a55829fc
 author: David Heinemeier Hansson, Jason Fried
 level: beginner
-tags:
-  - jason fried
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -84,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - adoption
+  - use-case
+  - guides

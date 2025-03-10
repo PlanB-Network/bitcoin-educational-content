@@ -6,15 +6,17 @@ address_line_1: Belgrade, Serbia
 name: Bitcoin only meetup in Belgrade
 builder: DvadesetJedan
 type: meetup
-description: Dvadeset Jedan is a group of Bitcoin maximalists from former Yugoslav republics. We gather to talk about bitcoin, economics, technology, philosophy and other relevant topics, over drinks.
+description: Dvadeset Jedan is a group of Bitcoin maximalists from former Yugoslav
+  republics. We gather to talk about bitcoin, economics, technology, philosophy and
+  other relevant topics, over drinks.
 language:
   - en
   - sr
 links:
-  website: https://www.meetup.com/dvadeset-jedan/events/304723983/?eventOrigin=group_upcoming_events
+  website: 
+    https://www.meetup.com/dvadeset-jedan/events/304723983/?eventOrigin=group_upcoming_events
+project_id: 24ba74b6-992a-43db-81fb-f75092b3c244
 tags:
   - adoption
   - self-sovereignty
-  - decentralization
-
-project_id: 24ba74b6-992a-43db-81fb-f75092b3c244
+  - case-studies

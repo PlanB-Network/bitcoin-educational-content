@@ -8,10 +8,6 @@ language:
 links:
   twitter: https://x.com/BitcoinConfEUR
   website: https://b.tc/conference/amsterdam/2025
-tags:
-  - business
-  - finance
-  - investment
 project_id: 77d117fc-a2b1-4e2c-8442-ea00ff8cf70a
 original_language: en
 proofreading:
@@ -21,3 +17,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0.05
+tags:
+  - business
+  - adoption
+  - market-trends

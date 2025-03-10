@@ -1,11 +1,6 @@
 id: 5862003b-9d76-47f5-a9e0-5ec74256a8ba
 builder: GitHub
 
-tags:
-  - GitHub
-  - Contribution
-  - PlanB Network
-
 category: contribution
 
 level: beginner
@@ -95,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.17
+tags:
+  - guides
+  - user-friendly
+  - software

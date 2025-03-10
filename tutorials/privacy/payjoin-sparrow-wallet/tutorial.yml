@@ -1,12 +1,6 @@
 id: 087a0e49-61cd-41f5-8440-ac7b157bdd62
 builder: Sparrow
 
-tags:
-  - privacy
-  - payjoin
-  - P2EP
-  - Sparrow
-
 category: on-chain
 
 level: advanced
@@ -95,3 +89,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3.85
+tags:
+  - privacy
+  - wallets
+  - guides

@@ -5,11 +5,6 @@ level: advanced
 
 category: general
 
-tags:
-  - privacy
-  - open-source
-  - OS
-
 credits:
   professor: rebuild-kiss
   link: https://armantheparman.com/mint/
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 8.26
+tags:
+  - guides
+  - software
+  - DIY

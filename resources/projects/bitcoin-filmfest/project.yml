@@ -6,9 +6,6 @@ links:
   website: https://bitcoinfilmfest.com/
   twitter: https://twitter.com/bitcoinfilmfest
 
-tags:
-  - use-case
-
 original_language: en
 proofreading:
   - language: en
@@ -17,3 +14,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.08
+tags:
+  - innovation
+  - user-friendly
+  - adoption

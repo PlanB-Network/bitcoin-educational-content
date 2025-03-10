@@ -1,10 +1,6 @@
 id: 92603f76-b985-49ce-81e5-f4fa0df776e5
 builder: Paymium
 
-tags:
-  - multi-coin
-  - Full KYC
-
 category: centralized
 
 level: intermediate
@@ -91,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.32
+tags:
+  - guides
+  - user-friendly
+  - wallets

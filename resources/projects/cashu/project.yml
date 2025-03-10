@@ -5,11 +5,6 @@ links:
   twitter: https://twitter.com/CashuBTC
   github: https://github.com/cashubtc
 
-tags:
-  - bitcoin-only
-  - infrastructure
-  - wallet
-
 category: infrastructure
 
 # Proofreading metadata
@@ -92,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.15
+tags:
+  - offchain
+  - protocols
+  - privacy

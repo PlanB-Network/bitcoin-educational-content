@@ -1,12 +1,6 @@
 id: 4fc31d63-30c3-4f18-953e-07a3fa976e2e
 author: Steve Drobny
 level: advanced
-tags:
-  - finance
-  - investing
-  - hedge funds
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.52
+tags:
+  - finance
+  - market-trends
+  - investment

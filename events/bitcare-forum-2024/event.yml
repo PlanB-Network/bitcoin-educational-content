@@ -10,15 +10,15 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: L'unica conferenza Bitcoin-Only italiana. Entra in contatto con esperti e appassionati.
+description: L'unica conferenza Bitcoin-Only italiana. Entra in contatto con esperti
+  e appassionati.
 language:
   - it
 links:
   website: https://bitcareforum.it/
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - General
-
+  live_url:
 project_id: 8d4b2973-eaa2-4954-9da6-24d620e12e7f
+tags:
+  - adoption
+  - user-friendly

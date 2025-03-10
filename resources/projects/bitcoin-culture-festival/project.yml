@@ -5,9 +5,6 @@ category: conference
 links:
   website: https://bitcoinculturefestival.london/
 
-tags:
-  - investment
-
 original_language: en
 proofreading:
   - language: en
@@ -16,3 +13,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.07
+tags:
+  - adoption
+  - self-sovereignty
+  - cypherpunk

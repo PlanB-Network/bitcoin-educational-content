@@ -5,10 +5,6 @@ links:
   website: https://www.authy.com/
   twitter: https://x.com/twilio
 
-tags:
-  - software
-  - personal-security
-
 category: infrastructure
 
 # Proofreading metadata
@@ -104,3 +100,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.17
+tags:
+  - software
+  - business
+  - protocols

@@ -1,11 +1,6 @@
 id: 96071451-6f36-44ec-b49c-f2f15f00da9c
 author: Lionel Shriver
 level: intermediate
-tags:
-  - finance
-  - novel
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.4
+tags:
+  - finance
+  - historical
+  - future-outlook

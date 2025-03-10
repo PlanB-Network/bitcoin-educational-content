@@ -564,8 +564,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-4
 For example, you could use a Ledger, a Satochip, or a Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Level 3**, you use a level 1 or 2 wallet, but you added an additional passphrase. In this case, be aware that you need to backup both the list of 12/24 words **and\*\* your passphrase. Ideally, these two pieces of information are stored in two different places.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 To learn more about the use and functioning of the BIP39 passphrase:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Level 4\*\*, you use a set of wallets to create a "multisig" wallet, which means that multiple signatures are required to conduct a transaction. In this case, be aware that each part of the multisig should be stored in different locations. This approach is often considered an advanced use of Bitcoin, primarily for managing large amounts and for corporate purposes.
@@ -829,7 +833,7 @@ There are several options available when you want to install your own node, with
 
 ![image](assets/en/53.webp)
 
-A second option is to use a dedicated piece of hardware for this purpose, such as a Raspberry Pi 4 with a sufficiently large SSD (about ~1TB). This other option is more expensive if you have to buy the hardware, but it represents a little less than €10,00 per year in terms of electricity consumption.
+A second option is to use a dedicated piece of hardware for this purpose, such as a Raspberry Pi 4 with a sufficiently large SSD (about ~2TB). This other option is more expensive if you have to buy the hardware, but it represents a little less than €10,00 per year in terms of electricity consumption.
 
 From a bandwidth perspective, considering 1 block of 1MB every 10 minutes, it corresponds approximately to 5GB per month.
 

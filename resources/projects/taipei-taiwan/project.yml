@@ -10,12 +10,6 @@ language:
 links:
   twitter: https://x.com/PlanBTaiwanNode
 
-tags:
-  - bitcoin-only
-  - education
-  - community
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -96,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.16
+tags:
+  - decentralization
+  - privacy
+  - network-security

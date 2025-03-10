@@ -13,6 +13,7 @@ En este tutorial, cubriremos el proceso de creación de una cuenta comercial en 
 Si te interesa el tema de la integración del bitcoin en tu negocio, te recomiendo también que descubras nuestro completo curso de formación teórica sobre el tema:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - Crear una cuenta Bitfinex
 
 Visite [el sitio web oficial de Bitfinex](https://www.bitfinex.com/). En la página de inicio, busque y haga clic en la opción "*Sign Up*" para empezar a crear su cuenta. Al principio, creará una cuenta estándar como para particulares, la opción "*Corporate*" se seleccionará más tarde durante el proceso de verificación.
@@ -26,9 +27,11 @@ Complete la información requerida: introduzca la dirección de correo electrón
 Para obtener consejos sobre cómo utilizar y salvaguardar contraseñas fuertes y únicas, consulte también este tutorial :
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Ahora vamos a configurar el 2FA para asegurar la cuenta. Utiliza una aplicación de autenticación en tu smartphone, como Google Authenticator o Authy por ejemplo. Encontrarás un tutorial sobre esta herramienta aquí :
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Escanee el código QR con su aplicación e introduzca los 6 dígitos proporcionados.
 
 ![BITFINEX](assets/fr/03.webp)
@@ -158,6 +161,7 @@ Bitfinex también ofrece opciones de depósito y retirada a través de Lightning
 Si estás interesado en la Red relámpago, también tenemos un curso de formación completo para ayudarte a entender cómo funciona:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ## 6 - Compra y venta de bitcoins en Bitfinex
 
 Bitfinex ofrece varios modos de negociación. Para mayor facilidad de uso, opte por el mercado al contado clásico, también conocido como "*Trading*" o "*Exchange*". Aquí, puedes colocar órdenes de compra o venta al precio de mercado, o establecer un precio límite.

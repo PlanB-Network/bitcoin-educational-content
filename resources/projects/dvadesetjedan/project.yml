@@ -7,10 +7,6 @@ links:
   Github: https://github.com/Dvadeset-Jedan
   youtube: https://www.youtube.com/channel/UCYXly5XM_SO07vLHh2yPlCw
 
-tags:
-  - adoption
-  - user-friendly
-
 original_language: en
 proofreading:
   - language: en
@@ -19,3 +15,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.09
+tags:
+  - software
+  - guides
+  - user-friendly

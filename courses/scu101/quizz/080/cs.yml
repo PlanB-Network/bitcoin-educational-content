@@ -1,0 +1,9 @@
+question: Proč se doporučuje vytvořit dvě odlišné e-mailové adresy?
+answer: Pro oddělení obecných komunikací od obnovy účtu.
+wrong_answers:
+  - Pro oddělení pracovních a osobních komunikací.
+  - Pro vytvoření více účtů a zvýšení online viditelnosti.
+  - Pro příjem většího množství spamu.
+explanation: |
+  Oddělení e-mailových adres pomáhá omezit rizika a lépe chránit přístup k citlivým účtům.
+reviewed: false

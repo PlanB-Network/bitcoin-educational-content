@@ -7,11 +7,6 @@ links:
   twitter: https://x.com/nakamochiq
   Github: https://github.com/nakamochi/
 
-tags:
-  - node
-  - lightning
-  - decentralization
-
 original_language: en
 proofreading:
   - language: en
@@ -20,3 +15,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.07
+tags:
+  - decentralization
+  - self-sovereignty
+  - innovation

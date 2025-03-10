@@ -2,10 +2,6 @@ id: 30a9671d-e407-459d-9203-4c3eae15b30e
 
 builder: Relai
 
-tags:
-  - investment
-  - guides
-
 category: centralized
 
 level: beginner
@@ -109,3 +105,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.77
+tags:
+  - user-friendly
+  - guides
+  - wallets

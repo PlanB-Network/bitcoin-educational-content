@@ -1,12 +1,6 @@
 id: b9e64fda-de24-4cf8-9454-c61b7cfa35bc
 author: Riccardo Siotto
 level: beginner
-tags:
-  - economics
-  - finance
-  - money
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - finance
+  - historical
+  - deep-dive

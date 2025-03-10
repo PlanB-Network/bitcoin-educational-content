@@ -4,11 +4,6 @@ name: Wallet of Satoshi
 links:
   website: https://www.walletofsatoshi.com/
   twitter: https://twitter.com/walletofsatoshi
-tags:
-  - custodial
-  - bitcoin-only
-  - LN wallet
-
 category: wallet
 
 # Proofreading metadata
@@ -91,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.11
+tags:
+  - wallets
+  - lightning
+  - user-friendly

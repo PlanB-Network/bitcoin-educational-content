@@ -4,11 +4,6 @@ links:
   website: https://www.nodl.eu/
   twitter: https://twitter.com/nodl_it
 
-tags:
-  - bitcoin-only
-  - infrastructure
-  - nodes
-
 category: node
 
 # Proofreading metadata
@@ -91,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.22
+tags:
+  - node
+  - hardware
+  - guides

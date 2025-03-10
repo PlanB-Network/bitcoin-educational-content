@@ -1,12 +1,6 @@
 id: c06ba5ab-2ae1-4512-9c9d-da4b239cf5f4
 author: Eric S. Raymond
 level: intermediate
-tags:
-  - software development
-  - opensource
-  - technology
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.49
+tags:
+  - decentralization
+  - software
+  - case-studies

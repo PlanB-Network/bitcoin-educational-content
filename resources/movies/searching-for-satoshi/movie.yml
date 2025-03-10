@@ -5,7 +5,8 @@ publication_year: 2023
 duration: 44
 language: en
 links:
-  platform: https://tv.apple.com/gb/show/searching-for-satoshi-the-mysterious-disappearance/umc.cmc.1pk0r5vic85dpd9e3590vnfww
+  platform: 
+    https://tv.apple.com/gb/show/searching-for-satoshi-the-mysterious-disappearance/umc.cmc.1pk0r5vic85dpd9e3590vnfww
   trailer: https://youtu.be/DKJNJuScSOM?si=ILhHLlaI9CALxSCs
 description: |
   On January 3, 2009, a secretive software engineer with the pseudonym "Satoshi
@@ -21,8 +22,9 @@ description: |
   anonymity. In this film, director and producer Paul Kemp goes on a worldwide
   journey to piece together the most compelling case yet for who Satoshi Nakamoto
   was and why he disappeared.
-tags:
-  - historical
-  - cypherpunk
 contributors:
   - jramos0
+tags:
+  - historical
+  - deep-dive
+  - cypherpunk

@@ -1,10 +1,6 @@
 id: 9876f960-e964-4d20-8a6e-36231de1f4d9
 builder: Samourai
 
-tags:
-  - watch-only
-  - xpub
-
 category: mobile
 
 level: beginner
@@ -95,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.23
+tags:
+  - wallets
+  - good-practice
+  - user-friendly

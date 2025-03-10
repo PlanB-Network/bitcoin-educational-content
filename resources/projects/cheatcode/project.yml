@@ -7,11 +7,6 @@ links:
   twitter: https://twitter.com/CheatCodeCon
   youtube: https://www.youtube.com/channel/UCRfYoKkmvWWTj6M092WnvPg
 
-tags:
-  - adoption
-  - decentralization
-  - use-case
-
 original_language: en
 proofreading:
   - language: en
@@ -20,3 +15,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.06
+tags:
+  - guides
+  - good-practice
+  - user-friendly

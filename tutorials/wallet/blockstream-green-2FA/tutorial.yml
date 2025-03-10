@@ -2,11 +2,6 @@ id: 37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 builder: Blockstream
 
-tags:
-  - wallets
-  - software
-  - keys
-
 category: mobile
 
 level: intermediate
@@ -109,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 8.59
+tags:
+  - wallets
+  - guides
+  - good-practice

@@ -8,10 +8,6 @@ links:
   Github: https://github.com/nicehash
   youtube: https://www.youtube.com/c/NiceHash_Official
 
-tags:
-  - mining
-  - adoption
-
 original_language: en
 proofreading:
   - language: en
@@ -20,3 +16,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.07
+tags:
+  - mining
+  - software
+  - user-friendly

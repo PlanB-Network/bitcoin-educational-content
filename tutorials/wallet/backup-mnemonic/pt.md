@@ -85,9 +85,11 @@ Também pode enriquecer a sua cópia de segurança com informações adicionais 
 Por outro lado, se utilizar uma frase-chave, certifique-se de que não a escreve no mesmo suporte que a sua frase mnemónica. O objetivo da frase-chave é proteger a sua carteira em caso de roubo. Para saber mais sobre como utilizar uma frase-chave, consulte este tutorial complementar:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Depois de guardar a frase mnemónica num suporte físico, recomenda-se vivamente que efectue um teste de recuperação enquanto a carteira recém-criada ainda estiver vazia. Este teste consiste em escrever um exemplo de informação, apagar deliberadamente a carteira vazia e, em seguida, tentar restaurá-la utilizando apenas a cópia de segurança física da frase mnemónica. Isto permitir-lhe-á verificar se a sua cópia de segurança está completa e sem erros de introdução. Também lhe permite familiarizar-se com o processo de recuperação. Desta forma, se precisar de recuperar no futuro, estará mais bem preparado e evitará o stress de uma primeira tentativa numa situação real. Para saber mais sobre como efetuar este teste, consulte este outro tutorial :
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 Por fim, há a questão do número de cópias de segurança. Esta escolha depende inteiramente da sua situação pessoal. Limitar o número de cópias, por exemplo, escrevendo a frase mnemónica apenas uma vez num suporte, reduz o risco de roubo, mas aumenta o risco de perda. Pelo contrário, fazer várias cópias reduz o risco de perda, mas aumenta o risco de roubo. Assim, cabe-lhe a si encontrar o equilíbrio certo para as suas necessidades e determinar o número de cópias que considera mais adequado.
 
 ## Armazenamento
@@ -117,4 +119,5 @@ Para dar um passo em frente e reforçar ainda mais a sua estratégia de seguran�
 É por isso que o convido a fazer o curso de formação gratuito CYP201 oferecido pela Plan ₿ Network. Este curso de formação explica em pormenor todo o funcionamento das carteiras Bitcoin, permitindo-lhe dominar os aspectos técnicos essenciais para proteger eficazmente os seus fundos:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 Se achou este tutorial útil, agradecia que deixasse um polegar verde abaixo. Sinta-se à vontade para partilhar este artigo nas suas redes sociais. Muito obrigado!

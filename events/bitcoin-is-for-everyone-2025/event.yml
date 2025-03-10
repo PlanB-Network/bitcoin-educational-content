@@ -12,9 +12,8 @@ language:
   - en
 links:
   website: https://bitcoinisforeveryone.com/
-tags:
-  - innovation
-  - finance
-  - market-trends
-
 project_id: 21dd7c32-3fba-463e-915d-78a3da832941
+tags:
+  - adoption
+  - user-friendly
+  - use-case

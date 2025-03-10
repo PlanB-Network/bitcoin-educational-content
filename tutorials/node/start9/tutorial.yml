@@ -1,11 +1,6 @@
 id: 8c8b6827-8423-4929-bcba-89057670ed6a
 builder: Start 9
 
-tags:
-  - node
-  - privacy
-  - infrastructure
-
 category: bitcoin
 
 level: advanced
@@ -92,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.24
+tags:
+  - node
+  - guides
+  - DIY

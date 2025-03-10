@@ -1,12 +1,6 @@
 id: 239964c9-5487-41d9-8390-c1172f51ded0
 author: Thomas Sowell
 level: beginner
-tags:
-  - finance
-  - economy
-  - policy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.21
+tags:
+  - finance
+  - easy-explain
+  - user-friendly

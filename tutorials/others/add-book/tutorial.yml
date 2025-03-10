@@ -1,11 +1,6 @@
 id: d3bd9f9a-1859-4d81-8c55-0b720a8740c9
 builder: Plan ₿ Network
 
-tags:
-  - GitHub
-  - Book
-  - PlanB Network
-
 category: contribution
 
 level: beginner
@@ -95,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.88
+tags:
+  - guides
+  - easy-explain
+  - user-friendly

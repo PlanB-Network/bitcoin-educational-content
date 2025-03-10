@@ -1,11 +1,6 @@
 id: b7f6820b-e300-4e1f-9ecd-ff7cd8a06711
 author: Saifedean Ammous
 level: intermediate
-tags:
-  - adoption
-  - finance
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +81,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.27
+tags:
+  - finance
+  - historical
+  - market-trends

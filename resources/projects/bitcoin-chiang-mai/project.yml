@@ -9,12 +9,6 @@ language:
 links:
   website: https://www.bitcoinchiangmai.org/
 
-tags:
-  - adoption
-  - education
-  - lightning
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -88,3 +82,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2834
+tags:
+  - guides
+  - adoption
+  - good-practice

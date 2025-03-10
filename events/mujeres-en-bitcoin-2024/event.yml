@@ -11,15 +11,18 @@ type: meetup
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: Este evento, patrocinado por Paystand.org, está diseñado para conectar a mujeres interesadas en Bitcoin, su impacto en nuestra sociedad, así como crear comunidad.
+description: Este evento, patrocinado por Paystand.org, está diseñado para conectar
+  a mujeres interesadas en Bitcoin, su impacto en nuestra sociedad, así como crear
+  comunidad.
 language:
   - es
 links:
-  website: https://docs.google.com/forms/d/e/1FAIpQLSem2YAIDTXHBLTBzMd6tVnfy13h7Jr_ZTo3NbaLlP7qcDUx8g/viewform
+  website: 
+    https://docs.google.com/forms/d/e/1FAIpQLSem2YAIDTXHBLTBzMd6tVnfy13h7Jr_ZTo3NbaLlP7qcDUx8g/viewform
   replay_url:
   live_url:
-tags:
-  - decentralization
-  - adoption
-
 project_id: eb2caaf0-a74e-40da-918e-7ce56b09ac42
+tags:
+  - adoption
+  - user-friendly
+  - high-level

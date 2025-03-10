@@ -3,11 +3,6 @@ builder: RoboSats
 
 level: intermediate
 
-tags:
-  - open-source
-  - peer-to-peer
-  - bitcoin-only
-
 category: peer-to-peer
 
 credits:
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 4.76
+tags:
+  - guides
+  - privacy
+  - easy-explain

@@ -7,9 +7,6 @@ links:
   twitter: https://x.com/HRF
   youtube: https://www.youtube.com/@humanrightsfdn
 
-tags:
-  - personal-security
-
 original_language: en
 proofreading:
   - language: en
@@ -18,3 +15,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.06
+tags:
+  - self-sovereignty
+  - decentralization
+  - cypherpunk

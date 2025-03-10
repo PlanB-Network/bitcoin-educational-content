@@ -1,11 +1,6 @@
 id: 6b77b21c-e500-4404-8d22-8c9db0213a96
 author: Andrew M. Bailey, Bradley Rettler, Graig Warmke
 level: intermediate
-tags:
-  - finance
-  - self-sovereignty
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
@@ -92,3 +87,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.45
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.52
+tags:
+  - cypherpunk
+  - self-sovereignty
+  - adoption

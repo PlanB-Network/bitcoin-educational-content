@@ -4,10 +4,6 @@ links:
   website: https://amber.app/
   twitter: https://twitter.com/theamberapp
 
-tags:
-  - bitcoin-only
-  - exchange
-
 category: service
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.2
+tags:
+  - wallets
+  - investment
+  - user-friendly

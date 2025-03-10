@@ -1,171 +1,139 @@
 ---
-name: Elysium Wallet
-description: Setup and how to use an Elysium Wallet
+name: Ví Elysium
+description: Thiết lập và cách sử dụng Ví Elysium
 ---
-![cover-elysium](assets/cover.webp)
+![image](assets/cover.webp)
 
-Elysium Wallet is the first non-custodial software wallet from Swiss startup Elysium Labs.
+Elysium Wallet là ví phần mềm phi lưu ký đầu tiên của công ty khởi nghiệp Elysium Labs đến từ Thụy Sĩ.
 
-Thanks to the innovative key management system, you can access your digital assets using elements that are part of everyday life: your username, passkey, password or passcode.
+Nhờ hệ thống quản lý khóa sáng tạo, bạn có thể truy cập tài sản kỹ thuật số của mình bằng các yếu tố là một phần của cuộc sống hàng ngày: tên người dùng, mật khẩu, mật khẩu hoặc mã khóa. Đúng vậy: không còn bắt buộc phải sử dụng Cụm từ hạt giống để lấy lại quyền truy cập vào tài sản kỹ thuật số của bạn nữa. Sự đơn giản hóa này có thể đẩy nhanh sự lan truyền của Bitcoin trên toàn thế giới.
 
-That's right: it is no longer strictly necessary to use a Seed Phrase to regain access to your digital assets.
+## Làm thế nào để mở tài khoản?
 
-This simplification could accelerate the spread of Bitcoin around the world.
+Tải xuống Ứng dụng Elysium Wallet từ Apple Store hoặc Google Play, sau đó mở ứng dụng Elysium Wallet mà bạn đã tải xuống trên thiết bị của mình. Chạm vào "Tạo ví mới", tại thời điểm đó, màn hình điều khoản và điều kiện sử dụng sẽ xuất hiện. Để chấp nhận và tiến hành tạo tài khoản của bạn, hãy chạm vào "Bắt đầu thiết lập", sau đó nhập tên người dùng của bạn; xin lưu ý rằng ảnh hồ sơ có thể tùy chỉnh: chọn một trong các tùy chọn được cung cấp, bằng cách chụp ảnh hoặc tải ảnh lên từ thiết bị của bạn. Khi bạn đã chọn, hãy chạm vào "Tiếp tục".
 
-## How to Open an Account?
+![image](assets/en/02.webp)
 
-Download the Elysium Wallet App from the Apple Store or Google Play.
+Elysium nổi bật với thuật toán đa yếu tố sáng tạo, kết hợp Passkey, PassCode và PassWord. PassKey là bắt buộc. Chúng cho phép bạn xác thực nhanh chóng và an toàn bằng các tính năng bảo mật tích hợp của thiết bị, chẳng hạn như Face ID hoặc quét vân tay. Chúng là lớp bảo vệ chính của bạn, đảm bảo truy cập nhanh chóng và an toàn.
 
-Open the Elysium Wallet app that you downloaded on your device.
+![image](assets/en/03.webp)
 
-Tap on "Create a new wallet".
+Chọn cấp độ thứ hai của bạn: PassCode hoặc PassWord; tiếp theo, bạn sẽ cần chọn cấp độ bảo mật thứ hai:
 
-A screen with the terms and conditions of use will appear.
 
-To accept and proceed with the creation of your account, tap on "Begin Setup".
+- PassCode: Mã 6 chữ số dễ nhớ. Hoàn hảo để thêm một lớp bảo vệ.
+- Mật khẩu: Tạo mật khẩu mạnh có ít nhất 8 ký tự để tăng thêm tính bảo mật.
 
-Enter your username.
+Bạn phải sử dụng Passkey kết hợp với PassCode hoặc PassWord.
 
-The profile image is customizable: choose one from the options provided, by taking a photo or uploading an image from your device.
+![image](assets/en/04.webp)
 
-When you have chosen, tap "Continue".
+**Lưu ý:** Để thiết lập tài khoản, bạn cần ít nhất 2 yếu tố, một trong số đó phải là Mật mã.
 
-![Open](assets/open.webp)
+Để tăng cường bảo mật hơn nữa, bạn có thể thêm lớp bảo vệ thứ ba (Mật khẩu + Mật mã + Mật khẩu).
 
-Elysium stands out for its innovative multi-factor algorithm, which combines Passkey, PassCode and PassWord.
+Kết hợp nhiều lớp để đảm bảo an ninh tối đa
 
-PassKeys are mandatory.
+Bạn sẽ luôn sử dụng Passkey làm yếu tố chính. Đối với lớp thứ hai, hãy chọn PassCode hoặc PassWord.
 
-They allow you to authenticate quickly and securely using your device's built-in security features, such as Face ID or fingerprint scanning.
+Nếu bạn đã chọn PassCode làm yếu tố thứ hai, bạn có thể thêm PassWord làm lớp thứ ba hoặc ngược lại. Cách tiếp cận linh hoạt này đảm bảo rằng tài sản của bạn được bảo vệ theo sở thích của bạn.
 
-They are your main layer of protection, ensuring fast and secure access.
+Bạn có thể thêm yếu tố bảo mật thứ ba trong giai đoạn thiết lập (xem hình ảnh) hoặc sau đó bằng cách vào Cài đặt > Cải thiện bảo mật.
 
-![Passkey](assets/passkey.webp)
+![image](assets/en/05.webp)
 
-Choose your second level: PassCode or PassWord
+Tuy nhiên, nếu bạn quên một trong những yếu tố này, xin lưu ý rằng:
 
-Next, you will need to choose a second level of security:
+Nếu bạn đã thiết lập cả ba yếu tố, bạn luôn có thể thay đổi hoặc thiết lập lại chúng từ phần cài đặt.
 
-- PassCode: 6-digit code that is easy to remember. Perfect for adding an extra layer of protection.
-- Password: Create a strong password of at least 8 characters, adding even more security.
-You must use Passkeys in conjunction with a PassCode or PassWord.
+Thật không may, nếu bạn chỉ thiết lập hai yếu tố và quên một yếu tố thì sẽ không có tùy chọn khôi phục nào cả.
 
-![secondfactor](assets/secondfactor.webp)
+Chúng tôi đặc biệt khuyên bạn nên thiết lập cả ba yếu tố ngay từ đầu để có được tính bảo mật và linh hoạt tối đa.
 
-Note: To set up your account, you need at least 2 factors, one of which must be the Passkey.
+## Làm thế nào để nhận giao dịch?
 
-To further increase security, you can add a third layer of protection (Passkey + PassCode + PassWord).
+Mở ứng dụng Elysium và vào menu chính, sau đó chạm vào 'Nhận'.
 
-Combination of layers for maximum security
+![image](assets/en/06.webp)
 
-You will always use Passkey as the primary factor. For the second layer, choose PassCode or PassWord.
+Bây giờ, hãy chọn chuỗi mà bạn muốn nhận thanh toán (Bitcoin hoặc Polygon) và bạn chỉ cần chia sẻ mã QR của ví Elysium với người cần thanh toán cho bạn, họ sẽ lo phần còn lại.
 
-If you have chosen PassCode as the second factor, you can add PassWord as the third layer or vice versa. This flexible approach ensures that your assets are protected according to your preferences.
+## Làm thế nào để nhận giao dịch trong Lightning Network?
 
-You can add the third security factor during the setup phase (see images) or later by going to Settings > Improve security.
+**Bước 1:** Bằng cách chạm vào “Yêu cầu thanh toán”, bạn yêu cầu thanh toán bằng Bitcoin thông qua Lightning Network.
 
-![thirdfactor](assets/thirdfactor.webp)
+![image](assets/en/07.webp)
 
-However, if you forget one of the factors, please note that:
+**Bước 2:** Nhập số tiền bạn muốn yêu cầu, chọn loại tiền bạn muốn nhận và thêm mô tả nếu cần.
 
-If you have set up all three factors, you can always change or reset them from the settings.
+![image](assets/en/08.webp)
 
-Unfortunately, if you have only set up two factors and forget one, there is no recovery option.
+**Lưu ý:** Có một khoản phí nhỏ cho lần thanh toán đầu tiên trên Lightning Network (LN) để mở kênh LN. Sau đó, tất cả các lần thanh toán tiếp theo đều miễn phí.
 
-We strongly recommend setting up all three factors from the beginning for maximum security and flexibility.
+## Làm thế nào để gửi giao dịch?
 
-## How to receive a transaction?
+**Bước 1:** Vào menu chính và nhấn "Gửi".
 
-Step 1: Open the Elysium app and go to the main menu. Tap 'Receive'.
+![image](assets/en/09.webp)
 
-![receive1](assets/receive1.webp)
+**Bước 2:** Quét mã QR của người nhận từ Ví Elysium của họ để tự động lưu danh bạ của họ vào sổ địa chỉ của bạn. Hoặc, sao chép thủ công địa chỉ của họ và dán vào trường người nhận. Sau khi chọn người nhận hoặc thêm họ vào sổ địa chỉ của bạn, hãy nhấn "Gửi thanh toán".
 
-Now, select the chain you want to receive payment on (Bitcoin or Polygon) and you can simply share the QR code of your Elysium wallet with the person who needs to pay you, they will take care of the rest.
+![image](assets/en/10.webp)
 
-## How to Receive a Transaction in Lightning Network?
+Bạn đã có số liên lạc? Chọn trực tiếp từ sổ địa chỉ.
 
-STEP 1: By tapping “Request Payment” you request a Bitcoin payment via Lightning Network.
+![image](assets/en/11.webp)
 
-![requestpayment1](assets/requestpayment1.webp)
+**Bước 3:** Nhập số tiền bạn muốn gửi và chọn tài sản bạn muốn chuyển.
 
-Step 2: Enter the amount you want to request, select the currency you want to receive, and add a description if necessary.
+Đối với giao dịch BTC, bạn có thể chọn tốc độ mạng và phí ưa thích của mình (như hiển thị trong hình ảnh thứ ba)
 
-![requestpayment2](assets/requestpayment2.webp)
+![image](assets/en/12.webp)
 
-Note: There is a small fee for the first Lightning Network (LN) payment to open the LN channel. After that, all subsequent payments are free.
+Giao dịch của bạn đã được gửi! Bạn có thể dễ dàng kiểm tra số dư cập nhật và trạng thái giao dịch của Ví Elysium.
 
-## How to send a transaction?
+## Làm thế nào để gửi giao dịch trong Lightning Network?
 
-STEP 1: Go to the main menu and tap "Send".
+![image](assets/en/13.webp)
 
-![send1](assets/send1.webp)
+**Bước 1:** Nhấn "Quét" để mở máy quét.
 
-STEP 2: Scan the recipient's QR code from their Elysium Wallet to automatically save their contact to your address book.
+**Bước 2:** Quét mã QR LN để thanh toán.
 
-Alternatively, manually copy their address and paste it into the recipient field.
+**Bước 3:** Xem lại thông tin thanh toán và xác nhận mọi thông tin là chính xác.
 
-After selecting the recipient or adding them to your address book, tap "Send Payment".
+**Bước 4:** Nhấn "Xác nhận" để hoàn tất giao dịch.
 
-![payment1](assets/payment1.webp)
+## Làm thế nào để xem Cụm từ hạt giống?
 
-Already have the contact? Choose it directly from the address book.
+Vào menu chính và chạm vào "Hub". Chọn Cài đặt và chạm vào "Trích xuất khóa riêng".
 
-![addressbook1](assets/addressbook1.webp)
+![image](assets/en/14.webp)
 
-STEP 3: Enter the amount you want to send and select the asset you want to transfer.
+Đăng nhập bằng mật khẩu của bạn và nhập mật khẩu và/hoặc mật mã. Cụm từ hạt giống sẽ được hiển thị ở định dạng 24 từ.
 
-For BTC transactions, you can select your preferred network speed and fees (as shown in the third image)
+![image](assets/en/15.webp)
 
-![payment2](assets/payment2.webp)
+Đừng chia sẻ nó với bất kỳ ai!
 
-Your transaction has been submitted! You can easily check your Elysium Wallet's updated balance and transaction status.
+## Làm thế nào để liên hệ với bộ phận hỗ trợ?
 
-## How to send a transaction in Lightning Network (LN)?
+Bạn cần trợ giúp về Elysium Wallet? Chúng tôi ở đây để giúp bạn!
 
-STEP 1: Tap "Scan" to open the scanner.
+Tải xuống ứng dụng và sau đây là cách bạn có thể liên hệ trực tiếp với nhóm hỗ trợ khách hàng của chúng tôi từ ứng dụng:
 
-STEP 2: Scan the LN QR code for payment.
+1. Đi đến Hub
 
-STEP3: Review the payment details and confirm everything is correct.
+2. Nhấn vào Cài đặt
 
-STEP4: Tap "Confirm" to complete the transaction.
+3. Chọn Trợ giúp
 
-![paymentLN1](assets/paymentLN1.webp)
+![image](assets/en/16.webp)
 
-## How to see the Seed Phrase?
+Một biểu mẫu sẽ xuất hiện để bạn mô tả sự cố bạn đang gặp phải.
 
-Go to the main menu and tap "Hub". Select Settings and tap "Extract private key".
+Sau khi gửi, nhóm của chúng tôi sẽ phản hồi sớm nhất có thể kèm theo giải pháp!
 
-![extract1](assets/extract1.webp)
+Để báo cáo lỗi hoặc cung cấp phản hồi cho chúng tôi, hãy nhấp vào tiện ích trên trang chủ:
 
-Log in with your passkey and enter your password and/or passcode.
-
-The seed phrase will be displayed in 24-word format.
-
-![seed1](assets/seed1.webp)
-
-Don't share it with anyone!
-
-## How to contact support?
-
-Need help with Elysium Wallet? We're here to help!
-
-Download the App.
-
-Here's how you can contact our customer support team directly from the app:
-
-1. Go to Hub
-
-2. Tap Settings
-
-3. Select Help
-
-![help1](assets/help1.webp)
-
-A form will appear where you can describe the issue you are experiencing.
-
-Once submitted, our team will respond as soon as possible with a solution!
-
-To report a bug or provide us with feedback, click on the widget on the home page:
-
-![help2](assets/help2.webp)
+![image](assets/en/17.webp)

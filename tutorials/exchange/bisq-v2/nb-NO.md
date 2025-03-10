@@ -9,6 +9,7 @@ description: Komplett guide til bruk av Bisq 2 og veksling av bitcoins P2P
 KYC-frie peer-to-peer-børser (P2P) er avgjørende for å bevare brukernes konfidensialitet og økonomiske uavhengighet. De muliggjør direkte transaksjoner mellom enkeltpersoner uten behov for identitetsbekreftelse, noe som er avgjørende for de som verdsetter personvern. For en mer inngående forståelse av de teoretiske konseptene, ta en titt på BTC204-kurset:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ### Hva er Bisq 2?
 
 Bisq 2 er den nye versjonen av den populære desentraliserte Bisq-børsen, som ble lansert i 2024. I motsetning til forgjengeren er Bisq 2 utviklet for å støtte flere utvekslingsprotokoller, noe som gir brukerne større fleksibilitet.
@@ -86,6 +87,7 @@ Denne veiledningen fokuserer utelukkende på "Bisq Easy", den eneste protokollen
 - Bekreft ektheten til den nedlastede filen (anbefales på det sterkeste). Du finner en detaljert veiledning om signaturverifisering i følgende veiledning:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### 2. Installasjon i henhold til ditt system
 
 Følg installeringstrinnene som gjelder for ditt operativsystem. Hvis du støter på problemer under installasjonen, kan du se den detaljerte veiledningen på [official Bisq wiki] (https://bisq.wiki/Downloading_and_installing).

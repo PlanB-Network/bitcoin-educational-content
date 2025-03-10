@@ -4,11 +4,6 @@ links:
   website: https://coinkite.com/
   twitter: https://twitter.com/Coinkite
 
-tags:
-  - bitcoin-only
-  - infrastructure
-  - security-solution
-
 category: wallet
 
 # Proofreading metadata
@@ -91,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - hardware
+  - wallets
+  - DIY

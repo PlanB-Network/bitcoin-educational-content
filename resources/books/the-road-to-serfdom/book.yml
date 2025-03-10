@@ -1,12 +1,6 @@
 id: ae73bd2f-714f-442d-ad0c-dccb6c8f3306
 author: Friedrich Hayek
 level: intermediate
-tags:
-  - economy
-  - politics
-  - philosophy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.38
+tags:
+  - finance
+  - market-trends
+  - cypherpunk

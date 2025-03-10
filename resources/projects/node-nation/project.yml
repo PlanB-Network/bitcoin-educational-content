@@ -3,11 +3,6 @@ name: Node Nation
 links:
   twitter: https://x.com/NodeNationSV_
 
-tags:
-  - bitcoin-only
-  - education
-  - technical
-
 category: education
 
 # Proofreading metadata
@@ -103,3 +98,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.36
+tags:
+  - node
+  - guides
+  - user-friendly

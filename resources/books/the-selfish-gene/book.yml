@@ -1,12 +1,6 @@
 id: 507aa8bd-2cc1-4839-a14e-1d3a80a36d24
 author: Richard Dawkins
 level: intermediate
-tags:
-  - biology
-  - evolution
-  - genetics
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.44
+tags:
+  - deep-dive
+  - technical-analysis
+  - adoption

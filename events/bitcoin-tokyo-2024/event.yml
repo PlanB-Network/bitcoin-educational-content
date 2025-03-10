@@ -1,9 +1,9 @@
 id: d562bb51-10ad-43c3-944c-e50f2ec5ebde
-start_date: 2024-09-22 
+start_date: 2024-09-22
 end_date: 2024-09-23
 address_line_1: Tokyo, Japan
-address_line_2: 
-address_line_3: 
+address_line_2:
+address_line_3:
 name: Bitcoin Tokyo
 builder: Fulgur Ventures
 type: conference
@@ -11,16 +11,15 @@ book_online: false
 book_in_person: false
 price_dollars: 0
 description: The first international Bitcoin-native conference in Tokyo, Japan.
-language: 
+language:
   - en
   - ja
 links:
   website: https://bitcoinconference.tokyo/
   replay_url:
-  live_url :
-tags: 
-  - bitcoiner
-  - general
-
-
+  live_url:
 project_id: b731a421-7e83-44e9-8f2b-f4a51f7a08e2
+tags:
+  - adoption
+  - business
+  - market-trends

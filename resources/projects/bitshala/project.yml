@@ -11,11 +11,6 @@ links:
   twitter: https://twitter.com/bitshala_org
   nostr: npub1m495fdq2e8jleptdq6ruzpmz0esjttln2rjx7dxj9w4zvxs48y3q5pu22l
 
-tags:
-  - education
-  - development
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -95,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.29
+tags:
+  - software
+  - guides
+  - user-friendly

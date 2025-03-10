@@ -1,11 +1,6 @@
 id: 3eb5091a-1c11-4490-baef-d3145beeb225
 author: Charles Petzold
 level: advanced
-tags:
-  - technology
-  - programming;
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.68
+tags:
+  - technical-analysis
+  - deep-dive
+  - easy-explain

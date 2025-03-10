@@ -6,17 +6,11 @@ address_line_2: 2a Calle Poniente, Bitcoin Community Center
 address_line_3:
 language:
   - en
-  - - es
+  -   - es
 links:
   twitter: https://twitter.com/BitcoinBerlinSV
   youtube: https://www.youtube.com/@BitcoinBerlinSV
 
-tags:
-  - bitcoin-only
-  - communities
-  - education
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -96,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.2
+tags:
+  - legacy
+  - historical
+  - case-studies

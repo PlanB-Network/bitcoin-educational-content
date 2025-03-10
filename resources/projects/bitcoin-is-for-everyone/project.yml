@@ -6,11 +6,6 @@ links:
   website: https://bitcoinisforeveryone.com
   twitter: https://twitter.com/BITCOINisforALL
 
-tags:
-  - adoption
-  - privacy
-  - user-friendly
-
 original_language: en
 proofreading:
   - language: en
@@ -19,3 +14,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.07
+tags:
+  - user-friendly
+  - adoption
+  - self-sovereignty

@@ -1,12 +1,6 @@
 id: a4db407b-89fc-459f-8dfa-7a47c0e5360a
 author: R.H. Coase
 level: intermediate
-tags:
-  - econimic
-  - law
-  - business
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.51
+tags:
+  - market-trends
+  - finance
+  - technical-analysis

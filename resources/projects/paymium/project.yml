@@ -4,9 +4,6 @@ links:
   website: https://www.paymium.com/
   twitter: https://twitter.com/paymium
 
-tags:
-  - exchange
-
 category: exchange
 
 # Proofreading metadata
@@ -89,3 +86,6 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.19
+tags:
+  - business
+  - investment

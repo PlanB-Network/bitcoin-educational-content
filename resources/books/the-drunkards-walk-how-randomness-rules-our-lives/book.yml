@@ -1,10 +1,6 @@
 id: 165b373a-bb6e-4bea-b17b-38c990f9fa6a
 author: Leonard Mlodinow
 level: beginner
-tags:
-  - economic
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -84,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.29
+tags:
+  - case-studies
+  - user-friendly
+  - market-trends

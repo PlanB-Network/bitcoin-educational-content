@@ -2,10 +2,6 @@ id: 0ccf713e-efcd-44ec-8205-211f49ac7d53
 
 builder: Bull Bitcoin
 
-tags:
-  - investment
-  - guides
-
 category: centralized
 
 level: beginner
@@ -108,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.88
+tags:
+  - wallets
+  - investment
+  - business

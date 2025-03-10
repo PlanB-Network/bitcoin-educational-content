@@ -6,9 +6,6 @@ links:
   website: https://bitcoinrodeo.com/
   twitter: https://x.com/TheBitcoinRodeo
 
-tags:
-  - proof-of-work
-
 original_language: en
 proofreading:
   - language: en
@@ -17,3 +14,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.05
+tags:
+  - historical
+  - market-trends
+  - case-studies

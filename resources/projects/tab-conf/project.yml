@@ -6,11 +6,6 @@ links:
   website: https://6.tabconf.com/
   twitter: https://x.com/tabconf
 
-tags:
-  - development
-  - complex-DIY
-  - software
-
 original_language: en
 proofreading:
   - language: en
@@ -103,3 +98,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - guides
+  - development
+  - user-friendly

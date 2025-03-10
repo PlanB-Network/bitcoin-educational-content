@@ -7,12 +7,11 @@ links:
   website: https://institutbitcoin.fr/
   twitter: https://twitter.com/Theo_Mog
 
-tags:
-  - economy
-  - finance
-
 tips:
   lightning_address: theomogenet@getalby.com
 
 affiliations:
   - DécouvreBitcoin
+tags:
+  - historical
+  - finance

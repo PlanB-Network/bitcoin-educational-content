@@ -15,10 +15,8 @@ description: |
   early days of Bitcoin as a tool for merchants, their issues, and the perils of
   trusted third parties, as well as Dorier's pivotal role in contributing to the
   current adoption of Bitcoin payments among businesses.
-tags:
-  - development
-  - cypherpunk
-  - business
-  - software
 contributors:
   - jramos0
+tags:
+  - historical
+  - adoption

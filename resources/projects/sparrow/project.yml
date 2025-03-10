@@ -5,11 +5,6 @@ links:
   twitter: https://twitter.com/SparrowWallet
   github: https://github.com/sparrowwallet/sparrow
 
-tags:
-  - wallet
-  - open-source
-  - bitcoin-only
-
 category: wallet
 
 # Proofreading metadata
@@ -93,3 +88,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.15
+tags:
+  - wallets
+  - software
+  - user-friendly

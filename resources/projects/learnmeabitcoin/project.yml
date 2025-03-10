@@ -8,10 +8,6 @@ links:
 
 category: education
 
-tags:
-  - education
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -91,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.27
+tags:
+  - user-friendly
+  - guides
+  - easy-explain

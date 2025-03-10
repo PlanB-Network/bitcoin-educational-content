@@ -1,11 +1,6 @@
 id: 37e900e2-e342-40a0-8cb0-33f874fa7ce4
 builder: Plan ₿ Network
 
-tags:
-  - GitHub
-  - PlanB Network
-  - Typos
-
 category: contribution
 
 level: beginner
@@ -95,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.15
+tags:
+  - guides
+  - user-friendly
+  - good-practice

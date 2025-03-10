@@ -1,12 +1,6 @@
 id: 5ebf901f-f631-4d49-b022-5268e48beea2
 author: Brian McCullough
 level: beginner
-tags:
-  - history
-  - technology
-  - internet
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - historical
+  - high-level
+  - development

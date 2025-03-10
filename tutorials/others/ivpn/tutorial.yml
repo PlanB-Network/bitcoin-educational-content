@@ -1,11 +1,6 @@
 id: 5a0cd5df-29f1-4382-a817-975a96646e68
 builder: IVPN
 
-tags:
-  - VPN
-  - security
-  - privacy
-
 category: general
 
 level: beginner
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.28
+tags:
+  - guides
+  - user-friendly
+  - privacy

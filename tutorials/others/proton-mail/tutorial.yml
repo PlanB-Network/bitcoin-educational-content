@@ -1,10 +1,6 @@
 id: c3b010ce-254d-4546-b382-19ab9261c6a2
 builder: Proton
 
-tags:
-  - email
-  - privacy
-
 category: general
 
 level: beginner
@@ -95,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.39
+tags:
+  - personal-security
+  - privacy
+  - guides

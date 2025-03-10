@@ -4,10 +4,6 @@ links:
   twitter: https://twitter.com/Le_paradigme_ch
   website: https://leparadigmebitcoin.ch/
 
-tags:
-  - education
-  - development
-
 category: conference
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - historical
+  - good-practice
+  - user-friendly

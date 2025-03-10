@@ -1,12 +1,6 @@
 id: 9504a369-da35-43d8-91c6-900fdb2b2778
 author: Sjors Provoost
 level: advanced
-tags:
-  - protocols
-  - decentralization
-  - network-security
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
@@ -93,3 +87,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.02
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.21
+tags:
+  - development
+  - technical-analysis
+  - node

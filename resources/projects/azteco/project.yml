@@ -4,11 +4,6 @@ links:
   website: https://azte.co/
   twitter: https://twitter.com/azteco_
 
-tags:
-  - exchange
-  - peer to peer
-  - privacy
-
 category: exchange
 # Proofreading metadata
 original_language: en
@@ -90,3 +85,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - business
+  - adoption
+  - user-friendly

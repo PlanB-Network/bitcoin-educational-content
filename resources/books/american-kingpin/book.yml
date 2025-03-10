@@ -1,12 +1,6 @@
 id: f7c58299-7be7-4cb8-9740-de40cfb54b73
 author: Nick Bileton
 level: intermediate
-tags:
-  - crime
-  - bitcoin
-  - technology
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.36
+tags:
+  - historical
+  - risks
+  - privacy

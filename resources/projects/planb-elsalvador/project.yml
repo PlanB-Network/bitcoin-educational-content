@@ -5,12 +5,8 @@ category: conference
 links:
   website: https://planb.sv/
   twitter: https://x.com/PlanBElsalvador
-  youtube: https://youtube.com/playlist?list=PLNETuT4LKydIXpVYuVxJYsjtcDKJeilIe&si=iqqcOUA6t2uJisLC
-
-tags:
-  - adoption
-  - finance
-  - risks
+  youtube: 
+    https://youtube.com/playlist?list=PLNETuT4LKydIXpVYuVxJYsjtcDKJeilIe&si=iqqcOUA6t2uJisLC
 
 original_language: en
 proofreading:
@@ -20,3 +16,6 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.06
+tags:
+  - adoption
+  - regulation

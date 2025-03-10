@@ -6,11 +6,6 @@ links:
   github: https://github.com/BitcoinQnA
   Nostr: npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx
 
-tags:
-  - bitcoin-only
-  - open-source
-  - education
-
 category: education
 
 # Proofreading metadata
@@ -93,3 +88,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.18
+tags:
+  - guides
+  - self-sovereignty
+  - user-friendly

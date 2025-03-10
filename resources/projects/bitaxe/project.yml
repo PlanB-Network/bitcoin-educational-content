@@ -5,10 +5,6 @@ links:
   website: https://bitaxe.org/
   twitter: https://x.com/skot9000
 
-tags:
-  - mining
-  - hardware
-
 category: mining
 
 # Proofreading metadata
@@ -104,3 +100,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.23
+tags:
+  - mining
+  - hardware
+  - DIY

@@ -7,12 +7,6 @@ language:
   - en
 links:
   website: https://baltichoneybadger.com/
-tags:
-  - Bitcoiner
-  - General
-  - lightning network
-
-# Proofreading metadata
 project_id: 120557b9-b1e6-4969-aff4-5bf46fff9869
 original_language: en
 proofreading:
@@ -22,3 +16,7 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - cypherpunk
+  - self-sovereignty
+  - adoption

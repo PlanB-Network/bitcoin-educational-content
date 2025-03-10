@@ -1,12 +1,6 @@
 id: f9a0b422-1853-4ea1-80c4-1c076f714907
 author: Andy Greenberg
 level: intermediate
-tags:
-  - security
-  - journalism
-  - technology
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.39
+tags:
+  - privacy
+  - cypherpunk
+  - network-security

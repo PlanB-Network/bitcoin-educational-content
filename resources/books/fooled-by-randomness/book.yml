@@ -1,12 +1,6 @@
 id: 23898b84-c555-4123-b01f-288622900fc2
 author: Nassim Nicholas Taleb
 level: intermediate
-tags:
-  - finance
-  - psychology
-  - philosophy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.37
+tags:
+  - finance
+  - technical-analysis
+  - risks

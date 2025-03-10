@@ -4,9 +4,6 @@ links:
   website: https://t.co/bRiE0LsWZC
   twitter: https://twitter.com/ambosstech
   Nostr: npub19tcpurtt6xulhw0r6sc404j9jraj0h8me2lzs7z2tqewz7l0hpas59nlea
-tags:
-  - bitcoin-only
-  - lightning-managment
 category: service
 
 # Proofreading metadata
@@ -89,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.18
+tags:
+  - software
+  - lightning
+  - use-case

@@ -1,0 +1,9 @@
+question: Perché è essenziale proteggere la propria casella di posta elettronica?
+answer: Perché consente di reimpostare le password
+wrong_answers:
+- Perché serve a ricevere newsletter
+- Perché contiene l'intera tua lista di password
+- Perché contiene i tuoi dati bancari
+explanation: La casella di posta è il punto di accesso centrale per recuperare le
+  password e compromettere diversi account in caso di vulnerabilità.
+reviewed: false

@@ -6,11 +6,6 @@ links:
   website: https://www.lightspark.com/
   twitter: https://x.com/lightspark
 
-tags:
-  - software
-  - business
-  - development
-
 original_language: en
 proofreading:
   - language: en
@@ -19,3 +14,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+tags:
+  - business
+  - lightning
+  - software

@@ -7,8 +7,9 @@ links:
 description: |
   Notre but est de permettre à chacun de comprendre Bitcoin, au travers de formations, interviews et tutoriels 100% gratuits.
   Nous explorons ici les aspects techniques, financiers et philosophiques de Bitcoin.
-tags:
-  - guides
-  - user-friendly
 contributors:
   - another-satoshi
+tags:
+  - guides
+  - finance
+  - user-friendly

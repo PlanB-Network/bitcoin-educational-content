@@ -1,12 +1,6 @@
 id: ed4faa69-caaa-43cb-8b3c-0c2de8b055cc
 author: David Graeber
 level: intermediate
-tags:
-  - economy
-  - anthropology
-  - history
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.34
+tags:
+  - historical
+  - finance
+  - deep-dive

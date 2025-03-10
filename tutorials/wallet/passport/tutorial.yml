@@ -2,10 +2,6 @@ id: 74e53858-3fa2-43f9-b866-573297546236
 
 project_id: 42c3b7db-f6b4-4ad2-a755-e82d6fdc3e6b
 
-tags:
-  - wallets
-  - hardware
-
 category: hardware
 
 level: intermediate
@@ -23,3 +19,90 @@ proofreading:
     contributors_id:
       - LoicPandul
     reward: 0
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8.02
+
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.06
+
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.06
+
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6.04
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8.02
+
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8.02
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9.99
+
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6.04
+
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 11.97
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8.02
+
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.06
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8.02
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 11.97
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 9.99
+tags:
+  - hardware
+  - wallets
+  - guides

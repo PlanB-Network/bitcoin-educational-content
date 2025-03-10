@@ -37,6 +37,7 @@ Jade Plus ist mit den meisten Portfolioverwaltungsprogrammen kompatibel. Hier is
 In diesem Tutorial werden wir den Jade Plus mit der mobilen App Green Wallet von Blockstream über eine Bluetooth-Verbindung einrichten und verwenden. Diese Einrichtung ist ideal für Anfänger. Wenn Sie einen fortgeschritteneren Ansatz suchen, empfehle ich Ihnen einen Blick auf dieses Tutorial, in dem wir den Jade Plus mit Sparrow Wallet im QR-Code-Modus verwenden:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 ## Das Sicherheitsmodell Jade Plus
 
 Der Jade Plus verwendet ein Sicherheitsmodell, das auf einem "virtuellen Sicherheitselement" basiert, das durch ein "blindes Orakel" realisiert wird. Konkret kombiniert dieser Mechanismus die vom Benutzer gewählte PIN, ein auf dem Jade-Gerät gehostetes Geheimnis und ein vom Orakel (einem von Blockstream unterhaltenen Server) gehaltenes Geheimnis, um einen auf zwei Entitäten verteilten AES-256-Schlüssel zu erstellen. Während der Initiierung sichert ein ECDH-Austausch die Kommunikation mit dem Orakel und verschlüsselt die Recovery-Phrase auf der Hardware-Wallet. Wenn Sie auf den Seed zugreifen möchten, um Transaktionen zu signieren, benötigen Sie Zugang zu :
@@ -109,6 +110,7 @@ Sie können die Gravur auf dem mitgelieferten Karton anbringen. Für zusätzlich
 Für weitere Informationen über die richtige Art und Weise, wie Sie Ihre mnemotechnische Phrase speichern und verwalten können, empfehle ich Ihnen, diese andere Anleitung zu lesen, insbesondere wenn Sie Anfänger sind:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ***Natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Musterportfolio wird nur im Testnet verwendet und am Ende des Tutoriums gelöscht
 
 Klicken Sie auf den Pfeil auf der rechten Seite des Bildschirms, um die folgenden Wörter anzuzeigen.
@@ -124,9 +126,11 @@ Sobald Sie Ihren Satz gespeichert haben, fordert Jade Plus Sie auf, ihn zu best�
 In diesem Tutorial werden wir die Anwendung Green Wallet verwenden, um die auf dem Jade Plus gehostete Geldbörse zu verwalten. Diese Methode ist besonders für Anfänger geeignet. Wenn Sie Ihre Bitcoin-Wallet detaillierter verwalten möchten, können Sie auch Sparrow Wallet verwenden, das wir in einem separaten Tutorial behandeln werden:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 Eine Anleitung zur Installation und Einrichtung der Blockstream Green Anwendung finden Sie im ersten Teil dieses anderen Tutorials:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 Klicken Sie in der Anwendung Blockstream Green auf die Schaltfläche "*Ein neues Portfolio konfigurieren*".
 
 ![JADE-PLUS-GREEN](assets/fr/13.webp)
@@ -204,6 +208,7 @@ Wählen Sie "*Standard*", wenn Sie ein klassisches Single-Sig-Portfolio erstelle
 Weitere Informationen zur Option "*2FA*" finden Sie in diesem anderen Tutorial:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+
 Ihr Konto wurde erstellt.
 
 ![JADE-PLUS-GREEN](assets/fr/30.webp)
@@ -229,6 +234,7 @@ Ihr Jade wird über das "virtuelle sichere Element" von Blockstream entsperrt (s
 Bevor Sie Ihre ersten Bitcoins in Ihrem Wallet erhalten, **empfehle ich Ihnen dringend, einen leeren Recovery-Test** durchzuführen. Notieren Sie sich einige Referenzinformationen, wie z. B. Ihre xpub- oder erste Empfangsadresse, und löschen Sie dann Ihre Geldbörse in der Green-App und auf dem Jade Plus, solange sie noch leer ist (Optionen -> Gerät -> Werksreset). Versuchen Sie dann, Ihre Brieftasche mit Hilfe Ihrer Papier-Backups der mnemonischen Phrase wiederherzustellen. Überprüfen Sie, ob die nach der Wiederherstellung generierten Cookie-Informationen mit denen übereinstimmen, die Sie ursprünglich aufgeschrieben haben. Wenn dies der Fall ist, können Sie sicher sein, dass Ihre Sicherungskopien zuverlässig sind. Wenn Sie mehr darüber erfahren möchten, wie Sie eine Testwiederherstellung durchführen können, lesen Sie bitte diesen anderen Leitfaden:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Bitcoins erhalten
 
 Nun, da Ihre Bitcoin-Brieftasche eingerichtet ist, können Sie Ihre ersten Sats empfangen! Klicken Sie einfach auf die Schaltfläche "*Empfangen*" in der grünen Anwendung.

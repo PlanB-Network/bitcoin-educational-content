@@ -1275,6 +1275,7 @@ Một cụm từ gồm 12 từ, cũng cung cấp 128 bit bảo mật, vì vậy 
 Để tìm hiểu thêm và biết cách tạo một cụm từ ghi nhớ thử nghiệm một cách thủ công, tôi khuyên bạn nên khám phá hướng dẫn này:
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 Trước khi tiếp tục với việc phát sinh ví từ cụm từ ghi nhớ này, tôi sẽ giới thiệu cho bạn, trong chương tiếp theo, về cụm từ BIP39, vì nó đóng vai trò trong quá trình phát sinh, và nó ở cùng một cấp độ với cụm từ ghi nhớ.
 ## Cụm từ bí mật
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

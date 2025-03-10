@@ -5,11 +5,6 @@ category: merchant
 links:
   website: https://www.pnp.co.za/
 
-tags:
-  - business
-  - adoption
-  - user-friendly
-
 original_language: en
 proofreading:
   - language: en
@@ -18,3 +13,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+tags:
+  - adoption
+  - use-case
+  - business

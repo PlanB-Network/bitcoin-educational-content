@@ -12,12 +12,6 @@ links:
   youtube: https://www.youtube.com/channel/UCOT9XfrKaiKunSGYSQNmRrg
   github: https://github.com/bitcoinbeach/
 
-tags:
-  - finance
-  - education
-  - technology
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
@@ -110,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.21
+tags:
+  - adoption
+  - use-case
+  - business

@@ -14,7 +14,7 @@ Tout au long de l'histoire de Bitcoin, de nombreux clients dérivés du logiciel
 
 Cependant, il existe aussi des logiciels alternatifs. Il ne s'agit pas de nœuds liés à des altcoins comme Bitcoin Cash, mais bien de clients alternatifs compatibles avec le vrai réseau Bitcoin. Parmi eux, Bitcoin Knots est le plus connu. Il représente actuellement environ 1,4 % du réseau. Les autres clients alternatifs demeurent très minoritaires.
 
-01
+![Image](assets/fr/01.webp)
 
 Deux principales raisons peuvent vous pousser à utiliser un client alternatif comme Knots au lieu de Core :
 
@@ -26,7 +26,7 @@ Deux principales raisons peuvent vous pousser à utiliser un client alternatif c
 
 Rendez-vous [sur le site officiel de Bitcoin Knots](https://bitcoinknots.org/#download) pour télécharger la version correspondant à votre système d'exploitation. N'oubliez pas de récupérer également l'empreinte et les signatures pour vérifier le logiciel. Ces fichiers sont aussi disponibles [sur le dépôt GitHub de Bitcoin Knots](https://github.com/bitcoinknots/bitcoin).
 
-02
+![Image](assets/fr/02.webp)
 
 Avant d'installer le logiciel sur votre machine, il est fortement recommandé d'en vérifier l'authenticité et l'intégrité. Si vous ne savez pas comment le faire, consultez cet autre tutoriel :
 
@@ -34,83 +34,83 @@ https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-b
 
 Une fois le logiciel vérifié, installez-le en suivant les étapes indiquées dans le panneau d'installation.
 
-03
+![Image](assets/fr/03.webp)
 
 ## Lancer l'IBD
 
 Lors du premier lancement de Bitcoin Knots, vous pourrez choisir le répertoire local où seront stockées les données de votre nœud (notamment la blockchain, l'UTXO set et les paramètres).
 
-04
+![Image](assets/fr/04.webp)
 
 Vous pouvez également choisir d'élaguer les données de la blockchain pour ne conserver que les blocs les plus récents. Cette option permet à votre nœud de vérifier intégralement chaque bloc tout en respectant une limite de stockage fixée, ce qui supprime donc progressivement les blocs les plus anciens. Si vous disposez de suffisamment d'espace disque (environ 650 Go actuellement, mais ce nombre ne cesse d'augmenter), laissez cette option décochée. Si votre espace disque est limité, activez l'élagage et indiquez la capacité maximale autorisée.
 
 Attention : Si votre nœud est élagué et que vous l'utilisez pour synchroniser un portefeuille récupéré, vous ne pourrez pas retrouver les transactions antérieures au bloc le plus ancien conservé localement.
 
-05
+![Image](assets/fr/05.webp)
 
-Une autre option disponible est "Assume Valid". Elle permet d'accélérer la synchronisation initiale en sautant la vérification des signatures des transactions incluses dans les blocs antérieurs à un bloc précis.
+Une autre option disponible est "*Assume Valid*". Elle permet d'accélérer la synchronisation initiale en sautant la vérification des signatures des transactions incluses dans les blocs antérieurs à un bloc précis.
 
-L'objectif d'"Assume Valid" est d'accélérer la première synchronisation du nœud sans réduire significativement la sécurité, en présumant que ces transactions ont déjà été validées massivement par le réseau auparavant. Le seul compromis important est que votre nœud ne détectera pas d'éventuels vols antérieurs de bitcoins, mais il permettra tout de même de garantir l'exactitude du nombre total de bitcoins émis. Votre nœud vérifiera toutes les signatures des transactions situées après le bloc indiqué. Cette approche repose sur l'hypothèse qu'une transaction acceptée depuis longtemps par le réseau sans contestation est très probablement valide.
+L'objectif d'"*Assume Valid*" est d'accélérer la première synchronisation du nœud sans réduire significativement la sécurité, en présumant que ces transactions ont déjà été validées massivement par le réseau auparavant. Le seul compromis important est que votre nœud ne détectera pas d'éventuels vols antérieurs de bitcoins, mais il permettra tout de même de garantir l'exactitude du nombre total de bitcoins émis. Votre nœud vérifiera toutes les signatures des transactions situées après le bloc indiqué. Cette approche repose sur l'hypothèse qu'une transaction acceptée depuis longtemps par le réseau sans contestation est très probablement valide.
 
-Par exemple, ici, "Assume Valid" est paramétré sur le bloc n°855 000 `0000000000000000000233ea80aa10d38aa4486cd7033fffc2c4df556d0b9138`, publié le 1er août 2024. Durant l'IBD, mon nœud commencera donc la vérification complète des signatures seulement à partir de ce bloc.
+Par exemple, ici, "*Assume Valid*" est paramétré sur le bloc n°855 000 `0000000000000000000233ea80aa10d38aa4486cd7033fffc2c4df556d0b9138`, publié le 1er août 2024. Durant l'IBD, mon nœud commencera donc la vérification complète des signatures seulement à partir de ce bloc.
 
-06
+![Image](assets/fr/06.webp)
 
-Cliquez ensuite sur le bouton "OK" pour lancer l'*Initial Block Download*. Vous devrez patienter durant la synchronisation initiale du nœud. Si vous souhaitez reprendre cette synchronisation plus tard, fermez simplement le logiciel et éteignez votre ordinateur. La synchronisation reprendra sans problème à votre prochaine ouverture.
+Cliquez ensuite sur le bouton "*OK*" pour lancer l'*Initial Block Download*. Vous devrez patienter durant la synchronisation initiale du nœud. Si vous souhaitez reprendre cette synchronisation plus tard, fermez simplement le logiciel et éteignez votre ordinateur. La synchronisation reprendra sans problème à votre prochaine ouverture.
 
-07
+![Image](assets/fr/07.webp)
 
 ## Paramétrer son nœud Bitcoin Knots
 
-Cliquez sur l'onglet "Settings", puis sélectionnez "Options".
+Cliquez sur l'onglet "*Settings*", puis sélectionnez "*Options*".
 
-08
+![Image](assets/fr/08.webp)
 
-Dans l'onglet "Main", vous accédez aux paramètres principaux du nœud :
-- "Start…" permet le lancement automatique du nœud au démarrage de votre ordinateur pour entamer la synchronisation immédiatement ;
-- "Prune…" permet d'ajuster la limite de stockage si vous avez choisi d'élaguer la blockchain ;
-- "Database cache…" règle la quantité maximale de mémoire vive autorisée à votre nœud ;
-- Enfin, activez "Enable RPC server" si vous souhaitez connecter votre nœud Bitcoin Knots à d'autres logiciels de portefeuille, tels que Sparrow Wallet ou Liana par exemple.
+Dans l'onglet "*Main*", vous accédez aux paramètres principaux du nœud :
+- "*Start…*" permet le lancement automatique du nœud au démarrage de votre ordinateur pour entamer la synchronisation immédiatement ;
+- "*Prune…*" permet d'ajuster la limite de stockage si vous avez choisi d'élaguer la blockchain ;
+- "*Database cache…*" règle la quantité maximale de mémoire vive autorisée à votre nœud ;
+- Enfin, activez "*Enable RPC server*" si vous souhaitez connecter votre nœud Bitcoin Knots à d'autres logiciels de portefeuille, tels que Sparrow Wallet ou Liana par exemple.
 
-09
+![Image](assets/fr/09.webp)
 
-Dans l'onglet "Wallet", vous trouverez les paramètres du portefeuille intégré que vous pourrez créer ultérieurement sur Knots. Je vous recommande d'activer RBF et le coin control. Vous pouvez également définir le type de script à utiliser.
+Dans l'onglet "*Wallet*", vous trouverez les paramètres du portefeuille intégré que vous pourrez créer ultérieurement sur Knots. Je vous recommande d'activer RBF et le coin control. Vous pouvez également définir le type de script à utiliser.
 
-10
+![Image](assets/fr/10.webp)
 
-L'onglet "Network" contient les paramètres réseau que vous pourrez adapter selon vos besoins spécifiques.
+L'onglet "*Network*" contient les paramètres réseau que vous pourrez adapter selon vos besoins spécifiques.
 
-11
+![Image](assets/fr/11.webp)
 
-L'onglet "Mempool" permet de configurer la *Memory Pool*, c'est-à-dire la gestion des transactions non confirmées stockées en mémoire ainsi que la taille maximale attribuée à cette fonctionnalité (300 Mo par défaut).
+L'onglet "*Mempool*" permet de configurer la *Memory Pool*, c'est-à-dire la gestion des transactions non confirmées stockées en mémoire ainsi que la taille maximale attribuée à cette fonctionnalité (300 Mo par défaut).
 
-12
+![Image](assets/fr/12.webp)
 
-L'onglet "Spam filtering" est une fonctionnalité propre à Bitcoin Knots. Vous y trouverez de nombreux réglages permettant de choisir quelles transactions vous acceptez ou refusez de diffuser. L'objectif principal est de limiter certaines utilisations marginales de Bitcoin, en particulier les méta-protocoles, afin de combattre ces pratiques tout en évitant la surcharge de votre nœud. Il s'agit donc d'un choix politique selon votre vision personnelle de Bitcoin.
+L'onglet "*Spam filtering*" est une fonctionnalité propre à Bitcoin Knots. Vous y trouverez de nombreux réglages permettant de choisir quelles transactions vous acceptez ou refusez de diffuser. L'objectif principal est de limiter certaines utilisations marginales de Bitcoin, en particulier les méta-protocoles, afin de combattre ces pratiques tout en évitant la surcharge de votre nœud. Il s'agit donc d'un choix politique selon votre vision personnelle de Bitcoin.
 
-Vous y trouverez aussi des paramètres classiques comme la définition du seuil de "Dust".
+Vous y trouverez aussi des paramètres classiques comme la définition du seuil de "*Dust*".
 
 Cependant, ces paramètres influencent uniquement les règles de standardisation. Votre nœud continuera à accepter les transactions ne respectant pas ces critères uniquement lorsqu'elles sont incluses dans un bloc, afin de rester compatible avec le reste du réseau Bitcoin. Ces paramètres modifient seulement la manière dont votre nœud traite et diffuse les transactions non confirmées à ses pairs. En pratique, comme Knots est minoritaire, ce sont les règles établies par défaut sur Bitcoin Core qui définissent la standardisation sur le réseau.
 
-13
+![Image](assets/fr/13.webp)
 
-L'onglet "Mining" permet de configurer la participation éventuelle de votre nœud au minage, si vous souhaitez activer cette fonction.
+L'onglet "*Mining*" permet de configurer la participation éventuelle de votre nœud au minage, si vous souhaitez activer cette fonction.
 
-14
+![Image](assets/fr/14.webp)
 
-Enfin, l'onglet "Display" concerne les paramètres relatifs à l'interface graphique, notamment la langue du logiciel.
+Enfin, l'onglet "*Display*" concerne les paramètres relatifs à l'interface graphique, notamment la langue du logiciel.
 
-15
+![Image](assets/fr/15.webp)
 
 ## Créer un portefeuille Bitcoin
 
-Une fois la synchronisation initiale achevée, votre nœud Bitcoin Knots est pleinement fonctionnel. Vous avez désormais la possibilité de connecter ce nœud à un autre logiciel de portefeuille, ou bien d'utiliser directement le portefeuille chaud intégré. Pour ce faire, cliquez sur le bouton "Create a new wallet".
+Une fois la synchronisation initiale achevée, votre nœud Bitcoin Knots est pleinement fonctionnel. Vous avez désormais la possibilité de connecter ce nœud à un autre logiciel de portefeuille, ou bien d'utiliser directement le portefeuille chaud intégré. Pour ce faire, cliquez sur le bouton "*Create a new wallet*".
 
-16
+![Image](assets/fr/16.webp)
 
-Donnez un nom à votre portefeuille. Vous pouvez également le protéger à l'aide d'une Passphrase BIP39 en cliquant sur "Encrypt Wallet". Une fois prêt, cliquez sur le bouton "Create".
+Donnez un nom à votre portefeuille. Vous pouvez également le protéger à l'aide d'une Passphrase BIP39 en cliquant sur "*Encrypt Wallet*". Une fois prêt, cliquez sur le bouton "*Create*".
 
-17
+![Image](assets/fr/17.webp)
 
 La passphrase BIP39 est un mot de passe optionnel que vous choisissez librement, venant s'ajouter à votre phrase mnémonique afin d'accroître la sécurité de votre portefeuille. Avant de configurer cette fonctionnalité, il est vivement conseillé de consulter l'article suivant, qui explique en détail le fonctionnement théorique de la passphrase et vous permet d'éviter les erreurs susceptibles d'entraîner une perte définitive de vos bitcoins :
 
@@ -118,75 +118,75 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 Si vous avez activé l'option passphrase, choisissez-en une robuste et sauvegardez-la soigneusement sur un ou plusieurs supports physiques sécurisés.
 
-18
+![Image](assets/fr/18.webp)
 
 Votre portefeuille Bitcoin est désormais créé.
 
-19
+![Image](assets/fr/19.webp)
 
 ## Sauvegarder son portefeuille Bitcoin
 
-Avant même de recevoir vos premiers bitcoins, il est indispensable d'effectuer une sauvegarde de votre portefeuille Bitcoin afin de pouvoir récupérer vos fonds en cas de perte ou de panne de votre ordinateur. Pour ce faire, cliquez sur l'onglet "File" puis sur "Backup wallet".
+Avant même de recevoir vos premiers bitcoins, il est indispensable d'effectuer une sauvegarde de votre portefeuille Bitcoin afin de pouvoir récupérer vos fonds en cas de perte ou de panne de votre ordinateur. Pour ce faire, cliquez sur l'onglet "*File*" puis sur "*Backup wallet*".
 
-20
+![Image](assets/fr/20.webp)
 
 Cette opération génère un fichier unique qui permet, à lui seul, de restaurer l'ensemble de vos bitcoins. Soyez donc très vigilant, et sauvegardez-le sur un support externe sécurisé.
 
 ## Recevoir des bitcoins
 
-Pour recevoir des bitcoins directement sur votre portefeuille Knots, cliquez sur le bouton "Receive".
+Pour recevoir des bitcoins directement sur votre portefeuille Knots, cliquez sur le bouton "*Receive*".
 
-21
+![Image](assets/fr/21.webp)
 
-Attribuez un "Label" à votre adresse afin d'en identifier facilement l'objectif et faciliter l'utilisation ultérieure du *Coin Control*. Vous pouvez également définir à l'avance un montant précis à recevoir sur cette adresse, ou ajouter un message destiné au payeur. Une fois les paramètres définis, cliquez sur "Request payment".
+Attribuez un "*Label*" à votre adresse afin d'en identifier facilement l'objectif et faciliter l'utilisation ultérieure du *Coin Control*. Vous pouvez également définir à l'avance un montant précis à recevoir sur cette adresse, ou ajouter un message destiné au payeur. Une fois les paramètres définis, cliquez sur "*Request payment*".
 
-22
+![Image](assets/fr/22.webp)
 
 Bitcoin Knots affiche alors une adresse de réception que vous pouvez copier ou scanner afin de la transmettre au payeur.
 
-23
+![Image](assets/fr/23.webp)
 
-Une fois la transaction diffusée, vous pourrez suivre son état directement dans le menu "Transactions".
+Une fois la transaction diffusée, vous pourrez suivre son état directement dans le menu "*Transactions*".
 
-24
+![Image](assets/fr/24.webp)
 
 ## Envoyer des bitcoins
 
-Maintenant que vous avez des bitcoins sur votre portefeuille Knots, vous avez la possibilité d'en envoyer. Pour ce faire, cliquez sur le bouton "Send".
+Maintenant que vous avez des bitcoins sur votre portefeuille Knots, vous avez la possibilité d'en envoyer. Pour ce faire, cliquez sur le bouton "*Send*".
 
-25
+![Image](assets/fr/25.webp)
 
-Cliquez sur le bouton "Inputs..." afin de sélectionner précisément l'UTXO que vous souhaitez dépenser pour cette transaction.
+Cliquez sur le bouton "*Inputs...*" afin de sélectionner précisément l'UTXO que vous souhaitez dépenser pour cette transaction.
 
-26
+![Image](assets/fr/26.webp)
 
 Indiquez l'adresse Bitcoin du destinataire.
 
-27
+![Image](assets/fr/27.webp)
 
 Ajoutez un label afin de vous souvenir de l'objectif de cette transaction.
 
-28
+![Image](assets/fr/28.webp)
 
 Entrez le montant que vous souhaitez envoyer à cette adresse.
 
-29
+![Image](assets/fr/29.webp)
 
-Cliquez sur le bouton "Choose..." pour sélectionner le taux de frais adapté à votre transaction en fonction de l'état actuel du réseau.
+Cliquez sur le bouton "*Choose...*" pour sélectionner le taux de frais adapté à votre transaction en fonction de l'état actuel du réseau.
 
-30
+![Image](assets/fr/30.webp)
 
-Si tout vous convient, cliquez sur le bouton "Send". Si vous utilisez une passphrase, il vous sera demandé de la renseigner à cette étape.
+Si tout vous convient, cliquez sur le bouton "*Send*". Si vous utilisez une passphrase, il vous sera demandé de la renseigner à cette étape.
 
-31
+![Image](assets/fr/31.webp)
 
-Vérifiez une dernière fois les paramètres de votre transaction, puis, si tout est correct, cliquez à nouveau sur le bouton "Send" pour signer et diffuser votre transaction.
+Vérifiez une dernière fois les paramètres de votre transaction, puis, si tout est correct, cliquez à nouveau sur le bouton "*Send*" pour signer et diffuser votre transaction.
 
-32
+![Image](assets/fr/32.webp)
 
-Votre transaction en attente de confirmation apparaît désormais dans l'onglet "Transactions".
+Votre transaction en attente de confirmation apparaît désormais dans l'onglet "*Transactions*".
 
-33
+![Image](assets/fr/33.webp)
 
 ## Connecter son nœud à un autre logiciel
 
@@ -204,11 +204,11 @@ server=1
 
 Sauvegardez ensuite vos modifications.
 
-Vous pouvez également effectuer cette configuration via l'interface graphique de Bitcoin-QT en naviguant dans "Settings" > "Options..." et en activant l'option "Enable RPC server".
+Vous pouvez également effectuer cette configuration via l'interface graphique de Bitcoin-QT en naviguant dans "*Settings*" > "*Options...*" et en activant l'option "*Enable RPC server*".
 
 N'oubliez pas de redémarrer le logiciel après ces modifications.
 
-34
+![Image](assets/fr/34.webp)
 
 Rendez-vous ensuite sur votre logiciel de gestion de portefeuille (par exemple Sparrow Wallet ou Liana) et renseignez le chemin vers votre fichier de cookie, généralement situé dans le même dossier que le `bitcoin.conf`, selon votre système d'exploitation :
 
@@ -217,11 +217,11 @@ Rendez-vous ensuite sur votre logiciel de gestion de portefeuille (par exemple S
 |**Windows**|%APPDATA%\Bitcoin|
 |**Linux**|~/.bitcoin|
 
-35
+![Image](assets/fr/35.webp)
 
-Laissez les autres paramètres par défaut, l'URL `127.0.0.1` et le port `8332`, puis cliquez sur "Test Connection".
+Laissez les autres paramètres par défaut, l'URL `127.0.0.1` et le port `8332`, puis cliquez sur "*Test Connection*".
 
-36
+![Image](assets/fr/36.webp)
 
 ### Avec Bitcoin Knots à distance :
 
@@ -238,9 +238,9 @@ Après avoir modifié le fichier, assurez-vous de l'enregistrer dans le dossier 
 |**Windows**|%APPDATA%\Bitcoin|
 |**Linux**|~/.bitcoin|
 
-Il est également possible de réaliser cette manipulation via l'interface graphique de Bitcoin-QT. Accédez au menu "Settings", puis "Options...", et activez l'option "Enable RPC server" en cochant la case correspondante. Si le fichier `bitcoin.conf` n'existe pas, vous pouvez le créer directement depuis cette interface en cliquant sur "Open Configuration File".
+Il est également possible de réaliser cette manipulation via l'interface graphique de Bitcoin-QT. Accédez au menu "*Settings*", puis "*Options...*", et activez l'option "*Enable RPC server*" en cochant la case correspondante. Si le fichier `bitcoin.conf` n'existe pas, vous pouvez le créer directement depuis cette interface en cliquant sur "*Open Configuration File*".
 
-37
+![Image](assets/fr/37.webp)
 
 Trouvez l'adresse IP de la machine qui héberge Bitcoin Knots dans votre réseau local. Pour cela, vous pouvez utiliser un outil tel que [Angry IP Scanner](https://angryip.org/). Supposons, pour l'exemple, que l'adresse IP de votre nœud soit `192.168.1.18`.
 
@@ -254,7 +254,7 @@ rpcallowip=127.0.0.1
 rpcallowip=192.168.1.0/24
 ```
 
-38
+![Image](assets/fr/38.webp)
 
 Ajoutez également dans le fichier `bitcoin.conf` un identifiant et un mot de passe pour les connexions à distance. Assurez-vous de remplacer `loic` par votre nom d'utilisateur et `my_password` par un mot de passe fort :
 
@@ -263,13 +263,13 @@ rpcuser=loic
 rpcpassword=my_password
 ```
 
-39
+![Image](assets/fr/39.webp)
 
 Après avoir modifié et sauvegardé le fichier, redémarrez Bitcoin Knots.
 
-Vous pouvez maintenant aller sur votre logiciel de gestion de portefeuille (par exemple Sparrow Wallet ou Liana). Sur Sparrow, accédez à l'onglet "User / Pass". Saisissez le nom d'utilisateur et le mot de passe que vous avez configurés dans le fichier `bitcoin.conf`. Laissez les autres paramètres par défaut, à savoir l'URL `127.0.0.1` et le port `8332`. Cliquez ensuite sur "Test Connection".
+Vous pouvez maintenant aller sur votre logiciel de gestion de portefeuille (par exemple Sparrow Wallet ou Liana). Sur Sparrow, accédez à l'onglet "*User / Pass*". Saisissez le nom d'utilisateur et le mot de passe que vous avez configurés dans le fichier `bitcoin.conf`. Laissez les autres paramètres par défaut, à savoir l'URL `127.0.0.1` et le port `8332`. Cliquez ensuite sur "*Test Connection*".
 
-40
+![Image](assets/fr/40.webp)
 
 La connexion est établie.
 

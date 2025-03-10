@@ -311,15 +311,12 @@ A comparação que se segue ajuda a compreender este princípio:
 - Carimbo de data/hora (blockchain)**: Ao inserir este hash na cadeia de blocos, provamos também que o conhecíamos num momento preciso (o da inclusão num bloco);
 - Selo de utilização única**: Com os selos de utilização única, damos um passo em frente ao tornar o compromisso único. Com um único hash, é possível criar vários compromissos contraditórios em paralelo (o problema do médico que anuncia "*É um rapaz*" à família e "*É uma rapariga*" no seu diário pessoal). O Selo de Utilização Única elimina esta possibilidade ligando o compromisso a um meio de prova de publicação, como a cadeia de blocos Bitcoin, de modo que uma despesa de UTXO sela definitivamente o compromisso. Uma vez gasto, o mesmo UTXO não pode ser gasto novamente para substituir o compromisso.
 
-| Selos de utilização única | Selos temporais | Compromisso simples (digest/hash) | Selos de utilização única
+|                                                                                  | Compromisso simples (digest/hash) | Timestamps | Selos de uso único |
+| -------------------------------------------------------------------------------- | -------------------------------- | ---------- | ------------------ |
+| A publicação do compromisso não revela a mensagem                              | Sim                             | Sim        | Sim               |
+| Prova da data do compromisso / existência da mensagem antes de uma determinada data | Impossível                      | Possível    | Possível          |
+| Prova de que nenhum outro compromisso alternativo pode existir                 | Impossível                      | Impossível  | Possível          |
 
-| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-| A publicação do compromisso não revela a mensagem Sim Sim Sim Sim Sim
-
-| Prova da data do compromisso / existência da mensagem antes de uma determinada data Impossível | Possível | Possível | Possível
-
-| Prova de que não pode existir outro compromisso alternativo
 
 Os selos de utilização única funcionam em três fases principais:
 
@@ -461,23 +458,17 @@ Enquanto trabalhávamos no RGB, identificámos pelo menos 4 formas diferentes de
 - Defina o selo através do valor de uma chave pública e feche-o num _input_ ;
 - Definir o selo através de um _outpoint_ e fechá-lo num _input_.
 
-| Definição do selo | Fecho do selo | Requisitos adicionais | Aplicação principal | Possíveis esquemas de compromisso
-
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2(W)PKH | Nenhum até ao momento | Keytweak, taptweak, opret |
-
-| TxO2 | Saída de transação | Saída de transação | Requer compromissos determinísticos no Bitcoin | RGBv1 (universal) | Keytweak, tapret, opret |
-
-| PkI | Valor da chave pública | Entrada de transação | Apenas Taproot e não compatível com carteiras antigas | Identidades baseadas em Bitcoin | Sigtweak, witweak |
-
-| TxO1 | Saída de transação | Entrada de transação | Taproot apenas & não compatível com carteiras Legacy | Nenhum no momento | Sigtweak, witweak |
+| Nome do esquema | Definição do selo        | Fechamento do selo      | Requisitos adicionais                                           | Aplicação principal        | Esquemas de compromisso possíveis |
+| --------------- | ------------------------ | ----------------------- | -------------------------------------------------------------- | -------------------------- | ---------------------------------- |
+| PkO             | Valor da chave pública   | Saída de transação      | P2(W)PKH                                                        | Nenhuma no momento         | Keytweak, taptweak, opret         |
+| TxO2            | Saída de transação       | Saída de transação      | Exige compromissos determinísticos em Bitcoin                   | RGBv1 (universal)          | Keytweak, tapret, opret           |
+| PkI             | Valor da chave pública   | Entrada de transação    | Somente Taproot & não compatível com carteiras antigas          | Identidades baseadas em Bitcoin | Sigtweak, witweak               |
+| TxO1            | Saída de transação       | Entrada de transação    | Somente Taproot & não compatível com carteiras antigas          | Nenhuma no momento         | Sigtweak, witweak                 |
 
 Não entraremos em detalhes sobre cada uma dessas configurações, pois no RGB optamos por usar **um _outpoint_ como definição do selo**, e colocar o _commitment_ na saída da transação que gasta esse _outpoint_. Podemos assim introduzir os seguintes conceitos para a sequência:
 
-
-- "Definição do selo "** : Um determinado _ponto de saída_ (identificado por TXID + nº de saída) ;
-- "Fecho do selo "**: A transação que gasta este _outpoint_, na qual um _commitment_ é adicionado a uma mensagem.
+- **"Definição do selo "** : Um determinado _ponto de saída_ (identificado por TXID + nº de saída) ;
+- **"Fecho do selo "**: A transação que gasta este _outpoint_, na qual um _commitment_ é adicionado a uma mensagem.
 
 Este esquema foi selecionado pela sua compatibilidade com a arquitetura RGB, mas outras configurações podem ser úteis para diferentes utilizações.
 
@@ -741,79 +732,16 @@ Quando criámos o RGB, analisámos todos estes métodos para determinar onde e c
 - Dificuldade de implementação e manutenção ;
 - Confidencialidade e resistência à censura.
 
-| Rastreamento e dimensionamento na cadeia | Dimensionamento do lado do cliente | Integração do portfólio | Compatibilidade de hardware | Compatibilidade com Lightning | Compatibilidade com Taproot |
-
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
-
-| Keytweak (P2C determinístico) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
-
-| Sigtweak (S2C determinístico) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
-
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - |
-
-| Algoritmo Tapret: nó superior esquerdo | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Algoritmo Tapret #4: qualquer nó + prova | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Esquema de compromisso determinístico | Padrão | Custo na cadeia | Tamanho das evidências do lado do cliente |
-
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-
-| Keytweak (P2C determinístico) | LNPBP-1, 2 | 0 bytes | 33 bytes (chave não ajustada) |
-
-| Sigtweak (S2C determinístico) | WIP (LNPBP-39) | 0 bytes | 0 bytes |
-
-| Opret (OP_RETURN) | - | 36 (v)bytes (TxOut adicional) | 0 bytes |
-
-| Algoritmo Tapret: nó superior esquerdo | LNPBP-6 | 32 bytes na testemunha (8 vbytes) em qualquer multisig n-de-m e gasto por caminho de script | 0 bytes em scripts sem script taproot ~270 bytes num caso de script único, ~128 bytes se houver mais de um script |
-
-| Algoritmo Tapret #4: qualquer nó + prova de unicidade | LNPBP-6 | 32 bytes na testemunha (8 vbytes) para casos de um único script, 0 bytes na testemunha na maioria dos outros casos | 0 bytes em scripts sem script na raiz principal, 65 bytes até a Taptree ter uma dúzia de scripts |
+| Método                                            | Rastro e tamanho on-chain | Tamanho do lado do cliente | Integração com carteira | Compatibilidade de hardware | Compatibilidade com Lightning | Compatibilidade com Taproot |
+| ------------------------------------------------- | ------------------------ | ------------------------- | ---------------------- | -------------------------- | ---------------------------- | -------------------------- |
+| Keytweak (P2C determinístico)                    | 🟢                        | 🟡                         | 🔴                      | 🟠                           | 🔴 BOLT, 🔴 Bifrost          | 🟠 Taproot, 🟢 MuSig        |
+| Sigtweak (S2C determinístico)                    | 🟢                        | 🟢                         | 🟠                      | 🔴                           | 🔴 BOLT, 🔴 Bifrost          | 🟠 Taproot, 🔴 MuSig        |
+| Opret (OP_RETURN)                                 | 🔴                        | 🟢                         | 🟢                      | 🟠                           | 🔴 BOLT, 🟠 Bifrost          | -                          |
+| Algoritmo Tapret: nó superior esquerdo           | 🟠                        | 🔴                         | 🟠                      | 🟢                           | 🔴 BOLT, 🟢 Bifrost          | 🟢 Taproot, 🟢 MuSig        |
+| Algoritmo Tapret #4: qualquer nó + prova         | 🟢                        | 🟠                         | 🟠                      | 🟢                           | 🔴 BOLT, 🟢 Bifrost          | 🟢 Taproot, 🟢 MuSig        |
 
 
 
-| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-
-| **Type** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** |
-
-| Single-sig | 0 | 0 | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-de-n) | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-de-3 | 32/8 | 32/8 ou 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 3-de-5 | 32/8 | 32/8 ou 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 2-de-3 com tempos limite | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0 | 0
-
-camada | Custo na cadeia (vbytes) | Custo na cadeia (vbytes) | Custo na cadeia (vbytes) | Custo no lado do cliente (bytes) | Custo no lado do cliente (bytes) | Custo no lado do cliente (bytes) |
-
-| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
-
-| **Tipo** | **Base** | **Tapete #2** | **Tapete #4** | **Tapete #2** | **Tapete #4** |
-
-| MuSig (n-de-n) | 16,5 | 0 | 0 | 0 | 0 | 0 | 0 | 0
-
-| FROST (n-de-m) | ? | 0 | 0 | 0 | 0 |
-
-| Multi_a (n-de-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 |
-
-| ramo MuSig / Multi_a (n-de-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Com timeouts (n-de-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Método | Confidencialidade e escalabilidade | Interoperabilidade | Compatibilidade | Portabilidade | Complexidade
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-keytweak (P2C determinístico) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 | 🟡 |
-
-| Sigtweak (S2C determinístico) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 |
-
-| Algo Tapret: nó superior esquerdo | 🟠 | 🟢 | 🔴 | 🟠 |
-
-| Algo Tapret #4: Qualquer nó + prova | 🟢 | 🟢 | 🟠 | 🔴 |
 
 No decurso do estudo, tornou-se claro que nenhum dos esquemas de compromisso era totalmente compatível com a atual norma Lightning (que não emprega Taproot, _muSig2_ ou suporte adicional de _commitment_). Estão a ser desenvolvidos esforços para modificar a construção de canais do Lightning (*BiFrost*) para permitir a inserção de compromissos RGB. Esta é outra área em que precisamos de rever a estrutura da transação, as chaves e a forma como as actualizações do canal são assinadas.
 

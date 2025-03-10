@@ -311,15 +311,12 @@ Perbandingan berikut ini membantu untuk memahami prinsip ini:
 - Stempel waktu (blockchain)**: Dengan memasukkan hash ini ke dalam blockchain, kita juga membuktikan bahwa kita mengetahuinya pada saat yang tepat (saat dimasukkan ke dalam blok);
 - Segel sekali pakai**: Dengan segel sekali pakai, kami melangkah lebih jauh dengan membuat komitmen yang unik. Dengan satu hash, Anda dapat membuat beberapa komitmen yang bertentangan secara paralel (masalah dokter yang mengumumkan "*Ini anak laki-laki*" kepada keluarga dan "*Ini anak perempuan*" dalam buku harian pribadinya). Segel Sekali Pakai menghilangkan kemungkinan ini dengan menghubungkan komitmen ke media bukti publikasi, seperti blockchain Bitcoin, sehingga pengeluaran UTXO secara definitif menyegel komitmen tersebut. Setelah dibelanjakan, UTXO yang sama tidak dapat dibelanjakan kembali untuk menggantikan komitmen.
 
-| Segel sekali pakai | Stempel waktu | Komitmen sederhana (digest/hash) | Segel sekali pakai
+|                                                                                  | Komitmen sederhana (digest/hash) | Timestamps | Segel sekali pakai |
+| -------------------------------------------------------------------------------- | -------------------------------- | ---------- | ------------------ |
+| Publikasi komitmen tidak mengungkapkan pesan                                   | Ya                              | Ya         | Ya                |
+| Bukti tanggal komitmen / keberadaan pesan sebelum tanggal tertentu            | Tidak mungkin                   | Mungkin    | Mungkin           |
+| Bukti bahwa tidak ada komitmen alternatif yang dapat ada                      | Tidak mungkin                   | Tidak mungkin | Mungkin         |
 
-| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-| Publikasi komitmen tidak mengungkapkan pesan | Ya | Ya | Ya | Ya
-
-| Bukti tanggal komitmen / keberadaan pesan sebelum tanggal tertentu | Tidak mungkin | Mungkin | Mungkin | Mungkin
-
-| Bukti bahwa tidak ada komitmen alternatif lain yang dapat dilakukan | Tidak mungkin | Mungkin |
 
 Segel sekali pakai bekerja dalam tiga tahap utama:
 
@@ -461,17 +458,12 @@ Ketika mengerjakan RGB, kami mengidentifikasi setidaknya 4 cara berbeda untuk me
 - Tentukan segel melalui nilai kunci publik, dan tutup dalam _input_ ;
 - Tentukan segel melalui _outpoint_, dan tutup dengan _input_.
 
-| Definisi segel | Penutupan segel | Persyaratan tambahan | Aplikasi utama | Skema pertunangan yang memungkinkan |
-
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2 (W) PKH | Tidak ada saat ini | Keytweak, taptweak, opret |
-
-| TxO2 | Keluaran transaksi | Keluaran transaksi | Membutuhkan komitmen deterministik pada Bitcoin | RGBv1 (universal) | Keytweak, tapret, opret
-
-| PkI | Nilai kunci publik | Entri transaksi | Hanya Taproot & tidak kompatibel dengan dompet lama | Identitas berbasis Bitcoin | Sigtweak, witweak
-
-| TxO1 | Keluaran transaksi | Masukan transaksi | Hanya Taproot & tidak kompatibel dengan dompet lama | Tidak ada saat ini | Sigtweak, witweak |
+| Nama Skema  | Definisi Segel           | Penutupan Segel         | Persyaratan Tambahan                                            | Aplikasi Utama             | Skema Komitmen yang Mungkin       |
+| ----------- | ------------------------ | ----------------------- | -------------------------------------------------------------- | -------------------------- | ---------------------------------- |
+| PkO         | Nilai Kunci Publik       | Keluaran Transaksi      | P2(W)PKH                                                        | Belum ada saat ini        | Keytweak, taptweak, opret         |
+| TxO2        | Keluaran Transaksi       | Keluaran Transaksi      | Memerlukan komitmen deterministik di Bitcoin                    | RGBv1 (universal)         | Keytweak, tapret, opret           |
+| PkI         | Nilai Kunci Publik       | Masukan Transaksi       | Hanya Taproot & tidak kompatibel dengan dompet Legacy           | Identitas berbasis Bitcoin | Sigtweak, witweak                 |
+| TxO1        | Keluaran Transaksi       | Masukan Transaksi       | Hanya Taproot & tidak kompatibel dengan dompet Legacy           | Belum ada saat ini        | Sigtweak, witweak                 |
 
 Kita tidak akan membahas secara detail mengenai masing-masing konfigurasi ini, karena dalam RGB kita telah memilih untuk menggunakan _outpoint_ sebagai definisi seal**, dan menempatkan _commitment_ pada keluaran transaksi yang menggunakan _outpoint_ ini. Oleh karena itu, kita dapat memperkenalkan konsep-konsep berikut untuk sekuelnya:
 
@@ -741,79 +733,16 @@ Ketika kami memulai RGB, kami meninjau semua metode ini untuk menentukan di mana
 - Kesulitan implementasi dan pemeliharaan;
 - Kerahasiaan dan ketahanan terhadap sensor.
 
-| Ukuran jejak dan on-chain | Ukuran sisi klien | Integrasi portofolio | Kompatibilitas perangkat keras | Kompatibilitas Lightning | Kompatibilitas Taproot |
+| Metode                                            | Jejak & ukuran on-chain | Ukuran sisi klien | Integrasi dompet | Kompatibilitas perangkat keras | Kompatibilitas Lightning | Kompatibilitas Taproot |
+| ------------------------------------------------- | ---------------------- | ---------------- | --------------- | -------------------------- | -------------------- | ------------------ |
+| Keytweak (P2C deterministik)                     | 🟢                     | 🟡                | 🔴                | 🟠                           | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
+| Sigtweak (S2C deterministik)                     | 🟢                     | 🟢                | 🟠                | 🔴                           | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
+| Opret (OP_RETURN)                                 | 🔴                     | 🟢                | 🟢                | 🟠                           | 🔴 BOLT, 🟠 Bifrost | -                     |
+| Algoritma Tapret: simpul kiri atas               | 🟠                     | 🔴                | 🟠                | 🟢                           | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
+| Algoritma Tapret #4: simpul mana saja + bukti    | 🟢                     | 🟠                | 🟠                | 🟢                           | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
 
-| Keytweak (P2C deterministik) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
 
-| Sigtweak (S2C deterministik) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
-
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - |
-
-| Algoritma Tapret: simpul kiri atas | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Algoritma Tapret #4: simpul apa saja + bukti | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Skema komitmen deterministik | Standar | Biaya on-chain | Ukuran bukti dari sisi pelanggan |
-
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-
-| Keytweak (P2C deterministik) | LNPBP-1, 2 | 0 byte | 33 byte (kunci yang tidak diubah) |
-
-| Sigtweak (S2C deterministik) | WIP (LNPBP-39) | 0 byte | 0 byte |
-
-| Opret (OP_RETURN) | - | 36 (v) byte (TxOut tambahan) | 0 byte
-
-| Algoritma Tapret: simpul kiri atas | LNPBP-6 | 32 byte dalam saksi (8 vbytes) pada multisig n-of-m dan pengeluaran per jalur skrip | 0 byte pada skrip tanpa skrip taproot ~ 270 byte dalam satu kasus skrip, ~ 128 byte jika lebih dari satu skrip
-
-| Algoritma Tapret #4: simpul apa pun + bukti keunikan | LNPBP-6 | 32 byte pada saksi (8 vbyte) untuk kasus skrip tunggal, 0 byte pada saksi di sebagian besar kasus lainnya | 0 byte pada skrip tanpa skrip taproot, 65 byte hingga Taptree memiliki selusin skrip
-
-| Lapisan | Biaya on-chain (byte/vbyte) | Biaya on-chain (byte/vbyte) | Biaya on-chain (byte/vbyte) | Biaya on-chain (byte/vbyte) | Biaya on-chain (byte/vbyte) | Biaya sisi-klien (byte) | Biaya sisi-klien (byte) | Biaya sisi-klien (byte) | Biaya sisi-klien (byte) | Biaya sisi-klien (byte) | Biaya sisi-klien (byte)
-
-| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-
-| **Tipe** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** |
-
-| Tanda tunggal | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-of-n) | 0 | 0 | 0 | 32 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-dari-3 | 32/8 | 32/8 atau 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 3-dari-5 | 32/8 | 32/8 atau 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 2-dari-3 dengan batas waktu | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0
-
-| Lapisan | Biaya pada rantai (vbytes) | Biaya pada rantai (vbytes) | Biaya pada rantai (vbytes) | Biaya di sisi klien (byte) | Biaya di sisi klien (byte)
-
-| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
-
-| **Tipe** | **Dasar** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** |
-
-| MuSig (n-of-n) | 16.5 | 0 | 0 | 0 | 0 | 0
-
-| FROST (n-dari-m) | ? | 0 | 0 | 0 | 0 |
-
-| Multi_a (n-dari-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 |
-
-| Cabang MuSig / Multi_a (n-dari-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Dengan batas waktu (n-dari-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Metode | Kerahasiaan dan skalabilitas | Interoperabilitas | Kompatibilitas | Portabilitas | Kompleksitas |
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-| Keytweak (P2C deterministik) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 |
-
-| Sigtweak (S2C deterministik) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 |
-
-| Algo Tapret: simpul kiri atas | 🟠 | 🟢 | 🔴 | 🟠 |
-
-| Algo Tapret #4: Simpul apa saja + bukti | 🟢 | 🟢 | 🟢 | 🟠 | 🔴 |
 
 Selama penelitian, menjadi jelas bahwa tidak ada skema komitmen yang sepenuhnya kompatibel dengan standar Lightning saat ini (yang tidak menggunakan Taproot, _muSig2_ atau dukungan _komitmen_ tambahan). Upaya sedang dilakukan untuk memodifikasi konstruksi saluran Lightning (*BiFrost*) untuk memungkinkan penyisipan komitmen RGB. Ini adalah area lain di mana kita perlu meninjau struktur transaksi, kunci dan cara di mana pembaruan saluran ditandatangani.
 

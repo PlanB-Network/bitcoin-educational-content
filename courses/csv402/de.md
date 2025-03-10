@@ -311,15 +311,11 @@ Der folgende Vergleich hilft, dieses Prinzip zu verstehen:
 - Zeitstempel (Blockchain)**: Indem wir diesen Hash in die Blockchain einfügen, beweisen wir auch, dass wir ihn zu einem bestimmten Zeitpunkt kannten (dem Zeitpunkt der Aufnahme in einen Block);
 - Einweg-Siegel**: Bei Einweg-Siegeln gehen wir noch einen Schritt weiter, indem wir die Zusage eindeutig machen. Mit einem einzigen Hash können Sie mehrere widersprüchliche Zusagen parallel erstellen (das Problem des Arztes, der der Familie verkündet "*Es ist ein Junge*" und in seinem persönlichen Tagebuch "*Es ist ein Mädchen*"). Das Einweg-Siegel schließt diese Möglichkeit aus, indem es die Verpflichtung mit einem Medium zum Nachweis der Veröffentlichung, wie der Bitcoin-Blockchain, verbindet, so dass eine Ausgabe von UTXO die Verpflichtung endgültig besiegelt. Einmal ausgegebene UTXO können nicht erneut ausgegeben werden, um die Zusage zu ersetzen.
 
-| Siegel zur einmaligen Verwendung | Zeitstempel | Einfache Verpflichtung (Digest/Hash) | Siegel zur einmaligen Verwendung |
-
-| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-| Die Veröffentlichung der Verpflichtungserklärung verrät die Botschaft nicht | Ja | Ja | Ja | Ja
-
-| Nachweis des Datums der Verpflichtung / Existenz der Nachricht vor einem bestimmten Datum | Unmöglich | Möglich | Möglich | Möglich
-
-| Beweis, dass es keine andere alternative Verpflichtung geben kann | Unmöglich | Möglich |
+|                                                                                  | Einfaches Commitment (Digest/Hash) | Zeitstempel | Einmalige Siegel |
+| -------------------------------------------------------------------------------- | ---------------------------------- | ----------- | ---------------- |
+| Die Veröffentlichung des Commitments offenbart nicht die Nachricht               | Ja                                | Ja          | Ja              |
+| Nachweis des Commitment-Datums / Existenz der Nachricht vor einem bestimmten Datum | Unmöglich                         | Möglich     | Möglich         |
+| Nachweis, dass kein alternatives Commitment existieren kann                      | Unmöglich                         | Unmöglich   | Möglich         |
 
 Siegel für den einmaligen Gebrauch funktionieren in drei Hauptphasen:
 
@@ -461,17 +457,13 @@ Während der Arbeit an RGB haben wir mindestens 4 verschiedene Möglichkeiten ge
 - Definieren Sie das Siegel über den Wert eines öffentlichen Schlüssels, und schließen Sie es in einem _input_ ;
 - Definieren Sie das Siegel über einen _Ausgangspunkt_ und schließen Sie es mit einem _Eingang_.
 
-| Siegeldefinition | Siegelverschluss | Zusätzliche Anforderungen | Hauptanwendung | Mögliche Einbindungsschemata |
+| Name des Schemas | Definition der Versiegelung | Versiegelung schließen | Zusätzliche Anforderungen                                       | Hauptanwendung             | Mögliche Commitment-Schemata    |
+| ----------------- | --------------------------- | ---------------------- | ---------------------------------------------------------------- | -------------------------- | -------------------------------- |
+| PkO               | Wert des öffentlichen Schlüssels | Transaktionsausgang     | P2(W)PKH                                                        | Derzeit keine              | Keytweak, taptweak, opret       |
+| TxO2              | Transaktionsausgang           | Transaktionsausgang     | Erfordert deterministische Commitments auf Bitcoin              | RGBv1 (universell)         | Keytweak, tapret, opret         |
+| PkI               | Wert des öffentlichen Schlüssels | Transaktionseingang     | Nur Taproot & nicht kompatibel mit Legacy-Wallets              | Bitcoin-basierte Identitäten | Sigtweak, witweak              |
+| TxO1              | Transaktionsausgang           | Transaktionseingang     | Nur Taproot & nicht kompatibel mit Legacy-Wallets              | Derzeit keine              | Sigtweak, witweak              |
 
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2(W)PKH | Derzeit keine | Keytweak, taptweak, opret |
-
-| TxO2 | Transaktionsausgabe | Transaktionsausgabe | Erfordert deterministische Verpflichtungen auf Bitcoin | RGBv1 (universal) | Keytweak, tapret, opret |
-
-| PkI | Public Key Value | Transaktionseintrag | Nur Taproot & nicht kompatibel mit Legacy Wallets | Bitcoin-basierte Identitäten | Sigtweak, witweak |
-
-| TxO1 | Transaktionsausgabe | Transaktionseingabe | Nur Taproot & nicht kompatibel mit Legacy-Wallets | Zur Zeit keine | Sigtweak, witweak |
 
 Wir werden nicht im Detail auf jede dieser Konfigurationen eingehen, da wir uns in RGB dafür entschieden haben, **einen _Ausgangspunkt_ als Definition des Siegels** zu verwenden und das _commitment_ in der Ausgabe der Transaktion zu platzieren, die diesen _Ausgangspunkt_ ausgibt. Wir können daher die folgenden Konzepte für die Fortsetzung einführen:
 
@@ -741,79 +733,17 @@ Als wir mit RGB begannen, prüften wir all diese Methoden, um zu bestimmen, wo u
 - Schwierigkeit bei der Umsetzung und Wartung ;
 - Vertraulichkeit und Widerstand gegen Zensur.
 
-| Trace- und On-Chain-Sizing | Client-seitiges Sizing | Portfolio-Integration | Hardware-Kompatibilität | Lightning-Kompatibilität | Taproot-Kompatibilität |
+| Methode                                            | Spur und Größe on-chain | Größe auf Client-Seite | Wallet-Integration | Hardware-Kompatibilität | Lightning-Kompatibilität | Taproot-Kompatibilität |
+| -------------------------------------------------- | ---------------------- | --------------------- | ----------------------------- | ---------------------- | ---------------------- | --------------------- |
+| Keytweak (deterministisches P2C)                   | 🟢                     | 🟡                   | 🔴                            | 🟠                     | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🟢 MuSig  |
+| Sigtweak (deterministisches S2C)                   | 🟢                     | 🟢                   | 🟠                            | 🔴                     | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🔴 MuSig  |
+| Opret (OP_RETURN)                                  | 🔴                     | 🟢                   | 🟢                            | 🟠                     | 🔴 BOLT, 🟠 Bifrost     | -                     |
+| Tapret-Algorithmus: oberster linker Knoten        | 🟠                     | 🔴                   | 🟠                            | 🟢                     | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
+| Tapret-Algorithmus #4: beliebiger Knoten + Beweis | 🟢                     | 🟠                   | 🟠                            | 🟢                     | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
 
-| Keytweak (deterministisches P2C) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
 
-| Sigtweak (deterministische S2C) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
 
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - |
-
-| Tapret-Algorithmus: Knoten oben links | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Tapret-Algorithmus #4: beliebiger Knoten + Beweis | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Deterministisches Commitment-Schema | Standard | On-Chain-Kosten | Größe der kundenseitigen Evidenz |
-
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-
-| Keytweak (deterministischer P2C) | LNPBP-1, 2 | 0 Bytes | 33 Bytes (untweaked key) |
-
-| Sigtweak (deterministische S2C) | WIP (LNPBP-39) | 0 Bytes | 0 Bytes |
-
-| Opret (OP_RETURN) | - | 36 (v)Bytes (TxOut zusätzlich) | 0 Bytes |
-
-| Tapret-Algorithmus: oberer linker Knoten | LNPBP-6 | 32 Bytes als Zeuge (8 Vbytes) für jede n-aus-m-Multisig und Ausgaben pro Skriptpfad | 0 Bytes für skriptlose Taproot-Skripte ~270 Bytes in einem einzigen Skriptfall, ~128 Bytes bei mehreren Skripten |
-
-| Tapret-Algorithmus #4: beliebiger Knoten + Beweis der Einzigartigkeit | LNPBP-6 | 32 Bytes im Zeugen (8 vbytes) für Fälle mit nur einem Skript, 0 Bytes im Zeugen in den meisten anderen Fällen | 0 Bytes bei skriptlosen Taproot-Skripten, 65 Bytes bis der Taptree ein Dutzend Skripte hat |
-
-schicht | Kettenkosten (Bytes/vBytes) | Kettenkosten (Bytes/vBytes) | Kettenkosten (Bytes/vBytes) | Kettenkosten (Bytes/vBytes) | Kettenkosten (Bytes/vBytes) | Clientseitige Kosten (Bytes) | Clientseitige Kosten (Bytes) | Clientseitige Kosten (Bytes) | Clientseitige Kosten (Bytes) | Clientseitige Kosten (Bytes) | Clientseitige Kosten (Bytes) |
-
-| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-
-| **Typ** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** |
-
-| Single-sig | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-of-n) | 0 | 0 | 0 | 32 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-of-3 | 32/8 | 32/8 oder 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 3-of-5 | 32/8 | 32/8 oder 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 2-of-3 mit Timeouts | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0
-
-| Schicht | Kosten auf der Kette (vbytes) | Kosten auf der Kette (vbytes) | Kosten auf der Kette (vbytes) | Kosten auf der Client-Seite (bytes) | Kosten auf der Client-Seite (bytes) |
-
-| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
-
-| **Typ** | **Basis** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** |
-
-| MuSig (n-von-n) | 16,5 | 0 | 0 | 0 | 0 | 0
-
-| FROST (n-of-m) | ? | 0 | 0 | 0 | 0 |
-
-| Multi_a (n-von-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 |
-
-| MuSig-Zweig / Multi_a (n-of-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Mit Zeitüberschreitungen (n-von-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Methode | Vertraulichkeit und Skalierbarkeit | Interoperabilität | Kompatibilität | Portabilität | Komplexität |
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-| Keytweak (deterministisches P2C) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 |
-
-| Sigtweak (deterministische S2C) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 |
-
-| Algo Tapret: Knoten oben links | 🟠 | 🟢 | 🔴 | 🟠 |
-
-| Algo Tapret #4: Jeder Knoten + Beweis | 🟢 | 🟢 | 🟠 | 🔴 |
 
 Im Laufe der Studie wurde deutlich, dass keines der Commitment-Schemata vollständig mit dem aktuellen Lightning-Standard kompatibel ist (der weder Taproot, _muSig2_ noch zusätzliche _Commitment_-Unterstützung bietet). Es wird daran gearbeitet, die Kanalkonstruktion von Lightning (*BiFrost*) so zu ändern, dass die Einfügung von RGB-Verpflichtungen möglich wird. Dies ist ein weiterer Bereich, in dem wir die Transaktionsstruktur, die Schlüssel und die Art und Weise, in der Kanalaktualisierungen signiert werden, überprüfen müssen.
 

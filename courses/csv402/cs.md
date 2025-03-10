@@ -311,15 +311,11 @@ Následující srovnání pomáhá pochopit tento princip:
 - Časové razítko (blockchain)**: Vložením tohoto hashe do blockchainu zároveň prokazujeme, že jsme jej znali v přesném okamžiku (v okamžiku zařazení do bloku);
 - Těsnění na jedno použití**: V případě jednorázových pečetí jdeme ještě o krok dál a závazek je jedinečný. Pomocí jediné hash můžete paralelně vytvořit několik protichůdných závazků (problém lékaře, který rodině oznámí "*Je to chlapec*" a do svého osobního deníku "*Je to dívka*"). Jednorázová pečeť tuto možnost eliminuje tím, že závazek připojí k médiu prokazujícímu jeho zveřejnění, jako je například bitcoinový blockchain, takže vynaložení UTXO závazek definitivně zpečetí. Jakmile je jednou utraceno, nemůže být stejné UTXO znovu utraceno, aby závazek nahradilo.
 
-| Jednorázové pečetě | Časové značky | Jednoduchý závazek (digest/hash) | Jednorázové pečetě |
-
-| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-| Zveřejnění závazku neprozrazuje zprávu | Ano | Ano | Ano | Ano | Ano
-
-| Důkaz data závazku / existence zprávy před určitým datem | Nemožné | Možné | Možné | Možné | Možné
-
-| Důkaz, že žádný jiný alternativní závazek nemůže existovat | Nemožné | Možné |
+|                                                                                  | Jednoduchý závazek (digest/hash) | Časová razítka | Jednorázové pečeti |
+| -------------------------------------------------------------------------------- | -------------------------------- | ------------- | ------------------ |
+| Zveřejnění závazku neodhaluje zprávu                                             | Ano                              | Ano          | Ano               |
+| Důkaz o datu závazku / existenci zprávy před určitým datem                      | Nemožné                          | Možné        | Možné             |
+| Důkaz, že nemůže existovat žádný alternativní závazek                           | Nemožné                          | Nemožné      | Možné             |
 
 Jednorázové těsnění pracuje ve třech hlavních fázích:
 
@@ -461,17 +457,13 @@ Při práci na RGB jsme identifikovali nejméně 4 různé způsoby, jak tyto pe
 - Definujte pečeť pomocí hodnoty veřejného klíče a uzavřete ji v _vstupu_ ;
 - Definujte pečeť pomocí _outpoint_ a uzavřete ji v _input_.
 
-| Definice plomby | Uzávěr plomby | Další požadavky | Hlavní použití | Možná schémata zapojení |
+| Název schématu | Definice pečetě          | Uzavření pečetě        | Další požadavky                                                   | Hlavní aplikace              | Možné závazkové schématy        |
+| -------------- | ------------------------ | ---------------------- | ----------------------------------------------------------------- | ---------------------------- | -------------------------------- |
+| PkO            | Hodnota veřejného klíče  | Výstup transakce       | P2(W)PKH                                                          | Zatím žádná                  | Keytweak, taptweak, opret       |
+| TxO2           | Výstup transakce         | Výstup transakce       | Vyžaduje deterministické závazky na Bitcoinu                      | RGBv1 (univerzální)          | Keytweak, tapret, opret         |
+| PkI            | Hodnota veřejného klíče  | Vstup transakce        | Pouze Taproot & nekompatibilní se staršími peněženkami            | Bitcoinové identitě založené | Sigtweak, witweak               |
+| TxO1           | Výstup transakce         | Vstup transakce        | Pouze Taproot & nekompatibilní se staršími peněženkami            | Zatím žádná                  | Sigtweak, witweak               |
 
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2(W)PKH | V současné době neexistuje | Keytweak, taptweak, opret |
-
-| TxO2 | Transakční výstup | Transakční výstup | Vyžaduje deterministické závazky u Bitcoinu | RGBv1 (univerzální) | Keytweak, tapret, opret |
-
-| PkI | Hodnota veřejného klíče | Záznam o transakci | Pouze Taproot a není kompatibilní se staršími peněženkami | Identity založené na Bitcoinech | Sigtweak, witweak |
-
-| TxO1 | Transakční výstup | Transakční vstup | Pouze Taproot a nekompatibilní se staršími peněženkami | V současné době neexistuje | Sigtweak, witweak |
 
 Nebudeme se podrobně zabývat každou z těchto konfigurací, protože v RGB jsme se rozhodli použít jako definici pečeti **výstupní bod** a umístit _commitment_ do výstupu transakce, která tento _výstupní bod_ utrácí. Můžeme tedy zavést následující pojmy pro pokračování:
 
@@ -741,79 +733,14 @@ Při spuštění systému RGB jsme všechny tyto metody přezkoumali, abychom ur
 - Obtížnost implementace a údržby ;
 - Důvěrnost a odpor vůči cenzuře.
 
-| Trace a on-chain sizing | Client-side sizing | Portfolio integration | Hardware compatibility | Lightning compatibility | Taproot compatibility |
+| Metoda                                               | Stopa a velikost on-chain | Velikost na straně klienta | Integrace peněženek | Kompatibilita s hardwarem | Kompatibilita s Lightning | Kompatibilita s Taproot |
+| ---------------------------------------------------- | ------------------------- | -------------------------- | ------------------- | ------------------------- | ------------------------- | ----------------------- |
+| Keytweak (deterministický P2C)                       | 🟢                        | 🟡                         | 🔴                  | 🟠                        | 🔴 BOLT, 🔴 Bifrost       | 🟠 Taproot, 🟢 MuSig    |
+| Sigtweak (deterministický S2C)                       | 🟢                        | 🟢                         | 🟠                  | 🔴                        | 🔴 BOLT, 🔴 Bifrost       | 🟠 Taproot, 🔴 MuSig    |
+| Opret (OP_RETURN)                                    | 🔴                        | 🟢                         | 🟢                  | 🟠                        | 🔴 BOLT, 🟠 Bifrost       | -                       |
+| Algoritmus Tapret: levý horní uzel                   | 🟠                        | 🔴                         | 🟠                  | 🟢                        | 🔴 BOLT, 🟢 Bifrost       | 🟢 Taproot, 🟢 MuSig    |
+| Algoritmus Tapret #4: jakýkoliv uzel + důkaz jedinečnosti | 🟢                  | 🟠                         | 🟠                  | 🟢                        | 🔴 BOLT, 🟢 Bifrost       | 🟢 Taproot, 🟢 MuSig    |
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
-
-| Keytweak (deterministické P2C) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
-
-| Sigtweak (deterministické S2C) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
-
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - |
-
-| Algoritmus Tapret: levý horní uzel | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Tapret algoritmus #4: libovolný uzel + důkaz | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Deterministické schéma závazků | Standardní | Náklady na řetězec | Velikost důkazů na straně zákazníka |
-
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-
-| Úprava klíče (deterministické P2C) | LNPBP-1, 2 | 0 bajtů | 33 bajtů (neupravený klíč) |
-
-| Sigtweak (deterministické S2C) | WIP (LNPBP-39) | 0 bajtů | 0 bajtů |
-
-| Opret (OP_RETURN) | - | 36 (v)bytů (TxOut additional) | 0 bytů |
-
-| Tapretův algoritmus: levý horní uzel | LNPBP-6 | 32 bajtů ve svědkovi (8 vbytů) na libovolném n-of-m multisig a strávit na cestu skriptu | 0 bajtů na taproot skriptech bez skriptu ~270 bajtů v případě jednoho skriptu, ~128 bajtů, pokud je více než jeden skript |
-
-| Tapret algoritmus #4: libovolný uzel + důkaz jedinečnosti | LNPBP-6 | 32 bajtů ve svědkovi (8 vbytů) pro případy s jedním skriptem, 0 bajtů ve svědkovi ve většině ostatních případů | 0 bajtů u skriptů bez taprootu, 65 bajtů, dokud Taptree nemá tucet skriptů |
-
-| Vrstva | Náklady na řetězec (bajty/byt) | Náklady na řetězec (bajty/byt) | Náklady na řetězec (bajty/byt) | Náklady na řetězec (bajty/byt) | Náklady na řetězec (bajty/byt) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty)
-
-| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-
-| **Type** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Type** | **Type** | **Type** | **Keytweak** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Typ**
-
-| Single-sig | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-of-n) | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-of-3 | 32/8 | 32/8 nebo 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 3 z 5 | 32/8 | 32/8 nebo 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 2-of-3 s časovým limitem | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0
-
-| Vrstva | Náklady v řetězci (vbytes) | Náklady v řetězci (vbytes) | Náklady v řetězci (vbytes) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) |
-
-| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
-
-| **Typ** | **Základna** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** | **Tapret #4**
-
-| MuSig (n-of-n) | 16,5 | 0 | 0 | 0 | 0 | 0 | 0
-
-| FROST (n-of-m) | ? | 0 | 0 | 0 | 0 |
-
-| Multi_a (n-of-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 |
-
-| MuSig branch / Multi_a (n-of-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| S časovými limity (n-of-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Metoda | Důvěrnost a škálovatelnost | Interoperabilita | Kompatibilita | Přenositelnost | Složitost |
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-| Keytweak (deterministické P2C) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 | 🟡 |
-
-| Sigtweak (deterministické S2C) | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 | |
-
-| Algo Tapret: levý horní uzel | 🟠 | 🟢 | 🔴 | 🟠 | 🟠 |
-
-| Algo Tapret #4: Jakýkoli uzel + důkaz | 🟢 | 🟢 | 🔴 | 🔴 |
 
 V průběhu studie se ukázalo, že žádné z těchto schémat závazků není plně kompatibilní se současným standardem Lightning (který nepoužívá Taproot, _muSig2_ ani další podporu _závazků). Probíhá úsilí o úpravu konstrukce kanálu Lightning (*BiFrost*) tak, aby umožňovala vkládání závazků RGB. To je další oblast, kde je třeba přezkoumat strukturu transakcí, klíče a způsob, jakým se podepisují aktualizace kanálů.
 

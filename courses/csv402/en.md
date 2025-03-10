@@ -311,15 +311,11 @@ The following comparison helps to understand this principle:
 - Timestamp (blockchain)**: By inserting this hash in the blockchain, we also prove that we knew it at a precise moment (that of inclusion in a block);
 - Single-use Seal**: With single-use seals, we go one step further by making the commitment unique. With a single hash, you can create several contradictory commitments in parallel (the problem of the doctor who announces "*It's a boy*" to the family and "*It's a girl*" in his personal diary). The Single-use Seal eliminates this possibility by connecting the commitment to a proof-of-publication medium, such as the Bitcoin blockchain, so that an expenditure of UTXO definitively seals the commitment. Once spent, the same UTXO cannot be re-spent to replace the commitment.
 
-| Single-use Seals | Timestamps | Simple commitment (digest/hash) | Single-use Seals |
-
+|                                                                                  | Simple commitment (digest/hash) | Timestamps | Single-use seals |
 | -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-| Publication of the commitment does not reveal the message | Yes | Yes | Yes | Yes
-
-| Proof of date of commitment / existence of message before a certain date | Impossible | Possible | Possible | Possible
-
-| Proof that no other alternative commitment can exist | Impossible | Possible |
+| Publishing the commitment does not reveal the message                           | Yes                             | Yes        | Yes              |
+| Proof of the commitment date / existence of the message before a certain date  | Impossible                      | Possible   | Possible         |
+| Proof that no alternative commitment can exist                                 | Impossible                      | Impossible | Possible         |
 
 Single-use Seals work in three main stages:
 
@@ -461,17 +457,13 @@ While working on RGB, we identified at least 4 different ways to implement these
 - Define the seal via the value of a public key, and close it in a _input_ ;
 - Define the seal via an _outpoint_, and close it in an _input_.
 
-| Seal definition | Seal closure | Additional requirements | Main application | Possible engagement schemes |
+| Schema Name | Seal Definition           | Seal Closure              | Additional Requirements                                        | Main Application            | Possible Commitment Schemes     |
+| ----------- | ------------------------- | ------------------------- | -------------------------------------------------------------- | --------------------------- | -------------------------------- |
+| PkO         | Public Key Value          | Transaction Output        | P2(W)PKH                                                       | None at the moment          | Keytweak, taptweak, opret       |
+| TxO2        | Transaction Output        | Transaction Output        | Requires deterministic commitments on Bitcoin                  | RGBv1 (universal)           | Keytweak, tapret, opret         |
+| PkI         | Public Key Value          | Transaction Input         | Taproot only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
+| TxO1        | Transaction Output        | Transaction Input         | Taproot only & not compatible with legacy wallets              | None at the moment          | Sigtweak, witweak               |
 
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2(W)PKH | None at present | Keytweak, taptweak, opret |
-
-| TxO2 | Transaction output | Transaction output | Requires deterministic commitments on Bitcoin | RGBv1 (universal) | Keytweak, tapret, opret |
-
-| PkI | Public key value | Transaction entry | Taproot only & not compatible with Legacy wallets | Bitcoin-based identities | Sigtweak, witweak |
-
-| TxO1 | Transaction output | Transaction input | Taproot only & not compatible with Legacy wallets | None at present | Sigtweak, witweak |
 
 We won't go into detail about each of these configurations, as in RGB we've chosen to use **an _outpoint_ as the definition of the seal**, and to place the _commitment_ in the output of the transaction spending this _outpoint_. We can therefore introduce the following concepts for the sequel:
 
@@ -741,79 +733,15 @@ When we started RGB, we reviewed all these methods to determine where and how to
 - Difficulty of implementation and maintenance ;
 - Confidentiality and resistance to censorship.
 
-| Trace and on-chain sizing | Client-side sizing | Portfolio integration | Hardware compatibility | Lightning compatibility | Taproot compatibility |
+| Method                                             | On-chain trace & size | Client-side size | Wallet Integration | Hardware Compatibility | Lightning Compatibility | Taproot Compatibility |
+| -------------------------------------------------- | --------------------- | ---------------- | ------------------ | ---------------------- | ---------------------- | --------------------- |
+| Keytweak (deterministic P2C)                      | 🟢                     | 🟡                 | 🔴                   | 🟠                     | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🟢 MuSig  |
+| Sigtweak (deterministic S2C)                      | 🟢                     | 🟢                 | 🟠                   | 🔴                     | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🔴 MuSig  |
+| Opret (OP_RETURN)                                 | 🔴                     | 🟢                 | 🟢                   | 🟠                     | 🔴 BOLT, 🟠 Bifrost     | -                     |
+| Tapret Algorithm: top-left node                   | 🟠                     | 🔴                 | 🟠                   | 🟢                     | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
+| Tapret Algorithm #4: any node + proof             | 🟢                     | 🟠                 | 🟠                   | 🟢                     | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
 
-| Keytweak (deterministic P2C) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
-
-| Sigtweak (deterministic S2C) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
-
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - |
-
-| Tapret algorithm: top-left node | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Tapret algorithm #4: any node + proof | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Deterministic commitment scheme | Standard | On-chain cost | Size of customer-side evidence |
-
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-
-| Keytweak (deterministic P2C) | LNPBP-1, 2 | 0 bytes | 33 bytes (untweaked key) |
-
-| Sigtweak (deterministic S2C) | WIP (LNPBP-39) | 0 bytes | 0 bytes |
-
-| Opret (OP_RETURN) | - | 36 (v)bytes (TxOut additional) | 0 bytes |
-
-| Tapret algorithm: top-left node | LNPBP-6 | 32 bytes in witness (8 vbytes) on any n-of-m multisig and spend per script path | 0 bytes on taproot scriptless scripts ~270 bytes in a single script case, ~128 bytes if more than one script |
-
-| Tapret algorithm #4: any node + proof of uniqueness | LNPBP-6 | 32 bytes in the witness (8 vbytes) for single script cases, 0 bytes in the witness in most other cases | 0 bytes on taproot scriptless scripts, 65 bytes until the Taptree has a dozen scripts |
-
-| Layer | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | Client-side cost (bytes) | Client-side cost (bytes) | Client-side cost (bytes) | Client-side cost (bytes) | Client-side cost (bytes) |
-
-| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-
-| **Type** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** |
-
-| Single-sig | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-of-n) | 0 | 0 | 0 | 32 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-of-3 | 32/8 | 32/8 or 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 3-of-5 | 32/8 | 32/8 or 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 2-of-3 with timeouts | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0
-
-| Layer | Cost on-chain (vbytes) | Cost on-chain (vbytes) | Cost on-chain (vbytes) | Cost on client side (bytes) | Cost on client side (bytes) |
-
-| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
-
-| **Type** | **Base** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** |
-
-| MuSig (n-of-n) | 16.5 | 0 | 0 | 0 | 0 | 0
-
-| FROST (n-of-m) | ? | 0 | 0 | 0 | 0 |
-
-| Multi_a (n-of-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 |
-
-| MuSig branch / Multi_a (n-of-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| With timeouts (n-of-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Method | Confidentiality and scalability | Interoperability | Compatibility | Portability | Complexity |
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-| Keytweak (deterministic P2C) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 |
-
-| Sigtweak (deterministic S2C) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 |
-
-| Algo Tapret: top-left node | 🟠 | 🟢 | 🔴 | 🟠 |
-
-| Algo Tapret #4: Any node + proof | 🟢 | 🟢 | 🟠 | 🔴 |
 
 In the course of the study, it became clear that none of the commitment schemes was fully compatible with the current Lightning standard (which does not employ Taproot, _muSig2_ or additional _commitment_ support). Efforts are underway to modify Lightning's channel construction (*BiFrost*) to allow the insertion of RGB commitments. This is another area where we need to review the transaction structure, the keys and the way in which channel updates are signed.
 

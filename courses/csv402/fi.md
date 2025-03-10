@@ -311,15 +311,12 @@ Seuraava vertailu auttaa ymmärtämään tätä periaatetta:
 - Aikaleima (lohkoketju)**: Lisäämällä tämän hash-tunnisteen lohkoketjuun todistamme myös, että tiesimme sen tarkalleen tiettynä ajankohtana (lohkoon sisällyttämisen ajankohtana);
 - Kertakäyttöinen tiiviste**: Kertakäyttösinettien avulla menemme askeleen pidemmälle tekemällä sitoumuksesta ainutlaatuisen. Yhdellä hashilla voidaan luoda useita ristiriitaisia sitoumuksia rinnakkain (lääkärin ongelma, joka ilmoittaa perheelle "*Se on poika*" ja henkilökohtaiseen päiväkirjaansa "*Se on tyttö*"). Kertakäyttösinetti eliminoi tämän mahdollisuuden yhdistämällä sitoumuksen julkaisutodisteen välineeseen, kuten Bitcoinin lohkoketjuun, jolloin UTXO:n käyttö sinetöi sitoumuksen lopullisesti. Kun UTXO on käytetty, samaa UTXO:ta ei voi käyttää uudelleen sitoumuksen korvaamiseksi.
 
-| Kertakäyttösinetit | Aikaleimat | Yksinkertainen sitoutuminen (digest/hash) | Kertakäyttösinetit | Kertakäyttöiset sinetit |
+|                                                                                  | Yksinkertainen sitoumus (digest/hash) | Aikaleimat | Kertakäyttöiset sinetit |
+| -------------------------------------------------------------------------------- | ------------------------------------- | ---------- | ---------------------- |
+| Sitoumuksen julkaisu ei paljasta viestiä                                        | Kyllä                                | Kyllä      | Kyllä                 |
+| Todiste sitoumuksen päivästä / viestin olemassaolosta ennen tiettyä päivää     | Mahdoton                             | Mahdollinen | Mahdollinen          |
+| Todiste siitä, että vaihtoehtoista sitoumusta ei voi olla                      | Mahdoton                             | Mahdoton   | Mahdollinen          |
 
-| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-| Sitoumuksen julkaiseminen ei paljasta viestiä | Kyllä | Kyllä | Kyllä | Kyllä | Kyllä | Kyllä | Kyllä
-
-| Todiste sitoumuksen päivämäärästä / viestin olemassaolosta ennen tiettyä päivämäärää | Mahdotonta | Mahdollista | Mahdollista | Mahdollista | Mahdollista
-
-| Todiste siitä, että muuta vaihtoehtoista sitoumusta ei voi olla olemassa | Mahdoton | Mahdollinen | Mahdollinen |
 
 Kertakäyttöiset tiivisteet toimivat kolmessa päävaiheessa:
 
@@ -461,17 +458,12 @@ RGB:n parissa työskennellessämme löysimme ainakin neljä erilaista tapaa tote
 - Määritä sinetti julkisen avaimen arvon avulla ja sulje se _input_ -kenttään;
 - Määritä tiiviste _outpoint_:n kautta ja sulje se _input_:lla.
 
-| Sinetin määritelmä | Sinetin sulkeminen | Lisävaatimukset | Pääasiallinen sovellus | Mahdolliset sitoutumisjärjestelmät |
-
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2(W)PKH | Ei tällä hetkellä | Keytweak, taptweak, opret |
-
-| TxO2 | Transaktiotulostus | Transaktiotulostus | Vaatii deterministisiä sitoumuksia Bitcoinissa | RGBv1 (universaali) | Keytweak, tapret, opret |
-
-| PkI | Julkisen avaimen arvo | Transaktiomerkintä | Vain Taproot ja ei yhteensopiva Legacy-lompakoiden kanssa | Bitcoin-pohjaiset identiteetit | Sigtweak, witweak |
-
-| TxO1 | Transaktioiden lähtö | Transaktioiden tulo | Vain Taproot ja ei yhteensopiva Legacy-lompakoiden kanssa | Ei tällä hetkellä | Sigtweak, witweak |
+| Kaavion nimi | Tiivisteen määritelmä     | Tiivisteen sulkeminen   | Lisävaatimukset                                                 | Pääsovellus                | Mahdolliset sitoutumisjärjestelmät |
+| ------------- | ------------------------- | ----------------------- | -------------------------------------------------------------- | -------------------------- | ---------------------------------- |
+| PkO           | Julkisen avaimen arvo     | Tapahtuman ulostulo     | P2(W)PKH                                                        | Ei vielä käytössä          | Keytweak, taptweak, opret         |
+| TxO2          | Tapahtuman ulostulo       | Tapahtuman ulostulo     | Edellyttää deterministisiä sitoumuksia Bitcoinissa              | RGBv1 (yleinen)            | Keytweak, tapret, opret           |
+| PkI           | Julkisen avaimen arvo     | Tapahtuman sisääntulo   | Vain Taproot & ei yhteensopiva perinteisten lompakoiden kanssa  | Bitcoin-pohjaiset identiteetit | Sigtweak, witweak                |
+| TxO1          | Tapahtuman ulostulo       | Tapahtuman sisääntulo   | Vain Taproot & ei yhteensopiva perinteisten lompakoiden kanssa  | Ei vielä käytössä          | Sigtweak, witweak                 |
 
 Emme mene yksityiskohtaisesti kuhunkin näistä konfiguraatioista, sillä RGB:ssä olemme päättäneet käyttää **ulkopistettä_ tiivisteen määritelmänä** ja sijoittaa _sitoumuksen_ transaktion ulostuloon, joka kuluttaa tämän _ulkopisteen_. Voimme siis ottaa käyttöön seuraavat käsitteet jatkoa varten:
 
@@ -741,79 +733,15 @@ Kun aloitimme RGB:n, kävimme läpi kaikki nämä menetelmät määrittääksemm
 - Toteutuksen ja ylläpidon vaikeus ;
 - Luottamuksellisuus ja sensuurin vastustaminen.
 
-| Jäljitys ja ketjussa tapahtuva mitoitus | Asiakaspuolen mitoitus | Salkkuintegraatio | Laitteistoyhteensopivuus | Lightning-yhteensopivuus | Taproot-yhteensopivuus |
+| Menetelmä                                          | On-chain jälki ja koko | Asiakaspuolen koko | Lompakon integrointi | Laitteistoyhteensopivuus | Lightning-yhteensopivuus | Taproot-yhteensopivuus |
+| -------------------------------------------------- | --------------------- | ------------------ | -------------------- | ----------------------- | --------------------- | --------------------- |
+| Keytweak (deterministinen P2C)                    | 🟢                     | 🟡                 | 🔴                     | 🟠                        | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
+| Sigtweak (deterministinen S2C)                    | 🟢                     | 🟢                 | 🟠                     | 🔴                        | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
+| Opret (OP_RETURN)                                 | 🔴                     | 🟢                 | 🟢                     | 🟠                        | 🔴 BOLT, 🟠 Bifrost | -                     |
+| Tapret-algoritmi: vasen yläsolmu                  | 🟠                     | 🔴                 | 🟠                     | 🟢                        | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
+| Tapret-algoritmi #4: mikä tahansa solmu + todiste | 🟢                     | 🟠                 | 🟠                     | 🟢                        | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
 
-| Keytweak (deterministinen P2C) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig | 🟢 MuSig |
-
-| Sigtweak (deterministinen S2C) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig | 🔴 MuSig |
-
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - | |
-
-| Tapret-algoritmi: vasemmanpuoleinen yläsolmu | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig | 🟢 MuSig |
-
-| Tapret-algoritmi #4: mikä tahansa solmu + todiste | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig | 🟢 Taproot, 🟢 MuSig |
-
-| Deterministinen sitoutumisjärjestelmä | Standardi | Ketjun sisäiset kustannukset | Asiakaspuolen todisteiden koko |
-
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-
-| Keytweak (deterministinen P2C) | LNPBP-1, 2 | 0 tavua | 33 tavua (untweak-avain) |
-
-| Sigtweak (deterministinen S2C) | WIP (LNPBP-39) | 0 tavua | 0 tavua | 0 tavua |
-
-| Opret (OP_RETURN) | - | 36 (v)tavua (TxOut additional) | 0 tavua | 0 tavua |
-
-| Tapret-algoritmi: vasemmanpuoleinen yläsolmu | LNPBP-6 | 32 tavua todistajana (8 vtavua) missä tahansa n-m-multisig:ssä ja kuluttaa käsikirjoituspolkua kohti | 0 tavua taproot-skriptittömissä käsikirjoituksissa ~270 tavua yhden käsikirjoituksen tapauksessa, ~128 tavua, jos useampi kuin yksi käsikirjoitus |
-
-| Tapret-algoritmi #4: mikä tahansa solmu + todiste ainutlaatuisuudesta | LNPBP-6 | 32 tavua todistajassa (8 vtavua) yhden skriptin tapauksissa, 0 tavua todistajassa useimmissa muissa tapauksissa | 0 tavua taproot-skriptittömissä skripteissä, 65 tavua, kunnes Taptriassa on kymmenkunta skriptiä |
-
-| Kerros | Ketjun kustannukset (tavua/vt) | Ketjun kustannukset (tavua/vt) | Ketjun kustannukset (tavua/vt) | Ketjun kustannukset (tavua/vt) | Ketjun kustannukset (tavua/vt) | Ketjun kustannukset (tavua/vt) | Ketjun kustannukset (tavua/vt) | Asiakkaan kustannukset (tavua) | Asiakkaan kustannukset (tavua) | Asiakkaan kustannukset (tavua) | Asiakkaan kustannukset (tavua) | Asiakkaan kustannukset (tavua) | Asiakkaan kustannukset (tavua) | Asiakkaan kustannukset (tavua) | Asiakasryhmä |
-
-| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-
-| **Type** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Opret** |
-
-| Single-sig | 0 | 0 | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-of-n) | 0 | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-of-3 | 32/8 | 32/8 tai 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 | 0 |
-
-| Multi-sig 3-of-5 | 32/8 | 32/8 tai 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 | 0 |
-
-| Multi-sig 2-of-3 aikakatkaisuilla | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0 | 0
-
-| Kerros | Kustannukset ketjussa (vtav) | Kustannukset ketjussa (vtav) | Kustannukset ketjussa (vtav) | Kustannukset asiakkaan puolella (tavua) | Kustannukset asiakkaan puolella (tavua) | Kustannukset asiakkaan puolella (tavua) |
-
-| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
-
-| **Type** | **Base** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** |
-
-| MuSig (n-n) | 16.5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
-
-| FROST (n-of-m) | ? | 0 | 0 | 0 | 0 |
-
-| Multi_a (n-of-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 | 46 |
-
-| MuSig-haara / Multi_a (n-of-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 | 8 | 0 | 64 | 65 | 64 | 65 |
-
-| Aikakatkaisuilla (n-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 | 65 |
-
-| Menetelmä | Luottamuksellisuus ja skaalautuvuus | Yhteentoimivuus | Yhteensopivuus | Siirrettävyys | Monimutkaisuus | Monimutkaisuus |
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-| Keytweak (deterministinen P2C) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 | 🟡 |
-
-| Sigtweak (deterministinen S2C) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 | 🟢 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 | 🟢 |
-
-| Algo Tapret: vasemmanpuoleinen yläsolmu | 🟠 | 🟢 | 🔴 | 🟠 | 🟠 |
-
-| Algo Tapret #4: 🟢 | 🟢 | 🟢 | 🟠 | 🔴 | 🟠 | 🔴 |
 
 Tutkimuksen aikana kävi selväksi, että mikään sitoutumisjärjestelmistä ei ollut täysin yhteensopiva nykyisen Lightning-standardin kanssa (jossa ei käytetä Taproot-, _muSig2_- tai muuta _commitment_-tukea). Lightningin kanavanrakennetta (*BiFrost*) pyritään parhaillaan muuttamaan siten, että RGB-sitoumukset voidaan sisällyttää siihen. Tämä on toinen alue, jolla meidän on tarkistettava transaktiorakennetta, avaimia ja tapaa, jolla kanavapäivitykset allekirjoitetaan.
 

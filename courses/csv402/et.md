@@ -311,15 +311,12 @@ Järgnev võrdlus aitab seda põhimõtet mõista:
 - Ajatempel (plokiahela)**: Lisades selle hash'i plokiahelasse, tõestame ka, et me teadsime seda konkreetsel hetkel (plokki lisamise ajal);
 - Ühekordselt kasutatav pitsat**: Ühekordsete pitserite puhul läheme sammu võrra kaugemale, muutes kohustuse ainulaadseks. Ühe hashiga saab paralleelselt luua mitu vastandlikku kohustust (arstide probleem, kes teatab perele "*See on poiss*" ja oma isiklikus päevikusse "*See on tüdruk*"). Ühekordne pitsat välistab selle võimaluse, ühendades kohustuse avaldustõendiga, näiteks Bitcoini plokiahelaga, nii et UTXO kulutamine pitseerib kohustuse lõplikult. Pärast kulutamist ei saa sama UTXO-d uuesti kulutada, et asendada kohustust.
 
-| Ühekordsed pitsatid | Ajatemplid | Lihtne kohustus (digest/hash) | Ühekordsed pitsatid | Ühekordsed pitsatid |
+|                                                                                  | Lihtne kohustus (digest/hash) | Ajatemplid | Ühekordsed pitsatid |
+| -------------------------------------------------------------------------------- | ----------------------------- | ---------- | ------------------- |
+| Kohustuse avaldamine ei avalda sõnumit                                          | Jah                           | Jah        | Jah               |
+| Tõend kohustuse kuupäevast / sõnumi olemasolust enne kindlat kuupäeva         | Võimatu                       | Võimalik   | Võimalik          |
+| Tõend, et ühtegi alternatiivset kohustust ei saa eksisteerida                  | Võimatu                       | Võimatu    | Võimalik          |
 
-| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-| Kohustuse avaldamine ei avalda sõnumit | Jah | Jah | Jah | Jah | Jah | Jah | Jah | Jah
-
-| Kohustuse kuupäevade tõendamine / sõnumi olemasolu enne teatud kuupäeva | Võimatu | Võimalik | Võimalik | Võimalik | Võimalik | Võimalik
-
-| Tõend, et muud alternatiivset kohustust ei saa olla | Võimatu | Võimalik | Võimalik |
 
 Ühekordsed tihendid töötavad kolmes peamises etapis:
 
@@ -461,17 +458,12 @@ RGB kallal töötades leidsime vähemalt 4 erinevat võimalust nende pitserite r
 - Määrake pitser avaliku võtme väärtuse kaudu ja sulgege see _sisendisse_ ;
 - Määrake pitsat _väljundpunkti_ kaudu ja sulgege see _sisendpunkti_ kaudu.
 
-| Pitseri määratlus | Pitseri sulgemine | Täiendavad nõuded | Põhirakendus | Võimalikud kaasamisskeemid |
-
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2(W)PKH | Praegu puudub | Keytweak, taptweak, opret |
-
-| TxO2 | Tehingu väljund | Tehingu väljund | Nõuab Bitcoini deterministlikke kohustusi | RGBv1 (universaalne) | Keytweak, tapret, opret |
-
-| PkI | Avaliku võtme väärtus | Tehingukanne | Ainult Taproot & ei ühildu Legacy rahakottidega | Bitcoin-põhised identiteedid | Sigtweak, witweak |
-
-| TxO1 | Tehingu väljund | Tehingu sisend | Ainult Taproot & ei ühildu Legacy rahakottidega | Hetkel puudub | Sigtweak, witweak |
+| Skeemi nimi  | Pitseri definitsioon      | Pitseri sulgemine       | Lisatingimused                                                  | Peamine rakendus           | Võimalikud kohustuslikud skeemid |
+| ------------- | ------------------------- | ----------------------- | -------------------------------------------------------------- | -------------------------- | -------------------------------- |
+| PkO           | Avaliku võtme väärtus     | Tehingu väljund         | P2(W)PKH                                                        | Hetkel puudub              | Keytweak, taptweak, opret       |
+| TxO2          | Tehingu väljund           | Tehingu väljund         | Nõuab Bitcoinis deterministlikke kohustusi                      | RGBv1 (universaalne)       | Keytweak, tapret, opret         |
+| PkI           | Avaliku võtme väärtus     | Tehingu sisend          | Ainult Taproot & ei ühildu vanade rahakottidega                 | Bitcoinil põhinevad identiteedid | Sigtweak, witweak              |
+| TxO1          | Tehingu väljund           | Tehingu sisend          | Ainult Taproot & ei ühildu vanade rahakottidega                 | Hetkel puudub              | Sigtweak, witweak               |
 
 Me ei hakka iga sellise konfiguratsiooni kohta üksikasjalikult rääkima, sest RGB-s oleme otsustanud kasutada **pitseri määratlusena **väljundit** ja paigutada _sisselülitus_ tehingu väljundisse, mis kulutab seda _väljundit_. Seega võime järgmiseks kasutusele võtta järgmised mõisted:
 
@@ -741,79 +733,15 @@ Kui me alustasime RGBga, vaatasime kõik need meetodid läbi, et määrata kindl
 - Rakendamise ja hoolduse keerukus ;
 - Konfidentsiaalsus ja vastupanu tsensuurile.
 
-| Jälgimine ja ahelasisene dimensioneerimine | Kliendipoolne dimensioneerimine | Portfelli integreerimine | Riistvara ühilduvus | Lightning ühilduvus | Taproot ühilduvus |
+| Meetod                                             | On-chain jälg ja suurus | Kliendi poole suurus | Rahakoti integreerimine | Riistvara ühilduvus | Lightning ühilduvus | Taproot ühilduvus |
+| -------------------------------------------------- | ---------------------- | ------------------ | ---------------------- | ------------------ | ----------------- | --------------- |
+| Keytweak (deterministlik P2C)                      | 🟢                     | 🟡                 | 🔴                      | 🟠                 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
+| Sigtweak (deterministlik S2C)                      | 🟢                     | 🟢                 | 🟠                      | 🔴                 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
+| Opret (OP_RETURN)                                  | 🔴                     | 🟢                 | 🟢                      | 🟠                 | 🔴 BOLT, 🟠 Bifrost | -               |
+| Tapret algoritm: vasak-ülemine sõlm               | 🟠                     | 🔴                 | 🟠                      | 🟢                 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
+| Tapret algoritm #4: suvaline sõlm + tõend         | 🟢                     | 🟠                 | 🟠                      | 🟢                 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
 
-| Keytweak (deterministlik P2C) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig | 🟢 MuSig |
-
-| Sigtweak (deterministlik S2C) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig | 🟠 Sigtweak |
-
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - | |
-
-| Tapret algoritm: vasakpoolne ülemine sõlmpunkt | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig | 🟢 MuSig |
-
-| Tapret algoritm #4: iga sõlme + tõend | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig | 🟢 Taproot |
-
-| Deterministlik kulukohustusskeem | Standard | Kulud ahelas | Kliendipoolse tõendusmaterjali suurus |
-
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-
-| Keytweak (deterministlik P2C) | LNPBP-1, 2 | 0 baiti | 33 baiti (parandamata võti) |
-
-| Sigtweak (deterministlik S2C) | WIP (LNPBP-39) | 0 baiti | 0 baiti | 0 baiti |
-
-| Opret (OP_RETURN) | - | 36 (v)baiti (TxOut täiendav) | 0 baiti |
-
-| Tapret algoritm: vasakpoolne ülemine sõlm | LNPBP-6 | 32 baiti tunnistaja (8 vbaiti) igal n-m multisigil ja kulutab ühe skripti tee kohta | 0 baiti taproot skriptita skriptidel ~270 baiti ühe skripti puhul, ~128 baiti, kui mitu skripti |
-
-| Tapret algoritm #4: iga sõlme + unikaalsuse tõestus | LNPBP-6 | 32 baiti tunnistajas (8 vb) ühe skripti puhul, 0 baiti tunnistajas enamikul muudel juhtudel | 0 baiti taproot skriptita skriptide puhul, 65 baiti kuni Taptree on tosin skripti |
-
-| Kiht | Kettakulu (baidid/vbait) | Kettakulu (baidid/vbait) | Kettakulu (baidid/vbait) | Kettakulu (baidid/vbait) | Kettakulu (baidid/vbait) | Kettakulu (baidid/vbait) | Kliendipoolne kulu (baidid) | Kliendipoolne kulu (baidid) | Kliendipoolne kulu (baidid) | Kliendipoolne kulu (baidid) | Kliendipoolne kulu (baidid) | Kliendipoolne kulu (baidid) |
-
-| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-
-| **Tüüp** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret #4** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Opret** |
-
-| Single-sig | 0 | 0 | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-n) | 0 | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-of-3 | 32/8 | 32/8 või 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 | 0 |
-
-| Multi-sig 3-of-5 | 32/8 | 32/8 või 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 | 0 |
-
-| Multi-sig 2-of-3 ajavaruga | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0 | 0
-
-| Kiht | Kulu ahelas (vb) | Kulu ahelas (vb) | Kulu ahelas (vb) | Kulu kliendi poolel (baidid) | Kulu kliendi poolel (baidid) | Kulu kliendi poolel (baidid) |
-
-| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
-
-| **Tüüp** | **Base** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** | **Tapret #4** |
-
-| MuSig (n-n) | 16,5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
-
-| FROST (n-of-m) | ? | 0 | 0 | 0 | 0 |
-
-| Multi_a (n-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 | 65 |
-
-| MuSig haru / Multi_a (n-ist-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 | 65 |
-
-| Aegumistega (n-ist-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 | 65 |
-
-| Meetod | Konfidentsiaalsus ja skaleeritavus | Koostalitlusvõime | Ühilduvus | Kaasaskantavus | Keerukus | Komplekssus |
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-| Keytweak (deterministlik P2C) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 | 🟡 |
-
-| Sigtweak (deterministlik S2C) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 | 🟢 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 | 🟢 |
-
-| Algo Tapret: ülemine vasakpoolne sõlm | 🟠 | 🟢 | 🔴 | 🟠 | 🟠 |
-
-| Algo Tapret #4: Iga sõlme + tõend | 🟢 | 🟢 | 🟠 | 🔴 | 🟢 |
 
 Uuringu käigus selgus, et ükski kohustusskeemidest ei ole täielikult ühilduv praeguse Lightning-standardiga (mis ei kasuta Taproot, _muSig2_ või täiendavat _commitment_-tuge). Praegu tehakse jõupingutusi, et muuta Lightning'i kanali konstruktsiooni (*BiFrost*), et võimaldada RGB-kohustuste lisamist. See on veel üks valdkond, kus me peame üle vaatama tehingu struktuuri, võtmed ja viisi, kuidas kanali uuendused allkirjastatakse.
 

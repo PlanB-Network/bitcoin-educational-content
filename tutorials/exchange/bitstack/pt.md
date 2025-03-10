@@ -54,6 +54,7 @@ Escolha uma palavra-passe forte para proteger o acesso à sua conta e, em seguid
 Para uma gestão segura das palavras-passe no dia a dia, a utilização de um gestor de palavras-passe é altamente recomendada. No Plan ₿ Network, encontrará vários tutoriais sobre as melhores soluções existentes, como o Bitwarden :
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Ser-lhe-á então pedido que verifique a sua identidade (KYC). Em conformidade com a regulamentação francesa, ser-lhe-á pedido que forneça os seus dados pessoais e um comprovativo de identidade. Preencha os campos com o seu apelido, nome próprio e data de nascimento.
 
 ![Image](assets/fr/07.webp)

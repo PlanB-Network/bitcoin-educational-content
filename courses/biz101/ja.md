@@ -254,6 +254,7 @@ objectives:
 ビットコイン、その歴史、仕組み、使用方法についての詳細は、この他の包括的なコースに従うこともお勧めする：
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+
 ## ライトニング・ネットワークの紹介
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -335,6 +336,7 @@ Lightningは、インターネットを基盤とするすべてのビジネス�
 ライトニング・ネットワークの技術的な仕組みについては、この他の包括的なコースも参考にしてほしい：
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 # 国庫のビットコイン
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -454,8 +456,11 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 このトピックに関する詳細はこちら：
 
 https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+
 https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+
 ## ビットコインを国庫で保有する
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -630,7 +635,9 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ビジネスアカウントを開設し、それを使ってビットコインを売買、送金する方法を学ぶには、KrakenとBitfinexの法人向けプラットフォームを扱った、ビジネス向けに特別にデザインされた2つのチュートリアルをご覧ください：
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+
 https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+
 取引所やピア・ツー・ピアでビットコインを取得する方法については、[チュートリアルの「取引所」のセクションを参照してください](https://planb.network/tutorials/exchange)。
 
 ![BIZ101](assets/en/16.webp)
@@ -943,14 +950,21 @@ Starter プロファイルは、大規模なリソースや専門知識を投入
 *自己完結型LNウォレット／ノード：***。
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
 https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
+
 **LNウォレット：**。
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+
 ## エッセンシャル
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
@@ -982,12 +996,15 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 あなたのプロフィールに最も適したハイブリッド・ソリューションは、スイス・ビットコイン・ペイだろう：
 
 https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
 もう一つの導入が簡単なソリューションだが、100％カストディアンであるという欠点がある：
 
 https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
 もしあなたが自分の手を汚さず、プロセスを完全にコントロールしたいのであれば、BTCPay Serverソフトウェアは優れた選択肢です。しかし、BTCPayサーバーの主な欠点は、そのセットアップと管理に時間がかかり、一定レベルの技術的専門知識を必要とすることです：
 
 https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+
 最後に、物理的なPOSを補完するものとして、[Bitcoinize PoS](https://bitcoinize.com/)の設置を検討することができる。
 
 ## プロフェッショナル
@@ -1025,6 +1042,7 @@ https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b
 BTC Pay Server の実装の詳細と実践的な設定については、次のコースを参照してください：
 
 https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+
 ## エンタープライズ
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
@@ -1275,6 +1293,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 ビットコインを自己保管する人にとって、UTXO（*Unspent Transaction Outputs*）の管理は重要なステップです。適切なUTXOのラベリングは、各BTCフラグメントの出所を追跡し、専門的な活動に関連するトランザクションと個人的な経費のためのトランザクションを区別し、法的または税務目的のためのトレーサビリティを容易にするのに役立ちます。ほとんどの優れたビットコインウォレットソフトウェアでは、バックアップファイル（またはセットアップによってはxpub）を使用してウォレットをインポートし、その起源または目的地に基づいてUTXOにタグを付けることができます。このチュートリアルをご覧ください：
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 最後に、あなたが小さな商人であろうと、より確立されたビジネスであろうと、**ビットコイン**で請求書を決済することは可能です。重要なのは、取引を適切に文書化することです。セルフカストディのウォレットから支払う場合、ラベルに請求書番号と支払いの目的を記載したトランザクションを生成するのが理想的です。取引所経由で請求書を決済したい場合は、領収書や取引履歴をエクスポートして会計記録に含めるオプションもあります。この透明性により、すべてのBTC業務の追跡と報告が簡素化されます。
 
 ## ビットコイン会計の実践例

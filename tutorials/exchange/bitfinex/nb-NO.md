@@ -23,9 +23,11 @@ Fyll ut den nødvendige informasjonen: skriv inn e-postadressen din og bostedsla
 For tips om bruk og sikring av sterke, unike passord, se også denne veiledningen :
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Vi skal nå konfigurere 2FA for å sikre kontoen. Bruk et autentiseringsprogram på smarttelefonen din, for eksempel Google Authenticator eller Authy. Du finner en veiledning om dette verktøyet her :
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Skann QR-koden med appen din, og skriv inn de seks sifrene som følger med.
 
 ![BITFINEX](assets/fr/03.webp)
@@ -166,6 +168,7 @@ Bitfinex tilbyr også innskudds- og uttaksmuligheter via Lightning Network, noe 
 Hvis du er interessert i Lightning Network, har vi også et komplett opplæringskurs som hjelper deg med å forstå hvordan det fungerer:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 Etter at du har kjøpt dine første bitcoins, har du selvsagt muligheten til å la dem bli værende på plattformen, men jeg anbefaler på det sterkeste å overføre dem til din egen lommebok i egen forvaring. Hvis du ennå ikke vet hvordan du bruker en Bitcoin-lommebok, inviterer jeg deg til å utforske [delen "Lommebok" på Plan ₿ Network] (https://planb.network/tutorials/wallet).
 
 ## 6 - Kjøp og salg av bitcoins på Bitfinex

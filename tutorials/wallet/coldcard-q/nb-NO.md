@@ -20,6 +20,7 @@ I denne veiledningen vil jeg introdusere deg for en slik løsning: **COLDCARD Q*
 COLDCARD Q har mange funksjoner, og jeg foreslår derfor å dele bruken av COLDCARD Q inn i to veiledninger. I denne første veiledningen tar vi for oss den første konfigurasjonen og de grunnleggende funksjonene til enheten. Deretter, i den andre veiledningen, ser vi på hvordan du kan dra nytte av alle COLDCARDs avanserte alternativer.
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ---
 ## Vi introduserer COLDCARD Q
 
@@ -81,6 +82,7 @@ Hvis du foretrekker å drive COLDCARD uten å koble det til en datamaskin (air-g
 For denne opplæringen trenger du også Sparrow Wallet for å administrere Bitcoin-lommeboken din på datamaskinen din. Last ned [Sparrow Wallet] (https://sparrowwallet.com/download/) fra den offisielle nettsiden. Jeg anbefaler på det sterkeste at du sjekker både autentisiteten (med GnuPG) og integriteten (via hash) før du fortsetter med installasjonen. Hvis du ikke vet hvordan du gjør dette, kan du følge denne veiledningen:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ## Valg av PIN-kode
 
 Du kan nå slå på COLDCARD ved å trykke på knappen øverst i venstre hjørne.
@@ -160,6 +162,7 @@ På dette tidspunktet anbefaler vi på det sterkeste at du kontrollerer integrit
 Hvis du ikke er kjent med denne verifiseringsprosessen, anbefaler jeg at du følger denne veiledningen:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Ta et microSD-kort og overfør fastvarefilen (dokument i `.dfu`) til det. Sett microSD-kortet inn i en av portene på COLDCARD.
 
 ![CCQ](assets/fr/021.webp)
@@ -199,6 +202,7 @@ I denne menyen finner du ulike tilpasningsalternativer, for eksempel innstilling
 Vi skal se på andre avanserte innstillinger i neste veiledning:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ## Opprette en Bitcoin-lommebok
 
 Nå er det på tide å generere en ny Bitcoin-lommebok! For å gjøre dette må du opprette en mnemonisk frase. På Coldcard har du tre metoder for å generere denne frasen:
@@ -329,6 +333,7 @@ Før du mottar dine første bitcoins i lommeboken din, ** anbefaler jeg deg på 
 Hvis du vil lære mer om hvordan du utfører en gjenopprettingstest, anbefaler jeg at du leser denne andre veiledningen:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Motta bitcoins
 
 For å motta dine første bitcoins, begynner du med å slå på og låse opp COLDCARD.
@@ -380,6 +385,7 @@ Du kan nå legge til en "*Label*" for å beskrive kilden til bitcoins som skal s
 Hvis du vil ha mer informasjon om merking, anbefaler jeg også denne andre veiledningen:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 Du kan deretter bruke denne adressen til å motta bitcoins.
 
 ![CCQ](assets/fr/063.webp)

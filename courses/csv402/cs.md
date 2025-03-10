@@ -46,6 +46,7 @@ Závěrečná část je vedena dalšími přednášejícími, kteří představ�
 Tento školící kurz původně vznikl na základě dvoutýdenního výcvikového tábora pro pokročilé vývojáře ve Viareggiu v Toskánsku, který pořádala společnost [Fulgur'Ventures](https://fulgur.ventures/). První týden, zaměřený na Rust a SDK, najdete v tomto jiném kurzu:
 
 https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+
 V tomto kurzu se zaměříme na druhý týden bootcampu, který je zaměřen na RGB.
 
 **Týden 1 - LNP402:**
@@ -1866,6 +1867,7 @@ Lightning Network je decentralizovaná síť platebních kanálů (nebo _státn�
 Další informace o tom, jak Lightning funguje, najdete v tomto dalším kurzu:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 #### Multi Protocol Commitment - MPC
 
 Multi Protocol Commitment (MPC) odkazuje na Merkleho stromovou strukturu používanou v RGB, která v rámci jedné bitcoinové transakce zahrnuje několik **přechodových balíčků** z různých smluv. Smyslem je seskupit několik závazků (potenciálně odpovídajících různým smlouvám nebo různým aktivům) do jednoho kotevního bodu s cílem optimalizovat obsazení prostoru bloku.
@@ -3306,6 +3308,7 @@ Síť Lightning Network ve skutečnosti umožňuje směrování plateb více kan
 Fungování systému RGB v síti Lightning je proto třeba posuzovat souběžně s fungováním samotné sítě Lightning. Pokud byste se chtěli tomuto tématu věnovat hlouběji, vřele doporučuji podívat se na toto další komplexní školení:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ### Kódová mapa RGB
 
 Nakonec, než přejdeme k další části, bych vám rád poskytl přehled kódu použitého v RGB. Protokol je založen na sadě knihoven Rust a specifikacích open source. Zde je přehled hlavních repozitářů a beden:

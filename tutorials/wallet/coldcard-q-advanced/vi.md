@@ -7,6 +7,7 @@ description: Using COLDCARD Q's advanced options
 In a previous tutorial, we covered the initial configuration of the COLDCARD Q and its basic functions for beginners. If you've just received your COLDCARD Q and haven't set it up yet, I recommend you start with that tutorial before continuing here:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 This new tutorial is dedicated to COLDCARD Q's advanced options, designed for advanced and paranoid users. In fact, COLDCARDs are distinguished from other hardware wallets by their many advanced security features. Of course, you don't have to use all these options. Just choose the ones that suit your security strategy.
 
 **Warning**, incorrect use of some of these advanced options may result in the loss of your bitcoins or the destruction of your hardware wallet. I therefore strongly recommend that you read the advice and explanations for each option carefully.
@@ -20,6 +21,7 @@ Before you start, make sure you have access to a physical backup of your 12- or 
 If you don't know what a BIP39 passphrase is, or if it's not entirely clear to you how it works, I strongly recommend that you take a look at this tutorial beforehand, which covers the theoretical bases needed to understand the risks associated with using a passphrase :
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Bear in mind that once you've set up the passphrase on your wallet, your mnemonic alone won't be enough to regain access to your bitcoins. You'll need both the mnemonic and the passphrase. What's more, you'll need to enter the passphrase every time you unlock your COLDCARD Q. This enhances security by making physical access to the COLDCARD and knowledge of the PIN insufficient without the passphrase.
 
 On COLDCARDs, you have two options for managing your passphrase:
@@ -67,6 +69,7 @@ Confirm that the fingerprint displayed matches that of your wallet and click on 
 Keep in mind that using a passphrase means you'll need to import a new set of keys derived from the combination of your mnemonic phrase and passphrase into your wallet management software (like Sparrow Wallet). To do this, follow the step "*Configure a new wallet on Sparrow*" in this other tutorial :
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 ## Unlocking options
 
 COLDCARDs also benefit from a host of options for the device unlocking process. Let's find out more about these advanced options.

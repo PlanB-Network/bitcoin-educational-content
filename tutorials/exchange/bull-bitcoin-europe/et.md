@@ -49,6 +49,7 @@ Skaneerige QR-kood oma autentimisrakendusega, sisestage 6-kohaline kood ja klõp
 Kui te ei ole 2FA autentimisrakenduste kasutamisega tuttav, siis soovitan vaadata seda Authy rakenduse õpetust:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Kinnitamiseks sisestage oma parool.
 
 ![BULL](assets/fr/09.webp)
@@ -125,6 +126,7 @@ Sisestage summa, mida soovite osta. Samuti peate valima, kuidas soovite oma sats
 Kui te ei ole kursis Bitcoini, Lightningi või Liquid rahakoti kasutamisega, soovitan teil läbida meie spetsiaalne koolituskursus:
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 Võite uurida ka [meie üksikasjalikke õpetusi parimate Bitcoini rahakottide kohta](https://planb.network/tutorials/wallet).
 
 Seejärel kinnitage oma ostu, klõpsates "*Kinnitage ostu*".

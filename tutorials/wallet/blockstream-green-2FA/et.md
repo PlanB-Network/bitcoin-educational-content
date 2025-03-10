@@ -21,6 +21,7 @@ Green on eriti lihtsasti kasutatav rakendus, mis teeb selle huvitavaks ka algaja
 Blockstream Green toetab ka Liquid võrgu, Bitcoin sidechain poolt välja töötatud Blockstream kiire, konfidentsiaalsete tehingute väljaspool peamine blockchain. Selles õpetuses keskendume ainult Bitcoinile, kuid olen teinud ka teise õpetuse, et õppida, kuidas kasutada Liquid'i Greenis :
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+
 ## 2/2 multisiguvõimalus (2FA)
 
 Rohelisel saad luua klassikalise "*singlesig*" kuuma rahakoti. Kuid teil on ka võimalus kasutada "*2FA multisig*", mis suurendab teie kuuma rahakoti turvalisust ilma selle igapäevast haldamist liigselt keerulisemaks muutmata.
@@ -40,6 +41,7 @@ Selle turvameetodi teine puudus on see, et peate kasutama vähemuse skripti mall
 Kui te eelistate mitte kasutada 2FA võimalust ja soovite lihtsalt luua "*singlesig*" rahakoti Greenil, siis kutsun teid üles tutvuma selle teise õpetusega :
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+
 ## Blockstream Green tarkvara paigaldamine ja konfigureerimine
 
 Esimene samm on loomulikult rohelise rakenduse allalaadimine. Mine oma rakenduste poodi:
@@ -147,6 +149,7 @@ Klõpsake rohelisel nupul "*Kõrgendage oma konto turvalisust, lisades 2FA*".
 Seejärel saate valida autentimismeetodi, et pääseda ligi oma 2/2 multisignaali teisele võtmele. Selles õpetuses kasutame autentimisrakendust. Kui te ei ole seda tüüpi rakendusega tuttav, soovitan teil tutvuda meie õpetusega Authy :
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Valige "*Autentikaatorirakendus*".
 
 ![GREEN 2FA MULTISIG](assets/fr/25.webp)

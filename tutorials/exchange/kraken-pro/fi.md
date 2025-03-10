@@ -11,6 +11,7 @@ Tässä oppaassa käsittelemme Kraken-yritystilin luomista, bitcoinien ostamista
 Jos olet kiinnostunut bitcoinin integroimisesta yritykseesi, suosittelen myös tutustumaan täydelliseen teoreettiseen koulutuskurssiimme aiheesta:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - Kraken-yritystilin luominen
 
 Ensimmäinen askel Krakenin käyttämisessä yrityksesi talouden hallintaan on tietenkin tilin luominen. Tässä yhteydessä emme aio luoda tiliä yksityishenkilöille, vaan yritystilin, joka ei ainoastaan takaa säännösten noudattamisen, vaan tarjoaa myös erityisesti räätälöityjä ominaisuuksia, kuten kirjanpidon viennin.
@@ -78,6 +79,7 @@ Siirry tilisi kuvakkeeseen ja napsauta "*Turvallisuus*".
 Lisätietoja tämäntyyppisen laitteen käytöstä on erillisessä oppaassamme :
 
 https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
 Toinen vaihtoehto on käyttää todennussovellusta, kuten Google Authenticator tai Authy. Nämä sovellukset luovat dynaamisen 6-numeroisen koodin, joka sinun on syötettävä joka kerta, kun kirjaudut sisään.
 
 ![KRAKEN](assets/fr/12.webp)
@@ -89,6 +91,7 @@ Tämän menetelmän aktivoimiseksi skannaa QR-koodi valitsemallasi sovelluksella
 Jos haluat lisätietoja todennussovelluksista, voit tutustua myös tähän opetusohjelmaan :
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Sen alapuolella on myös pääsy lisäasetuksiin, kuten mahdollisuus asettaa useita eri 2FA-toimintoja. Kraken tarjoaa edistynyttä turvallisuuden delegointia 2FA:n avulla. Tämän ominaisuuden avulla voit luoda erilaisia 2FA-tasoja eri toiminnoille, kuten kirjautumiselle, tilauksen vahvistamiselle ja varojen nostamiselle. Tämä mahdollistaa esimerkiksi sen, että kirjanpitäjälle voidaan antaa pääsy tiettyihin toimintoihin ilman, että hän voi nostaa varoja. Tässä ovat vaihtoehdot:
 
 

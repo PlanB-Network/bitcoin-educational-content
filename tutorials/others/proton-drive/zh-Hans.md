@@ -31,6 +31,7 @@ Proton Drive提供的不仅仅是简单的存储选项；它还允许在线共�
 如果您还没有Proton账户，您将需要创建一个。我推荐您参考我们的Proton Mail教程，在其中我们详细解释了如何创建一个免费的Proton账户并设置它：
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ![PROTON DRIVE](assets/notext/04.webp)
 ## 如何设置Proton Drive？
 

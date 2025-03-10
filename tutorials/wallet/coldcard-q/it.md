@@ -20,6 +20,7 @@ In questo tutorial vorrei presentarvi una di queste soluzioni: la **COLDCARD Q**
 Poiché la COLDCARD Q offre una moltitudine di funzioni, propongo di suddividere il suo utilizzo in 2 esercitazioni. In questo primo tutorial, esamineremo la configurazione iniziale e le funzioni di base del dispositivo. Poi, in un secondo tutorial, vedremo come sfruttare tutte le opzioni avanzate della COLDCARD.
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ---
 ## Introduzione alla COLDCARD Q
 
@@ -81,6 +82,7 @@ Se si preferisce alimentare la COLDCARD senza collegarla a un computer (air-gap)
 Per questa esercitazione, è necessario anche Sparrow Wallet per gestire il portafoglio Bitcoin sul computer. Scaricate [Sparrow Wallet](https://sparrowwallet.com/download/) dal sito ufficiale. Vi consiglio vivamente di verificarne l'autenticità (con GnuPG) e l'integrità (tramite hash) prima di procedere all'installazione. Se non sapete come fare, seguite questo tutorial:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ## Selezione del codice PIN
 
 Ora è possibile accendere la COLDCARD premendo il pulsante nell'angolo in alto a sinistra.
@@ -160,6 +162,7 @@ A questo punto, si consiglia vivamente di verificare l'integrità e l'autenticit
 Se non avete familiarità con questo processo di verifica, vi consiglio di seguire questa guida:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Prendete una scheda microSD e trasferiteci il file del firmware (documento in `.dfu`). Inserire la scheda microSD in una delle porte della COLDCARD.
 
 ![CCQ](assets/fr/021.webp)
@@ -199,6 +202,7 @@ In questo menu si trovano varie opzioni di personalizzazione, come l'impostazion
 Nel prossimo tutorial vedremo altre impostazioni avanzate:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ## Creare un portafoglio Bitcoin
 
 Ora è il momento di generare un nuovo portafoglio Bitcoin! Per farlo, è necessario creare una frase mnemonica. Su Coldcard, avete tre metodi per generare questa frase:
@@ -329,6 +333,7 @@ Prima di ricevere i primi bitcoin nel portafoglio, **vi consiglio vivamente di e
 Per saperne di più su come eseguire un test di ripristino, vi suggerisco di consultare quest'altra guida:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Ricevere bitcoin
 
 Per ricevere i primi bitcoin, iniziate accendendo e sbloccando la vostra COLDCARD.
@@ -380,6 +385,7 @@ L'indirizzo è quindi confermato con successo.
 Per ulteriori informazioni sull'etichettatura, consiglio anche quest'altro tutorial:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 È quindi possibile utilizzare questo indirizzo per ricevere bitcoin.
 
 ![CCQ](assets/fr/063.webp)

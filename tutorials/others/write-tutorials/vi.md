@@ -94,4 +94,5 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 - Người mới bắt đầu (giao diện web)**: Bạn cũng có thể chọn sử dụng trực tiếp giao diện web của GitHub mà không cần phải thiết lập môi trường cục bộ hoàn chỉnh. Phương pháp này có thể được cân nhắc cho những đóng góp nhỏ. Tuy nhiên, đối với những đóng góp lớn, chẳng hạn như thêm một hướng dẫn hoàn toàn mới, tùy chọn này có thể phức tạp hơn so với việc thiết lập môi trường cục bộ. Tôi sẽ giải thích cách thực hiện trong hướng dẫn này:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 Chọn một trong ba tùy chọn này theo trình độ kiến thức của bạn, sau đó bắt đầu viết hướng dẫn Plan ₿ Network đầu tiên của bạn!

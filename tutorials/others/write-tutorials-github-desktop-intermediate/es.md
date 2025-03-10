@@ -7,6 +7,7 @@ description: Guía completa para planificar ₿ Tutoriales en red con GitHub Des
 Antes de seguir este tutorial sobre cómo añadir un nuevo tutorial, necesita haber completado algunos pasos preliminares. Si aún no lo ha hecho, eche un vistazo primero a este tutorial introductorio y luego vuelva aquí :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Ya tienes :
 
 
@@ -20,12 +21,14 @@ En este tutorial, veremos cómo añadir tu tutorial a Plan ₿ Network configura
 - Usuarios con experiencia** :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+
 Si prefieres no configurar tu entorno local, sigue este otro tutorial pensado para principiantes, donde realizamos los cambios directamente a través de la interfaz web de GitHub :
 
 
 - Principiantes (interfaz web)** :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## Requisitos previos
 
 Software necesario para seguir este tutorial :
@@ -47,9 +50,13 @@ Requisitos previos antes de empezar el tutorial :
 Si necesitas ayuda para conseguir estos requisitos previos, mis otros tutoriales te ayudarán:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Una vez que todo está en su lugar y su entorno local está configurado con su propio Plan ₿ Network fork, puede empezar a añadir el tutorial.
 
 ## 1 - Crear una nueva sucursal
@@ -141,6 +148,7 @@ Pour la case "PBN professor's ID", saisissez votre identifiant en utilisant les 
 ![TUTO](assets/fr/47.webp)
 Pour plus de détails sur votre identifiant de professeur, veuillez consulter le tutoriel suivant :
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Une fois toutes les informations saisies et vérifiées, cliquez sur "Create Tutorial" pour valider la création des fichiers de votre tutoriel. Cela générera en local le dossier de votre tutoriel et tous les fichiers nécessaires dans le dossier de la catégorie sélectionnée.
 ![TUTO](assets/fr/48.webp)
 Vous pouvez maintenant passer outre la sous-partie "Sans mon script Python", ainsi que l'étape 3 "Remplir le fichier YAML", car le script a déjà effectué ces actions automatiquement pour vous. Passez directement à l'étape 4 et à la rédaction de votre tutoriel.
@@ -246,6 +254,7 @@ Estos son los campos obligatorios:
 Para más detalles sobre su ID de profesor, consulte el tutorial correspondiente :
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Este es un ejemplo de un archivo `tutorial.yml` completado para un tutorial sobre el monedero Blockstream Green:
 
 ```yaml

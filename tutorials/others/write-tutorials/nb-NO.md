@@ -94,4 +94,5 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 - Nybegynnere (webgrensesnitt)** : Du kan også velge å bruke GitHubs webgrensesnitt direkte, uten å måtte sette opp et komplett lokalt miljø. Denne metoden kan vurderes for mindre bidrag. For større bidrag, som for eksempel å legge til en helt ny veiledning, kan dette alternativet imidlertid vise seg å være mer komplisert enn å sette opp et lokalt miljø. Jeg skal forklare hvordan du gjør dette i denne veiledningen:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 Velg ett av disse tre alternativene avhengig av kunnskapsnivået ditt, og sett i gang med å skrive din første Plan ₿ Nettverksveiledning!

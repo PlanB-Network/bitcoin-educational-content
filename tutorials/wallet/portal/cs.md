@@ -67,6 +67,7 @@ Můžete jej vyrýt na kus papíru nebo pro větší bezpečnost doporučuji vyr
 Pro více informací o správném způsobu ukládání a správy mnemotechnických frází vřele doporučuji sledovat tento další návod, zejména pokud jste začátečníci:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 samozřejmě nesmíte tato slova nikdy sdílet na internetu, jako to dělám já v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a na konci tutoriálu bude smazáno.**_
 
 Chcete-li přejít k dalším slovům, stiskněte pevně tlačítko na portálu. Ujistěte se, že jste na tlačítko položili celý prst a několik sekund ho drželi, aby byla interakce správně rozpoznána.

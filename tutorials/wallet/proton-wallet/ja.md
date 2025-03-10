@@ -15,6 +15,7 @@ Protonは最近、モバイルアプリまたはウェブクライアントと�
 プロトンウォレットを使用するには、プロトンアカウントが必要です。プロトンのメールボックスを作成するためのこのチュートリアルの最初のステップ（「*プロトンアカウントの作成*」セクションのみ）に従えば、無料で作成できます。アカウントのセットアップが完了したら、このチュートリアルの残りの部分を続けることができます。
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## プロトン・ウォレットに接続する
 
 プロトン・ウォレットのウェブサイト](https://proton.me/wallet)にアクセスし、「*プロトン・ウォレットを入手*」ボタンをクリックします。
@@ -68,6 +69,7 @@ https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b3
 ニモニックフレーズの保存と管理の適切な方法については、特に初心者の方には、この他のチュートリアルをご覧になることを強くお勧めします：
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 もちろん、このチュートリアルで私がやっていることとは違って、これらの言葉を写真に撮ってはいけない。
 
 フレーズを保存したら、「*完了*」ボタンをクリックしてください。
@@ -95,6 +97,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 パスフレーズについての知識を深めるには、このチュートリアルをお勧めする：
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ## ビットコインを受け取る
 
 ウォレットでビットコインを受け取るには、インターフェースの左側で希望のアカウントを選択し、「*受け取り*」ボタンをクリックします。

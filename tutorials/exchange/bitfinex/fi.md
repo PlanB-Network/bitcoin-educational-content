@@ -23,9 +23,11 @@ Täytä vaaditut tiedot: anna sähköpostiosoitteesi ja asuinmaasi. Valitse turv
 Vinkkejä vahvojen ja yksilöllisten salasanojen käyttöön ja suojaamiseen on myös tässä oppaassa :
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Määritämme nyt 2FA:n tilin suojaamiseksi. Käytä älypuhelimessa olevaa todennussovellusta, kuten esimerkiksi Google Authenticatoria tai Authyta. Löydät ohjeen tästä työkalusta täältä :
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Skannaa QR-koodi sovelluksellasi ja syötä annetut 6 numeroa.
 
 ![BITFINEX](assets/fr/03.webp)
@@ -166,6 +168,7 @@ Bitfinex tarjoaa myös talletus- ja nostovaihtoehtoja Lightning-verkon kautta, m
 Jos olet kiinnostunut Lightning-verkosta, meillä on myös täydellinen koulutus, jonka avulla voit ymmärtää, miten se toimii:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 Kun olet ostanut ensimmäiset bitcoinisi, sinulla on tietenkin mahdollisuus jättää ne alustalle, mutta suosittelen lämpimästi niiden siirtämistä omaan lompakkoon omaan säilytykseen. Jos et vielä tiedä, miten Bitcoin-lompakkoa käytetään, pyydän sinua tutustumaan [Plan ₿ Networkin "Wallet"-osioon](https://planb.network/tutorials/wallet).
 
 ## 6 - Bitcoinien ostaminen ja myyminen Bitfinexissä

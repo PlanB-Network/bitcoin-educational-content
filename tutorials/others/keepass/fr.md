@@ -186,3 +186,4 @@ Voilà pour les fonctionnalités de base concernant KeePass. Évidemment, ce tut
 Si vous souhaitez découvrir comment améliorer drastiquement la sécurité de vos comptes en ligne pour éviter les piratages avec le 2FA, je vous conseille également de découvrir cet autre tutoriel :
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+

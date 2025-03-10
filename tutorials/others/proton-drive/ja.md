@@ -31,6 +31,7 @@ Proton Driveは単なるストレージオプション以上のものを提供�
 まだProtonアカウントをお持ちでない場合は、アカウントを作成する必要があります。無料のProtonアカウントの作成と設定方法を詳しく説明しているProton Mailチュートリアルを参照してください：
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Proton Driveの設定方法
 

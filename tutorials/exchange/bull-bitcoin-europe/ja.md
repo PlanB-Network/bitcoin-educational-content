@@ -49,6 +49,7 @@ Bull Bitcoinのウェブサイトでこのコードを入力し、「*Continue*�
 2FAに認証アプリケーションを使うことに慣れていない方は、Authyアプリケーションのチュートリアルをご覧になることをお勧めします：
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 パスワードを入力して確認します。
 
 ![BULL](assets/fr/09.webp)
@@ -125,6 +126,7 @@ SEPA転送*」を選択する。
 ビットコイン、ライトニング、リキッドウォレットの使用に慣れていない場合は、専用のトレーニングコースを受講することをお勧めします：
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 また、[最高のビットコインウォレットに関する詳細なチュートリアル](https://planb.network/tutorials/wallet)を探索することもできます。
 
 その後、"*Confirm Buy*"をクリックして購入を確定してください。

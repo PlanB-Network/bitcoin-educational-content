@@ -15,6 +15,7 @@ The special feature of this wallet is the ability to send bitcoins using the rec
 To use Proton Wallet, you need a Proton account. You can create one for free by following the first steps of this tutorial dedicated to creating a Proton mailbox (only the "*Creating a Proton account*" section). Once your account is set up, you can continue with the rest of this tutorial.
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## Connect to Proton Wallet
 
 Go to [the Proton Wallet website](https://proton.me/wallet) and click on the "*Get Proton Wallet*" button.
@@ -68,6 +69,7 @@ You can write it on a piece of paper, or for added security, I recommend engravi
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 _**Of course, you should never take a picture of these words, unlike what I do in this tutorial.**_
 
 Click on the "*Done*" button once you've saved your phrase.
@@ -95,6 +97,7 @@ This is where you can add a BIP39 passphrase to a new wallet.
 To deepen your knowledge of the passphrase, I recommend this tutorial:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ## Receive bitcoins
 
 To receive bitcoins in your wallet, select the desired account on the left of the interface, then click on the "*Receive*" button.

@@ -11,6 +11,7 @@ Kraken 是世界上最著名的加密货币交易平台之一。它为希望将�
 如果你对将比特币融入你的业务感兴趣，我还建议你了解我们关于这个主题的完整理论培训课程：
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - 创建 Kraken 企业账户
 
 使用Kraken管理公司财务的第一步当然是创建一个账户。在这里，我们要创建的不是个人账户，而是公司账户。公司账户不仅能确保遵守法规，还能提供专门定制的功能，如会计导出。
@@ -78,6 +79,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 有关如何使用此类设备的更多信息，请参阅我们的专门教程 ：
 
 https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
 另一种方法是使用 Google Authenticator 或 Authy 等身份验证应用程序。这些应用程序会生成一个动态的 6 位代码，每次登录时都需要输入。
 
 ![KRAKEN](assets/fr/12.webp)
@@ -89,6 +91,7 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 有关身份验证应用程序的更多信息，也可参考本教程：
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 在下方，您还可以访问高级设置，包括设置几种不同的 2FA。Kraken 通过 2FA 提供高级安全授权。该功能允许您为登录、订单验证和资金提取等各种操作创建不同的 2FA 级别。例如，这样就可以让会计师访问某些功能，而不允许他或她提取资金。以下是一些选项：
 
 

@@ -64,6 +64,7 @@ Visite o sítio Web oficial da Wizardsardine e transfira o Liana em https://wiza
 Para saber como verificar manualmente a autenticidade e a integridade do software antes da instalação, recomendamos que consulte este tutorial :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Instale o software na sua máquina e inicie-o. Escolha a opção "*Criar uma nova carteira Liana*" para configurar a sua carteira.
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -193,6 +194,7 @@ Pode verificar o estado de expiração dos seus fundos acedendo ao separador "*M
 Para compreender melhor o modelo de representação UTXO utilizado na Bitcoin, pode consultar a primeira parte do curso sobre confidencialidade na Bitcoin escrito por Loïc Morel :
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Despesas correntes
 
 As despesas correntes são a situação normal para usar o Liana. O envio de bitcoins com a chave mestra funciona como em todas as carteiras Bitcoin clássicas como Electrum ou Sparrow.

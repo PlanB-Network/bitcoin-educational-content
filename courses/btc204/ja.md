@@ -345,7 +345,9 @@ coinbaseのトランザクションは、出力を生成するために入力を
 ブロックチェーン分析に対抗するには、そこで使われている手法を学ぶのが一番だろう。ビットコインでプライバシーを向上させる方法を知りたければ、これらの方法を理解する必要がある。そうすることで、coinjoinやpayjoinのようなテクニック（コースの最後の部分で見るテクニック）をよりよく把握できるようになり、あなたが犯すかもしれないミスを減らすことができます。
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
 https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+
 この点で、暗号と暗号解読を類推することができる。優れた暗号解読者は、何よりもまず優れた暗号解読者である。新しい暗号化アルゴリズムを考案するには、それがどのような攻撃に直面するかを知る必要があり、また過去のアルゴリズムがなぜ破られたかを研究する必要がある。同じ原理がビットコインのプライバシーにも当てはまる。ブロックチェーンの分析手法を理解することが、それらから身を守る鍵なのだ。このトレーニングコースにチェーン分析のセクションを設けたのはそのためです。
 
 ### チェーン分析手法
@@ -1282,6 +1284,7 @@ FIFO（*First In First Out*）やLIFO（*Last In First Out*）のようなUTXO�
 UTXOにタグを付ける方法を知りたい方は、主なビットコインウォレットソフトウェアの包括的なチュートリアルをご覧ください：
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 ## KYCと鍵の識別
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1441,6 +1444,7 @@ KYCとは特に、特定の企業が顧客の身元を確認し登録するた�
 -> Bisqのチュートリアルをご覧ください。
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
 よりシンプルなオプションとして、[Peach](https://peachbitcoin.com/)を試してみることができる。[Peach](https://peachbitcoin.com/)は、買い手と売り手をつなぐモバイルアプリで、紛争解決システムが組み込まれている。Bisqよりも直感的に利用できる。
 
 -> ピーチのチュートリアルをご覧ください。
@@ -1452,6 +1456,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 -> HodlHodlのチュートリアルをご覧ください。
 
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+
 ライトニングネットワークベースのソリューションとしては、[RoboSats](https://learn.robosats.com/)と[LNP2PBot](https://lnp2pbot.com/)をお試しください。RoboSatsはウェブサイトからアクセスでき、使い方も比較的簡単である。LNP2PBotはより非典型的で、Telegramメッセージング・アプリケーション上の交換システムを介して動作する。
 
 -> ロボサットのチュートリアルをご覧ください。
@@ -1459,7 +1464,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 -> LNP2PBotのチュートリアルをご覧ください。
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
 https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+
 ![BTC204](assets/fr/091.webp)
 
 ### KYCなしの規制プラットフォーム
@@ -1469,6 +1476,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-
 -> Relaiのチュートリアルをご覧ください。
 
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+
 前章で見たように、この種のプラットフォームは KYC 手続きに関連するリスクからあなたを救うが、キー識別のリスクは高くなる。ビットコインの機密性という点では、これらのプラットフォームはKYCを伴う購入方法よりも優れた保護を提供しますが、P2P取引所よりも魅力的でないことに変わりはありません。
 
 しかし、個人的なセキュリティの面では、これらのプラットフォームを使用することは、P2P取引所よりもはるかにリスクが低い。また、P2Pプラットフォームよりも使い方が簡単な場合が多い。
@@ -1492,6 +1500,7 @@ BTCを使う最良の方法は、もちろん、ビットコインやライト�
 KYC手続きを必要としないいくつかのプラットフォームは、ビットコインを主要小売店で使用できるギフトカードと交換する可能性を提供している。CoinsBee](https://www.coinsbee.com/)、[The Bitcoin Company](https://thebitcoincompany.com/)、[Bitrefill](https://www.bitrefill.com/)などである。これらのプラットフォームを利用することで、ビットコインを不換紙幣に換金することなく、日常的に様々な商品やサービスを利用することができます。
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/fr/093.webp)
 
 ### その他の獲得方法
@@ -2176,8 +2185,11 @@ UTXOのマージは最も一般的な間違いである。CIOH（*Common-Input-O
 次の章では、「アノンセット」とは何か、この指標はどのように計算されるのか、そしてコインジョインサイクルの効率を推定するためにどのように役立つのかについて説明する。
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ## 匿名セット
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -2253,6 +2265,7 @@ coinjoinの有用性は、区別のつかないパーツのグループの中に
 本章で見てきたように、アノンセットはコインジョイント構造に一定の均質性がある場合にのみ計算できる。次の章では、コインジョインであれ、より伝統的な取引であれ、ビットコイン取引でこの同質性を定量化する方法を見つける。
 
 https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 ## エントロピー
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2510,6 +2523,7 @@ $$
 コインジョインについて詳しく説明したので、コースの最後のセクションでは、ビットコインで利用可能なその他のプライバシー技術について見ていきます。ペイジョイン、特定の擬似コインジョイントトランザクションタイプ、静的アドレスプロトコル、そしてトランザクション自体のレベルではなく、ノードのネットワークのレベルで機密性を強化するための対策について見ていきます。
 
 https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 # その他の高度な機密保持技術の課題を理解する
 
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2603,7 +2617,9 @@ payjoinの使いにくさは、加盟店の参加に依存している点にあ�
 一つの解決策は、受取人の協力を必要とせずに、連鎖分析に曖昧さを導入する取引構造を使用することであろう。これにより、加盟店の積極的な参加に頼ることなく、支払いの機密性を高めることができる。これこそ、次の章で検討することである。
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+
 ## ミニコイン決済
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2725,7 +2741,9 @@ StonewallとStonewall x2の取引は、Samourai Walletアプリケーション�
 次の章では、比較的知られていないが、すでに学んだことを補完するのに非常に有用な、もうひとつの守秘義務技術を見てみよう。
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+
 https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+
 ## 跳弾
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2799,6 +2817,7 @@ coinjoinサイクル後にどのように使用するかにもよりますが、
 次の章では、所有権を秘密裏に移転するためのさまざまな手法を見ていく。これらの手法は、運用の面でも結果の面でも、これまで検討してきたものとは根本的に異なる。
 
 https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+
 ## 所有権の秘密譲渡
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -3074,6 +3093,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 *この章では、BIP47の仕組みについて、特に使用されている暗号方式に重点を置いて詳しく説明します。これらのやや専門的な説明を完全に理解するためには、まずHDウォレットの構造、鍵の導出手順、楕円曲線暗号の基礎を理解することが不可欠です。これらの概念をより深く理解したい方は、Plan ₿ Networkで別の無料トレーニングコースをご利用いただけます :*。
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 *というのも、BIP47の技術的な運用を理解することで、次の章で説明する他の似たような提案を理解しやすくなるからである*。
 
 ---
@@ -3825,6 +3845,7 @@ ECDHで共有秘密が見つかると、アリスとボブはBIP47支払い公�
 *本章執筆のきっかけとなった論文の校正と専門的なアドバイスをしてくれた[Fanis Michalakis](https://x.com/FanisMichalakis)に感謝する！
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+
 ## サイレント・ペイメント
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>

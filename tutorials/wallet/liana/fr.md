@@ -354,3 +354,4 @@ Les scripts créés par ce portefeuille auront ainsi la forme suivante :
 Puisque la sécurité de votre portefeuille Bitcoin dépend aussi de votre compréhension de son fonctionnement, je vous suggère d'étudier en profondeur les mécanismes des portefeuilles déterministes et hiérarchiques en suivant cette formation gratuite sur Plan ₿ Network :
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+

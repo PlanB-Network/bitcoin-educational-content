@@ -23,9 +23,11 @@ Hoàn tất thông tin bắt buộc: nhập địa chỉ email và quốc gia c�
 Để biết mẹo sử dụng và bảo vệ mật khẩu mạnh và duy nhất, hãy xem thêm hướng dẫn này:
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Bây giờ chúng ta sẽ cấu hình 2FA để bảo mật tài khoản. Sử dụng ứng dụng xác thực trên điện thoại thông minh của bạn, chẳng hạn như Google Authenticator hoặc Authy. Bạn sẽ tìm thấy hướng dẫn về công cụ này tại đây:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Quét mã QR bằng ứng dụng và nhập 6 chữ số được cung cấp.
 
 ![BITFINEX](assets/fr/03.webp)
@@ -166,6 +168,7 @@ Bitfinex cũng cung cấp các tùy chọn gửi và rút tiền thông qua Ligh
 Nếu bạn quan tâm đến Lightning Network, chúng tôi cũng có khóa đào tạo đầy đủ để giúp bạn hiểu cách thức hoạt động của nó:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 Sau khi mua bitcoin đầu tiên, rõ ràng là bạn có thể để chúng trên nền tảng, nhưng tôi thực sự khuyên bạn nên chuyển chúng vào ví của riêng bạn để tự lưu giữ. Nếu bạn chưa biết cách sử dụng ví Bitcoin, tôi mời bạn khám phá [phần "Ví" trên Plan ₿ Network](https://planb.network/tutorials/wallet).
 
 ## 6 - Mua và bán bitcoin trên Bitfinex

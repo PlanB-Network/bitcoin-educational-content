@@ -21,6 +21,7 @@ Oma turvalise rahakoti haldamiseks Passportiga on teil mitu võimalust. See riis
 Kui olete algaja, on kõige lihtsam võimalus kasutada oma passi koos Foundationi poolt välja töötatud Envoy rakendusega. Kui soovite teada saada, kuidas kasutada Envoy't koos Passportiga, vaadake seda teist õpetust :
 
 https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+
 ## Passi lahtipakkimine
 
 Kui saate oma passi kätte, veenduge, et pakendi kast ja pitser on terved, et kinnitada, et pakki ei ole avatud. Seadme seadistamisel toimub ka seadme autentsuse ja terviklikkuse tarkvaraline kontroll.
@@ -139,6 +140,7 @@ Selleks kasutage oma Passport'i karbis sisalduvat MicroSD-kaarti (või mõnda mu
 Enne seadmesse paigaldamist soovitame tungivalt kontrollida allalaetud püsivara autentsust ja terviklikkust. Kui vajate selleks abi, vaadake seda õpetust :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Pärast faili `.bin` kontrollimist asetage see MicroSD-kardile, seejärel sisestage see Passporti. Avaneb Passport'i failiotsinguprogramm. Valige fail `vN.N.N-passport.bin`.
 
 ![Image](assets/fr/22.webp)
@@ -204,6 +206,7 @@ Klõpsake kinnituse nupule, et näha oma mälulause.
 Lisateavet selle kohta, kuidas oma mnemofraasi õigesti salvestada ja hallata, soovitan kindlasti jälgida seda teist õpetust, eriti kui olete algaja:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 loomulikult ei tohi te neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus.**_
 
 Tehke sellest lausest füüsiline varukoopia.
@@ -290,6 +293,7 @@ Enne jätkamist võite soovi korral lisada BIP39 parooli. BIP39 parool on vabata
 Enne selle suvandi seadistamist oma Passportis on tungivalt soovitatav lugeda seda artiklit, et mõista täielikult salasõna teoreetilist toimimist ja vältida vigu, mis võivad põhjustada teie bitcoinide kaotuse:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Selle aktiveerimiseks minge menüüsse "*More*" ja klõpsake "*Enter Passphrase*".
 
 ![Image](assets/fr/50.webp)
@@ -311,6 +315,7 @@ Iga kord, kui avate lukustuse, kontrollige pärast salasõna üleskirjutamist se
 Enne esimeste bitcoinide saamist oma rahakotti, ** soovitan teil tungivalt teha tühja taastamistesti**. Pange kirja mõned viiteandmed, näiteks oma xpub või esimene vastuvõtuaadress, seejärel kustutage oma rahakott Passportis, kui see on veel tühi (`Settings -> Advanced -> Erase Passport`). Seejärel proovige taastada oma rahakott, kasutades oma paberkandjal varukoopiaid mälulause ja mis tahes passfraasi. Kontrollige, et pärast taastamist genereeritud küpsisteave vastaks sellele, mille algselt kirja panite. Kui see vastab, võite olla kindel, et teie paberkandjal varukoopiad on usaldusväärsed. Lisateavet selle kohta, kuidas teha testtaastamine, leiate sellest teisest juhendmaterjalist :
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ![Image](assets/fr/53.webp)
 
 ## Rahakoti konfigureerimine Sparrow Wallet'is
@@ -324,6 +329,7 @@ Alustage Sparrow Walleti allalaadimisest ja installimisest [ametlikul veebisaidi
 Enne paigaldamist kontrollige kindlasti tarkvara autentsust ja terviklikkust. Kui te ei tea, kuidas seda teha, vaadake seda õpetust:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Kui Sparrow Wallet on avatud, klõpsake vahekaardil "*Fail*" ja seejärel "*Uus rahakott*".
 
 ![Image](assets/fr/55.webp)

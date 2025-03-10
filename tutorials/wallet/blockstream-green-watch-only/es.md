@@ -29,7 +29,9 @@ Green es una aplicación muy fácil de usar, lo que la hace especialmente adecua
 En este tutorial, nos centraremos únicamente en la creación de una cartera sólo para relojes. Para explorar otros usos de Green, consulta nuestros otros tutoriales dedicados:
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 ## Instalación y configuración de la aplicación Blockstream Green
 
 El primer paso es, por supuesto, descargar la aplicación Green. Ve a tu tienda de aplicaciones:

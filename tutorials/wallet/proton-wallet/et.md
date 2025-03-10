@@ -15,6 +15,7 @@ Selle rahakoti eripära on võimalus saata bitcoine, kasutades saaja e-posti aad
 Proton Walleti kasutamiseks on vaja Proton-kontot. Selle saate luua tasuta, järgides selle Proton-postkasti loomisele pühendatud õpetuse esimesi samme (ainult jaotis "*Proton-konto loomine*"). Kui teie konto on loodud, võite jätkata selle õpetuse ülejäänud osaga.
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## Ühendage Proton Walletiga
 
 Mine [Proton Walleti veebilehele](https://proton.me/wallet) ja klõpsa nupule "*Get Proton Wallet*".
@@ -68,6 +69,7 @@ Võite kirjutada selle paberile või täiendava turvalisuse tagamiseks soovitan 
 Lisateavet selle kohta, kuidas oma mnemofraasi õigesti salvestada ja hallata, soovitan kindlasti jälgida seda teist õpetust, eriti kui olete algaja:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 _**Kaasa ei tohiks muidugi kunagi neid sõnu pildistada, erinevalt sellest, mida ma selles õpetuses teen.**_
 
 Kui olete oma lause salvestanud, klõpsake nupule "*Tehtud*".
@@ -95,6 +97,7 @@ Siin saate lisada uuele rahakotile BIP39 parooli.
 Selleks, et süvendada oma teadmisi salasõna kohta, soovitan seda õpetust:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ## Bitcoinide vastuvõtmine
 
 Bitcoinide vastuvõtmiseks oma rahakotti valige vasakul kasutajaliideses soovitud konto, seejärel klõpsake nupul "*Vaata*".

@@ -7,6 +7,7 @@ description: Hướng dẫn đầy đủ về hướng dẫn Plan ₿ Network v�
 Trước khi làm theo hướng dẫn này để thêm hướng dẫn mới, bạn cần hoàn thành một vài bước sơ bộ. Nếu bạn chưa làm, vui lòng xem hướng dẫn giới thiệu này trước, sau đó quay lại đây:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Bạn đã có:
 
 
@@ -24,6 +25,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0
 - Trung cấp (GitHub Desktop)**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+
 ## Điều kiện tiên quyết
 
 Điều kiện tiên quyết trước khi bắt đầu hướng dẫn:
@@ -37,8 +39,11 @@ Nếu bạn cần trợ giúp để đáp ứng các điều kiện tiên quyế
 
 
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Khi mọi thứ đã sẵn sàng và bạn đã có nhánh của kho lưu trữ Plan ₿ Network, bạn có thể bắt đầu thêm phần hướng dẫn.
 
 ## 1 - Tạo một nhánh mới
@@ -156,6 +161,7 @@ Sau đây là các trường bắt buộc:
 Để biết thêm chi tiết về ID giáo viên của bạn, vui lòng tham khảo hướng dẫn tương ứng:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Sau đây là ví dụ về tệp `tutorial.yml` được hoàn thành cho hướng dẫn về ví Blockstream Green:
 
 ```

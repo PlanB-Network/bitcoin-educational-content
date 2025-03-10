@@ -20,6 +20,7 @@ V tomto tutoriálu bych vám rád představil jedno takové řešení: **COLDCAR
 Protože karta COLDCARD Q nabízí velké množství funkcí, navrhuji rozdělit její používání do 2 výukových materiálů. V tomto prvním tutoriálu se budeme zabývat počáteční konfigurací a základními funkcemi zařízení. Ve druhém tutoriálu se pak podíváme na to, jak využít všechny pokročilé možnosti karty COLDCARD.
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ---
 ## Představení karty COLDCARD Q
 
@@ -81,6 +82,7 @@ Pokud dáváte přednost napájení karty COLDCARD bez připojení k počítači
 Pro tento návod budete také potřebovat peněženku Sparrow Wallet, která vám umožní spravovat peněženku Bitcoin v počítači. Stáhněte si [Sparrow Wallet](https://sparrowwallet.com/download/) z oficiálních webových stránek. Důrazně doporučuji, abyste před pokračováním v instalaci zkontrolovali její pravost (pomocí GnuPG) i integritu (pomocí hashe). Pokud nevíte, jak to udělat, postupujte podle tohoto návodu:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ## Výběr kódu PIN
 
 Nyní můžete kartu COLDCARD zapnout stisknutím tlačítka v levém horním rohu.
@@ -160,6 +162,7 @@ V tomto okamžiku důrazně doporučujeme zkontrolovat integritu a pravost staž
 Pokud tento proces ověřování neznáte, doporučuji vám postupovat podle tohoto návodu:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Vezměte kartu microSD a přeneste na ni soubor firmwaru (dokument ve formátu `.dfu`). Vložte kartu microSD do jednoho z portů karty COLDCARD.
 
 ![CCQ](assets/fr/021.webp)
@@ -199,6 +202,7 @@ V této nabídce najdete různé možnosti přizpůsobení, například nastaven
 V dalším tutoriálu se podíváme na další pokročilá nastavení:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ## Vytvoření peněženky Bitcoin
 
 Nyní je čas vygenerovat novou peněženku Bitcoin! K tomu je třeba vytvořit mnemotechnickou frázi. Na kartě Coldcard máte k dispozici tři způsoby generování této fráze:
@@ -329,6 +333,7 @@ Než obdržíte své první bitcoiny do peněženky, **důrazně doporučuji pro
 Chcete-li se dozvědět více o tom, jak provést test obnovení, doporučuji vám prostudovat tento další návod:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Přijímání bitcoinů
 
 Chcete-li získat své první bitcoiny, začněte zapnutím a odemknutím karty COLDCARD.
@@ -380,6 +385,7 @@ Nyní můžete přidat "*Label*" pro popis zdroje bitcoinů, které budou touto 
 Pro více informací o označování doporučuji také tento další návod:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 Tuto adresu pak můžete použít k přijímání bitcoinů.
 
 ![CCQ](assets/fr/063.webp)

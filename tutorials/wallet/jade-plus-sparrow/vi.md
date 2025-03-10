@@ -37,6 +37,7 @@ Jade Plus tương thích với hầu hết các phần mềm quản lý danh m�
 Trong hướng dẫn này, chúng tôi sẽ thiết lập cấu hình nâng cao của Jade Plus với phần mềm Sparrow Wallet trên máy tính để bàn ở chế độ mã QR. Cấu hình này lý tưởng cho người dùng trung cấp hoặc có kinh nghiệm. Nếu bạn đang tìm kiếm một cách tiếp cận đơn giản hơn cho người mới bắt đầu, tôi khuyên bạn nên xem hướng dẫn này, trong đó chúng tôi sử dụng Jade Plus với Green Wallet qua kết nối Bluetooth:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+
 ## Mô hình an toàn Jade Plus
 
 Jade Plus sử dụng mô hình bảo mật dựa trên "phần tử bảo mật ảo", được hiện thực hóa bằng "blind oracle". Cụ thể, cơ chế này kết hợp mã PIN do người dùng chọn, một bí mật được lưu trữ trên Jade và một bí mật do oracle nắm giữ (máy chủ do Blockstream duy trì), để tạo khóa AES-256 phân phối trên hai thực thể. Trong quá trình khởi tạo, trao đổi ECDH bảo mật thông tin liên lạc với oracle và mã hóa cụm từ khôi phục trên ví phần cứng. Trên thực tế, khi bạn muốn truy cập hạt giống để ký giao dịch, bạn cần truy cập vào:
@@ -111,6 +112,7 @@ Bạn có thể viết lên tấm bìa cứng đi kèm trong hộp hoặc để 
 Để biết thêm thông tin về cách lưu và quản lý cụm từ ghi nhớ đúng cách, tôi thực sự khuyên bạn nên làm theo hướng dẫn khác này, đặc biệt nếu bạn là người mới bắt đầu:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 tất nhiên, bạn không bao giờ được chia sẻ những từ này trên Internet, như tôi đang làm trong hướng dẫn này. Danh mục mẫu này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa vào cuối hướng dẫn.**_
 
 Nhấp vào mũi tên bên phải màn hình để hiển thị các từ sau.
@@ -268,6 +270,7 @@ Cụm mật khẩu BIP39 là mật khẩu tùy chọn mà bạn có thể tự d
 Trước khi cấu hình tùy chọn này trên Jade Plus, chúng tôi khuyên bạn nên đọc bài viết này để hiểu đầy đủ về hoạt động lý thuyết của cụm mật khẩu và tránh các lỗi có thể dẫn đến mất bitcoin của bạn:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Khi Jade vẫn bị khóa (chỉ có thể nhập mật khẩu khi thiết bị chưa được mở khóa), hãy truy cập vào menu "*Tùy chọn*".
 
 ![Image](assets/fr/42.webp)
@@ -320,6 +323,7 @@ Mỗi lần bạn mở khóa Jade bằng mật khẩu của mình, hãy kiểm t
 Trước khi bạn nhận được bitcoin đầu tiên trong ví của mình, **Tôi thực sự khuyên bạn nên thực hiện một bài kiểm tra khôi phục rỗng**. Ghi lại một số thông tin tham chiếu, chẳng hạn như xpub hoặc địa chỉ nhận đầu tiên của bạn, sau đó xóa ví của bạn trên Jade Plus trong khi nó vẫn còn rỗng (`Tùy chọn -> Thiết bị -> Khôi phục cài đặt gốc`). Sau đó, hãy thử khôi phục ví của bạn bằng cách sử dụng bản sao lưu giấy của cụm từ ghi nhớ và bất kỳ cụm mật khẩu nào. Kiểm tra xem thông tin cookie được tạo sau khi khôi phục có khớp với thông tin bạn đã ghi ban đầu không. Nếu có, bạn có thể yên tâm rằng bản sao lưu giấy của bạn là đáng tin cậy. Để tìm hiểu thêm về cách thực hiện khôi phục thử nghiệm, hãy xem hướng dẫn khác này:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Cấu hình ví trên Sparrow Wallet
 
 Trong hướng dẫn này, tôi trình bày cách sử dụng nâng cao Jade Plus bằng Sparrow Wallet. Tuy nhiên, ví phần cứng này tương thích với nhiều chương trình khác, chẳng hạn như Liana, Nunchuk, Spectre, Green và Keeper. Các khả năng tương thích này khác nhau về mặt kết nối: USB, Bluetooth hoặc mã QR (xem bảng trong phần giới thiệu để biết chi tiết).
@@ -331,6 +335,7 @@ Bắt đầu bằng cách tải xuống và cài đặt Sparrow Wallet [từ tra
 Hãy chắc chắn kiểm tra tính xác thực và tính toàn vẹn của phần mềm trước khi cài đặt. Nếu bạn không biết cách thực hiện, vui lòng tham khảo hướng dẫn này:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Sau khi mở Sparrow Wallet, hãy nhấp vào tab "*File*", sau đó nhấp vào "*New Wallet*".
 
 ![Image](assets/fr/51.webp)

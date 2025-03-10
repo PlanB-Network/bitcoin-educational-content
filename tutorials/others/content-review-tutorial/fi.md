@@ -34,6 +34,7 @@ Sinun ei tarvitse olla GitHub-asiantuntija arvioidaksesi sisältöä. Vaikka on 
 Jos Git ja GitHub eivät kuitenkaan ole sinulle tuttuja ja haluat oppia lisää, voit tutustua näitä työkaluja käsittelevään johdantoartikkeliin:
 
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 ## 1. Luo tili
 
 

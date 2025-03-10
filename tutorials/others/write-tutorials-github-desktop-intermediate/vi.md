@@ -7,6 +7,7 @@ description: Hướng dẫn đầy đủ về hướng dẫn Plan ₿ Network v�
 Trước khi làm theo hướng dẫn này để thêm hướng dẫn mới, bạn cần hoàn thành một vài bước sơ bộ. Nếu bạn chưa làm, vui lòng xem hướng dẫn giới thiệu này trước, sau đó quay lại đây:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Bạn đã có:
 
 
@@ -20,12 +21,14 @@ Trong hướng dẫn này, chúng ta sẽ xem cách thêm hướng dẫn của b
 - Người dùng có kinh nghiệm**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+
 Nếu bạn không muốn cấu hình môi trường cục bộ của mình, hãy làm theo hướng dẫn khác được thiết kế cho người mới bắt đầu, trong đó chúng tôi thực hiện các thay đổi trực tiếp thông qua giao diện web GitHub:
 
 
 - Người mới bắt đầu (giao diện web)**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## Điều kiện tiên quyết
 
 Phần mềm cần thiết để thực hiện hướng dẫn này:
@@ -48,8 +51,11 @@ Nếu bạn cần trợ giúp để đáp ứng các điều kiện tiên quyế
 
 
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Khi mọi thứ đã sẵn sàng và môi trường cục bộ của bạn đã được thiết lập với nhánh Plan ₿ Network, bạn có thể bắt đầu thêm phần hướng dẫn.
 
 ## 1 - Tạo một nhánh mới
@@ -141,6 +147,7 @@ Pour la case "PBN professor's ID", saisissez votre identifiant en utilisant les 
 ![TUTO](assets/fr/47.webp)
 Pour plus de détails sur votre identifiant de professeur, veuillez consulter le tutoriel suivant :
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Une fois toutes les informations saisies et vérifiées, cliquez sur "Create Tutorial" pour valider la création des fichiers de votre tutoriel. Cela générera en local le dossier de votre tutoriel et tous les fichiers nécessaires dans le dossier de la catégorie sélectionnée.
 ![TUTO](assets/fr/48.webp)
 Vous pouvez maintenant passer outre la sous-partie "Sans mon script Python", ainsi que l'étape 3 "Remplir le fichier YAML", car le script a déjà effectué ces actions automatiquement pour vous. Passez directement à l'étape 4 et à la rédaction de votre tutoriel.
@@ -246,6 +253,7 @@ Sau đây là các trường bắt buộc:
 Để biết thêm chi tiết về ID giáo viên của bạn, vui lòng tham khảo hướng dẫn tương ứng:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Sau đây là ví dụ về tệp `tutorial.yml` được hoàn thành cho hướng dẫn về ví Blockstream Green:
 
 ```yaml

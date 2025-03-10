@@ -67,6 +67,7 @@ You can inscribe it on a piece of paper, or for added security, I recommend engr
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 of course, you must never share these words on the Internet, as I'm doing in this tutorial. This sample portfolio will be used only on Testnet and will be deleted at the end of the tutorial.**_
 
 Press the button on your Portal firmly to move on to the next words. Make sure you place your entire finger on the button and hold the pressure for a few seconds, so that the interaction is properly detected.

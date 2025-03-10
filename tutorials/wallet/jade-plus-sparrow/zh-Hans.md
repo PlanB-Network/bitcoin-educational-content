@@ -37,6 +37,7 @@ Nunchuk | | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 | 🟢
 在本教程中，我们将在 QR 码模式下设置 Jade Plus 与桌面 Sparrow Wallet 软件的高级配置。这种配置非常适合中级或有经验的用户。如果您正在寻找适合初学者的简单方法，我建议您看看本教程，我们将通过蓝牙连接使用 Jade Plus 和 Green Wallet：
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+
 ## Jade Plus 安全模式
 
 Jade Plus 采用一种基于 "虚拟安全元素 "的安全模式，由 "盲谕 "实现。具体而言，该机制将用户选择的 PIN 码、Jade 上的一个秘密和 Oracle（由 Blockstream 维护的服务器）持有的一个秘密结合起来，创建一个分布在两个实体上的 AES-256 密钥。在启动过程中，ECDH 交换会确保与 Oracle 的通信安全，并对硬件钱包上的恢复短语进行加密。在实际操作中，如果要访问种子来签署交易，就需要访问.NET Framework：
@@ -111,6 +112,7 @@ Jade Plus 采用一种基于 "虚拟安全元素 "的安全模式，由 "盲谕 
 有关保存和管理记忆短语的正确方法的更多信息，我强烈推荐大家阅读另一篇教程，尤其是初学者：
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 当然，你绝对不能在互联网上分享这些文字，就像我在本教程中所做的那样。本示例作品集将仅在 Testnet 上使用，并将在教程结束时删除。
 
 点击屏幕右侧的箭头，显示以下单词。
@@ -268,6 +270,7 @@ BIP39 密码短语是您可以自由选择的密码，它被添加到您的记�
 在翡翠增强版上配置该选项之前，强烈建议您阅读本文，以充分了解口令的理论操作，避免可能导致比特币丢失的错误：
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 在 Jade 仍然锁定的情况下（密码只能在设备未解锁时输入），访问 "*选项*"菜单。
 
 ![Image](assets/fr/42.webp)
@@ -320,6 +323,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 在您收到钱包中的第一枚比特币之前，**我强烈建议您执行一次清空恢复测试**。记下一些参考信息，例如您的 xpub 或第一个接收地址，然后在翡翠增强版上删除您的钱包，此时钱包还是空的（"选项 -> 设备 -> 出厂重置"）。然后尝试使用纸质备份的记忆短语和任何口令恢复钱包。检查还原后生成的 cookie 信息是否与您最初写下的信息一致。如果吻合，您就可以放心，您的纸质备份是可靠的。要了解有关如何进行测试恢复的更多信息，请参阅本教程：
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## 在麻雀钱包上配置钱包
 
 在本教程中，我将使用麻雀钱包介绍 Jade Plus 的高级用法。不过，这种硬件钱包与许多其他程序兼容，如 Liana、Nunchuk、Specter、Green 和 Keeper。这些兼容性在连接方面各不相同：USB、蓝牙或 QR 码（详见简介中的表格）。
@@ -331,6 +335,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 安装前请务必检查软件的真实性和完整性。如果您不知道如何操作，请参考本教程：
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 打开麻雀钱包后，点击 "*文件*"标签，然后点击 "*新建钱包*"。
 
 ![Image](assets/fr/51.webp)

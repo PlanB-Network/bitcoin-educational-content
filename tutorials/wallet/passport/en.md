@@ -21,6 +21,7 @@ To manage your secure wallet on a Passport, you have several options. This hardw
 If you're a beginner, the easiest option is to use your Passport with the native Envoy application, developed by Foundation. To find out how to use Envoy with your Passport, check out this other tutorial :
 
 https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+
 ## Unboxing the Passport
 
 When you receive your Passport, make sure the box and seal on the carton are intact to confirm that the package has not been opened. A software verification of the device's authenticity and integrity will also be carried out when it is set up.
@@ -139,6 +140,7 @@ To do this, use the MicroSD card included in your Passport box (or another one),
 Before installing it on your device, we strongly advise you to check the authenticity and integrity of the downloaded firmware. If you need help with this, consult this tutorial :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 After checking the `.bin` file, place it on your MicroSD, then insert it into the Passport. The Passport file explorer will open. Select the file `vN.N.N-passport.bin`.
 
 ![Image](assets/fr/22.webp)
@@ -204,6 +206,7 @@ Click on the confirmation button to see your mnemonic phrase.
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 of course, you must never share these words on the Internet, as I'm doing in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial.**_
 
 Make a physical backup of this sentence.
@@ -290,6 +293,7 @@ Before continuing, if you wish, you can add a BIP39 passphrase. A BIP39 passphra
 Before configuring this option on your Passport, it is strongly recommended that you read this article to fully understand the theoretical operation of the passphrase and avoid errors that could lead to the loss of your bitcoins:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 To activate it, go to the "*More*" menu and click on "*Enter Passphrase*".
 
 ![Image](assets/fr/50.webp)
@@ -311,6 +315,7 @@ Each time you unlock, after writing down the passphrase, check on this confirmat
 Before you receive your first bitcoins on your wallet, **I strongly advise you to perform an empty recovery test**. Make a note of some reference information, such as your xpub or first receiving address, then delete your wallet on the Passport while it's still empty (`Settings -> Advanced -> Erase Passport`). Then try to restore your wallet using your paper backups of the mnemonic phrase and any passphrase. Check that the cookie information generated after the restore matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable. To find out more about how to carry out a test recovery, please consult this other tutorial :
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ![Image](assets/fr/53.webp)
 
 ## Configuring the wallet on Sparrow Wallet
@@ -324,6 +329,7 @@ Start by downloading and installing Sparrow Wallet [from the official website](h
 Be sure to check the authenticity and integrity of the software before installation. If you don't know how to do this, please consult this tutorial:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Once Sparrow Wallet is open, click on the "*File*" tab, then on "*New Wallet*".
 
 ![Image](assets/fr/55.webp)

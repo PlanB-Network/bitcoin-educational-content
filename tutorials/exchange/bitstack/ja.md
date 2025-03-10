@@ -54,6 +54,7 @@ Bitstackアプリケーションをダウンロードするには、アプリケ
 日々の安全なパスワード管理のために、パスワードマネージャーの使用を強くお勧めします。Plan ₿ Networkでは、Bitwarden .Netなどの既存の最適なソリューションに関するチュートリアルをいくつか紹介しています：
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 その後、本人確認（KYC）が求められます。フランスの規則に従い、個人情報と身分証明書の提出を求められます。姓、名、生年月日の欄にご記入ください。
 
 ![Image](assets/fr/07.webp)

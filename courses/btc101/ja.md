@@ -564,8 +564,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-4
 例えば、Ledger、Satochip、Tapsigner を使うことができる：
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - レベル 3\*\*では、レベル 1 または 2 のウォレットを使用し、パスフレーズを追加します。この場合、12/24 ワードのリストとパスフレーズの両方をバックアップする必要があることに注意してください。理想的には、これら 2 つの情報は 2 つの異なる場所に保存されます。
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 BIP39 パスフレーズの使用と機能についての詳細はこちら：
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - レベル 4\*\*では、一連のウォレットを使って "マルチシグ "ウォレットを作成する。この場合、マルチシグの各部分は異なる場所に保管する必要があることに注意する。このアプローチはビットコインの高度な使用方法と見なされることが多く、主に巨額の管理や企業目的のために使用される。

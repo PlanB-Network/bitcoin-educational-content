@@ -49,6 +49,7 @@ Pindai kode QR dengan aplikasi autentikasi Anda, masukkan kode 6 digit dan klik 
 Jika Anda tidak terbiasa menggunakan aplikasi autentikasi untuk 2FA, saya sarankan Anda untuk melihat tutorial tentang aplikasi Authy ini:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Masukkan kata sandi Anda untuk mengonfirmasi.
 
 ![BULL](assets/fr/09.webp)
@@ -125,6 +126,7 @@ Masukkan jumlah yang ingin Anda beli. Anda juga harus memilih bagaimana Anda ing
 Jika Anda belum terbiasa menggunakan dompet Bitcoin, Lightning atau Liquid, saya sarankan Anda untuk mengikuti kursus pelatihan khusus kami:
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 Anda juga dapat menjelajahi [tutorial terperinci kami tentang dompet Bitcoin terbaik](https://planb.network/tutorials/wallet).
 
 Kemudian konfirmasikan pembelian Anda dengan mengklik "*Konfirmasi Pembelian*".

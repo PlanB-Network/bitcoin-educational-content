@@ -15,6 +15,7 @@ Proton 是一家专门从事数字隐私保护的瑞士公司，由欧洲核子�
 要使用质子钱包，您需要一个质子账户。您可以按照本教程的第一步免费创建一个质子邮箱（仅 "*创建质子账户*"部分）。账户设置完成后，您就可以继续本教程的其余部分。
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## 连接到质子钱包
 
 访问[质子钱包网站](https://proton.me/wallet)，点击 "*获取质子钱包*"按钮。
@@ -68,6 +69,7 @@ https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b3
 有关保存和管理记忆短语的正确方法的更多信息，我强烈推荐大家阅读另一篇教程，尤其是初学者：
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 当然，与我在本教程中的做法不同，你绝对不能给这些字拍照。
 
 保存短语后，点击 "*完成*"按钮。
@@ -95,6 +97,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 要加深对口令的了解，我推荐您阅读本教程：
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ## 接收比特币
 
 要在钱包中接收比特币，请在界面左侧选择所需的账户，然后点击 "*接收*"按钮。

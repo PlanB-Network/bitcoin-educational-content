@@ -1276,6 +1276,7 @@ $$
 テスト用ニーモニックフレーズを手動で生成する方法を具体的に学ぶために、このチュートリアルを見てみることをお勧めします：
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 このニーモニックフレーズからウォレットの派生を続ける前に、次の章でBIP39パスフレーズについて紹介します。これは派生プロセスで役割を果たし、ニーモニックフレーズと同じレベルにあります。
 ## パスフレーズ
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

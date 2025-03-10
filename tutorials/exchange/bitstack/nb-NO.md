@@ -54,6 +54,7 @@ Velg et sterkt passord for å sikre tilgangen til kontoen din, og klikk deretter
 For sikker passordhåndtering i det daglige anbefales det å bruke en passordadministrator. På Plan ₿ Network finner du flere veiledninger om de beste eksisterende løsningene, for eksempel Bitwarden :
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Du vil deretter bli bedt om å bekrefte identiteten din (KYC). I samsvar med fransk regelverk vil du bli bedt om å oppgi personopplysninger og identitetsbevis. Fyll ut feltene med etternavn, fornavn og fødselsdato.
 
 ![Image](assets/fr/07.webp)

@@ -23,9 +23,11 @@ Vyplňte požadované údaje: zadejte svou e-mailovou adresu a zemi bydliště. 
 Tipy pro používání a ochranu silných a jedinečných hesel naleznete také v tomto návodu :
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Nyní nakonfigurujeme 2FA pro zabezpečení účtu. Použijte ověřovací aplikaci v chytrém telefonu, například Google Authenticator nebo Authy. Návod na tento nástroj najdete zde :
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Naskenujte QR kód pomocí aplikace a zadejte 6 číslic.
 
 ![BITFINEX](assets/fr/03.webp)
@@ -166,6 +168,7 @@ Bitfinex také nabízí možnost vkladu a výběru prostřednictvím sítě Ligh
 Pokud máte o síť Lightning Network zájem, máme pro vás také kompletní školení, které vám pomůže pochopit, jak funguje:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 Po zakoupení prvních bitcoinů máte samozřejmě možnost nechat je na platformě, ale důrazně doporučuji převést je do vlastní peněženky ve vlastní úschově. Pokud ještě nevíte, jak bitcoinovou peněženku používat, zvu vás k prozkoumání [sekce "Peněženka" na webu Plan ₿ Network](https://planb.network/tutorials/wallet).
 
 ## 6 - Nákup a prodej bitcoinů na Bitfinexu

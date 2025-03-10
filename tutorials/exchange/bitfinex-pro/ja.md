@@ -13,6 +13,7 @@ description: Bitfinexでの企業アカウントの作成と管理
 あなたのビジネスにビットコインを取り入れることに興味があるなら、このテーマに関する私たちの完全な理論的トレーニングコースを発見することもお勧めします：
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - Bitfinexアカウントを作成する
 
 Bitfinex公式ウェブサイト](https://www.bitfinex.com/)にアクセスします。トップページで「*サインアップ*」をクリックし、アカウント作成を開始します。最初は、個人用の標準的なアカウントを作成し、「*法人*」オプションは、後で確認プロセスで選択します。
@@ -26,9 +27,11 @@ Bitfinex公式ウェブサイト](https://www.bitfinex.com/)にアクセスし�
 強力でユニークなパスワードを使用し、保護するためのヒントについては、こちらのチュートリアルもご覧ください：
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 次に、アカウントを保護するために2FAを設定します。例えばGoogle AuthenticatorやAuthyのようなスマートフォン上の認証アプリケーションを使用します。このツールのチュートリアルはこちら：
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 アプリでQRコードを読み取り、記載されている6桁の数字を入力してください。
 
 ![BITFINEX](assets/fr/03.webp)
@@ -158,6 +161,7 @@ BTC*」を選択します。出金時に引き落とされるBitfinexアカウ�
 ライトニング・ネットワークにご興味のある方は、その仕組みを理解するための完全なトレーニングコースもご用意しています：
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ## 6 - Bitfinexでのビットコインの売買
 
 Bitfinex は様々な取引モードを提供しています。使いやすさを求めるなら、"*Trading*"または "*Exchange*"としても知られる古典的なスポット市場を選ぶとよいでしょう。ここでは、市場価格で売買注文を出したり、指値を設定したりすることができます。

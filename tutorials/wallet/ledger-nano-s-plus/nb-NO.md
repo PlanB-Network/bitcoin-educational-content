@@ -54,7 +54,7 @@ For denne opplæringen trenger du to programmer: Ledger Live for å initialisere
 
 For disse to programmene anbefaler jeg på det sterkeste at du kontrollerer både ektheten (med GnuPG) og integriteten (via hashen) før du installerer dem på maskinen din. Hvis du ikke er sikker på hvordan du gjør dette, kan du følge denne andre veiledningen:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Hvordan initialiserer jeg en Ledger Nano?
 

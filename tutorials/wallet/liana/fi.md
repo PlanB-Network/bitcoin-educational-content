@@ -63,7 +63,7 @@ Käy virallisella Wizardsardine-sivustolla ja lataa Liana osoitteessa https://wi
 
 Jos haluat tietää, miten ohjelmiston aitous ja eheys voidaan tarkistaa manuaalisesti ennen asennusta, suosittelemme tutustumaan tähän ohjeeseen :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Asenna ohjelmisto koneellesi ja käynnistä se. Valitse "*Luo uusi Liana-lompakko*" -vaihtoehto määrittääksesi lompakkosi.
 

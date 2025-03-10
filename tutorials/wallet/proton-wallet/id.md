@@ -14,7 +14,7 @@ Fitur khusus dari dompet ini adalah kemampuan untuk mengirim bitcoin menggunakan
 
 Untuk menggunakan Dompet Proton, Anda memerlukan akun Proton. Anda dapat membuatnya secara gratis dengan mengikuti langkah pertama tutorial ini yang didedikasikan untuk membuat kotak surat Proton (hanya bagian "*Membuat akun Proton*"). Setelah akun Anda dibuat, Anda dapat melanjutkan dengan bagian selanjutnya dari tutorial ini.
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Hubungkan ke Dompet Proton
 

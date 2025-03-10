@@ -12,13 +12,13 @@ description: Как настроить вашу локальную рабочу�
 
 Если вы не знаете, что такое GitHub, или если вы хотите узнать больше о технических терминах, связанных с Git и GitHub, я рекомендую вам прочитать наш вводный статью, чтобы ознакомиться с этими концепциями.
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
 - Для начала, вам, очевидно, понадобится аккаунт на GitHub. Если у вас он уже есть, вы можете войти, в противном случае, вы можете использовать наш учебник для создания нового.
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 

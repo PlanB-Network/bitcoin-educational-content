@@ -334,7 +334,7 @@ Začněte stažením a instalací aplikace Sparrow Wallet [z oficiálních strá
 
 Před instalací nezapomeňte zkontrolovat pravost a neporušenost softwaru. Pokud nevíte, jak to udělat, přečtěte si tento návod:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Po otevření aplikace Sparrow Wallet klikněte na kartu "*File*" a poté na "*New Wallet*".
 

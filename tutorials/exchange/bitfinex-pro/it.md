@@ -26,11 +26,11 @@ Completate le informazioni richieste: inserite il vostro indirizzo e-mail aziend
 
 Per suggerimenti sull'uso e la salvaguardia di password forti e uniche, vedere anche questo tutorial:
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ora configureremo il 2FA per proteggere l'account. Utilizzate un'applicazione di autenticazione sul vostro smartphone, come ad esempio Google Authenticator o Authy. Troverete un tutorial su questo strumento qui:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scansionate il codice QR con la vostra app e inserite le 6 cifre fornite.
 

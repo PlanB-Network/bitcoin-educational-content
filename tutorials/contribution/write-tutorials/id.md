@@ -85,14 +85,14 @@ Untuk berkontribusi ke Plan ₿ Network, Anda memiliki 3 opsi, tergantung pada t
 
 - Pengguna berpengalaman**: Lanjutkan dengan metode yang biasa Anda gunakan dan cukup baca tutorial singkat di bawah ini yang merangkum struktur file repositori jaringan Plan ₿ Network, persyaratan khusus, dan cara kerja:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 - Tingkat Menengah (GitHub Desktop)** : Jika Anda tidak terbiasa menggunakan Git, opsi pertama adalah dengan mudah mengatur lingkungan lokal Anda sendiri untuk berkontribusi ke Plan ₿ Network. Pendekatan ini direkomendasikan untuk kontribusi yang signifikan, seperti menulis tutorial lengkap. Untuk melakukannya, ikuti tutorial langkah demi langkah di bawah ini:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - Pemula (antarmuka web)** : Anda juga dapat memilih untuk menggunakan antarmuka web GitHub secara langsung, tanpa harus menyiapkan lingkungan lokal yang lengkap. Metode ini dapat dipertimbangkan untuk kontribusi kecil. Namun, untuk kontribusi besar, seperti menambahkan tutorial baru yang lengkap, opsi ini mungkin terbukti lebih kompleks daripada menyiapkan lingkungan lokal. Saya akan menjelaskan cara melakukannya dalam tutorial ini:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 Pilih salah satu dari tiga opsi ini sesuai dengan tingkat pengetahuan Anda, lalu mulailah menulis tutorial Plan ₿ Network Anda yang pertama!

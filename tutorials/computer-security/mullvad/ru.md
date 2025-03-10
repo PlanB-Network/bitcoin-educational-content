@@ -80,4 +80,4 @@ Mullvad VPN также отличается своей прозрачность�
 Чтобы получить обзор вашего аккаунта Mullvad и управлять различными подключенными устройствами, вы можете нажать на меню "*Устройства*" на веб-сайте.
 ![MULLVAD VPN](assets/notext/37.webp) И вот вы теперь полностью готовы пользоваться Mullvad VPN. Если вас интересует изучение другого провайдера VPN, похожего на Mullvad как по функционалу, так и по цене, я также рекомендую ознакомиться с нашим руководством по IVPN:
 
-https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

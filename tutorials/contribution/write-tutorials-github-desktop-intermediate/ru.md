@@ -6,7 +6,7 @@ description: Полное руководство по планированию �
 
 Прежде чем следовать этому руководству по добавлению нового учебника, вам необходимо выполнить несколько предварительных шагов. Если вы еще не сделали этого, ознакомьтесь сначала с этим вводным уроком, а затем вернитесь сюда:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 У вас уже есть :
 
@@ -20,14 +20,14 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 
 - Опытные пользователи** :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 Если вы предпочитаете не настраивать локальное окружение, следуйте другому руководству, предназначенному для новичков, где мы вносим изменения непосредственно через веб-интерфейс GitHub:
 
 
 - Новички (веб-интерфейс)** :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Пререквизиты
 
@@ -51,11 +51,11 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-web-b
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Как только все будет готово и в вашем локальном окружении будет установлен собственный форк Plan ₿ Network, вы можете приступать к добавлению учебника.
 
@@ -147,7 +147,7 @@ Dans la case "Contributor's GitHub ID", inscrivez votre identifiant GitHub.
 Pour la case "PBN professor's ID", saisissez votre identifiant en utilisant les mots de la liste BIP39, tel qu'il apparaît sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
 ![TUTO](assets/fr/47.webp)
 Pour plus de détails sur votre identifiant de professeur, veuillez consulter le tutoriel suivant :
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Une fois toutes les informations saisies et vérifiées, cliquez sur "Create Tutorial" pour valider la création des fichiers de votre tutoriel. Cela générera en local le dossier de votre tutoriel et tous les fichiers nécessaires dans le dossier de la catégorie sélectionnée.
 ![TUTO](assets/fr/48.webp)
@@ -253,7 +253,7 @@ contributors_id:
 
 Для получения более подробной информации об идентификаторе учителя обратитесь к соответствующему руководству:
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Вот пример файла `tutorial.yml`, заполненного для учебника по кошельку Blockstream Green:
 

@@ -48,7 +48,7 @@ Sovelluksen ensimmäisellä avaamiskerralla sinulle annetaan valinta:
 
 Dojo, jonka Samourai-tiimi on kehittänyt, on täysi Bitcoin-solmun versio, jonka voi asentaa itsenäisesti tai lisätä yhdellä klikkauksella node-in-box -ratkaisuihin, kuten [Umbrel](https://umbrel.com/) ja [RoninDojo](https://ronindojo.io/).
 
-[**-> Tutustu, kuinka asentaa RoninDojo v2 Raspberry Pi:lle.**](https://planb.network/fr/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> Tutustu, kuinka asentaa RoninDojo v2 Raspberry Pi:lle.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 Jos sinulla on oma Dojo, voit yhdistää sen tässä vaiheessa. Näin tehdessäsi hyödyt korkeimmasta yksityisyyden tasosta tarkistaessasi Bitcoin-verkon transaktiotietojasi.
 

@@ -1078,11 +1078,11 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 - Простое онлайн-решение: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Решение для торговцев-любителей: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Решение для крупных структур или увлеченных биткоинщиков: Сервер BTCpay
 

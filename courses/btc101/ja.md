@@ -1078,11 +1078,11 @@ btc/ドルのペアは短期的に変動するが、ビットコインは 2100 �
 
 - シンプルなオンラインソリューションオープンノード
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - アマチュアのためのソリューション：スイス・ビットコイン・ペイ
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - 大規模な組織や情熱的なビットコイナー向けのソリューション：BTCpay サーバー
 

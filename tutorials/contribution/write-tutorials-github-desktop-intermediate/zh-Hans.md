@@ -6,7 +6,7 @@ description: 计划₿ 完整指南 GitHub 桌面网络教程
 
 在学习本教程添加新教程之前，您需要完成几个初步步骤。如果您还没有这样做，请先看看这个入门教程，然后再回到这里：
 
-https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 您已经拥有 ：
 
@@ -20,14 +20,14 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 
 - 经验丰富的用户** ：
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 如果你不想配置本地环境，可以参考另一篇专为初学者设计的教程，我们将直接通过 GitHub 网页界面进行更改：
 
 
 - 初学者（网络界面）** ：
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## 先决条件
 
@@ -51,11 +51,11 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-web-b
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 一旦一切就绪，本地环境也设置了自己的 Plan ₿ Network fork，就可以开始添加教程了。
 
@@ -147,7 +147,7 @@ Dans la case "Contributor's GitHub ID", inscrivez votre identifiant GitHub.
 Pour la case "PBN professor's ID", saisissez votre identifiant en utilisant les mots de la liste BIP39, tel qu'il apparaît sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
 ![TUTO](assets/fr/47.webp)
 Pour plus de détails sur votre identifiant de professeur, veuillez consulter le tutoriel suivant :
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Une fois toutes les informations saisies et vérifiées, cliquez sur "Create Tutorial" pour valider la création des fichiers de votre tutoriel. Cela générera en local le dossier de votre tutoriel et tous les fichiers nécessaires dans le dossier de la catégorie sélectionnée.
 ![TUTO](assets/fr/48.webp)
@@ -253,7 +253,7 @@ Original_language：
 
 有关教师 ID 的详细信息，请参阅相应的教程 ：
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 以下是为 Blockstream Green 钱包教程编写的`tutorial.yml`文件示例：
 

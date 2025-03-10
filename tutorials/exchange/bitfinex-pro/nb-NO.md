@@ -26,11 +26,11 @@ Fyll ut den nødvendige informasjonen: skriv inn e-postadressen til bedriften di
 
 For tips om bruk og sikring av sterke, unike passord, se også denne veiledningen :
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Vi skal nå konfigurere 2FA for å sikre kontoen. Bruk et autentiseringsprogram på smarttelefonen din, for eksempel Google Authenticator eller Authy. Du finner en veiledning om dette verktøyet her :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Skann QR-koden med appen din, og skriv inn de seks sifrene som følger med.
 

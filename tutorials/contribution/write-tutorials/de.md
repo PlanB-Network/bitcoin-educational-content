@@ -85,14 +85,14 @@ Um zum Plan ₿ Network beizutragen, haben Sie 3 Möglichkeiten, je nachdem, wie
 
 - Erfahrene Benutzer**: Fahren Sie mit Ihren gewohnten Methoden fort und konsultieren Sie einfach das folgende kurze Tutorial, das die Dateistruktur des Plan ₿ Network Repository, die spezifischen Anforderungen und die Arbeitsmethode zusammenfasst:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 - Fortgeschrittene (GitHub Desktop)** : Wenn Sie mit der Verwendung von Git nicht vertraut sind, besteht die erste Möglichkeit darin, einfach Ihre eigene lokale Umgebung einzurichten, um zum Plan ₿ Network beizutragen. Diese Vorgehensweise wird für umfangreiche Beiträge empfohlen, z. B. für das Schreiben eines vollständigen Tutorials. Folgen Sie dazu der folgenden Schritt-für-Schritt-Anleitung:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - Anfänger (Weboberfläche)** : Sie können auch direkt die Weboberfläche von GitHub nutzen, ohne eine komplette lokale Umgebung einrichten zu müssen. Diese Methode kann für kleinere Beiträge in Betracht gezogen werden. Bei größeren Beiträgen, wie dem Hinzufügen eines komplett neuen Tutorials, kann sich diese Option jedoch als komplexer erweisen als das Einrichten einer lokalen Umgebung. Wie das geht, erkläre ich in diesem Tutorium:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 Wählen Sie eine dieser drei Optionen je nach Ihrem Kenntnisstand und beginnen Sie mit der Erstellung Ihres ersten Plan ₿ Network Tutorials!

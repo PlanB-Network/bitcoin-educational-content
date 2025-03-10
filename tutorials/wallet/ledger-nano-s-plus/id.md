@@ -49,7 +49,7 @@ Untuk tutorial ini, Anda akan memerlukan 2 aplikasi perangkat lunak: Ledger Live
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Untuk kedua program perangkat lunak ini, saya sangat menyarankan untuk memeriksa keaslian mereka (dengan GnuPG) dan integritas mereka (melalui hash) sebelum menginstalnya di mesin Anda. Jika Anda tidak yakin bagaimana melakukannya, Anda dapat mengikuti tutorial lain ini:
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Bagaimana Cara Menginisialisasi Ledger Nano?
 

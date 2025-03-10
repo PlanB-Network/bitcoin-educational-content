@@ -86,7 +86,7 @@ Dieser Leitfaden konzentriert sich ausschließlich auf "Bisq Easy", das einzige 
 - Laden Sie die Ihrem Betriebssystem entsprechende Version von Bisq 2 herunter (scrollen Sie auf der Seite nach unten)
 - Überprüfen Sie die Authentizität der heruntergeladenen Datei (dringend empfohlen). Eine ausführliche Anleitung zur Überprüfung der Signatur finden Sie im folgenden Tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installation entsprechend Ihrem System
 

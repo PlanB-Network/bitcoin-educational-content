@@ -26,11 +26,11 @@ Bitfinex公式ウェブサイト](https://www.bitfinex.com/)にアクセスし�
 
 強力でユニークなパスワードを使用し、保護するためのヒントについては、こちらのチュートリアルもご覧ください：
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 次に、アカウントを保護するために2FAを設定します。例えばGoogle AuthenticatorやAuthyのようなスマートフォン上の認証アプリケーションを使用します。このツールのチュートリアルはこちら：
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 アプリでQRコードを読み取り、記載されている6桁の数字を入力してください。
 

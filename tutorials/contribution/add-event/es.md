@@ -10,7 +10,7 @@ Si quieres agregar una conferencia sobre Bitcoin al sitio de la Red PlanB y aume
 ![evento](assets/01.webp)
 - Primero, necesitas tener una cuenta en GitHub. Si no sabes cómo crear una cuenta, hemos hecho un tutorial detallado para guiarte.
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Ve a [el repositorio de GitHub de PlanB dedicado a datos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) en la sección `resources/conference/`:
@@ -84,7 +84,7 @@ etiquetas:
 ![evento](assets/09.webp)
 Si todavía no tienes un identificador de "*constructor*" para tu organización, puedes añadirlo siguiendo este otro tutorial.
 
-https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 

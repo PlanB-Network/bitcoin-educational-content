@@ -86,7 +86,7 @@ Tato příručka se zaměřuje výhradně na protokol "Bisq Easy", který je v s
 - Stáhněte si verzi aplikace Bisq 2 odpovídající vašemu operačnímu systému (posuňte stránku dolů)
 - Ověřte pravost staženého souboru (důrazně doporučujeme). Podrobného průvodce ověřením podpisu naleznete v následujícím návodu:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Instalace podle vašeho systému
 

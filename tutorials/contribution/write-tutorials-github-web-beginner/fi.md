@@ -6,7 +6,7 @@ description: Täydellinen opas suunnitelmaan ₿ Verkko-oppaat GitHub Webin avul
 
 Ennen kuin seuraat tätä ohjeistusta uuden ohjeen lisäämisestä, sinun on suoritettava muutama alustava vaihe. Jos et ole vielä tehnyt sitä, tutustu ensin tähän johdantooppaaseen ja palaa sitten tänne :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Sinulla on jo :
 
@@ -20,11 +20,11 @@ Tässä oppaassa tarkastelemme, miten voit lisätä oppaasi Plan ₿ -verkkoon G
 
 - Kokeneet käyttäjät** :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 - Keskitason (GitHub Desktop)** :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Edellytykset
 
@@ -39,11 +39,11 @@ Jos tarvitset apua näiden edellytysten hankkimisessa, muut opetusohjelmani autt
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Kun kaikki on kunnossa ja sinulla on haarautunut Plan ₿ Network -arkisto, voit aloittaa opetusohjelman lisäämisen.
 
@@ -161,7 +161,7 @@ Tässä ovat vaaditut kentät:
 
 Lisätietoja opettajatunnuksesta saat vastaavasta ohjeesta :
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Tässä on esimerkki `tutorial.yml`-tiedostosta, joka on valmis Blockstream Green -lompakkoa koskevaa opetusohjelmaa varten:
 

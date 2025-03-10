@@ -86,7 +86,7 @@ Bisq 2 是广受欢迎的去中心化 Bisq 交易所的新版本，于 2024 年�
 - 下载与您的操作系统相对应的 Bisq 2 版本（向下滚动页面）
 - 验证下载文件的真实性（强烈建议）。有关签名验证的详细指南，请参阅以下教程：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2.根据系统进行安装
 

@@ -995,15 +995,15 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 Наиболее подходящим гибридным решением для вашего профиля, скорее всего, будет Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Еще одно простое в реализации решение, но с тем недостатком, что оно на 100 % является кастодиальным, - это Open Node:
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Если вы готовы испачкать руки и хотите полностью контролировать процесс, то программное обеспечение BTCPay Server - отличный вариант. Однако главным недостатком BTCPay Server является то, что его настройка и управление занимают много времени и требуют определенного уровня технических знаний, но вы можете следовать нашим руководствам:
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Наконец, в качестве дополнения к физическим торговым точкам вы можете рассмотреть возможность создания [Bitcoinize PoS](https://bitcoinize.com/).
 

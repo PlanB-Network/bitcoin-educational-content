@@ -6,7 +6,7 @@ description: Komplett guide til Plan ₿ Nettverksopplæring med GitHub Desktop
 
 Før du følger denne veiledningen om hvordan du legger til en ny opplæring, må du ha fullført noen innledende trinn. Hvis du ikke allerede har gjort det, kan du ta en titt på denne introduksjonsveiledningen først, og deretter komme tilbake hit :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Du har allerede :
 
@@ -20,14 +20,14 @@ I denne veiledningen skal vi se på hvordan du legger til opplæringen din i Pla
 
 - Erfarne brukere** :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 Hvis du foretrekker å ikke konfigurere ditt lokale miljø, kan du følge denne andre opplæringen designet for nybegynnere, der vi gjør endringene direkte via GitHubs webgrensesnitt :
 
 
 - Nybegynnere (webgrensesnitt)** :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Forutsetninger
 
@@ -51,11 +51,11 @@ Hvis du trenger hjelp med å skaffe deg disse forutsetningene, kan du finne hjel
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Når alt er på plass og det lokale miljøet ditt er satt opp med din egen Plan ₿ Network-gaffel, kan du begynne å legge til opplæringen.
 
@@ -147,7 +147,7 @@ Dans la case "Contributor's GitHub ID", inscrivez votre identifiant GitHub.
 Pour la case "PBN professor's ID", saisissez votre identifiant en utilisant les mots de la liste BIP39, tel qu'il apparaît sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
 ![TUTO](assets/fr/47.webp)
 Pour plus de détails sur votre identifiant de professeur, veuillez consulter le tutoriel suivant :
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Une fois toutes les informations saisies et vérifiées, cliquez sur "Create Tutorial" pour valider la création des fichiers de votre tutoriel. Cela générera en local le dossier de votre tutoriel et tous les fichiers nécessaires dans le dossier de la catégorie sélectionnée.
 ![TUTO](assets/fr/48.webp)
@@ -253,7 +253,7 @@ Her er de obligatoriske feltene:
 
 For mer informasjon om lærer-ID-en din, se den tilhørende veiledningen :
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Her er et eksempel på en `tutorial.yml`-fil som er fylt ut for en opplæring om Blockstream Green-lommeboken:
 

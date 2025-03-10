@@ -26,11 +26,11 @@ Complete la información requerida: introduzca la dirección de correo electrón
 
 Para obtener consejos sobre cómo utilizar y salvaguardar contraseñas fuertes y únicas, consulte también este tutorial :
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ahora vamos a configurar el 2FA para asegurar la cuenta. Utiliza una aplicación de autenticación en tu smartphone, como Google Authenticator o Authy por ejemplo. Encontrarás un tutorial sobre esta herramienta aquí :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Escanee el código QR con su aplicación e introduzca los 6 dígitos proporcionados.
 

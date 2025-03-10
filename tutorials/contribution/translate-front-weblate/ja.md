@@ -16,7 +16,7 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 
 PlanB NetworkにまだWeblateにない完全に新しい言語を追加したい場合は、まず追加のリクエストを提出する必要があります。これには、この特定のチュートリアルに従ってください。
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/others/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 
 

@@ -24,9 +24,9 @@ Tutustutaan yhdessä, miten lisätä uusi professori tässä opetusohjelmassa!
 - Forkin omistaminen [PlanB Networkin lähdekoodirepositoriosta](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Jos tarvitset apua näiden edellytysten saavuttamisessa, muut opetusohjelmani opastavat sinua:**
-**[Gitin ja GitHubin ymmärtäminen](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
-**[GitHub-tilin luominen](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
-**[Työympäristösi pystyttäminen](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[Gitin ja GitHubin ymmärtäminen](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[GitHub-tilin luominen](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Työympäristösi pystyttäminen](https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
 
 ## Kuinka luoda uusi professoriprofiili?
 

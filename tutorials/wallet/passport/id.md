@@ -139,7 +139,7 @@ Untuk melakukan ini, gunakan kartu MicroSD yang disertakan dalam kotak Passport 
 
 Sebelum menginstalnya di perangkat Anda, kami sangat menyarankan Anda untuk memeriksa keaslian dan integritas firmware yang diunduh. Jika Anda memerlukan bantuan dalam hal ini, bacalah tutorial ini:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Setelah memeriksa file `.bin`, letakkan file tersebut di MicroSD Anda, lalu masukkan ke dalam Passport. Penjelajah file Passport akan terbuka. Pilih file `vN.N.N-passport.bin`.
 
@@ -332,7 +332,7 @@ Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi] (
 
 Pastikan untuk memeriksa keaslian dan integritas perangkat lunak sebelum instalasi. Jika Anda tidak tahu cara melakukannya, silakan baca tutorial ini:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Setelah Sparrow Wallet terbuka, klik tab "*File*", lalu "*Dompet Baru*".
 

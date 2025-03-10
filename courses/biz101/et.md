@@ -995,15 +995,15 @@ Kuigi Essential-profiil ei nõua väga keerukaid raamatupidamissüsteeme, on sii
 
 Teie profiilile kõige sobivam hübriidlahendus on tõenäoliselt Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Teine kergesti rakendatav lahendus, kuid selle puuduseks on see, et see on 100% eestkostetav, on Open Node:
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Kui olete valmis oma käed määrima ja soovite protsessi täielikku kontrolli, on BTCPay Server tarkvara suurepärane valik. BTCPay Serveri peamine puudus on siiski see, et selle seadistamine ja haldamine on aeganõudev ja nõuab teatud tehnilisi teadmisi, kuid te võite järgida meie juhiseid:
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Lõpuks, füüsiliste müügipunktide täienduseks võiksite kaaluda [Bitcoinize PoS](https://bitcoinize.com/) loomist.
 

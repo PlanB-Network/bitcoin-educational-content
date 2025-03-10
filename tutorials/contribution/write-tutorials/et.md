@@ -85,14 +85,14 @@ Plaani ₿ võrgustikku panustamiseks on teil 3 võimalust, sõltuvalt teie GitH
 
 - Kogenud kasutajad**: Jätkake oma tavapäraste meetoditega ja vaadake lihtsalt allpool olevat lühikest õpetust, mis võtab kokku Plan ₿ Network repository faili struktuuri, spetsiifilised nõuded ja töömeetodi :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 - Vahepealne (GitHub Desktop)** : Kui te ei ole Giti kasutamisega tuttav, on esimene võimalus lihtsalt luua oma kohalik keskkond, et aidata kaasa Plan ₿ Network'ile. See lähenemine on soovitatav oluliste panuste puhul, näiteks täieliku õpetuse kirjutamiseks. Selleks järgige alljärgnevat samm-sammulist õpetust :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - Algajad (veebiliides)** : Võite valida ka GitHubi veebiliidese otsese kasutamise, ilma et oleks vaja luua täielikku lokaalset keskkonda. Seda meetodit võib kaaluda väiksemate panuste puhul. Suuremate panuste puhul, näiteks uue täieliku õpetuse lisamine, võib see variant osutuda keerulisemaks kui lokaalse keskkonna loomine. Selgitan selles õpetuses, kuidas seda teha:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 Vali üks neist kolmest võimalusest vastavalt oma teadmiste tasemele, siis alusta oma esimese Plan ₿ Network tutoriali kirjutamist!

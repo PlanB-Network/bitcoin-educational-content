@@ -170,7 +170,7 @@ K tomu použijte kartu MicroSD, která je součástí balení Passportu (nebo ji
 
 Před instalací do zařízení důrazně doporučujeme zkontrolovat pravost a neporušenost staženého firmwaru. Pokud s tím potřebujete pomoci, podívejte se do tohoto návodu :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### S aplikací Envoy
 

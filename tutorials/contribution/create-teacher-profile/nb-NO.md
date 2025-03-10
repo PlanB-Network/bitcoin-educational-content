@@ -24,9 +24,9 @@ La oss sammen oppdage hvordan vi legger til en ny professor i denne veiledningen
 - Å ha en fork av [PlanB Network-kilderepositoriet](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Hvis du trenger hjelp til å skaffe disse forutsetningene, vil mine andre veiledninger guide deg:**
-**[Forstå Git og GitHub](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
-**[Opprette en GitHub-konto](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
-**[Sette opp ditt arbeidsmiljø](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[Forstå Git og GitHub](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Opprette en GitHub-konto](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[Sette opp ditt arbeidsmiljø](https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
 
 ## Hvordan opprette en ny professorprofil?
 

@@ -995,15 +995,15 @@ Obwohl das Essential-Profil keine hochentwickelten Buchhaltungssysteme erfordert
 
 Die für Ihr Profil am besten geeignete Hybridlösung ist wahrscheinlich Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Eine weitere einfach zu implementierende Lösung, die jedoch den Nachteil hat, dass sie zu 100 % verwaltet wird, ist Open Node:
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Wenn Sie bereit sind, sich die Hände schmutzig zu machen und die volle Kontrolle über den Prozess haben möchten, ist die BTCPay Server-Software eine hervorragende Option. Der größte Nachteil von BTCPay Server ist jedoch, dass seine Einrichtung und Verwaltung zeitaufwendig sind und ein gewisses Maß an technischem Know-how erfordern, aber Sie können unseren Anleitungen folgen:
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Als Ergänzung zu den physischen Verkaufsstellen könnten Sie die Einrichtung eines [Bitcoinize PoS](https://bitcoinize.com/) in Betracht ziehen.
 

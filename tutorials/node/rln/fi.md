@@ -372,4 +372,4 @@ Jos löysit tämän ohjeen hyödylliseksi, olisin hyvin kiitollinen, jos laittai
 
 Suosittelen myös tätä toista opetusohjelmaa, jossa selitän, miten LNP/BP-yhdistyksen kehittämää RGB CLI -työkalua käytetään RGB-sopimuksen luomiseen:
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

@@ -24,9 +24,9 @@ Avastame koos, kuidas lisada uus professor selles õpetuses!
 - Omama fork'i [PlanB võrgustiku lähterepositooriumist](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 **Kui vajate abi nende eeltingimuste saamiseks, juhendavad teid minu teised õpetused:**
-- **[Git'i ja GitHubi mõistmine](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
-- **[GitHubi konto loomine](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
-- **[Töökeskkonna seadistamine](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+- **[Git'i ja GitHubi mõistmine](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[GitHubi konto loomine](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[Töökeskkonna seadistamine](https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
 
 ## Kuidas luua uut professori profiili?
 

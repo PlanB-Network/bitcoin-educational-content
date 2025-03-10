@@ -14,7 +14,7 @@ La particolarità di questo portafoglio è la possibilità di inviare bitcoin ut
 
 Per utilizzare Proton Wallet, è necessario disporre di un account Proton. Potete crearne uno gratuitamente seguendo i primi passi di questo tutorial dedicato alla creazione di una casella di posta elettronica Proton (solo la sezione "*Creazione di un account Proton*"). Una volta configurato l'account, si può proseguire con il resto del tutorial.
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Connettersi a Proton Wallet
 

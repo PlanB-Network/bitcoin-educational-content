@@ -78,7 +78,7 @@ Nas opções 2FA, pode optar por utilizar uma chave de segurança física como s
 
 Para mais informações sobre como utilizar este tipo de dispositivo, consulte o nosso tutorial dedicado :
 
-https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 A outra opção é utilizar uma aplicação de autenticação, como o Google Authenticator ou o Authy. Estas aplicações geram um código dinâmico de 6 dígitos que terá de introduzir sempre que iniciar sessão.
 
@@ -90,7 +90,7 @@ Para ativar este método, digitalize o código QR com a aplicação da sua escol
 
 Para mais informações sobre aplicações de autenticação, pode também consultar este tutorial :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Por baixo, também tem acesso a definições avançadas, incluindo a capacidade de definir várias 2FAs diferentes. O Kraken oferece delegação de segurança avançada via 2FA. Este recurso permite que você crie diferentes níveis de 2FA para várias ações, como login, validação de pedidos e retirada de fundos. Isso possibilita, por exemplo, dar a um contador acesso a certas funcionalidades sem permitir que ele retire fundos. Eis as opções:
 

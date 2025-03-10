@@ -16,7 +16,7 @@ Tuttavia, se siete interessati a tradurre altre sezioni del sito, esclusi i cont
 
 Se desiderate aggiungere una lingua completamente nuova alla Rete PlanB che non è ancora disponibile su Weblate, dovrete prima inviare una richiesta di aggiunta. Per questo, seguite questo tutorial specifico.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/others/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 
 

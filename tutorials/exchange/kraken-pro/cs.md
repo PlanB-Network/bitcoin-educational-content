@@ -78,7 +78,7 @@ V možnostech 2FA můžete jako druhý faktor použít fyzický bezpečnostní k
 
 Další informace o používání tohoto typu zařízení naleznete v našem speciálním návodu :
 
-https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Druhou možností je použít autentizační aplikaci, například Google Authenticator nebo Authy. Tyto aplikace generují dynamický šestimístný kód, který je třeba zadat při každém přihlášení.
 
@@ -90,7 +90,7 @@ Pro aktivaci této metody naskenujte QR kód pomocí vybrané aplikace ve svém 
 
 Další informace o aplikacích ověřování naleznete také v tomto návodu :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Pod ním máte také přístup k pokročilým nastavením, včetně možnosti nastavit několik různých 2FA. Kraken nabízí pokročilé delegování zabezpečení prostřednictvím 2FA. Tato funkce umožňuje vytvořit různé úrovně 2FA pro různé akce, jako je přihlášení, ověření příkazu a výběr prostředků. Díky tomu je možné například účetnímu umožnit přístup k určitým funkcím, aniž by mu bylo umožněno vybírat finanční prostředky. Zde jsou možnosti:
 

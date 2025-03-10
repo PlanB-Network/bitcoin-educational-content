@@ -995,15 +995,15 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 あなたのプロフィールに最も適したハイブリッド・ソリューションは、スイス・ビットコイン・ペイだろう：
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 もう一つの導入が簡単なソリューションだが、100％カストディアンであるという欠点がある：
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 もしあなたが自分の手を汚さず、プロセスを完全にコントロールしたいのであれば、BTCPay Serverソフトウェアは優れた選択肢です。しかし、BTCPayサーバーの主な欠点は、そのセットアップと管理に時間がかかり、一定レベルの技術的専門知識を必要とすることです：
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 最後に、物理的なPOSを補完するものとして、[Bitcoinize PoS](https://bitcoinize.com/)の設置を検討することができる。
 

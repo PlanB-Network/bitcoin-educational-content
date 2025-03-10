@@ -24,9 +24,9 @@ PlanB ネットワークに新しい完全なチュートリアルやコース�
 - [PlanB Network ソースリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content)のフォークを持っていること。
 
 **これらの前提条件を得るための助けが必要な場合は、私の他のチュートリアルがガイドします：**
-**[Git と GitHub の理解](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
-**[GitHub アカウントの作成](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
-**[作業環境の設定](https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+**[Git と GitHub の理解](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[GitHub アカウントの作成](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+**[作業環境の設定](https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
 
 ## 新しい教授プロファイルを作成する方法は？
 

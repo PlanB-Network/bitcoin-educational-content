@@ -170,7 +170,7 @@ Passport của bạn đã sẵn sàng nhận chương trình cơ sở mới thô
 
 Trước khi cài đặt trên thiết bị của bạn, chúng tôi khuyên bạn nên kiểm tra tính xác thực và toàn vẹn của phần mềm đã tải xuống. Nếu bạn cần trợ giúp về vấn đề này, hãy tham khảo hướng dẫn này:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Với ứng dụng Envoy
 

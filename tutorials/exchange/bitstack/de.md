@@ -53,7 +53,7 @@ Wählen Sie ein sicheres Passwort, um den Zugang zu Ihrem Konto zu schützen, un
 
 Für die sichere Verwaltung von Passwörtern im Alltag ist die Verwendung eines Passwortmanagers sehr zu empfehlen. Auf Plan ₿ Network finden Sie mehrere Anleitungen zu den besten bestehenden Lösungen, wie z. B. Bitwarden:
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sie werden dann aufgefordert, Ihre Identität zu überprüfen (KYC). In Übereinstimmung mit den französischen Vorschriften werden Sie aufgefordert, Ihre persönlichen Daten und einen Identitätsnachweis vorzulegen. Füllen Sie die Felder mit Ihrem Namen, Vornamen und Geburtsdatum aus.
 

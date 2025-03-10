@@ -10,7 +10,7 @@ description: Как предложить добавление нового ме�
 ![event](assets/01.webp)
 - Во-первых, у вас должен быть аккаунт на GitHub. Если вы не знаете, как создать аккаунт, мы подготовили подробный учебник, который вас направит.
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) в раздел `resources/conference/`:
@@ -83,7 +83,7 @@ price_dollars: 0
 ![мероприятие](assets/09.webp)
 Если у вашей организации еще нет идентификатора "*builder*", вы можете добавить его, следуя этому другому учебному пособию.
 
-https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 

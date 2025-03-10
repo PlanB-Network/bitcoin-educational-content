@@ -147,4 +147,4 @@ The verification is successful if **both** the following messages are displayed:
 1. The GPG signature is reported as **"Good signature from Plan ₿ Network"**
 2. The OpenTimestamps verification shows a specific Bitcoin block timestamp and reports **"Success! Bitcoin block [blockheight] attests data existed as of [timestamp]"**
 
-Now that you know how Plan ₿ Network issues verifiable proofs for any ₿-CERT Certificate and Diploma, you can easily verify the integrity of it.
+Now that you know how Plan ₿ Network issues verifiable proofs for any ₿-CERT Certificate and Diploma, you can easily verify the integrity of them.

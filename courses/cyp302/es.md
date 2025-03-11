@@ -561,7 +561,7 @@ Un concepto clave en criptografía es el de pseudoaleatoriedad. Una **cadena pse
 
 Supongamos, por ejemplo, una variable aleatoria $S$. Su conjunto de resultados es **$S_{256}$**, es decir, el conjunto de todas las cadenas binarias de longitud 256. Este conjunto tiene $2^{256}$ elementos. Este conjunto tiene $2^{256}$ elementos. Cada elemento tiene la misma probabilidad de selección, $1/2^{256}$, en el muestreo.
 
-Además, supongamos una variable aleatoria $S'$. Su conjunto de resultados sólo incluye $2^{128}$ cadenas binarias de longitud 256. Tiene alguna distribución de probabilidad sobre esas cadenas, pero esta distribución no es necesariamente uniforme. Tiene alguna distribución de probabilidad sobre esas cadenas, pero esta distribución no es necesariamente uniforme.
+Además, supongamos una variable aleatoria $S'$. Su conjunto de resultados sólo incluye $2^{128}$ cadenas binarias de longitud 256. Tiene alguna distribución de probabilidad sobre esas cadenas, pero esta distribución no es necesariamente uniforme.
 
 Supongamos que ahora tomo 1000 muestras de $S$ y 1000 muestras de $S'$ y te doy los dos conjuntos de resultados. Te digo qué conjunto de resultados está asociado a qué variable aleatoria. A continuación, tomo una muestra de una de las dos variables aleatorias. Pero esta vez no te digo de qué variable aleatoria tomo la muestra. Si $S'$ fuera pseudoaleatoria, entonces la idea es que tu probabilidad de acertar qué variable aleatoria he muestreado no es prácticamente mejor que $1/2$.
 

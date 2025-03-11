@@ -6,6 +6,8 @@ description: Un bot Telegram per acquistare Bitcoin in confidenzialità
 
 ![image](assets/cover.webp)
 
+_Questo tutorial stato scritto da_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+
 # Introduzione
 BitcoinVoucherBot è uno strumento con il quale si possono acquistare Bitcoin in cambio di euro.
 ### KYC Light

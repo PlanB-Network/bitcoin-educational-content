@@ -1,0 +1,17 @@
+id: 31b1ef28-04f4-40ed-baea-0b4af7c5b0f7
+start_date: 2025-08-08 08:00:00
+end_date: 2025-08-09 16:00:00
+timezone: Europe/Budapest
+address_line_1: Budapest, Hungary
+name: Budapest Bitcoin
+builder: Budapest Bitcoin
+type: conference
+description: A conference focusing on Bitcoin trends, innovation, and networking.
+language:
+  - en
+links:
+  website: https://budapestbitcoin.com/
+tags:
+  - innovation
+  - user-friendly
+  - adoption

@@ -49,6 +49,7 @@ Kui vajate abi nende eelduste hankimisel, siis minu teised õpetused aitavad tei
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 Kui kõik on paigas ja teie kohalik keskkond on korralikult seadistatud koos oma Plan ₿ Networki haruga, võite alustada õpetuse lisamist.
 
+
 ## 1 - Uue haru loomine
 
 Avage oma brauser ja suunduge Plan ₿ Networki repositooriumi hargnemise lehele. See on teie poolt GitHubis loodud haru. Teie hargnemise URL peaks välja nägema järgmiselt: `https://github.com/[teie-kasutajanimi]/bitcoin-õppematerjal`:
@@ -423,3 +424,4 @@ Kui soovite oma panust muuta pärast seda, kui olete oma PR-i juba esitanud, sõ
 - Kui teie PR on juba ühendatud põhiharuga, peate alustama protsessi uuesti, luues uue haru ja esitades seejärel uue PR-i. Veenduge, et teie kohalik repositoorium on enne jätkamist sünkroniseeritud Plan ₿ võrgu lähtekoodide repositooriumiga.
 
 Kui teil tekib tehnilisi raskusi oma õpetuse esitamisel, siis ärge kartke abi küsida [meie spetsiaalses Telegram-grupis](https://t.me/PlanBNetwork_ContentBuilder). Aitäh!
+

@@ -7,17 +7,18 @@ language:
   - en
 links:
   twitter: https://x.com/thebitcoinconf
-  website: https://b.tc/conference
+  website: https://b.tc/conference/2024
 project_id: 77d117fc-a2b1-4e2c-8442-ea00ff8cf70a
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date: "2024-12-13"
+    last_contribution_date: 2025-03-04
     urgency: 0
     contributors_id:
-      - jramos0
+      - PaoloFoti
     reward: 0.05
 tags:
   - market-trends
   - adoption
   - future-outlook
+

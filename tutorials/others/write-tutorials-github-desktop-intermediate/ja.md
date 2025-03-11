@@ -49,6 +49,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-web-b
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 すべての準備が整い、ローカル環境にプラン₿ネットワークのフォークが適切にセットアップされたら、チュートリアルの追加を開始できます。
 
+
 ## 1 - 新しいブランチを作る
 
 ブラウザを開き、Plan ₿ Networkリポジトリのフォークのページに移動します。これは、GitHub で確立したフォークです。フォークのURLは以下のようになります：https://github.com/[あなたのユーザー名]/bitcoin-educational-content`：
@@ -423,3 +424,4 @@ GitHub デスクトップソフトウェアでは、フォークのメインブ�
 - PRがすでにメインブランチにマージされている場合は、新しいブランチを作成し、新しいPRを投稿してプロセスをやり直す必要があります。作業を進める前に、ローカルリポジトリが Plan ȏ Network ソースリポジトリと同期していることを確認してください。
 
 チュートリアルを投稿する際に技術的な問題が発生した場合は、遠慮なく[投稿専用のTelegramグループ](https://t.me/PlanBNetwork_ContentBuilder)に助けを求めてください。ありがとうございました！
+

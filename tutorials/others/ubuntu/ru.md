@@ -225,4 +225,4 @@ sudo apt install vlc
 
 Чтобы еще больше обезопасить свою цифровую жизнь, мы рекомендуем вам обратить внимание на нашу службу шифрованных сообщений, которая идеально подходит для защиты вашей конфиденциальности и дополняет вашу установку Ubuntu:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

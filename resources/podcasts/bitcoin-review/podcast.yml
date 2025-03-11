@@ -1,0 +1,14 @@
+name: Bitcoin Review
+host: Coinkite
+language: en
+links:
+  podcast: https://open.spotify.com/show/65cGjse0oWooMqHlTVUida
+  website: https://bitcoin.review/
+description: |
+  Hello and welcome to Bitcoin.Review. Scratching my own itch, this is a best efforts place to talk about Bitcoin (and Nostr) Project software updates and some other commentary that I find interesting or noteworthy to me. I also would like to invite you to send Bitcoin related questions via the bitcoin.review's website.
+tags:
+  - development
+  - protocols
+  - use-case
+contributors:
+  - hunt-wood

@@ -1,0 +1,17 @@
+id: 8c1764df-e7ad-4618-80aa-80d8b93f1087
+start_date: 2025-05-30 08:00:00
+end_date: 2025-06-01 16:00:00
+timezone: Europe/Paris
+address_line_1: Bretagne, France
+name: Bitcoin Economic Forum
+builder: Bitcoin Economic Forum
+type: conference
+description: A conference focusing on Bitcoin trends, innovation, and networking.
+language:
+  - en
+links:
+  website: https://www.breizhbitcoin.com/bitcoin-economic-forum/
+tags:
+  - innovation
+  - user-friendly
+  - adoption

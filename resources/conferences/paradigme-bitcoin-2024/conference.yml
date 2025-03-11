@@ -13,10 +13,10 @@ project_id: 07d04d89-f2f4-4326-ad29-9617c2596077
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date: "2024-12-13"
+    last_contribution_date: "2025-03-04"
     urgency: 0
     contributors_id:
-      - jramos0
+      - PaoloFoti
     reward: 0.05
 tags:
   - adoption

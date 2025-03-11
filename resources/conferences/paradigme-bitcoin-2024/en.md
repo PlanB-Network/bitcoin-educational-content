@@ -1,31 +1,31 @@
 ---
 name: Le Paradigme Bitcoin 2024
-description: Conferences and roundtable discussions about Bitcoin in french and english
+description: Conferences and roundtable discussions about Bitcoin in French and English
 ---
 
 # French Version (original)
 
-## ENTREPRENDRE AVEC BITCOIN (fr)
-
-![video](https://youtu.be/59u_7X2vk-c)
-
-## L'ÉCOSYSTÈME BITCOIN NEUCHÂTELOIS MODÈLE UNIQUE OU REPRODUCTIBLE français
-
-![video](https://youtu.be/tH-7bBVJzoY)
-
-## A LA RECHERCHE DU MOINS COMMUN DES DÉNOMINATEURS & L'AXIOME DE LA VALEUR (fr)
-
-![video](https://youtu.be/GU9j1DhZspM)
-
-## INTRODUCTION par Jacques Favier & LE GÉNIE DE LA MACHINE. (fr)
+## INTRODUCTION par Jacques Favier & LE GÉNIE DE LA MACHINE.
 
 ![video](https://youtu.be/52_0EdFReuQ)
 
+## A LA RECHERCHE DU MOINS COMMUN DES DÉNOMINATEURS & L'AXIOME DE LA VALEUR
+
+![video](https://youtu.be/GU9j1DhZspM)
+
+## L'ÉCOSYSTÈME BITCOIN NEUCHÂTELOIS MODÈLE UNIQUE OU REPRODUCTIBLE
+
+![video](https://youtu.be/tH-7bBVJzoY)
+
+## ENTREPRENDRE AVEC BITCOIN
+
+![video](https://youtu.be/59u_7X2vk-c)
+
 # English Version (dubbing)
 
-## EMBARKING WITH BITCOIN
+## INTRODUCTION by JACQUES FAVIER & THE GENIUS OF THE MACHINE
 
-![video](https://youtu.be/H7i9VZTbLKg)
+![video](https://youtu.be/QrdyC3v9S0I)
 
 ## IN SEARCH OF THE LEAST COMMON DENOMINATOR & THE AXIOM OF VALUE
 
@@ -35,6 +35,6 @@ description: Conferences and roundtable discussions about Bitcoin in french and 
 
 ![video](https://youtu.be/NHvLSGF_WBI)
 
-## INTRODUCTION by JACQUES FAVIER & THE GENIUS OF THE MACHINE
+## EMBARKING WITH BITCOIN
 
-![video](https://youtu.be/QrdyC3v9S0I)
+![video](https://youtu.be/H7i9VZTbLKg)

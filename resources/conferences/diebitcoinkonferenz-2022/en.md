@@ -1,6 +1,6 @@
 ---
-name:  Die Bitcoin Konferenz 2022
-description: The biggest Bitcoin conference in German 
+name: Die Bitcoin Konferenz 2022
+description: The biggest Bitcoin conference in German
 ---
 
 # Main Stage
@@ -16,7 +16,7 @@ Was können Analysetools, - Welche Informationen liefert uns die Blockchain, - W
 
 Stefan Embacher ist ein österreichischer Unternehmer, Co - Founder und CEO von Foreus Blockchain Analytics. Foreus beschafft frühzeitig umfassende Daten zur Erkennung und Vermeidung von Schaden und Betrug. Dazu wird die manuelle Informationsbeschaffung aus öffentlich zugänglichen Quellen mit softwaregestützter Informationsbeschaffung aus dem Darknet verknüpft.
 
-## Welche Wallet für welchen Zweck? 
+## Welche Wallet für welchen Zweck?
 
 ![video](https://youtu.be/uMyym2daxuA?si=UMWtJ0_RYmeJMGPV)
 
@@ -38,11 +38,11 @@ Ich werde verschiedene Ideen und Möglichkeiten aufzeigen, wie Unternehmen in Zu
 
 Marc Steiner ist ein Schweizer Elektrotechnik-Ingenieur und Unternehmer. Mit seinem Buch "Bitcoins verwahren und vererben" hat er einen wertvollen Ratgeber geschrieben, damit Bitcoinern das sichere "Hodln" selbst über mehrere Generationen gelingt. Sein Ziel ist es, dass nicht nur jede Person einen sicheren Nachlassplan besitzt, sondern unterstützt auch die Leute, auf dem Weg "ihre eigene Bank zu werden".
 
-## Was Bitcoin mit Magie zu tun hat. 
+## Was Bitcoin mit Magie zu tun hat.
 
 ![video](https://youtu.be/9DWu2_BGwyg?si=cRwyWsxAHDlHo6Bu)
 
-Till Haunschild 
+Till Haunschild
 
 MAGISCHES INTERNET GELD – ZAUBERHAFTE EINBLICKE IN DAS DIGITALE GOLD
 Till Haunschild ist ein Keynotespeaker, Zauberer in der zweiten Generation und mehrfacher Gründer. "Jede hinreichend fortschrittliche Technologie ist von Magie nicht zu unterscheiden." Nicht umsonst wird Bitcoin auch als "Magic-Internet-Money" bezeichnet. Till wird neben beeindruckenden Zauber-Effekten auch erklären, was gerade Bitcoin zu so einer magischen Technologie macht.
@@ -69,7 +69,7 @@ Bitcoin kann niemals ein Ersatz für unser Geld sein" ist ein oft gehörter Satz
 
 Bastian Feder ist ein Software-Entwickler, Unternehmer und CEO der "swissnodes gmbh". Er ist als Gründungspartner von lipa (lightning payment services ag) vorne mit dabei, wenn es darum geht das Bitcoin-Lightning Netzwerk zu etablieren und effizient zu nutzen. Mit seinem technischen Know-How hilft er dabei, Bitcoin für immer mehr User zugänglich zu machen.
 
-## Bitcoin Lightning - Tut es Node?! 
+## Bitcoin Lightning - Tut es Node?!
 
 ![video](https://youtu.be/-342g6OLYQA?si=ZMSuW0j56AUM4uhI)
 
@@ -81,7 +81,7 @@ Das Bitcoin Lightning Netzwerk gibt es jetzt seit 6 Jahren und es hat sich in di
 Jeff Gallas ist ein deutscher Unternehmer und Bitcoiner. Er ist seit 2011 im Bitcoin Bereich tätig. Seine Firma "FULMO" ist ein Bitcoin-Only Unternehmen, welches sich mit dem Aufbau, Verbesserung und Entwicklung des Lightning Networks beschäftigt. Jeff ist auch der Organisator der Lightning-Hackdays.
 
 
-## Bitcoin im Unternehmen - Was gibt es zu beachten? 
+## Bitcoin im Unternehmen - Was gibt es zu beachten?
 
 ![video](https://youtu.be/1EGVpMfOc5o?si=IRl_GCc9cHCSN4WI)
 
@@ -102,13 +102,13 @@ Konstantin Nick
 
 ![video](https://youtu.be/_ndo2pPizNQ?si=LN17y4NBaerFgeSe)
 
-Jörg Hermsdorf 
+Jörg Hermsdorf
 KUNDEN-ZIELGRUPPE: BITCOIN-BÜRGER ODER KRYPTO-TOURISTEN? ODER BEIDE?
 "Bitcoin is NOT Crypto" ist kein flaches Meme, sondern inzwischen ein Key-Differentiator zur Abgrenzung gegenüber Wettbewerbern. Als Unternehmer muss man wissen welche Kunden man bedienen möchte. Der Vortrag beleuchtet die unterschiedlichen Bedürfnisse und Ansprüche von Bitcoin-Bürgern und Krypto-Touristen.
 
 Jörg Hermsdorf ist ein deutscher Informatiker, Unternehmer und Experte für SMT (Sound Money Technology). Mit seinem Vortrag "Das finale Geld" verbindet er grundlegende Elemente aus Physik, Technik, Ökonomie und Geschichte und zeigt, weshalb Bitcoin einen exzellenten Kandidaten für das finale Geld darstellt.
 
-## Was ist Kryptografie? 
+## Was ist Kryptografie?
 
 ![video](https://youtu.be/GiY3ChKtf8Q?si=_Lo_L0CLOJPcfT9r)
 
@@ -120,7 +120,7 @@ Ohne Kryptographie kein Bitcoin. Trotzdem ist das Thema heute umgeben von einer 
 Jonas Nick ist ein deutscher Bitcoin Software-Entwickler. Er arbeitet bei der von Adam Back gegründeten Firma "Blockstream". Zu seinen Spezialgebieten gehören die kryptografischen Elemente von Bitcoin. Mit seiner Arbeit und Forschung gehört Jonas zu den führenden Experten bezüglich Bitcoins Kryptografie.
 
 
-## Die optimale Asset Allocation von Bitcoin und Gold. 
+## Die optimale Asset Allocation von Bitcoin und Gold.
 
 ![video](https://youtu.be/DnBRvQmFwhg?si=YgCUVNM7FCNNmyKO)
 
@@ -152,7 +152,7 @@ Ob „Hodln" oder „Stacking Sats", niemand zelebriert das konsequente Sparen s
 Holger von Krosigk ist ein deutscher Verleger und ehemaliger Profi-Skateboarder. Seit einigen Jahren beschäftigt er sich intensiv mit Bitcoin und schreibt auch enthusiastisch auf seinem "dematerialize.blog" über persönliche Bitcoin Einsichten und Erfahrungen. Für Holger ist eines klar:"Bitcoin ist gelebte Sparkultur" und steht damit im klaren Gegensatz zum Mainstream.
 
 
-## CEO im deutschen Mittelstand goes Bitcoin. 
+## CEO im deutschen Mittelstand goes Bitcoin.
 
 ![video](https://youtu.be/NiUCGMHOX28?si=M10jDnPgQnQ_5-KO)
 
@@ -186,7 +186,7 @@ Bitcoin bietet eine komplett neue Art der Banken. Dank Bitcoin können Banken ih
 
 Daniel Wingen ist ein deutscher Bitcoin Consultant und Podcaster. Als Veranstalter der Value of Bitcoin Konferenz trägt er bereits seit 2019 maßgeblich dazu bei, dass Bitcoin auch in der deutschsprachigen Finanz-Branche immer besser verstanden und wahrgenommen wird. Durch sein hohes Engagement in der Bitcoin Community gehört er zu den bekanntesten "Bitcoin-Plebs" im deutschsprachigen Raum.
 
-## Warum es kein besseres Geld als Bitcoin gibt. 
+## Warum es kein besseres Geld als Bitcoin gibt.
 
 ![video](https://youtu.be/jv8p7XwFuJI?si=cUX76HvyM4BReLAS)
 
@@ -218,7 +218,7 @@ Der schleichende Vertrauensverlust in Euro und Dollar hat einen Wettbewerb um di
 
 Gunther Schnabl ist ein deutscher Wirtschaftswissenschaftler und einer der einflussreichsten Ökonomen Deutschlands. Auf der Grundlage der Arbeiten des Nobelpreisträgers Friedrich-August von Hayek analysiert er den Einfluss der Geldpolitik auf Finanz- und Gütermärkte. Insbesondere die negativen Auswirkungen einer expansiven Geldpolitik werden von ihm klar benannt und genau beleuchtet.
 
-## DU BIST BITCOIN 
+## DU BIST BITCOIN
 
 ![video](https://youtu.be/jcTUrY6W_lU?si=Qvr2joZy8mmgtH5e)
 
@@ -232,7 +232,7 @@ Roman Reher (besser bekannt als "Blocktrainer") ist ein deutscher Informatiker, 
 
 ![video](https://youtu.be/T2fuXoqMgBM?si=toQkoHjW6qYGmkqO)
 
-Peter Rochel 
+Peter Rochel
 WARUM BITCOIN FÜR BANKEN ÜBERLEBENSWICHTIG IST.
 Die Auswirkungen auf Geschäftsmodelle von Sparkassen und Banken sind dramatisch aber kaum relevant aus Sicht vieler Entscheider. Eine Fehleinschätzung mit fatalen Folgen. Seit 2019 untersucht Peter, auf Grundlage der Jobs to Be Done Theorie und der Theory of Disruption, die kausalen Wirkmechanismen der Bitcoin Massenadoption. Das betrifft auch Mitarbeitende und Führungskräfte in Finanzinstituten.
 ´
@@ -242,14 +242,14 @@ Peter Rochel ist Inhaber von Oberwasser Consulting, einer Beratungsboutique spez
 
 ![video](https://youtu.be/3zWfuh-Dbf4?si=StWvm2WRStamsNoD)
 
-Ijoma Mangold 
+Ijoma Mangold
 
 WIE BLEIBT MAN OFFEN FÜR KRITIK?
 Strategien gegen die Selbstimmunisierung: Über die sehnsüchtigen Rufe im Bitcoin-Space nach Kritik auf Augenhöhe und die feine Balance zwischen Überzeugungstäter und Fähnchen im Wind.
 
 Ijoma Mangold ist ein deutscher Literaturkritiker, Autor und Philosoph. Mit seinem Artikel "Das schlaue Gold" in der Wochenzeitung "Zeit" hat er Bitcoin einem großen Publikum versiert und verständlich nähergebracht. Ijoma betrachtet Bitcoin aus sozialen, wirtschaftlichen und philosophischen Perspektiven und fasst diese in eloquenter weise zusammen.
 
-## Bitcoin: Das finale Geld?! 
+## Bitcoin: Das finale Geld?!
 
 ![video](https://youtu.be/e-qe4tEw3es?si=pOt-CbghSe10giWM)
 
@@ -271,7 +271,7 @@ Wir bauen im Prinzip ein Paymentmodul, um Euro-Zahlungen über Lightning als Mic
 
 Martin Betz ist ein deutscher Unternehmer und der Geschäftsführer von Consulting Bitcoin. Mit seinem Unternehmen hilft er dabei, innovative Geschäftsmodelle zu entwickeln und umzusetzen, die das technologische Potential von Bitcoin ausreizen. Er unterstützt auch, zukunftsfähig zu bleiben in der Bitcoin Ökonomie.
 
-## Der ökonomische Ursprung von Bitcoin 
+## Der ökonomische Ursprung von Bitcoin
 
 ![video](https://youtu.be/ykiLI-7jCzg?si=Ijg0xrn6eeM33jy9)
 
@@ -282,9 +282,9 @@ Die Ursprünge der Österreichischen Schule der Ökonomik bieten einen überrasc
 Rahim Taghizadegan ist ein österreichischer Ökonom, Physiker, Publizist und Philosoph. Er ist der Leiter der Bildungseinrichtung Scholarium in Wien. Als Schüler von Roland Baader gilt er als letzter Vertreter der Österreichischen Schule in direkter Tradition und hat an Universitäten in Österreich, Liechtenstein, der Schweiz und Deutschland gelehrt.
 
 
-# Panel 
+# Panels
 
-## Bitcoin kaufen - nur wie? 
+## Bitcoin kaufen - nur wie?
 
 ![video](https://youtu.be/pjdLUlGtJ7M?si=bNWzhd_qwtlUJm8k)
 
@@ -304,7 +304,7 @@ Niko Jilch ist ein österreichischer Finanzjournalist, Speaker, Podcaster und Mo
 
 ![video](https://youtu.be/lzqHwYYORBU?si=OpL-4dgvQ7_jJRn_)
 
-Jonas Hofmeister und Manuel Bassler von @Bitcoinverstehen 
+Jonas Hofmeister und Manuel Bassler von @Bitcoinverstehen
 
 BITCOIN - AUCH EINE RELIGION?
 Definition von Glaube/Religion – analog aktueller Rechtsprechung. Übertragbarkeit auf Bitcoin hinsichtlich Personenkult (Satoshi = Messias?), Feiertage (beispielsweise Bitcoin Pizza Day, Halvings), Bezeichnungen (Genesisblock analog Genesis in der Bibel), Persönlichkeitsentfaltung. Wieso ist Bitcoin doch keine Religion? Verankerung in Realität durch PoW - Energie und Zeit
@@ -329,7 +329,7 @@ Oliver Völkel ist ein österreichischer Rechtsanwalt und Mitgründer der Rechts
 Niko Jilch ist ein österreichischer Finanzjournalist, Speaker, Podcaster und Moderator. Als langjähriger und ausgezeichneter Finanz-Journalist ist er bereits sehr lange dem Thema "Geld" auf der Spur. Seit ein paar Monaten sorgt Niko für regelmäßigen und qualitativ hochwertigen Bitcoin-Content mit seinem Podcast "Was Bitcoin bringt". Mit großer Freude dürfen wir Niko als Moderator der BTC22 willkommen heißen.
 
 
-## Was bringt mir Bitcoin? 
+## Was bringt mir Bitcoin?
 
 ![video](https://youtu.be/FwX3pUIpb-w?si=otZmdSjDry__EvUu)
 
@@ -342,7 +342,7 @@ Daniel Wingen ist ein deutscher Bitcoin Consultant und Podcaster. Als Veranstalt
 
 Peter Rochel ist Inhaber von Oberwasser Consulting, einer Beratungsboutique spezialisiert auf "Jobs to Be Done" basierte Innovation und Transformation. Seit 2006 beschäftigt er sich mit der Jobs to Be Done (JTBD) Theorie und gilt als einer der erfahrensten Praktiker in deren Anwendung im deutschsprachigen Raum.
 
-## Holt euch eine Bitcoin-only Hardware-Wallet! 
+## Holt euch eine Bitcoin-only Hardware-Wallet!
 
 ![video](https://youtu.be/QZmFDEpCE_U?si=K1YmJVtQmHP9FJxy)
 
@@ -390,7 +390,7 @@ Daniel Wingen ist ein deutscher Bitcoin Consultant und Podcaster. Als Veranstalt
 
 Roman Reher (besser bekannt als "Blocktrainer") ist ein deutscher Informatiker, Bitcoin-Educator und Content-Creator. Auf seinem Youtube-Kanal "Blocktrainer" schafft es Roman, komplexe technische Dinge in einfach verständliche Worte zu fassen. Der Blocktrainer und sein Team sorgen im deutschsprachigen Raum für kontinuierlichen, aktuellen und qualitativ hochwertigen Bitcoin-Content.
 
-## Volksbank Raiffeisenbank Bayern Mitte goes BITCOIN 
+## Volksbank Raiffeisenbank Bayern Mitte goes BITCOIN
 
 ![video](https://youtu.be/clOSvUVr9sM?si=YiM8zAJddWnk2WkR)
 
@@ -403,7 +403,7 @@ Andreas Streb ist Vorstand der Volksbank Raiffeisenbank Bayern Mitte. Als eine d
 
 Joe Martin ist ein deutscher Keynote Speaker und Executive Coach. Seit 2016 ist er von Bitcoin, der Blockchain und Co. fasziniert. Er bringt seinen Lesern auf eine leicht verständliche Art die faszinierende Welt des Bitcoins nahe in seinem Buch "Bitcoin, Blockchain & Co.". Zu seinen Tätigkeiten gehört auch das erfolgreiche "Orange-Pilling" von zahlreichen Persönlichkeiten.
 
-## Bitcoin als Scheidungsgrund? 
+## Bitcoin als Scheidungsgrund?
 
 ![video](https://youtu.be/xWdFPhg6UHo?si=MerW_CREn_EbCNLm)
 
@@ -416,7 +416,7 @@ Roman Reher (besser bekannt als "Blocktrainer") ist ein deutscher Informatiker, 
 
 Debbi ist eine deutsche Youtuberin und Bitcoin Maximalistin. Mit ihrem Youtube-Kanal "Bitcoin trifft Debbi", verpackt sie komplexe technische und ökonomische Themen zu einfach verständlichen Videos. Durch spannende Gäste und Interviews bringt sie wichtige Bitcoin Themen ihren Zusehern näher.
 
-## Wie krisensicher ist Bitcoin? 
+## Wie krisensicher ist Bitcoin?
 
 ![video](https://youtu.be/M9kZAkDy0rg?si=3kN0PyoGt27APiMj)
 
@@ -431,11 +431,11 @@ Rahim Taghizadegan (Host) ist ein österreichischer Ökonom, Physiker, Publizist
 
 Mark Valek ist ein österreichischer Unternehmer und Portfolio-Manager. Er ist Partner der Incrementum AG und verantwortlich für Portfolio Management und Research. Als Co-Autor verfasst er den jährlich erscheinenden "In Gold We Trust" Report. Als langjähriger "Sound-Money" Verfechter widmet er sich zunehmend dem Thema Bitcoin.
 
-## Ist Bitcoin der Exit für die Gesellschaft? 
+## Ist Bitcoin der Exit für die Gesellschaft?
 
 ![video](https://youtu.be/9EH_68ifXO0?si=NzcLOZM1hvZ196Mi)
 
-Ijoma Mangold, Rahim Taghizadegan 
+Ijoma Mangold, Rahim Taghizadegan
 BITCOIN - DIE SANFTE REBELLION
 
 Bitcoin ist mehr als nur eine Technologie. Es verbindet Menschen und ermöglicht den Aufbau einer neuen Ökonomie und Community. Was ist da zu beobachten - und wo führt das hin?
@@ -446,7 +446,7 @@ Rahim Taghizadegan ist ein österreichischer Ökonom, Physiker, Publizist und Ph
 
 Niko Jilch ist ein österreichischer Finanzjournalist, Speaker, Podcaster und Moderator. Als langjähriger und ausgezeichneter Finanz-Journalist ist er bereits sehr lange dem Thema "Geld" auf der Spur. Seit ein paar Monaten sorgt Niko für regelmäßigen und qualitativ hochwertigen Bitcoin-Content mit seinem Podcast "Was Bitcoin bringt". Mit großer Freude dürfen wir Niko als Moderator der BTC22 willkommen heißen.
 
-## Bitcoin ist unser Lebensretter! 
+## Bitcoin ist unser Lebensretter!
 
 ![video](https://youtu.be/9yMFhJwt944?si=hTVdpZvVjGfzAtjN)
 
@@ -460,11 +460,11 @@ Eva-Maria ist eine deutsche Bitcoinerin. Seit ein paar Jahren beschäftigt sie s
 Roman Reher (besser bekannt als "Blocktrainer") ist ein deutscher Informatiker, Bitcoin-Educator und Content-Creator. Auf seinem Youtube-Kanal "Blocktrainer" schafft es Roman, komplexe technische Dinge in einfach verständliche Worte zu fassen. Der Blocktrainer und sein Team sorgen im deutschsprachigen Raum für kontinuierlichen, aktuellen und qualitativ hochwertigen Bitcoin-Content.
 
 
-## Bitcoin ist Frauensache. 
+## Bitcoin ist Frauensache.
 
 ![video](https://youtu.be/3CxuanC3k68?si=bdDx3zd_mm6jzkmr)
 
-Eva Brauckmann und Debbi 
+Eva Brauckmann und Debbi
 1 BITCOIN = 100.000.000 SATOSHI - 1 MIO. SATOSHI FÜR 1 MIO. FRAUEN
 
 1 Bitcoin = 100.000.000 Satoshi. Wir stehen noch am Anfang. Nur wenige Frauen interessieren sich für Technik und Finanzen. Das Potenzial des Internets erkannten vor allem Männer früh. Auch heute sind Bitcoiner fast ausschließlich männlich. So verpassen Frauen die größte Revolution unserer Generation. Wird Bitcoin in Zukunft von der breiten Masse akzeptiert, ist der Preis für die späte Teilhabe hoch. Frauen werden mehr für jedes Satoshi bezahlen müssen - und sehen sich zunehmend finanziell abgehängt. Mit #einemillionsatoshi wollen wir heute gegensteuern.
@@ -473,7 +473,7 @@ Eva Brauckmann ist eine österreichische Bloggerin, Podcasterin und seit über n
 
 Debbi ist eine deutsche Youtuberin und Bitcoin Maximalistin. Mit ihrem Youtube-Kanal "Bitcoin trifft Debbi", verpackt sie komplexe technische und ökonomische Themen zu einfach verständlichen Videos. Durch spannende Gäste und Interviews bringt sie wichtige Bitcoin Themen ihren Zusehern näher.
 
-## Wie erklärt man Bitcoin? 
+## Wie erklärt man Bitcoin?
 
 ![video](https://youtu.be/WxQty_dl-dI?si=96Slpc3BHwjC_25j)
 
@@ -486,13 +486,14 @@ Lina Seiche ist eine deutsche Unternehmerin und die Erfinderin von "The Little H
 
 Debbi ist eine deutsche Youtuberin und Bitcoin Maximalistin. Mit ihrem Youtube-Kanal "Bitcoin trifft Debbi", verpackt sie komplexe technische und ökonomische Themen zu einfach verständlichen Videos. Durch spannende Gäste und Interviews bringt sie wichtige Bitcoin Themen ihren Zusehern näher.
 
-# English speak
+# English speechs
 
-## BITCOIN is moral. FIAT is not. 
+## BITCOIN is moral. FIAT is not.
 
 ![video](https://youtu.be/5YC_J8n24UY?si=br0gpLL6QE58rAab)
 
-Jimmy Song
+Speaker: Jimmy Song
+
 THANK GOD FOR BITCOIN AND THE MORAL CASE FOR MONEY (ENGL.)
 Ein Teil der Kritik an Bitcoin ist moralisch motiviert: Gier treibe den Preis, ungerecht sei die Verteilung, man diene dem Mammon. Was sind die moralischen Argumente für Bitcoin? Widerspricht es christlichen Grundwerten oder ist es mit diesen im Einklang? Warum sollte Bitcoin die Zeitpräferenz senken, und was hat das mit Moral und Religion zu tun? Ein englischsprachiges Kamingespräch mit Rahim Taghizadegan und Jimmy Song
 
@@ -500,11 +501,11 @@ Jimmy Song ist ein US-amerikanischer Bitcoin Educator, Software-Entwickler und U
 
 Rahim Taghizadegan ist ein österreichischer Ökonom, Physiker, Publizist und Philosoph. Er ist der Leiter der Bildungseinrichtung Scholarium in Wien. Als Schüler von Roland Baader gilt er als letzter Vertreter der Österreichischen Schule in direkter Tradition und hat an Universitäten in Österreich, Liechtenstein, der Schweiz und Deutschland gelehrt.
 
-## The future of Bitcoin in El Salvador. 
+## The future of Bitcoin in El Salvador.
 
 ![video](https://youtu.be/bhTsvTsBmEo?si=wXDgWUxKSMaV-QRg)
 
-Maria Luisa Hayem and Adriana Mira
+Speakers: Maria Luisa Hayem and Adriana Mira
 
 BITCOIN IN EL SALVADOR
 Als erstes Land der Welt hat El Salvador im September 2021 Bitcoin als gesetzliches Zahlungsmittel eingeführt. Für die Bevölkerung des Landes sind dadurch einige Vorteile entstanden und auch der Tourismus erlebte einen regelrechten Aufschwung. Doch wie steht es mittlerweile um das Bitcoin-Experiment? War es für El Salavdor im Nachhinein gesehen wirklich die richtige Entscheidung? Maria Luisa Hayem und Adrinana Mira werden zu Beginn einen kurzen Vortrag über die Einführung und Entwicklung von Bitcoin in El Salvador halten. Direkt im Anschluss wird ihnen Friedemann Brenneis einige kritische Fragen zu diesem Thema stellen.
@@ -514,4 +515,3 @@ Maria Luisa Hayem ist eine Ökonomin und seit 2019 die Wirtschaftsministerin von
 Adriana Mira ist eine salvadorianische Politikerin und die Vizeaußenministerin von El Salvador. Sie arbeitet Hand in Hand mit Maria Luisa Hayem und dem Wirtschaftsministerium zusammen um die el-salvadorianischen Botschaften und Konsulate in Fragen rund um Bitcoin zu schulen.
 
 Friedemann Brenneis (Host) ist ein deutscher Unternehmer und Journalist. Bereits im Jahr 2014 gründete er "The Coinspondent" und vermittelt darüber kritische, hintergründige und verständliche Informationen zu Bitcoin. Als freier Journalist schreibt er unter anderem für Die Zeit, Spiegel.de, Deutschlandfunk, ARD, sowie diverse Fachmagazine für Technik, Wirtschaft und den digitalen Wandel.
-

@@ -1,0 +1,20 @@
+id: 0f08cb03-1f6c-4c46-bcac-6d801d82faef
+name: BitcoinVoucherBot
+category: service
+
+links:
+  website: https://www.bitcoinvoucherbot.com/
+
+tags:
+  - onchain
+  - lightning
+  - user-friendly
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-03-07
+    urgency: 1
+    contributors_id:
+      - PaoloFoti
+    reward: 0

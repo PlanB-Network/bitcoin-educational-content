@@ -6,7 +6,7 @@ description: Configurer et utiliser le hardware wallet Passport en mode manuel
 
 Le Passport est un hardware wallet Bitcoin-only, conçu par Foundation Devices, une entreprise américaine fondée en avril 2020 à Boston.
 
-Le Passport "*Batch 2*" que nous présentons dans ce tutoriel est le successeur de l'édition "*Founder's Edition*". Il se distingue par son design premium, un écran couleur de haute définition et un clavier physique ergonomique. Il fonctionne en mode "*Air-Gap*", ce qui garantit que les clés privées de votre portefeuille restent totalement isolées, avec des échanges possibles via une carte MicroSD ou par QR codes. L'appareil inclut une batterie amovible de 1200 mAh.
+Le Passport "*Batch 2*" que nous présentons dans ce tutoriel est le successeur de l'édition "*Founder's Edition*". Il se distingue par son design premium, un écran couleur de haute définition et un clavier physique ergonomique. Il fonctionne en mode "*Air-Gap*", ce qui garantit que les clés privées de votre portefeuille restent totalement isolées, avec des échanges possibles via une carte MicroSD ou par QR codes. L'appareil est équipé d'une batterie rechargeable amovible Nokia BL-5C de 1200 mAh. Cette batterie non propriétaire peut être facilement remplacée, car le modèle BL-5C se trouve facilement dans le commerce.
 
 Pour ce qui est de la connectivité, le Passport est équipé d'un port MicroSD, d'un port USB-C pour le chargement, et d'une caméra arrière pour scanner les QR codes.
 

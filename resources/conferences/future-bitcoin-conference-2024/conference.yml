@@ -12,10 +12,10 @@ project_id: 53774b9c-1612-4e86-990c-221a7034b998
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date: "2024-12-16"
+    last_contribution_date: "2025-03-04"
     urgency: 0
     contributors_id:
-      - jramos0
+      - PaoloFoti
     reward: 0.05
 tags:
   - future-outlook

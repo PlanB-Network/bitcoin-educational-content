@@ -1,0 +1,23 @@
+id: 99807c56-f50b-4aa2-a0e2-9259ea6184ec
+name: Canaan
+
+links:
+  website: https://www.canaan.io/
+  twitter: https://x.com/canaanio
+
+category: mining
+
+tags:
+  - mining
+  - proof-of-work
+  - DIY
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-03
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 0

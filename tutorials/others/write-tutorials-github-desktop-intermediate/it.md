@@ -49,6 +49,7 @@ Se avete bisogno di aiuto per ottenere questi prerequisiti, le mie altre esercit
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 Una volta che tutto è a posto e l'ambiente locale è correttamente configurato con il proprio fork della rete Plan ₿, si può iniziare ad aggiungere il tutorial.
 
+
 ## 1 - Creare un nuovo ramo
 
 Aprire il browser e andare alla pagina del proprio fork del repository Plan ₿ Network. Questo è il fork che avete creato su GitHub. L'URL del vostro fork dovrebbe essere simile a: `https://github.com/[nomeutente]/bitcoin-educational-content`:
@@ -423,3 +424,4 @@ Se desiderate apportare modifiche al vostro contributo dopo aver già presentato
 - Se il vostro PR è già stato unito al ramo principale, dovrete ricominciare il processo creando un nuovo ramo e inviando un nuovo PR. Assicurarsi che il repository locale sia sincronizzato con il repository di origine di Plan ₿ Network prima di procedere.
 
 Se incontrate difficoltà tecniche nell'inviare il vostro tutorial, non esitate a chiedere aiuto su [il nostro gruppo Telegram dedicato ai contributi](https://t.me/PlanBNetwork_ContentBuilder). Grazie!
+

@@ -49,6 +49,7 @@ Wenn Sie Hilfe benötigen, um diese Voraussetzungen zu erfüllen, werden Ihnen m
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 Sobald alles an Ort und Stelle ist und Ihre lokale Umgebung mit Ihrem eigenen Fork des Plan ₿ Network richtig eingerichtet ist, können Sie mit dem Hinzufügen des Tutorials beginnen.
 
+
 ## 1 - Einen neuen Zweig erstellen
 
 Öffnen Sie Ihren Browser und gehen Sie auf die Seite Ihres Forks des Plan ₿ Network Repository. Dies ist der Fork, den Sie auf GitHub eingerichtet haben. Die URL Ihres Forks sollte wie folgt aussehen: `https://github.com/[Ihr-Benutzername]/bitcoin-educational-content`:
@@ -423,3 +424,4 @@ Wenn Sie Änderungen an Ihrem Beitrag vornehmen möchten, nachdem Sie Ihren PR b
 - Wenn Ihr PR bereits mit dem Hauptzweig zusammengeführt wurde, müssen Sie den Prozess neu beginnen, indem Sie einen neuen Zweig erstellen und dann einen neuen PR einreichen. Stellen Sie sicher, dass Ihr lokales Repository mit dem Plan ₿ Network Source Repository synchronisiert ist, bevor Sie fortfahren.
 
 Wenn Sie beim Einreichen Ihres Tutorials auf technische Schwierigkeiten stoßen, zögern Sie nicht, auf [unserer speziellen Telegram-Gruppe für Beiträge] (https://t.me/PlanBNetwork_ContentBuilder) um Hilfe zu bitten. Vielen Dank!
+

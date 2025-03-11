@@ -43,7 +43,6 @@ Prerequisites before starting the tutorial:
 
 If you need help obtaining these prerequisites, my other tutorials will assist you:
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 
 Once everything is in place and your local environment is properly set up with your own fork of the Plan ₿ Network, you can start adding the tutorial.
 
@@ -427,3 +426,4 @@ If you wish to make changes to your contribution after you have already submitte
 - If your PR has already been merged with the main branch, you will need to start the process over by creating a new branch, then submitting a new PR. Ensure that your local repository is synchronized with the Plan ₿ Network source repository before proceeding.
 
 If you encounter technical difficulties in submitting your tutorial, do not hesitate to ask for help on [our dedicated Telegram group for contributions](https://t.me/PlanBNetwork_ContentBuilder). Thank you!
+

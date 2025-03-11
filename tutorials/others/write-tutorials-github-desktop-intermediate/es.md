@@ -49,6 +49,7 @@ Si necesitas ayuda para obtener estos requisitos previos, mis otros tutoriales t
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 Una vez que todo está en su lugar y su entorno local está configurado correctamente con su propio tenedor del Plan ₿ Red, puede empezar a añadir el tutorial.
 
+
 ## 1 - Crear una nueva sucursal
 
 Abre tu navegador y dirígete a la página de tu fork del repositorio Plan ₿ Network. Esta es la bifurcación que has establecido en GitHub. La URL de tu bifurcación debería parecerse a: `https://github.com/[tu-nombre-deusuario]/bitcoin-educational-content`:
@@ -423,3 +424,4 @@ Si desea realizar cambios en su contribución después de haber presentado su RP
 - Si su PR ya ha sido fusionado con la rama principal, necesitará comenzar el proceso de nuevo creando una nueva rama y enviando un nuevo PR. Asegúrese de que su repositorio local está sincronizado con el repositorio fuente de Plan ₿ Network antes de continuar.
 
 Si encuentras dificultades técnicas para enviar tu tutorial, no dudes en pedir ayuda en [nuestro grupo de Telegram dedicado a las contribuciones](https://t.me/PlanBNetwork_ContentBuilder). Muchas gracias
+

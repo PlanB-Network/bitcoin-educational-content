@@ -49,6 +49,7 @@ Jos tarvitset apua näiden edellytysten hankkimisessa, muut opetusohjelmani autt
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 Kun kaikki on kunnossa ja paikallinen ympäristösi on kunnolla asennettu Plan ₿ Networkin oman haarukan kanssa, voit aloittaa opetusohjelman lisäämisen.
 
+
 ## 1 - Luo uusi haara
 
 Avaa selaimesi ja siirry Plan ₿ Network -tietovaraston haarukan sivulle. Tämä on haarautuminen, jonka olet perustanut GitHubiin. Haarautumisesi URL-osoitteen pitäisi näyttää seuraavalta: `https://github.com/[käyttäjätunnuksesi]/bitcoin-educational-content`:
@@ -376,7 +377,7 @@ Avaa GitHub Desktop -ohjelmisto jatkaaksesi Pull Requestin tekemistä. Ohjelmist
 
 ![TUTO](assets/fr/28.webp)
 
-Lisää toimitukselle otsikko ja napsauta sitten sinistä `Kirjoita [haaraasi]-painiketta vahvistaaksesi muutokset:
+Lisää toimitukselle otsikko ja napsauta sitten sinistä Kirjoita [haaraasi]-painiketta vahvistaaksesi muutokset:
 
 ![TUTO](assets/fr/29.webp)
 
@@ -423,3 +424,4 @@ Jos haluat tehdä muutoksia osallistumiseen sen jälkeen, kun olet jo lähettän
 - Jos PR:si on jo yhdistetty päähaaraan, sinun on aloitettava prosessi alusta luomalla uusi haara ja lähettämällä uusi PR. Varmista, että paikallinen arkistosi on synkronoitu Plan ₿ Network -lähdekoodivaraston kanssa ennen kuin jatkat.
 
 Jos kohtaat teknisiä ongelmia tutoriaalin lähettämisessä, älä epäröi pyytää apua [omassa Telegram-ryhmässämme](https://t.me/PlanBNetwork_ContentBuilder). Kiitos!
+

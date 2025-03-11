@@ -49,9 +49,10 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-web-b
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 一旦一切就绪，本地环境中的 Plan ₿ Network 分支也设置妥当，就可以开始添加教程了。
 
+
 ## 1 - 创建新分支
 
-打开浏览器，进入 Plan ₿ Network 代码库的分叉页面。这是您在 GitHub 上建立的分叉。你的分叉的 URL 应该是这样的https://github.com/[您的用户名]/bitcoin-educational-content`：
+打开浏览器，进入 Plan ₿ Network 代码库的分叉页面。这是您在 GitHub 上建立的分叉。你的分叉的 URL 应该是这样的: https://github.com/PlanB-Network/bitcoin-educational-content
 
 ![TUTO](assets/fr/03.webp)
 
@@ -423,3 +424,4 @@ assets "文件夹中的语言子文件夹用于存储教程中的图表和视觉
 - 如果您的 PR 已与主分支合并，则需要重新创建一个新分支，然后提交一份新 PR。在继续之前，请确保本地版本库与 Plan ₿ Network 源版本库同步。
 
 如果您在提交教程时遇到技术问题，请随时在[我们的专用投稿 Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder)上寻求帮助。谢谢！
+

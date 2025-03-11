@@ -3,7 +3,7 @@ name:  Die Bitcoin Konferenz 2023
 description: The biggest Bitcoin conference in German went into the second round BTC23 was even better, more diverse and definitely more controversial. We were open - for Bitcoiners, interested people and also skeptics from all directions. Three days with Bitcoiners, thought leaders and entrepreneurs from the Space - full of relevant talks, debates and conversations. And of course, party! BTC23 was for everyone.
 ---
 
-# English Talk
+# English Talks
 
 ## Bitcoin is coming to Wall Street
 
@@ -21,9 +21,9 @@ Giacomo Zucco
 
 ![video](https://youtu.be/W7-K_oOtPJ8?si=zLUV_LDleo2x3rIT)
 
-Thomas Nägele and Giacomo Zucco 
+Thomas Nägele and Giacomo Zucco
 
-# KeyNote
+# KeyNotes
 
 ## Bitcoin bringt dir Wirksamkeit!
 
@@ -31,17 +31,17 @@ Thomas Nägele and Giacomo Zucco
 
 Roman Reher der
 
-## Bitcoin: Der Charme des Neuen!? - 
+## Bitcoin: Der Charme des Neuen!? -
 
 ![video](https://youtu.be/D2xgu61pHtM?si=m5SHwTPHXUv-OVGD)
 
-Ijoma Mangold 
+Ijoma Mangold
 
-##  Bitcoin ist eine demokratische Bewegung - 
+## Bitcoin ist eine demokratische Bewegung -
 
 ![video](https://youtu.be/7OuYASi8Ff8?si=rVwg3dn0FH4wWe65)
 
-Friedemann Brenneis 
+Friedemann Brenneis
 
 ## Die beste Bitcoin Prognose aller Zeiten
 
@@ -49,7 +49,7 @@ Friedemann Brenneis
 
 Niko Jilch
 
-## Bitcoin als Inspirational Layer für freien Journalismus 
+## Bitcoin als Inspirational Layer für freien Journalismus
 
 ![video](https://youtu.be/_xWrM-J-2r8?si=ZGyXfT-_2P506ARC)
 
@@ -96,7 +96,7 @@ Matthias Reder
 
 ![video](https://youtu.be/bz6b7TE17mc?si=2Ulgr1aeuomM0xQy)
 
-Thomas Nägele 
+Thomas Nägele
 
 ## Bitcoin Miner lieben Ordinals
 
@@ -120,7 +120,7 @@ Kristian Kläger
 
 ![video](https://youtu.be/7AQm-SMoKg4?si=-SjOcdUnfQcYRUQ3)
 
-Jonas Gross 
+Jonas Gross
 
 ## Die Bitcoin Bank
 
@@ -132,7 +132,7 @@ Andreas Streb
 
 ![video](https://youtu.be/MLffJ3gUl_A?si=7pPBztMRqP8hqT-v)
 
-Jesse Pielke 
+Jesse Pielke
 
 ## Mit Zero Knowledge Proofs (ZKPs) ein Decentralized Web auf Bitcoin bauen?
 
@@ -150,100 +150,100 @@ Mark Valek
 
 ![video](https://youtu.be/PLyGHaVSd74?si=9hUTJ5AgXF4_QBoj)
 
-Deborah Reher 
+Deborah Reher
 
 ##  Bitcoin ist Hoffnung. Make it so!
 
 ![video](https://youtu.be/yztGZQ_6uAU?si=_jUs1lDwjaSh6Szu)
 
-Fichte42 
+Fichte42
 
 ##  Bitcoin ist gekommen um zu bleiben!
 
 ![video](https://youtu.be/TcnL23970Oc?si=wX2m517TGOloIGeD)
 
-Frank Kuhn 
+Frank Kuhn
 
 ##  CBDCs werden (hoffentlich) niemals existieren!
 
 ![video](https://youtu.be/hE948vy3qDc?si=WZPuCGLfHK6baSvJ)
 
-Joe Martin 
+Joe Martin
 
 ## Der Fall Roman Sterlingov - unschuldig im Gefängnis?
 
 ![video](https://youtu.be/x2eKDByC8PU?si=F1TiZnPlxxx-Dkfv)
 
-Jeff Gallas 
+Jeff Gallas
 
 ##  Wie bringe ich Bitcoin in mein Unternehmen ein?
 
 ![video](https://youtu.be/D5HyG8mEDMc?si=uYCLZkXAk2eP_qi5)
 
-Dirk Röder 
+Dirk Röder
 
 ##  Wir brauchen Bitcoin nicht, ABER!
 
 ![video](https://youtu.be/F0SguZS1FkQ?si=ctSWToq6x_yckKhm)
 
-Marc Guilliard 
+Marc Guilliard
 
 ## Bitcoin Standard in der Fiat Welt?
 
 ![video](https://youtu.be/K5y0nL-uRmo?si=I25jduaQ-nWwfcdf)
 
-Patrick Zahnd 
+Patrick Zahnd
 
 ## Was ist ein digitaler sicherer Hafen?
 
 ![video](https://youtu.be/_aXwBcb3rNo?si=23dHofDLCuqmM3Qh)
 
-OrangedMike 
+OrangedMike
 
 ## Wie kommt Bitcoin in die Bankenwelt und das klassische Finanzsystem?
 
 
 ![video](https://youtu.be/JV3IdrnrTjo?si=E9_cxj5F6YeGkB75)
 
-Joe Martin 
+Joe Martin
 
 ##  Bitcoin könnte das Bildungssystem verbessern!?
 
 ![video](https://youtu.be/c-xxn9Y3_1g?si=VthQe-wSG0JNhVH3)
 
-Jens Wegmann 
+Jens Wegmann
 
 ##  The Rise of Bitcoin Layers
 
 ![video](https://youtu.be/YUn4RZzpl2o?si=9g6GI6w2dWjoqfSJ)
 
-Michael von Boltz 
+Michael von Boltz
 
 ##  Wie sieht die Entwicklung bei Bitcoin Core aus?
 
 ![video](https://youtu.be/Lp6rVUrjDGw?si=33OSgWt56ZTQ4BYx)
 
-Fabian Jahr 
+Fabian Jahr
 
 ##  Ist Bitcoin unersetzbar im Freiheitskampf?
 
 ![video](https://youtu.be/TDkFheu2Tlw?si=btswE7F5GsYavq6M)
 
-Johanna Miss Marktradikal 
+Johanna Miss Marktradikal
 
 ##  Welche Probleme kann Bitcoin im Zahlungsverkehr lösen?
 
 ![video](https://youtu.be/jfZuZDgPZns?si=L4VpuqD1GCyYBEme)
 
-Daniel Tesch Martins 
+Daniel Tesch Martins
 
-# Panel 
+# Panel
 
 ##  Wir haben seit 40 Jahren alle Probleme mit Geld überflutet!
 
 ![video](https://youtu.be/p6sQfM7vdp4?si=au0LtScTzSCyo8IU)
 
-Daniel Stelter 
+Daniel Stelter
 
 ## Bitcoin: Der Store of Value der Zukunft!?
 
@@ -291,7 +291,7 @@ Manu, Alex v. Frankenberg, Fab und Patrick Zahnd
 
 ![video](https://youtu.be/3EV7YUZFSPY?si=oeekYMK2PowP6gJw)
 
-Deborah Reher, Joana Cotar und Samuel Kullmann 
+Deborah Reher, Joana Cotar und Samuel Kullmann
 
 ## AI: Die nächste digitale Revolution?
 
@@ -309,64 +309,64 @@ Roman Reher & Max Hillebrand
 
 ![video](https://youtu.be/Gch35uzKSr8?si=NYM5_GSivYvQjr9j)
 
-Loddi, Sven Hildebrandt, Sascha Dölker und Andreas Streb 
+Loddi, Sven Hildebrandt, Sascha Dölker und Andreas Streb
 
 ##  Ist der Bitcoin-Space humorlos?
 
 ![video](https://youtu.be/78cE6pPnnjI?si=z5RN_Z_45NXOfU7k)
 
-Loddi, Roland Düringer, LightRider und Fil Horwath 
+Loddi, Roland Düringer, LightRider und Fil Horwath
 
 ##  Energieeinsatz ist ein Zeichen von Wohlstand
 
 ![video](https://youtu.be/tFbPmnN412A?si=wmFo5TKQ9wBD9JJU)
 
-Jonas, Kristian, Sven und Jesse 
+Jonas, Kristian, Sven und Jesse
 
 ##  Ist Bitcoin eine soziale Skulptur
 
 ![video](https://youtu.be/8s8wSgkqCSA?si=AADJT_IHoqgltZye)
 
-Ijoma Mangold & Niko Jilch 
+Ijoma Mangold & Niko Jilch
 
 ##  Wo steht Bitcoin in Unternehmen?
 
 ![video](https://youtu.be/ULYwJe2-KW0?si=0ed9If5XSoqtOETu)
 
-Roman Reher, Rachel Geyer, Philipp Sandner und Fab 
+Roman Reher, Rachel Geyer, Philipp Sandner und Fab
 
 ##  Lightning Netzwerk bereit für Konzerne?
 
 ![video](https://youtu.be/rfDpTFj0uw4?si=GewESy7aNLyk7wiO)
 
-Daniel, Tim Heide, Justin Carter & Dirk Röder 
+Daniel, Tim Heide, Justin Carter & Dirk Röder
 
 ##  Brauchen wir Regulation bei Bitcoin?
 
 ![video](https://youtu.be/l5NmdDJQuWM?si=8W1A_y3MB8Kkryzo)
 
-Thomas, Max, Lucas und Thomas 
+Thomas, Max, Lucas und Thomas
 
 ##  Geld regiert die Welt!?
 
 ![video](https://youtu.be/NOmzHhli8lQ?si=EeuvxdPpVvOQJ4S5)
 
-Rahim Taghizadegan & P. Bala Kiran Kumar Hrudayaraj SJ 
+Rahim Taghizadegan & P. Bala Kiran Kumar Hrudayaraj SJ
 
 ##  Welche Probleme gibt es heutzutage im Zahlungsverkehr?
 
 ![video](https://youtu.be/34ks7SihNaI?si=a74HX5KQ3ve700iD)
 
-Loddi, Patrick, Jonas und Daniel 
+Loddi, Patrick, Jonas und Daniel
 
 ##  Bitcoin - Ein ESG Killer-Argument?
 
 ![video](https://youtu.be/5hr85MBlybU?si=d5M9lvhTGb6DhImX)
 
-Martin, Peter, Philipp, Luca und Alex 
+Martin, Peter, Philipp, Luca und Alex
 
 ## Bitcoin vs. Ethereum: Was hat mehr Potenzial?
 
 ![video](https://youtu.be/iypdsgefFfI?si=DhJc6ms8XUuf82Yw)
 
-Manu, Christoph Bergmann und Roman Reher 
+Manu, Christoph Bergmann und Roman Reher

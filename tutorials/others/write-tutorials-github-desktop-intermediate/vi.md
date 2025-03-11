@@ -49,6 +49,7 @@ Nếu bạn cần trợ giúp để đạt được các điều kiện tiên qu
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 Khi mọi thứ đã sẵn sàng và môi trường cục bộ của bạn được thiết lập đúng cách với nhánh Plan ₿ Network của riêng bạn, bạn có thể bắt đầu thêm phần hướng dẫn.
 
+
 ## 1 - Tạo một nhánh mới
 
 Mở trình duyệt của bạn và đi đến trang fork của bạn trong kho lưu trữ Plan ₿ Network. Đây là fork bạn đã thiết lập trên GitHub. URL của fork của bạn sẽ trông giống như sau: `https://github.com/[your-username]/bitcoin-educational-content`:
@@ -423,3 +424,4 @@ Nếu bạn muốn thay đổi nội dung đóng góp của mình sau khi đã n
 - Nếu PR của bạn đã được hợp nhất với nhánh chính, bạn sẽ cần bắt đầu lại quy trình bằng cách tạo nhánh mới, sau đó gửi PR mới. Đảm bảo rằng kho lưu trữ cục bộ của bạn được đồng bộ hóa với kho lưu trữ nguồn Plan ₿ Network trước khi tiếp tục.
 
 Nếu bạn gặp khó khăn về mặt kỹ thuật khi gửi bài hướng dẫn, đừng ngần ngại yêu cầu trợ giúp trên [nhóm Telegram chuyên dụng của chúng tôi để đóng góp](https://t.me/PlanBNetwork_ContentBuilder). Cảm ơn bạn!
+

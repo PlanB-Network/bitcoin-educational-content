@@ -49,6 +49,7 @@ Jika Anda memerlukan bantuan untuk mendapatkan prasyarat ini, tutorial saya yang
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
 Setelah semuanya siap dan lingkungan lokal Anda diatur dengan benar dengan fork Anda sendiri dari Plan ₿ Network, Anda dapat mulai menambahkan tutorial.
 
+
 ## 1 - Membuat cabang baru
 
 Buka peramban Anda dan buka halaman repositori repositori Plan ₿ Network. Ini adalah fork yang telah Anda buat di GitHub. URL fork Anda akan terlihat seperti: `https://github.com/[nama pengguna Anda]/konten-pendidikan-bitcoin`:
@@ -423,3 +424,4 @@ Jika Anda ingin membuat perubahan pada kontribusi Anda setelah Anda mengirimkan 
 - Jika PR Anda telah digabungkan dengan cabang utama, Anda harus memulai proses dari awal dengan membuat cabang baru, lalu mengirimkan PR baru. Pastikan repositori lokal Anda disinkronkan dengan repositori sumber Plan ₿ Network sebelum melanjutkan.
 
 Jika Anda mengalami kesulitan teknis dalam mengirimkan tutorial Anda, jangan ragu untuk meminta bantuan di [grup Telegram khusus untuk kontribusi](https://t.me/PlanBNetwork_ContentBuilder). Terima kasih!
+

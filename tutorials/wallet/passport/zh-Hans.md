@@ -6,7 +6,7 @@ description: 在手动模式下配置和使用 Passport 硬件钱包
 
 Passport 是一款纯比特币硬件钱包，由 2020 年 4 月在波士顿成立的美国公司 Foundation Devices 设计。
 
-我们在本教程中介绍的 Passport "*Batch 2*"是 "*Founder's Edition*"的后续产品。它采用高档设计、高清彩色屏幕和符合人体工程学的物理键盘。它以 "*Air-Gap*"模式运行，确保钱包私钥完全隔离，可通过 MicroSD 卡或二维码进行交换。该设备配有 1200 毫安时可拆卸电池。
+本教程介绍的 Passport "*Batch 2*" 是 "*Founder's Edition*" 的继任者。它采用高端设计，配备高分辨率彩色屏幕和符合人体工学的物理键盘。设备以 "*Air-Gap*" 模式运行，确保钱包的私钥完全隔离，并通过 MicroSD 卡或 QR 码进行数据交换。该设备配备了可拆卸的 1200mAh 诺基亚 BL-5C 充电电池。这款非专有电池可以轻松更换，因为 BL-5C 型号在市场上广泛可用。
 
 在连接性方面，Passport 配备了一个 MicroSD 端口、一个用于充电的 USB-C 端口和一个用于扫描二维码的后置摄像头。
 

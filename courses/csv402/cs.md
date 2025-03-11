@@ -759,6 +759,23 @@ Při spuštění systému RGB jsme všechny tyto metody přezkoumali, abychom ur
 | Multi-sig 2-of-3 s časovými limity | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
 
 
+| Vrstva                            | Náklady on-chain (vbytes) | Náklady on-chain (vbytes) | Náklady on-chain (vbytes) | Náklady klientské (bytes) | Náklady klientské (bytes) |
+| --------------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
+| **Typ**                           | **Základ**               | **Tapret #2**            | **Tapret #4**            | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                    | 16.5                     | 0                        | 0                        | 0                        | 0                        |
+| FROST (n-of-m)                    | ?                        | 0                        | 0                        | 0                        | 0                        |
+| Multi_a (n-of-m)                  | 1+16n+8m                 | 8                        | 8                        | 33 * m                   | 65                       |
+| Větev MuSig / Multi_a (n-of-m)     | 1+16n+8n+8xlog(n)        | 8                        | 0                        | 64                       | 65                       |
+| S časovými limity (n-of-m)         | 1+16n+8n+8xlog(n)        | 8                        | 0                        | 64                       | 65                       |
+
+| Metoda                                   | Soukromí a škálovatelnost | Interoperabilita | Kompatibilita | Přenositelnost | Složitost |
+| ---------------------------------------- | ------------------------- | ---------------- | ------------- | -------------- | ---------- |
+| Keytweak (deterministické P2C)           | 🟢                         | 🔴               | 🔴            | 🟡            | 🟡         |
+| Sigtweak (deterministické S2C)           | 🟢                         | 🔴               | 🔴            | 🟢            | 🔴         |
+| Opret (OP_RETURN)                        | 🔴                         | 🟠               | 🔴            | 🟢            | 🟢         |
+| Algo Tapret: levý horní uzel             | 🟠                         | 🟢               | 🟢            | 🔴            | 🟠         |
+| Algo Tapret #4: libovolný uzel + důkaz   | 🟢                         | 🟢               | 🟢            | 🟠            | 🔴         |
+
 
 
 
@@ -1349,19 +1366,14 @@ Není-li ve smlouvě prvek stavu definován jako proměnlivý nebo kumulativní,
 
 Následující tabulka ukazuje, jak mohou jednotlivé typy smluvních operací manipulovat (nebo nemanipulovat) s globálním stavem a vlastněným stavem:
 
-| Geneze | Rozšíření stavu | Přechod stavu |
+|                              | Genesis | Rozšíření stavu | Přechod stavu |
+| ---------------------------- | :-----: | :-------------: | :-----------: |
+| **Přidání Global State**     |    +    |        -        |       +       |
+| **Mutace Global State**      |   n/a   |        -        |       +       |
+| **Přidání Owned State**      |    +    |        -        |       +       |
+| **Mutace Owned State**       |   n/a   |       Ne        |       +       |
+| **Přidání Valencies**        |    +    |        +        |       +       |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Přidání globálního stavu** | + | - | + |
-
-| n/a | - | + | **Mutace globálního stavu** | - | + |
-
-| **Přidání vlastního státu** | + | - | + | |
-
-| **Mutace vlastněného stavu** | n/a | Ne | + |
-
-| **Přidání valencí** | + | + | + | + | |
 
 **`+`** : akce je možná, pokud to schéma smlouvy umožňuje.
 
@@ -1369,15 +1381,12 @@ Následující tabulka ukazuje, jak mohou jednotlivé typy smluvních operací m
 
 Kromě toho lze v následující tabulce rozlišit časový rozsah a práva aktualizace jednotlivých typů dat:
 
-| Metadata | Globální stav | Vlastní stav |
+|                                 | Metadata                                 | Globální stav                                 | Vlastněný stav                                                                                              |
+| ------------------------------- | ---------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Rozsah**                      | Definováno pro jednu Contract Operation  | Definováno globálně pro smlouvu               | Definováno pro každou pečeť (*Assignment*)                                                                |
+| **Kdo jej může aktualizovat?**  | Neaktualizovatelné (efemérní data)       | Operace vydaná aktéry (vydavatel atd.)        | Závisí na oprávněném držiteli, který vlastní pečeť (ten, kdo ji může utratit v následující transakci)     |
+| **Časový rozsah**               | Pouze pro aktuální operaci               | Stav je stanoven na konci operace             | Stav je definován před operací (podle *Seal Definition* předchozí operace)                                |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Definováno pro jednu operaci smlouvy | Definováno globálně pro smlouvu | Definováno pro každou plombu (*Přidělení*) | Definováno pro jednu operaci smlouvy | Definováno globálně pro smlouvu | Definováno pro každou plombu (*Přidělení*) | Definováno pro každou plombu (*Přidělení*) | Definováno pro každou smlouvu
-
-| Neaktualizovatelné (efemérní údaje) | Transakce vydaná aktéry (emitentem atd.) | Závisí na oprávněném držiteli pečeti (ten, kdo ji může utratit v následné transakci) |
-
-| Stav je definován před operací (podle *definice těsnění* předchozí operace) | Stav je stanoven na konci operace | Stav je stanoven na konci operace | Stav je definován před operací (podle *definice těsnění* předchozí operace) | Stav je stanoven na konci operace | Stav je definován před operací (podle *definice těsnění* předchozí operace)
 
 ### Globální stát
 

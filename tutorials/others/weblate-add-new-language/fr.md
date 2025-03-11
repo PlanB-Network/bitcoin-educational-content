@@ -1,6 +1,6 @@
 ---
 name: Weblate - ajouter une nouvelle langue
-description: Comment ajouter une nouvelle langue au Réseau Plan ₿ ?
+description: Comment ajouter une nouvelle langue sur Plan ₿ Network ?
 ---
 ![cover](assets/cover.webp)
 

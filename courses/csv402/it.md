@@ -1504,17 +1504,15 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-**Dichiarativo** | **Fungibile** | **Strutturato** | **Attaccati** |
+| **Elemento**       | **Dichiarativo** | **Fungibile**                         | **Strutturato**                 | **Allegati**                   |
+| ------------------ | -------------- | ------------------------------------ | ----------------------------- | ----------------------------- |
+| **Dati**          | Nessuno        | Intero con segno o senza segno a 64 bit | Qualsiasi tipo di dati rigoroso | Qualsiasi file                |
+| **Tipo di Info**  | Nessuno        | Con segno o senza segno               | Tipi rigorosi                   | Tipo MIME                      |
+| **Privacy**       | Non richiesta  | Pedersen commitment                   | Hash con blinding               | Identificatore di file con hash |
+| **Limiti di dimensione** | N/A      | 256 byte                             | Fino a 64 KB                     | Fino a ~500 GB                 |
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
 
-| Nessuno | Numero intero a 64 bit firmato o non firmato | Qualsiasi tipo di dati rigorosi | Qualsiasi file |
 
-| Tipo di informazione** | Nessuno | Firmato o non firmato | Tipi rigorosi | Tipo MIME |
-
-| Pedersen commitment | Hashing con accecamento | Hashed file ID
-
-| Limiti di dimensione** | N/A | 256 byte | Fino a 64 KB | Fino a ~ 500 Gb |
 
 ### Ingressi
 
@@ -1959,17 +1957,13 @@ In sintesi, ogni contratto è composto da :
 
 Per chiarire queste nozioni, ecco una tabella riassuntiva che confronta i componenti di un contratto RGB con concetti già noti nella programmazione orientata agli oggetti (OOP) o nell'ecosistema Ethereum:
 
-| Componente del Contratto RGB | Significato | Equivalente OOP | Equivalente Ethereum |
+| Componente del contratto RGB | Significato                         | Equivalente OOP                        | Equivalente Ethereum               |
+| ---------------------------- | ---------------------------------- | ------------------------------------- | --------------------------------- |
+| **Genesis**                  | Stato iniziale del contratto       | Costruttore di classe                | Costruttore del contratto         |
+| **Schema**                   | Logica aziendale del contratto     | Classe                                | Contratto                         |
+| **Interface**                | Semantica del contratto            | Interfaccia (Java) / Trait (Rust) / Protocollo (Swift) | Standard ERC                      |
+| **Interface Implementation** | Mappatura della semantica e logica | Impl (Rust) / Implements (Java)      | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Costruttore di classe | Costruttore di contratto | Stato iniziale del contratto
-
-| Classe | Logica aziendale del contratto
-
-| Semantica del contratto | Interfaccia (Java) / tratto (Rust) / protocollo (Swift) | Standard ERC |
-
-| Application Binary Interface (ABI) | Impl (Rust) / Implements (Java) | Mappatura di semantica e logica
 
 La colonna di sinistra mostra gli elementi specifici del protocollo RGB. La colonna centrale mostra la funzione concreta di ciascun componente. Poi, nella colonna "equivalente OOP", troviamo il termine equivalente nella programmazione orientata agli oggetti:
 

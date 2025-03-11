@@ -27,47 +27,48 @@ Nella chat di Telegram prepariamo un ordine, con un bonifico bancario lo paghiam
 
 ### Attivazione del bot e menu
 L’attivazione è una semplice operazione che viene eseguita una volta sola.
-Da Telegram cercare *@BitcoinVoucherBot* e, appena giunti nella chat del Bot, campeggia in basso un pulsantone grande *Avvia/Start*. L’operazione fa rispondere il Bot che presenta il menu dei principali comandi a disposizione. Appaiono anche i primi messaggi di benvenuto, per i quali consigliamo un'attenta lettura.
+Da Telegram cercare _@BitcoinVoucherBot_ e, appena giunti nella chat del Bot, campeggia in basso un pulsantone grande 
+_Avvia/Start_. L’operazione fa rispondere il Bot che presenta il menu dei principali comandi a disposizione. Appaiono anche i primi messaggi di benvenuto, per i quali consigliamo un'attenta lettura.
 
 ![image](assets/it/01.webp)
 
-Le opzioni appaiono cliccando il tasto *Menu* in basso a sinistra: si può cliccare sulla parola corrispondente al comando, oppure scrivere nella casella del messaggio lo slash "/" seguito dal comando digitato.
+Le opzioni appaiono cliccando il tasto _Menu_ in basso a sinistra: si può cliccare sulla parola corrispondente al comando, oppure scrivere nella casella del messaggio lo slash "/" seguito dal comando digitato.
 
 ![image](assets/it/02.webp)
 
 Tra le principali operazioni ci sono:
-- */purchase* - è la procedura di acquisto vera e propria. Al termine dell’operazione il QR Code viene generato automaticamente dal bot, pronto al riscatto.
-- */refill* - disponibile nel momento in cui scriviamo questo tutorial, ma non lo tratteremo perché - per motivi tecnici - questa opzione potrebbe essere elimata in seguito.
-- */swap* - apre la procedura di swap, disponibile sia con un comodo bot di Telegram che via web.
-- */ap* - accumulation plan, che consente di impostare un **Piano di Accumulo Costante (PAC)**.
-- */lnaddress* - con cui ci viene chiesto di collegare un proprio LN Address, per una particolare procedura che vedremo in seguito.
-- */credits* - per controllare quanto credito è rimasto per generare voucher.
-- */myorders* - mostra gli ordini fatti con il bot. N.B. il sistema tiene traccia soltanto degli ultimi 10 ordini effettuati e non l'intero storico.
-- */fees* - un comando per controllare le fee di rete. Per valutarle, è sempre meglio affidarsi a mempool.space.
-- */support* - in caso di necessità, fa comparire i contatti per segnalare al team di supporto le problematiche.
+- _/purchase_ - è la procedura di acquisto vera e propria. Al termine dell’operazione il QR Code viene generato automaticamente dal bot, pronto al riscatto.
+- _/refill_ - disponibile nel momento in cui scriviamo questo tutorial, ma non lo tratteremo perché - per motivi tecnici - questa opzione potrebbe essere elimata in seguito.
+- _/swap_ - apre la procedura di swap, disponibile sia con un comodo bot di Telegram che via web.
+- _/ap_ - accumulation plan, che consente di impostare un **Piano di Accumulo Costante (PAC)**.
+- _/lnaddress_ - con cui ci viene chiesto di collegare un proprio LN Address, per una particolare procedura che vedremo in seguito.
+- _/credits_ - per controllare quanto credito è rimasto per generare voucher.
+- _/myorders_ - mostra gli ordini fatti con il bot. N.B. il sistema tiene traccia soltanto degli ultimi 10 ordini effettuati e non l'intero storico.
+- _/fees_ - un comando per controllare le fee di rete. Per valutarle, è sempre meglio affidarsi a mempool.space.
+- _/support_ - in caso di necessità, fa comparire i contatti per segnalare al team di supporto le problematiche.
 
 # Procedura di acquisto Bitcoin
 Preparazione dell'ordine, pagamento e riscatto
 ## Preparazione dell'ordine
-Cliccare */purchase* nel menu dei comandi
+Cliccare _/purchase_ nel menu dei comandi
 
 ![image](assets/it/03.webp)
 
-Compaiono una serie di opportunità, ma noi scegliamo *BTC Vouchers*
+Compaiono una serie di opportunità, ma noi scegliamo _BTC Vouchers_
 
 ![image](assets/it/04.webp)
 
 Bitcoin VoucherBot consente di acquistare Bitcoin onchain, Lightning e Liquid.
-In questa fase si scelga *Onchain & Lightning 🔗⚡️*
+In questa fase si scelga _Onchain & Lightning 🔗⚡️_
 
 ![image](assets/it/05.webp)
 
 La schermata cambia rapidamente e VoucherBot propone i "tagli" di acquisto. Si parte da un minimo di 100,00 € fino ad arrivare a 900,00 €
-In caso di primo acquisto, vengono proposti solo i tagli da 100,00 €, Onchain e Lightning. Per aumentare la confidenzialità, suggeriamo di scegliere *Lightning ⚡️*
+In caso di primo acquisto, vengono proposti solo i tagli da 100,00 €, Onchain e Lightning. Per aumentare la confidenzialità, suggeriamo di scegliere _*Lightning ⚡️_
 
 ![image](assets/it/06.webp)
 
-VoucherBotc ci avvisa che una prima scelta è stata fatta e che, per confermarla, è necessario scegliere *Proceed*
+VoucherBotc ci avvisa che una prima scelta è stata fatta e che, per confermarla, è necessario scegliere _Proceed_
 
 ![image](assets/it/07.webp)
 
@@ -82,7 +83,7 @@ L'IBAN deve essere scritto nella barra del messaggio, controllato e inviato al b
 ![image](assets/it/09.webp)
 
 Nella chat con VoucherBot compare ora un messaggio di controllo.
-Se tutto è corretto, proseguire cliccando *Proceed*.
+Se tutto è corretto, proseguire cliccando _Proceed_.
 
 ![image](assets/it/10.webp)
 
@@ -90,13 +91,13 @@ Se tutto è corretto, proseguire cliccando *Proceed*.
 
 Dopo qualche istante, necessario per processare i dati, VoucherBot replica con un messaggio che contiene tutti i dettagli necessari a completare l'ordine.
 A seconda di quanto richiesto dalla propria banca, le informazioni rilevanti sono:
-- IBAN, indispensabile per il versamento, oltre all'indirizzo del ricevente;
-- l'importo scelto in precedenza tramite il "taglio", che deve essere rispettato per permettere a VoucherBot di riconoscere l'ordine quando sarà arrivato il pagamento;
-- **Payment reason**, ovvero la causale del pagamento;
-- un OrderID univoco, cui fare riferimento per richiedere eventuale assistenza.
+- `IBAN`, indispensabile per il versamento, oltre all'indirizzo del ricevente;
+- `l'importo scelto` in precedenza tramite il "taglio", che deve essere rispettato per permettere a VoucherBot di riconoscere l'ordine quando sarà arrivato il pagamento;
+- `Payment reason`, ovvero la causale del pagamento;
+- un `OrderID` univoco, cui fare riferimento per richiedere eventuale assistenza.
 
-  Si può quindi procedere con il pagamento, tramite la propria app o banca.
-  Quando il pagamento è stato accettato dalla banca, è importante ricordarsi di premere *Notify payment* nella chat con VoucherBot. Questa semplice operazione avvisa che un pagamento sta per arrivare.
+Si può quindi procedere con il pagamento, tramite la propria app o banca.
+Quando il pagamento è stato accettato dalla banca, è importante ricordarsi di premere _Notify payment_ nella chat con VoucherBot. Questa semplice operazione avvisa che un pagamento sta per arrivare.
 
 ![image](assets/it/11.webp)
 
@@ -119,15 +120,15 @@ Il voucher lightning è sottoforma di QR code, stampato su sfondo arancione.
 ![image](assets/it/31.webp)
 
 Ci sono tutti i dati necessari per incassarlo:
-- l'importo in sats, equivalenti a quello inviato tramite bonifico, escluse
+- l'importo in sats, equivalente a quello inviato tramite bonifico, escluse
   - fee di servizio
   - fee di rete
 - un reference ID del voucher
 - la data entro la quale il voucher deve essere riscattato, pena la perdita di fondi, cioè 25 giorni dopo l'emissione.
 
-Si può incassare il voucher inquadrando il QR code con la funzione scan di un wallet Lightning Network compatibile, o tramite l'LN URL, anch'esso indicato sotto il QR code.
+Si può incassare il voucher inquadrando il QR code con la funzione scan di un wallet Lightning Network compatibile, o tramite LNURL, anch'esso indicato sotto il QR code.
 
-Per questo tutorial abbiamo usato Wallet Of Satoshi, usando la funzione di scan attivata dal tasto *Send*
+Per questo tutorial abbiamo usato Wallet Of Satoshi, usando la funzione di scan attivata dal tasto _Send_
 
 ![image](assets/it/32.webp)
 
@@ -136,7 +137,7 @@ Con la fotocamera del cellulare attivata, inquadrare il QR code nella chat, apre
 ![image](assets/it/34.webp)
 
 Prima di procedere, Wallet Of Satoshi da una schermata di verifica che comprende l'importo, il quale corrisponde esattamente a quello espresso sul voucher e, come descrizione, BitcoinVoucherBot.
-Per incassare il voucher è sufficiente cliccare si *Receive*
+Per incassare il voucher è sufficiente cliccare su _Receive_
 
 ![image](assets/it/35.webp)
 
@@ -156,9 +157,9 @@ Come abbiamo visto nella preparazione dell'ordine, VoucherBot permette di acquis
 
 ### Preparazione dell'ordine e pagamento, sono sempre gli stessi. Ciò che cambia è come si incassa un voucher onchain.
 
-Dopo aver completato l'ordine, effettuato il pagamento, premuto *Notify payment* e atteso i tempi tecnici delle banche per trasferire il nostro bonifico, VoucherBot risponderà inviando il voucher direttamente nella chat.
+Dopo aver completato l'ordine, effettuato il pagamento, premuto _Notify payment_ e atteso i tempi tecnici delle banche per trasferire il bonifico, VoucherBot risponderà inviando il voucher direttamente nella chat.
 
-Anche questo voucher è sottoforma di QR code, ma il colore principale è il giallo canarino e - soprattutto - in descrizione è ben spiegato che si tratta di un voucher onchain, il quale si incassa direttamente sul proprio wallet onchain e, per iniziare la procedura di incasso, si deve cliccare su *Redeem on Telegram*.
+Anche questo voucher è sottoforma di QR code, ma il colore principale è il giallo canarino e - soprattutto - in descrizione è ben spiegato che si tratta di un voucher onchain, il quale si incassa direttamente sul proprio wallet onchain e, per iniziare la procedura di incasso, si deve cliccare su _Redeem on Telegram_.
 Anche il voucher onchain contiene le informazioni già viste per quello lightning:
 - l'importo in sats, equivalenti a quello inviato tramite bonifico, escluse
   - fee di servizio
@@ -169,9 +170,9 @@ Anche il voucher onchain contiene le informazioni già viste per quello lightnin
 
 ![image](assets/it/22.webp)
 
-**N.B. fate attenzione** che, cliccato come spiegato, si apre il pop-up di un altro bot: **Voucher RedeemBot.**
+**ATTENZIONE ⚠️:** cliccato come spiegato, si apre il pop-up di un altro bot: **Voucher RedeemBot.**
 
-Voucher RedeemBot è lo strumento messo a disposizione per questo scopo. Sia che si tratti del primo utilizzo, sia che ci siano degli ordini pregressi, ad ogni nuovo riscatto è sempre necessario cliccare su *START*.
+Voucher RedeemBot è lo strumento messo a disposizione per questo scopo. Sia che si tratti del primo utilizzo, sia che ci siano degli ordini pregressi, ad ogni nuovo riscatto è sempre necessario cliccare su _START_.
 
 ![image](assets/it/23.webp)
 
@@ -194,7 +195,7 @@ e lo incolliamo nella chat con RedeemBot
 ![image](assets/it/27.webp)
 
 Abbiamo adesso a disposizione una schermata di controllo, per verificare il voucher code che sia corretto, così come l'indirizzo che abbiamo comunicato a RedeemBot.
-Controlliamo bene perché, cliccando su *Proceed*, la transazione parte e non ci sarà più modo di ritrovarla se abbiamo, ad esempio, comunicato l'indirizzo sbagliato.
+Controlliamo bene perché, cliccando su _Proceed_, la transazione parte e non ci sarà più modo di ritrovarla se abbiamo, ad esempio, comunicato l'indirizzo sbagliato.
 
 ![image](assets/it/28.webp)
 

@@ -6,7 +6,7 @@ description: Passin määrittäminen ja käyttö Envoy-sovelluksen kanssa
 
 Envoy on Foundationin kehittämä Bitcoin-lompakon hallintasovellus. Se on erityisesti suunniteltu käytettäväksi Passport-laitelompakon kanssa.
 
-Passport "*Batch 2*", jonka esittelemme tässä oppaassa Envoy-sovelluksen kanssa, on "*Founder's Edition*" -version seuraaja. Siinä on ensiluokkainen muotoilu, teräväpiirtovärinäyttö ja ergonominen fyysinen näppäimistö. Se toimii "*Air-Gap*"-tilassa, joka varmistaa, että lompakkosi yksityiset avaimet pysyvät täysin eristettyinä, ja vaihdot ovat mahdollisia MicroSD-kortin tai QR-koodien kautta. Laitteessa on irrotettava 1200 mAh:n akku.
+Passport "*Batch 2*", jota esittelemme tässä oppaassa yhdessä Envoy-sovelluksen kanssa, on "*Founder's Edition*"-version seuraaja. Se erottuu premium-muotoilullaan, korkearesoluutioisella värinäytöllään ja ergonomisella fyysisellä näppäimistöllään. Se toimii "*Air-Gap*"-tilassa, mikä varmistaa, että lompakkosi yksityiset avaimet pysyvät täysin eristettyinä, ja tiedonsiirto tapahtuu MicroSD-kortin tai QR-koodien kautta. Laitteessa on irrotettava ja ladattava Nokia BL-5C akku, jonka kapasiteetti on 1200 mAh. Tämä vakiomalliakku on helposti vaihdettavissa, koska BL-5C-mallia on laajalti saatavilla kaupoista.
 
 Liitettävyyden osalta Passportissa on MicroSD-portti, USB-C-portti latausta varten ja takakamera QR-koodien skannausta varten.
 

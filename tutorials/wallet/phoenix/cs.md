@@ -6,7 +6,7 @@ description: Instalace a používání aplikace Phoenix Wallet
 
 Phoenix je samostatná peněženka a uzel Lightning vyvinutý francouzskou společností ACINQ, která se specializuje na softwarová řešení založená na technologii Lightning. Na rozdíl od custodial Lightning peněženek, jako je například Wallet of Satoshi, kde jsou bitcoiny v držení třetí strany, Phoenix umožňuje uživatelům ponechat si plnou kontrolu nad svými soukromými klíči.
 
-Phoenix ve skutečnosti funguje jako skutečný uzel Lightning zabudovaný v telefonu, který automaticky otevře kanál s uzlem Lightning společnosti ACINQ. Aplikace je založena na Eclair, implementaci Lightning vyvinuté společností ACINQ. Na rozdíl od jiných řešení uzlů Lightning Phoenix výrazně zjednodušuje správu. Uživatelé nemusí spravovat otevírání a zavírání kanálů, provozovat uzel Bitcoin ani spravovat svou likviditu v síti Lightning. Phoenix se o všechny tyto technické operace postará na pozadí.
+Phoenix funguje jako skutečný Lightning uzel integrovaný do vašeho telefonu, který automaticky otevře kanál s Lightning uzlem ACINQ. Aplikace je založena na Lightning-KMP, multiplatformní implementaci Lightning Network v jazyce Kotlin, optimalizované pro mobilní peněženky. Na rozdíl od jiných Lightning uzlů Phoenix výrazně zjednodušuje správu. Uživatel nemusí spravovat otevírání a zavírání kanálů, provozovat Bitcoin uzel nebo spravovat likviditu v síti Lightning. Phoenix se o všechny tyto technické operace stará na pozadí.
 
 Tato aplikace kombinuje snadné používání a pohodlí mobilních peněženek Lightning s bezpečností a suverenitou skutečného osobního uzlu Lightning. Phoenix umožňuje bezpečně, efektivně a autonomně používat síť Lightning a zároveň využívat plynulé a intuitivní uživatelské prostředí.
 

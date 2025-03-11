@@ -6,7 +6,7 @@ location: Amsterdam, Netherland
 language:
   - en
 links:
-  website: https://breaking-bitcoin.com/
+  website:
   twitter: https://twitter.com/breakingbitcoin
 project_id: eef8c3d4-2ec8-4f8d-9fd5-b146191ae52d
 original_language: en
@@ -17,3 +17,4 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 0.05
+

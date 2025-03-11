@@ -1,34 +1,31 @@
 ---
-name: Kontribusi - Tutorial dengan GitHub Desktop (menengah)
-description: Panduan lengkap untuk tutorial Plan ₿ Network dengan GitHub Desktop
+name: Kontribusi - Tutorial dengan GitHub Desktop (Menengah)
+description: Panduan lengkap untuk mengusulkan tutorial tentang Plan ₿ Network menggunakan GitHub Desktop
 ---
 ![cover](assets/cover.webp)
 
-Sebelum mengikuti tutorial menambahkan tutorial baru ini, Anda harus menyelesaikan beberapa langkah awal. Jika Anda belum melakukannya, silakan lihat tutorial pengantar ini terlebih dahulu, lalu kembali ke sini:
+Sebelum mengikuti tutorial tentang cara menambahkan tutorial baru ini, Anda harus sudah menyelesaikan beberapa langkah awal. Jika Anda belum melakukannya, saya mengundang Anda untuk terlebih dahulu membaca tutorial pengantar ini, lalu kembali ke sini:
 
-https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
-
-Anda sudah memiliki :
-
-
-- Pilih tema untuk tutorial Anda;
-- Menghubungi tim Plan ₿ Network melalui [Grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau paolo@planb.network ;
-- Pilih alat kontribusi Anda.
-
-Dalam tutorial ini, kita akan melihat cara menambahkan tutorial Anda ke Plan ₿ Network dengan mengonfigurasi lingkungan lokal Anda dengan GitHub Desktop. Jika Anda sudah menguasai Git, tutorial yang sangat mendetail ini mungkin tidak diperlukan untuk Anda. Sebagai gantinya, saya sarankan Anda untuk melihat tutorial lain di mana saya hanya menyajikan panduan umum, tanpa panduan langkah demi langkah yang mendetail:
+https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+Anda sudah melakukannya:
 
 
-- Pengguna yang berpengalaman** :
+- Memilih tema tutorial Anda;
+- Menghubungi tim Plan ₿ Network melalui [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau paolo@planb.network;
+- Memilih alat kontribusi Anda.
 
-https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
-
-Jika Anda memilih untuk tidak mengonfigurasi lingkungan lokal Anda, ikuti tutorial lain yang dirancang untuk pemula, di mana kami membuat perubahan secara langsung melalui antarmuka web GitHub :
+Dalam tutorial ini, kita akan melihat cara menambahkan tutorial Anda di Plan ₿ Network dengan menyiapkan lingkungan lokal Anda dengan GitHub Desktop. Jika Anda sudah mahir menggunakan Git, tutorial yang sangat mendetail ini mungkin tidak diperlukan untuk Anda. Saya lebih menyarankan untuk membaca tutorial lain di mana saya hanya menyajikan panduan utama, tanpa panduan langkah demi langkah yang mendetail:
 
 
-- Pemula (antarmuka web)** :
+- Pengguna berpengalaman**:
 
-https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+Jika Anda memilih untuk tidak mengatur lingkungan lokal Anda, ikuti tutorial lain yang dirancang untuk pemula, di mana kita membuat perubahan secara langsung melalui antarmuka web GitHub:
 
+
+- Pemula (antarmuka web)**:
+
+https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Prasyarat
 
 Diperlukan perangkat lunak untuk mengikuti tutorial ini:
@@ -40,43 +37,38 @@ Diperlukan perangkat lunak untuk mengikuti tutorial ini:
 
 ![TUTO](assets/fr/01.webp)
 
-Prasyarat sebelum memulai tutorial :
+Prasyarat sebelum memulai tutorial:
 
 
 - Memiliki [akun GitHub](https://github.com/signup);
 - Memiliki fork dari [Plan ₿ Repositori sumber jaringan] (https://github.com/PlanB-Network/bitcoin-educational-content);
-- Memiliki [profil guru di Plan ₿ Network] (https://planb.network/professors) (hanya jika Anda menawarkan tutorial lengkap).
+- Memiliki [profil profesor di Plan ₿ Network] (https://planb.network/professors) (hanya jika Anda mengajukan tutorial lengkap).
 
-Jika Anda memerlukan bantuan untuk mendapatkan prasyarat ini, tutorial saya yang lain akan membantu:
+Jika Anda memerlukan bantuan untuk mendapatkan prasyarat ini, tutorial saya yang lain akan membantu Anda:
 
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+Setelah semuanya siap dan lingkungan lokal Anda diatur dengan benar dengan fork Anda sendiri dari Plan ₿ Network, Anda dapat mulai menambahkan tutorial.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
-
-https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-
-Setelah semuanya siap dan lingkungan lokal Anda diatur dengan Plan ₿ Network fork Anda sendiri, Anda dapat mulai menambahkan tutorial.
 
 ## 1 - Membuat cabang baru
 
-Buka browser Anda dan arahkan ke halaman fork Anda di repositori Plan ₿ Network. Ini adalah fork yang Anda buat di GitHub. URL fork Anda akan terlihat seperti ini: `https://github.com/[nama pengguna Anda]/konten-pendidikan-bitcoin`:
+Buka peramban Anda dan buka halaman repositori repositori Plan ₿ Network. Ini adalah fork yang telah Anda buat di GitHub. URL fork Anda akan terlihat seperti: `https://github.com/[nama pengguna Anda]/konten-pendidikan-bitcoin`:
 
 ![TUTO](assets/fr/03.webp)
 
-Pastikan Anda berada di cabang `dev` utama, lalu klik tombol `Sinkronisasi fork`. Jika fork Anda belum diperbarui, GitHub akan meminta Anda untuk memperbarui cabang Anda. Lanjutkan dengan pembaruan ini. Sebaliknya, jika cabang Anda sudah mutakhir, GitHub akan memberi tahu Anda:
+Pastikan Anda berada di cabang utama `dev` lalu klik tombol `Sinkronisasi fork`. Jika fork Anda belum diperbarui, GitHub akan menawarkan untuk memperbarui cabang Anda. Lanjutkan dengan pembaruan ini. Sebaliknya, jika cabang Anda sudah mutakhir, GitHub akan memberi tahu Anda:
 
 ![TUTO](assets/fr/04.webp)
 
-Buka GitHub Desktop dan pastikan garpu Anda dipilih dengan benar di sudut kiri atas jendela:
+Buka perangkat lunak GitHub Desktop dan pastikan garpu Anda dipilih dengan benar di sudut kiri atas jendela:
 
 ![TUTO](assets/fr/05.webp)
 
-Klik pada tombol `Mengambil asal`. Jika repositori lokal Anda sudah diperbarui, GitHub Desktop tidak akan menyarankan tindakan lebih lanjut. Jika tidak, opsi `Tarik asal` akan muncul. Klik tombol ini untuk memperbarui repositori lokal Anda:
+Klik pada tombol `Mengambil asal`. Jika repositori lokal Anda sudah diperbarui, GitHub Desktop tidak akan menyarankan tindakan tambahan apa pun. Jika tidak, opsi `Tarik asal` akan muncul. Klik tombol ini untuk memperbarui repositori lokal Anda:
 
 ![TUTO](assets/fr/06.webp)
 
-Pastikan Anda berada di cabang utama `dev`:
+Verifikasi bahwa Anda memang berada di `dev` cabang utama:
 
 ![TUTO](assets/fr/07.webp)
 
@@ -84,179 +76,192 @@ Klik pada cabang ini, lalu klik tombol `Cabang Baru`:
 
 ![TUTO](assets/fr/08.webp)
 
-Pastikan cabang baru didasarkan pada repositori sumber, yaitu `PlanB-Network/bitcoin-educational-content`.
+Pastikan bahwa cabang baru didasarkan pada repositori sumber, yaitu `PlanB-Network/bitcoin-educational-content`.
 
-Beri nama cabang Anda sehingga judulnya jelas tentang tujuannya, gunakan tanda hubung untuk memisahkan setiap kata. Sebagai contoh, katakanlah tujuan kita adalah menulis tutorial tentang cara menggunakan Sparrow Wallet. Dalam kasus ini, cabang kerja yang didedikasikan untuk menulis tutorial ini dapat diberi nama: `tuto-sparrow-wallet-loic`. Setelah Anda memasukkan nama yang sesuai, klik `Buat cabang` untuk mengonfirmasi pembuatan cabang:
+Beri nama cabang Anda sedemikian rupa sehingga judulnya jelas mengenai tujuannya, dengan menggunakan tanda hubung untuk memisahkan setiap kata. Sebagai contoh, katakanlah tujuan kita adalah menulis tutorial tentang penggunaan perangkat lunak Sparrow Wallet. Dalam kasus ini, cabang kerja yang didedikasikan untuk menulis tutorial ini dapat diberi nama: `tuto-sparrow-wallet-loic`. Setelah nama yang sesuai dimasukkan, klik `Buat cabang` untuk mengonfirmasi pembuatan cabang:
 
 ![TUTO](assets/fr/09.webp)
 
-Sekarang klik tombol `Publish branch` untuk menyimpan cabang kerja baru Anda pada fork online Anda di GitHub :
+Sekarang klik tombol `Publish branch` untuk menyimpan cabang kerja baru Anda ke fork online Anda di GitHub:
 
-![TUTO](assets/fr/10.webp)
+![TUTORIAL](assets/fr/10.webp)
 
-Sekarang, di GitHub Desktop, Anda seharusnya berada di cabang baru Anda. Ini berarti bahwa setiap perubahan yang Anda buat secara lokal di komputer Anda akan disimpan secara eksklusif di cabang khusus ini. Selain itu, selama cabang ini tetap dipilih di GitHub Desktop, file yang terlihat secara lokal di komputer Anda akan sesuai dengan file dari cabang ini (`tuto-sparrow-wallet-loic`), dan bukan dari cabang utama (`dev`).
+Sekarang, di GitHub Desktop, Anda seharusnya berada di cabang baru Anda. Ini berarti bahwa semua perubahan yang dibuat secara lokal di komputer Anda akan disimpan secara eksklusif di cabang khusus ini. Selain itu, selama cabang ini tetap dipilih di GitHub Desktop, file yang terlihat secara lokal di komputer Anda sesuai dengan file dari cabang ini (`tuto-sparrow-wallet-loic`), dan bukan dari cabang utama (`dev`).
 
-![TUTO](assets/fr/11.webp)
+![TUTORIAL](assets/fr/11.webp)
 
-Untuk setiap artikel baru yang ingin Anda publikasikan, Anda harus membuat cabang baru dari `dev`. Cabang di Git adalah versi paralel dari proyek, yang memungkinkan Anda untuk membuat perubahan tanpa memengaruhi cabang utama, hingga pekerjaan siap untuk digabungkan.
+Untuk setiap artikel baru yang ingin Anda publikasikan, Anda perlu membuat cabang baru dari `dev`. Cabang di Git adalah versi paralel dari proyek, yang memungkinkan Anda untuk membuat perubahan tanpa memengaruhi cabang utama, hingga pekerjaan siap untuk digabungkan.
 
 ## 2 - Menambahkan file tutorial
 
-Sekarang setelah cabang kerja telah dibuat, saatnya untuk mengintegrasikan tutorial baru Anda. Anda memiliki dua opsi: menggunakan skrip Python, yang mengotomatiskan pembuatan dokumen yang diperlukan, atau membuat setiap file secara manual. Mari kita lihat langkah-langkah yang harus diikuti untuk setiap opsi.
+Setelah cabang kerja dibuat, sekarang saatnya untuk mengintegrasikan tutorial baru Anda. Anda memiliki dua opsi: menggunakan skrip Python, yang mengotomatiskan pembuatan dokumen yang diperlukan, atau secara manual membuat setiap file. Kita akan melihat langkah-langkah yang harus diikuti untuk setiap opsi.
 
 ### Dengan skrip Python saya
 
-Anda perlu menginstal :
+Anda perlu menginstal pada mesin Anda:
 
 
-- Python 3.8 atau lebih tinggi ;
-- Ketergantungan yang diperlukan untuk skrip. Jalankan :
+- Python 3.8 atau lebih tinggi.
 
-```bash
-pip install customtkinter appdirs
-````
-Pour utiliser le script, rendez-vous dans le dossier où il est stocké. Le script se trouve dans le dépôt de data de Plan ₿ Network sous le chemin : `bitcoin-educational-content/scripts/tutorial-related/new-tutorial-creation/`.
-Une fois dans le dossier, exécutez la commande :
-```
+Untuk menggunakan skrip, arahkan ke folder tempat skrip disimpan. Skrip ini terletak di Rencana ₿ Repositori data jaringan di jalur: `konten-pendidikan-bitcoin/konten-skrip/tutorial-terkait/pencipta-data`.
 
-python new-tutorial-creation.py
+Setelah berada di dalam folder, instal dependensi:
 
 ```
-Une interface graphique (GUI) va s'ouvrir. La première fois, vous devrez entrer toutes les informations nécessaires, mais lors des utilisations ultérieures du script, vos informations personnelles seront mémorisées, ce qui vous évite de devoir les saisir de nouveau.
-![TUTO](assets/fr/37.webp)
-Commencez par indiquer le chemin local menant au dossier `/tutorials` sur votre clone du dépôt (`.../bitcoin-educational-content/tutorials/`). Vous pouvez le noter manuellement ou cliquer sur le bouton "Browse" pour naviguer via votre explorateur de fichiers.
-![TUTO](assets/fr/38.webp)
-Sélectionnez la langue dans laquelle vous rédigerez votre tutoriel.
-![TUTO](assets/fr/39.webp)
-Choisissez une catégorie principale pour votre tutoriel.
-![TUTO](assets/fr/40.webp)
-Ensuite, sélectionnez une sous-catégorie appropriée, en fonction de la catégorie principale que vous avez choisie.
-![TUTO](assets/fr/41.webp)
-Déterminez un niveau de difficulté pour le tutoriel.
-![TUTO](assets/fr/42.webp)
-Choisissez le nom du répertoire spécialement créé pour votre tutoriel. Le nom de ce dossier devrait refléter le logiciel abordé dans le tutoriel, en utilisant des tirets pour relier les mots. Par exemple, le dossier pourrait s'appeler `red-wallet` :
-![TUTO](assets/fr/43.webp)
-Le `project_id` est l'UUID de l'entreprise ou de l'organisation derrière l'outil présenté dans le tutoriel, disponible [dans la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, pour un tutoriel sur le logiciel Sparrow Wallet, vous trouverez ce `project_id` dans le fichier : `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Cette information est ajoutée au fichier YAML de votre tutoriel car Plan ₿ Network maintient une base de données des entreprises et organisations actives sur Bitcoin ou des projets connexes. En ajoutant le `project_id` associé à votre tutoriel, vous créez un lien entre votre contenu et l'entité concernée.
-***Mise à jour :*** Dans la nouvelle version du script, vous n'avez plus besoin de saisir manuellement le `project_id`. Une fonction de recherche a été ajoutée pour trouver le projet par son nom et récupérer automatiquement le `project_id` correspondant. Tapez le début du nom du projet dans la case "Project name" pour le rechercher, puis sélectionnez l'entreprise souhaitée dans le menu déroulant. Le `project_id` sera automatiquement renseigné dans la case en dessous. Vous avez également la possibilité de le noter manuellement si nécessaire.
-![TUTO](assets/fr/44.webp)
-Pour les tags, sélectionnez 2 ou 3 mots-clés pertinents en relation avec le contenu de votre tutoriel, en les choisissant exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md).
-![TUTO](assets/fr/45.webp)
-Dans la case "Contributor's GitHub ID", inscrivez votre identifiant GitHub.
-![TUTO](assets/fr/46.webp)
-Pour la case "PBN professor's ID", saisissez votre identifiant en utilisant les mots de la liste BIP39, tel qu'il apparaît sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
-![TUTO](assets/fr/47.webp)
-Pour plus de détails sur votre identifiant de professeur, veuillez consulter le tutoriel suivant :
-https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+pip install -r requirements.txt
+```
 
-Une fois toutes les informations saisies et vérifiées, cliquez sur "Create Tutorial" pour valider la création des fichiers de votre tutoriel. Cela générera en local le dossier de votre tutoriel et tous les fichiers nécessaires dans le dossier de la catégorie sélectionnée.
-![TUTO](assets/fr/48.webp)
-Vous pouvez maintenant passer outre la sous-partie "Sans mon script Python", ainsi que l'étape 3 "Remplir le fichier YAML", car le script a déjà effectué ces actions automatiquement pour vous. Passez directement à l'étape 4 et à la rédaction de votre tutoriel.
-Pour plus d'informations sur ce script Python, vous pouvez également [consulter son README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
-### Sans mon script Python
-Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
-Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+Kemudian luncurkan perangkat lunak dengan perintah tersebut:
+
+```
+python3 main.py
+```
+
+Antarmuka pengguna grafis (GUI) akan terbuka. Pertama kali, Anda harus memasukkan semua informasi yang diperlukan, tetapi pada penggunaan berikutnya, skrip akan mengingat informasi pribadi Anda, sehingga Anda tidak perlu memasukkannya lagi.
+
+![DATA-CREATOR-PY](assets/fr/37.webp)
+
+Mulailah dengan memasukkan jalur lokal ke folder `/tutorials` di repositori kloning Anda (`.../bitcoin-educational-content/tutorials/`). Anda dapat memasukkannya secara manual atau mengklik tombol "Browse" untuk menavigasi menggunakan file explorer Anda.
+
+![DATA-CREATOR-PY](assets/fr/38.webp)
+
+Pilih bahasa yang akan Anda gunakan untuk menulis tutorial.
+
+![DATA-CREATOR-PY](assets/fr/39.webp)
+
+Di bidang "ID GitHub Kontributor", masukkan nama pengguna GitHub Anda.
+
+![DATA-CREATOR-PY](assets/fr/40.webp)
+
+Pada kolom "ID profesor PBN", masukkan pengenal Anda dengan menggunakan kata-kata dari daftar BIP39, seperti yang muncul pada [profil profesor Anda](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+
+![DATA-CREATOR-PY](assets/fr/41.webp)
+
+Jika Anda belum memiliki profil profesor, lihat tutorial ini:
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Kemudian klik tombol "Tutorial Baru".
+
+![DATA-CREATOR-PY](assets/fr/42.webp)
+
+Pilih kategori utama untuk tutorial Anda. Kemudian, pilih subkategori yang relevan berdasarkan kategori utama yang Anda pilih.
+
+![DATA-CREATOR-PY](assets/fr/43.webp)
+
+Tentukan tingkat kesulitan tutorial.
+
+![DATA-CREATOR-PY](assets/fr/44.webp)
+
+Pilih nama untuk direktori yang dibuat khusus untuk tutorial Anda. Nama folder ini harus mencerminkan perangkat lunak yang dibahas dalam tutorial, dengan menggunakan tanda hubung untuk memisahkan kata-kata. Sebagai contoh, folder ini dapat diberi nama `dompet-merah`:
+
+![DATA-CREATOR-PY](assets/fr/45.webp)
+
+`project_id` adalah UUID dari perusahaan atau organisasi di balik alat yang tercakup dalam tutorial, yang tersedia [dalam daftar proyek](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Sebagai contoh, untuk tutorial mengenai Sparrow Wallet, Anda dapat menemukan `project_id` di dalam file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Network memiliki database perusahaan dan organisasi yang aktif dalam Bitcoin atau proyek-proyek terkait. Dengan menambahkan `project_id` yang terkait, Anda menautkan konten Anda ke entitas yang relevan.
+
+***Pembaruan:*** Dalam versi baru skrip, Anda tidak perlu lagi memasukkan `project_id` secara manual. Fungsi pencarian telah ditambahkan untuk mencari proyek berdasarkan nama dan secara otomatis mengambil `project_id` yang sesuai. Ketik awal nama proyek di kolom "Nama Proyek" untuk mencarinya, lalu pilih perusahaan yang diinginkan dari menu dropdown. `project_id` akan secara otomatis terisi pada kolom di bawah ini. Anda juga dapat memasukkannya secara manual jika diperlukan.
+
+![DATA-CREATOR-PY](assets/fr/46.webp)
+
+Untuk tag, pilih 2 atau 3 kata kunci yang relevan yang terkait dengan konten tutorial Anda, pilih secara eksklusif dari [Daftar tag Paket ₿ Jaringan] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Perangkat lunak ini juga menyediakan fungsi pencarian kata kunci dengan daftar tarik-turun.
+
+![DATA-CREATOR-PY](assets/fr/47.webp)
+
+Setelah semua informasi dimasukkan dan diverifikasi, klik "Buat Tutorial" untuk mengonfirmasi pembuatan file tutorial Anda. Ini akan membuat folder tutorial Anda dan semua file yang diperlukan dalam kategori yang dipilih secara lokal.
+
+![DATA-CREATOR-PY](assets/fr/48.webp)
+
+Anda sekarang dapat melewati subbagian "Tanpa skrip Python saya" dan juga langkah 3, "Mengisi file YAML," karena skrip telah menyelesaikan tindakan ini untuk Anda. Lanjutkan langsung ke langkah 4 dan mulailah menulis tutorial Anda.
+
+Untuk informasi lebih lanjut tentang skrip Python ini, Anda juga dapat melihat [README] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+
+### Tanpa skrip Python saya
+
+Buka manajer file Anda dan arahkan ke folder `bitcoin-educational-content`, yang mewakili klon lokal dari repositori Anda. Anda biasanya dapat menemukannya di bawah `Documents\GitHub\bitcoin-educational-content`.
+
+Di dalam direktori ini, Anda perlu mencari subfolder yang sesuai untuk menempatkan tutorial Anda. Pengaturan folder mencerminkan bagian yang berbeda dari situs web Plan ₿ Network. Dalam contoh kita, karena kita ingin menambahkan tutorial mengenai Sparrow Wallet, kita harus menavigasi ke jalur berikut: `bitcoin-educational-content\tutorials\wallet`, yang sesuai dengan bagian `WALLET` di situs web:
+
 ![TUTO](assets/fr/12.webp)
-Au sein du dossier `wallet`, il faut créer un nouveau répertoire spécifiquement dédié à votre tutoriel. Le nom de ce dossier doit évoquer le logiciel traité dans le tutoriel, en veillant à relier les mots par des tirets. Pour mon exemple, le dossier sera intitulé `sparrow-wallet` :
+
+Di dalam folder `wallet`, Anda perlu membuat direktori baru yang secara khusus didedikasikan untuk tutorial Anda. Nama folder ini harus menunjukkan perangkat lunak yang dibahas dalam tutorial, pastikan untuk menghubungkan kata-kata dengan tanda hubung. Dalam contoh saya, folder ini akan diberi nama `dompet-pelangi`:
+
 ![TUTO](assets/fr/13.webp)
-Dans ce nouveau sous-dossier dédié à votre tutoriel, il faut ajouter plusieurs éléments :
-- Créez un dossier `assets`, destiné à recevoir toutes les illustrations nécessaires à votre tutoriel ;
-- Au sein de ce dossier `assets`, il faut créer un sous-dossier nommé selon le code de langue originale du tutoriel. Par exemple, si le tutoriel est rédigé en anglais, ce sous-dossier doit être nommé `en`. Placez-y tous les visuels du tutoriel (schémas, images, captures d’écran, etc.).
-- Un fichier `tutorial.yml` doit être créé pour y consigner les détails relatifs à votre tutoriel ;
-- Un fichier en format markdown est à créer pour y rédiger le contenu effectif de votre tutoriel. Ce fichier doit être intitulé selon le code de la langue de rédaction. Par exemple, pour un tutoriel rédigé en français, le fichier devra s'appeler `fr.md`.
+
+Dalam sub-folder baru yang didedikasikan untuk tutorial Anda, beberapa elemen perlu ditambahkan:
+
+
+- Buat folder `assets`, yang dimaksudkan untuk menerima semua ilustrasi yang diperlukan untuk tutorial Anda;
+- Di dalam folder `assets` ini, Anda perlu membuat sub-folder yang diberi nama sesuai dengan kode bahasa asli tutorial. Sebagai contoh, jika tutorial ditulis dalam bahasa Inggris, sub-folder ini harus diberi nama `en`. Letakkan semua visual tutorial di sana (diagram, gambar, tangkapan layar, dll.).
+- File `tutorial.yml` harus dibuat untuk mencatat detail yang terkait dengan tutorial Anda;
+- Sebuah file format markdown harus dibuat untuk menulis konten aktual dari tutorial Anda. File ini harus diberi judul sesuai dengan kode bahasa penulisan. Sebagai contoh, untuk tutorial yang ditulis dalam bahasa Prancis, file tersebut harus diberi nama `fr.md`.
+
 ![TUTO](assets/fr/14.webp)
-Pour résumer, voici la hiérarchie des fichiers à créer :
+
+Sebagai rangkuman, berikut ini hierarki file yang harus dibuat:
+
 ```
-
-bitcoin-konten-pendidikan/
-
-└── tutorial/
-
-└── dompet/ (ubah ke kategori yang benar)
-
-└── dompet burung pipit/ (modifikasi dengan nama tuto)
-
-├── aset/
-
-│ ├── en/ (ubah ke kode bahasa yang sesuai)
-
+bitcoin-educational-content/
+└── tutorials/
+└── wallet/ (to be modified with the correct category)
+└── sparrow-wallet/ (to be modified with the name of the tutorial)
+├── assets/
+│   ├── en/ (to be modified according to the appropriate language code)
 ├── tutorial.yml
-
-└── fr.md (akan dimodifikasi sesuai dengan kode bahasa yang sesuai)
-
-```
-## 3 - Remplir le fichier YAML
-Remplissez le fichier `tutorial.yml` en copiant le modèle suivant :
+└── en.md (to be modified according to the appropriate language code)
 ```
 
+## 3 - Isi file YAML
+
+Isi file `tutorial.yml` dengan menyalin templat berikut:
+
+```
 id:
-
 project_id:
-
-tag:
-
+tags:
 -
-
 -
-
 -
-
-kategori:
-
-tingkat:
-
-kredit:
-
-profesor:
-
-# Mengoreksi metadata
-
-bahasa_asli:
-
-mengoreksi:
-
-
-  - bahasa:
-
-tanggal_kontribusi_terakhir:
-
-urgensi:
-
-kontributor_id:
-
+category:
+level:
+credits:
+professor:
+# Proofreading metadata
+original_language:
+proofreading:
+- language:
+last_contribution_date:
+urgency:
+contributors_id:
 -
+reward:
+```
 
-hadiah:
-
-````
-
-Berikut ini adalah bidang yang wajib diisi:
+Berikut ini adalah rincian bidang yang wajib diisi:
 
 
-- id**: Sebuah UUID (Pengenal Unik Universal) untuk mengidentifikasi tutorial secara unik. Anda dapat membuatnya dengan [alat bantu online] (https://www.uuidgenerator.net/version4). Satu-satunya batasan adalah UUID ini harus acak, agar tidak bertentangan dengan UUID lain di platform;
-- project_id** : UUID dari perusahaan atau organisasi di balik alat yang disajikan dalam tutorial [dari daftar proyek] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Sebagai contoh, jika Anda sedang melakukan tutorial mengenai perangkat lunak Sparrow Wallet, Anda dapat menemukan `project_id` ini di file berikut: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Informasi ini ditambahkan dalam file YAML tutorial Anda karena Plan ₿ Network menyimpan database semua perusahaan dan organisasi yang beroperasi dengan Bitcoin atau proyek-proyek terkait. Dengan menambahkan `project_id` dari entitas yang ditautkan ke tutorial Anda, Anda membuat tautan antara dua elemen;
-- tag**: 2 atau 3 kata kunci yang relevan terkait dengan konten tutorial, yang dipilih secara eksklusif [dari daftar tag Paket ₿ Jaringan](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- kategori** : Subkategori yang sesuai dengan konten tutorial, sesuai dengan Paket ₿ Struktur jaringan (misalnya untuk dompet: `deskstop`, `perangkat keras`, `seluler`, `cadangan`);
-- tingkat** : Tingkat kesulitan tutorial, dari :
-    - pemula
+- id**: Sebuah UUID (Pengenal Unik Universal) untuk mengidentifikasi tutorial secara unik. Anda dapat membuatnya dengan [alat bantu online] (https://www.uuidgenerator.net/version4). Satu-satunya persyaratan adalah bahwa UUID ini bersifat acak untuk menghindari konflik dengan UUID lain di platform;
+- project_id**: UUID dari perusahaan atau organisasi di balik alat yang disajikan dalam tutorial [dari daftar proyek] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Sebagai contoh, jika Anda membuat tutorial mengenai perangkat lunak Sparrow Wallet, Anda dapat menemukan `project_id` ini di dalam berkas berikut: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Network menyimpan database semua perusahaan dan organisasi yang beroperasi dengan Bitcoin atau proyek-proyek terkait. Dengan menambahkan `project_id` dari entitas yang terkait dengan tutorial Anda, Anda membuat tautan antara dua elemen;
+- tag**: 2 atau 3 kata kunci yang relevan terkait dengan konten tutorial, yang dipilih secara eksklusif [dari daftar tag Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- kategori**: Sub-kategori yang sesuai dengan konten tutorial, sesuai dengan struktur situs Jaringan Plan ₿ Network (misalnya untuk dompet: `desktop`, `perangkat keras`, `seluler`, `cadangan`);
+- tingkat**: Tingkat kesulitan tutorial, di antara:
+    - `pemula`
     - 'menengah'
     - `advanced`
     - 'ahli'
-- profesor**: `kontributor_id` Anda (BIP39 kata) seperti yang ditampilkan di [profil pengajar Anda] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- bahasa_asli** : Bahasa asli tutorial (misalnya `fr`, `en`, dll.) ;
+- profesor**: `contributor_id` Anda (BIP39 kata) seperti yang ditampilkan di [profil profesor Anda] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- bahasa_asli**: Bahasa asli tutorial (misalnya `fr`, `en`, dll.);
 - pengoreksian**: Informasi tentang proses proofreading. Isi bagian pertama, karena mengoreksi tutorial Anda sendiri dianggap sebagai validasi pertama:
-    - bahasa**: Mengoreksi kode bahasa (misalnya `fr`, `en`, dsb.).
+    - bahasa**: Kode bahasa dari proofreading (misalnya `fr`, `en`, dll.).
     - tanggal_kontribusi_terakhir**: Tanggal hari ini.
-    - urgensi** : Biarkan kosong.
-    - kontributor_id** : ID GitHub Anda.
-    - hadiah** : Biarkan kosong.
+    - urgensi**: Biarkan kosong.
+    - kontributor_id**: ID GitHub Anda.
+    - hadiah**: Biarkan kosong.
 
-Untuk detail lebih lanjut mengenai ID guru Anda, silakan lihat tutorial yang sesuai:
+Untuk detail lebih lanjut tentang pengenal profesor Anda, lihat tutorial terkait:
 
-https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Berikut ini adalah contoh file `tutorial.yml` yang sudah selesai untuk tutorial mengenai dompet Blockstream Green:
 
-Berikut ini adalah contoh file `tutorial.yml` yang telah selesai dibuat untuk tutorial mengenai dompet Blockstream Green:
-
-```yaml
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
 tags:
@@ -272,21 +277,21 @@ original_language: fr
 proofreading:
 - language: fr
 last_contribution_date: 2024-11-20
-urgency:
+urgency: 1
 contributors_id:
 - LoicPandul
-reward:
+reward: 0
 ```
 
-Setelah Anda selesai mengedit file `tutorial.yml`, simpan dokumen Anda dengan mengklik `File > Save`:
+Setelah Anda selesai memodifikasi file `tutorial.yml`, simpan dokumen Anda dengan mengklik `File > Save`:
 
 ![TUTO](assets/fr/16.webp)
 
 Anda sekarang dapat menutup editor kode Anda.
 
-## 4 - Isi file Penurunan Harga
+## 4 - Isi File Penurunan Harga
 
-Sekarang Anda dapat membuka file tutorial Anda, yang diberi nama dengan kode bahasa Anda, misalnya `en.md`. Masuk ke Obsidian, di sisi kiri jendela, dan gulir ke bawah pada pohon folder ke folder tutorial Anda dan file yang diinginkan:
+Sekarang, Anda dapat membuka file yang akan menjadi tempat tutorial Anda, yang diberi nama dengan kode bahasa Anda, seperti `fr.md`. Masuk ke Obsidian, di sisi kiri jendela, gulir pohon folder sampai Anda menemukan folder tutorial dan file yang Anda cari:
 
 ![TUTO](assets/fr/18.webp)
 
@@ -294,66 +299,64 @@ Klik pada file untuk membukanya:
 
 ![TUTO](assets/fr/19.webp)
 
-Kita akan mulai dengan mengisi bagian `Properties` di bagian paling atas dokumen.
+Kita akan mulai dengan mengisi bagian `Properties` di bagian atas dokumen.
 
 ![TUTO](assets/fr/20.webp)
 
 Tambahkan dan isi blok kode berikut secara manual:
 
-```markdown
+```
 ---
-name: [Titre]
+name: [Title]
 description: [Description]
 ---
 ```
 
 ![TUTO](assets/fr/21.webp)
 
-Isi nama tutorial Anda dan deskripsi singkat:
+Isi nama tutorial Anda dan deskripsi singkatnya:
 
 ![TUTO](assets/fr/22.webp)
 
-Kemudian, tambahkan jalur ke gambar sampul di awal tutorial Anda. Untuk melakukan ini, perhatikan :
+Kemudian, tambahkan jalur gambar sampul di awal tutorial Anda. Untuk melakukan ini, perhatikan:
 
-```markdown
+```
 ![cover-sparrow](assets/cover.webp)
 ```
 
-Sintaks ini akan sangat berguna ketika Anda perlu menambahkan gambar ke dalam tutorial Anda. Tanda seru menunjukkan gambar, yang teks alternatifnya (alt) ditentukan di antara tanda kurung siku. Jalur ke gambar ditunjukkan di antara tanda kurung:
+Sintaks ini akan berguna ketika Anda perlu menambahkan gambar ke dalam tutorial Anda. Tanda seru menunjukkan bahwa itu adalah gambar, dengan teks alternatif (alt) yang ditentukan di antara tanda kurung. Jalur ke gambar ditunjukkan di antara tanda kurung:
 
 ![TUTO](assets/fr/23.webp)
 
-## 5 - Menambahkan logo dan sampul
+## 5 - Tambahkan Logo dan Sampul
 
-Di dalam folder `assets`, Anda perlu menambahkan file bernama `logo.webp`, yang akan berfungsi sebagai gambar mini untuk artikel Anda. Gambar ini harus dalam format `.webp` dan berukuran persegi agar sesuai dengan antarmuka pengguna. Anda bebas memilih logo perangkat lunak yang tercakup dalam tutorial atau gambar lain yang relevan, selama gambar tersebut bebas royalti. Selain itu, tambahkan gambar berjudul `cover.webp` di tempat yang sama. Gambar ini akan ditampilkan di bagian atas tutorial Anda. Pastikan bahwa gambar ini, seperti halnya logo, menghormati hak-hak penggunaan dan sesuai dengan konteks tutorial Anda:
+Di dalam folder `assets`, Anda harus menambahkan file bernama `logo.webp`, yang akan berfungsi sebagai gambar mini untuk artikel Anda. Gambar ini harus dalam format `.webp` dan harus memiliki dimensi persegi agar selaras dengan antarmuka pengguna. Anda bebas memilih logo perangkat lunak yang tercakup dalam tutorial atau gambar lain yang relevan, asalkan gambar tersebut bebas dari hak cipta. Selain itu, tambahkan juga gambar berjudul `cover.webp` di tempat yang sama. Gambar ini akan ditampilkan di bagian atas tutorial Anda. Pastikan bahwa gambar ini, seperti halnya logo, menghormati hak penggunaan dan sesuai dengan konteks tutorial Anda:
 
-![TUTO](assets/fr/17.webp)
+## 6 - Menulis Tutorial dan Menambahkan Visual
 
-## 6 - Menulis tutorial dan menambahkan visual
-
-Lanjutkan menulis konten tutorial Anda. Bila Anda ingin menyertakan subjudul, terapkan format penurunan nilai yang sesuai dengan mengawali teks dengan `##` :
+Lanjutkan menulis tutorial Anda dengan menyusun konten Anda. Ketika Anda ingin mengintegrasikan subjudul, terapkan format penurunan harga yang sesuai dengan mengawali teks dengan `##`:
 
 ![TUTO](assets/fr/24.webp)
 
-Subfolder bahasa dalam folder `assets` digunakan untuk menyimpan diagram dan visual yang akan menyertai tutorial Anda. Sedapat mungkin, hindari menyertakan teks dalam gambar agar konten Anda dapat diakses oleh audiens internasional. Tentu saja, perangkat lunak yang disajikan akan berisi teks, tetapi jika Anda menambahkan skema atau indikasi tambahan pada tangkapan layar perangkat lunak, lakukan tanpa teks atau, jika perlu, gunakan bahasa Inggris.
+Subfolder bahasa dalam folder `assets` digunakan untuk menyimpan diagram dan visual yang akan menyertai tutorial Anda. Sebisa mungkin, hindari menyertakan teks dalam gambar agar konten Anda dapat diakses oleh audiens internasional. Tentu saja, perangkat lunak yang disajikan akan berisi teks, tetapi jika Anda menambahkan diagram atau indikasi tambahan pada tangkapan layar perangkat lunak, lakukan tanpa teks atau, jika terbukti sangat diperlukan, gunakan bahasa Inggris.
 
 ![TUTO](assets/fr/25.webp)
 
-Untuk menamai gambar Anda, cukup gunakan angka yang sesuai dengan urutan kemunculannya dalam tutorial, yang diformat sebagai dua digit (atau tiga digit jika tutorial Anda berisi lebih dari 99 gambar). Contohnya, beri nama gambar pertama Anda `01.webp`, gambar kedua `02.webp`, dan seterusnya.
+Untuk menamai gambar Anda, cukup gunakan nomor yang sesuai dengan urutan kemunculannya dalam tutorial, yang diformat dengan dua digit (atau tiga digit jika tutorial Anda berisi lebih dari 99 gambar). Contohnya, beri nama gambar pertama Anda `01.webp`, gambar kedua `02.webp`, dan seterusnya.
 
-Gambar Anda harus dalam format `.webp` saja. Jika perlu, Anda dapat menggunakan [perangkat lunak konversi gambar saya] (https://github.com/LoicPandul/ImagesConverter).
+Gambar Anda harus dalam format `.webp` secara eksklusif. Jika diperlukan, Anda dapat menggunakan [perangkat lunak konversi gambar saya] (https://github.com/LoicPandul/ImagesConverter).
 
 ![TUTO](assets/fr/26.webp)
 
-Untuk menyisipkan diagram dalam dokumen Anda, gunakan perintah berikut di Markdown, dengan hati-hati menentukan teks alternatif yang sesuai serta jalur gambar yang benar:
+Untuk menyisipkan diagram ke dalam dokumen Anda, gunakan perintah Markdown berikut ini, pastikan untuk menentukan teks alternatif yang sesuai serta jalur gambar yang benar:
 
-```markdown
+```
 ![sparrow](assets/fr/01.webp)
 ```
 
-Tanda seru di awal menunjukkan gambar. Teks alternatif, yang membantu aksesibilitas dan referensi, ditempatkan di antara tanda kurung siku. Terakhir, jalur ke gambar ditunjukkan di antara tanda kurung.
+Tanda seru di awal mengindikasikan bahwa itu adalah gambar. Teks alternatif, yang membantu aksesibilitas dan SEO, ditempatkan di antara tanda kurung. Terakhir, jalur ke gambar ditunjukkan di antara tanda kurung.
 
-Jika Anda ingin membuat skema Anda sendiri, pastikan untuk mengikuti panduan grafis Plan ₿ Network (Rencana ₿ Jaringan) untuk memastikan konsistensi visual:
+Jika Anda ingin membuat diagram Anda sendiri, pastikan untuk mematuhi piagam grafis Plan ₿ Network untuk memastikan konsistensi visual:
 
 
 - Huruf **: Gunakan [Rubik] (https://fonts.google.com/specimen/Rubik);
@@ -362,15 +365,15 @@ Jika Anda ingin membuat skema Anda sendiri, pastikan untuk mengikuti panduan gra
  - Hitam: #000000
  - Putih: #FFFFFF
 
-**Sangat penting bahwa semua visual yang diintegrasikan ke dalam tutorial Anda bebas dari hak cipta atau menghormati lisensi file sumber**. Oleh karena itu, semua diagram yang dipublikasikan di Plan ₿ Network tersedia di bawah lisensi CC-BY-SA, dengan cara yang sama seperti teks.
+**Sangat penting bahwa semua visual yang diintegrasikan ke dalam tutorial Anda bebas dari hak cipta atau menghormati lisensi file sumbernya**. Selain itu, semua diagram yang dipublikasikan di Plan ₿ Network tersedia di bawah lisensi CC-BY-SA, dengan cara yang sama seperti teks.
 
-**-> Tips:** Ketika berbagi file di tempat umum, seperti gambar, penting untuk menghapus metadata yang tidak perlu. Metadata ini dapat berisi informasi sensitif, seperti data lokasi, tanggal pembuatan, dan detail pembuat. Untuk melindungi privasi Anda, sebaiknya hapus metadata ini. Untuk menyederhanakan operasi ini, Anda dapat menggunakan alat khusus seperti [Exif Cleaner] (https://exifcleaner.com/), yang memungkinkan Anda untuk membersihkan metadata dokumen dengan hanya menarik dan melepas.
+**-> Tips:** Ketika berbagi file secara publik, seperti gambar, penting untuk menghapus metadata yang tidak perlu. Metadata ini dapat berisi informasi sensitif, seperti data lokasi, tanggal pembuatan, atau detail tentang pembuatnya. Untuk melindungi privasi Anda, sebaiknya hapus metadata ini. Untuk menyederhanakan proses ini, Anda dapat menggunakan alat khusus seperti [Exif Cleaner] (https://exifcleaner.com/), yang memungkinkan pembersihan metadata dokumen melalui seret dan lepas.
 
-## 7 - Menyimpan dan mengusulkan tutorial
+## 7 - Simpan dan Kirimkan Tutorial
 
-Setelah Anda selesai menulis tutorial Anda dalam bahasa pilihan Anda, langkah selanjutnya adalah mengirimkan **Pull Request**. Administrator kemudian akan menambahkan terjemahan yang kurang ke dalam tutorial Anda, menggunakan metode penerjemahan otomatis kami dengan pengoreksian oleh manusia.
+Setelah Anda selesai menulis tutorial Anda dalam bahasa pilihan Anda, langkah selanjutnya adalah mengirimkan **Permintaan Penerjemahan**. Administrator kemudian akan menambahkan terjemahan yang kurang dari tutorial Anda, berkat metode penerjemahan otomatis kami dengan tinjauan manusia.
 
-Untuk melakukan Pull Request, buka GitHub Desktop. Perangkat lunak ini akan secara otomatis mendeteksi perubahan apa pun yang telah Anda lakukan secara lokal di cabang Anda ke repositori asli. Sebelum melanjutkan, periksa dengan cermat di sisi kiri antarmuka bahwa perubahan ini sesuai dengan yang Anda harapkan:
+Untuk melanjutkan dengan Pull Request, buka perangkat lunak GitHub Desktop. Perangkat lunak ini akan secara otomatis mendeteksi perubahan yang telah Anda lakukan secara lokal di cabang Anda dibandingkan dengan repositori asli. Sebelum melanjutkan, periksa dengan cermat di sisi kiri antarmuka bahwa perubahan ini sesuai dengan yang Anda harapkan:
 
 ![TUTO](assets/fr/28.webp)
 
@@ -378,47 +381,47 @@ Tambahkan judul untuk komit Anda, lalu klik tombol biru `Komit ke [cabang Anda]`
 
 ![TUTO](assets/fr/29.webp)
 
-Komit adalah catatan perubahan yang dibuat pada sebuah cabang, disertai dengan pesan deskriptif, yang memungkinkan Anda untuk melacak evolusi proyek dari waktu ke waktu. Ini adalah semacam pos pemeriksaan perantara.
+Komit adalah penyimpanan perubahan yang dibuat pada cabang, disertai dengan pesan deskriptif, yang memungkinkan untuk mengikuti evolusi proyek dari waktu ke waktu. Ini semacam pos pemeriksaan perantara.
 
 Kemudian klik pada tombol `Push origin`. Ini akan mengirim komit Anda ke fork Anda:
 
 ![TUTO](assets/fr/30.webp)
 
-Jika Anda belum menyelesaikan tutorial Anda, Anda dapat kembali lagi nanti dan membuat komit baru. Jika Anda sudah selesai mengedit cabang ini, klik tombol `Preview Pull Request`:
+Jika Anda belum menyelesaikan tutorial ini, Anda dapat kembali lagi nanti dan membuat komit baru. Jika Anda telah menyelesaikan perubahan Anda untuk cabang ini, klik tombol `Preview Pull Request`:
 
 ![TUTO](assets/fr/31.webp)
 
-Anda dapat memeriksa untuk terakhir kalinya apakah perubahan Anda sudah benar, lalu klik tombol `Buat permintaan tarik`:
+Anda dapat memeriksa untuk terakhir kalinya apakah modifikasi Anda sudah benar, lalu klik tombol `Buat permintaan tarik`:
 
 ![TUTO](assets/fr/32.webp)
 
-Pull Request adalah permintaan yang dibuat untuk mengintegrasikan perubahan dari cabang Anda ke dalam cabang utama repositori Plan ₿ Network, yang memungkinkan peninjauan dan diskusi perubahan sebelum digabungkan.
+Pull Request adalah permintaan yang dibuat untuk mengintegrasikan perubahan dari cabang Anda ke cabang utama repositori Plan ₿ Network, yang memungkinkan peninjauan dan diskusi perubahan sebelum penggabungan.
 
-Anda akan secara otomatis dialihkan pada peramban Anda ke GitHub di halaman persiapan Pull Request Anda:
+Anda akan secara otomatis diarahkan ke peramban Anda di GitHub ke halaman persiapan Pull Request Anda:
 
 ![TUTO](assets/fr/33.webp)
 
-Masukkan sebuah judul yang secara singkat meringkas perubahan yang ingin Anda gabungkan dengan repositori sumber. Tambahkan komentar singkat yang menjelaskan perubahan-perubahan ini (jika Anda memiliki nomor isu yang terkait dengan pembuatan tutorial Anda, ingatlah untuk mencatat `Tutup #{nomor isu}` sebagai sebuah komentar), lalu klik tombol hijau `Buat permintaan tarik` untuk mengonfirmasi permintaan penggabungan:
+Tunjukkan sebuah judul yang secara singkat meringkas perubahan yang ingin Anda gabungkan dengan repositori sumber. Tambahkan komentar singkat yang menjelaskan perubahan-perubahan ini (jika Anda memiliki nomor isu yang terkait dengan pembuatan tutorial Anda, ingatlah untuk mencatatnya di komentar `Tutup #{nomor isu}`), lalu klik tombol hijau `Buat permintaan tarik` untuk mengonfirmasi permintaan penggabungan:
 
 ![TUTO](assets/fr/34.webp)
 
-PR Anda kemudian akan terlihat di tab `Tarik Permintaan` pada repositori Rencana ₿ Jaringan utama. Yang harus Anda lakukan sekarang adalah menunggu hingga administrator menghubungi Anda untuk mengonfirmasi bahwa kontribusi Anda telah digabungkan, atau meminta modifikasi lebih lanjut.
+PR Anda kemudian akan terlihat di tab `Tarik Permintaan` pada repositori Rencana ₿ Jaringan utama. Yang harus Anda lakukan adalah menunggu hingga administrator menghubungi Anda untuk mengonfirmasi penggabungan kontribusi Anda atau meminta modifikasi tambahan.
 
 ![TUTO](assets/fr/35.webp)
 
-Setelah menggabungkan PR Anda dengan cabang utama, kami sarankan untuk menghapus cabang yang sedang bekerja (`tuto-sparrow-wallet`) untuk menjaga riwayat yang bersih di fork Anda. GitHub akan menawarkan opsi ini secara otomatis pada halaman PR Anda:
+Setelah PR Anda digabungkan dengan cabang utama, disarankan untuk menghapus cabang yang sedang bekerja (`tuto-sparrow-wallet`) untuk mempertahankan riwayat yang bersih pada fork Anda. GitHub akan secara otomatis menawarkan opsi ini pada halaman PR Anda:
 
 ![TUTO](assets/fr/36.webp)
 
-Di GitHub Desktop, Anda dapat kembali ke cabang utama fork Anda (`dev`).
+Pada perangkat lunak GitHub Desktop, Anda dapat beralih kembali ke cabang utama fork Anda (`dev`).
 
 ![TUTO](assets/fr/07.webp)
 
-Jika Anda ingin membuat perubahan pada kontribusi Anda setelah Anda mengirimkan PR Anda, langkah-langkah yang harus diikuti tergantung pada status PR Anda saat ini:
+Jika Anda ingin membuat perubahan pada kontribusi Anda setelah Anda mengirimkan PR Anda, prosedurnya tergantung pada status PR Anda saat ini:
 
 
-- Jika PR Anda masih terbuka dan belum digabungkan, lakukan perubahan secara lokal, tetap di cabang yang sama. Setelah perubahan selesai, gunakan tombol `Push origin` untuk menambahkan komit baru ke PR yang masih terbuka;
-- Jika PR Anda telah digabungkan dengan cabang utama, Anda harus mengulang proses dari awal dengan membuat cabang baru, lalu mengirimkan PR baru. Pastikan repositori lokal Anda disinkronkan dengan repositori Plan ₿ Repositori sumber jaringan sebelum melanjutkan.
+- Jika PR Anda masih terbuka dan belum digabungkan, lakukan perubahan secara lokal dan tetap berada di cabang yang sama. Setelah modifikasi selesai, gunakan tombol `Push origin` untuk menambahkan komit baru ke PR yang masih terbuka;
+- Jika PR Anda telah digabungkan dengan cabang utama, Anda harus memulai proses dari awal dengan membuat cabang baru, lalu mengirimkan PR baru. Pastikan repositori lokal Anda disinkronkan dengan repositori sumber Plan ₿ Network sebelum melanjutkan.
 
-Jika Anda mengalami kesulitan teknis dalam mengirimkan tutorial Anda, jangan ragu untuk meminta bantuan di [grup Telegram khusus untuk kontribusi](https://t.me/PlanBNetwork_ContentBuilder). Terima kasih banyak!
+Jika Anda mengalami kesulitan teknis dalam mengirimkan tutorial Anda, jangan ragu untuk meminta bantuan di [grup Telegram khusus untuk kontribusi](https://t.me/PlanBNetwork_ContentBuilder). Terima kasih!
 

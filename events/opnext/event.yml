@@ -1,0 +1,17 @@
+id: 37aa9abc-b9c5-45d5-8dab-9b05ca07d55f
+start_date: 2025-04-12 13:00:00
+end_date: 2025-04-13 21:00:00
+timezone: America/New_York
+address_line_1: Tysons, VA, USA
+name: OPNEXT
+builder: OPNEXT
+type: conference
+description: A conference focusing on Bitcoin trends, innovation, and networking.
+language:
+  - en
+links:
+  website: https://opnext.dev/
+tags:
+  - innovation
+  - user-friendly
+  - adoption

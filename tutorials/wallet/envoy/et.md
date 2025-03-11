@@ -6,7 +6,7 @@ description: Passi seadistamine ja kasutamine koos Envoy rakendusega
 
 Envoy on Bitcoini rahakoti haldamise rakendus, mille on välja töötanud Foundation. See on spetsiaalselt mõeldud kasutamiseks koos Passport riistvaralise rahakotiga.
 
-Passport "*Partii 2*", mida me selles õpetuses koos Envoy rakendusega tutvustame, on "*Algataja väljaande*" järeltulija. Sellel on esmaklassiline disain, kõrglahutusega värviline ekraan ja ergonoomiline füüsiline klaviatuur. See töötab režiimis "*Air-Gap*", mis tagab, et teie rahakoti privaatvõtmed jäävad täiesti isoleerituks, kusjuures vahetused on võimalikud MicroSD-kaardi või QR-koodide kaudu. Seade sisaldab eemaldatavat 1200 mAh akut.
+Passport "*Batch 2*", mida esitleme selles juhendis koos Envoy rakendusega, on "*Founder's Edition*" järglane. See eristub oma kvaliteetse disaini, kõrglahutusega värviekraani ja ergonoomilise füüsilise klaviatuuriga. See töötab "*Air-Gap*" režiimis, tagades, et teie rahakoti privaatvõtmed jäävad täielikult isoleerituks, kus andmevahetus toimub MicroSD-kaardi või QR-koodide kaudu. Seade on varustatud eemaldatava ja laetava Nokia BL-5C akuga mahutavusega 1200 mAh. See mitteomandiline aku on kergesti asendatav, kuna BL-5C mudelit on lihtne leida kaubanduses.
 
 Mis puutub ühenduvusse, siis on Passport varustatud MicroSD-pordi, USB-C-pordi laadimiseks ja tagakaameraga QR-koodide skaneerimiseks.
 

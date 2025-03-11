@@ -6,7 +6,7 @@ description: Konfigurere og bruke Passport-maskinvarelommeboken i manuell modus
 
 Passport er en maskinvarelommebok som kun inneholder Bitcoin, designet av Foundation Devices, et amerikansk selskap som ble grunnlagt i april 2020 i Boston.
 
-Passport "*Batch 2*", som vi presenterer i denne veiledningen, er etterfølgeren til "*Founder's Edition*". Den har et førsteklasses design, en HD-fargeskjerm og et ergonomisk, fysisk tastatur. Den fungerer i "*Air-Gap*"-modus, noe som sikrer at lommebokens private nøkler forblir helt isolerte, og at utveksling er mulig via et MicroSD-kort eller QR-koder. Enheten har et avtakbart batteri på 1200 mAh.
+Passport "*Batch 2*", som vi presenterer i denne veiledningen, er etterfølgeren til "*Founder's Edition*". Den skiller seg ut med sitt premium design, høyoppløselige fargeskjerm og ergonomiske fysiske tastatur. Den opererer i "*Air-Gap*"-modus, noe som sikrer at lommebokens private nøkler forblir fullstendig isolerte, med datautveksling via et MicroSD-kort eller QR-koder. Enheten er utstyrt med et utskiftbart oppladbart Nokia BL-5C batteri på 1200 mAh. Dette ikke-proprietære batteriet kan enkelt byttes ut, ettersom BL-5C-modellen er lett tilgjengelig i butikker.
 
 Når det gjelder tilkoblingsmuligheter, er Passport utstyrt med en MicroSD-port, en USB-C-port for lading og et kamera på baksiden for skanning av QR-koder.
 

@@ -6,13 +6,13 @@ location: Paris, France
 language:
   - en
 links:
-  website: https://breaking-bitcoin.com/otherPages/2017/2017.html
+  website:
   twitter: https://twitter.com/breakingbitcoin
 project_id: eef8c3d4-2ec8-4f8d-9fd5-b146191ae52d
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date: 2024-09-01
+    last_contribution_date: 2025-03-04
     urgency: 0
     contributors_id:
       - Asi0Flammeus

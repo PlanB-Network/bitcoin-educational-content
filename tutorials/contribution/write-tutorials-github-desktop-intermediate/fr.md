@@ -6,7 +6,7 @@ description: Guide complet pour proposer un tutoriel sur Plan ₿ Network avec G
 
 Avant de suivre ce tutoriel sur l'ajout d'un nouveau tutoriel, vous devez avoir complété quelques étapes préliminaires. Si ce n'est pas encore fait, je vous invite à consulter d'abord ce tutoriel introductif, puis à revenir ici :
 
-https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Vous avez déjà :
 - Choisi le thème de votre tutoriel ;
@@ -17,13 +17,13 @@ Dans ce tutoriel, nous allons voir comment ajouter votre tutoriel sur Plan ₿ N
 
 - **Utilisateurs expérimentés** :
 
-https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 Si vous préférez ne pas configurer votre environnement local, suivez cet autre tutoriel conçu pour les débutants, où nous effectuons les modifications directement via l'interface web de GitHub :
 
 - **Débutants (interface web)** :
 
-https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Prérequis
 
@@ -45,11 +45,11 @@ Si vous avez besoin d'aide pour obtenir ces prérequis, mes autres tutoriels vou
 
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Une fois que tout est en place, que votre environnement local est bien paramétré avec votre propre fork de Plan ₿ Network, vous allez pouvoir commencer l'ajout du tutoriel.
 
@@ -102,74 +102,75 @@ Maintenant que la branche de travail est créée, il est temps de faire l'intég
 ### Avec mon script Python
 
 Vous devez installer sur votre machine :
-- Python 3.8 ou supérieur ;
-- Les dépendances nécessaires pour le script. Exécutez :
+- Python 3.8 ou supérieur.
+
+Pour utiliser le script, rendez-vous dans le dossier où il est stocké. Le script se trouve dans le dépôt de data de Plan ₿ Network sous le chemin : `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
+
+Une fois dans le dossier, installez les dépendances :
 
 ```bash
-pip install customtkinter appdirs
-````
+pip install -r requirements.txt
+```
 
-Pour utiliser le script, rendez-vous dans le dossier où il est stocké. Le script se trouve dans le dépôt de data de Plan ₿ Network sous le chemin : `bitcoin-educational-content/scripts/tutorial-related/new-tutorial-creation/`.
-
-Une fois dans le dossier, exécutez la commande :
+Puis lancez le logiciel avec la commande :
 
 ```bash
-python new-tutorial-creation.py
+python3 main.py
 ```
 
 Une interface graphique (GUI) va s'ouvrir. La première fois, vous devrez entrer toutes les informations nécessaires, mais lors des utilisations ultérieures du script, vos informations personnelles seront mémorisées, ce qui vous évite de devoir les saisir de nouveau.
 
-![TUTO](assets/fr/37.webp)
+![DATA-CREATOR-PY](assets/fr/37.webp)
 
 Commencez par indiquer le chemin local menant au dossier `/tutorials` sur votre clone du dépôt (`.../bitcoin-educational-content/tutorials/`). Vous pouvez le noter manuellement ou cliquer sur le bouton "Browse" pour naviguer via votre explorateur de fichiers.
 
-![TUTO](assets/fr/38.webp)
+![DATA-CREATOR-PY](assets/fr/38.webp)
 
 Sélectionnez la langue dans laquelle vous rédigerez votre tutoriel.
 
-![TUTO](assets/fr/39.webp)
-
-Choisissez une catégorie principale pour votre tutoriel.
-
-![TUTO](assets/fr/40.webp)
-
-Ensuite, sélectionnez une sous-catégorie appropriée, en fonction de la catégorie principale que vous avez choisie.
-
-![TUTO](assets/fr/41.webp)
-
-Déterminez un niveau de difficulté pour le tutoriel.
-
-![TUTO](assets/fr/42.webp)
-
-Choisissez le nom du répertoire spécialement créé pour votre tutoriel. Le nom de ce dossier devrait refléter le logiciel abordé dans le tutoriel, en utilisant des tirets pour relier les mots. Par exemple, le dossier pourrait s'appeler `red-wallet` :
-
-![TUTO](assets/fr/43.webp)
-
-Le `project_id` est l'UUID de l'entreprise ou de l'organisation derrière l'outil présenté dans le tutoriel, disponible [dans la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, pour un tutoriel sur le logiciel Sparrow Wallet, vous trouverez ce `project_id` dans le fichier : `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Cette information est ajoutée au fichier YAML de votre tutoriel car Plan ₿ Network maintient une base de données des entreprises et organisations actives sur Bitcoin ou des projets connexes. En ajoutant le `project_id` associé à votre tutoriel, vous créez un lien entre votre contenu et l'entité concernée.
-
-***Mise à jour :*** Dans la nouvelle version du script, vous n'avez plus besoin de saisir manuellement le `project_id`. Une fonction de recherche a été ajoutée pour trouver le projet par son nom et récupérer automatiquement le `project_id` correspondant. Tapez le début du nom du projet dans la case "Project name" pour le rechercher, puis sélectionnez l'entreprise souhaitée dans le menu déroulant. Le `project_id` sera automatiquement renseigné dans la case en dessous. Vous avez également la possibilité de le noter manuellement si nécessaire.
-
-![TUTO](assets/fr/44.webp)
-
-Pour les tags, sélectionnez 2 ou 3 mots-clés pertinents en relation avec le contenu de votre tutoriel, en les choisissant exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md).
-
-![TUTO](assets/fr/45.webp)
+![DATA-CREATOR-PY](assets/fr/39.webp)
 
 Dans la case "Contributor's GitHub ID", inscrivez votre identifiant GitHub.
 
-![TUTO](assets/fr/46.webp)
+![DATA-CREATOR-PY](assets/fr/40.webp)
 
 Pour la case "PBN professor's ID", saisissez votre identifiant en utilisant les mots de la liste BIP39, tel qu'il apparaît sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
 
-![TUTO](assets/fr/47.webp)
+![DATA-CREATOR-PY](assets/fr/41.webp)
 
-Pour plus de détails sur votre identifiant de professeur, veuillez consulter le tutoriel suivant :
+Si vous n'avez pas encore de profil de professeur, consultez ce tutoriel :
 
-https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
+Cliquez ensuite sur le bouton "New Tutorial".
+
+![DATA-CREATOR-PY](assets/fr/42.webp)
+
+Choisissez une catégorie principale pour votre tutoriel. Ensuite, sélectionnez une sous-catégorie appropriée, en fonction de la catégorie principale que vous avez choisie.
+
+![DATA-CREATOR-PY](assets/fr/43.webp)
+
+Déterminez un niveau de difficulté pour le tutoriel.
+
+![DATA-CREATOR-PY](assets/fr/44.webp)
+
+Choisissez le nom du répertoire spécialement créé pour votre tutoriel. Le nom de ce dossier devrait refléter le logiciel abordé dans le tutoriel, en utilisant des tirets pour relier les mots. Par exemple, le dossier pourrait s'appeler `red-wallet` :
+
+![DATA-CREATOR-PY](assets/fr/45.webp)
+
+Le `project_id` est l'UUID de l'entreprise ou de l'organisation derrière l'outil présenté dans le tutoriel, disponible [dans la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, pour un tutoriel sur le logiciel Sparrow Wallet, vous trouverez ce `project_id` dans le fichier : `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Cette information est ajoutée au fichier YAML de votre tutoriel car Plan ₿ Network maintient une base de données des entreprises et organisations actives sur Bitcoin ou des projets connexes. En ajoutant le `project_id` associé à votre tutoriel, vous créez un lien entre votre contenu et l'entité concernée.
+
+***Mise à jour :*** Dans la nouvelle version du script, vous n'avez plus besoin de saisir manuellement le `project_id`. Une fonction de recherche a été ajoutée pour trouver le projet par son nom et récupérer automatiquement le `project_id` correspondant. Tapez le début du nom du projet dans la case "Project Name" pour le rechercher, puis sélectionnez l'entreprise souhaitée dans le menu déroulant. Le `project_id` sera automatiquement renseigné dans la case en dessous. Vous avez également la possibilité de le noter manuellement si nécessaire.
+
+![DATA-CREATOR-PY](assets/fr/46.webp)
+
+Pour les tags, sélectionnez 2 ou 3 mots-clés pertinents en relation avec le contenu de votre tutoriel, en les choisissant exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Vous avez également une fonction de recherche de mots avec une liste déroulante sur le logiciel.
+
+![DATA-CREATOR-PY](assets/fr/47.webp)
 
 Une fois toutes les informations saisies et vérifiées, cliquez sur "Create Tutorial" pour valider la création des fichiers de votre tutoriel. Cela générera en local le dossier de votre tutoriel et tous les fichiers nécessaires dans le dossier de la catégorie sélectionnée.
 
-![TUTO](assets/fr/48.webp)
+![DATA-CREATOR-PY](assets/fr/48.webp)
 
 Vous pouvez maintenant passer outre la sous-partie "Sans mon script Python", ainsi que l'étape 3 "Remplir le fichier YAML", car le script a déjà effectué ces actions automatiquement pour vous. Passez directement à l'étape 4 et à la rédaction de votre tutoriel.
 
@@ -239,7 +240,7 @@ proofreading:
     contributors_id:
       - 
     reward:
-````
+```
 
 Voici le détail des champs obligatoires :
 
@@ -270,7 +271,7 @@ Voici le détail des champs obligatoires :
 
 Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
 
-https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Voici un exemple de fichier `tutorial.yml` complété pour un tutoriel sur le wallet Blockstream Green :
 

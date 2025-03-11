@@ -1,0 +1,17 @@
+id: 8a35c2ac-17af-4c4b-b9ff-68bada588382
+start_date: 2025-07-24 08:00:00
+end_date: 2025-07-27 16:00:00
+timezone: Europe/Berlin
+address_line_1: Hannover, Germany
+name: Bitcoin Zitadelle
+builder: Bitcoin Zitadelle
+type: conference
+description: A conference focusing on Bitcoin trends, innovation, and networking.
+language:
+  - en
+links:
+  website: https://x.com/BTCZitadelle
+tags:
+  - innovation
+  - user-friendly
+  - adoption

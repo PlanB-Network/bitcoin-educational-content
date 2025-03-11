@@ -1,37 +1,34 @@
 ---
-name: Вклад - Учебник по работе с GitHub Desktop (промежуточный уровень)
-description: Полное руководство по планированию ₿ сетевых учебников с помощью GitHub Desktop
+name: Вклад - Самоучитель работы с GitHub Desktop (средний уровень)
+description: Полное руководство по созданию учебника по Plan ₿ Network с помощью GitHub Desktop
 ---
 ![cover](assets/cover.webp)
 
-Прежде чем следовать этому руководству по добавлению нового учебника, вам необходимо выполнить несколько предварительных шагов. Если вы еще не сделали этого, ознакомьтесь сначала с этим вводным уроком, а затем вернитесь сюда:
+Прежде чем следовать этому руководству по добавлению нового учебника, вы должны выполнить несколько предварительных шагов. Если вы еще не сделали этого, я приглашаю вас сначала ознакомиться с этим вводным уроком, а затем вернуться сюда:
 
-https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
-
-У вас уже есть :
-
-
-- Выберите тему для своего учебника;
-- Свяжитесь с командой Plan ₿ Network через [группу Telegram](https://t.me/PlanBNetwork_ContentBuilder) или paolo@planb.network ;
-- Выберите инструменты для внесения средств.
-
-В этом уроке мы рассмотрим, как добавить свой учебник в Plan ₿ Network, настроив локальную среду с помощью GitHub Desktop. Если вы уже освоили Git, этот очень подробный учебник может вам не понадобиться. Вместо этого я рекомендую вам взглянуть на другой учебник, в котором я представляю только общие рекомендации, без подробного пошагового руководства:
+https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+Вы уже сделали это:
 
 
-- Опытные пользователи** :
+- Выберите тему вашего учебника;
+- Свяжитесь с командой Plan ₿ Network через [группу Telegram](https://t.me/PlanBNetwork_ContentBuilder) или paolo@planb.network;
+- Выберите инструменты для внесения вклада.
 
-https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+В этом уроке мы рассмотрим, как добавить свой учебник в Plan ₿ Network, настроив локальную среду с помощью GitHub Desktop. Если вы уже умеете работать с Git, то этот очень подробный учебник может вам не понадобиться. Я бы рекомендовал обратиться к другому руководству, в котором я излагаю только основные принципы, без подробных пошаговых инструкций:
 
+
+- Опытные пользователи**:
+
+https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Если вы предпочитаете не настраивать локальное окружение, следуйте другому руководству, предназначенному для новичков, где мы вносим изменения непосредственно через веб-интерфейс GitHub:
 
 
-- Новички (веб-интерфейс)** :
+- Новички (веб-интерфейс)**:
 
-https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
-
+https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Пререквизиты
 
-Программное обеспечение, необходимое для выполнения этого руководства :
+Программное обеспечение, необходимое для выполнения данного руководства:
 
 
 - [GitHub Desktop](https://desktop.github.com/);
@@ -40,43 +37,37 @@ https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web
 
 ![TUTO](assets/fr/01.webp)
 
-Необходимые условия перед началом обучения :
+Прежде чем приступить к изучению учебника, необходимо выполнить предварительные условия:
 
 
 - Иметь аккаунт [GitHub](https://github.com/signup);
 - Сделайте форк репозитория [Plan ₿ Network source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
-- Иметь [профиль учителя в Plan ₿ Network](https://planb.network/professors) (только если вы предлагаете полный учебник).
+- Иметь [профиль профессора в Plan ₿ Network](https://planb.network/professors) (только если вы предлагаете полное учебное пособие).
 
-Если вам нужна помощь в получении этих предварительных условий, вам помогут другие мои руководства:
+Если вам нужна помощь в получении этих необходимых условий, вам помогут другие мои учебники:
 
-
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
-
-https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-
-Как только все будет готово и в вашем локальном окружении будет установлен собственный форк Plan ₿ Network, вы можете приступать к добавлению учебника.
+https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+Как только все будет готово и в вашем локальном окружении будет правильно настроен ваш собственный форк Plan ₿ Network, вы сможете приступить к добавлению учебника.
 
 ## 1 - Создайте новую ветку
 
-Откройте браузер и перейдите на страницу вашего форка в репозитории Plan ₿ Network. Это форк, который вы создали на GitHub. URL вашего форка должен выглядеть следующим образом: `https://github.com/[ваше имя пользователя]/bitcoin-educational-content` :
+Откройте браузер и перейдите на страницу вашего форка репозитория Plan ₿ Network. Это форк, который вы создали на GitHub. URL-адрес вашего форка должен выглядеть следующим образом: `https://github.com/[ваше имя пользователя]/bitcoin-educational-content`:
 
 ![TUTO](assets/fr/03.webp)
 
-Убедитесь, что вы находитесь в основной ветке `dev`, затем нажмите на кнопку `Sync fork`. Если ваш форк не обновлен, GitHub попросит вас обновить ветку. Выполните это обновление. Если же, напротив, ваша ветка уже обновлена, GitHub сообщит вам об этом:
+Убедитесь, что вы находитесь на основной ветке `dev`, затем нажмите на кнопку `Sync fork`. Если ваш форк не обновлен, GitHub предложит обновить вашу ветку. Выполните это обновление. Если же, наоборот, ваша ветка уже обновлена, GitHub сообщит вам об этом:
 
 ![TUTO](assets/fr/04.webp)
 
-Откройте рабочий стол GitHub и убедитесь, что ваш форк правильно выбран в левом верхнем углу окна:
+Откройте программу GitHub Desktop и убедитесь, что ваш форк правильно выбран в левом верхнем углу окна:
 
 ![TUTO](assets/fr/05.webp)
 
-Нажмите на кнопку `Fetch origin`. Если ваш локальный репозиторий уже обновлен, GitHub Desktop не предложит никаких дальнейших действий. В противном случае появится опция `Pull origin`. Нажмите на эту кнопку, чтобы обновить локальный репозиторий:
+Нажмите на кнопку `Fetch origin`. Если ваш локальный репозиторий уже обновлен, GitHub Desktop не предложит никаких дополнительных действий. В противном случае появится опция `Pull origin`. Нажмите на эту кнопку, чтобы обновить локальный репозиторий:
 
 ![TUTO](assets/fr/06.webp)
 
-Убедитесь, что вы находитесь в основной ветке `dev`:
+Убедитесь, что вы действительно находитесь в основной ветке `dev`:
 
 ![TUTO](assets/fr/07.webp)
 
@@ -84,179 +75,192 @@ https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba
 
 ![TUTO](assets/fr/08.webp)
 
-Убедитесь, что новая ветка основана на исходном репозитории, то есть `PlanB-Network/bitcoin-educational-content`.
+Убедитесь, что новая ветка основана на исходном репозитории, а именно `PlanB-Network/bitcoin-educational-content`.
 
-Назовите свою ветку так, чтобы из заголовка была понятна ее цель, используя тире для разделения каждого слова. Например, допустим, наша цель - написать учебник по использованию Sparrow Wallet. В этом случае рабочая ветка, посвященная написанию этого руководства, может быть названа: `tuto-sparrow-wallet-loic`. После того как вы ввели подходящее название, нажмите `Создать ветку`, чтобы подтвердить создание ветки:
+Назовите свою ветку так, чтобы из названия была понятна ее цель, используя тире для разделения каждого слова. Например, допустим, наша цель - написать учебник по использованию программного обеспечения Sparrow Wallet. В этом случае рабочую ветку, предназначенную для написания этого руководства, можно назвать: `tuto-sparrow-wallet-loic`. После ввода подходящего имени нажмите на `Создать ветку`, чтобы подтвердить создание ветки:
 
 ![TUTO](assets/fr/09.webp)
 
-Теперь нажмите на кнопку `Publish branch`, чтобы сохранить новую рабочую ветку на вашем онлайн-форке на GitHub:
+Теперь нажмите на кнопку `Publish branch`, чтобы сохранить новую рабочую ветку в вашем онлайн форке на GitHub:
 
-![TUTO](assets/fr/10.webp)
+![TUTORIAL](assets/fr/10.webp)
 
-Теперь на рабочем столе GitHub вы должны находиться в новой ветке. Это означает, что все изменения, которые вы делаете локально на вашем компьютере, будут сохраняться исключительно в этой ветке. Кроме того, пока эта ветка остается выбранной на GitHub Desktop, файлы, видимые локально на вашем компьютере, будут соответствовать файлам этой ветки (`tuto-sparrow-wallet-loic`), а не основной ветки (`dev`).
+Теперь на рабочем столе GitHub вы должны оказаться в новой ветке. Это означает, что все изменения, сделанные локально на вашем компьютере, будут сохраняться исключительно в этой ветке. Кроме того, пока эта ветка остается выбранной на GitHub Desktop, файлы, видимые локально на вашем компьютере, соответствуют файлам этой ветки (`tuto-sparrow-wallet-loic`), а не основной ветки (`dev`).
 
-![TUTO](assets/fr/11.webp)
+![TUTORIAL](assets/fr/11.webp)
 
-Для каждой новой статьи, которую вы хотите опубликовать, вам нужно будет создавать новую ветку из `dev`. Ветка в Git - это параллельная версия проекта, позволяющая вносить изменения, не затрагивая основную ветку, до тех пор, пока работа не будет готова к слиянию.
+Для каждой новой статьи, которую вы хотите опубликовать, вам нужно будет создавать новую ветку из `dev`. Ветка в Git - это параллельная версия проекта, которая позволяет вносить изменения, не затрагивая основную ветку, пока работа не будет готова к слиянию.
 
-## 2 - Добавьте обучающие файлы
+## 2 - Добавление обучающих файлов
 
-Теперь, когда рабочая ветка создана, пришло время интегрировать ваш новый учебник. У вас есть два варианта: использовать мой Python-скрипт, который автоматизирует создание необходимых документов, или создать каждый файл вручную. Давайте рассмотрим шаги, которые необходимо выполнить для каждого варианта.
+Теперь, когда рабочая ветка создана, пришло время интегрировать ваш новый учебник. У вас есть два варианта: использовать мой Python-скрипт, который автоматизирует создание необходимых документов, или создать каждый файл вручную. Мы рассмотрим шаги, которые необходимо выполнить для каждого варианта.
 
 ### С помощью моего скрипта Python
 
-Вам необходимо установить :
+Вам необходимо установить его на свою машину:
 
 
-- Python 3.8 или выше ;
-- Зависимости, необходимые для работы скрипта. Выполнить
+- Python 3.8 или выше.
 
-```bash
-pip install customtkinter appdirs
-````
-Pour utiliser le script, rendez-vous dans le dossier où il est stocké. Le script se trouve dans le dépôt de data de Plan ₿ Network sous le chemin : `bitcoin-educational-content/scripts/tutorial-related/new-tutorial-creation/`.
-Une fois dans le dossier, exécutez la commande :
-```
+Чтобы использовать сценарий, перейдите в папку, где он хранится. Скрипт находится в хранилище данных Plan ₿ Network по пути: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
-python new-tutorial-creation.py
+Попав в папку, установите все необходимые компоненты:
 
 ```
-Une interface graphique (GUI) va s'ouvrir. La première fois, vous devrez entrer toutes les informations nécessaires, mais lors des utilisations ultérieures du script, vos informations personnelles seront mémorisées, ce qui vous évite de devoir les saisir de nouveau.
-![TUTO](assets/fr/37.webp)
-Commencez par indiquer le chemin local menant au dossier `/tutorials` sur votre clone du dépôt (`.../bitcoin-educational-content/tutorials/`). Vous pouvez le noter manuellement ou cliquer sur le bouton "Browse" pour naviguer via votre explorateur de fichiers.
-![TUTO](assets/fr/38.webp)
-Sélectionnez la langue dans laquelle vous rédigerez votre tutoriel.
-![TUTO](assets/fr/39.webp)
-Choisissez une catégorie principale pour votre tutoriel.
-![TUTO](assets/fr/40.webp)
-Ensuite, sélectionnez une sous-catégorie appropriée, en fonction de la catégorie principale que vous avez choisie.
-![TUTO](assets/fr/41.webp)
-Déterminez un niveau de difficulté pour le tutoriel.
-![TUTO](assets/fr/42.webp)
-Choisissez le nom du répertoire spécialement créé pour votre tutoriel. Le nom de ce dossier devrait refléter le logiciel abordé dans le tutoriel, en utilisant des tirets pour relier les mots. Par exemple, le dossier pourrait s'appeler `red-wallet` :
-![TUTO](assets/fr/43.webp)
-Le `project_id` est l'UUID de l'entreprise ou de l'organisation derrière l'outil présenté dans le tutoriel, disponible [dans la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, pour un tutoriel sur le logiciel Sparrow Wallet, vous trouverez ce `project_id` dans le fichier : `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Cette information est ajoutée au fichier YAML de votre tutoriel car Plan ₿ Network maintient une base de données des entreprises et organisations actives sur Bitcoin ou des projets connexes. En ajoutant le `project_id` associé à votre tutoriel, vous créez un lien entre votre contenu et l'entité concernée.
-***Mise à jour :*** Dans la nouvelle version du script, vous n'avez plus besoin de saisir manuellement le `project_id`. Une fonction de recherche a été ajoutée pour trouver le projet par son nom et récupérer automatiquement le `project_id` correspondant. Tapez le début du nom du projet dans la case "Project name" pour le rechercher, puis sélectionnez l'entreprise souhaitée dans le menu déroulant. Le `project_id` sera automatiquement renseigné dans la case en dessous. Vous avez également la possibilité de le noter manuellement si nécessaire.
-![TUTO](assets/fr/44.webp)
-Pour les tags, sélectionnez 2 ou 3 mots-clés pertinents en relation avec le contenu de votre tutoriel, en les choisissant exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md).
-![TUTO](assets/fr/45.webp)
-Dans la case "Contributor's GitHub ID", inscrivez votre identifiant GitHub.
-![TUTO](assets/fr/46.webp)
-Pour la case "PBN professor's ID", saisissez votre identifiant en utilisant les mots de la liste BIP39, tel qu'il apparaît sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
-![TUTO](assets/fr/47.webp)
-Pour plus de détails sur votre identifiant de professeur, veuillez consulter le tutoriel suivant :
-https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+pip install -r requirements.txt
+```
 
-Une fois toutes les informations saisies et vérifiées, cliquez sur "Create Tutorial" pour valider la création des fichiers de votre tutoriel. Cela générera en local le dossier de votre tutoriel et tous les fichiers nécessaires dans le dossier de la catégorie sélectionnée.
-![TUTO](assets/fr/48.webp)
-Vous pouvez maintenant passer outre la sous-partie "Sans mon script Python", ainsi que l'étape 3 "Remplir le fichier YAML", car le script a déjà effectué ces actions automatiquement pour vous. Passez directement à l'étape 4 et à la rédaction de votre tutoriel.
-Pour plus d'informations sur ce script Python, vous pouvez également [consulter son README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
-### Sans mon script Python
-Ouvrez votre gestionnaire de fichiers et dirigez-vous vers le dossier `bitcoin-educational-content`, qui représente le clone local de votre dépôt. Vous devriez normalement le trouver sous `Documents\GitHub\bitcoin-educational-content`.
-Au sein de ce répertoire, il sera nécessaire de localiser le sous-dossier adéquat pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous souhaitons ajouter un tutoriel sur Sparrow Wallet, il convient de se rendre dans le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` sur le site web :
+Затем запустите программу командой:
+
+```
+python3 main.py
+```
+
+Откроется графический интерфейс пользователя (GUI). В первый раз вам нужно будет ввести всю необходимую информацию, но при последующих использованиях скрипт запомнит ваши личные данные, и вам не придется вводить их снова.
+
+![DATA-CREATOR-PY](assets/fr/37.webp)
+
+Начните с ввода локального пути к папке `/tutorials` в вашем клонированном репозитории (`.../bitcoin-educational-content/tutorials/`). Вы можете ввести его вручную или нажать кнопку "Обзор", чтобы перейти с помощью проводника файлов.
+
+![DATA-CREATOR-PY](assets/fr/38.webp)
+
+Выберите язык, на котором вы будете писать учебник.
+
+![DATA-CREATOR-PY](assets/fr/39.webp)
+
+В поле "GitHub ID контрибьютора" введите свое имя пользователя GitHub.
+
+![DATA-CREATOR-PY](assets/fr/40.webp)
+
+В поле "ID профессора PBN" введите свой идентификатор, используя слова из списка BIP39, как он отображается в [профиле вашего профессора](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+
+![DATA-CREATOR-PY](assets/fr/41.webp)
+
+Если у вас еще нет профиля профессора, ознакомьтесь с этим руководством:
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Затем нажмите кнопку "Новый учебник".
+
+![DATA-CREATOR-PY](assets/fr/42.webp)
+
+Выберите основную категорию для своего учебника. Затем выберите соответствующую подкатегорию, основанную на выбранной вами основной категории.
+
+![DATA-CREATOR-PY](assets/fr/43.webp)
+
+Определите уровень сложности учебника.
+
+![DATA-CREATOR-PY](assets/fr/44.webp)
+
+Выберите имя для папки, созданной специально для вашего учебника. Имя этой папки должно отражать программное обеспечение, рассматриваемое в учебнике, с использованием дефисов для разделения слов. Например, папка может называться `red-wallet`:
+
+![DATA-CREATOR-PY](assets/fr/45.webp)
+
+`project_id` - это UUID компании или организации, стоящей за инструментом, о котором идет речь в учебнике, доступный [в списке проектов](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Например, для учебника по кошельку Sparrow Wallet вы можете найти его `project_id` в файле: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Эта информация добавляется в YAML-файл вашего учебника, потому что Plan ₿ Network ведет базу данных компаний и организаций, активно работающих с Биткойном или связанными с ним проектами. Добавляя соответствующий `project_id`, вы связываете свой контент с соответствующей организацией.
+
+***Обновление:*** В новой версии скрипта вам больше не нужно вручную вводить `project_id`. Была добавлена функция поиска, которая позволяет найти проект по названию и автоматически получить соответствующий `project_id`. Введите начало названия проекта в поле "Название проекта", чтобы найти его, а затем выберите нужную компанию из выпадающего меню. Значение `project_id` будет автоматически заполнено в поле ниже. При необходимости вы также можете ввести его вручную.
+
+![DATA-CREATOR-PY](assets/fr/46.webp)
+
+Для тегов выберите 2 или 3 релевантных ключевых слова, связанных с содержанием вашего учебника, выбирая их исключительно из [списка тегов Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). В программе также предусмотрена функция поиска ключевых слов с помощью выпадающего списка.
+
+![DATA-CREATOR-PY](assets/fr/47.webp)
+
+Когда вся информация будет введена и проверена, нажмите кнопку "Создать учебник", чтобы подтвердить создание файлов учебника. В результате папка с учебником и все необходимые файлы в выбранной категории будут созданы локально.
+
+![DATA-CREATOR-PY](assets/fr/48.webp)
+
+Теперь вы можете пропустить подраздел "Без моего Python-скрипта", а также шаг 3 "Заполнение YAML-файла", поскольку скрипт уже выполнил эти действия за вас. Переходите непосредственно к шагу 4 и начинайте писать свой учебник.
+
+Для получения дополнительной информации об этом Python-скрипте вы можете также ознакомиться с [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+
+### Без моего скрипта Python
+
+Откройте файловый менеджер и перейдите в папку `bitcoin-educational-content`, которая представляет собой локальный клон вашего репозитория. Обычно она находится в папке `Documents\GitHub\bitcoin-educational-content`.
+
+В этой папке вам нужно найти соответствующую подпапку для размещения вашего учебника. Организация папок отражает различные разделы сайта Plan ₿ Network. В нашем примере, поскольку мы хотим добавить учебник по кошельку Sparrow, нам следует перейти по следующему пути: `bitcoin-educational-content\tutorials\wallet`, что соответствует разделу `WALLET` на сайте:
+
 ![TUTO](assets/fr/12.webp)
-Au sein du dossier `wallet`, il faut créer un nouveau répertoire spécifiquement dédié à votre tutoriel. Le nom de ce dossier doit évoquer le logiciel traité dans le tutoriel, en veillant à relier les mots par des tirets. Pour mon exemple, le dossier sera intitulé `sparrow-wallet` :
+
+В папке `wallet` необходимо создать новую директорию, специально предназначенную для вашего учебника. Название этой папки должно напоминать о программном обеспечении, о котором пойдет речь в учебнике, обязательно соединяя слова тире. В моем примере папка будет называться `parrow-wallet`:
+
 ![TUTO](assets/fr/13.webp)
-Dans ce nouveau sous-dossier dédié à votre tutoriel, il faut ajouter plusieurs éléments :
-- Créez un dossier `assets`, destiné à recevoir toutes les illustrations nécessaires à votre tutoriel ;
-- Au sein de ce dossier `assets`, il faut créer un sous-dossier nommé selon le code de langue originale du tutoriel. Par exemple, si le tutoriel est rédigé en anglais, ce sous-dossier doit être nommé `en`. Placez-y tous les visuels du tutoriel (schémas, images, captures d’écran, etc.).
-- Un fichier `tutorial.yml` doit être créé pour y consigner les détails relatifs à votre tutoriel ;
-- Un fichier en format markdown est à créer pour y rédiger le contenu effectif de votre tutoriel. Ce fichier doit être intitulé selon le code de la langue de rédaction. Par exemple, pour un tutoriel rédigé en français, le fichier devra s'appeler `fr.md`.
+
+В эту новую папку, посвященную вашему учебнику, нужно добавить несколько элементов:
+
+
+- Создайте папку `assets`, в которую будут помещены все иллюстрации, необходимые для вашего учебника;
+- В этой папке `assets` необходимо создать подпапку, названную в соответствии с кодом языка, на котором написан учебник. Например, если учебник написан на английском языке, эта папка должна называться `en`. Поместите туда все визуальные материалы учебника (диаграммы, изображения, скриншоты и т.д.).
+- Файл `tutorial.yml` должен быть создан для записи деталей, связанных с вашим учебным пособием;
+- Необходимо создать файл в формате markdown для написания фактического содержания вашего учебника. Этот файл должен быть озаглавлен в соответствии с кодом языка, на котором он написан. Например, для учебника, написанного на французском языке, файл должен называться `fr.md`.
+
 ![TUTO](assets/fr/14.webp)
-Pour résumer, voici la hiérarchie des fichiers à créer :
-```
 
+Вкратце, вот иерархия файлов, которые нужно создать:
+
+```
 bitcoin-educational-content/
-
-└──── учебники/
-
-└──── кошелек/ (изменить на правильную категорию)
-
-└── воробьиная крылатка/ (изменить на тутошнее название)
-
-├──── активы/
-
-│ ├──── en/ (измените на соответствующий код языка)
-
-├──── tutorial.yml
-
-└── fr.md (должен быть изменен в соответствии с кодом соответствующего языка)
-
-```
-## 3 - Remplir le fichier YAML
-Remplissez le fichier `tutorial.yml` en copiant le modèle suivant :
+└── tutorials/
+└── wallet/ (to be modified with the correct category)
+└── sparrow-wallet/ (to be modified with the name of the tutorial)
+├── assets/
+│   ├── en/ (to be modified according to the appropriate language code)
+├── tutorial.yml
+└── en.md (to be modified according to the appropriate language code)
 ```
 
+## 3 - Заполните файл YAML
+
+Заполните файл `tutorial.yml`, скопировав следующий шаблон:
+
+```
 id:
-
 project_id:
-
-теги:
-
+tags:
 -
-
 -
-
 -
-
-категория:
-
-уровень:
-
-кредиты:
-
-профессор:
-
-# Вычитка метаданных
-
+category:
+level:
+credits:
+professor:
+# Proofreading metadata
 original_language:
-
-корректура:
-
-
-  - язык:
-
-дата последнего_взноса:
-
-срочность:
-
+proofreading:
+- language:
+last_contribution_date:
+urgency:
 contributors_id:
-
 -
+reward:
+```
 
-награда:
-
-````
-
-Вот необходимые поля:
+Вот подробная информация об обязательных полях:
 
 
-- id**: UUID (_Universally Unique Identifier_) для уникальной идентификации учебника. Вы можете сгенерировать его с помощью [онлайн-инструмента](https://www.uuidgenerator.net/version4). Единственное ограничение - этот UUID должен быть случайным, чтобы не конфликтовать с другим UUID на платформе;
-- project_id** : UUID компании или организации, стоящей за инструментом, представленным в учебнике [из списка проектов] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Например, если вы делаете учебник по программному обеспечению Sparrow Wallet, вы можете найти этот `project_id` в следующем файле: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Эта информация добавлена в YAML-файл вашего учебника, потому что Plan ₿ Network ведет базу данных всех компаний и организаций, работающих с Биткойном или связанными с ним проектами. Добавляя `project_id` связанной организации в ваш учебник, вы создаете связь между двумя элементами;
-- теги**: 2 или 3 релевантных ключевых слова, связанных с содержанием учебника, выбранные исключительно [из списка тегов Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- категория** : Подкатегория, соответствующая содержанию учебника, в соответствии со структурой сети Plan ₿ Network (например, для кошельков: `desktop`, `hardware`, `mobile`, `backup`);
-- уровень** : Уровень сложности учебника, от :
-    - новичок`
+- id**: UUID (_Universally Unique Identifier_) для уникальной идентификации учебника. Вы можете сгенерировать его с помощью [онлайн-инструмента](https://www.uuidgenerator.net/version4). Единственное требование - чтобы этот UUID был случайным, чтобы избежать конфликта с другим UUID на платформе;
+- project_id**: UUID компании или организации, стоящей за инструментом, представленным в учебнике [из списка проектов] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Например, если вы создаете учебник по программному обеспечению Sparrow Wallet, вы можете найти этот `project_id` в следующем файле: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Эта информация добавлена в YAML-файл вашего учебника, потому что Plan ₿ Network ведет базу данных всех компаний и организаций, работающих с Биткойном или связанными с ним проектами. Добавляя `project_id` организации, связанной с вашим учебником, вы создаете связь между двумя элементами;
+- теги**: 2 или 3 релевантных ключевых слова, связанных с содержанием учебного пособия, выбранные исключительно [из списка тегов Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- категория**: Подкатегория, соответствующая содержанию руководства, в соответствии со структурой сайта Plan ₿ Network (например, для кошельков: `desktop`, `hardware`, `mobile`, `backup`);
+- уровень**: Уровень сложности учебника, среди:
+    - `новичок`
     - `промежуточный`
     - `продвинутый`
     - `эксперт`
-- профессор**: Ваш `contributor_id` (BIP39 слов), отображаемый в [вашем профиле преподавателя](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- original_language** : Язык оригинала учебника (например, `fr`, `en` и т. д.) ;
+- профессор**: Ваш `contributor_id` (слова из BIP39), отображаемый в [профиле вашего профессора](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- original_language**: Язык оригинала учебника (например, `fr`, `en` и т.д.);
 - вычитка**: Информация о процессе вычитки. Заполните первую часть, так как вычитка собственного учебника считается первой проверкой:
-    - язык**: Вычитка языкового кода (например, `fr`, `en` и т.д.).
+    - язык**: Код языка корректуры (например, `fr`, `en` и т.д.).
     - last_contribution_date**: Сегодняшняя дата.
-    - срочность** : Оставьте пустым.
-    - contributors_id** : Ваш идентификатор на GitHub.
-    - награда** : Оставьте пустым.
+    - срочность**: Оставьте пустым.
+    - contributors_id**: Ваш идентификатор на GitHub.
+    - вознаграждение**: Оставьте пустым.
 
-Для получения более подробной информации об идентификаторе учителя обратитесь к соответствующему руководству:
+Для получения более подробной информации об идентификаторе профессора обратитесь к соответствующему учебному пособию:
 
-https://planb.network/tutorials/contribution/tutorial/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Вот пример заполненного файла `tutorial.yml` для учебника по кошельку Blockstream Green:
 
-Вот пример файла `tutorial.yml`, заполненного для учебника по кошельку Blockstream Green:
-
-```yaml
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
 tags:
@@ -272,13 +276,13 @@ original_language: fr
 proofreading:
 - language: fr
 last_contribution_date: 2024-11-20
-urgency:
+urgency: 1
 contributors_id:
 - LoicPandul
-reward:
+reward: 0
 ```
 
-После завершения редактирования файла `tutorial.yml` сохраните документ, нажав на `File > Save` :
+После того как вы закончили модификацию файла `tutorial.yml`, сохраните документ, нажав на `File > Save`:
 
 ![TUTO](assets/fr/16.webp)
 
@@ -286,7 +290,7 @@ reward:
 
 ## 4 - Заполните файл в формате Markdown
 
-Теперь вы можете открыть файл учебника, названный кодом вашего языка, например `en.md`. Перейдите в Obsidian, в левой части окна, и прокрутите дерево папок вниз до папки с учебником и нужным файлом:
+Теперь вы можете открыть файл, в котором будет размещен ваш учебник, названный кодом вашего языка, например `fr.md`. Зайдите в Obsidian, в левой части окна прокрутите дерево папок, пока не найдете папку с учебником и искомый файл:
 
 ![TUTO](assets/fr/18.webp)
 
@@ -294,83 +298,81 @@ reward:
 
 ![TUTO](assets/fr/19.webp)
 
-Начнем с заполнения раздела `Свойства` в самом верху документа.
+Начнем с заполнения раздела `Свойства` в верхней части документа.
 
 ![TUTO](assets/fr/20.webp)
 
 Вручную добавьте и заполните следующий блок кода:
 
-```markdown
+```
 ---
-name: [Titre]
+name: [Title]
 description: [Description]
 ---
 ```
 
 ![TUTO](assets/fr/21.webp)
 
-Введите название вашего учебника и краткое описание:
+Введите название вашего учебника и краткое его описание:
 
 ![TUTO](assets/fr/22.webp)
 
-Затем добавьте путь к изображению обложки в начало учебника. Чтобы сделать это, обратите внимание на :
+Затем добавьте путь к изображению обложки в начало учебника. Чтобы сделать это, обратите внимание:
 
-```markdown
+```
 ![cover-sparrow](assets/cover.webp)
 ```
 
-Этот синтаксис пригодится вам, когда потребуется добавить изображение в учебник. Восклицательный знак обозначает изображение, альтернативный текст которого (alt) указывается между квадратными скобками. Путь к изображению указывается между скобками:
+Этот синтаксис пригодится вам при необходимости добавить изображение в учебник. Восклицательный знак указывает на то, что это изображение, а альтернативный текст (alt) указывается между скобками. Путь к изображению указывается между скобками:
 
 ![TUTO](assets/fr/23.webp)
 
-## 5 - Добавить логотип и обложку
+## 5 - Добавьте логотип и обложку
 
-В папку `assets` нужно добавить файл с именем `logo.webp`, который будет служить миниатюрой для вашей статьи. Это изображение должно быть в формате `.webp` и иметь квадратный размер, чтобы соответствовать пользовательскому интерфейсу. Вы можете выбрать логотип программного обеспечения, о котором идет речь в учебнике, или любое другое подходящее изображение, если оно не содержит авторских прав. Кроме того, добавьте туда же изображение под названием `cover.webp`. Оно будет отображаться в верхней части вашего учебника. Убедитесь, что это изображение, как и логотип, соблюдает права на использование и соответствует контексту вашего учебника:
+В папку `assets` необходимо добавить файл с именем `logo.webp`, который будет служить миниатюрой для вашей статьи. Это изображение должно быть в формате `.webp` и иметь квадратные размеры, чтобы гармонировать с пользовательским интерфейсом. Вы можете выбрать логотип программного обеспечения, о котором идет речь в руководстве, или любое другое подходящее изображение, если оно свободно от прав. Кроме того, добавьте туда же изображение с названием `cover.webp`. Это изображение будет отображаться в верхней части вашего учебника. Убедитесь, что это изображение, как и логотип, соблюдает права на использование и подходит для контекста вашего учебника:
 
-![TUTO](assets/fr/17.webp)
+## 6 - Написание учебника и добавление визуальных эффектов
 
-## 6 - Написание учебника и добавление визуальных элементов
-
-Продолжайте писать содержание учебника. Если вы хотите включить подзаголовок, примените соответствующее форматирование в формате markdown, добавив к тексту префикс `##`:
+Продолжайте писать учебник, составляя его содержание. Когда вы захотите включить подзаголовок, примените соответствующее форматирование в формате markdown, добавив к тексту префикс `##`:
 
 ![TUTO](assets/fr/24.webp)
 
-Вложенная папка "Язык" в папке `assets` используется для хранения диаграмм и визуальных изображений, которые будут сопровождать ваш учебник. По возможности избегайте включения текста в изображения, чтобы сделать ваш контент доступным для международной аудитории. Конечно, представленные программы будут содержать текст, но если вы добавляете схемы или дополнительные указания на скриншоты программ, делайте это без текста или, если это необходимо, используйте английский язык.
+Вложенная папка "Язык" в папке `assets` используется для хранения диаграмм и визуальных изображений, которые будут сопровождать ваш учебник. По возможности избегайте включения текста в изображения, чтобы сделать ваш контент доступным для международной аудитории. Конечно, представляемое программное обеспечение будет содержать текст, но если вы добавляете диаграммы или дополнительные указания на скриншоты программ, делайте это без текста или, если он окажется необходимым, используйте английский язык.
 
 ![TUTO](assets/fr/25.webp)
 
-Чтобы назвать изображения, просто используйте номера, соответствующие порядку их появления в учебнике, в виде двух цифр (или трех цифр, если учебник содержит более 99 изображений). Например, назовите первое изображение `01.webp`, второе `02.webp` и так далее.
+Чтобы назвать изображения, просто используйте номера, соответствующие порядку их появления в учебнике, в формате двух цифр (или трех цифр, если в учебнике более 99 изображений). Например, назовите первое изображение `01.webp`, второе `02.webp` и так далее.
 
-Ваши изображения должны быть только в формате `.webp`. При необходимости вы можете воспользоваться [моей программой для конвертации изображений](https://github.com/LoicPandul/ImagesConverter).
+Ваши изображения должны быть исключительно в формате `.webp`. При необходимости вы можете воспользоваться [моей программой для конвертации изображений](https://github.com/LoicPandul/ImagesConverter).
 
 ![TUTO](assets/fr/26.webp)
 
-Чтобы вставить диаграмму в документ, используйте следующую команду в формате Markdown, позаботившись о том, чтобы указать соответствующий альтернативный текст и правильный путь к изображению:
+Чтобы вставить диаграмму в документ, воспользуйтесь следующей командой Markdown, обязательно указав соответствующий альтернативный текст, а также правильный путь к изображению:
 
-```markdown
+```
 ![sparrow](assets/fr/01.webp)
 ```
 
-Восклицательный знак в начале указывает на изображение. Альтернативный текст, который помогает обеспечить доступность и ссылки, помещается между квадратными скобками. Наконец, в скобках указывается путь к изображению.
+Восклицательный знак в начале указывает на то, что это изображение. Альтернативный текст, который помогает в обеспечении доступности и SEO, помещается между скобками. Наконец, между скобками указывается путь к изображению.
 
-Если вы хотите создать собственные схемы, обязательно следуйте графическим рекомендациям Plan ₿ Network, чтобы обеспечить визуальную согласованность:
+Если вы хотите создать свои собственные диаграммы, обязательно придерживайтесь графического устава Plan ₿ Network, чтобы обеспечить визуальную согласованность:
 
 
 - Шрифт**: Используйте [Rubik](https://fonts.google.com/specimen/Rubik);
-- Цвета** :
+- Цвета**:
  - Оранжевый: #FF5C00
- - Черный : #000000
+ - Черный: #000000
  - Белый: #FFFFFF
 
-**Необходимо, чтобы все визуальные материалы, интегрированные в ваши учебные пособия, были свободны от авторских прав или соответствовали лицензии на исходный файл**. Поэтому все диаграммы, опубликованные в Plan ₿ Network, доступны по лицензии CC-BY-SA, так же, как и текст.
+**Обязательно, чтобы все визуальные материалы, интегрированные в ваши учебные пособия, были свободны от прав или соответствовали лицензии исходного файла**. Кроме того, все диаграммы, опубликованные в Plan ₿ Network, доступны под лицензией CC-BY-SA, так же как и текст.
 
-**-> Совет:** При публичном размещении файлов, например изображений, важно удалять лишние метаданные. Они могут содержать конфиденциальную информацию, например данные о местоположении, дате создания и авторе. Чтобы защитить свою конфиденциальность, лучше удалить эти метаданные. Чтобы упростить эту операцию, можно воспользоваться специализированными инструментами, например [Exif Cleaner](https://exifcleaner.com/), который позволяет очистить метаданные документа простым перетаскиванием.
+**-> Совет:** При публичном размещении файлов, например изображений, важно удалить все ненужные метаданные. Они могут содержать конфиденциальную информацию, например данные о местоположении, дате создания или сведения об авторе. Чтобы защитить свою конфиденциальность, рекомендуется удалить эти метаданные. Чтобы упростить этот процесс, можно воспользоваться специализированными инструментами, например [Exif Cleaner](https://exifcleaner.com/), который позволяет очистить метаданные документа простым перетаскиванием.
 
-## 7 - Сохранить и предложить учебник
+## 7 - Сохранить и отправить учебник
 
-После того как вы закончили писать учебник на выбранном вами языке, следующим шагом будет отправка **Запроса на перевод**. Администратор добавит недостающие переводы в ваш учебник, используя наш метод автоматического перевода с человеческой корректурой.
+После того как вы закончили писать учебник на выбранном вами языке, следующим шагом будет отправка **Запроса на перевод**. Администратор позаботится о добавлении недостающих переводов вашего учебника благодаря нашему методу автоматического перевода с человеческой проверкой.
 
-Чтобы выполнить Pull Request, откройте GitHub Desktop. Программа должна автоматически обнаружить все изменения, которые вы внесли локально в свою ветку к исходному репозиторию. Прежде чем продолжить, внимательно проверьте в левой части интерфейса, соответствуют ли эти изменения тому, что вы ожидали:
+Чтобы продолжить работу с Pull Request, откройте программу GitHub Desktop. Программа должна автоматически обнаружить изменения, которые вы сделали локально в своей ветке по сравнению с исходным репозиторием. Прежде чем продолжить, внимательно проверьте в левой части интерфейса, соответствуют ли эти изменения тому, что вы ожидали:
 
 ![TUTO](assets/fr/28.webp)
 
@@ -378,13 +380,13 @@ description: [Description]
 
 ![TUTO](assets/fr/29.webp)
 
-Коммит - это запись изменений, внесенных в ветку, сопровождаемая описательным сообщением, позволяющая отслеживать развитие проекта во времени. Это своего рода промежуточная контрольная точка.
+Коммит - это сохранение изменений, внесенных в ветку, сопровождаемое описательным сообщением, позволяющее проследить развитие проекта во времени. Это своего рода промежуточная контрольная точка.
 
 Затем нажмите на кнопку `Push origin`. Это отправит ваш коммит на ваш форк:
 
 ![TUTO](assets/fr/30.webp)
 
-Если вы не закончили работу над учебником, вы можете вернуться к нему позже и сделать новые коммиты. Если вы закончили редактирование этой ветки, нажмите на кнопку `Preview Pull Request`:
+Если вы не закончили работу над учебником, вы можете вернуться к нему позже и сделать новые коммиты. Если вы завершили изменения для этой ветки, нажмите на кнопку `Preview Pull Request`:
 
 ![TUTO](assets/fr/31.webp)
 
@@ -392,33 +394,33 @@ description: [Description]
 
 ![TUTO](assets/fr/32.webp)
 
-Pull Request - это запрос на интеграцию изменений из вашей ветки в основную ветку репозитория Plan ₿ Network, что позволяет просмотреть и обсудить изменения до их слияния.
+Pull Request - это запрос на интеграцию изменений из вашей ветки в основную ветку репозитория Plan ₿ Network, что позволяет просмотреть и обсудить изменения перед их объединением.
 
-Вы будете автоматически перенаправлены в браузере на GitHub на странице подготовки вашего Pull Request:
+Вы будете автоматически перенаправлены в браузере на GitHub на страницу подготовки вашего Pull Request:
 
 ![TUTO](assets/fr/33.webp)
 
-Введите название, кратко описывающее изменения, которые вы хотите объединить с исходным репозиторием. Добавьте краткий комментарий, описывающий эти изменения (если у вас есть номер проблемы, связанный с созданием вашего учебника, не забудьте отметить `Закрывает #{номер проблемы}` в качестве комментария), затем нажмите на зеленую кнопку `Создать запрос на слияние`, чтобы подтвердить запрос на слияние:
+Укажите заголовок, кратко описывающий изменения, которые вы хотите объединить с исходным репозиторием. Добавьте краткий комментарий, описывающий эти изменения (если у вас есть номер проблемы, связанный с созданием вашего учебника, не забудьте указать в комментарии `Закрывает #{номер проблемы}`), затем нажмите на зеленую кнопку `Создать запрос на слияние`, чтобы подтвердить запрос на слияние:
 
 ![TUTO](assets/fr/34.webp)
 
-После этого ваш PR будет виден на вкладке `Pull Request` главного репозитория Plan ₿ Network. Теперь вам остается только ждать, пока администратор свяжется с вами, чтобы подтвердить, что ваш вклад был объединен, или попросить о дальнейших изменениях.
+После этого ваш PR будет виден на вкладке `Pull Request` главного хранилища Plan ₿ Network. Вам останется только дождаться, пока администратор свяжется с вами, чтобы подтвердить объединение вашего вклада или запросить дополнительные изменения.
 
 ![TUTO](assets/fr/35.webp)
 
-После слияния вашего PR с основной веткой мы рекомендуем удалить вашу рабочую ветку (`tuto-sparrow-wallet`), чтобы сохранить чистую историю на вашем форке. GitHub предложит вам эту опцию автоматически на странице вашего PR:
+После слияния вашего PR с основной веткой рекомендуется удалить вашу рабочую ветку (`tuto-sparrow-wallet`), чтобы сохранить чистую историю на вашем форке. GitHub автоматически предложит вам эту опцию на странице вашего PR:
 
 ![TUTO](assets/fr/36.webp)
 
-На GitHub Desktop вы можете вернуться к основной ветке вашего форка (`dev`).
+На рабочем столе GitHub вы можете переключиться обратно на основную ветку вашего форка (`dev`).
 
 ![TUTO](assets/fr/07.webp)
 
-Если вы хотите внести изменения в свой взнос после того, как уже подали ОР, порядок действий зависит от текущего статуса вашего ОР:
+Если вы хотите внести изменения в свой вклад после того, как вы уже подали свой PR, процедура зависит от текущего состояния вашего PR:
 
 
-- Если ваш PR еще открыт и не был слит, внесите изменения локально, оставаясь в той же ветке. Когда изменения будут доработаны, воспользуйтесь кнопкой `Push origin`, чтобы добавить новый коммит к вашему все еще открытому PR;
-- В случае если ваш PR уже был объединен с основной веткой, вам придется повторить процесс с самого начала, создав новую ветку и отправив новый PR. Прежде чем приступить к работе, убедитесь, что ваш локальный репозиторий синхронизирован с исходным репозиторием Plan ₿ Network.
+- Если ваш PR еще открыт и не был слит, внесите изменения локально, оставаясь в той же ветке. Когда изменения будут завершены, воспользуйтесь кнопкой `Push origin`, чтобы добавить новый коммит к вашему все еще открытому PR;
+- Если ваша PR уже была объединена с основной веткой, вам придется начать процесс заново, создав новую ветку, а затем отправив новую PR. Убедитесь, что ваш локальный репозиторий синхронизирован с исходным репозиторием Plan ₿ Network, прежде чем приступать к работе.
 
-Если у вас возникли технические трудности с отправкой урока, пожалуйста, не стесняйтесь просить помощи в [нашей специальной группе Telegram для вкладов](https://t.me/PlanBNetwork_ContentBuilder). Большое спасибо!
+Если у вас возникнут технические трудности при отправке урока, не стесняйтесь просить помощи в [нашей специальной группе Telegram для вкладов](https://t.me/PlanBNetwork_ContentBuilder). Спасибо!
 

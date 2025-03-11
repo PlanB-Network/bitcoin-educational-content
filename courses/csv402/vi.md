@@ -759,6 +759,24 @@ When we started RGB, we reviewed all these methods to determine where and how to
 | Multi-sig 2-of-3 với timeout   | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
 
 
+| Lớp                             | Chi phí on-chain (vbytes) | Chi phí on-chain (vbytes) | Chi phí on-chain (vbytes) | Chi phí phía khách hàng (bytes) | Chi phí phía khách hàng (bytes) |
+| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
+| **Loại**                         | **Cơ bản**             | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                        | 0                        |
+| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                        | 0                        |
+| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
+| Nhánh MuSig / Multi_a (n-of-m)    | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+| Có giới hạn thời gian (n-of-m)    | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+
+| Phương pháp                               | Bảo mật & Khả năng mở rộng | Tính tương tác | Khả năng tương thích | Khả năng di động | Độ phức tạp |
+| ---------------------------------------- | --------------------- | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (P2C xác định)                  | 🟢                     | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (S2C xác định)                  | 🟢                     | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                         | 🔴                     | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret: Nút trên bên trái            | 🟠                     | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret #4: Bất kỳ nút nào + bằng chứng | 🟢                     | 🟢               | 🟢            | 🟠          | 🔴         |
+
+
 
 
 
@@ -1348,19 +1366,14 @@ If, in the contract, a state element is not defined as mutable or cumulative, th
 
 The table below illustrates how each type of Contract Operation can manipulate (or not) the Global State and the Owned State:
 
-| Genesis | State Extension | State Transition |
+|                              | Genesis | Mở rộng trạng thái | Chuyển đổi trạng thái |
+| ---------------------------- | :-----: | :----------------: | :------------------: |
+| **Thêm Global State**        |    +    |        -         |          +          |
+| **Thay đổi Global State**    |   n/a   |        -         |          +          |
+| **Thêm Owned State**         |    +    |        -         |          +          |
+| **Thay đổi Owned State**     |   n/a   |       Không       |          +          |
+| **Thêm Valencies**           |    +    |        +         |          +          |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Add Global State** | + | - | + |
-
-| n/a | - | + | **Mutation of Global State** | - | + |
-
-| **Add Owned State** | + | - | + |
-
-| **Mutation of Owned State** | n/a | No | + |
-
-| **Add Valencies** | + | + | + | + |
 
 **`+`** : action possible if the contract's Schema allows it.
 
@@ -1368,15 +1381,12 @@ The table below illustrates how each type of Contract Operation can manipulate (
 
 In addition, the temporal scope and update rights of each type of data can be distinguished in the following table:
 
-| Metadata | Global State | Owned State |
+|                                 | Metadata                                | Trạng thái Toàn cục                         | Trạng thái Sở hữu                                                                                          |
+| ------------------------------- | -------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Phạm vi**                     | Được xác định cho một hoạt động hợp đồng duy nhất | Được xác định toàn cục cho hợp đồng      | Được xác định cho mỗi dấu niêm phong (*Assignment*)                                                   |
+| **Ai có thể cập nhật?**          | Không thể cập nhật (dữ liệu tạm thời)  | Hoạt động do các bên thực hiện (người phát hành, v.v.) | Phụ thuộc vào chủ sở hữu hợp pháp của dấu niêm phong (người có thể sử dụng nó trong giao dịch tiếp theo) |
+| **Phạm vi thời gian**            | Chỉ dành cho hoạt động hiện tại        | Trạng thái được thiết lập vào cuối hoạt động | Trạng thái được xác định trước hoạt động (bởi *Seal Definition* của hoạt động trước đó)                 |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Defined for a single Contract Operation | Defined globally for the contract | Defined for each seal (*Assignment*) | Defined for a single Contract Operation | Defined globally for the contract | Defined for each seal (*Assignment*) | Defined for each seal (*Assignment*) | Defined for each contract
-
-| Non-actualizable (ephemeral data) | Transaction issued by actors (issuer, etc.) | Depends on the rightful holder of the seal (the one who can spend it in a subsequent transaction) |
-
-| The state is defined before the operation (by the *Seal Definition* of the previous operation) | The state is established at the end of the operation | The state is established at the end of the operation | The state is defined before the operation (by the *Seal Definition* of the previous operation) | The state is established at the end of the operation | The state is defined before the operation (by the *Seal Definition* of the previous operation)
 
 ### Global State
 

@@ -13,6 +13,7 @@ In diesem Tutorial werden wir den Prozess der Erstellung eines Geschäftskontos 
 Wenn Sie sich für das Thema der Integration von Bitcoin in Ihr Unternehmen interessieren, empfehle ich Ihnen auch unsere komplette theoretische Schulung zu diesem Thema zu entdecken:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - Erstellen eines Bitfinex-Kontos
 
 Gehen Sie auf [die offizielle Bitfinex-Website] (https://www.bitfinex.com/). Klicken Sie auf der Startseite auf die Option "*Sign Up*", um Ihr Konto einzurichten. Zunächst erstellen Sie ein Standardkonto wie für Privatpersonen, die Option "*Corporate*" wird später während des Verifizierungsprozesses ausgewählt.
@@ -26,9 +27,11 @@ Füllen Sie die erforderlichen Informationen aus: Geben Sie Ihre geschäftliche 
 Tipps zur Verwendung und Sicherung starker, eindeutiger Passwörter finden Sie auch in diesem Tutorial:
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Wir werden nun die 2FA konfigurieren, um das Konto zu sichern. Verwenden Sie eine Authentifizierungsanwendung auf Ihrem Smartphone, wie z. B. Google Authenticator oder Authy. Eine Anleitung zu diesem Tool finden Sie hier:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Scannen Sie den QR-Code mit Ihrer App und geben Sie die angegebenen 6 Ziffern ein.
 
 ![BITFINEX](assets/fr/03.webp)
@@ -158,6 +161,7 @@ Bitfinex bietet auch Ein- und Auszahlungsmöglichkeiten über das Lightning Netw
 Wenn Sie sich für das Lightning Network interessieren, bieten wir Ihnen einen kompletten Schulungskurs an, damit Sie verstehen, wie es funktioniert:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ## 6 - Kauf und Verkauf von Bitcoins auf Bitfinex
 
 Bitfinex bietet verschiedene Handelsmodi an. Für eine einfache Nutzung entscheiden Sie sich für den klassischen Spotmarkt, auch bekannt als "*Trading*" oder "*Exchange*". Hier können Sie Kauf- oder Verkaufsaufträge zum Marktpreis erteilen oder einen Limitpreis festlegen.

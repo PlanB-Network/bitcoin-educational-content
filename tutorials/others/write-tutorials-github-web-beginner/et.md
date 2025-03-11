@@ -7,6 +7,7 @@ description: Täielik juhend Plan ₿ Network tutorials koos GitHub Webiga
 Enne uue õpetuse lisamise õpetuse järgimist peate olema läbinud mõned esialgsed sammud. Kui te pole seda veel teinud, vaadake esmalt seda sissejuhatavat õpetust ja tulge siis siia tagasi:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Sul on juba olemas :
 
 
@@ -24,6 +25,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0
 - Vahepealne (GitHub Desktop)** :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+
 ## Eeltingimused
 
 Eeltingimused enne õpetuse alustamist :
@@ -36,9 +38,13 @@ Eeltingimused enne õpetuse alustamist :
 Kui vajate abi nende eelduste hankimisel, siis aitavad teid minu teised õpetused:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Kui kõik on paigas ja teil on olemas Plan ₿ Networki repositooriumi haru, võite alustada õpetuse lisamist.
 
 ## 1 - Uue haru loomine
@@ -156,6 +162,7 @@ Siin on nõutavad väljad:
 Lisateavet õpetaja ID kohta leiate vastavast juhendmaterjalist :
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Siin on näide `tutorial.yml` failist, mis on valminud Blockstream Green rahakoti õpetuse jaoks:
 
 ```

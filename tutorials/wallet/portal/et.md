@@ -67,6 +67,7 @@ Võite graveerida selle paberile või täiendava turvalisuse tagamiseks soovitan
 Lisateavet selle kohta, kuidas oma mnemofraasi õigesti salvestada ja hallata, soovitan kindlasti jälgida seda teist õpetust, eriti kui olete algaja:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 loomulikult ei tohi te neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus.**_
 
 Järgmiste sõnade juurde liikumiseks vajutage kindlalt portaali nuppu. Veenduge, et asetate kogu sõrme nupule ja hoiate survet paar sekundit, et interaktsioon oleks korralikult tuvastatud.

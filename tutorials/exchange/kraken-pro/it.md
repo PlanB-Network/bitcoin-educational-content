@@ -11,6 +11,7 @@ In questo tutorial, affronteremo il processo di creazione di un conto commercial
 Se siete interessati all'integrazione del bitcoin nella vostra attività, vi consiglio di scoprire anche il nostro corso di formazione teorico completo sull'argomento:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - Creare un conto aziendale Kraken
 
 Il primo passo per utilizzare Kraken per la gestione delle finanze aziendali è, ovviamente, la creazione di un account. In questo caso, non creeremo un account per i singoli, ma un account aziendale, che non solo garantisce la conformità alle normative, ma offre anche funzioni appositamente studiate, come le esportazioni contabili.
@@ -78,6 +79,7 @@ Nelle opzioni 2FA, è possibile scegliere di utilizzare una chiave di sicurezza 
 Per ulteriori informazioni su come utilizzare questo tipo di dispositivo, consultare il nostro tutorial dedicato:
 
 https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
 L'altra opzione consiste nell'utilizzare un'applicazione di autenticazione come Google Authenticator o Authy. Queste applicazioni generano un codice dinamico di 6 cifre da inserire a ogni accesso.
 
 ![KRAKEN](assets/fr/12.webp)
@@ -89,6 +91,7 @@ Per attivare questo metodo, scansionate il codice QR con l'applicazione di vostr
 Per ulteriori informazioni sulle applicazioni di autenticazione, è possibile consultare questo tutorial:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Al di sotto, si ha anche accesso alle impostazioni avanzate, compresa la possibilità di impostare diverse 2FA. Kraken offre una delega di sicurezza avanzata tramite 2FA. Questa funzione consente di creare diversi livelli 2FA per varie azioni, come il login, la convalida degli ordini e il prelievo di fondi. In questo modo è possibile, ad esempio, dare a un contabile l'accesso a determinate funzionalità senza consentirgli di prelevare fondi. Ecco le opzioni:
 
 

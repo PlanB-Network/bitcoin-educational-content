@@ -216,3 +216,4 @@ Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser 
 Je vous conseille également de découvrir cet autre tutoriel complet sur l'application mobile Blockstream Green pour mettre en place un portefeuille chaud Bitcoin onchain :
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+

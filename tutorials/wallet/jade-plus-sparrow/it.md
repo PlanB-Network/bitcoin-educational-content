@@ -37,6 +37,7 @@ custode | 🔴 | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 | 🟢 | 🔴 |
 In questa esercitazione, imposteremo una configurazione avanzata di Jade Plus con il software desktop Sparrow Wallet in modalità codici QR. Questa configurazione è ideale per utenti intermedi o esperti. Se cercate un approccio più semplice per i principianti, vi consiglio di dare un'occhiata a questa esercitazione in cui utilizziamo Jade Plus con Green Wallet tramite una connessione Bluetooth:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+
 ## Il modello di sicurezza Jade Plus
 
 Jade Plus utilizza un modello di sicurezza basato su un "elemento sicuro virtuale", materializzato da un "oracolo cieco". In concreto, questo meccanismo combina il PIN scelto dall'utente, un segreto ospitato sul Jade e un segreto detenuto dall'oracolo (un server gestito da Blockstream), per creare una chiave AES-256 distribuita su due entità. Durante l'avvio, uno scambio ECDH protegge la comunicazione con l'oracolo e cripta la frase di recupero sul portafoglio hardware. In termini pratici, quando si vuole accedere al seed per firmare le transazioni, è necessario accedere a :
@@ -111,6 +112,7 @@ Potete scriverlo sul cartoncino fornito nella scatola, oppure, per maggiore sicu
 Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemonica, vi consiglio di seguire quest'altro tutorial, soprattutto se siete principianti:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 naturalmente, non dovete mai condividere queste parole su Internet, come sto facendo io in questa esercitazione. Questo portfolio di esempio sarà utilizzato solo su Testnet e sarà cancellato alla fine del tutorial.**_
 
 Fate clic sulla freccia a destra dello schermo per visualizzare le seguenti parole.
@@ -268,6 +270,7 @@ La passphrase BIP39 è una password opzionale che si può scegliere liberamente 
 Prima di configurare questa opzione su Jade Plus, si consiglia vivamente di leggere questo articolo per comprendere appieno il funzionamento teorico della passphrase ed evitare errori che potrebbero portare alla perdita dei bitcoin:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Con Jade ancora bloccato (la passphrase può essere inserita solo quando il dispositivo non è sbloccato), accedere al menu "*Opzioni*".
 
 ![Image](assets/fr/42.webp)
@@ -320,6 +323,7 @@ Ogni volta che si sblocca Jade con la passphrase, verificare che l'impronta digi
 Prima di ricevere i primi bitcoin nel portafoglio, **consiglio vivamente di eseguire un test di ripristino a vuoto**. Prendete nota di alcune informazioni di riferimento, come il vostro indirizzo xpub o il primo indirizzo di ricezione, quindi cancellate il vostro portafoglio sul Jade Plus mentre è ancora vuoto (`Opzioni -> Dispositivo -> Ripristino dati di fabbrica`). Quindi provare a ripristinare il portafoglio utilizzando i backup cartacei della frase mnemonica e di qualsiasi passphrase. Verificate che le informazioni del cookie generate dopo il ripristino corrispondano a quelle annotate in origine. Se è così, potete essere certi che i vostri backup cartacei sono affidabili. Per saperne di più su come eseguire un ripristino di prova, date un'occhiata a quest'altro tutorial:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Configurazione del portafoglio su Sparrow Wallet
 
 In questa esercitazione presento un uso avanzato di Jade Plus utilizzando Sparrow Wallet. Tuttavia, questo portafoglio hardware è compatibile con molti altri programmi, come Liana, Nunchuk, Specter, Green e Keeper. Queste compatibilità variano in termini di connessioni: USB, Bluetooth o codice QR (per i dettagli, vedere la tabella nell'introduzione).
@@ -331,6 +335,7 @@ Iniziate scaricando e installando Sparrow Wallet [dal sito ufficiale](https://sp
 Assicuratevi di verificare l'autenticità e l'integrità del software prima dell'installazione. Se non sapete come fare, consultate questa guida:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Una volta aperto Sparrow Wallet, fare clic sulla scheda "*File*", quindi su "*Nuovo portafoglio*".
 
 ![Image](assets/fr/51.webp)

@@ -23,6 +23,7 @@ Tässä aloittelijoille ja keskitason käyttäjille suunnatussa oppaassa opimme,
 Jos olet edistynyt käyttäjä ja haluat tutustua monimutkaisempiin ominaisuuksiin, suosittelen tutustumaan tähän toiseen opetusohjelmaan, jossa konfiguroimme Passportin ja Sparrow Walletin :
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 ## Passin avaaminen
 
 Kun saat passisi, varmista, että laatikko ja pahvipakkauksen sinetti ovat ehjät, jotta voit varmistaa, ettei pakettia ole avattu. Laitteen aitouden ja koskemattomuuden ohjelmistovarmennus suoritetaan myös laitteen käyttöönoton yhteydessä.
@@ -170,6 +171,7 @@ Käytä tähän Passport-pakkauksen mukana toimitettua MicroSD-korttia (tai tois
 Ennen kuin asennat sen laitteeseesi, suosittelemme, että tarkistat ladatun laiteohjelmiston aitouden ja eheyden. Jos tarvitset apua tässä, katso tätä ohjetta :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### Envoy-sovelluksen avulla
 
 Toinen, yksinkertaisempi vaihtoehto on käyttää suoraan Envoy-sovellusta. Napsauta "*Download Firmware*".
@@ -253,6 +255,7 @@ Napsauta vahvistuspainiketta nähdäksesi muistisääntösi.
 Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaan oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.**_
 
 Tee fyysinen varmuuskopio tästä lauseesta.

@@ -7,6 +7,7 @@ description: Juhend edasijõudnud kasutajatele, et pakkuda õpetust Plan ₿ Net
 Enne uue õpetuse lisamise õpetuse järgimist peate olema läbinud mõned esialgsed sammud. Kui te pole seda veel teinud, vaadake esmalt seda sissejuhatavat õpetust ja tulge siis siia tagasi:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Sul on juba olemas :
 
 
@@ -24,6 +25,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 - Algajad (veebiliides)** :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## Soovitatavad vahendid
 
 Markdown-failide redigeerimiseks :
@@ -178,6 +180,7 @@ Siin on nõutavad väljad:
 Lisateavet õpetaja ID kohta leiate vastavast juhendmaterjalist :
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8

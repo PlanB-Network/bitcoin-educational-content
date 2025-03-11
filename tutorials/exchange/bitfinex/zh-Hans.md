@@ -23,9 +23,11 @@ Bitfinex 积极支持比特币的发展，投资于闪电网络等技术，推�
 有关使用和保护强大、独特密码的技巧，请参阅本教程 ：
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 现在我们要配置 2FA 以确保账户安全。使用智能手机上的身份验证应用程序，例如 Google Authenticator 或 Authy。有关该工具的教程请点击此处：
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 使用您的应用程序扫描 QR 码，然后输入所提供的 6 位数字。
 
 ![BITFINEX](assets/fr/03.webp)
@@ -166,6 +168,7 @@ Bitfinex 还通过闪电网络提供存款和取款选项，使交易速度更�
 如果您对闪电网络感兴趣，我们还有完整的培训课程帮助您了解它的工作原理：
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 购买第一枚比特币后，您当然可以选择将其留在平台上，但我强烈建议您将其转移到自己的钱包中自行保管。如果你还不知道如何使用比特币钱包，我邀请你浏览[Plan ₿ Network](https://planb.network/tutorials/wallet)上的 "钱包 "部分。
 
 ## 6 - 在 Bitfinex 上买卖比特币

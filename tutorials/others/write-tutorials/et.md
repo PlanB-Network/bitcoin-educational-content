@@ -94,4 +94,5 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 - Algajad (veebiliides)** : Võite valida ka GitHubi veebiliidese otsese kasutamise, ilma et oleks vaja luua täielikku lokaalset keskkonda. Seda meetodit võib kaaluda väiksemate panuste puhul. Suuremate panuste puhul, näiteks uue täieliku õpetuse lisamine, võib see variant osutuda keerulisemaks kui lokaalse keskkonna loomine. Selgitan selles õpetuses, kuidas seda teha:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 Vali üks neist kolmest võimalusest vastavalt oma teadmiste tasemele, siis alusta oma esimese Plan ₿ Network tutoriali kirjutamist!

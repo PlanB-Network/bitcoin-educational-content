@@ -15,6 +15,7 @@ La característica especial de este monedero es la posibilidad de enviar bitcoin
 Para utilizar Proton Wallet, necesitas una cuenta Proton. Puedes crear una gratuitamente siguiendo los primeros pasos de este tutorial dedicado a la creación de un buzón Proton (sólo la sección "*Crear una cuenta Proton*"). Una vez configurada tu cuenta, puedes continuar con el resto de este tutorial.
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## Conectarse a Proton Wallet
 
 Vaya a [la página web de Proton Wallet](https://proton.me/wallet) y haga clic en el botón "*Obtener Proton Wallet*".
@@ -68,6 +69,7 @@ Puedes escribirlo en un papel o, para mayor seguridad, te recomiendo grabarlo en
 Para más información sobre la forma correcta de guardar y gestionar tu frase mnemotécnica, te recomiendo encarecidamente que sigas este otro tutorial, especialmente si eres principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 por supuesto, nunca se debe tomar una foto de estas palabras, a diferencia de lo que hago en este tutorial
 
 Haz clic en el botón "*Hecho*" cuando hayas guardado tu frase.
@@ -95,6 +97,7 @@ Aquí es donde puedes añadir una frase de contraseña BIP39 a un nuevo monedero
 Para profundizar en el conocimiento de la frase de contraseña, te recomiendo este tutorial:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ## Recibir bitcoins
 
 Para recibir bitcoins en su monedero, seleccione la cuenta deseada a la izquierda de la interfaz y, a continuación, haga clic en el botón "*Recibir*".

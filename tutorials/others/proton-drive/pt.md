@@ -31,6 +31,7 @@ Sobre [preços](https://proton.me/pricing), a versão gratuita oferece até 5 GB
 Se você ainda não tem uma conta Proton, precisará criar uma. Eu o encaminho para o nosso tutorial do Proton Mail no qual explicamos em detalhes como criar uma conta Proton gratuita e configurá-la:
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Como configurar o Proton Drive?
 

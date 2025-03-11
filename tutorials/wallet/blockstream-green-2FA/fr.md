@@ -265,3 +265,4 @@ Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser 
 Je vous conseille également de découvrir cet autre tutoriel complet sur l'application mobile Blockstream Green pour mettre en place un portefeuille Liquid :
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

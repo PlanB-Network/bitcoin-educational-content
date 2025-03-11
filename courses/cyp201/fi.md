@@ -1239,6 +1239,7 @@ Tuloksena on, että 24 sanan lauseen valitseminen ei tarjoa lisäsuojaa lompakol
 Jatkaaksesi ja oppiaksesi konkreettisesti, miten manuaalisesti generoida testaamiseen tarkoitettu mnemoninen lause, suosittelen tutustumaan tähän tutoriaaliin:
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 Ennen kuin jatkamme lompakon johdannaisten luomista tästä mnemonisesta lauseesta, esittelen sinulle seuraavassa luvussa BIP39-salasanan, koska se näyttelee roolia johdannaisprosessissa, ja se on samalla tasolla kuin mnemoninen lause.
 ## Salasana
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

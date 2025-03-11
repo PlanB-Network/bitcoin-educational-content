@@ -479,3 +479,4 @@ Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de la
 Je vous conseille également de découvrir cet autre tutoriel dans lequel nous abordons les options avancées de la COLDCARD Q :
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+

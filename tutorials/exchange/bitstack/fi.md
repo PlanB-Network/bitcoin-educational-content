@@ -54,6 +54,7 @@ Valitse vahva salasana, jolla varmistat tilisi käytön, ja napsauta sitten "*Ja
 Salasanojen turvalliseen päivittäiseen hallintaan suositellaan erittäin suositeltavaa salasanahallintaohjelman käyttöä. Plan ₿ Network -verkkopalvelusta löydät useita oppaita parhaista olemassa olevista ratkaisuista, kuten Bitwardenista :
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Tämän jälkeen sinua pyydetään vahvistamaan henkilöllisyytesi (KYC). Ranskan säännösten mukaisesti sinua pyydetään antamaan henkilötietosi ja todistamaan henkilöllisyytesi. Täytä ruutuihin sukunimesi, etunimesi ja syntymäaikasi.
 
 ![Image](assets/fr/07.webp)

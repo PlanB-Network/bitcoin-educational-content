@@ -64,6 +64,7 @@ Navštivte oficiální webové stránky Wizardsardine a stáhněte si Lianu na a
 Chcete-li zjistit, jak ručně ověřit pravost a integritu softwaru před instalací, doporučujeme vám nahlédnout do tohoto návodu :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Nainstalujte software do počítače a spusťte jej. Vyberte možnost "*Vytvořit novou peněženku Liana*" a nakonfigurujte peněženku.
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -193,6 +194,7 @@ Stav vypršení platnosti svých prostředků můžete zkontrolovat na kartě "*
 Chcete-li lépe pochopit model reprezentace UTXO používaný v Bitcoinu, můžete si přečíst první část kurzu o důvěrnosti v Bitcoinu, který napsal Loïc Morel :
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Běžné výdaje
 
 Běžné výdaje jsou běžnou situací pro použití Liany. Posílání bitcoinů pomocí hlavního klíče funguje stejně jako ve všech klasických bitcoinových peněženkách, jako je Electrum nebo Sparrow.

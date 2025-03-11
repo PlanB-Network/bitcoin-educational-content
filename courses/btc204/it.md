@@ -345,7 +345,9 @@ Dobbiamo quindi essere in grado di affrontare l'analisi della blockchain anche n
 Quale modo migliore per contrastare l'analisi della blockchain se non quello di conoscere i metodi utilizzati? Se volete sapere come migliorare la vostra privacy su Bitcoin, dovete comprendere questi metodi. Questo vi permetterà di comprendere meglio tecniche come coinjoin o payjoin (tecniche che esamineremo nelle parti finali del corso) e di ridurre gli errori che potreste commettere.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
 https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+
 A questo proposito, possiamo tracciare un'analogia con la crittografia e la crittoanalisi. Un buon crittografo è innanzitutto un buon crittoanalista. Per ideare un nuovo algoritmo di crittografia, è necessario sapere quali attacchi dovrà affrontare e studiare perché gli algoritmi precedenti sono stati violati. Lo stesso principio si applica alla privacy di Bitcoin. Comprendere i metodi di analisi della blockchain è la chiave per proteggersi da questi attacchi. Ecco perché ho incluso un'intera sezione sull'analisi della catena in questo corso di formazione.
 
 ### Metodi di analisi della catena
@@ -1282,6 +1284,7 @@ Tutti questi metodi di selezione automatica degli UTXO possono essere efficaci n
 Se volete scoprire come etichettare i vostri UTXO, abbiamo preparato un tutorial completo sui principali software per portafogli Bitcoin in circolazione:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 ## KYC e identificazione delle chiavi
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1441,6 +1444,7 @@ Per quanto riguarda le soluzioni, personalmente ho sempre utilizzato [Bisq](http
 -> Vedere il nostro tutorial su Bisq.
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
 Per un'opzione più semplice, potete provare [Peach](https://peachbitcoin.com/), un'applicazione mobile che mette in contatto acquirenti e venditori con un sistema di risoluzione dei conflitti integrato. Il processo è più intuitivo di quello di Bisq.
 
 -> Consultate il nostro tutorial su Peach.
@@ -1452,6 +1456,7 @@ Un'altra opzione online è [HodlHodl](https://hodlhodl.com/), una piattaforma co
 -> Vedere la nostra esercitazione su HodlHodl.
 
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+
 Per le soluzioni basate su Lightning Network, provate [RoboSats](https://learn.robosats.com/) e [LNP2PBot](https://lnp2pbot.com/). RoboSats è accessibile tramite un sito web ed è relativamente semplice da usare. LNP2PBot è più atipico, poiché funziona tramite un sistema di scambio sull'applicazione di messaggistica Telegram.
 
 -> Vedere il nostro tutorial sui RoboSats.
@@ -1459,7 +1464,9 @@ Per le soluzioni basate su Lightning Network, provate [RoboSats](https://learn.r
 -> Vedere la nostra esercitazione su LNP2PBot.
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
 https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+
 ![BTC204](assets/fr/091.webp)
 
 ### Piattaforme regolamentate senza KYC
@@ -1469,6 +1476,7 @@ A seconda del Paese in cui si vive, si può avere accesso a piattaforme regolame
 -> Vedere il nostro tutorial su Relai.
 
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+
 Come abbiamo visto nel capitolo precedente, questo tipo di piattaforma evita i rischi associati alle procedure KYC, ma presenta un livello di rischio più elevato per l'identificazione delle chiavi. In termini di riservatezza dei Bitcoin, quindi, queste piattaforme offrono una protezione migliore rispetto ai metodi di acquisto con KYC, ma rimangono meno interessanti degli scambi P2P.
 
 Tuttavia, in termini di sicurezza personale, l'utilizzo di queste piattaforme è molto meno rischioso rispetto agli scambi P2P. Inoltre, sono spesso più semplici da usare rispetto alle piattaforme P2P.
@@ -1492,6 +1500,7 @@ Il modo migliore per spendere BTC è, ovviamente, utilizzare Bitcoin o la Lightn
 Diverse piattaforme che non richiedono procedure KYC offrono la possibilità di scambiare bitcoin con carte regalo utilizzabili presso i principali rivenditori. Tra queste, [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) e [Bitrefill](https://www.bitrefill.com/). Queste piattaforme rendono molto più semplice l'utilizzo quotidiano dei bitcoin, dando accesso a un'ampia gamma di prodotti e servizi senza doverli convertire in valuta fiat.
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/fr/093.webp)
 
 ### Altri metodi di acquisizione
@@ -2176,8 +2185,11 @@ Stiamo tenendo d'occhio questo caso e gli sviluppi degli strumenti associati. Vi
 Nel prossimo capitolo scopriremo cosa sono gli "anonset", come vengono calcolati questi indicatori e come possono aiutarci a stimare l'efficienza dei cicli coinjoin.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ## Set di anonimato
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -2253,6 +2265,7 @@ Ad esempio, immaginiamo che la nostra parte coinjoin abbia un anonset retrospett
 Come abbiamo visto in questo capitolo, gli anonset possono essere calcolati solo se esiste una certa omogeneità nella struttura della coinjoin. Nel prossimo capitolo scopriremo come quantificare questa omogeneità su una transazione Bitcoin, sia essa una coinjoin o una transazione più tradizionale.
 
 https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 ## Entropia
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2510,6 +2523,7 @@ Purtroppo, dopo l'arresto dei fondatori di Samourai, questi strumenti non sono p
 Dopo aver trattato in dettaglio le coinjoin, nella sezione finale del corso esamineremo le altre tecniche di privacy disponibili su Bitcoin. Analizzeremo le payjoin, i tipi specifici di transazioni pseudo-coinjoin, i protocolli di indirizzi statici e le misure per rafforzare la riservatezza non a livello delle transazioni stesse, ma a livello della rete di nodi.
 
 https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 # Comprendere le sfide di altre tecniche avanzate di confidenzialità
 
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2603,7 +2617,9 @@ La difficoltà nell'utilizzo di payjoin risiede nella sua dipendenza dalla parte
 Una soluzione potrebbe essere quella di utilizzare strutture di transazione che introducano ambiguità nell'analisi della catena senza richiedere la cooperazione del destinatario. Questo ci permetterebbe di migliorare la riservatezza dei nostri pagamenti senza dipendere dalla partecipazione attiva dei commercianti. Questo è esattamente ciò che vedremo nel prossimo capitolo.
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+
 ## Pagamento mini-coinjoin
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2725,7 +2741,9 @@ Tuttavia, come per le payjoin, in seguito all'arresto dei fondatori di Samourai,
 Nel prossimo capitolo vedremo un'altra tecnica di riservatezza relativamente sconosciuta, ma molto utile come complemento a quelle già studiate.
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+
 https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+
 ## I rimbalzi
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2799,6 +2817,7 @@ Rimbalzare significa semplicemente inviare bitcoin a se stessi. È perfettamente
 Nel prossimo capitolo esamineremo diverse tecniche per il trasferimento segreto della proprietà. Questi metodi differiscono radicalmente da quelli esaminati finora, sia in termini di funzionamento che di risultati.
 
 https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+
 ## Trasferimenti segreti di proprietà
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -3074,6 +3093,7 @@ Sebbene questi robot non abbiano alcuna funzionalità tecnica specifica nell'amb
 *Nelle sezioni successive di questo capitolo dedicate a BIP47, vedremo nel dettaglio il suo funzionamento, con particolare attenzione ai metodi crittografici utilizzati. Per comprendere appieno queste spiegazioni un po' tecniche, è essenziale capire prima la struttura dei portafogli HD, le procedure di derivazione delle chiavi e i fondamenti della crittografia a curva ellittica. Se desiderate approfondire questi concetti, un altro corso di formazione gratuito è disponibile su Plan ₿ Network :*
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 *Vi consiglio comunque di seguirli, perché la comprensione del funzionamento tecnico del BIP47 vi renderà molto più facile la comprensione di altre proposte simili, di cui parleremo nei capitoli successivi*
 
 ---
@@ -3825,6 +3845,7 @@ Bob può quindi rimborsare Alice nello stesso modo in cui lei gli ha inviato i p
 *Un sentito ringraziamento a [Fanis Michalakis](https://x.com/FanisMichalakis) per la sua correzione di bozze e per i suoi consigli sull'articolo che ha ispirato la stesura di questo capitolo!
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+
 ## Pagamenti silenziosi
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>

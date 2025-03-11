@@ -7,6 +7,7 @@ description: Guida completa alla pianificazione ₿ Tutorial di rete con GitHub 
 Prima di seguire questo tutorial sull'aggiunta di un nuovo tutorial, è necessario aver completato alcuni passaggi preliminari. Se non l'avete ancora fatto, date prima un'occhiata a questo tutorial introduttivo e poi tornate qui:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Avete già :
 
 
@@ -24,6 +25,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0
 - Intermedio (GitHub Desktop)** :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+
 ## Prerequisiti
 
 Prerequisiti prima di iniziare l'esercitazione :
@@ -36,9 +38,13 @@ Prerequisiti prima di iniziare l'esercitazione :
 Se avete bisogno di aiuto per ottenere questi prerequisiti, le mie altre esercitazioni vi aiuteranno:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+
 https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+
 https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Una volta che tutto è a posto e che avete il vostro fork del repository Plan ₿ Network, potete iniziare ad aggiungere il tutorial.
 
 ## 1 - Creare un nuovo ramo
@@ -156,6 +162,7 @@ Ecco i campi obbligatori:
 Per maggiori dettagli sull'ID insegnante, consultare il tutorial corrispondente:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 Ecco un esempio di file `tutorial.yml` compilato per un tutorial sul portafoglio Blockstream Green:
 
 ```

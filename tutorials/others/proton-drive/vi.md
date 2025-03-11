@@ -32,6 +32,7 @@ Về [giá cả](https://proton.me/pricing), phiên bản miễn phí cung cấp
 Nếu bạn chưa có tài khoản Proton, bạn sẽ cần tạo một. Tôi giới thiệu bạn đọc hướng dẫn Proton Mail của chúng tôi trong đó chúng tôi giải thích chi tiết cách tạo một tài khoản Proton miễn phí và thiết lập nó:
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Làm thế nào để thiết lập Proton Drive?
 

@@ -9,6 +9,7 @@ description: Panduan lengkap untuk menggunakan Bisq 2 dan menukar bitcoin P2P
 Pertukaran peer-to-peer (P2P) yang bebas KYC sangat penting untuk menjaga kerahasiaan dan otonomi keuangan pengguna. Bursa ini memungkinkan transaksi langsung antar individu tanpa memerlukan verifikasi identitas, yang sangat penting bagi mereka yang menghargai privasi. Untuk pemahaman yang lebih mendalam mengenai konsep teoretis, lihatlah kursus BTC204:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ### Apa itu Bisq 2?
 
 Bisq 2 adalah versi baru dari bursa Bisq terdesentralisasi yang populer, yang diluncurkan pada tahun 2024. Tidak seperti pendahulunya, Bisq 2 telah dikembangkan untuk mendukung berbagai protokol bursa, menawarkan fleksibilitas yang lebih besar kepada pengguna.
@@ -86,6 +87,7 @@ Panduan ini berfokus secara eksklusif pada "Bisq Easy", satu-satunya protokol ya
 - Verifikasi keaslian file yang diunduh (sangat disarankan). Untuk panduan terperinci tentang verifikasi tanda tangan, lihat tutorial berikut:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### 2. Pemasangan sesuai dengan sistem Anda
 
 Ikuti langkah-langkah instalasi yang sesuai untuk sistem operasi Anda. Jika Anda mengalami kesulitan selama instalasi, Anda dapat membaca panduan terperinci di [wiki resmi Bisq](https://bisq.wiki/Downloading_and_installing).

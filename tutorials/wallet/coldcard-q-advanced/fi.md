@@ -7,6 +7,7 @@ description: COLDCARD Q:n lisäasetusten käyttäminen
 Edellisessä opetusohjelmassa käsittelimme COLDCARD Q:n alkukonfigurointia ja sen perustoimintoja aloittelijoille. Jos olet juuri saanut COLDCARD Q:n etkä ole vielä määrittänyt sitä, suosittelen, että aloitat tuosta ohjeesta ennen kuin jatkat tästä:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 Tämä uusi opetusohjelma on omistettu COLDCARD Q:n kehittyneille ja vainoharhaisille käyttäjille tarkoitetuille lisäasetuksille. Itse asiassa COLDCARDit eroavat muista laitteistolompakoista monien kehittyneiden turvaominaisuuksiensa ansiosta. Sinun ei tietenkään tarvitse käyttää kaikkia näitä vaihtoehtoja. Valitse vain ne, jotka sopivat turvallisuusstrategiaasi.
 
 **Varoitus**, joidenkin näiden lisäasetusten virheellinen käyttö voi johtaa bitcoinien menettämiseen tai laitteiston lompakon tuhoutumiseen. Siksi suosittelen vahvasti, että luet kunkin vaihtoehdon neuvot ja selitykset huolellisesti.
@@ -20,6 +21,7 @@ Ennen kuin aloitat, varmista, että sinulla on fyysinen varmuuskopio 12- tai 24-
 Jos et tiedä, mikä BIP39-salasana on, tai jos sinulle ei ole täysin selvää, miten se toimii, suosittelen lämpimästi, että tutustut etukäteen tähän opetusohjelmaan, joka kattaa teoreettiset perusteet, joita tarvitaan salasanan käyttöön liittyvien riskien ymmärtämiseen:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Muista, että kun olet määrittänyt salasanan lompakkoosi, pelkkä muistisääntösi ei riitä siihen, että pääset takaisin bitcoineihisi. Tarvitset sekä muistitikun että salasanan. Lisäksi sinun on syötettävä tunnuslause joka kerta, kun avaat COLDCARD Q:n lukituksen. Tämä parantaa turvallisuutta, sillä ilman tunnuslausetta COLDCARDin fyysinen käyttö ja PIN-koodin tunteminen eivät ole riittäviä.
 
 COLDCARD-korttien kohdalla sinulla on kaksi vaihtoehtoa salasanan hallintaan:
@@ -67,6 +69,7 @@ Vahvista, että näytetty sormenjälki vastaa lompakkosi sormenjälkeä ja napsa
 Muista, että tunnuslauseen käyttäminen tarkoittaa, että sinun on tuotava lompakonhallintaohjelmistoon (kuten Sparrow Walletiin) uusi avainsarja, joka on johdettu muistilauseen ja tunnuslauseen yhdistelmästä. Voit tehdä tämän noudattamalla tämän toisen ohjeen kohtaa "*Konfiguroi uusi lompakko Sparrow'ssa*" :
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
 ## Vaihtoehtojen avaaminen
 
 COLDCARD-kortit hyötyvät myös lukituksen avaamisprosessissa monista vaihtoehdoista. Tutustutaanpa tarkemmin näihin kehittyneisiin vaihtoehtoihin.

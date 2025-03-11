@@ -64,6 +64,7 @@ Käy virallisella Wizardsardine-sivustolla ja lataa Liana osoitteessa https://wi
 Jos haluat tietää, miten ohjelmiston aitous ja eheys voidaan tarkistaa manuaalisesti ennen asennusta, suosittelemme tutustumaan tähän ohjeeseen :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Asenna ohjelmisto koneellesi ja käynnistä se. Valitse "*Luo uusi Liana-lompakko*" -vaihtoehto määrittääksesi lompakkosi.
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -193,6 +194,7 @@ Voit tarkistaa varojesi vanhentumistilan siirtymällä "*Coins*"-välilehdelle. 
 Jos haluat ymmärtää paremmin Bitcoinissa käytettyä UTXO-edustusmallia, voit tutustua Loïc Morelin kirjoittaman Bitcoinin luottamuksellisuutta käsittelevän kurssin ensimmäiseen osaan:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Juoksevat menot
 
 Nykyiset menot ovat normaali tilanne Lianan käytössä. Bitcoinien lähettäminen pääavaimella toimii kuten kaikissa klassisissa Bitcoin-lompakoissa, kuten Electrumissa tai Sparrowissa.

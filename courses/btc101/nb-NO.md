@@ -564,8 +564,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-4
 Du kan for eksempel bruke en Ledger, en Satochip eller en Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Nivå 3**, du bruker en lommebok på nivå 1 eller 2, men du har lagt til en ekstra passordfrase. I dette tilfellet må du være oppmerksom på at du må ta sikkerhetskopi av både listen med 12/24 ord **og\*\* passordfrasen din. Ideelt sett lagres disse to delene av informasjonen på to forskjellige steder.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Hvis du vil vite mer om hvordan BIP39-passordet brukes og fungerer:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - På nivå 4\*\* bruker du et sett med lommebøker til å opprette en "multisig"-lommebok, noe som betyr at det kreves flere signaturer for å gjennomføre en transaksjon. I dette tilfellet må du være oppmerksom på at hver del av multisignaturen bør lagres på forskjellige steder. Denne tilnærmingen anses ofte som en avansert bruk av Bitcoin, først og fremst for å administrere store beløp og for bedriftsformål.

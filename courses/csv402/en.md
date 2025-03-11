@@ -760,6 +760,25 @@ When we started RGB, we reviewed all these methods to determine where and how to
 | Multi-sig 2-of-3 with timeouts | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
 
 
+| Layer                            | On-Chain Cost (vbytes) | On-Chain Cost (vbytes) | On-Chain Cost (vbytes) | Client-Side Cost (bytes) | Client-Side Cost (bytes) |
+| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
+| **Type**                         | **Base**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                        | 0                        |
+| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                        | 0                        |
+| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
+| Branch MuSig / Multi_a (n-of-m)  | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+| With timeouts (n-of-m)           | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+
+| Method                                    | Privacy & Scalability | Interoperability | Compatibility | Portability | Complexity |
+| ----------------------------------------- | ---------------------- | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (Deterministic P2C)              | 🟢                      | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (Deterministic S2C)              | 🟢                      | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                         | 🔴                      | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret: Top-left node                | 🟠                      | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret #4: Any node + proof          | 🟢                      | 🟢               | 🟢            | 🟠          | 🔴         |
+
+
+
 
 
 
@@ -1349,19 +1368,14 @@ If, in the contract, a state element is not defined as mutable or cumulative, th
 
 The table below illustrates how each type of Contract Operation can manipulate (or not) the Global State and the Owned State:
 
-| Genesis | State Extension | State Transition |
-
+|                              | Genesis | State Extension | State Transition |
 | ---------------------------- | :-----: | :-------------: | :--------------: |
+| **Addition of Global State** |    +    |        -        |        +         |
+| **Mutation of Global State** |   n/a   |        -        |        +         |
+| **Addition of Owned State**  |    +    |        -        |        +         |
+| **Mutation of Owned State**  |   n/a   |       No        |        +         |
+| **Addition of Valencies**    |    +    |        +        |        +         |
 
-| **Add Global State** | + | - | + |
-
-| n/a | - | + | **Mutation of Global State** | - | + |
-
-| **Add Owned State** | + | - | + |
-
-| **Mutation of Owned State** | n/a | No | + |
-
-| **Add Valencies** | + | + | + | + |
 
 **`+`** : action possible if the contract's Schema allows it.
 
@@ -1369,15 +1383,12 @@ The table below illustrates how each type of Contract Operation can manipulate (
 
 In addition, the temporal scope and update rights of each type of data can be distinguished in the following table:
 
-| Metadata | Global State | Owned State |
+|                                 | Metadata                                 | Global State                                  | Owned State                                                                                                |
+| ------------------------------- | ---------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Scope**                       | Defined for a single Contract Operation | Defined globally for the contract            | Defined for each seal (*Assignment*)                                                                       |
+| **Who can update it?**          | Non-updatable (ephemeral data)          | Operation issued by actors (issuer, etc.)    | Depends on the legitimate holder who owns the seal (the one who can spend it in a following transaction)  |
+| **Temporal Scope**              | Only for the current operation          | State is established at the end of the operation | State is defined before the operation (by the *Seal Definition* of the previous operation)               |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Defined for a single Contract Operation | Defined globally for the contract | Defined for each seal (*Assignment*) | Defined for a single Contract Operation | Defined globally for the contract | Defined for each seal (*Assignment*) | Defined for each seal (*Assignment*) | Defined for each contract
-
-| Non-actualizable (ephemeral data) | Transaction issued by actors (issuer, etc.) | Depends on the rightful holder of the seal (the one who can spend it in a subsequent transaction) |
-
-| The state is defined before the operation (by the *Seal Definition* of the previous operation) | The state is established at the end of the operation | The state is established at the end of the operation | The state is defined before the operation (by the *Seal Definition* of the previous operation) | The state is established at the end of the operation | The state is defined before the operation (by the *Seal Definition* of the previous operation)
 
 ### Global State
 

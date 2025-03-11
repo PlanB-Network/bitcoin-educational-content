@@ -760,6 +760,25 @@ Quando criámos o RGB, analisámos todos estes métodos para determinar onde e c
 | Multi-sig 2-of-3 com timeouts  | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
 
 
+| Camada                          | Custo on-chain (vbytes) | Custo on-chain (vbytes) | Custo on-chain (vbytes) | Custo no cliente (bytes) | Custo no cliente (bytes) |
+| ------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
+| **Tipo**                        | **Base**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                  | 16.5                   | 0                      | 0                      | 0                        | 0                        |
+| FROST (n-of-m)                  | ?                      | 0                      | 0                      | 0                        | 0                        |
+| Multi_a (n-of-m)                | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
+| Ramificação MuSig / Multi_a (n-of-m) | 1+16n+8n+8xlog(n)  | 8                      | 0                      | 64                       | 65                       |
+| Com timeouts (n-of-m)           | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+
+| Método                                    | Privacidade e Escalabilidade | Interoperabilidade | Compatibilidade | Portabilidade | Complexidade |
+| ----------------------------------------- | ------------------------- | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (P2C determinístico)             | 🟢                         | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (S2C determinístico)             | 🟢                         | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                         | 🔴                         | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret: Nó superior esquerdo         | 🟠                         | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret #4: Qualquer nó + prova       | 🟢                         | 🟢               | 🟢            | 🟠          | 🔴         |
+
+
+
 
 
 
@@ -1349,19 +1368,14 @@ Se, no contrato, um elemento de estado não for definido como mutável ou cumula
 
 A tabela abaixo ilustra como cada tipo de Operação de contrato pode manipular (ou não) o Estado global e o Estado próprio:
 
-| Génese | Extensão de estado | Transição de estado |
+|                              | Gênese | Extensão de Estado | Transição de Estado |
+| ---------------------------- | :----: | :---------------: | :---------------: |
+| **Adição de Global State**   |   +    |        -        |        +        |
+| **Mutação de Global State**  |  n/a   |        -        |        +        |
+| **Adição de Owned State**    |   +    |        -        |        +        |
+| **Mutação de Owned State**   |  n/a   |       Não       |        +        |
+| **Adição de Valencies**      |   +    |        +        |        +        |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Adicionar estado global** | + | - | + |
-
-| n/a | - | + | **Mutação do estado global** | - | + |
-
-| **Adicionar estado próprio** | + | - | + |
-
-**Mutação do estado de propriedade** | n/a | Não | + |
-
-| **Adicionar valências** | + | + | + + | + |
 
 **`+`** : ação possível se o esquema do contrato o permitir.
 
@@ -1369,15 +1383,12 @@ A tabela abaixo ilustra como cada tipo de Operação de contrato pode manipular 
 
 Além disso, o âmbito temporal e os direitos de atualização de cada tipo de dados podem ser distinguidos no quadro seguinte:
 
-| Metadados | Estado global | Estado próprio |
+|                                 | Metadados                              | Estado Global                            | Estado Possuído                                                                                         |
+| ------------------------------- | ------------------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Escopo**                      | Definido para uma única Operação de Contrato | Definido globalmente para o contrato  | Definido para cada selo (*Assignment*)                                                               |
+| **Quem pode atualizá-lo?**      | Não atualizável (dados efêmeros)      | Operação emitida por atores (emissor, etc.) | Depende do detentor legítimo que possui o selo (quem pode gastá-lo em uma transação seguinte)      |
+| **Escopo Temporal**             | Apenas para a operação atual         | O estado é estabelecido ao final da operação | O estado é definido antes da operação (pela *Seal Definition* da operação anterior)                 |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Definido para uma única operação de contrato | Definido globalmente para o contrato | Definido para cada selo (*Atribuição*) | Definido para uma única operação de contrato | Definido globalmente para o contrato | Definido para cada selo (*Atribuição*) | Definido para cada selo (*Atribuição*) | Definido para cada contrato
-
-| Transação emitida por actores (emitente, etc.) | Depende do legítimo detentor do selo (aquele que o pode gastar numa transação subsequente) | Não realizável (dados efémeros)
-
-| O estado é definido antes da operação (pela *Definição de Vedação* da operação anterior) | O estado é estabelecido no final da operação | O estado é estabelecido no final da operação | O estado é definido antes da operação (pela *Definição de Vedação* da operação anterior) | O estado é estabelecido no final da operação | O estado é definido antes da operação (pela *Definição de Vedação* da operação anterior)
 
 ### Estado global
 

@@ -1,0 +1,98 @@
+id: 21d0420a-be02-4663-94a3-8d487f23becc
+
+builder: Plan ₿ Network
+
+category: data
+
+level: intermediate
+
+credits:
+  professor: pretty-private
+
+# Proofreading metadata
+
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+original_language: fr
+proofreading:
+- language: fr
+  last_contribution_date: 2024-10-11
+  urgency: 1
+  contributors_id:
+  - LoicPandul
+  reward: 0.68
+- language: et
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.6
+- language: pt
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.35
+- language: ja
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 3.85
+- language: ru
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.6
+- language: id
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 3.23
+- language: cs
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.6
+- language: fi
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.6
+- language: de
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.35
+- language: en
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.35
+- language: es
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.98
+- language: zh-Hans
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 3.23
+- language: it
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.98
+- language: vi
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 3.85
+
+
+- language: nb-NO
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.6
+tags:
+- good-practice
+- software
+- personal-security

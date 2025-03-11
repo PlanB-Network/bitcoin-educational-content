@@ -1,0 +1,107 @@
+id: dd16f8c0-00c1-45fd-8792-920612bed18f
+builder: Plan ₿ Network
+
+category: others
+
+level: beginner
+
+credits:
+  professor: quick-shade
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+original_language: en
+
+proofreading:
+- language: en
+  last_contribution_date: 2025-02-04
+  urgency: 1
+  contributors_id:
+  - Asi0Flammeus
+  reward: 0.4
+
+- language: cs
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.49
+
+- language: de
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.8
+
+- language: es
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.15
+
+- language: et
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.49
+
+- language: fi
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.49
+
+- language: fr
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.8
+
+- language: id
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.84
+
+- language: it
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.15
+
+- language: ja
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.19
+
+- language: nb-NO
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.49
+
+- language: pt
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.8
+
+- language: ru
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.49
+
+- language: vi
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.19
+
+- language: zh-Hans
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.84
+tags:
+- proof-of-work
+- protocols
+- smart-contracts

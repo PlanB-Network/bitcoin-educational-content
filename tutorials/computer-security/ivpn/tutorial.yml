@@ -1,0 +1,97 @@
+id: 5a0cd5df-29f1-4382-a817-975a96646e68
+builder: IVPN
+
+category: communication
+
+level: beginner
+
+credits:
+  professor: pretty-private
+
+
+# Proofreading metadata
+project_id: a465ba43-cec3-449d-95ed-4b06780e0510
+original_language: fr
+proofreading:
+- language: fr
+  last_contribution_date: 2024-08-31
+  urgency: 1
+  contributors_id:
+  - LoicPandul
+  reward: 0.59
+- language: et
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.28
+- language: pt
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.19
+- language: ja
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 3.37
+- language: ru
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.28
+- language: id
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.82
+- language: cs
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.28
+- language: fi
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.28
+- language: de
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.19
+- language: en
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.19
+- language: es
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.73
+- language: zh-Hans
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.82
+- language: it
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.73
+- language: vi
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 3.37
+
+
+- language: nb-NO
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 2.28
+tags:
+- guides
+- user-friendly
+- privacy

@@ -1,0 +1,110 @@
+id: 48e81b31-89cb-4b7e-83ef-f2094af513c9
+
+builder: BTCPay Server
+
+category: point-of-sale
+
+level: intermediate
+
+credits:
+  professor: stable-coin
+
+# Proofreading metadata
+
+project_id: c61cbdad-03bc-4178-9d8d-0b5b7c1141a0
+original_language: en
+proofreading:
+- language: en
+  last_contribution_date: 2025-01-27
+  urgency: 1
+  contributors_id:
+  - LoicPandul
+  reward: 0.09
+
+- language: cs
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.26
+
+- language: de
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.18
+
+- language: es
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.22
+
+- language: et
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.26
+
+- language: fi
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.26
+
+- language: fr
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.18
+
+- language: id
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.3
+
+- language: it
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.22
+
+- language: ja
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.34
+
+- language: nb-NO
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.26
+
+- language: pt
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.18
+
+- language: ru
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.26
+
+- language: vi
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.34
+
+- language: zh-Hans
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.3
+tags:
+- software
+- guides
+- business

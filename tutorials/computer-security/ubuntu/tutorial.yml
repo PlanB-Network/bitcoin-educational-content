@@ -1,0 +1,109 @@
+id: 78a3be56-5d51-4ec3-8629-0dd27c352ab5
+
+project_id: e5a16b6f-763c-4cc9-a2a2-7d3ae70babe9
+
+category: operating system
+
+level: beginner
+
+credits:
+  professor: electric-ankle
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+- language: fr
+  last_contribution_date: 2025-02-07
+  urgency: 1
+  contributors_id:
+  - Pivii
+  reward: 0.34
+
+- language: cs
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.25
+
+- language: de
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.67
+
+- language: en
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.67
+
+- language: es
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.96
+
+- language: et
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.25
+
+- language: fi
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.25
+
+- language: id
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.53
+
+- language: it
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.96
+
+- language: ja
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.82
+
+- language: nb-NO
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.25
+
+- language: pt
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 0.67
+
+- language: ru
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.25
+
+- language: zh-Hans
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.53
+
+- language: vi
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 1.82
+tags:
+- guides
+- software
+- user-friendly

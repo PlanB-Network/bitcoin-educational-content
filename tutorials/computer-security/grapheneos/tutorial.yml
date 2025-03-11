@@ -1,0 +1,97 @@
+id: 08d43d7a-0b22-4638-a151-578d48d32d88
+builder: GrapheneOS
+
+category: operating system
+
+level: advanced
+
+credits:
+  professor: cover-brother
+  link: https://bitcoiner.guide/grapheneos/
+
+# Proofreading metadata
+project_id: ce82f356-4662-4dad-ba0c-a0ec4f56cf2a
+original_language: fr
+proofreading:
+- language: cs
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 19.38
+- language: de
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 9.74
+- language: en
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 9.74
+- language: es
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 14.56
+- language: fi
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 19.38
+- language: fr
+  last_contribution_date: 2024-09-01
+  urgency: 1
+  contributors_id:
+  - Asi0Flammeus
+  reward: 4.87
+- language: it
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 14.56
+- language: ja
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 29.02
+- language: pt
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 9.74
+- language: ru
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 19.38
+- language: vi
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 29.02
+- language: et
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 19.38
+- language: id
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 24.2
+- language: zh-Hans
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 24.2
+
+
+- language: nb-NO
+  last_contribution_date:
+  urgency: 1
+  contributors_id:
+  reward: 19.38
+tags:
+- guides
+- personal-security
+- good-practice

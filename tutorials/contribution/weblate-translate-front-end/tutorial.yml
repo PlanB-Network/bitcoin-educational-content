@@ -1,8 +1,7 @@
-id: 07b1c16c-d517-4bf7-9a78-b42dc0f21785
+id: 8213b931-650f-4efd-8f4e-9a8ae5ce6295
+builder: Plan ₿ Network
 
-project_id: a619c7ac-9adb-481e-93e2-62a11c8fe2e0
-
-category: others
+category: contribution
 
 level: beginner
 
@@ -10,101 +9,89 @@ credits:
   professor: pretty-private
 
 # Proofreading metadata
-
+project_id: cd62a137-baad-4133-b90d-711963e510c7
 original_language: fr
 proofreading:
-  - language: fr
-    last_contribution_date: 2025-02-05
-    urgency: 1
-    contributors_id:
-      - LoicPandul
-    reward: 0.56
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2.13
-
+    reward: 0.99
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1.11
-
+    reward: 0.54
   - language: en
     last_contribution_date: 2025-04-03
     urgency: 1
     contributors_id:
       - MariJJhodl
     reward: 0.54
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1.62
-
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2.13
-
+    reward: 0.77
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2.13
-
-  - language: id
-    last_contribution_date:
+    reward: 0.99
+  - language: fr
+    last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
-    reward: 2.64
-
+      - Asi0Flammeus
+    reward: 0.27
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1.62
-
+    reward: 0.77
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 3.14
+    reward: 1.43
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.54
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.99
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.43
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.99
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.21
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.21
+
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2.13
-
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 1.11
-
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2.13
-
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 3.14
-
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2.64
+    reward: 0.99
 tags:
-  - business
-  - wallets
   - guides
+  - good-practice
+  - user-friendly

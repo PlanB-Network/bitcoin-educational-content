@@ -1503,17 +1503,14 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Deklarativ** | **Fungibel** | **Strukturert** | **Bilag** | **Bilag
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
+| **Element**        | **Deklarativ** | **Fungibel**                         | **Strukturert**                 | **Vedlegg**                     |
+| ------------------ | -------------- | ------------------------------------ | ----------------------------- | ----------------------------- |
+| **Data**          | Ingen          | Signert eller usignert 64-bit heltall | Enhver streng datatype         | Enhver fil                     |
+| **Infotype**      | Ingen          | Signert eller usignert                | Strenge typer                  | MIME-type                      |
+| **Personvern**    | Ikke påkrevd   | Pedersen commitment                   | Hash med blinding              | Hash-basert filidentifikator   |
+| **Størrelsesgrenser** | N/A        | 256 byte                             | Opptil 64 KB                    | Opptil ~500 GB                 |
 
-| Ingen | 64-biters heltall med eller uten fortegn | Alle strenge datatyper | Alle filer | Alle filer
-
-| Info type** | Ingen | Signerte eller usignerte | Strenge typer | MIME-type | MIME-type
-
-| Pedersen-forpliktelse | Hashing med blinding | Hashet fil-ID
-
-størrelsesbegrensninger** | N/A | 256 byte | Opptil 64 KB | Opptil ~500 Gb | | 256 byte
 
 ### Innganger
 
@@ -1958,17 +1955,13 @@ Det er viktig å merke seg at for at en lommebok skal kunne administrere en RGB-
 
 For å klargjøre disse begrepene, følger her en oppsummeringstabell som sammenligner komponentene i en RGB-kontrakt med begreper som allerede er kjent enten i objektorientert programmering (OOP) eller i Ethereums økosystem:
 
-| RGB-kontraktskomponent | Betydning | OOP-ekvivalent | Ethereum-ekvivalent | OOP-ekvivalent
+| RGB-kontraktkomponent        | Betydning                          | OOP-ekvivalent                        | Ethereum-ekvivalent               |
+| ---------------------------- | --------------------------------- | ------------------------------------ | --------------------------------- |
+| **Genesis**                  | Kontraktens opprinnelige tilstand | Klassekonstruktør                     | Kontraktskonstruktør              |
+| **Schema**                   | Forretningslogikken i kontrakten  | Klasse                               | Kontrakt                         |
+| **Interface**                | Semantikken til kontrakten        | Grensesnitt (Java) / Trait (Rust) / Protokoll (Swift) | ERC-standard                     |
+| **Interface Implementation** | Kartlegging av semantikk og logikk | Impl (Rust) / Implements (Java)     | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Klassekonstruktør | Kontraktskonstruktør | Kontraktens opprinnelige tilstand
-
-| Klasse | Kontraktens forretningslogikk
-
-| Kontraktsemantikk | Grensesnitt (Java) / egenskap (Rust) / protokoll (Swift) | ERC-standard | ERC
-
-| Application Binary Interface (ABI) | Impl (Rust) / Implements (Java) | Mapping av semantikk og logikk
 
 Den venstre kolonnen viser elementene som er spesifikke for RGB-protokollen. Den midterste kolonnen viser den konkrete funksjonen til hver komponent. I kolonnen "OOP-ekvivalent" finner vi den tilsvarende termen i objektorientert programmering:
 

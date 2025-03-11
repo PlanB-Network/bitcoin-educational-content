@@ -1071,11 +1071,11 @@ Aceste cicluri de bule speculative sunt destul de unice în lume, deoarece este 
 
 ![image](assets/en/70.webp)
 
-Astăzi, Bitcoin continuă să supraviețuiască și să crească și mai mult, fiind integrat din ce în ce mai mult în piața tradițională, iar introducerea ETF-urilor Bitcoin, a unor reglementări mai clare și a unor instrumente îmbunătățite pentru achiziționare și stocare contribuie toate la acest impuls pozitiv. Bitcoin a supraviețuit DIN NOU bulei sale speculative, așa că poate că, până la urmă, nu este doar aer cald!
+Astăzi, Bitcoin continuă să supraviețuiască și să crească și mai mult, fiind integrat din ce în ce mai mult în piața tradițională, iar introducerea ETF-urilor Bitcoin, a unor reglementări mai clare și a unor instrumente îmbunătățite pentru achiziționare și stocare contribuie toate la acest impuls pozitiv. Bitcoin a supraviețuit DIN NOU bulei sale speculative, așa că poate că, până la urmă, nu este doar aer fierbinte!
 
 ![image](assets/en/71.webp)
 
-## Obținerea Bitcoins prin muncă
+## Obținerea de Bitcoini prin muncă
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
 
@@ -1091,7 +1091,7 @@ Economia Bitcoin există și se dezvoltă în anumite regiuni ale lumii, cum ar 
 
 ### De ce ar trebui să acceptăm Bitcoin în loc să îl cumpărăm?
 
-Pentru a obține bitcoini, îi puteți cumpăra de pe platforme reglementate de organisme precum AMF (Autorité des Marchés Financiers) în Franța sau Securities & Exchange Commission (SEC) în SUA, însă această soluție implică trasabilitatea tranzacțiilor dvs. O altă metodă de a obține bitcoini este să îi acceptați ca mijloc de plată pentru produsele sau serviciile pe care le oferiți, astfel încât să puteți achiziționa bitcoini prin intermediul activității dvs. fără a vă îngrijora constant de prețul Bitcoin.
+Pentru a obține bitcoini, îi puteți cumpăra de pe platforme reglementate de organisme precum AMF (Autorité des Marchés Financiers) în Franța sau Securities & Exchange Commission (SEC) în SUA, însă această soluție implică trasabilitatea tranzacțiilor dvs. O altă metodă de a obține bitcoini este să îi acceptați ca mijloc de plată pentru produsele sau serviciile pe care le oferiți, astfel încât să puteți achiziționa bitcoini prin intermediul activității dvs. fără a vă îngrijora constant de prețul lor.
 
 În plus, acceptarea Bitcoin în calitate de comerciant are mai multe avantaje, inclusiv rezistența la cenzură, taxe de tranzacție reduse, eficiență sporită, protecție împotriva inflației, precum și libertate și suveranitate financiară.
 
@@ -1099,7 +1099,7 @@ Pentru a obține bitcoini, îi puteți cumpăra de pe platforme reglementate de 
 
 ### Cum puteți proceda?
 
-Pentru a accepta Bitcoin, este necesar să studiați diferitele soluții disponibile și să o alegeți pe cea care se potrivește cel mai bine afacerii dumneavoastră. Nu există o soluție perfectă, iar pentru a face alegerea trebuie luați în considerare mai mulți factori, cum ar fi volumul de tranzacții preconizat, bugetul alocat și tipul de afacere (online sau fizică).
+Pentru a accepta Bitcoin, este necesar să studiați diferitele soluții disponibile și să o alegeți pe cea care se potrivește cel mai bine afacerii dumneavoastră. Nu există o soluție perfectă și trebuie luate în considerare mai multe elemente pentru a face alegerea, cum ar fi volumul de tranzacții preconizat, bugetul alocat și tipul de afacere (online sau fizică).
 
 Vom aborda acest subiect în detaliu într-un alt curs, dar pentru a simplifica lucrurile, putem lua în considerare mai multe categorii de întreprinderi și, prin urmare, soluțiile aferente.
 
@@ -1112,7 +1112,7 @@ https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8
 
 https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-- Soluție pentru structuri mari sau bitcoineri pasionați: Server BTCpay
+- Soluție pentru structuri mari sau bitcoineri pasionați: BTCpay Server
 
 ## Economisirea cu Bitcoin
 
@@ -1120,7 +1120,7 @@ https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-e
 
 ### Un avertisment înainte de a începe!
 
-Bitcoin a devenit un activ financiar major, în principal datorită ofertei sale limitate și cererii în creștere. Cu toate acestea, cumpărarea de Bitcoin comportă riscuri care necesită o atenție deosebită. Prin urmare, este recomandat să efectuați propriile cercetări și să aflați mai multe despre acest subiect pentru a vă familiariza cu tehnologia înainte de a investi orice fonduri.
+Bitcoin a devenit un activ financiar major, în principal datorită ofertei sale limitate și cererii în creștere. Cu toate acestea, achiziționarea de Bitcoin comportă riscuri care necesită o atenție deosebită. Prin urmare, este recomandat să efectuați propriile cercetări și să aflați mai multe despre acest subiect pentru a vă familiariza cu tehnologia înainte de a investi orice fonduri.
 
 
 - Investiți doar ceea ce vă puteți permite să pierdeți.
@@ -1128,7 +1128,7 @@ Bitcoin a devenit un activ financiar major, în principal datorită ofertei sale
 - Performanțele anterioare nu sunt un indicator fiabil al performanțelor viitoare.
 - Contactați consilierul dvs. financiar, dacă este necesar.
 
-**Planul ₿ Network nu oferă consultanță în materie de investiții și nimic din ceea ce se afirmă aici nu trebuie considerat ca atare**
+**Plan ₿ Network nu oferă consultanță în materie de investiții și nimic din ceea ce se afirmă aici nu trebuie considerat ca atare**
 
 ### Mini listă de verificare înainte de a face pasul cel mare
 
@@ -1164,18 +1164,18 @@ O strategie graduală implică achiziții recurente, adică cumpărarea de canti
 
 O soluție unică ar putea fi o achiziție spontană, care este utilizată pentru a obține imediat expunere la bitcoin. Fie că este vorba de a cumpăra în timpul unei prăbușiri sau de a profita de un bonus, decizia vă aparține. Va trebui să vă adunați curajul și să apăsați butonul de cumpărare.
 
-În acest caz, trebuie să fiți atenți și să vă controlați emoțiile, deoarece prețul bitcoin poate fi destul de volativ. De fapt, FOMO (Fear of Missing Out) și FUD (Fear, Uncertainty, Doubt) sunt cei mai mari dușmani ai tăi! Nu uitați să vă păstrați calmul și să urmați strategia pe care ați stabilit-o în prealabil, pentru a evita luarea unor decizii impulsive și potențial dăunătoare.
+În acest caz, trebuie să fiți atenți și să vă controlați emoțiile, deoarece prețul bitcoin poate fi destul de volativ. De fapt, FOMO (Fear of Missing Out) și FUD (Fear, Uncertainty, Doubt) sunt cei mai mari dușmani! Nu uitați să vă păstrați calmul și să urmați strategia pe care ați stabilit-o în prealabil, pentru a evita luarea unor decizii impulsive și potențial dăunătoare.
 
 ### De la cine ar trebui să ne cumpărăm bitcoin?
 
-Există mai multe modalități de a achiziționa bitcoini, fiecare făcând obiectul propriului set de reglementări care pot varia în funcție de jurisdicție. Unele platforme necesită identificare pentru verificare (KYC), în timp ce altele nu. Prin urmare, este esențial să înțelegeți reglementările asociate cu fiecare platformă.
+Există mai multe modalități de a achiziționa bitcoini, și fiecare face parte dintr-un cadru de reglementări care poate varia în funcție de jurisdicție. Unele platforme necesită identificare pentru verificare (KYC), în timp ce altele nu. Prin urmare, este esențial să înțelegeți reglementările asociate cu fiecare platformă.
 
 
 - Platforme DCA
 
 După cum am prezentat mai sus, o metodă comună de a acumula bitcoini este Dollar Cost Averaging (DCA), care implică cumpărarea regulată de cantități mici. Mai multe platforme oferă acest serviciu, cum ar fi cele enumerate pe [pagina noastră dedicată](https://planb.network/tutorials/exchange). În plus față de simplitatea configurării unui DCA, retragerile în portofel sunt în general automate, ceea ce înseamnă că veți avea întotdeauna controlul asupra activelor dvs.
 
-În prezent, aproape toate soluțiile DCA sunt relativ eficiente și au taxe aproape similare, astfel încât alegerea va depinde mai mult de disponibilitatea în țara dumneavoastră.
+În prezent, aproape toate soluțiile DCA sunt relativ de eficiente și au taxe similare, astfel încât alegerea va depinde mai mult de disponibilitatea în țara dumneavoastră.
 
 
 - Platforme de brokeraj
@@ -1196,7 +1196,7 @@ Utilizarea lor este simplă și accesibilă tuturor:
 
 După cumpărare, este recomandabil să retrageți imediat bitcoinii de pe platformele de schimb pentru a reduce la minimum riscurile de piraterie informatică și de blocare a fondurilor. Rețineți că taxele de retragere pot fi ridicate, uneori de până la 25 de euro, în funcție de platformă.
 
-**Reglementările privind cunoașterea clientului (KYC) cer utilizatorilor să se identifice pentru a combate finanțarea terorismului, evaziunea fiscală și spălarea banilor.**
+**Reglementările Know Your Customer (KYC) cer utilizatorilor să se identifice pentru a combate finanțarea terorismului, evaziunea fiscală și spălarea banilor.**
 
 Este esențial să recunoaștem că KYC este un subiect semnificativ de discuție în industria Bitcoin. În timp ce mulți oameni dezbat eficacitatea sa, există numeroase preocupări asociate cu aceasta. În multe dintre programele de formare și conținutul academiei noastre, sfătuim utilizatorii avansați să evite platformele care necesită KYC, deoarece există adesea alternative disponibile mai axate pe confidențialitate.
 
@@ -1235,32 +1235,32 @@ Ascensiunea Bitcoin obligă companiile, universitățile, autoritățile de regl
 
 ![image](assets/en/77.webp)
 
-Dacă doriți să vă extindeți cunoștințele despre Bitcoin, acesta este momentul potrivit: un număr mare de autori, gânditori și eseisti au creat conținut educațional despre Bitcoin. În ultimii câțiva ani, am listat și clasificat aceste lucrări pentru a oferi o [bibliotecă de resurse](https://planb.network/resources) celor mai curioși dintre voi. În secțiunea respectivă, veți găsi cele mai bune podcasturi, site-uri web, articole, tutoriale, cărți și alt conținut.
+Dacă doriți să vă extindeți cunoștințele despre Bitcoin, acesta este momentul potrivit: un număr mare de autori, gânditori și eseisti au creat conținut educațional despre Bitcoin. În ultimii câțiva ani, am listat și clasificat aceste lucrări pentru a oferi o [bibliotecă de resurse](https://planb.network/resources) celor mai curioși dintre voi. În secțiunea respectivă, veți găsi cele mai bune podcasturi, site-uri web, articole, tutoriale, cărți și alte conținuturi.
 
 > "Cred că internetul va fi una dintre forțele majore de reducere a rolului guvernului. Singurul lucru care lipsește, dar care va fi dezvoltat în curând, este un e-cash fiabil - o metodă prin care pe internet poți transfera fonduri de la A la B fără ca A să-l cunoască pe B sau B să-l cunoască pe A." - Previziune a lui Milton Friedman în 1999
 # Viitorul Bitcoin: Rețeaua Lightning
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## O scurtă introducere în rețeaua Lightning
+## O scurtă introducere despre Lightning Network
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Acum că avem elementele de bază ale protocolului Bitcoin, vom prezenta o rețea de plăți care utilizează protocolul Bitcoin pentru a permite tranzacții rapide ca fulgerul: Rețeaua Lightning!
+Acum că avem elementele de bază ale protocolului Bitcoin, vom prezenta o rețea de plăți care utilizează protocolul Bitcoin pentru a permite tranzacții rapide ca fulgerul: Lightning Network!
 
 Fiți conștienți de faptul că următoarea este doar o descriere generală, astfel încât, dacă doriți să o înțelegeți în detalii mai profunde, vă invităm să consultați cursul nostru LNP201.
 
 ### Pe scurt
 
-Rețeaua Lightning este o tehnologie revoluționară care a schimbat profund percepția noastră asupra Bitcoin, deoarece abordează problema scalabilității Bitcoin.
+Lightning Network este o tehnologie revoluționară care a schimbat profund percepția noastră asupra Bitcoin, deoarece abordează problema scalabilității Bitcoin.
 
-Pentru a înțelege pe deplin rețeaua Lightning, este esențial să înțelegem modul în care Bitcoin evoluează și se dezvoltă în straturi de infrastructură: primul strat este blockchain-ul, iar al doilea este rețeaua Lightning.
+Pentru a înțelege pe deplin Lightning Network, este esențial să înțelegem modul în care Bitcoin evoluează și se dezvoltă în straturi de infrastructură: primul strat este blockchain-ul, iar al doilea este Lightning Network.
 
 ![image](assets/en/78.webp)
 
 ### Un Blockchain nu poate crește la nesfârșit
 
-Rețeaua Lightning a fost validată și implementată în 2017 pentru a rezolva problema scalabilității Bitcoin, deoarece permite tranzacții Bitcoin instantanee și la costuri reduse.
+Lightning Network a fost validat și implementat în 2017 pentru a rezolva problema scalabilității Bitcoin, deoarece permite tranzacții Bitcoin instantanee și la costuri reduse.
 
 Problema scalabilității se referă la provocarea de a pune în aplicare un sistem monetar capabil să furnizeze un număr din ce în ce mai mare de tranzacții pe secundă pentru a face față adoptării în creștere. Această problemă se referă la trilema blockchain. Imaginați-vă un triunghi având ca vârfuri descentralizarea, securitatea și scalabilitatea.
 
@@ -1268,9 +1268,9 @@ Problema scalabilității se referă la provocarea de a pune în aplicare un sis
 
 Potrivit acestuia, un protocol bazat pe un blockchain poate satisface doar două din aceste trei caracteristici. În cadrul protocolului Bitcoin, dezvoltatorii au făcut alegeri pentru a favoriza descentralizarea și securitatea. Pe de o parte, dimensiunea blocului de 1 MB și timpul dintre două blocuri (în medie 10 minute) permit funcționarea unui nod Bitcoin la un cost mai mic, favorizând descentralizarea. Pe de altă parte, producerea de blocuri prin Proof-of-Work face ca frauda în cadrul protocolului să fie extrem de costisitoare, facilitând în același timp verificarea de către nodurile rețelei și favorizând securitatea. Cu toate acestea, aceste alegeri impun o limită asupra numărului mediu de tranzacții dintr-un bloc, care corespunde aproximativ câtorva tranzacții pe secundă. Acest număr este ridicol în comparație cu capacitatea de calcul a procesoarelor de plată precum VISA (1700/s), dar această limită este necesară pentru a tranzacționa cu Bitcoin într-un mod rezistent la cenzură și fără încredere. Cu toate acestea, cei care dezvoltă Bitcoin s-au gândit la această problemă încă de la început.
 
-### Fulgere ca un strat deasupra
+### Lightning ca un strat superior
 
-După ani de reflecție și încercări multiple, a apărut protocolul Lightning. Folosind un anumit număr de specificații, acest protocol construiește o rețea de plăți peer-to-peer, valorificând securitatea și programabilitatea protocolului de tranzacții Bitcoin. Rețeaua Lightning acționează ca o rețea de canale de plată, permițând tranzacții instantanee cu comisioane reduse pentru expeditor și creează chiar rute de schimb între persoane care nu au o conexiune directă pe canal.
+După ani de reflecție și încercări multiple, a apărut protocolul Lightning. Folosind un anumit număr de specificații, acest protocol construiește o rețea de plăți peer-to-peer, valorificând securitatea și programabilitatea protocolului de tranzacții Bitcoin. Lightning Network acționează ca o rețea de canale de plată, permițând tranzacții instantanee cu comisioane reduse pentru expeditor și creează chiar rute de schimb între persoane care nu au o conexiune directă pe canal.
 
 ![image](assets/en/80.webp)
 
@@ -1278,23 +1278,23 @@ Serviciile tradiționale de transfer de bani precum Western Union, băncile cent
 
 ![image](assets/en/81.webp)
 
-Tranzacțiile sunt securizate prin criptografie și indirect prin energia consumată de minerii Bitcoin. Acestea pot fi efectuate instantaneu, fără limitări geografice, cu comisioane extrem de mici (adesea mai mici de 0,5%).
+Tranzacțiile sunt securizate prin criptografie și indirect prin energia consumată de mineri Bitcoin. Acestea pot fi efectuate instantaneu, fără limitări geografice, cu comisioane extrem de mici (adesea mai mici de 0,5%).
 
 Pe scurt, Lightning Network este o încercare promițătoare de a implementa un sistem de plată eficient pentru a cumpăra și vinde în Bitcoin. Există deja numeroase portofele Lightning disponibile, pe care le puteți descoperi în secțiunea noastră de tutoriale sau prin intermediul cursurilor noastre Lightning Network.
 
-Dacă doriți să mergeți dincolo de această introducere și să înțelegeți toate funcțiile rețelei Lightning, vă recomandăm să urmați acest curs excelent al lui Fanis Michalakis pe această temă:
+Dacă doriți să mergeți mai departe și să înțelegeți toate funcțiile rețelei Lightning, vă recomandăm să urmați acest curs excelent al lui Fanis Michalakis pe această temă:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
-## Cazuri de utilizare a rețelei Lightning
+## Cazuri de utilizare a Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
-După cum tocmai am văzut, protocolul Bitcoin, deși revoluționar, se confruntă cu provocări semnificative în ceea ce privește scalabilitatea necesară pentru a gestiona toate tranzacțiile noastre zilnice. Pentru a rezolva aceste probleme, a fost propusă rețeaua Lightning, care s-a dezvoltat de atunci în mai multe implementări diferite, toate fiind interoperabile:
+După cum tocmai am văzut, protocolul Bitcoin, deși revoluționar, se confruntă cu provocări semnificative în ceea ce privește scalabilitatea necesară pentru a gestiona toate tranzacțiile noastre zilnice. Pentru a rezolva aceste probleme, a fost propus Lightning Network, care s-a dezvoltat de atunci în mai multe implementări diferite, toate fiind interoperabile:
 
 
-- Core-lightning de Blockstream
-- Eclair de Acinq
-- LND prin lovire cu fulgerul
+- Core-lightning realizat de Blockstream
+- Eclair realizat de Acinq
+- LND realizat de Lightning strike
 
 Această rețea peer-to-peer își propune să faciliteze micro-tranzacțiile (cu o valoare foarte mică) care altfel ar fi impracticabile din cauza taxelor ridicate și a timpilor lungi de confirmare pe blockchain-ul Bitcoin.
 

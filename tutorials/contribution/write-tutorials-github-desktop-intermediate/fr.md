@@ -6,7 +6,7 @@ description: Guide complet pour proposer un tutoriel sur Plan ₿ Network avec G
 
 Avant de suivre ce tutoriel sur l'ajout d'un nouveau tutoriel, vous devez avoir complété quelques étapes préliminaires. Si ce n'est pas encore fait, je vous invite à consulter d'abord ce tutoriel introductif, puis à revenir ici :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Vous avez déjà :
 - Choisi le thème de votre tutoriel ;
@@ -17,13 +17,13 @@ Dans ce tutoriel, nous allons voir comment ajouter votre tutoriel sur Plan ₿ N
 
 - **Utilisateurs expérimentés** :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 Si vous préférez ne pas configurer votre environnement local, suivez cet autre tutoriel conçu pour les débutants, où nous effectuons les modifications directement via l'interface web de GitHub :
 
 - **Débutants (interface web)** :
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Prérequis
 
@@ -45,11 +45,11 @@ Si vous avez besoin d'aide pour obtenir ces prérequis, mes autres tutoriels vou
 
 
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/others/contribution/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Une fois que tout est en place, que votre environnement local est bien paramétré avec votre propre fork de Plan ₿ Network, vous allez pouvoir commencer l'ajout du tutoriel.
 
@@ -140,7 +140,7 @@ Pour la case "PBN professor's ID", saisissez votre identifiant en utilisant les 
 
 Si vous n'avez pas encore de profil de professeur, consultez ce tutoriel :
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Cliquez ensuite sur le bouton "New Tutorial".
 
@@ -271,7 +271,7 @@ Voici le détail des champs obligatoires :
 
 Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Voici un exemple de fichier `tutorial.yml` complété pour un tutoriel sur le wallet Blockstream Green :
 

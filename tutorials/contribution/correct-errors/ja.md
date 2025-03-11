@@ -12,13 +12,13 @@ PlanBのミッションは、できるだけ多くの言語でBitcoinに関す�
 
 ドキュメントの完全なレビューと改訂、特にコンテンツの翻訳を行う予定の場合は、この他の詳細なチュートリアルをご覧ください。
 
-https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/tutorial/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 
 ここでは、小さなエラーに対する素早い訂正の方法にのみ焦点を当てます。
 
 - まず、GitHubアカウントを持っている必要があります。アカウントの作成方法がわからない場合は、詳細なチュートリアルを用意しています。
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - [PlanB専用のデータGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content)にアクセスしてください：

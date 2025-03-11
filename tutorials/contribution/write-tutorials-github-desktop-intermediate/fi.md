@@ -6,7 +6,7 @@ description: Täydellinen opas opetusohjelman ehdottamiseen Plan ₿ -verkossa G
 
 Ennen kuin seuraat tätä ohjeistusta uuden ohjeen lisäämisestä, sinun on suoritettava joitakin alustavia vaiheita. Jos et ole vielä tehnyt sitä, pyydän sinua tutustumaan ensin tähän johdanto-oppaaseen ja palaamaan sitten tänne:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 Olette jo:
 
 
@@ -19,13 +19,13 @@ Tässä oppaassa katsotaan, miten voit lisätä oppaasi Plan ₿ -verkkoon perus
 
 - Kokeneet käyttäjät**:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Jos et halua perustaa paikallista ympäristöä, seuraa tätä toista aloittelijoille suunnattua ohjetta, jossa teemme muutokset suoraan GitHubin web-käyttöliittymän kautta:
 
 
 - Aloittelijoille (verkkokäyttöliittymä)**:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Edellytykset
 
 Tämän ohjeen seuraamiseen tarvittava ohjelmisto:
@@ -139,7 +139,7 @@ Kirjoita "PBN professor's ID" -kenttään tunnuksesi käyttäen sanoja BIP39-lue
 
 Jos sinulla ei vielä ole professorin profiilia, tutustu tähän ohjeeseen:
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 Napsauta sitten "Uusi opetusohjelma" -painiketta.
 
 ![DATA-CREATOR-PY](assets/fr/42.webp)
@@ -258,7 +258,7 @@ Tässä ovat pakollisten kenttien tiedot:
 
 Lisätietoja professorin tunnuksesta saat vastaavasta ohjeesta:
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 Tässä on esimerkki valmiista `tutorial.yml`-tiedostosta Blockstream Green -lompakkoa koskevaa opetusohjelmaa varten:
 
 ```

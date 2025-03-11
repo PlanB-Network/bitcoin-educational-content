@@ -6,7 +6,7 @@ description: Полное руководство по созданию учеб�
 
 Прежде чем следовать этому руководству по добавлению нового учебника, вы должны выполнить несколько предварительных шагов. Если вы еще не сделали этого, я приглашаю вас сначала ознакомиться с этим вводным уроком, а затем вернуться сюда:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 Вы уже сделали это:
 
 
@@ -19,13 +19,13 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 
 - Опытные пользователи**:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Если вы предпочитаете не настраивать локальное окружение, следуйте другому руководству, предназначенному для новичков, где мы вносим изменения непосредственно через веб-интерфейс GitHub:
 
 
 - Новички (веб-интерфейс)**:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Пререквизиты
 
 Программное обеспечение, необходимое для выполнения данного руководства:
@@ -138,7 +138,7 @@ python3 main.py
 
 Если у вас еще нет профиля профессора, ознакомьтесь с этим руководством:
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 Затем нажмите кнопку "Новый учебник".
 
 ![DATA-CREATOR-PY](assets/fr/42.webp)
@@ -257,7 +257,7 @@ reward:
 
 Для получения более подробной информации об идентификаторе профессора обратитесь к соответствующему учебному пособию:
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 Вот пример заполненного файла `tutorial.yml` для учебника по кошельку Blockstream Green:
 
 ```

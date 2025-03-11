@@ -14,7 +14,7 @@ description: Как добавить новые образовательные �
 ![event](assets/01.webp)
 - Во-первых, вам нужно иметь аккаунт на GitHub. Если вы не знаете, как создать аккаунт, мы подготовили подробный учебник, который вас направит.
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) в раздел `resources/bet/`:
@@ -49,7 +49,7 @@ contributors:
 Вот детали, которые нужно заполнить для каждого поля:
 - **`builder`**: Укажите идентификатор вашей организации в сети PlanB. Если у вашей компании еще нет идентификатора "builder", вы можете создать его, следуя этому руководству.
 
-https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  Если у вас его нет, вы можете просто использовать ваше имя, псевдоним или название вашей компании, не создавая профиль builder.
 - **`type`**: Выберите характер вашего контента из следующих двух вариантов:

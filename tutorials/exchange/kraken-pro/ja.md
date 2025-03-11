@@ -78,7 +78,7 @@ Continue*」ボタンをクリックする。
 
 このタイプのデバイスの使用方法の詳細については、専用のチュートリアルをご覧ください：
 
-https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 もう1つの方法は、Google AuthenticatorやAuthyなどの認証アプリケーションを使用することです。これらのアプリケーションは、ログオンするたびに入力する必要がある動的な6桁のコードを生成します。
 
@@ -90,7 +90,7 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 認証アプリケーションの詳細については、このチュートリアルを参照してください：
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 その下には、複数の異なる2FAを設定する機能を含む高度な設定にもアクセスできる。Krakenは、2FAによる高度なセキュリティ委任を提供しています。この機能では、ログイン、注文の検証、資金の引き出しなど、さまざまなアクションに対して異なる2FAレベルを作成できます。これにより、例えば、会計士に資金の引き出しを許可せずに、特定の機能へのアクセスを許可することが可能になります。以下はそのオプションです：
 

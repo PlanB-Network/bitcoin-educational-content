@@ -10,11 +10,11 @@ description: ビットコイン決済を簡単に受け入れる方法とは？
 
 銀行口座に直接法定通貨を受け取りたいと考える人々のために、Open Nodeのようなカストディアン・ソリューションが利用可能です：
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 プロセスを確実に管理したいと考え、時間をかける準備ができているお店にとって、BTCPay Serverソフトウェアは優れた選択肢です。しかし、BTCPay Serverの主な欠点は、そのセットアップと管理に時間がかかり、ある程度の技術的専門知識が必要であることです：
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 これらすべての解決策の中で、Swiss Bitcoin Payは、使いやすさ、機能、セキュリティを組み合わせた非常に興味深い妥協案として活用してください。このソリューションは、非常に小規模なビジネスから大規模な企業まで、どちらにも適しています。このチュートリアルでは、ビジネスでビットコインを簡単に導入するためにSwiss Bitcoin Payをどのように使用すべきなのか見ていきます。
 

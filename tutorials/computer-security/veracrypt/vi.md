@@ -15,7 +15,7 @@ Nói cách khác, bạn nên lưu trữ các tệp của mình ở 3 địa đi�
 
 Để dễ dàng triển khai chiến lược sao lưu 3-2-1 này, bạn có thể chọn một giải pháp lưu trữ trực tuyến, bằng cách đồng bộ hóa tự động hoặc định kỳ các tệp từ máy tính của bạn với những tệp trong đám mây của bạn. Trong số các giải pháp sao lưu trực tuyến này, rõ ràng có những giải pháp từ các công ty kỹ thuật số lớn bạn biết: Google Drive, Microsoft OneDrive, hoặc Apple iCloud. Tuy nhiên, đây không phải là những giải pháp tốt nhất để bảo vệ quyền riêng tư của bạn. Trong một hướng dẫn trước đây, tôi đã giới thiệu cho bạn một lựa chọn thay thế mã hóa tài liệu của bạn để bảo mật tốt hơn: Proton Drive.
 
-https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Bằng cách áp dụng chiến lược sao lưu cục bộ và đám mây này, bạn đã được hưởng lợi từ hai loại phương tiện khác nhau cho dữ liệu của mình, một trong số đó là ở nơi khác. Để hoàn thành chiến lược 3-2-1, bạn chỉ cần thêm một bản sao nữa. Điều tôi khuyên bạn làm là đơn giản chỉ cần xuất kỳ dữ liệu hiện có cục bộ và trên đám mây của bạn sang một phương tiện vật lý, như một USB hoặc ổ cứng ngoài. Theo cách này, ngay cả khi máy chủ của giải pháp lưu trữ trực tuyến của bạn bị phá hủy và máy tính của bạn hỏng cùng một lúc, bạn vẫn có bản sao thứ ba này trên một phương tiện ngoại vi để không mất dữ liệu.
 ![VeraCrypt](assets/notext/01.webp)

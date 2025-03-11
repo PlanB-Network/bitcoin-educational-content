@@ -109,8 +109,8 @@ IVPN затем создаст ваш аккаунт. Вам не нужно п�
 ![IVPN](assets/notext/32.webp)
 Вот и все, теперь вы полностью готовы к использованию IVPN. Если вы также хотите повысить безопасность ваших онлайн-аккаунтов с помощью локального менеджера паролей, я приглашаю вас ознакомиться с нашим учебным пособием по KeePass, бесплатному и открытому решению:
 
-https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Если вас интересует знакомство с другим провайдером VPN, похожим на IVPN как по функционалу, так и по цене, я также рекомендую ознакомиться с нашим учебным пособием по Mullvad:
 
-https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

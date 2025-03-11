@@ -334,7 +334,7 @@ Sparrow Wallet [公式ウェブサイトから](https://sparrowwallet.com/)を�
 
 インストール前に必ずソフトウェアの信頼性と完全性を確認してください。その方法がわからない場合は、こちらのチュートリアルを参考にしてください：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sparrow Walletを開いたら、"*File*"タブをクリックし、"*New Wallet*"をクリックしてください。
 

@@ -6,7 +6,7 @@ description: Hướng dẫn đầy đủ để đề xuất hướng dẫn về 
 
 Trước khi làm theo hướng dẫn này để thêm hướng dẫn mới, bạn phải hoàn thành một số bước sơ bộ. Nếu bạn chưa làm như vậy, tôi mời bạn tham khảo hướng dẫn giới thiệu này trước, sau đó quay lại đây:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 Bạn đã có:
 
 
@@ -19,13 +19,13 @@ Trong hướng dẫn này, chúng ta sẽ xem cách thêm hướng dẫn của b
 
 - Người dùng có kinh nghiệm**:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Nếu bạn không muốn thiết lập môi trường cục bộ, hãy làm theo hướng dẫn này dành cho người mới bắt đầu, trong đó chúng tôi thực hiện các thay đổi trực tiếp thông qua giao diện web của GitHub:
 
 
 - Người mới bắt đầu (giao diện web)**:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Điều kiện tiên quyết
 
 Phần mềm cần thiết để thực hiện hướng dẫn này:
@@ -139,7 +139,7 @@ Trong trường "ID giáo sư PBN", hãy nhập mã định danh của bạn b�
 
 Nếu bạn chưa có hồ sơ giáo sư, hãy xem hướng dẫn này:
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 Sau đó nhấp vào nút "Hướng dẫn mới".
 
 ![DATA-CREATOR-PY](assets/fr/42.webp)
@@ -258,7 +258,7 @@ Sau đây là thông tin chi tiết về các trường bắt buộc:
 
 Để biết thêm chi tiết về mã định danh giáo sư của bạn, hãy tham khảo hướng dẫn tương ứng:
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 Sau đây là ví dụ về tệp `tutorial.yml` đã hoàn thành cho hướng dẫn về ví Blockstream Green:
 
 ```

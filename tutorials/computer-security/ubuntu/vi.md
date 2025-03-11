@@ -225,4 +225,4 @@ Bây giờ bạn đã sẵn sàng sử dụng Ubuntu hàng ngày: bảo mật h�
 
 Để nâng cao hơn nữa tính bảo mật cho cuộc sống số của bạn, chúng tôi khuyên bạn nên xem qua dịch vụ nhắn tin được mã hóa của chúng tôi, dịch vụ này hoàn toàn phù hợp để bảo vệ quyền riêng tư của bạn và bổ sung cho cài đặt Ubuntu của bạn:
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

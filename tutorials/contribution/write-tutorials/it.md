@@ -85,14 +85,14 @@ Per contribuire a Plan ₿ Network, avete 3 opzioni a seconda del vostro livello
 
 - Utenti esperti**: Continuate con i vostri metodi abituali e consultate semplicemente il breve tutorial qui sotto che riassume la struttura dei file del repository di rete Plan ₿, i requisiti specifici e il metodo di lavoro:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 - Intermedio (GitHub Desktop)** : Se non si ha familiarità con l'uso di Git, la prima opzione è quella di configurare facilmente il proprio ambiente locale per contribuire a Plan ₿ Network. Questo approccio è consigliato per contributi significativi, come la stesura di un tutorial completo. Per farlo, seguite la guida passo-passo qui sotto:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - Principianti (interfaccia web)** : Si può anche scegliere di utilizzare direttamente l'interfaccia web di GitHub, senza dover configurare un ambiente locale completo. Questo metodo può essere preso in considerazione per contributi minori. Tuttavia, per contributi importanti, come l'aggiunta di un nuovo tutorial completo, questa opzione può rivelarsi più complessa della creazione di un ambiente locale. In questo tutorial spiegherò come fare:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 Scegliete una delle tre opzioni in base al vostro livello di conoscenza e iniziate a scrivere il vostro primo tutorial sul Piano ₿ di rete!

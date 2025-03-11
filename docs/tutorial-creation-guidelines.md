@@ -1,7 +1,7 @@
 
 ⚠️ ***These guidelines are no longer up to date. You can find the latest guidelines in this tutorial on the platform:***
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
 ___
@@ -152,7 +152,7 @@ proofreading:
 
 For more detailed information on the process of proposing a new tutorial, you can also refer to this detailed guide, and more broadly, to all the tutorials in the "contribution" section:
 
-https://planb.network/fr/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 ## Content creation standards
 

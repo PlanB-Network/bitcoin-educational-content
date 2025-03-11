@@ -98,4 +98,4 @@ Tor Browser используется как стандартный браузе�
 
 И вот вы готовы к более безопасному и конфиденциальному серфингу в Интернете! Если тема онлайн-приватности вас интересует, я также рекомендую ознакомиться с другим учебным пособием о Mullvad VPN:
 
-https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

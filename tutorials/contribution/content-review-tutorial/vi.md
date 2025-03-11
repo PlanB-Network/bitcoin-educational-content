@@ -33,14 +33,14 @@ You don’t need to be a GitHub expert to review content. While it’s always be
 
 However, if you’re unfamiliar with Git and GitHub and want to learn more, you can check out our introductory article on these tools:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Create an account
 
 
 - Create an account on [GitHub](https://github.com/) to start contributing. If you want guidance on creating your GitHub account, we also have a detailed tutorial:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - You will also need an account on the messaging app [Telegram](https://telegram.org/).
 

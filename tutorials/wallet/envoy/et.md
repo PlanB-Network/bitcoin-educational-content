@@ -170,7 +170,7 @@ Selleks kasutage oma Passport'i karbis sisalduvat MicroSD-kaarti (või mõnda mu
 
 Enne seadmesse paigaldamist soovitame tungivalt kontrollida allalaetud püsivara autentsust ja terviklikkust. Kui vajate selleks abi, vaadake seda õpetust :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Rakendusega Envoy
 

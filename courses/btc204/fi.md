@@ -346,7 +346,7 @@ Mikä olisikaan parempi tapa torjua lohkoketjuanalyysia kuin tutustua siinä kä
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Tässä voidaan tehdä analogia kryptografian ja salausanalyysin kanssa. Hyvä salakirjoittaja on ennen kaikkea hyvä salausanalyytikko. Uuden salausalgoritmin suunnittelemiseksi on tiedettävä, millaisia hyökkäyksiä se kohtaa, ja tutkittava myös, miksi aiemmat algoritmit on murrettu. Sama periaate pätee Bitcoinin yksityisyyteen. Lohkoketjun analyysimenetelmien ymmärtäminen on avain suojautumiseen niitä vastaan. Siksi olen sisällyttänyt tähän koulutukseen kokonaisen jakson lohkoketjuanalyysistä.
 

@@ -78,7 +78,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 有关如何使用此类设备的更多信息，请参阅我们的专门教程 ：
 
-https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 另一种方法是使用 Google Authenticator 或 Authy 等身份验证应用程序。这些应用程序会生成一个动态的 6 位代码，每次登录时都需要输入。
 
@@ -90,7 +90,7 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 有关身份验证应用程序的更多信息，也可参考本教程：
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 在下方，您还可以访问高级设置，包括设置几种不同的 2FA。Kraken 通过 2FA 提供高级安全授权。该功能允许您为登录、订单验证和资金提取等各种操作创建不同的 2FA 级别。例如，这样就可以让会计师访问某些功能，而不允许他或她提取资金。以下是一些选项：
 

@@ -6,7 +6,7 @@ description: Täielik juhend, kuidas teha ettepanek õpetuse kohta Plan ₿ Netw
 
 Enne selle uue õpetuse lisamise õpetuse järgimist peate olema teinud mõned eeltegevused. Kui te pole seda veel teinud, siis kutsun teid üles kõigepealt tutvuma selle sissejuhatava õpetusega ja seejärel tulema siia tagasi:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 Te olete juba:
 
 
@@ -19,13 +19,13 @@ Selles õpetuses näeme, kuidas lisada oma õpetus Plan ₿ võrgustikku, luues 
 
 - Kogenud kasutajad**:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Kui te ei soovi oma lokaalset keskkonda luua, järgige seda teist, algajatele mõeldud õpetust, kus me teeme muudatused otse GitHubi veebiliidese kaudu:
 
 
 - Algajad (veebiliides)**:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Eeltingimused
 
 Selle õpetuse jälgimiseks vajalik tarkvara:
@@ -139,7 +139,7 @@ Sisestage väljale "PBN-professori ID" oma identifikaator, kasutades sõnu BIP39
 
 Kui teil ei ole veel professori profiili, vaadake seda õpetust:
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 Seejärel klõpsake nupule "Uus õpetus".
 
 ![DATA-CREATOR-PY](assets/fr/42.webp)
@@ -258,7 +258,7 @@ Siin on esitatud andmed kohustuslike väljade kohta:
 
 Lisateavet oma professori identifikaatori kohta leiate vastavast juhendmaterjalist:
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 Siin on näide valminud `tutorial.yml` failist Blockstream Green rahakoti õpetuse jaoks:
 
 ```

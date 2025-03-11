@@ -14,7 +14,7 @@ The special feature of this wallet is the ability to send bitcoins using the rec
 
 To use Proton Wallet, you need a Proton account. You can create one for free by following the first steps of this tutorial dedicated to creating a Proton mailbox (only the "*Creating a Proton account*" section). Once your account is set up, you can continue with the rest of this tutorial.
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Connect to Proton Wallet
 

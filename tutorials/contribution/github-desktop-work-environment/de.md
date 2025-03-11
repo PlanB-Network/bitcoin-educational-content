@@ -12,13 +12,13 @@ Wenn Sie zum PlanB-Netzwerk beitragen möchten, müssen Sie GitHub verwenden, um
 
 Wenn Sie keine Ahnung haben, was GitHub ist, oder wenn Sie mehr über die technischen Begriffe im Zusammenhang mit Git und GitHub erfahren möchten, empfehle ich Ihnen, unseren einführenden Artikel zu lesen, um sich mit diesen Konzepten vertraut zu machen.
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
 - Zunächst benötigen Sie natürlich ein GitHub-Konto. Wenn Sie bereits eines haben, können Sie sich anmelden, andernfalls können Sie unser Tutorial nutzen, um ein neues zu erstellen.
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 

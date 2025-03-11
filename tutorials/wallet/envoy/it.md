@@ -170,7 +170,7 @@ A tal fine, utilizzare la scheda MicroSD inclusa nella confezione del Passport (
 
 Prima di installarlo sul dispositivo, consigliamo vivamente di verificare l'autenticità e l'integrità del firmware scaricato. Se avete bisogno di aiuto, consultate questo tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Con l'applicazione Envoy
 

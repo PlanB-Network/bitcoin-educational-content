@@ -53,7 +53,7 @@ Elija una contraseña segura para acceder a su cuenta y haga clic en "*Continuar
 
 Para una gestión segura de las contraseñas en el día a día, el uso de un gestor de contraseñas es muy recomendable. En Plan ₿ Network, encontrarás varios tutoriales sobre las mejores soluciones existentes, como Bitwarden :
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 A continuación, se le pedirá que verifique su identidad (KYC). De acuerdo con la normativa francesa, se le pedirán sus datos personales y una prueba de identidad. Rellene las casillas con sus apellidos, nombre y fecha de nacimiento.
 

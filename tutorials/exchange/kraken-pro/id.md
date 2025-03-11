@@ -78,7 +78,7 @@ Pada opsi 2FA, Anda bisa memilih untuk menggunakan kunci keamanan fisik sebagai 
 
 Untuk informasi lebih lanjut mengenai cara menggunakan jenis perangkat ini, lihat tutorial khusus kami:
 
-https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Pilihan lainnya adalah menggunakan aplikasi autentikasi seperti Google Authenticator atau Authy. Aplikasi ini menghasilkan kode 6 digit dinamis yang harus Anda masukkan setiap kali Anda masuk.
 
@@ -90,7 +90,7 @@ Untuk mengaktifkan metode ini, pindai kode QR dengan aplikasi pilihan Anda pada 
 
 Untuk informasi lebih lanjut mengenai aplikasi autentikasi, Anda juga dapat membaca tutorial ini:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Di bawahnya, Anda juga memiliki akses ke pengaturan tingkat lanjut, termasuk kemampuan untuk mengatur beberapa 2FA yang berbeda. Kraken menawarkan pendelegasian keamanan tingkat lanjut melalui 2FA. Fitur ini memungkinkan Anda untuk membuat level 2FA yang berbeda untuk berbagai tindakan, seperti login, validasi pesanan, dan penarikan dana. Hal ini memungkinkan, misalnya, untuk memberikan akses kepada akuntan ke fungsi tertentu tanpa mengizinkannya menarik dana. Berikut adalah pilihannya:
 

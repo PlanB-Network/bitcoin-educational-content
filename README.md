@@ -142,7 +142,7 @@ If you are enthusiastic about this initiative and you would like to help us, ple
 4. Then, you can [start translating the static elements](https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295) of the website.
 5. When you finish, go back to the [TG group](https://t.me/PlanBNetwork_ContentBuilder) or reach out to the translation coordinator to inform them you have completed the task.
 6. Thanks to the [LLM-Translator](https://github.com/Asi0Flammeus/LLM-Translator), or other tools, we will translate the BTC101 course to benchmark with you the automatic translation accuracy.
-7. [Start proofreading](https://planb.network/tutorials/others/contribution/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6) BTC101 on GitHub (an account on GitHub is required) in the corresponding language after the approval of the coordinator.
+7. [Start proofreading](https://planb.network/tutorials/contribution/tutorial/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6) BTC101 on GitHub (an account on GitHub is required) in the corresponding language after the approval of the coordinator.
 8. After you finish and we merge the PR, we will send you the reward in sats for both contributions, using a Lightning Network invoice or LN address.
 9. If the automatic translation is good enough, we will translate all the educational content of Plan ₿ Network and publish it on the website.
 10. Then, anyone will be able to choose any content in that language to proofread and receive the associated reward.

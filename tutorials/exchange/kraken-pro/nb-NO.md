@@ -78,7 +78,7 @@ I 2FA-alternativene kan du velge å bruke en fysisk sikkerhetsnøkkel som en and
 
 Hvis du vil ha mer informasjon om hvordan du bruker denne typen enhet, kan du se vår egen veiledning :
 
-https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Det andre alternativet er å bruke et autentiseringsprogram som Google Authenticator eller Authy. Disse programmene genererer en dynamisk sekssifret kode som du må oppgi hver gang du logger på.
 
@@ -90,7 +90,7 @@ For å aktivere denne metoden skanner du QR-koden med applikasjonen du velger p�
 
 Hvis du vil ha mer informasjon om autentiseringsapplikasjoner, kan du også lese denne veiledningen :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Under har du også tilgang til avanserte innstillinger, inkludert muligheten til å angi flere forskjellige 2FA-er. Kraken tilbyr avansert sikkerhetsdelegering via 2FA. Denne funksjonen lar deg opprette ulike 2FA-nivåer for ulike handlinger, for eksempel innlogging, ordrevalidering og uttak av midler. Dette gjør det for eksempel mulig å gi en regnskapsfører tilgang til visse funksjoner uten at han eller hun kan ta ut penger. Her er alternativene:
 

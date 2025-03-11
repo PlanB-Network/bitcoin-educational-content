@@ -1078,11 +1078,11 @@ Kami akan membahas topik ini secara rinci dalam kursus lain, tetapi untuk memper
 
 - Solusi online yang sederhana: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Solusi untuk pedagang amatir: Pembayaran Bitcoin Swiss
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solusi untuk struktur besar atau pengguna bitcoin yang bersemangat: Server BTCpay
 

@@ -26,11 +26,11 @@ Complete the required information: enter your business email address and your co
 
 For tips on using and safeguarding strong, unique passwords, see also this tutorial :
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 We're now going to configure the 2FA to secure the account. Use an authentication application on your smartphone, such as Google Authenticator or Authy for example. You'll find a tutorial on this tool here :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scan the QR code with your app and enter the 6 digits provided.
 

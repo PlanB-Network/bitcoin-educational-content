@@ -76,7 +76,7 @@ Ce guide se concentre exclusivement sur "Bisq Easy", le seul protocole actuellem
 - Téléchargez la version Bisq 2 correspondant à votre système d'exploitation (faire défiler la page vers le bas)
 - Vérifiez l'authenticité du fichier téléchargé (fortement recommandé). Pour un guide détaillé sur la vérification des signatures, consultez le tutoriel suivant : 
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installation selon votre système
 

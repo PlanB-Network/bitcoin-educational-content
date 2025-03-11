@@ -33,14 +33,14 @@ GitHub の専門家でなくてもコンテンツをレビューすることが�
 
 しかし、GitやGitHubに馴染みがなく、もっと学びたいという方は、これらのツールに関する入門記事をご覧ください：
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1.アカウントの作成
 
 
 - GitHub](https://github.com/)でアカウントを作成し、コントリビューションを開始しましょう。GitHub アカウントの作成方法については、詳しいチュートリアルをご覧ください：
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - メッセージングアプリ[Telegram](https://telegram.org/)のアカウントも必要です。
 

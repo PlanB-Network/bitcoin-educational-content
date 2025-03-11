@@ -126,7 +126,7 @@ Si vous maîtrisez l'utilisation de Git, modifiez votre profil de professeur en 
 
 Pour les débutants, je vous recommande de faire la modification directement via l'interface web de GitHub. Assurez-vous d'avoir un compte GitHub. Si vous ne savez pas comment en créer un, suivez ce tutoriel :
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 Rendez-vous [sur le dépôt GitHub de Plan ₿ Network dédié aux données](https://github.com/PlanB-Network/bitcoin-educational-content/graphs/contributors).
 

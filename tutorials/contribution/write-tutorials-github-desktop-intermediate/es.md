@@ -6,7 +6,7 @@ description: Guía completa para proponer un tutorial sobre Plan ₿ Red usando 
 
 Antes de seguir este tutorial sobre cómo añadir un nuevo tutorial, debes haber completado algunos pasos preliminares. Si aún no lo has hecho, te invito a que primero consultes este tutorial introductorio y luego vuelvas aquí:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 Ya lo has hecho:
 
 
@@ -19,13 +19,13 @@ En este tutorial, veremos cómo añadir tu tutorial en Plan ₿ Network configur
 
 - Usuarios con experiencia**:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Si prefieres no configurar tu entorno local, sigue este otro tutorial diseñado para principiantes, donde realizamos los cambios directamente a través de la interfaz web de GitHub:
 
 
 - Principiantes (interfaz web)**:
 
-https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.network/tutorials/contribution/tutorial/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Requisitos previos
 
 Software necesario para seguir este tutorial:
@@ -139,7 +139,7 @@ En el campo "ID del profesor PBN", introduzca su identificador utilizando palabr
 
 Si aún no tienes un perfil de profesor, consulta este tutorial:
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 A continuación, haga clic en el botón "Nuevo tutorial".
 
 ![DATA-CREATOR-PY](assets/fr/42.webp)
@@ -258,7 +258,7 @@ A continuación se detallan los campos obligatorios:
 
 Para más detalles sobre su identificador de profesor, consulte el tutorial correspondiente:
 
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 Este es un ejemplo de un archivo `tutorial.yml` completo para un tutorial sobre el monedero Blockstream Green:
 
 ```

@@ -12,13 +12,13 @@ Si deseas contribuir a la Red PlanB, necesitarás usar GitHub para proponer camb
 
 Si no tienes idea de qué es GitHub, o si quieres aprender más sobre los términos técnicos relacionados con Git y GitHub, te recomiendo leer nuestro artículo introductorio para familiarizarte con estos conceptos.
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
 - Para comenzar, obviamente necesitarás una cuenta de GitHub. Si ya tienes una, puedes iniciar sesión, de lo contrario, puedes usar nuestro tutorial para crear una nueva.
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 

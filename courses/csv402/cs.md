@@ -1502,17 +1502,13 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Deklarativní** | **Fungující** | **Strukturované** | **Přílohy** | **Přílohy**
+| **Prvek**            | **Deklarativní** | **Fungibilní**                       | **Strukturovaný**              | **Přílohy**                   |
+| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ----------------------------- |
+| **Data**             | Žádná           | Podepsané nebo nepodepsané celé číslo 64bit | Jakýkoli přísný typ dat | Jakýkoli soubor              |
+| **Typ informace**    | Žádný           | Podepsané nebo nepodepsané            | Přísné typy                   | MIME typ                      |
+| **Soukromí**        | Nevyžadováno    | Pedersen commitment                   | Hashování s oslepením         | Hašovaný identifikátor souboru |
+| **Velikostní limity** | N/A            | 256 bajtů                             | Až 64 KB                       | Až ~500 GB                    |
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
-
-| Žádný | 64bitové celé číslo se znaménkem nebo bez znaménka | Jakýkoli striktní datový typ | Jakýkoli soubor |
-
-| Typ informace** | Žádné | Signované nebo nepodepsané | Přísné typy | Typ MIME |
-
-| Pedersenův závazek | Hashování se zaslepením | Hashované ID souboru
-
-| Omezení velikosti** | N/A | 256 bajtů | Až 64 KB | Až ~500 Gb |
 
 ### Vstupy
 
@@ -1957,17 +1953,13 @@ Je důležité si uvědomit, že aby peněženka mohla spravovat aktivum RGB (a�
 
 Pro objasnění těchto pojmů uvádíme souhrnnou tabulku, která porovnává součásti smlouvy RGB s pojmy známými z objektově orientovaného programování (OOP) nebo z ekosystému Ethereum:
 
-| Komponenta smlouvy RGB | Význam | Ekvivalent OOP | Ekvivalent Ethereum |
+| RGB smluvní komponenta       | Význam                                 | Odpovídající OOP                             | Odpovídající Ethereum            |
+| ---------------------------- | ------------------------------------- | -------------------------------------------- | -------------------------------- |
+| **Genesis**                  | Počáteční stav smlouvy                | Konstruktor třídy                           | Konstruktor kontraktu            |
+| **Schema**                   | Obchodní logika smlouvy               | Třída                                       | Kontrakt                         |
+| **Interface**                | Sémantika smlouvy                     | Rozhraní (Java) / trait (Rust) / protokol (Swift) | ERC Standard                     |
+| **Interface Implementation** | Mapování sémantiky a logiky           | Impl (Rust) / Implements (Java)             | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Konstruktor třídy | Konstruktor smlouvy | Počáteční stav smlouvy
-
-| Třída | Obchodní logika smlouvy
-
-| Sémantika smlouvy | Rozhraní (Java) / rys (Rust) / protokol (Swift) | ERC Standard |
-
-| Binární rozhraní aplikace (ABI) | Impl (Rust) / Implements (Java) | Mapování sémantiky a logiky
 
 V levém sloupci jsou uvedeny prvky specifické pro protokol RGB. Prostřední sloupec ukazuje konkrétní funkci jednotlivých prvků. Ve sloupci "OOP ekvivalent" pak najdeme ekvivalentní výraz v objektově orientovaném programování:
 

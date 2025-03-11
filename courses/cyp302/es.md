@@ -291,7 +291,7 @@ En la expresión "variable aleatoria", el término "aleatorio" sólo significa "
 
 Una **variable uniforme** es un caso especial de variable aleatoria. Puede tomar dos o más valores, todos con la misma probabilidad. La variable aleatoria $X$ representada en la *Figura 1* es claramente una variable uniforme, ya que ambos resultados posibles se producen con una probabilidad de $0,5$. Sin embargo, hay muchas variables aleatorias que no son casos de variables uniformes.
 
-Consideremos, por ejemplo, la variable aleatoria $Y$. Tiene un conjunto de resultados ${1, 2, 3, 8, 10\}$ y la siguiente distribución de probabilidad:
+Consideremos, por ejemplo, la variable aleatoria $Y$. Tiene un conjunto de resultados ${1, 2, 3, 8, 10}$ y la siguiente distribución de probabilidad:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -542,7 +542,8 @@ En nuestra discusión sobre variables aleatorias y uniformes, establecimos una d
 
 Para empezar, podemos llamar a una cadena binaria de longitud $n$ **aleatoria** (o **uniforme**), si fuera el resultado del muestreo de una variable uniforme $S$ que da a cada cadena binaria de dicha longitud $n$ una probabilidad igual de selección.
 
-Supongamos, por ejemplo, el conjunto de todas las cadenas binarias de longitud 8: ${0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (Es típico escribir una cadena de 8 bits en dos cuartetos, cada uno llamado **nibble**) Llamemos a este conjunto de cadenas **$S_8$**.
+Supongamos, por ejemplo, el conjunto de todas las cadenas binarias de longitud 8: 
+$\{0000\ 0000, 0000\ 0001, \ldots , 1111\ 1111\}$. (Es típico escribir una cadena de 8 bits en dos cuartetos, cada uno llamado **nibble**) Llamemos a este conjunto de cadenas **$S_8$**.
 
 Según la definición anterior, podemos llamar aleatoria (o uniforme) a una cadena binaria concreta de longitud 8, si es el resultado del muestreo de una variable uniforme $S$ que da a cada cadena de **$S_8$** la misma probabilidad de selección. Dado que el conjunto **$S_8$** incluye $2^8$ elementos, la probabilidad de selección en el muestreo tendría que ser $1/2^8$ para cada cadena del conjunto.
 
@@ -612,7 +613,8 @@ Por ejemplo, el conjunto de todos los números enteros es $\{..., -2, -1, 0, 1, 
 
 Otro ejemplo de conjunto es $\mathbb{Z} \mod 11$, o el conjunto de todos los números enteros módulo 11. A diferencia del conjunto entero $\mathbb{Z}$, este conjunto sólo contiene un número finito de elementos, a saber $\{0, 1, \ldots, 9, 10\}$.
 
-Un error común es pensar que el conjunto $\mathbb{Z} \mod 11$ es en realidad $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Pero este no es el caso, dada la forma en que definimos la operación módulo antes. Cualquier entero negativo reducido por el módulo 11 se envuelve en $ {0, 1, \ldots, 9, 10\}$. Por ejemplo, la expresión $-2 \mod 11$ envuelve a $9$, mientras que la expresión $-27 \mod 11$ envuelve a $5$.
+Un error común es pensar que el conjunto $\mathbb{Z} \mod 11$ es en realidad $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Pero este no es el caso, dada la forma en que definimos la operación módulo antes. Cualquier entero negativo reducido por el módulo 11 se envuelve en 
+$\{0, 1, \ldots, 9, 10\}$. Por ejemplo, la expresión $-2 \mod 11$ envuelve a $9$, mientras que la expresión $-27 \mod 11$ envuelve a $5$.
 
 Otro concepto básico en matemáticas es el de operación binaria. Se trata de cualquier operación que toma dos elementos para producir un tercero. Por ejemplo, a partir de la aritmética y el álgebra básicas, estarás familiarizado con cuatro operaciones binarias fundamentales: suma, resta, multiplicación y división.
 
@@ -685,7 +687,7 @@ Dentro de la criptografía de clave pública, cierta clase de grupos abelianos f
 
 Supongamos un grupo $G$ con una operación de grupo $\circ$, y que $a$ es un elemento de $G$. La expresión $a^n$ debe, entonces, interpretarse como el elemento $a$ combinado consigo mismo un total de $n - 1$ veces. Por ejemplo, $a^2$ significa $a \circ a$, $a^3$ significa $a \circ a \circ a$, y así sucesivamente. (Nótese que la exponenciación aquí no es necesariamente exponenciación en el sentido aritmético estándar)
 
-Veamos un ejemplo. Supongamos que $G = \lángulo \mathbb{Z} \mod 7, + \rangle$, y que nuestro valor para $a$ es igual a 4. En este caso, $a^2 = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. Alternativamente, $a^4$ representaría $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
+Veamos un ejemplo. Supongamos que $G = \langle \mathbb{Z} \mod 7, + \rangle$, y que nuestro valor para $a$ es igual a 4. En este caso, $a^2 = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. Alternativamente, $a^4$ representaría $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
 
 Algunos grupos abelianos tienen uno o más elementos que pueden dar lugar a todos los demás elementos del grupo mediante exponenciación continua. Estos elementos se denominan **generadores** o **elementos primitivos**.
 
@@ -778,9 +780,9 @@ Un campo se deriva de la noción de grupo. En concreto, un **campo** es un conju
 
 3. El conjunto **S** dotado de los dos operadores cumple lo que se conoce como condición distributiva: Supongamos que $a$, $b$ y $c$ son elementos de **S**. Entonces **S** equipado con los dos operadores cumple la propiedad distributiva cuando $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
-Obsérvese que, como en el caso de los grupos, la definición de campo es muy abstracta. No hace ninguna afirmación sobre los tipos de elementos de **S**, ni sobre las operaciones $\c$ y $\diamond$. Sólo afirma que un campo es cualquier conjunto de elementos con dos operaciones para las que se cumplen las tres condiciones anteriores. (El elemento "cero" en el segundo grupo abeliano puede interpretarse de forma abstracta)
+Obsérvese que, como en el caso de los grupos, la definición de campo es muy abstracta. No hace ninguna afirmación sobre los tipos de elementos de **S**, ni sobre las operaciones $\circ$ y $\diamond$. Sólo afirma que un campo es cualquier conjunto de elementos con dos operaciones para las que se cumplen las tres condiciones anteriores. (El elemento "cero" en el segundo grupo abeliano puede interpretarse de forma abstracta)
 
-Entonces, ¿cuál podría ser un ejemplo de un campo? Un buen ejemplo es el conjunto $\mathbb{Z} \mod 7$, o ${0, 1, \ldots, 7\}$ definido sobre la suma estándar (en lugar de $\circ$ más arriba) y la multiplicación estándar (en lugar de $\diamond$ más arriba).
+Entonces, ¿cuál podría ser un ejemplo de un campo? Un buen ejemplo es el conjunto $\mathbb{Z} \mod 7$, o $\{0, 1, \ldots, 7\}$ definido sobre la suma estándar (en lugar de $\circ$ más arriba) y la multiplicación estándar (en lugar de $\diamond$ más arriba).
 
 En primer lugar, $\mathbb{Z} \mod 7$ cumple la condición de ser un grupo abeliano sobre la suma, y cumple la condición de ser un grupo abeliano sobre la multiplicación si sólo se consideran los elementos distintos de cero. En segundo lugar, la combinación del conjunto con los dos operadores cumple la condición distributiva.
 
@@ -824,7 +826,7 @@ En criptografía, nos interesan principalmente los campos finitos. En general, s
 
 Si un campo finito tiene un número primo de elementos, se denomina **campo primo**. Si el número de elementos del campo finito es una potencia prima, el campo se denomina **campo de extensión**. En criptografía, nos interesan tanto los campos primos como los campos de extensión. [2]
 
-Los principales campos primos de interés en criptografía son aquellos en los que el conjunto de todos los números enteros está modulado por algún número primo, y los operadores son la suma y la multiplicación estándar. Esta clase de campos finitos incluiría $\mathbb{Z} \mod 2$, $\mathbb{Z} \módulo 3$, $\mathbb{Z} \módulo 5$, $\mathbb{Z} \Mod 7$, $\mathbb{Z} \módulo 11$, $\mathbb{Z} \mod 13$, y así sucesivamente. Para cualquier campo primo $\mathbb{Z} \mod p$, el conjunto de enteros del campo es el siguiente: ${0, 1, \ldots, p - 2, p - 1\}$.
+Los principales campos primos de interés en criptografía son aquellos en los que el conjunto de todos los números enteros está modulado por algún número primo, y los operadores son la suma y la multiplicación estándar. Esta clase de campos finitos incluiría $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, y así sucesivamente. Para cualquier campo primo $\mathbb{Z} \mod p$, el conjunto de enteros del campo es el siguiente: $\{0, 1, \ldots, p - 2, p - 1\}$.
 
 En criptografía, también nos interesan los campos de extensión, en particular cualquier campo con $2^m$ elementos donde $m > 1$. Estos campos finitos se utilizan, por ejemplo, en el cifrado Rijndael, que constituye la base del estándar de cifrado avanzado. Mientras que los campos primos son relativamente intuitivos, estos campos de extensión de base 2 probablemente no sean para nadie que no esté familiarizado con el álgebra abstracta.
 
@@ -1019,10 +1021,10 @@ Bob cifra el mensaje $M$ en el tiempo $T_0$ con la clave $K$ para producir el te
 
 En el capítulo 2 vimos el cifrado por turnos, que es un ejemplo de esquema de cifrado simétrico muy sencillo. Veámoslo de nuevo aquí.
 
-Supongamos un diccionario *D* que equipara todas las letras del alfabeto inglés, en orden, con el conjunto de números ${0,1,2,\dots,25\}$. Supongamos un conjunto de mensajes posibles **M**. El cifrado por turnos es, entonces, un esquema de cifrado definido como sigue:
+Supongamos un diccionario *D* que equipara todas las letras del alfabeto inglés, en orden, con el conjunto de números $\{0,1,2,\dots,25\}$. Supongamos un conjunto de mensajes posibles **M**. El cifrado por turnos es, entonces, un esquema de cifrado definido como sigue:
 
 
-- Seleccionar aleatoriamente una clave $k$ del conjunto de posibles claves **K**, donde **K** = ${0,1,2,\dots,25\}$
+- Seleccionar aleatoriamente una clave $k$ del conjunto de posibles claves **K**, donde **K** = $\{0,1,2,\dots,25\}$
 - Cifrar un mensaje $m \in$ **M**, de la siguiente manera:
     - Separar $m$ en sus letras individuales $m_0, m_1,\dots, m_i, \dots, m_l$
     - Convertir cada $m_i$ en un número según *D*
@@ -2100,13 +2102,13 @@ Ahora podemos definir el orden de $N$ como sigue. Supongamos que $N$ es un enter
 
 Por ejemplo, si $N = 12$, entonces 1, 5, 7 y 11 son los únicos coprimos que cumplen el requisito anterior. Por lo tanto, el orden de 12 es igual a 4.
 
-Supongamos que $N$ es un número primo. Entonces cualquier número entero menor que $N$ pero mayor o igual que 1 es coprimo con él. Esto incluye todos los elementos del siguiente conjunto: ${1,2,3,....,N - 1\}$. Por tanto, cuando $N$ es primo, el orden de $N$ es $N - 1$. Esto se afirma en la proposición 1, donde $\phi(N)$ denota el orden de $N$.
+Supongamos que $N$ es un número primo. Entonces cualquier número entero menor que $N$ pero mayor o igual que 1 es coprimo con él. Esto incluye todos los elementos del siguiente conjunto: $\{1,2,3,....,N - 1\}$. Por tanto, cuando $N$ es primo, el orden de $N$ es $N - 1$. Esto se afirma en la proposición 1, donde $\phi(N)$ denota el orden de $N$.
 
 **Proposición 1**. $\phi(N) = N - 1$ cuando $N$ es primo
 
 Supongamos que $N$ no es primo. En ese caso, se puede calcular su orden mediante la **función Phi de Euler**. Aunque calcular el orden de un número entero pequeño es relativamente sencillo, la función Phi de Euler adquiere especial importancia para los números enteros más grandes. A continuación se expone la proposición de la función Phi de Euler.
 
-**Teorema 2**. Sea $N$ igual a $p_1^{e_1} \cdot p_2^{e_2} \cdot \ldots \cdot p_i^{e_i} \cdot \ldots \cdot p_n^{e_n}$, donde el conjunto $\{p_i}}$ está formado por todos los factores primos distintos de $N$ y cada $e_i$ indica cuántas veces se da el factor primo $p_i$ para $N$. Entonces,
+**Teorema 2**. Sea $N$ igual a $p_1^{e_1} \cdot p_2^{e_2} \cdot \ldots \cdot p_i^{e_i} \cdot \ldots \cdot p_n^{e_n}$, donde el conjunto $\{p_i\}$ está formado por todos los factores primos distintos de $N$ y cada $e_i$ indica cuántas veces se da el factor primo $p_i$ para $N$. Entonces,
 
 $$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \cdot \ldots \cdot p_n^{e_n - 1} \cdot (p_n - 1)$$
 
@@ -2226,7 +2228,7 @@ El problema RSA consiste en encontrar una $x$ tal que $x^e = y$, con sólo un su
 
 Una forma fácil de calcular $x$ cuando $x^e \mod N = y \mod N$ es simplemente calculando $y^d \mod N$. Sabemos $y^d \mod N = x \mod N$ por los siguientes cálculos:
 
-$$ y^d \mod N = x^{e \cdot d}} \mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \mod \phi(N)} \mod N = x \mod N. $$
+$$ y^d \mod N = x^{e \cdot d} \mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \mod \phi(N)} \mod N = x \mod N. $$
 
 El problema es que no conocemos el valor $d$, ya que no se da en el problema. Por lo tanto, no podemos calcular directamente $y^d \mod N$ para producir $x \mod N$.
 

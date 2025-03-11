@@ -1504,17 +1504,13 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-**Deklaratif** | **Bisa Dipadukan** | **Terstruktur** | **Lampiran** |
+| **Elemen**         | **Deklaratif** | **Fungible**                         | **Terstruktur**                 | **Lampiran**                   |
+| ------------------ | -------------- | ------------------------------------ | ----------------------------- | ----------------------------- |
+| **Data**          | Tidak ada      | Bilangan bulat 64-bit bertanda atau tanpa tanda | Jenis data ketat apa pun    | File apa pun                  |
+| **Jenis Info**    | Tidak ada      | Bertanda atau tanpa tanda            | Jenis ketat                    | Jenis MIME                     |
+| **Privasi**       | Tidak diperlukan | Pedersen commitment                 | Hash dengan blinding           | Identifikasi file ter-hash     |
+| **Batas Ukuran**  | N/A            | 256 byte                             | Hingga 64 KB                    | Hingga ~500 GB                 |
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
-
-| Tidak ada | Bilangan bulat bertanda tangan atau tidak bertanda tangan 64-bit | Semua tipe data yang ketat | File apa pun |
-
-| Jenis informasi** | Tidak ada | Tidak ada | Ditandatangani atau tidak ditandatangani | Jenis ketat | Jenis MIME
-
-| Komitmen Pedersen | Hashing dengan membutakan | ID file ter-hash
-
-| Batas ukuran** | N/A | 256 byte | Hingga 64 KB | Hingga ~500 Gb |
 
 ### Masukan
 
@@ -1959,17 +1955,13 @@ Penting untuk diperhatikan bahwa agar dompet dapat mengelola aset RGB (baik itu 
 
 Untuk membantu memperjelas pengertian ini, berikut adalah tabel ringkasan yang membandingkan komponen-komponen kontrak RGB dengan konsep-konsep yang telah dikenal baik dalam pemrograman berorientasi objek (OOP) atau dalam ekosistem Ethereum:
 
-| Komponen Kontrak RGB | Arti | Setara OOP | Setara Ethereum |
+| Komponen Kontrak RGB         | Makna                                | Ekuivalen OOP                          | Ekuivalen Ethereum                |
+| ---------------------------- | ----------------------------------- | ------------------------------------- | --------------------------------- |
+| **Genesis**                  | Keadaan awal kontrak               | Konstruktor kelas                    | Konstruktor kontrak               |
+| **Schema**                   | Logika bisnis kontrak              | Kelas                                 | Kontrak                           |
+| **Interface**                | Semantik kontrak                   | Antarmuka (Java) / Trait (Rust) / Protokol (Swift) | Standar ERC                      |
+| **Interface Implementation** | Pemetaan semantik dan logika       | Impl (Rust) / Implements (Java)      | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Konstruktor kelas | Konstruktor kontrak | Status awal kontrak
-
-| Kelas | Logika bisnis kontrak
-
-| Semantik kontrak | Antarmuka (Java) / sifat (Rust) / protokol (Swift) | Standar ERC |
-
-| Antarmuka Biner Aplikasi (ABI) | Impl (Rust) / Implementasi (Java) | Pemetaan semantik dan logika
 
 Kolom sebelah kiri menunjukkan elemen yang spesifik untuk protokol RGB. Kolom tengah menunjukkan fungsi konkret dari masing-masing komponen. Kemudian, di kolom "OOP equivalent", kita menemukan istilah yang setara dalam pemrograman berorientasi objek:
 

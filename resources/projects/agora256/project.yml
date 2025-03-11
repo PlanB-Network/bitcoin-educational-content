@@ -7,12 +7,6 @@ links:
 
 category: education
 
-tags:
-  - blog
-  - education
-  - privacy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -92,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.44
+tags:
+  - user-friendly
+  - privacy
+  - cypherpunk

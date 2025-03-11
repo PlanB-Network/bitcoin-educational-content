@@ -5,10 +5,6 @@ links:
   website: https://proton.me/
   twitter: https://x.com/ProtonPrivacy
 
-tags:
-  - personal-security
-  - privacy
-
 category: privacy
 
 # Proofreading metadata
@@ -104,3 +100,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.23
+tags:
+  - DIY
+  - personal-security
+  - guides

@@ -6,11 +6,6 @@ links:
   website: https://geyser.fund/
   twitter: https://x.com/geyserfund
 
-tags:
-  - use-case
-  - decentralization
-  - proof-of-work
-
 original_language: en
 proofreading:
   - language: en
@@ -19,3 +14,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+tags:
+  - investment
+  - finance
+  - business

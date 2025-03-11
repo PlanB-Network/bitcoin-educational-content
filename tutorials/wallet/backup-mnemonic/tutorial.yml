@@ -2,11 +2,6 @@ id: 22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 builder: Plan ₿ Network
 
-tags:
-  - wallets
-  - keys
-  - backup
-
 category: backup
 
 level: beginner
@@ -109,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3.54
+tags:
+  - keys
+  - backup
+  - good-practice

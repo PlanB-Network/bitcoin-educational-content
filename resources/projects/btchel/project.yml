@@ -6,9 +6,6 @@ links:
   website: https://btchel.com/
   twitter: https://x.com/btchelevent
 
-tags:
-  - adoption
-
 original_language: en
 proofreading:
   - language: en
@@ -17,3 +14,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.06
+tags:
+  - wallets
+  - personal-security
+  - keys

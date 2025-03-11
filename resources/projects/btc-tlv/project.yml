@@ -5,10 +5,6 @@ category: education
 links:
   website: https://www.bitembassy.org/
 
-tags:
-  - proof-of-work
-  - decentralization
-
 original_language: en
 proofreading:
   - language: en
@@ -101,3 +97,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - business
+  - adoption
+  - market-trends

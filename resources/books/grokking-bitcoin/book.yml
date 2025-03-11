@@ -1,12 +1,6 @@
 id: 453e9826-f5fc-4f82-9fa3-7a1b0d0d6dbd
 author: Kalle Rosenbaum
 level: intermediate
-tags:
-  - bitcoin
-  - technology
-  - education
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.3
+tags:
+  - technical-analysis
+  - easy-explain
+  - deep-dive

@@ -1,12 +1,6 @@
 id: 8ac3b652-c098-4e0c-870c-2bea03edecb1
 author: Thibault Coussin
 level: beginner
-tags:
-  - bitcoin
-  - cryptocurrency
-  - education
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - user-friendly
+  - easy-explain
+  - high-level

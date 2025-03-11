@@ -9,12 +9,6 @@ language:
 links:
   twitter: https://x.com/BTCTokyo2024
   website: https://bitcoinconference.tokyo/
-tags:
-  - adoption
-  - business
-  - legacy
-  - case-studies
-#proofreading_metadata
 project_id: 7932b607-1c7d-4180-834f-1f90a775e093
 original_language: en
 proofreading:
@@ -24,3 +18,6 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0.05
+tags:
+  - adoption
+  - business

@@ -4,10 +4,6 @@ links:
   website: https://www.kraken.com/
   twitter: https://twitter.com/krakenfx
 
-tags:
-  - multi-coin
-  - KYC
-
 category: exchange
 
 # Proofreading metadata
@@ -91,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - wallets
+  - business
+  - market-trends

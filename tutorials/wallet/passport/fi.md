@@ -6,7 +6,7 @@ description: Passport-laitteiston lompakon määrittäminen ja käyttö manuaali
 
 Passport on pelkästään Bitcoinia käyttävä laitteistolompakko, jonka on suunnitellut huhtikuussa 2020 Bostonissa perustettu yhdysvaltalainen yritys Foundation Devices.
 
-Tässä oppaassa esittelemämme Passport "*Batch 2*" on "*Founder's Edition*" -version seuraaja. Siinä on ensiluokkainen muotoilu, teräväpiirtovärinäyttö ja ergonominen fyysinen näppäimistö. Se toimii "*Air-Gap*"-tilassa, joka varmistaa, että lompakkosi yksityiset avaimet pysyvät täysin eristyksissä, ja vaihdot ovat mahdollisia MicroSD-kortin tai QR-koodien avulla. Laitteessa on irrotettava 1200 mAh:n akku.
+Passport "*Batch 2*", jota esittelemme tässä oppaassa, on "*Founder's Edition*"-version seuraaja. Se erottuu premium-muotoilullaan, korkearesoluutioisella värinäytöllään ja ergonomisella fyysisellä näppäimistöllään. Se toimii "*Air-Gap*"-tilassa, mikä varmistaa, että lompakkosi yksityiset avaimet pysyvät täysin eristettyinä, ja tiedonsiirto tapahtuu MicroSD-kortin tai QR-koodien kautta. Laitteessa on irrotettava ja ladattava Nokia BL-5C akku, jonka kapasiteetti on 1200 mAh. Tämä vakiomalliakku on helposti vaihdettavissa, koska BL-5C-mallia on laajalti saatavilla kaupoista.
 
 Liitettävyyden osalta Passportissa on MicroSD-portti, USB-C-portti latausta varten ja takakamera QR-koodien skannausta varten.
 
@@ -21,6 +21,7 @@ Voit hallita turvallista lompakkoasi Passportissa useilla eri vaihtoehdoilla. T�
 Jos olet aloittelija, helpoin vaihtoehto on käyttää Passportia Foundationin kehittämän Envoy-sovelluksen kanssa. Jos haluat tietää, miten Envoy-sovellusta käytetään Passportin kanssa, katso tämä toinen opetusohjelma :
 
 https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+
 ## Passin avaaminen
 
 Kun saat passisi, varmista, että laatikko ja pahvipakkauksen sinetti ovat ehjät, jotta voit varmistaa, ettei pakettia ole avattu. Laitteen aitouden ja koskemattomuuden ohjelmistovarmennus suoritetaan myös laitteen käyttöönoton yhteydessä.
@@ -139,6 +140,7 @@ Käytä tähän Passport-pakkauksen mukana toimitettua MicroSD-korttia (tai tois
 Ennen kuin asennat sen laitteeseesi, suosittelemme, että tarkistat ladatun laiteohjelmiston aitouden ja eheyden. Jos tarvitset apua tässä, katso tätä ohjetta :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Kun olet tarkistanut `.bin`-tiedoston, aseta se MicroSD-muistikortille ja aseta se sitten Passportiin. Passportin tiedostoetsintä avautuu. Valitse tiedosto `vN.N.N.N-passport.bin`.
 
 ![Image](assets/fr/22.webp)
@@ -204,6 +206,7 @@ Napsauta vahvistuspainiketta nähdäksesi muistisääntösi.
 Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaan oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.**_
 
 Tee fyysinen varmuuskopio tästä lauseesta.
@@ -290,6 +293,7 @@ Ennen kuin jatkat, voit halutessasi lisätä BIP39-salasanan. BIP39-salalause on
 Ennen kuin määrität tämän vaihtoehdon Passportissasi, on erittäin suositeltavaa, että luet tämän artikkelin, jotta ymmärrät täysin salasanan teoreettisen toiminnan ja vältät virheet, jotka voivat johtaa bitcoinien menettämiseen:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Voit aktivoida sen menemällä "*Lisää*"-valikkoon ja napsauttamalla "*Enter Passphrase*".
 
 ![Image](assets/fr/50.webp)
@@ -311,6 +315,7 @@ Tarkista joka kerta, kun avaat lukituksen kirjoitettuasi salasanan, tästä vahv
 Ennen kuin saat ensimmäiset bitcoinit lompakkoosi, **suositan sinua tekemään tyhjän palautustestin**. Merkitse muistiin joitakin viitetietoja, kuten xpub- tai ensimmäinen vastaanottava osoitteesi, ja poista lompakkosi Passportista, kun se on vielä tyhjä (`Asetukset -> Lisäasetukset -> Poista Passportti`). Yritä sitten palauttaa lompakkosi käyttämällä paperisia varmuuskopioita muistilausekkeesta ja mahdollisesta salasanasta. Tarkista, että palautuksen jälkeen luodut evästetiedot vastaavat alun perin kirjoittamiasi tietoja. Jos ne täsmäävät, voit olla varma, että paperiset varmuuskopiot ovat luotettavia. Jos haluat lisätietoja testipalautuksen suorittamisesta, tutustu tähän toiseen opetusohjelmaan :
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ![Image](assets/fr/53.webp)
 
 ## Lompakon määrittäminen Sparrow Walletissa
@@ -324,6 +329,7 @@ Aloita lataamalla ja asentamalla Sparrow Wallet [virallisilta verkkosivuilta](ht
 Varmista ohjelmiston aitous ja eheys ennen asennusta. Jos et tiedä, miten tämä tehdään, tutustu tähän ohjeeseen:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Kun Sparrow Wallet on avattu, napsauta välilehteä "*File*" ja sitten "*New Wallet*".
 
 ![Image](assets/fr/55.webp)

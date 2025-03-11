@@ -10,15 +10,15 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: Bitcoiners book onto the Retreat and we crowdsource any talks & activities from there as we are blessed to be surrounded by peers with skills to share.
+description: Bitcoiners book onto the Retreat and we crowdsource any talks & activities
+  from there as we are blessed to be surrounded by peers with skills to share.
 language:
   - en
 links:
   website: https://bitcoinretreat.co.uk/
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - mining
-
+  live_url:
 project_id: c8dae140-cd06-48e8-bb7e-25ae233a5307
+tags:
+  - case-studies
+  - adoption

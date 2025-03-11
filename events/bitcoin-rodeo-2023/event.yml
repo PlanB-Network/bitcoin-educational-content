@@ -10,15 +10,16 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: From the technical to the hysterical, get ready to be enlightened and entertained with Bitcoin-only content delivered by local and international bitcoiners
+description: From the technical to the hysterical, get ready to be enlightened and
+  entertained with Bitcoin-only content delivered by local and international bitcoiners
 language:
   - en
 links:
   website: https://www.bitcoinrodeo.com/
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - General
-
+  live_url:
 project_id: 3b28b0f4-4a6f-4fb1-97be-0ae28c8fdb1c
+tags:
+  - adoption
+  - user-friendly
+  - high-level

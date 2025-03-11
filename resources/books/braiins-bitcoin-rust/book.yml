@@ -1,12 +1,6 @@
 id: d229b502-33bf-4c30-9084-073578b161c1
 author: Lukáš Hozda
 level: advanced
-tags:
-  - onchain
-  - protocols
-  - deep-dive
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
@@ -99,3 +93,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.65
+tags:
+  - development
+  - guides
+  - technical-analysis

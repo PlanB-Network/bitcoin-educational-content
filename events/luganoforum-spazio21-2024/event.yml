@@ -10,16 +10,16 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: Two days of workshops in Italian for all kind of bitcoiners organized by the local SatoshiSpritzLugano meetup team.
+description: Two days of workshops in Italian for all kind of bitcoiners organized
+  by the local SatoshiSpritzLugano meetup team.
 language:
   - it
 links:
   website: https://spazio21.planb.network
   replay_url:
-  live_url :
-tags:
-  - user-friendly
-  - self-sovereignty
-  - mastering
-
+  live_url:
 project_id: cd62a137-baad-4133-b90d-711963e510c7
+tags:
+  - guides
+  - user-friendly
+  - adoption

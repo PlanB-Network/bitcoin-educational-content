@@ -1,10 +1,6 @@
 id: a76ab26b-71b0-473c-aa7c-c49153705eb7
 builder: Twilio
 
-tags:
-  - 2FA
-  - security
-
 category: general
 
 level: beginner
@@ -95,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.62
+tags:
+  - personal-security
+  - guides
+  - user-friendly

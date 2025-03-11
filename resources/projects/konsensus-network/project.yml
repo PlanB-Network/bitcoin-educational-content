@@ -4,10 +4,6 @@ links:
   website: https://bitcoinbook.shop/
   twitter: https://twitter.com/KonsensusN
 
-tags:
-  - educatition
-  - books
-
 category: education
 
 # Proofreading metadata
@@ -90,3 +86,6 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.32
+tags:
+  - user-friendly
+  - development

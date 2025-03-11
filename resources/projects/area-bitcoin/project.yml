@@ -3,11 +3,8 @@ name: Area Bitcoin
 links:
   website: https://www.areabitcoin.co/
   twitter: https://x.com/areabitcoin
-  nost: https://primal.net/p/npub13zpemj05wvgadhgyyv4e0captmkd64p8kz323pfq87ffahrws0ms9yp5ww
-tags:
-  - education
-  - bitcoin-only
-
+  nost: 
+    https://primal.net/p/npub13zpemj05wvgadhgyyv4e0captmkd64p8kz323pfq87ffahrws0ms9yp5ww
 category: education
 
 original_language: en
@@ -103,3 +100,6 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.15
+tags:
+  - decentralization
+  - network-security

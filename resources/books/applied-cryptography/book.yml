@@ -1,12 +1,6 @@
 id: 68f51233-7c01-43cf-bf15-4bdbd331dbc8
 author: Bruce Schneier
 level: advanced
-tags:
-  - security
-  - technology
-  - cryptography
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -87,3 +81,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.47
+tags:
+  - cypherpunk
+  - deep-dive
+  - technical-analysis

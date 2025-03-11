@@ -6,10 +6,6 @@ links:
   twitter: https://x.com/nunchuk_io
   github: https://github.com/nunchuk-io
 
-tags:
-  - wallets
-  - software
-
 category: wallet
 
 # Proofreading metadata
@@ -105,3 +101,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.21
+tags:
+  - wallets
+  - keys
+  - personal-security

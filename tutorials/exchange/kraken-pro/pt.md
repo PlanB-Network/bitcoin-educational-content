@@ -11,6 +11,7 @@ Neste tutorial, abordaremos o processo de criação de uma conta comercial Krake
 Se estiver interessado em integrar a bitcoin na sua empresa, recomendo-lhe também que descubra a nossa formação teórica completa sobre o assunto:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - Criar uma conta empresarial Kraken
 
 O primeiro passo para utilizar a Kraken para gerir as finanças da sua empresa é, obviamente, criar uma conta. Aqui, não vamos criar uma conta para indivíduos, mas uma conta corporativa, que não só garante a conformidade regulamentar, mas também oferece recursos especialmente adaptados, como exportações de contabilidade.
@@ -78,6 +79,7 @@ Nas opções 2FA, pode optar por utilizar uma chave de segurança física como s
 Para mais informações sobre como utilizar este tipo de dispositivo, consulte o nosso tutorial dedicado :
 
 https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
 A outra opção é utilizar uma aplicação de autenticação, como o Google Authenticator ou o Authy. Estas aplicações geram um código dinâmico de 6 dígitos que terá de introduzir sempre que iniciar sessão.
 
 ![KRAKEN](assets/fr/12.webp)
@@ -89,6 +91,7 @@ Para ativar este método, digitalize o código QR com a aplicação da sua escol
 Para mais informações sobre aplicações de autenticação, pode também consultar este tutorial :
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Por baixo, também tem acesso a definições avançadas, incluindo a capacidade de definir várias 2FAs diferentes. O Kraken oferece delegação de segurança avançada via 2FA. Este recurso permite que você crie diferentes níveis de 2FA para várias ações, como login, validação de pedidos e retirada de fundos. Isso possibilita, por exemplo, dar a um contador acesso a certas funcionalidades sem permitir que ele retire fundos. Eis as opções:
 
 

@@ -6,11 +6,6 @@ links:
   github: https://github.com/ZeusLN/zeus
   nostr: npub1xnf02f60r9v0e5kty33a404dm79zr7z2eepyrk5gsq3m7pwvsz2sazlpr5
 
-tags:
-  - bitcoin-only
-  - open-source
-  - lightning-infrastructure
-
 category: wallet
 
 # Proofreading metadata
@@ -93,3 +88,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - wallets
+  - lightning
+  - user-friendly

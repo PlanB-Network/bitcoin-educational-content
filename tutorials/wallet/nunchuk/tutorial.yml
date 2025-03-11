@@ -5,12 +5,6 @@ level: advanced
 
 category: mobile
 
-tags:
-  - muli-sig
-  - self-custodial
-
-
-# Proofreading metadata
 project_id: 8df1bcbb-0521-4288-b98e-58ec245d5742
 original_language: en
 proofreading:
@@ -92,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.14
+tags:
+  - guides
+  - wallets
+  - user-friendly

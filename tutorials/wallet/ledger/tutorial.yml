@@ -5,10 +5,6 @@ level: advanced
 
 category: hardware
 
-tags:
-  - self-custodial
-  - multi-coin
-
 credits:
   professor: rebuild-kiss
   link: https://armantheparman.com/ledgersparrow/
@@ -95,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 8.06
+tags:
+  - wallets
+  - guides
+  - hardware

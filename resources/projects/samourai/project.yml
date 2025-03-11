@@ -4,12 +4,6 @@ links:
   website: https://samouraiwallet.com/
   twitter: https://twitter.com/SamouraiWallet
   github: https://github.com/Samourai-Wallet
-tags:
-  - bitcoin-only
-  - open-source
-  - wallet
-  - privacy
-
 category: wallet
 
 # Proofreading metadata
@@ -92,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.2
+tags:
+  - wallets
+  - privacy
+  - software

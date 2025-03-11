@@ -13,11 +13,6 @@ links:
   youtube: https://www.youtube.com/@BitPolito
   instagram: https://www.instagram.com/bitpolito/?hl=it
 
-tags:
-  - bitcoin-only
-  - education
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -98,3 +93,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.43
+tags:
+  - development
+  - decentralization
+  - user-friendly

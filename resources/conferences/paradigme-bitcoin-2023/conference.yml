@@ -8,11 +8,6 @@ language:
 links:
   website: https://leparadigmebitcoin.ch/
   twitter: https://twitter.com/Le_paradigme_ch
-tags:
-  - Bitcoiner
-  - General
-
-# Proofreading metadata
 project_id: 07d04d89-f2f4-4326-ad29-9617c2596077
 original_language: en
 proofreading:
@@ -22,3 +17,6 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - business
+  - adoption

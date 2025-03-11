@@ -138,7 +138,7 @@ Now that your Ledger is correctly configured with the latest version of the Bitc
 
 If you found this tutorial useful, I'd be grateful if you'd leave a green thumb below. Feel free to share this article on your social networks. Thank you very much!
 
-I also recommend you take a look at this tutorial on GnuPG, which explains how to check the integrity and authenticity of your software before installing it. This is an important practice, especially when installing portfolio management software such as Liana or Sparrow :
+I also recommend you take a look at this tutorial on GnuPG, which explains how to check the integrity and authenticity of your software before installing it. This is an important practice, especially when installing wallet management software such as Liana or Sparrow :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

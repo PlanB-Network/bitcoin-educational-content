@@ -4,11 +4,6 @@ builder: Nakamochi
 credits:
   professor: rebuild-kiss
 
-tags:
-  - node
-  - lightning
-  - decentralization
-
 category: lightning-network
 
 level: advanced
@@ -26,16 +21,16 @@ proofreading:
     contributors_id:
     reward: 3.57
   - language: de
-    last_contribution_date: 2025-01-24
+    last_contribution_date: 2025-02-20
     urgency: 1
     contributors_id:
-      - hunt-wood
+      - PaoloFoti
     reward: 0.92
   - language: en
-    last_contribution_date: 2025-01-24
+    last_contribution_date: 2025-02-20
     urgency: 1
     contributors_id:
-      - hunt-wood
+      - PaoloFoti
     reward: 0.92
   - language: es
     last_contribution_date:
@@ -92,9 +87,12 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3.57
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributors_id:
     reward: 3.57
+tags:
+  - node
+  - guides
+  - user-friendly

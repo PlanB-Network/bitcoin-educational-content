@@ -2,23 +2,26 @@ id: b6a8f897-9757-4509-ad97-346e4384c67c
 start_date: 2024-11-22
 end_date: 2025-01-10
 timezone: Asia/Makassar
-address_line_1: 
+address_line_1:
 address_line_2:
-address_line_3: 
+address_line_3:
 name: Decoding Bitcoin
 builder: Bitcoin House Bali
 type: course
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: An on-line intermediate, 8 weeks weekly course designed as a hands-on experience focused on teaching students how to interact with Bitcoin Core using the command-line interface (CLI)
-language: 
+description: An on-line intermediate, 8 weeks weekly course designed as a hands-on
+  experience focused on teaching students how to interact with Bitcoin Core using
+  the command-line interface (CLI)
+language:
   - en
 links:
   website: https://bitcoinindonesia.xyz/decoding-bitcoin/
   replay_url:
-  live_url :
-tags: 
-  - proof-of-work
-  - software
+  live_url:
 project_id: 254c1311-7974-447f-95f9-ebf10104cec7
+tags:
+  - node
+  - guides
+  - technical-analysis

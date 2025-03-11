@@ -5,9 +5,6 @@ category: conference
 links:
   youtube: https://www.youtube.com/@vlogwrap
 
-tags:
-  - adoption
-
 original_language: en
 proofreading:
   - language: en
@@ -16,3 +13,6 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.05
+tags:
+  - high-level
+  - easy-explain

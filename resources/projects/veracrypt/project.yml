@@ -5,10 +5,6 @@ links:
   website: https://veracrypt.fr/en/Home.html
   twitter: https://x.com/veracrypt_idrix
 
-tags:
-  - personal-security
-  - software
-
 category: privacy
 
 # Proofreading metadata
@@ -104,3 +100,6 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.19
+tags:
+  - software
+  - personal-security

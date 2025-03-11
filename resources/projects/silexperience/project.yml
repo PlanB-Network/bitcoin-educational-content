@@ -6,11 +6,6 @@ links:
 
 category: manufacturer
 
-tags:
-  - 3D printed
-  - Art
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -90,3 +85,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - DIY
+  - hardware
+  - user-friendly

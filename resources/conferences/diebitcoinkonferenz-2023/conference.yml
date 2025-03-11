@@ -8,11 +8,6 @@ language:
 links:
   website: https://www.bconf.de
   twitter: https://twitter.com/thebconf/
-tags:
-  - Bitcoiner
-  - General
-
-# Proofreading metadata
 project_id: c37848fc-14a8-4b13-91e7-bd210b1470b8
 original_language: en
 proofreading:
@@ -22,3 +17,7 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - user-friendly
+  - adoption
+  - case-studies

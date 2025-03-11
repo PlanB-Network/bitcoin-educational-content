@@ -2,11 +2,6 @@ id: e9bc81d9-d59b-420d-9672-3360212237ba
 
 builder: Satochip
 
-tags:
-  - hardware
-  - wallets
-  - keys
-
 category: hardware
 
 level: intermediate
@@ -108,3 +103,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 4.47
+tags:
+  - hardware
+  - wallets
+  - personal-security

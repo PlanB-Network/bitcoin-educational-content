@@ -1,10 +1,7 @@
 id: 10d7a78f-b293-436b-bede-2cfc06a4b579
-author: Timi Ajiboye, Luis Buenaventura, Alex Gladstein, Lily Liu, Alexander Lloyd, Alejandro Machado, Jimmy Song, Alena Vranova
+author: Timi Ajiboye, Luis Buenaventura, Alex Gladstein, Lily Liu, Alexander Lloyd,
+  Alejandro Machado, Jimmy Song, Alena Vranova
 level: beginner
-tags:
-  - bitcoin
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -84,3 +81,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.22
+tags:
+  - user-friendly
+  - high-level
+  - easy-explain

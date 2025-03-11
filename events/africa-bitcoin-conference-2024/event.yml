@@ -10,7 +10,8 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: We are Africans from various parts of the continent who believe in the Bitcoin revolution and are building a movement to bolster its Adoption.
+description: We are Africans from various parts of the continent who believe in the
+  Bitcoin revolution and are building a movement to bolster its Adoption.
 
 language:
   - en
@@ -18,9 +19,9 @@ language:
 links:
   website: https://afrobitcoin.org/
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - general
-
+  live_url:
 project_id: db0f0b26-3fd8-4d3b-94cc-1f55f30fe768
+tags:
+  - adoption
+  - business
+  - use-case

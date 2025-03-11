@@ -1,12 +1,6 @@
 id: 6df4aa60-3db0-4340-81c0-fed16c20143b
 author: David D. Friedman
 level: intermediate
-tags:
-  - economy
-  - philosophy
-  - politics
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -87,3 +81,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.39
+tags:
+  - personal-security
+  - self-sovereignty
+  - future-outlook

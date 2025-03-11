@@ -23,9 +23,11 @@ Eメールアドレスと居住国を入力してください。安全なユー�
 強力でユニークなパスワードを使用し、保護するためのヒントについては、こちらのチュートリアルもご覧ください：
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 次に、アカウントを保護するために2FAを設定します。例えばGoogle AuthenticatorやAuthyのようなスマートフォン上の認証アプリケーションを使用します。このツールのチュートリアルはこちら：
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 アプリでQRコードを読み取り、記載されている6桁の数字を入力してください。
 
 ![BITFINEX](assets/fr/03.webp)
@@ -166,6 +168,7 @@ BTC*」を選択します。出金時に引き落とされるBitfinexアカウ�
 ライトニング・ネットワークにご興味のある方は、その仕組みを理解するための完全なトレーニングコースもご用意しています：
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 最初のビットコインを購入した後、プラットフォーム上に残しておくという選択肢も当然ありますが、自己保管で自分のウォレットに移すことを強くお勧めします。ビットコイン・ウォレットの使い方をまだご存知でない方は、[Plan ₿ Networkの「ウォレット」セクション](https://planb.network/tutorials/wallet)をご覧ください。
 
 ## 6 - Bitfinexでのビットコインの売買

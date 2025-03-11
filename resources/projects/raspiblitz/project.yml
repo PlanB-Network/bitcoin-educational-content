@@ -4,11 +4,6 @@ name: RaspiBlitz
 links:
   website: https://shop.fulmo.org/
   twitter: https://twitter.com/RaspiBlitz
-tags:
-  - Open-source
-  - bitcoin-only
-  - node
-
 category: infrastructure
 
 # Proofreading metadata
@@ -91,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - node
+  - DIY
+  - guides

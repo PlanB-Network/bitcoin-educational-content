@@ -1,10 +1,6 @@
 id: 61438267-74db-4f1a-87e4-97c8e673533e
 builder: Plan ₿ Network
 
-tags:
-  - 2FA
-  - security
-
 category: general
 
 level: beginner
@@ -95,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.25
+tags:
+  - guides
+  - personal-security
+  - hardware

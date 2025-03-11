@@ -6,11 +6,6 @@ links:
   website: https://anilsaidso.gumroad.com/
   twitter: https://x.com/anilsaidso
 
-tags:
-  - finance
-  - investment
-  - market-trends
-
 original_language: en
 proofreading:
   - language: en
@@ -103,3 +98,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - software
+  - user-friendly
+  - development

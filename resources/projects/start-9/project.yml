@@ -5,10 +5,6 @@ links:
   twitter: https://twitter.com/start9labs
   github: https://github.com/Start9Labs
 
-tags:
-  - nodes
-  - infrastructure
-
 category: node
 
 # Proofreading metadata
@@ -91,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.25
+tags:
+  - DIY
+  - guides
+  - complex-DIY

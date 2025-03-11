@@ -5,11 +5,6 @@ links:
   twitter: https://twitter.com/SpecterWallet
   github: https://github.com/cryptoadvance
 
-tags:
-  - wallet
-  - open-source
-  - bitcoin-only
-
 category: wallet
 
 # Proofreading metadata
@@ -92,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.15
+tags:
+  - hardware
+  - wallets
+  - personal-security

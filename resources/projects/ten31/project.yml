@@ -4,10 +4,6 @@ links:
   website: https://ten31.vc/
   twitter: https://twitter.com/Ten31vc
 
-tags:
-  - VC
-  - bitcoin-investment
-
 category: investment
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - business
+  - investment
+  - innovation

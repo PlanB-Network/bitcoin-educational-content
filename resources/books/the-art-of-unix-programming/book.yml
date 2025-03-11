@@ -1,11 +1,6 @@
 id: 92cea779-fa93-44e5-b6d8-22748cc6662c
 author: Eric S. Raymond
 level: intermediate
-tags:
-  - computer science
-  - programming
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.36
+tags:
+  - good-practice
+  - protocols
+  - development

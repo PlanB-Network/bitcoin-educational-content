@@ -3,10 +3,8 @@ name: OesteBitcoin
 category: conference
 
 links:
-  website: https://primal.net/p/npub1va4vvlyfwnqss496f3dc4rsa4gtpfdx6crr8ppp8sz82uf9fczxq4wda00
-
-tags:
-  - adoption
+  website: 
+    https://primal.net/p/npub1va4vvlyfwnqss496f3dc4rsa4gtpfdx6crr8ppp8sz82uf9fczxq4wda00
 
 original_language: en
 proofreading:
@@ -16,3 +14,6 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.05
+tags:
+  - guides
+  - decentralization

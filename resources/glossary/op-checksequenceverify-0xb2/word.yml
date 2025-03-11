@@ -2,10 +2,6 @@ id: 87e2e0b0-7c00-4568-901d-da0f2bab16ca
 en_word: OP_CHECKSEQUENCEVERIFY (0XB2)
 related_words:
   - NSEQUENCE
-tags:
-  - ''
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: en

@@ -13,6 +13,7 @@ Tässä oppaassa käsittelemme yritystilin luomista Bitfinexiin, bitcoinien osta
 Jos olet kiinnostunut bitcoinin integroimisesta yritykseesi, suosittelen myös tutustumaan täydelliseen teoreettiseen koulutuskurssiimme aiheesta:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - Bitfinex-tilin luominen
 
 Mene [Bitfinexin viralliselle verkkosivustolle](https://www.bitfinex.com/). Etsi etusivulta "*Sign Up*"-vaihtoehto ja napsauta sitä aloittaaksesi tilin luomisen. Aluksi luot tavallisen tilin kuin yksityishenkilöille, "*Corporate*"-vaihtoehto valitaan myöhemmin vahvistusprosessin aikana.
@@ -26,9 +27,11 @@ Täytä vaaditut tiedot: anna yrityksesi sähköpostiosoite ja yrityksesi kotima
 Vinkkejä vahvojen ja yksilöllisten salasanojen käyttöön ja suojaamiseen on myös tässä oppaassa :
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Määritämme nyt 2FA:n tilin suojaamiseksi. Käytä älypuhelimessa olevaa todennussovellusta, kuten esimerkiksi Google Authenticatoria tai Authyta. Löydät ohjeen tästä työkalusta täältä :
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Skannaa QR-koodi sovelluksellasi ja syötä annetut 6 numeroa.
 
 ![BITFINEX](assets/fr/03.webp)
@@ -158,6 +161,7 @@ Bitfinex tarjoaa myös talletus- ja nostovaihtoehtoja Lightning-verkon kautta, m
 Jos olet kiinnostunut Lightning-verkosta, meillä on myös täydellinen koulutus, jonka avulla voit ymmärtää, miten se toimii:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ## 6 - Bitcoinien ostaminen ja myyminen Bitfinexissä
 
 Bitfinex tarjoaa erilaisia kaupankäyntitapoja. Jos haluat helppokäyttöisyyttä, valitse klassiset spot-markkinat, jotka tunnetaan myös nimellä "*Trading*" tai "*Exchange*". Täällä voit antaa osto- tai myyntitoimeksiantoja markkinahintaan tai asettaa rajahinnan.

@@ -7,10 +7,6 @@ links:
   website: https://agora256.com
   nostr: https://iris.to/npub1hartx53w6t3q5wv9xdqdwrk7h6r5866t8u775q0304zedpn5zgssasp7d3
 
-tags:
-  - bitcoin
-  - privacy
-
 tips:
   lightning_address: agora256@getalby.com
 
@@ -18,3 +14,7 @@ company: agora256
 
 affiliations:
   - agora256
+tags:
+  - self-sovereignty
+  - personal-security
+  - good-practice

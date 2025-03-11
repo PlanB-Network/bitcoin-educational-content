@@ -12,11 +12,9 @@ company: LN Markets
 tips:
   silent_payment: sp1qblabla2
 
-tags:
-  - privacy
-  - lightning-network
-  - cryptography
-
 affiliations:
   - DécouvreBitcoin
   - LN Markets
+tags:
+  - network-security
+  - consensus

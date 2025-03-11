@@ -5,9 +5,6 @@ category: conference
 links:
   website: https://miningdisrupt.com
 
-tags:
-  - mining
-
 original_language: en
 proofreading:
   - language: en
@@ -99,3 +96,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - mining
+  - hardware
+  - business

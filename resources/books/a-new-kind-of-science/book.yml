@@ -1,11 +1,6 @@
 id: 4d50962c-adb8-4acd-bf7a-b6f449900abc
 author: Stephen Wolfram
 level: advanced
-tags:
-  - science
-  - Technology
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.72
+tags:
+  - technical-analysis
+  - deep-dive
+  - development

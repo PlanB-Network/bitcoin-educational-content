@@ -6,11 +6,6 @@ links:
   website: https://www.blockdaemon.com/
   twitter: https://x.com/BlockdaemonHQ
 
-tags:
-  - software
-  - business
-  - use-case
-
 original_language: en
 proofreading:
   - language: en
@@ -19,3 +14,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+tags:
+  - business
+  - node
+  - software

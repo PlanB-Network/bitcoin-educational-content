@@ -13,6 +13,7 @@ Trong hướng dẫn này, chúng tôi sẽ trình bày quy trình tạo tài kh
 Nếu bạn quan tâm đến chủ đề tích hợp bitcoin vào doanh nghiệp của mình, tôi cũng khuyên bạn nên khám phá khóa đào tạo lý thuyết đầy đủ của chúng tôi về chủ đề này:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - Tạo tài khoản Bitfinex
 
 Truy cập [trang web chính thức của Bitfinex](https://www.bitfinex.com/). Trên trang chủ, tìm và nhấp vào tùy chọn "*Đăng ký*" để bắt đầu tạo tài khoản của bạn. Đầu tiên, bạn sẽ tạo một tài khoản tiêu chuẩn, còn đối với cá nhân, tùy chọn "*Doanh nghiệp*" sẽ được chọn sau trong quá trình xác minh.
@@ -26,9 +27,11 @@ Hoàn tất thông tin bắt buộc: nhập địa chỉ email doanh nghiệp v�
 Để biết mẹo sử dụng và bảo vệ mật khẩu mạnh và duy nhất, hãy xem thêm hướng dẫn này:
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Bây giờ chúng ta sẽ cấu hình 2FA để bảo mật tài khoản. Sử dụng ứng dụng xác thực trên điện thoại thông minh của bạn, chẳng hạn như Google Authenticator hoặc Authy. Bạn sẽ tìm thấy hướng dẫn về công cụ này tại đây:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Quét mã QR bằng ứng dụng và nhập 6 chữ số được cung cấp.
 
 ![BITFINEX](assets/fr/03.webp)
@@ -158,6 +161,7 @@ Bitfinex cũng cung cấp các tùy chọn gửi và rút tiền thông qua Ligh
 Nếu bạn quan tâm đến Lightning Network, chúng tôi cũng có khóa đào tạo đầy đủ để giúp bạn hiểu cách thức hoạt động của nó:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ## 6 - Mua và bán bitcoin trên Bitfinex
 
 Bitfinex cung cấp nhiều chế độ giao dịch khác nhau. Để dễ sử dụng, hãy chọn thị trường giao ngay cổ điển, còn được gọi là "*Giao dịch*" hoặc "*Trao đổi*". Tại đây, bạn có thể đặt lệnh mua hoặc bán theo giá thị trường hoặc đặt giá giới hạn.

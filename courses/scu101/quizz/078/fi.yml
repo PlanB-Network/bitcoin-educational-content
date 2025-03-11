@@ -1,0 +1,9 @@
+question: Mikä kriteeri on tärkeä uuden sähköpostitilin luomisessa?
+answer: Käyttää ainutlaatuista ja vahvaa salasanaa.
+wrong_answers:
+  - Käyttää uudelleen muiden tilien salasanoja.
+  - Valita yksinkertainen salasana, jotta se on helpompi muistaa.
+  - Valita salasana, joka sisältää lemmikin nimen.
+explanation: |
+  Ainutlaatuinen ja vahva salasana on välttämätön, jotta hakkerit eivät pääse käsiksi sähköpostitiliin.
+reviewed: false

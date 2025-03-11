@@ -1,12 +1,6 @@
 id: 80130d36-afb9-4f37-8535-78f7e7d73f16
 author: Peter Brandt
 level: advanced
-tags:
-  - finance
-  - trading
-  - commodity
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.52
+tags:
+  - market-trends
+  - technical-analysis
+  - deep-dive

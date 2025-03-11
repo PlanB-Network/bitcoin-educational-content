@@ -6,11 +6,6 @@ links:
   website: https://phneep.com/
   twitter: https://x.com/phneep
 
-tags:
-  - self-sovereignty
-  - investment
-  - market-trends
-
 original_language: en
 proofreading:
   - language: en
@@ -103,3 +98,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.19
+tags:
+  - hardware
+  - DIY
+  - guides

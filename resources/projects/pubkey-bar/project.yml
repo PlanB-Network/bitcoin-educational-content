@@ -6,11 +6,6 @@ links:
   website: https://pubkey.bar/home
   twitter: https://x.com/PubKey_NYC
 
-tags:
-  - use-case
-  - lightning
-  - adoption
-
 original_language: en
 proofreading:
   - language: en
@@ -19,3 +14,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+tags:
+  - hardware
+  - DIY
+  - user-friendly

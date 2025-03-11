@@ -4,11 +4,6 @@ links:
   website: https://mynodebtc.com/
   twitter: https://twitter.com/mynodebtc
   github: https://github.com/mynodebtc
-tags:
-  - bitcoin-only
-  - Node
-  - infrastructure
-
 category: node
 
 # Proofreading metadata
@@ -91,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.15
+tags:
+  - node
+  - DIY
+  - guides

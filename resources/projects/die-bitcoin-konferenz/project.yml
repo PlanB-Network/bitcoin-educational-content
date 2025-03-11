@@ -7,11 +7,6 @@ links:
   twitter: https://x.com/thebconf/
   youtube: https://www.youtube.com/@diebitcoinkonferenz
 
-tags:
-  - business
-  - adoption
-  - finance
-
 original_language: en
 proofreading:
   - language: en
@@ -104,3 +99,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.11
+tags:
+  - adoption
+  - market-trends
+  - business

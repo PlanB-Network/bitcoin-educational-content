@@ -12,11 +12,11 @@ affiliations:
   - Pandul
   - DécouvreBitcoin
 
-tags:
-  - privacy
-  - cryptography
-
 tips:
   lightning_address: pandul@sats.rs
 
 company: Pandul
+tags:
+  - high-level
+  - user-friendly
+  - guides

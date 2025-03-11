@@ -7,10 +7,6 @@ links:
   twitter: https://twitter.com/blocktrainer
   youtube: https://www.youtube.com/c/blocktrainer
 
-tags:
-  - adoption
-  - finance
-
 original_language: de
 proofreading:
   - language: de
@@ -19,3 +15,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.06
+tags:
+  - user-friendly
+  - guides
+  - investment

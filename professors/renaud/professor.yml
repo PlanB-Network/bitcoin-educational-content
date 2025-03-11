@@ -7,13 +7,12 @@ links:
   website: https://bio.link/renaudl
   twitter: https://twitter.com/nono2357
 
-tags:
-  - privacy
-  - security
-  - nostr
-
 affiliations:
   - DécouvreBitcoin
 
 tips:
   lightning_address: renaud@walletofsatoshi.com
+tags:
+  - network-security
+  - personal-security
+  - good-practice

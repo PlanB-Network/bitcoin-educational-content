@@ -1,19 +1,13 @@
 id: 50cdf5c2-8654-4579-9ba5-c18cdc5315d3
 year: 2024-04
 name: Tuscany Lightning Summit 2024
-builder: PlanB Network
+builder: Plan ₿ Network
 location: Viareggio, Italy
 language:
   - en
 links:
   website:
   twitter:
-tags:
-  - Bitcoiner
-  - General
-  - Lightning Network
-
-# Proofreading metadata
 project_id: cd62a137-baad-4133-b90d-711963e510c7
 original_language: en
 proofreading:
@@ -23,3 +17,7 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - lightning
+  - development
+  - innovation

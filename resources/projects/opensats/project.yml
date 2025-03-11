@@ -6,11 +6,6 @@ links:
 
 category: investment
 
-tags:
-  - donateur
-  - education
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -90,3 +85,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - adoption
+  - development
+  - good-practice

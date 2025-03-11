@@ -5,10 +5,6 @@ links:
   website: https://braiins.com/
   twitter: https://x.com/BraiinsMining
 
-tags:
-  - hardware
-  - mining
-
 category: mining
 
 # Proofreading metadata
@@ -103,3 +99,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.34
+tags:
+  - mining
+  - software
+  - protocols

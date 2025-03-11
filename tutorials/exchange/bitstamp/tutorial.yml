@@ -5,11 +5,6 @@ level: intermediate
 
 category: centralized
 
-tags:
-  - multi-coin
-  - full KYC
-
-# Proofreading metadata
 project_id: c028a416-60f5-4522-ae7e-5a3fdbb50c2a
 original_language: en
 proofreading:
@@ -91,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.26
+tags:
+  - guides
+  - user-friendly
+  - business

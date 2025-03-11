@@ -1,11 +1,6 @@
 id: 8805c315-f516-48a7-b962-1a9676b40726
 author: Scott and Mallory Sibley
 level: beginner
-tags:
-  - bitcoin
-  - education;
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - user-friendly
+  - easy-explain
+  - adoption

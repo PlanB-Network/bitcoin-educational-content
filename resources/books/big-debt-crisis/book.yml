@@ -1,11 +1,6 @@
 id: ebbdde01-0071-4101-a19c-6be02407584e
 author: Ray Dalio
 level: advanced
-tags:
-  - economy
-  - finance
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.53
+tags:
+  - finance
+  - historical
+  - deep-dive

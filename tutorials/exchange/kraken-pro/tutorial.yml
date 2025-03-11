@@ -2,10 +2,6 @@ id: 07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 project_id: a619c7ac-9adb-481e-93e2-62a11c8fe2e0
 
-tags:
-  - finance
-  - guides
-
 category: centralized
 
 level: beginner
@@ -107,3 +103,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.64
+tags:
+  - business
+  - wallets
+  - guides

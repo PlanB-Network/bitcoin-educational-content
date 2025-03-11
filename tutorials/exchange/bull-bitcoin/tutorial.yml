@@ -1,11 +1,6 @@
 id: 60a58596-e54c-41ba-855d-f9edb76cfb0e
 builder: Bull Bitcoin
 
-tags:
-  - bitcoin-only
-  - KYC
-  - Non-KYC
-
 category: centralized
 
 level: intermediate
@@ -92,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.66
+tags:
+  - guides
+  - wallets
+  - user-friendly

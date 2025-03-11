@@ -7,11 +7,6 @@ links:
   twitter: https://x.com/BitcareForum
   youtube: https://www.youtube.com/@bitcareforum
 
-tags:
-  - adoption
-  - technical-analysis
-  - business
-
 original_language: it
 proofreading:
   - language: it
@@ -104,3 +99,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - software
+  - wallets
+  - user-friendly

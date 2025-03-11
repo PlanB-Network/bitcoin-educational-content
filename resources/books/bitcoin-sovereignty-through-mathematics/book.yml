@@ -1,12 +1,6 @@
 id: fc62d6af-0bb8-425f-8795-7d25ef3a9aad
 author: Knut Svanholm
 level: advanced
-tags:
-  - science
-  - physics
-  - education
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.61
+tags:
+  - self-sovereignty
+  - decentralization
+  - deep-dive

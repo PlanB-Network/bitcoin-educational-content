@@ -5,9 +5,6 @@ links:
   twitter: https://twitter.com/bitblockboom
   youtube: https://www.youtube.com/channel/UCiGGPxyvei5KZteEOcqL77A
 
-tags:
-  - bitcoin-only
-
 category: conference
 
 # Proofreading metadata
@@ -90,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.2
+tags:
+  - use-case
+  - business
+  - adoption

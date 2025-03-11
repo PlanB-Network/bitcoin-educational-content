@@ -1,10 +1,6 @@
 id: 61ff085a-756c-4fe0-ba76-de11808ad636
 author: Valerio Dalla Costa
 level: beginner
-tags:
-  - bitcoin
-  - technology
-  - economy
 original_language: it
 proofreading:
   - language: it
@@ -97,3 +93,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.22
+tags:
+  - future-outlook
+  - cypherpunk
+  - self-sovereignty

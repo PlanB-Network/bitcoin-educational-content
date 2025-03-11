@@ -1,12 +1,6 @@
 id: 7f2abef6-43ec-4a52-b670-d100d81688ab
 author: Joseph Salerno
 level: advanced
-tags:
-  - economy
-  - finance
-  - history
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.55
+tags:
+  - finance
+  - historical
+  - market-trends

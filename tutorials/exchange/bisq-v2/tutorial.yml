@@ -2,10 +2,6 @@ id: c1c6a702-6c16-4101-8b90-62c424017b80
 
 builder: Bisq
 
-tags:
-  - privacy
-  - guides
-
 category: peer-to-peer
 
 level: advanced
@@ -109,3 +105,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 9.78
+tags:
+  - software
+  - guides
+  - privacy

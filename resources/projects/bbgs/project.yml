@@ -4,9 +4,6 @@ links:
   website: http://bbgsmining.com
   twitter: https://twitter.com/BBGreenServices
 
-tags:
-  - mining
-
 category: mining
 
 # Proofreading metadata
@@ -89,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.26
+tags:
+  - privacy
+  - personal-security
+  - good-practice

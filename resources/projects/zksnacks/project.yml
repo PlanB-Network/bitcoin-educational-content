@@ -3,11 +3,6 @@ name: zkSNACKs
 links:
   website: https://zksnacks.com/
 
-tags:
-  - education
-  - development
-  - privact
-
 category: privacy
 
 # Proofreading metadata
@@ -90,3 +85,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - wallets
+  - privacy
+  - cypherpunk

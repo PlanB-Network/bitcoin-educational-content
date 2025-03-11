@@ -9,8 +9,9 @@ language: en
 description: |
   Expert data driven insights into the Bitcoin ecosystem with a long term bias.
   Delivered weekly.
+contributors:
+  - hunt-wood
 tags:
   - market-trends
   - investment
-contributors:
-  - hunt-wood
+  - technical-analysis

@@ -11,15 +11,19 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: Join us and celebrate the opening day of the Bitcoin Culture Festival with lovely fresh food, drinks, and company easy time, talks, new friendships, community vibe! Meet Bitcoin merchants and participate in discussions about Bitcoin payments​! It’s a great opportunity to immerse yourself in Bitcoin culture, connect with fellow enthusiasts, and explore the future of finance through talks, art, and community gatherings!
+description: Join us and celebrate the opening day of the Bitcoin Culture Festival
+  with lovely fresh food, drinks, and company easy time, talks, new friendships, community
+  vibe! Meet Bitcoin merchants and participate in discussions about Bitcoin payments​!
+  It’s a great opportunity to immerse yourself in Bitcoin culture, connect with fellow
+  enthusiasts, and explore the future of finance through talks, art, and community
+  gatherings!
 language:
   - en
 links:
   website: https://bitcoinculturefestival.london/
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - general
-
+  live_url:
 project_id: 394babd4-0639-4dd0-a98b-a5bdcb3dedd1
+tags:
+  - adoption
+  - user-friendly

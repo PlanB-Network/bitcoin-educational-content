@@ -6,10 +6,6 @@ links:
   twitter: https://x.com/satochip
   github: https://github.com/toporin
 
-tags:
-  - wallets
-  - hardware
-
 category: wallet
 
 # Proofreading metadata
@@ -105,3 +101,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.22
+tags:
+  - hardware
+  - keys
+  - personal-security

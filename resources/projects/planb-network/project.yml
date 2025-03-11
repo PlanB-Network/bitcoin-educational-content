@@ -6,10 +6,6 @@ links:
   github: https://github.com/DecouvreBitcoin/sovereign-university-data
   youtube: https://www.youtube.com/@PlanBNetwork
 
-tags:
-  - education
-  - finance
-
 category: education
 
 # Proofreading metadata
@@ -92,3 +88,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.19
+tags:
+  - software
+  - node
+  - guides

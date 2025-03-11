@@ -1,12 +1,6 @@
 id: 5f0a70db-fab2-47d6-a08a-d68832cfa2d0
 author: Ben Mezrich
 level: intermediate
-tags:
-  - bitcoin
-  - finance
-  - biography
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - historical
+  - investment
+  - business

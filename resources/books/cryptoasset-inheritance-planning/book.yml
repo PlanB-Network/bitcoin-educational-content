@@ -1,12 +1,6 @@
 id: 6d822fdb-7447-4764-9fb0-bbd2ce534169
 author: Pamela Morgan
 level: intermediate
-tags:
-  - bitcoin
-  - security
-
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.66
+tags:
+  - personal-security
+  - good-practice
+  - guides

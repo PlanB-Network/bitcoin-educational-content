@@ -5,12 +5,6 @@ level: advanced
 
 category: peer-to-peer
 
-tags:
-  - peer-to-peer
-  - open-source
-  - bitcoin-only
-
-# Proofreading metadata
 project_id: 9a5bbbc3-22ac-4c98-b10a-c953f9fae337
 original_language: en
 proofreading:
@@ -92,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 4.69
+tags:
+  - guides
+  - user-friendly
+  - software

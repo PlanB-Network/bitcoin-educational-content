@@ -2,11 +2,6 @@ id: e6bcb210-610b-487d-970c-7cce85273e3c
 
 builder: Lnp2pBot
 
-tags:
-  - privacy
-  - lightning
-  - guide
-
 category: peer-to-peer
 
 level: intermediate
@@ -110,3 +105,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 4.33
+tags:
+  - lightning
+  - guides
+  - user-friendly

@@ -6,13 +6,15 @@ address_line_1: Roatan, Honduras
 name: Bitcoin Educators Academy Roatan 2025
 builder: Amity Age
 type: course
-description: Experience 3 intense days of learning how to communicate and educate Bitcoin in a simple and efficient way!
+description: Experience 3 intense days of learning how to communicate and educate
+  Bitcoin in a simple and efficient way!
 language:
   - en
 links:
-  website: https://docs.google.com/forms/d/e/1FAIpQLSejIxrpdGdkQgjcrkltA9-YUiAJLlHS2OPk98E6wYMLMVphug/viewform
-tags:
-  - proof-of-work
-  - DIY
-  - deep-dive
+  website: 
+    https://docs.google.com/forms/d/e/1FAIpQLSejIxrpdGdkQgjcrkltA9-YUiAJLlHS2OPk98E6wYMLMVphug/viewform
 project_id: d3d09b8a-dfbe-4475-921c-589c03953316
+tags:
+  - guides
+  - user-friendly
+  - easy-explain

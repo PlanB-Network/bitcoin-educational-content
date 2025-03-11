@@ -33,6 +33,7 @@ Regarding [pricing](https://proton.me/pricing), the free version offers up to 5 
 If you do not yet have a Proton account, you will need to create one. I refer you to our Proton Mail tutorial in which we explain in detail how to create a free Proton account and set it up:
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ![PROTON DRIVE](assets/notext/04.webp)
 ## How to set up Proton Drive?
 

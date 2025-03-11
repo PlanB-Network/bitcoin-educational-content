@@ -1,11 +1,7 @@
 id: a14d3e37-1a26-42d9-9a4a-e8d9bba3554d
-author: Amanda Cavaleri, Jimmy Song, Lamar Wilson, Pete Rizzo, CJ Wilson, Charlene Hill Fadirepo
+author: Amanda Cavaleri, Jimmy Song, Lamar Wilson, Pete Rizzo, CJ Wilson, Charlene
+  Hill Fadirepo
 level: intermediate
-tags:
-  - finance
-  - historical
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
@@ -92,3 +88,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.48
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.56
+tags:
+  - finance
+  - investment
+  - adoption

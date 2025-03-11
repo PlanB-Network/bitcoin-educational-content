@@ -1,11 +1,6 @@
 id: a847e83c-31ef-4439-9eac-742b255129bb
 builder: Tor
 
-tags:
-  - security
-  - browser
-  - privacy
-
 category: general
 
 level: beginner
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.26
+tags:
+  - guides
+  - privacy
+  - network-security

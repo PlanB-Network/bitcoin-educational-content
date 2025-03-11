@@ -1,0 +1,23 @@
+id: f6c44308-ccd4-4f8c-82cd-2216811c9c0e
+name: Bitcoin Knots
+
+links:
+  website: https://bitcoinknots.org/
+  twitter: https://x.com/BitcoinKnots
+
+category: infrastructure
+
+tags:
+  - node
+  - wallets
+  - onchain
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-05
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 0

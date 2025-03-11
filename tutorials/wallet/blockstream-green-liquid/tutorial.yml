@@ -2,11 +2,6 @@ id: b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 builder: Blockstream
 
-tags:
-  - sidechains
-  - offchain
-  - wallets
-
 category: mobile
 
 level: beginner
@@ -109,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3.57
+tags:
+  - sidechains
+  - wallets
+  - guides

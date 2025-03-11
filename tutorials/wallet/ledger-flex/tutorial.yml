@@ -2,11 +2,6 @@ id: 3728773e-74d4-4177-b39f-bd923700c76a
 
 builder: Ledger
 
-tags:
-  - hardware
-  - wallets
-  - keys
-
 category: hardware
 
 level: intermediate
@@ -97,3 +92,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 8.07
+tags:
+  - hardware
+  - wallets
+  - guides

@@ -11,10 +11,6 @@ links:
   website: https://bitcoin4india.org/
   twitter: https://twitter.com/Bitcoin4India
 
-tags:
-  - adoption
-  - use-case
-
 original_language: en
 proofreading:
   - language: en
@@ -107,3 +103,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.16
+tags:
+  - adoption
+  - user-friendly
+  - future-outlook

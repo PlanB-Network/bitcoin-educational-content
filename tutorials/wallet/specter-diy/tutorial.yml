@@ -5,12 +5,6 @@ level: advanced
 
 category: hardware
 
-tags:
-  - self-custodial
-  - DIY
-  - Open source
-
-# Proofreading metadata
 project_id: 75aa8e7c-d603-431e-9250-04dca714654c
 original_language: en
 proofreading:
@@ -92,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.29
+tags:
+  - DIY
+  - hardware
+  - wallets

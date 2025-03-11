@@ -1,12 +1,6 @@
 id: e461d9e5-a687-421b-8aa8-75dc3493e144
 author: Jörg Guido Hulsamn
 level: advanced
-tags:
-  - bitcoin
-  - technology
-  - history
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.56
+tags:
+  - finance
+  - historical
+  - deep-dive

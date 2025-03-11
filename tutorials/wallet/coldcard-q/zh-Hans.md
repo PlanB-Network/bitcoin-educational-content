@@ -20,6 +20,7 @@ description: 设置和使用 COLDCARD Q
 由于 COLDCARD Q 功能繁多，我建议将其使用分为两个教程。在第一个教程中，我们将了解设备的初始配置和基本功能。然后，在第二个教程中，我们将学习如何利用 COLDCARD 的所有高级选项。
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ---
 ## 介绍 COLDCARD Q
 
@@ -81,6 +82,7 @@ COLDCARD Q 可在 [Coinkite 官方网站](https://store.coinkite.com/store/coldc
 在本教程中，你还需要 Sparrow Wallet 来管理你电脑上的比特币钱包。从官方网站下载 [Sparrow Wallet](https://sparrowwallet.com/download/)。我强烈建议你在安装前检查其真实性（使用 GnuPG）和完整性（通过哈希值）。如果不知道如何操作，请参考本教程：
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ## 选择 PIN 码
 
 现在您可以按左上角的按钮打开 COLDCARD。
@@ -160,6 +162,7 @@ COLDCARD PIN 码分为两个部分：前缀和后缀，每个前缀和后缀可�
 如果您不熟悉这个验证过程，我建议您参考本教程：
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 使用 microSD 卡并将固件文件（文件名为".dfu"）传输到该卡中。将 microSD 卡插入 COLDCARD 的一个端口。
 
 ![CCQ](assets/fr/021.webp)
@@ -199,6 +202,7 @@ https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-b
 我们将在下一个教程中介绍其他高级设置：
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ## 创建比特币钱包
 
 现在是时候生成一个新的比特币钱包了！为此，您需要创建一个记忆短语。在 Coldcard 上，有三种方法可以生成这个短语：
@@ -329,6 +333,7 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea
 要了解有关如何执行恢复测试的更多信息，我建议您参考其他教程：
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## 接收比特币
 
 要接收第一枚比特币，首先要打开并解锁 COLDCARD。
@@ -380,6 +385,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 有关标签的更多信息，我还推荐另一篇教程：
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 然后，您就可以使用该地址接收比特币。
 
 ![CCQ](assets/fr/063.webp)

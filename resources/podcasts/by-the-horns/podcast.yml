@@ -1,13 +1,15 @@
 id: e9cbe346-3715-4ca8-8763-089e1156b646
-name:  By The Horns
-host: Ricki Allardice 
+name: By The Horns
+host: Ricki Allardice
 language: en
 links:
-  podcast: https://podcasts.apple.com/us/podcast/by-the-horns-a-bitcoin-podcast-about-south-africa/id1566840140
+  podcast: 
+    https://podcasts.apple.com/us/podcast/by-the-horns-a-bitcoin-podcast-about-south-africa/id1566840140
 description: |
   A Bitcoin maximalist podcast, based in South Africa. Your host Ricki, discusses all things Bitcoin from a South African perspective.
-tags:
-  - bitcoin
-  - technology
 contributors:
   - rabbit-hole
+tags:
+  - adoption
+  - personal-security
+  - case-studies

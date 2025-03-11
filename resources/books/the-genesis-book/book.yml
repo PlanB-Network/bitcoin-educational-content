@@ -1,10 +1,6 @@
 id: d5bb6f1c-d430-42bf-ad48-d90c2747454a
 author: Aaron van Wirdum
 level: intermediate
-tags:
-  - historical
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
@@ -91,3 +87,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.34
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.38
+tags:
+  - historical
+  - cypherpunk
+  - deep-dive

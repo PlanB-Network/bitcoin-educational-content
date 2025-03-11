@@ -12,14 +12,9 @@ links:
   twitter: https://x.com/btchousebali
   instagram: https://www.instagram.com/bitcoinindo21
   youtube: https://www.youtube.com/@BitcoinIndo21
-  nostr: https://primal.net/p/npub1fpqlfgejlvnv5swanf0398y6k9vvheqs9g4zmjlthrga7ytn53dq3pqwcz
+  nostr: 
+    https://primal.net/p/npub1fpqlfgejlvnv5swanf0398y6k9vvheqs9g4zmjlthrga7ytn53dq3pqwcz
 
-tags:
-  - finance
-  - education
-  - community
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
@@ -108,3 +103,6 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.39
+tags:
+  - adoption
+  - use-case

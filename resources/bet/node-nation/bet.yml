@@ -8,9 +8,6 @@ links:
     - en: https://workspace.planb.network/s/X7ELbtc2PMKwNfD
     - fr: https://workspace.planb.network/s/qLotwnxs7BY2XsZ
     - pt: https://workspace.planb.network/s/2Xft9okxQtiC9QF
-tags:
-  - guides
-  - adoption
 contributors:
   - another-satoshi
 
@@ -109,3 +106,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.11
+tags:
+  - node
+  - guides
+  - development

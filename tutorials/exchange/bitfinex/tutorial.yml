@@ -2,10 +2,6 @@ id: dc306d39-bd96-4ab9-a278-a322316716db
 
 builder: Bitfinex
 
-tags:
-  - investment
-  - finance
-
 category: centralized
 
 level: beginner
@@ -108,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.17
+tags:
+  - guides
+  - investment
+  - user-friendly

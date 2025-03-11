@@ -8,8 +8,9 @@ links:
   website: https://bitcoinops.org/en/podcast/
 description: |
   We provide weekly newsletters, workshops, case studies, and research for the #Bitcoin community.
-tags:
-  - bitcoin
-  - technology
 contributors:
   - rabbit-hole
+tags:
+  - case-studies
+  - good-practice
+  - technical-analysis

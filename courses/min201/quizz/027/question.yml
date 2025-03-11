@@ -3,12 +3,6 @@ chapterId: 879a66b0-c20a-56b5-aad0-8a21be61e338
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
-tags:
-  - Bitcoin
-  - Proof of Work
-  - Network security
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs

@@ -3,11 +3,6 @@ chapterId: 7d3fd135-129d-5c5a-b306-d5f2f1e63340
 difficulty: intermediate
 duration: 30
 author: pretty-private
-tags:
-  - offchain
-  - lightning
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: fr

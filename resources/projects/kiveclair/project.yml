@@ -6,17 +6,12 @@ address_line_2:
 address_line_3:
 language:
   - fr
-  - - en
+  -   - en
 links:
   website: https://kiveclair.com/
   twitter: https://twitter.com/kiveclair
   youtube: https://www.youtube.com/channel/UCjckvkmrZ-2mxW9fQpQJzvw
 
-tags:
-  - development
-  - education
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.21
+tags:
+  - hardware
+  - node
+  - DIY

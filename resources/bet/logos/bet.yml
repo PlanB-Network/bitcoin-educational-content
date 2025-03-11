@@ -4,8 +4,6 @@ links:
   download: https://workspace.planb.network/s/xCB45mb3NLFiGA6
   view:
     - en: https://workspace.planb.network/s/xCB45mb3NLFiGA6
-tags:
-  - bitcoin
 contributors:
   - rabbit-hole
 
@@ -84,3 +82,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.11
+tags:
+  - historical
+  - high-level
+  - adoption

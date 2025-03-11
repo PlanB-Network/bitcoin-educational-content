@@ -6,11 +6,6 @@ links:
   website: https://moneybadger.co.za/
   twitter: https://x.com/MoneyBadgerPay
 
-tags:
-  - software
-  - business
-  - adoption
-
 original_language: en
 proofreading:
   - language: en
@@ -19,3 +14,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+tags:
+  - wallets
+  - user-friendly
+  - adoption

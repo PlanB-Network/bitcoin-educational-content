@@ -54,6 +54,7 @@ Zvolte si silné heslo pro zabezpečení přístupu k účtu a klikněte na tla�
 Pro bezpečnou každodenní správu hesel se doporučuje používat správce hesel. Na webu Plan ₿ Network najdete několik návodů na nejlepší existující řešení, například Bitwarden :
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Poté budete požádáni o ověření své totožnosti (KYC). V souladu s francouzskými předpisy budete požádáni o poskytnutí osobních údajů a dokladu totožnosti. Do kolonek vyplňte své příjmení, jméno a datum narození.
 
 ![Image](assets/fr/07.webp)

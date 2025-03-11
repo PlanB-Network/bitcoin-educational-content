@@ -254,6 +254,7 @@ Bitcoin fordert uns heraus, die Natur des Geldes selbst zu überdenken. Könnten
 Für weitere Informationen über Bitcoin, seine Geschichte, seine Funktionsweise und seine Verwendung empfehle ich auch diesen anderen umfassenden Kurs:
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+
 ## Einführung in das Lightning Network
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -335,6 +336,7 @@ Das Lightning Network ist aufgrund seiner Geschwindigkeit und der Endgültigkeit
 Für weitere Informationen über die technische Funktionsweise des Lightning Network empfehle ich auch diesen anderen umfassenden Kurs zu besuchen:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 # Bitcoin in der Staatskasse
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -454,8 +456,11 @@ Diese Denker prägten die Vorstellung, dass staatliche Eingriffe die Märkte ver
 Für weitere Informationen zu diesem Thema:
 
 https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+
 https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+
 ## Bitcoin in der Staatskasse halten
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -630,7 +635,9 @@ Dies ist bei weitem die gängigste Methode, die entweder über Peer-to-Peer-Bör
 Wenn Sie wissen möchten, wie Sie ein Geschäftskonto eröffnen und damit Bitcoins kaufen, verkaufen und transferieren können, schauen Sie sich diese beiden Tutorials an, die speziell für Unternehmen entwickelt wurden und die Plattformen Kraken und Bitfinex in ihren Unternehmensversionen abdecken:
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+
 https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+
 Um mehr über Methoden zum Erwerb von Bitcoins über eine Börse oder Peer-to-Peer zu erfahren, können Sie [den Abschnitt "Börse" in unseren Anleitungen konsultieren](https://planb.network/tutorials/exchange).
 
 ![BIZ101](assets/en/16.webp)
@@ -943,14 +950,21 @@ Ausführliche Anleitungen zu den empfohlenen Geldbörsen und zur grundlegenden E
 **Selbstverwaltete LN-Geldbörsen/Knoten:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
 https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
+
 **LN-Geldbörsen mit Verwahrung:**
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+
 ## Das Wesentliche
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
@@ -982,12 +996,15 @@ Obwohl das Essential-Profil keine hochentwickelten Buchhaltungssysteme erfordert
 Die für Ihr Profil am besten geeignete Hybridlösung ist wahrscheinlich Swiss Bitcoin Pay:
 
 https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
 Eine weitere einfach zu implementierende Lösung, die jedoch den Nachteil hat, dass sie zu 100 % verwaltet wird, ist Open Node:
 
 https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
 Wenn Sie bereit sind, sich die Hände schmutzig zu machen und die volle Kontrolle über den Prozess haben möchten, ist die BTCPay Server-Software eine hervorragende Option. Der größte Nachteil von BTCPay Server ist jedoch, dass seine Einrichtung und Verwaltung zeitaufwendig sind und ein gewisses Maß an technischem Know-how erfordern, aber Sie können unseren Anleitungen folgen:
 
 https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+
 Als Ergänzung zu den physischen Verkaufsstellen könnten Sie die Einrichtung eines [Bitcoinize PoS](https://bitcoinize.com/) in Betracht ziehen.
 
 ## Der Profi
@@ -1025,6 +1042,7 @@ Ein Beispiel aus der Praxis: ein mittelgroßes E-Commerce-Geschäft, das sich au
 Wenn Sie sich eingehender mit den Besonderheiten der Implementierung und den praktischen Konfigurationen von BTC Pay Server befassen möchten, besuchen Sie den folgenden Kurs:
 
 https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+
 ## Das Unternehmen
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
@@ -1275,6 +1293,7 @@ Für die meisten kleinen Unternehmen reicht jedoch eine einfache "csv"-Datei mit
 Für diejenigen, die ihren Bitcoin selbst verwahren, ist die Verwaltung von UTXOs (*Unspent Transaction Outputs*) ein wichtiger Schritt. Eine ordnungsgemäße UTXO-Kennzeichnung hilft dabei, die Herkunft jedes BTC-Fragments zurückzuverfolgen, Transaktionen im Zusammenhang mit beruflichen Aktivitäten von denen für private Ausgaben zu unterscheiden und die Rückverfolgbarkeit für rechtliche oder steuerliche Zwecke zu erleichtern. Die meisten guten Bitcoin-Wallet-Programme ermöglichen es Ihnen, Ihre Wallet mit Hilfe Ihrer Backup-Datei (oder Ihrer xpub, je nach Einrichtung) zu importieren und UTXOs nach ihrem Ursprung oder Ziel zu kennzeichnen. Um Ihnen dabei zu helfen, finden Sie hier ein komplettes Tutorial zu diesem Thema:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 Ob Sie nun ein kleiner Händler oder ein etablierteres Unternehmen sind, es ist möglich, **eine Rechnung in Bitcoin** zu begleichen. Der Schlüssel ist, die Transaktion richtig zu dokumentieren. Wenn Sie von einer selbstverwahrten Wallet aus bezahlen, ist es ideal, eine Transaktion zu erstellen, die die Rechnungsnummer und den Zweck der Zahlung in Ihren Etiketten vermerkt. Wenn Sie es vorziehen, die Rechnung über eine Börse zu begleichen, haben Sie auch die Möglichkeit, eine Quittung oder einen Transaktionsverlauf zu exportieren und in Ihre Buchhaltung aufzunehmen. Diese Transparenz vereinfacht die Nachverfolgung und Berichterstattung über alle Ihre BTC-Geschäfte.
 
 ## Praktische Bitcoin-Buchhaltungsbeispiele

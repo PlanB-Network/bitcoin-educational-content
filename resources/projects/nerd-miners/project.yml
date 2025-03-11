@@ -5,10 +5,6 @@ links:
   website: https://nerdminers.com/
   twitter: https://x.com/nerdminers
 
-tags:
-  - mining
-  - hardware
-
 category: mining
 
 # Proofreading metadata
@@ -104,3 +100,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.22
+tags:
+  - mining
+  - technical-analysis
+  - hardware

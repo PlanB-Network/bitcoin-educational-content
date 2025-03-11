@@ -1,12 +1,5 @@
 id: 0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 builder: Samourai
-tags:
-  - node
-  - Raspberry Pi
-  - privacy
-  - whirlpool
-  - Coinjoin
-
 category: bitcoin
 
 level: advanced
@@ -97,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 24.37
+tags:
+  - node
+  - DIY
+  - guides

@@ -1,11 +1,6 @@
 id: 84def86d-faf5-4589-807a-83be60720c8b
 builder: Sparrow
 
-tags:
-  - privacy
-  - coinjoin
-  - mix
-
 category: on-chain
 
 level: intermediate
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 15.48
+tags:
+  - wallets
+  - guides
+  - privacy

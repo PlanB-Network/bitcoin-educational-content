@@ -1,11 +1,6 @@
 id: e566803d-ab3f-4d98-9136-5462009262ef
 builder: Samourai
 
-tags:
-  - privacy
-  - coinjoin
-  - mix
-
 category: on-chain
 
 level: intermediate
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 16.28
+tags:
+  - wallets
+  - privacy
+  - guides

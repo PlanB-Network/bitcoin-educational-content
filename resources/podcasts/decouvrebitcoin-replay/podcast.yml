@@ -6,7 +6,7 @@ links:
   podcast: https://podcasts.apple.com/us/podcast/decouvrebitcoin-replay/id1693844092
   twitter: https://twitter.com/decouvrebitcoin
   website: https://decouvrebitcoin.fr
-description: |
+description: |2
 
   Envie d’aller dans la tech ? Les replays des LIVE sont là pour toi !
 
@@ -16,8 +16,9 @@ description: |
    
   * Le SpaceKek est un LIVE technique organisé une fois par semaine pour aller en profondeur dans le protocole Bitcoin, les solutions de layer deux et tout ce qui retourne les cerveaux. Nos hôtes Lounes, Pantamis, Loïc et Sosthene seront répondre à vos questions et proposer le show le plus technique sur Bitcoin en francophonie.
 
-tags:
-  - bitcoin
-  - technology
 contributors:
   - rabbit-hole
+tags:
+  - technical-analysis
+  - development
+  - deep-dive

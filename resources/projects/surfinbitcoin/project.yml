@@ -4,10 +4,6 @@ links:
   twitter: https://twitter.com/SurfinBitcoin
   website: https://surfinbitcoin.com/
 
-tags:
-  - education
-  - development
-
 category: conference
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.11
+tags:
+  - mining
+  - hardware
+  - DIY

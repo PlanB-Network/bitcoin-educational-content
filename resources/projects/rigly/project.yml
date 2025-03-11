@@ -5,9 +5,6 @@ links:
   twitter: https://twitter.com/TrustlessMining
   nostr: npub1t6el40knsq8hmrpr0m6tt3t0tr4pdeyhlt2qelwhgtwawddqx0xsv03scu
 
-tags:
-  - exchange
-
 category: mining
 
 # Proofreading metadata
@@ -90,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.19
+tags:
+  - protocols
+  - smart-contracts
+  - protocols

@@ -5,11 +5,6 @@ links:
   twitter: https://twitter.com/ivpnnet
   github: https://github.com/ivpn
 
-tags:
-  - security
-  - open-source
-  - infrastructure
-
 category: privacy
 
 # Proofreading metadata
@@ -92,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.36
+tags:
+  - privacy
+  - network-security
+  - software

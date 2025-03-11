@@ -5,11 +5,6 @@ links:
   twitter: https://twitter.com/LuganoPlanB
   youtube: https://www.youtube.com/channel/UCOT9XfrKaiKunSGYSQNmRrg
 
-tags:
-  - education
-  - development
-  - privacy
-
 category: conference
 
 # Proofreading metadata
@@ -92,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.2
+tags:
+  - adoption
+  - business
+  - use-case

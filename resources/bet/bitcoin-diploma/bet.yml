@@ -4,9 +4,8 @@ type: Educational Content
 links:
   download: https://github.com/MyFirstBitcoin
   view:
-    - en: https://github.com/MyFirstBitcoin/Bitcoin-Diploma-2024/blob/main/Bitcoin%20Diploma%20-%202024%20-%20PDF.pdf
-tags:
-  - bitcoin
+    - en: 
+        https://github.com/MyFirstBitcoin/Bitcoin-Diploma-2024/blob/main/Bitcoin%20Diploma%20-%202024%20-%20PDF.pdf
 contributors:
   - rabbit-hole
 
@@ -92,3 +91,6 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.11
+tags:
+  - user-friendly
+  - easy-explain

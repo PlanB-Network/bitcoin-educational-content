@@ -16,9 +16,9 @@ language:
 links:
   website: https://www.breizhbitcoin.com/
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - General
-
+  live_url:
 project_id: 8ac2bfcc-7d12-4d9f-b85e-ac03eff327c9
+tags:
+  - finance
+  - market-trends
+  - business

@@ -5,12 +5,6 @@ links:
   twitter: https://twitter.com/wasabiwallet
   github: https://github.com/zkSNACKs/WalletWasabi
 
-tags:
-  - bitcoin-only
-  - open-source
-  - wallet
-  - privacy
-
 category: wallet
 
 # Proofreading metadata
@@ -93,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.27
+tags:
+  - wallets
+  - privacy
+  - good-practice

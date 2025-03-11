@@ -6,14 +6,15 @@ address_line_1: Warsaw, Poland
 name: The Heart of Bitcoin Cinema
 builder: Bitcoin Filmfest
 type: conference
-description: Bitcoin FilmFest is a Bitcoin-Only project that made its debut in March 2023 by running the world’s first large-scale Bitcoin film festival (aka BFF) in Warsaw, Poland.
+description: Bitcoin FilmFest is a Bitcoin-Only project that made its debut in March
+  2023 by running the world’s first large-scale Bitcoin film festival (aka BFF) in
+  Warsaw, Poland.
 language:
   - en
 links:
   website: https://bitcoinfilmfest.com/
-tags:
-  - proof-of-work
-  - innovation
-  - use-case
-
 project_id: 05f0c068-36a9-45b7-bafa-b7490d141b74
+tags:
+  - historical
+  - adoption
+  - case-studies

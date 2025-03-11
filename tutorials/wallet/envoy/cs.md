@@ -6,7 +6,7 @@ description: Nastavení a používání pasu s aplikací Envoy
 
 Envoy je aplikace pro správu peněženky Bitcoin vyvinutá společností Foundation. Je speciálně navržena pro použití s hardwarovou peněženkou Passport.
 
-Passport "*Batch 2*", který představujeme v tomto návodu s aplikací Envoy, je nástupcem "*Founder's Edition*". Vyznačuje se prvotřídním designem, barevnou obrazovkou s vysokým rozlišením a ergonomickou fyzickou klávesnicí. Pracuje v režimu "*Air-Gap*", který zajišťuje, že soukromé klíče vaší peněženky zůstanou zcela izolované, přičemž výměna je možná prostřednictvím karty MicroSD nebo kódů QR. Součástí zařízení je odnímatelná baterie s kapacitou 1200 mAh.
+Passport "*Batch 2*", který představujeme v tomto tutoriálu spolu s aplikací Envoy, je nástupcem edice "*Founder's Edition*". Vyniká prémiovým designem, vysoce kvalitním barevným displejem a ergonomickou fyzickou klávesnicí. Funguje v režimu "*Air-Gap*", což zajišťuje, že soukromé klíče vaší peněženky zůstanou zcela izolované, přičemž komunikace probíhá prostřednictvím karty MicroSD nebo QR kódů. Zařízení je vybaveno vyměnitelnou dobíjecí baterií Nokia BL-5C s kapacitou 1200 mAh. Tato běžně dostupná baterie může být snadno nahrazena, protože model BL-5C lze snadno najít v obchodech.
 
 Co se týče konektivity, je Passport vybaven portem MicroSD, portem USB-C pro nabíjení a zadní kamerou pro snímání QR kódů.
 
@@ -23,6 +23,7 @@ V tomto návodu, který je určen pro začátečníky a středně pokročilé u�
 Pokud jste pokročilý uživatel a chcete prozkoumat složitější funkce, doporučuji vám podívat se na tento další návod, kde konfigurujeme Passport s peněženkou Sparrow :
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 ## Vybalení pasu
 
 Po obdržení pasu se ujistěte, že krabice a pečeť na kartonu jsou neporušené, abyste potvrdili, že balíček nebyl otevřen. Při nastavení zařízení bude rovněž provedeno softwarové ověření jeho pravosti a neporušenosti.
@@ -170,6 +171,7 @@ K tomu použijte kartu MicroSD, která je součástí balení Passportu (nebo ji
 Před instalací do zařízení důrazně doporučujeme zkontrolovat pravost a neporušenost staženého firmwaru. Pokud s tím potřebujete pomoci, podívejte se do tohoto návodu :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### S aplikací Envoy
 
 Druhou, jednodušší možností je použít přímo aplikaci Envoy. Klikněte na "*Stáhnout firmware*".
@@ -253,6 +255,7 @@ Kliknutím na potvrzovací tlačítko zobrazíte svou mnemotechnickou frázi.
 Pro více informací o správném způsobu ukládání a správy mnemotechnických frází vřele doporučuji sledovat tento další návod, zejména pokud jste začátečníci:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 samozřejmě nesmíte tato slova nikdy sdílet na internetu, jako to dělám já v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a na konci tutoriálu bude smazáno.**_
 
 Vytvořte si fyzickou zálohu této věty.

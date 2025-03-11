@@ -2,11 +2,6 @@ id: c1503adf-1404-4328-b814-aa97fcf0d5da
 
 builder: Blockstream
 
-tags:
-  - wallets
-  - software
-  - keys
-
 category: desktop
 
 level: intermediate
@@ -109,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3.69
+tags:
+  - wallets
+  - software
+  - user-friendly

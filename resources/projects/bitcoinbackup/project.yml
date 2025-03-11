@@ -4,10 +4,6 @@ links:
   website: https://www.thebitcoinbackup.com/
   twitter: https://twitter.com/TheBTCBackup
 
-tags:
-  - Coach
-  - Education
-
 category: education
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - backup
+  - guides
+  - good-practice

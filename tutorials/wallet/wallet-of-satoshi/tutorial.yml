@@ -5,12 +5,6 @@ level: beginner
 
 category: mobile
 
-tags:
-  - wallet
-  - lightning-network
-  - custodial
-
-# Proofreading metadata
 project_id: 6ca330b1-d19c-470e-93a7-98bce38ff0f5
 original_language: en
 proofreading:
@@ -92,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.25
+tags:
+  - wallets
+  - lightning
+  - user-friendly

@@ -6,9 +6,10 @@ links:
   podcast: https://www.thisweekinbitcoin.show/
   website: https://www.jupiterbroadcasting.com/show/this-week-in-bitcoin/
 description: |
- This Week in Bitcoin is an independent, investigative podcast covering Bitcoin. A high-signal news podcast focused on analysis you'll find valuable.
-tags:
-  - bitcoin
-  - technology
+  This Week in Bitcoin is an independent, investigative podcast covering Bitcoin. A high-signal news podcast focused on analysis you'll find valuable.
 contributors:
   - jinformatique
+tags:
+  - market-trends
+  - adoption
+  - high-level

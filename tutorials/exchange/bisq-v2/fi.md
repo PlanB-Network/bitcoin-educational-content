@@ -9,6 +9,7 @@ description: Täydellinen opas Bisq 2:n käyttöön ja bitcoinien P2P-vaihtoon
 KYC-vapaat P2P-pörssit ovat olennaisen tärkeitä käyttäjien luottamuksellisuuden ja taloudellisen riippumattomuuden säilyttämiseksi. Ne mahdollistavat suorat transaktiot yksityishenkilöiden välillä ilman henkilöllisyyden todentamista, mikä on ratkaisevan tärkeää yksityisyyttä arvostaville. Jos haluat syvällisemmän käsityksen teoreettisista käsitteistä, tutustu BTC204-kurssiin:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ### Mikä on Bisq 2?
 
 Bisq 2 on uusi versio suositusta hajautetusta Bisq-pörssistä, joka julkaistiin vuonna 2024. Toisin kuin edeltäjänsä, Bisq 2 on kehitetty tukemaan useita vaihtoprotokollia, mikä tarjoaa käyttäjille enemmän joustavuutta.
@@ -86,6 +87,7 @@ Tämä opas keskittyy yksinomaan Bisq Easy -protokollaan, joka on tällä hetkel
 - Tarkista ladatun tiedoston aitous (erittäin suositeltavaa). Yksityiskohtainen opas allekirjoituksen tarkistamisesta on seuraavassa oppaassa:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### 2. Asennus järjestelmän mukaan
 
 Noudata käyttöjärjestelmääsi sopivia asennusvaiheita. Jos asennuksen aikana ilmenee ongelmia, voit tutustua [virallisen Bisq-wikin] (https://bisq.wiki/Downloading_and_installing) yksityiskohtaisiin ohjeisiin.

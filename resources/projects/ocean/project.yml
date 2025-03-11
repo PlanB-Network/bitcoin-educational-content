@@ -5,10 +5,6 @@ links:
   website: https://ocean.xyz/
   twitter: https://x.com/ocean_mining
 
-tags:
-  - mining
-  - software
-
 category: mining
 
 # Proofreading metadata
@@ -104,3 +100,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.2
+tags:
+  - smart-contracts
+  - interoperability
+  - sidechains

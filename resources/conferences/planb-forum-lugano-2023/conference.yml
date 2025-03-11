@@ -9,12 +9,6 @@ language:
 links:
   website: https://planb.lugano.ch/planb-forum/
   twitter: https://twitter.com/LuganoPlanB
-tags:
-  - International
-  - All Public
-  - General
-
-# Proofreading metadata
 project_id: cf0fecdf-6a70-40ec-869d-c6c78f9fac01
 original_language: en
 proofreading:
@@ -24,3 +18,7 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - adoption
+  - regulation
+  - finance

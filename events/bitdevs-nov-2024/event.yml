@@ -15,12 +15,12 @@ description: Bitcoin Devs Monthly workshop
 language:
   - en
 links:
-  website: https://www.meetup.com/san-salvador-bitdevs/events/301493699/?eventOrigin=group_upcoming_events
+  website: 
+    https://www.meetup.com/san-salvador-bitdevs/events/301493699/?eventOrigin=group_upcoming_events
   replay_url:
   live_url:
-tags:
-  - decentralization
-  - adoption
-  - software
-
 project_id: 4370ef85-a176-45ff-af8f-0c9e8eaf6939
+tags:
+  - development
+  - user-friendly
+  - guides

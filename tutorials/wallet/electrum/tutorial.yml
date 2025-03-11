@@ -5,11 +5,6 @@ level: advanced
 
 category: desktop
 
-tags:
-  - self-custodial
-  - open-source
-  - privacy
-
 credits:
   Professor: rebuild-kiss
   link: https://armantheparman.com/electrum/
@@ -97,3 +92,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 37.77
+tags:
+  - wallets
+  - guides
+  - technical-analysis

@@ -8,8 +8,9 @@ links:
   website: https://podcast.chaincode.com/
 description: |
   The Chaincode Podcast brings you interviews with the most influential Bitcoin engineers about Bitcoin protocol development.
-tags:
-  - bitcoin
-  - technology
 contributors:
   - rabbit-hole
+tags:
+  - development
+  - technical-analysis
+  - deep-dive

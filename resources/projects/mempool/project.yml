@@ -6,11 +6,6 @@ links:
   github: https://github.com/mempool
   nostr: npub18d4r6wanxkyrdfjdrjqzj2ukua5cas669ew2g5w7lf4a8te7awzqey6lt3
 
-tags:
-  - bitcoin-only
-  - open-source
-  - infrastructure
-
 category: service
 
 # Proofreading metadata
@@ -93,3 +88,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - node
+  - onchain
+  - user-friendly

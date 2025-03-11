@@ -1,11 +1,6 @@
 id: 055c0ca4-cb46-4e2e-8fa4-49b9fc1ea9b6
 author: Ray Bradbury
 level: beginner
-tags:
-  - science fiction
-  - social issues
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.24
+tags:
+  - cypherpunk
+  - self-sovereignty
+  - case-studies

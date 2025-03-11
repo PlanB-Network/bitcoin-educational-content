@@ -20,7 +20,9 @@ description: |
   message was on May 2023. Furthermore, some articles are not written from the
   Network itself, but are reposted from third-parties. Hence, some of them
   are not available anymore, especially the olders ones.
-tags:
-  - regulation
 contributors:
   - hunt-wood
+tags:
+  - legacy
+  - case-studies
+  - personal-security

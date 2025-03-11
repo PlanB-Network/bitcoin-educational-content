@@ -6,12 +6,6 @@ links:
 
 category: education
 
-tags:
-  - lightning-network
-  - research
-  - infrastructure
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -91,3 +85,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.19
+tags:
+  - development
+  - technical-analysis
+  - deep-dive

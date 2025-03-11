@@ -1,11 +1,6 @@
 id: a78b057e-ed11-47ac-860c-71019fcb451a
 builder: Swiss Bitcoin Pay
 
-tags:
-  - point of sales
-  - merchant
-  - wallet
-
 category: merchant
 
 level: beginner
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3.43
+tags:
+  - guides
+  - business
+  - adoption

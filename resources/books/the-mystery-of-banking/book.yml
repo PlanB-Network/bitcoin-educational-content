@@ -1,11 +1,6 @@
 id: 4063447d-9355-4da5-90c8-914423e7009a
 author: Murray Rothbard
 level: intermediate
-tags:
-  - history
-  - economy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.37
+tags:
+  - finance
+  - high-level
+  - historical

@@ -1,12 +1,6 @@
 id: b4585ffa-e56c-4177-9798-44b0fefb15a5
 author: Kostas Spanakis
 level: intermediate
-tags:
-  - bitcoin
-  - economics
-  - philosophy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.15
+tags:
+  - adoption
+  - case-studies
+  - market-trends

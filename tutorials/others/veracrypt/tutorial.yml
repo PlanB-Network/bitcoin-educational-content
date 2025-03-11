@@ -1,11 +1,6 @@
 id: d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 builder: VeraCrypt
 
-tags:
-  - security
-  - privacy
-  - encryption
-
 category: general
 
 level: intermediate
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 5.27
+tags:
+  - DIY
+  - personal-security
+  - guides

@@ -4,9 +4,6 @@ links:
   website: https://cequals.xyz/
   twitter: https://twitter.com/c_equals
 
-tags:
-  - Infrastructure
-
 category: infrastructure
 
 # Proofreading metadata
@@ -89,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.17
+tags:
+  - legacy
+  - deep-dive
+  - technical-analysis

@@ -1,12 +1,6 @@
 id: 736c50e5-c21d-4524-9592-eb00dcca78a6
 author: Jacques Favier
 level: intermediate
-tags:
-  - finance
-  - bitcoin
-  - economics
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - evaluation
+  - guides
+  - user-friendly

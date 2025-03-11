@@ -1,12 +1,6 @@
 id: 78346cac-a580-4485-8f84-320edfd761c5
 author: Michael Caras
 level: intermediate
-tags:
-  - bitcoin
-  - finance
-  - education
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - user-friendly
+  - finance
+  - easy-explain

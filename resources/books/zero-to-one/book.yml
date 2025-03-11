@@ -1,12 +1,6 @@
 id: 9fda49fa-fe66-4b45-8e9b-5538bb13db84
 author: Peter Thiel
 level: intermediate
-tags:
-  - business
-  - entrepreneurship
-  - startups
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.45
+tags:
+  - innovation
+  - business
+  - technical-analysis

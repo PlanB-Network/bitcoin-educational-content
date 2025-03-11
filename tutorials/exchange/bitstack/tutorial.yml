@@ -2,10 +2,6 @@ id: 29fd71be-9570-42c6-8f6f-cd355d62e746
 
 project_id: 941e59ff-1ca4-4407-b1a2-a704d2a0933c
 
-tags:
-  - software
-  - investment
-
 category: centralized
 
 level: beginner
@@ -101,3 +97,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.01
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.39
+tags:
+  - investment
+  - user-friendly
+  - wallets

@@ -2,12 +2,6 @@ id: 5a75db51-a6a1-4338-a02a-164a8d91b895
 
 builder: Plan ₿ Network
 
-tags:
-  - wallets
-  - software
-  - backup
-  - good-practice
-
 category: backup
 
 level: beginner
@@ -110,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.6
+tags:
+  - backup
+  - good-practice
+  - personal-security

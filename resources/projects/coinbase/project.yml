@@ -6,11 +6,6 @@ links:
   website: https://www.coinbase.com/
   twitter: https://x.com/coinbase
 
-tags:
-  - finance
-  - user-friendly
-  - business
-
 original_language: en
 proofreading:
   - language: en
@@ -19,3 +14,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0
+tags:
+  - wallets
+  - personal-security
+  - keys

@@ -4,10 +4,6 @@ links:
   website: https://lnvpn.net/
   twitter: https://twitter.com/ln_vpn
 
-tags:
-  - vpn
-  - lightning network
-
 category: privacy
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.18
+tags:
+  - privacy
+  - software
+  - user-friendly

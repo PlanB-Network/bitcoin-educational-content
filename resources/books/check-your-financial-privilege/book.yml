@@ -1,12 +1,6 @@
 id: b35ca3ae-2df6-423e-87a3-614ee06a0e6d
 author: Alex Gladstein
 level: intermediate
-tags:
-  - finance
-  - social issues
-  - economy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.65
+tags:
+  - adoption
+  - finance
+  - self-sovereignty

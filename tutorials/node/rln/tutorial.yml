@@ -2,11 +2,6 @@ id: ffc02528-329b-4e16-bd83-873d0299feea
 
 builder: Bitfinex
 
-tags:
-  - offchain
-  - layers
-  - protocols
-
 category: rgb
 
 level: advanced
@@ -109,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 10.04
+tags:
+  - lightning
+  - node
+  - experimental

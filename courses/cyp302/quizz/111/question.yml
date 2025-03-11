@@ -3,11 +3,6 @@ chapterId: 5caec5bd-5a77-56c9-b5e6-1e86f0d294aa
 difficulty: hard
 duration: 30
 author: pretty-private
-tags:
-  - cypherpunk
-  - network-security
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: fr

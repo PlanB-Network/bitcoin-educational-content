@@ -5,10 +5,6 @@ category: conference
 links:
   website: https://www.zumwildenmichel.de
 
-tags:
-  - use-case
-  - adoption
-
 original_language: en
 proofreading:
   - language: en
@@ -17,3 +13,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.11
+tags:
+  - business
+  - use-case
+  - adoption

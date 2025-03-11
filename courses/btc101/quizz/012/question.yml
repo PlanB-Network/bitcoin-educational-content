@@ -3,12 +3,6 @@ chapterId: 9a94b627-5b69-5d81-9125-f1fa9b0aa6ad
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
-tags:
-  - Bitcoin Culture
-  - Cypherpunks
-  - Cryptography
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs

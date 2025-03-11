@@ -5,10 +5,6 @@ links:
   website: https://www.elysiumlab.io/
   twitter: https://x.com/ElysiumLab_io
 
-tags:
-  - wallets
-  - software
-
 category: wallet
 
 # Proofreading metadata
@@ -104,3 +100,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.2
+tags:
+  - software
+  - development
+  - evaluation

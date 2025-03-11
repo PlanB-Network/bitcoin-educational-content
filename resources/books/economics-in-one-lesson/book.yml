@@ -1,11 +1,6 @@
 id: 04d2656f-19fa-49ee-990d-01a4228b7acd
 author: Henry Hazlitt
 level: beginner
-tags:
-  - economy
-  - finance;
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.22
+tags:
+  - finance
+  - user-friendly
+  - easy-explain

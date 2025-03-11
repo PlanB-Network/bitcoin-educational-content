@@ -564,8 +564,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-4
 Por ejemplo, puede utilizar un Ledger, un Satochip o un Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Nivel 3**, utilizas un monedero de nivel 1 o 2, pero has añadido una frase de contraseña adicional. En este caso, ten en cuenta que necesitas hacer una copia de seguridad tanto de la lista de 12/24 palabras **como\*\* de tu frase de contraseña. Idealmente, estas dos piezas de información se almacenan en dos lugares diferentes.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Para saber más sobre el uso y el funcionamiento de la frase de contraseña BIP39:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Nivel 4\*\*, se utiliza un conjunto de monederos para crear un monedero "multisig", lo que significa que se requieren varias firmas para realizar una transacción. En este caso, tenga en cuenta que cada parte de la multisig debe almacenarse en diferentes ubicaciones. Este enfoque se considera a menudo un uso avanzado de Bitcoin, principalmente para la gestión de grandes cantidades y para fines corporativos.
@@ -829,7 +833,7 @@ Hay varias opciones disponibles cuando desea instalar su propio nodo, con difere
 
 ![image](assets/en/53.webp)
 
-Una segunda opción es utilizar una pieza de hardware dedicada a este fin, como una Raspberry Pi 4 con un SSD suficientemente grande (alrededor de ~1TB). Esta otra opción es más cara si tienes que comprar el hardware, pero representa algo menos de 10,00 € al año en términos de consumo eléctrico.
+Una segunda opción es utilizar una pieza de hardware dedicada a este fin, como una Raspberry Pi 4 con un SSD suficientemente grande (alrededor de ~2TB). Esta otra opción es más cara si tienes que comprar el hardware, pero representa algo menos de 10,00 € al año en términos de consumo eléctrico.
 
 Desde el punto de vista del ancho de banda, considerando 1 bloque de 1MB cada 10 minutos, corresponde aproximadamente a 5GB al mes.
 

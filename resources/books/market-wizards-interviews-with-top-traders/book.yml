@@ -1,12 +1,6 @@
 id: 01e7eac5-c71c-4ed3-8dd4-dfba1fe39861
 author: Jack D.Schwager
 level: intermediate
-tags:
-  - economics
-  - sustainability
-  - ecology
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - investment
+  - market-trends
+  - finance

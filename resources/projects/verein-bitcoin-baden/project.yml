@@ -7,11 +7,6 @@ links:
   twitter: https://twitter.com/bitcoinbaden
   youtube: https://www.youtube.com/@bitcoinbaden
 
-tags:
-  - finance
-  - easy-explain
-  - adoption
-
 original_language: de
 proofreading:
   - language: de
@@ -20,3 +15,6 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.08
+tags:
+  - adoption
+  - business

@@ -1,12 +1,6 @@
 id: 9c58fc92-c7e7-46d7-b88d-16e1334acb6c
 author: Nassim Nicholas Taleb
 level: intermediate
-tags:
-  - strategy
-  - finance
-  - economy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.36
+tags:
+  - risks
+  - technical-analysis
+  - deep-dive

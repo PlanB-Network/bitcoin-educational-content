@@ -1,0 +1,9 @@
+question: Perché è consigliato usare password generate casualmente?
+answer: Per resistere agli attacchi a forza bruta.
+wrong_answers:
+  - Per facilitarne la memorizzazione.
+  - Per ridurne la complessità.
+  - Per resistere agli attacchi Sybil.
+explanation: |
+  La casualità rende le password più difficili da indovinare con tentativi casuali, aumentando così la loro sicurezza contro gli attacchi a forza bruta.
+reviewed: false

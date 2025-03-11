@@ -1,12 +1,6 @@
 id: e5eceb82-c776-4abe-8084-09357fda925f
 author: Jacques Favier
 level: intermediate
-tags:
-  - finance
-  - trading
-  - interviews
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - finance
+  - high-level
+  - easy-explain

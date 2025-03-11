@@ -10,15 +10,16 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: Join us for a free one-day virtual session to help your Bitcoin company grow.
+description: Join us for a free one-day virtual session to help your Bitcoin company
+  grow.
 language:
   - en
 links:
   website: https://wolfnyc.com/bootloader
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - general
-
+  live_url:
 project_id: 381b50a1-232c-4170-922d-2943d840a567
+tags:
+  - business
+  - adoption
+  - user-friendly

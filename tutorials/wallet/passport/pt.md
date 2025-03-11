@@ -6,7 +6,7 @@ description: Configurar e utilizar a carteira de hardware Passport em modo manua
 
 O Passport é uma carteira de hardware apenas para Bitcoin, concebida pela Foundation Devices, uma empresa americana fundada em abril de 2020 em Boston.
 
-O Passport "*Batch 2*" que apresentamos neste tutorial é o sucessor do "*Founder's Edition*". Apresenta um design premium, um ecrã a cores de alta definição e um teclado físico ergonómico. Funciona em modo "*Air-Gap*", garantindo que as chaves privadas da sua carteira permanecem totalmente isoladas, sendo possível efetuar trocas através de um cartão MicroSD ou de códigos QR. O dispositivo inclui uma bateria amovível de 1200 mAh.
+O Passport "*Batch 2*" apresentado neste tutorial é o sucessor da edição "*Founder's Edition*". Ele se destaca pelo design premium, tela colorida de alta definição e teclado físico ergonômico. Opera no modo "*Air-Gap*", garantindo que as chaves privadas da sua carteira permaneçam totalmente isoladas, com trocas possíveis via cartão MicroSD ou códigos QR. O dispositivo possui uma bateria removível e recarregável Nokia BL-5C de 1200 mAh. Esta bateria não proprietária pode ser facilmente substituída, pois o modelo BL-5C é amplamente disponível no mercado.
 
 Quanto à conetividade, o Passport está equipado com uma porta MicroSD, uma porta USB-C para carregamento e uma câmara traseira para leitura de códigos QR.
 
@@ -21,6 +21,7 @@ Para gerir a sua carteira segura num Passport, tem várias opções. Esta cartei
 Se é um principiante, a opção mais fácil é utilizar o seu Passport com a aplicação nativa Envoy, desenvolvida pela Foundation. Para saber como utilizar o Envoy com o seu Passport, consulte este outro tutorial :
 
 https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+
 ## Desembalar o Passaporte
 
 Quando receber o seu Passport, certifique-se de que a caixa e o selo da embalagem estão intactos para confirmar que a embalagem não foi aberta. Será também efectuada uma verificação de software da autenticidade e integridade do dispositivo quando este for configurado.
@@ -139,6 +140,7 @@ Para o fazer, utilize o cartão MicroSD incluído na caixa do Passport (ou outro
 Antes de o instalar no seu dispositivo, aconselhamos vivamente que verifique a autenticidade e a integridade do firmware descarregado. Se precisar de ajuda para o fazer, consulte este tutorial :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Depois de verificar o arquivo `.bin`, coloque-o no seu MicroSD e insira-o no Passport. O explorador de arquivos do Passport será aberto. Selecione o ficheiro `vN.N.N-passport.bin`.
 
 ![Image](assets/fr/22.webp)
@@ -204,6 +206,7 @@ Clique no botão de confirmação para ver a sua frase mnemónica.
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 é claro que nunca deve partilhar estas palavras na Internet, como eu estou a fazer neste tutorial. Este exemplo de portefólio será utilizado apenas na Testnet e será eliminado no final do tutorial
 
 Fazer uma cópia de segurança física desta frase.
@@ -290,6 +293,7 @@ Antes de continuar, se desejar, pode acrescentar uma frase-passe BIP39. Uma fras
 Antes de configurar esta opção no seu Passport, recomenda-se vivamente a leitura deste artigo para compreender totalmente o funcionamento teórico da frase-chave e evitar erros que possam levar à perda das suas bitcoins:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Para o ativar, vá ao menu "*Mais*" e clique em "*Enter Passphrase*".
 
 ![Image](assets/fr/50.webp)
@@ -311,6 +315,7 @@ Cada vez que desbloquear, depois de escrever a frase-chave, verifique neste ecr�
 Antes de receberes os teus primeiros bitcoins na tua carteira, **aconselho-te vivamente a fazeres um teste de recuperação vazio**. Tome nota de algumas informações de referência, como o seu xpub ou o primeiro endereço de receção, e depois apague a sua carteira no Passport enquanto ainda está vazia (`Configurações -> Avançado -> Apagar Passport`). Em seguida, tente restaurar a sua carteira utilizando as cópias de segurança em papel da frase mnemónica e de qualquer frase-chave. Verifique se a informação do cookie gerada após o restauro corresponde à que escreveu originalmente. Se corresponder, pode ter a certeza de que as suas cópias de segurança em papel são fiáveis. Para saber mais sobre como efetuar uma recuperação de teste, consulte este outro tutorial :
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ![Image](assets/fr/53.webp)
 
 ## Configurar a carteira na Sparrow Wallet
@@ -324,6 +329,7 @@ Comece por descarregar e instalar a Sparrow Wallet [a partir do site oficial] (h
 Certifique-se de que verifica a autenticidade e a integridade do software antes da instalação. Se não souber como o fazer, consulte este tutorial:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Quando a Sparrow Wallet estiver aberta, clique no separador "*Arquivo*" e depois em "*Nova carteira*".
 
 ![Image](assets/fr/55.webp)

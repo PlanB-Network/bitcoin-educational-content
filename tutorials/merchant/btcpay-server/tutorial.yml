@@ -4,12 +4,6 @@ builder: BTCPay Server
 level: advanced
 
 category: merchant
-tags:
-  - point of sales
-  - non-KYC
-  - open-source
-
-# Proofreading metadata
 project_id: c61cbdad-03bc-4178-9d8d-0b5b7c1141a0
 original_language: en
 proofreading:
@@ -91,3 +85,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.46
+tags:
+  - software
+  - guides
+  - user-friendly

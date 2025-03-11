@@ -13,6 +13,7 @@ In this tutorial, we'll cover the process of creating a business account on Bitf
 If you're interested in the subject of integrating bitcoin into your business, I'd also recommend discovering our complete theoretical training course on the subject:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## 1 - Creating a Bitfinex account
 
 Go to [the official Bitfinex website](https://www.bitfinex.com/). On the home page, find and click on the "*Sign Up*" option to start creating your account. At first, you'll create a standard account as for individuals, the "*Corporate*" option will be selected later during the verification process.
@@ -26,9 +27,11 @@ Complete the required information: enter your business email address and your co
 For tips on using and safeguarding strong, unique passwords, see also this tutorial :
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 We're now going to configure the 2FA to secure the account. Use an authentication application on your smartphone, such as Google Authenticator or Authy for example. You'll find a tutorial on this tool here :
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Scan the QR code with your app and enter the 6 digits provided.
 
 ![BITFINEX](assets/fr/03.webp)
@@ -158,6 +161,7 @@ Bitfinex also offers deposit and withdrawal options via the Lightning Network, e
 If you're interested in the Lightning Network, we also have a complete training course to help you understand how it works:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ## 6 - Buying and selling bitcoins on Bitfinex
 
 Bitfinex offers various trading modes. For ease of use, opt for the classic spot market, also known as "*Trading*" or "*Exchange*". Here, you can place buy or sell orders at the market price, or set a limit price.

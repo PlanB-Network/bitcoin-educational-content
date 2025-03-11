@@ -2,11 +2,6 @@ id: a26a0220-806c-44b4-af14-bafdeb1adce7
 
 builder: Plan ₿ Network
 
-tags:
-  - good-practice
-  - risks
-  - wallets
-
 category: backup
 
 level: advanced
@@ -97,3 +92,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.22
+tags:
+  - keys
+  - backup
+  - personal-security

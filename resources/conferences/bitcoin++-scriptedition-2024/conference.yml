@@ -8,11 +8,6 @@ language:
 links:
   twitter: https://x.com/btcplusplus
   website: https://btcpp.dev/
-tags:
-  - technical-analysis
-  - development
-  - high-level
-#proofreading_metadata
 project_id: a717b30b-153e-475d-a83b-ed1b52c9571e
 original_language: en
 proofreading:
@@ -22,3 +17,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0.05
+tags:
+  - development
+  - deep-dive
+  - technical-analysis

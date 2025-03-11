@@ -5,12 +5,6 @@ level: intermediate
 
 category: mobile
 
-tags:
-  - open-source
-  - Privacy
-  - self-custodial
-
-# Proofreading metadata
 project_id: f8ab03d0-0308-4ac1-a223-9c8e7600ff63
 original_language: en
 proofreading:
@@ -93,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.71
+tags:
+  - wallets
+  - privacy
+  - personal-security

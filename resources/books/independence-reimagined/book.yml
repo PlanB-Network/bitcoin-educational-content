@@ -1,12 +1,6 @@
 id: 37fa779c-1bbd-4a84-9dc8-cdf0ae3a4fe9
 author: Knut Svanholm
 level: advanced
-tags:
-  - bitcoin
-  - philosophy
-  - economy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.15
+tags:
+  - self-sovereignty
+  - cypherpunk
+  - adoption

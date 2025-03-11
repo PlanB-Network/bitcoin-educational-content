@@ -1,12 +1,6 @@
 id: f4f045b8-9179-4efc-af56-4ba994c53705
 author: Isaiah Jackson
 level: intermediate
-tags:
-  - bitcoin
-  - social issues
-  - economy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - historical
+  - adoption
+  - case-studies

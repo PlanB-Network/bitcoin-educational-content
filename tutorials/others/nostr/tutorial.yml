@@ -5,10 +5,6 @@ level: advanced
 
 category: general
 
-tags:
-  - peer to peer
-  - open-source
-
 credits:
   professor: fire-poet
   link: https://agora256.com/nostr/
@@ -95,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3.56
+tags:
+  - protocols
+  - user-friendly
+  - guides

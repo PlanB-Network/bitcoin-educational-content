@@ -1,11 +1,6 @@
 id: 99ebf479-000c-447d-8829-b4ecb1f38590
 author: Robert A. Heinlein
 level: intermediate
-tags:
-  - politics
-  - science fiction
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.4
+tags:
+  - case-studies
+  - high-level
+  - decentralization

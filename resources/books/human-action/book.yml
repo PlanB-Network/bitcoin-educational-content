@@ -1,11 +1,6 @@
 id: bbca4b97-baac-4d75-87ab-630f9f8fad4f
 author: Ludwig von Mises
 level: advanced
-tags:
-  - economy
-  - philosophy;
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.0
+tags:
+  - deep-dive
+  - finance
+  - market-trends

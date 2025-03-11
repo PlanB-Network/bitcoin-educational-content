@@ -7,9 +7,6 @@ links:
   twitter: https://x.com/Wo_Bitcoin
   youtube: https://www.youtube.com/@WOBitcoin
 
-tags:
-  - adoption
-
 original_language: es
 proofreading:
   - language: es
@@ -101,3 +98,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - privacy
+  - personal-security
+  - good-practice

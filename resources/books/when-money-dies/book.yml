@@ -1,12 +1,6 @@
 id: 37162171-89d8-49d3-9289-b81ad686f5e2
 author: Adam Fergusson
 level: intermediate
-tags:
-  - economy
-  - history
-  - economy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.36
+tags:
+  - finance
+  - historical
+  - deep-dive

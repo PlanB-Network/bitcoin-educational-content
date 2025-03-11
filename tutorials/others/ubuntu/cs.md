@@ -225,4 +225,4 @@ Nyní jste připraveni používat Ubuntu každý den: zabezpečit svůj systém,
 
 Chcete-li posunout zabezpečení svého digitálního života o krok dál, doporučujeme vám podívat se na naši službu šifrovaných zpráv, která se dokonale hodí k ochraně vašeho soukromí a doplňuje vaši instalaci Ubuntu:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

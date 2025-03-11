@@ -5,12 +5,6 @@ level: advanced
 
 category: mobile
 
-tags:
-  - open-source
-  - lightning-network
-  - self-custodial
-
-
 credits:
   professor: motor-chef
 
@@ -96,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.6
+tags:
+  - lightning
+  - wallets
+  - node

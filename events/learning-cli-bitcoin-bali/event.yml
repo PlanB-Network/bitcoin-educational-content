@@ -12,16 +12,18 @@ book_online: false
 book_in_person: true
 price_dollars: 0
 available_seats: 100
-description: This cohort is an intermediate, hands-on experience focused on operating Bitcoin Core through the command-line interface (CLI).
+description: This cohort is an intermediate, hands-on experience focused on operating
+  Bitcoin Core through the command-line interface (CLI).
 language:
   - in
   - en
 links:
-  website: https://www.eventbrite.com/e/learn-bitcoin-from-the-command-line-study-cohort-tickets-1061892331549
+  website: 
+    https://www.eventbrite.com/e/learn-bitcoin-from-the-command-line-study-cohort-tickets-1061892331549
   replay_url:
   live_url:
-tags:
-  - development
-  - onchain
-  - lightning
 project_id: 254c1311-7974-447f-95f9-ebf10104cec7
+tags:
+  - guides
+  - software
+  - node

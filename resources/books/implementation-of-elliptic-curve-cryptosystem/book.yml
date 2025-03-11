@@ -1,12 +1,6 @@
 id: 535eaa6d-5e07-446c-b470-9f9389bd5797
 author: Jhajharia smita
 level: advanced
-tags:
-  - economics
-  - technology
-  - deflation
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.16
+tags:
+  - technical-analysis
+  - complex-DIY
+  - deep-dive

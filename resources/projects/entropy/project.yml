@@ -4,10 +4,6 @@ links:
   website: https://entropy.page/pow.html
   twitter: https://x.com/d_plus__plus
   nost: https://primal.net/d++
-tags:
-  - bitcoin-only
-  - infrastructure
-
 category: education
 
 original_language: en
@@ -103,3 +99,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.16
+tags:
+  - keys
+  - personal-security
+  - good-practice

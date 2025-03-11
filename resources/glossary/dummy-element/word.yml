@@ -3,10 +3,6 @@ en_word: DUMMY ELEMENT
 related_words:
   - BIP147
   - OP_CHECKMULTISIG
-tags:
-  - ''
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: en

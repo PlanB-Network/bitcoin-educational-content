@@ -5,10 +5,6 @@ level: advanced
 
 category: hardware
 
-tags:
-  - self-custodial
-  - Open-source
-
 credits:
   professor: write-school
   link: https://agora256.com/creation-dune-cle-privee-bitcoin-avec-un-appareil-coldcard/
@@ -95,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 6.55
+tags:
+  - wallets
+  - guides
+  - personal-security

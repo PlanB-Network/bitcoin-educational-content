@@ -10,15 +10,16 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description:  The only business conference in the arabic world for Bitcoin industry leaders and investors
+description: The only business conference in the arabic world for Bitcoin industry
+  leaders and investors
 language:
   - en
 links:
   website: https://bitcoin-oasis.com/
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - general
-
+  live_url:
 project_id: 3d10557c-25bc-4a4d-baa5-af5028078e8b
+tags:
+  - business
+  - investment
+  - adoption

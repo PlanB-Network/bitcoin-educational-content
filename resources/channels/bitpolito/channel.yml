@@ -6,8 +6,8 @@ links:
   trailer: https://youtu.be/eZmjlNSgB5w
 description: |
   Siamo un team studentesco del Politecnico di Torino che si occupa di divulgazione, ricerca e sviluppo su Bitcoin.
-tags:
-  - deep-dive
-  - adoption
 contributors:
   - another-satoshi
+tags:
+  - development
+  - technical-analysis

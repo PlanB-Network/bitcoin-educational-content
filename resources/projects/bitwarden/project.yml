@@ -5,10 +5,6 @@ links:
   website: https://bitwarden.com/
   twitter: https://x.com/Bitwarden
 
-tags:
-  - personal-security
-  - software
-
 category: privacy
 
 # Proofreading metadata
@@ -104,3 +100,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.2
+tags:
+  - software
+  - personal-security
+  - keys

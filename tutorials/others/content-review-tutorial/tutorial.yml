@@ -1,10 +1,6 @@
 id: 1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 builder: Plan ₿ Network
 
-tags:
-  - PlanB Network
-  - Review
-
 category: contribution
 
 level: beginner
@@ -94,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.78
+tags:
+  - guides
+  - good-practice
+  - evaluation

@@ -2,11 +2,6 @@ id: 61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
 project_id: 9e772cca-d361-49f2-96d3-0607dcde0403
 
-tags:
-  - wallets
-  - lightning
-  - user-friendly
-
 category: mobile
 
 level: beginner
@@ -102,3 +97,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.87
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.23
+tags:
+  - lightning
+  - wallets
+  - guides

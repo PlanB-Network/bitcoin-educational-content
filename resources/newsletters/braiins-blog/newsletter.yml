@@ -14,9 +14,9 @@ description: |
   related to the Braiins' ecosystem and available resources. Among them, Braiins
   has published book-report articles to present their handbooks that dive into
   both mining and general Bitcoin knowledge.
-tags:
-  - mining
-  - decentralization
-  - technical-analysis
 contributors:
   - hunt-wood
+tags:
+  - mining
+  - technical-analysis
+  - smart-contracts

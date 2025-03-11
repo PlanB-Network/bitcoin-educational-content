@@ -9,13 +9,6 @@ level: advanced
 
 category: lightning-network
 
-tags:
-  - open-source
-  - self-custodial
-  - lightning
-  - LND
-
-# Proofreading metadata
 project_id: db7cc106-432c-4571-a66a-1f68d024bca4
 original_language: en
 proofreading:
@@ -97,3 +90,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 4.26
+tags:
+  - lightning
+  - guides
+  - node

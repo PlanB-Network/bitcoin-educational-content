@@ -11,15 +11,16 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: El Salvador is the first country to adopt Bitcoin, making it the ground-zero for global Bitcoin adoption.
+description: El Salvador is the first country to adopt Bitcoin, making it the ground-zero
+  for global Bitcoin adoption.
 language:
   - en
 links:
   website: https://sv24.adoptingbitcoin.org/
   replay_url:
   live_url:
-tags:
-  - International
-  - bitcoiner
-  - General
 project_id: 3ece7cc0-6893-4ace-ba4a-a015c2c382d1
+tags:
+  - adoption
+  - case-studies
+  - future-outlook

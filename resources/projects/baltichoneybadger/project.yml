@@ -3,10 +3,6 @@ name: Baltic HoneyBadger
 links:
   website: https://baltichoneybadger.com/
 
-tags:
-  - bitcoin-only
-  - peer-to-peer
-
 category: conference
 
 # Proofreading metadata
@@ -89,3 +85,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.11
+tags:
+  - historical
+  - case-studies
+  - cypherpunk

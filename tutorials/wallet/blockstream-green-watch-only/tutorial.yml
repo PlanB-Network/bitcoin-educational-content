@@ -2,10 +2,6 @@ id: 66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 builder: Blockstream
 
-tags:
-  - wallets
-  - software
-
 category: mobile
 
 level: beginner
@@ -108,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.86
+tags:
+  - wallets
+  - guides
+  - user-friendly

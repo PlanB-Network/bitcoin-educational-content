@@ -1,12 +1,6 @@
 id: 6f7f8967-f5b7-44a5-9745-c7a1a331af31
 author: Michael Caras
 level: intermediate
-tags:
-  - finance
-  - trading
-  - biography
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.16
+tags:
+  - easy-explain
+  - high-level
+  - user-friendly

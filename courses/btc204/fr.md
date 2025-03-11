@@ -1380,7 +1380,7 @@ Pour une option plus simple, vous pouvez essayer [Peach](https://peachbitcoin.co
 
 -> Découvrir notre tutoriel sur Peach.
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 Une autre option en ligne est [HodlHodl](https://hodlhodl.com/), une plateforme bien établie qui offre de bonnes liquidités, bien que je ne l'aie pas personnellement testée.
 

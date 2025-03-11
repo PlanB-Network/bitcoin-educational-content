@@ -4,11 +4,6 @@ links:
   website: https://swiss-bitcoin-pay.ch/
   twitter: https://twitter.com/SwissBitcoinPay
 
-tags:
-  - marchand
-  - bitcoin-only
-  - Point of sale
-
 category: infrastructure
 
 # Proofreading metadata
@@ -91,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - adoption
+  - fees
+  - user-friendly

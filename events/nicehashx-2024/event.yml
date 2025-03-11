@@ -11,16 +11,16 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: Bitcoin Conference on the Sunny Side of the Alps, we are celebrating a decade of bitcoin excellence at NiceHash!
+description: Bitcoin Conference on the Sunny Side of the Alps, we are celebrating
+  a decade of bitcoin excellence at NiceHash!
 language:
   - en
 links:
   website: https://www.nicehashx.com/
   replay_url:
-  live_url :
-tags:
-  - mining
-  - hardware
-  - innovation
-
+  live_url:
 project_id: dbdc8196-61f9-4317-bee0-a86515c22860
+tags:
+  - business
+  - mining
+  - historical

@@ -5,10 +5,6 @@ links:
   twitter: https://twitter.com/Trezor
   github: https://github.com/trezor
 
-tags:
-  - wallet
-  - open-source
-
 category: wallet
 
 # Proofreading metadata
@@ -91,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - wallets
+  - hardware
+  - keys

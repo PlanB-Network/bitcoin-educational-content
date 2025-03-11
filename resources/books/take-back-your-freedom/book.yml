@@ -1,12 +1,6 @@
 id: 79d36bd3-876c-4f1c-944e-a916e0dc6b54
 author: yutaro
 level: beginner
-tags:
-  - finance
-  - historical
-  - easy-explain
-
-# Proofreading metadata
 original_language: ja
 proofreading:
   - language: ja
@@ -92,3 +86,13 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.16
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.17
+tags:
+  - self-sovereignty
+  - historical
+  - future-outlook

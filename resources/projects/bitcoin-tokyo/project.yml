@@ -6,11 +6,6 @@ links:
   website: https://bitcoinconference.tokyo/
   twitter: https://x.com/BTCTokyo2024
 
-tags:
-  - finance
-  - investment
-  - decentralization
-
 original_language: en
 proofreading:
   - language: en
@@ -103,3 +98,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.15
+tags:
+  - future-outlook
+  - adoption
+  - market-trends

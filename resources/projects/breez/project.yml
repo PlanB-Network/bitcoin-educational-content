@@ -4,10 +4,6 @@ links:
   website: https://breez.technology/
   twitter: https://twitter.com/Breez_Tech
   github: https://github.com/breez/breezmobile
-tags:
-  - bitcoin-only
-  - lightning-wallet
-
 category: wallet
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.28
+tags:
+  - wallets
+  - lightning
+  - user-friendly

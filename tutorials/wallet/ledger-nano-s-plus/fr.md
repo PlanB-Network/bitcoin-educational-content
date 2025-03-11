@@ -359,3 +359,4 @@ Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser 
 Je vous conseille également de découvrir cet autre tutoriel complet sur la Ledger Flex :
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+

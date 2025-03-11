@@ -345,7 +345,9 @@ Seega peame Bitcoini kasutamisel hakkama saama ka plokiahela analüüsiga. Seda 
 Mis oleks parem viis plokiahela analüüsile vastu astuda, kui õppida tundma selles kasutatavaid meetodeid? Kui soovite teada, kuidas parandada oma privaatsust Bitcoinis, peate neid meetodeid mõistma. See annab teile parema arusaamise sellistest tehnikatest nagu coinjoin või payjoin (tehnikaid vaatame kursuse lõpuosades) ja vähendab vigu, mida võite teha.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
 https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+
 Siinkohal võib tuua analoogia krüptograafia ja krüptoanalüüsiga. Hea krüptograaf on eelkõige hea krüptoanalüütik. Uue krüpteerimisalgoritmi väljatöötamiseks on vaja teada, milliste rünnakutega see silmitsi seisab, ja uurida ka seda, miks eelmised algoritmid on murdunud. Sama põhimõte kehtib ka Bitcoini privaatsuse kohta. Plokiahela analüüsimeetodite mõistmine on nende eest kaitsmise võti. Seepärast olen sellesse koolituskursusesse lisanud terve peatüki ahelate analüüsi kohta.
 
 ### Ahelate analüüsi meetodid
@@ -1282,6 +1284,7 @@ Kõik need automaatsed UTXO valikumeetodid võivad olla tõhusad tehingukulude v
 Kui soovid teada saada, kuidas oma UTXOsid märgistada, oleme teinud põhjaliku õpetuse peamise Bitcoini rahakoti tarkvara kohta:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 ## KYC ja võtmete tuvastamine
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1441,16 +1444,19 @@ Mis puutub lahendustesse, siis mina isiklikult olen alati kasutanud [Bisq](https
 -> Vaata meie Bisqi õpetust.
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
 Lihtsama variandi jaoks võite proovida [Peach] (https://peachbitcoin.com/), mobiilirakendust, mis ühendab ostjad ja müüjad sisseehitatud konfliktide lahendamise süsteemiga. Protsess on intuitiivsem kui Bisqi oma.
 
 -> Vaata meie õpetust "Virsik".
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+
 Teine online-variant on [HodlHodl](https://hodlhodl.com/), mis on hästi tuntud platvorm, mis pakub head likviidsust, kuigi ma ei ole seda isiklikult testinud.
 
 -> Vaata meie HodlHodli õpetust.
 
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+
 Lightning Networkil põhinevate lahenduste jaoks proovige [RoboSats](https://learn.robosats.com/) ja [LNP2PBot](https://lnp2pbot.com/). RoboSats on kättesaadav veebisaidi kaudu ja seda on suhteliselt lihtne kasutada. LNP2PBot on ebatüüpilisem, sest see töötab Telegrami sõnumivahetussüsteemi kaudu.
 
 -> Vaata meie RoboSatsi õpetust.
@@ -1458,7 +1464,9 @@ Lightning Networkil põhinevate lahenduste jaoks proovige [RoboSats](https://lea
 -> Vaata meie LNP2PBot õpetust.
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
 https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+
 ![BTC204](assets/fr/091.webp)
 
 ### Reguleeritud platvormid ilma KYC-ta
@@ -1468,6 +1476,7 @@ Sõltuvalt riigist, kus te elate, võib teil olla juurdepääs reguleeritud plat
 -> Vaata meie õpetust Relai.
 
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+
 Nagu nägime eelmises peatükis, säästab seda tüüpi platvorm teid KYC-menetlustega seotud riskidest, kuid need kujutavad endast suuremat riski võtmete tuvastamisel. Bitcoini konfidentsiaalsuse seisukohast pakuvad need platvormid seega paremat kaitset kui KYC-ga ostumeetodid, kuid nad jäävad vähem atraktiivseks kui P2P-vahetused.
 
 Isikliku turvalisuse seisukohast on nende platvormide kasutamine siiski palju vähem riskantne kui P2P-vahetusportaalide kasutamine. Samuti on neid sageli lihtsam kasutada kui P2P-platvorme.
@@ -1491,6 +1500,7 @@ Parim viis BTC kulutamiseks on muidugi kasutada Bitcoini või Lightning Networki
 Mitmed platvormid, mis ei nõua KYC-menetlusi, pakuvad võimalust vahetada bitcoin'e kinkekaartide vastu, mida saab kasutada suuremates jaemüügiettevõtetes. Nende hulka kuuluvad [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) ja [Bitrefill](https://www.bitrefill.com/). Need platvormid muudavad bitcoinide igapäevase kasutamise palju lihtsamaks, andes teile juurdepääsu paljudele toodetele ja teenustele, ilma et peaksite neid fiat-valuutaks konverteerima.
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/fr/093.webp)
 
 ### Muud omandamismeetodid
@@ -2175,8 +2185,11 @@ Jälgime seda juhtumit ja sellega seotud vahendite arengut tähelepanelikult. V�
 Järgmises peatükis saame teada, mis on "anonsetid", kuidas neid näitajaid arvutatakse ja kuidas need aitavad meil hinnata coinjoin'i tsüklite tõhusust.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ## Anonüümsuse komplektid
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -2252,6 +2265,7 @@ Väikeste ansamblite puhul on võimalik anonüümide arvutamine käsitsi, kasuta
 Nagu me selles peatükis nägime, saab anonüüme arvutada ainult siis, kui ühisliidete struktuuris on teatav homogeensus. Järgmises peatükis saame teada, kuidas seda homogeensust Bitcoini tehingu puhul kvantifitseerida, olgu see siis coinjoin või traditsioonilisem tehing.
 
 https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 ## Entroopia
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2509,6 +2523,7 @@ Kahjuks ei ole need vahendid pärast Samourai asutajate vahistamist enam tööko
 Nüüd, kui me oleme käsitlenud üksikasjalikult coinjoins, vaatame meie kursuse viimases osas teisi Bitcoini privaatsustehnikaid. Vaatleme payjoin'eid, konkreetseid pseudocoinjoin'i tehingutüüpe, staatilisi aadressiprotokolle, samuti meetmeid, mis tugevdavad konfidentsiaalsust mitte tehingute endi, vaid sõlmede võrgu tasandil.
 
 https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 # Teiste täiustatud konfidentsiaalsusmeetoditega seotud probleemide mõistmine
 
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2602,7 +2617,9 @@ Payjoini kasutamise raskuseks on selle sõltuvus kaupmehe osalusest. Kliendina e
 Üks lahendus oleks kasutada tehingustruktuure, mis toovad ahelaanalüüsi mitmetähenduslikkust, ilma et see nõuaks vastuvõtja koostööd. See võimaldaks meil parandada maksete konfidentsiaalsust ilma kaupmeeste aktiivsele osalusele tuginemata. Just seda vaatleme järgmises peatükis.
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+
 ## Makse mini-mündiühendus
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2724,7 +2741,9 @@ Seda tüüpi tehinguid on võimalik teha ka käsitsi mis tahes Bitcoini rahakoti
 Järgmises peatükis vaatleme veel üht konfidentsiaalsustehnikat, mis on suhteliselt tundmatu, kuid mis on väga kasulik täienduseks sellele, mida oleme juba uurinud.
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+
 https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+
 ## Ritsikad
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2798,6 +2817,7 @@ Ricocheting tähendab lihtsalt bitcoinide saatmist endale. On täiesti võimalik
 Järgmises peatükis vaatleme erinevaid salajase omandiõiguse ülemineku tehnikaid. Need meetodid erinevad radikaalselt seni vaadeldud meetoditest nii toimimise kui ka tulemuste poolest.
 
 https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+
 ## Salajane omandiõiguse üleminek
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -3073,6 +3093,7 @@ Kuigi neil robotitel ei ole konkreetset tehnilist funktsiooni BIP47 raamistikus,
 *Käesoleva peatüki järgmistes BIP47-le pühendatud osades vaatame üksikasjalikult, kuidas see töötab, pöörates erilist tähelepanu kasutatud krüptograafilistele meetoditele. Nende mõnevõrra tehniliste selgituste täielikuks mõistmiseks on esmalt oluline mõista HD-kontode struktuuri, võtme tuletamise protseduure ja elliptilise kõveruse krüptograafia põhialuseid. Kui soovite neisse mõistetesse süveneda, siis on veel üks tasuta koolituskursus saadaval Plan ₿ Network :*
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 *Soovitan teil neid siiski jälgida, sest BIP47 tehnilise toimimise mõistmine teeb teile palju lihtsamaks teiste sarnaste ettepanekute mõistmise, mida arutame järgmistes peatükkides*
 
 ---
@@ -3824,6 +3845,7 @@ Bob saab seejärel hüvitada Alice'ile sama moodi, kuidas ta talle makseid saati
 *Suur tänu [Fanis Michalakisele](https://x.com/FanisMichalakis) selle peatüki kirjutamise aluseks olnud artikli korrektuuri ja asjatundlike nõuannete eest!
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+
 ## Vaikivad maksed
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>

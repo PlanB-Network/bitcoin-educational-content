@@ -3,11 +3,6 @@ builder: StackinSat
 
 level: beginner
 
-tags:
-  - DCA
-  - bitcoin-only
-  - full YC
-
 category: centralized
 
 # Proofreading metadata
@@ -92,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - user-friendly
+  - guides
+  - investment

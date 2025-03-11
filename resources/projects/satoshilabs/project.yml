@@ -5,11 +5,6 @@ links:
   twitter: https://twitter.com/satoshilabs
   github: https://github.com/trezor
 
-tags:
-  - security-solution
-  - open-source
-  - wallet
-
 category: wallet
 
 # Proofreading metadata
@@ -92,3 +87,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.26
+tags:
+  - hardware
+  - wallets
+  - business

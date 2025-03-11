@@ -30,22 +30,31 @@ Su nodo Nakamochi se gestiona a través de una aplicación móvil, [BitBanana (A
 
 3. Utiliza una aplicación de gestión de nodos (Zeus o BitBanana) para conectarte a tu Nakamochi:
 
+4. Abre la aplicación y escanea el código QR que aparece en tu Nakamochi.
 
-   - Abre la aplicación y escanea el código QR que aparece en tu Nakamochi.
+5. Para mayor seguridad, configura un código PIN en tu dispositivo.
 
-4. Para mayor seguridad, configura un código PIN en tu dispositivo.
+![image](assets/en/01.webp)
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
+conéctate a la corriente y escribe tu frase semilla de 24 palabras
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
+![image](assets/en/02.webp)
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+_Espera a que la Blockchain se ponga al día_
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+![image](assets/en/03.webp)
 
-![For additional safety set a PIN code](asset/en/05.webp)
+crear un nuevo monedero en la pestaña Relámpago
 
-nota: Permita que su nodo Nakamochi se sincronice con la blockchain. Este proceso puede tardar algún tiempo dependiendo de su conexión a Internet._
+![image](assets/en/04.webp)
+
+escanear código QR con la aplicación de gestión de nodos
+
+![image](asset/en/05.webp)
+
+para mayor seguridad, introduzca un código PIN
+
+**Nota:** _Permite que tu nodo Nakamochi se sincronice con la blockchain. Este proceso puede tardar algún tiempo dependiendo de su conexión a Internet._
 
 ## Acerca de la Red del Rayo
 
@@ -77,9 +86,11 @@ Una vez que su Nakamochi esté configurado y conectado a una aplicación de gest
 
 5. Haga clic en **"Abrir canal "**.
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](asset/en/06.webp)
 
-Para más información: [Canales | Documentación Zeus](https://zeusln.app)
+captura de pantalla de ZEUS
+
+Para más información: [Canales | Documentación Zeus](https://docs.zeusln.app/)
 
 ### Abrir canales en BitBanana (Android):
 
@@ -93,7 +104,9 @@ Para más información: [Canales | Documentación Zeus](https://zeusln.app)
 
 5. Introduzca la cantidad bloqueada (elija con su par o utilice la cantidad fija mínima para nodos conocidos).
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](asset/en/07.webp)
+
+captura de pantalla de Bitbanana
 
 Para más información: [BitBanana](https://bitbanana.com)
 
@@ -101,10 +114,10 @@ Una vez abierto su canal, los pagos pueden enrutarse a través de él a otros pa
 
 Si ya no necesitas un canal, puedes cerrarlo. Esta acción liquida el saldo final entre tú y tu par y lo registra en la cadena. Lo ideal es que ambas partes estén de acuerdo y en línea para un "cierre cooperativo" (más rápido y con menos comisiones que un "cierre forzado" con un peer que no responde o está desconectado).
 
-En general, recomendamos dejar los canales abiertos para reducir costes y aumentar la fiabilidad y eficiencia de la red. Al mantener los canales abiertos, se minimizan las comisiones por transacción en la cadena, se evita el tiempo de inactividad por reconexión de canales y se mantiene una capacidad de enrutamiento estable para un procesamiento de pagos sin problemas. Este enfoque fomenta una red robusta y resistente al tiempo que mejora la experiencia general del usuario y reduce la sobrecarga operativa.
+En general, recomendamos dejar los canales abiertos para reducir costes y aumentar la fiabilidad y eficiencia de la red. Al mantener los canales abiertos, se minimizan las comisiones por transacción en la cadena, se evita el tiempo de inactividad por reconexión de canales y se mantiene una capacidad de enrutamiento estable para un procesamiento de pagos sin problemas. Este enfoque fomenta una red sólida y resistente, al tiempo que mejora la experiencia general del usuario y reduce la sobrecarga operativa.
 
 ### Enlaces útiles
 
 
 - [Sobre Nakamochi](https://nakamochi.io/)
-- [Suscríbase a nuestro boletín](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Suscribirse al boletín de Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

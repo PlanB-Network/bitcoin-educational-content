@@ -1,190 +1,182 @@
 ---
 name: Phoenix
-
-description: Oppsett av din Phoenix-lommebok
+description: Installere og bruke Phoenix Wallet
 ---
+![cover](assets/cover.webp)
 
-![phoenix](assets/cover.webp)
+Phoenix er en selvforvaltende Lightning-lommebok og -node utviklet av ACINQ, et fransk selskap som spesialiserer seg på Lightning-baserte programvareløsninger. I motsetning til depotbaserte Lightning-lommebøker som Wallet of Satoshi, der bitcoins oppbevares av en tredjepart, gjør Phoenix det mulig for brukerne å beholde full kontroll over sine private nøkler.
 
-## Introduksjon
+Phoenix fungerer som en ekte Lightning-node integrert på telefonen din, som automatisk åpner en kanal med ACINQs Lightning-node. Applikasjonen er basert på Lightning-KMP, en plattformuavhengig implementering av Lightning Network i Kotlin, optimalisert for mobile lommebøker. I motsetning til andre Lightning-node-løsninger, forenkler Phoenix administrasjonen betydelig. Brukeren trenger ikke å administrere åpning og lukking av kanaler, kjøre en Bitcoin-node eller håndtere likviditeten på Lightning-nettverket. Phoenix tar seg av alle disse tekniske operasjonene i bakgrunnen.
 
-Phoenix er en ikke-forvaringsbasert lynlommebok skapt av Acinq, teamet bak Lightning Eclair-implementasjonen.
+Denne applikasjonen kombinerer brukervennligheten og bekvemmeligheten til mobile Lightning-lommebøker med sikkerheten og suvereniteten til en ekte personlig Lightning-node. Phoenix gjør det mulig å bruke Lightning-nettverket på en sikker, effektiv og selvstendig måte, samtidig som du får en flytende og intuitiv brukeropplevelse.
 
-Husk at Phoenix er en mobilapp fokusert på lynbetalinger, men støtter fortsatt betalinger på kjeden, gjennom integrerte bytter. Dette betyr at ethvert innskudd på kjeden til Phoenix, vil bli byttet øyeblikkelig til en lynkanal.
+Til gjengjeld påløper det visse avgifter:
 
-Også hvis du ønsker å sende til en adresse på kjeden, vil Phoenix gjøre byttet internt fra din LN-kanal til destinasjonen på kjeden. Vær oppmerksom, alle disse byttene har en kostnad, fordi de involverer en avgift på kjeden.
 
-Nedenfor i "Kom i gang-guiden" seksjonen vil vi gå gjennom oppsettsprosessen og også forklare mer om hvordan du kan håndtere lynlikviditeten med Phoenix.
+- Å sende via Lightning koster 0,4 % av beløpet pluss 4 sats ;
+- Hvis det er behov for kontanter for å motta via Lightning, belastes 1 % av beløpet;
+- Hver kanal koster 1000 sats å åpne.
 
-## Viktige ressurser
-- Phoenix offisielle nettside - [https://phoenix.acinq.co](https://phoenix.acinq.co)
-- Dokumentasjon / FAQ-side - [https://phoenix.acinq.co/faq](https://phoenix.acinq.co/faq)
-- [Github-side](https://github.com/ACINQ/phoenix/) | [Github utgivelser-side](https://github.com/ACINQ/phoenix/releases) (last ned apk direkte)
-- [Støtte og diskusjoner](https://github.com/ACINQ/phoenix/discussions)
-- [Acinq-blogg](https://acinq.co/blog) - kunngjøringer
+Etter min mening representerer Phoenix en utmerket mellomløsning mellom depotbaserte Lightning-porteføljer og manuell administrasjon av en Lightning-node. Programmet passer like godt for nybegynnere som for avanserte brukere som foretrekker å slippe å håndtere detaljene ved å administrere sin egen LND eller Core Lightning. La oss finne ut hvordan du bruker det!
 
-## Videoveiledning
+![Image](assets/fr/01.webp)
 
-![Phoenix: Bitcoin Lightning Wallet Tutorial](https://youtu.be/cbtAmevYpdM?si=zctujxtI0hI-jKpC)
+## Installer applikasjonen
 
-## Kom i gang-guide
+Gå til applikasjonsbutikken din og installer Phoenix :
 
-Her er en steg-for-steg-guide om hvordan du starter med Phoenix, oppsett, gjøre / motta betalinger, håndtere likviditeten, sikkerhetskopiere / gjenopprette prosessen.
 
-### Last ned & Sett opp
-Du kan laste ned og installere Phoenix fra: [App Store](https://apps.apple.com/us/app/phoenix-wallet/id1544097028) | [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet) | [Direkte nedlasting apk](https://github.com/ACINQ/phoenix/releases)
+- På [Google Play Store] (https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
+- På [App Store] (https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB).
 
-Følg instruksjonene som starter med velkomstskjermen, steg for steg.
+![Image](assets/fr/02.webp)
 
-![](assets/screenshot2.webp)
+Du kan også installere applikasjonen [med apk-filen på GitHub-depotet] (https://github.com/ACINQ/phoenix/releases).
 
-Du vil bli informert om automatisk opprettelse av lynkanaler.
-Fra og med v2.0 er en større oppgradering som bringer "splicing" til Phoenix:
-- enkelt dynamisk kanal,
-- ikke mer 1% avgift på innkommende likviditet
-- bedre forutsigbarhet og kontroll
-- tillitsløse bytter
+![Image](assets/fr/03.webp)
 
-Sjekk [Phoenix blogginnlegg](https://acinq.co/blog/phoenix-splicing-update) for flere detaljer, spesielt den nye avgiftsmodellen.
+## Opprettelse av portefølje
 
-![](assets/screenshot3.webp)
+Når programmet har startet, klikker du på knappen "*Neste*" for å hoppe over presentasjonen, og deretter på "*Start*".
 
-### Lynlikviditet hurtigguide
+![Image](assets/fr/04.webp)
 
-Så når du mottar / setter inn sats i denne lommeboken, vil den automatisk åpne kanaler med ACINQ-node. Vanligvis vil størrelsen på kanalene være litt større enn beløpet du satte inn. Så du vil alltid ha en ny kanal for hvert innskudd, bortsett fra at når du ikke har helt tømt kanalen og du mottar en mindre betaling, vil den bli påfylt.
+Velg "*Opprett en ny lommebok*".
 
-For Phoenix Lightning likviditet vil vi foreslå følgende scenario:
+![Image](assets/fr/05.webp)
 
-Med den nye versjonen v0.2.0 den nye LN-funksjonen splicing. Det betyr at fra nå av vil du ikke måtte håndtere mange nye små kanaler for hver betaling mottatt.
+Og det var det, Lightning-lommeboken og noden din er nå opprettet.
 
-Hvis det ikke er nok innkommende likviditet, vil Phoenix øke størrelsen på din opprinnelige kanal, men det vil fortsatt medføre en avgift på kjeden. Du kan uansett sette opp den avgiften i Phoenix-innstillinger, betalingsalternativer og avgifter.
-Så vi foreslår å starte med å bruke Phoenix med en stor kanal, som 1-3-5M sats. Dine forpliktelsesgebyrer vil være ubetydelige sammenlignet med størrelsen på kanalen og vil ikke påvirke deg for mye. Også i stedet for å betale 4-5 ganger (eller hvor mange ganger du setter inn små beløp) et minst 3000 sats gebyr for hver innskudd, vil du bare betale én gang åpningskanalgebyret.
-Hvis du begynner å bruke fra den kanalen, ikke bruk alt, fordi Phoenix vil lukke den.
+![Image](assets/fr/06.webp)
 
-Hvis du lar noen sats i kanalen og gjør en annen påfylling fra en annen LN-lommebok / innskuddskilde, har vi to situasjoner å vurdere:
-- med et nytt innskuddsbeløp større enn kanalkapasiteten din, vil Phoenix endre størrelsen på kanalen og du vil betale et ekstra gebyr.
-- med et nytt innskuddsbeløp lavere enn kanalkapasiteten din, vil det ikke være noen gebyrer involvert.
+## Lagre mnemoteknisk setning
 
-Så prøv å dimensjonere din opprinnelige kanalkapasitet til dine personlige behov for utgifter. Å bruke og erstatte innenfor grensene av kanalen vil ikke medføre flere gebyrer, og opplevelsen av å bruke denne lommebokappen vil være jevn.
+Før vi setter i gang, må vi lagre minnefrasen på 12 ord. Denne frasen gir fullstendig, ubegrenset tilgang til alle bitcoinsene dine. Alle som har denne frasen kan stjele pengene dine, selv uten fysisk tilgang til telefonen din.
 
-### Sikkerhetskopi
-På følgende skjerm vil du bli informert om at Phoenix-appen vil generere en seed-frase som sikkerhetskopi for lommeboken din. Senere MÅ disse seed-ordene lagres på et sikkert sted!
+Frasen på 12 ord gjenoppretter tilgangen til bitcoinsene dine i tilfelle tap, tyveri eller ødeleggelse av telefonen din. Det er derfor veldig viktig å lagre den nøye og oppbevare den på et trygt sted.
 
-![](assets/screenshot4.webp)
+Du kan skrive den på papir eller, for ekstra sikkerhet, gravere den på rustfritt stål for å beskytte den mot brann, oversvømmelse eller kollaps. Valget av medium for minnepinnen avhenger av sikkerhetsstrategien din, men hvis du bruker Phoenix som en utgiftsportefølje som inneholder moderate beløp, bør papir være tilstrekkelig.
 
-Den følgende skjermen indikerer om du vil opprette en ny lommebok eller gjenopprette en tidligere lommebok, fra seed-frase.
+Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer minnefrasen din, anbefaler jeg at du følger denne andre veiledningen, spesielt hvis du er nybegynner:
 
-![](assets/screenshot5.webp)
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Når den nye lommeboken er opprettet, blir du varslet om at du bør ta sikkerhetskopi av seed-frasen. Klikk på "Sikkerhetskopier lommebok"-knappen.
+Klikk på meldingen som vises øverst i grensesnittet "*Save your wallet...*".
 
-![](assets/screenshot6.webp)
+![Image](assets/fr/07.webp)
 
-Du vil bli varslet om at disse ordene fra seeden er veldig viktige og sensitive, og du bør holde dem private.
+Klikk deretter på "*Save my wallet*".
 
-![](assets/screenshot7.webp)
+![Image](assets/fr/08.webp)
 
-Disse seed-ordene MÅ du lagre dem på et sikkert sted, som en passordbehandler ([KeePass](https://keepass.info/) eller [Bitwarden](https://bitwarden.com/)), og holde databasen til denne passordbehandleren på en offline USB-kryptert pinne for total sikkerhet.
+Klikk deretter på "*Vis min nøkkel*" og lagre minnefrasen din på et fysisk medium.
 
-![](assets/screenshot8.webp)
+![Image](assets/fr/09.webp)
 
-### Motta betalinger
+Merk av i de to boksene nederst i grensesnittet for å bekrefte at sikkerhetskopieringen er fullført.
 
-Før du begynner å motta, vennligst les kapittelet ovenfor "Liquidity Quick Guide".
+![Image](assets/fr/10.webp)
 
-Så nå er du klar til å motta sats i din Phoenix-lommebok!
+## Oppsett av applikasjon
 
-![](assets/screenshot9.webp)
+Før du foretar dine første transaksjoner, kan du tilpasse innstillingene ved å klikke på tannhjulikonet nederst til venstre i grensesnittet.
 
-For å motta en betaling, i Phoenix har du følgende alternativer:
-- ved å bruke den viste QR-koden, som representerer en "tom" Lightning-faktura
-- ved å redigere Lightning-fakturaen (se redigeringsknappen under QR-koden), hvor du kan legge til et beløp sats, legge til en kommentar vist til betaleren
-- ved å bruke / skanne en LNURL-uttak QR-kode
-- ved å generere en on-chain Bitcoin-adresse fra din Phoenix-lommebok. Husk at denne betalingen vil bli "konvertert" til en ny Lightning-kanal (hvis du ikke har åpnet en ennå) eller endre størrelsen på en eksisterende Lightning-kanal.
+![Image](assets/fr/11.webp)
 
-![](assets/screenshot10.webp)
+I "*Display*"-menyen kan du velge applikasjonens tema, denominasjonen som brukes for bitcoin, og din lokale fiat-valuta.
 
-Skjerm vist for å redigere en ny Lightning-faktura og generere en ny QR-kode for den:
+![Image](assets/fr/12.webp)
 
-![](assets/screenshot11.webp)
+I "*Betalingsalternativer*" finner du ulike avanserte innstillinger for lynbetalinger. Du kan beholde standardinnstillingene.
 
-Dette er skjermen hvor du kan generere en on-chain BTC-adresse og informeres om at betalingen til denne adressen vil bli "konvertert" til lightning-likviditet og involvere noen gebyrer.
+![Image](assets/fr/13.webp)
 
-![](assets/screenshot12.webp)
+I "*Kanaladministrasjon*" angir du den maksimale avgiften du er villig til å betale når du åpner en Lightning-kanal.
 
-Når betalingen var gjort, vil en bekreftelsesskjerm vises, alt gjort!
+![Image](assets/fr/14.webp)
 
-![](assets/screenshot13.webp)
-Valgfritt kan du legge til en personlig merknad til hver mottatt betaling. Disse notatene lagres ikke noe annet sted, de beholdes kun på enheten din. Hvis du gjenoppretter din Phoenix-lommebok, vil ikke disse notatene bli gjenopprettet. Dette er en nyttig funksjon for å holde oversikt over dine sendte og mottatte betalinger.
-![](assets/screenshot14.webp)
+I menyen "*Access control*" anbefaler jeg på det sterkeste at du aktiverer et autentiseringssystem for å sikre tilgangen til applikasjonen på telefonen din. Dette vil forhindre at noen med tilgang til den ulåste telefonen din får tilgang til Phoenix og stjeler bitcoinsene dine.
 
-### Send betalinger
+![Image](assets/fr/15.webp)
 
-Å sende betalinger er en ganske enkel prosess, bare klikk på hovedskjermknappen "Send"
+I menyen "*Electrum-server*" kan du koble til en Electrs-server hvis du har en slik server for å sende transaksjonene dine.
 
-![](assets/screenshot15.webp)
+![Image](assets/fr/16.webp)
 
-Du vil bli bedt om å tillate Phoenix-appen å få tilgang til enhetens kamera, for å kunne skanne QR-koder.
+For å forbedre konfidensialiteten til forbindelsene dine kan du aktivere forbindelser via Tor i "*Tor*"-menyen. Selv om Tor kan gjøre betalingene dine litt tregere, og krever at Phoenix-programmet er åpent i forgrunnen når du mottar, øker det personvernet ditt betydelig.
 
-![](assets/screenshot16.webp)
+![Image](assets/fr/17.webp)
 
-På betalingsskjermen har du 3 alternativer:
-- skann en QR-kode fra en mottakers Lightning-faktura / LNURL
-- manuelt inntasting (lim inn), Lightning-adresseinntasting eller LNURL-betalingskode
-- last inn et QR-bilde fra lokal disk
+## Motta bitcoins på kjeden
 
-![](assets/screenshot17.webp)
+Ved første gangs bruk har du muligheten til å laste Phoenix-lommeboken din med midler fra kjeden. Du kan også gjøre dette første innskuddet direkte fra Lightning (se neste avsnitt), men i begge tilfeller vil det påløpe ekstra gebyrer for å åpne din første kanal.
 
-Som du kan se på denne skjermen, ble betalingsforespørselen skannet og detaljene er allerede fylt inn. Du trenger bare å trykke på "Betal"-knappen.
+Klikk på knappen "*Mottak*".
 
-![](assets/screenshot18.webp)
+![Image](assets/fr/18.webp)
 
-Når betalingen er sendt og bekreftet, vil en bekreftelsesskjerm med korte detaljer om betalingen vises, inkludert gebyret som ble betalt. Hvis du vil se flere betalingsdetaljer, klikk på "Detaljer"-knappen.
+Sveip QR-koden til høyre for å avsløre en Bitcoin-mottakeradresse. Send den beløpet du ønsker å sette inn hos Phoenix.
 
-![](assets/screenshot19.webp)
+![Image](assets/fr/19.webp)
 
-På detaljskjermen kan du se de tekniske detaljene om betalingen, inkludert: betalingshash og forespørsel, preimage, destinasjonsnode og varighet. Noen ganger er disse detaljene nyttige for å spore betalinger, feilsøke eller identifisere en spesifikk betaling med mottakeren.
+Beløpet som mottas på kjeden, vises først som ventende under porteføljesaldoen din. Det vil ta tre bekreftelser før midlene er tilgjengelige for bruk.
 
-![](assets/screenshot20.webp)
+![Image](assets/fr/20.webp)
 
-### Innstillinger
+Når pengene er mottatt, åpner Phoenix automatisk en Lightning-kanal for deg. Du kan nå sende og motta bitcoins via Lightning Network.
 
-I Innstillinger-menyen er det ikke så mye å gjøre, Phoenix går for enkelhet. Men et viktig aspekt her er menyen for å administrere betalingskanaler og gebyrer, hvor du kan sette dine ønskede nivåer av gebyrer. Husk at i et mempool høyt gebyrmiljø bør du ikke bruke veldig lave gebyrer, ellers vil dine betalinger og åpning av kanaler bli forstyrret og/eller mislykkes.
+![Image](assets/fr/21.webp)
 
-Andre alternativer i Innstillinger-menyen:
-- Visning - for å bytte til forskjellige fargetemaer
-- Electrum-server - for å sjekke statusen til Electrum-serveren du er koblet til eller spesifisere en
-- Tor - hvis du vil bruke Phoenix bak Tor-nettverket
-- App-tilgangsinnstillinger - angi tillatelser for Phoenix til spesifikke enhetstjenester
-- Gjenopprettingsfrase - hvis du vil sjekke seed-ordene og/eller lage en ny sikkerhetskopi
-- Kanalliste - vis statusen til dine Lightning-kanaler og likviditet (inn/ut) tilgjengelig
-- Logger - vis feilsøkingslogger
-- Lukk alle kanaler - Farlig alternativ som BØR brukes KUN i tilfelle du ønsker å stenge din Phoenix-node for godt og gjenopprette midlene til din onchain-adresse. Den adressen kan senere hentes ved hjelp av Electrum-lommeboken, ved å bruke din Phoenix seed-frase.
+## Motta bitcoins via Lightning
 
-![](assets/screenshot21.webp)
+For å motta satellitter via Lightning Network klikker du på "*Mottak*"-knappen.
 
-### Tilbakestille
+![Image](assets/fr/22.webp)
 
-Hvis du er i en situasjon der din Phoneix-app har problemer (ikke gjør betalinger, ikke kobler til Electrum-servere, kan ikke motta betalinger) eller du rett og slett ønsker å flytte den til en annen enhet, MÅ du være sikker på to aspekter:
-- ha en sikkerhetskopi av din seed-frase
-- stopp appen på enheten din - gå til appdetaljer og tving stopp tjenesten
-- avinstaller den fra den gamle enheten hvis du vil flytte den til en ny
-- IKKE kjør samme Phoenix-lommebok på flere enheter!
+Phoenix genererer en lynfaktura. Du kan enten skanne den eller sende den til personen som ønsker å overføre satsene til deg.
 
-![](assets/screenshot22.webp)
+![Image](assets/fr/23.webp)
 
-Når du installerer den på nytt eller installerer den på de nye enhetene, klikk på "Gjenopprett"-knappen og følg instruksjonene
+Ved å klikke på "*Rediger*"-knappen kan du legge til en beskrivelse som vil være synlig for betaleren på fakturaen, og definere et spesifikt beløp som betaleren skal sende.
 
-![](assets/screenshot23.webp)
-Du kan ikke bruke en annen type frø, generert fra andre lommebok-apper. [Se mer detaljer her](https://walletsrecovery.org/) om andre lommeboktyper og deres type frø og avledningssti. Ikke alle er kompatible!
-![](assets/screenshot24.webp)
+![Image](assets/fr/24.webp)
 
-Du må legge inn frøordene du tidligere har lagret, ett etter ett, i den spesifikke rekkefølgen. Når du er ferdig med å legge inn de 12 ordene, klikk på "Importer"-knappen og voilà.
+De klassiske fakturaene nevnt ovenfor kan bare brukes én gang. For et gjenbrukbart betalingsalternativ kan du bruke den gjenbrukbare QR-koden din, som er et BOLT12-tilbud.
 
-![](assets/screenshot25.webp)
+![Image](assets/fr/25.webp)
 
-I løpet av få øyeblikk vil du se din tidligere saldo vist. Du vil også få en varsling om å ta sikkerhetskopi av ditt frø. Du kan bare gå til menyen og velge "Jeg har lagret sikkerhetskopien" hvis du allerede har gjort det.
+Når fakturaen eller BOLT12-tilbudet er gjort opp, vises transaksjonen i Lightning-lommeboken din.
 
-![](assets/screenshot26.webp)
+![Image](assets/fr/26.webp)
 
-Ferdig! Lykkelig Lyn!
+## Send bitcoins via Lightning
+
+Nå som du har sats på Phoenix, er du klar til å foreta betalinger via Lightning Network. Begynn med å klikke på "*Send*"-knappen.
+
+![Image](assets/fr/27.webp)
+
+Flere alternativer er tilgjengelige for deg. Ved å klikke på "*Skann QR-kode*" kan du skanne en lynfaktura, et BOLT12-tilbud eller til og med en mottaksadresse for betaling i kjeden.
+
+![Image](assets/fr/28.webp)
+
+Du kan også skrive inn denne informasjonen manuelt via tastaturet i feltet øverst i grensesnittet, eller du kan skrive inn en Lightning-adresse (BOLT12 eller LNURL). Du kan også lime inn informasjonen direkte ved hjelp av "*Lim inn*"-knappen.
+
+![Image](assets/fr/29.webp)
+
+I dette eksempelet har jeg skannet en faktura på 10 000 satser. For å betale, klikker du bare på "*Betal*".
+
+![Image](assets/fr/30.webp)
+
+Transaksjonen er fullført.
+
+![Image](assets/fr/31.webp)
+
+Gratulerer, du vet nå hvordan du konfigurerer og bruker Phoenix. Hvis du synes denne veiledningen var nyttig, vil jeg være takknemlig hvis du legger igjen en grønn tommel nedenfor. Del gjerne denne artikkelen på dine sosiale nettverk. Takk for at du deler!
+
+Hvis du vil gå et skritt videre, kan du ta en titt på denne veiledningen om Alby Hub, en annen innovativ og brukervennlig løsning for å lansere din egen Lightning-node:
+
+https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
+Og for å finne ut mer om den tekniske driften av Lightning Network, kan du finne Fanis Michalakis' utmerkede gratis opplæring på Plan ₿ Network :
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

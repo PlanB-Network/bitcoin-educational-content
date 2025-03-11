@@ -4,10 +4,6 @@ links:
   website: https://www.fountain.fm/
   twitter: https://twitter.com/fountain_app
 
-tags:
-  - bitcoin-only
-  - podcast-solution
-
 category: wallet
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.13
+tags:
+  - software
+  - wallets
+  - user-friendly

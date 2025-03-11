@@ -6,14 +6,14 @@ address_line_1: Madrid, España
 name: Watch out, Bitcoin!
 builder: Watch Out Bitcoin
 type: conference
-description: Watch out, Bitcoin! es un evento presencial anual para hablar y debatir sobre Bitcoin.
+description: Watch out, Bitcoin! es un evento presencial anual para hablar y debatir
+  sobre Bitcoin.
 language:
   - es
 links:
   website: https://wobitcoin.org/
-tags:
-  - adoption
-  - decentralization
-  - self-sovereignty
-
 project_id: 326fd972-4807-4f01-974d-f8bfa9bfee6a
+tags:
+  - historical
+  - adoption
+  - case-studies

@@ -7,12 +7,6 @@ language:
   - en
 links:
   twitter: https://twitter.com/Bitcoin2014
-tags:
-  - International
-  - All Public
-  - General
-
-# Proofreading metadata
 project_id: fd832594-924b-4fc0-a7b6-6a400aed3033
 original_language: en
 proofreading:
@@ -22,3 +16,7 @@ proofreading:
     contributors_id:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - historical
+  - adoption
+  - legacy

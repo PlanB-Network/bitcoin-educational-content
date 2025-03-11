@@ -7,10 +7,6 @@ links:
   twitter: https://twitter.com/AfroBitcoinOrg
   youtube: https://www.youtube.com/@africabitcoinconference
 
-tags:
-  - adoption
-  - cypherpunk
-
 original_language: en
 proofreading:
   - language: en
@@ -102,3 +98,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.31
+tags:
+  - adoption
+  - decentralization
+  - market-trends

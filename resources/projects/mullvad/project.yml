@@ -5,10 +5,6 @@ links:
   website: https://mullvad.net/
   twitter: https://x.com/mullvadnet
 
-tags:
-  - privacy
-  - network-security
-
 category: privacy
 
 # Proofreading metadata
@@ -104,3 +100,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.24
+tags:
+  - privacy
+  - network-security
+  - user-friendly

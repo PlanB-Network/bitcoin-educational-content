@@ -6,10 +6,6 @@ links:
   nostr: npub167n5w6cj2wseqtmk26zllc7n28uv9c4vw28k2kht206vnghe5a7stgzu3r
   youtube: https://www.youtube.com/@BTCPrague
 
-tags:
-  - conference
-  - Education
-
 category: conference
 
 # Proofreading metadata
@@ -93,3 +89,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.19
+tags:
+  - historical
+  - innovation
+  - business

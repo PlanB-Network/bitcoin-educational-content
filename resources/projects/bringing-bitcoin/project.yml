@@ -5,9 +5,6 @@ category: conference
 links:
   website: https://bringingbitcoin.com/
 
-tags:
-  - adoption
-
 original_language: en
 proofreading:
   - language: en
@@ -16,3 +13,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.05
+tags:
+  - adoption
+  - easy-explain
+  - user-friendly

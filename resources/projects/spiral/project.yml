@@ -4,10 +4,6 @@ links:
   website: https://spiral.xyz/
   twitter: https://twitter.com/spiralbtc
 
-tags:
-  - education
-  - investment
-
 category: investment
 
 # Proofreading metadata
@@ -90,3 +86,6 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - software
+  - development

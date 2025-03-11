@@ -1,12 +1,6 @@
 id: 7438036e-33f4-49a4-900d-821e957c70cd
 author: Richard Rhodes
 level: beginner
-tags:
-  - science
-  - history
-  - environment
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: de
@@ -88,3 +82,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.36
+tags:
+  - historical
+  - technical-analysis
+  - deep-dive

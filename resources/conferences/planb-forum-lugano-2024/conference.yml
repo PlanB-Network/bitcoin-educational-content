@@ -9,12 +9,6 @@ language:
 links:
   twitter: https://x.com/LuganoPlanB
   website: https://planb.lugano.ch/
-tags:
-  - business
-  - deep-dive
-  - cypherpunk
-  - self-sovereignty
-  - decentralization
 project_id: cf0fecdf-6a70-40ec-869d-c6c78f9fac01
 original_language: en
 proofreading:
@@ -24,3 +18,7 @@ proofreading:
     contributors_id:
       - jramos0
     reward: 0.05
+tags:
+  - adoption
+  - decentralization
+  - privacy

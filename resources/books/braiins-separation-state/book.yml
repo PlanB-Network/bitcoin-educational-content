@@ -1,12 +1,6 @@
 id: e63e8759-6e54-4921-971a-f05aa864eb3c
 author: Josef Tětek
 level: intermediate
-tags:
-  - adoption
-  - consensus
-  - historical
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
@@ -99,3 +93,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.51
+tags:
+  - finance
+  - historical
+  - decentralization

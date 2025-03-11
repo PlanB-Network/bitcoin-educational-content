@@ -5,10 +5,6 @@ links:
   website: https://jan3.com/
   twitter: https://x.com/JAN3com
 
-tags:
-  - wallets
-  - sidechains
-
 category: infrastructure
 
 # Proofreading metadata
@@ -104,3 +100,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.22
+tags:
+  - business
+  - technical-analysis
+  - evaluation

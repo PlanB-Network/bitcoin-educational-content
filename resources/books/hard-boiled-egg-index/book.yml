@@ -1,11 +1,6 @@
 id: 9cfe6667-3489-47bf-b64d-c01ad6e200e3
 author: Kudzai Joseph Gumunyu
 level: beginner
-tags:
-  - economy
-  - finance;
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.12
+tags:
+  - investment
+  - market-trends
+  - deep-dive

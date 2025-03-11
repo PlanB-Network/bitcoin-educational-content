@@ -1,10 +1,6 @@
 id: 0bf463e1-c279-4f52-ad7b-8775d45ca3b9
 author: Valerio Dalla Costa
 level: beginner
-tags:
-  - bitcoin
-  - history
-  - technology
 original_language: es
 proofreading:
   - language: es
@@ -95,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.2
+tags:
+  - historical
+  - high-level
+  - user-friendly

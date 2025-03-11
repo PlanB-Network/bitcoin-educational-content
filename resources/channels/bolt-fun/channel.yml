@@ -6,8 +6,9 @@ links:
   trailer: https://youtu.be/FT9MiC5pQh8
 description: |
   A fun community space for makers to learn about and experiment with lightning ⚡️ technology, together.
+contributors:
+  - hunt-wood
 tags:
   - lightning
   - development
-contributors:
-  - hunt-wood
+  - guides

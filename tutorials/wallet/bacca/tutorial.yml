@@ -2,11 +2,6 @@ id: 8f6783cf-d792-4277-8957-9c8a5ef08fa9
 
 builder: Wizard Sardine
 
-tags:
-  - personal-security
-  - DIY
-  - wallets
-
 category: desktop
 
 level: advanced
@@ -109,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 4.53
+tags:
+  - DIY
+  - personal-security
+  - wallets

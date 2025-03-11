@@ -4,10 +4,6 @@ links:
   website: https://www.swanbitcoin.com/
   twitter: https://twitter.com/swanbitcoin
 
-tags:
-  - exchange
-  - DCA
-
 category: exchange
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.16
+tags:
+  - market-trends
+  - investment
+  - finance

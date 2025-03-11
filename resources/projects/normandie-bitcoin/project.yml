@@ -6,10 +6,6 @@ links:
   website: https://normandiebitcoin.com/
   twitter: https://x.com/NormandieBTC
 
-tags:
-  - adoption
-  - user-friendly
-
 original_language: fr
 proofreading:
   - language: fr
@@ -18,3 +14,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.07
+tags:
+  - user-friendly
+  - guides
+  - good-practice

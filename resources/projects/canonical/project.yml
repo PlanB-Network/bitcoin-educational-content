@@ -5,10 +5,6 @@ links:
   website: https://canonical.com/
   twitter: https://x.com/Canonical
 
-tags:
-  - software
-  - personal-security
-
 category: privacy
 
 # Proofreading metadata
@@ -20,3 +16,7 @@ proofreading:
     contributors_id:
       - LoicPandul
     reward:
+tags:
+  - guides
+  - good-practice
+  - software

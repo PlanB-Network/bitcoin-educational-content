@@ -6,11 +6,6 @@ links:
   website: https://bitdevelsalvador.com/
   Github: https://github.com/nicolasburtey/bitdev-el-salvador.github.io
 
-tags:
-  - protocols
-  - innovation
-  - technical-analysis
-
 original_language: en
 proofreading:
   - language: en
@@ -19,3 +14,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.06
+tags:
+  - development
+  - software
+  - case-studies

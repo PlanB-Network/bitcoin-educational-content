@@ -225,4 +225,4 @@ Nyt olet valmis käyttämään Ubuntua päivittäin: suojaa järjestelmäsi, sel
 
 Jos haluat viedä digitaalisen elämäsi turvallisuuden askeleen pidemmälle, suosittelemme tutustumaan salattuun viestipalveluumme, joka sopii täydellisesti yksityisyytesi suojaamiseen ja täydentää Ubuntu-asennustasi:
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

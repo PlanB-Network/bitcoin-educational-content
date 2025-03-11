@@ -2,12 +2,6 @@ id: f1efee68-930f-4d88-b3ac-f7d879eb54ea
 
 builder: ElysiumLab
 
-tags:
-  - wallets
-  - keys
-  - lightning
-  - self-sovereignty
-
 category: mobile
 
 level: beginner
@@ -111,3 +105,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 1.47
+tags:
+  - wallets
+  - guides
+  - user-friendly

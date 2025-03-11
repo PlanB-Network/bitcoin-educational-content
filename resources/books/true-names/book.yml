@@ -1,12 +1,6 @@
 id: fc256128-1e09-43b3-95f8-216a475636fc
 author: Vernor Vinge
 level: advanced
-tags:
-  - cyberpunk
-  - artificial intelligence
-  - science fiction
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -86,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.56
+tags:
+  - historical
+  - cypherpunk
+  - privacy

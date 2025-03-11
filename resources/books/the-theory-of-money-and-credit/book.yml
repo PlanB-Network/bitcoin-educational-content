@@ -1,11 +1,6 @@
 id: 94362cbf-337a-467a-9766-d8099b9905c7
 author: Ludwig von Mise
 level: advanced
-tags:
-  - economy
-  - finance
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
@@ -85,3 +80,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.61
+tags:
+  - finance
+  - deep-dive
+  - historical

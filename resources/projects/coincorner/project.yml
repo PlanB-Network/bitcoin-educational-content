@@ -4,9 +4,6 @@ links:
   website: https://www.coincorner.com
   twitter: https://twitter.com/CoinCorner
 
-tags:
-  - exchange
-
 category: exchange
 
 # Proofreading metadata
@@ -89,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.32
+tags:
+  - business
+  - wallets
+  - adoption

@@ -208,3 +208,4 @@ En fonction des objectifs et de la structure de votre entreprise, l'utilisation 
 Pour approfondir ce sujet, je vous recommande de consulter cette formation complète sur l'intégration du bitcoin aux entreprises, qui couvre dans le détail l'ajout en trésorerie, l'acceptation des paiements en bitcoins, et la comptabilité :
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+

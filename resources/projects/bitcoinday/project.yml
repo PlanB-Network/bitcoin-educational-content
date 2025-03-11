@@ -6,9 +6,6 @@ links:
   website: https://bitcoinday.io
   twitter: https://twitter.com/bitcoindayio
 
-tags:
-  - user-friendly
-
 original_language: en
 proofreading:
   - language: en
@@ -17,3 +14,6 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.08
+tags:
+  - historical
+  - adoption

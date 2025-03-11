@@ -3,10 +3,6 @@ builder: Public Pool
 
 category: pools
 
-tags:
-  - mining
-  - Pool
-
 level: advanced
 
 credits:
@@ -95,3 +91,6 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.43
+tags:
+  - mining
+  - guides

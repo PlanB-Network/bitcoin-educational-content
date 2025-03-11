@@ -1,8 +1,4 @@
 id: 26937006-dfe5-404e-9ee4-e82e422c5cf2
-tags:
-  - security
-  - lightning-network
-
 level: advanced
 
 category: lightning-network
@@ -10,7 +6,8 @@ category: lightning-network
 builder: The eye of Satoshi
 
 credits:
-  link: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
+  link: 
+    https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
 
 # Proofreading metadata
 project_id: 40e94647-f642-4982-97fe-8fc2e98990bd
@@ -94,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.63
+tags:
+  - lightning
+  - network-security
+  - use-case

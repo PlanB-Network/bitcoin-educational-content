@@ -10,15 +10,18 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description:  With at least one Bitcoin conference a week in the world in 2024 we've decided to take Unconfiscatable 2024, in a fresh direction. It'll be the Bitcoin event you don't want to miss. Networking, poker, steak, Scammy Awards and more! No product pitches tokens or any other shitcoinery. This will be the ultimate place to spend time with your fellow Bitcoiners, listen, teach and network! in VEGAS!
+description: With at least one Bitcoin conference a week in the world in 2024 we've
+  decided to take Unconfiscatable 2024, in a fresh direction. It'll be the Bitcoin
+  event you don't want to miss. Networking, poker, steak, Scammy Awards and more!
+  No product pitches tokens or any other shitcoinery. This will be the ultimate place
+  to spend time with your fellow Bitcoiners, listen, teach and network! in VEGAS!
 language:
   - en
 links:
   website: https://unconfiscatable.com/
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - general
-
+  live_url:
 project_id: 54e06b86-9b5e-4134-88e8-af304e8aa22b
+tags:
+  - self-sovereignty
+  - cypherpunk

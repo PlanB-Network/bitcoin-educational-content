@@ -6,9 +6,6 @@ links:
   website: https://www.meetup.com/LondonBitcoin/
   twitter: https://x.com/londonON_BTC
 
-tags:
-  - adoption
-
 original_language: en
 proofreading:
   - language: en
@@ -17,3 +14,7 @@ proofreading:
     contributors_id:
       - hunt-wood
     reward: 0.06
+tags:
+  - adoption
+  - use-case
+  - business

@@ -11,9 +11,8 @@ language:
   - de
 links:
   website: https://swiss-bitcoin-conference.com/
-tags:
-  - business
-  - future-outlook
-  - case-studies
-
 project_id: ca456531-4f6b-456e-bed9-0fa48b6db65c
+tags:
+  - guides
+  - development
+  - evaluation

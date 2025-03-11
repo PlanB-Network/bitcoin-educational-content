@@ -1,0 +1,9 @@
+question: Mitä Have I Been Pwned -sivusto mahdollistaa?
+answer: Tarkistaa, onko sähköpostiosoite vaarantunut.
+wrong_answers:
+  - Luoda uusia vahvoja ja satunnaisia salasanoja.
+  - Luo turvallisen sähköpostilaatikon.
+  - Synkronoida sähköpostitilit käytön helpottamiseksi.
+explanation: |
+  Tämä sivusto auttaa havaitsemaan tietovuotoja ja tarkistamaan sähköpostiosoitteen turvallisuuden.
+reviewed: false

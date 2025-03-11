@@ -4,11 +4,6 @@ links:
   website: https://www.bitstamp.net/
   twitter: https://twitter.com/Bitstamp
 
-tags:
-  - multi-coin
-  - centralize
-  - KYC
-
 category: exchange
 
 # Proofreading metadata
@@ -91,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.14
+tags:
+  - market-trends
+  - finance
+  - business

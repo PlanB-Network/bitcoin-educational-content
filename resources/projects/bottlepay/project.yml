@@ -4,10 +4,6 @@ links:
   website: https://bottlepay.com/
   twitter: https://twitter.com/bottlepay/
 
-tags:
-  - exchange
-  - Lightning
-
 category: exchange
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.23
+tags:
+  - wallets
+  - software
+  - user-friendly

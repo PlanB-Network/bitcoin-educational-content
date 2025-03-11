@@ -10,18 +10,19 @@ description: Every Sunday, we open our doors to the Bitcoin Builders, from simpl
   where your Bitcoin project or startup takes center stage.
 end_date: '2024-08-11 22:00:00'
 language:
-- en
+  - en
 links:
   live_url: ''
   replay_url: ''
-  website: https://www.meetup.com/pleb-lab/events/301693658/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+  website: 
+    https://www.meetup.com/pleb-lab/events/301693658/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
 name: Bitcoin Project Day at PlebLab
 price_dollars: 0
 start_date: '2024-08-11 14:00:00'
-tags:
-- bitcoiner
-- general
-- hacker
 timezone: America/Chicago
 type: course
 project_id: b35f4cff-c9fd-4e51-8771-ed1b4d3184fd
+tags:
+  - DIY
+  - development
+  - business

@@ -1,11 +1,6 @@
 id: 044e814a-85d8-444e-bd5f-3cf739729025
 builder: LNVPN
 
-tags:
-  - privacy
-  - security
-  - VPN
-
 level: advanced
 
 category: general
@@ -96,3 +91,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2.33
+tags:
+  - DIY
+  - guides
+  - privacy

@@ -2,11 +2,6 @@ id: 873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 builder: Blockstream
 
-tags:
-  - hardware
-  - wallets
-  - keys
-
 category: hardware
 
 level: beginner
@@ -109,3 +104,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 3.7
+tags:
+  - wallets
+  - guides
+  - user-friendly

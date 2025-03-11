@@ -4,10 +4,6 @@ links:
   website: https://www.bullbitcoin.com/
   twitter: https://twitter.com/BullBitcoin_
   github: https://github.com/SatoshiPortal/cyphernode
-tags:
-  - bitcoin-only
-  - exchanges
-
 category: exchange
 
 # Proofreading metadata
@@ -90,3 +86,7 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 0.24
+tags:
+  - business
+  - wallets
+  - user-friendly

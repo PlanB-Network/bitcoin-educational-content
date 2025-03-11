@@ -760,6 +760,25 @@ Kun aloitimme RGB:n, kävimme läpi kaikki nämä menetelmät määrittääksemm
 
 
 
+| Kerros                            | On-chain-kustannus (vbytes) | On-chain-kustannus (vbytes) | On-chain-kustannus (vbytes) | Asiakaskustannus (bytes) | Asiakaskustannus (bytes) |
+| --------------------------------- | ------------------------ | ------------------------ | ------------------------ | ---------------------- | ---------------------- |
+| **Tyyppi**                         | **Perus**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**        | **Tapret #4**        |
+| MuSig (n-of-n)                     | 16.5                   | 0                      | 0                      | 0                    | 0                    |
+| FROST (n-of-m)                     | ?                      | 0                      | 0                      | 0                    | 0                    |
+| Multi_a (n-of-m)                   | 1+16n+8m               | 8                      | 8                      | 33 * m               | 65                   |
+| MuSig / Multi_a haara (n-of-m)      | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                   | 65                   |
+| Aikakatkaisulla (n-of-m)            | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                   | 65                   |
+
+| Menetelmä                                  | Yksityisyys ja skaalautuvuus | Yhteentoimivuus | Yhteensopivuus | Kannettavuus | Monimutkaisuus |
+| ----------------------------------------- | ------------------------ | -------------- | ------------- | ---------- | ------------ |
+| Keytweak (deterministinen P2C)           | 🟢                         | 🔴             | 🔴           | 🟡        | 🟡           |
+| Sigtweak (deterministinen S2C)           | 🟢                         | 🔴             | 🔴           | 🟢        | 🔴           |
+| Opret (OP_RETURN)                        | 🔴                         | 🟠             | 🔴           | 🟢        | 🟢           |
+| Algo Tapret: Ylin vasen solmu            | 🟠                         | 🟢             | 🟢           | 🔴        | 🟠           |
+| Algo Tapret #4: Mikä tahansa solmu + todiste | 🟢                         | 🟢             | 🟢           | 🟠        | 🔴           |
+
+
+
 
 
 
@@ -1349,19 +1368,14 @@ Jos tilaelementtiä ei ole sopimuksessa määritelty muuttuvaksi tai kumulatiivi
 
 Alla olevassa taulukossa on esitetty, miten kukin sopimusoperaatiotyyppi voi manipuloida (tai olla manipuloimatta) globaalia tilaa ja omistettua tilaa:
 
-| Genesis | Tilan laajentaminen | Tilan siirtymä |
+|                              | Genesis | Tilalaajennus | Tilasiirtymä |
+| ---------------------------- | :-----: | :----------: | :----------: |
+| **Global State lisäys**      |    +    |      -      |      +      |
+| **Global State mutaatio**    |   n/a   |      -      |      +      |
+| **Owned State lisäys**       |    +    |      -      |      +      |
+| **Owned State mutaatio**     |   n/a   |     Ei      |      +      |
+| **Valencies lisäys**         |    +    |      +      |      +      |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Lisää globaali tila** | + | | - | + | | | |
-
-| n/a | - | + | **Yleisen tilan mutaatio** | - | + | | |
-
-| **Lisää omistettu tila** | + | | - | + | | | |
-
-| **Omistetun valtion mutaatio** | n/a | Ei | Ei | + | | |
-
-| **Lisää arvoja** | + | + | + | + | + | + | | | | |
 
 **`+`** : toiminto mahdollinen, jos sopimuksen skeema sallii sen.
 
@@ -1369,15 +1383,12 @@ Alla olevassa taulukossa on esitetty, miten kukin sopimusoperaatiotyyppi voi man
 
 Lisäksi kunkin tietotyypin ajallinen soveltamisala ja päivitysoikeudet voidaan erottaa toisistaan seuraavassa taulukossa:
 
-| Metatiedot | Globaali tila | Omistettu tila |
+|                                 | Metadata                                | Globaali tila                               | Omistettu tila                                                                                           |
+| ------------------------------- | --------------------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Laajuus**                     | Määritelty yhdelle sopimusoperaatiolle  | Määritelty globaalisti sopimukselle        | Määritelty jokaiselle sinetille (*Assignment*)                                                         |
+| **Kuka voi päivittää sen?**      | Ei päivitettävissä (väliaikaiset tiedot) | Toimijoiden suorittama operaatio (liikkeellelaskija jne.) | Riippuu laillisesta haltijasta, joka omistaa sinetin (se, joka voi käyttää sitä seuraavassa tapahtumassa) |
+| **Aikaväli**                     | Vain nykyistä operaatiota varten        | Tila määritetään operaation lopussa         | Tila määritetään ennen operaatiota (*Seal Definition* edellisestä operaatiosta)                        |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Määritellään yhdelle sopimustoiminnolle | Määritellään globaalisti sopimukselle | Määritellään kullekin sinetille (*Toimeksianto*) | Määritellään yhdelle sopimustoiminnolle | Määritellään globaalisti sopimukselle | Määritellään kullekin sinetille (*Toimeksianto*) | Määritellään kullekin sinetille (*Toimeksianto*) | Määritellään kullekin sopimukselle
-
-| Ei toteutettavissa (hetkellinen tieto) | Toimijoiden (liikkeeseenlaskija jne.) myöntämä transaktio | Riippuu sinetin oikeasta haltijasta (joka voi käyttää sen myöhemmässä transaktiossa) |
-
-| Tila on määritelty ennen operaatiota (edellisen operaation *Seal Definition* mukaan) | Tila vahvistetaan operaation lopussa | Tila vahvistetaan operaation lopussa | Tila vahvistetaan operaation lopussa | Tila määritellään ennen operaatiota (edellisen operaation *Seal Definition* mukaan) | Tila vahvistetaan operaation lopussa | Tila määritellään ennen operaatiota (edellisen operaation *Seal Definition* mukaan) | Tila määritellään ennen operaatiota (edellisen operaation *Seal Definition* mukaan)
 
 ### Maailmanlaajuinen valtio
 

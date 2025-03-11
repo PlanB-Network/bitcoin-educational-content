@@ -759,6 +759,26 @@ Da vi startet RGB, gikk vi gjennom alle disse metodene for å finne ut hvor og h
 | Multi-sig 2-of-3 med tidsavbrudd | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                  | 65                  | 32                  | n/a                 | 0                   |
 
 
+| Lag                            | On-chain-kostnad (vbytes) | On-chain-kostnad (vbytes) | On-chain-kostnad (vbytes) | Klientkostnad (bytes) | Klientkostnad (bytes) |
+| ------------------------------ | ---------------------- | ---------------------- | ---------------------- | ------------------ | ------------------ |
+| **Type**                        | **Base**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**       | **Tapret #4**       |
+| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                   | 0                   |
+| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                   | 0                   |
+| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m              | 65                  |
+| Gren MuSig / Multi_a (n-of-m)     | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                  | 65                  |
+| Med tidsavbrudd (n-of-m)          | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                  | 65                  |
+
+| Metode                                   | Personvern og skalerbarhet | Interoperabilitet | Kompatibilitet | Portabilitet | Kompleksitet |
+| ---------------------------------------- | --------------------- | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (deterministisk P2C)            | 🟢                     | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (deterministisk S2C)            | 🟢                     | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                         | 🔴                     | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret: Øverste venstre node         | 🟠                     | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret #4: Enhver node + bevis       | 🟢                     | 🟢               | 🟢            | 🟠          | 🔴         |
+
+
+
+
 
 
 I løpet av studien ble det klart at ingen av forpliktelsesordningene var fullt ut kompatible med den nåværende Lightning-standarden (som ikke bruker Taproot, _muSig2_ eller ytterligere _commitment_-støtte). Det arbeides med å endre Lightnings kanalkonstruksjon (*BiFrost*) for å gjøre det mulig å legge inn RGB-forpliktelser. Dette er et annet område der vi må gjennomgå transaksjonsstrukturen, nøklene og måten kanaloppdateringer signeres på.
@@ -1347,35 +1367,27 @@ Hvis et tilstandselement i kontrakten ikke er definert som muterbart eller kumul
 
 Tabellen nedenfor illustrerer hvordan hver type kontraktsoperasjon kan manipulere (eller ikke manipulere) den globale tilstanden og den eide tilstanden:
 
-| Genesis | State Extension | State Transition | State Transition
+|                              | Genesis | Tilstandsutvidelse | Tilstandsovergang |
+| ---------------------------- | :-----: | :---------------: | :--------------: |
+| **Legge til Global State**   |    +    |        -        |        +        |
+| **Mutasjon av Global State** |   n/a   |        -        |        +        |
+| **Legge til Owned State**    |    +    |        -        |        +        |
+| **Mutasjon av Owned State**  |   n/a   |       Nei       |        +        |
+| **Legge til Valencies**      |    +    |        +        |        +        |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Legg til global tilstand** | + | - | + | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-
-| n/a | - | + | **Mutasjon av global tilstand** | - | + | | | **Mutasjon av global tilstand
-
-| **Legg til eid tilstand** | + | - | + | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-
-| **Mutasjon av eid tilstand** | n/a | Nei | + | | | **Mutasjon av eid tilstand
-
-| **Legg til valenser** | + | + | + | + | + | | + | | | +
 
 **`+`** : handling mulig hvis kontraktens skjema tillater det.
 
-**`-``**: Operasjonen må bekreftes av en påfølgende tilstandsovergang (tilstandsutvidelsen alene lukker ikke engangsforseglingen).
+**`-`**: Operasjonen må bekreftes av en påfølgende tilstandsovergang (tilstandsutvidelsen alene lukker ikke engangsforseglingen).
 
 I tillegg kan det skilles mellom det tidsmessige omfanget og oppdateringsrettighetene for hver type data i tabellen nedenfor:
 
-metadata | Global State | Owned State | Global State | Owned State
+|                                 | Metadata                                | Global Tilstand                           | Eiet Tilstand                                                                                         |
+| ------------------------------- | -------------------------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Omfang**                      | Definert for en enkelt kontraktsoperasjon | Definert globalt for kontrakten         | Definert for hver segl (*Assignment*)                                                             |
+| **Hvem kan oppdatere det?**     | Ikke oppdaterbart (midlertidige data)  | Operasjon utstedt av aktører (utsteder, osv.) | Avhenger av den legitime eieren som eier seglet (den som kan bruke det i en påfølgende transaksjon) |
+| **Tidsomfang**                  | Bare for gjeldende operasjon           | Tilstanden fastsettes ved operasjonens slutt | Tilstanden er definert før operasjonen (av *Seal Definition* fra forrige operasjon)                |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Definert for en enkelt kontraktsoperasjon | Definert globalt for kontrakten | Definert for hvert segl (*Assignment*) | Definert for en enkelt kontraktsoperasjon | Definert globalt for kontrakten | Definert for hvert segl (*Assignment*) | Definert for hvert segl (*Assignment*) | Definert for hver kontrakt
-
-| Ikke-aktualiserbar (flyktige data) | Transaksjon utstedt av aktører (utsteder osv.) | Avhenger av den rettmessige innehaveren av seglet (den som kan bruke det i en påfølgende transaksjon) | Ikke-aktualiserbar (flyktige data) | Avhenger av den rettmessige innehaveren av seglet (den som kan bruke det i en påfølgende transaksjon)
-
-| Tilstanden er definert før operasjonen (av *Seal Definition* fra forrige operasjon) | Tilstanden er etablert ved slutten av operasjonen | Tilstanden er etablert ved slutten av operasjonen | Tilstanden er definert før operasjonen (av *Seal Definition* fra forrige operasjon) | Tilstanden er etablert ved slutten av operasjonen | Tilstanden er definert før operasjonen (av *Seal Definition* fra forrige operasjon)
 
 ### Global stat
 

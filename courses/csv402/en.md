@@ -1504,17 +1504,13 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Declarative** | **Fungible** | **Structured** | **Attachments** |
+| **Element**         | **Declarative**  | **Fungible**                         | **Structured**                 | **Attachments**                |
+| ------------------- | -------------- | ------------------------------------ | ----------------------------- | ----------------------------- |
+| **Data**           | None           | Signed or unsigned 64-bit integer    | Any strict data type          | Any file                      |
+| **Info Type**      | None           | Signed or unsigned                   | Strict types                   | MIME Type                      |
+| **Privacy**       | Not required    | Pedersen commitment                  | Hash with blinding            | Hashed file identifier         |
+| **Size Limits**    | N/A            | 256 bytes                             | Up to 64 KB                    | Up to ~500 GB                  |
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
-
-| None | 64-bit signed or unsigned integer | Any strict data type | Any file |
-
-| Info type** | None | Signed or unsigned | Strict types | MIME type |
-
-| Pedersen commitment | Hashing with blinding | Hashed file ID
-
-| Size limits** | N/A | 256 bytes | Up to 64 KB | Up to ~500 Gb |
 
 ### Inputs
 
@@ -1959,17 +1955,13 @@ It's important to note that for a wallet to manage an RGB asset (be it a fungibl
 
 To help clarify these notions, here is a summary table comparing the components of an RGB contract with concepts already known either in object-oriented programming (OOP) or in the Ethereum ecosystem:
 
-| RGB Contract Component | Meaning | OOP Equivalent | Ethereum Equivalent |
+| RGB Contract Component       | Meaning                               | OOP Equivalent                             | Ethereum Equivalent               |
+| ---------------------------- | ------------------------------------- | ------------------------------------------ | --------------------------------- |
+| **Genesis**                  | Initial state of the contract        | Class constructor                         | Contract constructor              |
+| **Schema**                   | Business logic of the contract       | Class                                     | Contract                          |
+| **Interface**                | Semantics of the contract            | Interface (Java) / Trait (Rust) / Protocol (Swift) | ERC Standard                      |
+| **Interface Implementation** | Mapping semantics and logic          | Impl (Rust) / Implements (Java)           | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Class constructor | Contract constructor | Initial state of the contract
-
-| Class | Contract business logic
-
-| Contract semantics | Interface (Java) / trait (Rust) / protocol (Swift) | ERC Standard |
-
-| Application Binary Interface (ABI) | Impl (Rust) / Implements (Java) | Mapping of semantics and logic
 
 The left-hand column shows the elements specific to the RGB protocol. The middle column shows the concrete function of each component. Then, in the "OOP equivalent" column, we find the equivalent term in object-oriented programming:
 

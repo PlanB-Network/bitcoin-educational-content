@@ -36,13 +36,9 @@ proofreading:
     last_contribution_date: 2025-03-04
     urgency: 1
     contributors_id:
-<<<<<<<< HEAD:tutorials/business/bitfinex-pro/tutorial.yml
-    reward: 1.16
-
-========
       - MariJJhodl
     reward: 0.45
->>>>>>>> upstream/dev:tutorials/others/weblate-add-new-language/tutorial.yml
+
   - language: es
     last_contribution_date:
     urgency: 1

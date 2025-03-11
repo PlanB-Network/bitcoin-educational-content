@@ -36,13 +36,9 @@ proofreading:
     last_contribution_date: 2025-04-03
     urgency: 1
     contributors_id:
-<<<<<<<< HEAD:tutorials/business/kraken-pro/tutorial.yml
-    reward: 1.11
-
-========
       - MariJJhodl
     reward: 0.54
->>>>>>>> upstream/dev:tutorials/others/weblate-translate-front-end/tutorial.yml
+
   - language: es
     last_contribution_date:
     urgency: 1

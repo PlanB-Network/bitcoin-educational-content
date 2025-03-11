@@ -1504,17 +1504,13 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Määräävä** | **Kannatettava** | **Rakenteinen** | **Liitteet** | **Liitteet** |
+| **Elementti**       | **Deklaratiivinen** | **Fungible**                       | **Rakenteinen**                 | **Liitteet**                    |
+| ------------------- | ----------------- | ---------------------------------- | ----------------------------- | ----------------------------- |
+| **Data**           | Ei mitään         | 64-bittinen allekirjoitettu tai allekirjoittamaton kokonaisluku | Minkä tahansa tiukka tietotyyppi | Mikä tahansa tiedosto          |
+| **Infotyyppi**     | Ei mitään         | Allekirjoitettu tai allekirjoittamaton | Tiukat tyypit                  | MIME-tyyppi                     |
+| **Yksityisyys**    | Ei vaadittu       | Pedersen commitment               | Hajautus osittain piilotettuna | Hajautettu tiedoston tunniste |
+| **Kokorajoitukset** | N/A               | 256 tavua                          | Enintään 64 KB                  | Enintään ~500 GB                |
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
-
-| Ei mitään | 64-bittinen allekirjoitettu tai merkkaamaton kokonaisluku | Mikä tahansa tiukka tietotyyppi | Mikä tahansa tiedosto | |
-
-| Tietotyyppi** | Ei mitään | Allekirjoitettu tai allekirjoittamaton | Tiukat tyypit | MIME-tyyppi | MIME-tyyppi |
-
-| Pedersenin sitoutuminen | Hashing with blinding | Hashattu tiedoston tunnus
-
-| Kokorajoitukset** | N/A | 256 tavua | Enintään 64 KB | Enintään ~500 Gt | |
 
 ### Tulot
 
@@ -1959,17 +1955,13 @@ On tärkeää huomata, että jotta lompakko voi hallinnoida RGB-varoja (olipa ky
 
 Näiden käsitteiden selventämiseksi tässä on yhteenvetotaulukko, jossa verrataan RGB-sopimuksen komponentteja joko olio-ohjelmoinnissa (OOP) tai Ethereumin ekosysteemissä jo tunnettuihin käsitteisiin:
 
-| RGB-sopimuskomponentti | Merkitys | OOP-ekvivalentti | Ethereum-ekvivalentti |
+| RGB sopimuksen komponentti   | Merkitys                              | OOP-vastaavuus                          | Ethereum-vastaavuus               |
+| ---------------------------- | ------------------------------------- | -------------------------------------- | --------------------------------- |
+| **Genesis**                  | Sopimuksen alkuperäinen tila         | Luokan konstruktori                    | Sopimuksen konstruktori           |
+| **Schema**                   | Sopimuksen liiketoimintalogiikka     | Luokka                                  | Sopimus                          |
+| **Interface**                | Sopimuksen semantiikka               | Rajapinta (Java) / Trait (Rust) / Protokolla (Swift) | ERC-standardi                     |
+| **Interface Implementation** | Semantiikan ja logiikan kartoitus    | Impl (Rust) / Implements (Java)         | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Luokan konstruktori | Sopimuksen konstruktori | Sopimuksen alkutila
-
-| Luokka | Sopimuksen liiketoimintalogiikka
-
-| Sopimussemantiikka | Rajapinta (Java) / ominaisuus (Rust) / protokolla (Swift) | ERC-standardi | ERC-standardi |
-
-| Application Binary Interface (ABI) | Impl (Rust) / Implements (Java) | Semantiikan ja logiikan kartoitus
 
 Vasemmanpuoleisessa sarakkeessa on RGB-protokollalle ominaiset elementit. Keskimmäisessä sarakkeessa on kunkin komponentin konkreettinen tehtävä. Tämän jälkeen sarakkeessa "OOP equivalent" on vastaava termi oliokeskeisessä ohjelmoinnissa:
 

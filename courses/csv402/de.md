@@ -1503,17 +1503,13 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Deklarativ** | **Fungibel** | **Strukturiert** | **Anhänge** |
+| **Element**          | **Deklarativ**  | **Fungibel**                         | **Strukturiert**               | **Anhänge**                    |
+| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ----------------------------- |
+| **Daten**            | Keine          | Signierte oder unsignierte 64-Bit-Ganzzahl | Streng definierte Datentypen  | Jede Datei                     |
+| **Informationstyp**  | Keine          | Signiert oder unsigniert             | Strenge Typen                  | MIME-Typ                       |
+| **Privatsphäre**     | Nicht erforderlich | Pedersen Commitment                 | Hash mit Blinding              | Gehashte Datei-ID              |
+| **Größenbeschränkungen** | N/A        | 256 Bytes                             | Bis zu 64 KB                   | Bis zu ~500 GB                 |
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
-
-| Keine | 64-Bit-Ganzzahl mit oder ohne Vorzeichen | Jeder strenge Datentyp | Jede Datei |
-
-| Info-Typ** | Keine | Vorzeichenbehaftet oder vorzeichenlos | Strenge Typen | MIME-Typ |
-
-| Pedersen Commitment | Hashing mit Verblendung | Hashed file ID
-
-| Größenbeschränkungen** | N/A | 256 Bytes | Bis zu 64 KB | Bis zu ~500 Gb |
 
 ### Eingaben
 
@@ -1958,17 +1954,13 @@ Es ist wichtig zu beachten, dass eine Brieftasche, die ein RGB-Asset (sei es ein
 
 Um diese Begriffe zu verdeutlichen, finden Sie hier eine zusammenfassende Tabelle, in der die Komponenten eines RGB-Vertrags mit Konzepten verglichen werden, die entweder in der objektorientierten Programmierung (OOP) oder im Ethereum-Ökosystem bereits bekannt sind:
 
-| RGB-Vertragskomponente | Bedeutung | OOP-Äquivalent | Ethereum-Äquivalent |
+| RGB Vertragskomponente       | Bedeutung                              | OOP-Äquivalent                             | Ethereum-Äquivalent               |
+| ---------------------------- | ------------------------------------- | ------------------------------------------ | --------------------------------- |
+| **Genesis**                  | Anfangszustand des Vertrags           | Klassenkonstruktor                        | Vertragskonstruktor               |
+| **Schema**                   | Geschäftslogik des Vertrags           | Klasse                                    | Vertrag                           |
+| **Interface**                | Semantik des Vertrags                 | Interface (Java) / Trait (Rust) / Protokoll (Swift) | ERC-Standard                      |
+| **Interface Implementation** | Zuordnung von Semantik und Logik      | Impl (Rust) / Implements (Java)           | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Klassenkonstruktor | Vertragskonstruktor | Anfangszustand des Vertrags
-
-| Klasse | Vertrag Geschäftslogik
-
-| Vertragssemantik | Schnittstelle (Java) / Trait (Rust) / Protokoll (Swift) | ERC Standard |
-
-| Application Binary Interface (ABI) | Impl (Rust) / Implements (Java) | Abbildung von Semantik und Logik
 
 Die linke Spalte zeigt die für das RGB-Protokoll spezifischen Elemente. Die mittlere Spalte zeigt die konkrete Funktion der einzelnen Komponenten. In der Spalte "OOP-Äquivalent" finden wir dann den entsprechenden Begriff in der objektorientierten Programmierung:
 

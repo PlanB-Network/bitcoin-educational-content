@@ -1,52 +1,51 @@
 ---
 name: Timestamping of Plan ₿ Network certificates and diplomas
-description: Understand how Plan ₿ Network issue verifiable proof for your certificate and diplomas
+description: Understand how Plan ₿ Network issues verifiable proofs for your certificates and diplomas
 ---
 
 ![cover](assets/cover.webp)
 
-If you are reading this, there is a high probability to you receive either a Bitcoin Certificate or a diploma of completion for one of the course you did on Plan ₿ Network, so congratulation for this achievement!
+If you are reading this, there is a high probability that you received either a ₿-CERT test certificate or a diploma of completion for one of the course you attended on planb.network, so congratulation for this achievement!
 
-In this tutorial, we are going to see how Plan ₿ Network issue verifiable for
-your Bitcoin Certificate or any Diploma of Course Completion. Then in a second part we will see how to verify the authenticity of these proofs.
+In this tutorial, we will discover how Plan ₿ Network issues verifiable proofs for your ₿-CERT test certificate or any Diploma regarding Course Completion. Then, in a second part we will describe how to verify the authenticity of these proofs.
 
 # Plan ₿ Network proof mechanism
 
-At Plan ₿ Network, we offer you a certificate and diplomas that are cryptographically signed by us, and time-stamped on the Timechain (ie. The Bitcoin blockchain). In order to achieve this, we had to come with a proof mechanism that rely on 2 cryptographic operations:
+At Plan ₿ Network, we cryptographically sign certificates and diplomas, and time-stamp them using the Timechain (i.e. The Bitcoin blockchain), through a proof mechanism that relies on two cryptographic operations:
 
-1. A GPG-signature on a text file that synthesize your achievements
-2. The timestamping of this signed file via [opentimestamps](https://opentimestamps.org/).
+1. A GPG-signature on a text file that synthesizes your achievements
+2. The timestamping of the same signed file via [opentimestamps](https://opentimestamps.org/).
 
-Basically the first operation allow you to verify who issue the certificate (or diploma) whereas the second one allow you to verify when it was issued.
-We believe that this simple proof mechanism enables us to issue certificate and diploma with undeniable proofs that anyone can verify on their own.
+The first operation enables you to confirm the issuer of the certificate (or diploma), while the second operation allows you to verify the date of its issuance.
+We believe that this simple proof mechanism empowers us to issue certificates and diplomas with undeniable evidence that anyone can independently verify.
 
 ![image](./assets/proof-mechanism.webp)
 
-Note that thanks to this proof mechanism, any attempt to alter even the smallest detail of your certificate or diploma will create a completely different sha256 hash of the signed file, which would instantly revealing tampering because the signature and the timestamping will not be valid anymore. Furthermore, if anyone tries to maliciously forge some certificates or diplomas on behalf of Plan ₿ Network, a simple verification of the signature would reveal the fraud.
+Thanks to this proof mechanism, any attempt to alter even the smallest detail of your certificate or diploma will result in a completely different SHA-256 hash of the signed file, instantly revealing any tampering, as both the signature and the timestamp will no longer be valid. Moreover, if anyone attempts to maliciously forge certificates or diplomas on behalf of Plan ₿ Network, a simple verification of the signature will expose the fraud.
 
 ## How does the GPG-signature work?
 
-The GPG signature is obtained with the use of an open-source software name GNU Private Guard. This software allows anyone to easily create private keys, sign and verify signature and also encrypt and decrypt files. For this scope of this tutorial, know that Plan ₿ Network use GPG to create its private/public key and to sign any Bitcoin Certificate or Diploma of Course Completion.
+The GPG signature is generated using an open-source software called GNU Privacy Guard. This software allows users to easily create private keys, sign and verify signatures, and encrypt and decrypt files. For the purposes of this tutorial, it's important to note that Plan ₿ Network uses GPG to create its private/public keys and to sign all ₿-CERT Certificates and Diplomas of Course Completion.
 
-On the other hand, if someone wants to verify the authenticity of a signed file they can use GPG to import the public key of the issuer and verify. In the second part of the tutorial we will see how to do it with a terminal.
+On the other hand, if someone wants to verify the authenticity of a signed file, they can use GPG to import the public key of the issuer and verify it.
 
 For those who are curious and want to learn more about this fantastic software, you can refer to ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
 
 ## How does time-stamping work?
 
-Anyone can use OpenTimestamps to time-stamp a file, and obtain a verifiable proof of file existence. In other words, it does not provide you a proof of when the file was created but a proof of existence no later than a certain moment.
-OpenTimestamps is able to offer this service for free thanks to a highly efficient way to store such proof in the Bitcoin Blockchain. It uses the sha256 has of the file as a unique identifier of your file and build a merkle tree with other hashes of submitted files from other users and only anchor the hash of the Merkle Tree structure in an OpReturn Transaction.
-Once this transaction is in some block, anyone with the initial file and the `.ots` file associated to it can verify the authencity of the timestamping. In the second part of the tutorial we will see how to verify your Bitcoin Certificate or any Diploma of Course Completion with a teminal and with a graphical interface via the website of OpenTimestamps.
+Anyone can use OpenTimestamps to timestamp a file and obtain verifiable proof of its existence. In other words, it does not provide proof of when the file was created, but rather proof that the file existed no later than a specific moment in time.
+OpenTimestamps provides this service for free by utilizing a highly efficient method to store proof in the Bitcoin blockchain. It employs the SHA-256 hash algorithm to create a unique identifier for your file, and constructs a Merkle tree using the hashes of the files submitted by other users. Only the hash of the Merkle tree structure is anchored in an OP_RETURN transaction, ensuring a secure and compact way to verify file existence.
+Once this transaction gets into a block, anyone with the initial file and the `.ots` file associated to it can verify the authencity of the timestamping. In the second part of the tutorial, we will see how to verify your Bitcoin Certificate or any Diploma of Course Completion through a teminal and through a graphical interface on the website of OpenTimestamps.
 
-# How to verify a Plan ₿ Network Certificate or Diploma
+# How to verify a Plan ₿ Network ₿-CERT certificate or Diploma
 
 ## Step 1. Download your Certificate or Diploma
 
-Log into your personal PBN dashboard.
+Log into your personal/student dashboard on planb.network.
 
 ![image](./assets/login.webp)
 
-Go to Credentials page by clicking on the lefthand-side menu, and select on your exam session or your Diploma of Course Completion.
+Go to "Credentials" by clicking on the lefthand-side menu, and select your exam session or your Diploma.
 
 ![image](./assets/credential.webp)
 
@@ -54,15 +53,15 @@ Download the zip file.
 
 ![image](./assets/download.webp)
 
-Extract the contents by right-clicking on the `.zip` file and selecting "Extract". You will find three different files inside:
+Extract the contents by right-clicking on the `.zip` file and selecting "Extract". You will find three different files:
 
-- Signed text file (e.g., certificate.txt)
-- Open timestamp (OTS) file (e.g., certificate.txt.ots)
-- PDF certificate (e.g., certificate.pdf)
+- A signed text file (e.g. certificate.txt)
+- An Open timestamp (OTS) file (e.g. certificate.txt.ots)
+- A PDF certificate (e.g. certificate.pdf)
 
-## Step 2: Verifying the Signature of the Text File
+## Step 2: How can you verify the Signature of the Text File?
 
-First open a terminal in the folder where the files are (right-clicking on the folder window and clik on "Open in Teminal"). Then follow the below instructions
+First, go to the folder where you extracted the files and open a terminal (right-click on the folder window and clik on "Open in Teminal"). Then, follow the instructions below.
 
 1. Import Plan ₿ Network public PGP key with the following command:
 
@@ -78,9 +77,9 @@ gpg: Total number processed: 1
 gpg:               imported: 1
 ```
 
-NOTE: if you see that 1 key is processed and 0 imported, most likely you already imported the same key previously and it's fine.
+NOTE: if you see that 1 key has been processed and 0 keys have been imported, it likely means you have already imported the same key previously, which is perfectly fine.
 
-2. Verify the signature of the certificate or diploma with following command:
+2. Verify the signature of the certificate or diploma using the following command:
 
 ```bash
 gpg --verify certificate.txt
@@ -90,7 +89,7 @@ This command should show you details about the signature, including:
 
 - Who signed it (Plan ₿ Network)
 - When it was signed
-- Whether the signature is valid
+- Whether the signature is valid or not
 
 This is an example of the result:
 
@@ -109,19 +108,19 @@ If you see a message like "BAD signature", that means that the file has been tam
 
 1. Visit the OpenTimestamps website: https://opentimestamps.org/
 2. Click on the "Stamp & Verify" tab.
-3. Drag and drop the OTS file (e.g., `certificate.txt.ots`) into the designated area.
+3. Drag and drop the OTS file (e.g. `certificate.txt.ots`) into the designated area.
 4. Drag and drop the timestamped file (e.g. `certificate.txt`) into the designated area.
 5. The website will automatically verify the open timestamp and display the result.
 
-If you see a message like the following you time timestamp is valid:
+If you see a message like the following, the timestamp is valid:
 
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
-### CLI Method
+### The CLI Method
 
-NOTE: this procedure **will require a local Bitcoin node running**
+NOTE: this procedure **will require a running local Bitcoin node**
 
-1. Install the OpenTimestamps client from the official repository: https://github.com/opentimestamps/opentimestamps-client by running the following command:
+1. Install the OpenTimestamps client from the official [repository](https://github.com/opentimestamps/opentimestamps-client) by running the following command:
 
 ```
 pip install opentimestamps-client
@@ -137,15 +136,15 @@ ots verify certificate.txt.ots
 
 This command will:
 
-- Check the timestamp against Bitcoin's blockchain
-- Show you when exactly the file was timestamped
+- Check the timestamp against the Bitcoin's blockchain
+- Show you exactly when the file was timestamped
 - Confirm the timestamp's authenticity
 
 ### Final results
 
-Note that the verification is successful if following **both** message are displayed:
+The verification is successful if **both** the following messages are displayed:
 
 1. The GPG signature is reported as **"Good signature from Plan ₿ Network"**
 2. The OpenTimestamps verification shows a specific Bitcoin block timestamp and reports **"Success! Bitcoin block [blockheight] attests data existed as of [timestamp]"**
 
-Now that you know how Plan ₿ Network issue verifiable proof for any Bitcoin Certificate and Diploma of Course Completion, you can easily verify the integrity of it.
+Now that you know how Plan ₿ Network issues verifiable proofs for any ₿-CERT Certificate and Diploma, you can easily verify the integrity of them.

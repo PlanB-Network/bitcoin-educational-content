@@ -1,7 +1,7 @@
 ---
 name: Introduction to formal Cryptography
 goal: A deep-dive introduction to the science and practice of cryptography.
-objectives: 
+objectives:
 
   - Explore Beale ciphers and modern cryptographic methods to understand basic and historical concepts of cryptography.
   - Delve into number theory, groups, and fields to master key mathematical concepts underlying cryptography.
@@ -291,7 +291,7 @@ In the expression “random variable,” the term “random” just means “pro
 
 A **uniform variable** is a special case of a random variable. It can take on two or more values all with an equal probability. The random variable $X$ depicted in *Figure 1* is clearly a uniform variable, as both possible outcomes occur with a probability $0.5$. There are, however, many random variables that are not instances of uniform variables.
 
-Consider, for example, the random variable $Y$. It has an outcome set $\{1, 2, 3, 8, 10\}$ and the following probability distribution:
+Consider, for example, the random variable $Y$. It has an outcome set $\{1, 2, 3, 8, 10}$ and the following probability distribution:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -2100,7 +2100,7 @@ We can now define the order of $N$ as follows. Suppose that $N$ is an integer gr
 
 For instance, if $N = 12$, then 1, 5, 7, and 11 are the only coprimes that meet the requirement above. Hence, the order of 12 is equal to 4.
 
-Suppose that $N$ is a prime number. Then any integer smaller than $N$ but greater or equal to 1 is coprime with it. This includes all the elements in the following set: $\{1,2,3,….,N - 1\}$. Hence, when $N$ is prime, the order of $N$ is $N - 1$. This is stated in proposition 1, where $\phi(N)$ denotes the order of $N$.
+Suppose that $N$ is a prime number. Then any integer smaller than $N$ but greater or equal to 1 is coprime with it. This includes all the elements in the following set: $\{1,2,3,....,N - 1\}$. Hence, when $N$ is prime, the order of $N$ is $N - 1$. This is stated in proposition 1, where $\phi(N)$ denotes the order of $N$.
 
 **Proposition 1**. $\phi(N) = N - 1$ when $N$ is prime
 
@@ -2294,7 +2294,7 @@ Nevertheless, with adding a bit of clever complexity, the RSA problem can be use
 ## Đánh giá & Xếp hạng
 <chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
 <isCourseReview>true</isCourseReview>
- 
+
 
 ## Kỳ thi Cuối kỳ
 <chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>

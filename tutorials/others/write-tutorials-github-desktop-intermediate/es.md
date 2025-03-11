@@ -106,13 +106,13 @@ Para utilizar el script, navegue hasta la carpeta donde está almacenado. El scr
 
 Una vez en la carpeta, instala las dependencias:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 A continuación, inicie el software con el comando
 
-```bash
+```
 python3 main.py
 ```
 
@@ -197,7 +197,7 @@ En esta nueva subcarpeta dedicada a su tutorial, hay que añadir varios elemento
 
 En resumen, ésta es la jerarquía de archivos que hay que crear:
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (to be modified with the correct category)
@@ -212,7 +212,7 @@ bitcoin-educational-content/
 
 Rellene el archivo `tutorial.yml` copiando la siguiente plantilla:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -232,68 +232,55 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Here are the details of the mandatory fields:
-- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
-- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
-- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
-- **level**: The difficulty level of the tutorial, among:
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
-- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
-- **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
-- **last_contribution_date**: Today's date.
-- **urgency**: Leave blank.
-- **contributors_id**: Your GitHub ID.
-- **reward**: Leave blank.
-For more details on your professor identifier, refer to the corresponding tutorial:
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
 ```
 
+A continuación se detallan los campos obligatorios:
+
+
+- id**: Un UUID (_Universally Unique Identifier_) para identificar de forma única el tutorial. Puede generarlo con [una herramienta en línea](https://www.uuidgenerator.net/version4). El único requisito es que este UUID sea aleatorio para evitar conflictos con otro UUID de la plataforma;
+- project_id**: El UUID de la empresa u organización que está detrás de la herramienta presentada en el tutorial [de la lista de proyectos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por ejemplo, si está creando un tutorial sobre el software Sparrow Wallet, puede encontrar este `project_id` en el siguiente archivo: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Esta información se añade al archivo YAML de su tutorial porque Plan ₿ Network mantiene una base de datos de todas las empresas y organizaciones que operan en Bitcoin o proyectos relacionados. Al añadir el `project_id` de la entidad relacionada con su tutorial, se crea un vínculo entre los dos elementos;
+- etiquetas**: 2 o 3 palabras clave relevantes relacionadas con el contenido del tutorial, elegidas exclusivamente [de la lista de etiquetas del Plan ₿ Red](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- categoría**: La subcategoría correspondiente al contenido del tutorial, según la estructura del sitio Plan ₿ Network (por ejemplo para carteras: `desktop`, `hardware`, `mobile`, `backup`);
+- nivel**: El nivel de dificultad del tutorial, entre:
+    - principiante
+    - `intermedio`
+    - `avanzado`
+    - `experto`
+- profesor**: Su `contributor_id` (palabras BIP39) tal y como aparece en [su perfil de profesor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- idioma_original**: El idioma original del tutorial (por ejemplo `fr`, `en`, etc.);
+- corrección de pruebas**: Información sobre el proceso de corrección. Rellene la primera parte, ya que la corrección de su propio tutorial cuenta como primera validación:
+    - idioma**: Código de idioma de la corrección (por ejemplo `fr`, `en`, etc.).
+    - fecha_última_contribución**: La fecha de hoy.
+    - urgencia**: Dejar en blanco.
+    - contributors_id**: Tu ID de GitHub.
+    - recompensa**: Dejar en blanco.
+
+Para más detalles sobre su identificador de profesor, consulte el tutorial correspondiente:
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Este es un ejemplo de un archivo `tutorial.yml` completo para un tutorial sobre el monedero Blockstream Green:
+
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
 tags:
-
-
-  - carteras
-  - software
-  - llaves
-
-categoría: móvil
-
-nivel: principiante
-
-créditos:
-
-profesor: pretty-private
-
-# Corrección de metadatos
-
-idioma_original: fr
-
-corrección de pruebas:
-
-
-  - idioma: fr
-
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
+original_language: fr
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-urgencia:
-
-contribuyentes_id:
-
-
-      - LoicPandul
-
-recompensa:
+urgency: 1
+contributors_id:
+- LoicPandul
+reward: 0
+```
 
 Una vez que haya terminado de modificar su archivo `tutorial.yml`, guarde su documento haciendo clic en `Archivo > Guardar`:
 
@@ -317,7 +304,7 @@ Empezaremos rellenando la sección `Propiedades` de la parte superior del docume
 
 Añada y rellene manualmente el siguiente bloque de código:
 
-```markdown
+```
 ---
 name: [Title]
 description: [Description]
@@ -332,7 +319,7 @@ Escriba el nombre de su tutorial y una breve descripción del mismo:
 
 A continuación, añada la ruta de la imagen de portada al principio de su tutorial. Para ello, tenga en cuenta:
 
-```markdown
+```
 ![cover-sparrow](assets/cover.webp)
 ```
 
@@ -362,7 +349,7 @@ Tus imágenes deben estar exclusivamente en formato `.webp`. Si es necesario, pu
 
 Para insertar un diagrama en su documento, utilice el siguiente comando Markdown, asegurándose de especificar el texto alternativo apropiado, así como la ruta correcta de la imagen:
 
-```markdown
+```
 ![sparrow](assets/fr/01.webp)
 ```
 
@@ -407,7 +394,7 @@ Puede comprobar una última vez que sus modificaciones son correctas y, a contin
 
 ![TUTO](assets/fr/32.webp)
 
-Una Pull Request es una solicitud realizada para integrar los cambios de tu rama a la rama principal del repositorio Plan ₿ Network, lo que permite revisar y discutir los cambios antes de su fusión.
+Una Pull Request es una solicitud realizada para integrar los cambios de tu rama a la rama principal del repositorio Plan ₿ Network, lo que permite la revisión y discusión de los cambios antes de su fusión.
 
 Se te redirigirá automáticamente a tu navegador en GitHub a la página de preparación de tu Pull Request:
 

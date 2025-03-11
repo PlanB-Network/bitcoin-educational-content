@@ -106,13 +106,13 @@ For å bruke skriptet må du navigere til mappen der det er lagret. Skriptet lig
 
 Når du er i mappen, installerer du avhengighetene:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 Start deretter programvaren med kommandoen:
 
-```bash
+```
 python3 main.py
 ```
 
@@ -197,7 +197,7 @@ I denne nye undermappen som er dedikert til opplæringen din, må du legge til f
 
 For å oppsummere, her er hierarkiet av filer som skal opprettes:
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (to be modified with the correct category)
@@ -212,7 +212,7 @@ bitcoin-educational-content/
 
 Fyll ut filen `tutorial.yml` ved å kopiere følgende mal:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -232,68 +232,55 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Here are the details of the mandatory fields:
-- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
-- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
-- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
-- **level**: The difficulty level of the tutorial, among:
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
-- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
-- **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
-- **last_contribution_date**: Today's date.
-- **urgency**: Leave blank.
-- **contributors_id**: Your GitHub ID.
-- **reward**: Leave blank.
-For more details on your professor identifier, refer to the corresponding tutorial:
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
 ```
 
+Her er detaljene for de obligatoriske feltene:
+
+
+- id**: En UUID (_Universally Unique Identifier_) for å identifisere opplæringen på en unik måte. Du kan generere den med [et nettbasert verktøy] (https://www.uuidgenerator.net/version4). Det eneste kravet er at denne UUID-en skal være tilfeldig for å unngå konflikt med en annen UUID på plattformen;
+- prosjekt_id**: UUID-en til selskapet eller organisasjonen som står bak verktøyet som presenteres i opplæringen [fra listen over prosjekter] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Hvis du for eksempel lager en veiledning om programvaren Sparrow Wallet, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Denne informasjonen er lagt til i YAML-filen i opplæringen din fordi Plan ₿ Network vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` for enheten som er relatert til opplæringen din, oppretter du en kobling mellom de to elementene;
+- tagger**: 2 eller 3 relevante nøkkelord relatert til innholdet i opplæringen, valgt utelukkende [fra listen over tagger i Plan ₿ Network] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- kategori**: Underkategorien som tilsvarer innholdet i opplæringen, i henhold til strukturen på Plan ₿ Network-nettstedet (for eksempel for lommebøker: `desktop`, `hardware`, `mobile`, `backup`);
+- nivå**: Vanskelighetsgraden for opplæringen, blant annet:
+    - `begynner`
+    - "mellomliggende
+    - `avansert`
+    - `ekspert`
+- professor**: Ditt `contributor_id` (BIP39-ord) slik det vises på [din professorprofil] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- original_language**: Originalspråket for opplæringen (for eksempel `fr`, `en` osv.);
+- korrekturlesing**: Informasjon om korrekturlesingsprosessen. Fyll ut den første delen, ettersom korrekturlesing av din egen veiledning teller som en første validering:
+    - språk**: Språkkode for korrekturlesingen (for eksempel `fr`, `en`, osv.).
+    - siste_bidrag_dato**: Dagens dato.
+    - haster**: La stå tomt.
+    - contributors_id**: GitHub-ID-en din.
+    - belønning**: La stå tomt.
+
+Hvis du vil ha mer informasjon om professoridentifikatoren, kan du se den tilhørende veiledningen:
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Her er et eksempel på en ferdig `tutorial.yml`-fil for en opplæring om Blockstream Green-lommeboken:
+
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
-prosjekt_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
 tags:
-
-
-  - lommebøker
-  - programvare
-  - nøkler
-
-kategori: mobil
-
-nivå: nybegynner
-
-kreditter:
-
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
 professor: pretty-private
-
-# Korrekturlesing av metadata
-
+# Proofreading metadata
 original_language: fr
-
-korrekturlesing:
-
-
-  - språk: fr
-
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-det haster:
-
-bidragsytere_id:
-
-
-      - LoicPandul
-
-belønning:
+urgency: 1
+contributors_id:
+- LoicPandul
+reward: 0
+```
 
 Når du er ferdig med å endre filen `tutorial.yml`, lagrer du dokumentet ved å klikke på `File > Save`:
 
@@ -317,7 +304,7 @@ Vi begynner med å fylle ut `Properties`-delen øverst i dokumentet.
 
 Legg til og fyll inn følgende kodeblokk manuelt:
 
-```markdown
+```
 ---
 name: [Title]
 description: [Description]
@@ -332,7 +319,7 @@ Skriv inn navnet på opplæringen og en kort beskrivelse av den:
 
 Deretter legger du til banen til forsidebildet i begynnelsen av opplæringen. For å gjøre dette, merk:
 
-```markdown
+```
 ![cover-sparrow](assets/cover.webp)
 ```
 
@@ -362,7 +349,7 @@ Bildene dine må utelukkende være i `.webp`-format. Om nødvendig kan du bruke 
 
 For å sette inn et diagram i dokumentet bruker du følgende Markdown-kommando, og sørger for å angi riktig alternativ tekst samt riktig bane for bildet:
 
-```markdown
+```
 ![sparrow](assets/fr/01.webp)
 ```
 

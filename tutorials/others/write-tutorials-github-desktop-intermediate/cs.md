@@ -85,7 +85,7 @@ Nyní klikněte na tlačítko `Publikovat větev` a uložte novou pracovní vět
 
 ![TUTORIAL](assets/fr/10.webp)
 
-Nyní byste se měli na ploše GitHubu ocitnout v nové větvi. To znamená, že všechny změny provedené lokálně na vašem počítači budou uloženy výhradně v této konkrétní větvi. Dokud bude na ploše GitHub Desktop tato větev vybrána, budou soubory viditelné lokálně na vašem počítači odpovídat souborům této větve (`tuto-sparrow-wallet-loic`), a nikoli souborům hlavní větve (`dev`).
+Nyní byste se měli na ploše GitHubu ocitnout v nové větvi. To znamená, že všechny změny provedené lokálně na vašem počítači budou uloženy výhradně v této konkrétní větvi. Dokud bude tato větev na Ploše GitHub vybrána, budou také soubory viditelné lokálně na vašem počítači odpovídat souborům této větve (`tuto-sparrow-wallet-loic`), a nikoli souborům hlavní větve (`dev`).
 
 ![TUTORIAL](assets/fr/11.webp)
 
@@ -106,13 +106,13 @@ Chcete-li skript použít, přejděte do složky, kde je uložen. Skript se nach
 
 Po vložení do složky nainstalujte závislosti:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 Poté spusťte software příkazem:
 
-```bash
+```
 python3 main.py
 ```
 
@@ -197,7 +197,7 @@ Do této nové podsložky určené pro váš výukový program je třeba přidat
 
 Stručně shrnuto, zde je hierarchie souborů, které je třeba vytvořit:
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (to be modified with the correct category)
@@ -212,7 +212,7 @@ bitcoin-educational-content/
 
 Vyplňte soubor `tutorial.yml` zkopírováním následující šablony:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -232,68 +232,55 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Here are the details of the mandatory fields:
-- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
-- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
-- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
-- **level**: The difficulty level of the tutorial, among:
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
-- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
-- **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
-- **last_contribution_date**: Today's date.
-- **urgency**: Leave blank.
-- **contributors_id**: Your GitHub ID.
-- **reward**: Leave blank.
-For more details on your professor identifier, refer to the corresponding tutorial:
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
 ```
 
+Zde jsou uvedeny podrobnosti o povinných polích:
+
+
+- id**: UUID (_Universally Unique Identifier_), který slouží k jednoznačné identifikaci výukového programu. Můžete jej vygenerovat pomocí [online nástroje](https://www.uuidgenerator.net/version4). Jediným požadavkem je, aby tento UUID byl náhodný, aby nedošlo ke konfliktu s jiným UUID na platformě;
+- project_id**: UUID společnosti nebo organizace, která stojí za nástrojem prezentovaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Pokud například vytváříte výukový program o softwaru Sparrow Wallet, najdete toto `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Tato informace je přidána do souboru YAML vašeho výukového programu, protože síť Plan ₿ udržuje databázi všech společností a organizací působících v oblasti Bitcoinu nebo souvisejících projektů. Přidáním `project_id` subjektu souvisejícího s vaším tutoriálem vytvoříte spojení mezi těmito dvěma prvky;
+- tagy**: 2 nebo 3 relevantní klíčová slova související s obsahem výukového programu, vybraná výhradně [ze seznamu značek sítě Plan ₿](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- kategorie**: Podkategorie odpovídající obsahu výukového programu podle struktury webu sítě Plan ₿ (například pro peněženky: `desktop`, `hardware`, `mobil`, `zálohování`);
+- úroveň**: Úroveň obtížnosti výukového programu, mezi:
+    - `začátečník`
+    - `intermediate`
+    - `pokročilý`
+    - `expert`
+- profesor**: (slova BIP39), jak je zobrazeno na [vašem profilu profesora](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- original_language**: Původní jazyk výukového programu (například `fr`, `en` atd.);
+- korektury**: Informace o procesu korektur. Vyplňte první část, protože korektura vlastního výukového materiálu se počítá jako první ověření:
+    - jazyk**: Kód jazyka korektury (například `fr`, `en` atd.).
+    - last_contribution_date**: Dnešní datum.
+    - naléhavost**: Nevyplňujte.
+    - přispěvatelé_id**: Vaše GitHub ID.
+    - odměna**: Nevyplňujte.
+
+Další podrobnosti o identifikátoru profesora naleznete v příslušném výukovém kurzu:
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Zde je příklad vyplněného souboru `tutorial.yml` pro výukový program o peněžence Blockstream Green:
+
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-tagy:
-
-
-  - peněženky
-  - software
-  - klíče
-
-kategorie: mobilní zařízení
-
-úroveň: začátečník
-
-úvěry:
-
-profesor: pretty-private
-
-# Korektury metadat
-
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
 original_language: fr
-
-korektury:
-
-
-  - jazyk: fr
-
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-naléhavost:
-
-přispěvatelé_id:
-
-
-      - LoicPandul
-
-odměna:
+urgency: 1
+contributors_id:
+- LoicPandul
+reward: 0
+```
 
 Po dokončení úprav souboru `tutorial.yml` uložte dokument kliknutím na `Soubor > Uložit`:
 
@@ -317,7 +304,7 @@ Začneme vyplněním části `Vlastnosti` v horní části dokumentu.
 
 Ručně přidejte a vyplňte následující blok kódu:
 
-```markdown
+```
 ---
 name: [Title]
 description: [Description]
@@ -332,7 +319,7 @@ Vyplňte název výukového programu a jeho krátký popis:
 
 Na začátek výukového programu pak přidejte cestu k obrázku obálky. K tomu si poznamenejte:
 
-```markdown
+```
 ![cover-sparrow](assets/cover.webp)
 ```
 
@@ -362,7 +349,7 @@ Vaše obrázky musí být výhradně ve formátu `.webp`. V případě potřeby 
 
 Chcete-li do dokumentu vložit diagram, použijte následující příkaz Markdown a nezapomeňte zadat příslušný alternativní text a správnou cestu k obrázku:
 
-```markdown
+```
 ![sparrow](assets/fr/01.webp)
 ```
 

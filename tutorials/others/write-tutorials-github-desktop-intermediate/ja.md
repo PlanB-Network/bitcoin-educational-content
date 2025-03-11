@@ -106,13 +106,13 @@ Fetch origin` ボタンをクリックします。ローカルリポジトリが
 
 フォルダに入ったら、依存関係をインストールする：
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 次に、コマンドでソフトウェアを起動する：
 
-```bash
+```
 python3 main.py
 ```
 
@@ -197,7 +197,7 @@ wallet`フォルダの中に、チュートリアル専用の新しいディレ�
 
 まとめると、作成するファイルの階層は以下のようになる：
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (to be modified with the correct category)
@@ -212,7 +212,7 @@ bitcoin-educational-content/
 
 以下のテンプレートをコピーして `tutorial.yml` ファイルを埋める：
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -232,68 +232,55 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Here are the details of the mandatory fields:
-- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
-- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
-- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
-- **level**: The difficulty level of the tutorial, among:
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
-- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
-- **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
-- **last_contribution_date**: Today's date.
-- **urgency**: Leave blank.
-- **contributors_id**: Your GitHub ID.
-- **reward**: Leave blank.
-For more details on your professor identifier, refer to the corresponding tutorial:
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
 ```
 
+以下は必須項目の詳細である：
+
+
+- id**：チュートリアルを一意に識別するための UUID (_Universally Unique Identifier_) です。オンラインツール](https://www.uuidgenerator.net/version4) で生成できます。唯一の要件は、プラットフォーム上の他のUUIDとの衝突を避けるために、このUUIDがランダムであることです；
+- project_id**：チュートリアルで紹介するツールの会社または組織の UUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例えば、Sparrow Walletソフトウェアのチュートリアルを作成する場合、この`project_id`は以下のファイルにあります：bitcoin-educational-content/resources/projects/sparrow/project.yml`。この情報がチュートリアルの YAML ファイルに追加されるのは、Plan ↪Sc_20BF がビットコインや関連プロジェクトで活動しているすべての企業や組織のデータベースを管理しているからです。チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素の間にリンクが作成されます；
+- タグ**：Plan ₿ Networkのタグリストから](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)、チュートリアルの内容に関連するキーワードを2～3個選んでください；
+- カテゴリー**：カテゴリ**: Plan ȏ Networkサイトの構造に従って、チュートリアルの内容に対応するサブカテゴリ（例：財布の場合、`デスクトップ`、`ハードウェア`、`モバイル`、`バックアップ`）；
+- レベル**：チュートリアルの難易度：
+    - 初心者
+    - 中級
+    - 上級者向け
+    - エキスパート
+- professor**：あなたの教授プロフィール](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors)に表示されているあなたの`contributor_id` (BIP39ワード)；
+- original_language**：チュートリアルの元の言語 (例 `fr`、`en` など)；
+- 校正**：校正プロセスに関する情報。自分自身のチュートリアルの校正は最初の検証としてカウントされますので、最初の部分を記入してください：
+    - language**：校正の言語コード（例えば `fr`、`en` など）。
+    - last_contribution_date**：今日の日付。
+    - 緊急度**：空欄のまま
+    - contributors_id**：あなたの GitHub ID。
+    - 報酬**：空白のままにする。
+
+教授識別子の詳細については、対応するチュートリアルを参照してください：
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+以下は、Blockstream Green ウォレットのチュートリアル用に完成した `tutorial.yml` ファイルの例です：
+
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
-プロジェクトID3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-のタグがある：
-
-
-  - 財布
-  - ソフトウェア
-  - キー
-
-category:モバイル
-
-レベル：初心者
-
-のクレジットがある：
-
-教授：プリティ・プライベート
-
-# メタデータの校正
-
-原語: fr
-
-校正：
-
-
-  - 言語: fr
-
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
+original_language: fr
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-急を要する：
-
-contributors_id：
-
-
-      - ロイック・パンドゥル
-
-報奨金だ：
+urgency: 1
+contributors_id:
+- LoicPandul
+reward: 0
+```
 
 tutorial.yml`ファイルの修正が終わったら、`File > Save`をクリックしてドキュメントを保存してください：
 
@@ -317,7 +304,7 @@ tutorial.yml`ファイルの修正が終わったら、`File > Save`をクリッ
 
 以下のコードブロックを手動で追加し、記入する：
 
-```markdown
+```
 ---
 name: [Title]
 description: [Description]
@@ -330,9 +317,9 @@ description: [Description]
 
 ![TUTO](assets/fr/22.webp)
 
-次に、チュートリアルの冒頭にカバー画像のパスを追加します。これを行うには
+次に、チュートリアルの冒頭にカバー画像のパスを追加します。そのためには
 
-```markdown
+```
 ![cover-sparrow](assets/cover.webp)
 ```
 
@@ -362,7 +349,7 @@ assets`フォルダ内のlanguageサブフォルダは、チュートリアル�
 
 ドキュメントに図を挿入するには、以下のMarkdownコマンドを使用し、適切な代替テキストと画像の正しいパスを指定してください：
 
-```markdown
+```
 ![sparrow](assets/fr/01.webp)
 ```
 
@@ -377,7 +364,7 @@ assets`フォルダ内のlanguageサブフォルダは、チュートリアル�
  - ブラック#000000
  - 白：白：#FFFFFFF
 
-**チュートリアルに組み込むすべてのビジュアルは、権利フリーであるか、ソースファイルのライセンスを尊重することが必須です**。また、Plan ₿ Networkで公開されているすべての図は、テキストと同様にCC-BY-SAライセンスの下で利用可能です。
+**チュートリアルに組み込まれるすべてのビジュアルは、権利フリーであるか、ソースファイルのライセンスを尊重することが必須です**。また、Plan ₿ Networkで公開されているすべての図は、テキストと同様にCC-BY-SAライセンスの下で利用可能です。
 
 **-> ヒント：*** 画像などのファイルを公に共有する場合、不要なメタデータを削除することが重要です。メタデータには、位置情報、作成日、作者の情報など、機密情報が含まれていることがあります。プライバシーを守るためにも、このメタデータは削除することをお勧めします。このプロセスを簡素化するには、[Exif Cleaner](https://exifcleaner.com/)のような専用ツールを使用することができます。このツールを使用すると、簡単なドラッグ＆ドロップ操作でドキュメントのメタデータをクリーニングすることができます。
 

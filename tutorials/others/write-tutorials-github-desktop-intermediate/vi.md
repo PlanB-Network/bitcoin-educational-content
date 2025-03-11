@@ -106,13 +106,13 @@ Bạn cần cài đặt trên máy của mình:
 
 Khi đã vào thư mục, hãy cài đặt các phần phụ thuộc:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 Sau đó khởi chạy phần mềm bằng lệnh:
 
-```bash
+```
 python3 main.py
 ```
 
@@ -161,7 +161,7 @@ Chọn tên cho thư mục được tạo riêng cho hướng dẫn của bạn.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Đối với thẻ, hãy chọn 2 hoặc 3 từ khóa có liên quan đến nội dung hướng dẫn của bạn, chọn độc quyền từ [danh sách thẻ Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Phần mềm này cũng cung cấp chức năng tìm kiếm từ khóa với danh sách thả xuống.
+Đối với thẻ, hãy chọn 2 hoặc 3 từ khóa có liên quan đến nội dung hướng dẫn của bạn, chỉ chọn từ [danh sách thẻ Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Phần mềm này cũng cung cấp chức năng tìm kiếm từ khóa với danh sách thả xuống.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -197,7 +197,7 @@ Trong thư mục con mới này dành riêng cho phần hướng dẫn của b�
 
 Tóm lại, đây là hệ thống phân cấp các tệp cần tạo:
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (to be modified with the correct category)
@@ -212,7 +212,7 @@ bitcoin-educational-content/
 
 Điền vào tệp `tutorial.yml` bằng cách sao chép mẫu sau:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -232,68 +232,55 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Here are the details of the mandatory fields:
-- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
-- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
-- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
-- **level**: The difficulty level of the tutorial, among:
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
-- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
-- **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
-- **last_contribution_date**: Today's date.
-- **urgency**: Leave blank.
-- **contributors_id**: Your GitHub ID.
-- **reward**: Leave blank.
-For more details on your professor identifier, refer to the corresponding tutorial:
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
 ```
 
+Sau đây là thông tin chi tiết về các trường bắt buộc:
+
+
+- id**: UUID (_Universally Unique Identifier_) để nhận dạng duy nhất hướng dẫn. Bạn có thể tạo nó bằng [một công cụ trực tuyến](https://www.uuidgenerator.net/version4). Yêu cầu duy nhất là UUID này phải ngẫu nhiên để tránh xung đột với UUID khác trên nền tảng;
+- project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ: nếu bạn đang tạo hướng dẫn về phần mềm Sparrow Wallet, bạn có thể tìm thấy `project_id` này trong tệp sau: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Network duy trì cơ sở dữ liệu của tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên quan đến hướng dẫn của bạn, bạn tạo liên kết giữa hai phần tử;
+- thẻ**: 2 hoặc 3 từ khóa có liên quan đến nội dung hướng dẫn, được chọn riêng [từ danh sách thẻ của Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- category**: Tiểu thể loại tương ứng với nội dung của hướng dẫn, theo cấu trúc của trang web Plan ₿ Network (ví dụ đối với ví: `desktop`, `hardware`, `mobile`, `backup`);
+- level**: Mức độ khó của phần hướng dẫn, trong số:
+    - `người mới bắt đầu`
+    - `trung gian`
+    - `nâng cao`
+    - `chuyên gia`
+- giáo sư**: `contributor_id` của bạn (BIP39 từ) như được hiển thị trên [hồ sơ giáo sư của bạn](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- original_language**: Ngôn ngữ gốc của hướng dẫn (ví dụ `fr`, `en`, v.v.);
+- soát lỗi**: Thông tin về quá trình soát lỗi. Điền vào phần đầu tiên, vì việc soát lỗi hướng dẫn của riêng bạn được tính là xác thực đầu tiên:
+    - language**: Mã ngôn ngữ của bản hiệu đính (ví dụ `fr`, `en`, v.v.).
+    - last_contribution_date**: Ngày hôm nay.
+    - mức độ khẩn cấp**: Để trống.
+    - contributors_id**: ID GitHub của bạn.
+    - phần thưởng**: Để trống.
+
+Để biết thêm chi tiết về mã định danh giáo sư của bạn, hãy tham khảo hướng dẫn tương ứng:
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Sau đây là ví dụ về tệp `tutorial.yml` đã hoàn thành cho hướng dẫn về ví Blockstream Green:
+
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
-dự án_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-thẻ:
-
-
-  - ví
-  - phần mềm
-  - chìa khóa
-
-thể loại: di động
-
-trình độ: người mới bắt đầu
-
-tín dụng:
-
-giáo sư: khá riêng tư
-
-# Kiểm tra siêu dữ liệu
-
-ngôn ngữ gốc: fr
-
-hiệu đính:
-
-
-  - ngôn ngữ: fr
-
-ngày đóng góp cuối cùng: 2024-11-20
-
-tính cấp bách:
-
-người đóng góp_id:
-
-
-      - LoicPandul
-
-phần thưởng:
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
+original_language: fr
+proofreading:
+- language: fr
+last_contribution_date: 2024-11-20
+urgency: 1
+contributors_id:
+- LoicPandul
+reward: 0
+```
 
 Sau khi hoàn tất việc sửa đổi tệp `tutorial.yml`, hãy lưu tài liệu của bạn bằng cách nhấp vào `File > Save`:
 
@@ -317,7 +304,7 @@ Chúng ta sẽ bắt đầu bằng cách điền vào phần `Thuộc tính` ở
 
 Thêm và điền thủ công khối mã sau:
 
-```markdown
+```
 ---
 name: [Title]
 description: [Description]
@@ -332,7 +319,7 @@ description: [Description]
 
 Sau đó, thêm đường dẫn của ảnh bìa vào đầu hướng dẫn của bạn. Để thực hiện việc này, hãy lưu ý:
 
-```markdown
+```
 ![cover-sparrow](assets/cover.webp)
 ```
 
@@ -362,7 +349,7 @@ Hình ảnh của bạn phải ở định dạng `.webp`. Nếu cần, bạn c�
 
 Để chèn sơ đồ vào tài liệu, hãy sử dụng lệnh Markdown sau, đảm bảo chỉ định văn bản thay thế phù hợp cũng như đường dẫn chính xác của hình ảnh:
 
-```markdown
+```
 ![sparrow](assets/fr/01.webp)
 ```
 

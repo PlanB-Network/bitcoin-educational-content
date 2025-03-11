@@ -47,7 +47,7 @@ Pré-requisitos antes de iniciar o tutorial:
 Se precisar de ajuda para obter estes pré-requisitos, os meus outros tutoriais ajudá-lo-ão:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
-Quando tudo estiver no lugar e o seu ambiente local estiver devidamente configurado com o seu próprio fork do Plan ₿ Network, pode começar a adicionar o tutorial.
+Assim que tudo estiver no lugar e o seu ambiente local estiver devidamente configurado com o seu próprio fork do Plan ₿ Network, pode começar a adicionar o tutorial.
 
 ## 1 - Criar uma nova sucursal
 
@@ -106,13 +106,13 @@ Para utilizar o script, navegue para a pasta onde está armazenado. O script est
 
 Uma vez na pasta, instale as dependências:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 Em seguida, inicie o software com o comando:
 
-```bash
+```
 python3 main.py
 ```
 
@@ -165,7 +165,7 @@ Para as etiquetas, selecione 2 ou 3 palavras-chave relevantes relacionadas com o
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
-Quando todas as informações tiverem sido introduzidas e verificadas, clique em "Criar tutorial" para confirmar a criação dos seus ficheiros de tutorial. Isto irá gerar localmente a pasta do seu tutorial e todos os ficheiros necessários na categoria selecionada.
+Quando todas as informações tiverem sido introduzidas e verificadas, clique em "Criar tutorial" para confirmar a criação dos seus ficheiros de tutorial. Isto irá gerar localmente a sua pasta de tutorial e todos os ficheiros necessários na categoria selecionada.
 
 ![DATA-CREATOR-PY](assets/fr/48.webp)
 
@@ -191,13 +191,13 @@ Nesta nova subpasta dedicada ao seu tutorial, é necessário adicionar vários e
 - Crie uma pasta `assets`, destinada a receber todas as ilustrações necessárias para o seu tutorial;
 - Dentro desta pasta `assets`, é necessário criar uma subpasta nomeada de acordo com o código do idioma original do tutorial. Por exemplo, se o tutorial está escrito em inglês, esta subpasta deve ser nomeada `en`. Coloque aí todos os elementos visuais do tutorial (diagramas, imagens, capturas de ecrã, etc.).
 - Um arquivo `tutorial.yml` deve ser criado para registrar os detalhes relacionados ao seu tutorial;
-- Deve ser criado um ficheiro de formato markdown para escrever o conteúdo real do seu tutorial. Este ficheiro deve ser intitulado de acordo com o código da língua em que foi escrito. Por exemplo, para um tutorial escrito em francês, o ficheiro deve ser chamado `fr.md`.
+- Deve ser criado um ficheiro de formato markdown para escrever o conteúdo real do seu tutorial. Este ficheiro deve ser intitulado de acordo com o código da língua em que foi escrito. Por exemplo, para um tutorial escrito em francês, o ficheiro deve chamar-se `fr.md`.
 
 ![TUTO](assets/fr/14.webp)
 
 Para resumir, eis a hierarquia dos ficheiros a criar:
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (to be modified with the correct category)
@@ -212,7 +212,7 @@ bitcoin-educational-content/
 
 Preencha o ficheiro `tutorial.yml` copiando o seguinte modelo:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -232,68 +232,55 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Here are the details of the mandatory fields:
-- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
-- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
-- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
-- **level**: The difficulty level of the tutorial, among:
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
-- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
-- **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
-- **last_contribution_date**: Today's date.
-- **urgency**: Leave blank.
-- **contributors_id**: Your GitHub ID.
-- **reward**: Leave blank.
-For more details on your professor identifier, refer to the corresponding tutorial:
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
 ```
 
+Eis os pormenores dos campos obrigatórios:
+
+
+- id**: Um UUID (_Universally Unique Identifier_) para identificar exclusivamente o tutorial. Pode gerá-lo com [uma ferramenta em linha] (https://www.uuidgenerator.net/version4). O único requisito é que este UUID seja aleatório para evitar conflitos com outro UUID na plataforma;
+- project_id**: O UUID da empresa ou organização por detrás da ferramenta apresentada no tutorial [da lista de projectos] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, se estiver a criar um tutorial sobre o software Sparrow Wallet, pode encontrar este `project_id` no seguinte ficheiro: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Esta informação é adicionada ao arquivo YAML do seu tutorial porque o Plan ₿ Network mantém um banco de dados de todas as empresas e organizações que operam em Bitcoin ou projetos relacionados. Ao adicionar o `project_id` da entidade relacionada ao seu tutorial, você cria um link entre os dois elementos;
+- tags**: 2 ou 3 palavras-chave relevantes relacionadas com o conteúdo do tutorial, escolhidas exclusivamente [da lista de etiquetas do Plano ₿ Rede] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- categoria**: A subcategoria correspondente ao conteúdo do tutorial, de acordo com a estrutura do site da Rede Plan ₿ (por exemplo, para carteiras: `desktop`, `hardware`, `mobile`, `backup`);
+- level**: O nível de dificuldade do tutorial, entre:
+    - `iniciante`
+    - `intermédio`
+    - `avançado`
+    - "especialista
+- professor**: O seu `contributor_id` (palavras BIP39) tal como aparece no [perfil do professor] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- original_language**: A língua original do tutorial (por exemplo, `fr`, `en`, etc.);
+- revisão**: Informações sobre o processo de revisão. Preencher a primeira parte, uma vez que a revisão do seu próprio tutorial conta como uma primeira validação:
+    - língua**: Código da língua da revisão de provas (por exemplo, `fr`, `en`, etc.).
+    - last_contribution_date**: A data de hoje.
+    - urgência**: Deixar em branco.
+    - contributors_id**: O seu ID do GitHub.
+    - recompensa**: Deixar em branco.
+
+Para mais informações sobre o identificador do professor, consulte o tutorial correspondente:
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Aqui está um exemplo de um arquivo `tutorial.yml` completo para um tutorial sobre a carteira Blockstream Green:
+
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
 tags:
-
-
-  - carteiras
-  - software
-  - chaves
-
-categoria: telemóvel
-
-nível: principiante
-
-créditos:
-
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
 professor: pretty-private
-
-# Revisão de metadados
-
-língua_original: fr
-
-revisão de provas:
-
-
-  - língua: fr
-
+# Proofreading metadata
+original_language: fr
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-urgência:
-
-contribuintes_id:
-
-
-      - LoicPandul
-
-recompensa:
+urgency: 1
+contributors_id:
+- LoicPandul
+reward: 0
+```
 
 Quando tiver terminado de modificar seu arquivo `tutorial.yml`, salve seu documento clicando em `Arquivo > Salvar`:
 
@@ -317,7 +304,7 @@ Vamos começar por preencher a secção `Propriedades` no topo do documento.
 
 Adicionar manualmente e preencher o seguinte bloco de código:
 
-```markdown
+```
 ---
 name: [Title]
 description: [Description]
@@ -332,7 +319,7 @@ Preencha o nome do seu tutorial e uma breve descrição do mesmo:
 
 Em seguida, adicione o caminho da imagem de capa no início do seu tutorial. Para fazer isso, observe:
 
-```markdown
+```
 ![cover-sparrow](assets/cover.webp)
 ```
 
@@ -350,7 +337,7 @@ Continue a escrever o seu tutorial, redigindo o seu conteúdo. Quando quiser int
 
 ![TUTO](assets/fr/24.webp)
 
-A subpasta de idiomas na pasta `assets` é utilizada para armazenar diagramas e imagens que acompanharão o seu tutorial. Tanto quanto possível, evite incluir texto nas suas imagens para tornar o seu conteúdo acessível a um público internacional. Naturalmente, o software apresentado conterá texto, mas se acrescentar diagramas ou indicações adicionais nas imagens de ecrã do software, faça-o sem texto ou, se for indispensável, utilize o inglês.
+A subpasta de idiomas na pasta `assets` é utilizada para armazenar diagramas e imagens que acompanharão o seu tutorial. Tanto quanto possível, evite incluir texto nas suas imagens para tornar o seu conteúdo acessível a um público internacional. Naturalmente, o software apresentado conterá texto, mas se adicionar diagramas ou indicações adicionais nas imagens de ecrã do software, faça-o sem texto ou, se for indispensável, utilize o inglês.
 
 ![TUTO](assets/fr/25.webp)
 
@@ -362,7 +349,7 @@ As suas imagens devem estar exclusivamente no formato `.webp`. Se necessário, p
 
 Para inserir um diagrama no seu documento, utilize o seguinte comando Markdown, certificando-se de que especifica o texto alternativo adequado, bem como o caminho correto da imagem:
 
-```markdown
+```
 ![sparrow](assets/fr/01.webp)
 ```
 
@@ -379,7 +366,7 @@ Se pretender criar os seus próprios diagramas, certifique-se de que segue a car
 
 **É imperativo que todos os elementos visuais integrados nos seus tutoriais estejam isentos de direitos ou respeitem a licença do ficheiro de origem**. Além disso, todos os diagramas publicados na Plan ₿ Network são disponibilizados ao abrigo da licença CC-BY-SA, da mesma forma que o texto.
 
-**-> Dica:** Ao partilhar ficheiros publicamente, tais como imagens, é importante remover quaisquer metadados desnecessários. Estes podem conter informações sensíveis, como dados de localização, datas de criação ou detalhes sobre o autor. Para proteger a sua privacidade, é aconselhável eliminar estes metadados. Para simplificar este processo, pode utilizar ferramentas especializadas como o [Exif Cleaner] (https://exifcleaner.com/), que permite a limpeza dos metadados de um documento através de um simples arrastar e largar.
+**-> Dica:** Ao partilhar ficheiros publicamente, como imagens, é importante remover quaisquer metadados desnecessários. Estes podem conter informações sensíveis, como dados de localização, datas de criação ou detalhes sobre o autor. Para proteger a sua privacidade, é aconselhável eliminar estes metadados. Para simplificar este processo, pode utilizar ferramentas especializadas como o [Exif Cleaner] (https://exifcleaner.com/), que permite a limpeza dos metadados de um documento através de um simples arrastar e largar.
 
 ## 7 - Guardar e enviar o tutorial
 
@@ -432,7 +419,7 @@ No software GitHub Desktop, você pode voltar para o branch principal da sua bif
 Se pretender alterar a sua contribuição depois de já ter apresentado o seu RP, o procedimento depende do estado atual do seu RP:
 
 
-- Se o seu PR ainda estiver aberto e ainda não tiver sido mesclado, faça as alterações localmente enquanto permanece no mesmo ramo. Assim que as modificações forem finalizadas, use o botão `Push origin` para adicionar um novo commit ao seu PR ainda aberto;
+- Se o seu PR ainda estiver aberto e ainda não tiver sido mesclado, faça as alterações localmente enquanto permanece no mesmo ramo. Quando as modificações estiverem finalizadas, use o botão `Push origin` para adicionar um novo commit ao seu PR ainda aberto;
 - Se o seu PR já tiver sido mesclado com o ramo principal, será necessário iniciar o processo novamente criando um novo ramo e, em seguida, enviando um novo PR. Certifique-se de que o seu repositório local está sincronizado com o repositório de origem Plan ₿ Network antes de continuar.
 
 Se tiveres dificuldades técnicas para enviar o teu tutorial, não hesites em pedir ajuda no [nosso grupo de Telegrama dedicado às contribuições] (https://t.me/PlanBNetwork_ContentBuilder). Obrigado!

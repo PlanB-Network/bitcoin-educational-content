@@ -11,7 +11,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 
 
 - 选择教程主题；
-- 通过 [Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder) 或 paolo@planb.network 与 Plan ₿ Network 团队联系；
+- 通过[Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder) 或 paolo@planb.network 与 Plan ₿ Network 团队联系；
 - 选择您的贡献工具。
 
 在本教程中，我们将了解如何通过 GitHub Desktop 设置本地环境，在 Plan ₿ Network 上添加自己的教程。如果你已经熟练掌握 Git，可能就没必要看这么详细的教程了。我建议您参考另一篇教程，其中只介绍了主要指南，没有详细的分步指导：
@@ -85,7 +85,7 @@ https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b
 
 ![TUTORIAL](assets/fr/10.webp)
 
-现在，在 GitHub 桌面上，你应该能找到自己的新分支。这意味着你在本地电脑上所做的所有改动都将保存在这个分支上。此外，只要在 GitHub 桌面上选中该分支，在本地计算机上可见的文件就是该分支 (`tuto-sprow-wallet-loic`)的文件，而不是主分支 (`dev`)的文件。
+现在，在 GitHub 桌面上，你应该能找到自己的新分支。这意味着你在本地电脑上所做的所有改动都将保存在这个分支上。此外，只要在 GitHub 桌面上选中该分支，在本地计算机上可见的文件就会是该分支（`tuto-sprow-wallet-loic`）的文件，而不是主分支（`dev`）的文件。
 
 ![TUTORIAL](assets/fr/11.webp)
 
@@ -106,13 +106,13 @@ https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b
 
 进入文件夹后，安装依赖项：
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 然后使用命令启动软件：
 
-```bash
+```
 python3 main.py
 ```
 
@@ -197,7 +197,7 @@ project_id "是教程中涉及的工具背后的公司或组织的 UUID，可在
 
 概括地说，要创建的文件层次如下：
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (to be modified with the correct category)
@@ -212,7 +212,7 @@ bitcoin-educational-content/
 
 复制以下模板，填写 `tutorial.yml` 文件：
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -232,68 +232,55 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Here are the details of the mandatory fields:
-- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
-- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
-- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
-- **level**: The difficulty level of the tutorial, among:
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
-- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
-- **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
-- **last_contribution_date**: Today's date.
-- **urgency**: Leave blank.
-- **contributors_id**: Your GitHub ID.
-- **reward**: Leave blank.
-For more details on your professor identifier, refer to the corresponding tutorial:
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
 ```
 
+以下是必填字段的详细信息：
+
+
+- id**：UUID（通用唯一标识符），用于唯一标识教程。您可以使用[在线工具](https://www.uuidgenerator.net/version4)生成它。唯一的要求是该 UUID 必须是随机的，以避免与平台上的其他 UUID 冲突；
+- project_id**：教程中介绍的工具背后的公司或组织的 UUID[来自项目列表](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您要创建 Sparrow 钱包软件教程，您可以在以下文件中找到此 `project_id`：bitcoin-educational-content/resources/projects/sparrow/project.yml`。将此信息添加到您的教程的 YAML 文件中，是因为 Plan ₿ Network 维护着一个所有在比特币或相关项目上运营的公司和组织的数据库。通过添加与您的教程相关的实体的`project_id`，您就在这两个元素之间创建了一个链接；
+- 标签**：从 Plan ₿ Network 的标签列表中](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)专门选择 2 或 3 个与教程内容相关的关键词；
+- 类别**：根据计划₿ 网络站点的结构，与教程内容相对应的子类别（例如钱包："桌面"、"硬件"、"移动"、"备份"）；
+- 级别**：教程的难度级别：
+    - 初学者
+    - 中级
+    - 高级
+    - 专家
+- 教授**：您在[您的教授简介](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors)中显示的 "贡献者 ID"（BIP39 字样）；
+- original_language**：教程的原始语言（例如`fr`、`en`等）；
+- 校对**：有关校对过程的信息。填写第一部分，因为校对自己的教程算作第一次验证：
+    - language**：校对语言代码（如`fr`、`en`等）。
+    - last_contribution_date**：今天的日期。
+    - 紧迫性**：留空。
+    - contributors_id**：您的 GitHub ID。
+    - 奖励**：留空。
+
+有关教授标识符的详细信息，请参阅相应的教程：
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+下面是一个完成的`tutorial.yml`文件示例，用于介绍Blockstream绿色钱包：
+
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
-project_id：3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-标签
-
-
-  - 钱包
-  - 软件
-  - 钥匙
-
-类别：移动
-
-级别：初级
-
-学分
-
-教授：pretty-private
-
-# 校对元数据
-
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
 original_language: fr
-
-校对：
-
-
-  - 语言：法语
-
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-紧迫性：
-
-贡献者_id：
-
-
-      - LoicPandul
-
-奖励：
+urgency: 1
+contributors_id:
+- LoicPandul
+reward: 0
+```
 
 完成对 `tutorial.yml` 文件的修改后，单击 `File > Save` 保存文档：
 
@@ -311,13 +298,13 @@ last_contribution_date: 2024-11-20
 
 ![TUTO](assets/fr/19.webp)
 
-我们将首先填写文件顶部的 "属性 "部分。
+我们首先要填写文件顶部的 "属性 "部分。
 
 ![TUTO](assets/fr/20.webp)
 
 手动添加并填写以下代码块：
 
-```markdown
+```
 ---
 name: [Title]
 description: [Description]
@@ -332,17 +319,17 @@ description: [Description]
 
 然后，在教程开头添加封面图像的路径。为此，请注意
 
-```markdown
+```
 ![cover-sparrow](assets/cover.webp)
 ```
 
-如果需要在教程中添加图片，该语法将非常有用。感叹号表示这是一张图片，括号之间指定了备选文本 (alt)。括号之间表示图片的路径：
+如果需要在教程中添加图片，该语法将非常有用。感叹号表示这是一张图片，在括号之间指定了备选文本 (alt)。括号之间表示图片的路径：
 
 ![TUTO](assets/fr/23.webp)
 
 ## 5 - 添加徽标和封面
 
-您必须在`assets`文件夹中添加一个名为`logo.webp`的文件，它将作为您文章的缩略图。该图片必须为 `.webp`格式，尺寸必须为正方形，以便与用户界面相协调。您可以自由选择教程中涉及的软件的徽标或任何其他相关图片，但必须是无版权的。此外，还请在同一位置添加名为 "cover.webp "的图片。该图片将显示在教程的顶部。确保该图片与徽标一样，尊重使用权并适合教程的上下文：
+您必须在`assets`文件夹中添加一个名为`logo.webp`的文件，它将作为您文章的缩略图。该图片必须为`.webp`格式，尺寸必须为正方形，以便与用户界面相协调。您可以自由选择教程中涉及的软件的徽标或任何其他相关图片，但必须是无版权的。此外，还请在同一位置添加名为 "cover.webp "的图片。该图片将显示在教程的顶部。确保该图片与徽标一样，尊重使用权并适合教程的上下文：
 
 ## 6 - 编写教程并添加视觉效果
 
@@ -360,9 +347,9 @@ assets "文件夹中的语言子文件夹用于存储教程中的图表和视觉
 
 ![TUTO](assets/fr/26.webp)
 
-要在文档中插入图表，请使用以下 Markdown 命令，确保指定适当的替代文本以及正确的图像路径：
+要在文档中插入图表，请使用以下 Markdown 命令，确保指定适当的替代文本以及正确的图片路径：
 
-```markdown
+```
 ![sparrow](assets/fr/01.webp)
 ```
 
@@ -374,7 +361,7 @@ assets "文件夹中的语言子文件夹用于存储教程中的图表和视觉
 - 字体**：使用 [Rubik](https://fonts.google.com/specimen/Rubik)；
 - 颜色**：
  - 橙色#FF5C00
- - 黑色#000000
+ - 黑色：#000000
  - 白色#FFFFFF
 
 **在您的教程中集成的所有视觉效果必须是无版权或尊重源文件许可的**。此外，在 Plan ₿ Network 上发布的所有图表均采用 CC-BY-SA 许可，与文本相同。
@@ -399,7 +386,7 @@ assets "文件夹中的语言子文件夹用于存储教程中的图表和视觉
 
 ![TUTO](assets/fr/30.webp)
 
-如果您还没有完成您的教程，您可以稍后再回来做新的提交。如果您已经完成了对该分支的修改，请单击 "预览 Pull Request "按钮：
+如果您还没有完成您的教程，您可以稍后再回来做新的提交。如果您已完成对该分支的修改，请单击 "预览 Pull Request "按钮：
 
 ![TUTO](assets/fr/31.webp)
 
@@ -421,7 +408,7 @@ assets "文件夹中的语言子文件夹用于存储教程中的图表和视觉
 
 ![TUTO](assets/fr/35.webp)
 
-在您的 PR 与主分支合并后，建议删除您的工作分支 (`tuto-sprow-wallet`)，以保持您的分叉历史的完整性。GitHub 会在您的 PR 页面自动提供该选项：
+在您的 PR 与主分支合并后，建议删除您的工作分支 (`tuto-sprow-wallet`)，以保持您的分叉上的历史清白。GitHub 会在您的 PR 页面自动提供该选项：
 
 ![TUTO](assets/fr/36.webp)
 

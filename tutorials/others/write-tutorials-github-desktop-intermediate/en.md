@@ -100,13 +100,13 @@ To use the script, navigate to the folder where it is stored. The script is loca
 
 Once in the folder, install the dependencies:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 Then launch the software with the command:
 
-```bash
+```
 python3 main.py
 ```
 
@@ -190,7 +190,7 @@ In this new sub-folder dedicated to your tutorial, several elements need to be a
 
 To summarize, here is the hierarchy of files to create:
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
     └── wallet/ (to be modified with the correct category)
@@ -205,7 +205,7 @@ bitcoin-educational-content/
 
 Fill in the `tutorial.yml` file by copying the following template:
 
-```yaml
+```
 id: 
 
 project_id: 
@@ -232,7 +232,7 @@ proofreading:
     contributors_id:
       - 
     reward:
-````
+```
 
 Here are the details of the mandatory fields:
 
@@ -267,7 +267,7 @@ https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9b
 
 Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
 
-```yaml
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
 
@@ -289,10 +289,11 @@ original_language: fr
 proofreading:
   - language: fr
     last_contribution_date: 2024-11-20
-    urgency:
+    urgency: 1
     contributors_id:
       - LoicPandul
-    reward:
+    reward: 0
+```
 
 Once you have finished modifying your `tutorial.yml` file, save your document by clicking on `File > Save`:
 
@@ -316,7 +317,7 @@ We will start by filling in the `Properties` section at the top of the document.
 
 Manually add and fill in the following code block:
 
-```markdown
+```
 ---
 name: [Title]
 description: [Description]
@@ -331,7 +332,7 @@ Fill in the name of your tutorial and a short description of it:
 
 Then, add the path of the cover image at the beginning of your tutorial. To do this, note:
 
-```markdown
+```
 ![cover-sparrow](assets/cover.webp)
 ```
 
@@ -360,7 +361,7 @@ Your images must be in `.webp` format exclusively. If needed, you can use [my im
 
 To insert a diagram into your document, use the following Markdown command, making sure to specify the appropriate alternative text as well as the correct path of the image:
 
-```markdown
+```
 ![sparrow](assets/fr/01.webp)
 ```
 

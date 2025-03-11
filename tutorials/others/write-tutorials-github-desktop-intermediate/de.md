@@ -106,13 +106,13 @@ Um das Skript zu verwenden, navigieren Sie zu dem Ordner, in dem es gespeichert 
 
 Installieren Sie die Abhängigkeiten, sobald sie sich im Ordner befinden:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 Starten Sie dann die Software mit dem Befehl:
 
-```bash
+```
 python3 main.py
 ```
 
@@ -157,7 +157,7 @@ Wählen Sie einen Namen für das Verzeichnis, das speziell für Ihr Lernprogramm
 
 Die `project_id` ist die UUID des Unternehmens oder der Organisation, die hinter dem im Tutorium behandelten Tool steht, verfügbar [in der Liste der Projekte] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Zum Beispiel, für ein Tutorial über Sparrow Wallet, können Sie die `project_id` in der Datei finden: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Diese Information wird der YAML-Datei Ihres Tutorials hinzugefügt, weil das Plan ₿ Network eine Datenbank von Unternehmen und Organisationen unterhält, die in Bitcoin oder verwandten Projekten aktiv sind. Indem Sie die zugehörige `project_id` hinzufügen, verknüpfen Sie Ihren Inhalt mit der relevanten Entität.
 
-***Update:*** In der neuen Version des Skripts müssen Sie die `Projekt_id` nicht mehr manuell eingeben. Es wurde eine Suchfunktion hinzugefügt, um das Projekt anhand des Namens zu finden und automatisch die entsprechende "project_id" abzurufen. Geben Sie den Anfang des Projektnamens in das Feld "Projektname" ein, um nach dem Projekt zu suchen, und wählen Sie dann das gewünschte Unternehmen aus dem Dropdown-Menü aus. Die "project_id" wird automatisch in das Feld darunter eingetragen. Sie können sie bei Bedarf auch manuell eingeben.
+***Update:*** In der neuen Version des Skripts müssen Sie die "project_id" nicht mehr manuell eingeben. Es wurde eine Suchfunktion hinzugefügt, um das Projekt anhand des Namens zu finden und automatisch die entsprechende "project_id" abzurufen. Geben Sie den Anfang des Projektnamens in das Feld "Projektname" ein, um nach dem Projekt zu suchen, und wählen Sie dann das gewünschte Unternehmen aus dem Dropdown-Menü aus. Die "project_id" wird automatisch in das Feld darunter eingetragen. Sie können sie bei Bedarf auch manuell eingeben.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
@@ -197,7 +197,7 @@ In diesem neuen Unterordner, der Ihrem Lehrgang gewidmet ist, müssen mehrere El
 
 Zusammenfassend lässt sich die Hierarchie der zu erstellenden Dateien wie folgt darstellen:
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (to be modified with the correct category)
@@ -212,7 +212,7 @@ bitcoin-educational-content/
 
 Füllen Sie die Datei "tutorial.yml" aus, indem Sie die folgende Vorlage kopieren:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -232,68 +232,55 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Here are the details of the mandatory fields:
-- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
-- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
-- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
-- **level**: The difficulty level of the tutorial, among:
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
-- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
-- **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
-- **last_contribution_date**: Today's date.
-- **urgency**: Leave blank.
-- **contributors_id**: Your GitHub ID.
-- **reward**: Leave blank.
-For more details on your professor identifier, refer to the corresponding tutorial:
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
 ```
 
+Hier sind die Details zu den Pflichtfeldern:
+
+
+- id**: Eine UUID (_Universally Unique Identifier_) zur eindeutigen Identifizierung des Lernprogramms. Sie können sie mit [einem Online-Tool] (https://www.uuidgenerator.net/version4) erzeugen. Die einzige Voraussetzung ist, dass diese UUID zufällig ist, um Konflikte mit anderen UUIDs auf der Plattform zu vermeiden;
+- projekt_id**: Die UUID des Unternehmens oder der Organisation, die hinter dem im Lernprogramm vorgestellten Tool steht [aus der Liste der Projekte] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Wenn Sie zum Beispiel ein Tutorial über die Sparrow Wallet Software erstellen, finden Sie diese `project_id` in der folgenden Datei: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Diese Information wird der YAML-Datei Ihres Tutorials hinzugefügt, weil das Plan ₿ Network eine Datenbank aller Unternehmen und Organisationen unterhält, die an Bitcoin oder verwandten Projekten arbeiten. Durch das Hinzufügen der `project_id` der Entität, die mit Ihrem Tutorial in Verbindung steht, schaffen Sie eine Verbindung zwischen den beiden Elementen;
+- tags**: 2 oder 3 relevante Schlüsselwörter, die sich auf den Inhalt des Tutorials beziehen und ausschließlich [aus der Liste der Tags des Plan ₿ Network] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ausgewählt werden;
+- kategorie**: Die Unterkategorie, die dem Inhalt des Tutorials entspricht, entsprechend der Struktur des Plan ₿ Network (z. B. für Geldbörsen: `Desktop`, `Hardware`, `Mobile`, `Backup`);
+- stufe**: Der Schwierigkeitsgrad des Tutorials, unter:
+    - anfänger
+    - mittel
+    - fortgeschritten
+    - experte
+- professor**: Ihre `Beitragszahler_id` (BIP39-Wörter), wie sie auf [Ihrem Professorprofil] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) angezeigt wird;
+- original_language**: Die Originalsprache des Tutorials (z.B. `fr`, `en`, etc.);
+- korrekturlesen**: Informationen über den Korrekturleseprozess. Füllen Sie den ersten Teil aus, da das Korrekturlesen Ihres eigenen Tutoriums als erste Validierung zählt:
+    - sprache**: Sprachcode des Korrekturlesens (z. B. "fr", "en" usw.).
+    - letzter_Beitrag_datum**: Das heutige Datum.
+    - dringlichkeit**: Leer lassen.
+    - contributors_id**: Ihre GitHub-ID.
+    - belohnung**: Leer lassen.
+
+Weitere Einzelheiten zu Ihrer Professorenkennung finden Sie in der entsprechenden Anleitung:
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Hier ist ein Beispiel für eine fertige `tutorial.yml`-Datei für ein Tutorial über die Blockstream Green Wallet:
+
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
-projekt_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
 tags:
-
-
-  - geldbörsen
-  - software
-  - tasten
-
-kategorie: Handy
-
-niveau: Anfänger
-
-kredite:
-
-professor: ziemlich-privat
-
-# Korrekturlesen von Metadaten
-
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
 original_language: fr
-
-korrekturlesen:
-
-
-  - sprache: fr
-
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-dringlichkeit:
-
-mitwirkende_id:
-
-
-      - LoicPandul
-
-belohnung:
+urgency: 1
+contributors_id:
+- LoicPandul
+reward: 0
+```
 
 Wenn Sie die Änderungen an der Datei `tutorial.yml` abgeschlossen haben, speichern Sie Ihr Dokument, indem Sie auf `Datei > Speichern` klicken:
 
@@ -317,7 +304,7 @@ Wir beginnen damit, den Abschnitt "Eigenschaften" am Anfang des Dokuments auszuf
 
 Fügen Sie den folgenden Codeblock manuell hinzu und füllen Sie ihn aus:
 
-```markdown
+```
 ---
 name: [Title]
 description: [Description]
@@ -332,7 +319,7 @@ Geben Sie den Namen Ihres Tutorials und eine kurze Beschreibung ein:
 
 Fügen Sie dann den Pfad des Titelbildes am Anfang Ihres Tutorials ein. Beachten Sie dazu:
 
-```markdown
+```
 ![cover-sparrow](assets/cover.webp)
 ```
 
@@ -362,11 +349,11 @@ Ihre Bilder müssen ausschließlich im `.webp`-Format vorliegen. Bei Bedarf kön
 
 Um ein Diagramm in Ihr Dokument einzufügen, verwenden Sie den folgenden Markdown-Befehl. Achten Sie darauf, dass Sie den entsprechenden Alternativtext sowie den korrekten Pfad des Bildes angeben:
 
-```markdown
+```
 ![sparrow](assets/fr/01.webp)
 ```
 
-Das Ausrufezeichen am Anfang zeigt an, dass es sich um ein Bild handelt. Der alternative Text, der der Zugänglichkeit und der Suchmaschinenoptimierung dient, wird zwischen die Klammern gesetzt. Schließlich wird der Pfad zu dem Bild zwischen den Klammern angegeben.
+Das Ausrufezeichen am Anfang zeigt an, dass es sich um ein Bild handelt. Der alternative Text, der der Zugänglichkeit und der Suchmaschinenoptimierung dient, befindet sich zwischen den Klammern. Schließlich wird der Pfad zu dem Bild zwischen den Klammern angegeben.
 
 Wenn Sie Ihre eigenen Diagramme erstellen möchten, sollten Sie sich an die grafische Charta des Plan ₿ Network halten, um die visuelle Konsistenz zu gewährleisten:
 
@@ -393,7 +380,7 @@ Fügen Sie einen Titel für Ihre Übergabe hinzu und klicken Sie dann auf die bl
 
 ![TUTO](assets/fr/29.webp)
 
-Ein Commit ist eine Speicherung der Änderungen, die an einem Zweig vorgenommen wurden, begleitet von einer beschreibenden Nachricht, die es ermöglicht, die Entwicklung eines Projekts über die Zeit zu verfolgen. Es ist eine Art Zwischen-Checkpoint.
+Ein Commit ist eine Speicherung der Änderungen, die am Zweig vorgenommen wurden, begleitet von einer beschreibenden Nachricht, die es ermöglicht, die Entwicklung eines Projekts im Laufe der Zeit zu verfolgen. Es ist eine Art Zwischen-Checkpoint.
 
 Klicken Sie dann auf die Schaltfläche `Push origin`. Dadurch wird Ihr Commit an Ihren Fork gesendet:
 
@@ -413,7 +400,7 @@ Sie werden automatisch in Ihrem Browser auf GitHub auf die Vorbereitungsseite Ih
 
 ![TUTO](assets/fr/33.webp)
 
-Geben Sie einen Titel an, der kurz die Änderungen zusammenfasst, die Sie mit dem Quell-Repository zusammenführen möchten. Fügen Sie einen kurzen Kommentar hinzu, der diese Änderungen beschreibt (wenn Sie eine Ausgabenummer haben, die mit der Erstellung Ihres Tutorials verbunden ist, denken Sie daran, im Kommentar zu vermerken: "Schließt #{Ausgabenummer}"), und klicken Sie dann auf die grüne Schaltfläche "Pull Request erstellen", um den Zusammenführungsantrag zu bestätigen:
+Geben Sie einen Titel an, der kurz die Änderungen zusammenfasst, die Sie mit dem Quell-Repository zusammenführen möchten. Fügen Sie einen kurzen Kommentar hinzu, der diese Änderungen beschreibt (wenn Sie eine Ausgabenummer haben, die mit der Erstellung Ihres Tutorials verbunden ist, denken Sie daran, im Kommentar zu vermerken: "Schließt #{Ausgabenummer}"), und klicken Sie dann auf die grüne Schaltfläche "Pull-Anfrage erstellen", um die Zusammenführungsanfrage zu bestätigen:
 
 ![TUTO](assets/fr/34.webp)
 

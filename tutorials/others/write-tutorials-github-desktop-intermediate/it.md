@@ -14,7 +14,7 @@ L'avete già fatto:
 - Contattare il team di Plan ₿ Network tramite [il gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o paolo@planb.network;
 - Scegliere gli strumenti di contribuzione.
 
-In questa guida vedremo come aggiungere il vostro tutorial alla rete di Plan ₿ impostando il vostro ambiente locale con GitHub Desktop. Se siete già esperti di Git, questo tutorial molto dettagliato potrebbe non essere necessario per voi. Vi consiglio piuttosto di consultare quest'altro tutorial in cui presento solo le linee guida principali, senza una guida dettagliata passo-passo:
+In questa guida vedremo come aggiungere il vostro tutorial alla rete di Plan ₿ configurando il vostro ambiente locale con GitHub Desktop. Se siete già esperti di Git, questo tutorial molto dettagliato potrebbe non essere necessario per voi. Vi consiglio piuttosto di consultare quest'altro tutorial in cui presento solo le linee guida principali, senza una guida dettagliata passo-passo:
 
 
 - Utenti esperti**:
@@ -106,17 +106,17 @@ Per utilizzare lo script, navigare nella cartella in cui è memorizzato. Lo scri
 
 Una volta nella cartella, installare le dipendenze:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 Avviate quindi il software con il comando:
 
-```bash
+```
 python3 main.py
 ```
 
-Si aprirà un'interfaccia grafica (GUI). La prima volta sarà necessario inserire tutte le informazioni necessarie, ma negli utilizzi successivi lo script ricorderà le informazioni personali, quindi non sarà necessario inserirle di nuovo.
+Si aprirà un'interfaccia grafica (GUI). La prima volta sarà necessario inserire tutte le informazioni necessarie, ma negli utilizzi successivi lo script ricorderà le informazioni personali, per cui non sarà necessario inserirle di nuovo.
 
 ![DATA-CREATOR-PY](assets/fr/37.webp)
 
@@ -197,7 +197,7 @@ In questa nuova sottocartella dedicata al tutorial, è necessario aggiungere div
 
 In sintesi, ecco la gerarchia dei file da creare:
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (to be modified with the correct category)
@@ -212,7 +212,7 @@ bitcoin-educational-content/
 
 Compilare il file `tutorial.yml` copiando il seguente modello:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -232,68 +232,55 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Here are the details of the mandatory fields:
-- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
-- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
-- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
-- **level**: The difficulty level of the tutorial, among:
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
-- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
-- **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
-- **last_contribution_date**: Today's date.
-- **urgency**: Leave blank.
-- **contributors_id**: Your GitHub ID.
-- **reward**: Leave blank.
-For more details on your professor identifier, refer to the corresponding tutorial:
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
 ```
 
+Ecco i dettagli dei campi obbligatori:
+
+
+- id**: Un UUID (_Universally Unique Identifier_) per identificare in modo univoco il tutorial. È possibile generarlo con [uno strumento online](https://www.uuidgenerator.net/version4). L'unico requisito è che questo UUID sia casuale per evitare conflitti con un altro UUID della piattaforma;
+- progetto_id**: L'UUID dell'azienda o dell'organizzazione che sta dietro allo strumento presentato nel tutorial [dall'elenco dei progetti] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, se si sta creando un tutorial sul software Sparrow Wallet, si può trovare questo `project_id` nel seguente file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Questa informazione viene aggiunta al file YAML del vostro tutorial perché Plan ₿ Network mantiene un database di tutte le aziende e organizzazioni che operano su Bitcoin o su progetti correlati. Aggiungendo il `project_id` dell'entità correlata al tutorial, si crea un collegamento tra i due elementi;
+- tag**: 2 o 3 parole chiave pertinenti al contenuto del tutorial, scelte esclusivamente [dall'elenco dei tag di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- categoria**: La sottocategoria corrispondente al contenuto del tutorial, secondo la struttura del sito Plan ₿ Network (ad esempio per i portafogli: `desktop`, `hardware`, `mobile`, `backup`);
+- livello**: Il livello di difficoltà dell'esercitazione, tra:
+    - `principiante`
+    - `intermedio`
+    - avanzato
+    - esperto
+- professore**: Il suo `contributor_id` (parole BIP39) come visualizzato nel [suo profilo di professore](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- lingua_originale**: La lingua originale del tutorial (ad esempio `fr`, `en`, ecc.);
+- correzione di bozze**: Informazioni sul processo di correzione delle bozze. Compilare la prima parte, poiché la correzione del proprio tutorial conta come prima validazione:
+    - lingua**: Codice della lingua della correzione (ad esempio `fr`, `en`, ecc.).
+    - data_ultimo_contributo**: Data di oggi.
+    - urgenza**: Lasciare in bianco.
+    - contributors_id**: Il vostro ID GitHub.
+    - ricompensa**: Lasciare in bianco.
+
+Per maggiori dettagli sull'identificativo del professore, consultare il relativo tutorial:
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Ecco un esempio di file `tutorial.yml` completato per un tutorial sul portafoglio Blockstream Green:
+
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
-progetto_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-tag:
-
-
-  - portafogli
-  - software
-  - chiavi
-
-categoria: mobile
-
-livello: principiante
-
-crediti:
-
-professore: pretty-private
-
-# Correzione dei metadati
-
-lingua_originale: fr
-
-correzione di bozze:
-
-
-  - lingua: fr
-
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
+original_language: fr
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-urgenza:
-
-collaboratori_id:
-
-
-      - LoicPandul
-
-ricompensa:
+urgency: 1
+contributors_id:
+- LoicPandul
+reward: 0
+```
 
 Una volta terminata la modifica del file `tutorial.yml`, salvare il documento facendo clic su `File > Save`:
 
@@ -317,7 +304,7 @@ Inizieremo compilando la sezione `Proprietà` all'inizio del documento.
 
 Aggiungere manualmente e compilare il seguente blocco di codice:
 
-```markdown
+```
 ---
 name: [Title]
 description: [Description]
@@ -332,7 +319,7 @@ Inserite il nome del vostro tutorial e una breve descrizione:
 
 Quindi, aggiungere il percorso dell'immagine di copertina all'inizio del tutorial. Per fare ciò, notare:
 
-```markdown
+```
 ![cover-sparrow](assets/cover.webp)
 ```
 
@@ -362,7 +349,7 @@ Le immagini devono essere esclusivamente in formato `.webp`. Se necessario, è p
 
 Per inserire un diagramma nel documento, utilizzare il seguente comando Markdown, assicurandosi di specificare il testo alternativo appropriato e il percorso corretto dell'immagine:
 
-```markdown
+```
 ![sparrow](assets/fr/01.webp)
 ```
 

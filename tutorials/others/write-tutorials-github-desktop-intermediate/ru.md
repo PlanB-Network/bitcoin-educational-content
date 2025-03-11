@@ -14,7 +14,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-912
 - Свяжитесь с командой Plan ₿ Network через [группу Telegram](https://t.me/PlanBNetwork_ContentBuilder) или paolo@planb.network;
 - Выберите инструменты для внесения вклада.
 
-В этом уроке мы рассмотрим, как добавить свой учебник в Plan ₿ Network, настроив локальную среду с помощью GitHub Desktop. Если вы уже умеете работать с Git, то это очень подробное руководство может вам не понадобиться. Я бы рекомендовал обратиться к другому руководству, в котором я излагаю только основные принципы, без подробных пошаговых инструкций:
+В этом уроке мы рассмотрим, как добавить свой учебник в Plan ₿ Network, настроив локальную среду с помощью GitHub Desktop. Если вы уже умеете работать с Git, то этот очень подробный учебник может вам не понадобиться. Я бы рекомендовал обратиться к другому руководству, в котором я излагаю только основные принципы, без подробных пошаговых инструкций:
 
 
 - Опытные пользователи**:
@@ -37,7 +37,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-web-b
 
 ![TUTO](assets/fr/01.webp)
 
-Прежде чем приступить к изучению учебника, необходимо выполнить предварительные требования:
+Прежде чем приступить к изучению учебника, необходимо выполнить предварительные условия:
 
 
 - Иметь аккаунт [GitHub](https://github.com/signup);
@@ -106,13 +106,13 @@ https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b
 
 Попав в папку, установите все необходимые компоненты:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 Затем запустите программу командой:
 
-```bash
+```
 python3 main.py
 ```
 
@@ -197,7 +197,7 @@ https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9b
 
 Вкратце, вот иерархия файлов, которые нужно создать:
 
-```plaintext
+```
 bitcoin-educational-content/
 └── tutorials/
 └── wallet/ (to be modified with the correct category)
@@ -212,7 +212,7 @@ bitcoin-educational-content/
 
 Заполните файл `tutorial.yml`, скопировав следующий шаблон:
 
-```yaml
+```
 id:
 project_id:
 tags:
@@ -232,68 +232,55 @@ urgency:
 contributors_id:
 -
 reward:
-````
-Here are the details of the mandatory fields:
-- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
-- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
-- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
-- **level**: The difficulty level of the tutorial, among:
-- `beginner`
-- `intermediate`
-- `advanced`
-- `expert`
-- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
-- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
-- **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
-- **last_contribution_date**: Today's date.
-- **urgency**: Leave blank.
-- **contributors_id**: Your GitHub ID.
-- **reward**: Leave blank.
-For more details on your professor identifier, refer to the corresponding tutorial:
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
 ```
 
+Вот подробная информация об обязательных полях:
+
+
+- id**: UUID (_Universally Unique Identifier_) для уникальной идентификации учебника. Вы можете сгенерировать его с помощью [онлайн-инструмента](https://www.uuidgenerator.net/version4). Единственное требование - чтобы этот UUID был случайным, чтобы избежать конфликта с другим UUID на платформе;
+- project_id**: UUID компании или организации, стоящей за инструментом, представленным в учебнике [из списка проектов] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Например, если вы создаете учебник по программному обеспечению Sparrow Wallet, вы можете найти этот `project_id` в следующем файле: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Эта информация добавлена в YAML-файл вашего учебника, потому что Plan ₿ Network ведет базу данных всех компаний и организаций, работающих с Биткойном или связанными с ним проектами. Добавляя `project_id` организации, связанной с вашим учебником, вы создаете связь между двумя элементами;
+- теги**: 2 или 3 релевантных ключевых слова, связанных с содержанием учебного пособия, выбранные исключительно [из списка тегов Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- категория**: Подкатегория, соответствующая содержанию руководства, в соответствии со структурой сайта Plan ₿ Network (например, для кошельков: `desktop`, `hardware`, `mobile`, `backup`);
+- уровень**: Уровень сложности учебника, среди:
+    - `новичок`
+    - `промежуточный`
+    - `продвинутый`
+    - `эксперт`
+- профессор**: Ваш `contributor_id` (слова из BIP39), отображаемый в [профиле вашего профессора](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- original_language**: Язык оригинала учебника (например, `fr`, `en` и т.д.);
+- вычитка**: Информация о процессе вычитки. Заполните первую часть, так как вычитка собственного учебника считается первой проверкой:
+    - язык**: Код языка корректуры (например, `fr`, `en` и т.д.).
+    - last_contribution_date**: Сегодняшняя дата.
+    - срочность**: Оставьте пустым.
+    - contributors_id**: Ваш идентификатор на GitHub.
+    - вознаграждение**: Оставьте пустым.
+
+Для получения более подробной информации об идентификаторе профессора обратитесь к соответствующему учебному пособию:
+
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Вот пример заполненного файла `tutorial.yml` для учебника по кошельку Blockstream Green:
+
+```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
-
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-
-теги:
-
-
-  - кошельки
-  - программное обеспечение
-  - ключи
-
-категория: мобильные
-
-уровень: начинающий
-
-кредиты:
-
-профессор: pretty-private
-
-# Вычитка метаданных
-
+tags:
+- wallets
+- software
+- keys
+category: mobile
+level: beginner
+credits:
+professor: pretty-private
+# Proofreading metadata
 original_language: fr
-
-корректура:
-
-
-  - язык: французский
-
+proofreading:
+- language: fr
 last_contribution_date: 2024-11-20
-
-срочность:
-
+urgency: 1
 contributors_id:
-
-
-      - LoicPandul
-
-награда:
+- LoicPandul
+reward: 0
+```
 
 После того как вы закончили модификацию файла `tutorial.yml`, сохраните документ, нажав на `File > Save`:
 
@@ -317,7 +304,7 @@ contributors_id:
 
 Вручную добавьте и заполните следующий блок кода:
 
-```markdown
+```
 ---
 name: [Title]
 description: [Description]
@@ -332,7 +319,7 @@ description: [Description]
 
 Затем добавьте путь к изображению обложки в начало учебника. Чтобы сделать это, обратите внимание:
 
-```markdown
+```
 ![cover-sparrow](assets/cover.webp)
 ```
 
@@ -362,7 +349,7 @@ description: [Description]
 
 Чтобы вставить диаграмму в документ, воспользуйтесь следующей командой Markdown, обязательно указав соответствующий альтернативный текст, а также правильный путь к изображению:
 
-```markdown
+```
 ![sparrow](assets/fr/01.webp)
 ```
 
@@ -385,7 +372,7 @@ description: [Description]
 
 После того как вы закончили писать учебник на выбранном вами языке, следующим шагом будет отправка **Запроса на перевод**. Администратор позаботится о добавлении недостающих переводов вашего учебника благодаря нашему методу автоматического перевода с человеческой проверкой.
 
-Чтобы продолжить работу с Pull Request, откройте программу GitHub Desktop. Программа должна автоматически определить изменения, которые вы внесли локально в свою ветку по сравнению с исходным репозиторием. Прежде чем продолжить, внимательно проверьте в левой части интерфейса, соответствуют ли эти изменения тому, что вы ожидали:
+Чтобы продолжить работу с Pull Request, откройте программу GitHub Desktop. Программа должна автоматически обнаружить изменения, которые вы сделали локально в своей ветке по сравнению с исходным репозиторием. Прежде чем продолжить, внимательно проверьте в левой части интерфейса, соответствуют ли эти изменения тому, что вы ожидали:
 
 ![TUTO](assets/fr/28.webp)
 
@@ -433,6 +420,6 @@ Pull Request - это запрос на интеграцию изменений 
 
 
 - Если ваш PR еще открыт и не был слит, внесите изменения локально, оставаясь в той же ветке. Когда изменения будут завершены, воспользуйтесь кнопкой `Push origin`, чтобы добавить новый коммит к вашему все еще открытому PR;
-- Если ваша PR уже была объединена с основной веткой, вам придется начать процесс заново, создав новую ветку и отправив новую PR. Убедитесь, что ваш локальный репозиторий синхронизирован с исходным репозиторием Plan ₿ Network, прежде чем приступать к работе.
+- Если ваша PR уже была объединена с основной веткой, вам придется начать процесс заново, создав новую ветку, а затем отправив новую PR. Убедитесь, что ваш локальный репозиторий синхронизирован с исходным репозиторием Plan ₿ Network, прежде чем приступать к работе.
 
 Если у вас возникнут технические трудности при отправке урока, не стесняйтесь просить помощи в [нашей специальной группе Telegram для вкладов](https://t.me/PlanBNetwork_ContentBuilder). Спасибо!

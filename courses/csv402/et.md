@@ -1503,17 +1503,13 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Etteavaldav** | **Kõnestatav** | **Struktureeritud** | **Attachments** | |
+| **Element**        | **Deklareeritud** | **Fungible**                        | **Struktureeritud**             | **Manused**                    |
+| ------------------ | -------------- | ----------------------------------- | ----------------------------- | ----------------------------- |
+| **Andmed**        | Puuduvad       | 64-bitine allkirjastatud või allkirjastamata täisarv | Kõik ranged andmetüübid       | Kõik failid                    |
+| **Infotüüp**      | Puudub         | Allkirjastatud või allkirjastamata  | Ranged tüübid                  | MIME tüüp                       |
+| **Privaatsus**    | Pole nõutav    | Pedersen commitment                 | Räsi koos osaliselt peidetud andmetega | Räsi-põhine failituvastus |
+| **Suuruse piirangud** | N/A         | 256 baiti                           | Kuni 64 KB                      | Kuni ~500 GB                    |
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
-
-| Puudub | 64-bitine märgistatud või märkimata täisarv | Mis tahes range andmetüüp | Mis tahes fail |
-
-| Info type** | None | Signed or unsigned | Strict types | MIME type |
-
-| Pederseni kohustus | Pimestamine koos pimestamisega | Faili pimestatud ID
-
-| Suuruse piirangud** | N/A | 256 baiti | Kuni 64 KB | Kuni ~500 Gb |
 
 ### Sisendid
 
@@ -1958,17 +1954,13 @@ Oluline on märkida, et selleks, et rahakott saaks hallata RGB vara (olgu see si
 
 Nende mõistete selgitamiseks on siin kokkuvõtlik tabel, milles võrreldakse RGB-lepingu komponente kas objektorienteeritud programmeerimise (OOP) või Ethereumi ökosüsteemis juba tuntud mõistetega:
 
-| RGB lepingu komponent | Tähendus | OOP ekvivalent | Ethereum ekvivalent |
+| RGB lepingu komponent        | Tähendus                              | OOP ekvivalent                            | Ethereum ekvivalent               |
+| ---------------------------- | ------------------------------------- | ----------------------------------------- | --------------------------------- |
+| **Genesis**                  | Lepingu algseisund                   | Klassi konstruktor                        | Lepingu konstruktor               |
+| **Schema**                   | Lepingu äriloogika                   | Klass                                     | Leping                           |
+| **Interface**                | Lepingu semantika                    | Liides (Java) / Trait (Rust) / Protokoll (Swift) | ERC Standard                      |
+| **Interface Implementation** | Semantika ja loogika kaardistamine   | Impl (Rust) / Implements (Java)           | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Klassi konstruktor | Lepingu konstruktor | Lepingu algseisund
-
-| Klass | Lepingu äriloogika
-
-| Lepingu semantika | Liides (Java) / tunnus (Rust) / protokoll (Swift) | ERC standard |
-
-| Application Binary Interface (ABI) | Impl (Rust) / Implements (Java) | Semantika ja loogika kaardistamine
 
 Vasakpoolne veerg näitab RGB-protokollile omaseid elemente. Keskmine veerg näitab iga komponendi konkreetset funktsiooni. Seejärel leiame veerus "OOP-ekvivalent" samaväärse termini objektorienteeritud programmeerimises:
 

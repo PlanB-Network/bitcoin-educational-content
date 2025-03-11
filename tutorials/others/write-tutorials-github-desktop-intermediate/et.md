@@ -7,7 +7,6 @@ description: Täielik juhend, kuidas teha ettepanek õpetuse kohta Plan ₿ Netw
 Enne selle uue õpetuse lisamist käsitleva õpetuse järgimist peate olema teinud mõned esialgsed sammud. Kui te pole seda veel teinud, siis kutsun teid üles kõigepealt tutvuma selle sissejuhatava õpetusega ja seejärel tulema siia tagasi:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
-
 Te olete juba:
 
 
@@ -15,20 +14,18 @@ Te olete juba:
 - Võtke ühendust Plan ₿ Networki meeskonnaga [Telegrami grupi](https://t.me/PlanBNetwork_ContentBuilder) või paolo@planb.network kaudu;
 - Valige oma panuse vahendid.
 
-Selles õpetuses näeme, kuidas lisada oma õpetus Plan ₿ võrgustikku, luues oma kohaliku keskkonna GitHubi töölaua abil. Kui te juba oskate Git'i, ei pruugi see väga üksikasjalik õpetus teile vajalik olla. Ma soovitan pigem tutvuda selle teise õpetusega, kus ma esitan ainult peamised suunised, ilma üksikasjalike samm-sammult juhenditeta:
+Selles õpetuses näeme, kuidas lisada oma õpetus Plan ₿ võrgustikku, luues oma kohaliku keskkonna GitHubi töölaua abil. Kui te juba oskate Git'i, ei pruugi see väga üksikasjalik õpetus teile vajalik olla. Ma soovitan pigem tutvuda selle teise õpetusega, kus ma esitan ainult peamised suunised, ilma üksikasjalike samm-sammuliste juhenditeta:
 
 
 - Kogenud kasutajad**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
-
 Kui te ei soovi oma lokaalset keskkonda luua, järgige seda teist, algajatele mõeldud õpetust, kus me teeme muudatused otse GitHubi veebiliidese kaudu:
 
 
 - Algajad (veebiliides)**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
-
 ## Eeltingimused
 
 Selle õpetuse jälgimiseks vajalik tarkvara:
@@ -50,7 +47,6 @@ Eeltingimused enne õpetuse alustamist:
 Kui vajate abi nende eelduste hankimisel, siis minu teised õpetused aitavad teid:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
-
 Kui kõik on paigas ja teie kohalik keskkond on korralikult seadistatud koos oma Plan ₿ Networki haruga, võite alustada õpetuse lisamist.
 
 ## 1 - Uue haru loomine
@@ -89,7 +85,7 @@ Nüüd klõpsake nupule `Publish branch`, et salvestada oma uus tööharu GitHub
 
 ![TUTORIAL](assets/fr/10.webp)
 
-Nüüd peaksite GitHubi töölaual leidma oma uue haru. See tähendab, et kõik teie arvutis lokaalselt tehtud muudatused salvestatakse ainult sellele konkreetsele harule. Samuti, seni kuni see haru on GitHubi töölaual valitud, vastavad teie masinas lokaalselt nähtavad failid selle haru (`tuto-sparrow-wallet-loic`), mitte põhiharu (`dev`) failidele.
+Nüüd peaksite GitHubi töölaual leidma oma uue haru. See tähendab, et kõik teie arvutis lokaalselt tehtud muudatused salvestatakse ainult sellesse konkreetsesse harusse. Samuti, seni kuni see haru on GitHubi töölaual valitud, vastavad teie masinas lokaalselt nähtavad failid selle haru (`tuto-sparrow-wallet-loic`), mitte aga põhiharu (`dev`) failidele.
 
 ![TUTORIAL](assets/fr/11.webp)
 
@@ -101,10 +97,12 @@ Nüüd, kui tööharu on loodud, on aeg integreerida oma uus õpetus. Teil on ka
 
 ### Minu Python skriptiga
 
-Peate oma arvutisse installima:
-- Python 3.8 või uuema versiooni.
+Sa pead installima oma masinasse:
 
-Skripti kasutamiseks minge kausta, kuhu see on salvestatud. Skript asub Plan ₿ Networki andmehoidlas järgmisel teel: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
+
+- Python 3.8 või uuem.
+
+Skripti kasutamiseks navigeerige kausta, kus see on salvestatud. Skript asub teekonnal Plan ₿ Network data repository: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
 Kui olete kaustas, installige sõltuvused:
 
@@ -112,41 +110,40 @@ Kui olete kaustas, installige sõltuvused:
 pip install -r requirements.txt
 ```
 
-Seejärel käivitage tarkvara järgmise käsuga:
+Seejärel käivitage tarkvara käsuga:
 
 ```bash
 python3 main.py
 ```
 
-Graafiline kasutajaliides (GUI) avaneb. Esmakordsel käivitamisel peate sisestama kõik vajalikud andmed, kuid järgmistel kasutuskordadel salvestab skript teie isikliku teabe, nii et te ei pea seda uuesti sisestama.
+Avaneb graafiline kasutajaliides (GUI). Esimesel korral peate sisestama kogu vajaliku teabe, kuid järgnevatel kasutuskordadel jätab skript teie isikuandmed meelde, nii et te ei pea neid uuesti sisestama.
 
 ![DATA-CREATOR-PY](assets/fr/37.webp)
 
-Alustage kohaliku tee sisestamisest `/tutorials` kausta teie kloonitud repositooriumis (`.../bitcoin-educational-content/tutorials/`). Selle saab sisestada käsitsi või klõpsata nupul "Browse", et sirvida seda failihalduris.
+Alustage, sisestades oma kloonitud repositooriumi kausta `/tutorials` kohalik tee (`.../bitcoin-educational-content/tutorials/`). Võite selle käsitsi sisestada või klõpsata nupule "Browse", et navigeerida oma failiotsinguprogrammi abil.
 
 ![DATA-CREATOR-PY](assets/fr/38.webp)
 
-Valige keel, milles hakkate oma õpetust kirjutama.
+Valige keel, milles te oma õpetuse kirjutate.
 
 ![DATA-CREATOR-PY](assets/fr/39.webp)
 
-Sisestage lahtrisse "Contributor's GitHub ID" oma GitHubi identifikaator.
+Sisestage väljale "Contributor's GitHub ID" oma GitHubi kasutajanimi.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Lahtrisse "PBN professor's ID" sisestage oma identifikaator, kasutades BIP39 loendi sõnu, nagu see on nähtav [teie professori profiilis](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Sisestage väljale "PBN-professori ID" oma identifikaator, kasutades sõnu BIP39 nimekirjast, nagu see on esitatud [teie professori profiilil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 
-Kui teil pole veel professori profiili, vaadake seda juhendit:
+Kui teil ei ole veel professori profiili, vaadake seda õpetust:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-
-Seejärel klõpsake nuppu "New Tutorial".
+Seejärel klõpsake nupule "Uus õpetus".
 
 ![DATA-CREATOR-PY](assets/fr/42.webp)
 
-Valige oma õpetuse jaoks peamine kategooria. Seejärel valige vastavalt peamisele kategooriale sobiv alamkategooria.
+Valige oma õpetuse jaoks põhikategooria. Seejärel valige valitud põhikategooriast lähtuvalt asjakohane alamkategooria.
 
 ![DATA-CREATOR-PY](assets/fr/43.webp)
 
@@ -154,33 +151,33 @@ Määrake õpetuse raskusaste.
 
 ![DATA-CREATOR-PY](assets/fr/44.webp)
 
-Valige spetsiaalselt teie õpetuse jaoks loodud kausta nimi. Kausta nimi peaks kajastama õpetuses käsitletavat tarkvara ja sõnu tuleks eraldada sidekriipsudega. Näiteks võib kausta nimi olla `red-wallet`:
+Valige spetsiaalselt teie õpetuse jaoks loodud kataloogile nimi. Selle kausta nimi peaks kajastama õpetuses käsitletavat tarkvara, kasutades sõnade eraldamiseks sidekriipsu. Näiteks võiks kausta nimi olla `red-wallet`:
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-`project_id` on õpetuses käsitletava tööriista taga oleva ettevõtte või organisatsiooni UUID, mis on saadaval [projektide loendis](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks Sparrow Walleti õpetuse jaoks leiate `project_id` faili `bitcoin-educational-content/resources/projects/sparrow/project.yml` seest. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Network haldab Bitcoini või sellega seotud projektide aktiivsete ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusele seotud `project_id`, loote sisu ja vastava organisatsiooni vahelise seose.
+`project_id` on õpetuses käsitletava tööriista taga oleva ettevõtte või organisatsiooni UUID, mis on saadaval [projektide nimekirjas](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks Sparrow Wallet'i õpetuse puhul leiate selle `project_id` failist: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. See teave lisatakse teie õpetuse YAML-faili, sest Plan ₿ Network haldab andmebaasi Bitcoini või sellega seotud projektidega tegelevate ettevõtete ja organisatsioonide kohta. Lisades seotud `project_id`, seote oma sisu vastava üksusega.
 
-***Uuendus:*** Skripti uues versioonis pole enam vaja käsitsi `project_id` sisestada. Lisatud on otsingufunktsioon, et leida projekt nime järgi ja hankida automaatselt vastav `project_id`. Tippige välja "Project Name" algusesse projekti nimi, otsige see üles ja valige soovitud ettevõte rippmenüüst. `project_id` täidetakse automaatselt allolevasse lahtrisse. Vajadusel saate selle ka käsitsi sisestada.
+***Update:*** Skripti uues versioonis ei ole enam vaja käsitsi sisestada `project_id`. Lisatud on otsingufunktsioon, mis otsib projekti nime järgi ja hangib automaatselt vastava `project_id`. Projekti otsimiseks sisestage projekti nime algus väljale `Projekti nimi` ja valige seejärel rippmenüüst soovitud ettevõte. Projekti_id` täidetakse automaatselt allolevasse väljale. Vajaduse korral võite selle ka käsitsi sisestada.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Siltide jaoks valige 2 või 3 asjakohast märksõna, mis on seotud teie õpetuse sisuga, valides need ainult [Plan ₿ Networki siltide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Tarkvara sisaldab ka märksõnade otsingufunktsiooni koos rippmenüüga.
+Valige märksõnadeks 2 või 3 asjakohast märksõna, mis on seotud teie õpetuse sisuga, valides need eranditult [kava ₿ võrgu märksõnade loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Tarkvara pakub ka märksõnade otsingufunktsiooni ripploendist.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
-Kui kõik andmed on sisestatud ja üle kontrollitud, klõpsake nuppu "Create Tutorial", et kinnitada õpetuse failide loomine. See loob kohapeal teie õpetuse kausta ja kõik vajalikud failid valitud kategooria sees.
+Kui kogu teave on sisestatud ja kontrollitud, klõpsake "Create Tutorial", et kinnitada oma õpetusfailide loomine. See loob teie õpetuskausta ja kõik vajalikud failid valitud kategoorias lokaalselt.
 
 ![DATA-CREATOR-PY](assets/fr/48.webp)
 
-Nüüd võite vahele jätta alajaotuse "Ilma minu Python-skriptita" ja ka 3. sammu "YAML-faili täitmine", kuna skript on need toimingud juba automaatselt teie eest teinud. Jätkake otse 4. sammuga ja alustage oma õpetuse kirjutamist.
+Nüüd võite vahele jätta alajaotuse "Ilma minu Python-skriptita" ning 3. sammu "YAML-faili täitmine", sest skript on need toimingud teie eest juba lõpetanud. Jätkake otse sammu 4 juurde ja alustage oma õpetuse kirjutamist.
 
-Lisateavet selle Python-skripti kohta leiate ka [README-failist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Lisateavet selle Pythoni skripti kohta leiate ka [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 ### Ilma minu Python skriptita
 
-Avage oma failihaldur ja navigeerige kausta `bitcoin-educational-content`, mis on teie repositooriumi kohalik kloon. Tavaliselt peaksite selle leidma asukohast `Documents\GitHub\bitcoin-educational-content`.
+Avage oma failihaldur ja navigeerige kausta `bitcoin-educational-content`, mis kujutab endast teie repositooriumi kohalikku klooni. Tavaliselt peaksite selle leidma aadressil `Documents\GitHub\bitcoin-educational-content`.
 
-Selles kataloogis peate leidma sobiva alamkausta, kuhu oma õpetus paigutada. Kaustade struktuur peegeldab Plan ₿ Network veebisaidi erinevaid sektsioone. Meie näites, kuna soovime lisada õpetuse Sparrow Walleti kohta, peaksime minema järgmisele teele: `bitcoin-educational-content\tutorials\wallet`, mis vastab veebisaidi `WALLET` sektsioonile:
+Selles kataloogis peate leidma sobiva alamkataloogi, kuhu paigutate oma õpetuse. Kaustade korraldus kajastab Plan ₿ Network veebilehe erinevaid jaotisi. Meie näites, kuna me tahame lisada õpetuse Sparrow Wallet'i kohta, peaksime navigeerima järgmisele teele: `bitcoin-educational-content\tutorials\wallet`, mis vastab veebisaidi jaotisele `WALLET`:
 
 ![TUTO](assets/fr/12.webp)
 
@@ -216,123 +213,226 @@ bitcoin-educational-content/
 Täitke fail `tutorial.yml`, kopeerides järgmise malli:
 
 ```yaml
-id: 
-
-project_id: 
-
+id:
+project_id:
 tags:
-  - 
-  - 
-  - 
-
-category: 
-
-level: 
-
+-
+-
+-
+category:
+level:
 credits:
-  professor: 
-
+professor:
 # Proofreading metadata
-
 original_language:
 proofreading:
-  - language: 
-    last_contribution_date:
-    urgency:
-    contributors_id:
-      - 
-    reward:
-````
-
-Siin on esitatud andmed kohustuslike väljade kohta:
-
-
-- **id**: UUID (_Universally Universally Unique Identifier_), mis võimaldab juhendmaterjali üheselt identifitseerida. Selle saate genereerida [veebipõhise tööriistaga](https://www.uuidgenerator.net/version4). Ainus nõue on, et see UUID oleks juhuslik, et vältida konflikti mõne teise UUID-ga platvormil;
-- **project_id**: UUID: õpetuses esitatud tööriista taga oleva ettevõtte või organisatsiooni UUID [projektide nimekirjast](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui te loote õpetust Sparrow Wallet tarkvara kohta, leiate selle `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. See teave lisatakse teie õpetuse YAML-faili, sest Plan ₿ Network haldab andmebaasi kõigi Bitcoini või sellega seotud projektidega tegelevate ettevõtete ja organisatsioonide kohta. Lisades `project_id` teie juhendmaterjaliga seotud üksuse, loote kahe elemendi vahel lingi;
-- **tags**: 2 või 3 asjakohast märksõna, mis on seotud õpetuse sisuga ja mis on valitud eranditult [Plan ₿ Network'i siltide nimekirjast](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- **category**: Õpetuse sisule vastav alamkategooria vastavalt Plan ₿ Network saidi struktuurile (näiteks rahakottide puhul: `desktop`, `hardware`, `mobile`, `backup`);
-- **level**: Õpetuse raskusaste:
-    - `beginner`
-    - `intermediate`
-    - `advanced`
-    - `expert`
-- **professor**: Teie `contributor_id` (BIP39 sõnad), nagu on näidatud [teie professori profiilis](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- **original_language**: Õpetuse originaalkeel (näiteks `fr`, `en` jne);
-- **proofreading***: Teave korrektuuriprotsessi kohta. Täitke esimene osa, sest teie enda juhendmaterjali korrektuur loetakse esimeseks kinnitamiseks:
-    - **language**: Korrektuuri keelekood (näiteks `fr`, `en` jne).
-    - **last_contribution_date**: Tänane kuupäev.
-    - **urgency**: Jäta tühjaks.
-    - **contributors_id**: Teie GitHub ID.
-    - **reward**: Jäta tühjaks.
-
-Lisateavet oma professori identifikaatori kohta leiate vastavast juhendmaterjalist:
-
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-
-Siin on näide valminud `tutorial.yml` failist Blockstream Green rahakoti õpetuse jaoks:
-
-```yaml
-id: e84edaa9-fb65-48c1-a357-8a5f27996143
-project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-tags:
-- wallets
-- software
-- keys
-category: mobile
-level: beginner
-credits:
-professor: pretty-private
-# Proofreading metadata
-original_language: fr
-proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
+- language:
+last_contribution_date:
 urgency:
 contributors_id:
-- LoicPandul
+-
 reward:
-Once you have finished modifying your `tutorial.yml` file, save your document by clicking on `File > Save`:
+````
+Here are the details of the mandatory fields:
+- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
+- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
+- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
+- **level**: The difficulty level of the tutorial, among:
+- `beginner`
+- `intermediate`
+- `advanced`
+- `expert`
+- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
+- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
+- **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
+- **last_contribution_date**: Today's date.
+- **urgency**: Leave blank.
+- **contributors_id**: Your GitHub ID.
+- **reward**: Leave blank.
+For more details on your professor identifier, refer to the corresponding tutorial:
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
+```
+
+id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
+sildid:
+
+
+  - rahakotid
+  - tarkvara
+  - võtmed
+
+kategooria: mobiilne
+
+tase: algaja
+
+krediit:
+
+professor: pretty-private
+
+# Metaandmete korrektuur
+
+originaal_keel: fr
+
+korrektuur:
+
+
+  - keel: fr
+
+last_contribution_date: 2024-11-20
+
+kiireloomulisus:
+
+toetajad_id:
+
+
+      - LoicPandul
+
+tasu:
+
+Kui olete lõpetanud oma faili `tutorial.yml` muutmise, salvestage oma dokument, klõpsates nupule `File > Save`:
+
 ![TUTO](assets/fr/16.webp)
-You can now close your code editor.
-## 4 - Fill in the Markdown File
-Now, you can open your file that will host your tutorial, named with the code of your language, such as `fr.md`. Go to Obsidian, on the left side of the window, scroll through the folder tree until you find the folder of your tutorial and the file you are looking for:
+
+Nüüd võite sulgeda koodiredaktori.
+
+## 4 - Täitke Markdown-faili
+
+Nüüd saate avada oma faili, mis hakkab teie õpetust sisaldama ja mille nimeks on teie keele kood, näiteks `fr.md`. Mine Obsidianisse, akna vasakul poolel keri läbi kaustapuu, kuni leiad oma õpetuse kausta ja faili, mida otsid:
+
 ![TUTO](assets/fr/18.webp)
-Click on the file to open it:
+
+Klõpsake faili avamiseks sellel:
+
 ![TUTO](assets/fr/19.webp)
-We will start by filling in the `Properties` section at the top of the document.
+
+Alustame dokumendi ülaosas oleva jaotise "Omadused" täitmisega.
+
 ![TUTO](assets/fr/20.webp)
-Manually add and fill in the following code block:
+
+Lisage käsitsi ja täitke järgmine koodiplokk:
+
+```markdown
+---
+name: [Title]
+description: [Description]
+---
 ```
 
----
-name: [pealkiri]
-description: [Kirjeldus]
----
-```
 ![TUTO](assets/fr/21.webp)
-Fill in the name of your tutorial and a short description of it:
+
+Sisestage oma õpetuse nimi ja selle lühikirjeldus:
+
 ![TUTO](assets/fr/22.webp)
-Then, add the path of the cover image at the beginning of your tutorial. To do this, note:
-```
 
+Seejärel lisage kaanepildi tee oma õpetuse algusesse. Selleks märkige:
+
+```markdown
 ![cover-sparrow](assets/cover.webp)
-
 ```
-This syntax will be useful whenever adding an image to your tutorial is necessary. The exclamation point indicates that it is an image, with the alternative text (alt) specified between the brackets. The path to the image is indicated between the parentheses:
+
+See süntaks on kasulik alati, kui on vaja lisada pilt oma õpetusele. Hüüumärk näitab, et tegemist on pildiga, kusjuures alternatiivne tekst (alt) on määratud sulgude vahel. Sulgude vahel on märgitud pildi tee:
+
 ![TUTO](assets/fr/23.webp)
-## 5 - Add the Logo and Cover
-Within the `assets` folder, you must add a file named `logo.webp`, which will serve as a thumbnail for your article. This image must be in `.webp` format and must respect a square dimension to harmonize with the user interface. You are free to choose the logo of the software covered in the tutorial or any other relevant image, provided that it is free of rights. In addition, also add an image titled `cover.webp` in the same place. This image will be displayed at the top of your tutorial. Ensure that this image, like the logo, respects usage rights and is suitable for the context of your tutorial:
-## 6 - Writing the Tutorial and Adding Visuals
-Continue writing your tutorial by drafting your content. When you want to integrate a subtitle, apply the appropriate markdown formatting by prefixing the text with `##`:
+
+## 5 - Logo ja kaane lisamine
+
+Kausta `assets` sisse tuleb lisada fail nimega `logo.webp`, mis on teie artikli pisipildiks. See pilt peab olema `.webp` formaadis ja peab vastama ruudukujulisele mõõtmele, et see sobiks kasutajaliidesega. Te võite vabalt valida õpetuses käsitletava tarkvara logo või mõne muu asjakohase pildi, tingimusel et see on õiguste vaba. Lisaks lisage samasse kohta ka pilt pealkirjaga `cover.webp`. See pilt kuvatakse teie õpetuse ülaosas. Veenduge, et see pilt, nagu ka logo, järgib kasutusõigusi ja sobib teie õpetuse konteksti:
+
+## 6 - Tutoriali kirjutamine ja visuaalide lisamine
+
+Jätkake oma õpetuse kirjutamist, koostades oma sisu. Kui soovite lisada alapealkirja, rakendage asjakohast markdown-vormingut, lisades tekstile eesliite `##`:
+
 ![TUTO](assets/fr/24.webp)
-The language subfolder in the `assets` folder is used to store diagrams and visuals that will accompany your tutorial. As much as possible, avoid including text in your images to make your content accessible to an international audience. Of course, the software being presented will contain text, but if you add diagrams or additional indications on software screenshots, do so without text or, if it proves indispensable, use English.
+
+Kausta `assets` allkausta language kasutatakse teie õpetusega kaasas olevate diagrammide ja visuaalsete materjalide salvestamiseks. Vältige võimalikult palju teksti lisamist oma piltidele, et muuta sisu rahvusvahelisele publikule kättesaadavaks. Loomulikult sisaldab esitletav tarkvara teksti, kuid kui te lisate diagrammid või lisamärgistused tarkvara ekraanipiltidele, tehke seda ilma tekstita või kui see osutub hädavajalikuks, kasutage inglise keelt.
+
 ![TUTO](assets/fr/25.webp)
-To name your images, simply use numbers corresponding to their order of appearance in the tutorial, formatted with two digits (or three digits if your tutorial contains more than 99 images). For example, name your first image `01.webp`, your second `02.webp`, and so on.
-Your images must be in `.webp` format exclusively. If needed, you can use [my image conversion software](https://github.com/LoicPandul/ImagesConverter).
+
+Piltide nimetamiseks kasutage lihtsalt numbreid, mis vastavad nende esinemise järjekorrale õpetuses ja on vormistatud kahekohalise numbriga (või kolmekohalise numbriga, kui teie õpetus sisaldab rohkem kui 99 pilti). Näiteks nimetage oma esimene pilt `01.webp`, teine `02.webp` jne.
+
+Teie pildid peavad olema ainult .webp formaadis. Vajaduse korral võite kasutada [minu pildikonversioonitarkvara](https://github.com/LoicPandul/ImagesConverter).
+
 ![TUTO](assets/fr/26.webp)
-To insert a diagram into your document, use the following Markdown command, making sure to specify the appropriate alternative text as well as the correct path of the image:
-```
 
+Diagrammi lisamiseks oma dokumenti kasutage järgmist Markdown-käsku, märkides kindlasti sobiva alternatiivse teksti ja pildi õige tee:
+
+```markdown
 ![sparrow](assets/fr/01.webp)
-
 ```
+
+Hüüumärk alguses näitab, et tegemist on pildiga. Alternatiivne tekst, mis aitab kaasa ligipääsetavusele ja SEO-le, on paigutatud sulgude vahele. Lõpuks on sulgude vahel märgitud pildi tee.
+
+Kui soovite luua oma diagrammid, järgige kindlasti Plan ₿ Network'i graafilist põhikirja, et tagada visuaalne järjepidevus:
+
+
+- Font**: [Rubik](https://fonts.google.com/specimen/Rubik);
+- Värvid**:
+ - Oranž: #FF5C00
+ - Must: #000000
+ - Valge: #FFFFFF
+
+**On oluline, et kõik teie õppematerjalidesse integreeritud visuaalid oleksid vabad või järgiksid lähtefaili litsentsi**. Samuti on kõik Plan ₿ Network'is avaldatud diagrammid tehtud kättesaadavaks CC-BY-SA litsentsi alusel, samamoodi nagu tekst.
+
+**-> Vihje:** Kui jagate faile avalikult, näiteks pilte, on oluline eemaldada kõik ebavajalikud metaandmed. Need võivad sisaldada tundlikku teavet, nagu asukohaandmed, loomise kuupäevad või üksikasjad autori kohta. Privaatsuse kaitsmiseks on soovitatav need metaandmed kustutada. Selle protsessi lihtsustamiseks saate kasutada spetsiaalseid tööriistu, nagu [Exif Cleaner] (https://exifcleaner.com/), mis võimaldab dokumendi metaandmete puhastamist lihtsa lohistamise abil.
+
+## 7 - Salvesta ja esita juhendmaterjal
+
+Kui olete lõpetanud oma õpetuse kirjutamise valitud keeles, on järgmine samm **Tõmbepäringu** esitamine. Seejärel hoolitseb administraator teie õpetuse puuduvate tõlgete lisamise eest tänu meie automatiseeritud tõlkemeetodile koos inimkontrolliga.
+
+Pull Request'iga jätkamiseks avage GitHubi töölaua tarkvara. Tarkvara peaks automaatselt tuvastama muudatused, mida olete oma harus lokaalselt teinud võrreldes algse repositooriumiga. Enne jätkamist kontrollige hoolikalt kasutajaliidese vasakul poolel, et need muudatused vastaksid teie ootustele:
+
+![TUTO](assets/fr/28.webp)
+
+Lisage oma muudatuste pealkiri, seejärel klõpsake sinist nuppu `Commit to [your branch]`, et need muudatused kinnitada:
+
+![TUTO](assets/fr/29.webp)
+
+Commit on harus tehtud muudatuste salvestamine koos kirjeldava sõnumiga, mis võimaldab jälgida projekti arengut aja jooksul. See on omamoodi vahepealne kontrollpunkt.
+
+Seejärel klõpsake nupule "Push origin". See saadab teie faili oma hargnemisele:
+
+![TUTO](assets/fr/30.webp)
+
+Kui te ei ole oma õpetust veel lõpetanud, võite hiljem selle juurde tagasi tulla ja teha uusi kommenteerimisi. Kui olete oma muudatused selles harus lõpetanud, vajutage nüüd nupule `Preview Pull Request`:
+
+![TUTO](assets/fr/31.webp)
+
+Saate veelkord kontrollida, et teie muudatused on õiged, seejärel klõpsake nupule `Create pull request` (loo tõmbetaotlus):
+
+![TUTO](assets/fr/32.webp)
+
+Pull Request on taotlus, mis on tehtud teie haru muudatuste integreerimiseks Plan ₿ Network'i repositooriumi põhiharusse, mis võimaldab muudatusi enne nende ühendamist läbi vaadata ja arutada.
+
+Teid suunatakse automaatselt GitHubi brauseris teie Pull Requesti ettevalmistamise lehele:
+
+![TUTO](assets/fr/33.webp)
+
+Märkige pealkiri, mis võtab lühidalt kokku muudatused, mida soovite allikarepositooriumiga ühendada. Lisage lühike kommentaar, mis kirjeldab neid muudatusi (kui teie juhendmaterjali loomisega on seotud probleemi number, ärge unustage märkida kommentaaris `Lõpetab #{väljaande number}`), seejärel vajutage rohelisele nupule `Create pull request`, et kinnitada ühendamistaotlus:
+
+![TUTO](assets/fr/34.webp)
+
+Seejärel on teie PR nähtav plaani ₿ võrgu peamise repositooriumi vahekaardil `Pull Request`. Te peate vaid ootama, kuni administraator võtab teiega ühendust, et kinnitada teie panuse ühendamist või taotleda täiendavaid muudatusi.
+
+![TUTO](assets/fr/35.webp)
+
+Pärast teie PR-i ühendamist peaharuga on soovitatav kustutada oma tööharu (`tuto-sparrow-wallet`), et säilitada oma haru puhas ajalugu. GitHub pakub teile seda võimalust automaatselt teie PR-lehel:
+
+![TUTO](assets/fr/36.webp)
+
+GitHubi töölaua tarkvaras saate minna tagasi oma haru peaharule (`dev`).
+
+![TUTO](assets/fr/07.webp)
+
+Kui soovite oma panust muuta pärast seda, kui olete oma PR-i juba esitanud, sõltub menetlus teie PR-i hetkeseisust:
+
+
+- Kui teie PR on veel avatud ja seda ei ole veel ühendatud, tehke muudatused lokaalselt, jäädes samal harul. Kui muudatused on lõpetatud, kasutage nuppu `Push origin`, et lisada oma veel avatud PR-ile uus kinnitus;
+- Kui teie PR on juba ühendatud põhiharuga, peate alustama protsessi uuesti, luues uue haru ja esitades seejärel uue PR-i. Veenduge, et teie kohalik repositoorium on enne jätkamist sünkroniseeritud Plan ₿ võrgu lähtekoodide repositooriumiga.
+
+Kui teil tekib tehnilisi raskusi oma õpetuse esitamisel, siis ärge kartke abi küsida [meie spetsiaalses Telegram-grupis](https://t.me/PlanBNetwork_ContentBuilder). Aitäh!

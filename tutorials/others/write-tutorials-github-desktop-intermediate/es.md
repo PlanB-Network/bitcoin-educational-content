@@ -7,7 +7,6 @@ description: Guía completa para proponer un tutorial sobre Plan ₿ Red usando 
 Antes de seguir este tutorial sobre cómo añadir un nuevo tutorial, debes haber completado algunos pasos preliminares. Si aún no lo has hecho, te invito a que primero consultes este tutorial introductorio y luego vuelvas aquí:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
-
 Ya lo has hecho:
 
 
@@ -21,14 +20,12 @@ En este tutorial, veremos cómo añadir tu tutorial en Plan ₿ Network configur
 - Usuarios con experiencia**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
-
 Si prefieres no configurar tu entorno local, sigue este otro tutorial diseñado para principiantes, donde realizamos los cambios directamente a través de la interfaz web de GitHub:
 
 
 - Principiantes (interfaz web)**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
-
 ## Requisitos previos
 
 Software necesario para seguir este tutorial:
@@ -50,7 +47,6 @@ Requisitos previos antes de empezar el tutorial:
 Si necesitas ayuda para obtener estos requisitos previos, mis otros tutoriales te ayudarán:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
-
 Una vez que todo está en su lugar y su entorno local está configurado correctamente con su propio tenedor del Plan ₿ Red, puede empezar a añadir el tutorial.
 
 ## 1 - Crear una nueva sucursal
@@ -101,52 +97,53 @@ Ahora que la rama de trabajo está creada, es hora de integrar tu nuevo tutorial
 
 ### Con mi script Python
 
-Debe instalar en su máquina:
+Es necesario instalar en su máquina:
+
+
 - Python 3.8 o superior.
 
-Para usar el script, diríjase a la carpeta donde está almacenado. El script se encuentra en el repositorio de datos de Plan ₿ Network en la ruta: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
+Para utilizar el script, navegue hasta la carpeta donde está almacenado. El script se encuentra en el repositorio de datos Plan ₿ Network en la ruta: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
-Una vez dentro de la carpeta, instale las dependencias:
+Una vez en la carpeta, instala las dependencias:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Luego, inicie el software con el siguiente comando:
+A continuación, inicie el software con el comando
 
 ```bash
 python3 main.py
 ```
 
-Se abrirá una interfaz gráfica de usuario (GUI). La primera vez, deberá ingresar toda la información necesaria, pero en usos posteriores, el script recordará su información personal, por lo que no tendrá que ingresarla nuevamente.
+Se abrirá una interfaz gráfica de usuario (GUI). La primera vez, tendrás que introducir toda la información necesaria, pero en usos posteriores, el script recordará tu información personal, por lo que no tendrás que volver a introducirla.
 
 ![DATA-CREATOR-PY](assets/fr/37.webp)
 
-Comience ingresando la ruta local a la carpeta `/tutorials` en su clon del repositorio (`.../bitcoin-educational-content/tutorials/`). Puede ingresarla manualmente o hacer clic en el botón "Browse" para navegar a través del explorador de archivos.
+Comienza introduciendo la ruta local a la carpeta `/tutorials` de tu repositorio clonado (`.../bitcoin-educational-content/tutorials/`). Puedes introducirla manualmente o hacer clic en el botón "Examinar" para navegar utilizando tu explorador de archivos.
 
 ![DATA-CREATOR-PY](assets/fr/38.webp)
 
-Seleccione el idioma en el que redactará su tutorial.
+Seleccione el idioma en el que escribirá su tutorial.
 
 ![DATA-CREATOR-PY](assets/fr/39.webp)
 
-En el campo "Contributor's GitHub ID", ingrese su identificador de GitHub.
+En el campo "ID de GitHub del colaborador", introduzca su nombre de usuario de GitHub.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-En el campo "PBN professor's ID", ingrese su identificador utilizando las palabras de la lista BIP39, tal como aparece en [su perfil de profesor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+En el campo "ID del profesor PBN", introduzca su identificador utilizando palabras de la lista BIP39, tal y como aparece en [su perfil de profesor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 
-Si aún no tiene un perfil de profesor, consulte este tutorial:
+Si aún no tienes un perfil de profesor, consulta este tutorial:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-
-Luego, haga clic en el botón "New Tutorial".
+A continuación, haga clic en el botón "Nuevo tutorial".
 
 ![DATA-CREATOR-PY](assets/fr/42.webp)
 
-Elija una categoría principal para su tutorial. Luego, seleccione una subcategoría adecuada en función de la categoría principal elegida.
+Elija una categoría principal para su tutorial. A continuación, seleccione una subcategoría relevante basada en la categoría principal elegida.
 
 ![DATA-CREATOR-PY](assets/fr/43.webp)
 
@@ -154,33 +151,33 @@ Determine el nivel de dificultad del tutorial.
 
 ![DATA-CREATOR-PY](assets/fr/44.webp)
 
-Elija un nombre para el directorio creado específicamente para su tutorial. El nombre de esta carpeta debe reflejar el software abordado en el tutorial y utilizar guiones para separar las palabras. Por ejemplo, la carpeta podría llamarse `red-wallet`:
+Elija un nombre para el directorio creado específicamente para su tutorial. El nombre de esta carpeta debe reflejar el software cubierto en el tutorial, utilizando guiones para separar las palabras. Por ejemplo, la carpeta podría llamarse `red-wallet`:
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-El `project_id` es el UUID de la empresa u organización detrás de la herramienta presentada en el tutorial, disponible en [la lista de proyectos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por ejemplo, para un tutorial sobre Sparrow Wallet, encontrará el `project_id` en el archivo: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Esta información se agrega al archivo YAML de su tutorial porque Plan ₿ Network mantiene una base de datos de empresas y organizaciones activas en Bitcoin o proyectos relacionados. Al agregar el `project_id` asociado a su tutorial, está creando un vínculo entre su contenido y la entidad correspondiente.
+El `project_id` es el UUID de la empresa u organización que está detrás de la herramienta tratada en el tutorial, disponible [en la lista de proyectos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por ejemplo, para un tutorial sobre Sparrow Wallet, puedes encontrar su `project_id` en el archivo: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Esta información se añade al archivo YAML de su tutorial porque Plan ₿ Network mantiene una base de datos de empresas y organizaciones activas en Bitcoin o proyectos relacionados. Añadiendo el `project_id` asociado, vinculas tu contenido a la entidad relevante.
 
-***Actualización:*** En la nueva versión del script, ya no es necesario ingresar manualmente el `project_id`. Se ha agregado una función de búsqueda para encontrar el proyecto por su nombre y recuperar automáticamente el `project_id` correspondiente. Escriba el comienzo del nombre del proyecto en el campo "Project Name" para buscarlo y luego seleccione la empresa deseada en el menú desplegable. El `project_id` se completará automáticamente en el campo debajo. También puede ingresarlo manualmente si es necesario.
+***Actualización:*** En la nueva versión del script, ya no es necesario introducir manualmente el `project_id`. Se ha añadido una función de búsqueda para encontrar el proyecto por su nombre y recuperar automáticamente el `project_id` correspondiente. Escriba el principio del nombre del proyecto en el campo "Nombre del proyecto" para buscarlo y, a continuación, seleccione la empresa deseada en el menú desplegable. El `project_id` se rellenará automáticamente en el campo inferior. También puede introducirlo manualmente si lo necesita.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Para las etiquetas, seleccione 2 o 3 palabras clave relevantes en relación con el contenido de su tutorial, eligiéndolas exclusivamente de [la lista de etiquetas de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). También tiene una función de búsqueda de palabras con una lista desplegable en el software.
+Para las etiquetas, seleccione 2 o 3 palabras clave relevantes relacionadas con el contenido de su tutorial, eligiendo exclusivamente de [la lista de etiquetas Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). El software también ofrece una función de búsqueda de palabras clave con una lista desplegable.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
-Una vez que haya ingresado y verificado toda la información, haga clic en "Create Tutorial" para confirmar la creación de los archivos de su tutorial. Esto generará localmente la carpeta de su tutorial y todos los archivos necesarios dentro de la categoría seleccionada.
+Una vez introducida y verificada toda la información, haga clic en "Crear tutorial" para confirmar la creación de los archivos de su tutorial. Esto generará localmente su carpeta tutorial y todos los archivos necesarios en la categoría seleccionada.
 
 ![DATA-CREATOR-PY](assets/fr/48.webp)
 
-Ahora puede omitir la subsección "Sin mi script de Python", así como el paso 3 "Rellenar el archivo YAML", ya que el script ya ha realizado estas acciones automáticamente por usted. Pase directamente al paso 4 y comience a redactar su tutorial.
+Ahora puedes saltarte la subsección "Sin mi script Python" así como el paso 3, "Rellenar el archivo YAML", ya que el script ya ha completado estas acciones por ti. Proceda directamente al paso 4 y comience a escribir su tutorial.
 
-Para obtener más información sobre este script de Python, también puede consultar el [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Para más información sobre este script de Python, también puede consultar el [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-### Sin mi script de Python
+### Sin mi script Python
 
-Abra su gestor de archivos y navegue hasta la carpeta `bitcoin-educational-content`, que representa el clon local de su repositorio. Normalmente, debería encontrarla en `Documents\GitHub\bitcoin-educational-content`.
+Abre tu gestor de archivos y navega hasta la carpeta `bitcoin-educational-content`, que representa el clon local de tu repositorio. Normalmente la encontrarás en `Documents\GitHub\bitcoin-educational-content`.
 
-Dentro de este directorio, deberá localizar la subcarpeta adecuada para colocar su tutorial. La organización de las carpetas refleja las diferentes secciones del sitio web de Plan ₿ Network. En nuestro ejemplo, dado que queremos agregar un tutorial sobre Sparrow Wallet, debemos ir a la siguiente ruta: `bitcoin-educational-content\tutorials\wallet`, que corresponde a la sección `WALLET` en el sitio web:
+Dentro de este directorio, deberá localizar la subcarpeta adecuada para colocar su tutorial. La organización de la carpeta refleja las diferentes secciones del sitio web de Plan ₿ Network. En nuestro ejemplo, ya que queremos añadir un tutorial sobre Sparrow Wallet, debemos navegar a la siguiente ruta: `bitcoin-educational-content\tutorials\wallet`, que corresponde a la sección `WALLET` del sitio web:
 
 ![TUTO](assets/fr/12.webp)
 
@@ -216,123 +213,226 @@ bitcoin-educational-content/
 Rellene el archivo `tutorial.yml` copiando la siguiente plantilla:
 
 ```yaml
-id: 
-
-project_id: 
-
+id:
+project_id:
 tags:
-  - 
-  - 
-  - 
-
-category: 
-
-level: 
-
+-
+-
+-
+category:
+level:
 credits:
-  professor: 
-
+professor:
 # Proofreading metadata
-
 original_language:
 proofreading:
-  - language: 
-    last_contribution_date:
-    urgency:
-    contributors_id:
-      - 
-    reward:
-````
-
-A continuación se detallan los campos obligatorios:
-
-
-- **id**: Un UUID (_Universally Unique Identifier_) para identificar de forma única el tutorial. Puede generarlo con [una herramienta en línea](https://www.uuidgenerator.net/version4). El único requisito es que este UUID sea aleatorio para evitar conflictos con otro UUID de la plataforma;
-- **project_id**: El UUID de la empresa u organización detrás de la herramienta presentada en el tutorial [de la lista de proyectos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por ejemplo, si está creando un tutorial sobre el software Sparrow Wallet, puede encontrar este `project_id` en el siguiente archivo: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Esta información se añade al archivo YAML de su tutorial porque Plan ₿ Network mantiene una base de datos de todas las empresas y organizaciones que operan en Bitcoin o proyectos relacionados. Al añadir el `project_id` de la entidad relacionada con su tutorial, se crea un vínculo entre los dos elementos;
-- **tags**: 2 o 3 palabras clave relevantes relacionadas con el contenido del tutorial, elegidas exclusivamente [de la lista de etiquetas del Plan ₿ Red](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- **category**: La subcategoría correspondiente al contenido del tutorial, según la estructura del sitio Plan ₿ Network (por ejemplo para carteras: `desktop`, `hardware`, `mobile`, `backup`);
-- **level**: El nivel de dificultad del tutorial, entre:
-    - `beginner`
-    - `intermediate`
-    - `advanced`
-    - `expert`
-- **professor**: Su `contributor_id` (palabras BIP39) tal y como aparece en [su perfil de profesor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- **idioma_original**: El idioma original del tutorial (por ejemplo `fr`, `en`, etc.);
-- **proofreading**: Información sobre el proceso de corrección. Rellene la primera parte, ya que la corrección de su propio tutorial cuenta como primera validación:
-    - **original_language**: Código de idioma de la corrección (por ejemplo `fr`, `en`, etc.).
-    - **last_contribution_date**: La fecha de hoy.
-    - **urgency**: Dejar en blanco.
-    - **contributors_id**: Tu ID de GitHub.
-    - **reward**: Dejar en blanco.
-
-Para más detalles sobre su identificador de profesor, consulte el tutorial correspondiente:
-
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-
-Este es un ejemplo de un archivo `tutorial.yml` completo para un tutorial sobre el monedero Blockstream Green:
-
-```yaml
-id: e84edaa9-fb65-48c1-a357-8a5f27996143
-project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-tags:
-- wallets
-- software
-- keys
-category: mobile
-level: beginner
-credits:
-professor: pretty-private
-# Proofreading metadata
-original_language: fr
-proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
+- language:
+last_contribution_date:
 urgency:
 contributors_id:
-- LoicPandul
+-
 reward:
-Once you have finished modifying your `tutorial.yml` file, save your document by clicking on `File > Save`:
+````
+Here are the details of the mandatory fields:
+- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
+- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
+- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
+- **level**: The difficulty level of the tutorial, among:
+- `beginner`
+- `intermediate`
+- `advanced`
+- `expert`
+- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
+- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
+- **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
+- **last_contribution_date**: Today's date.
+- **urgency**: Leave blank.
+- **contributors_id**: Your GitHub ID.
+- **reward**: Leave blank.
+For more details on your professor identifier, refer to the corresponding tutorial:
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
+```
+
+id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
+tags:
+
+
+  - carteras
+  - software
+  - llaves
+
+categoría: móvil
+
+nivel: principiante
+
+créditos:
+
+profesor: pretty-private
+
+# Corrección de metadatos
+
+idioma_original: fr
+
+corrección de pruebas:
+
+
+  - idioma: fr
+
+last_contribution_date: 2024-11-20
+
+urgencia:
+
+contribuyentes_id:
+
+
+      - LoicPandul
+
+recompensa:
+
+Una vez que haya terminado de modificar su archivo `tutorial.yml`, guarde su documento haciendo clic en `Archivo > Guardar`:
+
 ![TUTO](assets/fr/16.webp)
-You can now close your code editor.
-## 4 - Fill in the Markdown File
-Now, you can open your file that will host your tutorial, named with the code of your language, such as `fr.md`. Go to Obsidian, on the left side of the window, scroll through the folder tree until you find the folder of your tutorial and the file you are looking for:
+
+Ahora puede cerrar el editor de código.
+
+## 4 - Rellenar el archivo Markdown
+
+Ahora, puedes abrir el archivo que alojará tu tutorial, nombrado con el código de tu idioma, como `fr.md`. Ve a Obsidian, en la parte izquierda de la ventana, desplázate por el árbol de carpetas hasta que encuentres la carpeta de tu tutorial y el archivo que estás buscando:
+
 ![TUTO](assets/fr/18.webp)
-Click on the file to open it:
+
+Haz clic en el archivo para abrirlo:
+
 ![TUTO](assets/fr/19.webp)
-We will start by filling in the `Properties` section at the top of the document.
+
+Empezaremos rellenando la sección `Propiedades` de la parte superior del documento.
+
 ![TUTO](assets/fr/20.webp)
-Manually add and fill in the following code block:
+
+Añada y rellene manualmente el siguiente bloque de código:
+
+```markdown
+---
+name: [Title]
+description: [Description]
+---
 ```
 
----
-name: [Título]
-description: [Descripción]
----
-```
 ![TUTO](assets/fr/21.webp)
-Fill in the name of your tutorial and a short description of it:
+
+Escriba el nombre de su tutorial y una breve descripción del mismo:
+
 ![TUTO](assets/fr/22.webp)
-Then, add the path of the cover image at the beginning of your tutorial. To do this, note:
-```
 
+A continuación, añada la ruta de la imagen de portada al principio de su tutorial. Para ello, tenga en cuenta:
+
+```markdown
 ![cover-sparrow](assets/cover.webp)
-
 ```
-This syntax will be useful whenever adding an image to your tutorial is necessary. The exclamation point indicates that it is an image, with the alternative text (alt) specified between the brackets. The path to the image is indicated between the parentheses:
+
+Esta sintaxis le será útil siempre que sea necesario añadir una imagen a su tutorial. El signo de exclamación indica que se trata de una imagen, con el texto alternativo (alt) especificado entre los corchetes. La ruta a la imagen se indica entre los paréntesis:
+
 ![TUTO](assets/fr/23.webp)
-## 5 - Add the Logo and Cover
-Within the `assets` folder, you must add a file named `logo.webp`, which will serve as a thumbnail for your article. This image must be in `.webp` format and must respect a square dimension to harmonize with the user interface. You are free to choose the logo of the software covered in the tutorial or any other relevant image, provided that it is free of rights. In addition, also add an image titled `cover.webp` in the same place. This image will be displayed at the top of your tutorial. Ensure that this image, like the logo, respects usage rights and is suitable for the context of your tutorial:
-## 6 - Writing the Tutorial and Adding Visuals
-Continue writing your tutorial by drafting your content. When you want to integrate a subtitle, apply the appropriate markdown formatting by prefixing the text with `##`:
+
+## 5 - Añadir el logotipo y la portada
+
+Dentro de la carpeta `assets`, debe añadir un archivo llamado `logo.webp`, que servirá como miniatura de su artículo. Esta imagen debe estar en formato `.webp` y debe respetar una dimensión cuadrada para armonizar con la interfaz de usuario. Puede elegir libremente el logotipo del software tratado en el tutorial o cualquier otra imagen pertinente, siempre que esté libre de derechos. Además, añada también una imagen titulada `cover.webp` en el mismo lugar. Esta imagen se mostrará en la parte superior del tutorial. Asegúrese de que esta imagen, al igual que el logotipo, respeta los derechos de uso y es adecuada para el contexto de su tutorial:
+
+## 6 - Escribir el tutorial y añadir elementos visuales
+
+Continúe escribiendo su tutorial redactando el contenido. Cuando desee integrar un subtítulo, aplique el formato markdown adecuado anteponiendo al texto el prefijo `##`:
+
 ![TUTO](assets/fr/24.webp)
-The language subfolder in the `assets` folder is used to store diagrams and visuals that will accompany your tutorial. As much as possible, avoid including text in your images to make your content accessible to an international audience. Of course, the software being presented will contain text, but if you add diagrams or additional indications on software screenshots, do so without text or, if it proves indispensable, use English.
+
+La subcarpeta de idiomas de la carpeta `assets` se utiliza para almacenar los diagramas y elementos visuales que acompañarán a su tutorial. En la medida de lo posible, evite incluir texto en sus imágenes para que su contenido sea accesible a un público internacional. Por supuesto, el software que se presenta contendrá texto, pero si añade diagramas o indicaciones adicionales en las capturas de pantalla del software, hágalo sin texto o, si resulta imprescindible, utilícelo en inglés.
+
 ![TUTO](assets/fr/25.webp)
-To name your images, simply use numbers corresponding to their order of appearance in the tutorial, formatted with two digits (or three digits if your tutorial contains more than 99 images). For example, name your first image `01.webp`, your second `02.webp`, and so on.
-Your images must be in `.webp` format exclusively. If needed, you can use [my image conversion software](https://github.com/LoicPandul/ImagesConverter).
+
+Para nombrar sus imágenes, utilice simplemente los números correspondientes a su orden de aparición en el tutorial, formateados con dos dígitos (o tres dígitos si su tutorial contiene más de 99 imágenes). Por ejemplo, llame a su primera imagen `01.webp`, a la segunda `02.webp`, y así sucesivamente.
+
+Tus imágenes deben estar exclusivamente en formato `.webp`. Si es necesario, puede utilizar [mi software de conversión de imágenes](https://github.com/LoicPandul/ImagesConverter).
+
 ![TUTO](assets/fr/26.webp)
-To insert a diagram into your document, use the following Markdown command, making sure to specify the appropriate alternative text as well as the correct path of the image:
-```
 
+Para insertar un diagrama en su documento, utilice el siguiente comando Markdown, asegurándose de especificar el texto alternativo apropiado, así como la ruta correcta de la imagen:
+
+```markdown
 ![sparrow](assets/fr/01.webp)
-
 ```
+
+El signo de exclamación al principio indica que se trata de una imagen. El texto alternativo, que ayuda a la accesibilidad y al SEO, se coloca entre paréntesis. Por último, la ruta a la imagen se indica entre los paréntesis.
+
+Si desea crear sus propios diagramas, asegúrese de respetar la carta gráfica del Plan ₿ Red para garantizar la coherencia visual:
+
+
+- Fuente**: Utilice [Rubik](https://fonts.google.com/specimen/Rubik);
+- Colores**:
+ - Naranja: #FF5C00
+ - Negro #000000
+ - Blanco: #FFFFFF
+
+**Es imprescindible que todos los elementos visuales integrados en sus tutoriales estén libres de derechos o respeten la licencia del archivo fuente**. Asimismo, todos los diagramas publicados en Plan ₿ Network están disponibles bajo licencia CC-BY-SA, del mismo modo que el texto.
+
+**-> Consejo:** Al compartir archivos públicamente, como imágenes, es importante eliminar cualquier metadato innecesario. Estos pueden contener información sensible, como datos de localización, fechas de creación o detalles sobre el autor. Para proteger tu privacidad, es aconsejable eliminar estos metadatos. Para simplificar este proceso, puedes utilizar herramientas especializadas como [Exif Cleaner](https://exifcleaner.com/), que permite limpiar los metadatos de un documento con un simple arrastrar y soltar.
+
+## 7 - Guardar y enviar el tutorial
+
+Una vez que haya terminado de escribir su tutorial en el idioma de su elección, el siguiente paso es enviar una **Solicitud de extracción**. El administrador se encargará entonces de añadir las traducciones que falten de tu tutorial, gracias a nuestro método de traducción automática con revisión humana.
+
+Para proceder con la Pull Request, abre el software GitHub Desktop. El software debería detectar automáticamente los cambios que has realizado localmente en tu rama en comparación con el repositorio original. Antes de continuar, comprueba cuidadosamente en la parte izquierda de la interfaz que estos cambios coinciden con lo que esperabas:
+
+![TUTO](assets/fr/28.webp)
+
+Añade un título a tu confirmación y haz clic en el botón azul `Commit to [your branch]` para validar los cambios:
+
+![TUTO](assets/fr/29.webp)
+
+Un commit es un almacenamiento de los cambios realizados en la rama, acompañados de un mensaje descriptivo, que permite seguir la evolución de un proyecto a lo largo del tiempo. Es una especie de punto de control intermedio.
+
+A continuación, haga clic en el botón `Push origin`. Esto enviará tu commit a tu fork:
+
+![TUTO](assets/fr/30.webp)
+
+Si no has terminado tu tutorial, puedes volver a él más tarde y hacer nuevos commits. Si ha completado sus cambios para esta rama, haga clic ahora en el botón `Preview Pull Request`:
+
+![TUTO](assets/fr/31.webp)
+
+Puede comprobar una última vez que sus modificaciones son correctas y, a continuación, haga clic en el botón `Create pull request`:
+
+![TUTO](assets/fr/32.webp)
+
+Una Pull Request es una solicitud realizada para integrar los cambios de tu rama a la rama principal del repositorio Plan ₿ Network, lo que permite revisar y discutir los cambios antes de su fusión.
+
+Se te redirigirá automáticamente a tu navegador en GitHub a la página de preparación de tu Pull Request:
+
+![TUTO](assets/fr/33.webp)
+
+Indica un título que resuma brevemente los cambios que deseas fusionar con el repositorio fuente. Añada un breve comentario que describa estos cambios (si tiene un número de incidencia asociado a la creación de su tutorial, recuerde anotar en el comentario `Closes #{issue number}`) y, a continuación, haga clic en el botón verde `Create pull request` para confirmar la solicitud de fusión:
+
+![TUTO](assets/fr/34.webp)
+
+A continuación, su RP estará visible en la pestaña `Pull Request` del repositorio principal Plan ₿ Network. Todo lo que tiene que hacer es esperar a que un administrador se ponga en contacto con usted para confirmar la fusión de su contribución o para solicitar cualquier modificación adicional.
+
+![TUTO](assets/fr/35.webp)
+
+Después de que su PR se haya fusionado con la rama principal, se recomienda eliminar su rama de trabajo (`tuto-sparrow-wallet`) para mantener un historial limpio en su bifurcación. GitHub le ofrecerá automáticamente esta opción en la página de su PR:
+
+![TUTO](assets/fr/36.webp)
+
+En el software de escritorio de GitHub, puedes volver a la rama principal de tu bifurcación (`dev`).
+
+![TUTO](assets/fr/07.webp)
+
+Si desea realizar cambios en su contribución después de haber presentado su RP, el procedimiento dependerá del estado actual de su RP:
+
+
+- Si su PR sigue abierto y aún no se ha fusionado, realice los cambios localmente permaneciendo en la misma rama. Una vez finalizadas las modificaciones, utilice el botón `Push origin` para añadir un nuevo commit a su PR aún abierto;
+- Si su PR ya ha sido fusionado con la rama principal, necesitará comenzar el proceso de nuevo creando una nueva rama y enviando un nuevo PR. Asegúrese de que su repositorio local está sincronizado con el repositorio fuente de Plan ₿ Network antes de continuar.
+
+Si encuentras dificultades técnicas para enviar tu tutorial, no dudes en pedir ayuda en [nuestro grupo de Telegram dedicado a las contribuciones](https://t.me/PlanBNetwork_ContentBuilder). Muchas gracias

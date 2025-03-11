@@ -7,7 +7,6 @@ description: Kompletní průvodce návrhem výukového programu na síti Plan �
 Než se pustíte do tohoto návodu na přidání nového tutoriálu, musíte provést několik předběžných kroků. Pokud jste tak ještě neučinili, vyzývám vás, abyste se nejprve seznámili s tímto úvodním tutoriálem a poté se sem vrátili:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
-
 Už jste to udělali:
 
 
@@ -21,14 +20,12 @@ V tomto tutoriálu se podíváme, jak přidat svůj tutoriál do sítě Plan ₿
 - Zkušení uživatelé**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
-
 Pokud nechcete nastavovat místní prostředí, postupujte podle tohoto dalšího návodu určeného pro začátečníky, kde změny provedeme přímo přes webové rozhraní GitHubu:
 
 
 - Pro začátečníky (webové rozhraní)**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
-
 ## Předpoklady
 
 Software potřebný pro tento výukový program:
@@ -50,7 +47,6 @@ Předpoklady před zahájením výuky:
 Pokud potřebujete pomoci se získáním těchto předpokladů, pomohou vám mé další výukové programy:
 
 https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
-
 Jakmile je vše na svém místě a vaše místní prostředí je správně nastaveno s vlastní odnoží sítě Plan ₿, můžete začít přidávat výukový program.
 
 ## 1 - Vytvoření nové pobočky
@@ -75,7 +71,7 @@ Ověřte, zda jste skutečně v hlavní větvi `dev`:
 
 ![TUTO](assets/fr/07.webp)
 
-Klikněte na tuto větev a potom klikněte na tlačítko `Nová větev`:
+Klikněte na tuto větev a poté klikněte na tlačítko `Nová větev`:
 
 ![TUTO](assets/fr/08.webp)
 
@@ -101,12 +97,14 @@ Nyní, když je vytvořena pracovní větev, je čas integrovat nový výukový 
 
 ### Pomocí mého skriptu Python
 
-Musíte nainstalovat na svůj počítač:
+Musíte jej nainstalovat do počítače:
+
+
 - Python 3.8 nebo vyšší.
 
-Pro použití skriptu přejděte do složky, kde je uložen. Skript se nachází v datovém úložišti Plan ₿ Network pod cestou: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
+Chcete-li skript použít, přejděte do složky, kde je uložen. Skript se nachází v úložišti dat sítě Plan ₿ na cestě: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
-Jakmile jste ve složce, nainstalujte závislosti:
+Po vložení do složky nainstalujte závislosti:
 
 ```bash
 pip install -r requirements.txt
@@ -118,69 +116,68 @@ Poté spusťte software příkazem:
 python3 main.py
 ```
 
-Grafické uživatelské rozhraní (GUI) se otevře. Poprvé budete muset zadat všechny potřebné informace, ale při dalších použitích skriptu si vaše osobní údaje zapamatuje, takže je nebudete muset znovu zadávat.
+Otevře se grafické uživatelské rozhraní (GUI). Poprvé budete muset zadat všechny potřebné informace, ale při dalších použitích si skript vaše osobní údaje zapamatuje, takže je nebudete muset zadávat znovu.
 
 ![DATA-CREATOR-PY](assets/fr/37.webp)
 
-Nejprve zadejte místní cestu vedoucí do složky `/tutorials` ve vašem klonu úložiště (`.../bitcoin-educational-content/tutorials/`). Můžete ji zadat ručně nebo kliknout na tlačítko "Browse" pro navigaci pomocí průzkumníka souborů.
+Začněte zadáním místní cesty ke složce `/tutorials` v klonovaném úložišti (`.../bitcoin-educational-content/tutorials/`). Můžete ji zadat ručně nebo kliknutím na tlačítko "Procházet" přejít pomocí průzkumníka souborů.
 
 ![DATA-CREATOR-PY](assets/fr/38.webp)
 
-Vyberte jazyk, ve kterém budete psát svůj tutoriál.
+Vyberte jazyk, ve kterém budete psát výukový program.
 
 ![DATA-CREATOR-PY](assets/fr/39.webp)
 
-Do pole "Contributor's GitHub ID" zadejte své GitHub ID.
+Do pole "ID GitHub přispěvatele" zadejte své uživatelské jméno GitHub.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Do pole "PBN professor's ID" zadejte své identifikační údaje pomocí slov ze seznamu BIP39, jak je uvedeno na [vašem profesorském profilu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Do pole "PBN professor's ID" zadejte svůj identifikátor pomocí slov ze seznamu BIP39, jak je uveden na [vašem profilu profesora](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 
-Pokud ještě nemáte profesorský profil, podívejte se na tento tutoriál:
+Pokud ještě nemáte profil profesora, podívejte se na tento návod:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-
-Klikněte poté na tlačítko "New Tutorial".
+Poté klikněte na tlačítko "Nový výukový program".
 
 ![DATA-CREATOR-PY](assets/fr/42.webp)
 
-Vyberte hlavní kategorii pro váš tutoriál. Poté vyberte odpovídající podkategorii podle zvolené hlavní kategorie.
+Zvolte si hlavní kategorii výukového programu. Poté vyberte příslušnou podkategorii podle zvolené hlavní kategorie.
 
 ![DATA-CREATOR-PY](assets/fr/43.webp)
 
-Určete úroveň obtížnosti tutoriálu.
+Určete úroveň obtížnosti výukového programu.
 
 ![DATA-CREATOR-PY](assets/fr/44.webp)
 
-Zvolte název adresáře vytvořeného speciálně pro váš tutoriál. Název této složky by měl odrážet software popsaný v tutoriálu a používat pomlčky pro spojení slov. Například složka by mohla být pojmenována `red-wallet`:
+Zvolte název adresáře vytvořeného speciálně pro váš výukový program. Název této složky by měl odrážet software, který je v tutoriálu popsán, a slova by měla být oddělena pomlčkami. Složka by se například mohla jmenovat `red-wallet`:
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-`project_id` je UUID společnosti nebo organizace stojící za nástrojem popsaným v tutoriálu, dostupné [v seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Například pro tutoriál o Sparrow Wallet naleznete `project_id` v souboru: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Tato informace je přidána do YAML souboru vašeho tutoriálu, protože Plan ₿ Network udržuje databázi společností a organizací aktivních v oblasti Bitcoinu nebo souvisejících projektů. Přidáním `project_id` k vašemu tutoriálu vytváříte propojení mezi vaším obsahem a příslušnou entitou.
+`project_id` je UUID společnosti nebo organizace, která stojí za nástrojem, jehož se výukový program týká, a je k dispozici [v seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Například u výukového kurzu o peněžence Sparrow Wallet najdete v souboru její `project_id`: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Tato informace je přidána do souboru YAML vašeho výukového programu, protože síť Plan ₿ Network spravuje databázi společností a organizací aktivních v oblasti Bitcoinu nebo souvisejících projektů. Přidáním přidruženého `project_id` propojíte svůj obsah s příslušným subjektem.
 
-***Aktualizace:*** V nové verzi skriptu již nemusíte zadávat `project_id` ručně. Byla přidána funkce vyhledávání, která umožňuje najít projekt podle názvu a automaticky získat odpovídající `project_id`. Začněte psát název projektu do pole "Project Name" pro vyhledání a poté vyberte požadovanou společnost z rozbalovací nabídky. `project_id` se automaticky vyplní do pole pod ním. Můžete jej také zadat ručně, pokud je to nutné.
+***Aktualizace:*** V nové verzi skriptu již nemusíte ručně zadávat `project_id`. Byla přidána funkce vyhledávání, která vyhledá projekt podle názvu a automaticky načte odpovídající `project_id`. Pro vyhledání projektu zadejte do pole `Název projektu` začátek jeho názvu a poté vyberte požadovanou společnost z rozbalovací nabídky. V poli níže se automaticky vyplní `project_id`. V případě potřeby jej můžete zadat také ručně.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-U tagů vyberte 2 nebo 3 relevantní klíčová slova související s obsahem vašeho tutoriálu, výhradně z [Plan ₿ Network seznamu tagů](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Software také poskytuje funkci vyhledávání slov s rozbalovacím seznamem.
+U značek vyberte 2 nebo 3 relevantní klíčová slova související s obsahem výukového programu a vybírejte výhradně ze [seznamu značek sítě Plan ₿](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Software rovněž poskytuje funkci vyhledávání klíčových slov pomocí rozevíracího seznamu.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
-Po zadání a ověření všech informací klikněte na "Create Tutorial" pro potvrzení vytvoření souborů vašeho tutoriálu. To vygeneruje místně složku vašeho tutoriálu a všechny potřebné soubory v rámci vybrané kategorie.
+Po zadání a ověření všech informací klikněte na tlačítko "Create Tutorial" a potvrďte vytvoření výukových souborů. Tím se lokálně vytvoří složka výukového programu a všechny potřebné soubory ve vybrané kategorii.
 
 ![DATA-CREATOR-PY](assets/fr/48.webp)
 
-Nyní můžete přeskočit podčást "Bez mého Python skriptu" i krok 3 "Vyplnění YAML souboru", protože skript již tyto akce automaticky provedl za vás. Pokračujte přímo krokem 4 a začněte psát svůj tutoriál.
+Nyní můžete přeskočit podkapitolu "Bez mého skriptu Python" i krok 3 "Vyplňte soubor YAML", protože tyto činnosti již za vás provedl skript. Přejděte přímo ke kroku 4 a začněte psát svůj výukový program.
 
-Pro více informací o tomto Python skriptu si můžete také přečíst [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Další informace o tomto skriptu v jazyce Python naleznete v [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-### Bez mého Python skriptu
+### Bez mého skriptu Python
 
-Otevřete správce souborů a přejděte do složky `bitcoin-educational-content`, což je lokální klon vašeho repozitáře. Měla by se obvykle nacházet v `Documents\GitHub\bitcoin-educational-content`.
+Otevřete správce souborů a přejděte do složky `bitcoin-educational-content`, která představuje místní klon vašeho úložiště. Obvykle ji najdete ve složce `Documents\GitHub\bitcoin-educational-content`.
 
-V tomto adresáři je nutné najít odpovídající podsložku pro umístění vašeho tutoriálu. Struktura složek odpovídá různým sekcím webu Plan ₿ Network. V našem příkladu, protože chceme přidat tutoriál o Sparrow Wallet, měli bychom přejít na následující cestu: `bitcoin-educational-content\tutorials\wallet`, která odpovídá sekci `WALLET` na webových stránkách:
+V tomto adresáři je třeba najít příslušnou podsložku pro umístění výukového programu. Uspořádání složek odpovídá různým sekcím webových stránek Plan ₿ Network. V našem příkladu, protože chceme přidat výukový program o peněžence Sparrow, bychom měli přejít na následující cestu: na webu sítě Network se nachází následující adresa: `bitcoin-educational-content\tutorials\wallet`, která odpovídá sekci `WALLET`:
 
 ![TUTO](assets/fr/12.webp)
 
@@ -216,123 +213,226 @@ bitcoin-educational-content/
 Vyplňte soubor `tutorial.yml` zkopírováním následující šablony:
 
 ```yaml
-id: 
-
-project_id: 
-
+id:
+project_id:
 tags:
-  - 
-  - 
-  - 
-
-category: 
-
-level: 
-
+-
+-
+-
+category:
+level:
 credits:
-  professor: 
-
+professor:
 # Proofreading metadata
-
 original_language:
 proofreading:
-  - language: 
-    last_contribution_date:
-    urgency:
-    contributors_id:
-      - 
-    reward:
-````
-
-Zde jsou uvedeny podrobnosti o povinných polích:
-
-
-- **id**: UUID (_Universally Unique Identifier_), který slouží k jednoznačné identifikaci výukového programu. Můžete jej vygenerovat pomocí [online nástroje](https://www.uuidgenerator.net/version4). Jediným požadavkem je, aby tento UUID byl náhodný, aby nedošlo ke konfliktu s jiným UUID na platformě;
-- **project_id**: UUID společnosti nebo organizace, která stojí za nástrojem prezentovaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Pokud například vytváříte výukový program o softwaru Sparrow Wallet, najdete toto `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Tato informace je přidána do souboru YAML vašeho výukového programu, protože síť Plan ₿ udržuje databázi všech společností a organizací působících v oblasti Bitcoinu nebo souvisejících projektů. Přidáním `project_id` subjektu souvisejícího s vaším tutoriálem vytvoříte spojení mezi těmito dvěma prvky;
-- **tags**: 2 nebo 3 relevantní klíčová slova související s obsahem výukového programu, vybraná výhradně [ze seznamu značek sítě Plan ₿](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- **category**: Podkategorie odpovídající obsahu výukového programu podle struktury webu sítě Plan ₿ (například pro peněženky: `desktop`, `hardware`, `mobil`, `zálohování`);
-- **level**: Úroveň obtížnosti výukového programu, mezi:
-    - `beginner`
-    - `intermediate`
-    - `advanced`
-    - `expert`
-- **professor**: (slova BIP39), jak je zobrazeno na [vašem profilu profesora](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- **original_language**: Původní jazyk výukového programu (například `fr`, `en` atd.);
-- **proofreading**: Informace o procesu korektury. Vyplňte první část, protože korektura vlastního výukového materiálu se počítá jako první ověření:
-    - **language**: Kód jazyka korektury (například `fr`, `en` atd.).
-    - **last_contribution_date**: Dnešní datum.
-    - **urgency**: Nevyplňujte.
-    - **contributors_id**: Vaše GitHub ID.
-    - **reward**: Nevyplňujte.
-
-Další podrobnosti o identifikátoru profesora naleznete v příslušném výukovém kurzu:
-
-https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-
-Zde je příklad vyplněného souboru `tutorial.yml` pro výukový program o peněžence Blockstream Green:
-
-```yaml
-id: e84edaa9-fb65-48c1-a357-8a5f27996143
-project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
-tags:
-- wallets
-- software
-- keys
-category: mobile
-level: beginner
-credits:
-professor: pretty-private
-# Proofreading metadata
-original_language: fr
-proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
+- language:
+last_contribution_date:
 urgency:
 contributors_id:
-- LoicPandul
+-
 reward:
-Once you have finished modifying your `tutorial.yml` file, save your document by clicking on `File > Save`:
+````
+Here are the details of the mandatory fields:
+- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
+- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
+- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
+- **level**: The difficulty level of the tutorial, among:
+- `beginner`
+- `intermediate`
+- `advanced`
+- `expert`
+- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
+- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
+- **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
+- **last_contribution_date**: Today's date.
+- **urgency**: Leave blank.
+- **contributors_id**: Your GitHub ID.
+- **reward**: Leave blank.
+For more details on your professor identifier, refer to the corresponding tutorial:
+https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
+```
+
+id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
+tagy:
+
+
+  - peněženky
+  - software
+  - klíče
+
+kategorie: mobilní zařízení
+
+úroveň: začátečník
+
+úvěry:
+
+profesor: pretty-private
+
+# Korektury metadat
+
+original_language: fr
+
+korektury:
+
+
+  - jazyk: fr
+
+last_contribution_date: 2024-11-20
+
+naléhavost:
+
+přispěvatelé_id:
+
+
+      - LoicPandul
+
+odměna:
+
+Po dokončení úprav souboru `tutorial.yml` uložte dokument kliknutím na `Soubor > Uložit`:
+
 ![TUTO](assets/fr/16.webp)
-You can now close your code editor.
-## 4 - Fill in the Markdown File
-Now, you can open your file that will host your tutorial, named with the code of your language, such as `fr.md`. Go to Obsidian, on the left side of the window, scroll through the folder tree until you find the folder of your tutorial and the file you are looking for:
+
+Nyní můžete zavřít editor kódu.
+
+## 4 - Vyplnění souboru Markdown
+
+Nyní můžete otevřít soubor, ve kterém bude umístěn váš výukový program, pojmenovaný kódem vašeho jazyka, například `fr.md`. Přejděte do Obsidianu, v levé části okna procházejte stromem složek, dokud nenajdete složku svého výukového programu a hledaný soubor:
+
 ![TUTO](assets/fr/18.webp)
-Click on the file to open it:
+
+Kliknutím na soubor jej otevřete:
+
 ![TUTO](assets/fr/19.webp)
-We will start by filling in the `Properties` section at the top of the document.
+
+Začneme vyplněním části `Vlastnosti` v horní části dokumentu.
+
 ![TUTO](assets/fr/20.webp)
-Manually add and fill in the following code block:
+
+Ručně přidejte a vyplňte následující blok kódu:
+
+```markdown
+---
+name: [Title]
+description: [Description]
+---
 ```
 
----
-name: [Název]
-description: [Popis]
----
-```
 ![TUTO](assets/fr/21.webp)
-Fill in the name of your tutorial and a short description of it:
+
+Vyplňte název výukového programu a jeho krátký popis:
+
 ![TUTO](assets/fr/22.webp)
-Then, add the path of the cover image at the beginning of your tutorial. To do this, note:
-```
 
+Na začátek výukového programu pak přidejte cestu k obrázku obálky. K tomu si poznamenejte:
+
+```markdown
 ![cover-sparrow](assets/cover.webp)
-
 ```
-This syntax will be useful whenever adding an image to your tutorial is necessary. The exclamation point indicates that it is an image, with the alternative text (alt) specified between the brackets. The path to the image is indicated between the parentheses:
+
+Tato syntaxe se vám bude hodit vždy, když bude nutné přidat do výukového programu obrázek. Vykřičník označuje, že se jedná o obrázek, přičemž alternativní text (alt) je uveden mezi závorkami. Cesta k obrázku je uvedena mezi závorkami:
+
 ![TUTO](assets/fr/23.webp)
-## 5 - Add the Logo and Cover
-Within the `assets` folder, you must add a file named `logo.webp`, which will serve as a thumbnail for your article. This image must be in `.webp` format and must respect a square dimension to harmonize with the user interface. You are free to choose the logo of the software covered in the tutorial or any other relevant image, provided that it is free of rights. In addition, also add an image titled `cover.webp` in the same place. This image will be displayed at the top of your tutorial. Ensure that this image, like the logo, respects usage rights and is suitable for the context of your tutorial:
-## 6 - Writing the Tutorial and Adding Visuals
-Continue writing your tutorial by drafting your content. When you want to integrate a subtitle, apply the appropriate markdown formatting by prefixing the text with `##`:
+
+## 5 - Přidání loga a obálky
+
+Do složky `assets` musíte přidat soubor s názvem `logo.webp`, který bude sloužit jako miniatura článku. Tento obrázek musí být ve formátu `.webp` a musí dodržovat čtvercový rozměr, aby ladil s uživatelským rozhraním. Můžete si zvolit logo softwaru, o kterém pojednává výukový program, nebo jakýkoli jiný vhodný obrázek za předpokladu, že na něj nemáte žádná práva. Kromě toho na stejné místo přidejte také obrázek s názvem `cover.webp`. Tento obrázek se bude zobrazovat v horní části vašeho výukového programu. Ujistěte se, že tento obrázek, stejně jako logo, respektuje práva k použití a je vhodný pro kontext vašeho výukového kurzu:
+
+## 6 - Psaní výukového programu a přidávání vizuálních materiálů
+
+Pokračujte v psaní výukového programu přípravou obsahu. Pokud chcete začlenit titulek, použijte příslušné formátování markdown předřazením textu před `##`:
+
 ![TUTO](assets/fr/24.webp)
-The language subfolder in the `assets` folder is used to store diagrams and visuals that will accompany your tutorial. As much as possible, avoid including text in your images to make your content accessible to an international audience. Of course, the software being presented will contain text, but if you add diagrams or additional indications on software screenshots, do so without text or, if it proves indispensable, use English.
+
+Podsložka Jazyk ve složce `assets` slouží k ukládání diagramů a vizuálních materiálů, které budou doprovázet váš výukový program. Pokud je to možné, vyvarujte se vkládání textu do obrázků, aby byl obsah přístupný mezinárodnímu publiku. Prezentovaný software bude samozřejmě obsahovat text, ale pokud přidáváte diagramy nebo další údaje na snímky obrazovky softwaru, udělejte to bez textu, nebo pokud se ukáže jako nezbytný, použijte angličtinu.
+
 ![TUTO](assets/fr/25.webp)
-To name your images, simply use numbers corresponding to their order of appearance in the tutorial, formatted with two digits (or three digits if your tutorial contains more than 99 images). For example, name your first image `01.webp`, your second `02.webp`, and so on.
-Your images must be in `.webp` format exclusively. If needed, you can use [my image conversion software](https://github.com/LoicPandul/ImagesConverter).
+
+Pro pojmenování obrázků jednoduše použijte čísla odpovídající pořadí jejich výskytu ve výukovém programu, formátovaná dvěma číslicemi (nebo třemi číslicemi, pokud výukový program obsahuje více než 99 obrázků). Například první obrázek pojmenujte `01.webp`, druhý `02.webp` a tak dále.
+
+Vaše obrázky musí být výhradně ve formátu `.webp`. V případě potřeby můžete použít [můj software pro konverzi obrázků](https://github.com/LoicPandul/ImagesConverter).
+
 ![TUTO](assets/fr/26.webp)
-To insert a diagram into your document, use the following Markdown command, making sure to specify the appropriate alternative text as well as the correct path of the image:
-```
 
+Chcete-li do dokumentu vložit diagram, použijte následující příkaz Markdown a nezapomeňte zadat příslušný alternativní text a správnou cestu k obrázku:
+
+```markdown
 ![sparrow](assets/fr/01.webp)
-
 ```
+
+Vykřičník na začátku označuje, že se jedná o obrázek. Alternativní text, který napomáhá přístupnosti a SEO, je umístěn mezi závorkami. Nakonec je mezi závorkami uvedena cesta k obrázku.
+
+Pokud si chcete vytvořit vlastní diagramy, dbejte na dodržování grafické charty sítě Plan ₿, abyste zajistili vizuální konzistenci:
+
+
+- Písmo**: [Rubik](https://fonts.google.com/specimen/Rubik);
+- Barvy**:
+ - Oranžová: #FF5C00
+ - Černá barva: #000000
+ - Bílá: #FFFFFF
+
+**Je nutné, aby všechny vizuály integrované do vašich výukových programů byly bez práv nebo respektovaly licenci zdrojového souboru**. Také všechna schémata zveřejněná v síti Plan ₿ jsou k dispozici pod licencí CC-BY-SA, stejně jako text.
+
+**-> Tip:** Při veřejném sdílení souborů, například obrázků, je důležité odstranit nepotřebná metadata. Ta mohou obsahovat citlivé informace, jako jsou údaje o poloze, data vytvoření nebo podrobnosti o autorovi. V zájmu ochrany soukromí je vhodné tato metadata odstranit. Pro zjednodušení tohoto procesu můžete použít specializované nástroje, jako je [Exif Cleaner](https://exifcleaner.com/), který umožňuje vyčistit metadata dokumentu jednoduchým přetažením.
+
+## 7 - Uložení a odeslání výukového programu
+
+Po dokončení psaní výukového programu ve zvoleném jazyce je dalším krokem odeslání **žádosti o stažení**. Správce se poté postará o přidání chybějících překladů vašeho tutoriálu díky naší metodě automatického překladu s lidskou kontrolou.
+
+Chcete-li pokračovat v odesílání žádosti o stažení, otevřete program GitHub Desktop. Software by měl automaticky zjistit změny, které jste provedli lokálně ve své větvi v porovnání s původním úložištěm. Než budete pokračovat, pečlivě zkontrolujte v levé části rozhraní, zda tyto změny odpovídají tomu, co jste očekávali:
+
+![TUTO](assets/fr/28.webp)
+
+Přidejte název revize a kliknutím na modré tlačítko `Odeslat do [vaší větve]` tyto změny potvrďte:
+
+![TUTO](assets/fr/29.webp)
+
+Revize je uložení změn provedených ve větvi, doprovázené popisnou zprávou, což umožňuje sledovat vývoj projektu v čase. Je to jakýsi mezilehlý kontrolní bod.
+
+Poté klikněte na tlačítko `Push origin`. Tím odešlete revizi do svého forku:
+
+![TUTO](assets/fr/30.webp)
+
+Pokud jste výukový program nedokončili, můžete se k němu vrátit později a provést nové revize. Pokud jste dokončili změny v této větvi, klikněte nyní na tlačítko `Preview Pull Request`:
+
+![TUTO](assets/fr/31.webp)
+
+Můžete naposledy zkontrolovat, zda jsou vaše úpravy správné, a poté kliknout na tlačítko `Vytvořit žádost o stažení`:
+
+![TUTO](assets/fr/32.webp)
+
+Žádost o vytažení je žádost o začlenění změn z vaší větve do hlavní větve úložiště sítě Plan ₿, která umožňuje kontrolu a diskusi o změnách před jejich sloučením.
+
+Budete automaticky přesměrováni do svého prohlížeče na GitHubu na přípravnou stránku vaší žádosti o stažení:
+
+![TUTO](assets/fr/33.webp)
+
+Uveďte název, který stručně shrnuje změny, které chcete sloučit se zdrojovým úložištěm. Přidejte stručný komentář popisující tyto změny (pokud je s vytvořením vašeho výukového programu spojeno číslo problému, nezapomeňte do komentáře uvést `Uzavírá #{číslo problému}`) a poté kliknutím na zelené tlačítko `Vytvořit žádost o stažení` potvrďte žádost o sloučení:
+
+![TUTO](assets/fr/34.webp)
+
+Vaše žádost o stažení bude poté viditelná na kartě `Žádost o stažení` v hlavním úložišti sítě Plán ₿. Stačí počkat, až vás kontaktuje správce, aby potvrdil sloučení vašeho příspěvku nebo požádal o další úpravy.
+
+![TUTO](assets/fr/35.webp)
+
+Po sloučení vašeho PR s hlavní větví doporučujeme smazat vaši pracovní větev (`tuto-sparrow-wallet`), abyste si zachovali čistou historii vaší větve. GitHub vám tuto možnost automaticky nabídne na stránce vašeho PR:
+
+![TUTO](assets/fr/36.webp)
+
+V softwaru GitHub Desktop se můžete přepnout zpět do hlavní větve svého forku (`dev`).
+
+![TUTO](assets/fr/07.webp)
+
+Pokud chcete provést změny ve svém příspěvku poté, co jste již předložili PR, závisí postup na aktuálním stavu vašeho PR:
+
+
+- Pokud je váš PR stále otevřený a ještě nebyl sloučen, proveďte změny lokálně a zůstaňte ve stejné větvi. Jakmile jsou změny dokončeny, použijte tlačítko `Push origin` a přidejte novou revizi do stále otevřeného PR;
+- Pokud byl váš PR již sloučen s hlavní větví, musíte proces začít znovu vytvořením nové větve a následným odesláním nového PR. Před pokračováním se ujistěte, že je váš místní repozitář synchronizován se zdrojovým repozitářem sítě Plan ₿.
+
+Pokud se při odesílání výukového programu setkáte s technickými potížemi, neváhejte požádat o pomoc na [naší speciální skupině pro příspěvky na Telegramu](https://t.me/PlanBNetwork_ContentBuilder). Děkujeme!

@@ -758,6 +758,26 @@ Cuando iniciamos RGB, revisamos todos estos métodos para determinar dónde y c�
 | Multi-sig 2-de-3 con timeouts  | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
 
 
+| Capa                            | Costo on-chain (vbytes) | Costo on-chain (vbytes) | Costo on-chain (vbytes) | Costo lado cliente (bytes) | Costo lado cliente (bytes) |
+| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
+| **Tipo**                         | **Base**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                        | 0                        |
+| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                        | 0                        |
+| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
+| Rama MuSig / Multi_a (n-of-m)     | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+| Con timeouts (n-of-m)            | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+
+| Método                                   | Privacidad y escalabilidad | Interoperabilidad | Compatibilidad | Portabilidad | Complejidad |
+| ---------------------------------------- | ------------------------- | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (P2C determinista)              | 🟢                         | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (S2C determinista)              | 🟢                         | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                         | 🔴                         | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret: Nodo superior izquierdo      | 🟠                         | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret #4: Cualquier nodo + prueba  | 🟢                         | 🟢               | 🟢            | 🟠          | 🔴         |
+
+
+
+
 
 
 
@@ -1349,19 +1369,14 @@ Si, en el contrato, un elemento de estado no se define como mutable o acumulativ
 
 La tabla siguiente ilustra cómo cada tipo de Operación de contrato puede manipular (o no) el Estado global y el Estado propio:
 
-| Génesis | Extensión de estado | Transición de estado |
+|                              | Génesis | Extensión de Estado | Transición de Estado |
+| ---------------------------- | :-----: | :-----------------: | :------------------: |
+| **Adición de Global State**  |    +    |         -         |          +          |
+| **Mutación de Global State** |   n/a   |         -         |          +          |
+| **Adición de Owned State**   |    +    |         -         |          +          |
+| **Mutación de Owned State**  |   n/a   |        No         |          +          |
+| **Adición de Valencies**     |    +    |         +         |          +          |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Añadir Estado Global** | + | - | + |
-
-| n/a | - | + | **Mutación del Estado Global** | - | + |
-
-| **Añadir Estado Propio** | + | - | + |
-
-| **Mutación de Estado Propio** | n/a | No | + |
-
-| **Añadir Valencias** | + | + | + | + |
 
 **`+`** : acción posible si el Esquema del contrato lo permite.
 
@@ -1369,15 +1384,12 @@ La tabla siguiente ilustra cómo cada tipo de Operación de contrato puede manip
 
 Además, el ámbito temporal y los derechos de actualización de cada tipo de datos pueden distinguirse en la siguiente tabla:
 
-| Metadatos | Estado Global | Estado Propio |
+|                                 | Metadatos                                | Estado Global                                 | Estado Propietario                                                                                        |
+| ------------------------------- | ---------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Alcance**                     | Definido para una única operación de contrato | Definido globalmente para el contrato       | Definido para cada sello (*Assignment*)                                                                  |
+| **¿Quién puede actualizarlo?**  | No actualizable (datos efímeros)        | Operación emitida por los actores (emisor, etc.) | Depende del poseedor legítimo que tiene el sello (quien puede gastarlo en una transacción posterior)     |
+| **Alcance temporal**            | Solo para la operación actual           | El estado se establece al final de la operación | El estado se define antes de la operación (por la *Seal Definition* de la operación anterior)           |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Definido para una única Operación de Contrato | Definido globalmente para el contrato | Definido para cada sello (*Asignación*) | Definido para una única Operación de Contrato | Definido globalmente para el contrato | Definido para cada sello (*Asignación*) | Definido para cada contrato
-
-| No actualizable (datos efímeros) | Transacción emitida por actores (emisor, etc.) | Depende del titular legítimo del sello (el que puede gastarlo en una transacción posterior) | Transacción emitida por actores (emisor, etc.) | Depende del titular legítimo del sello (el que puede gastarlo en una transacción posterior) | Transacción emitida por actores (emisor, etc.)
-
-| El estado se define antes de la operación (por la *Seal Definition* de la operación anterior) | El estado se establece al final de la operación
 
 ### Estado mundial
 

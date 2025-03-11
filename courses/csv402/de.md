@@ -759,6 +759,25 @@ Als wir mit RGB begannen, prüften wir all diese Methoden, um zu bestimmen, wo u
 | Multi-sig 2-of-3 mit Timeouts  | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                     | 65                    | 32                    | n/a                   | 0                     |
 
 
+| Schicht                           | On-Chain-Kosten (vbytes) | On-Chain-Kosten (vbytes) | On-Chain-Kosten (vbytes) | Client-Kosten (bytes) | Client-Kosten (bytes) |
+| --------------------------------- | ----------------------- | ----------------------- | ----------------------- | -------------------- | -------------------- |
+| **Typ**                           | **Basis**               | **Tapret #2**           | **Tapret #4**           | **Tapret #2**        | **Tapret #4**        |
+| MuSig (n-of-n)                    | 16.5                    | 0                        | 0                        | 0                    | 0                    |
+| FROST (n-of-m)                    | ?                        | 0                        | 0                        | 0                    | 0                    |
+| Multi_a (n-of-m)                  | 1+16n+8m                 | 8                        | 8                        | 33 * m               | 65                   |
+| Verzweigung MuSig / Multi_a (n-of-m) | 1+16n+8n+8xlog(n)        | 8                        | 0                        | 64                   | 65                   |
+| Mit Timeouts (n-of-m)             | 1+16n+8n+8xlog(n)        | 8                        | 0                        | 64                   | 65                   |
+
+| Methode                                  | Datenschutz und Skalierbarkeit | Interoperabilität | Kompatibilität | Portabilität | Komplexität |
+| ---------------------------------------- | ----------------------------- | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (deterministisches P2C)        | 🟢                             | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (deterministisches S2C)        | 🟢                             | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                       | 🔴                             | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret: oberster linker Knoten     | 🟠                             | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret #4: beliebiger Knoten + Beweis | 🟢                             | 🟢               | 🟢            | 🟠          | 🔴         |
+
+
+
 
 
 
@@ -1348,19 +1367,14 @@ Wenn ein Zustandselement im Vertrag nicht als veränderbar oder kumulativ defini
 
 Die nachstehende Tabelle veranschaulicht, wie die einzelnen Arten von Vertragsoperationen den globalen Zustand und den eigenen Zustand manipulieren können (oder auch nicht):
 
-| Genese | Zustandserweiterung | Zustandsübergang |
+|                              | Genesis | Zustandserweiterung | Zustandsübergang |
+| ---------------------------- | :-----: | :-----------------: | :--------------: |
+| **Hinzufügen von Global State** |    +    |         -         |        +         |
+| **Mutation von Global State**  |   n/a   |         -         |        +         |
+| **Hinzufügen von Owned State**  |    +    |         -         |        +         |
+| **Mutation von Owned State**   |   n/a   |        Nein        |        +         |
+| **Hinzufügen von Valencies**   |    +    |         +         |        +         |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Globalen Zustand hinzufügen** | + | - | + |
-
-| n/a | - | + | **Mutation des globalen Zustands** | - | + |
-
-| **Besitzstand hinzufügen** | + | - | + |
-
-**Mutation des Besitzstandes** | n/a | Nein | + |
-
-| **Hinzufügen von Valenzen** | + | + | + | + |
 
 **`+`** : Aktion möglich, wenn das Schema des Vertrags dies zulässt.
 
@@ -1368,15 +1382,12 @@ Die nachstehende Tabelle veranschaulicht, wie die einzelnen Arten von Vertragsop
 
 Darüber hinaus lassen sich der zeitliche Umfang und die Aktualisierungsrechte der einzelnen Datentypen in der folgenden Tabelle unterscheiden:
 
-| Metadaten | Globaler Status | Eigener Status |
+|                                 | Metadaten                                | Globaler Zustand                            | Besitzzustand                                                                                             |
+| ------------------------------- | ---------------------------------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Geltungsbereich**             | Definiert für eine einzelne Vertragsoperation | Global für den Vertrag definiert           | Definiert für jedes Siegel (*Assignment*)                                                               |
+| **Wer kann es aktualisieren?**  | Nicht aktualisierbar (flüchtige Daten)   | Operation von Akteuren ausgeführt (Herausgeber usw.) | Abhängig vom rechtmäßigen Inhaber des Siegels (derjenige, der es in der nächsten Transaktion ausgeben kann) |
+| **Zeitlicher Rahmen**           | Nur für die aktuelle Operation           | Der Zustand wird nach der Operation festgelegt | Der Zustand wird vor der Operation definiert (durch die *Seal Definition* der vorherigen Operation)      |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Definiert für eine einzelne Vertragsoperation | Global für den Vertrag definiert | Definiert für jedes Siegel (*Zuweisung*) | Definiert für eine einzelne Vertragsoperation | Global für den Vertrag definiert | Definiert für jedes Siegel (*Zuweisung*) | Definiert für jedes Siegel (*Zuweisung*) | Definiert für jeden Vertrag
-
-| Nicht realisierbar (ephemere Daten) | Transaktion, die von Akteuren ausgestellt wird (Emittent usw.) | Hängt vom rechtmäßigen Inhaber des Siegels ab (der es in einer nachfolgenden Transaktion ausgeben kann) |
-
-| Der Zustand wird vor dem Vorgang definiert (durch die *Siegeldefinition* des vorherigen Vorgangs) | Der Zustand wird am Ende des Vorgangs hergestellt | Der Zustand wird am Ende des Vorgangs hergestellt | Der Zustand wird vor dem Vorgang definiert (durch die *Siegeldefinition* des vorherigen Vorgangs) | Der Zustand wird am Ende des Vorgangs hergestellt | Der Zustand wird vor dem Vorgang definiert (durch die *Siegeldefinition* des vorherigen Vorgangs)
 
 ### Globaler Staat
 

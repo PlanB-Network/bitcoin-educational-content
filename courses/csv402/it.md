@@ -761,6 +761,25 @@ Quando abbiamo avviato RGB, abbiamo esaminato tutti questi metodi per determinar
 
 
 
+| Livello                           | Costo on-chain (vbytes) | Costo on-chain (vbytes) | Costo on-chain (vbytes) | Costo lato client (bytes) | Costo lato client (bytes) |
+| --------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
+| **Tipo**                          | **Base**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                    | 16.5                   | 0                      | 0                      | 0                        | 0                        |
+| FROST (n-of-m)                    | ?                      | 0                      | 0                      | 0                        | 0                        |
+| Multi_a (n-of-m)                  | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
+| Ramo MuSig / Multi_a (n-of-m)      | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+| Con timeout (n-of-m)               | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+
+| Metodo                                   | Privacy e Scalabilità | Interoperabilità | Compatibilità | Portabilità | Complessità |
+| ---------------------------------------- | --------------------- | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (P2C deterministico)            | 🟢                     | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (S2C deterministico)            | 🟢                     | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                         | 🔴                     | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret: Nodo in alto a sinistra      | 🟠                     | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret #4: Qualsiasi nodo + prova    | 🟢                     | 🟢               | 🟢            | 🟠          | 🔴         |
+
+
+
 
 
 Nel corso dello studio è emerso chiaramente che nessuno degli schemi di impegno era pienamente compatibile con l'attuale standard Lightning (che non utilizza Taproot, _muSig2_ o un supporto aggiuntivo per gli impegni). Sono in corso sforzi per modificare la costruzione dei canali di Lightning (*BiFrost*) per consentire l'inserimento di impegni RGB. Questa è un'altra area in cui è necessario rivedere la struttura delle transazioni, le chiavi e il modo in cui gli aggiornamenti dei canali vengono firmati.
@@ -1349,19 +1368,14 @@ Se nel contratto un elemento di stato non è definito come mutabile o cumulativo
 
 La tabella seguente illustra come ogni tipo di operazione contrattuale può manipolare (o meno) lo Stato globale e lo Stato proprietario:
 
-| Genesi | Estensione dello stato | Transizione dello stato
+|                              | Genesi | Estensione di Stato | Transizione di Stato |
+| ---------------------------- | :----: | :-----------------: | :------------------: |
+| **Aggiunta di Global State** |   +    |         -         |          +          |
+| **Mutazione di Global State** |  n/a   |         -         |          +          |
+| **Aggiunta di Owned State**  |   +    |         -         |          +          |
+| **Mutazione di Owned State** |  n/a   |        No         |          +          |
+| **Aggiunta di Valencies**    |   +    |         +         |          +          |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| Aggiungere lo stato globale**
-
-| n/a | - | + | **Mutazione dello Stato Globale** | - | + |
-
-| **Aggiungi uno Stato di proprietà** | + | - | + |
-
-**Mutazione dello stato di proprietà** | n/a | No | + |
-
-**Aggiungi valenze** | + | + | + | + | +
 
 **`+`** : azione possibile se lo Schema del contratto lo consente.
 
@@ -1369,15 +1383,12 @@ La tabella seguente illustra come ogni tipo di operazione contrattuale può mani
 
 Inoltre, l'ambito temporale e i diritti di aggiornamento di ciascun tipo di dati possono essere distinti nella tabella seguente:
 
-| Metadati | Stato globale | Stato di proprietà
+|                                 | Metadata                                | Stato Globale                                | Stato Posseduto                                                                                            |
+| ------------------------------- | -------------------------------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Ambito**                      | Definito per una singola operazione del contratto | Definito globalmente per il contratto      | Definito per ogni sigillo (*Assignment*)                                                                 |
+| **Chi può aggiornarlo?**        | Non aggiornabile (dati effimeri)       | Operazione emessa dagli attori (emittente, ecc.) | Dipende dal legittimo detentore che possiede il sigillo (colui che può spenderlo in una transazione successiva) |
+| **Ambito Temporale**            | Solo per l'operazione corrente        | Lo stato è stabilito alla fine dell'operazione | Lo stato è definito prima dell'operazione (dalla *Seal Definition* dell'operazione precedente)           |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Definito per una singola Operazione di contratto | Definito globalmente per il contratto | Definito per ogni sigillo (*Assegnazione*) | Definito per una singola Operazione di contratto | Definito globalmente per il contratto | Definito per ogni sigillo (*Assegnazione*) | Definito per ogni sigillo (*Assegnazione*) | Definito per ogni contratto
-
-| Non realizzabile (dati effimeri) | Transazione emessa da attori (emittente, ecc.) | Dipende dal legittimo titolare del sigillo (colui che può spenderlo in una transazione successiva) |
-
-| Lo stato è definito prima dell'operazione (dalla *Seal Definition* dell'operazione precedente) | Lo stato è stabilito al termine dell'operazione | Lo stato è stabilito al termine dell'operazione | Lo stato è definito prima dell'operazione (dalla *Seal Definition* dell'operazione precedente) | Lo stato è stabilito al termine dell'operazione | Lo stato è definito prima dell'operazione (dalla *Seal Definition* dell'operazione precedente)
 
 ### Stato globale
 

@@ -1502,17 +1502,14 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Declarative** | **Fungible** | **Structured** | **Attachments** |
+| **Thành phần**    | **Khai báo**   | **Có thể thay thế**                  | **Có cấu trúc**                  | **Tệp đính kèm**                |
+| ----------------- | -------------- | ------------------------------------ | ----------------------------- | ----------------------------- |
+| **Dữ liệu**       | Không có       | Số nguyên 64-bit có dấu hoặc không có dấu | Bất kỳ loại dữ liệu nghiêm ngặt nào | Bất kỳ tệp nào                 |
+| **Loại thông tin** | Không có       | Có dấu hoặc không có dấu              | Các loại nghiêm ngặt             | Loại MIME                      |
+| **Bảo mật**       | Không yêu cầu  | Pedersen commitment                   | Hash với blinding               | Định danh tệp đã băm           |
+| **Giới hạn kích thước** | N/A        | 256 byte                              | Tối đa 64 KB                     | Tối đa ~500 GB                  |
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
 
-| None | 64-bit signed or unsigned integer | Any strict data type | Any file |
-
-| Info type** | None | Signed or unsigned | Strict types | MIME type |
-
-| Pedersen commitment | Hashing with blinding | Hashed file ID
-
-| Size limits** | N/A | 256 bytes | Up to 64 KB | Up to ~500 Gb |
 
 ### Inputs
 
@@ -1957,17 +1954,13 @@ It's important to note that for a wallet to manage an RGB asset (be it a fungibl
 
 To help clarify these notions, here is a summary table comparing the components of an RGB contract with concepts already known either in object-oriented programming (OOP) or in the Ethereum ecosystem:
 
-| RGB Contract Component | Meaning | OOP Equivalent | Ethereum Equivalent |
+| Thành phần hợp đồng RGB      | Ý nghĩa                           | Tương đương OOP                      | Tương đương Ethereum               |
+| ---------------------------- | -------------------------------- | ----------------------------------- | --------------------------------- |
+| **Genesis**                  | Trạng thái ban đầu của hợp đồng  | Constructor lớp                      | Constructor hợp đồng               |
+| **Schema**                   | Logic nghiệp vụ của hợp đồng     | Lớp                                  | Hợp đồng                          |
+| **Interface**                | Ngữ nghĩa của hợp đồng           | Interface (Java) / Trait (Rust) / Protocol (Swift) | Tiêu chuẩn ERC                     |
+| **Interface Implementation** | Ánh xạ ngữ nghĩa và logic        | Impl (Rust) / Implements (Java)     | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Class constructor | Contract constructor | Initial state of the contract
-
-| Class | Contract business logic
-
-| Contract semantics | Interface (Java) / trait (Rust) / protocol (Swift) | ERC Standard |
-
-| Application Binary Interface (ABI) | Impl (Rust) / Implements (Java) | Mapping of semantics and logic
 
 The left-hand column shows the elements specific to the RGB protocol. The middle column shows the concrete function of each component. Then, in the "OOP equivalent" column, we find the equivalent term in object-oriented programming:
 

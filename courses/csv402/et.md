@@ -760,6 +760,23 @@ Kui me alustasime RGBga, vaatasime kõik need meetodid läbi, et määrata kindl
 | Multi-sig 2-of-3 koos timeoutidega | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                     | 65                    | 32                    | n/a                   | 0                     |
 
 
+| Kiht                             | On-chain kulud (vbytes) | On-chain kulud (vbytes) | On-chain kulud (vbytes) | Kliendi kulud (bytes) | Kliendi kulud (bytes) |
+| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | -------------------- | -------------------- |
+| **Tüüp**                         | **Baas**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**        | **Tapret #4**        |
+| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                    | 0                    |
+| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                    | 0                    |
+| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m               | 65                   |
+| MuSig / Multi_a haru (n-of-m)     | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                   | 65                   |
+| Ajastusega (n-of-m)               | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                   | 65                   |
+
+| Meetod                                   | Privaatsus ja skaleeritavus | Interoperatiivsus | Ühilduvus | Portatiivsus | Keerukus |
+| ---------------------------------------- | ------------------------- | -------------- | ---------- | ----------- | ---------- |
+| Keytweak (deterministlik P2C)           | 🟢                         | 🔴             | 🔴        | 🟡          | 🟡         |
+| Sigtweak (deterministlik S2C)           | 🟢                         | 🔴             | 🔴        | 🟢          | 🔴         |
+| Opret (OP_RETURN)                       | 🔴                         | 🟠             | 🔴        | 🟢          | 🟢         |
+| Algo Tapret: vasak ülemine sõlm         | 🟠                         | 🟢             | 🟢        | 🔴          | 🟠         |
+| Algo Tapret #4: Suvaline sõlm + tõend   | 🟢                         | 🟢             | 🟢        | 🟠          | 🔴         |
+
 
 
 
@@ -1350,19 +1367,14 @@ Kui lepingus ei ole seisundielementi määratletud muutuva või kumulatiivse ele
 
 Alljärgnevas tabelis on näidatud, kuidas iga lepinguoperatsiooni tüüp võib manipuleerida (või mitte) globaalset ja omandatud riiki:
 
-| Genesis | Riigi laiendamine | Riigi üleminek | State Transition |
+|                              | Algus  | Seisundi laiendus | Seisundi üleminek |
+| ---------------------------- | :----: | :--------------: | :--------------: |
+| **Global State lisamine**    |   +    |        -        |        +        |
+| **Global State mutatsioon**  |  n/a   |        -        |        +        |
+| **Owned State lisamine**     |   +    |        -        |        +        |
+| **Owned State mutatsioon**   |  n/a   |       Ei        |        +        |
+| **Valencies lisamine**       |   +    |        +        |        +        |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Add Global State** | + | | - | + | | | |
-
-| k.a. | - | + | **Ülemaailmse seisundi muutumine** | - | + | | |
-
-| **Omaniku staatuse lisamine** | + | | - | + | | |
-
-| **Omaniku staatuse muutmine** | n/a | Ei | + | | |
-
-| **Lisatakse väärtused** | + | + | + | + | + | + | | | |
 
 **`+`** : tegevus võimalik, kui lepingu skeem seda võimaldab.
 
@@ -1370,15 +1382,12 @@ Alljärgnevas tabelis on näidatud, kuidas iga lepinguoperatsiooni tüüp võib 
 
 Lisaks sellele saab järgmises tabelis eristada iga andmetüübi ajalist ulatust ja ajakohastamisõigusi:
 
-| Metaandmed | Üldine riik | Omaniku riik |
+|                                 | Metaandmed                               | Globaalne olek                               | Omanikule kuuluv olek                                                                                      |
+| ------------------------------- | ---------------------------------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Ulatus**                      | Määratletud ühele lepingulisele operatsioonile | Globaalne määratlus lepingule             | Määratletud igale pitserile (*Assignment*)                                                               |
+| **Kes saab seda uuendada?**     | Mitte uuendatav (ajutised andmed)       | Toiming, mille väljastavad osapooled (väljastaja jne.) | Sõltub seaduslikust omanikust, kes omab pitserit (see, kes saab seda järgmises tehingus kulutada)       |
+| **Ajaline ulatus**              | Ainult praeguse operatsiooni jaoks      | Olek määratakse operatsiooni lõpus         | Olek on määratletud enne operatsiooni (*Seal Definition* eelmisest operatsioonist)                      |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Määratletud ühele lepinguoperatsioonile | Määratletud ülemaailmselt lepingu jaoks | Määratletud igale pitserile (*Ülesanne*) | Määratletud ühele lepinguoperatsioonile | Määratletud ülemaailmselt lepingu jaoks | Määratletud igale pitserile (*Ülesanne*) | Määratletud igale pitserile (*Ülesanne*) | Määratletud igale lepingule
-
-| Mitte-aktualiseeritav (efemeersed andmed) | Toimijate (emitent jne) poolt väljastatud tehing | Sõltub pitseri õigustatud omanikust (kes saab seda hilisemas tehingus kulutada) |
-
-| Seisund on määratletud enne operatsiooni (eelmise operatsiooni *Seal Definition* poolt) | Seisund on määratud operatsiooni lõpus | Seisund on määratud operatsiooni lõpus | Seisund on määratud enne operatsiooni (eelmise operatsiooni *Seal Definition* poolt) | Seisund on määratud operatsiooni lõpus | Seisund on määratud enne operatsiooni (eelmise operatsiooni *Seal Definition* poolt) | Seisund on määratud enne operatsiooni (eelmise operatsiooni *Seal Definition* poolt)
 
 ### Ülemaailmne riik
 

@@ -760,6 +760,24 @@ Ketika kami memulai RGB, kami meninjau semua metode ini untuk menentukan di mana
 | Multi-sig 2-of-3 dengan batas waktu | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
 
 
+| Lapisan                          | Biaya on-chain (vbytes) | Biaya on-chain (vbytes) | Biaya on-chain (vbytes) | Biaya sisi klien (bytes) | Biaya sisi klien (bytes) |
+| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
+| **Tipe**                         | **Dasar**              | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                        | 0                        |
+| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                        | 0                        |
+| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
+| Cabang MuSig / Multi_a (n-of-m)   | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+| Dengan batas waktu (n-of-m)       | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+
+| Metode                                   | Privasi & Skalabilitas | Interoperabilitas | Kompatibilitas | Portabilitas | Kompleksitas |
+| ---------------------------------------- | --------------------- | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (P2C deterministik)             | 🟢                     | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (S2C deterministik)             | 🟢                     | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                         | 🔴                     | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret: Simpul kiri atas             | 🟠                     | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret #4: Simpul mana saja + bukti  | 🟢                     | 🟢               | 🟢            | 🟠          | 🔴         |
+
+
 
 
 
@@ -1350,19 +1368,14 @@ Jika, dalam kontrak, sebuah elemen state tidak didefinisikan sebagai dapat diuba
 
 Tabel di bawah ini mengilustrasikan bagaimana setiap jenis Operasi Kontrak dapat memanipulasi (atau tidak) Global State dan Owned State:
 
-| Kejadian | Perpanjangan Status | Transisi Status |
+|                              | Genesis | Ekstensi Status | Transisi Status |
+| ---------------------------- | :-----: | :------------: | :------------: |
+| **Penambahan Global State**  |    +    |       -       |       +       |
+| **Mutasi Global State**      |   n/a   |       -       |       +       |
+| **Penambahan Owned State**   |    +    |       -       |       +       |
+| **Mutasi Owned State**       |   n/a   |      Tidak    |       +       |
+| **Penambahan Valencies**     |    +    |       +       |       +       |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Tambahkan Status Global** | + | - | + |
-
-| n/a | - | + | **Mutasi Status Global** | - | + |
-
-| **Tambahkan Negara Bagian Milik** | + | - | + |
-
-| **Mutasi Status Kepemilikan** | n/a | Tidak | + |
-
-| **Tambahkan Nilai** | + | + | + | + |
 
 **`+`** : tindakan yang mungkin dilakukan jika Skema kontrak mengizinkannya.
 
@@ -1370,15 +1383,12 @@ Tabel di bawah ini mengilustrasikan bagaimana setiap jenis Operasi Kontrak dapat
 
 Selain itu, cakupan temporal dan hak pembaruan setiap jenis data dapat dibedakan dalam tabel berikut:
 
-| Metadata | Negara Global | Negara Milik
+|                                 | Metadata                                 | Global State                                  | Owned State                                                                                                |
+| ------------------------------- | ---------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Lingkup**                     | Ditetapkan untuk satu Operasi Kontrak    | Ditetapkan secara global untuk kontrak       | Ditetapkan untuk setiap segel (*Assignment*)                                                              |
+| **Siapa yang bisa memperbaruinya?** | Tidak dapat diperbarui (data sementara)  | Operasi yang diterbitkan oleh aktor (penerbit, dll.) | Bergantung pada pemegang sah yang memiliki segel (yang dapat membelanjakannya dalam transaksi berikutnya) |
+| **Lingkup Temporal**            | Hanya untuk operasi saat ini             | Status ditetapkan pada akhir operasi         | Status ditetapkan sebelum operasi (oleh *Seal Definition* dari operasi sebelumnya)                        |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Ditetapkan untuk satu Operasi Kontrak | Ditetapkan secara global untuk kontrak | Ditetapkan untuk setiap segel (*Penugasan*) | Ditetapkan untuk satu Operasi Kontrak | Ditetapkan secara global untuk kontrak | Ditetapkan untuk setiap segel (*Penugasan*) | Ditetapkan untuk setiap segel (*Penugasan*) | Ditetapkan untuk setiap kontrak
-
-| Tidak dapat diaktualisasikan (data sementara) | Transaksi yang dikeluarkan oleh aktor (penerbit, dll.) | Tergantung pada pemegang segel yang sah (orang yang dapat membelanjakannya dalam transaksi berikutnya)
-
-status ditetapkan sebelum operasi (oleh *Seal Definition* dari operasi sebelumnya) | Status ditetapkan di akhir operasi | Status ditetapkan di akhir operasi | Status ditetapkan di akhir operasi | Status ditetapkan sebelum operasi (oleh *Seal Definition* dari operasi sebelumnya) | Status ditetapkan di akhir operasi | Status ditetapkan sebelum operasi (oleh *Seal Definition* dari operasi sebelumnya)
 
 ### Status Global
 

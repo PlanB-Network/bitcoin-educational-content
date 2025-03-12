@@ -1213,9 +1213,9 @@ Utilizzando i parametri di cui sopra è possibile far funzionare Elements come u
 
 ![Video](https://youtu.be/CTMdamTZBBM?si=16LBcXvN4pBfC7lr)
 
-In questo corso abbiamo imparato che Elements è un protocollo di rete open-source che può essere implementato come sidechain di un'altra blockchain o come soluzione blockchain autonoma.
+In questo corso abbiamo imparato che Elements è un protocollo di rete open-source che può essere implementato come _sidechain_ di un'altra blockchain o come soluzione blockchain autonoma.
 
-Abbiamo visto che il codice sorgente e il sito web di Elements (https://github.com/ElementsProject/elements) sono ospitati su GitHub e che esistono forum di discussione della comunità, come Build On L2 (https://community.liquid.net/c/developers/) o Liquid Developers Telegram (https://t.me/liquid_devel), che possono essere utilizzati per saperne di più sulla distribuzione e lo sviluppo di applicazioni su Elements e Liquid. Sono state illustrate caratteristiche chiave come le Transazioni riservate e gli Asset emessi, oltre a come i membri di una Strong Federation consentono la firma federata dei blocchi e il meccanismo 2-Way Peg.
+Abbiamo visto che il codice sorgente e il sito web di Elements (_https://github.com/ElementsProject/elements_) sono ospitati su GitHub e che esistono forum di discussione della comunità, come Build On L2 (_https://community.liquid.net/c/developers/_) o Liquid Developers Telegram (_https://t.me/liquid_devel_), che possono essere utilizzati per saperne di più sulla distribuzione e lo sviluppo di applicazioni su Elements e Liquid. Sono state illustrate caratteristiche chiave come le _"Confidential Transactions"_ (Transazioni Riservate) e gli _"Issued Assets"_ (Attività emesse), oltre a come i membri di una _"Strong Federation"_ (Federazione rinforzata) consentono la firma federata dei blocchi e il meccanismo 2-Way Peg (Ancoraggio a Bilaterale).
 
 Il passo successivo è quello di sfidare se stessi con un quiz cumulativo che copre tutte le sezioni precedenti, per poi iniziare il viaggio di Elements... buona fortuna!
 

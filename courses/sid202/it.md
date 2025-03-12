@@ -147,23 +147,23 @@ Per trasferire gli _asset_ alla _mainchain_, un utente effettua una speciale tra
 
 Poiché Elements si basa sulla base di codice di Bitcoin, i componenti che costituiscono una rete funzionante sono molto simili.
 
-Il software del nodo Elements si chiama `elementsd` e viene eseguito come demone sul computer dell'utente. Un demone (o servizio in Windows) è un programma che viene eseguito come servizio in background senza richiedere il controllo diretto di un utente connesso.
+Il software del nodo Elements si chiama `elementsd` e viene eseguito come _demone_ sul computer dell'utente. Un _demone_ (o servizio in Windows) è un programma che viene eseguito come servizio in background senza richiedere il controllo diretto di un utente connesso.
 
-Nota: in questo documento ci riferiremo sempre a elementsd come versione del demone, ma tutto può essere fatto con elements-qt, a condizione che l'opzione server sia abilitata.
+_Nota_: in questo documento ci riferiremo sempre a `elementsd` come versione del _demone_, ma tutto può essere fatto con `elements-qt`, a condizione che l'opzione server sia abilitata.
 
-Il demone Elements si connette agli altri nodi della rete per scambiare i dati delle transazioni e dei blocchi, convalidando ed estendendo la propria copia locale della blockchain della rete.
+Il _demone_ Elements si connette agli altri nodi della rete per scambiare i dati delle transazioni e dei blocchi, convalidando ed estendendo la propria copia locale della blockchain della rete.
 
-Il software Elements comprende anche un programma client chiamato `elements-cli` che consente di inviare comandi RPC (Remote Procedure Call) a elementsd dalla riga di comando. Questo può essere usato, ad esempio, per interrogare il saldo di un portafoglio, visualizzare i dati delle transazioni o dei blocchi o trasmettere una transazione. Questa configurazione dovrebbe essere familiare a chiunque abbia usato gli equivalenti di Bitcoin: bitcoind e bitcoin-cli.
+Il software Elements comprende anche un programma client chiamato `elements-cli` che consente di inviare comandi _RPC (Remote Procedure Call)_ a `elementsd` dalla riga di comando. Questo può essere usato, ad esempio, per interrogare il saldo di un portafoglio, visualizzare i dati delle transazioni o dei blocchi o trasmettere una transazione. Questa configurazione dovrebbe essere familiare a chiunque abbia usato gli equivalenti di Bitcoin: `bitcoind` e `bitcoin-cli`.
 
-Poiché un nodo Elements può essere configurato passando i parametri all'avvio o tramite un file di configurazione, è possibile avere più di un'istanza in esecuzione sulla stessa macchina. Ciò è utile per scopi di test e sviluppo, in quanto è possibile configurare la propria rete locale su una singola macchina, con ciascun nodo Elements che dispone della propria copia dei dati della blockchain, gestisce il proprio pool di transazioni valide non confermate e ascolta le richieste RPC su porte diverse.
+Poiché un nodo Elements può essere configurato passando i parametri all'avvio o tramite un file di configurazione, è possibile avere più di un'istanza in esecuzione sulla stessa macchina. Ciò è utile per scopi di test e sviluppo, in quanto è possibile configurare la propria rete locale su una singola macchina, con ciascun nodo Elements che dispone della propria copia dei dati della blockchain, gestisce la propria pool di transazioni valide non confermate e ascolta le richieste _RPC_ su porte diverse.
 
 ### L'archivio e la comunità del codice Elements
 
-Elements è un progetto open-source e il suo codice sorgente può essere trovato nel repository GitHub di Elements, all'indirizzo https://github.com/ElementsProject/elements. Il repository contiene i sorgenti dei programmi elementsd ed elements-cli, oltre a strumenti di installazione e compilazione di supporto, una suite di test e una certa documentazione didattica.
+Elements è un progetto open-source e il suo codice sorgente può essere trovato nel repository GitHub di Elements, all'indirizzo _https://github.com/ElementsProject/elements_. Il _repository_ contiene i sorgenti dei programmi `elementsd` ed `elements-cli`, oltre a strumenti di installazione e compilazione di supporto, una _suite_ di test e una certa documentazione didattica.
 
-A complemento del repository di codice, c'è anche il sito web https://elementsproject.org, una risorsa incentrata sulla comunità che contiene spiegazioni su cos'è Elements, come funziona e una sezione di tutorial completa. L'esercitazione si concentra sull'apprendimento di Elements seguendo esempi da riga di comando e mostra come costruire semplici applicazioni desktop e web su di esso. Il sito elenca anche i forum di discussione della comunità di Elements ed è ospitato su GitHub, consentendo alla comunità di contribuire ai contenuti del sito.
+A complemento del repository di codice, c'è anche il sito web _https://elementsproject.org_, una risorsa incentrata sulla comunità che contiene spiegazioni su cos'è Elements, come funziona e una sezione di tutorial completa. L'esercitazione si concentra sull'apprendimento di Elements seguendo esempi da riga di comando e mostra come costruire semplici applicazioni desktop e web su di esso. Il sito elenca anche i forum di discussione della comunità di Elements ed è ospitato su GitHub, consentendo alla comunità di contribuire ai contenuti del sito.
 
-Per eseguire Elements sul proprio computer è necessario innanzitutto clonare (scaricare una copia) del codice sorgente, installare tutte le dipendenze presenti nel codice e infine creare gli eseguibili del demone e del client. Il software Elements è quindi pronto per essere configurato ed eseguito.
+Per eseguire Elements sul proprio computer è necessario innanzitutto _clonare_ (scaricare una copia) del codice sorgente, installare tutte le dipendenze presenti nel codice e infine creare gli eseguibili del _demone_ e del _client_. Il software Elements è quindi pronto per essere configurato ed eseguito.
 
 ## Configurazione dei nodi e della rete
 

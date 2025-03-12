@@ -14,12 +14,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.16
+    reward: 0.18
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.16
+    reward: 0.18
   - language: es
     last_contribution_date:
     urgency: 1
@@ -35,7 +35,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 0.08
+    reward: 0.09
   - language: it
     last_contribution_date:
     urgency: 1
@@ -50,7 +50,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.16
+    reward: 0.18
   - language: vi
     last_contribution_date:
     urgency: 1

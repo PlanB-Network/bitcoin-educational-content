@@ -12,86 +12,86 @@ credits:
 project_id: cd62a137-baad-4133-b90d-711963e510c7
 original_language: fr
 proofreading:
-- language: cs
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.81
-- language: de
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.45
-- language: en
-  last_contribution_date: 2025-03-04
-  urgency: 1
-  contributors_id:
-  - MariJJhodl
-  reward: 0.45
-- language: es
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.63
-- language: fi
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.81
-- language: fr
-  last_contribution_date: 2024-09-01
-  urgency: 1
-  contributors_id:
-  - Asi0Flammeus
-  reward: 0.23
-- language: it
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.63
-- language: ja
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.16
-- language: pt
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.45
-- language: ru
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.81
-- language: vi
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.16
-- language: et
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.81
-- language: id
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.98
-- language: zh-Hans
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.98
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.75
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.59
+  - language: en
+    last_contribution_date: 2025-03-04
+    urgency: 1
+    contributors_id:
+      - MariJJhodl
+    reward: 0.29
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.59
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.75
+  - language: fr
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 0.29
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.59
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.08
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.59
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.75
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.08
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.75
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.91
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.91
 
 
-- language: nb-NO
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.81
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 0.75
 tags:
-- guides
-- development
-- user-friendly
+  - guides
+  - development
+  - user-friendly

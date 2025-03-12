@@ -3,8 +3,7 @@ type: Visual Content
 links:
   download: https://workspace.planb.network/s/nq9aRinofkrKZTS
   view:
-    - en: 
-        https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4fd3aa223714?page-id=c157057b-fd28-8042-8004-4fd3aa223715&section=interactions&index=0&share-id=42aca05c-942b-808a-8004-6b830e1f22ac&zoom=fill
+    - en: https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-4fd3aa223714?page-id=c157057b-fd28-8042-8004-4fd3aa223715&section=interactions&index=0&share-id=42aca05c-942b-808a-8004-6b830e1f22ac&zoom=fill
 contributors:
   - rabbit-hole
 
@@ -26,7 +25,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 0.05
+    reward: 0.06
   - language: es
     last_contribution_date:
     urgency: 1

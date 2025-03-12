@@ -25,12 +25,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 36.66
+    reward: 54.94
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 36.66
+    reward: 54.94
   - language: es
     last_contribution_date:
     urgency: 1
@@ -46,7 +46,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - Rearden78
-    reward: 18.33
+    reward: 27.47
   - language: it
     last_contribution_date:
     urgency: 1
@@ -61,7 +61,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 36.66
+    reward: 54.94
   - language: ru
     last_contribution_date: 2024-09-09
     urgency: 1

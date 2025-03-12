@@ -19,7 +19,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 2.04
+    reward: 3.03
 
   - language: cs
     last_contribution_date:
@@ -31,13 +31,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4.08
+    reward: 6.07
 
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4.08
+    reward: 6.07
 
   - language: es
     last_contribution_date:
@@ -85,7 +85,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4.08
+    reward: 6.07
 
   - language: ru
     last_contribution_date:

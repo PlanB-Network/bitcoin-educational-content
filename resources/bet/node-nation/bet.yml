@@ -33,13 +33,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.1
+    reward: 0.11
 
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.1
+    reward: 0.11
 
   - language: et
     last_contribution_date:
@@ -57,7 +57,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.1
+    reward: 0.11
 
   - language: id
     last_contribution_date:
@@ -87,7 +87,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.1
+    reward: 0.11
 
   - language: ru
     last_contribution_date:

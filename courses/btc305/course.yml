@@ -49,13 +49,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 40.95
+    reward: 61.37
   - language: en
     last_contribution_date: 2024-06-30
     urgency: 1
     contributors_id:
       - melontwist
-    reward: 20.47
+    reward: 30.69
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
@@ -71,7 +71,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 40.95
+    reward: 61.37
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
@@ -87,7 +87,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 40.95
+    reward: 61.37
   - language: ru
     last_contribution_date:
     urgency: 1

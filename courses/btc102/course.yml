@@ -18,17 +18,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 18.53
+    reward: 18.54
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9.31
+    reward: 13.93
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9.31
+    reward: 13.93
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
@@ -39,13 +39,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 18.53
+    reward: 18.54
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 4.66
+    reward: 6.96
   - language: it
     last_contribution_date: 2024-05-27
     urgency: 1
@@ -56,34 +56,34 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 27.74
+    reward: 27.75
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 9.31
+    reward: 13.93
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - Reshetenko
-    reward: 9.26
+    reward: 9.27
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 13.87
+    reward: 13.88
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 18.53
+    reward: 18.54
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 23.13
+    reward: 23.14
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
@@ -95,7 +95,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 18.53
+    reward: 18.54
 tags:
   - wallets
   - user-friendly

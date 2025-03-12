@@ -1,6 +1,5 @@
 id: a14d3e37-1a26-42d9-9a4a-e8d9bba3554d
-author: Amanda Cavaleri, Jimmy Song, Lamar Wilson, Pete Rizzo, CJ Wilson, Charlene
-  Hill Fadirepo
+author: Amanda Cavaleri, Jimmy Song, Lamar Wilson, Pete Rizzo, CJ Wilson, Charlene Hill Fadirepo
 level: intermediate
 original_language: en
 proofreading:
@@ -9,7 +8,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - hunt-wood
-    reward: 0.13
+    reward: 0.17
 
   - language: cs
     last_contribution_date:
@@ -21,7 +20,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.25
+    reward: 0.33
 
   - language: es
     last_contribution_date:
@@ -45,7 +44,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.25
+    reward: 0.33
 
   - language: id
     last_contribution_date:
@@ -75,7 +74,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.25
+    reward: 0.33
 
   - language: ru
     last_contribution_date:

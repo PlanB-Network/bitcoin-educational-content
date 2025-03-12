@@ -12,85 +12,85 @@ credits:
 project_id: cd62a137-baad-4133-b90d-711963e510c7
 original_language: fr
 proofreading:
-- language: cs
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.44
-- language: de
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.77
-- language: en
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.77
-- language: es
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.1
-- language: fi
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.44
-- language: fr
-  last_contribution_date: 2024-09-01
-  urgency: 1
-  contributors_id:
-  - Asi0Flammeus
-  reward: 0.38
-- language: it
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.1
-- language: ja
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 2.11
-- language: pt
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 0.77
-- language: ru
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.44
-- language: vi
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 2.11
-- language: id
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.77
-- language: zh-Hans
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.77
-- language: et
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.44
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.44
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.1
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.1
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.1
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.44
+  - language: fr
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 0.55
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.1
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.11
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.1
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.44
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.11
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.77
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.77
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.44
 
 
-- language: nb-NO
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.44
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.44
 tags:
-- guides
-- user-friendly
-- good-practice
+  - guides
+  - user-friendly
+  - good-practice

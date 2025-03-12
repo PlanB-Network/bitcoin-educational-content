@@ -13,85 +13,85 @@ credits:
 project_id: d9bc9f7f-7290-4a3b-b2ca-9745c7d6063c
 original_language: fr
 proofreading:
-- language: fr
-  last_contribution_date: 2024-08-31
-  urgency: 1
-  contributors_id:
-  - LoicPandul
-  reward: 0.65
-- language: et
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 2.49
-- language: pt
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.3
-- language: ja
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 3.69
-- language: ru
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 2.49
-- language: id
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 3.09
-- language: cs
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 2.49
-- language: fi
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 2.49
-- language: de
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.3
-- language: en
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.3
-- language: es
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.89
-- language: zh-Hans
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 3.09
-- language: it
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 1.89
-- language: vi
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 3.69
+  - language: fr
+    last_contribution_date: 2024-08-31
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 0.95
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.49
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.89
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.69
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.49
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.09
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.49
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.49
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.89
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.89
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.89
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.09
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 1.89
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3.69
 
 
-- language: nb-NO
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 2.49
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2.49
 tags:
-- privacy
-- guides
-- user-friendly
+  - privacy
+  - guides
+  - user-friendly

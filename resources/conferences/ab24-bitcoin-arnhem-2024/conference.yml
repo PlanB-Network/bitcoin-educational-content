@@ -17,7 +17,7 @@ proofreading:
     urgency: 0
     contributors_id:
       - PaoloFoti
-    reward: 0
+    reward: 0.05
 
 tags:
   - adoption

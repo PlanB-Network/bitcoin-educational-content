@@ -20,12 +20,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1.97
+    reward: 2.91
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1.97
+    reward: 2.91
   - language: es
     last_contribution_date:
     urgency: 1
@@ -41,7 +41,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 0.99
+    reward: 1.46
   - language: it
     last_contribution_date:
     urgency: 1
@@ -56,7 +56,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 1.97
+    reward: 2.91
   - language: ru
     last_contribution_date:
     urgency: 1

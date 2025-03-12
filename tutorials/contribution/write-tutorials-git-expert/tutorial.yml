@@ -13,96 +13,96 @@ credits:
 
 original_language: fr
 proofreading:
-- language: fr
-  last_contribution_date: 2025-02-03
-  urgency: 1
-  contributors_id:
-  - LoicPandul
-  reward: 0
-- language: cs
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 6.03
+  - language: fr
+    last_contribution_date: 2025-02-03
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 2.27
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6.03
 
-- language: de
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 3.06
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.54
 
-- language: en
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 3.06
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.54
 
-- language: es
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 4.54
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.54
 
-- language: et
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 6.03
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6.03
 
-- language: fi
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 6.03
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6.03
 
-- language: id
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 7.51
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7.51
 
-- language: it
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 4.54
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.54
 
-- language: ja
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 8.99
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8.99
 
-- language: nb-NO
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 6.03
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6.03
 
-- language: pt
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 3.06
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4.54
 
-- language: ru
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 6.03
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 6.03
 
-- language: vi
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 8.99
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 8.99
 
-- language: zh-Hans
-  last_contribution_date:
-  urgency: 1
-  contributors_id:
-  reward: 7.51
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 7.51
 tags:
-- guides
-- development
-- deep-dive
+  - guides
+  - development
+  - deep-dive

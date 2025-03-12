@@ -1,12 +1,12 @@
-question: Quale di queste opzioni è falsa riguardo la perdita del dispositivo su cui hai il tuo portafoglio Bitcoin?
-answer: Puoi ricreare il tuo portafoglio e spendere i tuoi bitcoin reimpostando la tua password.
+question: Quale di queste opzioni è falsa riguardo la perdita del dispositivo su cui è installato il wallet Bitcoin?
+answer: Si può ricreare il wallet e spendere bitcoin reimpostando la password.
 wrong_answers:
-  - Perdi tutti i tuoi Bitcoin se non hai la frase mnemonica.
-  - Puoi verificare con le tue chiavi pubbliche che i tuoi bitcoin non siano stati spesi.
-  - Puoi ricreare il tuo portafoglio e spendere i tuoi bitcoin utilizzando la frase mnemonica.
+  - Perdere tutti i Bitcoin senza la frase mnemonica.
+  - Verificare con le chiavi pubbliche che i bitcoin non siano stati spesi.
+  - Ricreare il wallet e spendere bitcoin utilizzando la frase mnemonica.
 explanation: |
-  Perdere il dispositivo su cui hai il tuo portafoglio non
-  significa necessariamente la perdita dei tuoi Bitcoin. Ciò che ti
-  permette di ricreare il tuo portafoglio e spendere i tuoi bitcoin è la
+  Perdere il dispositivo su cui è installato il wallet non
+  significa necessariamente la perdita dei Bitcoin. Ciò che 
+  permette di ricreare il wallet e spendere i fondi è la
   frase mnemonica.
 reviewed: true

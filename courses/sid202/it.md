@@ -171,19 +171,19 @@ Per eseguire Elements sul proprio computer è necessario innanzitutto _clonare_ 
 
 Le impostazioni di configurazione possono essere passate a un nodo Elements all'avvio per modificare il modo in cui funziona, convalida i dati, si connette ad altri nodi e inizializza i suoi dati blockchain.
 
-Le impostazioni vengono caricate dal file `elements.conf' designato o passate come parametri tramite la riga di comando.
+Le impostazioni vengono caricate dal file `elements.conf` designato o passate come parametri tramite la riga di comando.
 
 Alcuni elementi possono essere modificati utilizzando questi parametri:
 
 
-- Il nome dell'asset predefinito utilizzato nelle implementazioni di blockchain standalone.
+- Il nome dell'_asset_ predefinito utilizzato nelle implementazioni di _blockchain standalone_.
 - Il numero della risorsa iniziale creata.
-- L'asset da utilizzare per il pagamento delle commissioni di transazione sulla rete.
+- L'_asset_ da utilizzare per il pagamento delle commissioni di transazione sulla rete.
 - La posizione di archiviazione dei file di dati della blockchain.
-- Le credenziali RPC utilizzate per connettersi a un nodo Bitcoin.
+- Le credenziali _RPC_ utilizzate per connettersi a un nodo Bitcoin.
 - La soglia `n di m` da rispettare e le chiavi pubbliche valide che possono firmare i blocchi.
-- Lo script che deve essere soddisfatto per trasferire le attività all'interno e all'esterno di una sidechain.
-- Se connettersi o meno a un nodo Bitcoin come sidechain.
+- Lo _script_ che deve essere soddisfatto per trasferire le attività all'interno e all'esterno di una _sidechain_.
+- Se connettersi o meno a un nodo Bitcoin come _sidechain_.
 
 Molti di questi fanno parte delle regole di consenso della rete, quindi è importante che siano applicati a tutti i nodi all'avvio. Alcune possono essere modificate dopo l'inizializzazione di una catena, mentre altre devono essere corrette dopo che sono state usate per inizializzare una catena.
 
@@ -191,7 +191,7 @@ L'uso dei parametri sarà trattato più avanti nel corso del corso, in relazione
 
 ### Operazioni di base con la riga di comando
 
-Questo corso mostra esempi che utilizzano il programma `elements-cli` per effettuare chiamate RPC a uno o più nodi Elements. Questo viene fatto da una sessione di terminale e per rendere i comandi più brevi verrà usato un `alias`. In base a questa convenzione, quando si vede qualcosa come i seguenti comandi:
+Questo corso mostra esempi che utilizzano il programma `elements-cli` per effettuare chiamate _RPC_ a uno o più nodi Elements. Questo viene fatto da una sessione di terminale e per rendere i comandi più brevi verrà usato un `alias`. In base a questa convenzione, quando si vede qualcosa come i seguenti comandi:
 
 ```bash
 e1-dae
@@ -205,16 +205,16 @@ $HOME/elements/src/elementsd -datadir=$HOME/elementsdir1
 $HOME/elements/src/elements-cli -datadir=$HOME/elementsdir1 getnewaddress
 ```
 
-Quello che vediamo sopra è una chiamata per avviare il demone Elements e una chiamata ai programmi elements-cli che si trovano nella directory `$HOME/elements/src` e un valore per il parametro `datadir`. Il parametro `datadir` ci permette di dire alle istanze del demone e del client dove localizzare i loro file di configurazione e, nel caso del demone, dove memorizzare la sua copia della blockchain. Poiché condividono un file di configurazione, il client sarà in grado di effettuare chiamate RPC al demone.
+Quello che vediamo sopra è una chiamata per avviare il _demone_ Elements e una chiamata ai programmi `elements-cli` che si trovano nella directory `$HOME/elements/src` e un valore per il parametro `datadir`. Il parametro `datadir` ci permette di dire alle istanze del _demone_ e del _client_ dove localizzare i loro file di configurazione e, nel caso del _demone_, dove memorizzare la sua copia della blockchain. Poiché condividono un file di configurazione, il _client_ sarà in grado di effettuare chiamate _RPC_ al _demone_.
 
-Eseguendo nuovamente il comando precedente, ma con un valore diverso di `datadir`, possiamo avviare più di un'istanza di Elements, ognuna con la propria copia separata della blockchain e delle impostazioni di configurazione. Per questa convenzione, nel corso useremo gli alias `e2-dae` e `e2-cli` per riferirci a una directory datadir diversa da quella di e1. Quindi l'esempio precedente per la nostra seconda istanza `e2` sarebbe:
+Eseguendo nuovamente il comando precedente, ma con un valore diverso di `datadir`, possiamo avviare più di un'istanza di Elements, ognuna con la propria copia separata della blockchain e delle impostazioni di configurazione. Per questa convenzione, nel corso useremo gli alias `e2-dae` e `e2-cli` per riferirci a una directory `datadir` diversa da quella di `e1`. Quindi l'esempio precedente per la nostra seconda istanza `e2` sarebbe:
 
 ```
 $HOME/elements/src/elementsd -datadir=$HOME/elementsdir2
 $HOME/elements/src/elements-cli -datadir=$HOME/elementsdir2 getnewaddress
 ```
 
-Questo ci consentirà di eseguire ogni sorta di operazione, come la transazione di beni tra nodi, l'emissione di beni e la verifica dell'uso del blinding nelle transazioni riservate tra nodi diversi della stessa rete.
+Questo ci consentirà di eseguire ogni sorta di operazione, come la transazione di beni tra nodi, l'emissione di beni e la verifica dell'uso del _blinding_ (oscuramento) nelle transazioni riservate tra nodi diversi della stessa rete.
 
 # Utilizzo dell'elemento Caso d'uso pratico
 

@@ -1,6 +1,6 @@
 id: 962987d8-c402-4ece-8321-5bea32490c77
 year: 2023-09
-name: Baltic HoneyBadger 2023
+name: Baltic Honeybadger 2023
 builder: Hodl Hodl
 location: Riga, Latvia
 language:
@@ -11,7 +11,7 @@ project_id: 120557b9-b1e6-4969-aff4-5bf46fff9869
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date: 2024-09-01
+    last_contribution_date: 2025-03-04
     urgency: 0
     contributors_id:
       - Asi0Flammeus
@@ -20,3 +20,4 @@ tags:
   - cypherpunk
   - self-sovereignty
   - adoption
+

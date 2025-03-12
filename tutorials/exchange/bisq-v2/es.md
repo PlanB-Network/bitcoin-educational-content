@@ -9,6 +9,7 @@ description: Guía completa para usar Bisq 2 e intercambiar bitcoins P2P
 Los intercambios P2P (peer-to-peer) son esenciales para preservar la confidencialidad y la autonomía financiera de los usuarios. Permiten transacciones directas entre particulares sin necesidad de verificar la identidad, lo que es crucial para quienes valoran la privacidad. Para profundizar en los conceptos teóricos, consulte el curso BTC204:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ### ¿Qué es Bisq 2?
 
 Bisq 2 es la nueva versión del popular intercambio descentralizado Bisq, lanzado en 2024. A diferencia de su predecesor, Bisq 2 ha sido desarrollado para soportar múltiples protocolos de intercambio, ofreciendo a los usuarios una mayor flexibilidad.
@@ -86,6 +87,7 @@ Esta guía se centra exclusivamente en "Bisq Easy", el único protocolo disponib
 - Verifique la autenticidad del archivo descargado (muy recomendable). Para obtener una guía detallada sobre la verificación de firmas, consulte el siguiente tutorial:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### 2. Instalación según su sistema
 
 Sigue los pasos de instalación adecuados para tu sistema operativo. Si encuentra alguna dificultad durante la instalación, puede consultar la guía detallada en la [wiki oficial de Bisq](https://bisq.wiki/Downloading_and_installing).

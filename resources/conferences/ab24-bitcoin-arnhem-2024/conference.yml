@@ -12,12 +12,14 @@ project_id: 3ece7cc0-6893-4ace-ba4a-a015c2c382d1
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date: "2024-12-16"
+    last_contribution_date: "2025-02-03"
     urgency: 0
     contributors_id:
-      - jramos0
-    reward: 0.05
+      - PaoloFoti
+      reward: 0
+
 tags:
   - adoption
   - historical
   - use-case
+

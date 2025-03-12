@@ -94,4 +94,5 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 - Aloittelijoille (verkkokäyttöliittymä)** : Voit myös käyttää GitHubin web-käyttöliittymää suoraan, jolloin sinun ei tarvitse luoda täydellistä paikallista ympäristöä. Tätä menetelmää voidaan harkita pienille panoksille. Suuremmissa panostuksissa, kuten kokonaan uuden opetusohjelman lisäämisessä, tämä vaihtoehto voi kuitenkin osoittautua monimutkaisemmaksi kuin paikallisen ympäristön luominen. Selitän tässä ohjeessa, miten tämä tehdään:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 Valitse yksi näistä kolmesta vaihtoehdosta tietämyksesi tason mukaan ja aloita sitten ensimmäisen Plan ₿ Network -oppaan kirjoittaminen!

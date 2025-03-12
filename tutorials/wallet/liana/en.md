@@ -64,6 +64,7 @@ Visit the official Wizardsardine website and download Liana at https://wizardsar
 To find out how to manually verify the authenticity and integrity of software before installation, we recommend you consult this tutorial :
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Install the software on your machine and launch it. Choose the "*Create a new Liana wallet*" option to configure your wallet.
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -193,6 +194,7 @@ You can check the expiry status of your funds by going to the "*Coins*" tab. Thi
 To better understand the UTXO representation model used in Bitcoin, you can consult the first part of the course on confidentiality in Bitcoin written by Loïc Morel :
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Current expenditure
 
 Current spending is the normal situation for using Liana. Sending bitcoins with the master key works as in all classic Bitcoin wallets such as Electrum or Sparrow.

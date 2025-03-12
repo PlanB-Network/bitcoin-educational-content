@@ -32,6 +32,7 @@ Mengenai [penetapan harga](https://proton.me/pricing), versi gratis menawarkan h
 Jika Anda belum memiliki akun Proton, Anda perlu membuat satu. Saya mengarahkan Anda ke tutorial Proton Mail kami di mana kami menjelaskan secara detail cara membuat akun Proton gratis dan mengaturnya:
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Bagaimana cara mengatur Proton Drive?
 

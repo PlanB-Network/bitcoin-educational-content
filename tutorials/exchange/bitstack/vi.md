@@ -54,6 +54,7 @@ Chọn một mật khẩu mạnh để bảo mật quyền truy cập vào tài 
 Để quản lý mật khẩu an toàn hàng ngày, việc sử dụng trình quản lý mật khẩu được khuyến khích mạnh mẽ. Trên Plan ₿ Network, bạn sẽ tìm thấy một số hướng dẫn về các giải pháp hiện có tốt nhất, chẳng hạn như Bitwarden:
 
 https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 Sau đó, bạn sẽ được yêu cầu xác minh danh tính (KYC). Theo quy định của Pháp, bạn sẽ được yêu cầu cung cấp thông tin cá nhân và bằng chứng về danh tính. Điền vào các ô với họ, tên và ngày sinh của bạn.
 
 ![Image](assets/fr/07.webp)

@@ -67,6 +67,7 @@ Pode gravá-la num pedaço de papel ou, para maior segurança, recomendo que a g
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 é claro que nunca deve partilhar estas palavras na Internet, como eu estou a fazer neste tutorial. Este exemplo de portefólio será utilizado apenas na Testnet e será eliminado no final do tutorial
 
 Prima firmemente o botão do seu Portal para passar às palavras seguintes. Certifique-se de que coloca todo o seu dedo no botão e mantém a pressão durante alguns segundos, para que a interação seja corretamente detectada.

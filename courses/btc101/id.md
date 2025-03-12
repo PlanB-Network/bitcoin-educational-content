@@ -564,8 +564,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-4
 Sebagai contoh, Anda dapat menggunakan Ledger, Satochip, atau Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Level 3**, anda menggunakan dompet level 1 atau 2, tetapi anda menambahkan sebuah kata sandi tambahan. Dalam kasus ini, perlu diketahui bahwa Anda perlu membuat cadangan baik daftar 12/24 kata **dan\*\* kata sandi Anda. Idealnya, kedua informasi ini disimpan di dua tempat yang berbeda.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Untuk mempelajari lebih lanjut tentang penggunaan dan fungsi frasa sandi BIP39:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Level 4\*\*, Anda menggunakan satu set dompet untuk membuat sebuah dompet "multisig", yang berarti dibutuhkan beberapa tanda tangan untuk melakukan sebuah transaksi. Dalam hal ini, perlu diketahui bahwa setiap bagian dari multisig harus disimpan di lokasi yang berbeda. Pendekatan ini sering dianggap sebagai penggunaan Bitcoin tingkat lanjut, terutama untuk mengelola jumlah yang besar dan untuk tujuan korporat.

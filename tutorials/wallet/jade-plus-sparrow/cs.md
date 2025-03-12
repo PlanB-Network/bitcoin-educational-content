@@ -37,6 +37,7 @@ Jade Plus je kompatibilní s většinou softwaru pro správu portfolia. Zde je p
 V tomto návodu nastavíme pokročilou konfiguraci zařízení Jade Plus s desktopovým softwarem Sparrow Wallet v režimu QR kódů. Tato konfigurace je ideální pro středně pokročilé nebo zkušené uživatele. Pokud hledáte jednodušší přístup pro začátečníky, doporučuji podívat se na tento návod, kde používáme Jade Plus se zelenou peněženkou přes připojení Bluetooth:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+
 ## Bezpečnostní model Jade Plus
 
 Jade Plus používá bezpečnostní model založený na "virtuálním bezpečném prvku", který je zhmotněn "slepým orákulem". Konkrétně tento mechanismus kombinuje PIN zvolený uživatelem, tajemství umístěné v systému Jade a tajemství držené orákulem (serverem spravovaným společností Blockstream) a vytváří klíč AES-256 distribuovaný mezi dvěma entitami. Během iniciace se výměnou ECDH zabezpečí komunikace s orákulem a zašifruje se fráze pro obnovení v hardwarové peněžence. V praxi to znamená, že když chcete získat přístup k seedu pro podepisování transakcí, potřebujete přístup k :
@@ -111,6 +112,7 @@ Můžete jej napsat na karton dodávaný v krabici, nebo pro větší bezpečnos
 Pro více informací o správném způsobu ukládání a správy mnemotechnických frází vřele doporučuji sledovat tento další návod, zejména pokud jste začátečníci:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 samozřejmě nesmíte tato slova nikdy sdílet na internetu, jako to dělám já v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a na konci tutoriálu bude smazáno.**_
 
 Kliknutím na šipku v pravé části obrazovky zobrazíte následující slova.
@@ -268,6 +270,7 @@ Přístupová fráze BIP39 je volitelné heslo, které si můžete libovolně zv
 Před konfigurací této možnosti v systému Jade Plus důrazně doporučujeme přečíst si tento článek, abyste plně porozuměli teoretickému fungování přístupové fráze a vyhnuli se chybám, které by mohly vést ke ztrátě vašich bitcoinů :
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Když je zařízení Jade stále zamčené (přístupovou frázi lze zadat pouze tehdy, když zařízení není odemčené), přejděte do nabídky "*Options*".
 
 ![Image](assets/fr/42.webp)
@@ -320,6 +323,7 @@ Při každém odemknutí zařízení Jade pomocí přístupové fráze zkontrolu
 Než obdržíte své první bitcoiny do peněženky, **důrazně doporučuji provést test obnovy prázdné peněženky**. Zaznamenejte si některé referenční informace, jako je vaše xpub nebo první přijímací adresa, a poté peněženku na Jade Plus vymažte, dokud je ještě prázdná (`Možnosti -> Zařízení -> Obnovení továrního nastavení`). Poté zkuste peněženku obnovit pomocí papírových záloh mnemotechnické fráze a případné přístupové fráze. Zkontrolujte, zda se informace o souboru cookie vygenerované po obnovení shodují s těmi, které jste si původně zapsali. Pokud ano, můžete si být jisti, že vaše papírové zálohy jsou spolehlivé. Chcete-li se dozvědět více o tom, jak provést zkušební obnovu, podívejte se na tento další návod:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Konfigurace peněženky v aplikaci Sparrow Wallet
 
 V tomto tutoriálu představím pokročilé použití aplikace Jade Plus pomocí aplikace Sparrow Wallet. Tato hardwarová peněženka je však kompatibilní s mnoha dalšími programy, například Liana, Nunchuk, Specter, Green a Keeper. Tyto kompatibility se liší z hlediska připojení: USB, Bluetooth nebo QR kód (podrobnosti viz tabulka v úvodu).
@@ -331,6 +335,7 @@ Začněte stažením a instalací aplikace Sparrow Wallet [z oficiálních strá
 Před instalací nezapomeňte zkontrolovat pravost a neporušenost softwaru. Pokud nevíte, jak to udělat, přečtěte si tento návod:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Po otevření aplikace Sparrow Wallet klikněte na kartu "*File*" a poté na "*New Wallet*".
 
 ![Image](assets/fr/51.webp)

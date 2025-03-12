@@ -237,3 +237,4 @@ Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de la
 Je vous conseille également de découvrir cet autre tutoriel dans lequel nous abordons l'utilisation d'une concurrente directe à la CCQ, la Ledger Flex :
 
 https://planb.network/fr/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+

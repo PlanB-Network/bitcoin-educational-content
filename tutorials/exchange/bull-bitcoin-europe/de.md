@@ -49,6 +49,7 @@ Scannen Sie den QR-Code mit Ihrer Authentifizierungsanwendung, geben Sie den 6-s
 Wenn Sie mit der Verwendung von Authentifizierungsanwendungen für die 2FA nicht vertraut sind, empfehle ich Ihnen, einen Blick auf dieses Tutorial zur Authy-Anwendung zu werfen:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Geben Sie zur Bestätigung Ihr Passwort ein.
 
 ![BULL](assets/fr/09.webp)
@@ -125,6 +126,7 @@ Geben Sie den Betrag ein, den Sie kaufen möchten. Sie müssen auch wählen, wie
 Wenn Sie mit der Verwendung von Bitcoin-, Lightning- oder Liquid-Wallets nicht vertraut sind, empfehle ich Ihnen, unseren speziellen Schulungskurs zu besuchen:
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 Sie können auch [unsere ausführlichen Anleitungen zu den besten Bitcoin-Wallets](https://planb.network/tutorials/wallet) erkunden.
 
 Bestätigen Sie dann Ihren Kauf, indem Sie auf "*Kauf bestätigen*" klicken.

@@ -6,7 +6,7 @@ description: Installere og bruke Phoenix Wallet
 
 Phoenix er en selvforvaltende Lightning-lommebok og -node utviklet av ACINQ, et fransk selskap som spesialiserer seg på Lightning-baserte programvareløsninger. I motsetning til depotbaserte Lightning-lommebøker som Wallet of Satoshi, der bitcoins oppbevares av en tredjepart, gjør Phoenix det mulig for brukerne å beholde full kontroll over sine private nøkler.
 
-Phoenix fungerer faktisk som en ekte Lightning-node innebygd i telefonen din, som automatisk åpner en kanal med ACINQs Lightning-node. Programmet er basert på Eclair, Lightning-implementeringen som er utviklet av ACINQ. I motsetning til andre Lightning node-løsninger forenkler Phoenix administrasjonen betraktelig. Brukerne trenger ikke å administrere åpning og stenging av kanaler, kjøre en Bitcoin-node eller administrere likviditeten sin i Lightning-nettverket. Phoenix tar seg av alle disse tekniske operasjonene i bakgrunnen.
+Phoenix fungerer som en ekte Lightning-node integrert på telefonen din, som automatisk åpner en kanal med ACINQs Lightning-node. Applikasjonen er basert på Lightning-KMP, en plattformuavhengig implementering av Lightning Network i Kotlin, optimalisert for mobile lommebøker. I motsetning til andre Lightning-node-løsninger, forenkler Phoenix administrasjonen betydelig. Brukeren trenger ikke å administrere åpning og lukking av kanaler, kjøre en Bitcoin-node eller håndtere likviditeten på Lightning-nettverket. Phoenix tar seg av alle disse tekniske operasjonene i bakgrunnen.
 
 Denne applikasjonen kombinerer brukervennligheten og bekvemmeligheten til mobile Lightning-lommebøker med sikkerheten og suvereniteten til en ekte personlig Lightning-node. Phoenix gjør det mulig å bruke Lightning-nettverket på en sikker, effektiv og selvstendig måte, samtidig som du får en flytende og intuitiv brukeropplevelse.
 
@@ -60,6 +60,7 @@ Du kan skrive den på papir eller, for ekstra sikkerhet, gravere den på rustfri
 Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer minnefrasen din, anbefaler jeg at du følger denne andre veiledningen, spesielt hvis du er nybegynner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 Klikk på meldingen som vises øverst i grensesnittet "*Save your wallet...*".
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Gratulerer, du vet nå hvordan du konfigurerer og bruker Phoenix. Hvis du synes 
 Hvis du vil gå et skritt videre, kan du ta en titt på denne veiledningen om Alby Hub, en annen innovativ og brukervennlig løsning for å lansere din egen Lightning-node:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 Og for å finne ut mer om den tekniske driften av Lightning Network, kan du finne Fanis Michalakis' utmerkede gratis opplæring på Plan ₿ Network :
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

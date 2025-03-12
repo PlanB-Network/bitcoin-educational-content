@@ -29,7 +29,9 @@ Tässä oppaassa käytän esimerkkinä Ledger Flexiä. Jos kuitenkin käytät to
 Ennen tämän oppaan aloittamista, varmista, että olet jo alustanut Ledgerisi ja luonut muistisanojesi fraasin. Jos näin ei ole ja Ledgerisi on uusi, seuraa mallisi mukaista erityisopasta PlanB Network -sivustolla. Kun tämä vaihe on suoritettu, voit palata tähän oppaaseen.
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Kuinka asettaa väliaikainen salasana Ledgeriin?

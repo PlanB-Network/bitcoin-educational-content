@@ -49,6 +49,7 @@ Skannaa QR-koodi todennussovelluksellasi, syötä 6-numeroinen koodi ja napsauta
 Jos et ole perehtynyt todennussovellusten käyttämiseen 2FA:ssa, suosittelen tutustumaan tähän Authy-sovellusta käsittelevään opetusohjelmaan:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Vahvista salasanasi syöttämällä se.
 
 ![BULL](assets/fr/09.webp)
@@ -125,6 +126,7 @@ Kirjoita haluamasi määrä. Sinun on myös valittava, miten haluat nostaa satsi
 Jos et ole perehtynyt Bitcoin-, Lightning- tai Liquid-lompakoiden käyttöön, suosittelen, että osallistut erityiselle koulutuskurssillemme:
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 Voit myös tutustua [yksityiskohtaisiin ohjeisiimme parhaista Bitcoin-lompakoista](https://planb.network/tutorials/wallet).
 
 Vahvista sitten ostoksesi klikkaamalla "*Vahvista osto*".

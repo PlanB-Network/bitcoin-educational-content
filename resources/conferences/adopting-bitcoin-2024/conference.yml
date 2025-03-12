@@ -8,17 +8,18 @@ language:
   - es
 links:
   twitter: https://x.com/AdoptingBTC
-  website: https://www.adoptingbitcoin.org/
+  website: https://sv24.adoptingbitcoin.org/
 project_id: 3ece7cc0-6893-4ace-ba4a-a015c2c382d1
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date: "2024-12-12"
+    last_contribution_date: "2025-03-04"
     urgency: 0
     contributors_id:
-      - jramos0
+      - PaoloFoti
     reward: 0.05
 tags:
   - adoption
   - future-outlook
   - business
+

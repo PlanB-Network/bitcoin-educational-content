@@ -46,6 +46,7 @@ objectives:
 本培训课程最初源于 [Fulgur'Ventures](https://fulgur.ventures/) 在托斯卡纳 Viareggio 举办的为期两周的高级开发训练营。第一周的重点是 Rust 和 SDK，可在另一个课程中找到：
 
 https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+
 在本课程中，我们将重点讲解新兵训练营的第二周内容，即 RGB。
 
 **第 1 周 - LNP402:**
@@ -1866,6 +1867,7 @@ ETP（*额外交易证明*）是锚文件的一部分，包含验证**Tapret****
 如需了解有关 "闪电 "工作原理的更多信息，我建议您学习另一门课程：
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 #### 多协议承诺 - MPC
 
 多协议承诺（MPC）指的是 RGB 中使用的梅克尔树结构，用于在单个比特币交易中包含来自不同合约的多个**过渡包**。其目的是将多个承诺（可能对应不同的合约或不同的资产）集中到一个锚点，以优化区块空间的占用。
@@ -3306,6 +3308,7 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 因此，RGB 在 Lightning 上的运行必须与 Lightning 网络本身的运行同步考虑。如果您想更深入地了解这一主题，我强烈建议您参加其他综合培训课程：
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ### RGB 代码图
 
 最后，在进入下一部分之前，我想向大家介绍一下 RGB 所使用的代码。该协议基于一系列 Rust 库和开源规范。下面是主要资源库和板条箱的概览：

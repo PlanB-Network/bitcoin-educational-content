@@ -15,6 +15,7 @@ Tämän lompakon erityispiirre on mahdollisuus lähettää bitcoineja vastaanott
 Proton Walletin käyttäminen edellyttää Proton-tiliä. Voit luoda sellaisen ilmaiseksi seuraamalla tämän Proton-postilaatikon luomiseen tarkoitetun ohjeen ensimmäisiä vaiheita (vain kohta "*Proton-tilin luominen*"). Kun tilisi on luotu, voit jatkaa tämän ohjeen loppuosaa.
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## Yhdistä Proton-lompakkoon
 
 Mene [Proton Wallet -sivustolle] (https://proton.me/wallet) ja napsauta "*Get Proton Wallet*" -painiketta.
@@ -68,6 +69,7 @@ Voit kirjoittaa sen paperille, tai jos haluat lisätä turvallisuutta, suosittel
 Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaan oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 _**Ei tietenkään koskaan pidä ottaa kuvaa näistä sanoista, toisin kuin minä teen tässä ohjeessa.**_
 
 Napsauta "*Tehdään*"-painiketta, kun olet tallentanut lauseesi.
@@ -95,6 +97,7 @@ Tässä voit lisätä BIP39-salasanan uuteen lompakkoon.
 Jos haluat syventää tietämystäsi salasanasta, suosittelen tätä opetusohjelmaa:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ## Vastaanottaa bitcoineja
 
 Jos haluat vastaanottaa bitcoineja lompakkoosi, valitse haluamasi tili käyttöliittymän vasemmasta reunasta ja napsauta sitten "*Vastaanottaa*"-painiketta.

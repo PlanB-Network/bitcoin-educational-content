@@ -94,3 +94,4 @@ Et voilà, vous savez maintenant comment dépenser vos bitcoins sans KYC dans de
 Si vous souhaitez contribuer à la popularisation de Bitcoin et encourager un commerçant indépendant à adopter cette méthode de paiement, je vous recommande de consulter notre tutoriel complet sur Swiss Bitcoin Pay. Il s'agit d'une solution tout-en-un pour les processeurs de paiement en BTC, facile à installer et à gérer au quotidien :
 
 https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+

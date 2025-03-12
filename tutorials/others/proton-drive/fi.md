@@ -32,6 +32,7 @@ Hinnoittelusta [hinnat](https://proton.me/pricing) osalta ilmainen versio tarjoa
 Jos sinulla ei vielä ole Proton-tiliä, sinun tulee luoda sellainen. Ohjaan sinut Proton Mail -oppaaseemme, jossa selitämme yksityiskohtaisesti, kuinka luoda ilmainen Proton-tili ja ottaa se käyttöön:
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Kuinka ottaa Proton Drive käyttöön?
 

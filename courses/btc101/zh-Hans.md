@@ -564,8 +564,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-4
 例如，您可以使用 Ledger、Satochip 或 Tapsigner：
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - 第 3 级**，您使用第 1 或第 2 级钱包，但添加了额外的口令。在这种情况下，请注意您需要同时备份 12/24 个单词列表**和\*\*您的口令。理想情况下，这两个信息存储在两个不同的地方。
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 进一步了解 BIP39 密码的使用和功能：
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - 第 4\*\*级，使用一组钱包创建 "多重签名 "钱包，这意味着进行交易需要多重签名。在这种情况下，要注意多重签名的每一部分都应存储在不同的位置。这种方法通常被认为是比特币的高级用途，主要用于管理大额资金和企业用途。

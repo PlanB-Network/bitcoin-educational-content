@@ -7,6 +7,7 @@ description: Hướng dẫn dành cho người dùng nâng cao để cung cấp 
 Trước khi làm theo hướng dẫn này để thêm hướng dẫn mới, bạn cần hoàn thành một vài bước sơ bộ. Nếu bạn chưa làm, vui lòng xem hướng dẫn giới thiệu này trước, sau đó quay lại đây:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 Bạn đã có:
 
 
@@ -24,6 +25,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 - Người mới bắt đầu (giao diện web)**:
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## Công cụ được đề xuất
 
 Để chỉnh sửa các tệp Markdown:
@@ -178,6 +180,7 @@ Sau đây là các trường bắt buộc:
 Để biết thêm chi tiết về ID giáo viên của bạn, vui lòng tham khảo hướng dẫn tương ứng:
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8

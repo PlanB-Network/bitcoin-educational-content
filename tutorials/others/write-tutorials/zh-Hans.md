@@ -94,4 +94,5 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 - 初学者（网页界面）** ：您也可以选择直接使用 GitHub 的网页界面，而无需建立完整的本地环境。对于小贡献，可以考虑使用这种方法。但对于重大贡献，比如添加一个完整的新教程，这种方法可能比建立本地环境更复杂。我将在本教程中解释如何做到这一点：
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 根据你的知识水平从这三个选项中选择一个，然后开始编写你的第一个 Plan ₿ 网络教程！

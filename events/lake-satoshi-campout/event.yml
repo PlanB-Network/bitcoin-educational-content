@@ -1,0 +1,17 @@
+id: d9193d5e-13e7-4f4f-b419-333cf3aed278
+start_date: 2025-08-02 16:00:00
+end_date: 2025-08-02 23:00:00
+timezone: America/Detroit
+address_line_1: Lansing, MI, USA
+name: Lake Satoshi Campout
+builder: Lake Satoshi
+type: conference
+description: A conference focusing on Bitcoin trends, innovation, and networking.
+language:
+  - en
+links:
+  website: https://twitter.com/LakeSatoshi
+tags:
+  - innovation
+  - user-friendly
+  - adoption

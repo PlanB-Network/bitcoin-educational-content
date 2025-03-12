@@ -49,6 +49,7 @@ Skann QR-koden med autentiseringsprogrammet ditt, skriv inn den sekssifrede kode
 Hvis du ikke er kjent med å bruke autentiseringsapplikasjoner for 2FA, anbefaler jeg at du tar en titt på denne veiledningen om Authy-applikasjonen:
 
 https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Skriv inn passordet ditt for å bekrefte.
 
 ![BULL](assets/fr/09.webp)
@@ -125,6 +126,7 @@ Angi beløpet du ønsker å kjøpe. Du må også velge hvordan du ønsker å ta 
 Hvis du ikke er kjent med å bruke Bitcoin, Lightning eller Liquid lommebøker, foreslår jeg at du tar vårt dedikerte opplæringskurs:
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 Du kan også utforske [våre detaljerte veiledninger om de beste Bitcoin-lommebøkene] (https://planb.network/tutorials/wallet).
 
 Bekreft deretter kjøpet ved å klikke på "*Bekreft kjøp*".

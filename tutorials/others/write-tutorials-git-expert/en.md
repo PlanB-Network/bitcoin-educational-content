@@ -7,6 +7,7 @@ description: Guide for advanced users to offer a tutorial on Plan ₿ Network wi
 Before following this tutorial on adding a new tutorial, you need to have completed a few preliminary steps. If you haven't already done so, please take a look at this introductory tutorial first, then come back here :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+
 You already have :
 
 
@@ -24,6 +25,7 @@ https://planb.network/tutorials/others/contribution/write-tutorials-github-deskt
 - Beginners (web interface)** :
 
 https://planb.network/tutorials/others/contribution/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+
 ## Suggested tools
 
 For editing Markdown files :
@@ -178,6 +180,7 @@ Here are the required fields:
 For more details on your teacher ID, please refer to the corresponding tutorial :
 
 https://planb.network/tutorials/others/contribution/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8

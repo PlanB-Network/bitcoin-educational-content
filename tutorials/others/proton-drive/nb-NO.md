@@ -31,6 +31,7 @@ Angående [priser](https://proton.me/pricing), tilbyr gratisversjonen opptil 5 G
 Hvis du ennå ikke har en Proton-konto, må du opprette en. Jeg henviser deg til vår Proton Mail-opplæring der vi forklarer i detalj hvordan du oppretter en gratis Proton-konto og setter den opp:
 
 https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ![PROTON DRIVE](assets/notext/04.webp)
 ## Hvordan sette opp Proton Drive?
 

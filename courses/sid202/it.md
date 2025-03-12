@@ -517,25 +517,25 @@ In questa sezione abbiamo visto come emettere ed etichettare le attività. Nella
 
 ![Video](https://youtu.be/5em79YHtYk0?si=rhponm6Hw9AB6RJp)
 
-In questa sezione imparerete come emettere una quantità maggiore di un'attività già emessa e come distruggere una determinata quantità di un'attività emessa.
+In questa sezione imparerete come emettere una quantità maggiore di un'_asset_ già emessa e come distruggere una determinata quantità di un'_asset_ emesso.
 
-La necessità di riemettere (creare di più) un'attività o di distruggerne una quantità è probabile che si verifichi quando l'attività rappresenta qualcosa che non ha una fornitura fissa. Questo potrebbe valere, ad esempio, per le attività che rappresentano l'oro custodito in un caveau; man mano che le unità d'oro entrano ed escono dal caveau, l'attività che rappresenta la fornitura del caveau deve essere regolata di conseguenza.
+La necessità di riemettere (creare di più) un'_asset_ o di distruggerne una quantità è probabile che si verifichi quando l'_asset_ rappresenta qualcosa che non ha una fornitura fissa. Questo potrebbe valere, ad esempio, per le attività che rappresentano l'oro custodito in un caveau; man mano che le unità d'oro entrano ed escono dal caveau, l'attività che rappresenta la fornitura del caveau deve essere regolata di conseguenza.
 
-La riemissione di un importo di un'attività richiede la proprietà del token associato che è stato creato insieme all'attività quando è stata inizialmente emessa.
+La riemissione di un importo di un'attività richiede la proprietà del _token_ associato che è stato creato insieme all'attività quando è stata inizialmente emessa.
 
-Quando si creano altre attività, non importa quale nodo abbia emesso l'attività in primo luogo, purché il nodo che sta riemettendo una quantità di attività sia in possesso di quello che viene comunemente chiamato token di riemissione dell'attività. Vedremo come creare inizialmente il token di riemissione, come usarlo per riemettere una quantità di asset e come trasferire il token di riemissione ad altri nodi, in modo che anch'essi abbiano il permesso di riemettere l'asset.
+Quando si creano altri _assets_, non importa quale nodo abbia emesso l'_asset_ in primo luogo, purché il nodo che sta riemettendo una quantità di _assets_ sia in possesso di quello che viene comunemente chiamato _token_ di riemissione dell'_assets_. Vedremo come creare inizialmente il _token_ di riemissione, come usarlo per riemettere una quantità di _asset_ e come trasferire il _token_ di riemissione ad altri nodi, in modo che anch'essi abbiano il permesso di riemettere l'_asset_.
 
-Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e la risorsa predefinita è stata divisa tra loro.
+Avremo bisogno di accedere a due nodi Elements, che chiameremo `e1` ed `e2`. I nodi sono stati resettati e la risorsa predefinita è stata divisa tra loro.
 
-Faremo in modo che e1 emetta una quantità di 100 di una nuova attività e crei 1 token di riemissione per quella stessa attività. Per semplificare l'esempio, creeremo l'emissione come non bloccata. Procediamo quindi con l'emissione dell'attività e del relativo token di riemissione.
+Faremo in modo che `e1` emetta una quantità di `100` di un nuovo _asset_ e crei `1` _token_ di riemissione per quello stesso _asset_. Per semplificare l'esempio, creeremo l'emissione come non offuscata. Procediamo quindi con l'emissione dell'_asset_ e del relativo _token_ di riemissione.
 
 ```
 e1-cli issueasset 100 1 false
 ```
 
-Si noti l'ID dell'asset e anche quello del token (di riemissione).
+Si noti l'_ID_ dell'_asset_ e anche quello del _token_ (di riemissione).
 
-Poiché in seguito emetteremo altre attività da e2, dovremo prendere nota dell'ID della transazione in cui è stata emessa l'attività e utilizzarlo per importare l'indirizzo a cui è stata inviata l'attività.
+Poiché in seguito emetteremo altre attività da `e2`, dovremo prendere nota dell'_ID della transazione_ in cui è stato emesso l'_asset_ e utilizzarlo per importare l'indirizzo a cui è stato inviato l'_asset_.
 
 Confermare la transazione.
 
@@ -543,42 +543,42 @@ Confermare la transazione.
 e1-cli -generate 1
 ```
 
-Ora controlleremo i dettagli della transazione utilizzando il comando gettransaction:
+Ora controlleremo i dettagli della transazione utilizzando il comando `gettransaction`:
 
 ```
 e1-cli gettransaction <txid>
 ```
 
-Scorrendo l'esagono dei dati della transazione, si vedrà che nella transazione e1 ha ricevuto 1 token di riemissione e 100 dell'asset associato.
+Scorrendo l'esagono dei dati della transazione, si vedrà che nella transazione `e1` ha ricevuto `1` _token_ di riemissione e `100` dell'_asset_ associato.
 
-Fate una copia dell'indirizzo per poterlo importare in e2.
+Fate una copia dell'indirizzo per poterlo importare in `e2`.
 
-E ora importa l'indirizzo nel portafoglio di e2.
+E ora importa l'indirizzo nel portafoglio di `e2`.
 
 ```
 e2-cli importaddress <address>
 ```
 
-Ora possiamo vedere che sia e1 che e2 sono a conoscenza dell'emissione di attività.
+Ora possiamo vedere che sia `e1` che `e2` sono a conoscenza dell'emissione dell'_asset_.
 
 ```
 e1-cli listissuances
 e2-cli listissuances
 ```
 
-Attualmente e1 detiene una quantità di asset e 1 token di riemissione, mentre e2 non ne possiede.
+Attualmente e1 detiene una quantità di _asset_ e `1` _token_ di riemissione, mentre `e2` non ne possiede.
 
 ```
 e1-cli getwalletinfo
 ```
 
-Si noti inoltre che e1 possiede una quantità minore di attività predefinita rispetto a prima, perché ha pagato un piccolo importo per coprire le commissioni di transazione. Questo importo deve essere riscosso da e1 quando il blocco creato viene maturato con una profondità di oltre 100 blocchi.
+Si noti inoltre che `e1` possiede una quantità minore di _asset_ predefinita rispetto a prima, perché ha pagato un piccolo importo per coprire le commissioni di transazione. Questo importo deve essere riscosso da `e1` quando il blocco creato viene maturato con una profondità di oltre `100` blocchi.
 
 ```
 e2-cli getwalletinfo
 ```
 
-Poiché e1 detiene il token di riemissione, può riemetterne altri. Ciò avviene utilizzando il comando reissueasset. Facciamo in modo che e1 riemetta altri 100 asset.
+Poiché `e1` detiene il _token_ di riemissione, può riemetterne altri. Ciò avviene utilizzando il comando `reissueasset`. Facciamo in modo che `e1` riemetta altri `100` _asset_.
 
 ```
 e1-cli reissueasset <asset-id> 100
@@ -590,9 +590,9 @@ La verifica della riemissione ha funzionato.
 e1-cli getwalletinfo
 ```
 
-Si può notare che e1 ora detiene 200 dell'asset, come previsto.
+Si può notare che `e1` ora detiene `200` dell'_asset_, come previsto.
 
-Poiché e2 non detiene una quantità di token di riemissione, riceveranno un errore se proveranno a riemettere l'attività.
+Poiché `e2` non detiene una quantità di _token_ di riemissione, riceveranno un errore se proveranno a riemettere l'_asset_.
 
 ```
 e2-cli reissueasset <asset-id> 100
@@ -600,7 +600,7 @@ e2-cli reissueasset <asset-id> 100
 
 Notare il messaggio di errore.
 
-È possibile visualizzare i dettagli della riemissione da e1 utilizzando il comando listissuances.
+È possibile visualizzare i dettagli della riemissione da `e1` utilizzando il comando `listissuances`.
 
 ```
 e1-cli listissuances
@@ -608,13 +608,13 @@ e1-cli listissuances
 
 Si noti il flag `is_reissuance`.
 
-Se ora inviamo a e2 una quantità di token di riemissione, essi saranno in grado di riemettere essi stessi una quantità di asset. Per prima cosa abbiamo bisogno di un indirizzo a cui inviarlo. Vale la pena notare che il token di riemissione viene trattato come qualsiasi altro asset all'interno di elements quando si inviano e si visualizzano i saldi e che può anche essere suddiviso in tagli più piccoli come qualsiasi altro asset, quindi non è necessario inviare 1 token di riemissione a e2 perché possa riemettere l'asset. Qualsiasi taglio sarà sufficiente. Generare un indirizzo per e2 per ricevere il token di riemissione.
+Se ora inviamo a `e2` una quantità di token di riemissione, essi saranno in grado di riemettere essi stessi una quantità di _asset_. Per prima cosa abbiamo bisogno di un indirizzo a cui inviarlo. Vale la pena notare che il _token_ di riemissione viene trattato come qualsiasi altro _asset_ all'interno di Elements quando si inviano e si visualizzano i saldi e che può anche essere suddiviso in tagli più piccoli come qualsiasi altro _asset_, quindi non è necessario inviare `1` _token_ di riemissione a `e2` perché possa riemettere l'_asset_. Qualsiasi taglio sarà sufficiente. Generare un indirizzo per `e2` per ricevere il _token_ di riemissione.
 
 ```
 e2-cli getnewaddress
 ```
 
-Quindi inviare una frazione del RIT da e1 a e2.
+Quindi inviare una frazione del _RIT_ da `e1` a `e2`.
 
 ```
 e1-cli sendtoaddress <address-of-e2> 0.1 "" "" false false 1 UNSET false <reissuance-token-id>
@@ -626,13 +626,13 @@ Confermare la transazione.
 e1-cli -generate 1
 ```
 
-Ora possiamo vedere che e2 mantiene lo 0,1 che gli è stato inviato.
+Ora possiamo vedere che `e2` mantiene lo `0,1` che gli è stato inviato.
 
 ```
 e2-cli getwalletinfo
 ```
 
-Ciò significa che e2 può ora riemettere una quantità maggiore dell'asset associato alla RIT che detiene nel suo portafoglio. Faremo in modo che e2 riemetta 500 esemplari dell'asset.
+Ciò significa che `e2` può ora riemettere una quantità maggiore dell'_asset_ associato alla _RIT_ che detiene nel suo portafoglio. Faremo in modo che `e2` riemetta `500` esemplari dell'_asset_.
 
 ```
 e2-cli reissueasset <asset-id> 500
@@ -644,16 +644,16 @@ Controllare il risultato della riemissione.
 e2-cli getwalletinfo
 ```
 
-Si può notare che e2 ora detiene l'importo riemesso nel suo portafoglio e che la RIT stessa non viene consumata nel processo di riemissione delle attività.
+Si può notare che `e2` ora detiene l'importo riemesso nel suo portafoglio e che la _RIT_ stessa non viene consumata nel processo di riemissione delle attività.
 
-Distruggere una quantità di un'attività è qualcosa che può fare chiunque detenga almeno la quantità che viene distrutta, non è governato dal token di riemissione.
+Distruggere una quantità di un'_asset_ è qualcosa che può fare chiunque detenga almeno la quantità che viene distrutta, non è governato dal _token_ di riemissione.
 
 ```
 e2-cli destroyamount <asset-id>
 e2-cli getwalletinfo
 ```
 
-In questa sezione abbiamo visto come emettere un asset e come utilizzare il token di riemissione che viene creato opzionalmente come parte dell'emissione dell'asset. Abbiamo anche visto che trasferire un token di riemissione è semplice come trasferire qualsiasi altro asset e che detenere una qualsiasi quantità di token di riemissione conferisce al titolare il diritto di emettere altri asset. È quindi molto importante controllare chi ha accesso ai token di riemissione nella vostra rete. Abbiamo anche visto come distruggere una quantità di un asset e che questo processo non è controllato dal possesso del token di riemissione.
+In questa sezione abbiamo visto come emettere un _asset_ e come utilizzare il _token_ di riemissione che viene creato opzionalmente come parte dell'emissione dell'_asset_. Abbiamo anche visto che trasferire un _token_ di riemissione è semplice come trasferire qualsiasi altro _asset_ e che detenere una qualsiasi quantità di _token_ di riemissione conferisce al titolare il diritto di emettere altri _asset_. È quindi molto importante controllare chi ha accesso ai _token_ di riemissione nella vostra rete. Abbiamo anche visto come distruggere una quantità di un _asset_ e che questo processo non è controllato dal possesso del _token_ di riemissione.
 
 # Federazione degli elementi
 

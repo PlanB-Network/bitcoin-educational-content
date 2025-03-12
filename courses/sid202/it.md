@@ -86,7 +86,7 @@ Elements aggiunge tutte queste funzionalità alla base di codice di _Bitcoin Cor
 
 Elements fornisce una soluzione tecnica ai problemi che gli utenti della blockchain devono affrontare quotidianamente: latenza delle transazioni, mancanza di privacy e rischio di fungibilità.
 
-Elements supera questi problemi grazie all'uso della firma a blocchi federata e delle transazioni riservate.
+Elements supera questi problemi grazie all'uso della Federated Block Signing (blocchi federati firmati) e delle _Confidential Transaction_ (Transazioni Riservate).
 
 A differenza della rete Bitcoin, il processo di firma dei blocchi all'interno di Elements non si basa su Dynamic Membership Multiparty Signatures (DMMS) e Proof of Work (PoW). Elements utilizza invece una Strong Federation di firmatari, chiamati Block Signers, che possono firmare e creare blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni del processo di estrazione PoW, che è soggetto a grandi variazioni di tempo dei blocchi a causa della sua distribuzione casuale di tipo poisson. Il processo di Federated Block Signing consente di ottenere una creazione affidabile dei blocchi senza introdurre la necessità di una fiducia da parte di terzi.
 

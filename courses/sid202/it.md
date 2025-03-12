@@ -13,7 +13,7 @@ objectives:
 
 Scoprite le caratteristiche e le funzionalità avanzate di Liquid Network ed Elements e imparate a utilizzare efficacemente questi strumenti per migliorare i vostri progetti di sviluppo. Questa formazione fornisce una base teorica e pratica completa, consentendovi di padroneggiare funzionalità quali Transazioni riservate, Attività emesse e Firma a blocchi federata.
 
-Liquid, basato sul framework Elements, è progettato per migliorare la privacy, la scalabilità e la funzionalità delle soluzioni finanziarie e tecniche. In questo corso, acquisirete esperienza pratica con l'emissione e la gestione di asset, il Federated 2-Way Peg e l'uso di strumenti come `elementsd` ed `elements-cli`, consentendovi di creare soluzioni innovative su misura per le vostre esigenze.
+Liquid, basato sul framework Elements, è progettato per migliorare la privacy, la scalabilità e la funzionalità delle soluzioni finanziarie e tecniche. In questo corso, acquisirete esperienza pratica con l'emissione e la gestione di asset, il Federated 2-Way Peg (collegamento bidirezionale) e l'uso di strumenti come `elementsd` ed `elements-cli`, consentendovi di creare soluzioni innovative su misura per le vostre esigenze.
 
 Questo corso è adatto agli sviluppatori di tutti i livelli di esperienza. I principianti e gli utenti intermedi troveranno spiegazioni accessibili ed esempi pratici, mentre gli utenti avanzati potranno approfondire i dettagli tecnici e le caratteristiche meno conosciute di Liquid ed Elements.
 
@@ -42,39 +42,39 @@ Eventuali domande, richieste di ulteriori informazioni o dubbi sulle risposte ai
 
 ![Video](https://youtu.be/ns-JLGdkNig?si=fmWye_boRSvVF1Bt)
 
-Elements è una piattaforma blockchain open source e compatibile con la sidechain, che consente di accedere a potenti funzionalità sviluppate dai membri della comunità, come le Transazioni riservate e gli Asset emessi.
+Elements è una _sidechain_ (catena laterale) collegata a una piattaforma blockchain, che consente di accedere a potenti funzionalità sviluppate dai membri della comunità, come le _Confidential Transaction_ (Transazioni Riservate) e le _Issued Assets_ (Attività Emesse).
 
 Elements è, nella sua essenza, un protocollo che consente di formare il consenso intorno alla storia delle transazioni e alle regole che governano il trasferimento e la creazione di beni memorizzati in un libro mastro distribuito della blockchain.
 
-Ulteriori informazioni di base su Elements sono disponibili sul sito web del progetto Elements (https://elementsproject.org/), sul blog ufficiale di Liquid (https://blog.liquid.net/) e sul portale degli sviluppatori (https://liquid.net/devs).
+Ulteriori informazioni di base su Elements sono disponibili sul sito web del progetto Elements (_https://elementsproject.org/_), sul blog ufficiale di Liquid (_https://blog.liquid.net/_) e sul portale degli sviluppatori (_https://liquid.net/devs_).
 
-### Elementi
+### Elements
 
-Lanciato nel 2015, Elements riduce i costi interni di sviluppo e ricerca e sfrutta la più recente tecnologia blockchain, aprendo molti nuovi casi d'uso per l'implementazione. Una blockchain basata su Elements può funzionare come blockchain indipendente o essere collegata a un'altra e funzionare come sidechain. L'esecuzione di Elements come Sidechain consente di trasferire in modo verificabile gli asset tra blockchain diverse.
+Lanciato nel 2015, Elements riduce i costi interni di sviluppo e ricerca e sfrutta la più recente tecnologia blockchain, aprendo molti nuovi casi d'uso per l'implementazione. Una blockchain basata su Elements può funzionare come blockchain indipendente o essere collegata a un'altra e funzionare come _sidechain_ (catena laterale). L'esecuzione di Elements come Sidechain consente di trasferire in modo verificabile gli _asset_ (attività) tra blockchain diverse.
 
-Costruito sulla base del codice di Bitcoin e da esso esteso, consente agli sviluppatori che hanno familiarità con l'API di Bitcoin di creare rapidamente e a costi contenuti blockchain funzionanti e di testare progetti proof-of-concept. Essendo costruito sulla base di codice di Bitcoin, Elements può anche funzionare come banco di prova per le modifiche al protocollo Bitcoin stesso.
+Costruito sulla base del codice di Bitcoin e da esso esteso, consente agli sviluppatori che hanno familiarità con l'API di Bitcoin di creare rapidamente e a costi contenuti blockchain funzionanti e di testare progetti _proof-of-concept_ (come prova concettuale). Essendo costruito sulla base del codice di Bitcoin, Elements può anche funzionare come banco di prova per le modifiche al protocollo Bitcoin stesso.
 
 Di seguito sono elencate alcune delle caratteristiche principali di Elements.
 
-#### Transazioni riservate
+#### Confidential Transactions (Transazioni Riservate)
 
-Per impostazione predefinita, tutti gli indirizzi in Elements sono blindati utilizzando le Transazioni riservate. L'accecamento è il processo mediante il quale l'importo e il tipo di attività trasferita vengono nascosti crittograficamente a tutti, tranne che ai partecipanti e a coloro che scelgono di rivelare la chiave di accecamento.
+Per impostazione predefinita, tutti gli indirizzi in Elements sono rese confidenziali utilizzando le _Confidential Transactions_ (Transazioni Riservate). L'offuscamento è il processo mediante il quale l'importo e il tipo di attività trasferita vengono nascosti crittograficamente a tutti, tranne che ai partecipanti e a coloro che scelgono di rivelare la chiave di offuscamento.
 
-#### Attività emesse
+#### Issued Assets (Attività Emesse)
 
-Gli Issued Assets su Elements consentono di emettere e trasferire più tipi di asset tra i partecipanti alla rete. Un Asset emesso beneficia anche delle Transazioni riservate e può essere riemesso o distrutto da chiunque possieda il relativo token di riemissione.
+Gli _Issued Assets_ (Attività Emesse) su Elements consentono di emettere e trasferire più tipi di asset tra i partecipanti alla rete. Un _Issued Asset_ beneficia anche delle _Confidential Transactions_ e può essere riemesso o distrutto da chiunque possieda il relativo token di riemissione.
 
-#### Piolo Federato a 2 vie
+#### Federated 2-Way Peg (Ancoraggio Federato a 2 vie)
 
-Elements è una piattaforma blockchain di uso generale che può anche essere "agganciata" a una blockchain esistente (come Bitcoin) per consentire il trasferimento bidirezionale di asset da una catena all'altra. L'implementazione di Elements come sidechain consente di aggirare alcune delle proprietà intrinseche della catena principale, pur mantenendo un buon grado di sicurezza fornito dagli asset protetti sulla catena principale.
+Elements è una piattaforma blockchain di uso generale che può anche essere _"ancorata"_ a una blockchain esistente (come Bitcoin) per consentire il trasferimento bidirezionale di asset da una catena all'altra. L'implementazione di Elements come _sidechain_ consente di aggirare alcune delle proprietà intrinseche della catena principale, pur mantenendo un buon grado di sicurezza fornito dagli asset protetti sulla catena principale.
 
-#### Blocchi firmati
+#### Signed Blocks (Blocchi firmati)
 
-Elements utilizza una Strong Federation di firmatari, chiamati Block Signers, che firmano e creano blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni del processo di estrazione PoW, che è soggetto a una grande varianza dei tempi dei blocchi a causa della sua distribuzione casuale di tipo poisson. Il processo di Federated Block Signing consente di ottenere una creazione affidabile dei blocchi senza introdurre la necessità di una fiducia da parte di terzi o di un mining basato su algoritmi computazionali.
+Elements utilizza una _Strong Federation_ (Federazione rinforzata) di firmatari, chiamati _Block Signers_ (Blocchi Firmati), che firmano e creano blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni del processo di estrazione _**PoW**_ (Proof-of-work prova di lavoro), che è soggetto a una ampia gamma dei tempi di estrazione dei blocchi a causa della sua distribuzione casuale di tipo _"Poisson"_. Il processo di _Federated Block Signing_ (Blocchi Federetai Firmati) consente di ottenere una creazione affidabile dei blocchi senza introdurre la necessità di una fiducia da parte di terzi o di un _mining_ basato su `algoritmi` computazionali.
 
-Elements aggiunge tutte queste funzionalità alla base di codice di Bitcoin Core, estendendo le capacità del protocollo mainchain e consentendo nuovi casi d'uso commerciali quando viene distribuito come sidechain o come soluzione blockchain indipendente.
+Elements aggiunge tutte queste funzionalità alla base di codice di _Bitcoin Core_, estendendo le capacità del protocollo mainchain e consentendo nuovi casi d'uso commerciali quando viene distribuito come sidechain o come soluzione blockchain indipendente.
 
-# Elemento
+# Elements
 
 <partId>ac68d611-be84-432f-a3a8-620d310e131c</partId>
 

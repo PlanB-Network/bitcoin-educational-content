@@ -1,13 +1,13 @@
-question: Qual è l'uso consigliato di un portafoglio fisico offline, o cold?
-answer: Conservare grandi quantità.
+question: Qual è l'uso consigliato per un wallet fisico offline, o cold?
+answer: Conservare grandi quantità di bitcoin.
 wrong_answers:
-  - Conservare le spese quotidiane.
-  - Conservare piccole quantità.
+  - Utilizzarlo per le le spese quotidiane.
+  - Conservare piccole quantità di bitcoin.
   - Conservare risparmi a breve termine.
 explanation: |
-  Un portafoglio fisico offline, o cold, è consigliato per
+  Un wallet fisico offline, o cold, è consigliato per
   conservare grandi quantità perché è meno vulnerabile a
-  minacce online rispetto ai portafogli caldi (hot wallets). Tuttavia, non è
-  consigliato per le spese quotidiane perché è meno
-  accessibile per le transazioni giornaliere.
+  minacce online rispetto agli hot wallet. Non è
+  consigliato per le spese quotidiane, perché è meno
+  accessibile per transazioni frequenti.
 reviewed: true

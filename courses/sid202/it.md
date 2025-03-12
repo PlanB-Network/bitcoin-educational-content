@@ -3,21 +3,21 @@ name: Costruire con Elemnts e Liquid Network
 goal: Imparare a utilizzare e sviluppare con la piattaforma blockchain open-source Elements e le sue caratteristiche principali
 objectives: 
 
-  - Comprendere i concetti fondamentali della piattaforma blockchain Elements e delle sidechain Liquid.
+  - Comprendere i concetti fondamentali della piattaforma blockchain **Elements** e delle _sidechain_ **Liquid**.
   - Imparate a configurare ed eseguire i nodi Elements per le configurazioni standalone e sidechain.
-  - Acquisire esperienza pratica con la firma a blocchi federata e il Federated 2-Way Peg.
+  - Acquisire esperienza pratica con la firma a blocchi federata e il _"Federated 2-Way Peg"_ (Ancoraggio Federato a 2 Vie).
   - Impostare e gestire ambienti blockchain sicuri ed efficienti per casi d'uso reali.
 
 ---
 # Costruire su Liquid Network ed Elements
 
-Scoprite le caratteristiche e le funzionalità avanzate di Liquid Network ed Elements e imparate a utilizzare efficacemente questi strumenti per migliorare i vostri progetti di sviluppo. Questa formazione fornisce una base teorica e pratica completa, consentendovi di padroneggiare funzionalità quali Transazioni riservate, Attività emesse e Firma a blocchi federata.
+Scoprite le caratteristiche e le funzionalità avanzate di **Liquid Network** ed **Elements** e imparate a utilizzare efficacemente questi strumenti per migliorare i vostri progetti di sviluppo. Questa formazione fornisce una base teorica e pratica completa, consentendovi di padroneggiare funzionalità quali _Confidential Transaction_ (Transazioni Riservate), _Issued Asset_ (Attività Emesse) e _"Federated Block Signing"_ (Blocchi Federati Firmati).
 
-Liquid, basato sul framework Elements, è progettato per migliorare la privacy, la scalabilità e la funzionalità delle soluzioni finanziarie e tecniche. In questo corso, acquisirete esperienza pratica con l'emissione e la gestione di asset, il Federated 2-Way Peg (collegamento bidirezionale) e l'uso di strumenti come `elementsd` ed `elements-cli`, consentendovi di creare soluzioni innovative su misura per le vostre esigenze.
+**Liquid**, basato sul framework **Elements**, è progettato per migliorare la privacy, la scalabilità e la funzionalità delle soluzioni finanziarie e tecniche. In questo corso, acquisirete esperienza pratica con l'emissione e la gestione di asset, il _"Federated 2-Way Peg"_ (Ancoraggio Federato a 2 Vie) e l'uso di strumenti come `elementsd` ed `elements-cli`, consentendovi di creare soluzioni innovative su misura per le vostre esigenze.
 
 Questo corso è adatto agli sviluppatori di tutti i livelli di esperienza. I principianti e gli utenti intermedi troveranno spiegazioni accessibili ed esempi pratici, mentre gli utenti avanzati potranno approfondire i dettagli tecnici e le caratteristiche meno conosciute di Liquid ed Elements.
 
-Unisciti a noi per elevare le tue competenze, sbloccare il pieno potenziale di Liquid ed Elements e creare strumenti d'impatto per il futuro dell'innovazione di Liquid.
+Unisciti a noi per elevare le tue competenze, sbloccare il pieno potenziale di **Liquid** ed **Elements** e creare strumenti d'impatto per il futuro dell'innovazione di **Liquid**.
 
 +++
 # Introduzione
@@ -30,7 +30,7 @@ Unisciti a noi per elevare le tue competenze, sbloccare il pieno potenziale di L
 
 ![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
 
-Lo scopo di Elements Academy è quello di introdurre e spiegare i concetti chiave di Elements, la piattaforma open-source su cui è costruito Liquid. Alla fine del corso, si dovrebbe avere una buona comprensione delle caratteristiche principali di Elements, come le _Confidential Transaction_ (Transazioni Riservate) e le _Issued Asset_ (Attività Emesse), e dei processi coinvolti nella gestione di Elements Core.
+Lo scopo di _Elements Academy_ è quello di introdurre e spiegare i concetti chiave di **Elements**, la piattaforma open-source su cui è costruito **Liquid**. Alla fine del corso, si dovrebbe avere una buona comprensione delle caratteristiche principali di **Elements**, come le _Confidential Transaction_ (Transazioni Riservate) e le _Issued Asset_ (Attività Emesse), e dei processi coinvolti nella gestione di `Elements Core`.
 
 Ogni sezione prevede lezioni con testo esplicativo e un video che si conclude con un quiz. Il numero di domande è relativo all'estensione dell'argomento che le precede. La sezione 10 riassumerà il contenuto del corso e terminerà con un quiz più ampio.
 
@@ -42,7 +42,7 @@ Eventuali domande, richieste di ulteriori informazioni o dubbi sulle risposte ai
 
 ![Video](https://youtu.be/ns-JLGdkNig?si=fmWye_boRSvVF1Bt)
 
-Elements è una _sidechain_ (catena laterale) collegata a una piattaforma blockchain, che consente di accedere a potenti funzionalità sviluppate dai membri della comunità, come le _Confidential Transaction_ (Transazioni Riservate) e le _Issued Assets_ (Attività Emesse).
+Elements è una _sidechain_ (catena laterale) collegata a una piattaforma blockchain, che consente di accedere a potenti funzionalità sviluppate dai membri della comunità, come le _"Confidential Transaction"_ (Transazioni Riservate) e le _"Issued Assets"_ (Attività Emesse).
 
 Elements è, nella sua essenza, un protocollo che consente di formare il consenso intorno alla storia delle transazioni e alle regole che governano il trasferimento e la creazione di beni memorizzati in un libro mastro distribuito della blockchain.
 
@@ -58,19 +58,19 @@ Di seguito sono elencate alcune delle caratteristiche principali di Elements.
 
 #### Confidential Transactions (Transazioni Riservate)
 
-Per impostazione predefinita, tutti gli indirizzi in Elements sono rese confidenziali utilizzando le _Confidential Transactions_ (Transazioni Riservate). L'offuscamento è il processo mediante il quale l'importo e il tipo di attività trasferita vengono nascosti crittograficamente a tutti, tranne che ai partecipanti e a coloro che scelgono di rivelare la chiave di offuscamento.
+Per impostazione predefinita, tutti gli indirizzi in Elements sono rese confidenziali utilizzando le _"Confidential Transactions"_ (Transazioni Riservate). L'offuscamento è il processo mediante il quale l'importo e il tipo di attività trasferita vengono nascosti crittograficamente a tutti, tranne che ai partecipanti e a coloro che scelgono di rivelare la chiave di offuscamento.
 
 #### Issued Assets (Attività Emesse)
 
-Gli _Issued Assets_ (Attività Emesse) su Elements consentono di emettere e trasferire più tipi di asset tra i partecipanti alla rete. Un _Issued Asset_ beneficia anche delle _Confidential Transactions_ e può essere riemesso o distrutto da chiunque possieda il relativo token di riemissione.
+Gli _"Issued Assets"_ (Attività Emesse) su Elements consentono di emettere e trasferire più tipi di asset tra i partecipanti alla rete. Un _"Issued Asset"_ beneficia anche delle _"Confidential Transactions"_ e può essere riemesso o distrutto da chiunque possieda il relativo token di riemissione.
 
 #### Federated 2-Way Peg (Ancoraggio Federato a 2 vie)
 
-Elements è una piattaforma blockchain di uso generale che può anche essere _"ancorata"_ a una blockchain esistente (come Bitcoin) per consentire il trasferimento bidirezionale di asset da una catena all'altra. L'implementazione di Elements come _sidechain_ consente di aggirare alcune delle proprietà intrinseche della catena principale, pur mantenendo un buon grado di sicurezza fornito dagli asset protetti sulla catena principale.
+Elements è una piattaforma blockchain di uso generale che può anche essere _ancorata_ a una blockchain esistente (come Bitcoin) per consentire il trasferimento bidirezionale di asset da una catena all'altra. L'implementazione di Elements come _sidechain_ consente di aggirare alcune delle proprietà intrinseche della catena principale, pur mantenendo un buon grado di sicurezza fornito dagli asset protetti sulla catena principale.
 
 #### Signed Blocks (Blocchi firmati)
 
-Elements utilizza una _Strong Federation_ (Federazione rinforzata) di firmatari, chiamati _Block Signers_ (Blocchi Firmati), che firmano e creano blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni del processo di estrazione _**PoW**_ (Proof-of-work prova di lavoro), che è soggetto a una ampia gamma dei tempi di estrazione dei blocchi a causa della sua distribuzione casuale di tipo _"Poisson"_. Il processo di _Federated Block Signing_ (Blocchi Federetai Firmati) consente di ottenere una creazione affidabile dei blocchi senza introdurre la necessità di una fiducia da parte di terzi o di un _mining_ basato su `algoritmi` computazionali.
+Elements utilizza una _"Strong Federation"_ (Federazione rinforzata) di firmatari, chiamati _"Block Signers"_ (Blocchi Firmati), che firmano e creano blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni del processo di estrazione _**PoW**_ (Proof-of-work prova di lavoro), che è soggetto a una ampia gamma dei tempi di estrazione dei blocchi a causa della sua distribuzione casuale di tipo _Poisson_. Il processo di _"Federated Block Signing"_ (Blocchi Federetai Firmati) consente di ottenere una creazione affidabile dei blocchi senza introdurre la necessità di una fiducia da parte di terzi o di un _mining_ basato su `algoritmi` computazionali.
 
 Elements aggiunge tutte queste funzionalità alla base di codice di _Bitcoin Core_, estendendo le capacità del protocollo mainchain e consentendo nuovi casi d'uso commerciali quando viene distribuito come sidechain o come soluzione blockchain indipendente.
 
@@ -86,13 +86,13 @@ Elements aggiunge tutte queste funzionalità alla base di codice di _Bitcoin Cor
 
 Elements fornisce una soluzione tecnica ai problemi che gli utenti della blockchain devono affrontare quotidianamente: latenza delle transazioni, mancanza di privacy e rischio di fungibilità.
 
-Elements supera questi problemi grazie all'uso della Federated Block Signing (Blocchi Federati Firmati) e delle _Confidential Transaction_ (Transazioni Riservate).
+Elements supera questi problemi grazie all'uso della _"Federated Block Signing"_ (Blocchi Federati Firmati) e delle _"Confidential Transaction"_ (Transazioni Riservate).
 
-A differenza della rete Bitcoin, il processo di firma dei blocchi all'interno di Elements non si basa su Dynamic Membership Multiparty Signatures (DMMS) e Proof of Work (PoW). Elements utilizza invece una _Strong Federation_ di firmatari, chiamati _Block Signers_ (Firmatari dei Blocchi), che possono firmare e creare blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni del processo di estrazione _PoW_, che è soggetto a grandi variazioni di tempo dei blocchi a causa della sua distribuzione casuale di tipo _"Poisson"_. Il processo di _Federated Block Signing_ consente di ottenere una creazione affidabile dei blocchi senza introdurre la necessità di una fiducia da parte di terzi.
+A differenza della rete Bitcoin, il processo di firma dei blocchi all'interno di Elements non si basa su Dynamic Membership Multiparty Signatures (DMMS) e Proof of Work (PoW). Elements utilizza invece una _"Strong Federation"_ (Federazione Rinforzata) di firmatari, chiamati _"Block Signers"_ (Firmatari dei Blocchi), che possono firmare e creare blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni del processo di estrazione _PoW_, che è soggetto a grandi variazioni di tempo dei blocchi a causa della sua distribuzione casuale di tipo _Poisson_. Il processo di _"Federated Block Signing"_ consente di ottenere una creazione affidabile dei blocchi senza introdurre la necessità di una fiducia da parte di terzi.
 
 Elements può funzionare come _sidechain_ (catena laterale) di un'altra blockchain, come Bitcoin, o come blockchain autonoma senza dipendere da altre reti.
 
-Quando viene utilizzata come _sidechain_, la _Strong Federation_ (Federazione Rinforzata) contiene anche membri che consentono il trasferimento sicuro e controllato di asset tra una catena principale e una sidechain Elements. Il trasferimento controllato di beni è chiamato _Federated 2-Way Peg_ (Ancoraggio Federato a due Vie) e i membri che svolgono il ruolo di trasferimento dei beni sono chiamati _Watchmen_ (guardiani).
+Quando viene utilizzata come _sidechain_, la _"Strong Federation"_ (Federazione Rinforzata) contiene anche membri che consentono il trasferimento sicuro e controllato di asset tra una catena principale e una sidechain Elements. Il trasferimento controllato di beni è chiamato _"Federated 2-Way Peg"_ (Ancoraggio Federato a due Vie) e i membri che svolgono il ruolo di trasferimento dei beni sono chiamati _Watchmen_ (guardiani).
 
 I processi coinvolti nella gestione di una rete Elements e i ruoli dei partecipanti alla rete sono importanti per comprendere il funzionamento di Elements.
 
@@ -106,7 +106,7 @@ I ruoli che un _"Functionary"_ (Funzionario) può ricoprire all'interno di una _
 
 Le azioni che un membro di una _"Strong Federation"_ può eseguire sono suddivise tra due ruoli distinti per migliorare la sicurezza e limitare i danni che un attaccante può causare.
 
-Se combinati, i ruoli di questi partecipanti consentono a Elements di fornire sia una rapida creazione di blocchi (una conferma più rapida e definitiva delle transazioni) sia asset sicuri e trasferibili (asset pegged direttamente collegabili a un'altra blockchain).
+Se combinati, i ruoli di questi partecipanti consentono a Elements di fornire sia una rapida creazione di blocchi (una conferma più rapida e definitiva delle transazioni) sia asset sicuri e trasferibili (_asset pegged_ direttamente collegabili a un'altra blockchain).
 
 È possibile leggere il whitepaper Strong Federations qui: _https://blockstream.com/strong-federations.pdf_
 
@@ -131,15 +131,15 @@ Poiché la generazione dei blocchi di una _"Strong Federation"_ non è probabili
 
 Se gestita come _sidechain_, alcuni membri della _"Strong Federation"_ hanno un ruolo aggiuntivo da svolgere, quello dei _"Watchmen"_ (Guardiani). Gli _"Watchmen"_ sono responsabili del trasferimento di beni in entrata e in uscita da una _sidechain_ Elements, processi noti come `Peg-In` (Ancoraggio in Ingresso) e `Peg-Out` (Ancoraggio in Uscita).
 
-Affinché una _sidechain_ operi in modo affidabile, deve consentire ai partecipanti di verificare che la fornitura di asset sia controllata e verificabile. Una _sidechain_ di Elements utilizza un _Federated 2-Way Peg_ (Ancoraggio Federato a due Vie) per consentire il trasferimento bidirezionale di _asset_ all'interno e all'esterno di una blockchain di Elements. Questo soddisfa i requisiti di emissione e trasferimento intercatena dimostrabili.
+Affinché una _sidechain_ operi in modo affidabile, deve consentire ai partecipanti di verificare che la fornitura di asset sia controllata e verificabile. Una _sidechain_ di Elements utilizza un _"Federated 2-Way Peg"_ (Ancoraggio Federato a due Vie) per consentire il trasferimento bidirezionale di _asset_ all'interno e all'esterno di una blockchain di Elements. Questo soddisfa i requisiti di emissione e trasferimento intercatena dimostrabili.
 
 La funzione _"Federated 2-Way Peg"_ (Ancoraggio Federato a due Vie) consente a un _asset_ di essere interoperabile con altre blockchain e rappresentativo dell'_asset_ nativo di un'altra blockchain. Agganciando la propria blockchain a un'altra, è possibile estendere le capacità della _mainchain_ (catena principale) e superare alcune delle sue limitazioni intrinseche.
 
-Ad alto livello, i trasferimenti nella _sidechain_ avvengono quando qualcuno invia beni della _mainchain_ a un indirizzo controllato da un _"Watchmen wallet multi-signature"_ (Portafoglio Guardiano a Firma Multipla). Questo blocca di fatto gli asset sulla _mainchain_. _"Watchmen"_ convalida quindi la transazione e rilascia la stessa quantità di _asset_ associati all'interno della _sidechain_. Gli _asset_ rilasciati vengono inviati a un portafoglio della _sidechain_ che può dimostrare di avere diritto agli _asset_ originali della _mainchain_. Questo processo sposta effettivamente gli _asset_ dalla _mainchain_ alla _sidechain_.
+Ad alto livello, i trasferimenti nella _sidechain_ avvengono quando qualcuno invia beni della _mainchain_ a un indirizzo controllato da un _"Watchmen wallet multi-signature"_ (Portafoglio Guardiano a Firma Multipla). Questo blocca di fatto gli asset sulla _mainchain_. Lo _"Watchmen"_ convalida quindi la transazione e rilascia la stessa quantità di _asset_ associati all'interno della _sidechain_. Gli _asset_ rilasciati vengono inviati a un portafoglio della _sidechain_ che può dimostrare di avere diritto agli _asset_ originali della _mainchain_. Questo processo sposta effettivamente gli _asset_ dalla _mainchain_ alla _sidechain_.
 
 Per trasferire gli _asset_ alla _mainchain_, un utente effettua una speciale transazione di `peg-out` sulla _sidechain_. Questa transazione viene controllata dagli _"Watchmen"_, che poi firmano una transazione di spesa dal portafoglio multi-firma che controllano sulla _mainchain_. Un numero limite di partecipanti alla federazione deve firmare prima che la transazione sulla _mainchain_ diventi valida. Quando gli _"Watchmen"_ rimandano un _asset_ alla _mainchain_, distruggono anche l'importo corrispondente sulla _sidechain_, trasferendo di fatto gli _asset_ tra le _blockchain_.
 
-## Impostazione ed esecuzione degli elementi
+## Impostazione ed esecuzione di Elements
 
 <chapterId>cc806e5a-81ab-457b-9531-9f863120a019</chapterId>
 

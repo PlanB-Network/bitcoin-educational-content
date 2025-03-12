@@ -214,27 +214,27 @@ $HOME/elements/src/elementsd -datadir=$HOME/elementsdir2
 $HOME/elements/src/elements-cli -datadir=$HOME/elementsdir2 getnewaddress
 ```
 
-Questo ci consentirà di eseguire ogni sorta di operazione, come la transazione di beni tra nodi, l'emissione di beni e la verifica dell'uso del _blinding_ (oscuramento) nelle transazioni riservate tra nodi diversi della stessa rete.
+Questo ci consentirà di eseguire ogni sorta di operazione, come la transazione di beni tra nodi, l'emissione di beni e la verifica dell'uso del _blinding_ (offuscamento) nelle transazioni riservate tra nodi diversi della stessa rete.
 
-# Utilizzo dell'elemento Caso d'uso pratico
+# Utilizzo di Elements - Caso d'uso pratico
 
 <partId>3f31a30a-957a-4813-b5fe-5dccbb5366f3</partId>
 
-## Transazioni riservate
+## Confidential Transactions
 
 <chapterId>263b1c5b-59ed-49e7-b811-95c354f41eae</chapterId>
 
 ![Video](https://youtu.be/-by2xBtXQeE?si=7bLo_geGn3qh7MXN)
 
-In questa sezione si spiega come utilizzare la funzione Transazioni riservate di Elements.
+In questa sezione si spiega come utilizzare la funzione _"Confidential Transactions"_ (Transazioni Riservate) di Elements.
 
-Tutti gli indirizzi in Elements sono, per impostazione predefinita, blindati utilizzando le Transazioni confidenziali, che mantengono l'importo e il tipo di attività trasferite visibili solo ai partecipanti alla transazione (e a coloro che scelgono di rivelare la chiave di blindatura), garantendo comunque crittograficamente che non si possano spendere più monete di quelle disponibili.
+Tutti gli indirizzi in Elements sono, per impostazione predefinita, offuscati utilizzando le _"Confidential Transactions"_, che mantengono l'importo e il tipo di attività trasferite visibili solo ai partecipanti alla transazione (e a coloro che scelgono di rivelare la chiave di offuscamento), garantendo comunque crittograficamente che non si possano spendere più monete di quelle disponibili.
 
-### Indirizzi riservati e transazioni riservate
+### Confidential Addresses e Confidential Transactions
 
-Per impostazione predefinita, quando si crea un nuovo indirizzo in Elements con il comando `getnewaddress`, viene creato come indirizzo riservato.
+Per impostazione predefinita, quando si crea un nuovo indirizzo in Elements con il comando `getnewaddress`, viene creato come _"Confidential Address"_ (indirizzo riservato).
 
-Per dimostrare le transazioni confidenziali, faremo in modo che e2 invii a se stesso dei fondi e poi cerchi di visualizzare la transazione da e1. Questo dimostrerà la natura confidenziale delle transazioni in Elements.
+Per dimostrare le _"Confidential Transactions"_, faremo in modo che `e2` invii a se stesso dei fondi e poi cerchi di visualizzare la transazione da `e1`. Questo dimostrerà la natura confidenziale delle transazioni in Elements.
 
 Ogni nuovo indirizzo generato da un nodo Elements è riservato per impostazione predefinita. Possiamo dimostrarlo facendo generare a e2 un nuovo indirizzo.
 
@@ -242,19 +242,19 @@ Ogni nuovo indirizzo generato da un nodo Elements è riservato per impostazione 
 e2-cli getnewaddress
 ```
 
-Si noti che l'indirizzo inizia con e1. Questo lo identifica come un indirizzo confidenziale. Esaminando l'indirizzo in modo più dettagliato con il comando getaddressinfo si ottengono ulteriori dettagli sull'indirizzo.
+Si noti che l'indirizzo inizia con `e1`. Questo lo identifica come un  _"Confidential Address"_ (indirizzo riservato). Esaminando l'indirizzo in modo più dettagliato con il comando `getaddressinfo` si ottengono ulteriori dettagli sull'indirizzo.
 
 ```
 e2-cli getaddressinfo <address>
 ```
 
-Si può notare che c'è una proprietà confidential_key che indica che si tratta di un indirizzo confidenziale.
+Si può notare che c'è una proprietà `confidential_key` che indica che si tratta di un  _"Confidential Address"_ (indirizzo riservato).
 
-La confidential_key è la chiave pubblica di cecità, che viene aggiunta all'indirizzo confidenziale stesso. Questo è il motivo per cui un indirizzo confidenziale è così lungo.
+La `confidential_key` è la _public blinding key_ (chiave pubblica offuscata), che viene aggiunta al _"Confidential Address"_ stesso. Questo è il motivo per cui un _"Confidential Address"_ è così lungo.
 
-Ha anche un indirizzo non riservato associato. Se si desidera utilizzare transazioni regolari, non riservate, all'interno di Elements, le attività devono essere inviate a questo indirizzo invece che a quello con il prefisso lq1.
+Ha anche un _"unconfidential address"_ (indirizzo non riservato) associato. Se si desidera utilizzare transazioni regolari, non riservate, all'interno di Elements, le attività devono essere inviate a questo indirizzo invece che a quello con il prefisso `lq1`.
 
-Ora possiamo fare in modo che e2 invii dei fondi all'indirizzo che ha generato. In seguito si dimostrerà che e1, non essendo una delle parti coinvolte nella transazione, non sarà in grado di visualizzare i dettagli della transazione.
+Ora possiamo fare in modo che `e2` invii dei fondi all'indirizzo che ha generato. In seguito si dimostrerà che `e1`, non essendo una delle parti coinvolte nella transazione, non sarà in grado di visualizzare i dettagli della transazione.
 
 ```
 e2-cli sendtoaddress <address>
@@ -266,69 +266,69 @@ Annotare l'ID della transazione. Confermare la transazione.
 e2-cli -generate 101
 ```
 
-Osservando la transazione in cui e2 ha inviato alcuni fondi a se stesso dal punto di vista di e2 stesso.
+Osservando la transazione in cui `e2` ha inviato alcuni fondi a se stesso dal punto di vista di `e2` stesso.
 
 ```
 e2-cli gettransaction <txid>
 ```
 
-Scorrendo i dettagli della transazione, si può notare che e2 è in grado di visualizzare gli importi inviati e ricevuti e l'asset transato. Si possono anche vedere le proprietà amountblinder e assetblinder, utilizzate per nascondere i dettagli da altri nodi non coinvolti nella transazione.
+Scorrendo i dettagli della transazione, si può notare che `e2` è in grado di visualizzare gli importi inviati e ricevuti e l'asset transato. Si possono anche vedere le proprietà `amountblinder` e `assetblinder`, utilizzate per nascondere i dettagli da altri nodi non coinvolti nella transazione.
 
-Per controllare i dettagli della stessa transazione da e1, dobbiamo prima ottenere i dettagli della transazione grezza.
+Per controllare i dettagli della stessa transazione da `e1`, dobbiamo prima ottenere i dettagli della transazione grezza.
 
 ```
 e1-cli getrawtransaction <txid>
 ```
 
-Questo restituisce i dettagli grezzi della transazione. Se si guarda alla sezione vout, si può notare che ci sono tre istanze. Le prime due istanze sono gli importi di ricezione e di modifica, mentre la terza è la commissione della transazione. Di questi tre importi, quello della commissione è l'unico in cui è possibile vedere un valore, poiché la commissione stessa è sempre non evidenziata all'interno di Elements.
+Questo restituisce i dettagli grezzi della transazione. Se si guarda alla sezione `vout`, si può notare che ci sono tre istanze. Le prime due istanze sono gli importi di ricezione e di modifica, mentre la terza è la commissione della transazione. Di questi tre importi, quello della commissione è l'unico in cui è possibile vedere un valore, poiché la commissione stessa è sempre non evidenziata all'interno di Elements.
 
-### Chiavi accecanti
+### Blinding Keys (Chiavi Offuscate)
 
-Le prime due sezioni di vout mostrano "intervalli ciechi" di importi di valore e dati di impegno che fungono da prova dell'importo effettivo e del tipo di attività transata.
+Le prime due sezioni di `vout` mostrano _"intervalli ciechi"_  di importi di valore e dati di impegno che fungono da prova dell'importo effettivo e del tipo di attività transata.
 
-Anche se importassimo la chiave privata di e2 nel portafoglio di e1, quest'ultimo non sarebbe comunque in grado di vedere gli importi e il tipo di attività transate, perché non è ancora a conoscenza della chiave di blocco utilizzata da e2. Lo dimostreremo importando la chiave privata utilizzata dal portafoglio di e2 in quello di e1. Per prima cosa dobbiamo esportare la chiave da e2
+Anche se importassimo la chiave privata di `e2` nel portafoglio di `e1`, quest'ultimo non sarebbe comunque in grado di vedere gli importi e il tipo di attività transate, perché non è ancora a conoscenza della chiave di blocco utilizzata da `e2`. Lo dimostreremo importando la chiave privata utilizzata dal portafoglio di `e2` in quello di `e1`. Per prima cosa dobbiamo esportare la chiave da `e2`.
 
 ```
 e2-cli dumpprivkey <address>
 ```
 
-Quindi importarlo in e1.
+Quindi importarlo in `e1`.
 
 ```
 e1-cli importprivkey <privkey>
 ```
 
-Ora possiamo dimostrare che e1 non può ancora vedere i valori.
+Ora possiamo dimostrare che `e1` non può ancora vedere i valori.
 
 ```
 e1-cli gettransaction <txid>
 ```
 
-In effetti, mostra 0 come quantità di tx, mentre in realtà era 1.
+In effetti, mostra `0` come quantità di _tx_, mentre in realtà era `1`.
 
-Per poter vedere il valore effettivo, non abbattuto, abbiamo bisogno della chiave di abbattimento. Per farlo, esportiamo prima la chiave di accecamento da e2.
+Per poter vedere il valore effettivo, non offuscato, abbiamo bisogno della chiave di offuscamento. Per farlo, esportiamo prima la chiave di offuscamento da `e2`.
 
 ```
 e2-cli dumpblindingkey <address>
 ```
 
-Quindi importarlo in e1.
+Quindi importarlo in `e1`.
 
 ```
 e1-cli importblindingkey <address> <blinding key>
 ```
 
-Ora, quando otteniamo i dettagli della transazione da e1.
+Ora, quando otteniamo i dettagli della transazione da `e1`.
 
 ```
 e1-cli gettransaction <txid>
 ```
 
-Si vede che con l'importazione della chiave di cecità è possibile visualizzare il valore effettivo di 1 all'interno della transazione.
+Si vede che con l'importazione della chiave di offuscamento è possibile visualizzare il valore effettivo di `1` all'interno della transazione.
 
-In questa sezione abbiamo visto che l'uso di una chiave di vincolo nasconde l'importo e il tipo di attività di una transazione e che, importando la giusta chiave di vincolo, è possibile rivelare tali valori. Nell'uso pratico, una chiave di vincolo può essere fornita, ad esempio, a un revisore dei conti, nel caso in cui sia necessario verificare l'importo e il tipo di attività detenute da una parte. La funzione Transazioni riservate di Elements consente anche di eseguire "prove di intervallo". Le prove di intervallo possono dimostrare che la quantità di un'attività è detenuta all'interno di un determinato intervallo, senza la necessità di esporre l'importo effettivo.
+In questa sezione abbiamo visto che l'uso di una chiave di vincolo nasconde l'importo e il tipo di attività di una transazione e che, importando la giusta chiave di offuscamento, è possibile rivelare tali valori. Nell'uso pratico, una chiave di offuscamento può essere fornita, ad esempio, a un revisore dei conti, nel caso in cui sia necessario verificare l'importo e il tipo di attività detenute da una parte. La funzione _"Confidential Transactions"_ (Transazioni Riservate) di Elements consente anche di eseguire "prove di intervallo". Le prove di intervallo possono dimostrare che la quantità di un'attività è detenuta all'interno di un determinato intervallo, senza la necessità di esporre l'importo effettivo.
 
-Abbiamo anche visto che le Transazioni riservate sono facoltative, ma vengono attivate di default quando viene generato un nuovo indirizzo.
+Abbiamo anche visto che le _"Confidential Transactions"_ sono facoltative, ma vengono attivate di default quando viene generato un nuovo indirizzo.
 
 Per questa lezione è tutto; in bocca al lupo per il quiz e arrivederci alla prossima!
 

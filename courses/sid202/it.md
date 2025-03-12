@@ -655,29 +655,29 @@ e2-cli getwalletinfo
 
 In questa sezione abbiamo visto come emettere un _asset_ e come utilizzare il _token_ di riemissione che viene creato opzionalmente come parte dell'emissione dell'_asset_. Abbiamo anche visto che trasferire un _token_ di riemissione è semplice come trasferire qualsiasi altro _asset_ e che detenere una qualsiasi quantità di _token_ di riemissione conferisce al titolare il diritto di emettere altri _asset_. È quindi molto importante controllare chi ha accesso ai _token_ di riemissione nella vostra rete. Abbiamo anche visto come distruggere una quantità di un _asset_ e che questo processo non è controllato dal possesso del _token_ di riemissione.
 
-# Federazione degli elementi
+# Element Federation (Elementi della Federazione)
 
 <partId>173a2440-0203-4dcc-8e2b-f8fa2cc8d3ca</partId>
 
-## Blocco della firma
+## Block Signing (Blocco firmato)
 
 <chapterId>c47b217e-db14-4843-a66f-3e5f3a00a808</chapterId>
 
 ![Video](https://youtu.be/kxWX91fCnus?si=KItm_Am3_RrBcLBN)
 
-Elements supporta un modello di firma federata che consente di specificare il numero di membri della Strong Federation che devono firmare un blocco proposto per produrre un blocco valido.
+Elements supporta un modello di firma federata che consente di specificare il numero di membri della _"Strong Federation"_ (Federazione Rafforzata) che devono firmare un blocco proposto per produrre un blocco valido.
 
 In precedenza, e per facilità di esempio, abbiamo creato i blocchi utilizzando il comando `generate`, che non ha dovuto soddisfare un requisito di firma multipla affinché i blocchi creati fossero accettati dalla rete come validi.
 
-Impostiamo i nostri nodi in modo che richiedano la creazione di blocchi multisig 2-of-2. Questo verrà impostato usando il parametro signblockscript, che può essere aggiunto al file di configurazione o passato al nodo all'avvio. Per inizializzare una catena con questo parametro, dobbiamo prima costruire lo script che la compone.
+Impostiamo i nostri nodi in modo che richiedano la creazione di blocchi multisig `2-of-2`. Questo verrà impostato usando il parametro `signblockscript`, che può essere aggiunto al file di configurazione o passato al nodo all'avvio. Per inizializzare una catena con questo parametro, dobbiamo prima costruire lo _script_ che la compone.
 
-Lo faremo usando alcuni nodi esistenti, salveremo i dati che producono e poi cancelleremo la catena in modo da poterla riavviare usando il nostro parametro signblockscript. Questo è necessario perché lo script fa parte delle regole di consenso della rete e deve essere impostato all'inizializzazione della catena. Non può essere aggiunto in un secondo momento a una catena già esistente.
+Lo faremo usando alcuni nodi esistenti, salveremo i dati che producono e poi cancelleremo la catena in modo da poterla riavviare usando il nostro parametro `signblockscript`. Questo è necessario perché lo _script_ fa parte delle regole di consenso della rete e deve essere impostato all'inizializzazione della catena. Non può essere aggiunto in un secondo momento a una catena già esistente.
 
-Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e la risorsa predefinita è stata divisa tra loro.
+Avremo bisogno di accedere a due nodi Elements, che chiameremo `e1` ed `e2`. I nodi sono stati resettati e la risorsa predefinita è stata divisa tra loro.
 
-Assicurarsi che il parametro con_max_block_sig_size sia impostato a un valore elevato nel file elements.conf, altrimenti la firma a blocchi fallirà più avanti in questa sezione. Per questa esercitazione abbiamo impostato con_max_block_sig_size=2000.
+Assicurarsi che il parametro `con_max_block_sig_size` sia impostato a un valore elevato nel file `elements.conf`, altrimenti la firma a blocchi fallirà più avanti in questa sezione. Per questa esercitazione abbiamo impostato `con_max_block_sig_size=2000`.
 
-Poiché resetteremo la blockchain e cancelleremo i portafogli associati a e1 ed e2, dovremo fare una copia degli indirizzi, delle chiavi pubbliche e delle chiavi private utilizzate per generare lo script di firma dei blocchi, in modo da poterli utilizzare in seguito.
+Poiché resetteremo la blockchain e cancelleremo gli _wallet_ associati a `e1` ed `e2`, dovremo fare una copia degli indirizzi, delle chiavi pubbliche e delle chiavi private utilizzate per generare lo _script_ di firma dei blocchi, in modo da poterli utilizzare in seguito.
 
 Per prima cosa, è necessario che ciascuno di quelli che saranno i nodi di firma dei blocchi generi un nuovo indirizzo, di cui è necessario fare una copia.
 
@@ -700,19 +700,19 @@ e1-cli dumpprivkey <e1-address>
 e2-cli dumpprivkey <e2-address>
 ```
 
-Ora dobbiamo generare uno script redeem con i requisiti di multi-firma 2 su 2. Lo facciamo utilizzando il comando createmultisig e passando il primo parametro come 2 e fornendo poi due chiavi pubbliche. Per farlo, si utilizza il comando createmultisig, passando il primo parametro a 2 e fornendo due chiavi pubbliche. Sono queste chiavi che la proprietà deve essere dimostrata in seguito, quando il blocco viene creato.
+Ora dobbiamo generare uno _script redeem_ con i requisiti di multi-firma `2 su 2`. Lo facciamo utilizzando il comando `createmultisig` e passando il primo parametro come `2` e fornendo poi due chiavi pubbliche. Per farlo, si utilizza il comando `createmultisig`, passando il primo parametro a `2` e fornendo due chiavi pubbliche. Sono queste chiavi che la proprietà deve essere dimostrata in seguito, quando il blocco viene creato.
 
-Entrambi i nodi, e1 o e2, possono generare il multisig.
+Entrambi i nodi, `e1` o `e2`, possono generare il _multisig_.
 
 ```
 e1-cli createmultisig 2 '["<e1-pubkey>", "<e2-pubkey>"]'
 ```
 
-In questo modo si ottiene il nostro riscritto, che può essere copiato per essere utilizzato in seguito.
+In questo modo si ottiene il nostro _script reedem_, che può essere copiato per essere utilizzato in seguito.
 
-Ora dobbiamo cancellare i dati della blockchain e del portafoglio esistenti per poter ricominciare con il nuovo signblockscript come parte delle regole di consenso della catena. Per questo motivo è stato necessario fare una copia di alcuni dati, come le chiavi private che verranno utilizzate nella nuova catena per firmare i blocchi. È necessario farlo prima di procedere.
+Ora dobbiamo cancellare i dati della blockchain e del portafoglio esistenti per poter ricominciare con il nuovo `signblockscrip`t come parte delle regole di consenso della catena. Per questo motivo è stato necessario fare una copia di alcuni dati, come le chiavi private che verranno utilizzate nella nuova catena per firmare i blocchi. È necessario farlo prima di procedere.
 
-Con i dati del portafoglio e della catena esistenti cancellati, possiamo ora avviare i nostri nodi e far loro inizializzare una nuova catena usando il parametro signblockscript. Inseriamo -evbparams=dynafed:0::: per disabilitare l'attivazione di dynafed, perché in questo esempio non abbiamo bisogno di questa funzione avanzata.
+Con i dati del portafoglio e della catena esistenti cancellati, possiamo ora avviare i nostri nodi e far loro inizializzare una nuova catena usando il parametro `signblockscript`. Inseriamo `-evbparams=dynafed:0:::` per disabilitare l'attivazione di `dynafed`, perché in questo esempio non abbiamo bisogno di questa funzione avanzata.
 
 ```
 e1-dae -signblockscript=<redeem-script> -evbparams=dynafed:0:::
@@ -726,13 +726,13 @@ e1-cli importprivkey <e1-priv-key>
 e2-cli importprivkey <e2-priv-key>
 ```
 
-L'uso del comando generate dovrebbe ora dare un errore, poiché non soddisfa le regole di firma dei blocchi ora applicate dai nostri nodi.
+L'uso del comando `generate` dovrebbe ora dare un errore, poiché non soddisfa le regole di firma dei blocchi ora applicate dai nostri nodi.
 
 ```
 e1-cli -generate 1
 ```
 
-Per proporre un nuovo blocco, un nodo può chiamare il comando getnewblockhex. Questo comando restituisce l'esagono di un nuovo blocco che dovrà essere firmato prima di essere accettato da tutti i nodi della rete.
+Per proporre un nuovo blocco, un nodo può chiamare il comando `getnewblockhex`. Questo comando restituisce l'_hex_ di un nuovo blocco che dovrà essere firmato prima di essere accettato da tutti i nodi della rete.
 
 ```
 e1-cli getnewblockhex
@@ -746,7 +746,7 @@ A conferma di ciò, possiamo vedere che attualmente non ci sono blocchi nella no
 e1-cli getblockcount
 ```
 
-Se proviamo a inviare il blocco esagonale senza prima firmarlo.
+Se proviamo a inviare il blocco _hex_ senza prima firmarlo.
 
 ```
 e1-cli submitblock <block-hex>
@@ -754,29 +754,29 @@ e1-cli submitblock <block-hex>
 
 Riceviamo un messaggio che ci informa che la prova di blocco non è valida. Questo perché non è ancora stata firmata da due delle due parti richieste.
 
-Facciamo in modo che e1 firmi il blocco proposto.
+Facciamo in modo che `e1` firmi il blocco proposto.
 
 ```
 e1-cli signblock <block-hex>
 ```
 
-Chiedere a e2 di firmare l'esagono.
+Chiedere a `e2` di firmare l'_hex_.
 
 ```
 e2-cli signblock <block-hex>
 ```
 
-Si noti che e2 non firma l'output creato da e1 che firma il blocco proposto. Entrambi firmano l'esagono del blocco proposto indipendentemente dai risultati dell'altro.
+Si noti che `e2` non firma l'_output_ creato da `e1` che firma il blocco proposto. Entrambi firmano l'_hex_ del blocco proposto indipendentemente dai risultati dell'altro.
 
-Ora dobbiamo combinare le firme dei blocchi e1 ed e2. Entrambi i nodi possono farlo, tutto ciò di cui hanno bisogno è l'esagono del blocco firmato dall'altro nodo.
+Ora dobbiamo combinare le firme dei blocchi `e1` ed `e2`. Entrambi i nodi possono farlo, tutto ciò di cui hanno bisogno è l'_hex_ del blocco firmato dall'altro nodo.
 
 ```
 e1-cli combineblocksigs <block-hex> '["<signed-hex-from-e1>", "<signed-hex-from-e2>"]'
 ```
 
-Si può notare che il comando combineblocksigs fornisce l'esagono del blocco firmato e lo stato di complete, che indica che l'esagono del blocco è pronto per essere inviato.
+Si può notare che il comando `combineblocksigs` fornisce l'_hex_ del blocco firmato e lo stato di `complete`, che indica che l'_hex_ del blocco è pronto per essere inviato.
 
-Ora entrambi i nodi possono inviare il blocco hex completato. Lo faremo fare a e1.
+Ora entrambi i nodi possono inviare il blocco _hex_ completato. Lo faremo fare a `e1`.
 
 ```
 e1-cli submitblock <combined-signed-hex>
@@ -789,20 +789,20 @@ e1-cli getblockcount
 e2-cli getblockcount
 ```
 
-Si può notare che sia e1 che e2 hanno accettato il blocco come valido e lo hanno aggiunto alla punta delle loro copie locali della blockchain.
+Si può notare che sia `e1` che `e2` hanno accettato il blocco come valido e lo hanno aggiunto alla punta delle loro copie locali della blockchain.
 
 Per riassumere il processo. In questa sezione abbiamo:
 
 
 - Proposta di un blocco.
 - Lo abbiamo fatto firmare a ciascun nodo.
-- Unire le firme.
+- Unito le firme.
 - Verifica che le firme siano valide e che soddisfino la soglia di riscrittura della catena.
 - Presentato il blocco.
 
 Ogni nodo della rete convalida il blocco e lo aggiunge alla propria copia locale della blockchain.
 
-### Blocco di posizionamento
+### Block SIgning (Blocco firmato)
 
 Sebbene il processo appaia inizialmente complesso, la sequenza di firma dei blocchi in Elements è sempre la stessa e la configurazione iniziale deve essere eseguita una sola volta:
 
@@ -810,13 +810,13 @@ Sebbene il processo appaia inizialmente complesso, la sequenza di firma dei bloc
 
 2. Viene creato un indirizzo multi-firma chiamato `signblockscript` utilizzando le chiavi pubbliche dei firmatari di blocchi federati.
 
-3. Lo script di riscatto viene utilizzato per avviare una nuova blockchain.
+3. Lo _script_ di _reedem_ (riscatto) viene utilizzato per avviare una nuova blockchain.
 
 4. Produzione in blocco (in corso)
 
 5. I blocchi proposti vengono generati e scambiati per la firma.
 
-Una volta che un numero soglia di firmatari ha firmato il blocco proposto, questo viene combinato e sottoposto alla rete. Se soddisfa i criteri del `signblockscript' della catena, i nodi lo accettano come blocco valido.
+Una volta che un numero soglia di firmatari ha firmato il blocco proposto, questo viene combinato e sottoposto alla rete. Se soddisfa i criteri del `signblockscript` della catena, i nodi lo accettano come blocco valido.
 
 ## Elemento come catena laterale
 

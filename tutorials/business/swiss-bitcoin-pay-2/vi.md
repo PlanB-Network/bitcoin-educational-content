@@ -4,8 +4,6 @@ description: Làm thế nào để dễ dàng chấp nhận thanh toán Bitcoin?
 ---
 ![cover](assets/cover.webp)
 
-![video](https://youtu.be/_yAyJReq3Dg)
-
 Ngày nay, có rất nhiều giải pháp dành cho các nhà bán lẻ muốn chấp nhận Bitcoin như một phương thức thanh toán. Đối với các đơn vị nhỏ muốn thiết lập một cách không chính thức, việc cài đặt một ví nóng (hot wallet) hoặc thậm chí là ví Lightning là đủ để nhận thanh toán trực tiếp vào đó. Các doanh nghiệp lớn hơn, cần duy trì hồ sơ kế toán, nên chọn một hệ thống xử lý thanh toán chuyên biệt. Cũng có nhiều lựa chọn khác nhau trong lĩnh vực này.
 
 Đối với những người không muốn phiền phức và muốn nhận tiền mặt trực tiếp vào tài khoản ngân hàng của mình, các giải pháp giữ hộ như Open Node có sẵn:

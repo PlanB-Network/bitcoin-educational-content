@@ -86,31 +86,31 @@ Elements aggiunge tutte queste funzionalità alla base di codice di _Bitcoin Cor
 
 Elements fornisce una soluzione tecnica ai problemi che gli utenti della blockchain devono affrontare quotidianamente: latenza delle transazioni, mancanza di privacy e rischio di fungibilità.
 
-Elements supera questi problemi grazie all'uso della Federated Block Signing (blocchi federati firmati) e delle _Confidential Transaction_ (Transazioni Riservate).
+Elements supera questi problemi grazie all'uso della Federated Block Signing (Blocchi Federati Firmati) e delle _Confidential Transaction_ (Transazioni Riservate).
 
-A differenza della rete Bitcoin, il processo di firma dei blocchi all'interno di Elements non si basa su Dynamic Membership Multiparty Signatures (DMMS) e Proof of Work (PoW). Elements utilizza invece una Strong Federation di firmatari, chiamati Block Signers, che possono firmare e creare blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni del processo di estrazione PoW, che è soggetto a grandi variazioni di tempo dei blocchi a causa della sua distribuzione casuale di tipo poisson. Il processo di Federated Block Signing consente di ottenere una creazione affidabile dei blocchi senza introdurre la necessità di una fiducia da parte di terzi.
+A differenza della rete Bitcoin, il processo di firma dei blocchi all'interno di Elements non si basa su Dynamic Membership Multiparty Signatures (DMMS) e Proof of Work (PoW). Elements utilizza invece una _Strong Federation_ di firmatari, chiamati _Block Signers_ (Firmatari dei Blocchi), che possono firmare e creare blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni del processo di estrazione _PoW_, che è soggetto a grandi variazioni di tempo dei blocchi a causa della sua distribuzione casuale di tipo _"Poisson"_. Il processo di _Federated Block Signing_ consente di ottenere una creazione affidabile dei blocchi senza introdurre la necessità di una fiducia da parte di terzi.
 
-Elements può funzionare come sidechain di un'altra blockchain, come Bitcoin, o come blockchain autonoma senza dipendere da altre reti.
+Elements può funzionare come _sidechain_ (catena laterale) di un'altra blockchain, come Bitcoin, o come blockchain autonoma senza dipendere da altre reti.
 
-Quando viene utilizzata come sidechain, la Strong Federation contiene anche membri che consentono il trasferimento sicuro e controllato di asset tra una catena principale e una sidechain Elements. Il trasferimento controllato di beni è chiamato Federated 2-Way Peg e i membri che svolgono il ruolo di trasferimento dei beni sono chiamati Watchmen.
+Quando viene utilizzata come _sidechain_, la _Strong Federation_ (Federazione Rinforzata) contiene anche membri che consentono il trasferimento sicuro e controllato di asset tra una catena principale e una sidechain Elements. Il trasferimento controllato di beni è chiamato _Federated 2-Way Peg_ (Ancoraggio Federato a due Vie) e i membri che svolgono il ruolo di trasferimento dei beni sono chiamati _Watchmen_ (guardiani).
 
 I processi coinvolti nella gestione di una rete Elements e i ruoli dei partecipanti alla rete sono importanti per comprendere il funzionamento di Elements.
 
-Sia che venga implementata come sidechain o come blockchain indipendente, Elements si avvale di Federazioni forti di firmatari di blocchi per produrre blocchi.
+Sia che venga implementata come _sidechain_ o come _blockchain_ indipendente, Elements si avvale di _"Strong Federations"_ (Federazioni Rinforzate) di _"Block Signers"_ (firmatari di blocchi) per produrre i blocchi.
 
-### Federazioni forti
+### Strong Federations (Federazioni Forti)
 
-Elements utilizza un modello di consenso proposto per la prima volta da Blockstream, chiamato Strong Federations. Una Strong Federation non ha bisogno di Proof of Work (PoW) e si affida invece alle azioni collettive di un gruppo di partecipanti reciprocamente diffidenti, chiamati Funzionari.
+Elements utilizza un modello di consenso proposto per la prima volta da _Blockstream_, chiamato _"Strong Federations"_ (Federazioni Rinforzate). Una _"Strong Federation"_ non ha bisogno di _Proof of Work_ (PoW) e si affida invece alle azioni collettive di un gruppo di partecipanti reciprocamente diffidenti, chiamati _"Functionaries"_ (Funzionari).
 
-I ruoli che un Funzionario può ricoprire all'interno di una Federazione forte sono: Firmatari di blocchi e Guardiani. I Block Signers sono necessari se si esegue Elements in modalità sidechain o standalone blockchain, mentre i Watchmen sono necessari solo in una configurazione sidechain.
+I ruoli che un _"Functionary"_ (Funzionario) può ricoprire all'interno di una _"Strong Federations"_ (Federazione rinforzata) sono: _"Block Signers"_ (Firmatari del Blocco) e _"Watchman"_ (Guardiani). I _"Block Signers"_ sono necessari se si esegue Elements in modalità _sidechain_ o _standalone blockchain_, mentre i _"Watchmen"_ sono necessari solo in una configurazione _sidechain_.
 
-Le azioni che un membro di una Strong Federation può eseguire sono suddivise tra due ruoli distinti per migliorare la sicurezza e limitare i danni che un attaccante può causare.
+Le azioni che un membro di una _"Strong Federation"_ può eseguire sono suddivise tra due ruoli distinti per migliorare la sicurezza e limitare i danni che un attaccante può causare.
 
 Se combinati, i ruoli di questi partecipanti consentono a Elements di fornire sia una rapida creazione di blocchi (una conferma più rapida e definitiva delle transazioni) sia asset sicuri e trasferibili (asset pegged direttamente collegabili a un'altra blockchain).
 
-È possibile leggere il whitepaper Strong Federations qui: https://blockstream.com/strong-federations.pdf
+È possibile leggere il whitepaper Strong Federations qui: _https://blockstream.com/strong-federations.pdf_
 
-### Blocco dei firmatari
+### Block Signers (Firmatari del blocco)
 
 Una blockchain come quella di Bitcoin viene estesa quando chiunque faccia parte di un gruppo dinamico di firmatari di blocchi estende la catena dimostrando la prova del lavoro svolto. La natura dinamica dell'insieme introduce i problemi di latenza propri di questi sistemi.
 
@@ -119,25 +119,25 @@ Utilizzando un insieme fisso di firmatari, il modello federato sostituisce l'ins
 La firma a blocchi federata consiste in diverse fasi:
 
 
-- Fase 1 - I firmatari dei blocchi propongono i blocchi candidati in modo circolare a tutti gli altri firmatari dei blocchi partecipanti.
-- Fase 2 - Ogni firmatario del blocco segnala la propria intenzione impegnandosi a firmare il blocco candidato.
-- Fase 3 - Se la soglia data per il preimpegno è soddisfatta, ogni firmatario del blocco firma il blocco.
-- Fase 4 - Se la soglia di firma (che può essere diversa da quella della fase 3) è soddisfatta, il blocco viene accettato e inviato alla rete. La Strong Federation ha raggiunto il consenso sull'ultimo blocco di transazioni.
-- Fase 5 - Il blocco successivo viene proposto dal successivo firmatario del blocco nel round-robin e il processo si ripete.
+- ***Fase 1*** -  _"Block Signers"_ (Firmatari del Blocco) propongono i blocchi candidati in modo circolare a tutti gli altri _"Block Signers"_ (Firmatari del Blocco) partecipanti.
+- ***Fase 2*** - Ogni _"Block Signers"_ (Firmatari del Blocco) segnala la propria intenzione impegnandosi a firmare il blocco candidato.
+- ***Fase 3*** - Se la soglia data per il preimpegno è soddisfatta, ogni _"Block Signers"_ (Firmatari del Blocco) firma il blocco.
+- ***Fase 4*** - Se la soglia di firma (che può essere diversa da quella della _fase 3_) è soddisfatta, il blocco viene accettato e inviato alla rete. La _"Strong Federations"_ (Federazione rinforzata) ha raggiunto il consenso sull'ultimo blocco di transazioni.
+- ***Fase 5*** - Il blocco successivo viene proposto dal successivo _"Block Signers"_ (Firmatari del Blocco) in modo circolare e il processo si ripete.
 
-Poiché la generazione dei blocchi di una Strong Federation non è probabilistica e si basa su un insieme fisso di firmatari, non sarà mai soggetta a riorganizzazioni multi-blocco. Ciò consente una significativa riduzione dei tempi di attesa associati alla conferma delle transazioni. Inoltre, elimina l'incentivo a estrarre per profitto (cioè le ricompense dei blocchi) e lo sostituisce con un incentivo a partecipare in modo produttivo a una rete in cui tutti i partecipanti hanno lo stesso obiettivo condiviso: garantire che la rete continui a funzionare in modo vantaggioso per tutti. Ciò avviene senza introdurre un singolo punto di fallimento o requisiti di fiducia più elevati.
+Poiché la generazione dei blocchi di una _"Strong Federation"_ non è probabilistica e si basa su un insieme fisso di firmatari, non sarà mai soggetta a riorganizzazioni multi-blocco. Ciò consente una significativa riduzione dei tempi di attesa associati alla conferma delle transazioni. Inoltre, elimina l'incentivo a estrarre per profitto (cioè le ricompense dei blocchi) e lo sostituisce con un incentivo a partecipare in modo produttivo a una rete in cui tutti i partecipanti hanno lo stesso obiettivo condiviso: garantire che la rete continui a funzionare in modo vantaggioso per tutti. Ciò avviene senza introdurre un singolo punto di fallimento o requisiti di fiducia più elevati.
 
-### Elementi come catena laterale - Watchmen e il Peg a 2 vie federato
+### Elements come sidechain - Watchmen e il Federated 2-Way Peg
 
-Se gestita come sidechain, alcuni membri della Strong Federation hanno un ruolo aggiuntivo da svolgere, quello dei Watchmen. I guardiani sono responsabili del trasferimento di beni in entrata e in uscita da una sidechain Elements, processi noti come `Peg-In` e `Peg-Out`.
+Se gestita come _sidechain_, alcuni membri della _"Strong Federation"_ hanno un ruolo aggiuntivo da svolgere, quello dei _"Watchmen"_ (Guardiani). Gli _"Watchmen"_ sono responsabili del trasferimento di beni in entrata e in uscita da una _sidechain_ Elements, processi noti come `Peg-In` (Ancoraggio in Ingresso) e `Peg-Out` (Ancoraggio in Uscita).
 
-Affinché una sidechain operi in modo affidabile, deve consentire ai partecipanti di verificare che la fornitura di asset sia controllata e verificabile. Una sidechain di Elements utilizza un 2-Way Federated Peg per consentire il trasferimento bidirezionale di asset all'interno e all'esterno di una blockchain di Elements. Questo soddisfa i requisiti di emissione e trasferimento intercatena dimostrabili.
+Affinché una _sidechain_ operi in modo affidabile, deve consentire ai partecipanti di verificare che la fornitura di asset sia controllata e verificabile. Una _sidechain_ di Elements utilizza un _Federated 2-Way Peg_ (Ancoraggio Federato a due Vie) per consentire il trasferimento bidirezionale di _asset_ all'interno e all'esterno di una blockchain di Elements. Questo soddisfa i requisiti di emissione e trasferimento intercatena dimostrabili.
 
-La funzione Federated 2-way Peg consente a un asset di essere interoperabile con altre blockchain e rappresentativo dell'asset nativo di un'altra blockchain. Agganciando la propria blockchain a un'altra, è possibile estendere le capacità della mainchain e superare alcune delle sue limitazioni intrinseche.
+La funzione _"Federated 2-Way Peg"_ (Ancoraggio Federato a due Vie) consente a un _asset_ di essere interoperabile con altre blockchain e rappresentativo dell'_asset_ nativo di un'altra blockchain. Agganciando la propria blockchain a un'altra, è possibile estendere le capacità della _mainchain_ (catena principale) e superare alcune delle sue limitazioni intrinseche.
 
-Ad alto livello, i trasferimenti nella sidechain avvengono quando qualcuno invia beni della mainchain a un indirizzo controllato da un portafoglio Watchmen a firma multipla. Questo blocca di fatto gli asset sulla mainchain. Watchmen convalida quindi la transazione e rilascia la stessa quantità di asset associati all'interno della sidechain. Gli asset rilasciati vengono inviati a un portafoglio della sidechain che può dimostrare di avere diritto agli asset originali della mainchain. Questo processo sposta effettivamente gli asset dalla catena principale alla sidechain.
+Ad alto livello, i trasferimenti nella _sidechain_ avvengono quando qualcuno invia beni della _mainchain_ a un indirizzo controllato da un _"Watchmen wallet multi-signature"_ (Portafoglio Guardiano a Firma Multipla). Questo blocca di fatto gli asset sulla _mainchain_. _"Watchmen"_ convalida quindi la transazione e rilascia la stessa quantità di _asset_ associati all'interno della _sidechain_. Gli _asset_ rilasciati vengono inviati a un portafoglio della _sidechain_ che può dimostrare di avere diritto agli _asset_ originali della _mainchain_. Questo processo sposta effettivamente gli _asset_ dalla _mainchain_ alla _sidechain_.
 
-Per trasferire gli asset alla mainchain, un utente effettua una speciale transazione di peg-out sulla sidechain. Questa transazione viene controllata dai Watchmen, che poi firmano una transazione di spesa dal portafoglio multi-firma che controllano sulla mainchain. Un numero limite di partecipanti alla federazione deve firmare prima che la transazione sulla mainchain diventi valida. Quando i Watchmen rimandano un asset alla mainchain, distruggono anche l'importo corrispondente sulla sidechain, trasferendo di fatto gli asset tra le blockchain.
+Per trasferire gli _asset_ alla _mainchain_, un utente effettua una speciale transazione di `peg-out` sulla _sidechain_. Questa transazione viene controllata dagli _"Watchmen"_, che poi firmano una transazione di spesa dal portafoglio multi-firma che controllano sulla _mainchain_. Un numero limite di partecipanti alla federazione deve firmare prima che la transazione sulla _mainchain_ diventi valida. Quando gli _"Watchmen"_ rimandano un _asset_ alla _mainchain_, distruggono anche l'importo corrispondente sulla _sidechain_, trasferendo di fatto gli _asset_ tra le _blockchain_.
 
 ## Impostazione ed esecuzione degli elementi
 

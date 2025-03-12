@@ -332,36 +332,36 @@ Abbiamo anche visto che le _"Confidential Transactions"_ sono facoltative, ma ve
 
 Per questa lezione è tutto; in bocca al lupo per il quiz e arrivederci alla prossima!
 
-## Attività emesse
+## Issued Assets (Attività Emesse)
 
 <chapterId>c33c7020-5975-457a-99db-4f8b90d1fa1c</chapterId>
 
 ![Video](https://youtu.be/XnY4WZUNSs4?si=dG8I5OoSh_0EBdvL)
 
-In questa sezione si spiega come utilizzare la funzione Attività emesse di Elements.
+In questa sezione si spiega come utilizzare la funzione _"Issued Assets"_ (Attività Emesse) di Elements.
 
-Gli asset emessi consentono di emettere e trasferire diversi tipi di asset tra i partecipanti alla rete Elements. Ogni nodo della rete può emettere i propri asset. Le emissioni possono rappresentare la proprietà fungibile di qualsiasi asset, compresi buoni, coupon, valute, depositi, obbligazioni, azioni, ecc. Gli asset emessi aprono la strada alla creazione di scambi, opzioni e altri contratti intelligenti avanzati senza fiducia che coinvolgono asset auto-emessi.
+Gli asset emessi consentono di emettere e trasferire diversi tipi di _asset_ tra i partecipanti alla rete Elements. Ogni nodo della rete può emettere i propri _asset_. Le emissioni possono rappresentare la proprietà fungibile di qualsiasi _asset_, compresi buoni, coupon, valute, depositi, obbligazioni, azioni, ecc. Gli _asset_ emessi aprono la strada alla creazione di scambi, opzioni e altri contratti intelligenti avanzati senza fiducia che coinvolgono _asset_ auto-emessi.
 
-Un'attività emessa beneficia anche di transazioni riservate e può essere riemessa da chiunque detenga il token associato.
+Un'_"Issued Asset"_ (Attività Emessa) beneficia anche di _"Confidential Transactions"_ (Transazioni Riservate) e può essere riemessa da chiunque detenga il _token_ associato.
 
-Il primo passo è l'accesso a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati sottoposti a un reset della blockchain e la risorsa predefinita è stata divisa tra loro.
+Il primo passo è l'accesso a due nodi Elements, che chiameremo `e1` ed `e2`. I nodi sono stati sottoposti a un _reset_ della blockchain e la risorsa predefinita è stata divisa tra loro.
 
-I due nodi si trovano sulla stessa rete locale e sono collegati tra loro, quindi condividono le stesse transazioni nel loro mempool di transazioni e blockchain identiche. Sebbene siano in esecuzione sulla stessa macchina, vale la pena notare che non condividono gli stessi file blockchain effettivi. Ogni nodo gestisce la propria copia locale della blockchain, che contiene la stessa cronologia delle transazioni, perché sono in consenso e rispettano le stesse regole del protocollo.
+I due nodi si trovano sulla stessa rete locale e sono collegati tra loro, quindi condividono le stesse transazioni nel loro _mempool_ di transazioni e blockchain identiche. Sebbene siano in esecuzione sulla stessa macchina, vale la pena notare che non condividono gli stessi file blockchain effettivi. Ogni nodo gestisce la propria copia locale della blockchain, che contiene la stessa cronologia delle transazioni, perché sono in consenso e rispettano le stesse regole del protocollo.
 
-Iniziamo controllando la visione di ciascun nodo sulle emissioni di asset esistenti nella rete.
+Iniziamo controllando la visione di ciascun nodo sulle emissioni di _asset_ esistenti nella rete.
 
-Per farlo, si utilizza il comando listissuances.
+Per farlo, si utilizza il comando `listissuances`.
 
 ```
 e1-cli listissuances
 e2-cli listissuances
 ```
 
-Come si può vedere, entrambi i nodi mostrano la stessa cronologia di emissione. Entrambi mostrano un asset, l'emissione iniziale di 21 milioni di Bitcoin creati all'inizializzazione della catena. È possibile vedere l'id esadecimale dell'asset nei risultati dell'esecuzione del comando precedente e anche l'etichetta assegnata all'asset, che è "bitcoin".
+Come si può vedere, entrambi i nodi mostrano la stessa cronologia di emissione. Entrambi mostrano un _asset_, l'emissione iniziale di 21 milioni di Bitcoin creati all'inizializzazione della catena. È possibile vedere l'_id esadecimale_ dell'_asset_ nei risultati dell'esecuzione del comando precedente e anche l'etichetta assegnata all'_asset_, che è "bitcoin".
 
-Vale la pena notare che all'asset predefinito viene sempre assegnata un'etichetta quando la catena viene inizializzata. Quando si rilasciano le proprie risorse, è possibile impostare le etichette per esse, cosa che faremo a breve. Prima di poterlo fare, dobbiamo emettere la nostra risorsa.
+Vale la pena notare che all'_asset_ predefinito viene sempre assegnata un'etichetta quando la catena viene inizializzata. Quando si rilasciano le proprie risorse, è possibile impostare le etichette per esse, cosa che faremo a breve. Prima di poterlo fare, dobbiamo emettere la nostra risorsa.
 
-Chiederemo a e1 di emettere la nuova risorsa. Per farlo, si utilizza il comando issueasset.
+Chiederemo a `e1` di emettere la nuova risorsa. Per farlo, si utilizza il comando `issueasset`.
 
 ```
 e1-cli issueasset 100 1 false
@@ -369,9 +369,9 @@ e1-cli issueasset 100 1 false
 
 `issueasset` accetta 3 parametri.
 
-L'ammontare del nuovo asset da emettere, noi abbiamo usato 100. La quantità di token da creare (i token sono utilizzati per riemettere quantità di un asset), di cui abbiamo scelto 1. Il parametro finale indica a Elements di creare l'emissione dell'asset come blinded o unblinded. Utilizzeremo unblinded perché vogliamo visualizzare gli importi dell'emissione da e2 tra un minuto, quindi inseriremo false.
+L'ammontare del nuovo _asset_ da emettere, noi abbiamo usato `100`. La quantità di token da creare (i token sono utilizzati per riemettere quantità di un _asset_), di cui abbiamo scelto `1`. Il parametro finale indica a Elements di creare l'emissione dell'_asset_ come _blinded_ (offuscato) o _unblinded_ (non offuscato). Utilizzeremo _unblinded_ perché vogliamo visualizzare gli importi dell'emissione da `e2` tra un minuto, quindi inseriremo `false`.
 
-L'esecuzione del comando restituisce i dati relativi all'emissione. Questi includono l'id della transazione, di cui si può fare una copia per un uso successivo, il valore esadecimale unico della risorsa e il valore esadecimale unico del token della risorsa.
+L'esecuzione del comando restituisce i dati relativi all'emissione. Questi includono l'_id della transazione_, di cui si può fare una copia per un uso successivo, il valore esadecimale unico della risorsa e il valore esadecimale unico del _token_ della risorsa.
 
 Generare un blocco per confermare la transazione di emissione.
 
@@ -379,57 +379,57 @@ Generare un blocco per confermare la transazione di emissione.
 e1-cli -generate 1
 ```
 
-Eseguire nuovamente il comando `listissuances` su e1.
+Eseguire nuovamente il comando `listissuances` su `e1`.
 
 ```
 e1-cli listissuances
 ```
 
-Questo ci mostra che e1 è ora a conoscenza di due emissioni, l'emissione iniziale di Bitcoin e la nostra nuova attività emessa, di cui possiamo vedere 100 esemplari. Si noti il valore esadecimale del nuovo asset e che non c'è un'etichetta di asset associata, come per l'emissione di bitcoin.
+Questo ci mostra che `e1` è ora a conoscenza di due emissioni, l'emissione iniziale di Bitcoin e la nostra nuova attività emessa, di cui possiamo vedere `100` esemplari. Si noti il valore esadecimale del nuovo asset e che non c'è un'etichetta di asset associata, come per l'emissione di bitcoin.
 
-Controllate di nuovo l'elenco delle emissioni note di e2.
+Controllate di nuovo l'elenco delle emissioni note di `e2`.
 
 ```
 e2-cli listissuances
 ```
 
-Ciò dimostra che e2 non è a conoscenza dell'emissione di asset effettuata da e1. Può solo vedere l'emissione iniziale di bitcoin che già vedeva.
+Ciò dimostra che `e2` non è a conoscenza dell'emissione di _asset_ effettuata da `e1`. Può solo vedere l'emissione iniziale di bitcoin che già vedeva.
 
-Questo perché e2 non è a conoscenza e non sta guardando l'indirizzo a cui è stata inviata la nuova risorsa quando è stata emessa da e1.
+Questo perché `e2` non è a conoscenza e non sta guardando l'indirizzo a cui è stata inviata la nuova risorsa quando è stata emessa da `e1`.
 
-Vale la pena notare che, anche se e2 non può vedere l'emissione stessa, e1 potrebbe comunque inviare a e2 una parte dell'asset. La nuova attività verrebbe quindi visualizzata come saldo disponibile nel portafoglio di e2, anche se quest'ultimo non è a conoscenza dell'emissione originale.
+Vale la pena notare che, anche se `e2` non può vedere l'emissione stessa, `e1` potrebbe comunque inviare a `e2` una parte dell'_asset_. La nuova attività verrebbe quindi visualizzata come saldo disponibile nel portafoglio di `e2`, anche se quest'ultimo non è a conoscenza dell'emissione originale.
 
-Per consentire a e2 di vedere l'emissione effettiva (e quindi l'importo emesso), dobbiamo aggiungere l'indirizzo a e2 come indirizzo guardato.
+Per consentire a `e2` di vedere l'emissione effettiva (e quindi l'importo emesso), dobbiamo aggiungere l'indirizzo a `e2` come indirizzo guardato.
 
-Per farlo, dobbiamo scoprire l'indirizzo a cui è stata inviata la risorsa. A tale scopo, utilizzeremo l'id della transazione copiato in precedenza e chiederemo a e1 di recuperare i dettagli della transazione, in modo da individuare l'indirizzo corretto da aggiungere all'elenco dei portafogli di e2.
+Per farlo, dobbiamo scoprire l'indirizzo a cui è stata inviata la risorsa. A tale scopo, utilizzeremo l'_id della transazione_ copiato in precedenza e chiederemo a `e1` di recuperare i dettagli della transazione, in modo da individuare l'indirizzo corretto da aggiungere all'elenco dei portafogli di `e2`.
 
 ```
 e1-cli gettransaction <the-issuance-transaction-id>
 ```
 
-Scorrendo verso l'alto, oltre l'esadecimale dei dati della transazione, si vedrà l'indirizzo che ha ricevuto 100 esemplari del nostro nuovo bene, identificato dal suo valore esadecimale.
+Scorrendo verso l'alto, oltre l'esadecimale dei dati della transazione, si vedrà l'indirizzo che ha ricevuto `100` esemplari del nostro nuovo bene, identificato dal suo valore esadecimale.
 
-Prendete l'indirizzo e copiatelo per poterlo importare in e2.
+Prendete l'indirizzo e copiatelo per poterlo importare in `e2`.
 
-Ora importiamo l'indirizzo in e2. Per farlo, si usa il comando importaddress.
+Ora importiamo l'indirizzo in `e2`. Per farlo, si usa il comando `importaddress`.
 
 ```
 e2-cli importaddress <the-issued-to-address>
 ```
 
-Se ora controlliamo l'elenco delle emissioni di e2.
+Se ora controlliamo l'elenco delle emissioni di `e2`.
 
 ```
 e2-cli listissuances
 ```
 
-Si può notare che il nostro asset appena emesso è ora incluso nell'elenco. Il nodo e2 è anche in grado di determinare l'importo dell'asset emesso, insieme all'importo del token associato, poiché l'emissione è stata un'emissione non bloccata. Per abilitare l'uso dell'ID dell'asset alla mappatura dei nomi all'interno di Elements, occorre innanzitutto arrestare Elements.
+Si può notare che il nostro asset appena emesso è ora incluso nell'elenco. Il nodo `e2` è anche in grado di determinare l'importo dell'_asset_ emesso, insieme all'importo del _token_ associato, poiché l'emissione è stata un'emissione non bloccata. Per abilitare l'uso dell'_ID_ dell'_asset_ alla mappatura dei nomi all'interno di Elements, occorre innanzitutto arrestare Elements.
 
 ```
 e1-cli stop
 ```
 
-Poi lo si riavvia con un parametro aggiuntivo che mappa l'esagono di una risorsa con l'etichetta fornita. Questo permette al nodo di visualizzare i dati sulla risorsa in un formato più leggibile. Se si preferisce, si può aggiungere questo parametro alla fine di elements.conf, in modo da non dover aggiungere l'argomento al demone ogni volta che lo si avvia. Per esempio:
+Poi lo si riavvia con un parametro aggiuntivo che mappa l'esagono di una risorsa con l'etichetta fornita. Questo permette al nodo di visualizzare i dati sulla risorsa in un formato più leggibile. Se si preferisce, si può aggiungere questo parametro alla fine di `elements.conf`, in modo da non dover aggiungere l'argomento al _demone_ ogni volta che lo si avvia. Per esempio:
 
 ```
 assetdir=5186d0bc8ed15e6ef85571bd2d8070573adf0e06fd4507082694526975ce4f35:My new asset (MNA)
@@ -447,13 +447,13 @@ Interrogare nuovamente il nodo per ottenere un elenco di emissioni.
 e1-cli listissuances
 ```
 
-Questo dimostra che la mappatura del valore esadecimale dell'asset con la sua etichetta funziona. Controlliamo di nuovo l'elenco delle emissioni del nodo e2.
+Questo dimostra che la mappatura del valore esadecimale dell'_asset_ con la sua etichetta funziona. Controlliamo di nuovo l'elenco delle emissioni del nodo `e2`.
 
 ```
 e2-cli listissuances
 ```
 
-Si può notare che il nodo e2 non ha accesso a questa etichetta, perché le etichette sono disponibili solo per il nodo che le ha impostate. In effetti, è possibile assegnare un'etichetta diversa allo stesso asset hex su e2 rispetto a quella assegnata su e1. Per prima cosa fermiamo il nodo e2.
+Si può notare che il nodo `e2` non ha accesso a questa etichetta, perché le etichette sono disponibili solo per il nodo che le ha impostate. In effetti, è possibile assegnare un'etichetta diversa allo stesso _asset hex_ su `e2` rispetto a quella assegnata su `e1`. Per prima cosa fermiamo il nodo `e2`.
 
 ```
 e2-cli stop
@@ -465,15 +465,15 @@ Riavviare con un'etichetta diversa assegnata all'esagono della nostra nuova riso
 e2-dae -assetdir=<assetid-here>:<another-name-for-the-new-asset>
 ```
 
-Emissioni di elenchi da e2.
+Emissioni di elenchi da `e2`.
 
 ```
 e2-cli listissuances
 ```
 
-Le etichette degli asset sono locali a ciascun nodo, solo l'esagono dell'asset viene riconosciuto dagli altri nodi della rete.
+Le etichette degli _asset_ sono locali a ciascun nodo, solo l'esagono dell'_asset_ viene riconosciuto dagli altri nodi della rete.
 
-La mappatura dell'etichetta con l'esagono dell'asset è utile quando si eseguono azioni come le transazioni e le interrogazioni sul saldo del portafoglio, in quanto consente di fare riferimento a un asset in modo abbreviato. Ad esempio, se volessimo inviare una parte della nostra nuova attività (una quantità di 10) da e1 a e2 senza usare l'etichetta.
+La mappatura dell'etichetta con l'_hex_ dell'_asset_ è utile quando si eseguono azioni come le transazioni e le interrogazioni sul saldo del portafoglio, in quanto consente di fare riferimento a un _asset_ in modo abbreviato. Ad esempio, se volessimo inviare una parte della nostra nuova attività (una quantità di `10`) da `e1` a `e2` senza usare l'etichetta.
 
 Per prima cosa dobbiamo ottenere un indirizzo a cui inviare la risorsa.
 
@@ -481,7 +481,7 @@ Per prima cosa dobbiamo ottenere un indirizzo a cui inviare la risorsa.
 e2-cli getnewaddress
 ```
 
-Quindi utilizzare il comando sendtoaddress.
+Quindi utilizzare il comando `sendtoaddress`.
 
 ```
 e1-cli sendtoaddress <address> 10 "" "" false false 1 UNSET false <asset-id-here>
@@ -493,7 +493,7 @@ Confermare la transazione generando un blocco.
 generate 1
 ```
 
-Verifica della ricezione del bene su e2.
+Verifica della ricezione del bene su `e2`.
 
 ```
 e2-cli getwalletinfo
@@ -501,7 +501,7 @@ e2-cli getwalletinfo
 
 Possiamo vedere che la risorsa è stata effettivamente ricevuta.
 
-Si noti che e2 mappa l'esagono dell'asset ricevuto e lo visualizza utilizzando la propria etichetta. Un modo più semplice per fare la stessa cosa sarebbe quello di utilizzare l'etichetta della risorsa di e1 durante l'invio.
+Si noti che `e2` mappa l'esagono dell'asset ricevuto e lo visualizza utilizzando la propria etichetta. Un modo più semplice per fare la stessa cosa sarebbe quello di utilizzare l'etichetta della risorsa di `e1` durante l'invio.
 
 ```
 e1-cli sendtoaddress <address> 10 "" "" false false 1 UNSET false <name-of-the-new-asset>
@@ -511,7 +511,7 @@ Dietro le quinte, Elements mappa le etichette locali in valori esadecimali per s
 
 In questa sezione abbiamo visto come emettere ed etichettare le attività. Nella prossima sezione vedremo come riemettere e distruggere le quantità di un'attività emessa.
 
-## Riemissione di attività
+## Riemissione di Asset (Attività)
 
 <chapterId>78751b21-1dc8-4877-a406-e71bc80a95b0</chapterId>
 

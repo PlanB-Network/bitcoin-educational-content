@@ -9,11 +9,11 @@ objectives:
   - Impostare e gestire ambienti blockchain sicuri ed efficienti per casi d'uso reali.
 
 ---
-# Costruire su Liquid network ed Elements
+# Costruire su Liquid Network ed Elements
 
 Scoprite le caratteristiche e le funzionalità avanzate di Liquid Network ed Elements e imparate a utilizzare efficacemente questi strumenti per migliorare i vostri progetti di sviluppo. Questa formazione fornisce una base teorica e pratica completa, consentendovi di padroneggiare funzionalità quali Transazioni riservate, Attività emesse e Firma a blocchi federata.
 
-Liquid, basato sul framework Elements, è progettato per migliorare la privacy, la scalabilità e la funzionalità delle soluzioni finanziarie e tecniche. In questo corso, acquisirete esperienza pratica con l'emissione e la gestione di asset, il Federated 2-Way Peg e l'uso di strumenti come "elementsd" ed "elements-cli", consentendovi di creare soluzioni innovative su misura per le vostre esigenze.
+Liquid, basato sul framework Elements, è progettato per migliorare la privacy, la scalabilità e la funzionalità delle soluzioni finanziarie e tecniche. In questo corso, acquisirete esperienza pratica con l'emissione e la gestione di asset, il Federated 2-Way Peg e l'uso di strumenti come `elementsd` ed `elements-cli`, consentendovi di creare soluzioni innovative su misura per le vostre esigenze.
 
 Questo corso è adatto agli sviluppatori di tutti i livelli di esperienza. I principianti e gli utenti intermedi troveranno spiegazioni accessibili ed esempi pratici, mentre gli utenti avanzati potranno approfondire i dettagli tecnici e le caratteristiche meno conosciute di Liquid ed Elements.
 
@@ -30,13 +30,13 @@ Unisciti a noi per elevare le tue competenze, sbloccare il pieno potenziale di L
 
 ![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
 
-Lo scopo di Elements Academy è quello di introdurre e spiegare i concetti chiave di Elements, la piattaforma open-source su cui è costruito Liquid. Alla fine del corso, si dovrebbe avere una buona comprensione delle caratteristiche principali di Elements, come le Transazioni riservate e le Attività emesse, e dei processi coinvolti nella gestione di Elements Core.
+Lo scopo di Elements Academy è quello di introdurre e spiegare i concetti chiave di Elements, la piattaforma open-source su cui è costruito Liquid. Alla fine del corso, si dovrebbe avere una buona comprensione delle caratteristiche principali di Elements, come le _Confidential Transaction_ (Transazioni Riservate) e le _Issued Asset_ (Attività Emesse), e dei processi coinvolti nella gestione di Elements Core.
 
-Ogni sezione prevede lezioni con testo esplicativo e un video che si conclude con un quiz. Il numero di domande si riferisce alla dimensione dell'argomento precedente. La sezione 10 riassumerà il contenuto del corso e terminerà con un quiz più ampio.
+Ogni sezione prevede lezioni con testo esplicativo e un video che si conclude con un quiz. Il numero di domande è relativo all'estensione dell'argomento che le precede. La sezione 10 riassumerà il contenuto del corso e terminerà con un quiz più ampio.
 
 Eventuali domande, richieste di ulteriori informazioni o dubbi sulle risposte ai quiz possono essere rivolte all'insegnante James Dorfman.
 
-## Panoramica degli elementi
+## Panoramica su Elements
 
 <chapterId>7a7f2712-5300-4a6d-b1ed-05eab731bc35</chapterId>
 

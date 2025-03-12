@@ -3,9 +3,9 @@ answer: È cruciale perché si è responsabili dei backup.
 wrong_answers:
   - È essenziale perché si deve minare bitcoin.
   - È essenziale per acquistare bitcoin.
-  - È cruciale perché si è responsabili del tema del portafoglio.
+  - È cruciale perché si è responsabili del tema del wallet.
 explanation: |
-  In Bitcoin, la sovranità finanziaria va di pari passo con
+  In Bitcoin la sovranità finanziaria va di pari passo con
   la responsabilità individuale, poiché si deve custodire personalmente
   i propri fondi, seguendo le procedure di backup raccomandate.
 reviewed: true

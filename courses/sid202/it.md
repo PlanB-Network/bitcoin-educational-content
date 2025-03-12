@@ -1017,7 +1017,7 @@ Prima che un `peg-in` (ancoraggio in ingresso) possa essere accettato da una _si
 
 Brevi riorganizzazioni della punta della blockchain Bitcoin sono previste come parte del normale funzionamento del meccanismo di consenso Proof of Work (PoW). Per questo motivo, Elements accetta che un `peg-in` sia valido solo quando ha una profondità sufficiente all'interno della blockchain Bitcoin. Questo serve a evitare che Elements accetti lo stesso `peg-in` più di una volta.
 
-### Peg - out (ancoraggio in uscita)
+### Peg-out (ancoraggio in uscita)
 
 Un `peg-out` si verifica quando un nodo Elements chiama il comando `sendtomainchain`, che prende in input un indirizzo della _mainchain_ (la destinazione del `peg-out`) e l'ammontare dell'_asset pegged_ da `prelevare`. In questo modo si crea una transazione di `peg-out` sulla _sidechain_. Una volta che i _"Functionaries"_ (Funzionari) che agiscono come _"Watchmen"_ (Guardiani) rilevano che la transazione di `peg-out` è stata confermata sulla _sidechain_, si occupano di rilasciare effettivamente l'_asset_ sulla _mainchain_ alla destinazione di `peg-out`, come abbiamo imparato nelle sezioni precedenti del corso.
 
@@ -1027,32 +1027,32 @@ Un `peg-out` si verifica quando un nodo Elements chiama il comando `sendtomainch
 
 ![Video](https://youtu.be/u-3rV7DGtD0?si=G1__H0Uelf4sTUDM)
 
-Finora abbiamo visto come far funzionare Elements come _sidechain_. Tuttavia, può anche funzionare come soluzione blockchain autonoma con un proprio asset nativo predefinito. In questa configurazione, una blockchain Elements mantiene tutte le caratteristiche di un'implementazione sidechain, come le transazioni riservate e gli asset emessi, ma non ha bisogno di peg-in o peg-out per aggiungere o rimuovere dalla circolazione gli asset predefiniti.
+Finora abbiamo visto come far funzionare Elements come _sidechain_. Tuttavia, può anche funzionare come soluzione blockchain autonoma con un proprio _asset_ nativo predefinito. In questa configurazione, una blockchain Elements mantiene tutte le caratteristiche di un'implementazione _sidechain_, come le transazioni riservate e gli _asset_ emessi, ma non ha bisogno di `peg-in` o `peg-out` per aggiungere o rimuovere dalla circolazione gli _asset_ predefiniti.
 
 In questa sezione ci occuperemo di:
 
-Inizializza una nuova blockchain Elements con un asset predefinito chiamato `newasset`.
+Inizializza una nuova blockchain Elements con un _asset_ predefinito chiamato `newasset`.
 
-Specificare 1.000.000 di `newasset` da creare insieme a 2 gettoni di riemissione per esso.
+Specificare 1.000.000 di `newasset` da creare insieme a 2 _token_ di riemissione per esso.
 
 Reclama tutte le monete `newasset` spendibili da chiunque.
 
-Rivendica tutti i gettoni di riemissione che chiunque può spendere per "newasset".
+Rivendica tutti i _token_ di riemissione che chiunque può spendere per `newasset`.
 
-Inviare la risorsa e il relativo token di riemissione al portafoglio di un altro nodo.
+Inviare la risorsa e il relativo _token_ di riemissione al portafoglio di un altro nodo.
 
-Ripubblicare altri 'newasset' da entrambi i nodi.
+Ripubblicare altri `newasset` da entrambi i nodi.
 
-Per inizializzare una rete Elements e farla funzionare come una blockchain indipendente, ogni nodo deve essere avviato con alcuni parametri di base. Vengono utilizzati per indicare al nodo di non cercare di convalidare i peg-in da un'altra blockchain, il nome dell'asset predefinito della rete e la quantità di asset predefinito e di token di riemissione associato da creare.
+Per inizializzare una rete Elements e farla funzionare come una blockchain indipendente, ogni nodo deve essere avviato con alcuni parametri di base. Vengono utilizzati per indicare al nodo di non cercare di convalidare i `peg-in` da un'altra blockchain, il nome dell'_asset_ predefinito della rete e la quantità di _asset_ predefinito e di _token di_ riemissione associato da creare.
 
-Avvieremo ora una nuova catena utilizzando questi parametri sui nostri due nodi Elements collegati. Chiameremo l'asset predefinito `newasset` e ne emetteremo un milione e due gettoni di riemissione `newasset`.
+Avvieremo ora una nuova catena utilizzando questi parametri sui nostri due nodi Elements collegati. Chiameremo l'asset predefinito `newasset` e ne emetteremo un milione e due _token_ di riemissione `newasset`.
 
 ```
 e1-dae -validatepegin=0 -defaultpeggedassetname=newasset -initialfreecoins=100000000000000 -initialreissuancetokens=200000000
 e2-dae -validatepegin=0 -defaultpeggedassetname=newasset -initialfreecoins=100000000000000 -initialreissuancetokens=200000000
 ```
 
-Si noti che gli importi qui utilizzati sono nel taglio più piccolo che la rete può accettare, quindi i duecento milioni di gettoni di riemissione equivalgono in realtà a due gettoni interi. Lo stesso vale per il taglio delle monete gratuite iniziali.
+Si noti che gli importi qui utilizzati sono nel taglio più piccolo che la rete può accettare, quindi i duecento milioni di _token_ di riemissione equivalgono in realtà a due gettoni interi. Lo stesso vale per il taglio delle monete gratuite iniziali.
 
 Controllare i saldi attuali del portafoglio del nostro nodo.
 
@@ -1063,16 +1063,16 @@ e2-cli getwalletinfo
 
 Si può notare che l'inizializzazione ha funzionato correttamente.
 
-Poiché l'emissione iniziale di beni viene creata come "chiunque può spendere", faremo in modo che e1 li rivendichi tutti, in modo da rimuovere l'accesso di e2 ad essi.
+Poiché l'emissione iniziale di beni viene creata come `chiunque può spendere`, faremo in modo che `e1` li rivendichi tutti, in modo da rimuovere l'accesso di `e2` ad essi.
 
 ```
 e1-cli getnewaddress
 e1-cli sendtoaddress <e1-address> 1000000 "" "" true
 ```
 
-Non è necessario specificare 'newasset' come asset da inviare, poiché è già l'asset predefinito e quindi anche l'asset predefinito utilizzato per pagare le tariffe di rete.
+Non è necessario specificare `newasset` come _asset_ da inviare, poiché è già l'_asset_ predefinito e quindi anche l'_asset_ predefinito utilizzato per pagare le tariffe di rete.
 
-All'interno di Elements, è possibile inviare più tipi di asset allo stesso indirizzo, quindi possiamo riutilizzare l'indirizzo appena generato per ricevere l'asset predefinito e usarlo come indirizzo di destinazione per i token di riemissione.
+All'interno di Elements, è possibile inviare più tipi di _asset_ allo stesso indirizzo, quindi possiamo riutilizzare l'indirizzo appena generato per ricevere l'_asset_ predefinito e usarlo come indirizzo di destinazione per i _token_ di riemissione.
 
 ```
 e1-cli sendtoaddress <e1-address> 1 "" "" false false 1 UNSET false <reissuance-token-id>
@@ -1084,7 +1084,7 @@ Confermare le transazioni.
 e1-cli generate 101
 ```
 
-Verificheremo che e1 sia l'unico possessore dell'asset e del suo token di riemissione.
+Verificheremo che `e1` sia l'unico possessore dell'_asset_ e del suo _token_ di riemissione.
 
 ```
 e1-cli getwalletinfo
@@ -1093,7 +1093,7 @@ e2-cli getwalletinfo
 
 E come possiamo vedere è proprio così.
 
-Ora invieremo una parte del 'newasset' a e2, che attualmente ha un saldo pari a zero.
+Ora invieremo una parte del `newasset` a `e2`, che attualmente ha un saldo pari a zero.
 
 ```
 e2-cli getnewaddress
@@ -1102,7 +1102,7 @@ e1-cli sendtoaddress <e2-address> 500 "" "" false
 
 Si noti che non è stato necessario specificare il tipo di risorsa da inviare, poiché `newasset` è stato creato come risorsa predefinita della rete
 
-Inviamo anche alcuni dei token di riemissione per `newasset` a e2.
+Inviamo anche alcuni dei _token_ di riemissione per `newasset` a `e2`.
 
 ```
 e1-cli sendtoaddress <e2-address> 1 "" "" false false 1 UNSET false <reissuance-token-id>
@@ -1121,13 +1121,13 @@ e1-cli getwalletinfo
 e2-cli getwalletinfo
 ```
 
-Ora riemetteremo alcune delle risorse predefinite da e1. Si noti che la possibilità di farlo è abilitata dal parametro di avvio initialreissuancetokens. Se omesso o impostato a zero, si otterrà una risorsa predefinita che non potrà essere riemessa in un secondo momento.
+Ora riemetteremo alcune delle risorse predefinite da `e1`. Si noti che la possibilità di farlo è abilitata dal parametro di avvio `initialreissuancetokens`. Se omesso o impostato a zero, si otterrà una risorsa predefinita che non potrà essere riemessa in un secondo momento.
 
 ```
 e1-cli reissueasset newasset 100
 ```
 
-Abbiamo potuto usare l'etichetta di `newasset` invece di dover fornire il valore esadecimale dell'id, perché una catena di elementi etichetta sempre la sua risorsa predefinita.
+Abbiamo potuto usare l'etichetta di `newasset` invece di dover fornire il valore esadecimale dell'_id_, perché una catena di elementi etichetta sempre la sua risorsa predefinita.
 
 Verifica che la riemissione dell'asset predefinito abbia funzionato:
 
@@ -1136,13 +1136,13 @@ e1-cli generate 101
 e1-cli getwalletinfo
 ```
 
-Dimostreremo ora che, poiché e2 possiede alcuni token di riemissione di `newasset`, può anche riemettere l'asset predefinito.
+Dimostreremo ora che, poiché `e2` possiede alcuni _token_ di riemissione di `newasset`, può anche riemettere l'_asset_ predefinito.
 
 ```
 e2-cli reissueasset newasset 100
 ```
 
-Verifica del funzionamento della riemissione dell'asset predefinito da parte di e2.
+Verifica del funzionamento della riemissione dell'_asset_ predefinito da parte di `e2`.
 
 ```
 e2-cli generate 101
@@ -1153,13 +1153,13 @@ In questa sezione abbiamo configurato Elements come blockchain indipendente e ab
 
 Abbiamo utilizzato i parametri di avvio per:
 
-Inizializza una nuova blockchain Elements con un asset predefinito chiamato "newasset".
+- Inizializza una nuova blockchain Elements con un asset predefinito chiamato `newasset`.
 
-Specificare la quantità di risorsa predefinita da creare all'inizializzazione della catena.
+- Specificare la quantità di risorsa predefinita da creare all'inizializzazione della catena.
 
-Creare alcuni gettoni di riemissione per l'asset predefinito e riemettere altri asset predefiniti da entrambi i nodi.
+- Creare alcuni gettoni di riemissione per l'_asset_ predefinito e riemettere altri _asset_ predefiniti da entrambi i nodi.
 
-Sulla nostra rete blockchain Elements indipendente, tutte le altre operazioni transazionali opereranno nello stesso modo degli esempi trattati nelle sezioni principali del corso, ma utilizzeranno "newasset" invece di "bitcoin" come asset predefinito e a pagamento.
+Sulla nostra rete blockchain Elements indipendente, tutte le altre operazioni transazionali opereranno nello stesso modo degli esempi trattati nelle sezioni principali del corso, ma utilizzeranno `newasset` invece di `bitcoin` come _asset_ predefinito e a pagamento.
 
 ### Parametri di avvio del nodo e di inizializzazione della catena
 
@@ -1167,19 +1167,19 @@ Per dire a un nodo Elements di operare come una blockchain indipendente è neces
 
 #### `validatepegin=0`
 
-Poiché una blockchain indipendente non ha bisogno di convalidare le transazioni peg-in o peg-out, è necessario disabilitare tali controlli. Con questa impostazione, non è necessario eseguire il software client Bitcoin o memorizzare una copia della blockchain Bitcoin, poiché la rete Elements funzionerà in modo indipendente.
+Poiché una blockchain indipendente non ha bisogno di convalidare le transazioni `peg-in` o `peg-out`, è necessario disabilitare tali controlli. Con questa impostazione, non è necessario eseguire il software client Bitcoin o memorizzare una copia della blockchain Bitcoin, poiché la rete Elements funzionerà in modo indipendente.
 
 #### `defaultpeggedassetname`
 
-Consente di specificare il nome dell'asset predefinito creato all'inizializzazione della blockchain.
+Consente di specificare il nome dell'_asset_ predefinito creato all'inizializzazione della blockchain.
 
-#### `inizialialfreecoins`
+#### `inizialfreecoins`
 
-Il numero (nell'equivalente dell'unità Satoshi di Bitcoin) dell'asset predefinito da creare.
+Il numero (nell'equivalente dell'unità Satoshi di Bitcoin) dell'_asset_ predefinito da creare.
 
-#### `token iniziali di riemissione`
+#### `initialreissuancetokens`
 
-Il numero (nell'equivalente dell'unità Satoshi di Bitcoin) dei token di riemissione per l'asset predefinito da creare. Senza questo valore sarebbe impossibile creare altri asset di default. Se non si vuole che sia possibile creare altri asset predefiniti, questo valore può essere impostato a zero o omesso.
+Il numero (nell'equivalente dell'unità Satoshi di Bitcoin) dei token di riemissione per l'_asset_ predefinito da creare. Senza questo valore sarebbe impossibile creare altri _asset_ di default. Se non si vuole che sia possibile creare altri _asset_ predefiniti, questo valore può essere impostato a zero o omesso.
 
 Utilizzando questi parametri, la procedura comune per avviare un nodo sarà simile a questa:
 
@@ -1189,23 +1189,23 @@ e1-dae -validatepegin=0 -defaultpeggedassetname=newasset -initialfreecoins=10000
 
 ### Operazioni di base
 
-Il parametro `defaultpeggedassetname` applica un'etichetta all'attività predefinita. Senza questa impostazione, la risorsa predefinita sarà automaticamente chiamata `bitcoin`. Nelle sezioni precedenti, quando abbiamo inviato risorse emesse da noi stessi a un altro nodo, abbiamo dovuto specificare l'esagono della risorsa o l'etichetta della risorsa applicata localmente per indicare a Elements quale risorsa stavamo inviando. Poiché `defaultpeggedassetname` si applica a tutti i nodi, non abbiamo bisogno di nominarlo quando lo inviamo, anche se il suo nome non è `bitcoin`. Ogni funzione che prima avrebbe inviato `bitcoin` per impostazione predefinita, ora invierà qualsiasi cosa si sia scelto di etichettare come risorsa predefinita.
+Il parametro `defaultpeggedassetname` applica un'etichetta all'_asset_ predefinito. Senza questa impostazione, la risorsa predefinita sarà automaticamente chiamata `bitcoin`. Nelle sezioni precedenti, quando abbiamo inviato _asset_ emessi da noi stessi a un altro nodo, abbiamo dovuto specificare l'_hex_ dell'_asset_ o l'etichetta dell'_asset_ applicato localmente per indicare a Elements quale risorsa stavamo inviando. Poiché `defaultpeggedassetname` si applica a tutti i nodi, non abbiamo bisogno di nominarlo quando lo inviamo, anche se il suo nome non è `bitcoin`. Ogni funzione che prima avrebbe inviato `bitcoin` per impostazione predefinita, ora invierà qualsiasi cosa si sia scelto di etichettare come _asset_ predefinita.
 
-Per questo motivo, l'invio di 10 esemplari del nuovo asset predefinito a un indirizzo è semplice come:
+Per questo motivo, l'invio di 10 esemplari del nuovo _asset_ predefinito a un indirizzo è semplice come:
 
 ```
 e1-cli sendtoaddress <destination address> 10 "" "" true
 ```
 
-Se avete fornito al nodo anche un valore di `initialreissuancetokens` maggiore di zero, sarete anche in grado di riemettere altri asset di default, cosa che non è possibile se eseguite Elements come sidechain.
+Se avete fornito al nodo anche un valore di `initialreissuancetokens` maggiore di zero, sarete anche in grado di riemettere altri _asset_ di default, cosa che non è possibile se eseguite Elements come _sidechain_.
 
-A tal fine, qualsiasi nodo che detenga una quantità di token associata all'asset predefinito deve solo emettere un comando nella forma:
+A tal fine, qualsiasi nodo che detenga una quantità di _token_ associata all'_asset_ predefinito deve solo emettere un comando nella forma:
 
 ```
 e1-cli reissueasset <default asset name> <amount>
 ```
 
-Utilizzando i parametri di cui sopra è possibile far funzionare Elements come una blockchain autonoma con un proprio asset predefinito, disaccoppiato da Bitcoin e da altre blockchain.
+Utilizzando i parametri di cui sopra è possibile far funzionare Elements come una blockchain autonoma con un proprio _asset_ predefinito, disaccoppiato da Bitcoin e da altre blockchain.
 
 ## Conclusione
 

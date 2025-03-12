@@ -1,5 +1,5 @@
 ---
-name: Costruire con elementi e rete liquida
+name: Costruire con Elemnts e Liquid Network
 goal: Imparare a utilizzare e sviluppare con la piattaforma blockchain open-source Elements e le sue caratteristiche principali
 objectives: 
 
@@ -9,11 +9,11 @@ objectives:
   - Impostare e gestire ambienti blockchain sicuri ed efficienti per casi d'uso reali.
 
 ---
-# Costruire su liquidi ed elementi
+# Costruire su Liquid network ed Elements
 
-Scoprite le caratteristiche e le funzionalità avanzate di Liquid ed Elements e imparate a utilizzare efficacemente questi strumenti per migliorare i vostri progetti di sviluppo. Questa formazione fornisce una base teorica e pratica completa, consentendovi di padroneggiare funzionalità quali Transazioni riservate, Attività emesse e Firma a blocchi federata.
+Scoprite le caratteristiche e le funzionalità avanzate di Liquid Network ed Elements e imparate a utilizzare efficacemente questi strumenti per migliorare i vostri progetti di sviluppo. Questa formazione fornisce una base teorica e pratica completa, consentendovi di padroneggiare funzionalità quali Transazioni riservate, Attività emesse e Firma a blocchi federata.
 
-Liquid, basato sul framework Elements, è progettato per migliorare la privacy, la scalabilità e la funzionalità delle soluzioni finanziarie e tecniche. In questo corso, acquisirete esperienza pratica con l'emissione e la gestione di asset, il Federated 2-Way Peg e l'uso di strumenti come elementsd ed elements-cli, consentendovi di creare soluzioni innovative su misura per le vostre esigenze.
+Liquid, basato sul framework Elements, è progettato per migliorare la privacy, la scalabilità e la funzionalità delle soluzioni finanziarie e tecniche. In questo corso, acquisirete esperienza pratica con l'emissione e la gestione di asset, il Federated 2-Way Peg e l'uso di strumenti come "elementsd" ed "elements-cli", consentendovi di creare soluzioni innovative su misura per le vostre esigenze.
 
 Questo corso è adatto agli sviluppatori di tutti i livelli di esperienza. I principianti e gli utenti intermedi troveranno spiegazioni accessibili ed esempi pratici, mentre gli utenti avanzati potranno approfondire i dettagli tecnici e le caratteristiche meno conosciute di Liquid ed Elements.
 

@@ -802,7 +802,7 @@ Per riassumere il processo. In questa sezione abbiamo:
 
 Ogni nodo della rete convalida il blocco e lo aggiunge alla propria copia locale della blockchain.
 
-### Block SIgning (Blocco firmato)
+### Block Signing (Blocco firmato)
 
 Sebbene il processo appaia inizialmente complesso, la sequenza di firma dei blocchi in Elements è sempre la stessa e la configurazione iniziale deve essere eseguita una sola volta:
 
@@ -818,25 +818,25 @@ Sebbene il processo appaia inizialmente complesso, la sequenza di firma dei bloc
 
 Una volta che un numero soglia di firmatari ha firmato il blocco proposto, questo viene combinato e sottoposto alla rete. Se soddisfa i criteri del `signblockscript` della catena, i nodi lo accettano come blocco valido.
 
-## Elemento come catena laterale
+## Elements come sidechain (catena laterale)
 
 <chapterId>432d7a65-255f-44a3-8b38-78508202cb37</chapterId>
 
 ![Video](https://youtu.be/egYzj4N8CB8?si=v7_-IXsjHPE-ARDe)
 
-Elements è una piattaforma blockchain open-source di uso generale che può anche essere "agganciata" a una blockchain esistente, come Bitcoin. Quando è collegato a un'altra blockchain, si dice che Elements opera come una `sidechain`. Le sidechain consentono il trasferimento bidirezionale di beni da una catena all'altra. L'implementazione di Elements come sidechain consente di aggirare alcune delle limitazioni intrinseche della mainchain, pur mantenendo un buon grado di sicurezza fornito dagli asset protetti sulla mainchain.
+Elements è una piattaforma blockchain open-source di uso generale che può anche essere "ancorata" a una blockchain esistente, come Bitcoin. Quando è collegato a un'altra blockchain, si dice che Elements opera come una _sidechain_. Le _sidechain_ consentono il trasferimento bidirezionale di beni da una catena all'altra. L'implementazione di Elements come _sidechain_ consente di aggirare alcune delle limitazioni intrinseche della _mainchain_, pur mantenendo un buon grado di sicurezza fornito dagli _asset_ protetti sulla _mainchain_.
 
-Mentre una sidechain è a conoscenza della mainchain e della sua cronologia delle transazioni, la mainchain non è a conoscenza della sidechain e non è necessaria per il suo funzionamento. Ciò consente alle sidechain di innovare senza restrizioni o ritardi associati alle proposte di miglioramento del protocollo della mainchain. Piuttosto che cercare di modificarlo direttamente, l'estensione del protocollo principale permette alla mainchain stessa di rimanere sicura e specializzata, sostenendo il buon funzionamento della sidechain.
+Mentre una _sidechain_ è a conoscenza della _mainchain_ e della sua cronologia delle transazioni, la _mainchain_ non è a conoscenza della _sidechain_ e non è necessaria per il suo funzionamento. Ciò consente alle _sidechain_ di innovare senza restrizioni o ritardi associati alle proposte di miglioramento del protocollo della _mainchain_. Piuttosto che cercare di modificarlo direttamente, l'estensione del protocollo principale permette alla _mainchain_ stessa di rimanere sicura e specializzata, sostenendo il buon funzionamento della _sidechain_.
 
-Estendendo le funzionalità di Bitcoin e sfruttando la sua sicurezza sottostante, una sidechain basata su Elements è in grado di fornire nuove funzionalità che in precedenza non erano disponibili per gli utenti della mainchain. Un esempio di sidechain basata su Elements in produzione è Liquid Network.
+Estendendo le funzionalità di Bitcoin e sfruttando la sua sicurezza sottostante, una _sidechain_ basata su Elements è in grado di fornire nuove funzionalità che in precedenza non erano disponibili per gli utenti della _mainchain_. Un esempio di _sidechain_ basata su Elements in produzione è Liquid Network.
 
-Per inizializzare una blockchain Elements come sidechain, è necessario utilizzare il parametro di script federated peg. Questo parametro può essere impostato nel file di configurazione di un nodo o passato all'avvio.
+Per inizializzare una blockchain Elements come _sidechain_, è necessario utilizzare il parametro di _script_ `federated peg`. Questo parametro può essere impostato nel file di configurazione di un nodo o utilizzato all'avvio.
 
-Lo script peg federato definisce quali membri della federazione forte possono svolgere funzioni di peg-in e peg-out. Questi funzionari sono chiamati `Watchmen`, in quanto controllano la mainchain e la sidechain alla ricerca di transazioni peg-in e peg-out valide e le eseguono se sono valide. Peg-out" significa spostare gli asset pegged dalla sidechain alla mainchain e "peg-in" significa spostare gli asset pegged dalla mainchain alla sidechain. Quando diciamo "spostare nella sidechain", in realtà intendiamo dire che i fondi vengono bloccati in un indirizzo multi-firma sulla mainchain e una quantità corrispondente dell'asset viene creata sulla sidechain Elements. Quando si dice "uscire dalla sidechain", si intende che gli asset vengono distrutti sulla sidechain di Elements e l'importo corrispondente viene rilasciato dai fondi bloccati sulla mainchain. Il permesso di eseguire le funzioni di peg-in e peg-out richiede che i funzionari dimostrino la proprietà delle chiavi pubbliche utilizzate nello script di peg federato. Ciò avviene con l'uso delle chiavi private corrispondenti.
+Lo _script_ `federated peg` definisce quali membri della _"Strong Federation"_ (federazione rinforzata) possono svolgere funzioni di `peg-in` e `peg-out`. Questi funzionari sono chiamati _"Watchmen"_, in quanto controllano la _mainchain_ e la _sidechain_ alla ricerca di transazioni `peg-in` e `peg-out` valide e le eseguono se sono valide. `Peg-out` significa spostare gli _asset pegged_ dalla _sidechain_ alla _mainchain_ e `peg-in` significa spostare gli _asset pegged_ dalla _mainchain_ alla _sidechain_. Quando diciamo "spostare nella _sidechain_", in realtà intendiamo dire che i fondi vengono bloccati in un indirizzo multi-firma sulla _mainchain_ e una quantità corrispondente dell'_asset_ viene creata sulla _sidechain_ Elements. Quando si dice "uscire dalla _sidechain_", si intende che gli _asset_ vengono distrutti sulla _sidechain_ di Elements e l'importo corrispondente viene rilasciato dai fondi bloccati sulla _mainchain_. Il permesso di eseguire le funzioni di `peg-in` e `peg-out` richiede che i funzionari dimostrino la proprietà delle chiavi pubbliche utilizzate nello _script_ `federated peg`. Ciò avviene con l'uso delle chiavi private corrispondenti.
 
-Per creare uno script peg federato, quindi, è necessario che ogni nodo generi una chiave pubblica. Dobbiamo anche memorizzare le chiavi private associate per un uso successivo, poiché dovremo cancellare tutti i dati della catena esistente e inizializzare una nuova catena usando lo script peg federato. Questo perché lo script peg federato fa parte delle regole di consenso di una sidechain e non può essere applicato a una blockchain esistente, non peg, in un secondo momento.
+Per creare uno _script_ `federated peg`, quindi, è necessario che ogni nodo generi una chiave pubblica. Dobbiamo anche memorizzare le chiavi private associate per un uso successivo, poiché dovremo cancellare tutti i dati della catena esistente e inizializzare una nuova catena usando lo _script_ `federated peg`. Questo perché lo _script_ `federated peg` fa parte delle regole di consenso di una _sidechain_ e non può essere applicato a una blockchain esistente, non ancorata, in un secondo momento.
 
-Generiamo quindi un indirizzo per ciascuno dei nostri nodi, memorizziamo i dati rilevanti per un uso successivo e generiamo lo script del peg federato che useremo per inizializzare la nostra sidechain in seguito.
+Generiamo quindi un indirizzo per ciascuno dei nostri nodi, memorizziamo i dati rilevanti per un uso successivo e generiamo lo _script_ `federated peg` che useremo per inizializzare la nostra _sidechain_ in seguito.
 
 Per prima cosa è necessario che ciascuno dei nostri nodi, che fungeranno da sentinelle della nostra rete, generi un nuovo indirizzo.
 
@@ -861,58 +861,58 @@ e2-cli dumpprivkey <e2-address>
 
 Memorizzare le chiavi private e pubbliche per un uso successivo.
 
-Ora dobbiamo cancellare i dati della blockchain e del portafoglio esistenti, poiché inizializzeremo una nuova catena utilizzando uno script peg federato. Potete farlo ora. Non dimenticate di avviare il demone Bitcoin, che ci servirà per il peg-in.
+Ora dobbiamo cancellare i dati della blockchain e del portafoglio esistenti, poiché inizializzeremo una nuova catena utilizzando uno _script_ `federated peg`. Potete farlo ora. Non dimenticate di avviare il _demone_ Bitcoin, che ci servirà per il `peg-in`.
 
-Ora possiamo inizializzare una nuova catena con uno script di peg federato creato utilizzando le chiavi pubbliche che abbiamo memorizzato in precedenza. I numeri che inseriamo e che circondano le nostre chiavi pubbliche definiscono e delimitano il numero di chiavi utilizzate e la proprietà delle chiavi che deve essere dimostrata per effettuare il peg-in e il peg-out della nostra sidechain.
+Ora possiamo inizializzare una nuova catena con uno _script_ `federated peg` creato utilizzando le chiavi pubbliche che abbiamo memorizzato in precedenza. I numeri che inseriamo e che circondano le nostre chiavi pubbliche definiscono e delimitano il numero di chiavi utilizzate e la proprietà delle chiavi che deve essere dimostrata per effettuare il `peg-in` e il `peg-out` della nostra _sidechain_.
 
 ```
 e1-dae -fedpegscript=5221<e1-pubkey>21<e2-pubkey>52ae
 e2-dae -fedpegscript=5221<e1-pubkey>21<e2-pubkey>52ae
 ```
 
-Ora importeremo le chiavi private che abbiamo salvato in precedenza, in modo che i nostri nodi possano successivamente firmare e completare il trasferimento delle risorse tra le catene e soddisfare i requisiti dello script del peg federato.
+Ora importeremo le chiavi private che abbiamo salvato in precedenza, in modo che i nostri nodi possano successivamente firmare e completare il trasferimento delle risorse tra le catene e soddisfare i requisiti dello _script_ `federated peg`.
 
 ```
 e1-cli importprivkey <priv-key-1>
 e2-cli importprivkey <priv-key-1>
 ```
 
-Ora dobbiamo far maturare alcuni blocchi su entrambe le catene. La maturazione dei blocchi è un requisito del processo di peg, in quanto protegge dalle riorganizzazioni dei blocchi sulla mainchain che portano a un'inflazione dell'offerta di asset pegati all'interno della sidechain.
+Ora dobbiamo far maturare alcuni blocchi su entrambe le catene. La maturazione dei blocchi è un requisito del processo di ancoraggio, in quanto protegge dalle riorganizzazioni dei blocchi sulla _mainchain_ che portano a un'inflazione dell'offerta di _asset_ ancorati all'interno della _sidechain_.
 
-Per mantenere questa sezione focalizzata sul peg federato, genereremo i blocchi senza usare il modello di firma dei blocchi visto nell'ultima sezione e torneremo a usare il comando "generate" per creare nuovi blocchi.
+Per mantenere questa sezione focalizzata sul `federated peg`, genereremo i blocchi senza usare il modello di firma dei blocchi visto nell'ultima sezione e torneremo a usare il comando `generate` per creare nuovi blocchi.
 
 ```
 b-cli generate 101
 e1-cli generate 1
 ```
 
-Non abbiamo necessariamente bisogno di generare blocchi per gli elementi. Ma generiamone comunque uno. È una buona pratica per evitare potenziali incoerenze.
+Non abbiamo necessariamente bisogno di generare blocchi per Elements. Ma generiamone comunque uno. È una buona pratica per evitare potenziali incoerenze.
 
-Ora la nostra catena è pronta per il peg-in. Per effettuare il peg-in è necessario generare un tipo speciale di indirizzo utilizzando il comando getpeginaddress. Si noti che il tempo che intercorre tra la generazione di un indirizzo peg-in con getpeginaddress e la sua rivendicazione con claimpegin deve essere ridotto al minimo. Gli indirizzi peg-in non sono durevoli a lungo termine e non devono essere riutilizzati.
+Ora la nostra catena è pronta per il `peg-in`. Per effettuare il `peg-in` è necessario generare un tipo speciale di indirizzo utilizzando il comando `getpeginaddress`. Si noti che il tempo che intercorre tra la generazione di un indirizzo `peg-in` con `getpeginaddress` e la sua rivendicazione con `claimpegin` deve essere ridotto al minimo. Gli indirizzi `peg-in` non sono durevoli a lungo termine e non devono essere riutilizzati.
 
 ```
 e1-cli getpeginaddress
 ```
 
-Si può notare che il comando crea un nuovo indirizzo mainchain e un nuovo script che dovrà essere soddisfatto per richiedere i fondi peg-in. L'indirizzo della mainchain è un indirizzo "pay to script hash" che sarà utilizzato dai funzionari che svolgono il ruolo di Watchmen all'interno della rete Elements.
+Si può notare che il comando crea un nuovo indirizzo _mainchain_ e un nuovo _script_ che dovrà essere soddisfatto per richiedere i fondi `peg-in`. L'indirizzo della _mainchain_ è un indirizzo _"pay to script hash"_ che sarà utilizzato dai _"Functionaries"_ (funzionari) che svolgono il ruolo di _"Watchmen"_ (Guardiani) all'interno di Elements Network.
 
-Come getnewaddress, getpeginaddress aggiunge un nuovo segreto al portafoglio del nodo chiamante, quindi è importante tenere conto del backup del file del portafoglio nel processo di gestione del nodo.
+Come `getnewaddress`, `getpeginaddress` aggiunge un nuovo segreto al portafoglio del nodo chiamante, quindi è importante tenere conto del backup del file del portafoglio nel processo di gestione del nodo.
 
-Ora invieremo alcuni bitcoin dalla mainchain alla sidechain. Il nostro portafoglio di test di regressione della mainchain contiene già alcuni fondi.
+Ora invieremo alcuni bitcoin dalla _mainchain_ alla _sidechain_. Il nostro portafoglio di test di regressione della _mainchai_n contiene già alcuni fondi.
 
 ```
 b-cli getwalletinfo
 ```
 
-Possiamo vedere che il portafoglio contiene 50 bitcoin. Invieremo un bitcoin dalla mainchain alla sidechain. Dobbiamo inviare i fondi all'indirizzo della mainchain che il nostro nodo ha generato in precedenza.
+Possiamo vedere che il portafoglio contiene 50 bitcoin. Invieremo un bitcoin dalla _mainchain_ alla _sidechain_. Dobbiamo inviare i fondi all'indirizzo della _mainchain_ che il nostro nodo ha generato in precedenza.
 
 ```
 b-cli sendtoaddress <e1-pegin-address>
 ```
 
-Dobbiamo conservare l'ID di questa transazione perché ci servirà come prova di finanziamento in seguito.
+Dobbiamo conservare l'_ID_ di questa transazione perché ci servirà come prova di finanziamento in seguito.
 
-Ora possiamo vedere che il saldo del portafoglio della mainchain è diminuito dell'importo che abbiamo inviato, più un ulteriore piccolo importo per coprire le spese di transazione.
+Ora possiamo vedere che il saldo del portafoglio della _mainchain_ è diminuito dell'importo che abbiamo inviato, più un ulteriore piccolo importo per coprire le spese di transazione.
 
 ```
 b-cli getwalletinfo
@@ -924,7 +924,7 @@ Dobbiamo far maturare nuovamente la transazione.
 b-cli generate 101
 ```
 
-Per far sì che il nostro nodo Elements rivendichi i fondi peg-in, dobbiamo ottenere la "prova" che la transazione peg-in è stata effettuata. La prova crittografica utilizza l'ID della transazione di finanziamento per calcolare il percorso di Merkel e dimostra che la transazione è presente in un blocco confermato.
+Per far sì che il nostro nodo Elements rivendichi i fondi `peg-in`, dobbiamo ottenere la "prova" che la transazione `peg-in` è stata effettuata. La prova crittografica utilizza l'_ID_ della transazione di finanziamento per calcolare il percorso di _Merkel_ e dimostra che la transazione è presente in un blocco confermato.
 
 ```
 b-cli gettxoutproof '["<tx-id>"]'
@@ -936,15 +936,15 @@ Abbiamo bisogno anche dei dati grezzi delle transazioni.
 b-cli getrawtransaction <tx-id>
 ```
 
-Con la prova e i dati grezzi della transazione peg-in, il nostro nodo elemento può ora rivendicare il peg-in utilizzando la transazione grezza e la prova della transazione.
+Con la prova e i dati grezzi della transazione `peg-in`, il nostro nodo elemento può ora rivendicare il `peg-in` utilizzando la transazione grezza e la prova della transazione.
 
 ```
 e1-cli claimpegin <raw> <proof>
 ```
 
-Si noti che c'è un terzo parametro opzionale che avremmo potuto fornire a claimpegin. Questo terzo parametro può essere usato per specificare l'indirizzo della catena laterale a cui inviare i fondi rivendicati. Nel nostro esempio non è stato necessario, poiché il comando è stato chiamato dallo stesso nodo che possiede l'indirizzo a cui sono destinati i fondi rivendicati.
+Si noti che c'è un terzo parametro opzionale che avremmo potuto fornire a `claimpegin`. Questo terzo parametro può essere usato per specificare l'indirizzo della catena laterale a cui inviare i fondi rivendicati. Nel nostro esempio non è stato necessario, poiché il comando è stato chiamato dallo stesso nodo che possiede l'indirizzo a cui sono destinati i fondi rivendicati.
 
-Controllo del saldo di e1.
+Controllo del saldo di `e1`.
 
 ```
 e1-cli getwalletinfo
@@ -956,21 +956,21 @@ Generare un blocco per confermare la richiesta.
 e1-cli generate 1
 ```
 
-Controllo del saldo di e1.
+Controllo del saldo di `e1`.
 
 ```
 e1-cli getwalletinfo
 ```
 
-Si può notare che il peg-in è stato rivendicato con successo.
+Si può notare che il `peg-in` è stato rivendicato con successo.
 
-Per il peg-out, il processo è simile. Viene generato un indirizzo, vi si inviano i fondi e questi vengono rilasciati se la transazione è valida. Non tratteremo l'intero processo di peg-out perché comporta un lavoro sulla mainchain che esula dagli scopi di questo corso. I passaggi in termini di eventi Elements sono: un indirizzo viene generato sulla mainchain.
+Per il `peg-out`, il processo è simile. Viene generato un indirizzo, vi si inviano i fondi e questi vengono rilasciati se la transazione è valida. Non tratteremo l'intero processo di `peg-out` perché comporta un lavoro sulla _mainchain_ che esula dagli scopi di questo corso. I passaggi in termini di eventi Elements sono: un indirizzo viene generato sulla _mainchain_.
 
 ```
 b-cli getnewaddress
 ```
 
-I fondi vengono inviati all'indirizzo della mainchain da un nodo Elements utilizzando il comando sendtomainchain.
+I fondi vengono inviati all'indirizzo della _mainchain_ da un nodo Elements utilizzando il comando `sendtomainchain`.
 
 ```
 e1-cli sendtomainchain <new-address> 1
@@ -993,41 +993,41 @@ E vedere che il saldo è diminuito.
 In questa sezione abbiamo visto come:
 
 
-- Generare uno script peg federato.
-- Inizializza una nuova catena che utilizza lo script come regola di parametro del consenso di rete.
-- Invia fondi dalla mainchain alla sidechain.
-- Rivendicare i fondi all'interno della sidechain di Elements.
-- Capire come si avvia l'invio di fondi alla mainchain.
+- Generare uno _script_ `federated peg`.
+- Inizializza una nuova catena che utilizza lo _script_ come regola di parametro del consenso di rete.
+- Invia fondi dalla _mainchain_ alla _sidechain_.
+- Rivendicare i fondi all'interno della _sidechain_ di Elements.
+- Capire come si avvia l'invio di fondi alla _mainchain_.
 
-### FederatedPegScript
+### FederatedPegScript (Script di ancoraggio federato)
 
-Per consentire a Elements di funzionare come sidechain, il blocco genesis nella sua blockchain deve essere creato con un `fedpegscript` al suo posto. Ciò avviene passando il parametro `fedpegscript` all'avvio del nodo. Lo script farà quindi parte delle regole di consenso della blockchain Elements e consentirà la convalida e l'esecuzione delle richieste di peg-in e peg-out.
+Per consentire a Elements di funzionare come _sidechain_, il blocco genesis nella sua blockchain deve essere creato con un `fedpegscript` al suo posto. Ciò avviene passando il parametro `fedpegscript` all'avvio del nodo. Lo _script_ farà quindi parte delle regole di consenso della blockchain Elements e consentirà la convalida e l'esecuzione delle richieste di `peg-in` e `peg-out`.
 
-Il `fedpegscript` è composto da chiavi pubbliche controllate da coloro che sono autorizzati a eseguire le azioni peg. Di seguito viene mostrato un esempio di formato di un fedpegscript a 2 firme su 2:
+Il `fedpegscript` è composto da chiavi pubbliche controllate da coloro che sono autorizzati a eseguire le azioni di ancoraggio. Di seguito viene mostrato un esempio di formato di un `fedpegscript` a 2 firme su 2:
 
 ```
 fedpegscript=5221<public key 1>21<public key 2>52ae
 ```
 
-Nota: I caratteri al di fuori delle chiavi pubbliche sono delimitatori che indicano i requisiti della chiave pubblica e di `n di m`. Ad esempio, il modello per un fedpegscript 1-of-1 sarebbe "5121<chiave pubblica 1>51ae".
+Nota: I caratteri al di fuori delle chiavi pubbliche sono delimitatori che indicano i requisiti della chiave pubblica e di `n di m`. Ad esempio, il modello per un `fedpegscript` 1-of-1 sarebbe "5121<chiave pubblica 1>51ae".
 
-### Piolo-in
+### Peg-in
 
-Prima che un peg-in possa essere accettato da una sidechain di Elements, deve avere sufficienti conferme sulla mainchain. Ciò è necessario per evitare l'inflazione dell'offerta dell'asset pegged sulla sidechain di Elements che potrebbe essere causata da una riorganizzazione della mainchain.
+Prima che un `peg-in` (ancoraggio in ingresso) possa essere accettato da una _sidechain_ di Elements, deve avere sufficienti conferme sulla _mainchain_. Ciò è necessario per evitare l'inflazione dell'offerta dell'_asset pegged_ sulla _sidechain_ di Elements che potrebbe essere causata da una riorganizzazione della _mainchain_.
 
-Brevi riorganizzazioni della punta della blockchain Bitcoin sono previste come parte del normale funzionamento del meccanismo di consenso Proof of Work (PoW). Per questo motivo, Elements accetta che un peg-in sia valido solo quando ha una profondità sufficiente all'interno della blockchain Bitcoin. Questo serve a evitare che Elements accetti lo stesso peg-in più di una volta.
+Brevi riorganizzazioni della punta della blockchain Bitcoin sono previste come parte del normale funzionamento del meccanismo di consenso Proof of Work (PoW). Per questo motivo, Elements accetta che un `peg-in` sia valido solo quando ha una profondità sufficiente all'interno della blockchain Bitcoin. Questo serve a evitare che Elements accetti lo stesso `peg-in` più di una volta.
 
-### Uscita a pioli
+### Peg - out (ancoraggio in uscita)
 
-Un peg-out si verifica quando un nodo Elements chiama il comando `sendtomainchain`, che prende in input un indirizzo della mainchain (la destinazione del peg-out) e l'ammontare dell'asset pegged da `ritirare`. In questo modo si crea una transazione di peg-out sulla sidechain. Una volta che i Funzionari che agiscono come Watchmen rilevano che la transazione di peg-out è stata confermata sulla sidechain, si occupano di rilasciare effettivamente l'asset sulla mainchain alla destinazione di peg-out, come abbiamo imparato nelle sezioni precedenti del corso.
+Un `peg-out` si verifica quando un nodo Elements chiama il comando `sendtomainchain`, che prende in input un indirizzo della _mainchain_ (la destinazione del `peg-out`) e l'ammontare dell'_asset pegged_ da `prelevare`. In questo modo si crea una transazione di `peg-out` sulla _sidechain_. Una volta che i _"Functionaries"_ (Funzionari) che agiscono come _"Watchmen"_ (Guardiani) rilevano che la transazione di `peg-out` è stata confermata sulla _sidechain_, si occupano di rilasciare effettivamente l'_asset_ sulla _mainchain_ alla destinazione di `peg-out`, come abbiamo imparato nelle sezioni precedenti del corso.
 
-## Elementi come Blockchain indipendente
+## Elements come Blockchain indipendente
 
 <chapterId>50dff39b-2702-47d7-9c15-0b54b845e99f</chapterId>
 
 ![Video](https://youtu.be/u-3rV7DGtD0?si=G1__H0Uelf4sTUDM)
 
-Finora abbiamo visto come far funzionare Elements come sidechain. Tuttavia, può anche funzionare come soluzione blockchain autonoma con un proprio asset nativo predefinito. In questa configurazione, una blockchain Elements mantiene tutte le caratteristiche di un'implementazione sidechain, come le transazioni riservate e gli asset emessi, ma non ha bisogno di peg-in o peg-out per aggiungere o rimuovere dalla circolazione gli asset predefiniti.
+Finora abbiamo visto come far funzionare Elements come _sidechain_. Tuttavia, può anche funzionare come soluzione blockchain autonoma con un proprio asset nativo predefinito. In questa configurazione, una blockchain Elements mantiene tutte le caratteristiche di un'implementazione sidechain, come le transazioni riservate e gli asset emessi, ma non ha bisogno di peg-in o peg-out per aggiungere o rimuovere dalla circolazione gli asset predefiniti.
 
 In questa sezione ci occuperemo di:
 

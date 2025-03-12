@@ -595,7 +595,7 @@ ___
 
 Se podría caracterizar la **teoría de números** como el estudio de las propiedades de los números enteros y las funciones matemáticas que trabajan con números enteros.
 
-Consideremos, por ejemplo, que dos números cualesquiera $a$ y $N$ son **cópimos** (o **primos relativos**) si su máximo común divisor es igual a 1. Supongamos ahora un número entero $N$. ¿Cuántos números enteros menores que $N$ son coprimos de $N$? ¿Podemos hacer afirmaciones generales sobre las respuestas a esta pregunta? Éstos son los tipos típicos de preguntas que la teoría de números trata de responder.
+Consideremos, por ejemplo, que dos números cualesquiera $a$ y $N$ son **coprimos** (o **primos relativos**) si su máximo común divisor es igual a 1. Supongamos ahora un número entero $N$. ¿Cuántos números enteros menores que $N$ son coprimos de $N$? ¿Podemos hacer afirmaciones generales sobre las respuestas a esta pregunta? Estos son los tipos típicos de preguntas que la teoría de números trata de responder.
 
 La teoría moderna de números se basa en las herramientas del álgebra abstracta. El campo del **álgebra abstracta** es una subdisciplina de las matemáticas en la que los principales objetos de análisis son objetos abstractos conocidos como estructuras algebraicas. Una **estructura algebraica** es un conjunto de elementos unido a una o más operaciones, que cumple ciertos axiomas. A través de las estructuras algebraicas, los matemáticos pueden comprender problemas matemáticos concretos abstrayéndose de sus detalles.
 
@@ -1269,7 +1269,7 @@ El cifrado por bloques AES se explicará en detalle en el *Capítulo 5*.
 
 La confusión sobre la distinción entre cifrado por bloques y cifrado por flujos se debe a que a veces la gente entiende que el término cifrado por bloques se refiere específicamente a un *cifrado por bloques con un modo de cifrado por bloques*.
 
-Considera los modos ECB y CBC de la sección anterior. Éstos requieren específicamente que los datos para el cifrado sean divisibles por el tamaño del bloque (lo que significa que podrías tener que usar relleno para el mensaje original). Además, en estos modos los datos también son operados directamente por el cifrado por bloques (y no sólo combinados con el resultado de una operación de cifrado por bloques como en el modo OFB).
+Considera los modos ECB y CBC de la sección anterior. Estos requieren específicamente que los datos para el cifrado sean divisibles por el tamaño del bloque (lo que significa que podrías tener que usar relleno para el mensaje original). Además, en estos modos los datos también son operados directamente por el cifrado por bloques (y no sólo combinados con el resultado de una operación de cifrado por bloques como en el modo OFB).
 
 Por lo tanto, se puede definir un **cifrado por bloques** como cualquier esquema de cifrado que funcione con bloques de longitud fija del mensaje cada vez (donde cualquier bloque debe ser mayor que un byte, de lo contrario se convierte en un cifrado de flujo). Tanto los datos para cifrar como el texto cifrado deben dividirse uniformemente en este tamaño de bloque. Normalmente, el tamaño del bloque es de 64, 128, 192 o 256 bits de longitud. En cambio, un cifrado de flujo puede cifrar cualquier mensaje en trozos de un bit o byte cada vez.
 

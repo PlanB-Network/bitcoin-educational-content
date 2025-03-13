@@ -1,5 +1,5 @@
 ---
-name: 贡献 - 回顾
+name: 校对或审阅内容
 description: 如何参与审查 Plan ₿ Network 上的教育内容？
 ---
 ![github](assets/cover.webp)
@@ -33,14 +33,13 @@ Plan ₿网络从根本上说是多语言的，因为我们的目标是让全世
 
 不过，如果你对 Git 和 GitHub 不熟悉，想了解更多信息，可以查看我们关于这些工具的介绍文章：
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1.创建账户
 
 
 - 在 [GitHub](https://github.com/) 上创建账户，开始贡献。如果您需要创建 GitHub 账户的指导，我们也有详细的教程：
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - 您还需要一个信息应用程序 [Telegram](https://telegram.org/) 的账户。
 
@@ -60,16 +59,16 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ## 3.通过 GitHub 界面审核和编辑内容
 
 
-- 该问题包含一个说明（参见 **A**），并带有指向原始内容和待审查文件的链接。
-- 如果您想负责审核，请在问题上留言（参见**B**），表示您将负责该问题。这样可以避免重复工作。
-- 点击要查看的文件旁边的链接（参见**C**），即可访问文件内容。
+- 该问题包含一个说明（参见 \**A\**），并带有指向原始内容和待审查文件的链接。
+- 如果您想负责审核，请在问题上留言（参见\**B\**），表示您将负责该问题。这样可以避免重复工作。
+- 点击要查看的文件旁边的链接（参见\**C\**），即可访问文件内容。
 
 ![REVIEW](assets/fr/03.webp)
 
 
 - 现在您可以查看要审查文件的 GitHub 界面。
-- 左侧面板允许您浏览分支（参见**A**）和文件（参见**B**）。
-- 点击铅笔图标开始审阅（参见**C**）。
+- 左侧面板允许您浏览分支（参见\**A\**）和文件（参见\**B\**）。
+- 点击铅笔图标开始审阅（参见\**C\**）。
 
 ![REVIEW](assets/fr/04.webp)
 
@@ -79,7 +78,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/05.webp)
 
 
-- 然后您将进入编辑器界面（参见**A**），在这里您可以看到文件路径和相应的分支（参见**B**），并在编辑和预览模式之间切换（参见**C**）。
+- 然后您将进入编辑器界面（参见\**A\**），在这里您可以看到文件路径和相应的分支（参见\**B\**），并在编辑和预览模式之间切换（参见\**C\**）。
 
 ![REVIEW](assets/fr/06.webp)
 
@@ -95,9 +94,9 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/07.webp)
 
 
-- 为您的更改添加描述性信息（参见 **A**）。
-- 如有必要，可在说明中添加更多背景信息（参见**B**）。
-- 点击 "建议更改 "按钮（参见 **C**）。
+- 为您的更改添加描述性信息（参见 \**A\**）。
+- 如有必要，可在说明中添加更多背景信息（参见\**B\**）。
+- 点击 "建议更改 "按钮（参见 \**C\**）。
 
 ![REVIEW](assets/fr/08.webp)
 
@@ -119,7 +118,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/14.webp)
 
 
-- 选择包含您的进度的分支（参见**A**），找到您的内容文件（参见**B**），然后点击铅笔图标继续审核。
+- 选择包含您的进度的分支（参见\**A\**），找到您的内容文件（参见\**B\**），然后点击铅笔图标继续审核。
 
 ![REVIEW](assets/fr/15.webp)
 
@@ -132,12 +131,23 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 - 然后你就会进入 PR 页面。拉取请求是提交对远程版本库的某个分支所做更改的请求，以供审查并可能合并到主分支中。
-- 为您的 PR 添加标题和简短描述。标题应与您正在处理的问题相符。例如，如果问题的标题是"[TRANSLATION] Course CYP201 - FR"，那么您的 PR 也应使用相同的标题（参见 **A**）。在描述中，使用相关问题的编号，并在前面加上 "关闭"。这将在 PR 合并后自动关闭问题（参见**B**）。
-- 如果一切正常，请单击绿色的 "创建拉动请求 "按钮（参见**C**）。
+- 为您的 PR 添加标题和简短描述。标题应与您正在处理的问题相符。例如，如果问题的标题是"[TRANSLATION] Course CYP201 - FR"，那么您的 PR 也应使用相同的标题（参见 \**A\**）。在描述中，使用相关问题的编号，并在前面加上 "关闭"。这将在 PR 合并后自动关闭问题（参见\**B\**）。
+- 如果一切正常，请单击绿色的 "创建拉动请求 "按钮（参见\**C\**）。
 
 ![REVIEW](assets/fr/11.webp)
 
-## 6.等待审查
+## 6. 校对内容时需遵循的规则
+
+- 在开始新的校对之前，请在 [Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder) 中宣布，或告知您的 Plan ₿ Network 协调员。他们会打开一个 [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)，您可以在其中评论您开始工作。
+- 校对时，始终检查课程/教程的原始英文（或法文）版本非常重要。可以自由进行调整以增强流畅性，但不要改变整体原始含义。
+- LLM 工具可能会逐字翻译与比特币相关的一些词汇，例如 Lightning Network，这在中文中会变成“闪电网络”。在这种情况下，建议使用原始英文单词以提高清晰度，除非您的语言规则要求您翻译每一个单词。
+- 如果您发现引用，请确保在线进行一些研究，以找到您语言中的正确翻译。
+- 请勿 翻译文本开头的静态词汇，这些词用于描述其内容："name", "description", "objectives".
+- 如果您在文本中发现“Plan ₿ Network”，请保持其原始形式。不要翻译“plan”或“network”这两个词。此外，在介绍 Plan ₿ Network 时，请勿使用冠词，并将其视为品牌。对于“₿-CERT”、“BIZ SCHOOL”、“TECH SCHOOL”也是如此，这些词也应保持原始形式。
+- 请注意像 '\*\*\' 这样的奇怪标点，它可能表示粗体符号 ** 的错误渲染。始终检查原始英文文本，以查看是否应该有粗体文本。一般来说，要渲染粗体，请在单词/句子的前后插入两个星号 **。您可以在 [这里](https://www.markdownguide.org/basic-syntax/) 找到有关 markdown 语言的更多信息。
+- 当您完成校对后，可以返回协调员打开的初始 issue，评论“Proofreading done”，并在其中插入您的 PR 链接。
+
+## 7. 等待审核
 
 
 - 恭喜，您的 PR 已提交！您可以在[Plan ₿ Network 的 GitHub 代码库](https://github.com/PlanB-Network/bitcoin-educational-content/pulls)的 "Pull requests "选项卡中跟踪进度：
@@ -145,8 +155,8 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/12.webp)
 
 
-- 非常感谢您的贡献！批准后，Plan ₿ Network 团队成员将与您联系，发送您的奖励。 **付款完全通过闪电网络进行**。
-- 如果你想重新开始，请返回第 2 步，并在 Telegram 群组中发送一条新消息，以继续贡献其他内容。在创建新的工作分支之前，确保同步你的分叉。为此，请访问你的分叉主页，选择名为 "dev "的主分支（参见**A**），然后点击 "同步分叉 "按钮（参见**B**）。如果您的分叉有更新，"更新分支 "按钮就会出现。只需点击该按钮即可执行更新。
+- 非常感谢您的贡献！批准后，Plan ₿ Network 团队成员将与您联系，发送您的奖励。 \**付款完全通过闪电网络进行\**。
+- 如果你想重新开始，请返回第 2 步，并在 Telegram 群组中发送一条新消息，以继续贡献其他内容。在创建新的工作分支之前，确保同步你的分叉。为此，请访问你的分叉主页，选择名为 "dev "的主分支（参见\**A\**），然后点击 "同步分叉 "按钮（参见\**B\**）。如果您的分叉有更新，"更新分支 "按钮就会出现。只需点击该按钮即可执行更新。
 
 ![REVIEW](assets/fr/16.webp)
 

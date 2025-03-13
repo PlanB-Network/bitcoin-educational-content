@@ -1,5 +1,5 @@
 ---
-name: Kontribusi - Ulasan
+name: Pemeriksaan atau Peninjauan konten
 description: Bagaimana cara berpartisipasi dalam peninjauan konten edukasi di Plan ₿ Network?
 ---
 ![github](assets/cover.webp)
@@ -33,14 +33,13 @@ Anda tidak perlu menjadi ahli GitHub untuk meninjau konten. Meskipun akan lebih 
 
 Namun, jika Anda tidak terbiasa dengan Git dan GitHub dan ingin mempelajari lebih lanjut, Anda dapat melihat artikel pengantar kami tentang alat bantu ini:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Membuat akun
 
 
 - Buat akun di [GitHub](https://github.com/) untuk mulai berkontribusi. Jika Anda menginginkan panduan untuk membuat akun GitHub, kami juga memiliki tutorial terperinci:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Anda juga memerlukan akun di aplikasi perpesanan [Telegram](https://telegram.org/).
 
@@ -60,16 +59,16 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ## 3. Tinjau dan edit konten melalui antarmuka GitHub
 
 
-- Edisi ini berisi deskripsi (lih. **A**) dengan tautan ke konten asli dan file untuk ditinjau.
-- Jika Anda ingin bertanggung jawab atas tinjauan, tinggalkan komentar pada masalah tersebut (lih. **B**) untuk menunjukkan bahwa Anda akan mengerjakannya. Hal ini untuk mencegah upaya yang berulang-ulang.
-- Klik tautan di samping file yang akan ditinjau (lih. **C**) untuk mengakses konten.
+- Edisi ini berisi deskripsi (lih. \**A\**) dengan tautan ke konten asli dan file untuk ditinjau.
+- Jika Anda ingin bertanggung jawab atas tinjauan, tinggalkan komentar pada masalah tersebut (lih. \**B\**) untuk menunjukkan bahwa Anda akan mengerjakannya. Hal ini untuk mencegah upaya yang berulang-ulang.
+- Klik tautan di samping file yang akan ditinjau (lih. \**C\**) untuk mengakses konten.
 
 ![REVIEW](assets/fr/03.webp)
 
 
 - Anda sekarang dapat melihat antarmuka GitHub dari file yang akan ditinjau.
-- Panel kiri memungkinkan Anda untuk menavigasi melalui cabang (lih. **A**) dan file (lih. **B**).
-- Klik ikon pensil untuk mulai meninjau (lih. **C**).
+- Panel kiri memungkinkan Anda untuk menavigasi melalui cabang (lih. \**A\**) dan file (lih. \**B\**).
+- Klik ikon pensil untuk mulai meninjau (lih. \**C\**).
 
 ![REVIEW](assets/fr/04.webp)
 
@@ -79,7 +78,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/05.webp)
 
 
-- Anda kemudian akan sampai pada antarmuka Editor (lih. **A**), di mana Anda dapat melihat jalur file dan cabang yang sesuai (lih. **B**) dan beralih di antara mode edit dan pratinjau (lih. **C**).
+- Anda kemudian akan sampai pada antarmuka Editor (lih. \**A\**), di mana Anda dapat melihat jalur file dan cabang yang sesuai (lih. \**B\**) dan beralih di antara mode edit dan pratinjau (lih. \**C\**).
 
 ![REVIEW](assets/fr/06.webp)
 
@@ -95,9 +94,9 @@ NB. Disarankan untuk meninjau di jendela kode, dengan konten asli ditampilkan di
 ![REVIEW](assets/fr/07.webp)
 
 
-- Tambahkan pesan deskriptif untuk perubahan Anda (lih. **A**).
-- Tambahkan lebih banyak konteks dalam deskripsi jika perlu (lih. **B**).
-- Klik tombol "Ajukan perubahan" (lih. **C**).
+- Tambahkan pesan deskriptif untuk perubahan Anda (lih. \**A\**).
+- Tambahkan lebih banyak konteks dalam deskripsi jika perlu (lih. \**B\**).
+- Klik tombol "Ajukan perubahan" (lih. \**C\**).
 
 ![REVIEW](assets/fr/08.webp)
 
@@ -119,7 +118,7 @@ NB. Disarankan untuk meninjau di jendela kode, dengan konten asli ditampilkan di
 ![REVIEW](assets/fr/14.webp)
 
 
-- Pilih cabang yang berisi progres Anda (lih. **A**), cari file konten Anda (lih. **B**), lalu klik ikon pensil untuk melanjutkan peninjauan.
+- Pilih cabang yang berisi progres Anda (lih. \**A\**), cari file konten Anda (lih. \**B\**), lalu klik ikon pensil untuk melanjutkan peninjauan.
 
 ![REVIEW](assets/fr/15.webp)
 
@@ -132,12 +131,23 @@ NB. Disarankan untuk meninjau di jendela kode, dengan konten asli ditampilkan di
 
 
 - Anda kemudian akan tiba di halaman PR. Pull Request adalah permintaan untuk mengirimkan perubahan yang dibuat pada cabang repositori jarak jauh untuk ditinjau dan kemungkinan penggabungan ke cabang utama.
-- Tambahkan judul dan deskripsi singkat untuk PR Anda. Judul harus sesuai dengan masalah yang sedang Anda kerjakan. Sebagai contoh, jika judul masalahnya adalah `[TERJEMAHAN] Kursus CYP201 - FR`, gunakan judul yang sama untuk PR Anda (lih. **A**). Dalam deskripsi, sebutkan masalah terkait dengan menggunakan nomornya, diawali dengan "Closes". Ini akan secara otomatis menutup masalah setelah PR digabungkan (lihat **B**).
-- Jika semuanya terlihat baik, klik tombol hijau "Buat Pull Request" (lih. **C**).
+- Tambahkan judul dan deskripsi singkat untuk PR Anda. Judul harus sesuai dengan masalah yang sedang Anda kerjakan. Sebagai contoh, jika judul masalahnya adalah `[TERJEMAHAN] Kursus CYP201 - FR`, gunakan judul yang sama untuk PR Anda (lih. \**A\**). Dalam deskripsi, sebutkan masalah terkait dengan menggunakan nomornya, diawali dengan "Closes". Ini akan secara otomatis menutup masalah setelah PR digabungkan (lihat \**B\**).
+- Jika semuanya terlihat baik, klik tombol hijau "Buat Pull Request" (lih. \**C\**).
 
 ![REVIEW](assets/fr/11.webp)
 
-## 6. Tunggu untuk ditinjau
+## 6. Aturan yang harus diikuti saat melakukan proofreading konten
+
+- Sebelum memulai proofreading baru, umumkan di [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau beri tahu koordinator Plan ₿ Network Anda. Mereka akan membuka [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), di mana Anda dapat mengomentari bahwa Anda mulai bekerja.
+- Penting untuk selalu memeriksa versi asli dalam bahasa Inggris (atau Prancis) dari kursus/tutorial saat melakukan proofreading. Jangan ragu untuk melakukan penyesuaian untuk meningkatkan kelancaran, tetapi jangan mengubah makna asli secara keseluruhan.
+- Alat LLM mungkin menerjemahkan beberapa kata yang terkait dengan Bitcoin secara harfiah, seperti Lightning Network, yang akan menjadi "Jaringan Petir" dalam bahasa Indonesia. Dalam kasus seperti ini, disarankan untuk menggunakan kata asli dalam bahasa Inggris untuk kejelasan yang lebih baik, kecuali aturan bahasa Anda mengharuskan Anda untuk menerjemahkan setiap kata.
+- Jika Anda menemukan kutipan, pastikan untuk melakukan penelitian online untuk menemukan terjemahan yang tepat dalam bahasa Anda.
+- JANGAN menerjemahkan kata-kata statis di awal teks, yang digunakan untuk menggambarkan isinya: "name", "description", "objectives".
+- Jika Anda menemukan "Plan ₿ Network" dalam teks, biarkan dalam bentuk aslinya. Jangan terjemahkan kata "plan" atau kata "network". Selain itu, JANGAN gunakan artikel saat memperkenalkan Plan ₿ Network, dan anggap itu sebagai merek. Hal yang sama berlaku untuk "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", yang juga harus tetap dalam bentuk aslinya.
+- Perhatikan tanda baca aneh seperti '\*\*\', yang mungkin mewakili rendering yang buruk dari simbol tebal **. Selalu periksa teks asli dalam bahasa Inggris untuk melihat apakah ada teks tebal yang seharusnya ada. Secara umum, untuk merender teks tebal, silakan masukkan dua asterisk ** baik sebelum maupun setelah kata/kalimat. Anda dapat menemukan informasi lebih lanjut tentang bahasa markdown [di sini](https://www.markdownguide.org/basic-syntax/).
+- Setelah Anda menyelesaikan proofreading, Anda dapat kembali ke issue awal yang dibuka oleh koordinator, mengomentari "Proofreading done" dan menyisipkan tautan PR Anda di sana.
+
+## 7. Tunggu ulasan
 
 
 - Selamat, PR Anda telah diajukan! Anda dapat melacak perkembangannya di tab "Pull request" di [Repositori GitHub Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
@@ -145,8 +155,8 @@ NB. Disarankan untuk meninjau di jendela kode, dengan konten asli ditampilkan di
 ![REVIEW](assets/fr/12.webp)
 
 
-- Terima kasih banyak atas kontribusi Anda! Setelah disetujui, anggota tim Plan ₿ Network akan menghubungi Anda untuk mengirimkan hadiah. **Pembayaran dilakukan secara eksklusif melalui Lightning Network**.
-- Jika Anda ingin memulai lagi, kembali ke langkah 2 dan kirim pesan baru di grup Telegram untuk terus berkontribusi pada konten lainnya. Pastikan untuk menyinkronkan fork Anda sebelum membuat cabang baru yang berfungsi. Untuk melakukan ini, masuk ke beranda fork Anda, pilih cabang utama bernama `dev` (lih. **A**), lalu klik tombol "Sinkronisasi fork" (lih. **B**). Jika pembaruan tersedia untuk fork Anda, tombol "Perbarui cabang" akan muncul. Cukup klik untuk melakukan pembaruan.
+- Terima kasih banyak atas kontribusi Anda! Setelah disetujui, anggota tim Plan ₿ Network akan menghubungi Anda untuk mengirimkan hadiah. \**Pembayaran dilakukan secara eksklusif melalui Lightning Network\**.
+- Jika Anda ingin memulai lagi, kembali ke langkah 2 dan kirim pesan baru di grup Telegram untuk terus berkontribusi pada konten lainnya. Pastikan untuk menyinkronkan fork Anda sebelum membuat cabang baru yang berfungsi. Untuk melakukan ini, masuk ke beranda fork Anda, pilih cabang utama bernama `dev` (lih. \**A\**), lalu klik tombol "Sinkronisasi fork" (lih. \**B\**). Jika pembaruan tersedia untuk fork Anda, tombol "Perbarui cabang" akan muncul. Cukup klik untuk melakukan pembaruan.
 
 ![REVIEW](assets/fr/16.webp)
 

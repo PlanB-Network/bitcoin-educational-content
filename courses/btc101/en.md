@@ -1012,11 +1012,11 @@ Although the btc/dollar pair fluctuates in the short term, bitcoin, due to its l
 
 ### A unique market
 
-These cycles of speculative bubbles are quite unique in the world, s it is rare for a single asset to experience such a series of bubbles in succession. This phenomenon can be attributed to the fact that Bitcoin is not merely a bubble destined to burst. Rather, it functions as a currency that is actively used around the globe. The Bitcoin protocol stands out for its ability to operate on a global scale, 24/7, which poses significant challenges for financial authorities attempting to regulate it.
+These cycles of speculative bubbles are quite unique in the world, as it is rare for a single asset to experience such a series of bubbles in succession. This phenomenon can be attributed to the fact that Bitcoin is not merely a bubble destined to burst. Rather, it functions as a currency that is actively used around the globe. The Bitcoin protocol stands out for its ability to operate on a global scale, 24/7, which poses significant challenges for financial authorities attempting to regulate it.
 
 ![image](assets/en/70.webp)
 
-Today, Bitcoin continues to survive and grow even more by being integrated more and more into the traditional market, and the introduction of Bitcoin ETFs, clearer regulations, and improved tools for acquisition and storage are all contributing to this positive momentum. Bitcoin has ONCE AGAIN survived its speculative bubble, so maybe it's not ajust hot air after all!
+Today, Bitcoin continues to survive and grow even more by being integrated more and more into the traditional market, and the introduction of Bitcoin ETFs, clearer regulations, and improved tools for acquisition and storage are all contributing to this positive momentum. Bitcoin has ONCE AGAIN survived its speculative bubble, so maybe it's not just hot air after all!
 
 ![image](assets/en/71.webp)
 
@@ -1036,7 +1036,7 @@ In addition, an open-source and collaborative project has been launched, [BTCMap
 
 ### Why should we accept Bitcoin instead of buying it?
 
-To obtain bitcoins, you can buy them on platforms regulated by organizations such as the AMF (Autorité des Marchés Financiers) in France, or the Securities & Exchange Commission (SEC) in Usa, but this solution entails the traceability of your transactions. Another method to obtain bitcoins is to accept them as a means of payment for the products or services you offer, so you can acquire bitcoins through your work without constantly worrying about the price of Bitcoin.
+To obtain bitcoins, you can buy them on platforms regulated by organizations such as the AMF (Autorité des Marchés Financiers) in France, or the Securities & Exchange Commission (SEC) in the U.S.A., but this solution entails the traceability of your transactions. Another method to obtain bitcoins is to accept them as a means of payment for the products or services you offer, so you can acquire bitcoins through your work without constantly worrying about the price of Bitcoin.
 
 Furthermore, accepting Bitcoin as a merchant has several advantages, including censorship resistance, reduced transaction fees, increased efficiency, protection against inflation, as well as financial freedom and sovereignty.
 
@@ -1056,7 +1056,7 @@ https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8
 
 https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-- Solution for large structures or passionate bitcoiners: BTCpay Server
+- Solution for large organizations or passionate bitcoiners: BTCpay Server
 
 ## Saving with Bitcoin
 
@@ -1093,17 +1093,19 @@ In concrete terms, there are two questions to ask yourself:
 
 - Dollar Cost Average
 
-A gradual strategy involves recurring purchases, meaning buying small amounts of Bitcoin at regular intervals. This method smooths out the price over time and provides continuous growth in the amount of bitcoin owned. It is an ideal solution for long-term savings, and alleviates the concerns about Bitcoin's price volatility. Once set up, you can simply forget about it and watch your investment grow.
+This gradual strategy involves recurring purchases, meaning buying small amounts of Bitcoin at regular intervals. This method smooths out the price over time and provides continuous growth in the amount of bitcoin owned. It is an ideal solution for long-term savings, and alleviates the concerns about Bitcoin's price volatility. Once set up, you can simply forget about it and watch your investment grow.
 
 ![image](assets/en/74.webp)
 
-**Beware of UTXOs**: Remember to consolidate your UTXOs in your wallets from time to time. This practice is essential for effectively managing your bitcoins and avoiding unnecessary fees during transactions.
+**Beware of UTXOs**: UTXOs, or "Unspent Transaction Outputs," are the building blocks of Bitcoin transactions. Simply put, UTXOs are the leftover bits of bitcoin from previous transactions that haven’t been spent yet. Think of them like coins or bills in your wallet — you can only spend what you have.
+
+Remember to consolidate your UTXOs in your wallets from time to time. This practice is essential for effectively managing your bitcoins and avoiding unnecessary fees during transactions.
 
 - Spontaneous purchase
 
 An all-at-once solution could be a spontaneous purchase, which is used to immediately gain exposure to bitcoin. Whether it's buying during a crash or taking advantage of a bonus, the decision is yours. You will need to muster up your courage and press the buy-button.
 
-In this case, you should be careful and control your emotions, as the price of bitcoin can be quite volative. In fact, FOMO (Fear of Missing Out) and FUD (Fear, Uncertainty, Doubt) are your worst enemies! Remember to stay calm and follow the strategy you have established in advance, to avoid impulsive and potentially harmful decision-making.
+In this case, you should be careful and control your emotions, as the price of bitcoin can be quite volatile. In fact, FOMO (Fear of Missing Out) and FUD (Fear, Uncertainty, Doubt) are your worst enemies! Remember to stay calm and follow the strategy you have established in advance, to avoid impulsive and potentially harmful decision-making.
 
 ### Who should we buy our bitcoin from?
 
@@ -1121,7 +1123,7 @@ For large-scale investments, regulated and recognized platforms such as Kraken, 
 
 Their use is simple and accessible to everyone:
 
-1. Set up a KYC/\* account
+1. Set up a KYC account
 2. Transfer funds to your account
 3. Purchase bitcoin
 4. Withdraw bitcoin to your wallet
@@ -1136,7 +1138,7 @@ It is essential to recognize that KYC is a significant topic of discussion in th
 
 ### Non-KYC solutions
 
-In addition, there are several [marketplaces](https://planb.network/tutorials/exchange) where to buy and sell bitcoins in a peer-to-peer exchange. In general, you mau consider the following:
+In addition, there are several [marketplaces](https://planb.network/tutorials/exchange) where to buy and sell bitcoins in a peer-to-peer exchange. In general, you may consider the following:
 
 - Bitcoin ATMs
 - Physical meetings with other bitcoin enthusiasts

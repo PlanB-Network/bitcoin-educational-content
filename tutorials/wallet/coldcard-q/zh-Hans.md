@@ -81,7 +81,7 @@ COLDCARD Q 可在 [Coinkite 官方网站](https://store.coinkite.com/store/coldc
 
 在本教程中，你还需要 Sparrow Wallet 来管理你电脑上的比特币钱包。从官方网站下载 [Sparrow Wallet](https://sparrowwallet.com/download/)。我强烈建议你在安装前检查其真实性（使用 GnuPG）和完整性（通过哈希值）。如果不知道如何操作，请参考本教程：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## 选择 PIN 码
 
@@ -161,7 +161,7 @@ COLDCARD PIN 码分为两个部分：前缀和后缀，每个前缀和后缀可�
 
 如果您不熟悉这个验证过程，我建议您参考本教程：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 使用 microSD 卡并将固件文件（文件名为".dfu"）传输到该卡中。将 microSD 卡插入 COLDCARD 的一个端口。
 

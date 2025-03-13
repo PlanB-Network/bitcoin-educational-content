@@ -63,7 +63,7 @@ Külastage ametlikku Wizardsardine'i veebisaiti ja laadige Liana alla aadressil 
 
 Selleks, et teada saada, kuidas käsitsi kontrollida tarkvara autentsust ja terviklikkust enne installimist, soovitame tutvuda selle õpetusega :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Paigaldage tarkvara oma masinasse ja käivitage see. Valige oma rahakoti konfigureerimiseks valik "*Loo uus Liana rahakott*".
 

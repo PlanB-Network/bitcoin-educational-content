@@ -372,4 +372,4 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen sehr dankbar, wenn Si
 
 Ich empfehle auch diesen anderen Lehrgang, in dem ich erkläre, wie man das von der LNP/BP-Vereinigung entwickelte RGB-CLI-Tool zur Erstellung eines RGB-Vertrags verwendet:
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

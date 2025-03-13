@@ -19,7 +19,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - lugaxker
-    reward: 2.58
+    reward: 3.84
 
 
   - language: cs
@@ -32,13 +32,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5.15
+    reward: 7.68
 
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5.15
+    reward: 7.68
 
   - language: es
     last_contribution_date:
@@ -86,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5.15
+    reward: 7.68
 
   - language: ru
     last_contribution_date:

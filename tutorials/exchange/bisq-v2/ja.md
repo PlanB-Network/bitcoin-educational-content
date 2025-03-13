@@ -86,7 +86,7 @@ Bisq 2は、2024年に開始された人気の分散型取引所Bisqの新バー
 - お使いのオペレーティングシステムに対応するBisq 2バージョンをダウンロードする（ページをスクロールダウンする）
 - ダウンロードしたファイルの真正性を確認する（強く推奨）。署名検証の詳細については、以下のチュートリアルを参照してください：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2.お客様のシステムに合わせたインストール
 

@@ -81,7 +81,7 @@ COLDCARDをコンピュータに接続せずに給電したい場合は（エア
 
 このチュートリアルでは、パソコンでビットコインウォレットを管理するためのSparrow Walletも必要です。公式サイトから[Sparrow Wallet](https://sparrowwallet.com/download/)をダウンロードしてください。インストールを進める前に、その真正性（GnuPGを使用）と完全性（ハッシュを使用）の両方を確認することを強くお勧めします。この方法がわからない場合は、こちらのチュートリアルを参照してください：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## PINコード選択
 
@@ -161,7 +161,7 @@ COLDCARD公式ウェブサイト](https://coldcard.com/downloads)で、新しい
 
 この検証プロセスに慣れていない場合は、このチュートリアルに従うことをお勧めする：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 microSD カードを用意し、ファームウェアファイル（ドキュメント `.dfu`）を転送します。microSD カードを COLDCARD のポートに挿入します。
 

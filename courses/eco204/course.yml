@@ -24,12 +24,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 20.73
+    reward: 31.05
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 20.73
+    reward: 31.05
   - language: es
     last_contribution_date:
     urgency: 1
@@ -45,7 +45,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - elDaz2
-    reward: 10.37
+    reward: 15.52
   - language: it
     last_contribution_date:
     urgency: 1
@@ -60,7 +60,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 20.73
+    reward: 31.05
   - language: ru
     last_contribution_date: 2024-09-09
     urgency: 1

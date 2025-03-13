@@ -10,7 +10,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - NetworkEffect
-    reward: 0.09
+    reward: 0.1
 
   - language: cs
     last_contribution_date:
@@ -22,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.17
+    reward: 0.21
 
   - language: es
     last_contribution_date:
@@ -46,7 +46,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.17
+    reward: 0.21
 
   - language: id
     last_contribution_date:
@@ -76,7 +76,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.17
+    reward: 0.21
 
   - language: ru
     last_contribution_date:

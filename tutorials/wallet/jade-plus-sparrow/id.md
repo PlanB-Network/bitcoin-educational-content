@@ -334,7 +334,7 @@ Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi] (
 
 Pastikan untuk memeriksa keaslian dan integritas perangkat lunak sebelum instalasi. Jika Anda tidak tahu cara melakukannya, silakan baca tutorial ini:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Setelah Sparrow Wallet terbuka, klik tab "*File*", lalu "*Dompet Baru*".
 

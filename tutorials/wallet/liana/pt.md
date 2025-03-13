@@ -63,7 +63,7 @@ Visite o sítio Web oficial da Wizardsardine e transfira o Liana em https://wiza
 
 Para saber como verificar manualmente a autenticidade e a integridade do software antes da instalação, recomendamos que consulte este tutorial :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Instale o software na sua máquina e inicie-o. Escolha a opção "*Criar uma nova carteira Liana*" para configurar a sua carteira.
 

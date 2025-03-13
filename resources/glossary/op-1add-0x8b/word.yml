@@ -13,7 +13,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - LoicPandul
-    reward: 0.05
+    reward: 0.06
 
   - language: cs
     last_contribution_date:

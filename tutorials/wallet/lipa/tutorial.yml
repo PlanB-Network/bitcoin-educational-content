@@ -18,7 +18,7 @@ proofreading:
     urgency: 1
     contributors_id:
       - Pivii
-    reward: 0.4
+    reward: 0.58
 
   - language: cs
     last_contribution_date:
@@ -30,13 +30,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.81
+    reward: 1.16
 
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.81
+    reward: 1.16
 
   - language: es
     last_contribution_date:
@@ -84,7 +84,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 0.81
+    reward: 1.16
 
   - language: ru
     last_contribution_date:

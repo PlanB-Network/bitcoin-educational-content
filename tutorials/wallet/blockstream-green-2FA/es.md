@@ -148,7 +148,7 @@ Haga clic en el botón verde "*Aumente la seguridad de su cuenta añadiendo la 2
 
 Entonces podrás elegir el método de autenticación para acceder a la segunda clave de tu multisig 2/2. Para este tutorial, utilizaremos una aplicación de autenticación. Si no estás familiarizado con este tipo de aplicación, te recomiendo que consultes nuestro tutorial sobre Authy :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Seleccione "*Aplicación autenticadora*".
 

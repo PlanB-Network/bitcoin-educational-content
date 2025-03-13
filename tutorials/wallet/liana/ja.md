@@ -63,7 +63,7 @@ Wizardsardineの公式サイトにアクセスし、https://wizardsardine.com/li
 
 インストール前にソフトウェアの信頼性と完全性を手動で確認する方法については、このチュートリアルを参照することをお勧めします：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ソフトウェアをマシンにインストールし、起動します。Create a new Liana wallet*"オプションを選択し、ウォレットを設定します。
 

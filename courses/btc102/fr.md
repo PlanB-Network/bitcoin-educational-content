@@ -71,132 +71,136 @@ Bonne chance dans votre parcours !
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Nous sommes dans une industrie ou deux branches principales émergent dans le secteur des "cryptomonnaies" :
-
-1. L'industrie du Bitcoin, centrée sur une monnaie saine à travers un protocole décentralisé de transfert de valeur (Bitcoin). Elle valorise la vie privée et la souveraineté individuelle, et construit progressivement des projets à long terme avec un haut niveau de résilience et de sécurité.
-
-2. L'industrie globale des cryptomonnaies, orientée vers la fintech, la "blockchain", et d'autres innovations centralisées. Elle évolue rapidement et tente de se positionner comme la nouvelle tendance.
-
-L'intégralité de cette université est porté sur l'univers Bitcoin et non crypto.
+L’écosystème Bitcoin et son environnement restent relativement jeunes et faiblement régulés en fonction des pays. Si cette liberté offre d’immenses possibilités, elle constitue aussi un terrain fertile pour les fraudes financières, les escroqueries et toutes sortes de manipulations. C'est précisément pour cette raison que ce premier chapitre est important : connaître les pièges typiques permet de mieux s’en protéger. Votre sécurité financière est une priorité, car une mauvaise expérience nuit non seulement à vous, mais également à la réputation de toute la communauté Bitcoin.
 
 ![Arnaque et fraude financière](https://youtu.be/LeyI3CBw2g4)
 
-Le domaine des cryptomonnaies, dont le Bitcoin, reste relativement jeune et légèrement régulé. Il est ainsi riche en escroqueries diverses. La compréhension des dangers et la reconnaissance des pièges typiques sont essentielles. Voici quelques situations d'escroquerie fréquemment rencontrées :
+### Bitcoin vs. cryptos : comprendre les différences
 
-- Dons & Loteries en ligne
-- Pyramide de Ponzi
-- Pump & Dump
-- Groupes et Influenceurs Shitcoin
-- Déviation / Hard Fork
-- Hack
-- Fausse rançon
-- Arnaque au mot de passe
-- Capture de carte SIM
+Avant d’aller plus loin, il est important de distinguer clairement deux univers distincts :
 
-![arnaque](assets/prerequis/6.webp)
+- **L’industrie Bitcoin**, axée sur une monnaie saine, une décentralisation forte, la résilience, la vie privée et la souveraineté individuelle. Le protocole Bitcoin est développé avec une approche à long terme et représente une valeur stable, existante depuis 2009, et bénéficiant du travail sérieux d’une large communauté de développeurs.
 
-Dans le domaine de l'investissement financier, les systèmes de vente pyramidale et de Ponzi se distinguent comme des modèles illégaux. Ils fonctionnent en utilisant l'argent des nouveaux investisseurs pour rémunérer les anciens participants. Cependant, leur caractère non durable et leur dépendance à l'égard des nouveaux arrivants pour maintenir le système en marche les rendent susceptibles de s'effondrer inévitablement.
+- **L’industrie des cryptomonnaies**, beaucoup plus vaste, qui inclut des dizaines de milliers de projets différents, chacun avec son token. Cette industrie est davantage orientée vers l’innovation rapide, les effets de mode et la spéculation financière à court terme. Les projets y sont souvent centralisés, peu sécurisés, et beaucoup n’apportent aucune valeur réelle, malgré leur marketing agressif.
 
-![piramide de ponzi](assets/prerequis/7.webp)
+001
 
-Ces systèmes sont souvent caractérisés par des éléments douteux tels que l'absence de valeur intrinsèque, des promesses de rendements irréalistes, et des tactiques de marketing qui encouragent les recommandations pour attirer de nouveaux investisseurs. Des délais de retrait incompressibles et l'utilisation de faux profils sur les réseaux sociaux pour la promotion sont également des signes révélateurs de ces arnaques. Étant donné leur nature illégale et immorale et le risque financier qu'elles représentent, il est essentiel de les éviter.
+Si vous souhaitez en savoir plus sur les origines de Bitcoin et sur ce qui distingue profondément ce protocole des autres, je vous recommande de suivre ultérieurement cette autre formation gratuite de deuxième année sur l'histoire de Bitcoin :
 
-Finalement, ces systèmes sont condamnés à l'échec. Au fil du temps, l'exigence d'un nombre croissant de nouveaux participants pour maintenir le système en place devient insurmontable. Lorsque ce point est atteint, l'illusion se dissipe, le système s'effondre, et les investisseurs se retrouvent souvent sans moyen de récupérer leur investissement.
+https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Les systèmes Ponzi peuvent se manifester de diverses façons. Parfois, ils sont masqués sous la forme de nouvelles offres de tokens ou d'Initial Coin Offerings (ICO), de combinaisons de contrats intelligents, de tentatives de monopolisation de la monnaie fiduciaire, ou même de programmes de marketing sans produit réel. Cependant, une enquête approfondie et une vérification diligente révèlent que ces systèmes ne créent aucune valeur réelle. Ils redistribuent simplement l'argent des nouveaux arrivants pour payer les anciens participants.
+Comme vous le savez, la plateforme Plan ₿ Network est exclusivement dédiée à Bitcoin. Cependant, comprendre la distinction avec les autres cryptomonnaies vous permettra de mieux éviter les pièges liés aux projets inutiles, voire parfois frauduleux.
 
-Récemment, le monde des cryptomonnaies a connu une vague de projets liés à la Finance Décentralisée (DeFi) qui méritent une attention particulière. Certains de ces projets peuvent recourir à une combinaison de crypto-monnaies de faible qualité, de contrats intelligents et de systèmes de taux d'intérêt pour proposer des solutions financières prétendument miraculeuses. Il est essentiel de faire preuve de prudence et de diligence raisonnable face à ces offres qui sont extremement scammy.
+002
 
-Il convient de souligner que le contenu de ce cours est destiné à des fins purement éducatives et ne doit pas être interprété comme un conseil financier. L'exhortation à "ne pas faire confiance, mais vérifier" reste une ligne directrice importante. Il est essentiel que chacun mène ses propres recherches et prenne des décisions financières éclairées.
+### Les principales escroqueries à éviter
 
-Le Pump and Dump (P&D) est une forme notoire de manipulation financière qui peut causer des perturbations importantes sur les marchés. Elle se caractérise par une attaque coordonnée visant à provoquer une augmentation artificielle du prix d'un actif par le biais de divers mécanismes, comme le marketing agressif, l'utilisation d'algorithmes ou de l'intelligence artificielle. L'objectif est de vendre ensuite ces actifs surévalués pour réaliser un profit.
+Voici les arnaques les plus courantes que vous rencontrerez dans votre parcours :
 
-![Pump and dump](assets/prerequis/8.webp)
+#### Systèmes pyramidaux et Ponzi
 
-La stratégie de Pump and Dump suit généralement un schéma bien défini :
+Les pyramides financières et les systèmes de Ponzi figurent parmi les escroqueries les plus fréquentes dans l’écosystème crypto. Dans un système de Ponzi, les premiers investisseurs sont rémunérés avec l'argent des nouveaux entrants. Aucun produit ou valeur réelle n'est créé. La viabilité du système dépend uniquement de l’arrivée constante de nouveaux participants.
 
-1. Un leader d'opinion ou un groupe d'investisseurs achète d'abord un grand nombre d'actions ou d'autres actifs ciblés.
-2. Ils créent ensuite un engouement autour de ces actifs et diffusent des informations exagérées ou trompeuses pour attirer d'autres investisseurs.
-3. Ce battage médiatique déclenche un FOMO (Fear Of Missing Out), une peur de manquer une opportunité, chez les investisseurs humains et les bots d'investissement, qui commencent à acheter massivement ces actifs.
-4. Une fois que le prix a suffisamment augmenté, les leaders vendent leurs actifs en masse, réalisant ainsi un profit considérable.
-5. La vente massive entraîne une chute abrupte du prix de l'actif, laissant de nombreux investisseurs avec des pertes substantielles.
+003
 
-Il est essentiel de comprendre que la participation à de telles stratégies est illégale et peut entraîner des poursuites pour manipulation de marché. De plus, ces stratégies sont souvent orchestrées par des groupes d'influence qui demandent des frais d'adhésion. Bien que certains participants puissent réaliser des gains à court terme, les stratégies de Pump and Dump sont généralement non rentables à long terme.
-Il est donc recommandé de se concentrer sur l'éducation financière et l'investissement responsable, plutôt que de se laisser séduire par de telles tactiques manipulatrices. L'acquisition de connaissances solides et l'adoption d'une approche à long terme sont des clés essentielles pour réussir dans le monde de l'investissement.
+Ces arnaques présentent généralement :
+- Des promesses de rendements garantis irréalistes (par exemple : 20% de rendement garanti) ;
+- Des délais ou des difficultés pour retirer vos fonds investis ;
+- Des incitations fortes à parrainer de nouveaux membres pour maintenir le système en vie ;
+- Un manque total de transparence sur la source réelle du rendement promis.
 
-Les arnaques liées à des concours ou des donations en ligne sont tres courants dans le secteur crypto. Les publicités qui promettent des bitcoins gratuits sont souvent utilisées pour tromper les utilisateurs inexpérimentés. Des principes clés à garder à l'esprit sont de ne jamais envoyer de bitcoins avec l'attente d'en recevoir en retour et de se méfier des promesses de rendements irréalistes. Il est essentiel de ne pas faire confiance aveuglément, surtout lorsqu'il s'agit d'une bannière sur internet.
+Finalement, tous les systèmes pyramidaux et de Ponzi sont par essence condamnés à l’échec. Leur faiblesse fondamentale réside dans le besoin permanent d'attirer de nouveaux investisseurs afin de rémunérer les anciens participants. Or, cette nécessité finit par devenir mathématiquement impossible à satisfaire, car le nombre de nouveaux entrants exigés augmente exponentiellement au fur et à mesure que le système grandit. Lorsque ce seuil critique est atteint, les participants commencent à douter, la confiance disparaît rapidement, et l'ensemble de la pyramide financière s'effondre brusquement. À ce stade, les derniers arrivants, souvent les moins informés, perdent la totalité de leur investissement sans aucun recours possible, tandis que les organisateurs ou les premiers investisseurs ont généralement déjà récupéré leurs fonds et quitté le système.
 
-Un exemple classique de ce type d'arnaque est l'offre qui prétend doubler ou multiplier de façon démesurée les bitcoins que vous envoyez. Il est important de comprendre qu'il n'existe pas de solution magique pour devenir riche instantanément.
+Dans l'univers des cryptomonnaies, ces systèmes Ponzi  peuvent prendre des formes très variées, conçues spécialement pour masquer leur fonctionnement frauduleux derrière un voile technologique ou financier. Ils peuvent ainsi apparaître sous la forme de nouvelles offres de tokens ou d’*Initial Coin Offerings* (ICO), c’est-à-dire des opérations de levée de fonds via la vente publique d'une nouvelle cryptomonnaie. Derrière des termes techniques comme "blockchain", "contrats intelligents", ou "staking", certains projets cachent en réalité des schémas pyramidaux complexes. D’autres encore prétendent offrir des rendements élevés en combinant crypto-actifs douteux et systèmes de rémunération basés exclusivement sur l'arrivée continue de nouveaux investisseurs.
 
-![arnaque à la donation](assets/prerequis/9.webp)
+Plus récemment, les escroqueries de type Ponzi se sont également étendues à la Finance Décentralisée (DeFi). La DeFi, censée permettre des services financiers sans intermédiaires, est parfois utilisée pour donner une apparence légitime à ces arnaques. Certains projets DeFi promettent ainsi des rendements très élevés et garantis en échange de dépôts de cryptomonnaies sur des protocoles automatisés. Ces promesses attractives sont souvent justifiées par des mécanismes opaques et non vérifiables, avec des jetons spécifiquement créés pour l’occasion. En réalité, ces systèmes n’ont pas de modèle économique viable : les intérêts versés proviennent uniquement des fonds apportés par les nouveaux utilisateurs, exactement comme dans un Ponzi traditionnel. Lorsque la confiance s’érode ou lorsque l’afflux de nouveaux entrants ralentit, ces systèmes s’effondrent inévitablement, entraînant des pertes considérables pour les investisseurs naïfs.
 
-Une autre tactique couramment utilisée est le don de "shitcoins", ou crypto-monnaies de faible valeur. Certains projets de crypto-monnaies centralisées feront beaucoup de marketing et offriront des jetons gratuits en guise de cadeau. Il faut être très prudent face à ces offres, car soit le jeton a une valeur nulle, soit le cadeau sert simplement à attirer l'attention et à promouvoir le trading, le jeu et d'autres arnaques. Même si ces offres ne sont pas toujours frauduleuses, illégales ou trompeuses, la vigilance reste de mise.
+Il convient de souligner que le contenu de ce cours est destiné à des fins purement éducatives et ne doit pas être interprété comme un conseil financier. Votre sécurité financière dépend de votre capacité à rester prudent, sceptique et informé dans chacune de vos décisions financières.
 
-Sur Twitter, par exemple, des bots peuvent se faire passer pour des personnalités célèbres et proposer des offres incroyables pour tromper les gens. Ces comptes utilisent le même nom et les mêmes photos de profil que la personnalité en question, et peuvent ainsi tromper les utilisateurs moins avertis. Assurez-vous toujours de vérifier la légitimité du compte avant d'interagir avec lui.
+La meilleure protection est de toujours poser cette question simple : **D’où vient réellement le rendement promis ?** Si la réponse est floue, fuyez immédiatement.
 
-Il est également important de faire attention aux liens envoyés par email. Vérifiez toujours le lien avant de cliquer dessus et prêtez attention à l'identité de l'expéditeur.
+#### Le Pump & Dump
 
-Enfin, voici quelques conseils pour éviter les arnaques en ligne :
+Cette autre escroquerie consiste à manipuler artificiellement le prix d’un actif (souvent un token de cryptomonnaie peu liquide) à travers une campagne marketing coordonnée, généralement orchestrée par un groupe d’investisseurs. Le mécanisme typique d’un Pump & Dump est le suivant :
+- Un leader d'opinion ou un groupe d'investisseurs accumule d'abord un grand nombre d'actions ou d'autres actifs ciblés ;
+- Ils lancent ensuite une campagne de communication agressive pour provoquer une hausse rapide du prix ;
+- Le public, animé par le "FOMO" (*Fear Of Missing Out*), achète massivement l’actif, faisant grimper encore davantage son prix ;
+- Au pic de la manipulation, les initiateurs vendent brutalement leurs actifs en masse, ce qui provoque l’effondrement du prix ;
+- Les investisseurs attirés par la manipulation subissent d’importantes pertes financières.
 
-- Les personnes honnêtes ne vous demanderont jamais d'envoyer de l'argent directement.
-- N'envoyez jamais de bitcoins à une adresse inconnue.
-- Les promesses de rendements irréalistes sont toujours suspectes.
-- Il y a de fortes chances que les concours soient truqués.
+004
+
+Il est important de rappeler que les stratégies de Pump & Dump sont totalement illégales et considérées comme une manipulation des marchés financiers dans de nombreux pays. Mais malgré leur caractère frauduleux, ces techniques continuent de proliférer, notamment au sein de l'univers des cryptomonnaies. Je vous conseille donc d'éviter les groupes de "signaux" privés sur Telegram, Discord ou d'autres réseaux sociaux, souvent dirigés par des influenceurs ou des pseudo-experts qui exigent même parfois des frais d’adhésion pour y accéder. Ces groupes créent l’illusion de fournir des opportunités financières exclusives, mais la réalité est que seuls les organisateurs gagnent véritablement, tandis que les participants finissent généralement par perdre leur argent.
+
+Il est vrai que certains participants peuvent temporairement tirer profit de ces manipulations, mais ce succès éphémère repose avant tout sur la chance et le timing. Sur le long terme, ces pratiques ne sont pas rentables, car elles nécessitent une prise de risque permanente et une participation répétée à des schémas frauduleux qui finissent toujours par échouer. Ces pratiques entretiennent une illusion dangereuse : celle qu'il est possible de gagner rapidement et facilement beaucoup d’argent sans comprendre les mécanismes financiers réels.
+
+Pour toutes ces raisons, la meilleure stratégie reste toujours de privilégier une approche d’investissement sérieuse, basée sur l’éducation financière, la compréhension des fondamentaux et une vision de long terme. En construisant patiemment vos connaissances, vous serez beaucoup moins sensible aux manipulations émotionnelles et aux promesses irréalistes, et bien mieux préparé pour éviter ces pièges financiers destructeurs.
+
+#### Arnaques aux dons, loteries et fausses promotions
+
+Cette arnaque consiste à promettre des bitcoins ou d’autres récompenses gratuites contre l’envoi préalable d’argent. Aucun individu ou entreprise sérieuse ne vous demandera d’envoyer des bitcoins pour vous en renvoyer davantage.
+
+Des escrocs utilisent régulièrement l’identité de personnalités connues (comme Elon Musk ou d’autres célébrités) pour attirer leurs victimes sur les réseaux sociaux. Vérifiez toujours soigneusement les comptes et les sites internet avant d’interagir, et ne croyez jamais les promesses trop généreuses.
+
+Parfois, ces escroqueries peuvent également prendre la forme d'une arnaque aux frais avancés. Cela consiste à vous promettre un gain ou un cadeau (argent, produit, service...), mais à exiger d'abord un paiement sous prétexte de couvrir des frais (livraison, taxes, frais de transaction...). Une fois le paiement effectué, l'escroc disparaît sans jamais envoyer ce qui était promis au départ.
+
+005
+
+#### Shitcoins et fausses cryptomonnaies offertes
+
+Des projets de crypto-monnaies centralisés offrent parfois des jetons gratuits ("*airdrops*") pour attirer les utilisateurs. Ces jetons n’ont généralement aucune valeur réelle et servent uniquement à créer une illusion de popularité ou à encourager la spéculation. Soyez extrêmement prudent face à ces offres promotionnelles.
+
+#### Usurpation d’identité et phishing
+
+Les attaquants emploient fréquemment des faux sites, faux comptes ou e-mails trompeurs pour tenter de dérober vos fonds. Ces tentatives de fraude peuvent provenir de tout moyen de communication : email, réseaux sociaux, téléphone, courrier postal...
+
+Avant de cliquer sur un lien ou de prendre une quelconque action, assurez-vous toujours de vérifier l’identité exacte de l’expéditeur, ou préférez accéder au site manuellement, sans utiliser le lien fourni. De manière plus générale, ne divulguez jamais vos clés privées ou vos mots de passe à quiconque.
+
+#### Les hardforks de Bitcoin
+
+Bitcoin a subi plusieurs *hardforks* au fil du temps, donnant naissance à des versions alternatives de la monnaie originale. Concrètement, un *hardforks* correspond à une scission du réseau en deux blockchains distinctes partageant un historique commun jusqu'au moment de la séparation. Ces divisions surviennent généralement lorsqu'une partie des développeurs ou de la communauté Bitcoin souhaite apporter des modifications radicales au protocole original, mais n'obtient pas un consensus suffisant. Incapables de convaincre la majorité, ils choisissent alors de créer une version alternative de Bitcoin, avec des règles modifiées, en espérant que la communauté les suive.
+
+006
+
+Certains *hardforks* ne sont pas directement des arnaques, car ils reposent simplement sur des désaccords techniques ou idéologiques au sein de la communauté, mais d'autres sont essentiellement motivés par des raisons commerciales, voire malhonnêtes. Les exemples les plus connus de ces hardforks sont **Bitcoin Cash (BCH)** et **Bitcoin Satoshi Vision (BSV)**. Apparues respectivement en 2017 et 2018, ces monnaies alternatives prétendent souvent être de meilleures versions du Bitcoin original en mettant en avant des avantages supposés, tels que des frais de transactions moins élevés ou des transactions plus rapides grâce à une taille de blocs augmentée. En réalité, ces modifications techniques comportent des compromis importants en matière de sécurité, de décentralisation et de robustesse, qui peuvent venir en contradiction avec les principes fondateurs de Bitcoin.
+
+Au-delà des différences techniques, ces monnaies alternatives jouent souvent sur la confusion pour attirer des investisseurs peu informés. Ils peuvent parfois utiliser des outils marketing afin d’induire volontairement en erreur des novices pensant acheter du véritable Bitcoin (BTC).
+
+Pour éviter de tomber dans ce genre de piège, vérifiez toujours la monnaie que vous achetez. Le Bitcoin original utilise le ticker **BTC**, tandis que Bitcoin Cash et ses dérivés utilisent des acronymes distincts (par exemple BCH ou BSV).
+
+#### Influenceurs malhonnêtes et faux gourous
+
+Avec la popularité croissante des cryptomonnaies, une multitude d'influenceurs, de faux experts et de prétendus gourous sont apparus sur les réseaux sociaux. Si certains apportent parfois une valeur éducative réelle, beaucoup d'autres profitent malheureusement de leur visibilité pour promouvoir des projets douteux ou des stratégies de trading particulièrement risquées, voire frauduleuses. Ces individus sont généralement motivés par leurs intérêts financiers personnels, recevant souvent des rémunérations directes ou indirectes en échange de la promotion de certains tokens ou plateformes.
+
+007
+
+Ces influenceurs adoptent des tactiques éprouvées pour séduire les débutants : ils publient des résultats financiers impressionnants (souvent truqués ou impossibles à vérifier), vantent leur succès personnel à travers un mode de vie luxueux et présentent des stratégies d'investissement miraculeuses. Ils cherchent à susciter le FOMO, la peur de manquer une opportunité, afin d’inciter leurs abonnés à prendre des décisions impulsives et à investir sans réfléchir.
+
+Il est important de comprendre que la plupart des conseils gratuits diffusés par ces personnalités ne sont jamais réellement gratuits. Derrière les apparences altruistes se cachent généralement des stratégies de manipulation pour inciter à l'achat d'actifs douteux. Par ailleurs, même s'ils étaient honnêtes, il serait impossible de répliquer fidèlement leurs résultats, car ces derniers dépendent d’un timing précis ou d’un contexte particulier dont vous n'avez pas connaissance.
+
+Les influenceurs vous proposeront parfois de rejoindre des groupes privés payants, où ils promettent d'offrir des signaux ou des conseils censés garantir des gains rapides et faciles. Dans la réalité, ces groupes profitent principalement aux organisateurs eux-mêmes, qui utilisent leur audience comme source de liquidité pour réaliser leurs propres profits. Les abonnés finissent généralement par subir des pertes importantes, faute de pouvoir réagir aussi rapidement que les initiateurs des opérations (voir la partie sur le Pump & Dump).
+
+Face à cette réalité, voici quelques bonnes pratiques à adopter pour éviter les pièges tendus par ces influenceurs :
+- **Soyez extrêmement prudent vis-à-vis de toute recommandation d’achat d’une cryptomonnaie**. Une personne honnête et compétente ne vous incitera jamais à acheter précipitamment un actif sans vous encourager à faire vos propres recherches ;
+- **Les formations payantes en trading ou en investissement ne sont pas nécessairement synonymes de qualité**. Souvent, elles présentent des techniques risquées ou simplistes, disponibles gratuitement ailleurs sur internet ;
+- **Gardez à l’esprit qu’il n’existe aucune méthode miracle** pour copier facilement les transactions d'un tiers et obtenir exactement les mêmes résultats. Chaque stratégie d’investissement dépend du contexte personnel, des connaissances spécifiques, du timing et d’une multitude d’autres facteurs qu’il est impossible de reproduire à l’identique ;
+- **Soyez particulièrement vigilant face aux recommandations qui semblent trop belles** pour être vraies. Les promesses irréalistes ou les garanties de gains immédiats sont presque systématiquement des signes de manipulation. Rappelez-vous que ce n'est pas parce qu'une personne dit quelque chose que cela est nécessairement vrai.
+
+Enfin, souvenez-vous que chaque personne que vous rencontrez dans l'écosystème Bitcoin ou crypto a nécessairement un agenda personnel, explicite ou implicite, et qu'il n’y a pas d’information totalement neutre. Même ce cours BTC102 que vous suivez actuellement poursuit l’objectif clair de promouvoir une meilleure compréhension de Bitcoin. Soyez donc attentif aux motivations réelles derrière chaque contenu auquel vous êtes exposé. Gardez toujours à l’esprit ce principe essentiel : Si un produit ou un service semble gratuit, c'est probablement que c'est vous le produit.
+
+La meilleure protection reste l’éducation personnelle, le scepticisme bien placé, et surtout, l’habitude constante de vérifier les faits par vous-même.
+
+**Enfin, voici quelques conseils pour éviter les arnaques en ligne :**
+- Ne faites jamais confiance aveuglément : "*Don't trust, verify*" ;
+- Méfiez-vous des rendements trop élevés ou garantis ;
+- Ne communiquez jamais vos clés privées à qui que ce soit ;
+- N'envoyez jamais de bitcoins à une adresse inconnue ;
+- Si vous avez un doute, attendez et prenez du recul avant toute décision. Le FOMO est votre pire ennemi ;
+- Évitez de participer à des groupes de trading payants ou aux promesses irréalistes ;
+- La plupart des cadeaux ou loteries gratuites sur internet sont frauduleux ou truqués ;
 - Vous gagnerez toujours plus en apprenant qu'en jouant.
-- En cas de doute, n'agissez pas immédiatement. Prenez le temps de réfléchir et de faire des recherches. Le FOMO (Fear Of Missing Out) peut être votre pire ennemi.
-  Rappelez-vous toujours de faire vos propres recherches avant de prendre une décision d'investissement.
 
-Le Bitcoin a subi plusieurs "hard forks" au fil du temps, donnant naissance à diverses versions alternatives de la monnaie originale. Ces déviations sont souvent le fait de développeurs cherchant à apporter des modifications significatives au protocole Bitcoin, ou parfois à des personnes mal intentionnées cherchant à tromper les investisseurs naïfs. Il est essentiel de distinguer le véritable Bitcoin de ces dérivés pour éviter de tomber dans des pièges potentiels. Parmi les exemples notables de ces déviations figurent Bitcoin Cash (BCH) et Bitcoin Satoshi Vision (BSV). Malgré le fait qu'ils portent le nom de "Bitcoin", ces projets sont principalement basés sur des tactiques de marketing et de publicité mensongère pour attirer l'attention des investisseurs.
-
-![arnaque à la donation](assets/prerequis/10.webp)
-
-Un dicton populaire dans le monde de l'investissement dit : "Si ça ressemble à une arnaque, si ça se comporte comme une arnaque, et si ça garantit que ce n'est pas une arnaque, alors il y a de fortes chances que ce soit une arnaque."
-
-Il convient de noter que certaines de ces déviations sont très bien financées et dépensent énormément en communication pour tromper les utilisateurs. Par exemple, le site web "Bitcoin.com" est associé à Bitcoin Cash, et non au Bitcoin original, ce qui peut prêter à confusion pour les novices. Le site officiel de Bitcoin est "bitcoin.org".
-
-Le monde des crypto-monnaies est un terrain fertile pour toutes sortes de personnalités, attirées par le potentiel de gains significatifs. Parmi elles, on trouve malheureusement des individus mal intentionnés qui recourent à diverses tactiques pour tromper et arnaquer les investisseurs.
-
-Ces tactiques peuvent comprendre la promotion ouverte de ventes pyramidales, l'usurpation de l'identité du créateur de Bitcoin, Satoshi Nakamoto, le plagiat du travail d'autrui, ou encore la fabrication de fausses promesses. De plus, certains de ces individus créent des tokens de crypto-monnaie et des Initial Coin Offerings (ICO) inutiles dans le but de tromper les investisseurs.
-
-![arnaque à la donation](assets/prerequis/11.webp)
-
-La communauté Bitcoin se mobilise souvent pour dénoncer ces actes, mais il peut s'écouler un certain temps avant que le système juridique ne parvienne à prendre des mesures contre ces individus.
-
-Il est donc crucial de rester vigilant et de faire preuve de discernement dans ses interactions avec le monde des crypto-monnaies. Mon conseil personnel serait d'ignorer ces individus et ces pratiques. Ils ne méritent ni votre temps ni votre énergie. Préférez consacrer ces ressources à l'acquisition de connaissances et à la compréhension du marché des crypto-monnaies pour pouvoir naviguer dans cet univers de manière éclairée et sécurisée.
-
-Il est essentiel d'approcher avec prudence les "crypto-influenceurs" ou "gourous" de la crypto-monnaie. Ces individus ont souvent des agendas personnels et peuvent être impliqués dans de nombreux projets qu'ils chercheront à promouvoir, même s'ils ne sont pas toujours dans l'intérêt des investisseurs.
-
-Ces influenceurs peuvent tenter de promouvoir des crypto-monnaies peu fiables, ou "shitcoins", et mettre en œuvre diverses stratégies pour augmenter la valeur de leurs investissements, même si ces derniers sont peu sûrs ou potentiellement frauduleux.
-Voici quelques conseils pour naviguer dans cet environnement :
-
-- Méfiez-vous de toute personne qui promeut une crypto-monnaie spécifique ou vous propose des transactions.
-- Les "conseils gratuits" ne le sont souvent pas vraiment et peuvent cacher d'autres intentions.
-- Réfléchissez à deux fois avant de payer pour une formation en trading. Il existe de nombreuses ressources gratuites disponibles pour vous aider à comprendre le marché des crypto-monnaies (par exemple, la chaîne YouTube 'ukspreadbetting').
-- Il n'est pas possible de copier simplement les transactions d'une autre personne et d'espérer obtenir les mêmes résultats.
-- Rappelez-vous que ce n'est pas parce qu'une personne dit quelque chose que cela est nécessairement vrai.
-
-Le meilleur moyen de se protéger est de mener vos propres recherches et de vérifier les sources d'information. Regarder une vidéo sur YouTube ne suffit pas à vérifier les sources.
-
-Il est important de noter que tout le monde a un programme, y compris moi. Je crois en Bitcoin et mon objectif est de le promouvoir. J'espère tirer profit de cette promotion, tant politiquement que financièrement. Aucun contenu n'est jamais entièrement gratuit - si un produit ou un service semble gratuit, c'est probablement parce que vous êtes le produit.
-
-Gardez toujours à l'esprit que tout le monde ne sera pas nécessairement transparent sur ses intentions. Questionnez toujours la finalité des actions de quelqu'un et n'accordez pas aveuglément votre confiance.
+Se prémunir contre les arnaques est une première étape importante pour la protection de votre patrimoine, mais cela ne suffit pas. Il est tout aussi essentiel de maintenir une bonne hygiène numérique. C'est pourquoi, dans le chapitre suivant, nous explorerons comment renforcer votre sécurité numérique et les bonnes pratiques à adopter.
 
 ## Sécurité en ligne
 

@@ -114,4 +114,4 @@ Antonio presenta Breeze, un SDK open-source progettato per le transazioni decent
 
 Congratulazioni per aver completato questo corso!
 
-Siamo entusiasti che tu abbia raggiunto questo importante traguardo nel tuo percorso di apprendimento. Grazie alla tua dedizione e al tuo impegno, hai acquisito conoscenze e competenze preziose che ti saranno utili per il tuo sviluppo professionale.
+Siamo entusiasti che tu abbia raggiunto questo importante traguardo nel tuo percorso di apprendimento. Grazie alla tua dedizione e al tuo impegno, hai acquisito conoscenze e competenze preziose che saranno utili per il tuo sviluppo professionale.

@@ -1316,9 +1316,9 @@ Un alt exemplu ar putea fi "fluxul de bani": prin intermediul rețelei Lightning
 
 ![image](assets/en/85.webp)
 
-În concluzie, Lightning Network deschide o multitudine de cazuri de utilizare interesante pentru utilizatorii Bitcoin. Modelele economice și oportunitățile de afaceri rezultate sunt numeroase și variate și vă încurajăm să verificați singuri încercând aplicația de podcast [Fountain](https://www.fountain.fm/), care vă permite să fiți recompensat cu câteva sats pentru ascultarea podcasturilor preferate!
+În concluzie, Lightning Network deschide o multitudine de cazuri de utilizare interesante pentru utilizatorii Bitcoin. Modelele economice și oportunitățile de afaceri sunt numeroase și variate și vă încurajăm să verificați singuri încercând aplicația de podcast [Fountain](https://www.fountain.fm/), care vă permite să fiți recompensat cu câțiva sats pentru ascultarea podcasturilor preferate!
 
-## Pilula roșie sau pilula albastră?
+## Pastila roșie sau pastila albastră?
 
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
@@ -1338,15 +1338,15 @@ Trebuie să ne punem câteva întrebări esențiale:
 - Este nevoie de un număr atât de mare de profesori?
 - Consecințele geopolitice, politice și umane ale automatizării nu sunt suficient discutate.
 
-Informatica, internetul, streaming-ul și VR-ul vor schimba educația. Am putea avea un curs universal pentru toți elevii francezi, gestionat de guvern și de profesori care nu vor mai ține cursuri, ci îi vor însoți direct pe elevi. Copiii ar putea intra într-o lume virtuală și ar putea fi însoțiți în învățarea istoriei.
+Informatica, internetul, streaming-ul și VR-ul vor schimba educația. Am putea avea un curs universal pentru toți elevii romăni, gestionat de guvern și de profesori care nu vor mai ține cursuri, ci îi vor însoți direct pe elevi. Copiii ar putea intra într-o lume virtuală și ar putea fi însoțiți în învățarea istoriei.
 
 
 - Care este granița dintre un profesor și o personificare a inteligenței artificiale?
 - Cum putem garanta o societate care trăiește în prosperitate?
 
-Aceste întrebări fundamentale pentru viitorul nostru trebuie să fie dezbătute și să facă obiectul unei decizii colective.
+Aceste întrebări fundamentale pentru viitorul nostru trebuie să fie dezbătute și decise în mod colectiv.
 
-Care este legătura cu Bitcoin? La fel cum internetul a revoluționat modalitățile de comunicare, Bitcoin reprezintă o revoluție tehnologică pentru noi forme de organizare la scară largă, permițându-ne să schimbăm valori fără a ne baza pe nicio terță parte de încredere. Dorim să împiedicăm evoluția tehnologică a sistemului monetar sau dorim să îmbrățișăm potențialul de creștere a capitalului prin creșterea de zece ori a productivității oferite de utilizarea protocoalelor Bitcoin și Lightning?
+Care este legătura cu Bitcoin? La fel cum internetul a revoluționat modalitățile de comunicare, Bitcoin reprezintă o revoluție tehnologică pentru noi forme de organizare pe scară largă, permițându-ne să schimbăm valori fără a ne baza pe nicio terță parte de încredere. Dorim să împiedicăm evoluția tehnologică a sistemului monetar sau dorim să îmbrățișăm potențialul de creștere a capitalului prin creșterea de zece ori a productivității oferite de utilizarea protocoalelor Bitcoin și Lightning?
 
 ### Care este viitorul finanțelor?
 
@@ -1359,7 +1359,7 @@ Aceste considerente ridică, de asemenea, întrebări cu privire la cine ar treb
 - Cum poate un individ să fie suveran asupra banilor săi și să se bazeze pe o terță parte de încredere?
 - Pot fi trimiși bani în cealaltă parte a lumii fără taxe sau intermediari?
 
-Acceptarea acestor noi tehnologii ar putea genera economii masive de scară la nivel mondial. Ar trebui să permitem libera circulație a fluxurilor de capital? Blocajele internaționale au consecințe economice și politice. Este etic să folosim intermediari financiari precum Western Union, care percep uneori comisioane de până la 25%? Credem că, într-o lume din ce în ce mai digitală, banii ar trebui democratizați și considerați un bun comun care aparține oamenilor, mai degrabă decât statului sau instituțiilor financiare opace.
+Acceptarea acestor noi tehnologii ar putea genera economii de scară masive la nivel mondial. Ar trebui să permitem libera circulație a fluxurilor de capital? Blocajele internaționale au consecințe economice și politice. Este etic să folosim intermediari financiari precum Western Union, care percep uneori comisioane de până la 25%? Credem că, într-o lume din ce în ce mai digitală, banii ar trebui democratizați și considerați un bun comun care aparține oamenilor, mai degrabă decât statului sau instituțiilor financiare opace.
 
 Întrebarea cine ar trebui să controleze sistemul bancar este crucială, deoarece regulile jocului bancar nu sunt transparente și inteligibile pentru toți, permițând unei caste de politicieni și autorități de reglementare să își mențină controlul asupra sistemului, astfel încât este important să ne întrebăm dacă piața liberă sau un grup de intelectuali ar trebui să aibă puterea asupra acestuia.
 
@@ -1373,7 +1373,7 @@ Cenzura trebuie, de asemenea, pusă sub semnul întrebării: cine are cunoștin�
 
 Credem cu tărie că tolerarea cenzurii poate distruge libertatea de exprimare și dreptul la întrunire, deoarece poate avea un impact negativ asupra inovării și liberului arbitru. Impunerea cenzurii este dificilă din punct de vedere tehnic fără a crea o distopie completă. Prin urmare, care entitate ar trebui să aibă puterea de cenzură? Problema este complicată și, de asemenea, este dificil să se decidă cine ar trebui să fie restricționat sau nu.
 
-În lume există 2,4 miliarde de oameni care nu au un cont bancar, ceea ce creează în mod necesar inegalități geografice. Pe de altă parte, Bitcoin garantează egalitatea tranzacțiilor, fără a ține cont de statutul social sau de poziția politică. Protocolul este apolitic și nu acordă privilegii specifice liderilor sau altor figuri influente, asigurându-se că toată lumea are aceleași oportunități de a promova dezvoltarea, în loc să permită unora să rămână în vârf, în timp ce alții sunt lăsați în urmă. Ar trebui ca toată lumea să aibă acces la aceeași monedă, indiferent de statutul său social? Este esențial să ne gândim la lumea pe care dorim să o lăsăm copiilor noștri și aspirăm să creăm o lume deschisă, în care aceștia sunt liberi să își gestioneze banii așa cum doresc.
+În lume există 2,4 miliarde de oameni care nu au un cont bancar, ceea ce creează în mod necesar inegalități geografice. Pe de altă parte, Bitcoin garantează egalitatea tranzacțiilor, fără a ține cont de statutul social sau de orientarea politică. Protocolul este apolitic și nu acordă privilegii specifice liderilor sau altor figuri influente, asigurându-se că toată lumea are aceleași oportunități de a promova dezvoltarea, în loc să permită unora să rămână în vârf, în timp ce alții sunt lăsați în urmă. Ar trebui ca toată lumea să aibă acces la aceeași monedă, indiferent de statutul său social? Este esențial să ne gândim la lumea pe care dorim să o lăsăm copiilor noștri și aspirăm să creăm o lume deschisă, în care aceștia sunt liberi să își gestioneze banii așa cum doresc.
 
 Bitcoin este important și nu ar trebui să fie considerat doar un joc de noroc, astfel încât este esențial să continuăm să punem întrebări despre Bitcoin și consecințele sale asupra lumii.
 
@@ -1383,7 +1383,7 @@ După cum am văzut în capitolul anterior, protocolul Bitcoin este neutru faț�
 
 Bitcoin are toate caracteristicile necesare pentru a fi o monedă eficientă și sănătoasă: divizibilă, instantaneu transportabilă, necenzurabilă, costuri de verificare neglijabile și cu o politică monetară deja stabilită la 21 de milioane de unități pentru secolele următoare. Bitcoin este pseudonimă și poate fi schimbată oriunde în lume fără nicio autorizație din partea vreunei entități. Trebuie doar să dețineți propriile chei private și să vă amintiți zicala "Not your keys, not your bitcoins".
 
-Acesta este adoptat de diverse grupuri de persoane, de la criptografi, la libertari, la întreprinderi tradiționale și chiar țări întregi. Cu toate acestea, Bitcoin este pentru toată lumea și, pe măsură ce numărul de utilizatori crește, crește și numărul de noduri Bitcoin care servesc drept gardieni ai istoriei tranzacțiilor, asigurând descentralizarea acesteia.
+Acesta este adoptat de diverse grupuri de persoane, de la criptografi, la libertari, la întreprinderi tradiționale și chiar țări întregi. Cu toate acestea, Bitcoin este pentru toată lumea și, pe măsură ce numărul de utilizatori crește, crește și numărul de noduri Bitcoin care servesc drept gardieni ai istoriei tranzacțiilor, asigurând descentralizarea acestuia.
 
 Bitcoin nu mai poate fi oprit și nu mai poate fi cenzurat. Este o revoluție pașnică care schimbă sistemul monetar și permite incluziunea financiară. Utilizatorii pot obține bitcoini acceptându-i pentru comerțul lor sau cumpărându-i prin intermediul unor platforme reglementate sau nereglementate. Ei pot stoca fondurile în portofelele lor, în aplicații mobile sau pe dispozitive fizice, fără a avea nevoie de intermediari de încredere. Bitcoin pledează pentru transparență, libertate și responsabilitate individuală: după cum spune proverbul "Don't Trust, Verify".
 

@@ -1,4 +1,4 @@
-question: Come risolve Bitcoin il Problema dei Generali Bizantini?
+question: Come fa Bitcoin a risolvere il Problema dei Generali Bizantini?
 answer: Attraverso l'uso di una blockchain basata su Proof of Work con una difficoltà variabile.
 wrong_answers:
   - Attraverso l'uso di firme digitali.

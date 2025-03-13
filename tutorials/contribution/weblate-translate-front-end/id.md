@@ -23,7 +23,7 @@ Anggota tim kami akan memberi Anda instruksi khusus dan akan membuka "masalah" t
 
 Sebelumnya, ikuti tutorial khusus ini untuk menambahkan bahasa baru ke Weblate.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Setelah Anda siap untuk mulai menerjemahkan, kembalilah ke tutorial ini dan baca poin-poin berikut.
 
 ## Daftar di Weblate

@@ -23,7 +23,7 @@ Meie meeskonnaliikmed annavad teile konkreetseid juhiseid ja avavad Githubis sel
 
 Enne selle konkreetse õpetuse järgimist, et lisada uus keel Weblate'ile.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Kui olete valmis tõlkimisega alustama, tulge tagasi selle õpetuse juurde ja vaadake läbi järgmised punktid.
 
 ## Registreeru Weblate'is

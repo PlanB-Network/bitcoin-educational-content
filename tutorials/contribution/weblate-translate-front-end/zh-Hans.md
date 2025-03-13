@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee
 
 在按照本教程在 Weblate 上添加新语言之前，请先阅读本教程。
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 当您准备好开始翻译时，请返回本教程并阅读以下要点。
 
 ## 在 Weblate 上注册

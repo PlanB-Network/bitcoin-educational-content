@@ -46,7 +46,7 @@ Prasyarat sebelum memulai tutorial:
 
 Jika Anda memerlukan bantuan untuk mendapatkan prasyarat ini, tutorial saya yang lain akan membantu Anda:
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 Setelah semuanya siap dan lingkungan lokal Anda diatur dengan benar dengan fork Anda sendiri dari Plan ₿ Network, Anda dapat mulai menambahkan tutorial.
 
 
@@ -424,4 +424,5 @@ Jika Anda ingin membuat perubahan pada kontribusi Anda setelah Anda mengirimkan 
 - Jika PR Anda telah digabungkan dengan cabang utama, Anda harus memulai proses dari awal dengan membuat cabang baru, lalu mengirimkan PR baru. Pastikan repositori lokal Anda disinkronkan dengan repositori sumber Plan ₿ Network sebelum melanjutkan.
 
 Jika Anda mengalami kesulitan teknis dalam mengirimkan tutorial Anda, jangan ragu untuk meminta bantuan di [grup Telegram khusus untuk kontribusi](https://t.me/PlanBNetwork_ContentBuilder). Terima kasih!
+
 

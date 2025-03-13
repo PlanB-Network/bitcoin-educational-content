@@ -21,7 +21,7 @@ Our team members will give you specific instructions and will open the related "
 
 Before  follow this specific tutorial to add a new language to the Weblate.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 When you are ready to start translating, come back to this tutorial and go through the following points.
 
@@ -89,3 +89,4 @@ When you are ready to start translating, come back to this tutorial and go throu
 ![weblate](assets/23.webp)
 
 Thank you in advance for your contribution to the translation of Plan ₿ Network! If you have any specific questions or comments for us, feel free to contact us via the [Telegram group](https://t.me/PlanBNetwork_ContentBuilder).
+

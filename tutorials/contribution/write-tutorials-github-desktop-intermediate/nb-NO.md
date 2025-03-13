@@ -46,7 +46,7 @@ Forutsetninger før du starter opplæringen:
 
 Hvis du trenger hjelp med å skaffe deg disse forutsetningene, kan du få hjelp i de andre veiledningene mine:
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 Når alt er på plass og det lokale miljøet ditt er riktig konfigurert med din egen gaffel av Plan ₿ Network, kan du begynne å legge til opplæringen.
 
 
@@ -424,4 +424,5 @@ Hvis du ønsker å gjøre endringer i bidraget ditt etter at du allerede har sen
 - Hvis PR-en din allerede har blitt slått sammen med hovedgrenen, må du starte prosessen på nytt ved å opprette en ny gren og deretter sende inn en ny PR. Sørg for at det lokale depotet ditt er synkronisert med Plan ₿ Network-kilderegisteret før du fortsetter.
 
 Hvis du støter på tekniske problemer med å sende inn opplæringen din, ikke nøl med å be om hjelp på [vår dedikerte Telegram-gruppe for bidrag] (https://t.me/PlanBNetwork_ContentBuilder). Takk skal du ha!
+
 

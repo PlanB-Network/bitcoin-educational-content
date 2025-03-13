@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee
 
 Прежде чем следовать этому специальному руководству, добавьте новый язык в Weblate.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Когда вы будете готовы приступить к переводу, вернитесь к этому руководству и пройдитесь по следующим пунктам.
 
 ## Зарегистрируйтесь на Weblate

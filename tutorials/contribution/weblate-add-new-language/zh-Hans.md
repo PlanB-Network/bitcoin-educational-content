@@ -28,7 +28,7 @@ Plan ₿ Network 的使命是提供一流的比特币教育资源，并将其翻
 
 如果您的语言已在此列表中，则无需再次添加。要通过校对网络版做出贡献，请参阅以下教程：
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 如果没有您的语言，请按照下面的教程添加。
 
 ## 为Plan ₿ Network添加新语言
@@ -64,7 +64,7 @@ https://planb.network/tutorials/others/contribution/translate-front-weblate-8213
 
 要在翻译过程中获得指导，请查看我们下面的专门教程：
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 恭喜您，您已开始翻译 Plan ₿ Network 网站上的静态元素！
 
 它们包括网站上的所有字符串，但教育内容（课程、教程......）除外，我们使用另一种半自动化方法（人工智能翻译 + 参与者校对）来处理这些内容。

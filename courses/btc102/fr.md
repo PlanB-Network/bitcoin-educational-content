@@ -1,6 +1,6 @@
 ---
 name: Obtenir ses premiers bitcoins
-goal: Obtenir ses premiers bitcoins et les stocker dans un portefeuille Bitcoin de façon sécurisé avec une mnemonic phrase et un plan d’héritage.
+goal: Obtenir ses premiers bitcoins et les stocker dans un portefeuille Bitcoin de façon sécurisé avec une phrase mnémonique et un plan d’héritage.
 objectives:
   - Mettre à jour votre sécurité en ligne
   - Comprenez les concepts clés liés à Bitcoin

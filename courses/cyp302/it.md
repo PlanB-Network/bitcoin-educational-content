@@ -560,7 +560,7 @@ Un concetto chiave della crittografia è quello di pseudorandomicità. Una strin
 
 Supponiamo, ad esempio, una variabile casuale $S$. Il suo insieme di risultati è **$S_{256}$**, cioè l'insieme di tutte le stringhe binarie di lunghezza 256. Questo insieme ha $2^{256}$ elementi. Questo insieme ha $2^{256}$ elementi. Ogni elemento ha un'uguale probabilità di selezione, $1/2^{256}$, al momento del campionamento.
 
-Inoltre, supponiamo una variabile casuale $S'$. Il suo insieme di risultati comprende solo $2^{128}$ stringhe binarie di lunghezza 256. Ha una certa distribuzione di probabilità su queste stringhe, ma questa distribuzione non è necessariamente uniforme. Ha una certa distribuzione di probabilità su queste stringhe, ma questa distribuzione non è necessariamente uniforme.
+Inoltre, supponiamo una variabile casuale $S'$. Il suo insieme di risultati comprende solo $2^{128}$ stringhe binarie di lunghezza 256. Ha una certa distribuzione di probabilità su queste stringhe, ma questa distribuzione non è necessariamente uniforme.
 
 Supponiamo che ora io prenda 1000 campioni da $S$ e 1000 campioni da $S'$ e che vi dia le due serie di risultati. Vi dico quale serie di risultati è associata a quale variabile casuale. Poi prendo un campione da una delle due variabili casuali. Ma questa volta non vi dico quale variabile casuale campionare. Se $S'$ fosse pseudorandom, la probabilità di indovinare quale variabile casuale ho campionato non sarebbe praticamente migliore di $1/2$.
 

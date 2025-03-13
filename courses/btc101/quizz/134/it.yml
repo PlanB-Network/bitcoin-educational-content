@@ -3,7 +3,7 @@ answer: Un'impronta digitale unica associata al blocco, composta da 256 caratter
 wrong_answers:
   - Un codice unico utilizzato per accedere al blocco.
   - Una password unica richiesta per minare il blocco.
-  - Un identificativo unico per il minatore che ha minato il blocco.
+  - Un identificativo unico per il miner che ha trovato il blocco.
 explanation: |
   Nel contesto del mining di blocchi nella rete Bitcoin, un
   hash valido è un'impronta digitale unica associata al

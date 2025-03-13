@@ -557,7 +557,7 @@ Ci-dessous, nous définirons plusieurs niveaux de sécurité :
 
 Par exemple, vous pouvez utiliser Sparrow Wallet comme hot wallet :
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Niveau 2\*\*, vous utilisez un portefeuille physique et vous avez sécurisé votre liste de 12/24 mots. Ce type de portefeuille est souvent appelé "cold Wallet", car vos clés sont stockées sur un appareil qui n'est pas connecté à l'internet. Dans ce cas, vous devrez toujours signer chaque transaction avec votre appareil, ce qui rend vos fonds moins accessibles au quotidien.
 

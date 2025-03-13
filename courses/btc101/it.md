@@ -557,7 +557,7 @@ Di seguito definiremo diversi livelli di sicurezza:
 
 Ad esempio, è possibile utilizzare Sparrow Wallet come portafoglio caldo:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Livello 2\*\*, si utilizza un portafoglio fisico e si è protetto l'elenco di 12/24 parole. Viene spesso definito "portafoglio freddo" perché le chiavi sono memorizzate su un dispositivo non connesso a Internet. In questo caso, dovrete sempre firmare ogni transazione con il vostro dispositivo, il che rende i vostri fondi meno accessibili su base giornaliera.
 

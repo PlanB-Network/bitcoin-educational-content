@@ -557,7 +557,7 @@ Järgnevalt määratleme mitu turvataset:
 
 Näiteks võite kasutada Sparrow rahakotti kuuma rahakotina:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Tase 2\*\*, te kasutate füüsilist rahakotti ja olete kindlustanud oma nimekirja 12/24 sõnaga. Seda nimetatakse sageli "külmaks rahakotiks", sest teie võtmeid hoitakse seadmes, mis ei ole ühendatud internetti. Sellisel juhul peate alati iga tehingu oma seadmega allkirjastama, mis muudab teie raha igapäevaselt vähem kättesaadavaks.
 

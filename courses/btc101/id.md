@@ -557,7 +557,7 @@ Di bawah ini, kami akan mendefinisikan beberapa tingkat keamanan:
 
 Misalnya, Anda dapat menggunakan Sparrow Wallet sebagai hot wallet:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Level 2\*\*, Anda menggunakan dompet fisik, dan Anda telah mengamankan daftar 12/24 kata. Ini sering disebut sebagai "Dompet dingin" karena kunci Anda disimpan di perangkat yang tidak terhubung ke internet. Dalam hal ini, Anda harus selalu menandatangani setiap transaksi dengan perangkat Anda, yang membuat dana Anda tidak dapat diakses setiap hari.
 

@@ -634,9 +634,9 @@ Dies ist bei weitem die gängigste Methode, die entweder über Peer-to-Peer-Bör
 
 Wenn Sie wissen möchten, wie Sie ein Geschäftskonto eröffnen und damit Bitcoins kaufen, verkaufen und transferieren können, schauen Sie sich diese beiden Tutorials an, die speziell für Unternehmen entwickelt wurden und die Plattformen Kraken und Bitfinex in ihren Unternehmensversionen abdecken:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 Um mehr über Methoden zum Erwerb von Bitcoins über eine Börse oder Peer-to-Peer zu erfahren, können Sie [den Abschnitt "Börse" in unseren Anleitungen konsultieren](https://planb.network/tutorials/exchange).
 

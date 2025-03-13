@@ -592,9 +592,9 @@ C'est de loin la méthode la plus courante, qui s'effectue soit par l'intermédi
 
 Pour savoir comment ouvrir un compte professionnel et l'utiliser pour acheter, vendre et transférer des bitcoins, vous pouvez consulter ces deux tutoriels spécialement conçus pour les entreprises, qui couvrent les plateformes Kraken et Bitfinex dans leurs versions professionnelles :
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 Pour en savoir plus sur les méthodes d'acquisition de bitcoins via un échange ou en peer-to-peer, vous pouvez [consulter la section "échange" de nos tutoriels] (https://planb.network/tutorials/exchange).
 

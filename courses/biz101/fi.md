@@ -634,9 +634,9 @@ Tämä on ylivoimaisesti yleisin menetelmä, ja se tapahtuu joko vertaisverkkop�
 
 Jos haluat oppia, miten avata yritystili ja käyttää sitä bitcoinien ostamiseen, myymiseen ja siirtämiseen, voit tutustua näihin kahteen erityisesti yrityksille suunnattuun opetusohjelmaan, jotka kattavat Kraken- ja Bitfinex-alustojen yritysversiot:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 Jos haluat lisätietoja menetelmistä, joilla bitcoineja voi hankkia pörssin tai vertaisverkon kautta, voit [tutustua opetusohjelmiemme "exchange"-osioon](https://planb.network/tutorials/exchange).
 

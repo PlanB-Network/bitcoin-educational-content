@@ -52,29 +52,29 @@ Pablo presenta l'architettura della Liquid Network, sottolineando il suo ruolo d
 
 James presenta il software Elements e la sua integrazione con la rete Liquid. Questa sessione comprende una guida pratica all'esecuzione di un nodo Liquid, alla configurazione di Elements a livello locale e alla gestione delle transazioni tramite comandi CLI e RPC.
 
-## Collegamento dei livelli di Bitcoin
+## Collegamenti tra i Layer di Bitcoin
 
 <chapterId>3ff2df4a-8995-4d5e-9b8a-cd114880e666</chapterId>
 
 ![Video](https://youtu.be/zFvv0bn4ZWY)
 
-Michael illustra come le tecnologie multistrato, tra cui Liquid, Lightning e Bitcoin, migliorano l'efficienza e l'affidabilità delle transazioni. Tra gli argomenti principali figurano gli HTLC per transazioni sicure su più livelli e le funzioni di scripting avanzate che ottimizzano l'ecosistema Bitcoin.
+Michael discute di come le tecnologie multi-layer, tra cui Liquid, Lightning e Bitcoin, migliorino l'efficienza e l'affidabilità delle transazioni. Tra gli argomenti principali figurano gli HTLC per transazioni sicure su più livelli e le funzioni di scripting avanzate che ottimizzano l'ecosistema Bitcoin.
 
-## Panoramica della rete liquida
+## Panoramica di Liquid Network
 
 <chapterId>1968db03-2364-46c0-9670-9e9844289ca1</chapterId>
 
 ![Video](https://youtu.be/6wNeHQBlhA4)
 
-Bozza illustra la struttura federata della rete Liquid e i suoi componenti tecnici. Gli argomenti trattati includono le innovazioni testate su Liquid, come le firme Schnorr e lo scripting Simplicity, e i compromessi che comporta l'utilizzo di soluzioni Layer Two.
+Bozza tratta la struttura federata della rete Liquid e i suoi componenti tecnici. Gli argomenti trattati includono le innovazioni testate su Liquid, come le firme Schnorr e il linguaggio di scripting Simplicity, oltre ai compromessi che comporta l'utilizzo di soluzioni Layer Two.
 
-## Ecosistema e mercati dei capitali
+## Ecosistema e mercati di capitali
 
 <chapterId>5f4c0e50-b435-4b6c-b8b7-c55cc1a35431</chapterId>
 
 ![Video](https://youtu.be/IAdOxZyx7-Y)
 
-Chase evidenzia l'ecosistema di Liquid e le sue applicazioni nei mercati dei capitali. Parla della tokenizzazione, delle risorse della comunità e di strumenti come Sid Swap e Stokr per la gestione degli asset, oltre che della crescente adozione di Liquid negli ambienti aziendali.
+Chase evidenzia l'ecosistema di Liquid e le sue applicazioni nei mercati di capitali. Parla della tokenizzazione, delle risorse della comunità e di strumenti come Sid Swap e Stokr per la gestione degli asset, oltre che della crescente adozione di Liquid negli ambienti aziendali.
 
 ## Blockstream AMP
 
@@ -82,7 +82,7 @@ Chase evidenzia l'ecosistema di Liquid e le sue applicazioni nei mercati dei cap
 
 ![Video](https://youtu.be/AnMiD9amSUg)
 
-Nardo offre una panoramica di Blockstream AMP, una piattaforma per la gestione degli asset digitali su Liquid. Esplora l'architettura di AMP, la sua capacità di controllare i trasferimenti di asset e le sue applicazioni pratiche per gli sviluppatori. Vengono inoltre evidenziate le sfide e i miglioramenti futuri di AMP.
+Nardo fornisce una panoramica di Blockstream AMP, una piattaforma per la gestione degli asset digitali su Liquid. Esplora l'architettura di AMP, la sua capacità di controllare i trasferimenti di asset e le sue applicazioni pratiche per gli sviluppatori. Vengono inoltre evidenziate le sfide e i miglioramenti futuri di AMP.
 
 # Tecnica
 
@@ -90,13 +90,13 @@ Nardo offre una panoramica di Blockstream AMP, una piattaforma per la gestione d
 
 <chapterId>f1fdf2b0-4b6a-4ba7-812c-7586dcb36713</chapterId>
 
-## SDK Breeze - Senza nodo
+## Breeze SDK - Nodeless
 
 <chapterId>fb77442c-3d1e-427e-b2f5-16668ce4c643</chapterId>
 
 ![Video](https://youtu.be/ucc3a-udbgo)
 
-Antonio presenta Breeze, un SDK open-source progettato per le transazioni decentralizzate sulla rete Liquid. Ne illustra le caratteristiche, tra cui il supporto per i binding multilingue e i processi di transazione sicuri, sottolineando l'obiettivo di semplificare la tecnologia finanziaria per gli sviluppatori
+Antonio presenta Breeze, un SDK open-source progettato per le transazioni decentralizzate sulla rete Liquid. Ne illustra le funzionalità, tra cui il supporto per i binding multilingue e i processi di transazione sicuri, sottolineando il suo obiettivo di semplificare la tecnologia finanziaria per gli sviluppatori.
 
 # Conclusione
 
@@ -114,4 +114,4 @@ Antonio presenta Breeze, un SDK open-source progettato per le transazioni decent
 
 Congratulazioni per aver completato questo corso!
 
-Siamo entusiasti che abbiate raggiunto con successo questa pietra miliare nel vostro percorso di apprendimento. Grazie alla vostra dedizione e al vostro impegno, avete acquisito conoscenze e competenze preziose che vi saranno utili nel vostro sviluppo professionale.
+Siamo entusiasti che tu abbia raggiunto questo importante traguardo nel tuo percorso di apprendimento. Grazie alla tua dedizione e al tuo impegno, hai acquisito conoscenze e competenze preziose che ti saranno utili per il tuo sviluppo professionale.

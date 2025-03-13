@@ -132,6 +132,8 @@ Cette autre escroquerie consiste à manipuler artificiellement le prix d’un ac
 
 Il est important de rappeler que les stratégies de Pump & Dump sont totalement illégales et considérées comme une manipulation des marchés financiers dans de nombreux pays. Mais malgré leur caractère frauduleux, ces techniques continuent de proliférer, notamment au sein de l'univers des cryptomonnaies. Je vous conseille donc d'éviter les groupes de "signaux" privés sur Telegram, Discord ou d'autres réseaux sociaux, souvent dirigés par des influenceurs ou des pseudo-experts qui exigent même parfois des frais d’adhésion pour y accéder. Ces groupes créent l’illusion de fournir des opportunités financières exclusives, mais la réalité est que seuls les organisateurs gagnent véritablement, tandis que les participants finissent généralement par perdre leur argent.
 
+005
+
 Il est vrai que certains participants peuvent temporairement tirer profit de ces manipulations, mais ce succès éphémère repose avant tout sur la chance et le timing. Sur le long terme, ces pratiques ne sont pas rentables, car elles nécessitent une prise de risque permanente et une participation répétée à des schémas frauduleux qui finissent toujours par échouer. Ces pratiques entretiennent une illusion dangereuse : celle qu'il est possible de gagner rapidement et facilement beaucoup d’argent sans comprendre les mécanismes financiers réels.
 
 Pour toutes ces raisons, la meilleure stratégie reste toujours de privilégier une approche d’investissement sérieuse, basée sur l’éducation financière, la compréhension des fondamentaux et une vision de long terme. En construisant patiemment vos connaissances, vous serez beaucoup moins sensible aux manipulations émotionnelles et aux promesses irréalistes, et bien mieux préparé pour éviter ces pièges financiers destructeurs.
@@ -144,7 +146,7 @@ Des escrocs utilisent régulièrement l’identité de personnalités connues (c
 
 Parfois, ces escroqueries peuvent également prendre la forme d'une arnaque aux frais avancés. Cela consiste à vous promettre un gain ou un cadeau (argent, produit, service...), mais à exiger d'abord un paiement sous prétexte de couvrir des frais (livraison, taxes, frais de transaction...). Une fois le paiement effectué, l'escroc disparaît sans jamais envoyer ce qui était promis au départ.
 
-005
+006
 
 #### Shitcoins et cryptomonnaies offertes
 
@@ -160,7 +162,7 @@ Avant de cliquer sur un lien ou de prendre une quelconque action, assurez-vous t
 
 Bitcoin a subi plusieurs *hardforks* au fil du temps, donnant naissance à des versions alternatives de la monnaie originale. Concrètement, un *hardforks* correspond à une scission du réseau en deux blockchains distinctes partageant un historique commun jusqu'au moment de la séparation. Ces divisions surviennent généralement lorsqu'une partie des développeurs ou de la communauté Bitcoin souhaite apporter des modifications radicales au protocole original, mais n'obtient pas un consensus suffisant. Incapables de convaincre la majorité, ils choisissent alors de créer une version alternative de Bitcoin, avec des règles modifiées, en espérant que la communauté les suive.
 
-006
+007
 
 Certains *hardforks* ne sont pas directement des arnaques, car ils reposent simplement sur des désaccords techniques ou idéologiques au sein de la communauté, mais d'autres sont essentiellement motivés par des raisons commerciales, voire malhonnêtes. Les exemples les plus connus de ces hardforks sont **Bitcoin Cash (BCH)** et **Bitcoin Satoshi Vision (BSV)**. Apparues respectivement en 2017 et 2018, ces monnaies alternatives prétendent souvent être de meilleures versions du Bitcoin original en mettant en avant des avantages supposés, tels que des frais de transactions moins élevés ou des transactions plus rapides grâce à une taille de blocs augmentée. En réalité, ces modifications techniques comportent des compromis importants en matière de sécurité, de décentralisation et de robustesse, qui peuvent venir en contradiction avec les principes fondateurs de Bitcoin.
 
@@ -172,7 +174,7 @@ Pour éviter de tomber dans ce genre de piège, vérifiez toujours la monnaie qu
 
 Avec la popularité croissante des cryptomonnaies, une multitude d'influenceurs, de faux experts et de prétendus gourous sont apparus sur les réseaux sociaux. Si certains apportent parfois une valeur éducative réelle, beaucoup d'autres profitent malheureusement de leur visibilité pour promouvoir des projets douteux ou des stratégies de trading particulièrement risquées, voire frauduleuses. Ces individus sont généralement motivés par leurs intérêts financiers personnels, recevant souvent des rémunérations directes ou indirectes en échange de la promotion de certains tokens ou plateformes.
 
-007
+008
 
 Ces influenceurs adoptent des tactiques éprouvées pour séduire les débutants : ils publient des résultats financiers impressionnants (souvent truqués ou impossibles à vérifier), vantent leur succès personnel à travers un mode de vie luxueux et présentent des stratégies d'investissement miraculeuses. Ils cherchent à susciter le FOMO, la peur de manquer une opportunité, afin d’inciter leurs abonnés à prendre des décisions impulsives et à investir sans réfléchir.
 
@@ -210,48 +212,123 @@ Se prémunir contre les arnaques est une première étape importante pour la pro
 
 ![sécurité en ligne](https://youtu.be/d9Ccy17yWB0)
 
-Outre les arnaques en crypto-monnaie et autour de la finance, la première raison de perdre des bitcoins est liée à une mauvaise gestion de sa sécurité en ligne. Il arrive souvent que les gens utilisent le même mot de passe pour toutes leurs comptes, oublient de mettre à jour leur ordinateur et négligent de sauvegarder régulièrement leurs données. Si vous vous sentez concerné par ces pratiques, ne vous inquiétez pas, il est toujours possible d'améliorer vos habitudes de sécurité en ligne. Voici quelques mesures de base à mettre en place :
+Dès l’instant où vous vous intéressez à Bitcoin, les questions de cybersécurité deviennent essentielles. Les fraudes financières et les arnaques ne sont pas les seules menaces : la perte accidentelle de données, l’infection par un malware ou le vol de mots de passe peuvent eux aussi causer des dommages considérables. L’objectif de ce chapitre est de vous présenter des mesures de protection simples et efficaces, applicables à tout utilisateur désireux de renforcer son hygiène numérique.
 
-- Utiliser un gestionnaire de mots de passe (voir le tutoriel LastPass),
-- Activer l'authentification à deux facteurs (2FA),
-- Maintenir votre ordinateur à jour et exempt de malwares,
-- Valoriser votre vie privée en utilisant des outils dédiés (Signal, Tor, ProtonMail).
-
-Si ce sujet vous est complètement inconnu, la formation SCU 101 peut être intéressante pour l'approfondir en détail.
+Si vous souhaitez aller plus loin dans chacun de ces aspects, Plan ₿ Network propose une formation complète SEC101 qui entre dans le détail des stratégies de cybersécurité :
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Il est crucial de maintenir votre ordinateur dans un état de fonctionnement optimal, que vous vous intéressiez à Bitcoin ou non. Une mise à jour n'est pas seulement là pour ajouter de nouvelles fonctionnalités : elle corrige également les bugs et améliore la sécurité de vos logiciels. Assurez-vous donc de :
+### Pourquoi la sécurité informatique est importante ?
 
-- Toujours mettre à jour vos logiciels,
-- Utiliser un logiciel antivirus fiable,
-- Être vigilant lors du téléchargement de fichiers,
-- Sauvegarder régulièrement vos données,
-- Ne jamais partager vos mots de passe.
+Bitcoin apporte la possibilité de détenir sa monnaie directement, sans aucun intermédiaire. Mais cette souveraineté financière a son revers : si quelqu’un dérobe vos bitcoins (à cause d’une faille de sécurité), il est impossible de revenir en arrière. Contrairement aux banques traditionnelles, il n’y a ni réclamation ni assurance si vous vous faites pirater vos actifs.
 
-Un conseil supplémentaire : envisagez d'acheter un disque dur externe et effectuez une sauvegarde complète de vos fichiers importants. Cela pourrait s'avérer précieux en cas de défaillance de votre ordinateur.
+De plus, l’attrait économique de Bitcoin en fait une cible de choix pour des personnes malintentionnées : un hacker qui vole vos BTC peut les transférer instantanément sur son propre portefeuille, sans avoir à craindre un remboursement forcé. Dans ce contexte, une bonne hygiène informatique n’est pas un luxe : c’est la première ligne de défense pour éviter de voir ses efforts et son argent envolés.
 
-Un gestionnaire de mots de passe est un logiciel qui stocke et gère vos mots de passe. Il vous aide à ne jamais utiliser deux fois le même mot de passe, à choisir des mots de passe complexes et sécurisés, et facilite votre gestion de la sécurité en ligne. Vous n'avez qu'à vous souvenir d'un seul mot de passe maître. Il s'agit d'un outil gratuit dont tout le monde devrait profiter. Vous pouvez commencer à l'utiliser progressivement et une fois que vous vous y serez habitué, vous le trouverez extrêmement pratique et facile à utiliser.
+### Un ordinateur propre et à jour
 
-![gestionaire de mdp](assets/prerequis/12.webp)
+Un point souvent négligé est la mise à jour régulière de vos logiciels et de votre système d’exploitation. Certaines mises à jour corrigent des failles de sécurité susceptibles d’être exploitées par des pirates. Beaucoup hésitent à les installer, de crainte que leur machine devienne plus lente ; en réalité, ne pas mettre à jour son PC vous expose à des vulnérabilités documentées et déjà corrigées.
 
-La 2FA offre une couche de sécurité supplémentaire à vos comptes les plus sensibles, qu'il s'agisse de plateformes de cryptomonnaies, de comptes Google / Email, de banques ou de sites d'achat en ligne. Une deuxième identification, généralement un code à 6 chiffres accessible depuis votre téléphone, est nécessaire pour vous connecter. N'oubliez pas de conserver une copie de sauvegarde de la clé quelque part en cas de perte de votre téléphone.
+De même, l’utilisation d’un antivirus fiable est vivement recommandée. Sur Windows, Windows Defender (installé par défaut) peut convenir aux utilisateurs ordinaires ; si vous le souhaitez, vous pouvez opter pour un antivirus commercial (comme Kaspersky, par exemple). Sur Mac, la menace de malware est historiquement moindre, mais reste possible : il est toujours bon de prendre des précautions.
 
-![gestionaire de mdp](assets/prerequis/3.webp)
-![gestionaire de mdp](assets/prerequis/4.webp)
+012
 
-Un VPN, ou réseau privé virtuel, protège votre vie privée en masquant votre adresse IP. Si cela ne vous rend pas complètement anonyme, c'est néanmoins une étape simple et efficace pour améliorer votre confidentialité en ligne. Choisir un VPN, le télécharger et l'utiliser est un processus facile à mettre en place.
+En plus de ces points, méfiez-vous des téléchargements provenant de sites douteux ou de portails de téléchargement universels. Lorsque vous avez besoin d’un logiciel, privilégiez la source officielle. Cela réduit drastiquement les risques que des programmes malveillants soient embarqués dans ce que vous pensez être un fichier légitime. Une autre bonne pratique est de toujours vérifier l'authenticité et l'intégrité d'un logiciel avant de l'installer sur votre machine. Si vous ne savez pas comment le faire, nous avons un tutoriel dédié à ce sujet :
 
-L'anonymat en ligne est essentiel pour une société libre et prospère. Il permet la liberté d'expression, la protection des témoins et l'innovation. La confidentialité est un droit humain fondamental. Pour continuer à protéger votre vie privée, envisagez d'utiliser :
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-- PGP pour vos emails,
-- Signal pour vos messages,
-- Firefox ou TOR pour votre navigation,
-- Sync pour le partage de fichiers,
-- Bitlocker pour chiffrer vos données,
-- Samurai Wallet pour les transferts d'argent.
+Enfin, pensez à sauvegarder régulièrement vos données. Un disque dur externe (ou un SSD) vous permettra de conserver un duplicata de vos fichiers importants. Cela vous évitera de gros regrets en cas de panne soudaine, d’infection ou d’erreur de manipulation. Si vous préférez les solutions en ligne, il existe des services sécurisés comme Proton Drive par exemple.
 
-Ecnore une fois, si ce sujet vous intéresse, la formation SECU 101 est disponible pour vous accompagner.
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Une stratégie de sauvegarde généralement conseillée est la règle du "3-2-1". Elle vise à protéger vos données contre la perte accidentelle, les attaques informatiques ou les catastrophes naturelles. Cette règle implique de conserver au minimum **3 copies** de vos données importantes, stockées sur au moins **2 supports différents** (par exemple, un disque dur local et un stockage cloud), tout en gardant toujours **1 copie hors site** (physiquement éloignée de votre lieu principal). Cette méthode garantit une bonne résilience de vos données.
+
+013
+
+### La solution au cauchemar des identifiants
+
+La première raison pour laquelle tant de gens se font pirater est la faiblesse de leurs mots de passe. On estime qu’une part importante des internautes utilise le même mot de passe pour plusieurs comptes, ou choisit une variante triviale facile à deviner. **Les gestionnaires de mots de passe** répondent précisément à ce problème.
+
+Un gestionnaire de mots de passe vous permet :
+- De stocker tous vos mots de passe sous forme chiffrée ;
+- De générer automatiquement des identifiants longs, aléatoires, uniques et complexes ;
+- D’avoir un seul mot de passe maître à mémoriser pour accéder à tous les autres.
+
+Avec un gestionnaire de mot de passe, vous n’aurez plus jamais à cliquer sur "Mot de passe oublié" ou à inventer des mots de passe faibles. Vous pouvez facilement retrouver l'accès à tous vos identifiants. En prime, ces logiciels peuvent se synchroniser sur plusieurs appareils (ordinateur, téléphone, tablette) et facilitent la connexion automatique à vos sites habituels.
+
+011
+
+De nombreux logiciels de gestion de mots de passe sont disponibles, mais je peux vous en recommander deux selon vos besoins. Si vous recherchez un logiciel facile à utiliser et synchronisable sur plusieurs appareils, Bitwarden est une excellente option :
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+Si vous préférez un logiciel local, uniquement sur votre ordinateur, KeePass est une bonne solution :
+
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+
+### 2FA : la double protection
+
+Même avec un mot de passe fort, le risque zéro n’existe pas. C’est pourquoi l’**authentification à deux facteurs** (2FA) est une couche de sécurité supplémentaire désormais considérée comme indispensable. Dès qu'il est possible de l'utiliser, vous devriez la mettre en place, surtout pour vos comptes sensibles.
+
+014
+
+Le concept est très simple : après avoir entré votre mot de passe sur un site, vous devez fournir un code temporaire (composé de 6 chiffres en général) généré par une application sur votre téléphone (Google Authenticator, Authy...). Ainsi, un pirate qui détiendrait votre mot de passe mais pas l’accès physique à votre téléphone ne pourrait pas se connecter à votre compte.
+
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+009
+
+Lorsque vous activez la 2FA, veillez à conserver la clé de récupération de votre application, afin de pouvoir recréer vos codes en cas de perte ou de changement de téléphone. Quant à la double authentification par SMS ou par email, elle reste mieux que rien, mais est nettement moins sûre : un simple vol ou clonage de carte SIM (*SIM swap*) peut la mettre en échec. 
+
+010
+
+Pour ceux qui souhaitent aller plus loin, il existe des solutions par clé physique (comme YubiKey) qui offre un degré de sécurité encore supérieur.
+
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
+### Protéger sa vie privée
+
+La protection de la vie privée et la cybersécurité sont étroitement liées : plus vous laissez d’informations en libre accès, plus vous risquez de devenir une cible.
+
+Un **VPN** (*Virtual Private Network*) peut déjà constituer un pas simple pour masquer votre adresse IP et chiffrer vos échanges sur Internet. Cela ne vous rend pas invisible, puisque le fournisseur de VPN peut encore voir vos actions, mais cela rend la tâche plus compliquée à quiconque chercherait à vous espionner ou à cibler vos habitudes de navigation. L’important est de choisir un VPN de confiance, qui ne vous demande pas votre identité, qui permet un paiement su service en satoshis et qui ne conserve pas de journaux d’activité.
+
+015
+
+Nous disposons de plusieurs tutoriels sur Plan ₿ Network pour apprendre à configurer facilement un VPN. Je pourrais notamment vous recommander IVPN ou Mullvad :
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+Les gestes essentiels pour préserver sa confidentialité en ligne incluent également  :
+
+- L’utilisation de **messageries chiffrées** comme Signal, SimpleX ou encore Session ;
+- L’utilisation de **navigateurs** plus respectueux de la vie privée, tels que Firefox, Brave ou Tor (pour un anonymat renforcé) ;
+
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+- L'utilisation d'une **boite mail sécurisée** (comme ProtonMail, par exemple) ;
+
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
+- Le **chiffrement** de vos fichiers grâce à des outils comme Bitlocker (sur Windows) ou VeraCrypt (multi-plateformes).
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
+### Avancer par étapes
+
+La sécurité informatique peut sembler un chantier immense. Beaucoup de débutants abandonnent l’idée de tout mettre en place d’un coup, jugeant la tâche trop complexe. Pour éviter cet écueil, abordez chaque outil pas à pas. Par exemple, commencez par installer un gestionnaire de mots de passe, laissez-vous quelques semaines pour vous familiariser avec celui-ci, puis passez à l’étape suivante : l’activation du 2FA sur un premier compte, etc.
+
+Au fil du temps, vous prendrez confiance dans ces solutions et serez prêt à adopter d’autres pratiques, comme l’usage d’une adresse email secondaire, la migration vers ProtonMail, l’installation d’un VPN ou la navigation via Tor pour les situations qui l’exigent.
+
+À mesure que vous avancerez dans l’univers de Bitcoin, vous vous rendrez compte que les menaces grandissent avec la valeur que peut prendre votre portefeuille. S’armer de bonnes pratiques, renforcer sa confidentialité et mettre en place les outils adéquats procurent non seulement une tranquillité d’esprit, mais renforcent aussi la souveraineté que prône l’esprit Bitcoin.
+
+En résumé : ne sous-estimez jamais la cybersécurité, prenez le temps d’installer les protections de base, et rappelez-vous que le point central reste votre discipline : sans une hygiène numérique rigoureuse, les meilleurs outils du monde ne vous serviront pas.
+
+Je vous conseille également d'aller faire un tour sur [nos tutoriels dédiés à la sécurité informatique](https://planb.network/tutorials/computer-security) sur Plan ₿ Network.
+
+016
+
+Dans le prochain chapitre, je vais vous donner quelques conseils supplémentaires pour commencer votre parcours sur Bitcoin dans les meilleures conditions et pour vous éviter de tomber dans les nombreux pièges.
 
 ## Conseils pour novice
 

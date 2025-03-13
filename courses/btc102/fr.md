@@ -21,36 +21,72 @@ Structuré de façon à vous laisser pleinement maître de votre apprentissage, 
 
 +++
 
-# Introduction et prérequis pour comprendre Bitcoin
+# Introduction
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Introduction à la formation BTC102
+## Présentation de la formation
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
-Bienvenue dans BTC 102 ! Un cours pratique qui va vous accompagner dans la mise en place de votre plan Bitcoin ! À travers ce cours, nous allons donc nous préparer à obtenir vos premiers bitcoins, les sécuriser correctement et garantir une bonne entrée dans cette nouvelle industrie.
+Bienvenue dans la formation BTC102 ! Vous avez peut-être déjà suivi la formation BTC101 et découvert les concepts théoriques fondamentaux qui font de Bitcoin une révolution technologique majeure. Avec BTC102, il est maintenant temps de passer à la pratique : cette formation a été spécialement conçue pour vous aider à mettre en place concrètement votre plan Bitcoin personnel. Dans les prochains chapitres, nous allons donc vous accompagner étape par étape pour **obtenir vos premiers bitcoins**, les **sécuriser** efficacement et réussir votre entrée dans cet écosystème en pleine expansion.
 
-L'industrie du bitcoin est encore jeune et considérée comme un phénomène en constante évolution. En effet, malgré de nombreuses années passées à essayer de réguler ce marché, il reste extrêmement libre en raison de la nature de son protocole sous-jacent.
+https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
-De par cette impossibilité d'être régulé entièrement, Bitcoin a pu se développer de manière organique et décentralisée pendant plus de 14 ans. C'est donc une industrie en pleine explosion embryonnaire et qui ne demande qu'à continuer de croître.
+Malgré son existence depuis plus de 16 ans, l'industrie de Bitcoin demeure jeune, dynamique et profondément libre. En effet, son protocole sous-jacent, entièrement décentralisé et impossible à contrôler totalement par une autorité centrale, permet à cet écosystème de se développer de manière naturelle et organique. Si cette liberté favorise une incroyable vague d'innovations et de possibilités, elle expose aussi ses utilisateurs à certains risques, notamment des arnaques, des erreurs courantes ou des pièges liés à un manque de connaissance. L'objectif principal de cette formation est justement de vous aider à naviguer sereinement et en toute sécurité dans ce nouvel écosystème.
 
-Qui dit explosion d'innovations et de possibilités dit forcément scams, arnaques et risques. Il va de soi que votre parcours dans Bitcoin ne se fera pas sans rebondissements ni erreurs. Néanmoins, afin de vous aider à les éviter au maximum, cette formation servira de guide pratique pour bien commencer. La formation BTC 101, quant à elle, est plus théorique pour bien comprendre le fonctionnement du Bitcoin.
+Pour cela, la formation BTC102 est structurée en plusieurs sections, chacune abordant un aspect essentiel pour votre parcours personnel avec Bitcoin :
 
-Dans cette formation, nous allons nous focaliser sur 4 angles :
+La première section, intitulée "Prérequis pour comprendre Bitcoin", vous prépare efficacement au parcours qui suit. Vous y apprendrez à identifier clairement les principaux pièges liés aux arnaques et fraudes financières qui peuvent exister dans l’écosystème Bitcoin. Nous vous enseignerons ensuite les bases essentielles de la sécurité en ligne. Enfin, je vous donnerai quelques conseils pratiques spécialement conçus pour les novices, destinés à éviter les erreurs fréquentes lors de vos premières interactions avec Bitcoin.
 
-- Revoir les bases et les prérequis pour être sûr de ne pas se faire arnaquer ou perdre son argent bêtement.
-- Revoir fondamentalement pourquoi Bitcoin est important et comprendre son industrie. Cela permettra de renforcer nos convictions et de bien comprendre dans quoi nous nous lançons.
-- Mettre en place votre premier portefeuille Bitcoin ainsi que votre premier achat de bitcoins via une plateforme d'échange. Ici, nous chercherons la solution la plus adaptée à vos besoins.
-- Enfin, la dernière section abordera un concept fondamental pour votre sécurité, mais trop peu exploré dans l'industrie : comment créer un plan d'héritage Bitcoin.
+IMAGE
 
-Vous l'avez compris, cette formation a vraiment pour but de vous accompagner afin que vous respectiez les meilleures pratiques de notre industrie dès le début, de manière simple et rapide !
+La deuxième section, "Comprendre dans quoi on se lance", vous permettra d'approfondir votre compréhension globale de Bitcoin. Nous commencerons par un rappel pour vous assurer que vous maîtrisez parfaitement les concepts essentiels. Puis, nous détaillerons précisément pourquoi Bitcoin revêt une importance fondamentale d'un point de vue technologique, économique et social, afin de renforcer vos convictions. Vous découvrirez ensuite l’industrie de Bitcoin dans sa globalité : ses acteurs, son organisation et son évolution au fil des années. Enfin, nous aborderons l'architecture en couches de l'écosystème Bitcoin, un concept important pour comprendre comment ce système continue sans cesse d'innover sans pour autant affaiblir le protocole de base.
 
-Bonne chance :)
+IMAGE
+
+La troisième section, "Mise en place de votre plan", se focalise sur votre approche personnelle de Bitcoin. Nous commencerons par vous aider à définir votre profil d’utilisateur parmi quatre grandes catégories : 
+- *le hodler*, focalisé sur la détention de long terme ;
+- *le stacker*, qui réalise des achats réguliers et méthodiques ;
+- *l'utilisateur*, qui privilégie un usage quotidien ;
+- et enfin *le parano*, soucieux d'une sécurité maximale pour protéger efficacement son patrimoine et sa confidentialité.
+
+Vous serez accompagné pas à pas dans la mise en place d'une stratégie adaptée à votre profil personnel et à vos objectifs spécifiques.
+
+IMAGE
+
+Enfin, la quatrième partie, "Protéger ses héritiers et son patrimoine", aborde un sujet crucial souvent oublié : comment assurer la transmission de vos bitcoins à vos proches en cas d’événement imprévu. Vous apprendrez concrètement à créer et à mettre en place un plan d’héritage Bitcoin, afin de garantir la pérennité de votre patrimoine au-delà de votre propre existence.
+
+IMAGE
+
+À l'issue de cette formation, vous disposerez de toutes les clés pratiques nécessaires pour évoluer sereinement dans l’écosystème Bitcoin et figurer ainsi parmi les utilisateurs les plus avancés !
+
+Bonne chance dans votre parcours !
+
+# Prérequis pour comprendre Bitcoin
+
+<partId>4481fc4b-0f83-489e-ad07-81517c5d6bad</partId>
 
 ## Arnaques et fraudes financières
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Nous sommes dans une industrie ou deux branches principales émergent dans le secteur des "cryptomonnaies" :
 

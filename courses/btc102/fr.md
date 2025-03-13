@@ -119,7 +119,7 @@ Il convient de souligner que le contenu de ce cours est destiné à des fins pur
 
 La meilleure protection est de toujours poser cette question simple : **D’où vient réellement le rendement promis ?** Si la réponse est floue, fuyez immédiatement.
 
-#### Le Pump & Dump
+#### Pump & Dump
 
 Cette autre escroquerie consiste à manipuler artificiellement le prix d’un actif (souvent un token de cryptomonnaie peu liquide) à travers une campagne marketing coordonnée, généralement orchestrée par un groupe d’investisseurs. Le mécanisme typique d’un Pump & Dump est le suivant :
 - Un leader d'opinion ou un groupe d'investisseurs accumule d'abord un grand nombre d'actions ou d'autres actifs ciblés ;
@@ -146,7 +146,7 @@ Parfois, ces escroqueries peuvent également prendre la forme d'une arnaque aux 
 
 005
 
-#### Shitcoins et fausses cryptomonnaies offertes
+#### Shitcoins et cryptomonnaies offertes
 
 Des projets de crypto-monnaies centralisés offrent parfois des jetons gratuits ("*airdrops*") pour attirer les utilisateurs. Ces jetons n’ont généralement aucune valeur réelle et servent uniquement à créer une illusion de popularité ou à encourager la spéculation. Soyez extrêmement prudent face à ces offres promotionnelles.
 
@@ -156,7 +156,7 @@ Les attaquants emploient fréquemment des faux sites, faux comptes ou e-mails tr
 
 Avant de cliquer sur un lien ou de prendre une quelconque action, assurez-vous toujours de vérifier l’identité exacte de l’expéditeur, ou préférez accéder au site manuellement, sans utiliser le lien fourni. De manière plus générale, ne divulguez jamais vos clés privées ou vos mots de passe à quiconque.
 
-#### Les hardforks de Bitcoin
+#### Hardforks de Bitcoin
 
 Bitcoin a subi plusieurs *hardforks* au fil du temps, donnant naissance à des versions alternatives de la monnaie originale. Concrètement, un *hardforks* correspond à une scission du réseau en deux blockchains distinctes partageant un historique commun jusqu'au moment de la séparation. Ces divisions surviennent généralement lorsqu'une partie des développeurs ou de la communauté Bitcoin souhaite apporter des modifications radicales au protocole original, mais n'obtient pas un consensus suffisant. Incapables de convaincre la majorité, ils choisissent alors de créer une version alternative de Bitcoin, avec des règles modifiées, en espérant que la communauté les suive.
 
@@ -189,6 +189,8 @@ Face à cette réalité, voici quelques bonnes pratiques à adopter pour éviter
 Enfin, souvenez-vous que chaque personne que vous rencontrez dans l'écosystème Bitcoin ou crypto a nécessairement un agenda personnel, explicite ou implicite, et qu'il n’y a pas d’information totalement neutre. Même ce cours BTC102 que vous suivez actuellement poursuit l’objectif clair de promouvoir une meilleure compréhension de Bitcoin. Soyez donc attentif aux motivations réelles derrière chaque contenu auquel vous êtes exposé. Gardez toujours à l’esprit ce principe essentiel : Si un produit ou un service semble gratuit, c'est probablement que c'est vous le produit.
 
 La meilleure protection reste l’éducation personnelle, le scepticisme bien placé, et surtout, l’habitude constante de vérifier les faits par vous-même.
+
+### Comment éviter les arnaques ?
 
 **Enfin, voici quelques conseils pour éviter les arnaques en ligne :**
 - Ne faites jamais confiance aveuglément : "*Don't trust, verify*" ;

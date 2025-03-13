@@ -456,17 +456,13 @@ Trong khi làm việc trên RGB, chúng tôi đã xác định được ít nh�
 - Xác định con dấu thông qua giá trị của khóa công khai và đóng nó trong _input_;
 - Xác định dấu niêm phong thông qua _outpoint_ và đóng nó trong _input_.
 
-| Định nghĩa về con dấu | Đóng con dấu | Các yêu cầu bổ sung | Ứng dụng chính | Các chương trình cam kết có thể có |
+| Tên sơ đồ    | Định nghĩa niêm phong      | Đóng niêm phong       | Yêu cầu bổ sung                                                | Ứng dụng chính               | Các sơ đồ cam kết có thể có   |
+| ------------ | ------------------------- | --------------------- | -------------------------------------------------------------- | ---------------------------- | ------------------------------ |
+| PkO          | Giá trị của khóa công khai | Đầu ra giao dịch      | P2(W)PKH                                                       | Hiện tại chưa có             | Keytweak, taptweak, opret      |
+| TxO2         | Đầu ra giao dịch          | Đầu ra giao dịch      | Yêu cầu các cam kết xác định trên Bitcoin                      | RGBv1 (phổ quát)             | Keytweak, tapret, opret        |
+| PkI          | Giá trị của khóa công khai | Đầu vào giao dịch     | Chỉ hỗ trợ Taproot & không tương thích với ví Legacy          | Danh tính dựa trên Bitcoin   | Sigtweak, witweak              |
+| TxO1         | Đầu ra giao dịch          | Đầu vào giao dịch     | Chỉ hỗ trợ Taproot & không tương thích với ví Legacy          | Hiện tại chưa có             | Sigtweak, witweak              |
 
-| ------------- | ------------------------- | --------------------- | ------------------------------------------------------------------ | ---------------------------- | ------------------------------ |
-
-| P2(W)PKH | Hiện tại không có | Keytweak, taptweak, opret |
-
-| TxO2 | Đầu ra giao dịch | Đầu ra giao dịch | Yêu cầu cam kết xác định trên Bitcoin | RGBv1 (phổ biến) | Keytweak, tapret, opret |
-
-| PkI | Giá trị khóa công khai | Mục nhập giao dịch | Chỉ Taproot & không tương thích với ví Legacy | Danh tính dựa trên Bitcoin | Sigtweak, witweak |
-
-| TxO1 | Đầu ra giao dịch | Đầu vào giao dịch | Chỉ Taproot & không tương thích với ví Legacy | Hiện tại không có | Sigtweak, witweak |
 
 Chúng tôi sẽ không đi sâu vào từng cấu hình này, vì trong RGB, chúng tôi đã chọn sử dụng **một _outpoint_ làm định nghĩa của seal** và đặt _commitment_ vào đầu ra của giao dịch chi tiêu _outpoint_ này. Do đó, chúng tôi có thể giới thiệu các khái niệm sau cho phần tiếp theo:
 
@@ -736,79 +732,50 @@ Khi chúng tôi bắt đầu RGB, chúng tôi đã xem xét tất cả các phư
 - Khó khăn trong việc triển khai và bảo trì;
 - Tính bảo mật và chống kiểm duyệt.
 
-| Theo dõi và định cỡ trên chuỗi | Định cỡ phía máy khách | Tích hợp danh mục đầu tư | Khả năng tương thích phần cứng | Khả năng tương thích Lightning | Khả năng tương thích Taproot |
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | -------------- | --------------------- |
+| Phương pháp                                        | Dấu vết và kích thước on-chain | Kích thước phía client | Tích hợp ví | Tương thích phần cứng | Tương thích Lightning | Tương thích Taproot |
+| -------------------------------------------------- | ------------------------------ | ---------------------- | ------------- | ---------------------- | ---------------------- | ---------------------- |
+| Keytweak (P2C xác định)                            | 🟢                              | 🟡                       | 🔴                          | 🟠                        | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🟢 MuSig  |
+| Sigtweak (S2C xác định)                            | 🟢                              | 🟢                       | 🟠                          | 🔴                        | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🔴 MuSig  |
+| Opret (OP_RETURN)                                  | 🔴                              | 🟢                       | 🟢                          | 🟠                        | 🔴 BOLT, 🟠 Bifrost     | -                     |
+| Thuật toán Tapret : nút trên cùng bên trái        | 🟠                              | 🔴                       | 🟠                          | 🟢                        | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
+| Thuật toán Tapret #4 : bất kỳ nút nào + bằng chứng | 🟢                              | 🟠                       | 🟠                          | 🟢                        | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
 
-| Keytweak (P2C xác định) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
+| Lược đồ cam kết xác định                              | Tiêu chuẩn    | Chi phí on-chain                                                                                                          | Kích thước bằng chứng phía client                                                                                     |
+| ------------------------------------------------------ | ------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| Keytweak (P2C xác định)                               | LNPBP-1, 2    | 0 bytes                                                                                                                  | 33 bytes (khóa chưa chỉnh sửa)                                                                                       |
+| Sigtweak (S2C xác định)                               | WIP (LNPBP-39)| 0 bytes                                                                                                                  | 0 bytes                                                                                                              |
+| Opret (OP_RETURN)                                     | -             | 36 (v)bytes (TxOut bổ sung)                                                                                             | 0 bytes                                                                                                              |
+| Thuật toán Tapret : nút trên cùng bên trái           | LNPBP-6       | 32 bytes trong nhân chứng (8 vbytes) trên bất kỳ multisig n-of-m nào và chi tiêu theo đường dẫn script                 | 0 bytes trên scriptless scripts taproot ~270 bytes trong trường hợp script duy nhất, ~128 bytes nếu có nhiều script |
+| Thuật toán Tapret #4 : bất kỳ nút nào + bằng chứng   | LNPBP-6       | 32 bytes trong nhân chứng (8 vbytes) cho các trường hợp script duy nhất, 0 bytes trong nhân chứng trong hầu hết các trường hợp khác | 0 bytes trên scriptless scripts taproot, 65 bytes cho đến khi Taptree có khoảng một chục script                      |
 
-| Sigtweak (S2C xác định) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
-
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifroft | - |
-
-| Thuật toán Tapret: nút trên cùng bên trái | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifroft | 🟢 Taproot, 🟢 MuSig |
-
-| Thuật toán Tapret #4: bất kỳ nút nào + bằng chứng | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Kế hoạch cam kết xác định | Tiêu chuẩn | Chi phí trên chuỗi | Quy mô bằng chứng từ phía khách hàng |
-
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-
-| Keytweak (P2C xác định) | LNPBP-1, 2 | 0 byte | 33 byte (khóa chưa chỉnh sửa) |
-
-| Sigtweak (S2C xác định) | WIP (LNPBP-39) | 0 byte | 0 byte |
-
-| Opret (OP_RETURN) | - | 36 (v)byte (TxOut bổ sung) | 0 byte |
-
-| Thuật toán Tapret: nút trên cùng bên trái | LNPBP-6 | 32 byte trong chứng thực (8 vbyte) trên bất kỳ đa chữ ký n-of-m nào và chi tiêu cho mỗi đường dẫn tập lệnh | 0 byte trên các tập lệnh không có tập lệnh taproot ~270 byte trong một trường hợp tập lệnh duy nhất, ~128 byte nếu có nhiều hơn một tập lệnh |
-
-| Thuật toán Tapret số 4: bất kỳ nút nào + bằng chứng duy nhất | LNPBP-6 | 32 byte trong chứng cứ (8 vbyte) cho các trường hợp tập lệnh đơn, 0 byte trong chứng cứ trong hầu hết các trường hợp khác | 0 byte trên các tập lệnh không có tập lệnh taproot, 65 byte cho đến khi Taptree có một tá tập lệnh |
-
-| Lớp | Chi phí trên chuỗi (byte/vbyte) | Chi phí trên chuỗi (byte/vbyte) | Chi phí trên chuỗi (byte/vbyte) | Chi phí trên chuỗi (byte/vbyte) | Chi phí trên chuỗi (byte/vbyte) | Chi phí phía máy khách (byte) | Chi phí phía máy khách (byte) | Chi phí phía máy khách (byte) | Chi phí phía máy khách (byte) | Chi phí phía máy khách (byte) | Chi phí phía máy khách (byte) | Chi phí phía máy khách (byte) |
-
+| Lớp                          | Chi phí on-chain (bytes/vbytes) | Chi phí on-chain (bytes/vbytes) | Chi phí on-chain (bytes/vbytes) | Chi phí on-chain (bytes/vbytes) | Chi phí on-chain (bytes/vbytes) | Chi phí phía client (bytes) | Chi phí phía client (bytes) | Chi phí phía client (bytes) | Chi phí phía client (bytes) | Chi phí phía client (bytes) |
 | ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
+| **Loại**                       | **Tapret**                   | **Tapret #4**                | **Keytweak**                 | **Sigtweak**                 | **Opret**                    | **Tapret**               | **Tapret #4**            | **Keytweak**             | **Sigtweak**             | **Opret**                |
+| Single-sig                     | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | 0?                       | 0                        |
+| MuSig (n-of-n)                 | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | ? > 0                    | 0                        |
+| Multi-sig 2-of-3               | 32/8                         | 32/8 hoặc 0                   | 0                            | n/a                          | 32                           | ~270                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 3-of-5               | 32/8                         | 32/8 hoặc 0                   | 0                            | n/a                          | 32                           | ~340                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 2-of-3 với timeouts  | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
 
-| **Loại** | **Tapret** | **Tapret #4** | **Chỉnh sửa phím** | **Sigtweak** | **Từ chối** | **Tapret** | **Tapret #4** | **Chỉnh sửa phím** | **Sigtweak** | **Từ chối** |
-
-| Chữ ký đơn | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-trong-n) | 0 | 0 | 0 | 32 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Đa chữ ký 2 trong 3 | 32/8 | 32/8 hoặc 0 | 0 không có | 32 | ~270 | 65 | 32 | không có | 0 |
-
-| Đa chữ ký 3-trong-5 | 32/8 | 32/8 hoặc 0 | 0 không có | 32 | ~340 | 65 | 32 | không có | 0 |
-
-| Đa chữ ký 2 trong 3 với thời gian chờ | 32/8 | 0 | 0 không có | 32 | 64 | 65 | 32 | không có | 0 | 0
-
-| Lớp | Chi phí trên chuỗi (vbyte) | Chi phí trên chuỗi (vbyte) | Chi phí trên chuỗi (vbyte) | Chi phí ở phía máy khách (byte) | Chi phí ở phía máy khách (byte) |
-
+| Lớp                              | Chi phí on-chain (vbytes) | Chi phí on-chain (vbytes) | Chi phí on-chain (vbytes) | Chi phí phía client (bytes) | Chi phí phía client (bytes) |
 | -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
+| **Loại**                         | **Cơ bản**             | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                        | 0                        |
+| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                        | 0                        |
+| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
+| Nhánh MuSig / Multi_a (n-of-m)   | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+| Với timeouts (n-of-m)            | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
 
-| **Loại** | **Cơ sở** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** |
+| Phương pháp                                 | Bảo mật và khả năng mở rộng | Tính tương tác | Tương thích | Di động | Độ phức tạp |
+| ------------------------------------------- | -------------------------- | -------------- | ----------- | ------- | ----------- |
+| Keytweak (P2C xác định)                     | 🟢                         | 🔴             | 🔴          | 🟡      | 🟡         |
+| Sigtweak (S2C xác định)                     | 🟢                         | 🔴             | 🔴          | 🟢      | 🔴         |
+| Opret (OP_RETURN)                           | 🔴                         | 🟠             | 🔴          | 🟢      | 🟢         |
+| Thuật toán Tapret : nút trên cùng bên trái  | 🟠                         | 🟢             | 🟢          | 🔴      | 🟠         |
+| Thuật toán Tapret #4 : Nút bất kỳ + bằng chứng | 🟢                         | 🟢             | 🟢          | 🟠      | 🔴         |
 
-| MuSig (n-trong-n) | 16,5 | 0 | 0 | 0 | 0 | 0
 
-| FROST (n-of-m) | ? | 0 | 0 | 0 | 0 |
-
-| Đa_a (n-của-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 |
-
-| Nhánh MuSig / Multi_a (n-of-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Với thời gian chờ (n/m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Phương pháp | Tính bảo mật và khả năng mở rộng | Khả năng tương tác | Tính tương thích | Khả năng di động | Độ phức tạp |
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-| Keytweak (P2C xác định) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 |
-
-| Sigtweak (S2C xác định) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 |
-
-| Algo Tapret: nút trên cùng bên trái | 🟠 | 🟢 | 🔴 | 🟠 |
-
-| Algo Tapret #4: Bất kỳ nút nào + bằng chứng | 🟢 | 🟢 | 🟠 | 🔴 |
 
 Trong quá trình nghiên cứu, rõ ràng là không có chương trình cam kết nào hoàn toàn tương thích với tiêu chuẩn Lightning hiện tại (không sử dụng Taproot, _muSig2_ hoặc hỗ trợ _cam kết_ bổ sung). Các nỗ lực đang được tiến hành để sửa đổi cấu trúc kênh của Lightning (*BiFrost*) để cho phép chèn các cam kết RGB. Đây là một lĩnh vực khác mà chúng ta cần xem xét lại cấu trúc giao dịch, các khóa và cách thức ký các bản cập nhật kênh.
 
@@ -1396,19 +1363,14 @@ Nếu trong hợp đồng, một phần tử trạng thái không được đị
 
 Bảng dưới đây minh họa cách mỗi loại Hoạt động hợp đồng có thể thao túng (hoặc không) Trạng thái toàn cầu và Trạng thái sở hữu:
 
-| Genesis | Mở rộng trạng thái | Chuyển đổi trạng thái |
+|                              | Genesis | Mở rộng trạng thái | Chuyển đổi trạng thái |
+| ---------------------------- | :-----: | :---------------: | :------------------: |
+| **Thêm Global State**        |    +    |        -         |        +           |
+| **Thay đổi Global State**    |   n/a   |        -         |        +           |
+| **Thêm Owned State**         |    +    |        -         |        +           |
+| **Thay đổi Owned State**     |   n/a   |       Không      |        +           |
+| **Thêm Valencies**           |    +    |        +         |        +           |
 
-| ---------------------------- | :------: | :-------------: | :--------------: |
-
-| **Thêm trạng thái toàn cầu** | + | - | + |
-
-| n/a | - | + | **Đột biến của Trạng thái Toàn cầu** | - | + |
-
-| **Thêm trạng thái sở hữu** | + | - | + |
-
-| **Đột biến của trạng thái sở hữu** | n/a | Không | + |
-
-| **Thêm Valencies** | + | + | + | + |
 
 **`+`** : hành động có thể thực hiện nếu Sơ đồ hợp đồng cho phép.
 
@@ -1416,15 +1378,12 @@ Bảng dưới đây minh họa cách mỗi loại Hoạt động hợp đồng 
 
 Ngoài ra, phạm vi thời gian và quyền cập nhật của từng loại dữ liệu có thể được phân biệt trong bảng sau:
 
-| Siêu dữ liệu | Trạng thái toàn cầu | Trạng thái sở hữu |
+|                                 | Metadata                                  | Trạng thái toàn cục                           | Trạng thái sở hữu                                                                                              |
+| ------------------------------- | ---------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Phạm vi**                     | Được xác định cho một thao tác hợp đồng duy nhất | Được xác định toàn cục cho hợp đồng         | Được xác định cho từng niêm phong (*Assignment*)                                                              |
+| **Ai có thể cập nhật?**         | Không thể cập nhật lại (dữ liệu tạm thời) | Thao tác do các tác nhân phát hành (issuer, v.v.) | Phụ thuộc vào chủ sở hữu hợp pháp của niêm phong (người có thể chi tiêu nó trong một giao dịch tiếp theo)  |
+| **Phạm vi thời gian**           | Chỉ trong thao tác hiện tại              | Trạng thái được thiết lập sau khi thao tác hoàn tất | Trạng thái được xác định trước thao tác (bởi *Seal Definition* của thao tác trước đó)                        |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-
-| Được định nghĩa cho một Hoạt động hợp đồng duy nhất | Được định nghĩa trên toàn cầu cho hợp đồng | Được định nghĩa cho mỗi con dấu (*Nhiệm vụ*) | Được định nghĩa cho một Hoạt động hợp đồng duy nhất | Được định nghĩa trên toàn cầu cho hợp đồng | Được định nghĩa cho mỗi con dấu (*Nhiệm vụ*) | Được định nghĩa cho mỗi con dấu (*Nhiệm vụ*) | Được định nghĩa cho mỗi hợp đồng
-
-| Không thể thực hiện được (dữ liệu tạm thời) | Giao dịch do các bên thực hiện (bên phát hành, v.v.) phát hành | Phụ thuộc vào người nắm giữ hợp pháp con dấu (người có thể sử dụng con dấu trong giao dịch tiếp theo) |
-
-| Trạng thái được định nghĩa trước thao tác (theo *Định nghĩa dấu* của thao tác trước đó) | Trạng thái được thiết lập khi kết thúc thao tác | Trạng thái được thiết lập khi kết thúc thao tác | Trạng thái được định nghĩa trước thao tác (theo *Định nghĩa dấu* của thao tác trước đó) | Trạng thái được thiết lập khi kết thúc thao tác | Trạng thái được định nghĩa trước thao tác (theo *Định nghĩa dấu* của thao tác trước đó)
 
 ### Nhà nước toàn cầu
 
@@ -1540,17 +1499,13 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Tuyên bố** | **Có thể thay thế** | **Có cấu trúc** | **Tệp đính kèm** |
-
+| **Thành phần**        | **Khai báo**   | **Có thể thay thế**                  | **Có cấu trúc**                | **Tệp đính kèm**             |
 | --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
+| **Dữ liệu**          | Không có       | Số nguyên có dấu hoặc không dấu 64 bit | Bất kỳ loại dữ liệu nghiêm ngặt nào | Bất kỳ tệp nào               |
+| **Loại thông tin**   | Không có       | Có dấu hoặc không dấu                 | Loại nghiêm ngặt               | Loại MIME                    |
+| **Bảo mật**         | Không yêu cầu  | Cam kết Pedersen                     | Băm với blinding               | Định danh tệp được băm       |
+| **Giới hạn kích thước** | N/A           | 256 byte                             | Tối đa 64 KB                   | Tối đa ~500 GB               |
 
-| Không có | Số nguyên có dấu hoặc không dấu 64 bit | Bất kỳ kiểu dữ liệu nghiêm ngặt nào | Bất kỳ tệp nào |
-
-| Loại thông tin** | Không có | Có dấu hoặc không có dấu | Kiểu nghiêm ngặt | Kiểu MIME |
-
-| Cam kết của Pedersen | Băm với làm mù | ID tệp băm
-
-| Giới hạn kích thước** | Không áp dụng | 256 byte | Tối đa 64 KB | Tối đa ~500 Gb |
 
 ### Đầu vào
 
@@ -1994,17 +1949,13 @@ Tóm lại, mỗi hợp đồng bao gồm:
 
 Để giúp làm rõ những khái niệm này, sau đây là bảng tóm tắt so sánh các thành phần của hợp đồng RGB với các khái niệm đã biết trong lập trình hướng đối tượng (OOP) hoặc trong hệ sinh thái Ethereum:
 
-| Thành phần hợp đồng RGB | Ý nghĩa | Tương đương OOP | Tương đương Ethereum |
+| Thành phần hợp đồng RGB     | Ý nghĩa                                  | Tương đương OOP                                   | Tương đương Ethereum               |
+| --------------------------- | --------------------------------------- | ------------------------------------------------ | ---------------------------------- |
+| **Genesis**                 | Trạng thái ban đầu của hợp đồng         | Class constructor                                | Contract constructor               |
+| **Schema**                  | Logic nghiệp vụ của hợp đồng            | Class                                            | Contract                           |
+| **Interface**               | Ngữ nghĩa của hợp đồng                  | Interface (Java) / trait (Rust) / protocol (Swift) | ERC Standard                       |
+| **Interface Implementation**| Ánh xạ ngữ nghĩa và logic              | Impl (Rust) / Implements (Java)                  | Application Binary Interface (ABI) |
 
-| ---------------------------- | ------------------------------ | -------------------------------------------------- | ---------------------------------- |
-
-| Trình xây dựng lớp | Trình xây dựng hợp đồng | Trạng thái ban đầu của hợp đồng
-
-| Lớp | Logic kinh doanh hợp đồng
-
-| Ngữ nghĩa hợp đồng | Giao diện (Java) / đặc điểm (Rust) / giao thức (Swift) | Tiêu chuẩn ERC |
-
-| Giao diện nhị phân ứng dụng (ABI) | Impl (Rust) / Implements (Java) | Ánh xạ ngữ nghĩa và logic
 
 Cột bên trái hiển thị các thành phần cụ thể cho giao thức RGB. Cột giữa hiển thị chức năng cụ thể của từng thành phần. Sau đó, trong cột "OOP tương đương", chúng ta tìm thấy thuật ngữ tương đương trong lập trình hướng đối tượng:
 

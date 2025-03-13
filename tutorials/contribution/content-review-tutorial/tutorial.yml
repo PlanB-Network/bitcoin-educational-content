@@ -23,9 +23,10 @@ proofreading:
     contributors_id:
     reward: 0.94
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-03-13
     urgency: 1
     contributors_id:
+          - MariJJhodl
     reward: 0.94
   - language: es
     last_contribution_date:

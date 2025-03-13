@@ -11,11 +11,13 @@ objectives:
 
 # Un voyage vers vos premiers bitcoins
 
-L’industrie qui entoure Bitcoin est en plein boom.
+L’écosystème Bitcoin connaît une croissance spectaculaire et sans précédent. Les transformations technologiques, économiques et sociales portées par l'invention de Satoshi Nakamoto s’intensifient jour après jour et ouvrent progressivement les portes d'un monde nouveau, dont vous pouvez dès maintenant tirer pleinement profit.
 
-Les changements technologiques et financiers de ce nouveau monde ne font qu’accélérer, c’est à vous d’en prendre avantage et de commencer à tomber dans le Terrier du Bitcoin. Cette aventure sera riche en savoir et vous poussera à remettre en question grand nombre de vos convictions. Cela va vous redonner de la liberté et vous permettre de regagner de la vie privée, de la souveraineté et de l’indépendance financière.
+Plonger dans le Terrier de Bitcoin, c’est se lancer dans une aventure intellectuelle passionnante, qui stimulera votre esprit critique et vous poussera à remettre en question bon nombre de vos convictions. Cette exploration vous offrira non seulement une compréhension approfondie du fonctionnement de Bitcoin, mais aussi une occasion concrète de reconquérir votre liberté individuelle, de protéger votre vie privée, et de retrouver une véritable souveraineté financière.
 
-Pour vous aider à commencer cette aventure, j’ai créé ce cours gratuit. Uniquement Bitcoin, pas de conneries, pas d’autres cryptomonnaies, un cours direct sans détour. Ce cours a été conçu pour s’adapter à vous et vous laisser libre de choisir le chemin qui vous convient.
+Pour vous guider efficacement dans cette démarche, j’ai conçu ce cours entièrement gratuit. Ici, une seule règle : uniquement Bitcoin. Pas de discours creux, aucune autre cryptomonnaie, uniquement du contenu clair, précis, et sans détour.
+
+Structuré de façon à vous laisser pleinement maître de votre apprentissage, ce cours vous permet de tracer votre propre parcours sur Bitcoin, à votre rythme, en fonction de vos intérêts et de vos objectifs personnels.
 
 +++
 

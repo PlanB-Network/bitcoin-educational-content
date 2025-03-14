@@ -16,7 +16,6 @@ If you didn’t understand the part above, don’t worry—this tutorial is for 
 
 This tutorial provides detailed steps to set up the platform, handle dummy keys, and customize repositories. Follow the steps below to avoid common issues and properly configure your local environment.
 
-\--- 
 
 **1. Prerequisites**  
 - Linux machine with Docker and Docker Compose installed (it has been reported working on Windows too).  
@@ -24,7 +23,6 @@ This tutorial provides detailed steps to set up the platform, handle dummy keys,
 - `pnpm` installed on your system.  
 - Git configured for cloning repositories.
 
-\---
 
 **2. Clone the Repository**  
 Clone the repository to your local machine:  
@@ -40,20 +38,19 @@ cd bitcoin-learning-management-system
   
 **3. Set Up Environment Variables**
 
- 1\. Duplicate the \`.env.example\` file:
+ 1\. Duplicate the `.env.example` file:
 
 ```bash
 cp .env.example .env
 ```
 
-1. Edit the `.env` file to include dummy keys for required variables. Example:
+1. Edit the `.env` file, deleting the .example part of the name, now you have to include dummy keys for required variables. Example:
 
-   ::: warn
-   This is a mandatory step, skipping it will result in errors such connection refusal between some of the containers.
+   > [!WARNING] 
+   > This is a mandatory step, skipping it will result in errors such connection refusal between some of the containers.
 
    Don't forget to add your dedicated Github PAT too in the file
 
-   :::
 
    ```markdown
    # Dummy Keys for External Services
@@ -68,15 +65,12 @@ cp .env.example .env
 
 **4. Install Dependencies**
 
-::: info
-Be sure to have installed a suitable nodejs version. As of 2024-12, v22.12.0 (LTS) has been proven working.
+`Be sure` to have installed a suitable nodejs version. As of 2024-12, v22.12.0 (LTS) has been proven working.
 
-:::
 
-::: warn
-Ubuntu 22.04 repository nodejs version is 12.22.9: too old to allow you install pnpm
+> [!WARNING] 
+> Ubuntu 22.04 repository nodejs version is 12.22.9: too old to allow you install pnpm
 
-:::
 
 To install nodejs, find instructions [here](https://nodejs.org/en/download/package-manager); for example you may choose to use `nvm` installation method.
 
@@ -96,10 +90,9 @@ Inside your `../bitcoin-learning-management-system/` folder, run the following c
 pnpm install
 ```
 
-::: success
-Remember to update from time to time both dependencies and pnpm itself
+> [!TIP]
+> Remember to update from time to time both dependencies and pnpm itself
 
-:::
 
 **5. Run the Containers**  
 Inside your `../bitcoin-learning-management-system/` folder, start the development environment with Docker:
@@ -107,17 +100,19 @@ Inside your `../bitcoin-learning-management-system/` folder, start the developme
 ```bash
 docker compose up --build -V
 ```
+You also run this next command this way, you won't see the logs in your terminal.
+```bash
+docker compose up -d --build -V
+```
 
-This will build and start all the necessary containers.
+This will build and start all the necessary containers from dockers.
 
 **6. Access the Application**  
 Once the containers are running, access the frontend at:  
 \[<http://localhost:8181](http://localhost:8181)>  
 
-::: success
 Note: that the app will automatically reload if you change any source files.
 
-:::
 
 **7.** Set up your database schema
 

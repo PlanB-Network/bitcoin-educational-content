@@ -1,21 +1,27 @@
 id: ea04e1cd-609a-4ea8-9c61-f9de1fe3a1fb
-project_id:
-tags: 
-- wallets
-- lightning
-- open-source
-- guides
-- user-friendly
+project_id: 0f08cb03-1f6c-4c46-bcac-6d801d82faef
+
 category: wallets
+
 level: beginner
+
 credits:
-professor: f205sats
+    professor: f205sats
+
+
+tags: 
+  - wallets
+  - lightning
+  - open-source
+  - guides
+  - user-friendly
+
 # Proofreading metadata
 original_language: it
 proofreading:
-- language: it
-last_contribution_date: 06/03/2025
+  - language: it
+last_contribution_date: 2025-03-14
 urgency:
-contributors_id: f205sats
--
+contributors_id:
+  - f205sats
 reward:

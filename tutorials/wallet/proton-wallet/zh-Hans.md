@@ -14,7 +14,7 @@ Proton 是一家专门从事数字隐私保护的瑞士公司，由欧洲核子�
 
 要使用质子钱包，您需要一个质子账户。您可以按照本教程的第一步免费创建一个质子邮箱（仅 "*创建质子账户*"部分）。账户设置完成后，您就可以继续本教程的其余部分。
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 连接到质子钱包
 

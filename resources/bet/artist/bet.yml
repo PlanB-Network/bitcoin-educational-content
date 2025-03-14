@@ -3,10 +3,9 @@ type: Visual Content
 links:
   download: https://workspace.planb.network/s/KmHsbK539btrs85
   view:
-    - en: 
-        https://penpot.planb.network/#/view/7154756b-3ebd-8040-8004-50455a67f0d6?page-id=7154756b-3ebd-8040-8004-50455a67f0d7&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-504934eb0617&zoom=fill
-contributors:
-  - rabbit-hole
+    - en: https://penpot.planb.network/#/view/7154756b-3ebd-8040-8004-50455a67f0d6?page-id=7154756b-3ebd-8040-8004-50455a67f0d7&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-504934eb0617&zoom=fill
+contributor_names:
+  - Rogzy-DB
 
 # Proofreading metadata
 original_language: en
@@ -14,79 +13,79 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.11
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.11
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.05
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.11
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.11
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.11
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.11
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.12
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.11
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.11
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.12
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.12
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.12
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.11
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.11
 tags:
   - use-case

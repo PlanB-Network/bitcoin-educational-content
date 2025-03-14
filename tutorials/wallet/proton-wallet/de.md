@@ -14,7 +14,7 @@ Die Besonderheit dieser Wallet ist die Möglichkeit, Bitcoins mit der E-Mail-Adr
 
 Um Proton Wallet nutzen zu können, benötigen Sie ein Proton-Konto. Sie können ein solches kostenlos erstellen, indem Sie die ersten Schritte dieses Tutorials zur Erstellung eines Proton-Postfachs befolgen (nur den Abschnitt "*Erstellung eines Proton-Kontos*"). Sobald Ihr Konto eingerichtet ist, können Sie mit dem Rest des Tutorials fortfahren.
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Verbindung zu Proton Wallet
 

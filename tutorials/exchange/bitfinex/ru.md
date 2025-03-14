@@ -22,11 +22,11 @@ description: Как использовать Bitfinex?
 
 Советы по использованию и защите надежных, уникальных паролей см. также в этом руководстве:
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Сейчас мы настроим 2FA для защиты учетной записи. Используйте приложение для аутентификации на смартфоне, например Google Authenticator или Authy. Учебник по этим инструментам вы найдете здесь:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Отсканируйте QR-код с помощью своего приложения и введите 6 цифр.
 

@@ -48,7 +48,7 @@ Escanee el código QR con su aplicación de autenticación, introduzca el códig
 
 Si no estás familiarizado con el uso de aplicaciones de autenticación para la 2FA, te recomiendo que eches un vistazo a este tutorial sobre la aplicación Authy:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Introduce tu contraseña para confirmar.
 

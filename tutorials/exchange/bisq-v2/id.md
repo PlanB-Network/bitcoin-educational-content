@@ -86,7 +86,7 @@ Panduan ini berfokus secara eksklusif pada "Bisq Easy", satu-satunya protokol ya
 - Unduh versi Bisq 2 yang sesuai dengan sistem operasi Anda (gulir ke bawah halaman)
 - Verifikasi keaslian file yang diunduh (sangat disarankan). Untuk panduan terperinci tentang verifikasi tanda tangan, lihat tutorial berikut:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Pemasangan sesuai dengan sistem Anda
 

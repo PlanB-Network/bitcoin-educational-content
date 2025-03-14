@@ -346,7 +346,7 @@ What better way to counter blockchain analysis than to learn about the methods u
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 In this, we can draw an analogy with cryptography and cryptanalysis. A good cryptographer is first and foremost a good cryptanalyst. To devise a new encryption algorithm, you need to know what attacks it will face, and also study why previous algorithms have been broken. The same principle applies to Bitcoin privacy. Understanding blockchain analysis methods is the key to protecting against them. That's why I've included a whole section on chain analysis in this training course.
 

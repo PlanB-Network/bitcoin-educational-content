@@ -1,4 +1,4 @@
---- 
+---
 name: B-only 2023
 description: Regroupement de passionnés de Bitcoin de la région annécienne
 ---
@@ -36,7 +36,6 @@ Speaker: Gilles Cadignan
 Speaker: Alexandre Stachtchenko
 
 ## Le Voyage du Bitcoiner
-
 
 ![video](https://makertube.net/w/sAE6xdiTWJatKBf61mpo1Z)
 

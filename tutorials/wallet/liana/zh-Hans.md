@@ -63,7 +63,7 @@ https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 
 要了解如何在安装前手动验证软件的真实性和完整性，我们建议您参考本教程：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 在机器上安装软件并启动。选择 "*创建一个新的 Liana 钱包*"选项配置您的钱包。
 

@@ -10,5 +10,3 @@ description: |
   Vous en apprendrez plus sur le dernier soft fork connu sous le nom de Taproot, sur les défis liés à l'absence de bugs et de logiciels malveillants dans les logiciels libres, sur les nouveaux moyens de protéger les nœuds contre les malfaiteurs sur Internet, sur la façon de gérer la blockchain en constante évolution, et bien plus encore !
   Chaque chapitre renvoie à un épisode correspondant du podcast Bitcoin, Explained. Le livre renvoie également à plus de 200 articles, vidéos, podcasts et même au code source. Et grâce à un minuscule code QR placé à côté de chaque lien, vous n'aurez jamais à taper de longues URL.
   L'auteur est un développeur de logiciels basé à Utrecht, aux Pays-Bas. Il travaille dans l'industrie du bitcoin depuis 2014 et est devenu un contributeur de Bitcoin Core en 2017, ce qui lui permet d'être aux premières loges de tous les développements techniques les plus récents et les plus passionnants. Il est coanimateur du podcast Bitcoin Magazine, Bitcoin, Explained.
-contributors:
-  - hunt-wood

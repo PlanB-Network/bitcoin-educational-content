@@ -8,5 +8,3 @@ description: |
   Mezi naše funkce patří výběr protokolů WireGuard, OpenVPN nebo IPSec, AntiTracker, který blokuje reklamy a sledovače, možnost Killswitch/Firewall, soukromé DNS servery bez logování, víceskokové VPN trasy, přesměrování portů a Obfsproxy pro obejití cenzury.
 
   Zatímco upřesňujeme, že VPN nemůže dosáhnout anonymity nebo zabránit sběru dat giganty jako Google nebo Facebook, ujišťujeme, že důvěryhodná VPN jako ta naše může účinně šifrovat vaše data a DNS požadavky, zvýšit bezpečnost na nedůvěryhodných veřejných sítích, maskovat vaši IP adresu a obejít cenzuru nebo geografické bloky. Jsme spolehlivou součástí vaší strategie ochrany soukromí, za předpokladu, že nám důvěřujete více než vašemu poskytovateli internetových služeb.
-contributors:
-  - králičí-nora

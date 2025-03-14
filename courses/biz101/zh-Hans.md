@@ -995,15 +995,15 @@ Essential 方法的另一个主要优点是强调快速部署和最小干扰。�
 
 最适合您的混合解决方案可能是瑞士比特币支付：
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 另一个易于实施的解决方案是 Open Node，但缺点是需要 100% 的托管：
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 如果您已经准备好亲自动手，并希望完全控制整个过程，BTCPay 服务器软件是一个极佳的选择。不过，BTCPay 服务器的主要缺点是设置和管理比较耗时，需要一定的专业技术，但您可以按照我们的指南进行操作：
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 最后，作为对实体销售点的补充，您可以考虑建立 [Bitcoinize PoS](https://bitcoinize.com/)。
 

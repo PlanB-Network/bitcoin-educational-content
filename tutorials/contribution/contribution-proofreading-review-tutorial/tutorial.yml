@@ -55,7 +55,7 @@ proofreading:
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_names:
+    contributor_names:
     reward: 0.94
   - language: ru
     last_contribution_date:

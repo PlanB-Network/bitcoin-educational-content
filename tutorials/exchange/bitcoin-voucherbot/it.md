@@ -31,6 +31,7 @@ Nella chat di Telegram prepariamo un ordine, con un bonifico bancario lo paghiam
 L’attivazione è una semplice operazione che viene eseguita una volta sola.
 Da Telegram cercare _@BitcoinVoucherBot_ e, appena giunti nella chat del Bot, campeggia in basso un pulsantone grande 
 _Avvia/Start_. L’operazione fa rispondere il Bot che presenta il menu dei principali comandi a disposizione. Appaiono anche i primi messaggi di benvenuto, per i quali consigliamo un'attenta lettura.
+### **Attenzione**: ci sono diversi scammer che si spacciano per VoucherBot originale. Se non siete sicuri della ricerca via Telegram, fate accesso sicuro dal [sito ufficiale](https://www.bitcoinvoucherbot.com/) di BitcoinVoucherBot: non potete sbagliarvi.
 
 ![image](assets/it/01.webp)
 
@@ -45,12 +46,12 @@ Tra le principali operazioni ci sono:
 - _/ap_ - accumulation plan, che consente di impostare un **Piano di Accumulo Costante (PAC)**.
 - _/lnaddress_ - con cui ci viene chiesto di collegare un proprio LN Address, per una particolare procedura che vedremo in seguito.
 - _/credits_ - per controllare quanto credito è rimasto per generare voucher.
-- _/myorders_ - mostra gli ordini fatti con il bot. N.B. il sistema tiene traccia soltanto degli ultimi 10 ordini effettuati e non l'intero storico.
+- _/myorders_ - mostra gli ordini fatti con il bot. **N.B. il sistema tiene traccia soltanto degli ultimi 10 ordini effettuati e non l'intero storico**.
 - _/fees_ - un comando per controllare le fee di rete. Per valutarle, è sempre meglio affidarsi a mempool.space.
 - _/support_ - in caso di necessità, fa comparire i contatti per segnalare al team di supporto le problematiche.
 
 # Procedura di acquisto Bitcoin
-Preparazione dell'ordine, pagamento e riscatto
+
 ## Preparazione dell'ordine
 Cliccare _/purchase_ nel menu dei comandi
 
@@ -60,13 +61,14 @@ Compaiono una serie di opportunità, ma noi scegliamo _BTC Vouchers_
 
 ![image](assets/it/04.webp)
 
-Bitcoin VoucherBot consente di acquistare Bitcoin onchain, Lightning e Liquid.
+BitcoinVoucherBot consente di acquistare Bitcoin onchain, Lightning e Liquid.
 In questa fase si scelga _Onchain & Lightning 🔗⚡️_
 
 ![image](assets/it/05.webp)
 
-La schermata cambia rapidamente e VoucherBot propone i "tagli" di acquisto. Si parte da un minimo di 100,00 € fino ad arrivare a 900,00 €
-In caso di primo acquisto, vengono proposti solo i tagli da 100,00 €, Onchain e Lightning. Per aumentare la confidenzialità, suggeriamo di scegliere _*Lightning ⚡️_
+La schermata cambia rapidamente e VoucherBot propone i "tagli" di acquisto. Si parte da un minimo di 100,00 € fino ad arrivare a 900,00 €.
+
+In caso di primo acquisto, vengono proposti solo i tagli da 100,00 €, Onchain e Lightning. Per aumentare la confidenzialità, suggeriamo di scegliere _Lightning ⚡️_
 
 ![image](assets/it/06.webp)
 
@@ -75,7 +77,7 @@ VoucherBotc ci avvisa che una prima scelta è stata fatta e che, per confermarla
 ![image](assets/it/07.webp)
 
 Si tratta ora di scegliere il metodo di pagamento.
-Il trasferimento avviene tramite bonifico **(accettato solo SEPA)**. VoucherBot propone come ricevente una società svizzera, che mette a disposzione due conti correnti, uno in U.K e l'altro in Svizzera. Per realizzare questo tutorial è stata scelta la banca svizzera
+Il trasferimento avviene tramite bonifico **(accettato solo SEPA)**. VoucherBot propone come ricevente una società che mette a disposzione due conti correnti, uno in U.K e l'altro in Svizzera. Per realizzare questo tutorial è stata scelta la banca svizzera
 
 ![image](assets/it/08.webp)
 
@@ -84,8 +86,10 @@ L'IBAN deve essere scritto nella barra del messaggio, controllato e inviato al b
 
 ![image](assets/it/09.webp)
 
+
 Nella chat con VoucherBot compare ora un messaggio di controllo.
 Se tutto è corretto, proseguire cliccando _Proceed_.
+
 
 ![image](assets/it/10.webp)
 
@@ -95,7 +99,7 @@ Dopo qualche istante, necessario per processare i dati, VoucherBot replica con u
 A seconda di quanto richiesto dalla propria banca, le informazioni rilevanti sono:
 - `IBAN`, indispensabile per il versamento, oltre all'indirizzo del ricevente;
 - `l'importo scelto` in precedenza tramite il "taglio", che deve essere rispettato per permettere a VoucherBot di riconoscere l'ordine quando sarà arrivato il pagamento;
-- `Payment reason`, ovvero la causale del pagamento;
+- `Payment reason`, ovvero la causale del pagamento. **Deve essere copiata e incollata senza togliere o aggiungere nulla nell'apposito campo del proprio bonifico. Eventuali "." o "-" presenti nella payment reason, possono essere sostituiti dallo "spazio bianco"**.
 - un `OrderID` univoco, cui fare riferimento per richiedere eventuale assistenza.
 
 Si può quindi procedere con il pagamento, tramite la propria app o banca.

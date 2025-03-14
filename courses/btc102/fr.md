@@ -482,131 +482,6 @@ Pour terminer, gardez à l’esprit quelques principes simples mais incontournab
 
 En appliquant ces préceptes, vous pourrez aborder l’investissement de manière plus sereine et réfléchie. Malgré la volatilité du bitcoin et son aspect parfois déroutant, cette technologie recèle un potentiel indéniable à condition de l’approcher avec prudence et réalisme. Prenez le temps de renforcer vos connaissances, ajustez votre stratégie au besoin et, surtout, rappelez-vous qu’il vaut mieux progresser lentement mais sûrement, plutôt que de céder à l’impatience ou à la peur de manquer une opportunité.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-L'éducation formelle nous apprend peu de choses sur l'investissement. En conséquence, nous nous aventurons souvent seuls dans ce paysage d'investissement nouveau et complexe.
-
-Dans cette section, nous examinerons certaines erreurs courantes que les investisseurs débutants font en entrant dans le monde de Bitcoin, et comment vous pouvez éviter de tomber dans les mêmes pièges. Nous aborderons également comment planifier judicieusement votre investissement Bitcoin. Les sujets que nous aborderons comprennent :
-
-- Faire attention aux "Shitcoins" ou autres crypto-monnaies sans valeur intrinsèque.
-- Investir seulement ce que vous pouvez vous permettre de perdre.
-- Comprendre la différence entre le trading et l'investissement.
-- Être conscient des implications fiscales.
-- Gérer correctement votre clé privée.
-- L'importance de rester humble et discret.
-- Adopter une perspective à long terme.
-
-![gestionaire de mdp](assets/prerequis/0.webp)
-
-Avant de plonger dans l'investissement en Bitcoin, il est essentiel de prendre le temps de s'éduquer.
-
-Il est facile de faire des erreurs dans l'industrie du Bitcoin, et chaque erreur peut être coûteuse. En partageant certains des écueils que j'ai rencontrés dans mon parcours d'investisseur, ainsi que ceux que j'ai observés chez d'autres, j'espère vous fournir des conseils précieux pour naviguer dans cet espace. Parmi ces erreurs, on peut citer :
-
-| Problèmes technologiques                          | Problèmes financiers                                                 |
-| ------------------------------------------------- | -------------------------------------------------------------------- |
-| Perte d'une clé privée                            | Surinvestissement                                                    |
-| Confié la garde de vos actifs à une tierce partie | Manque d'éducation financière                                        |
-| Manque de confidentialité                         | Investir avec de l'argent emprunté                                   |
-| Problèmes de sécurité en ligne                    | Ne pas comprendre la différence entre le trading et l'investissement |
-| Mauvaise manipulation                             | Ignorer les implications fiscales                                    |
-| Problèmes d'ordinateur                            | Ne pas prendre en compte les temporalités d'investissement           |
-| Perte de BTC suite à un piratage                  | Se laisser prendre à des fraudes et arnaques financières             |
-
-Peu importe votre niveau d'éducation ou vos antécédents, tout le monde peut comprendre et utiliser Bitcoin. Vous n'avez pas besoin d'avoir une expérience en finance ou en codage. Comme 90% des gens, vous pouvez simplement utiliser Bitcoin de manière simple.
-
-Chacun est différent et doit adapter sa stratégie d'investissement à sa situation financière personnelle. Voici quelques bonnes et mauvaises pratiques :
-
-- Les achats moyens périodiques sont une bonne pratique.
-- Le recours à l'effet de levier, par exemple en empruntant de l'argent pour investir, est généralement déconseillé.
-- Évitez le FOMO (Fear Of Missing Out), ou la peur de rater une occasion. Cela peut vous inciter à faire des investissements impulsifs.
-- Allouer un budget spécifique pour votre investissement est une bonne pratique.
-
-L'objectif n'est pas d'avoir un plan parfait, mais plutôt d'avoir une structure à suivre et à respecter. Vous ne voulez pas acheter sous le coup de l'émotion ou de la peur. Vous voulez suivre une stratégie que vous avez préalablement écrite sur papier pour éviter tout stress inutile.
-
-Il n'y a pas d'âge pour apprendre à investir; Vous pouvez commencer avec une somme très faible et progresser avec le temps. L'éducation est un voyage.
-
-- Règle d'or n°1 de l'investissement : n'investissez jamais plus que ce que vous pouvez vous permettre de perdre ! L'idée est de prendre tous vos revenus mensuels, de déduire vos dépenses obligatoires (dettes et autres frais mensuels comme le logement), de déduire vos coûts de vie (nourriture). Il vous reste alors votre budget d'épargne. Si vous investissez plus que cela, tôt ou tard, vous rencontrerez des problèmes !
-- Règle d'or de l'investissement n°2 : évitez ce qui est à la mode. Concentrez-vous sur le fait de progresser en prenant des décisions rationnelles. Si vous avez des doutes, laissez passer la nuit et parlez-en à vos proches. Il vaut mieux prendre son temps que de se précipiter. La meilleure stratégie est de progresser pas à pas.
-- Règle d'or n°3 de l'investissement : la planification et avoir une vision à long terme sont essentielles pour réussir en finance. Planifiez et ne prenez pas trop de risques. Le but est d'éviter des échecs fatals tout en accumulant les succès.
-
-Dans le doute: Commencez par vous renseigner. Explorez le monde de Bitcoin pendant quelques heures (vous avez beaucoup de ressource disponible sur cette plateforme). Lisez 2 ou 3 livres. Achetez 5 euros pour essayer. Regardez des documentaires et des vidéos. Ayez l'esprit ouvert.
-
-Comme pour tout investissement, il faut connaître son marché. Le bitcoin est très jeune et volatile, ce qui signifie que les choses changent rapidement et cela implique un certain risque. Le bitcoin peut disparaître, chuter vers 0 ou stagner pendant des années. Il va de soi qu'il ne faut donc investir que ce que vous pouvez vous permettre de perdre ! Ne vous endettez pas pour investir dans une monnaie dont vous ne comprenez peut-être pas encore tous les tenants et aboutissants.
-
-Une fois que vous serez plus à l'aise avec le bitcoin, vous pourrez revoir votre plan d'action. Dans la même logique, il est important, si vous êtes nouveau dans ce monde, de bien cerner les différences entre le trading, l'investissement à long terme et une stratégie très, très long terme utilisée par beaucoup de bitcoiners, nommée le "hold".
-
-En générale:
-
-|                        | Trading     | Investissement    | Holding         |
-| ---------------------- | ----------- | ----------------- | --------------- |
-| Levier                 | Oui         | Non               | Non             |
-| Temporalité            | Court terme | Court/moyen terme | Très long terme |
-| Type d'actif           | Contrat     | BTC               | BTC             |
-| Risque                 | Très haut   | Haut              | Haut            |
-| Difficulté             | Très dur    | Dur               | Dur             |
-| Courbe d'apprentissage | Longue      | Longue            | Longue          |
-| Pertes potentielles    | Illimitées  | Limitées          | Limitées        |
-| Plus adapté à          | Certains    | La plupart        | Certains        |
-
-Et voici mes conseils :
-
-- Opter pour une perspective à long terme est souvent une stratégie judicieuse. Suivre constamment l'évolution du marché peut s'avérer complexe et exige un engagement à temps plein. Comme l'a bien dit Warren Buffet : "Si vous n'êtes pas prêt à conserver une action pendant dix ans, il vaut mieux ne pas la conserver du tout, même pendant dix minutes".
-- Il est primordial d'être extrêmement vigilant en matière de fiscalité : Chaque pays a ses propres lois concernant les Bitcoins. Il est essentiel de se renseigner sur la législation en vigueur dans votre pays, en particulier en ce qui concerne les obligations fiscales. Une mauvaise planification pourrait vous conduire à devoir reverser plus d'argent à l'administration fiscale que ce que vous avez gagné.
-
-![ fiscalité](assets/prerequis/5.webp)
-
-Apprendre à investir n'est pas quelque chose que l'on enseigne généralement à l'école. Par conséquent, beaucoup de personnes considèrent l'investissement comme une activité risquée, folle et inaccessible. Pour se protéger, nombreux sont ceux qui font appel à un banquier... Ce qui peut se révéler une erreur.
-
-Il n'y a pas d'âge pour commencer à s'instruire en matière d'investissement et comprendre comment fonctionnent l'argent et le système financier. Il n'est pas nécessaire de s'immerger complètement ; avoir une vue d'ensemble suffit pour prendre des décisions adéquates, fondées sur des faits et non sur l'ignorance. Cela peut s'avérer très utile tout au long de votre vie, car vous saurez reconnaître quand quelqu'un essaie de vous vendre un mauvais produit d'investissement (par exemple une banque).
-
-Vous ne devriez pas faire de trading. Et ouai, le trading est un travail à plein temps qui implique beaucoup de stress, de risques et une grande maîtrise de soi. Ce n'est pas une activité pour tout le monde et elle peut comporter de sérieux risques. Si vous voulez quand même essayer, alors suivez au moins une personne digne de confiance et avec du bon sens, comme Mark à Ukspreadbetting.
-
-Deux bonnes ressources:
-
-- Rich Dad, Poor Dad – Robert T Kiyosaki - C'est une bonne première introduction au monde de l’investissement. C'est parfait pour tout le monde.
-- The Investors Podcast- Ce podcast est plus technique, mais il vous donnera une bonne idée du degré de complexité du monde de la finance. Si vous travaillez déjà dans le domaine de la finance ou si cela vous passionne, écoutez quelques-uns de leurs épisodes. Certains d'entre eux parlent de Bitcoin.
-
-Pour conclure cette section sur les prérequis, revenons à la première raison de perte financière dans notre industrie : la mauvaise gestion de la clé privée.
-
-Pour rapelle, la clé privée est une liste de 24 mots qui représente la sauvegarde de vos Bitcoins. Il est essentiel de faire preuve d'une extrême prudence à cet égard. Lorsque vous stockez vos Bitcoins sur une plateforme d'échange, c'est la plateforme qui en détient le contrôle, pas vous ! Cette situation comporte des risques tels que la faillite de la plateforme, la confiscation de vos Bitcoins ou le piratage de la plateforme.
-
-La règle d'or de Bitcoin n°1 : Pas votre clé, pas vos Bitcoins. La clé en Bitcoin représente la propriété des Bitcoins. Si vous détenez votre clé, vous retrouvez votre souveraineté financière et vous êtes responsable de la sécurité de votre propre argent.
-
-Si vous perdez votre clé, vous perdez également votre argent. Il est préférable de suivre les meilleures pratiques de l'industrie et d'éviter les stratégies complexes. Le Bitcoin est déjà suffisamment risqué en lui-même. Écoutez les conseils des experts. De plus, lorsque vous utilisez Bitcoin, il est préférable de rester discret : évitez d'en parler. En vous exposant, vous deviendriez une cible potentielle, augmentant ainsi les risques pour vous-même et votre famille. La meilleure sécurité réside dans la discrétion. Inutile de proclamer à tous que vous détenez des Bitcoins.
-
-Bonne chance ! J'espère que vous me suivrez dans l'univers du Bitcoin et que vous me permettrez de vous guider pour acquérir et sécuriser vos premiers Bitcoins sans prendre de risques !
-
 # Comprendre dans quoi on se lance
 
 <partId>a42355a3-9dd8-57ed-b590-32a333fe09ea</partId>
@@ -615,34 +490,129 @@ Bonne chance ! J'espère que vous me suivrez dans l'univers du Bitcoin et que vo
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
-Dans cette formation, nous voulons nous concentrer sur le plan d'action pour obtenir vos premiers bitcoins. Si vous souhaitez une explication approfondie des fondamentaux du bitcoin, nous vous conseillons BTC 101, disponible gratuitement sur cette plateforme.
+Dans cette formation, l’objectif principal consiste à vous guider dans l’obtention et la sécurisation de vos premiers bitcoins. Toutefois, avant de passer aux considérations pratiques (comment acquérir des BTC, quels portefeuilles utiliser, etc.), un bref rappel sur ce qu’est réellement Bitcoin s’impose. Comprendre la nature profonde de Bitcoin vous aidera à discerner les raisons pour lesquelles des millions de personnes s’intéressent à cette technologie, et pourquoi il est essentiel de bien maîtriser les concepts fondamentaux avant d’investir votre épargne dans un actif aussi novateur et volatile.
 
-Bitcoin est un protocole informatique qui permet d'envoyer de la valeur à travers le monde sans intermédiaire de confiance. Cette valeur est représentée par une monnaie appelée bitcoin.
+Au fil des ans, Bitcoin s'est imposé comme un réseau monétaire globalement reconnu. On l’a souvent qualifié de "nouvel or numérique", de "protocole de confiance", voire de "système financier parallèle". Mais qu’est-ce qui se cache derrière ces définitions ? Pour répondre à cette question, nous allons examiner les grandes lignes de Bitcoin : ses origines, son fonctionnement technique, ses propriétés monétaires et son impact potentiel sur les utilisateurs comme sur le système économique mondial.
 
-Le fameux Bitcoin dont vous entendez parler tout le temps est donc cette monnaie numérique. Les utilisateurs de Bitcoin s'envoient des bitcoins entre des portefeuilles, et tout cela fonctionne grâce à un réseau de nœuds (serveurs Bitcoin) qui propagent les transactions de tous les utilisateurs entre eux. Pour garantir la finalité des transactions, certains acteurs de ce réseau sont également des mineurs (les fameux mineurs), et leur but est d'inscrire les transactions propagées dans la blockchain Bitcoin (encore plus célèbre).
+### Les origines : un projet né d’une longue quête
 
-![in a nutshell](assets/section2/6.webp)
+#### Cypherpunks et invention d’un système hors du contrôle bancaire
 
-Grâce à ce mécanisme assez bizarre, nous obtenons une base de données (la blockchain) qui est immuable dans le temps, décentralisée dans l'espace et qui fonctionne en permanence partout dans le monde.
-Cela permet donc, pour la première fois dans l'histoire de l'humanité, d'avoir un système comptable à triple entrée qui permet à quiconque de pouvoir utiliser un système financier alternatif construit sur Internet sans personne pour le contrôler ou le détruire.
+Contrairement à ce que l’on pourrait penser, Bitcoin n’est pas simplement le fruit d’une inspiration soudaine. Avant 2009, de nombreux essais ont tenté de créer des formes de monnaie numérique : eCash, b-money, Bit Gold, RPOW etc. Tous se heurtaient à un problème resté célèbre dans le monde de l’informatique et des réseaux décentralisés : celui de la double dépense et de la synchronisation d’un registre unique à l’échelle mondiale sans passer par un organe central de validation.
 
-![in a nutshell](assets/section2/8.webp)
+C’est dans ce contexte qu’est publié, fin 2008, le **White Paper de Bitcoin** par un certain Satoshi Nakamoto (pseudonyme dont la véritable identité n’a jamais été révélée à ce jour). Au début de l’année 2009, Nakamoto lance le système Bitcoin et la première version fonctionnelle d'un logiciel client. Les idées majeures derrière cette invention s’inscrivent dans la lignée idéologique des **Cypherpunks**.
 
-En plus de son fonctionnement technique (BTC 101 l'explique), on peut noter deux caractéristiques qui font de Bitcoin ce qu'il est aujourd'hui après 14 ans d'existence :
+032
 
-- La première est que le code de Bitcoin est open source. Cela signifie que tout le monde peut regarder comment fonctionne Bitcoin, c'est transparent et donc auditable. Par conséquent, tout le monde peut l'utiliser et le protocole est égal pour tous, aucune discrimination ne peut exister. Cela rend Bitcoin extrêmement intéressant pour une utilisation en tant que système d'envoi de valeur.
-- Le deuxième élément réside dans ses propriétés monétaires. En effet, Bitcoin est rare. Il n'y en aura que 21 millions dans le monde et jamais plus (et même moins en raison des pertes). Cela est possible grâce à la nature même du protocole, car dès son lancement, ses caractéristiques monétaires (la courbe de distribution des bitcoins) ont été décidées et personne ne peut unilatéralement les changer. Cette caractéristique fait que Bitcoin, tout comme l'or, ne pourra pas être dilué par de l'impression monétaire à outrance.
+Les Cypherpunks sont une communauté informelle et internationale de personnes promouvant l'utilisation de la cryptographie comme moyen d'assurer les libertés individuelles sur Internet. Les cypherpunks défendent le droit fondamental pour l'individu de protéger sa vie privée, en particulier dans un contexte d'augmentation de la surveillance étatique et d'exploitation des données par des entités privées.
 
-![in a nutshell](assets/section2/9.webp)
+Le mouvement des cypherpunks remonte au début des années 1990, lorsque des groupes de cryptographes, de programmeurs et de libertariens ont commencé à discuter des implications politiques de la cryptographie au cours de leurs premières réunions dans la Silicon Valley. La personnalité principale au sein de la communauté était Tim May, qui avait écrit le *Crypto Anarchist Manifesto* en 1988, texte fondateur du mouvement. Parmi les moments clés de l'histoire des cypherpunks, il y a la fondation, en 1992, de la *Cypherpunks mailing list*, une liste de diffusion de courrier électronique qui a servi pour ces discussions. La publication par Eric Hughes en 1993 du *Cypherpunk's Manifesto*, document exposant les objectifs et les actions des cypherpunks, a également été un moment important.
 
-Ces deux caractéristiques font de Bitcoin un outil technologique et monétaire puissant qui vient non seulement innover dans notre monde, mais aussi briser des normes.
+L'idée d'une monnaie électronique qui ne s'établit pas sur une entité centrale, comme Bitcoin, est enracinée dans la philosophie des cypherpunks
 
-De par ces caractéristiques, beaucoup de bitcoiners, y compris moi-même, sommes prêts à dire que Bitcoin est une innovation majeure pour notre société, au même niveau que la roue, la comptabilité à double entrée, l'électricité ou encore Internet.
+#### Un timing post-crise financière
 
-Bitcoin est donc un "0 à 1" qui vient bouleverser nos normes et habitudes.
-Si cela est nouveau pour vous, je vous encourage vivement à suivre BTC 101 avant de continuer à vous exposer à une technologie dont vous ne comprenez peut-être pas bien le rôle et la raison d'être.
+Le contexte économique n’était pas anodin : fin 2008, la planète subissait une crise financière d’une ampleur considérable, liée à la faillite de la banque Lehman Brothers, au gonflement de la bulle immobilière et à la méfiance grandissante envers le secteur bancaire. Dans le premier bloc de la blockchain Bitcoin (*Genesis block*), Satoshi Nakamoto a même laissé un message qui faisait référence à la crise : 
 
-![in a nutshell](assets/section2/10.webp)
+> The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
+
+Beaucoup y voient une référence à l’ambition de Bitcoin : proposer un système de transfert de valeur **sans intermédiaire** de confiance, régi par des règles transparentes, et non pas par les décisions souvent opaques de banques centrales ou de gouvernements.
+
+Pour approfondir vos connaissances sur les origines de Bitcoin, nous proposons une formation gratuite, très complète et documentée sur le sujet :
+
+https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+
+### Un réseau décentralisé pour transférer de la valeur
+
+#### Peer-to-peer et absence d’organe central
+
+Bitcoin se définit comme un "**Un système de cash électronique pair-à-pair**" : tout utilisateur peut se connecter au réseau à l’aide du logiciel approprié (un nœud Bitcoin) et communiquer directement avec les autres utilisateurs, sans passer par un serveur central unique. Cette décentralisation vise à éviter qu’une entité quelconque (banque, État, grande société...) puisse contrôler, censurer ou arrêter le système. Bitcoin est un **système d’échange de valeur** qui fonctionne 24 heures sur 24, 7 jours sur 7, partout sur la planète, accessible à tous sans condition.
+
+En pratique, chaque participant au réseau (chaque nœud) possède une copie complète du registre des transactions, appelé la **blockchain**. Dès qu’une nouvelle transaction est émise, elle est propagée à travers le réseau. Des mineurs confirment ensuite à intervalles réguliers ces transactions en les regroupant dans des blocs, ajoutés ensuite à la fin de la chaîne (d’où le nom de "blockchain").
+
+029
+
+#### La blockchain : un grand livre comptable
+
+Pour comprendre la blockchain, on peut la comparer à un registre comptable où chaque ligne représente une transaction. Dans un système bancaire classique, la base de données se trouve sur les serveurs d’une banque, qui peut, de manière unilatérale, apporter des modifications. À l’inverse, dans Bitcoin, **toutes les modifications sont validées de façon distribuée** : chaque nouveau bloc de transactions, une fois ajouté à la blockchain, est presque impossible à modifier à postériori.
+
+027
+
+### Le rôle des mineurs et la Proof-of-Work
+
+#### Création des blocs par le minage
+
+Le minage est l’opération par laquelle un ordinateur (ou une ferme d’ordinateurs) fournit de la **puissance de calcul** pour sécuriser l'historique économique et valider les blocs. Les mineurs tentent de résoudre un problème mathématique (trouver une collision partielle sur un hash), ce qui exige une certaine quantité d’énergie et de ressources. Une fois la solution trouvée, le mineur diffuse le nouveau bloc, et le réseau reconnaît la validité de ce bloc. Le mineur reçoit en récompense un certain nombre de bitcoins fraîchement créés, et les frais des transactions incluses dans son bloc.
+
+#### La récompense décroissante et le halving
+
+Afin de garantir la rareté de Bitcoin, la récompense pour le minage subit une division programmée de moitié tous les **210 000 blocs** (environ tous les quatre ans). On appelle ce mécanisme le **halving**. Au lancement de Bitcoin, la récompense était de 50 BTC par bloc. Aujourd’hui, elle n’est plus que de 3,125 BTC (en 2025), et continuera à diminuer dans les années à venir, jusqu’à cesser complètement vers 2140, lorsque la quantité maximale d'environ 21 millions de bitcoins aura été mise en circulation. Cette courbe d’émission prévisible confère à Bitcoin une dimension de **rareté numérique** semblable à celle de l’or, d’où parfois le surnom d'or numérique.
+
+031
+
+### Les propriétés monétaires du bitcoin
+
+#### Rareté et politique monétaire programmée
+
+L’un des points les plus importants de Bitcoin est d’avoir instauré une **politique monétaire immuable**. Dans le monde des monnaies fiduciaires (euro, dollar, yen...), les banques centrales peuvent émettre de la monnaie à volonté, ce qui entraîne une inflation importante ou divers déséquilibres économiques. À l’inverse, le bitcoin repose sur des règles inscrites dans le code source : il y aura au maximum environ 21 millions de bitcoins, et le rythme d’émission est connu à l’avance de tous les participants.
+
+Personne, pas même un gouvernement, ne peut modifier unilatéralement ce plafond ou la manière dont les BTC sont distribués. La seule manière d'y parvenir serait de modifier les règles du protocole, une modification qui ne peut réussir que si la majorité économique des nœuds du réseau y consent.
+
+Cette caractéristique suscite un fort intérêt, notamment auprès de celles et ceux qui souhaitent échapper aux politiques monétaires imprévisibles ou à la dévaluation constante de leur monnaie nationale. Cette innovation pourrait conduire, sur le long terme, à un changement de paradigme financier, où l’épargne serait mieux préservée de l’inflation.
+
+#### Divisibilité et accessibilité
+
+Il est important de souligner que **chaque bitcoin est divisible** jusqu’à la huitième décimale (unité appelée le "satoshi"). Cela signifie qu’il est parfaitement possible d’acheter ou d’envoyer de toutes petites fractions de BTC. Nul besoin de débourser des milliers d’euros pour commencer à acquérir vos premiers satoshis.
+
+026
+
+### Ouverture et transparence
+
+#### Un protocole public, vérifiable par tous
+
+Le protocole Bitcoin repose sur des clients qui sont **open source** (le plus important est Bitcoin Core). Autrement dit, le code qui définit son fonctionnement est publié librement, si bien que tout développeur peut l’examiner, l’auditer, et éventuellement proposer des améliorations. Il devient alors très difficile de cacher une fonctionnalité malveillante ou d’opérer une manipulation secrète : chacun peut, en théorie, déployer sa propre implémentation tout en respectant les règles de consensus.
+
+030
+
+Cette transparence contribue à la **confiance** dans le protocole, dans la mesure où elle évite qu’un groupe restreint de programmeurs ne manipule le réseau à son avantage. Bitcoin repose en effet sur le principe suivant : si vous n’êtes pas d’accord avec les modifications suggérées, vous pouvez tout simplement **refuser** de mettre à jour votre logiciel. Dans certains cas, vous pouvez rester synchronisé avec le reste du réseau, mais dans d'autres, cela peut provoquer ce que l'on appelle un "Hardfork". Cela créer un nouveau système Bitcoin distinct de l'original. C'est exactement ce qui s'est produit en 2017 avec la scission entre Bitcoin (BTC) et Bitcoin Cash (BCH).
+
+Tout cela rend la gouvernance de Bitcoin très lente et parfois conflictuelle, mais garantit également une certaine stabilité et une résistance à la centralisation.
+
+#### Validation individuelle : les nœuds
+
+Bitcoin permet à tout un chacun de vérifier l’intégrité de la blockchain : en faisant **tourner un nœud** sur son propre ordinateur ou un serveur. Cela consiste à télécharger le logiciel Bitcoin Core (ou une autre implémentation du protocole), puis à vérifier toutes les transactions et tous les blocs depuis 2009. Une fois synchronisé, votre nœud agit comme une archive complète et participe au réseau.
+
+Cette approche, certes plus technique, garantit aux utilisateurs les plus exigeants qu’ils peuvent s’affranchir de la confiance envers un tiers, participer au consensus et être incensurables. 
+
+### Les cas d’usage
+
+#### Un moyen d’échange transfrontalier et résilient
+
+Par sa nature décentralisée, Bitcoin fonctionne jour et nuit, indépendamment des frontières et des fuseaux horaires. Dans certaines régions dépourvues d’infrastructures bancaires robustes, Bitcoin est parfois utilisé comme solution pour envoyer ou recevoir des fonds rapidement, sans intermédiaire coûteux. Les frais de transaction peuvent varier en fonction de la congestion du réseau, mais restent généralement inférieurs aux commissions que pratiquent certaines banques pour des virements internationaux. De plus, il existe des systèmes de surcouche tels que le Lightning Network, qui permettent de réaliser des transactions en bitcoins de manière rapide et à faible coût.
+
+#### Une réserve de valeur
+
+Grâce à sa rareté (21 millions de BTC) et sa robustesse, le bitcoin est parfois considéré comme une solution pour protéger son épargne sur le long terme. Son cours, qui peut être volatil sur le court terme, a néanmoins suivi une tendance haussière de long terme depuis sa création. Certains investisseurs achètent du BTC avec l’idée qu’il pourrait servir de réserve de valeur face à l’inflation ou à des crises financières.
+
+#### Un outil de liberté financière et de résilience
+
+Au-delà de l’investissement, Bitcoin représente un **moyen de protéger sa souveraineté financière**. Dans des pays soumis à des régimes autoritaires ou à de fortes restrictions monétaires, la possibilité d’avoir un portefeuille Bitcoin (avec ses propres clés privées) offre une forme de liberté. Personne ne peut bloquer ou confisquer ces BTC, dès lors que le détenteur prend soin de sécuriser sa phrase mnémonique.
+
+Cette caractéristique séduit particulièrement ceux qui craignent la censure ou le gel de comptes bancaires. Elle intéresse également les populations victimes d’hyperinflation, comme ce fut le cas au Venezuela ou au Zimbabwe : détenir du BTC était plus stable que conserver la monnaie nationale qui se dépréciait à toute vitesse.
+
+### Un chemin encore long
+
+Bitcoin peut être vu comme un "*Zero to One*" : une rupture radicale avec les paradigmes financiers établis. Pour la première fois dans l’histoire, un réseau monétaire planétaire, accessible à tous, fonctionne sans organe central et permet de faire des transactions résistantes à la censure et confidentielles.
+
+Quoi qu’il en soit, après plus d’une décennie d’existence, Bitcoin continue de susciter débats et passions. Son adoption progresse, des solutions de seconde couche (comme le Lightning Network) émergent pour améliorer la vitesse et réduire les frais, et des entreprises du monde entier expérimentent de nouveaux cas d’usage. Il est donc probable que Bitcoin influence durablement les systèmes de paiement et la perception même de la monnaie dans les décennies à venir.
+
+028
+
+Pour poursuivre votre apprentissage, vous pouvez suivre la formation BTC101 sur Plan ₿ Network, où les fondements techniques et économiques de Bitcoin sont abordés de manière plus approfondie.
+
+https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+
+Après cette introduction sur Bitcoin (certes un peu plus longue que 5 minutes !), vous voilà mieux armé pour envisager l’achat de bitcoins et leur sécurisation. Dans les chapitres suivants de la formation, nous étudierons en détail l'importance de Bitcoin, le fonctionnement de son industrie, et le développement de ses différentes couches. Ensuite, dans la section suivante, nous aborderons la mise en place de votre propre plan personnel.
 
 ## Pourquoi Bitcoin est important ?
 

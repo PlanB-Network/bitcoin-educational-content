@@ -1182,9 +1182,9 @@ If you want to broaden your knowledge about Bitcoin, this is the right time: a l
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Now that we have the basics of the Bitcoin protocol, we will introduce a payment network that uses the Bitcoin protocol to enable lightning-fast transactions: Lightning Network!
+Now that we have the basics of the Bitcoin protocol, we will introduce a payment network that uses the Bitcoin protocol to enable lightning-fast transactions: the Lightning Network!
 
-Be aware that the following is only a general description, so, if you want to understand it in deeper details, we invite you to check our LNP201 course.
+Be aware that the following is only a general description, so, if you want to understand it in deeper details, we invite you to take our LNP201 course.
 
 ### In a nutshell
 
@@ -1196,9 +1196,9 @@ To fully grasp the Lightning Network, it is crucial to understand how Bitcoin ev
 
 ### A Blockchain cannot grow indefinitely
 
-Lightning Network was validated and implemented in 2017 to solve the scalability problem of Bitcoin, as it allows for instant, low-cost Bitcoin transactions.
+The Lightning Network was validated and implemented in 2017 to solve the scalability problem of Bitcoin, as it allows for instant, low-cost Bitcoin transactions.
 
-The scalability problem refers to the challenge of implementing a monetary system capable of providing an ever-increasing number of transactions per second to face the increasing adoption. This issue relates to the blockchain trilemma. Imagine a triangle with decentralization, security, and scalability as its vertices.
+The scalability problem refers to the challenge of implementing a monetary system capable of providing an ever-increasing number of transactions per second in response to increasing adoption. This issue relates to the blockchain trilemma. Imagine a triangle with decentralization, security, and scalability as its vertices.
 
 ![image](assets/en/79.webp)
 
@@ -1216,7 +1216,7 @@ Traditional money transfer services such as Western Union, central banks, Visa, 
 
 Transactions are secured through cryptography and indirectly through the energy consumed by miners on Bitcoin. They can be made instantly, without geographical limitations, with extremely low fees (often less than 0.5%).
 
-In summary, Lightning Network is a promising attempt to deploy an efficient payment system to buy and sell in Bitcoin. There are already numerous Lightning wallets available, which you can discover in our tutorial section or through our Lightning Network courses.
+In summary, the Lightning Network is a promising attempt to deploy an efficient payment system to buy and sell in Bitcoin. There are already numerous Lightning wallets available, which you can discover in our tutorial section or through our Lightning Network courses.
 
 If you want to go beyond this introduction and understand all the workings of the Lightning Network, we recommend taking this excellent course by Fanis Michalakis on the subject:
 
@@ -1240,7 +1240,7 @@ This technology opens the door to a wide range of potential applications for Bit
 
 ![image](assets/en/82.webp)
 
-The video game industry offers a particularly interesting example of how the Lightning Network can be used to transform existing business models. The concept of "skin in the game" is an idea that has recently gained popularity in this context. It essentially involves having a financial stake in the outcome of a game. In fact, Lightning Network allows players to wager very small amounts of money when playing games, such as a few satoshis (about a fraction of a euro cent) to establish a stake that stimulates competition while significantly increasing the cost of using bots.
+The video game industry offers a particularly interesting example of how the Lightning Network can be used to transform existing business models. The concept of "skin in the game" is an idea that has recently gained popularity in this context. It essentially involves having a financial stake in the outcome of a game. In fact, the Lightning Network allows players to wager very small amounts of money when playing games, such as a few satoshis (about a fraction of a euro cent) to establish a stake that stimulates competition while significantly increasing the cost of using bots.
 
 ![image](assets/en/83.webp)
 
@@ -1248,11 +1248,11 @@ In summary, the future of micro-transactions with Bitcoin looks promising thanks
 
 ![image](assets/en/84.webp)
 
-Another example could be "money streaming": through Lightning Network, we can make micro-transactions every minute (potentially without a trusted third party), which opens the door to experimenting with economic models where consumers pay for content based on their actual consumption. It is even conceivable to use this system for renting goods. In such a system, money is automatically divided, based on a predefined percentage, among the different contributors to a service or product. This could revolutionize the way we think about payment models: instead of paying a monthly subscription for a service, users could be charged per minute, or even per second, for the time they spend using the service. Such an economic model could have profound implications for content creators, who would be incentivized to produce quality content to keep users' attention.
+Another example could be "money streaming": through the Lightning Network, we can make micro-transactions every minute (potentially without a trusted third party), which opens the door to experimenting with economic models where consumers pay for content based on their actual consumption. It is even conceivable to use this system for renting goods. In such a system, money is automatically divided, based on a predefined percentage, among the different contributors to a service or product. This could revolutionize the way we think about payment models: instead of paying a monthly subscription for a service, users could be charged per minute, or even per second, for the time they spend using the service. Such an economic model could have profound implications for content creators, who would be incentivized to produce quality content to keep users' attention.
 
 ![image](assets/en/85.webp)
 
-In conclusion, Lightning Network opens up a multitude of exciting use cases for Bitcoin users. The resulting economic models and business opportunities are numerous and varied, and we encourage you to check for yourself by trying the podcast application [Fountain](https://www.fountain.fm/), which allows you to be rewarded with a few sats for listening to your favorite podcasts!
+In conclusion, the Lightning Network opens up a multitude of exciting use cases for Bitcoin users. The resulting economic models and business opportunities are numerous and varied, and we encourage you to check for yourself by trying the podcast application [Fountain](https://www.fountain.fm/), which allows you to be rewarded with a few sats for listening to your favorite podcasts!
 
 ## Red Pill or Blue Pill?
 
@@ -1309,7 +1309,7 @@ Bitcoin is important and should not be considered just a game of chance, so it i
 
 ### Bitcoin: a revolutionary protocol
 
-As we have seen in the previous chapter, the Bitcoin protocol is neutral towards all its users. Thanks to consensus rules and cryptography, we can immutably record transactions in a global public ledger, guaranteeing monetary value transfers without any trusted third party. The second-layer infrastructure (and soon the third layer, with RGB) is used for network scalability and the development of new functionalities.
+As we have seen in the previous chapter, the Bitcoin protocol is neutral towards all its users. Thanks to consensus rules and cryptography, we can immutably record transactions in a global public ledger, guaranteeing monetary value transfers without any trusted third party. The second-layer infrastructure (and soon the third layer, with RGB, or "Really Good Bitcoin") is used for network scalability and the development of new functionalities.
 
 Bitcoin has all the necessary characteristics to be an efficient and healthy currency: divisible, instantly transportable, uncensorable, negligible verification costs, and with a monetary policy already set to 21 million units for centuries to come. Bitcoin is pseudonymous and can be exchanged anywhere in the world without any authorization from any entity. You just need to hold your own private keys and remember the saying "Not your keys, not your bitcoins".
 
@@ -1317,7 +1317,7 @@ It is adopted by diverse groups of people, from cryptographers, to libertarians,
 
 Bitcoin cannot be stopped and cannot be censored anymore. It is a peaceful revolution that changes the monetary system and enables financial inclusivity. Users can obtain bitcoins by accepting them for their trade or by buying them through regulated or unregulated platforms. They can store funds in their wallets, mobile applications, or physical devices, without the need of trusted intermediaries. Bitcoin advocates transparency, freedom, and individual responsibility: as the saying goes "Don't Trust, Verify".
 
-Satoshi created Bitcoin in 2008 to propose a change the financial system, through the change of the currency, because he knew that having access to easy and "magical" money easily brings to corruption. Bitcoin is therefore an alternative to build a new neutral monetary system, as it allows for the emancipation from the banking system. In the end, it is a social phenomenon that encourages us to participate in a peaceful revolution.
+Satoshi created Bitcoin in 2008 to propose a change to the financial system by redesigning currency. He viewed easy-to-create fiat as a corruption risk - governments can and do abuse it. Bitcoin is a neutral alternative, emancipating us from banks and sparking a peaceful revolution in how we view money.
 
 Are you ready to join?
 

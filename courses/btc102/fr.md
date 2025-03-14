@@ -704,7 +704,7 @@ Si vous ne disposez pas d’un patrimoine générant des revenus passifs (via de
 
 Le modèle monétaire actuel repose sur un cercle vicieux où l’endettement est non seulement encouragé, mais presque inévitable. En contractant des crédits pour financer leur mode de vie, les individus se retrouvent prisonniers d’un système où ils doivent rembourser des intérêts à des banques qui, elles, créent de l’argent ex nihilo. Ce n’est pas un hasard, mais un choix structurel : un système conçu pour favoriser les institutions financières au détriment des citoyens.
 
-Notre système est corrompu par l’influence des banques centrales et leur pouvoir de manipulation monétaire. **Bitcoin est le remède.**
+Notre système est corrompu par l’influence des banques centrales et leur pouvoir de manipulation monétaire. **Bitcoin est la solution.**
 
 Contrairement aux devises étatiques, Bitcoin est régi par des règles imposées par le consensus : il n’y aura jamais plus de 21 millions de bitcoins en circulation (environ, car c'est même un peu moins de 21 millions). Aucun gouvernement, aucune banque centrale, aucun acteur économique seul ne peut en modifier l’émission. Cela signifie que, contrairement aux monnaies étatiques, Bitcoin offre un cadre monétaire où l’inflation est totalement prévisible et finira par disparaître progressivement avec le temps, lorsque l'émission totale de l'offre monétaire sera terminée.
 
@@ -741,138 +741,222 @@ Ainsi, bien que Bitcoin ne soit ni une organisation ni un parti politique, il es
 
 Maintenant que nous avons étudié l'importance de l'invention de Satoshi Nakamoto, je vous invite dans le prochain chapitre à explorer l'incroyable industrie qui s'est développée au fil des ans autour de ce protocole.
 
-## Comprendre l'industrie du Bitcoin
+## Comprendre l'industrie de Bitcoin
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
 ![comprendre l'industrie du bitcoin](https://youtu.be/fcXvjghA-uM)
 
-Avec l'arrivé de Bitcoin en 2009 par Satoshi Nakamoto, une industrie de plusieurs milliard de dollars est née. Cette industrie malgres, ca jeunesse, a connu une croissance exponentielle au cours des dix dernières années. De nouveaux acteurs arrivent chaque jour avec de grosse somme d'argent et sont prêts à pénétrer en force dans cette nouvelle industrie. Aujorud'hui l'industrie a atteint un point de non-retour où les gouvernements, banques, géant d'internet ou autres ont rejoint le mouvement avec toute sorte d'intervention.
+Avec l’arrivée de Bitcoin en 2009 sous l’impulsion de Satoshi Nakamoto, une toute nouvelle industrie, aujourd’hui valorisée à plusieurs milliards de dollars, a vu le jour. Malgré son jeune âge, cet écosystème a connu une croissance fulgurante, en évoluant à un rythme exponentiel au cours de la dernière décennie. Chaque jour, de nouveaux acteurs, investisseurs institutionnels, startups innovantes et grandes entreprises technologiques, injectent des sommes considérables pour s’imposer dans ce secteur en pleine expansion.
 
-Bitcoin est un 0 à 1. Il ne peut pas être défait. Certains y verront le mal en personne, la boîte de Pandore est ouverte et elle leur ôte maintenant leur pouvoir et leur avantage. Ils vont le combattre. D'autres verront dans Bitcoin une opportunité de retrouver la liberté, de changer le système et d'améliorer notre société. Ils l'embrasseront.
-Bitcoin s'en moque, il existe tout simplement.
+Aujourd’hui, Bitcoin a franchi un seuil critique : un point de non-retour où même les gouvernements, les banques centrales, les géants du numérique et les entreprises du secteur financier ne peuvent plus l’ignorer. Que ce soit à travers des tentatives de régulation, d’adoption ou de confrontation, ces acteurs ont pris conscience de l’impact inévitable de Bitcoin sur l’économie mondiale.
 
-![industrie](assets/industrie/2.webp)
+### La naissance d'une industrie mondiale
 
-Dans cette section nous tacherons de faire un rapide tour d'horizone des acteurs pour meiux comrpendre comment focntionne l'industrie dans laquelle on cherche a entré.
+Bitcoin est une innovation radicale, un passage de **0 à 1**, qui ne peut être défait. Il représente une rupture complète avec le paradigme monétaire traditionnel. Certains y verront une menace existentielle, un bouleversement qui remet en cause leur pouvoir et leurs privilèges. Pour eux, Bitcoin est une boîte de Pandore qu’ils auraient préféré ne jamais voir s’ouvrir, et ils tenteront de le combattre par tous les moyens.
 
-Il est possible pour quiconque de concevoir sa propre cryptomonnaie - une tâche qui ne demande que quelques minutes. Cependant, la valeur de ce token sera exclusivement déterminée par le marché. En décembre 2019, plus de 5000 tokens étaient répertoriés sur Coinmarketcap. Aujourd'hui, en 2023, ce nombre est passé à plus de 23 000, avec des NFT, de la DeFi et bien d'autres choses. Ces jetons cryptographiques peuvent prendre différentes formes : monnaie, titre de sécurité, carburant pour un écosystème, sidechain, art numérique, etc.
+050
 
-Il est crucial de comprendre que 99,8 % de ces nouvelles « cryptomonnaies » sont des arnaques, mises en place par des marketeurs dans le but de dérober vos bitcoins. Toutefois, parmi les rares 0,2 % de projets sérieux, un effort conséquent est déployé pour faire progresser, expérimenter et développer des technologies novatrices, capables d'apporter de nombreux avantages aux utilisateurs. Avec le temps, le secteur s'améliorera, faisant émerger des entreprises légitimes proposant de véritables produits. La question de savoir si cela se fera sur d'autres blockchains que Bitcoin reste entière. Pour le moment, une chose est sûre : Bitcoin est la seule cryptomonnaie véritablement décentralisée, résistante à la censure, libre et assez sérieuse pour justifier des milliers d'heures de travail.
+D’autres, au contraire, percevront Bitcoin comme une opportunité unique : un levier de liberté individuelle, un outil capable de transformer le système financier mondial et d’offrir une alternative plus juste et transparente. Ceux-là choisiront de l’adopter, de l’intégrer à leurs activités et de contribuer à son développement.
 
-| Caractéristique  | Bitcoin                  | Alt-Coin (99.9% d'entre eux) |
-| ---------------- | ------------------------ | ---------------------------- |
-| Liquidité        | Élevée                   | Faible                       |
-| Adoption ( réel) | Élevée et globale        | Faible                       |
-| Équipe           | Robuste et décentralisée | Faible et centralisée        |
-| Réputation       | Élevée et globale        | Faible                       |
-| Infrastructure   | Robuste et stable        | Faible                       |
-| Décentralisation | Oui                      | Non                          |
-| Arnaque ?        | Non                      | Probablement                 |
-| Valeur ?         | Oui                      | Discutable                   |
+**Bitcoin, quant à lui, est indifférent à ces luttes. Il ne prend pas parti, il ne cherche ni l’approbation ni le rejet. Il existe, tout simplement.**
 
-Ne vous faites pas avoir avec des phrases comme :
+Dans ce chapitre, nous allons explorer les principaux acteurs de cette industrie émergente. Comprendre leur rôle et leurs motivations est essentiel pour saisir le fonctionnement global de cet écosystème et mieux appréhender les enjeux auxquels nous faisons face en y entrant.
 
+### La prolifération des altcoins
+
+Il est techniquement simple pour n'importe qui de créer sa propre cryptomonnaie : cela ne prend que quelques minutes et ne nécessite aucune innovation particulière. Cependant, la véritable question est de savoir si cette monnaie aura une quelconque valeur. Cette dernière est uniquement déterminée par le marché et repose sur la confiance des utilisateurs. En décembre 2019, plus de 5000 tokens étaient répertoriés sur CoinMarketCap. Aujourd’hui, en 2023, ce nombre a explosé à plus de 23 000, avec l’essor des NFT, de la finance décentralisée (DeFi) et de nombreuses autres applications plus ou moins pertinentes. Ces jetons prennent diverses formes : certains prétendent être de véritables monnaies, d’autres sont conçus comme des titres financiers, des carburants pour des plateformes, des sidechains, ou encore des représentations d’objets numériques sous forme d’art tokenisé.
+
+Cependant, il est important de comprendre que **la plupart de ces cryptomonnaies ne sont rien de plus que des arnaques**. Derrière une façade technologique sophistiquée, ces projets sont souvent portés par des stratégies marketing agressives visant uniquement à récupérer vos bitcoins. Ces "projets" sont conçus pour exploiter l’avidité et l’ignorance des investisseurs, en leur promettant des rendements irréalistes et en jouant sur des narratifs attrayants mais infondés.
+
+Toutefois, parmi cette myriade de projets douteux, une infime minorité tente sincèrement d’expérimenter de nouvelles technologies et d’apporter des innovations réelles. Certains de ces projets cherchent à améliorer des aspects techniques comme l’évolutivité, la confidentialité ou la programmabilité des transactions. Avec le temps, il est probable que certaines initiatives légitimes émergent, conduisant à des applications réellement utiles. Mais la question fondamentale reste entière : **ces innovations peuvent-elles vraiment prospérer en dehors de Bitcoin ?**
+
+À ce jour, une chose est sûre : Bitcoin demeure la seule monnaie numérique véritablement décentralisée, résistante à la censure et portée par une adoption mondiale croissante. Contrairement aux altcoins, il n’est pas soutenu par des entreprises centralisées ni soumis aux décisions arbitraires d’un petit groupe de développeurs ou d’investisseurs. Bitcoin est le seul projet qui justifie des milliers d’heures de recherche, de développement et d’amélioration continue.
+
+| Caractéristique       | Bitcoin                  | Altcoins (99,9 % d’entre eux) |
+| --------------------- | ------------------------ | ----------------------------- |
+| **Liquidité**         | Élevée                   | Faible                        |
+| **Adoption (réelle)** | Mondiale et croissante   | Très limitée                  |
+| **Équipe**            | Décentralisée et robuste | Centralisée et opaque         |
+| **Réputation**        | Solide et mondiale       | Variable et souvent douteuse  |
+| **Infrastructure**    | Stable et sécurisée      | Instable et vulnérable        |
+| **Décentralisation**  | Oui                      | Rarement                      |
+| **Arnaque ?**         | Non                      | Très probable                 |
+| **Utilité réelle ?**  | Oui                      | Discutable                    |
+
+**Ne tombez pas dans le piège de certaines affirmations trompeuses :**
 - "Blockchain, pas Bitcoin"
 - "XRP est le nouveau Bitcoin"
-- "StableCoin est l'avenir"
-- "Libra va éliminer Bitcoin"
-- "Découvrez mon nouveau Bitcoin amélioré"
-- "Fedcoin va rendre Bitcoin obsolète"
+- "Libra va remplacer Bitcoin"
+- "Mon projet est un Bitcoin amélioré"
+- "Les monnaies numériques de banque centrale vont rendre Bitcoin obsolète"
 
-Il est essentiel de faire des recherches personnelles si vous décidez de vous plonger dans le monde des alt-coins mais ce n'est pas ici qu'on vous guidera.
+Avant d’investir des ressources dans les altcoins, il est impératif d’effectuer ses propres recherches. Cependant, ici, nous ne vous guiderons pas dans cet univers : **nous nous concentrons uniquement sur le plus important. Nous nous concentrons uniquement sur Bitcoin.**
 
-À la suite de la bulle ICO de 2017, de nombreux acteurs majeurs ont commencé à développer leur propre base de données en utilisant la "blockchain". Les gouvernements et les banques centrales explorent la possibilité de créer une version numérique de leur monnaie Fiat (Suède, Europe, Russie, Chine, etc.). Les géants de la technologie se joignent également à cette course. Facebook a lancé son propre projet de stablecoin appelé "Libra". Des alternatives à la "blockchain" sont expérimentées par les banques, les corporations et d'autres géants technologiques avec des solutions comme Linux ou IBM "Hyperledger".
+### Une adoption des grandes institutions
 
-| Caractéristique        | Bitcoin | Alt-coin | Facebook-coin | Fed-coin |
-| ---------------------- | ------- | -------- | ------------- | -------- |
-| Publique               | Oui     | Varie    | Non           | Non      |
-| Ouvert                 | Oui     | Varie    | Non           | Non      |
-| Sans frontière         | Oui     | Varie    | Non           | Non      |
-| Neutre                 | Oui     | Varie    | Non           | Non      |
-| Résistant à la censure | Oui     | Varie    | Non           | Non      |
+Suite à la bulle des ICO de 2017, de nombreux acteurs institutionnels ont commencé à s’intéresser à la "blockchain", souvent sans en comprendre la finalité réelle. Des banques centrales et des gouvernements explorent désormais la possibilité d’émettre leurs propres monnaies numériques (CBDC), cherchant ainsi à moderniser le système financier tout en conservant un contrôle total sur les transactions. Plusieurs pays, comme la Suède, l’Europe, la Russie et la Chine, ont déjà initié des projets pilotes de cryptomonnaies étatiques.
 
-Alors qu'ils prétendent rivaliser avec Bitcoin, ces projets demeurent centralisés afin d'assurer le contrôle et de respecter les réglementations locales. Ils ne fourniront pas de protection de la vie privée, mais plutôt une surveillance de masse accrue. Le projet "Libra" de Facebook se positionnait en concurrence avec les banques, et non avec Bitcoin. De plus, sans preuve de travail, une "blockchain" n'a pas de véritable valeur. Il convient de noter que Libra a depuis été abandonné et qu'aucun vrai projet de blockchain privée n'est actuellement utilisé à l'échelle mondiale, contrairement à Bitcoin qui l'est.
+Dans le même temps, des géants de la technologie tentent d’imposer leurs propres solutions financières. Facebook, par exemple, avait lancé son projet de stablecoin, Libra, visant à créer une monnaie numérique adossée à un panier de devises. Ce projet a cependant suscité une forte opposition réglementaire et a finalement été abandonné.
 
-![blockchain](assets/industrie/1.webp)
+|Caractéristique|Bitcoin|Altcoins|Facebook-Coin|FedCoin|
+|---|---|---|---|---|
+|**Public**|Oui|Variable|Non|Non|
+|**Ouvert**|Oui|Variable|Non|Non|
+|**Sans frontière**|Oui|Variable|Non|Non|
+|**Neutre**|Oui|Variable|Non|Non|
+|**Résistant à la censure**|Oui|Variable|Non|Non|
 
-Le protocole Bitcoin est hors de portée des réglementations. Seuls les acteurs qui gravitent autour de celui-ci peuvent être réglementés et, comme Bitcoin est décentralisé, les lois, taxes et régulations varient d'un pays à l'autre. La Chine a, par exemple, prohibé l'utilisation de Bitcoin à de nombreuses reprises, tandis que des pays comme le Canada, la Suisse et Malte adoptent une position plus favorable vis-à-vis de cette dernière. La plupart des nations ont mis sur pied des groupes de travail sur la cryptographie afin d'élaborer de nouvelles règles et régulations. Cependant, ce processus est lent et les règles peuvent changer assez fréquemment. Malgré ce rythme lent, Bitcoin et les cryptomonnaies sont au coeur de nombreuses conversations.
+Alors que ces initiatives prétendent rivaliser avec Bitcoin, elles restent fondamentalement centralisées. Conçues pour respecter les réglementations locales et offrir un contrôle total aux émetteurs, elles ne garantissent ni la souveraineté financière, ni la confidentialité des utilisateurs. Ces monnaies numériques ne feront qu’intensifier la surveillance financière de masse, limitant encore davantage la liberté économique des individus.
 
-![blockchain](assets/industrie/3.webp)
+Le projet Libra de Facebook n’a jamais eu pour objectif de concurrencer Bitcoin. Il était conçu pour s’intégrer au système bancaire, pas pour le remplacer. À ce jour, aucune blockchain privée ou semi-centralisée n’a réussi à s’imposer à l’échelle mondiale, alors que Bitcoin continue de fonctionner de manière autonome, sécurisée et sans interruption depuis plus d’une décennie.
 
-Il est recommandé de mener des recherches approfondies concernant la situation dans votre pays. Les banques sont également très réglementées concernant Bitcoin. Bon nombre d'entre elles ferment les comptes et limitent l'accès aux services financiers des entreprises traitant en Bitcoin, tout en constituant des équipes de recherche pour explorer cette nouvelle technologie dans le but d'améliorer leur propre infrastructure. Aucun régulateur, banque ou gouvernement ne souhaite perdre de pouvoir, ils se préparent donc à faire face à Bitcoin. Il est important de noter que Bitcoin, en tant que tel, ne peut être modifié ou contrôlé par une seule entité.
+051
 
-Les plateformes d'échange servent de lien entre la monnaie fiduciaire (monnaie gouvernementale) et les cryptomonnaies. Elles donnent la possibilité à leurs clients d'acheter ou de vendre des cryptomonnaies via leur plateforme. Chaque plateforme d'échange possède des spécificités différentes. Voici quelques aspects à considérer :
+### Réglementations et postures gouvernementales
 
-- une bonne réputation en matière de sécurité
-- Une liquidité suffisante
-- Un service client efficace
-- Une interface utilisateur intuitiv
-- Une option pour effectuer des achats automatiques
-- Un retrait automatique des Bitcoins vers son portefeuille.
+Le protocole Bitcoin est, par nature, hors de portée des réglementations étatiques. Contrairement aux systèmes financiers traditionnels, il ne dépend d’aucune institution centrale et ne peut être censuré ou manipulé par une autorité unique. Cependant, si le protocole lui-même est immuable, les acteurs qui interagissent avec Bitcoin, comme les plateformes d’échange, les entreprises spécialisées et les utilisateurs, restent soumis aux lois et réglementations locales.
 
-La plupart des plateformes d'échange légales respectent les réglementations bancaires en vigueur. Elles ont également mis en place des procédures de KYC ("Know Your Customer") rigoureuses, vous demandant ainsi de fournir une pièce d'identité pour créer un compte. Il faut donc diviser l'industrie des solutions d'achat en KYC et non KYC, comme nous l'explorerons en détail prochainement.
+052
 
-![blockchain](assets/industrie/4.webp)
+Étant donné que Bitcoin est un réseau mondial et décentralisé, chaque pays adopte une approche différente à son sujet. Certains gouvernements, comme la Chine, ont tenté à plusieurs reprises de restreindre, voire d’interdire son utilisation. À l’opposé, d’autres pays, comme le Canada, la Suisse ou Malte, ont adopté une posture plus ouverte. De nombreuses juridictions cherchent aujourd’hui à encadrer le secteur des cryptomonnaies, notamment en imposant des obligations de conformité aux entreprises qui permettent l’achat, la vente ou la conservation de bitcoins.
 
-**Prudence** : Le "Big Brother" vous surveille, prétendument pour votre sécurité bien sure. Vos données peuvent être utilisées par votre gouvernement pour suivre vos activités.
+056
 
-Dans le spectre des plateformes d'échange on peut distinguer 5 gros types:
+Cependant, ces processus réglementaires sont lents et évolutifs, car les décideurs peinent à saisir pleinement la nature de Bitcoin et ses implications à long terme. Il est donc recommandé de mener des recherches approfondies sur la situation réglementaire de Bitcoin dans votre pays, notamment en ce qui concerne la fiscalité, l’achat et la détention de bitcoins, ainsi que les restrictions bancaires éventuelles.
 
-- Plateforme d'échange éthique : Nous parlons ici de solutions qui essaient de respecter l'utilisateur en lui offrant un service simple et honnête. Ces plateformes proposent généralement une solution de DCA (Dollar-Cost Averaging) et un retrait automatique des fonds vers le portefeuille de l'utilisateur. Ce sont les solutions les plus adaptées pour les débutants. (ex: relai, bull bitcoin, stackinsat)
-- Plateformes d'échange en pair à pair: Elles vous permettent d'acheter et de vendre des bitcoins directement entre utilisateurs. Vous pourrez y trouver des personnes dans votre ville pour conclure des transactions. Soyez prudent lors de ces échanges et préférez des lieux sûrs et publics pour conclure les transactions. C'est solution dite non KYC sont tres bien pour les utilisateurs un peu avancé. nous les explorons en détail dans BTC 205; (exemple: Bisq, peach, robosat)
-- Plateformes d'échange d'Altcoins: Ces plateformes vous permettent d'acheter et de vendre les divers Altcoins que vous souhaitez échanger. Pour ce faire, vous pouvez déposer des BTC ou utiliser une carte de crédit. Il est conseillé d'être extrêmement prudent avec les Altcoins et d'évaluer leur performance en Bitcoin, et non en dollars. En gros c'est plateforme sont des casinos géants d'actif nonrégulé ( souvent des sécurité). nous les déconsiellons (Exemple type: Bitfinex, kraken, bitstamp)
-- Plateformes d'échange de trading: Elles permettent de trader des bitcoins et autres cryptomonnaies avec un effet de levier, en utilisant les BTC comme garantie. Vous pourrez ainsi trader des contrats dérivés. Attention si vous utilisez le levier! Il est probablement préférable de ne pas trader vos bitcoins. Pareil nous ne conseillons pas ce type de solution pour débutant (ex: Binance)
-- Plateformes d'échange douteuses: Certaines plateformes non réglementées sont suspectes, elles peuvent manipuler leur volume de transactions et leur sécurité est souvent défaillante. Ces plateformes sont souvent russes, chinoises ou exclusivement sur le darknet. Le risque est à votre charge, mais il est recommandé de les éviter.
+### L’attitude des banques face à Bitcoin
 
-N'oubliez jamais de retirer vos bitcoins d'une plateforme d'échange Les plateformes d'échange peuvent être piratées, saisies, faire faillite ou tout simplement disparaître avec votre argent. Elles présentent des risques importants et doivent être évitées autant que possible. N'y laissez jamais vos fonds pendant une longue période. Rappelez-vous : si vous n'avez pas les clés, les bitcoins ne sont pas à vous.
+Les banques, en tant que piliers du système financier traditionnel, perçoivent Bitcoin comme une menace à leur modèle économique basé sur l’intermédiation et le contrôle des flux financiers. C’est pourquoi, dans de nombreux pays, elles imposent des restrictions aux entreprises et aux particuliers utilisant Bitcoin. Plusieurs banques ferment des comptes ou limitent l’accès à leurs services pour les sociétés opérant dans le secteur des cryptomonnaies, sous prétexte de lutte contre le blanchiment d’argent et le financement du terrorisme.
 
-Les bitcoins sont conservés dans ce qu'on appelle un "portefeuille", qui est un coffre-fort numérique pour votre argent. Seul le détenteur de la clé peut y accéder. Il peut s'agir d'un dispositif matériel, d'un logiciel d'application ou même d'un morceau de papier. Ces portefeuilles font le lien entre vos bitcoins et le monde extérieur.
-Chaque portefeuille présente différentes caractéristiques :
+Dans le même temps, ces mêmes banques investissent massivement dans la recherche et le développement de technologies liées à la blockchain, et cherchent à exploiter les innovations de Bitcoin tout en conservant leur pouvoir de contrôle.
 
-- confidentialité
-- sécurité
-- facilité d'utilisation
+### Les plateformes d’échange et la garde des bitcoins
+
+Les plateformes d’échange jouent un rôle important dans l’écosystème Bitcoin en facilitant la conversion entre les monnaies étatiques et les bitcoins. Elles permettent aux utilisateurs d’acheter, de vendre et parfois d’échanger des bitcoins contre d’autres actifs numériques. Chaque plateforme possède ses propres spécificités et il est essentiel de choisir celle qui correspond à ses besoins tout en minimisant les risques. Voici quelques critères à prendre en compte avant d’utiliser une plateforme :
+- une réputation solide en matière de sécurité ;
+- une liquidité suffisante pour assurer des échanges rapides et sans forte variation de prix ;
+- un service client réactif et efficace en cas de problème ;
+- une interface utilisateur intuitive pour faciliter les transactions ;
+- une option permettant d’effectuer des achats automatiques récurrents (DCA) ;
+- un retrait facile et gratuit des bitcoins vers un portefeuille personnel.
+
+Les plateformes d’échange enregistrées et conformes aux réglementations locales doivent généralement respecter les obligations imposées par les autorités financières. Cela implique souvent l’application de procédures strictes de vérification d’identité, connues sous le nom de **KYC (*Know Your Customer*)**. Ces contrôles exigent que l’utilisateur fournisse des documents d'identification avant de pouvoir accéder aux services de la plateforme.
+
+053
+
+**Prudence** : Les plateformes KYC collectent vos données personnelles sous prétexte de sécurité. Ces informations peuvent être exploitées par des gouvernements pour surveiller vos transactions financières et restreindre votre accès à certaines opérations.
+
+Toutefois, il existe des alternatives pour acquérir des bitcoins sans se soumettre à un KYC :
+- Les plateformes d'achat en P2P telles que Bisq, Robosat, LNP2PBot, Peach, Hodl Hodl, etc. ;
+- Les achats en direct contre du cash, par exemple lors de meetups Bitcoin locaux ;
+- Les plateformes d'achat régulées sans KYC, qui sont rares mais disponibles dans certains pays ;
+- Les distributeurs automatiques de bitcoins (ATM) ;
+- Travailler en échange de bitcoins ;
+- Miner des bitcoins.
+
+Il existe plusieurs types de plateformes, chacune répondant à des usages spécifiques :
+
+
+- **Plateformes d’échange en pair-à-pair (P2P)**
+
+Ces plateformes permettent d’acheter et de vendre des bitcoins directement entre utilisateurs, sans intermédiaire centralisé. Elles offrent une plus grande confidentialité, notamment parce qu'elles fonctionnent sans KYC. Il est possible d’y trouver des vendeurs locaux avec qui réaliser des transactions en personne ou via divers modes de paiement en ligne (SEPA, Revolut, Wise...).
+
+**Attention :** pour toute transaction physique, privilégiez un lieu public et sécurisé afin d’éviter les tentatives d’escroquerie.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+- **Les plateformes d’échange Bitcoin-only**
+
+Ces plateformes adoptent une approche respectueuse des utilisateurs en leur offrant un service simple et transparent. Elles sont Bitcoin-only. Elles mettent souvent en place des solutions permettant d’acheter des bitcoins via un **Dollar-Cost Averaging (DCA)** et proposent des retraits automatiques vers un portefeuille personnel. Elles sont particulièrement adaptées aux débutants qui cherchent à accumuler des bitcoins de manière progressive et sécurisée. Exemples : Relai, Bull Bitcoin, StackinSat, Bitstack...
+
+https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+
+https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+
+https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+
+- **Les plateformes d’échange généralistes ou orientées trading**
+
+Ces plateformes permettent d'acheter du bitcoin, mais également de trader sur les cryptomonnaies en utilisant des outils avancés tels que l’effet de levier et les contrats dérivés. Évidemment, nous conseillons de ne pas faire de trading et de simplement acheter vos bitcoins puis les retirer de la plateforme. Le trading est un jeu risqué qui ne convient pas à ceux qui cherchent simplement à accumuler des bitcoins pour le long terme.  
+
+https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+
+https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+
+https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+
+Les plateformes d’échange ne sont pas des portefeuilles sécurisés. En laissant vos bitcoins sur un exchange, vous prenez un risque considérable. Plusieurs scénarios peuvent entraîner la perte de vos fonds :
+- **Piratage** : Beaucoup de bitcoins ont été volés sur des plateformes compromises (exemple : MtGox) ;
+- **Saisie gouvernementale** : Un gouvernement peut exiger la fermeture d’une plateforme et geler les fonds de ses utilisateurs ;
+- **Faillite ou escroquerie** : De nombreuses plateforme ont disparu avec l’argent de leurs clients (exemple : FTX).
+
+La règle d’or est simple : **si vous ne détenez pas vos clés privées, vous ne possédez pas réellement vos bitcoins.** Toujours retirer ses fonds vers un portefeuille personnel dès que possible est la seule manière d’assurer une souveraineté totale sur son argent.
+
+### Portefeuilles, minage et développement : les piliers de l’écosystème
+
+Les bitcoins sont sécurisés avec ce que l’on appelle un portefeuille, un logiciel spécialisé qui conserve et gère les clés privées permettant de débloquer les bitcoins d'un utilisateur. Il peut s’agir d’un appareil matériel dédié, d’un logiciel installé sur un ordinateur ou un smartphone, ou même d’un simple morceau de papier sur lequel est inscrite une clé. Ces portefeuilles assurent le lien entre vos bitcoins et le monde extérieur, afin de faciliter leur utilisation au quotidien.
+
+Chaque portefeuille présente des caractéristiques propres qui influencent son niveau de sécurité et son usage :
+- confidentialité ;
+- sécurité ;
+- facilité d’utilisation ;
 - coût.
 
-Dans notre industrie, nous pouvons donc diviser les acteurs des portefeuilles en plusieurs sections :
+L’industrie des portefeuilles Bitcoin est structurée en plusieurs catégories distinctes :
 
-- Les créateurs de hardware wallets. Nous avons ici de nombreuses entreprises qui se concurrencent sur ce sujet. Certaines sont open source, d'autres proposent des hardware wallets plus ou moins chers avec plus ou moins de fonctionnalités (ex : Ledger, Trezor, Coinkite, Shiftcrypto).
-- Les créateurs de software wallets ; ce sont des sociétés ou des acteurs indépendants qui souhaitent créer des portefeuilles logiciels sur mobile ou ordinateur (ex : Wizard Sardine, Galoy, Synonyme, Blockstream).
-- Les portefeuilles DIY (Do It Yourself) ; ici, nous avons des solutions 100 % open source que l'on peut créer chez soi afin de réduire les risques de confiance envers les autres acteurs de la chaîne de production ou de création (ex : Seedsigner, Specter DIY).
+- Les créateurs de hardware wallets. Ces entreprises développent des dispositifs matériels dédiés au stockage sécurisé des clés privées. Certaines solutions sont open-source, tandis que d’autres proposent des appareils avec différentes fonctionnalités et niveaux de sécurité. Parmi les acteurs majeurs, on retrouve Ledger, Trezor, Coinkite, Foundation ou encore Shiftcrypto.
 
-Les portefeuilles sont un aspect primordial de Bitcoin et nous les explorerons en détail dans cette université.
+- Les créateurs de software wallets. Il s’agit de sociétés ou de développeurs indépendants qui conçoivent des portefeuilles logiciels pour mobiles et ordinateurs. Ces solutions varient en termes de sécurité et de facilité d’utilisation. Quelques exemples : Sparrow, Wizard Sardine, Galoy, Synonyme, Blockstream...
 
-Les mineurs sont chargés de sécuriser le réseau. Ils utilisent l'électricité pour effectuer les processus de preuve de travail de Bitcoin, ce qui crée un nouveau bloc. Nous avons déjà traité le sujet des mineurs en détail dans le cours BTC 101, au besoin. Pour aller plus loin, nous proposons le cours Minage 201.
+- Les portefeuilles DIY (*Do It Yourself*). Ces solutions open-source permettent aux utilisateurs avancés de créer leur propre portefeuille, réduisant ainsi leur dépendance aux fournisseurs tiers et minimisant les risques liés à la confiance dans un acteur externe. Quelques exemple : Seedsigner, Specter DIY...
 
-Il est important de comprendre que cette industrie est vaste, très vaste.
+Les portefeuilles sont un élément important de Bitcoin et feront l’objet d’une étude approfondie dans les prochaines sections de cette formation.
 
-Alors que cela a commencé de manière individuelle, les mineurs d'aujourd'hui sont généralement de grandes entreprises bien financées qui se font concurrence dans un secteur très difficile. Elles recherchent des sources d'énergie bon marché pour obtenir un avantage concurrentiel. Elles peuvent être publiques ou anonymes et se trouver n'importe où dans le monde.
+Le minage, quant à lui, est une activité essentielle pour la sécurité et la maintenance du réseau Bitcoin. Les mineurs confirment les transactions et sécurisent la blockchain en réalisant des calculs intensifs via la preuve de travail. Chaque bloc miné permet d’ajouter de nouvelles transactions à la blockchain et d’émettre de nouveaux bitcoins selon le mécanisme établi.
 
-Leur industrie se divise en de nombreux acteurs de tailles variées :
+Dans les premiers jours de Bitcoin, le minage était une activité individuelle, souvent réalisée sur des ordinateurs personnels. Aujourd’hui, ce secteur est dominé par de grandes entreprises disposant d’importants moyens financiers et logistiques. La recherche de sources d’énergie bon marché est devenue un enjeu clé pour les mineurs, qui cherchent à maximiser leur rentabilité en optimisant leurs coûts énergétiques. Les mineurs sont présents partout dans le monde, et opèrent aussi bien dans des infrastructures industrielles massives que dans des installations plus modestes.
 
-- Les créateurs de matériel de minage (ex: Bitmain) : ces sociétés sont le maillon essentiel de notre industrie, car il est extrêmement complexe de créer des ASIC performants.
-- Les créateurs de logiciels de minage : que ce soit pour la création de pools de minage ou les outils utilisés par les ASIC, c'est un aspect primordial de l'industrie (ex: Braiins OS).
-- Les developeurs qui travailles sur des solution innovante type StratumV2
-- Les mineurs : ce sont eux qui utilisent les machines et les logiciels pour lancer leurs opérations de minage. On peut trouver aussi bien de petits mineurs amateurs utilisant un S9 (comme nous l'enseignons dans la formation Minage 201) que des mineurs internationaux comme Galaxy qui possèdent des gigantesques entrepôts au Texas pour miner.
+L’industrie du minage se divise en plusieurs catégories d’acteurs :
 
-Le minage est un domaine à part entière, donc si le sujet de l'énergie vous intéresse, vous serez servi.
+- **Les constructeurs de matériel de minage** (par exemple : Bitmain). Ces entreprises conçoivent et produisent les ASIC (*Application-Specific Integrated Circuits*), des puces ultra-spécialisées dédiées au minage de Bitcoin ;
+- **Les pools de minage**. C'est un regroupement de mineurs qui mettent en commun leur puissance de calcul pour augmenter leurs chances de valider des blocs. Face à la difficulté croissante du minage, cette collaboration permet de rendre les récompenses plus régulières et prévisibles. Lorsqu'un bloc est trouvé, la récompense (bitcoins minés et frais de transaction) est répartie entre les membres en fonction de leur contribution. Ce système réduit la variance des gains et assure une meilleure stabilité financière aux mineurs. Quelques exemple : Foundry USA, AntPool, F2Pool, MARA Pool, Braiins Pool...
+- **Les mineurs**. Ce sont les opérateurs qui utilisent les machines et les logiciels pour sécuriser le réseau et générer des blocs. On distingue les petits mineurs indépendants, qui utilisent du matériel comme des S9, et les grandes fermes industrielles, comme Galaxy, qui disposent d’immenses infrastructures dédiées.
 
-Bitcoin est un protocole en source ouverte. Vous pouvez trouver son code sur GitHub : https://github.com/bitcoin/bitcoin. À partir de là, vous pouvez consulter toutes les propositions de mises à jour, toute la documentation et de nombreuses discussions communautaires. Tout est transparent, et c'est à l'utilisateur de décider de faire ou non une mise à jour. Les développeurs principaux de Bitcoin sont responsables de la gestion de ce GitHub. Ils mettent à jour le code source, vérifient les bugs et sont chargés de la gestion globale du projet.
+Le minage est un domaine à part entière, qui soulève des questions techniques, économiques et énergétiques complexes. Pour ceux qui souhaitent approfondir cet aspect, notre formation MIN201 propose une étude détaillée du sujet :
 
-On peut toujours subdiviser les développeurs de Bitcoin en différentes sections :
+https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
-- Les développeurs de Bitcoin Core : Ils sont responsables du développement principal du protocole Bitcoin et de ses fonctionnalités centrales.
-- Les développeurs de protocoles annexes (comme le Lightning Network ou RGB) : Ils travaillent sur des protocoles supplémentaires qui s'intègrent à l'écosystème Bitcoin et étendent ses fonctionnalités.
-- Les développeurs amateurs qui créent des outils et des applications (comme Mempool ou Alby) : Ils contribuent à l'écosystème Bitcoin en développant des outils, des services ou des applications qui facilitent son utilisation.
+Le client majoritaire Bitcoin Core est un projet open source. Son code est accessible publiquement sur GitHub : [https://github.com/bitcoin/bitcoin](https://github.com/bitcoin/bitcoin). Toute l’évolution du protocole, des mises à jour aux discussions techniques, y est documentée de manière transparente. Les utilisateurs sont libres d’examiner le code et de choisir d’adopter ou non les mises à jour proposées.
 
-Tout le monde peut commencer à contribuer au code, mais il est important de noter que modifier réellement le code de Bitcoin est un processus long et complexe. De plus, de nombreux développeurs de Bitcoin sont des passionnés qui consacrent de nombreuses années à développer des BIP (Bitcoin Improvement Proposals) qui pourraient ne jamais être utilisés. C'est donc une industrie complexe et parfois imprévisible. Nous explorerons ces aspects en détail.
+L’écosystème de développement de Bitcoin peut être divisé en plusieurs catégories de contributeurs :
+- Les développeurs de Bitcoin Core, qui assurent le développement et la maintenance du client principal. Parmi ceux-ci, on distingue les mainteneurs, qui possèdent les clés pour gérer le dépôt. En 2025, ils sont au nombre de cinq : Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao, et Ryan Ofsky. Ensuite, il y a les contributeurs qui proposent des modifications, lesquelles sont examinées par les mainteneurs.
+- Les développeurs de protocoles annexes, qui conçoivent des solutions complémentaires comme le Lightning Network ou RGB.
+- Les développeurs indépendants, qui créent divers outils et applications destinés à améliorer l’expérience utilisateur, comme Mempool.space ou Alby par exemple.
 
-![blockchain](assets/industrie/6.webp)
+Tout le monde peut proposer une modification au code, mais contribuer au développement de Bitcoin Core est un processus exigeant. Modifier son code implique un travail de longue haleine, nécessitant de nombreuses validations et des débats au sein de la communauté. Beaucoup de développeurs consacrent des années à proposer des améliorations sous forme de BIP (*Bitcoin Improvement Proposals*), dont certaines ne seront jamais implémentées. C’est un environnement où l’innovation et la rigueur sont essentielles.
 
-Un pouvoir illimité ? Non. Les développeurs principaux n'ont pas un pouvoir illimité et ne peuvent pas modifier ou contrôler Bitcoin seuls. Ce sont les nœuds qui détiennent le pouvoir. Personne ne contrôle Bitcoin.
+054
 
-![blockchain](assets/industrie/5.webp)
+Contrairement aux idées reçues, les mainteneurs et contributeurs de Bitcoin Core ne détiennent aucun pouvoir absolu sur le protocole. Ils ne peuvent pas imposer des modifications arbitraires.
+
+055
+
+Leur unique pouvoir réside dans la capacité de modifier le client majoritaire, Bitcoin Core. Théoriquement, ces modifications doivent obtenir le consensus des utilisateurs et des contributeurs avant d'être fusionnées. Toutefois, même si les mainteneurs décidaient d'agir de manière subreptice, il serait encore nécessaire que les nœuds du réseau Bitcoin acceptent d'implémenter ces modifications. Le code en lui-même est inutile s'il n'est pas exécuté sur une machine. Il est également important de mentionner l'existence de clients alternatifs qui implémentent le protocole Bitcoin, tels que Bitcoin Knots :
+
+https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 ## L'architecture en couches de Bitcoin
 

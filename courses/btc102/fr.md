@@ -502,11 +502,13 @@ Contrairement à ce que l’on pourrait penser, Bitcoin n’est pas simplement l
 
 C’est dans ce contexte qu’est publié, fin 2008, le **White Paper de Bitcoin** par un certain Satoshi Nakamoto (pseudonyme dont la véritable identité n’a jamais été révélée à ce jour). Au début de l’année 2009, Nakamoto lance le système Bitcoin et la première version fonctionnelle d'un logiciel client. Les idées majeures derrière cette invention s’inscrivent dans la lignée idéologique des **Cypherpunks**.
 
-032
+035
 
 Les Cypherpunks sont une communauté informelle et internationale de personnes promouvant l'utilisation de la cryptographie comme moyen d'assurer les libertés individuelles sur Internet. Les cypherpunks défendent le droit fondamental pour l'individu de protéger sa vie privée, en particulier dans un contexte d'augmentation de la surveillance étatique et d'exploitation des données par des entités privées.
 
 Le mouvement des cypherpunks remonte au début des années 1990, lorsque des groupes de cryptographes, de programmeurs et de libertariens ont commencé à discuter des implications politiques de la cryptographie au cours de leurs premières réunions dans la Silicon Valley. La personnalité principale au sein de la communauté était Tim May, qui avait écrit le *Crypto Anarchist Manifesto* en 1988, texte fondateur du mouvement. Parmi les moments clés de l'histoire des cypherpunks, il y a la fondation, en 1992, de la *Cypherpunks mailing list*, une liste de diffusion de courrier électronique qui a servi pour ces discussions. La publication par Eric Hughes en 1993 du *Cypherpunk's Manifesto*, document exposant les objectifs et les actions des cypherpunks, a également été un moment important.
+
+032
 
 L'idée d'une monnaie électronique qui ne s'établit pas sur une entité centrale, comme Bitcoin, est enracinée dans la philosophie des cypherpunks
 
@@ -516,7 +518,11 @@ Le contexte économique n’était pas anodin : fin 2008, la planète subissait 
 
 > The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 
+034
+
 Beaucoup y voient une référence à l’ambition de Bitcoin : proposer un système de transfert de valeur **sans intermédiaire** de confiance, régi par des règles transparentes, et non pas par les décisions souvent opaques de banques centrales ou de gouvernements.
+
+033
 
 Pour approfondir vos connaissances sur les origines de Bitcoin, nous proposons une formation gratuite, très complète et documentée sur le sujet :
 
@@ -527,6 +533,8 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### Peer-to-peer et absence d’organe central
 
 Bitcoin se définit comme un "**Un système de cash électronique pair-à-pair**" : tout utilisateur peut se connecter au réseau à l’aide du logiciel approprié (un nœud Bitcoin) et communiquer directement avec les autres utilisateurs, sans passer par un serveur central unique. Cette décentralisation vise à éviter qu’une entité quelconque (banque, État, grande société...) puisse contrôler, censurer ou arrêter le système. Bitcoin est un **système d’échange de valeur** qui fonctionne 24 heures sur 24, 7 jours sur 7, partout sur la planète, accessible à tous sans condition.
+
+036
 
 En pratique, chaque participant au réseau (chaque nœud) possède une copie complète du registre des transactions, appelé la **blockchain**. Dès qu’une nouvelle transaction est émise, elle est propagée à travers le réseau. Des mineurs confirment ensuite à intervalles réguliers ces transactions en les regroupant dans des blocs, ajoutés ensuite à la fin de la chaîne (d’où le nom de "blockchain").
 

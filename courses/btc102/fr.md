@@ -336,7 +336,20 @@ Dans le prochain chapitre, je vais vous donner quelques conseils supplémentaire
 
 ![Conseil pour débutant](https://youtu.be/juMUJ3MWeZY)
 
-Lorsque l’on découvre le Bitcoin, il est facile de se laisser emporter par l’engouement et d’adopter des comportements hasardeux. L’univers des cryptomonnaies est en effet très particulier : volatilité des prix, nouvelles technologies, risques de pertes définitives en raison d’erreurs techniques ou de mauvais choix d’investissement… Autant d’écueils à éviter. Dans ce chapitre, je vous offre quelques conseils pratiques et une orientation générale pour celles et ceux qui se lancent dans l’achat de leurs premiers bitcoins, et plus largement, dans tout placement financier.
+Lorsque l’on découvre le Bitcoin, il est facile de se laisser emporter par l’engouement et d’adopter des comportements hasardeux. L’univers des cryptomonnaies est en effet très particulier : volatilité des prix, nouvelles technologies, risques de pertes définitives en raison d’erreurs techniques ou de mauvais choix d’investissement… Autant d’écueils à éviter.
+
+Dans ce chapitre, je vous offre quelques conseils pratiques et une orientation générale pour celles et ceux qui se lancent dans l’achat de leurs premiers bitcoins, et plus largement, dans tout placement financier.
+
+Voici le principaux conseils que nous allons détailler ensemble :
+- Méfiez-vous des Shitcoins et autres cryptomonnaies dépourvues d'utilité ;
+- Investissez uniquement ce que vous êtes prêt à perdre ;
+- Comprenez bien la distinction entre le trading et l'investissement ;
+- Soyez conscient des implications fiscales de vos investissements ;
+- Gérez soigneusement votre clé privée ;
+- Gardez une attitude humble et discrète ;
+- Adoptez une vision à long terme.
+
+017
 
 ### Les erreurs courantes à éviter
 
@@ -356,11 +369,15 @@ L'univers de Bitcoin est accessible à tous, mais cela ne signifie pas qu'il fau
 - **Oublier les implications fiscales :** Chaque pays a ses propres règles fiscales concernant le bitcoin. Ignorer ces règles peut vous exposer à des pertes financières importantes ;
 - **Céder au FOMO (*Fear Of Missing Out*) :** Acheter impulsivement parce que vous craignez de manquer une opportunité conduit souvent à des achats au pire moment.
 
+019
+
 ### Définir une stratégie d’investissement
 
 Avant d’acheter le moindre satoshi, il est important de savoir pourquoi et comment vous souhaitez investir dans le bitcoin. Cette démarche implique de mettre en place un plan financier clair, adapté à votre situation personnelle et à vos objectifs.
 
 En premier lieu, définissez avec précision votre **budget**. Il ne s’agit pas simplement de décider d’un montant approximatif : prenez le temps de calculer vos revenus mensuels, puis d’en soustraire vos charges fixes (loyer, emprunts, impôts, factures...), ainsi que les frais liés à votre vie courante (nourriture, transport, loisirs...). Le reste disponible constitue votre marge d’épargne ; c’est seulement sur cette partie que vous pouvez envisager d’investir. En procédant ainsi, vous vous assurez de ne pas engager des sommes qui mettraient en péril votre stabilité financière si le marché connaissait une forte correction.
+
+020
 
 Ensuite, pensez à la méthode d’investissement la plus adaptée pour vous. Le **Dollar Cost Averaging (DCA)** consiste à acheter du bitcoin (ou tout autre actif) à intervalles réguliers, toutes les semaines, tous les mois... Cette technique permet de lisser le prix d’achat au fil du temps et de réduire l’impact émotionnel des fluctuations importantes du marché. C’est un choix judicieux pour la majorité des investisseurs, surtout pour les débutants.
 
@@ -374,6 +391,8 @@ En cas de doute : commencez par vous informer. Plongez dans l'univers de Bitcoin
 
 Le bitcoin subit des variations de prix parfois spectaculaires. Il n’est pas rare de voir des mouvements de 10 %, 20 % ou même 50 % en l’espace de quelques jours. Une telle volatilité peut dérouter les débutants, qui, sous l’effet de la panique, pourraient vendre à perte ou, à l’inverse, se laisser emporter par la frénésie d’un marché haussier.
 
+021
+
 Pour éviter ces réactions impulsives, il est indispensable d’accepter la nature volatile du bitcoin avant même de se lancer. Ne considérez pas ces fluctuations comme une anomalie, mais comme une caractéristique inhérente à cet actif encore jeune. De fait, si ces hausses ou baisses subites vous empêchent de dormir ou vous incitent à prendre des décisions contre-productives, il se peut que vous ayez investi une somme trop importante. Dans ce cas, réévaluez votre plan et votre tolérance au risque, quitte à réduire votre exposition pour retrouver une certaine sérénité.
 
 Il va de soi qu'il ne faut donc investir que ce que vous pouvez vous permettre de perdre ! Ne vous endettez pas pour investir dans une monnaie dont vous ne comprenez peut-être pas encore tous les tenants et aboutissants.
@@ -382,7 +401,11 @@ Il va de soi qu'il ne faut donc investir que ce que vous pouvez vous permettre d
 
 L’un des aspects les plus uniques de Bitcoin est la notion de **self-custody**. Vous pouvez disposer de votre propre portefeuille sur lequel vous êtes entièrement responsable. Celui-ci est généralement généré à partir d'une phrase mnémonique (une série de 12 ou 24 mots), qui vous donne un contrôle absolu sur vos BTC. Si vous la perdez ou si elle tombe entre de mauvaises mains, vos fonds deviennent irrécupérables.
 
+023
+
 Dès lors, la règle d’or sur Bitcoin est : "***Not your keys, not your coins***". Si vous ne possédez pas vous-même vos clés privées, vous n’êtes pas réellement propriétaire de vos bitcoins. Les plateformes d’échange peuvent être pratiques pour démarrer ou effectuer des transactions, mais elles conservent les clés de vos BTC ; si elles font faillite, se font pirater ou décident de geler votre compte, vous risquez de tout perdre.
+
+024
 
 Pour éviter ce scénario, il est vivement recommandé de configurer votre propre portefeuille, où vous seul détenez la phrase mnémonique. Cette dernière doit être notée à la main, sur un support physique, et conservée dans un lieu sûr, à l’abri. Certains optent même pour une double sauvegarde, conservée dans deux endroits géographiquement distincts. Quoi qu’il en soit, veillez à **ne jamais stocker votre phrase mnémonique sur un appareil connecté** à Internet ou sur un service cloud, car un simple piratage ou une fuite de données pourrait se révéler catastrophique.
 
@@ -404,7 +427,11 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 En dépit de son statut de monnaie décentralisée, le bitcoin n’échappe pas aux réglementations et aux lois fiscales de votre pays. Chaque juridiction possède ses propres règles quant à la taxation des gains issus des cryptomonnaies. Certains pays imposent la plus-value lors de la revente, d’autres prévoient des déclarations spécifiques pour tout échange, et d’autres encore peuvent adopter des approches moins courantes (impôts sur la fortune, charges sociales, etc.).
 
+018
+
 Avant de réaliser des transactions importantes, il est vivement recommandé de vous renseigner auprès d’un professionnel ou de consulter les sites gouvernementaux. Une **planification fiscale** en amont vous évitera des déconvenues (amendes, régularisations, pénalités...), particulièrement si vous prévoyez des reventes conséquentes.
+
+022
 
 ### Différences entre trading, investissement et holding
 
@@ -440,6 +467,8 @@ Il n'y a pas d'âge pour commencer à s'éduquer en matière d'investissement et
 En guise d’introduction à la logique d’investissement, l’ouvrage ***Rich Dad, Poor Dad* de Robert T. Kiyosaki** est réputé pour sa pédagogie et sa simplicité. Il aborde des principes fondamentaux tels que la différence entre un actif et un passif, ou encore le rôle de l’éducation financière dans la réussite personnelle.
 
 Pour aller plus loin, des émissions comme ***The Investors Podcast*** approfondissent la finance et l’économie. Si vous travaillez déjà dans le domaine de la finance ou si cela vous passionne, écoutez quelques-uns de leurs épisodes. Certains d'entre eux parlent de Bitcoin.
+
+025
 
 ### Règles d’or à retenir
 

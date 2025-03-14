@@ -336,6 +336,156 @@ Dans le prochain chapitre, je vais vous donner quelques conseils supplémentaire
 
 ![Conseil pour débutant](https://youtu.be/juMUJ3MWeZY)
 
+Lorsque l’on découvre le Bitcoin, il est facile de se laisser emporter par l’engouement et d’adopter des comportements hasardeux. L’univers des cryptomonnaies est en effet très particulier : volatilité des prix, nouvelles technologies, risques de pertes définitives en raison d’erreurs techniques ou de mauvais choix d’investissement… Autant d’écueils à éviter. Dans ce chapitre, je vous offre quelques conseils pratiques et une orientation générale pour celles et ceux qui se lancent dans l’achat de leurs premiers bitcoins, et plus largement, dans tout placement financier.
+
+### Les erreurs courantes à éviter
+
+L'univers de Bitcoin est accessible à tous, mais cela ne signifie pas qu'il faut y entrer sans préparation. Voici quelques-unes des erreurs classiques commises par les investisseurs novices :
+
+**Erreurs technologiques :**
+
+- **Perte de la grain de votre portefeuille :** Votre graine (ou phrase mnémonique) est une série de 12 ou 24 mots permettant de récupérer l'accès à vos bitcoins. Si vous perdez cette phrase, vous perdez définitivement l’accès à vos fonds ;
+- **Stocker ses bitcoins sur une plateforme tierce :** Garder vos bitcoins sur une plateforme d’échange signifie que vous ne détenez pas réellement vos bitcoins. Vous êtes alors exposé à des risques tels que le piratage, la faillite ou la confiscation ;
+- **Négliger sa confidentialité :** Protéger votre vie privée doit faire partie de votre stratégie de sécurisation. Exposer publiquement la quantité de bitcoins que vous possédez peut attirer l'attention d'individus mal intentionnés ;
+- **Sécurité en ligne insuffisante :** Un manque de précautions basiques peut rendre vos appareils vulnérables au piratage et causer des pertes importantes.
+
+**Erreurs financières :**
+
+- **Investir plus que ce que vous pouvez vous permettre de perdre :** N'investissez jamais en vous endettant ou avec l’argent destiné à vos dépenses essentielles ;
+- **Ignorer la différence entre trading et investissement à long terme :** Le trading est une activité risquée qui demande beaucoup de temps et de compétences techniques avancées. L’investissement à long terme est mieux adapté aux débutants ;
+- **Oublier les implications fiscales :** Chaque pays a ses propres règles fiscales concernant le bitcoin. Ignorer ces règles peut vous exposer à des pertes financières importantes ;
+- **Céder au FOMO (*Fear Of Missing Out*) :** Acheter impulsivement parce que vous craignez de manquer une opportunité conduit souvent à des achats au pire moment.
+
+### Définir une stratégie d’investissement
+
+Avant d’acheter le moindre satoshi, il est important de savoir pourquoi et comment vous souhaitez investir dans le bitcoin. Cette démarche implique de mettre en place un plan financier clair, adapté à votre situation personnelle et à vos objectifs.
+
+En premier lieu, définissez avec précision votre **budget**. Il ne s’agit pas simplement de décider d’un montant approximatif : prenez le temps de calculer vos revenus mensuels, puis d’en soustraire vos charges fixes (loyer, emprunts, impôts, factures...), ainsi que les frais liés à votre vie courante (nourriture, transport, loisirs...). Le reste disponible constitue votre marge d’épargne ; c’est seulement sur cette partie que vous pouvez envisager d’investir. En procédant ainsi, vous vous assurez de ne pas engager des sommes qui mettraient en péril votre stabilité financière si le marché connaissait une forte correction.
+
+Ensuite, pensez à la méthode d’investissement la plus adaptée pour vous. Le **Dollar Cost Averaging (DCA)** consiste à acheter du bitcoin (ou tout autre actif) à intervalles réguliers, toutes les semaines, tous les mois... Cette technique permet de lisser le prix d’achat au fil du temps et de réduire l’impact émotionnel des fluctuations importantes du marché. C’est un choix judicieux pour la majorité des investisseurs, surtout pour les débutants.
+
+Enfin, clarifiez votre **vision** : s’agit-il d’un placement à court terme, dans l’optique de faire des allers-retours fréquents (trading), ou d’un investissement moyen ou long terme, plus proche de l’esprit "hodl" (détenir ses bitcoins sur plusieurs années) ? Votre stratégie diffèrera considérablement selon votre horizon de placement. Un "hodler" aura tendance à moins s’inquiéter des variations quotidiennes et préférera stocker ses BTC en toute sécurité, tandis qu’un trader cherchera à tirer parti des mouvements de prix plus rapides, au risque de multiplier les transactions et de s’exposer davantage au stress et aux mauvaises décisions.
+
+L'objectif n'est pas de concevoir un plan parfait, mais plutôt de disposer d'une structure claire à suivre et à respecter. Il est important de ne pas effectuer vos achats sous l'impulsion de l'émotion ou de la peur. Adoptez une stratégie que vous avez définie au préalable sur papier pour minimiser tout stress inutile.
+
+En cas de doute : commencez par vous informer. Plongez dans l'univers de Bitcoin pendant quelques heures (vous trouverez une multitude de ressources sur Plan ₿ Network). Lisez deux ou trois livres, investissez cinq euros pour tester, visionnez des documentaires et des vidéos. Gardez l'esprit ouvert. Une fois que vous vous sentirez plus à l'aise avec Bitcoin, vous pourrez éventuellement réviser votre plan d'action et adapter votre utilisation.
+
+### Connaître la volatilité du BTC
+
+Le bitcoin subit des variations de prix parfois spectaculaires. Il n’est pas rare de voir des mouvements de 10 %, 20 % ou même 50 % en l’espace de quelques jours. Une telle volatilité peut dérouter les débutants, qui, sous l’effet de la panique, pourraient vendre à perte ou, à l’inverse, se laisser emporter par la frénésie d’un marché haussier.
+
+Pour éviter ces réactions impulsives, il est indispensable d’accepter la nature volatile du bitcoin avant même de se lancer. Ne considérez pas ces fluctuations comme une anomalie, mais comme une caractéristique inhérente à cet actif encore jeune. De fait, si ces hausses ou baisses subites vous empêchent de dormir ou vous incitent à prendre des décisions contre-productives, il se peut que vous ayez investi une somme trop importante. Dans ce cas, réévaluez votre plan et votre tolérance au risque, quitte à réduire votre exposition pour retrouver une certaine sérénité.
+
+Il va de soi qu'il ne faut donc investir que ce que vous pouvez vous permettre de perdre ! Ne vous endettez pas pour investir dans une monnaie dont vous ne comprenez peut-être pas encore tous les tenants et aboutissants.
+
+### Gestion et sécurité de votre portefeuille Bitcoin
+
+L’un des aspects les plus uniques de Bitcoin est la notion de **self-custody**. Vous pouvez disposer de votre propre portefeuille sur lequel vous êtes entièrement responsable. Celui-ci est généralement généré à partir d'une phrase mnémonique (une série de 12 ou 24 mots), qui vous donne un contrôle absolu sur vos BTC. Si vous la perdez ou si elle tombe entre de mauvaises mains, vos fonds deviennent irrécupérables.
+
+Dès lors, la règle d’or sur Bitcoin est : "***Not your keys, not your coins***". Si vous ne possédez pas vous-même vos clés privées, vous n’êtes pas réellement propriétaire de vos bitcoins. Les plateformes d’échange peuvent être pratiques pour démarrer ou effectuer des transactions, mais elles conservent les clés de vos BTC ; si elles font faillite, se font pirater ou décident de geler votre compte, vous risquez de tout perdre.
+
+Pour éviter ce scénario, il est vivement recommandé de configurer votre propre portefeuille, où vous seul détenez la phrase mnémonique. Cette dernière doit être notée à la main, sur un support physique, et conservée dans un lieu sûr, à l’abri. Certains optent même pour une double sauvegarde, conservée dans deux endroits géographiquement distincts. Quoi qu’il en soit, veillez à **ne jamais stocker votre phrase mnémonique sur un appareil connecté** à Internet ou sur un service cloud, car un simple piratage ou une fuite de données pourrait se révéler catastrophique.
+
+Si vous souhaitez approfondir vos connaissances sur la sécurisation de votre phrase mnémonique, je vous recommande de consulter cet article. Il détaille les risques encourus et les bonnes pratiques à adopter pour les éviter :
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+ 
+### Confidentialité et discrétion
+
+Dans le monde numérique, on sous-estime trop souvent l’importance de la discrétion. Or, plus vous divulguez publiquement vos avoirs en bitcoins, plus vous devenez une cible potentielle pour des escrocs, des cybercriminels ou, dans certains cas, pour des menaces plus ordinaires (extorsion, chantage, etc.). Inutile de vous vanter ouvertement de détenir d’importantes quantités de BTC, que ce soit sur les réseaux sociaux ou lors de discussions avec des connaissances. Malheureusement, il y eu de très nombreux cas d'enlèvements de Bitcoiners à travers différents pays.
+
+Par ailleurs, il est important de cloisonner vos activités en ligne. Vous pouvez par exemple séparer votre adresse e-mail classique (pour le quotidien) de celle utilisée pour vos comptes liés à Bitcoin. Méfiez-vous des tentatives de phishing, des liens suspects et des sites imitant des plateformes officielles. En bref, la **discrétion** et la **vigilance** vous protègeront souvent des ennuis.
+
+Si vous êtes intéressé par le sujet de la confidentialité sur Bitcoin, je vous recommande de suivre par la suite cette formation de deuxième année :
+
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
+### Implications fiscales
+
+En dépit de son statut de monnaie décentralisée, le bitcoin n’échappe pas aux réglementations et aux lois fiscales de votre pays. Chaque juridiction possède ses propres règles quant à la taxation des gains issus des cryptomonnaies. Certains pays imposent la plus-value lors de la revente, d’autres prévoient des déclarations spécifiques pour tout échange, et d’autres encore peuvent adopter des approches moins courantes (impôts sur la fortune, charges sociales, etc.).
+
+Avant de réaliser des transactions importantes, il est vivement recommandé de vous renseigner auprès d’un professionnel ou de consulter les sites gouvernementaux. Une **planification fiscale** en amont vous évitera des déconvenues (amendes, régularisations, pénalités...), particulièrement si vous prévoyez des reventes conséquentes.
+
+### Différences entre trading, investissement et holding
+
+L’univers de Bitcoin est souvent associé à des clichés dans le grand public, notamment l’idée d’un enrichissement rapide via le trading. Or, il convient de distinguer clairement trois approches différentes, chacune ayant ses propres exigences et risques.
+
+- **Le trading :**
+
+Vous ne devriez pas faire de trading. Le trading s’effectue sur de courtes périodes, avec parfois un usage de levier financier. Les traders cherchent à exploiter les mouvements de prix, souvent volatils, pour dégager des profits rapides. Il faut un solide bagage technique (analyse graphique, gestion du risque...) et une résistance au stress ; la plupart des débutants échouent faute d’expérience ou de méthode rigoureuse. Suivre constamment l'évolution du marché peut s'avérer complexe et exige un engagement à temps plein. Comme l'a bien dit Warren Buffet : "*Si vous n'êtes pas prêt à garder une action pendant 10 ans, ne songez même pas à la garder 10 minutes*".
+
+- **L'investissement :**  
+
+L’investisseur adopte un horizon de temps moyen ou long, sans recours au levier. Il cherche à acquérir du bitcoin en misant sur l’évolution de sa valeur au fil des mois, voire des années. Le risque reste présent, car le prix peut fluctuer, mais l’approche est généralement plus calme et mieux adaptée à la majorité du grand public, qui ne souhaite pas consacrer des heures quotidiennes à surveiller les marchés.
+
+- **L'holding (HODL) :**
+
+"*HODL*" est une déformation humoristique de "*hold*", devenue emblématique dans la communauté Bitcoin. Les "*hodlers*" conservent leurs BTC sur le très long terme, parfois dix ans ou plus, persuadés que Bitcoin prendra de la valeur à mesure que son adoption progresse. Cette stratégie exige une forte conviction dans le potentiel de Bitcoin et une indifférence relative aux secousses passagères du marché.
+
+|                        | Trading     | Investissement | Holding         |
+| ---------------------- | ----------- | -------------- | --------------- |
+| Levier                 | Oui         | Non            | Non             |
+| Temporalité            | Court terme | Moyen terme    | Très long terme |
+| Type d'actif           | Contrat     | BTC            | BTC             |
+| Risque                 | Très haut   | Haut           | Haut            |
+| Difficulté             | Très dur    | Dur            | Dur             |
+| Courbe d'apprentissage | Longue      | Longue         | Longue          |
+| Pertes potentielles    | Illimitées  | Limitées       | Limitées        |
+| Plus adapté à          | Certains    | La plupart     | Certains        |
+
+### Se former continuellement
+
+Il n'y a pas d'âge pour commencer à s'éduquer en matière d'investissement et pour comprendre le fonctionnement de l'argent et du système financier. Il n'est pas nécessaire de plonger dans les détails ; une compréhension globale est suffisante pour prendre des décisions éclairées, basées sur des faits plutôt que sur l'ignorance. Cela peut s'avérer précieux tout au long de votre vie, et vous permettre de détecter lorsque quelqu'un tente de vous vendre un mauvais produit d'investissement (comme pourrait le faire une banque).
+
+En guise d’introduction à la logique d’investissement, l’ouvrage ***Rich Dad, Poor Dad* de Robert T. Kiyosaki** est réputé pour sa pédagogie et sa simplicité. Il aborde des principes fondamentaux tels que la différence entre un actif et un passif, ou encore le rôle de l’éducation financière dans la réussite personnelle.
+
+Pour aller plus loin, des émissions comme ***The Investors Podcast*** approfondissent la finance et l’économie. Si vous travaillez déjà dans le domaine de la finance ou si cela vous passionne, écoutez quelques-uns de leurs épisodes. Certains d'entre eux parlent de Bitcoin.
+
+### Règles d’or à retenir
+
+Pour terminer, gardez à l’esprit quelques principes simples mais incontournables :
+
+- **Règle n°1** : N’investissez jamais plus que ce que vous pouvez vous permettre de perdre. En d’autres termes, ne mettez pas votre sécurité financière en danger pour un actif volatile.
+
+- **Règle n°2** : Ne vous fiez pas aveuglément à la tendance générale du marché ou aux conseils miracles. Évitez ce qui est à la mode. Concentrez-vous plutôt sur le fait de progresser en prenant des décisions rationnelles. En cas de doute, prenez une nuit de réflexion et discutez-en avec vos proches. Il est préférable de prendre son temps plutôt que de se précipiter. La meilleure stratégie consiste à avancer étape par étape.
+
+- **Règle n°3** : Élaborez un plan et une vision à long terme. La patience, la régularité et la discipline sont souvent plus payantes que l’excitation à court terme. Planifiez et ne prenez pas trop de risques. Le but est d'éviter des échecs fatals tout en accumulant les succès.
+
+En appliquant ces préceptes, vous pourrez aborder l’investissement de manière plus sereine et réfléchie. Malgré la volatilité du bitcoin et son aspect parfois déroutant, cette technologie recèle un potentiel indéniable à condition de l’approcher avec prudence et réalisme. Prenez le temps de renforcer vos connaissances, ajustez votre stratégie au besoin et, surtout, rappelez-vous qu’il vaut mieux progresser lentement mais sûrement, plutôt que de céder à l’impatience ou à la peur de manquer une opportunité.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 L'éducation formelle nous apprend peu de choses sur l'investissement. En conséquence, nous nous aventurons souvent seuls dans ce paysage d'investissement nouveau et complexe.
 
 Dans cette section, nous examinerons certaines erreurs courantes que les investisseurs débutants font en entrant dans le monde de Bitcoin, et comment vous pouvez éviter de tomber dans les mêmes pièges. Nous aborderons également comment planifier judicieusement votre investissement Bitcoin. Les sujets que nous aborderons comprennent :

@@ -10,13 +10,14 @@ _Questo tutorial stato scritto da_ [Bitcoin Campus](https://linktr.ee/bitcoincam
 
 # Sats.Mobi
 SatsMobi è un wallet che gira su Telegram, che ha tutte le funzioni di un wallet Lightning Network (custodial) e che offre, in più, una serie di funzionalità molto divertenti.
-Nasce da un fork di LightningTipBot, ormai discontinuo, ne eredita tutte le funzionalità, aggiungendone altre, risultando così più moderno. 
+Nasce da un fork di LightningTipBot, ormai discontinuo, ne eredita tutte le caratteristiche aggiungendone altre più attuali, risultando così più moderno. 
 Di LNTipBot, Sats.Mobi ricalca anche la filosofia open source. Il wallet può essere, infatti, configurato e gestito in proprio clonandolo da questo [repository](https://github.com/massmux/SatsMobiBot).
 
 Se invece si preferisce utilizzarlo in maniera semplice, è sufficiente avviare una chat su Telegram, per scoprire che è un bot.
 
 # Impostazioni
 Dalla barra di ricerca di Telegram, cercare "satsmobi" e comparirà il link al [bot](@SatsMobiBot).
+### Attenzione: se non siete sicuri della ricerca via Telegram, fate accesso sicuro dal link https://t.me/SatsMobiBot
 
 ![image](assets/it/01.webp)
 
@@ -119,23 +120,23 @@ dopodiché l'invoice da 50 sats risulta pagata, anche senza una fotocamera e rel
 ![image](assets/it/27.webp)
 
 Delle funzionalità che hanno reso celebre LNTipBot e che Sats.Mobi riporta su Telegram, c'è quella che rende divertente e interattiva l'esperienza dei membri in un gruppo.
-Gli owner possono invitare il bot ad unirsi nella chat di gruppo e poi nominare Sats.Mobi come admin. Da quel momento in poi inizia il bello, perché i membri possono inizare a premiare gli altri utenti per il loro contributo nel gruppo.
+Gli owner possono invitare il bot ad unirsi nella chat di gruppo e poi nominare Sats.Mobi come admin. Da quel momento in poi comincia il bello, perché i membri possono inizare a premiare gli altri utenti per il loro contributo nel gruppo.
 - _/tip_ aggiunge una mancia rispondendo ad un messaggio;
 - _/send_ invia fondi specificando come destinatario un LN Address o un handle Telegram;
 - _/faucet_ (nel menu _/advanced_) permette di creare una serie di mance che i membri più veloci del gruppo possono raccogliere cliccando su _/collect_;
 - _/tipjar_ (nel menu _/advanced_) crea un'altro tipo di distribuzione che può essere inviata agli utenti del gruppo.
 Ognuno di questi comandi ha la sua sintassi, che è spiegata nel menu dei comandi principali.
 
-E se non siamo owner di un gruppo? Nessun problema: basta chiedere al fondatore di invitare Sats.Mobi, aggiungendolo come admin dello stesso e il gioco è fatto!
+E se non siamo owner di un gruppo? Nessun problema: basta chiedere al fondatore di invitare Sats.Mobi, aggiungerlo come admin dello stesso e il gioco è fatto!
 
 # _/POS_
 
 Quando si avvia per la prima volta Sats.Mobi, il bot crea per l'utente anche un'altra funzionalità: **il POS**.
-Il "dispositivo" lo attiva l'utente con il comando _/pos_ oppure cliccando sul relativo pulsante, sulla console in basso a destra. Di fatto il POS è una web app, che si apre come pop-up sulla chat di Telegram
+Il "dispositivo" lo attiva l'utente con il comando _/pos_ oppure cliccando sul relativo pulsante dalla console in basso a destra. Di fatto il POS è una web app, che si apre come pop-up sulla chat di Telegram
 
 ![image](assets/it/14.webp)
 
-L'interfaccia riporta l'handle personale in alto a sinistra e si usa semplicemente come si usano tutti i POS: digitando l'importo sulla tastiera.
+L'interfaccia riporta l'handle personale di Telegram in alto a sinistra e si usa semplicemente come si usano tutti i POS: digitando l'importo sul tastierino.
 Supponiamo di voler incassare 21 centesimi di euro per un servizio. Sapendo che Sats.Mobi gestisce nativamente soltanto i sats, non è semplice fare la conversione a mente. Al contrario, il POS visualizza l'euro come unità di conto, mostrando al contempo l'equivalente in satoshi.
 
 ![image](assets/it/15.webp)

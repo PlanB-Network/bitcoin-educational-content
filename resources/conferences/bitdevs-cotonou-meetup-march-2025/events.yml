@@ -1,0 +1,24 @@
+start_date: 2025-03-22
+end_date: 2025-03-22
+address_line_1: J Reside, Cotonou, Benin
+address_line_2: 
+address_line_3: 
+name: Bitdevs Cotonou Meetup March 2025
+builder: Bitdevs Cotonou
+type: meetup
+book_online: true
+book_in_person: false
+price_dollars: 0
+description: Bitdevs Meetup for Developers who would like to learn and build on Bitcoin in Cotonou, Benin
+language: 
+  - fr
+  - en
+links:
+  website: bitdevscotonou.org
+  replay_url:    
+  live_url :
+tags: 
+  - Bitcoin
+  - Lightning
+  - Protocol
+  - Development

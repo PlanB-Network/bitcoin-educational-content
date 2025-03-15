@@ -962,35 +962,107 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
-Bitcoin, en tant que protocole open source, peut être complété et enrichi par des couches de protocoles/applications ajoutées par quiconque. Certaines de ces fonctionnalités sont plus significatives que d'autres, créant un écosystème dynamique avec une multitude d'entreprises contribuant à l'élaboration de l'infrastructure. Des exemples de tels projets incluent : les Sidechains (par exemple, Liquid Chain par Blockstream), le Lightning Network par Lightning Labs, et des concepts d'identité (par exemple, Microsoft ION). Ces projets sont comme des strates supplémentaires ajoutées au protocole Bitcoin initial.
+Bitcoin est un système ouvert conçu pour être minimaliste, robuste et sécurisé à la base. Pour ajouter des fonctionnalités sans altérer ses fondations, les évolutions se font généralement par l'ajout de **couches de protocoles** et d'applications complémentaires qui enrichissent l'écosystème sans compromettre la décentralisation et la résilience du système principal. Cette flexibilité a permis à de nombreuses entreprises et développeurs indépendants de bâtir une infrastructure autour de Bitcoin, en y apportant des innovations adaptées à différents cas d'usage.
 
-**Le saviez-vous** ? Internet n'a pas été construit en un seul bloc. Il est plutôt le résultat de plusieurs couches de protocoles empilées les unes sur les autres - HTTP, TCP, IP. De cette manière, chaque couche est extrêmement efficace pour accomplir la tâche qui lui est spécifiquement attribuée, tandis que les autres niveaux répondent à d'autres besoins.
+### L'extension de Bitcoin par couches additionnelles
 
-Lightning est maintenant accessible a tous, c'est la couche d’application de Bitcoin
-Le Réseau Lightning est la seconde couche de Bitcoin. Il permet à Bitcoin de s'étendre et d'obtenir plus de fonctionnalités. Il fonctionne comme une ardoise dans un bar, les transactions restent sur papier et sont finaliser qu’à la fin. Nous l'étudierons en détail plus tard.
+L’approche en couches permet d’améliorer Bitcoin sans modifier directement son protocole de base, ce qui garantie la stabilité et la sécurité du système principal. Cette méthode est similaire à celle utilisée pour Internet, où plusieurs protocoles s’empilent pour offrir des fonctionnalités distinctes tout en maintenant une interopérabilité fluide.
 
-Pour finir, il va de soi que cette industrie compte également des millions d'acteurs plus traditionnels tels que des sociétés, des commerçants et des utilisateurs.
+Parmi les principaux système de surcouches qui enrichissent l'écosystème Bitcoin, on retrouve :
 
-Aujourd'hui, accepter Bitcoin dans son commerce est devenu une réalité simple grâce à de nombreux outils qui ne nécessitent pas beaucoup de temps de mise en place :
+- **Le Lightning Network** : 
 
-- OpenNode
-- Swiss Bitcoin Pay
-- BTCPay
+Une solution de seconde couche inventée par Thaddeus Dryja et Joseph Poon en 2016 qui permet d'effectuer des paiements à finalité presque instantanée et généralement à faible coût. Lightning permet de créer des canaux de paiement entre les utilisateurs, au sein desquels les transactions peuvent être effectuées presque instantanément et avec des frais minimes, sans avoir à enregistrer chaque transaction individuellement sur la blockchain. Les canaux peuvent rester ouverts quasi indéfiniment, et ne nécessitent des transactions sur la blockchain que lors de leur ouverture et de leur clôture. Le Lightning Network vise à améliorer la scalabilité de Bitcoin et à rendre possible son utilisation pour des paiements de faible valeur et qui nécessite une finalité rapide.
 
-Nous avons donc atteint un point dans l'industrie où tout le monde peut participer, que ce soit en utilisant Bitcoin dans sa vie quotidienne en le dépensant, en l'acceptant dans son commerce, en contribuant à l'éducation ou au code, ou en innovant au-delà. En somme, Bitcoin ne peut plus s'arrêter.
+059
 
-![blockchain](assets/industrie/7.webp)
+Par exemple, si vous deviez payer un café en bitcoins en utilisant le système de base, pour que la transaction soit définitivement réglée, et donc que le commerçant soit assuré de votre paiement, il faudrait attendre au minimum que votre transaction soit incluse dans un bloc. Cela peut prendre plusieurs minutes, à condition que vous ayez choisi un taux de frais approprié. En théorie, le commerçant devrait même attendre 6 confirmations, soit en moyenne 1 heure, pour être totalement sûr que la transaction est réglée. Ce délai est inacceptable pour les paiements en magasin. Avec Lightning, la transaction en bitcoins est réglée en quelques secondes, ce qui permet ainsi au barman de vous servir votre café sans attendre qu'il ne refroidisse.
 
-La métaphore de "l'autoroute du Bitcoin" me paraît être l'une des illustrations les plus précises pour décrire le futur de l'industrie et de l'infrastructure du Bitcoin. Le Bitcoin se positionne comme un système financier alternatif. Jeune, en cours de maturation et doté de ses propres imperfections, il est néanmoins solide. Il ne disparaîtra pas, et comme un trou noir, il absorbera tout sur son passage avec le temps.
+Si vous souhaitez en savoir plus sur le fonctionnement théorique de Lightning, nous proposons une excellente formation de deuxième année sur ce sujet :
 
-Le BTC peut être envisagé comme une route sur laquelle vous circulez. Lorsque vous avez besoin de réparer votre voiture, de faire le plein ou d'acheter de la nourriture, vous êtes contraint de quitter cette route du BTC, soit de revenir à l'ancien système financier pour vos besoins.
+https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Toutefois, lorsque l'infrastructure sera suffisamment performante, il ne sera plus nécessaire de quitter cette route pour répondre à vos besoins fondamentaux. La route se sera alors transformée en une autoroute, où 90% du trafic se fait à pleine vitesse et seuls 10% ralentissent ou s'arrêtent.
-Une fois que le Bitcoin se sera transformé en une telle autoroute, les gens ne la quitteront plus pour réaliser leurs achats. Les biens et services seront directement accessibles sur cette autoroute, et le retour vers l'ancien système deviendra rare, risqué et ennuyeux.
+- **Les sidechains** : 
 
-C'est la vision d'avenir que j'ai pour le Bitcoin. Il deviendra une autoroute pour le trafic internet et pour 90% de la population mondiale. L'ancien système et l'ancienne infrastructure ne disparaîtront pas, mais ils deviendront obsolètes s'ils ne s'adaptent pas à l'autoroute du Bitcoin.
+Ce sont des blockchains conçues pour fonctionner en parallèle avec la blockchain principale de Bitcoin. Les deux blockchains sont connectées à l'aide d'un ancrage bilatéral qui permet de faire en sorte que l'actif qui circule sur la sidechain conserve la même valeur que le bitcoin sur la chaîne principale. La sidechain dispose de son propre mécanisme de consensus qui peut être indépendant ou qui peut reposer en partie sur celui de la chaîne principale. 
 
-C'est Andreas Antonopoulos, si je ne me trompe pas, qui m'a introduit à cette idée. @aantonop
+Les sidechains permettent généralement d'utiliser des fonctionnalités qui ne sont pas disponibles directement sur la chaîne principale, ou bien de bénéficier de fonctionnalités améliorées, comme par exemple : plus de flexibilité dans le développement, des transactions plus rapides et/ou plus confidentielles, ou encore, une capacité transactionnelle plus élevée. Pour ce faire, la sidechain fait des compromis techniques par rapport à la chaîne principale.
+
+Le concept de sidechain a initialement été présenté en 2014 par Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra, Jorge Timon et Pieter Wuille. Actuellement (2025), les sidechains les plus connues sur Bitcoin sont Liquid et RSK (Rootstock).
+
+Pour approfondir vos connaissances sur la sidechain Liquid, nous proposons une formation de troisième année :
+
+https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+
+- **RGB** : 
+
+C'est un système de contrats intelligents décentralisé et confidentiel, conçu pour fonctionner avec Bitcoin et le Lightning Network. Ce protocole fonctionne sur un modèle de validation côté client et sépare le stockage de l’état des contrats de la blockchain, afin de ne conserver que des engagements cryptographiques sur celle-ci. Ainsi, l’historique complet des états est maintenu en dehors de la chaîne, ce qui permet une meilleure scalabilité et confidentialité. RGB permet ainsi la création de contrats complexes afin d'emmètre des tokens, des NFT, des identités décentralisées ou des solutions de DeFi, directement par-dessus Bitcoin ou Lightning.
+
+Sur RGB, la résistance à la double dépense est assurée par l'utilisation de Single-use Seal, un mécanisme cryptographique qui tire parti du fait que les UTXOs sur Bitcoin ne peuvent être utilisés qu'une seule fois. Quant à l'authenticité des jetons, elle est garantie par la vérification côté client de l'historique des états, depuis la création du contrat jusqu'à son état le plus récent.
+
+060
+
+Pour approfondir vos connaissances sur RGB, nous proposons une formation de quatrième année (attention, elle est très technique) :
+
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+Voici les principaux protocoles de surcouche, mais il en existe évidemment de nombreux autres, plus ou moins utilisés, et de nouveaux protocoles émergeront très probablement dans le futur. L'idée derrière ces extensions est d'optimiser chaque couche pour une tâche spécifique tout en préservant l'intégrité et l'immuabilité du protocole Bitcoin.
+
+Cette stratégie de développement, qui va à contre-courant de l'industrie crypto, présente l'avantage de ne pas complexifier Bitcoin, de le maintenir simple et donc sécurisé. Plus un système est simple, plus il est performant et sûr. En réduisant ses fonctionnalités à l'essentiel, on diminue sa surface d'attaque, et une surface d'attaque réduite signifie un système plus sécurisé. Bitcoin excelle dans une seule chose et la réalise parfaitement. Les autres utilisations se déploient sur des systèmes qui se connectent à Bitcoin et tentent, à divers degrés, de bénéficier de ses caractéristiques tout en en proposant d'autres.
+
+058
+
+**Le saviez-vous** ? Internet ne s'est pas construit en une seule étape. Il repose sur un empilement de couches de protocoles interdépendants, comme TCP/IP pour la communication réseau, HTTP pour le web, et d'autres protocoles spécialisés. Chacune de ces couches est optimisée pour une fonction précise, ce qui garantit un système efficace et modulaire. Bitcoin adopte la même approche, en s’appuyant sur son réseau principal comme base solide, tout en développant des solutions additionnelles pour répondre aux besoins spécifiques des utilisateurs.
+
+### Les outils d'intégration pour les commerçants
+
+Aujourd'hui, de nombreuses solutions existent pour les commerçants qui souhaitent accepter le bitcoin comme moyen de paiement. Pour les petites structures qui souhaitent une mise en place informelle, il suffit d'installer un portefeuille chaud, voire un portefeuille Lightning, pour recevoir des paiements directement sur celui-ci. Les entreprises plus importantes, qui ont besoin de tenir une comptabilité, devront plutôt opter pour un système spécialisé de traitement des paiements. Plusieurs options sont disponibles également dans ce domaine.
+
+Pour ceux qui préfèrent ne pas s'embêter et recevoir des fonds en monnaie fiat directement sur leur compte bancaire, il existe des solutions custodiales comme Open Node :
+
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
+Pour les commerçants prêts à mettre les mains dans le cambouis et qui veulent contrôler entièrement le processus, le logiciel BTCPay Server est une excellente option. Cependant, l'inconvénient majeur de BTCPay Server est que sa mise en place et sa gestion prennent du temps, et nécessitent une certaine expertise technique :
+
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+
+Entre ces 2 solutions, il y a Swiss Bitcoin Pay qui est un compromis très intéressant entre facilité d'utilisation, fonctionnalités et sécurité. Cette solution convient aussi bien aux très petits commerces qu'aux plus grandes structures :
+
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
+Accepter le bitcoin offre de nombreux avantages pratiques et financiers pour une entreprise. Comme l’argent liquide, le bitcoin permet des paiements directs entre le client et le commerçant, sans nécessiter de passer par une banque traditionnelle. Les paiements en bitcoins via Lightning sont instantanés et définitifs, ce qui réduit ainsi les risques liés aux remboursements bancaires. De plus, en conservant les bitcoins directement (self-custody), le commerçant renforce l'autonomie financière de son entreprise.
+
+Le bitcoin réduit également les frais en éliminant les commissions bancaires et les coûts liés aux terminaux de paiement : un smartphone ou un ordinateur suffit. Même en utilisant des intermédiaires de paiement, les frais restent généralement inférieurs à ceux des banques.
+
+Contrairement aux monnaies traditionnelles sujettes à l'inflation, la quantité de bitcoins est limitée à 21 millions d’unités, ce qui offre ainsi aux commerçants un moyen efficace de préserver et diversifier la trésorerie de leurs entreprises sur le long terme.
+
+Au quotidien, le bitcoin simplifie les transactions en supprimant la gestion d’une caisse physique, les risques liés aux vols et la possibilité de faux billets. De plus, c’est une monnaie mondiale, avantageuse pour les clients internationaux puisqu'elle ne nécessite aucun change. Pour les commerces en ligne, Bitcoin est particulièrement efficace et sécurisé.
+
+Enfin, accepter Bitcoin constitue aussi une excellente stratégie marketing. Cela positionne un commerce comme innovant et attire une nouvelle clientèle, notamment auprès de la génération Z. Accepter le bitcoin représente donc une opportunité stratégique à faible risque, avec des coûts limités essentiellement au temps de mise en place, désormais simple et rapide à réaliser avec les outils adaptés.
+
+Si vous souhaitez en savoir plus sur l'intégration de Bitcoin dans les entreprises, que ce soit comme moyen de paiement, comme placement de trésorerie ou les deux, nous avons une formation de première année spécialement conçue pour vous :
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
+Bitcoin en tant que monnaie d’échange continue de gagner du terrain, avec une adoption croissante dans de nombreux secteurs. L’essor du Lightning Network a également permis de réduire considérablement les frais de transaction et d’accélérer les paiements, rendant Bitcoin encore plus attractif pour les commerçants.
+
+Nous sommes aujourd’hui à un stade où tout le monde peut s’impliquer dans l’écosystème Bitcoin. Que ce soit en l’utilisant dans la vie quotidienne, en l’intégrant dans un commerce, en participant à l’éducation, en contribuant au développement du code ou en innovant à travers de nouveaux usages, Bitcoin est devenu un phénomène inarrêtable.
+
+057
+
+### Mon point de vue personnel
+
+L’image de l’autoroute de Bitcoin est, à mon sens, l’une des métaphores les plus pertinentes pour illustrer l’évolution de son écosystème et la place qu’il occupera dans le futur. Bitcoin n’est pas seulement une monnaie numérique, c’est un **système financier alternatif**, en pleine maturation, avec ses forces et ses imperfections. Bien qu’il soit encore jeune et confronté à divers défis, sa résilience est indéniable. Il ne disparaîtra pas. Au contraire, il absorbera progressivement tout ce qui l’entoure, tel un trou noir, jusqu’à s’imposer comme un standard monétaire incontournable.
+
+Imaginez Bitcoin comme une route sur laquelle vous circulez. Aujourd’hui, pour subvenir à certains besoins essentiels (acheter de la nourriture, payer un service, réparer un véhicule) vous devez parfois quitter cette route, c'est-à-dire retourner temporairement sur l’ancien système financier. L’infrastructure autour de Bitcoin est encore en construction, et certaines commodités restent inaccessibles sans passer par des monnaies étatiques et des banques traditionnelles.
+
+Cependant, avec le temps, cette route évoluera en une véritable autoroute. L’infrastructure sera suffisamment développée pour que la majorité des transactions et des échanges se déroulent nativement en bitcoins, sans nécessiter de conversion vers une autre monnaie. Une fois cette transformation achevée, l'extrême majorité du trafic monétaire se fera à pleine vitesse sur l’autoroute Bitcoin, tandis qu'une infime partie des utilisateurs continueront à ralentir ou à s’arrêter pour interagir avec l’ancien système financier.
+
+À ce stade, la nécessité de sortir de l’écosystème Bitcoin deviendra marginale. Les biens et services seront directement accessibles via le système Bitcoin, et l’idée même de revenir aux systèmes monétaires traditionnels semblera inefficace, risquée et obsolète. Ce sera une transition naturelle : ceux qui resteront attachés à l’ancien système ne disparaîtront pas, mais ils verront leur modèle perdre en pertinence et en attractivité.
+
+C’est cette vision qui me semble la plus réaliste pour l’avenir de Bitcoin. Il ne remplacera peut-être pas totalement l’ancien système, mais il finira par le **dépasser en efficacité, en sécurité et en adoption**, jusqu’à devenir la norme pour la majorité de la population mondiale.
+
+Si ma mémoire est bonne, c’est Andreas Antonopoulos qui a introduit cette idée de l’autoroute Bitcoin. Son analyse continue d’être pertinente, et chaque avancée de l’écosystème nous rapproche un peu plus de cette réalité. [@aantonop](https://x.com/aantonop)
 
 # Mise en place de votre plan
 

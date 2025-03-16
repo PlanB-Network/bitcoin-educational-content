@@ -123,13 +123,14 @@ class DeepLTranslator(BaseTranslator):
             return text
 
 class OpenAITranslator(BaseTranslator):
-    def __init__(self, source_lang: str, target_lang: str):
+    def __init__(self, source_lang: str, target_lang: str, custom_prompt: Optional[str] = None):
         api_key = os.getenv('OPENAI_API_KEY')
         if not api_key:
             raise ValueError("OPENAI_API_KEY not found in environment variables")
         self.client = OpenAI(api_key=api_key)
         self.source_lang = source_lang
         self.target_lang = target_lang
+        self.custom_prompt = custom_prompt
         self.last_request_time = 0
         self.min_request_interval = 0.01
 
@@ -144,10 +145,12 @@ class OpenAITranslator(BaseTranslator):
         self.last_request_time = time.time()
 
         try:
+            system_prompt = self.custom_prompt if self.custom_prompt else f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."
+            
             response = self.client.chat.completions.create(
-                model="gpt-4",
+                model="gpt-4o",
                 messages=[
-                    {"role": "system", "content": f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."},
+                    {"role": "system", "content": system_prompt},
                     {"role": "user", "content": text}
                 ],
                 temperature=0.1
@@ -159,13 +162,14 @@ class OpenAITranslator(BaseTranslator):
             return text
 
 class DeepSeekTranslator(BaseTranslator):
-    def __init__(self, source_lang: str, target_lang: str):
+    def __init__(self, source_lang: str, target_lang: str, custom_prompt: Optional[str] = None):
         api_key = os.getenv('DEEPSEEK_API_KEY')
         if not api_key:
             raise ValueError("DEEPSEEK_API_KEY not found in environment variables")
         self.client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
         self.source_lang = source_lang
         self.target_lang = target_lang
+        self.custom_prompt = custom_prompt
         self.last_request_time = 0
         self.min_request_interval = 0.01
 
@@ -180,10 +184,12 @@ class DeepSeekTranslator(BaseTranslator):
         self.last_request_time = time.time()
 
         try:
+            system_prompt = self.custom_prompt if self.custom_prompt else f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."
+            
             response = self.client.chat.completions.create(
                 model="deepseek-chat",
                 messages=[
-                    {"role": "system", "content": f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."},
+                    {"role": "system", "content": system_prompt},
                     {"role": "user", "content": text}
                 ],
                 temperature=0.1
@@ -193,9 +199,6 @@ class DeepSeekTranslator(BaseTranslator):
             print(f"\nError translating text: {text}")
             print(f"Error: {e}")
             return text
-
-
-
 
 
 class GoogleTranslator(BaseTranslator):
@@ -273,12 +276,13 @@ class FileTranslator:
         
         # Create base translator based on type
         translator_type = lang['translator']
-        base_translator = self._create_base_translator(translator_type)
+        custom_prompt = lang.get('custom_prompt')
+        base_translator = self._create_base_translator(translator_type, custom_prompt)
         
         # Wrap the base translator with the translation processor
         self.translator = TranslationProcessor(base_translator)
 
-    def _create_base_translator(self, translator_type: str) -> BaseTranslator:
+    def _create_base_translator(self, translator_type: str, custom_prompt: Optional[str] = None) -> BaseTranslator:
         if translator_type == "deepl":
             return DeepLTranslator(
                 self.config.source_lang.upper(),
@@ -287,12 +291,14 @@ class FileTranslator:
         elif translator_type == "openai":
             return OpenAITranslator(
                 self.config.source_translator_code,
-                self.config.target_translator_code
+                self.config.target_translator_code,
+                custom_prompt
             )
         elif translator_type == "deepseek":
             return DeepSeekTranslator(
                 self.config.source_translator_code,
-                self.config.target_translator_code
+                self.config.target_translator_code,
+                custom_prompt
             )
         elif translator_type == "google":
             return GoogleTranslator(

@@ -1353,69 +1353,126 @@ Ces profils ne sont évidemment pas exclusifs et peuvent se combiner, voir évol
 
 Dans les prochains chapitres, nous étudierons en détail chaque profil afin que vous puissiez identifier et appliquer la méthode qui vous convient le mieux. Nous explorerons également les outils les plus adaptés à chaque profil, ce qui vous permettra de mettre en place votre propre stratégie d'acquisition et de sécurisation.
 
-## Le hodler
+## Le Hodler : investir sur le long terme
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
-Que ce soit dans les investissements ou dans Bitcoin, le placement à long terme est généralement la norme. C'est statistiquement le plus rentable à long terme et le plus simple à mettre en place :
+Dans la communauté Bitcoin, le terme "Hodler" désigne un investisseur qui adopte une stratégie d'investissement à très long terme. Issu d'un meme apparu sur le forum Bitcoin Talk il y a plusieurs années, le mot "hodl" est une déformation volontaire du mot "hold", qui symbolise l'idée de conserver ses bitcoins quoi qu'il arrive, sans se soucier des fluctuations à court terme du marché.
 
-On achète puis on ne fait plus rien. (Notons que ne rien faire est la partie la plus difficile)
+071
 
-Dans Bitcoin, ce type de profil est appelé un Hodler, car il "hodl" (garde) du Bitcoin à long terme. Ces personnes s'exposent donc à Bitcoin, parient que BTC sera plus utilisé demain et donc plus rare. Elles continueront d'en acheter de temps en temps de manière automatique, le tout sécurisé dans leur portefeuille froid.
+Le hodler est convaincu par la proposition de valeur de Bitcoin. Avec seulement 21 millions de bitcoins existants à terme, le hodler considère cet actif comme une réserve de valeur.
 
-![hodl](assets/plan/0.webp)
+### Pourquoi adopter une stratégie de hodling ?
 
-### Voici le plan :
+Le hodling est historiquement la stratégie la plus rentable pour la majorité des investisseurs non professionnels, car il élimine le besoin de prédire les mouvements de marché, tâche extrêmement difficile et stressante. En achetant et en conservant ses bitcoins, le hodler s'épargne la volatilité émotionnelle du trading et évite de prendre des décisions impulsives, souvent perdantes.
 
-1. Mettre en place un portefeuille froid pour sécuriser des montants importants.
-2. Acheter du Bitcoin en une fois via une plateforme d'échange et mettre en place un plan d'achat récurrent.
-3. Mettre en place un plan d'héritage.
-4. Attendre longtemps (au moins un ou deux cycle)
+Cette stratégie exige plusieurs qualités :
 
-Si on oublie qu'on avait des bitcoins pendant 3 ans, pas de souci, l'argent sera toujours là si on a respecté les instructions des experts.
+- **Patience** : Un hodler fait preuve d’une patience exceptionnelle. Il est prêt à conserver ses bitcoins pendant des années, voire des décennies, sans se laisser perturber par les fluctuations quotidiennes du marché. Il comprend que Bitcoin évolue par cycles, et il ne panique pas lorsque le prix chute brutalement. Il sait que les corrections sont normales et que la valeur de Bitcoin ne se mesure pas sur quelques mois, mais sur le long terme ;
 
-Pour ce type de profil, il est conseillé d'utiliser un portefeuille de type froid pour commencer, tel que le Bitbox02, un Trezor ou un Ledger. Ces appareils coûtent environ 70 € mais offrent une certaine sécurité pour ses bitcoins sur le long terme. Un portefeuille mobile de type chaud gratuit peut également faire l'affaire, mais uniquement pour des montants relativement faibles.
+- **Vision à long terme** : Le hodler possède une vision qui dépasse les simples gains financiers à court terme. Il croit en la croissance structurelle de Bitcoin et en son adoption progressive à l’échelle mondiale. Il pense que malgré la volatilité, l’adoption de Bitcoin suit une trajectoire ascendante, marquée par des phases d’expansion et de consolidation. Il voit Bitcoin comme un actif durable, un rempart pour son épargne contre l’inflation et un changement de paradigme monétaire ;
 
-Tutoriel Portfeuille pertinant:
+- **Auto-discipline** : L’une des qualités essentielles du hodler est sa discipline mentale. Paradoxalement, son plus grand défi n’est pas d’agir, mais de ne rien faire. Il doit résister à la tentation de vendre lors des hausses spectaculaires de prix, ou au contraire de paniquer lors des krachs. Le hodler sait que Bitcoin a traversé de nombreux cycles baissiers, et que ceux qui conservent leurs bitcoins sur le long terme sont souvent ceux qui en bénéficient le plus ;
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+- **Résilience émotionnelle** : Le marché de Bitcoin est imprévisible et marqué par des corrections parfois violentes. Pourtant, le hodler ne cède pas à la panique. Il a intégré l’idée que Bitcoin peut perdre 50 % ou plus de sa valeur en quelques semaines, sans que cela ne remette en cause son potentiel fondamental. Il a la capacité de supporter la pression émotionnelle, et son sang-froid lui permet de garder une vision rationnelle, même dans les périodes d’incertitude ;
+
+- **Croyance en la technologie** : Le hodler ne voit pas Bitcoin comme un simple actif spéculatif. Il croit en sa technologie et en son potentiel disruptif sur le système monétaire. Son engagement dépasse souvent l’aspect financier : il considère Bitcoin comme une alternative au système bancaire traditionnel, une monnaie résiliente et apolitique, capable d’apporter plus de liberté et d’indépendance aux individus.
+
+072
+
+Historiquement, Bitcoin évolue en cycles marqués par des périodes de forte hausse suivies de corrections significatives et parfois longues périodes d'accalmie. Par exemple, entre 2013 et 2025, Bitcoin est passé par plusieurs cycles de hausse (*bull run*) et de baisse (*bear market*), avec des pertes temporaires pouvant atteindre 80 % de sa valeur. Pour un hodler, ces périodes sont particulièrement éprouvantes, mais elles sont généralement suivies par des reprises sur le long terme.
+
+Comprendre ces cycles permet de mieux gérer ses émotions. Un hodler aguerri sait qu'il est inutile de tenter de vendre au sommet ou d'acheter au plus bas, car ces stratégies échouent le plus souvent. En revanche, une détention prolongée et disciplinée s'est révélée historiquement payante.
+
+### Plan d'investissement d'un Hodler
+
+Le hodler adopte donc une approche d’investissement à long terme. Son objectif principal est de conserver ses bitcoins sur plusieurs années, indépendamment des fluctuations de marché. Il ne cherche ni à trader ni à spéculer, mais à accumuler et à sécuriser ses bitcoins avec une stratégie simple et robuste. Le plan d’investissement pour un hodler repose sur quelques étapes essentielles qui garantissent une sécurité optimale et une gestion minimale des fonds :
+
+#### 1. Choisir et configurer un hardware wallet
+
+Un hodler doit avant tout sécuriser ses fonds en utilisant un hardware wallet, un dispositif permettant de stocker les clés privées donnant accès à ses bitcoins hors ligne, à l’abri des piratages et des attaques informatiques. Voici plusieurs tutoriels complets sur des solutions qui conviendront au profil de hodler :
+
+https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
+https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
+https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+Une fois le portefeuille configuré, il est important de bien sauvegarder la phrase mnémonique de 12 ou 24 mots sur un support physique durable. Pour en savoir plus sur quel support choisir pour votre phrase, je vous conseille de suivre ce tutoriel :
 
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Moyen d'échange qui permet de faire du volume:
+Le hodler pourrait également vouloir renforcer la sécurité de son portefeuille sur le long terme. En fonction des montants à sécuriser, il pourrait opter pour un portefeuille multisignatures avec timelock :
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+
+Ou bien, il pourrait mettre en place une passphrase BIP39 :
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+073
+
+#### 2. Acheter du Bitcoin sur une plateforme et le retirer
+
+Un hodler n’a pas vocation à laisser ses bitcoins sur une plateforme d’échange, car celles-ci présentent un risque de piratage, de saisie ou de faillite. Le hodler privilégie la sécurité de ses fonds, il va donc les retirer sur son hardware wallet.
+
+Le hodler réalise des volumes importants. Il recherchera donc une plateforme qui offre suffisamment de liquidités. Voici plusieurs tutoriels complets sur des plateformes adaptées à ce profil :
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
 https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-Si le hold veut allez plus loins: mise en place d'un plan de DCA comme le stacker et un portfeuille chaud LN d'utilisation pour dépenser un peu de bitcoin
+https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-### Est-ce pour vous ?
+https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-Voici un petit portrait Psychologique du Hodler, si vous vous reconnesez c'ets peut etre pour vous !
+074
 
-- Patience :
-  Un hodler fait preuve d'une patience exceptionnelle. Il est prêt à attendre des années pour voir la croissance de son investissement, sans se laisser influencer par les fluctuations à court terme du marché.
+Le hodler peut également adopter un profil hybride avec le stacker. Au lieu de se limiter à des achats ponctuels, il pourrait aussi effectuer de petits achats réguliers. Dans ce cas, il pourrait mettre en place une stratégie d'acquisition en *Dollar Cost Averaging* (DCA).
 
-- Vision à Long Terme :
-  Il possède une vision à long terme, croyant fermement à la valeur et à l'adoption croissante de Bitcoin malgré les obstacles et les critiques.
+#### 3. Mettre en place un plan de succession
 
-- Auto-Discipline :
-  Le hodler est extrêmement discipliné. La partie la plus difficile, comme mentionné, est de ne rien faire, et cela nécessite une grande autodiscipline pour résister à la tentation de vendre lors des pics de prix à court terme.
+Un aspect souvent négligé est la transmission des bitcoins en cas d’incapacité ou de décès. Contrairement aux actifs traditionnels, le bitcoin n’offre aucune solution de récupération si les clés privées sont perdues. Il est donc important d’anticiper cet aspect dès le début.
 
-- Résilience :
-  Face aux chutes de prix et à la volatilité du marché, le hodler reste résilient, gardant la foi dans son investissement et la croissance future de Bitcoin.
+Plan d’action :
+- Rédiger un guide détaillé expliquant comment accéder aux fonds en cas d’incapacité ;
+- Utiliser une solution multisignature pour garantir un accès sécurisé tout en réduisant les risques de perte accidentelle ;
+- Confier une partie des informations à une personne de confiance.
 
-- Croyance en la Technologie :
-  Au-delà de la simple recherche de profit, le hodler croit souvent en la technologie blockchain et en la capacité de Bitcoin à provoquer un changement positif dans le monde.
+Nous détaillerons ce point spécifique plus en détail dans la dernière section du cours.
 
-En somme, le hodler est un investisseur patient, discipliné, et visionnaire, qui croit fermement à la valeur à long terme de Bitcoin et qui est prêt à supporter la volatilité à court terme pour réaliser des gains substantiels à l'avenir. Il est méthodique dans sa stratégie d'investissement et attentif à la sécurité et à la planification à long terme.
+#### 4. Patienter sur plusieurs cycles
+
+Le hodler adopte une vision long terme, ce qui signifie qu’il doit résister aux fluctuations du marché et ne pas céder à la panique lors des corrections baissières ou des fortes hausses.
+
+Quelques recommandations :
+- Vérifier périodiquement l’état du portefeuille, mais éviter les consultations trop fréquentes qui peuvent mener à des décisions impulsives ;
+- Ne pas vendre sous la pression des cycles baissiers, Bitcoin fonctionne par cycles, et les corrections sont normales dans un marché ;
+- Se tenir informé des évolutions de Bitcoin (notamment techniques), sans être influencé par les médias traditionnels qui alimentent souvent la peur lors des baisses de marché ;
+- Mettre en place un suivi régulier du portefeuille : Maintenant que votre portefeuille est configuré, il est important de mettre en place un suivi régulier. De manière périodique, vérifiez que votre phrase mnémonique est toujours présente à son lieu de stockage et que son enveloppe opaque n’a pas été ouverte. Lors de ces contrôles, vous pouvez également ouvrir l’enveloppe pour examiner l’état du support. Assurez-vous qu’il n’est pas endommagé et que la phrase reste parfaitement lisible. Si vous constatez les moindres signes de dégradation, il est préférable de créer une nouvelle copie à partir de votre hardware wallet. Vous pouvez également vérifier le bon fonctionnement de vos hardware wallets régulièrement.
+
+Pour suivre plus facilement l'évolution de votre portefeuille Bitcoin, il existe des outils permettant de mettre en place un wallet "watch-only". Cela vous permet, grâce aux clés publiques de votre portefeuille, de surveiller vos transactions et vos soldes, par exemple via une application mobile, sans compromettre la sécurité de vos clés privées qui restent stockées exclusivement sur votre hardware wallet.
+
+Le plan d’investissement du hodler repose donc sur une stratégie simple mais rigoureuse : acheter, sécuriser, oublier. Son principal défi n’est pas technique, puisque la configuration d'un portefeuille est assez simple, mais psychologique : résister à la tentation de vendre trop tôt et ne pas se laisser influencer par la volatilité du marché.
+
+075
+
+### Évaluer votre profil de Hodler
+
+Si vous vous reconnaissez dans ces traits de personnalité, vous êtes probablement un hodler naturel :
+- Vous êtes patient et capable d’attendre plusieurs années sans avoir besoin d’accéder à cet argent ;
+- Vous avez une forte discipline personnelle et pouvez résister à la tentation de vendre impulsivement ;
+- Vous comprenez et croyez profondément au potentiel disruptif de Bitcoin à long terme ;
+- Vous êtes à l’aise avec les hauts et bas inévitables du marché et savez gérer vos émotions en conséquence.
+
+Le hodling reste une stratégie simple, efficace et accessible à tous les investisseurs, même débutants. Dans le prochain chapitre, nous allons étudier un profil similaire à celui du hodler : le stacker.
 
 ## Le stacker
 

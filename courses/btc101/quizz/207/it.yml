@@ -1,10 +1,10 @@
-question: Qual è uno dei potenziali rischi nel lasciare i propri Bitcoin su una piattaforma di scambio?
+question: Qual è uno dei potenziali rischi nel lasciare i propri Bitcoin su un exchange?
 answer: I rischi di hacking e blocco dei fondi.
 wrong_answers:
-  - Il rischio che la piattaforma aumenti il prezzo del Bitcoin.
+  - Il rischio che la piattaforma aumenti il prezzo di Bitcoin.
   - Il rischio che la piattaforma controlli l'offerta di Bitcoin.
-  - Il rischio che il Bitcoin venga superato nel prezzo da una criptovaluta.
+  - Il rischio che Bitcoin venga superato nel prezzo da una criptovaluta.
 explanation: >-
-  Il testo menziona che lasciare i propri Bitcoin su una piattaforma di scambio può
-  esporti ai rischi di hacking e blocco dei fondi.
+  Il testo menziona che lasciare i propri Bitcoin su un exchange può
+  esporre a rischi di hacking e blocco dei fondi.
 reviewed: true

@@ -1064,6 +1064,8 @@ C’est cette vision qui me semble la plus réaliste pour l’avenir de Bitcoin.
 
 Si ma mémoire est bonne, c’est Andreas Antonopoulos qui a introduit cette idée de l’autoroute Bitcoin. Son analyse continue d’être pertinente, et chaque avancée de l’écosystème nous rapproche un peu plus de cette réalité. [@aantonop](https://x.com/aantonop)
 
+Dans la prochaine section du cours, nous passerons à la pratique pour définir et choisir votre profil de bitcoiner en fonction de votre situation personnelle et de vos objectifs.
+
 # Mise en place de votre plan
 
 <partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
@@ -1072,30 +1074,268 @@ Si ma mémoire est bonne, c’est Andreas Antonopoulos qui a introduit cette id�
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
-Maintenant que nous avons revu les bases fondamentales et appris comment éviter les arnaques et les pertes d'argent, nous pouvons élaborer notre plan. Le plan sera assez simple pour commencer, mais il est important de se lancer. Vous pourrez toujours le modifier à mesure que le temps passe.
+Après avoir étudié les fondements théoriques de Bitcoin, il est maintenant temps de passer à la pratique. L’objectif est de comprendre comment acquérir vos premiers bitcoins, comment les sécuriser efficacement et comment adapter votre approche en fonction de votre profil personnel. Cette section de la formation vous aidera à identifier quel type d’utilisateur vous êtes afin d’adopter la stratégie la plus adaptée à vos besoins et contraintes personnelles.
 
-Dans cette formation, nous considérerons que vous êtes débutant dans Bitcoin, et donc la solution doit être simple, rapide à mettre en place et efficace. Nous ne parlerons donc pas de l'exposition à Bitcoin par le biais du minage, des sociétés Bitcoin en bourse ou d'autres choses complexes. L'objectif est de choisir le bon portefeuille pour vous, puis la bonne solution pour obtenir vos premiers bitcoins.
+Bitcoin n’est pas un actif comme les autres. Il nécessite une approche réfléchie et une bonne compréhension des implications techniques et économiques de son utilisation. Contrairement aux monnaies traditionnelles, il repose sur un modèle de souveraineté individuelle, où l’utilisateur est pleinement responsable de la gestion et de la sécurité de ses fonds. Comme nous l'avons vu dans les précédents chapitres, cette autonomie financière est un avantage, mais elle implique également de suivre des bonnes pratiques spécifiques que nous allons explorer dans les prochaines sections.
 
-Commençons par nous poser les questions suivantes :
+Dans cette formation, nous partons du principe que vous êtes débutant sur Bitcoin. Ainsi, nous privilégierons des solutions simples, rapides à mettre en place et adaptées à une première expérience. Nous ne traiterons pas des méthodes d’exposition indirecte à Bitcoin, comme le minage, l’achat d’actions d’entreprises liées à Bitcoin ou les stratégies financières complexes. L’objectif est avant tout de vous aider à choisir un portefeuille adapté à votre situation et de trouver la meilleure méthode pour acquérir vos premiers bitcoins en toute sécurité.
 
-- Combien êtes-vous prêt à investir dans Bitcoin chaque mois ?
-- Quelle utilisation de Bitcoin envisagez-vous ?
-- Quelle est la durée prévue de votre investissement ?
-- Dans quelle mesure la vie privée est-elle importante pour vous ?
+### Pourquoi définir votre profil d'utilisateur ?
 
-Avec ces 4 questions, nous pourrons choisir la voie qui vous correspond le mieux ! En effet il y a pas une solution magique pour s'exposer à bitcoin. À la place je vous propose de regarder des profils types et ainsi vous permettre de peut etre vous inspirer.
+L’acquisition et la gestion de BTC ne suivent pas une approche unique et universelle. Chaque utilisateur a des besoins spécifiques, influencés par sa situation financière, son niveau de connaissances, et ses attentes vis-à-vis de Bitcoin. Il est donc important d’adopter une stratégie cohérente qui s’aligne avec votre profil personnel. Comprendre votre propre approche vous permettra d’optimiser votre expérience et d’éviter les erreurs courantes liées à une mauvaise anticipation de vos besoins.
 
-En règle général :
+Plusieurs éléments doivent être pris en compte pour déterminer la meilleure stratégie d’acquisition et de stockage de vos bitcoins :
 
-- Portfeuille chaud gratuit pour des petit montant
-- Portfeuille froid pour des montants importants
-- utilisation d'une solution de DCA pour achat récurrent sans stress
-- Utilisation d'une soluiton non KYC pour de l'anonymat
-- Utilisation d'une plateforme d'échange traditionelle pour un achat d'un coup.
+- **Le montant que vous souhaitez investir** : Achetez-vous une petite somme pour découvrir Bitcoin sans prendre de risque significatif, ou envisagez-vous un investissement plus important destiné à être conservé sur le long terme ?
 
-Avec ca vous devriez trouver votre compte, choisir le plan adapté puis suivre le bon tutoriel de la section suivant.
+- **Votre fréquence d’investissement** : Voulez-vous acheter en une seule fois et sécuriser immédiatement vos fonds, ou préférez-vous répartir vos achats sur une longue période en utilisant des stratégies comme le *Dollar-Cost Averaging* (DCA) pour lisser votre prix d’acquisition et minimiser l’impact de la volatilité ?
 
-**Rappel :** Si vous ne possédez pas la clé privée (une liste de 24 mots), une tierce partie est responsable de la sécurité de vos bitcoins. Autrement dit, vous ne détenez plus vos bitcoins. Ils sont soumis aux mêmes risques que les plateformes d'échange tel que le piratage, la saisie, la régulation ou la faillite.
+- **L’utilisation que vous souhaitez faire de vos bitcoins** : Souhaitez-vous les conserver en tant qu’épargne à long terme, les utiliser comme moyen de paiement au quotidien, ou les deux en même temps ?
+
+- **Votre sensibilité à la confidentialité** : Acceptez-vous de fournir des informations personnelles et de passer par des plateformes centralisées pour acquérir vos bitcoins, ou privilégiez-vous des méthodes plus respectueuses de votre vie privée, comme les échanges pair-à-pair sans KYC ?
+
+- **Votre contexte géographique, juridique et personnel** : Selon votre pays de résidence, l’accès à certaines plateformes d’échange peut être restreint, et les obligations fiscales ou réglementaires peuvent influencer vos choix en matière de stockage et d’utilisation de Bitcoin.
+
+Chacun de ces éléments impacte directement les solutions les plus adaptées à votre profil. Certains privilégieront la simplicité et la rapidité via des services régulés, tandis que d’autres opteront pour des méthodes plus autonomes et confidentielles.
+
+C'est ce que nous allons étudier : quelles sont les différentes approches disponibles pour acquérir et sécuriser vos bitcoins, afin que vous puissiez faire des choix éclairés en fonction de votre profil et de vos objectifs ?
+
+### Les principaux critères pour définir votre profil
+
+Déterminer la meilleure stratégie pour acquérir et sécuriser vos bitcoins nécessite une analyse approfondie de votre situation personnelle. Plusieurs facteurs influencent ces choix, notamment les risques auxquels vous êtes exposés, votre mode de vie et l’usage que vous souhaitez faire de vos bitcoins.
+
+#### Risques potentiels et menaces
+
+Le degré de sécurité nécessaire dépend des menaces spécifiques auxquelles vous pourriez être confronté. Identifier ces risques vous aidera à choisir les outils et les stratégies les plus adaptés. Parmi les principales menaces à considérer, il y a :
+
+- **Le piratage informatique** : Si vous n’êtes pas familier avec la cybersécurité ou que vous utilisez des appareils vulnérables, vous pourriez être une cible pour les attaques en ligne. Un stockage sécurisé hors ligne pourrait être recommandé.
+
+- **L'attaque physique** : Malheureusement, il n'est pas rare que des bitcoiners soient ciblés par des attaques physiques, que ce soit avec des cambriolages, des braquages ou même des enlèvements. Bien que ce risque reste relativement rare et concerne principalement des personnalités connues pour le moment, il est important de le prendre en compte dès le début dans votre stratégie de sécurisation.
+
+- **Les catastrophes naturelles** : Si vous vivez dans une région sujette aux incendies, aux inondations ou à d’autres événements climatiques extrêmes, il est important de réfléchir à une solution de sauvegarde adaptée qui protège vos clés privées.
+
+- **La confiscation gouvernementale** : Si votre pays applique des régulations financières strictes ou instables, vous pourriez être confronté à des restrictions sur l’achat ou l’utilisation de vos bitcoins. Dans ce cas, des solutions favorisant la confidentialité et la self-custody doivent être privilégiées.
+
+- **La perte de mémoire ou d’information** : La gestion des clés privées repose sur la capacité à stocker et à récupérer des informations. Si vous pensez être vulnérable à une perte de mémoire ou tout autre problème de santé, il est important d’adopter des solutions de sauvegarde fiables, voire d’impliquer une personne de confiance dans votre plan de sécurisation.
+
+Pour mieux comprendre vos vulnérabilités, évaluez chaque risque sur une échelle de 0 (faible) à 10 (élevé). Cette analyse vous aidera à identifier les menaces prioritaires et à mettre en place les protections adéquates par la suite.
+
+061
+
+#### Style de vie et habitudes personnelles
+
+Votre quotidien influence également la manière dont vous allez gérer vos bitcoins. Adopter une stratégie adaptée à votre mode de vie vous évitera des complications inutiles.
+
+Si vous avez peu de temps à consacrer à Bitcoin, privilégiez des solutions simples et automatisées, comme l’achat programmé avec un retrait automatique vers un portefeuille sécurisé. Si, au contraire, vous souhaitez gérer activement votre sécurité, des solutions plus avancées comme le multisig peuvent être envisagées.
+
+Êtes-vous à l’aise avec la technologie ou préférez-vous une solution clé en main ? Certains portefeuilles et méthodes de stockage nécessitent un certain niveau de compétence, tandis que d’autres sont conçus pour être accessibles aux débutants.
+
+Si vous investissez pour des proches ou pour des générations futures, la transmission de vos bitcoins doit être pensée dès maintenant. Il existe des solutions pour faciliter la succession et garantir que vos fonds ne soient pas perdus en cas d’incapacité.
+
+À quel point la protection de votre vie privée est-elle une priorité ? Certaines méthodes d’acquisition nécessitent de fournir des informations personnelles (plateformes KYC), tandis que d’autres permettent une plus grande discrétion (échanges pair-à-pair, mining, etc.).
+
+#### Utilisation de vos bitcoins
+
+Votre stratégie de gestion et de conservation de vos bitcoins dépend aussi de l’usage que vous souhaitez en faire. Il est important de clarifier cet aspect dès le départ.
+
+- **Épargne à long terme** : Vous achetez des bitcoins dans une logique d’investissement et ne prévoyez pas de les utiliser à court terme. Vous devez donc privilégier un stockage très sécurisé et des solutions qui minimisent les risques d’accès non autorisé.
+- **Accumulation progressive** : Vous investissez régulièrement de petites sommes en bitcoins, sans chercher à spéculer sur le court terme. Dans ce cas, une solution automatisée de DCA combinée à un portefeuille sécurisé est une approche efficace.
+- **Dépenses courantes** : Vous utilisez vos bitcoins comme moyen de paiement. Il est alors préférable de combiner un portefeuille mobile facile d’accès pour les transactions quotidiennes (sûrement avec Lightning) et un stockage plus sécurisé pour votre épargne.
+- **Préparation de la retraite ou transmission patrimoniale** : Vous souhaitez stocker vos bitcoins pour les transmettre plus tard à vos proches. Des stratégies comme le multisig avec timelock ou des plans de succession spécifiques peuvent être mis en place pour garantir que vos fonds ne soient ni perdus, ni accessibles trop tôt.
+
+En fonction de ces critères, vous pourrez choisir les meilleures solutions pour acheter, sécuriser et utiliser vos bitcoins de manière optimale et adaptée à votre profil. 
+
+Pour simplifier ce processus, on peut le découper en quatre éléments principaux à choisir :
+- Votre portefeuille Bitcoin ;
+- Votre stratégie de sécurisation ;
+- Votre méthode d'acquisition ;
+- Votre volume de transaction.
+
+062
+
+### Portefeuilles et stratégies de sécurisation
+
+La sécurisation de vos clé privées donnant accès à vos bitcoins est l'élément central de votre stratégie d’investissement et d’utilisation. Contrairement à un compte bancaire traditionnel, où l'institution prend en charge la gestion de vos fonds, Bitcoin vous offre un contrôle total sur votre argent. Mais cette autonomie implique aussi une responsabilité : **si vous perdez vos clés privées, vos bitcoins sont définitivement perdus**. Il existe plusieurs types de portefeuilles, chacun présentant des avantages et des inconvénients en fonction de votre profil et de vos besoins.
+
+#### Hot wallet
+
+Les portefeuilles chauds sont des logiciels connectés à Internet, permettant d’envoyer et de recevoir des bitcoins. Ils stockent vos clés privées directement sur la machine où est installé le logiciel. Ils sont souvent utilisés pour les transactions quotidiennes ou pour de petites réserves de bitcoins. Exemples : Blue Wallet, Green Wallet, Sparrow Wallet...
+
+Parmi ces solutions, on peut également inclure les portefeuilles qui prennent en charge le Lightning Network, par exemple : BitKit, Phoenix, Wallet of Satoshi...
+
+**Avantages** :
+- Facilité d’utilisation et accès rapide aux fonds pour les paiements courants ou une utilisation mobile ;
+- Intégration avec Lightning Network pour des transactions rapides et peu coûteuses
+
+**Inconvénients** :
+- Exposition au risque de piratage, car les clés privées sont stockées sur un appareil connecté à internet et avec une très grande surface d'attaque.
+
+Les hot wallets sont adaptés aux petits montants et aux utilisateurs ayant besoin d’un accès fréquent à leurs bitcoins. Ils ne sont pas adaptés pour le stockage à long terme de sommes importantes.
+
+#### Hardware Wallet
+
+Les hardware wallets sont des dispositifs physiques conçus pour générer et stocker vos clés privées hors ligne. Ils offrent un niveau de sécurité bien supérieur aux portefeuilles chauds, car ils ne sont pas connectés à internet et disposent d'une surface d'attaque réduite. Exemples : Ledger, Trezor, Jade, Coldcard, BitBox...
+
+**Avantages** :
+- Stockage hors ligne des clés privées, ce qui réduit les risques d’accès non autorisé.
+
+**Inconvénients** :
+- Processus de transaction plus long, car nécessite une validation physique sur l’appareil ;
+- Coût d’acquisition initial plus élevé qu’un portefeuille logiciel.
+
+Les hardware wallets sont fortement recommandés pour ceux qui souhaitent sécuriser des montants significatifs sur le long terme.
+
+#### Solutions multisignatures
+
+Les portefeuilles multisignatures nécessitent plusieurs clés privées pour autoriser une transaction. Ce modèle de sécurité avancé est particulièrement adapté pour protéger des fonds importants, notamment pour des entreprises, des institutions ou des individus soucieux d’avoir un stockage ultra-sécurisé. Grâce à Miniscript, il existe de nos jours des systèmes de multisignatures avec timelock qui offrent un niveau de sécurité très élevé. Exemples : Liana, Casa, Sparrow, Specter...
+
+**Avantages** :
+- Sécurité renforcée : même en cas de compromission d’une clé, les fonds restent protégés ;
+- Protection contre les vol ou agressions physiques ;
+- Possibilité de répartir la gestion des clés sur plusieurs personnes ou emplacements.
+
+**Inconvénients** :
+- Complexité de mise en place et gestion plus exigeante ;
+- Peut nécessiter une coordination entre plusieurs parties pour effectuer une transaction ;
+- Risque de perte de fonds si le multisig est mal géré ;
+- Coût d’acquisition initial plus élevé, car il nécessite potentiellement d'acheter plusieurs hardware wallets.
+
+Les solutions multisignatures sont adaptées aux investisseurs de long terme, aux entreprises et aux organisations cherchant une sécurité maximale. Elles sont moins adaptées aux débutants en raison de leur complexité de gestion, même si des solutions comme Liana sont assez simples à prendre en main.
+
+#### Services custodiaux et ETF
+
+Certaines personnes choisissent de stocker leurs bitcoins via des services tiers, comme les plateformes d’échange, les banques ou les ETF (fonds négociés en bourse). Ces solutions permettent d’exposer un portefeuille d’investissement au bitcoin sans avoir à gérer soi-même la détention des clés privées, mais comme nous l'avons vu dans les chapitres précédents, elles comportent des risques important qu'il ne faut pas négliger.
+
+**Avantages** :
+- Facilité d’utilisation, car il n'y a pas besoin de gérer soi-même la sécurisation.
+
+**Inconvénients** :
+- Vous ne possédez pas réellement vos bitcoins et vous êtes donc exposés à des risques de pertes en cas de faillite, d'arnaque, de saisie, de gel... (exemples : FTX, MtGox...) ;
+- Frais potentiellement élevés ;
+- Dépendance à un tiers de confiance, ce qui va à l’encontre de la philosophie de Bitcoin ;
+- Vous ne bénéficiez pas de tous les avantages de Bitcoin en termes de confidentialité et de souveraineté financière.
+
+L’adage **"Pas vos clés, pas vos bitcoins"** s’applique particulièrement ici. Déléguer le stockage de ses bitcoins à une entité tierce revient à détenir un simple droit de créance sur ces bitcoins, et non la pleine propriété des actifs. 
+
+C'est pourquoi nous déconseillons ces solutions, même pour les débutants. Il est préférable de prendre le temps d'apprendre à sécuriser soi-même ses bitcoins et d'éviter ainsi tous ces risques inutiles, plutôt que d'opter pour la facilité en laissant ses bitcoins sur un exchange, avec tous les dangers que cela implique. Mais si vous êtes en train de lire ce cours qui vous apprend à sécuriser vos bitcoins, vous avez sûrement déjà saisi l'importance de ce principe.
+
+Ce choix du portefeuille et de la méthode de sécurisation dépend du montant stocké, de votre niveau de compétence et des menaces perçues. Mais une approche hybride peut également être judicieuse :
+- Utilisez un hot wallet sur mobile ou un portefeuille Lightning pour les transactions courantes ;
+- Utilisez à côté un hardware wallet pour sécuriser la majorité de vos bitcoins, qui constituent votre épargne à long terme.
+
+Si votre portefeuille chaud accumule trop de bitcoins, vous pouvez en transférer une partie vers votre portefeuille froid. Inversement, si vous avez besoin de plus de bitcoins pour vos dépenses courantes, vous pouvez en retirer de votre épargne sur le portefeuille froid.
+
+Dans tous les cas, la sécurité repose principalement sur votre utilisation. Un bon hardware wallet ne vaut rien si la phrase mnémonique est perdue, divulguée ou compromise. La prudence et la discipline sont les meilleures protections contre la perte de bitcoins. Pour en savoir plus sur ce sujet, je vous conseille vivement de lire également cet article :
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
+### Méthodes d'acquisition et volumes de transactions
+
+L’acquisition de bitcoins peut se faire de différentes manières, en fonction de votre besoin en confidentialité, de la réglementation en vigueur dans votre pays et du montant que vous souhaitez acquérir. Deux grandes approches existent :
+
+#### L'acquisition avec vérification d’identité (KYC)
+
+Les plateformes réglementées exigent généralement une vérification d’identité avant d’autoriser l’achat de bitcoins. Cela signifie que vous devez fournir des documents officiels (passeport, carte d’identité, justificatif de domicile...) pour créer un compte et accéder aux services d’achat et de vente.
+
+**Avantages** :
+- Processus d’achat simple, souvent adapté aux débutants ;
+- Possibilité d’acheter de gros montants en une seule fois ;
+- Accès à des services supplémentaires (DCA, conversion automatique, facilité de retrait en fiat) ;
+- Liquidité élevée et faible écart entre les prix d’achat et de vente.
+
+**Inconvénients** :
+- Peut couter cher en frais pour els conversion et les retraits ;
+- Certaines plateformes sont assez compliquées à utiliser et peuvent vous perdre au milieu des foncitonnalités de trading avancées et les shitcoins ;
+- Approche très problématique pour votre confidentialité.
+
+En effet, le principal inconvénient des plateformes d'échange avec KYC réside dans les risques liés à votre confidentialité, qui affectent indirectement votre sécurité personnelle. Le KYC permet aux plateformes d'échange d'associer une identité réelle aux adresses Bitcoin utilisées pour les retraits. Cette information devient un point d'entrée idéal pour des analyses de chaîne. Une fois une adresse identifiée, il peut devenir possible de suivre l’ensemble des transactions associées à un utilisateur, ce qui compromet ainsi sa confidentialité onchain. Sans mesures de protection supplémentaires, l’ensemble de son activité sur Bitcoin peut être relié à son identité.
+
+Un autre danger important est que l'État, en ayant accès aux bases de données des plateformes régulées, peut facilement identifier les individus ayant acheté du BTC. Même si cette information semble anodine aujourd’hui, elle pourrait devenir problématique dans un contexte de restrictions économiques ou politiques. De plus, les plateformes soumises à la réglementation doivent signaler toute transaction jugée suspecte, ce qui augmente ainsi le risque d’une surveillance ciblée par les administrations publiques.
+
+Aussi, les plateformes de KYC stockent une quantité importante de données sensibles, notamment des pièces d’identité et des justificatifs de domicile. Ce stockage est même souvent délégué à des prestataires externes qui s'occupent de réaliser la vérification d'identité. En cas de piratage ou de faillite, ces informations peuvent être exposées et utilisées pour des attaques de phishing, des tentatives d’extorsion ou même des vols physiques. Contrairement à d’autres fuites de données, celles liées à Bitcoin sont particulièrement risquées, car elles révèlent également une possession potentielle d’actifs de valeur.
+
+Il est donc important de comprendre que se soumettre à un KYC n'est pas une démarche anodine. Ce n'est pas simplement une lubie anarchiste ; **cela concerne votre sécurité personnelle**. Les États, en exigeant ces vérifications d'identité de la part des plateformes d'échange, violent non seulement vos droits naturels, mais vous exposent également à des risques indirects. Certes, utiliser ces plateformes peut être un moyen de débuter dans l'univers de Bitcoin, mais il ne faut pas sous-estimer les dangers que cela peut entraîner. Pensez donc à envisager des méthodes d'acquisition de bitcoins sans KYC par la suite.
+
+#### L'acquisition sans vérification d’identité (No-KYC)
+
+L’achat de bitcoins sans divulguer son identité est une alternative pour ceux qui privilégient leur confidentialité. Cette approche peut reposer sur plusieurs méthodes :
+
+- **Le pair-à-pair (P2P) entre particuliers** : Acheter directement en cash auprès d’une personne de confiance (amis, famille, réseau local, meetups...) permet d’éviter tout enregistrement officiel de la transaction et de ne pas passer par le système bancaire. C'est sûrement la meilleure manière d'acquérir ou de vendre des bitcoins, même si elle implique des risques d'agression puisque l'on parle d'un échange physique.
+- **Les plateformes spécialisées en P2P** : Des plateformes comme Bisq, RoboSats ou encore Peach facilitent les échanges entre particuliers sans nécessiter de vérification d’identité, en utilisant des systèmes de dépôt fiduciaire (*escrow*) pour sécuriser les transactions. Ces plateformes présentent tout de même un risque de vol en cas de non coopération du pair, bien que ce risque soit réduit grâce aux systèmes de dépôts fiduciaires.
+- **Les distributeurs automatiques de bitcoins (ATM)** : Certains guichets permettent d’acheter des bitcoins en espèces, bien que les frais soient généralement élevés et que certains imposent une identification au-delà d’un certain montant.
+- **Les plateformes d'échange sans KYC** : Certaines plateformes, notamment en Suisse, permettent l'achat de petites quantités de bitcoins sans nécessiter de vérification d'identité.
+- **Le minage** : Il est tout à fait possible pour un individu de participer au minage de Bitcoin. Des machines plus anciennes ou plus petites sont accessibles et peuvent offrir une méthode non conventionnelle pour acquérir des bitcoins sans passer par un KYC. En rejoignant un pool de minage, vous pouvez obtenir des revenus réguliers, même avec un équipement limité. Pour plus d'informations, [consultez nos tutoriels sur le minage](https://planb.network/tutorials/mining).
+- **Les paiements / Le salaire en bitcoins** : Si vous dirigez une entreprise, vous pouvez accepter des paiements en bitcoins. Si vous êtes salarié, selon la juridiction et le type d'entreprise où vous travaillez, il peut être envisageable de demander à être rémunéré en bitcoins. Ces options permettent d'acquérir des bitcoins sans KYC.
+
+**Avantages** :
+- Selon la méthode choisie, protège plus ou moins votre confidentialité en limitant els liens possibles entre votre identité et votre activité sur Bitcoin ;
+- Réduit les risques de censure, de gel des fonds ou d’ingérence gouvernementale ;
+- Possibilité d’accéder à Bitcoin même dans des environnements réglementés stricts.
+
+**Inconvénients** :
+- Processus souvent plus complexe que les plateformes KYC ;
+- Liquidité et volumes de transaction plus faibles ;
+- Premium souvent présent sur l'achat en P2P ;
+- Risque de contrepartie plus important dans les échanges entre particuliers (escroqueries, arnaques, agression...) ;
+- Frais plus élevés sur certaines plateformes ou ATM.
+
+### Les 4 profils types de bitcoiners
+
+En fonction des critères analysés précédemment, il est possible d’identifier plusieurs profils types d’utilisateurs de Bitcoin. Ces profils ne sont pas figés et peuvent évoluer avec le temps, mais ils permettent d’avoir une vision claire des stratégies adaptées à chaque besoin, et de choisir les outils qui correspondent.
+
+#### 1. Le hodler
+
+Le hodler est un investisseur qui achète du bitcoin avec une vision de long terme et qui ne compte pas y toucher avant plusieurs années. Contrairement au stacker, il n’achète pas forcément de manière récurrente, mais préfère des achats ponctuels de montants plus conséquents.
+
+Stratégie privilégiée :
+- Achat via une plateforme KYC ou non-KYC selon son degré de confidentialité souhaité ;
+- Stockage sur un hardware wallet ou via une solution multisignature pour une sécurité renforcée ;
+- Absence de transactions fréquentes, donc peu d’interactions avec l’écosystème Bitcoin.
+
+Le hodler considère le bitcoin comme un actif de réserve de valeur et adopte une posture proche de celle d’un investisseur en or physique. Son principal défi est de sécuriser son stockage tout en assurant la transmission éventuelle de ses fonds à ses héritiers.
+
+#### 2. Le stacker
+
+Le stacker est un utilisateur qui adopte une approche d’accumulation progressive. Il achète régulièrement des bitcoins en petites quantités, souvent via une stratégie de *Dollar-Cost Averaging* (DCA). Son objectif est de lisser son prix d’achat sur le long terme et de minimiser l’impact de la volatilité.
+
+Stratégie privilégiée :
+- Achat automatisé via une plateforme KYC offrant une option de DCA ;
+- Transfert régulier des fonds vers un hardware wallet pour un stockage sécurisé ;
+- Sensibilité modérée à la confidentialité, mais priorité donnée à la sécurité et à la facilité d’accumulation.
+
+Le stacker ne cherche pas à spéculer à court terme ni à utiliser fréquemment ses bitcoins. Il voit Bitcoin comme une épargne sur plusieurs années, voire plusieurs décennies. Ce qui distingue le stacker du hodler est sa méthode d'acquisition et ses volumes de transaction.
+
+#### 3. L’utilisateur actif
+
+L’utilisateur actif voit Bitcoin avant tout comme un moyen d’échange et non uniquement comme une réserve de valeur. Il l’utilise régulièrement pour des transactions, des paiements ou dans le cadre d’une économie circulaire.
+
+Stratégie privilégiée :
+- Utilisation d’un hot wallet sur mobile ou ordinateur pour des transactions quotidiennes ;
+- Utilisation du Lightning Network pour des paiements rapides et peu coûteux ;
+- Gestion hybride entre un portefeuille mobile pour les dépenses et un hardware wallet pour l’épargne ;
+- Sensibilité variable à la confidentialité en fonction des besoins.
+
+L’utilisateur actif peut être un entrepreneur, un freelance ou tout simplement une personne vivant dans un environnement où Bitcoin peut être un moyen de paiement courant. Sa priorité est la praticité, avec un équilibre entre sécurité et accessibilité.
+
+#### 4. Le paranoïaque
+
+Le paranoïaque est un utilisateur avancé qui accorde une forte importance à la confidentialité et à la sécurité. Il considère Bitcoin comme un outil d’émancipation individuelle et veut minimiser autant que possible son exposition aux tiers de confiance et aux régulations.
+
+Stratégie privilégiée :
+- Acquisition exclusivement via des canaux non-KYC ;
+- Utilisation de portefeuilles renforcés avec passphrase BIP39 et solutions multisignatures ;
+- Stockage sur plusieurs supports physiques répartis sur différentes localisations ;
+- Aucune interaction avec des services centralisés qui pourraient compromettre sa confidentialité.
+
+Ce profil est particulièrement adapté aux personnes vivant dans des environnements hostiles à Bitcoin, où la possession ou l’utilisation de BTC pourrait entraîner des sanctions. C’est une approche plus complexe, qui demande une certaine expertise technique et une discipline stricte pour éviter toute perte d’accès aux fonds.
+
+### Quel profil vous correspond ?
+
+Ces profils ne sont évidemment pas exclusifs et peuvent se combiner, voir évoluer avec le temps. Un utilisateur peut être à la fois stacker et hodler, ou paranoïaque pour ses économies tout en étant utilisateur actif au quotidien. Il est également possible de débuter comme stacker, puis d'évoluer au fil du temps vers un profil d'utilisateur actif et de paranoïaque.
+
+**L’important est d’adapter votre approche en fonction de votre situation et de votre vision à long terme.** 
+
+Dans les prochains chapitres, nous étudierons en détail chaque profil afin que vous puissiez identifier et appliquer la méthode qui vous convient le mieux. Nous explorerons également les outils les plus adaptés à chaque profil, ce qui vous permettra de mettre en place votre propre stratégie d'acquisition et de sécurisation.
 
 ## Le hodler
 

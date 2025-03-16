@@ -1080,6 +1080,8 @@ Bitcoin n’est pas un actif comme les autres. Il nécessite une approche réfl�
 
 Dans cette formation, nous partons du principe que vous êtes débutant sur Bitcoin. Ainsi, nous privilégierons des solutions simples, rapides à mettre en place et adaptées à une première expérience. Nous ne traiterons pas des méthodes d’exposition indirecte à Bitcoin, comme le minage, l’achat d’actions d’entreprises liées à Bitcoin ou les stratégies financières complexes. L’objectif est avant tout de vous aider à choisir un portefeuille adapté à votre situation et de trouver la meilleure méthode pour acquérir vos premiers bitcoins en toute sécurité.
 
+063
+
 ### Pourquoi définir votre profil d'utilisateur ?
 
 L’acquisition et la gestion de BTC ne suivent pas une approche unique et universelle. Chaque utilisateur a des besoins spécifiques, influencés par sa situation financière, son niveau de connaissances, et ses attentes vis-à-vis de Bitcoin. Il est donc important d’adopter une stratégie cohérente qui s’aligne avec votre profil personnel. Comprendre votre propre approche vous permettra d’optimiser votre expérience et d’éviter les erreurs courantes liées à une mauvaise anticipation de vos besoins.
@@ -1098,11 +1100,15 @@ Plusieurs éléments doivent être pris en compte pour déterminer la meilleure 
 
 Chacun de ces éléments impacte directement les solutions les plus adaptées à votre profil. Certains privilégieront la simplicité et la rapidité via des services régulés, tandis que d’autres opteront pour des méthodes plus autonomes et confidentielles.
 
+064
+
 C'est ce que nous allons étudier : quelles sont les différentes approches disponibles pour acquérir et sécuriser vos bitcoins, afin que vous puissiez faire des choix éclairés en fonction de votre profil et de vos objectifs ?
 
 ### Les principaux critères pour définir votre profil
 
 Déterminer la meilleure stratégie pour acquérir et sécuriser vos bitcoins nécessite une analyse approfondie de votre situation personnelle. Plusieurs facteurs influencent ces choix, notamment les risques auxquels vous êtes exposés, votre mode de vie et l’usage que vous souhaitez faire de vos bitcoins.
+
+065
 
 #### Risques potentiels et menaces
 
@@ -1156,6 +1162,8 @@ Pour simplifier ce processus, on peut le découper en quatre éléments principa
 ### Portefeuilles et stratégies de sécurisation
 
 La sécurisation de vos clé privées donnant accès à vos bitcoins est l'élément central de votre stratégie d’investissement et d’utilisation. Contrairement à un compte bancaire traditionnel, où l'institution prend en charge la gestion de vos fonds, Bitcoin vous offre un contrôle total sur votre argent. Mais cette autonomie implique aussi une responsabilité : **si vous perdez vos clés privées, vos bitcoins sont définitivement perdus**. Il existe plusieurs types de portefeuilles, chacun présentant des avantages et des inconvénients en fonction de votre profil et de vos besoins.
+
+067
 
 #### Hot wallet
 
@@ -1219,11 +1227,15 @@ L’adage **"Pas vos clés, pas vos bitcoins"** s’applique particulièrement i
 
 C'est pourquoi nous déconseillons ces solutions, même pour les débutants. Il est préférable de prendre le temps d'apprendre à sécuriser soi-même ses bitcoins et d'éviter ainsi tous ces risques inutiles, plutôt que d'opter pour la facilité en laissant ses bitcoins sur un exchange, avec tous les dangers que cela implique. Mais si vous êtes en train de lire ce cours qui vous apprend à sécuriser vos bitcoins, vous avez sûrement déjà saisi l'importance de ce principe.
 
+068
+
 Ce choix du portefeuille et de la méthode de sécurisation dépend du montant stocké, de votre niveau de compétence et des menaces perçues. Mais une approche hybride peut également être judicieuse :
 - Utilisez un hot wallet sur mobile ou un portefeuille Lightning pour les transactions courantes ;
 - Utilisez à côté un hardware wallet pour sécuriser la majorité de vos bitcoins, qui constituent votre épargne à long terme.
 
 Si votre portefeuille chaud accumule trop de bitcoins, vous pouvez en transférer une partie vers votre portefeuille froid. Inversement, si vous avez besoin de plus de bitcoins pour vos dépenses courantes, vous pouvez en retirer de votre épargne sur le portefeuille froid.
+
+066
 
 Dans tous les cas, la sécurité repose principalement sur votre utilisation. Un bon hardware wallet ne vaut rien si la phrase mnémonique est perdue, divulguée ou compromise. La prudence et la discipline sont les meilleures protections contre la perte de bitcoins. Pour en savoir plus sur ce sujet, je vous conseille vivement de lire également cet article :
 
@@ -1232,6 +1244,8 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 ### Méthodes d'acquisition et volumes de transactions
 
 L’acquisition de bitcoins peut se faire de différentes manières, en fonction de votre besoin en confidentialité, de la réglementation en vigueur dans votre pays et du montant que vous souhaitez acquérir. Deux grandes approches existent :
+
+070
 
 #### L'acquisition avec vérification d’identité (KYC)
 
@@ -1328,6 +1342,8 @@ Stratégie privilégiée :
 - Aucune interaction avec des services centralisés qui pourraient compromettre sa confidentialité.
 
 Ce profil est particulièrement adapté aux personnes vivant dans des environnements hostiles à Bitcoin, où la possession ou l’utilisation de BTC pourrait entraîner des sanctions. C’est une approche plus complexe, qui demande une certaine expertise technique et une discipline stricte pour éviter toute perte d’accès aux fonds.
+
+069
 
 ### Quel profil vous correspond ?
 

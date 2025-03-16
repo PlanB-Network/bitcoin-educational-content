@@ -16,91 +16,91 @@ proofreading:
   - language: fr
     last_contribution_date: 2025-02-17
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
     reward: 1.3
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.45
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.61
 
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.61
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.61
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.45
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.45
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.28
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.61
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.12
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.45
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.61
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.45
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.12
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.28
 tags:
   - guides

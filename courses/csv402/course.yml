@@ -9,10 +9,10 @@ professors:
   - lion-bomb
   - sand-valley
 
-contributors:
-  - rabbit-hole
-  - another-satoshi
-  - pretty-private
+contributor_names:
+  - Rogzy-DB
+  - Asi0Flammeus
+  - LoicPandul
 published_at: 2024-02-15
 
 # Proofreading metadata
@@ -21,80 +21,80 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 178.35
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 133.79
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 66.89
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 133.79
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 178.35
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 133.79
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat1
     reward: 66.89
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 267.48
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 133.79
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 178.35
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 267.48
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 178.35
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 222.92
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 222.92
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 178.35
 tags:
   - protocols

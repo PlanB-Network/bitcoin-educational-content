@@ -8,8 +8,8 @@ hours: 11
 professors:
   - light-storm
 
-contributors:
-  - another-satoshi
+contributor_names:
+  - Asi0Flammeus
 published_at: 2024-06-13
 
 # Proofreading metadata
@@ -18,83 +18,83 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 75.84
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 56.91
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 56.91
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 56.91
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 75.84
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - ProfEduStream
     reward: 28.45
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat1
     reward: 28.45
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 113.71
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 56.91
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Reshetenko
     reward: 37.92
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Henry-Da0
     reward: 56.86
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 75.84
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 94.78
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
-    contributors_id:
+    contributor_names:
       - MilankovicProtocol
     reward: 47.39
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 75.84
 tags:
   - guides

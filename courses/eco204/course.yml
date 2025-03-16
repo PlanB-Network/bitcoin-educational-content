@@ -7,9 +7,9 @@ hours: 6
 professors:
   - genius-flight
 
-contributors:
-  - rabbit-hole
-  - another-satoshi
+contributor_names:
+  - Rogzy-DB
+  - Asi0Flammeus
 
 published_at: 2023-09-28
 # Proofreading metadata
@@ -18,84 +18,84 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 41.36
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 31.05
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 31.05
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 31.05
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 41.36
   - language: fr
     last_contribution_date: 2024-06-08
     urgency: 1
-    contributors_id:
+    contributor_names:
       - elDaz2
     reward: 15.52
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 31.05
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 61.99
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 31.05
   - language: ru
     last_contribution_date: 2024-09-09
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Reshetenko
     reward: 20.68
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Henry-Da0
     reward: 31.0
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 41.36
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 51.68
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 41.36
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 51.68
 tags:
   - finance

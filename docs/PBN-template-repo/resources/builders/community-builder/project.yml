@@ -9,7 +9,7 @@ category: communities
 
 # Define Builder address
 # line 1 for more precise, name of the place
-address_line_1: PBN HQ
+address_city_country: PBN HQ
 # line 2 for the steet name
 address_line_2: 21st Satoshi's Place
 # line 3 for the City, Country

@@ -21,6 +21,6 @@ proofreading:
   - language: fr
     last_contribution_date: 2025-03-05
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
     reward: 3.21

@@ -15,8 +15,8 @@ professors:
   - quick-shade
   - iron-dream
 
-contributors:
-  - another-satoshi
+contributor_names:
+  - Asi0Flammeus
 
 published_at: 2025-02-27
 
@@ -25,7 +25,7 @@ proofreading:
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
       - jramos0
     reward: 7.0
 tags:

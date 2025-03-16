@@ -7,9 +7,9 @@ hours: 5
 professors:
   - peace-advice
 
-contributors:
-  - rabbit-hole
-  - another-satoshi
+contributor_names:
+  - Rogzy-DB
+  - Asi0Flammeus
 
 published_at: 2025-02-18
 test_only: true
@@ -20,6 +20,6 @@ proofreading:
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 15.16

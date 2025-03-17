@@ -3,7 +3,7 @@ start_date: 2024-10-31 07:00:00
 end_date: 2024-11-03 15:00:00
 timezone: Europe/Berlin
 address_line_2: Gasthof Pension Strohmaier
-address_line_1: Haidmühle, Germany
+address_city_country: Haidmühle, Germany
 name: Bitcoin Educators Academy for Women Germany 2024
 type: course
 book_online: false

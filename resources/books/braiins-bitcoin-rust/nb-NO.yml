@@ -8,5 +8,3 @@ description: |
   Denne boken er utviklet for IT-studenter og fagfolk, og tar leserne gjennom
   prosessen med å forstå bitcoins kjernekonsepter samtidig som man lærer
   dem til å bygge prosjekter i Rust.
-contributors:
-  - another-satoshi

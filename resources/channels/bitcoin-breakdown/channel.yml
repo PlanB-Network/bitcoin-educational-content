@@ -6,8 +6,8 @@ links:
   trailer: https://youtu.be/CDS8gs_5W6E
 description: |
   Bitcoin meme aggregator and alien newsletter operator from the future providing high-signal TLDR summaries of the best in Bitcoin.
-contributors:
-  - hunt-wood
+contributor_names:
+  - PaoloFoti
 tags:
   - market-trends
   - user-friendly

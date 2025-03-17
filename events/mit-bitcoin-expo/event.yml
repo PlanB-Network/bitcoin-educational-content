@@ -2,7 +2,7 @@ id: dc1fbc3a-b2aa-45b6-93ac-ed4f85bc8f5b
 start_date: 2025-04-05 13:00:00
 end_date: 2025-04-06 21:00:00
 timezone: America/New_York
-address_line_1: Cambridge, MA, USA
+address_city_country: Cambridge, MA, USA
 name: MIT Bitcoin Expo Freedom Tech
 type: conference
 description: A conference focusing on Bitcoin trends, innovation, and networking.

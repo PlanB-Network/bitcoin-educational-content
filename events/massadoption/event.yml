@@ -2,7 +2,7 @@ id: 4e1e166d-269a-411a-b2f5-506fbcb1d97d
 start_date: 2025-10-10 13:00:00
 end_date: 2025-10-13 23:00:00
 timezone: America/New_York
-address_line_1: New Hampshire, USA
+address_city_country: New Hampshire, USA
 name: MassAdoption
 type: conference
 description: A conference focusing on Bitcoin trends, innovation, and networking.

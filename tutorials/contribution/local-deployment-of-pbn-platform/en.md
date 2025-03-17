@@ -46,8 +46,7 @@ cp .env.example .env
 
 1. Edit the `.env` file, deleting the .example part of the name, now you have to include dummy keys for required variables. Example:
 
-   > [!WARNING] 
-   > This is a mandatory step, skipping it will result in errors such connection refusal between some of the containers.
+   _⚠️ This is a mandatory step, skipping it will result in errors such connection refusal between some of the containers.
 
    Don't forget to add your dedicated Github PAT too in the file
 
@@ -68,8 +67,7 @@ cp .env.example .env
 `Be sure` to have installed a suitable nodejs version. As of 2024-12, v22.12.0 (LTS) has been proven working.
 
 
-> [!WARNING] 
-> Ubuntu 22.04 repository nodejs version is 12.22.9: too old to allow you install pnpm
+_⚠️ Ubuntu 22.04 repository nodejs version is 12.22.9: too old to allow you install pnpm
 
 
 To install nodejs, find instructions [here](https://nodejs.org/en/download/package-manager); for example you may choose to use `nvm` installation method.
@@ -111,6 +109,8 @@ This will build and start all the necessary containers from dockers.
 Once the containers are running, access the frontend at:  
 \[<http://localhost:8181](http://localhost:8181)>  
 
+![Plan ₿ Network Local](assets/en/1.webp)
+
 Note: that the app will automatically reload if you change any source files.
 
 
@@ -143,6 +143,9 @@ then again:
 ```markdown
 curl -X POST http://localhost:3000/api/github/sync
 ```
+
+![Plan ₿ Network Local](assets/en/2.webp)
+
 
 **10. Customize the Repository (Optional)**  
 If you need to use a fork or a specific branch:  

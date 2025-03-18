@@ -46,7 +46,7 @@ cp .env.example .env
 
 1. Edit the `.env` file, deleting the .example part of the name, now you have to include dummy keys for required variables. Example:
 
-   _⚠️ This is a mandatory step, skipping it will result in errors such connection refusal between some of the containers.
+   ⚠️ This is a mandatory step, skipping it will result in errors such connection refusal between some of the containers.
 
    Don't forget to add your dedicated Github PAT too in the file
 
@@ -67,7 +67,7 @@ cp .env.example .env
 `Be sure` to have installed a suitable nodejs version. As of 2024-12, v22.12.0 (LTS) has been proven working.
 
 
-_⚠️ Ubuntu 22.04 repository nodejs version is 12.22.9: too old to allow you install pnpm
+   ⚠️ Ubuntu 22.04 repository nodejs version is 12.22.9: too old to allow you install pnpm
 
 
 To install nodejs, find instructions [here](https://nodejs.org/en/download/package-manager); for example you may choose to use `nvm` installation method.

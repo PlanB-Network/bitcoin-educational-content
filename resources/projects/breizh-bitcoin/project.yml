@@ -11,7 +11,7 @@ proofreading:
   - language: fr
     last_contribution_date: 2025-01-21
     urgency: 1
-    contributors_id:
+    contributor_names:
       - hunt-wood
     reward: 0.07
 tags:

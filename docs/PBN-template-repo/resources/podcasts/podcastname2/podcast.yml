@@ -25,9 +25,9 @@ links:
 
 # Description
 # Write the main description of the podcast
-description:
-  The journey from Normie to Bitcoiner.
-  Normal people tell the story of how they found the greatest money ever invented. Contact www.twitter.com/2BitIdiots if you'd like to come on as a guest.
+description: The journey from Normie to Bitcoiner. Normal people tell the story of
+  how they found the greatest money ever invented. Contact www.twitter.com/2BitIdiots
+  if you'd like to come on as a guest.
 
 # Tags
 # List the associated tags to the podcast
@@ -40,5 +40,5 @@ tags:
 # List all the contributors who help format, review and translate the course.
 # They are identified by their UUID
 # Currently, there are no shared record of these UUIDs
-contributors:
-  - another-satoshi
+contributor_names:
+  - Asi0Flammeus

@@ -8,5 +8,3 @@ description: |
   Diseñado para estudiantes y profesionales de TI, este libro lleva a los lectores a través del
   de entender los conceptos básicos de bitcoin y, al mismo tiempo, enseñar
   para construir proyectos en Rust.
-contributors:
-  - It’s perfect for anyone who is curious about Rust, a programming language praised for its safety and performance, or bitcoin, the world’s first decentralized cryptocurrency. Through hands-on development of a bitcoin miner, wallet, and node, this book helps readers sharpen their Rust skills and explore bitcoin’s infrastructure, making it an ideal starting point for building on bitcoin.another-satoshi

@@ -6,8 +6,8 @@ links:
   trailer: https://youtu.be/gqI_pte79eM
 description: |
   🌍 Connect The World, an English podcast where we guide you in the magic world of the Bitcoin Lightning Network.
-contributors:
-  - hunt-wood
+contributor_names:
+  - PaoloFoti
 tags:
   - lightning
   - guides

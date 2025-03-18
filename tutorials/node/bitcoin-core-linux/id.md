@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Core Node (linux)
+name: Bitcoin Core (Linux)
 description: Menjalankan node Anda sendiri dengan Bitcoin Core
 ---
 

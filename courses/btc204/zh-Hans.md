@@ -28,7 +28,6 @@ objectives:
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/V3eeFn4TuIY?feature=shared)
 
 在金融交易的保密性逐渐成为奢侈品的今天，了解和掌握使用比特币时的隐私保护原则至关重要。本培训课程从理论和实践两方面为您提供了自主实现这一目标的全部关键。
 
@@ -86,7 +85,6 @@ objectives:
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/bE-dmcAe_wY?feature=shared)
 
 比特币首先是一种货币，但你真的知道 BTC 在协议中是如何表示的吗？
 
@@ -137,7 +135,6 @@ UTXOs是比特币的交换工具。每笔交易都会消耗作为输入的UTXOs�
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/oKhgnEClQzo?feature=shared)
 
 ### 交易输入和输出
 
@@ -224,7 +221,6 @@ Coinbase 交易的独特之处在于，它是唯一能够 "凭空 "创造比特�
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/ca80pCpMID0?feature=shared)
 
 ### 金钱：真实性、诚信和双重消费
 
@@ -298,7 +294,6 @@ Coinbase 交易的独特之处在于，它是唯一能够 "凭空 "创造比特�
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/PtAUOGgHEAY?feature=shared)
 
 ### 定义和操作
 
@@ -381,7 +376,6 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/FA4VLQHr8wU?feature=shared)
 
 交易模式是典型交易的整体模型或结构，可以在区块链上找到，其可能的解释也是已知的。在研究模式时，我们将重点放在单个交易上，并对其进行高层次分析。
 
@@ -513,7 +507,6 @@ Source : [Mempool.space](https://mempool.space/fr/tx/00601af905bede31086d9b1b79e
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/mMBZ_diMC3g?feature=shared)
 
 内部启发式是我们在交易本身中识别出的特定特征，无需对其环境进行检查，就能进行推理。与模式不同，内部启发式关注的是事务的整体结构，而模式则是基于可提取的数据集。这包括
 
@@ -624,7 +617,6 @@ Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/WZ2B5cXp14w?feature=shared)
 
 研究外部启发法意味着分析某些非交易本身特有元素的相似性、模式和特征。换句话说，以前我们只局限于利用内部启发式分析交易的固有因素，而现在我们则借助外部启发式分析，将分析范围扩大到交易环境。
 
@@ -1044,7 +1036,6 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/qq_rdiujQTI?feature=shared)
 
 在研究了可能破坏比特币保密性的技术之后，我们将在第三部分探讨保护自己的最佳方法。本部分的目的不是探讨提高保密性的方法，这个问题将在后面讨论，而是了解如何正确地与比特币互动，以保持其自然提供的保密性，而不诉诸其他技术。
 
@@ -1181,7 +1172,6 @@ P2SH - P2WPKH | OP_HASH160 `<redeemScriptHash>` OP_EQUAL | P2SH - P2WPKH | OP_HA
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/EhF0AlTv-uY?feature=shared)
 
 正如我们在字符串分析部分所发现的，有许多启发式方法和模式可以用来推断交易信息。作为用户，必须了解这些技术，以便更好地防范它们。
 
@@ -1289,7 +1279,6 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/oqS0GGsoVUE?feature=shared)
 
 KYC 是 "了解你的客户 "的缩写。这是在比特币领域运营的某些公司实施的一项监管程序。该程序的目的是核实和登记客户身份，以打击洗钱和资助恐怖主义的行为。
 
@@ -1391,7 +1380,6 @@ KYC 特指某些公司为核实和登记客户身份而实施的监管程序。�
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/tSLMwfvQVWQ?feature=shared)
 
 读完上一章后，你可能会想知道如何才能在不进行身份验证的情况下买卖比特币，以避免与 "KYC "相关的风险。交易比特币有几种方式。
 
@@ -1515,7 +1503,6 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/5mynikwUkLs?feature=shared)
 
 管理自我托管投资组合最复杂的一个方面就是合并。是否应该合并？有什么意义？应该尊重多大的 UTXO？在保密性方面有哪些妥协？这就是我们本节要探讨的问题。
 
@@ -1600,7 +1587,6 @@ $$
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/mKuyVKi_JKM?feature=shared)
 
 让我们来看看其他一些优化比特币隐私的最佳做法。
 
@@ -1657,7 +1643,6 @@ $$
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/D9-2dTpmWNU?feature=shared)
 
 在学习了隐私保护的基础知识后，我们现在来看看更复杂的技术，旨在积极保护你的机密，尤其是通过拆分你的比特币历史。在下一部分，我们将学习一系列小技巧，但首先，我想向大家介绍一下 coinjoin。
 
@@ -1756,7 +1741,6 @@ Coinjoins 有时被描述为 "混合器"，一些比特币爱好者拒绝接受�
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/JYBh0_u62Yc?feature=shared)
 
 投币式连接所提供的私密性是由我们的棋子所隐藏的小组规模决定的。这意味着要找到尽可能多的参与者。我们完全可以通过自己找到的用户来手动创建一个币圈，但这是一个复杂的过程，而且不会为你赢得任何大的安索。
 
@@ -1872,7 +1856,6 @@ Zerolink 采取的一项重要预防措施是通过使用单独的加密密钥�
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/cKNB1_840Ic?feature=shared)
 
 *2024 年，我们正在见证比特币用户可用工具的重大变化。我们目前正处于一个转折点，币圈市场正在经历重大调整。随着时间的推移，本章将会不断更新
 
@@ -1954,7 +1937,6 @@ Wabisabi 是另一种币合实现方式，采用的是集中交易协调的方�
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/JQ12fBHsLtY?feature=shared)
 
 漩涡有别于其他加入硬币的方法，它使用"_ZeroLink_"交易，确保所有输入和输出之间没有任何可能的技术联系。这种完美的组合是通过一种结构实现的，在这种结构中，每个参与者的投入量完全相同（挖矿费用除外），产生的产出量完全相等。
 
@@ -2194,7 +2176,6 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c7
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/9nMLaYf6yx0?feature=shared)
 
 在研究了共同连接的工作原理和有效混合所涉及的问题之后，我们现在要了解如何衡量其有效性。我们如何确定共同连接过程是否有效，以及某个部分获得了多大程度的匿名性？本章我们将通过匿名集或 "anonsets "来找出答案。
 
@@ -2270,7 +2251,6 @@ https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/yGr34eyMPtA?feature=shared)
 
 正如我们在 "币合 "一节中所看到的，UTXOs 在输入和输出中的同质性在提高比特币交易的保密性方面发挥着重要作用。面对区块链分析，这一参数创造了一种似是而非的可抵赖性。有几种方法可以用来测量这种同质性，但在我看来，最有效的方法之一是使用由 OXT 和 Samourai 钱包团队开发的*Boltzmann*工具提供的指标，尤其是交易的熵。这就是我们将在本章详细介绍的内容。
 
@@ -2532,7 +2512,6 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/e4i66QXWCvs?feature=shared)
 
 Coinjoin 是目前在链分析中将不确定性引入零件追踪的最有效方法。正如我们在前几章中所看到的，要想获得高性能的组合，输入和输出必须尽可能同质。此外，重要的是部件要尽可能地集成到一个大的组中，以最大限度地实现共集。因此，要使共同连接有效，必须涉及大量统一的部件。如此多的要求意味着币合交易有一个非常严格的结构：金额事先是固定的，所有参与者都必须遵守，以保证过程的统一性。此外，硬币接合要求所有参与者和协调者在交易构建过程中保持同步。
 
@@ -2624,7 +2603,6 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/SUMLsQSytbE?feature=shared)
 
 当你想在保持一定保密性的同时进行支付交易时，payjoin 是一个不错的选择。但正如我们刚才看到的，payjoin 需要收款人的参与。那么，如果收款人拒绝参与 payjoin，或者你根本不想让他们参与，该怎么办呢？一种替代方法是使用石墙或石墙 x2 交易。让我们仔细看看这两种交易。
 
@@ -2748,7 +2726,6 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/TfOsnqXtJ8g?feature=shared)
 
 比特币交易结构的使用会增加链分析的模糊性，比如coinjoin，尤其有利于隐私保护。然而，正如我们在 "payjoins "一章中所讨论的，coinjoin 交易在链上是自然可识别的。还记得我们在加密和联币之间做的类比吗：当一个文件被加密时，发现加密文件的第三方无法访问其内容，但可以清楚地识别出该文件已被修改以隐藏其内容。这同样适用于联锁交易：当分析师检查联锁交易时，虽然他或她无法在输入和输出之间建立直接联系（反之亦然），但他或她可以识别出观察到的交易是联锁交易。
 
@@ -2822,7 +2799,6 @@ https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a94
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/zfl5c5yeoTk?feature=shared)
 
 比特币的另一项保密技术是所有权的秘密转移。这种方法的目的是将比特币的所有权从一个人转移到另一个人，反之亦然，而交易在区块链上是不可见的。让我们来看看现有的不同技术及其优缺点。
 
@@ -2945,7 +2921,6 @@ $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallel P_A \parallel m_A) \cdot P_
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/z3PMxy7xpuU?feature=shared)
 
 在第四部分中，我们讨论了使用完整节点来保护交易机密性的重要性。然而，重要的是要明白，你的节点本身也可能受到攻击，试图获取你的活动信息。因此，在本章中，我们将探讨保护个人隐私的各种措施，这些措施不是在交易本身或比特币流的层面上，而是在网络层面上。
 
@@ -3023,7 +2998,6 @@ Tor 不仅可以加密数据，还可以掩盖通信的来源和目的地。通�
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/QxbNReGAsvg?feature=shared)
 
 正如我们在第三部分中看到的，地址重复使用是比特币协议中用户保密性的一个严重障碍。为了降低这些风险，我们强烈建议为钱包中收到的每一笔新付款生成一个空白的收款地址。虽然现在使用现代软件和分层确定性钱包可以简化生成新地址的过程，但这种做法似乎有违直觉。
 
@@ -3850,7 +3824,6 @@ https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/lG6JamNlwXY?feature=shared)
 
 BIP47 因其链上效率低下而广受批评。如前一章所述，它要求对每个新收款人进行一次通知交易。如果我们计划与收款人建立可持续的支付渠道，这一限制就变得微不足道了。事实上，一次通知交易就能为随后几乎无限次的 BIP47 支付铺平道路。
 

@@ -87,7 +87,7 @@ Những hàm băm mật mã này có một số đặc điểm thiết yếu là
 
 #### 1. Khả năng không thể đảo ngược (kháng ảnh trước):
 
-Khả năng không thể đảo ngược có nghĩa là việc tính toán băm từ thông tin đầu vào là dễ dàng, nhưng phép tính ngược lại, tức là tìm thông tin đầu vào từ băm, là gần như không thể. Tính chất này làm cho hàm băm hoàn hảo cho việc tạo ra các dấu vân tay số duy nhất mà không làm lộ thông tin gốc. Đặc điểm này thường được gọi là một hàm một chiều hoặc "_hàm cửa bẫy_".
+Tính không thể đảo ngược có nghĩa là rất dễ tính toán hàm băm từ thông tin đầu vào, nhưng phép tính ngược lại, tức là tìm đầu vào từ hàm băm, là hầu như không thể. Tính chất này khiến các hàm băm trở nên hoàn hảo để tạo dấu vân tay kỹ thuật số độc nhất mà không làm lộ thông tin gốc.
 
 Trong ví dụ đã cho, việc thu được băm `24f1b9…` bằng cách biết đầu vào "_PlanB_" là đơn giản và nhanh chóng. Tuy nhiên, việc tìm ra thông điệp "_PlanB_" chỉ bằng cách biết `24f1b9…` là không thể.
 

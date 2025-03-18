@@ -1,9 +1,10 @@
+# randonmly generated uuid v4
 id: 17f8bc5b-7034-4ff6-96e0-11484a133642
 ## Professor characteristics
 
 # Name
 # Write author's complete name
-name: PlanB Network Author
+name: Plan ₿ Network Author
 
 # contributor_id
 # Define its id using the 2 words of the bip39 dictionary by using the associated PlanB-UID (see /docs/planb-uid.md)
@@ -17,10 +18,10 @@ links:
 
 # tags
 # List the associated tags to the author
-# The list of tags is composed of 21 items that can be found here (list not yet available) 
+# The list of tags is composed of 21 items that can be found here (list not yet available)
 tags:
-  - opensource
-  - lightning network
+  - cypherpunk
+  - lightning
 # tips
 # List the possibility to directly tip the author
 # For the moment only the lightning_address is supported on planb.network
@@ -33,7 +34,7 @@ tips:
 company: ACME
 
 # affiliations
-# List the closest affiliations the author has with any actors of the industry or else. 
+# List the closest affiliations the author has with any actors of the industry or else.
 # Ideally the cited affiliations are present in the builders folder
 affiliations:
   - uuid

@@ -1628,66 +1628,189 @@ La stratégie du stacker repose sur plusieurs qualités essentielles qui permett
 
 En résumé, la stratégie du stacking convient à ceux qui souhaitent accumuler du bitcoin sur le long terme sans y passer trop de temps, et en réduisant les risques liés à la volatilité. Dans le prochain chapitre, nous allons étudier un profil de bitcoiner radicalement différent : l'utilisateur actif.
 
-## L'utilisateur actif
+## L'utilisateur : adopter Bitcoin au quotidien
 
-<chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
+e0a022ab-207c-571f-b4ad-c432214a756c
 
-Enfin, le dernier type de bitcoiner que l'on peut mentionner dans un cours d'introduction est le bitcoiner qui doit utiliser Bitcoin régulièrement. Que ce soit en raison d'une obligation professionnelle ou simplement par volonté de soutenir l'écosystème, il est nécessaire de prévoir des solutions adaptées à une utilisation fréquente.
+Devenir un utilisateur actif de Bitcoin, c'est faire le choix d'intégrer cette monnaie dans son quotidien, bien au-delà de l'investissement à long terme. Contrairement au hodler ou au stacker, qui conservent leurs bitcoins sans les dépenser, l'utilisateur actif considère Bitcoin comme un véritable **moyen d'échange**, lui permettant d’effectuer des transactions, de payer des biens et services, et de participer à la contre-économie.
 
-![image](assets/tuto/12.webp)
+083
 
-### Le plan
+### Pourquoi adopter une stratégie d'utilisateur actif ?
 
-Pour cet utilisateur, il sera probablement nécessaire d'avoir deux types de portefeuilles :
+L’utilisation quotidienne de Bitcoin offre plusieurs avantages significatifs, tant sur le plan individuel que collectif :
 
-- Un portefeuille froid pour conserver les bitcoins à long terme en toute sécurité.
-- Un portefeuille chaud pour envoyer et recevoir régulièrement des bitcoins pour une utilisation quotidienne.
+- **Soutenir directement l'écosystème Bitcoin** en participant à son adoption progressive. Chaque transaction effectuée renforce l’usage de Bitcoin en tant que monnaie et incite davantage de commerçants et de services à l’accepter. Il est également important de comprendre que l'utilisation du bitcoin comme moyen d'échange équivaut à un acte de vote. En effet, l'utilité d'une monnaie découle directement de sa capacité à faciliter le commerce plutôt que le troc. Si elle n'est acceptée par aucun commerçant, elle n'a objectivement aucune valeur. Plus le nombre de biens et services disponibles à l'achat avec une monnaie est élevé, plus cette monnaie est utile à une personne donnée. En utilisant le bitcoin comme moyen de paiement, vous choisissez de dépenser votre argent chez un commerçant qui l'accepte. Vous orientez ainsi la valeur économique vers ce commerçant au lieu d'un autre. Par conséquent, le commerçant qui accepte le bitcoin peut voir ses bénéfices augmenter grâce à votre transaction, tandis que son concurrent pourrait voir les siens diminuer. À l'échelle d'un groupe de personnes, cet acte conduit à une acceptation de plus en plus large du BTC par les commerçants et peut mener à la disparition naturelle de ceux qui refusent de l'accepter. Cela crée un cercle vertueux qui peut s'initier tant du côté des commerçants que des consommateurs.
 
-Ce type de profil optera donc probablement pour un portefeuille basé sur le Lightning Network pour les transactions courantes, ainsi qu'un portefeuille matériel pour la conservation à long terme.
+- **Profiter des propriétés uniques de Bitcoin**, comme la rapidité des transactions grâce au Lightning Network, l'absence de censure, de surveillance financière et de seigneuriage. La proposition de valeur de Bitcoin provient en effet de sa capacité à retirer aux gouvernements le contrôle de l'offre monétaire et la censure des transactions. Si ces caractéristiques se traduisent par des avantages dans votre situation personnelle, alors vous pourriez envisager d'adopter le profil d'un utilisateur actif.
 
-Pour s'exposer à Bitcoin, ce type de profil aura plusieurs options :
+- **Mieux comprendre la technologie**. L’utilisation active de Bitcoin permet d’acquérir une expérience pratique, de se familiariser avec les portefeuilles et d’explorer des concepts avancés comme la confidentialité des paiements ou la gestion des UTXOs. En choisissant d'utiliser Bitcoin au quotidien, vous allez inévitablement acquérir de nouvelles connaissances.
 
-- Utiliser des solutions peer-to-peer telles que Peach pour acheter ou vendre rapidement des bitcoins de manière non KYC.
-- Utiliser une plateforme d'échange pour pouvoir acheter et vendre régulièrement des bitcoins en fonction des besoins.
+Cependant, il est important de prendre en compte certains défis : la complexité technique, la volatilité des prix qui peut affecter la valeur des dépenses, ainsi que la nécessité d’une bonne gestion de la sécurité pour éviter les pertes de fonds.
 
-### Tutorial
+086
 
-Portefeuille chaud LN
+### Plan d'investissement d'un utilisateur actif
+
+Adopter Bitcoin comme moyen de paiement quotidien nécessite une approche bien structurée. Contrairement à un hodler ou un stacker, l’utilisateur actif doit gérer à la fois la sécurité de ses fonds à long terme et la praticité des transactions au quotidien. Un bon équilibre entre stockage sécurisé à froid et accès rapide aux bitcoins est important pour optimiser cette stratégie.
+
+084
+
+#### 1. Séparation claire des portefeuilles
+
+L’utilisateur actif doit utiliser 2 types de portefeuilles distincts pour optimiser à la fois la sécurité et la praticité de ses transactions :
+- Un portefeuille froid (hardware wallet) pour sécuriser son épargne à long terme.
+
+https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
+https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
+https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
+https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
+https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
+- Un ou plusieurs portefeuilles chauds sur mobile pour recevoir et envoyer des bitcoins facilement au quotidien. L'utilisateur actif aura souvent un portefeuille chaud on-chain et un portefeuille Lightning.
+
+https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+
+https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+
+https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
+https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+
+https://planb.network/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
+
+https://planb.network/tutorials/wallet/mobile/nunchuk-fc1b553f-5298-4e75-9f34-8af19025f1b1
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
 
-Portefeuille froid
+Cette séparation permet de limiter les risques en cas de compromission du portefeuille utilisé pour les paiements quotidiens.
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+#### 2. Monter son propre nœud
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+En fonction de sa situation personnelle, l'utilisateur actif cherchera à minimiser sa dépendance envers les tiers de confiance. Pour cela, il aura souvent son propre nœud Bitcoin, ce qui lui permet d'être totalement indépendant dans son utilisation du protocole et de protéger la confidentialité de ses transactions.
 
-https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-Plateforme d'achat
+https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+
+https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+
+Si l'utilisateur actif utilise fréquemment le Lightning Network, il pourrait également être judicieux de gérer son propre nœud LND ou Core-Lightning et de prendre en charge l'ouverture et la fermeture de ses canaux. Cela lui permettra d'être indépendant dans son utilisation du Lightning Network et potentiellement de réduire les frais associés à ses transactions quotidiennes, comparativement à l'utilisation de nœuds Lightning gérés automatiquement comme Phoenix, ou encore pire, de portefeuilles Lightning custodiaux.
+
+https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
+#### 3. Acquisition régulière de bitcoins
+
+Un utilisateur actif doit maintenir un équilibre entre son épargne et son stock de bitcoins utilisables au quotidien. 
+
+085
+
+Plusieurs méthodes permettent d’acquérir du Bitcoin en fonction du niveau de confidentialité recherché :
+
+- Achat classique via une plateforme régulée comme Bitfinex ou Bull Bitcoin, idéal pour recharger son portefeuille froid ;
+
+https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+
+https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+
+https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+
+https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
 https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-### Est-ce pour vous ?
+https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-- Pragmatique et Engagé:
-  L'utilisateur est pragmatique et conscient des avantages et des inconvénients de Bitcoin. Il est engagé dans l'écosystème, souhaitant activement le soutenir par une utilisation fréquente.
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-- Compétent en Technologie:
-  Possède une bonne compréhension des technologies, notamment des portefeuilles Bitcoin chauds et froids et du Lightning Network.
+https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
-- Flexible et Adaptable:
-  Prêt à utiliser diverses solutions et plateformes pour répondre à ses besoins en constante évolution.
+- Acquisition non-KYC via des solutions peer-to-peer comme Peach, Robosats ou encore les ATM Bitcoin, permettant d’alimenter son portefeuille sans divulguer d’informations personnelles ;
 
-L'utilisateur est une personne technologiquement avisée et engagée dans l'utilisation active de Bitcoin. Il recherche constamment des moyens d'améliorer l'efficacité et la sécurité de ses transactions et de ses holdings Bitcoin. Sa flexibilité et son engagement envers l'écosystème se reflètent dans sa volonté d'utiliser des solutions variées, des portefeuilles lightning aux solutions d'échange rapides. Bien qu'il soit activement impliqué dans les transactions Bitcoin, il ne néglige pas la sécurité, veillant à maintenir une division claire entre ses bitcoins pour une utilisation quotidienne et ceux conservés à long terme.
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+- Paiement en bitcoins pour ses revenus : Être un utilisateur actif de Bitcoin ne se limite pas seulement à dépenser des bitcoins, mais également à en gagner en échange de son travail. Si vous êtes dirigeant d'une entreprise, vous pouvez choisir d'accepter le bitcoin comme moyen de paiement. Si vous êtes salarié, vous pouvez envisager de recevoir tout ou partie de votre salaire en BTC si votre entreprise le propose.
+
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+
+081
+
+#### 4. Gestion active des dépenses
+
+Le choix de dépenser des bitcoins est souvent sujet à critiques. Certains utilisateurs de Bitcoin préfèrent dépenser des monnaies fiat, qu'ils considèrent de moindre qualité et souhaitent donc éliminer, plutôt que de dépenser des bitcoins. Toutefois, cette réflexion présente deux problèmes : elle néglige d'abord les avantages du bitcoin comme moyen de paiement (voir section précédente), et ensuite, elle soulève la question de pourquoi détenir de la monnaie fiat considérée comme inférieure pour les dépenses ?
+
+Une approche plus logique est celle du "*Spend and Replace*", qui consiste à dépenser ses bitcoins pour toutes les raisons précédemment évoquées, puis, afin de ne pas diminuer son épargne en bitcoins, à remplacer les sats dépensés par de nouveaux sats achetés avec de la monnaie fiat.
+
+Pour faciliter les dépenses en bitcoins, de nombreux outils sont également disponibles, notamment [BTC Map](https://btcmap.org/), qui répertorie les commerçants à travers le monde acceptant le bitcoin. Certains de ces commerçants proposent également la commande en ligne avec livraison.
+
+Comme nous sommes dans une période de transition où tous les commerçants nécessaires au quotidien n'acceptent pas encore le BTC, il existe des astuces qui peuvent sembler rudimentaires mais qui s'avèrent très utiles. Par exemple, l'achat de cartes cadeaux en bitcoins est une option pratique offerte par plusieurs fournisseurs tels que Bitrefill, Coinsbee, ou The Bitcoin Company.
+
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
+#### 5. Veille technologique et flexibilité
+
+Le protocole Bitcoin, les système de surcouche comme le Lightning Network et toute la couche applicative liée à ces écosystèmes évoluent rapidement. Un utilisateur actif doit donc : 
+- Se tenir informé des nouvelles solutions qui facilitent l’adoption au quotidien ;
+- Tester régulièrement de nouveaux outils et services pour améliorer son expérience utilisateur ;
+- Ajuster sa stratégie en fonction des avancées technologiques et des évolutions du marché.
+
+### Évaluer votre profil d'utilisateur actif
+
+Êtes-vous fait pour être un utilisateur actif de Bitcoin ? Voici les caractéristiques essentielles :
+
+- **Pragmatisme et Engagement :** Vous êtes motivé à intégrer Bitcoin à votre quotidien et à participer activement à la croissance de son écosystème. Vous êtes conscient à la fois des avantages et des défis que cela implique.
+
+- **Compétence technique :** Vous avez une bonne compréhension ou êtes prêt à acquérir des compétences approfondies sur le fonctionnement des portefeuilles Bitcoin et du Lightning Network. Vous êtes à l'aise avec des concepts techniques avancés comme la gestion des UTXO.
+
+- **Flexibilité et Adaptabilité :** Vous êtes prêt à tester différentes solutions, à changer d'outils et à ajuster vos pratiques selon l'évolution rapide de l'écosystème Bitcoin et de vos besoins au quotidien.
+
+- **Discipline financière :** Vous êtes rigoureux dans la gestion de vos dépenses et de votre épargne Bitcoin. Vous comprenez l'importance de séparer clairement vos fonds destinés à l'utilisation quotidienne et ceux réservés à l'épargne à long terme.
+
+082
+
+En conclusion, l'utilisateur actif contribue directement à la dynamique de l’écosystème Bitcoin. En intégrant Bitcoin dans ses habitudes quotidiennes, il soutient son adoption et développe sa propre expertise.
+
+Dans le chapitre suivant, nous allons étudier le dernier profil type de bitcoiner, qui est probablement le plus complexe mais aussi le plus fascinant : celui de l'utilisateur paranoïaque.
 
 ## Le parano
 

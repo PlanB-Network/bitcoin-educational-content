@@ -562,50 +562,6 @@ La méthodologie est un aspect essentiel en économie et en sciences sociales en
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Études supplémentaires
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Félicitations pour avoir terminé ce cours ECON 201 ! J'espère sincèrement que vous l'avez apprécié et que vous vous êtes ouvert de nouvelles perspectives. Votre découverte du Bitcoin ne fait que commencer, et je vous invite à explorer tous les autres cours disponibles à l'université.
-
-### Lectures complémentaires
-
-Pour approfondir votre compréhension des phénomènes économiques et sociaux, en particulier en ce qui concerne l'économie autrichienne, voici quelques recommandations de livres :
-
-- "L'école autrichienne" de Ressus Huerta de Soto : Ce livre abordable offre une introduction complète à l'évolution de la pensée économique autrichienne, en couvrant les concepts et les théories clés.
-- "L'action humaine" de Ludwig von Mises : Considéré comme l'œuvre majeure de l'école autrichienne, cet ouvrage explore en profondeur les fondements théoriques de l'action humaine et de l'économie.
-- "L'utilisation de la connaissance dans la société" de Friedrich Hayek : Ce court texte examine comment la connaissance dispersée dans la société est utilisée pour guider les décisions économiques, en mettant en évidence l'importance des prix et de la concurrence.
-- Discours de Joseph Schumpeter lors de la remise du prix Nobel en 1974 : Ce discours offre un aperçu de la vision de Schumpeter sur l'entrepreneuriat, l'innovation et le capitalisme.
-- "Capitalisme, socialisme et démocratie" ou "La théorie du développement économique" de Joseph Schumpeter : Ces livres emblématiques de Schumpeter explorent la dynamique du capitalisme, de l'innovation et des cycles économiques.
-
-En plus de ces lectures, vous pouvez également trouver des informations sur l'économie autrichienne en explorant des ressources en ligne. L'Institut Mises, basé dans le sud-est des États-Unis, propose des articles et des vidéos d'économistes renommés. L'Académie Savedin Amoos propose des séminaires interactifs avec des invités de marque, bien que cette option soit payante. En France, des personnes comme Yorick de Montbin, Fergan Aziri et Richard Hamelin partagent souvent des analyses et des discussions sur l'économie autrichienne sur différentes chaînes YouTube. Enfin, l'Institut Bitcoin peut également être une source d'information sur les aspects économiques liés au Bitcoin.
-
-En lisant ces ouvrages et en explorant ces ressources en ligne, vous pouvez développer une compréhension plus approfondie des principes et des idées clés de l'école autrichienne d'économie.
-
-Si vous souhaitez approfondir le sujet de l'économie autrichienne, je vous suggère plusieurs interviews avec Théo Mogenet :
-
-- [Comment se préparer à la prochaine crise économique ?](https://youtu.be/GJT8t1TEd7Q)
-- [Comment peut-on articuler la destruction de l'euro ?](https://youtu.be/eK3ONo11HN8)
-- [Hyper-bitcoinisation : peut-on fonctionner sur une norme BTC ?](https://youtu.be/nkN2twZ-lJY)
-  Si vous en voulez encore plus, vous pouvez regarder ces discussions sur la situation macroéconomique et d'autres sujets divers :
-- [Comment détruire Bitcoin ?](https://youtu.be/gHKvj4eeiDg)
-- [Bitcoin est-il de droite, de gauche ou anarchiste ?](https://youtu.be/4fXGxzLtIIw)
-- [Pour sauver la planète, abandonnez le dollar et l'euro](https://youtu.be/iHagDlH4bf8)
-- [Pourquoi une hausse des taux d'intérêt est-elle impossible ?](https://youtu.be/iHagDlH4bf8)
-
-# Conclusion
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Évaluez ce cours
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Examen final
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Conclusion
 

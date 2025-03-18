@@ -1434,7 +1434,7 @@ Alles, was in der globalen Gesellschaft, in der wir leben, geschieht, ist das Er
 (_Wirtschaftspolitik: Gedanken für heute und morgen_, 1979).
 # Abschluss
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
-## Bewertungen & Noten
+## Bewertung & Beurteilung
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
 <isCourseReview>true</isCourseReview>
 ## Abschlussprüfung

@@ -1,0 +1,9 @@
+question: Hva er valutaens primære funksjon?
+answer: Å fungere som et mellomledd som forenkler verdiutvekslingen
+wrong_answers:
+  - Å lagre egenverdi i fysisk form
+  - Å erstatte byttehandel fullstendig med direkte bytte av varer mot varer
+  - Å sentralisere alle økonomiske transaksjoner gjennom én enkelt myndighet
+explanation: |
+  Valuta forenkler handelen ved å fungere som et felles medium som reduserer det komplekse nettet av vekslingskurser som er nødvendig i et byttesystem, og dermed gjør det enklere å gjennomføre transaksjoner.
+reviewed: false

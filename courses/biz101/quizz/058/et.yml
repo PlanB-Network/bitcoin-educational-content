@@ -1,0 +1,9 @@
+question: Mis on üks eelis, kui kasutate Starter-profiili jaoks hoiukassat?
+answer: Vähendatud tehnilised kohustused
+wrong_answers:
+  - Suurem kontroll privaatvõtmete üle
+  - Suurendatud privaatsus koos täieliku sõltumatusega tehingute üle
+  - Tehingutasude kaotamine
+explanation: |
+  Haldatavad rahakotid haldavad privaatseid võtmeid, lihtsustades kasutajate tehnilist koormust.
+reviewed: false

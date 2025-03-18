@@ -532,41 +532,6 @@ ZIRP的另一个意外后果是，它鼓励政府进行大规模支出。由于�
 
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
-
-## 进一步学习
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-恭喜您完成了这门ECON 201课程！我真诚地希望您喜欢它，并为自己打开了新的大门。您对比特币的发现才刚刚开始，我邀请您探索大学提供的所有其他课程。
-
-### 进一步阅读
-
-为了加深您对经济和社会现象的理解，特别是关于奥地利经济学，这里有一些书籍推荐：
-
-- 《奥地利学派》（"The Austrian School"）作者：Ressus Huerta de Soto：这本价格实惠的书提供了对奥地利经济思想演变的全面介绍，涵盖了关键概念和理论。
-- 《人的行为》（"Human Action"）作者：Ludwig von Mises：被认为是奥地利学派的巨著，这部作品深入探讨了人类行为和经济学的理论基础。
-- 《社会中知识的使用》（"The Use of Knowledge in Society"）作者：Friedrich Hayek：这篇短文检验了社会中分散的知识如何被用来指导经济决策，强调了价格和竞争的重要性。
-- Joseph Schumpeter 1974年的诺贝尔奖领奖演讲：这次演讲提供了Schumpeter对企业家精神、创新和资本主义的视角概述。
-- 《资本主义、社会主义与民主》或《经济发展理论》（"Capitalism, Socialism and Democracy" 或 "The Theory of Economic Development"）作者：Joseph Schumpeter：Schumpeter的这些标志性著作探讨了资本主义、创新和经济周期的动态。
-
-除了这些阅读材料，您还可以通过探索在线资源来了解奥地利经济学。位于美国东南部的米塞斯研究所提供了著名经济学家的文章和视频。Savedin Amoos学院提供与杰出嘉宾的互动研讨会，尽管这需要付费。在法国，像Yorick de Montbin、Fergan Aziri和Richard Hamelin这样的人经常在不同的YouTube频道上分享关于奥地利经济学的分析和讨论。最后，比特币研究所也可以是了解与比特币相关的经济方面信息的一个来源。
-
-通过阅读这些作品和探索这些在线资源，您可以更深入地理解奥地利经济学派的关键原则和思想。
-
-# 总结
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## 评价本课程
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## 期末考试
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## 总结
 
 <chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>

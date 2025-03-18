@@ -49,7 +49,7 @@ Pro tento tutoriál budete potřebovat 2 softwarové aplikace: Ledger Live pro i
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Pro tyto dva softwarové programy důrazně doporučuji ověřit jejich autentičnost (pomocí GnuPG) a integritu (prostřednictvím hash) před jejich instalací na vaše zařízení. Pokud si nejste jisti, jak to udělat, můžete sledovat tento další tutoriál:
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Jak inicializovat Ledger Nano?
 

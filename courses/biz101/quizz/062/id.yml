@@ -1,0 +1,9 @@
+question: Solusi alternatif mana yang lebih baik daripada Swiss Bitcoin Pay untuk menerima pembayaran Bitcoin untuk profil Essential yang 100% kustodian?
+answer: Simpul Terbuka
+wrong_answers:
+  - Server BTCPay
+  - Bitcoinize PoS
+  - Dompet Phoenix
+explanation: |
+  Open Node dicirikan sebagai solusi kustodian sepenuhnya, berbeda dengan sifat hibrida Swiss Bitcoin Pay.
+reviewed: false

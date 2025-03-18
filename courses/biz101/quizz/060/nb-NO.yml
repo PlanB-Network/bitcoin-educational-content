@@ -1,0 +1,9 @@
+question: Hva er det primære maskinvarekravet for at en Starter-profil skal kunne ta imot Bitcoin-betalinger?
+answer: En smarttelefon
+wrong_answers:
+  - En Bitcoin-miner ASIC
+  - En hardware-lommebok
+  - En selvbetjent server
+explanation: |
+  Starter-profilen krever bare en smarttelefon eller et nettbrett med en Lightning-lommebok, noe som gjør den til en lettvektsløsning.
+reviewed: false

@@ -1436,7 +1436,7 @@ Semua yang terjadi dalam masyarakat global tempat kita hidup adalah hasil dari i
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 
-## Evaluasi kursus ini
+## Ulasan & Penilaian
 
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
 <isCourseReview>true</isCourseReview>

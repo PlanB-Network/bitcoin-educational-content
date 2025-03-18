@@ -1,0 +1,9 @@
+question: Hvorfor anbefales det å bruke tilfeldig genererte passord?
+answer: For å motstå brute-force-angrep.
+wrong_answers:
+  - For å gjøre dem lettere å huske.
+  - For å redusere kompleksiteten.
+  - For å motstå Sybil-angrep.
+explanation: |
+  Tilfeldighet gjør passord vanskeligere å gjette gjennom prøving og feiling, og øker dermed sikkerheten mot brute-force-angrep.
+reviewed: false

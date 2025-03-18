@@ -1,0 +1,9 @@
+question: Mida kasutab Essential-profiil, et aidata töötajatel makseid kassas töödelda?
+answer: Menüü loomine koos toodete hindadega PoS rakenduses
+wrong_answers:
+  - Käsitsi peetav pearaamat müügi kirjendamiseks
+  - Paberkandjal arvete süsteem iga tehingu kohta
+  - Automaatne raamatupidamissüsteem PoSi tehingute jaoks
+explanation: |
+  Essential-profiili PoS-rakendus võimaldab töötajatel valida kaupu etteantud menüüst, mis lihtsustab arveldusprotsessi.
+reviewed: false

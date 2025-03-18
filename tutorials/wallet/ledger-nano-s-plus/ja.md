@@ -49,7 +49,7 @@ Ledger Nanoを受け取ったら、最初のステップはパッケージが開
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 これら2つのソフトウェアプログラムについては、マシンにインストールする前に、その真正性（GnuPGを使用して）と整合性（ハッシュを介して）の両方を確認することを強くお勧めします。方法がわからない場合は、この他のチュートリアルに従ってください：
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Ledger Nanoを初期化する方法は？
 

@@ -1,3 +1,4 @@
+id: bc98ea3a-65ad-4486-85f1-9a358001127e
 name: Pendule Satoshi
 host: ZLOK & Letroumle
 language: fr
@@ -6,8 +7,9 @@ links:
   twitter: https://twitter.com/PenduleSatoshi
 description: |
   Podcast francophone où l'on cause de #Bitcoin (ses aspects sociaux, historiques, financiers, géopolitiques etc
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - historical
+  - finance
+  - market-trends

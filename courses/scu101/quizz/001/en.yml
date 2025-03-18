@@ -1,5 +1,4 @@
-question: Why is it recommended to limit the number of extensions installed on your
-  browser?
+question: Why is it recommended to limit the number of extensions installed on your browser?
 answer: To avoid potential security and performance issues.
 wrong_answers:
   - To save storage space on your device.

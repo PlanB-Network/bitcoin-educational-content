@@ -2287,8 +2287,19 @@ RSA-ongelmaa voidaan kuitenkin käyttää sekä turvallisen julkisen avaimen sal
 
 [4] Katso esimerkiksi Jonathan Katz ja Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), s. 410-32 RSA-salauksesta ja s. 444-41 RSA-digitaalisista allekirjoituksista.
 
-## Arvostelut & arvostelut
+# Johtopäätös
+<partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 
+## Arvostelu & Arviointi
+
+<chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
+<isCourseReview>true</isCourseReview>
+ 
+## Loppukoe
+
+<chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Johtopäätös
 <chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
-
 <isCourseConclusion>true</isCourseConclusion>

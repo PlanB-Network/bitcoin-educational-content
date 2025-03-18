@@ -1,0 +1,9 @@
+question: What does the Have I Been Pwned website allow you to do?
+answer: Check if an email address has been compromised.
+wrong_answers:
+  - Generate new strong and random passwords.
+  - Create a secure email inbox.
+  - Synchronize email accounts for easier use.
+explanation: |
+  This site helps detect data breaches and verify the security of an email address.
+reviewed: false

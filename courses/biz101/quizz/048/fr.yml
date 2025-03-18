@@ -1,0 +1,9 @@
+question: Quelle est la fonction première des systèmes de paiement traditionnels ?
+answer: Permettre le transfert de fonds entre deux parties
+wrong_answers:
+  - Créer une monnaie mondiale unique régulée par une autorité centrale
+  - Faciliter le commerce international
+  - Limiter les transferts de fonds aux seuls échanges d'espèces en personne
+explanation: |
+  Les systèmes de paiement traditionnels fournissent des mécanismes et des infrastructures permettant de transférer des fonds entre les payeurs et les bénéficiaires dans des contextes locaux et internationaux.
+reviewed: false

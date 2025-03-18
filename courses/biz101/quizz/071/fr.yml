@@ -1,0 +1,9 @@
+question: Quel est le rôle d'un FSL dans les paiements Bitcoin d'entreprise ?
+answer: Gérer les transactions à haut volume sur Lightning
+wrong_answers:
+  - Stocker les clés privées du portefeuille Lightning
+  - Imprimer les factures Lightning
+  - Traiter les remboursements manuellement sur Lightning
+explanation: |
+  Les prestataires de services linguistiques gèrent des opérations complexes et volumineuses sur Lightning.
+reviewed: false

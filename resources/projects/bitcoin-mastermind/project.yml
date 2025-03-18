@@ -1,0 +1,19 @@
+id: 5df956f2-4ee2-4f96-b447-53c34da6347f
+name: Bitcoin Mastermind
+category: conference
+
+links:
+  website: https://www.btcmastermind.xyz
+  twitter: https://x.com/btcmastermind_
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-01-20
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.07
+tags:
+  - deep-dive
+  - evaluation

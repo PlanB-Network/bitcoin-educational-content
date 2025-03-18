@@ -756,7 +756,7 @@ En conclusión, abordar continuamente estos problemas abiertos e innovar dentro 
 ## Pensamiento de Seguridad en Bitcoin
 
 <chapterId>0b97af0c-015a-54e3-a7f0-0f62ceb96c07</chapterId>
-<professor>because-drama</professor>
+<professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
 ![Video](https://youtu.be/2f_rK74MB3U)
 
@@ -2410,12 +2410,15 @@ El grupo de Satoshi Fellowship presenta una aplicación de juegos LN utilizando 
 
 El grupo Lighting Walker presenta su solución para un servicio de remesas utilizando MySQL, JavaScript y la API de ZDB.
 
+# Conclusión
+<partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
+
 ## Reseñas & Valoraciones
 
 <chapterId>7f4f46e2-de71-5387-8609-9785fb9e5946</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Reconocimientos
+## Conclusión
 
 <chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

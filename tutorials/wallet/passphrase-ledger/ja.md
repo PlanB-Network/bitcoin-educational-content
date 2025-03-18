@@ -29,7 +29,9 @@ Ledgerデバイスでは、ウォレットにパスフレーズを設定する�
 このチュートリアルを始める前に、既にLedgerを初期化し、ニーモニックフレーズを生成していることを確認してください。そうでない場合、またはLedgerが新しい場合は、PlanB Networkで利用可能なモデルに応じた特定のチュートリアルに従ってください。このステップが完了したら、このチュートリアルに戻ることができます。
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Ledgerで一時的なパスフレーズを設定する方法は？

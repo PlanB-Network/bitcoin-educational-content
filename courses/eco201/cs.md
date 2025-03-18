@@ -528,40 +528,6 @@ Metodologie je zásadním aspektem v ekonomii a obecně ve společenských věd�
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Další studium
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Gratuluji k dokončení tohoto kurzu ECON 201! Doufám, že se vám líbil a že jste si otevřeli nové dveře. Vaše objevování Bitcoinu teprve začíná a zvu vás, abyste prozkoumali všechny ostatní kurzy dostupné na univerzitě.
-
-### Další četba
-
-Pro prohloubení vašeho porozumění ekonomickým a společenským jevům, zejména pokud jde o rakouskou ekonomii, zde jsou některá doporučení knih:
-
-- "The Austrian School" od Ressuse Huerty de Soto: Tato cenově dostupná kniha poskytuje komplexní úvod do vývoje myšlení rakouské ekonomie, pokrývající klíčové koncepty a teorie.
-- "Human Action" od Ludwiga von Misese: Považovaná za magnum opus rakouské školy, tato práce prozkoumává do hloubky teoretické základy lidského jednání a ekonomie.
-- "The Use of Knowledge in Society" od Friedricha Hayeka: Tento krátký text zkoumá, jak je rozptýlené znalosti ve společnosti využívány k řízení ekonomických rozhodnutí, zdůrazňuje význam cen a konkurence.
-- Nobelova cena přijímací projev Josepha Schumpetera v roce 1974: Tento projev poskytuje přehled o Schumpeterově vizi podnikání, inovace a kapitalismu.
-- "Capitalism, Socialism and Democracy" nebo "The Theory of Economic Development" od Josepha Schumpetera: Tyto ikonické knihy od Schumpetera prozkoumávají dynamiku kapitalismu, inovace a ekonomických cyklů.
-
-Kromě těchto čtení můžete také najít informace o rakouské ekonomii prozkoumáním online zdrojů. Mises Institute, sídlící na jihovýchodě Spojených států, nabízí články a videa od renomovaných ekonomů. Akademie Savedin Amoos nabízí interaktivní semináře se slavnými hosty, ačkoliv tato možnost je placená. Ve Francii lidé jako Yorick de Montbin, Fergan Aziri a Richard Hamelin často sdílejí analýzy a diskuse o rakouské ekonomii na různých YouTube kanálech. Nakonec, Bitcoin Institute může být také zdrojem informací o ekonomických aspektech souvisejících s Bitcoinem.
-
-Čtením těchto děl a prozkoumáváním těchto online zdrojů můžete rozvíjet hlubší porozumění klíčovým principům a myšlenkám rakouské školy ekonomie.
-
-# Závěr
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Ohodnoťte tento kurz
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Závěrečná zkouška
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Závěr
 
 <chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>

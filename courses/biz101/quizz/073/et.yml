@@ -1,0 +1,9 @@
+question: Mis võimaldab andmete sünkroniseerimist reaalajas Enterprise Bitcoini süsteemide ja ERP-tarkvara vahel?
+answer: APId
+wrong_answers:
+  - CSV-failid
+  - Partii üleslaadimine
+  - E-posti aruanded
+explanation: |
+  APId võimaldavad pidevat, reaalajas integreerimist.
+reviewed: false

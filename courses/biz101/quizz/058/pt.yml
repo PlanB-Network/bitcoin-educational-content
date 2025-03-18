@@ -1,0 +1,9 @@
+question: Qual é a vantagem de utilizar uma carteira de custódia para o perfil Starter?
+answer: Responsabilidades técnicas reduzidas
+wrong_answers:
+  - Maior controlo sobre as chaves privadas
+  - Maior privacidade com total autonomia sobre as transacções
+  - Eliminação das taxas de transação
+explanation: |
+  As carteiras de custódia gerem as chaves privadas, aliviando os encargos técnicos dos utilizadores.
+reviewed: false

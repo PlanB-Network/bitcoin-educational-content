@@ -1,5 +1,0 @@
-description: |
-  Holepunch on platvorm serverivabade rakenduste loomiseks, kasutades meie väikeste Javascript-moodulite kogumit Hypercore.
-  Saate oma rakendust luua, uuendada ja skaleerida otse oma sülearvutist. Meie rakendused, nagu ka suhtlusvahend Keet, on privaatsed ja krüpteeritud, tagades andmete turvalisuse. Holepunchi abil saate nautida tõhusat rakenduste arendamist ja levitamist, mida toetab kasutajabaas, mis tugevdab teie rakendust selle taaskasutusega. Me teeme revolutsiooni rakenduste arendamisel ilma serverite ja vahendajateta, lihtsalt paremate rakendustega.
-contributors:
-  - rabbit-hole

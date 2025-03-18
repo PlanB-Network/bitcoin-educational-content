@@ -1,0 +1,95 @@
+id: 77f56919-1875-45ab-8c4c-b8fb26b021de
+name: DecouvreBitcoin
+links:
+  website: https://decouvrebitcoin.com
+  twitter: https://twitter.com/decouvrebitcoin
+  github: https://github.com/decouvrebitcoin
+  Nostr: npub1dec0uvrwnst0q7qxwkexqv98wvnl9h74gfqmne6va6m5fhtggp0qa27mqr
+category: education
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 0.07
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.19
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.19
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+tags:
+  - software
+  - user-friendly
+  - good-practice
+contributor_names:
+  - Rogzy-DB

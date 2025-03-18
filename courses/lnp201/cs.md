@@ -174,27 +174,27 @@ Je důležité poznamenat, že Lightning node může komunikovat prostřednictv�
 
 ### Kroky k otevření Lightning kanálu
 
-1. **Výměna zpráv**: Alice chce otevřít kanál s Bobem. Pošle mu zprávu obsahující částku, kterou chce v kanálu vložit (130 000 satoshi) a svůj veřejný klíč. Bob odpoví sdílením svého vlastního veřejného klíče.
+- **Výměna zpráv**: Alice chce otevřít kanál s Bobem. Pošle mu zprávu obsahující částku, kterou chce v kanálu vložit (130 000 satoshi) a svůj veřejný klíč. Bob odpoví sdílením svého vlastního veřejného klíče.
 
 ![LNP201](assets/en/11.webp)
 
-2. **Vytvoření multisignature adresy**: S těmito dvěma veřejnými klíči Alice vytvoří **2/2 multisignature adresu**, což znamená, že prostředky, které budou později na této adrese vloženy, budou vyžadovat oba podpisy (Alice a Bob) k jejich utracení.
+- **Vytvoření multisignature adresy**: S těmito dvěma veřejnými klíči Alice vytvoří **2/2 multisignature adresu**, což znamená, že prostředky, které budou později na této adrese vloženy, budou vyžadovat oba podpisy (Alice a Bob) k jejich utracení.
 
 ![LNP201](assets/en/12.webp)
 
-3. **Transakce vkladu**: Alice připraví Bitcoinovou transakci pro vklad prostředků na tuto multisignature adresu. Například se může rozhodnout poslat **130 000 satoshi** na tuto multisignature adresu. Tato transakce je **sestavena, ale ještě nebyla publikována** na blockchainu.
+- **Transakce vkladu**: Alice připraví Bitcoinovou transakci pro vklad prostředků na tuto multisignature adresu. Například se může rozhodnout poslat **130 000 satoshi** na tuto multisignature adresu. Tato transakce je **sestavena, ale ještě nebyla publikována** na blockchainu.
 
 ![LNP201](assets/en/13.webp)
 
-4. **Transakce výběru**: Před publikováním transakce vkladu Alice sestaví transakci výběru, aby mohla získat zpět své prostředky v případě problému s Bobem. Jakmile Alice publikuje transakci vkladu, její satoshi budou zamčeny na 2/2 multisignature adrese, která vyžaduje oba podpisy (její a Bobův) k jejich odemčení. Alice se chrání před rizikem ztráty tím, že sestaví transakci výběru, která jí umožní získat zpět své prostředky.
+- **Transakce výběru**: Před publikováním transakce vkladu Alice sestaví transakci výběru, aby mohla získat zpět své prostředky v případě problému s Bobem. Jakmile Alice publikuje transakci vkladu, její satoshi budou zamčeny na 2/2 multisignature adrese, která vyžaduje oba podpisy (její a Bobův) k jejich odemčení. Alice se chrání před rizikem ztráty tím, že sestaví transakci výběru, která jí umožní získat zpět své prostředky.
 
 ![LNP201](assets/en/14.webp)
 
-5. **Bobův podpis**: Alice pošle transakci vkladu Bobovi jako důkaz a požádá ho, aby podepsal transakci výběru. Jakmile je získán Bobův podpis na transakci výběru, Alice má jistotu, že si může kdykoli získat zpět své prostředky, protože nyní je potřeba pouze její vlastní podpis k odemčení multisignature.
+- **Bobův podpis**: Alice pošle transakci vkladu Bobovi jako důkaz a požádá ho, aby podepsal transakci výběru. Jakmile je získán Bobův podpis na transakci výběru, Alice má jistotu, že si může kdykoli získat zpět své prostředky, protože nyní je potřeba pouze její vlastní podpis k odemčení multisignature.
 
 ![LNP201](assets/en/15.webp)
 
-6. **Publikace transakce vkladu**: Jakmile je získán Bobův podpis, Alice může publikovat transakci vkladu na Bitcoinovém blockchainu, čímž oficiálně otevře Lightning kanál mezi oběma uživateli.
+- **Publikace transakce vkladu**: Jakmile je získán Bobův podpis, Alice může publikovat transakci vkladu na Bitcoinovém blockchainu, čímž oficiálně otevře Lightning kanál mezi oběma uživateli.
 
 ![LNP201](assets/en/16.webp)
 
@@ -293,8 +293,8 @@ Ještě hůře, Alice by mohla publikovat úplně první výběrovou transakci, 
 
 Aby se zabránilo tomuto druhu podvodu ze strany Alice, na Lightning Network jsou do transakcí závazku přidány **bezpečnostní mechanismy**:
 
-1. **Časový zámek**: Každá transakce závazku zahrnuje časový zámek pro prostředky Alice. Časový zámek je primitivum chytré smlouvy, které nastavuje časovou podmínku, která musí být splněna, aby byla transakce přidána do bloku. To znamená, že Alice nemůže získat zpět své prostředky, dokud neprojde určitý počet bloků, pokud publikuje jednu z transakcí závazku. Tento časový zámek začíná platit od potvrzení transakce závazku. Jeho délka je obecně proporcionální velikosti kanálu, ale může být také manuálně konfigurována.
-2. **Revokační klíč**: Prostředky Alice mohou být také okamžitě utraceny Bobem, pokud má **revokační klíč**. Tento klíč se skládá z tajemství drženého Alicí a tajemství drženého Bobem. Poznamenejme, že toto tajemství je pro každou transakci závazku jiné.
+- **Časový zámek**: Každá transakce závazku zahrnuje časový zámek pro prostředky Alice. Časový zámek je primitivum chytré smlouvy, které nastavuje časovou podmínku, která musí být splněna, aby byla transakce přidána do bloku. To znamená, že Alice nemůže získat zpět své prostředky, dokud neprojde určitý počet bloků, pokud publikuje jednu z transakcí závazku. Tento časový zámek začíná platit od potvrzení transakce závazku. Jeho délka je obecně proporcionální velikosti kanálu, ale může být také manuálně konfigurována.
+- **Revokační klíč**: Prostředky Alice mohou být také okamžitě utraceny Bobem, pokud má **revokační klíč**. Tento klíč se skládá z tajemství drženého Alicí a tajemství drženého Bobem. Poznamenejme, že toto tajemství je pro každou transakci závazku jiné.
    Díky kombinaci těchto dvou mechanismů má Bob čas odhalit pokus Alice o podvod a potrestat ji tím, že pomocí revokačního klíče získá zpět svůj výstup, což pro Boba znamená získání všech prostředků kanálu. Náš nový závazný transakční záznam bude nyní vypadat takto:
    ![LNP201](assets/en/25.webp)
 
@@ -309,11 +309,11 @@ Když Alice a Bob aktualizují stav kanálu novou Lightning transakcí, vymění
 
 Pojďme si vzít příklad, abychom tento proces dobře pochopili:
 
-1. **Počáteční stav**: Alice má **100 000 satoshi**, Bob **30 000 satoshi**.
+- **Počáteční stav**: Alice má **100 000 satoshi**, Bob **30 000 satoshi**.
 
 ![LNP201](assets/en/26.webp)
 
-2. Bob chce od Alice přes jejich Lightning kanál přijmout 40 000 satoshi. K tomu:
+- Bob chce od Alice přes jejich Lightning kanál přijmout 40 000 satoshi. K tomu:
    - Pošle jí fakturu spolu se svým tajemstvím pro revokační klíč jeho předchozího závazného transakčního záznamu.
    - Jako odpověď Alice poskytne svůj podpis pro Bobův nový závazný transakční záznam, stejně jako své tajemství pro revokační klíč jejího předchozího transakčního záznamu.
    - Nakonec Bob pošle svůj podpis pro Alice nový závazný transakční záznam.
@@ -321,7 +321,7 @@ Pojďme si vzít příklad, abychom tento proces dobře pochopili:
 
 ![LNP201](assets/en/27.webp)
 
-3. Pokud se Alice pokusí zveřejnit starý závazný transakční záznam, kde stále vlastnila **100 000 satoshi**, Bob, který získal revokační klíč, může okamžitě získat zpět prostředky pomocí tohoto klíče, zatímco Alice je zablokována časovým zámkem.
+- Pokud se Alice pokusí zveřejnit starý závazný transakční záznam, kde stále vlastnila **100 000 satoshi**, Bob, který získal revokační klíč, může okamžitě získat zpět prostředky pomocí tohoto klíče, zatímco Alice je zablokována časovým zámkem.
 
 ![LNP201](assets/en/28.webp)
 
@@ -352,9 +352,9 @@ V této kapitole budeme diskutovat o **uzavření kanálu** na Lightning Network
 
 Existují tři hlavní způsoby, jak tento kanál uzavřít, které lze nazvat **dobrý, hrubý a záškodník** (inspirováno Andreasem Antonopoulosem v _Mastering the Lightning Network_):
 
-1. **Dobrý**: **kooperativní uzavření**, kde se Alice a Bob dohodnou na uzavření kanálu.
-2. **Hrubý**: **vynucené uzavření**, kde jedna ze stran se rozhodne kanál uzavřít čestně, ale bez souhlasu druhé strany.
-3. **Záškodník**: **uzavření s podvodem**, kde jedna ze stran se pokusí ukrást prostředky publikováním staré commitment transakce (jakékoli kromě poslední, která odráží skutečné a spravedlivé rozdělení prostředků).
+- **Dobrý**: **kooperativní uzavření**, kde se Alice a Bob dohodnou na uzavření kanálu.
+- **Hrubý**: **vynucené uzavření**, kde jedna ze stran se rozhodne kanál uzavřít čestně, ale bez souhlasu druhé strany.
+- **Záškodník**: **uzavření s podvodem**, kde jedna ze stran se pokusí ukrást prostředky publikováním staré commitment transakce (jakékoli kromě poslední, která odráží skutečné a spravedlivé rozdělení prostředků).
 
 Pojďme si vzít příklad:
 
@@ -367,13 +367,13 @@ Pojďme si vzít příklad:
 
 Při **kooperativním uzavření** se Alice a Bob dohodnou na uzavření kanálu. Takto to probíhá:
 
-1. Alice pošle Bobovi zprávu prostřednictvím komunikačního protokolu Lightning s návrhem na uzavření kanálu.
-2. Bob souhlasí a obě strany v kanálu již neprovádějí žádné další transakce.
+- Alice pošle Bobovi zprávu prostřednictvím komunikačního protokolu Lightning s návrhem na uzavření kanálu.
+- Bob souhlasí a obě strany v kanálu již neprovádějí žádné další transakce.
 
 ![LNP201](assets/en/31.webp)
 
-3. Alice a Bob společně vyjednávají poplatky za **uzavírací transakci**. Tyto poplatky jsou obvykle vypočítány na základě trhu s poplatky Bitcoinu v době uzavření. Je důležité poznamenat, že **vždy osoba, která kanál otevřela** (v našem příkladu Alice), platí poplatky za uzavření.
-4. Sestaví novou **uzavírací transakci**. Tato transakce se podobá commitment transakci, ale bez časových zámků nebo mechanismů pro odvolání, protože obě strany spolupracují a neexistuje riziko podvodu. Tato kooperativní uzavírací transakce se tedy liší od commitment transakcí.
+- Alice a Bob společně vyjednávají poplatky za **uzavírací transakci**. Tyto poplatky jsou obvykle vypočítány na základě trhu s poplatky Bitcoinu v době uzavření. Je důležité poznamenat, že **vždy osoba, která kanál otevřela** (v našem příkladu Alice), platí poplatky za uzavření.
+- Sestaví novou **uzavírací transakci**. Tato transakce se podobá commitment transakci, ale bez časových zámků nebo mechanismů pro odvolání, protože obě strany spolupracují a neexistuje riziko podvodu. Tato kooperativní uzavírací transakce se tedy liší od commitment transakcí.
    Například, pokud Alice vlastní **100 000 satoshi** a Bob **30 000 satoshi**, závěrečná transakce pošle **100 000 satoshi** na adresu Alice a **30 000 satoshi** na adresu Boba, bez omezení timelock. Jakmile je tato transakce podepsána oběma stranami, publikuje ji Alice. Jakmile je transakce potvrzena na Bitcoin blockchainu, Lightning kanál je oficiálně uzavřen.
    ![LNP201](assets/en/32.webp)
 
@@ -410,9 +410,9 @@ Samozřejmě, podvod může potenciálně uspět, pokud Bob nejedná v čase ulo
 
 Existují tři způsoby, jak uzavřít kanál:
 
-1. **Kooperativní uzavření**: Rychlé a méně nákladné, kde se obě strany dohodnou na uzavření kanálu a publikují přizpůsobenou závěrečnou transakci.
-2. **Nucené uzavření**: Méně žádoucí, protože se spoléhá na publikování závazné transakce, s potenciálně nevhodnými poplatky a timelockem, který zpomaluje uzavření.
-3. **Podvádění**: Pokud se jedna ze stran pokusí ukrást prostředky zveřejněním staré transakce, druhá může použít revokační klíč k potrestání tohoto podvodu.
+- **Kooperativní uzavření**: Rychlé a méně nákladné, kde se obě strany dohodnou na uzavření kanálu a publikují přizpůsobenou závěrečnou transakci.
+- **Nucené uzavření**: Méně žádoucí, protože se spoléhá na publikování závazné transakce, s potenciálně nevhodnými poplatky a timelockem, který zpomaluje uzavření.
+- **Podvádění**: Pokud se jedna ze stran pokusí ukrást prostředky zveřejněním staré transakce, druhá může použít revokační klíč k potrestání tohoto podvodu.
    V nadcházejících kapitolách prozkoumáme Lightning Network z širší perspektivy, zaměříme se na to, jak její síť funguje.
 
 # Síť likvidity
@@ -444,8 +444,8 @@ Pokud Alice chce poslat prostředky Bobovi bez otevření přímého kanálu s n
 
 Předpokládejme, že Alice chce poslat **50 000 satoshi** Bobovi:
 
-1. **Alice** pošle 50 000 satoshi **Suzie** ve společném kanálu.
-2. **Suzie** replikuje tento převod posláním 50 000 satoshi **Bobovi** v jejich kanálu.
+- **Alice** pošle 50 000 satoshi **Suzie** ve společném kanálu.
+- **Suzie** replikuje tento převod posláním 50 000 satoshi **Bobovi** v jejich kanálu.
 
 ![LNP201](assets/en/38.webp)
 Takto je platba směrována Bobovi prostřednictvím pohybu likvidity v každém kanálu. Na konci operace má Alice 50 000 satoshi. Skutečně převedla 50 000 satoshi, protože původně měla 100 000. Bob, na své straně, skončí s dalšími 50 000 satoshi. Pro Suzie (prostřední uzel) je tato operace neutrální: původně měla 30 000 satoshi ve svém kanálu s Alicí a 250 000 satoshi ve svém kanálu s Bobem, celkem 280 000 satoshi. Po operaci drží 80 000 satoshi ve svém kanálu s Alicí a 200 000 satoshi ve svém kanálu s Bobem, což je stejná suma jako na začátku.
@@ -464,9 +464,9 @@ Pojďme si vzít teoretický příklad jiné sítě s:
 Maximální množství, které Alice může poslat Bobovi v této konfiguraci, je **90 000 satoshi**, jelikož je omezena nejmenší dostupnou likviditou v kanálu od **Suzie k Carol**. V opačném směru (od Boba k Alici) není platba možná, protože na straně **Suzie** v kanálu s **Alicí** nejsou žádné satoshi. Proto není **žádná trasa** použitelná pro přenos v tomto směru.
 Alice posílá **40 000 satoshi** Bobovi prostřednictvím kanálů:
 
-1. Alice převádí 40 000 satoshi do svého kanálu se Suzie.
-2. Suzie převádí 40 000 satoshi Carol ve svém sdíleném kanálu.
-3. Carol nakonec převádí 40 000 satoshi Bobovi.
+- Alice převádí 40 000 satoshi do svého kanálu se Suzie.
+- Suzie převádí 40 000 satoshi Carol ve svém sdíleném kanálu.
+- Carol nakonec převádí 40 000 satoshi Bobovi.
 
 ![LNP201](assets/en/40.webp)
 
@@ -482,8 +482,8 @@ Role prostředních uzlů je tedy velmi důležitá pro fungování Lightning Ne
 
 Prostřední uzly uplatňují poplatky, aby umožnily platby procházet jejich kanály. Tyto poplatky jsou stanoveny **každým uzlem pro každý kanál**. Poplatky se skládají ze 2 prvků:
 
-1. "**Základní poplatek**": pevná částka za kanál, často **1 sat** ve výchozím nastavení, ale přizpůsobitelná.
-2. "**Proměnlivý poplatek**": procento z přenesené částky, vypočítané v **částech na milion (ppm)**. Ve výchozím nastavení je to **1 ppm** (1 sat na milion přenesených satoshi), ale lze to také upravit.
+- "**Základní poplatek**": pevná částka za kanál, často **1 sat** ve výchozím nastavení, ale přizpůsobitelná.
+- "**Proměnlivý poplatek**": procento z přenesené částky, vypočítané v **částech na milion (ppm)**. Ve výchozím nastavení je to **1 ppm** (1 sat na milion přenesených satoshi), ale lze to také upravit.
    Poplatky se také liší v závislosti na směru převodu. Například pro převod z Alice na Suzie se použijí poplatky Alice. Naopak, z Suzie na Alice, se použijí poplatky Suzie.
 
 Například pro kanál mezi Alice a Suzie bychom mohli mít:
@@ -526,9 +526,9 @@ Pro směrování platby od odesílatele k příjemci používá Lightning Networ
 - **Každý prostředník zná pouze svého bezprostředního souseda**: Suzie ví pouze, že obdržela prostředky od Alice a že je musí převést Carol. Nicméně Suzie neví, jestli je Alice zdrojový uzel nebo prostředník, a také neví, jestli je Carol konečný příjemce nebo jen další prostředník. Tento princip platí také pro Carol a všechny ostatní uzly na cestě. Onion routing tak chrání důvěrnost transakcí maskováním identity odesílatele a konečného příjemce. Aby mohl odesílající uzel v onion routing vypočítat kompletní trasu k příjemci, musí udržovat **síťový graf**, aby znal jeho topologii a určil možné trasy.
   **Co byste si měli odnést z této kapitoly?**
 
-1. Na Lightning mohou být platby směrovány mezi uzly nepřímo spojenými prostřednictvím prostředníků. Každý z těchto prostředníků usnadňuje přenos likvidity.
-2. Prostředníci obdrží provizi za svou službu, která se skládá z pevných a variabilních poplatků.
-3. Onion routing umožňuje odesílajícímu uzlu vypočítat kompletní trasu bez toho, aby prostředníci znali zdroj nebo konečný cíl.
+- Na Lightning mohou být platby směrovány mezi uzly nepřímo spojenými prostřednictvím prostředníků. Každý z těchto prostředníků usnadňuje přenos likvidity.
+- Prostředníci obdrží provizi za svou službu, která se skládá z pevných a variabilních poplatků.
+- Onion routing umožňuje odesílajícímu uzlu vypočítat kompletní trasu bez toho, aby prostředníci znali zdroj nebo konečný cíl.
 
 V této kapitole jsme prozkoumali směrování plateb na Lightning Network. Ale vyvstává otázka: co brání prostředníkům v přijetí příchozí platby bez jejího přeposlání do další destinace, s cílem zachytit transakci? To je přesně role HTLC, kterou prozkoumáme v následující kapitole.
 
@@ -645,9 +645,9 @@ Nakonec, v případě kooperativního uzavření kanálu, zatímco je HTLC aktiv
 
 HTLC umožňují směrování plateb Lightning přes více uzlů bez nutnosti jim důvěřovat. Zde jsou klíčové body, které si zapamatovat:
 
-1. HTLC zajišťují bezpečnost plateb prostřednictvím tajemství (preimage) a času vypršení platnosti.
-2. Vyřešení nebo vypršení platnosti HTLC probíhá v určitém pořadí: poté od cílového uzlu směrem ke zdroji, aby byl chráněn každý uzel.
-3. Dokud není HTLC vyřešeno nebo nevyprší jeho platnost, je udržováno jako výstup v nejnovějších transakcích závazku.
+- HTLC zajišťují bezpečnost plateb prostřednictvím tajemství (preimage) a času vypršení platnosti.
+- Vyřešení nebo vypršení platnosti HTLC probíhá v určitém pořadí: poté od cílového uzlu směrem ke zdroji, aby byl chráněn každý uzel.
+- Dokud není HTLC vyřešeno nebo nevyprší jeho platnost, je udržováno jako výstup v nejnovějších transakcích závazku.
 
 V další kapitole zjistíme, jak uzel vydávající transakci Lightning najde a vybere trasy pro doručení platby příjemcovu uzlu.
 
@@ -708,9 +708,9 @@ Ale protože Alice nezná přesné rozdělení prostředků v každém kanálu, 
 - **Počet mezilehlých uzlů**: konečně, v širším smyslu, odesílající uzel se bude snažit najít trasu s co nejmenším počtem uzlů, aby snížil riziko selhání a omezil poplatky za Lightning transakce.
   Analýzou těchto kritérií může odesílající uzel testovat nejpravděpodobnější trasy a pokusit se je optimalizovat. V našem příkladu by Alice mohla nejlepší trasy seřadit takto:
 
-1. `Alice → 1 → 2 → 5 → Bob`, protože je to nejkratší trasa s nejvyšší kapacitou.
-2. `Alice → 1 → 2 → 4 → 5 → Bob`, protože tato trasa nabízí dobré kapacity, ačkoli je delší než první.
-3. `Alice → 1 → 2 → 3 → Bob`, protože tato trasa zahrnuje kanál `2 → 3`, který má velmi omezenou kapacitu, ale zůstává potenciálně použitelný.
+- `Alice → 1 → 2 → 5 → Bob`, protože je to nejkratší trasa s nejvyšší kapacitou.
+- `Alice → 1 → 2 → 4 → 5 → Bob`, protože tato trasa nabízí dobré kapacity, ačkoli je delší než první.
+- `Alice → 1 → 2 → 3 → Bob`, protože tato trasa zahrnuje kanál `2 → 3`, který má velmi omezenou kapacitu, ale zůstává potenciálně použitelný.
 
 ### Provedení platby
 
@@ -728,9 +728,9 @@ Je důležité poznamenat, že Bob může Alici poskytnout informace ve **faktu�
 
 **Co si odnést z této kapitoly?**
 
-1. Uzly udržují mapu topologie sítě prostřednictvím oznámení a sledováním uzavření kanálů na Bitcoin blockchainu.
-2. Hledání optimální trasy pro platbu zůstává pravděpodobnostní a závisí na mnoha kritériích.
-3. Bob může poskytnout indikace ve **faktuře** k usměrnění směrování Alice a ušetřit ji od testování nepravděpodobných tras.
+- Uzly udržují mapu topologie sítě prostřednictvím oznámení a sledováním uzavření kanálů na Bitcoin blockchainu.
+- Hledání optimální trasy pro platbu zůstává pravděpodobnostní a závisí na mnoha kritériích.
+- Bob může poskytnout indikace ve **faktuře** k usměrnění směrování Alice a ušetřit ji od testování nepravděpodobných tras.
 
 V následující kapitole se budeme konkrétně zabývat fungováním faktur, kromě některých dalších nástrojů používaných na Lightning Network.
 
@@ -749,8 +749,8 @@ V této kapitole se podrobněji podíváme na fungování Lightning **faktur**, 
 
 Jak bylo vysvětleno v kapitole o HTLCs, každá platba začíná generováním **faktury** příjemcem. Tato faktura je poté předána plátci (prostřednictvím QR kódu nebo kopírováním a vložením) k zahájení platby. Faktura se skládá ze dvou hlavních částí:
 
-1. **Část čitelná člověkem**: tato sekce obsahuje jasně viditelná metadata pro zlepšení uživatelského zážitku.
-2. **Payload**: tato sekce obsahuje informace určené pro strojové zpracování platby.
+- **Část čitelná člověkem**: tato sekce obsahuje jasně viditelná metadata pro zlepšení uživatelského zážitku.
+- **Payload**: tato sekce obsahuje informace určené pro strojové zpracování platby.
 
 Typická struktura faktury začíná identifikátorem `ln` pro "Lightning", následovaným `bc` pro Bitcoin, poté částkou faktury. Oddělovač `1` rozlišuje část čitelnou člověkem od datové (payload) části.
 
@@ -840,9 +840,9 @@ Zjednodušeně, v tomto protokolu je to odesílatel, kdo generuje tajemství pou
 
 **Co byste si měli odnést z této kapitoly?**
 
-1. **Lightning Invoice** je žádost o platbu skládající se z části čitelné pro člověka a části s daty pro stroj.
-2. Faktura je kódována v **bech32**, s oddělovačem `1` pro usnadnění kopírování a datovou částí obsahující všechny informace potřebné k zpracování platby.
-3. Na Lightning existují i jiné platební procesy, zejména **LNURL-Withdraw** pro usnadnění výběrů a **Keysend** pro přímé převody bez faktury.
+- **Lightning Invoice** je žádost o platbu skládající se z části čitelné pro člověka a části s daty pro stroj.
+- Faktura je kódována v **bech32**, s oddělovačem `1` pro usnadnění kopírování a datovou částí obsahující všechny informace potřebné k zpracování platby.
+- Na Lightning existují i jiné platební procesy, zejména **LNURL-Withdraw** pro usnadnění výběrů a **Keysend** pro přímé převody bez faktury.
 
 V následující kapitole uvidíme, jak může operátor uzlu spravovat likviditu ve svých kanálech, aby nikdy nebyl blokován a vždy mohl odesílat a přijímat platby na Lightning Network.
 
@@ -858,9 +858,9 @@ V této kapitole prozkoumáme strategie pro efektivní správu likvidity na Ligh
 
 Na Lightning existují tři hlavní uživatelské profily, z nichž každý má specifické potřeby v oblasti likvidity:
 
-1. **Platící (The Payer)**: Toto je ten, kdo provádí platby. Potřebují odchozí likviditu, aby mohli převádět prostředky ostatním uživatelům. Například to může být spotřebitel.
-2. **Prodávající (The Seller or Payee)**: Toto je ten, kdo přijímá platby. Potřebují příchozí likviditu, aby mohli přijímat platby na svůj uzel. Například to může být podnik nebo internetový obchod.
-3. **Router**: Prostředník, uzel často specializovaný na směrování plateb, který musí optimalizovat svou likviditu v každém kanálu, aby mohl směrovat co nejvíce plateb a vydělávat poplatky.
+- **Platící (The Payer)**: Toto je ten, kdo provádí platby. Potřebují odchozí likviditu, aby mohli převádět prostředky ostatním uživatelům. Například to může být spotřebitel.
+- **Prodávající (The Seller or Payee)**: Toto je ten, kdo přijímá platby. Potřebují příchozí likviditu, aby mohli přijímat platby na svůj uzel. Například to může být podnik nebo internetový obchod.
+- **Router**: Prostředník, uzel často specializovaný na směrování plateb, který musí optimalizovat svou likviditu v každém kanálu, aby mohl směrovat co nejvíce plateb a vydělávat poplatky.
 
 Tyto profily samozřejmě nejsou pevně dané; uživatel může přecházet mezi rolí platícího a příjemce v závislosti na transakcích. Například Bob může přijímat svůj plat na Lightning od svého zaměstnavatele, což ho staví do pozice "prodávajícího", který potřebuje příchozí likviditu. Následně, pokud chce použít svůj plat na nákup jídla, stává se "platícím" a musí pak mít odchozí likviditu.
 
@@ -928,12 +928,12 @@ Cílem tohoto školení bylo poskytnout vám komplexní a technické porozuměn�
 
 V úvodních kapitolách jsme prozkoumali, jak dvě strany mohou provádět transakce mimo Bitcoin blockchain tím, že otevřou platební kanál. Zde jsou kroky, které jsme probrali:
 
-1. **Otevření kanálu**: Vytvoření kanálu se provádí prostřednictvím Bitcoin transakce, která uzamkne prostředky na 2/2 multisignature adrese. Tento vklad reprezentuje Lightning kanál na blockchainu.
+- **Otevření kanálu**: Vytvoření kanálu se provádí prostřednictvím Bitcoin transakce, která uzamkne prostředky na 2/2 multisignature adrese. Tento vklad reprezentuje Lightning kanál na blockchainu.
 
 ![LNP201](assets/en/76.webp) 2. **Transakce v kanálu**: V tomto kanálu je pak možné provádět mnoho transakcí bez nutnosti je zveřejňovat na blockchainu. Každá Lightning transakce vytváří nový stav kanálu, který je reflektován v commitment transakci.
 ![LNP201](assets/en/77.webp)
 
-3. **Zajištění a uzavření**: Účastníci se zavážou k novému stavu kanálu výměnou revokačních klíčů k zajištění prostředků a prevenci podvodu. Obě strany mohou kanál uzavřít kooperativně vytvořením nové transakce na Bitcoin blockchainu, nebo jako poslední možnost prostřednictvím nuceného uzavření. Tato poslední možnost, ačkoli méně efektivní kvůli delší době a někdy špatně odhadovaným poplatkům, stále umožňuje získání prostředků zpět. V případě podvodu může oběť potrestat podvodníka získáním všech prostředků z kanálu na blockchainu.
+- **Zajištění a uzavření**: Účastníci se zavážou k novému stavu kanálu výměnou revokačních klíčů k zajištění prostředků a prevenci podvodu. Obě strany mohou kanál uzavřít kooperativně vytvořením nové transakce na Bitcoin blockchainu, nebo jako poslední možnost prostřednictvím nuceného uzavření. Tato poslední možnost, ačkoli méně efektivní kvůli delší době a někdy špatně odhadovaným poplatkům, stále umožňuje získání prostředků zpět. V případě podvodu může oběť potrestat podvodníka získáním všech prostředků z kanálu na blockchainu.
 
 ![LNP201](assets/en/78.webp)
 

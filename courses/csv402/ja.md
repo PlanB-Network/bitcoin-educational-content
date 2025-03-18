@@ -45,7 +45,8 @@ objectives:
 ---
 このトレーニングコースは、もともと[Fulgur'Ventures](https://fulgur.ventures/)が主催した、トスカーナ州ヴィアレッジョでの2週間の上級開発ブートキャンプから発展したものです。RustとSDKに焦点を当てた最初の週は、この他のコースにあります：
 
-https://planb.network/courses/lnp402
+https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+
 このコースでは、ブートキャンプの2週目、RGBに焦点を当てる。
 
 **第1週 LNP402:**.
@@ -1865,7 +1866,8 @@ ETP（*Extra Transaction Proof*）は、**Tapret** *コミットメント*（_ta
 
 ライトニングがどのように機能するかについては、この他のコースを受講されることをお勧めする：
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 #### マルチ・プロトコル・コミットメント - MPC
 
 マルチプロトコルコミットメント（MPC）とは、1つのビットコイン取引に異なる契約からの複数の**トランジションバンドル**を含めるためにRGBで使用されるメルクルツリー構造を指します。このアイデアは、ブロックスペースの占有を最適化するために、複数のコミットメント（異なる契約または異なるアセットに対応する可能性がある）を単一のアンカーポイントにまとめることである。
@@ -3305,7 +3307,8 @@ RGB状態遷移は、資金調達の2/2マルチシグからコミットメン�
 
 したがって、Lightning上のRGBの動作は、Lightningネットワーク自体の動作と並行して考える必要があります。このテーマをより深く掘り下げたい場合は、この他の包括的なトレーニングコースをご覧になることを強くお勧めする：
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ### RGBコードマップ
 
 最後に、次のセクションに進む前に、RGBで使われているコードの概要を説明したい。このプロトコルは、一連のRustライブラリーとオープンソースの仕様に基づいている。主なリポジトリとクレートの概要は以下の通りです：
@@ -3954,19 +3957,18 @@ curl -X 'GET' \
 
 このLN-RGBの互換性によってもたらされる可能性は、Lightning上の安定したコイン、DEXのレイヤー2、非常に低コストでのカジキブルトークンやNFTの送金など、非常に大きい。これまでの章では、概念的なアーキテクチャと検証ロジックの概要を説明してきた。これで、将来の開発やテストのために、このようなノードを立ち上げて稼働させる方法について実践的な見解が得られたことになる。
 
-# 結論
+# まとめ
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
-<isCourseConclusion>真</isCourseConclusion>。
 
 ## レビュー＆評価
 
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 
-<isCourseReview>真</isCourseReview>。
+<isCourseReview>true</isCourseReview>。
 
-## 閉会の辞
+## まとめ
 
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 

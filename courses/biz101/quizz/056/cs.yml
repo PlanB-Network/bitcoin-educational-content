@@ -1,0 +1,9 @@
+question: V čem se liší funkčnost peněženky, která není určena pro uživatele Starter?
+answer: Poskytuje majiteli firmy plnou kontrolu nad soukromými klíči
+wrong_answers:
+  - Může automaticky převádět bitcoiny na fiat měnu
+  - Nevyžaduje žádné zálohovací postupy ani bezpečnostní opatření
+  - Všechny transakce spravuje prostřednictvím služby třetí strany
+explanation: |
+  Peněženky, které nejsou opatřeny úschovou, svěřují kontrolu nad soukromými klíči a transakcemi zcela do rukou uživatele.
+reviewed: false

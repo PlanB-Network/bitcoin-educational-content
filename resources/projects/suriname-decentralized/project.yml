@@ -1,0 +1,22 @@
+id: 2bad0707-20f4-44ff-b2da-873ae54ee537
+name: Suriname Decentralized
+category: conference
+
+links:
+  website: https://surinamedecentralized.com/
+  twitter: http://twitter.com/srdecentralized
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-19
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.05
+tags:
+  - adoption
+  - decentralization
+  - use-case
+contributor_names:
+  - PaoloFoti

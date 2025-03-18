@@ -1,0 +1,9 @@
+question: Mis on üks peamine erinevus Bitcoini käsitlemisel digitaalse varana võrreldes selle käsitlemisega raamatupidamises kui valuuta?
+answer: Kuna tegemist on digitaalse varaga, tuleb jälgida iga tehingu maksumuse ja kasumi/kahjumi aluseks olevaid kulusid, samas kui kui seda käsitletaks nagu valuutat, oleks ümberhindamine lihtsam ja harvem.
+wrong_answers:
+  - Kui seda käsitletakse digitaalse varana, on see täielikult vabastatud kõigist maksudest.
+  - Kui seda käsitletakse nagu valuutat, ei ole vaja arvestust tehingute kohta.
+  - Selle käsitlemine kui valuuta nõuab kohest üleminekut uuele raamatupidamistarkvarale.
+explanation: |
+  Digitaalsete varade käsitlemine hõlmab tavaliselt kapitalikasumi või -kahjumi arvutamist iga tehingu puhul, mis muudab asja keerulisemaks. Kui Bitcoini käsitletaks nagu valuutat, oleks see lihtsam; lihtsalt ajakohastataks perioodiliselt fiatväärtust, nagu seda tehakse teiste valuutade puhul.
+reviewed: false

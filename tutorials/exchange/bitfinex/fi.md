@@ -10,43 +10,187 @@ Nykyään Bitfinex on täydellinen alusta, joka mahdollistaa sekä yksinkertaise
 
 Bitfinex tukee aktiivisesti Bitcoinin kehitystä investoimalla Lightning Networkin kaltaisiin teknologioihin ja edistämällä taloudelliseen vapauteen tähtääviä vertaisverkkoratkaisuja.
 
-## Miten voin ostaa bitcoinia Bitfinexistä?
+## 1 - Bitfinex-tilin luominen
 
-Jos haluat ostaa bitcoineja Bitfinexistä, aloita [luomalla tili alustalle](https://www.bitfinex.com/sign-up/). Varmista, että käytät vahvaa ja yksilöllistä salasanaa, eli mahdollisimman satunnaista, monipuolista ja riittävän pitkää salasanaa.
+Mene [Bitfinexin viralliselle verkkosivustolle](https://www.bitfinex.com/). Etsi etusivulta "*Sign Up*"-vaihtoehto ja napsauta sitä aloittaaksesi tilin luomisen.
 
-![BITFINEX](assets/notext/01.webp)
+![BITFINEX](assets/fr/01.webp)
 
-Jos haluat suojata salasanasi ja taata vahvojen salasanojen käytön verkkotileilläsi, erityisesti Bitfinexissä, suosittelen käyttämään salasanahallintaohjelmaa. Tutustu Bitwarden-oppaaseemme ja opi, miten se asennetaan ja käytetään päivittäin:
+Täytä vaaditut tiedot: anna sähköpostiosoitteesi ja asuinmaasi. Valitse turvallinen käyttäjätunnus ja salasana ja vahvista rekisteröinti napsauttamalla "*Sign up*".
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
-Tämän jälkeen voit tehdä talletuksen valitsemallasi maksutavalla ja ostaa bitcoinia.
+![BITFINEX](assets/fr/02.webp)
 
-https://youtu.be/z2YlJr9sF20
+Vinkkejä vahvojen ja yksilöllisten salasanojen käyttöön ja suojaamiseen on myös tässä oppaassa :
 
-Voit myös määrittää toistuvan bitcoinien oston tasataksesi hankintahintasi ajan mittaan (*DCA*).
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://youtu.be/8uoBacYSn08
+Määritämme nyt 2FA:n tilin suojaamiseksi. Käytä älypuhelimessa olevaa todennussovellusta, kuten esimerkiksi Google Authenticatoria tai Authyta. Löydät ohjeen tästä työkalusta täältä :
 
-Kun olet ostanut ensimmäiset bitcoinisi, voit jättää ne alustalle, mutta suosittelen vahvasti niiden siirtämistä omaan lompakkoosi. Jos et vielä osaa käyttää Bitcoin-lompakkoa, pyydän sinua tutustumaan [PlanB Networkin "Lompakko"-osioon](https://planb.network/tutorials/wallet).
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-## Miten voin turvata Bitfinex-tilini?
+Skannaa QR-koodi sovelluksellasi ja syötä annetut 6 numeroa.
 
-Kun olet luonut tilisi, suosittelen suojaamaan sen lisäämällä toisen todennustekijän (2FA) joko fyysisellä avaimella tai todennussovelluksen avulla.
+![BITFINEX](assets/fr/03.webp)
 
-https://youtu.be/_Ah34kG6tng
+Jos teet sen älypuhelimesi sovelluksesta :
 
-Jos et tiedä, miten näitä kaksoistodennusratkaisuja käytetään verkkotilien suojaamiseen, suosittelen tutustumaan Authy-sovellusta koskevaan opetusohjelmaan:
+![bitfinex](https://youtu.be/_Ah34kG6tng)
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
-Jos haluat käyttää fyysistä avainta, katso Yubikey-opas:
+Rekisteröinti on suoritettu.
 
-https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
-## Kaupankäyntitoimintojen käyttö
+![BITFINEX](assets/fr/04.webp)
 
-Lopuksi, jos haluat käyttää Bitfinexin kehittyneempiä kaupankäyntiominaisuuksia, voit luoda omia Trade Desk -malleja:
+Tarkista postilaatikkosi ja klikkaa Bitfinexin lähettämää linkkiä vahvistaaksesi rekisteröitymisesi.
 
-https://youtu.be/byIyWgLGejI
+![BITFINEX](assets/fr/05.webp)
 
-Voit myös luoda alatilejä Bitfinexin eri käyttötarkoitusten erottamiseksi toisistaan.
+Tilisi on nyt luotu. Klikkaa "*Log in*" päästäksesi alustalle.
 
-https://youtu.be/aOBXgcuJ5fI
+![BITFINEX](assets/fr/06.webp)
+
+## 2 - Tilin vahvistaminen
+
+Bitfinex soveltaa nykyisten säännösten mukaista todentamisprosessia (KYC). "Basic"-tilassa on mahdotonta tehdä talletuksia, nostoja tai liiketoimia, minkä vuoksi on välttämätöntä saada vähintään "Basic Plus" -varmistustaso tai tarvittaessa jopa "Intermediate" tai "Full" -varmistustaso:
+
+
+- Basic* on pelkkä näyttötila, jossa voit tarkastella alustaa suorittamatta mitään toimintoja;
+- Basic Plus* tarjoaa pääsyn tärkeimpiin toimintoihin, kuten spot-markkinatapahtumiin ja valittuihin talletus- ja nostovaihtoehtoihin;
+- Intermediate* avaa edistyneet palvelut, kuten marginaalikaupan, lainat, P2P- ja OTC-tapahtumat, ja tarjoaa lyhennetyt talletusajat;
+- Full* antaa sinulle pääsyn kansainvälisiin pankkisiirtoihin ja kaikkiin alustan ominaisuuksiin.
+
+Kullakin tasolla tarvitaan lisäasiakirjoja todentamista varten. Useimmille käyttäjille riittää yleensä *Basic Plus*- tai *Intermediate*-tili.
+
+Kun tilisi on luotu, ponnahdusikkunan pitäisi ehdottaa, että vahvistat tilisi. Napsauta "*Varmenna*".
+
+![BITFINEX](assets/fr/07.webp)
+
+Jos tämä ikkuna ei tule näkyviin, siirry profiiliisi käyttöliittymän oikeassa yläkulmassa ja napsauta sitten "*Verification*".
+
+![BITFINEX](assets/fr/08.webp)
+
+Valitse "*Tilityyppi*" -kohdasta "*Individual*". Omassa tapauksessani päivitän "*Basic Plus*" -tunnukseen, joten valitsen "*Upgrade to Basic Plus*".
+
+![BITFINEX](assets/fr/09.webp)
+
+Suorita vaiheet loppuun toimittamalla pyydetyt tiedot ja asiakirjat. Kun hakemuksesi on täytetty ja lähetetty, Bitfinex vahvistaa tilisi ja avaa siihen liittyvät ominaisuudet.
+
+## 3 - Pikaesittely Bitfinexin käyttöliittymään
+
+Kun olet kirjautunut sisään, näet käyttöliittymän yläosassa navigointipalkin, jossa on: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", jne. Bitfinex tarjoaa laajan valikoiman toimintoja, kuten :
+
+
+- Kaupankäynti**: "*klassinen*" markkina, jossa voit tehdä tilauksia ostaa ja myydä kryptovaluuttoja (mukaan lukien bitcoin) ;
+- OTC**: Over-The-Counter-palvelu, jossa suurilla volyymeillä käydään kauppaa suoraan toisen toimijan kanssa julkisten tilauskirjojen ulkopuolella;
+- Rahoitus**: Luotonantoon ja marginaalirahoitukseen tarkoitettu alue;
+- Johdannaiset**: Johdannaisia (futuurit jne.) käsittelevä osio, joka on tarkoitettu kokeneille kauppiaille;
+- P2P**: Mahdollistaa kryptojen ostamisen tai myymisen muilta käyttäjiltä vertaisverkkopohjaisesti.
+
+Tavalliseen käyttöön (bitcoinien ostaminen/myyminen ja talletukset/nostot) käytät pääasiassa "*Trading*"-välilehteä sekä "*Wallet*"-, "*Deposit*"- ja "*Withdraw*"-osioita.
+
+![BITFINEX](assets/fr/11.webp)
+
+Yksi Bitfinexin eduista on mahdollisuus luoda alatilejä. Tämä tarkoittaa, että voit erottaa tilisi eri käyttötarkoitukset toisistaan:
+
+![bitfinex](https://youtu.be/aOBXgcuJ5fI)
+
+Halutessasi voit myös mukauttaa kojelautaasi korostamaan tarvitsemiasi ominaisuuksia:
+
+![bitfinex](https://youtu.be/byIyWgLGejI)
+
+## 4 - Eurojen tallettaminen ja nostaminen (fiat)
+
+![bitfinex](https://youtu.be/z2YlJr9sF20)
+
+Jos haluat tallettaa euroja Bitfinex-tilillesi, avaa käyttöliittymän yläosassa olevan "*Lompakko*"-valikon "*Talletus*"-alavalikko.
+
+![BITFINEX](assets/fr/12.webp)
+
+Valitse "*Pankkisiirto*" tai "*Luotto-/pankkikortti*" tehdessäsi talletuksen euroissa (tai muussa valuutassa).
+
+![BITFINEX](assets/fr/13.webp)
+
+Valitse lähetettävä fiat-valuutta, esim. euro. Jos käytät vain "*Trading*"-perustoimintoja, valitse "*Exchange*". Ilmoita myös summa, jonka haluat tallettaa, ja pankkisi maa.
+
+![BITFINEX](assets/fr/14.webp)
+
+Tee siirto pankkitililtäsi Bitfinexin ilmoittamalle pankkitilille.
+
+Jos haluat nostaa varoja, menettely on samanlainen: siirry "*Nosto*"-alavalikkoon.
+
+![BITFINEX](assets/fr/15.webp)
+
+Klikkaa "*Pankkisiirto*".
+
+![BITFINEX](assets/fr/16.webp)
+
+Valitse fiat-valuutta, jonka haluat nostaa, Bitfinexissä veloitettava tili ("*Exchange*", jos käytät vain perusominaisuuksia) ja nostettava summa.
+
+![BITFINEX](assets/fr/17.webp)
+
+Bitfinex voi vaatia pankkitilisi vahvistamista ennen siirron hyväksymistä sääntöjenmukaisuussyistä.
+
+![BITFINEX](assets/fr/18.webp)
+
+Kun menettely on aloitettu, Bitfinex siirtää varat pankkitilillesi.
+
+## 5 - Bitcoinien tallettaminen ja nostaminen
+
+Jos haluat tallettaa bitcoineja Bitfinexiin, siirry "*Talletus*"-alavalikkoon.
+
+![BITFINEX](assets/fr/19.webp)
+
+Napsauta "*Cryptocurrency*".
+
+![BITFINEX](assets/fr/13.webp)
+
+Valitse "*BTC*". Vastaanottava osoite tulee näkyviin. Kopioi tämä osoite ja käytä sitä omasta lompakostasi tai jostain muusta alustasta BTC:n lähettämiseen.
+
+![BITFINEX](assets/fr/20.webp)
+
+Jos haluat nostaa bitcoineja, siirry "*Nosto*"-alavalikkoon.
+
+![BITFINEX](assets/fr/21.webp)
+
+Napsauta "*Cryptocurrency*".
+
+![BITFINEX](assets/fr/22.webp)
+
+Valitse "*BTC*". Valitse Bitfinex-tili, jota veloitetaan kotiutusta varten ("*Exchange*" perustoiminnoille). Anna summa ja bitcoinien määränpääosoite. Muista tarkistaa nosto-osoite virheiden välttämiseksi.
+
+![BITFINEX](assets/fr/23.webp)
+
+Vahvistuksen jälkeen bitcoinisi siirretään. Huomaa, että maksut ja viiveet voivat vaihdella mempoolin ruuhkautumisesta riippuen.
+
+Bitfinex tarjoaa myös talletus- ja nostovaihtoehtoja Lightning-verkon kautta, mikä mahdollistaa nopeammat ja halvemmat transaktiot.
+
+![BITFINEX](assets/fr/24.webp)
+
+Jos olet kiinnostunut Lightning-verkosta, meillä on myös täydellinen koulutus, jonka avulla voit ymmärtää, miten se toimii:
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+Kun olet ostanut ensimmäiset bitcoinisi, sinulla on tietenkin mahdollisuus jättää ne alustalle, mutta suosittelen lämpimästi niiden siirtämistä omaan lompakkoon omaan säilytykseen. Jos et vielä tiedä, miten Bitcoin-lompakkoa käytetään, pyydän sinua tutustumaan [Plan ₿ Networkin "Wallet"-osioon](https://planb.network/tutorials/wallet).
+
+## 6 - Bitcoinien ostaminen ja myyminen Bitfinexissä
+
+Bitfinex tarjoaa erilaisia kaupankäyntitapoja. Jos haluat helppokäyttöisyyttä, valitse klassiset spot-markkinat, jotka tunnetaan myös nimellä "*Trading*" tai "*Exchange*". Täällä voit antaa osto- tai myyntitoimeksiantoja markkinahintaan tai asettaa rajahinnan.
+
+Napsauta ylävalikossa kohtaa "*Trading*".
+
+![BITFINEX](assets/fr/25.webp)
+
+Valitse pari "*BTC/EUR*", jos haluat ostaa tai myydä BTC:tä esimerkiksi euroja vastaan.
+
+![BITFINEX](assets/fr/26.webp)
+
+Käyttöliittymässä näkyy keskellä hintakaavio, alhaalla tilauskirja ja vasemmalla puolella toimeksiantojen syöttömoduuli. Toimeksiantojen syöttöosiossa voit valita joko "*Market*"-toimeksiannon (toteutetaan välittömästi parhaaseen saatavilla olevaan hintaan) tai "*Limit*"-toimeksiannon (määrittelet itse hinnan). Ilmoita ostettavan tai myytävän BTC:n määrä tai valitse prosenttiosuus saldostasi. Klikkaa sitten "*Osta*" ostaaksesi tai "*Myydä*" myydäksesi.
+
+![BITFINEX](assets/fr/27.webp)
+
+Voit tarkastella suoritettujen toimeksiantojen historiaa käyttöliittymän alaosassa.
+
+![BITFINEX](assets/fr/28.webp)
+
+Voit myös määrittää sovelluksesta toistuvan bitcoinien oston, jolloin hankintahinta tasoittuu ajan myötä (*DCA*).
+
+![bitfinex](https://youtu.be/8uoBacYSn08)

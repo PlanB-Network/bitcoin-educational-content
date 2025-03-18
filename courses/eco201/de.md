@@ -542,39 +542,6 @@ Methodologie ist ein wesentlicher Aspekt in der Wirtschaft und den Sozialwissens
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Weitere Studien
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Herzlichen Glückwunsch zur Absolvierung dieses ECON 201 Kurses! Ich hoffe aufrichtig, dass Sie ihn genossen haben und sich neue Möglichkeiten für sich eröffnet haben. Ihre Entdeckung von Bitcoin steht erst am Anfang, und ich lade Sie ein, alle anderen Kurse an der Universität zu erkunden.
-
-### Weiterführende Literatur
-
-Um Ihr Verständnis für wirtschaftliche und soziale Phänomene, insbesondere im Hinblick auf die österreichische Wirtschaft, zu vertiefen, hier einige Buchempfehlungen:
-
-- "Die Österreichische Schule" von Ressus Huerta de Soto: Dieses erschwingliche Buch bietet eine umfassende Einführung in die Entwicklung des österreichischen wirtschaftlichen Denkens und behandelt wichtige Konzepte und Theorien.
-- "Human Action" von Ludwig von Mises: Als das Hauptwerk der österreichischen Schule gilt dieses Werk als umfassende Untersuchung der theoretischen Grundlagen menschlichen Handelns und der Wirtschaft.
-- "Der Gebrauch des Wissens in der Gesellschaft" von Friedrich Hayek: Dieser kurze Text untersucht, wie verteiltes Wissen in der Gesellschaft zur Lenkung wirtschaftlicher Entscheidungen genutzt wird und betont die Bedeutung von Preisen und Wettbewerb.
-- Joseph Schumpeters Nobelpreisrede von 1974: Diese Rede bietet einen Überblick über Schumpeters Vision von Unternehmertum, Innovation und Kapitalismus.
-- "Kapitalismus, Sozialismus und Demokratie" oder "Die Theorie der wirtschaftlichen Entwicklung" von Joseph Schumpeter: Diese ikonischen Bücher von Schumpeter erforschen die Dynamik des Kapitalismus, der Innovation und der wirtschaftlichen Zyklen.
-
-Neben diesen Lektüren können Sie auch Informationen zur österreichischen Wirtschaft finden, indem Sie Online-Ressourcen erkunden. Das Mises Institute mit Sitz im Südosten der Vereinigten Staaten bietet Artikel und Videos von renommierten Ökonomen. Die Savedin Amoos Academy bietet interaktive Seminare mit herausragenden Gästen, allerdings ist diese Option kostenpflichtig. In Frankreich teilen Menschen wie Yorick de Montbin, Fergan Aziri und Richard Hamelin oft Analysen und Diskussionen zur österreichischen Wirtschaft auf verschiedenen YouTube-Kanälen. Schließlich kann das Bitcoin Institute auch eine Informationsquelle für die wirtschaftlichen Aspekte im Zusammenhang mit Bitcoin sein.
-
-Durch das Lesen dieser Werke und das Erkunden dieser Online-Ressourcen können Sie ein tieferes Verständnis für die wichtigsten Prinzipien und Ideen der österreichischen Schule der Wirtschaft entwickeln.
-
-# Abschluss
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Bewerten Sie diesen Kurs
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Abschlussprüfung
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Abschluss
 

@@ -524,39 +524,6 @@ Metodologi er et essensielt aspekt i økonomi og i samfunnsvitenskapene generelt
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Videre studier
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Gratulerer med å ha fullført dette ECON 201-kurset! Jeg håper inderlig at du likte det og at det åpnet dører for deg. Din oppdagelse av Bitcoin er bare i begynnelsen, og jeg inviterer deg til å utforske alle de andre kursene som er tilgjengelige ved universitetet.
-
-### Videre lesning
-
-For å fordype din forståelse av økonomiske og sosiale fenomener, spesielt med tanke på østerriksk økonomi, her er noen bokanbefalinger:
-
-- "The Austrian School" av Ressus Huerta de Soto: Denne rimelige boken gir en omfattende introduksjon til utviklingen av østerriksk økonomisk tenkning, som dekker nøkkelkonsepter og teorier.
-- "Human Action" av Ludwig von Mises: Ansett som det største verket til den østerrikske skolen, utforsker dette arbeidet i dybden de teoretiske grunnlagene for menneskelig handling og økonomi.
-- "The Use of Knowledge in Society" av Friedrich Hayek: Denne korte teksten undersøker hvordan spredt kunnskap i samfunnet brukes til å veilede økonomiske beslutninger, og fremhever viktigheten av priser og konkurranse.
-- Joseph Schumpeters Nobelpris-tale i 1974: Denne talen gir en oversikt over Schumpeters visjon om entreprenørskap, innovasjon og kapitalisme.
-- "Capitalism, Socialism and Democracy" eller "The Theory of Economic Development" av Joseph Schumpeter: Disse ikoniske bøkene av Schumpeter utforsker dynamikken i kapitalismen, innovasjon og økonomiske sykluser.
-
-I tillegg til disse lesningene, kan du også finne informasjon om østerriksk økonomi ved å utforske online ressurser. Mises-instituttet, basert i det sørøstlige USA, tilbyr artikler og videoer av anerkjente økonomer. Savedin Amoos Academy tilbyr interaktive seminarer med fremtredende gjester, selv om dette alternativet er betalt. I Frankrike deler personer som Yorick de Montbin, Fergan Aziri, og Richard Hamelin ofte analyser og diskusjoner om østerriksk økonomi på forskjellige YouTube-kanaler. Til slutt kan også Bitcoin-instituttet være en kilde til informasjon om de økonomiske aspektene knyttet til Bitcoin.
-
-Ved å lese disse verkene og utforske disse online ressursene, kan du utvikle en dypere forståelse av de nøkkelprinsippene og ideene til den østerrikske skolen for økonomi.
-
-# Konklusjon
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Evaluer dette kurset
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Avsluttende eksamen
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Konklusjon
 

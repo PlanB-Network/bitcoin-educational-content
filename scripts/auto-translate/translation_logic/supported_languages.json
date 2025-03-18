@@ -37,10 +37,23 @@
       "code_translator": "FI"
     },
     {
+      "code": "fa",
+      "name": "Farsi",
+      "translator": "openai",
+      "code_translator": "Farsi",
+      "custom_prompt": "با توجه به اینکه موضوعیت متن داده شده آموزش تکنولوژی‌ها و ساختارهای مرتبط با بیت‌کوین هست ترجمه متن را با رعایت علائم نگارشی (و نیم‌فاصله) انجام بده و در صورت نیاز، جملات رو بدون تغییر معنا و مفهوم با جملات معادل در فارسی جایگزین کن."
+    },
+    {
       "code": "fr",
       "name": "French",
       "translator": "deepl",
       "code_translator": "FR"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "translator": "google",
+      "code_translator": "hi"
     },
     {
       "code": "id",
@@ -94,13 +107,13 @@
       "code": "th",
       "name": "Thai",
       "translator": "openai",
-      "code_translator": "TH"
+      "code_translator": "Thai"
     },
     {
       "code": "vi",
       "name": "Vietnamese",
-      "translator": "deepl",
-      "code_translator": "VI"
+      "translator": "google",
+      "code_translator": "vi"
     },
     {
       "code": "zh-Hans",

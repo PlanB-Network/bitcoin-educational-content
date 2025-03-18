@@ -363,4 +363,4 @@ E pronto, agora já sabes como utilizar o Lightning com o teu próprio nó utili
 
 Para compreender em pormenor todos os mecanismos do Relâmpago que manipulámos neste tutorial, aconselho-o vivamente a descobrir a nossa formação gratuita sobre o assunto:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

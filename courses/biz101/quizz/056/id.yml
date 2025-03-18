@@ -1,0 +1,9 @@
+question: Apa perbedaan fungsionalitas dompet non-kustodian untuk pengguna Pemula?
+answer: Ini memberikan pemilik bisnis kendali penuh atas kunci pribadi
+wrong_answers:
+  - Secara otomatis dapat mengonversi bitcoin ke mata uang fiat
+  - Tidak memerlukan prosedur pencadangan atau tindakan keamanan
+  - Mengelola semua transaksi melalui layanan pihak ketiga
+explanation: |
+  Dompet non-kustodian menempatkan kontrol kunci pribadi dan transaksi sepenuhnya di tangan pengguna.
+reviewed: false

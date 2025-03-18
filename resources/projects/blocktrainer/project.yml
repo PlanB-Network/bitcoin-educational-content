@@ -1,0 +1,21 @@
+id: cc089ef1-3cb6-4b03-ba5a-edeb274470a6
+name: Blocktrainer
+category: conference
+
+links:
+  website: https://www.blocktrainer.de
+  twitter: https://twitter.com/blocktrainer
+  youtube: https://www.youtube.com/c/blocktrainer
+
+original_language: de
+proofreading:
+  - language: de
+    last_contribution_date: 2025-01-20
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.06
+tags:
+  - user-friendly
+  - guides
+  - investment

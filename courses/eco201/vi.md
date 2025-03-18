@@ -537,40 +537,6 @@ Phương pháp luận là một khía cạnh thiết yếu trong kinh tế học
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Học thêm
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Xin chúc mừng bạn đã hoàn thành khóa học ECON 201 này! Tôi thực sự hy vọng bạn đã thích nó và mở ra một cánh cửa mới cho bản thân. Hành trình khám phá về Bitcoin của bạn chỉ mới bắt đầu, và tôi mời bạn khám phá tất cả các khóa học khác có sẵn tại trường đại học.
-
-### Đọc thêm
-
-Để làm sâu sắc hơn hiểu biết của bạn về các hiện tượng kinh tế và xã hội, đặc biệt là về kinh tế học Áo, dưới đây là một số gợi ý về sách:
-
-- "The Austrian School" của Ressus Huerta de Soto: Cuốn sách có mức giá hợp lý này cung cấp một giới thiệu toàn diện về sự phát triển của tư duy kinh tế học Áo, bao gồm các khái niệm và lý thuyết chính.
-- "Human Action" của Ludwig von Mises: Được coi là tác phẩm vĩ đại nhất của trường phái kinh tế học Áo, công trình này khám phá sâu rộng về nền tảng lý thuyết của hành động con người và kinh tế học.
-- "The Use of Knowledge in Society" của Friedrich Hayek: Tác phẩm ngắn này xem xét cách kiến thức phân tán trong xã hội được sử dụng để định hướng cho các quyết định kinh tế, nhấn mạnh tầm quan trọng của giá cả và cạnh tranh.
-- Bài phát biểu nhận giải Nobel của Joseph Schumpeter vào năm 1974: Bài phát biểu này cung cấp cái nhìn tổng quan về tầm nhìn của Schumpeter về doanh nhân, đổi mới và chủ nghĩa tư bản.
-- "Capitalism, Socialism and Democracy" hoặc "The Theory of Economic Development" của Joseph Schumpeter: Những cuốn sách biểu tượng này của Schumpeter khám phá động lực của chủ nghĩa tư bản, đổi mới sáng tạo và chu kỳ kinh tế.
-
-Ngoài việc đọc những tác phẩm này, bạn cũng có thể tìm hiểu về kinh tế học Áo bằng cách khám phá các nguồn trực tuyến. Viện Mises, có trụ sở tại miền đông nam Hoa Kỳ, cung cấp các bài viết và video của các nhà kinh tế học nổi tiếng. Học viện Savedin Amoos cung cấp các hội thảo tương tác với các khách mời nổi bật, mặc dù lựa chọn này là có phí. Tại Pháp, những người như Yorick de Montbin, Fergan Aziri, và Richard Hamelin thường chia sẻ phân tích và thảo luận về kinh tế học Áo trên các kênh YouTube khác nhau. Cuối cùng, Bitcoin Institute cũng có thể là một nguồn thông tin về các khía cạnh kinh tế liên quan đến Bitcoin.
-
-Bằng cách đọc những tác phẩm này và khám phá những nguồn trực tuyến, bạn có thể phát triển hiểu biết sâu sắc hơn về các nguyên tắc và ý tưởng chính của trường phái kinh tế học Áo.
-
-# Kết luận
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Đánh giá khóa học này
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Bài kiểm tra cuối cùng
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Kết luận
 
 <chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>

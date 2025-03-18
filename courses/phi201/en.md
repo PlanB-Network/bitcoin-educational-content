@@ -1521,7 +1521,8 @@ In a certain sense, our situation is better than in the past. After the successi
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 
-## Evaluate this course
+## Review & Rating
+
 
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
 <isCourseReview>true</isCourseReview>

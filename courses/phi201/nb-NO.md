@@ -1430,7 +1430,8 @@ Alt som skjer i det globale samfunnet vi lever i, er resultatet av ideer. Det go
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 
-## Evaluer dette kurset
+## Anmeldelse & Vurdering
+
 
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
 <isCourseReview>true</isCourseReview>

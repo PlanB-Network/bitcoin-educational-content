@@ -45,7 +45,8 @@ Der letzte Abschnitt wird von anderen Referenten geleitet, die konkrete RGB-basi
 ---
 Dieser Schulungskurs entstand ursprünglich aus einem zweiwöchigen Bootcamp für fortgeschrittene Entwickler in Viareggio, Toskana, organisiert von [Fulgur'Ventures] (https://fulgur.ventures/). Die erste Woche, die sich auf Rust und SDKs konzentrierte, kann in diesem anderen Kurs nachgelesen werden:
 
-https://planb.network/courses/lnp402
+https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+
 In diesem Kurs konzentrieren wir uns auf die zweite Woche des Bootcamps, in der es um RGB geht.
 
 **Woche 1 - LNP402:**
@@ -1865,7 +1866,8 @@ Das Lightning Network ist ein dezentrales Netzwerk von Zahlungskanälen (oder _S
 
 Wenn Sie mehr über die Funktionsweise von Lightning erfahren möchten, empfehle ich Ihnen, diesen anderen Kurs zu besuchen:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 #### Multi-Protokoll-Verpflichtung - MPC
 
 Multi Protocol Commitment (MPC) bezieht sich auf die Merkle-Baumstruktur, die in RGB verwendet wird, um innerhalb einer einzigen Bitcoin-Transaktion mehrere **Transitionsbündel** aus verschiedenen Verträgen einzubeziehen. Die Idee ist, mehrere Verpflichtungen (die möglicherweise verschiedenen Verträgen oder verschiedenen Vermögenswerten entsprechen) in einem einzigen Ankerpunkt zusammenzufassen, um die Belegung des Blockraums zu optimieren.
@@ -3305,7 +3307,8 @@ In Wirklichkeit ermöglicht das Lightning Network die Weiterleitung von Zahlunge
 
 Der Betrieb von RGB auf Lightning muss daher parallel zu dem des Lightning-Netzwerks selbst betrachtet werden. Wenn Sie tiefer in dieses Thema einsteigen möchten, empfehle ich Ihnen, einen Blick auf diesen anderen umfassenden Schulungskurs zu werfen:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ### RGB-Code-Karte
 
 Bevor ich zum nächsten Abschnitt übergehe, möchte ich Ihnen noch einen Überblick über den in RGB verwendeten Code geben. Das Protokoll basiert auf einer Reihe von Rust-Bibliotheken und Open-Source-Spezifikationen. Hier ist ein Überblick über die wichtigsten Repositories und Crates:
@@ -3958,15 +3961,13 @@ Die Möglichkeiten, die sich durch diese LN-RGB-Kompatibilität eröffnen, sind 
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
-<isCourseConclusion>true</isCourseConclusion>
-
 ## Rezensionen und Bewertungen
 
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
-## Schlussbemerkungen
+## Schlussfolgerung
 
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 

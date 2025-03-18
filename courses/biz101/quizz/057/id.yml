@@ -1,0 +1,9 @@
+question: Mengapa penting untuk melacak nilai fiat pada saat setiap transaksi Bitcoin?
+answer: Untuk memastikan pembukuan yang akurat dan kepatuhan pajak
+wrong_answers:
+  - Untuk menambah saldo dompet secara otomatis
+  - Untuk mengaktifkan perdagangan pasar real-time langsung dari dompet
+  - Untuk mengurangi biaya transaksi yang dikenakan oleh jaringan
+explanation: |
+  Melacak nilai fiat membantu bisnis mengelola pembukuan dengan harga Bitcoin yang berfluktuasi.
+reviewed: false

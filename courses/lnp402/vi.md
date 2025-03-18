@@ -55,7 +55,7 @@ Chúc bạn học tốt.
 
 ## Giới thiệu về Rust (1/7)
 <chapterId>af7108eb-4974-5ac2-9784-d2a5c0d77a45</chapterId>
-<professor>radio-talent</professor>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 ![video](https://www.youtube.com/watch?v=aZYhDXE_Gas)
 
@@ -142,6 +142,6 @@ Chúc bạn học tốt.
 <chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Lời kết
+## Kết luận
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

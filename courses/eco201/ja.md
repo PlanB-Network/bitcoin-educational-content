@@ -532,40 +532,6 @@ ZIRPのもう一つの予期せぬ結果は、政府が大規模な支出に従�
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## さらなる研究
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-ECON 201コースの修了おめでとうございます！楽しんでいただけたこと、そして自分自身の扉を開くことができたことを心から願っています。Bitcoinの発見はこれから始まりますので、ぜひ大学で提供されている他のコースも探索してみてください。
-
-### さらなる読書
-
-経済や社会現象についての理解を深めるために、特にオーストリア経済学に関しては、以下の書籍をおすすめします:
-
-- 「The Austrian School」（Ressus Huerta de Soto著）:この手頃な価格の本は、オーストリア経済思想の進化について包括的な紹介を提供し、主要な概念や理論をカバーしています。
-- 「Human Action」（Ludwig von Mises著）:オーストリア学派の最高傑作とされるこの著作は、人間の行動と経済学の理論的な基礎を詳しく探求しています。
-- 「The Use of Knowledge in Society」（Friedrich Hayek著）:この短いテキストは、社会に散在する知識が経済的な意思決定の指針としてどのように活用されるかを検討し、価格と競争の重要性を強調しています。
-- Joseph Schumpeterの1974年のノーベル賞受賞スピーチ:このスピーチでは、シュンペーターの起業、イノベーション、資本主義に関するビジョンが概説されています。
-- 「Capitalism, Socialism and Democracy」または「The Theory of Economic Development」（Joseph Schumpeter著）:これらのシュンペーターの代表的な著作は、資本主義、イノベーション、経済循環のダイナミクスを探求しています。
-
-これらの読書に加えて、オーストリア経済学に関する情報はオンラインリソースでも見つけることができます。アメリカ南東部に拠点を置くミーゼス研究所は、著名な経済学者による記事や動画を提供しています。Savedin Amoos Academyでは、有名なゲストとのインタラクティブなセミナーを提供していますが、有料です。フランスでは、Yorick de Montbin、Fergan Aziri、Richard Hamelinなどの人々が、さまざまなYouTubeチャンネルでオーストリア経済学に関する分析や議論を共有しています。最後に、Bitcoin InstituteもBitcoinに関連する経済的な側面に関する情報源となるでしょう。
-
-これらの著作を読み、オンラインリソースを探索することで、オーストリア学派の経済学の主要な原則やアイデアについてより深い理解を深めることができます。
-
-# まとめ
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## このコースを評価する
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## 最終試験
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## まとめ
 
 <chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>

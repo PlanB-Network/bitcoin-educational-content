@@ -544,34 +544,6 @@ La metodologia è un aspetto essenziale nell'economia e nelle scienze sociali in
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Ulteriori studi
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Congratulazioni per aver completato questo corso ECON 201! Spero sinceramente che ti sia piaciuto e che ti abbia aperto nuove opportunità. La tua scoperta di Bitcoin è appena iniziata e ti invito a esplorare tutti gli altri corsi disponibili presso l'università.
-
-### Ulteriori letture
-
-Per approfondire la comprensione dei fenomeni economici e sociali, in particolare riguardo all'economia austriaca, ecco alcune raccomandazioni di libri:
-
-- "The Austrian School" di Ressus Huerta de Soto: Questo libro economico accessibile fornisce un'introduzione completa all'evoluzione del pensiero economico austriaco, coprendo concetti chiave e teorie.
-- "Azione Umana" di Ludwig von Mises: Considerato il capolavoro della scuola austriaca, quest'opera esplora in profondità le fondamenta teoriche dell'azione umana ed economia.
-- "L'Uso della Conoscenza nella Società" di Friedrich Hayek: Questo breve testo esamina come la conoscenza dispersa nella società venga utilizzata per guidare le decisioni economiche, evidenziando l'importanza dei prezzi e della concorrenza.
-- Discorso di accettazione del Premio Nobel di Joseph Schumpeter nel 1974: Questo discorso fornisce una panoramica della visione di Schumpeter sull'imprenditorialità, l'innovazione e il capitalismo.
-- "Capitalismo, Socialismo e Democrazia" o "La Teoria dello Sviluppo Economico" di Joseph Schumpeter: Questi libri iconici di Schumpeter esplorano la dinamica del capitalismo, dell'innovazione e dei cicli economici.
-
-Oltre a queste letture, puoi trovare informazioni sull'economia austriaca esplorando risorse online. Il Mises Institute, con sede nel sud-est degli Stati Uniti, offre articoli e video di economisti rinomati. La Savedin Amoos Academy offre seminari interattivi con ospiti illustri, anche se questa opzione è a pagamento. In Francia, persone come Yorick de Montbin, Fergan Aziri e Richard Hamelin condividono spesso analisi e discussioni sull'economia austriaca su diversi canali YouTube. Infine, il Bitcoin Institute può essere una fonte di informazioni sugli aspetti economici legati a Bitcoin.
-
-Leggendo queste opere ed esplorando queste risorse online, puoi sviluppare una comprensione più approfondita dei principi fondamentali e delle idee della scuola austriaca di economia.
-
-# Conclusione
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Valuta questo corso
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
 
 ## Esame finale
 

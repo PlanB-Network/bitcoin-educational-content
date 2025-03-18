@@ -51,7 +51,7 @@ Puedes leer mas detalles sobre como conectar cuentas LNDhub en la pagina [Zeus D
 ## Ejecutar Zeus Nodo LN integrado
 [Comenzando con V0.8.0](https://blog.zeusln.com/new-release-zeus-v0-8-0/), Zeus introdujo a los usuarios promedio que solo desean una manera simple de realizar pagos de bitcoin rápidos y baratos, desde su dispositivo móvil al tener un [nodo de rayo móvil incorporado](https://docs.zeusln.app/category/embedded-node) con un integrado [proveedor de servicios de Lightning (LSP)](https://docs.zeusln.app/lsp/intro).
 
-![Zeus](assets/zeus-node-phone-meme.jpg)
+![Zeus](assets/zeus-node-phone-meme.webp)
 
 ### Resumen rápido de las características principales de Zeus Nodo Integrado:
 - Nodo LND privado: eso significa que este nodo NO realizará enrutamiento público de los pagos de otros a través de su nodo. El nodo y los canales no se anuncian (privados, no visibles en el gráfico público de LN). Recibir y realizar pagos se realizará a través de sus pares LSP conectados.
@@ -100,7 +100,7 @@ Debido a que Zeus es un nodo LND completo, tendré algunas recomendaciones inici
 
 - Una vez que configure el tipo de conexión "Nodo integrado", la aplicación comenzará a sincronizarse por un tiempo. Espere pacientemente para terminar esa parte, luego ingrese a la página principal de Configuración.
 
-![Zeus](assets/zeus-settings.jpg)
+![Zeus](assets/zeus-settings.webp)
 
 Brevemente, profundicemos en cada una de las secciones de Configuración y comprendamos algunas de las características principales, antes de comenzar a usar Zeus:
 
@@ -293,7 +293,7 @@ Simplemente creando una factura en su ZEUS (coloque la cantidad y haga clic en e
 
 La factura que genere estará [envuelta](https://docs.zeusln.app/lsp/wrapped-invoices) y se le presentará las tarifas asociadas con el servicio si se les paga. Esta factura envuelta contiene sugerencias de ruta hacia su nodo Zeus, por lo que el LSP podría encontrar su nuevo nodo y abrir un canal con los nuevos fondos que está depositando.
 
-![Zeus](assets/zeus-lsp-invoice.jpg)
+![Zeus](assets/zeus-lsp-invoice.webp)
 
 Para obtener un canal LN del LSP con los fondos que desea recibir por primera vez, esta factura debe pagarse desde otra billetera LN y esperar unos momentos hasta que el LSP esté abriendo el canal hacia su nodo Zeus, deducir la tarifa y empujar El monto restante del pago en su lado del canal.
 
@@ -303,11 +303,11 @@ Otro beneficio de pagar un canal es el enrutamiento de tarifas cero. Eso signifi
 
 Una vez que el canal esté listo, haga clic en el botón derecho en la parte inferior de la pantalla, que muestra los canales Zeus.
 
-![Zeus](assets/zeus-channels-view.png)
+![Zeus](assets/zeus-channels-view.webp)
 
 Y verá un canal como este, mostrando su lado del equilibrio del canal:
 
-![Zeus](assets/zeus-channel-details.jpg)
+![Zeus](assets/zeus-channel-details.webp)
 
 Para obtener más información, gastará de este canal, más liquidez entrante tendrá. Para más SAT, recibirá en este canal, menos espacio de liquidez entrante que tendrá.
 
@@ -335,7 +335,7 @@ Para un nodo privado como Zeus, recomendaría tener 2-3 buenos canales (Max. 4-5
 
 Puede abrir un canal en Zeus yendo a la vista de canales haciendo clic en el icono del canal en la esquina inferior derecha de la vista principal, y luego presionando el icono + en la esquina superior derecha.
 
-![Zeus](assets/zeus-open-channel.jpg)
+![Zeus](assets/zeus-open-channel.webp)
 
 Si desea abrir un canal con un nodo específico, haga clic en (a) esquina superior para escanear el nodo NODEID (en Mempool, Amboss, 1 ml Puede obtener ese QR) y se completarán todos los detalles entre pares.
 
@@ -350,7 +350,7 @@ A diferencia de los canales LSP pagados, su canal requerirá confirmación en la
 
 Antes de presionar el botón para abrir el canal, deslice hacia abajo las opciones avanzadas:
 
-![Zeus](assets/zeus-open-channel-advanced.jpg)
+![Zeus](assets/zeus-open-channel-advanced.webp)
 
 También deberá asegurarse de que el canal no esté anunciado (privado). Por defecto, la opción está desactivada para los canales anunciados. No se recomienda activar esta opción para el nodo integrado ZEUS, es útil solo cuando usa Zeus con su nodo remoto, como nodo de enrutamiento público.
 
@@ -370,7 +370,7 @@ Entonces, si necesita prácticamente un canal LN vacío (el saldo es del 100% en
 
 En conclusión, aquí hay una tabla de privacidad de comparación:
 
-![Zeus](assets/zeus-privacy-chart.jpg)
+![Zeus](assets/zeus-privacy-chart.webp)
 
 ## Recursos importantes de Zeus:
 - Zeus official webpage - [https://zeusln.app/](https://zeusln.app/)

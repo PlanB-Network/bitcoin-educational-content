@@ -571,39 +571,6 @@ Methodology is an essential aspect in economics and in social sciences in genera
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Further studies
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Congratulations on completing this ECON 201 course! I sincerely hope you enjoyed it and opened doors for yourself. Your discovery of Bitcoin is just beginning, and I invite you to explore all the other courses available at the university.
-
-### Further Reading
-
-To deepen your understanding of economic and social phenomena, particularly regarding Austrian economics, here are some book recommendations:
-
-- "The Austrian School" by Ressus Huerta de Soto: This affordable book provides a comprehensive introduction to the evolution of Austrian economic thought, covering key concepts and theories.
-- "Human Action" by Ludwig von Mises: Considered the magnum opus of the Austrian school, this work explores in-depth the theoretical foundations of human action and economics.
-- "The Use of Knowledge in Society" by Friedrich Hayek: This short text examines how dispersed knowledge in society is used to guide economic decisions, highlighting the importance of prices and competition.
-- Joseph Schumpeter's Nobel Prize acceptance speech in 1974: This speech provides an overview of Schumpeter's vision of entrepreneurship, innovation, and capitalism.
-- "Capitalism, Socialism and Democracy" or "The Theory of Economic Development" by Joseph Schumpeter: These iconic books by Schumpeter explore the dynamics of capitalism, innovation, and economic cycles.
-
-In addition to these readings, you can also find information on Austrian economics by exploring online resources. The Mises Institute, based in the southeastern United States, offers articles and videos by renowned economists. The Savedin Amoos Academy offers interactive seminars with distinguished guests, although this option is paid. In France, people like Yorick de Montbin, Fergan Aziri, and Richard Hamelin often share analyses and discussions on Austrian economics on different YouTube channels. Finally, the Bitcoin Institute can also be a source of information on the economic aspects related to Bitcoin.
-
-By reading these works and exploring these online resources, you can develop a deeper understanding of the key principles and ideas of the Austrian school of economics.
-
-# Conclusion
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Evaluate this course
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Final exam
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Conclusion
 

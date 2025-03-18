@@ -1,0 +1,9 @@
+question: Hvilke egenskaper definerer et godt passord?
+answer: Langt, komplekst og unikt.
+wrong_answers:
+  - Kort, enkelt og lett å huske.
+  - Basert på personlig informasjon.
+  - Identisk for alle kontoer.
+explanation: |
+  Et godt passord bør være tilstrekkelig langt, komplekst og ikke gjenbrukes.
+reviewed: false

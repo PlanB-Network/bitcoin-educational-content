@@ -1637,7 +1637,7 @@ En un certain sens, notre situation est meilleure que par le passé. Après les 
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 
-## Évaluez ce cours
+## Avis & Notes
 
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
 <isCourseReview>true</isCourseReview>

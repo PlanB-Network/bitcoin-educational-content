@@ -1,0 +1,21 @@
+id: 586488e3-e557-465d-bf85-4ec9429a740d
+name: Bringing Bitcoin
+category: conference
+
+links:
+  website: https://bringingbitcoin.com/
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-20
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.05
+tags:
+  - adoption
+  - easy-explain
+  - user-friendly
+contributor_names:
+  - PaoloFoti

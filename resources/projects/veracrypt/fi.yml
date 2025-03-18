@@ -1,0 +1,3 @@
+description: |
+  VeraCrypt on avoimen lähdekoodin levynsalauksen ohjelmisto, joka suojaa arkaluonteisia tietojasi. TrueCryptin seuraajana se tarjoaa vahvan salauksen algoritmeilla, kuten AES, Serpent tai Twofish, mahdollistaen salattujen volyymien luomisen tai osioiden ja kokonaisien levyjen, sekä sisäisten että ulkoisten, salaamisen.
+

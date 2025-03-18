@@ -1232,15 +1232,6 @@ Bitcoinの創設者を取り巻くこの神秘的な側面は、2014年に亡く
 >
 > Sは何を意味するのか？"
 
-
-## レビュー & 評価
-<chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## 最終試験
-<chapterId>39e43ec2-5b38-5174-882a-c1f7d284b9e6</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## コミュニティの引き継ぎ
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 

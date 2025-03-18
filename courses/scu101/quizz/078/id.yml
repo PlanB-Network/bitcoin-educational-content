@@ -1,0 +1,9 @@
+question: Kriteria apa yang mendasar saat membuat akun email baru?
+answer: Menggunakan kata sandi yang unik dan kuat.
+wrong_answers:
+  - Menggunakan kembali kata sandi dari akun lain.
+  - Memilih kata sandi sederhana agar mudah diingat.
+  - Memilih kata sandi yang mengandung nama hewan peliharaan.
+explanation: |
+  Kata sandi yang unik dan kuat sangat penting untuk mencegah peretas mengakses akun email.
+reviewed: false

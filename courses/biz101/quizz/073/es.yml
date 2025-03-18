@@ -1,0 +1,9 @@
+question: ¿Qué permite la sincronización de datos en tiempo real entre los sistemas Enterprise Bitcoin y el software ERP?
+answer: APIs
+wrong_answers:
+  - Archivos CSV
+  - Carga por lotes
+  - Informes por correo electrónico
+explanation: |
+  Las API permiten una integración continua y en tiempo real.
+reviewed: false

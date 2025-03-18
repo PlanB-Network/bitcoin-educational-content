@@ -1,0 +1,9 @@
+question: ¿Cuál es la función principal de los sistemas de pago tradicionales?
+answer: Permitir la transferencia de fondos entre dos partes
+wrong_answers:
+  - Crear una moneda única mundial regulada por una autoridad central
+  - Facilitar el comercio internacional
+  - Restringir las transferencias de fondos únicamente al canje de efectivo en persona
+explanation: |
+  Los sistemas de pago tradicionales proporcionan mecanismos e infraestructuras para transferir fondos entre pagadores y beneficiarios en contextos tanto locales como internacionales.
+reviewed: false

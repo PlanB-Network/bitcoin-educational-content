@@ -1,0 +1,23 @@
+## Non-community Builder Characteristic
+
+# Complete name of the builder
+name: Builder's complete name
+
+# Define Builder category
+# Choose between wallet, infrastructure, exchange, education, service, conference, privacy, investment, node, mining, news, manufacturer
+category: education
+
+# links
+# list releated online presence like twitter and/or website
+links:
+  website: https://stackharder.com
+  twitter: https://twitter.com/stackharder
+  Github: https://github.com/DecouvreBitcoin/sovereign-university-data
+  youtube: https://www.youtube.com/@PlanBNetwork
+
+# tags
+# List the associated tags to the author
+# The list of tags is composed of 21 items that can be found here (list not yet available)
+tags:
+  - bitcoin
+  - technology

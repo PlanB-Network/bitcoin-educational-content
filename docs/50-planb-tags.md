@@ -50,3 +50,4 @@
 48. easy-explain: describe if a content needs simplified writing style
 49. experimental: meta-tag that addresses features, ideas, concepts that are still not available for immediate use, but that will be better known in the next future
 50. business: about companies and startup in the Bitcoin ecosystem
+51. evaluation: the content, whatever it would be, is about assessing the skills and abilities of its users

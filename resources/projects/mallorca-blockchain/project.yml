@@ -1,0 +1,23 @@
+id: 20e43d58-a2ea-4c6f-84c5-7a7a634b7412
+name: Mallorca Blockchain
+category: conference
+
+links:
+  website: https://mallorcablockchaindays.com/index.html
+  twitter: https://twitter.com/MallorcaBCDays
+  youtube: https://www.youtube.com/channel/UChDp9dCDLidA0sVO9bqnu3w/featured
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-19
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.05
+tags:
+  - adoption
+  - business
+  - case-studies
+contributor_names:
+  - PaoloFoti

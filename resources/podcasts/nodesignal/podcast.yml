@@ -1,3 +1,4 @@
+id: 91c938ac-8ab7-4c16-a160-c9ce14602d22
 name: Nodesignal
 host: janpaul fund Altbierjupp
 language: de
@@ -7,8 +8,9 @@ links:
   website: https://nodesignal.space/
 description: |
   Auf der Suche nach einem Anker in der verrückten Finanzwelt? Auf unserer Frequenz findest du das richtige Nodesignal. Wir sind der Bitcoin-Only Podcast von Plebs für Plebs. Hier gibts Buchbesprechungen, Talks und Interviews rund um das Thema Bitcoin und dessen gesellschaftlichen Auswirkungen.
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - node
+  - finance
+  - adoption

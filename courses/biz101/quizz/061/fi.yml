@@ -1,0 +1,9 @@
+question: Mitä Essential-profiili käyttää, jotta työntekijät voivat käsitellä maksuja kassalla?
+answer: PoS-sovelluksessa on luotu valikko, jossa on tuotteiden hinnat
+wrong_answers:
+  - Manuaalinen tilikirja myynnin kirjaamista varten
+  - Paperilaskutusjärjestelmä kutakin tapahtumaa varten
+  - Automaattinen kirjanpitojärjestelmä Kassan tapahtumia varten
+explanation: |
+  Essential-profiilin PoS-sovelluksen avulla työntekijät voivat valita kohteita ennalta määritetystä valikosta, mikä tehostaa laskutusprosessia.
+reviewed: false

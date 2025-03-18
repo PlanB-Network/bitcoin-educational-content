@@ -685,7 +685,7 @@ Matematika kurva eliptik di atas lapangan terbatas analog dengan yang di atas la
 
 Jika Anda ingin mempelajari lebih lanjut tentang dasar-dasar matematika kriptografi modern, saya juga merekomendasikan untuk berkonsultasi dengan kursus lain di Jaringan Plan ₿:
 
-https://planb.network/courses/cyp302
+https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Menghitung Kunci Publik dari Kunci Privat
 
@@ -1071,7 +1071,7 @@ Jika bendera sighash ini diintegrasikan ke dalam Bitcoin, ini akan memungkinkan 
 
 Untuk memperdalam pengetahuan Anda tentang Lightning Network, setelah kursus CYP201, saya sangat merekomendasikan kursus LNP201 oleh Fanis Michalakis, yang membahas topik ini secara detail:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Di bagian selanjutnya, saya mengusulkan untuk menemukan bagaimana frasa mnemonik di dasar dompet Bitcoin Anda bekerja.
 
@@ -1104,7 +1104,7 @@ Keterbatasan ini berasal dari model privasi Bitcoin. Dengan menggunakan alamat y
 
 Untuk mempelajari lebih lanjut tentang model privasi Bitcoin dan menemukan metode untuk melindungi privasi Anda, saya juga merekomendasikan mengikuti kursus BTC204 saya di Plan ₿ Network:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Dompet HD (_Hierarchical Deterministic_)
 
@@ -1242,6 +1242,7 @@ Frasa 12 kata, yang juga menawarkan keamanan 128 bit, saat ini sudah cukup untuk
 Untuk lebih lanjut dan belajar secara konkret bagaimana menghasilkan frasa mnemonik tes secara manual, saya menyarankan Anda untuk menemukan tutorial ini:
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 Sebelum melanjutkan dengan derivasi dompet dari frasa mnemonik ini, saya akan memperkenalkan Anda, dalam bab berikutnya, ke frasa sandi BIP39, karena ini berperan dalam proses derivasi, dan berada pada level yang sama dengan frasa mnemonik.
 ## Frasa Sandi
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
@@ -2101,13 +2102,13 @@ Untuk mengonversi nilai menjadi karakter _bech32_ menggunakan tabel ini, cukup t
 Dengan memetakan semua nilai kita, kita mendapatkan alamat berikut:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Yang tersisa hanyalah menambahkan HRP `bc`, yang menunjukkan bahwa ini adalah alamat untuk Bitcoin mainnet, serta pemisah `1`, untuk mendapatkan alamat penerima lengkap:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Keunikan dari alfabet _bech32_ ini adalah termasuk semua karakter alfanumerik kecuali `1`, `b`, `i`, dan `o` untuk menghindari kebingungan visual antara karakter yang serupa, terutama selama entri atau pembacaan oleh manusia.

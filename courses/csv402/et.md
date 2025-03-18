@@ -45,7 +45,8 @@ Viimase osa juhivad teised kõnelejad, kes tutvustavad konkreetseid RGB-põhisei
 ---
 See koolituskursus kasvas algselt välja kahenädalasest edasijõudnute arenduslaagrist Viareggios, Toscanas, mille korraldas [Fulgur'Ventures] (https://fulgur.ventures/). Esimene nädal, mis keskendus Rustile ja SDK-dele, on leitav sellest teisest kursusest:
 
-https://planb.network/courses/lnp402
+https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+
 Sellel kursusel keskendume stardilaagri teisele nädalale, mis keskendub RGB-le.
 
 **Nädal 1 - LNP402:**
@@ -1865,7 +1866,8 @@ Lightning Network on Bitcoini detsentraliseeritud maksekanalite (või _state cha
 
 Lisateabe saamiseks selle kohta, kuidas Lightning töötab, soovitan teil läbida selle teise kursuse:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 #### Mitme protokolliga seotud kohustused - MPC
 
 Multi Protocol Commitment (MPC) viitab RGB-s kasutatavale Merkle-puu struktuurile, mis hõlmab ühe Bitcoini tehingu raames mitmeid **Transitsioonipakke** erinevatest lepingutest. Idee on koondada mitu kohustust (mis võivad vastata erinevatele lepingutele või erinevatele varadele) ühte ankurduspunkti, et optimeerida plokiruumi hõivatust.
@@ -3305,7 +3307,8 @@ Tegelikkuses võimaldab Lightning Network makseid suunata mitme kanali kaudu, ka
 
 Seetõttu tuleb RGB toimimist Lightning'ile vaadelda paralleelselt Lightning-võrgu enda toimimisega. Kui soovite selles teemas sügavamalt süveneda, siis soovitan kindlasti vaadata seda teist põhjalikku koolituskursust:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ### RGB koodikaart
 
 Lõpuks, enne järgmise jaotise juurde minekut, tahaksin anda teile ülevaate RGB-s kasutatavast koodist. Protokoll põhineb Rusti raamatukogudel ja avatud lähtekoodiga spetsifikatsioonidel. Siin on ülevaade peamistest repositooriumidest ja kastidest:
@@ -3958,7 +3961,6 @@ LN-RGB ühilduvuse poolt avanevad võimalused on märkimisväärsed: stabiilsed 
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
-<isCourseConclusion>true</isCourseConclusion>
 
 ## Arvamused ja hinnangud
 
@@ -3966,7 +3968,7 @@ LN-RGB ühilduvuse poolt avanevad võimalused on märkimisväärsed: stabiilsed 
 
 <isCourseReview>true</isCourseReview>
 
-## Lõppmärkused
+## Kokkuvõte
 
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 

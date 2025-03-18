@@ -1,5 +1,4 @@
-question: Why is it important to verify the site's public key using a certificate
-  system?
+question: Why is it important to verify the site's public key using a certificate system?
 answer: To confirm the authenticity of the site.
 wrong_answers:
   - To ensure no scam can happen, but only when connected via a public Wi-Fi network.

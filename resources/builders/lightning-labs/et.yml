@@ -1,9 +1,0 @@
-description: |
-  Lightning Labs on tehnoloogiaettevõte, mis keskendub Lightning Network'i arendamisele, mis on teise kihi protokoll, ehitatud Bitcoin'i peale, võimaldades kiireid, madala maksumusega tehinguid. Ettevõte pakub avatud lähtekoodiga, turvalisi ja skaleeritavaid lahendusi, mis lubavad kasutajatel saata ja vastu võtta raha enneolematu efektiivsusega.
-
-  Üks nende peamisi tooteid on Lightning Terminal, kasutajasõbralik liides, mis lihtsustab Lightning sõlme haldamist. See tööriist pakub veebipõhist armatuurlauda, võrgu uurijat ja hulka likviidsuse haldamise tööriistu, muutes kõrge mahuga, kohese Bitcoin'i tehingute sooritamise minimaalsete tasudega lihtsamaks.
-
-  Lisaks Lightning Terminalile pakub Lightning Labs ka mitmesuguseid kontrollitavaid, mittehoidmisega finantsteenuseid, mis põhinevad Lightning Network'il, sillutades teed avatud lähtekoodiga tarkvara ja järgmise põlvkonna Bitcoin'i finantsrakenduste vahel.
-
-contributors:
-  - rabbit-hole

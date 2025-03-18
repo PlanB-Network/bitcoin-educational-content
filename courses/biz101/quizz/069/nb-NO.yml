@@ -1,0 +1,9 @@
+question: Hvilken programvare med åpen kildekode er tilpasset et profesjonelt Bitcoin-betalingssystem?
+answer: BTC Pay Server
+wrong_answers:
+  - Sveitsisk Bitcoin Pay
+  - Åpen node
+  - Bitcoinize PoS
+explanation: |
+  BTC Pay Server fremheves i kurset som den viktigste open source-løsningen for profesjonelle oppsett på grunn av de omfattende integrasjonsalternativene og kontrollen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 瑞士比特币支付公司（Swiss Bitcoin Pay）接受比特币支付的基本条件是什么？
+answer: 开放节点
+wrong_answers:
+  - BTCPay 服务器
+  - 比特币化 PoS
+  - 凤凰钱包
+explanation: |
+  Open Node 的特点是完全托管解决方案，不同于瑞士比特币支付的混合性质。
+reviewed: false

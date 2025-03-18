@@ -1,0 +1,9 @@
+question: How does a credit card transaction typically differ from a simple cash transaction?
+answer: It involves multiple intermediaries
+wrong_answers:
+  - It happens instantly with no intermediary involvement
+  - It requires the physical exchange of currency only
+  - It mandates that both parties produce identical goods
+explanation: |
+  Unlike cash, which is exchanged immediately, credit card transactions go through a series of steps involving banks, card networks, and clearing processes, resulting in delays and extra costs.
+reviewed: false

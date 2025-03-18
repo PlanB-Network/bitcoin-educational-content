@@ -1,4 +1,0 @@
-description: |
-  Loimme Riglyn, jotta kaikki voivat nauttia bitcoinien louhinnasta. Bitcoinin alkuaikoina kuka tahansa pystyi louhimaan bitcoineja omalla tietokoneellaan. Ajan myötä bitcoin kasvoi ja erikoistunut laitteisto - GPU:t, sitten FPGA:t ja nyt ASIC:t - muodostuivat louhinnan välttämättömyydeksi. Nykyään ASIC-louhintalaitteistot vaativat merkittäviä investointeja ja hallintaa, ja ne asennetaan usein lähelle energialaitoksia. Rigly mahdollistaa sinulle hashraten ostamisen näiltä louhijoilta ja osallistumisen louhintaan.
-contributors:
-  - kaninkolo

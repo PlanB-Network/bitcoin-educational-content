@@ -1,20 +1,23 @@
-- start_date: 2024-07-27
-  end_date: 2024-07-29
-  address_line_1: Queensland, Australia
-  address_line_2: Palm Cove QLD
-  address_line_3:
-  name: Bitcoin Bush Bash
-  builder: Bitcoin Bush Bash
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: Meet some of your fellow Aussie Bitcoiners
-  language:
-    - en
-  links:
-    website: https://bitcoinbushbash.info/
-    replay_url:
-    live_url :
-  tags:
-    - bitcoiner
+id: 49305c12-424e-4c41-94a8-a4724424e01d
+start_date: 2024-07-27
+end_date: 2024-07-29
+address_city_country: Queensland, Australia
+address_line_2: Palm Cove QLD
+address_line_3:
+name: Bitcoin Bush Bash
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Meet some of your fellow Aussie Bitcoiners
+language:
+  - en
+links:
+  website: https://bitcoinbushbash.info/
+  replay_url:
+  live_url:
+project_id: 2509a2dd-5592-4097-a68f-bd7e5e228b04
+tags:
+  - case-studies
+  - adoption
+  - self-sovereignty

@@ -2287,8 +2287,19 @@ Nicméně s přidáním trochu chytré složitosti lze problém RSA použít k v
 
 [4] Viz například Jonathan Katz a Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), str. 410-32 o šifrování RSA a str. 444-41 o digitálních podpisech RSA.
 
-## Recenze a hodnocení
+# Závěr
+<partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 
+## Hodnocení & Recenze
+
+<chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
+<isCourseReview>true</isCourseReview>
+ 
+## Závěrečná Zkouška
+
+<chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Závěr
 <chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
-
-<isCourseConclusion>pravdivý</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

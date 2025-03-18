@@ -2,6 +2,7 @@
 name: Cụm từ Ghi nhớ - Lắc Xúc xắc
 description: Làm thế nào để tự tạo cụm từ khôi phục của bạn bằng cách lắc xúc xắc?
 ---
+
 ![cover](assets/cover.webp)
 
 Trong hướng dẫn này, bạn sẽ học cách tự tay xây dựng một cụm từ khôi phục cho ví Bitcoin của mình sử dụng lắc xúc xắc.
@@ -9,10 +10,12 @@ Trong hướng dẫn này, bạn sẽ học cách tự tay xây dựng một c�
 **CẢNH BÁO:** Việc tạo ra một cụm từ ghi nhớ một cách an toàn đòi hỏi không để lại dấu vết số nào trong quá trình tạo ra nó, điều này gần như là không thể. Nếu không, ví sẽ trở nên quá dễ bị tấn công, làm tăng đáng kể nguy cơ bitcoin của bạn bị đánh cắp. **Do đó, việc chuyển tiền vào một ví phụ thuộc vào cụm từ khôi phục bạn tự tạo ra được khuyến cáo mạnh mẽ là không nên.** Ngay cả khi bạn tuân theo hướng dẫn này đến từng chữ, vẫn có rủi ro cụm từ khôi phục có thể bị xâm phạm. **Vì vậy, hướng dẫn này không nên được áp dụng để tạo ví thực.** Sử dụng ví cứng cho nhiệm vụ này ít rủi ro hơn nhiều, vì nó tạo ra cụm từ ngoại tuyến, và các nhà mật mã học thực sự đã xem xét việc sử dụng các nguồn entropy chất lượng.
 
 Hướng dẫn này chỉ có thể được theo dõi cho mục đích thử nghiệm để tạo một ví giả, mà không có ý định sử dụng nó với bitcoin thực. Tuy nhiên, trải nghiệm này mang lại hai lợi ích:
+
 - Đầu tiên, nó cho phép bạn hiểu rõ hơn về cơ chế cơ bản của ví Bitcoin của mình;
 - Thứ hai, nó cho phép bạn biết cách làm điều đó. Tôi không nói nó sẽ hữu ích một ngày nào đó, nhưng có thể!
 
 ## Cụm từ ghi nhớ là gì?
+
 Cụm từ khôi phục, còn được gọi đôi khi là "mnemonic", "cụm từ hạt giống", hoặc "cụm từ bí mật", là một chuỗi thường gồm 12 hoặc 24 từ, được tạo ra một cách giả ngẫu nhiên từ một nguồn entropy. Chuỗi giả ngẫu nhiên luôn được hoàn thiện với một mã kiểm tra.
 
 Cụm từ ghi nhớ, cùng với một cụm từ bổ sung tùy chọn, được sử dụng để suy ra một cách xác định tất cả các khóa liên quan đến một ví HD (Hierarchical Deterministic). Điều này có nghĩa là từ cụm từ này, có thể tạo ra và tái tạo tất cả các khóa riêng tư và công khai của ví Bitcoin một cách xác định, và do đó, truy cập vào các quỹ liên quan đến nó.
@@ -21,7 +24,9 @@ Mục đích của câu này là cung cấp một phương tiện dễ sử dụ
 Thông thường, cụm từ này được cung cấp trực tiếp cho bạn khi tạo ví của mình, bởi phần mềm hoặc ví cứng được sử dụng. Tuy nhiên, cũng có thể tự tạo cụm từ này, và sau đó nhập nó vào hỗ trợ đã chọn để suy ra các khóa ví. Đây là điều chúng ta sẽ học cách làm trong hướng dẫn này.
 
 ## Chuẩn bị các vật liệu cần thiết
+
 Để tạo cụm từ khôi phục của bạn bằng tay, bạn sẽ cần:
+
 - Một tờ giấy;
 - Một cây bút hoặc bút chì, lý tưởng là có màu sắc khác nhau để dễ dàng tổ chức;
 - Một số xúc xắc, để giảm thiểu rủi ro về sự thiên vị liên quan đến một xúc xắc không cân bằng;
@@ -36,17 +41,18 @@ Trong một bối cảnh thực tế, việc đảm bảo tính bảo mật củ
 Trong điều kiện thực tế, sau khi thực hiện những kiểm tra này, bạn sẽ sẵn sàng để tạo ra entropy cần thiết. Đối với một ví giả tưởng thử nghiệm được tạo ra như một phần của hướng dẫn này, bạn có thể tự nhiên bỏ qua những chuẩn bị này.
 
 ## Một Số Lưu Ý về Cụm Từ Khôi Phục
+
 Đầu tiên, chúng ta sẽ xem xét cơ bản về việc tạo một cụm từ mnemonic theo BIP39. Như đã giải thích trước đây, cụm từ được tạo ra từ thông tin giả ngẫu nhiên có kích thước nhất định, mà sau đó một checksum được thêm vào để đảm bảo tính toàn vẹn của nó.
 
 Kích thước của thông tin ban đầu này, thường được gọi là "entropy," được xác định bởi số lượng từ bạn muốn có trong cụm từ khôi phục. Các định dạng phổ biến nhất là cụm từ gồm 12 và 24 từ, tương ứng với entropy 128 bits và 256 bits. Dưới đây là một bảng cho thấy các kích thước entropy khác nhau theo BIP39:
 
 | Cụm từ (từ) | Entropy (bits) | Checksum (bits) | Entropy + Checksum (bits) |
-| --------------- | --------------- | --------------- | -------------------------- |
-| 12              | 128             | 4               | 132                        |
-| 15              | 160             | 5               | 165                        |
-| 18              | 192             | 6               | 198                        |
-| 21              | 224             | 7               | 231                        |
-| 24              | 256             | 8               | 264                        |
+| ----------- | -------------- | --------------- | ------------------------- |
+| 12          | 128            | 4               | 132                       |
+| 15          | 160            | 5               | 165                       |
+| 18          | 192            | 6               | 198                       |
+| 21          | 224            | 7               | 231                       |
+| 24          | 256            | 8               | 264                       |
 
 Entropy do đó là một số ngẫu nhiên từ 128 đến 256 bits. Trong hướng dẫn này, chúng ta sẽ lấy ví dụ về một cụm từ 12 từ, trong đó entropy là 128 bits, nghĩa là chúng ta sẽ tạo ra một chuỗi ngẫu nhiên gồm 128 `0` hoặc `1`. Điều này đại diện cho một số gồm 128 chữ số trong cơ số 2 (nhị phân).
 Dựa trên entropy này, một checksum sẽ được tạo ra. Checksum là một giá trị được tính toán từ một tập hợp dữ liệu, được sử dụng để xác minh tính toàn vẹn và hợp lệ của dữ liệu đó trong quá trình truyền dẫn hoặc lưu trữ. Các thuật toán checksum được thiết kế để phát hiện lỗi ngẫu nhiên hoặc thay đổi trong dữ liệu.
@@ -67,6 +73,7 @@ Cuối cùng, số thập phân cho chúng ta biết vị trí của từ tươn
 Bây giờ, chúng ta hãy chuyển sang thực hành! Chúng ta sẽ tạo một cụm từ khôi phục 12 từ. Tuy nhiên, thao tác này giữ nguyên trong trường hợp của cụm từ 24 từ, ngoại trừ việc nó sẽ yêu cầu 256 bit entropy và một checksum 8-bit, như được chỉ ra trong bảng tương đương nằm ở đầu phần này.
 
 ## Bước 1: Tạo Entropy
+
 Chuẩn bị tờ giấy, bút của bạn, và xúc xắc. Để bắt đầu, chúng ta sẽ cần tạo ra ngẫu nhiên 128 bit, tức là, một chuỗi 128 `0` và `1` liên tiếp. Để làm điều này, chúng ta sẽ sử dụng xúc xắc.
 ![mnemonic](assets/notext/7.webp)
 
@@ -79,7 +86,8 @@ Như bạn có thể thấy trong ví dụ của tôi, từ thứ mười hai hi
 ![mnemonic](assets/notext/9.webp)
 
 ## Bước 2: Tính toán checksum
-Bước này là quan trọng nhất trong quá trình tạo cụm từ ghi nhớ (mnemonic phrase) một cách thủ công, vì nó đòi hỏi sự sử dụng của máy tính. Như đã đề cập trước đó, checksum tương ứng với phần đầu của mã hash SHA256 được tạo ra từ entropy. Mặc dù lý thuyết có thể tính toán SHA256 bằng tay cho một đầu vào 128 hoặc 256 bit, công việc này có thể mất cả tuần. Hơn nữa, bất kỳ lỗi nào trong việc tính toán thủ công chỉ được phát hiện ở cuối quá trình, buộc bạn phải bắt đầu lại từ đầu. Do đó, việc thực hiện bước này chỉ với tờ giấy và bút là không thể tưởng tượng được. Một máy tính gần như là bắt buộc. Nếu bạn vẫn muốn học cách thực hiện SHA256 bằng tay, chúng tôi giải thích cách làm trong [khóa học CRYPTO301](https://planb.network/en/courses/crypto301).
+
+Bước này là quan trọng nhất trong quá trình tạo cụm từ ghi nhớ (mnemonic phrase) một cách thủ công, vì nó đòi hỏi sự sử dụng của máy tính. Như đã đề cập trước đó, checksum tương ứng với phần đầu của mã hash SHA256 được tạo ra từ entropy. Mặc dù lý thuyết có thể tính toán SHA256 bằng tay cho một đầu vào 128 hoặc 256 bit, công việc này có thể mất cả tuần. Hơn nữa, bất kỳ lỗi nào trong việc tính toán thủ công chỉ được phát hiện ở cuối quá trình, buộc bạn phải bắt đầu lại từ đầu. Do đó, việc thực hiện bước này chỉ với tờ giấy và bút là không thể tưởng tượng được. Một máy tính gần như là bắt buộc. Nếu bạn vẫn muốn học cách thực hiện SHA256 bằng tay, chúng tôi giải thích cách làm trong [khóa học CRYPTO301](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 Vì lý do này, tôi khuyên bạn không nên tạo cụm từ thủ công cho một ví thực sự. Theo ý kiến của tôi, việc sử dụng máy tính ở giai đoạn này, ngay cả với tất cả các biện pháp phòng ngừa cần thiết, làm tăng không hợp lý mặt bằng tấn công của ví.
 Để tính toán checksum mà để lại ít dấu vết nhất có thể, chúng ta sẽ sử dụng một bản phân phối Linux quên lãng từ một ổ đĩa di động có tên là **Tails**. Hệ điều hành này khởi động từ một ổ USB và hoạt động hoàn toàn trên RAM của máy tính, không tương tác với ổ cứng. Do đó, theo lý thuyết, nó không để lại dấu vết nào trên máy tính sau khi được tắt. Xin lưu ý rằng Tails chỉ tương thích với các loại bộ xử lý x86_64, và không tương thích với các loại bộ xử lý ARM.
@@ -106,20 +114,23 @@ Bạn sẽ đến một cửa sổ lệnh mới trống.
 
 Gõ lệnh `echo`, theo sau là entropy bạn đã tạo trước đó, đảm bảo chèn một khoảng trắng giữa `echo` và chuỗi số nhị phân của bạn.
 
-Thêm một khoảng trắng nữa, sau đó nhập lệnh sau, sử dụng một *ống* (`|`):
+Thêm một khoảng trắng nữa, sau đó nhập lệnh sau, sử dụng một _ống_ (`|`):
+
 ```plaintext
 | shasum -a 256 -0
 ```
 
 Trong ví dụ với entropy của tôi, lệnh tổng cộng như sau:
+
 ```plaintext
 echo 11010111000110111011000011000010011000100111000001000000001001011011001010111111001010011111110001010100000101110010010011011010 | shasum -a 256 -0
 ```
 
 Trong lệnh này:
+
 - `echo` được sử dụng để gửi chuỗi bit;
-- `|`, *ống*, được sử dụng để hướng đầu ra của lệnh `echo` vào đầu vào của lệnh tiếp theo;
-- `shasum` khởi động một hàm băm thuộc gia đình SHA (*Secure Hash Algorithm*);
+- `|`, _ống_, được sử dụng để hướng đầu ra của lệnh `echo` vào đầu vào của lệnh tiếp theo;
+- `shasum` khởi động một hàm băm thuộc gia đình SHA (_Secure Hash Algorithm_);
 - `-a` chỉ định lựa chọn một thuật toán băm cụ thể;
 - `256` chỉ ra rằng thuật toán SHA256 được sử dụng;
 - `-0` cho phép đầu vào được hiểu là một số nhị phân.
@@ -127,6 +138,7 @@ Trong lệnh này:
 Sau khi kiểm tra cẩn thận rằng chuỗi nhị phân của bạn không chứa bất kỳ lỗi đánh máy nào, nhấn phím `Enter` để thực thi lệnh. Cửa sổ lệnh sau đó sẽ hiển thị băm SHA256 của entropy bạn.
 
 Bây giờ, băm được biểu diễn ở định dạng thập lục phân (cơ số 16). Ví dụ, của tôi là:
+
 ```plaintext
 a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 ```
@@ -135,18 +147,18 @@ a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 
 Bước tiếp theo là chuyển đổi ký tự thập lục phân này (cơ số 16) thành giá trị nhị phân (cơ số 2), vì cụm từ của chúng ta được xây dựng trong định dạng này. Để làm điều này, bạn có thể sử dụng bảng chuyển đổi sau:
 
-
 | Thập phân (cơ số 10) | Thập lục phân (cơ số 16) | Nhị phân (cơ số 2) |
-| ----------------- | --------------------- | --------------- |
-| 0                 | 0                     | 0000            |
-| 1                 | 1                     | 0001            |
-| 2                 | 2                     | 0010            |
-| 3                 | 3                     | 0011            |
-| 4                 | 4                     | 0100            |
-| 5                 | 5                     | 0101            |
-| 6                 | 6                     | 0110            |
-| 7                 | 7                     | 0111            |
-| 8                 | 8                     | 1000            |
+| -------------------- | ------------------------ | ------------------ |
+| 0                    | 0                        | 0000               |
+| 1                    | 1                        | 0001               |
+| 2                    | 2                        | 0010               |
+| 3                    | 3                        | 0011               |
+| 4                    | 4                        | 0100               |
+| 5                    | 5                        | 0101               |
+| 6                    | 6                        | 0110               |
+| 7                    | 7                        | 0111               |
+| 8                    | 8                        | 1000               |
+
 Trong ví dụ của tôi, chữ cái `a` tương ứng với số nhị phân `1010`. 4 bit này tạo thành checksum của cụm từ khôi phục của chúng ta. Bây giờ bạn có thể thêm chúng vào entropy đã ghi chú trên tờ giấy của bạn, đặt chúng ở cuối từ cuối cùng.
 
 ![mnemonic](assets/notext/20.webp)
@@ -154,7 +166,9 @@ Trong ví dụ của tôi, chữ cái `a` tương ứng với số nhị phân `
 Cụm từ ghi nhớ của bạn giờ đây đã hoàn chỉnh, nhưng nó ở định dạng nhị phân. Bước tiếp theo sẽ là chuyển đổi nó thành hệ thập phân để bạn có thể sau đó liên kết mỗi số với một từ tương ứng trong danh sách BIP39.
 
 ## Bước 3: Chuyển Đổi Từ sang Số Thập Phân
+
 Để chuyển đổi mỗi dòng nhị phân thành một số thập phân, chúng ta sẽ sử dụng một phương pháp giúp việc tính toán thủ công dễ dàng hơn. Hiện tại, bạn có mười hai dòng trên tờ giấy của mình, mỗi dòng gồm 11 chữ số nhị phân `0` hoặc `1`. Để tiến hành chuyển đổi sang thập phân, gán cho mỗi chữ số đầu tiên giá trị `1024` nếu nó là `1`, ngược lại là `0`. Đối với chữ số thứ hai, giá trị `512` sẽ được gán nếu nó là `1`, ngược lại là `0`, và cứ thế cho đến chữ số thứ mười một. Các tương ứng như sau:
+
 - Bit thứ 1: `1024`;
 - Bit thứ 2: `512`;
 - Bit thứ 3: `256`;
@@ -168,6 +182,7 @@ Cụm từ ghi nhớ của bạn giờ đây đã hoàn chỉnh, nhưng nó ở 
 - Bit thứ 11: `1`.
 
 Đối với mỗi dòng, chúng ta sẽ cộng dồn các giá trị tương ứng với các chữ số `1` để thu được số thập phân tương đương với số nhị phân. Hãy lấy ví dụ về một dòng nhị phân bằng:
+
 ```plaintext
 1010 1101 101
 ```
@@ -175,6 +190,7 @@ Cụm từ ghi nhớ của bạn giờ đây đã hoàn chỉnh, nhưng nó ở 
 Việc chuyển đổi sẽ như sau:
 ![mnemonic](assets/notext/21.webp)
 Kết quả sẽ là:
+
 ```plaintext
 1389
 ```
@@ -186,6 +202,7 @@ Sau đó, chỉ cần cộng dồn tất cả các số được xác nhận b�
 ![mnemonic](assets/notext/23.webp)
 
 ## Bước 4: Tìm Kiếm Các Từ của Cụm Từ Ghi Nhớ
+
 Với các số thập phân đã thu được, giờ đây chúng ta có thể xác định các từ tương ứng trong danh sách để tạo thành cụm từ ghi nhớ. Tuy nhiên, việc đánh số 2048 từ trong danh sách BIP39 dao động từ `1` đến `2048`. Nhưng, kết quả nhị phân đã tính của chúng ta dao động từ `0` đến `2047`. Do đó, có một sự chênh lệch một đơn vị cần được điều chỉnh. Để điều chỉnh sự chênh lệch này, chỉ cần thêm `1` vào mười hai số thập phân đã tính trước đó.
 
 ![mnemonic](assets/notext/24.webp)
@@ -193,15 +210,18 @@ Sau khi điều chỉnh này, bạn sẽ có thứ hạng của từng từ tron
 [**-> In danh sách BIP39 ở định dạng A4.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 Ví dụ, nếu số thu được từ dòng đầu tiên là 1721, từ tương ứng sẽ là từ thứ 1721 trong danh sách:
+
 ```plaintext
 1721. strike
 ```
+
 ![mnemonic](assets/notext/25.webp)
 Theo cách này, chúng ta tiếp tục lần lượt với 12 từ để xây dựng cụm từ ghi nhớ của mình.
 
 ![mnemonic](assets/notext/26.webp)
 
 ## Bước 5: Tạo Ví Bitcoin
+
 Tại thời điểm này, tất cả những gì còn lại là nhập cụm từ ghi nhớ của chúng ta vào phần mềm ví Bitcoin. Tùy thuộc vào sở thích của chúng ta, việc này có thể được thực hiện trên phần mềm máy tính để có được một ví nóng, hoặc trên một ví cứng để có được một ví lạnh.
 
 ![mnemonic](assets/notext/27.webp)
@@ -212,18 +232,19 @@ Chỉ trong quá trình nhập khẩu, bạn mới có thể xác minh tính h�
 Sau khi tạo ví của bạn, đừng quên sao lưu cụm từ khôi phục của bạn trên một phương tiện vật lý, như giấy hoặc kim loại, và hủy bảng tính được sử dụng trong quá trình tạo của nó để ngăn chặn bất kỳ rò rỉ thông tin nào.
 
 ## Trường Hợp Cụ Thể của Tùy Chọn Lăn Xúc Xắc trên Coldcards
-Các ví cứng từ gia đình Coldcard cung cấp [một tính năng được gọi là *Dice Roll*](https://youtu.be/Rc29d9m92xg?si=OeFW2iCGRvxexhK7), để tạo cụm từ khôi phục ví của bạn bằng cách lăn xúc xắc. Phương pháp này rất tốt vì nó cho bạn quyền kiểm soát trực tiếp việc tạo entropy, mà không cần sử dụng thiết bị bên ngoài để tính checksum như trong hướng dẫn của chúng tôi.
+
+Các ví cứng từ gia đình Coldcard cung cấp [một tính năng được gọi là _Dice Roll_](https://youtu.be/Rc29d9m92xg?si=OeFW2iCGRvxexhK7), để tạo cụm từ khôi phục ví của bạn bằng cách lăn xúc xắc. Phương pháp này rất tốt vì nó cho bạn quyền kiểm soát trực tiếp việc tạo entropy, mà không cần sử dụng thiết bị bên ngoài để tính checksum như trong hướng dẫn của chúng tôi.
 
 Tuy nhiên, gần đây đã có báo cáo về các vụ trộm bitcoin do sử dụng không đúng cách tính năng này. Thực tế, một số lượng lăn xúc xắc quá hạn chế có thể dẫn đến entropy không đủ, lý thuyết làm cho việc brute force cụm từ ghi nhớ và ăn cắp bitcoin liên quan trở nên khả thi. Để tránh rủi ro này, được khuyến nghị thực hiện ít nhất 99 lần lăn xúc xắc trên Coldcard, đảm bảo đủ entropy.
 
 Phương pháp giải thích kết quả được Coldcard đề xuất khác với phương pháp được trình bày trong hướng dẫn này. Trong khi chúng tôi khuyến nghị 128 lần lăn để đạt được 128 bit an ninh trong hướng dẫn, Coldcard đề xuất 99 lần lăn để đạt được 256 bit an ninh. Thực tế, trong cách tiếp cận của chúng tôi, chỉ có hai kết quả có thể xảy ra cho mỗi lần lăn xúc xắc: chẵn (`0`) hoặc lẻ (`1`). Do đó, entropy được tạo ra bởi mỗi lần lăn là bằng `log2(2)`. Trong trường hợp của Coldcard, tính đến sáu mặt có thể của xúc xắc (từ `1` đến `6`), entropy mỗi lần lăn là bằng `log2(6)`. Đó là lý do tại sao trong hướng dẫn của chúng tôi, chúng tôi cần thực hiện nhiều lần lăn hơn để đạt được cùng một mức độ entropy.
-Entropy = số lần lắc * log2(số kết quả có thể có trên xúc xắc)
+Entropy = số lần lắc \* log2(số kết quả có thể có trên xúc xắc)
 Coldcard:
 
-Entropy = 99 * log2(6)
+Entropy = 99 \* log2(6)
 Entropy = 255.91
 
 Hướng dẫn của chúng tôi:
 
-Entropy = 128 * log2(2)
+Entropy = 128 \* log2(2)
 Entropy = 128

@@ -1,0 +1,9 @@
+question: ¿Qué funciones de seguridad avanzadas se suelen implementar a nivel empresarial para los bitcoins?
+answer: Multifirma con reloj
+wrong_answers:
+  - Protección por contraseña para un monedero Lightning móvil
+  - Single-sig con protección de frase de contraseña BIP39
+  - Una sola palabra con 24 palabras
+explanation: |
+  Las medidas de alta seguridad, como las configuraciones multifirma con relojes de seguridad, son cruciales para gestionar grandes sumas.
+reviewed: false

@@ -1,0 +1,19 @@
+id: 60024826-d758-4df2-a067-f254213fe58c
+name: Crypto Lyon
+category: meetup
+
+links:
+  website: https://www.meetup.com/crypto-lyon/
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-01-21
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.06
+tags:
+  - easy-explain
+  - node
+  - guides

@@ -1,8 +1,0 @@
-description: |
-  Lightning Labs on teknologiayritys, joka keskittyy Lightning Networkin kehittämiseen. Lightning Network on toisen kerroksen protokolla, joka on rakennettu Bitcoinin päälle ja mahdollistaa nopeat, edulliset transaktiot. Yritys tarjoaa avoimen lähdekoodin, turvallisia ja skaalautuvia ratkaisuja, jotka mahdollistavat käyttäjille rahan lähettämisen ja vastaanottamisen ennennäkemättömällä tehokkuudella.
-
-  Yksi heidän päätuotteistaan on Lightning Terminal, käyttäjäystävällinen käyttöliittymä, joka yksinkertaistaa Lightning-solmujen hallintaa. Tämä työkalu tarjoaa web-pohjaisen hallintapaneelin, verkon tutkijan ja joukon likviditeetinhallintatyökaluja, mikä tekee suurten volyymien, välittömien Bitcoin-transaktioiden suorittamisesta vähäisin kuluin helpompaa.
-
-  Lightning Terminalin lisäksi Lightning Labs tarjoaa myös joukon verifioitavia, ei-holhottavia rahoituspalveluita, jotka perustuvat Lightning Networkiin, sillan rakentaen avoimen lähdekoodin ohjelmiston ja seuraavan sukupolven Bitcoin-rahoitussovellusten välille.
-contributors:
-  - rabbit-hole

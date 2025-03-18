@@ -45,7 +45,8 @@ Viimeisessä osiossa muut puhujat esittelevät konkreettisia RGB-pohjaisia sovel
 ---
 Tämä kurssi syntyi alun perin Viareggiossa, Toscanassa järjestetystä kahden viikon pituisesta kehittyneen kehityksen bootcampista, jonka järjesti [Fulgur'Ventures] (https://fulgur.ventures/). Ensimmäinen viikko, joka keskittyi Rustiin ja SDK:hon, löytyy tästä toisesta kurssista:
 
-https://planb.network/courses/lnp402
+https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+
 Tällä kurssilla keskitymme bootcampin toiseen viikkoon, joka keskittyy RGB:hen.
 
 **Viikko 1 - LNP402:**
@@ -1865,7 +1866,8 @@ Salamaverkko on Bitcoinin maksukanavien (tai _tilakanavien_) hajautettu verkko, 
 
 Jos haluat lisätietoja Lightningin toiminnasta, suosittelen tätä toista kurssia:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 #### Moniprotokollasitoumus - MPC
 
 Multi Protocol Commitment (MPC) viittaa RGB:ssä käytettyyn Merkle-puurakenteeseen, jonka avulla yhteen Bitcoin-tapahtumaan voidaan sisällyttää useita **Transition Bundles** eri sopimuksista. Ideana on koota useita sitoumuksia (jotka mahdollisesti vastaavat eri sopimuksia tai eri omaisuuseriä) yhteen ankkuripisteeseen lohkotilan käytön optimoimiseksi.
@@ -3305,7 +3307,8 @@ Todellisuudessa Lightning-verkko mahdollistaa maksujen välittämisen useiden ka
 
 RGB:n toimintaa Lightning-verkossa on siis tarkasteltava rinnakkain itse Lightning-verkon toiminnan kanssa. Jos haluat syventyä tähän aiheeseen, suosittelen lämpimästi tutustumaan tähän toiseen kattavaan koulutukseen:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ### RGB-koodikartta
 
 Ennen kuin siirrymme seuraavaan osioon, haluan lopuksi antaa sinulle yleiskatsauksen RGB:ssä käytettyyn koodiin. Protokolla perustuu joukkoihin Rust-kirjastoihin ja avoimen lähdekoodin määrittelyihin. Tässä on yleiskatsaus tärkeimmistä arkistoista ja laatikoista:
@@ -3958,7 +3961,6 @@ Tämän LN-RGB-yhteensopivuuden avaamat mahdollisuudet ovat huomattavat: vakaat 
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
-<isCourseConclusion>true</isCourseConclusion>
 
 ## Arvostelut & arvostelut
 
@@ -3966,7 +3968,7 @@ Tämän LN-RGB-yhteensopivuuden avaamat mahdollisuudet ovat huomattavat: vakaat 
 
 <isCourseReview>true</isCourseReview>
 
-## Loppupuheenvuorot
+## Päätelmä
 
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 

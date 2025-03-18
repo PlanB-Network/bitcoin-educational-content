@@ -59,7 +59,7 @@ LN托斯卡纳活动的第一周
 ## Rust简介 (1/7)
 
 <chapterId>af7108eb-4974-5ac2-9784-d2a5c0d77a45</chapterId>
-<professor>radio-talent</professor>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 ![video](https://www.youtube.com/watch?v=aZYhDXE_Gas)
 
@@ -162,7 +162,7 @@ LN托斯卡纳活动的第一周
 <chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## 结语
+## 结论
 
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

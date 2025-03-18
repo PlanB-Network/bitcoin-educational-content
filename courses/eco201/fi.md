@@ -528,39 +528,6 @@ Metodologia on olennainen osa taloustieteessä ja yhteiskuntatieteissä yleensä
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Jatkotutkimukset
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Onnittelut ECON 201 -kurssin suorittamisesta! Toivon vilpittömästi, että nautit siitä ja avasit itsellesi uusia ovia. Bitcoinin löytöretkesi on vasta alussa, ja kutsun sinut tutkimaan kaikkia yliopistolla tarjolla olevia muita kursseja.
-
-### Lisälukemista
-
-Taloudellisten ja yhteiskunnallisten ilmiöiden, erityisesti Itävaltalaisen taloustieteen, ymmärtämisen syventämiseksi tässä on joitakin kirjasuosituksia:
-
-- "The Austrian School" kirjoittanut Ressus Huerta de Soto: Tämä edullinen kirja tarjoaa kattavan johdatuksen Itävaltalaisen taloustieteellisen ajattelun kehitykseen, kattaen keskeiset käsitteet ja teoriat.
-- "Human Action" kirjoittanut Ludwig von Mises: Tätä teosta pidetään Itävaltalaisen koulukunnan magnum opuksena, ja se tutkii syvällisesti ihmisen toiminnan ja taloustieteen teoreettisia perusteita.
-- "The Use of Knowledge in Society" kirjoittanut Friedrich Hayek: Tämä lyhyt teksti tutkii, miten yhteiskunnassa hajallaan olevaa tietoa käytetään taloudellisten päätösten ohjaamiseen, korostaen hintojen ja kilpailun merkitystä.
-- Joseph Schumpeterin Nobel-palkinnon vastaanottopuhe vuonna 1974: Tämä puhe tarjoaa yleiskatsauksen Schumpeterin näkemyksestä yrittäjyyteen, innovaatioon ja kapitalismiin.
-- "Capitalism, Socialism and Democracy" tai "The Theory of Economic Development" kirjoittanut Joseph Schumpeter: Nämä ikoniset kirjat Schumpeterilta tutkivat kapitalismin, innovaation ja taloudellisten syklien dynamiikkaa.
-
-Näiden lukemisten lisäksi voit löytää tietoa Itävaltalaisesta taloustieteestä tutkimalla online-resursseja. Mises Instituutti, joka sijaitsee Yhdysvaltain kaakkoisosassa, tarjoaa artikkeleita ja videoita tunnetuilta taloustieteilijöiltä. Savedin Amoos Academy tarjoaa interaktiivisia seminaareja erottuvien vieraiden kanssa, vaikkakin tämä vaihtoehto on maksullinen. Ranskassa henkilöt kuten Yorick de Montbin, Fergan Aziri ja Richard Hamelin jakavat usein analyyseja ja keskusteluja Itävaltalaisesta taloustieteestä eri YouTube-kanavilla. Lopuksi, Bitcoin Instituutti voi myös olla tietolähde Bitcoinin taloudellisiin aspekteihin liittyen.
-
-Näitä teoksia lukemalla ja näitä online-resursseja tutkimalla voit kehittää syvällisemmän ymmärryksen Itävaltalaisen taloustieteen keskeisistä periaatteista ja ideoista.
-
-# Yhteenveto
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Arvioi tämä kurssi
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Loppukoe
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Yhteenveto
 

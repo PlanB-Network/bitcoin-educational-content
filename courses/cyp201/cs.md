@@ -683,7 +683,7 @@ Matematika eliptických křivek nad konečnými tělesy je analogická té nad t
 
 Pokud se chcete dozvědět více o matematických základech moderní kryptografie, doporučuji také konzultovat tento další kurz na Plan ₿ Network:
 
-https://planb.network/courses/cyp302
+https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Výpočet veřejného klíče z privátního klíče
 
@@ -1068,7 +1068,7 @@ Pokud bude tento příznak sighash integrován do Bitcoinu, umožní použití c
 
 Pro prohloubení vašich znalostí o Lightning Network, po kurzu CYP201, vřele doporučuji kurz LNP201 od Fanise Michalakise, který téma podrobně pokrývá:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 V další části navrhuji objevit, jak funguje mnemonická fráze, která je základem vaší Bitcoin peněženky.
 
@@ -1101,7 +1101,7 @@ Toto omezení vyplývá z modelu soukromí Bitcoinu. Opakovaným používáním 
 
 Pro více informací o modelu soukromí Bitcoinu a objevení metod, jak chránit vaše soukromí, doporučuji také sledovat můj kurz BTC204 na Plan ₿ Network:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Peněženky (_Hierarchical Deterministic_)
 
@@ -2071,13 +2071,13 @@ Pro převedení hodnoty na znak _bech32_ pomocí této tabulky jednoduše najdě
 Mapováním všech našich hodnot získáme následující adresu:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Zbývá již jen přidat HRP `bc`, což naznačuje, že se jedná o adresu pro Bitcoin mainnet, stejně jako oddělovač `1`, abychom získali kompletní přijímací adresu:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Zvláštností této abecedy _bech32_ je, že zahrnuje všechny alfanumerické znaky kromě `1`, `b`, `i` a `o`, aby se zabránilo vizuálnímu zmatení mezi podobnými znaky, zejména při jejich zadávání nebo čtení lidmi.

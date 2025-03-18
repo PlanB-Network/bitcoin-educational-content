@@ -704,7 +704,7 @@ $$
 
 現代暗号学の数学的基礎についてさらに学びたい場合は、Plan ₿ Network上のこの他のコースもお勧めします：
 
-https://planb.network/courses/cyp302
+https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## 私鍵から公開鍵を計算する
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
@@ -1105,7 +1105,7 @@ Bitcoinには、まず第一に3つの基本的なsighashフラグがありま�
 
 Lightning Networkについての知識を深めるために、CYP201コースの後には、Fanis MichalakisによるLNP201コースを強くお勧めします。このコースでは、トピックについて詳しくカバーしています：
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 次のパートでは、Bitcoinウォレットの基礎となるニーモニックフレーズの仕組みを発見しましょう。
 
@@ -1138,7 +1138,7 @@ UTXOsは、さまざまなサイズのビットコインの断片を表し、そ
 
 ビットコインのプライバシーモデルについてさらに学び、プライバシーを保護する方法を発見するために、Plan ₿ NetworkのBTC204コースをフォローすることもお勧めします：
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HDウォレット（_Hierarchical Deterministic_）
 
@@ -1276,6 +1276,7 @@ $$
 テスト用ニーモニックフレーズを手動で生成する方法を具体的に学ぶために、このチュートリアルを見てみることをお勧めします：
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 このニーモニックフレーズからウォレットの派生を続ける前に、次の章でBIP39パスフレーズについて紹介します。これは派生プロセスで役割を果たし、ニーモニックフレーズと同じレベルにあります。
 ## パスフレーズ
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
@@ -2134,13 +2135,13 @@ $$
 すべての値をマッピングすると、次のアドレスが得られます：
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 残る作業は、Bitcoinメインネットのアドレスであることを示すHRP`bc`と、セパレータ`1`を追加して、完全な受信アドレスを得ることです：
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 この*bech32*アルファベットの特徴は、`1`、`b`、`i`、`o`を除くすべての英数字文字を含んでいることで、特に人間による入力や読み取り時に、似た文字間の視覚的な混同を避けるためです。

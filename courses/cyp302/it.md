@@ -2287,8 +2287,20 @@ Tuttavia, aggiungendo un po' di complessità intelligente, il problema RSA può 
 
 [4] Si veda, ad esempio, Jonathan Katz e Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), pp. 410-32 sulla crittografia RSA e pp. 444-41 per le firme digitali RSA.
 
-## Recensioni e valutazioni
+# Conclusione
 
+<partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
+
+## Recensioni & Valutazioni
+
+<chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
+<isCourseReview>true</isCourseReview>
+ 
+## Esame Finale
+
+<chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusione
 <chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
-
 <isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,9 @@
+question: Hvilken rolle spiller verktøy som Zaprite og Musqet i en profesjonell betalingsløsning?
+answer: De forbedrer kassaopplevelsen
+wrong_answers:
+  - De håndterer konvertering av flere valutaer og fiat-utbetalinger
+  - De fokuserer på kryptering av transaksjonsdata og håndtering av private nøkler
+  - De fungerer som grunnleggende POS-systemer
+explanation: |
+  Zaprite og Musqet legger til tilpasnings- og rapporteringsforbedringer i betalingsprosessen, som et supplement til kjernebetalingsinfrastrukturen.
+reviewed: false

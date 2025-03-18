@@ -532,40 +532,6 @@ Metodologi adalah aspek penting dalam ekonomi dan dalam ilmu sosial pada umumnya
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Studi Lanjutan
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Selamat telah menyelesaikan kursus ECON 201 ini! Saya sungguh berharap Anda menikmatinya dan membuka pintu untuk diri Anda sendiri. Penemuan Anda tentang Bitcoin baru saja dimulai, dan saya mengundang Anda untuk menjelajahi semua kursus lain yang tersedia di universitas.
-
-### Bacaan Lebih Lanjut
-
-Untuk memperdalam pemahaman Anda tentang fenomena ekonomi dan sosial, khususnya mengenai ekonomi Austria, berikut adalah beberapa rekomendasi buku:
-
-- "The Austrian School" oleh Ressus Huerta de Soto: Buku yang terjangkau ini menyediakan pengantar komprehensif tentang evolusi pemikiran ekonomi Austria, mencakup konsep dan teori kunci.
-- "Human Action" oleh Ludwig von Mises: Dianggap sebagai karya utama sekolah Austria, karya ini menjelajahi secara mendalam dasar teoretis dari tindakan manusia dan ekonomi.
-- "The Use of Knowledge in Society" oleh Friedrich Hayek: Teks singkat ini meneliti bagaimana pengetahuan yang tersebar di masyarakat digunakan untuk memandu keputusan ekonomi, menyoroti pentingnya harga dan kompetisi.
-- Pidato penerimaan Nobel Joseph Schumpeter pada tahun 1974: Pidato ini memberikan gambaran umum tentang visi Schumpeter mengenai kewirausahaan, inovasi, dan kapitalisme.
-- "Capitalism, Socialism and Democracy" atau "The Theory of Economic Development" oleh Joseph Schumpeter: Buku-buku ikonik oleh Schumpeter ini mengeksplorasi dinamika kapitalisme, inovasi, dan siklus ekonomi.
-
-Selain bacaan ini, Anda juga dapat menemukan informasi tentang ekonomi Austria dengan menjelajahi sumber daya online. Mises Institute, yang berbasis di tenggara Amerika Serikat, menawarkan artikel dan video oleh ekonom terkenal. Akademi Savedin Amoos menawarkan seminar interaktif dengan tamu terkemuka, meskipun opsi ini berbayar. Di Prancis, orang-orang seperti Yorick de Montbin, Fergan Aziri, dan Richard Hamelin sering berbagi analisis dan diskusi tentang ekonomi Austria di berbagai saluran YouTube. Akhirnya, Bitcoin Institute juga bisa menjadi sumber informasi tentang aspek ekonomi yang terkait dengan Bitcoin.
-
-Dengan membaca karya-karya ini dan menjelajahi sumber daya online ini, Anda dapat mengembangkan pemahaman yang lebih dalam tentang prinsip dan ide kunci dari sekolah ekonomi Austria.
-
-# Kesimpulan
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Evaluasi kursus ini
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Ujian akhir
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Kesimpulan
 
 <chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>

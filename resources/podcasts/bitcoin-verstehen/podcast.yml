@@ -1,3 +1,4 @@
+id: ed1c946d-935a-4e21-bcdf-c65ca5e4f88c
 name: Bitcoin verstehen
 host: Manuel & Jonas
 language: de
@@ -11,9 +12,9 @@ description: |
   Daher versuchen wir in unseren wöchentlichen Episoden, die Grundlagen Bitcoins sowie dessen mannigfaltige Facetten zu beleuchten und vor allem auch einfach und verständlich mit dem Ziel darzustellen, dass ihr einen umfassenden und hoffentlich objektiven Blick auf Bitcoin erhaltet. Dabei lassen wir uns von verschiedenen Expertinnen und Experten unterstützen.
 
   Wir wünschen euch viel Spaß beim Hören!
+contributor_names:
+  - PaoloFoti
 tags:
   - easy-explain
-  - adoption
+  - high-level
   - user-friendly
-contributors:
-  - hunt-wood

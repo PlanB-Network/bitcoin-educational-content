@@ -530,39 +530,6 @@ Metoodika on majandusteaduses ja üldiselt sotsiaalteadustes oluline aspekt. See
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Edasised õpingud
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Palju õnne ECON 201 kursuse lõpetamise puhul! Loodan siiralt, et see oli nauditav ja avas teile uksi. Teie avastusreis Bitcoini maailmas on alles algus, ja ma kutsun teid uurima kõiki teisi ülikoolis saadaolevaid kursuseid.
-
-### Edasine lugemine
-
-Majanduslike ja sotsiaalsete nähtuste, eriti Austria majandusteooria mõistmise süvendamiseks, siin on mõned raamatusoovitused:
-
-- "The Austrian School" autorilt Ressus Huerta de Soto: See taskukohane raamat pakub põhjalikku sissejuhatust Austria majandusmõtte arengusse, käsitledes võtmetähtsusega kontseptsioone ja teooriaid.
-- "Human Action" autorilt Ludwig von Mises: Peetakse Austria koolkonna magnum opuseks, see teos uurib põhjalikult inimtegevuse ja majanduse teoreetilisi aluseid.
-- "The Use of Knowledge in Society" autorilt Friedrich Hayek: See lühitekst uurib, kuidas ühiskonnas hajutatud teadmisi kasutatakse majanduslike otsuste juhtimiseks, rõhutades hindade ja konkurentsi tähtsust.
-- Joseph Schumpeteri Nobeli preemia vastuvõtukõne 1974. aastal: See kõne annab ülevaate Schumpeteri nägemusest ettevõtlusest, innovatsioonist ja kapitalismist.
-- "Capitalism, Socialism and Democracy" või "The Theory of Economic Development" autorilt Joseph Schumpeter: Need ikoonilised raamatud Schumpeterilt uurivad kapitalismi, innovatsiooni ja majandustsüklite dünaamikat.
-
-Lisaks nendele lugemistele võite leida teavet Austria majanduse kohta, uurides veebiallikaid. Mises Instituut, mis asub Ameerika Ühendriikide kaguosas, pakub artikleid ja videoid tuntud majandusteadlastelt. Savedin Amoos Academy pakub interaktiivseid seminare silmapaistvate külalistega, kuigi see võimalus on tasuline. Prantsusmaal jagavad inimesed nagu Yorick de Montbin, Fergan Aziri ja Richard Hamelin sageli analüüse ja arutelusid Austria majanduse teemadel erinevatel YouTube'i kanalitel. Lõpuks võib ka Bitcoin Institute olla teabeallikas Bitcoini majandusaspektide kohta.
-
-Nende teoste lugemise ja nende veebiallikate uurimisega saate arendada sügavamat arusaama Austria majanduskooli põhiprintsiipidest ja ideedest.
-
-# Kokkuvõte
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Hinda seda kursust
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Lõpueksam
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Kokkuvõte
 

@@ -1,0 +1,9 @@
+question: Welche Open-Source-Software ist an ein professionelles Bitcoin-Zahlungssystem angepasst?
+answer: BTC Pay Server
+wrong_answers:
+  - Schweizer Bitcoin Pay
+  - Knotenpunkt öffnen
+  - Bitcoinize PoS
+explanation: |
+  BTC Pay Server wird im Kurs als die zentrale Open-Source-Lösung für Professional Setups aufgrund seiner umfangreichen Integrationsmöglichkeiten und Kontrolle hervorgehoben.
+reviewed: false

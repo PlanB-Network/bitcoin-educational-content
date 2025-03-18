@@ -1,6 +1,0 @@
-description: |
-  Wasabi Wallet je navržena pro ty, kteří si cení soukromí v světě, kde je sledování informací a jejich zneužívání na denním pořádku.
-
-  Jako software s nulovým poznáním zajišťuje, že transakce uživatele v bitcoinu zůstanou jeho soukromou záležitostí. Wasabi Wallet je open-source, což umožňuje komukoli ověřit nebo přispět do kódu. Její design je bezdůvěrný, což zajišťuje, že ani veřejnost, ani vývojáři nemohou narušit vaše soukromí. Peněženka je nezákonná, což vám umožňuje udržet kontrolu nad vašimi soukromými klíči a dosáhnout skutečné finanční suverenity. Přes své pokročilé funkce je Wasabi navržena tak, aby byla uživatelsky přívětivá a zvládala soukromí automaticky. Používá WabiSabi, schéma anonymních pověření, které činí coinjoins přístupnějšími a efektivnějšími. Navíc je cenově dostupná, účtuje skromný poplatek za coinjoining mincí nad 0.01 BTC, zatímco vstupy 0.01 BTC nebo nižší a remixy jsou od poplatků koordinátora osvobozeny.
-contributors:
-  - králičí díra

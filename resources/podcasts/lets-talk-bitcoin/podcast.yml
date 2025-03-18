@@ -1,3 +1,4 @@
+id: d33f7dc6-6c20-43bc-84b9-b03deda5809f
 name: Let's talk Bitcoin
 host: Andreas Antonopoulos
 language: en
@@ -8,8 +9,9 @@ links:
 description: |
   Speaking of Bitcoin (formerly known as Let’s Talk Bitcoin!) is the longest-running English language talk show on the ideas, people and projects surrounding the Bitcoin movement and Cryptocurrency phenomenon.
   Featuring analysis and discourse by hosts Andreas M. Antonopoulos, Dr. Stephanie Murphy, Adam B. Levine, and Jonathan Mohan, episodes feature friendly, in-depth discussions and even-handed interviews.
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - historical
+  - high-level
+  - deep-dive

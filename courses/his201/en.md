@@ -1339,14 +1339,6 @@ This mysterious aspect surrounding the creator of Bitcoin was well summarized by
 > What does the S stand for?"
 
 
-## Reviews & Ratings
-<chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Final Exam
-<chapterId>39e43ec2-5b38-5174-882a-c1f7d284b9e6</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## The Community Taking Over
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 
@@ -1477,6 +1469,7 @@ Thirdly, Bitcoin grew organically. It was able to develop discreetly, attracting
 Fourthly, Bitcoin was an altruistic creation. Satoshi Nakamoto offered Bitcoin to the world. He released the program under a free license. He sought neither fame, profit, nor power. He ensured the mining security of the network for more than a year, without asking for any compensation. Even though he accumulated more than a million bitcoins, he never spent them. He finally disappeared, mainly due to fears related to the attention created by the WikiLeaks case, leaving the project to rest on a community, without a single dominant figure.
 
 In 2011, Satoshi disappeared, but Bitcoin survived. The cryptocurrency even definitively took off, both from a media and economic viewpoint. The machine was launched and no one could stop it.
+
 # Conclusion
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 ## Reviews & Ratings

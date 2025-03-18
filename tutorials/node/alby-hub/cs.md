@@ -363,4 +363,4 @@ A to je vše, nyní víte, jak používat Lightning s vlastním uzlem pomocí n�
 
 Chcete-li podrobně pochopit všechny mechanismy blesku, které jsme v tomto tutoriálu použili, doporučuji vám, abyste si prohlédli naše bezplatné školení na toto téma :
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

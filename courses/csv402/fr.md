@@ -44,7 +44,7 @@ La dernière section est animée par d'autres intervenants qui présentent des a
 
 Cette formation est initialement issue d'un bootcamp de développement avancé de deux semaines à Viareggio, en Toscane, organisé par [Fulgur'Ventures](https://fulgur.ventures/). La première semaine, centrée sur Rust et les SDK, peut être retrouvée dans cet autre cours :
 
-https://planb.network/courses/lnp402
+https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 Dans ce cours, nous nous concentrons sur la deuxième semaine du bootcamp, qui porte sur RGB.
 
@@ -1601,7 +1601,7 @@ Le Lightning Network est un réseau décentralisé de canaux de paiements (ou _s
 
 Pour plus d’informations sur le fonctionnement de Lightning, je vous conseille de suivre cette autre formation :
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -2933,7 +2933,7 @@ Dans la réalité, le Lightning Network permet le routage de paiements via des c
 
 Le fonctionnement de RGB sur Lightning doit donc être considéré en parallèle avec celui du Lightning Network lui-même. Si vous désirez approfondir ce sujet, je vous recommande vivement de consulter cette autre formation complète :
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 ### Plan du code de RGB
@@ -3536,13 +3536,12 @@ Les opportunités ouvertes par cette compatibilité LN-RGB sont considérables :
 
 # Conclusion 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
-<isCourseConclusion>true</isCourseConclusion>
 
 
 ## Avis & Notes
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Mot de clôture
+## Conclusion 
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

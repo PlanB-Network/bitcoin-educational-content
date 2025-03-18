@@ -2287,8 +2287,21 @@ C_N$の要素であるメッセージ$m$を送りたい人は、単に次のよ�
 
 [4] 例えば、Jonathan Katz and Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), pp.410-32 on RSA encryption and pp.444-41 for RSA digital signatureを参照。
 
-## レビュー＆評価
+# まとめ
+
+<partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
+
+## レビューと評価
+
+<chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
+<isCourseReview>true</isCourseReview>
+ 
+## ファイナル・テスト
+
+<chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## まとめ
 
 <chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
-
-<isCourseConclusion>真</isCourseConclusion>。
+<isCourseConclusion>true</isCourseConclusion>

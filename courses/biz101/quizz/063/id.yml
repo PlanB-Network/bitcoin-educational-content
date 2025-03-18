@@ -1,0 +1,9 @@
+question: Skenario mana yang paling baik menggambarkan penggunaan profil Essential untuk pembayaran Bitcoin?
+answer: Sebuah restoran yang menerima beberapa pembayaran Bitcoin dalam sebulan
+wrong_answers:
+  - Perusahaan multinasional yang memproses ribuan transaksi setiap hari
+  - Pekerja lepas independen yang menerima pembayaran untuk faktur mereka dalam bitcoin
+  - Meja perdagangan Bitcoin dengan frekuensi tinggi
+explanation: |
+  Profil Essential menargetkan bisnis kecil hingga menengah dengan sedikit transaksi Bitcoin, seperti restoran.
+reviewed: false

@@ -159,6 +159,8 @@ objectives:
 
 Если эта тема вам совершенно неизвестна, обучение SCU 101 может быть интересным для детального изучения.
 
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+
 Крайне важно поддерживать ваш компьютер в оптимальном рабочем состоянии, независимо от того, интересуетесь вы Биткойн или нет. Обновление не только добавляет новые функции, оно также исправляет ошибки и повышает безопасность вашего программного обеспечения. Поэтому обязательно:
 
 - Всегда обновляйте ваше программное обеспечение,
@@ -601,16 +603,21 @@ BTC можно рассматривать как дорогу, по которо
 
 Актуальные учебные пособия по кошелькам:
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Варианты обмена:
 
-- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
-- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+
+https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 Если ходлер хочет пойти дальше, тогда он может реализовать план DCA, как стекер, и использовать горячий LN кошелек для траты некоторых биткойнов.
 
@@ -655,21 +662,27 @@ BTC можно рассматривать как дорогу, по которо
 
 Горячий кошелек для быстрого накопления
 
-- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
-- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Холодный кошелек для безопасного долгосрочного хранения
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Платформа DCA для накопления Биткойна.
 
-- [Relai](https://planb.network/tutorials/exchange/relai)
-- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+
+https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 Этот тип профиля также, конечно, может использовать брокера для совершения крупной покупки за один раз, как ходлер, но в целом, стэйкинг - это концепция регулярного добавления сатов в их кошелек. Более распространенным подходом было бы научиться использовать Биткойн в равноправном порядке и таким образом покупать Биткойн напрямую за наличные у друзей или членов сообщества Биткойна.
 
@@ -715,21 +728,27 @@ BTC можно рассматривать как дорогу, по которо
 
 Горячий кошелек LN
 
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
-- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
-- [Breez](https://planb.network/tutorials/wallet/breez)
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+
+https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 Холодный кошелек
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Платформа для покупки
 
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 ### Это для вас?
 
@@ -764,17 +783,24 @@ BTC можно рассматривать как дорогу, по которо
 ### Руководства:
 
 Горячий кошелек: 
-- [Samourai wallet](https://planb.network/tutorials/wallet/samourai)
+
+https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956
 
 Холодный кошелек:
-- [Coldcard](https://planb.network/tutorials/wallet/coldcard) 
-- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (сделай сам кошелек)
+
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
+https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
 
 Покупка без KYC между частными лицами: 
-- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [Bisq](https://planb.network/tutorials/exchange/bisq)
-- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 
 ### Это для вас?
@@ -796,8 +822,9 @@ BTC можно рассматривать как дорогу, по которо
 
 В менталитете параноидального человека осторожность, безопасность и анонимность имеют первостепенное значение. Эти приоритеты диктуют обдуманный и продуманный подход к использованию Биткойна, способствуя самодостаточности и осторожности. Параноидальный человек готов инвестировать время и усилия для обеспечения безопасности и конфиденциальности своих биткойнов, умело перемещаясь по экосистеме, чтобы избежать ненужного внимания. Хотя для некоторых это может показаться чрезмерной осторожностью, параноидальный человек считает свою добросовестность и внимание к деталям необходимыми для успешного и безопасного участия в мире Биткойна.
 
-# Будущее с Биткойном
-<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
+# Защита наследников и имущества
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Создание плана наследования
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
@@ -977,8 +1004,6 @@ BTC можно рассматривать как дорогу, по которо
 _Планирование наследования криптоактивов, Простое руководство для владельцев, Памела Морган, ESQ. Copyright 2018 by Merkle Bloom LLC, Все права защищены. CC-BY_ Большое спасибо Памеле Морган за ее ценную работу и за разрешение мне поделиться ею. Спасибо также всем, кто внес свой вклад в ее написание.
 Вы лучшие :D Моя команда и мои студенты также благодарят вас!
 
-# Благодарности и продолжайте изучать кроличью нору
-<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Поздравляем! ВЫ В ТОП 0.1%
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>

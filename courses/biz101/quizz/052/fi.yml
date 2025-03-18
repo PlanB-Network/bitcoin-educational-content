@@ -1,0 +1,9 @@
+question: Mitä yksityiskohtaa EI ole nimenomaisesti dokumentoitu tyypillisessä Bitcoin-tapahtuman csv-tiedostossa, kuten kurssilla kuvataan?
+answer: Käytetty komentosarjatyyppi
+wrong_answers:
+  - Tapahtuman päivämäärä
+  - Vastaava fiat-arvo
+  - Osallistuneet Bitcoin-osoitteet
+explanation: |
+  Tyypillinen Bitcoin-tapahtumien csv-tiedosto mainitsee yleensä päivämäärän, summan, fiat-ekvivalentin ja Bitcoin-osoitteet, mutta ei käytettyä skriptityyppiä.
+reviewed: false

@@ -1368,7 +1368,7 @@ Tutto ciò che accade nella società globale in cui viviamo è il risultato dell
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 
-## Valuta questo corso
+## Recensioni & Valutazioni
 
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
 <isCourseReview>true</isCourseReview>

@@ -723,7 +723,7 @@ La matemática de las curvas elípticas sobre campos finitos es análoga a la de
 
 Si deseas aprender más sobre los fundamentos matemáticos de la criptografía moderna, también recomiendo consultar este otro curso en Plan ₿ Network:
 
-https://planb.network/courses/cyp302
+https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Calculando la Clave Pública a partir de la Clave Privada
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
@@ -1125,7 +1125,7 @@ Si esta bandera de sighash se integra en Bitcoin, permitirá el uso de covenants
 
 Para profundizar tu conocimiento sobre la Red Lightning, después del curso CYP201, te recomiendo altamente el curso LNP201 por Fanis Michalakis, que cubre el tema en detalle:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 En la siguiente parte, propongo descubrir cómo funciona la frase mnemónica en la base de tu billetera Bitcoin.
 
@@ -1159,7 +1159,7 @@ Esta restricción proviene del modelo de privacidad de Bitcoin. Al reutilizar la
 
 Para aprender más sobre el modelo de privacidad de Bitcoin y descubrir métodos para proteger tu privacidad, también recomiendo seguir mi curso BTC204 en Plan ₿ Network:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Wallets (_Hierarchical Deterministic_)
 
@@ -2180,13 +2180,13 @@ Para convertir un valor en un carácter _bech32_ usando esta tabla, simplemente 
 Al mapear todos nuestros valores, obtenemos la siguiente dirección:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Todo lo que queda es añadir el HRP `bc`, que indica que es una dirección para la red principal de Bitcoin, así como el separador `1`, para obtener la dirección de recepción completa:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 La particularidad de este alfabeto _bech32_ es que incluye todos los caracteres alfanuméricos excepto `1`, `b`, `i` y `o` para evitar la confusión visual entre caracteres similares, especialmente durante su entrada o lectura por humanos.

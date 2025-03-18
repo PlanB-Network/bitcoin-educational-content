@@ -1,5 +1,4 @@
 question: Bitcoin duy trì thời gian trung bình như thế nào giữa việc tạo ra hai khối?
-  giữ nguyên?
 answer: Độ khó của việc tìm ra một hash hợp lệ được điều chỉnh sau mỗi 2016 khối.
 wrong_answers:
   - Số lượng người đào được điều chỉnh cố định.

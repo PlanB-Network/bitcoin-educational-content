@@ -1460,6 +1460,8 @@ Quelques recommandations :
 
 Pour suivre plus facilement l'évolution de votre portefeuille Bitcoin, il existe des outils permettant de mettre en place un wallet "watch-only". Cela vous permet, grâce aux clés publiques de votre portefeuille, de surveiller vos transactions et vos soldes, par exemple via une application mobile, sans compromettre la sécurité de vos clés privées qui restent stockées exclusivement sur votre hardware wallet.
 
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+
 Le plan d’investissement du hodler repose donc sur une stratégie simple mais rigoureuse : acheter, sécuriser, oublier. Son principal défi n’est pas technique, puisque la configuration d'un portefeuille est assez simple, mais psychologique : résister à la tentation de vendre trop tôt et ne pas se laisser influencer par la volatilité du marché.
 
 075
@@ -1474,71 +1476,159 @@ Si vous vous reconnaissez dans ces traits de personnalité, vous êtes probablem
 
 Le hodling reste une stratégie simple, efficace et accessible à tous les investisseurs, même débutants. Dans le prochain chapitre, nous allons étudier un profil similaire à celui du hodler : le stacker.
 
-## Le stacker
+## Le Stacker : accumuler des satoshis
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
-Dans Bitcoin, le concept de "Stacker" est assez connu. L'idée est simple : il n'y a que 21 millions de bitcoins, et chaque petit bitcoin compte ! Ce petit bitcoin est en réalité appelé un satoshi (ou SAT). Le stacker se donne pour objectif d'en accumuler un maximum.
+Dans l’écosystème Bitcoin, un stacker est une personne qui adopte une approche pour accumuler progressivement des satoshis (ou "sats"), la plus petite unité du BTC. Plutôt que d’investir une somme conséquente en une seule fois, le stacker achète régulièrement de petites quantités de bitcoins, quelles que soient les conditions du marché.
 
-![image](assets/tuto/11.webp)
+L'idée est simple : il n'y aura qu'environ 21 millions de bitcoins, et chaque fraction de bitcoin compte ! La mission que se fixe le stacker est d'accumuler autant de sats que possible.
 
-### Le plan
+076
 
-Pour y parvenir, il va essayer de maximiser son exposition au maximum. Il va donc créer un plan de DCA (Dollar-Cost Averaging) pour pouvoir acheter un peu chaque semaine. C'est la meilleure solution pour commencer à s'exposer à Bitcoin sans avoir un capital initial important. Que ce soit 10 € par semaine, 25 € par semaine ou 100 € par mois, l'important est d'accumuler des satoshis sans trop y réfléchir. Son plan sera assez simple :
+### Pourquoi adopter une stratégie de stacking ?
 
-1. Mise en place d'un portefeuille chaud.
-2. Mise en place d'un plan DCA sur une plateforme d'échange.
-3. Attendre et chercher d'autres solutions pour accumuler des satoshis.
+Le stacking est une méthode d’investissement particulièrement efficace pour les personnes souhaitant réduire leur exposition à la volatilité du marché tout en accumulant progressivement des bitcoins. Contrairement à un achat unique ou à une stratégie spéculative basée sur le "market timing", le stacker utilise généralement la technique du *Dollar-Cost Averaging* (DCA). Cette approche consiste à investir un montant fixe à intervalle régulier (chaque jour, semaine, mois...), indépendamment du prix du bitcoin à ce moment-là.
 
-D'autres solutions peuvent consister à commencer à vendre des biens ou des services en Bitcoin pour en accumuler davantage. Demander à être remboursé en Bitcoin auprès de ses amis ou commencer à s'impliquer dans l'écosystème pour être au plus près de la révolution.
+Les avantages du stacking :
 
-### Tutorials:
+- **Réduction de la volatilité** : En achetant de manière récurrente, le stacker réduit l'impact de la volatilité sur son investissement global, puisqu'il achète automatiquement plus d'unités quand les prix sont bas et moins quand ils sont élevé. Il lisse son prix moyen d’achat et réduit le stress lié aux fluctuations.
 
-Un portefuille chaud pour accumulé rapidement
+- **Accessibilité** : Pas besoin d’un capital important au départ. Il est possible de commencer avec ne serait-ce que 10 € par mois pour se faire la main, puis éventuellement augmenter le montant du DCA plus tard.
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+- **Discipline et automatisation** : Le stacking permet d’accumuler sans être influencé par les émotions du marché. L’automatisation des achats réduit énormément le risque de prise de décision irrationnelle.
+
+- **Stratégie idéale pour le long terme** : En investissant progressivement, le stacker maximise ses chances de capter les cycles haussiers tout en atténuant les risques sur les corrections.
+
+Cette méthode est **particulièrement adaptée aux débutants**, car elle permet d’entrer sur Bitcoin sans se soucier du prix et sans chercher à anticiper les mouvements du marché (une erreur courante chez les nouveaux investisseurs).
+
+### Plan d’investissement d’un Stacker
+
+L'objectif du stacker est d’établir une stratégie durable, automatisée et sécurisée, qui lui permette d’optimiser son accumulation sur une très longue période. Voici les étapes clés pour mettre en place votre plan d'investissement du stacker :
+
+#### 1. Choisir le type de portefeuille adapté
+
+Un stacker doit penser à la fois simplicité d’usage et sécurisation des fonds à long terme. Le choix du portefeuille est donc une étape importante.
+
+- **Hot Wallet** : Idéal pour débuter, un wallet mobile ou sur ordinateur permet de recevoir facilement ses premiers satoshis et d’effectuer des paiements si besoin. C’est une solution adaptée aux petits montants uniquement. Le stacker pourrait envisager d'utiliser un portefeuille Lightning, mais la gestion des portefeuilles on-chain sur ces applications est généralement moins efficace. Je recommanderais donc de privilégier un véritable logiciel de portefeuille on-chain. Exemples : Green Wallet, Blue Wallet, Sparrow Wallet...
+
+https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-Un portefeuille froid pour la sécurisation long terme
+https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.network/tutorials/wallet/mobile/nunchuk-fc1b553f-5298-4e75-9f34-8af19025f1b1
+
+https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
+
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+- **Hardware Wallet** : À mesure que l’accumulation progresse, il devient important de sécuriser les fonds sur un portefeuille froid pour réduire au maximum les risques de vol. Un stacker sérieux transfère régulièrement ses fonds de son portefeuille chaud vers un hardware wallet. Exemples : Bitbox02, Trezor, Ledger, Coldcard, Jade...
+
+https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
+https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
+https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+La stratégie la plus simple pour le stacker est d'utiliser un portefeuille chaud en combinaison avec un hardware wallet. Le stacker gère donc 2 portefeuilles Bitcoin distincts. Le premier sert à recevoir les sats achetés régulièrement, chaque semaine ou chaque mois, depuis la plateforme d'échange (ou encore mieux : en P2P). Le portefeuille chaud est facile et pratique à utiliser. Il permet de rapidement prendre possession de ses bitcoins pour ne pas les laisser sur la plateforme où ils pourraient être exposés à des risques. Cependant, comparé à un hardware wallet, le portefeuille chaud offre beaucoup moins de sécurité. Le stacker doit donc régulièrement transférer ses fonds vers son portefeuille froid pour sécuriser son épargne à long terme et éviter de conserver trop de fonds dans le portefeuille chaud. Lors de cette opération, le stacker peut également consolider ses UTXOs, c'est-à-dire regrouper plusieurs petits morceaux de bitcoins acquis en DCA en un seul gros UTXO sur le portefeuille froid.
 
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+077
 
-Une plateforme de DCA pour acculumuer du bitccoin.
+#### 2. Mettre en place un plan d'achat en DCA
+
+Le *Dollar-Cost Averaging* (DCA) est une stratégie d’investissement qui consiste à acheter des fractions de BTC à intervalles réguliers, quelle que soit le prix. Pour structurer efficacement un plan d'achat en DCA, 2 éléments doivent être déterminés :
+
+- **La fréquence d'achat** : Souhaitez-vous acheter chaque semaine, toutes les deux semaines, ou chaque mois ? Ce choix dépend de votre situation financière et de vos objectifs à long terme. Mais il est tout de même recommandé d’opter pour une fréquence pas trop courte, afin d’éviter la multiplication d’UTXOs de très petits montants, qui pourraient poser des problèmes d’optimisation des frais de transaction à l’avenir.
+
+- **Le montant de l'achat** : Votre budget d’accumulation doit être déterminé en fonction de votre capacité d’épargne et de la part de votre patrimoine que vous souhaitez allouer au bitcoin. Il faut adopter une approche réaliste pour éviter de surestimer votre capacité d’investissement et de vous mettre en difficulté financière. Le plus important dans une stratégie DCA n’est pas la somme investie à chaque cycle, mais la constance sur le long terme. Il vaut mieux investir un montant modéré de manière régulière sur plusieurs années que de se forcer à acheter des sommes trop importantes de manière irrégulière qui pourraient impacter votre équilibre financier. Ce montant pourra évidemment évoluer par la suite en fonction de l'évolution de votre capacité d'investissement.
+
+Ensuite, pour effectuer votre DCA, vous avez deux options : l'automatiser ou non. De nos jours, la plupart des plateformes d'échange régulées offrent la possibilité de mettre en place un DCA automatisé. Il vous suffit de disposer de suffisamment de monnaie fiat sur votre compte, et la plateforme exécutera automatiquement votre ordre d'achat selon les paramètres que vous avez définis. Il existe également de plus en plus de plateformes spécialisées dans l'automatisation du DCA, proposant des services supplémentaires comme le retrait automatique vers votre portefeuille en self-custody ou l'arrondi de vos dépenses quotidiennes. Si vous utilisez une plateforme régulée, je vous conseille vivement d'automatiser votre DCA pour une plus grande tranquillité d'esprit au quotidien.
+
+078
+
+Voici des exemple de plateformes spécialisées dans le DCA :
+
+https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
+https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
-Ce type de profile peut aussi bien evidement utilsier unbroker pour faire un gros achat d'un coup comme un holds, mais genement le stacking esty concepte de rajouter régulierement des sat a son portfeuille. Une approche plus courrente serait donc d'apprendre a utiliser bitcoin de facon pair a pair et ainsi acheter des bitcoin directement en cash avec des proche ou des membre de la communauté bitcoin
+Et voici quelques plateformes d'échange généralistes qui prennent en charge l'automatisation de DCA :
 
-### Est-ce pour vous ?
+https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-Portrait Psychologique du Stacker
+https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-- Stratégique et Organisé:
-  Le stacker est stratégique dans sa démarche d'accumulation de Bitcoin. Il planifie soigneusement ses investissements et est organisé dans la mise en œuvre de son plan de DCA.
+https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-- Focalisé sur les Objectifs :
-  Son objectif principal est clair : accumuler le plus de satoshis possible. Cette focalisation guide ses actions et ses décisions d'investissement, peu importe si le prix explose ou chute drastiquement.
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-- Connaissance Financière :
-  Il comprend l'importance de la diversification et de l'investissement régulier, minimisant ainsi le risque et optimisant les rendements potentiels. Ceci est possible par un lissage du prix et donc un désintérêt du cours.
+https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-- Proactif:
-  Recherche activement des opportunités supplémentaires pour gagner des Bitcoins, que ce soit en vendant des biens ou des services ou en explorant d'autres avenues dans l'écosystème Bitcoin.
+Le stacker peut également chercher à optimiser sa confidentialité, même si ce n'est pas son objectif principal. Dans ce cas, il devrait envisager d'utiliser une méthode d'acquisition en P2P, en dehors des plateformes régulées. Ces méthodes ne permettent pas d'automatiser l'achat en DCA. Par conséquent, il faudra faire preuve de discipline et suivre manuellement sa stratégie d'achat.
 
-Le stacker est un individu méthodique et focalisé, avec un plan clair pour maximiser son accumulation de satoshis. Il fait preuve de proactivité et de connaissance financière, cherchant constamment des moyens d'optimiser et de sécuriser ses investissements en Bitcoin. Son approche est marquée par une régularité et une organisation sans faille, le mettant sur la voie d'une croissance stable et continue de son portefeuille Bitcoin.
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-## L'utilisateur
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+#### 3. Retirer ses bitcoins et les sécuriser
+
+Une fois le portefeuille et l'achat récurrent mis en place, la tâche du stacker devient relativement simple. Il lui suffit de retirer ses bitcoins de la plateforme d'échange et de transférer régulièrement ses fonds vers son hardware wallet pour assurer une sécurisation à long terme. Puis, le stacker n'a plus qu'à patienter.
+
+#### 4. Patienter sur plusieurs cycles
+
+Comme le hodler, le stacker adopte une vision long terme, ce qui signifie qu’il doit résister aux fluctuations du marché et ne pas céder à la panique lors des corrections baissières ou des fortes hausses.
+
+Quelques recommandations :
+- Vérifier périodiquement l’état des portefeuilles, mais éviter les consultations trop fréquentes qui peuvent mener à des décisions impulsives ;
+- Ne pas vendre sous la pression des cycles baissiers, Bitcoin fonctionne par cycles, et les corrections sont normales dans un marché ;
+- Se tenir informé des évolutions de Bitcoin (notamment techniques), sans être influencé par les médias traditionnels qui alimentent souvent la peur lors des baisses de marché ;
+- Mettre en place un suivi régulier des portefeuilles : Maintenant que vos portefeuilles sont configurés, il est important de mettre en place un suivi régulier. De manière périodique, vérifiez que votre phrase mnémonique est toujours présente à son lieu de stockage et que son enveloppe opaque n’a pas été ouverte. Lors de ces contrôles, vous pouvez également ouvrir l’enveloppe pour examiner l’état du support. Assurez-vous qu’il n’est pas endommagé et que la phrase reste parfaitement lisible. Si vous constatez les moindres signes de dégradation, il est préférable de créer une nouvelle copie à partir de votre hardware wallet. Vous pouvez également vérifier le bon fonctionnement de vos hardware wallets régulièrement.
+
+080
+
+Pour suivre plus facilement l'évolution de vos portefeuilles Bitcoin, il existe des outils permettant de mettre en place un wallet "watch-only". Cela vous permet, grâce aux clés publiques de votre portefeuille, de surveiller vos transactions et vos soldes, par exemple via une application mobile, sans compromettre la sécurité de vos clés privées qui restent stockées exclusivement sur votre hardware wallet.
+
+https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+
+### Évaluer votre profil de stacker
+
+La stratégie du stacker repose sur plusieurs qualités essentielles qui permettent de maintenir une constance dans l’investissement, tout en évitant les pièges liés aux émotions et aux fluctuations du marché.
+
+- **Organisation** : Une gestion financière rigoureuse et une planification claire sont indispensables pour maintenir des achats récurrents sans perturber son budget personnel. Un stacker doit s’assurer que son plan d’accumulation est viable sur plusieurs années.
+
+- **Rigueur et discipline** : Stacker implique de respecter son plan d’investissement sans céder aux émotions. Modifier brutalement sa stratégie en fonction des mouvements soudains du marché peut nuire à l’efficacité du stacking. La régularité prime sur les ajustements impulsifs. Toutefois, il est tout de même possible d'effectuer des ajustements raisonnables, notamment si votre capacité d'investissement augmente.
+
+- **Patience** : Les bénéfices du stacking ne se manifestent pas immédiatement. Cette stratégie fonctionne sur des cycles longs, parfois plusieurs années, avant d’offrir des résultats tangibles. Ceux qui réussissent sont ceux qui savent attendre sans se laisser perturber par la volatilité à court terme.
+
+- **Connaissance financière** : Comprendre les bases du DCA, la gestion du risque et les fondamentaux du marché Bitcoin permet d’aborder l’investissement avec sérénité. Un stacker informé est moins sujet aux doutes et aux décisions irrationnelles en période de forte volatilité.
+
+- **Vision à long terme** : Un stacker a une conviction forte dans le potentiel technologique de Bitcoin. Il ne se focalise pas sur les variations à court terme, mais sur la croissance progressive de son portefeuille au fil des années.
+
+079
+
+En résumé, la stratégie du stacking convient à ceux qui souhaitent accumuler du bitcoin sur le long terme sans y passer trop de temps, et en réduisant les risques liés à la volatilité. Dans le prochain chapitre, nous allons étudier un profil de bitcoiner radicalement différent : l'utilisateur actif.
+
+## L'utilisateur actif
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 

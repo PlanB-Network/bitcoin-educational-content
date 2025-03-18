@@ -88,7 +88,7 @@ These cryptographic hash functions have several essential characteristics that m
 
 #### 1. Irreversibility (preimage resistance):
 
-Irreversibility means that it is easy to calculate the hash from the input information, but the inverse calculation, that is, finding the input from the hash, is practically impossible. This property makes hash functions perfect for creating unique digital fingerprints without compromising the original information. This characteristic is often referred to as a one-way function or a "_trap door function_".
+Irreversibility means that it is easy to compute the hash from the input information, but the inverse calculation, i.e., finding the input from the hash, is practically impossible. This property makes hash functions perfect for creating unique digital fingerprints without compromising the original information.
 
 In the given example, obtaining the hash `24f1b9…` by knowing the input "_PlanB_" is simple and quick. However, finding the message "_PlanB_" by only knowing `24f1b9…` is impossible.
 

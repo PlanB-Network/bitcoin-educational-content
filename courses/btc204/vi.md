@@ -346,7 +346,7 @@ Còn cách nào tốt hơn để chống lại phân tích blockchain hơn là t
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Trong phần này, chúng ta có thể rút ra sự tương đồng với mật mã học và phân tích mật mã. Một nhà mật mã học giỏi trước hết và quan trọng nhất là một nhà phân tích mật mã giỏi. Để thiết kế một thuật toán mã hóa mới, bạn cần biết thuật toán đó sẽ phải đối mặt với những cuộc tấn công nào và cũng cần nghiên cứu lý do tại sao các thuật toán trước đó đã bị phá vỡ. Nguyên tắc tương tự cũng áp dụng cho quyền riêng tư của Bitcoin. Hiểu các phương pháp phân tích chuỗi khối là chìa khóa để bảo vệ chống lại chúng. Đó là lý do tại sao tôi đã đưa toàn bộ một phần về phân tích chuỗi vào khóa đào tạo này.
 

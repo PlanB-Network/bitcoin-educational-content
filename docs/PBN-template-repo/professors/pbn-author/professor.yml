@@ -14,7 +14,7 @@ contributor_id: another-satoshi
 links:
   twitter: https://twitter.com/asi0_flammeus
   website: https://awesome.site
-  
+
 # tags
 # List the associated tags to the author
 # The list of tags is composed of 21 items that can be found here (list not yet available) 
@@ -36,5 +36,5 @@ company: ACME
 # List the closest affiliations the author has with any actors of the industry or else. 
 # Ideally the cited affiliations are present in the builders folder
 affiliations:
-  - ACME
-  - Awesome Company
+  - uuid
+  - uuid

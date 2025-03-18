@@ -346,7 +346,7 @@ Hvilken bedre måte å motvirke blockchain-analyse på enn å lære om metodene 
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Her kan vi trekke en analogi til kryptografi og kryptoanalyse. En god kryptograf er først og fremst en god kryptoanalytiker. For å utvikle en ny krypteringsalgoritme må du vite hvilke angrep den vil bli utsatt for, og du må også studere hvorfor tidligere algoritmer har blitt brutt. Det samme prinsippet gjelder for Bitcoin-personvern. Å forstå blokkjedeanalysemetoder er nøkkelen til å beskytte seg mot dem. Derfor har jeg inkludert en hel seksjon om kjedeanalyse i dette kurset.
 

@@ -6,8 +6,8 @@ links:
   trailer: https://youtu.be/QS1LToBuJNs
 description: |
   Mine more bitcoin with the Braiins mining ecosystem: mining pool, management system, custom firmware, hardware, education & more https://braiins.com
-contributors:
-  - hunt-wood
+contributor_names:
+  - PaoloFoti
 tags:
   - mining
   - hardware

@@ -22,11 +22,11 @@ Bitfinex 积极支持比特币的发展，投资于闪电网络等技术，推�
 
 有关使用和保护强大、独特密码的技巧，请参阅本教程 ：
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 现在我们要配置 2FA 以确保账户安全。使用智能手机上的身份验证应用程序，例如 Google Authenticator 或 Authy。有关该工具的教程请点击此处：
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 使用您的应用程序扫描 QR 码，然后输入所提供的 6 位数字。
 

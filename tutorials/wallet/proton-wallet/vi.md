@@ -14,7 +14,7 @@ Tính năng đặc biệt của ví này là khả năng gửi bitcoin bằng đ
 
 Để sử dụng Proton Wallet, bạn cần có tài khoản Proton. Bạn có thể tạo một tài khoản miễn phí bằng cách làm theo các bước đầu tiên của hướng dẫn này dành riêng cho việc tạo hộp thư Proton (chỉ phần "*Tạo tài khoản Proton*"). Sau khi tài khoản của bạn được thiết lập, bạn có thể tiếp tục phần còn lại của hướng dẫn này.
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Kết nối với Ví Proton
 

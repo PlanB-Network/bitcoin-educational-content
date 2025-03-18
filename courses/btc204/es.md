@@ -346,7 +346,7 @@ Así que también tenemos que ser capaces de hacer frente al análisis de blockc
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 En esto, podemos establecer una analogía con la criptografía y el criptoanálisis. Un buen criptógrafo es ante todo un buen criptoanalista. Para idear un nuevo algoritmo de cifrado, necesita saber a qué ataques se enfrentará y también estudiar por qué se han roto algoritmos anteriores. El mismo principio se aplica a la privacidad de Bitcoin. Comprender los métodos de análisis de blockchain es la clave para protegerse contra ellos. Por eso he incluido toda una sección sobre análisis de cadenas en este curso de formación.
 

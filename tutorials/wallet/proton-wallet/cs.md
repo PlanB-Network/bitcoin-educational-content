@@ -14,7 +14,7 @@ Zvláštností této peněženky je možnost posílat bitcoiny pomocí e-mailov�
 
 Chcete-li používat peněženku Proton, potřebujete účet Proton. Ten si můžete zdarma vytvořit podle prvních kroků tohoto návodu věnovaného vytvoření schránky Proton (pouze část "*Vytvoření účtu Proton*"). Jakmile máte účet zřízen, můžete pokračovat ve zbytku tohoto návodu.
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Připojení k peněžence Proton
 

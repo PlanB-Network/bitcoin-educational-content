@@ -6,8 +6,8 @@ links:
   trailer: https://youtu.be/SJ9E9SpFMqc
 description: |
   Explore software and hardware projects for bitcoin, news related to bitcoin, and technical developments in the bitcoin space.
-contributors:
-  - hunt-wood
+contributor_names:
+  - PaoloFoti
 tags:
   - development
   - innovation

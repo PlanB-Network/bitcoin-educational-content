@@ -148,7 +148,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-
 
 然后，您就可以选择身份验证方法来访问 2/2 多重身份验证的第二个密钥。在本教程中，我们将使用一个身份验证应用程序。如果你对这类应用程序不熟悉，我建议你参考我们的 Authy 教程：
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 选择 "*验证程序*"。
 

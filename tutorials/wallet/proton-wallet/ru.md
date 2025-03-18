@@ -14,7 +14,7 @@ Proton - швейцарская компания, специализирующа
 
 Чтобы пользоваться кошельком Proton, вам нужен аккаунт Proton. Вы можете создать его бесплатно, следуя первым шагам этого руководства, посвященного созданию почтового ящика Proton (только раздел "*Создание аккаунта Proton*"). После того как аккаунт будет создан, вы сможете продолжить работу с остальными частями этого руководства.
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Подключение к Proton Wallet
 

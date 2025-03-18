@@ -372,4 +372,4 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 Saya juga merekomendasikan tutorial lain yang menjelaskan cara menggunakan alat bantu RGB CLI yang dikembangkan oleh asosiasi LNP/BP untuk membuat kontrak RGB:
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

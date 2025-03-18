@@ -309,4 +309,4 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 我还推荐另一篇教程，其中我介绍了如何启动兼容 RGB 的闪电节点，以几乎即时的方式交换代币：
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

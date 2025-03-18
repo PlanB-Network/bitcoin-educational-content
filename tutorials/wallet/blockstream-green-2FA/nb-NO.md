@@ -148,7 +148,7 @@ Klikk på den grønne knappen "*Øk sikkerheten til kontoen din ved å legge til
 
 Deretter kan du velge autentiseringsmetode for å få tilgang til den andre nøkkelen i 2/2 multisig. I denne veiledningen bruker vi et autentiseringsprogram. Hvis du ikke er kjent med denne typen applikasjoner, anbefaler jeg at du leser vår veiledning om Authy :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Velg "*Autenticator Application*".
 

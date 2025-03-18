@@ -1120,7 +1120,9 @@ Una strategia graduale prevede acquisti ricorrenti, ovvero l'acquisto di piccole
 
 ![image](assets/en/74.webp)
 
-**Fate attenzione agli UTXO**: Ricordatevi di consolidare di tanto in tanto gli UTXO nei vostri wallet. Questa pratica è essenziale per gestire efficacemente i vostri bitcoin ed evitare inutili commissioni durante le transazioni.
+**Fate attenzione agli UTXO**: Ricordatevi di consolidare di tanto in tanto gli UTXO nei vostri wallet. Questa pratica è essenziale per gestire efficacemente i vostri bitcoin ed evitare inutili commissioni durante le transazioni. 
+
+Un [UTXO](https://planb.network/en/resources/glossary/utxo) è un output di una transazione che non è ancora stato speso, ovvero non è stato utilizzato come input per una nuova transazione. Consolidarli significa unire più UTXO di piccole dimensioni per formarne uno più grande, in modo da diminuire il "peso" della transazione, e quindi pagare meno commissioni.
 
 - Acquisto spontaneo
 

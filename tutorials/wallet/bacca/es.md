@@ -140,5 +140,5 @@ Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar ve
 
 También te recomiendo que eches un vistazo a este tutorial sobre GnuPG, que explica cómo comprobar la integridad y autenticidad de tu software antes de instalarlo. Se trata de una práctica importante, especialmente cuando se instala software de gestión de carteras como Liana o Sparrow :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

@@ -48,7 +48,7 @@ Scan the QR code with your authentication application, enter the 6-digit code an
 
 If you're not familiar with using authentication applications for the 2FA, I recommend you take a look at this tutorial on the Authy application:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Enter your password to confirm.
 

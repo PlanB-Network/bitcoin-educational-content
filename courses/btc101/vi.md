@@ -1107,11 +1107,11 @@ Chúng tôi sẽ đề cập chi tiết về chủ đề này trong một khóa 
 
 - Giải pháp trực tuyến đơn giản: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Giải pháp cho các thương gia nghiệp dư: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Giải pháp cho các công trình lớn hoặc những người đam mê bitcoin: Máy chủ BTCpay
 

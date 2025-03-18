@@ -148,7 +148,7 @@ Klik tombol hijau "*Tingkatkan keamanan akun Anda dengan menambahkan 2FA*".
 
 Anda kemudian dapat memilih metode autentikasi untuk mengakses kunci kedua dari multisig 2/2 Anda. Untuk tutorial ini, kita akan menggunakan aplikasi autentikasi. Jika Anda tidak terbiasa dengan jenis aplikasi ini, saya sarankan Anda membaca tutorial kami tentang Authy:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Pilih "*Aplikasi Autentikator*".
 

@@ -8,6 +8,3 @@ description: |
   Pour commencer avec LNbits, vous pouvez consulter leur documentation GitHub, leurs tutoriels YouTube et la ressource Awesome LNbits. La communauté LNbits est active et solidaire, offrant un groupe Telegram pour les utilisateurs et les développeurs pour échanger des idées, fournir de l'aide et contribuer au développement de ce logiciel gratuit et open-source.
 
   LNbits offre une solution flexible et extensible pour gérer les comptes Lightning Network et intégrer diverses fonctionnalités grâce à son framework d'extension.
-contributors:
-  - rabbit-hole
-  - another-satoshi

@@ -1,0 +1,108 @@
+id: c8ef7476-5f60-4205-935e-a545ced0022a
+
+project_id: 3ad86f15-94ef-401c-b708-b28c7767b9be
+
+category: others
+
+level: beginner
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-02-06
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0.84
+
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.21
+
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.69
+
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.69
+
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.69
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.21
+
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.21
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.74
+
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.69
+
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.27
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.21
+
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.69
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.21
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.74
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.27
+tags:
+  - business
+  - case-studies
+  - wallets

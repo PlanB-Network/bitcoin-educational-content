@@ -48,7 +48,7 @@ Skannaa QR-koodi todennussovelluksellasi, syötä 6-numeroinen koodi ja napsauta
 
 Jos et ole perehtynyt todennussovellusten käyttämiseen 2FA:ssa, suosittelen tutustumaan tähän Authy-sovellusta käsittelevään opetusohjelmaan:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Vahvista salasanasi syöttämällä se.
 

@@ -14,7 +14,7 @@ Protonは最近、モバイルアプリまたはウェブクライアントと�
 
 プロトンウォレットを使用するには、プロトンアカウントが必要です。プロトンのメールボックスを作成するためのこのチュートリアルの最初のステップ（「*プロトンアカウントの作成*」セクションのみ）に従えば、無料で作成できます。アカウントのセットアップが完了したら、このチュートリアルの残りの部分を続けることができます。
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## プロトン・ウォレットに接続する
 

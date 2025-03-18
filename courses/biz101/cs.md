@@ -995,15 +995,15 @@ Ačkoli profil Essential nevyžaduje vysoce sofistikované účetní systémy, j
 
 Nejvhodnějším hybridním řešením pro váš profil je pravděpodobně Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Dalším snadno implementovatelným řešením, jehož nevýhodou je, že je 100% správcovské, je Open Node:
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Pokud jste připraveni si zašpinit ruce a chcete mít proces plně pod kontrolou, je software BTCPay Server vynikající volbou. Hlavní nevýhodou BTCPay Serveru však je, že jeho nastavení a správa jsou časově náročné a vyžadují určitou úroveň technických znalostí, ale můžete se řídit našimi průvodci:
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Jako doplněk k fyzickým prodejním místům můžete zvážit zřízení [Bitcoinize PoS](https://bitcoinize.com/).
 

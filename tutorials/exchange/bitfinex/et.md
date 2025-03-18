@@ -22,11 +22,11 @@ Täitke nõutavad andmed: sisestage oma e-posti aadress ja elukohariik. Valige t
 
 Näpunäiteid tugevate ja unikaalsete paroolide kasutamise ja kaitsmise kohta leiate ka sellest õpetusest :
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Nüüd konfigureerime 2FA, et kaitsta kontot. Kasutage oma nutitelefonis autentimisrakendust, näiteks Google Authenticator või Authy. Selle tööriista õpetuse leiad siit :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Skaneeri QR-kood oma rakendusega ja sisesta 6 ettenähtud numbrit.
 

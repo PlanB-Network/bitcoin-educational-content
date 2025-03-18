@@ -81,7 +81,7 @@ Hvis du foretrekker å drive COLDCARD uten å koble det til en datamaskin (air-g
 
 For denne opplæringen trenger du også Sparrow Wallet for å administrere Bitcoin-lommeboken din på datamaskinen din. Last ned [Sparrow Wallet] (https://sparrowwallet.com/download/) fra den offisielle nettsiden. Jeg anbefaler på det sterkeste at du sjekker både autentisiteten (med GnuPG) og integriteten (via hash) før du fortsetter med installasjonen. Hvis du ikke vet hvordan du gjør dette, kan du følge denne veiledningen:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Valg av PIN-kode
 
@@ -161,7 +161,7 @@ På dette tidspunktet anbefaler vi på det sterkeste at du kontrollerer integrit
 
 Hvis du ikke er kjent med denne verifiseringsprosessen, anbefaler jeg at du følger denne veiledningen:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Ta et microSD-kort og overfør fastvarefilen (dokument i `.dfu`) til det. Sett microSD-kortet inn i en av portene på COLDCARD.
 

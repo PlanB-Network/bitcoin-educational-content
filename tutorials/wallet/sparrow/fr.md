@@ -24,7 +24,7 @@ Rendez-vous sur [la page de téléchargement officielle de Sparrow Wallet](https
 
 Il est important de vérifier l'intégrité et l'authenticité du logiciel avant son installation. Si vous ne savez pas comment le faire, vous trouverez un tutoriel complet ici :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Une fois Sparrow installé, vous pouvez ignorer les premiers écrans explicatifs pour accéder directement à l'écran de gestion des connexions.
 

@@ -565,6 +565,7 @@ Ora possiamo vedere che sia e1 che e2 sono a conoscenza dell'emissione dell'asse
 
 ```
 e1-cli listissuances
+
 e2-cli listissuances
 ```
 
@@ -652,6 +653,7 @@ Distruggere una quantità di un'asset è qualcosa che può fare chiunque detenga
 
 ```
 e2-cli destroyamount <asset-id>
+
 e2-cli getwalletinfo
 ```
 
@@ -1137,6 +1139,7 @@ Possiamo verificare che i portafogli siano stati aggiornati di conseguenza.
 
 ```
 e1-cli getwalletinfo
+
 e2-cli getwalletinfo
 ```
 

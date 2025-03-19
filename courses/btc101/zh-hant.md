@@ -1152,6 +1152,8 @@ https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-e
 
 **注意 UTXO 管理**：記得不時把您的 UTXOs 整合到您的錢包中。這種做法對於有效管理您的比特幣和避免交易過程中不必要的高額手續費是非常重要的。
 
+[UTXO](https://planb.network/en/resources/glossary/utxo) 是尚未被花費的交易輸出，也就是說，它尚未被用作新交易的輸入。合併它們意味著將多個小的 UTXO 合併成一個更大的，以減少交易的「重量」，從而支付更少的手續費。
+
 
 - 一次性購買
 

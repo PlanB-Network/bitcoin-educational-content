@@ -863,7 +863,7 @@ The hashrate of the Bitcoin network represents the number of attempts made per s
 
 The block header contains several elements such as the time, the difficulty target, the number of the last block, the version used, and the Merkle Root of the previous transactions.
 
-The **coinbase transaction** is always the first transcation included in a block: it contains the miner's reward for performing proof-of-work. Then come the validated transactions. Miners will choose to insert the transactions which give them the most profit, namely small-sized transactions with maximum fees.
+The **coinbase transaction** is always the first transaction included in a block: it contains the miner's reward for performing proof-of-work. Then come the validated transactions. Miners will choose to insert the transactions which give them the most profit, namely small-sized transactions with maximum fees.
 
 ### Miner compensation
 
@@ -1100,6 +1100,8 @@ This gradual strategy involves recurring purchases, meaning buying small amounts
 **Beware of UTXOs**: UTXOs, or "Unspent Transaction Outputs," are the building blocks of Bitcoin transactions. Simply put, UTXOs are the leftover bits of bitcoin from previous transactions that haven’t been spent yet. Think of them like coins or bills in your wallet — you can only spend what you have.
 
 Remember to consolidate your UTXOs in your wallets from time to time. This practice is essential for effectively managing your bitcoins and avoiding unnecessary fees during transactions.
+
+An [UTXO](https://planb.network/en/resources/glossary/utxo) is an output of a transaction that has not yet been spent, meaning it has not been used as an input for a new transaction. Consolidating them means combining several small UTXOs into one larger one, in order to decrease the "weight" of the transaction, and thus pay lower fees.
 
 - Spontaneous purchase
 

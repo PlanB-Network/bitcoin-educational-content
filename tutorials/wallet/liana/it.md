@@ -7,24 +7,24 @@ description: Impostazione e utilizzo di un portafoglio su Liana wallet
 In questo tutorial spiegheremo passo dopo passo come utilizzare l'applicazione Liana su un computer. Tra le altre cose, imparerete a impostare un piano di successione automatico, a ricevere e inviare dei bitcoin in situazioni normali e recuperare i fondi da un portafoglio esistente dopo un determinato periodo.
 
 Nel gennaio 2025, i portafogli hardware compatibili con Liana erano:
-- [BitBox02](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/tutorials/wallet/bitbox02/it.md);
-- [Blockstream Jade](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/tutorials/wallet/jade/it.md);
-- [Blockstream Jade Plus](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/tutorials/wallet/jade/it.md);
-- [COLDCARD MK4](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/tutorials/wallet/coldcard/it.md);
-- [COLDCARD Q](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/tutorials/wallet/coldcard-q/it.md);
-- [Ledger Nano S](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/tutorials/wallet/ledger/it.md);
-- [Ledger Nano S Plus](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/tutorials/wallet/ledger-nano-s-plus/it.md);
-- [Ledger Nano X](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/tutorials/wallet/ledger/it.md);
-- [Ledger Flex](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/tutorials/wallet/ledger-flex/it.md);
-- [Specter DIY](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/tutorials/wallet/specter-diy/it.md).
+- [BitBox02](https://planb.network/it/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c);
+- [Blockstream Jade](https://planb.network/it/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3);
+- [Blockstream Jade Plus](https://planb.network/it/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0);
+- [COLDCARD MK4](https://planb.network/it/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59);
+- [COLDCARD Q](https://planb.network/it/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3);
+- [Ledger Nano S](https://planb.network/it/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88);
+- [Ledger Nano S Plus](https://planb.network/it/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4);
+- [Ledger Nano X](https://planb.network/it/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88);
+- [Ledger Flex](https://planb.network/it/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a);
+- [Specter DIY](https://planb.network/it/tutorials/wallet/hardware/specter-diy-87993e31-233e-42f8-9aea-e2128049e2dc).
 
-Se desiderate recuperare fondi da un portafoglio Liana esistente, leggete la presentazione qui sotto e andate direttamente alla sezione _"Recupero dei bitcoin"_.
+Se desiderate recuperare fondi da un portafoglio Liana esistente, leggete la presentazione qui sotto e andate direttamente alla sezione "Recupero dei bitcoin".
 
 ## Presentazione del software Liana
 
-Liana è un pacchetto software open-source progettato per la creazione e la gestione di portafogli avanzati, in particolare come parte di un sistema di eredità automatizzato o di un robusto meccanismo di backup. Il progetto è stato sviluppato a partire dal 2022 da Wizardsardine, una società co-fondata da Kévin Loaec e Antoine Poinsot. Sul sito ufficiale, Liana viene presentato come _"un semplice portfolio per la cura personale, con funzionalità di recupero ed ereditarietà"_. Il software funziona su computer `Linux`, `MacOS`, `Windows` - e il suo codice sorgente (aperto) è disponibile [su GitHub](https://github.com/wizardsardine/liana).
+Liana è un pacchetto software open-source progettato per la creazione e la gestione di portafogli avanzati, in particolare come parte di un sistema di eredità automatizzato o di un robusto meccanismo di backup. Il progetto è stato sviluppato a partire dal 2022 da Wizardsardine, una società co-fondata da Kévin Loaec e Antoine Poinsot. Sul sito ufficiale, Liana viene presentato come "un semplice portfolio per la cura personale, con funzionalità di recupero ed ereditarietà". Il software funziona su computer -- Linux, MacOS, Windows -- e il suo codice sorgente (aperto) è disponibile [su GitHub](https://github.com/wizardsardine/liana).
 
-Liana si basa sulla programmabilità di Bitcoin per creare un portafoglio avanzato. In particolare, sfrutta i blocchi temporali (_timelocks_), che consentono di spendere i fondi solo una volta trascorso un determinato periodo di tempo e che sono coinvolti nel recupero dei bitcoin. Un portafoglio Liana è quindi composto da diversi percorsi di spesa:
+Liana si basa sulla programmabilità di Bitcoin per creare un portafoglio avanzato. In particolare, sfrutta i blocchi temporali (timelocks), che consentono di spendere i fondi solo una volta trascorso un determinato periodo di tempo e che sono coinvolti nel recupero dei bitcoin. Un portafoglio Liana è quindi composto da diversi percorsi di spesa:
 
 - Un percorso di spesa principale, sempre disponibile;  
 - Almeno un percorso di recupero, che diventa accessibile dopo un certo tempo.
@@ -38,7 +38,7 @@ Questa operazione consente di impostare varie configurazioni, tra cui:
 
 - Un piano di successione (o eredità) che consente agli eredi di recuperare i fondi in caso di morte dell'utente. Per maggiori informazioni su questo argomento, si consiglia la lettura della [parte 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) del corso BTC102.
 - Un backup rinforzato con un tempo di ripristino, che offre all'utente la possibilità di utilizzare il proprio portafoglio senza dover conservare la frase segreta corrispondente e rischiare di vederselo rubare, ad esempio durante un furto.
-- Una rete di sicurezza per le persone che iniziano a utilizzare i bitcoin: esse gestiranno il proprio portafoglio e il loro _"tutore"_ (un parente, ad esempio) si riserverà il diritto di recuperare i loro fondi dopo un determinato periodo.
+- Una rete di sicurezza per le persone che iniziano a utilizzare i bitcoin: esse gestiranno il proprio portafoglio e il loro "tutore" (un parente, ad esempio) si riserverà il diritto di recuperare i loro fondi dopo un determinato periodo.
 - Uno schema di firma multiparte (_multisig_) con requisiti ridotti nel tempo, per far fronte alla scomparsa di uno o più partecipanti, come ad esempio i soci di un'azienda.
 
 Il grande punto di forza di Liana è che introduce una modalità standardizzata per garantire il recupero dei fondi in caso di perdita della chiave principale, utilizzata per le spese correnti. Si tratta di un'enorme innovazione per la custodia pulita dei fondi, che è piena di rischi, soprattutto se non si è ben informati sull'argomento. Liana potrebbe quindi incoraggiare anche gli utenti più avversi al rischio a non utilizzare più un depositario (come una piattaforma di scambio) per custodire i propri fondi e a rientrare in possesso del proprio denaro, in linea con l'etica cypherpunk di Bitcoin.
@@ -62,18 +62,18 @@ https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 
 - Due supporti di memoria (chiavette USB) per memorizzare il descrittore del portafoglio;
 - Una lettera di successione, contenente le istruzioni per il recupero dei fondi;
-- Un sacchetto numerato e sigillato, per garantire che il dispositivo di recupero (la Giada) non sia stato utilizzato.
+- Un sacchetto numerato e sigillato, per garantire che il dispositivo di recupero (il Jade) non sia stato utilizzato.
 
 ## Installazione e configurazione
 
-Visitate il sito ufficiale di Wizardsardine e scaricate Liana [all'indirizzo](https://wizardsardine.com/liana/). È anche possibile scaricare l'ultima versione [dal repository GitHub](https://github.com/wizardsardine/liana/releases), dove è possibile verificare l'autenticità del software. La versione usata in questo tutorial è la 0.9.
+Visitate il sito ufficiale di Wizardsardine e scaricate Liana all'indirizzo https://wizardsardine.com/liana/. È anche possibile scaricare l'ultima versione [dal repository GitHub](https://github.com/wizardsardine/liana/releases), dove è possibile verificare l'autenticità del software. La versione usata in questo tutorial è la 0.9.
 
 ![Télécharger Liana](assets/fr/02.webp)
 
 Per sapere come verificare manualmente l'autenticità e l'integrità del software prima dell'installazione, vi consigliamo di consultare questo tutorial:
 
 https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
-Installare il software sul computer e avviarlo. Scegliere l'opzione _"Crea un nuovo portafoglio Liana"_ per configurare il portafoglio.
+Installare il software sul computer e avviarlo. Scegliere l'opzione "*Crea un nuovo portafoglio Liana*" per configurare il portafoglio.
 
 ![Accueil Liana](assets/fr/03.webp)
 
@@ -93,29 +93,29 @@ Una volta letta la spiegazione, sarete in grado di impostare le chiavi del vostr
 
 ![Configurer clés](assets/fr/06.webp)
 
-Innanzitutto, nel menu _"Impostazioni avanzate"_ è possibile decidere il _"tipo di descrittore"_, ossia il modo in cui il contratto verrà scritto sulla catena. È possibile scegliere tra due tipi: P2WSH (SegWit) o Taproot. In entrambi i casi, la semantica delle condizioni di spesa sarà la stessa. Mentre P2WSH rende il contratto più facile da capire, Taproot è superiore in quanto nasconde le condizioni non utilizzate e risparmia costi durante il recupero.
+Innanzitutto, nel menu "Impostazioni avanzate" è possibile decidere il "tipo di descrittore", ossia il modo in cui il contratto verrà scritto sulla catena. È possibile scegliere tra due tipi: P2WSH (SegWit) o Taproot. In entrambi i casi, la semantica delle condizioni di spesa sarà la stessa. Mentre P2WSH rende il contratto più facile da capire, Taproot è superiore in quanto nasconde le condizioni non utilizzate e risparmia costi durante il recupero.
 
 Questa scelta è facoltativa: in caso di dubbio, lasciare l'opzione predefinita (P2WSH nel caso della versione 0.9, ma è soggetta a modifiche).
 
 ![Choisir le type de descripteur](assets/fr/07.webp)
 
-Quindi, configurare la chiave primaria (_chiave primaria_). Questa chiave (o meglio, questo insieme di chiavi) sarà utilizzata per la spesa corrente dei fondi, che non è soggetta ad alcuna condizione temporale. Facendo clic su _"Impostazione"_, è possibile selezionare il corrispondente _dispositivo di firma_. Nel nostro caso, abbiamo scelto il portafoglio hardware Ledger Nano S Plus.
+Quindi, configurare la chiave primaria (_chiave primaria_). Questa chiave (o meglio, questo insieme di chiavi) sarà utilizzata per la spesa corrente dei fondi, che non è soggetta ad alcuna condizione temporale. Facendo clic su _"Impostazioni"_, è possibile selezionare il corrispondente _dispositivo di firma_. Nel nostro caso, abbiamo scelto il portafoglio hardware Ledger Nano S Plus.
 
-Autorizzare la condivisione della chiave pubblica estesa del dispositivo. Assegnare a questa chiave un nome significativo (in questo caso, _"Nano S+"_). Tutte le applicazioni installate sul dispositivo continueranno a funzionare normalmente.
+Autorizzare la condivisione della chiave pubblica estesa del dispositivo. Assegnare a questa chiave un nome significativo (in questo caso, "Nano S+"). Tutte le applicazioni installate sul dispositivo continueranno a funzionare normalmente.
 
 ![Configurer clé principale](assets/fr/08.webp)
 
 Quindi, impostare il ritardo di rimborso, cioè il tempo dopo il quale i fondi possono essere spesi dalla _chiave di eredità_. Questo ritardo è definito in termini di blocchi, con ogni blocco separato da una media di 10 minuti. Può variare da 10 minuti (1 blocco) a circa 15 mesi (65.535 blocchi). Questo limite superiore è una limitazione del protocollo Bitcoin, poiché il tempo di blocco è codificato su 16 bit.
 
-Salvo circostanze particolari, optate per il tempo di consegna più lungo: 15 mesi o 65.535 blocchi. Questo vi farà risparmiare sui costi. Vi consigliamo comunque di eseguire la procedura di aggiornamento (descritta nella sezione _"Aggiornamento del portafoglio"_) una volta all'anno, sempre nello stesso periodo dell'anno, per _"ritualizzare"_ questa pratica ed evitare dimenticanze.
+Salvo circostanze particolari, optate per il tempo di consegna più lungo: 15 mesi o 65.535 blocchi. Questo vi farà risparmiare sui costi. Vi consigliamo comunque di eseguire la procedura di aggiornamento (descritta nella sezione "Aggiornamento del portafoglio" una volta all'anno, sempre nello stesso periodo dell'anno, per "ritualizzare" questa pratica ed evitare dimenticanze.
 
 Qui abbiamo impostato un tempo di recupero di un'ora (6 blocchi) per eseguire i nostri test.
 
 ![Configurer temps de verrouillage](assets/fr/09.webp)
 
-Infine, impostate la vostra chiave di proprietà. Questa chiave (o meglio, insieme di chiavi) sarà utilizzata per recuperare i fondi in caso di scomparsa. Cliccare su _"Imposta"_, scegliere il dispositivo di firma e convalidare la condivisione della chiave pubblica estesa su di esso.
+Infine, impostate la vostra chiave di proprietà. Questa chiave (o meglio, insieme di chiavi) sarà utilizzata per recuperare i fondi in caso di scomparsa. Cliccare su "Impostazioni", scegliere il dispositivo di firma e convalidare la condivisione della chiave pubblica estesa su di esso.
 
-Per questa esercitazione abbiamo scelto Jade. Assegnate alla chiave un nome evocativo (qui _"Jade"_). Come per il primo dispositivo, i conti convenzionali continueranno a funzionare.
+Per questa esercitazione abbiamo scelto Jade. Assegnate alla chiave un nome evocativo (qui "Jade"). Come per il primo dispositivo, i conti convenzionali continueranno a funzionare.
 
 ![Configurer clé de succession](assets/fr/10.webp)
 
@@ -147,7 +147,7 @@ Le informazioni del portafoglio sono state registrate e non resta che configurar
 
 ![Sélectionner connexion réseau](assets/fr/15.webp)
 
-Abbiamo scelto di usare il nostro nodo. È possibile utilizzare un nodo esistente o installare un nodo _"pruned"_ sulla propria macchina. Se non avete accesso ad altri nodi, installate il vostro nodo sulla vostra macchina, il che richiederà un po' di tempo (dell'ordine di alcuni giorni).
+Abbiamo scelto di usare il nostro nodo. È possibile utilizzare un nodo esistente o installare un _"pruned node"_ sulla propria macchina. Se non avete accesso ad altri nodi, installate il vostro nodo sulla vostra macchina, il che richiederà un po' di tempo (dell'ordine di alcuni giorni).
 
 ![Choisir type de nœud](assets/fr/16.webp)
 
@@ -183,7 +183,7 @@ La schermata principale di Liana mostra il saldo e le transazioni (passate e cor
 
 ![Écran principal](assets/fr/20.webp)
 
-Per ricevere i fondi, andare alla scheda _"Ricezione"_ e cliccare su _"Generazione indirizzo"_. Sullo schermo dovrebbe apparire un nuovo indirizzo. È più lungo di quello dei portafogli tradizionali: **è un indirizzo collegato a un contratto autonomo** (P2WSH o Taproot).
+Per ricevere i fondi, andare alla scheda _"Ricezione"_ e cliccare su _"Generazione indirizzo"_. Sullo schermo dovrebbe apparire un nuovo indirizzo. È più lungo di quello dei portafogli tradizionali: è un indirizzo collegato a un contratto autonomo (P2WSH o Taproot).
 
 ![Générer nouvelle adresse](assets/fr/21.webp)
 
@@ -195,20 +195,21 @@ Una volta inviati i fondi, la transazione appare nella schermata principale (pri
 
 ![Vérifier solde](assets/fr/23.webp)
 
-È possibile controllare lo stato di scadenza dei propri fondi accedendo alla scheda _"Coins"_. Questa scheda mostra le diverse monete (UTXO) presenti nel vostro portafoglio. Qui possiamo vedere che la moneta da 50.000 satoshis creata dalla nostra transazione scade lo stesso giorno (tra un'ora).
+È possibile controllare lo stato di scadenza dei propri fondi accedendo alla scheda _"Coins"_. Questa scheda mostra le diverse monete (UTXO) presenti nel vostro portafoglio. Qui possiamo vedere che la moneta da 50.000 satoshis creata dalla nostra transazione scade lo stesso giorno (dopo un'ora).
 
 ![Obtenir informations pièce](assets/fr/24.webp)
 
-Per comprendere meglio il modello di rappresentazione UTXO utilizzato in Bitcoin, è possibile consultare la prima parte del corso sulla riservatezza in Bitcoin scritto da Loïc Morel :
+Per comprendere meglio il modello di rappresentazione UTXO utilizzato in Bitcoin, è possibile consultare la prima parte del corso sulla riservatezza in Bitcoin scritto da Loïc Morel:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Spese correnti
 
 La spesa corrente è la situazione normale per l'utilizzo di Liana. L'invio dei bitcoin con la chiave master funziona come in tutti i portafogli Bitcoin classici, come Electrum o Sparrow.
 
 Per effettuare un addebito, accedere alla scheda _"Invio"_ e inserire le informazioni essenziali: l'indirizzo BTC del destinatario, l'importo da inviare e la tariffa desiderata. È inoltre possibile aggiungere una descrizione (salvata in locale) per comodità personale. Nel nostro esempio, abbiamo inviato 10.000 satoshi a un certo Bob, per un tasso di addebito di 4 sat/vb, ovvero 0,67 dollari al momento della transazione.
 
-Liana offre anche il _"controllo delle monete"_ (coin control): si indica quale moneta (UTXO) si desidera spendere. Qui abbiamo scelto la moneta da 50.000 satoshi creata in precedenza.
+Liana offre anche il "coin control" (controllo delle monete): si indica quale moneta (UTXO) si desidera spendere. Qui abbiamo scelto la moneta da 50.000 satoshi creata in precedenza.
 
 ![Envoyer fonds clé principale](assets/fr/25.webp)
 
@@ -228,7 +229,7 @@ La transazione viene visualizzata nella schermata principale e il saldo viene ag
 
 Come spiegato in precedenza, il portafoglio Liana richiede di aggiornare regolarmente i propri fondi eseguendo una transazione sulla blockchain. Se non lo fate, i vostri fondi possono essere recuperati dal vostro erede (o dal vostro secondo dispositivo nel caso di un backup avanzato). Questa situazione non è estremamente pericolosa, ma vanifica lo scopo della creazione di questo meccanismo: mantenere il controllo dei propri bitcoin senza ricorrere a una terza parte fidata, beneficiando di una rete di sicurezza.
 
-Prima che i fondi (o parte di essi) scadano e possano essere spesi con la chiave di recupero, verrà visualizzato un avviso. Indica che il _"percorso di recupero"_ (_recovery path_) sarà presto disponibile. Data la brevità del nostro tempo di recupero (un'ora), questo messaggio viene visualizzato direttamente nel nostro caso.
+Prima che i fondi (o parte di essi) scadano e possano essere spesi con la chiave di recupero, verrà visualizzato un avviso. Indica che il "recovery path" (percorso di recupero) sarà presto disponibile. Data la brevità del nostro tempo di recupero (un'ora), questo messaggio viene visualizzato direttamente nel nostro caso.
 
 ![Avertissement chemin récupération](assets/fr/29.webp)
 
@@ -254,7 +255,7 @@ Una volta confermata, il tuo UTXO è al sicuro! Potete stare tranquilli fino all
 
 Quando si recuperano fondi dal portafoglio Liana, ci si può trovare di fronte a due situazioni. Potreste avere accesso al computer su cui è installato il software, nel qual caso non dovrete fare altro che aprirlo (cosa che avverrà nel caso del modello di backup avanzato). Tuttavia, è possibile che non si abbia accesso a questo computer, quindi si partirà da zero. La procedura di ripristino è la stessa in entrambi i casi.
 
-Per iniziare, scaricate Liana da [il sito ufficiale di Wizardsardine](https://wizardsardine.com/liana/), o da [il repository GitHub](https://github.com/wizardsardine/liana/releases), dove potete verificare l'autenticità del software. Installare il software ed eseguirlo. La versione utilizzata nel nostro caso è la 0.9, quindi la grafica potrebbe essere cambiata. Nella schermata di benvenuto, selezionare l'opzione _"Aggiungi un portafoglio Liana esistente"_.
+Per iniziare, scaricate Liana da [il sito ufficiale di Wizardsardine](https://wizardsardine.com/liana/), o da [il repository GitHub](https://github.com/wizardsardine/liana/releases), dove potete verificare l'autenticità del software. Installare il software ed eseguirlo. La versione utilizzata nel nostro caso è la 0.9, quindi la grafica potrebbe essere cambiata. Nella schermata di benvenuto, selezionare l'opzione "Aggiungi un portafoglio Liana esistente".
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)
 
@@ -280,7 +281,7 @@ Controllare e salvare il descrittore nel dispositivo di firma selezionandolo sul
 
 ![Enregistrer descripteur sur l'appareil de récupération](assets/fr/38.webp)
 
-Configurare il nodo. È possibile utilizzare un nodo esistente o installare un nodo _"pruned"_ sulla propria macchina. Nel nostro caso, abbiamo usato un nodo esistente.
+Configurare il nodo. È possibile utilizzare un nodo esistente o installare un _"pruned node"_ sulla propria macchina. Nel nostro caso, abbiamo usato un nodo esistente.
 
 ![Choisir type de nœud](assets/fr/39.webp)
 
@@ -330,7 +331,7 @@ Da questo descrittore si possono estrarre le seguenti informazioni:
 - `pk` (abbreviazione di _public key_): Questo operatore verifica una data firma rispetto alla seguente chiave pubblica e fornisce una risposta booleana (VERO o FALSO).
 - `[3689a8e7/48'/0'/0'/2']`: Questo elemento include l'_impronta digitale_ della chiave master per il portafoglio hardware principale (in questo caso il Nano S Plus) e il percorso di derivazione della chiave privata estesa collegata (da cui derivano tutte le altre chiavi private).
 - `xpub6FKY ... WQa`: È la chiave pubblica estesa collegata al portafoglio hardware principale (qui il Nano S Plus)
-- `/<0;1>/*`: Questi sono i percorsi di derivazione per ottenere chiavi e indirizzi semplici: `0` per la ricezione, `1` per le operazioni interne (_cambiamento_), con un _"jolly"_ (`*`) che consente la derivazione sequenziale di più indirizzi in modo configurabile, simile alla gestione del _"gap limit"_ dei classici software di portafoglio.
+- `/<0;1>/*`: Questi sono i percorsi di derivazione per ottenere chiavi e indirizzi semplici: `0` per la ricezione, `1` per le operazioni interne (_cambiamento_), con un "jolly" (`*`) che consente la derivazione sequenziale di più indirizzi in modo configurabile, simile alla gestione del "gap limit" dei classici software di portafoglio.
 - `e_v`: È un operatore logico che indica che _le due seguenti_ condizioni devono essere soddisfatte affinché la spesa sia accettata (la `_v` indica una particolare sintassi).
 - `v:pkh` (abbreviazione di _verifica: hash di chiave pubblica_): Questo operatore verifica una firma e una chiave pubblica date rispetto all'hash della chiave pubblica (_hash_) che segue. Si tratta essenzialmente dello stesso controllo degli script P2PKH e P2WPKH.
 - `[42e629dd/48'/0'/0'/2']`: Si tratta dello stesso elemento di cui sopra (costituito dalla traccia e dal percorso di derivazione), con l'eccezione che viene indicata la traccia della chiave master del portafoglio di recupero hardware (in questo caso il Jade).

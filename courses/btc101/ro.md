@@ -178,9 +178,9 @@ Funcția lor în lumea noastră este dificil de reprodus artificial. De fapt, ni
 Din aceste motive, aurul ca monedă este rezultatul a 4.000 de ani de darwinism monetar bazat pe următoarele funcții aristotelice:
 
 
-- Depozit de valoare**: banii pot fi utilizați pentru a transfera puterea de cumpărare în viitor, deci trebuie să fie un material durabil;
-- Mijloc de schimb**: banii pot fi folosiți în schimbul bunurilor și serviciilor în loc de troc, evitându-se astfel coincidența dorințelor între comercianți;
-- Unitate de cont**: banii ne permit, de asemenea, să comparăm valorile diferitelor bunuri pentru a înțelege mai bine utilitatea lor relativă.
+- **Depozit de valoare**: banii pot fi utilizați pentru a transfera puterea de cumpărare în viitor, deci trebuie să fie un material durabil;
+- **Mijloc de schimb**: banii pot fi folosiți în schimbul bunurilor și serviciilor în loc de troc, evitându-se astfel coincidența dorințelor între comercianți;
+- **Unitate de cont**: banii ne permit, de asemenea, să comparăm valorile diferitelor bunuri pentru a înțelege mai bine utilitatea lor relativă.
 
 ![image](assets/en/08.webp)
 
@@ -199,9 +199,9 @@ Pentru a explica mai bine acest concept, vom analiza caracteristicile unei moned
 ![image](assets/en/11.webp)
 
 
-- Fungibilitate**, ceea ce înseamnă că este interschimbabil cu o altă unitate de același tip fără a-și pierde valoarea;
-- Divizibilitate**, deoarece poate fi împărțit în unități mai mici pentru a facilita tranzacțiile de volume diferite;
-- Lichiditate**, ceea ce înseamnă că este ușor convertibil în bunuri sau servicii.
+- **Fungibilitate**, ceea ce înseamnă că este interschimbabil cu o altă unitate de același tip fără a-și pierde valoarea;
+- **Divizibilitate**, deoarece poate fi împărțit în unități mai mici pentru a facilita tranzacțiile de volume diferite;
+- **Lichiditate**, ceea ce înseamnă că este ușor convertibil în bunuri sau servicii.
 
 Pentru a îndeplini aceste criterii, moneda a evoluat istoric prin diferite etape:
 
@@ -572,18 +572,18 @@ De fapt, nu există un răspuns sau o soluție universală, așa că faceți-vă
 În continuare, vom defini mai multe niveluri de securitate:
 
 
-- La nivelul 0**, utilizați un așa-numit "serviciu de custodie" în cadrul căruia nu sunteți singurul deținător al bitcoinilor dumneavoastră. Fiți conștienți de faptul că această terță parte de încredere vă poate restricționa accesul la fondurile dvs. în orice moment. În acest caz, nivelul dvs. de suveranitate financiară este similar cu cel al unui sistem bancar tradițional cu un cont bancar.
+- **La nivelul 0**, utilizați un așa-numit "serviciu de custodie" în cadrul căruia nu sunteți singurul deținător al bitcoinilor dumneavoastră. Fiți conștienți de faptul că această terță parte de încredere vă poate restricționa accesul la fondurile dvs. în orice moment. În acest caz, nivelul dvs. de suveranitate financiară este similar cu cel al unui sistem bancar tradițional cu un cont bancar.
 
 ![image](assets/en/31.webp)
 
 
-- La nivelul 1**, utilizați un portofel Bitcoin pe telefon sau computer, unde sunteți singurul deținător al bitcoinilor dvs. și puteți efectua cu ușurință tranzacțiile. Instrumentul menționat anterior este denumit "hot wallet", deoarece cheia privată este stocată pe un dispozitiv cu acces la internet. În acest caz, este esențial să vă salvați fraza mnemonică pentru a avea din nou acces la fondurile dvs. în cazul în care vă pierdeți telefonul sau computerul.
+- **La nivelul 1**, utilizați un portofel Bitcoin pe telefon sau computer, unde sunteți singurul deținător al bitcoinilor dvs. și puteți efectua cu ușurință tranzacțiile. Instrumentul menționat anterior este denumit "hot wallet", deoarece cheia privată este stocată pe un dispozitiv cu acces la internet. În acest caz, este esențial să vă salvați fraza mnemonică pentru a avea din nou acces la fondurile dvs. în cazul în care vă pierdeți telefonul sau computerul.
 
 De exemplu, puteți utiliza Sparrow Wallet ca hot wallet:
 
 https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
-- Nivelul 2**, utilizați un portofel fizic și v-ați securizat lista de 12/24 de cuvinte. Acesta este adesea denumit "cold wallet", deoarece cheile dvs. sunt stocate pe un dispozitiv care nu este conectat la internet. În acest caz, va trebui întotdeauna să semnați fiecare tranzacție cu dispozitivul dumneavoastră, ceea ce face ca fondurile dumneavoastră să fie mai puțin accesibile zilnic.
+- **Nivelul 2**, utilizați un portofel fizic și v-ați securizat lista de 12/24 de cuvinte. Acesta este adesea denumit "cold wallet", deoarece cheile dvs. sunt stocate pe un dispozitiv care nu este conectat la internet. În acest caz, va trebui întotdeauna să semnați fiecare tranzacție cu dispozitivul dumneavoastră, ceea ce face ca fondurile dumneavoastră să fie mai puțin accesibile zilnic.
 
 De exemplu, puteți utiliza un Ledger, un Satochip sau un Tapsigner:
 
@@ -593,7 +593,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 ![image](assets/en/32.webp)
 
 
-- Nivelul 3**, utilizați un portofel de nivel 1 sau 2, dar ați adăugat o frază de acces suplimentară. În acest caz, rețineți că trebuie să faceți o copie de rezervă atât a listei de 12/24 de cuvinte, cât și a frazei de acces. În mod ideal, aceste două informații sunt stocate în două locuri diferite.
+- **Nivelul 3**, utilizați un portofel de nivel 1 sau 2, dar ați adăugat o frază de acces suplimentară. În acest caz, rețineți că trebuie să faceți o copie de rezervă atât a listei de 12/24 de cuvinte, cât și a frazei de acces. În mod ideal, aceste două informații sunt stocate în două locuri diferite.
 
 Pentru a afla mai multe despre utilizarea și funcționarea frazei de acces BIP39:
 
@@ -601,7 +601,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 ![image](assets/en/33.webp)
 
 
-- La nivelul 4**, utilizați un set de portofele pentru a crea un portofel "multisig", ceea ce înseamnă că sunt necesare semnături multiple pentru efectuarea unei tranzacții. În acest caz, fiți conștienți de faptul că fiecare parte a multisig trebuie stocată în locații diferite. Această abordare este adesea considerată o utilizare avansată a Bitcoin, în principal pentru gestionarea sumelor mari și în scopuri corporative.
+- **La nivelul 4**, utilizați un set de portofele pentru a crea un portofel "multisig", ceea ce înseamnă că sunt necesare semnături multiple pentru efectuarea unei tranzacții. În acest caz, fiți conștienți de faptul că fiecare parte a multisig trebuie stocată în locații diferite. Această abordare este adesea considerată o utilizare avansată a Bitcoin, în principal pentru gestionarea sumelor mari și în scopuri corporative.
 
 ![image](assets/en/34.webp)
 
@@ -857,7 +857,7 @@ Există mai multe opțiuni disponibile atunci când doriți să vă instalați p
 
 ![image](assets/en/53.webp)
 
-O a doua opțiune este utilizarea unui hardware dedicat acestui scop, cum ar fi un Raspberry Pi 4 cu un SSD suficient de mare (aproximativ ~1TB). Această altă opțiune este mai costisitoare dacă trebuie să cumpărați hardware-ul, dar reprezintă un pic mai puțin de 10,00 EUR pe an în ceea ce privește consumul de energie electrică.
+O a doua opțiune este utilizarea unui hardware dedicat acestui scop, cum ar fi un Raspberry Pi 4 cu un SSD suficient de mare (aproximativ ~2TB). Această altă opțiune este mai costisitoare dacă trebuie să cumpărați hardware-ul, dar reprezintă un pic mai puțin de 10,00 EUR pe an în ceea ce privește consumul de energie electrică.
 
 Din perspectiva lățimii de bandă, luând în considerare 1 bloc de 1MB la fiecare 10 minute, aceasta corespunde aproximativ la 5GB pe lună.
 
@@ -1159,6 +1159,7 @@ O strategie graduală implică achiziții recurente, adică cumpărarea de canti
 
 ** Feriți-vă de UTXO-uri**: Nu uitați să vă consolidați UTXO-urile în portofele din când în când. Această practică este esențială pentru a vă gestiona eficient bitcoinii și pentru a evita taxele inutile în timpul tranzacțiilor.
 
+Un [UTXO](https://planb.network/en/resources/glossary/utxo) este un output al unei tranzacții care nu a fost încă cheltuit, adică nu a fost folosit ca input pentru o nouă tranzacție. Consolidarea lor înseamnă a uni mai multe UTXO de dimensiuni mici pentru a forma unul mai mare, astfel încât să se reducă „greutatea” tranzacției și, prin urmare, să se plătească comisioane mai mici.
 
 - Achiziție spontană
 

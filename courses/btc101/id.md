@@ -830,7 +830,7 @@ Ada beberapa opsi yang tersedia ketika Anda ingin memasang node Anda sendiri, de
 
 ![image](assets/en/53.webp)
 
-Pilihan kedua adalah menggunakan perangkat keras khusus untuk tujuan ini, seperti Raspberry Pi 4 dengan SSD yang cukup besar (sekitar ~1TB). Pilihan lain ini lebih mahal jika Anda harus membeli perangkat kerasnya, tetapi ini mewakili kurang dari €10,00 per tahun dalam hal konsumsi listrik.
+Pilihan kedua adalah menggunakan perangkat keras khusus untuk tujuan ini, seperti Raspberry Pi 4 dengan SSD yang cukup besar (sekitar ~2TB). Pilihan lain ini lebih mahal jika Anda harus membeli perangkat kerasnya, tetapi ini mewakili kurang dari €10,00 per tahun dalam hal konsumsi listrik.
 
 Dari perspektif bandwidth, dengan mempertimbangkan 1 blok 1MB setiap 10 menit, ini setara dengan 5GB per bulan.
 
@@ -1123,6 +1123,8 @@ Strategi bertahap melibatkan pembelian berulang, yang berarti membeli sejumlah k
 ![image](assets/en/74.webp)
 
 **Waspadalah terhadap UTXO**: Ingatlah untuk menggabungkan UTXO Anda di dompet Anda dari waktu ke waktu. Praktik ini sangat penting untuk mengelola bitcoin Anda secara efektif dan menghindari biaya yang tidak perlu selama transaksi.
+
+Sebuah [UTXO](https://planb.network/en/resources/glossary/utxo) adalah output dari sebuah transaksi yang belum dibelanjakan, yaitu belum digunakan sebagai input untuk transaksi baru. Mengonsolidasikannya berarti menggabungkan beberapa UTXO kecil menjadi satu yang lebih besar, sehingga mengurangi "berat" transaksi dan dengan demikian membayar biaya yang lebih sedikit.
 
 - Pembelian spontan
 

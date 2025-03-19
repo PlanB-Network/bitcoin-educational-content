@@ -2032,156 +2032,170 @@ Dans la prochaine section du cours, nous allons aborder un sujet souvent néglig
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 
-Imaginons le scénario dramatique suivant.
+Assurer la transmission de ses bitcoins est une responsabilité souvent négligée, mais pourtant essentielle. La souveraineté financière qu’offre Bitcoin implique également une gestion rigoureuse de sa succession, faute de quoi vos héritiers pourraient se retrouver dans l’incapacité d’accéder à vos fonds durement gagnés. Dans ce chapitre, nous allons explorer les principes fondamentaux de la planification successorale appliquée à Bitcoin.
 
-Un accident de voiture, BOOM, vous n'êtes plus de ce monde. Vous disparaissez, laissant votre famille sans leur expert Bitcoin. Ils ignorent où se trouve l'argent, mais se rappellent que vous mentionniez sans cesse des termes tels que clé, liste de mots et l'irréversibilité des transactions Bitcoin. Ils sont effondrés, déconcertés et doivent désormais tout comprendre par eux-mêmes. Bien que cette situation puisse sembler terrifiante, elle constitue une éventualité réelle qui ne peut être négligée. Vous avez alors deux choix : consacrer entre 15 minutes et 1 heure pour établir un plan de succession, ou ne rien faire. Personne ne portera de jugement, mais si des personnes dépendent de vous, ces 15 minutes pourraient faire une grande différence un jour. À vous de décider.
+### Pourquoi préparer un plan de succession Bitcoin ?
 
-- Option 1 : Vos proches ouvrent une lettre contenant un plan clair et facile à suivre pour récupérer en toute sécurité l'ensemble de vos actifs crypto.
-- Option 2 : Laisser vos proches se débrouiller par eux-mêmes. S'il leur manque un portefeuille, un marché, des biens ou s'ils compromettent une transaction, tant pis pour eux, l'argent est perdu.
+Imaginons un scénario brutal mais réaliste. Un accident soudain, un événement imprévu… et vous disparaissez. Votre famille, déjà submergée par la douleur, se retrouve face à un problème inattendu : l'accès à vos bitcoins. Ils savent que vous parliez souvent de sécurité, de clés privées, de phrases mnémoniques et d'irréversibilité des transactions, mais ces concepts restent flous pour eux. Ils sont désormais seuls face à ce défi.
 
-Selon Pamela Morgan dans "Cryptoasset Inheritance Planning" (page 10), les objectifs d'un plan de succession sont les suivants :
+Vous avez alors deux choix :
 
-- Assurer que vos héritiers puissent prendre possession de vos crypto-actifs en temps voulu, mais pas avant.
-- Minimiser le risque et la possibilité que quelqu'un vole vos crypto-actifs avant qu'ils ne soient remis à vos proches.
-- Offrir à vos proches la possibilité de conserver les actifs en toute sécurité, s'ils le désirent.
-- Éviter les conflits entre vos héritiers et prévenir les problèmes juridiques autant que possible.
+- Anticiper en créant un plan clair et structuré qui permettra à vos proches d’accéder à vos bitcoins de manière simple et sécurisée ;
+- Ne rien faire, en espérant qu’ils réussiront à tout comprendre par eux-mêmes. Mais s'ils commettent une erreur, s’ils perdent l'accès à un portefeuille ou s’ils envoient accidentellement les fonds à une mauvaise adresse, votre patrimoine disparaît à jamais.
 
-**Droit d'auteur :** La prochaine leçon n'est pas de ma propre création...
+Prendre 15 minutes à 1 heure pour mettre en place un plan de succession peut faire toute la différence. Ce n’est pas seulement une question de prudence, mais aussi de responsabilité envers ceux qui pourraient dépendre de vous.
 
-La plupart des concepts, des idées et des actions proposés dans cette leçon (6.1 BRH) proviennent du livre de Pamela Morgan intitulé "Cryptoasset Inheritance Planning". Ce livre propose un processus facile à suivre, étape par étape, pour mettre en place rapidement votre plan de succession Bitcoin. Ce processus est validé par de nombreux experts en sécurité de l'industrie. Bien qu'il s'agisse d'un excellent point de départ pour créer un plan de succession, il ne constitue PAS un avis juridique et vous devez toujours (comme toujours) vérifier les sources, confronter les idées et faire vos propres recherches. Pamela m'a généreusement autorisé à utiliser son travail. Je la remercie chaleureusement.
+### Les objectifs d’un plan de succession Bitcoin
 
-IMAGE 093
+Pamela Morgan, dans son livre *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)*, définit 4 objectifs essentiels pour un bon plan de succession :
 
-Dans cette leçon, nous nous concentrerons uniquement sur la première partie de son livre. J'incarnerai le rôle d'un utilisateur Bitcoin typique pour créer sa propre lettre de succession. Le processus sera simple pour le moment, et nous créerons une version plus complexe avec différents types de profils plus tard : Nous suivrons le parcours de Cédric :
+- Garantir que vos héritiers puissent récupérer vos bitcoins en temps voulu, mais pas avant ;
+- Minimiser les risques de vol ou de compromission avant que les bitcoins ne leur soient remis ;
+- S’assurer que les héritiers puissent sécuriser les bitcoins sur le long terme s’ils le souhaitent ;
+- Prévenir les conflits familiaux et limiter les complications juridiques liées à l’héritage de crypto-actifs.
 
-- Investisseur à long terme.
-- Détenteur d'un portefeuille physique et d'un portefeuille mobile.
-- Utilisateur d'une seule plateforme d'échange avec vérification d'identité (KYC).
-- Initié au Bitcoin par son cousin.
-- Ne possède pas de contrats intelligents, pas de Lightning Network (LN), ni de alt-coins.
+Un plan bien conçu ne sert pas uniquement à transférer un patrimoine, mais aussi à protéger vos proches des erreurs courantes et des menaces potentielles.
 
-### Prérequis :
+Le chapitre qui suit est directement inspiré du travail de [Pamela Morgan](https://x.com/pamelawjd). [Son livre](https://www.amazon.com/gp/product/1947910116/) propose une méthode structurée et validée par des experts en sécurité pour organiser un plan de succession adapté aux bitcoins. Cependant, **ce contenu ne constitue pas un avis juridique**. Il s’agit d’une méthodologie éprouvée, mais chaque utilisateur doit faire ses propres recherches et adapter les recommandations à sa situation personnelle et à sa juridiction.
 
-Je sollicite 30 minutes de votre temps, non pas pour ma personne ou pour vous, mais pour vos êtres chers. La planification successorale est un sujet difficile, souvent nié et oublié. Comme c'est la dernière tâche à accomplir, trop de personnes se laissent distraire et finissent par perdre bêtement tous leurs BTC. Alors, consacrez 30 minutes et faites-le. C'est l'ÉTAPE FINALE !
+[Pamela Morgan](https://x.com/pamelawjd) a généreusement autorisé l’utilisation de [ses travaux](https://www.amazon.com/gp/product/1947910116/) pour cette formation, et son approche servira de fil conducteur pour établir un exemple concret de plan d’héritage Bitcoin. Dans ce chapitre, nous nous concentrerons uniquement sur la première partie de son livre.
 
-Qu'est-ce dont vous avez besoin ?
+093
 
-- Un moment de tranquillité, sans distraction
-- 4-5 feuilles de papier blanc
-- Un stylo
-- Deux enveloppes
-- Un téléphone / carnet d'adresses
-- Un ordinateur (à mon avis, c'est facultatif)
+Pour illustrer l’élaboration d’un plan de succession Bitcoin, nous suivrons le parcours de Cédric, un utilisateur typique de Bitcoin, qui doit organiser la transmission de son patrimoine en cas d’imprévu.
+
+Son profil :
+- Investisseur à long terme, qui ne réalise pas de transactions fréquentes ;
+- Détenteur d’un hardware wallet et d’un portefeuille mobile pour une utilisation occasionnelle ;
+- Utilisateur d’une seule plateforme d’échange KYC, où il achète ses bitcoins ;
+- Initié à Bitcoin par son cousin ;
+- Ne possède pas d'altcoins et n'utilise pas Lightning.
+
+L’objectif est de créer un plan simple et efficace, adapté à son profil, avant d’explorer des scénarios plus complexes avec d’autres types d’utilisateurs.
+
+095
+
+### Prérequis avant de commencer
+
+Prenez 30 minutes de votre temps. Pas pour vous, mais pour ceux qui comptent sur vous. La planification successorale est une tâche importante, pourtant souvent repoussée, négligée, voire ignorée. Trop de personnes, même parmi les plus prudentes, remettent cela à plus tard… jusqu’au jour où il est trop tard. Des milliers de bitcoins ont déjà été perdus à cause d’un manque d’anticipation. Ne commettez pas cette erreur ! C’est **l’ÉTAPE FINALE** de votre démarche de souveraineté financière : sécuriser votre patrimoine Bitcoin pour vos proches.
+
+#### De quoi avez-vous besoin ?
+
+Assurez-vous de disposer d’un environnement calme et sans distractions, puis rassemblez ces quelques outils :
+- 4 à 5 feuilles de papier blanc ;
+- Un stylo ;
+- 2 enveloppes ;
+- Un téléphone ou un carnet d’adresses ;
+- Un ordinateur (optionnel).
 
 IMAGE 094
 
-Selon Pamela Morgan dans "Cryptoasset Inheritance Planning" à la page 18 les idées fausses courantes sont :
+#### Les idées reçues sur la planification successorale
 
-- Je dois engager un avocat.
-- Je dois faire confiance à un tiers.
-- La planification rendra mes avoirs faciles à voler.
-- La valeur de ma cryptomonnaie est trop faible pour être planifiée.
-- Mes héritiers découvriront tout par eux-mêmes.
-- Tout cela peut être réalisé avec un simple contrat intelligent.
+Beaucoup de personnes repoussent cette étape en raison de fausses croyances qui les empêchent d’agir. Voici quelques idées courantes citées par Pamela Morgan dans _Cryptoasset Inheritance Planning_ (page 18) :
 
-### Étape 1 : Sélectionner les personnes adéquates pour aider vos héritiers
+- **"*Je dois engager un avocat.*"** → **Faux**. Un avocat peut être utile pour des aspects juridiques, mais un plan d’héritage technique Bitcoin peut être mis en place sans lui. L’essentiel est d’avoir des instructions claires et accessibles ;
 
-Il est nécessaire de désigner deux personnes qui aideront votre famille lorsque vous ne serez plus là. Ainsi, vos proches auront à leur disposition un utilisateur de Bitcoin de confiance, à jour technologiquement, sur lequel ils pourront s'appuyer pendant le processus de récupération. Ces personnes pourront :
+- **"*Je dois faire confiance à un tiers.*"** → **Faux**. Votre plan peut être conçu de manière à minimiser la confiance nécessaire, en répartissant les informations entre plusieurs parties ou en utilisant des solutions multisignatures, avec ou sans timelock ;
 
-- Fournir des conseils sur la gestion des clés et des portefeuilles.
-- Aider à comprendre comment récupérer vos phrases secrètes (seeds) en toute sécurité.
-- Apporter une assurance lors d'une transaction.
+- **"*La planification rendra mes avoirs faciles à voler.*"** → **Faux**. Une approche bien pensée protège contre les tentatives de vol tout en garantissant que vos héritiers puissent récupérer vos fonds en toute sécurité ;
 
-Il y aura toujours un compromis entre expertise technique, disponibilité et confiance. Si vous hésitez sur qui devrait assumer ce rôle, créez un tableau simple pour vous aider à décider.
+- **"*La valeur de mes bitcoins est trop faible pour être planifiée.*"** → **Faux**. Peu importe le montant, il vaut mieux anticiper. Vos proches ne connaissent probablement pas le montant de votre épargne en bitcoins, et c'est très bien. Mais en cas de problème, ne chercheront ils pas à les récupérer puisqu'ils ne connaissent pas le montant ? Ce que je veux dire, c'est que même si vous ne possédez que 100€ en BTC et que vos proches sont au courant de votre investissement, ils voudront récupérer ces fonds à votre décès. Il est donc judicieux de leur faciliter la tâche, pour éviter de leur donner de faux espoirs quant au montant ou de les laisser chercher en vain quelque chose qui pourrait ne pas exister. De plus, le bitcoin est un actif rare et sa valeur peut potentiellement croître considérablement au fil des ans ;
 
-Séparation des responsabilités : La personne de confiance ne devrait JAMAIS avoir accès à votre clé privée. Son rôle unique est d'aider vos proches à comprendre le système de sécurité de vos Bitcoins et à gagner en assurance. C'est pourquoi vous choisissez deux personnes de confiance. Si nécessaire, vous pouvez également recourir à une organisation tierce (avocat spécialisé ou services de planification successorale).
+- **"*Mes héritiers découvriront tout par eux-mêmes.*"** → **Faux**. Bitcoin n’est pas un compte bancaire classique. Sans instructions précises, vos proches risquent de ne jamais retrouver l’accès à vos fonds, ou de n'en trouver qu'une partie ;
 
-| Personne de confiance   | Confiance   | Connaissance en BTC | Info de Confiance      | Note                                                                                           |
-| ----------------------- | ----------- | ------------------- | ---------------------- | ---------------------------------------------------------------------------------------------- |
-| Mon frère Bob           | Très grande | Basse               | Téléphone & mail       | "Bob ne sait pas grand-chose sur les BTC, mais on peut lui faire confiance à 100% pour aider." |
-| Mon cousin Nathan       | Grande      | Moyenne             | Téléphone & insta      | N°1 des personnes à qui parler. Il peut vous aider. Il est au courant.                         |
-| Ricco (Crypto pote)     | Moyenne     | Très grande         | Twitter & mail & photo | Faire confiance sur les questions techniques. Jamais avec l'argent. Il faudra le contacter.    |
-| Youtubeur & influenceur | Basse       | Grande              | Lien YTB               | Instruisez-vous en le suivant. Il ne peut pas vous aider directement.                          |
+- **"*Un contrat intelligent peut tout gérer.*"** → **Faux**. Un smart contract comme un portefeuille multisig avec timelock peut être une pièce du puzzle, mais il ne remplacera jamais une planification bien structurée, surtout pour des personnes non familières avec Bitcoin.
 
-### Étape 2 : Réalisez un inventaire simple et rapide
+Il est temps d’agir. Prenez ces 30 minutes et mettez en place votre plan d’héritage. C’est une démarche simple, mais qui peut faire toute la différence pour vos proches.
 
-Il est important de penser à tous les endroits où vous avez des dollars ou des BTC :
+### Étape 1 : Sélectionner les bonnes personnes pour assister vos héritiers
 
-- Plateformes d'échange
-- Portefeuille mobile
-- Portefeuille physique
+Lorsqu’il s’agit de transmettre un héritage en bitcoins, vos proches ne seront probablement pas familiarisés avec la gestion de clés privées ou la récupération de portefeuilles. Ils auront besoin d’une aide extérieure, de la part de personnes compétentes et de confiance. L’idéal est de choisir 2 personnes distinctes :
+- **Un proche de confiance**, qui veillera à la bonne exécution de votre plan. Il n’a pas forcément besoin d’avoir des connaissances approfondies sur Bitcoin, mais il doit être quelqu’un sur qui vos héritiers pourront compter ;
+- **Un utilisateur expérimenté de Bitcoin**, qui pourra fournir une assistance technique pour la récupération des fonds, la gestion des portefeuilles et la compréhension des processus.
 
-Envisagez comment vous les avez sécurisés et où ces sauvegardes sont stockées. Il n'est pas essentiel d'avoir deux lieux de sauvegarde pour l'instant. L'objectif est de réaliser une capture instantanée de votre sécurité ACTUELLE. Nous pourrons l'améliorer plus tard ! Il s'agit simplement d'une première version pour assurer votre sécurité pour le moment, nous reviendrons plus en détail sur cela plus tard.
+Les personnes choisies ne doivent jamais avoir un accès direct à vos clés privées (ou votre phrase mnémonique), mais elles devront être en mesure de :
+- Guider vos héritiers dans la récupération et la sécurisation des fonds ;
+- Expliquer les principes de base des portefeuilles Bitcoin, des phrases de récupération et des transactions ;
+- Aider à éviter les erreurs courantes.
 
-| Général               | Logiciel / Matériel | Actifs        | Localisation         | Sauvegarde (clé privée)         | Mot de passe (PIN, passphrase) | Note                                                                                                                        |
-| --------------------- | ------------------- | ------------- | -------------------- | ------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| Plateforme d'échange  | Bitstamp            | BTC & Liquide | Accessible en ligne. | -                               | Domicile & Coffre de la banque | C'est là que j'ai acheté et transféré mes Bitcoins. Je me connecte en utilisant un gestionnaire de mots de passe et un 2FA. |
-| Portefeuille physique | Trezor model One    | BTC           | En sécurité          | Oncle Bob & Coffre de la banque | Domicile & Mère                | J'ai deux portefeuilles, un normal et un avec passphrase.                                                                   |
-| Portefeuille Samourai | Mobile – One Plus 6 | BTC           | Sur moi              | Oncle Bob & Coffre de la banque | Domicile & Mère                | L'application pourrait être en mode caché.                                                                                  |
+Sur votre feuille de papier qui va devenir votre plan d'héritage Bitcoin, réalisez ce tableau comparatif des personnes potentielles, en évaluant leur niveau de confiance, leur connaissance de Bitcoin, et leur moyen de contact. Par exemple :
 
-NE VOUS LAISSEZ PAS DISTRAIRE ! Vous ressentez le besoin de transférer ces actifs pour :
+| Personne              | Niveau de confiance | Compétences Bitcoin | Moyens de contact      | Remarque                                                                                                                |
+| --------------------- | ------------------- | ------------------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Mon frère Bob         | Très grande         | Basse               | Téléphone & mail       | Bob ne connaît pas Bitcoin, mais il est fiable à 100%. Il peut s’assurer que le processus se déroule correctement.      |
+| Mon cousin Nathan     | Grande              | Moyenne             | Téléphone & Instagram  | Il a des bases sur Bitcoin et saura guider mes héritiers. Il est au courant du plan. N°1 à qui parler en cas de besoin. |
+| Ricco (ami Bitcoiner) | Moyenne             | Très grande         | Twitter, mail et photo | Très compétent techniquement, mais ne doit jamais avoir accès aux fonds. À contacter pour assistance technique.         |
+| Youtubeur Bitcoin     | Basse               | Grande              | Chaîne YouTube         | Source d’information pour se former, mais ne peut pas intervenir directement.                                           |
 
-- Améliorer votre sécurité ?
-- Vendre certains biens ?
-- En acheter d'autres ?
+Si vous n’avez aucun proche fiable ou compétent, vous pouvez également envisager de recourir à un professionnel, comme un avocat spécialisé en héritage Bitcoin, ou un service de planification successorale. L’essentiel est que vos héritiers aient accès à une aide technique fiable tout en préservant la sécurité et la confidentialité de vos fonds.
 
-NE FAITES RIEN ! Vous risqueriez d'oublier le projet en cours. RESTEZ FOCALISÉ ! Vous pourrez toujours revoir et modifier votre portfolio plus tard.
+### Étape 2 : Réaliser un inventaire simple et rapide
+
+Avant de penser à sécuriser ou transmettre vos bitcoins, il est important de dresser un état des lieux précis de votre patrimoine Bitcoin. Cet inventaire servira de base pour organiser votre succession et permettra à vos héritiers de comprendre où se trouvent vos actifs et comment y accéder.
+
+L’objectif ici n’est pas d’améliorer immédiatement votre sécurité, mais simplement de répertorier votre situation actuelle. Il s’agit d’une capture instantanée de vos bitcoins et des moyens d’y accéder. Vous pourrez ajuster et renforcer la sécurité plus tard, une fois ce premier inventaire réalisé.
+
+Réfléchissez à tous les endroits où vous possédez des bitcoins ou des monnaies fiat associées à Bitcoin. Cela peut inclure :
+
+- **Les plateformes d’échange** : Comptes avec BTC ou fonds fiat liés à vos achats de bitcoins ;
+- **Portefeuilles chauds mobile ou desktop** : Applications installées sur votre téléphone, utilisées pour des transactions courantes ;
+- **Portefeuilles matériels** : Dispositifs physiques sécurisant vos clés privées hors ligne ;
+- **Autres solutions** : Multisig, paper wallets, clés privées stockées de manière spécifique, etc.
+
+Utilisez un tableau pour structurer cet inventaire. L’idée n’est pas de stocker ce document en ligne, mais de le conserver dans un endroit sécurisé sous forme papier. Par exemple :
+
+| Général               | Type de stockage | Actifs détenus | Localisation                      | Sauvegarde de la phrase mnémonique                                       | Mot de passe (PIN, passphrase...)                                                               | Notes                                                                                                           |
+| --------------------- | ---------------- | -------------- | --------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Plateforme d’échange  | Bitfinex         | BTC & Euros    | Accessible en ligne               | Aucune (plateforme custodiale)                                           | Gestionnaire de mots de passe Bitwarden & 2FA avec l'application Authy sur mon téléphone        | J’ai acheté mes BTC ici. Les fonds doivent être retirés après achat.                                            |
+| Portefeuille physique | Jade Plus        | BTC            | Coffre-fort personnel au domicile | Copie chez mon oncle Bob et dans un coffre de banque chez la BNP Paribas | Passphrase stockée chez ma mère. Code PIN stocké sur le gestionnaire de mot de passe Bitwarden. | J’utilise 2 portefeuilles distincts : un normal avec uniquement la phrase mnémonique et un avec une passphrase. |
+| Portefeuille mobile   | Green Wallet     | BTC            | Sur mon téléphone Iphone 15       | Copie de la seed dans mon coffre au domicile                             | Code PIN stocké sur le gestionnaire de mot de passe Bitwarden.                                  | L’application est en mode caché.                                                                                |
+
+
+Vous pourriez ressentir à cette étape l’envie de modifier immédiatement la répartition de vos fonds, d’améliorer votre sécurité, ou encore de vendre ou acheter plus de bitcoins. Ne faites rien pour l’instant ! L’objectif ici n’est pas d’agir, mais d’établir une photographie de votre situation actuelle. Vous pourrez toujours améliorer votre plan plus tard, mais pour le moment, restez focalisé sur l’inventaire et complétez-le de manière la plus exhaustive possible.
+
+Une fois cet état des lieux réalisé, il sera beaucoup plus simple d’identifier les points faibles et de structurer une transmission efficace et sécurisée.
 
 ### Étape 3 : Rédigez la lettre.
 
-Pour des raisons de sécurité, utilisez un stylo et du papier pour rédiger une lettre à vos proches.
+#### Pourquoi une lettre manuscrite ?
 
-- J'ai un peu de crypto
-- Contactez ces conseillers
-- J'ai ces actifs ici
-- Je vous aime
-  Voici un modèle pour vous aider à démarrer. Si vous ne voulez pas rédiger la lettre vous-même, vous pouvez télécharger un modèle et simplement remplir les blancs. (lien ici)
+Il est important que votre plan de succession soit clair, lisible et sécurisé. Pour cela, rédigez une lettre à l’encre sur papier, et évitez les documents numériques qui pourraient être compromis. Cette lettre n’est ni un testament, ni une déclaration légale, mais un guide pratique pour aider vos proches à récupérer vos bitcoins sans risque.
 
-Commencez par expliquer le but de la lettre et avertissez vos proches des dangers de l'autogestion de la crypto.
+Cette lettre doit être simple, directe et contenir les éléments essentiels suivants :
 
-La lettre doit être claire et utile. Ce n'est pas un testament, ni une lettre pour les faire pleurer. Ce n'est pas non plus une lettre pour les forcer à ne jamais vendre, ni une lettre pour écrire les clés privées. C'est une lettre pour les aider à comprendre ce que vous avez fait, afin qu'ils puissent prendre la meilleure décision et agir en toute sécurité.
+- Une introduction expliquant la nature des actifs à récupérer ;
+- Les contacts de confiance qui pourront assister vos héritiers dans la récupération ;
+- Un inventaire clair des actifs, avec les dispositifs et les méthodes d’accès ;
+- Des consignes de sécurité précises, pour éviter toute erreur ou arnaque ;
+- Une conclusion bienveillante, accompagnée d’éventuelles instructions légales.
 
-Voici un extrait du modèle de lettre à un proche, tiré de l'annexe E du livre de Pamela Morgan, "Cryptoasset Inheritance Planning". Pour l'adapter à notre exemple, j'ai modifié certains passages, que j'ai placés entre parenthèses et marqués en bleu. Le reste du texte est le texte original du livre. (Traduit par Découvre Bitcoin)
+#### Modèle de lettre d’héritage
 
-IMAGE 093
+Voici un modèle inspiré du livre *Cryptoasset Inheritance Planning* de Pamela Morgan. Vous devez évidemment l’adapter selon votre situation personnelle :
 
-"Date : 26/06/2020
-Chères Liz & Maia,
-Je vous aime profondément et je sais que vous serez fortes.
-J'écris cette lettre pour vous faire savoir que je possède des cryptoactifs qui pourraient avoir de la valeur.
-Veuillez lire cette lettre attentivement et entièrement avant d'entreprendre toute action. Ces actifs sont différents des autres actifs, car une fois qu'ils sont transférés, il n'y a aucun moyen de les récupérer."
+---
 
-Ensuite, nous incluons la "section des conseillers". Cette partie peut être déroutante pour vos héritiers, surtout si vous mentionnez des personnes ou des organisations qu'ils ne connaissent pas. Soyez précis sur :
+**Date : `Indiquez la date`**
 
-- Comment les contacter
-- Comment les identifier
-- Quels sont leurs domaines d'expertise.
-- Comment ils peuvent se former par eux-mêmes.
+Chers `Noms des héritiers`,
 
-"Vous trouverez ci-dessous une liste de personnes en qui j'ai confiance pour répondre à vos questions et vous aider dans le processus de découverte et de transfert de ces actifs. Contactez les personnes indiquées, mais ne faites pas confiance à une seule personne pour gérer le processus. Soyez vigilants avec tous les conseillers, y compris ceux figurant sur cette liste. Tout le monde peut faire des erreurs, alors assurez-vous de comprendre ce qu'ils font du mieux que vous le pouvez et n'ayez pas peur de poser des questions et de vérifier les réponses par vous-mêmes.
+Si vous lisez cette lettre, c’est que je ne suis plus là. Tout d’abord, sachez que je vous aime et que j’ai pris le temps de préparer ce document pour vous aider à gérer mes bitcoins qui pourraient avoir de la valeur. Ce n’est pas une tâche compliquée, mais elle demande rigueur et prudence. **Bitcoin est un système sans intermédiaire : il n’existe aucun recours si une erreur est commise.** Prenez le temps de lire cette lettre en entier avant d’agir.
 
-Voici les personnes qui peuvent vous aider à répondre aux questions et vous guider dans ce processus :
+#### 1. Contactez des personnes de confiance
 
-(Insérez ici le nom de vos conseillers, leur affiliation à une organisation (le cas échéant), leurs coordonnées et la façon dont ils doivent vérifier leur identité par exemple, base de données des clés, photos.)
+J’ai désigné plusieurs personnes qui peuvent vous aider à comprendre Bitcoin et à récupérer mes actifs. Elles ne doivent jamais avoir accès directement aux fonds, mais elles peuvent vous guider dans ce processus :
 
-- Mon frère Bob ; +33 09 XX 68 18 36 ; Bobmybrother@gmail.com. Vous pouvez faire confiance à Bob pour vous aider dans ce processus. Bien qu'il ne soit pas le plus doué techniquement, il est la bonne personne pour tout remettre en question et faire preuve de prudence afin de garantir votre réussite en toute sécurité. • Mon cousin Nathan ; +33 09 XX 29 35 ;
-- NathanDeladzcroix@Hotmail.com. C'est Nathan qui m'a fait découvrir Bitcoin. Il est très compétent en technologie et pourra répondre à la plupart de vos questions. Il possède également quelques bitcoins et pourra vous guider sur le plan technique. Vous l'avez déjà vu à plusieurs reprises lors de réunions de famille, et j'ai inclus une photo de lui ici.
-- Ricco ; @RiccoSFC sur Twitter ; Ricco425@protonmail.com. Je travaille en étroite collaboration avec Ricco depuis de nombreuses années. Vous ne l'avez jamais rencontré, alors assurez-vous de parler à la bonne personne en lui demandant "Quel est le nom du chien de Cédric". S'il répond "12", c'est bon. Ricco est un expert très amical et compétent en Bitcoin. Il répondra à toutes vos questions et vous pourrez vous fier à son jugement concernant la sécurité des bitcoins. N'ayez pas peur de le contacter, je l'ai rencontré plusieurs fois et il est au courant de tout ce qui concerne toi et Maia.
+- Mon frère Bob ; +33 09 XX 68 18 36 ; [Bobmybrother@gmail.com](https://planb.network/cdn/courses/btc102/mailto:Bobmybrother@gmail.com). Vous pouvez faire confiance à Bob pour vous aider dans ce processus. Bien qu'il ne soit pas le plus doué techniquement, il est la bonne personne pour tout remettre en question et faire preuve de prudence afin de garantir votre réussite en toute sécurité. • Mon cousin Nathan ; +33 09 XX 29 35 ;
+- [NathanDeladzcroix@Hotmail.com](https://planb.network/cdn/courses/btc102/mailto:NathanDeladzcroix@Hotmail.com). C'est Nathan qui m'a fait découvrir Bitcoin. Il est très compétent en technologie et pourra répondre à la plupart de vos questions. Il possède également quelques bitcoins et pourra vous guider sur le plan technique. Vous l'avez déjà vu à plusieurs reprises lors de réunions de famille, et j'ai inclus une photo de lui ici.
+- Ricco ; @RiccoSFC sur Twitter ; [Ricco425@protonmail.com](https://planb.network/cdn/courses/btc102/mailto:Ricco425@protonmail.com). Je travaille en étroite collaboration avec Ricco depuis de nombreuses années. Vous ne l'avez jamais rencontré, alors assurez-vous de parler à la bonne personne en lui demandant "Quel est le nom du chien de Cédric". S'il répond "12", c'est bon. Ricco est un expert très amical et compétent en Bitcoin. Il répondra à toutes vos questions et vous pourrez vous fier à son jugement concernant la sécurité des bitcoins. N'ayez pas peur de le contacter, je l'ai rencontré plusieurs fois et il est au courant de tout ce qui concerne toi et Maia.
 - Cela peut vous sembler étrange, mais contactez-les tous. De plus, vous pouvez vous former en écoutant Andreas Antonopoulos sur YouTube et en achetant le livre "Cryptoasset Inheritance Planning" de Pamela Morgan."
 
-Et maintenant, nous ajoutons la section Inventaire. Commencez par lister vos appareils et les endroits où vous détenez des bitcoins.
+Contactez toutes ces personnes et croisez leurs avis avant de prendre les décisions importantes. **Ne faites confiance à personne aveuglément.**
 
-- Téléphone : portefeuille mobile
-- Bureau PC : plateformes d'échange, applications, jeux, sites web
-- Passez aux portefeuilles physiques
-- Phrase secrète (passphrase)
-- Multisig
+#### 2. Où se trouvent mes bitcoins ?
 
-Lorsque vous mentionnez l'endroit où la sauvegarde est stockée, utilisez une localisation générale, pas une adresse précise. Si vous possédez autre chose que des bitcoins, faites-le savoir.
-
-"Vous trouverez ci-dessous une liste des appareils, des logiciels et des portefeuilles que j'utilise pour accéder à ces actifs. Veuillez ranger tous ces appareils en lieu sûr et les conserver jusqu'à ce que les actifs soient transférés à mes héritiers. Ne laissez personne y accéder sans surveillance.
-
-(Insérez ici votre inventaire de crypto-actifs)
+Voici un inventaire précis de mes avoirs, de leur emplacement et des méthodes d’accès.
 
 - "J'ai utilisé mon téléphone (Samsung Galaxy S8) pour accéder à mon portefeuille Samourai. La clé privée qui protège le portefeuille est stockée dans le coffre de la banque et une autre copie est chez Oncle Bob. Le code PIN pour déverrouiller mon téléphone et le portefeuille est conservé à la maison et chez ma grand-mère.
 - J'utilise mon ordinateur Dell 2018 pour accéder à une plateforme d'échange en ligne appelée Bitstamp. Il se peut que j'aie encore des Bitcoins ou des dollars sur cette plateforme. Pour accéder à mon compte, vous devrez les contacter directement ou vous connecter à mon compte (faites attention, cela peut être illégal - vérifiez votre législation locale).
@@ -2189,24 +2203,49 @@ Lorsque vous mentionnez l'endroit où la sauvegarde est stockée, utilisez une l
 - J'ai également des BTC sur un appareil Trezor Model One. J'y accède via mon PC et le site web Trezor.io. Les clés privées de sauvegarde sont stockées dans le coffre de la banque et chez Oncle Bob. Le code PIN est conservé à la maison et chez ma mère. L'appareil lui-même est probablement dans un coffre-fort à mon bureau.
 - J'utilise une phrase secrète de sécurité avancée pour mon appareil Trezor. La sauvegarde de cette phrase secrète est située à la maison et chez ma mère." »
 
-Nous allons maintenant conclure la lettre avec quelques informations juridiques si nécessaire, ainsi qu'avec des mots bienveillants.
+Prenez toutes les précautions nécessaires avant de manipuler ces fonds. Ne divulguez jamais la phrase de récupération complète à une seule personne et ne partagez ces informations qu’en cas d’absolue nécessité.
 
-" Veuillez noter : Vous trouverez une copie de mon testament, daté du 17 avril 2018, dans mon classeur à documents. Mon avocat, Dwight Schrute, basé à Scranton en Pennsylvanie, en possède également une copie. Soyez prudents et souvenez-vous toujours de mon amour pour vous". 26/06/2023, Cedric "
+#### 3. Précautions et consignes de sécurité
 
-Vérifions maintenant notre travail (D'après "Cryptoasset Inheritance Planning" par Pamela Morgan, page 44 (traduit par Découvre Bitcoin).) :
+- **Ne vous précipitez pas.** Prenez le temps d’apprendre avant d’agir. Bitcoin est sûr s'il est utilisé correctement.
+- **Ne communiquez jamais la phrase de 24 mots à une seule personne.** Si quelqu’un vous demande l’accès total, méfiez-vous.
+- **Ne connectez pas mes portefeuilles sur un ordinateur inconnu.** Utilisez un environnement sécurisé, hors ligne si possible.
+- **Méfiez-vous des scams.** Les fraudes autour du Bitcoin sont nombreuses. Ne vous fiez qu’aux personnes de confiance mentionnées dans cette lettre.
+- **Sauvegardez tout ce que vous faites.** Prenez des notes, enregistrez les étapes importantes, et protégez les accès.
 
-- Aide : vérifiez que vous avez bien indiqué les noms, coordonnées, et si possible, des photos.
-- Appareils : Assurez-vous que vous avez listé votre téléphone, votre ordinateur, vos portefeuilles physiques, vos portefeuilles papier.
-- Actifs : Assurez-vous que vous avez inclus la liste de vos actifs.
-- Echanges : Vérifiez que vous avez listé tous les échanges qui détiennent des fonds pour vous.
-- Accès : Listez les informations qu'ils auront besoin pour trouver votre lieu de stockage ainsi que tous les codes d'accès nécessaires.
+#### 4. Informations légales et message final
 
-Si vous avez coché toutes les cases, alors vous êtes prêt pour les dernières étapes! Faites une copie de cette lettre et conservez les deux exemplaires dans une enveloppe. Fermez-la, signez le sceau et rangez cette enveloppe dans un lieu sûr mais accessible. Assurez-vous que vos héritiers savent qu'ils doivent récupérer cette enveloppe si nécessaire. N'hésitez pas à acheter le livre de Pamela pour approfondir ce sujet et planifiez un moment pour améliorer votre plan d'héritage. Discutez-en également avec votre notaire pour intégrer légalement ce plan à votre testament officiel.
+Vous trouverez une copie de mon testament dans mon dossier personnel, ainsi que chez mon notaire. Cette lettre ne remplace pas un testament officiel, mais elle vous guidera pour gérer mes bitcoins.
 
-Bravo! Vous avez une première version de votre plan d'héritage et c'est un excellent début!
+Prenez soin de vous et souvenez-vous que je vous aime. Mon souhait est que ces actifs vous soient utiles et vous aident à avancer sereinement.
 
-_Cryptoasset Inheritance Planning, A simple guide for owners, Pamela Morgan, ESQ. Copyright 2018 by Merkle Bloom LLC, All rights reserved. CC-BY_ Un grand merci à Pamela Morgan pour son travail précieux et pour m'avoir autorisé à le partager. Merci également à tous ceux qui ont contribué à son écriture.
-Vous êtes les meilleurs :D Mon équipe et mes étudiants vous remercient également!
+`Signature manuscrite`
+`Votre nom`
+`Date`
+
+---
+
+### Vérifications et stockage de la lettre
+
+Avant de conclure, assurez-vous d’avoir inclus :
+- Une liste claire des **personnes de confiance**, avec leurs contacts.
+- Un **inventaire détaillé des actifs** et de leurs emplacements.
+- Des **instructions précises** sur l’accès et la sécurité.
+- Un **message bienveillant** pour vos héritiers.
+
+Faites 2 copies de cette lettre et conservez-les dans des endroits sécurisés (coffre-fort, chez un proche de confiance). Informez vos héritiers de son existence, sans nécessairement leur en dévoiler le contenu immédiatement. Vous pouvez utiliser une pochette opaque inviolable pour vous assurer que votre plan d'héritage n'a pas été consulté sans votre consentement.
+
+096
+
+Si besoin, consultez un avocat spécialisé pour intégrer ce plan dans un cadre légal officiel.
+
+**Bravo !** Vous venez d’achever une étape essentielle pour protéger votre héritage Bitcoin. Vous pouvez maintenant perfectionner votre plan en le mettant à jour régulièrement et en explorant des solutions plus avancées comme les multisig dégressif avec timelock :
+
+https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+
+Référence : [*Cryptoasset Inheritance Planning, A Simple Guide for Owners* - Pamela Morgan, 2018.](https://www.amazon.com/gp/product/1947910116/)
+
+Merci beaucoup à [Pamela Morgan](https://x.com/pamelawjd) pour son travail et son autorisation d’adaptation.
 
 
 ## Féliciation ! VOUS ÊTES DANS LE TOP 0,1%

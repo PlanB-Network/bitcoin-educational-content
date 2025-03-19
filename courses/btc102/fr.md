@@ -2186,10 +2186,10 @@ Si vous lisez cette lettre, c’est que je ne suis plus là. Tout d’abord, sac
 
 J’ai désigné plusieurs personnes qui peuvent vous aider à comprendre Bitcoin et à récupérer mes actifs. Elles ne doivent jamais avoir accès directement aux fonds, mais elles peuvent vous guider dans ce processus :
 
-- Mon frère Bob ; +33 09 XX 68 18 36 ; [Bobmybrother@gmail.com](https://planb.network/cdn/courses/btc102/mailto:Bobmybrother@gmail.com). Vous pouvez faire confiance à Bob pour vous aider dans ce processus. Bien qu'il ne soit pas le plus doué techniquement, il est la bonne personne pour tout remettre en question et faire preuve de prudence afin de garantir votre réussite en toute sécurité. • Mon cousin Nathan ; +33 09 XX 29 35 ;
-- [NathanDeladzcroix@Hotmail.com](https://planb.network/cdn/courses/btc102/mailto:NathanDeladzcroix@Hotmail.com). C'est Nathan qui m'a fait découvrir Bitcoin. Il est très compétent en technologie et pourra répondre à la plupart de vos questions. Il possède également quelques bitcoins et pourra vous guider sur le plan technique. Vous l'avez déjà vu à plusieurs reprises lors de réunions de famille, et j'ai inclus une photo de lui ici.
-- Ricco ; @RiccoSFC sur Twitter ; [Ricco425@protonmail.com](https://planb.network/cdn/courses/btc102/mailto:Ricco425@protonmail.com). Je travaille en étroite collaboration avec Ricco depuis de nombreuses années. Vous ne l'avez jamais rencontré, alors assurez-vous de parler à la bonne personne en lui demandant "Quel est le nom du chien de Cédric". S'il répond "12", c'est bon. Ricco est un expert très amical et compétent en Bitcoin. Il répondra à toutes vos questions et vous pourrez vous fier à son jugement concernant la sécurité des bitcoins. N'ayez pas peur de le contacter, je l'ai rencontré plusieurs fois et il est au courant de tout ce qui concerne toi et Maia.
-- Cela peut vous sembler étrange, mais contactez-les tous. De plus, vous pouvez vous former en écoutant Andreas Antonopoulos sur YouTube et en achetant le livre "Cryptoasset Inheritance Planning" de Pamela Morgan."
+- Mon frère Bob ; +33 6 00 00 00 00 ; bobmybrother@supermail.com. Vous pouvez faire confiance à Bob pour vous aider dans ce processus. Bien qu'il ne soit pas le plus doué techniquement sur Bitcoin, il est la bonne personne pour tout remettre en question et faire preuve de prudence afin de garantir votre réussite en toute sécurité.
+- Mon cousin Nathan ; +33 6 00 00 00 00 ; nathandelacroix@supermail.com. C'est Nathan qui m'a fait découvrir Bitcoin. Il est très compétent en informatique et pourra répondre à la plupart de vos questions. Il possède également quelques fractions de bitcoins et pourra vous guider sur le plan technique. Vous l'avez déjà vu à plusieurs reprises lors de réunions de famille, et j'ai inclus une photo de lui ici.
+- Ricco ; @RiccoSuperBitcoiner sur Twitter ; ricco425@supermail.com. Je travaille en étroite collaboration avec Ricco depuis de nombreuses années. Vous ne l'avez jamais rencontré, alors assurez-vous de parler à la bonne personne en lui demandant "*Quel est le nom du chien de Cédric*". S'il répond "*12*", c'est bon. Ricco est un expert très amical et compétent sur Bitcoin. Il répondra à toutes vos questions et vous pourrez vous fier à son jugement concernant la sécurité des bitcoins. N'ayez pas peur de le contacter, je l'ai rencontré plusieurs fois et il est au courant de tout ce qui concerne toi et Maia.
+- Cela peut vous sembler étrange, mais contactez-les tous. De plus, vous pouvez vous former en écoutant Andreas Antonopoulos sur YouTube et en achetant le livre *Cryptoasset Inheritance Planning* de Pamela Morgan.
 
 Contactez toutes ces personnes et croisez leurs avis avant de prendre les décisions importantes. **Ne faites confiance à personne aveuglément.**
 
@@ -2197,11 +2197,15 @@ Contactez toutes ces personnes et croisez leurs avis avant de prendre les décis
 
 Voici un inventaire précis de mes avoirs, de leur emplacement et des méthodes d’accès.
 
-- "J'ai utilisé mon téléphone (Samsung Galaxy S8) pour accéder à mon portefeuille Samourai. La clé privée qui protège le portefeuille est stockée dans le coffre de la banque et une autre copie est chez Oncle Bob. Le code PIN pour déverrouiller mon téléphone et le portefeuille est conservé à la maison et chez ma grand-mère.
-- J'utilise mon ordinateur Dell 2018 pour accéder à une plateforme d'échange en ligne appelée Bitstamp. Il se peut que j'aie encore des Bitcoins ou des dollars sur cette plateforme. Pour accéder à mon compte, vous devrez les contacter directement ou vous connecter à mon compte (faites attention, cela peut être illégal - vérifiez votre législation locale).
-- J'ai utilisé un gestionnaire de mots de passe pour y accéder, et vous trouverez ma sauvegarde dans le coffre de la banque. Le compte est également protégé par une authentification à deux facteurs, à laquelle vous pouvez accéder via mon téléphone (Samsung Galaxy S8) ou en utilisant le code de sauvegarde stocké à la maison.
-- J'ai également des BTC sur un appareil Trezor Model One. J'y accède via mon PC et le site web Trezor.io. Les clés privées de sauvegarde sont stockées dans le coffre de la banque et chez Oncle Bob. Le code PIN est conservé à la maison et chez ma mère. L'appareil lui-même est probablement dans un coffre-fort à mon bureau.
-- J'utilise une phrase secrète de sécurité avancée pour mon appareil Trezor. La sauvegarde de cette phrase secrète est située à la maison et chez ma mère." »
+- J'utilise mon téléphone (Samsung Galaxy S8) pour accéder à mon portefeuille Samourai. La phrase mnémonique permettant de restaurer le portefeuille est sauvegardée en deux exemplaires : l'un est stocké dans le coffre de la banque, l'autre chez Oncle Bob. Le code PIN nécessaire pour déverrouiller à la fois mon téléphone et le portefeuille est conservé à mon domicile ainsi que chez ma grand-mère.
+
+- J'accède à la plateforme d'échange en ligne Bitfinex via mon ordinateur Dell 2018. Il est possible que des bitcoins ou des dollars y soient encore présents. Pour récupérer ces fonds, vous devrez soit contacter directement Bitfinex, soit essayer d'accéder à mon compte. (*Faites attention, cela peut être illégal - vérifiez votre législation locale*).
+
+- J'ai sécurisé l'accès à mes comptes en ligne à l'aide d'un gestionnaire de mots de passe. Une sauvegarde de ce gestionnaire est stockée dans le coffre de la banque. Mon compte Bitfinex est également protégé par une authentification à deux facteurs, accessible soit via mon téléphone (Samsung Galaxy S8, application Authy), soit grâce au code de secours que j'ai conservé à mon domicile.
+
+- Je possède un portefeuille matériel Trezor Model One, accessible depuis mon PC via le logiciel Sparrow Wallet. La phrase mnémonique permettant de restaurer ce portefeuille est stockée en deux exemplaires : l'un dans le coffre de la banque, l'autre chez Oncle Bob. Le code PIN nécessaire pour l'utiliser est conservé à mon domicile ainsi que chez ma mère. Quant à l'appareil lui-même, il est probablement rangé dans un coffre-fort à mon bureau.
+
+- J'utilise une passphrase BIP39 sur mon Trezor Model One. Cette passphrase est indispensable pour accéder aux fonds stockés sur l’appareil. Une sauvegarde est conservée en deux endroits : à mon domicile et chez ma mère.
 
 Prenez toutes les précautions nécessaires avant de manipuler ces fonds. Ne divulguez jamais la phrase de récupération complète à une seule personne et ne partagez ces informations qu’en cas d’absolue nécessité.
 
@@ -2225,21 +2229,27 @@ Prenez soin de vous et souvenez-vous que je vous aime. Mon souhait est que ces a
 
 ---
 
-### Vérifications et stockage de la lettre
+Voici un exemple concret de lettre qui sert de plan d'héritage. Vous devez évidemment adapter ce modèle à votre situation personnelle. Il est également important de choisir le niveau de détail que vous souhaitez apporter au processus de récupération. Si vous craignez que vos proches ne puissent pas récupérer vos bitcoins avec si peu d'informations, envisagez de rédiger une sorte de tutoriel pas à pas qui explique le processus en détail.
 
-Avant de conclure, assurez-vous d’avoir inclus :
-- Une liste claire des **personnes de confiance**, avec leurs contacts.
-- Un **inventaire détaillé des actifs** et de leurs emplacements.
-- Des **instructions précises** sur l’accès et la sécurité.
-- Un **message bienveillant** pour vos héritiers.
+Aussi, vous devrez décider de la quantité d'informations à révéler dans ce plan d'héritage. Plus vous partagez de détails sur vos méthodes de sécurisation, plus vous risquez de compromettre votre sécurité tant que vous êtes en vie si cette lettre tombe entre de mauvaises mains. Par exemple, un cambrioleur qui trouve cette lettre saurait immédiatement où chercher les informations critiques de vos portefeuilles. À l'inverse, en ne divulguant que trop peu d'informations, vous exposez vos proches au risque de ne pas pouvoir accéder à vos bitcoins. Il est donc nécessaire de trouver un juste milieu.
 
-Faites 2 copies de cette lettre et conservez-les dans des endroits sécurisés (coffre-fort, chez un proche de confiance). Informez vos héritiers de son existence, sans nécessairement leur en dévoiler le contenu immédiatement. Vous pouvez utiliser une pochette opaque inviolable pour vous assurer que votre plan d'héritage n'a pas été consulté sans votre consentement.
+Finalement, la problématique du plan d'héritage rejoint celle des stratégies de sécurisation : il s'agit toujours de balancer entre le risque de perte et le risque de vol. En ne consignant pas suffisamment d'informations, vous augmentez le risque que vos proches perdent l'accès aux bitcoins, tandis que trop d'informations peuvent accroître le risque de vol actuellement.
+
+### Étape 4 : Vérifiez et stockez la lettre
+
+Avant de conclure, assurez-vous d’avoir bien inclus :
+- Une liste claire des personnes de confiance, avec leurs contacts ;
+- Un inventaire détaillé des actifs et de leurs emplacements ;
+- Des instructions précises sur l’accès et la sécurité ;
+- Un message bienveillant pour vos héritiers.
+
+En fonction de ce que vous estimez nécessaire dans votre situation personnelle, réalisez plusieurs copies de cette lettre à la main et conservez-les dans des endroits sécurisés (coffre-fort, chez un proche de confiance...). Informez vos héritiers de l'existence de ce plan d'héritage, sans nécessairement leur en dévoiler le contenu immédiatement. Vous pouvez également utiliser une pochette opaque inviolable pour vous assurer que votre plan d'héritage n'a pas été consulté sans votre consentement.
 
 096
 
-Si besoin, consultez un avocat spécialisé pour intégrer ce plan dans un cadre légal officiel.
+Si besoin, consultez un avocat spécialisé ou un notaire pour intégrer ce plan dans un cadre légal officiel.
 
-**Bravo !** Vous venez d’achever une étape essentielle pour protéger votre héritage Bitcoin. Vous pouvez maintenant perfectionner votre plan en le mettant à jour régulièrement et en explorant des solutions plus avancées comme les multisig dégressif avec timelock :
+**Bravo !** Vous venez d’achever une étape essentielle pour protéger votre patrimoine en bitcoins. Vous pouvez maintenant perfectionner votre plan d'héritage en le mettant à jour régulièrement et en explorant des solutions plus avancées comme les multisig dégressif avec timelock :
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
@@ -2247,23 +2257,81 @@ Référence : [*Cryptoasset Inheritance Planning, A Simple Guide for Owners* - P
 
 Merci beaucoup à [Pamela Morgan](https://x.com/pamelawjd) pour son travail et son autorisation d’adaptation.
 
-
-## Féliciation ! VOUS ÊTES DANS LE TOP 0,1%
+## Félicitations ! Vous faites partie des 0,1 % les mieux préparés
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
-Si vous avez suivi notre contenu depuis le début, vous êtes maintenant un véritable citoyen du 21e siècle et l'un des plus aguerris dans le domaine du Bitcoin ! Vous utilisez un gestionnaire de mots de passe et la double authentification (2FA). Vous comprenez ce qu'est le Bitcoin et pourquoi il est important. Vous possédez des Bitcoins et avez un moyen sûr d'en acheter ou d'en gagner plus. Vous avez stocké vos Bitcoins dans un portefeuille "froid" et avez mis en place une gestion des clés adéquate. Vous avez créé un plan d'héritage pour vos proches. Vous êtes maintenant en sécurité et pouvez vous détendre! Savourez une bière et soyez fier de vous!
+Si vous avez suivi cette formation depuis le début, vous avez désormais des bases solides sur Bitcoin et faites partie des personnes les mieux préparées à naviguer dans cette nouvelle ère monétaire. Vous avez appris à sécuriser vos fonds, à gérer vos clés privées, à acheter et stocker du bitcoin en toute autonomie, et même à préparer un plan d’héritage. Vous avez franchi des étapes que la majorité des gens n’oseront jamais explorer.
 
-Je suis vraiment fier que vous ayez atteint ce stade. Je le pense sincèrement. Que faire ensuite ? Alors que vous devriez certainement vous détendre maintenant et être fier de vous-même, votre parcours avec Bitcoin est loin d'être terminé, et ne le sera jamais vraiment. Voici quelques options pour la suite :
+Prenez un instant pour mesurer votre progression :
+- Vous comprenez ce qu’est Bitcoin et pourquoi il a une importance capitale ;
+- Vous possédez des bitcoins et savez comment en acquérir davantage de manière sécurisée ;
+- Vous avez mis en place un portefeuille sécurisé, que ce soit un hardware wallet ou une autre solution adaptée à votre profil ;
+- Vous avez anticipé la transmission de vos bitcoins à vos proches grâce à un plan d’héritage bien structuré.
 
-1. Vous pourriez simplement continuer comme vous l'avez fait jusqu'à présent. Continuez à accumuler des bitcoins petit à petit et laissez votre stratégie se dérouler au fil du temps. Vous avez déjà un niveau de sécurité suffisant, tout est en place, et vous avez fait ce qu'il fallait pour vous et votre famille. Vous n'avez pas besoin de devenir un expert en trading, et vous n'avez pas besoin de savoir beaucoup plus sur l'investissement. Vous avez probablement un travail à côté, et même si Bitcoin est passionnant, votre objectif principal était d'arriver à ce stade. C'est le cas pour la majorité d'entre vous, et je respecte ça. Je suis très content que vous soyez arrivé jusqu'ici dans le "rabbit hole" du Bitcoin, et j'espère que le voyage a été agréable. Merci de m'avoir fait confiance pour vous aider à sécuriser vos premiers bitcoins.
-2. Vous pourriez vouloir continuer à vous éduquer sur les aspects techniques, idéologiques et philosophiques de Bitcoin. Si vous avez l'impression que votre voyage ne fait que commencer, je vous encourage à continuer à vous renseigner sur Bitcoin. Il y a tellement de choses à apprendre qu'il est difficile des fois de savoir par ou commencer. voici donc une liste de cours et formation qui pourrait vous accompagner :
+Vous êtes maintenant en sécurité. Vous avez posé les bases essentielles pour protéger votre souveraineté financière. **Bravo !**
 
-- nœud Bitcoin et Lightning Network : le Lightning Network, comme nous l'avons déjà vu à plusieurs reprises, apporte une toute autre vision de ce qu'est Bitcoin. Via cette couche deux, les possibilités sont multiples et une industrie entière se construit dessus. Pour vous accompagner dans la découverte, je vous invite à faire LN 201 pour un cours théorique ou alors LN 202 pour un cours pratique. Ces deux cours sont accessibles pour tous à ce stade de votre apprentissage et peuvent vous permettre de mieux comprendre ce nouvel aspect de Bitcoin.
-- économie autrichienne : si l'économie et la finance sont des sujets qui vous intéressent, dans ce cas la formation ECON 201 est probablement la bonne pour explorer les aspects plus profonds de l'économie autrichienne. Vous découvrirez là-bas ce mouvement de pensée économique qui s'oppose au mouvement plus traditionnel du keynésianisme. C'est un bon début pour se questionner sur notre système et comprendre comment nous en sommes arrivés là d'un point de vue de l'inflation et de la manipulation monétaire.
-- solution commerçante : enfin, si vous êtes plus du genre à vouloir vraiment utiliser Bitcoin, vous pouvez aller dans notre section tutoriels et ainsi explorer les nombreuses solutions pour les commerçants. Cela peut d'un côté vous offrir des opportunités dans notre milieu, mais aussi vous permettre d'aider votre entreprise ou vos amis à accepter Bitcoin dans leur commerce et ainsi faire tourner une économie locale basée sur Bitcoin dans votre ville !
+### Quelle est la prochaine étape ?
 
-Dans tous les cas, toutes nos formations restent gratuites et de nombreuses ressources ou tutoriels sont disponibles sur notre plateforme pour vous accompagner. Bonne continuation dans vos études !## Note la formation !
+Votre parcours ne s’arrête pas ici. Bitcoin est un monde en perpétuelle évolution, et il y a toujours plus à découvrir. Voici quelques directions que vous pourriez explorer pour approfondir votre compréhension et votre implication.
+
+#### 1. Continuer sur votre lancée
+
+Si vous vous sentez à l’aise avec votre stratégie actuelle, vous pouvez simplement poursuivre sur la même voie. Continuez à accumuler des bitcoins régulièrement et à appliquer les bonnes pratiques de sécurité. Vous avez mis en place des fondations solides, et il n’est pas nécessaire d’aller plus loin si votre objectif était uniquement de sécuriser votre épargne en bitcoins.
+
+Dans ce cas, prenez le temps d’observer l’évolution de Bitcoin, d’affiner votre stratégie et de renforcer votre sécurité à mesure que l’écosystème se développe.
+
+#### 2. Approfondir vos connaissances
+
+Votre parcours ne s’arrête pas ici. Bitcoin est un monde en perpétuelle évolution, et il y a toujours plus à découvrir. Voici quelques directions que vous pourriez explorer pour approfondir votre compréhension de Bitcoin :
+
+- Pour renforcer votre sécurité informatique, commencez avec le cours de première année SEC101 :
+
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+
+- Si les enjeux économiques et monétaires vous intéressent, enrichissez votre compréhension de Bitcoin d'un point de vue économique et philosophique grâce aux formations suivantes proposées par Plan ₿ Network :
+
+https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+
+https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+
+https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+
+- Pour les dirigeants intéressés par l'intégration du bitcoin dans leur entreprise, ce cours est incontournable :
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
+- Pour découvrir l'histoire fascinante de la création de Bitcoin et les premières années du système, je vous recommande fortement ce cours :
+
+https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+
+- Enfin, si vous êtes curieux des aspects techniques de Bitcoin et de son écosystème, explorez ces formations :
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
+#### 3. Participer activement à l’écosystème Bitcoin
+
+Bitcoin est bien plus qu’un simple actif financier, c’est aussi un mouvement technologique et philosophique. En fonction de votre profil et de vos compétences, vous pouvez contribuer à l'écosystème de différentes manières :
+
+- **Éduquer et sensibiliser** : Aidez vos proches à comprendre Bitcoin, partagez vos connaissances et participez aux discussions locales ;
+
+- **Développer des outils et applications** : Si vous avez des compétences techniques, contribuer à des outils open-source est une excellente manière d’apporter de la valeur à Bitcoin ;
+
+- **Rejoindre une communauté locale** : Participez aux événements, meetups et forums pour rencontrer d’autres bitcoiners et échanger sur les dernières avancées.
+
+Naturellement, si vous souhaitez contribuer à l'éducation du public sur Bitcoin, votre aide serait grandement appréciée sur Plan ₿ Network. Nos ressources pédagogiques sont open-source, hébergées sur GitHub, et nous sommes toujours à la recherche de contributeurs pour aider à relire et améliorer les contenus dans les diverses langues que nous offrons, en échange de quelques satoshis ! Que ce soit immédiatement ou pour plus tard dans votre parcours sur Bitcoin, n'hésitez pas à rejoindre [notre groupe Telegram pour les contributeurs](https://t.me/PlanBNetwork_ContentBuilder) de Plan ₿ Network.
+
+### Conclusion
+
+Bitcoin est un cheminement personnel, et chacun avance à son rythme. Que vous décidiez de vous arrêter ici ou de plonger encore plus loin dans le "rabbit hole", vous avez déjà fait un pas décisif vers l’indépendance financière et la souveraineté numérique.
+
+Toutes nos formations restent gratuites et accessibles, et nous continuerons à proposer de nouvelles ressources pour vous accompagner.
+
+Bonne continuation dans votre aventure avec Bitcoin !
 
 # Conclusion
 

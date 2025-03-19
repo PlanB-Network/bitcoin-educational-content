@@ -1812,62 +1812,217 @@ En conclusion, l'utilisateur actif contribue directement à la dynamique de l’
 
 Dans le chapitre suivant, nous allons étudier le dernier profil type de bitcoiner, qui est probablement le plus complexe mais aussi le plus fascinant : celui de l'utilisateur paranoïaque.
 
-## Le parano
+## Le paranoïaque : protéger sa vie privée
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 
-Je me permets d'ajouter ici le bitcoiner paranoïaque. Ce type de personne ne souhaite pas s'exposer au KYC (Know Your Customer), préfère rester proche de l'anonymat et accorde une grande importance à sa vie privée. Le paranoïaque utilisera aussi LN via son propre nœud et travaillera sur sa sécurité.
+Le bitcoiner paranoïaque fait de la confidentialité une priorité absolue. Il ne considère pas la protection de la vie privée comme un simple confort, mais comme une nécessité vitale dans un monde où la surveillance financière est omniprésente. Ce profil est souvent adopté par des personnes conscientes des dangers liés à l’exposition de leurs données personnelles, notamment via les plateformes d’achat traditionnelles soumises aux réglementations KYC.
 
-![image](assets/tuto/13.webp)
+Pour lui, chaque interaction avec Bitcoin doit être pensée pour minimiser les traces laissées derrière lui. Il sait que chaque achat, chaque transaction et chaque erreur peut compromettre son anonymat et rendre son identité traçable. Son objectif est d'utiliser Bitcoin sans jamais révéler qui il est, où il se trouve, ni combien il possède.
 
-### Le plan
+087
 
-Pour ce type de profil, la solution pour les débutants est assez simple :
+### Pourquoi adopter une stratégie de paranoïaque ?
 
-- Utilisation de distributeurs de Bitcoin en espèces
-- Achat en espèces lors de rencontres en personne
-- Vente de marchandises en Bitcoin
+Une approche axée sur la confidentialité et la sécurité offre plusieurs avantages pour vous :
 
-Il devra ensuite apprendre à mélanger ses coins, gérer ses UTXO (Unspent Transaction Outputs) et bien d'autres choses qui n'ont pas encore été abordées dans ce cours. Si nécessaire, toutes les informations sont disponibles sur l'université pour devenir petit à petit un "parano".
+- **Préserver votre indépendance financière** : éviter la surveillance et la censure exercées par les banques, gouvernements et plateformes centralisées.
 
-### Tutorial:
+- **Minimiser le risque de confiscation** : en cas de répression économique ou d’instabilité politique, il est plus difficile pour un tiers d’identifier et de saisir les fonds du paranoïaque.
 
-Portefeuille chaud :
-https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956
+- **Réduire votre exposition aux menaces extérieures** : les attaques informatiques  physiques ciblent souvent des individus dont l’identité est associée à des fonds importants. Protéger sa confidentialité, c'est également améliorer sa sécurité.
 
-Portefeuille froid :
-https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+- **Éviter les discriminations financières** : certains États ou entreprises appliquent des restrictions arbitraires sur les transactions en fonction de l’identité de l’utilisateur ou de ses actes passés. Rester confidentiel permet de se protéger contre ces pratiques injustes.
 
-https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+- **Respecter le principe fondamental de Bitcoin** : Bitcoin a été conçu pour être une monnaie ouverte et résistante à la censure. En maximisant sa confidentialité, on adopte pleinement l’esprit initial du projet.
 
-Achat non KYC entre particuliers :
+La paranoïa, loin d’être un simple trait de caractère, représente ici une approche rationnelle face aux risques réels liés à la sécurité numérique, à la surveillance, au vol, ou à d’autres attaques malveillantes. Ce type d’utilisateur reconnaît la nécessité d’être constamment vigilant et proactif pour préserver sa vie privée dans un environnement de plus en plus surveillé, afin de protéger également sa sécurité personnelle.
+
+Cette approche demande du temps, des connaissances et de la rigueur, mais elle garantit un contrôle total sur son argent et sa liberté financière. Ceux qui choisissent cette voie ne recherchent pas seulement un investissement ou un moyen de paiement, mais une véritable indépendance vis-à-vis du système financier traditionnel.
+
+### Plan d’investissement d’un paranoïaque
+
+L’approche du paranoïaque repose sur une stratégie stricte visant à préserver son anonymat et à sécuriser ses fonds de manière maximale. Ce type d’utilisateur cherche à minimiser son exposition aux plateformes régulées (KYC), éviter toute traçabilité des transactions et garantir une protection optimale contre les menaces externes (surveillance gouvernementale, attaques informatiques, confiscations...).
+
+092
+
+#### 1. Configurer ses portefeuilles et ses nœuds
+
+Un paranoïaque ne mélange jamais ses fonds en fonction de leur origine et de leur usage. Il adopte une gestion cloisonnée de ses bitcoins en utilisant plusieurs portefeuilles distincts :
+
+- **Un portefeuille froid (air-gapped et/ou DIY)** pour le stockage à long terme de ses bitcoins. L'utilisateur paranoïaque favorisera des solutions avancées, open-source ou avec code source disponible, telles que Jade, Coldcard, SeedSigner, Portal, ou encore Passport... Si possible, il achètera son hardware wallet de manière anonyme, soit en cash ou en bitcoins dans un magasin physique spécialisé, soit en le commandant en ligne auprès d'une boutique spécialisée qui offre des options de livraison anonyme en locker et un paiement en bitcoins. Par exemple, en France, le [Bitcoin Bazar](https://bitcoinbazar.fr/) propose ce type de service. Vérifiez dans votre propre pays l'existence de telles boutiques.
+
+https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
+https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
+https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
+https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+
+- **Un portefeuille chaud pour les transactions quotidiennes**, intégrant des outils avancés de confidentialité tels que Ashigaru, Wasabi Wallet ou Sparrow Wallet. Ces outils offrent de nombreuses options de confidentialité, notamment les transactions de dépense mini-coinjoin, les payjoins, potentiellement des outils de coinjoin, le coin control, l'étiquetage d'UTXOs, ou encore la possibilité de se connecter via son propre nœud Bitcoin.
+
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+089
+
+- **Un nœud Bitcoin** pour éviter toute dépendance aux nœuds publics et garantir un contrôle total sur ses transactions. Avoir son propre nœud Bitcoin protège la confidentialité des transactions lors de leur diffusion, élimine la nécessité de faire confiance à un tiers pour les données de la blockchain Bitcoin, empêche la censure de vos transactions, et vous permet de participer à la définition des règles de standardisation et de consensus du système. C'est donc un outil indispensable pour l'utilisateur paranoïaque, et, plus généralement, pour tout utilisateur de Bitcoin suffisamment expérimenté.
+
+https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+
+https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+
+https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+
+https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+
+https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+
+- **Un nœud Lightning** pour effectuer des dépenses quotidiennes tout en contrôlant entièrement le processus, y compris l'ouverture et la gestion des canaux, tout en étant indépendant dans son utilisation de Lightning.
+
+https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
+090
+
+L'utilisateur paranoïaque choisira également des outils avancés pour sécuriser ses portefeuilles. Pour la gestion de ses phrases mnémoniques, il optera pour des supports en métal accompagnés d'enveloppes opaques scellées, afin de se protéger contre les catastrophes naturelles et de vérifier régulièrement que personne n'a accédé à ses phrases.
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
+Pour son épargne, il peut mettre en place un portefeuille plus complexe, en utilisant soit un multisig simple, soit un multisig avec des timelocks.
+
+https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+
+Il utilisera aussi une passphrase BIP39 pour éviter d'avoir un point de défaillance unique.
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+Le paranoïaque aura évidemment un plan d'héritage pour ses bitcoins, mais ce point sera expliqué plus en détail dans la section suivante de la formation.
+
+Plus largement, l'utilisateur paranoïaque adopte une utilisation responsable et avancée de l'informatique. Il privilégie des outils sécurisés, open-source et respectueux de la vie privée pour :
+
+- Ses systèmes d'exploitation, aussi bien sur son téléphone que sur son ordinateur ;
+
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+
+- Ses systèmes d'authentification ;
+
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
+- Ses outils de communication ;
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+- Ses outils de gestion des données.
+
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
+Si vous souhaitez en savoir plus sur ce sujet de la sécurité informatique, nous proposons une formation complète de première année dédiée à ce thème :
+
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+
+#### 2. Acheter des bitcoins de manière anonyme
+
+L’un des objectifs majeurs du paranoïaque est d’acquérir ses bitcoins sans passer par une plateforme KYC, afin d’éviter toute liaison entre son identité et ses activités onchain. Pour cela, il privilégie plusieurs solutions :
+
+- Les plateformes d'achat en P2P telles que Bisq, Robosat, LNP2PBot, Peach, Hodl Hodl, etc. ;
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+- Les achats en direct contre du cash, par exemple lors de meetups Bitcoin locaux ;
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
-### Est-ce pour vous ?
+- Les distributeurs automatiques de bitcoins (ATM) ;
+- Travailler en échange de bitcoins ;
+- Miner des bitcoins.
 
-- Vigilant et Sécuritaire:
-  Le Parano porte un grand intérêt à sa vie privée et à sa sécurité en ligne. Cette vigilance s'étend à toutes ses interactions, en particulier celles liées à Bitcoin et aux cryptomonnaies.
+https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-- Indépendant:
-  Préférant la gestion autonome de ses actifs et de sa sécurité, il met en place son propre nœud et travaille de manière proactive sur sa sécurité en ligne, illustrant un fort désir d'indépendance et de contrôle.
+https://planb.network/tutorials/mining/hardware/braiin-mini-miner-b4c5cb2c-e7ee-4521-a750-edefb0747db3
 
-- Méfiant:
-  La méfiance envers les systèmes centralisés et les processus KYC est un trait distinctif du Parano. Sa réticence à partager des informations personnelles guide ses choix vers des plateformes et des services qui respectent et préservent l'anonymat.
+https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
-- Érudit et Appliqué:
-  Conscient de la complexité des cryptomonnaies, le Parano prend le temps de s'éduquer sur les meilleures pratiques pour protéger et gérer ses actifs, comme le mélange de ses coins et la gestion de ses UTXO.
+Le paranoïaque évite systématiquement l'utilisation de plateformes d'échange centralisées afin de se prémunir contre les risques associés à ces entités.
 
-- Pragmatique:
-  Bien que valorisant l'anonymat et la sécurité, le Parano reste pragmatique dans ses choix, utilisant des solutions éprouvées et fiables pour sécuriser ses bitcoins tout en naviguant dans l'écosystème des cryptomonnaies.
+091
 
-Dans l'esprit du Parano, la prudence, la sécurité et l'anonymat sont primordiaux. Ces priorités dictent une approche délibérée et bien réfléchie de l'utilisation de Bitcoin, favorisant l'auto-suffisance et la prudence. Le Parano est prêt à investir du temps et des efforts pour assurer la sécurité et la confidentialité de ses bitcoin, tout en naviguant habilement dans l'écosystème pour éviter toute exposition inutile. Bien qu'il puisse sembler excessivement prudent pour certains, le Parano considère que sa diligence et son attention aux détails sont essentielles pour une participation réussie et sécurisée dans le monde du Bitcoin.
+#### 3. Éviter le traçage onchain
+
+Même après une acquisition anonyme, les bitcoins peuvent être tracés sur la blockchain s’ils ne sont pas gérés correctement. Le paranoïaque adopte plusieurs stratégies pour protéger sa vie privée :
+
+- **Éviter la réutilisation d'adresses**, soit manuellement, soit grâce à des outils avancés tels que les Silent Payments ou le BIP47 ;
+- **Étiqueter ses UTXOs** ;
+- **Pratiquer le coin control lors des dépenses** ;
+- **Éviter la consolidation des UTXOs** ;
+- **Utiliser des structures de transactions qui protègent la confidentialité** : coinjoins, payjoins, ricochets, et mini-coinjoins de paiement...
+
+L'utilisateur paranoïaque s'est également familiarisé avec les bases de l'analyse de chaîne. Il connaît les patterns et les heuristiques utilisés par les sociétés d'analyse de chaîne pour mieux s'en protéger.
+
+Si vous souhaitez approfondir vos connaissances sur ces pratiques et sur la confidentialité sur Bitcoin, nous proposons une formation complète de deuxième année qui détaille tous ces aspects :
+
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
+#### 4. Maintenir une veille constante et ajuster sa stratégie
+
+Le protocole Bitcoin, les systèmes de surcouche comme le Lightning Network, et toute la couche applicative liée à ces écosystèmes évoluent rapidement. Un utilisateur paranoïaque doit donc :
+- Se tenir informé des nouvelles solutions, notamment des nouvelles techniques de protection de la vie privée ;
+- Tester régulièrement de nouveaux outils et services pour améliorer son expérience utilisateur ;
+- Tester régulièrement la robustesse de son système, notamment le fonctionnement et la mise à jour des hardware wallets, le fonctionnement et la mise à jour des nœuds, ainsi que la vérification des enveloppes opaques des phrases mnémoniques ;
+- Suivre les nouvelles régulations et menaces afin d’ajuster sa stratégie.
+
+### Évaluer votre profil de paranoïaque
+
+Adopter une stratégie de paranoïaque n’est pas une démarche anodine. Elle demande beaucoup de rigueur, une discipline constante et un investissement en temps pour maîtriser les outils et les bonnes pratiques de confidentialité. Ce profil est-il fait pour vous ? Voici les traits caractéristiques du bitcoiner paranoïaque :
+
+- **Vigilant et sécuritaire** : Vous attachez une importance capitale à votre vie privée et êtes prêt à prendre des précautions supplémentaires pour éviter toute fuite d’informations personnelles. Vous considérez la surveillance financière comme une menace et cherchez à vous protéger de toute ingérence.
+
+- **Indépendant** : Vous ne voulez dépendre d’aucun intermédiaire pour stocker, gérer ou transférer vos bitcoins. Vous êtes prêt à héberger votre propre nœud Bitcoin et Lightning, à utiliser des portefeuilles complexes et à gérer vous-même vos sauvegardes et clés privées.
+
+- **Méfiant** : Vous refusez d’utiliser les plateformes KYC et privilégiez des modes d’acquisition anonymes en P2P, même si cela implique de payer un premium sur le prix. Vous savez que chaque donnée personnelle partagée pourra être utilisée contre vous.
+
+- **Érudit et rigoureux** : Vous êtes passionné par la cybersécurité et les technologies de protection de la vie privée. Vous prenez le temps d’étudier les différentes solutions existantes, d’essayer les outils, de vous former sur les bonnes pratiques et d’appliquer des méthodes strictes pour limiter les risques d’erreur.
+
+- **Pragmatique et raisonné** : Vous savez qu’un anonymat absolu est presque impossible à atteindre, mais vous cherchez à réduire au maximum votre exposition tout en trouvant un équilibre entre confidentialité, sécurité et praticité d’utilisation. Vous adaptez continuellement votre approche aux nouvelles menaces et évolutions technologiques.
+
+Si vous vous reconnaissez dans ces traits, alors cette stratégie vous conviendra probablement. Le chemin est exigeant et demande un effort constant, mais il garantit une souveraineté financière totale et une sécurité renforcée face aux risques de surveillance, de saisie ou de traçabilité de vos fonds.
+
+088
+
+Cette approche est particulièrement pertinente si vous détenez des montants importants, si vous êtes exposé à des régimes autoritaires, ou si vous souhaitez protéger votre anonymat pour des raisons personnelles ou idéologiques. Même si cela peut sembler extrême pour certains, ces précautions deviennent essentielles pour ceux qui exigent le plus haut niveau de confidentialité et de protection de leurs bitcoins.
+
+Dans la prochaine section du cours, nous allons aborder un sujet souvent négligé et pourtant au combine important : celui de la transmission de ses bitcoins en cas de problème.
 
 # Protéger ses héritiers et son patrimoine
 
@@ -1895,7 +2050,7 @@ Selon Pamela Morgan dans "Cryptoasset Inheritance Planning" (page 10), les objec
 
 La plupart des concepts, des idées et des actions proposés dans cette leçon (6.1 BRH) proviennent du livre de Pamela Morgan intitulé "Cryptoasset Inheritance Planning". Ce livre propose un processus facile à suivre, étape par étape, pour mettre en place rapidement votre plan de succession Bitcoin. Ce processus est validé par de nombreux experts en sécurité de l'industrie. Bien qu'il s'agisse d'un excellent point de départ pour créer un plan de succession, il ne constitue PAS un avis juridique et vous devez toujours (comme toujours) vérifier les sources, confronter les idées et faire vos propres recherches. Pamela m'a généreusement autorisé à utiliser son travail. Je la remercie chaleureusement.
 
-![pamela morgan](assets/heritage/0.webp)
+IMAGE 093
 
 Dans cette leçon, nous nous concentrerons uniquement sur la première partie de son livre. J'incarnerai le rôle d'un utilisateur Bitcoin typique pour créer sa propre lettre de succession. Le processus sera simple pour le moment, et nous créerons une version plus complexe avec différents types de profils plus tard : Nous suivrons le parcours de Cédric :
 
@@ -1918,7 +2073,7 @@ Qu'est-ce dont vous avez besoin ?
 - Un téléphone / carnet d'adresses
 - Un ordinateur (à mon avis, c'est facultatif)
 
-![pamela morgan](assets/heritage/1.webp)
+IMAGE 094
 
 Selon Pamela Morgan dans "Cryptoasset Inheritance Planning" à la page 18 les idées fausses courantes sont :
 
@@ -1988,7 +2143,7 @@ La lettre doit être claire et utile. Ce n'est pas un testament, ni une lettre p
 
 Voici un extrait du modèle de lettre à un proche, tiré de l'annexe E du livre de Pamela Morgan, "Cryptoasset Inheritance Planning". Pour l'adapter à notre exemple, j'ai modifié certains passages, que j'ai placés entre parenthèses et marqués en bleu. Le reste du texte est le texte original du livre. (Traduit par Découvre Bitcoin)
 
-![pamela morgan](assets/heritage/0.webp)
+IMAGE 093
 
 "Date : 26/06/2020
 Chères Liz & Maia,

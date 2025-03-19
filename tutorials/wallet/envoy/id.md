@@ -6,7 +6,7 @@ description: Menyiapkan dan menggunakan Paspor dengan aplikasi Envoy
 
 Envoy adalah sebuah aplikasi manajemen dompet Bitcoin yang dikembangkan oleh Foundation. Aplikasi ini dirancang khusus untuk digunakan dengan dompet perangkat keras Passport.
 
-Passport "*Batch 2*" yang kami sajikan dalam tutorial ini dengan aplikasi Envoy adalah penerus "*Founder's Edition*". Passport ini memiliki desain premium, layar warna definisi tinggi dan keyboard fisik yang ergonomis. Perangkat ini beroperasi dalam mode "*Air-Gap*", memastikan bahwa kunci pribadi dompet Anda tetap terisolasi sepenuhnya, dengan pertukaran dapat dilakukan melalui kartu MicroSD atau kode QR. Perangkat ini dilengkapi baterai 1200 mAh yang dapat dilepas.
+Passport "*Batch 2*" yang kami perkenalkan dalam tutorial ini dengan aplikasi Envoy adalah penerus dari edisi "*Founder's Edition*". Perangkat ini memiliki desain premium, layar warna berdefinisi tinggi, dan keyboard fisik yang ergonomis. Beroperasi dalam mode "*Air-Gap*", memastikan kunci pribadi dompet Anda tetap sepenuhnya terisolasi, dengan pertukaran data yang dilakukan melalui kartu MicroSD atau kode QR. Perangkat ini dilengkapi dengan baterai isi ulang yang dapat dilepas, Nokia BL-5C berkapasitas 1200 mAh. Baterai non-proprietary ini mudah diganti karena model BL-5C tersedia luas di pasaran.
 
 Sedangkan untuk konektivitas, Passport dilengkapi dengan port MicroSD, port USB-C untuk pengisian daya, dan kamera belakang untuk memindai kode QR.
 
@@ -23,6 +23,7 @@ Dalam tutorial ini, yang ditujukan untuk pengguna pemula dan menengah, kita akan
 Jika Anda pengguna tingkat lanjut dan ingin menjelajahi fitur-fitur yang lebih kompleks, saya sarankan Anda melihat tutorial lain di mana kita mengonfigurasi Passport dengan Sparrow Wallet :
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 ## Membuka Kotak Paspor
 
 Ketika Anda menerima Paspor, pastikan kotak dan segel pada karton masih utuh untuk mengonfirmasi bahwa paket tersebut belum dibuka. Verifikasi perangkat lunak terhadap keaslian dan integritas perangkat juga akan dilakukan saat perangkat diatur.
@@ -169,7 +170,8 @@ Untuk melakukan ini, gunakan kartu MicroSD yang disertakan dalam kotak Passport 
 
 Sebelum menginstalnya di perangkat Anda, kami sangat menyarankan Anda untuk memeriksa keaslian dan integritas firmware yang diunduh. Jika Anda memerlukan bantuan dalam hal ini, bacalah tutorial ini:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### Dengan aplikasi Envoy
 
 Opsi lain yang lebih sederhana adalah menggunakan aplikasi Envoy secara langsung. Klik "*Unduh Firmware*".
@@ -253,6 +255,7 @@ Klik tombol konfirmasi untuk melihat frasa mnemonik Anda.
 Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa mnemonik Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.**_
 
 Buatlah cadangan fisik dari kalimat ini.

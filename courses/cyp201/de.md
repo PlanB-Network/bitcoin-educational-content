@@ -86,7 +86,7 @@ Diese kryptografischen Hash-Funktionen haben mehrere wesentliche Eigenschaften, 
 
 #### 1. Unumkehrbarkeit (Preimage-Resistenz):
 
-Unumkehrbarkeit bedeutet, dass es einfach ist, den Hash aus den Eingangsinformationen zu berechnen, aber die umgekehrte Berechnung, also das Finden der Eingabe aus dem Hash, praktisch unmöglich ist. Diese Eigenschaft macht Hash-Funktionen perfekt für die Erstellung einzigartiger digitaler Fingerabdrücke, ohne die ursprünglichen Informationen zu kompromittieren. Diese Eigenschaft wird oft als Einwegfunktion oder "_Falltürfunktion_" bezeichnet.
+Unumkehrbarkeit bedeutet, dass es einfach ist, den Hash aus der Eingabeinformation zu berechnen, aber die umgekehrte Berechnung, also das Auffinden der Eingabe aus dem Hash, praktisch unmöglich ist. Diese Eigenschaft macht Hash-Funktionen perfekt für die Erstellung einzigartiger digitaler Fingerabdrücke, ohne die ursprünglichen Informationen zu gefährden.
 
 Im gegebenen Beispiel ist es einfach und schnell, den Hash `24f1b9…` zu erhalten, wenn man die Eingabe "_PlanB_" kennt. Jedoch ist es unmöglich, die Nachricht "_PlanB_" zu finden, wenn man nur `24f1b9…` kennt.
 
@@ -1310,6 +1310,7 @@ Ein 12-Wort-Phrase, die auch 128 Bit an Sicherheit bietet, ist daher derzeit aus
 Um weiter zu gehen und konkret zu lernen, wie man manuell eine Test-Mnemonic-Phrase generiert, rate ich Ihnen, dieses Tutorial zu entdecken:
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 Bevor wir mit der Ableitung des Wallets aus dieser Mnemonic-Phrase fortfahren, werde ich Ihnen im folgenden Kapitel die BIP39-Passphrase vorstellen, da sie eine Rolle im Ableitungsprozess spielt und sie sich auf derselben Ebene wie die Mnemonic-Phrase befindet.
 ## Die Passphrase
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

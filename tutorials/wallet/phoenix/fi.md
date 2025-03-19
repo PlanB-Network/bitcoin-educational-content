@@ -6,7 +6,7 @@ description: Phoenix Walletin asentaminen ja käyttö
 
 Phoenix on Lightning-pohjaisiin ohjelmistoratkaisuihin erikoistuneen ranskalaisen ACINQ-yrityksen kehittämä Lightning-lompakko ja -solmu. Toisin kuin Wallet of Satoshin kaltaiset Lightning-lompakot, joissa bitcoinit ovat kolmannen osapuolen hallussa, Phoenix antaa käyttäjille mahdollisuuden pitää yksityiset avaimensa täysin hallinnassaan.
 
-Itse asiassa Phoenix toimii kuin puhelimeen upotettu oikea Lightning-solmu, joka avaa automaattisesti kanavan ACINQ:n Lightning-solmun kanssa. Sovellus perustuu Eclairiin, ACINQ:n kehittämään Lightning-toteutukseen. Toisin kuin muut Lightning-solmuratkaisut, Phoenix yksinkertaistaa hallintaa huomattavasti. Käyttäjien ei tarvitse hallita kanavien avaamista ja sulkemista, pyörittää Bitcoin-solmua tai hallita likviditeettiään Lightning-verkossa. Phoenix hoitaa kaikki nämä tekniset toiminnot taustalla.
+Phoenix toimii kuin varsinainen Lightning-solmu, joka on integroitu puhelimeesi ja avaa automaattisesti kanavan ACINQ:n Lightning-solmun kanssa. Sovellus perustuu Lightning-KMP:hen, Kotlinilla toteutettuun monialustaratkaisuun Lightning-verkosta, joka on optimoitu mobiililompakoille. Toisin kuin muut Lightning-solmuratkaisut, Phoenix yksinkertaistaa hallintaa merkittävästi. Käyttäjän ei tarvitse huolehtia kanavien avaamisesta ja sulkemisesta, Bitcoin-solmun pyörittämisestä tai likviditeetin hallinnasta Lightning-verkossa. Phoenix huolehtii kaikista näistä teknisistä toiminnoista taustalla.
 
 Tässä sovelluksessa yhdistyvät Lightning-mobiililompakoiden helppokäyttöisyys ja mukavuus sekä aidon henkilökohtaisen Lightning-solmun turvallisuus ja riippumattomuus. Phoenix mahdollistaa Lightning-verkon turvallisen, tehokkaan ja itsenäisen käytön sekä sujuvan ja intuitiivisen käyttökokemuksen.
 
@@ -60,6 +60,7 @@ Voit kirjoittaa sen paperille tai kaivertaa sen ruostumattomaan teräkseen, jott
 Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaan oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 Napsauta käyttöliittymän yläreunassa näkyvää viestiä "*Tallenna lompakkosi...*".
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Onneksi olkoon, tiedät nyt, miten Phoenixia määritetään ja käytetään. Jo
 Jos haluat mennä askeleen pidemmälle, tutustu tähän Alby Hubin ohjeeseen, joka on toinen innovatiivinen ja helppokäyttöinen ratkaisu oman Lightning-solmun käynnistämiseen:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 Ja jos haluat tietää enemmän Lightning Networkin teknisestä toiminnasta, löydät Fanis Michalakisin erinomaisen ilmaisen koulutuksen Plan ₿ Networkista :
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

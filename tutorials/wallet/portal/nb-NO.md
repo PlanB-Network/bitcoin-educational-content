@@ -67,6 +67,7 @@ Du kan gravere det på et stykke papir, eller for ekstra sikkerhet anbefaler jeg
 Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer minnefrasen din, anbefaler jeg at du følger denne andre veiledningen, spesielt hvis du er nybegynner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 du må selvfølgelig aldri dele disse ordene på Internett, slik jeg gjør i denne opplæringen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen
 
 Trykk hardt på knappen på portalen for å gå videre til neste ord. Sørg for at du plasserer hele fingeren på knappen og holder trykket i noen sekunder, slik at interaksjonen registreres på riktig måte.

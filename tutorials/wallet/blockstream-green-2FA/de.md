@@ -21,6 +21,7 @@ Green ist eine besonders einfach zu bedienende Anwendung, was sie auch für Anf�
 Blockstream Green unterstützt auch das Liquid-Netzwerk, eine von Blockstream entwickelte Bitcoin-Sidechain für schnelle, vertrauliche Transaktionen außerhalb der Hauptblockchain. In diesem Tutorial konzentrieren wir uns ausschließlich auf Bitcoin, aber ich habe auch ein weiteres Tutorial erstellt, um zu lernen, wie man Liquid auf Green verwendet:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+
 ## 2/2-Multisig-Option (2FA)
 
 Bei Green können Sie eine klassische "*singlesig*"-Hot-Wallet erstellen. Sie haben aber auch die Option "*2FA multisig*", die die Sicherheit Ihres Hot Wallets erhöht, ohne die tägliche Verwaltung zu verkomplizieren.
@@ -40,6 +41,7 @@ Ein weiterer Nachteil dieser Sicherheitsmethode ist, dass Sie Skriptvorlagen von
 Wenn Sie es vorziehen, die 2FA-Option nicht zu nutzen und einfach eine "*singlesig*"-Brieftasche auf Green einrichten möchten, lade ich Sie ein, dieses andere Tutorial zu lesen:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+
 ## Installieren und Konfigurieren der Blockstream Green Software
 
 Der erste Schritt besteht natürlich darin, die Green-Anwendung herunterzuladen. Gehen Sie zu Ihrem Anwendungsspeicher:
@@ -146,7 +148,8 @@ Klicken Sie auf die grüne Schaltfläche "*Erhöhen Sie die Sicherheit Ihres Kon
 
 Sie können dann die Authentifizierungsmethode für den Zugriff auf den zweiten Schlüssel Ihrer 2/2-Multisig auswählen. In diesem Tutorial werden wir eine Authentifizierungsanwendung verwenden. Wenn Sie mit dieser Art von Anwendung nicht vertraut sind, empfehle ich Ihnen, unser Tutorial über Authy zu lesen:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Wählen Sie "*Authentifizierungsanwendung*".
 
 ![GREEN 2FA MULTISIG](assets/fr/25.webp)

@@ -1,7 +1,7 @@
 ---
 name: Úvod do formální kryptografie
 goal: Hloubkový úvod do vědy a praxe kryptografie.
-objectives: 
+objectives:
 
   - Prozkoumejte Bealovy šifry a moderní kryptografické metody a pochopte základní a historické koncepty kryptografie.
   - Pronikněte do teorie čísel, grup a polí a osvojte si klíčové matematické pojmy, které jsou základem kryptografie.
@@ -291,7 +291,7 @@ Ve výrazu "náhodná veličina" znamená výraz "náhodný" pouze "pravděpodob
 
 **Jednotná proměnná** je speciálním případem náhodné proměnné. Může nabývat dvou nebo více hodnot se stejnou pravděpodobností. Náhodná veličina $X$ zobrazená na *obrázku 1* je jednoznačně rovnoměrná veličina, protože oba možné výsledky se vyskytují s pravděpodobností $0,5$. Existuje však mnoho náhodných veličin, které nejsou případy rovnoměrných veličin.
 
-Uvažujme například náhodnou veličinu $Y$. Má množinu výsledků ${1, 2, 3, 8, 10\}$ a následující rozdělení pravděpodobnosti:
+Uvažujme například náhodnou veličinu $Y$. Má množinu výsledků ${1, 2, 3, 8, 10}$ a následující rozdělení pravděpodobnosti:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -824,7 +824,7 @@ V kryptografii nás zajímají především konečná pole. Obecně lze ukázat,
 
 Má-li nějaké konečné pole prvočíselný počet prvků, pak se nazývá **prvočíselné pole**. Pokud je počet prvků v konečném poli prvočíselný, pak se pole nazývá **rozšířené pole**. V kryptografii nás zajímají jak prvočíselná, tak rozšiřující pole. [2]
 
-V kryptografii jsou zajímavá především pole prvočísel, kde je množina všech celých čísel modulována nějakým prvočíslem a operátory jsou standardní sčítání a násobení. Do této třídy konečných polí patří $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \\mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$ a tak dále. Pro libovolné prvočíselné pole $\mathbb{Z}modmodmod \mod p$ je množina celých čísel tohoto pole následující: $\{0, 1, \ldots, p - 2, p - 1\}$.
+V kryptografii jsou zajímavá především pole prvočísel, kde je množina všech celých čísel modulována nějakým prvočíslem a operátory jsou standardní sčítání a násobení. Do této třídy konečných polí patří $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$ a tak dále. Pro libovolné prvočíselné pole $\mathbb{Z}modmodmod \mod p$ je množina celých čísel tohoto pole následující: $\{0, 1, \ldots, p - 2, p - 1\}$.
 
 V kryptografii nás také zajímají rozšiřující pole, zejména pole s $2^m$ prvky, kde $m > 1$. Taková konečná pole se používají například v šifře Rijndael, která tvoří základ šifrovacího standardu Advanced Encryption Standard. Zatímco pole prvočísel jsou poměrně intuitivní, tato rozšiřující pole báze 2 pravděpodobně nejsou pro nikoho, kdo nezná abstraktní algebru.
 
@@ -1019,10 +1019,10 @@ Bob zašifruje zprávu $M$ v čase $T_0$ klíčem $K$ a získá šifrový text $
 
 V kapitole 2 jsme se setkali s posunovací šifrou, která je příkladem velmi jednoduchého symetrického šifrovacího schématu. Podívejme se na ni znovu zde.
 
-Předpokládejme slovník *D*, který přirovnává všechna písmena anglické abecedy v pořadí k množině čísel $\{0,1,2,\tečky,25\}$. Předpokládejme množinu možných zpráv **M**. Posunovací šifra je tedy šifrovací schéma definované takto:
+Předpokládejme slovník *D*, který přirovnává všechna písmena anglické abecedy v pořadí k množině čísel $\{0,1,2,\dots,25\}$. Předpokládejme množinu možných zpráv **M**. Posunovací šifra je tedy šifrovací schéma definované takto:
 
 
-- Náhodně vyberte klíč $k$ z množiny možných klíčů **K**, kde **K** = $\{0,1,2,\bodky,25\}$
+- Náhodně vyberte klíč $k$ z množiny možných klíčů **K**, kde **K** = $\{0,1,2,\dots,25\}$
 - Zašifrujte zprávu $m \v$ **M** takto:
     - Rozdělte $m$ na jednotlivá písmena $m_0, m_1,\dots, m_i, \dots, m_l$
     - Převeďte každé $m_i$ na číslo podle *D*
@@ -2294,7 +2294,7 @@ Nicméně s přidáním trochu chytré složitosti lze problém RSA použít k v
 
 <chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
 <isCourseReview>true</isCourseReview>
- 
+
 ## Závěrečná Zkouška
 
 <chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>

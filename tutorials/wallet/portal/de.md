@@ -67,6 +67,7 @@ Sie können ihn auf einem Stück Papier eingravieren lassen, oder für zusätzli
 Für weitere Informationen über die richtige Art und Weise, wie Sie Ihre mnemotechnische Phrase speichern und verwalten können, empfehle ich Ihnen, diese andere Anleitung zu lesen, insbesondere wenn Sie Anfänger sind:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorium tue. Dieses Musterportfolio wird nur im Testnet verwendet und am Ende des Tutoriums gelöscht.**_
 
 Drücken Sie die Taste auf Ihrem Portal fest, um zu den nächsten Wörtern zu gelangen. Achten Sie darauf, dass Sie Ihren ganzen Finger auf die Taste legen und den Druck einige Sekunden lang halten, damit die Interaktion richtig erkannt wird.

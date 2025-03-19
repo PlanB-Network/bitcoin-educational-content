@@ -786,7 +786,7 @@ Ensimmäisessä osassa voimme nähdä, että:
 
 - `ln` osoittaa, että kyseessä on Lightning-siirto.
 - `bc` osoittaa, että Lightning-verkko on Bitcoin-lohkoketjussa (eikä testnetissä tai Litecoinissa).
-- `100u` osoittaa laskun määrän, joka ilmaistaan **mikrosatosheina** (`u` tarkoittaa "mikro"), mikä tässä tapauksessa vastaa 10 000 satia.
+- `100u` osoittaa laskun määrän, joka ilmaistaan **mikrobitcoins** (`u` tarkoittaa "mikro"), mikä tässä tapauksessa vastaa 10 000 satia.
 
 Maksun määrä ilmaistaan bitcoinin alayksiköissä. Tässä käytetyt yksiköt:
 

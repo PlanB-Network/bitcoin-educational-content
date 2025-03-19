@@ -1,7 +1,7 @@
 ---
 name: Pengantar Kriptografi formal
 goal: Pengenalan mendalam tentang ilmu dan praktik kriptografi.
-objectives: 
+objectives:
 
   - Jelajahi sandi Beale dan metode kriptografi modern untuk memahami konsep dasar dan sejarah kriptografi.
   - Pelajari teori bilangan, grup, dan bidang untuk menguasai konsep matematika utama yang mendasari kriptografi.
@@ -291,7 +291,7 @@ Dalam ungkapan "variabel acak", istilah "acak" berarti "probabilistik". Dengan k
 
 Variabel acak adalah kasus khusus dari variabel acak. Variabel ini dapat memiliki dua nilai atau lebih dengan probabilitas yang sama. Variabel acak $X$ yang digambarkan pada *Gambar 1* jelas merupakan variabel seragam, karena kedua hasil yang mungkin terjadi memiliki probabilitas $0,5$. Namun, ada banyak variabel acak yang bukan merupakan contoh variabel seragam.
 
-Sebagai contoh, pertimbangkan variabel acak $Y$. Variabel ini memiliki himpunan hasil $\{1, 2, 3, 8, 10\}$ dan distribusi probabilitas berikut:
+Sebagai contoh, pertimbangkan variabel acak $Y$. Variabel ini memiliki himpunan hasil $\{1, 2, 3, 8, 10}$ dan distribusi probabilitas berikut:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -610,9 +610,9 @@ Konsep dasar dalam matematika adalah himpunan elemen. Sebuah himpunan biasanya d
 
 Sebagai contoh, himpunan semua bilangan bulat adalah $\{..., -2, -1, 0, 1, 2, ...\}$. Elips di sini berarti bahwa pola tertentu berlanjut ke arah tertentu. Jadi, himpunan semua bilangan bulat juga mencakup $ 3, 4, 5, 6, dan seterusnya, serta $ -3, -4, -5, -6, dan seterusnya. Himpunan semua bilangan bulat ini biasanya dilambangkan dengan $\mathbb{Z}$.
 
-Contoh lain dari sebuah himpunan adalah $\mathbb{Z} \mod 11$, atau himpunan semua bilangan bulat modulo 11. Berbeda dengan seluruh himpunan $\mathbb{Z}$, himpunan ini hanya berisi sejumlah elemen yang terbatas, yaitu $\{0, 1, \ titik-titik, 9, 10\}$.
+Contoh lain dari sebuah himpunan adalah $\mathbb{Z} \mod 11$, atau himpunan semua bilangan bulat modulo 11. Berbeda dengan seluruh himpunan $\mathbb{Z}$, himpunan ini hanya berisi sejumlah elemen yang terbatas, yaitu $\{0, 1, \ldots, 9, 10\}$.
 
-Kesalahan yang sering terjadi adalah mengira bahwa himpunan $\mathbb{Z} \mod 11$ sebenarnya adalah $\{-10, -9, \ titik-titik, 0, \ titik-titik, 9, 10\}$. Tetapi ini tidak terjadi, mengingat cara kita mendefinisikan operasi modulo sebelumnya. Setiap bilangan bulat negatif yang dikurangi dengan modulo 11 akan dibungkus dengan $\{0, 1, \ titik-titik, 9, 10\}$. Sebagai contoh, ekspresi $-2 \mod 11$ membungkus menjadi $9$, sedangkan ekspresi $-27 \mod 11$ membungkus menjadi $5$.
+Kesalahan yang sering terjadi adalah mengira bahwa himpunan $\mathbb{Z} \mod 11$ sebenarnya adalah $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Tetapi ini tidak terjadi, mengingat cara kita mendefinisikan operasi modulo sebelumnya. Setiap bilangan bulat negatif yang dikurangi dengan modulo 11 akan dibungkus dengan $\{0, 1, \ldots, 9, 10\}$. Sebagai contoh, ekspresi $-2 \mod 11$ membungkus menjadi $9$, sedangkan ekspresi $-27 \mod 11$ membungkus menjadi $5$.
 
 Konsep dasar lain dalam matematika adalah operasi biner. Ini adalah operasi apa pun yang membutuhkan dua elemen untuk menghasilkan elemen ketiga. Misalnya, dari aritmatika dan aljabar dasar, Anda akan mengenal empat operasi biner dasar: penjumlahan, pengurangan, perkalian, dan pembagian.
 
@@ -1019,10 +1019,10 @@ Bob mengenkripsi pesan $M$ pada waktu $T_0$ dengan kunci $K$ untuk menghasilkan 
 
 Pada Bab 2, kita telah mempelajari shift cipher, yang merupakan contoh dari skema enkripsi simetris yang sangat sederhana. Mari kita lihat lagi di sini.
 
-Misalkan sebuah kamus *D* yang menyamakan semua huruf dalam alfabet bahasa Inggris, secara berurutan, dengan himpunan angka $\{0,1,2,\titik,25\}$. Asumsikan satu set pesan yang mungkin **M**. Maka, shift cipher adalah sebuah skema enkripsi yang didefinisikan sebagai berikut:
+Misalkan sebuah kamus *D* yang menyamakan semua huruf dalam alfabet bahasa Inggris, secara berurutan, dengan himpunan angka $\{0,1,2,\dots,25\}$. Asumsikan satu set pesan yang mungkin **M**. Maka, shift cipher adalah sebuah skema enkripsi yang didefinisikan sebagai berikut:
 
 
-- Pilih secara acak sebuah kunci $k$ dari sekumpulan kunci yang mungkin **K**, di mana **K** = $\{0,1,2,\titik,25\}$
+- Pilih secara acak sebuah kunci $k$ dari sekumpulan kunci yang mungkin **K**, di mana **K** = $\{0,1,2,\dots,25\}$
 - Enkripsi pesan $m \in$ **M**, sebagai berikut:
     - Pisahkan $m$ menjadi huruf-hurufnya $m_0, m_1, \ titik, m_i, \ titik, m_l$
     - Ubah setiap $m_i$ menjadi angka sesuai dengan *D*
@@ -2295,7 +2295,7 @@ Akan tetapi, dengan menambahkan sedikit kerumitan, masalah RSA dapat digunakan u
 
 <chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
 <isCourseReview>true</isCourseReview>
- 
+
 ## Ujian Akhir
 
 <chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>

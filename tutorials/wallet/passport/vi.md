@@ -6,7 +6,7 @@ description: Cấu hình và sử dụng ví phần cứng Passport ở chế đ
 
 Passport là ví phần cứng chỉ dành cho Bitcoin, được thiết kế bởi Foundation Devices, một công ty Mỹ được thành lập vào tháng 4 năm 2020 tại Boston.
 
-Passport "*Batch 2*" mà chúng tôi giới thiệu trong hướng dẫn này là phiên bản kế nhiệm của "*Founder's Edition*". Thiết bị có thiết kế cao cấp, màn hình màu độ nét cao và bàn phím vật lý tiện dụng. Thiết bị hoạt động ở chế độ "*Air-Gap*", đảm bảo rằng khóa riêng của ví của bạn vẫn hoàn toàn tách biệt, có thể trao đổi thông qua thẻ MicroSD hoặc mã QR. Thiết bị bao gồm pin 1200 mAh có thể tháo rời.
+Passport "*Batch 2*" được giới thiệu trong hướng dẫn này là phiên bản kế nhiệm của "*Founder's Edition*". Nó nổi bật với thiết kế cao cấp, màn hình màu độ phân giải cao và bàn phím vật lý tiện dụng. Thiết bị hoạt động ở chế độ "*Air-Gap*", đảm bảo rằng khóa riêng tư của ví của bạn luôn được cách ly hoàn toàn, với việc trao đổi dữ liệu thông qua thẻ MicroSD hoặc mã QR. Thiết bị được trang bị pin sạc có thể tháo rời Nokia BL-5C dung lượng 1200 mAh. Pin này không độc quyền và có thể dễ dàng thay thế vì mẫu BL-5C có sẵn rộng rãi trên thị trường.
 
 Về khả năng kết nối, Passport được trang bị cổng MicroSD, cổng USB-C để sạc và camera sau để quét mã QR.
 
@@ -21,6 +21,7 @@ Với mức giá 199 đô la, Passport được định vị là ví phần cứ
 Nếu bạn là người mới bắt đầu, lựa chọn dễ nhất là sử dụng Passport của bạn với ứng dụng Envoy gốc do Foundation phát triển. Để tìm hiểu cách sử dụng Envoy với Passport của bạn, hãy xem hướng dẫn khác này:
 
 https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+
 ## Mở hộp Passport
 
 Khi bạn nhận được Hộ chiếu, hãy đảm bảo hộp và niêm phong trên thùng carton còn nguyên vẹn để xác nhận rằng gói hàng chưa được mở. Xác minh phần mềm về tính xác thực và tính toàn vẹn của thiết bị cũng sẽ được thực hiện khi thiết lập.
@@ -138,7 +139,8 @@ Passport của bạn đã sẵn sàng nhận chương trình cơ sở mới thô
 
 Trước khi cài đặt trên thiết bị của bạn, chúng tôi khuyên bạn nên kiểm tra tính xác thực và toàn vẹn của phần mềm đã tải xuống. Nếu bạn cần trợ giúp về vấn đề này, hãy tham khảo hướng dẫn này:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Sau khi kiểm tra tệp `.bin`, hãy đặt tệp đó vào MicroSD của bạn, sau đó lắp vào Passport. Trình khám phá tệp Passport sẽ mở ra. Chọn tệp `vN.N.N-passport.bin`.
 
 ![Image](assets/fr/22.webp)
@@ -204,6 +206,7 @@ Nhấp vào nút xác nhận để xem cụm từ ghi nhớ của bạn.
 Để biết thêm thông tin về cách lưu và quản lý cụm từ ghi nhớ đúng cách, tôi thực sự khuyên bạn nên làm theo hướng dẫn khác này, đặc biệt nếu bạn là người mới bắt đầu:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 tất nhiên, bạn không bao giờ được chia sẻ những từ này trên Internet, như tôi đang làm trong hướng dẫn này. Danh mục mẫu này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa vào cuối hướng dẫn.**_
 
 Hãy sao lưu câu này lại.
@@ -290,6 +293,7 @@ Trước khi tiếp tục, nếu muốn, bạn có thể thêm cụm mật khẩ
 Trước khi cấu hình tùy chọn này trên Passport, chúng tôi khuyên bạn nên đọc bài viết này để hiểu đầy đủ về hoạt động lý thuyết của cụm mật khẩu và tránh các lỗi có thể dẫn đến mất bitcoin của bạn:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Để kích hoạt, hãy vào menu "*Thêm*" và nhấp vào "*Nhập mật khẩu*".
 
 ![Image](assets/fr/50.webp)
@@ -311,6 +315,7 @@ Mỗi lần bạn mở khóa, sau khi ghi lại mật khẩu, hãy kiểm tra tr
 Trước khi bạn nhận được bitcoin đầu tiên trên ví của mình, **Tôi thực sự khuyên bạn nên thực hiện một bài kiểm tra khôi phục rỗng**. Ghi lại một số thông tin tham chiếu, chẳng hạn như xpub hoặc địa chỉ nhận đầu tiên của bạn, sau đó xóa ví của bạn trên Passport trong khi nó vẫn còn rỗng (`Cài đặt -> Nâng cao -> Xóa Hộ chiếu`). Sau đó, hãy thử khôi phục ví của bạn bằng cách sử dụng bản sao lưu giấy của cụm từ ghi nhớ và bất kỳ cụm mật khẩu nào. Kiểm tra xem thông tin cookie được tạo sau khi khôi phục có khớp với thông tin bạn đã ghi ban đầu không. Nếu có, bạn có thể yên tâm rằng bản sao lưu giấy của bạn là đáng tin cậy. Để tìm hiểu thêm về cách thực hiện khôi phục thử nghiệm, vui lòng tham khảo hướng dẫn khác này:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ![Image](assets/fr/53.webp)
 
 ## Cấu hình ví trên Sparrow Wallet
@@ -323,7 +328,8 @@ Bắt đầu bằng cách tải xuống và cài đặt Sparrow Wallet [từ tra
 
 Hãy chắc chắn kiểm tra tính xác thực và tính toàn vẹn của phần mềm trước khi cài đặt. Nếu bạn không biết cách thực hiện, vui lòng tham khảo hướng dẫn này:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Sau khi mở Sparrow Wallet, hãy nhấp vào tab "*File*", sau đó nhấp vào "*New Wallet*".
 
 ![Image](assets/fr/55.webp)

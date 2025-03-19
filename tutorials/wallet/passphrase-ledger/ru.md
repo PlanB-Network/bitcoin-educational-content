@@ -29,7 +29,9 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 Перед началом этого руководства убедитесь, что вы уже инициализировали ваш Ledger и сгенерировали вашу мнемоническую фразу. Если это не так и ваш Ledger новый, следуйте специальному руководству для вашей модели, доступному на PlanB Network. После завершения этого шага вы можете вернуться к этому руководству.
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Как настроить временную парольную фразу с Ledger?

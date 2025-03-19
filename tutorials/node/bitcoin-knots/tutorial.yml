@@ -1,0 +1,25 @@
+id: e04b2196-4df2-4246-86ef-c02269c29098
+
+project_id: f6c44308-ccd4-4f8c-82cd-2216811c9c0e
+
+tags:
+  - node
+  - onchain
+  - software
+
+category: bitcoin
+
+level: advanced
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-05
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 3.21

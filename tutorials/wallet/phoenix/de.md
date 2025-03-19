@@ -6,7 +6,7 @@ description: Installation und Verwendung von Phoenix Wallet
 
 Phoenix ist eine selbstverwahrende Lightning-Wallet und ein Node, entwickelt von ACINQ, einem französischen Unternehmen, das sich auf Lightning-basierte Softwarelösungen spezialisiert hat. Im Gegensatz zu verwahrten Lightning-Wallets wie Wallet of Satoshi, bei denen die Bitcoins von einer dritten Partei gehalten werden, ermöglicht Phoenix den Nutzern, die volle Kontrolle über ihre privaten Schlüssel zu behalten.
 
-Phoenix funktioniert wie ein echter Lightning-Knoten in Ihrem Telefon, der automatisch einen Kanal mit dem Lightning-Knoten von ACINQ öffnet. Die Anwendung basiert auf Eclair, der von ACINQ entwickelten Lightning-Implementierung. Im Gegensatz zu anderen Lightning-Knotenlösungen vereinfacht Phoenix die Verwaltung erheblich. Die Nutzer müssen sich nicht um das Öffnen und Schließen von Kanälen kümmern, einen Bitcoin-Knoten betreiben oder ihre Liquidität im Lightning-Netzwerk verwalten. Phoenix kümmert sich um all diese technischen Vorgänge im Hintergrund.
+Phoenix funktioniert wie ein echter Lightning-Knoten, der auf Ihrem Telefon integriert ist und automatisch einen Kanal mit dem Lightning-Knoten von ACINQ öffnet. Die Anwendung basiert auf Lightning-KMP, einer plattformübergreifenden Implementierung des Lightning Network in Kotlin, die für mobile Wallets optimiert ist. Im Gegensatz zu anderen Lightning-Knoten vereinfacht Phoenix das Management erheblich. Der Benutzer muss sich nicht um das Öffnen und Schließen von Kanälen kümmern, keinen eigenen Bitcoin-Knoten betreiben oder seine Liquidität im Lightning-Netzwerk verwalten. Phoenix übernimmt all diese technischen Prozesse im Hintergrund.
 
 Diese Anwendung kombiniert die Benutzerfreundlichkeit und den Komfort mobiler Lightning-Wallets mit der Sicherheit und Souveränität eines echten persönlichen Lightning-Knotens. Phoenix ermöglicht eine sichere, effiziente und autonome Nutzung des Lightning-Netzwerks mit einem flüssigen, intuitiven Benutzererlebnis.
 
@@ -60,6 +60,7 @@ Sie können ihn auf Papier schreiben oder für zusätzliche Sicherheit in Edelst
 Für weitere Informationen über die richtige Art und Weise, wie Sie Ihre mnemotechnische Phrase speichern und verwalten können, empfehle ich Ihnen, diese andere Anleitung zu lesen, insbesondere wenn Sie Anfänger sind:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 Klicken Sie auf die oben auf der Oberfläche angezeigte Meldung "*Speichern Sie Ihre Brieftasche...*".
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Herzlichen Glückwunsch, Sie wissen jetzt, wie Sie Phoenix konfigurieren und ver
 Wenn Sie noch einen Schritt weiter gehen möchten, sehen Sie sich dieses Tutorial zu Alby Hub an, einer weiteren innovativen und benutzerfreundlichen Lösung für den Start Ihres eigenen Lightning-Knotens:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 Und wenn Sie mehr über die technische Funktionsweise des Lightning Network erfahren möchten, finden Sie das ausgezeichnete kostenlose Training von Fanis Michalakis zum Plan ₿ Network :
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

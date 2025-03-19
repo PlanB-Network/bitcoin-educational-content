@@ -1,8 +1,12 @@
-#Charactheristic of tutorial
+# UUID of the tutorial
+# generate a random uuid v4
+id: b31eaebb-4259-47b1-a195-9d4ed2655441
 
-# Builder
-# Write the builder name
-builder: Cool tutorial
+# Characteristic of tutorial
+
+# Project
+# Write the project name
+project_id: uuid_of_the_project_author_of_tutorial
 
 # Level
 # Level can be one of following:
@@ -13,56 +17,64 @@ level: intermediate
 
 # Category
 # Category can be choosen from the following list:
-# Tutorials/
-# ├── WALLET/
-# │   ├── Desktop
-# │   ├── Hardware
-# │   ├── Mobile
-# │   └── Backup
-# ├── NODE/
-# │   ├── Bitcoin
-# │   ├── Lightning Network
-# │   └── RGB
-# ├── MINING/
-# │   ├── Hardware
-# │   └── Pools
-# ├── MERCHANT/
-# │   └── Merchant
-# ├── EXCHANGE/
-# │   ├── Peer-to-Peer
-# │   └── Centralized
-# ├── PRIVACY/
-# │   ├── Bitcoin
-# │   └── Analysis
-# └── OTHERS/
-#     ├── General
-#     └── Contribution
-category: backup
+#Tutorials/
+#├── WALLET/
+#│   ├── Desktop
+#│   ├── Hardware
+#│   ├── Mobile
+#│   └── Backup
+#├── NODE/
+#│   ├── Bitcoin
+#│   ├── Lightning Network
+#│   └── Others
+#├── MINING/
+#│   ├── Hardware
+#│   └── Pool
+#├── BUSINESS/
+#│   ├── Point-of-Sale
+#│   └── Others
+#├── EXCHANGE/
+#│   ├── Peer-to-Peer
+#│   └── Centralized
+#├── PRIVACY/
+#│   ├── On-Chain
+#│   └── Analysis
+#├── COMPUTER SECURITY/
+#│   ├── Authentication
+#│   ├── Communication
+#│   ├── Operating System
+#│   └── Data
+#└── CONTRIBUTION/
+#    ├── Tutorial
+#    ├── Resource
+#    └── Others
+
+category: authentication
 
 # Tags
 # List the associated tags to the tutorial
 # The list of tags is composed of 21 items that can be found here (list not yet available)
 tags:
-  - peer-to-peer
-  - open-source
-  - bitcoin-only
+  - cypherpunk
+  - proof-of-work
+  - privacy
 
 # Proofreading metadata
 # Only the original author needs to add this data related to initial proofreading
 # Any further data will be automatically added after each proofreading
-# 
+#
 # This information are provided by PBN team, no need to specify if you are a contributor.
 # for PBN staff: an entry is created for each language specifying:
 # - language: language to review
 # - last_contribution_date: the date when last contribution has been received
 # - urgency: level of urgency from 1 (low urgency) to X(high urgency)
-# - contributors_id: list of contributors PBN ids
+# - contributor_names: list of contributors PBN ids
 # - reward: amount of sats available for reward
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: YYYY-MM-DD
     urgency: # leave as empty
-    contributors_id:
-    - author_github_id #insert your github ID
+    contributor_names:
+      - author_github_username #insert your github username
     reward: # leave as empty

@@ -39,25 +39,25 @@ Pour cela, la formation BTC102 est structurée en plusieurs sections, chacune ab
 
 La première section, intitulée "Prérequis pour comprendre Bitcoin", vous prépare efficacement au parcours qui suit. Vous y apprendrez à identifier clairement les principaux pièges liés aux arnaques et fraudes financières qui peuvent exister dans l’écosystème Bitcoin. Nous vous enseignerons ensuite les bases essentielles de la sécurité en ligne. Enfin, je vous donnerai quelques conseils pratiques spécialement conçus pour les novices, destinés à éviter les erreurs fréquentes lors de vos premières interactions avec Bitcoin.
 
-IMAGE
+![BTC102-Bitcoin](assets/fr/001.webp)
 
 La deuxième section, "Comprendre dans quoi on se lance", vous permettra d'approfondir votre compréhension globale de Bitcoin. Nous commencerons par un rappel pour vous assurer que vous maîtrisez parfaitement les concepts essentiels. Puis, nous détaillerons précisément pourquoi Bitcoin revêt une importance fondamentale d'un point de vue technologique, économique et social, afin de renforcer vos convictions. Vous découvrirez ensuite l’industrie de Bitcoin dans sa globalité : ses acteurs, son organisation et son évolution au fil des années. Enfin, nous aborderons l'architecture en couches de l'écosystème Bitcoin, un concept important pour comprendre comment ce système continue sans cesse d'innover sans pour autant affaiblir le protocole de base.
 
-IMAGE
+![BTC102-Bitcoin](assets/fr/027.webp)
 
 La troisième section, "Mise en place de votre plan", se focalise sur votre approche personnelle de Bitcoin. Nous commencerons par vous aider à définir votre profil d’utilisateur parmi quatre grandes catégories : 
 - *le hodler*, focalisé sur la détention de long terme ;
 - *le stacker*, qui réalise des achats réguliers et méthodiques ;
 - *l'utilisateur*, qui privilégie un usage quotidien ;
-- et enfin *le parano*, soucieux d'une sécurité maximale pour protéger efficacement son patrimoine et sa confidentialité.
+- et enfin *le paranoïaque*, soucieux d'une sécurité maximale pour protéger efficacement son patrimoine et sa confidentialité.
 
 Vous serez accompagné pas à pas dans la mise en place d'une stratégie adaptée à votre profil personnel et à vos objectifs spécifiques.
 
-IMAGE
+![BTC102-Bitcoin](assets/fr/067.webp)
 
 Enfin, la quatrième partie, "Protéger ses héritiers et son patrimoine", aborde un sujet crucial souvent oublié : comment assurer la transmission de vos bitcoins à vos proches en cas d’événement imprévu. Vous apprendrez concrètement à créer et à mettre en place un plan d’héritage Bitcoin, afin de garantir la pérennité de votre patrimoine au-delà de votre propre existence.
 
-IMAGE
+![BTC102-Bitcoin](assets/fr/095.webp)
 
 À l'issue de cette formation, vous disposerez de toutes les clés pratiques nécessaires pour évoluer sereinement dans l’écosystème Bitcoin et figurer ainsi parmi les utilisateurs les plus avancés !
 
@@ -212,7 +212,7 @@ Se prémunir contre les arnaques est une première étape importante pour la pro
 
 ![sécurité en ligne](https://youtu.be/d9Ccy17yWB0)
 
-Dès l’instant où vous vous intéressez à Bitcoin, les questions de cybersécurité deviennent essentielles. Les fraudes financières et les arnaques ne sont pas les seules menaces : la perte accidentelle de données, l’infection par un malware ou le vol de mots de passe peuvent eux aussi causer des dommages considérables. L’objectif de ce chapitre est de vous présenter des mesures de protection simples et efficaces, applicables à tout utilisateur désireux de renforcer son hygiène numérique.
+Dès l’instant où vous vous intéressez à Bitcoin, vous devez forcément vous intéresser un minimum à la cybersécurité. Les fraudes financières et les arnaques ne sont pas les seules menaces : la perte accidentelle de données, les malwares ou le vol de mots de passe peuvent eux aussi causer des dommages. L’objectif de ce chapitre est de vous présenter des mesures de protection simples et efficaces, applicables à tout utilisateur désireux de renforcer son hygiène numérique.
 
 Si vous souhaitez aller plus loin dans chacun de ces aspects, Plan ₿ Network propose une formation complète SEC101 qui entre dans le détail des stratégies de cybersécurité :
 
@@ -236,7 +236,7 @@ En plus de ces points, méfiez-vous des téléchargements provenant de sites dou
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-Enfin, pensez à sauvegarder régulièrement vos données. Un disque dur externe (ou un SSD) vous permettra de conserver un duplicata de vos fichiers importants. Cela vous évitera de gros regrets en cas de panne soudaine, d’infection ou d’erreur de manipulation. Si vous préférez les solutions en ligne, il existe des services sécurisés comme Proton Drive par exemple.
+Enfin, pensez à sauvegarder régulièrement vos données. Un disque dur externe (ou un SSD) vous permettra de conserver un duplicata de vos fichiers importants. Cela vous évitera de gros regrets en cas de panne soudaine, de piratage ou d’erreur de manipulation. Si vous préférez les solutions en ligne, il existe des services sécurisés comme Proton Drive par exemple.
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
@@ -289,7 +289,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 La protection de la vie privée et la cybersécurité sont étroitement liées : plus vous laissez d’informations en libre accès, plus vous risquez de devenir une cible.
 
-Un **VPN** (*Virtual Private Network*) peut déjà constituer un pas simple pour masquer votre adresse IP et chiffrer vos échanges sur Internet. Cela ne vous rend pas invisible, puisque le fournisseur de VPN peut encore voir vos actions, mais cela rend la tâche plus compliquée à quiconque chercherait à vous espionner ou à cibler vos habitudes de navigation. L’important est de choisir un VPN de confiance, qui ne vous demande pas votre identité, qui permet un paiement su service en satoshis et qui ne conserve pas de journaux d’activité.
+Un **VPN** (*Virtual Private Network*) peut déjà constituer un pas simple pour masquer votre adresse IP et chiffrer vos échanges sur Internet. Cela ne vous rend pas invisible, puisque le fournisseur de VPN peut encore voir vos actions, mais cela rend la tâche plus compliquée à quiconque chercherait à vous espionner ou à cibler vos habitudes de navigation. L’important est de choisir un VPN de confiance, qui ne vous demande pas votre identité, qui permet un paiement du service en BTC et qui ne conserve pas de journaux d’activité.
 
 ![BTC102-Bitcoin](assets/fr/015.webp)
 
@@ -316,13 +316,13 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 ### Avancer par étapes
 
-La sécurité informatique peut sembler un chantier immense. Beaucoup de débutants abandonnent l’idée de tout mettre en place d’un coup, jugeant la tâche trop complexe. Pour éviter cet écueil, abordez chaque outil pas à pas. Par exemple, commencez par installer un gestionnaire de mots de passe, laissez-vous quelques semaines pour vous familiariser avec celui-ci, puis passez à l’étape suivante : l’activation du 2FA sur un premier compte, etc.
+La sécurité informatique peut sembler un chantier immense. Beaucoup de débutants abandonnent l’idée de tout mettre en place d’un coup, car ils jugent la tâche trop complexe. Pour éviter ce problème, abordez chaque outil étape par étape, progressivement. Par exemple, commencez par installer un gestionnaire de mots de passe, laissez-vous quelques semaines pour vous familiariser avec celui-ci, puis passez à l’étape suivante : l’activation du 2FA sur un premier compte, etc.
 
 Au fil du temps, vous prendrez confiance dans ces solutions et serez prêt à adopter d’autres pratiques, comme l’usage d’une adresse email secondaire, la migration vers ProtonMail, l’installation d’un VPN ou la navigation via Tor pour les situations qui l’exigent.
 
 À mesure que vous avancerez dans l’univers de Bitcoin, vous vous rendrez compte que les menaces grandissent avec la valeur que peut prendre votre portefeuille. S’armer de bonnes pratiques, renforcer sa confidentialité et mettre en place les outils adéquats procurent non seulement une tranquillité d’esprit, mais renforcent aussi la souveraineté que prône l’esprit Bitcoin.
 
-En résumé : ne sous-estimez jamais la cybersécurité, prenez le temps d’installer les protections de base, et rappelez-vous que le point central reste votre discipline : sans une hygiène numérique rigoureuse, les meilleurs outils du monde ne vous serviront pas.
+En résumé : ne sous-estimez jamais la cybersécurité, prenez le temps d’installer les protections de base, et rappelez-vous que le point central reste votre discipline : sans une hygiène numérique rigoureuse, les meilleurs outils du monde ne vous serviront à rien.
 
 Je vous conseille également d'aller faire un tour sur [nos tutoriels dédiés à la sécurité informatique](https://planb.network/tutorials/computer-security) sur Plan ₿ Network.
 
@@ -336,7 +336,7 @@ Dans le prochain chapitre, je vais vous donner quelques conseils supplémentaire
 
 ![Conseil pour débutant](https://youtu.be/juMUJ3MWeZY)
 
-Lorsque l’on découvre le Bitcoin, il est facile de se laisser emporter par l’engouement et d’adopter des comportements hasardeux. L’univers des cryptomonnaies est en effet très particulier : volatilité des prix, nouvelles technologies, risques de pertes définitives en raison d’erreurs techniques ou de mauvais choix d’investissement… Autant d’écueils à éviter.
+Lorsque l’on découvre Bitcoin, il est facile de se laisser emporter par l’engouement et d’adopter des comportements hasardeux. L’univers des cryptomonnaies est en effet très particulier : volatilité des prix, nouvelles technologies, risques de pertes définitives en raison d’erreurs techniques ou de mauvais choix d’investissement… Autant d’écueils à éviter.
 
 Dans ce chapitre, je vous offre quelques conseils pratiques et une orientation générale pour celles et ceux qui se lancent dans l’achat de leurs premiers bitcoins, et plus largement, dans tout placement financier.
 
@@ -345,7 +345,7 @@ Voici le principaux conseils que nous allons détailler ensemble :
 - Investissez uniquement ce que vous êtes prêt à perdre ;
 - Comprenez bien la distinction entre le trading et l'investissement ;
 - Soyez conscient des implications fiscales de vos investissements ;
-- Gérez soigneusement votre clé privée ;
+- Gérez soigneusement votre phrase mnémonique ;
 - Gardez une attitude humble et discrète ;
 - Adoptez une vision à long terme.
 
@@ -357,7 +357,7 @@ L'univers de Bitcoin est accessible à tous, mais cela ne signifie pas qu'il fau
 
 **Erreurs technologiques :**
 
-- **Perte de la grain de votre portefeuille :** Votre graine (ou phrase mnémonique) est une série de 12 ou 24 mots permettant de récupérer l'accès à vos bitcoins. Si vous perdez cette phrase, vous perdez définitivement l’accès à vos fonds ;
+- **Perte de la graine de votre portefeuille :** Votre graine (ou phrase mnémonique) est une série de 12 ou 24 mots permettant de récupérer l'accès à vos bitcoins. Si vous perdez cette phrase, vous perdez définitivement l’accès à vos fonds ;
 - **Stocker ses bitcoins sur une plateforme tierce :** Garder vos bitcoins sur une plateforme d’échange signifie que vous ne détenez pas réellement vos bitcoins. Vous êtes alors exposé à des risques tels que le piratage, la faillite ou la confiscation ;
 - **Négliger sa confidentialité :** Protéger votre vie privée doit faire partie de votre stratégie de sécurisation. Exposer publiquement la quantité de bitcoins que vous possédez peut attirer l'attention d'individus mal intentionnés ;
 - **Sécurité en ligne insuffisante :** Un manque de précautions basiques peut rendre vos appareils vulnérables au piratage et causer des pertes importantes.
@@ -514,7 +514,7 @@ L'idée d'une monnaie électronique qui ne s'établit pas sur une entité centra
 
 #### Un timing post-crise financière
 
-Le contexte économique n’était pas anodin : fin 2008, la planète subissait une crise financière d’une ampleur considérable, liée à la faillite de la banque Lehman Brothers, au gonflement de la bulle immobilière et à la méfiance grandissante envers le secteur bancaire. Dans le premier bloc de la blockchain Bitcoin (*Genesis block*), Satoshi Nakamoto a même laissé un message qui faisait référence à la crise : 
+Le contexte économique n’était pas anodin : fin 2008, la planète subissait une crise financière d’une ampleur considérable, liée à l'effondrement du marché immobilier américain provoqué par l'explosion de la bulle des subprimes et à la méfiance grandissante envers le secteur bancaire. Dans le premier bloc de la blockchain Bitcoin (*Genesis block*), Satoshi Nakamoto a même laissé un message qui faisait référence à la crise : 
 
 > The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 
@@ -550,11 +550,11 @@ Pour comprendre la blockchain, on peut la comparer à un registre comptable où 
 
 #### Création des blocs par le minage
 
-Le minage est l’opération par laquelle un ordinateur (ou une ferme d’ordinateurs) fournit de la **puissance de calcul** pour sécuriser l'historique économique et valider les blocs. Les mineurs tentent de résoudre un problème mathématique (trouver une collision partielle sur un hash), ce qui exige une certaine quantité d’énergie et de ressources. Une fois la solution trouvée, le mineur diffuse le nouveau bloc, et le réseau reconnaît la validité de ce bloc. Le mineur reçoit en récompense un certain nombre de bitcoins fraîchement créés, et les frais des transactions incluses dans son bloc.
+Le minage est l’opération par laquelle un ordinateur (ou une ferme d’ordinateurs) fournit de la **puissance de calcul** pour sécuriser l'historique économique et créer les blocs. Les mineurs tentent de résoudre un problème mathématique (trouver une collision partielle sur un hash), ce qui exige une certaine quantité d’énergie et de ressources. Une fois la solution trouvée, le mineur diffuse le nouveau bloc, et le réseau reconnaît la validité de ce bloc. Le mineur reçoit en récompense un certain nombre de bitcoins fraîchement créés, et les frais des transactions incluses dans son bloc.
 
-#### La récompense décroissante et le halving
+#### La subvention décroissante et le halving
 
-Afin de garantir la rareté de Bitcoin, la récompense pour le minage subit une division programmée de moitié tous les **210 000 blocs** (environ tous les quatre ans). On appelle ce mécanisme le **halving**. Au lancement de Bitcoin, la récompense était de 50 BTC par bloc. Aujourd’hui, elle n’est plus que de 3,125 BTC (en 2025), et continuera à diminuer dans les années à venir, jusqu’à cesser complètement vers 2140, lorsque la quantité maximale d'environ 21 millions de bitcoins aura été mise en circulation. Cette courbe d’émission prévisible confère à Bitcoin une dimension de **rareté numérique** semblable à celle de l’or, d’où parfois le surnom d'or numérique.
+Afin de garantir la rareté de Bitcoin, la subvention pour le minage subit une division programmée de moitié tous les **210 000 blocs** au niveau de la création de nouveaux bitcoins (environ tous les quatre ans). On appelle ce mécanisme le **halving**. Au lancement de Bitcoin, la subvention était de 50 BTC par bloc. Aujourd’hui, elle n’est plus que de 3,125 BTC (en 2025), et continuera à diminuer dans les années à venir, jusqu’à cesser complètement vers 2140, lorsque la quantité maximale d'environ 21 millions de bitcoins aura été mise en circulation. Cette courbe d’émission prévisible confère à Bitcoin une dimension de **rareté numérique** semblable à celle de l’or, d’où parfois le surnom d'or numérique.
 
 ![BTC102-Bitcoin](assets/fr/031.webp)
 
@@ -570,7 +570,7 @@ Cette caractéristique suscite un fort intérêt, notamment auprès de celles et
 
 #### Divisibilité et accessibilité
 
-Il est important de souligner que **chaque bitcoin est divisible** jusqu’à la huitième décimale (unité appelée le "satoshi"). Cela signifie qu’il est parfaitement possible d’acheter ou d’envoyer de toutes petites fractions de BTC. Nul besoin de débourser des milliers d’euros pour commencer à acquérir vos premiers satoshis.
+Il est important de souligner que **chaque bitcoin est divisible** jusqu’à la huitième décimale (unité appelée le "satoshi" ou "sats"). Cela signifie qu’il est parfaitement possible d’acheter ou d’envoyer de toutes petites fractions de BTC. Nul besoin de débourser des dizaines de milliers d’euros pour commencer à acquérir vos premiers sats.
 
 ![BTC102-Bitcoin](assets/fr/026.webp)
 
@@ -578,11 +578,11 @@ Il est important de souligner que **chaque bitcoin est divisible** jusqu’à la
 
 #### Un protocole public, vérifiable par tous
 
-Le protocole Bitcoin repose sur des clients qui sont **open source** (le plus important est Bitcoin Core). Autrement dit, le code qui définit son fonctionnement est publié librement, si bien que tout développeur peut l’examiner, l’auditer, et éventuellement proposer des améliorations. Il devient alors très difficile de cacher une fonctionnalité malveillante ou d’opérer une manipulation secrète : chacun peut, en théorie, déployer sa propre implémentation tout en respectant les règles de consensus.
+Le protocole Bitcoin repose sur des clients qui sont **open-source** (le plus important est [Bitcoin Core](https://github.com/bitcoin/bitcoin)). Autrement dit, le code qui définit son fonctionnement est publié librement, si bien que tout développeur peut l’examiner, l’auditer, et éventuellement proposer des améliorations. Il devient alors très difficile de cacher une fonctionnalité malveillante ou d’opérer une manipulation secrète : chacun peut, en théorie, déployer sa propre implémentation tout en respectant les règles de consensus.
 
 ![BTC102-Bitcoin](assets/fr/030.webp)
 
-Cette transparence contribue à la **confiance** dans le protocole, dans la mesure où elle évite qu’un groupe restreint de programmeurs ne manipule le réseau à son avantage. Bitcoin repose en effet sur le principe suivant : si vous n’êtes pas d’accord avec les modifications suggérées, vous pouvez tout simplement **refuser** de mettre à jour votre logiciel. Dans certains cas, vous pouvez rester synchronisé avec le reste du réseau, mais dans d'autres, cela peut provoquer ce que l'on appelle un "Hardfork". Cela créer un nouveau système Bitcoin distinct de l'original. C'est exactement ce qui s'est produit en 2017 avec la scission entre Bitcoin (BTC) et Bitcoin Cash (BCH).
+Cette transparence contribue à la confiance dans le protocole, dans la mesure où elle évite qu’un groupe restreint de programmeurs ne manipule le réseau à son avantage. Bitcoin repose en effet sur le principe suivant : si vous n’êtes pas d’accord avec les modifications suggérées, vous pouvez tout simplement refuser de mettre à jour votre logiciel. Dans certains cas, vous pouvez rester synchronisé avec le reste du réseau, mais dans d'autres, cela peut provoquer ce que l'on appelle un "Hardfork". Cela créer un nouveau système Bitcoin distinct de l'original. C'est exactement ce qui s'est produit en 2017 avec la scission entre Bitcoin (BTC) et Bitcoin Cash (BCH).
 
 Tout cela rend la gouvernance de Bitcoin très lente et parfois conflictuelle, mais garantit également une certaine stabilité et une résistance à la centralisation.
 
@@ -2081,6 +2081,8 @@ Prenez 30 minutes de votre temps. Pas pour vous, mais pour ceux qui comptent sur
 
 #### De quoi avez-vous besoin ?
 
+##### test niveau 5
+
 Assurez-vous de disposer d’un environnement calme et sans distractions, puis rassemblez ces quelques outils :
 - 4 à 5 feuilles de papier blanc ;
 - Un stylo ;
@@ -2088,7 +2090,7 @@ Assurez-vous de disposer d’un environnement calme et sans distractions, puis r
 - Un téléphone ou un carnet d’adresses ;
 - Un ordinateur (optionnel).
 
-IMAGE 094
+![BTC102-Bitcoin](assets/fr/094.webp)
 
 #### Les idées reçues sur la planification successorale
 

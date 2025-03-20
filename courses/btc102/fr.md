@@ -646,7 +646,7 @@ Barack Obama a un jour qualifié Bitcoin de "*banque suisse dans votre poche*". 
 
 Bitcoin peut être perçu comme la véritable "monnaie du peuple", un système monétaire alternatif qui ne dépend d’aucune autorité centrale et qui repose sur des règles immuables plutôt que sur des décisions arbitraires. Sa nature ouverte et accessible en fait un outil potentiellement révolutionnaire pour des milliards de personnes à travers le monde, qu’elles soient exclues du système bancaire traditionnel ou simplement en quête d’une alternative plus souveraine.
 
-Cela nous amène à une question fondamentale, presque philosophique, qui divise Bitcoiners en 2 grandes visions du monde. D’un côté, certains voient en Bitcoin une solution pour favoriser l’inclusion financière et permettre aux milliards de personnes non bancarisées d’accéder enfin à une infrastructure monétaire mondiale. De l’autre, certains considèrent Bitcoin comme un outil d’émancipation financière destiné à offrir une porte de sortie aux milliards d’individus qui sont déjà intégrés au système bancaire, mais qui souhaitent s’affranchir de sa dépendance et retrouver un contrôle total sur leur argent. Cette réflexion mérite notre attention, mais nous prendrons le temps d’y revenir plus en détail ultérieurement.
+Cela nous amène à une question fondamentale, presque philosophique, qui divise les bitcoiners en 2 grandes visions du monde. D’un côté, certains voient en Bitcoin une solution pour favoriser l’inclusion financière et permettre aux milliards de personnes non bancarisées d’accéder enfin à une infrastructure monétaire mondiale. De l’autre, certains considèrent Bitcoin comme un outil d’émancipation financière destiné à offrir une porte de sortie aux milliards d’individus qui sont déjà intégrés au système bancaire, mais qui souhaitent s’affranchir de sa dépendance et retrouver un contrôle total sur leur argent. Cette réflexion mérite notre attention, mais nous prendrons le temps d’y revenir plus en détail ultérieurement.
 
 ![BTC102-Bitcoin](assets/fr/044.webp)
 
@@ -666,9 +666,11 @@ Enfin, la dévaluation orchestrée des monnaies nationales érode l'épargne des
 
 Bitcoin offre une alternative radicale à cette instabilité chronique. Contrairement aux monnaies étatiques, il repose sur des règles immuables et mathématiques, imposées par le consensus, sans possibilité d’intervention extérieure. Son émission est prévisible et limitée à environ 21 millions d’unités, ce qui en fait une forme d'argent sain conçue pour préserver sa valeur sur le long terme. Sa résistance à la censure garantit à chacun la possibilité de stocker et transférer de la valeur sans dépendre d’une institution, tandis que sa divisibilité et sa portabilité en font un outil financier accessible et universel.
 
-**Le saviez-vous** ? Au cours des 100 dernières années, plus de 55 cas d’hyperinflation ont été recensés à travers le monde. Dans de nombreux cas, ces épisodes monétaires ont non seulement détruit l’économie des pays touchés, mais aussi anéanti les épargnes de millions de citoyens, entraînant des vagues de pauvreté extrême. Pire encore, l’effondrement des monnaies a souvent servi de catalyseur à des bouleversements politiques, conduisant parfois à l’instauration de régimes autoritaires, comme en Allemagne dans les années 1920 ou au Chili dans les années 1970.
+**Le saviez-vous** ? Au cours de l'histoire, au moins 56 cas d’hyperinflation ont été recensés à travers le monde. Dans de nombreux cas, ces épisodes monétaires ont non seulement détruit l’économie des pays touchés, mais aussi anéanti les épargnes de millions de citoyens, entraînant des vagues de pauvreté extrême. Pire encore, l’effondrement des monnaies a souvent servi de catalyseur à des bouleversements politiques, conduisant parfois à l’instauration de régimes autoritaires, comme en Allemagne dans les années 1920 ou au Chili dans les années 1970.
 
 ![BTC102-Bitcoin](assets/fr/039.webp)
+
+Hanke, S. H., & Krus, N. (2013). *World Hyperinflations*. In R. Parker & R. Whaples (Eds.), The Handbook of Major Events in Economic History. Routledge Publishing. Retrieved from https://ssrn.com/abstract=2130109
 
 La destruction des monnaies fiduciaires n’est pas une aberration historique, mais un phénomène récurrent. Aujourd’hui, Bitcoin représente une échappatoire inédite : un moyen de préserver son patrimoine en dehors des systèmes monétaires contrôlés par les États. La question n’est plus de savoir si une nouvelle crise se produira, mais plutôt quand. Grâce à Bitcoin, vous avez désormais la possibilité de vous protéger contre ces cycles destructeurs et de choisir un système monétaire qui repose sur la transparence et la souveraineté individuelle.
 
@@ -698,7 +700,7 @@ Mais au-delà de sa simple utilité pratique, Bitcoin incarne aussi un acte de r
 
 Les banques centrales, par leurs politiques monétaires expansionnistes, ne cessent d’éroder votre pouvoir d’achat. À travers l’inflation et la création monétaire excessive (*Quantitative Easing*), elles diluent progressivement la valeur de la monnaie en circulation. Ce mécanisme fonctionne comme une taxe invisible qui, année après année, réduit la richesse de ceux qui conservent leur épargne en monnaie étatique. Contrairement à l’idée reçue selon laquelle l’inflation est un phénomène économique naturel, il s’agit en réalité d’un outil de contrôle monétaire, qui appauvrit progressivement la population tout en favorisant ceux qui détiennent des actifs financiers.
 
-Si vous ne disposez pas d’un patrimoine générant des revenus passifs (via des placements immobiliers, des obligations ou des dividendes) votre épargne perdra inévitablement de la valeur au fil du temps. Pendant ce temps, ceux qui ont accès aux marchés financiers et aux actifs financiers continueront à s’enrichir, ce qui creuse ainsi l’écart entre les élites économiques et le reste de la population. Loin d’être un simple dysfonctionnement du système, cette mécanique est une stratégie délibérée mise en place par les banques centrales et les gouvernements afin de stimuler artificiellement la croissance économique et d’inciter la population à consommer et à s’endetter toujours davantage.
+Si vous ne disposez pas d’un patrimoine non monétaire (via des placements immobiliers, des obligations, des actions...) votre épargne perdra inévitablement de la valeur au fil du temps. Pendant ce temps, ceux qui ont accès aux actifs financiers continueront à s’enrichir, ce qui creuse ainsi l’écart entre les élites économiques et le reste de la population. Loin d’être un simple dysfonctionnement du système, cette mécanique est une stratégie délibérée mise en place par les banques centrales et les gouvernements afin de stimuler artificiellement la croissance économique et d’inciter la population à consommer et à s’endetter toujours davantage.
 
 ![BTC102-Bitcoin](assets/fr/041.webp)
 
@@ -765,7 +767,7 @@ Dans ce chapitre, nous allons explorer les principaux acteurs de cette industrie
 
 ### La prolifération des altcoins
 
-Il est techniquement simple pour n'importe qui de créer sa propre cryptomonnaie : cela ne prend que quelques minutes et ne nécessite aucune innovation particulière. Cependant, la véritable question est de savoir si cette monnaie aura une quelconque valeur. Cette dernière est uniquement déterminée par le marché et repose sur la confiance des utilisateurs. En décembre 2019, plus de 5000 tokens étaient répertoriés sur CoinMarketCap. Aujourd’hui, en 2023, ce nombre a explosé à plus de 23 000, avec l’essor des NFT, de la finance décentralisée (DeFi) et de nombreuses autres applications plus ou moins pertinentes. Ces jetons prennent diverses formes : certains prétendent être de véritables monnaies, d’autres sont conçus comme des titres financiers, des carburants pour des plateformes, des sidechains, ou encore des représentations d’objets numériques sous forme d’art tokenisé.
+Il est techniquement simple pour n'importe qui de créer sa propre cryptomonnaie : cela ne prend que quelques minutes et ne nécessite aucune innovation particulière. Cependant, la véritable question est de savoir si cette monnaie aura une quelconque valeur. Cette dernière est uniquement déterminée par le marché et repose sur la confiance des utilisateurs. En décembre 2019, plus de 5000 tokens étaient répertoriés sur CoinMarketCap. En 2023, ce nombre a explosé à plus de 23 000, avec l’essor des NFT, de la finance décentralisée (DeFi) et de nombreuses autres applications plus ou moins pertinentes. Ces jetons prennent diverses formes : certains prétendent être de véritables monnaies, d’autres sont conçus comme des titres financiers, des carburants pour des plateformes, des sidechains, ou encore des représentations d’objets numériques sous forme d’art tokenisé.
 
 Cependant, il est important de comprendre que **la plupart de ces cryptomonnaies ne sont rien de plus que des arnaques**. Derrière une façade technologique sophistiquée, ces projets sont souvent portés par des stratégies marketing agressives visant uniquement à récupérer vos bitcoins. Ces "projets" sont conçus pour exploiter l’avidité et l’ignorance des investisseurs, en leur promettant des rendements irréalistes et en jouant sur des narratifs attrayants mais infondés.
 
@@ -907,6 +909,8 @@ La règle d’or est simple : **si vous ne détenez pas vos clés privées, vous
 
 ### Portefeuilles, minage et développement : les piliers de l’écosystème
 
+#### Les portefeuilles Bitcoin
+
 Les bitcoins sont sécurisés avec ce que l’on appelle un portefeuille, un logiciel spécialisé qui conserve et gère les clés privées permettant de débloquer les bitcoins d'un utilisateur. Il peut s’agir d’un appareil matériel dédié, d’un logiciel installé sur un ordinateur ou un smartphone, ou même d’un simple morceau de papier sur lequel est inscrite une clé. Ces portefeuilles assurent le lien entre vos bitcoins et le monde extérieur, afin de faciliter leur utilisation au quotidien.
 
 Chaque portefeuille présente des caractéristiques propres qui influencent son niveau de sécurité et son usage :
@@ -925,6 +929,8 @@ L’industrie des portefeuilles Bitcoin est structurée en plusieurs catégories
 
 Les portefeuilles sont un élément important de Bitcoin et feront l’objet d’une étude approfondie dans les prochaines sections de cette formation.
 
+#### Le minage sur Bitcoin
+
 Le minage, quant à lui, est une activité essentielle pour la sécurité et la maintenance du réseau Bitcoin. Les mineurs confirment les transactions et sécurisent la blockchain en réalisant des calculs intensifs via la preuve de travail. Chaque bloc miné permet d’ajouter de nouvelles transactions à la blockchain et d’émettre de nouveaux bitcoins selon le mécanisme établi.
 
 Dans les premiers jours de Bitcoin, le minage était une activité individuelle, souvent réalisée sur des ordinateurs personnels. Aujourd’hui, ce secteur est dominé par de grandes entreprises disposant d’importants moyens financiers et logistiques. La recherche de sources d’énergie bon marché est devenue un enjeu clé pour les mineurs, qui cherchent à maximiser leur rentabilité en optimisant leurs coûts énergétiques. Les mineurs sont présents partout dans le monde, et opèrent aussi bien dans des infrastructures industrielles massives que dans des installations plus modestes.
@@ -939,7 +945,9 @@ Le minage est un domaine à part entière, qui soulève des questions techniques
 
 https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
-Le client majoritaire Bitcoin Core est un projet open source. Son code est accessible publiquement sur GitHub : [https://github.com/bitcoin/bitcoin](https://github.com/bitcoin/bitcoin). Toute l’évolution du protocole, des mises à jour aux discussions techniques, y est documentée de manière transparente. Les utilisateurs sont libres d’examiner le code et de choisir d’adopter ou non les mises à jour proposées.
+#### Le développement sur l'écosystème Bitcoin
+
+Le client majoritaire Bitcoin Core est un projet open-source. Son code est accessible publiquement sur GitHub : [https://github.com/bitcoin/bitcoin](https://github.com/bitcoin/bitcoin). Toute l’évolution du protocole, des mises à jour aux discussions techniques, y est documentée de manière transparente. Les utilisateurs sont libres d’examiner le code et de choisir d’adopter ou non les mises à jour proposées.
 
 L’écosystème de développement de Bitcoin peut être divisé en plusieurs catégories de contributeurs :
 - Les développeurs de Bitcoin Core, qui assurent le développement et la maintenance du client principal. Parmi ceux-ci, on distingue les mainteneurs, qui possèdent les clés pour gérer le dépôt. En 2025, ils sont au nombre de cinq : Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao, et Ryan Ofsky. Ensuite, il y a les contributeurs qui proposent des modifications, lesquelles sont examinées par les mainteneurs.
@@ -976,11 +984,11 @@ Une solution de seconde couche inventée par Thaddeus Dryja et Joseph Poon en 20
 
 ![BTC102-Bitcoin](assets/fr/059.webp)
 
-Par exemple, si vous deviez payer un café en bitcoins en utilisant le système de base, pour que la transaction soit définitivement réglée, et donc que le commerçant soit assuré de votre paiement, il faudrait attendre au minimum que votre transaction soit incluse dans un bloc. Cela peut prendre plusieurs minutes, à condition que vous ayez choisi un taux de frais approprié. En théorie, le commerçant devrait même attendre 6 confirmations, soit en moyenne 1 heure, pour être totalement sûr que la transaction est réglée. Ce délai est inacceptable pour les paiements en magasin. Avec Lightning, la transaction en bitcoins est réglée en quelques secondes, ce qui permet ainsi au barman de vous servir votre café sans attendre qu'il ne refroidisse.
+Par exemple, si vous deviez payer un café en bitcoins en utilisant le système de base, pour que la transaction soit définitivement réglée, et donc que le commerçant soit assuré de votre paiement, il faudrait attendre au minimum que votre transaction soit incluse dans un bloc. Cela peut prendre plusieurs minutes, à condition que vous ayez choisi un taux de frais approprié. En théorie, le commerçant devrait même attendre 6 confirmations, soit en moyenne 1 heure, pour être totalement sûr que la transaction est réglée sur Bitcoin. Ce délai est inacceptable pour les paiements en magasin. Avec Lightning, la transaction en bitcoins est réglée en quelques secondes, ce qui permet ainsi au barman de vous servir votre café sans attendre qu'il ne refroidisse.
 
 Si vous souhaitez en savoir plus sur le fonctionnement théorique de Lightning, nous proposons une excellente formation de deuxième année sur ce sujet :
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 - **Les sidechains** : 
 
@@ -996,7 +1004,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 - **RGB** : 
 
-C'est un système de contrats intelligents décentralisé et confidentiel, conçu pour fonctionner avec Bitcoin et le Lightning Network. Ce protocole fonctionne sur un modèle de validation côté client et sépare le stockage de l’état des contrats de la blockchain, afin de ne conserver que des engagements cryptographiques sur celle-ci. Ainsi, l’historique complet des états est maintenu en dehors de la chaîne, ce qui permet une meilleure scalabilité et confidentialité. RGB permet ainsi la création de contrats complexes afin d'emmètre des tokens, des NFT, des identités décentralisées ou des solutions de DeFi, directement par-dessus Bitcoin ou Lightning.
+C'est un système de contrats intelligents décentralisé et confidentiel, conçu pour fonctionner avec Bitcoin et le Lightning Network. Ce protocole fonctionne sur un modèle de validation côté client et sépare le stockage de l’état des contrats de la blockchain, afin de ne conserver que des engagements cryptographiques sur celle-ci. Ainsi, l’historique complet des états est maintenu en dehors de la chaîne, ce qui permet une meilleure scalabilité et confidentialité. RGB permet la création de contrats complexes afin d'emmètre des tokens, des NFT, des identités décentralisées ou des solutions de DeFi, directement par-dessus Bitcoin ou Lightning.
 
 Sur RGB, la résistance à la double dépense est assurée par l'utilisation de Single-use Seal, un mécanisme cryptographique qui tire parti du fait que les UTXOs sur Bitcoin ne peuvent être utilisés qu'une seule fois. Quant à l'authenticité des jetons, elle est garantie par la vérification côté client de l'historique des états, depuis la création du contrat jusqu'à son état le plus récent.
 
@@ -1173,7 +1181,7 @@ Parmi ces solutions, on peut également inclure les portefeuilles qui prennent e
 
 **Avantages** :
 - Facilité d’utilisation et accès rapide aux fonds pour les paiements courants ou une utilisation mobile ;
-- Intégration avec Lightning Network pour des transactions rapides et peu coûteuses
+- Intégration avec le Lightning Network pour des transactions rapides et peu coûteuses
 
 **Inconvénients** :
 - Exposition au risque de piratage, car les clés privées sont stockées sur un appareil connecté à internet et avec une très grande surface d'attaque.
@@ -1258,7 +1266,7 @@ Les plateformes réglementées exigent généralement une vérification d’iden
 - Liquidité élevée et faible écart entre les prix d’achat et de vente.
 
 **Inconvénients** :
-- Peut couter cher en frais pour els conversion et les retraits ;
+- Peut couter cher en frais pour les conversion et les retraits ;
 - Certaines plateformes sont assez compliquées à utiliser et peuvent vous perdre au milieu des foncitonnalités de trading avancées et les shitcoins ;
 - Approche très problématique pour votre confidentialité.
 
@@ -1282,16 +1290,15 @@ L’achat de bitcoins sans divulguer son identité est une alternative pour ceux
 - **Les paiements / Le salaire en bitcoins** : Si vous dirigez une entreprise, vous pouvez accepter des paiements en bitcoins. Si vous êtes salarié, selon la juridiction et le type d'entreprise où vous travaillez, il peut être envisageable de demander à être rémunéré en bitcoins. Ces options permettent d'acquérir des bitcoins sans KYC.
 
 **Avantages** :
-- Selon la méthode choisie, protège plus ou moins votre confidentialité en limitant els liens possibles entre votre identité et votre activité sur Bitcoin ;
-- Réduit les risques de censure, de gel des fonds ou d’ingérence gouvernementale ;
+- Selon la méthode choisie, protège plus ou moins votre confidentialité en limitant les liens possibles entre votre identité et votre activité sur Bitcoin ;
+- Réduit les risques de censure, de gel des fonds ou d’ingérence étatique ;
 - Possibilité d’accéder à Bitcoin même dans des environnements réglementés stricts.
 
 **Inconvénients** :
 - Processus souvent plus complexe que les plateformes KYC ;
 - Liquidité et volumes de transaction plus faibles ;
 - Premium souvent présent sur l'achat en P2P ;
-- Risque de contrepartie plus important dans les échanges entre particuliers (escroqueries, arnaques, agression...) ;
-- Frais plus élevés sur certaines plateformes ou ATM.
+- Risque de contrepartie plus important dans les échanges entre particuliers (escroqueries, arnaques, agression...).
 
 ### Les 4 profils types de bitcoiners
 
@@ -1365,33 +1372,19 @@ Le hodler est convaincu par la proposition de valeur de Bitcoin. Avec seulement 
 
 ### Pourquoi adopter une stratégie de hodling ?
 
-Le hodling est historiquement la stratégie la plus rentable pour la majorité des investisseurs non professionnels, car il élimine le besoin de prédire les mouvements de marché, tâche extrêmement difficile et stressante. En achetant et en conservant ses bitcoins, le hodler s'épargne la volatilité émotionnelle du trading et évite de prendre des décisions impulsives, souvent perdantes.
+Le hodling est historiquement la stratégie la plus rentable pour la majorité des investisseurs non professionnels, car il élimine le besoin de prédire les mouvements de marché, une tâche extrêmement difficile et stressante. En achetant et en conservant ses bitcoins, le hodler s'épargne la volatilité émotionnelle du trading et évite de prendre des décisions impulsives, souvent perdantes.
 
-Cette stratégie exige plusieurs qualités :
-
-- **Patience** : Un hodler fait preuve d’une patience exceptionnelle. Il est prêt à conserver ses bitcoins pendant des années, voire des décennies, sans se laisser perturber par les fluctuations quotidiennes du marché. Il comprend que Bitcoin évolue par cycles, et il ne panique pas lorsque le prix chute brutalement. Il sait que les corrections sont normales et que la valeur de Bitcoin ne se mesure pas sur quelques mois, mais sur le long terme ;
-
-- **Vision à long terme** : Le hodler possède une vision qui dépasse les simples gains financiers à court terme. Il croit en la croissance structurelle de Bitcoin et en son adoption progressive à l’échelle mondiale. Il pense que malgré la volatilité, l’adoption de Bitcoin suit une trajectoire ascendante, marquée par des phases d’expansion et de consolidation. Il voit Bitcoin comme un actif durable, un rempart pour son épargne contre l’inflation et un changement de paradigme monétaire ;
-
-- **Auto-discipline** : L’une des qualités essentielles du hodler est sa discipline mentale. Paradoxalement, son plus grand défi n’est pas d’agir, mais de ne rien faire. Il doit résister à la tentation de vendre lors des hausses spectaculaires de prix, ou au contraire de paniquer lors des krachs. Le hodler sait que Bitcoin a traversé de nombreux cycles baissiers, et que ceux qui conservent leurs bitcoins sur le long terme sont souvent ceux qui en bénéficient le plus ;
-
-- **Résilience émotionnelle** : Le marché de Bitcoin est imprévisible et marqué par des corrections parfois violentes. Pourtant, le hodler ne cède pas à la panique. Il a intégré l’idée que Bitcoin peut perdre 50 % ou plus de sa valeur en quelques semaines, sans que cela ne remette en cause son potentiel fondamental. Il a la capacité de supporter la pression émotionnelle, et son sang-froid lui permet de garder une vision rationnelle, même dans les périodes d’incertitude ;
-
-- **Croyance en la technologie** : Le hodler ne voit pas Bitcoin comme un simple actif spéculatif. Il croit en sa technologie et en son potentiel disruptif sur le système monétaire. Son engagement dépasse souvent l’aspect financier : il considère Bitcoin comme une alternative au système bancaire traditionnel, une monnaie résiliente et apolitique, capable d’apporter plus de liberté et d’indépendance aux individus.
-
-![BTC102-Bitcoin](assets/fr/072.webp)
-
-Historiquement, Bitcoin évolue en cycles marqués par des périodes de forte hausse suivies de corrections significatives et parfois longues périodes d'accalmie. Par exemple, entre 2013 et 2025, Bitcoin est passé par plusieurs cycles de hausse (*bull run*) et de baisse (*bear market*), avec des pertes temporaires pouvant atteindre 80 % de sa valeur. Pour un hodler, ces périodes sont particulièrement éprouvantes, mais elles sont généralement suivies par des reprises sur le long terme.
+Historiquement, Bitcoin évolue en cycles marqués par des périodes de forte hausse suivies de corrections significatives et parfois de longues périodes d'accalmie. Par exemple, entre 2013 et 2025, Bitcoin est passé par plusieurs cycles de hausse (*bull run*) et de baisse (*bear market*), avec des pertes temporaires pouvant atteindre 80 % de sa valeur. Pour un hodler, ces périodes sont particulièrement éprouvantes, mais elles sont généralement suivies par des reprises sur le long terme.
 
 Comprendre ces cycles permet de mieux gérer ses émotions. Un hodler aguerri sait qu'il est inutile de tenter de vendre au sommet ou d'acheter au plus bas, car ces stratégies échouent le plus souvent. En revanche, une détention prolongée et disciplinée s'est révélée historiquement payante.
 
-### Plan d'investissement d'un Hodler
+### Plan d'investissement d'un hodler
 
-Le hodler adopte donc une approche d’investissement à long terme. Son objectif principal est de conserver ses bitcoins sur plusieurs années, indépendamment des fluctuations de marché. Il ne cherche ni à trader ni à spéculer, mais à accumuler et à sécuriser ses bitcoins avec une stratégie simple et robuste. Le plan d’investissement pour un hodler repose sur quelques étapes essentielles qui garantissent une sécurité optimale et une gestion minimale des fonds :
+Le hodler adopte donc une approche d’investissement à long terme. Son objectif principal est de conserver ses bitcoins sur plusieurs années, indépendamment des fluctuations de marché. Il ne cherche ni à trader ni à dépenser ses bitcoins, mais à en accumuler et à les sécuriser avec une stratégie simple et robuste. Le plan d’investissement pour un hodler repose sur quelques étapes essentielles qui garantissent une sécurité optimale et une gestion minimale des fonds :
 
 #### 1. Choisir et configurer un hardware wallet
 
-Un hodler doit avant tout sécuriser ses fonds en utilisant un hardware wallet, un dispositif permettant de stocker les clés privées donnant accès à ses bitcoins hors ligne, à l’abri des piratages et des attaques informatiques. Voici plusieurs tutoriels complets sur des solutions qui conviendront au profil de hodler :
+Un hodler doit avant tout sécuriser ses fonds en utilisant un hardware wallet, un dispositif permettant de stocker les clés privées donnant accès à ses bitcoins hors ligne, à l'abri des attaques informatiques. Voici plusieurs tutoriels complets sur des solutions qui conviendront au profil de hodler :
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
@@ -1466,13 +1459,22 @@ Le plan d’investissement du hodler repose donc sur une stratégie simple mais 
 
 ![BTC102-Bitcoin](assets/fr/075.webp)
 
-### Évaluer votre profil de Hodler
+### Évaluer votre profil de hodler
 
 Si vous vous reconnaissez dans ces traits de personnalité, vous êtes probablement un hodler naturel :
-- Vous êtes patient et capable d’attendre plusieurs années sans avoir besoin d’accéder à cet argent ;
-- Vous avez une forte discipline personnelle et pouvez résister à la tentation de vendre impulsivement ;
-- Vous comprenez et croyez profondément au potentiel disruptif de Bitcoin à long terme ;
-- Vous êtes à l’aise avec les hauts et bas inévitables du marché et savez gérer vos émotions en conséquence.
+
+- **Patience** : Un hodler fait preuve d’une patience exceptionnelle. Il est prêt à conserver ses bitcoins pendant des années, voire des décennies, sans se laisser perturber par les fluctuations quotidiennes du marché. Il comprend que Bitcoin évolue par cycles, et il ne panique pas lorsque le prix chute brutalement. Il sait que les corrections sont normales et que la valeur de Bitcoin ne se mesure pas sur quelques mois, mais sur le long terme ;
+
+- **Vision à long terme** : Le hodler possède une vision qui dépasse les simples gains financiers à court terme. Il croit en la croissance structurelle de Bitcoin et en son adoption progressive à l’échelle mondiale. Il pense que malgré la volatilité, l’adoption de Bitcoin suit une trajectoire ascendante, marquée par des phases d’expansion et de consolidation. Il voit Bitcoin comme un actif durable, un rempart pour son épargne contre l’inflation et un changement de paradigme monétaire ;
+
+- **Auto-discipline** : L’une des qualités essentielles du hodler est sa discipline mentale. Paradoxalement, son plus grand défi n’est pas d’agir, mais de ne rien faire. Il doit résister à la tentation de vendre lors des hausses spectaculaires de prix, ou au contraire de paniquer lors des krachs. Le hodler sait que Bitcoin a traversé de nombreux cycles baissiers, et que ceux qui conservent leurs bitcoins sur le long terme sont souvent ceux qui en bénéficient le plus ;
+
+- **Résilience émotionnelle** : Le marché de Bitcoin est imprévisible et marqué par des corrections parfois violentes. Pourtant, le hodler ne cède pas à la panique. Il a intégré l’idée que Bitcoin peut perdre 50 % ou plus de sa valeur en quelques semaines, sans que cela ne remette en cause son potentiel fondamental. Il a la capacité de supporter la pression émotionnelle, et son sang-froid lui permet de garder une vision rationnelle, même dans les périodes d’incertitude ;
+
+- **Croyance en la technologie** : Le hodler ne voit pas Bitcoin comme un simple actif spéculatif. Il croit en sa technologie et en son potentiel disruptif sur le système monétaire. Son engagement dépasse souvent l’aspect financier : il considère Bitcoin comme une alternative au système bancaire traditionnel, une monnaie résiliente et apolitique, capable d’apporter plus de liberté et d’indépendance aux individus.
+
+![BTC102-Bitcoin](assets/fr/072.webp)
+
 
 Le hodling reste une stratégie simple, efficace et accessible à tous les investisseurs, même débutants. Dans le prochain chapitre, nous allons étudier un profil similaire à celui du hodler : le stacker.
 
@@ -1480,7 +1482,7 @@ Le hodling reste une stratégie simple, efficace et accessible à tous les inves
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
-Dans l’écosystème Bitcoin, un stacker est une personne qui adopte une approche pour accumuler progressivement des satoshis (ou "sats"), la plus petite unité du BTC. Plutôt que d’investir une somme conséquente en une seule fois, le stacker achète régulièrement de petites quantités de bitcoins, quelles que soient les conditions du marché.
+Dans l’écosystème Bitcoin, un stacker est une personne qui adopte une approche pour accumuler progressivement des satoshis (ou "sats"), la plus petite unité du BTC. Plutôt que d’investir une somme conséquente en une seule fois, le stacker achète régulièrement des petites quantités de bitcoins, quelles que soient les conditions du marché.
 
 L'idée est simple : il n'y aura qu'environ 21 millions de bitcoins, et chaque fraction de bitcoin compte ! La mission que se fixe le stacker est d'accumuler autant de sats que possible.
 
@@ -1492,7 +1494,7 @@ Le stacking est une méthode d’investissement particulièrement efficace pour 
 
 Les avantages du stacking :
 
-- **Réduction de la volatilité** : En achetant de manière récurrente, le stacker réduit l'impact de la volatilité sur son investissement global, puisqu'il achète automatiquement plus d'unités quand les prix sont bas et moins quand ils sont élevé. Il lisse son prix moyen d’achat et réduit le stress lié aux fluctuations.
+- **Réduction de la volatilité** : En achetant de manière récurrente, le stacker réduit l'impact de la volatilité sur son investissement global, puisqu'il achète automatiquement plus d'unités quand les prix sont bas et moins quand ils sont élevés. Il lisse son prix moyen d’achat et réduit le stress lié aux fluctuations.
 
 - **Accessibilité** : Pas besoin d’un capital important au départ. Il est possible de commencer avec ne serait-ce que 10 € par mois pour se faire la main, puis éventuellement augmenter le montant du DCA plus tard.
 
@@ -1502,7 +1504,7 @@ Les avantages du stacking :
 
 Cette méthode est **particulièrement adaptée aux débutants**, car elle permet d’entrer sur Bitcoin sans se soucier du prix et sans chercher à anticiper les mouvements du marché (une erreur courante chez les nouveaux investisseurs).
 
-### Plan d’investissement d’un Stacker
+### Plan d’investissement d’un stacker
 
 L'objectif du stacker est d’établir une stratégie durable, automatisée et sécurisée, qui lui permette d’optimiser son accumulation sur une très longue période. Voici les étapes clés pour mettre en place votre plan d'investissement du stacker :
 
@@ -1548,7 +1550,7 @@ La stratégie la plus simple pour le stacker est d'utiliser un portefeuille chau
 
 #### 2. Mettre en place un plan d'achat en DCA
 
-Le *Dollar-Cost Averaging* (DCA) est une stratégie d’investissement qui consiste à acheter des fractions de BTC à intervalles réguliers, quelle que soit le prix. Pour structurer efficacement un plan d'achat en DCA, 2 éléments doivent être déterminés :
+Le *Dollar-Cost Averaging* (DCA) est une stratégie d’investissement qui consiste à acheter des fractions de BTC à intervalles réguliers, quel que soit le prix. Pour structurer efficacement un plan d'achat en DCA, 2 éléments doivent être déterminés :
 
 - **La fréquence d'achat** : Souhaitez-vous acheter chaque semaine, toutes les deux semaines, ou chaque mois ? Ce choix dépend de votre situation financière et de vos objectifs à long terme. Mais il est tout de même recommandé d’opter pour une fréquence pas trop courte, afin d’éviter la multiplication d’UTXOs de très petits montants, qui pourraient poser des problèmes d’optimisation des frais de transaction à l’avenir.
 

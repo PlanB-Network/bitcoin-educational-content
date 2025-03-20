@@ -2081,8 +2081,6 @@ Prenez 30 minutes de votre temps. Pas pour vous, mais pour ceux qui comptent sur
 
 #### De quoi avez-vous besoin ?
 
-##### test niveau 5
-
 Assurez-vous de disposer d’un environnement calme et sans distractions, puis rassemblez ces quelques outils :
 - 4 à 5 feuilles de papier blanc ;
 - Un stylo ;

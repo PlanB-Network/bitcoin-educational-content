@@ -1630,7 +1630,7 @@ En résumé, la stratégie du stacking convient à ceux qui souhaitent accumuler
 
 ## L'utilisateur : adopter Bitcoin au quotidien
 
-e0a022ab-207c-571f-b4ad-c432214a756c
+<chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
 Devenir un utilisateur actif de Bitcoin, c'est faire le choix d'intégrer cette monnaie dans son quotidien, bien au-delà de l'investissement à long terme. Contrairement au hodler ou au stacker, qui conservent leurs bitcoins sans les dépenser, l'utilisateur actif considère Bitcoin comme un véritable **moyen d'échange**, lui permettant d’effectuer des transactions, de payer des biens et services, et de participer à la contre-économie.
 

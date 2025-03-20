@@ -1,9 +1,0 @@
-question: Mis on kahefaktorilise autentimise (2FA) eesmärk Bitcoinis?
-answer: Bitcoin tehingute turvalisuse suurendamine.
-wrong_answers:
-  - Uute Bitcoinide kaevandamine.
-  - Bitcoinidega kauplemine.
-  - Bitcoinide teistesse krüptovaluutadesse konverteerimine.
-explanation: |
-  Kahefaktoriline autentimine (2FA) on meetod kasutaja väidetava identiteedi kinnitamiseks, kasutades midagi, mida nad teavad (parool) ja teist faktorit peale selle, mida nad omavad või kes nad on. Seda kasutatakse Bitcoin tehingute turvalisuse suurendamiseks.
-reviewed: false

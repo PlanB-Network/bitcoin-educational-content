@@ -1,9 +1,0 @@
-question: Hva er fokuset til dette universitetskurs?
-answer: Bitcoin-universet.
-wrong_answers:
-  - Den globale kryptovalutaindustrien.
-  - Fintech-industrien.
-  - Blockchain-industrien.
-explanation: |
-  Hele fokuset til dette universitetet er på Bitcoin-universet, ikke krypto.
-reviewed: false

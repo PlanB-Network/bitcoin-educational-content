@@ -2261,19 +2261,31 @@ Merci beaucoup à [Pamela Morgan](https://x.com/pamelawjd) pour son travail et s
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
-Si vous avez suivi cette formation depuis le début, vous avez désormais des bases solides sur Bitcoin et faites partie des personnes les mieux préparées à naviguer dans cette nouvelle ère monétaire. Vous avez appris à sécuriser vos fonds, à gérer vos clés privées, à acheter et stocker du bitcoin en toute autonomie, et même à préparer un plan d’héritage. Vous avez franchi des étapes que la majorité des gens n’oseront jamais explorer.
+Si vous êtes arrivé jusqu'ici, vous faites désormais partie d'une minorité éclairée ! Peu de personnes vont aussi loin dans leur parcours avec Bitcoin, et vous pouvez être fier du chemin accompli. Peut-être avez-vous suivi tous les tutoriels proposés dans cette formation : créé votre premier portefeuille avec un hardware wallet, sécurisé votre phrase mnémonique, mis en place un plan de DCA, acheté des bitcoins avec ou sans KYC, et même planifié votre héritage. Chaque étape franchie est un pas vers la souveraineté financière.
 
-Prenez un instant pour mesurer votre progression :
-- Vous comprenez ce qu’est Bitcoin et pourquoi il a une importance capitale ;
-- Vous possédez des bitcoins et savez comment en acquérir davantage de manière sécurisée ;
-- Vous avez mis en place un portefeuille sécurisé, que ce soit un hardware wallet ou une autre solution adaptée à votre profil ;
-- Vous avez anticipé la transmission de vos bitcoins à vos proches grâce à un plan d’héritage bien structuré.
+Même si vous n'avez pas encore concrétisé toutes ces démarches, mais que vous êtes déterminé à les réaliser bientôt, vous êtes déjà sur la bonne voie. Cette volonté de comprendre et d’agir est importante. Vous comprenez désormais pourquoi Bitcoin est un enjeu majeur pour notre avenir individuel et collectif.
 
-Vous êtes maintenant en sécurité. Vous avez posé les bases essentielles pour protéger votre souveraineté financière. **Bravo !**
+Depuis mes débuts en tant qu’éducateur sur Bitcoin, l'écosystème a profondément évolué, tout comme moi-même d’ailleurs. Cette formation a été entièrement révisée pour vous offrir le meilleur de l'écosystème Bitcoin actuel. Quel voyage incroyable nous avons parcouru ensemble !
+
+### Quel avenir pour Bitcoin ?
+
+Si nous regardons une fois de plus la célèbre courbe de prix logarithmique, une évidence s'impose : nous ne savons jamais exactement où nous en sommes dans les cycles. Peut-être regardez-vous cette vidéo alors que débute une nouvelle phase de croissance fulgurante, ou bien êtes-vous en plein cœur d’un marché baissier. Quoi qu’il en soit, les cycles continuent, inévitablement ponctué de hauts spectaculaires et de corrections parfois brutales.
+
+Mais au-delà du prix, l’évolution de Bitcoin est remarquable. Depuis sa création, il est passé d’une expérience marginale, connue d'une poignée de cypherpunks, à un phénomène mondial incontournable. Depuis Silk Road jusqu'au dernières vagues d'adoption institutionnelle, Bitcoin s'est durablement ancré dans le paysage économique mondial. Il n’est plus perçu comme une excentricité risquée, mais comme un actif sérieux, adopté massivement par les institutions financières et des millions d’individus à travers le monde.
+
+Ce changement de perception est accompagné d'améliorations constantes sur le plan technique : les portefeuilles et les infrastructures évoluent en permanence. Chaque année, de nouvelles solutions voient le jour, qui rendent Bitcoin toujours plus robuste, résilient et facile d'utilisation. Aujourd’hui, Bitcoin est plus décentralisé, plus accessible et mieux compris qu’il ne l’a jamais été.
+
+Pourtant, de nombreux défis subsistent : régulation, protection de la vie privée, adoption généralisée, développement d'une économie circulaire… Mais tant que la communauté reste active, curieuse et engagée, Bitcoin demeurera une force positive capable d’offrir une véritable alternative au système monétaire traditionnel.
+
+La véritable certitude est que Bitcoin continuera simplement à exister, à produire un nouveau bloc environ toutes les 10 minutes, inlassablement, jour après jour, année après année. Il y aura sûrement toujours plus d'utilisateurs, de portefeuilles, de plateformes d'échange, mais aussi plus de régulation, de défis techniques, de crises et d’innovations.
+
+À mesure que notre monde deviendra plus complexe, que les crises financières se succéderont et que l'inflation grignotera le pouvoir d’achat des monnaies fiduciaires, Bitcoin attirera encore davantage de personnes en quête de liberté financière et de souveraineté individuelle. Cette dynamique permettra à Bitcoin de continuer à se renforcer, et d'attirer de nouveaux talents qui feront progresser le protocole, les surcouches et la couche applicative vers plus de sécurité, de confidentialité et d'utilité au quotidien.
 
 ### Quelle est la prochaine étape ?
 
-Votre parcours ne s’arrête pas ici. Bitcoin est un monde en perpétuelle évolution, et il y a toujours plus à découvrir. Voici quelques directions que vous pourriez explorer pour approfondir votre compréhension et votre implication.
+Paradoxalement, le plus grand changement ne sera pas Bitcoin lui-même, ce sera vous. C’est vous qui évoluerez dans votre manière d’utiliser, de percevoir et d’interagir avec Bitcoin. Vous développerez peut-être une véritable passion pour le sujet, au point de vouloir enseigner vous-même, participer activement à la communauté, ou simplement préserver tranquillement votre capital à long terme. Dans tous les cas, Bitcoin aura changé votre façon de voir le monde, et probablement votre rapport à la liberté et à la responsabilité financière.
+
+Voici quelques directions que vous pourriez explorer pour approfondir votre compréhension et votre implication.
 
 #### 1. Continuer sur votre lancée
 
@@ -2325,11 +2337,17 @@ Bitcoin est bien plus qu’un simple actif financier, c’est aussi un mouvement
 
 Naturellement, si vous souhaitez contribuer à l'éducation du public sur Bitcoin, votre aide serait grandement appréciée sur Plan ₿ Network. Nos ressources pédagogiques sont open-source, hébergées sur GitHub, et nous sommes toujours à la recherche de contributeurs pour aider à relire et améliorer les contenus dans les diverses langues que nous offrons, en échange de quelques satoshis ! Que ce soit immédiatement ou pour plus tard dans votre parcours sur Bitcoin, n'hésitez pas à rejoindre [notre groupe Telegram pour les contributeurs](https://t.me/PlanBNetwork_ContentBuilder) de Plan ₿ Network.
 
-### Conclusion
+### Le mot de la fin
 
-Bitcoin est un cheminement personnel, et chacun avance à son rythme. Que vous décidiez de vous arrêter ici ou de plonger encore plus loin dans le "rabbit hole", vous avez déjà fait un pas décisif vers l’indépendance financière et la souveraineté numérique.
+Je tiens à vous remercier sincèrement d'avoir suivi cette formation BTC102. Mon nom est Rogzy, fondateur de Découvre Bitcoin et cofondateur de Plan ₿ Network, une plateforme devenue réalité grâce à nos nouveaux partenaires et à la volonté commune d'éduquer le plus grand nombre sur Bitcoin.
 
-Toutes nos formations restent gratuites et accessibles, et nous continuerons à proposer de nouvelles ressources pour vous accompagner.
+Votre retour est très précieux : n’hésitez pas à commenter directement sur la plateforme pour nous dire ce que vous avez pensé de cette nouvelle version du cours. Vos suggestions sont essentielles pour nous aider à améliorer constamment la qualité de nos contenus.
+
+Vous allez maintenant passer à l’examen final composé de 40 questions qui valideront votre compréhension et vous permettront d'obtenir votre certificat. Bonne chance à vous !
+
+J’espère avoir le plaisir de vous retrouver très vite dans d'autres cours disponibles sur Plan ₿ Network, qu'ils soient réalisés par moi-même ou par d’autres excellents professeurs de la communauté. Peut-être aurons-nous également la chance de nous croiser lors d’un événement, d'une conférence, ou d’une rencontre autour de Bitcoin.
+
+Encore une fois, bravo pour tout ce chemin parcouru. Rappelez-vous que mon objectif premier reste toujours le même : éduquer le maximum de personnes à travers le monde pour leur permettre d’accéder à une véritable souveraineté financière grâce à Bitcoin.
 
 Bonne continuation dans votre aventure avec Bitcoin !
 

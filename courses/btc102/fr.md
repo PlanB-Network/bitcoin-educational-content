@@ -2267,9 +2267,11 @@ Même si vous n'avez pas encore concrétisé toutes ces démarches, mais que vou
 
 Depuis mes débuts en tant qu’éducateur sur Bitcoin, l'écosystème a profondément évolué, tout comme moi-même d’ailleurs. Cette formation a été entièrement révisée pour vous offrir le meilleur de l'écosystème Bitcoin actuel. Quel voyage incroyable nous avons parcouru ensemble !
 
+097
+
 ### Quel avenir pour Bitcoin ?
 
-Si nous regardons une fois de plus la célèbre courbe de prix logarithmique, une évidence s'impose : nous ne savons jamais exactement où nous en sommes dans les cycles. Peut-être regardez-vous cette vidéo alors que débute une nouvelle phase de croissance fulgurante, ou bien êtes-vous en plein cœur d’un marché baissier. Quoi qu’il en soit, les cycles continuent, inévitablement ponctué de hauts spectaculaires et de corrections parfois brutales.
+Si nous regardons la courbe de prix logarithmique, une évidence s'impose : nous ne savons jamais exactement où nous en sommes dans les cycles. Peut-être lisez-vous cette formation alors que débute une nouvelle phase de croissance, ou bien êtes-vous en plein cœur d’un marché baissier. Quoi qu’il en soit, les cycles continuent, inévitablement ponctué de hauts spectaculaires et de corrections parfois brutales.
 
 Mais au-delà du prix, l’évolution de Bitcoin est remarquable. Depuis sa création, il est passé d’une expérience marginale, connue d'une poignée de cypherpunks, à un phénomène mondial incontournable. Depuis Silk Road jusqu'au dernières vagues d'adoption institutionnelle, Bitcoin s'est durablement ancré dans le paysage économique mondial. Il n’est plus perçu comme une excentricité risquée, mais comme un actif sérieux, adopté massivement par les institutions financières et des millions d’individus à travers le monde.
 
@@ -2278,6 +2280,8 @@ Ce changement de perception est accompagné d'améliorations constantes sur le p
 Pourtant, de nombreux défis subsistent : régulation, protection de la vie privée, adoption généralisée, développement d'une économie circulaire… Mais tant que la communauté reste active, curieuse et engagée, Bitcoin demeurera une force positive capable d’offrir une véritable alternative au système monétaire traditionnel.
 
 La véritable certitude est que Bitcoin continuera simplement à exister, à produire un nouveau bloc environ toutes les 10 minutes, inlassablement, jour après jour, année après année. Il y aura sûrement toujours plus d'utilisateurs, de portefeuilles, de plateformes d'échange, mais aussi plus de régulation, de défis techniques, de crises et d’innovations.
+
+098
 
 À mesure que notre monde deviendra plus complexe, que les crises financières se succéderont et que l'inflation grignotera le pouvoir d’achat des monnaies fiduciaires, Bitcoin attirera encore davantage de personnes en quête de liberté financière et de souveraineté individuelle. Cette dynamique permettra à Bitcoin de continuer à se renforcer, et d'attirer de nouveaux talents qui feront progresser le protocole, les surcouches et la couche applicative vers plus de sécurité, de confidentialité et d'utilité au quotidien.
 

@@ -9,8 +9,8 @@ links:
 description: |
   The Lightning Network is a payment network using Bitcoin as its sole asset. This podcast is dedicated to the topic of Bitcoin Lightning and how it might provide ultimate financial freedom for as many people on planet Earth as possible. "The podcast to get your Lightning fix!"
 
-contributors:
-  - rabbit-hole
+contributor_names:
+  - Rogzy-DB
 tags:
   - lightning
   - adoption

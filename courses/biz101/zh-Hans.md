@@ -254,6 +254,7 @@ objectives:
 关于比特币的更多信息，包括其历史、工作原理和使用方法，我还建议您学习另一门综合课程：
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+
 ## 闪电网络简介
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -335,6 +336,7 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 如需了解有关闪电网络技术运作的更多信息，我还建议您学习另一门综合课程：
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 # 国库中的比特币
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -454,8 +456,11 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 有关此主题的更多信息：
 
 https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+
 https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+
 ## 将比特币存入国库
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -629,8 +634,10 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 要了解如何开立企业账户并用它来购买、出售和转移比特币，可以查看这两份专门为企业设计的教程，其中涵盖了企业版的 Kraken 和 Bitfinex 平台：
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+
 要进一步了解通过交易所或点对点获取比特币的方法，可以[查阅我们教程中的 "交易所 "部分](https://planb.network/tutorials/exchange)。
 
 ![BIZ101](assets/en/16.webp)
@@ -943,14 +950,21 @@ https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4b
 **自我保管的 LN 钱包/节点：**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
 https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
+
 **托管LN钱包：**
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+
 ## 基本
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
@@ -981,13 +995,16 @@ Essential 方法的另一个主要优点是强调快速部署和最小干扰。�
 
 最适合您的混合解决方案可能是瑞士比特币支付：
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
 另一个易于实施的解决方案是 Open Node，但缺点是需要 100% 的托管：
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
 如果您已经准备好亲自动手，并希望完全控制整个过程，BTCPay 服务器软件是一个极佳的选择。不过，BTCPay 服务器的主要缺点是设置和管理比较耗时，需要一定的专业技术，但您可以按照我们的指南进行操作：
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+
 最后，作为对实体销售点的补充，您可以考虑建立 [Bitcoinize PoS](https://bitcoinize.com/)。
 
 ## 专业人员
@@ -1025,6 +1042,7 @@ https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b
 要深入了解 BTC Pay Server 的具体实施情况并探索 BTC Pay Server 的实际配置，请参阅以下课程：
 
 https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+
 ## 企业
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
@@ -1275,6 +1293,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 对于自我保管比特币的人来说，管理 UTXOs（*未花费的交易输出*）是一个重要步骤。正确的UTXO标签有助于追踪每个BTC片段的来源，区分与专业活动相关的交易和用于个人支出的交易，并为法律或税务目的的可追溯性提供便利。大多数优秀的比特币钱包软件都允许您使用备份文件（或 xpub，取决于您的设置）导入钱包，并根据其来源或目的地标记UTXO。为了帮助您，这里有一个专门介绍这种做法的完整教程：
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 最后，无论您是小商户还是成熟企业，都可以**比特币结算发票。关键是要正确记录交易。如果您使用自我保管的钱包付款，最好在标签中注明发票号码和付款目的。如果您希望通过交易所结算发票，您还可以选择导出收据或交易历史记录，以便纳入会计记录。这种透明度将简化您对所有 BTC 业务的跟踪和报告。
 
 ## 实用比特币会计实例

@@ -145,7 +145,7 @@ Pokud používáte k obnově vaší peněženky Samourai jiný software než Spa
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Nyní máte přístup ke svým bitcoinům na Sparrow. Pokud potřebujete pomoc s používáním Sparrow Wallet, můžete také zkontrolovat [náš věnovaný tutoriál](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+Nyní máte přístup ke svým bitcoinům na Sparrow. Pokud potřebujete pomoc s používáním Sparrow Wallet, můžete také zkontrolovat [náš věnovaný tutoriál](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Doporučuji také ručně importovat štítky, které jste měli spojené s vašimi UTXOs na Samourai. To vám umožní následně provádět efektivní kontrolu mincí na Sparrow.
 
@@ -201,7 +201,7 @@ Pokud používáte jiný software, jako je Electrum, pro obnovu vaší peněžen
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Nyní máte přístup k vašim bitcoinům na Sparrow. Pokud potřebujete pomoc s používáním Sparrow Wallet, můžete také konzultovat [náš dedikovaný tutoriál](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+Nyní máte přístup k vašim bitcoinům na Sparrow. Pokud potřebujete pomoc s používáním Sparrow Wallet, můžete také konzultovat [náš dedikovaný tutoriál](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Doporučuji také ručně importovat štítky, které jste spojili s vašimi UTXOs na Samourai. To vám umožní efektivně kontrolovat mince na Sparrow následně.
 

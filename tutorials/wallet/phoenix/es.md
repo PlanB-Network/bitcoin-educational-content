@@ -6,7 +6,7 @@ description: Instalación y uso de Phoenix Wallet
 
 Phoenix es un monedero y nodo Lightning autocustodiado desarrollado por ACINQ, una empresa francesa especializada en soluciones de software basadas en Lightning. A diferencia de los monederos Lightning de custodia, como Wallet of Satoshi, en los que los bitcoins están en manos de un tercero, Phoenix permite a los usuarios mantener el control total de sus claves privadas.
 
-De hecho, Phoenix funciona como un verdadero nodo Lightning incrustado en tu teléfono, que abrirá automáticamente un canal con el nodo Lightning de ACINQ. La aplicación se basa en Eclair, la implementación de Lightning desarrollada por ACINQ. A diferencia de otras soluciones de nodos Lightning, Phoenix simplifica considerablemente la gestión. Los usuarios no tienen que gestionar la apertura y cierre de canales, ejecutar un nodo Bitcoin o gestionar su liquidez en la red Lightning. Phoenix se encarga de todas estas operaciones técnicas en segundo plano.
+Phoenix funciona como un nodo Lightning real integrado en tu teléfono, que abre automáticamente un canal con el nodo Lightning de ACINQ. La aplicación se basa en Lightning-KMP, una implementación multiplataforma de la Lightning Network en Kotlin, optimizada para monederos móviles. A diferencia de otras soluciones de nodos Lightning, Phoenix simplifica enormemente la gestión. El usuario no necesita gestionar la apertura y cierre de canales, ejecutar un nodo Bitcoin ni administrar su liquidez en la red Lightning. Phoenix se encarga de todas estas operaciones técnicas en segundo plano.
 
 Esta aplicación combina la facilidad de uso y la comodidad de los monederos Lightning móviles con la seguridad y la soberanía de un auténtico nodo Lightning personal. Phoenix permite utilizar la Red Lightning de forma segura, eficiente y autónoma, disfrutando al mismo tiempo de una experiencia de usuario fluida e intuitiva.
 
@@ -60,6 +60,7 @@ Puedes escribirla en papel o, para mayor seguridad, grabarla en acero inoxidable
 Para más información sobre la forma correcta de guardar y gestionar tu frase mnemotécnica, te recomiendo encarecidamente que sigas este otro tutorial, especialmente si eres principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 Haga clic en el mensaje que aparece en la parte superior de la interfaz "*Guarde su cartera...*".
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Enhorabuena, ahora ya sabes cómo configurar y utilizar Phoenix. Si has encontra
 Para ir un paso más allá, echa un vistazo a este tutorial sobre Alby Hub, otra solución innovadora y fácil de usar para lanzar tu propio nodo Lightning:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 Y para saber más sobre el funcionamiento técnico de la Red Rayo, puedes encontrar la excelente formación gratuita de Fanis Michalakis sobre Plan ₿ Red :
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

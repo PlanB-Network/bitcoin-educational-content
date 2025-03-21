@@ -1,9 +1,9 @@
 ---
-name: Honey Badger 2018
+name: Baltic Honeybadger 2018
 description: The most OG Bitcoin conference in the world
 ---
 
-# Main Stage 
+# Main Stage
 
 ## Day 1
 
@@ -17,7 +17,7 @@ Timestamps:
 - 1:41:42 - 1 on 1: Current state of the market & institutional investors Leo Weiss with Tone Vays & Bruce Fenton
 - 2:38:19 - The future of Bitcoin smart contracts by Max Keidun
 - 3:02:50 - The Bitcoin Standard as a layered scaling solution by Saifedean Ammous (via Skype)
-- 3:36:10 - Beyond Bitcoin: Decentralized collaboration by Yurii Rashkovskii 
+- 3:36:10 - Beyond Bitcoin: Decentralized collaboration by Yurii Rashkovskii
 - 4:06:30 - 1 on 1: The future of Bitcoin wallets with Pavol Rusnak & Lawrence Nahum, moderated by Giacomo Zucco
 - 5:48:10 - Extreme OPSEC for the Modern Cypherpunk by Jameson Lopp
 - 6:24:20 - 1 on 1: Bitcoin payment processing and merchants with Sergej Kotliar & Alena Vranova, moderated by Vortex
@@ -27,7 +27,7 @@ Timestamps:
 - 8:52:10 - Closing panel with Elizabeth Stark, Peter Todd, Jameson Lopp, Eric Voskuil, Alex Petrov, moderated by Roman Snitko
 
 
-## Day 2 
+## Day 2
 
 [live replay](https://www.youtube.com/live/D2WXxgZ8h-0?si=Ty84KjRzZT-vygNF)
 
@@ -38,7 +38,7 @@ Timestamps:
 - 46:18 - Trading panel with WhalePanda, Florian Maier, Tone Vays moderated by Matthew Mežinskis
 - 1:18:27 - Bitcoin as a novel market institution by Nic Carter
 - 1:48:54 - Global Ledgers: Scaling & Capacity for Legacy Securities Systems in the Age of Atomic Swaps by Bruce Fenton
-- 2:10:59 - Development panel with Eric Voskuil, Bryan Bishop, Eric Lombrozo, Matt Corallo, moderated by Pierre Roberge 
+- 2:10:59 - Development panel with Eric Voskuil, Bryan Bishop, Eric Lombrozo, Matt Corallo, moderated by Pierre Roberge
 - 3:09:32 - Running an organization fully on crypto, Parallel Polis case study by Juraj Bednár
 - 3:38:03 - B Foundation announcement by Alena Vranova & Giacomo Zucco
 - 4:18:12 - Bitcoin, regulation and policy panel with Alex Petrov, Eric Voskuil, Leonhard Weese, Gregory Klumov moderated by Giacomo Zucco

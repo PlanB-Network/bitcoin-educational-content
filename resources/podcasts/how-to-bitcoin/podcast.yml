@@ -8,8 +8,8 @@ links:
   website: https://bitcoin-first.com/
 description: |
   Bienvenue sur la version Podcast des vidéos du média HowToBitcoin.
-contributors:
-  - rabbit-hole
+contributor_names:
+  - Rogzy-DB
 tags:
   - guides
   - user-friendly

@@ -1,11 +1,10 @@
 id: 5e0216d6-a691-4714-8a11-a87a7862d800
 start_date: 2024-05-11
 end_date: 2024-05-11
-address_line_1: Brescia, Italia
+address_city_country: Brescia, Italia
 address_line_2:
 address_line_3:
 name: BitCare Forum 2024
-builder: Bitcare Forum
 type: conference
 book_online: false
 book_in_person: false

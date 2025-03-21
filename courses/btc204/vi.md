@@ -28,7 +28,6 @@ Hãy tham gia cùng chúng tôi để thay đổi cách sử dụng Bitcoin củ
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/V3eeFn4TuIY?feature=shared)
 
 Trong một thế giới mà tính bảo mật của các giao dịch tài chính đang dần trở thành một thứ xa xỉ, việc hiểu và nắm vững các nguyên tắc bảo vệ quyền riêng tư khi sử dụng Bitcoin là điều cần thiết. Khóa đào tạo này cung cấp cho bạn tất cả các chìa khóa, cả lý thuyết và thực hành, để đạt được điều này một cách tự chủ.
 
@@ -86,7 +85,6 @@ Chúng ta cũng sẽ xem xét quyền riêng tư ở cấp độ mạng lưới 
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/bE-dmcAe_wY?feature=shared)
 
 Bitcoin trước hết là một loại tiền tệ, nhưng bạn có thực sự biết BTC được biểu diễn như thế nào trên giao thức không?
 
@@ -137,7 +135,6 @@ Tổng số dư danh mục đầu tư của bạn sẽ là `17 BTC`.
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/oKhgnEClQzo?feature=shared)
 
 ### Đầu vào và đầu ra giao dịch
 
@@ -224,7 +221,6 @@ Thứ hai, như đã đề cập trong các phần trước, đồng Bitcoin v�
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/ca80pCpMID0?feature=shared)
 
 ### Tiền: tính xác thực, liêm chính và chi tiêu gấp đôi
 
@@ -298,7 +294,6 @@ Nhưng vì các giao dịch Bitcoin được công khai nên vẫn có thể thi
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/PtAUOGgHEAY?feature=shared)
 
 ### Định nghĩa và hoạt động
 
@@ -345,7 +340,9 @@ Vì vậy, chúng ta cũng cần có khả năng đối phó với phân tích b
 Còn cách nào tốt hơn để chống lại phân tích blockchain hơn là tìm hiểu về các phương pháp được sử dụng trong đó? Nếu bạn muốn biết cách cải thiện quyền riêng tư của mình trên Bitcoin, bạn cần hiểu các phương pháp này. Điều này sẽ giúp bạn nắm bắt tốt hơn các kỹ thuật như coinjoin hoặc payjoin (các kỹ thuật chúng ta sẽ xem xét trong các phần cuối của khóa học) và giảm thiểu các lỗi bạn có thể mắc phải.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
-https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+
+https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+
 Trong phần này, chúng ta có thể rút ra sự tương đồng với mật mã học và phân tích mật mã. Một nhà mật mã học giỏi trước hết và quan trọng nhất là một nhà phân tích mật mã giỏi. Để thiết kế một thuật toán mã hóa mới, bạn cần biết thuật toán đó sẽ phải đối mặt với những cuộc tấn công nào và cũng cần nghiên cứu lý do tại sao các thuật toán trước đó đã bị phá vỡ. Nguyên tắc tương tự cũng áp dụng cho quyền riêng tư của Bitcoin. Hiểu các phương pháp phân tích chuỗi khối là chìa khóa để bảo vệ chống lại chúng. Đó là lý do tại sao tôi đã đưa toàn bộ một phần về phân tích chuỗi vào khóa đào tạo này.
 
 ### Phương pháp phân tích chuỗi
@@ -379,7 +376,6 @@ Chúng ta sẽ xem chúng là gì trong các chương sau, nhưng điều thú v
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/FA4VLQHr8wU?feature=shared)
 
 Mẫu giao dịch chỉ đơn giản là mô hình hoặc cấu trúc tổng thể của một giao dịch điển hình, có thể tìm thấy trên blockchain và cách diễn giải có thể có của giao dịch đó đã được biết đến. Khi nghiên cứu các mẫu, chúng tôi tập trung vào một giao dịch duy nhất và phân tích nó ở cấp độ cao.
 
@@ -511,7 +507,6 @@ Nhờ các mẫu giao dịch này, chúng ta có thể diễn giải một lư�
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/mMBZ_diMC3g?feature=shared)
 
 Một phương pháp tìm kiếm nội bộ là một đặc điểm cụ thể mà chúng ta xác định trong chính giao dịch, mà không cần phải kiểm tra môi trường của nó, và cho phép chúng ta đưa ra các suy luận. Không giống như các mẫu tập trung vào cấu trúc tổng thể của giao dịch ở cấp độ cao, phương pháp tìm kiếm nội bộ dựa trên tập hợp dữ liệu có thể trích xuất. Điều này bao gồm:
 
@@ -622,7 +617,6 @@ Nguồn: [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/WZ2B5cXp14w?feature=shared)
 
 Nghiên cứu về phương pháp tìm kiếm bên ngoài có nghĩa là phân tích những điểm tương đồng, mô hình và đặc điểm của một số yếu tố không dành riêng cho giao dịch. Nói cách khác, trong khi trước đây chúng ta chỉ giới hạn bản thân trong việc khai thác các yếu tố vốn có của giao dịch bằng phương pháp tìm kiếm bên trong, thì giờ đây chúng ta đang mở rộng lĩnh vực phân tích của mình để bao gồm cả môi trường của giao dịch, nhờ vào phương pháp tìm kiếm bên ngoài.
 
@@ -1042,7 +1036,6 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/qq_rdiujQTI?feature=shared)
 
 Sau khi nghiên cứu các kỹ thuật có thể phá vỡ tính bảo mật của bạn trên Bitcoin, trong phần thứ ba này, chúng ta sẽ xem xét các biện pháp thực hành tốt nhất để áp dụng nhằm bảo vệ bản thân. Mục đích của phần này không phải là khám phá các phương pháp cải thiện tính bảo mật, một chủ đề sẽ được đề cập sau, mà là hiểu cách tương tác đúng với Bitcoin để duy trì tính bảo mật mà nó tự nhiên cung cấp, mà không cần dùng đến các kỹ thuật bổ sung.
 
@@ -1179,7 +1172,6 @@ Nếu bạn cần một mã định danh tĩnh để nhận thanh toán, chẳng
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/EhF0AlTv-uY?feature=shared)
 
 Như chúng ta đã khám phá trong phần phân tích chuỗi, có rất nhiều phương pháp tìm kiếm và mẫu có thể được sử dụng để suy ra thông tin về một giao dịch. Là người dùng, điều quan trọng là phải nhận thức được các kỹ thuật này để bảo vệ bản thân tốt hơn trước chúng.
 
@@ -1282,11 +1274,11 @@ Tất cả các phương pháp lựa chọn UTXO tự động này có thể có
 Nếu bạn muốn tìm hiểu cách gắn thẻ UTXO của mình, chúng tôi đã thực hiện một hướng dẫn toàn diện về phần mềm ví Bitcoin chính hiện có:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 ## KYC và nhận dạng khóa
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/oqS0GGsoVUE?feature=shared)
 
 KYC là viết tắt của "Know Your Customer". Đây là một thủ tục quản lý được một số công ty hoạt động trong lĩnh vực Bitcoin thực hiện. Mục đích của thủ tục này là xác minh và đăng ký danh tính của khách hàng, với mục đích nêu rõ là chống rửa tiền và tài trợ khủng bố.
 
@@ -1388,7 +1380,6 @@ Tóm lại, khi bitcoin được trao đổi lấy các tài sản khác, dù l�
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/tSLMwfvQVWQ?feature=shared)
 
 Sau khi đọc chương trước, bạn có thể tự hỏi làm thế nào bạn có thể mua hoặc bán bitcoin mà không cần phải trải qua quy trình xác minh danh tính, để tránh những rủi ro liên quan đến KYC. Có một số cách để giao dịch bitcoin.
 
@@ -1441,6 +1432,7 @@ Về giải pháp, cá nhân tôi luôn sử dụng [Bisq](https://bisq.network/
 -> Xem hướng dẫn về Bisq của chúng tôi.
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
 Để có lựa chọn đơn giản hơn, bạn có thể thử [Peach](https://peachbitcoin.com/), một ứng dụng di động kết nối người mua và người bán với hệ thống giải quyết xung đột tích hợp. Quy trình này trực quan hơn Bisq.
 
 -> Xem hướng dẫn về Peach của chúng tôi.
@@ -1452,6 +1444,7 @@ Một lựa chọn trực tuyến khác là [HodlHodl](https://hodlhodl.com/), m
 -> Xem hướng dẫn HodlHodl của chúng tôi.
 
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+
 Đối với các giải pháp dựa trên Lightning Network, hãy thử [RoboSats](https://learn.robosats.com/) và [LNP2PBot](https://lnp2pbot.com/). RoboSats có thể truy cập thông qua trang web và tương đối dễ sử dụng. LNP2PBot ít điển hình hơn vì nó hoạt động thông qua hệ thống trao đổi trên ứng dụng nhắn tin Telegram.
 
 -> Xem hướng dẫn về RoboSats của chúng tôi.
@@ -1459,7 +1452,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 -> Xem hướng dẫn LNP2PBot của chúng tôi.
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
 https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+
 ![BTC204](assets/fr/091.webp)
 
 ### Nền tảng được quản lý không có KYC
@@ -1469,6 +1464,7 @@ Tùy thuộc vào quốc gia bạn sinh sống, bạn có thể có quyền truy
 -> Xem hướng dẫn của chúng tôi về Relai.
 
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+
 Như chúng ta đã thấy trong chương trước, loại nền tảng này giúp bạn tránh khỏi những rủi ro liên quan đến các thủ tục KYC, nhưng chúng lại có mức độ rủi ro cao hơn đối với việc nhận dạng khóa. Về mặt bảo mật Bitcoin, các nền tảng này cung cấp khả năng bảo vệ tốt hơn so với các phương thức mua bằng KYC, nhưng chúng vẫn kém hấp dẫn hơn so với các sàn giao dịch P2P.
 
 Tuy nhiên, xét về mặt bảo mật cá nhân, sử dụng các nền tảng này ít rủi ro hơn nhiều so với các sàn giao dịch P2P. Chúng cũng thường dễ sử dụng hơn các nền tảng P2P.
@@ -1492,6 +1488,7 @@ Cách tốt nhất để chi tiêu BTC tất nhiên là sử dụng Bitcoin ho�
 Một số nền tảng không yêu cầu thủ tục KYC cung cấp khả năng đổi bitcoin lấy thẻ quà tặng có thể sử dụng tại các nhà bán lẻ lớn. Bao gồm [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) và [Bitrefill](https://www.bitrefill.com/). Các nền tảng này giúp bạn sử dụng bitcoin hàng ngày dễ dàng hơn nhiều, cho phép bạn tiếp cận nhiều loại sản phẩm và dịch vụ mà không cần phải chuyển đổi chúng thành tiền pháp định.
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/fr/093.webp)
 
 ### Các phương pháp thu thập khác
@@ -1506,7 +1503,6 @@ Một phương pháp khác là làm việc để đổi lấy bitcoin. Phương 
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/5mynikwUkLs?feature=shared)
 
 Một trong những khía cạnh phức tạp nhất của việc quản lý danh mục đầu tư tự lưu ký là hợp nhất. Bạn có nên hợp nhất không? Mục đích là gì? Nên tôn trọng quy mô UTXO nào? Những thỏa hiệp nào về mặt bảo mật? Đó là những gì chúng ta sẽ xem xét trong phần này.
 
@@ -1591,7 +1587,6 @@ Trong mọi trường hợp, đừng quên rằng bất kỳ sự hợp nhất n
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/mKuyVKi_JKM?feature=shared)
 
 Hãy cùng xem xét một số biện pháp tốt nhất khác để tối ưu hóa quyền riêng tư của bạn trên Bitcoin.
 
@@ -1648,7 +1643,6 @@ Ngoài tất cả các biện pháp thực hành tốt này cần được áp d
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/D9-2dTpmWNU?feature=shared)
 
 Sau khi nghiên cứu các nguyên tắc cơ bản về bảo vệ quyền riêng tư, giờ chúng ta sẽ xem xét các kỹ thuật tinh vi hơn nhằm chủ động bảo vệ tính bảo mật của bạn, đặc biệt là bằng cách tách lịch sử bitcoin của bạn. Trong phần tiếp theo, chúng ta sẽ xem xét một loạt các kỹ thuật nhỏ, nhưng trước tiên, tôi muốn giới thiệu cho bạn về coinjoin.
 
@@ -1747,7 +1741,6 @@ Do đó, người dùng ngày nay thích coinjoin hơn vì nó cho phép họ gi
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/JYBh0_u62Yc?feature=shared)
 
 Quyền riêng tư do coinjoin cung cấp được tính theo quy mô của nhóm mà phần của chúng ta được ẩn. Điều này có nghĩa là tìm càng nhiều người tham gia càng tốt. Hoàn toàn có thể tạo coinjoin theo cách thủ công, với những người dùng mà chúng tôi tự tìm thấy, nhưng đây là một quá trình phức tạp và sẽ không giúp bạn giành được bất kỳ anonset lớn nào.
 
@@ -1863,7 +1856,6 @@ Hiện tại, Whirlpool là triển khai coinjoin duy nhất áp dụng nghiêm 
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/cKNB1_840Ic?feature=shared)
 
 *Vào năm 2024, chúng ta đang chứng kiến những thay đổi lớn trong các công cụ dành cho người dùng muốn thực hiện coinjoin trên Bitcoin. Hiện tại chúng ta đang ở một bước ngoặt và thị trường coinjoin đang trải qua quá trình tái cấu trúc lớn. Chương này chắc chắn sẽ được cập nhật theo thời gian
 
@@ -1945,7 +1937,6 @@ Như bạn đã biết, sở thích của tôi chắc chắn là mô hình Whirl
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/JQ12fBHsLtY?feature=shared)
 
 Điều khiến Whirlpool khác biệt so với các phương pháp coinjoin khác là việc sử dụng các giao dịch "_ZeroLink_", đảm bảo rằng không có liên kết kỹ thuật nào có thể xảy ra giữa tất cả các đầu vào và đầu ra. Sự kết hợp hoàn hảo này đạt được thông qua một cấu trúc trong đó mỗi người tham gia đóng góp một lượng đầu vào giống hệt nhau (ngoại trừ phí khai thác), tạo ra các đầu ra có số lượng hoàn toàn bằng nhau.
 
@@ -2176,13 +2167,15 @@ Chúng tôi đang theo dõi chặt chẽ trường hợp này và các diễn bi
 Trong chương tiếp theo, chúng ta sẽ tìm hiểu "anonset" là gì, cách tính các chỉ số này và cách chúng có thể giúp chúng ta ước tính hiệu quả của các chu kỳ coinjoin.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ## Bộ ẩn danh
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/9nMLaYf6yx0?feature=shared)
 
 Sau khi nghiên cứu cách thức hoạt động của coinjoin và các vấn đề liên quan đến việc trộn hiệu quả, giờ chúng ta sẽ tìm hiểu cách đo lường hiệu quả của chúng. Làm thế nào chúng ta có thể xác định liệu một quá trình coinjoining có hiệu quả hay không và mức độ ẩn danh mà một bộ phận đạt được là bao nhiêu? Đó là những gì chúng ta sẽ tìm hiểu trong chương này với các tập ẩn danh hoặc "anonsets".
 
@@ -2253,11 +2246,11 @@ Có thể tính toán anonset thủ công bằng trình khám phá khối cho c�
 Như chúng ta đã thấy trong chương này, anonset chỉ có thể được tính toán nếu có một sự đồng nhất nhất định trong cấu trúc coinjoin. Trong chương tiếp theo, chúng ta sẽ tìm hiểu cách định lượng sự đồng nhất này trên một giao dịch Bitcoin, cho dù đó là coinjoin hay một giao dịch truyền thống hơn.
 
 https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 ## Sự hỗn loạn
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/yGr34eyMPtA?feature=shared)
 
 Như chúng ta đã thấy trong phần này về coinjoin, tính đồng nhất của UTXO trong đầu vào và đầu ra đóng vai trò quan trọng trong việc cải thiện tính bảo mật của giao dịch Bitcoin. Tham số này tạo ra khả năng phủ nhận hợp lý khi đối mặt với phân tích blockchain. Có một số phương pháp có thể được sử dụng để đo tính đồng nhất này, nhưng một trong những phương pháp hiệu quả nhất, theo tôi, là sử dụng các chỉ số do công cụ *Boltzmann* cung cấp, do nhóm OXT và Samourai Wallet phát triển, và đặc biệt là entropy của giao dịch. Đây là những gì chúng ta sẽ xem xét chi tiết trong chương này.
 
@@ -2510,6 +2503,7 @@ Thật không may, sau khi những người sáng lập Samourai bị bắt, cá
 Bây giờ chúng ta đã tìm hiểu chi tiết về coinjoin, chúng ta sẽ xem xét các kỹ thuật bảo mật khác có sẵn trên Bitcoin trong phần cuối của khóa học. Chúng ta sẽ xem xét payjoin, các loại giao dịch giả coinjoin cụ thể, giao thức địa chỉ tĩnh cũng như các biện pháp tăng cường tính bảo mật không phải ở cấp độ giao dịch mà ở cấp độ mạng lưới các nút.
 
 https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 # Hiểu được những thách thức của các kỹ thuật bảo mật tiên tiến khác
 
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2518,7 +2512,6 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/e4i66QXWCvs?feature=shared)
 
 Coinjoin hiện là phương pháp hiệu quả nhất để đưa sự không chắc chắn vào việc theo dõi các bộ phận trong phân tích chuỗi. Như chúng ta đã thấy trong các chương trước, để có được sự kết hợp hiệu suất cao, đầu vào và đầu ra phải đồng nhất nhất có thể. Ngoài ra, điều quan trọng là các bộ phận được tích hợp thành một nhóm lớn nhất có thể để tối đa hóa các anonset. Vì vậy, để coinjoin có hiệu quả, chúng phải bao gồm một số lượng lớn các bộ phận đồng nhất. Nhiều yêu cầu này có nghĩa là các giao dịch coinjoin có cấu trúc rất cứng nhắc: số tiền được cố định trước và tất cả những người tham gia phải tuân thủ chúng để đảm bảo tính đồng nhất của quy trình. Ngoài ra, coinjoin yêu cầu sự đồng bộ giữa tất cả những người tham gia và người điều phối trong quá trình xây dựng giao dịch.
 
@@ -2603,12 +2596,13 @@ Khó khăn khi sử dụng payjoin nằm ở sự phụ thuộc vào sự tham g
 Một giải pháp là sử dụng các cấu trúc giao dịch đưa sự mơ hồ vào phân tích chuỗi mà không yêu cầu sự hợp tác của người nhận. Điều này sẽ cho phép chúng tôi cải thiện tính bảo mật của các khoản thanh toán mà không cần dựa vào sự tham gia tích cực của các thương gia. Đây chính xác là những gì chúng ta sẽ xem xét trong chương tiếp theo.
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+
 ## Thanh toán mini-coinjoin
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/SUMLsQSytbE?feature=shared)
 
 Khi bạn muốn thực hiện giao dịch thanh toán trong khi vẫn duy trì một mức độ bảo mật nhất định, payjoin là một lựa chọn tốt. Nhưng như chúng ta vừa thấy, payjoin đòi hỏi sự tham gia của người nhận. Vậy bạn sẽ làm gì nếu người nhận từ chối tham gia payjoin hoặc nếu bạn chỉ đơn giản là không muốn họ tham gia? Một giải pháp thay thế là sử dụng giao dịch Stonewall hoặc Stonewall x2. Chúng ta hãy xem xét kỹ hơn hai loại giao dịch này.
 
@@ -2725,12 +2719,13 @@ Bạn cũng có thể thực hiện loại giao dịch này theo cách thủ cô
 Trong chương tiếp theo, chúng ta sẽ xem xét một kỹ thuật bảo mật khác ít được biết đến nhưng lại rất hữu ích để bổ sung cho những gì chúng ta đã nghiên cứu.
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+
 https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+
 ## Những quả bóng nảy lại
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/TfOsnqXtJ8g?feature=shared)
 
 Việc sử dụng các cấu trúc giao dịch Bitcoin làm tăng thêm sự mơ hồ cho phân tích chuỗi, chẳng hạn như coinjoin, đặc biệt có lợi cho việc bảo vệ quyền riêng tư. Tuy nhiên, như chúng ta đã thảo luận trong chương về payjoin, các giao dịch coinjoin có thể được nhận dạng tự nhiên trên chuỗi. Hãy nhớ phép loại suy mà chúng ta đã rút ra giữa mã hóa và coinjoin: khi một tệp được mã hóa, bên thứ ba phát hiện ra tệp được mã hóa không thể truy cập vào nội dung của tệp đó, nhưng có thể xác định rõ ràng rằng tệp đó đã được sửa đổi để ẩn nội dung của tệp. Điều tương tự cũng áp dụng cho coinjoin: khi một nhà phân tích kiểm tra một giao dịch coinjoin, mặc dù anh ta hoặc cô ta không thể thiết lập các liên kết trực tiếp giữa các đầu vào và đầu ra (và ngược lại), nhưng anh ta hoặc cô ta vẫn có thể nhận ra rằng giao dịch được quan sát là một coinjoin.
 
@@ -2799,11 +2794,11 @@ Ricocheting đơn giản có nghĩa là gửi bitcoin cho chính bạn. Hoàn to
 Trong chương tiếp theo, chúng ta sẽ xem xét các kỹ thuật khác nhau để chuyển giao quyền sở hữu bí mật. Các phương pháp này khác biệt hoàn toàn so với các phương pháp chúng ta đã xem xét cho đến nay, cả về mặt hoạt động và kết quả.
 
 https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+
 ## Chuyển nhượng quyền sở hữu bí mật
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/zfl5c5yeoTk?feature=shared)
 
 Một trong những kỹ thuật bảo mật khác của Bitcoin là chuyển giao quyền sở hữu bí mật. Phương pháp này nhằm mục đích chuyển giao quyền sở hữu Bitcoin từ người này sang người khác và ngược lại mà không cần giao dịch phải được hiển thị rõ ràng trên blockchain. Hãy cùng xem xét các kỹ thuật khác nhau có sẵn, cùng với ưu điểm và nhược điểm của chúng.
 
@@ -2926,7 +2921,6 @@ Cho đến nay, chúng ta chủ yếu nghiên cứu các phương pháp bảo m�
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/z3PMxy7xpuU?feature=shared)
 
 Trong Phần 4, chúng ta đã thảo luận về tầm quan trọng của việc sử dụng một nút hoàn chỉnh để bảo vệ tính bảo mật của các giao dịch của bạn. Tuy nhiên, điều quan trọng là phải hiểu rằng chính nút của bạn có thể bị tấn công nhằm mục đích trích xuất thông tin về các hoạt động của bạn. Do đó, trong chương này, chúng ta sẽ xem xét các biện pháp khác nhau mà bạn có thể thực hiện để bảo vệ quyền riêng tư của mình, không phải ở cấp độ của các giao dịch hoặc luồng bitcoin, mà ở cấp độ của mạng lưới.
 
@@ -3004,7 +2998,6 @@ Sau khi khám phá nhiều phương pháp bảo mật khác nhau ở cấp độ
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/QxbNReGAsvg?feature=shared)
 
 Như chúng ta đã thấy trong phần 3, việc tái sử dụng địa chỉ là một trở ngại nghiêm trọng đối với tính bảo mật của người dùng trên giao thức Bitcoin. Để giảm thiểu những rủi ro này, chúng tôi khuyến nghị mạnh mẽ nên tạo một địa chỉ nhận tiền trống cho mỗi khoản thanh toán mới nhận được trong ví. Mặc dù việc tạo địa chỉ mới hiện đã được đơn giản hóa bằng cách sử dụng phần mềm hiện đại và ví xác định phân cấp, nhưng cách làm này có vẻ trái ngược với trực giác.
 
@@ -3074,6 +3067,7 @@ Mặc dù những robot này không có chức năng kỹ thuật cụ thể nà
 *Trong các phần sau của chương này dành riêng cho BIP47, chúng ta sẽ xem xét chi tiết cách thức hoạt động của nó, đặc biệt nhấn mạnh vào các phương pháp mã hóa được sử dụng. Để nắm bắt đầy đủ các giải thích có phần kỹ thuật này, trước tiên điều cần thiết là phải hiểu cấu trúc của ví HD, các quy trình suy ra khóa và các nguyên tắc cơ bản của mật mã đường cong elliptic. Nếu bạn muốn tìm hiểu sâu hơn về các khái niệm này, một khóa đào tạo miễn phí khác có sẵn trên Plan ₿ Network :*
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 *Tôi vẫn khuyên bạn nên làm theo chúng, vì hiểu được hoạt động kỹ thuật của BIP47 sẽ giúp bạn dễ dàng hiểu được các đề xuất tương tự khác mà chúng ta sẽ thảo luận trong các chương sau*
 
 ---
@@ -3825,11 +3819,11 @@ Sau đó, Bob có thể hoàn trả cho Alice theo cùng cách mà cô ấy đã
 *Cảm ơn [Fanis Michalakis](https://x.com/FanisMichalakis) rất nhiều vì đã hiệu đính và đưa ra lời khuyên chuyên môn cho bài viết đã truyền cảm hứng cho việc viết chương này!
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+
 ## Thanh toán thầm lặng
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/lG6JamNlwXY?feature=shared)
 
 BIP47 đã bị chỉ trích rộng rãi vì tính kém hiệu quả trên chuỗi. Như đã giải thích trong chương trước, nó yêu cầu phải thực hiện một giao dịch thông báo cho mỗi người nhận mới. Ràng buộc này trở nên không đáng kể nếu chúng ta có kế hoạch thiết lập một kênh thanh toán bền vững với người nhận này. Thật vậy, một giao dịch thông báo duy nhất mở đường cho một số lượng gần như vô hạn các khoản thanh toán BIP47 tiếp theo.
 

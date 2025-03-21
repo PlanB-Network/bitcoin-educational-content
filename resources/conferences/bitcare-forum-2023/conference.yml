@@ -1,7 +1,6 @@
 id: 497300ef-6262-4cfb-9c7e-c7b37d2cf142
 year: 2023-05
 name: bitcare 2023
-builder: Bitcare Forum
 location: Brescia, Italy
 language:
   - it
@@ -14,7 +13,7 @@ proofreading:
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 0
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.05
 tags:

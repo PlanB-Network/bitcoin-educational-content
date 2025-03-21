@@ -8,6 +8,3 @@ description: |
   Unsere Funktionen umfassen eine Auswahl an WireGuard-, OpenVPN- oder IPSec-Protokollen, AntiTracker, der Anzeigen und Tracker blockiert, Killswitch/Firewall-Option, private nicht protokollierende DNS-Server, Multi-Hop-VPN-Routen, Port-Weiterleitung und Obfsproxy zur Umgehung von Zensur.
 
   Obwohl wir klären, dass VPNs keine Anonymität erreichen oder die Datensammlung durch Giganten wie Google oder Facebook verhindern können, versichern wir, dass ein vertrauenswürdiges VPN wie unseres Ihre Daten und DNS-Anfragen effektiv verschlüsseln, die Sicherheit in unzuverlässigen öffentlichen Netzwerken erhöhen, Ihre IP-Adresse maskieren und Zensur oder geografische Sperren umgehen kann. Wir sind ein zuverlässiger Teil Ihrer Datenschutzstrategie, vorausgesetzt, Sie vertrauen uns mehr als Ihrem ISP.
-contributors:
-  - rabbit-hole
-  - another-satoshi

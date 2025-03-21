@@ -783,7 +783,7 @@ Esimeses osas näeme, et:
 
 - `ln` näitab, et tegemist on Lightning tehinguga.
 - `bc` näitab, et Lightning võrk asub Bitcoin'i plokiahelas (mitte testvõrgus ega Litecoin'il).
-- `100u` näitab arve summat, väljendatuna **mikrosatoshi'des** (`u` tähendab "mikro"), mis siin võrdub 10,000 satsiga.
+- `100u` näitab arve summat, väljendatuna **mikrobitcoin'des** (`u` tähendab "mikro"), mis siin võrdub 10,000 satsiga.
 
 Maksesumma määramiseks väljendatakse seda bitcoini alaühikutes. Siin on kasutatud ühikud:
 

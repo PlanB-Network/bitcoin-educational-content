@@ -1,0 +1,26 @@
+id: ea04e1cd-609a-4ea8-9c61-f9de1fe3a1fb
+project_id: 0f08cb03-1f6c-4c46-bcac-6d801d82faef
+
+category: mobile
+
+level: beginner
+
+professor: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
+
+tags:
+  - wallets
+  - lightning
+  - open-source
+  - guides
+  - user-friendly
+
+
+# Proofreading metadata
+original_language: it
+proofreading:
+  - language: it
+    last_contribution_date: 2025-03-14
+    urgency: 1
+    contributor_names:
+      - f205sats
+    reward: 1

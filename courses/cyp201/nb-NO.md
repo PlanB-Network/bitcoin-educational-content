@@ -86,7 +86,7 @@ Disse kryptografiske hashfunksjonene har flere essensielle egenskaper som gjør 
 
 #### 1. Irreversibilitet (preimage-motstand):
 
-Irreversibilitet betyr at det er enkelt å beregne hashen fra inndatainformasjonen, men den inverse beregningen, det vil si å finne inndataen fra hashen, er praktisk talt umulig. Denne egenskapen gjør hashfunksjoner perfekte for å skape unike digitale fingeravtrykk uten å kompromittere den opprinnelige informasjonen. Denne karakteristikken omtales ofte som en enveisfunksjon eller en "_felle dør-funksjon_".
+Irreversibilitet betyr at det er enkelt å beregne hash fra inndata, men at den omvendte beregningen, altså å finne inndata fra hashen, er praktisk talt umulig. Denne egenskapen gjør hash-funksjoner perfekte for å lage unike digitale fingeravtrykk uten å kompromittere den opprinnelige informasjonen.
 
 I det gitte eksemplet er det enkelt og raskt å oppnå hashen `24f1b9…` ved å kjenne inndataen "_PlanB_". Imidlertid er det umulig å finne meldingen "_PlanB_" ved kun å kjenne `24f1b9…`.
 
@@ -1236,6 +1236,7 @@ En 12-ords frase, som også tilbyr 128 bits sikkerhet, er derfor for øyeblikket
 For å gå videre og lære konkret hvordan man manuelt genererer en test mnemonisk frase, anbefaler jeg deg å oppdage denne opplæringen:
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 Før vi fortsetter med derivasjonen av lommeboken fra denne mnemoniske frasen, vil jeg introdusere deg, i det følgende kapittelet, til BIP39-passfrasen, ettersom den spiller en rolle i derivasjonsprosessen, og den er på samme nivå som den mnemoniske frasen.
 ## Passfrasen
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

@@ -6,7 +6,7 @@ description: Setting up and using a Passport with the Envoy application
 
 Envoy is a Bitcoin wallet management application developed by Foundation. It is specially designed for use with the Passport hardware wallet.
 
-The Passport "*Batch 2*" we present in this tutorial with the Envoy application is the successor to the "*Founder's Edition*". It features a premium design, high-definition color screen and ergonomic physical keyboard. It operates in "*Air-Gap*" mode, ensuring that your wallet's private keys remain totally isolated, with exchanges possible via a MicroSD card or QR codes. The device includes a removable 1200 mAh battery.
+The Passport "*Batch 2*" presented in this tutorial with the Envoy app is the successor to the "*Founder's Edition*". It stands out with its premium design, high-definition color screen, and ergonomic physical keyboard. It operates in "*Air-Gap*" mode, ensuring that your wallet's private keys remain completely isolated, with communication possible via a MicroSD card or QR codes. The device is equipped with a removable, rechargeable Nokia BL-5C battery with a capacity of 1200 mAh. This non-proprietary battery can be easily replaced, as the BL-5C model is widely available in stores.
 
 As for connectivity, the Passport is equipped with a MicroSD port, a USB-C port for charging, and a rear camera for scanning QR codes.
 
@@ -23,6 +23,7 @@ In this tutorial, which is aimed at beginners and intermediate users, we're goin
 If you're an advanced user and want to explore more complex features, I recommend you check out this other tutorial where we configure Passport with Sparrow Wallet :
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 ## Unboxing the Passport
 
 When you receive your Passport, make sure the box and seal on the carton are intact to confirm that the package has not been opened. A software verification of the device's authenticity and integrity will also be carried out when it is set up.
@@ -169,7 +170,8 @@ To do this, use the MicroSD card included in your Passport box (or another one),
 
 Before installing it on your device, we strongly advise you to check the authenticity and integrity of the downloaded firmware. If you need help with this, consult this tutorial :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### With the Envoy application
 
 The other, simpler option is to use the Envoy application directly. Click on "*Download Firmware*".
@@ -253,6 +255,7 @@ Click on the confirmation button to see your mnemonic phrase.
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 of course, you must never share these words on the Internet, as I'm doing in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial.**_
 
 Make a physical backup of this sentence.

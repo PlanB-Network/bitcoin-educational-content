@@ -63,7 +63,8 @@ https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 
 要了解如何在安装前手动验证软件的真实性和完整性，我们建议您参考本教程：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 在机器上安装软件并启动。选择 "*创建一个新的 Liana 钱包*"选项配置您的钱包。
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -193,6 +194,7 @@ Liana 的主屏幕显示您的余额以及与您的投资组合相关的交易�
 要更好地理解比特币中使用的 UTXO 表示模型，可以参考 Loïc Morel 撰写的比特币保密性课程的第一部分：
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## 经常性开支
 
 当前支出是使用 Liana 的正常情况。使用主密钥发送比特币与所有经典比特币钱包（如 Electrum 或 Sparrow）一样有效。

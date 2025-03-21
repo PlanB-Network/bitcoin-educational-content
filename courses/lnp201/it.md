@@ -789,7 +789,7 @@ Nella prima parte, possiamo vedere che:
 
 - `ln` indica che si tratta di una transazione Lightning.
 - `bc` indica che la rete Lightning è sulla blockchain di Bitcoin (e non sulla testnet o su Litecoin).
-- `100u` indica l'importo della fattura, espresso in **microsatoshis** (`u` che significa "micro"), che qui equivale a 10.000 sats.
+- `100u` indica l'importo della fattura, espresso in **microbitcoins** (`u` che significa "micro"), che qui equivale a 10.000 sats.
 
 Per designare l'importo del pagamento, questo è espresso in sottounità di bitcoin. Ecco le unità utilizzate:
 

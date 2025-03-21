@@ -85,7 +85,7 @@ Tyto kryptografické hašovací funkce mají několik zásadních charakteristik
 
 #### 1. Nezvratnost (odolnost proti zpětnému zjištění):
 
-Nezvratnost znamená, že je snadné vypočítat hash z vstupních informací, ale opačný výpočet, tj. nalezení vstupu z hash, je prakticky nemožné. Tato vlastnost činí hašovací funkce dokonalými pro vytváření unikátních digitálních otisků bez ohrožení původních informací. Tato charakteristika je často označována jako jednosměrná funkce nebo "_pastová funkce_".
+Nezvratnost znamená, že je snadné vypočítat hash z vstupní informace, ale opačný výpočet, tedy nalezení vstupu z hashe, je prakticky nemožný. Tato vlastnost činí hashovací funkce ideálními pro vytváření jedinečných digitálních otisků, aniž by byla ohrožena původní informace.
 
 V daném příkladu, získání hash `24f1b9…` znalostí vstupu "_PlanB_" je jednoduché a rychlé. Nicméně, nalezení zprávy "_PlanB_" pouze znalostí `24f1b9…` je nemožné.
 

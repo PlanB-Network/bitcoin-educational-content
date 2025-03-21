@@ -9,8 +9,8 @@ language: fr
 description: |
   Yorick de Mombynes est Conseiller référendaire à la Cour des comptes et il écrit
   depuis des années en français sur le bitcoin.
-contributors:
-  - hunt-wood
+contributor_names:
+  - PaoloFoti
 tags:
   - adoption
   - evaluation

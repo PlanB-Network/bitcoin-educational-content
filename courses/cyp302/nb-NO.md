@@ -1,7 +1,7 @@
 ---
 name: Introduksjon til formell kryptografi
 goal: En dypdykk i vitenskapen om og praktiseringen av kryptografi.
-objectives: 
+objectives:
 
   - Utforsk Beale-chiffer og moderne kryptografiske metoder for å forstå grunnleggende og historiske begreper innen kryptografi.
   - Fordyp deg i tallteori, grupper og felt for å mestre sentrale matematiske begreper som ligger til grunn for kryptografi.
@@ -291,7 +291,7 @@ I uttrykket "tilfeldig variabel" betyr begrepet "tilfeldig" bare "probabilistisk
 
 En **uniform variabel** er et spesialtilfelle av en tilfeldig variabel. Den kan anta to eller flere verdier, alle med samme sannsynlighet. Den tilfeldige variabelen $X$ i *Figur 1* er helt klart en uniform variabel, ettersom begge de mulige utfallene inntreffer med sannsynligheten $0,5$. Det finnes imidlertid mange tilfeldige variabler som ikke er forekomster av uniforme variabler.
 
-Tenk for eksempel på den tilfeldige variabelen $Y$. Den har et utfallssett $\{1, 2, 3, 8, 10\}$ og følgende sannsynlighetsfordeling:
+Tenk for eksempel på den tilfeldige variabelen $Y$. Den har et utfallssett $\{1, 2, 3, 8, 10}$ og følgende sannsynlighetsfordeling:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -2295,7 +2295,7 @@ Likevel kan RSA-problemet brukes til å lage et sikkert krypteringssystem med of
 
 <chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
 <isCourseReview>true</isCourseReview>
- 
+
 ## Avsluttende Eksamen
 
 

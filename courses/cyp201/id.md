@@ -86,7 +86,7 @@ Fungsi hash kriptografi ini memiliki beberapa karakteristik esensial yang membua
 
 #### 1. Irreversibilitas (resistensi terhadap pencarian gambar asli):
 
-Irreversibilitas berarti mudah untuk menghitung hash dari informasi input, tetapi perhitungan terbalik, yaitu, menemukan input dari hash, praktis tidak mungkin. Sifat ini membuat fungsi hash sempurna untuk menciptakan sidik jari digital unik tanpa mengompromikan informasi asli. Karakteristik ini sering disebut sebagai fungsi satu arah atau "_fungsi pintu perangkap_".
+Ketidakterbalikan berarti bahwa mudah untuk menghitung hash dari informasi masukan, tetapi perhitungan sebaliknya, yaitu menemukan masukan dari hash, secara praktis tidak mungkin. Properti ini menjadikan fungsi hash sempurna untuk menciptakan sidik jari digital unik tanpa membahayakan informasi asli.
 
 Dalam contoh yang diberikan, mendapatkan hash `24f1b9…` dengan mengetahui input "_PlanB_" adalah hal yang sederhana dan cepat. Namun, menemukan pesan "_PlanB_" hanya dengan mengetahui `24f1b9…` adalah hal yang mustahil.
 
@@ -1242,6 +1242,7 @@ Frasa 12 kata, yang juga menawarkan keamanan 128 bit, saat ini sudah cukup untuk
 Untuk lebih lanjut dan belajar secara konkret bagaimana menghasilkan frasa mnemonik tes secara manual, saya menyarankan Anda untuk menemukan tutorial ini:
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 Sebelum melanjutkan dengan derivasi dompet dari frasa mnemonik ini, saya akan memperkenalkan Anda, dalam bab berikutnya, ke frasa sandi BIP39, karena ini berperan dalam proses derivasi, dan berada pada level yang sama dengan frasa mnemonik.
 ## Frasa Sandi
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

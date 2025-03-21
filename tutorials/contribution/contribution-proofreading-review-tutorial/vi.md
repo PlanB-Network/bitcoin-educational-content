@@ -145,7 +145,7 @@ NB. Bạn nên xem lại trong cửa sổ mã, với nội dung gốc được h
 - Nếu bạn tìm thấy các trích dẫn, hãy đảm bảo thực hiện một số nghiên cứu trực tuyến để tìm ra bản dịch chính xác trong ngôn ngữ của bạn.
 - KHÔNG dịch các từ tĩnh ở đầu văn bản, được sử dụng để mô tả nội dung của nó: "name", "description", "objectives".
 - Nếu bạn tìm thấy "Plan ₿ Network" trong văn bản, hãy để nguyên dạng gốc này. Đừng dịch từ "plan" hoặc từ "network". Hơn nữa, ĐỪNG sử dụng mạo từ khi giới thiệu Plan ₿ Network, và coi đó như một thương hiệu. Điều tương tự cũng áp dụng cho "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", cũng nên được giữ nguyên dạng gốc.
-- Hãy chú ý đến dấu câu kỳ lạ như '\*\*\', có thể đại diện cho việc hiển thị sai ký hiệu in đậm **. Luôn kiểm tra văn bản gốc bằng tiếng Anh để xem liệu có cần văn bản in đậm hay không. Nói chung, để hiển thị văn bản in đậm, vui lòng chèn hai dấu hoa thị ** cả trước và sau từ/câu. Bạn có thể tìm thêm thông tin về ngôn ngữ markdown [tại đây](https://www.markdownguide.org/basic-syntax/).
+- Chú ý đến dấu câu kỳ lạ như `\*\*\`, có thể đại diện cho việc hiển thị kém của ký hiệu in đậm **. Luôn kiểm tra văn bản gốc bằng tiếng Anh để xem liệu có nên có văn bản in đậm ở đó hay không. Bạn có thể tìm thêm thông tin về ngôn ngữ markdown [tại đây](https://www.markdownguide.org/basic-syntax/).
 - Khi bạn hoàn thành việc hiệu đính, bạn có thể quay lại vấn đề ban đầu được mở bởi người điều phối, bình luận với "Proofreading done" và chèn liên kết PR của bạn vào đó.
 
 ## 7. Chờ đánh giá

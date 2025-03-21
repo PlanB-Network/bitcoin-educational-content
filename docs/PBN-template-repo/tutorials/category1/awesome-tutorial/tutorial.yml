@@ -1,7 +1,12 @@
-#Charactheristic of tutorial
+# UUID of the tutorial
+# generate a random uuid v4
+id: bf76be99-bf95-4606-8103-e7a072839ee9
 
-# Builder
-# Write the builder name
+# Characteristic of tutorial
+
+# Project
+# Write the project name
+project_id: uuid_of_the_project_author_of_tutorial
 
 # Level
 # Level can be one of following:
@@ -14,18 +19,22 @@ level: beginner
 # Category can be choosen from a specific list you can find [here](../../../../tutorial-categories.md)
 category: peer-to-peer
 
+# Professor
+# Insert the UUID of the person that authored this tutorial
+professor_id: uuid_of_the_professor_author_of_tutorial
+
 # Tags
 # List the associated tags to the tutorial
-# The list of tags is composed of 21 items that can be found here (list not yet available)
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
 tags:
-  - peer-to-peer
-  - open-source
-  - bitcoin-only
+  - cypherpunk
+  - proof-of-work
+  - privacy
 
 # Proofreading metadata
 # Only the original author needs to add this data related to initial proofreading
 # Any further data will be automatically added after each proofreading
-# 
+#
 # This information are provided by PBN team, no need to specify if you are a contributor.
 # for PBN staff: an entry is created for each language specifying:
 # - language: language to review
@@ -39,5 +48,5 @@ proofreading:
     last_contribution_date: YYYY-MM-DD
     urgency: # leave as empty
     contributor_names:
-    - author_github_id #insert your github ID
+      - author_github_username #insert your github username
     reward: # leave as empty

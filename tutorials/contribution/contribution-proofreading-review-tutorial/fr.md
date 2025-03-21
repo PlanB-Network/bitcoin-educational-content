@@ -130,7 +130,7 @@ NB. Il est recommandé d’effectuer la révision dans la fenêtre de code, avec
 - Si vous trouvez des citations, assurez-vous de faire des recherches en ligne pour trouver la bonne traduction dans votre langue.
 - NE TRADUISEZ PAS les mots statiques au début du texte, qui sont utilisés pour décrire son contenu : "name", "description", "objectives".
 - Si vous trouvez "Plan ₿ Network" dans le texte, laissez-le sous cette forme originale. Ne traduisez pas le mot "plan" ni le mot "network". De plus, NE PAS utiliser l'article lorsque vous présentez le Plan ₿ Network, et considérez-le comme une marque. Il en va de même pour "B-CERT", "BIZ SCHOOL", "TECH SCHOOL", qui doivent également être conservés dans leur forme originale.
-- Faites attention à la ponctuation étrange comme '\*\*\', qui pourrait représenter un mauvais rendu du symbole en gras **. Vérifiez toujours le texte original en anglais pour voir si un texte en gras est censé être présent. En général, pour rendre le texte en gras, veuillez insérer deux astérisques ** avant et après le mot/la phrase. Vous pouvez trouver plus d'informations sur le langage markdown [ici](https://www.markdownguide.org/basic-syntax/).
+- Faites attention à une ponctuation étrange comme `\*\*\`, qui pourrait représenter un mauvais rendu du symbole gras **. Vérifiez toujours le texte original en anglais pour voir si un texte en gras est censé être là. Vous pouvez trouver plus d'informations sur le langage markdown [ici](https://www.markdownguide.org/basic-syntax/).
 - Lorsque vous avez terminé votre relecture, vous pouvez revenir au problème initial ouvert par le coordinateur et y insérer votre lien PR.
 
 ## 7. Attendre la révision

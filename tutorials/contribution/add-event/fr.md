@@ -8,7 +8,7 @@ La mission de PlanB est de mettre à disposition des ressources éducatives de p
 
 Vous souhaitez ajouter une conférence Bitcoin sur le site de PlanB Network et donner de la visibilité à votre évènement, mais vous ne savez pas comment faire ? Ce tutoriel est fait pour vous !
 
-En revanche, si vous souhaitez ajouter les replays d'un conférence qui s'est déjà déroulée, je vous conseille de lire cet autre tutoriel dans lequel on vous explique comment ajouter une nouvelle ressource sur le site.
+En revanche, si vous souhaitez ajouter les replays d'une conférence qui s'est déjà déroulée, je vous conseille de lire cet autre tutoriel dans lequel on vous explique comment ajouter une nouvelle ressource sur le site.
 
 https://planb.network/tutorials/contribution/resource/add-conference-replay-3282deba-16ab-4dd9-8357-680902bfb527
 

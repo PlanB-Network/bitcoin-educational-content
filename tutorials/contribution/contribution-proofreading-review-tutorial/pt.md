@@ -144,7 +144,7 @@ NB. Recomenda-se a revisão na janela de código, com o conteúdo original apres
 - Se você encontrar citações, certifique-se de fazer alguma pesquisa online para encontrar a tradução correta em seu idioma.
 - NÃO traduza as palavras estáticas no início do texto, que são usadas para descrever seu conteúdo: "name", "description", "objectives".
 - Se você encontrar "Plan ₿ Network" no texto, deixe-o nesta forma original. Não traduza a palavra "plan" ou a palavra "network". Além disso, NÃO use o artigo ao apresentar o Plan ₿ Network, e considere-o como uma marca. O mesmo se aplica a "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", que também devem ser mantidos na forma original.
-- Preste atenção à pontuação estranha, como '\*\*\', que pode representar uma má renderização do símbolo em negrito **. Sempre verifique o texto original em inglês para ver se deve haver um texto em negrito. Em geral, para renderizar o texto em negrito, insira dois asteriscos ** tanto antes quanto depois da palavra/frase. Você pode encontrar mais informações sobre a linguagem markdown [aqui](https://www.markdownguide.org/basic-syntax/).
+- Preste atenção à pontuação estranha como `\*\*\`, que pode representar uma má renderização do símbolo em negrito **. Sempre verifique o texto original em inglês para ver se um texto em negrito deve estar lá. Você pode encontrar mais informações sobre a linguagem markdown aqui.
 - Quando terminar sua revisão, você pode voltar ao issue inicial aberto pelo coordenador, comentar com "Proofreading done" e inserir seu link PR lá.
 
 ## 7. Aguardar a revisão

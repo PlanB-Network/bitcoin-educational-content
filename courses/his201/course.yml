@@ -4,9 +4,8 @@ subtopic: history
 level: intermediate
 hours: 15
 
-professors:
-  - satoshi-brother
-
+professors_id:
+  - 81e18c30-579e-46c1-a197-98cd32cb37ae
 published_at: 2024-09-03
 
 original_language: fr

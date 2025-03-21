@@ -24,9 +24,8 @@ hours: 15
 # List who is/are the professor(s)
 # They are identified by their UUID
 # See /professors folder for examples
-professors:
-  - radio-talent
-
+professors_id:
+  - e7e63d59-ea19-4960-9446-61bd4dcc98f0
 published_at: 2024-06-20
 
 # contributors

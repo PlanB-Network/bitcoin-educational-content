@@ -23,7 +23,7 @@ Plan ₿ Networkに全く新しい言語を追加したい場合は、必ずPlan
 
 Weblateに新しい言語を追加する前に、このチュートリアルに従ってください。
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 翻訳を始める準備ができたら、このチュートリアルに戻って、以下の点を確認してください。
 
 ## ウェブレイトに登録する

@@ -1,8 +1,7 @@
 id: a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-credits:
-  professor: rebuild-kiss
-  link: https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
+professor_id: 614eb46b-3cca-46ef-b9ae-e726849e6d1d
+credit_link: https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
 
 category: bitcoin
 

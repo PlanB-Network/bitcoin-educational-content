@@ -3,9 +3,7 @@ level: advanced
 
 category: lightning-network
 
-
-credits:
-  link: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
+credit_link: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
 
 # Proofreading metadata
 project_id: 40e94647-f642-4982-97fe-8fc2e98990bd

@@ -4,9 +4,8 @@ level: intermediate
 
 category: hardware
 
-credits:
-  professor: rebuild-kiss
-  link: https://armantheparman.com/bitbox02/
+professor_id: 614eb46b-3cca-46ef-b9ae-e726849e6d1d
+credit_link: https://armantheparman.com/bitbox02/
 
 # Proofreading metadata
 project_id: ebcca57b-2be5-498f-b161-424f6f908f47

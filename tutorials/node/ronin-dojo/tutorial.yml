@@ -4,9 +4,8 @@ category: bitcoin
 
 level: advanced
 
-credits:
-  professor: pretty-private
-  link: https://www.pandul.fr/post/installer-et-utiliser-son-n%C5%93ud-bitcoin-ronindojo
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+credit_link: https://www.pandul.fr/post/installer-et-utiliser-son-n%C5%93ud-bitcoin-ronindojo
 
 # Proofreading metadata
 project_id: f8ab03d0-0308-4ac1-a223-9c8e7600ff63

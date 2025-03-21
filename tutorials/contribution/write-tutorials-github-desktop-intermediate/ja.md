@@ -46,7 +46,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 
 これらの前提条件の取得に助けが必要な場合は、私の他のチュートリアルがお手伝いします：
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 すべての準備が整い、ローカル環境にプラン₿ネットワークのフォークが適切にセットアップされたら、チュートリアルの追加を開始できます。
 
 
@@ -424,4 +424,5 @@ GitHub デスクトップソフトウェアでは、フォークのメインブ�
 - PRがすでにメインブランチにマージされている場合は、新しいブランチを作成し、新しいPRを投稿してプロセスをやり直す必要があります。作業を進める前に、ローカルリポジトリが Plan ȏ Network ソースリポジトリと同期していることを確認してください。
 
 チュートリアルを投稿する際に技術的な問題が発生した場合は、遠慮なく[投稿専用のTelegramグループ](https://t.me/PlanBNetwork_ContentBuilder)に助けを求めてください。ありがとうございました！
+
 

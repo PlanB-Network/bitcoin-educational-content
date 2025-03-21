@@ -144,7 +144,7 @@ HUOM. On suositeltavaa tarkistaa koodi-ikkunassa, jolloin alkuperäinen sisält�
 - Jos löydät lainauksia, varmista, että teet tutkimusta verkossa löytääksesi oikean käännöksen omassa kielessäsi.
 - ÄLÄ käännä tekstin alussa olevia staattisia sanoja, joita käytetään sen sisällön kuvaamiseen: "name", "description", "objectives".
 - Jos löydät tekstistä "Plan ₿ Network", jätä se tähän alkuperäiseen muotoon. Älä käännä sanaa "plan" tai sanaa "network". Lisäksi ÄLÄ käytä artikkelia, kun esittelet Plan ₿ Networkia, ja pidä sitä brändinä. Sama pätee "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", jotka tulisi myös säilyttää alkuperäisessä muodossa.
-- Kiinnitä huomiota outoon välimerkkikäyttöön, kuten '\*\*\', joka saattaa edustaa huonoa rasvasymbolin ** renderointia. Tarkista aina alkuperäinen englanninkielinen teksti nähdäksesi, onko rasvaista tekstiä tarkoitus olla. Yleisesti ottaen rasvaisen tekstin renderoimiseksi lisää kaksi tähteä ** sekä sanan/lauseen eteen että taakse. Lisätietoja markdown-kielestä löydät [täältä](https://www.markdownguide.org/basic-syntax/).
+- Kiinnitä huomiota outoon välimerkkikäyttöön, kuten `\*\*\`, joka saattaa edustaa huonoa rasvasymbolin ** renderointia. Tarkista aina alkuperäinen englanninkielinen teksti nähdäksesi, onko rasvatekstiä tarkoitus olla. Lisätietoja markdown-kielestä löydät [täältä](https://www.markdownguide.org/basic-syntax/).
 - Kun olet saanut oikoluvun päätökseen, voit palata koordinaattorin avaamaan alkuperäiseen issueen, kommentoida "Proofreading done" ja liittää sinne PR-linkkisi.
 
 ## 7. Odota arviointia

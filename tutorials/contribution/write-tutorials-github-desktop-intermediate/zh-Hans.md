@@ -46,7 +46,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 
 如果您在获得这些先决条件方面需要帮助，我的其他教程将为您提供帮助：
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 一旦一切就绪，本地环境中的 Plan ₿ Network 分支也设置妥当，就可以开始添加教程了。
 
 
@@ -424,4 +424,5 @@ assets "文件夹中的语言子文件夹用于存储教程中的图表和视觉
 - 如果您的 PR 已与主分支合并，则需要重新创建一个新分支，然后提交一份新 PR。在继续之前，请确保本地版本库与 Plan ₿ Network 源版本库同步。
 
 如果您在提交教程时遇到技术问题，请随时在[我们的专用投稿 Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder)上寻求帮助。谢谢！
+
 

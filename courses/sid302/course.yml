@@ -4,9 +4,8 @@ subtopic: sidechain
 level: advanced
 hours: 8
 
-professors:
-  - abstract-alpha
-
+professors_id:
+  - 7668500c-ed9e-44f2-bdbf-b05a66415742
 published_at: 2025-01-15
 # Proofreading metadata
 original_language: en

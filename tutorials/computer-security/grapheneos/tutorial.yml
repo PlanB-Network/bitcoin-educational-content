@@ -4,9 +4,8 @@ category: operating system
 
 level: advanced
 
-credits:
-  professor: cover-brother
-  link: https://bitcoiner.guide/grapheneos/
+professor_id: 5f130a99-fac9-4ab0-85e1-573c6d38dbb9
+credit_link: https://bitcoiner.guide/grapheneos/
 
 # Proofreading metadata
 project_id: ce82f356-4662-4dad-ba0c-a0ec4f56cf2a

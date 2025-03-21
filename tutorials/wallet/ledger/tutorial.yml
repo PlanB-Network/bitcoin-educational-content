@@ -4,9 +4,8 @@ level: advanced
 
 category: hardware
 
-credits:
-  professor: rebuild-kiss
-  link: https://armantheparman.com/ledgersparrow/
+professor_id: 614eb46b-3cca-46ef-b9ae-e726849e6d1d
+credit_link: https://armantheparman.com/ledgersparrow/
 
 # Proofreading metadata
 project_id: 21e68928-68a3-468f-9c18-2b25a045c540

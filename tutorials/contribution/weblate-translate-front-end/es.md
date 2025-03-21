@@ -23,7 +23,7 @@ Los miembros de nuestro equipo le darán instrucciones específicas y abrirán l
 
 Antes de seguir este tutorial específico para añadir un nuevo idioma al Weblate.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Cuando estés listo para empezar a traducir, vuelve a este tutorial y repasa los siguientes puntos.
 
 ## Registrarse en Weblate

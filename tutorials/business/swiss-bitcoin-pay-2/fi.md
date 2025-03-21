@@ -4,8 +4,6 @@ description: Kuinka hyväksyä Bitcoin-maksut helposti?
 ---
 ![cover](assets/cover.webp)
 
-![video](https://youtu.be/_yAyJReq3Dg)
-
 Nykyään on olemassa lukuisia ratkaisuja kauppiaille, jotka haluavat hyväksyä Bitcoinin maksutapana. Pienille toimijoille, jotka etsivät epämuodollista asetelmaa, riittää hot walletin tai jopa Lightning walletin asentaminen maksujen suoraan vastaanottamiseen. Suuremmat yritykset, jotka tarvitsevat pitää kirjanpitoa, tulisi sen sijaan valita erikoistunut maksujenkäsittelyjärjestelmä. Tällä alueella on myös useita vaihtoehtoja saatavilla.
 
 Niille, jotka mieluummin eivät vaivaudu ja haluavat vastaanottaa varat fiat-valuuttana suoraan pankkitililleen, ovat saatavilla holhousratkaisut kuten Open Node:

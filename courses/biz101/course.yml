@@ -4,9 +4,8 @@ subtopic: bitcoin
 level: beginner
 hours: 5
 
-professors:
-  - network-pill
-
+professors_id:
+  - 5a52397f-0148-4e4c-b489-e67578be1b7e
 contributor_names:
   - LoicPandul
 

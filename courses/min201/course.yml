@@ -4,11 +4,10 @@ subtopic: mining
 level: intermediate
 hours: 6
 
-professors:
-  - case-memory
-  - diamond-jar
-  - rabbit-hole
-
+professors_id:
+  - 03cb7507-ad65-4848-88f8-bfa72e2b67f8
+  - e320ccda-be59-492b-a81b-243d9acb592f
+  - 2e1b5182-567e-453a-af29-36009340ff02
 published_at: 2023-05-17
 # Proofreading metadata
 original_language: fr

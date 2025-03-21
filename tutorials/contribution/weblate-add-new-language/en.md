@@ -22,7 +22,7 @@ To check if your language is already among those we are working on.
 ![language](assets/02.webp)
 If your language is in this list, you do not need to add it again. To contribute by proofreading the weblate, discover the following tutorial:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
@@ -45,9 +45,10 @@ If your language is not there, follow the tutorial below to add it.
 - To start translating the static elements of the website, click on the `Translate` button: ![language](assets/08.webp)
 To be guided through the translation process, check our dedicated tutorial here below:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 Congratulations, you have started the process of translating the static elements on the Plan ₿ Network's website!
 They include all the strings on the website, except the educational content (courses, tutorials...) for which we use another semi-automated method (AI translation + contributors proofreading).
 
 A big thank-you for your valuable contribution!
+

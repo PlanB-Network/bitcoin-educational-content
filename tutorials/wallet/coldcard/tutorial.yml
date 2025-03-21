@@ -4,9 +4,8 @@ level: advanced
 
 category: hardware
 
-credits:
-  professor: write-school
-  link: https://agora256.com/creation-dune-cle-privee-bitcoin-avec-un-appareil-coldcard/
+professor_id: 8260ed86-de30-468b-88bc-6ed4140a24e2
+credit_link: https://agora256.com/creation-dune-cle-privee-bitcoin-avec-un-appareil-coldcard/
 
 # Proofreading metadata
 project_id: 317a3aa2-d9e0-49e2-8bb7-620ea76e4ea1

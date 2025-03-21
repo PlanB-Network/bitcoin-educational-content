@@ -4,11 +4,10 @@ subtopic: client side validation
 level: expert
 hours: 14
 
-professors:
-  - color-machine
-  - lion-bomb
-  - sand-valley
-
+professors_id:
+  - 688d9afb-810c-4858-a07f-3cfad9481d99
+  - 50d34ea6-d35f-42ee-a0b8-e5552bb3b0ca
+  - 06971714-fbbd-4cbd-ac37-2afd1d1947f2
 contributor_names:
   - Rogzy-DB
   - Asi0Flammeus

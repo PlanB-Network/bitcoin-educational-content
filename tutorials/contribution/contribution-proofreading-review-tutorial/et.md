@@ -144,7 +144,7 @@ NB. Soovitatav on vaadata läbi koodiaknas, kusjuures originaalsisu kuvatakse er
 - Kui leiate tsitaate, veenduge, et uuriksite veebis, et leida õige tõlge oma keeles.
 - ÄRGE tõlkige teksti alguses olevaid staatilisi sõnu, mida kasutatakse sisu kirjeldamiseks: "name", "description", "objectives".
 - Kui leiate tekstist "Plan ₿ Network", jätke see sellises originaalses vormis. Ärge tõlkige sõna "plan" ega sõna "network". Lisaks, ÄRGE kasutage artiklit, kui tutvustate Plan ₿ Network'i, ja käsitlege seda kaubamärgina. Sama kehtib "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL" kohta, mis peaksid samuti jääma originaalsesse vormi.
-- Pöörake tähelepanu kummalisele kirjavahemärgile nagu '\*\*\', mis võib tähendada vale kujutamist rasvase sümboli **. Kontrollige alati originaalset ingliskeelset teksti, et näha, kas rasvane tekst peaks seal olema. Üldiselt, et rasvast teksti kuvada, palun sisestage kaks tärni ** nii sõna/lause ette kui ka taha. Lisainfot markdown keele kohta leiate [siit](https://www.markdownguide.org/basic-syntax/)..
+- Pöörake tähelepanu kummalisele kirjavahemärgile nagu `\*\*\`, mis võib tähendada halba rasvase sümboli ** renderdamist. Kontrollige alati originaali ingliskeelset teksti, et näha, kas seal peaks olema rasvane tekst. Lisainfot markdown-keele kohta leiate [siit](https://www.markdownguide.org/basic-syntax/).
 - Kui olete oma korrektuuri lõpetanud, saate naasta koordinaatori avatud algse probleemi juurde, kommenteerida "Proofreading done" ja sisestada sinna oma PR-link.
 
 ## 7. Oodake ülevaatamist

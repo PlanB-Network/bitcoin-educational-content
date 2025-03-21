@@ -4,9 +4,8 @@ subtopic: cryptography
 level: advanced
 hours: 16
 
-professors:
-  - myth-initial
-
+professors_id:
+  - 73994a8a-c74c-4692-b22b-b5cc2a6fff40
 contributor_names:
   - Rogzy-DB
   - Asi0Flammeus

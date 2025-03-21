@@ -4,9 +4,8 @@ subtopic: sidechain
 level: intermediate
 hours: 10
 
-professors:
-  - guitar-ostrich
-
+professors_id:
+  - c3eebea1-2a89-45d1-bf01-8defd8e9d53d
 published_at: 2025-01-15
 # Proofreading metadata
 original_language: en

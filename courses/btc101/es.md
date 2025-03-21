@@ -557,7 +557,7 @@ A continuación definiremos varios niveles de seguridad:
 
 Por ejemplo, puede utilizar Sparrow Wallet como cartera caliente:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Nivel 2\*\*, utilizas un monedero físico y has asegurado tu lista de 12/24 palabras. A menudo se denomina "monedero frío" porque tus claves se almacenan en un dispositivo que no está conectado a Internet. En este caso, siempre tendrás que firmar cada transacción con tu dispositivo, lo que hace que tus fondos sean menos accesibles a diario.
 

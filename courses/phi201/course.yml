@@ -4,9 +4,8 @@ subtopic: philosophy
 level: intermediate
 hours: 11
 
-professors:
-  - rebel-space
-
+professors_id:
+  - 1a2d2e86-4f52-4b7c-b2c6-17f165a3d5d7
 contributor_names:
   - Rogzy-DB
   - Asi0Flammeus

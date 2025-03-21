@@ -4,9 +4,8 @@ category: operating system
 
 level: advanced
 
-credits:
-  professor: dance-attack
-  link: https://agora256.com/installer-tails-usb/
+professor_id: ba061ee9-ef85-40a9-aa0b-a46cff642ca7
+credit_link: https://agora256.com/installer-tails-usb/
 
 # Proofreading metadata
 project_id: 9e7a387c-0583-4c05-83ff-8b5c5a48bdf8

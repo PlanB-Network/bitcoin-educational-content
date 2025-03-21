@@ -144,7 +144,7 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 - 如果您发现引用，请确保在线进行一些研究，以找到您语言中的正确翻译。
 - 请勿 翻译文本开头的静态词汇，这些词用于描述其内容："name", "description", "objectives".
 - 如果您在文本中发现“Plan ₿ Network”，请保持其原始形式。不要翻译“plan”或“network”这两个词。此外，在介绍 Plan ₿ Network 时，请勿使用冠词，并将其视为品牌。对于“₿-CERT”、“BIZ SCHOOL”、“TECH SCHOOL”也是如此，这些词也应保持原始形式。
-- 请注意像 '\*\*\' 这样的奇怪标点，它可能表示粗体符号 ** 的错误渲染。始终检查原始英文文本，以查看是否应该有粗体文本。一般来说，要渲染粗体，请在单词/句子的前后插入两个星号 **。您可以在 [这里](https://www.markdownguide.org/basic-syntax/) 找到有关 markdown 语言的更多信息。
+- 注意奇怪的标点符号，如 `\*\*\`，这可能表示粗体符号 **  的错误渲染。始终检查原始英文文本，以查看是否应该有粗体文本。您可以在 这里 找到有关 markdown 语言的更多信息。
 - 当您完成校对后，可以返回协调员打开的初始 issue，评论“Proofreading done”，并在其中插入您的 PR 链接。
 
 ## 7. 等待审核

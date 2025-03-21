@@ -4,9 +4,8 @@ subtopic: economy
 level: intermediate
 hours: 5
 
-professors:
-  - hazard-bonus
-
+professors_id:
+  - 3a838eea-570a-494e-b641-23d5b39f2927
 contributor_names:
   - Rogzy-DB
   - Asi0Flammeus

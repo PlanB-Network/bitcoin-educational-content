@@ -4,9 +4,8 @@ level: advanced
 
 category: operating system
 
-credits:
-  professor: rebuild-kiss
-  link: https://armantheparman.com/mint/
+professor_id: 614eb46b-3cca-46ef-b9ae-e726849e6d1d
+credit_link: https://armantheparman.com/mint/
 
 # Proofreading metadata
 project_id: d0112afe-ce46-4ef2-9cca-f352ea9c46cf

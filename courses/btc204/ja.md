@@ -28,7 +28,6 @@ objectives:
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/V3eeFn4TuIY?feature=shared)
 
 金融取引の機密性が徐々に贅沢品になりつつある世界では、ビットコインを使用する際のプライバシー保護の原則を理解し、習得することが不可欠です。このトレーニングコースでは、これを自律的に達成するためのすべての鍵を、理論と実践の両面から学びます。
 
@@ -86,7 +85,6 @@ objectives:
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/bE-dmcAe_wY?feature=shared)
 
 ビットコインは何よりもまず通貨ですが、実際にBTCがプロトコル上でどのように表現されているかご存知ですか？
 
@@ -137,7 +135,6 @@ UTXOはビットコインの交換手段である。各取引では、インプ�
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/oKhgnEClQzo?feature=shared)
 
 ### トランザクションの入出力
 
@@ -224,7 +221,6 @@ coinbaseのトランザクションは、出力を生成するために入力を
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/ca80pCpMID0?feature=shared)
 
 ### お金：信頼性、誠実さ、二重支出
 
@@ -298,7 +294,6 @@ coinbaseのトランザクションは、出力を生成するために入力を
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/PtAUOGgHEAY?feature=shared)
 
 ### 定義と運用
 
@@ -381,7 +376,6 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/FA4VLQHr8wU?feature=shared)
 
 トランザクションパターンとは、ブロックチェーン上で見つけることができ、その解釈の可能性が知られている典型的なトランザクションの全体的なモデルや構造のことである。パターンを研究する際には、単一のトランザクションに焦点を当て、それを高いレベルで分析する。
 
@@ -513,7 +507,6 @@ Source : [Mempool.space](https://mempool.space/fr/tx/00601af905bede31086d9b1b79e
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/mMBZ_diMC3g?feature=shared)
 
 内部ヒューリスティックとは、トランザクションの環境を調査することなく、トランザクション自体の中から特定し、推論を可能にする特定の特性のことである。高いレベルでトランザクションの全体的な構造に焦点を当てるパターンとは異なり、内部ヒューリスティックは抽出可能なデータの集合に基づいている。これには以下が含まれる：
 
@@ -624,7 +617,6 @@ Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/WZ2B5cXp14w?feature=shared)
 
 外部ヒューリスティックの研究とは、取引そのものに特有ではない特定の要素の類似性、パターン、特徴を分析することである。言い換えれば、以前は内部ヒューリスティックによって取引に内在する要素を利用することに限定していたが、現在は外部ヒューリスティックによって取引の環境まで分析領域を広げているのである。
 
@@ -1044,7 +1036,6 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/qq_rdiujQTI?feature=shared)
 
 ビットコインの機密性を破るテクニックを研究してきたので、この第3部では、自分自身を守るために採用すべきベストプラクティスを見ていこう。このパートの目的は、後で扱う機密性を向上させる方法を探ることではなく、むしろ、追加のテクニックに頼ることなく、ビットコインが自然に提供する機密性を保持するために、ビットコインと正しくやり取りする方法を理解することです。
 
@@ -1181,7 +1172,6 @@ BIP32のおかげで、最新のポートフォリオは決定論的かつ階層
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/EhF0AlTv-uY?feature=shared)
 
 文字列解析のセクションで発見したように、トランザクションに関する情報を推測するた めに使用できるヒューリスティックな手法やパターンは数多く存在する。ユーザーとして、これらのテクニックからよりよく身を守るために、これらのテクニックを知っておくことは重要である。
 
@@ -1289,7 +1279,6 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/oqS0GGsoVUE?feature=shared)
 
 KYCは「Know Your Customer」の略です。ビットコイン分野で事業を展開する特定の企業によって実施されている規制手続きである。この手続きの目的は、顧客の身元を確認し登録することであり、マネーロンダリングとテロ資金調達に対抗することが明記されている。
 
@@ -1391,7 +1380,6 @@ KYCとは特に、特定の企業が顧客の身元を確認し登録するた�
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/tSLMwfvQVWQ?feature=shared)
 
 前章を読んで、KYCに関連するリスクを回避するために、本人確認手続きを受けることなくビットコインを売買するにはどうすればよいのか疑問に思うかもしれない。ビットコインを取引する方法はいくつかあります。
 
@@ -1515,7 +1503,6 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/5mynikwUkLs?feature=shared)
 
 セルフ・カストディ・ポートフォリオを運営する上で、最も複雑な側面の一つが統合である。統合すべきか？ポイントは何か？尊重すべきUTXOの規模は？守秘義務という点での妥協点は何か？それがこのセクションで見ていくことだ。
 
@@ -1600,7 +1587,6 @@ UTXOの管理に関して言えば、コスト削減のために統合を推進�
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/mKuyVKi_JKM?feature=shared)
 
 ビットコインでプライバシーを最適化するためのベストプラクティスをいくつか見てみよう。
 
@@ -1657,7 +1643,6 @@ UTXOの管理に関して言えば、コスト削減のために統合を推進�
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/D9-2dTpmWNU?feature=shared)
 
 プライバシー保護の基本を学んだので、これからは、特にビットコインの履歴をアンバンドリングすることで、積極的に秘密保持を守ることを目的とした、より洗練されたテクニックを見ていこう。次のパートでは、小さなテクニックの数々を見ていきますが、まずはcoinjoinについてお話したいと思います。
 
@@ -1756,7 +1741,6 @@ coinjoinの原理は協調的なアプローチに基づいている：自分の
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/JYBh0_u62Yc?feature=shared)
 
 コインジョイントが提供するプライバシーは、私たちの作品が隠されているグループの大きさによって得られる。つまり、できるだけ多くの参加者を見つけるということだ。自分で見つけたユーザーを使って手動でコインジョイントを作成することは完全に可能ですが、これは複雑なプロセスであり、大きなアノネットを獲得することはできません。
 
@@ -1872,7 +1856,6 @@ Zerolinkの重要な予防措置は、未混合のUTXOと混合のUTXOを、別�
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/cKNB1_840Ic?feature=shared)
 
 *2024年、ビットコインでコインジョイントを行いたいユーザーが利用できるツールに大きな変化が起きている。現在、私たちは転換期を迎えており、コインジョイント市場は大規模な再編が行われています。この章は時間の経過とともに更新される予定です。
 
@@ -1954,7 +1937,6 @@ Wasabiバージョン2.0では、新しいコインジョイント手数料ポ�
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/JQ12fBHsLtY?feature=shared)
 
 Whirlpoolが他のコインジョイント方式と異なる点は、「_ZeroLink_」トランザクションを使用していることで、すべてのインプットとアウトプットの間に技術的なリンクが厳密に存在しないことを保証しています。この完璧な組み合わせは、各参加者が（マイニング手数料を除いて）同量のインプットを提供し、完全に同量のアウトプットを生成する構造によって達成されます。
 
@@ -2194,7 +2176,6 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c7
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/9nMLaYf6yx0?feature=shared)
 
 コインジョイントの仕組みと、効果的なミキシングに関わる問題を勉強したところで、今度はその効果を測定する方法を調べよう。コインジョインが効果的であったかどうか、またあるパートがどの程度の匿名性を獲得したかを判断するにはどうすればよいのだろうか。この章では、アノニマスセット（anonset）を使って、それを明らかにしていく。
 
@@ -2270,7 +2251,6 @@ https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/yGr34eyMPtA?feature=shared)
 
 コインジョインに関するこのセクションで見てきたように、入力と出力におけるUTXOの同質性は、ビットコイン取引の機密性を向上させる上で重要な役割を果たす。このパラメータは、ブロックチェーン分析を前にして、もっともらしい否認可能性を生み出す。この均質性を測定するためにいくつかの方法を使用することができますが、私の意見では、最も効果的なものの1つは、OXTとSamourai Walletチームによって開発された*Boltzmann*ツールによって提供される指標、特にトランザクションのエントロピーを使用することです。この章ではこれを詳しく見ていく。
 
@@ -2532,7 +2512,6 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/e4i66QXWCvs?feature=shared)
 
 Coinjoinは現在、連鎖分析における部品のトレースに不確実性を導入する最も効果的な方法です。これまでの章で見てきたように、高性能なミックスを得るためには、インプットとアウトプットは可能な限り均質でなければなりません。さらに、アノンセットを最大化するためには、パーツができるだけ大きなグループに統合されることが重要です。つまり、コインジョインが効果的であるためには、多数の均一なパーツが関与していなければならない。このように多くの要件があるため、コインジョイントの取引は非常に厳格な構造になっている。つまり、金額はあらかじめ固定されており、プロセスの均一性を保証するために、すべての参加者はその金額を守らなければならない。さらに、コインジョインはトランザクションの構築中にすべての参加者とコーディネータとの間の同期を必要とする。
 
@@ -2624,7 +2603,6 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/SUMLsQSytbE?feature=shared)
 
 ある程度の機密性を保ちながら決済取引を行いたい場合、payjoinは良い選択肢である。しかし、今見てきたように、payjoin には受取人の関与が必要である。では、受取人がpayjoinへの参加を拒否した場合、あるいは単に参加させたくない場合はどうすればいいのでしょうか？一つの選択肢は、StonewallまたはStonewall x2のトランザクションを使用することです。この2種類の取引を詳しく見てみましょう。
 
@@ -2748,7 +2726,6 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/TfOsnqXtJ8g?feature=shared)
 
 コインジョインのようなチェーン分析に曖昧さを加えるビットコインのトランザクション構造の使用は、プライバシ ー保護にとって特に有益である。しかし、payjoins の章で述べたように、coin-join の取引は当然ながらチェーン上で識別可能である。暗号化とコインジョインの間のアナロジーを思い出してください。ファイルが暗号化されている場合、暗号化されたファ イルを発見した第三者はその中身にアクセスすることはできませんが、中身を隠すためにファイルが変更され ていることは明確に識別できます。同じことがコインジョインにも当てはまります。アナリストがコインジョイン取引を調査するとき、インプットとアウトプットの間の直接的なリンクを確立することはできませんが（その逆も同様です）、それでもアナリストは観察された取引がコインジョインであることを認識することができます。
 
@@ -2822,7 +2799,6 @@ https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a94
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/zfl5c5yeoTk?feature=shared)
 
 ビットコインの秘密保持技術のもう1つは、所有権の秘密移転である。この方法は、ブロックチェーン上に取引が明示的に表示されることなく、ビットコインの所有権をある人から別の人に、またはその逆に移転することを目的としています。利用可能なさまざまな技術を、その長所と短所とともに見てみよう。
 
@@ -2945,7 +2921,6 @@ coinjoinでは、たとえあなたのコインが監視対象のビットコイ
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/z3PMxy7xpuU?feature=shared)
 
 パート4では、取引の機密性を保護するために完全なノードを使用することの重要性について説明した。しかし、あなたのノード自体が、あなたの活動に関する情報を引き出そうとする攻撃にさらされる可能性があることを理解することが重要です。そこで本章では、取引そのものやビットコインフローのレベルではなく、ネットワークのレベルでプライバシーを保護するために講じることができる様々な対策について見ていきます。
 
@@ -3023,7 +2998,6 @@ Torはデータを暗号化するだけでなく、通信の発信元と宛先�
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/QxbNReGAsvg?feature=shared)
 
 第 3 回で見たように、アドレスの再利用はビットコインプロトコルにおけるユーザーの機密性にとって重大な障害となる。このようなリスクを軽減するために、ウォレットで新しい支払いを受け取るたびに空白の受け取りアドレスを生成することが強く推奨される。新しいアドレスの生成は、最新のソフトウェアと階層的な決定論的ウォレットの使用によって簡素化されましたが、この実践は直感に反すると思われるかもしれません。
 
@@ -3850,7 +3824,6 @@ https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/lG6JamNlwXY?feature=shared)
 
 BIP47はそのオンチェーンの非効率性から広く批判されてきた。前章で説明したように、BIP47では新しい受取人ごとに通知トランザクションを実行する必要がある。この制約が無視できなくなるのは、この受信者と持続可能な支払いチャネルを確立しようと計画している場合である。実際、1回の通知トランザクションは、ほぼ無限に続くBIP47の支払いに道を開く。
 

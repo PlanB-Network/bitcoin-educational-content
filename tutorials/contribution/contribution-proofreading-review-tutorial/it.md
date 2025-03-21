@@ -142,7 +142,7 @@ NB. Si consiglia di effettuare la revisione nella finestra del codice, con il co
 - Se trovi citazioni, assicurati di fare delle ricerche online per trovare la traduzione corretta nella tua lingua.
 - NON tradurre le parole statiche all'inizio del testo, che vengono utilizzate per descrivere il suo contenuto: "name", "description", "objectives".
 - Se trovi "Plan ₿ Network" nel testo, lascialo in questa forma originale. Non tradurre la parola "plan" o la parola "network". Inoltre, NON utilizzare l'articolo "IL" quando presenti Plan ₿ Network, e consideralo come un marchio. Lo stesso vale per "B-CERT", "BIZ SCHOOL", "TECH SCHOOL", che dovrebbero essere mantenuti anche nella forma originale.
-- Fai attenzione alla punteggiatura strana come '\*\*\', che potrebbe rappresentare una cattiva resa del simbolo in grassetto **. Controlla sempre il testo originale in inglese per vedere se è previsto in grassetto o meno. In generale, per rendere il testo in grassetto, inserisci due asterischi ** sia prima che dopo la parola/frase. Puoi trovare ulteriori informazioni sul linguaggio markdown [qui](https://www.markdownguide.org/basic-syntax/).
+- Fai attenzione a punteggiatura strana come `\*\*\`, che potrebbe rappresentare una cattiva resa del simbolo in grassetto **. Controlla sempre il testo originale in inglese per vedere se è previsto un testo in grassetto. Puoi trovare ulteriori informazioni sul linguaggio markdown [qui](https://www.markdownguide.org/basic-syntax/).
 - Quando hai finito la tua revisione, puoi tornare alla issue iniziale aperta dal coordinatore, commentare con "Proofreading done" e inserire il link della tua PR.
 
 7. Attendere la revisione degli admin

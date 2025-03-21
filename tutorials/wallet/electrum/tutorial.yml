@@ -4,9 +4,8 @@ level: advanced
 
 category: desktop
 
-credits:
-  Professor: rebuild-kiss
-  link: https://armantheparman.com/electrum/
+professor_id: 614eb46b-3cca-46ef-b9ae-e726849e6d1d
+credit_link: https://armantheparman.com/electrum/
 
 # Proofreading metadata
 project_id: 45198444-27c2-4fc1-a761-eb321093642f

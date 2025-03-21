@@ -28,7 +28,7 @@ Per verificare se la vostra lingua è già tra quelle su cui stiamo lavorando.
 
 Se la vostra lingua è presente in questo elenco, non è necessario aggiungerla di nuovo. Per contribuire alla correzione del weblate, potete dunque cliccare sul seguente tutorial:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Se la vostra lingua non è presente, seguite invece il tutorial sottostante per aggiungerla.
 
 ## Aggiungere una nuova lingua su Plan ₿ Network
@@ -64,7 +64,7 @@ Se la vostra lingua non è presente, seguite invece il tutorial sottostante per 
 
 Per essere guidati nel processo di traduzione, consultate il nostro tutorial dedicato qui sotto:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Congratulazioni, avete iniziato il processo di traduzione degli elementi statici del sito web di Plan ₿ Network!
 
 Comprendono tutte le stringhe del sito web, ad eccezione dei contenuti didattici (corsi, tutorial...) per i quali utilizziamo un altro metodo semi-automatico (traduzione AI + revisione dei collaboratori).

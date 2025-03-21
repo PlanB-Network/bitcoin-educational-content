@@ -4,9 +4,8 @@ level: intermediate
 
 category: hardware
 
-credits:
-  professor: rebuild-kiss
-  link: https://armantheparman.com/jade/
+professor_id: 614eb46b-3cca-46ef-b9ae-e726849e6d1d
+credit_link: https://armantheparman.com/jade/
 
 # Proofreading metadata
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8

@@ -4,12 +4,11 @@ subtopic: lightning network
 level: expert
 hours: 16
 
-professors:
-  - radio-talent
-  - best-lion
-  - gift-hammer
-  - grain-habit
-
+professors_id:
+  - e7e63d59-ea19-4960-9446-61bd4dcc98f0
+  - 880c7fa7-8d4c-4c9b-81b4-bc61ed256516
+  - eae56800-59a7-473b-8b52-2c6dfc99bd33
+  - 4e2b0785-bd1f-4b1d-ad17-dc699eaf5756
 published_at: 2024-02-15
 
 contributor_names:

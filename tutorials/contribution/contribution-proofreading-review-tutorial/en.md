@@ -39,7 +39,6 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 ## 1. Create an account
 
 - Create an account on [GitHub](https://github.com/) to start contributing. If you want guidance on creating your GitHub account, go to the tutorial mentioned just above.
-
 - You will also need an account on the messaging app [Telegram](https://telegram.org/).
 
 ## 2. Join the Telegram group
@@ -126,11 +125,11 @@ NB. It’s recommended to review in the code window, with the original content d
 
 - Before starting a new proofreading, announce it in the [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) or tell your Plan ₿ Network coordinator. They will open an [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), where you can comment that you are starting the work. 
 - It's important to always check the original English (or French) version of the course/tutorial when proofreading. Feel free to make adjustements to enhance fluidity, but do not change the overall original meaning.
-- LLM tools may literally translate some words related to Bitcoin, like Lightning Network, that would become "Rete Fulmine" in Italian. In cases like this, it is advisable to use the original English word for better clarity, unless your language rules impose you to translate every single word.
+- LLM tools may literally translate some words related to Bitcoin, like Lightning Network, that would become "Rete Fulmine" in Italian. In cases like this, it is advisable to use the original English word for better clarity, unless your language rules impose you to translate every singel word.
 - If you find quotes, make sure to do some research online to find the right translation in your language.
-- DO NOT translate the static words at the beginning of the text, which are used to describe its content: "name", "description", "objectives".
+- \**DO NOT\** translate the static words at the beginning of the text, which are used to describe its content: "name", "description", "objectives".
 - If you find "Plan ₿ Network" in the text, leave it in this original form. Do not translate the word "plan" or the word "network". Besides, do NOT use the article "The" when introducing Plan ₿ Network, and consider it as a brand. The same goes for "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", which should also be kept in the original form.
-- Pay attention to weird punctuation like `\*\*\` which might represent a bad rendering of the bold symbol **. Always check the original English text to see if a bold text is supposed to be there. In general, to render the bold, please insert two asterisks ** both before and after the word/sentence. You can find more information on the markdown language [here](https://www.markdownguide.org/basic-syntax/).
+- Pay attention to weird punctuation like `\*\*\` which might represent a bad rendering of the bold symbol \**. Always check the original English text to see if a bold text is supposed to be there. You can find more information on the markdown language [here](https://www.markdownguide.org/basic-syntax/)
 - When you finish your proofreading, you can go back to the original issue opened by the coordinator, comment with "Proofreading done", and insert your PR link there.
 
 ## 7. Wait for review

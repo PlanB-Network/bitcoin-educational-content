@@ -144,7 +144,7 @@ NB. Disarankan untuk meninjau di jendela kode, dengan konten asli ditampilkan di
 - Jika Anda menemukan kutipan, pastikan untuk melakukan penelitian online untuk menemukan terjemahan yang tepat dalam bahasa Anda.
 - JANGAN menerjemahkan kata-kata statis di awal teks, yang digunakan untuk menggambarkan isinya: "name", "description", "objectives".
 - Jika Anda menemukan "Plan ₿ Network" dalam teks, biarkan dalam bentuk aslinya. Jangan terjemahkan kata "plan" atau kata "network". Selain itu, JANGAN gunakan artikel saat memperkenalkan Plan ₿ Network, dan anggap itu sebagai merek. Hal yang sama berlaku untuk "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", yang juga harus tetap dalam bentuk aslinya.
-- Perhatikan tanda baca aneh seperti '\*\*\', yang mungkin mewakili rendering yang buruk dari simbol tebal **. Selalu periksa teks asli dalam bahasa Inggris untuk melihat apakah ada teks tebal yang seharusnya ada. Secara umum, untuk merender teks tebal, silakan masukkan dua asterisk ** baik sebelum maupun setelah kata/kalimat. Anda dapat menemukan informasi lebih lanjut tentang bahasa markdown [di sini](https://www.markdownguide.org/basic-syntax/).
+- Perhatikan tanda baca yang aneh seperti `\*\*\`, yang mungkin mewakili rendering yang buruk dari simbol tebal **. Selalu periksa teks asli dalam bahasa Inggris untuk melihat apakah teks tebal seharusnya ada di sana. Anda dapat menemukan informasi lebih lanjut tentang bahasa markdown [di sini](https://www.markdownguide.org/basic-syntax/).
 - Setelah Anda menyelesaikan proofreading, Anda dapat kembali ke issue awal yang dibuka oleh koordinator, mengomentari "Proofreading done" dan menyisipkan tautan PR Anda di sana.
 
 ## 7. Tunggu ulasan

@@ -557,7 +557,7 @@ Im Folgenden werden wir verschiedene Sicherheitsstufen definieren:
 
 Sie können zum Beispiel Sparrow Wallet als Hot Wallet verwenden:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Stufe 2\*\*: Sie verwenden eine physische Geldbörse und haben Ihre Liste mit 12/24 Wörtern gesichert. Sie wird oft als "Cold Wallet" bezeichnet, weil Ihre Schlüssel auf einem Gerät gespeichert sind, das nicht mit dem Internet verbunden ist. In diesem Fall müssen Sie jede Transaktion immer mit Ihrem Gerät unterschreiben, was den täglichen Zugriff auf Ihr Geld erschwert.
 

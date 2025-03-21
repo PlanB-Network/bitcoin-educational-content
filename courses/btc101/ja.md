@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 例えば、Sparrow Wallet をホットウォレットとして使うことができる：
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - レベル 2\*\*では、物理的なウォレットを使用し、12/24 ワードのリストを確保します。あなたの鍵はインターネットに接続されていないデバイスに保存されるため、しばしば「コールドウォレット」と呼ばれます。この場合、取引のたびにデバイスで署名する必要があるため、日常的に資金にアクセスしにくくなります。
 

@@ -3,13 +3,14 @@
 
 # Sections and subcategories for tutorials
 SECTIONS = {
+    "wallet": ["desktop", "hardware", "mobile", "backup"],
+    "node": ["bitcoin", "lightning-network", "others"],
+    "mining": ["hardware", "pool"],
     "exchange": ["centralized", "peer-to-peer"],
-    "merchant": ["merchant"],
-    "mining": ["hardware", "software"],
-    "node": ["bitcoin", "lightning-network", "rgb"],
-    "others": ["contribution", "general"],
-    "privacy": ["analysis", "bitcoin", "general"],
-    "wallet": ["desktop", "hardware", "mobile", "backup"]
+    "business": ["point-of-sale", "others"],
+    "privacy": ["on-chain", "analysis"],
+    "computer-security": ["authentication", "communication", "data", "operating system"],
+    "contribution": ["content", "resource", "others"]
 }
 
 # Difficulty levels

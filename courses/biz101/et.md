@@ -634,9 +634,9 @@ See on kaugelt kõige levinum meetod, mida tehakse kas vastastikuste börside ka
 
 Et õppida, kuidas avada ärikonto ja kasutada seda bitcoinide ostmiseks, müümiseks ja ülekandmiseks, saate vaadata neid kahte spetsiaalselt ettevõtetele mõeldud õpetust, mis hõlmavad Krakeni ja Bitfinexi platvormide äriversioone:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 Lisateavet bitcoinide omandamise meetodite kohta vahetuse või peer-to-peer kaudu saate [tutvuda meie õpetuste jaotisega "vahetus"](https://planb.network/tutorials/exchange).
 

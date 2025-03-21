@@ -1,8 +1,7 @@
 id: 568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-credits:
-  professor: write-school
-  link: https://agora256.com/configuration-tor-bitcoin-core/
+professor_id: 8260ed86-de30-468b-88bc-6ed4140a24e2
+credit_link: https://agora256.com/configuration-tor-bitcoin-core/
 
 category: bitcoin
 

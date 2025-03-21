@@ -5,16 +5,15 @@ level: beginner
 hours: 102
 test_only: true
 
-professors:
-  - old-uncle
-  - rabbit-hole
-  - radio-talent
-  - melody-spark
-  - crystal-blade
-  - soldier-attitude
-  - quick-shade
-  - iron-dream
-
+professors_id:
+  - dac3b166-31ef-41f3-bfef-6e9d3855c12c
+  - 2e1b5182-567e-453a-af29-36009340ff02
+  - e7e63d59-ea19-4960-9446-61bd4dcc98f0
+  - 7f947a09-128b-43bb-8964-87d082955f9d
+  - 72192d93-c570-4e0e-a3a4-5db6afde73ea
+  - 3e7b3804-cd43-4a65-a280-b1030c023358
+  - 9599c4e8-91af-405d-9798-bb46357fc548
+  - d097844f-d3a8-4b8b-9fe9-7de4f70ad6b7
 contributor_names:
   - Asi0Flammeus
 

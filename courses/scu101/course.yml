@@ -4,10 +4,10 @@ subtopic: security
 level: beginner
 hours: 6
 
-professors:
-  - rabbit-hole
-  - zero-shock
-  - gate-fence
+professors_id:
+  - 2e1b5182-567e-453a-af29-36009340ff02
+  - b04a2719-7745-4bd4-aec7-e23431f4db40
+  - b05f416c-fe76-429a-a46c-d5a8b0154a7b
 published_at: 2023-05-17
 # Proofreading metadata
 original_language: fr

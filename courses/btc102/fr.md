@@ -1642,11 +1642,17 @@ Devenir un utilisateur actif de Bitcoin, c'est faire le choix d'intégrer cette 
 
 L’utilisation quotidienne de Bitcoin offre plusieurs avantages significatifs, tant sur le plan individuel que collectif :
 
-- **Soutenir directement l'écosystème Bitcoin** en participant à son adoption progressive. Chaque transaction effectuée renforce l’usage de Bitcoin en tant que monnaie et incite davantage de commerçants et de services à l’accepter. Il est également important de comprendre que l'utilisation du bitcoin comme moyen d'échange équivaut à un acte de vote. En effet, l'utilité d'une monnaie découle directement de sa capacité à faciliter le commerce plutôt que le troc. Si elle n'est acceptée par aucun commerçant, elle n'a objectivement aucune valeur. Plus le nombre de biens et services disponibles à l'achat avec une monnaie est élevé, plus cette monnaie est utile à une personne donnée. En utilisant le bitcoin comme moyen de paiement, vous choisissez de dépenser votre argent chez un commerçant qui l'accepte. Vous orientez ainsi la valeur économique vers ce commerçant au lieu d'un autre. Par conséquent, le commerçant qui accepte le bitcoin peut voir ses bénéfices augmenter grâce à votre transaction, tandis que son concurrent pourrait voir les siens diminuer. À l'échelle d'un groupe de personnes, cet acte conduit à une acceptation de plus en plus large du BTC par les commerçants et peut mener à la disparition naturelle de ceux qui refusent de l'accepter. Cela crée un cercle vertueux qui peut s'initier tant du côté des commerçants que des consommateurs.
+- **Soutenir directement l'écosystème Bitcoin en participant à son adoption progressive** :
 
-- **Profiter des propriétés uniques de Bitcoin**, comme la rapidité des transactions grâce au Lightning Network, l'absence de censure, de surveillance financière et de seigneuriage. La proposition de valeur de Bitcoin provient en effet de sa capacité à retirer aux gouvernements le contrôle de l'offre monétaire et la censure des transactions. Si ces caractéristiques se traduisent par des avantages dans votre situation personnelle, alors vous pourriez envisager d'adopter le profil d'un utilisateur actif.
+Chaque transaction effectuée renforce l’usage de Bitcoin en tant que monnaie et incite davantage de commerçants et de services à l’accepter. Il est également important de comprendre que l'utilisation du bitcoin comme moyen d'échange équivaut à un acte de vote. En effet, l'utilité d'une monnaie découle directement de sa capacité à faciliter le commerce plutôt que le troc. Si elle n'est acceptée par aucun commerçant, elle n'a objectivement aucune valeur. Plus le nombre de biens et services disponibles à l'achat avec une monnaie est élevé, plus cette monnaie est utile à une personne donnée. En utilisant le bitcoin comme moyen de paiement, vous choisissez de dépenser votre argent chez un commerçant qui l'accepte. Vous orientez ainsi la valeur économique vers ce commerçant au lieu d'un autre. Par conséquent, le commerçant qui accepte le bitcoin peut voir ses bénéfices augmenter grâce à votre transaction, tandis que son concurrent pourrait voir les siens diminuer. À l'échelle d'un groupe de personnes, cet acte conduit à une acceptation de plus en plus large du BTC par les commerçants et peut mener à la disparition naturelle de ceux qui refusent de l'accepter. Cela crée un cercle vertueux qui peut s'initier tant du côté des commerçants que des consommateurs.
 
-- **Mieux comprendre la technologie**. L’utilisation active de Bitcoin permet d’acquérir une expérience pratique, de se familiariser avec les portefeuilles et d’explorer des concepts avancés comme la confidentialité des paiements ou la gestion des UTXOs. En choisissant d'utiliser Bitcoin au quotidien, vous allez inévitablement acquérir de nouvelles connaissances.
+- **Profiter des propriétés uniques de Bitcoin** :
+
+Bitcoin dispose de caractéristiques intéressantes comme la rapidité des transactions grâce au Lightning Network, l'absence de censure, de surveillance financière et de seigneuriage. La proposition de valeur de Bitcoin provient en effet de sa capacité à retirer aux gouvernements le contrôle de l'offre monétaire et la censure des transactions. Si ces caractéristiques se traduisent par des avantages dans votre situation personnelle, alors vous pourriez envisager d'adopter le profil d'un utilisateur actif.
+
+- **Mieux comprendre la technologie** :
+
+L’utilisation active de Bitcoin permet d’acquérir une expérience pratique, de se familiariser avec les portefeuilles et d’explorer des concepts avancés comme la confidentialité des paiements ou la gestion des UTXOs. En choisissant d'utiliser Bitcoin au quotidien, vous allez inévitablement acquérir de nouvelles connaissances.
 
 Cependant, il est important de prendre en compte certains défis : la complexité technique, la volatilité des prix qui peut affecter la valeur des dépenses, ainsi que la nécessité d’une bonne gestion de la sécurité pour éviter les pertes de fonds.
 
@@ -1715,6 +1721,8 @@ Cette séparation permet de limiter les risques en cas de compromission du porte
 
 En fonction de sa situation personnelle, l'utilisateur actif cherchera à minimiser sa dépendance envers les tiers de confiance. Pour cela, il aura souvent son propre nœud Bitcoin, ce qui lui permet d'être totalement indépendant dans son utilisation du protocole et de protéger la confidentialité de ses transactions.
 
+https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1725,7 +1733,7 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
-Si l'utilisateur actif utilise fréquemment le Lightning Network, il pourrait également être judicieux de gérer son propre nœud LND ou Core-Lightning et de prendre en charge l'ouverture et la fermeture de ses canaux. Cela lui permettra d'être indépendant dans son utilisation du Lightning Network et potentiellement de réduire les frais associés à ses transactions quotidiennes, comparativement à l'utilisation de nœuds Lightning gérés automatiquement comme Phoenix, ou encore pire, de portefeuilles Lightning custodiaux.
+Si l'utilisateur actif utilise fréquemment le Lightning Network, il pourrait également être judicieux de gérer son propre nœud LND, LDK ou Core-Lightning et de prendre en charge l'ouverture et la fermeture de ses canaux. Cela lui permettra d'être indépendant dans son utilisation du Lightning Network et potentiellement de réduire les frais associés à ses transactions quotidiennes, comparativement à l'utilisation de nœuds Lightning gérés automatiquement comme Phoenix, ou encore pire, de portefeuilles Lightning custodiaux.
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
@@ -1802,7 +1810,7 @@ Le protocole Bitcoin, les système de surcouche comme le Lightning Network et to
 
 - **Pragmatisme et Engagement :** Vous êtes motivé à intégrer Bitcoin à votre quotidien et à participer activement à la croissance de son écosystème. Vous êtes conscient à la fois des avantages et des défis que cela implique.
 
-- **Compétence technique :** Vous avez une bonne compréhension ou êtes prêt à acquérir des compétences approfondies sur le fonctionnement des portefeuilles Bitcoin et du Lightning Network. Vous êtes à l'aise avec des concepts techniques avancés comme la gestion des UTXO.
+- **Compétence technique :** Vous avez une bonne compréhension ou êtes prêt à acquérir des compétences approfondies sur le fonctionnement des portefeuilles Bitcoin et du Lightning Network. Vous êtes à l'aise avec des concepts techniques avancés comme la gestion des UTXOs.
 
 - **Flexibilité et Adaptabilité :** Vous êtes prêt à tester différentes solutions, à changer d'outils et à ajuster vos pratiques selon l'évolution rapide de l'écosystème Bitcoin et de vos besoins au quotidien.
 
@@ -1871,6 +1879,8 @@ https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-80
 ![BTC102-Bitcoin](assets/fr/089.webp)
 
 - **Un nœud Bitcoin** pour éviter toute dépendance aux nœuds publics et garantir un contrôle total sur ses transactions. Avoir son propre nœud Bitcoin protège la confidentialité des transactions lors de leur diffusion, élimine la nécessité de faire confiance à un tiers pour les données de la blockchain Bitcoin, empêche la censure de vos transactions, et vous permet de participer à la définition des règles de standardisation et de consensus du système. C'est donc un outil indispensable pour l'utilisateur paranoïaque, et, plus généralement, pour tout utilisateur de Bitcoin suffisamment expérimenté.
+
+https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
@@ -2024,7 +2034,7 @@ Si vous vous reconnaissez dans ces traits, alors cette stratégie vous conviendr
 
 Cette approche est particulièrement pertinente si vous détenez des montants importants, si vous êtes exposé à des régimes autoritaires, ou si vous souhaitez protéger votre anonymat pour des raisons personnelles ou idéologiques. Même si cela peut sembler extrême pour certains, ces précautions deviennent essentielles pour ceux qui exigent le plus haut niveau de confidentialité et de protection de leurs bitcoins.
 
-Dans la prochaine section du cours, nous allons aborder un sujet souvent négligé et pourtant au combine important : celui de la transmission de ses bitcoins en cas de problème.
+Dans la prochaine section du cours, nous allons aborder un sujet souvent négligé et pourtant au combien important : celui de la transmission de ses bitcoins en cas de problème.
 
 # Protéger ses héritiers et son patrimoine
 
@@ -2100,19 +2110,19 @@ Beaucoup de personnes repoussent cette étape en raison de fausses croyances qui
 
 - **"*Je dois faire confiance à un tiers.*"** → **Faux**. Votre plan peut être conçu de manière à minimiser la confiance nécessaire, en répartissant les informations entre plusieurs parties ou en utilisant des solutions multisignatures, avec ou sans timelock ;
 
-- **"*La planification rendra mes avoirs faciles à voler.*"** → **Faux**. Une approche bien pensée protège contre les tentatives de vol tout en garantissant que vos héritiers puissent récupérer vos fonds en toute sécurité ;
+- **"*La planification rendra mes avoirs faciles à voler.*"** → **Faux**. Une approche bien pensée protège contre les tentatives de vol tout en garantissant que vos héritiers puissent récupérer vos fonds en toute sécurité. Cependant, il convient de noter qu'il n'existe pas de solution magique : un plan d'héritage implique inévitablement une augmentation du risque de vol, en fonction des informations qui y sont divulguées. Nous approfondirons cet aspect plus loin ;
 
 - **"*La valeur de mes bitcoins est trop faible pour être planifiée.*"** → **Faux**. Peu importe le montant, il vaut mieux anticiper. Vos proches ne connaissent probablement pas le montant de votre épargne en bitcoins, et c'est très bien. Mais en cas de problème, ne chercheront ils pas à les récupérer puisqu'ils ne connaissent pas le montant ? Ce que je veux dire, c'est que même si vous ne possédez que 100€ en BTC et que vos proches sont au courant de votre investissement, ils voudront récupérer ces fonds à votre décès. Il est donc judicieux de leur faciliter la tâche, pour éviter de leur donner de faux espoirs quant au montant ou de les laisser chercher en vain quelque chose qui pourrait ne pas exister. De plus, le bitcoin est un actif rare et sa valeur peut potentiellement croître considérablement au fil des ans ;
 
-- **"*Mes héritiers découvriront tout par eux-mêmes.*"** → **Faux**. Bitcoin n’est pas un compte bancaire classique. Sans instructions précises, vos proches risquent de ne jamais retrouver l’accès à vos fonds, ou de n'en trouver qu'une partie ;
+- **"*Mes héritiers découvriront tout par eux-mêmes.*"** → **Faux**. Bitcoin n’est pas un compte bancaire classique. Sans instructions précises, vos proches risquent de ne jamais retrouver l’accès à vos fonds, ou de n'en trouver qu'une partie. À la différence des comptes bancaires, pour lesquels les institutions financières ou les notaires contactent les proches en cas de décès, aucun intermédiaire ne notifiera votre famille de l'existence de votre portefeuille Bitcoin. Il vous revient, par conséquent, de le mentionner explicitement dans votre plan d'héritage ;
 
-- **"*Un contrat intelligent peut tout gérer.*"** → **Faux**. Un smart contract comme un portefeuille multisig avec timelock peut être une pièce du puzzle, mais il ne remplacera jamais une planification bien structurée, surtout pour des personnes non familières avec Bitcoin.
+- **"*Un contrat intelligent peut tout gérer.*"** → **Faux**. Un smart contract comme un portefeuille multisig avec timelock peut être une pièce du puzzle, mais il ne remplacera jamais une planification bien structurée, surtout pour des personnes non familières avec Bitcoin. Les deux sont sont complémentaires.
 
 Il est temps d’agir. Prenez ces 30 minutes et mettez en place votre plan d’héritage. C’est une démarche simple, mais qui peut faire toute la différence pour vos proches.
 
 ### Étape 1 : Sélectionner les bonnes personnes pour assister vos héritiers
 
-Lorsqu’il s’agit de transmettre un héritage en bitcoins, vos proches ne seront probablement pas familiarisés avec la gestion de clés privées ou la récupération de portefeuilles. Ils auront besoin d’une aide extérieure, de la part de personnes compétentes et de confiance. L’idéal est de choisir 2 personnes distinctes :
+Lorsqu’il s’agit de transmettre un héritage en bitcoins, vos proches ne seront probablement pas familiarisés avec la gestion de clés privées ou la récupération de portefeuilles. Ils auront besoin d’une aide extérieure, de la part de personnes compétentes et de confiance. L’idéal est de choisir au moins 2 personnes distinctes :
 - **Un proche de confiance**, qui veillera à la bonne exécution de votre plan. Il n’a pas forcément besoin d’avoir des connaissances approfondies sur Bitcoin, mais il doit être quelqu’un sur qui vos héritiers pourront compter ;
 - **Un utilisateur expérimenté de Bitcoin**, qui pourra fournir une assistance technique pour la récupération des fonds, la gestion des portefeuilles et la compréhension des processus.
 
@@ -2154,11 +2164,11 @@ Utilisez un tableau pour structurer cet inventaire. L’idée n’est pas de sto
 | Portefeuille mobile   | Green Wallet     | BTC            | Sur mon téléphone Iphone 15       | Copie de la seed dans mon coffre au domicile                             | Code PIN stocké sur le gestionnaire de mot de passe Bitwarden.                                  | L’application est en mode caché.                                                                                |
 
 
-Vous pourriez ressentir à cette étape l’envie de modifier immédiatement la répartition de vos fonds, d’améliorer votre sécurité, ou encore de vendre ou acheter plus de bitcoins. Ne faites rien pour l’instant ! L’objectif ici n’est pas d’agir, mais d’établir une photographie de votre situation actuelle. Vous pourrez toujours améliorer votre plan plus tard, mais pour le moment, restez focalisé sur l’inventaire et complétez-le de manière la plus exhaustive possible.
+Vous pourriez ressentir à cette étape l’envie de modifier immédiatement la répartition de vos fonds, d’améliorer votre sécurité, ou encore de vendre ou d'acheter plus de bitcoins. Ne faites rien pour l’instant ! L’objectif ici n’est pas d’agir, mais d’établir une photographie de votre situation actuelle. Vous pourrez toujours améliorer votre plan plus tard, mais pour le moment, restez focalisé sur l’inventaire et complétez-le de manière la plus exhaustive possible.
 
 Une fois cet état des lieux réalisé, il sera beaucoup plus simple d’identifier les points faibles et de structurer une transmission efficace et sécurisée.
 
-### Étape 3 : Rédigez la lettre.
+### Étape 3 : Rédiger la lettre
 
 #### Pourquoi une lettre manuscrite ?
 
@@ -2190,7 +2200,7 @@ J’ai désigné plusieurs personnes qui peuvent vous aider à comprendre Bitcoi
 
 - Mon frère Bob ; +33 6 00 00 00 00 ; bobmybrother@supermail.com. Vous pouvez faire confiance à Bob pour vous aider dans ce processus. Bien qu'il ne soit pas le plus doué techniquement sur Bitcoin, il est la bonne personne pour tout remettre en question et faire preuve de prudence afin de garantir votre réussite en toute sécurité.
 - Mon cousin Nathan ; +33 6 00 00 00 00 ; nathandelacroix@supermail.com. C'est Nathan qui m'a fait découvrir Bitcoin. Il est très compétent en informatique et pourra répondre à la plupart de vos questions. Il possède également quelques fractions de bitcoins et pourra vous guider sur le plan technique. Vous l'avez déjà vu à plusieurs reprises lors de réunions de famille, et j'ai inclus une photo de lui ici.
-- Ricco ; @RiccoSuperBitcoiner sur Twitter ; ricco425@supermail.com. Je travaille en étroite collaboration avec Ricco depuis de nombreuses années. Vous ne l'avez jamais rencontré, alors assurez-vous de parler à la bonne personne en lui demandant "*Quel est le nom du chien de Cédric*". S'il répond "*12*", c'est bon. Ricco est un expert très amical et compétent sur Bitcoin. Il répondra à toutes vos questions et vous pourrez vous fier à son jugement concernant la sécurité des bitcoins. N'ayez pas peur de le contacter, je l'ai rencontré plusieurs fois et il est au courant de tout ce qui concerne toi et Maia.
+- Ricco ; @RiccoSuperBitcoiner sur Twitter ; ricco425@supermail.com. Je travaille en étroite collaboration avec Ricco depuis de nombreuses années. Vous ne l'avez jamais rencontré, alors assurez-vous de parler à la bonne personne en lui demandant "*Quel est le nom du chien de Cédric*". S'il répond "*12*", c'est bon. Ricco est un expert très amical et compétent sur Bitcoin. Il répondra à toutes vos questions et vous pourrez vous fier à son jugement concernant la sécurité des bitcoins. N'ayez pas peur de le contacter, en revanche, ne lui laissez jamais l'accès direct au fonds.
 - Cela peut vous sembler étrange, mais contactez-les tous. De plus, vous pouvez vous former en écoutant Andreas Antonopoulos sur YouTube et en achetant le livre *Cryptoasset Inheritance Planning* de Pamela Morgan.
 
 Contactez toutes ces personnes et croisez leurs avis avant de prendre les décisions importantes. **Ne faites confiance à personne aveuglément.**
@@ -2205,9 +2215,7 @@ Voici un inventaire précis de mes avoirs, de leur emplacement et des méthodes 
 
 - J'ai sécurisé l'accès à mes comptes en ligne à l'aide d'un gestionnaire de mots de passe. Une sauvegarde de ce gestionnaire est stockée dans le coffre de la banque. Mon compte Bitfinex est également protégé par une authentification à deux facteurs, accessible soit via mon téléphone (Samsung Galaxy S8, application Authy), soit grâce au code de secours que j'ai conservé à mon domicile.
 
-- Je possède un portefeuille matériel Trezor Model One, accessible depuis mon PC via le logiciel Sparrow Wallet. La phrase mnémonique permettant de restaurer ce portefeuille est stockée en deux exemplaires : l'un dans le coffre de la banque, l'autre chez Oncle Bob. Le code PIN nécessaire pour l'utiliser est conservé à mon domicile ainsi que chez ma mère. Quant à l'appareil lui-même, il est probablement rangé dans un coffre-fort à mon bureau.
-
-- J'utilise une passphrase BIP39 sur mon Trezor Model One. Cette passphrase est indispensable pour accéder aux fonds stockés sur l’appareil. Une sauvegarde est conservée en deux endroits : à mon domicile et chez ma mère.
+- Je possède un portefeuille matériel Trezor Model One, accessible depuis mon PC via le logiciel Sparrow Wallet. La phrase mnémonique permettant de restaurer ce portefeuille est stockée en deux exemplaires : l'un dans le coffre de la banque, l'autre chez Oncle Bob. Le code PIN nécessaire pour l'utiliser est conservé à mon domicile ainsi que chez ma mère. Quant à l'appareil lui-même, il est probablement rangé dans un coffre-fort à mon bureau. J'utilise une passphrase BIP39 sur mon Trezor Model One. Cette passphrase est indispensable pour accéder aux fonds stockés sur l’appareil. Une sauvegarde est conservée en deux endroits : à mon domicile et chez ma mère.
 
 Prenez toutes les précautions nécessaires avant de manipuler ces fonds. Ne divulguez jamais la phrase de récupération complète à une seule personne et ne partagez ces informations qu’en cas d’absolue nécessité.
 
@@ -2237,7 +2245,7 @@ Aussi, vous devrez décider de la quantité d'informations à révéler dans ce 
 
 Finalement, la problématique du plan d'héritage rejoint celle des stratégies de sécurisation : il s'agit toujours de balancer entre le risque de perte et le risque de vol. En ne consignant pas suffisamment d'informations, vous augmentez le risque que vos proches perdent l'accès aux bitcoins, tandis que trop d'informations peuvent accroître le risque de vol actuellement.
 
-### Étape 4 : Vérifiez et stockez la lettre
+### Étape 4 : Vérifier et stocker la lettre
 
 Avant de conclure, assurez-vous d’avoir bien inclus :
 - Une liste claire des personnes de confiance, avec leurs contacts ;
@@ -2251,7 +2259,7 @@ En fonction de ce que vous estimez nécessaire dans votre situation personnelle,
 
 Si besoin, consultez un avocat spécialisé ou un notaire pour intégrer ce plan dans un cadre légal officiel.
 
-**Bravo !** Vous venez d’achever une étape essentielle pour protéger votre patrimoine en bitcoins. Vous pouvez maintenant perfectionner votre plan d'héritage en le mettant à jour régulièrement et en explorant des solutions plus avancées comme les multisig dégressif avec timelock :
+**Bravo !** Vous venez d’achever une étape essentielle pour protéger votre patrimoine en bitcoins. Vous pouvez maintenant perfectionner votre plan d'héritage en le mettant à jour régulièrement et en explorant des solutions plus avancées comme les multisig dégressifs avec timelock :
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
@@ -2345,7 +2353,7 @@ Naturellement, si vous souhaitez contribuer à l'éducation du public sur Bitcoi
 
 ### Le mot de la fin
 
-Je tiens à vous remercier sincèrement d'avoir suivi cette formation BTC102. Mon nom est Rogzy, fondateur de Découvre Bitcoin et cofondateur de Plan ₿ Network, une plateforme devenue réalité grâce à nos nouveaux partenaires et à la volonté commune d'éduquer le plus grand nombre sur Bitcoin.
+Je tiens à vous remercier sincèrement d'avoir suivi cette formation BTC102. Mon nom est Rogzy, fondateur de Découvre Bitcoin et cofondateur de Plan ₿ Network, une plateforme devenue réalité grâce à nos nouveaux partenaires, Tether et Fulgur Ventures, et à la volonté commune d'éduquer le plus grand nombre sur Bitcoin.
 
 Votre retour est très précieux : n’hésitez pas à commenter directement sur la plateforme pour nous dire ce que vous avez pensé de cette nouvelle version du cours. Vos suggestions sont essentielles pour nous aider à améliorer constamment la qualité de nos contenus.
 

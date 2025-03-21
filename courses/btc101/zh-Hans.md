@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 例如，您可以使用麻雀钱包作为热钱包：
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - 第 2\*\*级，您使用的是实体钱包，并已确保 12/24 个单词列表的安全。这通常被称为 "冷钱包"，因为您的密钥存储在一个未连接互联网的设备上。在这种情况下，您始终需要用设备签署每一笔交易，这使得您的资金在日常使用中不那么容易获取。
 

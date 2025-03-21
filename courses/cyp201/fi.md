@@ -86,7 +86,7 @@ Näillä kryptografisilla häsäfunktioilla on useita olennaisia ominaisuuksia, 
 
 #### 1. Palautumattomuus (esikuvan vastustuskyky):
 
-Palautumattomuus tarkoittaa, että häsäyksen laskeminen syötteestä on helppoa, mutta käänteinen laskenta, eli syötteen löytäminen häsäyksestä, on käytännössä mahdotonta. Tämä ominaisuus tekee häsäfunktioista täydellisiä ainutlaatuisten digitaalisten sormenjälkien luomiseen ilman alkuperäisen tiedon vaarantamista. Tätä ominaisuutta kutsutaan usein yksisuuntaiseksi funktioksi tai "_ansaovifunktioksi_".
+Peruuttamattomuus tarkoittaa, että on helppoa laskea tiiviste annetusta syötetiedosta, mutta käänteinen laskenta, eli alkuperäisen syötteen löytäminen tiivisteestä, on käytännössä mahdotonta. Tämä ominaisuus tekee tiivistefunktioista täydellisiä ainutlaatuisten digitaalisten sormenjälkien luomiseen ilman, että alkuperäinen tieto vaarantuu.
 
 Annetussa esimerkissä häsäyksen `24f1b9…` saaminen tietäen syötteen "_PlanB_" on yksinkertaista ja nopeaa. Kuitenkin viestin "_PlanB_" löytäminen tietäen vain `24f1b9…` on mahdotonta.
 

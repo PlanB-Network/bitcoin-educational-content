@@ -138,8 +138,8 @@ If you are enthusiastic about this initiative and you would like to help us, ple
 
 1. Join the [Contributors TG group](https://t.me/PlanBNetwork_ContentBuilder) and present the languages you speak.
 2. You will be contacted by our team member and maybe added to a specific group dedicated to one language.
-3. The first step will be to [add the new language](https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86) on the Weblate app (an account on Weblate is required).
-4. Then, you can [start translating the static elements](https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295) of the website.
+3. The first step will be to [add the new language](https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86) on the Weblate app (an account on Weblate is required).
+4. Then, you can [start translating the static elements](https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295) of the website.
 5. When you finish, go back to the [TG group](https://t.me/PlanBNetwork_ContentBuilder) or reach out to the translation coordinator to inform them you have completed the task.
 6. Thanks to the [LLM-Translator](https://github.com/Asi0Flammeus/LLM-Translator), or other tools, we will translate the BTC101 course to benchmark with you the automatic translation accuracy.
 7. [Start proofreading](https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6) BTC101 on GitHub (an account on GitHub is required) in the corresponding language after the approval of the coordinator.
@@ -182,3 +182,4 @@ If you believe you are one of them, [reach out](https://t.me/PlanBNetwork_Conten
     <img src="docs/assets/doing-my-part.jpg" alt="Doing my Part meme" width="75%">
   </a></p>
 <br />
+

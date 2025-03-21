@@ -4,5 +4,3 @@ description: |
   Một trong những sản phẩm chính của họ là Lightning Terminal, một giao diện thân thiện với người dùng giúp đơn giản hóa việc quản lý nút Lightning. Công cụ này cung cấp một bảng điều khiển dựa trên web, trình duyệt mạng và một bộ công cụ quản lý thanh khoản, làm cho việc thực hiện giao dịch Bitcoin tức thì với khối lượng lớn và chi phí thấp trở nên dễ dàng hơn.
 
   Ngoài Lightning Terminal, Lightning Labs còn cung cấp một loạt các dịch vụ tài chính không giữ tiền (non-custodial) có thể xác minh, dựa trên Lightning Network, làm cầu nối giữa phần mềm mã nguồn mở và các ứng dụng tài chính Bitcoin thế hệ mới.
-contributors:
-  - rabbit-hole

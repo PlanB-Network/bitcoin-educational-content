@@ -1,11 +1,10 @@
 id: 633fb72d-4561-471a-834d-ee98ba222698
 start_date: 2024-06-28
 end_date: 2024-06-30
-address_line_1: Neuchatel, Switzerland
+address_city_country: Neuchatel, Switzerland
 address_line_2:
 address_line_3:
 name: Paradigme Bitcoin 2024
-builder: Paradigme Bitcoin
 type: conference
 book_online: false
 book_in_person: false

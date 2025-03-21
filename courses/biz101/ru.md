@@ -634,9 +634,9 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 Чтобы узнать, как открыть бизнес-счет и использовать его для покупки, продажи и перевода биткоинов, вы можете ознакомиться с этими двумя учебными пособиями, разработанными специально для предприятий и охватывающими платформы Kraken и Bitfinex в их корпоративных версиях:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 Чтобы узнать больше о способах приобретения биткоинов через биржу или пиринговую сеть, вы можете [обратиться к разделу "Обмен" в наших учебниках](https://planb.network/tutorials/exchange).
 

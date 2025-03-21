@@ -28,7 +28,7 @@ Untuk memeriksa apakah bahasa Anda sudah termasuk di antara bahasa yang sedang k
 
 Jika bahasa Anda sudah ada dalam daftar ini, Anda tidak perlu menambahkannya lagi. Untuk berkontribusi dengan mengoreksi daftar isi web, temukan tutorial berikut ini:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Jika bahasa Anda tidak ada, ikuti tutorial di bawah ini untuk menambahkannya.
 
 ## Menambahkan Bahasa Baru ke Plan ₿ Network
@@ -64,7 +64,7 @@ Jika bahasa Anda tidak ada, ikuti tutorial di bawah ini untuk menambahkannya.
 
 Untuk mendapatkan panduan dalam proses penerjemahan, lihat tutorial khusus kami di bawah ini:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Selamat, Anda telah memulai proses penerjemahan elemen statis pada situs web Plan ₿ Network!
 
 Mereka menyertakan semua string di situs web, kecuali konten pendidikan (kursus, tutorial...) yang mana kami menggunakan metode semi-otomatis lainnya (terjemahan AI + kontributor yang mengoreksi).

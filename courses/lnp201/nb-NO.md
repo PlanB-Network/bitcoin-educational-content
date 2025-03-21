@@ -783,7 +783,7 @@ I den første delen kan vi se at:
 
 - `ln` indikerer at det er en Lightning-transaksjon.
 - `bc` indikerer at Lightning-nettverket er på Bitcoin blockchain (og ikke på testnet eller på Litecoin).
-- `100u` indikerer mengden av fakturaen, uttrykt i **mikrosatoshi** (`u` som betyr "mikro"), som her tilsvarer 10 000 sats.
+- `100u` indikerer mengden av fakturaen, uttrykt i **mikrobitcoins** (`u` som betyr "mikro"), som her tilsvarer 10 000 sats.
 
 For å angi betalingsbeløpet, uttrykkes det i sub-enheter av bitcoin. Her er enhetene som brukes:
 

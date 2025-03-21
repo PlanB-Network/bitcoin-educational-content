@@ -557,7 +557,7 @@ Níže definujeme několik úrovní zabezpečení:
 
 Například peněženku Sparrow Wallet můžete používat jako horkou peněženku:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Na úrovni 2\*\* používáte fyzickou peněženku a máte zajištěn seznam 12/24 slov. Často se označuje jako "studená peněženka", protože vaše klíče jsou uloženy v zařízení, které není připojeno k internetu. V tomto případě musíte každou transakci vždy podepisovat svým zařízením, což zhoršuje každodenní dostupnost vašich prostředků.
 

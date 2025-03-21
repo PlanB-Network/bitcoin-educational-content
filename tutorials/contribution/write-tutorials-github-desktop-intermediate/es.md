@@ -46,7 +46,7 @@ Requisitos previos antes de empezar el tutorial:
 
 Si necesitas ayuda para obtener estos requisitos previos, mis otros tutoriales te ayudarán:
 
-https://planb.network/tutorials/others/contribution/basics-of-github-471f7f00-8b5a-4b63-abb1-f1528b032bbb
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 Una vez que todo está en su lugar y su entorno local está configurado correctamente con su propio tenedor del Plan ₿ Red, puede empezar a añadir el tutorial.
 
 
@@ -424,4 +424,5 @@ Si desea realizar cambios en su contribución después de haber presentado su RP
 - Si su PR ya ha sido fusionado con la rama principal, necesitará comenzar el proceso de nuevo creando una nueva rama y enviando un nuevo PR. Asegúrese de que su repositorio local está sincronizado con el repositorio fuente de Plan ₿ Network antes de continuar.
 
 Si encuentras dificultades técnicas para enviar tu tutorial, no dudes en pedir ayuda en [nuestro grupo de Telegram dedicado a las contribuciones](https://t.me/PlanBNetwork_ContentBuilder). Muchas gracias
+
 

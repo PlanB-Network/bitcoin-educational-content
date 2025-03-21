@@ -23,7 +23,7 @@ Les membres de notre équipe vous donneront des instructions spécifiques et ouv
 
 Vous pouvez également suivre ce tutoriel spécifique pour ajouter une nouvelle langue sur notre Weblate.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Lorsque vous êtes prêt à commencer la traduction, revenez à ce tutoriel et passez en revue les points suivants.
 
 ## S'inscrire sur Weblate

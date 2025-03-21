@@ -105,7 +105,7 @@ description:
         f"  - language: {language_code}",
         f"    last_contribution_date: {current_date}",
         "    urgency: 1",
-        "    contributors_id:",
+        "    contributor_names:",
         f"      - {contributor_id}",
         "    reward: 0"
     ])
@@ -185,7 +185,7 @@ def create_project_yaml(project_uuid, project_name, website, twitter, category, 
     lines.append(f"  - language: {language_code}")
     lines.append(f"    last_contribution_date: {current_date}")
     lines.append("    urgency: 1")
-    lines.append("    contributors_id:")
+    lines.append("    contributor_names:")
     lines.append(f"      - {global_contributor}")
     lines.append("    reward: 0")
     lines.append("")
@@ -199,7 +199,5 @@ def create_project_language_yaml(language_code, description, professor_global):
     lines = [
         f"description: |",
         f"  {description}",
-        "contributors:",
-        f"  - {professor_global}"
     ]
     return "\n".join(lines)

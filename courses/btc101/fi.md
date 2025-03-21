@@ -557,7 +557,7 @@ Seuraavassa määritellään useita turvallisuustasoja:
 
 Voit esimerkiksi käyttää Sparrow-lompakkoa kuumana lompakkona:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Taso 2\*\*, käytät fyysistä lompakkoa ja olet varmistanut 12/24 sanan luettelon. Sitä kutsutaan usein "kylmäksi lompakoksi", koska avaimesi on tallennettu laitteeseen, joka ei ole yhteydessä internetiin. Tässä tapauksessa sinun on aina allekirjoitettava jokainen maksutapahtuma laitteellasi, jolloin varojesi päivittäinen saatavuus heikkenee.
 

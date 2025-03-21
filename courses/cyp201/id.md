@@ -86,7 +86,7 @@ Fungsi hash kriptografi ini memiliki beberapa karakteristik esensial yang membua
 
 #### 1. Irreversibilitas (resistensi terhadap pencarian gambar asli):
 
-Irreversibilitas berarti mudah untuk menghitung hash dari informasi input, tetapi perhitungan terbalik, yaitu, menemukan input dari hash, praktis tidak mungkin. Sifat ini membuat fungsi hash sempurna untuk menciptakan sidik jari digital unik tanpa mengompromikan informasi asli. Karakteristik ini sering disebut sebagai fungsi satu arah atau "_fungsi pintu perangkap_".
+Ketidakterbalikan berarti bahwa mudah untuk menghitung hash dari informasi masukan, tetapi perhitungan sebaliknya, yaitu menemukan masukan dari hash, secara praktis tidak mungkin. Properti ini menjadikan fungsi hash sempurna untuk menciptakan sidik jari digital unik tanpa membahayakan informasi asli.
 
 Dalam contoh yang diberikan, mendapatkan hash `24f1b9…` dengan mengetahui input "_PlanB_" adalah hal yang sederhana dan cepat. Namun, menemukan pesan "_PlanB_" hanya dengan mengetahui `24f1b9…` adalah hal yang mustahil.
 

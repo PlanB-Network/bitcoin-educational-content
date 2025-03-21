@@ -161,7 +161,7 @@ Sparrowを使用する利点は、始めやすく、設定が迅速で、コン�
 
 ### Sparrow Walletのインストール
 まず、Sparrow Walletソフトウェアが必要になります。[公式ウェブサイト](https://sparrowwallet.com/download/)または[GitHub](https://github.com/sparrowwallet/sparrow/releases)から直接ダウンロードできます。
-ソフトウェアをインストールする前に、ダウンロードした実行ファイルの署名と完全性を確認することが重要です。Sparrowソフトウェアのインストールプロセスと検証の詳細については、この他のチュートリアルを読むことをお勧めします：*[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*
+ソフトウェアをインストールする前に、ダウンロードした実行ファイルの署名と完全性を確認することが重要です。Sparrowソフトウェアのインストールプロセスと検証の詳細については、この他のチュートリアルを読むことをお勧めします：*[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 ### ソフトウェアウォレットの作成
 ソフトウェアをインストールした後、Bitcoinウォレットの作成を進める必要があります。coinjoinに参加するためには、ソフトウェアウォレット（別名「ホットウォレット」）の使用が不可欠であることに注意してください。したがって、**ハードウェアウォレットで保護されたウォレットではcoinjoinを実行することはできません**。
@@ -332,7 +332,7 @@ UTXOの統合は最も頻繁に行われる間違いです。CIOH（*Common-Inpu
 これらの異なる技術を実装するための詳細なチュートリアルは、間もなくPlanB Networkで提供される予定です。
 
 **追加リソース：**
-[Sparrow Walletビデオチュートリアル](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)
+[Sparrow Walletビデオチュートリアル](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 [Samourai Walletビデオチュートリアル](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Samourai Walletドキュメント - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [CoinJoinsに関するTwitterスレッド](https://twitter.com/SamouraiWallet/status/1489220847336308739);

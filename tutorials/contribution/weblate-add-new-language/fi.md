@@ -28,7 +28,7 @@ Voit tarkistaa, onko kielesi jo niiden kielten joukossa, joiden parissa työsken
 
 Jos kielesi on tässä luettelossa, sinun ei tarvitse lisätä sitä uudelleen. Jos haluat auttaa oikolukemalla weblatea, tutustu seuraavaan ohjeeseen:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Jos kielesi ei ole siellä, lisää se alla olevan ohjeen avulla.
 
 ## Uuden kielen lisääminen suunnitelmaan ₿ Verkko
@@ -64,7 +64,7 @@ Jos kielesi ei ole siellä, lisää se alla olevan ohjeen avulla.
 
 Jos haluat saada opastusta käännösprosessin läpi, tutustu alla olevaan opetusohjelmaan:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Onneksi olkoon, olet aloittanut Plan ₿ Network verkkosivuston staattisten elementtien kääntämisen!
 
 Niihin sisältyvät kaikki verkkosivujen merkkijonot, lukuun ottamatta opetussisältöä (kurssit, opetusohjelmat...), johon käytämme toista puoliautomaattista menetelmää (tekoälykäännös + oikoluku).

@@ -23,7 +23,7 @@ Pokud chcete do sítě Plan ₿ Network přidat zcela nový jazyk, kontaktujte t
 
 Před přidáním nového jazyka do Weblate postupujte podle tohoto konkrétního návodu.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Až budete připraveni začít překládat, vraťte se k tomuto návodu a projděte si následující body.
 
 ## Registrace na Weblate

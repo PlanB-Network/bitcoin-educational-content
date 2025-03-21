@@ -557,7 +557,7 @@ Nedenfor definerer vi flere sikkerhetsnivåer:
 
 Du kan for eksempel bruke Sparrow Wallet som en varm lommebok:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - På nivå 2\*\* bruker du en fysisk lommebok, og du har sikret listen din med 12/24 ord. Dette kalles ofte "cold Wallet" fordi nøklene dine er lagret på en enhet som ikke er koblet til internett. I dette tilfellet må du alltid signere hver transaksjon med enheten din, noe som gjør midlene dine mindre tilgjengelige på daglig basis.
 

@@ -23,7 +23,7 @@ Teammedlemmene våre vil gi deg spesifikke instruksjoner og åpne relaterte "iss
 
 Før du følger denne spesifikke veiledningen for å legge til et nytt språk i Weblate.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Når du er klar til å begynne å oversette, kan du gå tilbake til denne veiledningen og gå gjennom følgende punkter.
 
 ## Registrer deg på Weblate

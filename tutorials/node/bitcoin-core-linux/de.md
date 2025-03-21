@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Core-Knotenpunkt (Linux)
+name: Bitcoin Core (Linux)
 description: Führen Sie Ihren eigenen Knotenpunkt mit Bitcoin Core aus
 ---
 
@@ -130,3 +130,4 @@ Um die Protokolle Ihres Bitcoin-Knotens in Bezug auf die Interaktion mit Tor gen
 > - Tor-Konfigurationsanleitung von Jon Atack
 
 Wie immer, wenn Sie Fragen haben, zögern Sie nicht, sie mit der Agora256-Community zu teilen. Gemeinsam lernen wir, um morgen besser zu sein als heute!
+

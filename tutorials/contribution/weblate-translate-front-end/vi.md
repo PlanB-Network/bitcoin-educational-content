@@ -23,7 +23,7 @@ Các thành viên trong nhóm của chúng tôi sẽ cung cấp cho bạn hướ
 
 Trước khi làm theo hướng dẫn cụ thể này để thêm ngôn ngữ mới vào Weblate.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Khi bạn đã sẵn sàng bắt đầu dịch, hãy quay lại hướng dẫn này và thực hiện các điểm sau.
 
 ## Đăng ký trên Weblate

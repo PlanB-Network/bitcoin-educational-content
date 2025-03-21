@@ -173,7 +173,7 @@ Usare Sparrow ha il vantaggio di essere abbastanza facile da iniziare, veloce da
 
 ### Installa Sparrow Wallet
 Per iniziare, avrai ovviamente bisogno del software Sparrow Wallet. Puoi scaricarlo direttamente dal [sito ufficiale](https://sparrowwallet.com/download/) o su [il loro GitHub](https://github.com/sparrowwallet/sparrow/releases).
-Prima di installare il software, sarà importante verificare la firma e l'integrità dell'eseguibile appena scaricato. Se desideri maggiori dettagli sul processo di installazione e verifica del software Sparrow, ti consiglio di leggere questo altro tutorial: *[Le Guide di Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*
+Prima di installare il software, sarà importante verificare la firma e l'integrità dell'eseguibile appena scaricato. Se desideri maggiori dettagli sul processo di installazione e verifica del software Sparrow, ti consiglio di leggere questo altro tutorial: *[Le Guide di Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 ### Creare un Portafoglio Software
 Dopo aver installato il software, dovrai procedere con la creazione di un portafoglio Bitcoin. È importante notare che per partecipare ai coinjoin, l'uso di un portafoglio software (chiamato anche "hot wallet") è essenziale. Pertanto, **non sarà possibile eseguire coinjoin con un portafoglio protetto da un hardware wallet**.
@@ -344,7 +344,7 @@ Successivamente, devi fare attenzione nella gestione del cambio tossico, il camb
 Tutorial dettagliati sull'implementazione di queste diverse tecniche saranno presto offerti su PlanB Network.
 
 **Risorse Aggiuntive:**
-[Tutorial Video di Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)
+[Tutorial Video di Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 [Tutorial Video di Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Documentazione di Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Thread su Twitter sui CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);

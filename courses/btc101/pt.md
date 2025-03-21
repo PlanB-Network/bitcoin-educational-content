@@ -557,7 +557,7 @@ De seguida, definimos vários níveis de segurança:
 
 Por exemplo, pode utilizar a Sparrow Wallet como uma hot wallet:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Nível 2\*\*, utiliza uma carteira física e protegeu a sua lista de 12/24 palavras. É muitas vezes referido como "cold wallet" (carteira fria) porque as suas chaves são armazenadas num dispositivo que não está ligado à Internet. Neste caso, terá sempre de assinar cada transação com o seu dispositivo, o que torna os seus fundos menos acessíveis no dia a dia.
 

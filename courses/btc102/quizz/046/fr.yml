@@ -1,0 +1,9 @@
+question: Quel outil permet de surveiller son portefeuille sans exposer ses clés privées ?
+answer: Watch-only Wallet
+wrong_answers:
+  - Hot Wallet
+  - Lightning Wallet
+  - Custodial Wallet
+explanation: |
+  Un wallet watch-only utilise uniquement les clés publiques pour afficher les soldes et transactions, sans risque d'exposition des clés privées.
+reviewed: false

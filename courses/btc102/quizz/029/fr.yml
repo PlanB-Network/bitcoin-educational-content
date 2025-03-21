@@ -1,0 +1,9 @@
+question: Quel acteur majeur conçoit des ASIC pour le minage de Bitcoin ?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Foundry USA
+explanation: |
+  Bitmain est un des principaux constructeurs de matériel spécialisé dans le minage de Bitcoin.
+reviewed: false

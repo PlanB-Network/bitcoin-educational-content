@@ -1,0 +1,9 @@
+question: Quelle stratégie d'investissement utilise principalement un stacker ?
+answer: Dollar-Cost Averaging
+wrong_answers:
+  - Day trading
+  - Arbitrage
+  - Lump-Sum
+explanation: |
+  Le DCA consiste à investir un montant fixe régulièrement, afin de réduire l'impact de la volatilité du marché sur son portefeuille.
+reviewed: false

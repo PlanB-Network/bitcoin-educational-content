@@ -1,0 +1,9 @@
+question: Quelle stratégie d'acquisition peut être adoptée par un hodler hybride ?
+answer: Dollar-Cost Averaging
+wrong_answers:
+  - Trading algorithmique
+  - Arbitrage
+  - Piratage
+explanation: |
+  Le Dollar-Cost Averaging permet d'acheter régulièrement des bitcoins pour lisser le prix d'achat sur le long terme. Le hodler peut mixer cette stratégie avec des achats ponctuels.
+reviewed: false

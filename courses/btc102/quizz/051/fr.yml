@@ -1,0 +1,9 @@
+question: Quelle méthode permet de compenser les bitcoins dépensés tout en préservant son épargne ?
+answer: Spend and Replace
+wrong_answers:
+  - HODLing and Replace
+  - Spend and HODLing
+  - Trading and Spend
+explanation: |
+  La méthode Spend and Replace consiste à dépenser des bitcoins pour ensuite en racheter afin de maintenir son stock.
+reviewed: false

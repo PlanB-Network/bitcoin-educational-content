@@ -1,0 +1,9 @@
+question: Pourquoi l'authentification à deux facteurs est-elle recommandée ?
+answer: Elle ajoute une couche supplémentaire de sécurité
+wrong_answers:
+  - Elle simplifie l'accès en réduisant le nombre de codes
+  - Elle permet de se connecter sans mot de passe
+  - Elle remplace l'utilisation d'un gestionnaire de mots de passe
+explanation: |
+  La 2FA requiert un code temporaire en plus du mot de passe, ce qui renforce fortement la protection d'un compte en ligne.
+reviewed: false

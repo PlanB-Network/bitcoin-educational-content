@@ -1,0 +1,9 @@
+question: Quelle précaution adopter face aux arnaques aux dons et loteries frauduleuses ?
+answer: Ne jamais envoyer d'argent pour recevoir des bitcoins
+wrong_answers:
+  - Toujours envoyer un petit montant pour tester l'offre
+  - Investir pour obtenir un gain rapide sans effort
+  - Partager ses informations personnelles pour sécuriser l'opération
+explanation: |
+  La demande d'envoi d'argent préalable est un signe d'arnaque dans ce type de fraude.
+reviewed: false

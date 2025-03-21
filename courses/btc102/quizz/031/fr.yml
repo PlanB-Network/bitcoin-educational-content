@@ -1,0 +1,9 @@
+question: Lesquelles sont des sidechains de Bitcoin ?
+answer: Liquid et Rootstock
+wrong_answers:
+  - Polygon et Arbitrum
+  - Jupiter et Fantom
+  - Bitcoin Cash et Bitcoin Satoshi Vision
+explanation: |
+  Liquid et RSK sont des sidechains qui ont un 2-way peg avec Bitcoin. Les autres propositions ne sont pas des sidechains, ou bien n'ont pas de 2WP avec la blockchain Bitcoin.
+reviewed: false

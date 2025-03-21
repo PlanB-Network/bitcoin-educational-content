@@ -1,0 +1,9 @@
+question: En quoi consiste le Pump and Dump dans le domaine des cryptomonnaies ?
+answer: Manipuler un actif par une campagne pour vendre au pic
+wrong_answers:
+  - Acheter massivement un actif pour soutenir son prix sans jamais vendre
+  - Stabiliser le marché sur le long terme par des trades oppposés
+  - Effectuer des achats récurents pour s'exposer à l'actif sur le long terme
+explanation: |
+  Cette technique frauduleuse consiste à créer artificiellement une hausse de prix pour vendre à un moment critique et faire chuter la valeur.
+reviewed: false

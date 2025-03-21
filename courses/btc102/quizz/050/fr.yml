@@ -1,0 +1,9 @@
+question: Quelle solution est recommandée pour faire des dépenses en bitcoins à faible coût ?
+answer: Le Lightning Network
+wrong_answers:
+  - Le hardware wallet
+  - Le compte bancaire
+  - La surcouche RGB
+explanation: |
+  Lightning offre la possibilité de réaliser des transactions rapides et à faible coût pour les achats quotidiens. Il s'agit de l'outil idéal pour l'utilisateur actif.
+reviewed: false

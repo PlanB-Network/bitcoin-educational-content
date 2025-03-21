@@ -1,0 +1,9 @@
+question: Quel est environ le plafond maximum de bitcoins en circulation ?
+answer: 21 millions
+wrong_answers:
+  - 10 millions
+  - 47 millions
+  - 150 millions
+explanation: |
+  Bitcoin est programmé pour avoir une émission limitée à environ 21 millions de bitcoins.
+reviewed: false

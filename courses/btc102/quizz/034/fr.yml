@@ -1,0 +1,9 @@
+question: Quel protocole de seconde couche permet d'effectuer des paiements quasi instantanés ?
+answer: Lightning Network
+wrong_answers:
+  - Sidechains
+  - RGB
+  - Bitcoin Core
+explanation: |
+  Le Lightning Network permet des transactions rapides et à faible coût grâce à des transactions en dehors de la blockchain Bitcoin.
+reviewed: false

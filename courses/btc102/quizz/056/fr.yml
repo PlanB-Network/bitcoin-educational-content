@@ -1,0 +1,9 @@
+question: Quelle méthode est employée pour protéger la traçabilité onchain des transactions ?
+answer: Utiliser des techniques de coinjoins et payjoins
+wrong_answers:
+  - Réutiliser la même adresse de réception
+  - Consolidation fréquente des UTXOs
+  - Dépôt sur un portefeuille custodial
+explanation: |
+  Les coinjoins et payjoins permettent d'amméliorer la confidentialité de ses actions onchain.
+reviewed: false

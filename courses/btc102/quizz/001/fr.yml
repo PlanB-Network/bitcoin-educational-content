@@ -1,0 +1,9 @@
+question: Que faire pour identifier une tentative de phishing dans le secteur crypto ?
+answer: Vérifier l'identité de l'expéditeur
+wrong_answers:
+  - Cliquer uniquement sur les liens reçus dans l'email
+  - Partager ses clés privées pour confirmer l'authenticité
+  - Se fier uniquement aux logos et images dans les emails
+explanation: |
+  Il faut toujours s'assurer que l'on interagit avec la bonne personne, et ne jamais utiliser les liens présentés par email. Rendez vous directement sur le site manuellement, depuis vos favoris sur un navigateur.
+reviewed: false

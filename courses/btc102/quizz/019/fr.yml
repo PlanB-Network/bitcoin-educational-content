@@ -1,0 +1,9 @@
+question: Qui a publié le White Paper de Bitcoin ?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - David Chaum
+  - Tim May
+  - Eric Hughes
+explanation: |
+  Le White Paper a été publié fin 2008 par Satoshi Nakamoto (un pseudonyme).
+reviewed: false

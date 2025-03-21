@@ -1,0 +1,9 @@
+question: Pourquoi est-il recommandé de rédiger la lettre d'héritage à l'encre sur papier ?
+answer: Pour éviter les risques liés aux documents numériques compromis
+wrong_answers:
+  - Pour réduire les coûts d'impression
+  - Pour obtenir une signature reconnue juridiquement
+  - Pour augmenter la valeur légale du document
+explanation: |
+  La lettre manuscrite est moins vulnérable aux cyberattaques et garantit la confidentialité des instructions.
+reviewed: false

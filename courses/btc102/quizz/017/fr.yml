@@ -1,0 +1,9 @@
+question: Quel terme désigne la division programmée de la subvention de minage ?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Bisection
+  - Coinbase
+explanation: |
+  Le halving correspond à la réduction de moitié de la subvention de minage tous les 210 000 blocs.
+reviewed: false

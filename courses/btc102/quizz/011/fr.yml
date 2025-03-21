@@ -1,0 +1,9 @@
+question: Pourquoi est-il important de protéger sa phrase mnémonique ?
+answer: Parce que sa perte entraîne la perte définitive des bitcoins
+wrong_answers:
+  - Parce que la blockchain est très longue pour la regénérer 
+  - Parce que sa perte entraîne une fuite de données personnelles
+  - Parce que les plateformes d'échange demandent énormément de documents pour la regénérer 
+explanation: |
+  La phrase mnémonique permet de récupérer l'accès aux fonds. En cas de perte, si le portefeuille n'est plus accessible sur son support, les bitcoins sont définitivement perdus.
+reviewed: false

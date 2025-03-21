@@ -1,0 +1,9 @@
+question: Quel support est préconisé pour sauvegarder sa phrase mnémonique en toute sécurité ?
+answer: Support en métal avec enveloppe opaque scellée
+wrong_answers:
+  - Stockage sur une clé USB chiffrée
+  - Support en papier avec pochette transparente
+  - Sauvegarde sur un cloud sécurisé
+explanation: |
+  Un support en métal résistant aux catastrophes offre une protection durable contre les dégradations et les accès non autorisés. L'enveloppe opaque scellée permet de vérifier que personne n'a eu accès à la phrase mnémonique.
+reviewed: false

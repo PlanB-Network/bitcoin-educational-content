@@ -1,0 +1,9 @@
+question: Que faut-il absolument éviter pour garantir la sécurité de ses bitcoins ?
+answer: Conserver ses bitcoins sur une plateforme d'échange
+wrong_answers:
+  - Utiliser un hardware wallet open-source
+  - Utiliser un hot wallet pour les transactions quotidiennes
+  - Diversifier les méthodes de stockage
+explanation: |
+  Le principe "Pas vos clés, pas vos bitcoins" souligne l'importance de détenir soi-même ses clés privées. Sur une plateforme d'échange, vos bitcoins sont exposés à des risques inutiles.
+reviewed: false

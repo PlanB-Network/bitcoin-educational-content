@@ -1,0 +1,9 @@
+question: Pourquoi est-il conseillé d'investir uniquement ce que vous pouvez vous permettre de perdre ?
+answer: Pour préserver sa sécurité financière en cas de perte
+wrong_answers:
+  - Pour maximiser ses profits rapidement en marché baissier
+  - Pour diversifier ses investissements massivement
+  - Pour emprunter afin d'investir davantage
+explanation: |
+  Investir au-delà de ses moyens (c'est-à-dire au-delà de sa marge d'épargne) expose à des risques financiers trop élevés.
+reviewed: false

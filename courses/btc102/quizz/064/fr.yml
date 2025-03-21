@@ -1,0 +1,9 @@
+question: Quelle action est essentielle pour que vos héritiers récupèrent vos bitcoins sans erreur ?
+answer: Fournir des instructions claires
+wrong_answers:
+  - Confier toutes les clés privées
+  - Modifier fréquemment les mots de passe
+  - Utiliser une plateforme d'échange KYC
+explanation: |
+  Des instructions détaillées et compréhensibles assurent que vos proches puissent accéder correctement aux fonds.
+reviewed: false

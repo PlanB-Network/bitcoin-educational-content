@@ -1,0 +1,9 @@
+question: Quelle est l'implication politique majeure de Bitcoin ?
+answer: Réduire le contrôle étatique sur la monnaie
+wrong_answers:
+  - Augmenter la centralisation bancaire
+  - Favoriser l'inflation
+  - Renforcer les réglementations financières
+explanation: |
+  Bitcoin est une alternative qui affaiblit le pouvoir des institutions étatiques sur la monnaie, via le seigneuriage et la censure des transactions.
+reviewed: false

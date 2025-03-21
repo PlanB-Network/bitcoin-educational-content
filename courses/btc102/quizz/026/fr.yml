@@ -1,0 +1,9 @@
+question: Quels éléments doivent être stockés par l'utilisateur lui-même pour posséder réellement ses bitcoins ?
+answer: Les clés privées
+wrong_answers:
+  - Les adresses de réception
+  - Les mots de passes des plateformes d'échange
+  - Les blocs de la blockchain
+explanation: |
+  Sans détenir ses clés privées, on ne possède pas véritablement ses bitcoins.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Comment Barack Obama a-t-il décrit Bitcoin ?
+answer: Une banque suisse dans votre poche
+wrong_answers:
+  - De l'or numérique
+  - Un actif hautement spéculatif
+  - Une monnaie décentralisée
+explanation: |
+  Barack Obama a un jour qualifié Bitcoin de "banque suisse dans votre poche". En effet, Bitcoin offre les mêmes opportunités à tous, indépendamment de votre statut, et permet de faire des transctions confidentielles.
+reviewed: false

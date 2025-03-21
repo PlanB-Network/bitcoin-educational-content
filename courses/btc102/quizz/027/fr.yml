@@ -1,0 +1,9 @@
+question: Combien il y a-t-il de mainteneurs sur Bitcoin Core en 2025 ?
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  En 2025, ils sont au nombre de cinq : Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao, et Ryan Ofsky.
+reviewed: false

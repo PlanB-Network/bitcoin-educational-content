@@ -1,0 +1,9 @@
+question: Que signifie la règle du 3-2-1 en matière de sauvegarde de données ?
+answer: 3 copies sur 2 supports dont 1 hors site
+wrong_answers:
+  - 3 copies sur 2 support en ligne et 1 support physique
+  - 3 supports avec 2 copies dont 1 hors site
+  - 3 copies dont 2 chiffrées et 1 hors site
+explanation: |
+  Cette règle préconise 3 copies de données sur 2 supports différents avec 1 copie stockée hors site pour plus de résilience.
+reviewed: false

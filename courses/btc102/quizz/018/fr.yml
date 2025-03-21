@@ -1,0 +1,9 @@
+question: En quelle année a été créé le Genesis block de Bitcoin ?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Le Genesis block, premier bloc de la blockchain, a été miné en janvier 2009.
+reviewed: false

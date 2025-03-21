@@ -1,0 +1,9 @@
+question: Quelles sont les caractéristiques typiques d'une escroquerie de type Ponzi dans l'écosystème crypto
+answer: Rendements garantis, retraits difficiles et parrainages
+wrong_answers:
+  - Rendements faibles, retraits difficiles et transparence totale
+  - Rendements garantis, retraits difficiles et absence de parrainage
+  - Rendements garantis, retraits faciles et absence de parrainages
+explanation: |
+  Ces caractéristiques pourraient indiquer un schéma pyramidal. Si vous les observez dans un projet, soyez très prudent.
+reviewed: false

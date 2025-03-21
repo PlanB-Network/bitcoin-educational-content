@@ -1,0 +1,9 @@
+question: Pourquoi la sécurité en ligne est-elle primordiale pour les utilisateurs de Bitcoin ?
+answer: Parce que le piratage entraîne une perte irrémédiable des bitcoins
+wrong_answers:
+  - Parce que les banques assurent les fonds en cas de perte totale des bitcoins
+  - Parce qu'on peut aller en prison pour avoir perdu des bitcoins
+  - Parce que les attaques entrainent des contraintes admnistratives très lourdes
+explanation: |
+  Sans intermédiaire, un piratage signifie une perte définitive des bitcoins.
+reviewed: false

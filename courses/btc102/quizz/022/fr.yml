@@ -1,0 +1,9 @@
+question: Quel impact les politiques monétaires expansionnistes ont-elles sur la monnaie étatique ?
+answer: Elles diluent la valeur de l'épargne
+wrong_answers:
+  - Elles augmentent le pouvoir d'achat
+  - Elles stabilisent les taux d'intérêt
+  - Elles garantissent la croissance économique
+explanation: |
+  L'impression massive de monnaie entraîne une dépréciation du pouvoir d'achat, ce qui détruit progessivement le pouvoir d'achat de l'épargnant.
+reviewed: false

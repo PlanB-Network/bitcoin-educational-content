@@ -1,0 +1,9 @@
+question: Quelle méthode d'acquisition est évitée par le paranoïaque ?
+answer: Plateformes centralisées avec KYC
+wrong_answers:
+  - Plateformes de mise en relation P2P
+  - Distributeurs automatiques de bitcoins
+  - Achat direct contre du cash lors de meetups
+explanation: |
+  Pour préserver son anonymat, le paranoïaque refuse les plateformes qui imposent une vérification d'identité.
+reviewed: false

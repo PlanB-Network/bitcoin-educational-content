@@ -1,0 +1,9 @@
+question: Quel avantage procure la gestion de son propre nœud Bitcoin ?
+answer: Indépendance
+wrong_answers:
+  - Liquidité
+  - Centralisation
+  - Rapidité
+explanation: |
+  Monter son propre nœud garantit une indépendance vis-à-vis des tiers et protège la confidentialité des transactions.
+reviewed: false

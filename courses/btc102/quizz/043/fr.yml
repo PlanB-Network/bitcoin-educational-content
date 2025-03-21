@@ -1,0 +1,9 @@
+question: Quel est l'objectif principal d'un hodler ?
+answer: Conserver ses bitcoins sur le long terme
+wrong_answers:
+  - Spéculer à court terme
+  - Effectuer des transactions fréquentes en bitcoins
+  - MAximiser la confidentialité de ses transactions Bitcoin
+explanation: |
+  Un hodler vise à détenir ses bitcoins pendant de nombreuses années pour bénéficier de la croissance supposée de l'actif.
+reviewed: false

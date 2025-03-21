@@ -1,0 +1,9 @@
+question: Quelle solution de stockage à froid est recommandée pour le paranoïaque ?
+answer: Hardware wallet air-gapped ou DIY
+wrong_answers:
+  - Hot wallet sur mobile
+  - Service custodial sur une plateforme d'échange
+  - Hardware wallet closed-source généraliste
+explanation: |
+  Le paranoïaque privilégie un stockage hors ligne avec des solutions open-source pour limiter les risques d'exposition.
+reviewed: false

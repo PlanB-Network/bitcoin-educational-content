@@ -1,0 +1,9 @@
+question: Jusqu'à combien de décimales un bitcoin est-il divisible ?
+answer: Huit
+wrong_answers:
+  - Six
+  - Douze
+  - Sept
+explanation: |
+  Un bitcoin se divise jusqu'à la huitième décimale, une unité étant appelée le satoshi ou sat.
+reviewed: false

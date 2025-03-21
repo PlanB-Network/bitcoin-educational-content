@@ -1,0 +1,9 @@
+question: Quel avantage majeur offre l'approche en couches pour Bitcoin ?
+answer: Maintenir la sécurité du protocole de base
+wrong_answers:
+  - Augmenter la centralisation du réseau principal
+  - Innover rapidement sur le protocole de base
+  - Bénéficier des mêmes caractéristiques sur les surcouches que le protocole de base
+explanation: |
+  L'approche en couches permet d'ajouter des fonctionnalités sans altérer la sécurité et la simplicité du protocole de base.
+reviewed: false

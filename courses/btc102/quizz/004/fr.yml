@@ -1,0 +1,9 @@
+question: Quel est le mécanisme principal d'un système de Ponzi ?
+answer: Les premiers investisseurs sont payés avec l'argent des nouveaux
+wrong_answers:
+  - Les rendements proviennent d'un produit réel sur le marché
+  - Les investisseurs reçoivent des dividendes d'entreprises
+  - Les gains sont générés par des contrats intelligents sur la blockchain
+explanation: |
+  Dans un système de Ponzi, aucun produit réel n'est créé et les paiements dépendent uniquement de l'arrivée de nouveaux participants.
+reviewed: false

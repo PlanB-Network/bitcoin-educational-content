@@ -1,0 +1,9 @@
+question: Quel est l'objectif principal du stacking ?
+answer: Accumuler des satoshis progressivement
+wrong_answers:
+  - Spéculer à court terme
+  - Acheter une grande quantité se satoshis d'un coup
+  - Utiliser Bitcoin pour les paiements quotidiens
+explanation: |
+  Le stacker investit de petites sommes à intervalles réguliers pour lisser son prix moyen d'achat.
+reviewed: false

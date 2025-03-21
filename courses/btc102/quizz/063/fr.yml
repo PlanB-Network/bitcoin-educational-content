@@ -1,0 +1,9 @@
+question: Quel risque majeur encourt-on en divulguant trop d'informations dans le plan d'héritage ?
+answer: Risque de vol
+wrong_answers:
+  - Risque de perte
+  - Risque de dévaluation
+  - Risque de régulation
+explanation: |
+  Trop d'informations peuvent faciliter l'action de personnes malveillantes si elles ont accès à votre plan d'héritage.
+reviewed: false

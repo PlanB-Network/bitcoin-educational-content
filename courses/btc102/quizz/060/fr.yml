@@ -1,0 +1,9 @@
+question: Quel est le rôle de la lettre d'héritage Bitcoin dans le plan de succession ?
+answer: Guider les héritiers pour accéder aux fonds
+wrong_answers:
+  - Servir de contrat de cession des bitcoins aux héritiers
+  - Déterminer la répartition fiscale des actifs
+  - Optimiser les frais de transfert entre portefeuilles
+explanation: |
+  La lettre d'héritage fournit des instructions claires et précises pour que les proches puissent récupérer les bitcoins.
+reviewed: false

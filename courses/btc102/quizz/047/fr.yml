@@ -1,0 +1,9 @@
+question: Quel dispositif est conseillé pour sécuriser les fonds accumulés sur le long terme ?
+answer: Hardware wallet
+wrong_answers:
+  - Hot wallet
+  - Lightning wallet
+  - Plateforme d'échange
+explanation: |
+  Le hardware wallet stocke les clés privées hors ligne, ce qui offre une sécurité renforcée pour des montants importants sur le long terme.
+reviewed: false

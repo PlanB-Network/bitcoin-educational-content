@@ -1,0 +1,9 @@
+question: Quel élément n'est PAS recommandé dans la transmission de l'accès à vos bitcoins ?
+answer: Donner la phrase mnémonique à une personne
+wrong_answers:
+  - Répartir les informations entre plusieurs personnes
+  - Utiliser des enveloppes opaques scellées
+  - Rédiger une lettre explicative
+explanation: |
+  Confier la phrase mnémonique à une seule personne sans sécurité supplémentaire augmente considérablement le risque de vol de votre vivant.
+reviewed: false

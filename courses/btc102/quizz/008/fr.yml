@@ -1,0 +1,9 @@
+question: Pourquoi est-il impératif de mettre régulièrement à jour son système et ses logiciels ?
+answer: Pour corriger les failles de sécurité connues
+wrong_answers:
+  - Pour améliorer la vitesse du PC et donc répondre plus rapidement aux cyberattaques
+  - Pour ajouter des fonctionnalités de hacking
+  - Pour optimiser la compatibilité des jeux vidéo avec Bitcoin
+explanation: |
+  Les mises à jour corrigent souvent des vulnérabilités connues qui sont exploitées par les pirates.
+reviewed: false

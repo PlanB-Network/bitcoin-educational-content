@@ -1,0 +1,9 @@
+question: Quel est l'objectif principal du bitcoiner paranoïaque ?
+answer: Protéger sa confidentialité
+wrong_answers:
+  - Accumuler des satoshis rapidement
+  - Maximiser les profits en trading
+  - Conserver ses bitcoins sur le long terme
+explanation: |
+  Le paranoïaque cherche avant tout à éviter toute traçabilité de ses transactions et de son identité.
+reviewed: false

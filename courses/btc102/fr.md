@@ -1,12 +1,12 @@
 ---
 name: Obtenir ses premiers bitcoins
-goal: Obtenir ses premiers bitcoins et les stocker dans un portefeuille Bitcoin de façon sécurisé avec une phrase mnémonique et un plan d’héritage.
+goal: Découvrez comment acheter, sécuriser et gérer vos premiers bitcoins en toute autonomie.
 objectives:
-  - Mettre à jour votre sécurité en ligne
-  - Comprenez les concepts clés liés à Bitcoin
-  - Établissez votre premier portefeuille adapté à vos besoins et ressources
-  - Apprenez où et comment obtenir vos premiers bitcoins
-  - Mise en place d'un plan d'héritage
+  - Identifier et éviter les pièges liés à Bitcoin
+  - Comprendre les bases de Bitcoin
+  - Choisir une stratégie de sécurisation adaptée à vos besoins
+  - Apprendre où et comment obtenir vos premiers bitcoins
+  - Préparer un plan de succession pour transmettre vos bitcoins
 ---
 
 # Un voyage vers vos premiers bitcoins

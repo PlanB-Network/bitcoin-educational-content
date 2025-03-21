@@ -1630,7 +1630,7 @@ La stratégie du stacker repose sur plusieurs qualités essentielles qui permett
 
 En résumé, la stratégie du stacking convient à ceux qui souhaitent accumuler du bitcoin sur le long terme sans y passer trop de temps, et en réduisant les risques liés à la volatilité. Dans le prochain chapitre, nous allons étudier un profil de bitcoiner radicalement différent : l'utilisateur actif.
 
-## L'utilisateur : adopter Bitcoin au quotidien
+## L'Utilisateur : adopter Bitcoin au quotidien
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
@@ -1822,7 +1822,7 @@ En conclusion, l'utilisateur actif contribue directement à la dynamique de l’
 
 Dans le chapitre suivant, nous allons étudier le dernier profil type de bitcoiner, qui est probablement le plus complexe mais aussi le plus fascinant : celui de l'utilisateur paranoïaque.
 
-## Le paranoïaque : protéger sa vie privée
+## Le Paranoïaque : protéger sa vie privée
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 

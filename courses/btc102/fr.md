@@ -75,7 +75,7 @@ L’écosystème Bitcoin et son environnement restent relativement jeunes et fai
 
 ![Arnaque et fraude financière](https://youtu.be/LeyI3CBw2g4)
 
-### Bitcoin vs. cryptos : comprendre les différences
+### Bitcoin vs cryptos : comprendre les différences
 
 Avant d’aller plus loin, il est important de distinguer clairement deux univers distincts :
 
@@ -104,7 +104,7 @@ Les pyramides financières et les systèmes de Ponzi figurent parmi les escroque
 ![BTC102-Bitcoin](assets/fr/003.webp)
 
 Ces arnaques présentent généralement :
-- Des promesses de rendements garantis irréalistes (par exemple : 20% de rendement garanti) ;
+- Des promesses de rendements garantis irréalistes (par exemple : 20 % de rendement garanti) ;
 - Des délais ou des difficultés pour retirer vos fonds investis ;
 - Des incitations fortes à parrainer de nouveaux membres pour maintenir le système en vie ;
 - Un manque total de transparence sur la source réelle du rendement promis.
@@ -201,7 +201,7 @@ La meilleure protection reste l’éducation personnelle, le scepticisme bien pl
 - N'envoyez jamais de bitcoins à une adresse inconnue ;
 - Si vous avez un doute, attendez et prenez du recul avant toute décision. Le FOMO est votre pire ennemi ;
 - Évitez de participer à des groupes de trading payants ou aux promesses irréalistes ;
-- La plupart des cadeaux ou loteries gratuites sur internet sont frauduleux ou truqués ;
+- La plupart des cadeaux ou des loteries gratuites sur internet sont frauduleux ou truqués ;
 - Vous gagnerez toujours plus en apprenant qu'en jouant.
 
 Se prémunir contre les arnaques est une première étape importante pour la protection de votre patrimoine, mais cela ne suffit pas. Il est tout aussi essentiel de maintenir une bonne hygiène numérique. C'est pourquoi, dans le chapitre suivant, nous explorerons comment renforcer votre sécurité numérique et les bonnes pratiques à adopter.

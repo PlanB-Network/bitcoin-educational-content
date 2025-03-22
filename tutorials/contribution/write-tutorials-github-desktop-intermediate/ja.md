@@ -133,7 +133,12 @@ Contributor's GitHub ID "フィールドに、あなたのGitHubユーザー名�
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-PBN教授ID」フィールドに、[あなたの教授プロフィール](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors)に表示されているように、BIP39リストの単語を使ってあなたの識別子を入力してください。
+次に、教授プロフィールを入力する必要があります。いくつかのオプションがあります：
+- 「Professor Name」フィールドにあなたの名前の最初の文字を入力します。あなたの名前は下にある「Prof. Suggestions」のドロップダウンリストに表示されます。それをクリックして選択してください;
+- または、直接「Prof. Suggestions」のドロップダウンリストをクリックして、教授名を選択することもできます。
+
+この操作により、対応するフィールドに自動的に教授のUUIDが入力されます。
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 

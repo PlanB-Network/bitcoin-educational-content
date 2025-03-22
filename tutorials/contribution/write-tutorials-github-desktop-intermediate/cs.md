@@ -133,7 +133,12 @@ Do pole "ID GitHub přispěvatele" zadejte své uživatelské jméno GitHub.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Do pole "PBN professor's ID" zadejte svůj identifikátor pomocí slov ze seznamu BIP39, jak je uveden na [vašem profilu profesora](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Dále je nutné vyplnit váš profil profesora. K tomu máte několik možností:
+- Zadejte první písmena svého jména do pole "Professor Name". Vaše jméno se pak objeví v rozbalovací nabídce "Prof. Suggestions" umístěné níže. Vyberte jej kliknutím na něj;
+- Nebo můžete přímo kliknout na rozbalovací nabídku "Prof. Suggestions" a vybrat své profesorské jméno.
+
+Tato akce automaticky vyplní vaše UUID profesora do odpovídajícího pole.
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 

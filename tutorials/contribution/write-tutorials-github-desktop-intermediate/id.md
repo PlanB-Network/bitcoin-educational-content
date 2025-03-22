@@ -133,7 +133,12 @@ Di bidang "ID GitHub Kontributor", masukkan nama pengguna GitHub Anda.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Pada kolom "ID profesor PBN", masukkan pengenal Anda dengan menggunakan kata-kata dari daftar BIP39, seperti yang muncul pada [profil profesor Anda](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Selanjutnya, Anda perlu mengisi profil profesor Anda. Ada beberapa opsi yang tersedia:
+- Masukkan huruf pertama dari nama Anda di kolom "Professor Name". Nama Anda kemudian akan muncul di daftar dropdown "Prof. Suggestions" yang terletak di bawah. Pilih dengan mengkliknya;
+- Atau, Anda dapat langsung mengklik daftar dropdown "Prof. Suggestions" dan memilih nama profesor Anda.
+
+Tindakan ini akan secara otomatis mengisi UUID profesor Anda di kolom yang sesuai.
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 

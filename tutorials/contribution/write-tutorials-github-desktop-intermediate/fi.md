@@ -133,7 +133,12 @@ Kirjoita "Contributor's GitHub ID" -kenttään GitHub-käyttäjätunnuksesi.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Kirjoita "PBN professor's ID" -kenttään tunnuksesi käyttäen sanoja BIP39-luettelosta, kuten se näkyy [professoriprofiilissasi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Seuraavaksi sinun täytyy täyttää professori-profiilisi. Voit tehdä tämän seuraavilla tavoilla:
+- Kirjoita nimesi ensimmäiset kirjaimet kohtaan "Professor Name". Nimesi ilmestyy sitten alla olevaan "Prof. Suggestions" -pudotusvalikkoon. Valitse se napsauttamalla sitä;
+- Tai voit suoraan klikata "Prof. Suggestions" -pudotusvalikkoa ja valita professori-nimesi.
+
+Tämä toiminto täyttää automaattisesti professorisi UUID:n vastaavaan kenttään.
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 

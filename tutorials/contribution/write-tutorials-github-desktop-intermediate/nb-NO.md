@@ -133,7 +133,12 @@ I feltet "Contributor's GitHub ID" skriver du inn GitHub-brukernavnet ditt.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-I feltet "PBN professor's ID" skriver du inn identifikatoren din ved hjelp av ord fra BIP39-listen, slik den vises på [din professorprofil] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Deretter må du fylle ut professorprofilen din. Det finnes flere alternativer:
+- Skriv inn de første bokstavene i navnet ditt i feltet "Professor Name". Navnet ditt vil da vises i rullegardinlisten "Prof. Suggestions" nedenfor. Velg det ved å klikke på det;
+- Alternativt kan du klikke direkte på rullegardinlisten "Prof. Suggestions" og velge professorens navn.
+
+Denne handlingen vil automatisk fylle inn din professor-UUID i det tilsvarende feltet.
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 

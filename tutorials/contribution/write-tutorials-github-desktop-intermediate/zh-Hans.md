@@ -133,7 +133,12 @@ python3 main.py
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-在 "PBN 教授 ID "字段中，使用 BIP39 列表中的单词输入您的标识符，该标识符显示在[您的教授简介](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors)中。
+接下来，您需要填写您的教授档案。您有以下几种选择：
+- 在“Professor Name”字段中输入您的名字的首字母。然后您的名字会显示在下方的“Prof. Suggestions”下拉列表中。点击它进行选择；
+- 或者，您可以直接点击“Prof. Suggestions”下拉列表，然后选择您的教授名字。
+
+此操作将自动在相应字段中填入您的教授 UUID。
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 

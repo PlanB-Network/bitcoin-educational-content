@@ -133,7 +133,12 @@ Trong trường "ID GitHub của người đóng góp", hãy nhập tên ngườ
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Trong trường "ID giáo sư PBN", hãy nhập mã định danh của bạn bằng các từ trong danh sách BIP39, giống như mã xuất hiện trên [hồ sơ giáo sư của bạn](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Tiếp theo, bạn cần điền vào hồ sơ giáo sư của mình. Có một số lựa chọn sau đây:
+- Nhập những chữ cái đầu tiên của tên của bạn vào trường "Professor Name". Tên của bạn sẽ xuất hiện trong danh sách thả xuống "Prof. Suggestions" nằm bên dưới. Chọn nó bằng cách nhấp vào;
+- Hoặc bạn có thể nhấp trực tiếp vào danh sách thả xuống "Prof. Suggestions" và chọn tên giáo sư của mình.
+
+Hành động này sẽ tự động điền UUID giáo sư của bạn vào trường tương ứng.
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 

@@ -10,19 +10,17 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 You already have :
 
-
 - Choose a theme for your tutorial;
 - Contacted the Plan ₿ Network team via [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) or paolo@planb.network ;
 - Choose your contribution tools.
 
 In this tutorial for experienced Git users, we'll briefly summarize the key steps and essential guidelines for offering a new Plan ₿ Network tutorial. If you're unfamiliar with Git and GitHub, I recommend you instead follow one of these other 2 more detailed tutorials that will take you step by step :
 
-
-- Intermediate (GitHub Desktop)** :
+- Intermediate (GitHub Desktop) :
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Beginners (web interface)** :
+- Beginners (web interface) :
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
@@ -31,35 +29,31 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 For editing Markdown files :
 
 
-- Obsidian** (Free, not open-source)
-- Mark Text** (Free, open-source)
-- Zettlr** (Free, open-source)
-- Typora** (Payware, ~€15, not open-source)
+- Obsidian (Free, not open-source)
+- Mark Text (Free, open-source)
+- Zettlr (Free, open-source)
+- Typora (Payware, ~€15, not open-source)
 
 For Git :
 
-
-- Git** (Free, open-source)
-- GitHub Desktop** (Free, open-source)
-- Sourcetree** (Free, not open-source)
+- Git (Free, open-source)
+- GitHub Desktop (Free, open-source)
+- Sourcetree (Free, not open-source)
 
 For editing YAML files :
 
-
-- Visual Studio Code** (Free, open-source)
-- Sublime Text** (Free with limitations, not open-source)
+- Visual Studio Code (Free, open-source)
+- Sublime Text (Free with limitations, not open-source)
 
 To create diagrams and visuals :
 
-
-- Canva** (Free with paid options, not open-source)
-- Inkscape** (Free, open-source)
-- Penpot** (Free, open-source)
+- Canva (Free with paid options, not open-source)
+- Inkscape (Free, open-source)
+- Penpot (Free, open-source)
 
 ## Workflows
 
 ### 1 - Configure your local environment
-
 
 - You must have your own fork of the [Plan ₿ Network repository on GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Synchronize the main branch (`dev`) of your fork with the source repository.

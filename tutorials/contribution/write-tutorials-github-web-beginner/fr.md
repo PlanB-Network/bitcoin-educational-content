@@ -124,8 +124,7 @@ category:
 
 level: 
 
-credits:
-  professor: 
+professor_id:
 
 # Proofreading metadata
 
@@ -134,7 +133,7 @@ proofreading:
   - language: 
     last_contribution_date:
     urgency:
-    contributors_id:
+    contributor_names:
       - 
     reward:
 ```
@@ -155,22 +154,21 @@ Voici le détail des champs obligatoires :
     - `advanced`
     - `expert`
 
-- **professor** : Votre `contributor_id` (mots BIP39) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
+- **professor_id** : Votre `professor_id` (UUID) tel qu'affiché sur [votre profil professeur](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) ;
 
 - **original_language** : La langue d’origine du tutoriel (par exemple `fr`, `en`, etc.) ;
 
 - **proofreading** : Informations sur le processus de relecture. Remplissez la première partie, car la relecture de votre propre tutoriel compte comme une première validation :
     - **language** : Code de langue de la relecture (par exemple `fr`, `en`, etc.).
     - **last_contribution_date** : Date du jour.
-    - **urgency** : Laissez vide.
-    - **contributors_id** : Votre ID GitHub.
-    - **reward** : Laissez vide.
+    - **urgency** : 1
+    - **contributor_names** : Votre ID GitHub.
+    - **reward** : 0
 
 Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Voici un exemple de fichier `tutorial.yml` complété pour un tutoriel sur le wallet Blockstream Green :
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -186,8 +184,7 @@ category: mobile
 
 level: beginner
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 
@@ -195,11 +192,12 @@ original_language: fr
 proofreading:
   - language: fr
     last_contribution_date: 2024-11-20
-    urgency:
-    contributors_id:
+    urgency: 1
+    contributor_names:
       - LoicPandul
-    reward:
+    reward: 0
 ```
+
 
 Une fois la modification de votre fichier `tutorial.yml` achevée, enregistrez votre document en cliquant sur le bouton "*Commit changes...*" :
 

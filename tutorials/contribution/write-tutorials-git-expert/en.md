@@ -28,7 +28,6 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 
 For editing Markdown files :
 
-
 - Obsidian (Free, not open-source)
 - Mark Text (Free, open-source)
 - Zettlr (Free, open-source)
@@ -81,7 +80,6 @@ git push origin dev
 ```
 
 ### 2 - Create a new branch
-
 
 - Make sure you're on the `dev` branch.
 - Create a new branch with a descriptive name (e.g. `tuto-green-wallet-loic`).

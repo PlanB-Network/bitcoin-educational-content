@@ -78,11 +78,22 @@ Selanjutnya, Anda akan melihat ini:
 
 ![image](assets/9.webp)
 
-Di perangkat, lihat kata-kata yang disajikan kepada Anda satu per satu dan tulislah dengan RAPI dan BERURUTAN.
+Trezor Anda menampilkan frase mnemonic Anda yang terdiri dari 12 kata. **Frase mnemonic ini memberikan akses penuh dan tidak terbatas ke semua bitcoin Anda**. Siapa pun yang memiliki frase ini dapat mencuri dana Anda, bahkan tanpa akses fisik ke Trezor Anda. Frase 12 kata ini memungkinkan Anda memulihkan akses ke bitcoin Anda jika terjadi kehilangan, pencurian, atau kerusakan pada dompet keras Anda. Oleh karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menyimpannya di tempat yang aman.
+
+Anda dapat menuliskannya di kertas karton yang disediakan di dalam kotak, atau untuk keamanan yang lebih baik, saya sarankan untuk mengukirnya pada bahan baja tahan karat untuk melindunginya dari risiko kebakaran, banjir, atau runtuh.
+
+Untuk informasi lebih lanjut tentang cara yang tepat untuk mencadangkan dan mengelola frase mnemonic Anda, saya sangat menyarankan mengikuti tutorial lain ini, terutama jika Anda seorang pemula:
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 
 ![image](assets/10.webp)
 
-Atur PIN untuk mengunci perangkat (ini bukan bagian dari seed Anda, ini hanya untuk mengunci perangkat sehingga tidak ada yang dapat mengakses seed yang terkandung di dalamnya).
+Langkah selanjutnya adalah mengatur kode PIN. Kode PIN digunakan untuk membuka kunci Trezor Anda. Ini berfungsi sebagai perlindungan terhadap akses fisik yang tidak sah. Kode PIN ini tidak berperan dalam proses derivasi kunci kriptografi dari dompet Anda. Dengan demikian, meskipun tanpa akses ke kode PIN ini, kepemilikan dari frase mnemonic 12 atau 24 kata Anda akan memungkinkan Anda untuk mengakses kembali bitcoin Anda.
+
+Dianjurkan untuk memilih kode PIN yang seacak mungkin. Pastikan juga untuk menyimpan kode ini di tempat yang berbeda dari tempat Anda menyimpan Trezor Anda (misalnya, dalam pengelola kata sandi).
+
+Anda dapat memilih kode PIN hingga 9 digit. Saya sarankan untuk membuatnya selama mungkin.
 
 ![image](assets/11.webp)
 Anda memiliki opsi untuk menambahkan shitcoins ke dompet Anda - Saya menyarankan Anda untuk tidak melakukannya, dan hanya menyimpan dalam Bitcoin, seperti yang saya jelaskan di sini (mengapa bitcoin) dan di sini (mengapa hanya bitcoin).
@@ -92,11 +103,21 @@ Namai dompet Anda, dan klik "Access Suite":
 
 ![image](assets/13.webp)
 
-Cara termudah adalah membuat dompet tanpa passphrase, tetapi lebih baik membuat satu dengan passphrase (dompet asli Anda) DAN satu tanpa passphrase (dompet pengalihan Anda). Setiap kali Anda mengakses perangkat melalui Trezor Suite, Anda akan ditanya apakah Anda ingin "menerapkan" passphrase atau tidak.
+Sebelum melanjutkan, Anda dapat, jika diinginkan, menambahkan passphrase BIP39. Passphrase BIP39 adalah kata sandi opsional yang dapat Anda pilih secara bebas, yang ditambahkan ke frase mnemonic Anda untuk meningkatkan keamanan dompet. Dengan fitur ini diaktifkan, mengakses dompet Bitcoin Anda akan memerlukan baik frase mnemonic maupun passphrase. Tanpa salah satu dari keduanya, tidak mungkin untuk memulihkan dompet.
+
+Sebelum mengkonfigurasi opsi ini di Trezor Anda, sangat disarankan untuk membaca artikel ini agar sepenuhnya memahami cara kerja teoritis passphrase dan menghindari kesalahan yang dapat mengakibatkan hilangnya bitcoin Anda:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+Untuk mengaktifkannya, Anda perlu memilih opsi "Hidden wallet" dan mencatatnya di bidang yang sesuai. Setiap kali Anda mengakses dompet Anda melalui Trezor Suite, Anda akan ditanya apakah Anda ingin menerapkan passphrase atau tidak.
+
 
 ![image](assets/14.webp)
 
-Saya memilih "Hidden Wallet" dan mengetik passphrase yang saya buat "craigwrightisaliarandafraud"
+Penting juga untuk mencadangkan passphrase ini dengan benar, sama seperti frase mnemonic. Kehilangannya sama dengan kehilangan akses ke bitcoin Anda. Saya sangat menyarankan agar tidak hanya mengandalkan ingatan Anda, karena ini secara tidak masuk akal meningkatkan risiko kehilangan. Idealnya, Anda harus menuliskannya di media fisik (kertas atau logam) yang terpisah dari frase mnemonic. Pencadangan ini tentunya harus disimpan di lokasi yang berbeda dari frase mnemonic Anda untuk mencegah keduanya dikompromikan secara bersamaan.
+
+Agar efektif, Anda harus memilih passphrase yang kuat, acak, mencakup semua jenis karakter, dan cukup panjang (seperti kata sandi yang kuat).
+
 
 ![image](assets/15.webp)
 

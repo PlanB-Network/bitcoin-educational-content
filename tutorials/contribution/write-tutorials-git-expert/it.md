@@ -131,7 +131,6 @@ touch tutorial.yml en.md
 
 ### 4 - Compilare il file YAML
 
-
 - Completare il file `tutorial.yml` come segue:
 
 ```

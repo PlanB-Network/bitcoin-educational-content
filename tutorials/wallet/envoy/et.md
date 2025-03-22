@@ -6,7 +6,7 @@ description: Passi seadistamine ja kasutamine koos Envoy rakendusega
 
 Envoy on Bitcoini rahakoti haldamise rakendus, mille on välja töötanud Foundation. See on spetsiaalselt mõeldud kasutamiseks koos Passport riistvaralise rahakotiga.
 
-Passport "*Partii 2*", mida me selles õpetuses koos Envoy rakendusega tutvustame, on "*Algataja väljaande*" järeltulija. Sellel on esmaklassiline disain, kõrglahutusega värviline ekraan ja ergonoomiline füüsiline klaviatuur. See töötab režiimis "*Air-Gap*", mis tagab, et teie rahakoti privaatvõtmed jäävad täiesti isoleerituks, kusjuures vahetused on võimalikud MicroSD-kaardi või QR-koodide kaudu. Seade sisaldab eemaldatavat 1200 mAh akut.
+Passport "*Batch 2*", mida esitleme selles juhendis koos Envoy rakendusega, on "*Founder's Edition*" järglane. See eristub oma kvaliteetse disaini, kõrglahutusega värviekraani ja ergonoomilise füüsilise klaviatuuriga. See töötab "*Air-Gap*" režiimis, tagades, et teie rahakoti privaatvõtmed jäävad täielikult isoleerituks, kus andmevahetus toimub MicroSD-kaardi või QR-koodide kaudu. Seade on varustatud eemaldatava ja laetava Nokia BL-5C akuga mahutavusega 1200 mAh. See mitteomandiline aku on kergesti asendatav, kuna BL-5C mudelit on lihtne leida kaubanduses.
 
 Mis puutub ühenduvusse, siis on Passport varustatud MicroSD-pordi, USB-C-pordi laadimiseks ja tagakaameraga QR-koodide skaneerimiseks.
 
@@ -23,6 +23,7 @@ Selles õpetuses, mis on mõeldud algajatele ja edasijõudnutele, tutvustame, ku
 Kui olete edasijõudnud kasutaja ja soovite uurida keerulisemaid funktsioone, siis soovitan vaadata seda teist õpetust, kus me konfigureerime Passport'i koos Sparrow Wallet'iga :
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 ## Passi lahtipakkimine
 
 Kui saate oma passi kätte, veenduge, et pakendi kast ja pitser on terved, et kinnitada, et pakki ei ole avatud. Seadme seadistamisel toimub ka seadme autentsuse ja terviklikkuse tarkvaraline kontroll.
@@ -169,7 +170,8 @@ Selleks kasutage oma Passport'i karbis sisalduvat MicroSD-kaarti (või mõnda mu
 
 Enne seadmesse paigaldamist soovitame tungivalt kontrollida allalaetud püsivara autentsust ja terviklikkust. Kui vajate selleks abi, vaadake seda õpetust :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### Rakendusega Envoy
 
 Teine, lihtsam võimalus on kasutada otse Envoy rakendust. Klõpsake nupule "*Download Firmware*".
@@ -253,6 +255,7 @@ Klõpsake kinnituse nupule, et näha oma mälulause.
 Lisateavet selle kohta, kuidas oma mnemofraasi õigesti salvestada ja hallata, soovitan kindlasti jälgida seda teist õpetust, eriti kui olete algaja:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 loomulikult ei tohi te neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus.**_
 
 Tehke sellest lausest füüsiline varukoopia.

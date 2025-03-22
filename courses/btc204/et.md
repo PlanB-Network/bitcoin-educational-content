@@ -28,7 +28,6 @@ Liitu meiega, et muuta oma Bitcoini kasutamine ja saada teadlikuks kasutajaks, k
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/V3eeFn4TuIY?feature=shared)
 
 Maailmas, kus finantstehingute konfidentsiaalsus muutub järk-järgult luksuseks, on Bitcoini kasutamisel oluline mõista ja omandada eraelu puutumatuse kaitse põhimõtteid. See koolituskursus annab teile kõik võtmed, nii teoreetilised kui ka praktilised, et seda iseseisvalt saavutada.
 
@@ -86,7 +85,6 @@ Samuti vaatleme privaatsust sõlmede võrgu ja tehingute levitamise tasandil. Sa
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/bE-dmcAe_wY?feature=shared)
 
 Bitcoin on ennekõike valuuta, kuid kas te tegelikult teate, kuidas BTC-d protokollis esindatud on?
 
@@ -137,7 +135,6 @@ Teie portfelli kogusaldo oleks "17 BTC".
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/oKhgnEClQzo?feature=shared)
 
 ### Tehingu sisendid ja väljundid
 
@@ -224,7 +221,6 @@ Teiseks, nagu eelnevates punktides mainitud, on Bitcoini mündid sisuliselt UTXO
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/ca80pCpMID0?feature=shared)
 
 ### Raha: autentsus, ausus ja topeltkulutused
 
@@ -298,7 +294,6 @@ Kuid kuna Bitcoini tehingud on avalikustatud, on siiski võimalik luua nende vah
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/PtAUOGgHEAY?feature=shared)
 
 ### Määratlus ja toimimine
 
@@ -345,7 +340,9 @@ Seega peame Bitcoini kasutamisel hakkama saama ka plokiahela analüüsiga. Seda 
 Mis oleks parem viis plokiahela analüüsile vastu astuda, kui õppida tundma selles kasutatavaid meetodeid? Kui soovite teada, kuidas parandada oma privaatsust Bitcoinis, peate neid meetodeid mõistma. See annab teile parema arusaamise sellistest tehnikatest nagu coinjoin või payjoin (tehnikaid vaatame kursuse lõpuosades) ja vähendab vigu, mida võite teha.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
-https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+
+https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+
 Siinkohal võib tuua analoogia krüptograafia ja krüptoanalüüsiga. Hea krüptograaf on eelkõige hea krüptoanalüütik. Uue krüpteerimisalgoritmi väljatöötamiseks on vaja teada, milliste rünnakutega see silmitsi seisab, ja uurida ka seda, miks eelmised algoritmid on murdunud. Sama põhimõte kehtib ka Bitcoini privaatsuse kohta. Plokiahela analüüsimeetodite mõistmine on nende eest kaitsmise võti. Seepärast olen sellesse koolituskursusesse lisanud terve peatüki ahelate analüüsi kohta.
 
 ### Ahelate analüüsi meetodid
@@ -379,7 +376,6 @@ Millised need on, näeme järgmistes peatükkides, kuid juba praegu on huvitav m
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/FA4VLQHr8wU?feature=shared)
 
 Tehingumuster on lihtsalt tüüpilise tehingu üldine mudel või struktuur, mida võib leida plokiahelas ja mille tõenäoline tõlgendus on teada. Mustrite uurimisel keskendume ühele tehingule ja analüüsime seda kõrgel tasemel.
 
@@ -511,7 +507,6 @@ Tänu nendele tehingumustritele saame me juba tõlgendada teatavat teavet konkre
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/mMBZ_diMC3g?feature=shared)
 
 Sisemine heuristika on konkreetne omadus, mille me tuvastame tehingus endas, ilma et peaksime uurima selle keskkonda, ja mis võimaldab meil teha järeldusi. Erinevalt mustritest, mis keskenduvad tehingu üldisele struktuurile kõrgel tasemel, põhineb sisemine heuristika ekstraheeritavate andmete kogumil. See hõlmab järgmist:
 
@@ -622,7 +617,6 @@ Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/WZ2B5cXp14w?feature=shared)
 
 Välise heuristika uurimine tähendab teatud elementide sarnasuste, mustrite ja omaduste analüüsimist, mis ei ole tehingu enda jaoks spetsiifilised. Teisisõnu, kui varem piirdusime sisemise heuristikaga tehingule omaste elementide ärakasutamisega, siis nüüd laiendame oma analüüsivälja tänu välisele heuristikale ka tehingukeskkonnale.
 
@@ -1042,7 +1036,6 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/qq_rdiujQTI?feature=shared)
 
 Olles uurinud meetodeid, mis võivad teie Bitcoini konfidentsiaalsust rikkuda, vaatleme nüüd selles kolmandas osas parimaid tavasid, mida enda kaitsmiseks vastu võtta. Selle osa eesmärk ei ole uurida konfidentsiaalsuse parandamise meetodeid - seda teemat käsitletakse hiljem -, vaid pigem mõista, kuidas Bitcoiniga õigesti suhelda, et säilitada selle loomulikul teel pakutav konfidentsiaalsus, ilma et peaks kasutama lisatehnikaid.
 
@@ -1179,7 +1172,6 @@ Kui teil on maksete vastuvõtmiseks vaja staatilist identifikaatorit, näiteks a
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/EhF0AlTv-uY?feature=shared)
 
 Nagu me avastasime stringianalüüsi käsitlevas osas, on olemas hulk heuristikat ja mustreid, mida saab kasutada tehingu kohta teabe tuletamiseks. Kasutajana on oluline olla neist tehnikatest teadlik, et end nende eest paremini kaitsta.
 
@@ -1282,11 +1274,11 @@ Kõik need automaatsed UTXO valikumeetodid võivad olla tõhusad tehingukulude v
 Kui soovid teada saada, kuidas oma UTXOsid märgistada, oleme teinud põhjaliku õpetuse peamise Bitcoini rahakoti tarkvara kohta:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 ## KYC ja võtmete tuvastamine
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/oqS0GGsoVUE?feature=shared)
 
 KYC tähendab "tunne oma klienti". See on regulatiivne menetlus, mida teatavad Bitcoini sektoris tegutsevad ettevõtted rakendavad. Selle menetluse eesmärk on kontrollida ja registreerida oma klientide identiteeti, mille eesmärk on võidelda rahapesu ja terrorismi rahastamise vastu.
 
@@ -1388,7 +1380,6 @@ Kokkuvõtteks, kui bitcoinid vahetatakse teiste varade vastu, olgu see siis ostm
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/tSLMwfvQVWQ?feature=shared)
 
 Pärast eelmise peatüki lugemist võite küsida, kuidas saate osta või müüa bitcoine, ilma et peaksite läbima isikusamasuse kontrollimise protseduuri, et vältida KYC-ga seotud riske. Bitcoiniga kauplemiseks on mitu võimalust.
 
@@ -1441,6 +1432,7 @@ Mis puutub lahendustesse, siis mina isiklikult olen alati kasutanud [Bisq](https
 -> Vaata meie Bisqi õpetust.
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
 Lihtsama variandi jaoks võite proovida [Peach] (https://peachbitcoin.com/), mobiilirakendust, mis ühendab ostjad ja müüjad sisseehitatud konfliktide lahendamise süsteemiga. Protsess on intuitiivsem kui Bisqi oma.
 
 -> Vaata meie õpetust "Virsik".
@@ -1452,6 +1444,7 @@ Teine online-variant on [HodlHodl](https://hodlhodl.com/), mis on hästi tuntud 
 -> Vaata meie HodlHodli õpetust.
 
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+
 Lightning Networkil põhinevate lahenduste jaoks proovige [RoboSats](https://learn.robosats.com/) ja [LNP2PBot](https://lnp2pbot.com/). RoboSats on kättesaadav veebisaidi kaudu ja seda on suhteliselt lihtne kasutada. LNP2PBot on ebatüüpilisem, sest see töötab Telegrami sõnumivahetussüsteemi kaudu.
 
 -> Vaata meie RoboSatsi õpetust.
@@ -1459,7 +1452,9 @@ Lightning Networkil põhinevate lahenduste jaoks proovige [RoboSats](https://lea
 -> Vaata meie LNP2PBot õpetust.
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
 https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+
 ![BTC204](assets/fr/091.webp)
 
 ### Reguleeritud platvormid ilma KYC-ta
@@ -1469,6 +1464,7 @@ Sõltuvalt riigist, kus te elate, võib teil olla juurdepääs reguleeritud plat
 -> Vaata meie õpetust Relai.
 
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+
 Nagu nägime eelmises peatükis, säästab seda tüüpi platvorm teid KYC-menetlustega seotud riskidest, kuid need kujutavad endast suuremat riski võtmete tuvastamisel. Bitcoini konfidentsiaalsuse seisukohast pakuvad need platvormid seega paremat kaitset kui KYC-ga ostumeetodid, kuid nad jäävad vähem atraktiivseks kui P2P-vahetused.
 
 Isikliku turvalisuse seisukohast on nende platvormide kasutamine siiski palju vähem riskantne kui P2P-vahetusportaalide kasutamine. Samuti on neid sageli lihtsam kasutada kui P2P-platvorme.
@@ -1492,6 +1488,7 @@ Parim viis BTC kulutamiseks on muidugi kasutada Bitcoini või Lightning Networki
 Mitmed platvormid, mis ei nõua KYC-menetlusi, pakuvad võimalust vahetada bitcoin'e kinkekaartide vastu, mida saab kasutada suuremates jaemüügiettevõtetes. Nende hulka kuuluvad [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) ja [Bitrefill](https://www.bitrefill.com/). Need platvormid muudavad bitcoinide igapäevase kasutamise palju lihtsamaks, andes teile juurdepääsu paljudele toodetele ja teenustele, ilma et peaksite neid fiat-valuutaks konverteerima.
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/fr/093.webp)
 
 ### Muud omandamismeetodid
@@ -1506,7 +1503,6 @@ Teine meetod on töötada bitcoinide vastu. See omandamisviis võib olla huvitav
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/5mynikwUkLs?feature=shared)
 
 Üks keerulisemaid aspekte isevalitseja portfelli juhtimisel on konsolideerimine. Kas peaksite konsolideerima? Milleks on mõtet? Millist UTXO suurust tuleks järgida? Millised on kompromissid konfidentsiaalsuse osas? Seda vaatleme selles jaotises.
 
@@ -1591,7 +1587,6 @@ Igal juhul ärge unustage, et igasugune konsolideerimine toob paratamatult kaasa
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/mKuyVKi_JKM?feature=shared)
 
 Vaatame veel mõningaid parimaid tavasid Bitcoini privaatsuse optimeerimiseks.
 
@@ -1648,7 +1643,6 @@ Lisaks kõigile nendele headele tavadele, mida tuleb igapäevaselt rakendada, on
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/D9-2dTpmWNU?feature=shared)
 
 Olles uurinud privaatsuse kaitse põhialuseid, vaatleme nüüd keerukamaid tehnikaid, mille eesmärk on kaitsta aktiivselt oma konfidentsiaalsust, eelkõige bitcoin'i ajaloo lahtiseletamise kaudu. Järgmises osas vaatleme terve hulga väikseid tehnikaid, kuid kõigepealt tahaksin teile rääkida coinjoinist.
 
@@ -1747,7 +1741,6 @@ Tänapäeva kasutajad eelistavad seega coinjoin'i, kuna see võimaldab neil säi
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/JYBh0_u62Yc?feature=shared)
 
 Mündiühendusest tulenev privaatsus on teenitud grupi suurusega, kuhu meie tükk on peidetud. See tähendab, et tuleb leida võimalikult palju osalejaid. On täiesti võimalik luua coinjoin käsitsi, ise leitud kasutajatega, kuid see on keeruline protsess ja sellega ei võida suuri anonüüme.
 
@@ -1863,7 +1856,6 @@ Praegu on Whirlpool ainus coinjoin rakendamine, mis kohaldab rangelt Zerolinki p
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/cKNB1_840Ic?feature=shared)
 
 *2024. aastal oleme tunnistajaks olulistele muudatustele tööriistades, mis on kättesaadavad kasutajatele, kes soovivad Bitcoinis coinjoneid teha. Oleme praegu pöördepunktis ja coinjoin-turul on toimumas suured ümberkorraldused. Seda peatükki uuendatakse kindlasti aja jooksul
 
@@ -1945,7 +1937,6 @@ Nagu te nüüdseks olete juba aru saanud, eelistan Bitcoini mündiühenduste puh
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/JQ12fBHsLtY?feature=shared)
 
 Whirlpooli eristab teistest coinjoin meetoditest "_ZeroLink_" tehingute kasutamine, mis tagab, et kõigi sisendite ja väljundite vahel ei ole rangelt mingit võimalikku tehnilist seost. See täiuslik kombinatsioon saavutatakse struktuuri abil, kus iga osaleja panustab ühesuguse koguse sisendi (välja arvatud kaevandamistasud), tekitades täiesti võrdse koguse väljundid.
 
@@ -2176,13 +2167,15 @@ Jälgime seda juhtumit ja sellega seotud vahendite arengut tähelepanelikult. V�
 Järgmises peatükis saame teada, mis on "anonsetid", kuidas neid näitajaid arvutatakse ja kuidas need aitavad meil hinnata coinjoin'i tsüklite tõhusust.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ## Anonüümsuse komplektid
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/9nMLaYf6yx0?feature=shared)
 
 Olles uurinud, kuidas coinjoinid toimivad ja millised on tõhusa segamisega seotud probleemid, selgitame nüüd välja, kuidas nende tõhusust mõõta. Kuidas saame kindlaks teha, kas koosliitmine on olnud tõhus ja millise anonüümsuse astme on osa omandanud? Seda hakkame selles peatükis välja selgitama anonüümsuse komplektide ehk "anonüümsete komplektide" abil.
 
@@ -2253,11 +2246,11 @@ Väikeste ansamblite puhul on võimalik anonüümide arvutamine käsitsi, kasuta
 Nagu me selles peatükis nägime, saab anonüüme arvutada ainult siis, kui ühisliidete struktuuris on teatav homogeensus. Järgmises peatükis saame teada, kuidas seda homogeensust Bitcoini tehingu puhul kvantifitseerida, olgu see siis coinjoin või traditsioonilisem tehing.
 
 https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 ## Entroopia
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/yGr34eyMPtA?feature=shared)
 
 Nagu me nägime käesolevas punktis coinjoinide kohta, mängib UTXOde homogeensus sisend- ja väljundis olulist rolli Bitcoini tehingu konfidentsiaalsuse parandamisel. See parameeter loob plokiahela analüüsile usutava eitatavuse. Selle homogeensuse mõõtmiseks saab kasutada mitmeid meetodeid, kuid minu arvates on üks tõhusamaid OXT ja Samourai rahakoti meeskondade poolt välja töötatud *Boltzmanni* tööriista pakutavate näitajate ja eelkõige tehingu entroopia kasutamine. Seda vaatleme selles peatükis üksikasjalikult.
 
@@ -2510,6 +2503,7 @@ Kahjuks ei ole need vahendid pärast Samourai asutajate vahistamist enam tööko
 Nüüd, kui me oleme käsitlenud üksikasjalikult coinjoins, vaatame meie kursuse viimases osas teisi Bitcoini privaatsustehnikaid. Vaatleme payjoin'eid, konkreetseid pseudocoinjoin'i tehingutüüpe, staatilisi aadressiprotokolle, samuti meetmeid, mis tugevdavad konfidentsiaalsust mitte tehingute endi, vaid sõlmede võrgu tasandil.
 
 https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 # Teiste täiustatud konfidentsiaalsusmeetoditega seotud probleemide mõistmine
 
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2518,7 +2512,6 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/e4i66QXWCvs?feature=shared)
 
 Coinjoin on praegu kõige tõhusam meetod ebakindluse lisamiseks osade jälgimisse ahelanalüüsis. Nagu oleme eelmistes peatükkides näinud, peavad sisendid ja väljundid olema võimalikult homogeensed, et saada suure jõudlusega kombinatsioon. Lisaks on oluline, et osad oleksid integreeritud võimalikult suurde gruppi, et maksimeerida anonsetid. Seega, et koosliitmised oleksid tõhusad, peavad need hõlmama suurt hulka ühtlasi ühtlasi ka osi. See nõuete paljusus tähendab, et coinjoin-tehingutel on väga jäik struktuur: summad on eelnevalt kindlaks määratud ja kõik osalejad peavad neist kinni pidama, et tagada protsessi ühetaolisus. Lisaks nõuavad coinjoin-tehingud sünkroniseerimist kõigi osalejate ja koordinaatori vahel tehingu koostamise ajal.
 
@@ -2603,12 +2596,13 @@ Payjoini kasutamise raskuseks on selle sõltuvus kaupmehe osalusest. Kliendina e
 Üks lahendus oleks kasutada tehingustruktuure, mis toovad ahelaanalüüsi mitmetähenduslikkust, ilma et see nõuaks vastuvõtja koostööd. See võimaldaks meil parandada maksete konfidentsiaalsust ilma kaupmeeste aktiivsele osalusele tuginemata. Just seda vaatleme järgmises peatükis.
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+
 ## Makse mini-mündiühendus
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/SUMLsQSytbE?feature=shared)
 
 Kui soovite sooritada maksetehingu, säilitades samal ajal teatava konfidentsiaalsuse, on payjoin hea valik. Kuid nagu me just nägime, nõuab payjoin vastuvõtja kaasamist. Mida siis teha, kui saaja keeldub payjoinis osalemast või kui te lihtsalt eelistate teda mitte kaasata? Üks alternatiiv on kasutada Stonewall- või Stonewall x2-tehingut. Vaatame neid kahte tehinguliiki lähemalt.
 
@@ -2725,12 +2719,13 @@ Seda tüüpi tehinguid on võimalik teha ka käsitsi mis tahes Bitcoini rahakoti
 Järgmises peatükis vaatleme veel üht konfidentsiaalsustehnikat, mis on suhteliselt tundmatu, kuid mis on väga kasulik täienduseks sellele, mida oleme juba uurinud.
 
 https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+
 https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+
 ## Ritsikad
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/TfOsnqXtJ8g?feature=shared)
 
 Bitcoini tehingustruktuuride kasutamine, mis lisavad ahela analüüsile ebaselgust, nagu näiteks coinjoin, on eriti kasulik privaatsuse kaitsmiseks. Kuid nagu me arutasime payjoini peatükis, on coinjoini tehingud ahelas loomulikult tuvastatavad. Tuletage meelde analoogiat, mille me tõime krüpteerimise ja coinjoini vahel: kui fail on krüpteeritud, ei pääse kolmas isik, kes avastab krüpteeritud faili, selle sisule ligi, kuid saab selgelt tuvastada, et faili on muudetud selle sisu varjamiseks. Sama kehtib ka coinjoini kohta: kui analüütik uurib coinjoini tehingut, siis kuigi ta ei saa tuvastada otseseid seoseid sisendite ja väljundite vahel (ja vastupidi), saab ta siiski tuvastada, et vaadeldav tehing on coinjoin.
 
@@ -2799,11 +2794,11 @@ Ricocheting tähendab lihtsalt bitcoinide saatmist endale. On täiesti võimalik
 Järgmises peatükis vaatleme erinevaid salajase omandiõiguse ülemineku tehnikaid. Need meetodid erinevad radikaalselt seni vaadeldud meetoditest nii toimimise kui ka tulemuste poolest.
 
 https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+
 ## Salajane omandiõiguse üleminek
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/zfl5c5yeoTk?feature=shared)
 
 Teine Bitcoini konfidentsiaalsusmeetod on salajane omandiõiguse üleandmine. Selle meetodi eesmärk on kanda Bitcoine ühelt inimeselt teisele ja vastupidi üle, ilma et tehing oleks plokiahelas selgelt nähtav. Vaatleme erinevaid olemasolevaid tehnikaid koos nende eeliste ja puudustega.
 
@@ -2926,7 +2921,6 @@ Seni oleme uurinud peamiselt konfidentsiaalsusmeetodeid tehingute tasandil. Jär
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/z3PMxy7xpuU?feature=shared)
 
 Neljandas osas arutasime, kui oluline on kasutada täielikku sõlme, et kaitsta oma tehingute konfidentsiaalsust. Siiski on oluline mõista, et teie sõlme võivad ka teie enda vastu suunatud rünnakud, mille eesmärk on teie tegevust puudutava teabe väljavõtmine. Seetõttu vaatleme selles peatükis erinevaid meetmeid, mida saate võtta oma privaatsuse kaitsmiseks mitte tehingute endi või bitcoini voogude tasandil, vaid võrgu tasandil.
 
@@ -3004,7 +2998,6 @@ Olles uurinud erinevaid konfidentsiaalsusmeetodeid võrgu tasandil, tahaksin tei
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/QxbNReGAsvg?feature=shared)
 
 Nagu nägime 3. osas, on aadresside korduvkasutamine tõsine takistus kasutajate konfidentsiaalsusele Bitcoini protokollis. Nende riskide vähendamiseks on tungivalt soovitatav luua iga uue rahakotti laekunud makse jaoks tühi vastuvõtuaadress. Kuigi uue aadressi genereerimine on nüüd tänu kaasaegse tarkvara ja hierarhiliste deterministlike rahakottide kasutamisele lihtsustatud, võib see praktika tunduda vastunäidustatud.
 
@@ -3074,6 +3067,7 @@ Kuigi neil robotitel ei ole konkreetset tehnilist funktsiooni BIP47 raamistikus,
 *Käesoleva peatüki järgmistes BIP47-le pühendatud osades vaatame üksikasjalikult, kuidas see töötab, pöörates erilist tähelepanu kasutatud krüptograafilistele meetoditele. Nende mõnevõrra tehniliste selgituste täielikuks mõistmiseks on esmalt oluline mõista HD-kontode struktuuri, võtme tuletamise protseduure ja elliptilise kõveruse krüptograafia põhialuseid. Kui soovite neisse mõistetesse süveneda, siis on veel üks tasuta koolituskursus saadaval Plan ₿ Network :*
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 *Soovitan teil neid siiski jälgida, sest BIP47 tehnilise toimimise mõistmine teeb teile palju lihtsamaks teiste sarnaste ettepanekute mõistmise, mida arutame järgmistes peatükkides*
 
 ---
@@ -3825,11 +3819,11 @@ Bob saab seejärel hüvitada Alice'ile sama moodi, kuidas ta talle makseid saati
 *Suur tänu [Fanis Michalakisele](https://x.com/FanisMichalakis) selle peatüki kirjutamise aluseks olnud artikli korrektuuri ja asjatundlike nõuannete eest!
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+
 ## Vaikivad maksed
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/lG6JamNlwXY?feature=shared)
 
 BIP47 on laialdaselt kritiseeritud selle ebaefektiivsuse tõttu. Nagu eelmises peatükis selgitatud, nõuab see iga uue vastuvõtja puhul teatamistehingu sooritamist. See piirang muutub ebaoluliseks, kui me kavatseme luua selle saajaga jätkusuutliku maksekanali. Üks teatamistehing sillutab teed peaaegu lõpmatule arvule järgnevatele BIP47 maksetele.
 

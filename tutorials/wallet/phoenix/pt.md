@@ -6,7 +6,7 @@ description: Instalar e utilizar a Phoenix Wallet
 
 Phoenix é uma carteira Lightning autocustodial e um nó desenvolvido pela ACINQ, uma empresa francesa especializada em soluções de software baseadas em Lightning. Ao contrário das carteiras Lightning com custódia, como a Wallet of Satoshi, onde as bitcoins são guardadas por terceiros, a Phoenix permite que os utilizadores mantenham o controlo total das suas chaves privadas.
 
-De facto, o Phoenix funciona como um verdadeiro nó Lightning incorporado no seu telefone, que abrirá automaticamente um canal com o nó Lightning da ACINQ. A aplicação é baseada no Eclair, a implementação Lightning desenvolvida pela ACINQ. Ao contrário de outras soluções de nós Lightning, o Phoenix simplifica consideravelmente a gestão. Os utilizadores não têm de gerir a abertura e o fecho de canais, gerir um nó Bitcoin ou gerir a sua liquidez na rede Lightning. O Phoenix encarrega-se de todas estas operações técnicas em segundo plano.
+Phoenix funciona como um verdadeiro nó Lightning integrado ao seu telefone, que abre automaticamente um canal com o nó Lightning da ACINQ. O aplicativo é baseado no Lightning-KMP, uma implementação multiplataforma da Lightning Network em Kotlin, otimizada para carteiras móveis. Ao contrário de outras soluções de nós Lightning, o Phoenix simplifica significativamente a gestão. O usuário não precisa gerenciar a abertura e o fechamento de canais, executar um nó Bitcoin ou administrar sua liquidez na rede Lightning. O Phoenix cuida de todas essas operações técnicas em segundo plano.
 
 Esta aplicação combina a facilidade de utilização e a comodidade das carteiras Lightning móveis com a segurança e a soberania de um verdadeiro nó Lightning pessoal. A Phoenix torna possível utilizar a Lightning Network de forma segura, eficiente e autónoma, enquanto desfruta de uma experiência de utilizador fluida e intuitiva.
 
@@ -60,6 +60,7 @@ Pode escrevê-la em papel ou, para maior segurança, gravá-la em aço inoxidáv
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 Clique na mensagem apresentada na parte superior da interface "*Guarde a sua carteira...*".
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Parabéns, agora já sabe como configurar e utilizar o Phoenix. Se este tutorial
 Para dar um passo em frente, consulte este tutorial sobre o Alby Hub, outra solução inovadora e fácil de utilizar para lançar o seu próprio nó Lightning:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 E para saber mais sobre o funcionamento técnico da Rede Relâmpago, pode encontrar a excelente formação gratuita de Fanis Michalakis sobre o Plano ₿ Network :
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

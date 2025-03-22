@@ -67,6 +67,7 @@ Bạn có thể khắc nó lên một tờ giấy hoặc để an toàn hơn, t�
 Để biết thêm thông tin về cách lưu và quản lý cụm từ ghi nhớ đúng cách, tôi thực sự khuyên bạn nên làm theo hướng dẫn khác này, đặc biệt nếu bạn là người mới bắt đầu:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 tất nhiên, bạn không bao giờ được chia sẻ những từ này trên Internet, như tôi đang làm trong hướng dẫn này. Danh mục mẫu này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa vào cuối hướng dẫn.**_
 
 Nhấn nút trên Cổng thông tin của bạn thật mạnh để chuyển sang các từ tiếp theo. Đảm bảo bạn đặt toàn bộ ngón tay vào nút và giữ nguyên trong vài giây để tương tác được phát hiện chính xác.

@@ -7,7 +7,7 @@ description: Configurer et utiliser un Passport avec l'application Envoy
 
 Envoy est une application de gestion de portefeuille Bitcoin développée par Foundation. Elle est spécialement conçue pour être utilisée avec le hardware wallet Passport.
 
-Le Passport "*Batch 2*" que nous présentons dans ce tutoriel avec l'application Envoy est le successeur de l'édition "*Founder's Edition*". Il se distingue par son design premium, un écran couleur haute définition et un clavier physique ergonomique. Il fonctionne en mode "*Air-Gap*", ce qui garantit que les clés privées de votre portefeuille restent totalement isolées, avec des échanges possibles via une carte MicroSD ou par QR codes. L'appareil inclut une batterie amovible de 1200 mAh.
+Le Passport "*Batch 2*" que nous présentons dans ce tutoriel avec l'application Envoy est le successeur de l'édition "*Founder's Edition*". Il se distingue par son design premium, un écran couleur haute définition et un clavier physique ergonomique. Il fonctionne en mode "*Air-Gap*", ce qui garantit que les clés privées de votre portefeuille restent totalement isolées, avec des échanges possibles via une carte MicroSD ou par QR codes. L'appareil est équipé d'une batterie rechargeable amovible Nokia BL-5C de 1200 mAh. Cette batterie non propriétaire peut être facilement remplacée, car le modèle BL-5C se trouve facilement dans le commerce.
 
 Pour ce qui est de la connectivité, le Passport est équipé d'un port MicroSD, d'un port USB-C pour le chargement, et d'une caméra arrière pour scanner les QR codes.
 
@@ -166,7 +166,7 @@ Pour cela, utilisez la carte MicroSD incluse dans la boîte de votre Passport (o
 
 Avant de l'installer sur votre appareil, il est vivement conseillé de vérifier l'authenticité et l'intégrité du firmware téléchargé. Si vous avez besoin d'aide pour le faire, consultez ce tutoriel : 
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Avec l'application Envoy
 
@@ -452,3 +452,4 @@ Félicitations, vous savez dorénavant comment configurer et utiliser le Passpor
 Pour aller plus loin, vous pouvez également consulter notre tutoriel sur le logiciel Liana :
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

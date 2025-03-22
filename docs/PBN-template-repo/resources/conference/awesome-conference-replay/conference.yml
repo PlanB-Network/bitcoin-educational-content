@@ -14,7 +14,6 @@ year: 2021-11
 # Should correspond to exactly the complete name of a builder 
 # cf. /builder folder
 # (will be soon changed to an associated uuid)
-builder: Galoy
 
 # Conference Location
 # format: Town, Country

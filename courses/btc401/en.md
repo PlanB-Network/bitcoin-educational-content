@@ -275,7 +275,7 @@ Understanding the realities of Bitcoin’s energy consumption, privacy features,
 ## Running Bitcoin
 
 <chapterId>5f638ec9-a6c1-5716-b27f-d837ab896eb1</chapterId>
-<professor>radio-talent</professor>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 ### Installation of Bitcoin Core
 
@@ -770,7 +770,7 @@ In conclusion, continuously addressing these open problems and innovating within
 ## Security Thinking in Bitcoin
 
 <chapterId>0b97af0c-015a-54e3-a7f0-0f62ceb96c07</chapterId>
-<professor>because-drama</professor>
+<professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
 ![Video](https://youtu.be/2f_rK74MB3U)
 
@@ -835,7 +835,7 @@ In conclusion, comprehending and integrating security and reliability principles
 ## Free and Open Source Software (FLOSS) in Bitcoin
 
 <chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
-<professor>because-drama</professor>
+<professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
 ![Video](https://youtu.be/ln-FYziKqNY)
 
@@ -882,7 +882,7 @@ In conclusion, the economics of open-source software are driven by community con
 ## Cryptography in Bitcoin
 
 <chapterId>71867dd2-912c-55ad-b59c-9dbca8a39469</chapterId>
-<professor>happy-panda</professor>
+<professorId>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</professorId>
 
 ![Video](https://youtu.be/QcK-Cl8B9QU)
 
@@ -943,7 +943,7 @@ By mastering these concepts and adhering to best practices, you'll be well-equip
 ## Bitcoin's Governance Model
 
 <chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
-<professor>because-drama</professor>
+<professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
 ![Video](https://youtu.be/g_BcT5YkZUQ)
 
@@ -1010,7 +1010,7 @@ In conclusion, Bitcoin's future and changes are determined by the collective wil
 ## Node Components in Bitcoin
 
 <chapterId>75ea1d88-ee6f-5f98-af90-e4758c55e606</chapterId>
-<professor>happy-panda</professor>
+<professorId>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</professorId>
 
 ![Video](https://youtu.be/hGS8Cuj5Zb4)
 
@@ -1113,7 +1113,7 @@ Running a Bitcoin node is a powerful way to participate in the Bitcoin network, 
 ## Bitcoin's Data Structures
 
 <chapterId>5ed314b1-8293-567d-bf03-730e8c9c774b</chapterId>
-<professor>radio-talent</professor>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 ![video](https://youtu.be/okvV9hqDOtM)
 
@@ -1400,7 +1400,7 @@ In conclusion, parsing Bitcoin blocks and transactions in Rust involves understa
 ## Bitcoin Software Overview and Node Implementations
 
 <chapterId>96d64781-fc27-5209-88d8-2acf00d05ea8</chapterId>
-<professor>mad-salad</professor>
+<professorId>0b05838c-24af-43ff-93be-896c907e0bc1</professorId>
 
 ![Video](https://youtu.be/xOdz9GEiShM)
 
@@ -1669,7 +1669,7 @@ By understanding these components, from Bitcoin nodes and wallets to the Bitcoin
 ## History of Payment Channels
 
 <chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
-<professor>best-lion</professor>
+<professorId>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</professorId>
 
 ![Video](https://youtu.be/VtpbCspK5T4)
 
@@ -1710,7 +1710,7 @@ In conclusion, understanding the historical context and challenges of Bitcoin, a
 ## History of Atomic Routing
 
 <chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
-<professor>best-lion</professor>
+<professorId>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</professorId>
 
 ![Video](https://youtu.be/5OUgGHH6jPY)
 
@@ -1769,7 +1769,6 @@ In summary, proper node operation ensures atomic payments, and the Lightning Net
 ## BOLT Review
 
 <chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
-<professor>another-satoshi</professor>
 
 ![Video](https://youtu.be/1aIuKBkPlkg)
 
@@ -1893,7 +1892,6 @@ In conclusion, understanding the Second Layer Importance, Lightning Network Spec
 ## Major LN Clients
 
 <chapterId>a2ad8db4-aea2-5231-927c-616c53db31bf</chapterId>
-<professor>another-satoshi</professor>
 
 ![Video](https://youtu.be/a0Q_5dzpqKw)
 
@@ -2027,7 +2025,6 @@ In conclusion, understanding the various aspects of Lightning Network clients, t
 ## Practical Challenges to LN
 
 <chapterId>014c7c40-aef7-58ac-b51f-33784463f482</chapterId>
-<professor>another-satoshi</professor>
 
 **(the video will be available soon)**
 
@@ -2138,7 +2135,7 @@ By addressing these challenges, the Lightning Network will continue to mature, b
 ## LN Future Evolution
 
 <chapterId>c06763dd-bb26-5fec-8ac4-3e446e9517cd</chapterId>
-<professor>best-lion</professor>
+<professorId>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</professorId>
 
 ![Video](https://youtu.be/VXMON_nD650)
 
@@ -2195,7 +2192,7 @@ By understanding and appreciating these developments, we can recognize the multi
 ## Protocols on top of LN
 
 <chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
-<professor>radio-talent</professor>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 ![Video](https://youtu.be/KqBfPaXqU2U)
 
@@ -2278,7 +2275,7 @@ The extension and integration of Lightning payments through various protocols an
 ## Bitcoin Mining Essentials
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-<professor>diamond-jar</professor>
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 ![Video](https://youtu.be/W3Ra0cdG02I)
 
@@ -2389,7 +2386,7 @@ In conclusion, the world of Bitcoin mining is a complex, multifaceted domain tha
 ## Understanding Joinmarket
 
 <chapterId>f109f64f-9b73-5fbf-8870-5d34d5b69df8</chapterId>
-<professor>happy-panda</professor>
+<professorId>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</professorId>
 
 ![Video](https://youtu.be/VFjccozVwc8)
 

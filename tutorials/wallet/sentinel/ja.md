@@ -39,7 +39,7 @@ Google Playストアから、または[公式ウェブサイトでダウンロ�
 Samouraiのサーバーに接続する。
 [Dojo](https://samouraiwallet.com/dojo)は、Samouraiチームによって開発された完全なBitcoinノードバージョンで、スタンドアロンでインストールすることも、[Umbrel](https://umbrel.com/)や[RoninDojo](https://ronindojo.io/)のようなノードインボックスソリューションにワンクリックで追加することもできます。
 
-[**-> Raspberry PiにRoninDojo v2をインストールする方法を発見する。**](https://planb.network/fr/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> Raspberry PiにRoninDojo v2をインストールする方法を発見する。**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 自分のDojoを持っている場合は、この段階で接続することができます。そうすることで、Bitcoinネットワークのトランザクション情報をチェックする際に、最高レベルのプライバシーを享受できます。
 

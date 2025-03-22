@@ -66,7 +66,7 @@ Rendez-vous sur le site officiel de Wizardsardine et téléchargez Liana à l'ad
 
 Pour savoir comment vérifier manuellement l'authenticité et l'intégrité d'un logiciel avant son installation, nous vous recommandons de consulter ce tutoriel :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Installez le logiciel sur votre machine et lancez-le. Choisissez l'option « *Create a new Liana wallet* » pour configurer votre portefeuille.
 
@@ -354,3 +354,4 @@ Les scripts créés par ce portefeuille auront ainsi la forme suivante :
 Puisque la sécurité de votre portefeuille Bitcoin dépend aussi de votre compréhension de son fonctionnement, je vous suggère d'étudier en profondeur les mécanismes des portefeuilles déterministes et hiérarchiques en suivant cette formation gratuite sur Plan ₿ Network :
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+

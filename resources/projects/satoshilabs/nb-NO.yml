@@ -4,5 +4,3 @@ description: |
   Trezor hardware wallet, SatoshiLabs' flaggskipprodukt, er en fysisk enhet som trygt lagrer brukernes private nøkler offline. Denne funksjonen gjør den motstandsdyktig mot mange typer online angrep. Ved å holde de private nøklene på enheten og offline, tilbyr Trezor et ekstra lag med sikkerhet for brukernes Bitcoin-eiendeler.
 
   I tillegg til Trezor hardware wallet, har SatoshiLabs gjort betydelige bidrag til Bitcoin-økosystemet. Dette inkluderer å skape ulike sikkerhetsstandarder og utvikle nye teknologier designet for å forbedre og beskytte Bitcoin-transaksjoner.
-contributors:
-  - rabbit-hole

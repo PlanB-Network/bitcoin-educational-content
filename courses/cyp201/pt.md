@@ -86,7 +86,7 @@ Essas funções de hash criptográficas têm várias características essenciais
 
 #### 1. Irreversibilidade (resistência à imagem prévia):
 
-Irreversibilidade significa que é fácil calcular o hash a partir da informação de entrada, mas o cálculo inverso, ou seja, encontrar a entrada a partir do hash, é praticamente impossível. Esta propriedade torna as funções de hash perfeitas para criar impressões digitais únicas sem comprometer a informação original. Esta característica é frequentemente referida como uma função unidirecional ou uma "_função de armadilha_".
+A irreversibilidade significa que é fácil calcular o hash a partir da informação de entrada, mas que o cálculo inverso, ou seja, encontrar a entrada a partir do hash, é praticamente impossível. Essa propriedade torna as funções de hash perfeitas para criar impressões digitais únicas sem comprometer a informação original.
 
 No exemplo dado, obter o hash `24f1b9…` sabendo a entrada "_PlanB_" é simples e rápido. No entanto, encontrar a mensagem "_PlanB_" apenas sabendo `24f1b9…` é impossível.
 
@@ -1289,6 +1289,7 @@ Uma frase de 12 palavras, que também oferece 128 bits de segurança, é, portan
 Para ir além e aprender concretamente como gerar manualmente uma frase mnemônica de teste, aconselho você a descobrir este tutorial:
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 Antes de continuar com a derivação da carteira a partir desta frase mnemônica, vou apresentar a você, no capítulo seguinte, a passphrase BIP39, pois ela desempenha um papel no processo de derivação, e está no mesmo nível que a frase mnemônica.
 ## A passphrase
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

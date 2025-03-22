@@ -6,7 +6,7 @@ description: Menginstal dan menggunakan Phoenix Wallet
 
 Phoenix adalah dompet dan node Lightning kustodian mandiri yang dikembangkan oleh ACINQ, sebuah perusahaan Prancis yang berspesialisasi dalam solusi perangkat lunak berbasis Lightning. Tidak seperti dompet Lightning kustodian seperti Wallet of Satoshi, di mana bitcoin dipegang oleh pihak ketiga, Phoenix memungkinkan pengguna untuk memegang kendali penuh atas kunci pribadi mereka.
 
-Faktanya, Phoenix bekerja seperti sebuah node Lightning sungguhan yang tertanam di ponsel Anda, yang secara otomatis akan membuka saluran dengan node Lightning ACINQ. Aplikasi ini didasarkan pada Eclair, implementasi Lightning yang dikembangkan oleh ACINQ. Tidak seperti solusi Lightning node lainnya, Phoenix menyederhanakan manajemen secara signifikan. Pengguna tidak perlu mengatur pembukaan dan penutupan saluran, menjalankan node Bitcoin, atau mengelola likuiditas mereka di jaringan Lightning. Phoenix menangani semua operasi teknis ini di latar belakang.
+Phoenix berfungsi sebagai node Lightning yang sebenarnya yang tertanam di ponsel Anda, secara otomatis membuka saluran dengan node Lightning ACINQ. Aplikasi ini didasarkan pada Lightning-KMP, sebuah implementasi lintas platform Lightning Network dalam Kotlin yang dioptimalkan untuk dompet seluler. Tidak seperti solusi node Lightning lainnya, Phoenix sangat menyederhanakan pengelolaan. Pengguna tidak perlu menangani pembukaan dan penutupan saluran, menjalankan node Bitcoin, atau mengelola likuiditas di jaringan Lightning. Phoenix menangani semua operasi teknis ini di latar belakang.
 
 Aplikasi ini menggabungkan kemudahan penggunaan dan kenyamanan dompet Lightning seluler dengan keamanan dan kedaulatan simpul Lightning pribadi yang asli. Phoenix memungkinkan untuk menggunakan Lightning Network dengan aman, efisien, dan mandiri, sambil menikmati pengalaman pengguna yang lancar dan intuitif.
 
@@ -60,6 +60,7 @@ Anda bisa menuliskannya di atas kertas atau, untuk keamanan tambahan, mengukirny
 Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa mnemonik Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 Klik pada pesan yang ditampilkan di bagian atas antarmuka "*Save your wallet...*".
 
 ![Image](assets/fr/07.webp)
@@ -175,6 +176,7 @@ Selamat, Anda sekarang tahu cara mengkonfigurasi dan menggunakan Phoenix. Jika A
 Untuk melangkah lebih jauh, lihat tutorial tentang Alby Hub ini, solusi inovatif dan mudah digunakan lainnya untuk meluncurkan node Lightning Anda sendiri:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 Dan untuk mengetahui lebih lanjut tentang pengoperasian teknis Lightning Network, Anda dapat menemukan pelatihan gratis yang luar biasa dari Fanis Michalakis di Plan ₿ Network :
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

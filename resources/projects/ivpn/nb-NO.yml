@@ -8,5 +8,3 @@ description: |
   Våre funksjoner inkluderer et valg av WireGuard, OpenVPN eller IPSec-protokoller, AntiTracker som blokkerer annonser og sporing, Killswitch/Firewall-alternativ, private ikke-loggførende DNS-servere, multi-hop VPN-ruter, portvideresending og Obfsproxy for å omgå sensur.
 
   Selv om vi klargjør at VPN-er ikke kan oppnå anonymitet eller forhindre datainnsamling av gigantene som Google eller Facebook, forsikrer vi at en pålitelig VPN som vår kan effektivt kryptere dataene dine og DNS-forespørsler, øke sikkerheten på upålitelige offentlige nettverk, maskere IP-adressen din og omgå sensur eller geografiske blokkeringer. Vi er en pålitelig del av din personvernbeskyttelsesstrategi, forutsatt at du stoler på oss mer enn din ISP.
-contributors:
-  - rabbit-hole

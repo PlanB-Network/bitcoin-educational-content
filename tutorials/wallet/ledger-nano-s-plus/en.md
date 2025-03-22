@@ -51,7 +51,7 @@ For this tutorial, you will need 2 software applications: Ledger Live to initial
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 For these two software programs, I strongly recommend checking both their authenticity (with GnuPG) and their integrity (via the hash) before installing them on your machine. If you're not sure how to do this, you can follow this other tutorial:
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## How to Initialize a Ledger Nano?
 

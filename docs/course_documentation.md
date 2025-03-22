@@ -103,7 +103,7 @@ En el marco de este curso, discutiremos los aspectos monetarios de Bitcoin, incl
 […]
 ```
 
-The markdown course file is divided in 3 parts. The first two parts would be used to build the presentation page of the course (see this [example](https://planb.network/es/courses/btc101)):
+The markdown course file is divided in 3 parts. The first two parts would be used to build the presentation page of the course (see this [example](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966)):
 
 1. The **Course Header** which contains language-specific metadata and is delimited by `---` and must contain the following properties:
    - `name`: define the name of the course

@@ -790,7 +790,7 @@ Trong phần đầu tiên, chúng ta có thể thấy:
 
 - `ln` chỉ ra rằng đây là một giao dịch Lightning.
 - `bc` chỉ ra rằng mạng Lightning hoạt động trên blockchain Bitcoin (không phải trên testnet hoặc trên Litecoin).
-- `100u` chỉ ra số lượng của hóa đơn, được biểu thị bằng **microsatoshis** (`u` có nghĩa là "micro"), tương đương ở đây là 10,000 sats.
+- `100u` chỉ ra số lượng của hóa đơn, được biểu thị bằng **microbitcoins** (`u` có nghĩa là "micro"), tương đương ở đây là 10,000 sats.
 
 Để chỉ định số lượng thanh toán, nó được biểu thị bằng các đơn vị phụ của bitcoin. Dưới đây là các đơn vị được sử dụng:
 

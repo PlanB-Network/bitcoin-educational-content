@@ -6,21 +6,21 @@ description: Impostazione di un software wallet mobile
 
 Un software wallet è un'applicazione installata su un computer, uno smartphone o un altro dispositivo connesso a Internet, che consente di gestire e proteggere le chiavi del portafoglio Bitcoin. A differenza degli hardware wallet, che isolano le chiavi private, i wallet "hot" operano in un ambiente potenzialmente esposto agli attacchi informatici, aumentando il rischio di pirateria e furto.
 
-I software wallet dovrebbero essere utilizzati per gestire quantità ragionevoli di bitcoin, soprattutto per le transazioni quotidiane. Possono anche essere un'opzione interessante per le persone con un patrimonio limitato di bitcoin, per le quali l'investimento in un hardware wallet può sembrare sproporzionato. Tuttavia, la loro costante esposizione a Internet li rende meno sicuri per la conservazione di risparmi a lungo termine o di grandi fondi. Per questi ultimi è meglio optare per soluzioni più sicure, come gli hardware wallet.
+Questo tipo di wallet dovrebbe essere utilizzato per gestire quantità ragionevoli di bitcoin, soprattutto per le transazioni quotidiane. Possono anche essere un'opzione interessante per le persone con un patrimonio limitato di bitcoin, per le quali l'investimento in un hardware wallet può sembrare sproporzionato. Tuttavia, la loro costante esposizione a Internet li rende meno sicuri per la conservazione di risparmi a lungo termine o di grandi fondi. Per questi ultimi è meglio optare per soluzioni più sicure, come gli hardware wallet.
 
-In questo tutorial, vorrei presentarvi una delle migliori soluzioni di portafoglio software per dispositivi mobili: **Blockstream Green**.
+In questo tutorial, vorrei presentarti una delle migliori soluzioni di software wallet per dispositivi mobili: **Blockstream Green**.
 
 ![GREEN](assets/fr/01.webp)
 
-Se desiderate scoprire come utilizzare Blockstream Green sul vostro computer, consultate quest'altra guida:
+Se desideri scoprire come utilizzare Blockstream Green sul tuo computer, consulta quest'altra guida:
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 ## Presentazione di Blockstream Green
 
-Blockstream Green è un portafoglio software disponibile su mobile e desktop. Precedentemente noto come *Green Address*, questo portafoglio è diventato un progetto di Blockstream in seguito alla sua acquisizione nel 2016.
+Blockstream Green è un wallet disponibile per mobile e desktop. Precedentemente noto come _Green Address_, questo wallet è diventato un progetto di Blockstream in seguito alla sua acquisizione nel 2016.
 
-Green è un'applicazione particolarmente facile da usare, il che la rende interessante per i principianti. Offre tutte le caratteristiche essenziali di un buon portafoglio Bitcoin, tra cui RBF (*Replace-by-Fee*), un'opzione di connessione Tor, la possibilità di collegare il proprio nodo, SPV (*Simple Payment Verification*), etichettatura e controllo delle monete.
+Green è un'applicazione particolarmente facile da usare, il che la rende interessante per i principianti. Offre tutte le caratteristiche essenziali che deve avere un buon wallet Bitcoin, tra cui RBF (_Replace-by-Fee_), l'opzione per connettersi tramite Tor, la possibilità di collegare il proprio nodo, SPV (_Simple Payment Verification_), etichettatura degli UTXO e coin control.
 
 Blockstream Green supporta anche la rete Liquid, una sidechain di Bitcoin sviluppata da Blockstream per transazioni veloci e riservate al di fuori della blockchain principale. Questa esercitazione si concentra esclusivamente su Bitcoin, ma una successiva tratterà l'uso di Liquid.
 

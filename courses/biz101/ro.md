@@ -5,18 +5,17 @@ objectives:
 
   - Bitcoin ca monedă emergentă și instrument de afaceri
   - Înțelegeți de ce și cum poate o întreprindere să dețină bitcoin în trezorerie sau să îl utilizeze pentru plăți
-  - Aveți o idee concretă despre cum să acceptați plata Bitcoin în practică
-  - Să fie pregătit pentru gestionarea cerințelor fiscale și contabile
+  - Aveți o idee concretă despre cum să acceptați plățile în Bitcoin în practică
+  - Să fii pregătit pentru gestionarea cerințelor fiscale și contabile
 
 ---
 # Începeți călătoria companiei dvs. în rețeaua bitcoin
 
-Descoperiți capacitățile practice ale Bitcoin și ale rețelei Lightning și explorați modul în care, la fel ca internetul, acestea vă pot **transforma operațiunile de afaceri**. De la capital digital la plăți rapide, economice și scalabile, Bitcoin oferă un spectru vast de **cazuri de utilizare pentru întreprinderi**.
+Descoperiți capacitățile practice ale Bitcoin și ale rețelei Lightning și explorați modul în care, la fel ca internetul, acestea vă poate **transforma operațiunile de afaceri**. De la capital digital la plăți rapide, economice și scalabile, Bitcoin oferă un spectru vast de **cazuri de utilizare pentru întreprinderi**.
 
-Pe parcursul acestui ghid, veți învăța cum să înțelegeți Bitcoin ca o rețea monetară globală, universală și nativă pentru internet. Cu caracteristicile sale fundamentale unice, **Bitcoin oferă îmbunătățiri semnificative față de rețelele monetare tradiționale**. Veți descoperi de ce și cum să valorificați Bitcoin pentru cazuri clasice de utilizare financiară, cum ar fi stocarea capitalului și sistemele de plată. În plus, acest ghid va acoperi achiziționarea și deținerea Bitcoin, inclusiv cerințele contabile și fiscale asociate, precum și implementarea soluțiilor de plată Bitcoin simple sau la scară largă.
+Pe parcursul acestui ghid, veți învăța cum să înțelegeți Bitcoin ca o rețea monetară globală, universală și nativă pentru internet. Cu caracteristicile sale fundamentale unice, **Bitcoin oferă îmbunătățiri semnificative față de rețelele monetare tradiționale**. Veți descoperi de ce și cum să valorificați Bitcoin pentru cazuri clasice de utilizare financiară, cum ar fi stocarea capitalului și sistemele de plată. În plus, acest ghid va acoperi achiziționarea și deținerea Bitcoin, inclusiv cerințele contabile și fiscale asociate, precum și implementarea soluțiilor de plată Bitcoin simple sau pe scară largă.
 
-Fie că sunteți o **întreprindere mică sau o corporație mare**, integrarea Bitcoin în operațiunile dumneavoastră zilnice poate face compania dumneavoastră mai **rezilientă, productivă și competitivă**. Fiecare companie bazată pe internet va deveni o companie orientată către Bitcoin, iar acest curs vă asigură că sunteți pregătit. Secțiunile inițiale recapitulează elementele de bază ale funcționării Bitcoin, astfel încât, chiar dacă sunteți un începător, veți obține cunoștințele fundamentale necesare pentru a continua. Învățarea elementelor de bază ale invenției lui Satoshi este întotdeauna o idee bună, fie înainte sau după scufundarea în BIZ101.
-
+Fie că sunteți o **întreprindere mică sau o corporație mare**, integrarea Bitcoin în operațiunile dumneavoastră zilnice poate face compania dumneavoastră mai **rezilientă, productivă și competitivă**. Fiecare companie bazată pe internet va deveni o companie orientată către Bitcoin, iar acest curs vă asigură că sunteți pregătit. Secțiunile inițiale recapitulează elementele de bază ale funcționării Bitcoin, astfel încât, chiar dacă sunteți un începător, veți obține cunoștințele fundamentale necesare pentru a continua. Învățarea elementelor de bază ale invenției lui Satoshi este întotdeauna o idee bună, fie înainte fie după ce ați început să vă ocupați de BIZ101
 +++
 # Introducere
 
@@ -26,9 +25,9 @@ Fie că sunteți o **întreprindere mică sau o corporație mare**, integrarea B
 
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Dați startul călătoriei companiei dvs. în rețeaua Bitcoin cu acest curs de formare cuprinzător - o poartă de intrare pentru a înțelege modul în care Bitcoin și Lightning Network pot revoluționa operațiunile de afaceri tradiționale. Acest curs este conceput pentru comercianții cu amănuntul, antreprenori, manageri și factori de decizie corporativi care doresc să exploreze capacitățile practice ale Bitcoin ca o rețea monetară globală, nativă de internet și un mijloc robust de schimb de valori.
+Dați startul călătoriei companiei dvs. în rețeaua Bitcoin cu acest curs de formare cuprinzător - o poartă de intrare pentru a înțelege modul în care Bitcoin și Lightning Network pot revoluționa operațiunile de afaceri tradiționale. Acest curs este destinat comercianților, antreprenorilor, managerilor și persoanelor cu responsabilități decizionale care doresc să exploreze capacitățile practice ale Bitcoin ca rețea monetară globală, nativă pe internet și ca mijloc robust de schimb de valori.
 
-Pe parcursul cursului, veți face cunoștință cu principiile fundamentale care transformă Bitcoin și Lightning Network. Veți afla cum aceste tehnologii oferă un spectru de cazuri de utilizare, de la stocarea capitalului digital la plăți rapide, economice și scalabile, și cum oferă îmbunătățiri esențiale față de moneda și sistemele de plată tradiționale. Cursul BIZ101 conectează teoria economică cu aplicațiile din lumea reală, clarificând modul în care descentralizarea poate reduce dependența de intermediari și poate depăși limitările inerente sistemelor tradiționale.
+De-a lungul cursului, veți face cunoștință cu principiile fundamentale care transformă Bitcoin și Lightning Network. Veți afla cum aceste tehnologii oferă un spectru de cazuri de utilizare, de la stocarea capitalului digital la plăți rapide, economice și scalabile, și cum oferă îmbunătățiri esențiale față de moneda și sistemele de plată tradiționale. Cursul BIZ101 conectează teoria economică cu aplicațiile din lumea reală, clarificând modul în care descentralizarea poate reduce dependența de intermediari și poate depăși limitările inerente sistemelor tradiționale.
 
 Cursul începe cu o examinare detaliată a monedelor convenționale și a mecanismelor de plată, pregătind terenul prin explorarea modului în care moneda funcționează ca o rețea pentru a permite comerțul, economisirea și specializarea economică. Ulterior, vom aprofunda tehnologia din spatele Bitcoin și inovațiile introduse de Lightning Network, dezvăluind rolurile lor în facilitarea tranzacțiilor fără întreruperi, sigure și aproape instantanee care pot servi întreprinderilor de toate dimensiunile. Apoi ne vom cufunda în secțiunile practice ale acestui curs, începând cu o parte privind deținerea de bitcoini ca trezorerie, urmată de o parte finală privind acceptarea bitcoin ca mijloc de plată.
 

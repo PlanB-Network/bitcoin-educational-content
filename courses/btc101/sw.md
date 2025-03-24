@@ -4,7 +4,7 @@ goal: Gundua misingi ya Bitcoin, ikijumuisha pendekezo lake la thamani ya fedha,
 objectives: 
 
   - Pata ufahamu wa jumla wa teknolojia ya Bitcoin
-  - Kuelewa jinsi ya kununua na salama bitcoins
+  - Kuelewa jinsi ya kununua kwa usalama bitcoins
   - Kuwa na ufahamu wa jumla wa teknolojia ya Blockchain
   - Fahamu dhana ya Lightning Network
   - Tambua athari za kijiografia na kijamii za Bitcoin
@@ -43,7 +43,7 @@ Ni muhimu kuelewa kwamba Bitcoin ni mfumo mpya wa fedha ambao hubadilisha kabisa
 
 
 - Sura ya 1 - Pesa ni nini?
-- Sura ya 2 - Fiat pesa
+- Sura ya 2 - Fiat kama pesa
 - Sura ya 3 - Mfumuko wa bei
 - Sura ya 4 - Bitcoin sera ya fedha
 

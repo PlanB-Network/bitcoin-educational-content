@@ -205,28 +205,29 @@ Ainsi, l'idée de garder les communications secrètes en protégeant le canal de
 
 <partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
 
-## Variables aléatoires
+# Fondements Mathématiques de la Cryptographie 1
+<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
 
+## Variables aléatoires
 <chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
 
-La cryptographie repose sur les mathématiques. Et si vous voulez développer plus qu'une compréhension superficielle de la cryptographie, vous devez être à l'aise avec les mathématiques.
+La cryptographie repose sur les mathématiques. Et si vous souhaitez acquérir une compréhension approfondie de la cryptographie, vous devez être à l'aise avec ces mathématiques.
 
-Ce chapitre présente la plupart des mathématiques de base que vous rencontrerez lors de votre apprentissage de la cryptographie. Les sujets abordés comprennent les variables aléatoires, les opérations modulo, les opérations XOR et le pseudo-aléa. Vous devez maîtriser le matériel de ces sections pour une compréhension non superficielle de la cryptographie.
+Ce chapitre présente la plupart des notions mathématiques de base que vous rencontrerez en apprenant la cryptographie. Les sujets abordés comprennent les variables aléatoires, les opérations modulo, les opérations XOR et la pseudo-aléatoire. Vous devez maîtriser ces notions pour toute compréhension non superficielle de la cryptographie.
 
-La section suivante traite de la théorie des nombres, qui est beaucoup plus difficile.
+La prochaine section traitera de la théorie des nombres, qui est bien plus complexe.
 
 ### Variables aléatoires
 
-Une variable aléatoire est généralement désignée par une lettre majuscule non grasse. Ainsi, par exemple, on peut parler d'une variable aléatoire $X$, d'une variable aléatoire $Y$ ou d'une variable aléatoire $Z$. C'est la notation que j'emploierai également à partir de maintenant.
+Une variable aléatoire est généralement notée par une lettre majuscule non en gras. Par exemple, nous pourrions parler d'une variable aléatoire $X$, d'une variable aléatoire $Y$ ou d'une variable aléatoire $Z$. C'est la notation que j'utiliserai désormais.
 
-Une **variable aléatoire** peut prendre deux ou plusieurs valeurs possibles, chacune ayant une certaine probabilité positive. Les valeurs possibles sont répertoriées dans l'**ensemble des résultats**.
+Une **variable aléatoire** peut prendre deux ou plusieurs valeurs possibles, chacune avec une probabilité positive donnée. Les valeurs possibles sont répertoriées dans l'**ensemble des résultats**.
 
 Chaque fois que vous **échantillonnez** une variable aléatoire, vous tirez une valeur particulière de son ensemble de résultats selon les probabilités définies.
 
-Prenons un exemple simple. Supposons une variable X définie comme suit :
+Prenons un exemple simple. Supposons une variable $X$ définie comme suit :
 
-
-- X a l'ensemble de résultats $\{1,2\}$
+- $X$ a pour ensemble de résultats $\{1,2\}$
 
 $$
 Pr[X = 1] = 0.5
@@ -236,61 +237,60 @@ $$
 Pr[X = 2] = 0.5
 $$
 
-Il est facile de voir que $X$ est une variable aléatoire. Premièrement, $X$ peut prendre au moins deux valeurs possibles, à savoir $1$ et $2$. Deuxièmement, chaque valeur possible a une probabilité positive de se produire lorsque vous échantillonnez $X$, à savoir 0,5$.
+Il est facile de voir que $X$ est une variable aléatoire. Premièrement, il y a deux ou plusieurs valeurs possibles que $X$ peut prendre, à savoir $1$ et $2$. Deuxièmement, chaque valeur possible a une probabilité positive de se produire lors de l'échantillonnage de $X$, à savoir $0.5$.
 
-Tout ce dont une variable aléatoire a besoin, c'est d'un ensemble de résultats avec deux possibilités ou plus, où chaque possibilité a une probabilité positive de se produire lors de l'échantillonnage. En principe, une variable aléatoire peut donc être définie de manière abstraite, sans aucun contexte. Dans ce cas, on peut considérer que l'"échantillonnage" consiste à réaliser une expérience naturelle pour déterminer la valeur de la variable aléatoire.
+Tout ce qu'une variable aléatoire exige, c'est un ensemble de résultats avec deux possibilités ou plus, où chaque possibilité a une probabilité positive de se produire lors de l'échantillonnage. En principe, une variable aléatoire peut donc être définie de manière abstraite, sans aucun contexte. Dans ce cas, vous pouvez considérer l’« échantillonnage » comme l’exécution d’une expérience naturelle pour déterminer la valeur de la variable aléatoire.
 
-La variable $X$ ci-dessus a été définie de manière abstraite. Vous pouvez donc considérer que l'échantillonnage de la variable $X$ ci-dessus consiste à tirer à pile ou face une pièce de monnaie équitable et à attribuer "2" dans le cas de face et "1" dans le cas de pile. Pour chaque échantillon de $X$, vous jouez à nouveau à pile ou face.
+La variable $X$ ci-dessus a été définie de manière abstraite. Vous pourriez ainsi considérer l'échantillonnage de la variable $X$ comme le fait de lancer une pièce équitable et d’attribuer « 2 » en cas de face et « 1 » en cas de pile. Pour chaque échantillon de $X$, vous lancez à nouveau la pièce.
 
-Vous pouvez également considérer l'échantillonnage $X$ comme le lancement d'un dé équitable et l'attribution d'un "2" si le dé tombe sur $1$, $3$ ou $4$, et d'un "1" si le dé tombe sur $2$, $5$ ou $6$. Chaque fois que vous échantillonnez $X$, vous lancez à nouveau le dé.
+Alternativement, vous pourriez aussi considérer l'échantillonnage de $X$ comme le fait de lancer un dé équitable et d’attribuer « 2 » si le dé tombe sur $1$, $3$ ou $4$, et « 1 » s'il tombe sur $2$, $5$ ou $6$. Chaque fois que vous échantillonnez $X$, vous lancez à nouveau le dé.
 
-En réalité, toute expérience naturelle qui permettrait de définir les probabilités des valeurs possibles de $X$ ci-dessus peut être imaginée par rapport au dessin.
+En réalité, toute expérience naturelle qui permettrait de définir les probabilités des valeurs possibles de $X$ peut être imaginée en ce qui concerne le tirage.
 
-Souvent, cependant, les variables aléatoires ne sont pas simplement introduites de manière abstraite. Au contraire, l'ensemble des valeurs de résultats possibles a une signification explicite dans le monde réel (et non pas seulement en tant que nombres). En outre, ces valeurs de résultats peuvent être définies par rapport à un type spécifique d'expérience (plutôt que comme n'importe quelle expérience naturelle avec ces valeurs).
+Cependant, les variables aléatoires ne sont pas toujours introduites de manière abstraite. L'ensemble des valeurs possibles a souvent une signification concrète dans le monde réel (plutôt que de simples nombres). De plus, ces valeurs peuvent être définies par rapport à un type spécifique d'expérience (plutôt que par toute expérience naturelle ayant ces valeurs).
 
-Considérons maintenant un exemple de variable $X$ qui n'est pas définie abstraitement. X est définie comme suit afin de déterminer laquelle des deux équipes commence un match de football :
+Prenons maintenant un exemple de variable $X$ qui n'est pas définie abstraitement. $X$ est définie comme suit pour déterminer laquelle de deux équipes commence un match de football :
 
-
-- $X$ a l'ensemble de résultats {rouge s'éteint, bleu s'éteint}
-- Tirer à pile ou face une pièce de monnaie $C$ : pile = "le rouge se met en marche" ; face = "le bleu se met en marche"
-
-$$
-Pr [X = \text{red kicks off}] = 0.5
-$$
+- $X$ a pour ensemble de résultats {rouge engage, bleu engage}
+- Lancer une pièce particulière $C$ : pile = « rouge engage » ; face = « bleu engage »
 
 $$
-Pr [X = \text{blue kicks off}] = 0.5
+Pr [X = \text{rouge engage}] = 0.5
 $$
 
-Dans ce cas, l'ensemble des résultats de X a une signification concrète, à savoir quelle équipe commence un match de football. En outre, les résultats possibles et leurs probabilités associées sont déterminés par une expérience concrète, à savoir tirer à pile ou face une pièce de monnaie $C$.
+$$
+Pr [X = \text{bleu engage}] = 0.5
+$$
 
-Dans les discussions sur la cryptographie, les variables aléatoires sont généralement introduites par rapport à un ensemble de résultats ayant une signification dans le monde réel. Il peut s'agir de l'ensemble des messages susceptibles d'être cryptés, appelé espace des messages, ou de l'ensemble des clés que les parties utilisant le chiffrement peuvent choisir, appelé espace des clés.
+Dans ce cas, l'ensemble des résultats de $X$ est fourni avec une signification concrète, à savoir quelle équipe commence un match de football. De plus, les résultats possibles et leurs probabilités associées sont déterminés par une expérience concrète, à savoir le lancement d'une pièce particulière $C$.
 
-Toutefois, dans les discussions sur la cryptographie, les variables aléatoires ne sont généralement pas définies par rapport à une expérience naturelle spécifique, mais par rapport à toute expérience susceptible de produire les bonnes distributions de probabilités.
+En cryptographie, les variables aléatoires sont généralement introduites avec un ensemble de résultats ayant une signification réelle. Il peut s'agir de l'ensemble de tous les messages pouvant être chiffrés, connu sous le nom d’**espace des messages**, ou de l'ensemble de toutes les clés que les parties utilisant le chiffrement peuvent choisir, connu sous le nom d’**espace des clés**.
 
-Les variables aléatoires peuvent avoir des distributions de probabilité discrètes ou continues. Les variables aléatoires ayant une **distribution de probabilité discrète** - c'est-à-dire les variables aléatoires discrètes - ont un nombre fini de résultats possibles. La variable aléatoire $X$ dans les deux exemples donnés jusqu'à présent était discrète.
+Les variables aléatoires dans les discussions cryptographiques ne sont cependant généralement pas définies par rapport à une expérience naturelle spécifique, mais par rapport à toute expérience pouvant produire les bonnes distributions de probabilité.
 
-**Les variables aléatoires continues** peuvent prendre des valeurs dans un ou plusieurs intervalles. On peut dire, par exemple, qu'une variable aléatoire, lors de l'échantillonnage, prendra n'importe quelle valeur réelle entre 0 et 1, et que chaque nombre réel de cet intervalle a la même probabilité. Dans cet intervalle, il existe une infinité de valeurs possibles.
+Les variables aléatoires peuvent avoir des distributions de probabilité discrètes ou continues. Les variables aléatoires ayant une **distribution de probabilité discrète** — c'est-à-dire des variables aléatoires discrètes — ont un nombre fini de résultats possibles. La variable aléatoire $X$ dans les deux exemples donnés jusqu'à présent était discrète.
 
-Pour les discussions sur la cryptographie, vous n'aurez besoin que de comprendre les variables aléatoires discrètes. Toute discussion sur les variables aléatoires à partir de maintenant doit donc être comprise comme faisant référence aux variables aléatoires discrètes, sauf indication contraire.
+Les **variables aléatoires continues** peuvent, au contraire, prendre des valeurs dans un ou plusieurs intervalles. Par exemple, vous pourriez dire qu'une variable aléatoire, lors de l'échantillonnage, prendra une valeur réelle quelconque entre 0 et 1, et que chaque nombre réel dans cet intervalle est également probable. Dans cet intervalle, il y a une infinité de valeurs possibles.
 
-### Graphique des variables aléatoires
+Pour les discussions cryptographiques, vous n'avez besoin de comprendre que les variables aléatoires discrètes. Toute discussion sur les variables aléatoires à partir de maintenant doit donc être comprise comme se référant aux variables aléatoires discrètes, sauf indication contraire.
 
-Les valeurs possibles et les probabilités associées à une variable aléatoire peuvent être facilement visualisées à l'aide d'un graphique. Par exemple, considérons la variable aléatoire $X$ de la section précédente avec un ensemble de résultats de $\{1, 2\}$, et $Pr [X = 1] = 0,5$ et $Pr [X = 2] = 0,5$. Une telle variable aléatoire est généralement représentée sous la forme d'un diagramme à barres, comme dans la *Figure 1*.
+### Représentation graphique des variables aléatoires
+
+Les valeurs possibles et les probabilités associées pour une variable aléatoire peuvent être facilement visualisées par un graphique. Par exemple, considérons la variable aléatoire $X$ de la section précédente avec un ensemble de résultats $\{1, 2\}$, et $Pr [X = 1] = 0.5$ et $Pr [X = 2] = 0.5$. Nous représenterions généralement une telle variable aléatoire sous forme de diagramme en barres comme dans la *Figure 1*.
 
 *Figure 1 : Variable aléatoire X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1 : Variable aléatoire X.](assets/Figure2-1.webp)
 
-Les barres larges de la *Figure 1* n'ont évidemment pas pour but de suggérer que la variable aléatoire $X$ est en fait continue. Au contraire, les barres sont larges afin d'être plus attrayantes visuellement (une simple ligne droite vers le haut offre une visualisation moins intuitive).
+Les barres larges dans la *Figure 1* ne suggèrent évidemment pas que la variable aléatoire $X$ est en réalité continue. Les barres sont rendues larges afin d'être plus esthétiques visuellement (une simple ligne verticale serait moins intuitive à visualiser).
 
 ### Variables uniformes
 
-Dans l'expression "variable aléatoire", le terme "aléatoire" signifie simplement "probabiliste". En d'autres termes, il signifie simplement que deux ou plusieurs résultats possibles de la variable se produisent avec certaines probabilités. Toutefois, ces résultats ne doivent pas nécessairement être également probables (bien que le terme "aléatoire" puisse avoir cette signification dans d'autres contextes).
+Dans l'expression « variable aléatoire », le terme « aléatoire » signifie simplement « probabiliste ». En d'autres termes, cela signifie simplement que deux ou plusieurs résultats possibles de la variable se produisent avec certaines probabilités. Cependant, ces résultats ne doivent pas nécessairement être également probables (même si le terme « aléatoire » peut effectivement avoir ce sens dans d'autres contextes).
 
-Une **variable uniforme** est un cas particulier de variable aléatoire. Elle peut prendre deux ou plusieurs valeurs, toutes avec une probabilité égale. La variable aléatoire $X$ représentée dans la *Figure 1* est clairement une variable uniforme, puisque les deux résultats possibles se produisent avec une probabilité de 0,5$. Il existe cependant de nombreuses variables aléatoires qui ne sont pas des exemples de variables uniformes.
+Une **variable uniforme** est un cas particulier de variable aléatoire. Elle peut prendre deux valeurs ou plus, toutes avec une probabilité égale. La variable aléatoire $X$ représentée dans la *Figure 1* est clairement une variable uniforme, puisque les deux résultats possibles se produisent avec une probabilité de $0.5$. Il existe cependant de nombreuses variables aléatoires qui ne sont pas des instances de variables uniformes.
 
-Considérons, par exemple, la variable aléatoire $Y$. Elle possède un ensemble de résultats {1, 2, 3, 8, 10} et la distribution de probabilité suivante :
+Considérons, par exemple, la variable aléatoire $Y$. Elle a un ensemble de résultats $\{1, 2, 3, 8, 10\}$ et la distribution de probabilité suivante :
 
 $$
 \Pr[Y = 1] = 0.25
@@ -312,15 +312,15 @@ $$
 \Pr[Y = 10] = 0.05
 $$
 
-Si deux résultats possibles ont en effet une probabilité égale de se produire, à savoir $1$ et $8$, $Y$ peut également prendre certaines valeurs avec des probabilités différentes de $0,25$ lors de l'échantillonnage. Par conséquent, si $Y$ est bien une variable aléatoire, ce n'est pas une variable uniforme.
+Bien que deux résultats possibles aient effectivement une probabilité égale de se produire, à savoir $1$ et $8$, $Y$ peut également prendre certaines valeurs avec des probabilités différentes de $0.25$ lors de l'échantillonnage. Ainsi, bien que $Y$ soit bien une variable aléatoire, ce n'est pas une variable uniforme.
 
 Une représentation graphique de $Y$ est fournie dans la *Figure 2*.
 
 *Figure 2 : Variable aléatoire Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2 : Variable aléatoire Y.](assets/Figure2-2.webp "Figure 2 : Variable aléatoire Y")
 
-Pour un dernier exemple, considérons la variable aléatoire Z. Elle possède l'ensemble de résultats {1,3,7,11,12} et la distribution de probabilité suivante :
+Pour un dernier exemple, considérons la variable aléatoire $Z$. Elle a l'ensemble de résultats $\{1,3,7,11,12\}$ et la distribution de probabilité suivante :
 
 $$
 \Pr[Z = 2] = 0.2
@@ -342,29 +342,29 @@ $$
 \Pr[Z = 12] = 0.2
 $$
 
-Vous pouvez le voir dans la *Figure 3*. La variable aléatoire Z est, contrairement à Y, une variable uniforme, car toutes les probabilités pour les valeurs possibles lors de l'échantillonnage sont égales.
+Vous pouvez voir sa représentation dans la *Figure 3*. La variable aléatoire $Z$ est, contrairement à $Y$, une variable uniforme, puisque toutes les probabilités pour les valeurs possibles lors de l'échantillonnage sont égales.
 
 *Figure 3 : Variable aléatoire Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3 : Variable aléatoire Z.](assets/Figure2-3.webp "Figure 3 : Variable aléatoire Z")
 
 ### Probabilité conditionnelle
 
-Supposons que Bob ait l'intention de choisir uniformément un jour de la dernière année civile. Quelle est la probabilité que le jour choisi soit un jour d'été ?
+Supposons que Bob souhaite sélectionner uniformément un jour de l'année civile précédente. Que devons-nous conclure sur la probabilité que le jour sélectionné soit en été ?
 
-Tant que nous pensons que le processus de Bob sera réellement uniforme, nous devrions conclure qu'il y a une probabilité de 1/4 que Bob choisisse un jour en été. Il s'agit de la **probabilité inconditionnelle** que le jour choisi au hasard soit en été.
+Tant que nous pensons que le processus de Bob est réellement uniforme, nous devons conclure qu'il y a une probabilité de $1/4$ que Bob sélectionne un jour en été. C'est la **probabilité inconditionnelle** du jour sélectionné au hasard étant en été.
 
-Supposons maintenant qu'au lieu de tirer uniformément un jour calendaire, Bob ne choisisse uniformément que parmi les jours où la température à midi à Crystal Lake (New Jersey) était supérieure ou égale à 21 degrés Celsius. Compte tenu de cette information supplémentaire, que pouvons-nous conclure sur la probabilité que Bob choisisse un jour d'été ?
+Supposons maintenant qu'au lieu de tirer uniformément un jour du calendrier, Bob ne sélectionne uniformément qu'entre les jours où la température à midi au Crystal Lake (New Jersey) était de 21 degrés Celsius ou plus. Compte tenu de cette information supplémentaire, que pouvons-nous conclure sur la probabilité que Bob sélectionne un jour en été ?
 
-Nous devrions vraiment tirer une conclusion différente, même en l'absence d'autres informations spécifiques (par exemple, la température à midi chaque jour de l'année civile écoulée).
+Nous devrions parvenir à une conclusion différente de celle précédemment énoncée, même sans informations supplémentaires spécifiques (par exemple, la température à midi chaque jour de l'année précédente).
 
-Sachant que Crystal Lake se trouve dans le New Jersey, nous ne nous attendons certainement pas à ce que la température à midi soit de 21 degrés Celsius ou plus en hiver. Il est beaucoup plus probable qu'il s'agisse d'une journée chaude au printemps ou à l'automne, ou d'une journée quelque part en été. Par conséquent, si l'on sait que la température à midi à Crystal Lake le jour choisi était de 21 degrés Celsius ou plus, la probabilité que le jour choisi par Bob soit en été devient beaucoup plus élevée. Il s'agit de la **probabilité conditionnelle** que le jour choisi au hasard soit en été, étant donné que la température à midi à Crystal Lake était de 21 degrés Celsius ou plus.
+Sachant que Crystal Lake est situé dans le New Jersey, nous n’attendons certainement pas à ce que la température à midi atteigne 21 degrés Celsius ou plus en hiver. Au contraire, il est beaucoup plus probable qu'il s'agisse d'un jour chaud au printemps ou en automne, ou d'un jour situé quelque part en été. Par conséquent, sachant que la température à midi au Crystal Lake le jour sélectionné était de 21 degrés Celsius ou plus, la probabilité que le jour sélectionné par Bob se situe en été devient beaucoup plus élevée. C'est la **probabilité conditionnelle** du jour sélectionné au hasard étant en été, sachant que la température à midi au Crystal Lake était de 21 degrés Celsius ou plus.
 
-Contrairement à l'exemple précédent, les probabilités de deux événements peuvent également être totalement indépendantes. Dans ce cas, on dit qu'elles sont **indépendantes**.
+Contrairement à l'exemple précédent, les probabilités de deux événements peuvent également être totalement indépendantes. Dans ce cas, nous disons qu'ils sont **indépendants**.
 
-Supposons, par exemple, qu'une certaine pièce de monnaie équitable soit tombée sur pile ou face. Compte tenu de ce fait, quelle est la probabilité qu'il pleuve demain ? La probabilité conditionnelle dans ce cas devrait être la même que la probabilité inconditionnelle qu'il pleuve demain, étant donné qu'un jeu de pile ou face n'a généralement pas d'impact sur le temps qu'il fait.
+Supposons, par exemple, qu'une certaine pièce équitable soit tombée sur face. Étant donné ce fait, quelle est alors la probabilité qu'il pleuve demain ? La probabilité conditionnelle, dans ce cas, devrait être la même que la probabilité inconditionnelle qu'il pleuve demain, car un lancer de pièce n'a généralement aucune influence sur la météo.
 
-Nous utilisons le symbole "|" pour écrire les énoncés de probabilité conditionnelle. Par exemple, la probabilité de l'événement $A$ étant donné que l'événement $B$ s'est produit peut être écrite comme suit :
+Nous utilisons le symbole "|" pour écrire des énoncés de probabilité conditionnelle. Par exemple, la probabilité de l'événement $A$ étant donné que l'événement $B$ s'est produit peut s'écrire comme suit :
 
 $$
 Pr[A|B]
@@ -373,7 +373,7 @@ $$
 Ainsi, lorsque deux événements, $A$ et $B$, sont indépendants, alors :
 
 $$
-Pr[A|B] = Pr[A] \text{ and } Pr[B|A] = Pr[B]
+Pr[A|B] = Pr[A] \text{ et } Pr[B|A] = Pr[B]
 $$
 
 La condition d'indépendance peut être simplifiée comme suit :
@@ -382,106 +382,106 @@ $$
 Pr[A, B] = Pr[A] \cdot Pr[B]
 $$
 
-Un résultat clé de la théorie des probabilités est connu sous le nom de **théorème de Bayes**. Il stipule que $Pr[A|B]$ peut être réécrit comme suit :
+Un résultat clé en théorie des probabilités est connu sous le nom de **Théorème de Bayes**. Il indique essentiellement que $Pr[A|B]$ peut être réécrit comme suit :
 
 $$
 Pr[A|B] = \frac{Pr[B|A] \cdot Pr[A]}{Pr[B]}
 $$
 
-Au lieu d'utiliser les probabilités conditionnelles pour des événements spécifiques, nous pouvons également examiner les probabilités conditionnelles associées à deux variables aléatoires ou plus sur un ensemble d'événements possibles. Supposons deux variables aléatoires, $X$ et $Y$. Nous pouvons désigner toute valeur possible de $X$ par $x$, et toute valeur possible de $Y$ par $y$. On peut donc dire que deux variables aléatoires sont indépendantes si l'énoncé suivant s'applique :
+Au lieu d'utiliser des probabilités conditionnelles avec des événements spécifiques, nous pouvons également examiner les probabilités conditionnelles impliquées avec deux ou plusieurs variables aléatoires sur un ensemble d'événements possibles. Supposons deux variables aléatoires, $X$ et $Y$. Nous pouvons désigner toute valeur possible pour $X$ par $x$, et toute valeur possible pour $Y$ par $y$. Nous pourrions dire alors que deux variables aléatoires sont indépendantes si l'énoncé suivant est vérifié :
 
 $$
 Pr[X = x, Y = y] = Pr[X = x] \cdot Pr[Y = y]
 $$
 
-pour tout $x$ et $y$.
+pour tous $x$ et $y$.
 
-Soyons un peu plus explicites sur le sens de cette déclaration.
+Soyons un peu plus explicites sur ce que cet énoncé signifie.
 
-Supposons que les ensembles de résultats pour $X$ et $Y$ soient définis comme suit : **X** = $\{x_1, x_2, \ldots, x_i, \ldots, x_n\}$ et **Y** = $\{y_1, y_2, \ldots, y_i, \ldots, y_m\}$. (Il est habituel d'indiquer les ensembles de valeurs par des lettres majuscules en gras)
+Supposons que les ensembles de résultats pour $X$ et $Y$ sont définis comme suit : **X** = $\{x_1, x_2, \ldots, x_i, \ldots, x_n\}$ et **Y** = $\{y_1, y_2, \ldots, y_i, \ldots, y_m\}$. (Il est habituel d'indiquer les ensembles de valeurs par des lettres majuscules en gras.)
 
-Supposons maintenant que vous échantillonniez $Y$ et que vous observiez $y_1$. L'énoncé ci-dessus nous indique que la probabilité d'obtenir maintenant $x_1$ à partir de l'échantillon $X$ est exactement la même que si nous n'avions jamais observé $y_1$. Cela est vrai pour tout $y_i$ que nous aurions pu tirer de notre échantillonnage initial de $Y$. Enfin, cela n'est pas seulement vrai pour $x_1$. Pour tout $x_i$, la probabilité d'occurrence n'est pas influencée par le résultat d'un échantillonnage de $Y$. Tout ceci s'applique également au cas où $X$ est échantillonné en premier.
+Maintenant, supposons que vous échantillonnez $Y$ et observez $y_1$. L’énoncé ci-dessus nous dit que la probabilité d’obtenir maintenant $x_1$ en échantillonnant $X$ est exactement la même que si nous n’avions jamais observé $y_1$. Cela est vrai pour tout $y_i$ que nous aurions pu tirer lors de notre échantillonnage initial de $Y$. Enfin, cela s'applique non seulement à $x_1$, mais pour tout $x_i$, la probabilité de se produire n'est pas influencée par le résultat d'un échantillonnage de $Y$. Tout cela s'applique également au cas où $X$ est échantillonné en premier.
 
-Terminons notre discussion sur un point un peu plus philosophique. Dans toute situation réelle, la probabilité d'un événement est toujours évaluée en fonction d'un ensemble particulier d'informations. Il n'existe pas de "probabilité inconditionnelle" au sens strict du terme.
+Terminons notre discussion sur un point légèrement plus philosophique. Dans toute situation réelle, la probabilité d'un événement est toujours évaluée par rapport à un ensemble particulier d'informations. Il n'y a pas de « probabilité inconditionnelle » dans un sens très strict du terme.
 
-Par exemple, supposons que je vous demande la probabilité que les cochons volent d'ici 2030. Bien que je ne vous donne aucune autre information, vous connaissez manifestement beaucoup de choses sur le monde qui peuvent influencer votre jugement. Vous n'avez jamais vu de cochons voler. Vous savez que la plupart des gens ne s'attendent pas à ce qu'ils volent. Vous savez qu'ils ne sont pas vraiment conçus pour voler. Et ainsi de suite.
+Par exemple, supposons que je vous demande quelle est la probabilité que les cochons volent d'ici 2030. Bien que je ne vous donne pas d'informations supplémentaires, vous savez clairement beaucoup de choses sur le monde qui peuvent influencer votre jugement. Vous n'avez jamais vu de cochons voler. Vous savez que la plupart des gens ne s'attendront pas à ce qu'ils volent. Vous savez qu'ils ne sont pas vraiment faits pour voler. Et ainsi de suite.
 
-Par conséquent, lorsque nous parlons d'une "probabilité inconditionnelle" d'un événement dans un contexte réel, ce terme n'a de sens que si nous le considérons comme "la probabilité sans aucune autre information explicite". Toute compréhension d'une "probabilité conditionnelle" doit donc toujours être comprise par rapport à un élément d'information spécifique.
+Ainsi, lorsque nous parlons d'une « probabilité inconditionnelle » d'un événement dans un contexte réel, ce terme ne peut vraiment avoir de sens que si nous le comprenons comme signifiant quelque chose comme « la probabilité sans aucune information supplémentaire explicite ». Toute compréhension d'une « probabilité conditionnelle » doit alors toujours être comprise par rapport à une information spécifique.
 
-Je pourrais, par exemple, vous demander la probabilité que les cochons volent d'ici 2030, après vous avoir donné des preuves que certaines chèvres en Nouvelle-Zélande ont appris à voler après quelques années d'entraînement. Dans ce cas, vous ajusterez probablement votre jugement sur la probabilité que les cochons volent d'ici 2030. La probabilité que les cochons volent d'ici 2030 est donc conditionnelle à cette preuve concernant les chèvres en Nouvelle-Zélande.
+Je pourrais, par exemple, vous demander quelle est la probabilité que les cochons volent d'ici 2030, après vous avoir fourni une preuve que certaines chèvres en Nouvelle-Zélande ont appris à voler après quelques années d'entraînement. Dans ce cas, vous ajusterez probablement votre jugement sur la probabilité que les cochons volent d'ici 2030. Ainsi, la probabilité que les cochons volent d'ici 2030 est conditionnelle à cette preuve concernant les chèvres en Nouvelle-Zélande.
+
 
 ## L'opération modulo
-
 <chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
 
 ### Modulo
 
-L'expression la plus élémentaire avec l'opération **modulo** est de la forme suivante : $x \mod y$.
+L'expression la plus basique de l’**opération modulo** est de la forme suivante : $x \mod y$.
 
-La variable $x$ est appelée le dividende et la variable $y$ le diviseur. Pour effectuer une opération modulo avec un dividende et un diviseur positifs, il suffit de déterminer le reste de la division.
+La variable $x$ est appelée le dividende et la variable $y$ le diviseur. Pour effectuer une opération modulo avec un dividende positif et un diviseur positif, il suffit de déterminer le reste de la division.
 
-Par exemple, considérons l'expression $25 \mod 4$. Le nombre 4 entre dans le nombre 25 6 fois au total. Le reste de cette division est 1. Par conséquent, $25 \mod 4$ est égal à 1. De la même manière, nous pouvons évaluer les expressions ci-dessous :
+Par exemple, considérons l'expression $25 \mod 4$. Le nombre $4$ rentre dans le nombre $25$ un total de $6$ fois. Le reste de cette division est $1$. Ainsi, $25 \mod 4$ est égal à $1$. De la même manière, nous pouvons évaluer les expressions ci-dessous :
 
-- $29 \mod 30 = 29$ (car $30$ divise $29$ un total de $0$ fois et le reste est $29$)
-- $42 \mod 2 = 0$ (car $2$ divise $42$ un total de $21$ fois et le reste est $0$)
-- $12 \mod 5 = 2$ (car $5$ divise $12$ un total de $2$ fois et le reste est $2$)
-- $20 \mod 8 = 4$ (car $8$ divise $20$ un total de $2$ fois et le reste est $4$)
+* $29 \mod 30 = 29$ (car $30$ rentre dans $29$ un total de $0$ fois et le reste est $29$)
+* $42 \mod 2 = 0$ (car $2$ rentre dans $42$ un total de $21$ fois et le reste est $0$)
+* $12 \mod 5 = 2$ (car $5$ rentre dans $12$ un total de $2$ fois et le reste est $2$)
+* $20 \mod 8 = 4$ (car $8$ rentre dans $20$ un total de $2$ fois et le reste est $4$)
 
 Lorsque le dividende ou le diviseur est négatif, les opérations modulo peuvent être traitées différemment par les langages de programmation.
 
 Vous rencontrerez certainement des cas avec un dividende négatif en cryptographie. Dans ces cas, l'approche typique est la suivante :
 
-- Déterminez d'abord la valeur la plus proche *inférieure ou égale* au dividende dans laquelle le diviseur se divise avec un reste de zéro. Appelons cette valeur $p$.
-- Si le dividende est $x$, le résultat de l'opération modulo est la valeur de $x - p$.
+* Déterminez d'abord la valeur la plus proche **inférieure ou égale** au dividende dans laquelle le diviseur se divise avec un reste nul. Appelez cette valeur $p$.
+* Si le dividende est $x$, alors le résultat de l'opération modulo est la valeur de $x – p$.
 
-Par exemple, supposons que le dividende soit $-20$ et le diviseur 3. La valeur la plus proche inférieure ou égale à $-20$ dans laquelle 3 se divise également est $-21$. La valeur de $x - p$ dans ce cas est $-20 - (-21)$. Cette valeur est égale à 1 et, par conséquent, $-20 \mod 3$ est égal à 1. De la même manière, nous pouvons évaluer les expressions ci-dessous :
+Par exemple, supposons que le dividende soit $–20$ et le diviseur $3$. La valeur la plus proche inférieure ou égale à $–20$ dans laquelle $3$ se divise exactement est $–21$. La valeur de $x – p$ dans ce cas est $–20 – (–21)$. Cela équivaut à $1$, et donc $–20 \mod 3$ est égal à $1$. De la même manière, nous pouvons évaluer les expressions ci-dessous :
 
-- $-8 \mod 5 = 2$
-- $-19 \mod 16 = 13$
-- $-14 \mod 6 = 4$
+* $–8 \mod 5 = 2$
+* $–19 \mod 16 = 13$
+* $–14 \mod 6 = 4$
 
-En ce qui concerne la notation, vous verrez généralement les types d'expressions suivants : $x = [y \mod z]$. En raison des parenthèses, l'opération modulo ne s'applique dans ce cas qu'au côté droit de l'expression. Si $y$ est égal à 25 et $z$ à 4, par exemple, $x$ est égal à 1.
+En ce qui concerne la notation, vous verrez généralement des expressions de ce type : $x = [y \mod z]$. En raison des crochets, l'opération modulo dans ce cas ne s'applique qu'au côté droit de l'expression. Si $y$ vaut $25$ et $z$ vaut $4$, par exemple, alors $x$ vaut $1$.
 
-Sans parenthèses, l'opération modulo agit sur les *deux côtés* d'une expression. Supposons, par exemple, l'expression suivante : $x = y \mod z$. Si $y$ est égal à 25 et $z$ à 4, tout ce que nous savons est que $x \mod 4$ est égal à 1. Ceci est cohérent avec n'importe quelle valeur pour $x$ de l'ensemble $\{\ldots,-7, -3, 1, 5, 9,\ldots\}$.
+Sans crochets, l'opération modulo agit sur **les deux côtés** d'une expression. Supposons, par exemple, l'expression suivante : $x = y \mod z$. Si $y$ vaut $25$ et $z$ vaut $4$, alors tout ce que nous savons, c'est que $x \mod 4$ vaut $1$. Cela est cohérent avec toute valeur de $x$ appartenant à l'ensemble $\{\ldots,–7, –3, 1, 5, 9,\ldots\}$.
 
-La branche des mathématiques qui implique des opérations modulo sur les nombres et les expressions est appelée **arithmétique modulaire**. On peut considérer cette branche comme l'arithmétique pour les cas où la ligne des nombres n'est pas infiniment longue. Bien que les opérations modulo sur les nombres entiers (positifs) soient généralement utilisées en cryptographie, il est également possible d'effectuer des opérations modulo sur n'importe quel nombre réel.
+La branche des mathématiques qui traite des opérations modulo sur les nombres et les expressions est appelée **arithmétique modulaire**. Vous pouvez considérer cette branche comme une arithmétique pour les cas où la ligne des nombres n'est pas infiniment longue. Bien que nous rencontrions généralement des opérations modulo pour des entiers positifs en cryptographie, vous pouvez également effectuer des opérations modulo en utilisant n'importe quel nombre réel.
 
-### Le chiffrement par décalage
+### Le chiffre de décalage
 
-L'opération modulo est fréquemment rencontrée en cryptographie. Pour l'illustrer, considérons l'un des systèmes de chiffrement historiques les plus célèbres : le chiffrement par décalage.
+L'opération modulo est fréquemment rencontrée en cryptographie. Pour illustrer cela, considérons l'un des schémas de chiffrement historiques les plus célèbres : le chiffre de décalage.
 
-Commençons par la définir. Supposons un dictionnaire *D* qui assimile toutes les lettres de l'alphabet anglais, dans l'ordre, à l'ensemble des nombres $\{0, 1, 2, \ldots, 25\}$. Supposons un espace de messages **M**. Le **chiffrement par décalage** est donc un système de chiffrement défini comme suit :
+Définissons-le d'abord. Supposons un dictionnaire *D* qui associe toutes les lettres de l'alphabet anglais, dans l'ordre, à l'ensemble des nombres $\{0, 1, 2, \ldots, 25\}$. Supposons un espace de messages **M**. Le **chiffre de décalage** est alors un schéma de chiffrement défini comme suit :
 
-- Sélectionner uniformément une clé $k$ dans l'espace des clés **K**, où **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
+- Sélectionner uniformément une clé $k$ parmi l'espace des clés **K**, où **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
 - Chiffrer un message $m \in \mathbf{M}$, comme suit :
     - Séparer $m$ en ses lettres individuelles $m_0, m_1, \ldots, m_i, \ldots, m_l$
     - Convertir chaque $m_i$ en un nombre selon *D*
     - Pour chaque $m_i$, $c_i = [(m_i + k) \mod 26]$
-    - Convertir chaque $c_i$ en lettre selon *D*
-    - Combinez ensuite $c_0, c_1, \ldots, c_l$ pour obtenir le texte chiffré $c$
+    - Convertir chaque $c_i$ en une lettre selon *D*
+    - Combiner ensuite $c_0, c_1, \ldots, c_l$ pour obtenir le texte chiffré $c$
 - Déchiffrer un texte chiffré $c$ comme suit :
     - Convertir chaque $c_i$ en un nombre selon *D*
-    - Pour chaque $c_i$, $m_i = [(c_i - k) \mod 26]$
-    - Convertir chaque $m_i$ en lettre selon *D*
-    - Combinez ensuite $m_0, m_1, \ldots, m_l$ pour obtenir le message original $m$
+    - Pour chaque $c_i$, $m_i = [(c_i – k) \mod 26]$
+    - Convertir chaque $m_i$ en une lettre selon *D*
+    - Combiner ensuite $m_0, m_1, \ldots, m_l$ pour obtenir le message original $m$
 
-L'opérateur modulo du chiffrement par décalage garantit que les lettres s'enroulent autour d'elles, de sorte que toutes les lettres du texte chiffré sont définies. Pour illustrer ce propos, prenons l'exemple de l'application du chiffrement par décalage au mot "DOG".
+L'opérateur modulo dans le chiffre de décalage garantit que les lettres bouclent, de sorte que toutes les lettres du texte chiffré soient définies. Pour illustrer, considérons l'application du chiffre de décalage sur le mot « DOG ».
 
-Supposons que vous ayez sélectionné uniformément une clé pour qu'elle ait la valeur 17. La lettre "O" équivaut à 15. Sans l'opération modulo, l'addition de ce nombre en clair et de la clé donnerait un nombre chiffré de 32. Cependant, ce nombre de texte chiffré ne peut pas être transformé en lettre de texte chiffré, car l'alphabet anglais ne compte que 26 lettres. L'opération modulo garantit que le nombre du texte chiffré est en fait 6 (le résultat de $32 \mod 26$), ce qui équivaut à la lettre "G" du texte chiffré.
+Supposons que vous ayez sélectionné uniformément une clé ayant la valeur de $17$. La lettre « O » correspond à $15$. Sans l'opération modulo, l’addition de ce nombre de texte en clair avec la clé donnerait un nombre chiffré égal à $32$. Cependant, ce nombre ne peut pas être converti en une lettre chiffrée, puisque l'alphabet anglais ne comporte que $26$ lettres. L'opération modulo garantit que le nombre chiffré est en réalité $6$ (le résultat de $32 \mod 26$), ce qui correspond à la lettre chiffrée « G ».
 
-Le chiffrement complet du mot "DOG" avec une valeur de clé de 17 est le suivant :
+Le chiffrement complet du mot « DOG » avec une clé de valeur $17$ est le suivant :
 
-- Message = DOG = D,O,G = 3,15,6
-- $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
-- $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+* Message = DOG = D, O, G = 3, 15, 6  
+* $c_0 = [(3 + 17) \mod 26] = 20 = U$
+* $c_1 = [(15 + 17) \mod 26] = 6 = G$
+* $c_2 = [(6 + 17) \mod 26] = 23 = X$
+* $c = UGX$
 
-Tout le monde peut comprendre intuitivement le fonctionnement du chiffrement par décalage et probablement l'utiliser lui-même. Toutefois, pour progresser dans la connaissance de la cryptographie, il est important de commencer à se familiariser avec la formalisation, car les schémas deviennent alors beaucoup plus difficiles. C'est pourquoi les étapes du chiffrement par décalage ont été formalisées.
+Tout le monde peut comprendre intuitivement comment fonctionne le chiffre de décalage et probablement l'utiliser lui-même. Cependant, pour progresser en cryptographie, il est important de commencer à se familiariser avec la formalisation, car les schémas deviendront beaucoup plus complexes. C'est pourquoi les étapes du chiffre de décalage ont été formalisées.
 
-**Notes:**
+**Notes :**
 
-[1] Nous pouvons définir exactement cette affirmation en utilisant la terminologie de la section précédente. Soit une variable uniforme $K$ dont l'ensemble des résultats possibles est $K$. Ainsi :
+[1] Nous pouvons définir cette déclaration de manière précise, en utilisant la terminologie de la section précédente. Supposons une variable uniforme $K$ ayant $K$ comme ensemble de résultats possibles. Ainsi :
 
 $$
 Pr[K = 0] = \frac{1}{26}
@@ -491,111 +491,113 @@ $$
 Pr[K = 1] = \frac{1}{26}
 $$
 
-... et ainsi de suite. Échantillonner une fois la variable uniforme $K$ pour obtenir une clé particulière.
+...et ainsi de suite. Échantillonner la variable uniforme $K$ une fois pour obtenir une clé particulière.
+
 
 ## L'opération XOR
-
 <chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
 
-Toutes les données informatiques sont traitées, stockées et envoyées sur les réseaux au niveau des bits. Tous les systèmes cryptographiques appliqués aux données informatiques opèrent également au niveau des bits.
+Toutes les données informatiques sont traitées, stockées et transmises sur les réseaux au niveau des bits. Tous les schémas cryptographiques appliqués aux données informatiques fonctionnent également au niveau des bits.
 
-Supposons, par exemple, que vous ayez saisi un courriel dans votre application de messagerie. Le chiffrement que vous appliquez ne s'applique pas directement aux caractères ASCII de votre courrier électronique. Il s'applique plutôt à la représentation bitmétrique des lettres et autres symboles de votre e-mail.
+Par exemple, supposons que vous ayez tapé un e-mail dans votre application de messagerie. Tout chiffrement que vous appliquez ne se produit pas directement sur les caractères ASCII de votre e-mail. Il est plutôt appliqué à la représentation binaire des lettres et autres symboles de votre e-mail.
 
-Outre l'opération modulo, une opération mathématique essentielle à comprendre pour la cryptographie moderne est l'opération **XOR**, ou opération "or exclusif". Cette opération prend deux bits en entrée et produit un autre bit en sortie. L'opération XOR sera simplement désignée par "XOR". Elle donne 0 si les deux bits sont identiques et 1 si les deux bits sont différents. Vous pouvez voir les quatre possibilités ci-dessous. Le symbole $\oplus$ représente "XOR" :
+Une opération mathématique essentielle à comprendre pour la cryptographie moderne, en plus de l'opération modulo, est celle de l’**opération XOR** ou « ou exclusif ». Cette opération prend en entrée deux bits et produit en sortie un autre bit. L'opération XOR sera simplement notée "XOR". Elle produit $0$ si les deux bits sont identiques et $1$ s'ils sont différents. Vous pouvez voir les quatre possibilités ci-dessous. Le symbole $\oplus$ représente "XOR" :
 
-- $0 \oplus 0 = 0$
-- $0 \oplus 1 = 1$
-- $1 \oplus 0 = 1$
-- $1 \oplus 1 = 0$
+* $0 \oplus 0 = 0$
+* $0 \oplus 1 = 1$
+* $1 \oplus 0 = 1$
+* $1 \oplus 1 = 0$
 
-Pour illustrer cela, supposons que vous ayez un message $m_1$ (01111001) et un message $m_2$ (01011001). L'opération XOR de ces deux messages est illustrée ci-dessous.
+Pour illustrer, supposons que vous ayez un message $m_1$ ($01111001$) et un message $m_2$ ($01011001$). L'opération XOR de ces deux messages est montrée ci-dessous :
 
-- $m_1 \oplus m_2 = 01111001 \oplus 01011001 = 00100000$
+* $m_1 \oplus m_2 = 01111001 \oplus 01011001 = 00100000$
 
-Le processus est simple. Vous devez d'abord faire un XOR des bits les plus à gauche de $m_1$ et $m_2$. Dans ce cas, il s'agit de $0 \oplus 0 = 0$. On effectue ensuite un XOR de la deuxième paire de bits en partant de la gauche. Dans ce cas, il s'agit de $1 \oplus 1 = 0$. Vous continuez ce processus jusqu'à ce que vous ayez effectué l'opération XOR sur les bits les plus à droite.
+Le processus est simple. Vous effectuez d'abord l'opération XOR sur les bits les plus à gauche de $m_1$ et $m_2$. Dans ce cas, cela donne $0 \oplus 0 = 0$. Ensuite, vous appliquez XOR sur la deuxième paire de bits en partant de la gauche. Dans ce cas, cela donne $1 \oplus 1 = 0$. Vous continuez ce processus jusqu'à ce que vous ayez effectué l'opération XOR sur les bits les plus à droite.
 
-Il est facile de voir que l'opération XOR est commutative, à savoir que $m_1 \oplus m_2 = m_2 \oplus m_1$. En outre, l'opération XOR est également associative. Autrement dit, $(m_1 \oplus m_2) \oplus m_3 = m_1 \oplus (m_2 \oplus m_3)$.
+Il est facile de voir que l'opération XOR est commutative, c'est-à-dire que $m_1 \oplus m_2 = m_2 \oplus m_1$. De plus, l'opération XOR est également associative. C'est-à-dire que $(m_1 \oplus m_2) \oplus m_3 = m_1 \oplus (m_2 \oplus m_3)$.
 
-Une opération XOR sur deux chaînes de longueur différente peut avoir différentes interprétations, en fonction du contexte. Nous ne nous intéresserons pas ici aux opérations XOR sur des chaînes de longueur différente.
+Une opération XOR sur deux chaînes de longueurs différentes peut avoir des interprétations différentes, selon le contexte. Nous ne nous préoccuperons pas ici des opérations XOR sur des chaînes de longueurs différentes.
 
-Une opération XOR est équivalente au cas particulier d'une opération modulo sur l'addition de bits lorsque le diviseur est 2. Vous pouvez voir l'équivalence dans les résultats suivants :
+Une opération XOR est équivalente au cas particulier de l'exécution d'une opération modulo sur l'addition de bits lorsque le diviseur est $2$. Vous pouvez voir l'équivalence dans les résultats suivants :
 
-- $(0 + 0) \mod 2 = 0 \oplus 0 = 0$
-- $(1 + 0) \mod 2 = 1 \oplus 0 = 1$
-- $(0 + 1) \mod 2 = 0 \oplus 1 = 1$
-- $(1 + 1) \mod 2 = 1 \oplus 1 = 0$
+* $(0 + 0) \mod 2 = 0 \oplus 0 = 0$
+* $(1 + 0) \mod 2 = 1 \oplus 0 = 1$
+* $(0 + 1) \mod 2 = 0 \oplus 1 = 1$
+* $(1 + 1) \mod 2 = 1 \oplus 1 = 0$
 
-## Pseudo-aléa
 
+## Pseudoaléatoire
 <chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
 
-Dans notre discussion sur les variables aléatoires et uniformes, nous avons établi une distinction spécifique entre "aléatoire" et "uniforme". Cette distinction est généralement maintenue dans la pratique lors de la description de variables aléatoires. Cependant, dans notre contexte actuel, cette distinction doit être abandonnée et les termes "aléatoire" et "uniforme" sont utilisés comme synonymes. J'expliquerai pourquoi à la fin de cette section.
+Dans notre discussion sur les variables aléatoires et uniformes, nous avons établi une distinction spécifique entre « aléatoire » et « uniforme ». Cette distinction est généralement maintenue en pratique lorsqu’on décrit des variables aléatoires. Cependant, dans notre contexte actuel, cette distinction doit être abandonnée et les termes « aléatoire » et « uniforme » sont utilisés de manière synonyme. Je vais expliquer pourquoi à la fin de cette section.
 
-Pour commencer, nous pouvons appeler une chaîne binaire de longueur $n$ **aléatoire** (ou **uniforme**), si elle est le résultat de l'échantillonnage d'une variable uniforme $S$ qui donne à chaque chaîne binaire d'une telle longueur $n$ une probabilité égale de sélection.
+Pour commencer, nous pouvons qualifier une chaîne binaire de longueur $n$ de **chaîne aléatoire** (ou **uniforme**), si elle est le résultat de l’échantillonnage d’une variable uniforme $S$ qui donne à chaque chaîne binaire de longueur $n$ une probabilité égale d’être sélectionnée.
 
-Supposons, par exemple, l'ensemble de toutes les chaînes binaires de longueur $8$ : 
+Prenons par exemple l’ensemble de toutes les chaînes binaires de longueur 8 : $\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (Il est courant d’écrire une chaîne de 8 bits en deux quatuors, chacun appelé un **nibble**.) Appelons cet ensemble de chaînes **$S_8$**.
 
-$$\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}.$$
+Selon la définition ci-dessus, une chaîne binaire particulière de longueur 8 peut être qualifiée d'aléatoire (ou uniforme), si elle résulte de l'échantillonnage d'une variable uniforme $S$ qui attribue à chaque chaîne de **$S_8$** une probabilité égale d'être sélectionnée. Étant donné que l'ensemble **$S_8$** contient $2^8$ éléments, la probabilité de sélection lors de l'échantillonnage serait de $1/2^8$ pour chaque chaîne de l'ensemble.
 
-(Il est courant d'écrire une chaîne de $8$ bits en deux groupes de $4$ bits, chacun étant appelé **nibble**). Appelons cet ensemble de chaînes **$S_8$**.
+Un aspect essentiel de l’aléatoirité d’une chaîne binaire est qu’elle est définie par rapport au processus par lequel elle a été sélectionnée. La forme d'une chaîne binaire particulière, en elle-même, ne révèle donc rien sur son caractère aléatoire lors de sa sélection.
 
-Conformément à la définition ci-dessus, nous pouvons donc appeler aléatoire (ou uniforme) une chaîne binaire particulière de longueur 8, si elle est le résultat de l'échantillonnage d'une variable uniforme $S$ qui donne à chaque chaîne de **$S_8$** une probabilité égale de sélection. Étant donné que l'ensemble **$S_8$** comprend $2^8$ éléments, la probabilité de sélection lors de l'échantillonnage devrait être de $1/2^8$ pour chaque chaîne de l'ensemble.
+Par exemple, beaucoup de gens ont l'intuition qu'une chaîne comme $1111\ 1111$ ne pourrait pas avoir été sélectionnée de manière aléatoire. Mais c'est clairement faux.
 
-Un aspect essentiel du caractère aléatoire d'une chaîne binaire est qu'il est défini par rapport au processus par lequel elle a été sélectionnée. La forme d'une chaîne binaire particulière ne révèle donc rien sur le caractère aléatoire de sa sélection.
+En définissant une variable uniforme $S$ sur l'ensemble de toutes les chaînes binaires de longueur 8, la probabilité de sélectionner $1111\ 1111$ parmi l'ensemble **$S_8$** est la même que celle de sélectionner une chaîne comme $0111\ 0100$. Par conséquent, il est impossible de déterminer si une chaîne est aléatoire simplement en l’analysant.
 
-Par exemple, de nombreuses personnes pensent intuitivement qu'une chaîne comme $1111\ 1111$ n'a pas pu être choisie au hasard. Or, cette idée est manifestement fausse.
+On peut également parler de chaînes aléatoires sans nécessairement faire référence à des chaînes binaires. Par exemple, nous pourrions parler d'une chaîne hexadécimale aléatoire $AF\ 02\ 82$. Dans ce cas, la chaîne aurait été sélectionnée aléatoirement parmi l'ensemble de toutes les chaînes hexadécimales de longueur 6. Cela revient à sélectionner aléatoirement une chaîne binaire de longueur 24, chaque chiffre hexadécimal représentant 4 bits.
 
-En définissant une variable uniforme $S$ sur toutes les chaînes binaires de longueur 8, la probabilité de sélectionner $1111\ 1111$ dans l'ensemble **$S_8$** est la même que celle d'une chaîne telle que $0111\ 0100$. On ne peut donc rien dire sur le caractère aléatoire d'une chaîne de caractères en analysant la chaîne elle-même.
+En général, l’expression « une chaîne aléatoire », sans précision supplémentaire, se réfère à une chaîne sélectionnée aléatoirement parmi l’ensemble de toutes les chaînes de même longueur. C’est ainsi que nous l’avons décrite ci-dessus. Une chaîne de longueur $n$ peut, bien sûr, être sélectionnée aléatoirement à partir d'un ensemble différent. Par exemple, un ensemble qui ne constitue qu'un sous-ensemble de toutes les chaînes de longueur $n$, ou peut-être un ensemble qui comprend des chaînes de longueurs variées. Dans ces cas, cependant, nous ne parlerions pas d'une « chaîne aléatoire », mais plutôt d'une « chaîne sélectionnée aléatoirement dans un ensemble **S** ».
 
-On peut également parler de chaînes aléatoires sans parler spécifiquement de chaînes binaires. On peut, par exemple, parler d'une chaîne hexagonale aléatoire $AF\ 02\ 82$. Dans ce cas, la chaîne aurait été choisie au hasard dans l'ensemble des chaînes hexagonales de longueur 6, ce qui équivaut à choisir au hasard une chaîne binaire de longueur 24, puisque chaque chiffre hexadécimal représente 4 bits.
+Un concept clé en cryptographie est celui de **pseudoaléatoirité**. Une **chaîne pseudoaléatoire** de longueur $n$ semble **comme si** elle résultait de l’échantillonnage d’une variable uniforme $S$ qui attribue à chaque chaîne de **$S_n$** une probabilité égale d'être sélectionnée. En réalité, cependant, la chaîne résulte de l’échantillonnage d’une variable uniforme $S'$ qui définit uniquement une distribution de probabilité — pas nécessairement uniforme — sur un sous-ensemble de **$S_n$**. L’élément crucial ici est qu’il est pratiquement impossible de distinguer des échantillons provenant de $S$ de ceux provenant de $S'$, même si vous en prenez de nombreux.
 
-Généralement, l'expression "une chaîne aléatoire", sans qualification, fait référence à une chaîne sélectionnée au hasard dans l'ensemble de toutes les chaînes de même longueur. C'est ainsi que je l'ai décrite ci-dessus. Une chaîne de longueur $n$ peut, bien sûr, être choisie au hasard dans un ensemble différent. Un ensemble, par exemple, qui ne constitue qu'un sous-ensemble de toutes les chaînes de longueur $n$, ou peut-être un ensemble qui comprend des chaînes de longueur variable. Dans ce cas, cependant, nous ne parlerions pas de "chaîne aléatoire", mais plutôt de "chaîne sélectionnée au hasard dans un ensemble **S**".
+Supposons, par exemple, une variable aléatoire $S$. Son ensemble de résultats est **$S_{256}$**, qui correspond à l’ensemble de toutes les chaînes binaires de longueur 256. Cet ensemble comporte $2^{256}$ éléments. Chaque élément a une probabilité égale d'être sélectionné, soit $1/2^{256}$, lors de l'échantillonnage.
 
-L'un des concepts clés de la cryptographie est celui de pseudo-aléa. Une **chaîne pseudo-aléatoire** de longueur $n$ apparaît *comme si* elle était le résultat de l'échantillonnage d'une variable uniforme $S$ qui donne à chaque chaîne de **$S_n$** une probabilité égale de sélection. En fait, la chaîne est le résultat de l'échantillonnage d'une variable uniforme $S'$ qui définit uniquement une distribution de probabilité - pas nécessairement une distribution avec des probabilités égales pour tous les résultats possibles - sur un sous-ensemble de **$S_n$**. Le point crucial ici est que personne ne peut vraiment faire la distinction entre les échantillons de $S$ et de $S'$, même si l'on en prend un grand nombre.
+En outre, supposons une variable aléatoire $S'$. Son ensemble de résultats ne comprend que $2^{128}$ chaînes binaires de longueur 256. Elle a une distribution de probabilité sur ces chaînes, mais cette distribution n'est pas nécessairement uniforme.
 
-Supposons, par exemple, une variable aléatoire $S$. Son ensemble de résultats est **$S_{256}$**, c'est-à-dire l'ensemble de toutes les chaînes binaires de longueur 256. Cet ensemble comporte $2^{256}$ éléments. Chaque élément a une probabilité égale de sélection, $1/2^{256}$, lors de l'échantillonnage.
+Imaginons maintenant que je prenne des milliers d’échantillons de $S$ et des milliers d’échantillons de $S'$, et que je vous remette ces deux ensembles de résultats. Je vous indique quel ensemble de résultats est associé à quelle variable aléatoire. Ensuite, je prends un échantillon d'une des deux variables aléatoires, sans vous dire laquelle. Si $S'$ est pseudoaléatoire, alors votre probabilité de deviner correctement de quelle variable aléatoire provient l’échantillon est pratiquement équivalente à $1/2$.
 
-En outre, supposons une variable aléatoire $S'$. Son ensemble de résultats ne comprend que $2^{128}$ chaînes binaires de longueur 256. Elle possède une certaine distribution de probabilité sur ces chaînes, mais cette distribution n'est pas nécessairement uniforme.
+En général, une chaîne pseudoaléatoire de longueur $n$ est produite en sélectionnant aléatoirement une chaîne de taille $n - x$, où $x$ est un entier positif, et en l’utilisant comme entrée pour un algorithme d’expansion. Cette chaîne aléatoire de taille $n - x$ est appelée la **graine**.
 
-Supposons que je prenne des milliers d'échantillons de $S$ et des milliers d'échantillons de $S'$ et que je vous donne les deux ensembles de résultats. Je vous dis quel ensemble de résultats est associé à quelle variable aléatoire. Ensuite, je prélève un échantillon de l'une des deux variables aléatoires. Mais cette fois, je ne vous dis pas quelle variable aléatoire j'échantillonne. Si $S'$ était pseudo-aléatoire, alors l'idée est que votre probabilité de faire la bonne supposition quant à la variable aléatoire que j'ai échantillonnée n'est pratiquement pas meilleure que $1/2$.
+Les chaînes pseudoaléatoires sont un concept clé pour rendre la cryptographie pratique. Prenons, par exemple, les chiffrements par flot. Avec un chiffrement par flot, une clé aléatoirement sélectionnée est insérée dans un algorithme d’expansion pour produire une chaîne pseudoaléatoire beaucoup plus grande. Cette chaîne pseudoaléatoire est ensuite combinée avec le texte en clair via une opération XOR pour produire un texte chiffré.
 
-Généralement, une chaîne pseudo-aléatoire de longueur $n$ est produite en sélectionnant au hasard une chaîne de taille $n - x$, où $x$ est un entier positif, et en l'utilisant comme entrée d'un algorithme d'expansion. Cette chaîne aléatoire de taille $n - x$ est appelée **graine**.
+Si nous étions incapables de produire ce type de chaîne pseudoaléatoire pour un chiffrement par flot, nous aurions besoin d’une clé aussi longue que le message pour garantir sa sécurité. Ce qui n'est pas une option pratique dans la plupart des cas.
 
-Les chaînes pseudo-aléatoires sont un concept clé pour rendre la cryptographie pratique. Prenons l'exemple des algorithmes de chiffrement de flux. Avec un chiffrement par flux, une clé sélectionnée au hasard est insérée dans un algorithme d'expansion pour produire une chaîne pseudo-aléatoire beaucoup plus importante. Cette chaîne pseudo-aléatoire est ensuite combinée avec le texte en clair via une opération XOR pour produire un texte chiffré.
+La notion de pseudoaléatoirité abordée dans cette section peut être définie de manière plus formelle et s’étend à d’autres contextes. Cependant, nous n’avons pas besoin d’approfondir cette discussion ici. Il vous suffit de comprendre intuitivement la différence entre une chaîne aléatoire et une chaîne pseudoaléatoire. [2]
 
-Si nous n'étions pas en mesure de produire ce type de chaîne pseudo-aléatoire pour un chiffrement de flux, nous aurions alors besoin d'une clé aussi longue que le message pour assurer sa sécurité. Cette option n'est pas très pratique dans la plupart des cas.
+La raison de l’abandon de la distinction entre « aléatoire » et « uniforme » devrait maintenant être claire. En pratique, tout le monde utilise le terme pseudoaléatoire pour désigner une chaîne qui semble **comme si** elle résultait de l'échantillonnage d'une variable uniforme $S$. Strictement parlant, nous devrions appeler une telle chaîne « pseudo-uniforme », en adoptant notre langage précédent. Mais comme ce terme est lourd et peu utilisé, nous ne l’introduirons pas ici pour plus de clarté. Nous abandonnons donc la distinction entre « aléatoire » et « uniforme » dans ce contexte.
 
-La notion de pseudo-aléa abordée dans cette section peut être définie de manière plus formelle. Elle s'étend également à d'autres contextes. Mais il n'est pas nécessaire d'approfondir cette discussion ici. Tout ce qu'il faut comprendre intuitivement pour une grande partie de la cryptographie, c'est la différence entre une chaîne aléatoire et une chaîne pseudo-aléatoire. [2]
-
-La raison de l'abandon de la distinction entre "aléatoire" et "uniforme" dans notre discussion devrait maintenant être claire. Dans la pratique, tout le monde utilise le terme pseudo-aléatoire pour indiquer une chaîne qui apparaît **comme** le résultat de l'échantillonnage d'une variable uniforme $S$. En toute rigueur, nous devrions appeler une telle chaîne "pseudo-uniforme", en adoptant le langage que nous avons utilisé précédemment. Comme le terme "pseudo-uniforme" est à la fois maladroit et n'est utilisé par personne, nous ne l'introduirons pas ici par souci de clarté. Au lieu de cela, nous abandonnons simplement la distinction entre "aléatoire" et "uniforme" dans le contexte actuel.
 
 **Notes**
 
-[2] Si vous souhaitez un exposé plus formel sur ces questions, vous pouvez consulter l'ouvrage de Katz et Lindell intitulé *Introduction to Modern Cryptography*, en particulier le chapitre 3.
+[2] Pour une exposition plus formelle de ces notions, vous pouvez consulter *Introduction to Modern Cryptography* de Katz et Lindell, notamment le chapitre 3.
+
+
 
 # Fondements mathématiques de la cryptographie 2
 
 <partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
 
-## Qu'est-ce que la théorie des nombres ?
+# Fondements mathématiques de la cryptographie 2
+<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
 
+## Qu'est-ce que la théorie des nombres ?
 <chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
 
-Ce chapitre traite d'un sujet plus avancé sur les fondements mathématiques de la cryptographie : la théorie des nombres. Bien que la théorie des nombres soit importante pour la cryptographie symétrique (comme dans le chiffrement Rijndael), elle est particulièrement importante dans le cadre de la cryptographie à clé publique.
+Ce chapitre traite d'un sujet plus avancé sur les fondements mathématiques de la cryptographie : la théorie des nombres. Bien que la théorie des nombres soit importante pour la cryptographie symétrique (comme dans le chiffrement Rijndael), elle joue un rôle particulièrement essentiel dans le cadre de la cryptographie à clé publique.
 
-Si les détails de la théorie des nombres vous semblent fastidieux, je vous recommande une lecture de haut niveau la première fois. Vous pourrez toujours y revenir plus tard.
+Si vous trouvez les détails de la théorie des nombres fastidieux, je vous recommande d’en faire une première lecture globale. Vous pourrez toujours y revenir plus tard pour approfondir votre compréhension.
 
-___
+---
 
-On pourrait caractériser la **théorie des nombres** comme l'étude des propriétés des nombres entiers et des fonctions mathématiques qui fonctionnent avec des nombres entiers.
+La **théorie des nombres** peut être décrite comme l'étude des propriétés des entiers et des fonctions mathématiques qui opèrent sur ces entiers.
 
-Considérons, par exemple, que deux nombres $a$ et $N$ sont des **coprimes** (ou **premiers relatifs**) si leur plus grand diviseur commun est égal à 1. Supposons maintenant un entier particulier $N$. Combien d'entiers plus petits que $N$ sont coprimes avec $N$ ? Pouvons-nous faire des déclarations générales sur les réponses à cette question ? Tels sont les types de questions auxquelles la théorie des nombres cherche à répondre.
+Considérons, par exemple, deux nombres $a$ et $N$. Ces nombres sont dits **copremiers** (ou **premiers entre eux**) si leur plus grand diviseur commun est égal à 1. Imaginons maintenant un entier particulier $N$. Combien d'entiers inférieurs à $N$ sont copremiers avec $N$ ? Pouvons-nous formuler des déclarations générales pour répondre à cette question ? Ce sont précisément le genre de questions auxquelles la théorie des nombres cherche à répondre.
 
-La théorie moderne des nombres s'appuie sur les outils de l'algèbre abstraite. L'algèbre abstraite** est une sous-discipline des mathématiques dans laquelle les principaux objets d'analyse sont des objets abstraits connus sous le nom de structures algébriques. Une **structure algébrique** est un ensemble d'éléments associé à une ou plusieurs opérations, qui répond à certains axiomes. Grâce aux structures algébriques, les mathématiciens peuvent mieux comprendre des problèmes mathématiques spécifiques, en faisant abstraction de leurs détails.
+La théorie moderne des nombres s'appuie sur les outils de l’**algèbre abstraite**. L’algèbre abstraite est une branche des mathématiques où les principaux objets d’analyse sont des entités abstraites appelées **structures algébriques**. Une **structure algébrique** est un ensemble d’éléments associé à une ou plusieurs opérations qui satisfont certains axiomes. Grâce à ces structures, les mathématiciens peuvent acquérir une meilleure compréhension de problèmes mathématiques spécifiques, en faisant abstraction de leurs détails concrets.
 
-Le domaine de l'algèbre abstraite est parfois appelé algèbre moderne. Vous pouvez également rencontrer le concept de **mathématiques abstraites** (ou **mathématiques pures**). Ce dernier terme ne fait pas référence à l'algèbre abstraite, mais désigne plutôt l'étude des mathématiques pour elles-mêmes, et pas seulement en vue d'applications potentielles.
+Le domaine de l’algèbre abstraite est parfois appelé **algèbre moderne**. Vous rencontrerez peut-être aussi l’expression **mathématiques abstraites** (ou **mathématiques pures**). Ce dernier terme ne désigne pas spécifiquement l’algèbre abstraite, mais englobe plutôt l’étude des mathématiques pour elles-mêmes, sans considération immédiate pour des applications pratiques.
 
-Les ensembles de l'algèbre abstraite peuvent traiter de nombreux types d'objets, depuis les transformations préservant la forme d'un triangle équilatéral jusqu'aux motifs de papier peint. En ce qui concerne la théorie des nombres, nous ne considérons que les ensembles d'éléments qui contiennent des entiers ou des fonctions qui fonctionnent avec des entiers.
+Les ensembles étudiés en algèbre abstraite peuvent traiter de nombreux types d’objets, allant des transformations préservant la forme d’un triangle équilatéral aux motifs réguliers tels que les frises ou les pavages. En ce qui concerne la théorie des nombres, cependant, nous nous limitons aux ensembles contenant des entiers ou aux fonctions qui opèrent sur ces entiers.
+
 
 ## Groupes
 

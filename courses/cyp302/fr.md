@@ -92,116 +92,114 @@ La notation formelle concerne principalement les variables, les variables aléat
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
 
 ## Les chiffres de Beale
-
 <chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
 
-Commençons notre enquête dans le domaine de la cryptographie par l'un des épisodes les plus charmants et les plus divertissants de son histoire : celui des chiffres de Beale. [1]
+Commençons notre exploration du domaine de la cryptographie par l'un des épisodes les plus charmants et divertissants de son histoire : celui des chiffres de Beale. [1]
 
-L'histoire des codes Beale est, à mon avis, plus proche de la fiction que de la réalité. Mais elle est censée s'être déroulée comme suit.
+L'histoire des chiffres de Beale est, à mon avis, plus susceptible d'être une fiction qu'une réalité. Mais elle est censée s'être déroulée comme suit.
 
-Au cours des hivers 1820 et 1822, un homme nommé Thomas J. Beale a séjourné dans une auberge appartenant à Robert Morriss à Lynchburg (Virginie). À la fin de son second séjour, Beale remet à Morriss une boîte en fer contenant des papiers de valeur à conserver.
+À la fois durant l'hiver de 1820 et de 1822, un homme nommé Thomas J. Beale séjourna dans une auberge tenue par Robert Morriss à Lynchburg (Virginie). À la fin de son second séjour, Beale remit à Morriss une boîte en fer contenant des documents précieux à des fins de protection.
 
-Quelques mois plus tard, Morriss reçoit une lettre de Beale datée du 9 mai 1822. Elle souligne la grande valeur du contenu de la boîte en fer et donne quelques instructions à Morriss : si ni Beale ni aucun de ses associés ne viennent jamais réclamer la boîte, il devra l'ouvrir exactement dix ans après la date de la lettre (c'est-à-dire le 9 mai 1832). Certains des papiers à l'intérieur seraient écrits en texte normal. Plusieurs autres, en revanche, seraient "inintelligibles sans le secours d'une clef" Cette "clé" sera donc remise à Morriss par un ami anonyme de Beale en juin 1832.
+Quelques mois plus tard, Morriss reçut une lettre de Beale datée du 9 mai 1822. Elle soulignait la grande valeur du contenu de la boîte en fer et comportait quelques instructions pour Morriss : si ni Beale ni aucun de ses associés ne revenaient jamais réclamer la boîte, il devait l'ouvrir précisément dix ans après la date de la lettre (soit le 9 mai 1832). Certains des documents à l'intérieur seraient écrits en texte ordinaire. Plusieurs autres, cependant, seraient "inintelligibles sans l'aide d'une clé". Cette "clé" devait ensuite être remise à Morriss par un ami non identifié de Beale en juin 1832.
 
-Malgré des instructions claires, Morriss n'a pas ouvert la boîte en mai 1832 et le mystérieux ami de Beale ne s'est jamais manifesté en juin de la même année. Ce n'est qu'en 1845 que l'aubergiste se décide enfin à ouvrir la boîte. Morriss y trouve une note expliquant comment Beale et ses associés ont découvert de l'or et de l'argent dans l'Ouest et les ont enterrés, ainsi que des bijoux, pour les mettre en sécurité. En outre, la boîte contenait trois **textes chiffrés**, c'est-à-dire des textes écrits en code qui nécessitent une **clé cryptographique**, ou un secret, et un algorithme pour les déverrouiller. Ce processus de déverrouillage d'un texte chiffré est appelé **déchiffrement**, tandis que le processus de verrouillage est appelé **chiffrement**. Comme expliqué au chapitre 3, le terme "cipher" peut revêtir plusieurs significations. Dans le nom "Beale ciphers", il est l'abréviation de ciphertexts, c'est-à-dire "texte chiffré" en français.
+Malgré les instructions claires, Morriss n'ouvrit pas la boîte en mai 1832 et l'ami mystérieux de Beale n'apparut jamais en juin de cette année. Ce n'est qu'en 1845 que l'aubergiste décida enfin d'ouvrir la boîte. À l'intérieur, Morriss trouva une note expliquant comment Beale et ses associés avaient découvert de l'or et de l'argent dans l'Ouest et les avaient enterrés, avec quelques bijoux, pour les protéger. En outre, la boîte contenait trois **textes chiffrés** : c'est-à-dire des textes écrits en code nécessitant une **clé cryptographique**, ou un secret, et un algorithme associé pour les déverrouiller. Ce processus de déverrouillage d'un texte chiffré est appelé **déchiffrement**, tandis que le processus de verrouillage est appelé **chiffrement**. (Comme expliqué au chapitre 3, le terme "chiffre" peut revêtir plusieurs significations. Dans l'expression "chiffres de Beale", il s'agit d'une abréviation pour textes chiffrés.)
 
-Les trois textes chiffrés que Morriss a trouvés dans la boîte en fer consistent chacun en une série de chiffres séparés par des virgules. Selon la note de Beale, ces textes chiffrés fournissent séparément l'emplacement du trésor, le contenu du trésor et une liste de noms avec les héritiers légitimes du trésor et leurs parts (cette dernière information étant pertinente au cas où Beale et ses associés ne viendraient jamais réclamer la boîte).
+Les trois textes chiffrés trouvés par Morriss dans la boîte en fer sont chacun constitués d'une série de nombres séparés par des virgules. Selon la note de Beale, ces textes chiffrés fournissent séparément l'emplacement du trésor, le contenu du trésor, et une liste de noms avec les héritiers légitimes du trésor et leurs parts (ces dernières informations étant pertinentes au cas où Beale et ses associés ne viendraient jamais réclamer la boîte).
 
-Morris a tenté de déchiffrer les trois textes chiffrés pendant vingt ans. Avec la clé, cela aurait été facile. Mais Morriss n'avait pas la clé et n'a pas réussi à récupérer les textes originaux, ou **plaintexts**, comme on les appelle généralement en cryptographie.
+Morriss tenta de déchiffrer les trois textes chiffrés pendant vingt ans. Cela aurait été facile avec la clé. Mais Morriss ne possédait pas la clé et ne parvint pas à récupérer les textes originaux, ou **textes en clair** comme on les appelle généralement en cryptographie.
 
-Vers la fin de sa vie, Morriss a transmis la boîte à un ami en 1862. Cet ami a ensuite publié un pamphlet en 1885, sous le pseudonyme de J.B. Ward. Il y décrit l'histoire (supposée) de la boîte, les trois textes chiffrés et la solution qu'il a trouvée pour le deuxième texte chiffré. (Apparemment, il existe une clé pour chaque texte chiffré, et non une clé qui fonctionne pour les trois textes chiffrés, comme Beale semble l'avoir suggéré à l'origine dans sa lettre à Morriss)
+Vers la fin de sa vie, Morriss transmit la boîte à un ami en 1862. Cet ami publia ensuite un pamphlet en 1885, sous le pseudonyme J.B. Ward. Il contenait une description de l'histoire (supposée) de la boîte, des trois textes chiffrés, et une solution qu'il avait trouvée pour le deuxième texte chiffré. (Apparemment, il existe une clé pour chaque texte chiffré, et non une clé unique fonctionnant pour les trois textes chiffrés comme Beale semblait initialement l'indiquer dans sa lettre à Morriss.)
 
-Vous pouvez voir le deuxième texte chiffré dans la *Figure 2* ci-dessous. La clé de ce texte chiffré est la Déclaration d'indépendance des États-Unis. La procédure de déchiffrement se résume à l'application des deux règles suivantes :
+Vous pouvez voir le deuxième texte chiffré dans la *Figure 2* ci-dessous. [2] La clé de ce texte chiffré est la Déclaration d'Indépendance des États-Unis. La procédure de déchiffrement revient à appliquer les deux règles suivantes :
 
+- Pour tout nombre \(n\) dans le texte chiffré, localisez le \(n\)-ième mot dans la Déclaration d'Indépendance des États-Unis.
+- Remplacez le nombre \(n\) par la première lettre du mot trouvé.
 
-- Pour tout nombre n dans le texte chiffré, trouver le nième mot de la Déclaration d'indépendance des États-Unis
-- Remplacez le chiffre n par la première lettre du mot que vous avez trouvé
+*Figure 1 : Chiffre de Beale n°2*
 
-*Figure 1 : Chiffre de Beale no. 2*
+![Figure 1 : Chiffre de Beale n°2.](assets/Figure1-1.webp "Figure 1 : Chiffre de Beale n°2")
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+Par exemple, le premier nombre du deuxième texte chiffré est 115. Le 115e mot de la Déclaration d'Indépendance est "instituted", donc la première lettre du texte en clair est "i". Le texte chiffré n'indique pas directement les espaces entre les mots et les majuscules. Cependant, après avoir déchiffré les premiers mots, on peut logiquement en déduire que le premier mot du texte en clair était simplement "I". (Le texte en clair commence par la phrase "I have deposited in the county of Bedford.")
 
-Par exemple, le premier chiffre du deuxième texte chiffré est 115. Le 115e mot de la Déclaration d'indépendance étant "institué", la première lettre du texte en clair est "i" Le texte chiffré n'indique pas directement l'espacement des mots et les majuscules. Mais après avoir déchiffré les premiers mots, vous pouvez logiquement en déduire que le premier mot du texte en clair était simplement "I" (Le texte en clair commence par la phrase "I have deposited in the county of Bedford")
+Après déchiffrement, le second message fournit le contenu détaillé du trésor (or, argent et bijoux), et suggère qu'il a été enterré dans des pots en fer et recouvert de pierres dans le comté de Bedford (Virginie). Les gens adorent un bon mystère, et de grands efforts ont été déployés pour déchiffrer les deux autres chiffres de Beale, notamment celui décrivant l'emplacement du trésor. Même divers cryptographes de renom ont tenté leur chance. Cependant, à ce jour, personne n'a réussi à déchiffrer les deux autres textes chiffrés.
 
-Après déchiffrement, le second message fournit le contenu détaillé du trésor (or, argent et bijoux) et suggère qu'il a été enterré dans des pots en fer et recouvert de pierres dans le comté de Bedford (Virginie). Les gens adorent les mystères, c'est pourquoi de grands efforts ont été déployés pour déchiffrer les deux autres codes de Beale, en particulier celui décrivant l'emplacement du trésor. Plusieurs cryptographes de renom se sont même essayés à leur tâche. Cependant, personne n'a encore réussi à déchiffrer les deux autres textes chiffrés.
+**Notes :**
 
-**Notes:**
+[1] Pour un bon résumé de l'histoire, voir Simon Singh, *The Code Book*, Fourth Estate (Londres, 1999), pp. 82-99. Un court métrage sur l'histoire a été réalisé par Andrew Allen en 2010. Vous pouvez trouver le film, "The Thomas Beale Cipher", [sur son site Web](http://www.thomasbealecipher.com/).
 
-[1] Pour un bon résumé de l'histoire, voir Simon Singh, *The Code Book*, Fourth Estate (Londres, 1999), pp. 82-99. Un court métrage de l'histoire a été réalisé par Andrew Allen en 2010. Vous pouvez trouver le film, "The Thomas Beale Cipher", [sur son site web](http://www.thomasbealecipher.com/).
+[2] Cette image est disponible sur la page Wikipédia dédiée aux chiffres de Beale.
 
-[2] Cette image est disponible sur la page Wikipédia consacrée aux chiffres de Beale.
 
 ## Cryptographie moderne
-
 <chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
 
-La plupart d'entre nous associent la cryptographie à des histoires pittoresques comme celle des chiffres de Beale. Pourtant, la cryptographie moderne diffère de ces exemples historiques sur au moins quatre points importants.
+Les histoires pittoresques comme celle des chiffres de Beale sont ce à quoi la plupart d'entre nous associent la cryptographie. Cependant, la cryptographie moderne diffère d'au moins quatre manières importantes de ces exemples historiques.
 
-Tout d'abord, historiquement, la cryptographie ne s'est intéressée qu'au **secret** (ou à la confidentialité)[3]. Les textes chiffrés sont créés pour garantir que seules certaines parties peuvent avoir accès aux informations contenues dans les textes en clair, comme dans le cas des algorithmes de chiffrement de Beale. Pour qu'un système de chiffrement serve bien cet objectif, le déchiffrement du texte chiffré ne doit être possible que si l'on possède la clé.
+Premièrement, historiquement, la cryptographie ne s'est préoccupée que de la **confidentialité** (ou du secret). [3] Les textes chiffrés étaient créés pour s'assurer que seules certaines parties pouvaient avoir accès aux informations des textes en clair, comme dans le cas des chiffres de Beale. Pour qu'un schéma de chiffrement serve bien cet objectif, déchiffrer le texte chiffré ne doit être réalisable que si l'on possède la clé.
 
-La cryptographie moderne s'intéresse à un éventail de thèmes plus large que le simple secret. Ces thèmes comprennent principalement (1) **l'intégrité du message**, c'est-à-dire l'assurance qu'un message n'a pas été modifié ; (2) **l'authenticité du message**, c'est-à-dire l'assurance qu'un message provient réellement d'un expéditeur particulier ; et (3) **la non-répudiation**, c'est-à-dire l'assurance qu'un expéditeur ne peut pas nier à tort plus tard qu'il a envoyé un message. [4]
+La cryptographie moderne s'intéresse à un éventail plus large de thèmes que la simple confidentialité. Ces thèmes incluent principalement (1) **l'intégrité des messages** — c'est-à-dire garantir qu'un message n'a pas été modifié ; (2) **l'authenticité des messages** — c'est-à-dire garantir qu'un message provient réellement d'un expéditeur particulier ; et (3) **la non-répudiation** — c'est-à-dire garantir qu'un expéditeur ne peut pas nier faussement plus tard qu'il a envoyé un message. [4]
 
-Il est donc important de faire la distinction entre un **système de chiffrement** et un **système cryptographique**. Un schéma de chiffrement ne concerne que le secret. Si un schéma de chiffrement est un schéma cryptographique, l'inverse n'est pas vrai. Un schéma cryptographique peut également servir les autres thèmes principaux de la cryptographie, notamment l'intégrité, l'authenticité et la non-répudiation.
+Il est donc important de bien distinguer un **schéma de chiffrement** d'un **schéma cryptographique**. Un schéma de chiffrement ne concerne que la confidentialité. Bien qu'un schéma de chiffrement soit un schéma cryptographique, l'inverse n'est pas vrai. Un schéma cryptographique peut également servir les autres objectifs principaux de la cryptographie, notamment l'intégrité, l'authenticité et la non-répudiation.
 
-Les thèmes de l'intégrité et de l'authenticité sont tout aussi importants que le secret. Nos systèmes de communication modernes ne pourraient pas fonctionner sans garanties concernant l'intégrité et l'authenticité des communications. La non-répudiation est également une préoccupation importante, par exemple pour les contrats numériques, mais elle est moins omniprésente dans les applications cryptographiques que le secret, l'intégrité et l'authenticité.
+Les thèmes de l'intégrité et de l'authenticité sont tout aussi importants que celui de la confidentialité. Nos systèmes de communication modernes ne pourraient pas fonctionner sans garanties concernant l'intégrité et l'authenticité des communications. La non-répudiation est également une préoccupation importante, par exemple pour les contrats numériques, mais elle est moins nécessaire de manière généralisée dans les applications cryptographiques que la confidentialité, l'intégrité et l'authenticité.
 
-Deuxièmement, les systèmes de chiffrement classiques, tels que les algorithmes de Beale, impliquent toujours une clé partagée entre toutes les parties concernées. Cependant, de nombreux schémas cryptographiques modernes impliquent non pas une, mais deux clés : une **clé privée** et une **clé publique**. Alors que la première doit rester privée dans toutes les applications, la seconde est généralement connue du public (d'où leurs noms respectifs). Dans le domaine du chiffrement, la clé publique peut être utilisée pour chiffrer le message, tandis que la clé privée peut être utilisée pour le déchiffrer.
+Deuxièmement, les schémas de chiffrement classiques comme les chiffres de Beale impliquaient toujours une clé partagée entre toutes les parties concernées. Cependant, de nombreux schémas cryptographiques modernes impliquent non pas une seule, mais deux clés : une **clé privée** et une **clé publique**. Alors que la première doit rester privée dans toutes les applications, la seconde est généralement une information publique (d'où leurs noms respectifs). Dans le domaine du chiffrement, la clé publique peut être utilisée pour chiffrer le message, tandis que la clé privée peut être utilisée pour le déchiffrer.
 
-La branche de la cryptographie qui traite des systèmes dans lesquels toutes les parties partagent une clé est connue sous le nom de **cryptographie symétrique**. La clé unique dans ce type de système est généralement appelée **clé privée** (ou clé secrète). La branche de la cryptographie qui traite des systèmes nécessitant une paire de clés privée-publique est connue sous le nom de **cryptographie asymétrique**. Ces branches sont parfois appelées respectivement **cryptographie à clé privée** et **cryptographie à clé publique** (bien que cela puisse prêter à confusion, car les systèmes de cryptographie à clé publique ont également des clés privées).
+La branche de la cryptographie qui traite des schémas où toutes les parties partagent une clé est appelée **cryptographie symétrique**. La clé unique dans un tel schéma est généralement appelée **clé privée** (ou clé secrète). La branche de la cryptographie qui traite des schémas nécessitant une paire clé privée-clé publique est connue sous le nom de **cryptographie asymétrique**. Ces branches sont parfois également appelées respectivement **cryptographie à clé secrète** et **cryptographie à clé publique** (bien que cela puisse prêter à confusion, car les schémas de cryptographie à clé publique possèdent également des clés privées).
 
-L'avènement de la cryptographie asymétrique à la fin des années 1970 est l'un des événements les plus importants de l'histoire de la cryptographie. Sans elle, la plupart de nos systèmes de communication modernes, y compris Bitcoin, ne seraient pas possibles, ou du moins très peu pratiques.
+L'avènement de la cryptographie asymétrique à la fin des années 1970 a été l'un des événements les plus importants de l'histoire de la cryptographie. Sans elle, la plupart de nos systèmes de communication modernes, y compris Bitcoin, ne seraient pas possibles, ou du moins très impraticables.
 
-Il est important de noter que la cryptographie moderne n'est pas exclusivement l'étude des schémas cryptographiques à clés symétriques et assymétriques (bien que cela couvre une grande partie du domaine). Par exemple, la cryptographie s'intéresse également aux fonctions de hachage et aux générateurs de nombres pseudo-aléatoires, et vous pouvez créer des applications sur ces primitives qui ne sont pas liées à la cryptographie à clé symétrique ou assymétrique.
+Il est important de noter que la cryptographie moderne ne se limite pas exclusivement à l'étude des schémas de cryptographie symétrique et asymétrique (bien que cela couvre une grande partie du domaine). Par exemple, la cryptographie s'intéresse également aux fonctions de hachage et aux générateurs de nombres pseudo-aléatoires, et vous pouvez construire des applications sur ces primitives qui ne sont pas liées à la cryptographie symétrique ou asymétrique.
 
-Troisièmement, les systèmes de chiffrement classiques, tels que ceux utilisés dans les codes Beale, relevaient plus de l'art que de la science. Leur sécurité perçue était largement basée sur des intuitions concernant leur complexité. Ils étaient généralement corrigés lorsqu'une nouvelle attaque était découverte, ou abandonnés si l'attaque était particulièrement grave. La cryptographie moderne, en revanche, est une science rigoureuse qui repose sur une approche formelle et mathématique du développement et de l'analyse des schémas cryptographiques. [5]
+Troisièmement, les schémas de chiffrement classiques, comme ceux utilisés dans les chiffres de Beale, relevaient davantage de l'art que de la science. Leur sécurité perçue reposait principalement sur des intuitions concernant leur complexité. Ils étaient généralement corrigés lorsqu'une nouvelle attaque contre eux était découverte, ou totalement abandonnés si l'attaque était particulièrement grave. Cependant, la cryptographie moderne est une science rigoureuse avec une approche formelle et mathématique pour le développement et l'analyse des schémas cryptographiques. [5]
 
-Plus précisément, la cryptographie moderne est centrée sur les **preuves de sécurité** formelles. Toute preuve de sécurité d'un système cryptographique se déroule en trois étapes :
+Plus précisément, la cryptographie moderne se concentre sur les **preuves formelles de sécurité**. Toute preuve de sécurité pour un schéma cryptographique suit trois étapes :
 
-1.	L'énoncé d'une **définition cryptographique de la sécurité**, c'est-à-dire un ensemble d'objectifs de sécurité et la menace posée par l'attaquant.
+1. Énoncer une **définition cryptographique de la sécurité**, c'est-à-dire un ensemble d'objectifs de sécurité et la menace posée par l'attaquant.
+2. Énoncer toutes les hypothèses mathématiques concernant la complexité computationnelle du schéma. Par exemple, un schéma cryptographique peut contenir un générateur de nombres pseudo-aléatoires. Bien que nous ne puissions pas prouver leur existence, nous pouvons supposer qu'ils existent.
+3. Exposer une **preuve mathématique de sécurité** du schéma sur la base de la notion formelle de sécurité et de toute hypothèse mathématique.
 
-2.	L'énoncé de toute hypothèse mathématique concernant la complexité informatique du système. Par exemple, un système cryptographique peut contenir un générateur de nombres pseudo-aléatoires. Bien que nous ne puissions pas prouver leur existence, nous pouvons supposer qu'ils existent.
+Quatrièmement, alors qu'historiquement la cryptographie était principalement utilisée dans des contextes militaires, elle a progressivement imprégné nos activités quotidiennes à l'ère numérique. Que vous fassiez des transactions bancaires en ligne, que vous postiez sur les réseaux sociaux, que vous achetiez un produit sur Amazon avec votre carte de crédit, ou que vous envoyiez des bitcoins à un ami, la cryptographie est le sine qua non de notre ère numérique.
 
-3.	L'exposé d'une **preuve de sécurité** mathématique du système sur la base de la notion formelle de sécurité et de toute hypothèse mathématique.
+Compte tenu de ces quatre aspects de la cryptographie moderne, on pourrait caractériser la **cryptographie moderne** comme la science qui se consacre au développement formel et à l'analyse des schémas cryptographiques visant à sécuriser les informations numériques contre les attaques adverses. [6] La sécurité doit être comprise au sens large comme la prévention des attaques compromettant la confidentialité, l'intégrité, l'authentification et/ou la non-répudiation dans les communications.
 
-Quatrièmement, alors qu'historiquement la cryptographie était principalement utilisée dans le cadre militaire, elle est désormais omniprésente dans nos activités quotidiennes à l'ère numérique. Qu'il s'agisse d'effectuer des opérations bancaires en ligne, de publier des messages sur les médias sociaux, d'acheter un produit sur Amazon avec votre carte de crédit ou de donner un pourboire en bitcoins à un ami, la cryptographie est la condition sine qua non de notre ère numérique.
+La cryptographie doit être considérée comme une sous-discipline de la **cybersécurité**, qui vise à prévenir le vol, les dommages et l'utilisation abusive des systèmes informatiques. Notez que de nombreux aspects de la cybersécurité ont peu ou seulement partiellement de rapport avec la cryptographie.
 
-Compte tenu de ces quatre aspects de la cryptographie moderne, nous pourrions caractériser la **cryptographie** moderne comme la science qui s'intéresse au développement formel et à l'analyse des schémas cryptographiques pour sécuriser l'information numérique contre les attaques adverses[6]. La sécurité doit être entendue au sens large comme la prévention des attaques qui portent atteinte au secret, à l'intégrité, à l'authentification et/ou à la non-répudiation des communications.
+Par exemple, si une entreprise héberge localement des serveurs coûteux, elle peut être préoccupée par la sécurité de ce matériel contre le vol et les dommages. Bien que ce soit un problème de cybersécurité, cela n'a que peu de rapport avec la cryptographie.
 
-La cryptographie est considérée comme une sous-discipline de la **cybersécurité**, qui vise à empêcher le vol, la détérioration et l'utilisation abusive des systèmes informatiques. Il convient de noter que de nombreux problèmes de cybersécurité n'ont que peu ou pas de lien avec la cryptographie.
+Autre exemple, les **attaques par hameçonnage (phishing)** sont un problème courant dans notre ère moderne. Ces attaques tentent de tromper les gens via un e-mail ou un autre moyen de communication pour leur soutirer des informations sensibles telles que des mots de passe ou des numéros de carte de crédit. Bien que la cryptographie puisse aider à limiter les attaques par hameçonnage dans une certaine mesure, une approche globale nécessite bien plus que l'utilisation de la cryptographie.
 
-Par exemple, si une entreprise héberge localement des serveurs coûteux, elle peut se préoccuper de protéger ce matériel contre le vol et les dommages. Bien qu'il s'agisse d'un problème de cybersécurité, il n'a pas grand-chose à voir avec la cryptographie.
+**Notes :**
 
-Autre exemple, les **attaques par hameçonnage** sont un problème courant à notre époque moderne. Ces attaques tentent de tromper les gens par le biais d'un courrier électronique ou d'un autre moyen de communication afin qu'ils renoncent à des informations sensibles telles que des mots de passe ou des numéros de carte de crédit. Si la cryptographie peut aider à lutter contre les attaques par hameçonnage dans une certaine mesure, une approche globale ne se limite pas à l'utilisation de la cryptographie.
+[3] Pour être précis, les applications importantes des schémas cryptographiques ont concerné la confidentialité. Les enfants, par exemple, utilisent fréquemment des schémas cryptographiques simples pour "s'amuser". La confidentialité n'est pas réellement une préoccupation dans ces cas.
 
-**Notes:**
+[4] Bruce Schneier, *Applied Cryptography*, 2e éd., 2015 (Indianapolis, IN : John Wiley & Sons), p. 2.
 
-[3] Pour être exact, les principales applications des systèmes cryptographiques concernent le secret. Les enfants, par exemple, utilisent fréquemment des schémas cryptographiques simples pour "s'amuser". Le secret n'est pas vraiment une préoccupation dans ces cas-là.
+[5] Voir Jonathan Katz et Yehuda Lindell, *Introduction to Modern Cryptography*, CRC Press (Boca Raton, FL : 2015), en particulier pp. 16-23, pour une bonne description.
 
-[4] Bruce Schneier, *Applied Cryptography*, 2nd edn, 2015 (Indianapolis, IN : John Wiley & Sons), p. 2.
+[6] Cf. Katz et Lindell, ibid., p. 3. Je pense que leur caractérisation présente certains problèmes, donc j'en propose une version légèrement différente ici.
 
-[5] Voir Jonathan Katz et Yehuda Lindell, *Introduction to Modern Cryptography*, CRC Press (Boca Raton, FL : 2015), en particulier les pages 16 à 23, pour une bonne description.
-
-[6] Cf. Katz et Lindell, ibid. p. 3. Je pense que leur caractérisation pose quelques problèmes, c'est pourquoi je présente ici une version légèrement différente de leur déclaration.
 
 ## Communications ouvertes
-
 <chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
 
-La cryptographie moderne est conçue pour fournir des garanties de sécurité dans un environnement de communication **ouvert**. Si notre canal de communication est si bien protégé que les oreilles indiscrètes n'ont aucune chance de manipuler ou même simplement d'observer nos messages, alors la cryptographie est superflue. Cependant, la plupart de nos canaux de communication sont loin d'être aussi bien protégés.
+La cryptographie moderne est conçue pour fournir des garanties de sécurité dans un environnement de **communications ouvertes**. Si notre canal de communication est si bien protégé que les espions n'ont aucune chance de manipuler ou même d'observer nos messages, alors la cryptographie est superflue. Cependant, la plupart de nos canaux de communication sont loin d'être aussi bien protégés.
 
-L'épine dorsale de la communication dans le monde moderne est un gigantesque réseau de câbles à fibres optiques. Passer des appels téléphoniques, regarder la télévision et naviguer sur le web dans un foyer moderne repose généralement sur ce réseau de câbles à fibres optiques (un petit pourcentage peut s'appuyer uniquement sur des satellites). Il est vrai que vous pouvez avoir différentes connexions de données à votre domicile, telles que le câble coaxial, la ligne d'abonné numérique (asymétrique) et le câble à fibre optique. Mais, du moins dans les pays développés, ces différents supports de données sont rapidement reliés, en dehors de votre domicile, à un nœud d'un gigantesque réseau de câbles à fibres optiques qui relie l'ensemble du globe. Les exceptions sont certaines régions éloignées des pays développés, comme les États-Unis et l'Australie, où le trafic de données peut encore parcourir des distances considérables sur les fils téléphoniques traditionnels en cuivre.
+L'infrastructure de communication dans le monde moderne repose sur un vaste réseau de câbles en fibre optique. Passer des appels téléphoniques, regarder la télévision et naviguer sur Internet dans un foyer moderne dépendent généralement de ce réseau de câbles en fibre optique (un faible pourcentage peut reposer uniquement sur des satellites). Il est vrai que vous pouvez disposer de différentes connexions de données chez vous, comme des câbles coaxiaux, des lignes d'abonnés numériques (asymétriques) (DSL) et des câbles en fibre optique. Mais, du moins dans les pays développés, ces différents supports de données rejoignent rapidement un nœud à l'extérieur de votre maison, intégré dans un vaste réseau de câbles en fibre optique qui relie l'ensemble du globe. Les exceptions concernent certaines zones reculées des pays développés, comme aux États-Unis et en Australie, où le trafic de données peut encore parcourir de longues distances via des fils téléphoniques en cuivre traditionnels.
 
-Il serait impossible d'empêcher des attaquants potentiels d'accéder physiquement à ce réseau de câbles et à son infrastructure de soutien. En fait, nous savons déjà que la plupart de nos données sont interceptées par diverses agences de renseignement nationales à des intersections cruciales de l'internet[7], qu'il s'agisse de messages Facebook ou d'adresses de sites web que vous visitez.
+Il serait impossible d'empêcher des attaquants potentiels d'accéder physiquement à ce réseau de câbles et à son infrastructure de soutien. En fait, nous savons déjà que la plupart de nos données sont interceptées par diverses agences nationales de renseignement aux intersections cruciales d'Internet. [7] Cela inclut tout, des messages Facebook aux adresses de sites Web que vous visitez.
 
-Si la surveillance de données à grande échelle nécessite un adversaire puissant, tel qu'une agence de renseignement nationale, les attaquants disposant de peu de ressources peuvent facilement tenter d'espionner à une échelle plus locale. Bien que cela puisse se produire au niveau de l'écoute des câbles, il est beaucoup plus facile d'intercepter les communications sans fil.
+Alors que la surveillance massive des données nécessite un adversaire puissant, comme une agence nationale de renseignement, des attaquants disposant de peu de ressources peuvent facilement tenter d'espionner à une échelle plus locale. Bien que cela puisse se faire en piratant des fils, il est beaucoup plus facile d'intercepter les communications sans fil.
 
-La plupart des données de notre réseau local - que ce soit à la maison, au bureau ou dans un café - transitent désormais par ondes radio vers les points d'accès sans fil des routeurs tout-en-un, plutôt que par des câbles physiques. Un pirate n'a donc besoin que de peu de ressources pour intercepter votre trafic local. Cette situation est d'autant plus préoccupante que la plupart des gens ne font pas grand-chose pour protéger les données qui transitent par leurs réseaux locaux. En outre, les attaquants potentiels peuvent également cibler nos connexions mobiles à large bande, telles que 3G, 4G et 5G. Toutes ces communications sans fil sont une cible facile pour les attaquants.
+La plupart de nos données réseau locales — que ce soit chez nous, au bureau ou dans un café — transitent désormais par des ondes radio vers des points d'accès sans fil sur des routeurs tout-en-un, plutôt que par des câbles physiques. Ainsi, un attaquant a besoin de peu de ressources pour intercepter l'ensemble de votre trafic local. Cela est particulièrement préoccupant, car la plupart des gens ne protègent que très peu les données qui transitent par leurs réseaux locaux. De plus, les attaquants potentiels peuvent également cibler nos connexions haut débit mobiles, telles que la 3G, la 4G et la 5G. Toutes ces communications sans fil sont une cible facile pour les attaquants.
 
-Par conséquent, l'idée de garder les communications secrètes en protégeant le canal de communication est une aspiration désespérément illusoire pour une grande partie du monde moderne. Tout ce que nous savons justifie une paranoïa sévère : il faut toujours supposer que quelqu'un écoute. Et la cryptographie est le principal outil dont nous disposons pour obtenir une quelconque sécurité dans cet environnement moderne.
+Ainsi, l'idée de garder les communications secrètes en protégeant le canal de communication est une aspiration désespérément illusoire pour une grande partie du monde moderne. Tout ce que nous savons justifie une paranoïa sévère : vous devez toujours supposer que quelqu'un écoute. Et la cryptographie est le principal outil dont nous disposons pour obtenir une quelconque sécurité dans cet environnement moderne.
 
-**Notes:**
 
-[7] Voir, par exemple, Olga Khazan, "The creepy, long-standing practice of undersea cable tapping", *The Atlantic*, 16 juillet 2013 (disponible sur [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
+**Notes :**
+
+[7] Voir, par exemple, Olga Khazan, “The creepy, long-standing practice of undersea cable tapping”, *The Atlantic*, 16 juillet 2013 (disponible sur [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
+
 
 # Fondements mathématiques de la cryptographie 1
 
@@ -292,7 +290,7 @@ Dans l'expression "variable aléatoire", le terme "aléatoire" signifie simpleme
 
 Une **variable uniforme** est un cas particulier de variable aléatoire. Elle peut prendre deux ou plusieurs valeurs, toutes avec une probabilité égale. La variable aléatoire $X$ représentée dans la *Figure 1* est clairement une variable uniforme, puisque les deux résultats possibles se produisent avec une probabilité de 0,5$. Il existe cependant de nombreuses variables aléatoires qui ne sont pas des exemples de variables uniformes.
 
-Considérons, par exemple, la variable aléatoire $Y$. Elle possède un ensemble de résultats $\{1, 2, 3, 8, 10}$ et la distribution de probabilité suivante :
+Considérons, par exemple, la variable aléatoire $Y$. Elle possède un ensemble de résultats {1, 2, 3, 8, 10} et la distribution de probabilité suivante :
 
 $$
 \Pr[Y = 1] = 0.25
@@ -424,22 +422,19 @@ La variable $x$ est appelée le dividende et la variable $y$ le diviseur. Pour e
 
 Par exemple, considérons l'expression $25 \mod 4$. Le nombre 4 entre dans le nombre 25 6 fois au total. Le reste de cette division est 1. Par conséquent, $25 \mod 4$ est égal à 1. De la même manière, nous pouvons évaluer les expressions ci-dessous :
 
-
-- 29$ \mod 30 = 29$ (car 30 entre dans 29 un total de 0 fois et le reste est 29)
-- 42$ \mod 2 = 0$ (car 2 entre dans 42 21 fois au total et le reste est 0)
-- 12$ \mod 5 = 2$ (car 5 entre dans 12 2 fois au total et le reste est 2)
-- 20$ \mod 8 = 4$ (car 8 entre 2 fois dans 20 et le reste est 4)
+- $29 \mod 30 = 29$ (car $30$ divise $29$ un total de $0$ fois et le reste est $29$)
+- $42 \mod 2 = 0$ (car $2$ divise $42$ un total de $21$ fois et le reste est $0$)
+- $12 \mod 5 = 2$ (car $5$ divise $12$ un total de $2$ fois et le reste est $2$)
+- $20 \mod 8 = 4$ (car $8$ divise $20$ un total de $2$ fois et le reste est $4$)
 
 Lorsque le dividende ou le diviseur est négatif, les opérations modulo peuvent être traitées différemment par les langages de programmation.
 
 Vous rencontrerez certainement des cas avec un dividende négatif en cryptographie. Dans ces cas, l'approche typique est la suivante :
 
-
 - Déterminez d'abord la valeur la plus proche *inférieure ou égale* au dividende dans laquelle le diviseur se divise avec un reste de zéro. Appelons cette valeur $p$.
 - Si le dividende est $x$, le résultat de l'opération modulo est la valeur de $x - p$.
 
 Par exemple, supposons que le dividende soit $-20$ et le diviseur 3. La valeur la plus proche inférieure ou égale à $-20$ dans laquelle 3 se divise également est $-21$. La valeur de $x - p$ dans ce cas est $-20 - (-21)$. Cette valeur est égale à 1 et, par conséquent, $-20 \mod 3$ est égal à 1. De la même manière, nous pouvons évaluer les expressions ci-dessous :
-
 
 - $-8 \mod 5 = 2$
 - $-19 \mod 16 = 13$
@@ -456,7 +451,6 @@ La branche des mathématiques qui implique des opérations modulo sur les nombre
 L'opération modulo est fréquemment rencontrée en cryptographie. Pour l'illustrer, considérons l'un des systèmes de chiffrement historiques les plus célèbres : le chiffrement par décalage.
 
 Commençons par la définir. Supposons un dictionnaire *D* qui assimile toutes les lettres de l'alphabet anglais, dans l'ordre, à l'ensemble des nombres $\{0, 1, 2, \ldots, 25\}$. Supposons un espace de messages **M**. Le **chiffrement par décalage** est donc un système de chiffrement défini comme suit :
-
 
 - Sélectionner uniformément une clé $k$ dans l'espace des clés **K**, où **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
 - Chiffrer un message $m \in \mathbf{M}$, comme suit :
@@ -476,7 +470,6 @@ L'opérateur modulo du chiffrement par décalage garantit que les lettres s'enro
 Supposons que vous ayez sélectionné uniformément une clé pour qu'elle ait la valeur 17. La lettre "O" équivaut à 15. Sans l'opération modulo, l'addition de ce nombre en clair et de la clé donnerait un nombre chiffré de 32. Cependant, ce nombre de texte chiffré ne peut pas être transformé en lettre de texte chiffré, car l'alphabet anglais ne compte que 26 lettres. L'opération modulo garantit que le nombre du texte chiffré est en fait 6 (le résultat de $32 \mod 26$), ce qui équivaut à la lettre "G" du texte chiffré.
 
 Le chiffrement complet du mot "DOG" avec une valeur de clé de 17 est le suivant :
-
 
 - Message = DOG = D,O,G = 3,15,6
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
@@ -510,14 +503,12 @@ Supposons, par exemple, que vous ayez saisi un courriel dans votre application d
 
 Outre l'opération modulo, une opération mathématique essentielle à comprendre pour la cryptographie moderne est l'opération **XOR**, ou opération "or exclusif". Cette opération prend deux bits en entrée et produit un autre bit en sortie. L'opération XOR sera simplement désignée par "XOR". Elle donne 0 si les deux bits sont identiques et 1 si les deux bits sont différents. Vous pouvez voir les quatre possibilités ci-dessous. Le symbole $\oplus$ représente "XOR" :
 
-
 - $0 \oplus 0 = 0$
 - $0 \oplus 1 = 1$
 - $1 \oplus 0 = 1$
 - $1 \oplus 1 = 0$
 
 Pour illustrer cela, supposons que vous ayez un message $m_1$ (01111001) et un message $m_2$ (01011001). L'opération XOR de ces deux messages est illustrée ci-dessous.
-
 
 - $m_1 \oplus m_2 = 01111001 \oplus 01011001 = 00100000$
 
@@ -528,7 +519,6 @@ Il est facile de voir que l'opération XOR est commutative, à savoir que $m_1 \
 Une opération XOR sur deux chaînes de longueur différente peut avoir différentes interprétations, en fonction du contexte. Nous ne nous intéresserons pas ici aux opérations XOR sur des chaînes de longueur différente.
 
 Une opération XOR est équivalente au cas particulier d'une opération modulo sur l'addition de bits lorsque le diviseur est 2. Vous pouvez voir l'équivalence dans les résultats suivants :
-
 
 - $(0 + 0) \mod 2 = 0 \oplus 0 = 0$
 - $(1 + 0) \mod 2 = 1 \oplus 0 = 1$
@@ -543,7 +533,11 @@ Dans notre discussion sur les variables aléatoires et uniformes, nous avons ét
 
 Pour commencer, nous pouvons appeler une chaîne binaire de longueur $n$ **aléatoire** (ou **uniforme**), si elle est le résultat de l'échantillonnage d'une variable uniforme $S$ qui donne à chaque chaîne binaire d'une telle longueur $n$ une probabilité égale de sélection.
 
-Supposons, par exemple, l'ensemble de toutes les chaînes binaires de longueur 8 : $\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (Il est courant d'écrire une chaîne de 8 bits en deux quartets, chacun étant appelé **nibble**) Appelons cet ensemble de chaînes **$S_8$**.
+Supposons, par exemple, l'ensemble de toutes les chaînes binaires de longueur $8$ : 
+
+$$\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}.$$
+
+(Il est courant d'écrire une chaîne de $8$ bits en deux groupes de $4$ bits, chacun étant appelé **nibble**). Appelons cet ensemble de chaînes **$S_8$**.
 
 Conformément à la définition ci-dessus, nous pouvons donc appeler aléatoire (ou uniforme) une chaîne binaire particulière de longueur 8, si elle est le résultat de l'échantillonnage d'une variable uniforme $S$ qui donne à chaque chaîne de **$S_8$** une probabilité égale de sélection. Étant donné que l'ensemble **$S_8$** comprend $2^8$ éléments, la probabilité de sélection lors de l'échantillonnage devrait être de $1/2^8$ pour chaque chaîne de l'ensemble.
 
@@ -565,7 +559,7 @@ En outre, supposons une variable aléatoire $S'$. Son ensemble de résultats ne 
 
 Supposons que je prenne des milliers d'échantillons de $S$ et des milliers d'échantillons de $S'$ et que je vous donne les deux ensembles de résultats. Je vous dis quel ensemble de résultats est associé à quelle variable aléatoire. Ensuite, je prélève un échantillon de l'une des deux variables aléatoires. Mais cette fois, je ne vous dis pas quelle variable aléatoire j'échantillonne. Si $S'$ était pseudo-aléatoire, alors l'idée est que votre probabilité de faire la bonne supposition quant à la variable aléatoire que j'ai échantillonnée n'est pratiquement pas meilleure que $1/2$.
 
-Généralement, une chaîne pseudo-aléatoire de longueur $n$ est produite en sélectionnant au hasard une chaîne de taille $n - x$, où $x$ est un entier positif, et en l'utilisant comme entrée d'un algorithme d'expansion. Cette chaîne aléatoire de taille $n - x$ est appelée **semence**.
+Généralement, une chaîne pseudo-aléatoire de longueur $n$ est produite en sélectionnant au hasard une chaîne de taille $n - x$, où $x$ est un entier positif, et en l'utilisant comme entrée d'un algorithme d'expansion. Cette chaîne aléatoire de taille $n - x$ est appelée **graine**.
 
 Les chaînes pseudo-aléatoires sont un concept clé pour rendre la cryptographie pratique. Prenons l'exemple des algorithmes de chiffrement de flux. Avec un chiffrement par flux, une clé sélectionnée au hasard est insérée dans un algorithme d'expansion pour produire une chaîne pseudo-aléatoire beaucoup plus importante. Cette chaîne pseudo-aléatoire est ensuite combinée avec le texte en clair via une opération XOR pour produire un texte chiffré.
 

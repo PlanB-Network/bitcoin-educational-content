@@ -45,7 +45,7 @@ Des développeurs aux personnes intellectuellement curieuses, ce livre est utile
 
 Le livre contient actuellement sept chapitres : "Qu'est-ce que la cryptographie ?" (chapitre 1), "Fondements mathématiques de la cryptographie I" (chapitre 2), "Fondements mathématiques de la cryptographie II" (chapitre 3), "Cryptographie symétrique" (chapitre 4), "RC4 et AES" (chapitre 5), "Cryptographie asymétrique" (chapitre 6) et "Le système cryptographique RSA" (chapitre 7). Un dernier chapitre, "La cryptographie en pratique", sera encore ajouté. Il se concentre sur diverses applications cryptographiques, notamment la sécurité de la couche transport, le routage en oignon et le système d'échange de valeur de Bitcoin.
 
-À moins que vous n'ayez une solide formation en mathématiques, la théorie des nombres est probablement le sujet le plus difficile de ce livre. J'en propose une vue d'ensemble au chapitre 3, et elle apparaît également dans l'exposé de l'AES au chapitre 5 et du système de cryptage RSA au chapitre 7.
+À moins que vous n'ayez une solide formation en mathématiques, la théorie des nombres est probablement le sujet le plus difficile de ce livre. J'en propose une vue d'ensemble au chapitre 3, et elle apparaît également dans l'exposé de l'AES au chapitre 5 et du système de chiffrement RSA au chapitre 7.
 
 Si vous avez vraiment du mal avec les détails formels de ces parties du livre, je vous recommande de vous contenter d'une lecture de haut niveau la première fois.
 
@@ -67,7 +67,7 @@ Veuillez consulter [le fichier des contributions dans le dépôt] (https://githu
 
 **Termes clés:**
 
-Les termes clés des abécédaires sont introduits en les mettant en gras. Par exemple, l'introduction du cryptogramme Rijndael en tant que terme clé se présenterait comme suit : **Cryptage Rijndael**.
+Les termes clés des abécédaires sont introduits en les mettant en gras. Par exemple, l'introduction du cryptogramme Rijndael en tant que terme clé se présenterait comme suit : **Chiffrement Rijndael**.
 
 Les termes clés sont explicitement définis, sauf s'il s'agit de noms propres ou si leur signification est évidente dans la discussion.
 
@@ -136,7 +136,7 @@ Après décryptage, le second message fournit le contenu détaillé du trésor (
 
 La plupart d'entre nous associent la cryptographie à des histoires pittoresques comme celle des chiffres de Beale. Pourtant, la cryptographie moderne diffère de ces exemples historiques sur au moins quatre points importants.
 
-Tout d'abord, historiquement, la cryptographie ne s'est intéressée qu'au **secret** (ou à la confidentialité)[3]. [Les textes chiffrés sont créés pour garantir que seules certaines parties peuvent avoir accès aux informations contenues dans les textes en clair, comme dans le cas des algorithmes de chiffrement de Beale. Pour qu'un système de cryptage serve bien cet objectif, le décryptage du texte chiffré ne doit être possible que si l'on possède la clé.
+Tout d'abord, historiquement, la cryptographie ne s'est intéressée qu'au **secret** (ou à la confidentialité)[3]. [Les textes chiffrés sont créés pour garantir que seules certaines parties peuvent avoir accès aux informations contenues dans les textes en clair, comme dans le cas des algorithmes de chiffrement de Beale. Pour qu'un système de chiffrement serve bien cet objectif, le décryptage du texte chiffré ne doit être possible que si l'on possède la clé.
 
 La cryptographie moderne s'intéresse à un éventail de thèmes plus large que le simple secret. Ces thèmes comprennent principalement (1) **l'intégrité du message**, c'est-à-dire l'assurance qu'un message n'a pas été modifié ; (2) **l'authenticité du message**, c'est-à-dire l'assurance qu'un message provient réellement d'un expéditeur particulier ; et (3) **la non-répudiation**, c'est-à-dire l'assurance qu'un expéditeur ne peut pas nier à tort plus tard qu'il a envoyé un message[4]. [4]
 
@@ -144,7 +144,7 @@ Il est donc important de faire la distinction entre un **système de chiffrement
 
 Les thèmes de l'intégrité et de l'authenticité sont tout aussi importants que le secret. Nos systèmes de communication modernes ne pourraient pas fonctionner sans garanties concernant l'intégrité et l'authenticité des communications. La non-répudiation est également une préoccupation importante, par exemple pour les contrats numériques, mais elle est moins omniprésente dans les applications cryptographiques que le secret, l'intégrité et l'authenticité.
 
-Deuxièmement, les systèmes de cryptage classiques, tels que les algorithmes de Beale, impliquent toujours une clé partagée entre toutes les parties concernées. Cependant, de nombreux schémas cryptographiques modernes impliquent non pas une, mais deux clés : une **clé privée** et une **clé publique**. Alors que la première doit rester privée dans toutes les applications, la seconde est généralement connue du public (d'où leurs noms respectifs). Dans le domaine du cryptage, la clé publique peut être utilisée pour crypter le message, tandis que la clé privée peut être utilisée pour le décrypter.
+Deuxièmement, les systèmes de chiffrement classiques, tels que les algorithmes de Beale, impliquent toujours une clé partagée entre toutes les parties concernées. Cependant, de nombreux schémas cryptographiques modernes impliquent non pas une, mais deux clés : une **clé privée** et une **clé publique**. Alors que la première doit rester privée dans toutes les applications, la seconde est généralement connue du public (d'où leurs noms respectifs). Dans le domaine du chiffrement, la clé publique peut être utilisée pour crypter le message, tandis que la clé privée peut être utilisée pour le décrypter.
 
 La branche de la cryptographie qui traite des systèmes dans lesquels toutes les parties partagent une clé est connue sous le nom de **cryptographie symétrique**. La clé unique dans ce type de système est généralement appelée **clé privée** (ou clé secrète). La branche de la cryptographie qui traite des systèmes nécessitant une paire de clés privée-publique est connue sous le nom de **cryptographie asymétrique**. Ces branches sont parfois appelées respectivement **cryptographie à clé privée** et **cryptographie à clé publique** (bien que cela puisse prêter à confusion, car les systèmes de cryptographie à clé publique ont également des clés privées).
 
@@ -152,7 +152,7 @@ L'avènement de la cryptographie asymétrique à la fin des années 1970 est l'u
 
 Il est important de noter que la cryptographie moderne n'est pas exclusivement l'étude des schémas cryptographiques à clés symétriques et assymétriques (bien que cela couvre une grande partie du domaine). Par exemple, la cryptographie s'intéresse également aux fonctions de hachage et aux générateurs de nombres pseudo-aléatoires, et vous pouvez créer des applications sur ces primitives qui ne sont pas liées à la cryptographie à clé symétrique ou assymétrique.
 
-Troisièmement, les systèmes de cryptage classiques, tels que ceux utilisés dans les codes Beale, relevaient plus de l'art que de la science. Leur sécurité perçue était largement basée sur des intuitions concernant leur complexité. Ils étaient généralement corrigés lorsqu'une nouvelle attaque était découverte, ou abandonnés si l'attaque était particulièrement grave. La cryptographie moderne, en revanche, est une science rigoureuse qui repose sur une approche formelle et mathématique du développement et de l'analyse des schémas cryptographiques. [5]
+Troisièmement, les systèmes de chiffrement classiques, tels que ceux utilisés dans les codes Beale, relevaient plus de l'art que de la science. Leur sécurité perçue était largement basée sur des intuitions concernant leur complexité. Ils étaient généralement corrigés lorsqu'une nouvelle attaque était découverte, ou abandonnés si l'attaque était particulièrement grave. La cryptographie moderne, en revanche, est une science rigoureuse qui repose sur une approche formelle et mathématique du développement et de l'analyse des schémas cryptographiques. [5]
 
 Plus précisément, la cryptographie moderne est centrée sur les **preuves de sécurité** formelles. Toute preuve de sécurité d'un système cryptographique se déroule en trois étapes :
 
@@ -265,7 +265,7 @@ $$
 
 Dans ce cas, l'ensemble des résultats de X a une signification concrète, à savoir quelle équipe commence un match de football. En outre, les résultats possibles et leurs probabilités associées sont déterminés par une expérience concrète, à savoir tirer à pile ou face une pièce de monnaie $C$.
 
-Dans les discussions sur la cryptographie, les variables aléatoires sont généralement introduites par rapport à un ensemble de résultats ayant une signification dans le monde réel. Il peut s'agir de l'ensemble des messages susceptibles d'être cryptés, appelé espace des messages, ou de l'ensemble des clés que les parties utilisant le cryptage peuvent choisir, appelé espace des clés.
+Dans les discussions sur la cryptographie, les variables aléatoires sont généralement introduites par rapport à un ensemble de résultats ayant une signification dans le monde réel. Il peut s'agir de l'ensemble des messages susceptibles d'être cryptés, appelé espace des messages, ou de l'ensemble des clés que les parties utilisant le chiffrement peuvent choisir, appelé espace des clés.
 
 Toutefois, dans les discussions sur la cryptographie, les variables aléatoires ne sont généralement pas définies par rapport à une expérience naturelle spécifique, mais par rapport à toute expérience susceptible de produire les bonnes distributions de probabilités.
 
@@ -452,7 +452,7 @@ La branche des mathématiques qui implique des opérations modulo sur les nombre
 
 ### Le cryptogramme à décalage
 
-L'opération modulo est fréquemment rencontrée en cryptographie. Pour l'illustrer, considérons l'un des systèmes de cryptage historiques les plus célèbres : le cryptogramme à décalage.
+L'opération modulo est fréquemment rencontrée en cryptographie. Pour l'illustrer, considérons l'un des systèmes de chiffrement historiques les plus célèbres : le cryptogramme à décalage.
 
 Commençons par la définir. Supposons un dictionnaire *D* qui assimile toutes les lettres de l'alphabet anglais, dans l'ordre, à l'ensemble des nombres $\{0, 1, 2, \ldots, 25\}$. Supposons un espace de messages **M**. Le **chiffrement par décalage** est donc un système de chiffrement défini comme suit :
 
@@ -474,7 +474,7 @@ L'opérateur modulo du chiffrement par décalage garantit que les lettres s'enro
 
 Supposons que vous ayez sélectionné uniformément une clé pour qu'elle ait la valeur 17. La lettre "O" équivaut à 15. Sans l'opération modulo, l'addition de ce nombre en clair et de la clé donnerait un nombre chiffré de 32. Cependant, ce nombre de texte chiffré ne peut pas être transformé en lettre de texte chiffré, car l'alphabet anglais ne compte que 26 lettres. L'opération modulo garantit que le nombre du texte chiffré est en fait 6 (le résultat de $32 \mod 26$), ce qui équivaut à la lettre "G" du texte chiffré.
 
-Le cryptage complet du mot "DOG" avec une valeur de clé de 17 est le suivant :
+Le chiffrement complet du mot "DOG" avec une valeur de clé de 17 est le suivant :
 
 
 - Message = DOG = D,O,G = 3,15,6
@@ -505,7 +505,7 @@ $$
 
 Toutes les données informatiques sont traitées, stockées et envoyées sur les réseaux au niveau des bits. Tous les systèmes cryptographiques appliqués aux données informatiques opèrent également au niveau des bits.
 
-Supposons, par exemple, que vous ayez saisi un courriel dans votre application de messagerie. Le cryptage que vous appliquez ne s'applique pas directement aux caractères ASCII de votre courrier électronique. Il s'applique plutôt à la représentation bitmétrique des lettres et autres symboles de votre e-mail.
+Supposons, par exemple, que vous ayez saisi un courriel dans votre application de messagerie. Le chiffrement que vous appliquez ne s'applique pas directement aux caractères ASCII de votre courrier électronique. Il s'applique plutôt à la représentation bitmétrique des lettres et autres symboles de votre e-mail.
 
 Outre l'opération modulo, une opération mathématique essentielle à comprendre pour la cryptographie moderne est l'opération **XOR**, ou opération "or exclusif". Cette opération prend deux bits en entrée et produit un autre bit en sortie. L'opération XOR sera simplement désignée par "XOR". Elle donne 0 si les deux bits sont identiques et 1 si les deux bits sont différents. Vous pouvez voir les quatre possibilités ci-dessous. Le symbole $\oplus$ représente "XOR" :
 
@@ -768,7 +768,7 @@ Formule de la fonction Phi d'Euler pour la factorisation des nombres premiers de
 
 <chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
 
-Un groupe est la structure algébrique de base de l'algèbre abstraite, mais il en existe beaucoup d'autres. La seule autre structure algébrique que vous devez connaître est celle d'un **corps**, plus précisément celle d'un **corps fini**. Ce type de structure algébrique est fréquemment utilisé en cryptographie, notamment dans l'Advanced Encryption Standard. Ce dernier est le principal système de cryptage symétrique que vous rencontrerez dans la pratique.
+Un groupe est la structure algébrique de base de l'algèbre abstraite, mais il en existe beaucoup d'autres. La seule autre structure algébrique que vous devez connaître est celle d'un **corps**, plus précisément celle d'un **corps fini**. Ce type de structure algébrique est fréquemment utilisé en cryptographie, notamment dans l'Advanced Encryption Standard. Ce dernier est le principal système de chiffrement symétrique que vous rencontrerez dans la pratique.
 
 Un corps est dérivé de la notion de groupe. Plus précisément, un **corps** est un ensemble d'éléments **S** équipé de deux opérateurs binaires $\circ$ et $\diamond$, qui remplit les conditions suivantes :
 
@@ -951,11 +951,11 @@ Pour une discussion plus approfondie sur la théorie moderne des nombres, vous p
 
 <chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
 
-L'une des deux principales branches de la cryptographie est la cryptographie symétrique. Elle comprend les systèmes de cryptage ainsi que les systèmes d'authentification et d'intégrité. Jusqu'aux années 1970, l'ensemble de la cryptographie aurait consisté en des schémas de chiffrement symétrique.
+L'une des deux principales branches de la cryptographie est la cryptographie symétrique. Elle comprend les systèmes de chiffrement ainsi que les systèmes d'authentification et d'intégrité. Jusqu'aux années 1970, l'ensemble de la cryptographie aurait consisté en des schémas de chiffrement symétrique.
 
-La discussion principale commence par l'examen des systèmes de cryptage symétrique et la distinction cruciale entre les algorithmes de chiffrement par flot et les algorithmes de chiffrement par bloc. Nous abordons ensuite les codes d'authentification des messages, qui sont des systèmes permettant de garantir l'intégrité et l'authenticité des messages. Enfin, nous examinons comment les systèmes de cryptage symétrique et les codes d'authentification des messages peuvent être combinés pour garantir la sécurité des communications.
+La discussion principale commence par l'examen des systèmes de chiffrement symétrique et la distinction cruciale entre les algorithmes de chiffrement par flot et les algorithmes de chiffrement par bloc. Nous abordons ensuite les codes d'authentification des messages, qui sont des systèmes permettant de garantir l'intégrité et l'authenticité des messages. Enfin, nous examinons comment les systèmes de chiffrement symétrique et les codes d'authentification des messages peuvent être combinés pour garantir la sécurité des communications.
 
-Ce chapitre aborde en passant divers schémas cryptographiques symétriques issus de la pratique. Le chapitre suivant présente en détail le cryptage avec un chiffrement par flux et un chiffrement par bloc, à savoir RC4 et AES respectivement.
+Ce chapitre aborde en passant divers schémas cryptographiques symétriques issus de la pratique. Le chapitre suivant présente en détail le chiffrement avec un chiffrement par flux et un chiffrement par bloc, à savoir RC4 et AES respectivement.
 
 Avant d'entamer notre discussion sur la cryptographie symétrique, je voudrais faire quelques remarques sur les illustrations d'Alice et de Bob dans ce chapitre et les suivants.
 
@@ -977,11 +977,11 @@ Voici cinq points essentiels à garder à l'esprit concernant les exemples impli
 
 5. Les exemples se concentrent généralement sur la communication électronique, mais ils peuvent également être étendus aux formes traditionnelles de communication telles que les lettres.
 
-## Schémas de cryptage symétrique
+## Schémas de chiffrement symétrique
 
 <chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
 
-Nous pouvons définir librement un **système de cryptage symétrique** comme tout système cryptographique comportant trois algorithmes :
+Nous pouvons définir librement un **système de chiffrement symétrique** comme tout système cryptographique comportant trois algorithmes :
 
 1. Un **algorithme de génération de clés**, qui génère une clé privée.
 
@@ -991,15 +991,15 @@ Nous pouvons définir librement un **système de cryptage symétrique** comme to
 
 Généralement, un schéma de chiffrement - symétrique ou asymétrique - offre un modèle de chiffrement basé sur un algorithme de base, plutôt qu'une spécification exacte.
 
-Prenons l'exemple de Salsa20, un système de cryptage symétrique. Il peut être utilisé avec des clés de 128 et 256 bits. Le choix de la longueur de clé a une incidence sur certains détails mineurs de l'algorithme (le nombre de tours dans l'algorithme pour être exact).
+Prenons l'exemple de Salsa20, un système de chiffrement symétrique. Il peut être utilisé avec des clés de 128 et 256 bits. Le choix de la longueur de clé a une incidence sur certains détails mineurs de l'algorithme (le nombre de tours dans l'algorithme pour être exact).
 
-Mais on ne peut pas dire que l'utilisation de Salsa20 avec une clé de 128 bits est un schéma de cryptage différent de celui de Salsa20 avec une clé de 256 bits. L'algorithme de base reste le même. Ce n'est que lorsque l'algorithme de base change que l'on peut réellement parler de deux schémas de cryptage différents.
+Mais on ne peut pas dire que l'utilisation de Salsa20 avec une clé de 128 bits est un schéma de chiffrement différent de celui de Salsa20 avec une clé de 256 bits. L'algorithme de base reste le même. Ce n'est que lorsque l'algorithme de base change que l'on peut réellement parler de deux schémas de chiffrement différents.
 
-Les systèmes de cryptage symétrique sont généralement utiles dans deux types de cas : (1) ceux où deux agents ou plus communiquent à distance et veulent garder le contenu de leurs communications secret ; et (2) ceux où un agent veut garder le contenu d'un message secret dans le temps.
+Les systèmes de chiffrement symétrique sont généralement utiles dans deux types de cas : (1) ceux où deux agents ou plus communiquent à distance et veulent garder le contenu de leurs communications secret ; et (2) ceux où un agent veut garder le contenu d'un message secret dans le temps.
 
 La *Figure 1* ci-dessous illustre la situation (1). Bob souhaite envoyer un message $M$ à Alice à distance, mais ne veut pas que d'autres personnes puissent lire ce message.
 
-Bob commence par chiffrer le message $M$ avec la clé privée $K$. Il envoie ensuite le texte chiffré $C$ à Alice. Une fois qu'Alice a reçu le texte chiffré, elle peut le déchiffrer à l'aide de la clé $K$ et lire le texte en clair. Avec un bon système de cryptage, tout attaquant qui intercepte le texte chiffré $C$ ne devrait pas être en mesure d'apprendre quoi que ce soit de vraiment significatif sur le message $M$.
+Bob commence par chiffrer le message $M$ avec la clé privée $K$. Il envoie ensuite le texte chiffré $C$ à Alice. Une fois qu'Alice a reçu le texte chiffré, elle peut le déchiffrer à l'aide de la clé $K$ et lire le texte en clair. Avec un bon système de chiffrement, tout attaquant qui intercepte le texte chiffré $C$ ne devrait pas être en mesure d'apprendre quoi que ce soit de vraiment significatif sur le message $M$.
 
 La *Figure 2* ci-dessous illustre la situation (2). Bob souhaite empêcher d'autres personnes de consulter certaines informations. Une situation typique est celle d'un employé qui stocke des données sensibles sur son ordinateur, que ni les personnes extérieures ni ses collègues ne sont censés lire.
 
@@ -1039,7 +1039,7 @@ Ce qui fait du chiffrement par décalage un système de chiffrement symétrique,
 
 Ce chiffre de Shift est un exemple de **chiffre de substitution monoalphabétique** : un système de chiffrement dans lequel l'alphabet du texte chiffré est fixe (c'est-à-dire qu'un seul alphabet est utilisé). En supposant que l'algorithme de décryptage soit déterministe, chaque symobole du texte chiffré de substitution peut au maximum correspondre à un symbole du texte en clair.
 
-Jusque dans les années 1700, de nombreuses applications de cryptage reposaient largement sur des algorithmes de substitution monoalphabétique, bien que ceux-ci fussent souvent beaucoup plus complexes que l'algorithme de Shift. On pouvait, par exemple, choisir au hasard une lettre de l'alphabet pour chaque lettre du texte original, sous réserve que chaque lettre n'apparaisse qu'une seule fois dans l'alphabet du texte chiffré. Cela signifie que vous auriez 26 clés privées possibles, ce qui était énorme à l'époque où les ordinateurs n'existaient pas encore.
+Jusque dans les années 1700, de nombreuses applications de chiffrement reposaient largement sur des algorithmes de substitution monoalphabétique, bien que ceux-ci fussent souvent beaucoup plus complexes que l'algorithme de Shift. On pouvait, par exemple, choisir au hasard une lettre de l'alphabet pour chaque lettre du texte original, sous réserve que chaque lettre n'apparaisse qu'une seule fois dans l'alphabet du texte chiffré. Cela signifie que vous auriez 26 clés privées possibles, ce qui était énorme à l'époque où les ordinateurs n'existaient pas encore.
 
 Notez que vous rencontrerez souvent le terme **chiffrer** dans le domaine de la cryptographie. Sachez que ce terme a plusieurs significations. En fait, je connais au moins cinq significations distinctes de ce terme en cryptographie.
 
@@ -1047,7 +1047,7 @@ Dans certains cas, il fait référence à un schéma de chiffrement, comme c'est
 
 Enfin, le terme "chiffre" peut également désigner un algorithme de base à partir duquel il est possible de construire des schémas cryptographiques. Il peut s'agir de divers algorithmes de chiffrement, mais aussi d'autres types de schémas cryptographiques. Ce sens du terme devient pertinent dans le contexte des chiffrements par blocs (voir la section "Chiffrages par blocs" ci-dessous).
 
-Vous pouvez également rencontrer les termes **chiffrer** ou **déchiffrer**. Ces termes sont simplement des synonymes de cryptage et de décryptage.
+Vous pouvez également rencontrer les termes **chiffrer** ou **déchiffrer**. Ces termes sont simplement des synonymes de chiffrement et de décryptage.
 
 ## Attaques par force brute et principe de Kerckhoff
 
@@ -1055,23 +1055,23 @@ Vous pouvez également rencontrer les termes **chiffrer** ou **déchiffrer**. Ce
 
 Le chiffrement par décalage est un système de chiffrement symétrique très peu sûr, du moins dans le monde moderne[1]. [Un attaquant pourrait simplement tenter de décrypter n'importe quel texte chiffré avec les 26 clés possibles pour voir quel résultat a du sens. Ce type d'attaque, où l'attaquant se contente de parcourir les clés pour voir ce qui fonctionne, est connu sous le nom d'attaque **brute force** ou **recherche exhaustive de clés**.
 
-Pour qu'un système de cryptage réponde à une notion minimale de sécurité, il doit disposer d'un ensemble de clés possibles, ou **espace clé**, si vaste que les attaques par force brute sont infaisables. Tous les systèmes de chiffrement modernes répondent à cette norme. C'est ce qu'on appelle le **principe de l'espace de clés suffisant**. Un principe similaire s'applique généralement à différents types de systèmes cryptographiques.
+Pour qu'un système de chiffrement réponde à une notion minimale de sécurité, il doit disposer d'un ensemble de clés possibles, ou **espace clé**, si vaste que les attaques par force brute sont infaisables. Tous les systèmes de chiffrement modernes répondent à cette norme. C'est ce qu'on appelle le **principe de l'espace de clés suffisant**. Un principe similaire s'applique généralement à différents types de systèmes cryptographiques.
 
-Pour avoir une idée de la taille de l'espace clé des systèmes de cryptage modernes, supposons qu'un fichier ait été crypté avec une clé de 128 bits à l'aide de la norme de cryptage avancée. Cela signifie qu'un attaquant dispose d'un ensemble de $2^{128}$ clés qu'il doit parcourir pour effectuer une attaque par force brute. Pour avoir 0,78 % de chances de réussir avec cette stratégie, l'attaquant doit parcourir environ 2,65 \Nfois 10^{36}$ clés.
+Pour avoir une idée de la taille de l'espace clé des systèmes de chiffrement modernes, supposons qu'un fichier ait été crypté avec une clé de 128 bits à l'aide de la norme de chiffrement avancée. Cela signifie qu'un attaquant dispose d'un ensemble de $2^{128}$ clés qu'il doit parcourir pour effectuer une attaque par force brute. Pour avoir 0,78 % de chances de réussir avec cette stratégie, l'attaquant doit parcourir environ 2,65 \Nfois 10^{36}$ clés.
 
-Supposons, de manière optimiste, qu'un attaquant puisse essayer 10^{16}$ clés par seconde (c'est-à-dire 10 quadrillions de clés par seconde). Pour tester 0,78 % de toutes les clés de l'espace des clés, son attaque devrait durer 2,65 fois 10^{20}$ secondes. Cela représente environ 8,4 billions d'années. Ainsi, même une attaque par force brute menée par un adversaire absurdement puissant n'est pas réaliste avec un système de cryptage moderne de 128 bits. C'est le principe de l'espace de clés suffisant qui entre en jeu.
+Supposons, de manière optimiste, qu'un attaquant puisse essayer 10^{16}$ clés par seconde (c'est-à-dire 10 quadrillions de clés par seconde). Pour tester 0,78 % de toutes les clés de l'espace des clés, son attaque devrait durer 2,65 fois 10^{20}$ secondes. Cela représente environ 8,4 billions d'années. Ainsi, même une attaque par force brute menée par un adversaire absurdement puissant n'est pas réaliste avec un système de chiffrement moderne de 128 bits. C'est le principe de l'espace de clés suffisant qui entre en jeu.
 
 Le chiffrement par décalage est-il plus sûr si l'attaquant ne connaît pas l'algorithme de chiffrement ? Peut-être, mais pas de beaucoup.
 
-En tout état de cause, la cryptographie moderne part toujours du principe que la sécurité d'un système de cryptage symétrique repose uniquement sur le maintien du secret de la clé privée. L'attaquant est toujours supposé connaître tous les autres détails, y compris l'espace du message, l'espace de la clé, l'espace du texte chiffré, l'algorithme de sélection de la clé, l'algorithme de chiffrement et l'algorithme de déchiffrement.
+En tout état de cause, la cryptographie moderne part toujours du principe que la sécurité d'un système de chiffrement symétrique repose uniquement sur le maintien du secret de la clé privée. L'attaquant est toujours supposé connaître tous les autres détails, y compris l'espace du message, l'espace de la clé, l'espace du texte chiffré, l'algorithme de sélection de la clé, l'algorithme de chiffrement et l'algorithme de déchiffrement.
 
-L'idée selon laquelle la sécurité d'un système de cryptage symétrique ne peut reposer que sur le secret de la clé privée est connue sous le nom de **principe de Kerckhoffs**.
+L'idée selon laquelle la sécurité d'un système de chiffrement symétrique ne peut reposer que sur le secret de la clé privée est connue sous le nom de **principe de Kerckhoffs**.
 
-Dans l'esprit de Kerckhoffs, ce principe ne s'applique qu'aux systèmes de cryptage symétrique. Une version plus générale du principe s'applique toutefois à tous les autres types de schémas cryptographiques modernes : La conception d'un système cryptographique ne doit pas être secrète pour qu'il soit sûr ; le secret ne peut s'étendre qu'à certaines chaînes d'information, généralement une clé privée.
+Dans l'esprit de Kerckhoffs, ce principe ne s'applique qu'aux systèmes de chiffrement symétrique. Une version plus générale du principe s'applique toutefois à tous les autres types de schémas cryptographiques modernes : La conception d'un système cryptographique ne doit pas être secrète pour qu'il soit sûr ; le secret ne peut s'étendre qu'à certaines chaînes d'information, généralement une clé privée.
 
 Le principe de Kerckhoffs est au cœur de la cryptographie moderne pour quatre raisons. [Premièrement, il n'existe qu'un nombre limité de schémas cryptographiques pour certains types d'applications. Par exemple, la plupart des applications modernes de chiffrement symétrique utilisent le chiffrement Rijndael. Le secret sur la conception d'un schéma est donc très limité. Il y a cependant beaucoup plus de flexibilité à garder secrète une clé privée pour le chiffrement Rijndael.
 
-Deuxièmement, il est plus facile de remplacer une chaîne d'informations qu'un système cryptographique complet. Supposons que les employés d'une entreprise disposent tous du même logiciel de cryptage et que chacun d'entre eux possède une clé privée lui permettant de communiquer en toute confidentialité. La compromission des clés est un problème dans ce scénario, mais l'entreprise peut au moins conserver le logiciel avec de telles failles de sécurité. Si l'entreprise s'appuyait sur le secret du système, toute violation de ce secret nécessiterait le remplacement de l'ensemble du logiciel.
+Deuxièmement, il est plus facile de remplacer une chaîne d'informations qu'un système cryptographique complet. Supposons que les employés d'une entreprise disposent tous du même logiciel de chiffrement et que chacun d'entre eux possède une clé privée lui permettant de communiquer en toute confidentialité. La compromission des clés est un problème dans ce scénario, mais l'entreprise peut au moins conserver le logiciel avec de telles failles de sécurité. Si l'entreprise s'appuyait sur le secret du système, toute violation de ce secret nécessiterait le remplacement de l'ensemble du logiciel.
 
 Troisièmement, le principe de Kerckhoffs permet la normalisation et la compatibilité entre les utilisateurs de systèmes cryptographiques. Cela présente des avantages considérables en termes d'efficacité. Par exemple, il est difficile d'imaginer comment des millions de personnes pourraient se connecter en toute sécurité aux serveurs web de Google chaque jour, si cette sécurité nécessitait de garder les schémas cryptographiques secrets.
 
@@ -1091,7 +1091,7 @@ Nous n'entrerons pas dans les détails des différentes notions de sécurité cr
 
 **Notes:**
 
-[1] Selon Seutonius, un chiffre à décalage avec une valeur de clé constante de 3 a été utilisé par Jules César dans ses communications militaires. Ainsi, A devenait toujours D, B toujours E, C toujours F, et ainsi de suite. Cette version particulière du chiffrement par décalage est donc connue sous le nom de **chiffrement de César** (bien qu'il ne s'agisse pas vraiment d'un chiffrement au sens moderne du terme, puisque la valeur de la clé est constante). Le chiffre de César aurait pu être sûr au premier siècle avant J.-C., si les ennemis de Rome n'étaient pas familiarisés avec le chiffrement. J.-C., si les ennemis de Rome n'étaient pas familiarisés avec le cryptage. Mais il est clair que ce n'est pas un système très sûr à l'époque moderne.
+[1] Selon Seutonius, un chiffre à décalage avec une valeur de clé constante de 3 a été utilisé par Jules César dans ses communications militaires. Ainsi, A devenait toujours D, B toujours E, C toujours F, et ainsi de suite. Cette version particulière du chiffrement par décalage est donc connue sous le nom de **chiffrement de César** (bien qu'il ne s'agisse pas vraiment d'un chiffrement au sens moderne du terme, puisque la valeur de la clé est constante). Le chiffre de César aurait pu être sûr au premier siècle avant J.-C., si les ennemis de Rome n'étaient pas familiarisés avec le chiffrement. J.-C., si les ennemis de Rome n'étaient pas familiarisés avec le chiffrement. Mais il est clair que ce n'est pas un système très sûr à l'époque moderne.
 
 [2] Jonathan Katz et Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL : 2015), p. 7f.
 
@@ -1101,9 +1101,9 @@ Nous n'entrerons pas dans les détails des différentes notions de sécurité cr
 
 <chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
 
-Les systèmes de cryptage symétrique sont généralement divisés en deux types : *les *chiffres en continu** et les **chiffres en bloc**. Cette distinction est toutefois quelque peu problématique, car les gens utilisent ces termes de manière incohérente. Dans les prochaines sections, j'établirai la distinction de la manière qui me semble la plus appropriée. Sachez toutefois que de nombreuses personnes utiliseront ces termes d'une manière quelque peu différente de celle que j'ai exposée.
+Les systèmes de chiffrement symétrique sont généralement divisés en deux types : *les *chiffres en continu** et les **chiffres en bloc**. Cette distinction est toutefois quelque peu problématique, car les gens utilisent ces termes de manière incohérente. Dans les prochaines sections, j'établirai la distinction de la manière qui me semble la plus appropriée. Sachez toutefois que de nombreuses personnes utiliseront ces termes d'une manière quelque peu différente de celle que j'ai exposée.
 
-Examinons tout d'abord les algorithmes de chiffrement de flux. Un **chiffrement de flux** est un système de cryptage symétrique dans lequel le cryptage se fait en deux étapes.
+Examinons tout d'abord les algorithmes de chiffrement de flux. Un **chiffrement de flux** est un système de chiffrement symétrique dans lequel le chiffrement se fait en deux étapes.
 
 Tout d'abord, une chaîne de la longueur du texte en clair est produite à l'aide d'une clé privée. Cette chaîne est appelée **keystream**.
 
@@ -1121,9 +1121,9 @@ Le chiffrement par décalage est un exemple de chiffrement de flux très simple 
 
 Un autre exemple célèbre de chiffrement par flux est le **chiffrement de Vigenere**, d'après Blaise de Vigenere qui l'a entièrement mis au point à la fin du XVIe siècle (bien que d'autres aient effectué de nombreux travaux antérieurs). Il s'agit d'un exemple de **chiffrement par substitution polyalphabétique** : un système de chiffrement dans lequel l'alphabet du texte chiffré pour un symbole du texte clair change en fonction de sa position dans le texte. Contrairement au chiffrement par substitution monoalphabétique, les symboles du texte chiffré peuvent être associés à plus d'un symbole du texte en clair.
 
-Alors que le cryptage gagnait en popularité dans l'Europe de la Renaissance, l'**analyse cryptographique**, c'est-à-dire le décryptage des textes chiffrés, gagnait également en popularité, en particulier grâce à l'**analyse de fréquence**. Cette dernière utilise les régularités statistiques de notre langue pour déchiffrer les textes chiffrés et a été découverte par les érudits arabes dès le IXe siècle. C'est une technique qui fonctionne particulièrement bien avec les textes longs. Dans les années 1700, en Europe, même les chiffres de substitution monoalphabétiques les plus sophistiqués n'étaient plus suffisants pour résister à l'analyse de fréquence, en particulier dans le domaine militaire et de la sécurité. Comme le chiffre de Vigenere offrait une avancée significative en matière de sécurité, il est devenu populaire à cette époque et s'est répandu à la fin des années 1700.
+Alors que le chiffrement gagnait en popularité dans l'Europe de la Renaissance, l'**analyse cryptographique**, c'est-à-dire le décryptage des textes chiffrés, gagnait également en popularité, en particulier grâce à l'**analyse de fréquence**. Cette dernière utilise les régularités statistiques de notre langue pour déchiffrer les textes chiffrés et a été découverte par les érudits arabes dès le IXe siècle. C'est une technique qui fonctionne particulièrement bien avec les textes longs. Dans les années 1700, en Europe, même les chiffres de substitution monoalphabétiques les plus sophistiqués n'étaient plus suffisants pour résister à l'analyse de fréquence, en particulier dans le domaine militaire et de la sécurité. Comme le chiffre de Vigenere offrait une avancée significative en matière de sécurité, il est devenu populaire à cette époque et s'est répandu à la fin des années 1700.
 
-De manière informelle, le système de cryptage fonctionne de la manière suivante :
+De manière informelle, le système de chiffrement fonctionne de la manière suivante :
 
 1. Sélectionnez un mot de plusieurs lettres comme clé privée.
 
@@ -1157,7 +1157,7 @@ Alors que le chiffrement Shift et le chiffrement Vigenere sont très peu sûrs �
 
 La ligne directe est un lien de communication direct entre Washington et Moscou pour les questions urgentes. Elle a été mise en place après la crise des missiles de Cuba. La technologie utilisée s'est transformée au fil des ans. Actuellement, elle comprend un câble direct en fibre optique ainsi que deux liaisons par satellite (pour la redondance), qui permettent l'envoi de courriels et de messages textuels. La liaison aboutit à différents endroits aux États-Unis. Le Pentagone, la Maison Blanche et le mont Raven Rock sont des points d'arrivée connus. Contrairement à l'opinion générale, la ligne directe n'a jamais impliqué de téléphone.
 
-Pour l'essentiel, le système du pavé numérique à usage unique fonctionnait de la manière suivante. Washington et Moscou disposaient de deux séries de nombres aléatoires. Une série de nombres aléatoires, créée par les Russes, concernait le cryptage et le décryptage de tous les messages en langue russe. Une série de nombres aléatoires, créée par les Américains, concerne le cryptage et le décryptage de tout message en langue anglaise. De temps à autre, d'autres nombres aléatoires étaient livrés à l'autre partie par des courriers de confiance.
+Pour l'essentiel, le système du pavé numérique à usage unique fonctionnait de la manière suivante. Washington et Moscou disposaient de deux séries de nombres aléatoires. Une série de nombres aléatoires, créée par les Russes, concernait le chiffrement et le décryptage de tous les messages en langue russe. Une série de nombres aléatoires, créée par les Américains, concerne le chiffrement et le décryptage de tout message en langue anglaise. De temps à autre, d'autres nombres aléatoires étaient livrés à l'autre partie par des courriers de confiance.
 
 Washington et Moscou ont donc pu communiquer secrètement en utilisant ces nombres aléatoires pour créer des codes à usage unique. Chaque fois que vous deviez communiquer, vous utilisiez la portion suivante de nombres aléatoires pour votre message.
 
@@ -1171,7 +1171,7 @@ Cette clé aléatoire $K$ est ensuite insérée dans un algorithme d'expansion q
 
 Un flux de clés pseudo-aléatoire apparaît *comme s'il avait été choisi de manière totalement aléatoire dans l'ensemble des chaînes de caractères de même longueur. Par conséquent, le chiffrement à l'aide d'un flux de clés pseudo-aléatoire apparaît comme s'il avait été effectué à l'aide d'un bloc-notes à usage unique. Mais ce n'est évidemment pas le cas.
 
-Comme notre clé privée est plus courte que le flux de clés et que notre algorithme expansionniste doit être déterministe pour que le processus de cryptage/décryptage fonctionne, tous les flux de clés de cette longueur particulière n'auraient pas pu être obtenus en sortie de notre opération expansionniste.
+Comme notre clé privée est plus courte que le flux de clés et que notre algorithme expansionniste doit être déterministe pour que le processus de chiffrement/décryptage fonctionne, tous les flux de clés de cette longueur particulière n'auraient pas pu être obtenus en sortie de notre opération expansionniste.
 
 Supposons, par exemple, que notre clé privée ait une longueur de 128 bits et que nous puissions l'insérer dans un algorithme expansionniste pour créer un flux de clés beaucoup plus long, disons de 2 500 bits. Comme notre algorithme expansionniste doit être déterministe, il peut au maximum sélectionner des chaînes de $1/2^{128}$ d'une longueur de 2 500 bits. Un tel flux de clés ne peut donc jamais être sélectionné de manière entièrement aléatoire parmi toutes les chaînes de même longueur.
 
@@ -1191,7 +1191,7 @@ Certains définissent parfois la condition (1) de manière plus stricte, en affi
 
 La première façon dont un **chiffrement en bloc** est communément compris est comme quelque chose de plus primitif qu'un chiffrement en flux : Un algorithme de base qui effectue une transformation préservant la longueur d'une chaîne d'une longueur appropriée à l'aide d'une clé. Cet algorithme peut être utilisé pour créer des schémas de chiffrement et peut-être d'autres types de schémas cryptographiques.
 
-Fréquemment, un algorithme de chiffrement par blocs peut prendre en entrée des chaînes de longueur variable, telles que 64, 128 ou 256 bits, ainsi que des clés de longueur variable, telles que 128, 192 ou 256 bits. Bien que certains détails de l'algorithme puissent changer en fonction de ces variables, l'algorithme de base ne change pas. Si c'était le cas, nous parlerions de deux algorithmes de chiffrement par blocs différents. Notez que l'utilisation de la terminologie de l'algorithme de base ici est la même que pour les schémas de cryptage.
+Fréquemment, un algorithme de chiffrement par blocs peut prendre en entrée des chaînes de longueur variable, telles que 64, 128 ou 256 bits, ainsi que des clés de longueur variable, telles que 128, 192 ou 256 bits. Bien que certains détails de l'algorithme puissent changer en fonction de ces variables, l'algorithme de base ne change pas. Si c'était le cas, nous parlerions de deux algorithmes de chiffrement par blocs différents. Notez que l'utilisation de la terminologie de l'algorithme de base ici est la même que pour les schémas de chiffrement.
 
 La *figure 4* ci-dessous illustre le fonctionnement d'un algorithme de chiffrement par blocs. Un message $M$ de longueur $L$ et une clé $K$ servent d'entrées au chiffrement par blocs. Il produit un message $M'$ de longueur $L$. La clé ne doit pas nécessairement avoir la même longueur que $M$ et $M'$ pour la plupart des algorithmes de chiffrement par blocs.
 
@@ -1207,7 +1207,7 @@ Pour illustrer ce fonctionnement, supposons un chiffrement par blocs (BC) qui n�
 
 ![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
 
-Le processus de cryptage du livre de code électronique à l'aide du chiffrement par blocs est le suivant. Vérifiez si vous pouvez diviser votre message en clair en blocs de 128 bits. Si ce n'est pas le cas, ajoutez du **padding** au message, de manière à ce que le résultat puisse être divisé uniformément par la taille du bloc de 128 bits. Il s'agit des données utilisées pour le processus de cryptage.
+Le processus de chiffrement du livre de code électronique à l'aide du chiffrement par blocs est le suivant. Vérifiez si vous pouvez diviser votre message en clair en blocs de 128 bits. Si ce n'est pas le cas, ajoutez du **padding** au message, de manière à ce que le résultat puisse être divisé uniformément par la taille du bloc de 128 bits. Il s'agit des données utilisées pour le processus de chiffrement.
 
 Divisez maintenant les données en morceaux de chaînes de 128 bits ($M_1$, $M_2$, $M_3$, etc.). Faites passer chaque chaîne de 128 bits par le système de chiffrement par blocs avec votre clé de 128 bits pour produire des morceaux de texte chiffré de 128 bits ($C_1$, $C_2$, $C_3$, etc.). Ces morceaux, une fois recombinés, forment le texte chiffré complet.
 
@@ -1217,7 +1217,7 @@ Bien que relativement simple, le chiffrement par blocs en mode livre de code él
 
 Au lieu de cela, tout schéma de chiffrement construit à partir d'un chiffrement par blocs devrait être **probabiliste** : c'est-à-dire que le chiffrement de n'importe quel message $M$, ou de n'importe quel morceau spécifique de $M$, devrait généralement donner un résultat différent à chaque fois. [5]
 
-Le **mode de chaînage de blocs de chiffrement** (**mode CBC**) est probablement le mode le plus couramment utilisé avec un chiffrement par blocs. La combinaison, si elle est bien faite, produit un système de cryptage probabiliste. Vous pouvez voir une représentation de ce mode de fonctionnement dans la *Figure 6* ci-dessous.
+Le **mode de chaînage de blocs de chiffrement** (**mode CBC**) est probablement le mode le plus couramment utilisé avec un chiffrement par blocs. La combinaison, si elle est bien faite, produit un système de chiffrement probabiliste. Vous pouvez voir une représentation de ce mode de fonctionnement dans la *Figure 6* ci-dessous.
 
 *Figure 6 : Chiffrement par blocs en mode CBC*
 
@@ -1229,7 +1229,7 @@ Ensuite, vous faites un XOR entre la première partie de 128 bits de votre texte
 
 Lorsque vous avez terminé, vous envoyez le message crypté avec le vecteur d'initialisation non crypté au destinataire. Le destinataire doit connaître le vecteur d'initialisation, sinon il ne peut pas décrypter le texte chiffré.
 
-Cette construction est beaucoup plus sûre que le mode livre de code électronique lorsqu'elle est utilisée correctement. Vous devez tout d'abord vous assurer que le vecteur d'initialisation est une chaîne aléatoire ou pseudo-aléatoire. En outre, vous devez utiliser un vecteur d'initialisation différent chaque fois que vous utilisez ce système de cryptage.
+Cette construction est beaucoup plus sûre que le mode livre de code électronique lorsqu'elle est utilisée correctement. Vous devez tout d'abord vous assurer que le vecteur d'initialisation est une chaîne aléatoire ou pseudo-aléatoire. En outre, vous devez utiliser un vecteur d'initialisation différent chaque fois que vous utilisez ce système de chiffrement.
 
 En d'autres termes, votre vecteur d'initialisation doit être un nonce aléatoire ou pseudo-aléatoire, où **nonce** signifie "un nombre qui n'est utilisé qu'une seule fois" Si vous respectez cette pratique, le mode CBC avec un chiffrement par blocs garantit que deux blocs de texte en clair identiques seront généralement chiffrés différemment à chaque fois.
 
@@ -1247,11 +1247,11 @@ Dans la section précédente sur le chiffrement par flux, j'ai indiqué que vous
 
 Comme pour le mode CBC, il est important de sélectionner un nonce pseudo-aléatoire ou aléatoire pour le vecteur d'initialisation chaque fois que vous utilisez un chiffrement par blocs en mode OFB. Sinon, la même chaîne de messages de 128 bits envoyée dans différentes communications sera chiffrée de la même manière. C'est l'une des façons de créer un chiffrement probabiliste avec un chiffrement par flux.
 
-Certains algorithmes de chiffrement par flux n'utilisent qu'une clé privée pour créer un flux de clés. Pour ces algorithmes de chiffrement par flux, il est important d'utiliser un nonce aléatoire pour sélectionner la clé privée pour chaque instance de communication. Sinon, les résultats du cryptage avec ces algorithmes de chiffrement de flux seront également déterministes, ce qui entraînera des problèmes de sécurité.
+Certains algorithmes de chiffrement par flux n'utilisent qu'une clé privée pour créer un flux de clés. Pour ces algorithmes de chiffrement par flux, il est important d'utiliser un nonce aléatoire pour sélectionner la clé privée pour chaque instance de communication. Sinon, les résultats du chiffrement avec ces algorithmes de chiffrement de flux seront également déterministes, ce qui entraînera des problèmes de sécurité.
 
-Le chiffrement par blocs moderne le plus populaire est le **chiffrement Rijndael**. Il a remporté le concours organisé par le National Institute of Standards and Technology (NIST) entre 1997 et 2000 pour remplacer une norme de cryptage plus ancienne, la **norme de cryptage des données** (**DES**).
+Le chiffrement par blocs moderne le plus populaire est le **chiffrement Rijndael**. Il a remporté le concours organisé par le National Institute of Standards and Technology (NIST) entre 1997 et 2000 pour remplacer une norme de chiffrement plus ancienne, la **norme de chiffrement des données** (**DES**).
 
-Le chiffrement Rijndael peut être utilisé avec différentes spécifications pour la longueur des clés et la taille des blocs, ainsi que dans différents modes de fonctionnement. Le comité du concours du NIST a adopté une version restreinte du chiffrement de Rijndael, à savoir une version qui exige des tailles de blocs de 128 bits et des longueurs de clés de 128 bits, 192 bits ou 256 bits, dans le cadre de la **norme de chiffrement avancé** (**AES**). Il s'agit en fait de la principale norme pour les applications de cryptage symétrique. Il est si sûr que même la NSA est apparemment disposée à l'utiliser avec des clés de 256 bits pour des documents très secrets[6]. [6]
+Le chiffrement Rijndael peut être utilisé avec différentes spécifications pour la longueur des clés et la taille des blocs, ainsi que dans différents modes de fonctionnement. Le comité du concours du NIST a adopté une version restreinte du chiffrement de Rijndael, à savoir une version qui exige des tailles de blocs de 128 bits et des longueurs de clés de 128 bits, 192 bits ou 256 bits, dans le cadre de la **norme de chiffrement avancé** (**AES**). Il s'agit en fait de la principale norme pour les applications de chiffrement symétrique. Il est si sûr que même la NSA est apparemment disposée à l'utiliser avec des clés de 256 bits pour des documents très secrets[6]. [6]
 
 Le chiffrement par blocs AES sera expliqué en détail au *chapitre 5*.
 
@@ -1279,9 +1279,9 @@ Lorsque l'on parle des avantages et des inconvénients des algorithmes de chiffr
 
 Alors qu'il est toujours possible de construire facilement un algorithme de chiffrement par flux à partir d'un algorithme de chiffrement par bloc, il est généralement très difficile de construire un algorithme de chiffrement par bloc (tel que le mode CBC) à partir d'un algorithme de chiffrement par flux primitif.
 
-À partir de cette discussion, vous devriez maintenant comprendre la *Figure 8*. Elle donne un aperçu des schémas de chiffrement symétrique. Nous utilisons trois types de systèmes de cryptage : les algorithmes de chiffrement de flux primitifs, les algorithmes de chiffrement de flux par blocs et les algorithmes de chiffrement par blocs en mode bloc (également appelés "algorithmes de chiffrement par blocs" dans le diagramme).
+À partir de cette discussion, vous devriez maintenant comprendre la *Figure 8*. Elle donne un aperçu des schémas de chiffrement symétrique. Nous utilisons trois types de systèmes de chiffrement : les algorithmes de chiffrement de flux primitifs, les algorithmes de chiffrement de flux par blocs et les algorithmes de chiffrement par blocs en mode bloc (également appelés "algorithmes de chiffrement par blocs" dans le diagramme).
 
-*Figure 8 : Vue d'ensemble des schémas de cryptage symétrique*
+*Figure 8 : Vue d'ensemble des schémas de chiffrement symétrique*
 
 ![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
 
@@ -1289,9 +1289,9 @@ Alors qu'il est toujours possible de construire facilement un algorithme de chif
 
 <chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
 
-Le cryptage concerne le secret. Mais la cryptographie s'intéresse également à des thèmes plus larges, tels que l'intégrité, l'authenticité et la non-répudiation des messages. Les **codes d'authentification des messages** (MAC) sont des systèmes cryptographiques à clé symétrique qui assurent l'authenticité et l'intégrité des communications.
+Le chiffrement concerne le secret. Mais la cryptographie s'intéresse également à des thèmes plus larges, tels que l'intégrité, l'authenticité et la non-répudiation des messages. Les **codes d'authentification des messages** (MAC) sont des systèmes cryptographiques à clé symétrique qui assurent l'authenticité et l'intégrité des communications.
 
-Pourquoi la communication a-t-elle besoin d'autre chose que du secret ? Supposons que Bob envoie un message à Alice en utilisant un cryptage pratiquement incassable. Tout attaquant qui intercepte ce message ne sera pas en mesure d'obtenir des informations significatives sur son contenu. Cependant, l'attaquant dispose encore d'au moins deux autres vecteurs d'attaque :
+Pourquoi la communication a-t-elle besoin d'autre chose que du secret ? Supposons que Bob envoie un message à Alice en utilisant un chiffrement pratiquement incassable. Tout attaquant qui intercepte ce message ne sera pas en mesure d'obtenir des informations significatives sur son contenu. Cependant, l'attaquant dispose encore d'au moins deux autres vecteurs d'attaque :
 
 1. Elle pourrait intercepter le texte chiffré, en modifier le contenu et l'envoyer à Alice.
 
@@ -1305,7 +1305,7 @@ Bob et Alice peuvent lutter contre la manipulation d'un message particulier à l
 
 Le processus est décrit dans la *Figure 9*. Pour utiliser un **MAC** (Message Authentication Code), ils doivent d'abord générer une clé privée $K$ qu'ils partagent tous les deux. Bob crée une étiquette $T$ pour le message en utilisant la clé privée $K$. Il envoie ensuite le message ainsi que l'étiquette du message à Alice. Elle peut alors vérifier que Bob a bien créé la balise en soumettant la clé privée, le message et la balise à un algorithme de vérification.
 
-*Figure 9 : Vue d'ensemble des schémas de cryptage symétrique*
+*Figure 9 : Vue d'ensemble des schémas de chiffrement symétrique*
 
 ![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
 
@@ -1315,29 +1315,29 @@ Un MAC garantit qu'un message a effectivement été créé par Bob. Cette authen
 
 Bien que j'aie établi une distinction entre l'authenticité et l'intégrité des messages dans mon analyse, il est également courant d'utiliser ces termes comme synonymes. Ils renvoient donc à l'idée de messages qui ont été créés par un expéditeur particulier et qui n'ont subi aucune modification. Dans cet esprit, les codes d'authentification des messages sont souvent appelés **codes d'intégrité des messages**.
 
-## Cryptage authentifié
+## Chiffrement authentifié
 
 <chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
 
-En règle générale, on souhaite garantir à la fois le secret et l'authenticité des communications, c'est pourquoi les systèmes de cryptage et les systèmes MAC sont généralement utilisés conjointement.
+En règle générale, on souhaite garantir à la fois le secret et l'authenticité des communications, c'est pourquoi les systèmes de chiffrement et les systèmes MAC sont généralement utilisés conjointement.
 
 Un **système de chiffrement authentifié** est un système qui combine le chiffrement avec un MAC d'une manière hautement sécurisée. Plus précisément, il doit répondre aux normes d'infalsifiabilité existentielle ainsi qu'à une notion très forte de secret, à savoir une notion qui résiste aux **attaques par texte choisi**. [7]
 
-Pour qu'un système de cryptage soit résistant aux attaques par texte choisi, il doit répondre aux normes de **non-malléabilité** : c'est-à-dire que toute modification d'un texte chiffré par un attaquant doit produire soit un texte chiffré invalide, soit un texte déchiffré qui n'a aucun rapport avec le texte original. [8]
+Pour qu'un système de chiffrement soit résistant aux attaques par texte choisi, il doit répondre aux normes de **non-malléabilité** : c'est-à-dire que toute modification d'un texte chiffré par un attaquant doit produire soit un texte chiffré invalide, soit un texte déchiffré qui n'a aucun rapport avec le texte original. [8]
 
 Comme un schéma de chiffrement authentifié garantit qu'un texte chiffré créé par un attaquant est toujours invalide (puisque l'étiquette ne sera pas vérifiée), il répond aux normes de résistance aux attaques par texte chiffré choisi. Il est intéressant de noter qu'il est possible de prouver qu'un schéma de chiffrement authentifié peut toujours être créé à partir de la combinaison d'un MAC non falsifiable et d'un schéma de chiffrement qui répond à une notion de sécurité moins stricte, connue sous le nom de **sécurité contre les attaques par texte choisi**.
 
-Nous n'entrerons pas dans tous les détails de la construction des systèmes de cryptage authentifiés. Mais il est important de connaître deux détails de leur construction.
+Nous n'entrerons pas dans tous les détails de la construction des systèmes de chiffrement authentifiés. Mais il est important de connaître deux détails de leur construction.
 
-Tout d'abord, un système de cryptage authentifié traite d'abord le cryptage et crée ensuite une étiquette de message sur le texte crypté. Il s'avère que d'autres approches, telles que la combinaison du texte chiffré avec une balise sur le texte en clair, ou la création d'une balise puis le chiffrement du texte en clair et de la balise, ne sont pas sûres. En outre, les deux opérations disposent de leur propre clé privée sélectionnée de manière aléatoire, sans quoi votre sécurité est gravement compromise.
+Tout d'abord, un système de chiffrement authentifié traite d'abord le chiffrement et crée ensuite une étiquette de message sur le texte crypté. Il s'avère que d'autres approches, telles que la combinaison du texte chiffré avec une balise sur le texte en clair, ou la création d'une balise puis le chiffrement du texte en clair et de la balise, ne sont pas sûres. En outre, les deux opérations disposent de leur propre clé privée sélectionnée de manière aléatoire, sans quoi votre sécurité est gravement compromise.
 
 Le principe susmentionné s'applique plus généralement : *vous devez toujours utiliser des clés distinctes lorsque vous combinez des schémas cryptographiques de base*.
 
-Un schéma de cryptage authentifié est illustré à la *figure 10*. Bob crée d'abord un texte chiffré $C$ à partir du message $M$ en utilisant une clé choisie au hasard $K_C$. Il crée ensuite une étiquette de message $T$ en faisant passer le texte chiffré et une autre clé choisie au hasard $K_T$ par l'algorithme de génération d'étiquettes. Le texte chiffré et la balise de message sont envoyés à Alice.
+Un schéma de chiffrement authentifié est illustré à la *figure 10*. Bob crée d'abord un texte chiffré $C$ à partir du message $M$ en utilisant une clé choisie au hasard $K_C$. Il crée ensuite une étiquette de message $T$ en faisant passer le texte chiffré et une autre clé choisie au hasard $K_T$ par l'algorithme de génération d'étiquettes. Le texte chiffré et la balise de message sont envoyés à Alice.
 
 Alice commence par vérifier si l'étiquette est valide compte tenu du texte chiffré $C$ et de la clé $K_T$. Si elle est valide, elle peut alors déchiffrer le message à l'aide de la clé $K_C$. Non seulement elle est assurée d'une notion très forte de secret dans leurs communications, mais elle sait également que le message a été créé par Bob.
 
-*Figure 10 : Schéma de cryptage authentifié*
+*Figure 10 : Schéma de chiffrement authentifié*
 
 ![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
 
@@ -1365,9 +1365,9 @@ Il existe une palette de fonctions de hachage qui peuvent être utilisées pour 
 
 Supposons que deux parties participent à une session de communication et qu'elles envoient plusieurs messages dans les deux sens.
 
-Un système de cryptage authentifié permet au destinataire d'un message de vérifier qu'il a été créé par son partenaire lors de la session de communication (tant que la clé privée n'a pas été divulguée). Cela fonctionne assez bien pour un seul message. Toutefois, en règle générale, deux parties s'envoient des messages dans un sens et dans l'autre au cours d'une session de communication. Dans ce cas, un système de cryptage simple et authentifié tel que celui décrit dans la section précédente n'offre pas une sécurité suffisante.
+Un système de chiffrement authentifié permet au destinataire d'un message de vérifier qu'il a été créé par son partenaire lors de la session de communication (tant que la clé privée n'a pas été divulguée). Cela fonctionne assez bien pour un seul message. Toutefois, en règle générale, deux parties s'envoient des messages dans un sens et dans l'autre au cours d'une session de communication. Dans ce cas, un système de chiffrement simple et authentifié tel que celui décrit dans la section précédente n'offre pas une sécurité suffisante.
 
-La principale raison en est qu'un système de cryptage authentifié n'offre aucune garantie que le message a bien été envoyé par l'agent qui l'a créé au cours d'une session de communication. Considérons les trois vecteurs d'attaque suivants :
+La principale raison en est qu'un système de chiffrement authentifié n'offre aucune garantie que le message a bien été envoyé par l'agent qui l'a créé au cours d'une session de communication. Considérons les trois vecteurs d'attaque suivants :
 
 1. **Attaque par relecture** : Un attaquant envoie à nouveau un texte chiffré et une balise qu'il a interceptés entre deux parties à un moment antérieur.
 
@@ -1377,13 +1377,13 @@ La principale raison en est qu'un système de cryptage authentifié n'offre aucu
 
 Bien que l'attaquant n'ait pas connaissance du texte chiffré et ne puisse pas créer des textes chiffrés usurpés, les attaques susmentionnées peuvent toujours causer des dommages importants aux communications.
 
-Supposons, par exemple, qu'un message particulier entre les deux parties implique le transfert de fonds financiers. Une attaque par rejeu pourrait transférer les fonds une seconde fois. Un système de cryptage authentifié classique n'a aucune défense contre de telles attaques.
+Supposons, par exemple, qu'un message particulier entre les deux parties implique le transfert de fonds financiers. Une attaque par rejeu pourrait transférer les fonds une seconde fois. Un système de chiffrement authentifié classique n'a aucune défense contre de telles attaques.
 
 Heureusement, ces types d'attaques peuvent être facilement atténués dans une session de communication en utilisant des **identifiants** et des **indicateurs de temps relatif**.
 
-Des identificateurs peuvent être ajoutés au message en clair avant le cryptage. Cela empêcherait toute attaque par réflexion. Un indicateur de temps relatif peut, par exemple, être un numéro de séquence dans une session de communication particulière. Chaque partie ajoute un numéro de séquence à un message avant le cryptage, de sorte que le destinataire sait dans quel ordre les messages ont été envoyés. Cela élimine la possibilité d'attaques par réordonnancement. Il élimine également les attaques par rejeu. Tout message envoyé par un attaquant en aval portera un ancien numéro de séquence, et le destinataire saura qu'il ne doit pas traiter le message à nouveau.
+Des identificateurs peuvent être ajoutés au message en clair avant le chiffrement. Cela empêcherait toute attaque par réflexion. Un indicateur de temps relatif peut, par exemple, être un numéro de séquence dans une session de communication particulière. Chaque partie ajoute un numéro de séquence à un message avant le chiffrement, de sorte que le destinataire sait dans quel ordre les messages ont été envoyés. Cela élimine la possibilité d'attaques par réordonnancement. Il élimine également les attaques par rejeu. Tout message envoyé par un attaquant en aval portera un ancien numéro de séquence, et le destinataire saura qu'il ne doit pas traiter le message à nouveau.
 
-Pour illustrer le fonctionnement des sessions de communication sécurisées, supposons à nouveau Alice et Bob. Ils envoient un total de quatre messages dans les deux sens. Vous pouvez voir comment fonctionne un système de cryptage authentifié avec des identifiants et des numéros de séquence dans la *Figure 11* ci-dessous.
+Pour illustrer le fonctionnement des sessions de communication sécurisées, supposons à nouveau Alice et Bob. Ils envoient un total de quatre messages dans les deux sens. Vous pouvez voir comment fonctionne un système de chiffrement authentifié avec des identifiants et des numéros de séquence dans la *Figure 11* ci-dessous.
 
 La session de communication commence par l'envoi par Bob d'un texte chiffré $C_{0,B}$ à Alice avec une étiquette de message $T_{0,B}$. Le texte chiffré contient le message, ainsi qu'un identifiant (BOB) et un numéro de séquence (0). La balise $T_{0,B}$ est apposée sur l'ensemble du texte chiffré. Dans leurs communications ultérieures, Alice et Bob conservent ce protocole, en mettant à jour les corps si nécessaire.
 
@@ -1399,13 +1399,13 @@ La session de communication commence par l'envoi par Bob d'un texte chiffré $C_
 
 <chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
 
-Dans ce chapitre, nous examinerons les détails d'un système de cryptage utilisant un algorithme de chiffrement primitif moderne, RC4 (ou "Rivest cipher 4"), et un algorithme de chiffrement par blocs moderne, AES. Alors que le chiffrement RC4 est tombé en disgrâce en tant que méthode de cryptage, AES est la norme en matière de cryptage symétrique moderne. Ces deux exemples devraient vous donner une meilleure idée de la manière dont le chiffrement symétrique fonctionne sous le capot.
+Dans ce chapitre, nous examinerons les détails d'un système de chiffrement utilisant un algorithme de chiffrement primitif moderne, RC4 (ou "Rivest cipher 4"), et un algorithme de chiffrement par blocs moderne, AES. Alors que le chiffrement RC4 est tombé en disgrâce en tant que méthode de chiffrement, AES est la norme en matière de chiffrement symétrique moderne. Ces deux exemples devraient vous donner une meilleure idée de la manière dont le chiffrement symétrique fonctionne sous le capot.
 
 ___
 
 Afin d'avoir une idée du fonctionnement des algorithmes de chiffrement de flux pseudo-aléatoires modernes, je me concentrerai sur l'algorithme de chiffrement de flux RC4. Il s'agit d'un algorithme de chiffrement de flux pseudo-aléatoire utilisé dans les protocoles de sécurité des points d'accès sans fil WEP et WAP, ainsi que dans le protocole TLS. Comme le RC4 présente de nombreuses faiblesses avérées, il est tombé en disgrâce. En fait, l'Internet Engineering Task Force interdit désormais l'utilisation des suites RC4 par les applications client et serveur dans toutes les instances de TLS. Néanmoins, il fonctionne bien comme exemple pour illustrer le fonctionnement d'un chiffrement de flux primitif.
 
-Pour commencer, je vais d'abord montrer comment chiffrer un message en clair à l'aide d'un algorithme de chiffrement RC4. Supposons que notre message en clair soit "SOUP" Le cryptage à l'aide de notre algorithme de chiffrement RC4 pour bébés se déroule alors en quatre étapes.
+Pour commencer, je vais d'abord montrer comment chiffrer un message en clair à l'aide d'un algorithme de chiffrement RC4. Supposons que notre message en clair soit "SOUP" Le chiffrement à l'aide de notre algorithme de chiffrement RC4 pour bébés se déroule alors en quatre étapes.
 
 ### Étape 1
 
@@ -1527,13 +1527,13 @@ Il est important de noter que le flux de clés produit avec RC4 doit être trait
 
 <chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
 
-Comme mentionné dans le chapitre précédent, le National Institute of Standards and Technology (NIST) a organisé un concours entre 1997 et 2000 pour déterminer une nouvelle norme de cryptage symétrique. Le **chiffre Rijndael** a remporté le concours. Le nom est un jeu de mots sur les noms des créateurs belges, Vincent Rijmen et Joan Daemen.
+Comme mentionné dans le chapitre précédent, le National Institute of Standards and Technology (NIST) a organisé un concours entre 1997 et 2000 pour déterminer une nouvelle norme de chiffrement symétrique. Le **chiffre Rijndael** a remporté le concours. Le nom est un jeu de mots sur les noms des créateurs belges, Vincent Rijmen et Joan Daemen.
 
-Le chiffrement Rijndael est un **chiffrement par blocs**, ce qui signifie qu'il existe un algorithme de base qui peut être utilisé avec différentes spécifications pour la longueur des clés et la taille des blocs. Vous pouvez donc l'utiliser avec différents modes de fonctionnement pour construire des schémas de cryptage.
+Le chiffrement Rijndael est un **chiffrement par blocs**, ce qui signifie qu'il existe un algorithme de base qui peut être utilisé avec différentes spécifications pour la longueur des clés et la taille des blocs. Vous pouvez donc l'utiliser avec différents modes de fonctionnement pour construire des schémas de chiffrement.
 
 Le comité du concours du NIST a adopté une version restreinte du chiffrement de Rijndael, à savoir une version qui nécessite des blocs de 128 bits et des longueurs de clé de 128 bits, 192 bits ou 256 bits, dans le cadre de l'**Advanced Encryption Standard (AES)**. Cette version restreinte du chiffrement Rijndael peut également être utilisée dans plusieurs modes de fonctionnement. La spécification de la norme est connue sous le nom de **Advanced Encryption Standard (AES)**.
 
-Afin de montrer comment fonctionne le chiffrement Rijndael, le cœur de l'AES, je vais illustrer le processus de chiffrement avec une clé de 128 bits. La taille de la clé a un impact sur le nombre de tours effectués pour chaque bloc de cryptage. Pour les clés de 128 bits, 10 tours sont nécessaires. Avec des clés de 192 bits et 256 bits, il aurait fallu 12 et 14 tours, respectivement.
+Afin de montrer comment fonctionne le chiffrement Rijndael, le cœur de l'AES, je vais illustrer le processus de chiffrement avec une clé de 128 bits. La taille de la clé a un impact sur le nombre de tours effectués pour chaque bloc de chiffrement. Pour les clés de 128 bits, 10 tours sont nécessaires. Avec des clés de 192 bits et 256 bits, il aurait fallu 12 et 14 tours, respectivement.
 
 En outre, je supposerai que l'AES est utilisé en mode **ECB**. Cela facilite légèrement l'exposé et n'a pas d'importance pour l'algorithme Rijndael. Il est certain que le mode ECB n'est pas sûr dans la pratique, car il conduit à un chiffrement déterministe. Le mode sécurisé le plus couramment utilisé avec AES est **CBC** (Cipher Block Chaining).
 
@@ -1543,7 +1543,7 @@ Appelons la clé $K_0$. La construction avec les paramètres ci-dessus se prése
 
 ![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
 
-Chaque bloc de texte de 128 bits passe par dix tours dans le schéma de cryptage Rijndael. Cela nécessite une clé distincte pour chaque tour ($K_1$ à $K_{10}$). Ces clés sont produites à chaque tour à partir de la clé originale de 128 bits $K_0$ à l'aide d'un **algorithme d'expansion de clé**. Par conséquent, pour chaque bloc de texte à chiffrer, nous utiliserons la clé originale $K_0$ ainsi que dix clés distinctes. Notez que ces mêmes 11 clés sont utilisées pour chaque bloc de 128 bits de texte en clair qui doit être crypté.
+Chaque bloc de texte de 128 bits passe par dix tours dans le schéma de chiffrement Rijndael. Cela nécessite une clé distincte pour chaque tour ($K_1$ à $K_{10}$). Ces clés sont produites à chaque tour à partir de la clé originale de 128 bits $K_0$ à l'aide d'un **algorithme d'expansion de clé**. Par conséquent, pour chaque bloc de texte à chiffrer, nous utiliserons la clé originale $K_0$ ainsi que dix clés distinctes. Notez que ces mêmes 11 clés sont utilisées pour chaque bloc de 128 bits de texte en clair qui doit être crypté.
 
 L'algorithme d'expansion des clés est long et complexe. Le parcourir n'a que peu d'intérêt didactique. Vous pouvez consulter l'algorithme d'expansion de clé par vous-même, si vous le souhaitez. Une fois les clés rondes produites, le chiffrement Rijndael manipule le premier bloc de 128 bits de texte en clair, $M_1$, comme le montre la *Figure 2*. Nous allons maintenant suivre ces étapes.
 
@@ -1711,7 +1711,7 @@ L'état $S_{10}$ est maintenant $C_1$, les 128 premiers bits du texte chiffré. 
 
 Quel est le raisonnement qui sous-tend les différentes opérations du cryptogramme Rijndael ?
 
-Sans entrer dans les détails, les systèmes de cryptage sont évalués en fonction de leur degré de confusion et de diffusion. Si le système de cryptage présente un degré élevé de **confusion**, cela signifie que le texte crypté est radicalement différent du texte en clair. Si le système de cryptage a un degré élevé de **diffusion**, cela signifie que toute petite modification du texte en clair produit un texte crypté radicalement différent.
+Sans entrer dans les détails, les systèmes de chiffrement sont évalués en fonction de leur degré de confusion et de diffusion. Si le système de chiffrement présente un degré élevé de **confusion**, cela signifie que le texte crypté est radicalement différent du texte en clair. Si le système de chiffrement a un degré élevé de **diffusion**, cela signifie que toute petite modification du texte en clair produit un texte crypté radicalement différent.
 
 Le raisonnement qui sous-tend les opérations du cryptogramme Rijndael est qu'elles produisent à la fois un degré élevé de confusion et de diffusion. La confusion est produite par l'opération de substitution d'octets, tandis que la diffusion est produite par les opérations de décalage des lignes et de mélange des colonnes.
 
@@ -1725,7 +1725,7 @@ Le raisonnement qui sous-tend les opérations du cryptogramme Rijndael est qu'el
 
 Comme pour la cryptographie symétrique, les systèmes asymétriques peuvent être utilisés pour garantir à la fois le secret et l'authentification. En revanche, ces systèmes utilisent deux clés au lieu d'une : une clé privée et une clé publique.
 
-Nous commençons notre enquête par la découverte de la cryptographie asymétrique, en particulier les problèmes qui l'ont stimulée. Nous examinerons ensuite le fonctionnement de haut niveau des systèmes asymétriques de cryptage et d'authentification. Nous présentons ensuite les fonctions de hachage, qui sont essentielles pour comprendre les systèmes d'authentification asymétriques et qui sont également pertinentes dans d'autres contextes cryptographiques, tels que les codes d'authentification des messages basés sur le hachage que nous avons examinés au chapitre 4.
+Nous commençons notre enquête par la découverte de la cryptographie asymétrique, en particulier les problèmes qui l'ont stimulée. Nous examinerons ensuite le fonctionnement de haut niveau des systèmes asymétriques de chiffrement et d'authentification. Nous présentons ensuite les fonctions de hachage, qui sont essentielles pour comprendre les systèmes d'authentification asymétriques et qui sont également pertinentes dans d'autres contextes cryptographiques, tels que les codes d'authentification des messages basés sur le hachage que nous avons examinés au chapitre 4.
 
 ___
 
@@ -1733,7 +1733,7 @@ Supposons que Bob veuille acheter un nouvel imperméable à Jim's Sporting Goods
 
 Bob et Jim's Sporting Goods voudront s'assurer que leurs communications sont sécurisées tout au long de ce processus, étant donné que l'internet est un système de communication ouvert. Ils voudront s'assurer, par exemple, qu'aucun attaquant potentiel ne puisse connaître les détails de la carte de crédit et de l'adresse de Bob, et qu'aucun attaquant potentiel ne puisse répéter ses achats ou en créer de faux en son nom.
 
-Un système de cryptage authentifié avancé, tel que celui présenté dans le chapitre précédent, pourrait certainement sécuriser les communications entre Bob et Jim's Sporting Goods. Mais la mise en œuvre d'un tel système se heurte à des obstacles pratiques évidents.
+Un système de chiffrement authentifié avancé, tel que celui présenté dans le chapitre précédent, pourrait certainement sécuriser les communications entre Bob et Jim's Sporting Goods. Mais la mise en œuvre d'un tel système se heurte à des obstacles pratiques évidents.
 
 Pour illustrer ces obstacles pratiques, supposons que nous vivions dans un monde où seuls les outils de la cryptographie symétrique existent. Que pourraient alors faire Jim's Sporting Goods et Bob pour assurer une communication sécurisée ?
 
@@ -1743,7 +1743,7 @@ Une possibilité est que Jim's Sporting Goods crée des lieux spéciaux d'échan
 
 Par ailleurs, Jim's Sporting Goods peut envoyer à Bob une paire de clés par l'intermédiaire d'un coursier de confiance. Cette solution est probablement plus efficace que l'organisation de lieux d'échange de clés. Toutefois, cette solution entraînerait des coûts substantiels, en particulier si de nombreux clients n'effectuent qu'un seul ou quelques achats.
 
-Ensuite, un système symétrique de cryptage authentifié oblige Jim's Sporting Goods à stocker des jeux de clés distincts pour tous ses clients. Il s'agit là d'un défi pratique important pour des milliers de clients, sans parler des millions.
+Ensuite, un système symétrique de chiffrement authentifié oblige Jim's Sporting Goods à stocker des jeux de clés distincts pour tous ses clients. Il s'agit là d'un défi pratique important pour des milliers de clients, sans parler des millions.
 
 Pour comprendre ce dernier point, supposons que Jim's Sporting Goods fournisse à chaque client la même paire de clés. Cela permettrait à chaque client - ou à toute autre personne pouvant obtenir cette paire de clés - de lire et même de manipuler toutes les communications entre Jim's Sporting Goods et ses clients. Dans ces conditions, vous pourriez tout aussi bien ne pas utiliser de cryptographie dans vos communications.
 
@@ -1801,7 +1801,7 @@ Le deuxième moyen proposé par Diffie et Helmann pour résoudre le problème de
 
 Contrairement à leur présentation de l'échange de clés Diffie-Hellman, ils n'ont fourni que les grandes lignes de la manière dont les systèmes cryptographiques asymétriques pourraient être construits de manière plausible. Ils n'ont proposé aucune fonction à sens unique susceptible de remplir les conditions nécessaires à une sécurité raisonnable dans ces schémas.
 
-Une mise en œuvre pratique d'un système asymétrique a toutefois été trouvée un an plus tard par trois cryptographes et mathématiciens universitaires différents, Ronald Rivest, Shamir et Leonard Adleman : Ronald Rivest, Adi Shamir et Leonard Adleman[3]. [Le système de cryptage qu'ils ont introduit a été connu sous le nom de **système de cryptage RSA** (d'après leurs noms de famille).
+Une mise en œuvre pratique d'un système asymétrique a toutefois été trouvée un an plus tard par trois cryptographes et mathématiciens universitaires différents, Ronald Rivest, Shamir et Leonard Adleman : Ronald Rivest, Adi Shamir et Leonard Adleman[3]. [Le système de chiffrement qu'ils ont introduit a été connu sous le nom de **système de chiffrement RSA** (d'après leurs noms de famille).
 
 Les fonctions de trappe utilisées dans la cryptographie asymétrique (et l'échange de clés Diffie Helmann) sont toutes liées à deux problèmes principaux **difficiles à calculer** : la factorisation des nombres premiers et le calcul des logarithmes discrets.
 
@@ -1827,7 +1827,7 @@ Selon leurs propres dires et ceux du GCHQ, c'est James Ellis qui a conçu le pre
 
 [4] Simon Singh, _The Code Book_, Fourth Estate (Londres, 1999), chapitre 6, présente un bon historique de ces découvertes.
 
-## Cryptage et authentification asymétriques
+## Chiffrement et authentification asymétriques
 
 <chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
 
@@ -1851,7 +1851,7 @@ Pour mieux comprendre ce qui se passe, imaginons qu'au lieu d'envoyer un message
 
 Si Bob peut verrouiller le cadenas, ni lui ni aucune autre personne interceptant la boîte ne peut défaire le cadenas s'il est effectivement sécurisé. Seule Alice peut le déverrouiller et voir le contenu de la lettre de Bob, car elle possède la clé.
 
-Un système de cryptage asymétrique est, grosso modo, une version numérique de ce processus. Le cadenas s'apparente à la clé publique et la clé du cadenas à la clé privée. Toutefois, comme le cadenas est numérique, il est beaucoup plus facile et moins coûteux pour Alice de le distribuer à toute personne susceptible de vouloir lui envoyer des messages secrets.
+Un système de chiffrement asymétrique est, grosso modo, une version numérique de ce processus. Le cadenas s'apparente à la clé publique et la clé du cadenas à la clé privée. Toutefois, comme le cadenas est numérique, il est beaucoup plus facile et moins coûteux pour Alice de le distribuer à toute personne susceptible de vouloir lui envoyer des messages secrets.
 
 Pour l'authentification dans le cadre asymétrique, nous utilisons des **signatures numériques**. Celles-ci ont donc la même fonction que les codes d'authentification des messages dans le cadre symétrique. La *figure 2* donne un aperçu des signatures numériques.
 
@@ -1887,7 +1887,7 @@ Il est important de noter que dans de nombreuses applications, la cryptographie 
 
 C'est le cas, par exemple, lorsque vous achetez des biens en ligne. Connaissant la clé publique du vendeur, celui-ci peut vous envoyer des messages signés numériquement dont vous pouvez vérifier l'authenticité. Sur cette base, vous pouvez suivre l'un des nombreux protocoles d'échange de clés symétriques pour communiquer en toute sécurité.
 
-La principale raison de la fréquence de l'approche susmentionnée est que la cryptographie asymétrique est beaucoup moins efficace que la cryptographie symétrique pour produire un niveau de sécurité particulier. C'est l'une des raisons pour lesquelles nous avons encore besoin de la cryptographie à clé symétrique à côté de la cryptographie publique. En outre, la cryptographie à clé symétrique est beaucoup plus naturelle dans des applications particulières telles que le cryptage par un utilisateur d'ordinateur de ses propres données.
+La principale raison de la fréquence de l'approche susmentionnée est que la cryptographie asymétrique est beaucoup moins efficace que la cryptographie symétrique pour produire un niveau de sécurité particulier. C'est l'une des raisons pour lesquelles nous avons encore besoin de la cryptographie à clé symétrique à côté de la cryptographie publique. En outre, la cryptographie à clé symétrique est beaucoup plus naturelle dans des applications particulières telles que le chiffrement par un utilisateur d'ordinateur de ses propres données.
 
 Comment les signatures numériques et le chiffrement à clé publique résolvent-ils exactement les problèmes de distribution et de gestion des clés ?
 
@@ -2269,7 +2269,7 @@ Le problème est que vous n'avez pas été informé que $d = 7$. Vous pourriez b
 
 Bien sûr, un ordinateur pourrait encore résoudre le problème RSA pour cet exemple relativement facilement, parce que les nombres premiers impliqués ne sont pas grands. Mais lorsque les nombres premiers deviennent très grands, la tâche devient pratiquement impossible.
 
-Nous avons maintenant présenté le problème RSA, un ensemble de conditions sous lesquelles il est difficile, et les mathématiques sous-jacentes. En quoi cela peut-il être utile pour la cryptographie asymétrique ? Plus précisément, comment pouvons-nous transformer la difficulté du problème RSA sous certaines conditions en un système de cryptage ou de signature numérique ?
+Nous avons maintenant présenté le problème RSA, un ensemble de conditions sous lesquelles il est difficile, et les mathématiques sous-jacentes. En quoi cela peut-il être utile pour la cryptographie asymétrique ? Plus précisément, comment pouvons-nous transformer la difficulté du problème RSA sous certaines conditions en un système de chiffrement ou de signature numérique ?
 
 Une approche consiste à prendre le problème RSA et à construire des schémas de manière simple. Par exemple, supposons que vous ayez généré un ensemble de variables $\Pi$ comme décrit dans le problème RSA, et que vous vous assuriez que $p$ et $q$ sont suffisamment grands. Vous définissez votre clé publique comme étant $(N, e)$ et partagez cette information avec le monde entier. Comme décrit ci-dessus, vous gardez secrètes les valeurs de $p$, $q$, $\phi(n)$ et $d$. En fait, $d$ est votre clé privée.
 
@@ -2277,11 +2277,11 @@ Quiconque souhaite vous envoyer un message $m$ qui est un élément de $C_N$ peu
 
 Vous pouvez tenter de créer un système de signature numérique de la même manière. Supposons que vous souhaitiez envoyer à quelqu'un un message $m$ avec une signature numérique $S$. Vous pourriez simplement définir $S = m^d \mod N$ et envoyer la paire $(m,S)$ au destinataire. N'importe qui peut vérifier la signature numérique en contrôlant simplement si $S^e \mod N = m \mod N$. Cependant, tout attaquant aurait beaucoup de mal à créer une $S$ valide pour un message, étant donné qu'il ne possède pas $d$.
 
-Malheureusement, transformer ce qui est en soi un problème difficile, le problème RSA, en un schéma cryptographique n'est pas aussi simple. Pour le schéma de cryptage simple, vous ne pouvez sélectionner que des coprimes de $N$ comme messages. Cela ne nous laisse pas beaucoup de messages possibles, certainement pas assez pour une communication standard. En outre, ces messages doivent être choisis au hasard. Cela semble peu pratique. Enfin, tout message sélectionné deux fois produira exactement le même texte chiffré. Cette situation est extrêmement indésirable dans tout système de cryptage et ne répond à aucune notion moderne et rigoureuse de sécurité en matière de cryptage.
+Malheureusement, transformer ce qui est en soi un problème difficile, le problème RSA, en un schéma cryptographique n'est pas aussi simple. Pour le schéma de chiffrement simple, vous ne pouvez sélectionner que des coprimes de $N$ comme messages. Cela ne nous laisse pas beaucoup de messages possibles, certainement pas assez pour une communication standard. En outre, ces messages doivent être choisis au hasard. Cela semble peu pratique. Enfin, tout message sélectionné deux fois produira exactement le même texte chiffré. Cette situation est extrêmement indésirable dans tout système de chiffrement et ne répond à aucune notion moderne et rigoureuse de sécurité en matière de chiffrement.
 
 Les problèmes sont encore plus graves pour notre système de signature numérique simple. Dans l'état actuel des choses, n'importe quel attaquant peut facilement falsifier des signatures numériques en choisissant d'abord un nombre premier de $N$ comme signature, puis en calculant le message original correspondant. Cela rompt clairement avec l'exigence d'infalsifiabilité existentielle.
 
-Néanmoins, en ajoutant un peu de complexité intelligente, le problème RSA peut être utilisé pour créer un système de cryptage à clé publique sécurisé ainsi qu'un système de signature numérique sécurisé. Nous n'entrerons pas ici dans les détails de ces constructions. [Il est toutefois important de noter que cette complexité supplémentaire ne modifie pas le problème RSA fondamental sur lequel ces systèmes sont basés.
+Néanmoins, en ajoutant un peu de complexité intelligente, le problème RSA peut être utilisé pour créer un système de chiffrement à clé publique sécurisé ainsi qu'un système de signature numérique sécurisé. Nous n'entrerons pas ici dans les détails de ces constructions. [Il est toutefois important de noter que cette complexité supplémentaire ne modifie pas le problème RSA fondamental sur lequel ces systèmes sont basés.
 
 **Notes:**
 
@@ -2303,4 +2303,5 @@ Néanmoins, en ajoutant un peu de complexité intelligente, le problème RSA peu
 ## Conclusion
 <chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+
 

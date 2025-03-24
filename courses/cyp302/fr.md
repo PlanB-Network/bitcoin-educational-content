@@ -103,7 +103,7 @@ Au cours des hivers 1820 et 1822, un homme nommé Thomas J. Beale a séjourné d
 
 Quelques mois plus tard, Morriss reçoit une lettre de Beale datée du 9 mai 1822. Elle souligne la grande valeur du contenu de la boîte en fer et donne quelques instructions à Morriss : si ni Beale ni aucun de ses associés ne viennent jamais réclamer la boîte, il devra l'ouvrir exactement dix ans après la date de la lettre (c'est-à-dire le 9 mai 1832). Certains des papiers à l'intérieur seraient écrits en texte normal. Plusieurs autres, en revanche, seraient "inintelligibles sans le secours d'une clef" Cette "clé" sera donc remise à Morriss par un ami anonyme de Beale en juin 1832.
 
-Malgré des instructions claires, Morriss n'a pas ouvert la boîte en mai 1832 et le mystérieux ami de Beale ne s'est jamais manifesté en juin de la même année. Ce n'est qu'en 1845 que l'aubergiste se décide enfin à ouvrir la boîte. Morriss y trouve une note expliquant comment Beale et ses associés ont découvert de l'or et de l'argent dans l'Ouest et les ont enterrés, ainsi que des bijoux, pour les mettre en sécurité. En outre, la boîte contenait trois **textes chiffrés**, c'est-à-dire des textes écrits en code qui nécessitent une **clé cryptographique**, ou un secret, et un algorithme pour les déverrouiller. Ce processus de déverrouillage d'un texte chiffré est appelé **décryptage**, tandis que le processus de verrouillage est appelé **chiffrement**. Comme expliqué au chapitre 3, le terme "cipher" peut revêtir plusieurs significations. Dans le nom "Beale ciphers", il est l'abréviation de ciphertexts, c'est-à-dire "texte chiffré" en français.
+Malgré des instructions claires, Morriss n'a pas ouvert la boîte en mai 1832 et le mystérieux ami de Beale ne s'est jamais manifesté en juin de la même année. Ce n'est qu'en 1845 que l'aubergiste se décide enfin à ouvrir la boîte. Morriss y trouve une note expliquant comment Beale et ses associés ont découvert de l'or et de l'argent dans l'Ouest et les ont enterrés, ainsi que des bijoux, pour les mettre en sécurité. En outre, la boîte contenait trois **textes chiffrés**, c'est-à-dire des textes écrits en code qui nécessitent une **clé cryptographique**, ou un secret, et un algorithme pour les déverrouiller. Ce processus de déverrouillage d'un texte chiffré est appelé **déchiffrement**, tandis que le processus de verrouillage est appelé **chiffrement**. Comme expliqué au chapitre 3, le terme "cipher" peut revêtir plusieurs significations. Dans le nom "Beale ciphers", il est l'abréviation de ciphertexts, c'est-à-dire "texte chiffré" en français.
 
 Les trois textes chiffrés que Morriss a trouvés dans la boîte en fer consistent chacun en une série de chiffres séparés par des virgules. Selon la note de Beale, ces textes chiffrés fournissent séparément l'emplacement du trésor, le contenu du trésor et une liste de noms avec les héritiers légitimes du trésor et leurs parts (cette dernière information étant pertinente au cas où Beale et ses associés ne viendraient jamais réclamer la boîte).
 
@@ -111,7 +111,7 @@ Morris a tenté de déchiffrer les trois textes chiffrés pendant vingt ans. Ave
 
 Vers la fin de sa vie, Morriss a transmis la boîte à un ami en 1862. Cet ami a ensuite publié un pamphlet en 1885, sous le pseudonyme de J.B. Ward. Il y décrit l'histoire (supposée) de la boîte, les trois textes chiffrés et la solution qu'il a trouvée pour le deuxième texte chiffré. (Apparemment, il existe une clé pour chaque texte chiffré, et non une clé qui fonctionne pour les trois textes chiffrés, comme Beale semble l'avoir suggéré à l'origine dans sa lettre à Morriss)
 
-Vous pouvez voir le deuxième texte chiffré dans la *Figure 2* ci-dessous. [La clé de ce texte chiffré est la Déclaration d'indépendance des États-Unis. La procédure de décryptage se résume à l'application des deux règles suivantes :
+Vous pouvez voir le deuxième texte chiffré dans la *Figure 2* ci-dessous. [La clé de ce texte chiffré est la Déclaration d'indépendance des États-Unis. La procédure de déchiffrement se résume à l'application des deux règles suivantes :
 
 
 - Pour tout nombre n dans le texte chiffré, trouver le nième mot de la Déclaration d'indépendance des États-Unis
@@ -123,7 +123,7 @@ Vous pouvez voir le deuxième texte chiffré dans la *Figure 2* ci-dessous. [La 
 
 Par exemple, le premier chiffre du deuxième texte chiffré est 115. Le 115e mot de la Déclaration d'indépendance étant "institué", la première lettre du texte en clair est "i" Le texte chiffré n'indique pas directement l'espacement des mots et les majuscules. Mais après avoir déchiffré les premiers mots, vous pouvez logiquement en déduire que le premier mot du texte en clair était simplement "I" (Le texte en clair commence par la phrase "I have deposited in the county of Bedford")
 
-Après décryptage, le second message fournit le contenu détaillé du trésor (or, argent et bijoux) et suggère qu'il a été enterré dans des pots en fer et recouvert de pierres dans le comté de Bedford (Virginie). Les gens adorent les mystères, c'est pourquoi de grands efforts ont été déployés pour déchiffrer les deux autres codes de Beale, en particulier celui décrivant l'emplacement du trésor. Plusieurs cryptographes de renom se sont même essayés à leur tâche. Cependant, personne n'a encore réussi à déchiffrer les deux autres textes chiffrés.
+Après déchiffrement, le second message fournit le contenu détaillé du trésor (or, argent et bijoux) et suggère qu'il a été enterré dans des pots en fer et recouvert de pierres dans le comté de Bedford (Virginie). Les gens adorent les mystères, c'est pourquoi de grands efforts ont été déployés pour déchiffrer les deux autres codes de Beale, en particulier celui décrivant l'emplacement du trésor. Plusieurs cryptographes de renom se sont même essayés à leur tâche. Cependant, personne n'a encore réussi à déchiffrer les deux autres textes chiffrés.
 
 **Notes:**
 
@@ -137,7 +137,7 @@ Après décryptage, le second message fournit le contenu détaillé du trésor (
 
 La plupart d'entre nous associent la cryptographie à des histoires pittoresques comme celle des chiffres de Beale. Pourtant, la cryptographie moderne diffère de ces exemples historiques sur au moins quatre points importants.
 
-Tout d'abord, historiquement, la cryptographie ne s'est intéressée qu'au **secret** (ou à la confidentialité)[3]. [Les textes chiffrés sont créés pour garantir que seules certaines parties peuvent avoir accès aux informations contenues dans les textes en clair, comme dans le cas des algorithmes de chiffrement de Beale. Pour qu'un système de chiffrement serve bien cet objectif, le décryptage du texte chiffré ne doit être possible que si l'on possède la clé.
+Tout d'abord, historiquement, la cryptographie ne s'est intéressée qu'au **secret** (ou à la confidentialité)[3]. [Les textes chiffrés sont créés pour garantir que seules certaines parties peuvent avoir accès aux informations contenues dans les textes en clair, comme dans le cas des algorithmes de chiffrement de Beale. Pour qu'un système de chiffrement serve bien cet objectif, le déchiffrement du texte chiffré ne doit être possible que si l'on possède la clé.
 
 La cryptographie moderne s'intéresse à un éventail de thèmes plus large que le simple secret. Ces thèmes comprennent principalement (1) **l'intégrité du message**, c'est-à-dire l'assurance qu'un message n'a pas été modifié ; (2) **l'authenticité du message**, c'est-à-dire l'assurance qu'un message provient réellement d'un expéditeur particulier ; et (3) **la non-répudiation**, c'est-à-dire l'assurance qu'un expéditeur ne peut pas nier à tort plus tard qu'il a envoyé un message[4]. [4]
 
@@ -988,7 +988,7 @@ Nous pouvons définir librement un **système de chiffrement symétrique** comme
 
 2. Un **algorithme de chiffrement**, qui prend la clé privée et un texte en clair comme entrées et produit un texte chiffré.
 
-3. Un **algorithme de décryptage**, qui prend la clé privée et le texte chiffré comme entrées et produit le texte en clair original.
+3. Un **algorithme de déchiffrement**, qui prend la clé privée et le texte chiffré comme entrées et produit le texte en clair original.
 
 Généralement, un schéma de chiffrement - symétrique ou asymétrique - offre un modèle de chiffrement basé sur un algorithme de base, plutôt qu'une spécification exacte.
 
@@ -1036,9 +1036,9 @@ Supposons un dictionnaire *D* qui assimile toutes les lettres de l'alphabet angl
     - Convertir chaque $m_i$ en lettre selon *D*
     - Combinez ensuite $m_0, m_1, \dots, m_l$ pour obtenir le message original $m$
 
-Ce qui fait du chiffrement par décalage un système de chiffrement symétrique, c'est que la même clé est utilisée à la fois pour le processus de chiffrement et de déchiffrement. Supposons, par exemple, que vous souhaitiez chiffrer le message "DOG" à l'aide du chiffrement par décalage et que vous choisissiez au hasard "24" comme clé. En chiffrant le message avec cette clé, vous obtiendrez "BME". Le seul moyen de retrouver le message original est d'utiliser la même clé, "24", pour le décryptage.
+Ce qui fait du chiffrement par décalage un système de chiffrement symétrique, c'est que la même clé est utilisée à la fois pour le processus de chiffrement et de déchiffrement. Supposons, par exemple, que vous souhaitiez chiffrer le message "DOG" à l'aide du chiffrement par décalage et que vous choisissiez au hasard "24" comme clé. En chiffrant le message avec cette clé, vous obtiendrez "BME". Le seul moyen de retrouver le message original est d'utiliser la même clé, "24", pour le déchiffrement.
 
-Ce chiffre de Shift est un exemple de **chiffre de substitution monoalphabétique** : un système de chiffrement dans lequel l'alphabet du texte chiffré est fixe (c'est-à-dire qu'un seul alphabet est utilisé). En supposant que l'algorithme de décryptage soit déterministe, chaque symobole du texte chiffré de substitution peut au maximum correspondre à un symbole du texte en clair.
+Ce chiffre de Shift est un exemple de **chiffre de substitution monoalphabétique** : un système de chiffrement dans lequel l'alphabet du texte chiffré est fixe (c'est-à-dire qu'un seul alphabet est utilisé). En supposant que l'algorithme de déchiffrement soit déterministe, chaque symobole du texte chiffré de substitution peut au maximum correspondre à un symbole du texte en clair.
 
 Jusque dans les années 1700, de nombreuses applications de chiffrement reposaient largement sur des algorithmes de substitution monoalphabétique, bien que ceux-ci fussent souvent beaucoup plus complexes que l'algorithme de Shift. On pouvait, par exemple, choisir au hasard une lettre de l'alphabet pour chaque lettre du texte original, sous réserve que chaque lettre n'apparaisse qu'une seule fois dans l'alphabet du texte chiffré. Cela signifie que vous auriez 26 clés privées possibles, ce qui était énorme à l'époque où les ordinateurs n'existaient pas encore.
 
@@ -1048,7 +1048,7 @@ Dans certains cas, il fait référence à un schéma de chiffrement, comme c'est
 
 Enfin, le terme "chiffre" peut également désigner un algorithme de base à partir duquel il est possible de construire des schémas cryptographiques. Il peut s'agir de divers algorithmes de chiffrement, mais aussi d'autres types de schémas cryptographiques. Ce sens du terme devient pertinent dans le contexte des chiffrements par blocs (voir la section "Chiffrages par blocs" ci-dessous).
 
-Vous pouvez également rencontrer les termes **chiffrer** ou **déchiffrer**. Ces termes sont simplement des synonymes de chiffrement et de décryptage.
+Vous pouvez également rencontrer les termes **chiffrer** ou **déchiffrer**. Ces termes sont simplement des synonymes de chiffrement et de déchiffrement.
 
 ## Attaques par force brute et principe de Kerckhoff
 
@@ -1108,7 +1108,7 @@ Examinons tout d'abord les algorithmes de chiffrement de flux. Un **chiffrement 
 
 Tout d'abord, une chaîne de la longueur du texte en clair est produite à l'aide d'une clé privée. Cette chaîne est appelée **keystream**.
 
-Ensuite, le flux de clés est combiné mathématiquement avec le texte en clair pour produire un texte chiffré. Cette combinaison est généralement une opération XOR. Pour le décryptage, il suffit d'inverser l'opération. (Notez que $A \oplus B = B \oplus A$, dans le cas où $A$ et $B$ sont des chaînes de bits. L'ordre d'une opération XOR dans un chiffrement de flux n'a donc pas d'importance pour le résultat. Cette propriété est connue sous le nom de **commutativité**)
+Ensuite, le flux de clés est combiné mathématiquement avec le texte en clair pour produire un texte chiffré. Cette combinaison est généralement une opération XOR. Pour le déchiffrement, il suffit d'inverser l'opération. (Notez que $A \oplus B = B \oplus A$, dans le cas où $A$ et $B$ sont des chaînes de bits. L'ordre d'une opération XOR dans un chiffrement de flux n'a donc pas d'importance pour le résultat. Cette propriété est connue sous le nom de **commutativité**)
 
 Un algorithme de chiffrement XOR typique est illustré à la *figure 3*. Vous prenez d'abord une clé privée $K$ et l'utilisez pour générer un flux de clés. Le flux de clés est ensuite combiné au texte en clair par une opération XOR pour produire le texte chiffré. Tout agent qui reçoit le texte chiffré peut facilement le déchiffrer s'il possède la clé $K$. Il lui suffit de créer un flux de clés aussi long que le texte chiffré conformément à la procédure spécifiée dans le système et de l'associer au texte chiffré par une opération XOR.
 
@@ -1122,7 +1122,7 @@ Le chiffrement par décalage est un exemple de chiffrement de flux très simple 
 
 Un autre exemple célèbre de chiffrement par flux est le **chiffrement de Vigenere**, d'après Blaise de Vigenere qui l'a entièrement mis au point à la fin du XVIe siècle (bien que d'autres aient effectué de nombreux travaux antérieurs). Il s'agit d'un exemple de **chiffrement par substitution polyalphabétique** : un système de chiffrement dans lequel l'alphabet du texte chiffré pour un symbole du texte clair change en fonction de sa position dans le texte. Contrairement au chiffrement par substitution monoalphabétique, les symboles du texte chiffré peuvent être associés à plus d'un symbole du texte en clair.
 
-Alors que le chiffrement gagnait en popularité dans l'Europe de la Renaissance, l'**analyse cryptographique**, c'est-à-dire le décryptage des textes chiffrés, gagnait également en popularité, en particulier grâce à l'**analyse de fréquence**. Cette dernière utilise les régularités statistiques de notre langue pour déchiffrer les textes chiffrés et a été découverte par les érudits arabes dès le IXe siècle. C'est une technique qui fonctionne particulièrement bien avec les textes longs. Dans les années 1700, en Europe, même les chiffres de substitution monoalphabétiques les plus sophistiqués n'étaient plus suffisants pour résister à l'analyse de fréquence, en particulier dans le domaine militaire et de la sécurité. Comme le chiffre de Vigenere offrait une avancée significative en matière de sécurité, il est devenu populaire à cette époque et s'est répandu à la fin des années 1700.
+Alors que le chiffrement gagnait en popularité dans l'Europe de la Renaissance, l'**analyse cryptographique**, c'est-à-dire le déchiffrement des textes chiffrés, gagnait également en popularité, en particulier grâce à l'**analyse de fréquence**. Cette dernière utilise les régularités statistiques de notre langue pour déchiffrer les textes chiffrés et a été découverte par les érudits arabes dès le IXe siècle. C'est une technique qui fonctionne particulièrement bien avec les textes longs. Dans les années 1700, en Europe, même les chiffres de substitution monoalphabétiques les plus sophistiqués n'étaient plus suffisants pour résister à l'analyse de fréquence, en particulier dans le domaine militaire et de la sécurité. Comme le chiffre de Vigenere offrait une avancée significative en matière de sécurité, il est devenu populaire à cette époque et s'est répandu à la fin des années 1700.
 
 De manière informelle, le système de chiffrement fonctionne de la manière suivante :
 
@@ -1158,7 +1158,7 @@ Alors que le chiffrement Shift et le chiffrement Vigenere sont très peu sûrs �
 
 La ligne directe est un lien de communication direct entre Washington et Moscou pour les questions urgentes. Elle a été mise en place après la crise des missiles de Cuba. La technologie utilisée s'est transformée au fil des ans. Actuellement, elle comprend un câble direct en fibre optique ainsi que deux liaisons par satellite (pour la redondance), qui permettent l'envoi de courriels et de messages textuels. La liaison aboutit à différents endroits aux États-Unis. Le Pentagone, la Maison Blanche et le mont Raven Rock sont des points d'arrivée connus. Contrairement à l'opinion générale, la ligne directe n'a jamais impliqué de téléphone.
 
-Pour l'essentiel, le système du pavé numérique à usage unique fonctionnait de la manière suivante. Washington et Moscou disposaient de deux séries de nombres aléatoires. Une série de nombres aléatoires, créée par les Russes, concernait le chiffrement et le décryptage de tous les messages en langue russe. Une série de nombres aléatoires, créée par les Américains, concerne le chiffrement et le décryptage de tout message en langue anglaise. De temps à autre, d'autres nombres aléatoires étaient livrés à l'autre partie par des courriers de confiance.
+Pour l'essentiel, le système du pavé numérique à usage unique fonctionnait de la manière suivante. Washington et Moscou disposaient de deux séries de nombres aléatoires. Une série de nombres aléatoires, créée par les Russes, concernait le chiffrement et le déchiffrement de tous les messages en langue russe. Une série de nombres aléatoires, créée par les Américains, concerne le chiffrement et le déchiffrement de tout message en langue anglaise. De temps à autre, d'autres nombres aléatoires étaient livrés à l'autre partie par des courriers de confiance.
 
 Washington et Moscou ont donc pu communiquer secrètement en utilisant ces nombres aléatoires pour créer des codes à usage unique. Chaque fois que vous deviez communiquer, vous utilisiez la portion suivante de nombres aléatoires pour votre message.
 
@@ -1172,7 +1172,7 @@ Cette clé aléatoire $K$ est ensuite insérée dans un algorithme d'expansion q
 
 Un flux de clés pseudo-aléatoire apparaît *comme s'il avait été choisi de manière totalement aléatoire dans l'ensemble des chaînes de caractères de même longueur. Par conséquent, le chiffrement à l'aide d'un flux de clés pseudo-aléatoire apparaît comme s'il avait été effectué à l'aide d'un bloc-notes à usage unique. Mais ce n'est évidemment pas le cas.
 
-Comme notre clé privée est plus courte que le flux de clés et que notre algorithme expansionniste doit être déterministe pour que le processus de chiffrement/décryptage fonctionne, tous les flux de clés de cette longueur particulière n'auraient pas pu être obtenus en sortie de notre opération expansionniste.
+Comme notre clé privée est plus courte que le flux de clés et que notre algorithme expansionniste doit être déterministe pour que le processus de chiffrement/déchiffrement fonctionne, tous les flux de clés de cette longueur particulière n'auraient pas pu être obtenus en sortie de notre opération expansionniste.
 
 Supposons, par exemple, que notre clé privée ait une longueur de 128 bits et que nous puissions l'insérer dans un algorithme expansionniste pour créer un flux de clés beaucoup plus long, disons de 2 500 bits. Comme notre algorithme expansionniste doit être déterministe, il peut au maximum sélectionner des chaînes de $1/2^{128}$ d'une longueur de 2 500 bits. Un tel flux de clés ne peut donc jamais être sélectionné de manière entièrement aléatoire parmi toutes les chaînes de même longueur.
 
@@ -1212,7 +1212,7 @@ Le processus de chiffrement du livre de code électronique à l'aide du chiffrem
 
 Divisez maintenant les données en morceaux de chaînes de 128 bits ($M_1$, $M_2$, $M_3$, etc.). Faites passer chaque chaîne de 128 bits par le système de chiffrement par blocs avec votre clé de 128 bits pour produire des morceaux de texte chiffré de 128 bits ($C_1$, $C_2$, $C_3$, etc.). Ces morceaux, une fois recombinés, forment le texte chiffré complet.
 
-Le décryptage est simplement le processus inverse, bien que le destinataire ait besoin d'un moyen reconnaissable pour retirer tout élément de remplissage des données décryptées afin de produire le message en clair d'origine.
+Le déchiffrement est simplement le processus inverse, bien que le destinataire ait besoin d'un moyen reconnaissable pour retirer tout élément de remplissage des données décryptées afin de produire le message en clair d'origine.
 
 Bien que relativement simple, le chiffrement par blocs en mode livre de code électronique manque de sécurité. En effet, il conduit à un **chiffrement déterministe**. Deux chaînes de données identiques de 128 bits sont cryptées exactement de la même manière. Cette information peut être exploitée.
 
@@ -1842,7 +1842,7 @@ Alice crée d'abord une paire de clés, composée d'une clé publique ($K_P$) et
 
 ![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
 
-Tout adversaire qui écoute les communications de Bob et Alice peut observer $C$. Il connaît également $K_P$ et l'algorithme de chiffrement $E(\cdot)$. Il est important de noter que ces informations ne permettent pas à l'attaquant de déchiffrer le texte chiffré $C$. Le décryptage nécessite spécifiquement $K_S$, que l'attaquant ne possède pas.
+Tout adversaire qui écoute les communications de Bob et Alice peut observer $C$. Il connaît également $K_P$ et l'algorithme de chiffrement $E(\cdot)$. Il est important de noter que ces informations ne permettent pas à l'attaquant de déchiffrer le texte chiffré $C$. Le déchiffrement nécessite spécifiquement $K_S$, que l'attaquant ne possède pas.
 
 Les systèmes de chiffrement symétrique doivent généralement être sécurisés contre un attaquant qui peut chiffrer valablement les messages en clair (ce que l'on appelle la sécurité de l'attaque par texte chiffré choisi). Ils ne sont toutefois pas conçus dans le but explicite de permettre la création de tels textes chiffrés valides par un attaquant ou toute autre personne.
 
@@ -2304,6 +2304,7 @@ Néanmoins, en ajoutant un peu de complexité intelligente, le problème RSA peu
 ## Conclusion
 <chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+
 
 
 

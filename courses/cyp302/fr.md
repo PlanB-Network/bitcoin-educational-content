@@ -68,7 +68,7 @@ Veuillez consulter [le fichier des contributions dans le dépôt](https://github
 
 **Termes clés:**
 
-Les termes clés des abécédaires sont introduits en les mettant en gras. Par exemple, l'introduction du cryptogramme Rijndael en tant que terme clé se présenterait comme suit : **Chiffrement Rijndael**.
+Les termes clés des abécédaires sont introduits en les mettant en gras. Par exemple, l'introduction du chiffrement Rijndael en tant que terme clé se présenterait comme suit : **Chiffrement Rijndael**.
 
 Les termes clés sont explicitement définis, sauf s'il s'agit de noms propres ou si leur signification est évidente dans la discussion.
 
@@ -103,11 +103,11 @@ Au cours des hivers 1820 et 1822, un homme nommé Thomas J. Beale a séjourné d
 
 Quelques mois plus tard, Morriss reçoit une lettre de Beale datée du 9 mai 1822. Elle souligne la grande valeur du contenu de la boîte en fer et donne quelques instructions à Morriss : si ni Beale ni aucun de ses associés ne viennent jamais réclamer la boîte, il devra l'ouvrir exactement dix ans après la date de la lettre (c'est-à-dire le 9 mai 1832). Certains des papiers à l'intérieur seraient écrits en texte normal. Plusieurs autres, en revanche, seraient "inintelligibles sans le secours d'une clef" Cette "clé" sera donc remise à Morriss par un ami anonyme de Beale en juin 1832.
 
-Malgré des instructions claires, Morriss n'a pas ouvert la boîte en mai 1832 et le mystérieux ami de Beale ne s'est jamais manifesté en juin de la même année. Ce n'est qu'en 1845 que l'aubergiste se décide enfin à ouvrir la boîte. Morriss y trouve une note expliquant comment Beale et ses associés ont découvert de l'or et de l'argent dans l'Ouest et les ont enterrés, ainsi que des bijoux, pour les mettre en sécurité. En outre, la boîte contenait trois **ciphertextes**, c'est-à-dire des textes écrits en code qui nécessitent une **clé cryptographique**, ou un secret, et un algorithme pour les déverrouiller. Ce processus de déverrouillage d'un texte chiffré est appelé **décryptage**, tandis que le processus de verrouillage est appelé **chiffrement**. (Comme expliqué au chapitre 3, le terme "chiffrement" peut revêtir plusieurs significations. Dans le nom "Beale ciphers", il est l'abréviation de ciphertexts)
+Malgré des instructions claires, Morriss n'a pas ouvert la boîte en mai 1832 et le mystérieux ami de Beale ne s'est jamais manifesté en juin de la même année. Ce n'est qu'en 1845 que l'aubergiste se décide enfin à ouvrir la boîte. Morriss y trouve une note expliquant comment Beale et ses associés ont découvert de l'or et de l'argent dans l'Ouest et les ont enterrés, ainsi que des bijoux, pour les mettre en sécurité. En outre, la boîte contenait trois **textes chiffrés**, c'est-à-dire des textes écrits en code qui nécessitent une **clé cryptographique**, ou un secret, et un algorithme pour les déverrouiller. Ce processus de déverrouillage d'un texte chiffré est appelé **décryptage**, tandis que le processus de verrouillage est appelé **chiffrement**. Comme expliqué au chapitre 3, le terme "cipher" peut revêtir plusieurs significations. Dans le nom "Beale ciphers", il est l'abréviation de ciphertexts, c'est-à-dire "texte chiffré" en français.
 
 Les trois textes chiffrés que Morriss a trouvés dans la boîte en fer consistent chacun en une série de chiffres séparés par des virgules. Selon la note de Beale, ces textes chiffrés fournissent séparément l'emplacement du trésor, le contenu du trésor et une liste de noms avec les héritiers légitimes du trésor et leurs parts (cette dernière information étant pertinente au cas où Beale et ses associés ne viendraient jamais réclamer la boîte).
 
-Morris a tenté de décrypter les trois textes chiffrés pendant vingt ans. Avec la clé, cela aurait été facile. Mais Morriss n'avait pas la clé et n'a pas réussi à récupérer les textes originaux, ou **plaintexts**, comme on les appelle généralement en cryptographie.
+Morris a tenté de déchiffrer les trois textes chiffrés pendant vingt ans. Avec la clé, cela aurait été facile. Mais Morriss n'avait pas la clé et n'a pas réussi à récupérer les textes originaux, ou **plaintexts**, comme on les appelle généralement en cryptographie.
 
 Vers la fin de sa vie, Morriss a transmis la boîte à un ami en 1862. Cet ami a ensuite publié un pamphlet en 1885, sous le pseudonyme de J.B. Ward. Il y décrit l'histoire (supposée) de la boîte, les trois textes chiffrés et la solution qu'il a trouvée pour le deuxième texte chiffré. (Apparemment, il existe une clé pour chaque texte chiffré, et non une clé qui fonctionne pour les trois textes chiffrés, comme Beale semble l'avoir suggéré à l'origine dans sa lettre à Morriss)
 
@@ -121,9 +121,9 @@ Vous pouvez voir le deuxième texte chiffré dans la *Figure 2* ci-dessous. [La 
 
 ![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
 
-Par exemple, le premier chiffre du deuxième texte chiffré est 115. Le 115e mot de la Déclaration d'indépendance étant "institué", la première lettre du texte en clair est "i" Le texte chiffré n'indique pas directement l'espacement des mots et les majuscules. Mais après avoir décrypté les premiers mots, vous pouvez logiquement en déduire que le premier mot du texte en clair était simplement "I" (Le texte en clair commence par la phrase "I have deposited in the county of Bedford")
+Par exemple, le premier chiffre du deuxième texte chiffré est 115. Le 115e mot de la Déclaration d'indépendance étant "institué", la première lettre du texte en clair est "i" Le texte chiffré n'indique pas directement l'espacement des mots et les majuscules. Mais après avoir déchiffré les premiers mots, vous pouvez logiquement en déduire que le premier mot du texte en clair était simplement "I" (Le texte en clair commence par la phrase "I have deposited in the county of Bedford")
 
-Après décryptage, le second message fournit le contenu détaillé du trésor (or, argent et bijoux) et suggère qu'il a été enterré dans des pots en fer et recouvert de pierres dans le comté de Bedford (Virginie). Les gens adorent les mystères, c'est pourquoi de grands efforts ont été déployés pour décrypter les deux autres codes de Beale, en particulier celui décrivant l'emplacement du trésor. Plusieurs cryptographes de renom se sont même essayés à leur tâche. Cependant, personne n'a encore réussi à décrypter les deux autres textes chiffrés.
+Après décryptage, le second message fournit le contenu détaillé du trésor (or, argent et bijoux) et suggère qu'il a été enterré dans des pots en fer et recouvert de pierres dans le comté de Bedford (Virginie). Les gens adorent les mystères, c'est pourquoi de grands efforts ont été déployés pour déchiffrer les deux autres codes de Beale, en particulier celui décrivant l'emplacement du trésor. Plusieurs cryptographes de renom se sont même essayés à leur tâche. Cependant, personne n'a encore réussi à déchiffrer les deux autres textes chiffrés.
 
 **Notes:**
 
@@ -145,7 +145,7 @@ Il est donc important de faire la distinction entre un **système de chiffrement
 
 Les thèmes de l'intégrité et de l'authenticité sont tout aussi importants que le secret. Nos systèmes de communication modernes ne pourraient pas fonctionner sans garanties concernant l'intégrité et l'authenticité des communications. La non-répudiation est également une préoccupation importante, par exemple pour les contrats numériques, mais elle est moins omniprésente dans les applications cryptographiques que le secret, l'intégrité et l'authenticité.
 
-Deuxièmement, les systèmes de chiffrement classiques, tels que les algorithmes de Beale, impliquent toujours une clé partagée entre toutes les parties concernées. Cependant, de nombreux schémas cryptographiques modernes impliquent non pas une, mais deux clés : une **clé privée** et une **clé publique**. Alors que la première doit rester privée dans toutes les applications, la seconde est généralement connue du public (d'où leurs noms respectifs). Dans le domaine du chiffrement, la clé publique peut être utilisée pour crypter le message, tandis que la clé privée peut être utilisée pour le décrypter.
+Deuxièmement, les systèmes de chiffrement classiques, tels que les algorithmes de Beale, impliquent toujours une clé partagée entre toutes les parties concernées. Cependant, de nombreux schémas cryptographiques modernes impliquent non pas une, mais deux clés : une **clé privée** et une **clé publique**. Alors que la première doit rester privée dans toutes les applications, la seconde est généralement connue du public (d'où leurs noms respectifs). Dans le domaine du chiffrement, la clé publique peut être utilisée pour chiffrer le message, tandis que la clé privée peut être utilisée pour le déchiffrer.
 
 La branche de la cryptographie qui traite des systèmes dans lesquels toutes les parties partagent une clé est connue sous le nom de **cryptographie symétrique**. La clé unique dans ce type de système est généralement appelée **clé privée** (ou clé secrète). La branche de la cryptographie qui traite des systèmes nécessitant une paire de clés privée-publique est connue sous le nom de **cryptographie asymétrique**. Ces branches sont parfois appelées respectivement **cryptographie à clé privée** et **cryptographie à clé publique** (bien que cela puisse prêter à confusion, car les systèmes de cryptographie à clé publique ont également des clés privées).
 
@@ -451,9 +451,9 @@ Sans parenthèses, l'opération modulo agit sur les *deux côtés* d'une express
 
 La branche des mathématiques qui implique des opérations modulo sur les nombres et les expressions est appelée **arithmétique modulaire**. On peut considérer cette branche comme l'arithmétique pour les cas où la ligne des nombres n'est pas infiniment longue. Bien que les opérations modulo sur les nombres entiers (positifs) soient généralement utilisées en cryptographie, il est également possible d'effectuer des opérations modulo sur n'importe quel nombre réel.
 
-### Le cryptogramme à décalage
+### Le chiffrement par décalage
 
-L'opération modulo est fréquemment rencontrée en cryptographie. Pour l'illustrer, considérons l'un des systèmes de chiffrement historiques les plus célèbres : le cryptogramme à décalage.
+L'opération modulo est fréquemment rencontrée en cryptographie. Pour l'illustrer, considérons l'un des systèmes de chiffrement historiques les plus célèbres : le chiffrement par décalage.
 
 Commençons par la définir. Supposons un dictionnaire *D* qui assimile toutes les lettres de l'alphabet anglais, dans l'ordre, à l'ensemble des nombres $\{0, 1, 2, \ldots, 25\}$. Supposons un espace de messages **M**. Le **chiffrement par décalage** est donc un système de chiffrement défini comme suit :
 
@@ -465,7 +465,7 @@ Commençons par la définir. Supposons un dictionnaire *D* qui assimile toutes l
     - Pour chaque $m_i$, $c_i = [(m_i + k) \mod 26]$
     - Convertir chaque $c_i$ en lettre selon *D*
     - Combinez ensuite $c_0, c_1, \ldots, c_l$ pour obtenir le texte chiffré $c$
-- Décrypter un texte chiffré $c$ comme suit :
+- Déchiffrer un texte chiffré $c$ comme suit :
     - Convertir chaque $c_i$ en un nombre selon *D*
     - Pour chaque $c_i$, $m_i = [(c_i - k) \mod 26]$
     - Convertir chaque $m_i$ en lettre selon *D*
@@ -484,7 +484,7 @@ Le chiffrement complet du mot "DOG" avec une valeur de clé de 17 est le suivant
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
 - $c = UGX$
 
-Tout le monde peut comprendre intuitivement le fonctionnement du cryptogramme à décalage et probablement l'utiliser lui-même. Toutefois, pour progresser dans la connaissance de la cryptographie, il est important de commencer à se familiariser avec la formalisation, car les schémas deviennent alors beaucoup plus difficiles. C'est pourquoi les étapes du chiffrement par décalage ont été formalisées.
+Tout le monde peut comprendre intuitivement le fonctionnement du chiffrement par décalage et probablement l'utiliser lui-même. Toutefois, pour progresser dans la connaissance de la cryptographie, il est important de commencer à se familiariser avec la formalisation, car les schémas deviennent alors beaucoup plus difficiles. C'est pourquoi les étapes du chiffrement par décalage ont été formalisées.
 
 **Notes:**
 
@@ -1030,13 +1030,13 @@ Supposons un dictionnaire *D* qui assimile toutes les lettres de l'alphabet angl
     - Pour chaque $m_i$, $c_i = [(m_i + k) \mod 26]$
     - Convertir chaque $c_i$ en lettre selon *D*
     - Combinez ensuite $c_0, c_1,\dots, c_l$ pour obtenir le texte chiffré $c$
-- Décrypter un texte chiffré $c$ comme suit :
+- Déchiffrer un texte chiffré $c$ comme suit :
     - Convertir chaque $c_i$ en un nombre selon *D*
     - Pour chaque $c_i$, $m_i = [(c_i - k) \mod 26]$
     - Convertir chaque $m_i$ en lettre selon *D*
     - Combinez ensuite $m_0, m_1, \dots, m_l$ pour obtenir le message original $m$
 
-Ce qui fait du chiffrement par décalage un système de chiffrement symétrique, c'est que la même clé est utilisée à la fois pour le processus de chiffrement et de déchiffrement. Supposons, par exemple, que vous souhaitiez crypter le message "DOG" à l'aide du chiffrement par décalage et que vous choisissiez au hasard "24" comme clé. En chiffrant le message avec cette clé, vous obtiendrez "BME". Le seul moyen de retrouver le message original est d'utiliser la même clé, "24", pour le décryptage.
+Ce qui fait du chiffrement par décalage un système de chiffrement symétrique, c'est que la même clé est utilisée à la fois pour le processus de chiffrement et de déchiffrement. Supposons, par exemple, que vous souhaitiez chiffrer le message "DOG" à l'aide du chiffrement par décalage et que vous choisissiez au hasard "24" comme clé. En chiffrant le message avec cette clé, vous obtiendrez "BME". Le seul moyen de retrouver le message original est d'utiliser la même clé, "24", pour le décryptage.
 
 Ce chiffre de Shift est un exemple de **chiffre de substitution monoalphabétique** : un système de chiffrement dans lequel l'alphabet du texte chiffré est fixe (c'est-à-dire qu'un seul alphabet est utilisé). En supposant que l'algorithme de décryptage soit déterministe, chaque symobole du texte chiffré de substitution peut au maximum correspondre à un symbole du texte en clair.
 
@@ -1054,11 +1054,11 @@ Vous pouvez également rencontrer les termes **chiffrer** ou **déchiffrer**. Ce
 
 <chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
 
-Le chiffrement par décalage est un système de chiffrement symétrique très peu sûr, du moins dans le monde moderne[1]. [Un attaquant pourrait simplement tenter de décrypter n'importe quel texte chiffré avec les 26 clés possibles pour voir quel résultat a du sens. Ce type d'attaque, où l'attaquant se contente de parcourir les clés pour voir ce qui fonctionne, est connu sous le nom d'attaque **brute force** ou **recherche exhaustive de clés**.
+Le chiffrement par décalage est un système de chiffrement symétrique très peu sûr, du moins dans le monde moderne[1]. [Un attaquant pourrait simplement tenter de déchiffrer n'importe quel texte chiffré avec les 26 clés possibles pour voir quel résultat a du sens. Ce type d'attaque, où l'attaquant se contente de parcourir les clés pour voir ce qui fonctionne, est connu sous le nom d'attaque **brute force** ou **recherche exhaustive de clés**.
 
 Pour qu'un système de chiffrement réponde à une notion minimale de sécurité, il doit disposer d'un ensemble de clés possibles, ou **espace clé**, si vaste que les attaques par force brute sont infaisables. Tous les systèmes de chiffrement modernes répondent à cette norme. C'est ce qu'on appelle le **principe de l'espace de clés suffisant**. Un principe similaire s'applique généralement à différents types de systèmes cryptographiques.
 
-Pour avoir une idée de la taille de l'espace clé des systèmes de chiffrement modernes, supposons qu'un fichier ait été crypté avec une clé de 128 bits à l'aide de la norme de chiffrement avancée. Cela signifie qu'un attaquant dispose d'un ensemble de $2^{128}$ clés qu'il doit parcourir pour effectuer une attaque par force brute. Pour avoir 0,78 % de chances de réussir avec cette stratégie, l'attaquant doit parcourir environ 2,65 \Nfois 10^{36}$ clés.
+Pour avoir une idée de la taille de l'espace clé des systèmes de chiffrement modernes, supposons qu'un fichier ait été chiffré avec une clé de 128 bits à l'aide de la norme de chiffrement avancée. Cela signifie qu'un attaquant dispose d'un ensemble de $2^{128}$ clés qu'il doit parcourir pour effectuer une attaque par force brute. Pour avoir 0,78 % de chances de réussir avec cette stratégie, l'attaquant doit parcourir environ 2,65 \Nfois 10^{36}$ clés.
 
 Supposons, de manière optimiste, qu'un attaquant puisse essayer 10^{16}$ clés par seconde (c'est-à-dire 10 quadrillions de clés par seconde). Pour tester 0,78 % de toutes les clés de l'espace des clés, son attaque devrait durer 2,65 fois 10^{20}$ secondes. Cela représente environ 8,4 billions d'années. Ainsi, même une attaque par force brute menée par un adversaire absurdement puissant n'est pas réaliste avec un système de chiffrement moderne de 128 bits. C'est le principe de l'espace de clés suffisant qui entre en jeu.
 
@@ -1134,7 +1134,7 @@ De manière informelle, le système de chiffrement fonctionne de la manière sui
 
 4. Poursuivre ce processus jusqu'à ce que l'ensemble du message ait été déchiffré.
 
-Pour illustrer, supposons que votre clé privée soit "GOLD" et que vous souhaitiez crypter le message "CRYPTOGRAPHIE". Dans ce cas, vous procédez comme suit selon le chiffrement de Vigenère :
+Pour illustrer, supposons que votre clé privée soit "GOLD" et que vous souhaitiez chiffrer le message "CRYPTOGRAPHIE". Dans ce cas, vous procédez comme suit selon le chiffrement de Vigenère :
 
 
 - $c_0 = [(2 + 6) \mod 26] = 8 = I$$
@@ -1226,9 +1226,9 @@ Le **mode de chaînage de blocs de chiffrement** (**mode CBC**) est probablement
 
 Supposons que la taille du bloc soit à nouveau de 128 bits. Pour commencer, vous devez donc vous assurer que votre message en clair d'origine reçoit le rembourrage nécessaire.
 
-Ensuite, vous faites un XOR entre la première partie de 128 bits de votre texte en clair et un **vecteur d'initialisation** de 128 bits. Le résultat est placé dans le chiffrement par blocs pour produire un texte chiffré pour le premier bloc. Pour le deuxième bloc de 128 bits, vous devez d'abord faire un XOR entre le texte en clair et le texte chiffré du premier bloc, avant de l'insérer dans le système de chiffrement par blocs. Vous continuez ce processus jusqu'à ce que vous ayez crypté l'intégralité de votre message en clair.
+Ensuite, vous faites un XOR entre la première partie de 128 bits de votre texte en clair et un **vecteur d'initialisation** de 128 bits. Le résultat est placé dans le chiffrement par blocs pour produire un texte chiffré pour le premier bloc. Pour le deuxième bloc de 128 bits, vous devez d'abord faire un XOR entre le texte en clair et le texte chiffré du premier bloc, avant de l'insérer dans le système de chiffrement par blocs. Vous continuez ce processus jusqu'à ce que vous ayez chiffré l'intégralité de votre message en clair.
 
-Lorsque vous avez terminé, vous envoyez le message crypté avec le vecteur d'initialisation non crypté au destinataire. Le destinataire doit connaître le vecteur d'initialisation, sinon il ne peut pas décrypter le texte chiffré.
+Lorsque vous avez terminé, vous envoyez le message chiffré avec le vecteur d'initialisation non chiffré au destinataire. Le destinataire doit connaître le vecteur d'initialisation, sinon il ne peut pas déchiffrer le texte chiffré.
 
 Cette construction est beaucoup plus sûre que le mode livre de code électronique lorsqu'elle est utilisée correctement. Vous devez tout d'abord vous assurer que le vecteur d'initialisation est une chaîne aléatoire ou pseudo-aléatoire. En outre, vous devez utiliser un vecteur d'initialisation différent chaque fois que vous utilisez ce système de chiffrement.
 
@@ -1298,7 +1298,7 @@ Pourquoi la communication a-t-elle besoin d'autre chose que du secret ? Supposon
 
 2. Elle pourrait bloquer entièrement le message de Bob et envoyer son propre texte chiffré.
 
-Dans ces deux cas, l'attaquant pourrait ne pas avoir d'informations sur le contenu des cryptogrammes (1) et (2). Mais il pourrait tout de même causer des dommages importants de cette manière. C'est là que les codes d'authentification des messages prennent toute leur importance.
+Dans ces deux cas, l'attaquant pourrait ne pas avoir d'informations sur le contenu des textes chiffrés (1) et (2). Mais il pourrait tout de même causer des dommages importants de cette manière. C'est là que les codes d'authentification des messages prennent toute leur importance.
 
 Les codes d'authentification des messages sont définis de manière générale comme des schémas cryptographiques symétriques comportant trois algorithmes : un algorithme de génération de clés, un algorithme de génération de balises et un algorithme de vérification. Un MAC sécurisé garantit que les balises sont **existentiellement infalsifiables** pour tout attaquant, c'est-à-dire qu'il ne peut pas créer avec succès une balise sur le message qui est vérifié, à moins qu'il ne possède la clé privée.
 
@@ -1330,7 +1330,7 @@ Comme un schéma de chiffrement authentifié garantit qu'un texte chiffré cré�
 
 Nous n'entrerons pas dans tous les détails de la construction des systèmes de chiffrement authentifiés. Mais il est important de connaître deux détails de leur construction.
 
-Tout d'abord, un système de chiffrement authentifié traite d'abord le chiffrement et crée ensuite une étiquette de message sur le texte crypté. Il s'avère que d'autres approches, telles que la combinaison du texte chiffré avec une balise sur le texte en clair, ou la création d'une balise puis le chiffrement du texte en clair et de la balise, ne sont pas sûres. En outre, les deux opérations disposent de leur propre clé privée sélectionnée de manière aléatoire, sans quoi votre sécurité est gravement compromise.
+Tout d'abord, un système de chiffrement authentifié traite d'abord le chiffrement et crée ensuite une étiquette de message sur le texte chiffré. Il s'avère que d'autres approches, telles que la combinaison du texte chiffré avec une balise sur le texte en clair, ou la création d'une balise puis le chiffrement du texte en clair et de la balise, ne sont pas sûres. En outre, les deux opérations disposent de leur propre clé privée sélectionnée de manière aléatoire, sans quoi votre sécurité est gravement compromise.
 
 Le principe susmentionné s'applique plus généralement : *vous devez toujours utiliser des clés distinctes lorsque vous combinez des schémas cryptographiques de base*.
 
@@ -1475,7 +1475,7 @@ Nous continuons ce processus jusqu'à ce que nous obtenions la dernière ligne e
 
 ### Étape 4
 
-La quatrième étape consiste à produire le **keystream**. Il s'agit d'une chaîne pseudo-aléatoire d'une longueur égale au message que nous voulons envoyer. Elle sera utilisée pour crypter le message original "SOUP" Comme le flux de clés doit être aussi long que le message, nous en avons besoin d'un de 4 octets.
+La quatrième étape consiste à produire le **keystream**. Il s'agit d'une chaîne pseudo-aléatoire d'une longueur égale au message que nous voulons envoyer. Elle sera utilisée pour chiffrer le message original "SOUP" Comme le flux de clés doit être aussi long que le message, nous en avons besoin d'un de 4 octets.
 
 Le flux de clés est produit par le pseudocode suivant :
 
@@ -1492,11 +1492,11 @@ Vous pouvez suivre les calculs dans le *Tableau 2*.
 
 L'état initial de **S** est $S = [6, 4, 1, 0, 3, 7, 5, 2]$. En fixant $i = 1$, la valeur de **j** devient 4 ($j = (j + S[i]) \mod 8 = (0 + 4) \mod 8 = 4$). Nous échangeons ensuite $S[1]$ et $S[4]$ pour produire la transformation de **S** dans la deuxième ligne, $[6, 3, 1, 0, 4, 7, 5, 2]$. La valeur de **t** est alors 7 ($t = (S[i] + S[j]) \mod 8 = (3 + 4) \mod 8 = 7$). Enfin, l'octet du flux de clés est $S[7]$, soit 2.
 
-Nous continuons ensuite à produire les autres octets jusqu'à ce que nous obtenions les quatre octets suivants : 2, 6, 3 et 7. Chacun de ces octets peut alors être utilisé pour crypter chaque lettre du texte en clair, "SOUP".
+Nous continuons ensuite à produire les autres octets jusqu'à ce que nous obtenions les quatre octets suivants : 2, 6, 3 et 7. Chacun de ces octets peut alors être utilisé pour chiffrer chaque lettre du texte en clair, "SOUP".
 
 Pour commencer, en utilisant une table ASCII, nous pouvons voir que "SOUP" encodé par les valeurs décimales des chaînes d'octets sous-jacentes est "83 79 85 80". La combinaison avec le flux de clés "2 6 3 7" donne "85 85 88 87", qui reste identique après une opération modulo 256. En ASCII, le texte chiffré "85 85 88 87" correspond à "UUXW".
 
-Que se passe-t-il si le mot à crypter est plus long que le tableau **S** ? Dans ce cas, le tableau **S** continue à se transformer de la manière décrite ci-dessus pour chaque octet **i** du texte en clair, jusqu'à ce que le nombre d'octets du flux de clés soit égal au nombre de lettres du texte en clair.
+Que se passe-t-il si le mot à chiffrer est plus long que le tableau **S** ? Dans ce cas, le tableau **S** continue à se transformer de la manière décrite ci-dessus pour chaque octet **i** du texte en clair, jusqu'à ce que le nombre d'octets du flux de clés soit égal au nombre de lettres du texte en clair.
 
 *Tableau 2 : Génération Keystream*
 
@@ -1544,7 +1544,7 @@ Appelons la clé $K_0$. La construction avec les paramètres ci-dessus se prése
 
 ![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
 
-Chaque bloc de texte de 128 bits passe par dix tours dans le schéma de chiffrement Rijndael. Cela nécessite une clé distincte pour chaque tour ($K_1$ à $K_{10}$). Ces clés sont produites à chaque tour à partir de la clé originale de 128 bits $K_0$ à l'aide d'un **algorithme d'expansion de clé**. Par conséquent, pour chaque bloc de texte à chiffrer, nous utiliserons la clé originale $K_0$ ainsi que dix clés distinctes. Notez que ces mêmes 11 clés sont utilisées pour chaque bloc de 128 bits de texte en clair qui doit être crypté.
+Chaque bloc de texte de 128 bits passe par dix tours dans le schéma de chiffrement Rijndael. Cela nécessite une clé distincte pour chaque tour ($K_1$ à $K_{10}$). Ces clés sont produites à chaque tour à partir de la clé originale de 128 bits $K_0$ à l'aide d'un **algorithme d'expansion de clé**. Par conséquent, pour chaque bloc de texte à chiffrer, nous utiliserons la clé originale $K_0$ ainsi que dix clés distinctes. Notez que ces mêmes 11 clés sont utilisées pour chaque bloc de 128 bits de texte en clair qui doit être chiffré.
 
 L'algorithme d'expansion des clés est long et complexe. Le parcourir n'a que peu d'intérêt didactique. Vous pouvez consulter l'algorithme d'expansion de clé par vous-même, si vous le souhaitez. Une fois les clés rondes produites, le chiffrement Rijndael manipule le premier bloc de 128 bits de texte en clair, $M_1$, comme le montre la *Figure 2*. Nous allons maintenant suivre ces étapes.
 
@@ -1708,13 +1708,13 @@ Les tours 2 à 9 ne sont qu'une répétition du tour 1, *mutatis mutandis*. Le d
 
 L'état $S_{10}$ est maintenant $C_1$, les 128 premiers bits du texte chiffré. En parcourant les autres blocs de texte en clair de 128 bits, on obtient le texte chiffré complet **C**.
 
-### Les opérations du cryptogramme Rijndael
+### Les opérations du chiffrement Rijndael
 
-Quel est le raisonnement qui sous-tend les différentes opérations du cryptogramme Rijndael ?
+Quel est le raisonnement qui sous-tend les différentes opérations du chiffrement Rijndael ?
 
-Sans entrer dans les détails, les systèmes de chiffrement sont évalués en fonction de leur degré de confusion et de diffusion. Si le système de chiffrement présente un degré élevé de **confusion**, cela signifie que le texte crypté est radicalement différent du texte en clair. Si le système de chiffrement a un degré élevé de **diffusion**, cela signifie que toute petite modification du texte en clair produit un texte crypté radicalement différent.
+Sans entrer dans les détails, les systèmes de chiffrement sont évalués en fonction de leur degré de confusion et de diffusion. Si le système de chiffrement présente un degré élevé de **confusion**, cela signifie que le texte chiffré est radicalement différent du texte en clair. Si le système de chiffrement a un degré élevé de **diffusion**, cela signifie que toute petite modification du texte en clair produit un texte chiffré radicalement différent.
 
-Le raisonnement qui sous-tend les opérations du cryptogramme Rijndael est qu'elles produisent à la fois un degré élevé de confusion et de diffusion. La confusion est produite par l'opération de substitution d'octets, tandis que la diffusion est produite par les opérations de décalage des lignes et de mélange des colonnes.
+Le raisonnement qui sous-tend les opérations du chiffrement Rijndael est qu'elles produisent à la fois un degré élevé de confusion et de diffusion. La confusion est produite par l'opération de substitution d'octets, tandis que la diffusion est produite par les opérations de décalage des lignes et de mélange des colonnes.
 
 # Cryptographie asymétrique
 
@@ -1842,9 +1842,9 @@ Alice crée d'abord une paire de clés, composée d'une clé publique ($K_P$) et
 
 ![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
 
-Tout adversaire qui écoute les communications de Bob et Alice peut observer $C$. Il connaît également $K_P$ et l'algorithme de chiffrement $E(\cdot)$. Il est important de noter que ces informations ne permettent pas à l'attaquant de décrypter le texte chiffré $C$. Le décryptage nécessite spécifiquement $K_S$, que l'attaquant ne possède pas.
+Tout adversaire qui écoute les communications de Bob et Alice peut observer $C$. Il connaît également $K_P$ et l'algorithme de chiffrement $E(\cdot)$. Il est important de noter que ces informations ne permettent pas à l'attaquant de déchiffrer le texte chiffré $C$. Le décryptage nécessite spécifiquement $K_S$, que l'attaquant ne possède pas.
 
-Les systèmes de chiffrement symétrique doivent généralement être sécurisés contre un attaquant qui peut chiffrer valablement les messages en clair (ce que l'on appelle la sécurité de l'attaque par texte chiffré choisi). Ils ne sont toutefois pas conçus dans le but explicite de permettre la création de tels cryptogrammes valides par un attaquant ou toute autre personne.
+Les systèmes de chiffrement symétrique doivent généralement être sécurisés contre un attaquant qui peut chiffrer valablement les messages en clair (ce que l'on appelle la sécurité de l'attaque par texte chiffré choisi). Ils ne sont toutefois pas conçus dans le but explicite de permettre la création de tels textes chiffrés valides par un attaquant ou toute autre personne.
 
 Le contraste est saisissant avec un système de chiffrement asymétrique, dont l'objectif est de permettre à n'importe qui, y compris aux attaquants, de produire des textes chiffrés valides. Les systèmes de chiffrement asymétrique peuvent donc être qualifiés de **chiffres à accès multiples**.
 
@@ -1912,7 +1912,7 @@ La distribution des clés est désormais beaucoup plus simple pour Jim's Sportin
 
 Les fonctions de hachage sont omniprésentes en cryptographie. Elles ne sont ni symétriques ni asymétriques, mais appartiennent à une catégorie cryptographique à part entière.
 
-Nous avons déjà rencontré les fonctions de hachage au chapitre 4 avec la création de messages d'authentification basés sur le hachage. Elles sont également importantes dans le contexte des signatures numériques, mais pour une raison légèrement différente : En effet, les signatures numériques sont généralement créées à partir de la valeur de hachage d'un message (crypté), plutôt que du message lui-même (crypté). Dans cette section, je proposerai une introduction plus approfondie des fonctions de hachage.
+Nous avons déjà rencontré les fonctions de hachage au chapitre 4 avec la création de messages d'authentification basés sur le hachage. Elles sont également importantes dans le contexte des signatures numériques, mais pour une raison légèrement différente : En effet, les signatures numériques sont généralement créées à partir de la valeur de hachage d'un message (chiffré), plutôt que du message lui-même (chiffré). Dans cette section, je proposerai une introduction plus approfondie des fonctions de hachage.
 
 Commençons par définir une fonction de hachage. Une **fonction de hachage** est une fonction calculable efficacement qui prend des entrées de taille arbitraire et produit des sorties de longueur fixe.
 
@@ -2274,7 +2274,7 @@ Nous avons maintenant présenté le problème RSA, un ensemble de conditions sou
 
 Une approche consiste à prendre le problème RSA et à construire des schémas de manière simple. Par exemple, supposons que vous ayez généré un ensemble de variables $\Pi$ comme décrit dans le problème RSA, et que vous vous assuriez que $p$ et $q$ sont suffisamment grands. Vous définissez votre clé publique comme étant $(N, e)$ et partagez cette information avec le monde entier. Comme décrit ci-dessus, vous gardez secrètes les valeurs de $p$, $q$, $\phi(n)$ et $d$. En fait, $d$ est votre clé privée.
 
-Quiconque souhaite vous envoyer un message $m$ qui est un élément de $C_N$ peut simplement le chiffrer comme suit : $c = m^e \mod N$ (le texte chiffré est ici équivalent à la valeur $y$ dans le problème RSA) : $c = m^e \mod N$. (Le texte chiffré $c$ est ici équivalent à la valeur $y$ dans le problème RSA.) Vous pouvez facilement décrypter ce message en calculant simplement $c^d \mod N$.
+Quiconque souhaite vous envoyer un message $m$ qui est un élément de $C_N$ peut simplement le chiffrer comme suit : $c = m^e \mod N$ (le texte chiffré est ici équivalent à la valeur $y$ dans le problème RSA) : $c = m^e \mod N$. (Le texte chiffré $c$ est ici équivalent à la valeur $y$ dans le problème RSA.) Vous pouvez facilement déchiffrer ce message en calculant simplement $c^d \mod N$.
 
 Vous pouvez tenter de créer un système de signature numérique de la même manière. Supposons que vous souhaitiez envoyer à quelqu'un un message $m$ avec une signature numérique $S$. Vous pourriez simplement définir $S = m^d \mod N$ et envoyer la paire $(m,S)$ au destinataire. N'importe qui peut vérifier la signature numérique en contrôlant simplement si $S^e \mod N = m \mod N$. Cependant, tout attaquant aurait beaucoup de mal à créer une $S$ valide pour un message, étant donné qu'il ne possède pas $d$.
 
@@ -2304,5 +2304,6 @@ Néanmoins, en ajoutant un peu de complexité intelligente, le problème RSA peu
 ## Conclusion
 <chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+
 
 

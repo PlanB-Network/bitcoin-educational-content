@@ -4,7 +4,7 @@ goal: Une introduction approfondie à la science et à la pratique de la cryptog
 objectives:
 
   - Explorer les algorithmes de chiffrement de Beale et les méthodes cryptographiques modernes pour comprendre les concepts de base et historiques de la cryptographie.
-  - Plongez dans la théorie des nombres, des groupes et des champs pour maîtriser les concepts mathématiques clés qui sous-tendent la cryptographie.
+  - Plongez dans la théorie des nombres, des groupes et des corps pour maîtriser les concepts mathématiques clés qui sous-tendent la cryptographie.
   - Étudiez le chiffrement de flux RC4 et l'AES avec une clé de 128 bits pour vous familiariser avec les algorithmes cryptographiques symétriques.
   - Étudier le système cryptographique RSA, la distribution des clés et les fonctions de hachage pour explorer la cryptographie asymétrique.
 
@@ -13,9 +13,9 @@ objectives:
 
 Il est difficile de trouver beaucoup de matériel qui offre un juste milieu dans l'enseignement de la cryptographie.
 
-D'une part, il existe de longs traités formels qui ne sont accessibles qu'aux personnes ayant une solide formation en mathématiques, en logique ou dans une autre discipline formelle. D'autre part, il y a des introductions de très haut niveau qui cachent trop de détails pour quiconque est un tant soit peu curieux.
+D'une part, il existe de longs papiers formels qui ne sont accessibles qu'aux personnes ayant une solide formation en mathématiques, en logique ou dans une autre discipline formelle. D'autre part, il y a des introductions de très haut niveau qui cachent trop de détails pour quiconque est un tant soit peu curieux.
 
-Cette introduction à la cryptographie cherche à se situer à mi-chemin. Bien qu'elle soit relativement stimulante et détaillée pour toute personne débutant dans le domaine de la cryptographie, elle n'est pas le trou du lapin d'un traité fondamental typique.
+Cette introduction à la cryptographie cherche à se situer à mi-chemin. Bien qu'elle soit relativement stimulante et détaillée pour toute personne débutant dans le domaine de la cryptographie, elle n'est pas le trou du lapin d'un ouvrage académique typique.
 
 +++
 # Introduction
@@ -764,13 +764,13 @@ $$
 
 Formule de la fonction Phi d'Euler pour la factorisation des nombres premiers de $N$.
 
-## Champs
+## Corps
 
 <chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
 
-Un groupe est la structure algébrique de base de l'algèbre abstraite, mais il en existe beaucoup d'autres. La seule autre structure algébrique que vous devez connaître est celle d'un **champ**, plus précisément celle d'un **champ fini**. Ce type de structure algébrique est fréquemment utilisé en cryptographie, notamment dans l'Advanced Encryption Standard. Ce dernier est le principal système de cryptage symétrique que vous rencontrerez dans la pratique.
+Un groupe est la structure algébrique de base de l'algèbre abstraite, mais il en existe beaucoup d'autres. La seule autre structure algébrique que vous devez connaître est celle d'un **corps**, plus précisément celle d'un **corps fini**. Ce type de structure algébrique est fréquemment utilisé en cryptographie, notamment dans l'Advanced Encryption Standard. Ce dernier est le principal système de cryptage symétrique que vous rencontrerez dans la pratique.
 
-Un champ est dérivé de la notion de groupe. Plus précisément, un **champ** est un ensemble d'éléments **S** équipé de deux opérateurs binaires $\circ$ et $\diamond$, qui remplit les conditions suivantes :
+Un corps est dérivé de la notion de groupe. Plus précisément, un **corps** est un ensemble d'éléments **S** équipé de deux opérateurs binaires $\circ$ et $\diamond$, qui remplit les conditions suivantes :
 
 1. L'ensemble **S** muni de $\circ$ est un groupe abélien.
 
@@ -778,13 +778,13 @@ Un champ est dérivé de la notion de groupe. Plus précisément, un **champ** e
 
 3. L'ensemble **S** muni des deux opérateurs satisfait à ce que l'on appelle la condition de distribution : Supposons que $a$, $b$ et $c$ sont des éléments de **S**. Alors **S** muni des deux opérateurs satisfait à la propriété distributive lorsque $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
-Notez que, comme pour les groupes, la définition d'un champ est très abstraite. Elle ne prétend rien sur les types d'éléments de **S**, ni sur les opérations $\circ$ et $\diamond$. Elle indique simplement qu'un champ est tout ensemble d'éléments avec deux opérations pour lesquelles les trois conditions ci-dessus sont remplies. (L'élément "zéro" du deuxième groupe abélien peut être interprété abstraitement)
+Notez que, comme pour les groupes, la définition d'un corps est très abstraite. Elle ne prétend rien sur les types d'éléments de **S**, ni sur les opérations $\circ$ et $\diamond$. Elle indique simplement qu'un corps est tout ensemble d'éléments avec deux opérations pour lesquelles les trois conditions ci-dessus sont remplies. (L'élément "zéro" du deuxième groupe abélien peut être interprété abstraitement)
 
-Quel est donc l'exemple d'un champ ? Un bon exemple est l'ensemble $\mathbb{Z} \mod 7$, ou $\{0, 1, \ldots, 7\}$ défini sur l'addition standard (à la place de $\circ$ ci-dessus) et la multiplication standard (à la place de $\diamond$ ci-dessus).
+Quel est donc l'exemple d'un corps ? Un bon exemple est l'ensemble $\mathbb{Z} \mod 7$, ou $\{0, 1, \ldots, 7\}$ défini sur l'addition standard (à la place de $\circ$ ci-dessus) et la multiplication standard (à la place de $\diamond$ ci-dessus).
 
 Premièrement, $\mathbb{Z} \mod 7$ remplit la condition pour être un groupe abélien sur l'addition, et il remplit la condition pour être un groupe abélien sur la multiplication si l'on ne considère que les éléments non nuls. Deuxièmement, la combinaison de l'ensemble avec les deux opérateurs remplit la condition de distribution.
 
-Il est didactiquement intéressant d'explorer ces affirmations en utilisant quelques valeurs particulières. Prenons les valeurs expérimentales 5, 2 et 3, des éléments choisis au hasard dans l'ensemble $\mathbb{Z} \mod 7$, pour inspecter le champ $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$. Nous utiliserons ces trois valeurs dans l'ordre, selon les besoins pour explorer des conditions particulières.
+Il est didactiquement intéressant d'explorer ces affirmations en utilisant quelques valeurs particulières. Prenons les valeurs expérimentales 5, 2 et 3, des éléments choisis au hasard dans l'ensemble $\mathbb{Z} \mod 7$, pour inspecter le corps $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$. Nous utiliserons ces trois valeurs dans l'ordre, selon les besoins pour explorer des conditions particulières.
 
 Voyons d'abord si $\mathbb{Z} \mod 7$ muni de l'addition est un groupe abélien.
 
@@ -816,23 +816,23 @@ Enfin, cet ensemble combiné avec les deux opérateurs semble satisfaire à la c
 
 Nous avons vu que $\mathbb{Z} \mod 7$ équipée de l'addition et de la multiplication satisfait aux axiomes d'un corps fini lorsqu'elle est testée avec des valeurs particulières. Bien sûr, nous pouvons aussi le montrer de manière générale, mais nous ne le ferons pas ici.
 
-Une distinction essentielle est faite entre deux types de champs : les champs finis et les champs infinis.
+Une distinction essentielle est faite entre deux types de corps : les corps finis et les corps infinis.
 
-Un **champ infini** est un champ dont l'ensemble **S** est infiniment grand. L'ensemble des nombres réels $\mathbb{R}$ muni de l'addition et de la multiplication est un exemple de champ infini. Un **champ fini**, également appelé **champ de Galois**, est un champ dont l'ensemble **S** est fini. Notre exemple ci-dessus de $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$ est un corps fini.
+Un **corps infini** est un corps dont l'ensemble **S** est infiniment grand. L'ensemble des nombres réels $\mathbb{R}$ muni de l'addition et de la multiplication est un exemple de corps infini. Un **corps fini**, également appelé **corps de Galois**, est un corps dont l'ensemble **S** est fini. Notre exemple ci-dessus de $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$ est un corps fini.
 
 En cryptographie, nous nous intéressons principalement aux corps finis. En général, on peut montrer qu'un corps fini existe pour un ensemble d'éléments **S** si et seulement s'il a $p^m$ éléments, où $p$ est un nombre premier et $m$ un entier positif supérieur ou égal à un. En d'autres termes, si l'ordre d'un ensemble **S** est un nombre premier ($p^m$ où $m = 1$) ou une puissance première ($p^m$ où $m > 1$), alors on peut trouver deux opérateurs $\circ$ et $\diamond$ tels que les conditions d'existence d'un corps soient satisfaites.
 
-Si un corps fini possède un nombre premier d'éléments, on l'appelle **corps premier**. Si le nombre d'éléments du corps fini est une puissance première, le corps est appelé **champ d'extension**. En cryptographie, nous nous intéressons à la fois aux champs de nombres premiers et aux champs d'extension. [2]
+Si un corps fini possède un nombre premier d'éléments, on l'appelle **corps premier**. Si le nombre d'éléments du corps fini est une puissance première, le corps est appelé **corps d'extension**. En cryptographie, nous nous intéressons à la fois aux corps de nombres premiers et aux corps d'extension. [2]
 
-Les principaux champs de nombres premiers qui présentent un intérêt pour la cryptographie sont ceux où l'ensemble des entiers est modulé par un nombre premier et où les opérateurs sont l'addition et la multiplication standard. Cette classe de champs finis comprend $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, et ainsi de suite. Pour tout corps premier $\mathbb{Z} \mod p$, l'ensemble des entiers du corps est le suivant : $\{0, 1, \ldots, p - 2, p - 1\}$.
+Les principaux corps de nombres premiers qui présentent un intérêt pour la cryptographie sont ceux où l'ensemble des entiers est modulé par un nombre premier et où les opérateurs sont l'addition et la multiplication standard. Cette classe de corps finis comprend $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, et ainsi de suite. Pour tout corps premier $\mathbb{Z} \mod p$, l'ensemble des entiers du corps est le suivant : $\{0, 1, \ldots, p - 2, p - 1\}$.
 
-En cryptographie, nous nous intéressons également aux champs d'extension, en particulier aux champs à $2^m$ éléments où $m > 1$. De tels champs finis sont, par exemple, utilisés dans le chiffrement de Rijndael, qui constitue la base de l'Advanced Encryption Standard. Alors que les champs premiers sont relativement intuitifs, ces champs d'extension en base 2 ne sont probablement pas destinés à ceux qui ne sont pas familiers avec l'algèbre abstraite.
+En cryptographie, nous nous intéressons également aux corps d'extension, en particulier aux corps à $2^m$ éléments où $m > 1$. De tels corps finis sont, par exemple, utilisés dans le chiffrement de Rijndael, qui constitue la base de l'Advanced Encryption Standard. Alors que les corps premiers sont relativement intuitifs, ces corps d'extension en base 2 ne sont probablement pas destinés à ceux qui ne sont pas familiers avec l'algèbre abstraite.
 
-Pour commencer, il est vrai que tout ensemble d'entiers avec $2^m$ éléments peut se voir attribuer deux opérateurs qui feraient de leur combinaison un champ (tant que $m$ est un entier positif). Cependant, ce n'est pas parce qu'un champ existe qu'il est nécessairement facile à découvrir ou particulièrement pratique pour certaines applications.
+Pour commencer, il est vrai que tout ensemble d'entiers avec $2^m$ éléments peut se voir attribuer deux opérateurs qui feraient de leur combinaison un corps (tant que $m$ est un entier positif). Cependant, ce n'est pas parce qu'un corps existe qu'il est nécessairement facile à découvrir ou particulièrement pratique pour certaines applications.
 
-Il s'avère que les champs d'extension de $2^m$ particulièrement applicables en cryptographie sont ceux définis sur des ensembles particuliers d'expressions polynomiales, plutôt que sur un ensemble d'entiers.
+Il s'avère que les corps d'extension de $2^m$ particulièrement applicables en cryptographie sont ceux définis sur des ensembles particuliers d'expressions polynomiales, plutôt que sur un ensemble d'entiers.
 
-Par exemple, supposons que nous voulions un champ d'extension avec $2^3$ (c'est-à-dire 8) éléments dans l'ensemble. Bien qu'il puisse exister de nombreux ensembles différents pouvant être utilisés pour des champs de cette taille, l'un de ces ensembles comprend tous les polynômes uniques de la forme $a_2x^2 + a_1x + a_0$, où chaque coefficient $a_i$ est soit 0, soit 1. Par conséquent, cet ensemble **S** comprend les éléments suivants :
+Par exemple, supposons que nous voulions un corps d'extension avec $2^3$ (c'est-à-dire 8) éléments dans l'ensemble. Bien qu'il puisse exister de nombreux ensembles différents pouvant être utilisés pour des corps de cette taille, l'un de ces ensembles comprend tous les polynômes uniques de la forme $a_2x^2 + a_1x + a_0$, où chaque coefficient $a_i$ est soit 0, soit 1. Par conséquent, cet ensemble **S** comprend les éléments suivants :
 
 1. $0$ : Le cas où $a_2 = 0$, $a_1 = 0$, et $a_0 = 0$.
 
@@ -850,7 +850,7 @@ Par exemple, supposons que nous voulions un champ d'extension avec $2^3$ (c'est-
 
 8. $x^2 + x + 1$ : Le cas où $a_2 = 1$, $a_1 = 1$, et $a_0 = 1$.
 
-Donc **S** serait l'ensemble $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$. Quelles sont les deux opérations que l'on peut définir sur cet ensemble d'éléments pour s'assurer que leur combinaison est un champ ?
+Donc **S** serait l'ensemble $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$. Quelles sont les deux opérations que l'on peut définir sur cet ensemble d'éléments pour s'assurer que leur combinaison est un corps ?
 
 La première opération sur l'ensemble **S** ($\circ$) peut être définie comme une addition polynomiale standard modulo 2. Tout ce que vous avez à faire est d'additionner les polynômes comme vous le feriez normalement, puis d'appliquer le modulo 2 à chacun des coefficients du polynôme résultant. Voici quelques exemples :
 
@@ -859,7 +859,7 @@ La première opération sur l'ensemble **S** ($\circ$) peut être définie comme
 - $[(x^2 + x) + (x)] \mod 2 = [x^2 + 2x] \mod 2 = x^2$
 - $[(x + 1) + (x^2 + x + 1)] \mod 2 = [x^2 + 2x + 2] \mod 2 = x^2 + 1$
 
-La deuxième opération sur l'ensemble **S** ($\diamond$) qui est nécessaire pour créer le champ est plus compliquée. Il s'agit d'une sorte de multiplication, mais pas de la multiplication standard de l'arithmétique. Au lieu de cela, vous devez considérer chaque élément comme un vecteur et comprendre l'opération comme la multiplication de ces deux vecteurs modulo un polynôme irréductible.
+La deuxième opération sur l'ensemble **S** ($\diamond$) qui est nécessaire pour créer le corps est plus compliquée. Il s'agit d'une sorte de multiplication, mais pas de la multiplication standard de l'arithmétique. Au lieu de cela, vous devez considérer chaque élément comme un vecteur et comprendre l'opération comme la multiplication de ces deux vecteurs modulo un polynôme irréductible.
 
 Commençons par l'idée d'un polynôme irréductible. Un **polynôme irréductible** est un polynôme qui ne peut pas être factorisé (tout comme un nombre premier ne peut pas être factorisé en composantes autres que 1 et le nombre premier lui-même). Pour nos besoins, nous nous intéressons aux polynômes irréductibles par rapport à l'ensemble des entiers. (Notez que vous pouvez être en mesure de factoriser certains polynômes par, par exemple, les nombres réels ou complexes, même si vous ne pouvez pas les factoriser en utilisant les nombres entiers)
 
@@ -877,7 +877,7 @@ J'ai déjà dit que la deuxième opération devait être comprise comme une mult
 
 Comme tous les vecteurs de l'ensemble sont de degré 2 ou inférieur, le polynôme irréductible doit être de degré 3. Si toute multiplication de deux vecteurs de l'ensemble donne un polynôme de degré 3 ou supérieur, nous savons que modulo un polynôme de degré 3 donne toujours un polynôme de degré 2 ou inférieur, car tout polynôme de degré 3 ou supérieur est toujours divisible par un polynôme de degré 3. En outre, le polynôme qui sert de diviseur doit être irréductible. C'est le cas parce que tout polynôme de degré 3 ou plus est toujours divisible par un polynôme de degré 3. En outre, le polynôme qui sert de diviseur doit être irréductible.
 
-Il s'avère qu'il existe plusieurs polynômes irréductibles de degré 3 que nous pourrions utiliser comme diviseur. Chacun de ces polynômes définit un champ différent en conjonction avec notre ensemble **S** et l'addition modulo 2. Cela signifie que vous avez plusieurs options lorsque vous utilisez les champs d'extension $2^m$ en cryptographie.
+Il s'avère qu'il existe plusieurs polynômes irréductibles de degré 3 que nous pourrions utiliser comme diviseur. Chacun de ces polynômes définit un corps différent en conjonction avec notre ensemble **S** et l'addition modulo 2. Cela signifie que vous avez plusieurs options lorsque vous utilisez les corps d'extension $2^m$ en cryptographie.
 
 Pour notre exemple, supposons que nous choisissions le polynôme $x^3 + x + 1$. Ce polynôme est irréductible, car vous ne pouvez pas le factoriser en utilisant des entiers. De plus, il garantit que toute multiplication de deux éléments produira un polynôme de degré 2 ou moins.
 
@@ -905,23 +905,23 @@ $$
 [(x^3) - (x^3 + x + 1)] \mod x^3 + x + 1 = [x + 1] \mod x^3 + x + 1 = x + 1
 $$
 
-Vous vous demandez peut-être pourquoi $(x^3) - (x^3 + x + 1)$ s'évalue à $x + 1$ et non à $-x - 1$. Rappelez-vous que la première opération de notre champ est définie modulo 2. Par conséquent, la soustraction de deux vecteurs donne exactement le même résultat que l'addition de deux vecteurs.
+Vous vous demandez peut-être pourquoi $(x^3) - (x^3 + x + 1)$ s'évalue à $x + 1$ et non à $-x - 1$. Rappelez-vous que la première opération de notre corps est définie modulo 2. Par conséquent, la soustraction de deux vecteurs donne exactement le même résultat que l'addition de deux vecteurs.
 
 Pour résumer la multiplication de $x^2 + 1$ et $x^2 + x$ : En multipliant ces deux termes, on obtient un polynôme de degré 4, $x^4 + x^3 + x^2 + x$, qui doit être réduit modulo $x^3 + x + 1$. Le polynôme de degré 4 est divisible par $x^3 + x + 1$ exactement $x + 1$ fois. Le reste après avoir divisé $x^4 + x^3 + x^2 + x$ par $x^3 + x + 1$ exactement $x + 1$ fois est $x + 1$. Il s'agit bien d'un élément de notre ensemble $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$.
 
-Pourquoi les champs d'extension de base 2 sur des ensembles de polynômes, comme dans l'exemple ci-dessus, seraient-ils utiles pour la cryptographie ? La raison en est que vous pouvez considérer les coefficients des polynômes de ces ensembles, soit 0 soit 1, comme des éléments de chaînes binaires d'une longueur particulière. L'ensemble **S** de notre exemple ci-dessus, par exemple, pourrait être considéré comme un ensemble **S** comprenant toutes les chaînes binaires de longueur 3 (de 000 à 111). Les opérations sur **S** peuvent donc également être utilisées pour effectuer des opérations sur ces chaînes binaires et produire une chaîne binaire de même longueur.
+Pourquoi les corps d'extension de base 2 sur des ensembles de polynômes, comme dans l'exemple ci-dessus, seraient-ils utiles pour la cryptographie ? La raison en est que vous pouvez considérer les coefficients des polynômes de ces ensembles, soit 0 soit 1, comme des éléments de chaînes binaires d'une longueur particulière. L'ensemble **S** de notre exemple ci-dessus, par exemple, pourrait être considéré comme un ensemble **S** comprenant toutes les chaînes binaires de longueur 3 (de 000 à 111). Les opérations sur **S** peuvent donc également être utilisées pour effectuer des opérations sur ces chaînes binaires et produire une chaîne binaire de même longueur.
 
 **Notes:**
 
-[Les champs d'extension deviennent très contre-intuitifs. Au lieu d'avoir des éléments d'entiers, ils ont des ensembles de polynômes. En outre, toutes les opérations sont effectuées modulo un polynôme irréductible.
+[Les corps d'extension deviennent très contre-intuitifs. Au lieu d'avoir des éléments d'entiers, ils ont des ensembles de polynômes. En outre, toutes les opérations sont effectuées modulo un polynôme irréductible.
 
 ## L'algèbre abstraite en pratique
 
 <chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
 
-Malgré le langage formel et le caractère abstrait de la discussion, le concept de groupe ne devrait pas être trop difficile à saisir. Il s'agit simplement d'un ensemble d'éléments associé à une opération binaire, où l'exécution de cette opération binaire sur ces éléments répond à quatre conditions générales. Un groupe abélien est soumis à une condition supplémentaire, la commutativité. Un groupe cyclique, quant à lui, est un type particulier de groupe abélien, à savoir un groupe qui possède un générateur. Un champ est simplement une construction plus complexe à partir de la notion de groupe de base.
+Malgré le langage formel et le caractère abstrait de la discussion, le concept de groupe ne devrait pas être trop difficile à saisir. Il s'agit simplement d'un ensemble d'éléments associé à une opération binaire, où l'exécution de cette opération binaire sur ces éléments répond à quatre conditions générales. Un groupe abélien est soumis à une condition supplémentaire, la commutativité. Un groupe cyclique, quant à lui, est un type particulier de groupe abélien, à savoir un groupe qui possède un générateur. Un corps est simplement une construction plus complexe à partir de la notion de groupe de base.
 
-Mais si vous avez l'esprit pratique, vous pouvez vous demander à ce stade : Qui s'en soucie ? Savoir qu'un ensemble d'éléments avec un opérateur est un groupe, ou même un groupe abélien ou cyclique, a-t-il une quelconque pertinence dans le monde réel ? Savoir que quelque chose est un champ ?
+Mais si vous avez l'esprit pratique, vous pouvez vous demander à ce stade : Qui s'en soucie ? Savoir qu'un ensemble d'éléments avec un opérateur est un groupe, ou même un groupe abélien ou cyclique, a-t-il une quelconque pertinence dans le monde réel ? Savoir que quelque chose est un corps ?
 
 Sans entrer dans les détails, la réponse est "oui". Les groupes ont été créés au 19e siècle par le mathématicien français Evariste Galois. Il les a utilisés pour tirer des conclusions sur la résolution d'équations polynomiales d'un degré supérieur à cinq.
 
@@ -929,9 +929,9 @@ Depuis lors, le concept de groupe a permis d'éclairer un certain nombre de prob
 
 Montrer qu'un ensemble d'éléments avec un certain opérateur est un groupe signifie essentiellement que ce que vous décrivez possède une symétrie particulière. Pas une symétrie au sens commun du terme, mais sous une forme plus abstraite. Cela peut permettre de mieux comprendre des systèmes et des problèmes particuliers. Les notions plus complexes de l'algèbre abstraite ne font que nous donner des informations supplémentaires.
 
-Plus important encore, vous verrez l'importance des groupes et des champs de la théorie des nombres dans la pratique grâce à leur application en cryptographie, en particulier en cryptographie à clé publique. Nous avons déjà vu dans notre discussion sur les champs, par exemple, comment les champs d'extension sont utilisés dans le chiffrement Rijndael. Nous développerons cet exemple au *chapitre 5*.
+Plus important encore, vous verrez l'importance des groupes et des corps de la théorie des nombres dans la pratique grâce à leur application en cryptographie, en particulier en cryptographie à clé publique. Nous avons déjà vu dans notre discussion sur les corps, par exemple, comment les corps d'extension sont utilisés dans le chiffrement Rijndael. Nous développerons cet exemple au *chapitre 5*.
 
-Pour une discussion plus approfondie sur l'algèbre abstraite, je recommande l'excellente série de vidéos sur l'algèbre abstraite de Socratica[4]. [Je recommande en particulier les vidéos suivantes : "Qu'est-ce que l'algèbre abstraite ?", "Définition des groupes (développée)", "Définition des anneaux (développée)", et "Définition des champs (développée)" Ces quatre vidéos vous donneront un aperçu supplémentaire de la majeure partie de la discussion ci-dessus. (Nous n'avons pas parlé des anneaux, mais un champ est un type particulier d'anneau)
+Pour une discussion plus approfondie sur l'algèbre abstraite, je recommande l'excellente série de vidéos sur l'algèbre abstraite de Socratica[4]. [Je recommande en particulier les vidéos suivantes : "Qu'est-ce que l'algèbre abstraite ?", "Définition des groupes (développée)", "Définition des anneaux (développée)", et "Définition des corps (développée)" Ces quatre vidéos vous donneront un aperçu supplémentaire de la majeure partie de la discussion ci-dessus. (Nous n'avons pas parlé des anneaux, mais un corps est un type particulier d'anneau)
 
 Pour une discussion plus approfondie sur la théorie moderne des nombres, vous pouvez consulter de nombreuses discussions avancées sur la cryptographie. Je vous suggère l'ouvrage de Jonathan Katz et Yehuda Lindell intitulé Introduction to Modern Cryptography ou celui de Christof Paar et Jan Pelzl intitulé Understanding Cryptography. [5]
 
@@ -1385,7 +1385,7 @@ Des identificateurs peuvent être ajoutés au message en clair avant le cryptage
 
 Pour illustrer le fonctionnement des sessions de communication sécurisées, supposons à nouveau Alice et Bob. Ils envoient un total de quatre messages dans les deux sens. Vous pouvez voir comment fonctionne un système de cryptage authentifié avec des identifiants et des numéros de séquence dans la *Figure 11* ci-dessous.
 
-La session de communication commence par l'envoi par Bob d'un texte chiffré $C_{0,B}$ à Alice avec une étiquette de message $T_{0,B}$. Le texte chiffré contient le message, ainsi qu'un identifiant (BOB) et un numéro de séquence (0). La balise $T_{0,B}$ est apposée sur l'ensemble du texte chiffré. Dans leurs communications ultérieures, Alice et Bob conservent ce protocole, en mettant à jour les champs si nécessaire.
+La session de communication commence par l'envoi par Bob d'un texte chiffré $C_{0,B}$ à Alice avec une étiquette de message $T_{0,B}$. Le texte chiffré contient le message, ainsi qu'un identifiant (BOB) et un numéro de séquence (0). La balise $T_{0,B}$ est apposée sur l'ensemble du texte chiffré. Dans leurs communications ultérieures, Alice et Bob conservent ce protocole, en mettant à jour les corps si nécessaire.
 
 *Figure 12 : Une session de communication sécurisée*
 
@@ -1625,11 +1625,11 @@ Deuxièmement, l'opération de **substitution d'octets** est effectuée sur l'é
 
 | F0 | 8C | A1 | 89 | 0D | BF | E6 | 42 | 68 | 41 | 99 | 2D | 0F | B0 | 54 | BB | 16 |
 
-Cette boîte S est l'un des endroits où l'algèbre abstraite entre en jeu dans le chiffrement Rijndael, en particulier les **champs de Galois**.
+Cette boîte S est l'un des endroits où l'algèbre abstraite entre en jeu dans le chiffrement Rijndael, en particulier les **corps de Galois**.
 
-Pour commencer, vous définissez chaque élément d'octet possible de 00 à FF comme un vecteur de 8 bits. Chacun de ces vecteurs est un élément du **champ de Galois GF(2^8)** où le polynôme irréductible pour l'opération modulo est $x^8 + x^4 + x^3 + x + 1$. Le corps de Galois avec ces spécifications est également appelé **champ fini de Rijndael**.
+Pour commencer, vous définissez chaque élément d'octet possible de 00 à FF comme un vecteur de 8 bits. Chacun de ces vecteurs est un élément du **corps de Galois GF(2^8)** où le polynôme irréductible pour l'opération modulo est $x^8 + x^4 + x^3 + x + 1$. Le corps de Galois avec ces spécifications est également appelé **corps fini de Rijndael**.
 
-Ensuite, pour chaque élément possible du champ, nous créons ce que l'on appelle la **boîte S de Nyberg**. Dans cette boîte, chaque octet est mis en correspondance avec son **inverse multiplicatif** (c'est-à-dire que leur produit est égal à 1). Nous faisons ensuite correspondre ces valeurs de la boîte S de Nyberg à la boîte S de Rijndael à l'aide de la **transformation d'affine**.
+Ensuite, pour chaque élément possible du corps, nous créons ce que l'on appelle la **boîte S de Nyberg**. Dans cette boîte, chaque octet est mis en correspondance avec son **inverse multiplicatif** (c'est-à-dire que leur produit est égal à 1). Nous faisons ensuite correspondre ces valeurs de la boîte S de Nyberg à la boîte S de Rijndael à l'aide de la **transformation d'affine**.
 
 La troisième opération sur le tableau **S** est l'opération **shift rows**. Elle prend l'état de **S** et liste les seize octets dans une matrice. Le remplissage de la matrice commence en haut à gauche et se fait de haut en bas, puis, à chaque fois qu'une colonne est remplie, elle se décale d'une colonne vers la droite et vers le haut.
 
@@ -1657,7 +1657,7 @@ Une fois la matrice **S** construite, les quatre lignes sont décalées. La prem
 
 | 21 | D4 | 72 | 04 |
 
-Dans la quatrième étape, les **champs de Galois** refont leur apparition. Pour commencer, chaque colonne de la matrice **S** est multipliée par la colonne de la matrice 4 x 4 vue dans la *Figure 5*. Mais au lieu d'une multiplication matricielle normale, il s'agit d'une multiplication vectorielle **modulo un polynôme irréductible**, $x^8 + x^4 + x^3 + x + 1$. Les coefficients vectoriels résultants représentent les bits individuels d'un octet.
+Dans la quatrième étape, les **corps de Galois** refont leur apparition. Pour commencer, chaque colonne de la matrice **S** est multipliée par la colonne de la matrice 4 x 4 vue dans la *Figure 5*. Mais au lieu d'une multiplication matricielle normale, il s'agit d'une multiplication vectorielle **modulo un polynôme irréductible**, $x^8 + x^4 + x^3 + x + 1$. Les coefficients vectoriels résultants représentent les bits individuels d'un octet.
 
 *Figure 5 : Matrice des colonnes de mélange*
 
@@ -2303,3 +2303,4 @@ Néanmoins, en ajoutant un peu de complexité intelligente, le problème RSA peu
 ## Conclusion
 <chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

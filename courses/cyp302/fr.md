@@ -111,7 +111,7 @@ Morris a tenté de déchiffrer les trois textes chiffrés pendant vingt ans. Ave
 
 Vers la fin de sa vie, Morriss a transmis la boîte à un ami en 1862. Cet ami a ensuite publié un pamphlet en 1885, sous le pseudonyme de J.B. Ward. Il y décrit l'histoire (supposée) de la boîte, les trois textes chiffrés et la solution qu'il a trouvée pour le deuxième texte chiffré. (Apparemment, il existe une clé pour chaque texte chiffré, et non une clé qui fonctionne pour les trois textes chiffrés, comme Beale semble l'avoir suggéré à l'origine dans sa lettre à Morriss)
 
-Vous pouvez voir le deuxième texte chiffré dans la *Figure 2* ci-dessous. [La clé de ce texte chiffré est la Déclaration d'indépendance des États-Unis. La procédure de déchiffrement se résume à l'application des deux règles suivantes :
+Vous pouvez voir le deuxième texte chiffré dans la *Figure 2* ci-dessous. La clé de ce texte chiffré est la Déclaration d'indépendance des États-Unis. La procédure de déchiffrement se résume à l'application des deux règles suivantes :
 
 
 - Pour tout nombre n dans le texte chiffré, trouver le nième mot de la Déclaration d'indépendance des États-Unis
@@ -137,9 +137,9 @@ Après déchiffrement, le second message fournit le contenu détaillé du tréso
 
 La plupart d'entre nous associent la cryptographie à des histoires pittoresques comme celle des chiffres de Beale. Pourtant, la cryptographie moderne diffère de ces exemples historiques sur au moins quatre points importants.
 
-Tout d'abord, historiquement, la cryptographie ne s'est intéressée qu'au **secret** (ou à la confidentialité)[3]. [Les textes chiffrés sont créés pour garantir que seules certaines parties peuvent avoir accès aux informations contenues dans les textes en clair, comme dans le cas des algorithmes de chiffrement de Beale. Pour qu'un système de chiffrement serve bien cet objectif, le déchiffrement du texte chiffré ne doit être possible que si l'on possède la clé.
+Tout d'abord, historiquement, la cryptographie ne s'est intéressée qu'au **secret** (ou à la confidentialité)[3]. Les textes chiffrés sont créés pour garantir que seules certaines parties peuvent avoir accès aux informations contenues dans les textes en clair, comme dans le cas des algorithmes de chiffrement de Beale. Pour qu'un système de chiffrement serve bien cet objectif, le déchiffrement du texte chiffré ne doit être possible que si l'on possède la clé.
 
-La cryptographie moderne s'intéresse à un éventail de thèmes plus large que le simple secret. Ces thèmes comprennent principalement (1) **l'intégrité du message**, c'est-à-dire l'assurance qu'un message n'a pas été modifié ; (2) **l'authenticité du message**, c'est-à-dire l'assurance qu'un message provient réellement d'un expéditeur particulier ; et (3) **la non-répudiation**, c'est-à-dire l'assurance qu'un expéditeur ne peut pas nier à tort plus tard qu'il a envoyé un message[4]. [4]
+La cryptographie moderne s'intéresse à un éventail de thèmes plus large que le simple secret. Ces thèmes comprennent principalement (1) **l'intégrité du message**, c'est-à-dire l'assurance qu'un message n'a pas été modifié ; (2) **l'authenticité du message**, c'est-à-dire l'assurance qu'un message provient réellement d'un expéditeur particulier ; et (3) **la non-répudiation**, c'est-à-dire l'assurance qu'un expéditeur ne peut pas nier à tort plus tard qu'il a envoyé un message. [4]
 
 Il est donc important de faire la distinction entre un **système de chiffrement** et un **système cryptographique**. Un schéma de chiffrement ne concerne que le secret. Si un schéma de chiffrement est un schéma cryptographique, l'inverse n'est pas vrai. Un schéma cryptographique peut également servir les autres thèmes principaux de la cryptographie, notamment l'intégrité, l'authenticité et la non-répudiation.
 
@@ -165,7 +165,7 @@ Plus précisément, la cryptographie moderne est centrée sur les **preuves de s
 
 Quatrièmement, alors qu'historiquement la cryptographie était principalement utilisée dans le cadre militaire, elle est désormais omniprésente dans nos activités quotidiennes à l'ère numérique. Qu'il s'agisse d'effectuer des opérations bancaires en ligne, de publier des messages sur les médias sociaux, d'acheter un produit sur Amazon avec votre carte de crédit ou de donner un pourboire en bitcoins à un ami, la cryptographie est la condition sine qua non de notre ère numérique.
 
-Compte tenu de ces quatre aspects de la cryptographie moderne, nous pourrions caractériser la **cryptographie** moderne comme la science qui s'intéresse au développement formel et à l'analyse des schémas cryptographiques pour sécuriser l'information numérique contre les attaques adverses[6]. [La sécurité doit être entendue au sens large comme la prévention des attaques qui portent atteinte au secret, à l'intégrité, à l'authentification et/ou à la non-répudiation des communications.
+Compte tenu de ces quatre aspects de la cryptographie moderne, nous pourrions caractériser la **cryptographie** moderne comme la science qui s'intéresse au développement formel et à l'analyse des schémas cryptographiques pour sécuriser l'information numérique contre les attaques adverses[6]. La sécurité doit être entendue au sens large comme la prévention des attaques qui portent atteinte au secret, à l'intégrité, à l'authentification et/ou à la non-répudiation des communications.
 
 La cryptographie est considérée comme une sous-discipline de la **cybersécurité**, qui vise à empêcher le vol, la détérioration et l'utilisation abusive des systèmes informatiques. Il convient de noter que de nombreux problèmes de cybersécurité n'ont que peu ou pas de lien avec la cryptographie.
 
@@ -175,7 +175,7 @@ Autre exemple, les **attaques par hameçonnage** sont un problème courant à no
 
 **Notes:**
 
-[Pour être exact, les principales applications des systèmes cryptographiques concernent le secret. Les enfants, par exemple, utilisent fréquemment des schémas cryptographiques simples pour "s'amuser". Le secret n'est pas vraiment une préoccupation dans ces cas-là.
+[3] Pour être exact, les principales applications des systèmes cryptographiques concernent le secret. Les enfants, par exemple, utilisent fréquemment des schémas cryptographiques simples pour "s'amuser". Le secret n'est pas vraiment une préoccupation dans ces cas-là.
 
 [4] Bruce Schneier, *Applied Cryptography*, 2nd edn, 2015 (Indianapolis, IN : John Wiley & Sons), p. 2.
 
@@ -488,7 +488,7 @@ Tout le monde peut comprendre intuitivement le fonctionnement du chiffrement par
 
 **Notes:**
 
-[Nous pouvons définir exactement cette affirmation en utilisant la terminologie de la section précédente. Soit une variable uniforme $K$ dont l'ensemble des résultats possibles est $K$. Ainsi :
+[1] Nous pouvons définir exactement cette affirmation en utilisant la terminologie de la section précédente. Soit une variable uniforme $K$ dont l'ensemble des résultats possibles est $K$. Ainsi :
 
 $$
 Pr[K = 0] = \frac{1}{26}
@@ -557,7 +557,7 @@ On peut également parler de chaînes aléatoires sans parler spécifiquement de
 
 Généralement, l'expression "une chaîne aléatoire", sans qualification, fait référence à une chaîne sélectionnée au hasard dans l'ensemble de toutes les chaînes de même longueur. C'est ainsi que je l'ai décrite ci-dessus. Une chaîne de longueur $n$ peut, bien sûr, être choisie au hasard dans un ensemble différent. Un ensemble, par exemple, qui ne constitue qu'un sous-ensemble de toutes les chaînes de longueur $n$, ou peut-être un ensemble qui comprend des chaînes de longueur variable. Dans ce cas, cependant, nous ne parlerions pas de "chaîne aléatoire", mais plutôt de "chaîne sélectionnée au hasard dans un ensemble **S**".
 
-L'un des concepts clés de la cryptographie est celui de pseudo-aléa. Une **chaîne pseudo-aléatoire** de longueur $n$ apparaît *comme si elle était le résultat de l'échantillonnage d'une variable uniforme $S$ qui donne à chaque chaîne de **$S_n$** une probabilité égale de sélection. En fait, la chaîne est le résultat de l'échantillonnage d'une variable uniforme $S'$ qui définit uniquement une distribution de probabilité - pas nécessairement une distribution avec des probabilités égales pour tous les résultats possibles - sur un sous-ensemble de **$S_n$**. Le point crucial ici est que personne ne peut vraiment faire la distinction entre les échantillons de $S$ et de $S'$, même si l'on en prend un grand nombre.
+L'un des concepts clés de la cryptographie est celui de pseudo-aléa. Une **chaîne pseudo-aléatoire** de longueur $n$ apparaît *comme si* elle était le résultat de l'échantillonnage d'une variable uniforme $S$ qui donne à chaque chaîne de **$S_n$** une probabilité égale de sélection. En fait, la chaîne est le résultat de l'échantillonnage d'une variable uniforme $S'$ qui définit uniquement une distribution de probabilité - pas nécessairement une distribution avec des probabilités égales pour tous les résultats possibles - sur un sous-ensemble de **$S_n$**. Le point crucial ici est que personne ne peut vraiment faire la distinction entre les échantillons de $S$ et de $S'$, même si l'on en prend un grand nombre.
 
 Supposons, par exemple, une variable aléatoire $S$. Son ensemble de résultats est **$S_{256}$**, c'est-à-dire l'ensemble de toutes les chaînes binaires de longueur 256. Cet ensemble comporte $2^{256}$ éléments. Chaque élément a une probabilité égale de sélection, $1/2^{256}$, lors de l'échantillonnage.
 
@@ -884,7 +884,6 @@ Pour notre exemple, supposons que nous choisissions le polynôme $x^3 + x + 1$. 
 
 Prenons un exemple de la deuxième opération en utilisant le polynôme $x^3 + x + 1$ comme diviseur pour illustrer son fonctionnement. Supposons que vous multipliez les éléments $x^2 + 1$ avec $x^2 + x$ dans notre ensemble **S**. Nous devons alors calculer l'expression $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1$. Ceci peut être simplifié comme suit :
 
-
 - $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1 =$
 - $[x^2 \cdot x^2 + x^2 \cdot x + 1 \cdot x^2 + 1 \cdot x] \mod x^3 + x + 1 =$
 - $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$
@@ -892,7 +891,6 @@ Prenons un exemple de la deuxième opération en utilisant le polynôme $x^3 + x
 Nous savons que $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$ peut être réduit car le dividende a un degré plus élevé (4) que le diviseur (3).
 
 Pour commencer, vous pouvez voir que l'expression $x^3 + x + 1$ entre dans $x^4 + x^3 + x^2 + x$ un total de $x$ fois. Vous pouvez le vérifier en multipliant $x^3 + x + 1$ par $x$, ce qui donne $x^4 + x^2 + x$. Comme ce dernier terme est du même degré que le dividende, à savoir 4, nous savons que cela fonctionne. Vous pouvez calculer le reste de cette division par $x$ comme suit :
-
 
 - $[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod x^3 + x + 1 =$
 - $[x^3] \mod x^3 + x + 1 =$$
@@ -914,7 +912,7 @@ Pourquoi les corps d'extension de base 2 sur des ensembles de polynômes, comme 
 
 **Notes:**
 
-[Les corps d'extension deviennent très contre-intuitifs. Au lieu d'avoir des éléments d'entiers, ils ont des ensembles de polynômes. En outre, toutes les opérations sont effectuées modulo un polynôme irréductible.
+[2] Les corps d'extension deviennent très contre-intuitifs. Au lieu d'avoir des éléments d'entiers, ils ont des ensembles de polynômes. En outre, toutes les opérations sont effectuées modulo un polynôme irréductible.
 
 ## L'algèbre abstraite en pratique
 
@@ -926,13 +924,13 @@ Mais si vous avez l'esprit pratique, vous pouvez vous demander à ce stade : Qui
 
 Sans entrer dans les détails, la réponse est "oui". Les groupes ont été créés au 19e siècle par le mathématicien français Evariste Galois. Il les a utilisés pour tirer des conclusions sur la résolution d'équations polynomiales d'un degré supérieur à cinq.
 
-Depuis lors, le concept de groupe a permis d'éclairer un certain nombre de problèmes en mathématiques et ailleurs. C'est ainsi que le physicien Murray-Gellman a pu prédire l'existence d'une particule avant qu'elle ne soit observée lors d'expériences[3]. [Autre exemple, les chimistes utilisent la théorie des groupes pour classer les formes des molécules. Les mathématiciens ont même utilisé le concept de groupe pour tirer des conclusions sur quelque chose d'aussi concret que le papier peint !
+Depuis lors, le concept de groupe a permis d'éclairer un certain nombre de problèmes en mathématiques et ailleurs. C'est ainsi que le physicien Murray-Gellman a pu prédire l'existence d'une particule avant qu'elle ne soit observée lors d'expériences[3]. Autre exemple, les chimistes utilisent la théorie des groupes pour classer les formes des molécules. Les mathématiciens ont même utilisé le concept de groupe pour tirer des conclusions sur quelque chose d'aussi concret que le papier peint !
 
 Montrer qu'un ensemble d'éléments avec un certain opérateur est un groupe signifie essentiellement que ce que vous décrivez possède une symétrie particulière. Pas une symétrie au sens commun du terme, mais sous une forme plus abstraite. Cela peut permettre de mieux comprendre des systèmes et des problèmes particuliers. Les notions plus complexes de l'algèbre abstraite ne font que nous donner des informations supplémentaires.
 
 Plus important encore, vous verrez l'importance des groupes et des corps de la théorie des nombres dans la pratique grâce à leur application en cryptographie, en particulier en cryptographie à clé publique. Nous avons déjà vu dans notre discussion sur les corps, par exemple, comment les corps d'extension sont utilisés dans le chiffrement Rijndael. Nous développerons cet exemple au *chapitre 5*.
 
-Pour une discussion plus approfondie sur l'algèbre abstraite, je recommande l'excellente série de vidéos sur l'algèbre abstraite de Socratica[4]. [Je recommande en particulier les vidéos suivantes : "Qu'est-ce que l'algèbre abstraite ?", "Définition des groupes (développée)", "Définition des anneaux (développée)", et "Définition des corps (développée)" Ces quatre vidéos vous donneront un aperçu supplémentaire de la majeure partie de la discussion ci-dessus. (Nous n'avons pas parlé des anneaux, mais un corps est un type particulier d'anneau)
+Pour une discussion plus approfondie sur l'algèbre abstraite, je recommande l'excellente série de vidéos sur l'algèbre abstraite de Socratica[4]. Je recommande en particulier les vidéos suivantes : "Qu'est-ce que l'algèbre abstraite ?", "Définition des groupes (développée)", "Définition des anneaux (développée)", et "Définition des corps (développée)" Ces quatre vidéos vous donneront un aperçu supplémentaire de la majeure partie de la discussion ci-dessus. (Nous n'avons pas parlé des anneaux, mais un corps est un type particulier d'anneau)
 
 Pour une discussion plus approfondie sur la théorie moderne des nombres, vous pouvez consulter de nombreuses discussions avancées sur la cryptographie. Je vous suggère l'ouvrage de Jonathan Katz et Yehuda Lindell intitulé Introduction to Modern Cryptography ou celui de Christof Paar et Jan Pelzl intitulé Understanding Cryptography. [5]
 
@@ -1054,7 +1052,7 @@ Vous pouvez également rencontrer les termes **chiffrer** ou **déchiffrer**. Ce
 
 <chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
 
-Le chiffrement par décalage est un système de chiffrement symétrique très peu sûr, du moins dans le monde moderne[1]. [Un attaquant pourrait simplement tenter de déchiffrer n'importe quel texte chiffré avec les 26 clés possibles pour voir quel résultat a du sens. Ce type d'attaque, où l'attaquant se contente de parcourir les clés pour voir ce qui fonctionne, est connu sous le nom d'attaque **brute force** ou **recherche exhaustive de clés**.
+Le chiffrement par décalage est un système de chiffrement symétrique très peu sûr, du moins dans le monde moderne[1]. Un attaquant pourrait simplement tenter de déchiffrer n'importe quel texte chiffré avec les 26 clés possibles pour voir quel résultat a du sens. Ce type d'attaque, où l'attaquant se contente de parcourir les clés pour voir ce qui fonctionne, est connu sous le nom d'attaque **brute force** ou **recherche exhaustive de clés**.
 
 Pour qu'un système de chiffrement réponde à une notion minimale de sécurité, il doit disposer d'un ensemble de clés possibles, ou **espace clé**, si vaste que les attaques par force brute sont infaisables. Tous les systèmes de chiffrement modernes répondent à cette norme. C'est ce qu'on appelle le **principe de l'espace de clés suffisant**. Un principe similaire s'applique généralement à différents types de systèmes cryptographiques.
 
@@ -1070,7 +1068,7 @@ L'idée selon laquelle la sécurité d'un système de chiffrement symétrique ne
 
 Dans l'esprit de Kerckhoffs, ce principe ne s'applique qu'aux systèmes de chiffrement symétrique. Une version plus générale du principe s'applique toutefois à tous les autres types de schémas cryptographiques modernes : La conception d'un système cryptographique ne doit pas être secrète pour qu'il soit sûr ; le secret ne peut s'étendre qu'à certaines chaînes d'information, généralement une clé privée.
 
-Le principe de Kerckhoffs est au cœur de la cryptographie moderne pour quatre raisons. [Premièrement, il n'existe qu'un nombre limité de schémas cryptographiques pour certains types d'applications. Par exemple, la plupart des applications modernes de chiffrement symétrique utilisent le chiffrement Rijndael. Le secret sur la conception d'un schéma est donc très limité. Il y a cependant beaucoup plus de flexibilité à garder secrète une clé privée pour le chiffrement Rijndael.
+Le principe de Kerckhoffs est au cœur de la cryptographie moderne pour quatre raisons. Premièrement, il n'existe qu'un nombre limité de schémas cryptographiques pour certains types d'applications. Par exemple, la plupart des applications modernes de chiffrement symétrique utilisent le chiffrement Rijndael. Le secret sur la conception d'un schéma est donc très limité. Il y a cependant beaucoup plus de flexibilité à garder secrète une clé privée pour le chiffrement Rijndael.
 
 Deuxièmement, il est plus facile de remplacer une chaîne d'informations qu'un système cryptographique complet. Supposons que les employés d'une entreprise disposent tous du même logiciel de chiffrement et que chacun d'entre eux possède une clé privée lui permettant de communiquer en toute confidentialité. La compromission des clés est un problème dans ce scénario, mais l'entreprise peut au moins conserver le logiciel avec de telles failles de sécurité. Si l'entreprise s'appuyait sur le secret du système, toute violation de ce secret nécessiterait le remplacement de l'ensemble du logiciel.
 
@@ -1102,7 +1100,7 @@ Nous n'entrerons pas dans les détails des différentes notions de sécurité cr
 
 <chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
 
-Les systèmes de chiffrement symétrique sont généralement divisés en deux types : *les *chiffres en continu** et les **chiffres en bloc**. Cette distinction est toutefois quelque peu problématique, car les gens utilisent ces termes de manière incohérente. Dans les prochaines sections, j'établirai la distinction de la manière qui me semble la plus appropriée. Sachez toutefois que de nombreuses personnes utiliseront ces termes d'une manière quelque peu différente de celle que j'ai exposée.
+Les systèmes de chiffrement symétrique sont généralement divisés en deux types : les **chiffres en continu** et les **chiffres en bloc**. Cette distinction est toutefois quelque peu problématique, car les gens utilisent ces termes de manière incohérente. Dans les prochaines sections, j'établirai la distinction de la manière qui me semble la plus appropriée. Sachez toutefois que de nombreuses personnes utiliseront ces termes d'une manière quelque peu différente de celle que j'ai exposée.
 
 Examinons tout d'abord les algorithmes de chiffrement de flux. Un **chiffrement de flux** est un système de chiffrement symétrique dans lequel le chiffrement se fait en deux étapes.
 
@@ -1170,7 +1168,7 @@ Avec ces algorithmes de chiffrement de flux pseudo-aléatoires, il faut d'abord 
 
 Cette clé aléatoire $K$ est ensuite insérée dans un algorithme d'expansion qui crée un flux de clés pseudo-aléatoires aussi long que le message. Vous pouvez spécifier précisément la longueur du flux de clés (par exemple, 500 bits, 1000 bits, 1200 bits, 29 117 bits, etc.)
 
-Un flux de clés pseudo-aléatoire apparaît *comme s'il avait été choisi de manière totalement aléatoire dans l'ensemble des chaînes de caractères de même longueur. Par conséquent, le chiffrement à l'aide d'un flux de clés pseudo-aléatoire apparaît comme s'il avait été effectué à l'aide d'un bloc-notes à usage unique. Mais ce n'est évidemment pas le cas.
+Un flux de clés pseudo-aléatoire apparaît comme s'il avait été choisi de manière totalement aléatoire dans l'ensemble des chaînes de caractères de même longueur. Par conséquent, le chiffrement à l'aide d'un flux de clés pseudo-aléatoire apparaît comme s'il avait été effectué à l'aide d'un bloc-notes à usage unique. Mais ce n'est évidemment pas le cas.
 
 Comme notre clé privée est plus courte que le flux de clés et que notre algorithme expansionniste doit être déterministe pour que le processus de chiffrement/déchiffrement fonctionne, tous les flux de clés de cette longueur particulière n'auraient pas pu être obtenus en sortie de notre opération expansionniste.
 
@@ -1252,7 +1250,7 @@ Certains algorithmes de chiffrement par flux n'utilisent qu'une clé privée pou
 
 Le chiffrement par blocs moderne le plus populaire est le **chiffrement Rijndael**. Il a remporté le concours organisé par le National Institute of Standards and Technology (NIST) entre 1997 et 2000 pour remplacer une norme de chiffrement plus ancienne, la **norme de chiffrement des données** (**DES**).
 
-Le chiffrement Rijndael peut être utilisé avec différentes spécifications pour la longueur des clés et la taille des blocs, ainsi que dans différents modes de fonctionnement. Le comité du concours du NIST a adopté une version restreinte du chiffrement de Rijndael, à savoir une version qui exige des tailles de blocs de 128 bits et des longueurs de clés de 128 bits, 192 bits ou 256 bits, dans le cadre de la **norme de chiffrement avancé** (**AES**). Il s'agit en fait de la principale norme pour les applications de chiffrement symétrique. Il est si sûr que même la NSA est apparemment disposée à l'utiliser avec des clés de 256 bits pour des documents très secrets[6]. [6]
+Le chiffrement Rijndael peut être utilisé avec différentes spécifications pour la longueur des clés et la taille des blocs, ainsi que dans différents modes de fonctionnement. Le comité du concours du NIST a adopté une version restreinte du chiffrement de Rijndael, à savoir une version qui exige des tailles de blocs de 128 bits et des longueurs de clés de 128 bits, 192 bits ou 256 bits, dans le cadre de la **norme de chiffrement avancé** (**AES**). Il s'agit en fait de la principale norme pour les applications de chiffrement symétrique. Il est si sûr que même la NSA est apparemment disposée à l'utiliser avec des clés de 256 bits pour des documents très secrets[6]. 
 
 Le chiffrement par blocs AES sera expliqué en détail au *chapitre 5*.
 
@@ -1773,7 +1771,8 @@ Dans les années 1970, les problèmes de distribution et de gestion des clés on
 
 Au moins l'une des principales motivations de leur entreprise était la prévision que les communications informatiques ouvertes allaient profondément affecter notre monde. Comme le notent Diffie et Helmann en 1976,
 
-> Le développement de réseaux de communication contrôlés par ordinateur promet des contacts sans effort et peu coûteux entre des personnes ou des ordinateurs situés de part et d'autre du monde, remplaçant la plupart des courriers et de nombreuses excursions par des télécommunications. Pour de nombreuses applications, ces contacts doivent être sécurisés à la fois contre l'écoute et l'injection de messages illégitimes. Or, à l'heure actuelle, la résolution des problèmes de sécurité est très en retard par rapport à d'autres domaines de la technologie des communications. *La cryptographie contemporaine n'est pas en mesure de répondre aux exigences, en ce sens que son utilisation imposerait aux utilisateurs du système des inconvénients si graves qu'elle éliminerait une grande partie des avantages du télétraitement*
+> Le développement de réseaux de communication contrôlés par ordinateur promet des contacts sans effort et peu coûteux entre des personnes ou des ordinateurs situés de part et d'autre du monde, remplaçant la plupart des courriers et de nombreuses excursions par des télécommunications. Pour de nombreuses applications, ces contacts doivent être sécurisés à la fois contre l'écoute et l'injection de messages illégitimes. Or, à l'heure actuelle, la résolution des problèmes de sécurité est très en retard par rapport à d'autres domaines de la technologie des communications. *La cryptographie contemporaine n'est pas en mesure de répondre aux exigences, en ce sens que son utilisation imposerait aux utilisateurs du système des inconvénients si graves qu'elle éliminerait une grande partie des avantages du télétraitement.*
+
 La ténacité de Diffie, Hellman et Merkle a porté ses fruits. La première publication de leurs résultats a été un article de Diffie et Helmann en 1976 intitulé "New Directions in Cryptography" Ils y présentent deux façons originales de résoudre les problèmes de distribution et de gestion des clés.
 
 La première solution qu'ils ont proposée était un *protocole d'échange de clés* à distance, c'est-à-dire un ensemble de règles pour l'échange d'une ou de plusieurs clés symétriques sur un canal de communication non sécurisé. Ce protocole est aujourd'hui connu sous le nom d'échange de clés *Diffie-Helmann* ou d'échange de clés *Diffie-Helmann-Merkle*. [2]
@@ -1802,7 +1801,7 @@ Le deuxième moyen proposé par Diffie et Helmann pour résoudre le problème de
 
 Contrairement à leur présentation de l'échange de clés Diffie-Hellman, ils n'ont fourni que les grandes lignes de la manière dont les systèmes cryptographiques asymétriques pourraient être construits de manière plausible. Ils n'ont proposé aucune fonction à sens unique susceptible de remplir les conditions nécessaires à une sécurité raisonnable dans ces schémas.
 
-Une mise en œuvre pratique d'un système asymétrique a toutefois été trouvée un an plus tard par trois cryptographes et mathématiciens universitaires différents, Ronald Rivest, Shamir et Leonard Adleman : Ronald Rivest, Adi Shamir et Leonard Adleman[3]. [Le système de chiffrement qu'ils ont introduit a été connu sous le nom de **système de chiffrement RSA** (d'après leurs noms de famille).
+Une mise en œuvre pratique d'un système asymétrique a toutefois été trouvée un an plus tard par trois cryptographes et mathématiciens universitaires différents, Ronald Rivest, Shamir et Leonard Adleman : Ronald Rivest, Adi Shamir et Leonard Adleman[3]. Le système de chiffrement qu'ils ont introduit a été connu sous le nom de **système de chiffrement RSA** (d'après leurs noms de famille).
 
 Les fonctions de trappe utilisées dans la cryptographie asymétrique (et l'échange de clés Diffie Helmann) sont toutes liées à deux problèmes principaux **difficiles à calculer** : la factorisation des nombres premiers et le calcul des logarithmes discrets.
 
@@ -1816,7 +1815,7 @@ Nous passerons ensuite à une vue d'ensemble du secret et de l'authentification 
 
 Il semble aujourd'hui plausible qu'un groupe de cryptographes et de mathématiciens britanniques travaillant pour le Government Communications Headquarters (GCHQ) ait fait indépendamment les découvertes mentionnées ci-dessus quelques années auparavant. Ce groupe était composé de James Ellis, Clifford Cocks et Malcolm Williamson.
 
-Selon leurs propres dires et ceux du GCHQ, c'est James Ellis qui a conçu le premier le concept de cryptographie à clé publique en 1969. Clifford Cocks aurait ensuite découvert le système cryptographique RSA en 1973, et Malcolm Williamson le concept d'échange de clés Diffie Helmann en 1974[4]. [Leurs découvertes n'auraient toutefois été révélées qu'en 1997, compte tenu de la nature secrète des travaux effectués au GCHQ.
+Selon leurs propres dires et ceux du GCHQ, c'est James Ellis qui a conçu le premier le concept de cryptographie à clé publique en 1969. Clifford Cocks aurait ensuite découvert le système cryptographique RSA en 1973, et Malcolm Williamson le concept d'échange de clés Diffie Helmann en 1974 [4]. Leurs découvertes n'auraient toutefois été révélées qu'en 1997, compte tenu de la nature secrète des travaux effectués au GCHQ.
 
 **Notes:**
 
@@ -1904,7 +1903,7 @@ La distribution des clés est désormais beaucoup plus simple pour Jim's Sportin
 
 **Notes:**
 
-[Tout système visant à assurer la non-répudiation, l'autre thème abordé au chapitre 1, devra à la base faire appel à des signatures numériques.
+[5] Tout système visant à assurer la non-répudiation, l'autre thème abordé au chapitre 1, devra à la base faire appel à des signatures numériques.
 
 ## Fonctions de hachage
 
@@ -2071,7 +2070,7 @@ Par conséquent, le problème de la factorisation, dans certaines circonstances,
 
 **Notes:**
 
-[La factorisation peut également être importante pour travailler avec d'autres types d'objets mathématiques que les nombres. Par exemple, il peut être utile de factoriser des expressions polynomiales telles que $x^2 - 2x + 1$. Dans notre discussion, nous nous concentrerons uniquement sur la factorisation des nombres, en particulier des entiers.
+[1] La factorisation peut également être importante pour travailler avec d'autres types d'objets mathématiques que les nombres. Par exemple, il peut être utile de factoriser des expressions polynomiales telles que $x^2 - 2x + 1$. Dans notre discussion, nous nous concentrerons uniquement sur la factorisation des nombres, en particulier des entiers.
 
 [2] Selon le **théorème du nombre premier**, le nombre de nombres premiers inférieurs ou égaux à $N$ est approximativement $N/\ln(N)$. Cela signifie que vous pouvez approximer le nombre de nombres premiers de longueur 1024 bits par :
 
@@ -2079,7 +2078,7 @@ $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
 ...ce qui équivaut à environ 1,265 \\Npar 10^{305}$.
 
-[Il en va de même pour les problèmes de logarithme discret. C'est pourquoi les constructions asymétriques fonctionnent avec des clés beaucoup plus grandes que les constructions cryptographiques symétriques.
+[3] Il en va de même pour les problèmes de logarithme discret. C'est pourquoi les constructions asymétriques fonctionnent avec des clés beaucoup plus grandes que les constructions cryptographiques symétriques.
 
 ## Résultats de la théorie des nombres
 

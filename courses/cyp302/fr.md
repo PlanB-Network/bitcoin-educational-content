@@ -28,7 +28,8 @@ Cette introduction à la cryptographie cherche à se situer à mi-chemin. Bien q
 
 Ce livre propose une introduction approfondie à la science et à la pratique de la cryptographie. Dans la mesure du possible, il se concentre sur l'exposition conceptuelle plutôt que formelle de la matière.
 
-> Ce cours est basé sur [le repo de JWBurgers] (https://github.com/JWBurgers/An_Introduction_to_Cryptography). C'est son droit. Le contenu n'est pas encore terminé et n'est là que pour montrer comment nous pourrions l'intégrer si JWburger est d'accord.
+> Ce cours est basé sur [le dépôt de JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Les droits d'auteur lui appartiennent. Le contenu n'est pas encore terminé et n'est là que pour montrer comment nous pourrions l'intégrer si JWburger est d'accord.
+
 ### Motivation et objectifs
 
 Il est difficile de trouver beaucoup de matériel qui offre un juste milieu dans l'enseignement de la cryptographie.
@@ -53,7 +54,7 @@ Si vous avez vraiment du mal avec les détails formels de ces parties du livre, 
 
 L'ouvrage qui a le plus influencé la conception de ce cours est _Introduction to Modern Cryptography_ de Jonathan Katz et Yehuda Lindell, CRC Press (Boca Raton, FL), 2015. Un cours d'accompagnement intitulé "Cryptography" est disponible sur Coursera
 
-Les principales sources supplémentaires qui ont été utiles pour créer la vue d'ensemble de ce livre sont Simon Singh, _The Code Book_, Fourth Estate (Londres, 1999) ; Christof Paar et Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) et [un cours basé sur le livre de Paar intitulé "Introduction to Cryptography"] (https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg) ; et Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN : John Wiley & Sons).
+Les principales sources supplémentaires qui ont été utiles pour créer la vue d'ensemble de ce livre sont Simon Singh, _The Code Book_, Fourth Estate (Londres, 1999) ; Christof Paar et Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) et [un cours basé sur le livre de Paar intitulé "Introduction to Cryptography"](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg) ; et Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN : John Wiley & Sons).
 
 Je ne citerai que les informations et les résultats très spécifiques que je tire de ces sources, mais je tiens à reconnaître ici ma dette générale à leur égard.
 
@@ -61,7 +62,7 @@ Pour les lecteurs qui souhaitent acquérir des connaissances plus avancées sur 
 
 ### Contributions
 
-Veuillez consulter [le fichier des contributions dans le dépôt] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) pour obtenir des indications sur la manière de soutenir le projet.
+Veuillez consulter [le fichier des contributions dans le dépôt](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) pour obtenir des indications sur la manière de soutenir le projet.
 
 ### Notation
 
@@ -126,7 +127,7 @@ Après décryptage, le second message fournit le contenu détaillé du trésor (
 
 **Notes:**
 
-[1] Pour un bon résumé de l'histoire, voir Simon Singh, *The Code Book*, Fourth Estate (Londres, 1999), pp. 82-99. Un court métrage de l'histoire a été réalisé par Andrew Allen en 2010. Vous pouvez trouver le film, "The Thomas Beale Cipher", [sur son site web] (http://www.thomasbealecipher.com/).
+[1] Pour un bon résumé de l'histoire, voir Simon Singh, *The Code Book*, Fourth Estate (Londres, 1999), pp. 82-99. Un court métrage de l'histoire a été réalisé par Andrew Allen en 2010. Vous pouvez trouver le film, "The Thomas Beale Cipher", [sur son site web](http://www.thomasbealecipher.com/).
 
 [2] Cette image est disponible sur la page Wikipédia consacrée aux chiffres de Beale.
 
@@ -937,7 +938,7 @@ Pour une discussion plus approfondie sur la théorie moderne des nombres, vous p
 
 **Notes:**
 
-[3] Voir [Vidéo YouTube] (https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
+[3] Voir [Vidéo YouTube](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
 [4] Socratica, [Algèbre abstraite](https://www.socratica.com/subject/abstract-algebra)
 
@@ -1939,11 +1940,11 @@ Une fonction de hachage $H$ est dite **résistante aux collisions** s'il est imp
 
 Les fonctions de hachage résistantes aux collisions sont importantes, par exemple, pour la vérification des logiciels. Supposons que vous souhaitiez télécharger la version Windows de Bitcoin Core 0.21.0 (une application serveur pour le traitement du trafic réseau Bitcoin). Les principales étapes à suivre pour vérifier la légitimité du logiciel sont les suivantes :
 
-1.	Vous devez d'abord télécharger et importer les clés publiques d'un ou plusieurs contributeurs Bitcoin Core dans un logiciel qui peut vérifier les signatures numériques (par exemple Kleopetra). Vous pouvez trouver ces clés publiques [ici] (https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Il est recommandé de vérifier le logiciel Bitcoin Core avec les clés publiques de plusieurs contributeurs.
+1.	Vous devez d'abord télécharger et importer les clés publiques d'un ou plusieurs contributeurs Bitcoin Core dans un logiciel qui peut vérifier les signatures numériques (par exemple Kleopetra). Vous pouvez trouver ces clés publiques [ici](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Il est recommandé de vérifier le logiciel Bitcoin Core avec les clés publiques de plusieurs contributeurs.
 
 2.	Ensuite, vous devez vérifier les clés publiques que vous avez importées. Vous devez au moins vérifier que les clés publiques que vous avez trouvées sont les mêmes que celles qui ont été publiées à d'autres endroits. Vous pouvez, par exemple, consulter les pages web personnelles, les pages Twitter ou les pages Github des personnes dont vous avez importé les clés publiques. En général, cette comparaison des clés publiques se fait en comparant un court hachage de la clé publique, appelé empreinte digitale.
 
-3.	Ensuite, vous devez télécharger l'exécutable de Bitcoin Core depuis leur [site web] (www.bitcoincore.org). Des paquets sont disponibles pour les systèmes d'exploitation Linux, Windows et MAC.
+3.	Ensuite, vous devez télécharger l'exécutable de Bitcoin Core depuis leur [site web](www.bitcoincore.org). Des paquets sont disponibles pour les systèmes d'exploitation Linux, Windows et MAC.
 
 4.	Ensuite, vous devez localiser deux fichiers de publication. Le premier contient le hachage officiel SHA-256 de l'exécutable que vous avez téléchargé ainsi que les hachages de tous les autres paquets qui ont été publiés. Un autre fichier de version contiendra les signatures des différents contributeurs sur le fichier de version avec les hachages des paquets. Ces deux fichiers de publication devraient se trouver sur le site web de Bitcoin Core.
 

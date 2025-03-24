@@ -600,166 +600,158 @@ Les ensembles étudiés en algèbre abstraite peuvent traiter de nombreux types 
 
 
 ## Groupes
-
 <chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
 
-Un concept de base en mathématiques est celui d'un ensemble d'éléments. Un ensemble est généralement désigné par des signes d'accolade, les éléments étant séparés par des virgules.
+Un concept fondamental en mathématiques est celui d'un ensemble d’éléments. Un ensemble est généralement noté par des accolades avec les éléments séparés par des virgules.
 
-Par exemple, l'ensemble des entiers est ${..., -2, -1, 0, 1, 2, ...\}$. Les ellipses signifient ici qu'un certain modèle se poursuit dans une direction particulière. Ainsi, l'ensemble de tous les entiers comprend également $3, 4, 5, 6$ et ainsi de suite, ainsi que $-3, -4, -5, -6$ et ainsi de suite. Cet ensemble de tous les entiers est généralement désigné par $\mathbb{Z}$.
+Par exemple, l'ensemble de tous les entiers est $\{…, -2, -1, 0, 1, 2, …\}$. Les points de suspension indiquent ici qu'un certain motif se poursuit dans une direction particulière. Ainsi, l'ensemble de tous les entiers comprend également $3, 4, 5, 6$, et ainsi de suite, ainsi que $-3, -4, -5, -6$, et ainsi de suite. Cet ensemble de tous les entiers est habituellement noté par $\mathbb{Z}$.
 
-Un autre exemple d'ensemble est $\mathbb{Z} \Nmod 11$, ou l'ensemble de tous les entiers modulo 11. Contrairement à l'ensemble entier $\mathbb{Z}$, cet ensemble ne contient qu'un nombre fini d'éléments, à savoir $\{0, 1, \ldots, 9, 10\}$.
+Un autre exemple d'ensemble est $\mathbb{Z} \mod 11$, c'est-à-dire l'ensemble de tous les entiers modulo 11. Contrairement à l'ensemble infini $\mathbb{Z}$, cet ensemble ne contient qu'un nombre fini d'éléments, à savoir $\{0, 1, \ldots, 9, 10\}$.
 
-Une erreur courante consiste à penser que l'ensemble $\mathbb{Z} \mod 11$ est en fait $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Mais ce n'est pas le cas, étant donné la façon dont nous avons défini l'opération modulo plus tôt. Tous les entiers négatifs réduits par modulo 11 s'enroulent sur $\{0, 1, \ldots, 9, 10\}$. Par exemple, l'expression $-2 \mod 11$ s'enroule autour de $9$, tandis que l'expression $-27 \mod 11$ s'enroule autour de $5$.
+Une erreur courante consiste à penser que l'ensemble $\mathbb{Z} \mod 11$ est en réalité $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Mais ce n'est pas le cas, en raison de la définition de l'opération modulo évoquée précédemment. Tout entier négatif réduit par modulo 11 se replie sur $\{0, 1, \ldots, 9, 10\}$. Par exemple, l'expression $-2 \mod 11$ se réduit à $9$, tandis que l'expression $-27 \mod 11$ se réduit à $5$.
 
-Un autre concept de base en mathématiques est celui d'opération binaire. Il s'agit de toute opération qui prend deux éléments pour en produire un troisième. Par exemple, l'arithmétique et l'algèbre de base vous familiarisent avec quatre opérations binaires fondamentales : l'addition, la soustraction, la multiplication et la division.
+Un autre concept fondamental en mathématiques est celui d'une opération binaire. Il s'agit de toute opération qui prend deux éléments pour en produire un troisième. Par exemple, en arithmétique et en algèbre de base, vous êtes familier avec quatre opérations binaires fondamentales : l'addition, la soustraction, la multiplication et la division.
 
-Ces deux concepts mathématiques de base, les ensembles et les opérations binaires, sont utilisés pour définir la notion de groupe, la structure la plus essentielle de l'algèbre abstraite.
+Ces deux concepts mathématiques fondamentaux, les ensembles et les opérations binaires, sont utilisés pour définir la notion de groupe, la structure la plus essentielle en algèbre abstraite.
 
-Plus précisément, supposons une opération binaire $\circ$. De plus, supposons un ensemble d'éléments **S** équipé de cette opération. Tout ce que "équipé" signifie ici, c'est que l'opération $\circ$ peut être effectuée entre deux éléments quelconques de l'ensemble **S**.
+Plus précisément, supposons une opération binaire $\circ$. De plus, supposons qu’un ensemble d’éléments **S** soit équipé de cette opération. Lorsque l'on dit qu'un ensemble est "équipé" d'une opération, cela signifie simplement que l'opération $\circ$ peut être effectuée entre n'importe quels deux éléments de l'ensemble **S**.
 
-La combinaison $\langle \mathbf{S}, \circ \rangle$ est donc un **groupe** si elle remplit quatre conditions spécifiques, connues sous le nom d'axiomes de groupe.
+La combinaison $\langle \mathbf{S}, \circ \rangle$ est alors un **groupe** si elle satisfait quatre conditions spécifiques, appelées les axiomes de groupe.
 
-1. Pour tout $a$ et $b$ qui sont des éléments de $\mathbf{S}$, $a \circ b$ est aussi un élément de $\mathbf{S}$. C'est ce qu'on appelle la **condition de fermeture**.
+1. Pour tout $a$ et $b$ appartenant à $\mathbf{S}$, $a \circ b$ est également un élément de $\mathbf{S}$. C'est ce que l'on appelle la **condition de fermeture**.
+2. Pour tout $a$, $b$ et $c$ appartenant à $\mathbf{S}$, on a $(a \circ b) \circ c = a \circ (b \circ c)$. C'est ce que l'on appelle la **condition d'associativité**.
+3. Il existe un élément unique $e$ dans $\mathbf{S}$ tel que, pour tout élément $a$ de $\mathbf{S}$, l'équation suivante est vérifiée : $e \circ a = a \circ e = a$. Puisqu'il n'y a qu'un seul élément de ce type, il est appelé **élément neutre**. Cette condition est connue sous le nom de **condition d'identité**.
+4. Pour chaque élément $a$ de $\mathbf{S}$, il existe un élément $b$ dans $\mathbf{S}$ tel que l'équation suivante est vérifiée : $a \circ b = b \circ a = e$, où $e$ est l’élément neutre. L’élément $b$ est appelé **élément inverse**, et il est couramment noté $a^{-1}$. Cette condition est appelée **condition d'inverse** ou **condition d'inversibilité**.
 
-2. Pour tout $a$, $b$ et $c$ qui sont des éléments de $\mathbf{S}$, il se peut que $(a \circ b) \circ c = a \circ (b \circ c)$. C'est ce qu'on appelle la **condition d'associativité**.
+Explorons un peu plus les groupes. Notons l'ensemble de tous les entiers par $\mathbb{Z}$. Cet ensemble, combiné avec l’addition standard, soit $\langle \mathbb{Z}, + \rangle$, répond clairement à la définition d’un groupe puisqu'il satisfait aux quatre axiomes mentionnés ci-dessus.
 
-3. Il existe un élément unique $e$ dans $\mathbf{S}$, tel que pour tout élément $a$ dans $\mathbf{S}$, l'équation suivante s'applique : $e \circ a = a \circ e = a$. Comme il n'existe qu'un seul élément de ce type, $e$, on l'appelle **élément d'identité**. Cette condition est connue sous le nom de **condition d'identité**.
+1. Pour tout $x$ et $y$ appartenant à $\mathbb{Z}$, $x + y$ est aussi un élément de $\mathbb{Z}$. Ainsi, $\langle \mathbb{Z}, + \rangle$ satisfait la condition de fermeture.
+2. Pour tout $x$, $y$ et $z$ appartenant à $\mathbb{Z}$, $(x + y) + z = x + (y + z)$. Donc, $\langle \mathbb{Z}, + \rangle$ satisfait la condition d'associativité.
+3. Il existe un élément neutre dans $\langle \mathbb{Z}, + \rangle$, à savoir $0$. Pour tout $x$ dans $\mathbb{Z}$, on a : $0 + x = x + 0 = x$. Ainsi, $\langle \mathbb{Z}, + \rangle$ satisfait la condition d'identité.
+4. Enfin, pour chaque élément $x$ dans $\mathbb{Z}$, il existe un $y$ tel que $x + y = y + x = 0$. Si $x$ est égal à $10$, alors $y$ serait $-10$ (dans le cas où $x$ est $0$, $y$ est aussi $0$). Ainsi, $\langle \mathbb{Z}, + \rangle$ satisfait la condition d'inverse.
 
-4. Pour chaque élément $a$ dans $\mathbf{S}$, il existe un élément $b$ dans $\mathbf{S}$, tel que l'équation suivante s'applique : $a \circ b = b \circ a = e$, où $e$ est l'élément identité. L'élément $b$ est ici appelé **élément inverse**, et il est communément désigné par $a^{-1}$. Cette condition est connue sous le nom de **condition inverse** ou **condition d'inversion**.
+Il est important de noter que le fait que l'ensemble des entiers avec l'addition constitue un groupe ne signifie pas qu'il en constitue un avec la multiplication. Vous pouvez vérifier cela en testant $\langle \mathbb{Z}, \cdot \rangle$ par rapport aux quatre axiomes de groupe (où $\cdot$ représente la multiplication standard).
 
-Explorons un peu plus les groupes. Dénotons l'ensemble des entiers par $\mathbb{Z}$. Cet ensemble, combiné à l'addition standard, ou $\langle \mathbb{Z}, + \rangle$, correspond clairement à la définition d'un groupe, car il satisfait aux quatre axiomes ci-dessus.
+Les deux premiers axiomes sont évidemment vérifiés. De plus, pour ce qui est de la multiplication, l’élément $1$ peut servir d’élément neutre. En effet, tout entier $x$ multiplié par $1$ donne $x$. Cependant, $\langle \mathbb{Z}, \cdot \rangle$ ne satisfait pas la condition d'inverse. Autrement dit, il n’existe pas d’élément unique $y$ dans $\mathbb{Z}$ pour chaque $x$ appartenant à $\mathbb{Z}$ tel que $x \cdot y = 1$.
 
-1. Pour tout $x$ et $y$ qui sont des éléments de $\mathbb{Z}$, $x + y$ est aussi un élément de $\mathbb{Z}$. Donc $\langle \mathbb{Z}, + \rangle$ satisfait la condition de fermeture.
+Par exemple, supposons que $x = 22$. Quelle valeur $y$ de l'ensemble $\mathbb{Z}$ multipliée par $x$ donnerait l’élément neutre $1$ ? La valeur $1/22$ conviendrait, mais cela n’appartient pas à l’ensemble $\mathbb{Z}$. En fait, ce problème se pose pour tout entier $x$, à l’exception de $1$ et $-1$ (pour lesquels $y$ doit être respectivement $1$ et $-1$).
 
-2. Pour tout $x$, $y$ et $z$ qui sont des éléments de $\mathbb{Z}$, $(x + y) + z = x + (y + z)$. Donc $\langle \mathbb{Z}, + \rangle$ satisfait la condition d'associativité.
+Si nous permettons aux nombres réels de faire partie de notre ensemble, alors ces problèmes disparaissent en grande partie. Pour tout élément $x$ dans l'ensemble, la multiplication par $1/x$ donne $1$. Comme les fractions sont incluses dans l'ensemble des nombres réels, un inverse peut être trouvé pour chaque nombre réel. L’exception est zéro, car toute multiplication par zéro ne donnera jamais l’élément neutre $1$. Ainsi, l'ensemble des nombres réels non nuls muni de l'opération de multiplication est bel et bien un groupe.
 
-3. Il existe un élément d'identité dans $\langle \mathbb{Z}, + \rangle$, à savoir 0. Pour tout $x$ dans $\mathbb{Z}$, il s'avère que : $0 + x = x + 0 = x$. Donc $\langle \mathbb{Z}, + \rangle$ satisfait la condition d'identité.
+Certains groupes respectent une cinquième condition générale, connue sous le nom de **condition de commutativité**. Cette condition est formulée comme suit :
 
-4. Enfin, pour chaque élément $x$ dans $\mathbb{Z}$, il existe un $y$ tel que $x + y = y + x = 0$. Si $x$ est 10, par exemple, $y$ sera $-10$ (dans le cas où $x$ est 0, $y$ est aussi 0). Donc $\langle \mathbb{Z}, + \rangle$ satisfait la condition inverse.
+* Supposons un groupe $G$ avec un ensemble **S** et un opérateur binaire $\circ$. Supposons que $a$ et $b$ sont des éléments de **S**. Si pour n'importe quels deux éléments $a$ et $b$ de **S**, on a $a \circ b = b \circ a$, alors $G$ respecte la condition de commutativité.
 
-Il est important de noter que le fait que l'ensemble des entiers avec addition constitue un groupe ne signifie pas qu'il constitue un groupe avec multiplication. Vous pouvez le vérifier en testant $\langle \mathbb{Z}, \cdot \rangle$ par rapport aux quatre axiomes de groupe (où $\cdot$ signifie multiplication standard).
+Tout groupe qui respecte la condition de commutativité est appelé un **groupe commutatif**, ou un **groupe abélien** (d’après Niels Henrik Abel). Il est facile de vérifier que l'ensemble des nombres réels muni de l’addition et l'ensemble des entiers muni de l’addition sont tous deux des groupes abéliens. En revanche, l'ensemble des entiers muni de la multiplication n'est pas un groupe du tout, donc il ne peut pas être un groupe abélien. L'ensemble des nombres réels non nuls muni de la multiplication, en revanche, est également un groupe abélien.
 
-Les deux premiers axiomes sont évidemment valables. De plus, sous la multiplication, l'élément 1 peut servir d'élément d'identité. Tout entier $x$ multiplié par 1 donne donc $x$. Cependant, $\langle \mathbb{Z}, \cdot \rangle$ ne remplit pas la condition inverse. En d'autres termes, il n'existe pas d'élément unique $y$ dans $\mathbb{Z}$ pour tout $x$ dans $\mathbb{Z}$, de sorte que $x \cdot y = 1$.
+Il est important de prêter attention à deux conventions courantes en matière de notation. Premièrement, les signes “+” ou “×” sont fréquemment utilisés pour symboliser des opérations de groupe, même lorsque les éléments ne sont pas, en réalité, des nombres. Dans ces cas, il ne faut pas interpréter ces signes comme une addition ou une multiplication arithmétique classique. Au lieu de cela, il s’agit d’opérations ayant seulement une similitude abstraite avec ces opérations arithmétiques.
 
-Par exemple, supposons que $x = 22$. Quelle valeur $y$ de l'ensemble $\mathbb{Z}$ multipliée par $x$ donnerait l'élément identité 1 ? La valeur $1/22$ fonctionnerait, mais elle ne fait pas partie de l'ensemble $\mathbb{Z}$. En fait, ce problème se pose pour tout entier $x$, autre que les valeurs 1 et -1 (où $y$ devrait être 1 et -1 respectivement).
+À moins de se référer spécifiquement à l’addition ou la multiplication arithmétique, il est préférable d'utiliser des symboles comme $\circ$ et $\diamond$ pour désigner des opérations de groupe, car ces symboles n’ont pas les connotations culturelles profondément ancrées des signes “+” et “×”.
 
-Si nous autorisons les nombres réels pour notre ensemble, nos problèmes disparaissent en grande partie. Pour tout élément $x$ de l'ensemble, la multiplication par $1/x$ donne 1. Comme les fractions sont incluses dans l'ensemble des nombres réels, un inverse peut être trouvé pour chaque nombre réel. L'exception est le zéro, car toute multiplication avec zéro ne donnera jamais l'élément d'identité 1. Par conséquent, l'ensemble des nombres réels non nuls dotés d'une multiplication est bien un groupe.
+Deuxièmement, pour la même raison que les signes “+” et “×” sont souvent utilisés pour indiquer des opérations non arithmétiques, les éléments neutres des groupes sont fréquemment symbolisés par “0” et “1”, même lorsque les éléments de ces groupes ne sont pas des nombres. Sauf si l’on se réfère à l’élément neutre d’un groupe de nombres, il est préférable d'utiliser un symbole plus neutre tel que “$e$” pour désigner l’élément neutre.
 
-Certains groupes remplissent une cinquième condition générale, connue sous le nom de **condition de commutativité**. Cette condition est la suivante :
+De nombreux ensembles différents et très importants en mathématiques, équipés de certaines opérations binaires, sont des groupes. Les applications cryptographiques, cependant, fonctionnent uniquement avec des ensembles d'entiers ou au moins avec des éléments qui peuvent être décrits par des entiers, c'est-à-dire dans le domaine de la théorie des nombres. Par conséquent, les ensembles contenant des nombres réels autres que des entiers ne sont pas utilisés dans les applications cryptographiques.
 
+Terminons par un exemple d’éléments qui peuvent être “décrits par des entiers”, même s’ils ne sont pas eux-mêmes des entiers. Un bon exemple est celui des points sur des courbes elliptiques. Bien qu’un point sur une courbe elliptique ne soit clairement pas un entier, un tel point est effectivement décrit par deux entiers.
 
-- Supposons un groupe $G$ avec un ensemble **S** et un opérateur binaire $\circ$. Supposons que $a$ et $b$ sont des éléments de **S**. Si $a \circ b = b \circ a$ pour deux éléments $a$ et $b$ dans **S**, alors $G$ satisfait la condition de commutativité.
-
-Tout groupe qui satisfait à la condition de commutativité est appelé **groupe commutatif** ou **groupe abélien** (d'après Niels Henrik Abel). Il est facile de vérifier que l'ensemble des nombres réels sur l'addition et l'ensemble des entiers sur l'addition sont des groupes abéliens. L'ensemble des entiers sur la multiplication n'est pas du tout un groupe et ne peut donc pas être un groupe abélien. L'ensemble des nombres réels non nuls sur la multiplication, en revanche, est également un groupe abélien.
-
-Vous devez respecter deux conventions importantes en matière de notation. Premièrement, les signes "+" ou "×" seront souvent utilisés pour symboliser les opérations de groupe, même lorsque les éléments ne sont pas, en fait, des nombres. Dans ces cas, vous ne devez pas interpréter ces signes comme des additions ou des multiplications arithmétiques standard. Il s'agit plutôt d'opérations qui n'ont qu'une ressemblance abstraite avec ces opérations arithmétiques.
-
-À moins que vous ne fassiez spécifiquement référence à l'addition ou à la multiplication arithmétique, il est plus facile d'utiliser des symboles tels que $\circ$ et $\diamond$ pour les opérations de groupe, car ils n'ont pas de connotations très ancrées dans la culture.
-
-Deuxièmement, pour la même raison que "+" et "×" sont souvent utilisés pour indiquer des opérations non arithmétiques, les éléments identitaires des groupes sont fréquemment symbolisés par "0" et "1", même lorsque les éléments de ces groupes ne sont pas des nombres. À moins que vous ne fassiez référence à l'élément d'identité d'un groupe avec des nombres, il est plus facile d'utiliser un symbole plus neutre tel que "$e$" pour indiquer l'élément d'identité.
-
-De nombreux ensembles de valeurs différents et très importants en mathématiques, dotés de certaines opérations binaires, sont des groupes. Les applications cryptographiques, cependant, ne fonctionnent qu'avec des ensembles d'entiers ou au moins des éléments décrits par des entiers, c'est-à-dire dans le domaine de la théorie des nombres. Par conséquent, les ensembles avec des nombres réels autres que les entiers ne sont pas utilisés dans les applications cryptographiques.
-
-Terminons en donnant un exemple d'éléments qui peuvent être "décrits par des entiers", même s'ils ne sont pas des entiers. Un bon exemple est celui des points des courbes elliptiques. Bien que tout point d'une courbe elliptique ne soit clairement pas un entier, un tel point est en effet décrit par deux entiers.
-
-Les courbes elliptiques sont, par exemple, cruciales pour Bitcoin. Toute paire de clés privée et publique standard de Bitcoin est sélectionnée à partir de l'ensemble des points définis par la courbe elliptique suivante :
+Les courbes elliptiques sont, par exemple, essentielles au fonctionnement de Bitcoin. Toute paire de clés privée et publique standard en Bitcoin est sélectionnée à partir de l'ensemble des points définis par la courbe elliptique suivante :
 
 $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(le plus grand nombre premier inférieur à $2^{256}$). La coordonnée $x$ est la clé privée et la coordonnée $y$ est votre clé publique.
+(qui est le plus grand nombre premier inférieur à $2^{256}$). La coordonnée $x$ représente la clé privée, et la coordonnée $y$ représente la clé publique.
 
-Les transactions en bitcoin impliquent généralement de verrouiller les sorties sur une ou plusieurs clés publiques d'une manière ou d'une autre. La valeur de ces transactions peut ensuite être déverrouillée en créant des signatures numériques avec les clés privées correspondantes.
+Les transactions en Bitcoin consistent généralement à verrouiller des sorties (outputs) sur une ou plusieurs clés publiques d'une certaine manière. La valeur de ces transactions peut alors être déverrouillée en créant des signatures numériques avec les clés privées correspondantes.
 
 ## Groupes cycliques
-
 <chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
 
-Une distinction majeure que nous pouvons faire est entre un groupe **fini** et un groupe **infini**. Le premier a un nombre fini d'éléments, tandis que le second a un nombre infini d'éléments. Le nombre d'éléments d'un groupe fini est appelé **ordre du groupe**. Toute la cryptographie pratique qui implique l'utilisation de groupes repose sur des groupes finis (en théorie des nombres).
+Une distinction majeure que l'on peut établir est celle entre un **groupe fini** et un **groupe infini**. Le premier possède un nombre fini d’éléments, tandis que le second en possède un nombre infini. Le nombre d’éléments dans tout groupe fini est appelé **ordre du groupe**. Toute cryptographie pratique utilisant des groupes repose sur des groupes finis (issus de la théorie des nombres).
 
-Dans le cadre de la cryptographie à clé publique, une certaine classe de groupes abéliens finis connus sous le nom de groupes cycliques est particulièrement importante. Pour comprendre les groupes cycliques, il faut d'abord comprendre le concept d'exponentiation des éléments de groupe.
+En cryptographie à clé publique, une certaine classe de groupes finis abéliens, appelés **groupes cycliques**, est particulièrement importante. Pour comprendre les groupes cycliques, nous devons d’abord comprendre le concept d’**exponentiation d’éléments de groupe**.
 
-Supposons un groupe $G$ avec une opération de groupe $\circ$, et que $a$ est un élément de $G$. L'expression $a^n$ doit alors être interprétée comme l'élément $a$ combiné avec lui-même un total de $n - 1$ fois. Par exemple, $a^2$ signifie $a \circ a$, $a^3$ signifie $a \circ a \circ a$, et ainsi de suite. (Notez que l'exponentiation ici n'est pas nécessairement l'exponentiation au sens arithmétique standard)
+Supposons un groupe $G$ avec une opération de groupe $\circ$, et que $a$ soit un élément de $G$. L'expression $a^n$ doit alors être interprétée comme l’élément $a$ combiné avec lui-même un total de $n - 1$ fois. Par exemple, $a^2$ signifie $a \circ a$, $a^3$ signifie $a \circ a \circ a$, et ainsi de suite. (Il est important de noter que l'exponentiation ici n'est pas nécessairement l'exponentiation au sens arithmétique standard.)
 
-Prenons un exemple. Supposons que $G = \langle \mathbb{Z} \mod 7, + \rangle$, et que notre valeur pour $a$ est égale à 4. Dans ce cas, $a^2 = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. Alternativement, $a^4$ représenterait $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
+Prenons un exemple. Supposons que $G = \langle \mathbb{Z} \mod 7, + \rangle$, et que notre valeur de $a$ soit égale à $4$. Dans ce cas :
 
-Certains groupes abéliens possèdent un ou plusieurs éléments qui peuvent produire tous les autres éléments du groupe par exponentiation continue. Ces éléments sont appelés **générateurs** ou **éléments primitifs**.
+- $a^2 = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$.
+- De même, $a^4$ correspond à $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
 
-Une classe importante de ces groupes est $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, où $N$ est un nombre premier. La notation $\mathbb{Z}^*$ signifie ici que le groupe contient tous les entiers positifs non nuls inférieurs à $N$. Un tel groupe a donc toujours $N - 1$ éléments.
+Certains groupes abéliens possèdent un ou plusieurs éléments qui, par exponentiation continue, peuvent produire tous les autres éléments du groupe. Ces éléments sont appelés **générateurs** ou **éléments primitifs**.
 
-Considérons, par exemple, $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Ce groupe possède les éléments suivants : $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. L'ordre de ce groupe est 10 (qui est bien égal à $11 - 1$).
+Une classe importante de tels groupes est $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, où $N$ est un nombre premier. La notation $\mathbb{Z}^*$ signifie ici que le groupe contient tous les entiers positifs non nuls inférieurs à $N$. Ainsi, ce groupe contient toujours $N - 1$ éléments.
 
-Explorons l'exponentialisation de l'élément 2 de ce groupe. Les calculs effectués jusqu'à $2^{12}$ sont présentés ci-dessous. Notez que du côté gauche de l'équation, l'exposant se réfère à l'exponentiation de l'élément de groupe. Dans notre exemple particulier, il s'agit bien d'une exponentiation arithmétique du côté droit de l'équation (mais il aurait pu s'agir aussi, par exemple, d'une addition). Pour plus de clarté, j'ai écrit l'opération répétée, plutôt que la forme de l'exposant du côté droit.
+Prenons par exemple $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Ce groupe contient les éléments suivants : $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. L’ordre de ce groupe est de $10$ (ce qui est bien égal à $11 - 1$).
 
+Examinons maintenant l'exponentiation de l’élément $2$ de ce groupe. Les calculs jusqu’à $2^{12}$ sont présentés ci-dessous. Notez que, dans cet exemple particulier, l'exponentiation de groupe correspond effectivement à l'exponentiation arithmétique sur le côté droit de l’équation (mais cela pourrait aussi impliquer, par exemple, une addition). Pour plus de clarté, j'ai détaillé l'opération répétée au lieu d'utiliser la forme exponentielle sur la partie droite.
 
-- $2^1 = 2 \mod 11$
-- $2^2 = 2 \cdot 2 \mod 11 = 4 \mod 11$
-- $2^3 = 2 \cdot 2 \cdot 2 \cmod 11 = 8 \cmod 11$
-- $2^4 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 16 \mod 11 = 5 \cdot 11$
-- $2^5 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cmod 11 = 32 \cmod 11 = 10 \cmod 11$
-- $2^6 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cmod 11 = 64 \cmod 11 = 9 \cmod 11$
-- $2^7 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cmod 11 = 128 \cdot 11 = 7 \cdot 11$
-- $2^8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cmod 11 = 256 \cdot 11 = 3 \cdot 11$
-- $2^9 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cmod 11 = 512 \cdot 11 = 6 \cdot 11$
-- $2^{10} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cmod 11 = 1024 \cdot 11 = 1 \cdot 11$
-- $2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cmod 11 = 2048 \cdot 11 = 2 \cdot 11$
-- $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cmod 11 = 4096 \cdot 11 = 4 \cdot 11$
+* $2^1 = 2 \mod 11$
+* $2^2 = 2 \cdot 2 \mod 11 = 4 \mod 11$
+* $2^3 = 2 \cdot 2 \cdot 2 \mod 11 = 8 \mod 11$
+* $2^4 = 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 16 \mod 11 = 5 \mod 11$
+* $2^5 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 32 \mod 11 = 10 \mod 11$
+* $2^6 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 64 \mod 11 = 9 \mod 11$
+* $2^7 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 128 \mod 11 = 7 \mod 11$
+* $2^8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 256 \mod 11 = 3 \mod 11$
+* $2^9 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 512 \mod 11 = 6 \mod 11$
+* $2^{10} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 1024 \mod 11 = 1 \mod 11$
+* $2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 2048 \mod 11 = 2 \mod 11$
+* $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 4096 \mod 11 = 4 \mod 11$
 
-Si vous regardez attentivement, vous pouvez voir que l'exponentiation de l'élément 2 parcourt tous les éléments de $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ dans l'ordre suivant : 2, 4, 8, 5, 10, 9, 7, 3, 6, 1 : 2, 4, 8, 5, 10, 9, 7, 3, 6, 1. Après $2^{10}$, l'exponentiation continue de l'élément 2 parcourt à nouveau tous les éléments dans le même ordre. Par conséquent, l'élément 2 est un générateur dans $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
+En examinant attentivement, on constate que l’exponentiation de l’élément $2$ parcourt tous les éléments de $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ dans l’ordre suivant : $2, 4, 8, 5, 10, 9, 7, 3, 6, 1$. Après $2^{10}$, l’exponentiation continue de l’élément $2$ parcourt à nouveau tous les éléments, dans le même ordre. Par conséquent, l’élément $2$ est un **générateur** dans $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
 
-Bien que $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ ait plusieurs générateurs, tous les éléments de ce groupe ne sont pas des générateurs. Considérons, par exemple, l'élément 3. En parcourant les 10 premières exponentiations, sans montrer les calculs fastidieux, on obtient les résultats suivants :
+Bien que $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ possède plusieurs générateurs, tous les éléments de ce groupe ne sont pas des générateurs. Prenons par exemple l’élément $3$. En parcourant les dix premières exponentiations, sans montrer les calculs détaillés, on obtient les résultats suivants :
 
+* $3^1 = 3 \mod 11$
+* $3^2 = 9 \mod 11$
+* $3^3 = 5 \mod 11$
+* $3^4 = 4 \mod 11$
+* $3^5 = 1 \mod 11$
+* $3^6 = 3 \mod 11$
+* $3^7 = 9 \mod 11$
+* $3^8 = 5 \mod 11$
+* $3^9 = 4 \mod 11$
+* $3^{10} = 1 \mod 11$
 
-- $3^1 = 3 \mod 11$
-- $3^2 = 9 \mod 11$
-- $3^3 = 5 \mod 11$
-- $3^4 = 4 \mod 11$
-- $3^5 = 1 \mod 11$
-- $3^6 = 3 \mod 11$
-- $3^7 = 9 \mod 11$
-- $3^8 = 5 \mod 11$
-- $3^9 = 4 \mod 11$
-- $3^{10} = 1 \mod 11$
+Au lieu de parcourir toutes les valeurs de $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, l’exponentiation de l’élément $3$ ne produit qu’un sous-ensemble de ces valeurs : $3, 9, 5, 4,$ et $1$. Après la cinquième exponentiation, ces valeurs commencent à se répéter.
 
-Au lieu de parcourir toutes les valeurs de $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, l'exponentiation de l'élément 3 ne conduit qu'à un sous-ensemble de ces valeurs : 3, 9, 5, 4 et 1. Après la cinquième exponentiation, ces valeurs commencent à se répéter.
+Nous pouvons maintenant définir un **groupe cyclique** comme étant tout groupe possédant au moins un générateur. C'est-à-dire qu'il existe au moins un élément du groupe à partir duquel on peut obtenir tous les autres éléments du groupe par exponentiation.
 
-Nous pouvons maintenant définir un **groupe cyclique** comme tout groupe ayant au moins un générateur. C'est-à-dire qu'il existe au moins un élément de groupe à partir duquel vous pouvez produire tous les autres éléments de groupe par exponentiation.
+Vous avez peut-être remarqué dans notre exemple précédent que $2^{10}$ et $3^{10}$ sont tous deux égaux à $1 \mod 11$. En fait, bien que nous n'effectuions pas tous les calculs, l’exponentiation par $10$ de n'importe quel élément du groupe $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ donnera $1 \mod 11$. Pourquoi en est-il ainsi ?
 
-Vous avez peut-être remarqué dans notre exemple ci-dessus que $2^{10}$ et $3^{10}$ sont tous deux égaux à $1 \mod 11$. En fait, bien que nous ne fassions pas les calculs, l'exponentiation par 10 de tout élément du groupe $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ donnera $1 \mod 11$. Pourquoi en est-il ainsi ?
+C'est une question importante, mais y répondre demande un peu de travail.
 
-C'est une question importante, mais il faut du travail pour y répondre.
+Pour commencer, supposons deux entiers positifs $a$ et $N$. Un théorème important en théorie des nombres indique que $a$ possède un **inverse multiplicatif modulo $N$** (c'est-à-dire un entier $b$ tel que $a \cdot b = 1 \mod N$) si et seulement si le **plus grand commun diviseur** entre $a$ et $N$ est égal à $1$. Autrement dit, si $a$ et $N$ sont **premiers entre eux** (ou copremiers).
 
-Pour commencer, supposons deux entiers positifs $a$ et $N$. Un théorème important de la théorie des nombres stipule que $a$ a un inverse multiplicatif modulo $N$ (c'est-à-dire un entier $b$ tel que $a \cdot b = 1 \mod N$) si et seulement si le plus grand diviseur commun entre $a$ et $N$ est égal à 1. Autrement dit, si $a$ et $N$ sont des coprimes.
+Ainsi, pour tout groupe d'entiers muni de la multiplication modulo $N$, seuls les entiers qui sont copremiers avec $N$ sont inclus dans l'ensemble. Nous pouvons désigner cet ensemble par $\mathbb{Z}^c \mod N$.
 
-Ainsi, pour tout groupe d'entiers doté de la multiplication modulo $N$, seuls les plus petits coprimes avec $N$ sont inclus dans l'ensemble. Nous pouvons désigner cet ensemble par $\mathbb{Z}^c \mod N$.
+Par exemple, supposons que $N$ soit $10$. Seuls les entiers $1, 3, 7,$ et $9$ sont copremiers avec $10$. Ainsi, l'ensemble $\mathbb{Z}^c \mod 10$ contient uniquement $\{1, 3, 7, 9\}$. On ne peut pas créer un groupe avec la multiplication des entiers modulo $10$ en utilisant d'autres entiers entre $1$ et $10$. Pour ce groupe particulier, les inverses sont les paires $1$ et $9$, ainsi que $3$ et $7$.
 
-Par exemple, supposons que $N$ est 10. Seuls les entiers 1, 3, 7 et 9 sont des coprimes de 10. L'ensemble $\mathbb{Z}^c \mod 10$ ne comprend donc que $\{1, 3, 7, 9\}$. Il n'est pas possible de créer un groupe avec multiplication entière modulo 10 en utilisant d'autres entiers compris entre 1 et 10. Pour ce groupe particulier, les inverses sont les paires 1 et 9, et 3 et 7.
+Dans le cas où $N$ est lui-même un nombre premier, tous les entiers de $1$ à $N - 1$ sont copremiers avec $N$. Ainsi, ce groupe a un ordre de $N - 1$. Avec notre notation précédente, $\mathbb{Z}^c \mod N$ est équivalent à $\mathbb{Z}^* \mod N$ lorsque $N$ est premier. Le groupe que nous avons choisi pour notre exemple précédent, $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, est un cas particulier de cette classe de groupes.
 
-Dans le cas où $N$ est lui-même premier, tous les entiers de 1 à $N - 1$ sont coprimes de $N$. Un tel groupe a donc un ordre de $N - 1$. En utilisant notre notation précédente, $\mathbb{Z}^c \mod N$ est égal à $\mathbb{Z}^* \mod N$ lorsque $N$ est premier. Le groupe que nous avons choisi pour notre exemple précédent, $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, est un exemple particulier de cette classe de groupes.
+Ensuite, la fonction $\phi(N)$ calcule le nombre d’entiers qui sont copremiers avec un nombre $N$, et elle est connue sous le nom de **fonction Phi d’Euler**. [1] Selon le **théorème d’Euler**, lorsque deux entiers $a$ et $N$ sont copremiers, la relation suivante est vérifiée :
 
-Ensuite, la fonction $\phi(N)$ calcule le nombre de coprimes jusqu'à un nombre $N$, et est connue sous le nom de **fonction Phi d'Euler**. [1] D'après le **théorème d'Euler**, lorsque deux entiers $a$ et $N$ sont des coprimes, la chose suivante est vraie :
+* $a^{\phi(N)} \mod N = 1 \mod N$
 
+Cela a une implication importante pour la classe de groupes $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ où $N$ est premier. Pour ces groupes, l'exponentiation d’éléments de groupe correspond à l’exponentiation arithmétique. C'est-à-dire que $a^{\phi(N)} \mod N$ représente l'opération arithmétique $a^{\phi(N)} \mod N$. Comme tout élément $a$ dans ces groupes multiplicatifs est copremier avec $N$, cela signifie que $a^{\phi(N)} \mod N = a^{N - 1} \mod N = 1 \mod N$.
 
-- $a^{\phi(N)} \mod N = 1 \mod N$
+Le théorème d’Euler est un résultat essentiel. Pour commencer, il implique que tous les éléments de $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ ne peuvent parcourir qu'un certain nombre de valeurs par exponentiation qui divise $N - 1$. Dans le cas de $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, cela signifie que chaque élément peut parcourir $2$, $5$ ou $10$ éléments. Les valeurs du groupe qu'un élément parcourt par exponentiation sont appelées **ordre de l’élément**. Un élément dont l'ordre est équivalent à l'ordre du groupe est un générateur.
 
-Ceci a une implication importante pour la classe des groupes $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ où $N$ est premier. Pour ces groupes, l'exponentiation des éléments de groupe représente l'exponentiation arithmétique. Autrement dit, $a^{\phi(N)} \mod N$ représente l'opération arithmétique $a^{\phi(N)} \mod N$. Comme tout élément $a$ dans ces groupes multiplicatifs est coprime avec $N$, cela signifie que $a^{\phi(N)} \mod N = a^{N - 1} \mod N = 1 \mod N$.
+De plus, le théorème d’Euler implique que nous pouvons toujours connaître le résultat de $a^{N - 1} \mod N$ pour tout groupe $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ où $N$ est premier. Cela reste valable même si les calculs eux-mêmes peuvent être très complexes.
 
-Le théorème d'Euler est un résultat très important. Pour commencer, il implique que tous les éléments de $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ ne peuvent parcourir qu'un nombre de valeurs par exponentiation qui se divise en $N - 1$. Dans le cas de $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, cela signifie que chaque élément ne peut passer que par 2, 5 ou 10 éléments. Le groupe de valeurs que tout élément parcourt lors de l'exponentiation est appelé **ordre de l'élément**. Un élément dont l'ordre est équivalent à l'ordre d'un groupe est un générateur.
+Par exemple, supposons que notre groupe soit $\mathbb{Z}^* \mod 160,481,182$ (où $160,481,182$ est effectivement un nombre premier). Nous savons que tous les entiers de $1$ à $160,481,181$ sont des éléments de ce groupe, et que $\phi(N) = 160,481,181$. Bien que nous ne puissions pas effectuer tous les calculs, nous savons que des expressions telles que $514^{160,481,181}$, $2,005^{160,481,181}$, et $256,212^{160,481,181}$ doivent toutes être égales à $1 \mod 160,481,182$.
 
-De plus, le théorème d'Euler implique que l'on peut toujours connaître le résultat de $a^{N - 1} \mod N$ pour tout groupe $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ où $N$ est premier. Il en est ainsi quelle que soit la complexité des calculs.
+**Notes :**
 
-Par exemple, supposons que notre groupe soit $\mathbb{Z}^* \mod 160,481,182$ (où 160,481,182 est effectivement un nombre premier). Nous savons que tous les entiers de 1 à 160 481 181 doivent être des éléments de ce groupe, et que $\phi(n) = 160 481 181$. Bien que nous ne puissions pas effectuer toutes les étapes des calculs, nous savons que des expressions telles que $514^{160,481,181}$, $2,005^{160,481,181}$, et $256,212^{160,481,181}$ doivent toutes être évaluées à $1 \mod 160,481,182$.
-
-**Notes:**
-
-[1] La fonction fonctionne comme suit. Tout entier $N$ peut être factorisé en un produit de nombres premiers. Supposons qu'un $N$ particulier soit factorisé comme suit : $p_1^{e1} \cdot p_2^{e2} \cdot \ldots \cdot p_m^{em}$ où tous les $p$ sont des nombres premiers et tous les $e$ sont des entiers supérieurs ou égaux à 1. Alors.. :
+[1] La fonction s’applique comme suit. Tout entier $N$ peut être factorisé en un produit de nombres premiers. Supposons qu’un certain $N$ soit factorisé de la manière suivante : $p_1^{e1} \cdot p_2^{e2} \cdot \ldots \cdot p_m^{em}$ où tous les $p$ sont des nombres premiers et tous les $e$ sont des entiers supérieurs ou égaux à $1$. Ainsi :
 
 $$
 \phi(N) = \sum_{i=1}^m \left[p_i^{e_i} - p_i^{e_i - 1}\right]
 $$
 
-Formule de la fonction Phi d'Euler pour la factorisation des nombres premiers de $N$.
+Formule de la fonction Phi d’Euler pour la factorisation en nombres premiers de $N$.
+
 
 ## Corps
 

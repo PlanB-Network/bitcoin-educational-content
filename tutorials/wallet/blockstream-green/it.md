@@ -36,7 +36,7 @@ Per gli utenti Android, è possibile installare l'applicazione anche tramite il 
 
 ![GREEN](assets/fr/03.webp)
 
-Avvia l'applicazione, quindi seleziona la casella "Accetto le condizioni...*".
+Avvia l'applicazione, quindi seleziona la casella "_Accetto le condizioni..._".
 
 ![GREEN](assets/fr/04.webp)
 
@@ -56,11 +56,11 @@ Per gli utenti che dispongono di un proprio full node, Green Wallet offre la pos
 
 ![GREEN](assets/fr/08.webp)
 
-Un'altra funzione alternativa è l'opzione "*SPV Verification*", che consente di verificare direttamente alcuni dati della blockchain e quindi ridurre la necessità di fidarsi del nodo predefinito di Blockstream, anche se questo metodo non fornisce tutte le garanzie di un full node.
+Un'altra funzione alternativa è l'opzione "_SPV Verification_", che consente di verificare direttamente alcuni dati della blockchain e quindi ridurre la necessità di fidarsi del nodo predefinito di Blockstream, anche se questo metodo non fornisce tutte le garanzie di un full node.
 
 ![GREEN](assets/fr/09.webp)
 
-Dopo aver regolato le impostazioni in base alle tue esigenze, fai clic sul pulsante "*Save" e riavvia l'applicazione.
+Dopo aver regolato le impostazioni in base alle tue esigenze, fai clic sul pulsante "_Save_" e riavvia l'applicazione.
 
 ![GREEN](assets/fr/10.webp)
 
@@ -136,7 +136,7 @@ L'opzione "_Rename_" consente di personalizzare il nome del wallet, particolarme
 
 ![GREEN](assets/fr/23.webp)
 
-Il menu "*Unit*" consente di modificare l'unità di base del wallet. Si può scegliere di visualizzarlo in satoshi oppure in bitcoin.
+Il menu "_Unit_" consente di modificare l'unità di base del wallet. Si può scegliere di visualizzarlo in satoshi oppure in bitcoin.
 
 ![GREEN](assets/fr/24.webp)
 

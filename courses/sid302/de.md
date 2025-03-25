@@ -111,7 +111,4 @@ Antonio stellt Breeze vor, ein Open-Source-SDK, das für dezentralisierte Transa
 ## Schlussfolgerung
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
-
-Herzlichen Glückwunsch zum Abschluss dieses Kurses!
-
-Wir freuen uns sehr, dass Sie diesen Meilenstein auf Ihrer Lernreise erfolgreich erreicht haben. Durch Ihren Einsatz und Ihr Engagement haben Sie wertvolle Kenntnisse und Fähigkeiten erworben, die Ihnen in Ihrer beruflichen Entwicklung von großem Nutzen sein werden.
+<isCourseConclusion>true</isCourseConclusion>

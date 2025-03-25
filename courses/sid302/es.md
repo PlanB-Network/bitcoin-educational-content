@@ -106,12 +106,9 @@ Antonio presenta Breeze, un SDK de código abierto diseñado para transacciones 
 
 <chapterId>e5f6348c-e207-40ae-8fef-6a068a6bf741</chapterId>
 
-<isCourseReview>verdadero</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Conclusión
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
-
-Enhorabuena por completar este curso
-
-Estamos encantados de que hayas alcanzado con éxito este hito en tu viaje de aprendizaje. Gracias a tu dedicación y compromiso, has adquirido valiosos conocimientos y habilidades que te serán de gran utilidad en tu desarrollo profesional.
+<isCourseConclusion>true</isCourseConclusion>

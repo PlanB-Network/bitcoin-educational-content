@@ -1227,12 +1227,9 @@ El siguiente paso es desafiarte a ti mismo con un cuestionario acumulativo que c
 
 <chapterId>beae23bd-2fd1-49fe-8f38-ed169acde51d</chapterId>
 
-<isCourseReview>verdadero</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Conclusión
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-
-Enhorabuena por completar este curso
-
-Estamos encantados de que hayas alcanzado con éxito este hito en tu viaje de aprendizaje. Gracias a tu dedicación y compromiso, has adquirido valiosos conocimientos y habilidades que te serán de gran utilidad en tu desarrollo profesional.
+<isCourseConclusion>true</isCourseConclusion>

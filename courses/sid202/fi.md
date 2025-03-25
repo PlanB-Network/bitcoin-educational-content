@@ -1232,7 +1232,4 @@ Seuraava askel on haastaa itsesi kumulatiivisella tietokilpailulla, joka kattaa 
 ## Päätelmä
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-
-Onnittelut tämän kurssin suorittamisesta!
-
-Olemme innoissamme siitä, että olet saavuttanut tämän virstanpylvään oppimismatkallasi. Olet saanut omistautumisesi ja sitoutumisesi ansiosta arvokkaita tietoja ja taitoja, jotka auttavat sinua ammatillisessa kehityksessäsi.
+<isCourseConclusion>true</isCourseConclusion>

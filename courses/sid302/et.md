@@ -111,7 +111,4 @@ Antonio tutvustab Breeze'i, avatud lähtekoodiga SDK-d, mis on mõeldud detsentr
 ## Kokkuvõte
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
-
-Palju õnne selle kursuse lõpetamise puhul!
-
-Oleme väga rõõmsad, et olete oma õppimise teekonnal edukalt selle verstapostini jõudnud. Tänu oma pühendumusele ja pühendumusele olete omandanud väärtuslikke teadmisi ja oskusi, mis aitavad teil oma ametialases arengus hästi edasi liikuda.
+<isCourseConclusion>true</isCourseConclusion>

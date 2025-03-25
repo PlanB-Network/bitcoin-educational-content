@@ -1341,290 +1341,238 @@ La session de communication commence par Bob qui envoie un texte chiffré $C_{0,
 
 ![Figure 12 : Une session de communication sécurisée](assets/Figure4-12.webp "Figure 12 : Une session de communication sécurisée")
 
-
 # RC4 et AES
-
 <partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
 
-## Le chiffrement de flux RC4
-
+## Le chiffrement par flot RC4
 <chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
 
-Dans ce chapitre, nous examinerons les détails d'un système de chiffrement utilisant un algorithme de chiffrement primitif moderne, RC4 (ou "Rivest cipher 4"), et un algorithme de chiffrement par blocs moderne, AES. Alors que le chiffrement RC4 est tombé en disgrâce en tant que méthode de chiffrement, AES est la norme en matière de chiffrement symétrique moderne. Ces deux exemples devraient vous donner une meilleure idée de la manière dont le chiffrement symétrique fonctionne sous le capot.
+Dans ce chapitre, nous allons examiner en détail un schéma de chiffrement utilisant un chiffrement par flot primitif moderne, RC4 (ou "Rivest Cipher 4"), ainsi qu'un chiffrement par bloc moderne, AES. Bien que le chiffrement RC4 soit aujourd'hui considéré comme peu sûr pour l'encryption, AES est la norme actuelle pour le chiffrement symétrique moderne. Ces deux exemples permettront de mieux comprendre le fonctionnement interne du chiffrement symétrique.
 
 ___
 
-Afin d'avoir une idée du fonctionnement des algorithmes de chiffrement de flux pseudo-aléatoires modernes, je me concentrerai sur l'algorithme de chiffrement de flux RC4. Il s'agit d'un algorithme de chiffrement de flux pseudo-aléatoire utilisé dans les protocoles de sécurité des points d'accès sans fil WEP et WAP, ainsi que dans le protocole TLS. Comme le RC4 présente de nombreuses faiblesses avérées, il est tombé en disgrâce. En fait, l'Internet Engineering Task Force interdit désormais l'utilisation des suites RC4 par les applications client et serveur dans toutes les instances de TLS. Néanmoins, il fonctionne bien comme exemple pour illustrer le fonctionnement d'un chiffrement de flux primitif.
+Pour comprendre comment fonctionnent les chiffrements par flot pseudorandomisés modernes, nous allons nous concentrer sur le chiffrement par flot RC4. C'est un chiffrement par flot pseudorandomisé qui a été utilisé dans les protocoles de sécurité pour les points d'accès sans fil WEP et WAP ainsi que dans TLS. Cependant, RC4 présente de nombreuses faiblesses avérées, ce qui a entraîné son abandon progressif. En effet, l’Internet Engineering Task Force interdit désormais l’utilisation de suites RC4 par les applications clientes et serveurs dans tous les cas de TLS. Néanmoins, RC4 reste un bon exemple pour illustrer le fonctionnement d’un chiffrement par flot primitif.
 
-Pour commencer, je vais d'abord montrer comment chiffrer un message en clair à l'aide d'un algorithme de chiffrement RC4. Supposons que notre message en clair soit "SOUP" Le chiffrement à l'aide de notre algorithme de chiffrement RC4 pour bébés se déroule alors en quatre étapes.
+Pour commencer, nous allons chiffrer un message en clair en utilisant une version simplifiée du chiffrement RC4. Supposons que notre message en clair soit “SOUP”. Le chiffrement avec notre version simplifiée de RC4 se déroule en quatre étapes.
 
 ### Étape 1
 
-Tout d'abord, définissez un tableau **S** avec $S[0] = 0$ à $S[7] = 7$. Un tableau signifie ici simplement une collection mutable de valeurs organisées par un index, également appelée liste dans certains langages de programmation (par exemple, Python). Dans ce cas, l'index va de 0 à 7, et les valeurs vont également de 0 à 7. **S** se présente donc comme suit :
-
+Tout d’abord, définissons un tableau **S** avec $S[0] = 0$ à $S[7] = 7$. Un tableau est simplement une collection modifiable de valeurs organisées par un index, également appelé une liste dans certains langages de programmation (comme Python). Dans ce cas, l’index va de 0 à 7, et les valeurs également de 0 à 7. Ainsi, **S** est le suivant :
 
 - $S = [0, 1, 2, 3, 4, 5, 6, 7]$
 
-Les valeurs ne sont pas des nombres ASCII, mais des représentations décimales de chaînes de 1 octet. Ainsi, la valeur 2 serait égale à $0000 \ 0011$. La longueur du tableau **S** est donc de 8 octets.
+Ces valeurs ne sont pas des nombres ASCII, mais des représentations décimales de chaînes d'un octet. Par exemple, la valeur 2 correspond à $0000 \ 0011$. La longueur du tableau **S** est donc de 8 octets.
 
 ### Étape 2
 
-Deuxièmement, définissez un tableau de clés **K** de 8 octets en choisissant une clé entre 1 et 8 octets (aucune fraction d'octet n'est autorisée). Comme chaque octet est composé de 8 bits, vous pouvez choisir n'importe quel nombre entre 0 et 255 pour chaque octet de votre clé.
+Deuxièmement, définissons un tableau de clé **K** de longueur 8 octets en choisissant une clé comprise entre 1 et 8 octets (aucune fraction d’octet n’est permise). Comme chaque octet représente 8 bits, vous pouvez sélectionner n'importe quel nombre compris entre 0 et 255 pour chaque octet de votre clé.
 
-Supposons que nous choisissions notre clé **k** comme $[14, 48, 9]$, de sorte qu'elle ait une longueur de 3 octets. Chaque indice de notre tableau de clés est alors défini en fonction de la valeur décimale de l'élément particulier de la clé, dans l'ordre. Si vous parcourez toute la clé, recommencez au début, jusqu'à ce que vous ayez rempli les 8 emplacements du tableau de clés. Notre tableau de clés est donc le suivant :
-
+Supposons que nous choisissions notre clé **k** comme $[14, 48, 9]$, ce qui correspond à une longueur de 3 octets. Chaque index de notre tableau de clé est ensuite défini en fonction de la valeur décimale de cet élément particulier de la clé, dans l'ordre. Si vous avez parcouru toute la clé, recommencez au début jusqu'à remplir les 8 emplacements du tableau de clé. Ainsi, notre tableau de clé est le suivant :
 
 - $K = [14, 48, 9, 14, 48, 9, 14, 48]$
 
 ### Étape 3
 
-Troisièmement, nous transformerons le tableau **S** en utilisant le tableau de clés **K**, dans un processus connu sous le nom d' **ordonnancement des clés**. Le processus est le suivant en pseudocode :
+Troisièmement, nous allons transformer le tableau **S** en utilisant le tableau de clé **K**, dans un processus appelé **ordonnancement de clé** (key scheduling). Le processus se déroule comme suit en pseudocode :
 
-
-- Créer les variables **j** et **i**
-- Définir la variable $j = 0$
+- Créer les variables **j** et **i**.
+- Initialiser la variable $j = 0$.
 - Pour chaque $i$ de 0 à 7 :
-    - Ensemble $j = (j + S[i] + K[i]) \mod 8$
-    - Échanger $S[i]$ et $S[j]$
+    - Définir $j = (j + S[i] + K[i]) \mod 8$.
+    - Échanger $S[i]$ et $S[j]$.
 
-La transformation du tableau **S** est présentée dans le *Tableau 1*.
+La transformation du tableau **S** est capturée par le *Tableau 1*.
 
-Pour commencer, l'état initial de **S** est $[0, 1, 2, 3, 4, 5, 6, 7]$ avec une valeur initiale de 0 pour **j**. Cet état sera transformé à l'aide du tableau de clés $[14, 48, 9, 14, 48, 9, 14, 48]$.
+Au départ, vous pouvez voir l'état initial de **S** comme étant $[0, 1, 2, 3, 4, 5, 6, 7]$ avec une valeur initiale de 0 pour **j**. Cela sera transformé en utilisant le tableau de clé $[14, 48, 9, 14, 48, 9, 14, 48]$.
 
-La boucle for commence avec $i = 0$. D'après notre pseudocode ci-dessus, la nouvelle valeur de **j** devient 6 ($j = (j + S[0] + K[0]) \mod 8 = (0 + 0 + 14) \mod 8 = 6 \mod 8$). En échangeant $S[0]$ et $S[6]$, l'état de **S** après 1 tour devient $[6, 1, 2, 3, 4, 5, 0, 7]$.
+La boucle commence avec $i = 0$. Selon notre pseudocode ci-dessus, la nouvelle valeur de **j** devient 6 ($j = (j + S[0] + K[0]) \mod 8 = (0 + 0 + 14) \mod 8 = 6 \mod 8$). En échangeant $S[0]$ et $S[6]$, l’état de **S** après la première ronde devient $[6, 1, 2, 3, 4, 5, 0, 7]$.
 
-Dans la ligne suivante, $i = 1$. En repassant par la boucle for, **j** obtient la valeur 7 ($j = (j + S[1] + K[1]) \mod 8 = (6 + 1 + 48) \mod 8 = 55 \mod 8 = 7 \mod 8$). En échangeant $S[1]$ et $S[7]$ à partir de l'état actuel de **S**, $[6, 1, 2, 3, 4, 5, 0, 7]$, on obtient $[6, 7, 2, 3, 4, 5, 0, 1]$ après le 2e tour.
+À la ligne suivante, $i = 1$. En poursuivant la boucle, **j** obtient une valeur de 7 ($j = (j + S[1] + K[1]) \mod 8 = (6 + 1 + 48) \mod 8 = 55 \mod 8 = 7 \mod 8$). En échangeant $S[1]$ et $S[7]$ à partir de l’état actuel de **S**, $[6, 1, 2, 3, 4, 5, 0, 7]$, on obtient $[6, 7, 2, 3, 4, 5, 0, 1]$ après la deuxième ronde.
 
-Nous continuons ce processus jusqu'à ce que nous obtenions la dernière ligne en bas du tableau **S**, $[6, 4, 1, 0, 3, 7, 5, 2]$.
+Nous poursuivons ce processus jusqu'à obtenir l'état final du tableau **S** : $[6, 4, 1, 0, 3, 7, 5, 2]$.
 
-*Tableau 1 : Tableau de programmation clé*
+*Tableau 1 : Tableau d'ordonnancement de clé*
 
-| S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
-
+| Ronde   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-
-| | | | | | | | | | | | |
-
-| Initial | | 0 | | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-
-| 1 | 0 | 6 | | 6 | 1 | 2 | 3 | 4 | 5 | 0 | 7 |
-
-| 2 | 1 | 7 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 3 | 2 | 2 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 4 | 3 | 3 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 5 | 4 | 3 | | 6 | 7 | 2 | 0 | 3 | 5 | 4 | 1 |
-
-| 6 | 5 | 6 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 1 |
-
-| 7 | 6 | 1 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 2 |
-
-| 8 | 7 | 2 | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
+| Initial |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
+| 1       | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
+| 2       | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 3       | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 4       | 3   | 3   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 5       | 4   | 3   |     | 6    | 7    | 2    | 0    | 3    | 5    | 4    | 1    |
+| 6       | 5   | 6   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 1    |
+| 7       | 6   | 1   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 2    |
+| 8       | 7   | 2   |     | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
 
 ### Étape 4
 
-La quatrième étape consiste à produire le **keystream**. Il s'agit d'une chaîne pseudo-aléatoire d'une longueur égale au message que nous voulons envoyer. Elle sera utilisée pour chiffrer le message original "SOUP" Comme le flux de clés doit être aussi long que le message, nous en avons besoin d'un de 4 octets.
+En quatrième étape, nous produisons le **keystream** (flux de clé). Il s'agit d'une chaîne pseudorandomisée de longueur égale au message que nous souhaitons envoyer. Cette chaîne sera utilisée pour chiffrer le message original “SOUP”. Puisque le keystream doit avoir la même longueur que le message, nous avons besoin ici de 4 octets.
 
-Le flux de clés est produit par le pseudocode suivant :
+Le keystream est produit par le pseudocode suivant :
 
-
-- Créez les variables **j**, **i** et **t**.
-- Fixer $j = 0$.
-- Pour chaque $i$ du texte clair, en commençant par $i = 1$ et en continuant jusqu'à $i = 4$, chaque octet du flux de clés est produit comme suit :
-    - $j = (j + S[i]) \Nmod 8$
-    - Échangez $S[i]$ et $S[j]$.
+- Créer les variables **j**, **i** et **t**.
+- Initialiser $j = 0$.
+- Pour chaque $i$ du texte en clair, en commençant par $i = 1$ jusqu'à $i = 4$, chaque octet du keystream est produit de la manière suivante :
+    - $j = (j + S[i]) \mod 8$
+    - Échanger $S[i]$ et $S[j]$.
     - $t = (S[i] + S[j]) \mod 8$
-    - Le $i^{th}$ byte du keystream = $S[t]$
+    - L’octet $i^{ème}$ du keystream = $S[t]$
 
 Vous pouvez suivre les calculs dans le *Tableau 2*.
 
-L'état initial de **S** est $S = [6, 4, 1, 0, 3, 7, 5, 2]$. En fixant $i = 1$, la valeur de **j** devient 4 ($j = (j + S[i]) \mod 8 = (0 + 4) \mod 8 = 4$). Nous échangeons ensuite $S[1]$ et $S[4]$ pour produire la transformation de **S** dans la deuxième ligne, $[6, 3, 1, 0, 4, 7, 5, 2]$. La valeur de **t** est alors 7 ($t = (S[i] + S[j]) \mod 8 = (3 + 4) \mod 8 = 7$). Enfin, l'octet du flux de clés est $S[7]$, soit 2.
+L'état initial de **S** est $S = [6, 4, 1, 0, 3, 7, 5, 2]$. En prenant $i = 1$, la valeur de **j** devient 4 ($j = (j + S[i]) \mod 8 = (0 + 4) \mod 8 = 4$). Nous échangeons ensuite $S[1]$ et $S[4]$, ce qui produit la transformation de **S** visible dans la deuxième ligne : $[6, 3, 1, 0, 4, 7, 5, 2]$. La valeur de **t** est ensuite 7 ($t = (S[i] + S[j]) \mod 8 = (3 + 4) \mod 8 = 7$). Enfin, l’octet du keystream est $S[7]$, soit 2.
 
-Nous continuons ensuite à produire les autres octets jusqu'à ce que nous obtenions les quatre octets suivants : 2, 6, 3 et 7. Chacun de ces octets peut alors être utilisé pour chiffrer chaque lettre du texte en clair, "SOUP".
+Nous continuons à produire les autres octets jusqu'à obtenir les quatre octets suivants : 2, 6, 3, et 7. Chacun de ces octets est ensuite utilisé pour chiffrer chaque lettre du message en clair, "SOUP".
 
-Pour commencer, en utilisant une table ASCII, nous pouvons voir que "SOUP" encodé par les valeurs décimales des chaînes d'octets sous-jacentes est "83 79 85 80". La combinaison avec le flux de clés "2 6 3 7" donne "85 85 88 87", qui reste identique après une opération modulo 256. En ASCII, le texte chiffré "85 85 88 87" correspond à "UUXW".
+Pour commencer, en utilisant une table ASCII, nous voyons que “SOUP” encodé par les valeurs décimales des chaînes d'octets sous-jacentes est “83 79 85 80”. La combinaison avec le keystream “2 6 3 7” donne “85 85 88 87”, ce qui reste identique après une opération modulo 256. En ASCII, le texte chiffré “85 85 88 87” correspond à “UUXW”.
 
-Que se passe-t-il si le mot à chiffrer est plus long que le tableau **S** ? Dans ce cas, le tableau **S** continue à se transformer de la manière décrite ci-dessus pour chaque octet **i** du texte en clair, jusqu'à ce que le nombre d'octets du flux de clés soit égal au nombre de lettres du texte en clair.
+Que se passe-t-il si le mot à chiffrer est plus long que le tableau **S** ? Dans ce cas, le tableau **S** continue de se transformer de cette manière pour chaque octet **i** du texte en clair, jusqu'à ce que nous ayons un nombre d'octets dans le keystream équivalent au nombre de lettres dans le texte en clair.
 
-*Tableau 2 : Génération Keystream*
+*Tableau 2 : Génération du Keystream*
 
-| S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
-
+| i   | j   | t   | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | --- | --- | --- | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|     |     |     |           |      |      |      |      |      |      |      |      |
+|     | 0   |     |           | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
+| 1   | 4   | 7   | 2         | 6    | 3    | 1    | 0    | 4    | 7    | 5    | 2    |
+| 2   | 5   | 0   | 6         | 6    | 3    | 7    | 0    | 4    | 1    | 5    | 2    |
+| 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
+| 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-| | | | | | | | | | | | |
+L’exemple que nous venons de décrire n’est qu’une version simplifiée du **chiffrement par flot RC4**. Le véritable chiffrement RC4 possède un tableau **S** d'une longueur de 256 octets, et non pas de 8 octets, ainsi qu'une clé qui peut être comprise entre 1 et 256 octets, au lieu d’être limitée entre 1 et 8 octets. Le tableau de clé et les keystreams sont ensuite tous produits en tenant compte de la longueur de 256 octets du tableau **S**. Les calculs deviennent beaucoup plus complexes, mais les principes restent les mêmes. En utilisant la même clé, [14,48,9], avec le chiffrement RC4 standard, le message en clair "SOUP" est chiffré sous la forme 67 02 ed df en format hexadécimal.
 
-| | 0 | | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
+Un chiffrement par flot dont le keystream est mis à jour indépendamment du message en clair ou du texte chiffré est un **chiffrement par flot synchrone**. Le keystream ne dépend que de la clé. Il est évident que RC4 est un exemple de chiffrement par flot synchrone, puisque le keystream n’a aucun lien avec le message en clair ou le texte chiffré. Tous les chiffrements par flot primitifs mentionnés dans le chapitre précédent, y compris le chiffrement par décalage, le chiffre de Vigenère, et le masque jetable (one-time pad), sont également de type synchrone.
 
-| 1 | 4 | 7 | 2 | 6 | 3 | 1 | 0 | 4 | 7 | 5 | 2 |
+En revanche, un **chiffrement par flot asynchrone** génère un keystream qui dépend à la fois de la clé et d’éléments précédents du texte chiffré. Ce type de chiffrement est également appelé un **chiffrement auto-synchronisé**.
 
-| 2 | 5 | 0 | 6 | 6 | 3 | 7 | 0 | 4 | 1 | 5 | 2 |
+Il est important de noter que le keystream produit avec RC4 doit être traité comme un masque jetable, et il ne doit pas être produit de la même manière lors d’une prochaine utilisation. Plutôt que de changer de clé à chaque fois, la solution pratique consiste à combiner la clé avec un **nonce** pour produire le flux d’octets.
 
-| 3 | 5 | 1 | 3 | 6 | 3 | 7 | 1 | 4 | 0 | 5 | 2 |
-
-| 4 | 1 | 7 | 2 | 6 | 4 | 7 | 1 | 3 | 0 | 5 | 2 |
-
-L'exemple que nous venons de voir n'est qu'une version édulcorée du **chiffrement de flux RC4**. Le véritable chiffrement de flux RC4 comporte un tableau **S** d'une longueur de 256 octets, et non de 8 octets, et une clé qui peut être comprise entre 1 et 256 octets, et non entre 1 et 8 octets. Le tableau de clés et les flux de clés sont alors tous produits en tenant compte de la longueur de 256 octets du tableau **S**. Les calculs deviennent immensément plus complexes, mais les principes restent les mêmes. En utilisant la même clé, [14,48,9], avec le chiffrement RC4 standard, le message en clair "SOUP" est chiffré sous la forme 67 02 ed df au format hexadécimal.
-
-Un chiffrement de flux dans lequel le flux de clés est mis à jour indépendamment du message en clair ou du texte chiffré est un **chiffrement de flux synchrone**. Le flux de clés ne dépend que de la clé. De toute évidence, RC4 est un exemple de chiffrement de flux synchrone, car le flux de clés n'a aucune relation avec le texte en clair ou le texte chiffré. Tous nos algorithmes de chiffrement primitifs mentionnés dans le chapitre précédent, y compris le chiffrement par décalage, le chiffrement de Vigenère et le tampon à usage unique, étaient également de type synchrone.
-
-En revanche, un **chiffrement de flux asynchrone** a un flux de clés qui est produit à la fois par la clé et par les éléments précédents du texte chiffré. Ce type de chiffrement est également appelé **chiffrement auto-synchronisé**.
-
-Il est important de noter que le flux de clés produit avec RC4 doit être traité comme un tampon à usage unique, et qu'il n'est pas possible de produire le flux de clés exactement de la même manière la fois suivante. Plutôt que de changer la clé à chaque fois, la solution pratique consiste à combiner la clé avec un **nonce** pour produire le flux de données.
 
 ## AES avec une clé de 128 bits
-
 <chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
 
-Comme mentionné dans le chapitre précédent, le National Institute of Standards and Technology (NIST) a organisé un concours entre 1997 et 2000 pour déterminer une nouvelle norme de chiffrement symétrique. Le **chiffre Rijndael** a remporté le concours. Le nom est un jeu de mots sur les noms des créateurs belges, Vincent Rijmen et Joan Daemen.
+Comme mentionné dans le chapitre précédent, le National Institute of Standards and Technology (NIST) a organisé un concours entre 1997 et 2000 pour déterminer une nouvelle norme de chiffrement symétrique. Le **chiffre de Rijndael** s'est avéré être l'entrée gagnante. Son nom est un jeu de mots basé sur les noms de ses créateurs belges, Vincent Rijmen et Joan Daemen.
 
-Le chiffrement Rijndael est un **chiffrement par blocs**, ce qui signifie qu'il existe un algorithme de base qui peut être utilisé avec différentes spécifications pour la longueur des clés et la taille des blocs. Vous pouvez donc l'utiliser avec différents modes de fonctionnement pour construire des schémas de chiffrement.
+Le chiffre de Rijndael est un **chiffrement par bloc**, ce qui signifie qu'il s'agit d'un algorithme de base pouvant être utilisé avec différentes spécifications pour les tailles de clés et de blocs. Il peut ensuite être utilisé avec différents modes d’opération pour construire des schémas de chiffrement.
 
-Le comité du concours du NIST a adopté une version restreinte du chiffrement de Rijndael, à savoir une version qui nécessite des blocs de 128 bits et des longueurs de clé de 128 bits, 192 bits ou 256 bits, dans le cadre de l'**Advanced Encryption Standard (AES)**. Cette version restreinte du chiffrement Rijndael peut également être utilisée dans plusieurs modes de fonctionnement. La spécification de la norme est connue sous le nom de **Advanced Encryption Standard (AES)**.
+Le comité du concours du NIST a adopté une version restreinte du chiffre de Rijndael — spécifiquement celle qui nécessite des blocs de 128 bits et des clés de longueur de 128 bits, 192 bits ou 256 bits — dans le cadre de la **norme de chiffrement avancée (AES)**. Cette version restreinte du chiffre de Rijndael peut également être utilisée avec plusieurs modes d’opération. La spécification pour la norme est ce que l’on appelle la **norme de chiffrement avancée (AES)**.
 
-Afin de montrer comment fonctionne le chiffrement Rijndael, le cœur de l'AES, je vais illustrer le processus de chiffrement avec une clé de 128 bits. La taille de la clé a un impact sur le nombre de tours effectués pour chaque bloc de chiffrement. Pour les clés de 128 bits, 10 tours sont nécessaires. Avec des clés de 192 bits et 256 bits, il aurait fallu 12 et 14 tours, respectivement.
+Pour montrer comment fonctionne le chiffre de Rijndael, qui constitue le cœur de l'AES, j’illustrerai le processus de chiffrement avec une clé de 128 bits. La taille de la clé a un impact sur le nombre de tours effectués pour chaque bloc de chiffrement. Pour les clés de 128 bits, 10 tours sont nécessaires. Avec des clés de 192 bits et 256 bits, il aurait fallu respectivement 12 et 14 tours.
 
-En outre, je supposerai que l'AES est utilisé en mode **ECB**. Cela facilite légèrement l'exposé et n'a pas d'importance pour l'algorithme Rijndael. Il est certain que le mode ECB n'est pas sûr dans la pratique, car il conduit à un chiffrement déterministe. Le mode sécurisé le plus couramment utilisé avec AES est **CBC** (Cipher Block Chaining).
+De plus, je suppose que l’AES est utilisé en **mode ECB (Electronic Code Book)**. Cela simplifie légèrement l'explication et ne change rien au fonctionnement de l’algorithme de Rijndael. Il est important de noter que le mode ECB n'est pas sécurisé en pratique car il entraîne un chiffrement déterministe. Le mode sécurisé le plus couramment utilisé avec l’AES est le **mode CBC (Cipher Block Chaining)**.
 
-Appelons la clé $K_0$. La construction avec les paramètres ci-dessus se présente donc comme dans la *Figure 1*, où $M_i$ représente une partie du message en clair de 128 bits et $C_i$ une partie du texte chiffré de 128 bits. Un tampon est ajouté au texte en clair pour le dernier bloc, si le texte en clair ne peut pas être divisé uniformément par la taille du bloc.
+Appelons la clé $K_0$. La construction avec les paramètres ci-dessus ressemble alors à ce qui est montré dans la *Figure 1*, où $M_i$ représente une partie du message en clair de 128 bits et $C_i$ une partie du texte chiffré de 128 bits. Un **remplissage (padding)** est ajouté au texte en clair pour le dernier bloc si celui-ci ne peut pas être divisé de manière égale par la taille de bloc.
+
 
 *Figure 1 : AES-ECB avec une clé de 128 bits*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1 : AES-ECB avec une clé de 128 bits](assets/Figure5-1.webp "Figure 1 : AES-ECB avec une clé de 128 bits")
 
-Chaque bloc de texte de 128 bits passe par dix tours dans le schéma de chiffrement Rijndael. Cela nécessite une clé distincte pour chaque tour ($K_1$ à $K_{10}$). Ces clés sont produites à chaque tour à partir de la clé originale de 128 bits $K_0$ à l'aide d'un **algorithme d'expansion de clé**. Par conséquent, pour chaque bloc de texte à chiffrer, nous utiliserons la clé originale $K_0$ ainsi que dix clés distinctes. Notez que ces mêmes 11 clés sont utilisées pour chaque bloc de 128 bits de texte en clair qui doit être chiffré.
+Chaque bloc de texte de 128 bits passe par dix tours dans le schéma de chiffrement de Rijndael. Cela nécessite une clé de tour distincte pour chaque tour ($K_1$ à $K_{10}$). Ces clés sont produites pour chaque tour à partir de la clé originale de 128 bits $K_0$ en utilisant un **algorithme d'expansion de clé**. Ainsi, pour chaque bloc de texte à chiffrer, nous utiliserons la clé originale $K_0$ ainsi que dix clés de tour distinctes. Notez que ces 11 clés sont utilisées pour chaque bloc de texte en clair de 128 bits nécessitant un chiffrement.
 
-L'algorithme d'expansion des clés est long et complexe. Le parcourir n'a que peu d'intérêt didactique. Vous pouvez consulter l'algorithme d'expansion de clé par vous-même, si vous le souhaitez. Une fois les clés rondes produites, le chiffrement Rijndael manipule le premier bloc de 128 bits de texte en clair, $M_1$, comme le montre la *Figure 2*. Nous allons maintenant suivre ces étapes.
+L’algorithme d'expansion de clé est long et complexe. Le parcourir en détail présente peu d'intérêt didactique. Vous pouvez examiner l’algorithme d'expansion de clé par vous-même si vous le souhaitez. Une fois les clés de tour produites, le chiffre de Rijndael va manipuler le premier bloc de texte en clair de 128 bits, $M_1$, comme illustré dans la *Figure 2*. Nous allons maintenant détailler ces étapes.
 
-*Figure 2 : La manipulation de $M_1$ avec le chiffrement Rijndael:*
+*Figure 2 : La manipulation de $M_1$ avec le chiffre de Rijndael :*
 
-**Round 0:**
-
-
+**Tour 0 :**  
 - XOR $M_1$ et $K_0$ pour produire $S_0$
 
 ---
-**Ronde n pour n = {1,...,9}:**
 
-
-- XOR $S_{n-1}$ et $K_n$
-- Substitution d'octets
-- Rangs de décalage
-- Mélanger les colonnes
+**Tour n pour n = {1,...,9} :**  
+- XOR $S_{n-1}$ et $K_n$  
+- Substitution d'octets  
+- Décalage des lignes  
+- Mélange des colonnes  
 - XOR $S$ et $K_n$ pour produire $S_n$
 
 ---
-**Round 10:**
 
+**Tour 10 :**  
+- XOR $S_9$ et $K_{10}$  
+- Substitution d'octets  
+- Décalage des lignes  
+- XOR $S$ et $K_{10}$ pour produire $S_{10}$  
+- $S_{10} = C_1$
 
-- XOR $S_9$ et $K_{10}$
-- Substitution d'octets
-- Rangs de décalage
-- XOR $S$ et $K_{10}$ pour produire $S_{10}$
-- $S_{10}$ = $C_1$
 
 ### Tour 0
 
-Le tour 0 du chiffrement Rijndael est simple. Un tableau $S_0$ est produit par une opération XOR entre le texte clair de 128 bits et la clé privée. C'est-à-dire,
-
+Le tour 0 du chiffre de Rijndael est simple. Un tableau $S_0$ est produit par une opération XOR entre le texte en clair de 128 bits et la clé privée. C'est-à-dire,
 
 - $S_0 = M_1 \oplus K_0$
 
-### Premier tour
+### Tour 1
 
-Lors du premier tour, le tableau $S_0$ est d'abord combiné avec la clé du tour $K_1$ à l'aide d'une opération XOR. Cela produit un nouvel état de $S$.
+Lors du tour 1, le tableau $S_0$ est d'abord combiné avec la clé de tour $K_1$ à l'aide d'une opération XOR. Cela produit un nouvel état de $S$.
 
-Deuxièmement, l'opération de **substitution d'octets** est effectuée sur l'état actuel de $S$. Elle consiste à prendre chaque octet du tableau de 16 octets de $S$ et à le remplacer par un octet d'un tableau appelé **Boîte en S de Rijndael**. Chaque octet a une transformation unique, et un nouvel état de $S$ est produit comme résultat. La boîte S de Rijndael est représentée à la *Figure 3*.
+Ensuite, l’opération de **substitution d’octets** est effectuée sur l’état actuel de $S$. Elle consiste à prendre chaque octet des 16 octets du tableau $S$ et à le substituer par un octet issu d’un tableau appelé **S-box de Rijndael**. Chaque octet subit une transformation unique, ce qui produit un nouvel état de $S$. La S-box de Rijndael est présentée dans la *Figure 3*.
 
-*Figure 3 : S-Box* de Rijndael
+*Figure 3 : S-Box de Rijndael*
 
-| 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
-
+|     | 00  | 01  | 02  | 03  | 04  | 05  | 06  | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 00  | 63  | 7C  | 77  | 7B  | F2  | 6B  | 6F  | C5  | 30  | 01  | 67  | 2B  | FE  | D7  | AB  | 76  |
+| 10  | CA  | 82  | C9  | 7D  | FA  | 59  | 47  | F0  | AD  | D4  | A2  | AF  | 9C  | A4  | 72  | C0  |
+| 20  | B7  | FD  | 93  | 26  | 36  | 3F  | F7  | CC  | 34  | A5  | E5  | F1  | 71  | D8  | 31  | 15  |
+| 30  | 04  | C7  | 23  | C3  | 18  | 96  | 05  | 9A  | 07  | 12  | 80  | E2  | EB  | 27  | B2  | 75  |
+| 40  | 09  | 83  | 2C  | 1A  | 1B  | 6E  | 5A  | A0  | 52  | 3B  | D6  | B3  | 29  | E3  | 2F  | 84  |
+| 50  | 53  | D1  | 00  | ED  | 20  | FC  | B1  | 5B  | 6A  | CB  | BE  | 39  | 4A  | 4C  | 58  | CF  |
+| 60  | D0  | EF  | AA  | FB  | 43  | 4D  | 33  | 85  | 45  | F9  | 02  | 7F  | 50  | 3C  | 9F  | A8  |
+| 70  | 51  | A3  | 40  | 8F  | 92  | 9D  | 38  | F5  | BC  | B6  | DA  | 21  | 10  | FF  | F3  | D2  |
+| 80  | CD  | 0C  | 13  | EC  | 5F  | 97  | 44  | 17  | C4  | A7  | 7E  | 3D  | 64  | 5D  | 19  | 73  |
+| 90  | 60  | 81  | 4F  | DC  | 22  | 2A  | 90  | 88  | 46  | EE  | B8  | 14  | DE  | 5E  | 0B  | DB  |
+| A0  | E0  | 32  | 3A  | 0A  | 49  | 06  | 24  | 5C  | C2  | D3  | AC  | 62  | 91  | 95  | E4  | 79  |
+| B0  | E7  | C8  | 37  | 6D  | 8D  | D5  | 4E  | A9  | 6C  | 56  | F4  | EA  | 65  | 7A  | AE  | 08  |
+| C0  | BA  | 78  | 25  | 2E  | 1C  | A6  | B4  | C6  | E8  | DD  | 74  | 1F  | 4B  | BD  | 8B  | 8A  |
+| D0  | 70  | 3E  | B5  | 66  | 48  | 03  | F6  | 0E  | 61  | 35  | 57  | B9  | 86  | C1  | 1D  | 9E  |
+| E0  | E1  | F8  | 98  | 11  | 69  | D9  | 8E  | 94  | 9B  | 1E  | 87  | E9  | CE  | 55  | 28  | DF  |
+| F0  | 8C  | A1  | 89  | 0D  | BF  | E6  | 42  | 68  | 41  | 99  | 2D  | 0F  | B0  | 54  | BB  | 16  |
 
-| 00 | 63 | 7C | 77 | 7B | F2 | 6B | 6F | C5 | 30 | 01 | 67 | 2B | FE | D7 | AB | 76 |
+Cette S-box est l’un des endroits où l’algèbre abstraite entre en jeu dans le chiffre de Rijndael, en particulier les **corps de Galois**.
 
-| 10 | CA | 82 | C9 | 7D | FA | 59 | 47 | F0 | AD | D4 | A2 | AF | 9C | A4 | 72 | C0 |
+Pour commencer, chaque élément d'octet possible allant de 00 à FF est défini comme un vecteur de 8 bits. Chacun de ces vecteurs est un élément du **corps de Galois GF(2^8)** où le polynôme irréductible pour l'opération modulo est $x^8 + x^4 + x^3 + x + 1$. Le corps de Galois avec ces spécifications est également appelé **corps fini de Rijndael**.
 
-| 20 | B7 | FD | 93 | 26 | 36 | 3F | F7 | CC | 34 | A5 | E5 | F1 | 71 | D8 | 31 | 15 |
+Ensuite, pour chaque élément possible du corps, nous créons ce que l'on appelle la **S-box de Nyberg**. Dans cette boîte, chaque octet est mappé sur son **inverse multiplicatif** (c’est-à-dire que leur produit est égal à 1). Nous mappons ensuite ces valeurs depuis la S-box de Nyberg vers la S-box de Rijndael à l'aide de la **transformation affine**.
 
-| 30 | 04 | C7 | 23 | C3 | 18 | 96 | 05 | 9A | 07 | 12 | 80 | E2 | EB | 27 | B2 | 75 |
+La troisième opération sur le tableau **S** est l'opération de **décalage des lignes** (**Shift Rows**). Cette étape consiste à prendre l'état de **S** et à disposer les seize octets dans une matrice. Le remplissage de la matrice commence en haut à gauche et progresse en allant de haut en bas, puis, chaque fois qu'une colonne est remplie, il passe à la colonne suivante, en remontant en haut.
 
-| 40 | 09 | 83 | 2C | 1A | 1B | 6E | 5A | A0 | 52 | 3B | D6 | B3 | 29 | E3 | 2F | 84 |
+Une fois que la matrice de **S** est construite, les quatre lignes sont décalées de la manière suivante :
+- La première ligne reste inchangée.
+- La deuxième ligne est décalée d’une position vers la gauche.
+- La troisième ligne est décalée de deux positions vers la gauche.
+- La quatrième ligne est décalée de trois positions vers la gauche.
 
-| 50 | 53 | D1 | 00 | ED | 20 | FC | B1 | 5B | 6A | CB | BE | 39 | 4A | 4C | 58 | CF |
+Un exemple du processus est présenté dans la *Figure 4*. L'état initial de **S** est montré en haut, et l'état résultant après l'opération de décalage des lignes est affiché ci-dessous.
 
-| 60 | D0 | EF | AA | FB | 43 | 4D | 33 | 85 | 45 | F9 | 02 | 7F | 50 | 3C | 9F | A8 |
+*Figure 4 : Opération de décalage des lignes (Shift Rows)*
 
-| 70 | 51 | A3 | 40 | 8F | 92 | 9D | 38 | F5 | BC | B6 | DA | 21 | 10 | FF | F3 | D2 |
-
-| 80 | CD | 0C | 13 | EC | 5F | 97 | 44 | 17 | C4 | A7 | 7E | 3D | 64 | 5D | 19 | 73 |
-
-| 90 | 60 | 81 | 4F | DC | 22 | 2A | 90 | 88 | 46 | EE | B8 | 14 | DE | 5E | 0B | DB | |
-
-| A0 | E0 | 32 | 3A | 0A | 49 | 06 | 24 | 5C | C2 | D3 | AC | 62 | 91 | 95 | E4 | 79 |
-
-| B0 | E7 | C8 | 37 | 6D | 8D | D5 | 4E | A9 | 6C | 56 | F4 | EA | 65 | 7A | AE | 08 | |
-
-| C0 | BA | 78 | 25 | 2E | 1C | A6 | B4 | C6 | E8 | DD | 74 | 1F | 4B | BD | 8B | 8A | |
-
-| D0 | 70 | 3E | B5 | 66 | 48 | 03 | F6 | 0E | 61 | 35 | 57 | B9 | 86 | C1 | 1D | 9E | |
-
-| E0 | E1 | F8 | 98 | 11 | 69 | D9 | 8E | 94 | 9B | 1E | 87 | E9 | CE | 55 | 28 | DF |
-
-| F0 | 8C | A1 | 89 | 0D | BF | E6 | 42 | 68 | 41 | 99 | 2D | 0F | B0 | 54 | BB | 16 |
-
-Cette boîte S est l'un des endroits où l'algèbre abstraite entre en jeu dans le chiffrement Rijndael, en particulier les **corps de Galois**.
-
-Pour commencer, vous définissez chaque élément d'octet possible de 00 à FF comme un vecteur de 8 bits. Chacun de ces vecteurs est un élément du **corps de Galois GF(2^8)** où le polynôme irréductible pour l'opération modulo est $x^8 + x^4 + x^3 + x + 1$. Le corps de Galois avec ces spécifications est également appelé **corps fini de Rijndael**.
-
-Ensuite, pour chaque élément possible du corps, nous créons ce que l'on appelle la **boîte S de Nyberg**. Dans cette boîte, chaque octet est mis en correspondance avec son **inverse multiplicatif** (c'est-à-dire que leur produit est égal à 1). Nous faisons ensuite correspondre ces valeurs de la boîte S de Nyberg à la boîte S de Rijndael à l'aide de la **transformation d'affine**.
-
-La troisième opération sur le tableau **S** est l'opération **shift rows**. Elle prend l'état de **S** et liste les seize octets dans une matrice. Le remplissage de la matrice commence en haut à gauche et se fait de haut en bas, puis, à chaque fois qu'une colonne est remplie, elle se décale d'une colonne vers la droite et vers le haut.
-
-Une fois la matrice **S** construite, les quatre lignes sont décalées. La première ligne reste inchangée. La deuxième ligne se déplace d'une unité vers la gauche. La troisième déplace deux lignes vers la gauche. La quatrième déplace trois lignes vers la gauche. Un exemple de ce processus est donné à la *figure 4*. L'état d'origine de **S** est indiqué en haut, et l'état résultant après l'opération de décalage des rangées est indiqué en dessous.
-
-*Figure 4 : Opération de décalage des lignes*
-
-| F1 | A0 | B1 | 23 |
-
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| 59   | EF   | 09   | 82   |
+| 97   | 01   | B0   | CC   |
+| D4   | 72   | 04   | 21   |
 
-| 59 | EF | 09 | 82 |
-
-| 97 | 01 | B0 | CC |
-
-| D4 | 72 | 04 | 21 |
-
-| F1 | A0 | B1 | 23 |
-
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| EF   | 09   | 82   | 59   |
+| B0   | CC   | 97   | 01   |
+| 21   | D4   | 72   | 04   |
 
-| EF | 09 | 82 | 59 |
+Dans la quatrième étape, les **champs de Galois** apparaissent de nouveau. Chaque colonne de la matrice **S** est multipliée par la colonne de la matrice 4 x 4 présentée dans la *Figure 5*. Cependant, il ne s'agit pas d'une multiplication matricielle classique, mais d'une multiplication vectorielle **modulo un polynôme irréductible**, $x^8 + x^4 + x^3 + x + 1$. Les coefficients des vecteurs résultants représentent les bits individuels d’un octet.
 
-| B0 | CC | 97 | 01 |
+*Figure 5 : Matrice de mélange des colonnes (Mix Columns)*
 
-| 21 | D4 | 72 | 04 |
-
-Dans la quatrième étape, les **corps de Galois** refont leur apparition. Pour commencer, chaque colonne de la matrice **S** est multipliée par la colonne de la matrice 4 x 4 vue dans la *Figure 5*. Mais au lieu d'une multiplication matricielle normale, il s'agit d'une multiplication vectorielle **modulo un polynôme irréductible**, $x^8 + x^4 + x^3 + x + 1$. Les coefficients vectoriels résultants représentent les bits individuels d'un octet.
-
-*Figure 5 : Matrice des colonnes de mélange*
-
-| 02 | 03 | 01 | 01 |
-
+| 02   | 03   | 01   | 01   |
 |------|------|------|------|
+| 01   | 02   | 03   | 01   |
+| 01   | 01   | 02   | 03   |
+| 03   | 01   | 01   | 02   |
 
-| 01 | 02 | 03 | 01 |
+La multiplication de la première colonne de la matrice **S** par la matrice 4 x 4 ci-dessus produit le résultat montré dans la *Figure 6*.
 
-| 01 | 01 | 02 | 03 |
-
-| 03 | 01 | 01 | 02 |
-
-La multiplication de la première colonne de la matrice **S** par la matrice 4 x 4 ci-dessus donne le résultat de la *figure 6*.
-
-*Figure 6 : Multiplication de la première colonne:*
+*Figure 6 : Multiplication de la première colonne :*
 
 $$
 \begin{matrix}
@@ -1635,36 +1583,37 @@ $$
 \end{matrix}
 $$
 
-L'étape suivante consiste à transformer tous les termes de la matrice en polynômes. Par exemple, F1 représente 1 octet et devient $x^7 + x^6 + x^5 + x^4 + 1$, et 03 représente 1 octet et devient $x + 1$.
+L'étape suivante consiste à convertir tous les termes de la matrice en polynômes. Par exemple, F1 représente un octet qui devient $x^7 + x^6 + x^5 + x^4 + 1$, et 03 représente un octet qui devient $x + 1$.
 
-Toutes les multiplications sont alors effectuées **modulo** $x^8 + x^4 + x^3 + x + 1$. Il en résulte l'addition de quatre polynômes dans chacune des quatre cellules de la colonne. Après avoir effectué ces additions **modulo 2**, vous obtiendrez quatre polynômes. Chacun de ces polynômes représente une chaîne de 8 bits, ou 1 octet, de **S**. Nous n'effectuerons pas tous ces calculs ici sur la matrice de la *Figure 6*, car ils sont volumineux.
+Toutes les multiplications sont alors effectuées **modulo** $x^8 + x^4 + x^3 + x + 1$. Cela aboutit à l'addition de quatre polynômes dans chacune des quatre cellules de la colonne. Après avoir effectué ces additions **modulo 2**, on obtient quatre polynômes. Chacun de ces polynômes représente une chaîne de 8 bits, soit un octet de **S**. Nous n'effectuerons pas ici tous ces calculs sur la matrice de la *Figure 6*, car ils sont trop longs.
 
-Une fois la première colonne traitée, les trois autres colonnes de la matrice **S** sont traitées de la même manière. Au final, on obtient une matrice de seize octets qui peut être transformée en tableau.
+Une fois la première colonne traitée, les trois autres colonnes de la matrice **S** sont traitées de la même manière. Cela produit finalement une matrice contenant seize octets qui peuvent être transformés en un tableau.
 
-Dans une dernière étape, le tableau **S** est à nouveau combiné avec la clé circulaire dans une opération **XOR**. Cela produit l'état $S_1$. C'est-à-dire,
+En guise d'étape finale, le tableau **S** est combiné à nouveau avec la clé de tour dans une opération d’**XOR**. Cela produit l'état $S_1$. C'est-à-dire,
 
+- $S_1 = S \oplus K_0$
 
-- s_1 = S \oplus K_0$
+### Tours 2 à 10
 
-### Séries 2 à 10
+Les tours 2 à 9 sont simplement une répétition du tour 1, *mutatis mutandis*. Le dernier tour diffère légèrement des précédents, car l'étape de **mixage des colonnes (Mix Columns)** est supprimée. Ainsi, le tour 10 est exécuté comme suit :
 
-Les tours 2 à 9 ne sont qu'une répétition du tour 1, *mutatis mutandis*. Le dernier tour ressemble beaucoup aux tours précédents, sauf que l'étape **mélanger les colonnes** est éliminée. En d'autres termes, le tour 10 est exécuté comme suit :
+- $S_9 \oplus K_{10}$
+- Substitution d’octets (Byte Substitution)
+- Décalage des lignes (Shift Rows)
+- $S_{10} = S \oplus K_{10}$
 
-
-- s_9 \oplus K_{10}$
-- Substitution d'octets
-- Rangs de décalage
-- s_{10} = S \oplus K_{10}$
-
-L'état $S_{10}$ est maintenant $C_1$, les 128 premiers bits du texte chiffré. En parcourant les autres blocs de texte en clair de 128 bits, on obtient le texte chiffré complet **C**.
+L'état $S_{10}$ est maintenant défini comme $C_1$, les premiers 128 bits du texte chiffré. La progression à travers les blocs restants de 128 bits du texte en clair produit le texte chiffré complet **C**.
 
 ### Les opérations du chiffrement Rijndael
 
-Quel est le raisonnement qui sous-tend les différentes opérations du chiffrement Rijndael ?
+Quelle est la logique derrière les différentes opérations présentes dans le chiffrement Rijndael ?
 
-Sans entrer dans les détails, les systèmes de chiffrement sont évalués en fonction de leur degré de confusion et de diffusion. Si le système de chiffrement présente un degré élevé de **confusion**, cela signifie que le texte chiffré est radicalement différent du texte en clair. Si le système de chiffrement a un degré élevé de **diffusion**, cela signifie que toute petite modification du texte en clair produit un texte chiffré radicalement différent.
+Sans entrer dans les détails, les schémas de chiffrement sont évalués en fonction de leur capacité à créer de la confusion et de la diffusion. Si le chiffrement présente un haut degré de **confusion**, cela signifie que le texte chiffré semble radicalement différent du texte en clair. Si le chiffrement présente un haut degré de **diffusion**, cela signifie que toute petite modification apportée au texte en clair produit un texte chiffré complètement différent.
 
-Le raisonnement qui sous-tend les opérations du chiffrement Rijndael est qu'elles produisent à la fois un degré élevé de confusion et de diffusion. La confusion est produite par l'opération de substitution d'octets, tandis que la diffusion est produite par les opérations de décalage des lignes et de mélange des colonnes.
+La logique des opérations derrière le chiffrement Rijndael est qu'elles produisent à la fois un haut degré de confusion et de diffusion. La **confusion** est générée par l’opération de substitution d’octets (**Byte Substitution**), tandis que la **diffusion** est produite par les opérations de décalage des lignes (**Shift Rows**) et de mélange des colonnes (**Mix Columns**).
+
+
+
 
 # Cryptographie asymétrique
 

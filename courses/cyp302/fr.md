@@ -915,448 +915,432 @@ Pour aller plus loin sur la théorie moderne des nombres, vous pouvez consulter 
 <partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
 
 ## Alice et Bob
-
 <chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
 
-L'une des deux principales branches de la cryptographie est la cryptographie symétrique. Elle comprend les systèmes de chiffrement ainsi que les systèmes d'authentification et d'intégrité. Jusqu'aux années 1970, l'ensemble de la cryptographie aurait consisté en des schémas de chiffrement symétrique.
+L'une des deux principales branches de la cryptographie est la **cryptographie symétrique**. Elle comprend les schémas de chiffrement ainsi que les schémas relatifs à l’authentification et à l’intégrité. Jusqu’aux années 1970, toute la cryptographie se limitait aux schémas de chiffrement symétrique.
 
-La discussion principale commence par l'examen des systèmes de chiffrement symétrique et la distinction cruciale entre les algorithmes de chiffrement par flot et les algorithmes de chiffrement par bloc. Nous abordons ensuite les codes d'authentification des messages, qui sont des systèmes permettant de garantir l'intégrité et l'authenticité des messages. Enfin, nous examinons comment les systèmes de chiffrement symétrique et les codes d'authentification des messages peuvent être combinés pour garantir la sécurité des communications.
+La discussion principale commence par l'examen des schémas de chiffrement symétrique et par l'établissement de la distinction cruciale entre les **chiffrements par flot** et les **chiffrements par bloc**. Ensuite, nous aborderons les **codes d’authentification de message (MAC)**, qui sont des schémas destinés à garantir l’intégrité et l’authenticité des messages. Enfin, nous verrons comment les schémas de chiffrement symétrique et les MAC peuvent être combinés pour assurer une communication sécurisée.
 
-Ce chapitre aborde en passant divers schémas cryptographiques symétriques issus de la pratique. Le chapitre suivant présente en détail le chiffrement avec un chiffrement par flux et un chiffrement par bloc, à savoir RC4 et AES respectivement.
+Ce chapitre aborde en passant divers schémas cryptographiques symétriques utilisés en pratique. Le chapitre suivant propose une exposition détaillée du chiffrement à l'aide d'un **chiffrement par flot (RC4)** et d'un **chiffrement par bloc (AES)**.
 
-Avant d'entamer notre discussion sur la cryptographie symétrique, je voudrais faire quelques remarques sur les illustrations d'Alice et de Bob dans ce chapitre et les suivants.
+Avant de commencer notre discussion sur la cryptographie symétrique, je souhaite faire quelques remarques sur les illustrations d’Alice et Bob qui seront utilisées dans ce chapitre et les suivants.
 
-___
+---
 
-Pour illustrer les principes de la cryptographie, on utilise souvent des exemples impliquant Alice et Bob. Je le ferai également.
+Pour illustrer les principes de la cryptographie, les exemples impliquant **Alice et Bob** sont souvent utilisés. Je les utiliserai également.
 
-En particulier si vous êtes novice en matière de cryptographie, il est important de comprendre que ces exemples d'Alice et de Bob sont uniquement destinés à illustrer les principes et les constructions cryptographiques dans un environnement simplifié. Ces principes et constructions sont toutefois applicables à un éventail beaucoup plus large de contextes réels.
+Surtout si vous êtes nouveau en cryptographie, il est important de comprendre que ces exemples d’Alice et Bob ne servent qu’à illustrer des principes et des constructions cryptographiques dans un environnement simplifié. Cependant, ces principes et constructions sont applicables à un éventail beaucoup plus large de contextes réels.
 
-Voici cinq points essentiels à garder à l'esprit concernant les exemples impliquant Alice et Bob dans la cryptographie :
+Voici cinq points clés à garder à l’esprit concernant les exemples impliquant Alice et Bob en cryptographie :
 
-1. Ils peuvent facilement être traduits en exemples avec d'autres types d'acteurs tels que des entreprises ou des organisations gouvernementales.
-
+1. Ils peuvent facilement être transposés à des exemples impliquant d’autres types d’acteurs comme des entreprises ou des organisations gouvernementales.
 2. Ils peuvent facilement être étendus pour inclure trois acteurs ou plus.
-
-3. Dans ces exemples, Bob et Alice participent activement à la création de chaque message et à l'application de schémas cryptographiques sur ce message. Mais en réalité, les communications électroniques sont largement automatisées. Lorsque vous visitez un site web utilisant la sécurité de la couche transport, par exemple, la cryptographie est généralement prise en charge par votre ordinateur et le serveur web.
-
-4. Dans le contexte de la communication électronique, les "messages" envoyés sur un canal de communication sont généralement des paquets TCP/IP. Ces paquets peuvent faire partie d'un courriel, d'un message Facebook, d'une conversation téléphonique, d'un transfert de fichiers, d'un site web, d'un téléchargement de logiciel, etc. Il ne s'agit pas de messages au sens traditionnel du terme. Néanmoins, les cryptographes simplifient souvent cette réalité en déclarant que le message est, par exemple, un courrier électronique.
-
-5. Les exemples se concentrent généralement sur la communication électronique, mais ils peuvent également être étendus aux formes traditionnelles de communication telles que les lettres.
+3. Dans les exemples, Bob et Alice sont généralement des participants actifs dans la création de chaque message et dans l’application des schémas cryptographiques sur ce message. Mais en réalité, les communications électroniques sont largement automatisées. Par exemple, lorsque vous visitez un site web utilisant la sécurité de la couche de transport (TLS), la cryptographie est généralement gérée intégralement par votre ordinateur et le serveur web.
+4. Dans le contexte de la communication électronique, les « messages » qui sont transmis via un canal de communication sont généralement des paquets TCP/IP. Ces paquets peuvent appartenir à un e-mail, un message Facebook, une conversation téléphonique, un transfert de fichier, un site web, un téléchargement de logiciel, etc. Ils ne sont pas des messages au sens traditionnel. Néanmoins, les cryptographes simplifient souvent cette réalité en affirmant que le message est, par exemple, un e-mail.
+5. Les exemples se concentrent généralement sur la communication électronique, mais ils peuvent également être appliqués aux formes traditionnelles de communication comme les lettres.
 
 ## Schémas de chiffrement symétrique
-
 <chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
 
-Nous pouvons définir librement un **système de chiffrement symétrique** comme tout système cryptographique comportant trois algorithmes :
+On peut définir grossièrement un **schéma de chiffrement symétrique** comme tout schéma cryptographique composé de trois algorithmes :
 
-1. Un **algorithme de génération de clés**, qui génère une clé privée.
+1. Un **algorithme de génération de clé**, qui génère une clé privée.
+2. Un **algorithme de chiffrement**, qui prend en entrée la clé privée et un message en clair, et produit un texte chiffré.
+3. Un **algorithme de déchiffrement**, qui prend en entrée la clé privée et le texte chiffré, et produit le message en clair d'origine.
 
-2. Un **algorithme de chiffrement**, qui prend la clé privée et un texte en clair comme entrées et produit un texte chiffré.
+En général, un schéma de chiffrement — qu'il soit symétrique ou asymétrique — offre un modèle de chiffrement basé sur un algorithme de base, plutôt qu'une spécification exacte.
 
-3. Un **algorithme de déchiffrement**, qui prend la clé privée et le texte chiffré comme entrées et produit le texte en clair original.
+Par exemple, considérons **Salsa20**, un schéma de chiffrement symétrique. Il peut être utilisé avec des clés de longueur de **128 bits** ou **256 bits**. Le choix de la longueur de la clé influence certains détails mineurs de l'algorithme (notamment le nombre de tours de l’algorithme).
 
-Généralement, un schéma de chiffrement - symétrique ou asymétrique - offre un modèle de chiffrement basé sur un algorithme de base, plutôt qu'une spécification exacte.
+Cependant, on ne dirait pas que l’utilisation de Salsa20 avec une clé de **128 bits** est un schéma de chiffrement différent de celui utilisant une clé de **256 bits**. L’algorithme de base reste le même. Ce n’est que lorsque l’algorithme de base change que l’on peut réellement parler de deux schémas de chiffrement différents.
 
-Prenons l'exemple de Salsa20, un système de chiffrement symétrique. Il peut être utilisé avec des clés de 128 et 256 bits. Le choix de la longueur de clé a une incidence sur certains détails mineurs de l'algorithme (le nombre de tours dans l'algorithme pour être exact).
+Les schémas de chiffrement symétrique sont généralement utiles dans deux types de cas : (1) Ceux dans lesquels deux ou plusieurs agents communiquent à distance et souhaitent garder le contenu de leurs communications secret ; et (2) ceux dans lesquels un agent souhaite garder le contenu d’un message secret au fil du temps.
 
-Mais on ne peut pas dire que l'utilisation de Salsa20 avec une clé de 128 bits est un schéma de chiffrement différent de celui de Salsa20 avec une clé de 256 bits. L'algorithme de base reste le même. Ce n'est que lorsque l'algorithme de base change que l'on peut réellement parler de deux schémas de chiffrement différents.
+Vous pouvez voir une représentation de la situation (1) dans la *Figure 1* ci-dessous. **Bob** veut envoyer un message $M$ à **Alice** à distance, mais il ne veut pas que d’autres puissent lire ce message.
 
-Les systèmes de chiffrement symétrique sont généralement utiles dans deux types de cas : (1) ceux où deux agents ou plus communiquent à distance et veulent garder le contenu de leurs communications secret ; et (2) ceux où un agent veut garder le contenu d'un message secret dans le temps.
+Bob chiffre d’abord le message $M$ avec la clé privée $K$. Il envoie ensuite le texte chiffré $C$ à Alice. Une fois qu’Alice a reçu le texte chiffré, elle peut le déchiffrer en utilisant la clé $K$ et lire le message en clair. Avec un bon schéma de chiffrement, tout attaquant qui intercepterait le texte chiffré $C$ ne devrait pas pouvoir déduire quoi que ce soit de significatif sur le message $M$.
 
-La *Figure 1* ci-dessous illustre la situation (1). Bob souhaite envoyer un message $M$ à Alice à distance, mais ne veut pas que d'autres personnes puissent lire ce message.
+Vous pouvez voir une représentation de la situation (2) dans la *Figure 2* ci-dessous. **Bob** souhaite empêcher d’autres personnes de consulter certaines informations. Une situation typique pourrait être celle où Bob est un employé qui stocke des données sensibles sur son ordinateur, que ni des tiers extérieurs ni ses collègues ne sont censés lire.
 
-Bob commence par chiffrer le message $M$ avec la clé privée $K$. Il envoie ensuite le texte chiffré $C$ à Alice. Une fois qu'Alice a reçu le texte chiffré, elle peut le déchiffrer à l'aide de la clé $K$ et lire le texte en clair. Avec un bon système de chiffrement, tout attaquant qui intercepte le texte chiffré $C$ ne devrait pas être en mesure d'apprendre quoi que ce soit de vraiment significatif sur le message $M$.
+Bob chiffre le message $M$ à un moment donné $T_0$ avec la clé $K$ pour produire le texte chiffré $C$. À un moment ultérieur $T_1$, il a besoin d'accéder au message à nouveau, et déchiffre le texte chiffré $C$ avec la clé $K$. Tout attaquant qui aurait pu trouver le texte chiffré $C$ entre-temps ne devrait pas avoir été capable de déduire quoi que ce soit de significatif concernant $M$.
 
-La *Figure 2* ci-dessous illustre la situation (2). Bob souhaite empêcher d'autres personnes de consulter certaines informations. Une situation typique est celle d'un employé qui stocke des données sensibles sur son ordinateur, que ni les personnes extérieures ni ses collègues ne sont censés lire.
+*Figure 1 : Secret à travers l'espace*
 
-Bob chiffre le message $M$ au moment $T_0$ avec la clé $K$ pour produire le texte chiffré $C$. Au moment $T_1$, il a de nouveau besoin du message et déchiffre le texte chiffré $C$ avec la clé $K$. Tout attaquant qui serait tombé sur le texte chiffré $C$ entre-temps ne devrait pas avoir été en mesure d'en déduire quoi que ce soit d'important sur $M$.
+![Figure 1 : Secret à travers l'espace](assets/Figure4-1.webp "Figure 1 : Secret à travers l'espace")
 
-*Figure 1 : Le secret dans l'espace*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+*Figure 2 : Secret à travers le temps*
 
-*Figure 2 : Le secret à travers le temps*
+![Figure 2 : Secret à travers le temps](assets/Figure4-2.webp "Figure 2 : Secret à travers le temps")
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
 
-## Un exemple : Le chiffrement par décalage
-
+## Un exemple : Le chiffre de décalage
 <chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
 
-Au chapitre 2, nous avons étudié le chiffrement par décalage, qui est un exemple de système de chiffrement symétrique très simple. Reprenons-le ici.
+Dans le **Chapitre 2**, nous avons rencontré le **chiffre de décalage**, qui est un exemple très simple de schéma de chiffrement symétrique. Examinons-le à nouveau ici.
 
-Supposons un dictionnaire *D* qui assimile toutes les lettres de l'alphabet anglais, dans l'ordre, à l'ensemble des nombres $\{0,1,2,\dots,25\N}$. Supposons un ensemble de messages possibles **M**. Le chiffrement par décalage est donc un système de chiffrement défini comme suit :
+Supposons un dictionnaire *D* qui associe toutes les lettres de l’alphabet anglais, dans l’ordre, à l’ensemble de nombres $\{0,1,2,\ldots,25\}$. On suppose un ensemble de messages possibles **M**. Le chiffre de décalage est alors un schéma de chiffrement défini comme suit :
 
-
-- Sélectionner aléatoirement une clé $k$ parmi l'ensemble des clés possibles **K**, où **K** = ${0,1,2,\dots,25\N}$
+- Sélectionner aléatoirement une clé $k$ parmi l’ensemble des clés possibles **K**, où **K** = $\{0,1,2,\ldots,25\}$.
 - Chiffrer un message $m \in$ **M**, comme suit :
-    - Séparer $m$ en ses lettres individuelles $m_0, m_1,\dots, m_i, \dots, m_l$
-    - Convertir chaque $m_i$ en un nombre selon *D*
-    - Pour chaque $m_i$, $c_i = [(m_i + k) \mod 26]$
-    - Convertir chaque $c_i$ en lettre selon *D*
-    - Combinez ensuite $c_0, c_1,\dots, c_l$ pour obtenir le texte chiffré $c$
+    - Séparer $m$ en ses lettres individuelles $m_0, m_1, \ldots, m_i, \ldots, m_l$.
+    - Convertir chaque $m_i$ en un nombre selon *D*.
+    - Pour chaque $m_i$, calculer $c_i = [(m_i + k) \mod 26]$.
+    - Convertir chaque $c_i$ en une lettre selon *D*.
+    - Combiner ensuite $c_0, c_1, \ldots, c_l$ pour obtenir le texte chiffré $c$.
 - Déchiffrer un texte chiffré $c$ comme suit :
-    - Convertir chaque $c_i$ en un nombre selon *D*
-    - Pour chaque $c_i$, $m_i = [(c_i - k) \mod 26]$
-    - Convertir chaque $m_i$ en lettre selon *D*
-    - Combinez ensuite $m_0, m_1, \dots, m_l$ pour obtenir le message original $m$
+    - Convertir chaque $c_i$ en un nombre selon *D*.
+    - Pour chaque $c_i$, calculer $m_i = [(c_i - k) \mod 26]$.
+    - Convertir chaque $m_i$ en une lettre selon *D*.
+    - Combiner ensuite $m_0, m_1, \ldots, m_l$ pour retrouver le message original $m$.
 
-Ce qui fait du chiffrement par décalage un système de chiffrement symétrique, c'est que la même clé est utilisée à la fois pour le processus de chiffrement et de déchiffrement. Supposons, par exemple, que vous souhaitiez chiffrer le message "DOG" à l'aide du chiffrement par décalage et que vous choisissiez au hasard "24" comme clé. En chiffrant le message avec cette clé, vous obtiendrez "BME". Le seul moyen de retrouver le message original est d'utiliser la même clé, "24", pour le déchiffrement.
+Ce qui fait du chiffre de décalage un schéma de chiffrement symétrique, c’est que la même clé est utilisée à la fois pour le chiffrement et pour le déchiffrement. Par exemple, supposons que vous souhaitiez chiffrer le message **"DOG"** en utilisant le chiffre de décalage, et que vous ayez choisi aléatoirement la clé **"24"**. Le chiffrement du message avec cette clé donnerait **"BME"**. La seule manière de récupérer le message original est d’utiliser la même clé, **"24"**, pour le processus de déchiffrement.
 
-Ce chiffre de Shift est un exemple de **chiffre de substitution monoalphabétique** : un système de chiffrement dans lequel l'alphabet du texte chiffré est fixe (c'est-à-dire qu'un seul alphabet est utilisé). En supposant que l'algorithme de déchiffrement soit déterministe, chaque symobole du texte chiffré de substitution peut au maximum correspondre à un symbole du texte en clair.
+Ce chiffre de décalage est un exemple de **chiffre de substitution monoalphabétique** : un schéma de chiffrement où l'alphabet du texte chiffré est fixe (c'est-à-dire qu'un seul alphabet est utilisé). En supposant que l’algorithme de déchiffrement soit déterministe, chaque symbole du texte chiffré par substitution peut au maximum correspondre à un seul symbole du texte en clair.
 
-Jusque dans les années 1700, de nombreuses applications de chiffrement reposaient largement sur des algorithmes de substitution monoalphabétique, bien que ceux-ci fussent souvent beaucoup plus complexes que l'algorithme de Shift. On pouvait, par exemple, choisir au hasard une lettre de l'alphabet pour chaque lettre du texte original, sous réserve que chaque lettre n'apparaisse qu'une seule fois dans l'alphabet du texte chiffré. Cela signifie que vous auriez 26 clés privées possibles, ce qui était énorme à l'époque où les ordinateurs n'existaient pas encore.
+Jusqu’aux années 1700, de nombreuses applications du chiffrement reposaient largement sur des chiffres de substitution monoalphabétiques, bien que ceux-ci fussent souvent beaucoup plus complexes que le chiffre de décalage. Par exemple, on pouvait sélectionner aléatoirement une lettre de l’alphabet pour chaque lettre du texte original sous la contrainte que chaque lettre n’apparaisse qu’une seule fois dans l’alphabet du texte chiffré. Cela signifie qu'il y aurait **26! (factorielle de 26)** clés privées possibles, ce qui représentait une quantité énorme à l’époque préinformatique.
 
-Notez que vous rencontrerez souvent le terme **chiffrer** dans le domaine de la cryptographie. Sachez que ce terme a plusieurs significations. En fait, je connais au moins cinq significations distinctes de ce terme en cryptographie.
+Il convient de noter que vous rencontrerez souvent le terme **chiffre** en cryptographie. Soyez conscient que ce terme a plusieurs significations. En fait, il existe au moins cinq sens distincts de ce terme en cryptographie.
 
-Dans certains cas, il fait référence à un schéma de chiffrement, comme c'est le cas pour le Shift cipher et le monoalphabetic substitution cipher. Cependant, le terme peut également se référer spécifiquement à l'algorithme de chiffrement, à la clé privée ou simplement au texte chiffré d'un tel système de chiffrement.
+Dans certains cas, il se réfère à un schéma de chiffrement, comme c'est le cas pour le chiffre de décalage et le chiffre de substitution monoalphabétique. Cependant, le terme peut également désigner spécifiquement l’algorithme de chiffrement, la clé privée, ou simplement le texte chiffré d’un tel schéma de chiffrement.
 
-Enfin, le terme "chiffre" peut également désigner un algorithme de base à partir duquel il est possible de construire des schémas cryptographiques. Il peut s'agir de divers algorithmes de chiffrement, mais aussi d'autres types de schémas cryptographiques. Ce sens du terme devient pertinent dans le contexte des chiffrements par blocs (voir la section "Chiffrages par blocs" ci-dessous).
+Enfin, le terme **chiffre** peut aussi désigner un algorithme de base à partir duquel on peut construire des schémas cryptographiques. Cela peut inclure divers algorithmes de chiffrement, mais aussi d’autres types de schémas cryptographiques. Ce sens du terme devient pertinent dans le contexte des **chiffrements par bloc** (voir la section « Chiffrements par bloc » ci-dessous).
 
-Vous pouvez également rencontrer les termes **chiffrer** ou **déchiffrer**. Ces termes sont simplement des synonymes de chiffrement et de déchiffrement.
+Vous pourriez également rencontrer les termes **chiffrer** ou **déchiffrer**.
 
-## Attaques par force brute et principe de Kerckhoff
 
+## Attaques par force brute et principe de Kerckhoffs
 <chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
 
-Le chiffrement par décalage est un système de chiffrement symétrique très peu sûr, du moins dans le monde moderne[1]. Un attaquant pourrait simplement tenter de déchiffrer n'importe quel texte chiffré avec les 26 clés possibles pour voir quel résultat a du sens. Ce type d'attaque, où l'attaquant se contente de parcourir les clés pour voir ce qui fonctionne, est connu sous le nom d'attaque **brute force** ou **recherche exhaustive de clés**.
+Le **chiffre de décalage** est un schéma de chiffrement symétrique très peu sécurisé, du moins dans le monde moderne. [1] Un attaquant pourrait simplement tenter de déchiffrer n'importe quel texte chiffré en testant les **26 clés possibles** pour voir laquelle produit un résultat cohérent. Ce type d’attaque, où l’attaquant teste toutes les clés possibles jusqu’à trouver la bonne, est appelé une **attaque par force brute** ou **recherche exhaustive de clés**.
 
-Pour qu'un système de chiffrement réponde à une notion minimale de sécurité, il doit disposer d'un ensemble de clés possibles, ou **espace clé**, si vaste que les attaques par force brute sont infaisables. Tous les systèmes de chiffrement modernes répondent à cette norme. C'est ce qu'on appelle le **principe de l'espace de clés suffisant**. Un principe similaire s'applique généralement à différents types de systèmes cryptographiques.
+Pour qu'un schéma de chiffrement réponde à une notion minimale de sécurité, il doit posséder un ensemble de clés possibles, ou **espace de clés**, suffisamment vaste pour rendre les attaques par force brute irréalistes. Tous les schémas de chiffrement modernes respectent ce critère. Ce principe est connu sous le nom de **principe d'espace de clés suffisant**. Un principe similaire s'applique généralement aux différents types de schémas cryptographiques.
 
-Pour avoir une idée de la taille de l'espace clé des systèmes de chiffrement modernes, supposons qu'un fichier ait été chiffré avec une clé de 128 bits à l'aide de la norme de chiffrement avancée. Cela signifie qu'un attaquant dispose d'un ensemble de $2^{128}$ clés qu'il doit parcourir pour effectuer une attaque par force brute. Pour avoir 0,78 % de chances de réussir avec cette stratégie, l'attaquant doit parcourir environ 2,65 \Nfois 10^{36}$ clés.
+Pour vous donner une idée de l’énormité de l’espace de clés des schémas de chiffrement modernes, supposons qu’un fichier ait été chiffré avec une clé de **128 bits** en utilisant l’**Advanced Encryption Standard (AES)**. Cela signifie qu’un attaquant doit tester un ensemble de $2^{128}$ clés pour réussir une attaque par force brute. Obtenir une probabilité de succès de **0,78 %** avec cette stratégie nécessiterait de tester environ $2,65 \times 10^{36}$ clés.
 
-Supposons, de manière optimiste, qu'un attaquant puisse essayer 10^{16}$ clés par seconde (c'est-à-dire 10 quadrillions de clés par seconde). Pour tester 0,78 % de toutes les clés de l'espace des clés, son attaque devrait durer 2,65 fois 10^{20}$ secondes. Cela représente environ 8,4 billions d'années. Ainsi, même une attaque par force brute menée par un adversaire absurdement puissant n'est pas réaliste avec un système de chiffrement moderne de 128 bits. C'est le principe de l'espace de clés suffisant qui entre en jeu.
+Supposons de manière optimiste qu'un attaquant puisse tester $10^{16}$ clés par seconde (soit **10 quadrillions de clés par seconde**). Pour tester **0,78 %** de toutes les clés de l'espace de clés, son attaque devrait durer environ $2,65 \times 10^{20}$ secondes. Cela représente environ **8,4 billions d'années**. Ainsi, même une attaque par force brute menée par un adversaire extrêmement puissant est irréaliste avec un schéma de chiffrement moderne utilisant une clé de **128 bits**. C'est ainsi que s'applique le **principe d'espace de clés suffisant**.
 
-Le chiffrement par décalage est-il plus sûr si l'attaquant ne connaît pas l'algorithme de chiffrement ? Peut-être, mais pas de beaucoup.
+Le chiffre de décalage est-il plus sécurisé si l’attaquant ne connaît pas l’algorithme de chiffrement ? Peut-être, mais pas de manière significative.
 
-En tout état de cause, la cryptographie moderne part toujours du principe que la sécurité d'un système de chiffrement symétrique repose uniquement sur le maintien du secret de la clé privée. L'attaquant est toujours supposé connaître tous les autres détails, y compris l'espace du message, l'espace de la clé, l'espace du texte chiffré, l'algorithme de sélection de la clé, l'algorithme de chiffrement et l'algorithme de déchiffrement.
+En tout cas, la cryptographie moderne suppose toujours que la sécurité de tout schéma de chiffrement symétrique repose uniquement sur le secret de la clé privée. On suppose toujours que l’attaquant connaît tous les autres détails, y compris l’espace des messages, l’espace des clés, l’espace des textes chiffrés, l’algorithme de sélection de clé, l’algorithme de chiffrement et l’algorithme de déchiffrement.
 
-L'idée selon laquelle la sécurité d'un système de chiffrement symétrique ne peut reposer que sur le secret de la clé privée est connue sous le nom de **principe de Kerckhoffs**.
+L’idée selon laquelle la sécurité d’un schéma de chiffrement symétrique ne peut reposer que sur le secret de la clé privée est connue sous le nom de **principe de Kerckhoffs**.
 
-Dans l'esprit de Kerckhoffs, ce principe ne s'applique qu'aux systèmes de chiffrement symétrique. Une version plus générale du principe s'applique toutefois à tous les autres types de schémas cryptographiques modernes : La conception d'un système cryptographique ne doit pas être secrète pour qu'il soit sûr ; le secret ne peut s'étendre qu'à certaines chaînes d'information, généralement une clé privée.
+Tel qu’il a été initialement conçu par **Kerckhoffs**, ce principe ne s’applique qu’aux schémas de chiffrement symétrique. Une version plus générale du principe, cependant, s’applique également à tous les autres types modernes de schémas cryptographiques : La conception d’un schéma cryptographique ne doit pas avoir besoin d’être secrète pour être sécurisée ; la confidentialité ne peut s’étendre qu’à une ou plusieurs chaînes d’informations, généralement une clé privée.
 
-Le principe de Kerckhoffs est au cœur de la cryptographie moderne pour quatre raisons. Premièrement, il n'existe qu'un nombre limité de schémas cryptographiques pour certains types d'applications. Par exemple, la plupart des applications modernes de chiffrement symétrique utilisent le chiffrement Rijndael. Le secret sur la conception d'un schéma est donc très limité. Il y a cependant beaucoup plus de flexibilité à garder secrète une clé privée pour le chiffrement Rijndael.
+Le **principe de Kerckhoffs** est fondamental en cryptographie moderne pour quatre raisons. [2] Premièrement, il existe un nombre limité de schémas cryptographiques pour des applications spécifiques. Par exemple, la plupart des applications modernes de chiffrement symétrique utilisent le **chiffre de Rijndael (AES)**. Ainsi, la confidentialité concernant la conception d’un schéma est très limitée. En revanche, il est beaucoup plus facile de garder une clé privée pour le chiffre de Rijndael secrète.
 
-Deuxièmement, il est plus facile de remplacer une chaîne d'informations qu'un système cryptographique complet. Supposons que les employés d'une entreprise disposent tous du même logiciel de chiffrement et que chacun d'entre eux possède une clé privée lui permettant de communiquer en toute confidentialité. La compromission des clés est un problème dans ce scénario, mais l'entreprise peut au moins conserver le logiciel avec de telles failles de sécurité. Si l'entreprise s'appuyait sur le secret du système, toute violation de ce secret nécessiterait le remplacement de l'ensemble du logiciel.
+Deuxièmement, il est plus facile de remplacer une chaîne d'informations qu'un schéma cryptographique entier. Supposons que les employés d'une entreprise utilisent tous le même logiciel de chiffrement, et que chaque paire d’employés dispose d'une clé privée pour communiquer de manière confidentielle. Si une clé privée est compromise dans ce scénario, cela pose problème, mais au moins l'entreprise peut continuer à utiliser le logiciel malgré de telles failles de sécurité. Si la sécurité de l'entreprise reposait sur le secret du schéma lui-même, toute compromission de ce secret nécessiterait le remplacement complet du logiciel.
 
-Troisièmement, le principe de Kerckhoffs permet la normalisation et la compatibilité entre les utilisateurs de systèmes cryptographiques. Cela présente des avantages considérables en termes d'efficacité. Par exemple, il est difficile d'imaginer comment des millions de personnes pourraient se connecter en toute sécurité aux serveurs web de Google chaque jour, si cette sécurité nécessitait de garder les schémas cryptographiques secrets.
+Troisièmement, le **principe de Kerckhoffs** permet la standardisation et la compatibilité entre les utilisateurs des schémas cryptographiques. Cela présente des avantages considérables en termes d'efficacité. Par exemple, il est difficile d'imaginer comment des millions de personnes pourraient se connecter de manière sécurisée aux serveurs web de Google chaque jour, si cette sécurité exigeait de garder les schémas cryptographiques secrets.
 
-Quatrièmement, le principe de Kerckhoff permet un examen public des schémas cryptographiques. Ce type d'examen est absolument nécessaire pour obtenir des schémas cryptographiques sûrs. À titre d'exemple, le principal algorithme de base de la cryptographie symétrique, le chiffrement Rijndael, a été le résultat d'un concours organisé par le National Institute of Standards and Technology entre 1997 et 2000.
+Quatrièmement, le **principe de Kerckhoffs** permet l’examen public des schémas cryptographiques. Ce type de vérification est absolument essentiel pour atteindre un niveau de sécurité adéquat. À titre d’illustration, l’algorithme central de la cryptographie symétrique, le **chiffre de Rijndael (AES)**, est le résultat d’un concours organisé par le **National Institute of Standards and Technology (NIST)** entre 1997 et 2000.
 
-Tout système qui tente d'atteindre la **sécurité par l'obscurité** est un système qui repose sur le fait de garder secrets les détails de sa conception et/ou de sa mise en œuvre. En cryptographie, il s'agirait spécifiquement d'un système qui repose sur le fait de garder secrets les détails de la conception du schéma cryptographique. La sécurité par l'obscurité est donc en contradiction directe avec le principe de Kerckhoffs.
+Tout système qui cherche à atteindre une **sécurité par l'obscurité** repose sur le maintien du secret des détails de sa conception et/ou de sa mise en œuvre. En cryptographie, cela correspondrait spécifiquement à un système qui repose sur le secret des détails de conception du schéma cryptographique. La sécurité par l'obscurité est donc en contradiction directe avec le **principe de Kerckhoffs**.
 
-La capacité de l'ouverture à renforcer la qualité et la sécurité s'étend également au monde numérique de manière plus large que la simple cryptographie. Les distributions Linux libres et open source telles que Debian, par exemple, présentent généralement plusieurs avantages par rapport à leurs homologues Windows et MacOS en termes de confidentialité, de stabilité, de sécurité et de flexibilité. Bien que cela puisse avoir de multiples causes, le principe le plus important est probablement, comme Eric Raymond l'a formulé dans son célèbre essai "The Cathedral and the Bazaar", qu'"avec suffisamment d'yeux, tous les bugs sont superficiels"[3] [3] C'est ce principe de sagesse des foules qui a donné à Linux son succès le plus important.
+La capacité de l'ouverture à renforcer la qualité et la sécurité s'étend au-delà de la cryptographie pour englober le monde numérique en général. Par exemple, les distributions Linux libres et open source telles que **Debian** offrent généralement plusieurs avantages par rapport à leurs homologues sous **Windows** et **MacOS** en termes de confidentialité, de stabilité, de sécurité et de flexibilité. Bien que cela puisse être dû à de multiples facteurs, le principe le plus important est probablement, comme l’a formulé **Eric Raymond** dans son célèbre essai **"The Cathedral and the Bazaar"**, que **"dès lors qu'un nombre suffisant de regards sont tournés vers un problème, tous les bogues deviennent superficiels."** [3] C'est ce principe fondé sur la sagesse collective qui a contribué au succès majeur de **Linux**.
 
-On ne peut jamais affirmer sans ambiguïté qu'un schéma cryptographique est "sûr" ou "peu sûr" Au contraire, il existe plusieurs notions de sécurité pour les systèmes cryptographiques. Chaque **définition de la sécurité cryptographique** doit préciser (1) les objectifs de sécurité, ainsi que (2) les capacités d'un attaquant. L'analyse des systèmes cryptographiques par rapport à une ou plusieurs notions spécifiques de sécurité permet de mieux comprendre leurs applications et leurs limites.
+On ne peut jamais affirmer de manière non équivoque qu'un schéma cryptographique est « sécurisé » ou « non sécurisé ». Il existe plutôt diverses notions de sécurité pour les schémas cryptographiques. Chaque **définition de la sécurité cryptographique** doit spécifier (1) les objectifs de sécurité, ainsi que (2) les capacités d'un attaquant. L'analyse des schémas cryptographiques en fonction d'une ou plusieurs notions spécifiques de sécurité permet de comprendre leurs applications et leurs limites.
 
-Nous n'entrerons pas dans les détails des différentes notions de sécurité cryptographique, mais vous devez savoir que deux hypothèses sont omniprésentes dans toutes les notions cryptographiques modernes de sécurité relatives aux schémas symétriques et asymétriques (et, sous une forme ou une autre, à d'autres primitives cryptographiques) :
+Bien que nous n'entrions pas dans tous les détails des différentes notions de sécurité cryptographique, vous devez savoir que deux hypothèses sont omniprésentes dans toutes les notions modernes de sécurité cryptographique relatives aux schémas symétriques et asymétriques (et sous une forme ou une autre pour d'autres primitives cryptographiques) :
 
+* Les connaissances de l'attaquant sur le schéma sont conformes au **principe de Kerckhoffs**.
+* L’attaquant ne peut pas réaliser de manière réaliste une attaque par force brute contre le schéma. Plus précisément, les modèles de menace des notions de sécurité cryptographiques supposent généralement que les attaques par force brute ne sont pas une considération pertinente.
 
-- Les connaissances de l'attaquant sur le système sont conformes au principe de Kerckhoffs.
-- L'attaquant ne peut pas réaliser une attaque par force brute sur le système. Plus précisément, les modèles de menace des notions cryptographiques de sécurité n'autorisent généralement même pas les attaques par force brute, car ils partent du principe qu'elles ne sont pas pertinentes.
+**Notes :**
 
-**Notes:**
+[1] Selon **Suétone**, un chiffre de décalage avec une valeur de clé constante de **3** était utilisé par **Jules César** dans ses communications militaires. Ainsi, **A** devenait toujours **D**, **B** devenait toujours **E**, **C** devenait toujours **F**, etc. Cette version particulière du chiffre de décalage est ainsi devenue connue sous le nom de **Chiffre de César** (bien qu'il ne s'agisse pas vraiment d'un chiffre au sens moderne du terme, puisque la valeur de la clé est constante). Le chiffre de César pouvait être sécurisé au Ier siècle avant J.-C., si les ennemis de Rome étaient très peu familiers avec le chiffrement. Mais il ne s’agirait manifestement pas d’un schéma sécurisé de nos jours.
 
-[1] Selon Seutonius, un chiffre à décalage avec une valeur de clé constante de 3 a été utilisé par Jules César dans ses communications militaires. Ainsi, A devenait toujours D, B toujours E, C toujours F, et ainsi de suite. Cette version particulière du chiffrement par décalage est donc connue sous le nom de **chiffrement de César** (bien qu'il ne s'agisse pas vraiment d'un chiffrement au sens moderne du terme, puisque la valeur de la clé est constante). Le chiffre de César aurait pu être sûr au premier siècle avant J.-C., si les ennemis de Rome n'étaient pas familiarisés avec le chiffrement. J.-C., si les ennemis de Rome n'étaient pas familiarisés avec le chiffrement. Mais il est clair que ce n'est pas un système très sûr à l'époque moderne.
+[2] **Jonathan Katz** et **Yehuda Lindell**, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL : 2015), p. 7f.
 
-[2] Jonathan Katz et Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL : 2015), p. 7f.
+[3] **Eric Raymond**, « The Cathedral and the Bazaar », article présenté au Linux Kongress, Würzburg, Allemagne (27 mai 1997). Il existe plusieurs versions ultérieures disponibles ainsi qu'un livre. Les citations sont extraites de la page 30 du livre : **Eric Raymond**, _The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary_, édition révisée (2001), O’Reilly : Sebastopol, CA.
 
-[3] Eric Raymond, "The Cathedral and the Bazaar", document présenté au Linux Kongress, Würzburg, Allemagne (27 mai 1997). Il existe un certain nombre de versions ultérieures ainsi qu'un livre. Mes citations sont tirées de la page 30 du livre : Eric Raymond, _The Cathedral and the Bazaar : Musings on Linux and Open Source by an Accidental Revolutionary_, revised edn. (2001), O'Reilly : Sebastopol, CA.
-
-## Chiffres en flux
-
+## Chiffrements par flot
 <chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
 
-Les systèmes de chiffrement symétrique sont généralement divisés en deux types : les **chiffres en continu** et les **chiffres en bloc**. Cette distinction est toutefois quelque peu problématique, car les gens utilisent ces termes de manière incohérente. Dans les prochaines sections, j'établirai la distinction de la manière qui me semble la plus appropriée. Sachez toutefois que de nombreuses personnes utiliseront ces termes d'une manière quelque peu différente de celle que j'ai exposée.
+Les schémas de chiffrement symétrique sont couramment subdivisés en deux types : **les chiffrements par flot** et **les chiffrements par bloc**. Cependant, cette distinction peut poser problème, car ces termes sont parfois utilisés de manière incohérente. Dans les prochaines sections, je présenterai cette distinction de la manière qui me semble la plus appropriée. Il est néanmoins important de noter que de nombreuses personnes peuvent employer ces termes différemment.
 
-Examinons tout d'abord les algorithmes de chiffrement de flux. Un **chiffrement de flux** est un système de chiffrement symétrique dans lequel le chiffrement se fait en deux étapes.
+Commençons par les chiffrements par flot. Un **chiffrement par flot** est un schéma de chiffrement symétrique dans lequel le chiffrement consiste en deux étapes.
 
-Tout d'abord, une chaîne de la longueur du texte en clair est produite à l'aide d'une clé privée. Cette chaîne est appelée **keystream**.
+Tout d’abord, une chaîne de caractères de la même longueur que le texte en clair est produite à l’aide d’une clé privée. Cette chaîne est appelée **flux de clé (keystream)**.
 
-Ensuite, le flux de clés est combiné mathématiquement avec le texte en clair pour produire un texte chiffré. Cette combinaison est généralement une opération XOR. Pour le déchiffrement, il suffit d'inverser l'opération. (Notez que $A \oplus B = B \oplus A$, dans le cas où $A$ et $B$ sont des chaînes de bits. L'ordre d'une opération XOR dans un chiffrement de flux n'a donc pas d'importance pour le résultat. Cette propriété est connue sous le nom de **commutativité**)
+Ensuite, le flux de clé est combiné mathématiquement avec le texte en clair pour produire un texte chiffré. Cette combinaison est généralement effectuée via une opération **XOR**. Pour déchiffrer, il suffit d’inverser l’opération. (Notez que $A \oplus B = B \oplus A$, lorsque $A$ et $B$ sont des chaînes de bits. Ainsi, l’ordre d’une opération XOR dans un chiffrement par flot n’a pas d’importance sur le résultat. Cette propriété est appelée **commutativité**.)
 
-Un algorithme de chiffrement XOR typique est illustré à la *figure 3*. Vous prenez d'abord une clé privée $K$ et l'utilisez pour générer un flux de clés. Le flux de clés est ensuite combiné au texte en clair par une opération XOR pour produire le texte chiffré. Tout agent qui reçoit le texte chiffré peut facilement le déchiffrer s'il possède la clé $K$. Il lui suffit de créer un flux de clés aussi long que le texte chiffré conformément à la procédure spécifiée dans le système et de l'associer au texte chiffré par une opération XOR.
+Un chiffrement par flot basé sur XOR est représenté dans la *Figure 3*. Vous commencez par prendre une clé privée $K$ et l’utilisez pour générer un flux de clé. Le flux de clé est ensuite combiné avec le texte en clair via une opération XOR pour produire le texte chiffré. Toute personne qui reçoit le texte chiffré peut facilement le déchiffrer si elle possède la clé $K$. Tout ce qu’elle doit faire est de recréer un flux de clé de la même longueur que le texte chiffré selon la procédure spécifiée par le schéma, puis d’appliquer une opération XOR au texte chiffré.
 
-*Figure 3 : Chiffrement d'un flux XOR*
+*Figure 3 : Un chiffrement par flot basé sur XOR*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3 : Un chiffrement par flot basé sur XOR](assets/Figure4-3.webp "Figure 3 : Un chiffrement par flot basé sur XOR")
 
-N'oubliez pas qu'un schéma de chiffrement est généralement un modèle de chiffrement avec le même algorithme de base, plutôt qu'une spécification exacte. Par extension, un algorithme de chiffrement par flot est généralement un modèle de chiffrement dans lequel vous pouvez utiliser des clés de différentes longueurs. Bien que la longueur de la clé puisse avoir un impact sur certains détails mineurs du schéma, elle n'aura pas d'impact sur sa forme essentielle.
+Rappelons qu'un schéma de chiffrement est généralement un modèle de chiffrement utilisant un même algorithme de base, plutôt qu’une spécification exacte. Par extension, un chiffrement par flot est typiquement un modèle de chiffrement dans lequel on peut utiliser des clés de différentes longueurs. Bien que la longueur de la clé puisse modifier certains détails mineurs du schéma, elle n’affecte pas sa forme essentielle.
 
-Le chiffrement par décalage est un exemple de chiffrement de flux très simple et peu sûr. En utilisant une seule lettre (la clé privée), vous pouvez produire une chaîne de lettres de la longueur du message (le flux de clés). Ce flux de clés est ensuite combiné au texte en clair par une opération modulo pour produire un texte chiffré. (Cette opération modulo peut être simplifiée en une opération XOR lorsque les lettres sont représentées en bits).
+Le **chiffre de décalage** est un exemple très simple et peu sûr de chiffrement par flot. En utilisant une seule lettre (la clé privée), vous pouvez produire une chaîne de lettres de la même longueur que le message (le flux de clé). Ce flux de clé est ensuite combiné avec le texte en clair par une opération de modulo pour produire un texte chiffré. (Cette opération de modulo peut être simplifiée en une opération XOR lorsque les lettres sont représentées en bits).
 
-Un autre exemple célèbre de chiffrement par flux est le **chiffrement de Vigenere**, d'après Blaise de Vigenere qui l'a entièrement mis au point à la fin du XVIe siècle (bien que d'autres aient effectué de nombreux travaux antérieurs). Il s'agit d'un exemple de **chiffrement par substitution polyalphabétique** : un système de chiffrement dans lequel l'alphabet du texte chiffré pour un symbole du texte clair change en fonction de sa position dans le texte. Contrairement au chiffrement par substitution monoalphabétique, les symboles du texte chiffré peuvent être associés à plus d'un symbole du texte en clair.
+Un autre exemple célèbre de chiffrement par flot est le **chiffre de Vigenère**, nommé d'après **Blaise de Vigenère**, qui l'a pleinement développé à la fin du XVIe siècle (bien que d'autres aient fait un travail préparatoire important). C'est un exemple de **chiffrement par substitution polyalphabétique** : un schéma de chiffrement où l’alphabet du texte chiffré pour un symbole donné dépend de sa position dans le texte. Contrairement à un chiffre de substitution monoalphabétique, les symboles du texte chiffré peuvent être associés à plusieurs symboles du texte en clair.
 
-Alors que le chiffrement gagnait en popularité dans l'Europe de la Renaissance, l'**analyse cryptographique**, c'est-à-dire le déchiffrement des textes chiffrés, gagnait également en popularité, en particulier grâce à l'**analyse de fréquence**. Cette dernière utilise les régularités statistiques de notre langue pour déchiffrer les textes chiffrés et a été découverte par les érudits arabes dès le IXe siècle. C'est une technique qui fonctionne particulièrement bien avec les textes longs. Dans les années 1700, en Europe, même les chiffres de substitution monoalphabétiques les plus sophistiqués n'étaient plus suffisants pour résister à l'analyse de fréquence, en particulier dans le domaine militaire et de la sécurité. Comme le chiffre de Vigenere offrait une avancée significative en matière de sécurité, il est devenu populaire à cette époque et s'est répandu à la fin des années 1700.
+À mesure que le chiffrement gagnait en popularité dans l'Europe de la Renaissance, il en allait de même pour la **cryptanalyse** — c'est-à-dire, la détection des textes chiffrés — en particulier à l'aide de **l'analyse de fréquence**. Cette dernière exploite les régularités statistiques de notre langage pour casser les textes chiffrés, une technique découverte par des érudits arabes dès le IXe siècle. Elle est particulièrement efficace sur des textes longs. Même les chiffres de substitution monoalphabétiques les plus sophistiqués n’étaient plus suffisants contre l'analyse de fréquence dès les années 1700 en Europe, en particulier dans les contextes militaires et de sécurité. Comme le chiffre de Vigenère offrait une avancée significative en matière de sécurité, il est devenu populaire à cette époque et était largement utilisé à la fin du XVIIIe siècle.
 
-De manière informelle, le système de chiffrement fonctionne de la manière suivante :
+De manière informelle, le fonctionnement de ce schéma de chiffrement est le suivant :
 
-1. Sélectionnez un mot de plusieurs lettres comme clé privée.
+1. Choisir un mot de plusieurs lettres comme clé privée.
+2. Pour n'importe quel message, appliquer le chiffre de décalage à chaque lettre du message en utilisant la lettre correspondante du mot-clé comme décalage.
+3. Si vous avez parcouru toutes les lettres du mot-clé sans avoir entièrement chiffré le texte en clair, réutiliser les lettres du mot-clé comme chiffre de décalage pour les lettres restantes du texte.
+4. Continuer ce processus jusqu’à ce que le message entier soit chiffré.
 
-2. Pour tout message, appliquer le chiffrement par décalage à chaque lettre du message en utilisant la lettre correspondante du mot-clé comme décalage.
+Pour illustrer, supposons que votre clé privée soit **"GOLD"** et que vous souhaitiez chiffrer le message **"CRYPTOGRAPHY"**. Selon le chiffre de Vigenère, vous procéderiez comme suit :
 
-3. Si vous avez parcouru le mot-clé mais que vous n'avez pas encore totalement déchiffré le texte en clair, appliquez à nouveau les lettres du mot-clé aux lettres correspondantes du reste du texte en tant que chiffre à décalage.
-
-4. Poursuivre ce processus jusqu'à ce que l'ensemble du message ait été déchiffré.
-
-Pour illustrer, supposons que votre clé privée soit "GOLD" et que vous souhaitiez chiffrer le message "CRYPTOGRAPHIE". Dans ce cas, vous procédez comme suit selon le chiffrement de Vigenère :
-
-
-- $c_0 = [(2 + 6) \mod 26] = 8 = I$$
-- $c_1 = [(17 + 14) \mod 26] = 5 = F$
-- $c_2 = [(24 + 11) \mod 26] = 9 = J$
-- $c_3 = [(15 + 3) \mod 26] = 18 = S$$
-- $c_4 = [(19 + 6) \mod 26] = 25 = Z$$
-- $c_5 = [(14 + 14) \mod 26] = 2 = C$
-- $c_6 = [(6 + 11) \mod 26] = 17 = R$
-- $c_7 = [(17 + 3) \mod 26] = 20 = U$
-- $c_8 = [(0 + 6) \mod 26] = 6 = G$
-- $c_9 = [(15 + 14) \mod 26] = 3 = D$
-- $c_{10} = [(7 + 11) \mod 26] = 18 = S$$
+- $c_0  = [(2 + 6) \mod 26] = 8 = I$
+- $c_1  = [(17 + 14) \mod 26] = 5 = F$
+- $c_2  = [(24 + 11) \mod 26] = 9 = J$
+- $c_3  = [(15 + 3) \mod 26] = 18 = S$
+- $c_4  = [(19 + 6) \mod 26] = 25 = Z$
+- $c_5  = [(14 + 14) \mod 26] = 2 = C$
+- $c_6  = [(6 + 11) \mod 26] = 17 = R$
+- $c_7  = [(17 + 3) \mod 26] = 20 = U$
+- $c_8  = [(0 + 6) \mod 26] = 6 = G$
+- $c_9  = [(15 + 14) \mod 26] = 3 = D$
+- $c_{10} = [(7 + 11) \mod 26] = 18 = S$
 - $c_{11} = [(24 + 3) \mod 26] = 1 = B$
 
-Ainsi, le texte chiffré $c$ = "IFJSZCRUGDSB".
+Ainsi, le texte chiffré $c$ obtenu est : **"IFJSZCRUGDSB"**.
 
-Un autre exemple célèbre de chiffrement de flux est le **compteur à usage unique**. Dans ce cas, il suffit de créer une chaîne de bits aléatoires aussi longue que le message en clair et de produire le texte chiffré par l'opération XOR. La clé privée et le flux de clés sont donc équivalents dans le cas d'un chiffrement à usage unique.
+Un autre exemple célèbre de chiffrement par flot est le **One-Time Pad** (chiffrement à usage unique). Avec ce système, vous créez simplement une chaîne de bits aléatoires de la même longueur que le message en clair, et vous produisez le texte chiffré via une opération **XOR**. Ainsi, dans le cas du One-Time Pad, la clé privée et le flux de clé sont équivalents.
 
-Alors que le chiffrement Shift et le chiffrement Vigenere sont très peu sûrs à l'ère moderne, le tampon à usage unique est très sûr s'il est utilisé correctement. L'application la plus célèbre du pavé à usage unique a probablement été, au moins jusque dans les années 1980, la **ligne directe Washington-Moscou**. [4]
+Alors que le chiffre de décalage et les chiffres de Vigenère sont très peu sécurisés à notre époque, le **One-Time Pad** est extrêmement sécurisé s’il est utilisé correctement. L’application la plus connue du One-Time Pad était, au moins jusqu’aux années 1980, pour la **ligne directe Washington-Moscou**. [4]
 
-La ligne directe est un lien de communication direct entre Washington et Moscou pour les questions urgentes. Elle a été mise en place après la crise des missiles de Cuba. La technologie utilisée s'est transformée au fil des ans. Actuellement, elle comprend un câble direct en fibre optique ainsi que deux liaisons par satellite (pour la redondance), qui permettent l'envoi de courriels et de messages textuels. La liaison aboutit à différents endroits aux États-Unis. Le Pentagone, la Maison Blanche et le mont Raven Rock sont des points d'arrivée connus. Contrairement à l'opinion générale, la ligne directe n'a jamais impliqué de téléphone.
+Cette ligne directe est un lien de communication entre Washington et Moscou destiné aux urgences, installé après la **crise des missiles de Cuba**. La technologie a évolué au fil des années. Aujourd’hui, elle inclut une connexion par fibre optique directe ainsi que deux liaisons par satellite (pour la redondance), permettant l’envoi d’e-mails et de messages texte. Cette connexion se termine en plusieurs endroits aux États-Unis, dont **le Pentagone**, **la Maison Blanche** et **Raven Rock Mountain**. Contrairement à ce que l’on croit souvent, cette ligne n’a jamais impliqué de téléphones.
 
-Pour l'essentiel, le système du pavé numérique à usage unique fonctionnait de la manière suivante. Washington et Moscou disposaient de deux séries de nombres aléatoires. Une série de nombres aléatoires, créée par les Russes, concernait le chiffrement et le déchiffrement de tous les messages en langue russe. Une série de nombres aléatoires, créée par les Américains, concerne le chiffrement et le déchiffrement de tout message en langue anglaise. De temps à autre, d'autres nombres aléatoires étaient livrés à l'autre partie par des courriers de confiance.
+Essentiellement, le fonctionnement du One-Time Pad était le suivant : Washington et Moscou disposaient chacun de deux ensembles de nombres aléatoires. Un ensemble de nombres aléatoires, créé par les Russes, servait au chiffrement et au déchiffrement de tous les messages en langue russe. Un ensemble de nombres aléatoires, créé par les Américains, servait au chiffrement et au déchiffrement de tous les messages en langue anglaise. De temps à autre, de nouveaux nombres aléatoires étaient envoyés à l'autre partie par des coursiers de confiance.
 
-Washington et Moscou ont donc pu communiquer secrètement en utilisant ces nombres aléatoires pour créer des codes à usage unique. Chaque fois que vous deviez communiquer, vous utilisiez la portion suivante de nombres aléatoires pour votre message.
+Washington et Moscou pouvaient alors communiquer secrètement en utilisant ces nombres aléatoires pour créer des One-Time Pads. Chaque fois qu'ils devaient communiquer, ils utilisaient la portion suivante des nombres aléatoires pour leur message.
 
-Bien qu'il soit hautement sécurisé, le bloc-notes à usage unique est confronté à d'importantes limitations pratiques : la clé doit être aussi longue que le message et aucune partie d'un bloc-notes à usage unique ne peut être réutilisée. Cela signifie qu'il faut savoir où l'on se trouve dans le pavé à usage unique, stocker un nombre considérable de bits et échanger de temps en temps des bits aléatoires avec ses contreparties. Par conséquent, le pavé à usage unique n'est pas souvent utilisé dans la pratique.
+Bien que très sécurisé, le One-Time Pad présente des limitations pratiques importantes : la clé doit être aussi longue que le message, et aucune partie d'un One-Time Pad ne peut être réutilisée. Cela signifie qu'il faut suivre précisément l’endroit où l’on se trouve dans le One-Time Pad, stocker une quantité massive de bits, et échanger des bits aléatoires avec les autres parties de manière périodique. En conséquence, le One-Time Pad est rarement utilisé en pratique.
 
-Au lieu de cela, les principaux algorithmes de chiffrement de flux utilisés dans la pratique sont des algorithmes de chiffrement de flux pseudo-aléatoires**. Salsa20 et une variante étroitement liée appelée ChaCha sont des exemples de chiffrements de flux pseudo-aléatoires couramment utilisés.
+À la place, les chiffrements par flot prédominants en pratique sont les **chiffrements par flot pseudorandomisés**. **Salsa20** et sa variante étroitement liée appelée **ChaCha** sont des exemples courants de chiffrements par flot pseudorandomisés.
 
-Avec ces algorithmes de chiffrement de flux pseudo-aléatoires, il faut d'abord sélectionner au hasard une clé K plus courte que la longueur du texte en clair. Cette clé aléatoire K est généralement créée par notre ordinateur sur la base de données imprévisibles qu'il collecte au fil du temps, telles que le temps écoulé entre les messages du réseau, les mouvements de la souris, etc.
+Avec ces chiffrements par flot pseudorandomisés, vous commencez par sélectionner aléatoirement une clé $K$ plus courte que la longueur du message en clair. Une telle clé aléatoire $K$ est généralement créée par votre ordinateur à partir de données imprévisibles qu'il collecte au fil du temps, telles que le temps écoulé entre les messages réseau, les mouvements de la souris, etc.
 
-Cette clé aléatoire $K$ est ensuite insérée dans un algorithme d'expansion qui crée un flux de clés pseudo-aléatoires aussi long que le message. Vous pouvez spécifier précisément la longueur du flux de clés (par exemple, 500 bits, 1000 bits, 1200 bits, 29 117 bits, etc.)
+Cette clé aléatoire $K$ est ensuite insérée dans un algorithme d’expansion qui génère un flux de clé pseudorandomisé aussi long que le message. Vous pouvez spécifier précisément la longueur du flux de clé nécessaire (par exemple, **500 bits**, **1000 bits**, **1200 bits**, **29 117 bits**, etc.).
 
-Un flux de clés pseudo-aléatoire apparaît comme s'il avait été choisi de manière totalement aléatoire dans l'ensemble des chaînes de caractères de même longueur. Par conséquent, le chiffrement à l'aide d'un flux de clés pseudo-aléatoire apparaît comme s'il avait été effectué à l'aide d'un bloc-notes à usage unique. Mais ce n'est évidemment pas le cas.
+Un flux de clé pseudorandomisé semble avoir été choisi **comme si** il l’avait été entièrement au hasard parmi l’ensemble de toutes les chaînes de la même longueur. Ainsi, le chiffrement avec un flux de clé pseudorandomisé semble avoir été effectué avec un One-Time Pad. Mais ce n’est évidemment pas le cas.
 
-Comme notre clé privée est plus courte que le flux de clés et que notre algorithme expansionniste doit être déterministe pour que le processus de chiffrement/déchiffrement fonctionne, tous les flux de clés de cette longueur particulière n'auraient pas pu être obtenus en sortie de notre opération expansionniste.
+Comme notre clé privée est plus courte que le flux de clé et que notre algorithme d’expansion doit être **déterministe** pour que le processus de chiffrement/déchiffrement fonctionne, tous les flux de clé possibles de cette longueur particulière ne peuvent pas être produits par notre algorithme d’expansion.
 
-Supposons, par exemple, que notre clé privée ait une longueur de 128 bits et que nous puissions l'insérer dans un algorithme expansionniste pour créer un flux de clés beaucoup plus long, disons de 2 500 bits. Comme notre algorithme expansionniste doit être déterministe, il peut au maximum sélectionner des chaînes de $1/2^{128}$ d'une longueur de 2 500 bits. Un tel flux de clés ne peut donc jamais être sélectionné de manière entièrement aléatoire parmi toutes les chaînes de même longueur.
+Supposons, par exemple, que notre clé privée ait une longueur de **128 bits** et que nous puissions l'insérer dans un algorithme d'expansion pour créer un flux de clé beaucoup plus long, disons de **2 500 bits**. Étant donné que notre algorithme d’expansion doit être déterministe, notre algorithme ne pourra sélectionner au maximum que **$1/2^{128}$** chaînes de longueur **2 500 bits**. Un tel flux de clé ne pourrait donc jamais être sélectionné de manière entièrement aléatoire parmi toutes les chaînes de même longueur.
 
-Notre définition du chiffrement de flux comporte deux aspects : (1) un flux de clés aussi long que le texte en clair est généré à l'aide d'une clé privée ; et (2) ce flux de clés est combiné avec le texte en clair, généralement par une opération XOR, pour produire le texte chiffré.
+Notre définition d’un chiffre par flot comporte deux aspects : (1) un flux de clé aussi long que le texte en clair est généré à l’aide d’une clé privée ; et (2) ce flux de clé est combiné avec le texte en clair, généralement par une opération **XOR**, pour produire le texte chiffré.
 
-Certains définissent parfois la condition (1) de manière plus stricte, en affirmant que le flux de clés doit spécifiquement être pseudo-aléatoire. Cela signifie que ni le shift cipher, ni le one-time pad ne seraient considérés comme des stream ciphers.
+Parfois, certaines personnes définissent la condition (1) de manière plus stricte, en affirmant que le flux de clé doit être spécifiquement **pseudorandomisé**. Cela signifie que ni le chiffre de décalage, ni le One-Time Pad ne seraient considérés comme des chiffrements par flot.
 
-À mon avis, une définition plus large de la condition (1) permet d'organiser plus facilement les systèmes de chiffrement. En outre, cela signifie que nous n'avons pas à cesser d'appeler un système de chiffrement particulier un chiffrement par flux simplement parce que nous apprenons qu'il ne repose pas réellement sur des flux de clés pseudo-aléatoires.
+De mon point de vue, définir la condition (1) de manière plus large permet de mieux organiser les schémas de chiffrement. De plus, cela signifie que l'on n'est pas obligé de cesser d’appeler un schéma de chiffrement particulier un chiffre par flot simplement parce qu’on apprend qu’il ne repose pas réellement sur des flux de clé pseudorandomisés.
 
-**Notes:**
+**Notes :**
 
-[4] Crypto Museum, "Washington-Moscow hotline", 2013, disponible sur [https://www.cryptomuseum.com/crypto/hotline/index.htm](https://www.cryptomuseum.com/crypto/hotline/index.htm).
+[4] **Crypto Museum**, « Washington-Moscow hotline », 2013, disponible sur : [https://www.cryptomuseum.com/crypto/hotline/index.htm](https://www.cryptomuseum.com/crypto/hotline/index.htm).
 
-## Chiffres en bloc
 
+## Chiffrements par bloc
 <chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
 
-La première façon dont un **chiffrement en bloc** est communément compris est comme quelque chose de plus primitif qu'un chiffrement en flux : Un algorithme de base qui effectue une transformation préservant la longueur d'une chaîne d'une longueur appropriée à l'aide d'une clé. Cet algorithme peut être utilisé pour créer des schémas de chiffrement et peut-être d'autres types de schémas cryptographiques.
+La première manière de comprendre un **chiffrement par bloc** est de le considérer comme quelque chose de plus élémentaire qu’un chiffre par flot : un algorithme de base qui réalise une transformation préservant la longueur d’une chaîne de caractères de longueur appropriée, à l’aide d’une clé. Cet algorithme peut être utilisé pour créer des schémas de chiffrement ou peut-être d’autres types de schémas cryptographiques.
 
-Fréquemment, un algorithme de chiffrement par blocs peut prendre en entrée des chaînes de longueur variable, telles que 64, 128 ou 256 bits, ainsi que des clés de longueur variable, telles que 128, 192 ou 256 bits. Bien que certains détails de l'algorithme puissent changer en fonction de ces variables, l'algorithme de base ne change pas. Si c'était le cas, nous parlerions de deux algorithmes de chiffrement par blocs différents. Notez que l'utilisation de la terminologie de l'algorithme de base ici est la même que pour les schémas de chiffrement.
+Un chiffre par bloc peut généralement accepter des chaînes d’entrée de longueurs variables, telles que **64, 128 ou 256 bits**, ainsi que des clés de longueurs variables, telles que **128, 192 ou 256 bits**. Bien que certains détails de l’algorithme puissent changer en fonction de ces variables, l’algorithme de base lui-même ne change pas. Si c'était le cas, on parlerait alors de deux chiffrements par bloc différents. Notez que l'utilisation du terme **algorithme de base** est la même que pour les schémas de chiffrement.
 
-La *figure 4* ci-dessous illustre le fonctionnement d'un algorithme de chiffrement par blocs. Un message $M$ de longueur $L$ et une clé $K$ servent d'entrées au chiffrement par blocs. Il produit un message $M'$ de longueur $L$. La clé ne doit pas nécessairement avoir la même longueur que $M$ et $M'$ pour la plupart des algorithmes de chiffrement par blocs.
+Un schéma illustrant le fonctionnement d'un chiffre par bloc est présenté à la *Figure 4* ci-dessous. Un message $M$ de longueur $L$ et une clé $K$ servent d’entrées au chiffre par bloc. Il produit un message $M'$ de longueur $L$. La clé n'a pas nécessairement besoin d'être de la même longueur que $M$ et $M'$ pour la plupart des chiffrements par bloc.
 
-*Figure 4 : Un algorithme de chiffrement par blocs*
+*Figure 4 : Un chiffrement par bloc*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4 : Un chiffrement par bloc](assets/Figure4-4.webp "Figure 4 : Un chiffrement par bloc")
 
-Un algorithme de chiffrement par blocs n'est pas en soi un système de chiffrement. Mais il peut être utilisé avec différents **modes d'opération** pour produire différents schémas de chiffrement. Un mode d'opération ajoute simplement des opérations supplémentaires en dehors du chiffrement par blocs.
+Un chiffre par bloc seul n'est pas un schéma de chiffrement. Mais il peut être utilisé avec divers **modes de fonctionnement** pour produire différents schémas de chiffrement. Un mode de fonctionnement ajoute simplement des opérations supplémentaires en dehors du chiffre par bloc.
 
-Pour illustrer ce fonctionnement, supposons un chiffrement par blocs (BC) qui nécessite une chaîne d'entrée de 128 bits et une clé privée de 128 bits. La figure 5 ci-dessous montre comment ce chiffrement par blocs peut être utilisé avec le **mode livre de code électronique** (**mode ECB**) pour créer un schéma de chiffrement. (Les ellipses à droite indiquent que vous pouvez répéter ce schéma aussi longtemps que nécessaire).
+Pour illustrer comment cela fonctionne, supposons un chiffre par bloc (**BC**) qui nécessite une chaîne d’entrée de **128 bits** et une clé privée de **128 bits**. La *Figure 5* ci-dessous montre comment ce chiffre par bloc peut être utilisé avec le **mode Electronic Code Book** (**mode ECB**) pour créer un schéma de chiffrement. (Les points de suspension à droite indiquent que ce schéma peut être répété autant de fois que nécessaire).
 
-*Figure 5 : Chiffrement par blocs en mode ECB*
+*Figure 5 : Un chiffrement par bloc avec le mode ECB*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5 : Un chiffrement par bloc avec le mode ECB](assets/Figure4-5.webp "Figure 5 : Un chiffrement par bloc avec le mode ECB")
 
-Le processus de chiffrement du livre de code électronique à l'aide du chiffrement par blocs est le suivant. Vérifiez si vous pouvez diviser votre message en clair en blocs de 128 bits. Si ce n'est pas le cas, ajoutez du **padding** au message, de manière à ce que le résultat puisse être divisé uniformément par la taille du bloc de 128 bits. Il s'agit des données utilisées pour le processus de chiffrement.
+Le processus de chiffrement en **mode Electronic Code Book (ECB)** avec un chiffre par bloc est le suivant. Voyez si vous pouvez diviser votre message en clair en blocs de **128 bits**. Si ce n'est pas possible, ajoutez un **padding** (remplissage) au message, de sorte que le résultat puisse être divisé en blocs de **128 bits**. Cela constitue vos données utilisées pour le processus de chiffrement.
 
-Divisez maintenant les données en morceaux de chaînes de 128 bits ($M_1$, $M_2$, $M_3$, etc.). Faites passer chaque chaîne de 128 bits par le système de chiffrement par blocs avec votre clé de 128 bits pour produire des morceaux de texte chiffré de 128 bits ($C_1$, $C_2$, $C_3$, etc.). Ces morceaux, une fois recombinés, forment le texte chiffré complet.
+Ensuite, divisez les données en segments de chaînes de **128 bits** ($M_1$, $M_2$, $M_3$, etc.). Faites passer chaque chaîne de **128 bits** à travers le chiffre par bloc avec votre clé de **128 bits** pour produire des segments de texte chiffré de **128 bits** ($C_1$, $C_2$, $C_3$, etc.). Ces segments, une fois combinés, forment le texte chiffré complet.
 
-Le déchiffrement est simplement le processus inverse, bien que le destinataire ait besoin d'un moyen reconnaissable pour retirer tout élément de remplissage des données décryptées afin de produire le message en clair d'origine.
+Le déchiffrement est simplement le processus inverse, bien que le destinataire ait besoin d'un moyen de reconnaître le **padding** (remplissage) du message déchiffré pour retrouver le message en clair d'origine.
 
-Bien que relativement simple, le chiffrement par blocs en mode livre de code électronique manque de sécurité. En effet, il conduit à un **chiffrement déterministe**. Deux chaînes de données identiques de 128 bits sont cryptées exactement de la même manière. Cette information peut être exploitée.
+Bien que relativement simple, un chiffrement par bloc en mode **Electronic Code Book (ECB)** manque de sécurité. Cela est dû au fait qu'il conduit à un **chiffrement déterministe**. Deux chaînes de données identiques de **128 bits** sont chiffrées exactement de la même manière. Cette particularité peut être exploitée.
 
-Au lieu de cela, tout schéma de chiffrement construit à partir d'un chiffrement par blocs devrait être **probabiliste** : c'est-à-dire que le chiffrement de n'importe quel message $M$, ou de n'importe quel morceau spécifique de $M$, devrait généralement donner un résultat différent à chaque fois. [5]
+Au lieu de cela, tout schéma de chiffrement construit à partir d'un chiffre par bloc devrait être **probabiliste** : c'est-à-dire que le chiffrement de tout message $M$, ou de tout segment spécifique de $M$, devrait généralement produire un résultat différent à chaque fois. [5]
 
-Le **mode de chaînage de blocs de chiffrement** (**mode CBC**) est probablement le mode le plus couramment utilisé avec un chiffrement par blocs. La combinaison, si elle est bien faite, produit un système de chiffrement probabiliste. Vous pouvez voir une représentation de ce mode de fonctionnement dans la *Figure 6* ci-dessous.
+Le **mode de chaînage par blocs de chiffrement** (**mode CBC**) est probablement le mode le plus courant utilisé avec un chiffre par bloc. La combinaison, si elle est bien faite, produit un schéma de chiffrement probabiliste. Un schéma illustrant ce mode de fonctionnement est présenté dans la *Figure 6* ci-dessous.
 
-*Figure 6 : Chiffrement par blocs en mode CBC*
+*Figure 6 : Un chiffrement par bloc avec le mode CBC*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6 : Un chiffrement par bloc avec le mode CBC](assets/Figure4-6.webp "Figure 6 : Un chiffrement par bloc avec le mode CBC")
 
-Supposons que la taille du bloc soit à nouveau de 128 bits. Pour commencer, vous devez donc vous assurer que votre message en clair d'origine reçoit le rembourrage nécessaire.
+Supposons que la taille des blocs soit à nouveau de **128 bits**. Pour commencer, vous devez vous assurer que votre message en clair d’origine reçoit le **padding** nécessaire.
 
-Ensuite, vous faites un XOR entre la première partie de 128 bits de votre texte en clair et un **vecteur d'initialisation** de 128 bits. Le résultat est placé dans le chiffrement par blocs pour produire un texte chiffré pour le premier bloc. Pour le deuxième bloc de 128 bits, vous devez d'abord faire un XOR entre le texte en clair et le texte chiffré du premier bloc, avant de l'insérer dans le système de chiffrement par blocs. Vous continuez ce processus jusqu'à ce que vous ayez chiffré l'intégralité de votre message en clair.
+Ensuite, vous appliquez une opération **XOR** au premier bloc de **128 bits** de votre message en clair avec un **vecteur d’initialisation** (**Initialization Vector - IV**) de **128 bits**. Le résultat est placé dans le chiffre par bloc pour produire un texte chiffré pour le premier bloc. Pour le deuxième bloc de **128 bits**, vous appliquez d’abord une **opération XOR** au texte en clair avec le texte chiffré du premier bloc, avant de l'insérer dans le chiffre par bloc. Vous continuez ce processus jusqu’à ce que vous ayez chiffré l'intégralité de votre message en clair.
 
-Lorsque vous avez terminé, vous envoyez le message chiffré avec le vecteur d'initialisation non chiffré au destinataire. Le destinataire doit connaître le vecteur d'initialisation, sinon il ne peut pas déchiffrer le texte chiffré.
+Une fois terminé, vous envoyez le message chiffré accompagné du **vecteur d’initialisation non chiffré** au destinataire. Le destinataire doit connaître ce vecteur d’initialisation, sinon il ne pourra pas déchiffrer le texte chiffré.
 
-Cette construction est beaucoup plus sûre que le mode livre de code électronique lorsqu'elle est utilisée correctement. Vous devez tout d'abord vous assurer que le vecteur d'initialisation est une chaîne aléatoire ou pseudo-aléatoire. En outre, vous devez utiliser un vecteur d'initialisation différent chaque fois que vous utilisez ce système de chiffrement.
+Cette construction est bien plus sécurisée que le mode **Electronic Code Book (ECB)** lorsqu'elle est utilisée correctement. Tout d'abord, vous devez vous assurer que le **vecteur d’initialisation (IV)** est une chaîne aléatoire ou pseudorandomisée. De plus, vous devez utiliser un vecteur d’initialisation différent chaque fois que vous utilisez ce schéma de chiffrement.
 
-En d'autres termes, votre vecteur d'initialisation doit être un nonce aléatoire ou pseudo-aléatoire, où **nonce** signifie "un nombre qui n'est utilisé qu'une seule fois" Si vous respectez cette pratique, le mode CBC avec un chiffrement par blocs garantit que deux blocs de texte en clair identiques seront généralement chiffrés différemment à chaque fois.
+En d'autres termes, votre vecteur d’initialisation doit être un nombre aléatoire ou pseudorandomisé appelé **nonce** (pour "number used once" ou "nombre utilisé une seule fois"). Si vous respectez cette pratique, alors le mode **CBC** avec un chiffre par bloc garantit que deux blocs de texte en clair identiques seront généralement chiffrés différemment chaque fois.
 
-Enfin, nous allons nous intéresser au **mode de rétroaction de la sortie** (**modeOFB**). Vous pouvez voir une représentation de ce mode dans la *Figure 7*.
+Passons maintenant au **mode de rétroaction de sortie (Output Feedback Mode - OFB Mode)**. Une illustration de ce mode est présentée dans la *Figure 7*.
 
-*Figure 7 : Chiffrement par blocs en mode OFB*
+*Figure 7 : Un chiffrement par bloc avec le mode OFB*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7 : Un chiffrement par bloc avec le mode OFB](assets/Figure4-7.webp "Figure 7 : Un chiffrement par bloc avec le mode OFB")
 
-Avec le mode OFB, vous sélectionnez également un vecteur d'initialisation. Mais ici, pour le premier bloc, le vecteur d'initialisation est directement inséré dans le chiffrement par blocs avec votre clé. Les 128 bits qui en résultent sont alors traités comme un flux de clés. Ce flux de clés est mis en XOR avec le texte en clair pour produire le texte chiffré du bloc. Pour les blocs suivants, vous utilisez le flux de clés du bloc précédent comme entrée dans le chiffrement par blocs et vous répétez les étapes.
+Avec le **mode OFB**, vous sélectionnez également un vecteur d’initialisation. Mais ici, pour le premier bloc, le vecteur d’initialisation est directement inséré dans le chiffre par bloc avec votre clé. Les **128 bits** résultants sont alors traités comme un flux de clé. Ce flux de clé est ensuite combiné par une opération **XOR** avec le texte en clair pour produire le texte chiffré correspondant au bloc. Pour les blocs suivants, vous utilisez le flux de clé du bloc précédent comme entrée du chiffre par bloc, puis vous répétez les étapes.
 
-Si vous regardez attentivement, ce qui a été créé ici à partir du chiffrement par blocs avec le mode OFB est un chiffrement par flux. Vous générez des portions de flux de clés de 128 bits jusqu'à ce que vous obteniez la longueur du texte en clair (en éliminant les bits dont vous n'avez pas besoin dans la dernière portion de flux de clés de 128 bits). Ensuite, vous effectuez un XOR entre le flux de clés et votre message en clair pour obtenir le texte chiffré.
+En y regardant de plus près, ce qui a réellement été créé ici à partir du chiffre par bloc avec le mode **OFB** est un **chiffrement par flot**. Vous générez des portions de flux de clé de **128 bits** jusqu'à obtenir une longueur totale correspondant au texte en clair (en éliminant les bits dont vous n'avez pas besoin provenant de la dernière portion de **128 bits** du flux de clé). Vous appliquez ensuite une opération **XOR** entre le flux de clé et votre message en clair pour obtenir le texte chiffré.
 
-Dans la section précédente sur le chiffrement par flux, j'ai indiqué que vous produisiez un flux de clés à l'aide d'une clé privée. Pour être exact, il ne doit pas seulement être créé à l'aide d'une clé privée. Comme vous pouvez le voir en mode OFB, le flux de clés est produit à l'aide d'une clé privée et d'un vecteur d'initialisation.
+Dans la section précédente sur les chiffres par flot, j'ai mentionné que vous produisez un flux de clé avec l'aide d'une clé privée. Pour être précis, il n'est pas nécessaire qu'il soit créé uniquement avec une clé privée. Comme vous pouvez le constater avec le mode **OFB**, le flux de clé est produit avec l'aide d'une clé privée et d'un vecteur d’initialisation.
 
-Comme pour le mode CBC, il est important de sélectionner un nonce pseudo-aléatoire ou aléatoire pour le vecteur d'initialisation chaque fois que vous utilisez un chiffrement par blocs en mode OFB. Sinon, la même chaîne de messages de 128 bits envoyée dans différentes communications sera chiffrée de la même manière. C'est l'une des façons de créer un chiffrement probabiliste avec un chiffrement par flux.
+Notez qu’à l’instar du mode **CBC**, il est important de sélectionner un **nonce pseudorandomisé ou aléatoire** comme vecteur d’initialisation chaque fois que vous utilisez un chiffre par bloc en mode **OFB**. Sinon, la même chaîne de message de **128 bits** envoyée dans des communications différentes sera chiffrée de la même manière. C'est une façon de créer un chiffrement probabiliste avec un chiffre par flot.
 
-Certains algorithmes de chiffrement par flux n'utilisent qu'une clé privée pour créer un flux de clés. Pour ces algorithmes de chiffrement par flux, il est important d'utiliser un nonce aléatoire pour sélectionner la clé privée pour chaque instance de communication. Sinon, les résultats du chiffrement avec ces algorithmes de chiffrement de flux seront également déterministes, ce qui entraînera des problèmes de sécurité.
+Certains chiffres par flot utilisent uniquement une clé privée pour créer un flux de clé. Pour ces chiffres par flot, il est essentiel d'utiliser un **nonce aléatoire** pour sélectionner la clé privée pour chaque instance de communication. Sinon, les résultats du chiffrement avec ces chiffres par flot seront également déterministes, ce qui entraînera des problèmes de sécurité.
 
-Le chiffrement par blocs moderne le plus populaire est le **chiffrement Rijndael**. Il a remporté le concours organisé par le National Institute of Standards and Technology (NIST) entre 1997 et 2000 pour remplacer une norme de chiffrement plus ancienne, la **norme de chiffrement des données** (**DES**).
+Le chiffre par bloc moderne le plus populaire est le **chiffre de Rijndael**. Il a été sélectionné parmi quinze soumissions lors d'un concours organisé par le **National Institute of Standards and Technology (NIST)** entre **1997 et 2000** afin de remplacer un ancien standard de chiffrement, le **Data Encryption Standard (DES)**.
 
-Le chiffrement Rijndael peut être utilisé avec différentes spécifications pour la longueur des clés et la taille des blocs, ainsi que dans différents modes de fonctionnement. Le comité du concours du NIST a adopté une version restreinte du chiffrement de Rijndael, à savoir une version qui exige des tailles de blocs de 128 bits et des longueurs de clés de 128 bits, 192 bits ou 256 bits, dans le cadre de la **norme de chiffrement avancé** (**AES**). Il s'agit en fait de la principale norme pour les applications de chiffrement symétrique. Il est si sûr que même la NSA est apparemment disposée à l'utiliser avec des clés de 256 bits pour des documents très secrets[6]. 
+Le chiffre de **Rijndael** peut être utilisé avec différentes spécifications de longueurs de clé et de tailles de bloc, ainsi qu'avec différents modes de fonctionnement. Le comité du concours du **NIST** a adopté une version restreinte du chiffre de **Rijndael** — à savoir celle qui requiert des **blocs de 128 bits** et des clés de longueur **128 bits**, **192 bits** ou **256 bits** — dans le cadre de la norme appelée **Advanced Encryption Standard (AES)**. Il s'agit vraiment de la norme principale pour les applications de chiffrement symétrique. Elle est si sécurisée que même la **NSA** semble prête à l'utiliser avec des clés de **256 bits** pour les documents classés **Top Secret**. [6]
 
-Le chiffrement par blocs AES sera expliqué en détail au *chapitre 5*.
+Le chiffre par bloc **AES** sera expliqué en détail dans le **Chapitre 5**.
 
-**Notes:**
+**Notes :**
 
-[5] L'importance du chiffrement probabiliste a été soulignée pour la première fois par Shafi Goldwasser et Silvio Micali, "Probabilistic encryption", _Journal of Computer and System Sciences_, 28 (1984), 270-99.
+[5] L’importance du chiffrement probabiliste a été soulignée pour la première fois par **Shafi Goldwasser et Silvio Micali**, « Probabilistic encryption », *Journal of Computer and System Sciences*, **28 (1984), 270–99**.
 
-[6] Voir NSA, "Commercial National Security Algorithm Suite", [https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm](https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm).
+[6] Voir **NSA**, "Commercial National Security Algorithm Suite", [https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm](https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm).
 
 ## Dissiper la confusion
-
 <chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
 
-La confusion concernant la distinction entre les chiffrements par blocs et les chiffrements par flots est due au fait que les gens comprennent parfois que le terme chiffrements par blocs se réfère spécifiquement à un *chiffrement par blocs avec un mode de chiffrement par blocs*.
+La confusion concernant la distinction entre les **chiffrements par bloc** et les **chiffrements par flot** provient du fait que certaines personnes comprennent parfois le terme **chiffrement par bloc** comme faisant spécifiquement référence à un **chiffrement par bloc utilisant un mode de chiffrement par bloc**.
 
-Prenons les modes ECB et CBC de la section précédente. Ces modes exigent spécifiquement que les données à chiffrer soient divisibles par la taille du bloc (ce qui signifie qu'il peut être nécessaire d'utiliser un tampon pour le message d'origine). En outre, dans ces modes, les données sont également traitées directement par le chiffrement par bloc (et pas seulement combinées avec le résultat d'une opération de chiffrement par bloc comme dans le mode OFB).
+Considérons les modes **ECB** et **CBC** mentionnés dans la section précédente. Ceux-ci exigent spécifiquement que les données à chiffrer puissent être divisées par la taille du bloc (ce qui signifie que vous devrez peut-être utiliser un remplissage pour le message d'origine). De plus, les données dans ces modes sont également traitées directement par le chiffre par bloc (et non pas simplement combinées avec le résultat d'une opération de chiffre par bloc comme dans le mode **OFB**).
 
-Par conséquent, on peut également définir un **chiffrement par blocs** comme tout système de chiffrement qui opère sur des blocs de longueur fixe du message à la fois (où tout bloc doit être plus long qu'un octet, sinon il s'effondre en un chiffrement par flux). Les données à chiffrer et le texte chiffré doivent être répartis uniformément dans cette taille de bloc. En général, la taille du bloc est de 64, 128, 192 ou 256 bits. En revanche, un algorithme de chiffrement par flux peut chiffrer n'importe quel message par morceaux d'un bit ou d'un octet à la fois.
+Ainsi, de manière alternative, vous pouvez définir un **chiffrement par bloc** comme tout schéma de chiffrement qui fonctionne sur des blocs de longueur fixe du message à la fois (où chaque bloc doit être plus long qu'un octet, sinon il se réduit à un chiffre par flot). À la fois les données à chiffrer et le texte chiffré doivent pouvoir être divisés uniformément selon cette taille de bloc. En général, la taille des blocs est de **64, 128, 192 ou 256 bits**. Par contraste, un chiffre par flot peut chiffrer des messages de toute longueur en les découpant en morceaux de **1 bit ou 1 octet** à la fois.
 
-Avec cette compréhension plus spécifique du chiffrement par blocs, on peut en effet affirmer que les schémas de chiffrement modernes sont soit des chiffrages par flux, soit des chiffrages par blocs. À partir de maintenant, j'utiliserai le terme "chiffrement par blocs" dans son sens le plus général, sauf indication contraire.
+Avec cette compréhension plus spécifique d'un **chiffrement par bloc**, vous pouvez effectivement affirmer que les schémas de chiffrement modernes sont soit des **chiffrements par flot**, soit des **chiffrements par bloc**. À partir de maintenant, j'utiliserai le terme **chiffrement par bloc** dans son sens général, sauf indication contraire.
 
-La discussion sur le mode OFB dans la section précédente soulève également un autre point intéressant. Certains algorithmes de chiffrement de flux sont construits à partir d'algorithmes de chiffrement par blocs, comme Rijndael avec OFB. D'autres, comme Salsa20 et ChaCha, ne sont pas créés à partir de chiffrages par blocs. On pourrait appeler ces derniers **chiffres de flux primitifs**. (Il n'existe pas vraiment de terme normalisé pour désigner ces algorithmes de chiffrement)
+La discussion sur le **mode OFB** dans la section précédente soulève également un autre point intéressant. Certains chiffres par flot sont construits à partir de chiffres par bloc, comme **Rijndael avec le mode OFB**. D'autres, comme **Salsa20** et **ChaCha**, ne sont pas créés à partir de chiffres par bloc. Vous pouvez appeler ces derniers des **chiffrements par flot primitifs**. (Il n'existe pas vraiment de terme standardisé pour désigner ces chiffres par flot.)
 
-Lorsque l'on parle des avantages et des inconvénients des algorithmes de chiffrement par flot et des algorithmes de chiffrement par bloc, on compare généralement les algorithmes de chiffrement par flot primitifs aux systèmes de chiffrement basés sur les algorithmes de chiffrement par bloc.
+Lorsque les gens parlent des avantages et des inconvénients des **chiffrements par flot** et des **chiffrements par bloc**, ils comparent généralement des **chiffrements par flot primitifs** à des **schémas de chiffrement basés sur des chiffres par bloc**.
 
-Alors qu'il est toujours possible de construire facilement un algorithme de chiffrement par flux à partir d'un algorithme de chiffrement par bloc, il est généralement très difficile de construire un algorithme de chiffrement par bloc (tel que le mode CBC) à partir d'un algorithme de chiffrement par flux primitif.
+Bien que vous puissiez toujours construire facilement un chiffre par flot à partir d'un chiffre par bloc, il est généralement très difficile de construire une sorte de structure avec un mode de chiffrement par bloc (comme avec le mode **CBC**) à partir d'un **chiffre par flot primitif**.
 
-À partir de cette discussion, vous devriez maintenant comprendre la *Figure 8*. Elle donne un aperçu des schémas de chiffrement symétrique. Nous utilisons trois types de systèmes de chiffrement : les algorithmes de chiffrement de flux primitifs, les algorithmes de chiffrement de flux par blocs et les algorithmes de chiffrement par blocs en mode bloc (également appelés "algorithmes de chiffrement par blocs" dans le diagramme).
+Grâce à cette discussion, vous devriez maintenant comprendre la **Figure 8**. Elle fournit un aperçu des **schémas de chiffrement symétriques**. Nous utilisons trois types de schémas de chiffrement : les chiffrements par flot primitifs, les chiffrements par flot basés sur des chiffres par bloc, et les chiffrements par bloc avec un mode de chiffrement par bloc (également appelés « chiffres par bloc » dans le diagramme).
 
-*Figure 8 : Vue d'ensemble des schémas de chiffrement symétrique*
+*Figure 8 : Aperçu des schémas de chiffrement symétriques*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8 : Aperçu des schémas de chiffrement symétriques](assets/Figure4-8.webp "Figure 8 : Aperçu des schémas de chiffrement symétriques")
 
-## Codes d'authentification des messages
 
+## Codes d’authentification de message (MAC)
 <chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
 
-Le chiffrement concerne le secret. Mais la cryptographie s'intéresse également à des thèmes plus larges, tels que l'intégrité, l'authenticité et la non-répudiation des messages. Les **codes d'authentification des messages** (MAC) sont des systèmes cryptographiques à clé symétrique qui assurent l'authenticité et l'intégrité des communications.
+Le chiffrement concerne la confidentialité. Mais la cryptographie traite également de thèmes plus larges, tels que **l’intégrité des messages**, **l’authenticité** et la **non-répudiation**. Les **codes d’authentification de message (MAC)** sont des schémas cryptographiques symétriques qui soutiennent l’authenticité et l’intégrité dans les communications.
 
-Pourquoi la communication a-t-elle besoin d'autre chose que du secret ? Supposons que Bob envoie un message à Alice en utilisant un chiffrement pratiquement incassable. Tout attaquant qui intercepte ce message ne sera pas en mesure d'obtenir des informations significatives sur son contenu. Cependant, l'attaquant dispose encore d'au moins deux autres vecteurs d'attaque :
+Pourquoi serait-il nécessaire de garantir autre chose que la confidentialité dans une communication ? Supposons que Bob envoie un message à Alice en utilisant un chiffrement pratiquement incassable. Tout attaquant interceptant ce message ne pourra pas obtenir d’informations significatives sur son contenu. Cependant, l’attaquant dispose tout de même d’au moins deux autres vecteurs d’attaque possibles :
 
-1. Elle pourrait intercepter le texte chiffré, en modifier le contenu et l'envoyer à Alice.
+1. Elle pourrait intercepter le texte chiffré, en modifier le contenu, puis transmettre le texte chiffré altéré à Alice.
+2. Elle pourrait bloquer entièrement le message de Bob et envoyer son propre texte chiffré créé de toutes pièces.
 
-2. Elle pourrait bloquer entièrement le message de Bob et envoyer son propre texte chiffré.
+Dans ces deux cas, l’attaquant n’a peut-être aucune idée du contenu des textes chiffrés (1) et (2). Mais elle pourrait tout de même causer des dommages importants de cette manière. C’est là que les **codes d’authentification de message (MAC)** deviennent essentiels.
 
-Dans ces deux cas, l'attaquant pourrait ne pas avoir d'informations sur le contenu des textes chiffrés (1) et (2). Mais il pourrait tout de même causer des dommages importants de cette manière. C'est là que les codes d'authentification des messages prennent toute leur importance.
+Les **codes d’authentification de message (MAC)** sont définis de manière approximative comme des **schémas cryptographiques symétriques** comprenant trois algorithmes : un **algorithme de génération de clé**, un **algorithme de génération de tag**, et un **algorithme de vérification**. Un **MAC** sécurisé garantit que les tags sont **existentiellement infalsifiables** pour tout attaquant — c’est-à-dire qu'il est impossible de créer un tag valide pour un message sans posséder la clé privée.
 
-Les codes d'authentification des messages sont définis de manière générale comme des schémas cryptographiques symétriques comportant trois algorithmes : un algorithme de génération de clés, un algorithme de génération de balises et un algorithme de vérification. Un MAC sécurisé garantit que les balises sont **existentiellement infalsifiables** pour tout attaquant, c'est-à-dire qu'il ne peut pas créer avec succès une balise sur le message qui est vérifié, à moins qu'il ne possède la clé privée.
+Bob et Alice peuvent contrer la manipulation d’un message particulier en utilisant un **MAC**. Supposons pour le moment qu’ils ne se préoccupent pas de la confidentialité. Ils veulent simplement s’assurer que le message reçu par Alice provient bien de Bob et n’a pas été modifié de quelque manière que ce soit.
 
-Bob et Alice peuvent lutter contre la manipulation d'un message particulier à l'aide d'un MAC. Supposons pour l'instant qu'ils ne se soucient pas du secret. Ils veulent seulement s'assurer que le message reçu par Alice provient bien de Bob et qu'il n'a pas été modifié de quelque manière que ce soit.
-
-Le processus est décrit dans la *Figure 9*. Pour utiliser un **MAC** (Message Authentication Code), ils doivent d'abord générer une clé privée $K$ qu'ils partagent tous les deux. Bob crée une étiquette $T$ pour le message en utilisant la clé privée $K$. Il envoie ensuite le message ainsi que l'étiquette du message à Alice. Elle peut alors vérifier que Bob a bien créé la balise en soumettant la clé privée, le message et la balise à un algorithme de vérification.
+Le processus est illustré dans la *Figure 9*. Pour utiliser un **MAC** (**Code d’Authentification de Message**), ils commencent par générer une **clé privée $K$** qui est partagée entre eux deux. Bob crée un **tag $T$** pour le message en utilisant la clé privée $K$. Il envoie ensuite le message ainsi que le tag du message à Alice. Elle peut alors vérifier que Bob a bien généré le tag en passant la clé privée, le message et le tag dans un algorithme de vérification.
 
 *Figure 9 : Vue d'ensemble des schémas de chiffrement symétrique*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9 : Vue d'ensemble des schémas de chiffrement symétrique](assets/Figure4-9.webp "Figure 9 : Vue d'ensemble des schémas de chiffrement symétrique")
 
-En raison de l'infalsifiabilité **existentielle**, un attaquant ne peut pas modifier le message $M$ de quelque manière que ce soit ou créer son propre message avec une balise valide. Il en est ainsi même si l'attaquant observe les étiquettes de nombreux messages entre Bob et Alice qui utilisent la même clé privée. Tout au plus, un attaquant pourrait empêcher Alice de recevoir le message $M$ (un problème que la cryptographie ne peut pas résoudre).
+En raison de l’**existentielle infalsifiabilité**, un attaquant ne peut ni modifier le message $M$, ni créer son propre message avec un tag valide. Cela reste vrai même si l’attaquant observe les tags de nombreux messages échangés entre Bob et Alice utilisant la même clé privée. Au mieux, un attaquant pourrait bloquer Alice pour l’empêcher de recevoir le message $M$ (un problème que la cryptographie ne peut pas résoudre).
 
-Un MAC garantit qu'un message a effectivement été créé par Bob. Cette authenticité implique automatiquement l'intégrité du message, c'est-à-dire que si Bob a créé un message, alors, ipso facto, il n'a été modifié en aucune façon par un attaquant. Ainsi, à partir de maintenant, toute préoccupation concernant l'authentification devrait être automatiquement comprise comme impliquant une préoccupation concernant l'intégrité.
+Un **MAC** garantit qu’un message a bien été créé par Bob. Cette authenticité implique automatiquement l’intégrité du message — c’est-à-dire que si Bob a créé un message, alors, ipso facto, il n’a pas été altéré de quelque manière que ce soit par un attaquant. À partir de maintenant, toute préoccupation concernant l’authenticité doit être automatiquement comprise comme impliquant une préoccupation pour l’intégrité.
 
-Bien que j'aie établi une distinction entre l'authenticité et l'intégrité des messages dans mon analyse, il est également courant d'utiliser ces termes comme synonymes. Ils renvoient donc à l'idée de messages qui ont été créés par un expéditeur particulier et qui n'ont subi aucune modification. Dans cet esprit, les codes d'authentification des messages sont souvent appelés **codes d'intégrité des messages**.
+Bien que j’aie distingué **l’authenticité des messages** et **l’intégrité** dans ma discussion, il est également courant d’utiliser ces termes comme synonymes. Ils désignent alors l’idée que les messages ont été à la fois créés par un expéditeur particulier et qu’ils n’ont pas été modifiés de quelque manière que ce soit. Dans cet esprit, les **codes d’authentification de message (MAC)** sont fréquemment appelés aussi **codes d’intégrité de message**.
+
 
 ## Chiffrement authentifié
-
 <chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
 
-En règle générale, on souhaite garantir à la fois le secret et l'authenticité des communications, c'est pourquoi les systèmes de chiffrement et les systèmes MAC sont généralement utilisés conjointement.
+En général, vous souhaitez garantir à la fois la **confidentialité** et l’**authenticité** dans une communication, c’est pourquoi les **schémas de chiffrement** et les **schémas de MAC** sont souvent utilisés ensemble.
 
-Un **système de chiffrement authentifié** est un système qui combine le chiffrement avec un MAC d'une manière hautement sécurisée. Plus précisément, il doit répondre aux normes d'infalsifiabilité existentielle ainsi qu'à une notion très forte de secret, à savoir une notion qui résiste aux **attaques par texte choisi**. [7]
+Un **schéma de chiffrement authentifié** est un schéma qui combine le chiffrement avec un MAC de manière hautement sécurisée. Spécifiquement, il doit répondre aux normes d’**existentielle infalsifiabilité** ainsi qu’à une notion très stricte de confidentialité, à savoir une résistance aux **attaques par texte chiffré choisi**. [7]
 
-Pour qu'un système de chiffrement soit résistant aux attaques par texte choisi, il doit répondre aux normes de **non-malléabilité** : c'est-à-dire que toute modification d'un texte chiffré par un attaquant doit produire soit un texte chiffré invalide, soit un texte déchiffré qui n'a aucun rapport avec le texte original. [8]
+Pour qu’un schéma de chiffrement résiste aux attaques par texte chiffré choisi, il doit répondre aux critères de **non-malléabilité** : c’est-à-dire que toute modification d’un texte chiffré par un attaquant doit soit produire un texte chiffré invalide, soit se déchiffrer en un texte clair qui n’a aucun rapport avec l’original. [8]
 
-Comme un schéma de chiffrement authentifié garantit qu'un texte chiffré créé par un attaquant est toujours invalide (puisque l'étiquette ne sera pas vérifiée), il répond aux normes de résistance aux attaques par texte chiffré choisi. Il est intéressant de noter qu'il est possible de prouver qu'un schéma de chiffrement authentifié peut toujours être créé à partir de la combinaison d'un MAC non falsifiable et d'un schéma de chiffrement qui répond à une notion de sécurité moins stricte, connue sous le nom de **sécurité contre les attaques par texte choisi**.
+Comme un **schéma de chiffrement authentifié** garantit qu’un texte chiffré créé par un attaquant est toujours invalide (puisque le tag ne sera pas vérifié), il répond aux critères de résistance aux attaques par texte chiffré choisi. Il est intéressant de noter que l’on peut démontrer qu’un schéma de chiffrement authentifié peut toujours être créé en combinant un **MAC existentiellement infalsifiable** et un schéma de chiffrement répondant à une notion de sécurité moins stricte, appelée **sécurité contre les attaques par texte clair choisi**.
 
-Nous n'entrerons pas dans tous les détails de la construction des systèmes de chiffrement authentifiés. Mais il est important de connaître deux détails de leur construction.
+Nous n’entrerons pas dans tous les détails de la construction des schémas de chiffrement authentifié. Cependant, il est important de connaître deux points essentiels de leur construction.
 
-Tout d'abord, un système de chiffrement authentifié traite d'abord le chiffrement et crée ensuite une étiquette de message sur le texte chiffré. Il s'avère que d'autres approches, telles que la combinaison du texte chiffré avec une balise sur le texte en clair, ou la création d'une balise puis le chiffrement du texte en clair et de la balise, ne sont pas sûres. En outre, les deux opérations disposent de leur propre clé privée sélectionnée de manière aléatoire, sans quoi votre sécurité est gravement compromise.
+Premièrement, un schéma de chiffrement authentifié procède d’abord au chiffrement, puis génère un tag de message sur le texte chiffré. Il s’avère que d’autres approches — telles que combiner le texte chiffré avec un tag basé sur le texte clair, ou créer d’abord un tag puis chiffrer à la fois le texte clair et le tag — sont peu sécurisées. De plus, chaque opération doit disposer de sa propre clé privée sélectionnée aléatoirement, sans quoi la sécurité est gravement compromise.
 
-Le principe susmentionné s'applique plus généralement : *vous devez toujours utiliser des clés distinctes lorsque vous combinez des schémas cryptographiques de base*.
+Ce principe s’applique de manière plus générale : **vous devez toujours utiliser des clés distinctes lorsque vous combinez des schémas cryptographiques de base**.
 
-Un schéma de chiffrement authentifié est illustré à la *figure 10*. Bob crée d'abord un texte chiffré $C$ à partir du message $M$ en utilisant une clé choisie au hasard $K_C$. Il crée ensuite une étiquette de message $T$ en faisant passer le texte chiffré et une autre clé choisie au hasard $K_T$ par l'algorithme de génération d'étiquettes. Le texte chiffré et la balise de message sont envoyés à Alice.
+Un **schéma de chiffrement authentifié** est illustré dans la *Figure 10*. Bob crée d’abord un texte chiffré $C$ à partir du message $M$ en utilisant une clé aléatoire $K_C$. Il génère ensuite un tag de message $T$ en passant le texte chiffré et une autre clé aléatoire $K_T$ par l’algorithme de génération de tag. Bob envoie ensuite le texte chiffré et le tag de message à Alice.
 
-Alice commence par vérifier si l'étiquette est valide compte tenu du texte chiffré $C$ et de la clé $K_T$. Si elle est valide, elle peut alors déchiffrer le message à l'aide de la clé $K_C$. Non seulement elle est assurée d'une notion très forte de secret dans leurs communications, mais elle sait également que le message a été créé par Bob.
+Alice commence par vérifier si le tag est valide, en tenant compte du texte chiffré $C$ et de la clé $K_T$. Si le tag est valide, elle peut ensuite déchiffrer le message en utilisant la clé $K_C$. Non seulement elle est assurée d’une confidentialité robuste dans leur communication, mais elle sait aussi que le message a bien été créé par Bob.
 
-*Figure 10 : Schéma de chiffrement authentifié*
+*Figure 10 : Un schéma de chiffrement authentifié*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10 : Un schéma de chiffrement authentifié](assets/Figure4-10.webp "Figure 10 : Un schéma de chiffrement authentifié")
 
-Comment les MAC sont-ils créés ? Bien que les MAC puissent être créés par de multiples méthodes, un moyen courant et efficace consiste à utiliser des **fonctions de hachage cryptographiques**.
+**Comment sont créés les MAC ?**
 
-Nous présenterons les fonctions de hachage cryptographique plus en détail au *Chapitre 6*. Pour l'instant, sachez simplement qu'une **fonction de hachage** est une fonction efficacement calculable qui prend des entrées de taille arbitraire et produit des sorties de longueur fixe. Par exemple, la fonction de hachage populaire **SHA-256** (secure hash algorithm 256) génère toujours une sortie de 256 bits, quelle que soit la taille de l'entrée. Certaines fonctions de hachage, comme SHA-256, ont des applications utiles en cryptographie.
+Bien que les MAC puissent être créés par plusieurs méthodes, une manière courante et efficace de les générer est via les **fonctions de hachage cryptographiques**.
 
-Le type d'étiquette le plus courant produit à l'aide d'une fonction de hachage cryptographique est le **code d'authentification de message basé sur le hachage** (HMAC). Le processus est décrit dans la *figure 11*. Une partie produit deux clés distinctes à partir d'une clé privée $K$, la clé intérieure $K_1$ et la clé extérieure $K_2$. Le texte en clair $M$ ou le texte chiffré $C$ est ensuite haché avec la clé interne. Le résultat $T'$ est ensuite haché avec la clé extérieure pour produire l'étiquette de message $T$.
+Nous introduirons les fonctions de hachage cryptographiques de manière plus détaillée dans le *Chapitre 6*. Pour l’instant, sachez simplement qu’une **fonction de hachage** est une fonction calculable efficacement qui prend en entrée des données de taille arbitraire et produit une sortie de longueur fixe. Par exemple, la fonction de hachage populaire **SHA-256** (Secure Hash Algorithm 256) génère toujours une sortie de **256 bits**, quelle que soit la taille de l’entrée. Certaines fonctions de hachage, telles que **SHA-256**, ont des applications utiles en cryptographie.
 
-Il existe une palette de fonctions de hachage qui peuvent être utilisées pour créer un HMAC. La fonction de hachage la plus couramment utilisée est SHA-256.
+Le type de tag le plus couramment produit par une fonction de hachage cryptographique est le **code d’authentification de message basé sur un hachage** (**HMAC**). Le processus est illustré dans la *Figure 11*. Une partie génère deux clés distinctes à partir d’une clé privée $K$, une **clé interne $K_1$** et une **clé externe $K_2$**. Le texte clair $M$ ou le texte chiffré $C$ est ensuite haché avec la clé interne. Le résultat $T’$ est ensuite haché avec la clé externe pour produire le tag de message $T$.
+
+Il existe un ensemble de fonctions de hachage qui peuvent être utilisées pour créer un **HMAC**. La fonction de hachage la plus couramment utilisée est **SHA-256**.
 
 *Figure 11 : HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11 : HMAC](assets/Figure4-11.webp "Figure 11 : HMAC")
 
-**Notes:**
+**Notes :**
 
-[7] Les résultats spécifiques discutés dans cette section sont tirés de Katz et Lindell, pp. 131-47.
+[7] Les résultats spécifiques discutés dans cette section proviennent de Katz et Lindell, pp. 131–47.
 
-[8] Techniquement, la définition des attaques par texte chiffré choisi est différente de la notion de non-malléabilité. Mais vous pouvez montrer que ces deux notions de sécurité sont équivalentes.
+[8] Techniquement, la définition des attaques par texte chiffré choisi est différente de celle de la notion de non-malléabilité. Cependant, il est possible de montrer que ces deux notions de sécurité sont équivalentes.
 
 ## Sessions de communication sécurisées
-
 <chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
 
-Supposons que deux parties participent à une session de communication et qu'elles envoient plusieurs messages dans les deux sens.
+Supposons que deux parties soient engagées dans une session de communication où elles échangent plusieurs messages successivement.
 
-Un système de chiffrement authentifié permet au destinataire d'un message de vérifier qu'il a été créé par son partenaire lors de la session de communication (tant que la clé privée n'a pas été divulguée). Cela fonctionne assez bien pour un seul message. Toutefois, en règle générale, deux parties s'envoient des messages dans un sens et dans l'autre au cours d'une session de communication. Dans ce cas, un système de chiffrement simple et authentifié tel que celui décrit dans la section précédente n'offre pas une sécurité suffisante.
+Un schéma de chiffrement authentifié permet au destinataire d'un message de vérifier qu'il a bien été créé par son partenaire au cours de la session de communication (à condition que la clé privée ne soit pas compromise). Cela fonctionne correctement pour un seul message. Toutefois, lorsque deux parties échangent plusieurs messages au sein d’une session de communication, un simple schéma de chiffrement authentifié tel que décrit dans la section précédente ne suffit pas à garantir une sécurité adéquate.
 
-La principale raison en est qu'un système de chiffrement authentifié n'offre aucune garantie que le message a bien été envoyé par l'agent qui l'a créé au cours d'une session de communication. Considérons les trois vecteurs d'attaque suivants :
+La principale raison est qu’un schéma de chiffrement authentifié ne garantit pas que le message a réellement été envoyé par l’agent qui l’a créé au sein de la session de communication. Considérons les trois vecteurs d’attaque suivants :
 
-1. **Attaque par relecture** : Un attaquant envoie à nouveau un texte chiffré et une balise qu'il a interceptés entre deux parties à un moment antérieur.
+1. **Attaque par rejeu** : Un attaquant renvoie un texte chiffré et un tag qu'il a interceptés entre deux parties à un moment antérieur.
+2. **Attaque par réorganisation** : Un attaquant intercepte deux messages à des moments différents et les transmet au destinataire dans un ordre inversé.
+3. **Attaque par réflexion** : Un attaquant observe un message envoyé de A vers B, puis envoie ce même message à A.
 
-2. **Attaque par réordonnancement** : Un attaquant intercepte deux messages à des moments différents et les envoie au destinataire dans l'ordre inverse.
+Même si l’attaquant n’a aucune connaissance du texte chiffré et ne peut pas générer de textes chiffrés falsifiés, ces attaques peuvent tout de même causer des dommages importants dans les communications.
 
-3. **Attaque par réflexion** : Un attaquant observe un message envoyé de A à B et envoie également ce message à A.
+Imaginons, par exemple, qu’un message spécifique entre les deux parties implique un transfert de fonds. Une attaque par rejeu pourrait entraîner un transfert supplémentaire des fonds. Un simple schéma de chiffrement authentifié ne fournit aucune défense contre de telles attaques.
 
-Bien que l'attaquant n'ait pas connaissance du texte chiffré et ne puisse pas créer des textes chiffrés usurpés, les attaques susmentionnées peuvent toujours causer des dommages importants aux communications.
+Heureusement, ces types d’attaques peuvent être efficacement contrés dans une session de communication en utilisant des **identifiants** et des **indicateurs de temps relatifs**.
 
-Supposons, par exemple, qu'un message particulier entre les deux parties implique le transfert de fonds financiers. Une attaque par rejeu pourrait transférer les fonds une seconde fois. Un système de chiffrement authentifié classique n'a aucune défense contre de telles attaques.
+Les identifiants peuvent être ajoutés au message en clair avant son chiffrement. Cela permet d'empêcher les attaques par réflexion. Un indicateur de temps relatif peut, par exemple, être un numéro de séquence dans une session de communication particulière. Chaque partie ajoute un numéro de séquence à un message avant de le chiffrer, permettant au destinataire de connaître l'ordre d'envoi des messages. Cela élimine la possibilité d’attaques par réorganisation et d’attaques par rejeu. Tout message qu’un attaquant essaierait de transmettre plus tard aurait un ancien numéro de séquence, ce qui permettrait au destinataire de savoir qu’il ne doit pas traiter ce message à nouveau.
 
-Heureusement, ces types d'attaques peuvent être facilement atténués dans une session de communication en utilisant des **identifiants** et des **indicateurs de temps relatif**.
+Pour illustrer comment fonctionnent les sessions de communication sécurisées, prenons à nouveau l’exemple d’Alice et Bob. Ils échangent au total quatre messages. Le schéma de chiffrement authentifié avec identifiants et numéros de séquence fonctionne comme décrit ci-dessous dans la *Figure 12*.
 
-Des identificateurs peuvent être ajoutés au message en clair avant le chiffrement. Cela empêcherait toute attaque par réflexion. Un indicateur de temps relatif peut, par exemple, être un numéro de séquence dans une session de communication particulière. Chaque partie ajoute un numéro de séquence à un message avant le chiffrement, de sorte que le destinataire sait dans quel ordre les messages ont été envoyés. Cela élimine la possibilité d'attaques par réordonnancement. Il élimine également les attaques par rejeu. Tout message envoyé par un attaquant en aval portera un ancien numéro de séquence, et le destinataire saura qu'il ne doit pas traiter le message à nouveau.
-
-Pour illustrer le fonctionnement des sessions de communication sécurisées, supposons à nouveau Alice et Bob. Ils envoient un total de quatre messages dans les deux sens. Vous pouvez voir comment fonctionne un système de chiffrement authentifié avec des identifiants et des numéros de séquence dans la *Figure 11* ci-dessous.
-
-La session de communication commence par l'envoi par Bob d'un texte chiffré $C_{0,B}$ à Alice avec une étiquette de message $T_{0,B}$. Le texte chiffré contient le message, ainsi qu'un identifiant (BOB) et un numéro de séquence (0). La balise $T_{0,B}$ est apposée sur l'ensemble du texte chiffré. Dans leurs communications ultérieures, Alice et Bob conservent ce protocole, en mettant à jour les corps si nécessaire.
+La session de communication commence par Bob qui envoie un texte chiffré $C_{0,B}$ à Alice accompagné d’un tag de message $T_{0,B}$. Le texte chiffré contient le message, ainsi qu'un identifiant (**BOB**) et un numéro de séquence (**0**). Le tag $T_{0,B}$ est calculé sur l'ensemble du texte chiffré. Lors de leurs communications suivantes, Alice et Bob suivent ce protocole en mettant à jour les champs nécessaires.
 
 *Figure 12 : Une session de communication sécurisée*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12 : Une session de communication sécurisée](assets/Figure4-12.webp "Figure 12 : Une session de communication sécurisée")
+
 
 # RC4 et AES
 
